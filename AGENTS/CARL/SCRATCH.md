@@ -1,52 +1,42 @@
 # CARL SCRATCH
-**Last session:** 2026-05-03 ~19:00 UTC (PM2)
-**Type:** Boot review + STATUS hygiene + boot-protocol cleanup + KB-266/267 logged
+**Last session:** 2026-05-03 ~22:00 UTC (PM3)
+**Type:** AAA pump refresh + Iran cluster update — CRL-08 disposition NEAR-BREACH NOT-YET
 
-**PRIORITY-1:** **AAA pump refresh — $4.50 breach probable.** May 2 latest $4.433 / gap $0.067. Sunday May 3 not refreshed this session (work was hygiene, not data). At weekly pace breach was forecast May 4-5 — likely ALREADY breached when next session boots. Disposition: confirm threshold cross + start 2-week sustainability test for CRL-08 CONFIRMED. If sustained 2+ weeks, consider Vector #5 thesis upgrade.
+**PRIORITY-1:** **AAA pump Mon May 4 refresh — first weekday post-Brent-pullback.** Brent -5.12% Friday May 2 close ($108.17) should transmit to pump softening Mon-Wed at 3-4d lag (per KB-CARL-259 acute-regime model). Two scenarios: (a) softening confirmed → pump stabilizes $4.44-4.49 short of clean breach, CRL-08 timing widens beyond Tue May 5; (b) Brent re-firms + Memorial Day premium loads → breach Tue/Wed, 2-week sustainability clock starts. Decisive disposition for CRL-08 lands this week.
 
 ---
 
 ## WHAT HAPPENED
 
-1. **Boot per spawn protocol** — read SCRATCH/STATUS/SCHEMA/TEAM/ROADMAP. Skipped step 3c BOARD diff (no movement since Apr 29 disposition pass).
-2. **Boot file review** — Will asked for content audit of STATUS + boot sequence. Identified: (a) STATUS header bloat (~3 paragraphs of dense narrative), (b) staleness in dashboard rows, (c) Notes columns grown into mini-essays, (d) BOARD diff (step 3c) routinely skipped because nothing changes between sessions, (e) SCRATCH carried stale "~40 INDEX entries" claim that was already 0 (verified diff). Awkward step numbering 3b/3c/3d/8b cosmetic-but-vestigial.
-3. **Boot-protocol fixes (CLAUDE.md):**
-   - Step 3c BOARD diff made conditional with grep snippet — skip when INDEX hasn't moved since last `Date_Logged`. Self-suppressing rule replaces broken "always do it but routinely skipped."
-   - Spawn protocol step numbering renumbered 3/3b/3c/3d/4/5/6/7/8/8b/9 → 3/4/5/6/7/8/9/10/11/12/13. FILES table ROADMAP refs updated (step 6 / step 12).
-4. **STATUS content review** (with KB cross-verification) — confirmed all 25+ recent KB rows backing STATUS narrative exist; flagged 2 stale STATUS-only counter-signals (auto + homeowners insurance CPI) needing fresh data before delete/keep decision.
-5. **Quick web fetch** (Will approved) — BLS Mar 2026 CPI insurance components + ALL Q1 2026 (released today). Auto CPI 0.8% YoY (confirms KB-CARL-233); tenants 7.4% YoY (new); ALL Q1 CR 82.0 turnaround + homeowners profit flip + POLLY-P05 confirmed.
-6. **KB additions** (Python append, schema-clean):
-   - KB-CARL-266: ALL Q1 2026 (CR 82.0, homeowners flip, POLLY-P05 confirmed)
-   - KB-CARL-267: BLS Mar 2026 CPI insurance (motor 0.8% YoY, tenants 7.4% YoY)
-7. **STATUS edits 1-16:**
-   - Header 3-paragraph blob → 2 lines + CHANGELOG pointer
-   - THESIS section v2.1 → v2.5.1 refresh; **counter-signals line DELETED** (architecturally — counter-evidence lives in handoff_RED/COUNTER_LOG.md per v2.5 stripping); +masking framework + K-shape Selection sibling refs
-   - Q1 NIPA 5 rows → 2 (consolidated)
-   - Notes-column trims: gas pump, diesel, Iran cluster, Brent, WTI, Qatar LNG, ALLY Q1, SYF, COF, DHI, PHM, Case-Shiller, Sweet, UMich, Non-Bank Servicer
-   - **NEW Insurance/Healthcare section** between Housing and Macro: UNH/ELV moved out of MACRO + ALL Q1 (KB-266) + Auto/Tenants CPI (KB-267) + CA FAIR Plan (from KB-233) — 6 rows total
-   - Danger Window 8 resolved rows → 1 "Recently fired (last 30d)" digest + chronological reorder + Apr 28 Rithm dedupe
-   - PREDICTIONS +CRL-22 (insurer MLR 60%) +CRL-23 (FY27 builder GM 70%) mirror from PREDICTIONS.tsv
-   - EXIT RULES "Next catalysts" forward-looking only; added missing (May 8 NFP, May 13 CPI, NY Fed Q1 HHDC)
-8. **SCRATCH inline correction** — "~40 INDEX entries" stale claim → "INDEX↔BOARD-LOG synced 0 gap, verified May 3 PM2 boot. Per CLAUDE.md 3c, skip BOARD diff next session unless INDEX mtime advances."
-9. **Commit + push** (34b0ede8) — CARL: STATUS hygiene pass + boot-protocol cleanup + KB-266/267.
+1. **Boot per spawn protocol** — git pull clean; read SCRATCH/STATUS/SCHEMA/TEAM/ROADMAP. Skipped BOARD diff per new conditional rule (INDEX mtime Apr 29 11:47 < BOARD_LOG last disposition Apr 29 19:51, 0 gap holds).
+2. **Will requested readout of remaining work** — answered with breakdown: immediate (AAA + Iran), this week (May 5-8 catalysts), next 2 weeks (May 13-30), v2.5.1 hardening 8 items, workbook hardening Item #3 + sub-agent standardization, backlog.
+3. **Plan-mode outline approved** — most-urgent first: AAA pump + Iran/Brent refresh.
+4. **Live data fetch:** AAA pump $4.446 + diesel $5.642 (gasprices.aaa.com); Brent $108.17 + WTI $101.94 May 2 close (Investing.com); Iran cluster news May 1-3 (oilprice.com aggregation — Reuters/CNBC fetches failed).
+5. **CRL-08 disposition NEAR-BREACH NOT-YET:** gap to $4.50 = $0.054, deceleration trio +9.2/+4.1/+1.3¢ (partial weekend), Brent -5% Fri counter-pressure. Held 92% per workbook discipline (no reprice without close ≥$4.50 + 2-week sustainability).
+6. **KB additions** (Python append, schema-clean, 15-col):
+   - KB-CARL-268: AAA pump May 3 (A1 — state list complete this fetch, May 2 parse anomaly resolved)
+   - KB-CARL-269: Brent path May 2-3 (A2 — primary sources blocked, synthesized via Investing.com + oilprice.com)
+7. **VX-CARL-GAS-01 updated:** Current_Value $4.433 → $4.446, Last_Updated → May 3, Source → KB-CARL-268, Notes refreshed (deceleration trio + state-list-complete + Brent counter-pressure + disposition).
+8. **STATUS edits (8):** Updated timestamp; Gas Pump row (May 3 AAA + state list + NEAR-BREACH framing); Diesel row (single-digit moves both, distillate gap further compressing); Brent row (May 2 close $108.17 -5.12% on peace proposal); WTI row (spread WIDENED $6.23 mechanism finding); Iran Cluster row (bidirectional firing — peace proposal + Hormuz escort); DANGER WINDOW NOW row (May 3 disposition); Vector #5 row (NEAR-BREACH); CRL-08 prediction row (deceleration trio + counter-pressure context).
+9. **ROADMAP update:** CRL-08 thread refreshed; PM3 RECENTLY RESOLVED entry added.
+10. **Commit + push pending.**
 
 ## STATUS CHANGES
 | Item | Change |
 |------|--------|
-| `CLAUDE.md` | Step 3c BOARD diff made conditional + spawn protocol step renumber 3b/c/d→4/5/6, 8b→12 + FILES table refs |
-| `SCRATCH.md` | BOARD-LOG line corrected (this session, then re-written for next handoff) |
-| `STATUS.md` | 16 edits, 105 lines touched, +52/-53. New Insurance/Healthcare section (6 rows). 239 → 237 lines but major character-count reduction within rows |
-| `workbook/KB.tsv` | 261 → 263 (+KB-CARL-266 ALL Q1 + KB-CARL-267 BLS Mar CPI insurance) |
-| THESIS counter-signals line | DELETED — counter-evidence lives in handoff_RED/COUNTER_LOG.md (per v2.5 architectural decision May 1) |
-| BOARD diff cadence | Was: routinely skipped boot-mandatory rule. Now: conditional self-suppressing rule. Aligned with practice. |
+| `workbook/KB.tsv` | 264 → 266 (+KB-CARL-268 AAA May 3 + KB-CARL-269 Brent May 2-3) |
+| `workbook/VX.tsv` | VX-CARL-GAS-01 $4.433 → $4.446, May 2 → May 3, KB ref 264 → 268 |
+| `STATUS.md` | 8 edits (Updated, Gas Pump, Diesel, Brent, WTI, Iran Cluster, DANGER WINDOW NOW, Vector #5, CRL-08 prediction); 237 lines (unchanged) |
+| `ROADMAP.md` | CRL-08 thread last-touched May 1 → May 3 + PM3 RECENTLY RESOLVED entry |
+| CRL-08 confidence | 92% HELD (NEAR-BREACH NOT-YET; reprice deferred until breach + 2-week sustainability) |
 
 ---
 
 ## NEXT SESSION SHOULD
 
 ### IMMEDIATE (this session / 24hrs)
-1. **AAA pump refresh** — $4.50 breach probable by now. If breach confirmed, start 2-week sustainability watch for CRL-08 CONFIRMED.
-2. **Brent close monitoring** — Iran cluster still live; sustainability test ($107+ vs collapse on de-escalation).
+1. **AAA pump Mon May 4 refresh** — first weekday post-Brent-pullback; resolves whether 3-4d transmit lag softens pump or breach lands Tue/Wed.
+2. **Brent close monitoring** — Sunday futures open + Mon May 4 cash close (does the peace-proposal repricing hold or does Hormuz escort blockade re-fire it?).
 
 ### UPCOMING (this week)
 3. **May 5** — PayPal Q1 (PHAN spawn) — first under new CEO Lores.
@@ -64,7 +54,7 @@
 13. **May 28** — AFT/MOHELA status conference (STUE).
 14. **~May 30** — March monthly Core PCE — CRL-19 resolves.
 
-### v2.5.1 HARDENING (8 PENDING_VERIFY items, item #10 ✅ DONE last session)
+### v2.5.1 HARDENING (8 PENDING_VERIFY items, item #10 ✅ DONE May 3 PM)
 15. UMich triangulation (TIPS 5y5y / SPF / NY Fed 3yr against UMich 5-10Y 3.5%).
 16. Foreclosure 2019 absolute baseline (ATTOM Q1 2019 REO completions).
 17. Path C counterfactual (COF/SYF Q1'24/'25 ACL builds).
@@ -85,7 +75,7 @@
 30. HOMER spawn for Case-Shiller Feb sub-market detail (KB-CARL-261 headline only).
 31. Workbook content refresh — VX consumer rows / FLOW / STATE_DIFFUSION / BNPL_STRESS (16-17d stale).
 32. ABS_BASELINE refresh — March 10-Ds (17d stale).
-33. **POLLY refresh** — 24d stale; ALL Q1 + BLS CPI captured this session as drive-by, but full POLLY pass overdue.
+33. **POLLY refresh** — 24d stale; ALL Q1 + BLS CPI captured PM2 as drive-by, full POLLY pass overdue.
 34. 6 outbox signals from Apr 17 — defer per messaging-overhaul.
 
 ---
@@ -112,17 +102,17 @@
 
 ---
 
-## WORKBOOK HEALTH (post hygiene pass)
+## WORKBOOK HEALTH (post May 3 PM3 refresh)
 | TSV | Rows | Cols | Last Modified | Note |
 |-----|------|------|---------------|------|
-| KB | **263** | 15 | **May 3 PM2** | +KB-CARL-266 (ALL Q1) + KB-CARL-267 (BLS Mar CPI insurance) via Python append; 0 dangling KB→VX refs preserved; 0 enum / hygiene / col-count violations |
-| VX | 120 | 11 | May 3 AM | Unchanged this session |
-| SCHEMA | 15 | 7 | May 2 PM | Unchanged this session |
-| PREDICTIONS | 24 | 10 | May 3 AM | Unchanged this session (CRL-22/23 mirror added to STATUS only) |
+| KB | **266** | 15 | **May 3 PM3** | +KB-CARL-268 (AAA May 3) + KB-CARL-269 (Brent May 2-3) via Python append; 0 dangling KB→VX refs preserved; 0 enum / hygiene / col-count violations |
+| VX | 120 | 11 | **May 3 PM3** | VX-CARL-GAS-01 row updated (Current_Value $4.433 → $4.446) |
+| SCHEMA | 15 | 7 | May 2 PM | Unchanged |
+| PREDICTIONS | 24 | 10 | May 3 AM | Unchanged this session (CRL-08 reprice deferred per discipline; Notes update only in STATUS) |
 | THESIS.md | — | — | May 3 AM | Unchanged this session |
 | CHANGELOG.md | — | — | May 3 AM | Unchanged this session |
-| ROADMAP.md | — | — | **May 3 PM2** | Refreshed end-of-session for STATUS hygiene + boot-protocol cleanup resolutions |
-| STATUS.md | — | — | **May 3 PM2** | 239 → 237 lines; 16 edits; new Insurance/Healthcare section; counter-signals DELETED |
+| ROADMAP.md | — | — | **May 3 PM3** | CRL-08 thread last-touched May 1 → May 3 + PM3 RECENTLY RESOLVED entry |
+| STATUS.md | — | — | **May 3 PM3** | 237 lines (unchanged); 8 edits (Updated, gas, diesel, Brent, WTI, Iran, DW NOW, V5, CRL-08) |
 | HOMER/KB | 65 | 12 | May 2 PM3 | Unchanged this session |
 | FLOW | 24 | 9 | Apr 17 | 16d — refresh due |
 | STATE_DIFFUSION | 62 | 12 | Apr 17 | 16d |
@@ -132,12 +122,12 @@
 
 **Audit artifact:** `workbook/AUDIT_2026-05-02.md` — full audit + Items #1 / #2a / #2d / #2.5 resolution logs.
 
-**BOARD_LOG:** 105 lines, 98 dispositions. INDEX↔BOARD-LOG synced 0 gap (verified May 3 PM2 boot). Per new CLAUDE.md 3c, skip BOARD diff next session unless INDEX mtime advances.
+**BOARD_LOG:** 105 lines, 98 dispositions. INDEX↔BOARD-LOG synced 0 gap (verified May 3 PM2 boot, unchanged PM3). Per CLAUDE.md 3c, skip BOARD diff next session unless INDEX mtime advances.
 
 ---
 
 ## URGENT
 
-- **AAA pump $4.50 breach watch** — gap was $0.067 May 2; almost certainly breached by next session.
-- **Iran cluster still live** — Brent $107-110 sustained; WPR May-1 deadline expired.
-- **STATUS Brent/WTI rows show May 1 data** — need refresh on next session.
+- **AAA pump Mon May 4 refresh** — first weekday post-Brent-pullback; resolves CRL-08 timing distribution.
+- **Iran cluster bidirectional** — peace proposal vs Hormuz escort blockade firing simultaneously; Brent path Mon close decisive.
+- **CRL-08 2-week sustainability clock** — starts on first close ≥$4.50; not yet running.
