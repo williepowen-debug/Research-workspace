@@ -1,5 +1,5 @@
 # CARL STATUS
-**Updated:** 2026-05-04 ~00:30 UTC
+**Updated:** 2026-05-04 ~01:30 UTC
 **Overall:** 🔴🔴 CRITICAL — Convergence **53/70 (76%)**. Thesis **v2.5.1** (May 3): masking framework narrowed 6→4 issuers + K-shape Selection / Tariff Transmission sibling section + CRL-22/23 added. **v2.5** (May 1): Path C ACTIVE-RED (provisional), matrix expanded 12→14 vectors, score recalibrated 58/60 → 53/70 (~60% calibration + ~40% conviction reduction). Audit trail in `thesis/CHANGELOG.md`. Counter-evidence tracking moved to `handoff_RED/COUNTER_LOG.md`.
 
 *Check-in archives: `archive/status/`*
@@ -74,10 +74,13 @@
 | HY OAS | **294bps Apr 10 — STALE 23d, FRED + secondary fetches all blocked May 3.** Iran cluster + 8-session Brent streak almost certainly widened spreads beyond Apr 10 reading. Awaiting fetch path resolution. | Apr 10, FRED ⚠️STALE | 🟡 PENDING REFRESH |
 | CPI Energy YoY | **+12.5%** (+11.9% MoM index jump) | Mar 2026, BLS | 🔴 |
 | Savings Rate | **3.6%** Mar (↓40bps from Feb 4.0%; matches Dec 2025 trough = 2008 stress profile). Buffer-exhaustion regime. PCE +0.9% MoM nominal DESPITE Real DPI -0.1% = forced consumption funded by savings depletion. KB-CARL-270. | Mar 2026, BEA | 🔴🔴 |
-| Urea NOLA | **$690s/mt** (was $475 early Mar) | Mar 28 | 🔴🔴 |
-| Russia AN | **SUSPENDED** | Mar 2026 | 🔴🔴 |
-| USDA Wheat Acres | **43.775M — LOWEST SINCE 1919** | Mar 31, USDA | 🔴🔴 |
-| USDA Corn Acres | **95.338M** (-3.45M/-3.5% YoY) | Mar 31, USDA | 🟠 |
+| Urea cash | **$585/T May 1** (-15% MoM from Q1 peak; +24% YoY). Triangulated path: $475 pre-cluster (early Mar) → $690s late Mar (+47% AFBF) → $585 May 1 (~50% retraced). Mechanism damage already done — plantings determined, under-application locked. KB-CARL-275/276. | May 1, tradingeconomics | 🟠 (down from 🔴🔴) |
+| **AFBF Fertilizer Survey Apr 14** | 5,700+ farmers Apr 3-11: **70% can't afford full fertilizer needs** (S 78%/NE 69%/W 66%/MW 48%); ~60% worsening finances; pre-booking Midwest 67% / South 19% — most volatile since Russia 2022 invasion. KB-CARL-275. | Apr 14, AFBF | 🔴🔴 |
+| Russia AN | **SUSPENDED** Mar 24 (binary; news scan May 3 — sources blocked, status unverified post-Mar 24). Flag for next session. | Mar 2026 ⚠️UNVERIFIED | 🔴 |
+| USDA Wheat Acres | **43.775M — LOWEST SINCE 1919** (107-year low). Locked in for 2026/27 harvest. | Mar 31, USDA | 🔴🔴 |
+| USDA Corn Acres | **95.338M** (-3.45M/-3.5% YoY). Locked in for 2026/27 harvest. | Mar 31, USDA | 🟠 |
+| **CBOT Wheat Futures** | **$624.50/Bu (+23.18% YTD)** May 3 — market pricing locked-in 2026/27 supply tightness 6-9mo ahead. Corn $468.25 (+6.36% YTD); Soy $1,187.75 (+15.26% YTD). KB-CARL-276. | May 3, tradingeconomics | 🔴 |
+| **Food CPI Headline** | **2.7% YoY Mar 2026** (DECEL from Feb 3.1%) — supply-side stress NOT YET on grocery shelves; consistent with 1973 analog 6-12mo lag. CRL-10 timeline intact (>4% by Q4 2026, 70%). KB-CARL-277. | Mar 2026, BLS | 🟠 |
 | JOLTS Ratio | **0.91 INVERTED & DEEPENING** | Feb 2026, BLS | 🔴🔴 |
 | Unemployment Duration | **25.7 wks** (4-yr high) | Feb 2026, BLS | 🔴 |
 | UI Exhaustion Hole | **$650M/mo** (peak $930M/mo July) | CARL est, Mar 31 | 🔴🔴 |
