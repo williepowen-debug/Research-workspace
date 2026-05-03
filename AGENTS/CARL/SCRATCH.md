@@ -1,12 +1,33 @@
 # CARL SCRATCH
-**Last session:** 2026-05-02 PM3 ~19:00–22:00 UTC (Will-driven workbook hardening Item #2d execution + scope expansion to misplacement audit + KB-CARL-202 → HOMER physical move + one-time direct delivery of REGINALD outbox signal)
-**Type:** Workbook architecture — judgment-call reclassification pass
+**Last session:** 2026-05-02 PM4 ~22:00–23:30 UTC (Item #2.5 planning session — multi-agent peer review caught material errors in initial draft; full plan written to `workbook/ITEM_2.5_PLAN.md` for fresh-context execution)
+**Type:** Workbook architecture — Item #2.5 planning + agent peer review integration
 
-**PRIORITY-1:** **Workbook hardening Item #2.5 — VX reference integrity.** 43 dangling KB→VX refs in two repair pathways: (a) ~8 missing-VX-row creates for live threads (DSL-01 diesel divergence per ROADMAP open thread, AG-01 farm bankruptcies, STATE-FL FL labor, WEALTH-01, K-01 K-shape framework, CC-01 anchor, etc.); (b) ~30 retired-or-renumbered KB-ref cleanups (early-Feb FF-01 / DEMO-01 / FHA-01 / DQ-01/02 / HSG-06..11 / MTG-01..022 — pre-taxonomy-stabilization). Plus standing validator rule. ~45-60 min, context-heavy. Source: `workbook/AUDIT_2026-05-02.md` Item #2.5 entry + Convo 2 transcript.
+**PRIORITY-1:** **Execute `workbook/ITEM_2.5_PLAN.md` Session 1 — verification & disposition firming.** Self-contained plan; read it cold. Produces `workbook/ITEM_2.5_DISPOSITIONS.md` for Will review (zero TSV mutations in S1). Approval gate before Session 2 (apply pass). Live count revalidated in plan: **43 dangling VX IDs / 59 edges** across 4 naming generations. Methodology rule (verify-by-reading-target before bundling/redirecting) codifies during S1 step 1.0. ~60 min S1 + 45 min S2.
 
 ---
 
-## WHAT HAPPENED
+## WHAT HAPPENED (PM4 planning session)
+
+1. **Will requested Item #2.5 plan-out before execution** (context-heavy — fresh window better).
+2. **Initial plan drafted** with 6 CREATE / 4 REDIRECT / ~17 REMOVE rough categories, count "47 edges / 34 IDs" (regex artifact — terminal-digit-only pattern missed multitoken + decimal generations).
+3. **External agent peer review** (`User Input/Two responses.md`) caught material errors:
+   - Real count is **43 IDs / 59 edges** (re-verified live)
+   - K-01 collapse risks topical-umbrella failure (KB-154 plasma + KB-111 retail flows can't share threshold) — same 2d failure mode
+   - 3 REDIRECTs (RV-01, FF-01, AUTO-01) are topical-adjacency not vector-identity → likely REMOVE
+   - 3 missed ABS-AUTO refs (KB-105/106/153 multitoken pattern)
+   - SAV-01 should be 7th CREATE (KB-098 live STATUS metric)
+   - MACRO-05 duplicate in VX.tsv folds into 2.5
+   - Methodology rule (verify-by-reading-target) belongs in CLAUDE.md
+4. **Re-validated live state** with comprehensive regex: 43 dangling IDs across 4 naming generations (1 DECIMAL + 1 OTHER + 34 STANDARD + 7 MULTITOKEN).
+5. **Two-session plan written** to `workbook/ITEM_2.5_PLAN.md` (self-contained; agent feedback summarized in Appendix B; enumeration script in Appendix A).
+6. **No TSV mutations this session.** Pure planning.
+
+## PM4 OPENS (carry forward; plan supersedes ad-hoc tracking)
+- Session 1 of plan to be executed in fresh context
+- Methodology rule edit to CARL CLAUDE.md is S1 step 1.0
+- Approval gate after Session 1 — Will reviews `ITEM_2.5_DISPOSITIONS.md` before S2
+
+## WHAT HAPPENED (PM3 — historical context, retain for audit)
 
 1. **Boot clean** — pulled (clean), BOARD diff surfaced ~40 INDEX entries not in BOARD_LOG (mostly grep noise from truncated narrative refs; SCRATCH said diff-clean as of May 1, real new signals look minor — flagged for triage but not done).
 2. **Will requested Item #2d execution.** Initial plan: 32 stale-ACTIVE reclassifications via 8-cluster pass (A Iran/Oil, B Gas Pump, C GDPNow, D UMich, E Sweet, F HOMER, G HY OAS, H Singletons).
@@ -33,7 +54,7 @@
 ## NEXT SESSION SHOULD
 
 ### IMMEDIATE (this session / 24hrs)
-1. **Workbook hardening Item #2.5** — 43 dangling KB→VX refs. Two repair pathways (~8 VX-row creates + ~30 KB-ref cleanups). Context-heavy; do in dedicated session. Source: `workbook/AUDIT_2026-05-02.md` Item #2.5 entry.
+1. **Execute `workbook/ITEM_2.5_PLAN.md` Session 1** — verification & disposition firming. Self-contained plan; reads cold. Produces `workbook/ITEM_2.5_DISPOSITIONS.md` for Will review. Zero TSV mutations in S1. Approval gate before S2. Live count: 43 dangling IDs / 59 edges across 4 naming generations. ~60 min.
 2. **DAILY AAA pump refresh** — $4.50 breach watch. May 2 latest $4.433 (gap $0.067). Likely breach May 3-4. When breach holds 2+ weeks, mark CRL-08 CONFIRMED.
 3. **Brent close monitoring** — sustainability test ($107+ vs collapse on Iran de-escalation). Iran WPR May-1 deadline expired without resolution.
 
