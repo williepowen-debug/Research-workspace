@@ -116,7 +116,7 @@
 
 **Audit artifact:** `workbook/AUDIT_2026-05-02.md` — full audit + Items #1 / #2a / #2d / #2.5 resolution logs.
 
-BOARD_LOG: 105 lines, 98 dispositions. ~40 INDEX entries not in BOARD_LOG were mostly grep noise; deferred for triage.
+BOARD_LOG: 105 lines, 98 dispositions. INDEX↔BOARD_LOG synced 0 gap (verified May 3 PM2 boot). Per CLAUDE.md 3c, skip BOARD diff next session unless INDEX mtime advances.
 
 ---
 
