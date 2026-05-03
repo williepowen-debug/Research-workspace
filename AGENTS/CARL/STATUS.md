@@ -1,5 +1,5 @@
 # CARL STATUS
-**Updated:** 2026-05-03 ~18:30 UTC
+**Updated:** 2026-05-03 ~22:00 UTC
 **Overall:** 🔴🔴 CRITICAL — Convergence **53/70 (76%)**. Thesis **v2.5.1** (May 3): masking framework narrowed 6→4 issuers + K-shape Selection / Tariff Transmission sibling section + CRL-22/23 added. **v2.5** (May 1): Path C ACTIVE-RED (provisional), matrix expanded 12→14 vectors, score recalibrated 58/60 → 53/70 (~60% calibration + ~40% conviction reduction). Audit trail in `thesis/CHANGELOG.md`. Counter-evidence tracking moved to `handoff_RED/COUNTER_LOG.md`.
 
 *Check-in archives: `archive/status/`*
@@ -65,12 +65,12 @@
 ### Macro / Energy / Stress
 | Metric | Value | As Of | Status |
 |--------|-------|-------|--------|
-| Gas Pump | **$4.433 national** (May 2 AAA — +34.7¢ WoW, +39.4% YoY, +4.1¢ overnight). **Gap to CRL-08 $4.50 = $0.067; breach forecast May 4-5.** Memorial Day premium (+$0.10-0.15) loading. Detail: KB-CARL-259/264. | May 2, AAA | 🔴🔴 |
-| Diesel | **$5.627 national** (May 2 AAA — +16.3¢ vs Apr 29 $5.464, +53.9% YoY). Apr divergence (diesel falling while gasoline rose) NARROWING — distillate catching up. KB-CARL-253 freight-demand thread weakening; 4-week sustainability test live. | May 2, AAA | 🔴 |
-| Brent | **$107-110 May 1** (Apr 30 intraday $126 NEW HIGH on US-Iran escalation; +12% from $98.18 Apr 13). IEA: potential Hormuz closure = "largest supply shock on record." Detail: KB-CARL-240/248/258. *May 2-3 refresh pending.* | May 1 | 🔴🔴 |
-| WTI | **~$106 May 1** (Brent-WTI spread compressed to $2-4 from typical $5-10 = physical-spot tightness signal). | May 1 | 🔴🔴 |
+| Gas Pump | **$4.446 national** (May 3 AAA — +1.3¢ overnight, +34.7¢ WoW, +40.2% YoY). **Gap to CRL-08 $4.50 = $0.054; deceleration trio +9.2/+4.1/+1.3¢ + Brent -5% Fri = NEAR-BREACH NOT-YET.** Top: HI $5.634, CT $4.518, DC $4.484, NJ $4.417, VT $4.416. Detail: KB-CARL-259/264/268. | May 3, AAA | 🔴🔴 |
+| Diesel | **$5.642 national** (May 3 AAA — +1.5¢ vs May 2 $5.627, +53.4% YoY). Diesel/gas day-on-day moves now both single-digit cents = gap compression sustaining. KB-CARL-253 freight-demand thread further weakening pending May 7 EIA. | May 3, AAA | 🔴 |
+| Brent | **$108.17 May 2 close** (-$5.84 / -5.12% on Iran peace proposal; single-largest daily drop since cluster intensified). Pulled back from $107-110 May 1. Detail: KB-CARL-240/248/258/269. | May 2 close | 🔴🔴 |
+| WTI | **$101.94 May 2 close** (-$3.13 / -2.98%). **Brent-WTI spread $6.23 — WIDENED from $2-4 May 1 = physical-spot tightness mechanism RELAXED.** Spread regime change is the most actionable single finding (KB-269). | May 2 close | 🔴 |
 | **Qatar LNG** | **~80 MTPA OFFLINE = ~20% global LNG supply** (Iranian drone strikes Ras Laffan Mar 2/18-19; QatarEnergy FM extended). TTF EU gas +50%, JKM Asia LNG +39%. Supports diesel elevated + distillate tightness. | Apr 19 | 🔴🔴 |
-| **Iran Cluster Resolution** | **STILL LIVE May 1** — Brent intraday $126 Apr 30 (NEW HIGH); WPR 60-day deadline expired May 1 (admin claims hostilities "terminated" Apr 7, no statutory pause). Hormuz blockade both-ways persists. Iran rial -15% Apr 27-29 (181M/USD ATL). Cluster has neither de-escalated nor escalated to conclusion. Detail: KB-CARL-240/242/248/258. | May 1 | 🔴🔴 |
+| **Iran Cluster Resolution** | **STILL LIVE May 3** — bidirectional firing simultaneously: (a) Iran state media submitted new peace proposal (triggered Brent -5% Friday); (b) Trump announced US Navy Hormuz ship-escort initiative ("doubles down on blockade to choke Iran's oil exports"); WPR May-1 expired no statutory pause (admin: hostilities "terminated" Apr 7); Iran warns $140 oil; Pakistan oil imports +167% since cluster start; net supply loss est 9M bpd. Neither de-escalation nor escalation resolved. Detail: KB-CARL-240/242/248/258/269. | May 3 | 🔴🔴 |
 | HY OAS | **294bps** (collapsed 317→294 in 8 days — ceasefire + NFP compressed 23bps. Now BELOW 300 elevated threshold. Complacency gap WIDENING — structured credit cracking while public HY tightens) | Apr 10, FRED | 🟢 ⚠️ |
 | CPI Energy YoY | **+12.5%** (+11.9% MoM index jump) | Mar 2026, BLS | 🔴 |
 | Savings Rate | **4.0%** (↓0.5pp from Jan, real DPI -0.5%) | Feb 2026, BEA | 🔴 |
@@ -121,7 +121,7 @@
 | 2 | Subprime Auto 60+ | 5 | **4** ⬇️ | ATR 6.9% Jan; cure collapse 3 trusts. **Strict-def fix:** EART Class E terminal but AMCAR/SDART have cushion. |
 | 3 | Fannie MF DQ → GFC | 4 | **4** | 0.74% Feb (6bps from peak); March data late Apr. |
 | 4 | Student Loan 90+ | 5 | **4** ⬇️ | 9.6% NY Fed / ~9.8% FICO Spring; cascade EXECUTING; room to escalate to 12-15%+. |
-| 5 | Gas Price Squeeze | 5 | **4** ⬇️ | $4.392 May 1; CRL-08 92% at $4.50 imminent; room to $5+. |
+| 5 | Gas Price Squeeze | 5 | **4** ⬇️ | $4.446 May 3; CRL-08 92% NEAR-BREACH ($0.054 gap, deceleration trio); room to $5+. |
 | 6 | UI Exhaustion Wave | 5 | **4** ⬇️ | FL Wave 1 fired. Wave 2 surface counter-thesis (initial claims declining); exhaustion mechanism unverified pending DEO continued + DOL ETA. |
 | 7 | FL Triple Squeeze | 4 | **4** | Condo inv 13.2mo; FL Q1 REO +108% YoY nationally. |
 | 8 | K-Shape Converging *(merged 8+9, two-step)* | 5+5 | **4** ⬇️ | Both cohorts deteriorating. Step 1: merger eliminates double-count. Step 2: magnitude-not-2008-quantified. |
@@ -162,7 +162,7 @@ V9 merged into V8 (May 1). V15 Refi-Window dropped (RED domain).
 
 | Window | Trigger | Status |
 |--------|---------|--------|
-| **NOW (May 3)** | Iran cluster live (Brent $107-110, WPR expired); CRL-08 gas $4.50 breach forecast May 4-5; v2.5.1 thesis refinement complete | 🔴🔴 **OIL BREAKOUT / CONSUMER STAGFLATION** |
+| **NOW (May 3)** | Iran cluster bidirectional (peace proposal + Hormuz escort blockade — Brent $108.17 -5.12% Fri); CRL-08 gas $4.446 NEAR-BREACH NOT-YET (gap $0.054, deceleration trio + Brent pullback widens timing distribution); v2.5.1 thesis refinement complete | 🔴🔴 **OIL BREAKOUT / CONSUMER STAGFLATION** |
 | **Recently fired (last 30d)** | Mar 24 FL UI Wave 1 ✅ • Apr 15 Sweet v. McMahon ✅ (~271K pipeline) • Apr 21 SYF/COF/UNH/ELV/DHI/PHM ✅ (3-way K-shape WIDENING confirmed, KB-CARL-243-247) • Apr 21 Iran ceasefire ✅ (binary unresolved → oil breakout) • Apr 24 UMich Final 49.8 ✅ (5-10Y 3.5%) • Apr 26 FL UI Wave 2 🟡 PARTIAL (initial claims surface counter-thesis; exhaustion mechanism = LABOR/GIG spawn, KB-CARL-262) • Apr 28 Case-Shiller Feb ✅ + Rithm Q1 ✅ (KB-CARL-257/261) • May 1 ALL Q1 ✅ POLLY-P05 confirmed (CR 82.0, KB-CARL-266) | — |
 | **Late Apr/May** | PennyMac Q1 — FHA DQ >7.5% bridge test on Rithm mod-accounting framework | 🟠 |
 | **May 5** | PayPal Q1 (new CEO Lores) — PHAN owns | ⏳ |
@@ -213,7 +213,7 @@ V9 merged into V8 (May 1). V15 Refi-Window dropped (RED domain).
 | CRL-05 | CC 90+ DQ >13.74% (GFC) | **82%** | Q2-Q3 2026 | 12.70% — 1.04pp gap. **Apr 17 (PM): 85→82%** on ALLY Q1 counter-evidence — near-prime auto headline clean 5 consec qtrs. Audit found composition-masking not fraud (KB-CARL-223). SL cascade pathway intact. |
 | CRL-06 | Foreclosures >70K/qtr | 70% | Q2 2026 | 58,140 Q4 — needs +20% |
 | CRL-07 | FL UI exhaustion → DQ spike | 85% | Jun-Aug 2026 | LABOR model confirms timeline |
-| CRL-08 | Gas $4.50+ national avg | **92%** | May-Jun 2026 | **May 1 AAA: $4.392** (+9.2¢ overnight, +33.3¢ WoW, +37.7% YoY). Gap to threshold $0.108 — at overnight pace breaches May 2-3. **78→92% May 1** — pump pass-through ACCELERATED (Brent breakout transmitted in 3-4 days vs 2-4 wk typical lag). 5 states already >$5 (CA $6.01, HI $5.64, WA $5.57, OR $5.15, NV $5.12). Memorial Day premium (+$0.10-0.15) not yet in. Capped below 95% by: (a) Iran peace proposal acceptance → Brent collapse to $80-90 → pump retreat to $4.20-4.30 (10-15% scenario), (b) demand destruction at $4.50+ behavioral breakpoint risk, (c) Trump WPR resolution pressure for de-escalation. |
+| CRL-08 | Gas $4.50+ national avg | **92%** | May-Jun 2026 | **May 3 AAA: $4.446** (+1.3¢ overnight, +34.7¢ WoW, +40.2% YoY). Gap to threshold $0.054. **Deceleration trio May 1-3:** +9.2¢ → +4.1¢ → +1.3¢ (partial weekend effect; May 2 Sat + May 3 Sun lag). **Counter-pressure:** Brent -5.12% Fri May 2 close ($108.17) on Iran peace proposal — 3-4d transmit lag suggests pump softening Mon-Wed. Disposition NEAR-BREACH NOT-YET; held 92% (no reprice without 2-week sustainability test post-cross). 92% set May 1 on accelerated pass-through (Brent breakout transmitted in 3-4d vs 2-4wk typical). Capped below 95% by: (a) Iran peace proposal acceptance → Brent to $80-90 → pump retreat (10-15% scenario), (b) demand destruction $4.50+ behavioral breakpoint, (c) Trump WPR resolution pressure for de-escalation. |
 | CRL-09 | JOLTS Mar ratio <0.88 | 75% | May release | Feb was 0.91, pre-Iran |
 | CRL-10 | Food CPI YoY >4.0% | 70% | Q4 2026 | Wheat 107yr low, urea $690s |
 | CRL-11 | Hires rate ≤3.2% through Q2 | 85% | Jul/Aug releases | Currently 3.1% COVID-low |
