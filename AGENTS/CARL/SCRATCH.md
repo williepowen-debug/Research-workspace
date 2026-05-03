@@ -1,103 +1,83 @@
 # CARL SCRATCH
-**Last session:** 2026-05-02 PM4 ~22:00–23:30 UTC (Item #2.5 planning session — multi-agent peer review caught material errors in initial draft; full plan written to `workbook/ITEM_2.5_PLAN.md` for fresh-context execution)
-**Type:** Workbook architecture — Item #2.5 planning + agent peer review integration
+**Last session:** 2026-05-02 PM4 → 2026-05-03 (Item #2.5 two-session execution: planning yesterday PM, S1+S2 today)
+**Type:** Workbook hardening — Item #2.5 KB→VX reference integrity (full execute)
 
-**PRIORITY-1:** **Execute `workbook/ITEM_2.5_PLAN.md` Session 1 — verification & disposition firming.** Self-contained plan; read it cold. Produces `workbook/ITEM_2.5_DISPOSITIONS.md` for Will review (zero TSV mutations in S1). Approval gate before Session 2 (apply pass). Live count revalidated in plan: **43 dangling VX IDs / 59 edges** across 4 naming generations. Methodology rule (verify-by-reading-target before bundling/redirecting) codifies during S1 step 1.0. ~60 min S1 + 45 min S2.
+**PRIORITY-1:** **DAILY AAA pump refresh — $4.50 breach watch.** May 2 latest $4.433 / gap $0.067 to CRL-08 threshold. Likely breach May 3-4. When breach holds 2+ weeks, mark CRL-08 CONFIRMED + consider Vector #5 thesis upgrade.
 
 ---
 
-## WHAT HAPPENED (PM4 planning session)
+## WHAT HAPPENED (Item #2.5 full execution)
 
-1. **Will requested Item #2.5 plan-out before execution** (context-heavy — fresh window better).
-2. **Initial plan drafted** with 6 CREATE / 4 REDIRECT / ~17 REMOVE rough categories, count "47 edges / 34 IDs" (regex artifact — terminal-digit-only pattern missed multitoken + decimal generations).
-3. **External agent peer review** (`User Input/Two responses.md`) caught material errors:
-   - Real count is **43 IDs / 59 edges** (re-verified live)
-   - K-01 collapse risks topical-umbrella failure (KB-154 plasma + KB-111 retail flows can't share threshold) — same 2d failure mode
-   - 3 REDIRECTs (RV-01, FF-01, AUTO-01) are topical-adjacency not vector-identity → likely REMOVE
-   - 3 missed ABS-AUTO refs (KB-105/106/153 multitoken pattern)
-   - SAV-01 should be 7th CREATE (KB-098 live STATUS metric)
-   - MACRO-05 duplicate in VX.tsv folds into 2.5
-   - Methodology rule (verify-by-reading-target) belongs in CLAUDE.md
-4. **Re-validated live state** with comprehensive regex: 43 dangling IDs across 4 naming generations (1 DECIMAL + 1 OTHER + 34 STANDARD + 7 MULTITOKEN).
-5. **Two-session plan written** to `workbook/ITEM_2.5_PLAN.md` (self-contained; agent feedback summarized in Appendix B; enumeration script in Appendix A).
-6. **No TSV mutations this session.** Pure planning.
-
-## PM4 OPENS (carry forward; plan supersedes ad-hoc tracking)
-- Session 1 of plan to be executed in fresh context
-- Methodology rule edit to CARL CLAUDE.md is S1 step 1.0
-- Approval gate after Session 1 — Will reviews `ITEM_2.5_DISPOSITIONS.md` before S2
-
-## WHAT HAPPENED (PM3 — historical context, retain for audit)
-
-1. **Boot clean** — pulled (clean), BOARD diff surfaced ~40 INDEX entries not in BOARD_LOG (mostly grep noise from truncated narrative refs; SCRATCH said diff-clean as of May 1, real new signals look minor — flagged for triage but not done).
-2. **Will requested Item #2d execution.** Initial plan: 32 stale-ACTIVE reclassifications via 8-cluster pass (A Iran/Oil, B Gas Pump, C GDPNow, D UMich, E Sweet, F HOMER, G HY OAS, H Singletons).
-3. **Scope expansion #1 — misplacement audit.** Will caught KB-CARL-173 (OZK NCO data) as misplaced (REGINALD/OZK domain, not CARL). Expanded to broader scan of `Group=BANKING` + `Vectors=→PEER`. Found 4 confirmed misplacements (KB-172, 173, 203, 239) + 3 sub-agent-domain rows (KB-169 SBA, 202 servicer, 251 farm). KB-178 (JPM CC DQ) verified to STAY — fact is consumer-credit-card data even though source is a bank.
-4. **Scope expansion #2 — REGINALD outbox handover.** Will requested misplaced rows be packaged for REGINALD delivery rather than just deleted. Wrote `outbox/SIG-CARL-REGINALD-20260502-misplaced-banking-rows-handover.md` for 3 REGINALD-domain rows (KB-172/173/203). KB-239 excluded (already routed via WALTER to RED per its own Notes — no new outbox needed).
-5. **Scope expansion #3 — sub-agent physical move.** Will asked if POP/HOMER rows could move to their workbooks. Discovery: HOMER has KB.tsv with `CARL_ID` provenance column (designed for migration); POP only has ML.tsv (different 17-col schema, lossy translation). Decided: move only KB-CARL-202 → HOMER (Path A); leave KB-169, 251 in CARL with `Delegated_To=POP` until POP gets a KB.tsv (deferred).
-6. **SUPERSEDED-by-pointer verification.** Initial cluster plan marked 22 rows SUPERSEDED. Verification by reading each proposed canonical-replacement row revealed only 7 actually carry forward the load-bearing content. **14 downgraded to STALE** — point-in-time historical with no canonical successor in KB.tsv. Lesson: cluster-pattern alone is unreliable for SUPERSEDED dispositions; verification step is required.
-7. **Apply pass executed.** Script `/tmp/fix_kb_2d.py` with DISPOSITIONS dict (8 action types). 38 mutations across 38 unique rows. Bug caught in verification: Python list-by-reference passed KB-CARL-202's blanked Stale_By to KB-HMR-065 in HOMER; restored to 2026-05-15. Bonus catches: 2 pre-existing CONFIRMED-with-Stale_By hygiene violations (KB-001 future-dated 2026-03-15, KB-063 past-dated 2026-03-24) — out of original 2d scope but same §1.5 rule. Blanked.
-8. **AUDIT log + ROADMAP updated** — Item #2d resolution log entry with per-cluster breakdown + lessons learned + sub-agent workbook architecture finding queued for next session.
-9. **One-time direct delivery to REGINALD inbox** — Will authorized direct cross-agent write since no other Claude Code agents were active (HERMES still down per messaging-overhaul). Copied outbox signal → `AGENTS/REGINALD/inbox/`; moved CARL source → `outbox/delivered/`. Single commit (`50b87eb9`) with `CARL→REGINALD:` prefix for cross-boundary auditability. Cross-agent inbox writes saved as global memory note (`feedback_cross_agent_inbox_writes.md`) — exception is per-instance authorization only, do not generalize.
+1. **S1 — Verification & disposition firming.** Re-validated count (43 IDs / 59 edges, exact match plan). KB-105/106/153 reviewer-flag check passed (multitoken bucket). Verify-by-reading on all 43 IDs (~55 KB rows read). Produced `workbook/ITEM_2.5_DISPOSITIONS.md` (review-ready, zero TSV mutations, 6 open questions surfaced).
+2. **WORKBOOK DISCIPLINE rule codified to CLAUDE.md** (S1.0) — new section after OUTPUT RULES. Verify-by-reading-target rule + threshold-uncertainty `[FLAG]` convention + conservative ref-cleanup default. Standalone commit pending.
+3. **Will reviewed dispositions:** Q1 (WEALTH-01 anchor) accepted Prime CC NCO (AXP/DFS proxy) with proposed Green/Yellow/Orange/Red bands. Q5 (supply-event sub-vector class) accepted as desired but deferred. Q2/Q3/Q4/Q6 default-resolved per dispositions doc.
+4. **S2 — Apply pass via `/tmp/fix_kb_2.5.py`.** 9 VX CREATEs + 5 REDIRECTs + 46 ref-blanks across 44 unique KB rows + 1 VX dedupe (NFP MACRO-05 → MACRO-09) + 1 SCHEMA description fix.
+5. **Verify-by-reading shifted plan in 4 places:** WEALTH-01 anchor changed (KB-091 watch-list anchor instead of KB-237/111 — neither fit prime-NCO threshold), K-01 trimmed (KB-091/157 dropped on threshold-fit verification), KB-099 → ABS-12 (same metric), KB-101 → REMOVE not REDIRECT-FOOD-01 (supply event ≠ price metric).
+6. **Bug caught in apply:** KB-CARL-007 missed in initial REMOVE list (original enumeration showed `[2]: 007, 034` but only 034 was in dispositions). Patched in-flight before final verification. Re-run enumeration confirmed 0 dangling.
+7. **Documentation:** AUDIT log Item #2.5 entry added. ROADMAP updated (Workbook hardening thread updated; 2 new INVESTIGATIONS BACKLOG entries: supply-event sub-vector class + Orphan-Claim Audit Byproduct; Item #2.5 entry in RECENTLY RESOLVED).
 
 ## STATUS CHANGES
 | Item | Change |
 |------|--------|
-| `workbook/KB.tsv` | 38 row mutations (no row count change). Status distribution 260 ACTIVE / 7 CONFIRMED / 3 SUPERSEDED / 0 STALE → **217 ACTIVE / 9 CONFIRMED / 15 SUPERSEDED / 19 STALE.** |
-| `workbook/KB.tsv` | Stale-ACTIVE: **32 → 0.** Terminal-state-with-Stale_By: **3 → 0.** Delegated_To: 44 HOMER → **44 HOMER + 2 POP.** All enums clean. |
-| `sub_agents/HOMER/workbook/KB.tsv` | **64 → 65 rows** (KB-HMR-065 added with CARL_ID=KB-CARL-202 back-link, Stale_By 2026-05-15 preserved). |
-| `outbox/delivered/SIG-CARL-REGINALD-20260502-misplaced-banking-rows-handover.md` | **DELIVERED** to REGINALD inbox via one-time direct write (commit `50b87eb9`). Source moved to delivered/ for audit trail. |
-| `workbook/AUDIT_2026-05-02.md` | Item #2d resolution log entry added (per-cluster breakdown + bug + bonus catches + 3 backlog findings). 87 issues → **~4 remaining** (deliberate ID gaps only). |
-| `ROADMAP.md` | Workbook hardening OPEN THREAD updated (Item #2d done; #2.5 / #3 / #4 + sub-agent workbook standardization remain OPEN). RECENTLY RESOLVED entry added. |
+| `workbook/KB.tsv` | 46 ref mutations across 44 unique rows (38 ref-blanks + 5 REDIRECTs + 1 missed-row patch). Row count unchanged at 260. |
+| `workbook/VX.tsv` | **+9 CREATEs** (CC-01, SAV-01, AG-01, DSL-01, K-01, WEALTH-01, FL-01, ABS-AUTO-CACC, ABS-AUTO-SPREAD). NFP MACRO-05 renamed → MACRO-09. PPI keeps MACRO-05. **Total VX rows 110 → 120.** |
+| `workbook/SCHEMA.tsv` | Delegated_To description corrected (Status preserved, not SUPERSEDED — matches Item #2a executed rule). |
+| `AGENTS/CARL/CLAUDE.md` | **WORKBOOK DISCIPLINE section added** (between OUTPUT RULES and DOMAIN SCOPE). Standalone commit pending. |
+| `workbook/ITEM_2.5_DISPOSITIONS.md` | Created (S1 deliverable, audit-trail of decisions). |
+| Dangling KB→VX refs | **59 edges / 43 IDs → 0 edges / 0 IDs.** |
+| `workbook/AUDIT_2026-05-02.md` | Item #2.5 resolution log entry added. |
+| `ROADMAP.md` | Workbook hardening thread updated. 2 new INVESTIGATIONS BACKLOG entries. Item #2.5 in RECENTLY RESOLVED. |
 
 ---
 
 ## NEXT SESSION SHOULD
 
 ### IMMEDIATE (this session / 24hrs)
-1. **Execute `workbook/ITEM_2.5_PLAN.md` Session 1** — verification & disposition firming. Self-contained plan; reads cold. Produces `workbook/ITEM_2.5_DISPOSITIONS.md` for Will review. Zero TSV mutations in S1. Approval gate before S2. Live count: 43 dangling IDs / 59 edges across 4 naming generations. ~60 min.
-2. **DAILY AAA pump refresh** — $4.50 breach watch. May 2 latest $4.433 (gap $0.067). Likely breach May 3-4. When breach holds 2+ weeks, mark CRL-08 CONFIRMED.
-3. **Brent close monitoring** — sustainability test ($107+ vs collapse on Iran de-escalation). Iran WPR May-1 deadline expired without resolution.
+1. **DAILY AAA pump refresh** — $4.50 breach watch. Gap $0.067 May 2; likely breach May 3-4. When breach holds 2+ weeks, mark CRL-08 CONFIRMED.
+2. **Brent close monitoring** — Iran cluster still live; sustainability test ($107+ vs collapse on de-escalation).
+3. **WEALTH-01 anchor refresh** — Q2'26 AXP/DFS not until July. No-op until then unless Q1 numbers can be back-pulled now (low priority).
 
 ### UPCOMING (this week)
-4. **Workbook hardening Item #3** — promote `/tmp/audit_kb.py` → `workbook/tools/validate.py`; add `#`-line skip + ref integrity check (KB→VX) + dynamic enum from SCHEMA.tsv. Add to spawn protocol step 0.5. ~45 min.
+4. **Workbook hardening Item #3** — promote `/tmp/audit_kb.py` → `workbook/tools/validate.py`; add `#`-line skip + KB→VX ref integrity check + dynamic enum from SCHEMA.tsv. Add to spawn protocol step 0.5. ~45 min.
 5. **Workbook hardening Item #4** — archive ML.tsv → `archive/legacy_workbook/`; update CLAUDE.md to remove ML reference. Trivial (~10 min).
-6. **May 5** — PayPal Q1 (PHAN spawn) — first under new CEO Lores. Apply masking framework decompose.
+6. **May 5** — PayPal Q1 (PHAN spawn) — first under new CEO Lores.
 7. **May 6** — Uber Q1 + DoorDash Q1 (GIG) — driver count QoQ post-gas.
-8. **May 6** — BLS state jobs March (FL labor extension test).
+8. **May 6** — BLS state jobs March (FL labor extension test — feeds FL-01 vector).
 9. **May 7 TRIPLE** — Dave Q1 (28DPD GIG-P01) + Lyft Q1 + Affirm Q3 FY2026.
-10. **May 7** — EIA weekly inventory print — distillate (KB-253 follow-up) + gasoline stocks.
+10. **May 7** — EIA weekly inventory print — distillate (KB-253 + DSL-01 follow-up).
 
 ### UPCOMING (next 2 weeks)
 11. **May 8** — BLS Apr NFP — V16 Employment Structural Rot first realized print.
 12. **~May 18** — Klarna Q1 2026 (PHAN — first full quarter post-FY-loss).
-13. **~Mid-May** — NY Fed Q1 2026 HHDC — CARL CORE — CC 90+ DQ vs 12.7%; tests CRL-05.
+13. **~Mid-May** — NY Fed Q1 2026 HHDC — CARL CORE — CC 90+ DQ vs 12.7%; tests CRL-05 + feeds CC-01 vector.
 14. **May 28** — BEA Q1 GDP second estimate — CRL-18 resolves.
 15. **~May 30** — March monthly Core PCE — CRL-19 resolves.
-16. **Sub-agent workbook standardization (NEW from #2d)** — decide whether POP gets a KB.tsv mirroring HOMER's 12-col schema; if yes, migrate 44 existing HOMER-delegated rows + the 2 new POP-delegated rows physically.
+16. **Sub-agent workbook standardization** — decide whether POP gets a KB.tsv mirroring HOMER's 12-col schema (drives KB-169, KB-251 + future AG-01-domain rows).
 
 ### v2.5.1 HARDENING (queued, no fixed dates — same as May 1)
-17. UMich triangulation — TIPS 5y5y / SPF / NY Fed 3yr against UMich 5-10Y 3.5%.
-18. Foreclosure 2019 absolute baseline — ATTOM Q1 2019 REO completions.
-19. Path C counterfactual — pull COF/SYF Q1'24/'25 ACL builds; promote provisional → firm OR downgrade.
+17. UMich triangulation (TIPS 5y5y / SPF / NY Fed 3yr against UMich 5-10Y 3.5%).
+18. Foreclosure 2019 absolute baseline (ATTOM Q1 2019 REO completions).
+19. Path C counterfactual (COF/SYF Q1'24/'25 ACL builds).
 20. Crying-wolf X-threshold operational doc.
-21. Brier audit full prediction history — CRL-01 through CRL-21 + legacy.
-22. CONTAINMENT prior-calibration audit — joint CARL-RED.
-23. COF/SYF candor puzzle — RED handoff.
-24. Trade Duration roll plan — FORGE/REGINALD coord on KRE/WAL Dec 2026 → Q1-Q2 2027.
-25. RED-CARL interface protocol — handshake document.
+21. Brier audit full prediction history.
+22. CONTAINMENT prior-calibration audit (joint CARL-RED).
+23. COF/SYF candor puzzle (RED handoff).
+24. Trade Duration roll plan (FORGE/REGINALD coord on KRE/WAL Dec 2026 → Q1-Q2 2027).
+25. RED-CARL interface protocol.
 
 ### BACKLOG (no deadline)
 26. **Workbook hardening Item #6** — workbook root `INDEX.md`. Low priority.
-27. LABOR/GIG spawn for FL UI Wave 2 (KB-CARL-262 partial).
-28. HOMER spawn for Case-Shiller Feb sub-market detail (KB-CARL-261 headline only).
-29. Workbook content refresh — VX consumer rows / FLOW / STATE_DIFFUSION / BNPL_STRESS (15d stale).
-30. ABS_BASELINE refresh — March 10-Ds (16d stale; EART terminal + AMCAR ~2mo + SDART ~7mo).
-31. 6 outbox signals from Apr 17 — defer per messaging-overhaul.
-32. Methodology preservation note — extract v2.5 calibration discipline from CHANGELOG into `thesis/METHODOLOGY.md` (external-LLM suggestion).
+27. **Supply-event sub-vector class** (NEW from #2.5 / Q5) — investigate whether supply shocks (Russia AN, Qatar LNG, Hormuz, China nitrogen halts) get a class of vectors with binary/event threshold structure.
+28. **Orphan-Claim Audit Byproduct** (NEW from #2.5 / Q6) — 7 KB rows surfaced where Status looks dependent on now-blanked dangling linkage (KB-013, 022, 017, 101, 102 + 2 already STALE).
+29. LABOR/GIG spawn for FL UI Wave 2 (KB-CARL-262 partial).
+30. HOMER spawn for Case-Shiller Feb sub-market detail (KB-CARL-261 headline only).
+31. Workbook content refresh — VX consumer rows / FLOW / STATE_DIFFUSION / BNPL_STRESS (16d stale).
+32. ABS_BASELINE refresh — March 10-Ds (17d stale).
+33. 6 outbox signals from Apr 17 — defer per messaging-overhaul.
 
 ---
 
-## OUTBOX (6 Apr 17 signals deferred per messaging-overhaul; May 2 signal already delivered)
+## OUTBOX (6 Apr 17 signals deferred per messaging-overhaul; no new signals this session)
 | File | To | Summary |
 |------|----|---------|
 | SIG-CARL-REGINALD-20260417-auto-lender-reclassification-translation.md | REGINALD | 7-lever auto-lender translation of 3-layer bank framework + ALLY Q1 |
@@ -119,29 +99,29 @@
 
 ---
 
-## WORKBOOK HEALTH (post Item #2d)
+## WORKBOOK HEALTH (post Item #2.5)
 | TSV | Rows | Cols | Last Modified | Note |
 |-----|------|------|---------------|------|
-| KB | 260 | 15 | **May 2 PM3** | Item #2d 38 mutations; **0 stale-ACTIVE, 0 enum violations, 0 hygiene violations**; AUDIT scope ~4 remaining (deliberate ID gaps only) |
-| HOMER/KB | **65** | 12 | **May 2 PM3** | +1 row (KB-HMR-065 from KB-CARL-202 migration) |
-| VX | 111 | 11 | May 2 | GAS-01 refreshed; clean col-counts (0 drift); **43 dangling KB→VX refs queued for Item #2.5** |
-| FLOW | 24 | 9 | Apr 17 | 15d — refresh due; clean col-counts |
+| KB | 260 | 15 | **May 3** | Item #2.5 46 ref mutations / 44 rows; **0 dangling KB→VX refs** (was 59 edges / 43 IDs); 0 enum / hygiene / col-count violations |
+| VX | **120** | 11 | **May 3** | +9 CREATEs (CC-01, SAV-01, AG-01, DSL-01, K-01, WEALTH-01, FL-01, ABS-AUTO-CACC, ABS-AUTO-SPREAD); MACRO-05 NFP → MACRO-09; PPI keeps MACRO-05 |
+| SCHEMA | 15 | 7 | **May 3** | Delegated_To description corrected (Status preserved, not SUPERSEDED) |
+| HOMER/KB | 65 | 12 | May 2 PM3 | Unchanged this session |
+| FLOW | 24 | 9 | Apr 17 | 16d — refresh due |
 | PREDICTIONS | 21 | — | May 1 PM2 | (canonical in `thesis/PREDICTIONS.tsv`) |
-| STATE_DIFFUSION | 62 | 12 | Apr 17 | 15d; non-KB drift artifactual per Convo 2 |
-| BNPL_STRESS | 59 | 13 | Apr 17 | 15d; non-KB drift artifactual per Convo 2 |
-| ABS_BASELINE | 72 | 12 | Apr 16 | 16d |
-| TRENDS | 39 | 7 | Apr 6 | 26d |
-| ML | 66 | 9 | Apr 7 | 25d; **legacy** — Item #4 target (archive) |
-| SCHEMA | 15 | 7 | May 2 | Item #1 expansion (15 cols defined) |
+| STATE_DIFFUSION | 62 | 12 | Apr 17 | 16d |
+| BNPL_STRESS | 59 | 13 | Apr 17 | 16d |
+| ABS_BASELINE | 72 | 12 | Apr 16 | 17d |
+| TRENDS | 39 | 7 | Apr 6 | 27d |
+| ML | 66 | 9 | Apr 7 | 26d; **legacy** — Item #4 target (archive) |
 
-**Audit artifact:** `workbook/AUDIT_2026-05-02.md` — full audit + Items #1 / #2a / #2d resolution logs + Items #2.5 / #3 / #4 + sub-agent workbook standardization queued.
+**Audit artifact:** `workbook/AUDIT_2026-05-02.md` — full audit + Items #1 / #2a / #2d / #2.5 resolution logs + Items #3 / #4 + sub-agent workbook standardization queued.
 
-BOARD_LOG: 105 lines, 98 dispositions. SCRATCH said diff-clean as of May 1; today's BOARD diff surfaced ~40 INDEX entries not in BOARD_LOG but mostly grep noise (truncated narrative refs from disposition entries) — real new signals look minor, deferred for triage.
+BOARD_LOG: 105 lines, 98 dispositions. SCRATCH May 2 PM3 noted ~40 INDEX entries not in BOARD_LOG were mostly grep noise; deferred for triage.
 
 ---
 
 ## URGENT
 
-- **Workbook hardening Item #2.5** — 43 dangling KB→VX refs. Context-heavy; dedicated session.
 - **AAA pump $4.50 breach watch** — gap $0.067; breach likely May 3-4.
-- **Iran cluster still live** — WPR deadline May 1 expired without resolution; Brent at $107-110 sustained.
+- **Iran cluster still live** — Brent $107-110 sustained; WPR May-1 deadline expired.
+- **Workbook hardening Item #3** — natural next step (validator promotion); short / contained.
