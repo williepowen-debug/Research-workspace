@@ -1,9 +1,28 @@
 # SAM TIMELINE
 
-**Last Updated:** 2026-04-30
+**Last Updated:** 2026-05-03
 **View:** Base case progression with branch points marked
 
 This document maps our forward-looking expectations — what's coming, what we think happens, and where the path could diverge. Updated as events resolve or views change.
+
+---
+
+## RESOLVED — May 1-3 (CFTC BUILD CONFIRMED + IRAN DE-ESCALATION STEP)
+
+### Fri May 1 — CFTC JPY RELEASE (APR 28 DATA) ✅ RESOLVED — BULL FORK (for thesis)
+
+- **Event:** First CFTC release reflecting positioning AFTER the Apr 28 BOJ hawkish hold + 3-dissent split.
+- **Outcome:** Net short DEEPENED to **-102,059** (from -94,460). +7,599 net build, +12,743 short add. Now **56.7% of Jul 2024 peak** (vs 52.5% prior week) — highest of the cycle.
+- **Interpretation:** Speculators did NOT cover on the hawkish hold. They pressed the short. Reads as carry community pricing BOJ delay-not-cancellation — willing to ride further short into June. The "delay = larger unwind" framing gets fresh data confirmation.
+- **Net:** BULL FORK for thesis (more fuel for eventual unwind). Carry-unwind 30d nudged 70 → 72. SAM-22 (CFTC stays below -75K through June BOJ, 65%) tracking strongly TRUE.
+
+### May 1-3 — IRAN/HORMUZ DE-ESCALATION STEP 🟡 RESOLVED — AMBIGUOUS (oil eased, terms maximalist)
+
+- **May 1:** Trump declared Iran hostilities "TERMINATED" in letter to Congress (war powers deadline workaround). Cited ceasefire and no recent fire exchanges.
+- **May 2:** Iran sent **14-point peace proposal** — withdraw US forces, lift blockade, release frozen assets, sanctions relief, end Lebanon ops, new Hormuz control mechanism. Trump reviewing; warned of restart if Iran "misbehaves." Terms maximalist (will not be accepted as-is).
+- **May 3:** Trump announced **"Project Freedom" — US Navy will start escorting commercial ships through Hormuz Mon May 4.** Dual-blockade dynamic persists (US blockades Iran ports since Apr 13; Iran blockades Strait).
+- **Oil:** Brent $111.75 (Apr 30) → **$107.48** (-3.8%) on de-escalation hopes.
+- **Net:** AMBIGUOUS. Real diplomatic motion (proposal exists; "terminated" letter; escort plan) but Iran's terms are unacceptable as-is and Project Freedom is a forced reopening, not a negotiated one. Tomorrow (May 4) is the immediate branch point.
 
 ---
 

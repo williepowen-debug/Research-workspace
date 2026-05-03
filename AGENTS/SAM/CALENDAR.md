@@ -42,9 +42,10 @@
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| **Ongoing** | **Hormuz blockade (US Navy)** | Ship interdictions, Iran seizures | 🔴🔴 Persistent; oil $111 |  ALL |
-| **Apr 28** | 🔴 **Trump rejects Iran Hormuz proposal** | Talks deadlocked; nuclear program carve-out demand | Brent +12% in 4 days to $111 | ALL |
-| Ongoing | Ceasefire extension (no fixed deadline) | Resumption signals | Collapse → $115+; Resolution → $80-90 | ALL |
+| **Ongoing** | **Dual-blockade (US blockades Iran since Apr 13; Iran blockades Hormuz)** | Tanker counts, Iran seizures | 🔴 Persistent; Brent $107.48 |  ALL |
+| **May 1** | 🟡 Trump declared hostilities "TERMINATED" (war powers letter) | Reading: rhetorical/legal more than substantive | Brent eased on de-escalation hopes | ALL |
+| **May 2** | 🟡 Iran 14-point peace proposal | Maximalist terms (forces withdraw, sanctions relief, Lebanon, Hormuz mechanism) | Trump reviewing; restart-if-misbehaves caveat | ALL |
+| **🔴 Mon May 4** | 🔴 **"Project Freedom" — US Navy escorts begin (Hormuz)** | Iran response = oil swing direction | Resistance → $115+ snap; Passive → slide to $100 | ALL |
 
 ---
 

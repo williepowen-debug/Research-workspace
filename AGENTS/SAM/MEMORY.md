@@ -47,38 +47,53 @@
 - **CFTC JPY release: -94,460 → -102,059** (+7,599 build). Shorts pressed THROUGH BOJ event = no covering on hawkish hold. Now **56.7% of Jul 2024 peak** (highest of cycle). Tilts 30d carry-unwind prob 70 → 72.
 - **"BOJ MPM secondary" was a calendar artifact** — Apr 28 was THE meeting. No actual May 1 policy event; nothing to fold in.
 
-### LAST SESSION (May 3 — light boot + May 1 catch-up)
+### LAST SESSION (May 3 — boot + May 1 catch-up + staleness audit + commit)
 
-**Boot:** boot.py 7.7s, 6/7 green (JGB Auctions failed — Sun/Mon = no scheduled auction, non-issue).
+**Boot:** boot.py 7.7s, 6/7 green (JGB Auctions script failed — Sun/Mon, no scheduled auction, non-issue).
 
 **Verification (parallel):** Workbook CFTC_JPY.tsv had auto-pulled May 1 data (-102,059); STATUS was stale. WebSearch confirmed (FX.co cited -102.1K). WebSearch on May 1 BOJ — no policy event found, confirming "MPM secondary" was a calendar mislabel.
 
-**File updates:**
-1. STATUS.md — header refreshed (date, levels, oil), market table refreshed (May 3 levels, CFTC -102K, status notes), carry unwind probs (30d 70 → 72 on stronger fuel load), watch list (May 1 rows resolved), reference data CFTC paragraph rewritten.
-2. CALENDAR.md — Week of May 1 collapsed to RESOLVED outcomes; date-stamp updated.
-3. MEMORY.md — this section.
+**Staleness audit (second pass):** Identified ~20 candidate stale items across A/B/C/D buckets. Acted on workbook refreshes (JGB curve from MOF Apr 30: 20Y 3.402, 30Y 3.721, 40Y 3.743 — long end now 26-28bp from 4.0% threshold), Iran/Hormuz refresh (Trump May 1 "terminated" letter, Iran 14-pt proposal, "Project Freedom" escort start Mon May 4), and FXY positioning header reframe (was misleading "Tranche 2 trigger ✅ FIRED" — now correctly subordinate to STRATEGY hard-trigger rule).
 
-**No position action.** FXY $58.44 inside Tranche 2 zone but per STRATEGY no-chase rule + hard-trigger convergence rule, June BOJ still 44 cal days out (>14d window). Hold. CFTC fuel build is bullish-thesis but doesn't trigger an add by itself.
+**File updates (May 3 cumulative):**
+1. STATUS.md — header, market table (incl. JGB curve full refresh), CFTC, carry probs (30d 70→72), BOJ readout, intervention status, FXY positioning header reframed, thresholds, watch list (added Mon May 4 Project Freedom row), reference data (Iran/Hormuz rewritten + CFTC paragraph)
+2. CALENDAR.md — Week of May 1 collapsed to RESOLVED; date-stamp updated
+3. THESIS.md — JGB 10Y threshold 2.429%→2.520%; CFTC reference -93,742→-102,059 + 56.7% peak; HENRY cross-agent line probs 20/72/90
+4. MEMORY.md — this section + NEXT SESSION reorder
+5. Committed + pushed (786d859f) — clean SAM-only commit; CARL files left untouched
 
-**No thesis bump** — May 1 CFTC reads as v1.3 confirmation (CFTC build through delay = larger eventual unwind). Per Apr 11 restraint lesson, +2pp on 30d prob is the appropriate scale.
+**No position action.** FXY $58.44 inside Tranche 2 upper band but per STRATEGY no-chase rule + hard-trigger convergence rule, June BOJ 44 cal days out. Hold.
+
+**No thesis bump** — May 1 CFTC + Apr 30 JGB curve both read as v1.3 confirmations, not refinements. Per Apr 11 restraint lesson, +2pp on 30d carry-unwind prob is the appropriate scale.
 
 ### NEXT SESSION
 
-1. **🟠 May 14 (Thu): Q1 GDP prelim** — 11 calendar days. First post-war quarter; BOJ already cut FY26 to 0.5%. Contraction = EWJ trigger.
-2. **🔴 May 15 (Fri): FY2025 ESR disclosures begin.** 12 calendar days. **Primary Channel 1 test** — Big 4 ESR <200% = HARD TRIGGER for Tranche 2 add per STRATEGY.
-3. **🟠 May 20 (Wed): April trade balance** — first full post-blockade month; Phase 1 oil mechanism re-test (Brent now $107, easing slightly but still elevated).
-4. **🟠 May 22 (Fri): April CPI** — oil passthrough; locks/loosens June hike.
-5. **🟡 Brent track:** Down to $107 over weekend (-3.8%). Watch for further easing — if Brent breaks $100, intervention pressure off and Phase 2 path accelerates. If reverses to $115+, Phase 1 dominates.
-6. **🟡 FXY watch:** Inside Tranche 2 upper band ($58.44 vs $58.00-58.25). No-chase rule holds; pullback within 14d of June BOJ = live add.
-7. **🟠 Next CFTC release Fri May 8** — does the build continue? -110K would put us at Jul24 peak proximity = unwind asymmetry continues to grow.
-8. **🔴🔴 Mid-June: BOJ MPM (Jun 16 per countdown)** — BASE CASE HIKE; SAM-21 (70% / market 74%). Hard trigger. Prep scenario tree as date approaches.
+**Imminent (hours-to-days):**
+1. **🔴 Mon May 4 (TOMORROW): "Project Freedom" Hormuz escort start.** Iran response = oil swing direction. Resistance → snap back to $115+ (Phase 1 reasserts, USDJPY upside pressure). Passive Iran → Brent slides toward $100 (Phase 2 path accelerates, intervention pressure off).
+2. **🟠 Thu May 8: MOF ITS weekly (Apr 26-May 2)** — first full-week flow read post-Apr 28 BOJ.
+3. **🟠 Fri May 8: CFTC JPY release.** -110K would put us at ~61% of Jul24 peak — unwind asymmetry continues to grow. Cover signal would be the surprise.
+
+**Mid-month thesis tests:**
+4. **🟠 Thu May 14: Japan Q1 GDP prelim.** First post-war quarter; BOJ already cut FY26 to 0.5%. Contraction = EWJ trigger.
+5. **🔴 Fri May 15: FY2025 ESR disclosures begin.** PRIMARY Channel 1 test. Big 4 ESR <200% = HARD TRIGGER for Tranche 2 add per STRATEGY.
+6. **🟠 Wed May 20: April trade balance** — first full post-blockade month; Phase 1 oil mechanism re-test.
+7. **🟠 Fri May 22: April CPI** — oil passthrough; locks/loosens June hike.
+
+**Hard trigger window:**
+8. **🔴🔴 Tue Jun 16: BOJ MPM — BASE CASE HIKE.** SAM-21 (70% / market 74%). Tranche 2 hard trigger. Prep scenario tree ~end-May.
+
+**Background watches (no action by themselves):**
+- **Brent direction:** $107.48 today. Through $100 = Phase 2 acceleration; through $115 = Phase 1 reasserts.
+- **FXY $58.44:** Inside Tranche 2 upper band. No-chase rule holds. Pullback to $58.00-58.25 within 14d of June BOJ (i.e., late-May+) = live add.
+- **JGB long end:** 30Y 3.721, 40Y 3.743 — 26-28bp from 4.0%. Auto-pulled by boot.py.
 
 ### PENDING (carry-over)
-- v1.4 decision gate after ESR disclosures (hedged/unhedged nuance refinement).
-- Per new STRATEGY no-chase rule: do NOT add Tranche 2 above $58.25 unless hard trigger fires.
+- v1.4 thesis decision gate after ESR disclosures (hedged/unhedged nuance refinement; SAM-19 lesson).
+- STRATEGY no-chase rule: do NOT add Tranche 2 above $58.25 unless hard trigger fires.
 
 ### INFRASTRUCTURE STATUS (persistent)
-- Boot scripts working cleanly (7.8s). JGB yields auto-pulled through Apr 30. MOF ITS through Apr 19-25.
-- CATALYSTS.tsv now synced to v1.3 thesis (was stale).
-- STRATEGY.md now canonical decision doc; STATUS scenario matrices subordinate.
-- Workbook TSVs auto-updated by boot scripts (FXY_OPTIONS, JGB_AUCTIONS, JGB_YIELDS, MOF_FLOWS).
+- Boot scripts: 6/7 green (JGB Auctions weekend-FAIL is normal Sun/Mon).
+- Workbook auto-pulls current through: JGB_YIELDS Apr 30, MOF_FLOWS Apr 19-25, JGB_AUCTIONS Apr 30 (2Y), CFTC_JPY Apr 28, FXY_OPTIONS May 3.
+- CATALYSTS.tsv synced to v1.3 thesis.
+- STRATEGY.md is canonical decision doc; STATUS scenario matrices explicitly subordinate (header rewritten May 3 to remove conflict).
+- Golden Week: Japan markets largely closed May 3-6 (Constitution Day, Greenery Day, Children's Day) — expect no new MOF JGB/auction data until ~May 7.
