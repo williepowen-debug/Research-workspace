@@ -1,5 +1,5 @@
 # CARL STATUS
-**Updated:** 2026-05-03 ~23:30 UTC
+**Updated:** 2026-05-04 ~00:30 UTC
 **Overall:** 🔴🔴 CRITICAL — Convergence **53/70 (76%)**. Thesis **v2.5.1** (May 3): masking framework narrowed 6→4 issuers + K-shape Selection / Tariff Transmission sibling section + CRL-22/23 added. **v2.5** (May 1): Path C ACTIVE-RED (provisional), matrix expanded 12→14 vectors, score recalibrated 58/60 → 53/70 (~60% calibration + ~40% conviction reduction). Audit trail in `thesis/CHANGELOG.md`. Counter-evidence tracking moved to `handoff_RED/COUNTER_LOG.md`.
 
 *Check-in archives: `archive/status/`*
@@ -163,11 +163,15 @@ V9 merged into V8 (May 1). V15 Refi-Window dropped (RED domain).
 | Window | Trigger | Status |
 |--------|---------|--------|
 | **NOW (May 3)** | Iran cluster bidirectional (peace proposal + Hormuz escort blockade — Brent $108.17 -5.12% Fri); CRL-08 gas $4.446 NEAR-BREACH NOT-YET (gap $0.054, deceleration trio + Brent pullback widens timing distribution); v2.5.1 thesis refinement complete | 🔴🔴 **OIL BREAKOUT / CONSUMER STAGFLATION** |
-| **Recently fired (last 30d)** | Mar 24 FL UI Wave 1 ✅ • Apr 15 Sweet v. McMahon ✅ (~271K pipeline) • Apr 21 SYF/COF/UNH/ELV/DHI/PHM ✅ (3-way K-shape WIDENING confirmed, KB-CARL-243-247) • Apr 21 Iran ceasefire ✅ (binary unresolved → oil breakout) • Apr 24 UMich Final 49.8 ✅ (5-10Y 3.5%) • Apr 26 FL UI Wave 2 🟡 PARTIAL (initial claims surface counter-thesis; exhaustion mechanism = LABOR/GIG spawn, KB-CARL-262) • Apr 28 Case-Shiller Feb ✅ + Rithm Q1 ✅ (KB-CARL-257/261) • May 1 ALL Q1 ✅ POLLY-P05 confirmed (CR 82.0, KB-CARL-266) | — |
+| **Recently fired (last 30d)** | Apr 15 Sweet v. McMahon ✅ (~271K pipeline) • Apr 21 SYF/COF/UNH/ELV/DHI/PHM ✅ (3-way K-shape WIDENING confirmed, KB-CARL-243-247) • Apr 21 Iran ceasefire ✅ (binary unresolved → oil breakout) • Apr 24 UMich Final 49.8 ✅ (5-10Y 3.5%) • Apr 26 FL UI Wave 2 🟡 PARTIAL (initial claims surface counter-thesis; exhaustion mechanism = LABOR/GIG spawn, KB-CARL-262) • Apr 28 Case-Shiller Feb ✅ + Rithm Q1 ✅ (KB-CARL-257/261) • **Apr 28-29 FOMC ✅ HELD 3.50-3.75% w/ 4 dissents most since 1992 (KB-274)** • Apr 30 BEA Mar PCE ✅ (Real DPI -0.1%, Savings 3.6%, Core PCE 3.2% YoY, KB-270) • May 1 ALL Q1 ✅ POLLY-P05 confirmed (CR 82.0, KB-266) • **May 3 CRL-19 RESOLVED MIXED** (Mar Core PCE 3.2% vs predicted 3.3-3.5%, direction-correct/magnitude-light) | — |
 | **Late Apr/May** | PennyMac Q1 — FHA DQ >7.5% bridge test on Rithm mod-accounting framework | 🟠 |
 | **May 5** | PayPal Q1 (new CEO Lores) — PHAN owns | ⏳ |
+| **May 6-8** | Earnings cluster: Uber+DoorDash (May 6) / Dave+Lyft+Affirm (May 7) / BLS Apr NFP (May 8) | ⏳ |
+| **May 13** | BLS Apr CPI — first full Iran-shock + tariff month | ⏳ |
 | **May-Jun** | DQ conversion (Mar/Apr stress → May/Jun spike) + middle-market PC cuts | 🔴 UPGRADED |
-| **May 28** | AFT/MOHELA status conference (discovery) | 🟠 |
+| **~Mid-May** | NY Fed Q1 HHDC — CC 90+ DQ vs 12.7% / CRL-05 test | ⏳ |
+| **May 28** | AFT/MOHELA status conference (discovery) + BEA Q1 GDP 2nd est (CRL-18) | 🟠 |
+| **Jun 16-17** | **FOMC + SEP** — first dot-plot post-Iran-shock + un-anchoring Apr Final UMich 5-10Y 3.5%; 4-dissent April pattern carries forward (KB-274) | 🔴 |
 | **Jun 24** | FL Wave 1 UI exhaustion cliff (~4,500 workers) | 🔴 |
 | **Jul 1** | **SAVE → RAP transition** — 7.5M forced into new plans | 🔴 |
 | **Jul** | Involuntary collections restart (AWG + Treasury Offset) — 5M+ defaulted borrowers | 🔴 |
@@ -185,9 +189,7 @@ V9 merged into V8 (May 1). V15 Refi-Window dropped (RED domain).
 | From | Key Signal | As Of | Status |
 |------|-----------|-------|--------|
 | LABOR | JOLTS 0.91 inverted, hires COVID-low 3.1%, duration 25.7wk, **NFP Mar +178K (headline) but Feb revised -133K, LFPR 61.9%, 3mo avg 68K**, DOGE 260K+ (fed govt -18K in Mar) | Apr 3 | 🔴🔴 |
-| HAWK/BRENT | **WTI $106.51 (+6.58% Apr 29), Brent $110.38 close / $115 intraday — 8-session streak, highest since Jun 2022**. Pump $4.229 Apr 29 AAA (+$0.21 30d on Brent pass-through, +5.3¢ overnight). Diesel $5.464 Apr 29 AAA (-$0.144 vs Apr 13 — freight demand destruction divergence). Nitrogen seizure (urea $690s), CPI Energy +12.5% YoY. | Apr 29 | 🔴🔴 |
-| WAR | **CEASEFIRE EXPIRY APR 21 = BINARY UNRESOLVED.** Apr 24 diplomacy cascade contradictory (Araghchi Islamabad, Trump talks-relaunch frame vs IRGC-Raja/Tasnim denial). Apr 26 USS Pinckney shadow-fleet intercept Arabian Sea. Apr 28-29 Brent breakout $115 = talks-hope evaporated. Apr 29 Iranian rial -15% in 2 days (record low 181M/USD). Cluster intensified, not resolved. | Apr 29 (BOARD) | 🔴🔴 |
-| FOMC | Hold 3.50-3.75%, 1 cut priced — fed locked by stagflation | Mar 19 | 🔴🔴 |
+| FOMC | **Hold 3.50-3.75%** Apr 28-29 (3rd consec hold). **4 DISSENTS — most since Oct 1992** (Miran -25bps + 3 others objected to forward language). Consensus hold through Q2. Fed signaling openness to **HIKES if inflation persists** = locked + hawkish-leaning, not just locked. Next: **June 16-17 (SEP)**. KB-CARL-274. | Apr 28-29 | 🔴🔴 |
 | MARCO | ICE 1,100+/day, remittances -4.6%, Miami outmigration -2.0% | Mar 26 | 🔴 |
 
 ---

@@ -1,85 +1,93 @@
 # CARL SCRATCH
-**Last session:** 2026-05-03 ~23:30 UTC (PM4)
-**Type:** STATUS staleness audit Cluster 1 — direct CARL data refresh + CRL-19 RESOLVED
+**Last session:** 2026-05-04 ~00:30 UTC (PM5)
+**Type:** STATUS staleness audit Clusters 2+3 — Cross-Agent dedup + FOMC refresh + DANGER WINDOW rebuild
 
-**PRIORITY-1:** **Cluster 2 + Cluster 3 — Cross-agent stale fixup + FOMC May 6-7 to DANGER WINDOW.** Cluster 1 done. Cluster 2 = sync HAWK/BRENT row to today's data (or remove duplication w/ Macro Brent), refresh FOMC for May 6-7 meeting (3 days out), age-out Mar 24 FL UI Wave 1 from "Recently Fired" (40d old). Cluster 3 = add FOMC May 6-7 to DANGER WINDOW. Plus **HY OAS refresh** — FRED + 4 secondaries all blocked May 3; need fetch path resolution (try FRED API key / abs_monitor.py / dedicated tool).
+**PRIORITY-1:** **AAA pump Mon May 4 refresh — first weekday post-Brent-pullback.** Brent -5.12% Friday May 2 close ($108.17) should transmit to pump softening Mon-Wed at 3-4d lag (KB-CARL-259 acute-regime model). Two scenarios: (a) softening confirmed → pump stabilizes $4.44-4.49 short of clean breach, CRL-08 timing widens beyond Tue May 5; (b) Brent re-firms → breach Tue/Wed, 2-week sustainability clock starts. Decisive disposition for CRL-08 lands this week. Plus: HY OAS still stale 23d — needs alternative fetch path.
 
 ---
 
 ## WHAT HAPPENED
 
-1. **Boot per spawn protocol** — git pull clean; read SCRATCH/STATUS/SCHEMA/TEAM/ROADMAP. Skipped BOARD diff per conditional rule.
-2. **Will requested readout** — answered with breakdown: immediate, this week (May 5-8), next 2 weeks, v2.5.1 hardening, workbook hardening, backlog.
-3. **Plan-mode AAA + Iran (PM3)** — Approved, executed.
-4. **PM3 work:** Live data AAA $4.446 + Brent $108.17 + Iran cluster bidirectional. KB-268/269 + VX-CARL-GAS-01. STATUS gas/diesel/Brent/WTI/Iran rows. CRL-08 NEAR-BREACH NOT-YET. Commit 7df5c0ba.
-5. **STATUS staleness audit (this session)** — Will asked to look for stale rows. Identified 3 clusters: direct CARL refresh / cross-agent stale fixup / FOMC missing.
-6. **Cluster 1 executed:** 5 web fetches (Freddie PMMS / MBA via tradingeconomics / BEA Mar PCE / Census Mar Retail / CB Apr); HY OAS BLOCKED (FRED + 4 secondaries 403/404).
-7. **CRL-19 RESOLVED direction-correct/magnitude-light:** predicted Mar Core PCE 3.3-3.5%, actual 3.2% (10bps below floor; +20bps accel vs predicted +30-50bps). Strict-def MISSED. Same pattern as CRL-01 — calibration warning.
-8. **KB additions** (Python append, schema-clean, 15-col):
-   - KB-CARL-270: BEA Mar 2026 PCE (full mechanism — Real DPI -0.1% / PCE +0.9% / Core PCE 3.2% / Savings 3.6%)
-   - KB-CARL-271: Census Mar Retail (+1.7% headline / +15.5% gas record / +0.7% control group)
-   - KB-CARL-272: Mortgage Apr 30 (PMMS reversal + MBA contract +2bps)
-   - KB-CARL-273: CB Apr (92.8 / 72.2 / 4 consec months <80)
-9. **VX updates (5 rows in place):** HSG-01 (mortgage), SENT-02 (CB), SAV-01 (savings), 6.10 (retail control), MACRO-07 (Notes bridge resolved).
-10. **STATUS edits (9):** Updated timestamp + 30-Yr Mortgage + MBA Purchase Apps + HY OAS (marked PENDING REFRESH) + Savings Rate + Core PCE Monthly + CB Expectations + Retail Sales + Real Consumer Spending + Real DPI + Retail Control Group + CRL-19 moved Open→Resolved.
-11. **PREDICTIONS.tsv:** CRL-19 OPEN → MIXED + Date_Resolved 2026-05-03 + Outcome populated.
-12. **CHANGELOG.md:** PM3 CRL-19 resolution entry added.
-13. **Commit + push pending.**
+1. **Boot per spawn protocol** (PM4 boot earlier today).
+2. **PM4 work:** Cluster 1 staleness refresh — KB-270/271/272/273 + 5 VX rows + 9 STATUS rows + CRL-19 RESOLVED MIXED. Commit 711efcb3.
+3. **Cluster 2+3 plan-mode** — Will requested planning with sources / decisions / open questions before execution.
+4. **Plan recon:** Read HAWK/BRENT/MARCO STATUS files (HAWK 13d stale, BRENT 3d, MARCO 10d, no AGENTS/WAR/ — that row was BOARD-aggregated). Surfaced 3 of 4 cross-agent rows duplicative w/ Macro section. Plan + decisions presented.
+5. **Decisions per Will:** drop HAWK/BRENT + WAR rows; web-fetch FOMC; hold MARCO mirror; age out >30d Recently Fired; no VX-CARL-FOMC-RATE creation (STATUS-only).
+6. **FOMC web fetch** (Federal Reserve calendar + tradingeconomics): **Course-correction surfaced** — initial plan assumed FOMC May 6-7 imminent; verified NO May meeting. Last meeting Apr 28-29 (held 3.50-3.75%, 3rd consec); **4 dissents most since Oct 1992** (Miran -25bps + 3 hawkish-leaning objections); Fed signaling openness to **HIKES** if inflation persists; next Jun 16-17 with SEP (first dot-plot post Iran-shock).
+7. **Cluster 2 STATUS edits:**
+   - Removed HAWK/BRENT row (duplicative with Macro Brent/WTI/Gas/Iran rows)
+   - Removed WAR row (duplicative with Macro Iran Cluster Resolution row)
+   - Refreshed FOMC row Mar 19 → Apr 28-29 with 4-dissent narrative + Jun 16-17 SEP
+   - LABOR row left alone (Apr 3, still current)
+   - MARCO row left alone (no mirror per decision)
+8. **Cluster 3 STATUS edits:**
+   - Added Jun 16-17 FOMC + SEP row to DANGER WINDOW
+   - Added May 6-8 (Uber/DoorDash/Dave/Lyft/Affirm/NFP) row
+   - Added May 13 (BLS Apr CPI) row
+   - Added Mid-May (NY Fed Q1 HHDC / CRL-05 test) row
+   - Aged out Mar 24 FL UI Wave 1 from "Recently fired (last 30d)" (40d)
+   - Added Apr 28-29 FOMC + Apr 30 BEA Mar + May 3 CRL-19 to "Recently fired"
+9. **Workbook:** +KB-CARL-274 (FOMC Apr 28-29 + Jun 16-17 preview, A2 due to non-direct fetch).
+10. **Vector #12 (Stagflation Trap / Fed Locked) REINFORCED:** was 'locked-passive', now 'locked + hawkish-leaning'. Path C bad news compounds — mortgage easing reversed, Fed not cutting, no rate relief.
+11. **Updated timestamp:** May 3 ~23:30 UTC → May 4 ~00:30 UTC.
+12. **Commit + push pending.**
 
 ## STATUS CHANGES
 | Item | Change |
 |------|--------|
-| `workbook/KB.tsv` | 266 → 270 (+KB-270 BEA Mar / +KB-271 Census / +KB-272 Mortgage / +KB-273 CB Apr) |
-| `workbook/VX.tsv` | 5 rows updated in place: HSG-01 mortgage Apr 30, SENT-02 CB Apr 72.2, SAV-01 savings 3.6%, 6.10 retail control 0.7%, MACRO-07 Notes bridge resolved |
-| `STATUS.md` | 9 row edits + Updated timestamp + CRL-19 moved to Resolved; 237 lines (unchanged) |
-| `thesis/PREDICTIONS.tsv` | CRL-19 OPEN → MIXED, Date_Resolved 2026-05-03 |
-| `thesis/CHANGELOG.md` | New PM3 CRL-19 resolution entry |
-| `ROADMAP.md` | PM4 RECENTLY RESOLVED entry + timestamp |
-| Vector #12 | UNCHANGED — bridge HOLDS (3.2% monthly consistent w/ 4.3% Q1 NIPA via base-effect math). Calibration warning, not thesis warning. |
+| `STATUS.md` Cross-Agent Links section | 4 rows → 2 rows (removed HAWK/BRENT, WAR; refreshed FOMC; left LABOR + MARCO) |
+| `STATUS.md` DANGER WINDOW | +4 forward catalysts (May 6-8, May 13, Mid-May, Jun 16-17 SEP); aged out Mar 24; +3 fired items (Apr 28-29 FOMC, Apr 30 BEA, May 3 CRL-19) |
+| `STATUS.md` line count | 237 → 239 (+2 net) |
+| `workbook/KB.tsv` | 270 → 271 (+KB-CARL-274 FOMC Apr 28-29) |
+| Vector #12 framing | locked-passive → locked + hawkish-leaning (Apr 28-29 dissent pattern) |
+| FOMC narrative | Mar 19 hold w/ 1 cut priced → Apr 28-29 hold w/ 4 dissents most since 1992 + openness to hikes if inflation persists |
 
 ---
 
 ## NEXT SESSION SHOULD
 
 ### IMMEDIATE (this session / 24hrs)
-1. **Cluster 2 + Cluster 3 — Cross-agent stale fixup + FOMC.** HAWK/BRENT row sync, MARCO refresh ask, FOMC May 6-7, age-out >30d "Recently Fired" items, add FOMC May 6-7 to DANGER WINDOW.
-2. **HY OAS refresh** — FRED direct + secondaries blocked. Try alternative paths: FRED API key, abs_monitor.py, dedicated fetch tool.
-3. **AAA pump Mon May 4 refresh** — first weekday post-Brent-pullback; resolves CRL-08 timing.
+1. **AAA pump Mon May 4 refresh** — first weekday post-Brent-pullback; resolves CRL-08 timing distribution.
+2. **HY OAS refresh** — FRED + 4 secondaries blocked May 3; try FRED API key, abs_monitor.py, or Yahoo HYG ETF as proxy.
+3. **Brent close monitoring Mon May 4** — does Iran peace-proposal repricing hold or does Hormuz escort blockade re-fire?
 
 ### UPCOMING (this week)
 4. **May 5** — PayPal Q1 (PHAN spawn) — first under new CEO Lores.
-5. **May 6** — Uber Q1 + DoorDash Q1 (GIG) — driver count QoQ.
-6. **May 6** — BLS state jobs March (FL labor).
-7. **May 6-7** — **FOMC meeting** (currently NOT in DANGER WINDOW — fix in Cluster 3).
-8. **May 7 TRIPLE** — Dave Q1 + Lyft Q1 + Affirm Q3 FY2026.
-9. **May 7** — EIA weekly inventory (distillate / DSL-01).
-10. **May 8** — BLS Apr NFP — V16 first realized print.
+5. **May 6** — Uber Q1 + DoorDash Q1 (GIG); BLS state jobs March (FL labor).
+6. **May 7 TRIPLE** — Dave Q1 + Lyft Q1 + Affirm Q3 FY2026.
+7. **May 7** — EIA weekly inventory (distillate / DSL-01).
+8. **May 8** — BLS Apr NFP — V16 first realized print.
 
 ### UPCOMING (next 2 weeks)
-11. **May 13** — BLS Apr CPI — first full Iran-shock + tariff month.
-12. **~May 18** — Klarna Q1 (PHAN).
-13. **~Mid-May** — NY Fed Q1 HHDC — **CARL CORE — CC 90+ DQ vs 12.7% / CRL-05 test**.
-14. **May 28** — BEA GDP Q1 second estimate (CRL-18 resolves) + AFT/MOHELA conference.
+9. **May 13** — BLS Apr CPI — first full Iran-shock + tariff month.
+10. **~May 18** — Klarna Q1 (PHAN).
+11. **~Mid-May** — NY Fed Q1 HHDC — **CARL CORE — CC 90+ DQ vs 12.7% / CRL-05 test**.
+12. **May 28** — BEA GDP Q1 second estimate (CRL-18 resolves) + AFT/MOHELA conference.
+
+### UPCOMING (next 6+ weeks)
+13. **Jun 16-17** — **FOMC + SEP** — first dot-plot post Iran-shock + UMich un-anchoring; 4-dissent April pattern carries forward; KB-274. Hawkish surprise → V12 to 5/5; dovish surprise → V12 partial relief.
 
 ### v2.5.1 HARDENING (8 PENDING_VERIFY items)
-15-23. UMich triangulation / Foreclosure 2019 baseline / Path C COF/SYF counterfactual / Crying-wolf X-thresholds / Brier audit / CONTAINMENT prior calibration / COF/SYF candor puzzle / Trade Duration roll plan / RED-CARL interface.
+14-22. UMich triangulation / Foreclosure 2019 baseline / Path C COF/SYF counterfactual / Crying-wolf X-thresholds / Brier audit / CONTAINMENT prior calibration / COF/SYF candor puzzle / Trade Duration roll plan / RED-CARL interface.
+
+### CRL-19 calibration follow-up
+23. Brier audit pattern check: CRL-01 + CRL-19 both direction-right/magnitude-low (n=2). Frame for v2.5.1 hardening item #5.
 
 ### BACKLOG (no deadline)
 24. **HY OAS refresh path** — fetch tooling.
-25. Workbook hardening Item #3 (validator promotion).
-26. Sub-agent workbook standardization (POP KB.tsv).
-27. Workbook hardening Item #6 (root INDEX.md).
-28. Supply-event sub-vector class.
-29. Orphan-Claim Audit Byproduct.
-30. LABOR/GIG spawn for FL UI Wave 2.
-31. HOMER spawn for Case-Shiller Feb sub-market detail.
-32. Workbook content refresh — VX consumer / FLOW / STATE_DIFFUSION / BNPL_STRESS (16-17d stale).
-33. ABS_BASELINE refresh — March 10-Ds (17d).
-34. **POLLY refresh** — 24d stale.
-35. 6 outbox signals from Apr 17 (deferred per messaging-overhaul).
-
-### CRL-19 calibration follow-up
-36. **Brier audit pattern check:** CRL-01 + CRL-19 both direction-right/magnitude-low. Two data points = pattern of magnitude over-confidence? v2.5.1 hardening item #5 (Brier audit full prediction history) may want this question framed: are CARL predictions systematically over-magnitude, or is it sampling artifact at n=2?
+25. **VX-CARL-FOMC-RATE vector** — currently STATUS-only; consider creating to track Fed stance via dissent count + market-implied path (deferred per Will decision Cluster 2+3).
+26. Workbook hardening Item #3 (validator promotion).
+27. Sub-agent workbook standardization (POP KB.tsv).
+28. Workbook hardening Item #6 (root INDEX.md).
+29. Supply-event sub-vector class.
+30. Orphan-Claim Audit Byproduct.
+31. LABOR/GIG spawn for FL UI Wave 2.
+32. HOMER spawn for Case-Shiller Feb sub-market detail.
+33. Workbook content refresh — VX consumer / FLOW / STATE_DIFFUSION / BNPL_STRESS (16-17d stale).
+34. ABS_BASELINE refresh — March 10-Ds (17d).
+35. **POLLY refresh** — 24d stale.
+36. **MARCO refresh ask** — Will decided to hold off mirror this session; if MARCO STATUS Apr 23 information becomes stale-blocking for STATUS, surface to Will.
+37. 6 outbox signals from Apr 17 (deferred per messaging-overhaul).
 
 ---
 
@@ -105,33 +113,33 @@
 
 ---
 
-## WORKBOOK HEALTH (post May 3 PM4 refresh)
+## WORKBOOK HEALTH (post May 4 PM5 refresh)
 | TSV | Rows | Cols | Last Modified | Note |
 |-----|------|------|---------------|------|
-| KB | **270** | 15 | **May 3 PM4** | +KB-270/271/272/273 (BEA Mar / Census Mar / Mortgage / CB Apr); 0 dangling KB→VX refs preserved; 0 enum / hygiene / col-count violations |
-| VX | 121 | 11 | **May 3 PM4** | 5 rows updated in place: HSG-01, SENT-02, SAV-01, 6.10, MACRO-07 Notes |
+| KB | **271** | 15 | **May 4 PM5** | +KB-CARL-274 (FOMC Apr 28-29 + Jun 16-17 preview); 0 dangling KB→VX refs preserved; 0 enum / hygiene / col-count violations |
+| VX | 121 | 11 | May 3 PM4 | Unchanged this session (FOMC rate not added per Will decision — STATUS-only) |
 | SCHEMA | 15 | 7 | May 2 PM | Unchanged |
-| PREDICTIONS | 24 | 10 | **May 3 PM4** | CRL-19 OPEN → MIXED |
-| THESIS.md | — | — | May 3 AM | Unchanged |
-| CHANGELOG.md | — | — | **May 3 PM4** | +CRL-19 resolution entry |
-| ROADMAP.md | — | — | **May 3 PM4** | PM4 RECENTLY RESOLVED entry |
-| STATUS.md | — | — | **May 3 PM4** | 237 lines (unchanged); 9 row edits |
+| PREDICTIONS | 24 | 10 | May 3 PM4 | Unchanged this session |
+| THESIS.md | — | — | May 3 AM | Unchanged this session |
+| CHANGELOG.md | — | — | May 3 PM4 | Unchanged this session |
+| ROADMAP.md | — | — | **May 4 PM5** | PM5 RECENTLY RESOLVED entry + timestamp |
+| STATUS.md | — | — | **May 4 PM5** | 239 lines (was 237); 5 row edits + 2 row removes + 4 row adds in DANGER WINDOW + Cross-Agent Links |
 | HOMER/KB | 65 | 12 | May 2 PM3 | Unchanged |
-| FLOW | 24 | 9 | Apr 17 | 16d — refresh due |
-| STATE_DIFFUSION | 62 | 12 | Apr 17 | 16d |
-| BNPL_STRESS | 59 | 13 | Apr 17 | 16d |
-| ABS_BASELINE | 72 | 12 | Apr 16 | 17d |
-| TRENDS | 39 | 7 | Apr 6 | 27d |
+| FLOW | 24 | 9 | Apr 17 | 17d — refresh due |
+| STATE_DIFFUSION | 62 | 12 | Apr 17 | 17d |
+| BNPL_STRESS | 59 | 13 | Apr 17 | 17d |
+| ABS_BASELINE | 72 | 12 | Apr 16 | 18d |
+| TRENDS | 39 | 7 | Apr 6 | 28d |
 
 **Audit artifact:** `workbook/AUDIT_2026-05-02.md` — Items #1 / #2a / #2d / #2.5 resolution logs.
 
-**BOARD_LOG:** synced 0 gap (verified PM2 boot, unchanged through PM4). Skip BOARD diff next session unless INDEX advances.
+**BOARD_LOG:** synced 0 gap (verified PM2 boot, unchanged through PM5). Skip BOARD diff next session unless INDEX advances.
 
 ---
 
 ## URGENT
 
-- **Cluster 2 + 3 outstanding** — Cross-agent stale rows + FOMC May 6-7 missing from DANGER WINDOW.
-- **HY OAS still stale 23d** — FRED + 4 secondaries blocked May 3; needs alternative fetch path.
-- **AAA pump Mon May 4** — first weekday post-Brent-pullback; resolves CRL-08 timing distribution.
-- **CRL-19 resolved MIXED** — 2nd direction-correct/magnitude-low (CRL-01 pattern); calibration question for v2.5.1 Brier audit.
+- **AAA pump Mon May 4** — first weekday post-Brent-pullback; CRL-08 timing distribution disposition.
+- **HY OAS still stale 23d** — FRED + 4 secondaries blocked; needs alt fetch path.
+- **FOMC Vector #12 reinforced** — locked + hawkish-leaning; Jun 16-17 SEP highest-leverage near-term V12 catalyst.
+- **CRL-19 calibration warning** — 2nd direction-right/magnitude-low (CRL-01 pattern); flag for v2.5.1 Brier audit.
