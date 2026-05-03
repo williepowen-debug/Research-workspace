@@ -1,5 +1,5 @@
 # CARL STATUS
-**Updated:** 2026-05-03 ~22:00 UTC
+**Updated:** 2026-05-03 ~23:30 UTC
 **Overall:** 🔴🔴 CRITICAL — Convergence **53/70 (76%)**. Thesis **v2.5.1** (May 3): masking framework narrowed 6→4 issuers + K-shape Selection / Tariff Transmission sibling section + CRL-22/23 added. **v2.5** (May 1): Path C ACTIVE-RED (provisional), matrix expanded 12→14 vectors, score recalibrated 58/60 → 53/70 (~60% calibration + ~40% conviction reduction). Audit trail in `thesis/CHANGELOG.md`. Counter-evidence tracking moved to `handoff_RED/COUNTER_LOG.md`.
 
 *Check-in archives: `archive/status/`*
@@ -33,8 +33,8 @@
 |--------|-------|-------|--------|
 | Fannie MF DQ | **0.74%** (6bps from GFC) | Feb 2026, Fannie | 🔴 |
 | FHA DQ | **11.52%** vs Conv 2.89% | Q4 2025, MBA | 🔴 |
-| 30-Yr Mortgage | **6.30%** PMMS (3rd consec wk easing from 6.46% Apr 2; MBA contract 6.42%) | Apr 17, Freddie PMMS | 🟠 |
-| MBA Purchase Apps | **-1% WoW, -3% YoY** (Apr 10 wk) — rate easing NOT unlocking demand; refi +5% WoW (share 45.5%) | Apr 16, MBA | 🔴 |
+| 30-Yr Mortgage | **6.30%** PMMS Apr 30 — easing thread REVERSED (round-trip 6.30 Apr 17 → 6.23 Apr 24 → 6.30 Apr 30); MBA contract **6.37% (+2bps)** wk Apr 24, jumbo/large-balance pricing pressure. Iran-shock + UMich un-anchoring back-up. KB-CARL-272. | Apr 30, Freddie PMMS | 🟠 |
+| MBA Purchase Apps | **+1.1% WoW (wk Apr 24)** — Composite -1.6% (after prior +7.9% mass-refi-pop), Refi -4.4% (refi window collapsed). Rate easing window opened-and-shut. KB-CARL-272. | Apr 24, MBA | 🟠 |
 | NAHB HMI Apr | **34** (-4pts from 38 Mar, 7-mo low, 24th consec mo <50). Future Sales **42** (-7pts). Tariff cost +$10,900/home (60% builders report). | Apr 15, NAHB | 🔴 (breaches <40 threshold) |
 | Rent Growth Negative | **56% of top 100 cities** | Jan 2026, Apollo/Slok | 🟠 |
 | Median Homebuyer Age | **59** (was 31 in 1981) | Mar 2026, Apollo/Slok | 🔴 |
@@ -71,9 +71,9 @@
 | WTI | **$101.94 May 2 close** (-$3.13 / -2.98%). **Brent-WTI spread $6.23 — WIDENED from $2-4 May 1 = physical-spot tightness mechanism RELAXED.** Spread regime change is the most actionable single finding (KB-269). | May 2 close | 🔴 |
 | **Qatar LNG** | **~80 MTPA OFFLINE = ~20% global LNG supply** (Iranian drone strikes Ras Laffan Mar 2/18-19; QatarEnergy FM extended). TTF EU gas +50%, JKM Asia LNG +39%. Supports diesel elevated + distillate tightness. | Apr 19 | 🔴🔴 |
 | **Iran Cluster Resolution** | **STILL LIVE May 3** — bidirectional firing simultaneously: (a) Iran state media submitted new peace proposal (triggered Brent -5% Friday); (b) Trump announced US Navy Hormuz ship-escort initiative ("doubles down on blockade to choke Iran's oil exports"); WPR May-1 expired no statutory pause (admin: hostilities "terminated" Apr 7); Iran warns $140 oil; Pakistan oil imports +167% since cluster start; net supply loss est 9M bpd. Neither de-escalation nor escalation resolved. Detail: KB-CARL-240/242/248/258/269. | May 3 | 🔴🔴 |
-| HY OAS | **294bps** (collapsed 317→294 in 8 days — ceasefire + NFP compressed 23bps. Now BELOW 300 elevated threshold. Complacency gap WIDENING — structured credit cracking while public HY tightens) | Apr 10, FRED | 🟢 ⚠️ |
+| HY OAS | **294bps Apr 10 — STALE 23d, FRED + secondary fetches all blocked May 3.** Iran cluster + 8-session Brent streak almost certainly widened spreads beyond Apr 10 reading. Awaiting fetch path resolution. | Apr 10, FRED ⚠️STALE | 🟡 PENDING REFRESH |
 | CPI Energy YoY | **+12.5%** (+11.9% MoM index jump) | Mar 2026, BLS | 🔴 |
-| Savings Rate | **4.0%** (↓0.5pp from Jan, real DPI -0.5%) | Feb 2026, BEA | 🔴 |
+| Savings Rate | **3.6%** Mar (↓40bps from Feb 4.0%; matches Dec 2025 trough = 2008 stress profile). Buffer-exhaustion regime. PCE +0.9% MoM nominal DESPITE Real DPI -0.1% = forced consumption funded by savings depletion. KB-CARL-270. | Mar 2026, BEA | 🔴🔴 |
 | Urea NOLA | **$690s/mt** (was $475 early Mar) | Mar 28 | 🔴🔴 |
 | Russia AN | **SUSPENDED** | Mar 2026 | 🔴🔴 |
 | USDA Wheat Acres | **43.775M — LOWEST SINCE 1919** | Mar 31, USDA | 🔴🔴 |
@@ -81,7 +81,7 @@
 | JOLTS Ratio | **0.91 INVERTED & DEEPENING** | Feb 2026, BLS | 🔴🔴 |
 | Unemployment Duration | **25.7 wks** (4-yr high) | Feb 2026, BLS | 🔴 |
 | UI Exhaustion Hole | **$650M/mo** (peak $930M/mo July) | CARL est, Mar 31 | 🔴🔴 |
-| Core PCE | **3.0% YoY** (+0.4% MoM — hot, Fed locked) | Feb 2026, BEA | 🔴 |
+| Core PCE Monthly | **3.2% YoY Mar** (+0.3% MoM, +20bps from Feb 3.0% — acceleration confirmed). CRL-19 RESOLVES direction-correct / magnitude-light (predicted 3.3-3.5%, actual 3.2% = 10bps below floor). Headline PCE 3.5% YoY. KB-CARL-270. | Mar 2026, BEA | 🔴 |
 | CPI Headline Mar | **+3.28% YoY, +0.86% MoM** (hot headline, gas/food pass-through) | Mar 2026, BLS | 🔴 |
 | CPI Core Mar | **+2.61% YoY, +0.21% MoM** (contained — supply-side inflation, not demand) | Mar 2026, BLS | 🟠 |
 | PPI Headline Mar | **+4.0% YoY, +0.5% MoM** (highest since Feb 2023; gasoline MoM +15.7% drove ~½ of monthly jump) | Mar 2026, BLS | 🔴 |
@@ -94,11 +94,11 @@
 | GDP Q4 2025 | **0.5%** (revised down from 0.7% Apr 30 annual revision) | Apr 30 BEA | 🔴 |
 | Tariff Burden | **~$1,500/HH annual** (eff rate 13.7%, peak impact Apr-Oct 2026) | Apr 2026, Tax Fdn | 🔴 |
 | UMich Sentiment | **49.8 RECORD LOW Final** Apr (revised UP from 47.6 prelim; barely below prior ATL 50.0 Jun 2022). Current Conditions 52.5 / Expectations 48.1. KB-CARL-204/241. | Apr 24 Final | 🔴🔴 |
-| CB Expectations | **70.9 RECESSION WARNING** (sub-80) | Mar 2026, CB | 🟠 |
-| Retail Sales MoM | **+0.6%** (front-loading caveat) | Feb 2026, Census | 🟢 ⚠️ |
-| Real Consumer Spending | **+0.1%** (barely positive, savings-funded) | Feb 2026, BEA | 🔴 |
-| Real DPI | **-0.5%** (worst in 12 months — income shrinking) | Feb 2026, BEA | 🔴🔴 |
-| Retail Control Group | **+0.5%** (front-loading caveat) | Feb 2026, Census | 🟢 ⚠️ |
+| CB Expectations | **72.2 Apr** (+1.2 from 70.9 Mar — STILL <80 RECESSION WARNING, 4 consec months). Headline 92.8 (+0.6); Present Situation 123.8 (-0.3). UMich/CB divergence: bottom-cohort sentiment collapsing (UMich 49.8), top-cohort merely soft. KB-CARL-273. | Apr 2026, CB | 🟠 |
+| Retail Sales MoM | **+1.7% Mar** (vs cons +1.4%) — strongest since Mar 2025; gas station receipts **+15.5% record** = Iran-shock pump pass-through; tax refund pull-forward broad-based. KB-CARL-271. | Mar 2026, Census | 🟢 ⚠️ |
+| Real Consumer Spending | **+0.2% Mar** (Real PCE — barely positive despite +0.9% nominal). Savings-funded forced consumption. KB-CARL-270. | Mar 2026, BEA | 🔴 |
+| Real DPI | **-0.1% Mar** (4th NEGATIVE month sustaining; nominal DPI +0.6% but PCE deflator +0.7% MoM = real income shrinking). KB-CARL-270. | Mar 2026, BEA | 🔴🔴 |
+| Retail Control Group | **+0.7% Mar** (vs cons +0.2% — beat by 50bps); 15.5% gas station distortion explains majority of headline beat. KB-CARL-271. | Mar 2026, Census | 🟢 ⚠️ |
 | **NFP Mar** | **+178K** (cons +57K) — Scenario 1 headline / Scenario 2 internals | Apr 3, BLS | 🟢 ⚠️ |
 | Feb NFP Revision | **-133K** (revised down from -92K, -41K revision) | Apr 3, BLS | 🔴 |
 | 3-Mo NFP Avg | **~68K/mo** (well below 150K breakeven) | Apr 3, CARL calc | 🔴 |
@@ -201,6 +201,7 @@ V9 merged into V8 (May 1). V15 Refi-Window dropped (RED domain).
 |----|-----------|--------|
 | CRL-01 | Gas pump peak stress Mar 14-21 | ❌ MISSED (direction right, magnitude wrong) |
 | CRL-02 | Subprime Auto 60+ DQ >7.0% | ✅ CONFIRMED* (6.9% ATR, at threshold) |
+| CRL-19 | Mar Core PCE accelerates Feb 3.0% → 3.3-3.5% | ⚠️ MIXED — direction correct (3.2% confirms acceleration), magnitude light (10bps below 3.3% floor). KB-270. |
 
 **Legacy confirmed (pre-TSV, not re-numbered):**
 - CC 90+ >2019 peak ✅ | FL Foreclosures +100% YoY ✅ | Hardship 401k >5.5% ✅
@@ -221,7 +222,6 @@ V9 merged into V8 (May 1). V15 Refi-Window dropped (RED domain).
 | CRL-13 | SAVE non-selection rate >35% | 70% | Oct 1 2026 | NEW — 2.6M+ face $0→$407/mo cliff |
 | CRL-14 | MOHELA-caused defaults >500K from Jul 1 | 65% | Q3-Q4 2026 | NEW — servicer capacity near-zero for clean transition |
 | CRL-18 | Q1 GDP second estimate revises advance 2.0% down 0.2-0.4pp to 1.6-1.8% | 60% | May 28 2026 | NEW May 1 — pattern basis Q4 cumulative -0.9pp |
-| CRL-19 | March monthly Core PCE YoY accelerates Feb 3.0% → 3.3-3.5% | 70% | ~May 30 2026 | NEW May 1 — bridge test for Q1 NIPA 4.3% annualized |
 | CRL-20 | ≥3 of {ALLY, COF, SYF, RITM} show NCO/DQ acceleration breaking "headline clean" pattern | **75%** | Q1 2027 | **NEW v2.5 — outer falsification window for cross-industry data masking framework.** Specific: ALLY consumer auto NCO ≥+30bps QoQ for 2 consecutive quarters; COF Card NCO ≥+25bps QoQ for 2 consecutive quarters; SYF NCO breaks above FY26 ceiling 5.5%. Failure → masking thesis invalidated, CONTAINMENT validated. |
 | CRL-21 | NCOs at ALLY/COF/SYF visible inflection by Q3 2026 + vintage projections ≥+50bps over FY2023 baseline | **60%** | Q3 2026 | **NEW v2.5 — INTERMEDIATE falsification, addresses 12-24mo unfalsifiability tail risk.** Specific: ALLY consumer auto NCO ≥+30bps QoQ for 2 consecutive quarters OR vintage projections diverge above FY2023 ≥+50bps. **POSITION-ACTION COMMITMENT on failure:** confidence -25-30pp + trim short positions 25% + extend duration to Q2 2027+. |
 | CRL-22 | Insurer MLR re-acceleration (UNH/ELV) — MA cost trend ≥10% in FY27 pricing OR MLR breach | **60%** | FY27 (early 2027) | **NEW v2.5.1 — K-shape Selection transmission test, NOT masking falsification.** UNH MA -965K Q1 culling + ELV $935M CMS accrual = pricing-cycle risk + regulatory contingency mechanism. Distinct from masking framework. |
