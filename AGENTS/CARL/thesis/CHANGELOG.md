@@ -8,6 +8,72 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-05-03 — v2.5.1: MASKING FRAMEWORK NARROWED 6→4 + K-SHAPE/TARIFF SECTION + CRL-22, CRL-23
+
+### THESIS v2.5 → v2.5.1
+**Author:** CARL (response to external helper LLM stress test, Will-mediated review session May 3)
+**Action:** Refinement. Masking framework breadth claim narrowed from 6 issuers to 4; reclassified UNH/ELV and DHI/PHM mechanisms into a sibling section (K-shape Selection + Tariff Transmission Confirmations); added two new predictions classified honestly as Vector #12 and Vector #10 transmission tests, NOT masking falsifications.
+
+### TRIGGER
+
+External helper LLM stress test of v2.5 cross-industry data masking framework (loaded into CARL `User Input/CARL KB_VECT convo.md`). Helper's pass 1: 3 mechanisms tight (ALLY/COF/RITM), 1 mixed (SYF), 2 loose (UNH/ELV, DHI/PHM); recommend downgrading breadth claim. Helper's pass 2 (after Will pushback "any worth here?"): found concrete content underneath UNH/V28 + DHI/tariff; recommended re-articulation + 2 new CRLs preserving 6-issuer breadth. CARL review of pass 1 vs pass 2 verdict: pass 1 was the more honest read; pass 2 over-corrected on weak pushback and stretched mechanism labels to preserve breadth. Substance check:
+
+- **UNH/ELV "10% cost-trend pricing + V28 RAF unresolved"** — real H2 2026 risk, but NOT masking in the ALLY sense. MA carriers price entire 2026 plan year via CMS bid; defensive 10% pricing isn't a structural mechanism deferring visibility on the current book. V28 RAF is industry-wide regulatory determination, not company-specific masking. RITM uses an accounting rule to defer DQ recognition on its own borrowers — UNH is making a forward revenue assumption.
+- **DHI/PHM "$10,900/home tariff hits FY27"** — real, sized, dated. But it's inventory cost-flow timing — materials bought pre-tariff work through COGS first. Mechanical, not management choice. ACL build (COF) IS deferred recognition; tariff cost lag is supply-chain physics.
+- **Active-adult vs first-time mix shift** — genuine ALLY-analog (top of K transacting, bottom frozen) but it's K-shape selection, not masking — the helper's own proposed clarifying note correctly distinguishes this.
+
+The helper's CRL-22 and CRL-23 are well-formed predictions (specific thresholds, invalidation criteria, position-action commitments) and worth adding regardless. But classifying them as masking falsifications would conflate three different mechanisms.
+
+### CHANGES
+
+**Change 1 — Cross-Industry Data Masking table narrowed 6→4 issuers.**
+- Retained: ALLY, COF, RITM (tight masking — accounting/composition/securitization choices in the issuer's own book defer P&L recognition).
+- Retained with caveat: SYF — ACL hedge leg is masking (forward-risk tell despite improving NCO); survivor-pool (Home & Auto -3.7%) explicitly flagged as K-shape selection, not masking. Only the ACL leg has the deferred-visibility property.
+- Relocated: UNH/ELV → K-shape Selection + Tariff Transmission section (new, see below). DHI/PHM → same section.
+- Meta-pattern definition tightened: "industry-specific *accounting/securitization choice within the issuer's own book*" (was "industry-specific accounting/structural mechanism" — too permissive, allowed pricing assumptions and supply-chain timing in).
+- Added explicit note distinguishing masking vs K-shape selection.
+- Crying-wolf X-thresholds simplified to 1 tier (credit issuers, 20bps); insurer/builder threshold removed since those mechanisms relocated.
+- Boundary case rewritten to align with credit-issuer-only scope.
+
+**Change 2 — New section: K-shape Selection + Tariff Transmission Confirmations.**
+- UNH/ELV sub-section: K-shape selection (Vector #8 transmission via membership culling) + insurer pricing/regulatory contingency (Vector #12 transmission via cost-trend pricing + V28 RAF). Explicit "why not masking" reasoning. CRL-22 test.
+- DHI/PHM sub-section: tariff transmission timing (Vector #10 + tariff regime durability) + active-adult selection (Vector #8 via demand-side cohort divergence). Explicit "why not masking" reasoning. CRL-23 test.
+- "Why this section exists separately" rationale articulating the three-way distinction (masking / K-shape selection / tariff transmission timing) and why conflation breaks falsifiability.
+
+**Change 3 — "What's Confirmed" rows for builder K-shape and insurer transmission re-tagged with "(selection, not masking)" and pointer to CRL-22/CRL-23.**
+
+**Change 4 — Falsification structure unchanged for masking framework.** CRL-20 and CRL-21 still test the 4-issuer scope (ALLY, COF, SYF, RITM). Their thresholds remain valid since the 4-issuer scope was what they were originally designed against — the v2.5 rhetorical breadth ("5+ industries") was already implicitly testing the 4-issuer credit/servicer cluster.
+
+### NEW PREDICTIONS
+
+**CRL-22 — H2 2026 insurer MLR re-acceleration, 60% confidence:** UNH MCR H2 weighted ≥85.4% (+150bps) OR ELV BCR ≥88.3% (+150bps) AND V28 RAF final adverse. Tests Vector #12 + V28 regulatory contingency. NOT a masking framework falsification. Failure → insurer-side conviction -20pp; K-shape transmission story to credit issuers needs re-rating.
+
+**CRL-23 — FY27 builder GM compression, 70% confidence:** DHI Q1 FY27 GM ≤17.5% OR PHM Q1 FY27 GM ≤22.0% AND tariff regime ≥10% effective sustained through Q4 2026. Tests Vector #10 + tariff regime durability. NOT a masking framework falsification. Failure → builder-side conviction -25pp; revisit demand-side weakness framing.
+
+### HONEST CONVICTION COMMENTARY
+
+The v2.5 masking framework promotion (May 1) was probably overconfident in its breadth claim. External review surfaced that "5+ industries, same meta-pattern" was rhetorical breadth not load-bearing evidence — only 4 issuers had genuine deferred-visibility mechanisms. Same calibration discipline applied to v2.5 score recalibration (58/60 → 53/70 = ~60% calibration + ~40% legitimate conviction reduction) now applied to the masking framework breadth: 6 issuers → 4. The narrowing does not weaken the bear thesis — UNH/ELV cohort culling and DHI/PHM tariff timing are still thesis-supportive observations with their own falsification structure (CRL-22/CRL-23). What the narrowing does is preserve falsifiability: CRL-20/CRL-21 now test what they were designed to test (credit/servicer issuer accounting choices), not a heterogeneous mechanism bundle that a CONTAINMENT critic could pick apart.
+
+### FILES AFFECTED
+
+| File | Change |
+|------|--------|
+| `thesis/THESIS.md` | Masking table narrowed 6→4 with SYF caveat; meta-pattern + boundary case rewritten; K-shape selection vs masking note added; new section "K-shape Selection + Tariff Transmission Confirmations" inserted between masking framework and Path C; "What's Confirmed" insurer/builder rows re-tagged; "What's Forecast" table adds CRL-22, CRL-23. |
+| `thesis/PREDICTIONS.tsv` | +CRL-22, +CRL-23 (24 rows total). |
+| `thesis/CHANGELOG.md` | This entry. |
+| `workbook/KB.tsv` | KB-CARL-265 logging the v2.5.1 refinement. |
+| `ROADMAP.md` | v2.5.1 hardening list updated; this item moved to RECENTLY RESOLVED. |
+
+### ACKNOWLEDGMENT OF EXTERNAL REVIEW
+
+Helper LLM's stress test (pass 1) was directionally correct. Helper's pass 2 over-corrected and the resulting draft would have preserved a 6-issuer table whose footnote contradicted its rows. CARL took the substance of helper's CRL-22 and CRL-23 drafts (good predictions) but classified them honestly as Vector #12 and Vector #10 transmission tests rather than masking falsifications. Architecturally aligned with how v2.5 already separates "thesis-internal mechanism puzzles" (CARL) from "counter-narrative observations" (RED) — same discipline applied here at the framework level.
+
+### KB ROW LOGGED
+
+- **KB-CARL-265** — v2.5.1 thesis refinement (masking framework narrowed 6→4 + K-shape/tariff section + CRL-22, CRL-23)
+
+---
+
 ## 2026-05-01 — v2.5: PATH C ACTIVE + CROSS-INDUSTRY DATA MASKING + ARCHITECTURAL REALIGNMENT + 58/60 → 53/70 RECALIBRATION
 
 ### THESIS v2.4.1 → v2.5

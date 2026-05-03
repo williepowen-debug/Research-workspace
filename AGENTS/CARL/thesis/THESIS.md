@@ -35,8 +35,8 @@
 | Q1 ALLY/SYF/COF — composition-masking framework confirmed | ALLY S-tier 40→37%, nonprime 9.7→10.1%, CLN +43% YoY; SYF Home & Auto -3.7% (survivor-pool); COF $230M ACL build + auto subprime mix admitted | KB-CARL-222-228, 243-247 |
 | Rithm/NewRez Q1 — different masking mechanism, same meta-pattern | "DQ will reverse" claim QUIETLY DROPPED → "stable + FHA flatten via mod-accounting normalization." Optical DQ smoothing 12-24mo. | KB-CARL-257 |
 | Path C ACTIVE-RED (provisional) — first-wave provision build | COF $230M ACL build; SYF ACL +36bps to 10.42%; Rithm advance receivable -$224M / -7.3% QoQ; Q1 ATTOM REO 14,020 (+45% YoY). *Counterfactual: COF/SYF Q1'24/Q1'25 ACL builds PENDING_VERIFY. See "Path C — Activation Status" for provisional-vs-firm operational distinction.* | KB-CARL-243, 245, 257, 263; ATTOM Q1 |
-| Builder K-shape EXPLICIT | DHI Q2 GM 19.7% normalized (price-recovery absent), ASP -3% YoY, cancellations 16% mortgage-fail. PHM names "K-shape" on call (active adult +14% / first-time flat). | KB-CARL-247 |
-| Health insurer transmission via cohort culling | UNH MA membership -965K Q1, FY guide ~-1.3M loss; ELV bronze-plan ACA shift = high-deductible trap activating | KB-CARL-247 |
+| Builder K-shape EXPLICIT (selection, not masking) | DHI Q2 GM 19.7% normalized (price-recovery absent), ASP -3% YoY, cancellations 16% mortgage-fail. PHM names "K-shape" on call (active adult +14% / first-time flat). Tariff +$10,900/home (NAHB) loaded for FY27 COGS. *v2.5.1: scoped to K-shape Selection + Tariff Transmission section, not masking framework — see CRL-23.* | KB-CARL-220, 247 |
+| Health insurer transmission via cohort culling (selection, not masking) | UNH MA membership -965K Q1, FY guide ~-1.3M loss; ELV bronze-plan ACA shift = high-deductible trap activating. MA cost-trend priced ~10% for 2026 (vs hist 3-5%) + V28 RAF unresolved = H2 risk. *v2.5.1: scoped to K-shape Selection + Tariff Transmission section, not masking framework — see CRL-22.* | KB-CARL-247 |
 | Triple nitrogen seizure → Q3-Q4 food CPI loaded | Gulf urea + China N+K halt + Russia AN suspended; Urea NOLA $690s vs $475 Mar | KB-CARL-101, 110 |
 | Non-bank servicer stress accelerating | PennyMac FHA DQ 7.5% (+160bps); loanDepot $107.5M loss; Rithm mod-accounting cushion 12-24mo. GAO: 35% high-debt, no stagflation test. | KB-CARL-202, 203, 257 |
 | HY OAS complacency gap = masking-thesis confirmation (v2.5 reclassification) | 294bps Apr (collapsed from 346bps). Public spreads lagging tranche-level stress (EART Class E breached) is exactly what masking framework predicts. Late-2007 analog. | KB-CARL-200 |
@@ -65,8 +65,10 @@ Quick read: 1/2 TSV-tracked predictions confirmed at stated confidence. Insuffic
 | National UI exhaustion peak | 70% | Jul 2026 | $800-930M/mo spending hole (LABOR model) |
 | Q1 GDP second estimate revises down 0.2-0.4pp | 60% | May 28 2026 | Pattern basis Q4 cumulative -0.9pp |
 | Mar monthly Core PCE accelerates 3.0% → 3.3-3.5% | 70% | ~May 30 2026 | Bridge test for Q1 NIPA 4.3% |
-| **CRL-20 (v2.5)** — at least 3 of {ALLY, COF, SYF, RITM} show NCO/DQ acceleration breaking the "headline clean" pattern | 75% | Q1 2027 | FY2026 vintage seasoning + mod-accounting cushion expiry. **Outer falsification window**. Specific threshold: ALLY consumer auto NCO ≥+30bps QoQ for 2 consecutive quarters; COF Card NCO ≥+25bps QoQ for 2 consecutive quarters; SYF NCO breaks above FY26 ceiling 5.5%. |
-| **CRL-21 (v2.5)** — by Q3 2026, NCOs at ALLY/COF/SYF have begun visible inflection AND vintage-loss projections for FY2025/FY2026 vintages ≥+50bps above FY2023 vintage at comparable seasoning | 60% | Q3 2026 | **Intermediate falsification — addresses 12-24mo unfalsifiability tail risk.** Specific threshold: ALLY consumer auto NCO ≥+30bps QoQ for 2 consecutive quarters OR vintage-loss projections (mgmt commentary, ABS prepay/loss curves) materially diverge above FY2023 vintage trajectory. **If Q3 fails: downgrade masking confidence by 25-30pp AND trim short positions by 25% AND extend duration on remaining positions to Q2 2027+.** Position-action commitment, not just confidence update. |
+| **CRL-20 (v2.5)** — at least 3 of {ALLY, COF, SYF, RITM} show NCO/DQ acceleration breaking the "headline clean" pattern | 75% | Q1 2027 | FY2026 vintage seasoning + mod-accounting cushion expiry. **Outer falsification window for masking framework**. Specific threshold: ALLY consumer auto NCO ≥+30bps QoQ for 2 consecutive quarters; COF Card NCO ≥+25bps QoQ for 2 consecutive quarters; SYF NCO breaks above FY26 ceiling 5.5%. |
+| **CRL-21 (v2.5)** — by Q3 2026, NCOs at ALLY/COF/SYF have begun visible inflection AND vintage-loss projections for FY2025/FY2026 vintages ≥+50bps above FY2023 vintage at comparable seasoning | 60% | Q3 2026 | **Intermediate falsification for masking framework — addresses 12-24mo unfalsifiability tail risk.** Specific threshold: ALLY consumer auto NCO ≥+30bps QoQ for 2 consecutive quarters OR vintage-loss projections (mgmt commentary, ABS prepay/loss curves) materially diverge above FY2023 vintage trajectory. **If Q3 fails: downgrade masking confidence by 25-30pp AND trim short positions by 25% AND extend duration on remaining positions to Q2 2027+.** Position-action commitment, not just confidence update. |
+| **CRL-22 (v2.5.1)** — H2 2026 insurer MLR re-acceleration: UNH MCR H2 weighted ≥85.4% (+150bps) OR ELV BCR ≥88.3% (+150bps) AND V28 RAF final adverse | 60% | Q4 2026 / Q1 2027 | Tests Vector #12 stagflation transmission via insurer pricing + V28 regulatory contingency — NOT a masking framework falsification. K-shape Selection + Tariff Transmission section. Failure → insurer-side conviction -20pp; K-shape transmission story to credit issuers needs re-rating. |
+| **CRL-23 (v2.5.1)** — FY27 builder GM compression: DHI Q1 FY27 GM ≤17.5% OR PHM Q1 FY27 GM ≤22.0% AND tariff regime ≥10% effective sustained through Q4 2026 | 70% | DHI Jan 2027 / PHM Apr 2027 | Tests Vector #10 + tariff regime durability — NOT a masking framework falsification. K-shape Selection + Tariff Transmission section. Failure → builder-side conviction -25pp; revisit demand-side weakness if builders absorb cost without margin compression. |
 
 ---
 
@@ -96,20 +98,24 @@ NFP Mar +178K headline / Feb revised -133K / 3-mo avg ~68K. LFPR collapsed to 61
 
 ---
 
-## Cross-Industry Data Masking Framework *(NEW v2.5 — promoted from KB-CARL-225)*
+## Cross-Industry Data Masking Framework *(NEW v2.5 — promoted from KB-CARL-225; v2.5.1 narrowed 6→4)*
 
-Q1 2026 earnings cycle confirms ALLY composition-masking framework generalizes across 5+ industries via different mechanisms but same META-pattern.
+Q1 2026 earnings cycle confirms ALLY composition-masking framework generalizes across 4 credit-and-servicer issuers via different mechanisms but the same META-pattern. *(v2.5.1 May 3 refinement: original 6-issuer breadth claim narrowed after external review found 2 of 6 mechanisms were not masking but adjacent transmission patterns. UNH/ELV and DHI/PHM observations relocated to "K-shape Selection + Tariff Transmission Confirmations" section below — same direction, different mechanism, separately falsified.)*
 
-**Meta-pattern:** Issuer reports headline-clean while underlying cohort/composition deterioration is structurally embedded but not yet visible in P&L because of an industry-specific accounting/structural mechanism. Visibility lag 12–24 months.
+**Meta-pattern:** Issuer reports headline-clean while underlying cohort/composition deterioration is structurally embedded but not yet visible in P&L because of an industry-specific *accounting/securitization choice within the issuer's own book*. Visibility lag 12–24 months.
 
 | Industry | Issuer | Masking mechanism | KB Ref | Visibility window |
 |----------|--------|-------------------|--------|-------------------|
-| Auto lender | ALLY | Composition shift (S-tier 40→37%, nonprime 9.7→10.1%) + CLN routing +43% YoY | KB-CARL-222-225 | FY2025 vintage = 2H'26/Q1'27 |
-| Credit cards (non-prime) | SYF | Survivor-pool (Home & Auto -3.7% YoY) + ACL hedge +36bps | KB-CARL-243-244 | 2-3 quarters |
-| Card + auto (prime/near-prime) | COF | $230M ACL build + auto subprime mix admitted | KB-CARL-245-246 | Vintage-driven |
-| Mortgage servicer | RITM/Newrez | FHA mod reclassification (HUD/Ginnie streamline guidance) + servicer advance -$224M QoQ | KB-CARL-257 | 12-24 months |
-| Health insurer | UNH/ELV | MA membership culling -965K Q1 + bronze-plan ACA shift | KB-CARL-247 | Forced consumption persists |
-| Homebuilder | DHI/PHM | One-time benefits (litigation/warranty) + active-adult vs first-time mix | KB-CARL-247 | FY2027 margins |
+| Auto lender | ALLY | Composition shift (S-tier 40→37%, nonprime 9.7→10.1%) + CLN routing +43% YoY + reference-pool $7B→$10B + ACL release into mix downgrade | KB-CARL-222-225 | FY2025 vintage = 2H'26/Q1'27 |
+| Card + auto (prime/near-prime) | COF | $230M ACL build (incl. $155M tied to "higher subprime mix" mgmt-admitted) + auto originations +21% YoY + Discover back-book conversion timeline (~100% on COF platform Q3 2026) | KB-CARL-245-246 | Vintage-driven (2H'26/Q1'27) |
+| Credit cards (non-prime) — **partial** | SYF | ACL hedge +36bps to 10.42% despite improving NCO (forward-risk tell — load-bearing leg). *Caveat: Home & Auto -3.7% YoY survivor-pool component is K-shape selection not masking — SYF book genuinely healthier as bottom-of-K exits to BNPL/default. Only the ACL leg has the deferred-visibility property.* | KB-CARL-243-244 | 2-3 quarters (ACL leg) |
+| Mortgage servicer | RITM/Newrez | FHA mod reclassification (HUD/Ginnie streamline guidance) + servicer advance receivable -$224M QoQ + "DQ will reverse" forecast quietly dropped + no specific FHA DQ rate disclosed | KB-CARL-257 | 12-24 months |
+
+**Note on K-shape selection vs masking:** Two related but structurally distinct mechanisms.
+- *Masking* defers visible deterioration WITHIN the issuer's own book via accounting/composition/securitization choices the issuer controls (12-24mo P&L visibility lag, falsifiable by NCO/DQ inflection).
+- *K-shape selection* is the deteriorating cohort exiting/being-priced-out of the issuer's book — the issuer's book genuinely improves as transmission stress moves elsewhere (Vector #8 transmission, falsifiable by cohort-displacement reversal).
+
+Both directionally support thesis, but only masking has the deferred-visibility property the falsification windows (CRL-20, CRL-21) are designed to test. SYF Home & Auto -3.7%, UNH MA membership culling, and PHM active-adult vs first-time mix are all K-shape selection — separately tracked in the section below.
 
 **Methodological commitments under v2.5:**
 1. **Default disposition on earnings reads:** decompose first, headline second.
@@ -117,16 +123,61 @@ Q1 2026 earnings cycle confirms ALLY composition-masking framework generalizes a
 3. **Cross-agent signaling:** masking framework is standing methodology to REGINALD/LIQUID, not per-print outbox.
 4. **Trade duration:** 12-24mo P&L visibility lag means short structures must extend to Q1 2027+. See "Trade Duration Implications" section.
 
-**Falsification windows:**
+**Falsification windows (4-issuer scope):**
 - **Intermediate (Q3 2026, CRL-21):** ALLY consumer auto NCO ≥+30bps QoQ for 2 consecutive quarters OR vintage-loss projections diverge above FY2023 trajectory ≥+50bps. **If Q3 fails: confidence -25-30pp AND trim positions 25% AND extend duration to Q2 2027+.** Position-action commitment.
 - **Outer (Q1 2027, CRL-20):** ≥3 of {ALLY, COF, SYF, RITM} fail to show NCO/DQ acceleration. Masking thesis invalidated, CONTAINMENT validated.
 
-**Crying-wolf operational X-thresholds (placeholders, refinement deferred to standalone working doc):**
-- **Credit issuers (auto, card, BNPL):** masking flagged when industry-specific accounting reduces reported DQ/NCO by ≥20bps relative to historical Q1 patterns
-- **Non-credit (insurers, builders, servicers):** masking flagged when one-time benefits / membership culling / composition shifts reduce reported margin/MLR/DQ by ≥50bps relative to historical Q1 patterns
-- These thresholds are Q1-cycle specific. Refinement requires 2-3 cycles of historical pattern analysis. Defer to standalone `data_masking/` working doc.
+**Crying-wolf operational X-threshold (placeholder, refinement deferred to standalone working doc):**
+- **Credit issuers (auto, card, BNPL, servicer):** masking flagged when industry-specific accounting/securitization reduces reported DQ/NCO by ≥20bps relative to historical Q1 patterns. Q1-cycle specific. Refinement requires 2-3 cycles of historical pattern analysis. Defer to standalone `data_masking/` working doc.
+- *(v2.5.1: insurer/builder threshold removed since those mechanisms relocated to the K-shape Selection + Tariff Transmission section below, which has its own scoped tests via CRL-22/CRL-23.)*
 
-**Boundary case:** Healthcare always has membership composition; builders always have one-time benefits. The thresholds above are intended to filter normal accounting variation from thesis-relevant masking. Below threshold = noise. Above threshold = thesis-relevant.
+**Boundary case:** ALLY-style composition shift always co-exists with normal portfolio rebalancing; ACL builds always co-exist with normal forward-loss provisioning. The 20bps threshold is intended to filter normal variation from thesis-relevant masking. Below threshold = noise. Above threshold = thesis-relevant.
+
+---
+
+## K-shape Selection + Tariff Transmission Confirmations *(NEW v2.5.1 — sibling to masking framework)*
+
+These are thesis-supportive Q1 2026 earnings observations that DO NOT fit the masking framework's deferred-visibility mechanism but track related transmission patterns. Scored separately to keep the masking framework's load-bearing claim honest at 4 issuers and to give each transmission pattern its own falsification handle.
+
+### UNH/ELV — K-shape selection + insurer pricing/regulatory risk
+
+**Mechanism (a) — K-shape selection (Vector #8):** UNH MA membership culling -965K Q1 (FY guide ~-1.3M loss) + ELV bronze-plan ACA shift = deteriorating cohort exiting/being-priced-out. The carriers' books are genuinely healthier post-cull; transmission stress migrated to displaced enrollees (forced consumption persists, but in a different bucket).
+
+**Mechanism (b) — Insurer pricing/regulatory contingency (Vector #12 transmission):** MA cost-trend pricing locked at ~10% for 2026 plan year (vs historical 3-5%) is defensive but forward-exposed — if actuals exceed 10%, MLR cracks H2 2026. V28 RAF recalibration unresolved at CMS — adverse final adjustment flows through to MLR with a lag.
+
+**Why not "masking":** Cost-trend pricing is industry-wide forward assumption (every MA carrier sets 2026 prices in advance via CMS bid). V28 RAF is a sector-wide regulatory determination, not company-specific accounting choice. Q1 clean MCR (UNH 83.9%, ELV 86.8%) reflects defensive pricing + accounting timing, not deferred recognition on the current book. RITM, by contrast, is using a specific accounting rule to defer DQ recognition on its own borrowers — that's masking.
+
+**Test: CRL-22** — H2 2026 insurer MLR re-acceleration (60%, see PREDICTIONS.tsv).
+
+| Issuer | Q1 2026 baseline | Test | KB Ref |
+|--------|------------------|------|--------|
+| UNH | MCR 83.9% | H2 2026 weighted avg ≥85.4% (+150bps) AND V28 final adverse | KB-CARL-247 |
+| ELV | BCR 86.8% | H2 2026 weighted avg ≥88.3% (+150bps) AND V28 final adverse | KB-CARL-247 |
+
+### DHI/PHM — Tariff transmission timing + active-adult selection
+
+**Mechanism (a) — Tariff transmission timing (Vector #10 + tariff regime durability):** Tariff cost +$10,900/home (NAHB Apr 2026, 60% of builders reporting +6.3% material cost increase) is structurally sized and dated. Current builder COGS reflects materials purchased and contracted earlier — tariff hits FY27 vintage when post-tariff materials work through inventory. Sec 122 expires Jul 24 2026; successor (likely Sec 301) high-probability but not certain.
+
+**Mechanism (b) — K-shape selection (Vector #8 + #10):** PHM active-adult orders +14% YoY vs first-time orders flat; cancellations 13-16% "vast majority mortgage qualification failure" — top-of-K still transacting, bottom-of-K mortgage-qualification frozen out.
+
+**Why not "masking":** Tariff cost flow-through is mechanical inventory accounting on regime-dependent input prices, not management deferring recognition of current loss. The mix shift is K-shape selection (cohort-displacement to outside the seller's book), not composition-shift-masking on the seller's book. ALLY, by contrast, can choose its origination mix and securitization routing — those choices defer P&L recognition. Builders cannot choose whether the tariff hits.
+
+**Test: CRL-23** — FY27 builder GM compression (70%, see PREDICTIONS.tsv).
+
+| Issuer | Current GM baseline | Test | KB Ref |
+|--------|---------------------|------|--------|
+| DHI | Q2 FY26 GM 19.7% normalized | Q1 FY27 GM ≤17.5% (≥-2.2pp) AND tariff regime ≥10% effective sustained through Q4 2026 | KB-CARL-220, 247 |
+| PHM | Q1 FY26 GM 24.4% | Q1 FY27 GM ≤22.0% (≥-2.4pp) AND tariff regime ≥10% effective sustained through Q4 2026 | KB-CARL-247 |
+
+### Why this section exists separately from the masking framework
+
+The v2.5 promotion canonicalized cross-industry data masking as thesis-level methodology. External review (May 3 helper LLM stress test, Will-mediated) surfaced that the original 6-issuer breadth claim conflated three different mechanisms:
+
+1. **Masking** (4 issuers — ALLY, COF, SYF-ACL-leg, RITM): accounting/composition/securitization choice within the issuer's book defers P&L recognition. Falsifiable by NCO/DQ inflection at the issuer.
+2. **K-shape selection** (UNH membership culling, PHM active-adult mix, SYF survivor-pool component): deteriorating cohort exits the issuer's book; book genuinely improves while transmission stress migrates. Falsifiable by cohort-displacement reversal.
+3. **Tariff transmission timing** (DHI/PHM tariff): regime-dependent input cost flows into COGS at vintage-cycle lag. Falsifiable by tariff regime + GM compression.
+
+All three are thesis-supportive, but only (1) has the 12-24mo deferred-visibility property the masking framework's falsification windows (CRL-20, CRL-21) test. Conflating them would let UNH/DHI observations validate or invalidate masking even though they don't share the underlying mechanism. Separating them preserves falsifiability and keeps the masking framework's load-bearing capacity honest at 4 issuers, not 6.
 
 ---
 
