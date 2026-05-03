@@ -143,8 +143,13 @@
 
 ## URGENT
 
-- **AAA pump Mon May 4** — CRL-08 timing.
-- **HY OAS still stale 23d** — alt fetch path needed.
-- **Russia AN ⚠️UNVERIFIED** — assumed SUSPENDED but no post-Mar 24 confirmation captured PM6.
-- **CRL-10 supply-side stronger** — AFBF 70%-can't-afford was not in original modeling; Q4 2026 timeline holds.
-- **Brier calibration n=2 pattern** — CRL-01 + CRL-19 both direction-right/magnitude-low; flag for v2.5.1 hardening item #5.
+- **AAA pump Mon May 4** — first weekday post-Brent-pullback. Disposition for CRL-08 timing.
+- **HY OAS stale 23d** — FRED + 4 secondaries blocked PM4. Try alt path: FRED API key, abs_monitor.py, Yahoo HYG ETF proxy, ICE BofA via Bloomberg-proxy.
+- **Russia AN ⚠️UNVERIFIED** — single news scan failed PM6. Retry alt sources (S&P Global Platts, ICIS, Argus alt-URL).
+
+## SESSION FINDINGS WORTH CARRYING (informational, not urgent)
+
+- **CRL-10 supply-side STRONGER than modeled** — AFBF 70%-can't-afford behavioral signal not in original modeling; Q4 2026 timeline INTACT.
+- **Brier calibration n=2 pattern** — CRL-01 + CRL-19 both direction-right/magnitude-low; v2.5.1 hardening item #5 should examine systematic-over-magnitude question.
+- **Vector #12 framing shift** — locked-passive → locked + hawkish-leaning (FOMC Apr 28-29 4-dissent pattern).
+- **Wheat futures +23% YTD** = market pricing locked-in 2026/27 supply tightness 6-9mo ahead.
