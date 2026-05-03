@@ -136,6 +136,24 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 ---
 
+## WORKBOOK DISCIPLINE
+
+These rules govern *how to reason about workbook mutations* — distinct from output format.
+
+**Verify-by-reading-target before consolidating.** Cluster-pattern matching ("these are both about oil") is unreliable for SUPERSEDED-by-pointer dispositions. Item #2d (May 2 2026): only 7 of 22 cluster-matched SUPERSEDED candidates actually carried forward the load-bearing content; 14 were downgraded to STALE on verification. Same risk applies to VX consolidation:
+
+- **Before any CREATE that bundles >1 KB row:** verify the proposed Green/Yellow/Red threshold bands actually apply to all bundled rows. If they don't — split into separate vectors, not an umbrella with no shared threshold. (Worked failure: KB-154 plasma donations is a behavioral lower-cohort signal; KB-111 retail flows is an upper-cohort positioning signal — they're both "K-shape" topically, but no single threshold measures both.)
+- **Before any REDIRECT:** verify the target VX's threshold structure actually measures THIS row's claim, not just that they're topically related.
+- **Before any SUPERSEDED-by-pointer:** read the proposed canonical-replacement row and confirm it carries forward the load-bearing content of the row being superseded. If not, the disposition is STALE (point-in-time historical with no successor), not SUPERSEDED.
+
+**Topical adjacency is not vector identity.** Rule of thumb: if you can't write one Green/Yellow/Red threshold that meaningfully measures all bundled rows, they don't belong in one vector.
+
+**Flag uncertainty in Notes.** Threshold bands drafted under uncertainty must carry `[FLAG: uncertain — Will to review]` in the Notes column. Don't bury judgment calls in clean-looking structure — Will-knowing-what-Carl-doesn't-know is more valuable than a hidden gesture.
+
+**Conservative ref-cleanup default.** When blanking a dangling VX ref in a KB row, preserve the row's Status. If the cleanup reveals the row was only kept ACTIVE by virtue of that linkage, surface as a separate finding — don't conflate ref-cleanup with claim-disposition.
+
+---
+
 ## DOMAIN SCOPE
 
 **You own:**
