@@ -23,8 +23,9 @@
 - [2026-04-01] MOF cutting super-long issuance to ¥17T (17-year low) — they know demand is fragile. Context for interpreting auction BTC ratios.
 - [2026-04-01] Mar 5 30Y auction: BTC 3.65x at 3.406% yield. Jan: 3.14x. Feb: firmer. Trend data for comparison when Apr 7 results come in.
 - [2026-03-31] MHLW wage data runs ~2 month lag. Release pattern: ~8th-9th of month.
+- [2026-05-03] **Phase 3 regime narrative doc (`reference/USDJPY_REGIMES.md`) deferred** — pending Phase 1 use proving the gap. Phase 1 (USDJPY TSV + 2-line at-a-glance summary in boot.py) shipped May 3. Build trigger for Phase 3: when at-a-glance summary fails to answer "what does this level MEAN?" (intervention precedent depth, Aug 2024 unwind mechanics, MOF episode catalog with sizing/effectiveness). Don't build prematurely — empty docs become permanent cruft. Same pattern (TSV + boot summary) is candidate to replicate for JGB10Y, Brent, FXY in a future Phase 2 if USDJPY pattern proves out.
 ## References
-- [2026-04-11] **Primary data sources now wrapped by `AGENTS/SAM/scripts/` toolkit.** Run `boot.py` for one-command morning refresh. For one-off queries: `jgb_yields.py`, `jgb_auctions.py --date YYYY-MM-DD`, `cftc_jpy.py`, `mof_flows.py`, `fxy_options.py`, `thresholds.py`, `catalyst_countdown.py`. Source URLs documented in scripts and CLAUDE.md boot step 7.
+- [2026-04-11] **Primary data sources now wrapped by `AGENTS/SAM/scripts/` toolkit.** Run `boot.py` for one-command morning refresh. For one-off queries: `jgb_yields.py`, `jgb_auctions.py --date YYYY-MM-DD`, `cftc_jpy.py`, `mof_flows.py`, `fxy_options.py`, `thresholds.py`, `catalyst_countdown.py`, `usdjpy.py`. Source URLs documented in scripts and CLAUDE.md boot step 7.
 - [2026-04-07] FORGE toolkit + yfinance commands moved to CLAUDE.md boot step 7 (permanent). Don't duplicate here.
 - [2026-03-31] MOF ITS release schedule: mof.go.jp/english/policy/international_policy/reference/itn_transactions_in_securities/schedule.htm
 - [2026-03-31] JGB auction calendar: mof.go.jp/english/policy/jgbs/auction/calendar/index.htm

@@ -51,6 +51,7 @@ def _has_today_row(tsv_path):
 # Boot sequence: (label, script_name, args, section_header, slow)
 BOOT_SEQUENCE = [
     ("Market / Threshold Monitor", "thresholds.py",        [], "THRESHOLDS",   False),
+    ("USDJPY History",             "usdjpy.py",            [], "USDJPY",       False),
     ("JGB Yields",                 "jgb_yields.py",        [], "JGB YIELDS",   False),
     ("JGB Auctions",               "jgb_auctions.py",      [], "JGB AUCTIONS", False),
     ("CFTC JPY Positioning",       "cftc_jpy.py",          [], "CFTC",         False),
