@@ -1,5 +1,5 @@
 # CARL STATUS
-**Updated:** 2026-05-04 ~01:30 UTC
+**Updated:** 2026-05-04 ~02:00 UTC (PM7 — workbook hardening pass; signal data unchanged this session)
 **Overall:** 🔴🔴 CRITICAL — Convergence **53/70 (76%)**. Thesis **v2.5.1** (May 3): masking framework narrowed 6→4 issuers + K-shape Selection / Tariff Transmission sibling section + CRL-22/23 added. **v2.5** (May 1): Path C ACTIVE-RED (provisional), matrix expanded 12→14 vectors, score recalibrated 58/60 → 53/70 (~60% calibration + ~40% conviction reduction). Audit trail in `thesis/CHANGELOG.md`. Counter-evidence tracking moved to `handoff_RED/COUNTER_LOG.md`.
 
 *Check-in archives: `archive/status/`*
