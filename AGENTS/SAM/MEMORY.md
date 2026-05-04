@@ -21,8 +21,8 @@
 - [2026-03-31] EUR/JPY went unmonitored for 8 weeks and blew through RED (175) to 183. Cross-pair yen weakness can be a blind spot when USD/JPY dominates attention. Check EUR/JPY alongside USD/JPY.
 - [2026-03-31] SocGen ¥7.5T "buying" figure from web searches was from 2025, not 2026 — always verify article dates on flow data.
 - [2026-04-01] MOF cutting super-long issuance to ¥17T (17-year low) — they know demand is fragile. Context for interpreting auction BTC ratios.
-- [2026-04-01] Mar 5 30Y auction: BTC 3.65x at 3.406% yield. Jan: 3.14x. Feb: firmer. Trend data for comparison when Apr 7 results come in.
 - [2026-03-31] MHLW wage data runs ~2 month lag. Release pattern: ~8th-9th of month.
+- [2026-05-03] **Sub-agent fresh-context usability tests surface gaps invisible to the builder.** Built USDJPY at-a-glance May 3; first sub-agent test (general-purpose, restricted to ONLY the new 2-line boot block) immediately flagged the load-bearing gap — "160 (3d)" was silent on whether MOF intervened, the actual risk question. Builder's context (familiar with thesis, intervention episodes) blinded me to it. Pattern: when shipping agent-facing tooling, spawn fresh-context agent with realistic decision question + scoped context restriction, ask for honest gaps. ~30s/test, high-yield. Used 2× this session: round 1 caught substantive gap, round 2 (post-fix) caught smaller cosmetic ones. Re-applicable to any future SAM build/refactor.
 - [2026-05-03] **Phase 3 — partial ship (May 3).** USDJPY at-a-glance build (Phase 1) shipped May 3. Sub-agent usability test surfaced the load-bearing gap: "160 (3d)" was silent on whether MOF intervened — a recent touch with NO intervention is much hotter than one that triggered MOF. Lite Phase 3 added: MOF episode catalog as `MOF_INTERVENTIONS` dict in `scripts/usdjpy.py` (Sep22, Oct22, Apr24, May24, Jul24 — public record dates + sizes), cross-referenced against touch dates with ±3 day window. Format now: `160 (3d, no MOF)` or `160 (3d, MOF Apr24)`. **Still deferred — full narrative doc** (`reference/USDJPY_REGIMES.md` covering Aug 2024 unwind mechanics, intervention effectiveness analysis, technical levels with provenance). Build trigger: when the in-script catalog proves insufficient. Phase 2 (replicate TSV+summary for JGB10Y/Brent/FXY) still future work.
 ## References
 - [2026-04-11] **Primary data sources now wrapped by `AGENTS/SAM/scripts/` toolkit.** Run `boot.py` for one-command morning refresh. For one-off queries: `jgb_yields.py`, `jgb_auctions.py --date YYYY-MM-DD`, `cftc_jpy.py`, `mof_flows.py`, `fxy_options.py`, `thresholds.py`, `catalyst_countdown.py`, `usdjpy.py`. Source URLs documented in scripts and CLAUDE.md boot step 7.
@@ -34,44 +34,38 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (May 1 → May 3 — 2 day gap, weekend)
+### CHANGES SINCE LAST SESSION
+- [populate at next boot during market refresh — ~hours-to-days offline since May 3 evening commit chain]
+- Project Freedom (Mon May 4) is the dominant overnight event — check Brent direction first.
 
-**Markets (vs May 1 close):**
-- USD/JPY 157.19 → **157.03** (flat)
-- FXY $58.63 → **$58.44** (-0.32%, still inside Tranche 2 upper band)
-- EUR/JPY 184.34 → 184.06; GBP/JPY 213.78 → 213.21 — broad yen strength holding
-- **Brent $111.75 → $107.48 (-3.8%)** — Phase 1 oil pressure easing over weekend
-- JGB 10Y 2.520% (no new MOF data — last published Apr 30)
-- MOF 4W rolling: ¥-2.68T (no new release — last covers Apr 19-25)
+### LAST SESSION (May 3 evening — THESIS audit + USDJPY at-a-glance build)
 
-**Major events resolved (May 1):**
-- **CFTC JPY release: -94,460 → -102,059** (+7,599 build). Shorts pressed THROUGH BOJ event = no covering on hawkish hold. Now **56.7% of Jul 2024 peak** (highest of cycle). Tilts 30d carry-unwind prob 70 → 72.
-- **"BOJ MPM secondary" was a calendar artifact** — Apr 28 was THE meeting. No actual May 1 policy event; nothing to fold in.
+Two-track: housekeeping (THESIS audit) → architecture build (USDJPY at-a-glance), the second triggered by audit pass exposing line 37 "at current ~160" staleness.
 
-### LAST SESSION (May 3 — boot + May 1 catch-up + staleness audit + commit)
+**THESIS audit pass 1 — 9 fixes shipped (437d7e6f).** Deleted contradicted "Dovish BOJ pivot (hold+dovish Apr 28)" risk row. Added missing predictions: SAM-04, SAM-06 → CONFIRMED; SAM-08 (90%-conf miss), SAM-19, SAM-20 → FALSIFIED. Date fix Thu May 8→Thu May 7. Brent $107.85→$107.98 across 4 spots. ESR "Mid-May"→"Fri May 15". Apr 28 dissent split promoted to top of Channel 3 BOJ evidence.
 
-**Boot:** boot.py 7.7s, 6/7 green (JGB Auctions script failed — Sun/Mon, no scheduled auction, non-issue).
+**THESIS audit pass 2 — 7 items NOT fixed (Will redirected to architecture work).** Listed in NEXT SESSION pickup. Substantive: line 37, line 100, line 160. Minor: NEW— tags, undated ¥13.2T, threshold format, line 78 ESR.
 
-**Verification (parallel):** Workbook CFTC_JPY.tsv had auto-pulled May 1 data (-102,059); STATUS was stale. WebSearch confirmed (FX.co cited -102.1K). WebSearch on May 1 BOJ — no policy event found, confirming "MPM secondary" was a calendar mislabel.
+**USDJPY at-a-glance build (38e42854, 63b08f9b, 5faba6fd, b1e84825).** New `scripts/usdjpy.py` + `workbook/USDJPY.tsv` (5Y daily OHLC, 1299 rows). Wired into boot.py. Iterative ship with sub-agent usability tests:
+- Phase 1: TSV + summary + boot wiring
+- Bug fix: skip today's intraday partial
+- Phase 3 lite: MOF_INTERVENTIONS catalog (5 episodes, ±3d window) — closes load-bearing "did MOF intervene" gap caught by sub-agent test
+- Polish: 5d trend tag + arrow separator on touch line
 
-**Staleness audit (second pass):** Identified ~20 candidate stale items across A/B/C/D buckets. Acted on workbook refreshes (JGB curve from MOF Apr 30: 20Y 3.402, 30Y 3.721, 40Y 3.743 — long end now 26-28bp from 4.0% threshold), Iran/Hormuz refresh (Trump May 1 "terminated" letter, Iran 14-pt proposal, "Project Freedom" escort start Mon May 4), and FXY positioning header reframe (was misleading "Tranche 2 trigger ✅ FIRED" — now correctly subordinate to STRATEGY hard-trigger rule).
+Final block:
+```
+🟠 USDJPY 157.03 (5d: -2.7) | 30d: 155.5-160.7 | 90d: 152.3-160.7 | 52wk: 142.1-160.7
+🟠 Days since touch: 160 → 3d, no MOF | 155 → 68d, no MOF | ...
+```
+Boot time +1.0s. Sub-agent test pattern logged as Finding (re-applicable to future builds).
 
-**File updates (May 3 cumulative):**
-1. STATUS.md — header, market table (incl. JGB curve full refresh), CFTC, carry probs (30d 70→72), BOJ readout, intervention status, FXY positioning header reframed, thresholds, watch list (added Mon May 4 Project Freedom row), reference data (Iran/Hormuz rewritten + CFTC paragraph)
-2. CALENDAR.md — Week of May 1 collapsed to RESOLVED; date-stamp updated
-3. THESIS.md — JGB 10Y threshold 2.429%→2.520%; CFTC reference -93,742→-102,059 + 56.7% peak; HENRY cross-agent line probs 20/72/90
-4. MEMORY.md — this section + NEXT SESSION reorder
-5. Committed + pushed (786d859f) — clean SAM-only commit; CARL files left untouched
-
-**No position action.** FXY $58.44 inside Tranche 2 upper band but per STRATEGY no-chase rule + hard-trigger convergence rule, June BOJ 44 cal days out. Hold.
-
-**No thesis bump** — May 1 CFTC + Apr 30 JGB curve both read as v1.3 confirmations, not refinements. Per Apr 11 restraint lesson, +2pp on 30d carry-unwind prob is the appropriate scale.
+**No position action.** FXY $58.44 inside Tranche 2 upper band, STRATEGY no-chase holds. **No thesis bump** (housekeeping + infrastructure, not thesis work).
 
 ### NEXT SESSION
 
 **Imminent (hours-to-days):**
-1. **🔴 Mon May 4 (TOMORROW): "Project Freedom" Hormuz escort start.** Iran response = oil swing direction. Resistance → snap back to $115+ (Phase 1 reasserts, USDJPY upside pressure). Passive Iran → Brent slides toward $100 (Phase 2 path accelerates, intervention pressure off).
-2. **🟠 Thu May 8: MOF ITS weekly (Apr 26-May 2)** — first full-week flow read post-Apr 28 BOJ.
+1. **🔴 Mon May 4: "Project Freedom" Hormuz escort start.** Iran response = oil swing direction. Resistance → snap back to $115+ (Phase 1 reasserts, USDJPY upside pressure). Passive Iran → Brent slides toward $100 (Phase 2 path accelerates, intervention pressure off).
+2. **🟠 Thu May 7: MOF ITS weekly (Apr 26-May 2)** — first full-week flow read post-Apr 28 BOJ. (Note: Thu, NOT Fri — May 8 is Friday.)
 3. **🟠 Fri May 8: CFTC JPY release.** -110K would put us at ~61% of Jul24 peak — unwind asymmetry continues to grow. Cover signal would be the surprise.
 
 **Mid-month thesis tests:**
@@ -84,17 +78,24 @@
 8. **🔴🔴 Tue Jun 16: BOJ MPM — BASE CASE HIKE.** SAM-21 (70% / market 74%). Tranche 2 hard trigger. Prep scenario tree ~end-May.
 
 **Background watches (no action by themselves):**
-- **Brent direction:** $107.48 today. Through $100 = Phase 2 acceleration; through $115 = Phase 1 reasserts.
-- **FXY $58.44:** Inside Tranche 2 upper band. No-chase rule holds. Pullback to $58.00-58.25 within 14d of June BOJ (i.e., late-May+) = live add.
+- **Brent direction:** $107.98 at session end. Through $100 = Phase 2 acceleration; through $115 = Phase 1 reasserts. Watch boot output for first move.
+- **FXY $58.44:** Inside Tranche 2 upper band. No-chase rule holds. Pullback to $58.00-58.25 within 14d of June BOJ (late-May+) = live add.
 - **JGB long end:** 30Y 3.721, 40Y 3.743 — 26-28bp from 4.0%. Auto-pulled by boot.py.
 
+**Pickup work (if no urgent priorities):**
+- **THESIS audit pass 2 cleanup** — 7 items deferred this session. 3 substantive: line 37 "at current ~160" stale (USDJPY is 157), line 100 "April-July collision window" past-tense (now June-July), line 160 "oil-yen paradox" reads as if yen still weakening (pre-Apr-28 framing). 4 minor: "NEW —" tags on month-old additions, undated ¥13.2T Big 4 figure, threshold table format inconsistency, line 78 ESR "mid-May" → "Fri May 15".
+- **Use the new USDJPY at-a-glance** in real session decisions; if useful, candidate Phase 2 (replicate TSV + summary pattern for JGB10Y, Brent, FXY).
+
 ### PENDING (carry-over)
-- v1.4 thesis decision gate after ESR disclosures (hedged/unhedged nuance refinement; SAM-19 lesson).
+- v1.4 thesis decision gate after ESR disclosures mid-May (hedged/unhedged nuance refinement; SAM-19 lesson).
 - STRATEGY no-chase rule: do NOT add Tranche 2 above $58.25 unless hard trigger fires.
+- USDJPY_REGIMES.md narrative doc still deferred — build trigger now is "when in-script MOF catalog proves insufficient."
 
 ### INFRASTRUCTURE STATUS (persistent)
-- Boot scripts: 6/7 green (JGB Auctions weekend-FAIL is normal Sun/Mon).
-- Workbook auto-pulls current through: JGB_YIELDS Apr 30, MOF_FLOWS Apr 19-25, JGB_AUCTIONS Apr 30 (2Y), CFTC_JPY Apr 28, FXY_OPTIONS May 3.
+- Boot scripts: 7/8 green (JGB Auctions weekend-FAIL is normal Sun/Mon; USDJPY added May 3, +1.0s boot).
+- Workbook auto-pulls current through: JGB_YIELDS Apr 30, MOF_FLOWS Apr 19-25, JGB_AUCTIONS Apr 30 (2Y), CFTC_JPY Apr 28, FXY_OPTIONS May 3, **USDJPY May 1 close (5Y daily OHLC, 1299 rows; today's intraday deliberately skipped)**.
+- **NEW: USDJPY at-a-glance** — 2-line boot block with current + 5d trend + 30/90/365 ranges + days-since-touch annotated with MOF intervention markers.
+- **NEW: MOF intervention catalog** hardcoded in `scripts/usdjpy.py` (`MOF_INTERVENTIONS` dict — Sep22, Oct22, Apr24, May24, Jul24). Extend if new episode occurs.
 - CATALYSTS.tsv synced to v1.3 thesis.
-- STRATEGY.md is canonical decision doc; STATUS scenario matrices explicitly subordinate (header rewritten May 3 to remove conflict).
-- Golden Week: Japan markets largely closed May 3-6 (Constitution Day, Greenery Day, Children's Day) — expect no new MOF JGB/auction data until ~May 7.
+- STRATEGY.md canonical decision doc; STATUS scenario matrices subordinate.
+- Golden Week: Japan markets closed May 3-6 (Constitution Day, Greenery Day, Children's Day) — expect no new MOF/JGB data until ~May 7.
