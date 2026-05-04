@@ -46,59 +46,118 @@ def find_latest_eia_file():
 def extract_metrics(text):
     """Parse an eia_*.md report into headline metrics.
 
-    The file format is free-form markdown with tables — regexes target the
-    distinctive bold-asterisk patterns used for current-week values.
+    Supports two file templates:
+      - LEGACY (eia_2026-04-15 style): one named table per metric, with rows
+        like `| Commercial crude stocks | **463.8M bbl** | ...` and a separate
+        `| Week-over-week change | **−0.913M bbl (DRAW)** |` row.
+      - CONSOLIDATED (eia_2026-04-29 style): a single KEY DATA POINTS table
+        with rows like `| US commercial crude | **459.5M bbl** | **−6.2M (BIG DRAW)** | ...`.
+
+    Regexes match BOTH so the parser stays robust as the writer's template
+    evolves.
     """
     metrics = {}
 
-    # Commercial crude stocks level — look for table row pattern
-    #   | Commercial crude stocks | **463.8M bbl** | ...
-    m = re.search(r"Commercial crude stocks\s*\|\s*\*\*([\d.,]+)M bbl\*\*", text)
+    # ---- Commercial crude stocks level ----
+    # Legacy: `Commercial crude stocks | **463.8M bbl**`
+    # Consolidated: `US commercial crude | **459.5M bbl**`
+    m = re.search(
+        r"(?:US )?[Cc]ommercial crude(?:\s+stocks?)?\s*\|\s*\*\*([\d.,]+)M bbl\*\*",
+        text,
+    )
     if m:
         metrics["commercial_crude"] = float(m.group(1).replace(",", ""))
 
-    # Commercial crude WoW change (look for "(DRAW)" or "(BUILD)" explicit)
-    #   | Week-over-week change | **−0.913M bbl (DRAW)** |
-    m = re.search(r"Week-over-week change\s*\|\s*\*\*([−\-+]?[\d.]+)M bbl\s*\((DRAW|BUILD)\)\*\*", text)
+    # ---- Commercial crude WoW change ----
+    # Legacy: `Week-over-week change | **−0.913M bbl (DRAW)**`
+    m = re.search(
+        r"Week-over-week change\s*\|\s*\*\*([−\-+]?[\d.]+)M bbl\s*\((DRAW|BUILD)\)\*\*",
+        text,
+    )
     if m:
         raw = m.group(1).replace("−", "-")
         val = float(raw)
         if m.group(2) == "DRAW" and val > 0:
             val = -val
         metrics["commercial_crude_wow"] = val
+    else:
+        # Consolidated: WoW is the next cell of the commercial-crude row.
+        # `| US commercial crude | **459.5M bbl** | **−6.2M (BIG DRAW)** |`
+        m = re.search(
+            r"(?:US )?[Cc]ommercial crude(?:\s+stocks?)?\s*\|\s*\*\*[\d.,]+M bbl\*\*\s*\|\s*\*\*([−\-+]?[\d.]+)M(?:\s*bbl)?\s*\(?\s*(?:[A-Z]+\s*)?(DRAW|BUILD)\)?\*\*",
+            text,
+        )
+        if m:
+            raw = m.group(1).replace("−", "-")
+            val = float(raw)
+            if m.group(2) == "DRAW" and val > 0:
+                val = -val
+            metrics["commercial_crude_wow"] = val
 
-    # Cushing — latest value comes from the LAST table row with ** around value
-    #   | **Apr 10** | **~29.8M bbl** | **−1.7M bbl** |
+    # ---- Cushing ----
+    # Legacy: dated rows in a Cushing-only table
+    #   `| **Apr 10** | **~29.8M bbl** | **−1.7M bbl** |`
     cushing_rows = re.findall(
         r"\|\s*\*\*[A-Z][a-z]+ \d+\*\*\s*\|\s*\*\*~?([\d.]+)M bbl\*\*\s*\|\s*\*\*([−\-+]?[\d.]+)M bbl\*\*",
-        text
+        text,
     )
     if cushing_rows:
         cur_val, cur_wow = cushing_rows[-1]
         metrics["cushing"] = float(cur_val)
         metrics["cushing_wow"] = float(cur_wow.replace("−", "-"))
 
-    # Fallback: look for "Cushing at XX.XM bbl"
+    # Consolidated: `| Cushing | **~29.8M bbl** | **−796K (RESUMED DRAW)** | ...`
+    # Change value can be in K or M — normalize to M.
+    if "cushing" not in metrics:
+        m = re.search(
+            r"\|\s*Cushing\s*\|\s*\*\*~?([\d.]+)M bbl\*\*\s*\|\s*\*\*([−\-+]?[\d.]+)([KM])(?:[^*]*)\*\*",
+            text,
+        )
+        if m:
+            metrics["cushing"] = float(m.group(1))
+            wow_raw = float(m.group(2).replace("−", "-"))
+            if m.group(3) == "K":
+                wow_raw = wow_raw / 1000.0
+            metrics["cushing_wow"] = wow_raw
+
+    # Fallback: prose form `Cushing at XX.XM bbl`
     if "cushing" not in metrics:
         m = re.search(r"Cushing at ([\d.]+)M bbl", text)
         if m:
             metrics["cushing"] = float(m.group(1))
 
-    # Gasoline stocks change
-    m = re.search(r"Gasoline stocks change\s*\|\s*\*\*([−\-+]?[\d.]+)M bbl\s*(DRAW|BUILD)?\*\*", text)
+    # ---- Gasoline stocks WoW ----
+    # Legacy: `Gasoline stocks change | **+0.626M bbl BUILD**`
+    m = re.search(
+        r"Gasoline stocks change\s*\|\s*\*\*([−\-+]?[\d.]+)M bbl\s*(DRAW|BUILD)?\*\*",
+        text,
+    )
     if m:
         raw = m.group(1).replace("−", "-")
         val = float(raw)
         if m.group(2) == "DRAW" and val > 0:
             val = -val
         metrics["gasoline_wow"] = val
+    else:
+        # Consolidated: `| Gasoline inventories | 222.3M bbl | **−6.1M (LARGE DRAW)** | ...`
+        m = re.search(
+            r"\|\s*Gasoline (?:inventories|stocks)\s*\|\s*[\d.]+M bbl\s*\|\s*\*\*([−\-+]?[\d.]+)M(?:\s*bbl)?\s*\(?\s*(?:[A-Z]+\s*)?(DRAW|BUILD)\)?\*\*",
+            text,
+        )
+        if m:
+            raw = m.group(1).replace("−", "-")
+            val = float(raw)
+            if m.group(2) == "DRAW" and val > 0:
+                val = -val
+            metrics["gasoline_wow"] = val
 
-    # Gasoline YoY — prefer most recent confirmed line (has no "TBD" / "est")
-    #   | YoY — Apr 3 week | **+0.8%** | EIA WPSR [CONF per TRACKER] |
-    yoy_matches = re.findall(r"YoY\s*[—\-]\s*[A-Z][a-z]+ \d+[^\|]*\|\s*\*\*([−\-+][\d.]+)%\*\*", text)
+    # ---- Gasoline YoY (4-wk demand proxy) ----
+    # Legacy: `YoY — Apr 3 week | **+0.8%** | ...`
+    yoy_matches = re.findall(
+        r"YoY\s*[—\-]\s*[A-Z][a-z]+ \d+[^\|]*\|\s*\*\*([−\-+][\d.]+)%\*\*",
+        text,
+    )
     if yoy_matches:
-        # take the most recent confirmed one (typically listed last or first — pick the one with smallest magnitude assuming latest)
-        # actually, take the first (most recent on top) that is a real number
         for yoy_str in yoy_matches:
             try:
                 metrics["gas_yoy_latest"] = float(yoy_str.replace("−", "-"))
@@ -106,29 +165,51 @@ def extract_metrics(text):
             except ValueError:
                 continue
 
-    # Refinery utilization — "92.9%" typical
-    m = re.search(r"[Rr]efinery [Uu]tilization[^\n]*?([\d.]+)%", text)
+    # Consolidated: `| **Motor gasoline** | **9.0 mbpd** | **+1.2% YoY** |`
+    if "gas_yoy_latest" not in metrics:
+        m = re.search(
+            r"\*\*[Mm]otor gasoline\*\*\s*\|\s*\*\*[\d.]+\s*mbpd\*\*\s*\|\s*\*\*([−\-+][\d.]+)%\s*YoY\*\*",
+            text,
+        )
+        if m:
+            metrics["gas_yoy_latest"] = float(m.group(1).replace("−", "-"))
+
+    # ---- Refinery utilization ----
+    # Match both "Refinery utilization" (legacy) and "Refinery util" (consolidated).
+    m = re.search(r"[Rr]efinery [Uu]til(?:ization)?[^\n|]*\|\s*\*\*([\d.]+)%\*\*", text)
     if m:
         metrics["util"] = float(m.group(1))
     else:
-        m = re.search(r"[Uu]tilization[^\n]*?\*\*([\d.]+)%\*\*", text)
+        m = re.search(r"[Rr]efinery [Uu]til(?:ization)?[^\n]*?([\d.]+)%", text)
         if m:
             metrics["util"] = float(m.group(1))
 
-    # SPR — "SPR 409.2M bbl" or "SPR: 409.2M"
+    # ---- SPR ----
     m = re.search(r"SPR[:\s]+([\d.]+)M bbl", text)
     if m:
         metrics["spr"] = float(m.group(1))
 
-    # Week ending
-    m = re.search(r"\*\*Week ending:\*\* (\w+ \d+, \d+)", text)
+    # ---- Week ending ----
+    # Legacy: `**Week ending:** April 10, 2026`
+    m = re.search(r"\*\*Week ending:\*\* (\w+ \d+,? \d+)", text)
     if m:
         metrics["week_ending"] = m.group(1)
+    else:
+        # Consolidated H1: `# EIA WPSR — Week Ending April 24, 2026`
+        m = re.search(r"[Ww]eek [Ee]nding\s+(\w+ \d+,? \d+)", text)
+        if m:
+            metrics["week_ending"] = m.group(1)
 
-    # Report released
-    m = re.search(r"\*\*Report released:\*\* (\w+, \w+ \d+, \d+)", text)
+    # ---- Report released ----
+    # Legacy: `**Report released:** Wednesday, April 15, 2026, 10:30 AM ET`
+    m = re.search(r"\*\*Report released:\*\* (\w+, \w+ \d+,? \d+)", text)
     if m:
         metrics["report_date"] = m.group(1)
+    else:
+        # Consolidated: `**Released:** April 29, 2026 (10:30 AM ET)`
+        m = re.search(r"\*\*Released:\*\*\s+(\w+ \d+,? \d+)", text)
+        if m:
+            metrics["report_date"] = m.group(1)
 
     return metrics
 
