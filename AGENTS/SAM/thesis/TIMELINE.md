@@ -329,8 +329,9 @@ These are the moments where our expected path could fork:
 | **Apr 29-30** | Tokyo session reprice | JPY strengthens → Tranche 2 fires | JPY flat → market skeptical of hawkish hold | ✅ **RESOLVED: BULL** — USDJPY -2.4y to 157.19, FXY +1.98% to $58.63, Tranche 2 trigger met |
 | **Apr 29-30** | Katayama/Aida political reaction | Quiet → BOJ has political room | Escalation → D2 channel live | ✅ **RESOLVED: BULL** — quiet, no Diet pushback, no BOJ Law threats |
 | **Apr 30** | 2Y JGB auction | Orderly | Weak | ✅ **RESOLVED: BULL** — BTC 5.24x, tail 0.005y |
-| **May 1** | BOJ MPM (secondary) | n/a | n/a | PENDING (low info) |
-| **May 1** | CFTC JPY release | Cover starts | Shorts keep building | PENDING |
+| **May 1** | BOJ MPM (secondary) | n/a | n/a | 🟡 **RESOLVED: ARTIFACT** — calendar mislabel, no actual policy event |
+| **May 1** | CFTC JPY release | Cover starts | Shorts keep building | ✅ **RESOLVED: BULL** — -102,059 (+7,599 build), 56.7% Jul24 peak; no cover on hawkish hold |
+| **May 1-3** | Iran/Hormuz de-escalation step | Durable proposal accepted | Talks collapse | 🟡 **RESOLVED: AMBIGUOUS** — Trump "TERMINATED" letter, Iran 14-pt proposal (maximalist), May 4 Project Freedom escort starts |
 | **May 14** | Q1 GDP prelim | Growth | Contraction → EWJ trigger | PENDING |
 | **Mid-May** | ESR disclosures | Stress visible → repatriation accelerates | Manageable → base case holds | PENDING (ELEVATED importance) |
 | **~May 20** | April trade balance | Surplus | Deficit → Phase 1 fires | PENDING (Brent $107.85; depends on May 4 escort response) |

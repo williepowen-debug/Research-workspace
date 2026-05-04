@@ -4,20 +4,17 @@
 
 ---
 
-## 🔴 APR 28 — BOJ DELIVERED HAWKISH HOLD (modal v1.3 scenario, slightly stronger)
+## 🟢 APR 28 BOJ + APR 29-30 REPRICE + MAY 1 CFTC — RESOLVED (5 days post)
 
-**Outcome:** Held 0.75% as expected (modal scenario at 45% — see TIMELINE Apr 28). What was MORE hawkish than v1.3 modeled:
-- **3 dissents** (Takata, Tamura, Nakagawa) for hike to 1.0% — **biggest split since 2016, first under Ueda**. v1.3 expected 1 dissent.
-- **GDP forecast slashed 1.0% → 0.5%** (FY2026) — explicit growth concession in face of ME/oil
-- **Inflation forecasts upgraded**
-- **Ueda hawkish presser** — wage-price spiral risk, continued hike path
-- **Swap markets pricing 74% June hike** — slightly above SAM-21 (70%)
+**Apr 28 BOJ:** Held 0.75% (modal v1.3 scenario at 45%). More hawkish than modeled: **3 dissents** (Takata, Tamura, Nakagawa) for 1.0% — biggest split since 2016, first under Ueda. **FY2026 GDP cut 1.0% → 0.5%**. **Inflation forecasts upgraded.** **Ueda hawkish presser.** **Swap markets pricing 74% June hike** (vs SAM-21 70%).
 
-**SAM-20 resolved FALSE** (April hike @60% → held). SAM-21 (June hike @70%) tracking BULL — market consensus moved to 74%.
+**Apr 29-30 Tokyo:** ✅ Did re-rate. USDJPY 159.60 → 157.19 (-2.41y), FXY +1.98% to $58.63. Politics quiet (no D2 escalation). 2Y JGB auction Apr 30 BTC 5.24x.
 
-**Phase 1 oil reasserting:** Brent +12% to $111 over 4 days on Trump-Iran Hormuz impasse. JPY barely moved (159.60). Watch overnight Tokyo for delayed BOJ/oil digestion.
+**May 1 CFTC (Apr 28 data):** ✅ -94,460 → -102,059 (+7,599 build). Speculators did NOT cover — pressed shorts further. 56.7% of Jul24 peak, highest of cycle.
 
-Full event log → `thesis/TIMELINE.md` Apr 28 entry. Thesis v1.3 unchanged (intact, slightly strengthened on the timing call).
+**Predictions:** SAM-20 FALSE (April hike @60% → held). SAM-21 (June hike @70%) tracking BULL — market consensus 74%.
+
+Full event log → `thesis/TIMELINE.md`. Thesis v1.3 unchanged (intact, slightly strengthened on timing call). **Forward gaze:** Mon May 4 Project Freedom Hormuz escort = next branch point.
 
 ---
 
@@ -40,7 +37,7 @@ Full event log → `thesis/TIMELINE.md` Apr 28 entry. Thesis v1.3 unchanged (int
 | Insurer hedge ratio | **44.4%** | (14yr low, Mar 2025) | 🔴🔴 |
 | FXY P/C ratio | **0.10x** | May 3 boot.py | 🟢 Call-heavy (bullish options positioning) |
 
-*Boot.py 7.7s, 6/7 green. JGB Auctions script failed (no scheduled auction Sun/Mon — non-issue). May 1 catalysts (BOJ secondary, CFTC release) now in past — need verification on whether they delivered any signal worth folding in.*
+*Boot.py 5.2s, 6/7 green. JGB Auctions script FAIL is normal Sun/Mon (no scheduled auction). May 1 catalysts verified and folded in: CFTC -102,059 build (no cover); BOJ "secondary" was a calendar artifact (no actual policy event Apr 28 was THE meeting).*
 
 ---
 
@@ -82,7 +79,7 @@ Full event log → `thesis/TIMELINE.md` Apr 28 entry. Thesis v1.3 unchanged (int
 
 ## INTERVENTION STATUS
 
-**MODERATE (downgraded from ELEVATED).** USD/JPY 157.19 — off the 160 trigger zone. Tokyo session repricing of hawkish hold did the work MOF didn't have to do. Brent $111.75 holding (Phase 1 oil pressure persists) but the BOJ→FX channel reasserted dominance over the oil→FX channel. Re-engages if USDJPY pushes back above 159.
+**MODERATE (downgraded from ELEVATED).** USD/JPY 157.03 — off the 160 trigger zone. Tokyo session repricing of hawkish hold did the work MOF didn't have to do. Brent eased to $107.85 (-3.5% over weekend on Iran de-escalation step), removing the short-term Phase 1 USDJPY-upward pressure. Re-engages if (a) USDJPY pushes back above 159, or (b) May 4 Project Freedom escort triggers Iran resistance → oil snap-back to $115+ → renewed yen weakness.
 
 ---
 
