@@ -1,86 +1,72 @@
-# LAST_COMPLETION — BRENT Apr 17 PM Session (Phase-2 Cleanup + Decoupling Monitor)
+# LAST_COMPLETION — BRENT May 4, 2026 (Project Freedom Day Session)
 
-**Completed:** 2026-04-17 ~17:15 EDT | **Agent:** BRENT (Claude Code, local) | **Session duration:** ~90 min
-**Prior session:** Apr 17 AM (PHASE2_EXECUTION_2026-04-17.md written, outbox signals drafted)
+**Completed:** 2026-05-04 ~15:00 ET | **Agent:** BRENT (Claude Code, local) | **Session duration:** ~3 hours
+**Prior session:** May 4 morning (branch `brent/may4-data-pull` — Monday data pull + PROME divergence flag, by another BRENT instance)
 
 ---
 
-STATUS: ✅ COMPLETE for items 6-9 of cleanup queue. Items 1-5 remain open for next session.
+STATUS: ✅ COMPLETE — STATUS refresh, branch merge, cross-agent fanout, tanker sector check, handoff docs refreshed.
 
 ## WHAT CHANGED THIS SESSION
 
+### Branch Operations
+- Merged morning session's `brent/may4-data-pull` onto master via fast-forward (2 commits, all BRENT-only files: Monday data pull file + PROME divergence flag note). Earlier session pushed to a separate branch because master had diverged at session start; this session caught up master.
+- 5 commits pushed in this session: branch merge → STATUS refresh → outbox fanout → tanker sector check → handoff doc refresh.
+- LABOR's working-tree changes preserved throughout (only BRENT files staged each commit, per agent isolation protocol).
+
 ### Files Updated
-- **`STATUS.md`** — Predictions block synced to `workbook/PREDICTIONS.tsv`. BRT-01 + BRT-14 marked CONFIRMED; BRT-07 timer (Apr 20 OPEC+ watch / Apr 24 7-day price watch) surfaced; BRT-15 noted as awaiting cleaner trigger (STNG +3.4% today ≠ clean announcement). KEY REFERENCES updated to point to new refiner ratio monitor.
-- **`LESSONS.md`** — Added #18 "Disambiguate rhetorical from operational announcements before calling Phase 2." Apr 17 Iran FM case as canonical example. 4-point verification gate: Platts Dated Brent convergence, Lloyd's vessel transit counts, P&I resumption, sovereign action. STNG as fastest sanity check.
-- **`research/PRODUCT_SIDE_DECOUPLING_THESIS.md`** — Added "6-MONTH BASELINE" section resolving the open "already priced in?" caveat. Finding: all 5 refiner/USO ratios sit at z = -1.5 to -2.1 — deeply compressed, not elevated. Reframes trade from "buy decoupling" to "buy mean reversion of compressed ratio."
+- **STATUS.md** — full refresh (May 3 → May 4) + 8 inline edits post UAE-strike report. Now contains: Project Freedom section (dominant week-to-week variable), Path A trigger checklist as table (1/4 PARTIAL → MORE REMOTE post-attacks), live Price Dashboard (Brent $113.72 +5.13%; STNG $83.53; USO $147.96; XLE $59.37; CF $124.52; DHT $18.66 −1.14%), Convergence Matrix recalc 33→35→37/55, one-day cadence shock note, Two-Phase Thesis (Phase 1 ACTIVE→DEEPENING; Phase 2 NOT YET→MORE REMOTE), Open Items #5 tanker pattern CONFIRMED. ~206 lines.
+- **SCRATCH.md** — full refresh (Apr 8 Petroline-era → May 4 Project Freedom era developing items; 9 active threads + scenario matrix)
+- **LAST_COMPLETION.md** — this file
 
 ### Files Created
-- **`scripts/refiner_ratios.py`** — Daily ratio monitor. Pulls 6-mo history for MPC/PSX/VLO/DINO/PBF + USO via yfinance, computes ratio time series, z-score vs 6-mo mean/stdev, 1-day change. Classifies signals:
-  - 🟢 REVERTING (z ≤ -1 + 1dΔ ≥ +1%) = entry signal firing
-  - 🟡 COMPRESSED (z ≤ -1, not yet reverting)
-  - ⚪ NORMAL
-  - 🟠 EXHAUSTED (z ≥ +1) = reversion played out, consider exit
-  - AGGREGATE 1d Δ across refiners ≥ +1% = decoupling day confirmed
-- **`scripts/data/refiner_ratios.tsv`** — Daily snapshot log. Seeded with Apr 17 values.
-
-### Apr 17 Ratio Snapshot (Day 1 reversion baseline)
-| Ticker | Ratio | 6-mo μ | z | 1d Δ | Signal |
-|---|---|---|---|---|---|
-| PSX | 1.348 | 1.795 | -1.99 | +3.82% | 🟢 REVERTING |
-| MPC | 1.842 | 2.396 | -1.83 | +2.43% | 🟢 REVERTING |
-| DINO | 0.493 | 0.648 | -1.56 | +3.11% | 🟢 REVERTING |
-| VLO | 1.927 | 2.339 | -1.80 | +0.33% | 🟡 COMPRESSED (Port Arthur damage — thesis predicted) |
-| PBF | 0.320 | 0.430 | -2.06 | -5.47% | 🟡 COMPRESSED (outlier — needs company-specific dig) |
-
-Aggregate 1d Δ: +0.84% (just below +1.0% confirmation threshold).
-
----
-
-## OPEN THREADS FOR NEXT SESSION
-
-### Blocked on Will (execution decisions from AM session)
-1. **PHASE2_EXECUTION_2026-04-17 §1-§3** — USO trim / STNG exit / bear-put-spread build-or-skip. Default is HOLD, but bear-put question at §3 still awaits Will's call.
-2. **4 outbox signals marked DRAFT — pending Will validation:**
-   - `outbox/2026-04-17_to-CARL_pump-relief-timeline.md`
-   - `outbox/2026-04-17_to-HENRY_energy-inflation-reversal.md`
-   - `outbox/2026-04-17_to-SAM_japan-lng-import-cost.md`
-   - `outbox/2026-04-17_to-HAWK_blockade-vs-strait-assessment.md`
-
-   None sent to HERMES yet.
-
-### Blocked on Data
-3. **Dated Brent Apr 15-17 Platts refresh** — THE load-bearing TODO. Last confirmed $132 (Apr 9). If EOD passes with no print, mark STATUS "unavailable" rather than carrying stale $132.
-4. **Baker Hughes Apr 17 result** — was due ~1pm ET. Did rig count move off 545?
-5. **Incident cadence monitor** — Apr 17 row is baseline (0). Fill at EOD and daily thereafter for Phase-2 truth test.
-
-### Open Questions
-6. **Add `refiner_ratios.py` to `scripts/boot.py`?** My recommendation: yes (Phase-2 leading indicator, ~3s cost). Will hasn't answered.
-7. **PBF investigation** — -14% outlier on Apr 17 and -5.47% ratio day-1 move is counter-thesis. Needs company-specific dig (earnings? idiosyncratic news?) before including or excluding from any trade.
-8. **PRODUCT_SIDE_DECOUPLING trade proposal promotion** — current doc is thesis only. If MPC/PSX/DINO stay 🟢 REVERTING for 3-5 sessions and Phase-2 triggers fire, promote to trade proposal with specific sizing + entry structure.
-
-### Catalyst Watch
-- **Weekend:** US-Iran talk-2 possible (no date confirmed as of Apr 17 noon). If signed deal → Monday open gap down, refiner decoupling trade window opens.
-- **Mon Apr 20:** OPEC+ 72hr emergency meeting watch closes (BRT-07 timer).
-- **Wed Apr 22:** Ceasefire expiry + EIA Weekly Petroleum. Binary day.
-- **Fri Apr 24:** Baker Hughes + CFTC COT. BRT-07 7-day price watch closes.
+- **workbook/STATUS_archive_20260503_preMay4Refresh.md** — Pre-May-4 STATUS archived per convention
+- **outbox/2026-05-04_to-HAWK_fujairah-strike-bypass-route-domino.md** (🔴) — Fujairah = bypass-route domino; ceasefire-collapse branch live; watch Jebel Ali / Khor Fakkan / ADNOC inland infra
+- **outbox/2026-05-04_to-HENRY_vix-brent-cross-asset-stress.md** (🟠) — VIX +7% on Brent +5%; 5y5y inflation breakeven watch
+- **outbox/2026-05-04_to-LIQUID_energy-credit-watch-may4.md** (🟠) — Energy HY OAS pull pending (last 285bps Apr 28; 300bps trigger 15bps away); war-risk overhang likely decouples energy E&P credit from spot Brent
+- **outbox/2026-05-04_to-CARL_pump-pass-through-may4.md** (🟠) — $4.30-4.50 pump risk by late May / early June if Brent sustains $113-118
 
 ---
 
 ## KEY FINDINGS
 
-1. **Paper-physical divergence is THE signal today.** Iran FM "Hormuz open" → paper -12% but physical didn't follow (Dated Brent stale at $132, blockade intact, STNG +3.4%, vessel transits restricted). LESSONS #18 memorializes this pattern.
-2. **Refiner/USO ratios are compressed, not elevated.** 6-mo baseline refutes the "already priced in" caveat. The decoupling trade is a mean-reversion setup with ~30% theoretical upside (full reversion) / ~15% (halfway).
-3. **VLO as the negative prediction confirmed.** Port Arthur damage = can't capture crack expansion. VLO tracking crude ~1:1 on Apr 17 (0.33% ratio gain vs MPC/PSX/DINO at 2-4%).
-4. **PBF is the unexpected outlier.** Ratio down 5.47% on a day refiners as a group reverted. Not in thesis — requires investigation before trade.
+1. **Project Freedom = US-flagged narrow channel, NOT a broad reopening.** Same-day evidence: 2 US-flagged transits succeeded; ADNOC tanker drone-hit; S.Korean ship explosion off UAE; UK vessel engine fire off Dubai; 2nd UAE-area vessel fire. USN sank 6 Iranian small boats in defensive engagement. Path A naval escort criterion is partially / narrowly met, not broadly. Updated checklist accordingly.
+
+2. **April 8 ceasefire effectively broken May 4.** Iranian drone struck **Fujairah oil facility** (3 Indian nationals injured); 4 Iranian cruise missiles fired at UAE (3 intercepted, 1 fell to sea). First Iranian attack on UAE territory since the April 8 ceasefire. Fujairah is the ADCOP bypass-pipeline terminus OUTSIDE the Strait — built specifically to avoid Hormuz. Bypass-route security premium repricing.
+
+3. **Tanker sector check resolves the divergence diagnostic.** Sector-wide pattern (DHT −1.14%, INSW −0.39%, TNK −0.25%, FRO +0.46%) + BWET freight-futures ETF −0.86% on Brent +5.13% day. Confirms war-risk overhang: hulls won't broadly transit, equity can't capture forward rates. **Tanker equities are the wrong instrument in this regime;** efficient expressions are Brent/WTI futures, USO, E&P (XLE) for crude leg; STNG (+0.42%) for refining-products leg. VLCC pure-plays (DHT, EURN) inefficient until P&I resumes / commercial transit safe.
+
+4. **Phase 1 DEEPENING, Phase 2 MORE REMOTE.** Convergence matrix score rose 33 → 35 → 37/55 over 36 hours (Hormuz 4→5; Ceasefire 4→5). Path A trigger structurally further away than 24 hours ago. Squeeze thesis itself reinforced, not threatened.
+
+5. **GitHub-as-source-of-truth reaffirmed.** Branch divergence at session start (master had diverged from detached HEAD chain morning session created) was resolved cleanly via fast-forward merge. Will reaffirmed: pull from GitHub at session start, push to GitHub at session end, never trust the local copy as canonical.
 
 ---
 
-## POSITIONS AT SESSION CLOSE (Apr 17 ~5PM EDT)
+## OPEN THREADS FOR NEXT SESSION
 
-- **USO (2 shares, ~$96 entry):** $115.55 EOD, +20% on position. HOLD per PHASE2_EXECUTION §1 — physical didn't confirm.
-- **STNG (2 shares, ~$76 entry):** ~flat. HOLD per PHASE2_EXECUTION §2 — BRT-15 trigger didn't cleanly fire.
-- **No new positions.** Bear put spread SKIPPED today (LESSONS #15 + overshoot read).
+### High Priority
+1. **EIA WPSR May 6 (Wed)** — does Cushing keep drawing? Demand stay positive? Path B trigger watch
+2. **P&I resumption monitor** — definitive NO post May 4; watch war-risk premium prints (proxy) or Lloyd's circulars
+3. **UAE follow-on strike monitor** — Jebel Ali, Khor Fakkan, ADNOC inland infra are the next dominos
+4. **Refiner decoupling monitor** — last refresh Apr 17 (17 days stale). Re-run `scripts/refiner_ratios.py` for May 4 snapshot. If majority still REVERTING with squeeze deepening → trade window may be re-opening.
+
+### Carry Over
+5. **Dated Brent Apr 15+ Platts** — STILL load-bearing, needs Bloomberg/Argus/Platts terminal
+6. **Apr 28 + May 5 COT NYMEX** — boot.py can't extract via WebFetch (CFTC.gov page structure)
+7. **INCIDENTS.tsv catch-up for May 4** — Fujairah strike + multiple commercial vessel incidents not yet logged
+
+### Awaiting Decisions / Validation
+8. **Position read** — current book (XLE Sep $65C 2x, CF Jun $130C 1x) is positioned for sustained-high; squeeze thesis reinforced today, not threatened. No new initiations recommended pending Project Freedom resolution + Dated Brent refresh. Worth a deliberate "no action" decision document if Will wants it formalized.
 
 ---
 
-*Session handoff: read this file + STATUS.md + `PHASE2_EXECUTION_2026-04-17.md` at next spawn. Open threads 1-8 above are the resume queue.*
+## POSITIONS AT SESSION CLOSE (May 4 ~15:00 ET)
+
+- **XLE $65C Sep 30 (2):** XLE $59.37 (OTM, 5 mo to expiry). Hold — Phase 1 sustained-high expression intact.
+- **CF $130C Jun 18 (1):** CF $124.52 (OTM, ~6 wk to expiry). Hold — fertilizer chain bid (CF +1.49% today) consistent with sustained energy/sulphur prices.
+- **Realized BRENT book P&L:** USO $120C May 1 closed for **+~$1,700** (May 3, prior session).
+- **No new initiations.** Pending Project Freedom resolution + Dated Brent refresh.
+
+---
+
+*Session handoff: read this file + STATUS.md + SCRATCH.md at next spawn. Open threads 1-8 above are the resume queue.*
