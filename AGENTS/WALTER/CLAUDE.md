@@ -28,18 +28,21 @@ You maintain:
 
 ### Boot (read phase — this order matters)
 0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
-1. **Read `STATUS.md`** — operational state, network awareness, filter posture
+1. **Read `STATUS.md`** — live operational state, NETWORK AWARENESS, FILTER POSTURE (incl. standing flags like COP-paused). After Pass 1+2 refactor (2026-05-04) this is a lean dashboard, ~108 lines.
+   - **Read `anchors/IRAN_WAR.md`** as part of step 1 — load-bearing macro anchor, single source of truth, has explicit verified-as-of stamp + re-verify trigger. Pulled out of STATUS.md on 2026-05-04 (Pass 3) so it can be updated in place. Re-verify trigger fires on visible kinetic state-change OR every 7 days minimum OR pre-dispatch on Iran-cluster signals.
 2. **Read `MEMORY.md`** — cross-session feedback, findings, session-notes handoff (CHANGES SINCE / NEXT SESSION)
 3. **Read `LAST_COMPLETION.md`** — what the last session produced, open GAPS, WILL_NEEDS pending
 4. **Read `REGISTRY.tsv`** — agent directory (check for stale entries)
-5. **Read `/COP.md`** — current Common Operating Picture. This is the network's shared synthesis and WALTER owns it. If you think it doesn't exist, check the repo root before believing yourself — the Apr 11 session discovered v0.1 had been on disk since Apr 7 while the handoff doc claimed otherwise. Trust disk over memory.
+5. **Read `/COP.md`** — current Common Operating Picture. WALTER owns it. **Currently PAUSED (per Will direction 2026-04-14).** Check STATUS.md FILTER POSTURE section for the COP-paused standing flag before reading; if paused, skip the read (file is 22+ days stale and actively misleading). If you think it doesn't exist, check the repo root before believing yourself — the Apr 11 session discovered v0.1 had been on disk since Apr 7 while the handoff doc claimed otherwise. Trust disk over memory.
 6. **Read `design/ROUTING_TABLE.md`** — signal routing rules
 7. **Scan `/BOARD/INDEX.md`** — any signals dispatched since last session, any that may need follow-up. (BOARD is the network-shared signal archive, relocated from `AGENTS/WALTER/signals/` on 2026-04-14; WALTER still owns all writes.)
 8. **Registry refresh** — read other agents' STATUS.md files, update REGISTRY.tsv Status/Updated/Focus columns
 
+**Reference docs (read on demand, not at boot):** `design/STATE.md` (design + infra completeness directory).
+
 ### Execute
 9. **Execute the task**
-10. **Refresh `/COP.md`** — rewrite with current network state, mark △ on changed domains, flag stale agent data. COP refresh is a standing closeout deliverable, not a one-off project. **Currently PAUSED (per Will direction Apr 14) to focus on signal-routing throughput** — check STATUS.md "OPERATIONAL STATE" table for active vs paused state before refreshing. If still paused at boot, skip this step and note the skip in the session log.
+10. **Refresh `/COP.md`** — rewrite with current network state, mark △ on changed domains, flag stale agent data. COP refresh is a standing closeout deliverable, not a one-off project. **Currently PAUSED (per Will direction Apr 14) to focus on signal-routing throughput** — check STATUS.md FILTER POSTURE "Standing flags" block (Pass 2 location) for the COP-paused state before refreshing. If still paused at boot, skip this step and note the skip in the session log.
 11. **Archive any new signals** — every dispatched signal gets a canonical copy in `/BOARD/` (repo root) with filename `SIG-W-YYYYMMDD-NNN-slug.md`. Update `/BOARD/INDEX.md` with a new row. Append to `AGENTS/WALTER/routed/route_log.tsv`. **Delivery policy (Apr 14 onward):** BOARD-only for ALL precedence levels — no inbox push for IMMEDIATE/PRIORITY/ROUTINE/FLASH. FLASH additionally pings Will via Telegram (BOARD + Telegram only, still no inbox push). Recipient agents consume from BOARD at their own boot once the agent boot-step rollout ships.
 
 ### Closeout

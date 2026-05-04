@@ -29,19 +29,13 @@ Single entry point for external information into the agent network. WALTER filte
 
 Last comprehensive registry refresh: 2026-04-13. Today's session focused on signal intake; did not re-read all STATUS files. Network state below is as of Apr 13 unless noted.
 
-### 🚨 IRAN-WAR ANCHOR (verified Apr 26 2026 via WebSearch)
+### 🚨 IRAN-WAR ANCHOR
 
-**Read this at boot.** The 2026 Iran war is the dominant macro-anchor for spring 2026 signal interpretation:
+**Canonical anchor file:** [`anchors/IRAN_WAR.md`](anchors/IRAN_WAR.md) — read at every boot. Pulled out of STATUS.md on 2026-05-04 (Pass 3 of refactor) so it can be updated without touching STATUS, with explicit verified-as-of stamp + re-verify trigger.
 
-- **War started ~Feb 27 2026** (US-Israel + Iran kinetic exchange). Iran struck 100+ targets across 11 US bases (Kuwait/Qatar/Bahrain/Saudi Arabia/UAE/Jordan); damage "far worse than publicly acknowledged" per NBC News Apr 25, repair costs in billions.
-- **Ceasefire began Apr 8 2026** — US-Iran, mediated by **Pakistan**. Initial 2-week, Trump extended pending Iran "unified proposal."
-- **As of Apr 26 (today): day 58-59 post-ceasefire-start, ceasefire EXTENDED but FRAGILE.**
-- **US naval blockade on Iranian ports is ACTIVE during ceasefire** — 37+ vessels redirected/intercepted (this is the campaign that produced SIG-W-20260426-007 USS Pinckney/M/V Sevan).
-- **Strait of Hormuz traffic at "screeching halt"** — major Brent / oil flow / inflation transmission consequence.
-- **Israel-Lebanon kinetic continuing** despite ceasefire (Netanyahu rejected Lebanon inclusion, Israel still attacking).
-- **Iran has seized 2 ships near the strait**; mediated talks STALLED with little US-Iran demand-overlap.
+**Current state (2026-05-04 verified-as-of):** 🔴 **Ceasefire effectively BROKEN** — Iran cruise-missile + drone strike on UAE territory today (Fujairah oil facility hit, 3 injured; 4 cruise missiles fired, 3 intercepted; ADNOC tanker drone-hit + multiple commercial vessel incidents). **Project Freedom launched** (Trump-authorized US naval escort through Hormuz, 100+ aircraft / 15K personnel) — works for US-flagged commercial only, NOT general shipping. Brent intraday $113.72 (+5.13%) / VIX 18.19 (+7%). Phase 1 supply-squeeze deepening, Path A more remote not closer.
 
-**Iran-cluster framing for this network anchor:** signals like Hengli OFAC, USS Pinckney intercept, USAF airlift+3-carrier, M/V Sevan, Mareeyo hijack, Pakistan-mediated diplomacy cascade are **post-Apr-8-ceasefire dynamics under active US blockade**, NOT pre-war buildup. Thesis weight is HIGHER than "buildup" framing implies — Hormuz at standstill + active blockade + fragile ceasefire is materially market-moving.
+**Iran-cluster signal framing (current):** active-war re-escalation under Project Freedom + post-ceasefire-break dynamics (NOT "post-Apr-8 ceasefire under blockade" — that framing was correct Apr 8–May 3 and is now superseded). Thesis weight HIGHER than April framing implied. See anchor file for the detail + re-verify trigger.
 
 | Agent | Status | Key Concern | WALTER Relevance |
 |-------|--------|-------------|------------------|
