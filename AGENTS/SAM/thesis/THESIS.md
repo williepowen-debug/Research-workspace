@@ -19,7 +19,7 @@ Japan is approaching a structural inflection where multiple independent transmis
 
 ### Channel 1: Life Insurer Repatriation (SAM → LIQUID)
 
-Japanese life insurers hold $450-810B in USTs. Total Japanese institutional foreign portfolio exposure subject to repatriation is ~$3.0-3.5T (including GPIF ¥124.6T, life insurers ~¥100-150T, megabanks, regionals). Japan holds $1,185.5B in USTs (Dec 2025) — world's largest foreign holder. The April 2025 ESR regime change (SMR 933% → ESR 219% in field tests) made unrealized losses visible to regulators for the first time. They can no longer hide.
+Japanese life insurers hold $450-810B in USTs. Total Japanese institutional foreign portfolio exposure subject to repatriation is ~$3.0-3.5T (including GPIF ¥124.6T, life insurers ~¥100-150T, megabanks, regionals). Japan holds $1,239.3B in USTs (Feb 2026, +$53.8B Dec→Feb) — world's largest foreign holder. The April 2025 ESR regime change (SMR 933% → ESR 219% in field tests) made unrealized losses visible to regulators for the first time. They can no longer hide.
 
 **Note:** GPIF is NOT a forced-selling risk. Its 25/25/25/25 target allocation has ±6-7% deviation bands. Even USD/JPY 150→130 only drops foreign asset weights to ~21.5-21.8% — within band. GPIF rebalancing actually CUSHIONS yen appreciation by buying foreign assets when they decline. Confirmed through FY2029.
 
@@ -46,11 +46,12 @@ Japanese life insurers hold $450-810B in USTs. Total Japanese institutional fore
 - Norinchukin (world's largest CLO investor, ¥9.7T/$65B) already shrinking: ¥500B decline Q1 2026, "fastest on record"
 - Nippon Life Apr 22 FY2026: will PARE yen bond holdings (direction of foreign allocation ambiguous)
 
-**Evidence FLOWS running at BASE pace, not stress (Apr 24 update):**
+**Evidence FLOWS running at BASE pace, not stress (latest Apr 30 / May 3 data):**
 - **Feb TIC (Apr 15):** Japan UST holdings ROSE to $1,239.3B (from $1,185.5B Dec) — +$53.8B stock. Aggregate flows NOT visible as net selling.
 - **MOF ITS Apr 5-11 (Apr 16 release):** +¥698B NET BUYING of LT-debt. Mar 29-Apr 4 ¥-2.46T was FY-end seasonal spike, not regime change.
-- **4-week MOF rolling:** ¥-2.74T ≈ $18B/mo — at BASE case, not stress.
+- **4-week MOF rolling (latest Apr 19-25):** ¥-2.68T ≈ $18B/mo — ELEVATED above base-case upper, below stress.
 - **Apr 14 20Y JGB auction:** BTC 4.82x, tail 0.2bp — exceptional demand. Insurer buyer strike confirmed super-long (30Y/40Y) specific, NOT broadening to 20Y.
+- **Apr 30 2Y JGB auction:** BTC 5.24x, tail 0.005y — front-end demand robust. JGB market continues orderly across the curve.
 - **Interpretation:** Selling is real (hedge math + ESR pressure drive it) but gradual. Visible at weekly MOF level, invisible at aggregate TIC level = offset by other Japanese buyers (banks, retail Toshin) or price-effect on stock.
 
 **Flow scenarios (held):**
@@ -71,7 +72,7 @@ CFTC net short JPY still BUILDING (not covering) — May 1 release (Apr 28 data)
 
 **Triggers (any one sufficient):**
 - **BOJ hike June base case** (~70% SAM, 74% market); Apr 28 resolved hold + hawkish
-- MOF intervention at 160 (Brent $111 reasserts upward USDJPY pressure; Katayama "free hand" restated)
+- MOF intervention at 160 (USDJPY 157 currently off zone; reactivates if oil escalates again or Tokyo weakness reverses; Katayama "free hand" still on the table)
 - Fed forced cuts via private credit cascade (USD/JPY sub-145 without BOJ)
 - Risk-off event (geopolitical escalation → safe haven yen bid)
 - ESR disclosures (mid-May) trigger stress-case repatriation
@@ -81,7 +82,7 @@ CFTC net short JPY still BUILDING (not covering) — May 1 release (Apr 28 data)
 ### Channel 3: BOJ Policy Divergence (Rate Differential Compression)
 
 **Current rate:** 0.75% (Dec 2025 hike) — AT Takaichi ceiling. Next hike to 1.00% = political collision.
-**Timeline:** April 28 = **HELD with 3 dissents for 1.00%** (resolved Apr 28). **June = base case (~70% SAM / 74% market).** May 1 = secondary low-info read.
+**Timeline:** April 28 = **HELD with 3 dissents for 1.00%** (resolved). May 1 "secondary MPM" was a calendar artifact — no actual policy event. **June = base case (~70% SAM / 74% market).**
 **Terminal rate:** 0.75% (political ceiling), NOT market consensus 1.25-1.5%
 
 **Apr 13 Ueda speech (v1.3 revision):** Speech delivered by Deputy Himino (Ueda at G7/G20). Explicit ME caution: "developments in the Middle East remain uncertain…will closely monitor their potential impact on economic activity, prices, and financial conditions." Word "rate hike" absent. Market bets collapsed 70% → 3-10%. Polymarket 97% no change. This was the decisive signal that April was off the table and June became base case — *"return to policy normalization as soon as June."*
