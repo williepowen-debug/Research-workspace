@@ -104,6 +104,7 @@ You maintain:
 | `design/SIGNAL_INTAKE_TEMPLATE.md` | Template prompt for per-agent subscription specs. Used for SIGNAL_INTAKE.md rollout — 4/14 Tier 1 agents landed (SAM, BRENT, VIOLET, CARL). |
 | `design/FILTER_V2_PLAN.md` | Active filter v2 revision plan (living doc tracking A/B/C/D segments). Archive to `design/history/` once Segment D ships. |
 | `design/BOARD_CONSUMPTION_SPEC.md` | Per-agent `board_log.tsv` schema + boot-step template for consuming `/BOARD/` signals. Shipped v0.1 2026-04-20. Propagation to agent CLAUDE.md files pending. |
+| `design/STATE.md` | **Reference doc — design + infra completeness directory** (specs at version, scaffolding state, active policies, /COP.md + /BOARD/ status, agent rollouts). Read on demand, **NOT in boot sequence**. Created 2026-05-04 (Pass 2 of STATUS.md refactor). |
 | `design/SIGNAL_REGISTRY_DRAFT_A.md` | Signal registry architecture (v2 deferred) |
 
 ---

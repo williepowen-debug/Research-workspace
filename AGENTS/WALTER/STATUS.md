@@ -13,31 +13,15 @@ Single entry point for external information into the agent network. WALTER filte
 
 ---
 
-## OPERATIONAL STATE
+## STATE POINTERS
 
-| Component | Status | Notes |
-|-----------|--------|-------|
-| Design: Signal Format Spec | ✅ Complete v0.6 | **v0.6 (Apr 20 — Filter v2 Seg B)** added Multi-Origin Signals section codifying same-theme combine rule (same domain + same event/sub-theme + each origin adds value; pre-dispatch any-arrival-path, post-dispatch immutable). `origin` field now accepts array form. v0.5 (Apr 20 — Seg A) added `thesis-frame` signal_type. v0.4 (Apr 14) added ASIA_CONTAGION + UST_FOREIGN codes. v0.3 (Apr 11 PM) canonical Domain Vocabulary. v0.2 added dispatched/dispatch_note + confidence_language. |
-| Design: Routing Table | ✅ Complete v0.5 | **v0.5 (Apr 20 — Filter v2 Seg A)** added thesis-frame signal_type row + Residential-housing stress exception (geo-narrow residential → REGINALD action + CARL info, not reverse; routing fix from NV HOA SIG-005). v0.4 (Apr 14) ASIA_CONTAGION + UST_FOREIGN rows. v0.3 (Apr 11 PM) canonical Domain Vocabulary. |
-| Design: Filter Spec | ✅ Complete v0.4 | **v0.4 (Apr 20 evening — Filter v2 Seg C)** added Verify-Research Trigger (Phase 1.5 — reference) subsection between Gate 1b and Credibility; points to CHECKLIST v0.8 Phase 1.5 as canonical. No filter-logic change; insertion point only. v0.3 (Seg A) retired "START LOOSE" → BALANCED; Pre-Apr-21 bypass reaffirmation. v0.2 (Apr 11) unified filter model v1 provisional. |
-| Design: Signal Processing Checklist | ✅ Complete v0.8 | **v0.8 (Apr 20 evening — Filter v2 Seg C)** Phase 1.5 verify-research framing audit codified: 4 trigger patterns (secondhand-citing-primary / summarizing-plurals / mechanism-assertions-not-yet-in-primary / extreme-absolute extraordinary-claims), spawn-prompt discipline (lead with decision, word cap, VERDICT top, decision-usefulness), 4-verdict handling (CONFIRMED / CORRECTED-framing / FALSE / INDETERMINATE). Empirical origin: 4 framing errors caught Apr 11-20. v0.7 (Seg B) Phase 1b combine check. v0.6 (Apr 11 PM) canonical Domain Vocabulary. |
-| Design: Signal Intake Template | ✅ Complete | v0.1 (Apr 9). **Agent rollout 4/14 Tier 1: SAM, BRENT, VIOLET, CARL.** CARL (Apr 19 22:21 UTC) is richest reference yet — Active Thresholds, 3-tier keywords, explicit NOT-TO-SEND. Recommend as primary reference for HENRY/RED next. |
-| Design: BOARD Consumption Spec | ✅ v0.1 (Apr 20 late-evening) | Per-agent `AGENTS/<NAME>/board_log.tsv` (4 cols: timestamp_read/signal_id/disposition/notes; 5-value disposition enum). Boot-step template added for agent CLAUDE.md propagation. No retention cap. Will approved defaults via Telegram msg 938. **Propagation to 14 Tier 1 agent CLAUDE.md files pending — WALTER does not edit other agents' CLAUDE.md (git isolation rule); each agent or Will applies the boot block.** |
-| Design: Signal Registry | 📋 Draft A | Architecture only — SQLite/superevent system deferred to v2 |
-| Research Corpus | ✅ 10 prompts | ESI, military, ATC, pub/sub, IC dissem, emergency dispatch, scientific alerts, open output, newsroom editorial, trading desk |
-| Distilled Principles | ✅ 10/10 done | All prompts distilled |
-| outbox/ | ✅ Created Apr 10 | Drafts in flight only. Cleared once dispatched (Apr 14 architecture change). |
-| routed/route_log.tsv | ✅ Created Apr 11 | FILTER_SPEC schema, 3 rows (SIG-001 CPI+UMich, SIG-002 RED falsification, SIG-003 FORGE stale) |
-| filtered/kill_log.tsv | ✅ Created Apr 11 | Empty, FILTER_SPEC headers ready for first filtered signal |
-| **signals/** (Layer 2 archive) | **✅ Created Apr 14** | Canonical archive of dispatched signals + INDEX.md discovery table. 3 signals backfilled. Append-only. Agents pull IMMEDIATE/PRIORITY/ROUTINE from here (FLASH still inbox-pushed). |
-| **MEMORY.md** | **✅ Created Apr 14** | Feedback/Findings/References/Session Notes — matches SAM pattern |
-| **LAST_COMPLETION.md** | **✅ Created Apr 14** | Structured closeout record (overwritten each session) |
-| queue/ | ❌ Not created | Deferred until MINIMIZE mode needed |
-| **`/COP.md` (Layer 1)** | **✅ LIVE at repo root** | **v0.3 last refreshed Apr 13 — STALE. Refresh deprioritized by Will 2026-04-14 to focus on signal-routing throughput.** Iran/Hormuz state moved one news cycle ahead by 2026-04-15 (blockade selective not total; talks rumored-resuming; Brent ~$94-100). |
-| **`/BOARD/` (signal archive)** | **✅ LIVE at repo root** | **NEW 2026-04-14** — moved from `AGENTS/WALTER/signals/` per Will. Network-shared pull point, WALTER owns writes. 13 signals canonical, INDEX.md curated. |
-| **Delivery policy** | **✅ Active 2026-04-14** | BOARD-only for IMMEDIATE/PRIORITY/ROUTINE. FLASH = BOARD + Telegram-alert-to-Will only (no inbox push). Other-agent boot-sequence rollout pending Will approval. |
-| Domain Vocabulary | ✅ v0.4 (Apr 14) | 15 codes — added ASIA_CONTAGION + UST_FOREIGN. ROUTING_TABLE v0.4 propagated. |
-| Boot Sequence | ✅ Updated Apr 14 | CLAUDE.md boot now scans `/BOARD/INDEX.md` (was `signals/INDEX.md`). Git steps updated to stage BOARD/ explicitly. |
+- **Live ops state** → header paragraph above (BOARD count, today's dispatches/kills/verify-spawns, push state, cluster updates, routing pressure flags).
+- **Design + infra completeness** → `design/STATE.md` (specs at version, scaffolding files, active policies, COP/BOARD status, agent rollouts).
+- **Filter posture (current mode + safety net triggers)** → FILTER POSTURE section below.
+- **Network awareness (per-agent state)** → NETWORK AWARENESS section below + REGISTRY.tsv (canonical).
+- **Recent session activity** → SESSION LOG section below (last 5); full archive in `SESSION_LOG.md`.
+- **Last session closeout** → `LAST_COMPLETION.md`.
+- **Cross-session feedback / findings** → `MEMORY.md`.
 
 ---
 
@@ -99,6 +83,9 @@ Last comprehensive registry refresh: 2026-04-13. Today's session focused on sign
 - HY OAS widening > 25bps single session → auto-upgrade
 - 2+ agents flag same theme in 24h → convergence flag
 - Held-position liquidity drop → FLASH
+
+**Standing flags (active operational state, not posture):**
+- 🟡 **COP refresh: PAUSED** — `/COP.md` v0.3 last refreshed 2026-04-13 (22+ days stale). Refresh deprioritized by Will 2026-04-14 to focus on signal-routing throughput. Resume trigger: Will's call. **Skip the closeout COP-refresh step until this flag flips.** See `design/STATE.md` § /COP.md for detail.
 
 ---
 
