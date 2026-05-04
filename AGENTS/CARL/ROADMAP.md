@@ -61,6 +61,7 @@ Persistent state-of-CARL tracker across sessions. SCRATCH = "what to do next ses
 | **Convergence score calibration** — 58/60 is subjectively scored. What would 30/60 look like? | Mar 31 (legacy) | Low priority. Important for intellectual honesty if conviction holds long. Each vector needs explicit downgrade criteria. |
 | **Counter-evidence rigor** — currently just COUNTER_LOG.md (running log). | Mar 31 (legacy) | Low priority. Old red_team/ structure had competing hypotheses; consider rebuild at sustained high conviction. |
 | **TRENDS (26d) / ML.tsv (25d) refresh OR retire** | Apr 17 | **ML.tsv RESOLVED May 2 PM:** scheduled for archive in Workbook hardening Item #4. **TRENDS still open:** 90% row-level col-count drift per audit; decision belongs to Workbook hardening Item #5 (extend SCHEMA to other TSVs) — refresh-or-retire decision rolls into that sequence. |
+| **"Full thesis kill" rule mismatch** — both CARL/CLAUDE.md and `thesis/THESIS.md` line 337-338 carry the v2.1 employment-detonator kill rule (`Claims <220K sustained 8+ weeks AND CC 90+ DQ declines 2 consecutive quarters`). v2.5.1 mechanism is multi-vector cost squeeze, not employment-detonator. The kill rule may need to be rewritten to reflect cost-squeeze invalidation conditions (e.g., energy relief + food CPI rolling over + UI exhaustion absorbed without DQ spike). | May 3 (PM Pass-2 audit) | Thesis-level decision — not a CLAUDE.md mechanical fix. Needs dedicated thesis-review session. CARL/CLAUDE.md now points to THESIS.md as canonical with this caveat flagged. |
 
 ---
 
