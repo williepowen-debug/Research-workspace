@@ -236,6 +236,18 @@ Curated long-term insights on VIX, volatility regimes, and credit-vol transmissi
 
 ---
 
+## OPEN QUESTIONS FOR WILL
+
+*Extracted from DOMAIN_AUDIT.md (Apr 12 cold-boot audit) before archive — these remain undecided.*
+
+1. **Data refresh automation.** Should VIOLET integrate with FORGE/tools/market-data/ or a cron job for daily refreshes (boot.py + fred_fetch + backfill), or stick with manual-on-spawn? Current state is manual; I had to run fred_fetch manually on May 3 to get current credit data.
+2. **VIX futures M1-M4.** Currently I track only spot + VIX3M + VIX6M. Granular front-curve data (M1, M2, M3, M4) would enable better contango-flattening detection. Worth adding to backfill.py, or is VIX3M/VIX ratio sufficient?
+3. **Outbound signal automation.** Should VIOLET auto-write outbox/ files when thresholds breach (e.g., VVIX >120, term-structure inversion), or keep manual signal generation?
+
+*If/when answered, fold answers into CLAUDE.md operational protocol and remove from this list.*
+
+---
+
 ## SESSION NOTES
 
 ### 2026-05-03 — Boot wakeup after 16-day VIOLET dark
