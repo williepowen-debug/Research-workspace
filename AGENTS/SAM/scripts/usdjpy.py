@@ -176,6 +176,12 @@ def print_summary(rows):
 
     current = latest["close"]
 
+    # 5-trading-day delta (one trading week) — direction/velocity context
+    if len(rows) >= 6:
+        delta_5d = current - rows[-6]["close"]
+    else:
+        delta_5d = None
+
     def days_since_level(level):
         """Directional touch — looks at HIGH for above-current levels,
         LOW for below-current levels. Returns (days, touch_date_str) or
@@ -205,23 +211,25 @@ def print_summary(rows):
 
     color = color_for_price(current)
     stale_tag = f" (STALE +{days_since_latest}d)" if days_since_latest > 3 else ""
+    trend_tag = f" (5d: {delta_5d:+.1f})" if delta_5d is not None else ""
 
     line1 = (
-        f"  {color} USDJPY {current:.2f}{stale_tag} | "
+        f"  {color} USDJPY {current:.2f}{trend_tag}{stale_tag} | "
         f"30d: {r30[0]:.1f}-{r30[1]:.1f} | "
         f"90d: {r90[0]:.1f}-{r90[1]:.1f} | "
         f"52wk: {r52w[0]:.1f}-{r52w[1]:.1f}"
     )
     print(line1)
 
+    # Format: "level → Nd, MOF state" — arrow disambiguates level from days count
     touch_parts = []
     for level, _name in REFERENCE_LEVELS:
         days, touch_date_str = days_since_level(level)
         if days is None:
-            touch_parts.append(f"{level} (n/a)")
+            touch_parts.append(f"{level} → n/a")
         else:
             marker = mof_marker(touch_date_str)
-            touch_parts.append(f"{level} ({days}d, {marker})")
+            touch_parts.append(f"{level} → {days}d, {marker}")
     line2 = f"  {color} Days since touch: " + " | ".join(touch_parts)
     print(line2)
 
