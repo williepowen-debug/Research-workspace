@@ -59,6 +59,21 @@ If RHI/KFRC Q1 2026 earnings (April) show:
 - Sequential **+1-2% QoQ with YoY still negative**: Neutral. Hold. Not invalidated, not confirmed.
 - Sequential **+3%+ QoQ with raised guidance**: KELYA trim rule triggers — trim 25% per EXIT RULES
 
+### ⚠️ MAY 4 UPDATE — TRIM RULE FIRED (per canary canon)
+**Q1 results came in:**
+- **KFRC** (Apr 27): Revenue $330M = first annual gain in years. Q2 guide RAISED to $344-352M, EPS RAISED to $0.67-0.75 (vs $0.46 Q1). Stock **+20% pre-market**.
+- **RHI** (Apr 24): 2nd consecutive sequential growth qtr in Talent Solutions. April Contract Talent improved -7% → -1% YoY in 2 weeks. Q2 guide $1.275-1.375B / EPS $0.20-0.30.
+- **MAN** (Apr 16): +3% organic constant currency. Mixed (Manpower +6%, Experis -9%).
+
+**Per the canon above, this is the "+3%+ with raised guidance" scenario → trim 25%.**
+
+**But:** KELYA stock at **$9.69** May 4 — already above the $9.50 stop trigger (session 1 of 3). Trim vs full exit is now the question, not trim vs hold. KELYA Q1 hasn't printed yet — typically early-mid May. Three paths:
+1. **Trim 25% now** per canon, hold remainder to NFP May 8
+2. **Hold full to NFP May 8** — if NFP <100K AND U-3 ↑, thesis re-validates and trim is wrong
+3. **Hold full to KELYA Q1** — if KELYA itself prints +YoY with raised guidance, full exit; if KELYA diverges (federal exposure, Southeast SMB), add re-emerges
+
+**Recommend path 2** — NFP April is closest catalyst and resolves the canon ambiguity in 4 days. Flag to FORGE/Will.
+
 ### Is the Staffing Canary Thesis Still Alive?
 **Yes, but conditional.** The canary isn't dead — it's showing ambiguous vital signs. The thesis is:
 1. KELYA has higher federal exposure than RHI/KFRC (direct DOGE headwind)
