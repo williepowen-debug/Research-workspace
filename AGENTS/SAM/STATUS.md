@@ -107,16 +107,16 @@ Full event log → `thesis/TIMELINE.md` Apr 28 entry. Thesis v1.3 unchanged (int
 
 ## KEY THRESHOLDS
 
-| Level | Significance | Status (Apr 30) |
+| Level | Significance | Status (May 3) |
 |-------|-------------|--------|
-| USD/JPY 160 | MOF intervention | 🟢 157.19 — 1.8% away, off zone |
-| USD/JPY 155 | Phase 2 onset | 🟡 157.19 — 1.4% above; closing |
+| USD/JPY 160 | MOF intervention | 🟢 157.03 — 1.9% away, off zone |
+| USD/JPY 155 | Phase 2 onset | 🟡 157.03 — 1.3% above; closing |
 | USD/JPY 145 | Forced unwind | SET |
 | JGB 10Y 2.40% | Stress crossover | 🔴 BREACHED — 2.520% (MOF Apr 30, +4bp from Apr 27) |
 | JGB 30Y 4.0% | Severe insurer stress | 🟡 ~28bp away (3.721% Apr 30) |
 | JGB 40Y 4.0% | Extreme long-end stress | 🟡 ~26bp away (3.743% Apr 30) |
-| Brent $120 | Kharg scenario | 🟠 $111.75 — holding +12% surge |
-| Brent $90 | Headwind resolved | 🔴 Well above $90 — Phase 1 persists |
+| Brent $120 | Kharg scenario | 🟢 $107.85 — Phase 1 pressure easing on de-escalation step |
+| Brent $90 | Headwind resolved | 🟠 ~$18 above $90 — Phase 1 persists but easing |
 
 ---
 
@@ -164,7 +164,7 @@ Full event log → `thesis/TIMELINE.md` Apr 28 entry. Thesis v1.3 unchanged (int
 
 ## THESIS (v1.3 short-form, post Apr 28 BOJ)
 
-Structural channels intact; timing call vindicated. BOJ delivered hold + hawkish (modal v1.3 scenario) with 3 dissents — biggest split since 2016, more hawkish than expected. June hike near-locked (74% swap, vs SAM-21 70%). GDP cut (1.0%→0.5%) shows BOJ willing to acknowledge growth drag without softening on hikes — exactly the "data case overwhelming by June" path v1.3 mapped. Channel 1 flows at base pace; ESR disclosures mid-May remain the stress-case trigger. CFTC shorts STILL BUILDING — fuel load grows. Brent $111 (+12% in 4 days) reasserts Phase 1 oil pressure but doesn't break the path. Stop $55.05 unchanged.
+Structural channels intact; timing call vindicated. BOJ delivered hold + hawkish (modal v1.3 scenario) with 3 dissents — biggest split since 2016, more hawkish than expected. June hike near-locked (74% swap, vs SAM-21 70%). GDP cut (1.0%→0.5%) shows BOJ willing to acknowledge growth drag without softening on hikes — exactly the "data case overwhelming by June" path v1.3 mapped. Channel 1 flows at base pace; ESR disclosures mid-May remain the stress-case trigger. CFTC shorts STILL BUILDING (-102,059 May 1) — fuel load grows. Brent $107.85 (-3.5% over weekend on Iran de-escalation step) eases Phase 1 oil pressure short-term; Mon May 4 Project Freedom escort start is the immediate branch point. Stop $55.05 unchanged.
 
 **No thesis bump warranted** (per Apr 11 restraint lesson) — Apr 28 confirmed v1.3, didn't refine it. Scenario probabilities held (Base 70 / Stress 25 / Crisis 5).
 

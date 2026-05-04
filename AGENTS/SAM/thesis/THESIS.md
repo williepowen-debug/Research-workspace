@@ -1,7 +1,7 @@
 # SAM THESIS — v1.3
 
 **Version:** 1.3
-**Last Updated:** 2026-04-28 (catalyst sequence refreshed; no version bump)
+**Last Updated:** 2026-05-03 (post Apr 28 BOJ + May 1 CFTC + May 1-3 Iran de-escalation step; no version bump)
 **Status:** 🟠 THESIS INTACT — JUNE HIKE NEAR-LOCKED — Apr 28 BOJ delivered modal+ scenario (3 dissents, GDP cut, infl up); swap markets price June at 74%
 **Conviction:** HIGH
 
@@ -63,7 +63,7 @@ Life insurers also hold ~$40-53B (~$45B central est.) in US private credit — m
 
 ### Channel 2: Carry Unwind (SAM → HENRY)
 
-**Current probability:** 15% (7d) / 70% (30d) / 90% (60d) *(post Apr 28 BOJ; binary catalyst passed without trigger — 7d ticked down; 60d ticked up on June lock)*
+**Current probability:** 20% (7d) / 72% (30d) / 90% (60d) *(post May 1 CFTC; 30d +2pp on shorts pressed through hawkish hold; 60d held on June lock)*
 
 CFTC net short JPY still BUILDING (not covering) — May 1 release (Apr 28 data) at **-102,059** (built +7,599 THROUGH the BOJ event, no cover on hawkish hold). Now **56.7% of July 2024 peak** (-180K) — highest of cycle. Positioning hasn't corrected despite hawkish hold → fuel load actively growing. Aug 2024 precedent: unwind took hours, not days.
 
@@ -109,9 +109,9 @@ CFTC net short JPY still BUILDING (not covering) — May 1 release (Apr 28 data)
 
 ---
 
-## CATALYST SEQUENCE (v1.3 refresh, Apr 28 update)
+## CATALYST SEQUENCE (v1.3 refresh, May 3 update)
 
-### Resolved (Apr 13 → Apr 28)
+### Resolved (Apr 13 → May 3)
 
 | Date | Catalyst | Outcome |
 |------|----------|---------|
@@ -125,14 +125,18 @@ CFTC net short JPY still BUILDING (not covering) — May 1 release (Apr 28 data)
 | Apr 24 | March CPI core | 🟡 1.8% (accelerated from 1.6%, still below target 2nd month) |
 | **Apr 28** | **BOJ meeting** | ✅ **MODAL+ — HOLD 0.75% + 3 dissents (biggest split since 2016) + GDP cut FY26 1.0%→0.5% + inflation upgrade. Swap pricing 74% June hike. SAM-20 FALSE; SAM-21 BULL.** |
 | **Apr 28** | **Brent (Trump rejects Iran Hormuz proposal)** | 🔴 +12% in 4 days to $111.26 settle — Phase 1 oil pressure reasserts |
+| **Apr 29-30** | **Tokyo session reprice + Katayama/Aida response + 2Y JGB auction** | ✅ **BULL FORK** — USDJPY -2.4y to 157.19, FXY +1.98% to $58.63 (Tranche 2 zone hit), politics quiet (no D2 escalation), 2Y BTC 5.24x tail 0.005y |
+| **May 1** | **BOJ MPM secondary** | 🟡 Calendar artifact — no actual policy event; Apr 28 was THE meeting |
+| **May 1** | **CFTC JPY release (Apr 28 data)** | 🔴 BULL FORK — net short DEEPENED to -102,059 (+7,599 build); shorts pressed THROUGH BOJ event = no cover on hawkish hold; 56.7% Jul24 peak (highest of cycle) |
+| **May 1-3** | **Iran/Hormuz de-escalation step** | 🟡 AMBIGUOUS — Trump May 1 "TERMINATED" letter, Iran May 2 14-pt proposal (maximalist), May 4 "Project Freedom" Navy escort start; Brent $111.75 → $107.85 (-3.5%) |
 
 ### Forward
 
 | Date | Catalyst | Expected Impact |
 |------|----------|-----------------------|
-| Apr 29 (Tokyo) | First overnight session digesting BOJ dissent split | Tranche 2 trigger test ($58.00-58.25 zone) |
-| Apr 29-30 | Katayama / Aida political reaction | Takaichi tone; D2 (BOJ Law revision) signal |
-| May 1 | BOJ meeting — secondary | Low info; language evolution check |
+| **Mon May 4** | "Project Freedom" — US Navy escorts begin (Hormuz) | Iran response = oil swing; resistance → $115+, passive → slide to $100 |
+| **Thu May 8** | MOF ITS weekly (Apr 26-May 2) — first full post-BOJ week | Channel 1 flow read |
+| **Fri May 8** | CFTC JPY release | Cover signal vs further build (61% Jul24 peak if -110K) |
 | May 14 | Japan Q1 GDP prelim | EWJ put trigger if contraction (BOJ already cut FY26 to 0.5%) |
 | **Mid-May** | **ESR disclosures begin (FY2025)** | First mark-to-market damage visible; stress-case trigger |
 | **~May 20** | April trade balance (first post-blockade) | Brent $111 makes hot — Phase 1 mechanism re-test |
@@ -147,7 +151,7 @@ Oil shock creates a two-phase JPY dynamic:
 - **Phase 1 (weeks 1-2):** Oil spike → trade deficit widens → JPY WEAKENS → carry survives
 - **Phase 2 (weeks 2-8):** Recession risk compounds → safe haven yen WINS → carry unwind
 
-**Current state (Apr 28):** Brent **$111.26** (+12% in 4 days). Trump rejected Iran's Hormuz proposal (Iran wanted nuclear program carve-out). Highest since March. Hormuz blockade persistent. Phase 1 mechanism gets fresh test in April trade balance (~May 20).
+**Current state (May 3):** Brent **$107.85** (-3.5% from Apr 30 $111.75 on de-escalation hopes). Trump May 1 declared hostilities "TERMINATED" (war powers letter); Iran May 2 sent 14-pt peace proposal (maximalist); "Project Freedom" Navy escort starts Mon May 4. Dual-blockade dynamic persists. Phase 1 mechanism still gets fresh test in April trade balance (~May 20).
 
 **v1.3 revision — Phase 1 observation downgrade:** March trade balance posted ¥+667B SURPLUS (+25.9% YoY) despite blockade. Exports +11.7% (AI-demand) absorbed oil import cost. Crude imports reflected pre-Feb-28 shipments so April data may differ, but the modeled mechanism ("oil spike → trade deficit widens → JPY weakens") did NOT mechanically fire in the March data. Phase 1 dynamic is weaker than framed in v1.2.
 
@@ -182,16 +186,16 @@ If cascade → recession → Fed cuts → USD weakens → JPY sub-145 WITHOUT BO
 
 ## KEY THRESHOLDS
 
-| Level | Significance | Status (Apr 24) |
+| Level | Significance | Status (May 3) |
 |-------|-------------|--------|
-| USD/JPY 160 | MOF intervention trigger | 🟠 159.61 — 0.2% away (again) |
+| USD/JPY 160 | MOF intervention trigger | 🟢 157.03 — 1.9% away, off zone |
 | USD/JPY 155 | Phase 2 carry unwind onset | SET |
 | USD/JPY 147 | Forced carry unwind | SET |
 | USD/JPY 145 | Unhedged positions underwater → mechanical selling | SET |
 | USD/JPY 130-135 | Life insurer forced systematic selling (avg entry for unhedged) | SET |
 | JGB 10Y 2.40% | Stress crossover | 🔴 BREACHED — 2.520% (MOF Apr 30) |
 | JGB 30Y 4.0% | Severe insurer stress / acceleration zone | WATCH |
-| Brent $120 | Kharg Island scenario | 🟡 $99 — blockade persistent, no spike |
+| Brent $120 | Kharg Island scenario | 🟢 $107.85 — Phase 1 pressure easing on de-escalation step |
 | BOJ rate 0.75% | Political ceiling (mortgage constraint) | 🔴 AT CEILING — next hike (June base case) breaches |
 
 ---
@@ -232,7 +236,7 @@ If cascade → recession → Fed cuts → USD weakens → JPY sub-145 WITHOUT BO
 
 - **→ LIQUID:** Life insurer UST selling (base-case pace $7-10B/mo confirmed Apr 16). Hedge ratio 44.4% (14yr low) = $370-550B unhedged. Norinchukin CLO ¥9.7T shrinking. Japan holds **$1,239.3B USTs (Feb 2026)** — +$53.8B Dec→Feb (stock NOT falling at aggregate level; flows visible at MOF ITS weekly level only).
 - **→ HENRY:** Carry unwind probabilities 20/72/90 (7d/30d/60d) post-CFTC May 1. CFTC shorts BUILT THROUGH BOJ event (-102,059, 56.7% Jul24 peak) → no cover on hawkish hold → fuel load grows. Aug 2024 speed precedent.
-- **← HAWK:** War → Japan energy vulnerability (90% ME oil dependent). Ceasefire extended Apr 22 (not indefinite); Hormuz blockade persistent.
+- **← HAWK:** War → Japan energy vulnerability (90% ME oil dependent). May 1 Trump declared hostilities "TERMINATED" (war powers letter); May 2 Iran 14-pt peace proposal (maximalist terms); May 4 "Project Freedom" Navy escort starts in Hormuz. Dual-blockade dynamic persists; Brent $107.85 (-3.5% over weekend).
 - **← HANS/BROCK:** Private credit cascade → Fed cuts → USD/JPY sub-145 independent of BOJ.
 
 ---
