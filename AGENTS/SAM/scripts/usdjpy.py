@@ -86,7 +86,8 @@ def load_tsv():
 
 
 def merge_and_write(df):
-    """Append rows in df that aren't already in TSV. Returns count appended."""
+    """Append fully-closed daily rows to TSV. Skips today (intraday partial).
+    Returns count appended."""
     existing_dates = set()
     if USDJPY_TSV.exists():
         with open(USDJPY_TSV) as f:
@@ -99,10 +100,15 @@ def merge_and_write(df):
         with open(USDJPY_TSV, "w") as f:
             f.write(TSV_HEADER)
 
+    today_str = datetime.now().strftime("%Y-%m-%d")
     new_rows = []
     for ts, row in df.iterrows():
         date_str = ts.strftime("%Y-%m-%d")
         if date_str in existing_dates:
+            continue
+        # Skip today — USDJPY=X trades 24/5, so today's row is intraday
+        # partial. Let it land in TSV tomorrow when the day is fully closed.
+        if date_str == today_str:
             continue
         # NaN check (yfinance can return NaN rows for non-trading days)
         vals = [row["Open"], row["High"], row["Low"], row["Close"]]
