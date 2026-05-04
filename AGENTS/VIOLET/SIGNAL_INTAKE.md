@@ -19,33 +19,43 @@ What VIOLET watches for — internal monitoring priorities and external signals 
 ### The Sweet Spot Trigger (Credit-Vol Lag)
 
 **When ALL conditions met:**
-1. VIX 15-26 ✅ (currently ~18)
-2. HY OAS widens >100bps from recent low (currently +20bps from 2.64 trough — NOT triggered)
-3. Cross-sector widening (not just energy)
-4. Yield curve not inverted ✅ (10Y-2Y +50bps)
+1. VIX 15-26 (sweet spot zone)
+2. HY OAS widens >100bps from recent cycle trough
+3. Cross-sector widening (not just one sector like energy)
+4. Yield curve not inverted (Fed-research filter)
 5. Sustained >5 days, VVIX confirming
 
 **Action:** Buy VIX calls 30-60 DTE, 1-2% account
 **Target:** VIX +10pts within 2-6 weeks
 **Stop:** HY OAS reverses 50bps, VIX >30, or yield curve inverts
 
-**Current Status:** VIX in sweet spot — waiting for HY OAS trigger. Tactical trigger at +100bps from trough (HY OAS 3.64).
+*Live trigger state lives in STATUS.md (Convergence Matrix → Credit-to-vol transmission row). HY OAS cycle trough + tactical trigger threshold tracked there.*
 
 ### SKEW Divergence Trigger (Highest Conviction)
 
 **Pattern:** SKEW rises ≥10pts while VIX falls ≥5pts AND VVIX falls ≥15pts over 20-day window.
 
-**Current Status:** 🔴 **FIRED Apr 13.** SKEW peak 156.9. Episode #17 in 19-year sample. 94% hit rate for ≥15% VIX rise within 60d. See KB-VIO-036.
+**Base rate:** 94% hit rate for ≥15% VIX rise within 60d (15/16 historical episodes, KB-VIO-036). 1% base rate of occurring at all.
 
-**Action:** VIX upside trade — proposal submitted to FORGE/INBOX.md (Apr 15). Awaiting Will's vehicle/strike/expiry decision.
+**Action when fired:** Propose VIX upside trade to FORGE; size by severity cohort:
+- SKEW peak >150 (high-severity): full size, 2% account
+- SKEW peak 140-150 (mixed-severity): half size, 1% account
+- Vehicle: VIX calls 30-60 DTE, strike at central-case target
 
-**Monitoring:**
-- SKEW <140 sustained → pattern resolving peacefully → exit
-- SKEW re-ramp >155 → severity confirmation → add
-- VIX3M/VIX <1.05 → tactical entry signal
-- CCC OAS >10.0 → analog alignment strengthens → add
+**Reinforcement (add):**
+- Second divergence fire within 30d → back-to-back cluster (cluster-analog tail)
+- SKEW re-ramp >155 → severity confirmation
+- VIX3M/VIX <1.05 → tactical entry confirmation
+- CCC OAS >10.0 → analog alignment strengthens
 
-**Timing:** Median peak at day 39 (IQR 32-46). High-SKEW cohort median 44 days. Central window: **May 15-27**.
+**Invalidation (exit):**
+- SKEW <140 sustained 4+ td → pattern broken
+- 60d window closes without VIX ≥22 → pattern failed
+- HY OAS tightens below cycle trough → credit channel removed
+
+**Timing:** Median peak day 39 post-fire (IQR 32-46). High-SKEW cohort (≥150) median 44 days. Post-stress fires resolve faster (median 32 days).
+
+*Live episode tracking in STATUS.md. Active trade in TRADE.md.*
 
 ### Term Structure Watch
 
@@ -174,12 +184,9 @@ VIOLET sends signals when:
 | Regime shift detected | All agents | 🟠 | Low vol → rising vol |
 | CCC OAS >10.0 | LIQUID, RED | 🟠 | Low-quality credit cracking — analog alignment |
 
-**Signals sent this cycle:**
-- WALTER: VIX Apr 15 refresh + SKEW divergence escalation (Apr 15)
-- LIQUID: HY OAS trigger monitor (outbox, Apr 15)
-- FORGE: VIX Upside trade proposal (INBOX.md, Apr 15)
+*Live signal log in `workbook/FLOW.tsv`. Latest cycle in STATUS.md "Cross-Agent Signals" section.*
 
 ---
 
 *Created: 2026-04-12*
-*Last Updated: 2026-04-16*
+*Last Updated: 2026-05-03 (stripped stale "Current Status" episode-17 references; sweet-spot + SKEW-divergence frameworks made template-only)*
