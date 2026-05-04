@@ -46,6 +46,19 @@ REFERENCE_LEVELS = [
     (140, "Aug 2024 low"),
 ]
 
+# Confirmed MOF intervention episodes (public record). Touches near these
+# dates get a MOF marker; touches NOT near these dates = "no MOF" (level was
+# hit naturally without policy response).
+# Format: (date, label_compact, size_trillion_yen)
+MOF_INTERVENTIONS = [
+    ("2022-09-22", "Sep22",  2.84),  # first since 1998; USDJPY 145 → 140
+    ("2022-10-21", "Oct22",  6.35),  # stealth Oct 21-24; combined Q4 2022 ¥9.2T
+    ("2024-04-29", "Apr24",  5.5),   # first 2024 act; USDJPY 160.17 peak
+    ("2024-05-01", "May24",  4.3),   # second 2024 act; combined Apr/May ¥9.8T
+    ("2024-07-11", "Jul24",  5.5),   # pre-Aug 2024 unwind
+]
+INTERVENTION_WINDOW_DAYS = 3  # touch date within ±N days of intervention = match
+
 
 def fetch_yfinance(period="5y"):
     """Fetch USDJPY=X OHLC from yfinance. Returns DataFrame or None."""
@@ -165,15 +178,30 @@ def print_summary(rows):
 
     def days_since_level(level):
         """Directional touch — looks at HIGH for above-current levels,
-        LOW for below-current levels. Returns None if never touched in window."""
+        LOW for below-current levels. Returns (days, touch_date_str) or
+        (None, None) if never touched in window."""
         for r in reversed(rows):
             if level >= current:
                 if r["high"] >= level:
-                    return (today - date.fromisoformat(r["date"])).days
+                    td = date.fromisoformat(r["date"])
+                    return (today - td).days, r["date"]
             else:
                 if r["low"] <= level:
-                    return (today - date.fromisoformat(r["date"])).days
-        return None
+                    td = date.fromisoformat(r["date"])
+                    return (today - td).days, r["date"]
+        return None, None
+
+    def mof_marker(touch_date_str):
+        """Returns 'MOF <label>' if touch is within window of an intervention,
+        else 'no MOF'. Returns '' if touch_date_str is None."""
+        if not touch_date_str:
+            return ""
+        td = date.fromisoformat(touch_date_str)
+        for iv_date_str, label, _size in MOF_INTERVENTIONS:
+            iv_d = date.fromisoformat(iv_date_str)
+            if abs((td - iv_d).days) <= INTERVENTION_WINDOW_DAYS:
+                return f"MOF {label}"
+        return "no MOF"
 
     color = color_for_price(current)
     stale_tag = f" (STALE +{days_since_latest}d)" if days_since_latest > 3 else ""
@@ -188,11 +216,12 @@ def print_summary(rows):
 
     touch_parts = []
     for level, _name in REFERENCE_LEVELS:
-        days = days_since_level(level)
+        days, touch_date_str = days_since_level(level)
         if days is None:
             touch_parts.append(f"{level} (n/a)")
         else:
-            touch_parts.append(f"{level} ({days}d)")
+            marker = mof_marker(touch_date_str)
+            touch_parts.append(f"{level} ({days}d, {marker})")
     line2 = f"  {color} Days since touch: " + " | ".join(touch_parts)
     print(line2)
 
