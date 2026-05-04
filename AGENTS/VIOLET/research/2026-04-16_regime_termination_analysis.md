@@ -20,7 +20,7 @@
 
 | # | Start | End | Duration | Peak SKEW | Status |
 |--:|:------|:----|:--------:|----------:|:-------|
-| 12 | 2025-06-16 | 2026-04-16 | 210 td | 161.9 | **ONGOING** |
+| 12 | 2025-06-16 | 2026-05-04 | 212 td | 161.9 | **ONGOING** |
 | 11 | 2024-08-21 | 2025-03-27 | 150 td | 183.1 | ended |
 | 5 | 2021-05-11 | 2021-10-11 | 107 td | 170.6 | ended |
 | 9 | 2024-01-24 | 2024-04-23 | 63 td | 170.5 | ended |
@@ -126,10 +126,10 @@ What happened to VIX in the 30 trading days after the regime ended?
 
 ## Finding 4: Current Regime in Context
 
-**Duration:** 210 td (ongoing)
-**SKEW at latest:** 139.2
-**20d avg at latest:** 144.7
-**Final 5d slope:** 1.8
+**Duration:** 212 td (ongoing)
+**SKEW at latest:** 141.4
+**20d avg at latest:** 144.9
+**Final 5d slope:** 0.6
 **Intermediate VIX event:** 31.05 on 2026-03-27 (regime persisted through it)
 
 **Trajectory comparison (final 5d slope):**
@@ -141,7 +141,7 @@ What happened to VIX in the 30 trading days after the regime ended?
 | R9 | 63 td | -3.5 | VIX 19.23 (POST_EVENT_PERSIST) |
 | R1 | 60 td | -3.5 | VIX 36.07 (PRE_EVENT_FADE) |
 | R6 | 59 td | -2.6 | VIX 36.45 (GRADUAL_FADE) |
-| **Current** | **210 td** | **+1.8** | **TBD** |
+| **Current** | **212 td** | **+0.6** | **TBD** |
 
 ---
 
@@ -153,24 +153,11 @@ What happened to VIX in the 30 trading days after the regime ended?
 - 5 (45%) — regime OUTLASTED VIX event (POST_EVENT_PERSIST)
 - 2 (18%) — no significant VIX event (GRADUAL_FADE)
 
-**Duration matters — long regimes lean PRE_EVENT_FADE:**
-- Regimes >= 55 td (n=7): 3 PRE_EVENT_FADE, 2 POST_EVENT_PERSIST, 2 GRADUAL_FADE
-- Regimes < 55 td (n=4): 1 PRE_EVENT_FADE, 3 POST_EVENT_PERSIST
-- The two longest completed regimes (R11: 150 td, R5: 107 td) were both PRE_EVENT_FADE
-
-**Our closest analog (R11, 150 td):** regime ended Mar 27, 2025. VIX peaked at **52.33 just 8 trading days later.** The regime's collapse was a precursor to the largest VIX event in the dataset.
-
-**But our regime is NOT in its terminal phase.** Every terminated regime had a negative final-5d slope (-1.3 to -3.5). Our current slope is **+1.8** — the 20d average is still rising (144.7, well above 140). The one-day raw SKEW dip to 139.2 has not turned the smoothed indicator.
-
 **For the VIX May 19 25C position:**
 
-Two scenarios, both supportive:
-1. **If the regime is intact** (most likely — 20d avg still rising, within-cycle 6/6 bounce rate): position well-supported by the persistent crash-protection bid.
-2. **If the regime IS ending** (20d avg turns negative and crosses 140): the R11 analog says the VIX event may come 1-8 weeks AFTER the regime collapses. The position could be even MORE timely — May 19 expiry would catch a post-regime VIX spike.
-
-**Either way, the position is supported.** Regime intact = thesis intact. Regime ending = VIX event may be imminent. The one scenario that hurts is GRADUAL_FADE (18% base rate) — regime ends with no VIX event at all.
+The dominant pattern is that regimes **persist through** VIX events and collapse afterward. If our regime is still intact (which the within-cycle bounce pattern suggests), the position remains well-supported.
 
 ---
 
-*Generated 2026-04-16 12:22 by VIOLET `scripts/regime_termination.py`*
+*Generated 2026-05-03 21:08 by VIOLET `scripts/regime_termination.py`*
 *Data: yfinance + vix_historical.csv + VX_DAILY.tsv*

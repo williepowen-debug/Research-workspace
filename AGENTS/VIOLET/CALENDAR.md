@@ -11,11 +11,11 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 | Month | Expiration Date | Notes |
 |-------|-----------------|-------|
 | Apr 2026 | Apr 15 | EXPIRED |
-| May 2026 | May 20 | FOMC May 6-7 — vol event risk |
-| Jun 2026 | Jun 17 | Quarterly expiration — high volume. **60d window expiry checkpoint** |
-| Jul 2026 | Jul 15 | — |
+| May 2026 | May 20 | **🔴 VIX May 19 25C expires day before (May 19) — open position** |
+| Jun 2026 | Jun 17 | Quarterly expiration — high volume. **60d window expiry checkpoint** (FOMC + SEP same date) |
+| Jul 2026 | Jul 15 | FOMC Jul 29-30 same week | 
 | Aug 2026 | Aug 19 | — |
-| Sep 2026 | Sep 16 | Quarterly expiration |
+| Sep 2026 | Sep 16 | Quarterly expiration (FOMC + SEP same date) |
 
 **Pin risk:** VIX tends to drift toward strikes with high open interest near expiration.
 
@@ -25,8 +25,8 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 
 | Date | Meeting | VIX Watch |
 |------|---------|-----------|
-| Apr 29-30, 2026 | FOMC | Rate decision + Powell presser |
-| Jun 17-18, 2026 | FOMC + SEP | Quarterly — dot plot |
+| ~~Apr 28-29, 2026~~ | FOMC | **DONE — Held 3.50-3.75%, 4 dissents (most since Oct 1992). Hawkish-leaning forward language. VIX did NOT spike (16.99 May 3).** |
+| Jun 16-17, 2026 | FOMC + SEP | **First post-Apr-dissent dot plot — 60d window expiry checkpoint** |
 | Jul 29-30, 2026 | FOMC | — |
 | Sep 16-17, 2026 | FOMC + SEP | Quarterly — critical |
 
@@ -51,15 +51,15 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 
 | Date | Event | VIX Implication | VIOLET Checkpoint |
 |------|-------|-----------------|-------------------|
-| ~~Apr 15~~ | ~~VIX expiration~~ | PASSED | — |
-| Apr 16 | OZK earnings | Regional bank vol | — |
-| Apr 21 | WAL earnings | Regional bank vol | — |
-| Apr 23-24 | BOJ meeting | Carry unwind risk (yen analog) | — |
-| **Apr 29-30** | **FOMC** | **Rate vol. C/P OI 8.36 (Apr 17) — down from 9.01 Apr 16** | **🔴 SKEW Scenario A/B early read** |
-| May 1 | US payrolls | Macro vol | — |
-| May 6-7 | FOMC (no presser) | Vol event risk | — |
-| ~May 15-27 | — | — | **Central-case VIX peak window (median timing)** |
-| **Jun 15** | — | — | **🔴 60d window expiry — full scenario resolution** |
+| ~~Apr 22~~ | ~~SKEW>145 FADE_RERAMP gate~~ | **❌ FAILED — never breached** | — |
+| ~~Apr 28~~ | ~~BOJ~~ | **DONE — hawkish hold + 3 dissents, VIX absorbed** | — |
+| ~~Apr 28-29~~ | ~~FOMC~~ | **DONE — 4-dissent hawkish hold, VIX absorbed** | — |
+| ~~May 1~~ | ~~BOJ Rate Decision~~ | per boot, was IMMINENT — outcome to verify | — |
+| ~~May 1~~ | ~~NFP April~~ | per boot, released — outcome to verify | — |
+| **May 13** | — | 30d post-fire central VIX ~25 target | **🟠 Trade-thesis early read** |
+| **May 19** | **VIX 25C expires** | — | **🔴 OPEN POSITION expiry — close/roll/let-run decision needed before** |
+| May 16 | OPEX (May monthly) | — | — |
+| **Jun 12-15** | **60d post-fire window close** | — | **🔴 Full scenario resolution. Coincides with Jun 16-17 FOMC + SEP.** |
 
 ---
 

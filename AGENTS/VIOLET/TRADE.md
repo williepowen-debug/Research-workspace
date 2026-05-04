@@ -14,12 +14,15 @@ VIX-linked positions and trade framework.
 | Direction | Long |
 | Entry Date | 2026-04-16 |
 | Strike | 25 |
-| Expiry | 2026-05-19 (33 DTE at entry) |
-| Thesis | SKEW divergence (94% hit rate, 156.9 peak → high-severity cohort). Central case VIX 25-30 within 60d. |
-| Target | VIX 25-30 (ITM at 25+). Optimal window May 15-27. |
-| Stop / Invalidation | SKEW <140 sustained + VIX <20 through May 7 (peaceful resolution); 60d window expires Jun 15 without VIX ≥22; HY OAS tightens below 2.60. **Note (KB-VIO-041):** "sustained" = key word. One-day break is not invalidation. But our d+3 Δ -17.7 is unprecedented for high-fire episodes. Watch SKEW through Apr 22 for bounce. |
-| Reinforcement (add) | Second divergence fire before May 13; CCC OAS >10.0; VIX3M/VIX <1.05; **SKEW rebounds >145 by Apr 22 (FADE_RERAMP confirmation)** |
-| Status | **OPEN — monitoring SKEW trajectory** |
+| Expiry | 2026-05-19 (16 DTE as of May 3) |
+| Original Thesis | SKEW divergence (94% hit rate, 156.9 peak → high-severity cohort). Central case VIX 25-30 within 60d. |
+| **Current Thesis (May 3)** | **Trade-level invalidated under strict rule (Apr 23-28 4-td <140 hit). Position now lottery on May 13-19 tail catalyst (CPI / geopolitical / credit crack). HOLD = cheap optionality on tail; expected outcome is expiring worthless or near-worthless (~80%+).** |
+| Status | **OPEN — HOLD decision (Will, May 3 boot session)** |
+| Updated probabilities (KB-VIO-052) | 55% VIX <22 / 25% VIX 22-25 / 12% VIX 25-30 / 6% VIX 30-40 / 2% VIX 40+ |
+| Original target | VIX 25-30 (ITM at 25+). Optimal window May 15-27. |
+| Original stop | SKEW <140 sustained 4+ td → **HIT Apr 23-28** |
+| Rationale for HOLD despite invalidation | (1) Premium is sunk; (2) convexity asymmetric — small upside in spot VIX → outsized return on 25C; (3) marginal cost of carry to expiration is lower than prospective gain on tail print; (4) May 13 CPI is real catalyst risk; (5) regime itself still intact (slope +0.6) — durability could break either way. |
+| What would change to a CLOSE | (a) 20d-slope refreshes positive (regime locks in); (b) CCC OAS continues to compress below 9.00; (c) VIX prints below 16 with VIX3M/VIX >1.20 — would indicate true complacency floor. |
 
 ---
 
@@ -133,6 +136,7 @@ VIX-linked positions and trade framework.
 | Date | Instrument | Action | Size | Entry | Exit | P&L | Notes |
 |------|------------|--------|------|-------|------|-----|-------|
 | 2026-04-16 | VIX May 19 25C | BUY | — | — | — | — | SKEW divergence trade. 33 DTE. Central case VIX 25-30. |
+| 2026-05-03 | VIX May 19 25C | HOLD | — | — | — | — | Trade-thesis invalidated (4-td rule hit Apr 23-28); HOLD per Will = cheap optionality on May 13 CPI / May 19 expiry tail. |
 
 ---
 
@@ -161,4 +165,4 @@ When to add VIX hedges:
 ---
 
 *Created: 2026-04-12*
-*Last Updated: 2026-04-16*
+*Last Updated: 2026-05-03 (HOLD decision recorded; trade-thesis invalidated under strict rule, position now tail-lottery on May 13 CPI / May 19 expiry mechanics)*
