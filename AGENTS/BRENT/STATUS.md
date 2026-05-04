@@ -102,7 +102,7 @@
 | US production response | 🔴 1 | Oil rigs 408 = essentially unchanged; non-response confirmed (BRT-04 95%) |
 | Demand destruction (Path B) | 🟡 2 | 0/3 triggers; gasoline +1.2% YoY 4-wk; jet fuel −4.6% (closest); COT bullish |
 | Storage (global) | 🟠 4 | Crude −6.2M, Cushing −796K, distillate 11% below 5-yr (no fresh EIA) |
-| Tanker/shipping | 🟠 3 | **MIXED:** STNG +0.65%, DHT −1.27% on Brent +5% day. Likely owner war-risk overhang (capacity strands even as rates rip). |
+| Tanker/shipping | 🟠 3 | **Dirty-tanker sector soft** (DHT −1.14%, INSW −0.39%, TNK −0.25%, FRO +0.46%) + **BWET freight-futures ETF −0.86%** on Brent +5% day — confirms war-risk overhang (hulls won't broadly transit; equity can't capture rates). STNG (clean product) +0.42% — separate refining dynamic. |
 | Refining bottleneck | 🟠 3 | ~5.1M bpd product-side offline; util 89.6% |
 | Energy credit | 🟡 2 | HY OAS 2.85% nearing 3.00 (LIQUID primary, fresh pull pending) |
 | OPEC+ policy | 🟠 3 | **UAE quit OPEC+; symbolic 188K bpd hike May 3** (first mtg without UAE) |
@@ -166,7 +166,7 @@ Baseline (pre-Apr-17): ~1 damage incident every 1.6 days.
 2. 🔴 **P&I resumption monitor** — definitively NOT resuming after May 4. Watch war-risk premium prints (proxy) or Lloyd's circulars. Direct read needs Bloomberg or specialty insurance terminal.
 3. 🔴 **NEW: UAE territorial strike monitor** — Fujairah (May 4) was first strike since April 8 ceasefire. Watch follow-on strikes (Jebel Ali, Khor Fakkan, ADNOC inland infra) — bypass-route security is the next domino. Refer to HAWK for kinetic-side monitoring.
 4. 🟠 **WTI–Brent spread divergence** (−$6.43 → −$8.46) — driver: US-flagged-only escort = US relative supply security; Mideast crude flow contested. Diagnostic confirmed by today's events.
-5. 🟠 **Tanker pattern divergence** — STNG +0.65% (product tanker firm) vs DHT −1.27% (VLCC softening) on a Brent +5% day. Likely owner war-risk overhang: rates may rip but hulls won't transit broadly under fire, so equity can't capture the spike. Needs sector check (TNK, FRO, INSW) to confirm vs idiosyncratic.
+5. 🟠 **Tanker pattern — sector check CONFIRMED war-risk overhang** (May 4 ~14:45 ET). Dirty-tanker peer group all soft to flat (DHT −1.14%, INSW −0.39%, TNK −0.25%, FRO +0.46%) + **BWET freight-futures ETF −0.86%** on Brent +5% day. Coherent sector pattern, not DHT-idiosyncratic. **Implication:** squeeze thesis intact, but tanker equities are the wrong instrument in this regime — hulls strand, owners refuse transit, war-risk insurance unaffordable, equity can't capture forward rates. Efficient expressions: Brent/WTI futures, USO, E&P (XLE) for crude leg; STNG (+0.42%) for refining-products leg. **VLCC pure-plays (DHT, EURN) inefficient until P&I resumes / commercial transit safe.**
 6. 🟡 **Iran 14-pt proposal review** — Iran received US response May 3, "examining carefully." Today's UAE strikes likely render diplomatic track largely symbolic.
 7. **Dated Brent Apr 15+ Platts** — STILL load-bearing. Needs Bloomberg/Argus/Platts terminal — not solvable via public web.
 8. **Apr 28 + May 5 COT NYMEX** — boot.py can't extract via WebFetch (CFTC.gov page structure). NYMEX figure pending. ICE WTI Europe Apr 28 [CONF]: net SHORT −37,833 (less short vs Apr 21 −40,971).
