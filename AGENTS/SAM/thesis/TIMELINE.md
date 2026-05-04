@@ -285,43 +285,6 @@ This document maps our forward-looking expectations — what's coming, what we t
 
 ---
 
-## MAY 2026
-
-### Early May — POST-HIKE CARRY UNWIND
-- **Our view:** If BOJ hikes (April or May), the carry unwind unfolds over days to weeks. CFTC shorts at -93,742 need to cover (52% of July 2024 peak, up from 38% two weeks ago — fuel load growing). Aug 2024 precedent: unwind took hours. Positioning more extreme than a week ago but still below peak, so unwind may be fast but not Aug-2024 violent.
-- **Expected USD/JPY path:** 155 → 152 → 148 over 2-4 weeks post-hike. Faster if intervention coincides.
-- **FXY:** Target zone $60-62 begins to come into range.
-
-### Mid-May — ESR DISCLOSURES BEGIN
-- **Event:** FY2025 (ended Mar 31) financials start being released. First ESR disclosures under full mark-to-market regime.
-- **Our view:** This is when the market sees the damage. JGB 30Y went from ~2.5% to ~3.7% during FY2025. The unrealized losses will be staggering. Meiji Yasuda's non-disclosure of ESR is a red flag — if they're forced to show a number near 180%, it could trigger an industry-wide reassessment.
-- **What we expect:** At least one Big 4 insurer shows ESR below 200% (danger zone). Market finally prices the repatriation risk properly.
-- **Signal to LIQUID:** ESR disclosures are the confirmation signal for the stress-case repatriation scenario.
-
-### Late May — JAPAN APRIL CPI
-- **Event:** April CPI print released (reflects oil shock + SK refiner disruption + early BOJ hike impact).
-- **Our view:** Upward surprise likely. SK refiner cuts → Asia-Pacific product shortage → Japan energy/product prices higher. Oil-in-yen structural dynamic feeds through. Cabinet Office model (10% crude increase → +0.3pp CPI) understates impact given Brent surged 60%+ in March.
-- **Why it matters:** Confirms BOJ path is locked. If they've already hiked, this validates. If they haven't, it forces their hand at the June meeting.
-
----
-
-## JUNE 2026
-
-### Jun — SATO JOINS BOJ BOARD (Hawk-to-Dove swap)
-- **Event:** Sato replaces Nakagawa on BOJ board. Hawk → dove swap. Takaichi's second board appointment.
-- **Our view:** April/May hike math is unchanged (Asada replaced Noguchi, dove-for-dove). But Sato joining shifts the balance for hikes BEYOND 0.75-1.00%. Medium-term political risk turns YELLOW. Two more hawk terms expire 2027. Takaichi is methodically building a dovish majority.
-- **Implication:** The 0.75% hike window is NOW. If BOJ doesn't move by May, the board composition starts working against further normalization. This adds urgency to the April/May timeline.
-
-### Jun — TAKAICHI-UEDA COLLISION WINDOW OPENS
-- **Our view:** If BOJ hiked in April/May, mortgage repricing data starts showing up. Household consumption weakens (already -0.2% in Feb before any hike impact). Takaichi escalation path: Katayama pressure → Diet questioning → BOJ Law revision threats.
-- **D2 probability:** 32-40% that this collision leads to YCC return by Q3-Q4 2026.
-
-### Jun — BOJ MEETING (BACKSTOP DATE)
-- **Event:** If BOJ hasn't hiked by June, this is the backstop per ex-chief economist Kameda.
-- **Our view:** If we get here without a hike, something changed (oil shock worse than expected, geopolitical deterioration, global recession). Reassess thesis.
-
----
-
 ## Q3 2026 (OUTLOOK — v1.3)
 
 ### Expected state by end of June:
@@ -370,7 +333,7 @@ These are the moments where our expected path could fork:
 | **May 1** | CFTC JPY release | Cover starts | Shorts keep building | PENDING |
 | **May 14** | Q1 GDP prelim | Growth | Contraction → EWJ trigger | PENDING |
 | **Mid-May** | ESR disclosures | Stress visible → repatriation accelerates | Manageable → base case holds | PENDING (ELEVATED importance) |
-| **~May 20** | April trade balance | Surplus | Deficit → Phase 1 fires | PENDING (Brent $111 makes hot) |
+| **~May 20** | April trade balance | Surplus | Deficit → Phase 1 fires | PENDING (Brent $107.85; depends on May 4 escort response) |
 | **Late May** | April CPI | Upward surprise → BOJ locked | Tame → less urgency | PENDING |
 | **Mid-June** | **BOJ meeting (BASE CASE HIKE)** | Hike to 1.00% → structural move | Delay → H2 timeline | PENDING (SAM-21 70%; market 74%) |
 | **June** | Sato joins board | n/a | Dovish majority forming | PENDING |
