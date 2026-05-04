@@ -1,47 +1,33 @@
 # CARL SCRATCH
-**Last session:** 2026-05-04 ~01:30 UTC (PM6)
-**Type:** Grocery squeeze thread Light Mechanical Refresh — supply-side mechanism confirmed at primary-survey level
+**Last session:** 2026-05-04 ~02:00 UTC (PM7)
+**Type:** Workbook hardening pass — VX P1 (Status canonicalization + Delegated_To split + tombstone drops) + KB→VX dangle cleanup + SCHEMA Option A (Vectors-col formal multi-level expansion) + P4 (VX dedup) + closeout (CHANGELOG/ROADMAP/STATUS/SCRATCH)
 
 **PRIORITY-1:** **AAA pump Mon May 4 refresh — first weekday post-Brent-pullback.** Brent -5.12% Friday May 2 close ($108.17) should transmit to pump softening Mon-Wed at 3-4d lag (KB-CARL-259 acute-regime). Two scenarios: (a) softening confirmed → CRL-08 timing widens beyond Tue May 5; (b) Brent re-fires → breach Tue/Wed, 2-week sustainability clock starts. Plus: HY OAS still stale 23d — needs alternative fetch path (FRED + 4 secondaries blocked PM4).
 
 ---
 
-## WHAT HAPPENED (PM6 work — grocery squeeze refresh)
+## WHAT HAPPENED (PM7 work — workbook hardening)
 
-1. **Will introduced new theme question:** rising grocery prices via farm bankruptcies + fertilizer trouble. Asked what we already have.
-2. **KB inventory scan** surfaced existing thread: KB-076/080/110 fertilizer chain; KB-101 Russia AN; KB-120/121 USDA Plantings; KB-251 farm bankruptcies +46% YoY; VX-CARL-FOOD-01/02; CRL-10. Conclusion: significant coverage exists but stale 36+ days.
-3. **Plan-mode pre-execution** with Will. Two paths offered (Light vs Heavy). Will chose Light + 2 small additions: (a) prior-price anchor for fertilizer, (b) Mar CPI Food at Home pull-forward test.
-4. **Open Qs answered:** wheat/corn/soy only; try CPI this session; binary news scan for Russia/Gulf.
-5. **Fetches (4 of 9 captured, ~45% success):**
-   - ✅ Wheat $624.50 +23.18% YTD; Corn $468.25 +6.36% YTD; Soy $1,187.75 +15.26% YTD (tradingeconomics May 3)
-   - ✅ Urea $585/T May 1 (-14.91% MoM, +24.40% YoY) — triangulated $475 baseline → $690s peak → $585 May 1
-   - ✅ **AFBF Farm Bureau Fertilizer Survey Apr 14 (5,700+ farmers Apr 3-11)** — primary-source, BIG: 70% can't afford full fertilizer; urea +47% Feb→Mar peak (largest monthly recorded); ~60% worsening finances; pre-booking Midwest 67% / NE 30% / W 31% / S 19%
-   - ✅ Food CPI 2.7% Mar 2026 (DECEL from Feb 3.1%) — pull-forward DISPROVEN; lag intact
-   - ❌ USDA Crop Progress / WASDE (page-only / timeout)
-   - ❌ DAP / NH3 specific (DTN/AgWeb 403/404)
-   - ❌ US Drought Monitor (data tables blocked)
-   - ❌ Russia AN / Gulf fertilizer news scan (all sources blocked — leave SUSPENDED ⚠️UNVERIFIED)
-   - ❌ BLS Food at Home decomposition (cpi.t02.htm 403 — defer to May 13 Apr CPI release)
-6. **Pull-forward test disposition (per Will Q2):** Mar Food CPI 2.7% DECELERATED from Feb 3.1% — therefore NO pull-forward; CRL-10 timeline holds with original Q4 2026 timeframe. Supply-side mechanism stronger than prior modeling (AFBF 70%-can't-afford finding) but consumer transmission still on lag.
-7. **Synthesis: supply-side mechanism FULLY LOADED.** (a) Input shock peaked late Mar, partially retracing; (b) 70% behavioral can't-afford = under-application + crop mix shift; (c) plantings LOCKED for 2026/27 (wheat 107-yr low, corn -3.5%); (d) 2026/27 harvest output reduced from BOTH acres-down AND yield-per-acre-down; (e) wheat futures +23% YTD = market pricing 6-9mo forward tightness; (f) realized food CPI 2.7% Mar = transmission window Q3-Q4 2026 / Q1 2027 still intact.
-8. **KB additions (3, Python append, schema-clean 15-col):**
-   - KB-CARL-275: AFBF Survey Apr 14 (5,700 farmers, 70% can't afford, urea +47% peak)
-   - KB-CARL-276: Fert/grain May 3 refresh (urea $585, wheat futures +23% YTD, triangulated price path)
-   - KB-CARL-277: Mar Food CPI 2.7% lag confirmation
-9. **VX updates (3 in place):** FOOD-01 (urea $585 + behavioral note), FOOD-02 (transmission lag confirmed Q3-Q4), AG-01 (AFBF forward signal note).
-10. **STATUS edits:** +3 new rows (AFBF Survey, CBOT Wheat Futures, Food CPI Headline); +4 row refreshes (Urea cash $585, Russia AN ⚠️UNVERIFIED, Wheat/Corn "locked in"); 239→242 lines.
-11. **CRL-10 disposition:** holds 70% confidence; timeline Q4 2026 INTACT; supply-side evidence strengthened (AFBF survey was not in original modeling).
-12. **Commit + push pending.**
+1. **Will requested VX.tsv audit** — produced 9-issue audit (schema, status enum overload, ID convention bifurcation, 23-row staleness, 10 PENDING orphans, 3 dups, V13 convergence-matrix coverage gap, threshold/status mismatch, 6 ID oddballs).
+2. **Plan-mode P1 approval:** mirror KB Item #2a fix on VX. Added Delegated_To col (11→12); migrated 9 DELEGATED-TO-HOMER rows to threshold-color Status + Delegated_To=HOMER (per band-match + WORKBOOK DISCIPLINE [FLAG] for ambiguous 6.08 categorical + 2.02 range top); normalized 3 RED-BREACHED→RED + 1 YELLOW-borderline→YELLOW; updated 3 KB rows (KB-055/060/059) to remove tombstone refs BEFORE dropping 3 CONSOLIDATED VX tombstones (1.06/6.01/ABS-15) per discipline.
+3. **Dangle cleanup byproduct:** post-P1 verify surfaced 5 pre-existing KB→VX dangles from PM4/PM5 sessions. Verified-by-reading-target before each rewrite. KB-271 RETAIL→6.10, KB-272 MORTG-RATE→HSG-01, KB-273 CB-EXPECT→SENT-02; KB-272 MBA-PURCH + KB-274 FOMC-RATE-PROXY blanked (no VX target exists).
+4. **Will requested explanation of off-spec vs canonical refs.** Surfaced that 95 of 118 "off-spec" entries (Vector_N + CRL-NN) are doing real semantic work at thesis-vector + prediction levels respectively that pure VX-IDs can't replace. 3-level abstraction explained. Will chose **Option A — formalize multi-level system in SCHEMA**.
+5. **SCHEMA.tsv expansion:** Vectors col `allowed_values` now formally recognizes `VX-{AGT}-NN, Vector_N, CRL-NN, FLOW-{AGT}-N.NN, {SUBAGT}-PNN, BRT-NN, →AGENT or empty`. Description expanded with KB-NNN restriction (DerivedFrom only).
+6. **Truly-broken ref fixes (9 entries across 7 KB rows):** KB-031 (`STATE_DIFFUSION.tsv` filename dropped), KB-232/233/234 (5× `VX→AGENT` typos → `→AGENT`), KB-264/268 (KB-CARL-253 moved Vectors→DerivedFrom), KB-271 (`K-SHAPE` redundant tag dropped).
+7. **P4 verification + execution:** verified-by-reading both dup pairs. Pair 1 (BNPL Late Rate) confirmed true dup — dropped 1.03 (stale orphan, 0 KB refs). Pair 2 (Medical) verification revealed NOT a clean dup — different metrics ($88-140B range w/ phantom debt vs $88B narrow CFPB) disagreeing on Status. Per WORKBOOK DISCIPLINE rule, chose Will-approved Option A: rename to expose distinction + cross-ref Notes. MED-01 → "Medical Collections (CFPB narrow)"; 1.08 → "Medical Debt Total (incl. phantom estimate)".
+8. **Commit + push:** 3b47901f fast-forward clean. BRENT (3 changes incl. inbox-move) + SAM (1 change) concurrent uncommitted work untouched. Origin had not moved during session; no rebase needed.
+9. **Closeout pass (this session cont.):** CHANGELOG PM7 entry + ROADMAP RECENTLY RESOLVED PM7 entry + ROADMAP timestamp + STATUS timestamp + this SCRATCH rewrite. Pending: closeout commit.
 
 ## STATUS CHANGES
 | Item | Change |
 |------|--------|
-| `workbook/KB.tsv` | 271 → 274 (+KB-275 AFBF / +KB-276 Fert+Grain / +KB-277 Food CPI lag) |
-| `workbook/VX.tsv` | 3 in-place: FOOD-01 ($585 + AFBF behavioral), FOOD-02 (lag confirmed), AG-01 (forward signal) |
-| `STATUS.md` | +3 new rows, +4 refreshes; 239 → 242 lines |
-| Vector #5 / #8 / #12 | Reinforced via grocery squeeze thread — supply-side fully loaded, transmission pending |
-| CRL-10 | Holds 70%; timeline INTACT; supply-side stronger than modeled |
-| Russia AN | Status unverified post-Mar 24 — flag ⚠️ |
+| `workbook/VX.tsv` | 120 → 116 rows; 11 → 12 cols (added Delegated_To); 9 status-enum off-spec → canonical; 3 tombstones removed; 1 dup dropped; 2 medical rows renamed |
+| `workbook/KB.tsv` | 273 rows unchanged; 16 Vectors-col edits across 14 unique rows (3 P1 ref-rewrites + 4 dangle rewrites + 7 Option A truly-broken fixes); 2 rows moved KB-NNN refs Vectors→DerivedFrom |
+| `workbook/SCHEMA.tsv` | Vectors col `allowed_values` formalized to multi-level ref system; description expanded |
+| `ROADMAP.md` | +2 backlog adds (MBA Apps VX vector decision; CARL Status enum hardening); PM7 RECENTLY RESOLVED entry; timestamp |
+| `thesis/CHANGELOG.md` | +PM7 entry (structural workbook work) |
+| `STATUS.md` | timestamp bump only (signal data unchanged) |
+| **Final integrity** | 0 col-count anomalies / 0 dangling KB→VX / 0 off-spec Vectors-col entries / Status enum {RED 42, ORANGE 36, GREEN 15, YELLOW 14, PENDING 10} / Delegated_To {empty 107, HOMER 9} |
 
 ---
 
@@ -49,7 +35,7 @@
 
 ### IMMEDIATE (this session / 24hrs)
 1. **AAA pump Mon May 4 refresh** — first weekday post-Brent-pullback; CRL-08 timing.
-2. **HY OAS refresh** — alternative fetch path (FRED API, abs_monitor.py, Yahoo HYG ETF proxy).
+2. **HY OAS refresh** — alternative fetch path (FRED API key, abs_monitor.py, Yahoo HYG ETF proxy, ICE BofA via Bloomberg-proxy).
 3. **Brent close monitoring Mon May 4** — peace-proposal repricing hold or Hormuz re-fire?
 
 ### UPCOMING (this week)
@@ -60,7 +46,7 @@
 8. **May 8** — BLS Apr NFP (V16 first realized print).
 
 ### UPCOMING (next 2 weeks)
-9. **May 13** — BLS Apr CPI — first full Iran-shock + tariff month; **NEW: extract Food at Home decomposition** (deferred from PM6).
+9. **May 13** — BLS Apr CPI — first full Iran-shock + tariff month; **Food at Home decomposition** extract (deferred from PM6).
 10. **~May 18** — Klarna Q1 (PHAN).
 11. **~Mid-May** — NY Fed Q1 HHDC — **CRL-05 test**.
 12. **May 28** — BEA GDP Q1 second estimate (CRL-18) + AFT/MOHELA conference.
@@ -71,29 +57,34 @@
 ### v2.5.1 HARDENING (8 PENDING_VERIFY items)
 14-22. UMich triangulation / Foreclosure 2019 baseline / Path C COF/SYF counterfactual / Crying-wolf X-thresholds / **Brier audit (now n=2 direction-right/magnitude-low pattern: CRL-01 + CRL-19)** / CONTAINMENT prior calibration / COF/SYF candor puzzle / Trade Duration roll plan / RED-CARL interface.
 
+### Workbook hardening (PM7 byproduct)
+23. **P2 — legacy ID retirement** (VX-CARL-1.01 vs CC-01 collision; broader 1.NN/6.NN ID convention sunset) — backlog item.
+24. **MBA Apps VX vector decision** — KB-272 covers but no VX vector tracks. Create VX-CARL-MBA-APPS or accept informational-only.
+25. **VX Status enum hardening (Item #5 sibling)** — VX schema not formal in SCHEMA.tsv; pairs with Item #3 validator promotion.
+26. **Workbook hardening Item #3** (validator promotion) — `/tmp/audit_kb.py` → `workbook/tools/validate.py`; now feasible to add ref integrity check + VX schema check + dynamic enum from SCHEMA.
+27. **Sub-agent workbook standardization** — POP KB.tsv decision (Item #2d follow-up; HOMER-style 12-col schema?).
+28. **STUE/CLAUDE.md stale `VX-CARL-1.06: CONSOLIDATED` line** — flagged for Will, sub-agent doc edit.
+
 ### Grocery squeeze backlog (PM6 byproduct)
-23. **DAP / NH3 / UAN specific prices** — find DTN/AgWeb-alternative fetch path; or use World Bank Pink Sheet monthly.
-24. **USDA Crop Progress weekly extraction** — Cornell library blocked, NASS page-only; need PDF / CSV fetch path.
-25. **US Drought Monitor data extraction** — droughtmonitor.unl.edu data tables blocked.
-26. **Russia AN + Gulf fertilizer news scan** — Reuters/Bloomberg/Argus all blocked; need alternate intel path.
-27. **BLS Food at Home decomposition** — defer to May 13 Apr CPI release.
-28. **Heavy grocery squeeze session** — cattle/hogs/eggs/milk + grocery retail margins (WMT/KR/ACI) + ag labor (ICE/H-2A) + tariff-on-food + Farm Credit System DQ + land values.
+29. **DAP / NH3 / UAN specific prices** — find DTN/AgWeb-alternative fetch path; or use World Bank Pink Sheet monthly.
+30. **USDA Crop Progress weekly extraction** — Cornell library blocked, NASS page-only; need PDF / CSV fetch path.
+31. **US Drought Monitor data extraction** — droughtmonitor.unl.edu data tables blocked.
+32. **Russia AN + Gulf fertilizer news scan** — Reuters/Bloomberg/Argus all blocked; need alternate intel path.
+33. **BLS Food at Home decomposition** — defer to May 13 Apr CPI release.
+34. **Heavy grocery squeeze session** — cattle/hogs/eggs/milk + grocery retail margins (WMT/KR/ACI) + ag labor (ICE/H-2A) + tariff-on-food + Farm Credit System DQ + land values.
 
 ### BACKLOG (no deadline)
-29. HY OAS refresh path.
-30. VX-CARL-FOMC-RATE vector (deferred per Will — STATUS-only).
-31. Workbook hardening Item #3 (validator promotion).
-32. Sub-agent workbook standardization (POP KB.tsv).
-33. Workbook hardening Item #6 (root INDEX.md).
-34. Supply-event sub-vector class.
-35. Orphan-Claim Audit Byproduct.
-36. LABOR/GIG spawn for FL UI Wave 2.
-37. HOMER spawn for Case-Shiller Feb sub-market detail.
-38. Workbook content refresh — VX consumer / FLOW / STATE_DIFFUSION / BNPL_STRESS (16-17d).
-39. ABS_BASELINE refresh — March 10-Ds (17d).
-40. POLLY refresh — 24d stale.
-41. MARCO refresh ask.
-42. 6 outbox signals from Apr 17 (deferred per messaging-overhaul).
+35. HY OAS refresh path.
+36. Workbook hardening Item #6 (root INDEX.md).
+37. Supply-event sub-vector class.
+38. Orphan-Claim Audit Byproduct.
+39. LABOR/GIG spawn for FL UI Wave 2.
+40. HOMER spawn for Case-Shiller Feb sub-market detail.
+41. Workbook content refresh — VX consumer / FLOW / STATE_DIFFUSION / BNPL_STRESS (17-18d).
+42. ABS_BASELINE refresh — March 10-Ds (18d).
+43. POLLY refresh — 25d stale.
+44. MARCO refresh ask.
+45. 6 outbox signals from Apr 17 (deferred per messaging-overhaul).
 
 ---
 
@@ -119,25 +110,25 @@
 
 ---
 
-## WORKBOOK HEALTH (post May 4 PM6 refresh)
+## WORKBOOK HEALTH (post May 4 PM7 hardening)
 | TSV | Rows | Cols | Last Modified | Note |
 |-----|------|------|---------------|------|
-| KB | **274** | 15 | **May 4 PM6** | +KB-CARL-275 (AFBF survey) + KB-CARL-276 (Fert/grain refresh) + KB-CARL-277 (Mar Food CPI lag); 0 dangling KB→VX refs preserved; 0 enum / hygiene / col-count violations |
-| VX | 121 | 11 | **May 4 PM6** | 3 in-place updates: FOOD-01 ($585 + AFBF behavioral), FOOD-02 (lag confirmed), AG-01 (forward signal) |
-| SCHEMA | 15 | 7 | May 2 PM | Unchanged |
+| KB | 273 | 15 | **May 4 PM7** | 16 Vectors-col edits across 14 unique rows; 2 KB-NNN refs moved Vectors→DerivedFrom. 0 dangling KB→VX, all 521 refs SCHEMA-recognized. |
+| VX | **116** | **12** | **May 4 PM7** | Was 120×11. +Delegated_To col; 9 DELEGATED migrations; 3 RED-BREACHED→RED; 1 YELLOW-borderline→YELLOW; 3 tombstones dropped; 1 dup dropped; 2 medical renamed. Status enum clean {RED 42 / ORANGE 36 / GREEN 15 / YELLOW 14 / PENDING 10}. |
+| SCHEMA | 15 | 7 | **May 4 PM7** | Vectors-col allowed_values formalized to multi-level ref system. |
 | PREDICTIONS | 24 | 10 | May 3 PM4 | Unchanged this session |
 | THESIS.md | — | — | May 3 AM | Unchanged this session |
-| CHANGELOG.md | — | — | May 3 PM4 | Unchanged this session |
-| ROADMAP.md | — | — | **May 4 PM6** | PM6 RECENTLY RESOLVED entry + timestamp |
-| STATUS.md | — | — | **May 4 PM6** | 242 lines (was 239); +3 new rows + 4 refreshes |
+| CHANGELOG.md | — | — | **May 4 PM7** | +PM7 entry |
+| ROADMAP.md | — | — | **May 4 PM7** | PM7 RECENTLY RESOLVED entry + 2 backlog adds + timestamp |
+| STATUS.md | — | — | **May 4 PM7** | timestamp bump only (signal data unchanged) |
 | HOMER/KB | 65 | 12 | May 2 PM3 | Unchanged |
-| FLOW | 24 | 9 | Apr 17 | 17d — refresh due |
-| STATE_DIFFUSION | 62 | 12 | Apr 17 | 17d |
-| BNPL_STRESS | 59 | 13 | Apr 17 | 17d |
-| ABS_BASELINE | 72 | 12 | Apr 16 | 18d |
-| TRENDS | 39 | 7 | Apr 6 | 28d |
+| FLOW | 24 | 9 | Apr 17 | 18d — refresh due |
+| STATE_DIFFUSION | 62 | 12 | Apr 17 | 18d |
+| BNPL_STRESS | 59 | 13 | Apr 17 | 18d |
+| ABS_BASELINE | 72 | 12 | Apr 16 | 19d |
+| TRENDS | 39 | 7 | Apr 6 | 29d |
 
-**BOARD_LOG:** synced 0 gap (verified PM2 boot, unchanged through PM6).
+**BOARD_LOG:** synced 0 gap (verified PM2 boot, unchanged through PM7).
 
 ---
 
@@ -149,7 +140,6 @@
 
 ## SESSION FINDINGS WORTH CARRYING (informational, not urgent)
 
-- **CRL-10 supply-side STRONGER than modeled** — AFBF 70%-can't-afford behavioral signal not in original modeling; Q4 2026 timeline INTACT.
-- **Brier calibration n=2 pattern** — CRL-01 + CRL-19 both direction-right/magnitude-low; v2.5.1 hardening item #5 should examine systematic-over-magnitude question.
-- **Vector #12 framing shift** — locked-passive → locked + hawkish-leaning (FOMC Apr 28-29 4-dissent pattern).
-- **Wheat futures +23% YTD** = market pricing locked-in 2026/27 supply tightness 6-9mo ahead.
+- **Multi-level ref system formalized** — KB Vectors col now legitimately holds VX-IDs (specific measurement) + Vector_N (thesis mechanism) + CRL-NN (prediction) + FLOW-IDs (transmission) + →AGENT (cross-agent). Future Brier audits + thesis reviews + prediction-resolution queries can run cleanly.
+- **WORKBOOK DISCIPLINE rule validated again** — Pair 2 Medical "obvious dup" was NOT a dup; verify-by-reading caught the band-disagreement that pattern-matching missed. Same lesson as Item #2d.
+- **CARL/STUE doc drift** — STUE/CLAUDE.md still references VX-CARL-1.06 (now-dropped tombstone). Sub-agent doc — flagged not edited per Critical Rule #2.

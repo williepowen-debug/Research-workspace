@@ -8,6 +8,60 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-05-03 PM7 — Workbook hardening: VX P1 + KB ref integrity + SCHEMA Option A + VX dedup P4
+
+### Structural workbook work — 4 files touched, 1 commit (3b47901f)
+**Author:** CARL (Will-driven session, post-PM6 grocery squeeze refresh)
+**Trigger:** Will request to audit VX.tsv current status. Audit surfaced 9 distinct issues; Will approved P1 (Status canonicalization + Delegated_To split + tombstone drops), then dangle cleanup, then Option A SCHEMA expansion, then P4 (dup consolidation).
+
+**P1 — VX Status enum canonicalization + Delegated_To split (replicates KB Item #2a precedent):**
+- Added `Delegated_To` column to VX.tsv (11→12 cols, matches KB schema enum: STUE/HOMER/GIG/PHAN/POLLY/POP/DOC or empty)
+- Migrated 9 `DELEGATED TO HOMER` rows: split Status overload — assigned proper threshold-color (per band-match + WORKBOOK DISCIPLINE rule for ambiguous cases) + Delegated_To=HOMER. Threshold-color assignments: 2.01 GREEN (approaching Yellow), 2.02 GREEN [FLAG range value], 6.04 ORANGE, 6.05 ORANGE, 6.07 ORANGE, 6.08 ORANGE [FLAG categorical], MF-02 ORANGE, NAR-01 RED, HSG-02 RED.
+- Normalized 3 RED-BREACHED → RED (1.04 Subprime Auto, SENT-01 UMich, MACRO-08 ISM Prices Paid) — preserved "BREACHED" in Notes.
+- Normalized 1 YELLOW-borderline → YELLOW (MACRO-01 GDP 2.0%) with [FLAG] for May 28 second-est revision risk.
+- Dropped 3 CONSOLIDATED tombstones (1.06 Student Loan Conditional, 6.01 CC 90+ NY Fed, ABS-15 Subprime Auto) — but FIRST updated 3 KB rows that referenced them (KB-055/060: 6.01→1.01; KB-059: dropped redundant ABS-15) per discipline.
+- Result: 120→117 rows, Status enum clean (RED/ORANGE/YELLOW/GREEN/PENDING only).
+
+**Dangle cleanup — KB→VX integrity pass:**
+- Post-P1 verification surfaced 5 pre-existing dangling KB→VX refs (PM4/PM5 sessions wrote refs that didn't match canonical IDs). Verified-by-reading-target before each rewrite.
+- KB-271 `VX-CARL-RETAIL` → `VX-CARL-6.10` (Retail Control Group, verified match)
+- KB-272 `VX-CARL-MORTG-RATE` → `VX-CARL-HSG-01` (30-Yr Mortgage, verified match)
+- KB-272 `VX-CARL-MBA-PURCH` → blanked (no MBA VX vector exists; backlog item)
+- KB-273 `VX-CARL-CB-EXPECT` → `VX-CARL-SENT-02` (CB Expectations, verified match)
+- KB-274 `VX-CARL-FOMC-RATE-PROXY` → blanked (FOMC vector deferred per ROADMAP)
+- Result: 0 dangling KB→VX refs.
+
+**Option A — SCHEMA Vectors-col formal expansion:**
+- Audit surfaced 52 KB rows with 118 "off-spec" Vectors-col entries — 95 of which (Vector_N + CRL-NN) were semantically valid but unrecognized by SCHEMA enum. Pure mechanical replacement (Option B: Vector_N → VX-CARL-XXX anchors) would have lost thesis-vector + prediction-ref granularity.
+- SCHEMA.tsv Vectors col `allowed_values` formally expanded to: `VX-{AGT}-NN, Vector_N, CRL-NN, FLOW-{AGT}-N.NN, {SUBAGT}-PNN, BRT-NN, →AGENT, or empty`. Description expanded to explain each ref type's purpose + KB-NNN restriction (DerivedFrom only).
+- Then fixed only the 9 truly-broken refs: KB-031 (`STATE_DIFFUSION.tsv` filename dropped), KB-232/233/234 (5× `VX→AGENT` typos → `→AGENT`), KB-264/268 (KB-CARL-253 moved Vectors→DerivedFrom), KB-271 (`K-SHAPE` redundant tag dropped).
+- Result: 521 refs all SCHEMA-recognized, 0 off-spec.
+
+**P4 — VX dup consolidation:**
+- Pair 1 (BNPL Late Rate): VX-CARL-1.03 (Mar 27, LendingTree, 0 KB refs, stale orphan) confirmed true dup of VX-CARL-BNPL-01 (Apr 17, Richmond Fed, 8 KB refs hooked in). Dropped 1.03.
+- Pair 2 (Medical): Verification revealed VX-CARL-1.08 ($88-140B range incl. phantom debt) and VX-CARL-MED-01 ($88B narrow CFPB-reported point) measure subtly DIFFERENT things — disagreed on Status (YELLOW vs GREEN) because of band-cross from upper of range. Per WORKBOOK DISCIPLINE rule "if you can't write one threshold that meaningfully measures all bundled rows, they don't belong in one vector" — chose Will-approved Option A: rename to expose distinction. MED-01 → "Medical Collections (CFPB narrow)"; 1.08 → "Medical Debt Total (incl. phantom estimate)". Cross-reference Notes added to both.
+- Result: 117→116 rows.
+
+**Final integrity (cumulative):**
+- VX: 116 rows × 12 cols, 0 col-count anomalies, Status enum {RED 42 / ORANGE 36 / GREEN 15 / YELLOW 14 / PENDING 10}, Delegated_To {empty 107 / HOMER 9}.
+- KB: 273 rows unchanged, 0 dangling KB→VX, all 521 Vectors-col refs SCHEMA-recognized.
+- SCHEMA: Vectors-col allowed_values formalized to multi-level ref system.
+
+**Files touched:**
+- `workbook/VX.tsv` (P1 schema expand + 9 migrations + 3 normalizations + 3 tombstones + 1 P4 drop + 2 P4 renames)
+- `workbook/KB.tsv` (3 P1 ref-rewrites + 4 dangle rewrites + 7 Option A truly-broken fixes)
+- `workbook/SCHEMA.tsv` (Vectors col allowed_values + description expanded)
+- `ROADMAP.md` (+2 backlog adds: MBA Apps VX vector decision; CARL Status enum hardening sibling to Item #5)
+
+**Backlog adds (ROADMAP investigations backlog):**
+- MBA Apps VX vector decision — KB-272 covers MBA Composite/Purchase/Refi but no VX vector tracks them. Decision needed: create VX-CARL-MBA-APPS or accept informational-only.
+- CARL Status enum hardening — VX schema not formal in SCHEMA.tsv (only KB schema is). Item #5 was demoted because col-bleed was artifactual, but Status enum + threshold-direction would benefit from formal definition. Pairs with Item #3 validator promotion.
+
+**Open finding:**
+- STUE/CLAUDE.md still has stale `VX-CARL-1.06: CONSOLIDATED — use SL vectors below` line. Sub-agent doc — flagged for Will rather than edited per Critical Rule #2 (subagents own their files).
+
+---
+
 ## 2026-05-03 PM3 — CRL-19 RESOLVED (direction-correct/magnitude-light)
 
 ### PREDICTIONS: CRL-19 OPEN → MIXED
