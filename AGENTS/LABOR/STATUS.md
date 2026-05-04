@@ -227,6 +227,34 @@
 
 ---
 
+## NEXT SESSION PICKUP
+
+**Read this first if booting fresh:** STATUS was rewritten May 4 after a 24-day gap. The current state is bifurcated — soft data crashing, hard data + staffing canaries countering. NFP April (Fri May 8) is the referee. Until then, hold predictions/convergence as PROVISIONAL.
+
+**Catalyst sequence next 4 trading days:**
+1. **Tue May 5:** JOLTS March + ISM Services April employment. JOLTS hires below 4.85M = continues Hotel California. ISM Services employment <45 = next leg down.
+2. **Wed May 6:** ADP April final + State Employment March (FL April). ADP <100K confirms Hotel California; ADP >150K erodes thesis.
+3. **Thu May 7:** Challenger April. Watch Microsoft 8.75K + Meta 8K cluster — should drive >150K announced.
+4. **Fri May 8:** **NFP April + U-3 + Claims w/e May 2.** This is the referee. Decision tree in BOTTOM LINE.
+
+**KELYA decision:**
+- Stock $9.69 May 4 (stop trigger session 1 of 3)
+- TRIM 25% rule already fired per TRADE.md Section 2 canon (KFRC +20% with raised guidance)
+- Recommended path: hold full to NFP May 8, then act
+- Check session count each trading day: if KELYA closes >$9.50 sessions 2 and 3 → forced exit per stop rule, regardless of NFP
+
+**Decisions deferred for next session:**
+- Whether to write outbox signals to CARL/REGINALD on healthcare cracking (LAB-13) and staffing-bottom counter-signal
+- Workbook update (VX.tsv, KB.tsv, FLOW.tsv, PREDICTIONS.tsv all stale vs new STATUS)
+- Inbox processing — 6 unprocessed signals as of May 4 (separate spawn task per protocol)
+- Formal convergence rescore + LAB-01/02/14 prediction resolution → all blocked on NFP May 8
+
+**Stale-but-not-blocking:**
+- Sister-agent STATUS files for HENRY (Apr 17), MARCO (Apr 23), FORGE (Mar 25) — verify before re-deriving cross-domain context
+- KELYA Q1 earnings date — couldn't find explicit calendar; check before NFP
+
+---
+
 ## BOTTOM LINE
 
 The labor market is **bifurcated**. Hard data (claims at 1969 low, continuing claims at 2-yr low, staffing canaries RHI+KFRC bottoming) says Hotel California intact and improving. Soft data (ISM Services Employment 45.2, Microsoft 8.75K voluntary retirement first ever, healthcare cracking, WARN doubled to 169K) says structural deterioration accelerating. FL Wave 2 (Apr 26) failed to produce a visible claims pulse — either DHS suppression continues despite May 1 shutdown end, OR workers exhausted off rolls (CC at 2-yr low + 25.7-wk duration argues exhaustion). NFP April (May 8) is the referee. KELYA position at stop trigger — KFRC +20% on Q1 confirmation of staffing bottom is direct disconfirmation; thesis at risk pending NFP.
