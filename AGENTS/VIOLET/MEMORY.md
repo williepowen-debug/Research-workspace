@@ -238,6 +238,39 @@ Curated long-term insights on VIX, volatility regimes, and credit-vol transmissi
 
 ## SESSION NOTES
 
+### 2026-05-03 — Boot wakeup after 16-day VIOLET dark
+
+- VIOLET last updated Apr 17 EOD; Will called for boot Sun May 3 evening. 16 calendar days of drift covered.
+- **Live state (May 3, 20:59 ET):** VIX **16.99** (-0.49 vs Apr 17 17.48), VIX3M 20.37, VVIX 95.17, SKEW **141.38**, VIX3M/VIX **1.1989** (deeper contango than 1.1745 Apr 17). Surface markets very calm.
+- **Apr 22 FADE_RERAMP gate ❌ FAILED** — SKEW never cleared 145 in the interval. Hugged 140-141 the whole time.
+- **Hawkish-hold absorption:** Apr 28 BOJ (3 dissents) and Apr 28-29 FOMC (4 dissents — most since Oct 1992, per CARL KB-274) — both hawkish-leaning, **and VIX did not spike on either.** Strong counter-thesis evidence: vol surface is impervious to hawkish surprises in this regime.
+- **GRADUAL_FADE realised** — of the four KB-VIO-044 post-fire paths, the ONLY one that hurts the trade has materialised. SKEW slow-fading, no vol event, contango deepening. The 18%-base-rate path.
+- **Position danger:** VIX May 19 25C — 16 DTE on Sat May 3, VIX 8pts below strike. Theta bleeding. FORGE STATUS is stale (Mar 25) so MTM unknown from VIOLET-side. **Trade decision needed now: close, roll out (Jun 17 / Jul 15), or let-run-and-die.**
+- **Counter-balance:** SKEW elevated regime itself still intact (>140 since Jun 2025, now ~221+ td, still longest in 19yr). The Apr 13 fire is one trade within the macro context — losing this trade does NOT invalidate the broader thesis. Need fresh 20d-slope read (was +1.8 Apr 16 → all terminated regimes had negative slopes, so slope sign is the cleanest termination indicator).
+- **Files updated:** STATUS.md (full refresh — header, dashboard, convergence, drift assessment, regime, queue, thesis), CALENDAR.md (FOMC done, fixed forward-catalyst dates), MEMORY.md (this note), LAST_COMPLETION.md.
+- **Files NOT updated this session:** TRADE.md (needs MTM check + roll/close framing), KB.tsv (no new entry yet — would log the Apr 22 gate failure once 20d slope is refreshed), thesis (stable v3.1).
+- **Outbox status:** SIG-VIOLET-LIQUID-20260415-hy-oas-trigger-monitor still queued — overtaken by events; HY OAS data is now stale our side too (Apr 16). Re-evaluate before sending.
+
+**Current posture:** 🟡 WATCH (downgraded from 🟠). Convergence 3/25 → 2/25. FADE_RERAMP gate failed; strict invalidation hit; regime intact; position HOLD as tail lottery.
+
+**Will-approved post-mortem completed same session (May 3 evening):**
+- Position decision: **HOLD** (Will). 25C now lottery on May 13 CPI / May 19 expiry tail catalyst.
+- 20d-slope refresh: **+1.8 (Apr 16) → +0.6 (May 3).** Decelerating but not terminating. Closest comparable terminations had slopes -2.0 to -3.5.
+- FRED refresh: HY 2.86 → 2.83 (-3bps), CCC 9.21 → 9.09 (-12bps), IG flat 0.81. Credit compressing further despite hawkish FOMC.
+- VX_DAILY backfill revealed strict 4-td invalidation HIT Apr 23-28 (low 138.16 on Apr 28 / FOMC day) followed by REBOUND_AFTER_INVALIDATION post-FOMC to 143.33 by Apr 30. Emergent fifth pattern; breaks KB-VIO-042 100%-in-1-3-td rule.
+- Updated scenario distribution (KB-VIO-052): 55% VIX <22 / 25% VIX 22-25 / 12% VIX 25-30 / 6% VIX 30-40 / 2% VIX 40+ — materially lower-vol-skewed than Apr 16 distribution.
+- KB entries: KB-VIO-049 (gate failure), 050 (strict invalidation + rebound), 051 (slope refresh), 052 (updated scenarios), 053 (credit compression).
+- Research file: `research/2026-05-03_apr22_gate_postmortem.md` — Will-approved.
+
+**Calibration takeaways for future divergence trades (from post-mortem):**
+1. The "long-regime advantage" cuts both ways — long regimes lean PRE_EVENT_FADE per KB-VIO-044 but also have more capacity to absorb catalysts without breaking. Episode-17 fired in the longest regime in history, and that durability has muted vol response.
+2. Credit compression alone tells you the cluster-analog tail won't fire. The Phase 2 analog (KB-VIO-039) requires credit compressed AND external catalyst. 2026 has the credit setup but no external catalyst, and credit is moving the wrong way (further compression).
+3. The strict 4-td invalidation rule held but the regime didn't end. Use the rule for trade-level invalidation, separate it from regime-level read. KB-VIO-042 within-cycle bounce rule (100% in 1-3 td) needs amendment for very-long regimes.
+
+**Next session first action:** May 13 CPI watch + weekly slope refresh.
+
+---
+
 ### 2026-04-17 — EOD refresh + STATUS prune + positioning-data plan
 
 - EOD close refresh: VIX 17.48, VVIX 94.63, SKEW held 140.74 full session (bounce off 139.23 sustained). Within-cycle 140-floor bounce pattern now 7/7 (100%). Term structure deepened further (VIX3M/VIX 1.1745). FADE_RERAMP path dominant; Apr 22 SKEW >145 is the confirmation gate.
@@ -279,4 +312,4 @@ Curated long-term insights on VIX, volatility regimes, and credit-vol transmissi
 ---
 
 *Created: 2026-04-12*
-*Last Updated: 2026-04-17 (EOD refresh, STATUS prune 175→96, KB 045-048, positioning-data plan drafted)*
+*Last Updated: 2026-05-03 (boot wakeup after 16-day VIOLET dark — Apr 22 gate failure + post-FOMC/BOJ vol absorption captured. Position decision pending.)*
