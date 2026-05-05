@@ -1,106 +1,86 @@
 # PROME HANDOFF
-**Date:** 2026-04-18 17:05 ET
-**Status:** ✅ Complete — File migration finished
+**Date:** 2026-05-05 14:53 ET
+**Status:** ✅ Complete — Session ended by user (context clear)
 
 ---
 
 ## Session Summary
 
-**Work completed:** Repository cleanup — Prome files migrated to scoped directories
+**Work completed:**
+- **BOND agent revived** — full refresh after 40-day staleness
+- **Treasury auction data script built** — `FORGE/tools/auction-data/fetch_auctions.py` v1.1
+  - Pulls live auction data from Treasury FiscalData API
+  - Dashboard, security history, comparison modes
+  - Classifies auction strength (🟢/🟡/🔴)
+- **BOND STATUS.md updated** — convergence score 23/35 → 17/35
+  - HY OAS: 319 → 278bps (tightened, opposite of thesis)
+  - 5Y auction BTC: 2.29 (Mar 25, worst in 4yr) → 2.33 (Apr 27) — improved
+  - Corporate issuance: $1,013.9B YTD (+28.2% YoY) — strong
+  - Dealer net Treasuries: ~$550B (+37% YoY) — expanded
+  - HEADLINES block added for meta-layer consumption
+- **Git synced** — pulled WALTER updates (6 commits: cluster taxonomy, BOARD INDEX rewrite, SIGNAL_FORMAT_SPEC)
+- **Sub-agent reliability tested** — 1 of 3 completed (dealer data). Direct tools faster for time-sensitive pulls.
 
-### Files Moved
+### Key Findings
 
-| File | Old Location | New Location |
-|------|--------------|--------------|
-| **HEARTBEAT.md** | `/workspace/HEARTBEAT.md` | `PROME/state/HEARTBEAT.md` |
-| **MEMORY.md** | `/workspace/MEMORY.md` | `PROME/state/MEMORY.md` |
-| **SOUL.md** | `/workspace/SOUL.md` | `PROME/identity/SOUL.md` |
-| **USER.md** | `/workspace/USER.md` | `PROME/identity/USER.md` |
-| **IDENTITY.md** | `/workspace/IDENTITY.md` | `PROME/identity/IDENTITY.md` |
+| Topic | Finding |
+|-------|---------|
+| BOND thesis | Weakened since Mar 26 — no 🔴 vectors, all 🟡 |
+| Auction stress | Real in March (5Y BTC 2.29), eased since (2.33-2.57) |
+| HY issuance | Strong, not freezing — opposite of Mar thesis |
+| Dealer capacity | Expanding (+37%), not constrained — eSLR working |
+| Sub-agents | Unreliable (33% success) — direct tools or scripts preferred |
 
-### References Updated
+### Files Changed
 
-| File | Changes |
-|------|---------|
-| `PROME/BOOT.md` | Updated injection paths, doc ownership table, memory lifecycle, git protocol |
-| `AGENTS.md` | Added identity/state file location notes |
-| `PROME/identity/IDENTITY.md` | Updated pointer to `PROME/identity/SOUL.md` |
+| File | Change |
+|------|--------|
+| `AGENTS/BOND/STATUS.md` | Full refresh + HEADLINES block |
+| `FORGE/tools/auction-data/fetch_auctions.py` | New script v1.1 |
+| `FORGE/tools/auction-data/README.md` | Documentation |
+| `AGENTS/BOND/TASK_REFRESH_2026-05-05.md` | Task spec (temp) |
+| `AGENTS/BOND/dealer_refresh.md` | Sub-agent output |
+| `PROME/HANDOFF.md` | This file |
 
-### Directory Structure
+### Architecture Decisions (from prior session, preserved)
 
-```
-PROME/
-├── identity/          # Who Prome is
-│   ├── SOUL.md
-│   ├── USER.md
-│   └── IDENTITY.md
-├── state/             # Operational state
-│   ├── HEARTBEAT.md
-│   └── MEMORY.md
-├── BOOT.md            # (already existed, canonical)
-├── HANDOFF.md         # This file
-├── SCRATCH.md
-├── TODAY.md
-├── STATUS.md
-├── POSITIONS.md
-├── PREDICTIONS_MONITOR.md
-├── TOSCANINI/
-└── ...
-```
+- **NEXUS + TOSCANINI split** — Consultant (cross-domain Q&A) + Director (spawn queue)
+- **Domain agents fully siloed** — no cross-agent routing, write HEADLINES to shared stream
+- **HEARTBEAT.md abandoned** — ground truth lives in agent STATUS files
 
 ---
 
 ## Current State (Ground Truth)
 
-**Date:** Saturday, April 18, 2026 — 5:05 PM ET
-**Scenario:** D dominant (82%)
-**War Day:** 45
+**Date:** Tuesday, May 5, 2026 — 2:53 PM ET
+**Scenario:** D dominant (82%) per last HEARTBEAT (stale since Apr 12)
+**War Day:** ~66 (ceasefire failed, Hormuz contested, Project Freedom launched May 4, Brent $110-114)
 
-### System State
-- All Prome files migrated and references updated
-- Git commits pending (see below)
-- Boot sequence verified: `PROME/BOOT.md` already canonical, no root BOOT.md conflict
+### Portfolio (from memory)
+- APO: ~$130.52 (Day 1 of 3 above $130 trigger)
+- KRE: ~$69.82 (Jun puts bleeding theta)
+- FXY: 8 shares flat
+- Account: ~$45.2K (down from $55.7K peak)
 
-### Unchanged (System-Wide)
-These files remain at root and were NOT touched:
-- `AGENTS.md`
-- `AGENTS_DIRECTORY.md`
-- `CLAUDE.md`
-- `COP.md`
-- `README.md`
-- `LICENSE`
-- `TOOLS.md`
-- `CALENDAR.md`
-- `LESSONS.md`
+### Pending Decisions
+1. **APO** — cut or hold? Below $113 stop. OBDC 10-Q drops May 6 (tomorrow)
+2. **KRE** — roll Jun→Sep/Dec? Waiting for red day to sell
+3. **KRE Jun expiry** — 6 weeks, theta accelerating
 
----
-
-## Git Commit Notes
-
-**Files to stage:**
-```bash
-git add PROME/state/HEARTBEAT.md PROME/state/MEMORY.md \
-        PROME/identity/SOUL.md PROME/identity/USER.md PROME/identity/IDENTITY.md \
-        PROME/BOOT.md PROME/HANDOFF.md AGENTS.md
-```
-
-**Deleted (root level):**
-- `HEARTBEAT.md`
-- `MEMORY.md`
-- `SOUL.md`
-- `USER.md`
-- `IDENTITY.md`
+### Agent Freshness
+- BOND: ✅ Just refreshed (May 5)
+- WALTER: ✅ Active (6 commits today)
+- SAM: ✅ Reviewed earlier today (thesis intact)
+- CARL: ✅ Reviewed earlier (healthy, 58/60 convergence)
+- Others: Unknown — need TOSCANINI stale-agent sweep
 
 ---
 
-## For Next Claude Session
+## For Next Session
 
-**Boot sequence is unchanged** — `PROME/BOOT.md` remains the entry point.
+**Priority:**
+1. OBDC 10-Q analysis (May 6) — APO decision
+2. NEXUS/TOSCANINI build (architecture)
+3. KRE roll timing
 
-The system prompt injection paths will need updating on the OpenClaw side to reference:
-- `PROME/identity/SOUL.md` instead of `SOUL.md`
-- `PROME/identity/USER.md` instead of `USER.md`
-- `PROME/state/HEARTBEAT.md` instead of `HEARTBEAT.md`
-- `PROME/state/MEMORY.md` instead of `MEMORY.md`
-
-**Ready for Will to pull and verify.**
+**Boot sequence unchanged** — `PROME/BOOT.md` remains entry point.

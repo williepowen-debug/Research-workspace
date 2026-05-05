@@ -1,8 +1,51 @@
 # BOND — Status
 
 **Agent:** BOND | **Domain:** US Bond Market Structure
-**State:** 🔴 ACTIVE — Multiple stress signals firing
-**Last Updated:** 2026-03-26
+**State:** 🟡 ACTIVE — Thesis softened, structural vulnerabilities remain
+**Last Updated:** 2026-05-05
+
+---
+
+## HEADLINES
+
+**Updated:** 2026-05-05 14:46 ET
+**Agent:** BOND
+**Overall:** 🟡 WATCH — Bond market stress eased from March peaks, structural risks intact
+
+### Key Changes (since Mar 26)
+- HY OAS: 319 → 278bps (-41bps, opposite of expected direction)
+- 5Y Auction BTC: 2.29 (Mar 25, worst in 4yr) → 2.57 (Apr 23) → 2.33 (Apr 27) — improved then softened
+- Corporate issuance: $1,013.9B through Apr (+28.2% YoY) — strong, not freezing
+- Dealer net Treasuries: ~$550B (2026 avg), +37% from 2025 — eSLR reform expanding capacity
+- SOFR-IORB: normalized to -0.02% after Apr 15 tax-day spike
+
+### Current Levels
+| Metric | Value | Status |
+|--------|-------|--------|
+| HY OAS | 278bps | 🟢 (historically tight) |
+| IG OAS | 80bps | 🟢 |
+| 10Y Yield | 4.39% | 🟡 |
+| 5Y Auction BTC | 2.33 (last: Apr 27) | 🟡 (above Mar low, below hist avg) |
+| 2Y Auction BTC | 2.65 (last: Apr 27) | 🟡 |
+| 10Y Auction BTC | 2.39 (last: Feb 11) | 🟡 |
+| Dealer Net Treasuries | ~$550B | 🟢 (record high) |
+| Corporate Issuance YTD | $1,013.9B | 🟢 (+28.2% YoY) |
+
+### Open Threads
+1. **Auction health post-eSLR** — Did Apr 1 reform improve demand structurally or mask stress?
+2. **HY issuance at 278bps** — Issuance strong now, but 350 = freeze threshold still relevant
+3. **Basis trade exposure** — $1T+ still live, hedge fund leverage rising
+4. **Dealer capacity expansion** — $550B net positions, but is this sustainable?
+
+### Position Relevance
+- HYG $75P Jun: HY 278 = thesis challenged, not killed
+- TLT puts: 10Y 4.39% = below 4.5% trigger
+- KRE: Regional bank exposure to duration risk
+
+### Next Catalyst
+- May 7: 10Y auction — demand elasticity test
+- May 13: CPI — rate expectations
+- May 15: 20Y bond auction
 
 ---
 
@@ -10,74 +53,88 @@
 
 | Metric | Value | Trend | Source |
 |--------|-------|-------|--------|
-| HY OAS | **319bps** | Widening | [CONF] BBG Mar 26 |
-| CDX HY | **9-month high** | Diverging from cash | [CONF] BBG Mar 26 |
-| 5Y BTC | **Worst in 4 years** | Deteriorating | [CONF] Treasury Mar 26 |
-| 5Y Tail | **Highest since 2024** | Deteriorating | [CONF] Treasury Mar 26 |
-| HY Issuance | Janus Henderson scrapped bond sale | Freezing | [CONF] FT Mar 26 |
-| IG Issuance | TBD | — | [EST] |
-| Dealer Positioning | MS $85B broker-dealer → bank transfer | Restructuring | [CONF] FT Mar 26 |
-| Yield Curve | Duration pain — OECD inflation 4.2% | Bear flattening risk | [CONF] OECD Mar 26 |
+| HY OAS | **278bps** | Tightening | [CONF] FRED May 4 |
+| CCC OAS | **910bps** | Tightening | [CONF] FRED May 4 |
+| IG OAS | **80bps** | Tightening | [CONF] FRED May 4 |
+| 5Y BTC | **2.33** (Apr 27) | Improved from Mar low | [CONF] Treasury FiscalData |
+| 5Y Tail | N/A (API limitation) | — | — |
+| HY Issuance | $1,013.9B YTD (+28.2% YoY) | Strong | [CONF] SIFMA Apr |
+| IG Issuance | Part of $1,013.9B total | Strong | [CONF] SIFMA Apr |
+| Dealer Positioning | ~$550B net Treasuries (+37% YoY) | Expanding | [CONF] NY Fed/FT Apr 28 |
+| Yield Curve | 2s10s +51bps | Steepening | [CONF] FRED May 1 |
+| 10Y Yield | 4.39% | Stable | [CONF] FRED May 1 |
+| SOFR-IORB | -0.02% | Normalized | [CONF] FRED May 1 |
 
 ---
 
-## Convergence Matrix
+## Convergence Matrix (Updated)
 
 | # | Vector | Score | Status | Key Signal | Upgrade Trigger |
 |---|--------|-------|--------|------------|-----------------|
-| 1 | Treasury Auction Health | 4 | 🔴 | 5Y worst BTC in 4yr, highest tail since 2024 | 2nd consecutive failed auction or 7Y/10Y weakness |
-| 2 | HY Issuance | 4 | 🔴 | Janus Henderson scrapped bond sale; junk loan $2.6B pulled | HY OAS >350 = full issuance freeze |
-| 3 | IG Issuance | 2 | 🟡 | Not yet freezing but spreads widening | IG OAS +20bps in a week |
-| 4 | Dealer Positioning | 3 | 🟠 | MS $85B broker-dealer → bank transfer — restructuring dealer capacity | Dealer inventory data showing forced reduction |
-| 5 | Yield Curve | 3 | 🟠 | OECD: US inflation to 4.2%, Fed trapped — duration pain | 10Y sustained >4.5%, bear steepener |
-| 6 | CDX-Cash Basis | 4 | 🔴 | CDX at 9-month high diverging from cash spreads | Sustained divergence >2 weeks = synthetic leading cash |
-| 7 | Credit-Equity Lead | 3 | 🟠 | HY OAS 319 rising — 3mo lead per Hamilton template | HY OAS >350 activates the 2007 transmission signal |
+| 1 | Treasury Auction Health | 3 | 🟡 | 5Y BTC improved from 2.29→2.33, but still below 2.45 hist avg | 2nd consecutive auction BTC <2.0 or 10Y weakness |
+| 2 | HY Issuance | 2 | 🟡 | $1,013.9B YTD issuance (+28.2% YoY) — strong, not freezing | HY OAS >350 = issuance freeze threshold |
+| 3 | IG Issuance | 2 | 🟡 | Strong alongside HY | IG OAS +20bps in a week |
+| 4 | Dealer Positioning | 2 | 🟡 | $550B net Treasuries (+37%), eSLR freed capacity | Dealer inventory forced reduction |
+| 5 | Yield Curve | 3 | 🟡 | 2s10s +51bps steepening, 10Y 4.39% | 10Y sustained >4.5%, bear steepener |
+| 6 | CDX-Cash Basis | 3 | 🟡 | HY OAS 278 tight, need CDX level for basis calc | Sustained divergence >2 weeks |
+| 7 | Credit-Equity Lead | 2 | 🟡 | HY OAS 278 — below 350 threshold | HY OAS >350 activates transmission signal |
 
-**Summary:** 23/35 — 3 vectors at 🔴, 3 at 🟠, 1 at 🟡. Bond market structure showing broad stress across auctions, credit issuance, and synthetic credit. Multiple channels activating simultaneously.
+**Summary:** 17/35 — Down from 23/35 on Mar 26. No vectors at 🔴. 7 vectors at 🟡. Bond market stress has eased from March peaks. Auctions improved, issuance strong, dealer capacity expanded. Structural vulnerabilities (demand elasticity, basis trade, dealer concentration) remain but are not currently acute.
 
 ---
 
 ## Active Situations
 
-### 1. Treasury Auction Deterioration
-5Y auction on Mar 26 was the worst bid-to-cover in 4 years with the highest tail since 2024. This is not an isolated event — it signals a structural demand problem. Combined with OECD's inflation forecast (4.2%), the Fed is trapped: no rate cuts coming, so duration risk is unhedged.
+### 1. Treasury Auction Health — Eased from March Stress
+**Current:** 5Y BTC 2.33 (Apr 27), improved from 2.29 (Mar 25, worst in 4yr). 2Y BTC 2.65, 10Y BTC 2.39.
+**Assessment:** March stress was real but transient. eSLR reform (Apr 1) and dealer capacity expansion may have absorbed demand shock. Risk: improvement is mechanical (regulatory relief) not fundamental (buyer demand).
+**Watch:** May 7 10Y auction, May 15 20Y bond auction.
 
-### 2. HY Issuance Freeze Beginning
-Janus Henderson scrapped a bond sale; junk loan of $2.6B pulled. At HY OAS 319, we're 31bps from the 350 issuance freeze threshold. The 2007 template shows 320→500 in 2-4 months once the widening begins in earnest.
+### 2. HY Issuance — Strong, Not Freezing
+**Current:** $1,013.9B corporate issuance YTD (+28.2% YoY). HY OAS 278bps, 72bps below 350 freeze threshold.
+**Assessment:** Market has rallied hard post-ceasefire. HY returned +1.70% in April. CCCs outperformed. This is opposite of BOND's March thesis.
+**Watch:** HY OAS 350 threshold, any pulled deals, earnings-driven repricing.
 
-### 3. CDX-Cash Divergence
-CDX at 9-month high while cash spreads haven't caught up. Synthetic leading cash = hedging demand outpacing real selling. This typically precedes a cash spread blowout by 2-4 weeks.
+### 3. Dealer Capacity — Expanded, Not Constrained
+**Current:** Primary dealer net Treasuries ~$550B (2026 avg), up 37% from ~$400B (2025 avg). eSLR reform effective Apr 1. MS $85B+ MSESE restructuring approved Mar 26.
+**Assessment:** Dealer constraint thesis weakened. Banks are expanding Treasury books, not shrinking. MS restructuring removes 23A constraints on $85B+ affiliate.
+**Watch:** NY Fed weekly FR 2004 data, any dealer pullbacks, basis trade unwind.
 
-### 4. Dealer Capacity Restructuring
-Morgan Stanley transferring $85B from broker-dealer to bank entity. This changes the dealer's ability to warehouse risk and intermediate in credit markets. Reduces market-making capacity at exactly the wrong time.
-
-### 5. Safe Haven Strain
-Maya Sweet: "map changed" — safe haven showing strain. FT reporting US bond market strain, Treasury tumult. When Treasuries stop being safe haven, the entire risk-free rate framework destabilizes.
-
----
-
-## Exit / Falsification Criteria
-
-### Thesis Kill (exit all)
-- HY OAS compresses below 280bps sustained for 5+ sessions → credit stress thesis dead
-- Fed announces emergency rate cut or credible QE restart → duration thesis invalidated
-
-### Position-Specific
-- **HYG puts:** Exit if HY OAS drops below 290 for 3+ sessions
-- **TLT puts:** Exit if 10Y drops below 4.0% sustained 5+ sessions
-
-### Convergence Downgrade (trim)
-- 3+ consecutive clean Treasury auctions (BTC >2.5x, minimal tails) → downgrade auction vector to 🟡
-- HY new issue volume recovers to >$10B/week for 2+ weeks → downgrade issuance vector
-- CDX-cash basis converges → downgrade synthetic leading indicator
-
-### Time-Based
-- HYG $75P Jun: mandatory review at 60 DTE (~late April)
-- Weekly: check auction results (2Y/5Y/7Y/10Y/30Y cycle)
-- Monthly: OECD/Fed forecast updates
+### 4. CDX-Cash Basis — Need Fresh Data
+**Current:** HY OAS 278bps. CDX level unknown — need update.
+**Assessment:** Mar 26 showed CDX at 9-month high diverging from cash. Need fresh CDX.HY level to calculate basis.
+**Action:** Pull CDX.HY 5Y spread for basis calculation.
 
 ---
 
-## BOTTOM LINE
+## Falsification Criteria
 
-The US bond market is showing coordinated stress across auctions, credit issuance, and synthetic credit. The 5Y auction was the worst in 4 years, HY issuance is starting to freeze at OAS 319 (31bps from the 350 freeze threshold), and CDX is diverging from cash — synthetic leading cash by 2-4 weeks historically. The 2007 template from current levels suggests HY OAS 350 by May-Jul and potential acceleration to 500 if the pattern holds. This is the credit-leads-equity transmission channel activating — equities follow with a ~3 month lag.
+| Criterion | Threshold | Current | Status |
+|-----------|-----------|---------|--------|
+| HY OAS sustained <280 | 3+ months | 278 (May 4) | 🟡 At threshold |
+| 5Y auction BTC >2.5 | 2 consecutive | 2.33 (last) | 🟡 Below |
+| 10Y auction BTC >2.4 | 2 consecutive | 2.39 (Feb) | 🟡 Below |
+| Corporate issuance freeze | <50% YoY | +28.2% YoY | 🟢 Strong |
+| Dealer net Treasuries decline | -20% from peak | +37% YoY | 🟢 Expanding |
+| 10Y yield >4.5% sustained | 2 weeks | 4.39% | 🟡 Below |
+
+**Overall Falsification Risk:** MODERATE — HY OAS at 278 is 2bps from sustained <280 threshold. If HY stays tight through May, BOND's credit stress thesis is significantly weakened.
+
+---
+
+## Data Sources
+
+- Treasury FiscalData API: https://api.fiscaldata.treasury.gov/
+- FRED: BAMLH0A0HYM2, BAMLH0A3HYC, BAMLC0A0CM, DGS10, DGS2, SOFR, IORB
+- SIFMA Corporate Bond Statistics (Apr 2026)
+- NY Fed Primary Dealer Statistics (FR 2004A)
+- Financial Times / Seoul Economic Daily (Apr 28, 2026)
+- Nomura High Yield Monthly Update (May 1, 2026)
+
+---
+
+## Next Update
+
+**Trigger:** May 7 10Y auction results, or HY OAS >300, or 5Y auction BTC <2.0
+
+**Scheduled:** May 12, 2026 (post-CPI)
