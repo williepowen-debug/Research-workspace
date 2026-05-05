@@ -1,4 +1,4 @@
-# WALTER Signal Format Specification v0.6
+# WALTER Signal Format Specification v0.7
 
 WALTER is the single entry point for external information into the agent network. All incoming data — news, market data, research, observations — is classified, reformatted, and routed by WALTER as standardized signal files delivered to agent inboxes.
 
@@ -36,6 +36,8 @@ safety_net: clear
 
 word_count: 148
 
+cluster: PC_STRESS                    # optional v0.6 → required v0.7 (added May 5 2026 per CLUSTER_TAXONOMY.md v0.1)
+
 # Optional dispatch-time fields (added when signal is routed to recipient inboxes)
 dispatched: 2026-04-07T14:45:00Z
 dispatch_note: "Trimmed from 4-recipient plan to CARL+RED after HENRY already processed"
@@ -60,6 +62,7 @@ dispatch_note: "Trimmed from 4-recipient plan to CARL+RED after HENRY already pr
 | `resources` | int | 0 / 1 / 2 | Estimated processing resources needed. |
 | `safety_net` | enum | `clear` / `triggered` | Whether safety net override was triggered. |
 | `word_count` | int | — | Body word count. FLASH/IMMEDIATE must be ≤200. |
+| `cluster` | enum | One of the 10 names in `design/CLUSTER_TAXONOMY.md` | **v0.7 — Required for new signals dispatched 2026-05-05 and later.** Determines which `/BOARD/INDEX.md` section the dispatch row lands in. Pre-v0.7 historical signals don't have this header field — their cluster placement lives in INDEX section structure only. See CLUSTER_TAXONOMY.md for canonical bucket names + edge-case rules (cross-cluster: substance > mechanism > action-recipient). |
 | `dispatched` | ISO8601 | — | **Optional.** Added when the signal is actually dispatched to recipient inboxes (may be later than `timestamp` if drafted-then-dispatched flow is used). |
 | `dispatch_note` | string | Free text | **Optional.** Rationale if the dispatch deviated from the original plan: recipient trim, re-route, precedence downgrade, staleness caveat. Paired with `dispatched`. |
 
@@ -302,6 +305,8 @@ Deferred signals are held in `AGENTS/WALTER/queue/` and released when MINIMIZE i
 - Escalation/readdressal by receiving agents (future spec)
 
 ---
+
+*v0.7 — May 5, 2026 — Added `cluster` field to header schema (required for new signals dispatched 2026-05-05+; pre-v0.7 historical signals don't carry the field, their cluster placement lives in `/BOARD/INDEX.md` section structure only). Enum values from `design/CLUSTER_TAXONOMY.md` v0.1 (10 buckets: IRAN_HORMUZ / POSITIONING_VALUATION / BANK_COLLATERAL / CONSUMER_STAGFLATION / PC_STRESS / HYDROCARBON_INFRA / MISC / AI_INFRA_CAPEX / ASIA_CHINA / FED_FRAMEWORK). CLUSTER_TAXONOMY.md is canonical source — don't invent. Propagates to CHECKLIST v0.9 (cluster-assignment step in Phase 2) and `/BOARD/INDEX.md` cluster-section structure (Pass 2 of cluster-organization refactor).*
 
 *v0.6 — April 20, 2026 (Filter v2 Segment B) — Added Multi-Origin Signals section codifying the same-theme combine rule. `origin` field now accepts array form for multi-origin signals. Combine criteria: same canonical domain AND same underlying event or specific sub-theme AND each origin adds independent value. Pre-dispatch any-arrival-path flexibility; post-dispatch immutability preserved (no retroactive merge). Cross-author combines supported (3 of 5 historical cases). No combine ceiling. Source section in signal body is the audit trail for absorbed origins. Propagates to CHECKLIST v0.7 with new Phase 1 step.*
 *v0.5 — April 20, 2026 — Added `thesis-frame` to Signal Types enum. Covers analytical synthesis / institutional framework / comparative analysis content (e.g., MS 1990-vs-2026 oil-shock compare SIG-W-20260419-021, BRK-vs-SPY quality-flight read SIG-W-20260419-013, multi-channel convergence analyses). Distinct from `research` (new data/reports) and `pattern-match` (data pattern detection). Vocabulary gap surfaced in v1 filter review (Filter v2 Segment A). Propagates to ROUTING_TABLE v0.5 with corresponding By Signal Type row.*
