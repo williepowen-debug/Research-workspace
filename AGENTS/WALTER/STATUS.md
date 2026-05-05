@@ -27,7 +27,9 @@ Single entry point for external information into the agent network. WALTER filte
 
 ## NETWORK AWARENESS
 
-Last comprehensive registry refresh: 2026-04-13. Today's session focused on signal intake; did not re-read all STATUS files. Network state below is as of Apr 13 unless noted.
+**Canonical agent directory:** `REGISTRY.tsv` — refreshed at every boot per spawn protocol step 8 (read other agents' STATUS file headers, update Status / Updated / Focus columns). Status / Key Concern columns of the prior in-STATUS table just duplicated REGISTRY and went stale; dropped in Pass 4 of STATUS.md refactor (2026-05-05). The "today's routing + stale agents" view below regenerates each closeout from the freshly-refreshed REGISTRY.
+
+**Last registry refresh:** 2026-05-04 (Pass 4 prerequisite session — Status/Updated/Focus refreshed across 13 agents; OZK row added per CLAUDE.md spinout).
 
 ### 🚨 IRAN-WAR ANCHOR
 
@@ -37,21 +39,18 @@ Last comprehensive registry refresh: 2026-04-13. Today's session focused on sign
 
 **Iran-cluster signal framing (current):** active-war re-escalation under Project Freedom + post-ceasefire-break dynamics (NOT "post-Apr-8 ceasefire under blockade" — that framing was correct Apr 8–May 3 and is now superseded). Thesis weight HIGHER than April framing implied. See anchor file for the detail + re-verify trigger.
 
-| Agent | Status | Key Concern | WALTER Relevance |
-|-------|--------|-------------|------------------|
-| CARL | 🔴🔴 | Convergence 51/55, student loans 9.2M, FICO cascade | Primary: LABOR/MACRO_INFLATION/CONSUMER_CREDIT. Got SIG-007 (PPI), -010/-011 China (info) today |
-| REGINALD | 🔴🔴🔴 | Microstructure complete, **OZK earnings TODAY (Apr 16 Q1)**, WAL Apr 21 | Primary: BANK_CRE. Got SIG-005 (ROAD Act/K-098), -008 (DB positioning), -012 (KRE counter) today |
-| RED | 🟢→❓ | 76% confidence, **HY OAS <300 Day 5+ falsification** — **STALE 8d, REFRESH OVERDUE** | Adversarial primary. Got SIG-010/-011 China + -012 KRE counter as RED-action today |
-| SAM | 🔴 | Islamabad collapsed, blockade, USD/JPY 159.40, BOJ Apr 28 | Primary: JAPAN_BOJ. Got SIG-009 oil rig + China info today |
-| LIQUID | 🟡 | HY OAS 290, VIX 19, WFC $200B SPOF | Primary: FUNDING_LIQUIDITY. Got SIG-004 IMF GFSR action today |
-| HAWK | 🔴🔴 | Scenario D 92% — **STALE 14d, BACKUP-PROMOTED** | Backup-promoted out of OIL_ENERGY action — BRENT acting primary (per ROUTING_TABLE rule). Got SIG-009 info |
-| BRENT | 🔴🔴 | Blockade announced — **state stale: blockade now SELECTIVE (Iranian-port only); talks rumored-resuming; Brent ~$94-100 (was $98)** | Acting OIL_ENERGY primary while HAWK stale. Got SIG-009 action today |
-| BROCK | 🔴🔴🔴🔴🔴 | Stage 2→3, 13 fund gates, $10B+ trapped | Primary: PRIVATE_CREDIT. Got SIG-002 (Red Lobster 98%), -004 IMF (PC explicitly named), -006 GS Prime info |
-| HENRY | 🟡 | CPI 3.3%, VIX 19, Fed trap | Primary: MARKET_VOL. Got SIG-003 PDT, -006 HF whipsaw, -008 DB positioning today |
-| LABOR | 🟡 | FL Wave 1 suppression CONFIRMED | Domain quiet today |
-| NEXUS | 🟠 | 50/50 ceiling — **STALE 11d** | Synthesis layer |
-| PROME | — | Scenario D 82% — **STALE 5d** | Coordinator. Got SIG-010/-011 China (info) |
-| **ZHAO (Tier 2)** | **STALE 13d** | China/HK/LGFV — **awaiting Will spawn for SIG-010/-011 China material** | NEW PRIMARY for ASIA_CONTAGION + UST_FOREIGN domains (added to FORMAT_SPEC v0.4) |
+### Today's routing + stale agents (regenerated each closeout from REGISTRY)
+
+**As-of:** 2026-05-05 (Tue) — refactor sessions May 4-5; no signal dispatches since Apr 29 (5 days quiet). Last 5 BOARD entries: SIG-W-20260429-001 through -005 (Brent $115 threshold-cross / Blue Owl OCIC-OTIC reactivation / Iranian rial step-function plunge / META-MSFT advisory / ROAD Act House letter).
+
+**Today's network deltas (prior session):**
+- Active and current (≤7d): BRENT (May 4 — Project Freedom day-of, ceasefire BROKEN), CARL (May 4 — THESIS v2.5 promoted Path C ACTIVE), LABOR (May 4 — boot refresh after 24-day gap), VIOLET (May 3 — Apr 22 gate failed / regime intact post-mortem), SAM (May 3 — June hike locked / USD/JPY 157.03), REGINALD (May 1 — Wave 1 chunks 3-6 complete / Q1 CR window May 1-10), BROCK (May 1 — Stage 2 / APO breached $130 D1/3), HANS (Apr 30 — War Day 62 framing — predates May 4 ceasefire-break).
+- Borderline (8-14d): MARCO (Apr 23 — DHS day 65-68), HAWK (Apr 20 — Ceasefire Day 13 of 14 framing, predates May 4 break), RED (Apr 18 — HY OAS <300 falsification thread), HENRY (Apr 17 — complacency trap / VIX 17.76), LIQUID (Apr 16 — SOFR breached IORB).
+- STALE (>14d) — routing pressure: NEXUS (Apr 4, 31d — classification overdue 6+ active clusters), ZHAO (Apr 2, 33d — SIG-W-20260428-001 China FRED material awaiting spawn), OTTO (Apr 15, 20d), SHADE (Mar 26, 5+wk), BOND (Mar 26, 5+wk), ORACLE (Apr 1, 34d), FERT (Mar 20, 6+wk), CRUISE (Mar 20, 6+wk), ATHENA (Mar 14, 7+wk), DARWIN (Feb 18, dormant).
+
+**Backup-promotion currently active:** HAWK STALE 14d → BRENT acting OIL_ENERGY primary; HAWK frame predates May 4 ceasefire-break. HANS Tier 2 → HAWK acting GEOPOL_NON_ENERGY when needed.
+
+**Routing pressure:** Iran-cluster signal flow currently routes to BRENT (acting) + HAWK (info) + HANS (info, framing-predates-break). NEXUS classification on PC-stress / Iran day-cluster / hydrocarbon-infra / bank-collateral-compression / consumer-stagflation-stack overdue. ZHAO spawn pending for China FRED material.
 
 ---
 
