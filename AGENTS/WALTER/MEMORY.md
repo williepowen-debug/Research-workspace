@@ -26,6 +26,9 @@
 
 ## Findings
 
+- [2026-05-05] **Structural refactor pattern: sequenced passes + per-pass Will checkpoint + persisted running list.** May 4-5 STATUS.md refactor (204→110 lines / ~80k→~27.5k bytes, 7 commits) worked because: (a) **diagnostic before plan, plan before exec** — read all the boot docs, sent a 6-pattern diagnostic, then a 4-pass plan, then per-pass Will-approval; (b) **one or two file changes per pass** with explicit checkpoint (per `feedback_break_multifile_updates`); (c) **POV check mid-flight** surfaced Pass-4 prerequisite (REGISTRY refresh) Will hadn't asked for but mattered; (d) **canonical running list in `LAST_COMPLETION.md` FOLLOW-UP** survives session handoff (also pointed at from CLAUDE.md IDENTITY + boot step 3 for discoverability). Anti-pattern avoided: trying to do trim + restructure + content-rewrite in one big sweep.
+- [2026-05-05] **"verified-as-of" stamp + re-verify trigger pattern** (introduced in `anchors/IRAN_WAR.md`) — load-bearing macro state goes in a single-purpose anchor file with explicit "verified-as-of {date}" + re-verify trigger ("kinetic state-change OR every 7d OR pre-dispatch on cluster"). Beats embedding the same content in STATUS.md NETWORK AWARENESS where it goes stale invisibly. Currently a one-off; second anchor (Fed-framework / BOJ / OPEC+) would canonize it as a pattern.
+- [2026-05-05] **Regenerate-at-closeout vs snapshot-and-let-go-stale.** Pass 4 dropped the embedded NETWORK AWARENESS table (which duplicated REGISTRY.tsv on Status/Updated columns and went stale silently) and replaced it with a regenerated "today's routing + stale agents" subsection sourced from REGISTRY.tsv at each closeout. Pattern applies to any state that has a canonical source elsewhere — don't snapshot, regenerate.
 - [2026-04-11] **Trust disk over memory.** `/COP.md` existed since Apr 7 while NEXT_SESSION claimed otherwise. `ls` the file before believing handoff doc.
 - [2026-04-11] **Stale-agent flagging is highest-leverage boot output.** Agents with Status/Updated/Focus columns >5 days old should be surfaced explicitly in STATUS, not buried.
 - [2026-04-11] **`git pull --rebase --autostash`** for dirty-tree cases. Captures tracked changes only; leaves untracked files (other agents' new work) untouched.
@@ -54,49 +57,50 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (Apr 29 Wed AM — Will check-in + autonomous-news-scan, 5 dispatches + 2 verify-spawns + 0 kills, BOARD 93→98)
+### CHANGES SINCE LAST SESSION (May 4–5 Mon-Tue — Will-driven STATUS.md refactor + REGISTRY refresh + lead-paragraph rewrite, 0 BOARD dispatches, 7 commits)
 
-Mixed-mode session: dup-recognition + autonomous scan + Will-greenlit dispatch. Will checked in via Telegram (msg 1154); replied confirming. Will then sent 6-image batch (msgs 1156-1161) — all 4 articles already processed Apr 28 AM (msgs 1110-1115 → SIG-028-004/-005/-006/-007). Replied with BOARD pointers, surfaced the dup, offered re-examine. Will: "Oh you already saw all of these?" — confirmed yes, asked if there's fresh stuff. Will then asked re Baltimore CRE Zero Hedge (msg 1166) — confirmed SIG-026-009 from Apr 26 with MTB BAL-HQ KRE-angle flagged.
+Two-day continuous arc, no signal intake. Will (msg 1174 May 4 AM) pinged for boot. Critical anchor delta surfaced from BRENT/STATUS.md May 4: Apr 8 ceasefire effectively BROKEN today (Iran cruise+drone strike on UAE Fujairah, Project Freedom launched). Will requested doc-staleness audit (msg 1177); sent 6-pattern diagnostic (msg 1180); Will picked STATUS.md first.
 
-**Will then requested news scan for new signals.** Fork "ac6b40f9b8040b7f1" launched (general-purpose Sonnet, ~$0.05) with 6-cluster tight prompt + BOARD-dedupe list of last 4 days. Returned 5 candidates + 3 NULL queries. Greenlit by Will (msg 1170 "okay go ahead").
+**Refactor execution arc (4 passes + companion work):**
+- Pass 1 (`2435a385`) — STATUS.md trim: cut Apr 7 ACTIVE DESIGN narrative, Apr 10-14 UPCOMING table, 27 older SESSION LOG rows, 18 footer version-strings to new `SESSION_LOG.md`.
+- Pass 2 (`2edfb01a`) — design completeness split: created `design/STATE.md` (98 lines, NOT in boot order); replaced STATUS.md OPERATIONAL STATE table with STATE POINTERS block; added COP-paused standing flag to FILTER POSTURE.
+- POV check (msg 1193-1195) flagged 7 frictions; Will directed REGISTRY refresh first + persistent running list.
+- REGISTRY refresh + LAST_COMPLETION running list (`a3f125c6`) — 13 agents refreshed (BRENT May 4 / SAM May 3 / CARL May 4 / REGINALD May 1 / BROCK May 1 / VIOLET May 3 / LABOR May 4 / HANS Apr 30 / RED Apr 18 / HENRY Apr 17 / LIQUID Apr 16 / HAWK Apr 20 / WALTER May 4); OZK Tier 1 row ADDED (was missing per CLAUDE.md spinout); 28→29 rows. LAST_COMPLETION rewritten as canonical running list (FOLLOW-UP 23 items / OPEN DESIGN DECISIONS 6 items).
+- Pass 3 (`13ea7a79`) — anchor pulled out: new `anchors/IRAN_WAR.md` with verified-as-of 2026-05-04 + re-verify trigger; rewritten for ceasefire-BROKEN / Project Freedom / Brent $113.72 state. STATUS.md anchor block → 3-line pointer. CLAUDE.md boot step 1 + steps 5/10 updated.
+- CLAUDE.md running-list pointer (`24c3fbf4`) — added pointers in IDENTITY + boot step 3.
+- Pass 4 (`ee0b4983`) — NETWORK AWARENESS embedded table dropped; replaced with regenerated "Today's routing + stale agents" subsection (option A from 4 — Will picked msg 1204). CLAUDE.md spawn-protocol step 12 expanded to 4 sub-steps; step 13 reordered.
+- Lead-paragraph rewrite (`d06013ba`) — Apr 28 wall-of-prose → structured May 5 dashboard.
 
-**5 dispatches + 2 verify-spawns parallel:**
-1. **SIG-W-20260429-001 Brent crude $115 / 8-session streak / Jun-2022-high** IMMEDIATE → BRENT (HAWK/SAM/LIQUID/CARL/RED/NEXUS/PROME info), 0.90, THRESHOLD-CROSS. First clean spot-price-threshold cross for Iran/Hormuz cluster. IEA on-record framing potential Hormuz closure as "largest supply shock on record."
-2. **SIG-W-20260429-002 Blue Owl OCIC/OTIC redemption-cap reactivation** PRIORITY → BROCK (SHADE/REGINALD/LIQUID/RED/HENRY/NEXUS/CARL/PROME info), 0.75, **verify CORRECTED-FRAMING 0.80**. Bloomberg Apr 29 "Doomsday levels" headline reframes Apr 2-3 disclosures NOT new event. Underlying confirmed: OCIC ($36B) Q1 21.9% NAV requested, OTIC 40.7% (5% standing-prospectus cap honored each), $5.4B requested ~$1B paid, OBDC II separately suspended Feb 2026, KBRA affirmed OTIC, OWL already -9% on Apr 2-3. "Imposed gates" overstated. Real risk = forward fee-base trajectory. **PC-stress meta-cluster ≥9 nodes.**
-3. **SIG-W-20260429-003 Iranian rial record low Apr 29 IRR/USD ~1.81M (ISNA wire) +15% in 2 days** PRIORITY → HAWK (BRENT/CARL/SAM/LIQUID/RED/NEXUS/PROME/BARON info), 0.85, **verify CONFIRMED 0.85**. Prior Jan 2026 protest-spike ~1.6M, clean new ATH, step-function not drift. Quantifies economic-pressure-channel of active US blockade post-Apr-8 ceasefire (day ~60). **Iran day-cluster ≥16 channels (+ currency-stress vector).**
-4. **SIG-W-20260429-004 META + MSFT prints AMC tonight Apr 29** PRIORITY → RED (HENRY/BROCK/LIQUID/NEXUS/CARL/PROME info), 0.85, EVENT-PENDING ADVISORY. META 2026 capex guide $115-135B already raised (+72-94% YoY) Barclays models ~90% FCF drop high end. MSFT last-Q $29.88B (+89% YoY). Either guiding capex DOWN moves AI-infra complex.
-5. **SIG-W-20260429-005 ROAD Act 76 House lawmakers Apr 22 letter to strip Sec 901** ROUTINE → REGINALD (BROCK/CARL/BARON/RED/NEXUS/PROME info), 0.85. Legislative-process update on -028-004 Phoenix BTR (reduces probability Sec 901 passes); BARON political-network-mapping pickup. 76/435 not defeat; Speaker Johnson controls floor.
+**Refactor scoreboard:** STATUS.md 204 → 110 lines / ~80k → ~27.5k bytes (~65% byte cut); 3 new companion files (`SESSION_LOG.md` / `design/STATE.md` / `anchors/IRAN_WAR.md`).
 
-**Calibration finding (NEW):** autonomous news-scan fork surfaced Bloomberg Apr 29 "Doomsday" piece as if novel; verify-research caught the ~4-week-stale rehash (Apr 2-3 disclosures already priced into OWL -9%). Lesson: autonomous WALTER scans need verify-research mandatory on novelty-claim items, more than Will-image intake (which usually IS fresh). Codified in OPEN DESIGN DECISIONS for Will input.
+**Findings filed (May 5):** structural-refactor-pattern-with-checkpoints / verified-as-of stamp + re-verify trigger / regenerate-at-closeout vs snapshot.
 
-**0 kills today.** **Verify-research 48h cumulative: 15 → 17.** **No spec changes.**
+**0 BOARD dispatches across both days.** **0 kills.** **0 verify-research spawns.** **No spec changes** (refactor is structural; specs unchanged). **Push state clean** — origin = HEAD, prior Apr 26+28+29 push that had been auth-blocked went through during May 4 boot.
 
-**Will batch summary sent via Telegram (msg 1171).** **Will requested commit/push at session end (msg 1172).** **Push from Apr 26 + Apr 28 + Apr 29 still pending on auth — pending GitHub credentials refresh.**
+**Closeout shipped at Will's pause direction (msg 1210).** Total session commits: `2435a385` / `2edfb01a` / `a3f125c6` / `13ea7a79` / `24c3fbf4` / `ee0b4983` / `d06013ba` + this closeout commit.
 
 ### NEXT SESSION
 
-**TOP PRIORITY (time-sensitive):**
-1. **🔴 OWL Q1 earnings Wed Apr 30 AMC** — pairs SIG-029-002 (OCIC/OTIC reactivation) + -028-005 (Boaz Saba rejected) + -020-004 (founder $1.1B unwind) + -026-012 (Fed-PC inquiry). PC-stress meta-cluster ≥9 nodes, earnings is the catalyst. Forward fee-base trajectory is the real risk per verify.
-2. **🔴 META + MSFT prints AMC tonight Apr 29** — SIG-029-004 advisory. WALTER follow-up if either guides capex DOWN. AI-infra complex tape risk.
-3. **HAWK pickup**: identify proximate trigger of rial +15% step-function (OFAC tightening? CBI capitulation? talks fully stalling? mediation collapse?).
-4. **BRENT verify-on-pickup**: ICE futures direct tape, daily-close-vs-prior-2022-highs, term-structure backwardation depth.
-5. **Push retry** — auth still unresolved; ≥3 commits piling up.
+**TOP PRIORITY:**
+1. **End-to-end boot test** — next session boot is the first real run of the new structure. Watch: does step 1 STATUS+anchor read parse cleanly? Are all cross-references valid (design/STATE.md / anchors/IRAN_WAR.md / SESSION_LOG.md / LAST_COMPLETION.md FOLLOW-UP)? Net context-budget effect (lighter STATUS, slightly heavier CLAUDE)?
+2. **Iran-war anchor re-verify trigger** — `anchors/IRAN_WAR.md` re-verify trigger fires on visible kinetic state-change OR every 7 days minimum OR pre-dispatch on Iran-cluster signals. Verified-as-of 2026-05-04. Refresh boundary = 2026-05-11 minimum. Check at boot whether BRENT/HAWK/HANS STATUS show state-change events warranting earlier refresh.
+3. **REGISTRY HAWK row caveat** — HAWK STATUS still reflects Apr 20 framing (Ceasefire Day 13 of 14). Has not been refreshed for May 4 ceasefire-break. BRENT acting OIL_ENERGY primary per backup-promotion rule. WALTER cannot edit HAWK files directly (git isolation); refresh via Will or HAWK self-spawn.
+4. **NFP May 8** — LABOR carry-forward (LABOR May 4 boot specifically noted "Option B = update now, accept rewrite May 8 post-NFP").
+5. **OBDC Q1 May 6** — BROCK pre-built threshold reads.
+6. **Q1 Call Report window May 1-10** — REGINALD recheck; May 1 noted "no banks filed yet."
 
-**Housekeeping (deferrable):**
-6. ROAD Act House reconciliation timing (BARON pickup) — pivot determines BTR-financing-freeze persistence.
-7. OZK Q1 earnings post-mortem — REGINALD pickup still pending.
-8. Filter v2 Segment D implementation — Will picked A confidence_note Apr 20 msg 856; ~1hr.
-9. NEXUS cluster classification overdue across ≥6 active clusters.
-10. HAWK / HANS / ZHAO stale 25-35d — routing pressure mounting.
-11. RED refresh still overdue.
-12. HENRY + RED SIGNAL_INTAKE.md prompts still transcript-only.
-13. COP refresh still OFF — resume trigger?
-14. BOARD_CONSUMPTION_SPEC propagation to 14 Tier 1 CLAUDE.md files still pending.
+**Carry-forward open items (full list in `LAST_COMPLETION.md` FOLLOW-UP):**
+- Refactor: "verified-as-of" pattern is one-off (extend to second anchor — Fed-framework / BOJ / OPEC+ candidates). MEMORY.md vs LAST_COMPLETION.md duplication (Pattern D) unresolved. design/STATE.md needs maintenance discipline.
+- Cluster: NEXUS classification overdue 6+ clusters. ZHAO/HAWK/HANS/SHADE/OTTO/BOND/ORACLE/FERT/CRUISE/ATHENA staleness. OZK Q1 post-mortem REGINALD pickup pending. ROAD Act House reconciliation timing (BARON).
+- Design: Filter v2 Segment D (~1hr). Signal Registry v2 (deferred). COP refresh resume trigger. Autonomous news-scan policy. BOARD_CONSUMPTION rollout to 14 agent CLAUDE.md files.
+- HENRY + RED SIGNAL_INTAKE.md prompts on disk.
 
-### OPEN DESIGN DECISIONS (need Will)
-- **Filter v2 Segment D** — DECIDED option A confidence_note; implementation deferred. ~1hr next session.
-- **Autonomous news-scan policy (NEW)** — today's session demonstrated WALTER autonomous scan can produce valuable candidates BUT requires verify-research discipline (1 of 5 came back CORRECTED-FRAMING). Codify scan-cadence (only when Will asks?) + mandatory verify on novelty-claim items?
-- **Push auth fix** — GitHub token / credentials need refresh (Will action; WALTER cannot self-resolve).
-- **BOARD_CONSUMPTION rollout cadence** — Will hand-routing still; durable rollout requires propagation to 14 agent CLAUDE.md files.
-- **COP refresh cadence** — resume trigger? (Iran-war state + Brent threshold + ROAD Act + PC-stress would benefit from visible COP node).
-- **NEXUS cluster classification** — does WALTER continue informal cluster tracking via STATUS, or NEXUS-spawn forcing function?
+### OPEN DESIGN DECISIONS (need Will — full list also in LAST_COMPLETION.md)
+- **"verified-as-of" pattern extension** — second anchor candidate? Fed-framework / BOJ / OPEC+? Currently one-off (IRAN_WAR only).
+- **MEMORY.md vs LAST_COMPLETION.md duplication** — Pattern D from May 4 diagnostic. Pass 5 territory.
+- **Lead-paragraph rewrite cadence** — should it regenerate at every closeout (like NETWORK AWARENESS subsection) or only when state visibly changes? Currently no rule.
+- **Filter v2 Segment D** — DECIDED option A confidence_note (Apr 20 msg 856); implementation deferred ~1hr.
+- **Autonomous news-scan policy** — Apr 29 session showed value but requires verify-research mandatory on novelty-claim items. Codify scan-cadence + verify discipline.
+- **BOARD_CONSUMPTION rollout cadence** — Will hand-routing; durable rollout = propagation to 14 agent CLAUDE.md files (WALTER does not edit other agents' CLAUDE.md per git isolation).
+- **COP refresh resume** — paused since Apr 14. Iran-cluster + ceasefire-broken + Brent $113 + PC-stress would benefit from a visible COP node.
+- **NEXUS cluster classification cadence** — informal cluster tracking via STATUS, or NEXUS-spawn forcing function?
