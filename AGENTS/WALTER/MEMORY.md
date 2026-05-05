@@ -23,12 +23,15 @@
 - [2026-04-26] **Verify-research can have right-history-wrong-tense.** Apr 26 session: verify-research framed BRICS bases-damage signal as "active 2026 Iran war from late February" with valid NBC News primary URL. The history claim was correct (war did happen, Iran did strike 100+ targets across 11 US bases) but the tense was wrong (currently in ceasefire since Apr 8). Cost of accepting framing wholesale: would have dispatched as ACTIVE-WAR signal when current state is post-ceasefire. Discipline: cross-check current-state against MEMORY/STATUS network anchor before accepting verify framing wholesale, especially for state-that-evolves-quickly domains (Iran/Hormuz, FL drought, retail bankruptcy waves, Fed rate path).
 - [2026-04-26] **Boot with explicit war-state anchor.** Apr 26: my session-context had partial Iran-war awareness (STATUS line 36 COP-STALE + line 56 BRENT blockade) but no clean "war happened, ceasefire date, current day-count, blockade ongoing" pointer. Result: I framed Iran-cluster signals (Hengli, Pinckney, USAF airlift, M/V Sevan, Mareeyo, Pakistan diplomacy) as buildup/posture/cluster when correct frame is post-Apr-8-ceasefire dynamics under active US blockade. STATUS NETWORK AWARENESS now has explicit IRAN-WAR ANCHOR callout at top — read at boot, refresh weekly minimum or on visible state-change events.
 - [2026-04-28] **Verify-research can surface a DIFFERENT-CATEGORY catalyst than the headline implies.** Apr 28 Phoenix BTR signal: headline framed as credit-cycle ("capital dries up, layoffs"), verify-research surfaced **regulatory** catalyst (21st Century ROAD to Housing Act Senate 89-10 Mar 10-12 forcing 7-yr forced disposal of institutional 350+ SF home portfolios → BTR institutional buyer pool collapse → new-start financing freeze). This is HIGHER-VALUE than CORRECTED-FRAMING-on-magnitude — the catalyst CATEGORY moved (financial → regulatory/legislative). Apply: when verify-research pulls a different-category catalyst, that's load-bearing for routing — adds POLITICAL/LEGISLATIVE vector to a cluster that was previously credit-only, opens BARON political-network-mapping pickup, changes the timing-pivot (House reconciliation date vs credit-cycle peak). Codify in dispatch_note explicitly: "catalyst category corrected from X to Y."
+- [2026-05-05] **Sub-agent independent verdict before structural moves.** Pass 1 + Pass 2 of the BOARD INDEX cluster refactor each got an independent read-only sub-agent verification spawn between draft and execute. Pass 1 spawn returned `[LOOKS-GOOD]` with 0 forced edits + 1 marginal flag + observations on 2 small-cluster naming risks. Pass 2 spawn returned `[PASS]` 6/6 checks including byte-level row-content fidelity diff against `git show {pre-rewrite-commit}:file`. Cost ~$0.03-0.04 per spawn. Pattern: when about to ship a structural change (file rewrite, schema migration, taxonomy lock-in), spawn a sub-agent to verify against the rubric before execute — same cost as one verify-research, much higher leverage. Apply: any structural pass with an independent rubric (taxonomy doc / spec / mapping table) gets a verify spawn before commit. Will-invitation pattern works well; can also be unprompted if confidence in the structural change is shaky.
 
 ## Findings
 
 - [2026-05-05] **Structural refactor pattern: sequenced passes + per-pass Will checkpoint + persisted running list.** May 4-5 STATUS.md refactor (204→110 lines / ~80k→~27.5k bytes, 7 commits) worked because: (a) **diagnostic before plan, plan before exec** — read all the boot docs, sent a 6-pattern diagnostic, then a 4-pass plan, then per-pass Will-approval; (b) **one or two file changes per pass** with explicit checkpoint (per `feedback_break_multifile_updates`); (c) **POV check mid-flight** surfaced Pass-4 prerequisite (REGISTRY refresh) Will hadn't asked for but mattered; (d) **canonical running list in `LAST_COMPLETION.md` FOLLOW-UP** survives session handoff (also pointed at from CLAUDE.md IDENTITY + boot step 3 for discoverability). Anti-pattern avoided: trying to do trim + restructure + content-rewrite in one big sweep.
 - [2026-05-05] **"verified-as-of" stamp + re-verify trigger pattern** (introduced in `anchors/IRAN_WAR.md`) — load-bearing macro state goes in a single-purpose anchor file with explicit "verified-as-of {date}" + re-verify trigger ("kinetic state-change OR every 7d OR pre-dispatch on cluster"). Beats embedding the same content in STATUS.md NETWORK AWARENESS where it goes stale invisibly. Currently a one-off; second anchor (Fed-framework / BOJ / OPEC+) would canonize it as a pattern.
 - [2026-05-05] **Regenerate-at-closeout vs snapshot-and-let-go-stale.** Pass 4 dropped the embedded NETWORK AWARENESS table (which duplicated REGISTRY.tsv on Status/Updated columns and went stale silently) and replaced it with a regenerated "today's routing + stale agents" subsection sourced from REGISTRY.tsv at each closeout. Pattern applies to any state that has a canonical source elsewhere — don't snapshot, regenerate.
+- [2026-05-05 PM] **Cluster as discovery axis, not routing axis.** The BOARD INDEX cluster refactor formalized the distinction. **Domain** (LABOR, OIL_ENERGY, BANK_CRE — owned by FORMAT_SPEC) is the recipient-routing axis: which agent does the signal go to? **Cluster** (IRAN_HORMUZ, PC_STRESS, BANK_COLLATERAL — owned by CLUSTER_TAXONOMY) is the thematic-narrative axis: where does this signal sit in the network's mental map? One signal has one domain (routing) and one primary cluster (discovery); they are NOT the same axis and conflating them is the failure mode. Apply: when designing other categorization layers, ask "is this for routing or discovery?" — answer changes the rules. Cross-cluster signals get one primary (substance > mechanism > action-recipient resolution) and a secondary tag in the body, NOT multi-cluster placement.
+- [2026-05-05 PM] **Cluster meta-tracking moved from MEMORY findings to BOARD INDEX cluster sections.** Prior MEMORY entries that tracked "PC-stress ≥9 nodes / hydrocarbon-infra ≥5 geographies / bank-collateral ≥6 nodes / consumer-stagflation 4 nodes / Iran day-cluster ≥16 channels" are now superseded — live counts come from `/BOARD/INDEX.md` cluster section headers. MEMORY findings file durable patterns (overstatement skews, framing rules, base-rate cautions); cluster-size-tracking files itself.
 - [2026-04-11] **Trust disk over memory.** `/COP.md` existed since Apr 7 while NEXT_SESSION claimed otherwise. `ls` the file before believing handoff doc.
 - [2026-04-11] **Stale-agent flagging is highest-leverage boot output.** Agents with Status/Updated/Focus columns >5 days old should be surfaced explicitly in STATUS, not buried.
 - [2026-04-11] **`git pull --rebase --autostash`** for dirty-tree cases. Captures tracked changes only; leaves untracked files (other agents' new work) untouched.
@@ -37,14 +40,7 @@
 - [2026-04-20] **False-petro-geopolitics cluster on X.** Apr 19-20 saw 3 hoax claims (WhaleInsider Hormuz "zero/first" MISFRAMED, Kazakhstan ban FALSE, Don Johnson 14.5mbpd-short pattern-killed). All X-platform, unsourced/secondhand, extreme-absolute. Policy: assume hoax on unsourced petro-geopolitics headlines until primary confirms.
 - [2026-04-20] **"% of 2009" and "vs peak" framings are often portfolio-size artifacts, not rate moves.** FHA "180% of 2009" was count-basis on a portfolio ~1.65x larger → rate-basis ~1.08x; actual FHA SDQ ~45% of 2009 peak. When headline compares current to prior-crisis peak using COUNTS not RATES, flag it. CORRECTED-FRAMING verdicts here are the norm.
 - [2026-04-24] **Telegram inbound flake was multi-bot token competition.** `enabledPlugins.telegram` at user-scope → every claude session spawned its own `bun server.ts` polling same token; Telegram's `getUpdates` delivers each message to ONE poller. Diagnosis: `ps -ef | grep bun.*telegram` — multiple processes = bug. Fix: move config to project-scope, kill orphan bots. Only WALTER + PROME on Telegram per root CLAUDE.md.
-- [2026-04-25] **Iran day-cluster reached ≥12 channels Apr 19-24.** Iran-buildup-and-diplomacy themed signals are converging across multiple mechanisms (kinetic, sanctions, diplomacy, military posture). NEXUS classification overdue. Pattern: when a thematic cluster crosses ≥10 channels, formal cluster classification + Will-attention prompt is warranted.
-- [2026-04-25] **Hydrocarbon-infra-stress meta-cluster crosses ≥4 geographies.** Geelong AU / Pachpadra+Jhagadia IN / Corpus Christi TX / Russia-strikes / Hengli OFAC supply-chain disruption. Different mechanisms (war / fire / sanctions / water / accidents) but same outcome (refining/petrochem capacity at risk). Aggregated framing has more thesis weight than individual incidents.
-- [2026-04-26 → moved to anchor file 2026-05-04] **Iran-war anchor → `anchors/IRAN_WAR.md`.** Original Apr 26 Finding (war Feb 27, Apr 8 Pakistan-mediated ceasefire, blockade-during-ceasefire framing) was correct Apr 8–May 3 but is now superseded by May 4 events: Iran cruise-missile + drone strike on UAE territory (Fujairah hit + ADNOC tanker drone-hit + multiple commercial vessel incidents); Project Freedom launched same day (Trump-authorized US naval escort, narrow US-flag-only); ceasefire effectively BROKEN. Iran-cluster framing rule for current period: active-war re-escalation under Project Freedom, NOT post-ceasefire blockade dynamics. **Read `anchors/IRAN_WAR.md` at every boot** (CLAUDE.md step 1) — it has explicit verified-as-of stamp + re-verify trigger so we catch state changes faster than once-per-anchor-update. This MEMORY.md entry is a pointer, not a content duplicate.
-- [2026-04-26] **Hydrocarbon-infra cluster extended to 5+ geographies** (now adds St. Helena Parish LA pipeline explosion Apr 25). 6 mechanisms, 5 geographies. Same-outcome framing strengthens.
-- [2026-04-26] **PC-stress meta-cluster ≥7 nodes.** TCW Red Lobster 98% (-014-002) / IMF GFSR (-014-004) / Blue Owl founder-pledged-loan unwind $1.1B (-020-004) / Fitch BDC redemptions +36% QoQ (-020-009) / Man Group $6B (-024-006) / SoftBank $10B OpenAI margin loan (-024-012) / Bloomberg Apr 11 Fed asking banks for PC exposure details (-026-012). Pattern: writedown / pledged-loan-unwind / BDC redemption surge / single-client AUM pull / hedge-fund margin-loan / regulatory inquiry. Six different transmission vectors all pointing same direction. NEXUS classification overdue.
-- [2026-04-26] **Consumer-stagflation-stack 4 nodes** UMich record-low 49.8 + 1Y inflation expectations 4.7% (jump from 3.8%, largest since April 2025) + CC delinq 12.7% approaching 2009 peak + FL LABOR weakness + farm bankruptcies +46% YoY. Sentiment-trough + inflation-expectations-rising = worst Fed-reaction-function setup, ties Fed's hands on cuts.
-- [2026-04-26] **Bank-collateral-compression cluster 4 nodes** residential housing weakening (-026-002 Zillow + Realtor) + Baltimore CRE -29% properties (-026-009) + US office vacancy 20.2% (-024-005) + Phoenix/Denver multi-family (-026-014). Macro-vs-micro divergence consistently the signal: headlines moderate, bottom-up special-servicing/distress more acute.
-- [2026-04-28] **Bank-collateral-compression cluster extended to ≥6 nodes + NEW political/legislative vector.** Adds Louisville KY Home Life Building (-028-003 $15M→$4.67M credit bid, 69% erasure) + Phoenix BTR ROAD-Act regulatory financing freeze (-028-004). The ROAD Act vector is qualitatively new — prior cluster nodes were all market-mechanism (rents falling, vacancies rising, special-servicing rising); this is regulatory shock that collapses the institutional buyer pool for SFR. BARON political-network-mapping value is high here. PC-stress meta-cluster also extended to ≥8 nodes (added Boaz-Weinstein-cut-price-exit-rejected -028-005, pairs Blue Owl founder unwind -020-004 = two-sided OWL stock pressure pre-Q1 earnings Wed Apr 30).
+- [2026-04-26 → moved to anchor file 2026-05-04 → cluster-tracking superseded 2026-05-05] **Iran-war anchor → `anchors/IRAN_WAR.md`.** Verified-as-of stamp + re-verify trigger (kinetic state-change / 7d / pre-dispatch on cluster). Iran-cluster live state in BOARD INDEX `IRAN_HORMUZ` section (22 signals as of May 5).
 - [2026-04-28] **Phoenix housing channel base-rate overstatement skew, 2/2 confirmed.** SIG-026-014 (Roger @rdd147 multi-family rents −20-25% → Yardi −4-5%) + SIG-028-004 (Hancock Builders "entire industry nationwide is shut down" → BTR new-deal financing freeze, in-flight projects continuing). Both Phoenix-area Twitter/local-news housing claims overstate. Apply: signals from Phoenix housing channels enter with prior on overstatement; verify-research is mandatory for extreme-absolute claims; calibrate confidence to ≤0.65 even after verify directional-confirms.
 
 ## References
@@ -57,50 +53,48 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (May 4–5 Mon-Tue — Will-driven STATUS.md refactor + REGISTRY refresh + lead-paragraph rewrite, 0 BOARD dispatches, 7 commits)
+### CHANGES SINCE LAST SESSION (May 5 PM Tue — BOARD INDEX 3-pass cluster-organization refactor + 2 sub-agent verifications, 0 BOARD dispatches, 4 commits)
 
-Two-day continuous arc, no signal intake. Will (msg 1174 May 4 AM) pinged for boot. Critical anchor delta surfaced from BRENT/STATUS.md May 4: Apr 8 ceasefire effectively BROKEN today (Iran cruise+drone strike on UAE Fujairah, Project Freedom launched). Will requested doc-staleness audit (msg 1177); sent 6-pattern diagnostic (msg 1180); Will picked STATUS.md first.
+Single-arc Will-driven categorization session. End-to-end boot test of May 4-5 STATUS structure passed. Will asked about pruning/merging BOARD; I surfaced 3 goals (α/β/γ); Will picked α (categorize by cluster). 4-pass plan with checkpoints; sub-agent verification spawns between Pass 1↔2 and Pass 2↔3. Full session log entry in STATUS.md SESSION LOG.
 
-**Refactor execution arc (4 passes + companion work):**
-- Pass 1 (`2435a385`) — STATUS.md trim: cut Apr 7 ACTIVE DESIGN narrative, Apr 10-14 UPCOMING table, 27 older SESSION LOG rows, 18 footer version-strings to new `SESSION_LOG.md`.
-- Pass 2 (`2edfb01a`) — design completeness split: created `design/STATE.md` (98 lines, NOT in boot order); replaced STATUS.md OPERATIONAL STATE table with STATE POINTERS block; added COP-paused standing flag to FILTER POSTURE.
-- POV check (msg 1193-1195) flagged 7 frictions; Will directed REGISTRY refresh first + persistent running list.
-- REGISTRY refresh + LAST_COMPLETION running list (`a3f125c6`) — 13 agents refreshed (BRENT May 4 / SAM May 3 / CARL May 4 / REGINALD May 1 / BROCK May 1 / VIOLET May 3 / LABOR May 4 / HANS Apr 30 / RED Apr 18 / HENRY Apr 17 / LIQUID Apr 16 / HAWK Apr 20 / WALTER May 4); OZK Tier 1 row ADDED (was missing per CLAUDE.md spinout); 28→29 rows. LAST_COMPLETION rewritten as canonical running list (FOLLOW-UP 23 items / OPEN DESIGN DECISIONS 6 items).
-- Pass 3 (`13ea7a79`) — anchor pulled out: new `anchors/IRAN_WAR.md` with verified-as-of 2026-05-04 + re-verify trigger; rewritten for ceasefire-BROKEN / Project Freedom / Brent $113.72 state. STATUS.md anchor block → 3-line pointer. CLAUDE.md boot step 1 + steps 5/10 updated.
-- CLAUDE.md running-list pointer (`24c3fbf4`) — added pointers in IDENTITY + boot step 3.
-- Pass 4 (`ee0b4983`) — NETWORK AWARENESS embedded table dropped; replaced with regenerated "Today's routing + stale agents" subsection (option A from 4 — Will picked msg 1204). CLAUDE.md spawn-protocol step 12 expanded to 4 sub-steps; step 13 reordered.
-- Lead-paragraph rewrite (`d06013ba`) — Apr 28 wall-of-prose → structured May 5 dashboard.
+**Commits:** `e450a128` Pass 1 (CLUSTER_TAXONOMY.md v0.1 + cluster_assignment_v1.tsv 98-row mapping + CHECKLIST v0.9 + CLAUDE.md ownership row) → `8b332361` Pass 2 (INDEX flat→10 cluster sections + ToC + FORMAT_SPEC v0.7 `cluster:` field; sub-agent verified [PASS]) → `8084961a` Pass 3 (STATUS lead-paragraph + CLAUDE.md boot/protocol/key-files alignment) → this closeout.
 
-**Refactor scoreboard:** STATUS.md 204 → 110 lines / ~80k → ~27.5k bytes (~65% byte cut); 3 new companion files (`SESSION_LOG.md` / `design/STATE.md` / `anchors/IRAN_WAR.md`).
+**Findings filed today:** Sub-agent independent verdict before structural moves (Feedback). Cluster as discovery axis not routing axis (Finding). Cluster meta-tracking moved from MEMORY to BOARD INDEX (Finding — supersedes 7 prior cluster-size-tracking entries which were trimmed).
 
-**Findings filed (May 5):** structural-refactor-pattern-with-checkpoints / verified-as-of stamp + re-verify trigger / regenerate-at-closeout vs snapshot.
+**Spec changes:** FORMAT_SPEC v0.6→v0.7 (`cluster:` YAML header field). CHECKLIST v0.8→v0.9 (Phase 2 cluster-assignment step). New canonical-source `design/CLUSTER_TAXONOMY.md` v0.1.
 
-**0 BOARD dispatches across both days.** **0 kills.** **0 verify-research spawns.** **No spec changes** (refactor is structural; specs unchanged). **Push state clean** — origin = HEAD, prior Apr 26+28+29 push that had been auth-blocked went through during May 4 boot.
-
-**Closeout shipped at Will's pause direction (msg 1210).** Total session commits: `2435a385` / `2edfb01a` / `a3f125c6` / `13ea7a79` / `24c3fbf4` / `ee0b4983` / `d06013ba` + this closeout commit.
+**0 BOARD dispatches.** **0 kills.** **0 signal verify-research spawns** (the 2 spawns this session were structural-review, not Phase-1.5). **Push state clean** — all 4 commits shipped to origin.
 
 ### NEXT SESSION
 
-**TOP PRIORITY:**
-1. **End-to-end boot test** — next session boot is the first real run of the new structure. Watch: does step 1 STATUS+anchor read parse cleanly? Are all cross-references valid (design/STATE.md / anchors/IRAN_WAR.md / SESSION_LOG.md / LAST_COMPLETION.md FOLLOW-UP)? Net context-budget effect (lighter STATUS, slightly heavier CLAUDE)?
-2. **Iran-war anchor re-verify trigger** — `anchors/IRAN_WAR.md` re-verify trigger fires on visible kinetic state-change OR every 7 days minimum OR pre-dispatch on Iran-cluster signals. Verified-as-of 2026-05-04. Refresh boundary = 2026-05-11 minimum. Check at boot whether BRENT/HAWK/HANS STATUS show state-change events warranting earlier refresh.
-3. **REGISTRY HAWK row caveat** — HAWK STATUS still reflects Apr 20 framing (Ceasefire Day 13 of 14). Has not been refreshed for May 4 ceasefire-break. BRENT acting OIL_ENERGY primary per backup-promotion rule. WALTER cannot edit HAWK files directly (git isolation); refresh via Will or HAWK self-spawn.
-4. **NFP May 8** — LABOR carry-forward (LABOR May 4 boot specifically noted "Option B = update now, accept rewrite May 8 post-NFP").
-5. **OBDC Q1 May 6** — BROCK pre-built threshold reads.
-6. **Q1 Call Report window May 1-10** — REGINALD recheck; May 1 noted "no banks filed yet."
+**Time-sensitive:**
+1. **NFP Friday May 8** — LABOR carry-forward.
+2. **OBDC Q1 Wed May 6** — BROCK pre-built threshold reads.
+3. **Q1 Call Report window May 1-10** — REGINALD recheck.
+4. **Iran-war anchor re-verify** — `anchors/IRAN_WAR.md` verified-as-of 2026-05-04, refresh boundary 2026-05-11 minimum OR earlier on visible kinetic state-change. Spot-check BRENT/HAWK/HANS at boot.
+
+**Today's structural changes that need a boot test:**
+5. **End-to-end boot test of new BOARD INDEX cluster structure** — does cluster ToC scan cleanly? Do anchor links work? Does the new boot-step 7 instruction read sensibly? Net context-budget effect of clustered INDEX vs flat?
+
+**Cluster taxonomy v0.1 watch items:**
+6. **FED_FRAMEWORK at 2 signals** — sub-agent flagged for v0.2 rename to UST_PLUMBING if it doesn't grow. Watch what next 2-3 macro-plumbing signals look like before deciding.
+7. **AI_INFRA_CAPEX at 3 signals** — has forward-momentum (META/MSFT capex advisory event-pending). Hold.
+8. **IRAN_HORMUZ at 22 signals** — internally heterogeneous (kinetic / sanctions / oil-supply-downstream / diplomatic). Pass 4 sub-cluster breakdown candidate IF reads dense in next session's boot.
 
 **Carry-forward open items (full list in `LAST_COMPLETION.md` FOLLOW-UP):**
-- Refactor: "verified-as-of" pattern is one-off (extend to second anchor — Fed-framework / BOJ / OPEC+ candidates). MEMORY.md vs LAST_COMPLETION.md duplication (Pattern D) unresolved. design/STATE.md needs maintenance discipline.
-- Cluster: NEXUS classification overdue 6+ clusters. ZHAO/HAWK/HANS/SHADE/OTTO/BOND/ORACLE/FERT/CRUISE/ATHENA staleness. OZK Q1 post-mortem REGINALD pickup pending. ROAD Act House reconciliation timing (BARON).
-- Design: Filter v2 Segment D (~1hr). Signal Registry v2 (deferred). COP refresh resume trigger. Autonomous news-scan policy. BOARD_CONSUMPTION rollout to 14 agent CLAUDE.md files.
-- HENRY + RED SIGNAL_INTAKE.md prompts on disk.
+- HAWK + HANS framing predates May 4 ceasefire-break (refresh via Will or self-spawn).
+- OZK Q1 post-mortem (REGINALD pickup pending since Apr 16).
+- NEXUS classification overdue 6+ active clusters (now NEXUS reads INDEX cluster sections directly).
+- BOARD_CONSUMPTION_SPEC propagation to 14 Tier 1 agent CLAUDE.md files.
+- HENRY + RED SIGNAL_INTAKE.md prompts.
+- Filter v2 Segment D (~1hr, decided Apr 20 option A).
+- COP refresh resume (paused Apr 14).
+- "verified-as-of" pattern extension (second anchor candidate).
+- MEMORY.md vs LAST_COMPLETION.md duplication (Pattern D, Pass 5 territory).
 
-### OPEN DESIGN DECISIONS (need Will — full list also in LAST_COMPLETION.md)
-- **"verified-as-of" pattern extension** — second anchor candidate? Fed-framework / BOJ / OPEC+? Currently one-off (IRAN_WAR only).
-- **MEMORY.md vs LAST_COMPLETION.md duplication** — Pattern D from May 4 diagnostic. Pass 5 territory.
-- **Lead-paragraph rewrite cadence** — should it regenerate at every closeout (like NETWORK AWARENESS subsection) or only when state visibly changes? Currently no rule.
-- **Filter v2 Segment D** — DECIDED option A confidence_note (Apr 20 msg 856); implementation deferred ~1hr.
-- **Autonomous news-scan policy** — Apr 29 session showed value but requires verify-research mandatory on novelty-claim items. Codify scan-cadence + verify discipline.
-- **BOARD_CONSUMPTION rollout cadence** — Will hand-routing; durable rollout = propagation to 14 agent CLAUDE.md files (WALTER does not edit other agents' CLAUDE.md per git isolation).
-- **COP refresh resume** — paused since Apr 14. Iran-cluster + ceasefire-broken + Brent $113 + PC-stress would benefit from a visible COP node.
-- **NEXUS cluster classification cadence** — informal cluster tracking via STATUS, or NEXUS-spawn forcing function?
+### OPEN DESIGN DECISIONS (need Will — full list in LAST_COMPLETION.md)
+
+- **Pass 4 of cluster refactor** — sub-cluster breakdown for IRAN_HORMUZ + POSITIONING_VALUATION? Decide after boot test in next session.
+- **FED_FRAMEWORK rename to UST_PLUMBING** — watch 2-3 next macro-plumbing signals before deciding v0.2 taxonomy edit.
+- **Cluster status flags** (🟢/🟡/🔴/⚫) — reserved for v0.2 in CLUSTER_TAXONOMY.md; ship when stale-cluster identification becomes useful.
+- Pre-existing: "verified-as-of" pattern extension / MEMORY-LAST_COMP duplication / lead-paragraph cadence / Filter v2 Segment D / autonomous news-scan policy / BOARD_CONSUMPTION rollout / COP refresh resume / NEXUS classification cadence.
