@@ -1,90 +1,94 @@
 # CARL SCRATCH
-**Last session:** 2026-05-04 ~02:00 UTC (PM7)
-**Type:** Workbook hardening pass — VX P1 (Status canonicalization + Delegated_To split + tombstone drops) + KB→VX dangle cleanup + SCHEMA Option A (Vectors-col formal multi-level expansion) + P4 (VX dedup) + closeout (CHANGELOG/ROADMAP/STATUS/SCRATCH)
+**Last session:** 2026-05-05 ~21:30 UTC (PM)
+**Type:** BOARD May 5 12-signal disposition + AAA pump May 5 + ISM Services Apr / JOLTS Mar / AHLA WC2026 / Black Box Apr restaurants integration
 
-**PRIORITY-1:** **AAA pump Mon May 4 refresh — first weekday post-Brent-pullback.** Brent -5.12% Friday May 2 close ($108.17) should transmit to pump softening Mon-Wed at 3-4d lag (KB-CARL-259 acute-regime). Two scenarios: (a) softening confirmed → CRL-08 timing widens beyond Tue May 5; (b) Brent re-fires → breach Tue/Wed, 2-week sustainability clock starts. Plus: HY OAS still stale 23d — needs alternative fetch path (FRED + 4 secondaries blocked PM4).
+**PRIORITY-1:** **AAA pump May 6 close — CRL-08 breach watch.** $4.483 May 5, gap $0.017; Tue May 6 close highly likely first $4.50+ print absent Brent transmit relief. If breach: log first ≥$4.50 close, start 2-week sustainability clock, do NOT reprice CRL-08 yet. Pair: Live Nation Q1 5/5 AMC results (small-venue/mid-tier ticket commentary — KB-282 tier-stratified discretionary near-term tell).
 
 ---
 
-## WHAT HAPPENED (PM7 work — workbook hardening)
+## WHAT HAPPENED
 
-1. **Will requested VX.tsv audit** — produced 9-issue audit (schema, status enum overload, ID convention bifurcation, 23-row staleness, 10 PENDING orphans, 3 dups, V13 convergence-matrix coverage gap, threshold/status mismatch, 6 ID oddballs).
-2. **Plan-mode P1 approval:** mirror KB Item #2a fix on VX. Added Delegated_To col (11→12); migrated 9 DELEGATED-TO-HOMER rows to threshold-color Status + Delegated_To=HOMER (per band-match + WORKBOOK DISCIPLINE [FLAG] for ambiguous 6.08 categorical + 2.02 range top); normalized 3 RED-BREACHED→RED + 1 YELLOW-borderline→YELLOW; updated 3 KB rows (KB-055/060/059) to remove tombstone refs BEFORE dropping 3 CONSOLIDATED VX tombstones (1.06/6.01/ABS-15) per discipline.
-3. **Dangle cleanup byproduct:** post-P1 verify surfaced 5 pre-existing KB→VX dangles from PM4/PM5 sessions. Verified-by-reading-target before each rewrite. KB-271 RETAIL→6.10, KB-272 MORTG-RATE→HSG-01, KB-273 CB-EXPECT→SENT-02; KB-272 MBA-PURCH + KB-274 FOMC-RATE-PROXY blanked (no VX target exists).
-4. **Will requested explanation of off-spec vs canonical refs.** Surfaced that 95 of 118 "off-spec" entries (Vector_N + CRL-NN) are doing real semantic work at thesis-vector + prediction levels respectively that pure VX-IDs can't replace. 3-level abstraction explained. Will chose **Option A — formalize multi-level system in SCHEMA**.
-5. **SCHEMA.tsv expansion:** Vectors col `allowed_values` now formally recognizes `VX-{AGT}-NN, Vector_N, CRL-NN, FLOW-{AGT}-N.NN, {SUBAGT}-PNN, BRT-NN, →AGENT or empty`. Description expanded with KB-NNN restriction (DerivedFrom only).
-6. **Truly-broken ref fixes (9 entries across 7 KB rows):** KB-031 (`STATE_DIFFUSION.tsv` filename dropped), KB-232/233/234 (5× `VX→AGENT` typos → `→AGENT`), KB-264/268 (KB-CARL-253 moved Vectors→DerivedFrom), KB-271 (`K-SHAPE` redundant tag dropped).
-7. **P4 verification + execution:** verified-by-reading both dup pairs. Pair 1 (BNPL Late Rate) confirmed true dup — dropped 1.03 (stale orphan, 0 KB refs). Pair 2 (Medical) verification revealed NOT a clean dup — different metrics ($88-140B range w/ phantom debt vs $88B narrow CFPB) disagreeing on Status. Per WORKBOOK DISCIPLINE rule, chose Will-approved Option A: rename to expose distinction + cross-ref Notes. MED-01 → "Medical Collections (CFPB narrow)"; 1.08 → "Medical Debt Total (incl. phantom estimate)".
-8. **Commit + push:** 3b47901f fast-forward clean. BRENT (3 changes incl. inbox-move) + SAM (1 change) concurrent uncommitted work untouched. Origin had not moved during session; no rebase needed.
-9. **Closeout pass (this session cont.):** CHANGELOG PM7 entry + ROADMAP RECENTLY RESOLVED PM7 entry + ROADMAP timestamp + STATUS timestamp + this SCRATCH rewrite. Pending: closeout commit.
+1. **Boot diff surfaced 12 unrecorded BOARD signals from today** (INDEX moved 16:52 EDT vs BOARD_LOG last sync Apr 29).
+2. **Will approved BOARD pass + AAA refresh.**
+3. **Dispositions logged (12):** 4 INTEGRATED (006 ISM/JOLTS, 008 AHLA, 010 Black Box) / 6 INFO_ONLY (001/002/003/009/012 oil-cluster supply-side context — all folded into KB-278 pump+Brent integration; 007 factory orders counter-evidence + 011 hantavirus pandemic-meta-cluster watch no KB) / 2 REFERRED (004 IRGC corridor doctrine, 005 USAF tankers — BRENT/HAWK primary).
+4. **AAA pump live fetch (May 5):** $4.483 (+2.6¢ vs May 4 $4.457; gap to $4.50 = $0.017, collapsed from $0.054 May 3). Diesel $5.659. WoW +30.7¢ / YoY +41.6%. 5-day path +9.2/+4.1/+1.3/+1.1/+2.6¢ — **re-acceleration off weekend trough; May 4 Brent +5.80% rally transmitted at 1d lag (faster than 3-4d Iran-cluster regime)**.
+5. **Brent path May 2-5:** $108.17 → $114.44 (+5.80%) → $110.41 (-3.52% intraday tape divergence DESPITE 5-vector cluster confluence per BOARD-012 = "risk-premium-already-priced" steelman tape-confirmed). Net Mon-Fri +$2.24 / +2.07%. WTI ~$102.68. Brent-WTI spread widened to ~$7.73.
+6. **Multi-axis stagflation soft-landing data integrated:** ISM Services Apr Headline 53.6 BUT **New Orders 53.5 (-7.1pp from Mar 60.6) + Prices Paid 70.7 highest since late 2022**; JOLTS Mar 6.866M openings (-16K vs Feb flat) + **hiring rate 3.5% UP from Feb 3.1% COVID-low (+0.4pp)**. Daly framing: "demand cooling, labor absorbing, cost pressure not breaking — soft-landing narrative gets stress-tested." Vector #12 HARDENED — services Prices Paid alongside ISM Mfg 84.6 expands stagflation regime beyond goods.
+7. **NEW transmission vector identified (AHLA WC2026):** ~80% US-host-city hoteliers below projections (KC -85-90% cannibalizing summer baseline); Miami/Atlanta in-line bright spots; visa/USD/policy drivers. Services-export / international-inbound demand destruction. Sub-vector candidate for v2.5.2 hardening.
+8. **Tier-stratified discretionary framework reinforced (Black Box Apr):** Restaurant traffic -3.5% Easter-clean / 2nd decline 3mo, but counter-channels intact (BofA Card +4.3% / JPM Q1 +9% / Cinemark Q1 +19% rev BEAT). Card +4.3% nominal at UMich 4.7% 1Y ≈ flat real. Live Nation Q1 5/5 AMC = high-near-term watch.
+9. **CRL-08 disposition: NEAR-BREACH NOT-YET, holds 92%.** Tue May 6 close highly likely to breach. Brent -3.52% May 5 should soften pump Wed-Fri. 2-week sustainability test post-cross before any reprice.
 
 ## STATUS CHANGES
 | Item | Change |
 |------|--------|
-| `workbook/VX.tsv` | 120 → 116 rows; 11 → 12 cols (added Delegated_To); 9 status-enum off-spec → canonical; 3 tombstones removed; 1 dup dropped; 2 medical rows renamed |
-| `workbook/KB.tsv` | 273 rows unchanged; 16 Vectors-col edits across 14 unique rows (3 P1 ref-rewrites + 4 dangle rewrites + 7 Option A truly-broken fixes); 2 rows moved KB-NNN refs Vectors→DerivedFrom |
-| `workbook/SCHEMA.tsv` | Vectors col `allowed_values` formalized to multi-level ref system; description expanded |
-| `ROADMAP.md` | +2 backlog adds (MBA Apps VX vector decision; CARL Status enum hardening); PM7 RECENTLY RESOLVED entry; timestamp |
-| `thesis/CHANGELOG.md` | +PM7 entry (structural workbook work) |
-| `STATUS.md` | timestamp bump only (signal data unchanged) |
-| **Final integrity** | 0 col-count anomalies / 0 dangling KB→VX / 0 off-spec Vectors-col entries / Status enum {RED 42, ORANGE 36, GREEN 15, YELLOW 14, PENDING 10} / Delegated_To {empty 107, HOMER 9} |
+| `board/BOARD_LOG.tsv` | 105 → 117 rows (+12 May 5 dispositions: 4 INTEGRATED / 6 INFO_ONLY / 2 REFERRED) |
+| `workbook/KB.tsv` | 274 → 279 rows (+KB-CARL-278 pump+Brent / +279 ISM Services Apr / +280 JOLTS Mar / +281 AHLA WC2026 / +282 Black Box Apr) |
+| `workbook/VX.tsv` | 117 rows unchanged; GAS-01 in-place ($4.446 May 3 → $4.483 May 5, KB-268→278); 3.01 Jobs Spread in-place (Feb 0.91→Mar implied 0.98 marginal restoration, KB-280) |
+| `STATUS.md` | 242 → 245 lines; 6 row updates (gas pump / diesel / Brent / WTI / Iran cluster / JOLTS Ratio); +3 new rows (ISM Services Apr / AHLA WC2026 / Black Box Apr); DANGER WINDOW NOW + Recently fired digest + CRL-08 prediction + EXIT RULES catalysts updated |
+| `ROADMAP.md` | timestamp + RECENTLY RESOLVED PM entry + CRL-08 thread refresh |
+| **CRL-08** | Holds 92% NEAR-BREACH NOT-YET; gap collapsed $0.054→$0.017 |
+| **Vector #12** | HARDENED — ISM Services Prices Paid 70.7 alongside Mfg 84.6 expands stagflation regime beyond goods-only |
 
 ---
 
 ## NEXT SESSION SHOULD
 
 ### IMMEDIATE (this session / 24hrs)
-1. **AAA pump Mon May 4 refresh** — first weekday post-Brent-pullback; CRL-08 timing.
-2. **HY OAS refresh** — alternative fetch path (FRED API key, abs_monitor.py, Yahoo HYG ETF proxy, ICE BofA via Bloomberg-proxy).
-3. **Brent close monitoring Mon May 4** — peace-proposal repricing hold or Hormuz re-fire?
+1. **AAA pump May 6 close** — CRL-08 breach watch (gap $0.017). If first $4.50+ close: log + start 2-week sustainability clock (don't reprice yet).
+2. **Live Nation Q1 5/5 AMC results** — small-venue/mid-tier ticket commentary tier-stratification tell.
+3. **Brent May 6 close** — does -3.52% May 5 hold or reverse? Pump transmit Wed-Fri.
 
 ### UPCOMING (this week)
-4. **May 5** — PayPal Q1 (PHAN spawn).
-5. **May 6** — Uber Q1 + DoorDash Q1; BLS state jobs March.
-6. **May 7 TRIPLE** — Dave Q1 + Lyft Q1 + Affirm Q3 FY2026.
-7. **May 7** — EIA weekly inventory (distillate / DSL-01).
-8. **May 8** — BLS Apr NFP (V16 first realized print).
+4. **May 6** — Uber Q1 + DoorDash Q1 (GIG); BLS state jobs March (FL labor follow-up KB-249).
+5. **May 7 TRIPLE** — Dave Q1 + Lyft Q1 + Affirm Q3 FY2026; EIA weekly inventory (distillate / DSL-01).
+6. **May 8** — BLS Apr NFP (V16 first realized print).
 
 ### UPCOMING (next 2 weeks)
-9. **May 13** — BLS Apr CPI — first full Iran-shock + tariff month; **Food at Home decomposition** extract (deferred from PM6).
-10. **~May 18** — Klarna Q1 (PHAN).
-11. **~Mid-May** — NY Fed Q1 HHDC — **CRL-05 test**.
-12. **May 28** — BEA GDP Q1 second estimate (CRL-18) + AFT/MOHELA conference.
+7. **May 13** — BLS Apr CPI — first full Iran-shock + tariff month; **Food at Home decomposition** extract (deferred from PM6).
+8. **~May 18** — Klarna Q1 (PHAN).
+9. **~Mid-May** — NY Fed Q1 HHDC — **CRL-05 test**.
+10. **May 28** — BEA GDP Q1 second estimate (CRL-18) + AFT/MOHELA conference.
 
 ### UPCOMING (next 6+ weeks)
-13. **Jun 16-17** — **FOMC + SEP** — first dot-plot post Iran-shock; KB-274. V12 hawkish/dovish surprise window.
+11. **Jun 16-17** — **FOMC + SEP** — first dot-plot post Iran-shock + ISM Services Prices Paid 70.7; KB-274. V12 hawkish/dovish surprise window.
 
-### v2.5.1 HARDENING (8 PENDING_VERIFY items)
-14-22. UMich triangulation / Foreclosure 2019 baseline / Path C COF/SYF counterfactual / Crying-wolf X-thresholds / **Brier audit (now n=2 direction-right/magnitude-low pattern: CRL-01 + CRL-19)** / CONTAINMENT prior calibration / COF/SYF candor puzzle / Trade Duration roll plan / RED-CARL interface.
+### v2.5.1 HARDENING (8 PENDING_VERIFY items, unchanged)
+12-19. UMich triangulation / Foreclosure 2019 baseline / Path C COF/SYF counterfactual / Crying-wolf X-thresholds / Brier audit / CONTAINMENT prior calibration / COF/SYF candor puzzle / Trade Duration roll plan / RED-CARL interface.
 
-### Workbook hardening (PM7 byproduct)
-23. **P2 — legacy ID retirement** (VX-CARL-1.01 vs CC-01 collision; broader 1.NN/6.NN ID convention sunset) — backlog item.
-24. **MBA Apps VX vector decision** — KB-272 covers but no VX vector tracks. Create VX-CARL-MBA-APPS or accept informational-only.
-25. **VX Status enum hardening (Item #5 sibling)** — VX schema not formal in SCHEMA.tsv; pairs with Item #3 validator promotion.
-26. **Workbook hardening Item #3** (validator promotion) — `/tmp/audit_kb.py` → `workbook/tools/validate.py`; now feasible to add ref integrity check + VX schema check + dynamic enum from SCHEMA.
-27. **Sub-agent workbook standardization** — POP KB.tsv decision (Item #2d follow-up; HOMER-style 12-col schema?).
-28. **STUE/CLAUDE.md stale `VX-CARL-1.06: CONSOLIDATED` line** — flagged for Will, sub-agent doc edit.
+### Workbook hardening (PM7 byproduct + this session)
+20. **ISM Services VX vector creation** — sibling to MACRO-08 Mfg Prices Paid. ISM Services Headline + New Orders + Prices Paid as separate vectors OR composite.
+21. **Tourism-receipts/services-export sub-vector** — from KB-281 AHLA WC2026 for v2.5.2 hardening.
+22. **JOLTS denominator refresh post May 8 NFP** — VX-CARL-3.01 implied ratio currently uses pending Apr unemployed; refresh once Apr UR/LFPR confirmed.
+23. **P2 — legacy ID retirement** (VX-CARL-1.01 vs CC-01 collision; broader 1.NN/6.NN ID convention sunset).
+24. **MBA Apps VX vector decision** — KB-272 covers but no VX vector tracks.
+25. **VX Status enum hardening** — VX schema not formal in SCHEMA.tsv.
+26. **Workbook hardening Item #3** (validator promotion).
+27. **Sub-agent workbook standardization** — POP KB.tsv decision.
+28. **STUE/CLAUDE.md stale `VX-CARL-1.06: CONSOLIDATED` line** — flagged for Will.
+
+### Pandemic-meta-cluster watch (NEW PM)
+29. **WHO DON599 hantavirus + image batch 2 FT "When rare viruses return" + image batch 3 Blue Dot Fever** — 1 substantive + 2 noise. Spawn trigger: 1-2 more institutional-primary or named-pathogen-with-data signals within 14d (~by May 19).
 
 ### Grocery squeeze backlog (PM6 byproduct)
-29. **DAP / NH3 / UAN specific prices** — find DTN/AgWeb-alternative fetch path; or use World Bank Pink Sheet monthly.
-30. **USDA Crop Progress weekly extraction** — Cornell library blocked, NASS page-only; need PDF / CSV fetch path.
-31. **US Drought Monitor data extraction** — droughtmonitor.unl.edu data tables blocked.
-32. **Russia AN + Gulf fertilizer news scan** — Reuters/Bloomberg/Argus all blocked; need alternate intel path.
-33. **BLS Food at Home decomposition** — defer to May 13 Apr CPI release.
-34. **Heavy grocery squeeze session** — cattle/hogs/eggs/milk + grocery retail margins (WMT/KR/ACI) + ag labor (ICE/H-2A) + tariff-on-food + Farm Credit System DQ + land values.
+30. **DAP / NH3 / UAN specific prices** — find DTN/AgWeb-alternative fetch path.
+31. **USDA Crop Progress weekly extraction** — Cornell library blocked, NASS page-only.
+32. **US Drought Monitor data extraction** — droughtmonitor.unl.edu data tables blocked.
+33. **Russia AN + Gulf fertilizer news scan** — Reuters/Bloomberg/Argus all blocked; need alternate intel.
+34. **BLS Food at Home decomposition** — defer to May 13 Apr CPI release.
+35. **Heavy grocery squeeze session** — cattle/hogs/eggs/milk + grocery retail margins (WMT/KR/ACI) + ag labor (ICE/H-2A) + tariff-on-food + Farm Credit System DQ.
 
 ### BACKLOG (no deadline)
-35. HY OAS refresh path.
-36. Workbook hardening Item #6 (root INDEX.md).
-37. Supply-event sub-vector class.
-38. Orphan-Claim Audit Byproduct.
-39. LABOR/GIG spawn for FL UI Wave 2.
-40. HOMER spawn for Case-Shiller Feb sub-market detail.
-41. Workbook content refresh — VX consumer / FLOW / STATE_DIFFUSION / BNPL_STRESS (17-18d).
-42. ABS_BASELINE refresh — March 10-Ds (18d).
-43. POLLY refresh — 25d stale.
-44. MARCO refresh ask.
-45. 6 outbox signals from Apr 17 (deferred per messaging-overhaul).
+36. HY OAS refresh path (FRED + 4 secondaries blocked PM4; 25d stale).
+37. Workbook hardening Item #6 (root INDEX.md).
+38. Supply-event sub-vector class.
+39. Orphan-Claim Audit Byproduct.
+40. LABOR/GIG spawn for FL UI Wave 2.
+41. HOMER spawn for Case-Shiller Feb sub-market detail.
+42. Workbook content refresh — VX consumer / FLOW / STATE_DIFFUSION / BNPL_STRESS (18-19d).
+43. ABS_BASELINE refresh — March 10-Ds (19d).
+44. POLLY refresh — 26d stale.
+45. MARCO refresh ask.
+46. 6 outbox signals from Apr 17 (deferred per messaging-overhaul).
 
 ---
 
@@ -98,9 +102,9 @@
 | SIG-CARL-LABOR-20260417-NFIB-SB-hiring-pullback.md | LABOR | NFIB Mar: Optimism 95.8, Uncertainty BREACHED 92, profit -25% |
 | SIG-CARL-REGINALD-20260417-IEEPA-refund-SB-liquidity-injection.md | REGINALD | SCOTUS IEEPA struck, $166B refunds Apr 20 = SB regional bank stress modifier |
 
-## INBOX (0 items, clean)
+## INBOX (0 items, clean — `processed/` subdir only)
 
-## HANDOFF_RED (4 files staged, awaiting RED pickup — unchanged this session)
+## HANDOFF_RED (4 files staged, awaiting RED pickup — unchanged)
 | File | Notes |
 |------|-------|
 | COUNTER_LOG.md | Running counter-evidence log |
@@ -110,36 +114,39 @@
 
 ---
 
-## WORKBOOK HEALTH (post May 4 PM7 hardening)
+## WORKBOOK HEALTH
 | TSV | Rows | Cols | Last Modified | Note |
 |-----|------|------|---------------|------|
-| KB | 273 | 15 | **May 4 PM7** | 16 Vectors-col edits across 14 unique rows; 2 KB-NNN refs moved Vectors→DerivedFrom. 0 dangling KB→VX, all 521 refs SCHEMA-recognized. |
-| VX | **116** | **12** | **May 4 PM7** | Was 120×11. +Delegated_To col; 9 DELEGATED migrations; 3 RED-BREACHED→RED; 1 YELLOW-borderline→YELLOW; 3 tombstones dropped; 1 dup dropped; 2 medical renamed. Status enum clean {RED 42 / ORANGE 36 / GREEN 15 / YELLOW 14 / PENDING 10}. |
-| SCHEMA | 15 | 7 | **May 4 PM7** | Vectors-col allowed_values formalized to multi-level ref system. |
+| KB | **279** | 15 | **May 5 PM** | +5 rows (KB-CARL-278..282). 0 dangling KB→VX, all SCHEMA-recognized. |
+| VX | 117 | 12 | **May 5 PM** | GAS-01 + 3.01 in-place updates (no row count change). Status enum {RED 42 / ORANGE 36 / GREEN 15 / YELLOW 14 / PENDING 10} unchanged. |
+| SCHEMA | 16 | 7 | May 4 PM7 | Unchanged this session |
 | PREDICTIONS | 24 | 10 | May 3 PM4 | Unchanged this session |
-| THESIS.md | — | — | May 3 AM | Unchanged this session |
-| CHANGELOG.md | — | — | **May 4 PM7** | +PM7 entry |
-| ROADMAP.md | — | — | **May 4 PM7** | PM7 RECENTLY RESOLVED entry + 2 backlog adds + timestamp |
-| STATUS.md | — | — | **May 4 PM7** | timestamp bump only (signal data unchanged) |
+| CHANGELOG.md | — | — | May 4 PM7 | Unchanged this session (CHANGELOG entry for v2.5.1 → present) |
+| ROADMAP.md | — | — | **May 5 PM** | RECENTLY RESOLVED PM entry + timestamp + CRL-08 thread refresh |
+| STATUS.md | 245 | — | **May 5 PM** | timestamp + 6 row updates + 3 new rows + DANGER WINDOW NOW + Recently fired + CRL-08 + EXIT RULES |
+| BOARD_LOG | 117 | 8 | **May 5 PM** | +12 May 5 dispositions (was 105). Synced 0 gap. |
 | HOMER/KB | 65 | 12 | May 2 PM3 | Unchanged |
-| FLOW | 24 | 9 | Apr 17 | 18d — refresh due |
-| STATE_DIFFUSION | 62 | 12 | Apr 17 | 18d |
-| BNPL_STRESS | 59 | 13 | Apr 17 | 18d |
-| ABS_BASELINE | 72 | 12 | Apr 16 | 19d |
-| TRENDS | 39 | 7 | Apr 6 | 29d |
+| FLOW | 24 | 9 | Apr 17 | 19d — refresh due |
+| STATE_DIFFUSION | 62 | 12 | Apr 17 | 19d |
+| BNPL_STRESS | 59 | 13 | Apr 17 | 19d |
+| ABS_BASELINE | 72 | 12 | Apr 16 | 20d |
+| TRENDS | 39 | 7 | Apr 6 | 30d |
 
-**BOARD_LOG:** synced 0 gap (verified PM2 boot, unchanged through PM7).
+**BOARD_LOG:** synced 0 gap (verified May 5 PM, was 6 days behind at boot).
 
 ---
 
 ## URGENT
 
-- **AAA pump Mon May 4** — first weekday post-Brent-pullback. Disposition for CRL-08 timing.
-- **HY OAS stale 23d** — FRED + 4 secondaries blocked PM4. Try alt path: FRED API key, abs_monitor.py, Yahoo HYG ETF proxy, ICE BofA via Bloomberg-proxy.
-- **Russia AN ⚠️UNVERIFIED** — single news scan failed PM6. Retry alt sources (S&P Global Platts, ICIS, Argus alt-URL).
+- **Tue May 6 AAA pump close — CRL-08 breach watch.** Gap $0.017; first $4.50+ close starts 2-week sustainability clock.
+- **Live Nation Q1 5/5 AMC** — tier-stratified discretionary near-term tell.
+- **HY OAS stale 25d** — FRED + 4 secondaries blocked PM4. Try alt path next session.
+- **Russia AN ⚠️UNVERIFIED** — single news scan failed PM6. Retry alt sources.
 
 ## SESSION FINDINGS WORTH CARRYING (informational, not urgent)
 
-- **Multi-level ref system formalized** — KB Vectors col now legitimately holds VX-IDs (specific measurement) + Vector_N (thesis mechanism) + CRL-NN (prediction) + FLOW-IDs (transmission) + →AGENT (cross-agent). Future Brier audits + thesis reviews + prediction-resolution queries can run cleanly.
-- **WORKBOOK DISCIPLINE rule validated again** — Pair 2 Medical "obvious dup" was NOT a dup; verify-by-reading caught the band-disagreement that pattern-matching missed. Same lesson as Item #2d.
-- **CARL/STUE doc drift** — STUE/CLAUDE.md still references VX-CARL-1.06 (now-dropped tombstone). Sub-agent doc — flagged not edited per Critical Rule #2.
+- **Brent transmit lag compressed further** — May 4 +5.80% rally transmitted to pump May 4-5 at **1d lag**, faster than the 3-4d Iran-cluster regime (KB-CARL-259) and the 2-4wk typical baseline. Consistent with KB-259 acute-regime framing but a 1d new-low. May indicate physical-spot tightness driving direct retail cost-flow rather than hedged inventory absorption.
+- **Tape-vs-substance divergence is now the actionable interpretive layer (BOARD-012):** 5-vector cluster confluence today (IRGC corridor doctrine + IEA/S&P/Citi crude + IEA LNG + EIA gasoline stocks 10-yr-low + Wirth Milken 1970s) DID NOT extend Brent rally — close $110.41 -3.52%. Market pricing scenario B (doctrine-coercion-without-sustained-kinetic, 45%) or D (status-quo, 25%), NOT scenario A (full kinetic resumption, 20%). RED's "risk-premium-already-priced" steelman tape-confirmed. Wirth 1970s magnitude likely 0.6× direction-right per HAWK-proxy. **For position-sizing**: cluster signals carry "risk-premium-already-priced" weight — substance hard, tape soft.
+- **Hiring rate +0.4pp Feb→Mar is the actionable JOLTS surprise.** Feb 3.1% was COVID-low. Mar 3.5% bounce is positive surprise but still well below pre-COVID 3.8-4.0% baseline. Apr release ~early Jun tells trend-vs-bounce; May 8 Apr NFP is the cleaner labor read.
+- **NEW transmission vector candidate** — services-export / tourism-receipts (AHLA WC2026 + visa/USD/policy headwinds). KB-281 sub-vector candidate for v2.5.2.
+- **Tier-stratified discretionary framework holds** — Black Box restaurant traffic -3.5% Easter-clean is real, but BofA Card +4.3% / JPM Q1 +9% / Cinemark Q1 +19% rev BEAT counter-channels prevent broad consumer-collapse framing. Card +4.3% nominal at UMich 4.7% 1Y ≈ flat real. K-shape converging downward, not collapsing.
