@@ -11,19 +11,16 @@
 - [2026-04-07] **Iterative architecture, not upfront design.** Will: "treat this as a living process, iterate as we learn." Apply: ship Layer 1 before designing Layer 2/3 in detail; budget infrastructure proposals against real session cadence.
 - [2026-04-10] **One signal, multi-recipient.** Don't split same data into multiple signals because different agents care about different angles. Frame once, route via to/info fields. (FORMAT_SPEC dispatch mechanics ≠ content splitting.)
 - [2026-04-14] **Honest read over thesis-defense.** When Will asks "is X positive for our position?" give the real read — mixed/negative if true, with strongest counter-data named. KRE-XLF gap reframed thesis as "may be early not wrong" — the rigorous answer.
-- [2026-04-14] **BOARD-only delivery.** Every signal → BOARD archive always. FLASH = BOARD + Telegram-alert-Will only (no inbox push). IMMEDIATE/PRIORITY/ROUTINE = BOARD-only. Will spawns relevant agent if FLASH demands action. Codified as RULE 10 in CLAUDE.md.
 - [2026-04-14] **Image-intake batch workflow.** Will sends batches via Telegram → WALTER processes + replies with batch summary (one line per signal: ID → domain → precedence → recipient → kill reason). Auto-spawn verify-research without per-spawn permission. Flag friction in real time, not at closeout.
 - [2026-04-14] **Don't kill on lede alone.** Read the full body before classifying. Lede-only kill missed 3 hard data points in Seeking Alpha KRE piece. Distinguish weak author synthesis from named-aggregator stats (Morningstar, Redfin, BLS) — low-credibility authors can still surface real citable stats.
-- [2026-04-14] **Domain vocabulary gaps surface from real signals.** When 2+ signals don't fit canonical 13 codes in one session, that's a vocab gap. Resolution: add to FORMAT_SPEC FIRST per canonical-source rule, propagate to ROUTING_TABLE. (Apr 14 ASIA_CONTAGION + UST_FOREIGN.)
 - [2026-04-19] **Check target-agent KB before "missed context" findings.** Verify-research often surfaces domain knowledge target agent already holds. Apply: before filing "network is N weeks behind on X," grep target's own files first. WALTER doesn't need to hold BRENT's domain depth.
-- [2026-04-20] **Residential-housing → REGINALD, not CARL.** Geo-narrow residential/HOA/builder-defect/insurance-withdrawal signals route REGINALD action + CARL info, not reverse. CARL = macro-national consumer-credit primary; REGINALD = bank/CRE primary with direct earnings-week coverage. Codified as ROUTING_TABLE v0.5 exception.
 - [2026-04-20 evening] **Surface friction proactively in spec proposals.** Enumerate ambiguities/edge cases/double-counting risks in same message as draft, not after Will asks. Shortens review loop and catches problems before they're baked in.
 - [2026-04-20] **Verify when origin uses summarizing-plurals or mechanism-assertions.** "co-founders" / "all three" / "replaced with" / "swapped for" / "backed by" — these framing slots most often misrepresent primary source. Verify-research cost ~$0.05 vs downstream-overstated-thesis cost: asymmetric. Codified as Phase 1.5 trigger pattern in CHECKLIST v0.8.
 - [2026-04-25] **CORRECTED-FRAMING is becoming the dominant verify verdict** (FL Scott "43k" / FHA "180% of 2009" / DB call/put numerics / FHLB EO / Hengli novelty-framing was CONFIRMED but the recurring pattern is direction-confirmed-specifics-imprecise). Calibration: when CORRECTED-FRAMING fires, drop confidence to ~0.55, retain directional thesis, flag specifics as imprecise in dispatch_note. The verify is HIGHEST-VALUE here — separates "real thesis transmission" from "headline cherry-pick."
 - [2026-04-26] **Verify-research can have right-history-wrong-tense.** Apr 26 session: verify-research framed BRICS bases-damage signal as "active 2026 Iran war from late February" with valid NBC News primary URL. The history claim was correct (war did happen, Iran did strike 100+ targets across 11 US bases) but the tense was wrong (currently in ceasefire since Apr 8). Cost of accepting framing wholesale: would have dispatched as ACTIVE-WAR signal when current state is post-ceasefire. Discipline: cross-check current-state against MEMORY/STATUS network anchor before accepting verify framing wholesale, especially for state-that-evolves-quickly domains (Iran/Hormuz, FL drought, retail bankruptcy waves, Fed rate path).
-- [2026-04-26] **Boot with explicit war-state anchor.** Apr 26: my session-context had partial Iran-war awareness (STATUS line 36 COP-STALE + line 56 BRENT blockade) but no clean "war happened, ceasefire date, current day-count, blockade ongoing" pointer. Result: I framed Iran-cluster signals (Hengli, Pinckney, USAF airlift, M/V Sevan, Mareeyo, Pakistan diplomacy) as buildup/posture/cluster when correct frame is post-Apr-8-ceasefire dynamics under active US blockade. STATUS NETWORK AWARENESS now has explicit IRAN-WAR ANCHOR callout at top — read at boot, refresh weekly minimum or on visible state-change events.
 - [2026-04-28] **Verify-research can surface a DIFFERENT-CATEGORY catalyst than the headline implies.** Apr 28 Phoenix BTR signal: headline framed as credit-cycle ("capital dries up, layoffs"), verify-research surfaced **regulatory** catalyst (21st Century ROAD to Housing Act Senate 89-10 Mar 10-12 forcing 7-yr forced disposal of institutional 350+ SF home portfolios → BTR institutional buyer pool collapse → new-start financing freeze). This is HIGHER-VALUE than CORRECTED-FRAMING-on-magnitude — the catalyst CATEGORY moved (financial → regulatory/legislative). Apply: when verify-research pulls a different-category catalyst, that's load-bearing for routing — adds POLITICAL/LEGISLATIVE vector to a cluster that was previously credit-only, opens BARON political-network-mapping pickup, changes the timing-pivot (House reconciliation date vs credit-cycle peak). Codify in dispatch_note explicitly: "catalyst category corrected from X to Y."
 - [2026-05-05] **Sub-agent independent verdict before structural moves.** Pass 1 + Pass 2 of the BOARD INDEX cluster refactor each got an independent read-only sub-agent verification spawn between draft and execute. Pass 1 spawn returned `[LOOKS-GOOD]` with 0 forced edits + 1 marginal flag + observations on 2 small-cluster naming risks. Pass 2 spawn returned `[PASS]` 6/6 checks including byte-level row-content fidelity diff against `git show {pre-rewrite-commit}:file`. Cost ~$0.03-0.04 per spawn. Pattern: when about to ship a structural change (file rewrite, schema migration, taxonomy lock-in), spawn a sub-agent to verify against the rubric before execute — same cost as one verify-research, much higher leverage. Apply: any structural pass with an independent rubric (taxonomy doc / spec / mapping table) gets a verify spawn before commit. Will-invitation pattern works well; can also be unprompted if confidence in the structural change is shaky.
+- [2026-05-05 evening] **Discretionary-spending lens NOT concert-sales-as-thing.** Will direction (msg 1291) when batch 3 surfaced tour-cancellation-cluster (Pussycat Dolls / Kid Cudi / Trainor / Zayn / Post Malone) as candidate signal: track weakening US consumer / discretionary-demand-destruction through proxies (restaurants, travel, theme parks, cruise lines), NOT concert-sales-as-a-standalone. Tour cancellations are surface-level evidence pointing at the underlying tier-stratified demand, not the substance. Apply: when tempted to track a vertical-specific demand-destruction pattern, ask "is the lens this vertical, or is it the broader weakening-consumer signal that this vertical surfaces?" — usually the latter. Confirmed via SIG-W-20260505-010 (Black Box restaurants) framing.
 
 ## Findings
 
@@ -40,7 +37,8 @@
 - [2026-04-20] **False-petro-geopolitics cluster on X.** Apr 19-20 saw 3 hoax claims (WhaleInsider Hormuz "zero/first" MISFRAMED, Kazakhstan ban FALSE, Don Johnson 14.5mbpd-short pattern-killed). All X-platform, unsourced/secondhand, extreme-absolute. Policy: assume hoax on unsourced petro-geopolitics headlines until primary confirms.
 - [2026-04-20] **"% of 2009" and "vs peak" framings are often portfolio-size artifacts, not rate moves.** FHA "180% of 2009" was count-basis on a portfolio ~1.65x larger → rate-basis ~1.08x; actual FHA SDQ ~45% of 2009 peak. When headline compares current to prior-crisis peak using COUNTS not RATES, flag it. CORRECTED-FRAMING verdicts here are the norm.
 - [2026-04-24] **Telegram inbound flake was multi-bot token competition.** `enabledPlugins.telegram` at user-scope → every claude session spawned its own `bun server.ts` polling same token; Telegram's `getUpdates` delivers each message to ONE poller. Diagnosis: `ps -ef | grep bun.*telegram` — multiple processes = bug. Fix: move config to project-scope, kill orphan bots. Only WALTER + PROME on Telegram per root CLAUDE.md.
-- [2026-04-26 → moved to anchor file 2026-05-04 → cluster-tracking superseded 2026-05-05] **Iran-war anchor → `anchors/IRAN_WAR.md`.** Verified-as-of stamp + re-verify trigger (kinetic state-change / 7d / pre-dispatch on cluster). Iran-cluster live state in BOARD INDEX `IRAN_HORMUZ` section (22 signals as of May 5).
+- [2026-05-05 evening] **Tape-vs-substance divergence as cluster-mediating signal-type.** When a cluster's same-day intraday tape pulls back materially despite same-day cluster-substance confluence, that's a cluster-mediating signal worth dispatching as its own pattern-match — substance hard, tape soft, scenario-pricing implied. May 5 case: Brent fell ~4% intraday despite 5-vector IRAN_HORMUZ confluence (IEA inventory + LNG + EIA gasoline + IRGC corridor doctrine + Wirth Milken 1970s analog). Market pricing modal-B (doctrine-without-sustained-kinetic) per HAWK-proxy framework, NOT modal-A. RED's "risk-premium-already-priced" counter confirmed by tape. Dispatched as SIG-W-20260505-012, signal_type pattern-match, BRENT cluster-internal interpretation pickup. Apply: when substance + tape diverge same-day within an active cluster, dispatch the divergence as its own cluster-mediating signal; flag scenario-implications via dispatch_note.
+- [2026-05-05 evening] **HAWK-proxy synthesis as stop-gap when OC-side primary stale + Prome unreliable.** When an OC-side primary agent (HAWK, NEXUS, BOND, etc.) is STALE >14d AND Prome is degraded, spawn a Sonnet sub-agent for "synthesis-as-proxy" gives ~80% of agent-value at $0.10-0.15. Not a replacement for the actual agent — it's a stop-gap that fills the framing-gap until proper refresh. Pattern emerged 5/5 with HAWK-proxy synthesis (D+1 scenario distribution: A 20% / B 45% modal / C 10% / D 25%; 6 convergence-watch items; Wirth 1970s steelman + counter; HAWK refresh urgency-flag). Apply: file outbox queue request for actual-agent-refresh + spawn HAWK-proxy / NEXUS-proxy / etc. for immediate synthesis-needs. Output of proxy goes to recipient agents AS WALTER synthesis (not as OC-agent output) to preserve attribution clarity.
 - [2026-04-28] **Phoenix housing channel base-rate overstatement skew, 2/2 confirmed.** SIG-026-014 (Roger @rdd147 multi-family rents −20-25% → Yardi −4-5%) + SIG-028-004 (Hancock Builders "entire industry nationwide is shut down" → BTR new-deal financing freeze, in-flight projects continuing). Both Phoenix-area Twitter/local-news housing claims overstate. Apply: signals from Phoenix housing channels enter with prior on overstatement; verify-research is mandatory for extreme-absolute claims; calibrate confidence to ≤0.65 even after verify directional-confirms.
 
 ## References
@@ -53,48 +51,43 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (May 5 PM Tue — BOARD INDEX 3-pass cluster-organization refactor + 2 sub-agent verifications, 0 BOARD dispatches, 4 commits)
+### CHANGES SINCE LAST SESSION (May 5 evening Tue — heavy Will-image-intake session, 4 batches, 12 dispatches, 8 kills, BOARD 98→110, 9 verify-research/research-scan spawns ~$0.55)
 
-Single-arc Will-driven categorization session. End-to-end boot test of May 4-5 STATUS structure passed. Will asked about pruning/merging BOARD; I surfaced 3 goals (α/β/γ); Will picked α (categorize by cluster). 4-pass plan with checkpoints; sub-agent verification spawns between Pass 1↔2 and Pass 2↔3. Full session log entry in STATUS.md SESSION LOG.
+Heavy intake session immediately following the morning's BOARD INDEX cluster refactor. End-to-end boot test of new STATUS+anchor+INDEX-cluster structure passed cleanly. 4 image batches across ~2.5 hours; verify-research spawned where Phase 1.5 fired (5 verify-research + 1 Iran-spot-check + 1 discretionary-spending research scan + 1 HAWK-proxy synthesis spawn = 9 total). Pulled BOND refresh from Prome (commit 1a325c84). Full session log in STATUS.md.
 
-**Commits:** `e450a128` Pass 1 (CLUSTER_TAXONOMY.md v0.1 + cluster_assignment_v1.tsv 98-row mapping + CHECKLIST v0.9 + CLAUDE.md ownership row) → `8b332361` Pass 2 (INDEX flat→10 cluster sections + ToC + FORMAT_SPEC v0.7 `cluster:` field; sub-agent verified [PASS]) → `8084961a` Pass 3 (STATUS lead-paragraph + CLAUDE.md boot/protocol/key-files alignment) → this closeout.
+**Cluster updates:** IRAN_HORMUZ 22→29 (+7 nodes) — 5-vector confluence (inventory + IRGC corridor doctrine + USAF tanker stress + Wirth Milken 1970s analog + EU real-economy operator confirmation) + tape-vs-substance divergence (Brent intraday -4% despite confluence). CONSUMER_STAGFLATION 12→16 (+4 nodes) — ISM/JOLTS multi-axis + Factory Orders counter + AHLA WC + Black Box restaurants under "discretionary-demand-destruction" lens (Will direction msg 1291, NOT concert-sales-as-thing). MISC 5→6 (+1 — WHO DON599 hantavirus pandemic-meta-cluster informal watch).
 
-**Findings filed today:** Sub-agent independent verdict before structural moves (Feedback). Cluster as discovery axis not routing axis (Finding). Cluster meta-tracking moved from MEMORY to BOARD INDEX (Finding — supersedes 7 prior cluster-size-tracking entries which were trimmed).
+**Findings filed today (3):** (1) Wirth 1970s analog magnitude probably 0.6× direction-right per HAWK-proxy synthesis. (2) Tape-vs-substance divergence as cluster-mediating signal-type pattern (intraday tape pulled back ~4% despite same-day cluster-substance confluence — RED's risk-premium-already-priced counter confirmed by tape; market pricing modal-B doctrine-without-kinetic). (3) HAWK-proxy synthesis pattern (when OC-side primary is stale + Prome unreliable, spawn Sonnet sub-agent for "synthesis-as-proxy" gives 80% of agent-value at $0.10 stop-gap; not a replacement for the actual agent).
 
-**Spec changes:** FORMAT_SPEC v0.6→v0.7 (`cluster:` YAML header field). CHECKLIST v0.8→v0.9 (Phase 2 cluster-assignment step). New canonical-source `design/CLUSTER_TAXONOMY.md` v0.1.
+**Outbox queue files:** REQ-HAWK-20260505-geopolitical-driver-rebuild...md / REQ-NEXUS-20260505-cluster-classification...md / REQ-RED-20260505-wirth-1970s-analog-steelman-falsification.md.
 
-**0 BOARD dispatches.** **0 kills.** **0 signal verify-research spawns** (the 2 spawns this session were structural-review, not Phase-1.5). **Push state clean** — all 4 commits shipped to origin.
+**Spec changes:** none. (FORMAT_SPEC v0.7 + CHECKLIST v0.9 + CLUSTER_TAXONOMY v0.1 from morning session unchanged.)
+
+**12 BOARD dispatches** (-001 through -012). **8 kills.** **9 sub-agent spawns** (5 verify-research + 1 Iran-spot-check + 1 discretionary-research + 1 HAWK-proxy + 1 AHLA-WC verify). **Push state pre-closeout: clean** (origin = HEAD post Prome BOND pull; closeout commit pending).
 
 ### NEXT SESSION
 
-**Time-sensitive:**
-1. **NFP Friday May 8** — LABOR carry-forward.
-2. **OBDC Q1 Wed May 6** — BROCK pre-built threshold reads.
-3. **Q1 Call Report window May 1-10** — REGINALD recheck.
-4. **Iran-war anchor re-verify** — `anchors/IRAN_WAR.md` verified-as-of 2026-05-04, refresh boundary 2026-05-11 minimum OR earlier on visible kinetic state-change. Spot-check BRENT/HAWK/HANS at boot.
+**Time-sensitive (this/next session):**
+1. **Live Nation Q1 prints TONIGHT 5/5 post-market** — high-signal CONSUMER_STAGFLATION discretionary-sub-vector confirm/deny. Consensus 23.17M attendance vs 22.31M YoY +3.9%. Small-venue/mid-tier commentary is the cleanest tell. Surfaces tomorrow morning's intake.
+2. **OBDC Q1 Wed 5/6 AMC** — BROCK pre-built threshold reads.
+3. **NFP Friday 5/8** — LABOR carry-forward.
+4. **Q1 Call Report window May 1-10** — REGINALD recheck.
+5. **Iran-war anchor re-verify** — verified-as-of 2026-05-04, refresh boundary 2026-05-11 min OR earlier on visible kinetic state-change. Spot-check 5/5 at 21:00 UTC: NO state-change, but watch for IRGC corridor-test on non-US-flag (HAWK-proxy convergence-watch item #1) and Israeli IDF/IAF kinetic following hawkish-readiness statements 5/5.
 
-**Today's structural changes that need a boot test:**
-5. **End-to-end boot test of new BOARD INDEX cluster structure** — does cluster ToC scan cleanly? Do anchor links work? Does the new boot-step 7 instruction read sensibly? Net context-budget effect of clustered INDEX vs flat?
+**Brent tape-vs-substance status:**
+6. **Brent 5/5 close ~$109.87** (-4% intraday from 5/4 high $114.40) — risk-premium-already-priced confirmed by tape. Position-sizing implication: substance hard, tape soft. Watch 5/6 open + Asia-pre-open futures for follow-through.
 
-**Cluster taxonomy v0.1 watch items:**
-6. **FED_FRAMEWORK at 2 signals** — sub-agent flagged for v0.2 rename to UST_PLUMBING if it doesn't grow. Watch what next 2-3 macro-plumbing signals look like before deciding.
-7. **AI_INFRA_CAPEX at 3 signals** — has forward-momentum (META/MSFT capex advisory event-pending). Hold.
-8. **IRAN_HORMUZ at 22 signals** — internally heterogeneous (kinetic / sanctions / oil-supply-downstream / diplomatic). Pass 4 sub-cluster breakdown candidate IF reads dense in next session's boot.
+**Open agent / framing pickups:**
+7. **HAWK refresh urgent** — outbox queue file filed; Apr-20 framing actively misleading. HAWK-proxy synthesis 2026-05-05 available as starting framework (saves ~$0.10 on next HAWK spawn).
+8. **NEXUS classification overdue** — 5-vector IRAN_HORMUZ + 5-axis CONSUMER_STAGFLATION breakdown queued.
+9. **RED Wirth-1970s steelman** — 5-track adversarial framework filed (define-falsification + steelman + book-bias counter + magnitude-vs-direction + tape-vs-substance test).
+10. **OZK Q1 post-mortem** — REGINALD pickup pending since Apr 16.
+11. **HENRY + RED SIGNAL_INTAKE.md prompts** — saved-to-disk pending.
 
-**Carry-forward open items (full list in `LAST_COMPLETION.md` FOLLOW-UP):**
-- HAWK + HANS framing predates May 4 ceasefire-break (refresh via Will or self-spawn).
-- OZK Q1 post-mortem (REGINALD pickup pending since Apr 16).
-- NEXUS classification overdue 6+ active clusters (now NEXUS reads INDEX cluster sections directly).
-- BOARD_CONSUMPTION_SPEC propagation to 14 Tier 1 agent CLAUDE.md files.
-- HENRY + RED SIGNAL_INTAKE.md prompts.
-- Filter v2 Segment D (~1hr, decided Apr 20 option A).
-- COP refresh resume (paused Apr 14).
-- "verified-as-of" pattern extension (second anchor candidate).
-- MEMORY.md vs LAST_COMPLETION.md duplication (Pattern D, Pass 5 territory).
+**Cluster taxonomy watch items:**
+12. **CONSUMER_STAGFLATION 5-axis sub-vector breakdown** at 16 nodes — promote to CLUSTER_TAXONOMY v0.2 sub-cluster structure or hold informal? **Will sign-off needed.**
+13. **Pandemic-meta-cluster informal watch** — 1 substantive (WHO DON599) + 2 noise (FT viruses opinion / Blue-Dot-Fever). NOT cluster-spawn-yet. Trigger: 1-2 more institutional-primary pandemic-adjacent signals within 14 days.
+14. **FED_FRAMEWORK at 2 signals** — v0.2 rename to UST_PLUMBING watch (no new signals 5/5).
+15. **AI_INFRA_CAPEX at 3 signals** — META/MSFT capex Q1 prints past, watch for next intake.
 
-### OPEN DESIGN DECISIONS (need Will — full list in LAST_COMPLETION.md)
-
-- **Pass 4 of cluster refactor** — sub-cluster breakdown for IRAN_HORMUZ + POSITIONING_VALUATION? Decide after boot test in next session.
-- **FED_FRAMEWORK rename to UST_PLUMBING** — watch 2-3 next macro-plumbing signals before deciding v0.2 taxonomy edit.
-- **Cluster status flags** (🟢/🟡/🔴/⚫) — reserved for v0.2 in CLUSTER_TAXONOMY.md; ship when stale-cluster identification becomes useful.
-- Pre-existing: "verified-as-of" pattern extension / MEMORY-LAST_COMP duplication / lead-paragraph cadence / Filter v2 Segment D / autonomous news-scan policy / BOARD_CONSUMPTION rollout / COP refresh resume / NEXUS classification cadence.
+**Carry-forward + OPEN DESIGN DECISIONS:** see canonical running list in `LAST_COMPLETION.md` FOLLOW-UP + OPEN DESIGN DECISIONS sections. (Eliminating Pattern-D duplication between MEMORY NEXT SESSION and LAST_COMPLETION FOLLOW-UP — MEMORY keeps time-sensitive boot-prompts only; LAST_COMP holds the full list.)
