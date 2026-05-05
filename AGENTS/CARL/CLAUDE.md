@@ -276,6 +276,7 @@ Score recalibration history: 58/60 (v2.4) → **53/70 (v2.5, May 1)** on matrix 
 | `inbox/` | Inbound signals. Process when spawned for it. |
 | `outbox/` | Outbound signals. One file per signal. HERMES delivery degraded — see Messaging rules. |
 | `handoff_RED/` | Transitional staging (May 1 2026): counter-evidence + alternative hypotheses (SOFT_LANDING, CONTAINMENT, COUNTER_LOG) staged for transfer to RED. Counter-signal work belongs to RED at the system level — CARL is bear-thesis specialist, not its own red team. Do NOT maintain these files; they are awaiting RED pickup. |
+| `handoff_WALTER/` | CARL ↔ WALTER liaison channel (May 5 2026 onward). `LIAISON.md` is append-only turn-by-turn dialog about *routing rules* — what BOARD signals should come to CARL, calibration on disposition patterns, edge cases. Distinct from BOARD itself (which is the routing). Will mediates turns. Append turns when prompted; don't edit prior turns. Conventions in `handoff_WALTER/README.md`. |
 | `thesis/THESIS.md` | Thesis of record — "Beneath the Ice" v2.5.1, load-bearing vectors, convergence matrix (canonical), exit rules, masking + K-shape Selection + Tariff Transmission frameworks. Read when assessing conviction or trade proposals. |
 | `thesis/PREDICTIONS.tsv` | Trackable predictions with resolution dates + invalidation criteria. |
 | `thesis/CHANGELOG.md` | Audit trail of thesis evolution — every version bump, prediction change, structural shift logged with what/why/old→new. |
