@@ -1,5 +1,12 @@
 # COP — Common Operating Picture
-**Updated:** 2026-04-13 20:30 UTC (Sun) | **WALTER v0.3** | **Mode:** NORMAL
+
+> 🛑 **PAUSED 2026-04-14 — DO NOT ACT ON CONTENT BELOW.**
+> Refresh deprioritized by Will to focus on signal-routing throughput. Content below frozen at v0.3 (Apr 13 state) and is **22+ days stale and actively misleading** — references Islamabad collapse / OZK Apr 16 / WAL Apr 21 / Apr 22 ceasefire-expiry framing. Real Apr 8 ceasefire held until 2026-05-04 then broke (Iran cruise+drone strike on UAE Fujairah / Project Freedom launched).
+> **For live state:** `AGENTS/WALTER/STATUS.md` (operational dashboard) + `AGENTS/WALTER/anchors/IRAN_WAR.md` (verified-as-of 2026-05-04 anchor) + `BOARD/INDEX.md` (signal archive). Resume trigger for COP refresh: Will's call.
+
+---
+
+**Updated:** 2026-04-13 20:30 UTC (Sun) | **WALTER v0.3** | **Mode:** NORMAL — *⚠️ frozen, see banner above*
 **Network Status:** 🔴🔴 **ISLAMABAD COLLAPSED — BLOCKADE ANNOUNCED** — Path A (squeeze) reversed in 24 hours. Oil back above $98, ceasefire dead, OZK earnings in 3 days, RED falsification Day 3+ unprocessed. Consumer stress deepening underneath.
 
 ---
