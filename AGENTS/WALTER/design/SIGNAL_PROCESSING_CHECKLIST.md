@@ -1,5 +1,5 @@
 # WALTER Signal Processing Checklist
-**Version:** 0.8 | **Date:** April 20, 2026 (Filter v2 Segment C — Phase 1 step 2.5 verify-research trigger check added) | **v0.7:** April 20, 2026 (Filter v2 Segment B — Phase 1b same-theme combine step added) | **v0.6:** April 11, 2026 PM (canonical Domain Vocabulary referenced — Gap C resolved) | **v0.5:** April 11, 2026 PM (Phase 1 reconciled with FILTER_SPEC v0.2 unified filter model) | **v0.4:** April 11, 2026 (header schema reconciled, conflict_zone clarified) | **v0.3:** April 10, 2026 (confidence model reconciled) | **v0.2:** April 10, 2026 (worked example added) | **v0.1:** April 7, 2026
+**Version:** 0.9 | **Date:** May 5, 2026 (Cluster assignment step added to Phase 2 per CLUSTER_TAXONOMY.md v0.1 — every dispatched signal lands in exactly one primary cluster) | **v0.8:** April 20, 2026 (Filter v2 Segment C — Phase 1 step 2.5 verify-research trigger check added) | **v0.7:** April 20, 2026 (Filter v2 Segment B — Phase 1b same-theme combine step added) | **v0.6:** April 11, 2026 PM (canonical Domain Vocabulary referenced — Gap C resolved) | **v0.5:** April 11, 2026 PM (Phase 1 reconciled with FILTER_SPEC v0.2 unified filter model) | **v0.4:** April 11, 2026 (header schema reconciled, conflict_zone clarified) | **v0.3:** April 10, 2026 (confidence model reconciled) | **v0.2:** April 10, 2026 (worked example added) | **v0.1:** April 7, 2026
 
 One-page operational reference for processing incoming signals. Derived from 10 research prompts across emergency medicine, military communications, ATC, pub/sub systems, intelligence dissemination, emergency dispatch, scientific alerts, open output systems, newsroom editorial, and trading desk operations.
 
@@ -140,6 +140,16 @@ The numerical score lives in the YAML header for machine routing. The language t
 - 🔴 Contradicts thesis or threatens position (major counter-signal)
 
 > **Why this is not a header field:** A signal's conflict_zone is recipient-dependent — the same signal can be 🟢 for CARL (confirms consumer stress) and 🔴 for HENRY (contradicts Fed-trap resolution). Baking one conflict_zone label into the header would collapse that nuance. Instead: use this step to sharpen the **Relevance** body section so each recipient sees the signal through their own thesis lens. If you need a header-level marker for machine filtering, use `signal_type` (which IS in FORMAT_SPEC) — e.g. `counter-evidence` vs `thesis-confirmation`.
+
+**Cluster assignment** (added v0.9, 2026-05-05): Every dispatched signal lands in exactly one primary cluster per `design/CLUSTER_TAXONOMY.md`. Decide before writing the signal file:
+
+```
+1. Which cluster does this fit? Pick from the 10 buckets in CLUSTER_TAXONOMY.md.
+2. Does it fit two? Apply edge-case rules (substance > mechanism > action-recipient).
+3. Doesn't fit any? → MISC. New cluster only with explicit Will sign-off (≥3 signals on a coherent new theme + expected forward-momentum).
+```
+
+The cluster is written to the signal YAML header (`cluster: <NAME>`) AND determines which section of `/BOARD/INDEX.md` the dispatch row lands in. CLUSTER_TAXONOMY.md is canonical-source for the bucket names — don't invent.
 
 **Superevent check:** Do any signals from this session GROUP into a convergence event more significant than its parts?
 
@@ -373,4 +383,4 @@ I initially drafted a SECOND signal (SIG-W-20260410-002, CPI-only with HENRY act
 
 ---
 
-*Operational checklist — derived from 10 research prompts | v0.1: April 7, 2026 | v0.2: April 10, 2026 (worked example added) | v0.3: April 10, 2026 (confidence model reconciled) | v0.4: April 11, 2026 (header schema reconciled; conflict_zone clarified) | v0.5: April 11, 2026 (Phase 1 reconciled with FILTER_SPEC v0.2 unified filter model — Gap B resolved) | v0.6: April 11, 2026 PM (canonical Domain Vocabulary referenced — Gap C resolved) | v0.7: April 20, 2026 (Filter v2 Segment B — Phase 1b same-theme combine check added between intake and classify, references FORMAT_SPEC v0.6 Multi-Origin Signals) | v0.8: April 20, 2026 (Filter v2 Segment C — Phase 1.5 verify-research framing audit codified with 4 trigger patterns, spawn discipline, and 4-verdict handling)*
+*Operational checklist — derived from 10 research prompts | v0.1: April 7, 2026 | v0.2: April 10, 2026 (worked example added) | v0.3: April 10, 2026 (confidence model reconciled) | v0.4: April 11, 2026 (header schema reconciled; conflict_zone clarified) | v0.5: April 11, 2026 (Phase 1 reconciled with FILTER_SPEC v0.2 unified filter model — Gap B resolved) | v0.6: April 11, 2026 PM (canonical Domain Vocabulary referenced — Gap C resolved) | v0.7: April 20, 2026 (Filter v2 Segment B — Phase 1b same-theme combine check added between intake and classify, references FORMAT_SPEC v0.6 Multi-Origin Signals) | v0.8: April 20, 2026 (Filter v2 Segment C — Phase 1.5 verify-research framing audit codified with 4 trigger patterns, spawn discipline, and 4-verdict handling) | v0.9: May 5, 2026 (Cluster assignment step added to Phase 2 per CLUSTER_TAXONOMY.md v0.1 — every dispatched signal lands in exactly one primary cluster, header gets `cluster:` field, INDEX section is determined by cluster)*

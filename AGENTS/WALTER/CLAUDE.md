@@ -154,6 +154,7 @@ When modifying any design document, check which doc *owns* the concept before ed
 | WALTER operational state, filter posture, session log | `STATUS.md` | — |
 | WALTER spawn protocol + rules | `CLAUDE.md` (this file) | STATUS.md |
 | **BOARD consumption tracking (`board_log.tsv` schema + boot-step template)** | `design/BOARD_CONSUMPTION_SPEC.md` | Each agent's `AGENTS/<NAME>/CLAUDE.md` boot block |
+| **Cluster taxonomy (10 named buckets for BOARD INDEX sectioning)** | `design/CLUSTER_TAXONOMY.md` | `/BOARD/INDEX.md` section structure, signal YAML `cluster:` header (FORMAT_SPEC update pending), STATUS.md cluster references |
 
 **When the owner isn't obvious:** default to FORMAT_SPEC for anything about signals, ROUTING_TABLE for anything about who gets what, FILTER_SPEC for anything about filtering, CHECKLIST for anything about process. If still unclear, ask Will before editing.
 
