@@ -1,10 +1,11 @@
-Signal_ID	Date	Domain	Precedence	Disposition	KB_Refs	Date_Logged	Notes
+Signal_ID	Date	Domain	Precedence	Disposition	KB_Refs	Date_Logged	Notes	Post_Hoc_Conf
 # CARL BOARD integration ledger. Append-only. On every spawn, diff BOARD/INDEX.md against Signal_ID column — anything not present needs disposition.
 # Disposition values:
 #   CARL_ORIGIN — CARL dispatched via WALTER; origin content already in own KB
 #   INTEGRATED — loaded to CARL KB/STATUS/thesis this session, material impact
 #   INFO_ONLY — noted, limited KB action, cached for recall
 #   REFERRED — other agent's primary domain, no CARL action
+# Post_Hoc_Conf — CARL's confidence (0.0-1.0) after own due-diligence pass, populated only when it differs from WALTER's dispatched verify-research verdict. Empty = CARL agrees with dispatched verdict OR no separate verification performed. Added 2026-05-05 PM per CARL↔WALTER LIAISON Turn 3 (Q7 calibration loop).
 SIG-W-20260410-001	2026-04-10	MACRO_INFLATION	IMMEDIATE	CARL_ORIGIN		2026-04-19	CPI 3.3% YoY + UMich 47.6 stagflation lock — CARL dispatched; content in prior KB
 SIG-W-20260411-001	2026-04-11	Adversarial meta	IMMEDIATE	REFERRED		2026-04-19	RED pre-registered falsification rule pierced; RED/HENRY scope
 SIG-W-20260411-002	2026-04-11	Coordination	PRIORITY	REFERRED		2026-04-19	FORGE/STATUS.md stale; PROME coordination, not CARL
@@ -110,7 +111,7 @@ SIG-W-20260505-004	2026-05-05	GEOPOL_ENERGY	IMMEDIATE	REFERRED		2026-05-05	IRGC 
 SIG-W-20260505-005	2026-05-05	GEOPOL_ENERGY	PRIORITY	REFERRED		2026-05-05	2x USAF tanker squawk-7700 5/5 (CORRECTED-FRAMING — return-flight emergencies on continuous Tel Aviv tanker baseline since Feb, NOT inbound buildup); BRENT/HAWK primary
 SIG-W-20260505-006	2026-05-05	MACRO_INFLATION+LABOR	PRIORITY	INTEGRATED	KB-CARL-279,KB-CARL-280	2026-05-05	ISM Services Apr 53.6 / New Orders 60.6→53.5 -7.1pp / Prices Paid 70.7 highest since late 2022 + JOLTS Mar 6.866M openings / 3.5% hiring rate; multi-axis stagflation soft-landing stress; CARL primary
 SIG-W-20260505-007	2026-05-05	MACRO_INFLATION	PRIORITY	INFO_ONLY		2026-05-05	Census M3 Factory Orders Mar +1.5% MoM beat 0.5% est; counter-evidence within CONSUMER_STAGFLATION cluster; RED primary; capex +3.4% Daily Chartbook claim flagged for verify (conflict with Census nondefense capex -1.2% top-line)
-SIG-W-20260505-008	2026-05-05	CONSUMER_CREDIT/MACRO	PRIORITY	INTEGRATED	KB-CARL-281	2026-05-05	AHLA FIFA WC 2026 hotel outlook ~80% host-city hoteliers below projections (KC -85-90% cannibalizing summer baseline); NEW services-export/international-inbound demand-destruction transmission vector; visa/USD/policy drivers
+SIG-W-20260505-008	2026-05-05	CONSUMER_CREDIT/MACRO	PRIORITY	INTEGRATED	KB-CARL-281	2026-05-05	AHLA FIFA WC 2026 hotel outlook ~80% host-city hoteliers below projections (KC -85-90% cannibalizing summer baseline); NEW services-export/international-inbound demand-destruction transmission vector; visa/USD/policy drivers. Post-hoc downgrade 0.90→0.82 reflects AHLA-member-bias structural counter (survey doubles as policy-pressure tool; STR/CoStar methodologically-cleaner cross-check not pulled).	0.82
 SIG-W-20260505-009	2026-05-05	OIL_ENERGY	IMMEDIATE	INFO_ONLY	KB-CARL-278	2026-05-05	Chevron CEO Wirth Bloomberg TV Milken 5/4 — physical oil shortages "starting to appear" + EU jet fuel "tightening very quickly" + "potentially as big as 1970s"; EU airlines op confirmed (Lufthansa 20K cancellations + Spirit BK weekend); Vector #5/#12 reinforcement; Fed-reaction-function relevance
 SIG-W-20260505-010	2026-05-05	CONSUMER_CREDIT/MACRO	PRIORITY	INTEGRATED	KB-CARL-282	2026-05-05	Black Box Intel Apr restaurants SSS -0.4% / TRAFFIC -3.5% (Easter-clean) / 2nd decline in 3mo; Will-explicit discretionary-demand-destruction tracking lens; tier-stratified not consumer-collapse (BofA Checkpoint +4.3% counter); Live Nation Q1 5/5 AMC near-term watch
 SIG-W-20260505-011	2026-05-05	HEALTH/CRUISE_SENTIMENT	PRIORITY	INFO_ONLY		2026-05-05	WHO DON599 hantavirus cluster MV Hondius cruise (boutique polar expedition Dutch-flagged — NOT CCL/RCL/NCLH tier); ANDV strain confirmed; WHO LOW global risk; sentiment-only transmission to major-cruise tickers; pandemic-meta-cluster informal watch (1 substantive + 2 noise — no spawn yet)
