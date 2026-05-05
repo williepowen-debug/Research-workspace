@@ -1,0 +1,99 @@
+SIG_ID	DATE	DOMAIN_CODES	PRIMARY_CLUSTER	SECONDARY	NOTES
+SIG-W-20260410-001	2026-04-10	MACRO_INFLATION / CONSUMER_CREDIT	CONSUMER_STAGFLATION		Foundational early node (CPI + UMich prelim 47.6); refined later by 426-008 final
+SIG-W-20260411-001	2026-04-11	(adversarial meta)	MISC		RED falsification rule firing — internal-rule event, not market data
+SIG-W-20260411-002	2026-04-11	(coordination)	MISC		FORGE STATUS stale refresh request — process-coord singleton
+SIG-W-20260414-001	2026-04-14	CONSUMER_CREDIT	CONSUMER_STAGFLATION		Lummis Meals on Wheels — early consumer-stress narrative node
+SIG-W-20260414-002	2026-04-14	PRIVATE_CREDIT	PC_STRESS		TCW Red Lobster 98% writedown — foundational PC-stress node (mark-to-model fiction)
+SIG-W-20260414-003	2026-04-14	MARKET_VOL	MISC		SEC PDT rule elimination — market-structure singleton
+SIG-W-20260414-004	2026-04-14	FUNDING_LIQUIDITY	PC_STRESS		IMF GFSR — names PC + NBFI as drivers; 2nd PC-stress node Apr 14
+SIG-W-20260414-005	2026-04-14	BANK_CRE	BANK_COLLATERAL		ROAD Act original mention + Freddie K-098 — first ROAD Act node (later joined by 428-004 + 429-005)
+SIG-W-20260414-006	2026-04-14	MARKET_VOL	POSITIONING_VALUATION		GS Prime HF cover — early positioning-cluster node (Apr 14, pre-Apr-19 cascade)
+SIG-W-20260414-007	2026-04-14	MACRO_INFLATION	CONSUMER_STAGFLATION		March PPI gas/energy shock — stagflation transmission via fuel
+SIG-W-20260414-008	2026-04-14	MARKET_VOL	POSITIONING_VALUATION		DB Financials positioning gap — pre-OZK/WAL-earnings positioning extreme
+SIG-W-20260414-009	2026-04-14	OIL_ENERGY	IRAN_HORMUZ		Baker Hughes rigs flat — supply-response-lag intact post-Islamabad
+SIG-W-20260414-010	2026-04-14	ASIA_CONTAGION	ASIA_CHINA		FT China Shock 2.0 Part 1
+SIG-W-20260414-011	2026-04-14	ASIA_CONTAGION	ASIA_CHINA		FT China export controls tripled
+SIG-W-20260414-012	2026-04-14	(counter-meta)	MISC		KRE-XLF outperformance counter — adversarial counter-evidence singleton
+SIG-W-20260416-001	2026-04-16	OIL_ENERGY	IRAN_HORMUZ		Kpler oil destocking — global supply-tightness observation downstream of Iran/Hormuz
+SIG-W-20260416-002	2026-04-16	OIL_ENERGY	HYDROCARBON_INFRA		Viva Geelong refinery fire — first HYDROCARBON_INFRA cluster node
+SIG-W-20260416-003	2026-04-16	MARKET_VOL	POSITIONING_VALUATION		NDX RSI 30→70 + SPX breadth — positioning extreme into Apr 21 catalyst
+SIG-W-20260419-001	2026-04-19	AUTO_FRAUD_TRANSMISSION / BANK_CRE	BANK_COLLATERAL		Tricolor MTB ABS — auto-fraud → bank-collateral channel; 5th named bank
+SIG-W-20260419-002	2026-04-19	MARKET_VOL	POSITIONING_VALUATION		VIOLET SKEW divergence — Apr 19 cluster
+SIG-W-20260419-003	2026-04-19	MARKET_VOL	POSITIONING_VALUATION		VIOLET POSTURE elevated — Apr 19 cluster
+SIG-W-20260419-004	2026-04-19	MARKET_VOL	POSITIONING_VALUATION		Wyckoff/NDX parabolic — Apr 19 cluster
+SIG-W-20260419-005	2026-04-19	MARKET_VOL	POSITIONING_VALUATION		Buffett Indicator 232.6% ATH verified
+SIG-W-20260419-006	2026-04-19	OIL_ENERGY	IRAN_HORMUZ		Trump WH Sit Room Iran + Bessent — Apr 19 Iran day-cluster start
+SIG-W-20260419-007	2026-04-19	MARKET_VOL	POSITIONING_VALUATION		Altrichter VIX panel + OVX divergence
+SIG-W-20260419-008	2026-04-19	MARKET_VOL	POSITIONING_VALUATION		DDS 13-day rally extremity claim
+SIG-W-20260419-009	2026-04-19	MARKET_VOL	POSITIONING_VALUATION		Zaccardi Finviz heatmap interior drawdowns
+SIG-W-20260419-010	2026-04-19	OIL_ENERGY	IRAN_HORMUZ		Hormuz Gulf normalization (corrected by -014)
+SIG-W-20260419-011	2026-04-19	MARKET_VOL	POSITIONING_VALUATION		Detrick SPX>20-day-MA counter — counter-evidence within cluster
+SIG-W-20260419-012	2026-04-19	MARKET_VOL	POSITIONING_VALUATION		Sethi Morningstar 15% vol counter
+SIG-W-20260419-013	2026-04-19	MARKET_VOL	POSITIONING_VALUATION		BRK vs SPY post-Buffett-retirement — quality not participating
+SIG-W-20260419-014	2026-04-19	OIL_ENERGY	IRAN_HORMUZ		Iran reclosed Strait of Hormuz Apr 18 verified
+SIG-W-20260419-015	2026-04-19	BANK_CRE / CONSUMER_CREDIT	CONSUMER_STAGFLATION	BANK_COLLATERAL	NFIB CapEx GFC-low + Sub-V bankruptcies +67% — small-biz canary
+SIG-W-20260419-016	2026-04-19	FUNDING_LIQUIDITY / MARKET_VOL	POSITIONING_VALUATION		BofA largest weekly MMF outflow
+SIG-W-20260419-017	2026-04-19	MARKET_VOL	POSITIONING_VALUATION		Bilello VIX/SPX 3-wk extremity counter
+SIG-W-20260419-018	2026-04-19	MARKET_VOL / FUNDING_LIQUIDITY	POSITIONING_VALUATION		Triple short-squeeze data $93B cover
+SIG-W-20260419-019	2026-04-19	FUNDING_LIQUIDITY / MARKET_VOL	POSITIONING_VALUATION		LTM fund flows bonds/MMF/equities
+SIG-W-20260419-020	2026-04-19	CONSUMER_CREDIT / BANK_CRE	BANK_COLLATERAL	CONSUMER_STAGFLATION	ATTOM Q1 foreclosures +26% YoY — residential default cycle
+SIG-W-20260419-021	2026-04-19	OIL_ENERGY	IRAN_HORMUZ		MS 1990-vs-2026 oil-shock framework (counter on transmission logic)
+SIG-W-20260419-022	2026-04-19	OIL_ENERGY	IRAN_HORMUZ		EAM HFGCS + E-6B observation — Apr 19 Iran day-cluster
+SIG-W-20260419-023	2026-04-19	MARKET_VOL	POSITIONING_VALUATION		Barchart CPC 0.66 most bullish since 2021
+SIG-W-20260419-024	2026-04-19	OIL_ENERGY / Iran posture	IRAN_HORMUZ		USS Ford+Mahan+Churchill+Lincoln + Iran rejects 2nd round talks
+SIG-W-20260419-025	2026-04-19	MARKET_VOL	POSITIONING_VALUATION		GS L/S ratio cluster refinement (macro shorts elevated)
+SIG-W-20260419-026	2026-04-19	OIL_ENERGY / Iran kinetic	IRAN_HORMUZ		Trump announces Navy destroyer intercepts Iranian-flag vessel
+SIG-W-20260419-027	2026-04-19	OIL_ENERGY / policy-statement	CONSUMER_STAGFLATION		Energy Sec gasoline above $3 — weak sourcing; consumer-fuel cost framing
+SIG-W-20260419-028	2026-04-19	OIL_ENERGY / SoH mechanism	IRAN_HORMUZ		OSINT MarineTraffic SoH attacks turnarounds
+SIG-W-20260419-029	2026-04-19	OIL_ENERGY / state-response	IRAN_HORMUZ		Netherlands LCP-O Phase 1 — first NATO-state response codified
+SIG-W-20260419-030	2026-04-19	MARKET_VOL / OIL_ENERGY	IRAN_HORMUZ	AI_INFRA_CAPEX	Qatar LNG (Iran-driven) + Taiwan + hyperscaler — composite, IRAN_HORMUZ primary substance
+SIG-W-20260420-001	2026-04-20	OIL_ENERGY / GEOPOL_ENERGY	HYDROCARBON_INFRA		Tuapse refinery + Black Sea port 2nd strike (Russia oil-infra)
+SIG-W-20260420-002	2026-04-20	OIL_ENERGY	HYDROCARBON_INFRA		Pachpadra Rajasthan refinery fire (HPCL greenfield)
+SIG-W-20260420-003	2026-04-20	OIL_ENERGY (meta-pattern)	HYDROCARBON_INFRA		Non-ME 11-event aggregation (Mar 1–Apr 15)
+SIG-W-20260420-004	2026-04-20	PRIVATE_CREDIT	PC_STRESS		Blue Owl founders unwind $1.1B pledged-share loans
+SIG-W-20260420-005	2026-04-20	BANK_CRE / INSURANCE_SHADOW	BANK_COLLATERAL		NV HOA dysfunction pattern — 2027-28 horizon tracker signal
+SIG-W-20260420-006	2026-04-20	BANK_CRE / CONSUMER_CREDIT	BANK_COLLATERAL		Spring lock surge + ARM share — counter-evidence within cluster
+SIG-W-20260420-007	2026-04-20	BANK_CRE (regulatory)	BANK_COLLATERAL		FHLB roadmap Trump mortgage credit EO — counter (bailout-infra)
+SIG-W-20260420-008	2026-04-20	BANK_CRE	BANK_COLLATERAL		Distressed office sales $5B + price-discovery reset
+SIG-W-20260420-009	2026-04-20	PRIVATE_CREDIT / MACRO_INFLATION / OIL_ENERGY	PC_STRESS	IRAN_HORMUZ	Fitch Q2 brief — Iran war + AI software twin risks; BDC redemption +36% QoQ load-bearing
+SIG-W-20260420-010	2026-04-20	MARKET_VOL	POSITIONING_VALUATION		DB call/put extremity — verify INDETERMINATE
+SIG-W-20260424-001	2026-04-24	LABOR / BANK_CRE	CONSUMER_STAGFLATION		FL state unemployment > US first time — Scott "43k" CORRECTED-FRAMING
+SIG-W-20260424-002	2026-04-24	OIL_ENERGY / ASIA_CONTAGION	IRAN_HORMUZ	ASIA_CHINA	OFAC Hengli Dalian flagship teapot sanction — Iran-cluster sanctions enforcement
+SIG-W-20260424-003	2026-04-24	GEOPOL_NON_ENERGY / OIL_ENERGY	IRAN_HORMUZ		Iran diplomacy cascade Apr 24 — Araghchi Islamabad + Witkoff/Kushner
+SIG-W-20260424-004	2026-04-24	MARKET_VOL	POSITIONING_VALUATION		Kobeissi $9.7B Nasdaq futures 10yr-record
+SIG-W-20260424-005	2026-04-24	BANK_CRE	BANK_COLLATERAL		US office vacancy Q1 2026 = 20.2%, every MSA ≥20%
+SIG-W-20260424-006	2026-04-24	FUNDING_LIQUIDITY / MARKET_VOL	PC_STRESS		Man Group $6B single-client withdrawal — 3rd asset-mgr-stress node
+SIG-W-20260424-007	2026-04-24	CONSUMER_CREDIT	CONSUMER_STAGFLATION		NY Fed CC 90+ delinq 12.7% approaching 2009-10 peak
+SIG-W-20260424-008	2026-04-24	OIL_ENERGY / MACRO_INFLATION	HYDROCARBON_INFRA		Corpus Christi water emergency Sept 2026 ~870 kbpd refining at risk
+SIG-W-20260424-009	2026-04-25	OIL_ENERGY / GEOPOL_ENERGY	HYDROCARBON_INFRA		Ukraine mass drone+missile Crimea+W Russia — 3rd-4th theater oil-infra
+SIG-W-20260424-010	2026-04-25	GEOPOL_ENERGY	IRAN_HORMUZ		USAF ME airlift surge + 3-carrier CENTCOM (1st since 2003)
+SIG-W-20260424-011	2026-04-25	OIL_ENERGY / CONSUMER_CREDIT	CONSUMER_STAGFLATION		LV airline 60K seat cut + Delta RDU-LAS suspension — jet-fuel demand-destruction
+SIG-W-20260424-012	2026-04-25	PRIVATE_CREDIT / MARKET_VOL	AI_INFRA_CAPEX	PC_STRESS	SoftBank $10B margin loan backed by OpenAI shares — substance is AI capex financing
+SIG-W-20260424-013	2026-04-25	OIL_ENERGY	HYDROCARBON_INFRA		Gujarat Jhagadia GIDC chemical-unit explosion
+SIG-W-20260426-001	2026-04-26	FUNDING_LIQUIDITY / BANK_CRE	FED_FRAMEWORK		Beckworth Fed framework shift — first FED_FRAMEWORK node
+SIG-W-20260426-002	2026-04-26	BANK_CRE / CONSUMER_CREDIT	BANK_COLLATERAL		Residential housing prices weakening — Zillow + Realtor combined Phase 1b
+SIG-W-20260426-003	2026-04-26	OIL_ENERGY	HYDROCARBON_INFRA		LA pipeline explosion St. Helena Parish — 5th hydrocarbon-infra node
+SIG-W-20260426-004	2026-04-26	OIL_ENERGY / CONSUMER_CREDIT	CONSUMER_STAGFLATION		AAL $4B fuel-cost 2026 — jet-fuel transmission to consumer
+SIG-W-20260426-005	2026-04-26	CONSUMER_CREDIT / LABOR	CONSUMER_STAGFLATION		Farm bankruptcies +46% YoY — 70% Midwest CORRECTED-FRAMING (growth rate not share)
+SIG-W-20260426-006	2026-04-26	OIL_ENERGY / LABOR	CONSUMER_STAGFLATION		Goldman Mei oil-shock framework 10K-jobs/month payroll-slowdown
+SIG-W-20260426-007	2026-04-26	OIL_ENERGY / GEOPOL_ENERGY	IRAN_HORMUZ		USS Pinckney intercepts M/V Sevan (Iran shadow-fleet) — sequential after Hengli
+SIG-W-20260426-008	2026-04-26	MACRO_INFLATION / CONSUMER_CREDIT	CONSUMER_STAGFLATION		UMich April final 49.8 — refines 410-001; 1Y inflation expectations 4.7% (jump from 3.8%)
+SIG-W-20260426-009	2026-04-26	BANK_CRE	BANK_COLLATERAL		Baltimore CRE >$1B erased / 29% of properties / MTB BAL-HQ angle
+SIG-W-20260426-010	2026-04-26	UST_FOREIGN	FED_FRAMEWORK		Apollo private > foreign CB UST holdings first time
+SIG-W-20260426-011	2026-04-26	OIL_ENERGY / GEOPOL_ENERGY	IRAN_HORMUZ		UKMTO 045-26 Mareeyo Somalia tanker hijack — possible Iran-shadow-fleet evasion
+SIG-W-20260426-012	2026-04-26	PRIVATE_CREDIT / BANK_CRE	PC_STRESS		Bloomberg Apr 11 Fed seeks bank-PC-exposure details
+SIG-W-20260426-013	2026-04-26	GEOPOL_NON_ENERGY / OIL_ENERGY	IRAN_HORMUZ		Iran delegation Pakistan departure — channel disrupted not dead
+SIG-W-20260426-014	2026-04-26	BANK_CRE	BANK_COLLATERAL		Phoenix + Denver multi-family rents stress (Yardi correction -4-5% not -20-25%)
+SIG-W-20260426-015	2026-04-26	GEOPOL_NON_ENERGY	IRAN_HORMUZ		NBC US ME bases damage from prior strikes (historical, post-Will-clarification reframe)
+SIG-W-20260428-001	2026-04-28	ASIA_CONTAGION	ASIA_CHINA		China FRED BIS real residential prices below 2005 baseline
+SIG-W-20260428-002	2026-04-28	PRIVATE_CREDIT	AI_INFRA_CAPEX	PC_STRESS	OpenAI/Friar revenue/user miss + ~$600B capex — substance is AI capex sustainability
+SIG-W-20260428-003	2026-04-28	BANK_CRE	BANK_COLLATERAL		Louisville Kentucky Home Life Building $15M→$4.67M credit bid 69% erasure
+SIG-W-20260428-004	2026-04-28	BANK_CRE	BANK_COLLATERAL		Phoenix BTR ROAD Act regulatory financing freeze — political-legislative vector
+SIG-W-20260428-005	2026-04-28	PRIVATE_CREDIT	PC_STRESS		Boaz Weinstein Saba cut-price exit REJECTED by Blue Owl investors — 2-sided OWL pressure
+SIG-W-20260428-006	2026-04-28	GEOPOL_NON_ENERGY	IRAN_HORMUZ		Merz "US humiliated by Iran / no exit strategy" — ally-channel diplomatic credibility erosion
+SIG-W-20260428-007	2026-04-28	(single-stock FRAUD-pattern)	MISC		INTC CAO Gawel resigns post-earnings — fraud-pattern singleton
+SIG-W-20260429-001	2026-04-29	OIL_ENERGY / GEOPOL_ENERGY	IRAN_HORMUZ		Brent ~$115 8-session streak Jun-2022-high — first clean threshold-cross
+SIG-W-20260429-002	2026-04-29	PRIVATE_CREDIT	PC_STRESS		OCIC/OTIC redemption-cap reactivation pre-OWL Q1 — Bloomberg "Doomsday" reframing
+SIG-W-20260429-003	2026-04-29	GEOPOL_NON_ENERGY	IRAN_HORMUZ		Iranian rial record low IRR/USD ~1.81M (+15% in 2 days)
+SIG-W-20260429-004	2026-04-29	AI_INFRA_CAPEX	AI_INFRA_CAPEX		META + MSFT Q1 prints AMC — capex advisory event-pending
+SIG-W-20260429-005	2026-04-29	BANK_CRE	BANK_COLLATERAL		ROAD Act 76 House lawmakers letter Sec 901 — legislative-process update on 428-004

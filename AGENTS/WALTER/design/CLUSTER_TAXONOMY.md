@@ -1,0 +1,110 @@
+# WALTER Cluster Taxonomy
+
+**Version:** v0.1 (draft) | **Date:** 2026-05-05 (Pass 1 of BOARD INDEX cluster-organization refactor)
+
+**Purpose:** Canonical source for cluster names used to categorize dispatched signals in `/BOARD/INDEX.md`. Cluster names also appear (and previously drifted) in `STATUS.md`, signal bodies, and MEMORY.md `Findings`. This file is the single source of truth — other docs reference these names, never invent.
+
+**Spec ownership:** WALTER CLAUDE.md canonical-source-lookup table maps "cluster taxonomy" to this file. Edits to cluster names, additions, or deletions land here first, then propagate.
+
+---
+
+## Why clusters exist
+
+WALTER dispatches one signal at a time, but signals don't arrive in isolation — they form themes that the network already discusses informally ("PC-stress meta-cluster ≥9 nodes," "Iran day-cluster ≥16 channels"). When BOARD INDEX is sorted only by SIG-ID (dispatch order), those themes are invisible to a reader scanning for "what does our network think about Iran right now?"
+
+Sectioning the INDEX by cluster makes themes first-class. It also gives WALTER a stable lookup for "is this new signal in an existing cluster, or a singleton?" at intake — the answer drives where it gets archived and how recipients consume.
+
+**Cluster ≠ domain.** Domain (LABOR, OIL_ENERGY, etc.) is the recipient-routing axis owned by FORMAT_SPEC. Cluster is the thematic axis — multi-signal narrative threads. One domain can span multiple clusters (BANK_CRE includes both BANK_COLLATERAL and PC_STRESS signals). One cluster can span multiple domains (CONSUMER_STAGFLATION includes LABOR + MACRO_INFLATION + CONSUMER_CREDIT + OIL_ENERGY transmission).
+
+---
+
+## The 10 clusters (v0.1)
+
+Cluster names use `UPPER_SNAKE_CASE`, kept short for INDEX section headings.
+
+| # | Cluster | Theme | Current count | Sample signal IDs |
+|---|---------|-------|---------------|-------------------|
+| 1 | **IRAN_HORMUZ** | Iran war / Hormuz chokepoint / GEOPOL_ENERGY supply disruption / sanctions enforcement / state-response. Includes oil-supply observations downstream of Iran-driven disruption. | 22 | 419-006, 419-014, 424-002 (Hengli), 426-007 (Pinckney), 429-001 (Brent $115), 429-003 (rial) |
+| 2 | **POSITIONING_VALUATION** | Equity positioning extremes, valuation indicators, vol regime, breadth, fund flows, MMF-rolldown, short-cover, options skew, call/put extremity. Counter-evidence within cluster lives here too. | 21 | 419-005 (Buffett 232%), 419-002 (SKEW divergence), 419-018 ($93B short cover), 424-004 (Kobeissi $9.7B Nasdaq) |
+| 3 | **BANK_COLLATERAL** | Bank-collateral-compression — distressed CRE, residential housing weakening, office vacancy, multi-family stress, individual-property credit-bid markdowns, regulatory shocks affecting bank collateral pools (ROAD Act). | 14 | 419-001 (Tricolor MTB), 420-008 (distressed office $5B), 426-002 (residential weakening), 428-004 (Phoenix BTR ROAD Act) |
+| 4 | **CONSUMER_STAGFLATION** | Consumer-stagflation-stack — sentiment, inflation expectations, CC delinquency, labor weakness, ag/farm bankruptcies, jet-fuel/airfare demand-destruction, GS oil-shock-jobs framework. Stagflation-Fed-reaction-function lens. | 12 | 410-001 (CPI+UMich), 424-007 (CC delinq 12.7%), 426-008 (UMich 49.8 final), 426-005 (farm bankruptcies +46%) |
+| 5 | **PC_STRESS** | Private-credit / BDC / asset-manager stress — fund redemption gates, founder/exec leverage unwinds, single-client AUM pulls, regulatory inquiries (Fed-PC), retail BDC Q1 redemption surges, mark-to-model fiction. | 8 | 414-002 (TCW Red Lobster 98%), 420-004 (Blue Owl founders unwind), 426-012 (Fed-PC inquiry), 429-002 (OCIC/OTIC) |
+| 6 | **HYDROCARBON_INFRA** | Hydrocarbon-infrastructure stress meta-cluster — refinery fires, pipeline explosions, drone strikes on oil/petrochem assets globally (non-ME), water-emergency curtailment risk. | 8 | 416-002 (Geelong), 420-001 (Tuapse), 420-003 (11-event aggregation), 426-003 (LA pipeline) |
+| 7 | **MISC** | Singletons + market-structure + adversarial-meta + counter-evidence-without-cluster-home. New cluster spawned only when ≥3 signals in a coherent new theme. | 5 | 411-001 (RED falsification), 414-003 (SEC PDT), 414-012 (KRE-XLF gap), 428-007 (INTC CAO) |
+| 8 | **AI_INFRA_CAPEX** | AI infrastructure capex sustainability — hyperscaler capex guidance, OpenAI/Stargate financing, leveraged equity collateral on AI names, chip-side capex revisions, data-center spending. | 3 | 424-012 (SoftBank $10B OpenAI), 428-002 (OpenAI/Friar), 429-004 (META/MSFT capex advisory) |
+| 9 | **ASIA_CHINA** | China / HK / EM-Asia contagion — China trade-surplus dynamics, export controls, residential property collapse, peg fragility, JGB unwind, supply-chain coercion. | 3 | 414-010 (FT China Shock 2.0), 414-011 (export controls tripled), 428-001 (China FRED residential) |
+| 10 | **FED_FRAMEWORK** | Fed operating-framework regime shift / UST-foreign holder composition. Beckworth Mercatus / Apollo private-vs-CB / Fed-balance-sheet-reduction policy. | 2 | 426-001 (Beckworth framework), 426-010 (Apollo private-vs-CB) |
+
+**Total:** 98 signals (matches BOARD count).
+
+---
+
+## Cluster naming convention
+
+- `UPPER_SNAKE_CASE`
+- 1-2 words, ≤20 chars
+- Specific enough to be unique, generic enough to absorb new signals
+- Avoid time-bound names ("APR_19_RALLY") — clusters are themes, not days
+- Avoid ticker names ("OWL_CLUSTER") — name the theme, not the symbol
+
+---
+
+## Edge-case rules
+
+### Cross-cluster signals (signal fits 2 clusters)
+
+A signal gets exactly **one primary cluster** (where it lives in the INDEX). Secondary cluster, if any, is noted in the signal body via `dispatch_note` or as an inline parenthetical.
+
+**Resolution rules** (in order):
+1. If one cluster is the **substance** and the other is the **financing/transmission mechanism**, the substance wins. *Example: 424-012 SoftBank $10B margin loan on OpenAI shares → AI_INFRA_CAPEX primary (the news is about AI capex financing) / PC_STRESS secondary (margin-loan mechanism).*
+2. If both are equally substantive, choose the cluster the signal **changes** rather than the cluster it merely **adds to**. *Example: 428-004 Phoenix BTR ROAD Act → BANK_COLLATERAL primary (introduces political-legislative vector to the cluster) / not split into a "POLITICAL_LEGISLATIVE" cluster of size 1.*
+3. If still tied, primary = the cluster of the **action recipient** in the routing line.
+
+### MISC vs new-cluster decision tree
+
+Singletons go to MISC. A new cluster only spawns when:
+
+1. ≥3 dispatched signals share a clearly bounded theme that doesn't fit existing clusters, AND
+2. The theme has expected forward-momentum (will likely add more signals in coming weeks), AND
+3. Will signs off on the new cluster name (per CLAUDE.md spec-ownership rule — adding a cluster is a structural change).
+
+Avoid premature cluster-spawning. Two clusters under 5 signals already exist (AI_INFRA_CAPEX at 3, FED_FRAMEWORK at 2) and are flagged for consolidation review if they don't grow.
+
+### Re-categorization
+
+A signal's cluster assignment is **not immutable**. If a signal originally placed in MISC starts looking like the seed of a new cluster (say 3 more signals join the same theme over 2 weeks), promote: spawn the new cluster (Will sign-off), move the seed signals + new ones into it.
+
+But: signal **bodies** are immutable per CHECKLIST editorial discipline. Re-categorization touches INDEX placement only, not signal-file content.
+
+---
+
+## Cluster status flags (reserved for v0.2)
+
+INDEX cluster sections may eventually carry status flags:
+- 🟢 ACTIVE — signals continuing to land
+- 🟡 STALE — no new signals in 14 days
+- 🔴 SUPERSEDED-FRAMING — anchor change invalidates the cluster's framing (e.g., May 4 ceasefire-break re: IRAN_HORMUZ pre-May-4 signals)
+- ⚫ ARCHIVED — cluster closed; signals retained for history
+
+v0.1 ships without status flags. Add in v0.2 once cluster sections are live and we see how staleness shows up.
+
+---
+
+## Maintenance rules
+
+- **At dispatch:** WALTER assigns the cluster as part of CHECKLIST Phase 2 (post-routing, pre-output). Cluster name written to a `cluster:` field in the signal YAML header (FORMAT_SPEC update pending) AND used to place the row in the right INDEX section.
+- **At closeout:** No bulk re-categorization sweeps. Inline corrections only — if I notice a misassignment while doing other work, fix it. Else leave.
+- **At taxonomy version bump:** Single-pass migration. v0.1 → v0.2 is one commit that updates CLUSTER_TAXONOMY.md, INDEX section structure, and any signal `cluster:` headers that need re-assignment.
+
+---
+
+## What this file is NOT
+
+- It's not a list of **active themes** (that's STATUS.md NETWORK AWARENESS + LAST_COMPLETION FOLLOW-UP).
+- It's not a thesis tracker (that's CARL/RED/etc.).
+- It's not a routing rule (that's ROUTING_TABLE).
+- It's a **directory of named buckets** for the BOARD signal archive. Stable, slow-moving.
+
+---
+
+*v0.1 — 2026-05-05 (Pass 1 BOARD INDEX cluster-organization refactor — 10-bucket taxonomy locked, draft awaits Will sign-off before Pass 2 INDEX rewrite)*
