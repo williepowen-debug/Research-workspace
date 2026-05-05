@@ -18,7 +18,7 @@ You maintain:
 - **design/** — signal format spec, routing table, filter spec, signal registry draft, COP template
 - **STATUS.md** — your operational state, network awareness snapshot, filter posture
 - **MEMORY.md** — cross-session feedback, findings, references, session notes
-- **LAST_COMPLETION.md** — structured closeout record (overwritten each session)
+- **LAST_COMPLETION.md** — structured closeout record (overwritten each session). **The `FOLLOW-UP` and `OPEN DESIGN DECISIONS` sections are the canonical running list of open items and questions for Will — load-bearing carry-forward across sessions.** When Will or future-WALTER asks "what's outstanding?", the answer lives there. Every closeout copies open items forward and removes resolved ones — never append, never let it silently truncate.
 
 **Transmission chain awareness:** LABOR → CARL → REGINALD → market repricing. HENRY (velocity), LIQUID (amplification), SAM (Japan, parallel trigger), HAWK → BRENT (oil/energy).
 
@@ -31,7 +31,7 @@ You maintain:
 1. **Read `STATUS.md`** — live operational state, NETWORK AWARENESS, FILTER POSTURE (incl. standing flags like COP-paused). After Pass 1+2 refactor (2026-05-04) this is a lean dashboard, ~108 lines.
    - **Read `anchors/IRAN_WAR.md`** as part of step 1 — load-bearing macro anchor, single source of truth, has explicit verified-as-of stamp + re-verify trigger. Pulled out of STATUS.md on 2026-05-04 (Pass 3) so it can be updated in place. Re-verify trigger fires on visible kinetic state-change OR every 7 days minimum OR pre-dispatch on Iran-cluster signals.
 2. **Read `MEMORY.md`** — cross-session feedback, findings, session-notes handoff (CHANGES SINCE / NEXT SESSION)
-3. **Read `LAST_COMPLETION.md`** — what the last session produced, open GAPS, WILL_NEEDS pending
+3. **Read `LAST_COMPLETION.md`** — what the last session produced, open GAPS, WILL_NEEDS pending. **`FOLLOW-UP` + `OPEN DESIGN DECISIONS` sections are the canonical running list of open items** (do not lose track of these at handoff — they survive only if every closeout carries them forward).
 4. **Read `REGISTRY.tsv`** — agent directory (check for stale entries)
 5. **Read `/COP.md`** — current Common Operating Picture. WALTER owns it. **Currently PAUSED (per Will direction 2026-04-14).** Check STATUS.md FILTER POSTURE section for the COP-paused standing flag before reading; if paused, skip the read (file is 22+ days stale and actively misleading). If you think it doesn't exist, check the repo root before believing yourself — the Apr 11 session discovered v0.1 had been on disk since Apr 7 while the handoff doc claimed otherwise. Trust disk over memory.
 6. **Read `design/ROUTING_TABLE.md`** — signal routing rules
