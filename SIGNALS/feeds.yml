@@ -1,0 +1,36 @@
+# SENTRY Feed Configuration
+# Edit this file to add/remove feeds. GitHub Action picks up changes on next run.
+
+feeds:
+  - name: "EIA Today in Energy"
+    url: "https://www.eia.gov/rss/todayinenergy.xml"
+    tags: ["energy", "brent", "eia"]
+    enabled: true
+
+  - name: "BLS News Releases"
+    url: "https://www.bls.gov/feed/bls_news.xml"
+    tags: ["labor", "macro", "bls"]
+    enabled: true
+
+  - name: "CBP News Releases"
+    url: "https://www.cbp.gov/newsroom/rss.xml"
+    tags: ["immigration", "border", "marco"]
+    enabled: true
+
+  # SEC EDGAR requires special handling (blocks non-browser requests)
+  # Phase 1.5: Add via EDGAR API or RSS wrapper
+  - name: "SEC EDGAR Filings"
+    url: "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=&company=&dateb=&owner=include&count=40&output=atom"
+    tags: ["filings", "sec"]
+    enabled: false
+
+  # Phase 1.5 candidates:
+  # - name: "NY Fed Markets"
+  #   url: "https://www.newyorkfed.org/rss/markets"
+  #   tags: ["rates", "fed", "liquidity"]
+  #   enabled: false
+  #
+  # - name: "ISW Daily Assessments"
+  #   url: "https://www.understandingwar.org/rss.xml"
+  #   tags: ["geopol", "hawk", "military"]
+  #   enabled: false
