@@ -1,0 +1,10 @@
+Signal_ID	Date	Domain	Precedence	Disposition	KB_Refs	Date_Logged	Notes	Post_Hoc_Conf
+# BRENT BOARD integration ledger. Append-only. On every spawn, diff BOARD/INDEX.md against Signal_ID column — anything not present needs disposition.
+# Disposition values:
+#   BRENT_ORIGIN — BRENT dispatched via WALTER; origin content already in own KB / STATUS / thesis
+#   INTEGRATED — loaded to BRENT KB / STATUS / thesis this session, material impact (cite KB-BRT-NNN refs in KB_Refs)
+#   INFO_ONLY — noted, limited KB action, cached for recall (cite KB-BRT-NNN in KB_Refs if a fold target was logged)
+#   REFERRED — other agent's primary domain, no BRENT action (rare for energy-cluster — BRENT is typically primary)
+# Post_Hoc_Conf — BRENT's confidence (0.0-1.0) after own due-diligence pass, populated only when it differs from WALTER's dispatched verify-research verdict. Empty = BRENT agrees with dispatched verdict OR no separate verification performed.
+# Schema mirrored from AGENTS/CARL/board/BOARD_LOG.tsv (9-col, Post_Hoc_Conf added 2026-05-05 per CARL↔WALTER LIAISON Turn 3 Q7 calibration loop).
+# Ledger opened 2026-05-05 — back-disposition pass for ~25+ pre-existing BRENT-routed signals (Apr 14 onward) is a separate next-spawn task.
