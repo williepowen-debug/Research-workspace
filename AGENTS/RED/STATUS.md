@@ -1,195 +1,171 @@
 # RED STATUS
-**Last Updated:** 2026-04-18 (Sat boot, 11d gap) | **Role:** Adversarial Analysis / Thesis Stress-Tester
-
----
-
-## 🔴 FALSIFICATION RULE FIRED (Apr 10 → sustained through Apr 16)
-
-My own pre-registered rule: *"HY OAS <300 sustained 5 days → Exit HYG, reduce all 25%, downgrade confidence to 65%."*
-
-| Date | HY OAS | Day |
-|------|--------|----|
-| Apr 7 | 305 | pre-trigger |
-| Apr 8 | 312 | (rebound) |
-| Apr 10 | **290** | Day 1 ✅ |
-| Apr 13 | — | Day 2 |
-| Apr 14 | — | Day 3 |
-| Apr 15 | **285** | Day 5 sustained ✅ |
-| Apr 16 | 285 | Day 6 |
-
-**Rule is pierced by 15bps with 6 days sustained. Action is mine; owed closure.** See OUTBOX.md recommendation to PROME/Will.
+**Last Updated:** 2026-05-06 (Wed boot, 18d gap from prior session) | **Role:** Adversarial Analysis / Thesis Stress-Tester
 
 ---
 
 ## CURRENT ASSESSMENT
 
-**Confidence: 70% (was 76%, -6).** Not to the pre-registered 65% because three counter-currents to the bull paper rally:
-1. **SOFR breached IORB Apr 15** (+7bps, first time this cycle). Funding stress print. Path A's biggest tell.
-2. **RF missed both lines Apr 17** — first outright miss of Q1 bank cohort. DB positioning chart said systematic already bearish; miss validates positioning.
-3. **FHLB surge systemic (3/3 reporters, 4/4 MTB/CFG/PNC/FITB)** — mechanical vs stress cannot be ruled out yet but is universal.
+**Confidence: 73% (was 70%, +3).** Pre-committed Apr 18 trigger fired ("either bank misses + tape muted/crushed → 70 → 73, Path B 41 → 46"). Acted as written — did not improvise.
 
-**Thesis is bifurcated, not broken.** Paper markets (HY OAS, VIX, SPX, HYG, APO) pricing Path A resolution. Structural data (SOFR, RF miss, FHLB, Red Lobster 98%/par, FHA DQ 11.52%, FICO SL 9.8%, foreclosures +26% YoY, REO +45% YoY, 13 PC gates) continues to accumulate stress. The instruments are wrong for the timeline, which is the classic RED warning I've been issuing since Feb. The thesis survives, most near-dated puts do not.
+**Thesis remains bifurcated.** Apr 21 WAL/OZK earnings landed in MISS / MUTED cells for both names. Apr 22 ceasefire binary went bear with re-escalation through May 4-5 (UAE struck two consecutive days). Structural data continues to confirm bear thesis at high quality, but paper markets continue to disagree on the timeline. The "war premium unwind" thesis I steelmanned in Apr 18 bull case is dead — Brent paper round-tripped 30% in 12 days (Apr 17 $88.87 → Apr 29 intraday $115 → May 5 $116.55 → May 6 $102.87).
 
-**Market is telling us: earnings-path transmission is slower than positioned, and near-dated Apr-May-Jun options will die before the transmission completes.** That is not "we are wrong about consumers and banks." That is "we sized the clock wrong."
+**RED-09 calibration miss** (BOJ delay was 15% RED, happened): the systemic-narrowness pattern is now 6 wrong calls in a row from underestimating tails. Lesson is documented and not yet absorbed. Tighter discipline next session.
 
 ---
 
-## COMPETING HYPOTHESES (Apr 18 refresh)
+## COMPETING HYPOTHESES (May 6)
 
 | Hypothesis | Prob | Δ | Key Driver |
 |------------|:----:|:-:|-----------|
-| **Managed Decline / Muddle-Through** | **38%** | +13 | HY OAS 285, VIX 17.9, SPX ATH, APO +18%, WAL/KRE bouncing. Credit + equity + vol all validating. |
-| **Full Stagflation Spiral** | **32%** | -9 | Brent paper $88.87 (-10% Apr 17). PPI core-core +0.2% MoM decelerating. Services MoM ~0. Oil demand-destruction showing. But physical Dated Brent still ~$132 and rig count flat. |
-| **Policy Rescue** | **14%** | -2 | IMF GFSR explicit call ("stand up liquidity/funding facilities"). Fed not acting yet. SOFR breach may force hand. |
-| **Acute Financial Dislocation** | **9%** | = | 13 PC gates, Red Lobster 98%/par, RF miss, SOFR breach. Brewing, not firing. |
-| **War Escalation (Scenario D)** | **5%** | -2 | Hormuz "open" per Iran FM Apr 17. Lebanon-Israel 10d ceasefire. Talk-2 possible weekend. Apr 22 expiry is next binary. |
-| Soft Landing | **2%** | = | Staffing canaries still +, claims low, NFP resilient. Not zero. |
+| **Full Stagflation Spiral** | **36%** | +4 | OZK past-due doubled QoQ. WAL fraud reveal $152.5M + Office 38%/$407M/18.5% stress. Brent re-rallied $88→$116. Bypass-pair pattern May 4-5. |
+| **Managed Decline / Muddle-Through** | **35%** | -3 | HY OAS still 285 (Apr 16 last), VIX 16.54, SPX firm. Tape muted both prints. Cohort fade pattern 12/12. |
+| **Policy Rescue** | **14%** | = | IMF GFSR call still unactioned. Fed quiet. SOFR breach mechanics resolved (tax-day; LIQUID owes confirm). |
+| **Acute Financial Dislocation** | **9%** | = | OZK CRE crystallizing in print. WAL Office maturity wall $946M 2026. Brewing, not firing. |
+| **War Escalation (Scenario D)** | **4%** | -1 | Kinetic re-engaged but contained — UAE strikes intercepted, no Yanbu/major-facility-strike yet. Project Freedom holds US-flagged channel. |
+| Soft Landing | **2%** | = | Initial claims 189K Apr 25 (FRED ICSA) — lowest since 1969. Counter-signal alive. |
 
-**Net bear: 46% (was 57%) | Net managed/rescue: 52% (was 41%) | Soft: 2%.**
-
-This is the first session where **Managed Decline + Policy Rescue > Bear**. If I cannot steelman managed decline more aggressively than this, I am not doing my job.
+**Net bear: 49% (was 46%) | Net managed/rescue: 49% (was 52%) | Soft: 2%.** Re-balanced; bear regains slight edge.
 
 ---
 
 ## BULL CASE STEELMAN (RED's core duty)
 
-The strongest version of "we're wrong":
+The strongest version of "we're wrong" — refreshed for May 6:
 
-1. **Credit market has pricing power** the equity and rates markets don't. HY OAS has dropped 57bps in 3 weeks (342→285) against $110 Brent peak, Kharg strike, Barings gate, RF miss. The market that is closest to corporate cashflows is telling us cashflows are fine.
-2. **Oil paper collapse is not fake.** -10% in a day on the Iran FM statement with VLCC rates compressing confirms the squeeze was war-premium, not structural. If Hormuz fully reopens and blockade lifts post Apr 22, physical catches down to paper within 30 days.
-3. **Bank earnings fade ≠ bank earnings miss.** 4 of 5 cohort beat headline. FHLB surge may be quarter-end mechanical (period-end balance spike is universal). Reserve release ≠ denial; it can be correct. NDFI opacity ≠ NDFI blowup.
-4. **SOFR breach is probably tax-day TGA drain.** Apr 15 mechanics, not structural reserve scarcity. LIQUID itself said "2-3 sessions to confirm." If SOFR normalizes <3.65 by Apr 17-20, cancel the alarm.
-5. **Consumer stress IS real but SLOW.** CARL's timeline was pushed to 2H 2026/Q1 2027 (Apr 17 PM#1). The options book is 90-180 days. Math doesn't work even if the thesis is right.
-6. **IMF GFSR is a routine precautionary note, not a crisis flag.** Global equities -8% Feb→early-Apr was the stress episode; it's over. Yields already retraced. The text was written before the Apr 8-16 rally.
-7. **Positioning already bearish.** DB chart: financials positioning -1.5 to -2z. Short cover whipsaw already hit. The trade is crowded on the bear side. Beat on WAL/OZK Apr 21 = violent squeeze.
+1. **Tape disagreed with both prints, decisively.** WAL bounced from $77.83 Apr 22 to $81.86 today; OZK from $47 to $48.48. Both names *should* have crushed on miss + fraud + past-due-doubling. The market is telling us the thesis is priced or overcooked.
+2. **Initial claims 189K Apr 25 — lowest since 1969.** LABOR transmission channel is *inert*. Continuing claims, NFP, layoffs all not confirming. The single weakest leg of the buffer-depletion thesis just got weaker.
+3. **HY OAS still 285** (Apr 16 last hard print). Three weeks past the Apr 18 falsification fire and credit has not re-widened. Cohort fade pattern 12/12 with universal recovery — the "cohort miss-driven" Apr 17 RF read has not generalized.
+4. **OZK NCO 0.57% annualized — DECELERATED from Q4's 1.18%.** The kill-line in OZK invalidation framework is 55bps through Q3. We're not crossing it. Past-due doubling is leading-indicator; tail-loss-coverage is not.
+5. **Brent paper $103 today and falling (-6.37% intraday).** The Apr 29 $116 intraday peak did not sustain. War premium repricing partial; bypass infrastructure can route around chokepoints. Path B war-permanence thesis weakens with each dropping print.
+6. **Cohort recovery on Apr 30 risk-on (VIX -10%, regionals +1-2.4%, APO +5.3%) is the single biggest "we're wrong" signal of the cycle.** When everything bear should have priced, nothing did.
+7. **WAL THESIS V2.0 reframe (REGINALD):** "compounder with concentrated CRE tail risk" replaces "fast-transmission failure." V3 NDFI thesis directionally DISCONFIRMED at aggregate (NDFI cohort-median, not outlier). The fast-transmission story RED inherited is partially dead.
 
-**If this is right, the managed decline takes 12-18 months, our near-dated puts die, the long-dated puts (KRE Dec, TLT Oct, APO Dec, WAL Sep) survive for the eventual transmission.** That is a better outcome than most people think because it's the correct outcome — we extracted the survivors and paid option theta on the losers.
+**If this is right:** Q2 prints fade-without-cracking, near-dated puts (Jun expiry) die, KRE/WAL/OZK long-dated survives for IQHQ Aug + AOCI Jun + Q1 Call Report May 4-10. Capital efficiency demands closing the bleeding instruments before the surviving thesis arrives.
 
 ---
 
-## COUNTER-SIGNALS (Apr 18)
+## COUNTER-SIGNALS (May 6)
 
 | Signal | Value | Bull Read | Bear Read | RED Weight | Δ |
 |--------|-------|-----------|-----------|:----------:|:-:|
-| **HY OAS 285** | -20bps since Apr 7 | Credit validating Path A, FALSIFICATION FIRED | Lagging, will widen on Q2 defaults | **65/35 bull** (was 60/40) | ++bull |
-| **VIX 17.90** | -8.7 since Apr 7 | Vol regime reset | Complacency trap | **60/40 bull** | NEW / bull |
-| **Brent paper $88.87** | -37% from Apr 7 | War premium unwind | Physical still ~$132 | **50/50** | ++bull on paper |
-| **SOFR > IORB** | +7bps Apr 15 | Tax-day TGA mechanics | Structural reserve scarcity | **40/60 bear** | **NEW** |
-| **RF miss both lines** | First cohort miss | Baseline (opacity = risk) priced | Bank stress confirming | **35/65 bear** | **NEW** |
-| **FHLB surge 3/3** | +64-265% QoQ | Period-end mechanical | Funding stress | **45/55 bear** | NEW |
-| **APO +18% in 6d** | $104→$124 | PC stress moderating | Public sentiment ignoring privates | **55/45 bull** | shift |
-| **Red Lobster 98%/par** | Equity zero, debt par | TCW marking conservative on equity | Stage 3 precursor | **35/65 bear** | NEW |
-| **Foreclosures +26% YoY** | Q1 2026 ATTOM | Normalization | Pipeline converting | **40/60 bear** | NEW |
-| **FHA DQ 11.52%** | Q4 vs Conv 2.89% | Borrower-mix story | Housing stress acute | **40/60 bear** | NEW |
-| **NAHB HMI 34** | Apr, 7mo low | Tariff pass-through | Housing demand breaking | **35/65 bear** | NEW |
-| **SL defaults 9.2M** | +1.5M in 90d | Cliff already hit, absorbed | Cash flow drag building | **40/60 bear** | = |
-| **CMBS MF DQ 7.15%** | ATH | Sector concentration | Multi-fam cracking | **35/65 bear** | = |
-| **PPI core-core +0.2% MoM** | Mar 26 | Services disinflation | Goods+energy still hot | **50/50** | NEW |
-| **UMich 47.6** | floor-level | Sentiment/reality gap | Confidence breaking | **45/55 bear** | NEW |
-| **Baker Hughes flat** | Month of elevated oil | Supply lag confirms squeeze | Oil demand-driven | **50/50** | NEW |
-| Staffing canaries | RHI/KFRC + | Early cycle turn | Dead cat | 45/55 bear | = |
-| LIQUID 🟡 | Unchanged | Domain expert sees calm | Can be wrong | 55/45 bull | = |
+| **Brent paper $102.87** | -12% from May 5 peak | War-permanence thesis weakens | Re-priced 30% off Apr 17 floor | **45/55 bear** | re-bear vs Apr 18 |
+| **HY OAS ~285** | unchanged 3wk | Path A intact | Lagging structural | **60/40 bull** (was 65/35) | weakening bull |
+| **VIX 16.54** | floor-level, -4.83% intraday | Vol regime reset | Complacency | **65/35 bull** | bull |
+| **Initial claims 189K** | lowest since 1969 | LABOR inert | Will roll | **70/30 bull** | NEW |
+| **Cohort fade 12/12** | universal | Beat-then-fade muted, no acceleration | Pattern intact | **50/50** | refresh |
+| **OZK past-due doubled** | $207M → $465M / 1.41% | Coverage 1.35×, NCO 57bps | Leading indicator firing | **30/70 bear** | NEW |
+| **WAL fraud + GAAP miss + ex-fraud NCO 39bps** | -4.6% GAAP | Idiosyncratic LAM/Cantor | Pattern + above-guide | **35/65 bear** | NEW |
+| **WAL Office 38% / 18.5% stress / $946M maturity 2026** | Slide 12/23 | Concentrated, recoverable | V1 hidden CRE confirmed via single-point | **30/70 bear** | NEW |
+| **Bypass-pair May 4-5** | Petroline + Fujairah both struck | War premium contained, vessels routed | Energy infrastructure transmission | **40/60 bear** | NEW |
+| **CCC OAS 909 / CCC-HY ratio 3.22×** | 98th pctile | Tail-only distress | Bottom cracking under tightening top | **35/65 bear** | NEW |
+| **APO $130.30** | +25% from Apr 17 $104 | PC sentiment normalized | Public ignoring private gates | **55/45 bull** | bull-fade |
+| **Red Lobster 98%/par** | unchanged | TCW conservative | Stage 3 precursor | **35/65 bear** | = |
+| **Foreclosures +26% YoY / REO +45% YoY** | Q1 ATTOM | Normalization | Pipeline | **40/60 bear** | = |
+| **FICO SL 90+ 9.8%** | +25% YoY | Cliff absorbed | Cash drag building | **40/60 bear** | = |
+| **NAHB HMI 34** | 7mo low | Tariff pass-through | Demand breaking | **35/65 bear** | = |
 
-**Bull-leaning now 5 signals (HY OAS, VIX, Brent paper, APO, LIQUID). Bear-leaning 11. But weight is in near-term bull + long-term bear — which is exactly our instrument risk.**
+**Bull-leaning: 5 (HY OAS, VIX, claims, APO + LIQUID 🟡). Bear-leaning: 9. Brent paper now mixed not bull.**
 
 ---
 
-## POSITION VULNERABILITY (Apr 18, live prices Apr 17 close)
+## POSITION VULNERABILITY (May 6 live prices)
 
-| Position | Price | Risk | Rationale |
+*Note: portfolio composition reads from REGINALD/OZK STATUS (broker-confirmed Apr 23) and FORGE (last refresh Mar 25 — STALE). Sizes flagged where uncertain.*
+
+| Position | Live | Risk | Rationale |
 |----------|------:|:----:|-----------|
-| **APO $100P Apr 17** | $124.62 | 💀 EXPIRED | Expired Friday. $24.62 OTM. Zero. |
-| **HYG $75P Jun x8** | $80.65 | 🔴🔴 EXIT | Falsification FIRED. OAS 285, HYG ATM+, IV collapsed. Rule says exit now. |
-| **SOFI $16P May x2** | (check) | 🔴 HIGH | 🟠 Moved to HIGH — no catalyst, risk-on tape, ~15d. |
-| **KRE May $70P x2** | $70.37 | 🔴 HIGH | ATM. 32d. WAL/OZK Apr 21 is the only catalyst. Post-earnings = binary. |
-| **TLT $88P May x2** | $87.07 | 🟠 MOD | Barely ITM. Bond vol collapsing. Oil paper crash = rates support. BOJ Apr 23-24 is the only real catalyst. |
-| **IWM $250P Jun** | $275.78 | 🔴 HIGH | Russell risk-on, SPX ATH. Deep OTM. |
-| **OZK $45P Aug x4** | $48.73 | 🟠 MOD | Earnings Apr 21 — BINARY. Aug runway helps. Positioning -2z = squeeze risk. |
-| **WAL Jun/Sep multi-strike** | $79.39 | 🟠 MOD | Earnings Apr 21 — BINARY. Re-breached $78 Apr 17 AM, bounced. Sep well-timed if Q2 misses. |
-| **KRE $60P Dec x4** | $70.37 | 🟡 LOW | $10 OTM. Long-dated. Thesis timing-compatible. |
-| **TLT $82P Oct x2** | $87.07 | 🟡 LOW | $5 OTM. BOJ + fiscal + Q4 supply wall. |
-| **APO $95P Dec** | $124.62 | 🟠 MOD | $29 OTM. Long runway helps but APO +18% in 6d is painful. |
-| **FXY shares x8** | $57.89 | 🟢 SAFE | No expiry. USD/JPY 159.18 creeping 160. BOJ Apr 23-24. |
+| **HYG $75P Jun x8** | $79.92 | 🔴🔴 EXIT (still owed) | Falsification FIRED Apr 10. OAS 285 unchanged. RED-TO-PROME-20260418-001 not closed per Apr 30 REGINALD. **Owe Will closure.** |
+| **SOFI $16P May x2** | $16.02 | 🔴 EXPIRE-RISK | ATM exactly. ~9 td to May 15. No catalyst. Recommend close. |
+| **OZK $42.5P May x2** | $48.48 | 🔴 ROLL DEADLINE ~MAY 8 | 9 td. ROOMOZK Thread 3 spec is roll → Jan27 $42.5P x2 (~$510 debit). Per OZK STATUS, NOT executed yet. |
+| **OZK $47.5P May x2** | $48.48 | 🟠 NEAR-MONEY | Adds Will made for May 1-10 Call Report window. ATM. 9 td. Decision-binary on Call Report tape. |
+| **KRE May $70P x2** | $69.92 | 🔴 ATM | 9 td. Apr 21 catalyst passed muted. Theta-fatal absent fresh print. |
+| **TLT May $88P x2** | $85.43 | 🟠 ITM but bond vol low | $2.57 ITM. BOJ June hike priced 74% — primary catalyst now June. May expiry painful. |
+| **IWM Jun $250P** | $282.56 | 🔴 DEEP OTM | $32 OTM. Risk-on tape persistent. |
+| **OZK $42.5P Aug x3** | $48.48 | 🟡 LOW | Thesis-add. 16-week tenor. IQHQ Aug catalyst aligned. |
+| **OZK $45P Aug x4** | $48.48 | 🟡 LOW | Core thesis vehicle. CIB disclosure window pending. |
+| **WAL $85P Jun x1** | $81.86 | 🟠 MOD | $3.14 OTM. EV per REGINALD $13.93. Survives if tape rolls; flagged for close/roll if WAL holds >$82. |
+| **WAL $77.5P Jun x1** | $81.86 | 🟠 MOD | $5.64 OTM. |
+| **WAL $65P Jun x1** | $81.86 | 🔴 DEEP OTM | $16.86 OTM. EV $0.75. REGINALD flagged for close/roll. |
+| **WAL Sep multi (70/77.5)** | $81.86 | 🟡 LOW | $77.5P Sep "best risk-adj" per REGINALD ($8.31 EV). Survives V2 thesis horizon. |
+| **KRE $60P Dec x4** | $69.92 | 🟢 LOW | Long-dated. Thesis-aligned. |
+| **TLT $82P Oct x2** | $85.43 | 🟢 LOW | $3.43 OTM. BOJ June + Q4 supply. |
+| **APO $95P Dec** | $130.30 | 🟠 MOD | $35.30 OTM. APO +25% from Apr 17 — painful. Thesis-survival depends on PC stress catch-up. |
+| **FXY shares x8** | (verify) | 🟢 SAFE | No expiry. BOJ June 74% priced. |
 
-**Action summary:**
-- APO Apr 17: let expire (done).
-- HYG Jun: FORMAL EXIT RECOMMENDATION — my pre-registered rule demands it.
-- SOFI May: stale thesis, no catalyst. Recommend exit.
-- KRE May, IWM Jun: reduce or exit on any bounce ahead of Apr 21.
-- TLT May: hold through BOJ (Apr 23-24).
-- OZK Aug, WAL Jun/Sep: HOLD through Apr 21 earnings. Binary.
-- Long-dated: hold.
+**Red-flag actions owed Will:**
+1. HYG Jun x8 — exit per pre-registered rule, still pending
+2. OZK $42.5P May Thread 3 roll — hard deadline ~May 8 (3 td)
+3. SOFI May, KRE May, IWM Jun — near-dated theta-killers, recommend close before May 15
 
 ---
 
-## FALSIFICATION CRITERIA (Apr 18)
+## FALSIFICATION CRITERIA (May 6)
 
 | Trigger | Action | Status |
 |---------|--------|--------|
-| ~~HY OAS <300 sustained 5d~~ | ~~Exit HYG, reduce all 25%, confidence 65%~~ | **✅ FIRED Apr 10-16. HYG exit recommended. Confidence 70% (partial honor).** |
-| **HY OAS <280 sustained 3d** | **Exit KRE May + IWM Jun; reduce OZK/WAL 25%** | **NEW.** 5bps away (285 → 280). |
-| **SOFR > IORB sustained 3d** | Upgrade confidence 70→73%; alert Will | NEW. Day 1 Apr 15; needs Apr 17-20 data. |
-| Bank miss ≥3/8 Q1 cohort | Upgrade confidence 70→74%; hold positions | RF = 1/5. 3 more to report (KEY, WAL, OZK). |
-| Real Iran deal (signed framework Apr 22) | Exit TLT May, reduce KRE 25% | Apr 22 expiry. Talk-2 possible this weekend. |
-| Dated Brent <$110 confirmed | Accept paper-physical convergence; reduce oil-levered positions | No Apr 15-17 print yet. |
-| BTFP 2.0 announced | EXIT ALL IMMEDIATELY | Dormant. IMF GFSR hints. |
-| WAL or OZK Q1 BEAT + guide up | Exit OZK + WAL; confidence 70→63% | Apr 21. DB positioning says squeeze risk. |
-| VIX <16 sustained 5d | Managed decline confirmed; reduce 50% | VIX 17.90, 1.9 away. |
-| NAHB HMI <32 (sustained) | Housing accelerant confirmed; add to thesis | 34 Apr, already <40. |
+| **HY OAS <280 sustained 3d** | Exit KRE May + IWM Jun; reduce OZK/WAL 25% | 5bps away. Refresh from LIQUID needed. |
+| **HY OAS >320 sustained 3d** | Path B reasserts, hold full stack, confidence +3 | NEW. Inverse trigger; OAS ~285 currently. |
+| **WAL or OZK Q2 beat + clean disclosure** | Exit both; confidence 73 → 65 | Q2 prints mid-late Jul. |
+| **Q1 Call Report May 4-10: WAL MI3 ≥25%** | Confirm V1 hidden-CRE acceleration; +2 | NEW. Per REGINALD primary thesis test. |
+| **OZK NCO sustained ≤55bps through Q3** | Invalidation §2 fires; confidence -5 | Q1 was 57bps. Q2 print Jul. |
+| **BTFP 2.0 announced** | EXIT ALL IMMEDIATELY | Dormant. |
+| **Brent paper >$130 sustained 5d** | Re-price stagflation, add to KRE/TLT | $103 today, falling. |
+| **Initial claims >250K** | LABOR transmission re-arms; +3 | 189K Apr 25 (lowest since 1969). |
+| **VIX <16 sustained 5d** | Managed decline confirmed; reduce 50% | 16.54 today. 0.54 away. |
+| **Bypass-pair second strike (already May 4-5)** | War premium thesis revives; +2 | **FIRED but contained — paper still falling. Net no-action.** |
 
 ---
 
-## OPEN CHALLENGES (Apr 18)
+## OPEN CHALLENGES (May 6)
 
 | Challenge | Target | Strength | Status |
 |-----------|--------|----------|--------|
-| **Pre-registered falsification owed closure** | RED / self | CRITICAL | **FIRING. HYG exit recommended to PROME.** |
-| **Near-dated options vs Q2-Q3 thesis** | Portfolio | COMPELLING | **UPGRADED.** KRE May, IWM Jun, SOFI May, HYG Jun are all mis-timed. |
-| **Public/private bifurcation widening** | LIQUID/BROCK | STRONG | HY OAS 285 vs 13 PC gates + Red Lobster 98%/par + RF miss. Squarely inconsistent. |
-| **Oil paper vs physical** | BRENT/HAWK | STRONG | Brent paper $88.87 vs Dated ~$132 (last Apr 9-11 print). $43-44 spread. Binary resolves Apr 22. |
-| **SOFR breach: mechanical or structural** | LIQUID | MODERATE | NEW. Needs Apr 17-20 data. |
-| **Bank cohort fade-not-miss** | REGINALD | WEAKENED → MODERATE | RF broke the beat pattern. But 4/5 still beat. Not yet "miss" regime. |
-| **DB positioning squeeze risk** | HENRY/REGINALD | MODERATE | NEW. Financials -2z positioning vs +20-40% consensus earnings. Apr 21 resolves. |
-| **RED calibration** | Self | STRONG | RED-02, RED-03, RED-08 all wrong. RED-06 resolved against us. Distributions too narrow. |
-| **VIOLET SKEW base rate** | VIOLET | STRONG | Tier A/B/C done. Sustained-close 36d rate 15-22%, not 56-80%. OOS corroborates. Tier D (formal challenge) ready. |
-
----
-
-## PREDICTIONS SCORECARD (Apr 18 Update)
-
-| Pred | Prediction | Result | Score |
-|------|-----------|--------|:-----:|
-| RED-02 | NFP -50K to +80K | +178K | WRONG |
-| RED-08 | Brent <$120 sustained Q2 | Dated $141 physical → paper $88 | WRONG (both sides) |
-| RED-03 | Apr 6 deadline extends | Strikes then later ceasefire collapse | WRONG |
-| RED-06 | CDX compresses not cash widens | HY OAS 285 cash compressed fully | **WRONG — cash compressed** |
-
-**Self-calibration: 4/10+ resolved, ALL WRONG.** My ranges are too narrow in both directions — I underestimate tails. This calibration failure is systemic, not idiosyncratic. Going forward, widen ranges, assign higher probability to extreme outcomes, stop picking modal scenarios.
-
-**A correct RED in Feb would have said:** "40% chance paper collapses and cash tightens below 300 this spring while physical oil and bank structural data continue to deteriorate. The thesis survives but the near-dated options do not." I did not say that.
+| **HYG exit closure owed** | RED self → Will | CRITICAL | Apr 10 rule fired, recommendation Apr 18, status pending Apr 30 |
+| **Public/private bifurcation** | LIQUID/BROCK | STRONG | HY OAS 285 vs OZK past-due 1.41% / WAL fraud / Office stress / 13 PC gates. Worsened. |
+| **WAL V2 thesis reframe** | REGINALD | MODERATE | "Compounder + CRE tail" weakens fast-transmission story. RED owes a stress-test of new framing. |
+| **BRENT thesis v2.0 + Project Freedom + bypass-pair** | BRENT | UNREAD | Shipped while RED off. RED owes adversarial overlay. |
+| **RED calibration (RED-09)** | Self | STRONG | 6 wrong in a row. Methodology lesson not absorbed. Next prediction must be wider. |
+| **VIOLET SKEW challenge** | VIOLET | STRONG | Apr 22 deadline passed without response. RED owes escalation/withdrawal decision. |
+| **Q2 instrument mismatch** | Portfolio | COMPELLING | OZK May ×4, WAL Jun ×3, KRE May ×2, IWM Jun, SOFI May, HYG Jun all near-dated against Q3+ thesis. |
 
 ---
 
 ## TOP ADVERSARIAL PRIORITIES
 
-1. **Honor the falsification rule.** HYG exit recommendation now queued in OUTBOX.md. This is self-discipline; pre-registered rules exist to prevent me from arguing with my own prior self.
-2. **WAL/OZK earnings Apr 21.** Binary. DB positioning -2z means beat = violent squeeze. ✅ Pre-registered decision framework written Apr 18 → `research/WAL_OZK_APR21_FRAMEWORK.md`. 3×3 scenario matrix, pre-committed confidence/position triggers, both Path A and Path B falsifiers locked. Revisit Apr 22 at open.
-3. **SOFR Apr 17-20 watch.** If SOFR stays above IORB 3 sessions, this is structural; confidence upgrade. If normalizes, tax-day mechanic; no change.
-4. **Apr 22 ceasefire expiry + Talk-2 weekend.** If real deal: oil paper stays down, HY tightens further, bear thesis further hurt. If no deal: oil re-spikes, physical asserts, HY widens.
-5. **Dated Brent print Apr 15-17.** If <$110, paper and physical converged. If $130+, paper has overshot and oil thesis re-fires.
-6. **WAL/OZK beat upside scenarios.** Pre-register: if WAL OR OZK beats + guides up, exit both; reduce KRE 25%; confidence → 65%.
-7. **VIOLET Tier D formal challenge.** Tier A/B/C complete. Pooled n=17 (2007-2026) sustained close ≥25 3d in 36d = 18%; ex-COVID TIGHTENING credit state = 0/6. RED May 19 prediction: **15-22% sustained ≥25**. VIOLET's number? Challenge ready to send pending Will sign-off.
+1. **Read BRENT thesis v2.0 + WALTER LIAISON architecture** — both shipped during gap; needed before next sweep.
+2. **OZK Thread 3 May 8 roll** — hard deadline T-2. Pricing check + execute decision needed.
+3. **Q1 Call Report May 4-10** — WAL MI3 (REGINALD primary test), EGBN MI3, CFG NDFI reconciliation, OZK MI3 baseline 37.6%. Pre-write decision tree.
+4. **VIOLET SKEW challenge resolution** — escalate, withdraw, or absorb. RED-11 scoring May 19 (13 td).
+5. **Near-dated portfolio cleanup** — HYG/SOFI/KRE-May/IWM/WAL-$65P decision pass with Will.
+6. **Brent path watch** — $103 falling. If >$130 sustain → add. If <$95 sustain → bull-thesis steelman gets stronger.
+
+---
+
+## PREDICTIONS SCORECARD
+
+| Pred | Conf | Outcome | Score |
+|------|:---:|---------|:-----:|
+| RED-02 (NFP) | 45% | +178K | WRONG |
+| RED-03 (deadline extends) | 40% | strikes | WRONG |
+| RED-06 (CDX vs cash) | 30% | cash compressed | WRONG |
+| RED-08 (Brent <$120 Q2) | 60% | $103 today, never sustained | ACTIVE-RIGHT |
+| **RED-07 (≥1 of WAL/OZK beats)** | 25% | both missed | **CORRECT** |
+| **RED-09 (BOJ delays past May 1)** | 15% | held Apr 28 (delay) | **WRONG modal** |
+| RED-10 (HY OAS <400 by Jun) | 45% | 285 | ACTIVE-RIGHT |
+| RED-11 (VIX ≥25 sustain by May 19) | 18% | 16.54, 9 td | ACTIVE-LIKELY-RIGHT |
+
+**6 wrong, 1 correct, 3 active. Calibration: distributions remain too narrow. Next prediction must widen.**
 
 ---
 
 ## MISSING DATA WANTED
 
-- Apr 15-17 Dated Brent (Platts print)
-- Apr 17 closing HY OAS (LIQUID next refresh)
-- SOFR-IORB Apr 17-20 to resolve structural-vs-mechanical
-- RF Q1 call transcript (consumer NCO 0.75%+, card 4.20%+ test)
-- FITB PDF (Consumer Warehouse $2.95B sub-bucket language)
+- HY OAS fresh print (LIQUID) — last hard 285 Apr 16
+- Dated Brent Platts print Apr 15+ (BRENT)
+- WAL Q1 Call Report (FFIEC, expected May 4-10) — MI3 line
+- OZK Q1 Call Report — MI3 baseline 37.6%
+- BOJ Apr 28 Ueda presser transcript
 
 ---
 
-*RED: The falsification rule I wrote on Apr 7 has fired. Honor it. The thesis survives but the instruments were wrong. Near-dated is dead; long-dated waits. The honest position size is smaller than the one I have.*
+*RED: Pre-committed framework worked — confidence trigger fired, position guidance held. The thesis is bear-confirming on structural data, paper-disagreeing as expected. RED-09 is another tail miss; the next prediction has to widen or this stops being meaningful.*

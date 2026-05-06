@@ -4,6 +4,41 @@
 
 ---
 
+## 2026-05-06 — Apr 21 / Apr 22 Catalyst Reconciliation (Session 8 on Claude Code, after 17-day gap)
+
+**Confidence:** 70% → **73%** (pre-committed trigger fired: "either miss + tape muted/crushed → +3"; both missed muted, so +3, not +6)
+
+**Competing hypotheses rebalanced — Path B re-asserts:**
+- Full Stagflation: 32% → **36%** (+4)
+- Managed Decline: 38% → **35%** (-3)
+- Policy Rescue: 14% → 14% (=)
+- Acute Dislocation: 9% → 9% (=)
+- War Escalation: 5% → 4% (-1, kinetic re-engaged but contained — no Yanbu/major-facility-strike yet)
+- Soft Landing: 2% → 2% (=)
+
+**What drove the change:**
+
+1. **WAL/OZK Apr 21 framework scored.** Pre-committed cell hit was MISS / MUTED for both names — confidence trigger "either misses + tape muted-or-crushed → 70 → 73, Path B 41 → 46." Fired. Acted as written. WAL: GAAP miss -4.6%, $152.5M fraud charge-offs (LAM $126.4M Leucadia/Jefferies + Cantor $26.1M) confirmed in 8-K, ex-fraud NCO 39bps above 25-35bps guide top, Office concentration 38%/$407M/18.5% stress, Office maturity wall $946M (43% of book) matures 2026, tape −2% intraday. OZK: EPS $1.44 vs $1.46 miss, **past-due loans DOUBLED QoQ from $207M/0.64% to $465M/1.41%**, classified+criticized +23% QoQ, 3 new substandards (Boston life sci $169M sponsor matured Dec 2025, 2 Seattle U District), 2 new foreclosed (Chicago life sci $50M, Santa Monica office at 15% leased), tape −2.6% over Apr 22-24.
+2. **Apr 22 ceasefire binary went bear and then some.** No deal; Round 2 Iran-rejected; UAE struck two consecutive days May 4-5 (Iran missiles + drones, 15 missiles May 4 per Al Jazeera). Bypass-pair pattern (Petroline Apr 9 + Fujairah May 4) confirmed per BRENT thesis v2.0. Brent paper: $88.87 (Apr 17) → $115 intraday (Apr 29) → $116.55 (May 5) → $102.87 today. **The "war premium unwind" thesis I steelmanned in Apr 18 STATUS bull case is dead.** Paper round-tripped 30% in 12 days. Project Freedom restored only US-flagged channel; >1,500 vessels trapped per CENTCOM. Dated Brent <$110 falsifier did NOT fire; physical re-spread.
+3. **Bifurcation persists, not resolves.** OZK past-due doubling is the cleanest hidden-CRE-thesis confirmation we have ever had. WAL fraud reveal materially shifts V2 framing. **But tape disagreed** — both names back above pre-print levels by May 5-6 (WAL $81.86 today, OZK $48.48 today). This is the textbook Path B "structural confirms, paper doesn't reprice yet" — exactly the bifurcation RED has been calling. Cohort fade pattern intact 12/12 per REGINALD.
+4. **Brent paper-physical converged briefly then re-diverged.** $43-44 spread (Apr 17) → narrowed during Apr 17 collapse → re-widened with re-escalation. Net: thesis around paper-physical disconnect was right but volatile.
+5. **HY OAS still ~285 (last hard print Apr 16).** No fresh print this session. The credit-validation-of-Path-A signal that drove the Apr 18 confidence cut continues — but is offset by structural-data convergence above. Net: hypothesis weights move bear-ward but only modestly.
+
+**Predictions resolved:**
+- **RED-07** (≥1 of OZK/WAL beats April, 25% conf) → BOTH MISSED → CORRECT (low-prob outcome occurred)
+- **RED-09** (BOJ delays past May 1, 15% conf) → BOJ held Apr 28, June hike 74% priced → WRONG modal call (15% outcome occurred). Same narrowness pattern as RED-02/03/06/08. Six wrong calls in a row from underestimating tails. Calibration lesson is not yet absorbed — tighten the discipline next session.
+
+**Predictions still active:**
+- RED-08 Brent <$120 sustained Q2 (60%) — leaning RIGHT
+- RED-10 HY OAS <400 by Jun (45%) — leaning very RIGHT
+- RED-11 VIX sustained ≥25 by May 19 (18%) — VIX 16.54 today, 9 td left, low-prob holding
+
+**Network state I owe a read:** BRENT thesis v2.0 (Project Freedom, bypass-pair, BRT-04 weakness, LIAISON layer); WALTER LIAISON architecture; CARL convergence post-Apr 21; REGINALD WAL THESIS v2.0 ("compounder with concentrated CRE tail risk" — was v1.0 "fast-transmission failure"). All shipped during my 17-day gap.
+
+**Files written:** thesis/PREDICTIONS.tsv (RED-07/09 resolved), this CHANGELOG, STATUS.md (full refresh), workbook/ML.tsv (catalyst reconciliation findings).
+
+---
+
 ## 2026-04-18 — Falsification Fired / Bifurcation Confirmed (Session 6 on Claude Code)
 
 **Confidence:** 76% → **70%** (pre-registered rule said 65%; partial honor explained below)
