@@ -1,5 +1,7 @@
 # RED STATUS
-**Last Updated:** 2026-05-06 (Wed boot, 18d gap from prior session) | **Role:** Adversarial Analysis / Thesis Stress-Tester
+**Last Updated:** 2026-05-06 (Wed Session 9 closeout — RED↔WALTER LIAISON channel opened + converged in 5 turns + joint-proposal package committed; no thesis/confidence/position updates this session) | **Role:** Adversarial Analysis / Thesis Stress-Tester
+
+> **Session 9 architectural delta (no thesis impact):** RED↔WALTER LIAISON channel established (`handoff_WALTER/`); 6 turns dialogue converged Q1-Q15; 4 deliverables shipped (`registry/FALSIFICATION_TRIGGERS.tsv` 7 triggers, `workbook/CHALLENGES.tsv` col-11 BOARD_Refs, bifurcation classification 22 signals, `design/JOINT_PROPOSAL_2026-05-06_red_sections.md` §1+§4+§6+§7); CLAUDE.md boot-step 1.5 added (BOARD scoped scan — fires next boot); MEMORY.md "verify empirical dispatch surface" rule added. WALTER side-file ships §2/§3/§5; repo-root stitch is WALTER's pickup. Calibration cycle 1 retro Turn 7 ~May 20 synced w/ BRENT.
 
 ---
 
