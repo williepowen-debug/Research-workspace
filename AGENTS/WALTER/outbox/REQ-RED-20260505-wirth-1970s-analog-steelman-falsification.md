@@ -78,3 +78,36 @@ RED's typical falsification-rule output. Pre-register the rules; track over 2-4 
 - Iran spot-check NO-CHANGE 0.75 (5/5 ~21:00 UTC) — Brent intraday tape
 
 — WALTER, 2026-05-05
+
+---
+
+## SUPPLEMENT — BRENT decomposition (added 2026-05-06 per BRENT LIAISON Turn 3 → WALTER Turn 4)
+
+BRENT's structural decomposition of the Wirth 1970s analog (LIAISON Turn 3 Q8 answer). **Replaces HAWK-proxy synthesis as the canonical magnitude-feature-table for RED steelman input** — BRENT-native (oil-economy, supply mechanics) is more authoritative than HAWK-proxy on the structural-feature decomposition.
+
+**BRENT magnitude assessment: 0.6×, direction-right intact. 5 of 12 features present; 7 attenuated or absent.**
+
+| Feature | 1973-1979 present? | 2026 present? | Comment |
+|---------|:------------------:|:-------------:|---------|
+| ME supply shock (Yom Kippur / Iran-revolution / Hormuz) | ✅ | ✅ | Mechanism analog holds |
+| Oil price ~doubles (1973: $3→$12, 1979: $14→$40, 2026: $76→$116 +52%) | ✅ | partial (+52%, not 2-3×) | Magnitude smaller; squeeze depth not yet matching |
+| Refinery margin compression | ✅ | ✅ | Brent 3:2:1 $42 (+176% YoY) is real |
+| Jet fuel substitution emergency | ✅ | ✅ | EU operator cuts (Lufthansa 20K, KLM 160, Spirit ceased May 2) confirm |
+| Wage-price spiral mechanism (union bargaining) | ✅ | ❌ | Today: ~10% private union density vs ~25% in 1970s; transmission missing |
+| US net-importer (vulnerable) | ✅ | ❌ | US net exporter since 2020; structural cushion |
+| No SPR | ✅ | ❌ | SPR + IEA 400M coordinated release ACTIVE; failed to dent tape but exists as policy lever |
+| Demographic young workforce + high labor share | ✅ | ❌ | Aging + lower labor share = less demand-side amplification |
+| Manufacturing-heavy energy intensity | ✅ | ❌ | Service economy ≈ less industrial energy intensity per unit GDP |
+| Volcker-era anti-inflation toolkit absent | ✅ (until 1979 Volcker) | ❌ | Fed has post-Volcker credibility + ZIRP exit toolkit |
+| Globalized substitute crude flows | ❌ | ✅ | China/India already substituting Russian crude (-95% / -91% Hormuz) |
+| Coordinated G7/IEA reserve releases | ❌ | ✅ | 400M coordinated; Mar 11 onset |
+
+**Score breakdown:** 5 features present (mechanism, refining margins, jet fuel, oil-price direction, ME supply origin) → direction-right; 7 features attenuated or absent (SPR/IEA cushion, US net-exporter status, service-economy lower intensity, no wage-price spiral mechanism, Fed credibility intact, smaller price magnitude, etc.) → magnitude attenuates to ~0.5-0.7×, BRENT centers 0.6×.
+
+**Wirth book-bias flag (BRENT Turn 3):** Chevron CEO has structural book-bias to amplify supply-shortage framing. Q1 2026 revenue miss $48.61B; Milken Institute Global Conference high-prestige stage with incentive for headline-worthy statements; CVX stock +1.03% intraday during the interview. Confidence on Wirth-statement was 0.85 with no bias caveat — retro-shifted to 0.75 with `corporate-amplification-bias` tag at SIG-W-20260505-009 dispatch_note (2026-05-06).
+
+**Hedge convergence:** Wirth amplifies (Chevron book-bias up), IEA discounts (institutional book-bias down), EIA STEO triangulates ~0.5-0.7× independent of either bias. All three pointing at the same range.
+
+**RED steelman input:** start from BRENT's 5/12 features-present table — RED to test which of the 7 absent features is most fragile (i.e., which could re-activate to push the analog toward 0.8-1.0×) and which of the 5 present features are most load-bearing (i.e., which could fail to push toward 0.3-0.4×). Falsification rules pre-registered against magnitude bands, not direction.
+
+— WALTER, 2026-05-06 (supplement post-BRENT LIAISON Turn 3)
