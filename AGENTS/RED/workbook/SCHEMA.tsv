@@ -48,6 +48,7 @@ CHALLENGES.tsv	Resolved_Date	Date	YYYY-MM-DD or empty	No	When resolved
 CHALLENGES.tsv	Resolution	String	Free text	No	How it was resolved
 CHALLENGES.tsv	KB_Links	String	KB-RED-NNN refs	No	Related KB entries
 CHALLENGES.tsv	VX_Links	String	VX-RED-NNN refs	No	Related VX entries
+CHALLENGES.tsv	BOARD_Refs	String	SIG-W-YYYYMMDD-NNN refs (semicolon-separated)	No	BOARD signal IDs that informed or are challenged by this CHG (added 2026-05-06 Turn 3 RED↔WALTER LIAISON)
 PREDICTIONS.tsv	Pred_ID	String	RED-NN	Yes	Unique prediction identifier
 PREDICTIONS.tsv	Date_Made	Date	YYYY-MM-DD	Yes	When prediction was made
 PREDICTIONS.tsv	Prediction	String	Free text	Yes	The falsifiable prediction
@@ -74,3 +75,11 @@ VX_HISTORY.tsv	New_Strength	String	Current strength	Yes	After change
 VX_HISTORY.tsv	Old_BullWt	Integer	0-100	No	Previous bull weight
 VX_HISTORY.tsv	New_BullWt	Integer	0-100	No	New bull weight
 VX_HISTORY.tsv	Reason	String	Free text	Yes	What drove the change
+FALSIFICATION_TRIGGERS.tsv	trigger_id	String	RED-FT-NN	Yes	Unique trigger identifier
+FALSIFICATION_TRIGGERS.tsv	metric	String	Canonical metric name (HY-OAS;BRENT-PAPER;INITIAL-CLAIMS;VIX;CCC-OAS)	Yes	Metric being watched
+FALSIFICATION_TRIGGERS.tsv	threshold_op	Categorical	<;>;<=;>=;==	Yes	Comparison operator
+FALSIFICATION_TRIGGERS.tsv	threshold_value	Numeric	bps for OAS;USD for Brent;K for claims;index level for VIX	Yes	Numeric threshold
+FALSIFICATION_TRIGGERS.tsv	sustain_window	Integer	Days (1=single-print event)	Yes	Sustain days required to fire trigger
+FALSIFICATION_TRIGGERS.tsv	action	Categorical	IMMEDIATE-FALSIFY;PATH-B-CONFIRM;ADD-POSITION;BRT-15-INVALID;LABOR-RE-ARM;MANAGED-DECLINE-CONFIRM;EARLY-STRESS	Yes	Action taken on cross
+FALSIFICATION_TRIGGERS.tsv	recipient_chain	String	Action/info routing chain (RED action / AGENT info / Will)	Yes	Dispatch routing on fire
+FALSIFICATION_TRIGGERS.tsv	falsification_thesis_ref	String	Path to STATUS.md or CALENDAR.md anchor	Yes	Where the thesis-falsification rule is documented (added 2026-05-06 Turn 3 RED↔WALTER LIAISON; 8-col schema cosigned with WALTER for at-dispatch evaluation)

@@ -1,0 +1,8 @@
+trigger_id	metric	threshold_op	threshold_value	sustain_window	action	recipient_chain	falsification_thesis_ref
+RED-FT-01	HY-OAS	<	280	3	IMMEDIATE-FALSIFY	RED action / LIQUID HENRY info / Will	STATUS.md#falsification-criteria-row1-near-dated-position-cleanup
+RED-FT-02	HY-OAS	>	320	3	PATH-B-CONFIRM	RED action / LIQUID HENRY info	STATUS.md#falsification-criteria-row2-path-b-reassertion
+RED-FT-03	BRENT-PAPER	>	130	5	ADD-POSITION	RED action / BRENT info / Will	STATUS.md#falsification-criteria-row7-stagflation-acceleration
+RED-FT-04	BRENT-PAPER	<	75	3	BRT-15-INVALID	RED action / BRENT action / Will	CALENDAR.md#falsification-watch-brt-15-invalidation
+RED-FT-05	INITIAL-CLAIMS	>	250	1	LABOR-RE-ARM	RED action / CARL LABOR info	STATUS.md#falsification-criteria-row8-labor-transmission-revival
+RED-FT-06	VIX	<	16	5	MANAGED-DECLINE-CONFIRM	RED action / HENRY VIOLET info	STATUS.md#falsification-criteria-row9-hypothesis-rebalance
+RED-FT-07	CCC-OAS	>	930	1	EARLY-STRESS	RED action / LIQUID info	CALENDAR.md#falsification-watch-ccc-rapid-widening-composite
