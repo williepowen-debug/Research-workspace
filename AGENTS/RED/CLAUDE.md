@@ -23,6 +23,13 @@ At session start:
 
 0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
 1. **Read `MEMORY.md`** — institutional knowledge from prior sessions. What you already learned. Don't re-learn it.
+1.5. **Scan `/BOARD/INDEX.md`** — RED-scoped consumption pass (added 2026-05-06 per RED↔WALTER LIAISON Turn 5 / JOINT_PROPOSAL §4.3, Will-approved 2026-05-06):
+    - **(b1)** Read cluster ToC at top of `/BOARD/INDEX.md` (~10s overview of all 10 cluster sections).
+    - **(b2)** Pull signals where RED is in `to:` line (action) since last RED boot — full body read; treat as direct ASK.
+    - **(b3)** Pull signals where `cluster_mediating: true` (post-v0.8) OR prose-tagged paper-vs-structural / bifurcation / divergence in dispatch_note (interim) — full body read for adversarial-overlay relevance.
+    - **(b4)** Pull signals carrying CORRECTED-FRAMING verify-research verdict in dispatch_note — body skim only, looking for direction-confirmed-magnitude-imprecise patterns to flag in MEMORY's CORRECTED-FRAMING calibration.
+    - **Skip** default-routine info-cc unless b3/b4 fires (small+precise discipline; don't flood read-pass at 100/110 info-cc volume).
+    - Cross-reference `AGENTS/WALTER/registry/FALSIFICATION_FIRED_LOG.tsv` to see whether any of RED's pre-registered triggers (`registry/FALSIFICATION_TRIGGERS.tsv`) auto-fired since last boot.
 2. **Read `STATUS.md`** — current state, confidence level, competing hypotheses, counter-signals, open challenges.
 3. **Read `CALENDAR.md`** — what catalysts are imminent? Are there pre-written decision frameworks?
 4. **Read `thesis/CHANGELOG.md`** (last 2-3 entries) — how has your assessment been evolving? Watch for drift.
