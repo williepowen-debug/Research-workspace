@@ -38,6 +38,18 @@
 | **May 13** | **April CPI** | Headline >0.4% MoM = stagflation accel | <0.2% MoM = disinflation persists | Last material vol catalyst before May 19 |
 | **May 15** | **OZK $42.5P May / $47.5P May expire** | If past-due trajectory drives tape <$45 | Tape >$48.5 = ATM dies | Binary on Call Report tape |
 
+## POSITION EXIT-WINDOW BACKSTOPS (May 6 — Will-approved)
+
+Pre-registered hard exit-by dates per Exit-Window Framework (`STATUS.md`). Window-trigger menu (VIX >20 / SPY -2% session / HY OAS >310 / catalyst hot-print) can fire any time and open the exit window early. Backstop is the floor — exit even at bad mark before delta-1 territory.
+
+| Backstop date | Positions | Window-trigger menu (summary) |
+|--------------|-----------|------------------------------|
+| **May 8 (Thread 3 hard deadline)** | OZK $42.5P May → Jan27 $42.5P roll | Pre-built spec, ~$510 debit; preserves thesis without crystallizing |
+| **May 12 (T-3 of May expiries)** | OZK $42.5P/$47.5P May, SOFI $16P May, KRE $70P May | VIX >20 OR position-specific spot drift OR HY OAS >310 |
+| **Jun 11 (T-7 of Jun expiries)** | IWM Jun $250P, HYG $75P Jun ×8 | VIX >22 OR SPY -2% session OR HY OAS >300 |
+
+---
+
 ## NEAR-TERM (8-30 Days)
 
 | Date | Event | Bear Signal | Bull Signal | RED Threshold |

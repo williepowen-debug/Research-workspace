@@ -1,5 +1,5 @@
 # RED STATUS
-**Last Updated:** 2026-05-06 (Wed Session 9 closeout — RED↔WALTER LIAISON channel opened + converged in 5 turns + joint-proposal package committed; no thesis/confidence/position updates this session) | **Role:** Adversarial Analysis / Thesis Stress-Tester
+**Last Updated:** 2026-05-06 (Wed Session 11 — exit-window framework Will-approved; near-dated theta-killers converted from mechanical "close now" to pre-registered window triggers + hard backstop dates May 12 / Jun 11) | **Role:** Adversarial Analysis / Thesis Stress-Tester
 
 > **Session 9 architectural delta (no thesis impact):** RED↔WALTER LIAISON channel established (`handoff_WALTER/`); 6 turns dialogue converged Q1-Q15; 4 deliverables shipped (`registry/FALSIFICATION_TRIGGERS.tsv` 7 triggers, `workbook/CHALLENGES.tsv` col-11 BOARD_Refs, bifurcation classification 22 signals, `design/JOINT_PROPOSAL_2026-05-06_red_sections.md` §1+§4+§6+§7); CLAUDE.md boot-step 1.5 added (BOARD scoped scan — fires next boot); MEMORY.md "verify empirical dispatch surface" rule added. WALTER side-file ships §2/§3/§5; repo-root stitch is WALTER's pickup. Calibration cycle 1 retro Turn 7 ~May 20 synced w/ BRENT.
 
@@ -95,9 +95,44 @@ The strongest version of "we're wrong" — refreshed for May 6:
 | **FXY shares x8** | (verify) | 🟢 SAFE | No expiry. BOJ June 74% priced. |
 
 **Red-flag actions owed Will:**
-1. HYG Jun x8 — exit per pre-registered rule, still pending
-2. OZK $42.5P May Thread 3 roll — hard deadline ~May 8 (3 td)
-3. SOFI May, KRE May, IWM Jun — near-dated theta-killers, recommend close before May 15
+1. HYG Jun x8 — Apr 10 falsifier fired, 26d sustain. Mark-context override accepted; Jun 11 backstop per Exit-Window Framework (below). Loop closure owed in workbook regardless of exit mark — RED can't reissue indefinitely.
+2. OZK $42.5P May Thread 3 roll — hard deadline ~May 8 (T-2). Roll → Jan27 $42.5P ×2 (~$510 debit) preserves thesis without crystallizing at ATH. Separate from cleanup pass.
+3. SOFI May, KRE May, IWM Jun — converted to Exit-Window Framework May 6 (below) — pre-registered window triggers + hard backstops May 12 / Jun 11.
+
+---
+
+## EXIT-WINDOW FRAMEWORK (May 6 — Will-approved)
+
+Mechanical "close now" at SPY ATH ($723.77) + VIX 16.54 = worst-mark exit. Convert to pre-registered window triggers + hard backstop dates so the discipline is rule-form, not "wait and hope."
+
+### Window-trigger menu (ANY = window opens for relevant positions)
+
+| # | Trigger | Mark improvement |
+|---|---------|------------------|
+| 1 | **VIX intraday >20** | IV repricing pumps near-dated puts 30-80%+ |
+| 2 | **SPY single-session ≤-2%** | Spot move + reflexive vol bid = double payoff |
+| 3 | **HY OAS >310 sustained 3d** (RED's own inverse trigger) | Credit re-widening reprices stack |
+| 4 | **Catalyst hot-print:** CPI 5/13 >0.4% MoM, BOJ surprise hike, WAL MI3 ≥25%, OZK NCO accel | Position-specific repricing |
+| 5 | **Hard backstop date** (per-position below) | Theta floor — exit even at bad mark before delta-1 territory |
+
+### Per-position backstops
+
+| Position | Backstop | Window-trigger menu | Default if no trigger |
+|----------|:--:|---|---|
+| **OZK $42.5P May ×2** | May 12 (T-3) | OZK <$45 OR VIX >20 OR Q1 MI3 bear | **Roll Jan27 $42.5P** per Thread 3 (preserves thesis) |
+| **OZK $47.5P May ×2** | May 12 (T-3) | OZK <$47 OR Call Report tape <$45 | Close T-3 |
+| **SOFI $16P May ×2** | May 12 (T-3) | SOFI <$15 OR VIX >20 | Close T-3 |
+| **KRE $70P May ×2** | May 12 (T-3) | KRE <$68 OR HY OAS >310 OR VIX >20 | Close T-3 |
+| **IWM Jun $250P** | Jun 11 (T-7) | IWM <$275 OR SPY -2% session OR VIX >22 | Re-evaluate weekly |
+| **HYG $75P Jun ×8** | Jun 11 (T-7) | HYG <$78 OR HY OAS >300 OR VIX >22 | Special wrinkle (below) |
+
+### HYG special wrinkle
+
+Apr 10 falsifier fired; Will deferred 26 days; mark-context overrides rule-discipline pending Jun 11 backstop. Loop closure owed in workbook regardless of exit mark — even if answer is "we waited and ate it." RED can't reissue indefinitely.
+
+### Reflexivity note
+
+The same divergence that validates RED's "paper vs structural" framing (SIG-W-20260506-002 tape-vs-substance bifurcation #2) is the divergence that kills near-dated puts. Honest acknowledgment: RED has carried this tension 18 days without forcing a decision. Backstops force the decision.
 
 ---
 
@@ -128,7 +163,7 @@ The strongest version of "we're wrong" — refreshed for May 6:
 | **BRENT thesis v2.0 adversarial overlay** | BRENT | STRONG | CHG-RED-024 issued May 6. 3 STRONG (paper-physical without observable, curve contradicts deepening, BRT-04 downgrade overshoots) + 2 MODERATE (bypass-pair n=2, Phase overlap). 3 falsifiable preds RED-12/13/14 in 30-60d. |
 | **RED calibration (RED-09)** | Self | MODERATE | Resolved record 4 WRONG / 1 CORRECT / 9 ACTIVE (corrected from "6 in a row" overstatement). Narrowness applies to RED-02/03; directional miss RED-06; matched low-prob pair RED-07/-09. Methodology improvement: tighten ranges or use scenario distributions. |
 | ~~VIOLET SKEW challenge~~ | VIOLET | RESOLVED-CONVERGED | VIOLET May 3 Will-approved post-mortem absorbed challenge: gate FAILED (peak 141.90 vs 145), strict 4-td invalidation HIT Apr 23-28, distribution updated to VIX 25-30 12% / 30-40 6% / 40+ 2% (≈14% sustained ≥25). Converges with RED's 18%. CHG-RED-023 closed. |
-| **Q2 instrument mismatch** | Portfolio | COMPELLING | OZK May ×4, WAL Jun ×3, KRE May ×2, IWM Jun, SOFI May, HYG Jun all near-dated against Q3+ thesis. |
+| **Q2 instrument mismatch** | Portfolio | COMPELLING (mitigated via Exit-Window Framework May 6) | OZK May ×4, WAL Jun ×3, KRE May ×2, IWM Jun, SOFI May, HYG Jun all near-dated against Q3+ thesis. Pre-registered window-triggers + backstops May 12 / Jun 11 — loop closure forced. |
 
 ---
 
