@@ -1,0 +1,5 @@
+## 2026-05-05 — To: SAM
+**Signal:** JKM LNG $16.87/MMBTU (May 4) — decoupling from oil this month.
+**Detail:** JKM (Japan/Korea Marker LNG spot) at **$16.87/MMBTU** May 4. Notable pattern: **−15.5% month-over-month** but **+49.8% year-over-year**. Decoupling from oil is the surprising read — Brent +5.13% May 4 → +$2.79 more May 5 morning while LNG eased. Possible drivers: post-winter heating demand fade in N.Asia; Australia/Qatar/US LNG supply intact (Hormuz hits oil more than gas exports given different physical infrastructure); demand-side Asian buyer pullback on absolute price. Worth flagging for your Japan energy-cost monitor: if JKM continues easing while Brent climbs, Japan import cost stress is concentrated on crude, not LNG. If JKM reverses with a Hormuz LNG-vessel incident, the dual-fuel stress is back. Also: Project Freedom (>1,500 vessels trapped in Hormuz queue per CENTCOM) is a physical chokepoint risk for Qatar LNG flows specifically — that thread is worth watching as a potential SAM trigger.
+**Source:** Tradingeconomics JKM May 4 close, FRED PNGASJPUSDM
+**Priority:** 🟡
