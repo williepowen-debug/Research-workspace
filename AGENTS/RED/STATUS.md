@@ -125,7 +125,7 @@ The strongest version of "we're wrong" — refreshed for May 6:
 | **WAL V2 thesis reframe** | REGINALD | MODERATE | "Compounder + CRE tail" weakens fast-transmission story. RED owes a stress-test of new framing. |
 | **BRENT thesis v2.0 adversarial overlay** | BRENT | STRONG | CHG-RED-024 issued May 6. 3 STRONG (paper-physical without observable, curve contradicts deepening, BRT-04 downgrade overshoots) + 2 MODERATE (bypass-pair n=2, Phase overlap). 3 falsifiable preds RED-12/13/14 in 30-60d. |
 | **RED calibration (RED-09)** | Self | STRONG | 6 wrong in a row. Methodology lesson not absorbed. Next prediction must be wider. |
-| **VIOLET SKEW challenge** | VIOLET | STRONG | Apr 22 deadline passed without response. RED owes escalation/withdrawal decision. |
+| ~~VIOLET SKEW challenge~~ | VIOLET | RESOLVED-CONVERGED | VIOLET May 3 Will-approved post-mortem absorbed challenge: gate FAILED (peak 141.90 vs 145), strict 4-td invalidation HIT Apr 23-28, distribution updated to VIX 25-30 12% / 30-40 6% / 40+ 2% (≈14% sustained ≥25). Converges with RED's 18%. CHG-RED-023 closed. |
 | **Q2 instrument mismatch** | Portfolio | COMPELLING | OZK May ×4, WAL Jun ×3, KRE May ×2, IWM Jun, SOFI May, HYG Jun all near-dated against Q3+ thesis. |
 
 ---
@@ -152,7 +152,10 @@ The strongest version of "we're wrong" — refreshed for May 6:
 | **RED-07 (≥1 of WAL/OZK beats)** | 25% | both missed | **CORRECT** |
 | **RED-09 (BOJ delays past May 1)** | 15% | held Apr 28 (delay) | **WRONG modal** |
 | RED-10 (HY OAS <400 by Jun) | 45% | 285 | ACTIVE-RIGHT |
-| RED-11 (VIX ≥25 sustain by May 19) | 18% | 16.54, 9 td | ACTIVE-LIKELY-RIGHT |
+| RED-11 (VIX ≥25 sustain by May 19) | 18% | 16.54, 9 td. VIOLET converged at ~14%. | ACTIVE-LIKELY-RIGHT (~3-5% implied) |
+| RED-12 (Dated Brent next print <$115) | 50% | paper $103, falling | ACTIVE |
+| RED-13 (Brent Dec26 $80-95 over 60d) | 65% | new | ACTIVE |
+| RED-14 (US rigs 400-415 through Jun) | 65% | rigs 408 May 1 | ACTIVE |
 
 **6 wrong, 1 correct, 3 active. Calibration: distributions remain too narrow. Next prediction must widen.**
 
