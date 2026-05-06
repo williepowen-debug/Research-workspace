@@ -6,11 +6,12 @@
 
 ## STATUS
 
-Session 2026-05-06 PM Wed (~17:44–19:20 UTC) — **fourth WALTER session today (extended)**. Will-page-triggered **2-batch image-throughput session**:
-- **Batch 1** 18:01 UTC msgs 1401-1405 (5 imgs): 5 dispatches + 1 KILL + 1 synthesis-add committed `866d761e`
-- **Batch 2** 18:48 UTC msgs 1411-1417 (7 imgs): 2 dispatches + 3 KILLs (commit pending)
+Session 2026-05-06 PM Wed (~17:44–20:35 UTC) — **fourth WALTER session today (extended through 3 image batches)**. Will-page-triggered 3-batch image-throughput session:
+- **Batch 1** 18:01 UTC (5 imgs): 5 dispatches + 1 KILL + 1 synthesis-add committed `866d761e`
+- **Batch 2** 18:48 UTC (7 imgs): 2 dispatches + 3 KILLs committed `f1b1adff`
+- **Batch 3** 19:52 UTC (6 imgs): 4 dispatches + 2 KILLs (commit pending this writing)
 
-**Net today: 7 BOARD dispatches + 4 KILLs + 1 WALTER-synthesis-add + 4 verify-research spawns (~$0.20).** First end-to-end signal-intake-to-dispatch test of the v0.7 / v0.10 / FALSIFICATION-LIVE infrastructure shipped earlier today. Will green-lit batch 1 dispatch via msg 1409; batch 2 sent without explicit per-batch green-light (Will note 1409 was "let me know when I can send the next batch").
+**Net today: 11 BOARD dispatches + 6 KILLs + 1 synthesis-add + 8 verify-research spawns (~$0.40).** First end-to-end signal-intake-to-dispatch test of the v0.7 / v0.10 / FALSIFICATION-LIVE infrastructure shipped earlier today. Will green-lit batch 1 dispatch (msg 1409) + batch 2 implicitly via msg 1409 "let me know when next batch" + batch 3 unprompted ("you may dispatch" precedent applied). **🚨 `network_uncertainty_peak` auto-flag TRIGGERS at this closeout** — first fire since infra LIVE 5/6 PM (today's bifurcation count = 6, threshold ≥5).
 
 Boot-state at session start: WALTER tree clean (last commit `dad58114` from 3rd session); RED has 5 modified + 1 untracked file in flight from parallel session — **boot pull skipped per protocol** to avoid stashing other agents' work. Origin in sync with WALTER tree at boot.
 
