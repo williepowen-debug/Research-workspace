@@ -124,3 +124,5 @@
 | Path | Purpose | State |
 |------|---------|-------|
 | `AGENTS/WALTER/design/JOINT_PROPOSAL_2026-05-05_walter_sections.md` | WALTER's drafted sections of joint WALTER+CARL proposal from 6-turn LIAISON 2026-05-05 — covers FORMAT_SPEC v0.8 (4 fields) + scheduled-scan budget + ROUTING_TABLE v0.6 + design/CROSS_REFS/CARL.md. | ✅ Shipped 2026-05-06; awaiting CARL's parallel sections + Will-mediated stitch into repo-root `design/JOINT_PROPOSAL_2026-05-05.md`. |
+| `AGENTS/WALTER/design/LIAISON_PLAYBOOK.md` | Generic process doc — captures CARL pilot pattern as repeatable LIAISON channel process. Reusable for BRENT, RED, HENRY, future. | ✅ Shipped 2026-05-06. Update if new lessons land from BRENT dialog. |
+| `AGENTS/WALTER/design/BRENT_LIAISON_PREP.md` | One-shot prep doc — boot-ready handle for next-session BRENT LIAISON setup. Q1-Q8 prepared, Q9-Q14 anticipated, cross-platform options α/β/γ, bridge concept candidate `energy_transmission` enum. | ✅ Shipped 2026-05-06. Archive to `design/history/` after BRENT dialog converges. |
