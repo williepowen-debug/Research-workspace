@@ -44,8 +44,9 @@
 ## References
 
 - **Root `CLAUDE.md`** — git protocol, agent lifecycle rules, cost model, status hierarchy.
-- **`AGENTS/WALTER/CLAUDE.md`** — spawn protocol, canonical-source lookup table, RULES, closeout checklist git steps 16a-16f.
-- **`AGENTS/WALTER/design/`** — all spec docs. FORMAT_SPEC for signal schema, ROUTING_TABLE for routing, FILTER_SPEC for filter, CHECKLIST for process.
+- **`AGENTS/WALTER/CLAUDE.md`** — spawn protocol, canonical-source lookup table, RULES, closeout checklist git steps 16a-16f. Boot step 9 (added 2026-05-06) discovers LIAISON channels via glob.
+- **`AGENTS/WALTER/design/`** — all spec docs. FORMAT_SPEC for signal schema, ROUTING_TABLE for routing, FILTER_SPEC for filter, CHECKLIST for process. STATE.md = design+infra completeness directory (read on demand). CROSS_REFS/{AGENT}.md = identifier-cache lookups (dispatch-time only).
+- **LIAISON channel path convention:** `AGENTS/{TARGET_AGENT}/handoff_WALTER/LIAISON.md` (turn-by-turn append-only dialog). Manifest at STATUS.md "Active LIAISON channels + countdowns" subsection. WALTER's outbox queue at `AGENTS/WALTER/outbox/REQ-{TARGET}-{YYYYMMDD}-{slug}.md`. Joint proposals split: `AGENTS/{X}/design/JOINT_PROPOSAL_{date}_{x}_sections.md` per agent + repo-root `design/JOINT_PROPOSAL_{date}.md` for stitch.
 - **`/COP.md`** at repo root (paused Apr 14). Template at `design/COP_TEMPLATE.md`.
 - **Market data:** `.venv/bin/python3 FORGE/tools/market-data/dashboard.py`.
 

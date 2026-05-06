@@ -151,6 +151,7 @@ Pre-closeout state: clean working tree post-Prome-pull (commit 1a325c84 BOND ref
 5. **Iran-war anchor re-verify** — 5/4-stamped, refresh boundary 5/11 minimum OR earlier on visible kinetic state-change. Spot-check 5/5 NO state-change.
 6. **Brent tape-vs-substance follow-through** — Wed 5/6 open + Asia-pre-open futures.
 7. **Israeli IDF/IAF kinetic readiness watch** — statements 5/5 hawkish; not yet kinetic.
+8. **CARL ↔ WALTER LIAISON calibration cycle 1** — **primary trigger 2026-05-19 (14d calendar from 5/5)** OR N=20 BOARD dispositions from 12-today-baseline = ~8 more dispatches early-fire. Whichever first → CARL summarizes Post_Hoc_Conf deltas → WALTER tunes verify-research thresholds. Per LIAISON Turn 5 + Will mod 2026-05-06 (calendar primary, count early-fire).
 
 **Today's structural / framing pickups (queued):**
 8. **HAWK refresh** — outbox queue file filed; HAWK-proxy synthesis available as starting framework. **D+1 scenarios: A 20% / B 45% MODAL / C 10% / D 25%.**
