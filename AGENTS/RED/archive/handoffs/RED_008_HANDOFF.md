@@ -13,7 +13,7 @@
 - **WAL:** GAAP -4.6% miss + $152.5M fraud charge-offs (LAM $126.4M Leucadia/Jefferies + Cantor $26.1M) confirmed in 8-K. Ex-fraud NCO 39bps above 25-35bps guide top. Office concentration 38%/$407M/18.5% stress. Office maturity wall $946M (43% of book) matures 2026. Tape -2% intraday.
 - **OZK:** EPS $1.44 vs $1.46 miss. Past-due loans **DOUBLED QoQ** from $207M/0.64% to $465M/1.41%. Classified+criticized +23% QoQ. 3 new substandards (Boston life sci $169M, 2 Seattle U District) + 2 foreclosed. Tape -2.6% over Apr 22-24.
 - **Apr 22 ceasefire bear-confirming:** No deal; UAE struck two consecutive days May 4-5; bypass-pair pattern confirmed; Brent paper round-tripped 30% in 12 days. The "war premium unwind" thesis I steelmanned in Apr 18 bull case is **dead**.
-- **Predictions resolved:** RED-07 (≥1 of WAL/OZK beats April, 25%) → both missed → CORRECT. RED-09 (BOJ delays past May 1, 15%) → BOJ held Apr 28 → WRONG modal call (6 narrowness misses in a row).
+- **Predictions resolved:** RED-07 (≥1 of WAL/OZK beats April, 25%) → both missed → CORRECT. RED-09 (BOJ delays past May 1, 15%) → BOJ held Apr 28 → WRONG modal call. Updated tally on resolved predictions: **4 WRONG / 1 CORRECT / 9 ACTIVE** (corrected from earlier "6 in a row" overstatement).
 - **Hypothesis weights:** Stagflation 32 → 36 (+4); Managed Decline 38 → 35 (-3); net bear regains slight edge (49/49/2 vs Apr 18 46/52/2).
 
 ### #2 BRENT v2.0 adversarial overlay (CHG-RED-024, commit `152d1848`)
@@ -69,7 +69,7 @@
 4. **🟠 Q1 Call Report May 4-10 (WAL MI3, OZK MI3 baseline 37.6%).** REGINALD primary; RED owes adversarial overlay when filing lands.
 5. **🟠 Near-dated portfolio cleanup pass with Will.** SOFI $16P May, KRE May $70P x2, IWM Jun $250P, WAL $65P Jun all theta-fatal or near-fatal; expiries May 15 / Jun 18.
 6. **🟡 VIOLET RED-11 scoring May 20.** Both estimates converge on ~14-18%; result will refine future calibration on adversarial-converge cycles.
-7. **🟡 Calibration debt.** 6 wrong predictions in a row from systemic narrowness. Next prediction must widen ranges materially or move to scenario distributions instead of point estimates.
+7. **🟡 Calibration debt (CORRECTED post-session).** Initial session note claimed "6 wrong predictions in a row" — Will caught the count was wrong. Correct tally: **4 WRONG / 1 CORRECT / 9 ACTIVE** on RED's published predictions. Wrong: RED-02 (NFP tail-upper), RED-03 (kinetic tail), RED-06 (directionally opposite), RED-09 (15%-prob outcome). Correct: RED-07 (both-miss at 25%). RED-08 was wrong mid-cycle ($141 paper) but is currently tracking right ($103). RED-07 just hit, so "in a row" is also wrong. Pattern decomposition: RED-02/03 are narrowness misses; RED-06 was directional; RED-09/07 are both low-prob outcomes occurring (one wrong, one right) — statistically balanced. Real lesson: tighten range-width on bivariate predictions; consider scenario distributions for binary directional calls. Don't overstate the pattern.
 
 ---
 
@@ -92,7 +92,7 @@ These are next-session items, not gaps in what was committed.
 4. **OZK Thread 3 May 8 outcome.** Whether rolled or expired, record in REGINALD-domain context for future near-dated discipline.
 5. **RED-11 May 20 scoring.** Score against 18%. Compare to VIOLET's converged ~14%. Update calibration log.
 6. **REGINALD WAL V2.0 stress-test.** Separate challenge. The "compounder with concentrated CRE tail risk" reframe should not be unchallenged.
-7. **Calibration discipline.** Next prediction RED issues must widen ranges or move to scenario distributions. 6 narrowness misses is a methodology problem, not bad luck.
+7. **Calibration discipline.** Next prediction RED issues must widen ranges or move to scenario distributions. The pattern (RED-02/03 narrowness misses; RED-06 directional miss; RED-09 low-prob outcome) is a methodology problem worth fixing — but don't overstate it as "6 in a row." The actual record is 4W/1C/9A with one matched low-prob pair (RED-07 right, RED-09 wrong).
 
 ---
 
@@ -118,4 +118,6 @@ All three pushed to `origin/master`. Session ends at `f16aac8c`.
 
 ---
 
-*RED_008: The pre-committed framework worked. Confidence trigger fired, position guidance held without improvisation. VIOLET self-corrected via her own discipline; that's the network operating as designed. The 6-narrowness-miss calibration debt is the active methodology debt — not yet absorbed, will be the test of next session.*
+*RED_008: The pre-committed framework worked. Confidence trigger fired, position guidance held without improvisation. VIOLET self-corrected via her own discipline; that's the network operating as designed.*
+
+*Session caveat: Will caught a sloppy count error — RED's prediction record is **4 WRONG / 1 CORRECT / 9 ACTIVE**, not "6 wrong in a row." That sloppy count was repeated across CHANGELOG, ML.tsv, this handoff, and LAST_COMPLETION before catching. The narrowness diagnosis applies to RED-02/03 (tail misses); RED-06 was directional; RED-09/07 are matched low-prob outcomes (one wrong, one right). The calibration debt is real but nuanced. Lesson: when stating a count, count.*

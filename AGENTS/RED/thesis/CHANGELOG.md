@@ -26,7 +26,20 @@
 
 **Predictions resolved:**
 - **RED-07** (≥1 of OZK/WAL beats April, 25% conf) → BOTH MISSED → CORRECT (low-prob outcome occurred)
-- **RED-09** (BOJ delays past May 1, 15% conf) → BOJ held Apr 28, June hike 74% priced → WRONG modal call (15% outcome occurred). Same narrowness pattern as RED-02/03/06/08. Six wrong calls in a row from underestimating tails. Calibration lesson is not yet absorbed — tighten the discipline next session.
+- **RED-09** (BOJ delays past May 1, 15% conf) → BOJ held Apr 28, June hike 74% priced → WRONG modal call (15% outcome occurred).
+
+**CORRECTED CALIBRATION TALLY (was overstated as "6 wrong in a row" — that count is WRONG):**
+- RED-02 NFP: WRONG (tail-upper outcome)
+- RED-03 deadline extends: WRONG (kinetic tail)
+- RED-06 CDX/cash: WRONG (directionally opposite)
+- RED-09 BOJ delay: WRONG (15% outcome occurred)
+- RED-07 ≥1 of WAL/OZK beats: **CORRECT** (25% outcome — both missed)
+- RED-08 Brent <$120 sustained Q2: ACTIVE-RIGHT now (was wrong mid-cycle when paper hit $141)
+- 9 still active (RED-01, -04, -05, -08, -10, -11, -12, -13, -14)
+
+**Honest count: 4 WRONG / 1 CORRECT / 9 ACTIVE on RED's published predictions.** "Six wrong in a row" was a sloppy count that propagated across files in this session — caught and corrected. The narrowness diagnosis fits RED-02 and RED-03 (both tail-outcome misses where RED's range was too narrow). RED-06 was directionally wrong, not narrow. RED-09 was a 15%-prob outcome occurring — either calibration miss or a single observation of a low-prob event. RED-07 hit at 25% conf balances RED-09 — both low-prob outcomes that happened. The "in a row" framing is also wrong because RED-07 just hit CORRECT.
+
+The calibration debt is real but more nuanced than "6 wrong in a row." Specifics: tighten range-width on bivariate point predictions; consider scenario distributions instead of point estimates for binary directional calls.
 
 **Predictions still active:**
 - RED-08 Brent <$120 sustained Q2 (60%) — leaning RIGHT

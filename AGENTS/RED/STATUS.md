@@ -9,7 +9,7 @@
 
 **Thesis remains bifurcated.** Apr 21 WAL/OZK earnings landed in MISS / MUTED cells for both names. Apr 22 ceasefire binary went bear with re-escalation through May 4-5 (UAE struck two consecutive days). Structural data continues to confirm bear thesis at high quality, but paper markets continue to disagree on the timeline. The "war premium unwind" thesis I steelmanned in Apr 18 bull case is dead — Brent paper round-tripped 30% in 12 days (Apr 17 $88.87 → Apr 29 intraday $115 → May 5 $116.55 → May 6 $102.87).
 
-**RED-09 calibration miss** (BOJ delay was 15% RED, happened): the systemic-narrowness pattern is now 6 wrong calls in a row from underestimating tails. Lesson is documented and not yet absorbed. Tighter discipline next session.
+**RED-09 calibration miss** (BOJ delay was 15% RED, happened): RED's resolved-prediction record is **4 WRONG / 1 CORRECT / 9 ACTIVE** (Will-corrected from initial sloppy "6 wrong in a row" count this session). Pattern decomposition: RED-02/03 are narrowness misses (tail outcomes); RED-06 was directionally wrong; RED-09 (15%) and RED-07 (25%) are matched low-prob outcomes — one wrong, one right, statistically balanced. Real lesson: tighten range-width on bivariate predictions; consider scenario distributions for binary directional calls.
 
 ---
 
@@ -124,7 +124,7 @@ The strongest version of "we're wrong" — refreshed for May 6:
 | **Public/private bifurcation** | LIQUID/BROCK | STRONG | HY OAS 285 vs OZK past-due 1.41% / WAL fraud / Office stress / 13 PC gates. Worsened. |
 | **WAL V2 thesis reframe** | REGINALD | MODERATE | "Compounder + CRE tail" weakens fast-transmission story. RED owes a stress-test of new framing. |
 | **BRENT thesis v2.0 adversarial overlay** | BRENT | STRONG | CHG-RED-024 issued May 6. 3 STRONG (paper-physical without observable, curve contradicts deepening, BRT-04 downgrade overshoots) + 2 MODERATE (bypass-pair n=2, Phase overlap). 3 falsifiable preds RED-12/13/14 in 30-60d. |
-| **RED calibration (RED-09)** | Self | STRONG | 6 wrong in a row. Methodology lesson not absorbed. Next prediction must be wider. |
+| **RED calibration (RED-09)** | Self | MODERATE | Resolved record 4 WRONG / 1 CORRECT / 9 ACTIVE (corrected from "6 in a row" overstatement). Narrowness applies to RED-02/03; directional miss RED-06; matched low-prob pair RED-07/-09. Methodology improvement: tighten ranges or use scenario distributions. |
 | ~~VIOLET SKEW challenge~~ | VIOLET | RESOLVED-CONVERGED | VIOLET May 3 Will-approved post-mortem absorbed challenge: gate FAILED (peak 141.90 vs 145), strict 4-td invalidation HIT Apr 23-28, distribution updated to VIX 25-30 12% / 30-40 6% / 40+ 2% (≈14% sustained ≥25). Converges with RED's 18%. CHG-RED-023 closed. |
 | **Q2 instrument mismatch** | Portfolio | COMPELLING | OZK May ×4, WAL Jun ×3, KRE May ×2, IWM Jun, SOFI May, HYG Jun all near-dated against Q3+ thesis. |
 
