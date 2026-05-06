@@ -48,7 +48,7 @@
 ### Diplomatic / political channel
 - Iran reviewing US response to 14-pt proposal as of today.
 - Pakistan-mediated talks **stalled** with little US-Iran demand-overlap; Araghchi physically left Islamabad Apr 25 before Witkoff/Kushner arrived; channel disrupted not dead.
-- **OPEC+ symbolic 188K bpd hike May 3** — first meeting without UAE (UAE quit OPEC+).
+- **OPEC+ symbolic 188K bpd hike May 3** — first meeting without UAE. **UAE exit from OPEC+ effective May 1, 2026** (corrected 2026-05-06 per SIG-W-20260506-001 verify-research finding — earlier framing in this anchor said May 3 announcement; that was the first POST-exit OPEC+ meeting). April production figures still include UAE; May print will mechanically drop further from UAE removal alone (~2.9 mbpd capacity exits OPEC+ denominator) — pre-register as supply-narrative composition-artifact for forward Iran-cluster signal framing.
 - **Merz (German chancellor) Apr 28**: US "being humiliated" by Iran + sees "no exit strategy" — ally-channel diplomatic-credibility-erosion vector still active.
 
 ## Iran-cluster signal-framing implications (as of May 4)
