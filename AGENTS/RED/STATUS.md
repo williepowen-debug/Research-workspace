@@ -85,9 +85,9 @@ The strongest version of "we're wrong" — refreshed for May 6:
 | **IWM Jun $250P** | $282.56 | 🔴 DEEP OTM | $32 OTM. Risk-on tape persistent. |
 | **OZK $42.5P Aug x3** | $48.48 | 🟡 LOW | Thesis-add. 16-week tenor. IQHQ Aug catalyst aligned. |
 | **OZK $45P Aug x4** | $48.48 | 🟡 LOW | Core thesis vehicle. CIB disclosure window pending. |
-| **WAL $85P Jun x1** | $81.86 | 🟠 MOD | $3.14 OTM. EV per REGINALD $13.93. Survives if tape rolls; flagged for close/roll if WAL holds >$82. |
+| **WAL $85P Jun x1** | $81.86 | 🟠 MOD | $3.14 OTM. **REGINALD EV $13.93 M4-incoherent per CHG-RED-025** (V2.0 multi-quarter thesis can't realize bear-mid $63 by Jun 18) — true Jun-conditional EV ~$5-7. HOLD for *event-driven* moves (10-Q Table 16, IDay May 12), not for multi-quarter migration. |
 | **WAL $77.5P Jun x1** | $81.86 | 🟠 MOD | $5.64 OTM. |
-| **WAL $65P Jun x1** | $81.86 | 🔴 DEEP OTM | $16.86 OTM. EV $0.75. REGINALD flagged for close/roll. |
+| **WAL $65P Jun x1** | $81.86 | 🔴 DEEP OTM | $16.86 OTM. **V2.0 close-recommendation REJECTED per CHG-RED-025** (built on same M4-incoherent EV math as $85P). HOLD or **roll to Sep $65P**. V1 reactivation on MI3 ≥25 makes Jun viable on fast-transmission scenario V2.0 prematurely retired. |
 | **WAL Sep multi (70/77.5)** | $81.86 | 🟡 LOW | $77.5P Sep "best risk-adj" per REGINALD ($8.31 EV). Survives V2 thesis horizon. |
 | **KRE $60P Dec x4** | $69.92 | 🟢 LOW | Long-dated. Thesis-aligned. |
 | **TLT $82P Oct x2** | $85.43 | 🟢 LOW | $3.43 OTM. BOJ June + Q4 supply. |
@@ -108,7 +108,7 @@ The strongest version of "we're wrong" — refreshed for May 6:
 | **HY OAS <280 sustained 3d** | Exit KRE May + IWM Jun; reduce OZK/WAL 25% | 5bps away. Refresh from LIQUID needed. |
 | **HY OAS >320 sustained 3d** | Path B reasserts, hold full stack, confidence +3 | NEW. Inverse trigger; OAS ~285 currently. |
 | **WAL or OZK Q2 beat + clean disclosure** | Exit both; confidence 73 → 65 | Q2 prints mid-late Jul. |
-| **Q1 Call Report May 4-10: WAL MI3 ≥25%** | Confirm V1 hidden-CRE acceleration; +2 | NEW. Per REGINALD primary thesis test. |
+| **Q1 Call Report mid-May: WAL MI3 ≥25%** | Confirm V1 hidden-CRE acceleration; **+3** (recalibrated from +2 per CHG-RED-025 V2.0 OVER-CORRECTED) | Original RED trigger correctly calibrated; V2.0's V1 demotion was the over-correction. 10-Q (May 4-10) does NOT carry MI3 — FFIEC bulk mid-May does. |
 | **OZK NCO sustained ≤55bps through Q3** | Invalidation §2 fires; confidence -5 | Q1 was 57bps. Q2 print Jul. |
 | **BTFP 2.0 announced** | EXIT ALL IMMEDIATELY | Dormant. |
 | **Brent paper >$130 sustained 5d** | Re-price stagflation, add to KRE/TLT | $103 today, falling. |
@@ -124,7 +124,7 @@ The strongest version of "we're wrong" — refreshed for May 6:
 |-----------|--------|----------|--------|
 | **HYG exit closure owed** | RED self → Will | CRITICAL | Apr 10 rule fired, recommendation Apr 18, status pending Apr 30 |
 | **Public/private bifurcation** | LIQUID/BROCK | STRONG | HY OAS 285 vs OZK past-due 1.41% / WAL fraud / Office stress / 13 PC gates. Worsened. |
-| **WAL V2 thesis reframe** | REGINALD | MODERATE | "Compounder + CRE tail" weakens fast-transmission story. RED owes a stress-test of new framing. |
+| **WAL V2.0 OVER-CORRECTED** (CHG-RED-025) | REGINALD | STRONG | Stress-test verdict ~26% weighted PASS (range 20-49% = OVER-CORRECTED). V1 demoted without falsifier; M4 EV math incoherent w/ multi-quarter thesis. MI3 trigger recalibrated +2 → **+3**. $65P Jun HOLD/roll counter to V2.0 close. 10-Q Table 16 inventory test = RED-primary. → `research/WAL_V20_STRESSTEST.md` |
 | **BRENT thesis v2.0 adversarial overlay** | BRENT | STRONG | CHG-RED-024 issued May 6. 3 STRONG (paper-physical without observable, curve contradicts deepening, BRT-04 downgrade overshoots) + 2 MODERATE (bypass-pair n=2, Phase overlap). 3 falsifiable preds RED-12/13/14 in 30-60d. |
 | **RED calibration (RED-09)** | Self | MODERATE | Resolved record 4 WRONG / 1 CORRECT / 9 ACTIVE (corrected from "6 in a row" overstatement). Narrowness applies to RED-02/03; directional miss RED-06; matched low-prob pair RED-07/-09. Methodology improvement: tighten ranges or use scenario distributions. |
 | ~~VIOLET SKEW challenge~~ | VIOLET | RESOLVED-CONVERGED | VIOLET May 3 Will-approved post-mortem absorbed challenge: gate FAILED (peak 141.90 vs 145), strict 4-td invalidation HIT Apr 23-28, distribution updated to VIX 25-30 12% / 30-40 6% / 40+ 2% (≈14% sustained ≥25). Converges with RED's 18%. CHG-RED-023 closed. |
@@ -134,7 +134,7 @@ The strongest version of "we're wrong" — refreshed for May 6:
 
 ## TOP ADVERSARIAL PRIORITIES
 
-1. **Read BRENT thesis v2.0 + WALTER LIAISON architecture** — both shipped during gap; needed before next sweep.
+1. **WAL V2.0 stress-test follow-ups (CHG-RED-025)** — pre-catalyst frameworks: (a) MI3 4-bin decision tree, (b) 10-Q Table 16 LAM/Leucadia inventory test, (c) Investor Day May 12 mgmt-credibility framework. RED-primary inventory work distinct from REGINALD MI3 domain.
 2. **OZK Thread 3 May 8 roll** — hard deadline T-2. Pricing check + execute decision needed.
 3. **Q1 Call Report May 4-10** — WAL MI3 (REGINALD primary test), EGBN MI3, CFG NDFI reconciliation, OZK MI3 baseline 37.6%. Pre-write decision tree.
 4. **VIOLET SKEW challenge resolution** — escalate, withdraw, or absorb. RED-11 scoring May 19 (13 td).
