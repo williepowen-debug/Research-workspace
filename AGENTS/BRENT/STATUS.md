@@ -1,8 +1,25 @@
 # BRENT STATUS
 
-**Last Updated:** 2026-05-05 ~14:30 ET (Tue, post-Project-Freedom Day-2; UAE attacked again)
+**Last Updated:** 2026-05-06 ~04:30 UTC (post-WALTER LIAISON architectural close + THESIS v2.0 bump + infrastructure stand-up)
 **Overall Status:** 🔴 **PHASE 1 DEEPENING — UAE STRUCK SECOND CONSECUTIVE DAY** — Brent **$116.55** (May 5 ~08:45, +$2.79 vs May 4 close) / WTI ~$105 / Project Freedom continuing (US-flagged channel only; >1,500 vessels trapped per CENTCOM) / 🔴 **Iran missiles + drones on UAE again May 5** (intercepted; Day 1 scale revised: Al Jazeera reports **15 missiles fired May 4**, not 4) / 🟡 **US/admin holding April 8 ceasefire framing for War Powers reasons** (Hegseth: "ceasefire is not over"; Trump: "I'll let you know"; "blockade has been amazing — like a piece of steel") — **diplomatic narrative diverges from kinetic reality; tape disagrees** *[BRENT-placeholder-narrative pending REQ-NEXUS-20260505 — narrative-interpretation only; substance facts (kinetic events, prices, framing-quote attributions) remain authoritative]* / Petroline + Fujairah BOTH bypass routes attacked (Apr 9 + May 4) — bypass-pair pattern confirmed / OPEC+ 188K bpd symbolic hike May 3 (UAE exited) / **War-risk premium repricing; LMA: coverage available, owner safety appetite is binding constraint** (refining the "P&I won't resume" framing)
-**🟠 LIVE TODOs:** EIA WPSR May 6 (tomorrow); STEO May 12; Project Freedom commercial-vs-US-flagged scope; war-risk premium prints; Dated Brent Apr 15+ Platts (terminal-only); INCIDENTS.tsv catch-up (May 4 + May 5).
+**🟠 LIVE TODOs:** **EIA WPSR May 6 (today);** STEO May 12; Project Freedom commercial-vs-US-flagged scope; war-risk premium prints; Dated Brent Apr 15+ Platts (terminal-only); INCIDENTS.tsv catch-up (May 4 + May 5); **WALTER LIAISON Turn 4 close-loop (Q13-Q15: stitcher + cycle-1 trigger + Path A live-rehearsal);** **JOINT_PROPOSAL Will-surface (post-WALTER stitch);** **calibration cycle 1 review (~May 20-27 at N=15 forward dispositions OR 21 days).**
+
+---
+
+## 🔵 INFRASTRUCTURE — LIAISON LAYER ACTIVE (NEW 2026-05-06)
+
+Stand-up complete this session. Pointers for cross-references:
+
+| Layer | Path | State |
+|-------|------|-------|
+| Thesis | `thesis/THESIS.md` v2.0 | Project Freedom + bypass-pair + BRT-04 weakness + curve structure + LIAISON layer; bumped from v1.1 Apr 16 (commit `00958e15`) |
+| WALTER LIAISON | `handoff_WALTER/LIAISON.md` Turns 1-3 | Architectural items locked Q1-Q12 with WALTER co-sign; Q13-Q15 close-loop pending WALTER Turn 4 |
+| BOARD_LOG | `board/BOARD_LOG.tsv` | 47 BRENT-routed signals dispositioned Apr 14 → May 5 (30 INTEGRATED / 12 INFO_ONLY / 4 REFERRED / 1 BRENT_ORIGIN); 5 Post_Hoc_Conf deltas surfaced for WALTER calibration; cycle 1 clock starts now |
+| Joint proposal | `design/JOINT_PROPOSAL_2026-05-05_brent_sections.md` | BRENT cosign on FORMAT_SPEC v0.8; lng_substitution + 8-threshold dispatch list + BURST_WINDOW_OPEN protocol; energy_transmission/regime_state v0.9 candidates; pending WALTER stitch to repo-root |
+| FLOW.tsv outbound | `workbook/FLOW.tsv` (30 rows) | 5 new rows (FLOW-BRT-26 HAWK; -27 regime-accel pump; -28 Korea/Taiwan LNG; -29 refining→pump; -30 BRENT-IMMEDIATE dispatch) + FLOW-BRT-02 refresh |
+| STATUS retro-tag | This file line 4 | "tape disagrees" placeholder caveat per LIAISON Q3 (commit `707a2f79`) |
+
+**LIAISON-protocol calibration loop:** 5 Post_Hoc_Conf deltas accumulating in BOARD_LOG.tsv since back-disposition (Wirth Milken 0.85→0.75; MS 1990v2026 0.65→0.55; Energy Sec gasoline 0.50→0.40; InfraA Qatar LNG 0.50→0.85 retro-uplift; Corpus Christi 0.80→0.70). Cycle 1 review summarizes deltas; WALTER tunes verify-research thresholds.
 
 ---
 
@@ -34,31 +51,9 @@
 
 ---
 
-## 🔴 SPR + IEA COORDINATED RELEASE — TRACKED FROM TODAY (NEW BLOCK)
+## 🔴 SPR + IEA COORDINATED RELEASE (running Mar 11 → present)
 
-A coordinated 400M-barrel IEA strategic-reserve dump has been running since March; not previously logged here, now load-bearing context.
-
-**IEA action (Mar 11 announcement):**
-- 32 IEA member countries unanimously agreed to release **400M barrels** — largest ever (vs 182M in 2022 post-Ukraine)
-- US share: **172M barrels** from SPR; Germany + Austria announced contributions; others pending
-- SPR baseline: ~409M barrels (Apr 10 DOE) — the 172M release is ~42% of working stock
-
-**US execution (DOE exchange structure, not sale):**
-- Borrowed barrels return + **premium** to SPR (no taxpayer cost; SPR grows on net)
-- Sites: Bayou Choctaw, Bryan Mound, Big Hill, West Hackberry
-- ~80M already awarded across 2 prior tranches; **latest RFP for 92.5M barrels (bids closed May 4 11:00 CT)**
-- Will continue in tranches; no fixed schedule announced
-
-**Key read — SPR didn't dent the tape:**
-- "Major, multi-country oil release deal fails to bring down petroleum prices" (NBC, May 5 framing)
-- Largest coordinated release in IEA history + 86M-barrel first US tranche could not stop Brent climb $103 (Mar) → $116 (May 5)
-- **Strong squeeze confirmation.** Hormuz outage (~9.1M bpd Apr per EIA STEO) is structurally larger than any sustainable reserve drawdown can offset
-- Implies Phase 1 has surface-area beyond what coordinated G7/IEA action can solve — consistent with our two-phase framework where Phase 2 unwind requires *physical reopening*, not just paper supply
-
-**Watch for:**
-- Subsequent SPR exchange tranches (next RFP timing TBD)
-- IEA member follow-through (Germany, Austria, Japan, Korea reserve releases)
-- Backwardation curve flattening on supply-side relief — currently Jun26 $98 / Dec26 $80 / Jun27 $76, so back end is **already pricing eventual unwind**, not extending the shock
+400M IEA / 172M US SPR exchange (largest coordinated release in IEA history) running since Mar 11; ~80M awarded across 2 prior US tranches; latest 92.5M bbl bids closed May 4 11:00 CT (awards pending). **Failed to dent the tape** — Brent $103 (Mar) → $116 (May 5). Strong squeeze confirmation: Hormuz outage (~9.1M bpd Apr per EIA STEO) is structurally larger than any sustainable paper supply offset. **Watch:** next RFP timing; IEA member follow-through (Germany/Austria already in; Japan/Korea pending); backwardation curve flattening on supply-side relief. Curve: spot $116 / Jun26 $98 / Dec26 $80 / Jun27 $76 — back end **pricing eventual unwind**, NOT extending shock structurally. Full context: `thesis/THESIS.md` v2.0 §Phase 1 Evidence.
 
 ---
 
@@ -237,7 +232,7 @@ Baseline (pre-Apr-17): ~1 damage incident every 1.6 days. **Apr 17 → May 3:** 
 
 **Position read unchanged.** Book (XLE Sep $65C 2x, CF Jun $130C 1x) positioned for sustained-high — today reinforces. **New consideration:** curve back-end ($80 Dec26) means XLE Sep is well-aligned (5mo captures squeeze) but year-end+ holds fight the curve. **Hold currents; no new initiations** pending Project Freedom Day 3+, EIA May 6 WPSR, STEO May 12.
 
-**Cross-agent flags (outboxes pending):** CARL — pump $4.457 live; HAWK — Day-2 UAE = campaign + bypass-pair pattern + admin "ceasefire" is War Powers cover; HENRY/LIQUID — IEA 400M dump didn't dent = squeeze confirmation, HY 2.83% no stress yet despite $116; SAM — JKM $16.87 (−15% M/M, +50% YoY) decoupling from oil.
+**Cross-agent flags** (substance per FLOW.tsv outbound paths — see Infrastructure block above; BOARD_LOG / LIAISON layer governs disposition going forward, ad-hoc outboxes deprecated): **CARL** — pump $4.457 live, regime-mode 3-4d pass-through active (FLOW-BRT-02/-27); **HAWK** — Day-2 UAE = campaign + bypass-pair pattern + admin "ceasefire" is War Powers cover (FLOW-BRT-26 scenario feedback); **HENRY/LIQUID** — IEA 400M dump didn't dent = squeeze confirmation; HY 2.85% (Apr 28) no stress yet despite Brent $108-116 (FLOW-BRT-04/-08); **SAM** — JKM $16.87 (-15% M/M, +50% YoY) decoupling from oil; Korea/Taiwan extension active (FLOW-BRT-19/-28).
 
 ---
 
