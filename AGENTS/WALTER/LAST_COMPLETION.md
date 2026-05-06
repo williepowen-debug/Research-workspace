@@ -6,203 +6,227 @@
 
 ## STATUS
 
-Session 2026-05-06 early morning Wed (~03:00-05:00 UTC) — Will-triggered BRENT LIAISON channel session. **5-turn architectural-thread convergence** (BRENT 1/3/5; WALTER 2/4) — half a cycle faster than CARL's 7-turn dialog 24h earlier. **0 BOARD dispatches** (closeout-arc focused on architectural alignment + Turn-4 self-task execution, not new dispatches). ~$0.10 in tokens for sub-spawns. **BRENT shipped 6 parallel commits** during/after the dialog: thesis v1.1→v2.0 + 47-signal back-disposition pass + JOINT_PROPOSAL §1.1+§2e+§3e+§4+§5 sections + FLOW.tsv outbound expansion + STATUS LIAISON infra + Turn 5 wrap.
+Session 2026-05-06 mid-day Wed (~14:18-15:30 UTC) — **second WALTER session today**. Will-triggered RED LIAISON channel session. **5-turn same-day architectural-thread convergence** (RED Turns 1/3/5; WALTER Turns 2/4) — same as BRENT, faster than CARL (7). **0 BOARD dispatches** (architectural session). 0 sub-spawns. **RED revived overnight with 6 Session-8 commits + opened LIAISON channel 8 minutes before Will paged WALTER.**
 
-Boot-state at session start: clean working tree (origin = HEAD `a97dff17`), BRENT files untracked from 5/5 mid-session work. Pull was Already up to date.
+Boot-state at session start: clean working tree (origin diverged — earlier session's `edfaaa6d` BRENT LIAISON closeout still pending push from 00:46 EDT this morning). Pull was Already up to date. Discovered RED untracked at `AGENTS/RED/handoff_WALTER/{LIAISON.md, README.md}` placed 10:08-10:10 EDT (file mtime).
 
-Closeout shipped per CLAUDE.md spawn-protocol steps 12-16: STATUS lead-paragraph + manifest LIAISON BRENT row PENDING_NEXT_SESSION → ACTIVE Turn 5 closed; NETWORK AWARENESS regen (BRENT moves to ≤7d active, WALTER moves to ≤7d active); SESSION LOG entry; REGISTRY refresh (BRENT row + WALTER row); MEMORY CHANGES SINCE / NEXT SESSION rewrite + 3 new findings; LAST_COMPLETION rewrite (this file).
+Closeout shipped per CLAUDE.md spawn-protocol steps 12-16: STATUS lead-paragraph rewritten for second-session arc + LIAISON manifest RED row PENDING → ACTIVE Turn 5 closed; NETWORK AWARENESS regen (RED moves to ≤7d active per Session 8 + LIAISON convergence; routing pressure deltas reflect REQ-RED supersession by RED revival); SESSION LOG entry prepended (the second 5/6 entry — first BRENT-LIAISON entry retained as the prior-session row); REGISTRY refresh (RED row YELLOW + Updated 5/6 + LIAISON-converged Focus; WALTER row updated for second session); MEMORY CHANGES SINCE / NEXT SESSION rewrite + 2 new findings (LIAISON convergence accelerator pattern locked at 3-channel sample; empirical-dispatch-surface check before accepting routing-gap diagnosis); LAST_COMPLETION rewrite (this file); existing LIAISON convergence accelerator finding REFINED inline (substrate prep is helpful but not load-bearing per RED counter-evidence).
 
 ## CHANGED
 
-### Session arc (architectural-alignment + Turn-4 follow-ups + parallel BRENT execution)
+### Session arc (Will-triggered RED LIAISON pickup + 4 turns + JOINT_PROPOSAL §2+§3+§5)
 
-1. **Boot ping (msg 1349, 02:52 UTC):** Boot reads clean — STATUS / IRAN_WAR anchor / MEMORY / LAST_COMPLETION / REGISTRY / ROUTING / BOARD INDEX cluster ToC. Discovered BRENT had committed `707a2f79` (channel scaffold + Turn 1 + STATUS retro-tag of -012 + BOARD_LOG scaffold) at 5/5 ~22:49 UTC — ~3h after my closeout. BRENT files untracked because BRENT-OC hadn't pushed yet.
-2. **Will pick A (msg 1352)** — draft Turn 2 reply. Generated `route_log_brent_slice.tsv` (48 BRENT-routed signals Apr 14 → 5/5, 35 primary + 13 info). Drafted Turn 2 in WALTER tree at `handoff_BRENT/LIAISON_TURN_2_DRAFT.md` (~7KB; answers Q1 slice deliverable, Q2 cosign as 3rd agent + push-back on `refining_margin_pass_through`, Q3 substance-fold authoritative + narrative-with-placeholder-caveat pending NEXUS, Q4 accept all 8 thresholds with 2 redlines, Q5 BURST_WINDOW state machine surfaced as joint-proposal §2d candidate, Q6 BRENT FLOW.tsv as canonical source, Q7 5 questions back).
-3. **Will copies Turn 2 to BRENT tree manually + BRENT ships Turn 3** (file mtime 03:10 UTC; Turn 3 stamp 04:00 UTC). Turn 3 substantive: accepts both my redlines + push-back; **Q8 Wirth magnitude 0.6× with 5/12 features-present structural decomposition** (5 present: ME shock + oil-price direction + refining margin compression + jet fuel substitution + mechanism analog; 7 attenuated/absent: wage-spiral mechanism, US net-exporter, SPR/IEA cushion, demographic, energy intensity, Fed credibility, smaller price magnitude); Q9 tape-vs-substance read mixed (i)+(iii)+(ii), reject (iv); Q10 HAWK-proxy useful for events less for doctrine, HAWK supersedes proxy on refresh; Q11 `energy_transmission` accepts 8-value with 2 add-ons (`refining_capacity` + `freight_premium`) + rename `inventory_drawdown` → `inventory_dynamics`; Q12 BOARD consumption (c) hybrid with 6-row signal-type triage; 3 close-loop questions Q13-Q15.
-4. **Will direct-write auth (msg 1359 "ah you write directly")** — drafted Turn 4 in WALTER tree, then appended to BRENT's LIAISON.md directly (file 318→424 lines). Turn 4: substantive accepts on Wirth decomposition for RED steelman; HAWK-proxy archive location decided (`design/history/hawk_proxy_synthesis_2026-05-05.md`); BURST_WINDOW state machine codified (BRENT-declares-open / WALTER-declares-close after ≥48h stable); BOARD_CONSUMPTION_SPEC v0.2 dual-pattern; answered Q13-Q15 (WALTER stitches; cycle 1 = N=15 forward post-back-pass OR 21d; BURST_WINDOW declared on announcement per asymmetric cost). One close-loop Q16 — v0.8 vs v0.9 surface mechanics.
-5. **Will direction "yes lets keep going" (msg 1360)** — drafted WALTER §2a-§2d + §3b + §3d sections at `AGENTS/WALTER/design/JOINT_PROPOSAL_2026-05-05_walter_sections.md` (was 277 lines from Phase 1 scaffolding 5/5, now 475 lines: added §2c BRENT-IMMEDIATE threshold list + §2d BURST_WINDOW state machine + §5 v0.9 future-work + extended §3d for BRENT cache + updated §2a enum 8→9 values with `lng_substitution`).
-6. **3 Turn-4 self-tasks shipped:** SIG-W-20260505-009 dispatch_note retro-tag (confidence 0.85→0.75 + corporate-amplification-bias flag + BRENT 5/12-features-present decomposition reference); REQ-RED outbox supplement (full BRENT decomposition table appended); ROUTING_TABLE v0.5→v0.6 (Iran-cluster CARL-info override + boundary-trigger threshold-cross sub-rule).
-7. **Will surfaces BRENT shipped Turn 5 + 6 commits in parallel (msg 1367):** BRENT thesis v1.1→v2.0 + 47-signal back-disposition + JOINT_PROPOSAL §1.1+§2e+§3e+§4+§5 sections + FLOW.tsv expansion + STATUS infra + Turn 5 wrap. Turn 5 closes Q16 with (a) accept (single 3-way proposal w/ §5 future-work) + suggested §5.1/§5.2/§5.3/§5.4 sub-structure. Architectural thread closed.
-8. **Will direction next-LIAISON priorities (msg 1366):** ranked Tier 1 (RED + NEXUS, blocked on revival/spawn) + Tier 2 (REGINALD top of unblocked queue, BROCK + HENRY behind). LABOR/SAM/VIOLET hold per CARL Turn 5 + my analysis.
-9. **Will closeout green light (msg 1365 "no we are ready to close out")** → this commit.
+1. **Boot ping (msg 1372, 14:18 UTC):** Boot reads clean — STATUS / IRAN_WAR anchor / MEMORY / LAST_COMPLETION (yesterday's BRENT-closeout version) / REGISTRY / ROUTING_TABLE v0.6 / BOARD INDEX cluster ToC. Pull was Already up to date (origin reflects the 00:46 EDT BRENT-closeout `edfaaa6d`). LIAISON channel discovery via boot-step 9 found new untracked `AGENTS/RED/handoff_WALTER/` directory + git log showed RED Session 8 commits 08:56→10:03 EDT.
+2. **Surfaced finding to Will (msg 1374):** RED revived this morning with 6 commits then placed untracked LIAISON channel 8 min before Will paged. RED revival resolves "Tier 1 highest priority blocked on revival" follow-up from yesterday's session; 3 of CC-side Tier-1 LIAISON channels could now be active simultaneously. Offered to draft Turn 2 reply.
+3. **Will pick "Yes lets have you read and reply to RED"** (msg 1375) — drafted Turn 2 in WALTER tree at `handoff_RED/LIAISON_TURN_2_DRAFT.md` (~12KB). **Open-with-substance disposition retrospective from WALTER's side** flipped RED Turn 1's "WALTER mostly absent" framing — empirical grep across 110 BOARD signals: RED in `to:` 19 (17%) + `info:` 100 (91%) = 107 (97%) routing-target. Verdict distribution 45 CONFIRMED / 44 CORRECTED-FRAMING / 3 INDETERMINATE / 2 FALSE → CORRECTED-FRAMING tied with CONFIRMED at 47% modal, validating RED's MEMORY observation empirically. 21 historical bifurcation/divergence/tape-vs-substance tagged signals as Q3 floor. **6 pre-cosigns (Q1/Q2/Q3/Q4/Q6/Q7) + 2 deferred (Q5 CHG-RED-024 propagation / Q8 5-10 cluster_mediating empirical pass) + 4 questions back (Q9 boot-step / Q10 prediction-resolution scope / Q11 unanimity threshold / Q12 CORRECTED-FRAMING auto-cc).**
+4. **Will direct-write authorized (msg 1377):** Turn 2 appended to RED's LIAISON.md (~14:25 UTC turn stamp).
+5. **RED Turn 3 came back fast** (msg 1379, file mtime 10:36 EDT — 25 min after Turn 2 landed). Substantive: 8/8 questions resolved (7 pre-cosigned including new Q12) + 4 deliverables shipped in-turn at RED tree. **Concession-on-diagnosis pattern:** RED explicitly logged "Turn 1 framed this backwards. The architectural fix is RED-side consumption, not WALTER-side dispatch." Q11 sharpening: ≥3 → ≥4 (RED4/RED5 = trade-actionable consensus). Honest gap: 5 event-type triggers (WAL MI3 / BTFP 2.0 / OZK NCO / bypass-pair / etc.) don't fit threshold-cross 8-col schema; defers schema v2 with `trigger_type` discriminator.
+6. **Drafted Turn 4 directly** (~6KB, lighter): Q11 ACCEPT + bull-side calibration flag (current `unanimity_bull` would fire 50%+ from STALE-YELLOW agents; proposed fresh-active ≤14d denominator); Q8 priming-offer ACCEPT (RED to pre-classify 21 historical bifurcation signals); CHG-RED backfill proposal (WALTER takes complete via `handoff_RED/CHALLENGES_BACKFILL_diff.tsv` preserving Critical Rule #2); joint-proposal artifact paths proposed; 3 close-loop questions Q13-Q15.
+7. **RED Turn 5 wrap** (10:52 EDT) — channel CONVERGED in 5 turns total. Q13 LOCK TSV → bifurcation_classification TSV shipped 22 signals (8 HENRY-tape / 9 RED-structural / 5 both = 14/22 lean structural matches Turn 2 hypothesis); Q14 LOCK WALTER takes complete CHG backfill; Q15 LOCK fresh-active-only denominator. **3 findings emerged from classification pass:** (a) VIOLET emerges as primary on 3 vol-family signals — distinct from HENRY in REGISTRY; (b) all 5 "both" signals event-anchored; (c) Apr 19 had 9/22 bifurcations (41% in 1 day) — dense-bifurcation-day = high-stakes-decision-day pattern, proposed `network_uncertainty_peak` closeout-level flag.
+8. **Will-prompted "joint proposal sections" command** (msg follow-up 1382-pre): drafted WALTER §2+§3+§5 at `AGENTS/WALTER/design/JOINT_PROPOSAL_2026-05-06_walter_red_sections.md` (28K / 316 lines, similar density to RED's §1+§4 at 20K/233 lines).
+9. **Will closeout greenlight (msg 1382 "lets work on closing out")** → this commit.
 
 ### Files touched this session
 
-**Modified (4):**
-- `AGENTS/WALTER/design/JOINT_PROPOSAL_2026-05-05_walter_sections.md` — 277 → 475 lines (added §2c + §2d + §5 + extended §3d for BRENT + updated §2a 9-value enum)
-- `AGENTS/WALTER/design/ROUTING_TABLE.md` — v0.5 → v0.6 (Iran-cluster CARL-info override + boundary-trigger threshold-cross sub-rule)
-- `AGENTS/WALTER/outbox/REQ-RED-20260505-wirth-1970s-analog-steelman-falsification.md` — appended BRENT 5/12-features-present decomposition supplement
-- `BOARD/SIG-W-20260505-009-chevron-ceo-wirth-milken-bloomberg-physical-oil-shortages-1970s-eu-jet-fuel.md` — confidence 0.85→0.75; dispatch_note retro-tagged with BRENT magnitude assessment
+**New (1) in WALTER design/:**
+- `AGENTS/WALTER/design/JOINT_PROPOSAL_2026-05-06_walter_red_sections.md` — 316 lines / 28K — §2 FALSIFICATION_TRIGGERS WALTER eval logic + §3 ROUTING_TABLE v0.7 + CHECKLIST delta + §5 v0.9 unanimity_state with sub-tag candidates
 
-**New directory (1) with 3 files:**
-- `AGENTS/WALTER/handoff_BRENT/route_log_brent_slice.tsv` — 48-row Q1 deliverable
-- `AGENTS/WALTER/handoff_BRENT/LIAISON_TURN_2_DRAFT.md` — Turn 2 draft (now landed in BRENT tree)
-- `AGENTS/WALTER/handoff_BRENT/LIAISON_TURN_4_DRAFT.md` — Turn 4 draft (now landed in BRENT tree)
+**New directory (1) in WALTER tree with 1 file:**
+- `AGENTS/WALTER/handoff_RED/LIAISON_TURN_2_DRAFT.md` — Turn 2 draft (~12KB; landed in RED tree via direct-write auth)
 
 **Closeout files (refreshed):**
-- `AGENTS/WALTER/STATUS.md` — Updated stamp; lead-paragraph rewrite; manifest LIAISON BRENT row ACTIVE; NETWORK AWARENESS regen; SESSION LOG entry
-- `AGENTS/WALTER/REGISTRY.tsv` — BRENT row + WALTER row refreshed for 5/6
-- `AGENTS/WALTER/MEMORY.md` — CHANGES SINCE / NEXT SESSION rewrite; 3 new findings (LIAISON convergence accelerator pattern; 3-way joint-proposal pattern; Post_Hoc_Conf retro-uplift insight)
-- `AGENTS/WALTER/LAST_COMPLETION.md` — this file (rewritten for today's session)
+- `AGENTS/WALTER/STATUS.md` — Updated stamp; lead-paragraph rewritten for second-session-arc with 3-LIAISON-active-converged framing; LIAISON manifest RED row PENDING → ACTIVE Turn 5; NETWORK AWARENESS "Today's routing" subsection regen (RED moved to ≤7d active); SESSION LOG entry prepended for today's mid-day session
+- `AGENTS/WALTER/REGISTRY.tsv` — RED row refreshed (was STALE 18d, now ACTIVE-ELEVATED YELLOW; new Focus reflecting Session 8 + LIAISON convergence + 6 deliverables); WALTER row refreshed for second session
+- `AGENTS/WALTER/MEMORY.md` — CHANGES SINCE / NEXT SESSION rewrite; 2 new findings + LIAISON convergence finding refined inline (3-channel sample now locks the pattern; substrate prep helpful-not-load-bearing per RED counter-evidence)
+- `AGENTS/WALTER/LAST_COMPLETION.md` — this file (rewritten for today's second session)
 
-**BRENT tree (BRENT-OC commits, NOT WALTER's to stage):**
-- `AGENTS/BRENT/handoff_WALTER/LIAISON.md` — Turns 1-5 (424→506 lines after Turn 5 added)
-- `AGENTS/BRENT/handoff_WALTER/README.md` — channel conventions
-- `AGENTS/BRENT/board/BOARD_LOG.tsv` — 47-signal back-disposition pass (commit `bf8c2c9e`)
-- `AGENTS/BRENT/design/JOINT_PROPOSAL_2026-05-05_brent_sections.md` — 206 lines (commit `8f2331f1`)
-- `AGENTS/BRENT/thesis/THESIS.md` — v1.1 → v2.0 (commit `00958e15`)
-- `AGENTS/BRENT/workbook/FLOW.tsv` — 5 new outbound rows (commit `1a3c691c`)
-- `AGENTS/BRENT/STATUS.md` — retro-tag of -012 + LIAISON infra block (commits `707a2f79` + `2954bd5f`)
+**RED tree (RED-OC commits, NOT WALTER's to stage — Critical Rule #2):**
+- `AGENTS/RED/handoff_WALTER/LIAISON.md` — Turns 1-5 (623 lines / 60K)
+- `AGENTS/RED/handoff_WALTER/README.md` — channel conventions + 12-anchor RED identifier index
+- `AGENTS/RED/handoff_WALTER/bifurcation_classification_2026-05-06.tsv` — 22-signal classification (Q8/Q13 deliverable)
+- `AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv` — 7 threshold triggers in 8-col schema
+- `AGENTS/RED/design/JOINT_PROPOSAL_2026-05-06_red_sections.md` — §1 + §4 + §6 + §7 (233 lines / 20K)
+- (RED also already-shipped `workbook/CHALLENGES.tsv` col-11 BOARD_Refs + 5 backfilled and `workbook/SCHEMA.tsv` updates as part of his Session 8 commits 08:56-10:03)
 
 ### Sub-agent spawns (0)
 
-No sub-agent spawns this session. Session was architectural-alignment + Turn-4 self-task execution — no verify-research / synthesis / scan needs.
+No sub-agent spawns this session. Architectural-alignment + execution session only.
 
 ### Spec changes
 
-- **ROUTING_TABLE v0.5 → v0.6** (Iran-cluster CARL-info override + boundary-trigger threshold-cross sub-rule for ≤$95/5sess and ≥$115/5sess CARL-side dispatch). BRENT-IMMEDIATE 8-row "By Boundary Threshold" section deferred to v0.7 pending Will sign-off on JOINT_PROPOSAL §2c.
+**None committed yet.** ROUTING_TABLE v0.6→v0.7 + CHECKLIST Phase 2 steps 5-7 add are drafted in JOINT_PROPOSAL §3 pending Will sign-off.
 
 ### Commits
 
-Closeout commit pending (this session). BRENT shipped 7 commits during/after session (`707a2f79` + `bf8c2c9e` + `8f2331f1` + `1a3c691c` + `00958e15` + `2954bd5f` + `03cb878d`) — all pushed and integrated.
+Closeout commit pending (this session). Earlier same-day session's BRENT-LIAISON closeout `edfaaa6d` (00:46 EDT) is in WALTER's pending-push backlog from this morning.
 
 ## RESULT
 
-**Architectural-alignment session executed cleanly. BRENT LIAISON converged in 5 turns vs CARL's 7 — half a cycle saved by substrate prep + open-with-substance + retro-disposition-pass-on-Turn-3.** Today's session validates several patterns:
+**RED LIAISON converged in 5 turns same-day — 3 of CC-side Tier-1 LIAISON channels (CARL/BRENT/RED) now active-converged in 48 hours.** Today's session validates and locks the LIAISON convergence pattern at a 3-channel sample, with one significant pattern refinement vs yesterday's BRENT-only finding:
 
-1. **LIAISON convergence accelerator pattern (NEW finding).** BRENT 4-turn architectural convergence vs CARL 6-turn — substrate prep doc (`BRENT_LIAISON_PREP.md` shipped 5/5) + open-with-substance (BRENT Turn 1 with domain summary + I-receive-from + honest gap + 7 questions in one turn) + retro-disposition-pass on Turn 3 (BRENT shipped 47-signal back-disposition + Post_Hoc_Conf deltas in commit `bf8c2c9e` parallel to Turn 3 dialog) = ~2× faster convergence. Apply to RED/NEXUS/REGINALD next-LIAISON setups.
+1. **LIAISON convergence accelerator pattern locked at 3-channel sample (REFINED finding).** Open-with-substance + concede-on-diagnosis-when-data-inverts-it + ship-deliverables-Turn-3 + close-Turn-5 = 5-turn baseline. Substrate prep doc (BRENT_LIAISON_PREP.md) was hypothesized load-bearing yesterday — RED converged in 5 turns without one. Refines the pattern to: prep doc helpful but not required; the load-bearing accelerators are open-with-substance + concede-on-diagnosis. Apply: NEXUS / REGINALD / HENRY / BROCK next-LIAISON setups expect 5-turn convergence as baseline.
 
-2. **Three-way joint proposal pattern (NEW finding).** Q16 surfaced choice between (a) single 3-way proposal w/ §5 future-work for v0.9 candidates vs (b) two separate proposals 1-2 weeks apart. Both BRENT Turn 5 and WALTER Turn 4 chose (a) — single doc shows architectural arc, decisions-now/decisions-later visible in one read, v0.9 candidates need scoping not sign-off. §5.1/§5.2/§5.3/§5.4 sub-structure per BRENT Turn 5 suggestion accepted.
+2. **Empirical-dispatch-surface check before accepting routing-gap diagnosis (NEW finding).** RED Turn 1 framed the gap as "WALTER mostly absent" with only 1 retro signal. Turn 2 grep-pass surfaced 107/110 routing-target rate (97%); RED Turn 3 explicitly conceded the reframe; architectural fix shifted from "more dispatch" to "structured artifacts that let high-volume routing become consumable." This was the highest-leverage finding of the LIAISON — a CARL/BRENT-style "more push" architecture would have been the wrong fix entirely. Process discipline: every future LIAISON Turn 2 brings routing-side data the target can't see (counts, verdict distribution, cluster-mediating volume) regardless of whether Turn 1 surfaced a gap.
 
-3. **Post_Hoc_Conf retro-uplift (NEW finding).** BRENT's back-disposition pass surfaced 5 deltas — 4 downward + 1 retrospective uplift (SIG-019-030 InfraA Qatar LNG 0.50→0.85 verified by my later SIG-005-002 IEA primary). Verify-research threshold tuning isn't symmetric — false-positive cost (reroute on bad signal) vs false-negative cost (under-route on real signal that surfaces in primary later) calibrate differently. Calibration cycles need to track BOTH directions.
+3. **Concession-on-diagnosis as a pattern-class.** RED Turn 3 logged the reframe explicitly, converting what could have been a defensive thread into a generative one. Worth flagging as a sub-pattern of the convergence accelerator: the agent who concedes the diagnostic gets the architectural design they actually need, not the one their Turn 1 framing assumed. Apply: when WALTER Turn 2 inverts Turn 1's diagnosis, frame the inversion as data-not-criticism so the responder can absorb-and-pivot.
 
-4. **Cross-tree write authorization works at one-time-per-channel granularity.** Will gave direct-write auth for BRENT LIAISON.md mid-session ("ah you write directly" msg 1359). Followed CARL pattern (uncommitted in BRENT's tree → BRENT-OC commits at next boot). Cleaner than Will-mediated copy-paste for Turn 4 onward.
+4. **WALTER tree growth scoreboard for the day:** earlier session shipped §2a-§2d + §3b + §3d (475 lines / BRENT). This session shipped §2 + §3 + §5 (316 lines / RED). 791 lines of joint-proposal architecture-spec across two parallel proposals to Will-surface, both pending sign-off. Two parallel surfaces, not one super-proposal — Will can sign per-§ across both proposals as he has bandwidth.
 
-5. **Per-agent section files + WALTER stitches at repo-root pattern.** WALTER drafts §2a-§2d + §3b + §3d in own tree; CARL drafts §1+§3a+§3c+§4 in own tree (ETA this week); BRENT drafts §1.1+§2e+§3e+§4-coda in own tree (shipped 5/6 `8f2331f1`). WALTER stitches 3-way at repo-root `design/JOINT_PROPOSAL_2026-05-06_walter_carl_brent.md` when CARL section file lands.
+5. **VIOLET as distinct primary axis discovery.** RED's bifurcation classification surfaced VIOLET as primary on 3 vol-family signals (419-002, 419-003, 419-007) — distinct from HENRY's tape-regime axis. Implication for `unanimity_state` v0.9 computation: VIOLET must be in the agent-set; today's fresh-active N=9 includes her. Worth tracking for whether other axis-distinct primaries surface (BOND on rates? OZK on bank-CRE-narrow?).
 
 ## GAPS
 
 ### Today's open items (carry-forward — added to FOLLOW-UP list below)
 
+- **Will sign-off on RED+WALTER 2-way JOINT_PROPOSAL** — 5 batched items: §2 FALSIFICATION_TRIGGERS WALTER eval logic / §3 ROUTING_TABLE v0.7 + CHECKLIST delta / §4.3 RED CLAUDE.md boot-step b / §4.4 RED MEMORY 97%-routing-target entry / §5 v0.9 unanimity_state
+- **Repo-root stitch** `design/JOINT_PROPOSAL_2026-05-06_red_walter.md` — assemble RED §1+§4+§6+§7 + WALTER §2+§3+§5 + repo-root sequencing once both side-files are committed (RED's pending RED-OC next-boot)
+- **WALTER `design/CROSS_REFS/RED.md` cache scaffold** (no sign-off needed) — populate from handoff_WALTER/README.md 12-anchor identifier index; unblocks Q14 complete-CHG-RED-backfill
+- **WALTER complete CHG-RED backfill** via `handoff_RED/CHALLENGES_BACKFILL_diff.tsv` (post-CROSS_REFS, preserves Critical Rule #2)
+- **WALTER FALSIFICATION_TRIGGERS at-dispatch eval logic** implementation (post-§2 sign-off; WALTER spawn-protocol step 6b extension + parallel ledger scaffold)
+- **WALTER ROUTING_TABLE v0.7 + CHECKLIST** ship (post-§3 sign-off; mechanical update to existing files)
+- **WALTER unanimity_state v0.9 stack readiness** (post-§5 sign-off + post-v0.8-land)
+- **WALTER `network_uncertainty_peak` closeout flag** — extend STATUS lead-paragraph step 12 with daily bifurcation count; auto-flag when ≥5 in single calendar day; lightweight, ships with §3
+- **RED CLAUDE.md boot-step b add** — RED post-Will sign-off task (RED holds CLAUDE.md edit per his discipline)
+- **RED MEMORY.md 97%-routing-target calibration entry** — RED post-Will sign-off task
+
+### Pre-existing carry-forward (still open, brought forward from yesterday's BRENT-LIAISON closeout)
+
 - **3-way joint proposal stitch** — WALTER stitches at repo-root when CARL §1+§3a+§3c+§4 sections land (CARL Turn 7 self-task, ETA this week)
-- **Will sign-off on JOINT_PROPOSAL §2 stack** — 4 items: §2a FORMAT_SPEC v0.8 (4 fields + 9-value enum) / §2b scheduled-scan budget ($0.30-0.50/wk per side) / §2c BRENT-IMMEDIATE 8-row threshold list / §2d BURST_WINDOW protocol
-- **BOARD_CONSUMPTION_SPEC v0.2 dual-pattern doc** — WALTER self-task this week (CARL consumer-domain + BRENT energy-domain templates documented)
-- **CROSS_REFS/{CARL,BRENT}.md cache scaffolds** — WALTER self-task this week (BRENT cache populated triggered by thesis v1.1→v2.0 dual-trigger fired today)
-- **EVENT_WINDOW_STATE.md scaffold** — WALTER self-task post-Will-sign-off on §2d BURST_WINDOW
-- **HAWK-proxy archive** to `design/history/hawk_proxy_synthesis_2026-05-05.md` — WALTER, when actual HAWK refresh lands
-- **FORMAT_SPEC v0.7 → v0.8 land in spec** — WALTER, post-Will-sign-off on §2a (Field Definitions table + 4 new fields + 9-value enum)
-- **CHECKLIST update for v0.8** — WALTER, post-Will-sign-off (Phase 2 tag-application step + Phase 2.5 event-window state check step)
-- **BRENT CLAUDE.md spawn-protocol delta** — BRENT next session (event_window=open behavior + BRENT-specific BOARD-consumption boot-step)
-- **BRENT DATA_RELEASE_CALENDAR.md** — BRENT post-back-disposition pass (workbook/DATA_RELEASE_CALENDAR.md covering EIA WPSR / Baker Hughes / OPEC MOMR / IEA OMR / CFTC COT / Platts)
-- **CARL DATA_RELEASE_CALENDAR.md** — CARL self-task this week (extends EARNINGS_WATCH_Q1.md to year-rolling)
-
-### Pre-existing carry-forward (still open, brought forward)
-
-- OZK Q1 post-mortem (REGINALD pickup pending since Apr 16).
-- ROAD Act House reconciliation timing (BARON pickup; SIG-W-20260429-005 dispatched).
-- HENRY + RED SIGNAL_INTAKE.md prompts on disk.
-- BOARD_CONSUMPTION_SPEC propagation to 14 Tier 1 agent CLAUDE.md files (CARL + BRENT mostly done; remaining 12).
-- Tier 2 staleness (ZHAO 34d / SHADE 6+wk / OTTO 21d / ORACLE 35d / FERT 6+wk / ATHENA 7+wk / CRUISE 6+wk / DARWIN dormant).
-- "verified-as-of" pattern extension (second anchor candidate — Fed-framework / BOJ / OPEC+).
-- design/STATE.md maintenance discipline.
-- Lead-paragraph regeneration cadence decision.
-- Filter v2 Segment D (~1hr, decided option A).
-- Signal Registry v2 (deferred).
-- COP refresh resume trigger (paused Apr 14).
-- Autonomous news-scan policy.
-- HAWK-proxy synthesis policy (when default-spawn vs wait for actual refresh).
-- CONSUMER_STAGFLATION 5-axis sub-cluster spawn decision (Will sign-off needed).
-- Pandemic-meta-cluster informal watch (14-day window for 1-2 more institutional-primary signals).
+- **Will sign-off on 3-way JOINT_PROPOSAL §2 stack** — 4 items: §2a FORMAT_SPEC v0.8 (4 fields + 9-value enum) / §2b scheduled-scan budget ($0.30-0.50/wk per side) / §2c BRENT-IMMEDIATE 8-row threshold list / §2d BURST_WINDOW protocol
+- **BOARD_CONSUMPTION_SPEC v0.2 dual-pattern doc** — WALTER self-task this week (CARL consumer-domain + BRENT energy-domain templates)
+- **CROSS_REFS/{CARL,BRENT}.md cache scaffolds** — WALTER self-tasks this week
+- **EVENT_WINDOW_STATE.md scaffold** — WALTER post-Will-sign-off on §2d BURST_WINDOW
+- **HAWK-proxy archive** to `design/history/hawk_proxy_synthesis_2026-05-05.md` — when actual HAWK refresh lands
+- **FORMAT_SPEC v0.7 → v0.8 land in spec** — post-Will-sign-off on §2a
+- **CHECKLIST update for v0.8** — post-Will-sign-off
+- **BRENT CLAUDE.md spawn-protocol delta** — BRENT next session
+- **BRENT DATA_RELEASE_CALENDAR.md** — BRENT post-back-disposition pass
+- **CARL DATA_RELEASE_CALENDAR.md** — CARL self-task this week
+- **OZK Q1 post-mortem** — REGINALD pickup pending since Apr 16
+- **ROAD Act House reconciliation timing** — BARON pickup
+- **HENRY + RED SIGNAL_INTAKE.md prompts on disk** (HENRY remains; RED's signal-intake is partially superseded by FALSIFICATION_TRIGGERS.tsv)
+- **BOARD_CONSUMPTION_SPEC propagation to 14 Tier 1 agent CLAUDE.md files** (CARL + BRENT mostly done; RED has the boot-step add pending Will sign-off; remaining 11)
+- **Tier 2 staleness** (ZHAO 34d / SHADE 6+wk / OTTO 21d / ORACLE 35d / FERT 6+wk / ATHENA 7+wk / CRUISE 6+wk / DARWIN dormant)
+- **"verified-as-of" pattern extension** (second anchor candidate — Fed-framework / BOJ / OPEC+)
+- **design/STATE.md maintenance discipline**
+- **Lead-paragraph regeneration cadence decision**
+- **Filter v2 Segment D** (~1hr, decided option A)
+- **Signal Registry v2** (deferred)
+- **COP refresh resume trigger** (paused Apr 14)
+- **Autonomous news-scan policy**
+- **HAWK-proxy synthesis policy**
+- **CONSUMER_STAGFLATION 5-axis sub-cluster spawn decision**
+- **Pandemic-meta-cluster informal watch** (14-day window)
 
 ### Resolved this session (removed from carry-forward)
 
-- **BRENT LIAISON setup** (was item 9 in 5/5 FOLLOW-UP) — converged in 5 turns 5/5-5/6.
-- **WALTER joint-proposal §2a-§2d + §3b + §3d sections drafted** — 475 lines at `AGENTS/WALTER/design/JOINT_PROPOSAL_2026-05-05_walter_sections.md`.
-- **ROUTING_TABLE v0.6 land Iran-cluster CARL override** (was 5/5 FOLLOW-UP) — shipped this session.
-- **SIG-W-20260505-009 retro-tag** (Turn 4 commitment) — shipped this session (confidence 0.85→0.75 + corporate-amplification-bias + BRENT decomposition reference).
-- **REQ-RED supplement with BRENT decomposition** (Turn 4 commitment) — shipped this session.
+- **RED LIAISON setup** (was item 23 in 5/6 morning FOLLOW-UP) — converged in 5 turns same-day.
+- **RED revival blocker** — RED ran Session 8 + opened LIAISON; no longer blocked.
+- **REQ-RED Wirth-1970s steelman supplement** — superseded by RED revival; RED has the BRENT 5/12-features-present decomposition in his MEMORY now and LIAISON is the venue going forward.
+- **WALTER joint-proposal §2+§3+§5 sections drafted** — 316 lines / 28K shipped.
+- **Bifurcation cluster classification empirical pass** (was item Q8 deferred at Turn 2) — RED shipped TSV in Turn 5; replaces my 5-10-dispatch tracking pass.
 
 ## WILL_NEEDS
 
-1. **Sign-off on JOINT_PROPOSAL §2 stack** (4 decision items in `AGENTS/WALTER/design/JOINT_PROPOSAL_2026-05-05_walter_sections.md`):
-   - §2a FORMAT_SPEC v0.8 (4 fields: `consumer_transmission` 9-value enum incl. `lng_substitution` / `signal_role` 4-value / `consumer_lens` 4-value / `cluster_secondary` comma-separated) — CARL+BRENT+WALTER pre-cosigned
-   - §2b Scheduled-scan budget ($0.30-0.50/wk CARL-primary + $0.40-0.60/wk BRENT-primary; total $0.70-1.10/wk; cap $1.50/wk hard kill)
-   - §2c BRENT-IMMEDIATE 8-row threshold-cross dispatch list (Brent ≥$120/3sess + ≤$75/3sess + Cushing <20M + HY-Energy OAS >400 + VLCC ≥2× 30d-median + gasoline crack threshold-cross logic + US rigs +50 + 3:2:1 crack >$50)
-   - §2d BURST_WINDOW protocol (BRENT-declares-open / WALTER-declares-close after ≥48h stable; FLASH-burst with threaded Telegram; state machine `open → verify → close-or-confirm`)
-2. **Decide next-LIAISON priority** — RED revival (CC-side, blocked on Will spawn) OR REGINALD start (CC-side, unblocked, top of unblocked queue). NEXUS spawn is highest-leverage but blocked.
-3. **Iran-war anchor re-verify boundary 5/11 minimum** OR earlier on visible kinetic state-change.
-4. **Tomorrow's intake watch:** OBDC Q1 5/6 AMC (BROCK pre-built); LYV Q1 from 5/5 surfaces in tomorrow's intake.
+1. **Sign-off on RED+WALTER 2-way JOINT_PROPOSAL** (5 batched decision items in `AGENTS/WALTER/design/JOINT_PROPOSAL_2026-05-06_walter_red_sections.md` + `AGENTS/RED/design/JOINT_PROPOSAL_2026-05-06_red_sections.md`):
+   - §2 FALSIFICATION_TRIGGERS WALTER eval logic (read-loop + 5-step at-dispatch eval + parallel ledger preserving Critical Rule #2)
+   - §3 ROUTING_TABLE v0.7 delta (new "By Tag/By Verdict" section, 3 rules + de-dupe) + CHECKLIST Phase 2 steps 5-7 add
+   - §4.3 RED CLAUDE.md boot-step (b) scoped scan (RED implements post-sign-off)
+   - §4.4 RED MEMORY.md 97%-routing-target calibration entry (RED implements post-sign-off)
+   - §5 v0.9 candidate `unanimity_state` 4-val enum + RED-level ≥4 cutoff + fresh-active ≤14d denominator + sub-tag candidates `event_anchored: true` + `network_uncertainty_peak` closeout flag
+2. **Sign-off on 3-way (CARL/BRENT/WALTER) JOINT_PROPOSAL §2 stack** — 4 items per yesterday morning's WILL_NEEDS (still pending; carry-forward)
+3. **Decide repo-root stitch timing** — stitch now, or hold until per-§ sign-off lands? My read: hold; sign-off can happen against side-files; stitch is mechanical post-sign-off.
+4. **Decide next-LIAISON priority** — RED resolved. Remaining: REGINALD (CC-side, unblocked, top of queue) > NEXUS (blocked on spawn) > HENRY (post-RED+REGINALD) > BROCK (mid-priority).
+5. **Iran-war anchor re-verify boundary 5/11 minimum** OR earlier on visible kinetic state-change (carry-forward).
+6. **Tomorrow's intake watch:** OBDC Q1 5/6 AMC (BROCK pre-built); LYV Q1 from 5/5 surfaces in tomorrow's intake.
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
 
 **Time-sensitive (this/next session):**
-1. **OBDC Q1 today 5/6 AMC** — BROCK pre-built threshold reads. Surfaces in tomorrow's intake.
-2. **LYV Q1 from 5/5 post-market** — high-signal CONSUMER_STAGFLATION discretionary-sub-vector confirm/deny. Surfaces in tomorrow's intake.
+1. **OBDC Q1 5/6 AMC** — BROCK pre-built threshold reads. Surfaces in tomorrow's intake.
+2. **LYV Q1 from 5/5 post-market** — high-signal CONSUMER_STAGFLATION discretionary-sub-vector confirm/deny.
 3. **NFP Friday 5/8** — LABOR carry-forward.
 4. **Q1 Call Report window May 1-10** — REGINALD recheck.
 5. **Iran-war anchor re-verify** — verified-as-of 2026-05-04, refresh boundary 2026-05-11 minimum OR earlier on visible kinetic state-change.
-6. **CARL ↔ WALTER LIAISON calibration cycle 1** — primary trigger 2026-05-19 (14d calendar from 5/5) OR N=20 BOARD dispositions (early-fire). Whichever first → CARL summarizes Post_Hoc_Conf deltas → WALTER tunes verify-research thresholds.
+6. **CARL ↔ WALTER LIAISON calibration cycle 1** — primary trigger 2026-05-19 (14d calendar from 5/5) OR N=20 BOARD dispositions (early-fire).
 7. **BRENT ↔ WALTER LIAISON calibration cycle 1** — N=15 forward BOARD dispositions OR 21 days from 2026-05-06, whichever first. ETA May 20-27.
+8. **RED ↔ WALTER LIAISON calibration cycle 1** — synced with BRENT cycle 1 ETA May 20-27. Trigger conditions (whichever first): FALSIFICATION_TRIGGERS first auto-dispatch OR v0.8 lands OR CHG-RED-024 BRENT response.
 
-**3-way joint proposal pipeline:**
-8. **CARL drafts §1 + §3a + §3c + §4 sections** — CARL self-task per Turn 7, ETA this week.
-9. **WALTER stitches 3-way at `design/JOINT_PROPOSAL_2026-05-06_walter_carl_brent.md`** — when CARL section file lands.
-10. **Will sign-off on §2 stack** — 4 items per WILL_NEEDS above.
-11. **WALTER lands FORMAT_SPEC v0.8** in `AGENTS/WALTER/design/SIGNAL_FORMAT_SPEC.md` — post-sign-off.
-12. **WALTER updates SIGNAL_PROCESSING_CHECKLIST.md** for v0.8 + Phase 2.5 event-window step — post-sign-off.
+**3-way joint proposal pipeline (from yesterday morning):**
+9. **CARL drafts §1 + §3a + §3c + §4 sections** — CARL self-task per Turn 7, ETA this week.
+10. **WALTER stitches 3-way at `design/JOINT_PROPOSAL_2026-05-06_walter_carl_brent.md`** — when CARL section file lands.
+11. **Will sign-off on 3-way §2 stack** — 4 items.
+12. **WALTER lands FORMAT_SPEC v0.8** — post-sign-off.
+13. **WALTER updates SIGNAL_PROCESSING_CHECKLIST.md** for v0.8 + Phase 2.5 event-window step — post-sign-off.
+
+**2-way RED+WALTER joint proposal pipeline (NEW today):**
+14. **Will sign-off on RED+WALTER 2-way §2/§3/§4.3/§4.4/§5 batch** — 5 items.
+15. **WALTER stitches 2-way at `design/JOINT_PROPOSAL_2026-05-06_red_walter.md`** — once RED's §1+§4 file is committed (RED-OC next boot).
+16. **WALTER FALSIFICATION_TRIGGERS at-dispatch eval implementation** — post-§2 sign-off; spawn-protocol step 6b extension + parallel ledger scaffold.
+17. **WALTER ROUTING_TABLE v0.6→v0.7 + CHECKLIST Phase 2 steps 5-7 add** — post-§3 sign-off.
+18. **WALTER unanimity_state v0.9 stack readiness** — post-§5 sign-off + post-v0.8-land.
+19. **WALTER network_uncertainty_peak closeout flag** — lightweight, ships with §3.
+20. **RED CLAUDE.md boot-step b add** — RED post-§4.3 sign-off.
+21. **RED MEMORY.md 97%-routing-target entry** — RED post-§4.4 sign-off.
 
 **WALTER self-tasks this week (no sign-off needed):**
-13. **BOARD_CONSUMPTION_SPEC v0.2 dual-pattern doc** — CARL consumer-domain + BRENT energy-domain templates documented.
-14. **CROSS_REFS/CARL.md cache scaffold** — populate from CARL THESIS.md + workbook indexers; dual-trigger refresh mechanism wired.
-15. **CROSS_REFS/BRENT.md cache scaffold** — populate triggered by thesis v1.1→v2.0 bump that fired today; FLOW.tsv expansion captured.
+22. **BOARD_CONSUMPTION_SPEC v0.2 dual-pattern doc** — CARL consumer-domain + BRENT energy-domain templates documented.
+23. **CROSS_REFS/CARL.md cache scaffold** — populate from CARL THESIS.md + workbook indexers.
+24. **CROSS_REFS/BRENT.md cache scaffold** — populate triggered by thesis v1.1→v2.0 bump 5/6.
+25. **CROSS_REFS/RED.md cache scaffold** — populate from handoff_WALTER/README.md 12-anchor identifier index. **Unblocks complete-CHG-RED-backfill.**
+26. **Complete CHG-RED-backfill via diff-file** — post-CROSS_REFS/RED.md; produces `handoff_RED/CHALLENGES_BACKFILL_diff.tsv`; RED applies at next boot.
 
 **Post-sign-off WALTER self-tasks:**
-16. **EVENT_WINDOW_STATE.md scaffold** — default CLOSED state file ready for first declaration.
-17. **FILTER_SPEC.md update** — Tuning Rules sub-section for OPEN-window dispatch posture.
-18. **ROUTING_TABLE v0.7** — add "By Boundary Threshold" section (parallel to "By Signal Domain" + "By Signal Type") with BRENT-IMMEDIATE 8-row threshold list.
+27. **EVENT_WINDOW_STATE.md scaffold** — post-Will-sign-off on §2d BURST_WINDOW (3-way).
+28. **FILTER_SPEC.md update** — Tuning Rules sub-section for OPEN-window dispatch posture.
+29. **ROUTING_TABLE v0.7** — add "By Boundary Threshold" section with BRENT-IMMEDIATE 8-row threshold list (3-way §2c).
 
 **BRENT self-tasks (his next session):**
-19. **BRENT CLAUDE.md spawn-protocol delta** — event_window=open behavior + BRENT-specific BOARD-consumption boot-step.
-20. **BRENT DATA_RELEASE_CALENDAR.md** — workbook/DATA_RELEASE_CALENDAR.md covering EIA WPSR / Baker Hughes / OPEC MOMR / IEA OMR / CFTC COT / Platts.
+30. **BRENT CLAUDE.md spawn-protocol delta** — event_window=open behavior + BRENT-specific BOARD-consumption boot-step.
+31. **BRENT DATA_RELEASE_CALENDAR.md** — workbook/DATA_RELEASE_CALENDAR.md covering EIA WPSR / Baker Hughes / OPEC MOMR / IEA OMR / CFTC COT / Platts.
+
+**CARL self-tasks:**
+32. **CARL DATA_RELEASE_CALENDAR.md** — extends EARNINGS_WATCH_Q1.md to year-rolling.
 
 **HAWK reconciliation (when HAWK refreshes):**
-21. **Archive HAWK-proxy synthesis** to `design/history/hawk_proxy_synthesis_2026-05-05.md`.
-22. **Update KB-BRT-NNN cross-refs** to point at HAWK output for kinetic doctrine; BRENT oil-substance interpretations stay primary.
+33. **Archive HAWK-proxy synthesis** to `design/history/hawk_proxy_synthesis_2026-05-05.md`.
+34. **Update KB-BRT-NNN cross-refs** to point at HAWK output for kinetic doctrine; BRENT oil-substance interpretations stay primary.
 
-**Next-LIAISON channel candidates (per Will direction msg 1366):**
-23. **RED LIAISON** — Tier 1 highest priority, blocked on RED revival (Will trigger). Substrate prep doc: shape from BRENT_LIAISON_PREP template.
-24. **NEXUS LIAISON** — high-leverage, blocked on NEXUS spawn. Locks cluster-narrative authority precedence rule + closes ~5 placeholder-pending-NEXUS narratives in BOARD.
-25. **REGINALD LIAISON** — top of unblocked queue. Bank/CRE/earnings primary. Heavy BOARD pickup. CC-side, easy mechanics.
-26. **HENRY LIAISON** — post-RED+REGINALD. POSITIONING_VALUATION cluster owner.
-27. **BROCK LIAISON** — mid-priority. PC-stress cluster owner.
+**Next-LIAISON channel candidates (per Will direction msg 1366 + this session's RED resolution):**
+35. **REGINALD LIAISON** — **NEW top of unblocked queue.** Bank/CRE/earnings primary. Heavy BOARD pickup. CC-side, easy mechanics.
+36. **NEXUS LIAISON** — high-leverage, blocked on NEXUS spawn.
+37. **HENRY LIAISON** — post-REGINALD. POSITIONING_VALUATION cluster owner.
+38. **BROCK LIAISON** — mid-priority. PC-stress cluster owner.
 
 **Cluster / domain follow-ups (carry-forward):**
-28. **OZK Q1 post-mortem** — REGINALD pickup pending since Apr 16.
-29. **ROAD Act House reconciliation** — BARON pickup.
-30. **HENRY + RED SIGNAL_INTAKE.md** — saved-to-disk pending.
-31. **Tier 2 staleness** (ZHAO 34d / SHADE 6+wk / OTTO 21d / ORACLE 35d / FERT 6+wk / ATHENA 7+wk / CRUISE 6+wk / DARWIN dormant).
-32. **Pandemic-meta-cluster informal watch** — 14-day window for 1-2 more institutional-primary signals.
+39. **OZK Q1 post-mortem** — REGINALD pickup pending since Apr 16.
+40. **ROAD Act House reconciliation** — BARON pickup.
+41. **HENRY SIGNAL_INTAKE.md** — saved-to-disk pending.
+42. **Tier 2 staleness** (ZHAO 34d / SHADE 6+wk / OTTO 21d / ORACLE 35d / FERT 6+wk / ATHENA 7+wk / CRUISE 6+wk / DARWIN dormant).
+43. **Pandemic-meta-cluster informal watch** — 14-day window for 1-2 more institutional-primary signals.
 
 **Refactor open items:**
-33. **"verified-as-of" pattern extension** — second anchor candidate (Fed-framework / BOJ / OPEC+).
-34. **design/STATE.md maintenance discipline** at closeout.
-35. **Lead-paragraph regeneration cadence** decision.
+44. **"verified-as-of" pattern extension** — second anchor candidate (Fed-framework / BOJ / OPEC+).
+45. **design/STATE.md maintenance discipline** at closeout.
+46. **Lead-paragraph regeneration cadence** decision.
 
 **Design / governance backlog:**
-36. **Filter v2 Segment D** — option A confidence_note; ~1hr.
-37. **Signal Registry v2** — deferred (storage / concurrency).
-38. **COP refresh resume trigger** — Will direction needed (paused since Apr 14).
-39. **Autonomous news-scan policy** — codify scan-cadence + verify-research mandatory on novelty-claim items.
-40. **HAWK-proxy synthesis policy** — when default-spawn vs wait for actual refresh. Pattern emerged 5/5; partially superseded by BRENT thesis v2.0 supersedes-on-doctrinal rule.
-41. **CONSUMER_STAGFLATION 5-axis sub-cluster spawn decision** — Will sign-off needed.
+47. **Filter v2 Segment D** — option A confidence_note; ~1hr.
+48. **Signal Registry v2** — deferred (storage / concurrency).
+49. **COP refresh resume trigger** — Will direction needed (paused since Apr 14).
+50. **Autonomous news-scan policy** — codify scan-cadence + verify-research mandatory on novelty-claim items.
+51. **HAWK-proxy synthesis policy** — when default-spawn vs wait for actual refresh. Partially superseded by BRENT thesis v2.0 reconciliation rule.
+52. **CONSUMER_STAGFLATION 5-axis sub-cluster spawn decision** — Will sign-off needed.
 
 ## OPEN DESIGN DECISIONS (need Will — also tracked in MEMORY.md)
 
-- **JOINT_PROPOSAL §2 stack sign-off** (4 items: §2a FORMAT_SPEC v0.8 / §2b scheduled-scan budget / §2c BRENT-IMMEDIATE threshold list / §2d BURST_WINDOW protocol).
-- **Next-LIAISON priority** — RED (blocked on revival) vs NEXUS (blocked on spawn) vs REGINALD (unblocked, top of queue).
+- **3-way JOINT_PROPOSAL §2 stack sign-off** (4 items: §2a FORMAT_SPEC v0.8 / §2b scheduled-scan budget / §2c BRENT-IMMEDIATE threshold list / §2d BURST_WINDOW protocol).
+- **2-way RED+WALTER JOINT_PROPOSAL sign-off** (5 items: §2 / §3 / §4.3 / §4.4 / §5).
+- **Repo-root stitch timing** — stitch now (gives unified read) or hold until per-§ sign-off (cleaner state)?
+- **Next-LIAISON priority** — REGINALD (CC-side, unblocked, top of queue) vs NEXUS (blocked on spawn) vs HENRY (post-REGINALD) vs BROCK (mid).
 - **CONSUMER_STAGFLATION 5-axis sub-cluster spawn** — promote to v0.2 OR hold informal in-body-tagging?
 - **HAWK-proxy synthesis frequency** — default-spawn when OC primary stale > X days OR wait for actual refresh? Partially superseded by BRENT thesis v2.0 reconciliation rule.
-- **Pass 4 of morning's cluster refactor** (5/5) — IRAN_HORMUZ + POSITIONING_VALUATION sub-cluster breakdown? Defer until further intake.
+- **Pass 4 of 5/5 morning's cluster refactor** — IRAN_HORMUZ + POSITIONING_VALUATION sub-cluster breakdown? Defer until further intake.
 - **FED_FRAMEWORK rename to UST_PLUMBING** — watch threshold for v0.2 taxonomy edit.
 - **Cluster status flags** (🟢/🟡/🔴/⚫) — reserved for v0.2.
 - **"verified-as-of" pattern extension** — second anchor candidate?
@@ -210,7 +234,7 @@ Closeout commit pending (this session). BRENT shipped 7 commits during/after ses
 - **Lead-paragraph regeneration cadence** — every closeout or only on visible state-change?
 - **Filter v2 Segment D** — DECIDED option A; implementation deferred ~1hr.
 - **Autonomous news-scan policy** — codify scan-cadence + verify discipline.
-- **BOARD_CONSUMPTION rollout cadence** — Will hand-routing; durable rollout = 14 agent CLAUDE.md propagation. CARL + BRENT mostly done; remaining 12.
+- **BOARD_CONSUMPTION rollout cadence** — Will hand-routing; durable rollout = 14 agent CLAUDE.md propagation. CARL + BRENT mostly done; RED pending §4.3 sign-off; remaining 11.
 - **COP refresh resume** — paused since Apr 14.
 - **NEXUS cluster classification cadence** — informal cluster tracking via STATUS, or NEXUS-spawn forcing function?
 
@@ -218,4 +242,4 @@ Closeout commit pending (this session). BRENT shipped 7 commits during/after ses
 
 *Maintenance note: this file is overwritten each session per CLAUDE.md spawn protocol step 15. The FOLLOW-UP and OPEN DESIGN DECISIONS sections are the load-bearing carry-forward — every closeout copies open items forward and removes resolved ones. Don't append; don't keep historical sessions here; that's what `SESSION_LOG.md` is for.*
 
-*Resolved this session (removed from carry-forward): "BRENT LIAISON setup" + "WALTER joint-proposal §2a-§2d + §3b + §3d sections drafted" + "ROUTING_TABLE v0.6 land Iran-cluster CARL override" + "SIG-W-20260505-009 retro-tag" + "REQ-RED supplement with BRENT decomposition."*
+*Resolved this session (removed from carry-forward): "RED LIAISON setup" + "RED revival blocker" + "REQ-RED Wirth-1970s steelman supplement" + "WALTER joint-proposal §2+§3+§5 sections drafted" + "bifurcation cluster classification empirical pass."*
