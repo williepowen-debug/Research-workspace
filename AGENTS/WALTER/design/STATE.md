@@ -13,12 +13,13 @@
 | Spec | Current | Notes |
 |------|---------|-------|
 | `design/SIGNAL_FORMAT_SPEC.md` | **v0.6** | v0.6 (Apr 20 — Filter v2 Seg B) added Multi-Origin Signals section codifying same-theme combine rule (same domain + same event/sub-theme + each origin adds value; pre-dispatch any-arrival-path, post-dispatch immutable). `origin` field now accepts array form. v0.5 (Apr 20 — Seg A) added `thesis-frame` signal_type. v0.4 (Apr 14) added ASIA_CONTAGION + UST_FOREIGN codes. v0.3 (Apr 11 PM) canonical Domain Vocabulary. v0.2 added `dispatched`/`dispatch_note` + `confidence_language`. |
-| `design/ROUTING_TABLE.md` | **v0.5** | v0.5 (Apr 20 — Filter v2 Seg A) added thesis-frame signal_type row + Residential-housing stress exception (geo-narrow residential → REGINALD action + CARL info, not reverse; routing fix from NV HOA SIG-005). v0.4 (Apr 14) ASIA_CONTAGION + UST_FOREIGN rows. v0.3 (Apr 11 PM) canonical Domain Vocabulary. |
+| `design/ROUTING_TABLE.md` | **v0.7** | v0.7 (May 6 PM — JOINT_PROPOSAL_2026-05-06_red_walter §3 Will sign-off) added "By Tag/By Verdict" section after By Signal Type — three rules (cluster_mediating auto-cc to RED, CORRECTED-FRAMING auto-cc to RED, falsification_trigger auto-fire from `AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv`) + de-dupe + interim prose-tag discipline pre-v0.8. v0.6 (May 6 AM) Iran-cluster CARL-info override + boundary-trigger threshold-cross sub-rule per CARL ↔ WALTER LIAISON Q3. v0.5 (Apr 20) thesis-frame row + Residential-housing exception. v0.4 (Apr 14) ASIA_CONTAGION + UST_FOREIGN rows. v0.3 (Apr 11) canonical Domain Vocabulary. |
 | `design/FILTER_SPEC.md` | **v0.4** | v0.4 (Apr 20 evening — Filter v2 Seg C) added Verify-Research Trigger (Phase 1.5 — reference) subsection between Gate 1b and Credibility; points to CHECKLIST v0.8 Phase 1.5 as canonical. No filter-logic change; insertion point only. v0.3 (Seg A) retired "START LOOSE" → BALANCED; Pre-Apr-21 bypass reaffirmation. v0.2 (Apr 11) unified filter model v1 provisional. |
-| `design/SIGNAL_PROCESSING_CHECKLIST.md` | **v0.8** | v0.8 (Apr 20 evening — Filter v2 Seg C) Phase 1.5 verify-research framing audit codified: 4 trigger patterns (secondhand-citing-primary / summarizing-plurals / mechanism-assertions-not-yet-in-primary / extreme-absolute extraordinary-claims), spawn-prompt discipline (lead with decision, word cap, VERDICT top, decision-usefulness), 4-verdict handling (CONFIRMED / CORRECTED-framing / FALSE / INDETERMINATE). Empirical origin: 4 framing errors caught Apr 11-20. v0.7 (Seg B) Phase 1b combine check. v0.6 (Apr 11 PM) canonical Domain Vocabulary. |
+| `design/SIGNAL_PROCESSING_CHECKLIST.md` | **v0.10** | v0.10 (May 6 PM — JOINT_PROPOSAL §3 Will sign-off) Phase 2 routing-augmentation steps 5-7 added: step 5 cluster_mediating auto-cc to RED (with interim prose-tag discipline pre-v0.8), step 6 CORRECTED-FRAMING auto-cc to RED, step 7 FALSIFICATION_TRIGGERS auto-fire scan with sustain-window suppression and parallel ledger at `AGENTS/WALTER/registry/FALSIFICATION_FIRED_LOG.tsv` preserving Critical Rule #2. v0.9 (May 5) cluster assignment step + `cluster:` header per CLUSTER_TAXONOMY.md v0.1. v0.8 (Apr 20) Phase 1.5 verify-research framing audit codified. v0.7 (Apr 20) Phase 1b combine check. v0.6 (Apr 11 PM) canonical Domain Vocabulary. |
 | `design/SIGNAL_INTAKE_TEMPLATE.md` | **v0.1** | v0.1 (Apr 9). Template for per-agent subscription specs. **Agent rollout 4/14 Tier 1: SAM, BRENT, VIOLET, CARL.** CARL (Apr 19 22:21 UTC) is the richest reference — Active Thresholds, 3-tier keywords, explicit NOT-TO-SEND. Recommend as primary reference for HENRY / RED next. |
 | `design/BOARD_CONSUMPTION_SPEC.md` | **v0.1** | v0.1 (Apr 20 late-evening). Per-agent `AGENTS/<NAME>/board_log.tsv` (4 cols: timestamp_read / signal_id / disposition / notes; 5-value disposition enum). Boot-step template included for agent CLAUDE.md propagation. No retention cap. Will approved defaults via Telegram msg 938. **Propagation to 14 Tier 1 agent CLAUDE.md files pending — WALTER does not edit other agents' CLAUDE.md (git isolation rule); each agent or Will applies the boot block.** |
 | `design/FILTER_V2_PLAN.md` | **Living plan** | Tracks 4-segment Filter v1→v2 review (A/B/C complete Apr 20; D confidence asymmetry deferred — needs design round-trip with Will on 3 mechanic candidates). Archive to `design/history/` once Segment D ships. |
+| `design/V0_9_STACK.md` | **v0.1** (May 6 PM) | Tracker doc for FORMAT_SPEC v0.9 candidates — `unanimity_state` 4-val enum + `event_anchored: true` sub-tag + closeout-level `network_uncertainty_peak` flag. Will-approved 2026-05-06 per JOINT_PROPOSAL_2026-05-06_red_walter §5. Implementation gated on FORMAT_SPEC v0.8 land + CARL/BRENT calibration cycle 1 fire (ETA 2026-05-19 to 2026-05-27). |
 
 ## 2. Deferred / draft design
 
@@ -26,6 +27,8 @@
 |------|-------|-------|
 | `design/SIGNAL_REGISTRY_DRAFT_A.md` | 📋 Draft A | Architecture only — SQLite / superevent system deferred to v2. |
 | `queue/` directory | ❌ Not created | Deferred until MINIMIZE mode needed (no FLASH-batched scenarios to date). |
+| FORMAT_SPEC v0.8 | 🟡 Pending Will sign-off | 4 fields + 9-value `transmission_intensity` enum from JOINT_PROPOSAL_2026-05-05_walter_carl_brent §2a. Must land before V0_9_STACK candidates. |
+| FORMAT_SPEC v0.9 | 🟡 Tracked | Per `design/V0_9_STACK.md` — gated on v0.8 land + calibration cycle 1 fire. |
 
 ## 3. Research milestones
 
@@ -45,6 +48,9 @@
 | `LAST_COMPLETION.md` | ✅ Created Apr 14 | Structured closeout record — STATUS / CHANGED / RESULT / GAPS / WILL_NEEDS / FOLLOW-UP. Overwritten each session, not appended. Boot-read every session. |
 | `SESSION_LOG.md` | ✅ Created 2026-05-04 | Full per-session history archive (Pass 1 of STATUS.md refactor). Older entries flow here as STATUS.md SESSION LOG section keeps only last 5. Newest first. Append-only. |
 | `design/STATE.md` | ✅ Created 2026-05-04 | This file. Pass 2 of STATUS.md refactor. |
+| `anchors/IRAN_WAR.md` | ✅ Created 2026-05-04 | Network-wide macro anchor pulled out of STATUS.md (Pass 3) — explicit verified-as-of stamp + re-verify trigger. WALTER owns; refresh at boot if state-change OR every 7d min OR pre-dispatch on Iran-cluster signals. |
+| `registry/FALSIFICATION_FIRED_LOG.tsv` | ✅ Created 2026-05-06 PM | WALTER-side parallel ledger for RED's pre-registered falsification triggers. 5-col schema (trigger_id / fired_date / metric_value_at_fire / dispatched_signal_id / sustain_confirmation). Preserves Critical Rule #2 — fire history lives in WALTER tree, not RED tree. Spec at JOINT_PROPOSAL_2026-05-06_red_walter §2.4. README at `registry/README.md`. Empty at scaffold; appends one row per WALTER auto-dispatch from `AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv`. |
+| `registry/README.md` | ✅ Created 2026-05-06 PM | Operational pattern doc for the registry/ directory + FALSIFICATION_FIRED_LOG schema + cross-references. |
 
 ## 5. Active policies
 
