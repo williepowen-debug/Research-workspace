@@ -49,6 +49,17 @@ Single entry point for external information into the agent network. WALTER filte
 
 **Iran-cluster signal framing (current):** active-war re-escalation under Project Freedom + post-ceasefire-break dynamics (NOT "post-Apr-8 ceasefire under blockade" — that framing was correct Apr 8–May 3 and is now superseded). Thesis weight HIGHER than April framing implied. See anchor file for the detail + re-verify trigger.
 
+### 🤝 Active LIAISON channels + countdowns (manifest)
+
+*Paired-agent architectural-alignment dialogs. Each active channel = file at `AGENTS/{TARGET}/handoff_WALTER/LIAISON.md` (generic glob `find AGENTS/*/handoff_WALTER -name LIAISON.md`). Read at boot via spawn-protocol step 9 (conditional on new turns since last boot). Auto-flag rule: status flips ACTIVE → DORMANT after 30 days without a turn at next closeout — manifest-staleness guard. Calibration trigger: **14-day calendar primary** (next-trigger column), **N=20 BOARD dispositions early-fire** (whichever first). Calendar dates are observable; counts require maintenance.*
+
+| Channel | Last_Turn_Date | Status | Next_Trigger | Notes |
+|---------|----------------|--------|--------------|-------|
+| WALTER ↔ CARL | 2026-05-06 (Turn 6 closed) | ACTIVE | **2026-05-19 (calibration cycle 1, 14d primary)** OR N=20 BOARD dispositions from 5/5 ≈ ~3 wks (early-fire) | 6-turn dialog 2026-05-05 → 06; architectural thread converged. Output: 4 v0.8 spec proposals + ROUTING_TABLE v0.6 override + Post_Hoc_Conf shipped + scheduled-scan budget pending Will sign-off + design/CROSS_REFS/CARL.md cache spec. Cycle 1 trigger fires CARL post-hoc-conf delta summary → WALTER threshold tuning. |
+| WALTER ↔ RED | n/a | PENDING | RED revival | RED CC-side, 17d STALE last STATUS Apr 18; CARL has staged `handoff_RED/` files (transitional). When RED spawns, the LIAISON pattern overlays. Highest priority for next-LIAISON channel per CARL Turn 5 / WALTER Turn 6. |
+| WALTER ↔ HENRY | n/a | PENDING | After RED operational | CC-side, file-mediated relay works. Second priority post-RED. CARL feeds wealth-effect transmission (V14 Upper-Decile Wealth Stress) into HENRY's positioning/valuation reads. |
+| WALTER ↔ BRENT | n/a | DEFERRED | Cross-platform protocol OR BRENT migrates CC | High-value (energy-cluster owner, 5-vector confluence days like 5/5 prove the alignment value) but OC-platform crossing makes file-mediated slow. Defer until protocol or platform migration. |
+
 ### Today's routing + stale agents (regenerated each closeout from REGISTRY)
 
 **As-of:** 2026-05-05 (Tue evening — closeout) — heavy intake session, 4 batches, 12 dispatches, 8 kills, BOARD 98→110. Last 5 BOARD entries: SIG-W-20260505-008 (AHLA WC) / -009 (Wirth Milken IMMEDIATE) / -010 (Black Box Apr restaurants) / -011 (WHO DON599 hantavirus) / -012 (Brent tape-vs-substance divergence).

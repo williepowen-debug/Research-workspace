@@ -37,8 +37,9 @@ You maintain:
 6. **Read `design/ROUTING_TABLE.md`** — signal routing rules
 7. **Scan `/BOARD/INDEX.md`** — read the **cluster ToC at top first** (1-page overview of all 10 clusters with counts + latest-signal date — fastest scan layer). Then drill into clusters where signals landed since last session (each cluster section is sorted chronologically ascending; tail = most recent). (BOARD is the network-shared signal archive, restructured into 10 cluster sections 2026-05-05 per `design/CLUSTER_TAXONOMY.md` v0.1; WALTER still owns all writes.)
 8. **Registry refresh** — read other agents' STATUS.md files, update REGISTRY.tsv Status/Updated/Focus columns
+9. **Active LIAISON channel discovery** (added 2026-05-06 per Phase 1 scaffolding) — STATUS.md "Active liaison channels" subsection is the manifest. For each ACTIVE channel listed there, compare `last_turn_date` vs your last-WALTER-boot timestamp (use git log on the relevant LIAISON.md as the authoritative timestamp source). If the LIAISON has new turns since last boot → read latest turn(s). If unchanged → skip. **Generic glob discovery** (no agent hardcoding): the canonical path convention is `AGENTS/{TARGET_AGENT}/handoff_WALTER/LIAISON.md` — `find AGENTS/*/handoff_WALTER -name LIAISON.md` covers all current and future channels. Cross-checks against STATUS manifest detect drift. **Outbox queue scan**: also `ls AGENTS/WALTER/outbox/REQ-*.md`; for any file older than 14 days without resolution, surface in session log for retry/escalation.
 
-**Reference docs (read on demand, not at boot):** `design/STATE.md` (design + infra completeness directory).
+**Reference docs (read on demand, not at boot):** `design/STATE.md` (design + infra completeness directory). `design/CROSS_REFS/{AGENT}.md` (identifier-cache lookups when that agent is on a routing line — read at signal-dispatch time, not at boot).
 
 ### Execute
 9. **Execute the task**

@@ -95,4 +95,32 @@
 | Agent | `board_log.tsv` exists | CLAUDE.md boot block applied |
 |-------|-----------------------|------------------------------|
 | WALTER | n/a (writes BOARD, doesn't consume) | n/a |
+| **CARL** | ✅ `AGENTS/CARL/board/BOARD_LOG.tsv` (9-col schema since 2026-05-05; new `Post_Hoc_Conf` column shipped commit `d26aaab2` per LIAISON Turn 3) | ✅ CARL has BOARD-pull at boot (CARL self-applied; **correction to prior STATE that said all-other-agents-pending — CARL was further along than WALTER's MEMORY tracked**) |
 | All other Tier 1 agents | ⏳ Pending | ⏳ Pending — Will or each agent applies; WALTER does not edit other agents' CLAUDE.md per git isolation rule. |
+
+## 10. LIAISON channels (paired-agent architectural-alignment scaffolding)
+
+*Created 2026-05-06 per Phase 1 scaffolding. Generic naming convention: `AGENTS/{TARGET}/handoff_WALTER/LIAISON.md` for any WALTER-paired channel. Glob-discovery at boot step 9. Manifest with last_turn_date + DORMANT auto-flag (30-day threshold) lives in STATUS.md "Active LIAISON channels + countdowns" subsection. Calibration cycle trigger: 14-day calendar primary; N=20 BOARD dispositions early-fire. **Only artifacts that exist now are listed; aspirational rows added when shipped.***
+
+| Channel | File state | Notes |
+|---------|------------|-------|
+| WALTER ↔ CARL | ✅ `AGENTS/CARL/handoff_WALTER/LIAISON.md` (6 turns 2026-05-05 → 06; thread converged) | First active LIAISON. README at same path. Cycle 1 calibration ETA 2026-05-19 calendar primary. |
+| WALTER ↔ RED | ⏳ Pending RED revival | CARL has staged `handoff_RED/` (transitional layer ready to convert when RED operational). |
+| WALTER ↔ HENRY | ⏳ Pending RED first | Second priority. CC-side, file-mediated works. |
+| WALTER ↔ BRENT | ⏳ Deferred | OC-platform crossing makes file-mediated slow. |
+
+## 11. Outbox queue files (active requests to other agents via Prome)
+
+*Naming: `AGENTS/WALTER/outbox/REQ-{TARGET}-{YYYYMMDD}-{slug}.md`. Persist as durable record even if Prome degraded. Boot step 9 scans for files older than 14d → flag for retry/escalation.*
+
+| Path | Created | Status | Target | Topic |
+|------|---------|--------|--------|-------|
+| `outbox/REQ-HAWK-20260505-geopolitical-driver-rebuild-post-may4-break.md` | 2026-05-05 | Open | HAWK | Geopolitical-driver framing rebuild post-5/4-break. HAWK-proxy synthesis available as starting framework. |
+| `outbox/REQ-NEXUS-20260505-cluster-classification-iran-hormuz-confluence-consumer-stagflation-breakdown.md` | 2026-05-05 | Open | NEXUS | 5-vector IRAN_HORMUZ + 5-axis CONSUMER_STAGFLATION classification. |
+| `outbox/REQ-RED-20260505-wirth-1970s-analog-steelman-falsification.md` | 2026-05-05 | Open | RED | Wirth 1970s-analog 5-track adversarial framework. |
+
+## 12. One-shot artifacts in flight
+
+| Path | Purpose | State |
+|------|---------|-------|
+| `AGENTS/WALTER/design/JOINT_PROPOSAL_2026-05-05_walter_sections.md` | WALTER's drafted sections of joint WALTER+CARL proposal from 6-turn LIAISON 2026-05-05 — covers FORMAT_SPEC v0.8 (4 fields) + scheduled-scan budget + ROUTING_TABLE v0.6 + design/CROSS_REFS/CARL.md. | ✅ Shipped 2026-05-06; awaiting CARL's parallel sections + Will-mediated stitch into repo-root `design/JOINT_PROPOSAL_2026-05-05.md`. |
