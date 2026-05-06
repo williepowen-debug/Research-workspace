@@ -64,7 +64,15 @@ Heavy intake session immediately following the morning's BOARD INDEX cluster ref
 
 **Spec changes:** none. (FORMAT_SPEC v0.7 + CHECKLIST v0.9 + CLUSTER_TAXONOMY v0.1 from morning session unchanged.)
 
-**12 BOARD dispatches** (-001 through -012). **8 kills.** **9 sub-agent spawns** (5 verify-research + 1 Iran-spot-check + 1 discretionary-research + 1 HAWK-proxy + 1 AHLA-WC verify). **Push state pre-closeout: clean** (origin = HEAD post Prome BOND pull; closeout commit pending).
+**12 BOARD dispatches** (-001 through -012). **8 kills.** **9 sub-agent spawns** (5 verify-research + 1 Iran-spot-check + 1 discretionary-research + 1 HAWK-proxy + 1 AHLA-WC verify). 3 commits today: `f98c0d7f` 12-dispatch closeout / `4e102beb` Phase 1 LIAISON scaffolding + joint-proposal sections + -012 retro-tag / `3b3c17ac` BRENT LIAISON prep + generic LIAISON_PLAYBOOK.
+
+**Second arc post-12-dispatch closeout — WALTER↔CARL LIAISON channel opened:** 6-turn architectural-alignment dialog 22:00 UTC → 06 01:05 UTC. CARL set up `AGENTS/CARL/handoff_WALTER/{LIAISON.md,README.md}` with turn-numbered append-only schema. Output: 4 v0.8 spec proposals co-signed (`consumer_transmission`+`signal_role`+`consumer_lens`+`cluster_secondary`) + ROUTING_TABLE v0.6 Iran-cluster CARL override (concrete Brent thresholds $110/2sess, $95/5sess) + Post_Hoc_Conf BOARD_LOG col shipped (CARL commit `d26aaab2`) + scheduled-scan budget proposal ($0.30-0.50/wk) + design/CROSS_REFS/CARL.md cache spec + DATA_RELEASE_CALENDAR.md (CARL self-task) + 6 locked DECISIONs + bidirectional calibration loop active. Calibration cycle 1 trigger: **2026-05-19 (14d calendar primary per Will mod) OR N=20 BOARD dispositions (early-fire)**.
+
+**Phase 1 LIAISON scaffolding shipped** with 3 Will mods baked in: STATE.md initial rows = artifacts that exist now only / 14d calendar primary calibration / manifest schema with `last_turn_date` + DORMANT auto-flag after 30d. Boot step 9 added: glob discovery `AGENTS/*/handoff_WALTER/LIAISON.md` + outbox REQ scan with 14d staleness flag. STATUS NETWORK AWARENESS got "Active LIAISON channels + countdowns" subsection. STATE.md sections 10-12 added (LIAISON channels / outbox queue / one-shot artifacts).
+
+**BRENT LIAISON prep shipped for next session:** `design/LIAISON_PLAYBOOK.md` (199 lines, 12 sections — generic process reusable for BRENT/RED/HENRY/future) + `design/BRENT_LIAISON_PREP.md` (147 lines, 10 sections — boot-ready handle Q1-Q8 prepared + Q9-Q14 anticipated + cross-platform options α/β/γ + bridge concept candidate `energy_transmission` enum + scheduled-scan calendar). STATUS manifest BRENT row DEFERRED → PENDING_NEXT_SESSION.
+
+**Push state: clean post-`3b3c17ac`.** Working tree has BRENT mid-session work + CARL LIAISON.md option-c uncommitted — neither mine to touch.
 
 ### NEXT SESSION
 
