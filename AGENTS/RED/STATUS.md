@@ -123,7 +123,7 @@ The strongest version of "we're wrong" — refreshed for May 6:
 | **HYG exit closure owed** | RED self → Will | CRITICAL | Apr 10 rule fired, recommendation Apr 18, status pending Apr 30 |
 | **Public/private bifurcation** | LIQUID/BROCK | STRONG | HY OAS 285 vs OZK past-due 1.41% / WAL fraud / Office stress / 13 PC gates. Worsened. |
 | **WAL V2 thesis reframe** | REGINALD | MODERATE | "Compounder + CRE tail" weakens fast-transmission story. RED owes a stress-test of new framing. |
-| **BRENT thesis v2.0 + Project Freedom + bypass-pair** | BRENT | UNREAD | Shipped while RED off. RED owes adversarial overlay. |
+| **BRENT thesis v2.0 adversarial overlay** | BRENT | STRONG | CHG-RED-024 issued May 6. 3 STRONG (paper-physical without observable, curve contradicts deepening, BRT-04 downgrade overshoots) + 2 MODERATE (bypass-pair n=2, Phase overlap). 3 falsifiable preds RED-12/13/14 in 30-60d. |
 | **RED calibration (RED-09)** | Self | STRONG | 6 wrong in a row. Methodology lesson not absorbed. Next prediction must be wider. |
 | **VIOLET SKEW challenge** | VIOLET | STRONG | Apr 22 deadline passed without response. RED owes escalation/withdrawal decision. |
 | **Q2 instrument mismatch** | Portfolio | COMPELLING | OZK May ×4, WAL Jun ×3, KRE May ×2, IWM Jun, SOFI May, HYG Jun all near-dated against Q3+ thesis. |
