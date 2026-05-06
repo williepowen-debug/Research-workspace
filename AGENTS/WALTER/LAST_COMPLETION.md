@@ -6,7 +6,11 @@
 
 ## STATUS
 
-Session 2026-05-06 PM Wed (~17:44–18:55 UTC) — **fourth WALTER session today**. Will-page-triggered image-batch-throughput session. **5 BOARD dispatches (4 PRIORITY + 1 ROUTINE) + 1 KILL + 1 WALTER-synthesis-add + 2 verify-research spawns (~$0.10).** First end-to-end signal-intake-to-dispatch test of the v0.7 / v0.10 / FALSIFICATION-LIVE infrastructure shipped earlier today. Will green-lit dispatch via msg 1409 ("You may dispatch. Please let me know when I can send the next batch.").
+Session 2026-05-06 PM Wed (~17:44–19:20 UTC) — **fourth WALTER session today (extended)**. Will-page-triggered **2-batch image-throughput session**:
+- **Batch 1** 18:01 UTC msgs 1401-1405 (5 imgs): 5 dispatches + 1 KILL + 1 synthesis-add committed `866d761e`
+- **Batch 2** 18:48 UTC msgs 1411-1417 (7 imgs): 2 dispatches + 3 KILLs (commit pending)
+
+**Net today: 7 BOARD dispatches + 4 KILLs + 1 WALTER-synthesis-add + 4 verify-research spawns (~$0.20).** First end-to-end signal-intake-to-dispatch test of the v0.7 / v0.10 / FALSIFICATION-LIVE infrastructure shipped earlier today. Will green-lit batch 1 dispatch via msg 1409; batch 2 sent without explicit per-batch green-light (Will note 1409 was "let me know when I can send the next batch").
 
 Boot-state at session start: WALTER tree clean (last commit `dad58114` from 3rd session); RED has 5 modified + 1 untracked file in flight from parallel session — **boot pull skipped per protocol** to avoid stashing other agents' work. Origin in sync with WALTER tree at boot.
 
@@ -46,12 +50,14 @@ Closeout shipped per CLAUDE.md spawn-protocol steps 12-16: STATUS lead-paragraph
 
 ### Files touched this session
 
-**New (5) under `BOARD/`:**
+**New (7) under `BOARD/`:**
 - `BOARD/SIG-W-20260506-001-bloomberg-opec-april-36yr-low-iran-war-shutins.md`
 - `BOARD/SIG-W-20260506-002-tape-vs-substance-bifurcation-may6-brent-7pct-down.md`
 - `BOARD/SIG-W-20260506-003-gromen-nonmonetary-gold-1-export-march-corrected-framing.md`
 - `BOARD/SIG-W-20260506-004-arbor-fed-ust-holdings-44t-65pct-highest-since-mar2008.md`
 - `BOARD/SIG-W-20260506-005-bbc-mv-hondius-cruise-2nd-passenger-death-jnb-air-exposure.md`
+- `BOARD/SIG-W-20260506-006-energy-aspects-amrita-sen-cnbc-billion-barrels-need-higher-prices-demand-destruction.md` (batch 2)
+- `BOARD/SIG-W-20260506-007-who-mv-hondius-no-rats-close-contact-p2p-canary-refused-dock-pandemic-cluster-update.md` (batch 2)
 
 **Modified:**
 - `BOARD/INDEX.md` — cluster ToC counts + 3 cluster sections appended (IRAN_HORMUZ 29→31, MISC 6→7, FED_FRAMEWORK 2→4) + TOTAL 110→115 + ToC re-sort
@@ -62,12 +68,17 @@ Closeout shipped per CLAUDE.md spawn-protocol steps 12-16: STATUS lead-paragraph
 - `AGENTS/WALTER/MEMORY.md` — CHANGES SINCE / NEXT SESSION rewrite + 1 new finding (tape-vs-substance bifurcation pattern restated 2-of-2 sessions)
 - `AGENTS/WALTER/LAST_COMPLETION.md` — this file (rewritten for 4th session)
 
-### Sub-agent spawns (2)
+### Sub-agent spawns (4 total — 2 in each batch)
 
-- **Verify-research: OPEC 36-yr-low Bloomberg claim** — verdict CONFIRMED 0.92 (~$0.05; agent ID `aeee38a849db9ba36`).
-- **Verify-research: Gromen non-monetary gold ratios** — verdict CORRECTED-FRAMING 0.55 (~$0.05; agent ID `aa8d4364c239519b5`).
+**Batch 1:**
+- Verify-research: OPEC 36-yr-low Bloomberg claim — CONFIRMED 0.92 (~$0.05; agent `aeee38a849db9ba36`)
+- Verify-research: Gromen non-monetary gold ratios — CORRECTED-FRAMING 0.55 (~$0.05; agent `aa8d4364c239519b5`)
 
-Total cost ~$0.10. Verdict mix matches MEMORY 4/25 finding (CORRECTED-FRAMING is dominant verdict).
+**Batch 2:**
+- Verify-research: EA Amrita Sen "billion barrels lost / need higher prices for demand destruction" — CONFIRMED 0.85 (~$0.05; agent `ad278974872b83f18`)
+- Verify-research: WHO no-rats / airborne H2H hantavirus — CORRECTED-FRAMING 0.78 (~$0.05; agent `afd687a29f5761e6f`)
+
+Total cost ~$0.20. Verdict mix: 2 CONFIRMED + 2 CORRECTED-FRAMING — matches MEMORY 4/25 finding (CORRECTED-FRAMING is dominant verdict, but CONFIRMED is the second-most-common).
 
 ### Spec changes
 
@@ -75,7 +86,8 @@ Total cost ~$0.10. Verdict mix matches MEMORY 4/25 finding (CORRECTED-FRAMING is
 
 ### Commits
 
-Closeout commit pending.
+- **Batch 1 closeout** committed `866d761e` (12 files / +561 / -215) — pushed; rebase absorbed RED Session 10 `ba672199` + SENTRY Phase 1 `12c7986a`.
+- **Batch 2 closeout** commit pending (this writing).
 
 ## RESULT
 
