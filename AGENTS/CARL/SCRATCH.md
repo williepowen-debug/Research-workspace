@@ -1,8 +1,10 @@
 # CARL SCRATCH
-**Last session:** 2026-05-05 ~21:30 UTC (PM)
-**Type:** BOARD May 5 12-signal disposition + AAA pump May 5 + ISM Services Apr / JOLTS Mar / AHLA WC2026 / Black Box Apr restaurants integration
+**Last session:** 2026-05-06 ~01:30 UTC (PM2 — LIAISON closeout)
+**Type:** BOARD May 5 12-signal disposition + AAA pump May 5 + ISM Services Apr / JOLTS Mar / AHLA WC2026 / Black Box Apr restaurants integration **+ CARL↔WALTER LIAISON channel opened (7 turns, architectural items converged)**
 
 **PRIORITY-1:** **AAA pump May 6 close — CRL-08 breach watch.** $4.483 May 5, gap $0.017; Tue May 6 close highly likely first $4.50+ print absent Brent transmit relief. If breach: log first ≥$4.50 close, start 2-week sustainability clock, do NOT reprice CRL-08 yet. Pair: Live Nation Q1 5/5 AMC results (small-venue/mid-tier ticket commentary — KB-282 tier-stratified discretionary near-term tell).
+
+**PRIORITY-2 (this week):** Draft §1/§3a/§3c/§4 of joint Will-surface doc → `AGENTS/CARL/design/JOINT_PROPOSAL_2026-05-05_carl_sections.md` (path-b per LIAISON Turn 7); WALTER drafts §2a/§2b/§3b/§3d in parallel; Will stitches to repo-root final.
 
 ---
 
@@ -17,6 +19,7 @@
 7. **NEW transmission vector identified (AHLA WC2026):** ~80% US-host-city hoteliers below projections (KC -85-90% cannibalizing summer baseline); Miami/Atlanta in-line bright spots; visa/USD/policy drivers. Services-export / international-inbound demand destruction. Sub-vector candidate for v2.5.2 hardening.
 8. **Tier-stratified discretionary framework reinforced (Black Box Apr):** Restaurant traffic -3.5% Easter-clean / 2nd decline 3mo, but counter-channels intact (BofA Card +4.3% / JPM Q1 +9% / Cinemark Q1 +19% rev BEAT). Card +4.3% nominal at UMich 4.7% 1Y ≈ flat real. Live Nation Q1 5/5 AMC = high-near-term watch.
 9. **CRL-08 disposition: NEAR-BREACH NOT-YET, holds 92%.** Tue May 6 close highly likely to breach. Brent -3.52% May 5 should soften pump Wed-Fri. 2-week sustainability test post-cross before any reprice.
+10. **CARL↔WALTER LIAISON channel opened (PM2)** — Will mediated 7 turns. New `handoff_WALTER/` subfolder (README.md + LIAISON.md). **Architectural items converged:** 4 FORMAT_SPEC v0.8 field additions co-signed (`consumer_transmission` / `signal_role` / `consumer_lens` / `cluster_secondary`); Iran-cluster routing rule sharpened (Brent ≥$110 sustained 2 sessions OR ≤$95 sustained 5 sessions); calibration cycle cadence agreed (N=20 dispositions OR 14 days). **Two artifacts shipped:** Post_Hoc_Conf column added to BOARD_LOG.tsv (8→9 cols) + retro-populated SIG-W-20260505-008 to 0.82 (own-confidence downgrade reflecting AHLA member-bias structural counter, inaugural calibration loop use case). **Pending Will decisions:** FORMAT_SPEC v0.8 sign-off, scheduled-scan budget ($0.30-0.50/wk), joint-doc path mechanic (path-b chosen). **CARL self-tasks:** §1/§3a/§3c/§4 of joint-doc + DATA_RELEASE_CALENDAR.md extension. **Next LIAISON dispatch:** calibration cycle 1, ETA mid-late May.
 
 ## STATUS CHANGES
 | Item | Change |
@@ -28,6 +31,9 @@
 | `ROADMAP.md` | timestamp + RECENTLY RESOLVED PM entry + CRL-08 thread refresh |
 | **CRL-08** | Holds 92% NEAR-BREACH NOT-YET; gap collapsed $0.054→$0.017 |
 | **Vector #12** | HARDENED — ISM Services Prices Paid 70.7 alongside Mfg 84.6 expands stagflation regime beyond goods-only |
+| `handoff_WALTER/` | NEW subfolder — README.md (channel conventions) + LIAISON.md (7-turn dialog architecturally converged) |
+| `board/BOARD_LOG.tsv` | Schema 8 → 9 cols (+Post_Hoc_Conf decimal 0.0-1.0, optional, populated when CARL post-hoc confidence differs from WALTER dispatched verdict). Retro-populated SIG-W-20260505-008 to 0.82. |
+| `CLAUDE.md` | FILES table +handoff_WALTER row |
 
 ---
 
@@ -37,11 +43,14 @@
 1. **AAA pump May 6 close** — CRL-08 breach watch (gap $0.017). If first $4.50+ close: log + start 2-week sustainability clock (don't reprice yet).
 2. **Live Nation Q1 5/5 AMC results** — small-venue/mid-tier ticket commentary tier-stratification tell.
 3. **Brent May 6 close** — does -3.52% May 5 hold or reverse? Pump transmit Wed-Fri.
+4. **Check `AGENTS/CARL/handoff_WALTER/LIAISON.md` Turn 8** — WALTER may post calibration data or confirm joint-doc path. If quiet, no action.
 
 ### UPCOMING (this week)
-4. **May 6** — Uber Q1 + DoorDash Q1 (GIG); BLS state jobs March (FL labor follow-up KB-249).
-5. **May 7 TRIPLE** — Dave Q1 + Lyft Q1 + Affirm Q3 FY2026; EIA weekly inventory (distillate / DSL-01).
-6. **May 8** — BLS Apr NFP (V16 first realized print).
+5. **May 6** — Uber Q1 + DoorDash Q1 (GIG); BLS state jobs March (FL labor follow-up KB-249).
+6. **May 7 TRIPLE** — Dave Q1 + Lyft Q1 + Affirm Q3 FY2026; EIA weekly inventory (distillate / DSL-01).
+7. **May 8** — BLS Apr NFP (V16 first realized print).
+8. **Joint Will-surface doc — CARL §§** — Draft §1 (context) + §3a (Post_Hoc_Conf commit ref `d26aaab2`) + §3c (DATA_RELEASE_CALENDAR.md ETA + scope) + §4 (Q1-Q22 locked decisions enumeration with co-sign tags) → `AGENTS/CARL/design/JOINT_PROPOSAL_2026-05-05_carl_sections.md`. Path-b per LIAISON Turn 7. WALTER drafts other sections in parallel; Will stitches.
+9. **DATA_RELEASE_CALENDAR.md extension** — Extend `EARNINGS_WATCH_Q1.md` to year-rolling primary-data-release calendar; columns `Date | Time (ET) | Source | Release | Cadence | CARL-Vector | Notes`; cadence enum `daily/weekly/monthly/quarterly/event-driven/release-window`. WALTER scheduled-scan workflow polls this path once budget approved.
 
 ### UPCOMING (next 2 weeks)
 7. **May 13** — BLS Apr CPI — first full Iran-shock + tariff month; **Food at Home decomposition** extract (deferred from PM6).
@@ -50,7 +59,8 @@
 10. **May 28** — BEA GDP Q1 second estimate (CRL-18) + AFT/MOHELA conference.
 
 ### UPCOMING (next 6+ weeks)
-11. **Jun 16-17** — **FOMC + SEP** — first dot-plot post Iran-shock + ISM Services Prices Paid 70.7; KB-274. V12 hawkish/dovish surprise window.
+12. **Jun 16-17** — **FOMC + SEP** — first dot-plot post Iran-shock + ISM Services Prices Paid 70.7; KB-274. V12 hawkish/dovish surprise window.
+13. **LIAISON calibration cycle 1** — Trigger N=20 BOARD dispositions OR 14 days from May 5 (whichever first). Summarize Post_Hoc_Conf deltas vs WALTER dispatched verdicts; structural reasons. Append as new LIAISON turn.
 
 ### v2.5.1 HARDENING (8 PENDING_VERIFY items, unchanged)
 12-19. UMich triangulation / Foreclosure 2019 baseline / Path C COF/SYF counterfactual / Crying-wolf X-thresholds / Brier audit / CONTAINMENT prior calibration / COF/SYF candor puzzle / Trade Duration roll plan / RED-CARL interface.
@@ -124,7 +134,8 @@
 | CHANGELOG.md | — | — | May 4 PM7 | Unchanged this session (CHANGELOG entry for v2.5.1 → present) |
 | ROADMAP.md | — | — | **May 5 PM** | RECENTLY RESOLVED PM entry + timestamp + CRL-08 thread refresh |
 | STATUS.md | 245 | — | **May 5 PM** | timestamp + 6 row updates + 3 new rows + DANGER WINDOW NOW + Recently fired + CRL-08 + EXIT RULES |
-| BOARD_LOG | 117 | 8 | **May 5 PM** | +12 May 5 dispositions (was 105). Synced 0 gap. |
+| BOARD_LOG | 117 | **9** | **May 6 PM2** | Schema +Post_Hoc_Conf col (was 8). Retro-populated SIG-W-20260505-008 to 0.82. Dispositions 117 (+12 May 5). Synced 0 gap. |
+| `handoff_WALTER/LIAISON.md` | 7 turns | — | **May 6 PM2** | NEW. Architectural thread converged. Next dispatch = calibration cycle 1, ETA mid-late May (N=20 dispositions OR 14 days). |
 | HOMER/KB | 65 | 12 | May 2 PM3 | Unchanged |
 | FLOW | 24 | 9 | Apr 17 | 19d — refresh due |
 | STATE_DIFFUSION | 62 | 12 | Apr 17 | 19d |
