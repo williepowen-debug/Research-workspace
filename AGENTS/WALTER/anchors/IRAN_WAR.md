@@ -1,6 +1,7 @@
 # IRAN-WAR ANCHOR
 
-**Verified-as-of:** 2026-05-06 PM (Wed evening — refresh trigger fired on visible kinetic state-change continuation per SIG-W-20260506-012 IRGC drone strikes 5/5-5/6 on PDKI Girde Chal + Komala Sourdash camps N Iraq; **explicit confirmation: NO US-base kinetic since May 4 break remains TRUE**; UAE-exit-date corrected 5/3→5/1 per SIG-001 verify earlier today)
+**Verified-as-of:** 2026-05-07 (Thu PM — pre-dispatch refresh on SIG-W-20260507-001 John Hudson WaPo CIA-assessment leak; **MATERIAL FRAMING UPDATE — see § Intel assessment update 5/7 below**: cornered-regime/desperation-escalation timing horizon pushed back to 3-4 months minimum survive-window + Iran kinetic-counterstrike credibility tightened on 75% mobile-launcher / 70% missile retention. Bifurcated update: timeline pressure RELAXES, capability credibility TIGHTENS. NO US-base kinetic since May 4 break still TRUE.)
+**Prior verified-as-of:** 2026-05-06 PM (kinetic continuation per SIG-W-20260506-012 IRGC drone strikes on PDKI/Komala camps; UAE-exit corrected 5/3→5/1)
 **Re-verify trigger:** any visible kinetic state-change (territorial strike, ceasefire renegotiation, naval engagement, blockade lift), OR every 7 days minimum, OR before dispatching any Iran-cluster signal whose framing depends on war-state. Weekly minimum because state evolves fast.
 **Source basis:** primarily `AGENTS/BRENT/STATUS.md` (May 4 intraday refresh — BRENT is domain primary for OIL_ENERGY + GEOPOL_ENERGY); BRENT itself sources to multi-channel news + CENTCOM + UAE official + Yahoo Finance market tape. WALTER's role here is to maintain the network-wide anchor, not to re-verify BRENT's primary research.
 
@@ -57,7 +58,22 @@
 - **OPEC+ symbolic 188K bpd hike May 3** — first meeting without UAE. **UAE exit from OPEC+ effective May 1, 2026** (corrected 2026-05-06 per SIG-W-20260506-001 verify-research finding — earlier framing in this anchor said May 3 announcement; that was the first POST-exit OPEC+ meeting). April production figures still include UAE; May print will mechanically drop further from UAE removal alone (~2.9 mbpd capacity exits OPEC+ denominator) — pre-register as supply-narrative composition-artifact for forward Iran-cluster signal framing.
 - **Merz (German chancellor) Apr 28**: US "being humiliated" by Iran + sees "no exit strategy" — ally-channel diplomatic-credibility-erosion vector still active.
 
-## Iran-cluster signal-framing implications (as of May 4)
+### Intel assessment update (2026-05-07)
+
+Per SIG-W-20260507-001 — John Hudson (WaPo national-security reporter) sourcing **4 US officials (3 current + 1 former)** on a confidential CIA assessment delivered to policymakers this week. Multi-sourced, not single-leaker.
+
+**Load-bearing facts (each verbatim per WaPo):**
+- **Iran can survive the US naval blockade for at least 3 to 4 months** before facing more severe economic hardship — directly contradicts framing of imminent collapse. Cornered-regime/desperation-escalation pressure horizon pushed back to **July–August 2026 minimum**, not weeks.
+- **~75% of pre-war mobile launchers retained** + **~70% of pre-war missile stockpiles retained**.
+- **Underground storage facilities reopened almost entirely** + damaged missiles being repaired + new missiles being assembled.
+
+**Bifurcated implication for thesis weighting:**
+- Timeline-pressure axis: **RELAXES** — Iran economic-collapse-driven escalation horizon longer than April-framing implied.
+- Capability-credibility axis: **TIGHTENS** — Iran's kinetic counterstrike capability on whatever-timeline-they-choose is materially intact. "Decimation" framing for Iran missile/launcher capacity is wrong.
+
+**Net for cluster signal-framing:** the cornered-regime *desperation-escalation timing* assumption (which had been pushing some signals toward IMMEDIATE-with-near-term-tail framing) needs recalibration. Iran has more strategic patience available than April-framing assumed; whatever escalation occurs is more likely *deliberate-doctrine-driven* than *economic-collapse-cornered*. Asymmetric escalation risk now lives more in capability-tail (76% / 70% retained → rocket the bypass route, hit US assets) than in time-tail (regime-falls-this-month).
+
+## Iran-cluster signal-framing implications (as of May 7)
 
 - Iran-cluster signals (Hengli OFAC, USS Pinckney intercept, USAF airlift+3-carrier, M/V Sevan, Mareeyo hijack, Pakistan-mediated diplomacy, Iranian rial collapse) are now **active-war re-escalation signals under Project Freedom + post-ceasefire-break dynamics**. They are NOT "post-Apr-8-ceasefire dynamics under blockade" anymore — that framing was correct from Apr 8 through May 3, and is now superseded.
 - Thesis weight is **HIGHER** than the April framing implied. Hormuz functionally closed for general commercial + bypass route attacked + active escalation + fragile-to-no-ceasefire = materially market-moving and asymmetric.
