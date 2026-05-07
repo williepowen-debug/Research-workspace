@@ -35,21 +35,21 @@ Sorted by signal count descending. Cluster definitions in [`AGENTS/WALTER/design
 
 | Cluster | Count | Latest signal | Theme |
 |---------|------:|---------------|-------|
-| [IRAN_HORMUZ](#iran_hormuz-33) | 33 | 2026-05-06 (NEXTA fertilizer cascade: US-Russia $243.9M Mar / $564.4M Q1 +37% YoY / Hormuz-blocked competitors → Russia capturing US demand — falsification-trigger candidate Q2 reversal) | Iran war / Hormuz chokepoint / GEOPOL_ENERGY supply / sanctions / state-response |
-| [POSITIONING_VALUATION](#positioning_valuation-23) | 23 | 2026-05-06 (Shiller PE 41.24 / 93% of Dot Com peak + HF Mag 7 12-mo low de-crowding cluster_mediating institutional-vs-retail bifurcation) | Equity positioning extremes / vol regime / breadth / fund flows / call-put skew |
-| [BANK_COLLATERAL](#bank_collateral-14) | 14 | 2026-04-29 (ROAD Act 76 lawmakers) | Distressed CRE / residential housing / office vacancy / regulatory shocks affecting bank collateral |
+| [IRAN_HORMUZ](#iran_hormuz-34) | 34 | 2026-05-06 (IRGC drone strikes 5/5-5/6 → PDKI Girde Chal + Komala Sourdash camps N Iraq — first IRGC kinetic on Iraqi soil since 5/4 ceasefire-break; Visegrad "US base" framing FALSE) | Iran war / Hormuz chokepoint / GEOPOL_ENERGY supply / sanctions / state-response |
+| [POSITIONING_VALUATION](#positioning_valuation-24) | 24 | 2026-05-06 (SPX $7,365 +1.46% ATH / Kobeissi 7,350-first-time / +$9.4T market cap since 3/30 low — cluster_mediating w/ SIG-009 HF Mag 7 de-crowding institutional-de-risk-vs-retail-bid AT-THE-NEW-ATH-PRINT) | Equity positioning extremes / vol regime / breadth / fund flows / call-put skew |
+| [BANK_COLLATERAL](#bank_collateral-15) | 15 | 2026-05-06 (Bloomberg Grosvenor Duke of Westminster $954M US RE divestment / pivot to indirect — institutional bid stepping back) | Distressed CRE / residential housing / office vacancy / regulatory shocks affecting bank collateral |
 | [CONSUMER_STAGFLATION](#consumer_stagflation-16) | 16 | 2026-05-05 (Black Box Apr restaurants SSS −0.4% / traffic −3.5% — discretionary-demand-destruction) | Sentiment / inflation expectations / CC delinq / labor weakness / consumer fuel-cost transmission / discretionary-demand-destruction |
-| [MISC](#misc-8) | 8 | 2026-05-06 (WHO Van Kerkhove on-record close-contact P2P + 'no rats on board' + Canary Islands refused dock + Swiss/NL spread — pandemic-watch #3 institutional-primary multi-fact update) | Singletons / market-structure / adversarial-meta / counter-evidence-without-cluster-home |
-| [PC_STRESS](#pc_stress-8) | 8 | 2026-04-29 (OCIC/OTIC reactivation) | Private credit / BDC / asset-manager stress — gates / unwinds / AUM pulls / regulatory inquiries |
+| [MISC](#misc-9) | 9 | 2026-05-06 (Hirschson MD hantavirus update — 8th CH case + French = contact-only + NEJM Argentina precedent 34/11/4-gens + "very low pandemic risk" R0+isolation framework — pandemic-watch #4 calibration counterweight) | Singletons / market-structure / adversarial-meta / counter-evidence-without-cluster-home |
+| [PC_STRESS](#pc_stress-9) | 9 | 2026-05-06 (Bloomberg/Oaktree BDC software-loan markdown 3% / fund -4% / 26% AI-risk exposure — first institutional PC mark-down explicitly attributing AI; PC-AI cross-vector cluster intensifying) | Private credit / BDC / asset-manager stress — gates / unwinds / AUM pulls / regulatory inquiries |
 | [HYDROCARBON_INFRA](#hydrocarbon_infra-8) | 8 | 2026-04-26 (LA pipeline explosion) | Hydrocarbon-infra meta-cluster — refinery fires, pipeline strikes, water curtailment, non-ME incidents |
 | [FED_FRAMEWORK](#fed_framework-5) | 5 | 2026-05-06 (Bloomberg/IIF foreign-investors-diversifying-away-USTs — 3rd vector convergence today w/ Gromen + Arbor; `network_uncertainty_peak` auto-flag triggered) | Fed operating-framework regime shift / UST-foreign-holder composition / macro plumbing |
 | [AI_INFRA_CAPEX](#ai_infra_capex-3) | 3 | 2026-04-29 (META/MSFT capex advisory) | AI infrastructure capex sustainability / hyperscaler guidance / leveraged equity collateral on AI names |
 | [ASIA_CHINA](#asia_china-3) | 3 | 2026-04-28 (China FRED residential) | China / HK / EM-Asia contagion — trade dynamics / export controls / property collapse / peg fragility |
-| **TOTAL** | **121** | | |
+| **TOTAL** | **126** | | |
 
 ---
 
-## IRAN_HORMUZ (33)
+## IRAN_HORMUZ (34)
 
 *Iran war / Hormuz chokepoint / GEOPOL_ENERGY supply disruption / sanctions enforcement / state-response. Includes oil-supply observations downstream of Iran-driven disruption. Framing currently in flux — May 4 ceasefire-break per [`anchors/IRAN_WAR.md`](../AGENTS/WALTER/anchors/IRAN_WAR.md) supersedes the "post-Apr-8 ceasefire under blockade" framing on signals dispatched Apr 8 – May 3.*
 
@@ -91,7 +91,7 @@ Sorted by signal count descending. Cluster definitions in [`AGENTS/WALTER/design
 
 ---
 
-## POSITIONING_VALUATION (23)
+## POSITIONING_VALUATION (24)
 
 *Equity positioning extremes, valuation indicators, vol regime, breadth, fund flows, MMF-rolldown, short-cover, options skew, call/put extremity. Counter-evidence within cluster lives here too. Full description in [`AGENTS/WALTER/design/CLUSTER_TAXONOMY.md`](../AGENTS/WALTER/design/CLUSTER_TAXONOMY.md).*
 
@@ -123,7 +123,7 @@ Sorted by signal count descending. Cluster definitions in [`AGENTS/WALTER/design
 
 ---
 
-## BANK_COLLATERAL (14)
+## BANK_COLLATERAL (15)
 
 *Bank-collateral-compression — distressed CRE, residential housing weakening, office vacancy, multi-family stress, individual-property credit-bid markdowns, regulatory shocks affecting bank collateral pools (ROAD Act). Full description in [`AGENTS/WALTER/design/CLUSTER_TAXONOMY.md`](../AGENTS/WALTER/design/CLUSTER_TAXONOMY.md).*
 
@@ -171,7 +171,7 @@ Sorted by signal count descending. Cluster definitions in [`AGENTS/WALTER/design
 
 ---
 
-## PC_STRESS (8)
+## PC_STRESS (9)
 
 *Private-credit / BDC / asset-manager stress — fund redemption gates, founder/exec leverage unwinds, single-client AUM pulls, regulatory inquiries (Fed-PC), retail BDC Q1 redemption surges, mark-to-model fiction. Full description in [`AGENTS/WALTER/design/CLUSTER_TAXONOMY.md`](../AGENTS/WALTER/design/CLUSTER_TAXONOMY.md).*
 
@@ -205,7 +205,7 @@ Sorted by signal count descending. Cluster definitions in [`AGENTS/WALTER/design
 
 ---
 
-## MISC (8)
+## MISC (9)
 
 *Singletons + market-structure + adversarial-meta + counter-evidence-without-cluster-home. New cluster spawned only when ≥3 signals in a coherent new theme + Will sign-off. Full description in [`AGENTS/WALTER/design/CLUSTER_TAXONOMY.md`](../AGENTS/WALTER/design/CLUSTER_TAXONOMY.md).*
 

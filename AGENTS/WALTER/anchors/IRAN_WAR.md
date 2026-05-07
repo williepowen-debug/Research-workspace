@@ -1,6 +1,6 @@
 # IRAN-WAR ANCHOR
 
-**Verified-as-of:** 2026-05-04 (Mon, intraday)
+**Verified-as-of:** 2026-05-06 PM (Wed evening — refresh trigger fired on visible kinetic state-change continuation per SIG-W-20260506-012 IRGC drone strikes 5/5-5/6 on PDKI Girde Chal + Komala Sourdash camps N Iraq; **explicit confirmation: NO US-base kinetic since May 4 break remains TRUE**; UAE-exit-date corrected 5/3→5/1 per SIG-001 verify earlier today)
 **Re-verify trigger:** any visible kinetic state-change (territorial strike, ceasefire renegotiation, naval engagement, blockade lift), OR every 7 days minimum, OR before dispatching any Iran-cluster signal whose framing depends on war-state. Weekly minimum because state evolves fast.
 **Source basis:** primarily `AGENTS/BRENT/STATUS.md` (May 4 intraday refresh — BRENT is domain primary for OIL_ENERGY + GEOPOL_ENERGY); BRENT itself sources to multi-channel news + CENTCOM + UAE official + Yahoo Finance market tape. WALTER's role here is to maintain the network-wide anchor, not to re-verify BRENT's primary research.
 
@@ -36,6 +36,12 @@
 - VIX 18.19 (+7.06%) — cross-asset risk-off, not just energy.
 - Brent term-structure: M1–M3 ~$8–12 narrowing on Project Freedom + OPEC+ hike; M1–M12 ~$25+ deep backwardation persists.
 - Tape priced the launch as **escalation BEFORE the UAE strikes hit the wires** — confirms convoy = escalation, not reopening.
+
+### Kinetic continuation 5/5-5/6 (NEW per SIG-W-20260506-012)
+
+- **5/5-5/6: IRGC drone strikes hit Iranian-Kurdish-opposition camps in N Iraq** — PDKI Girde Chal (north of Erbil) + Komala Sourdash (near Sulaymaniyah). First IRGC kinetic on Iraqi soil since 5/4 ceasefire-break. **Targets are Iranian dissidents, NOT US assets.** No US base struck, no US casualties, no US retaliatory strikes. Multi-source primary: Reuters via MTV Lebanon 5/6 10:48 AM; FDD Long War Journal 5/6.
+- **Iran sustaining kinetic ops across multiple theaters post-break:** UAE (Fujairah + cruise missiles 5/4-5/5) + N Iraq (PDKI/Komala 5/5-5/6).
+- **Visegrad 24 "US military base in Erbil" framing 5/6 ~7:50 PM ET = FALSE** (KILL_log) — collapsed real Iran-on-dissidents event with historical Feb-Mar 2026 active-war Iran-on-US-base pattern. Treat Visegrad Iran-cluster claims PRIORITY-pending-primary, NEVER IMMEDIATE/FLASH on attestation alone.
 
 ### Background (war timeline)
 - **War started ~Feb 27 2026** (US-Israel + Iran kinetic exchange). Iran struck 100+ targets across 11 US bases (Kuwait/Qatar/Bahrain/Saudi Arabia/UAE/Jordan); damage "far worse than publicly acknowledged" per NBC News Apr 25.
