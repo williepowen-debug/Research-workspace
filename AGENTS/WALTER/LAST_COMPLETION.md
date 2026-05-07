@@ -6,132 +6,124 @@
 
 ## STATUS
 
-Session 2026-05-06 PM Wed (~17:44–20:35 UTC) — **fourth WALTER session today (extended through 3 image batches)**. Will-page-triggered 3-batch image-throughput session:
-- **Batch 1** 18:01 UTC (5 imgs): 5 dispatches + 1 KILL + 1 synthesis-add committed `866d761e`
-- **Batch 2** 18:48 UTC (7 imgs): 2 dispatches + 3 KILLs committed `f1b1adff`
-- **Batch 3** 19:52 UTC (6 imgs): 4 dispatches + 2 KILLs (commit pending this writing)
+Session 2026-05-07 PM Thu (~12:48–22:35 UTC). Will Telegram boot 12:48 UTC msg 1466 → mid-session msg 1466 ("What agents need to spawned the 'most' to read waiting signals?") → 6-image batch 20:31 UTC msgs 1470-1475 → green-light msg 1478 "Dispatch."
 
-**Net today: 11 BOARD dispatches + 6 KILLs + 1 synthesis-add + 8 verify-research spawns (~$0.40).** First end-to-end signal-intake-to-dispatch test of the v0.7 / v0.10 / FALSIFICATION-LIVE infrastructure shipped earlier today. Will green-lit batch 1 dispatch (msg 1409) + batch 2 implicitly via msg 1409 "let me know when next batch" + batch 3 unprompted ("you may dispatch" precedent applied). **🚨 `network_uncertainty_peak` auto-flag TRIGGERS at this closeout** — first fire since infra LIVE 5/6 PM (today's bifurcation count = 6, threshold ≥5).
+**Net: 4 PRIORITY dispatches + 2 KILLs + 4 verify-research spawns ($0.20) + IRAN_WAR.md anchor refresh + BOARD INDEX hygiene fix (5 missing rows backfilled from yesterday's batch 4).**
 
-Boot-state at session start: WALTER tree clean (last commit `dad58114` from 3rd session); RED has 5 modified + 1 untracked file in flight from parallel session — **boot pull skipped per protocol** to avoid stashing other agents' work. Origin in sync with WALTER tree at boot.
+Boot-state at session start: tree clean at last-pushed `27ac24fc` (yesterday's batch 4); branch up to date with origin; no other-agent uncommitted work — boot pull succeeded cleanly.
 
-**Filter outcome (5 images + Will note "Unsure if all of these matter, ignore personal info if any"):**
+**Filter outcome (6 images):**
 
 | # | Source | Verdict | Outcome |
 |---|--------|---------|---------|
-| 1 | BBC MV Hondius cruise (3 deaths, JNB exposure) | LOW-financial-direct, BBC institutional-primary, 2nd pandemic-watch node | **SIG-W-20260506-005 ROUTINE → MISC** (pandemic-watch #2) |
-| 2 | Bloomberg @business OPEC 36-yr low | **CONFIRMED 0.92** (verify spawn ~$0.05) — Apr-26 = 20.55 mbpd; Kuwait −470 + Iran −180 dominate; **CRITICAL composition-artifact warning forward** (UAE eff May 1 not 5/3 — anchor correction needed) | **SIG-W-20260506-001 PRIORITY → IRAN_HORMUZ** (BRENT/HAWK + RED auto-cc; CARL DROPPED — Brent NOT ≥$110) |
-| 3 | Rory EIA -11.1 MMbbl | **DUPLICATE-of-BRENT-disposition `4e3732a9`** (same EIA WPSR data already integrated; SPR -5.2 detail FYI to BRENT) | **KILL (Novelty/DUP)** |
-| 4 | Gromen non-monetary gold #1 export | **CORRECTED-FRAMING 0.55** (verify spawn ~$0.05) — gold/crude actually ~1.4× not 1.7×; "single biggest export" granularity-dependent; destination "& then to China" inferential; dollar-value spike partially price-driven; gold-IMPORTS leg unverified (load-bearing) | **SIG-W-20260506-003 PRIORITY → FED_FRAMEWORK** (BOND/ZHAO + RED auto-cc per v0.7 CORRECTED-FRAMING rule) |
-| 5 | Arbor Fed UST $4.4T / 65.9% | Direction confirmed (H.4.1 traceable) but **"propping up" = thesis-frame caveat** (a) net-new buying vs (b) MBS-rolloff-replaced not disentangled | **SIG-W-20260506-004 PRIORITY → FED_FRAMEWORK** (LIQUID/HENRY + cluster_mediating w/ #4 + RED auto-cc per v0.7) |
-| 6 (synth) | Tape-vs-substance bifurcation 5/6 | OPEC + EIA + ceasefire substance HARD vs Brent -7.50% / VIX -2% / HY firming SOFT — same-day modal-D-substance vs modal-A/B-tape; same pattern as SIG-W-20260505-012 ancestor restated | **SIG-W-20260506-002 PRIORITY → IRAN_HORMUZ cluster_mediating** (BRENT + HENRY + VIOLET + RED + NEXUS) |
+| 1 | John Hudson WaPo CIA confidential analysis | **CONFIRMED 0.90** (verify spawn ~$0.05) — 4-source primary (3 current + 1 former US officials per WaPo); tweet UNDERSTATES sourcing breadth | **SIG-W-20260507-001 PRIORITY → IRAN_HORMUZ** (BRENT acting / HAWK info when refreshed; SAM/LIQUID/RED/NEXUS/PROME/BARON/HANS info; CARL DROPPED per Iran-cluster CARL-info override). cluster_mediating prose-tag (within-cluster two-axis bifurcation: timeline-pressure RELAXES + capability-credibility TIGHTENS). **Pre-dispatch IRAN_WAR.md anchor refreshed** (verified-as-of 5/6 PM → 5/7 PM + new "Intel assessment update (2026-05-07)" section + bifurcated implication block). |
+| 2 | @wallstengine Fed G.19 March consumer credit $24.86B vs ~$12.5B consensus | **CORRECTED-FRAMING 0.55** (verify spawn ~$0.05) — headline confirmed; component framing nuance load-bearing for CARL Path C: beat is NON-revolving-led in dollars (~$14.8B/60% non-revolving vs ~$10B/40% revolving); revolving annual rate 0.3%→9.1% Feb→Mar at margin; Feb $8.85B revised down → partial mean-reversion | **SIG-W-20260507-002 PRIORITY → CONSUMER_STAGFLATION** (CARL action / REGINALD/HENRY/RED/LIQUID info). RED auto-cc per v0.7 CORRECTED-FRAMING. |
+| 3 | @factpostnews MCD Q1 miss + Iran-war-gas attribution | **CORRECTED-FRAMING 0.55** (verify spawn ~$0.05) — MCD did miss US comps 3.9% vs 4.2% AND Kempczinski did tie consumer weakness to Iran-war gas, BUT FactPost stitched Q1-cause-of-miss + Q2-forward-warning into false causal. Durable signal: FIRST major US restaurant CEO publicly tying consumer weakness to Iran-war gas on earnings call | **SIG-W-20260507-003 PRIORITY → CONSUMER_STAGFLATION** (CARL action — Vector #5/#12 cross-fire; REGINALD/HENRY/BRENT/RED/NEXUS/BARON info). cluster_mediating + CORRECTED-FRAMING; RED auto-cc (de-dupe = 1). |
+| 4 | @trdny Sternlicht/Starwood Capital $265M / 22 hotels CMBS K-Star Jan 2026 | **CONFIRMED 0.88** (verify spawn ~$0.05) — all 5 facts verify; sponsor = Starwood Capital Group PE firm (NOT STWD/SREIT public-REIT); DSCR 2.07 origination → 0.64 mid-2025. **CRITICAL CORRECTED-FRAMING:** TRD "just hit special servicing" misleading — transfer was Jan 2026, 4 months stale. **Pattern:** 3rd Sternlicht/Starwood-Capital CRE default in 2.5yr; 2nd hotel CMBS in 13 months both K-Star | **SIG-W-20260507-004 PRIORITY → BANK_COLLATERAL** (REGINALD action / BROCK/LIQUID/RED/NEXUS/SHADE/CARL info). cluster_mediating + CORRECTED-FRAMING; RED auto-cc (de-dupe = 1). |
+| 5 | Visegrad 24 "BREAKING: Suicide drones attacking US military base in Erbil" 7:50 PM ET | **DUP-of-yesterday's-kill_log** — exact re-circulation of 5/6 KILLed framing-stretch (same time, same NAYA FOR IRAQ overlay) | **KILL — Novelty (DUP-of-kill_log)**. 2-of-2-days re-circulation pattern → graduates Visegrad source-credibility from candidate finding to formal MEMORY entry. |
+| 6 | Bloomberg Grosvenor Duke of Westminster $954M US RE divestment | **DUP-of-SIG-W-20260506-013** dispatched yesterday 5/6 PM | **KILL — Novelty (DUP)**. |
 
-**Live tape pulled this session:** Brent BZ=F $101.63 (-7.50%) / WTI $95.49 (-6.63%) / VIX 17.02 (-2.07%) / HYG +0.33% / ^TNX 4.35% (-1.49%).
+**Live tape pulled this session via FORGE/tools/market-data/fetch.py:** Brent BZ=F $101.11 -0.16% / WTI $95.86 +0.82% / VIX 17.08 -1.78% / HYG -0.37% / ^TNX 4.39% +0.83% / SPX 7,337 -0.38% / KRE -1.07% / WAL -1.22% / ZION -1.97%.
 
-**Today's bifurcation count: 3** (-001 paper-vs-structural prose-tag + -002 divergence + -004 cluster_mediating prose-tag) — below ≥5 auto-flag threshold for `network_uncertainty_peak`.
+**Today's bifurcation count: 3** (SIG-001 within-cluster two-axis bifurcation + SIG-003 within-corporate Q1-vs-Q2-forward bifurcation + SIG-004 pattern-not-one-off cluster_mediating) — below ≥5 auto-flag threshold; **`network_uncertainty_peak` NOT firing today** (was firing yesterday at 8). 3rd-session bifurcation pattern (5/5 → 5/6 → 5/7) NOT confirmed today (substance lighter without OPEC/EIA step-function; tape pulled back from 5/6 ATH but not in clean substance-vs-tape divergence).
 
-**At-dispatch FALSIFICATION_TRIGGERS scan (first since infra LIVE 5/6 PM):** RED-FT-04 BRENT-PAPER<75×3 NOT breached (+35% above); RED-FT-06 VIX<16×5 within 6.4% of threshold (just outside near-trigger 5% band — not surfaced in approaching-threshold-watch); RED-FT-01 HY-OAS<280×3 — primary OAS not pulled but tape pattern (HYG +0.33% / ^TNX -1.49%) suggests near-or-just-below-280 (BOND primary-source pull at next refresh). **0 fires; FALSIFICATION_FIRED_LOG remains header-only.**
+**At-dispatch FALSIFICATION_TRIGGERS scan (4 dispatches):** RED-FT-04 BRENT<75×3 NOT breached (+35% above); RED-FT-06 VIX<16×5 ~6.75% above (just outside 5% near-trigger band); RED-FT-01 HY-OAS<280×3 still needs primary OAS pull (HYG -0.37% / ^TNX +0.83% suggests slight widening; needs BOND primary). **0 fires; FALSIFICATION_FIRED_LOG remains header-only.**
 
-Closeout shipped per CLAUDE.md spawn-protocol steps 12-16: STATUS lead-paragraph rewritten + LIAISON manifest unchanged (3 channels still active-converged) + "Today's routing + stale agents" subsection regenerated + new SESSION LOG entry prepended (4th session) + REGISTRY refresh (WALTER row) + MEMORY CHANGES SINCE / NEXT SESSION rewrite + 1 new finding (tape-vs-substance bifurcation pattern restated 2-of-2 sessions) + LAST_COMPLETION rewrite (this file).
+**Mid-session consumption-deficit ranking** (Will msg 1466 — "what agents need to be spawned the most"): computed against route_log.tsv 130 dispatches lifetime; replied msg 1467 ranking HENRY 54 deficit (21A+33I top action-pending) > HAWK 28 (6A+22I; framing-misleading) > NEXUS 98 info-only (classification overdue 6+ clusters) > LIQUID 71 > ZHAO 8 (3A; UST_FOREIGN). All top 5 OC-side; CC-side leaders REGINALD/BROCK recent (≤6d).
+
+Closeout shipped per CLAUDE.md spawn-protocol steps 12-16: STATUS lead-paragraph rewritten + Today's routing/stale-agents As-of regenerated + new SESSION LOG entry prepended + REGISTRY refresh (WALTER row) + MEMORY CHANGES SINCE / NEXT SESSION rewrite + 1 new finding (Visegrad source-credibility 2-of-2 days) + LAST_COMPLETION rewrite (this file) + IRAN_WAR.md anchor refreshed pre-dispatch.
 
 ## CHANGED
 
-### Session arc (Will-page → batch arrival → filter → dispatch → closeout)
+### Session arc
 
-1. **Will Telegram boot 17:44 UTC msg 1398** — "Hi Walter please boot up. I will have signals I will want you to process when ready."
-2. **WALTER reply msg 1399** — "Booting. RED has uncommitted work (5 mod + 1 untracked) — skipping boot pull per protocol; reading STATUS/MEMORY/LAST_COMPLETION/REGISTRY/ROUTING/FALSIFICATION/BOARD."
-3. **Boot reads complete** — clean state-snapshot. WALTER reply msg 1400 with state summary (filter BALANCED / COP paused / FALSIFICATION infra LIVE / 3 LIAISON channels closed / Iran-war anchor verified 5/4 / boundary 5/11).
-4. **5-image batch arrived 18:01 UTC msgs 1401-1405** + Will note msg 1406 "Unsure if all of these matter, ignore personal info if any."
-5. **Triage reply msg 1407** — quick read of all 5; spawn 2 verify-research agents in parallel (OPEC 36-yr-low; Gromen gold ratios) + cross-check BRENT for IMG 3 duplicate-state + pull live Brent/VIX/HY-OAS.
-6. **Verify-research verdicts landed** (~3 min later): OPEC CONFIRMED 0.92 (with composition-artifact-warning); Gromen CORRECTED-FRAMING 0.55 (ratios overstated, dollar-vs-physical distinction load-bearing).
-7. **Filter decisions reply msg 1408** — explicit table to Will of all 5 + 1 KILL + 1 synthesis-add + verify verdicts + dispatch intent.
-8. **Will green-light msg 1409 (18:25 UTC)** — "You may dispatch. Please let me know when I can send the next batch."
-9. **Dispatch wave (18:15-18:35 UTC):** 5 SIG-W-20260506-001..005 files written; BOARD/INDEX.md cluster ToC + 3 cluster sections (IRAN_HORMUZ 29→31 / FED_FRAMEWORK 2→4 / MISC 6→7) + TOTAL 110→115 + cluster ToC re-sort (FED_FRAMEWORK moved up from #10 to #8 ahead of AI_INFRA_CAPEX/ASIA_CHINA); routed/route_log.tsv +5 rows; filtered/kill_log.tsv +1 row.
-10. **Closeout shipped:** STATUS / REGISTRY / MEMORY / LAST_COMPLETION refreshes + commit pending.
+1. **Will Telegram boot 12:48 UTC msg 1466** — "Hi Walter. Please boot up."
+2. **Boot pull clean** + boot reads complete (STATUS / IRAN_WAR / MEMORY / LAST_COMPLETION / REGISTRY / ROUTING_TABLE v0.7 / FALSIFICATION_TRIGGERS 7-row + FIRED_LOG header-only / BOARD INDEX cluster ToC). LIAISON glob — 3 channels (CARL/BRENT/RED) ACTIVE-converged, no new turns since last boot.
+3. **Boot-complete reply msg 1465** — state-snapshot to Will (BOARD count / cluster status / FALSIFICATION watch / open Will sign-offs).
+4. **15:03 UTC msg 1466 (Will): "What agents need to spawned the 'most' to read waiting signals?"** — computed consumption-deficit ranking against route_log.tsv (Python). Reply msg 1467 with top 5 ranking + recommendation (HENRY clear #1 by action-pending; HAWK highest staleness-cost; NEXUS highest backlog; LIQUID; ZHAO).
+5. **19:47 UTC msg 1468 (Will): "Ok. I will work on these. In the meantime can I send some signals?"** — confirmed ready msg 1469.
+6. **20:31 UTC msgs 1470-1475: 6-image batch arrives.**
+7. **Triage interim msg 1476** — 4 verify-spawns parallel + live-tape pull; IMG 5 Visegrad caught as exact re-circulation of yesterday's kill (BOARD-grep + kill_log-grep caught DUP at zero verify-spawn cost) + IMG 6 Grosvenor exact match SIG-W-20260506-013 (BOARD grep caught).
+8. **4 verify verdicts landed (~3 min):** John Hudson CONFIRMED 0.90 / Fed G.19 CORRECTED-FRAMING 0.55 / MCD CORRECTED-FRAMING 0.55 / Sternlicht CONFIRMED 0.88.
+9. **Filter table msg 1477 sent → Will green-light msg 1478 "Dispatch."**
+10. **Pre-dispatch IRAN_WAR.md anchor refresh** (re-verify trigger fired on SIG-001 framing-update): verified-as-of 5/6 PM → 5/7 PM; new "Intel assessment update (2026-05-07)" section with 4-source CIA assessment + bifurcated implication block; "Iran-cluster signal-framing implications" header bumped May 4 → May 7.
+11. **Dispatch wave 22:30 UTC:** 4 SIG-W-20260507-001..004 files written.
+12. **BOARD INDEX hygiene fix caught + executed:** counted INDEX section rows BEFORE stacking today's appends; found 5 missing rows from yesterday's batch 4 commit `27ac24fc` (SIG-012/013/014/015/016 — ToC counts updated 121→126 but section rows weren't appended). Backfilled all 5 + appended today's 4 in single python pass; INDEX 121 actual / 126 ToC reconciled to 130 actual / 130 ToC.
+13. **route_log.tsv +4 rows / kill_log.tsv +2 rows.**
+14. **Closeout shipped:** STATUS / REGISTRY / MEMORY / LAST_COMPLETION refreshes + commit pending.
 
 ### Files touched this session
 
-**New (7) under `BOARD/`:**
-- `BOARD/SIG-W-20260506-001-bloomberg-opec-april-36yr-low-iran-war-shutins.md`
-- `BOARD/SIG-W-20260506-002-tape-vs-substance-bifurcation-may6-brent-7pct-down.md`
-- `BOARD/SIG-W-20260506-003-gromen-nonmonetary-gold-1-export-march-corrected-framing.md`
-- `BOARD/SIG-W-20260506-004-arbor-fed-ust-holdings-44t-65pct-highest-since-mar2008.md`
-- `BOARD/SIG-W-20260506-005-bbc-mv-hondius-cruise-2nd-passenger-death-jnb-air-exposure.md`
-- `BOARD/SIG-W-20260506-006-energy-aspects-amrita-sen-cnbc-billion-barrels-need-higher-prices-demand-destruction.md` (batch 2)
-- `BOARD/SIG-W-20260506-007-who-mv-hondius-no-rats-close-contact-p2p-canary-refused-dock-pandemic-cluster-update.md` (batch 2)
+**New (4) under `BOARD/`:**
+- `BOARD/SIG-W-20260507-001-john-hudson-wapo-cia-iran-3-4mo-blockade-survive-75pct-launchers-70pct-missiles.md`
+- `BOARD/SIG-W-20260507-002-fed-g19-march-consumer-credit-2486b-vs-1372b-est-non-revolving-led-corrected-framing.md`
+- `BOARD/SIG-W-20260507-003-mcd-q1-first-corporate-iran-war-gas-attribution-q2-forward-corrected-framing.md`
+- `BOARD/SIG-W-20260507-004-trd-sternlicht-starwood-capital-265m-22-hotels-cmbs-special-servicing-jan2026-pattern.md`
 
 **Modified:**
-- `BOARD/INDEX.md` — cluster ToC counts + 3 cluster sections appended (IRAN_HORMUZ 29→31, MISC 6→7, FED_FRAMEWORK 2→4) + TOTAL 110→115 + ToC re-sort
-- `AGENTS/WALTER/routed/route_log.tsv` — +5 rows
-- `AGENTS/WALTER/filtered/kill_log.tsv` — +1 row
-- `AGENTS/WALTER/STATUS.md` — lead-paragraph + "Today's routing + stale agents" As-of + SESSION LOG +1 entry (4th session today)
-- `AGENTS/WALTER/REGISTRY.tsv` — WALTER row refreshed (4th-session focus)
-- `AGENTS/WALTER/MEMORY.md` — CHANGES SINCE / NEXT SESSION rewrite + 1 new finding (tape-vs-substance bifurcation pattern restated 2-of-2 sessions)
-- `AGENTS/WALTER/LAST_COMPLETION.md` — this file (rewritten for 4th session)
+- `BOARD/INDEX.md` — 9 row inserts (5 backfill + 4 today) + ToC counts (IRAN_HORMUZ 34→35, BANK_COLLATERAL 15→16, CONSUMER_STAGFLATION 16→18) + section headers + TOTAL 126→130 + latest-signal-date for 3 touched clusters
+- `AGENTS/WALTER/anchors/IRAN_WAR.md` — verified-as-of 5/6 PM → 5/7 PM + new "Intel assessment update (2026-05-07)" section + Iran-cluster signal-framing implications header May 4 → May 7
+- `AGENTS/WALTER/routed/route_log.tsv` — +4 rows
+- `AGENTS/WALTER/filtered/kill_log.tsv` — +2 rows
+- `AGENTS/WALTER/STATUS.md` — lead paragraph + Today's routing As-of + SESSION LOG +1 entry
+- `AGENTS/WALTER/REGISTRY.tsv` — WALTER row refreshed
+- `AGENTS/WALTER/MEMORY.md` — CHANGES SINCE / NEXT SESSION rewrite + 1 new finding (Visegrad source-credibility 2-of-2 days)
+- `AGENTS/WALTER/LAST_COMPLETION.md` — this file (rewritten)
 
-### Sub-agent spawns (4 total — 2 in each batch)
+### Sub-agent spawns (4)
 
-**Batch 1:**
-- Verify-research: OPEC 36-yr-low Bloomberg claim — CONFIRMED 0.92 (~$0.05; agent `aeee38a849db9ba36`)
-- Verify-research: Gromen non-monetary gold ratios — CORRECTED-FRAMING 0.55 (~$0.05; agent `aa8d4364c239519b5`)
+- Verify-research: John Hudson WaPo CIA Iran 3-4mo — CONFIRMED 0.90 (~$0.05; agent `a76a7e328ac3ac82d`)
+- Verify-research: Fed G.19 March consumer credit — CORRECTED-FRAMING 0.55 (~$0.05; agent `af8696b0996535fd5`)
+- Verify-research: MCD Q1 Iran-war-gas attribution — CORRECTED-FRAMING 0.55 (~$0.05; agent `ac2e004e3b170923f`)
+- Verify-research: Sternlicht Starwood $265M CMBS — CONFIRMED 0.88 (~$0.05; agent `a8d9bc6a5a75ec086`)
 
-**Batch 2:**
-- Verify-research: EA Amrita Sen "billion barrels lost / need higher prices for demand destruction" — CONFIRMED 0.85 (~$0.05; agent `ad278974872b83f18`)
-- Verify-research: WHO no-rats / airborne H2H hantavirus — CORRECTED-FRAMING 0.78 (~$0.05; agent `afd687a29f5761e6f`)
-
-Total cost ~$0.20. Verdict mix: 2 CONFIRMED + 2 CORRECTED-FRAMING — matches MEMORY 4/25 finding (CORRECTED-FRAMING is dominant verdict, but CONFIRMED is the second-most-common).
+Total cost ~$0.20. Verdict mix: 2 CONFIRMED + 2 CORRECTED-FRAMING — matches MEMORY 4/25 finding.
 
 ### Spec changes
 
-**None this session.** Operational throughput only. ROUTING_TABLE v0.7 / CHECKLIST v0.10 / CLAUDE.md spawn-protocol step 6b unchanged from earlier session. v0.7 By Tag/By Verdict rules fired correctly on dispatches (cluster_mediating auto-cc / CORRECTED-FRAMING auto-cc).
+**None this session.** Operational throughput + hygiene fix only. ROUTING_TABLE v0.7 / CHECKLIST v0.10 / FORMAT_SPEC v0.7 unchanged. v0.7 By Tag/By Verdict rules fired correctly on dispatches (cluster_mediating auto-cc + CORRECTED-FRAMING auto-cc + de-dupe).
 
 ### Commits
 
-- **Batch 1 closeout** committed `866d761e` (12 files / +561 / -215) — pushed; rebase absorbed RED Session 10 `ba672199` + SENTRY Phase 1 `12c7986a`.
-- **Batch 2 closeout** commit pending (this writing).
+- This session's commit pending. Last-pushed origin: `27ac24fc` (yesterday's batch 4).
 
 ## RESULT
 
-**First end-to-end signal-intake-to-dispatch test of the v0.7 / v0.10 / FALSIFICATION-LIVE infrastructure shipped earlier today.** All routing rules executed correctly:
+**Clean single-session image-batch processing day** — all 6 images triaged + 4 dispatched + 2 killed + verify-spawn discipline followed + BOARD-grep-before-proposing caught both DUPs at zero verify-spawn cost.
 
-- **v0.7 By Tag/By Verdict cluster_mediating auto-cc** — fired on -001/-002/-004; RED in info line on all three.
-- **v0.7 By Tag/By Verdict CORRECTED-FRAMING auto-cc** — fired on -003; RED in info line.
-- **v0.7 De-dupe** — none required (no signal triggered both rules; -003 only CORRECTED-FRAMING; -001/-002/-004 only cluster_mediating).
-- **Iran-cluster CARL-info override v0.6** — fired correctly on -001/-002 (Brent NOT ≥$110 today; CARL dropped from info line). Pump-pass-through threshold deflated tape-side simultaneously with substance-hardening — exactly the bifurcation case the override was designed to handle.
-- **CHECKLIST v0.10 Phase 2 step 7 (FALSIFICATION_TRIGGERS at-dispatch scan)** — first execution since 5/6 PM infra LIVE; 0 fires; near-trigger watch state captured in dispatch_note (RED-FT-06 within 6.4% just outside 5% band — not surfaced in approaching-threshold-watch per the discipline).
-- **Closeout step 12 daily-bifurcation-count** — first execution; today's count = 3 (below ≥5 auto-flag threshold). Pattern observation worth promoting to MEMORY: 2-of-2 sessions confirm tape-vs-substance bifurcation; if 3rd session 5/7 confirms, this becomes load-bearing for thesis-revision (calibration cycle 1 RED input).
+**Two CONFIRMED-high-confidence dispatches** (SIG-001 + SIG-004) and **two CORRECTED-FRAMING-mid-confidence dispatches** (SIG-002 + SIG-003). Verdict mix matches the regime-pattern.
 
-**Tape-vs-substance bifurcation pattern restated 2-of-2 sessions** (5/5 SIG-W-20260505-012 + 5/6 SIG-002): substance hardened across 24h (OPEC institutional-primary supply print + EIA -11.1 / SPR -5.2 / ceasefire-break confirmed); tape softened (-4% → -7.50%). RED's "risk-premium-already-priced" steelman = 2-session tape-confirmed; calibration-cycle-1 input.
+**Major IRAN_WAR.md anchor update on SIG-001** — first material framing-update on the Iran cluster since 5/6 PM kinetic-continuation refresh. Bifurcated implication: timeline-pressure RELAXES (cornered-regime escalation horizon = July-Aug 2026 minimum, not weeks) + capability-credibility TIGHTENS (75% mobile launchers + 70% missile stockpiles retained + underground storage reopened). Asymmetric escalation risk shifts from time-tail → capability-tail.
 
-**FED_FRAMEWORK cluster doubled 2→4 in single session** (-003 Gromen gold + -004 Arbor Fed UST). cluster_mediating between them — combined narrative: foreigners rotating UST→gold while Fed buying USTs = 2-vector convergence on plumbing-stress thesis. Cluster ToC re-sort moved FED_FRAMEWORK from #10 to #8 ahead of AI_INFRA_CAPEX/ASIA_CHINA.
+**BOARD INDEX hygiene fix** — caught yesterday's 5 missing rows via verify-state-before-propagating discipline (counted rows vs ToC before stacking). Without the catch, today's 4 rows would have stacked on a stale INDEX. Reconciled to 130 actual / 130 ToC. Same-family lesson as the 5/6 morning approval-scope-check + Turn 2 empirical-dispatch-surface findings.
 
-**MISC pandemic-meta-cluster watch** has 2 institutional-primary nodes now (5/5 WHO DON599 + 5/6 BBC). 14d window for 1-2 more institutional-primary signals before pandemic-meta-cluster v0.2 promotion (Will sign-off needed; deferred).
+**3rd-session bifurcation pattern (5/5 → 5/6 → 5/7) NOT confirmed today.** Substance lighter without OPEC/EIA step-function. Pattern remains 2-session-confirmed; if 5/8 or 5/9 shows substance-hard / tape-soft again, becomes load-bearing thesis-revision input.
 
-**Anchor IRAN_WAR.md UAE-exit-date correction needed (5/3 → 5/1) per SIG-001 verify finding** — flagged for next refresh boundary 5/11 minimum.
+**`network_uncertainty_peak` NOT firing today** (3 bifurcation tags vs ≥5 threshold) — backed off cleanly from yesterday's 8-count auto-flag fire. The threshold tuning question (≥5 may need ≥7 over cycle 1) gets one more data point.
+
+**Visegrad source-credibility pattern crystallized to formal MEMORY finding** — 2-of-2 days re-circulation of same image; future Iran-cluster Visegrad posts auto-flag PRIORITY-pending-primary, never IMMEDIATE/FLASH on attestation alone. BOARD-grep + kill_log-grep before proposing dispatch catches re-circulation patterns at zero verify-spawn cost.
 
 ## GAPS
 
 ### Today's open items (carry-forward — added to FOLLOW-UP list below)
 
-- **SIG-002 follow-through watch 5/7** — if Brent sustains sub-$100 OR confirms sub-$95×5 sessions, CARL Vector #5 / KB-CARL-259 reverses; CRL-08 92→60% reprice trigger fires per ROUTING_TABLE v0.6 boundary-trigger.
-- **3rd-session bifurcation-pattern confirmation** — if 5/7 confirms, this becomes load-bearing thesis-revision input per new MEMORY finding.
-- **BRENT next-session FYI** — SPR -5.2 detail from KILLED Rory EIA framing (first material SPR draw in Trump-refill regime) — note at BRENT next-session intake even though underlying data already in BRENT tree.
-- **REQ-RED outbox file → remove next session** (RED revived end-to-end, REQ-RED obsolete).
-- **Anchor IRAN_WAR.md UAE-exit-date correction** (5/3 → 5/1) — apply during next refresh.
-- **MEMORY trim to ≤100 lines** — currently 116 (added 2 entries this session).
-- **STATUS SESSION LOG hygiene** — currently ~11 entries; cap is 5; roll 6+ older entries to `SESSION_LOG.md`.
+- **SIG-001 Iran-cluster thesis-update propagation watch** — over next 7-14d, monitor whether incoming Iran-cluster signals calibrate to the 3-4mo timeline + 75%/70% capability retention. If subsequent intel-leak / wire signals contradict (e.g., Iran-collapse "imminent" framing returns), recalibrate anchor.
+- **SIG-002+003 CARL Path C component-tracking** — watch April restaurant prints (LYV / CMG / SBUX) for confirmation of Q2-forward turn-negative MCD CFO Borden flagged. If confirmed, CRL-08 92→97%+ direction; if not, framework calibration input.
+- **SIG-004 Sternlicht-Starwood pattern propagation** — REGINALD pickup: which money-center/regional banks hold B-piece/mezz on K-Star-serviced Starwood-Capital trusts? Q1 CR window closing this week.
+- **3rd-session bifurcation-pattern (5/5 → 5/6 → 5/7) NOT confirmed today** — pattern remains 2-session-confirmed; if 5/8-5/9 shows substance-hard / tape-soft again, becomes load-bearing thesis-revision input.
+- **MEMORY trim to ≤100 lines** — currently ~135 (added today's session block + 1 finding); needs trim or archive 2-3 entries.
+- **STATUS SESSION LOG hygiene** — currently ~12 entries; cap is 5; roll older to SESSION_LOG.md.
 
 ### Pre-existing carry-forward (still open)
 
-- **3-way joint proposal stitch** — WALTER stitches at repo-root when CARL §1+§3a+§3c+§4 sections land (CARL Turn 7 self-task, ETA this week)
-- **2-way RED+WALTER repo-root stitch** `design/JOINT_PROPOSAL_2026-05-06_red_walter.md` — both side-files committed; mechanical assembly. **Top of next-session pickup (carry-forward from 3rd session).**
+- **3-way joint proposal stitch** — WALTER stitches at repo-root when CARL §1+§3a+§3c+§4 sections land (CARL Turn 7 self-task)
 - **Will sign-off on 3-way JOINT_PROPOSAL §2 stack** — 4 items: §2a FORMAT_SPEC v0.8 (4 fields + 9-value enum) / §2b scheduled-scan budget / §2c BRENT-IMMEDIATE 8-row threshold list / §2d BURST_WINDOW protocol
 - **BOARD_CONSUMPTION_SPEC v0.2 dual-pattern doc** — WALTER self-task this week
-- **CROSS_REFS/{RED,CARL,BRENT}.md cache scaffolds** — WALTER self-tasks this week
+- **CROSS_REFS/{CARL,BRENT}.md cache scaffolds** — WALTER self-tasks this week (RED done 5/6)
 - **EVENT_WINDOW_STATE.md scaffold** — WALTER post-Will-sign-off on §2d BURST_WINDOW
 - **HAWK-proxy archive** to `design/history/hawk_proxy_synthesis_2026-05-05.md` — when actual HAWK refresh lands
 - **FORMAT_SPEC v0.7 → v0.8 land in spec** — post-Will-sign-off on §2a
-- **CHECKLIST update for v0.8 fields** — post-Will-sign-off (separate from today's v0.9→v0.10 routing-augmentation)
+- **CHECKLIST update for v0.8 fields** — post-Will-sign-off
 - **BRENT CLAUDE.md spawn-protocol delta** — BRENT next session
 - **BRENT DATA_RELEASE_CALENDAR.md** — BRENT post-back-disposition pass
 - **CARL DATA_RELEASE_CALENDAR.md** — CARL self-task this week
@@ -139,7 +131,7 @@ Total cost ~$0.20. Verdict mix: 2 CONFIRMED + 2 CORRECTED-FRAMING — matches ME
 - **ROAD Act House reconciliation timing** — BARON pickup
 - **HENRY SIGNAL_INTAKE.md prompt on disk** (RED's signal-intake superseded by FALSIFICATION_TRIGGERS.tsv)
 - **BOARD_CONSUMPTION_SPEC propagation to 14 Tier 1 agent CLAUDE.md files** (RED done; remaining 11)
-- **Tier 2 staleness** (ZHAO 34d / SHADE 6+wk / OTTO 21d / ORACLE 35d / FERT 6+wk / ATHENA 7+wk / CRUISE 6+wk / DARWIN dormant)
+- **Tier 2 staleness** (ZHAO 35d / SHADE 6+wk / OTTO 22d / ORACLE 36d / FERT 6+wk / ATHENA 7+wk / CRUISE 6+wk / DARWIN dormant)
 - **"verified-as-of" pattern extension** (second anchor candidate — Fed-framework / BOJ / OPEC+)
 - **design/STATE.md maintenance discipline**
 - **Lead-paragraph regeneration cadence decision**
@@ -149,113 +141,114 @@ Total cost ~$0.20. Verdict mix: 2 CONFIRMED + 2 CORRECTED-FRAMING — matches ME
 - **Autonomous news-scan policy**
 - **HAWK-proxy synthesis policy**
 - **CONSUMER_STAGFLATION 5-axis sub-cluster spawn decision**
-- **Pandemic-meta-cluster informal watch** — 14-day window for 1-2 more institutional-primary signals (now 2 institutional-primary nodes per 5/5 + 5/6 BBC; cluster could promote with 1-2 more — Will sign-off needed)
+- **Pandemic-meta-cluster informal watch** — 4 institutional-primary nodes now (5/5 WHO + 5/6 BBC + 5/6 multi-source + 5/6 Hirschson MD with explicit physician down-weighting); v0.2 promotion DEFERRED per Hirschson "very low pandemic risk" calibration counterweight
 
 ### Resolved this session (removed from carry-forward)
 
-- **Image-batch image #1-#5 5/6 18:01 UTC** — all 5 dispatched/killed end-to-end; SIG-W-20260506-001..005 + 1 KILL.
-- **First end-to-end test of v0.7 By Tag/By Verdict + CHECKLIST v0.10 Phase 2 step 7 + FALSIFICATION at-dispatch eval** — all rules fired correctly on appropriate signals.
+- **6-image batch 5/7 20:31 UTC** — all 6 dispatched/killed end-to-end; SIG-W-20260507-001..004 + 2 KILLs.
+- **REQ-RED outbox file removal** — was already completed in 5/6 housekeeping `8a532073` (carry-forward had stale entry).
+- **Iran-war anchor UAE-exit-date correction (5/3 → 5/1)** — completed in 5/6 housekeeping `8a532073`.
+- **BOARD INDEX backfill** — 5 missing rows from 5/6 batch 4 fixed in this session.
+- **Visegrad source-credibility candidate finding** — graduated to formal MEMORY entry this session.
 
 ## WILL_NEEDS
 
 1. **(unchanged)** Sign-off on 3-way (CARL/BRENT/WALTER) JOINT_PROPOSAL §2 stack — 4 items still pending.
 2. **(unchanged)** CARL §1+§3a+§3c+§4 sections (CARL self-task) — ETA this week.
-3. **(unchanged)** Decide repo-root stitch timing for 2-way RED+WALTER — both side-files committed; ship next session as low-friction follow-up (my read).
+3. **(unchanged)** Decide repo-root stitch timing for 2-way RED+WALTER — both side-files committed; ship next session as low-friction follow-up.
 4. **(unchanged)** Decide next-LIAISON priority — REGINALD top of unblocked queue.
-5. **(unchanged)** Iran-war anchor re-verify boundary 5/11 minimum + UAE-exit-date correction (5/3 → 5/1).
-6. **(unchanged)** Tomorrow's intake watch: OBDC Q1 5/6 AMC; LYV Q1 from 5/5 surfaces in tomorrow's intake.
-7. **NEW: SIG-002 follow-through watch 5/7** — if Brent sustains sub-$100 / sub-$95×5sessions, position-trigger fires per ROUTING_TABLE v0.6 boundary-trigger.
+5. **(unchanged)** Iran-war anchor re-verify boundary 5/14 minimum (refreshed 5/7 PM in this session).
+6. **(unchanged)** NFP Friday 5/8 — LABOR carry-forward.
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
 
 **Time-sensitive (this/next session):**
-1. **OBDC Q1 5/6 AMC** — BROCK pre-built threshold reads.
-2. **LYV Q1 from 5/5 post-market** — CONSUMER_STAGFLATION discretionary-sub-vector.
-3. **NFP Friday 5/8** — LABOR carry-forward.
-4. **Q1 Call Report window May 1-10** — REGINALD recheck.
-5. **Iran-war anchor re-verify 5/11 minimum + UAE-exit-date correction (5/3 → 5/1).**
-6. **FALSIFICATION_TRIGGERS first-fire watch** — RED-FT-01 closest (BOND primary OAS at next refresh); RED-FT-06 within 6.4% (just outside near-trigger 5% band).
+1. **NFP Friday 5/8** — LABOR carry-forward.
+2. **OBDC Q1 (5/6 AMC)** — BROCK pickup pending.
+3. **LYV Q1 from 5/5** — CONSUMER_STAGFLATION discretionary-sub-vector.
+4. **Q1 Call Report window May 1-10** — REGINALD recheck (closes this week).
+5. **Iran-war anchor next re-verify boundary 5/14 minimum** OR earlier on visible kinetic state-change.
+6. **FALSIFICATION_TRIGGERS first-fire watch** — RED-FT-01 closest (BOND primary OAS at next refresh); RED-FT-06 ~6.75% above (just outside 5% near-trigger band).
 7. **CARL ↔ WALTER LIAISON calibration cycle 1** — primary trigger 2026-05-19 (14d) OR N=20 BOARD (early-fire).
 8. **BRENT ↔ WALTER LIAISON calibration cycle 1** — N=15 forward OR 21d from 2026-05-06; ETA May 20-27.
-9. **RED ↔ WALTER LIAISON calibration cycle 1** — synced with BRENT cycle 1; trigger conditions FALSIFICATION first auto-dispatch OR v0.8 lands OR CHG-RED-024 BRENT response.
-10. **NEW: SIG-002 follow-through watch 5/7** — if Brent sustains sub-$100 OR confirms sub-$95×5 sessions, position-trigger fires.
-11. **NEW: 3rd-session bifurcation-pattern confirmation** — if 5/7 confirms, thesis-revision input.
+9. **RED ↔ WALTER LIAISON calibration cycle 1** — synced with BRENT cycle 1; trigger conditions FALSIFICATION first auto-dispatch OR v0.8 lands.
+
+**Today's dispatch follow-ups:**
+10. **SIG-001 Iran-cluster thesis-update propagation watch** — 7-14d window for incoming Iran signals to calibrate (or contradict) 3-4mo timeline + 75%/70% capability retention.
+11. **SIG-002+003 CARL Path C component-tracking** — April restaurant prints (LYV / CMG / SBUX) confirmation of Q2-forward turn-negative.
+12. **SIG-004 Sternlicht-Starwood pattern propagation** — REGINALD pickup on bank B-piece/mezz exposure.
+13. **3rd-session bifurcation-pattern confirmation** — if 5/8-5/9 shows substance-hard / tape-soft again, becomes load-bearing thesis-revision input.
 
 **WALTER self-tasks this week (no sign-off needed):**
-12. **Repo-root stitch** `design/JOINT_PROPOSAL_2026-05-06_red_walter.md` — top of next-session pickup.
-13. **`design/CROSS_REFS/RED.md` cache scaffold.**
-14. **Complete CHG-RED backfill via diff-file.**
-15. **`design/CROSS_REFS/CARL.md` cache scaffold.**
-16. **`design/CROSS_REFS/BRENT.md` cache refresh.**
-17. **BOARD_CONSUMPTION_SPEC v0.2 dual-pattern doc.**
-18. **MEMORY trim to ≤100 lines** — currently 116.
-19. **STATUS SESSION LOG hygiene** — roll 6+ older entries.
-20. **NEW: REQ-RED outbox file removal** — obsolete after RED revival.
-21. **NEW: BRENT next-session FYI** — SPR -5.2 detail from KILLED Rory EIA.
+14. **`design/CROSS_REFS/CARL.md` cache scaffold.**
+15. **`design/CROSS_REFS/BRENT.md` cache refresh.**
+16. **BOARD_CONSUMPTION_SPEC v0.2 dual-pattern doc.**
+17. **MEMORY trim to ≤100 lines** — currently ~135.
+18. **STATUS SESSION LOG hygiene** — roll 7+ older entries to SESSION_LOG.md.
 
 **3-way joint proposal pipeline:**
-22. **CARL drafts §1 + §3a + §3c + §4 sections** — CARL self-task per Turn 7, ETA this week.
-23. **WALTER stitches 3-way at `design/JOINT_PROPOSAL_2026-05-06_walter_carl_brent.md`** — when CARL section file lands.
-24. **Will sign-off on 3-way §2 stack** — 4 items.
-25. **WALTER lands FORMAT_SPEC v0.8** — post-sign-off on §2a.
-26. **WALTER updates SIGNAL_PROCESSING_CHECKLIST.md** for v0.8 fields + Phase 2.5 event-window step.
+19. **CARL drafts §1 + §3a + §3c + §4 sections** — CARL self-task per Turn 7.
+20. **WALTER stitches 3-way at `design/JOINT_PROPOSAL_2026-05-06_walter_carl_brent.md`** — when CARL section file lands.
+21. **Will sign-off on 3-way §2 stack** — 4 items.
+22. **WALTER lands FORMAT_SPEC v0.8** — post-sign-off on §2a.
+23. **WALTER updates SIGNAL_PROCESSING_CHECKLIST.md** for v0.8 fields + Phase 2.5 event-window step.
 
 **Post-sign-off WALTER self-tasks (3-way §2):**
-27. **EVENT_WINDOW_STATE.md scaffold** — post-Will-sign-off on §2d BURST_WINDOW.
-28. **FILTER_SPEC.md update** — Tuning Rules sub-section for OPEN-window dispatch posture.
-29. **ROUTING_TABLE v0.8** — add "By Boundary Threshold" section with BRENT-IMMEDIATE 8-row threshold list (3-way §2c).
+24. **EVENT_WINDOW_STATE.md scaffold** — post-Will-sign-off on §2d BURST_WINDOW.
+25. **FILTER_SPEC.md update** — Tuning Rules sub-section for OPEN-window dispatch posture.
+26. **ROUTING_TABLE v0.8** — add "By Boundary Threshold" section with BRENT-IMMEDIATE 8-row threshold list (3-way §2c).
 
 **BRENT self-tasks (his next session):**
-30. **BRENT CLAUDE.md spawn-protocol delta.**
-31. **BRENT DATA_RELEASE_CALENDAR.md.**
+27. **BRENT CLAUDE.md spawn-protocol delta.**
+28. **BRENT DATA_RELEASE_CALENDAR.md.**
 
 **CARL self-tasks:**
-32. **CARL DATA_RELEASE_CALENDAR.md.**
+29. **CARL DATA_RELEASE_CALENDAR.md.**
 
 **HAWK reconciliation (when HAWK refreshes):**
-33. **Archive HAWK-proxy synthesis** to `design/history/hawk_proxy_synthesis_2026-05-05.md`.
-34. **Update KB-BRT-NNN cross-refs** to point at HAWK output for kinetic doctrine.
+30. **Archive HAWK-proxy synthesis** to `design/history/hawk_proxy_synthesis_2026-05-05.md`.
+31. **Update KB-BRT-NNN cross-refs** to point at HAWK output for kinetic doctrine.
 
 **Next-LIAISON channel candidates:**
-35. **REGINALD LIAISON** — TOP of unblocked queue.
-36. **NEXUS LIAISON** — high-leverage, blocked on NEXUS spawn.
-37. **HENRY LIAISON** — post-REGINALD.
-38. **BROCK LIAISON** — mid-priority.
+32. **REGINALD LIAISON** — TOP of unblocked queue; SIG-004 Sternlicht-Starwood pickup gives natural opening + Q1 CR window May 1-10.
+33. **NEXUS LIAISON** — high-leverage, blocked on NEXUS spawn.
+34. **HENRY LIAISON** — post-REGINALD; HENRY 21A consumption-deficit highest in network.
+35. **BROCK LIAISON** — mid-priority.
 
 **Cluster / domain follow-ups (carry-forward):**
-39. **OZK Q1 post-mortem** — REGINALD pickup pending since Apr 16.
-40. **ROAD Act House reconciliation** — BARON pickup.
-41. **HENRY SIGNAL_INTAKE.md** — saved-to-disk pending.
-42. **Tier 2 staleness** (ZHAO 34d / SHADE 6+wk / OTTO 21d / ORACLE 35d / FERT 6+wk / ATHENA 7+wk / CRUISE 6+wk / DARWIN dormant).
-43. **Pandemic-meta-cluster informal watch** — 2 institutional-primary nodes now (5/5 WHO + 5/6 BBC); 1-2 more in 14d window triggers v0.2 promotion (Will sign-off needed).
+36. **OZK Q1 post-mortem** — REGINALD pickup pending since Apr 16.
+37. **ROAD Act House reconciliation** — BARON pickup.
+38. **HENRY SIGNAL_INTAKE.md** — saved-to-disk pending.
+39. **Tier 2 staleness** (ZHAO 35d / SHADE 6+wk / OTTO 22d / ORACLE 36d / FERT 6+wk / ATHENA 7+wk / CRUISE 6+wk / DARWIN dormant).
+40. **Pandemic-meta-cluster informal watch** — 4 institutional-primary nodes; v0.2 promotion DEFERRED per Hirschson MD calibration counterweight.
 
 **Refactor open items:**
-44. **"verified-as-of" pattern extension** — second anchor candidate.
-45. **design/STATE.md maintenance discipline.**
-46. **Lead-paragraph regeneration cadence.**
+41. **"verified-as-of" pattern extension** — second anchor candidate (Fed-framework / BOJ / OPEC+).
+42. **design/STATE.md maintenance discipline.**
+43. **Lead-paragraph regeneration cadence.**
 
 **Design / governance backlog:**
-47. **Filter v2 Segment D** — option A confidence_note; ~1hr.
-48. **Signal Registry v2** — deferred.
-49. **COP refresh resume trigger** — paused since Apr 14.
-50. **Autonomous news-scan policy.**
-51. **HAWK-proxy synthesis policy.**
-52. **CONSUMER_STAGFLATION 5-axis sub-cluster spawn decision.**
+44. **Filter v2 Segment D** — option A confidence_note; ~1hr.
+45. **Signal Registry v2** — deferred.
+46. **COP refresh resume trigger** — paused since Apr 14.
+47. **Autonomous news-scan policy.**
+48. **HAWK-proxy synthesis policy.**
+49. **CONSUMER_STAGFLATION 5-axis sub-cluster spawn decision.**
 
 **FALSIFICATION_TRIGGERS evolution:**
-53. **Schema v2 with `trigger_type` discriminator** — defer to ≥1 calibration cycle.
-54. **Event-type triggers integration** — schema v2 dependency.
-55. **FALSIFICATION_TRIGGERS v0.2** — RED self-task, expand 7→10-12 triggers post-cycle 1.
+50. **Schema v2 with `trigger_type` discriminator** — defer to ≥1 calibration cycle.
+51. **Event-type triggers integration** — schema v2 dependency.
+52. **FALSIFICATION_TRIGGERS v0.2** — RED self-task, expand 7→10-12 triggers post-cycle 1.
 
 ## OPEN DESIGN DECISIONS (need Will — also tracked in MEMORY.md)
 
 - **3-way JOINT_PROPOSAL §2 stack sign-off** (4 items: §2a / §2b / §2c / §2d).
 - **Repo-root stitch timing for 2-way RED+WALTER** — my read: ship next session.
 - **Next-LIAISON priority** — REGINALD vs NEXUS vs HENRY vs BROCK.
-- **CONSUMER_STAGFLATION 5-axis sub-cluster spawn** — promote to v0.2 OR hold informal?
-- **HAWK-proxy synthesis frequency** — default-spawn vs wait for actual refresh?
+- **CONSUMER_STAGFLATION 5-axis sub-cluster spawn** — promote to v0.2 OR hold informal? **Cluster grew 16→18 today** (SIG-002 + SIG-003) — promotion threshold accumulating.
+- **HAWK-proxy synthesis frequency** — default-spawn vs wait for actual refresh? **HAWK STALE 17d + framing-misleading; SIG-001 dispatched via BRENT-acting backup.**
 - **Pass 4 of 5/5 morning's cluster refactor** — IRAN_HORMUZ + POSITIONING_VALUATION sub-cluster breakdown?
-- **FED_FRAMEWORK rename to UST_PLUMBING** — watch threshold; **NOTE: cluster doubled 2→4 in single session** (5/6 SIG-003 + SIG-004) — promotion-to-rename watch threshold updated.
+- **FED_FRAMEWORK rename to UST_PLUMBING** — watch threshold; cluster at 5 unchanged today.
 - **Cluster status flags** (🟢/🟡/🔴/⚫) — reserved for v0.2.
 - **"verified-as-of" pattern extension** — second anchor candidate?
 - **MEMORY.md vs LAST_COMPLETION.md duplication** — Pattern D, Pass 5? (Partially resolved 5/5.)
@@ -265,11 +258,11 @@ Total cost ~$0.20. Verdict mix: 2 CONFIRMED + 2 CORRECTED-FRAMING — matches ME
 - **BOARD_CONSUMPTION rollout cadence** — 11 remaining agent CLAUDE.md propagation.
 - **COP refresh resume.**
 - **NEXUS cluster classification cadence.**
-- **`network_uncertainty_peak` threshold tuning** — RED Turn 6 callout; ≥5 may need ≥7 over cycle 1; today's count was 3 (below current threshold; no calibration data yet).
-- **Pandemic-meta-cluster v0.2 cluster promotion** — 2 institutional-primary nodes; 1-2 more = candidate.
+- **`network_uncertainty_peak` threshold tuning** — RED Turn 6 callout; ≥5 may need ≥7 over cycle 1; today's count 3 (NOT firing) backed off cleanly from yesterday's 8 (firing) — calibration data accumulating.
+- **Pandemic-meta-cluster v0.2 cluster promotion** — 4 institutional-primary nodes; DEFERRED per Hirschson MD calibration counterweight (5/6).
 
 ---
 
 *Maintenance note: this file is overwritten each session per CLAUDE.md spawn protocol step 15. The FOLLOW-UP and OPEN DESIGN DECISIONS sections are the load-bearing carry-forward — every closeout copies open items forward and removes resolved ones. Don't append; don't keep historical sessions here; that's what `SESSION_LOG.md` is for.*
 
-*Resolved this session (removed from carry-forward): "Image-batch image #1-#5 5/6 18:01 UTC processing" + "First end-to-end test of v0.7 By Tag/By Verdict + CHECKLIST v0.10 Phase 2 step 7 + FALSIFICATION at-dispatch eval" — all 5/5 batch items dispatched + 1 KILL + 1 synthesis-add end-to-end same calendar day.*
+*Resolved this session (removed from carry-forward): "6-image batch 5/7 20:31 UTC processing" + "REQ-RED outbox removal" (already done 5/6) + "Iran-war anchor UAE-exit correction" (already done 5/6) + "BOARD INDEX 5-row backfill from 5/6 batch 4" + "Visegrad source-credibility candidate-finding" (graduated to formal MEMORY entry).*
