@@ -1,0 +1,94 @@
+# EDGAR Filing Radar watchlist
+# Scope: high-signal entities only. Forms are filtered per entity.
+# CIKs are zero-padded because SEC submissions API requires CIK##########.json.
+
+entities:
+  # REGINALD — regional banks / bank stress
+  - ticker: WAL
+    name: Western Alliance Bancorporation
+    cik: '0001212545'
+    agents: [REGINALD]
+    forms: ['10-K', '10-Q', '8-K', 'NT 10-K', 'NT 10-Q', '4', 'SC 13D', 'SC 13G']
+    keywords: ['commercial real estate', 'CRE', 'classified', 'criticized', 'nonperforming', 'FHLB', 'deposit', 'provision']
+  - ticker: OZK
+    name: Bank OZK
+    cik: '0001569650'
+    agents: [REGINALD]
+    forms: ['10-K', '10-Q', '8-K', 'NT 10-K', 'NT 10-Q', '4', 'SC 13D', 'SC 13G']
+    keywords: ['commercial real estate', 'CRE', 'construction', 'life science', 'classified', 'criticized', 'provision']
+  - ticker: ZION
+    name: Zions Bancorporation
+    cik: '0000109380'
+    agents: [REGINALD]
+    forms: ['10-K', '10-Q', '8-K', 'NT 10-K', 'NT 10-Q', '4', 'SC 13D', 'SC 13G']
+    keywords: ['commercial real estate', 'CRE', 'classified', 'criticized', 'provision', 'deposit']
+  - ticker: FITB
+    name: Fifth Third Bancorp
+    cik: '0000035527'
+    agents: [REGINALD]
+    forms: ['10-K', '10-Q', '8-K', 'NT 10-K', 'NT 10-Q', '4']
+    keywords: ['commercial real estate', 'CRE', 'classified', 'criticized', 'provision']
+  - ticker: RF
+    name: Regions Financial Corporation
+    cik: '0001281761'
+    agents: [REGINALD]
+    forms: ['10-K', '10-Q', '8-K', 'NT 10-K', 'NT 10-Q', '4']
+    keywords: ['commercial real estate', 'CRE', 'classified', 'criticized', 'provision']
+
+  # BROCK/SHADE — private credit / alt managers / BDCs
+  - ticker: APO
+    name: Apollo Global Management
+    cik: '0001411494'
+    agents: [BROCK, SHADE]
+    forms: ['10-K', '10-Q', '8-K', 'NT 10-K', 'NT 10-Q', '4', 'SC 13D', 'SC 13G']
+    keywords: ['Athene', 'annuity', 'FHLB', 'FABN', 'fair value', 'Level 3', 'redemption', 'private credit']
+  - ticker: ARES
+    name: Ares Management Corporation
+    cik: '0001176948'
+    agents: [BROCK]
+    forms: ['10-K', '10-Q', '8-K', 'NT 10-K', 'NT 10-Q', '4', 'SC 13D', 'SC 13G']
+    keywords: ['fair value', 'Level 3', 'non-accrual', 'PIK', 'private credit', 'insurance']
+  - ticker: OWL
+    name: Blue Owl Capital Inc.
+    cik: '0001823945'
+    agents: [BROCK]
+    forms: ['10-K', '10-Q', '8-K', 'NT 10-K', 'NT 10-Q', '4', 'SC 13D', 'SC 13G']
+    keywords: ['redemption', 'repurchase', 'NAV', 'fair value', 'Level 3', 'non-accrual']
+  - ticker: BX
+    name: Blackstone Inc.
+    cik: '0001393818'
+    agents: [BROCK, SHADE]
+    forms: ['10-K', '10-Q', '8-K', 'NT 10-K', 'NT 10-Q', '4']
+    keywords: ['redemption', 'BREIT', 'private credit', 'insurance', 'fair value']
+  - ticker: OBDC
+    name: Blue Owl Capital Corporation
+    cik: '0001655888'
+    agents: [BROCK]
+    forms: ['10-K', '10-Q', '8-K', 'NT 10-K', 'NT 10-Q', '4']
+    keywords: ['non-accrual', 'PIK', 'NAV', 'fair value', 'Level 3', 'credit facility']
+
+  # CARL — consumer credit / auto / fraud watch
+  - ticker: SYF
+    name: Synchrony Financial
+    cik: '0001601712'
+    agents: [CARL]
+    forms: ['10-K', '10-Q', '8-K', 'NT 10-K', 'NT 10-Q', '4']
+    keywords: ['net charge-off', 'delinquency', 'credit loss', 'allowance', 'provision']
+  - ticker: COF
+    name: Capital One Financial Corporation
+    cik: '0000927628'
+    agents: [CARL]
+    forms: ['10-K', '10-Q', '8-K', 'NT 10-K', 'NT 10-Q', '4']
+    keywords: ['net charge-off', 'delinquency', 'credit card', 'auto', 'allowance']
+  - ticker: ALLY
+    name: Ally Financial Inc.
+    cik: '0000040729'
+    agents: [CARL, OTTO]
+    forms: ['10-K', '10-Q', '8-K', 'NT 10-K', 'NT 10-Q', '4']
+    keywords: ['retail auto', 'net charge-off', 'delinquency', 'used vehicle', 'allowance']
+  - ticker: CVNA
+    name: Carvana Co.
+    cik: '0001690820'
+    agents: [CARL, OTTO]
+    forms: ['10-K', '10-Q', '8-K', 'NT 10-K', 'NT 10-Q', '4']
+    keywords: ['auditor', 'material weakness', 'going concern', 'securitization', 'receivable']
