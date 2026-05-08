@@ -248,7 +248,7 @@ Last-pushed origin during session: `ee95c87d` (5/8 SIG-005 dispatch). Final clos
 - **MEMORY.md vs LAST_COMPLETION.md duplication** — partially resolved 5/5 + 5/7 PM-late.
 - **Lead-paragraph regeneration cadence** — every closeout (decided 5/7).
 - **Filter v2 Segment D** — DECIDED option A confidence_note.
-- **Autonomous news-scan policy** — defer.
+- ~~Autonomous news-scan policy~~ ✅ RESOLVED 2026-05-08 (Will direction msg 1597) — added WALTER spawn-protocol step 7c read of `FORGE/tools/news-sweep/latest.md` + `FORGE/tools/filing-watch/latest.md` + `SIGNALS/inbound.md` at boot for triage; novel items surfaced in Will-Telegram boot reply; not auto-dispatched (Will-curated loop preserved). Three cron-driven scrapers exist (PROME/SENTRY-owned); WALTER consumes only.
 - **BOARD_CONSUMPTION rollout cadence** — 11 remaining agent CLAUDE.md propagation.
 - **COP refresh resume** — paused; defer per Will direction.
 - **NEXUS cluster classification cadence** — defer (NEXUS STALE 33d).
