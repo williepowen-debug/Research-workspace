@@ -1,10 +1,11 @@
-# WALTER Routing Table v0.7
+# WALTER Routing Table v0.8
 
 Default routing rules. WALTER uses this table to determine recipients and precedence when classifying incoming information. These are defaults — WALTER can override based on context, safety net triggers, or MINIMIZE state.
 
 **Canonical domain vocabulary:** The `Domain` column uses codes from `SIGNAL_FORMAT_SPEC.md` Domain Vocabulary section (v0.3, Apr 11). Don't invent new domain codes here without updating FORMAT_SPEC first per the canonical-source rule in `WALTER/CLAUDE.md`.
 
 **Version history:**
+- **v0.8 (May 8):** Added "By Boundary Threshold" section after By Tag/By Verdict — 8-row BRENT-IMMEDIATE threshold-cross dispatch list per JOINT_PROPOSAL_2026-05-05_walter_carl_brent §2c (3-way cosigned BRENT+CARL+WALTER 2026-05-05/06; Will sign-off 2026-05-08). Adds threshold-cross row mechanics: single-day breach = watch (no dispatch); 2-3 sess sustained = dispatch; single-print operational minima (#3 Cushing) = dispatch on print itself; re-fire convention (only on re-cross of boundary in either direction, not on continued state). BRENT-fire-as-primary; WALTER-fire-as-fallback if BRENT >5d STATUS lag. Detection via FORGE/tools/market-data + EIA scheduled scans (per §2b Phase 2 dependency). Updated By Tag/By Verdict section to reference v0.8 canonical `signal_role: cluster_mediating` form, retiring v0.7 prose-tag interim discipline.
 - **v0.7 (May 6 PM):** Added "By Tag/By Verdict" section after By Signal Type table — three rules (cluster_mediating auto-cc to RED, CORRECTED-FRAMING auto-cc to RED, falsification_trigger auto-fire from `AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv`) + de-dupe rule + interim prose-tag discipline (pre-v0.8). Per RED ↔ WALTER LIAISON Q9-Q12 + JOINT_PROPOSAL_2026-05-06_red_walter §3 (Will sign-off 2026-05-06).
 - **v0.6 (May 6):** Added "Iran-cluster CARL-info override" section after Residential-housing exception. Iran-cluster signals (cluster: IRAN_HORMUZ) route CARL info ONLY on concrete Brent thresholds (≥$110 sustained 2 sess OR ≤$95 sustained 5 sess) OR explicit kinetic event with supply-disruption mechanism OR FX/macro cross with consumer-burden vector. Posture/doctrine/diplomatic-cascade/OSINT signals → drop CARL. Added boundary-trigger threshold-cross dispatch sub-rule (≤$95/5sess and ≥$115/5sess fire IMMEDIATE → CARL with KB-CARL-259 + Vector #5/#12 + CRL-08 cross-refs). Per CARL ↔ WALTER LIAISON Q3 2026-05-05. **BRENT-IMMEDIATE 8-row "By Boundary Threshold" section deferred pending Will sign-off on JOINT_PROPOSAL §2c.**
 - **v0.5 (Apr 20):** Added `thesis-frame` row to By Signal Type table (matches FORMAT_SPEC v0.5 enum add). Added "Residential-housing stress exception" note under By Signal Domain table — geographically-narrow residential signals route REGINALD action / CARL info, not the reverse. Rule filed Apr 20 2026 after Will corrected a default-CARL routing for NV HOA SIG-W-20260420-005. Part of Filter v2 Segment A.
@@ -114,7 +115,7 @@ Augments the By Signal Domain and By Signal Type tables. Applies AFTER domain + 
 
 | Tag/Verdict | Rule | De-dupe behavior |
 |-------------|------|------------------|
-| `cluster_mediating: true` (post-v0.8) | Add RED to info line unconditionally regardless of domain | If RED already in to/info, no add; stays at one occurrence |
+| `signal_role: cluster_mediating` (v0.8 canonical) OR legacy `cluster_mediating: true` boolean | Add RED to info line unconditionally regardless of domain | If RED already in to/info, no add; stays at one occurrence |
 | `verify_research_verdict: CORRECTED-FRAMING` (in dispatch_note) | Add RED to info line | If RED already in to/info, no add; stays at one occurrence |
 | `falsification_trigger: <RED-FT-NN>` (auto-fired by WALTER from `AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv` per JOINT_PROPOSAL §2 eval logic) | Action = trigger.recipient_chain.action; Info = trigger.recipient_chain.info; precedence per trigger.action enum mapping (IMMEDIATE-FALSIFY/PATH-B-CONFIRM/ADD-POSITION/etc.) | n/a — auto-generated signal, recipient chain pre-determined per FALSIFICATION_TRIGGERS row |
 
@@ -135,6 +136,47 @@ SIG-W-20260505-012 (Brent intraday tape divergence vs Iran cluster confluence) �
 ### Why this is here, not in FORMAT_SPEC
 
 `cluster_mediating` is a FORMAT_SPEC field; CORRECTED-FRAMING is a CHECKLIST verdict; falsification_trigger is a generated body field. The recipient-augmentation behavior is a routing decision — it belongs in this table per the canonical-source lookup in `WALTER/CLAUDE.md` ("Domain → recipient routing rules" → ROUTING_TABLE owns).
+
+---
+
+## By Boundary Threshold (NEW v0.8)
+
+Augments the By Signal Domain table with explicit threshold-cross dispatch rows for BRENT's 8-row IMMEDIATE list per JOINT_PROPOSAL_2026-05-05_walter_carl_brent §2c (BRENT+CARL+WALTER 3-way cosigned 2026-05-05/06; Will sign-off 2026-05-08). Threshold-cross signals carry `signal_type: threshold-crossed` + boundary-row reference in dispatch_note (e.g., `boundary: §2c-row-1`).
+
+Distinct from the boundary-trigger CARL-side rule under "Iran-cluster CARL-info override" (Brent ≤$95×5sess and ≥$115×5sess fire IMMEDIATE → CARL): THIS section codifies the BRENT-action 8-row list at finer thresholds with broader cross-recipient routing.
+
+| # | Threshold | Precedence | Action → Info | Cadence |
+|---|-----------|------------|---------------|---------|
+| 1 | **Brent close ≥ $120 sustained 3 sessions** | IMMEDIATE | BRENT → CARL, HENRY, LIQUID, SAM, HAWK, RED | 2-3 sess sustained = dispatch |
+| 2 | **Brent close ≤ $75 sustained 3 sessions** | IMMEDIATE | BRENT → CARL, HENRY, LIQUID, RED | 2-3 sess sustained = dispatch |
+| 3 | **Cushing < 20M bbl single print** | IMMEDIATE | BRENT → LIQUID, HENRY, RED | Single print = dispatch (operational minimum, WTI dislocation risk) |
+| 4 | **HY Energy OAS > 400bps** | IMMEDIATE | BRENT → LIQUID-cross-feed (LIQUID may want primary depending on broader-credit context — flag at dispatch) | 2-3 sess sustained = dispatch |
+| 5 | **VLCC Worldscale ≥ 2× trailing 30-day median sustained** | PRIORITY | BRENT → HAWK, SAM, RED | Sustained-cross-from-baseline (≥3 sess) — operational definition avoids absolute-threshold drift in war-risk-elevated baseline |
+| 6 | **Gasoline crack — re-cross from <$30 back ≥$30 OR single-day spike ≥$50** | IMMEDIATE | BRENT → CARL, HENRY, RED | Threshold-cross logic only; standing $42 baseline = no fresh dispatch. Inverse extremum captures demand-destruction-via-crack-collapse OR refinery-substitution-exhausted scenarios |
+| 7 | **US oil rigs +50 from 408 trough** | PRIORITY | BRENT → CARL (capex/wage), HENRY, RED | 2-3 sess sustained = dispatch |
+| 8 | **Brent 3:2:1 crack > $50/bbl** | IMMEDIATE | BRENT → CARL (refining-margin pass-through), HENRY, REGINALD (refinery-bank) | 2-3 sess sustained = dispatch |
+
+### Cadence convention (locked)
+
+- **Single-day breach** = watch (no dispatch)
+- **2-3 sessions sustained** = dispatch
+- **Single-print operational minima** (#3 Cushing): dispatch on the print itself
+- **Re-fire convention:** after initial cross, no re-fire on continued state; only on re-cross of boundary in either direction. Sustained-above-#1 stays one signal until it falls back below or escalates further to a higher threshold.
+
+### Detection responsibility
+
+- **WALTER:** monitors price/spread/inventory data via FORGE/tools/market-data + EIA/Baker Hughes scheduled scans (per JOINT_PROPOSAL §2b — Phase 2 dependency, calendars not yet landed at v0.8 ship)
+- **BRENT:** mirrors via own data tools and STATUS refresh (BRENT self-task: PREDICTIONS.tsv BRT-04/BRT-08/BRT-15 cross-refs to these row numbers)
+- **Convention:** BRENT-fire-as-primary on threshold-cross dispatches; WALTER-fire-as-fallback if BRENT stale (>5d STATUS lag)
+
+### Composition with other rules
+
+- v0.7 By Tag/By Verdict still applies — a threshold-crossed signal with `signal_role: cluster_mediating` AND CORRECTED-FRAMING verdict still de-dupe-collapses RED to one occurrence.
+- Safety Net Auto-Upgrades below still apply — VIX>30 or HY OAS +25bps single session can override boundary-threshold precedence to FLASH.
+
+### Q-trail
+
+BRENT LIAISON Q4 (BRENT→WALTER, Turn 1, 8-row list proposed) → WALTER Turn 2 ACCEPT-WITH-REDLINES (#5 PRIORITY-not-IMMEDIATE; #6 standing-state-not-fresh-dispatch) → BRENT Turn 3 ACCEPT (with #5 ≥2× median definition + #6 dual-extremum >$50 inverse trigger) → WALTER Turn 4 LOCK → Will sign-off 2026-05-08.
 
 ---
 
@@ -177,4 +219,4 @@ During MINIMIZE, routing table precedence thresholds shift:
 
 ---
 
-*v0.7 — May 6, 2026 PM (By Tag/By Verdict section added after By Signal Type per RED ↔ WALTER LIAISON Q9-Q12 + JOINT_PROPOSAL_2026-05-06_red_walter §3 — three rules: cluster_mediating auto-cc to RED, CORRECTED-FRAMING auto-cc to RED, falsification_trigger auto-fire from `AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv`; de-dupe rule + interim prose-tag discipline pre-v0.8; Will sign-off 2026-05-06) | v0.6 — May 6, 2026 (Iran-cluster CARL-info override section added per CARL ↔ WALTER LIAISON Q3 — concrete Brent thresholds replace heuristic "near $110" framing; boundary-trigger threshold-cross dispatch sub-rule added for CARL-side ≤$95/5sess and ≥$115/5sess crosses; BRENT-IMMEDIATE 8-row "By Boundary Threshold" section deferred pending Will sign-off on JOINT_PROPOSAL §2c) | v0.5 — April 20, 2026 (thesis-frame signal_type row added per FORMAT_SPEC v0.5; Residential-housing stress exception section added per Filter v2 Segment A — geo-narrow residential → REGINALD action not CARL) | v0.4 — April 14, 2026 (ASIA_CONTAGION + UST_FOREIGN rows added per FORMAT_SPEC v0.4) | v0.3 — April 11, 2026 PM (canonical domain codes applied, Gap C resolved) | v0.2 — April 11, 2026 AM (rows + backup column) | v0.1 — April 7, 2026*
+*v0.8 — May 8, 2026 (By Boundary Threshold section added after By Tag/By Verdict per JOINT_PROPOSAL_2026-05-05_walter_carl_brent §2c — 8-row BRENT-IMMEDIATE threshold-cross dispatch list; cadence convention locked single-day=watch / 2-3 sess sustained=dispatch / single-print operational minima dispatch on print / re-fire only on boundary re-cross; BRENT-fire-as-primary, WALTER-fire-as-fallback if BRENT stale >5d; By Tag/By Verdict cluster_mediating row updated to reference v0.8 canonical `signal_role: cluster_mediating` form retiring v0.7 prose-tag interim discipline; Will sign-off 2026-05-08) | v0.7 — May 6, 2026 PM (By Tag/By Verdict section added after By Signal Type per RED ↔ WALTER LIAISON Q9-Q12 + JOINT_PROPOSAL_2026-05-06_red_walter §3 — three rules: cluster_mediating auto-cc to RED, CORRECTED-FRAMING auto-cc to RED, falsification_trigger auto-fire from `AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv`; de-dupe rule + interim prose-tag discipline pre-v0.8; Will sign-off 2026-05-06) | v0.6 — May 6, 2026 (Iran-cluster CARL-info override section added per CARL ↔ WALTER LIAISON Q3 — concrete Brent thresholds replace heuristic "near $110" framing; boundary-trigger threshold-cross dispatch sub-rule added for CARL-side ≤$95/5sess and ≥$115/5sess crosses; BRENT-IMMEDIATE 8-row "By Boundary Threshold" section deferred pending Will sign-off on JOINT_PROPOSAL §2c) | v0.5 — April 20, 2026 (thesis-frame signal_type row added per FORMAT_SPEC v0.5; Residential-housing stress exception section added per Filter v2 Segment A — geo-narrow residential → REGINALD action not CARL) | v0.4 — April 14, 2026 (ASIA_CONTAGION + UST_FOREIGN rows added per FORMAT_SPEC v0.4) | v0.3 — April 11, 2026 PM (canonical domain codes applied, Gap C resolved) | v0.2 — April 11, 2026 AM (rows + backup column) | v0.1 — April 7, 2026*
