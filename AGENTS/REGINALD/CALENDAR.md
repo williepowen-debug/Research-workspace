@@ -43,7 +43,7 @@
 | Window | Prediction | Confidence | What Resolves It |
 |--------|-----------|------------|-----------------|
 | Apr 2026 | REG-09: Tier 2 bank misses earnings (VLY, CFG, ZION) | 50% | Earnings wave Apr 20-29 |
-| Apr-Jun 2026 | REG-20: WAL major stress event (miss/raise/regulatory) | 82% | WAL Q1 earnings + Call Reports + Investor Day |
+| Apr-Jun 2026 ✅ | REG-20: WAL major stress event (miss/raise/regulatory) — **CONFIRMED-PARTIAL 2026-05-08** | 82% | Resolved Apr 21 by earnings-miss trigger (1 of 3 OR-conditions); see PREDICTIONS.tsv |
 
 ---
 

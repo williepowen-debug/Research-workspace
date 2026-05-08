@@ -33,6 +33,9 @@ tools/calendar/flow_state.pkl
 *:Zone.Identifier
 
 # Bank primary source materials — local only (PDFs, 10-K HTML dumps, quarterly supplements)
+# In quarter dirs: exclude every file by default, then allow .md text (synthesis + transcripts).
+# Note: cannot exclude the dir itself — git won't traverse into ignored dirs, breaking the negation.
 AGENTS/REGINALD/*/sources/*.pdf
 AGENTS/REGINALD/*/sources/10k_*/
-AGENTS/REGINALD/*/sources/q[1-4]_*/
+AGENTS/REGINALD/*/sources/q[1-4]_*/*
+!AGENTS/REGINALD/*/sources/q[1-4]_*/*.md
