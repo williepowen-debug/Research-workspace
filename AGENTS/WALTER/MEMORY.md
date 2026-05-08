@@ -92,9 +92,9 @@
 4. **CARL/BRENT/RED calibration cycle 1** ETA May 19-27.
 5. **FALSIFICATION first-fire watch** — RED-FT-01 HY-OAS<280×3 closest (BOND primary pending); RED-FT-06 VIX<16×5 ~8% above near-trigger band.
 
-**Top-5 next-session candidate work** (from LAST_COMPLETION FOLLOW-UP + my recommendation, in priority order):
-1. **Repo-root stitch 2-way RED+WALTER joint proposal** — both side-files committed 5/6; mechanical assembly; ~15min low-friction; my Turn 4 read = "ship next session"
-2. **CROSS_REFS/{CARL,BRENT}.md cache scaffolds** — WALTER self-tasks per JOINT_PROPOSAL §3d; high-leverage at next dispatch with CARL/BRENT routing
-3. **REGINALD LIAISON open** — top of unblocked queue; Q1 CR window closed today so REGINALD has bandwidth; SIG-006 Financial -11K + SIG-W-20260507-004 Sternlicht give natural opening
-4. **§2b infra build IF CARL+BRENT calendars land** — read both calendars; build cron-equivalent reader; first scan target April CPI 5/13
-5. **Forward dispatches use v0.8 fields organically** — first signal arriving next session validates the spec works in the wild (signal_role / consumer_transmission / consumer_lens / cluster_secondary / event_window)
+**Top-5 next-session candidate work** (re-ranked after Will-catch on stale 2-way stitch carry-forward msg 1549):
+1. **CROSS_REFS/{CARL,BRENT}.md cache scaffolds** — WALTER self-tasks per JOINT_PROPOSAL §3d; high-leverage at next dispatch with CARL/BRENT routing. WALTER self-task no cross-agent dep
+2. **REGINALD LIAISON open** — top of unblocked queue; CC-side; Q1 CR window closed 5/8 so REGINALD has bandwidth; SIG-006 Financial -11K + SIG-W-20260507-004 Sternlicht give natural opening
+3. **§2b infra build IF CARL+BRENT calendars land** — at boot check both calendars; if exist, build cron-equivalent reader; first scan target April CPI 5/13
+4. **3-way walter_carl_brent stitch IF CARL §1+§3a+§3c+§4 lands** — at boot check `AGENTS/CARL/design/JOINT_PROPOSAL_2026-05-05_carl_sections.md`; if exists, mechanical assembly at repo-root ~15min
+5. **Forward dispatches use v0.8 fields organically** — first signal validates spec in wild (Stale-removed: ~~2-way RED+WALTER stitch~~ already shipped 5/6 `8a532073`)
