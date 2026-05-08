@@ -45,7 +45,7 @@
 
 ## Session Notes
 
-⚠️ **Open question:** With Wave 1 fully closed and Q1 Call Reports not yet filed, the next-spawn priority is between (a) **REG-20 resolution call with Will** (still pending — should I mark CONFIRMED on miss + $152.5M fraud + tape -2%, or hold for higher bar?), and (b) **other 4 of the morning's 5-task list** — specifically the KRE $70P May 15 expiry decision (mechanical, time-sensitive), APO Q1 May 6 prep (5 days out), or MTB Baltimore Sun verification. Bias: if Will is around, get REG-20 closed; otherwise tackle KRE $70P decision (mechanical-before-creative) since the May 8 roll deadline is approaching.
+⚠️ **Open question:** May 8 boot caught a stale-tracking error — "KRE $70P May 15" was REAL in early Feb (memory journals show +26% P/L Feb 12) but closed/exited before Apr 2 broker screenshot, never propagated to dependent docs. REGINALD-scope cleanup (6 files) done; **RED + TRADES still reference the phantom** (RED has May 12 T-3 close trigger built around it) — out of REGINALD scope to fix. Will is sending broker screenshot to refresh POSITIONS.md. Next: refresh POSITIONS → decide RED-handoff path → resume queue.
 
 **Pending Will calls:** (a) REG-20 resolution (CONFIRMED or hold); (b) synthesis-files gitignore decision (still blocking 2 WAL Round 2 synthesis files from commit).
 
@@ -118,7 +118,7 @@
 
 1. **Boot normally** — git pull, read STATUS (May 1 PM closeout at top), LESSONS, CALENDAR, MEMORY; market.py; inbox.
 2. **REG-20 resolution call with Will** — should still be open. Q1 print delivered: GAAP miss -4.6% + $152.5M fraud + tape -2%. Mark CONFIRMED, or hold for capital raise / regulatory action threshold?
-3. **KRE $70P May 15 expiry decision** — mechanical-before-creative; deadline ~May 8. KRE is broad-regional canary; REGINALD owns the strategic call. Was Task 3 of morning's 5-task list, deferred today.
+3. ~~KRE $70P May 15 expiry decision~~ — **PHANTOM, killed 2026-05-08**. Position does not exist at broker. 6 references across REGINALD docs cleaned up. Underlying lesson: refresh POSITIONS.md from broker screenshot before propagating any position-state language.
 4. **APO Q1 May 6 prep** — 5 days out. Atlas SP segment + warehouse book size + non-bank servicer counterparty. Was Task 4 of morning's list.
 5. **MTB Baltimore Sun primary verification** (SIG-W-20260426-009: -$1B / 29% reassessed CRE) — was Task 5; quick pull, closes signal for trade-thesis weight.
 6. **Q1 Call Report recheck** — re-query SEC EDGAR + FDIC SDI on May 4-5 (when 10-Qs typically start landing for accelerated filers). If anything is filed → MI3 / NDFI / AOCI deep read.
