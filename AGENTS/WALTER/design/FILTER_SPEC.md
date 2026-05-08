@@ -213,6 +213,28 @@ Signals that pass Gate 1 and get routed are logged to `AGENTS/WALTER/routed/rout
 - During low-information stretches (no catalysts, stable macro, quiet geopolitics), shift toward TIGHT — let the signal density set by throughput trend itself.
 - Review monthly from Apr 20 going forward. Filter v3 trigger: 30 days from Apr 20 (~May 20) OR next 50 dispatches, whichever first.
 
+### OPEN-window dispatch posture (NEW v0.5 per JOINT_PROPOSAL §2d)
+
+When `AGENTS/WALTER/design/EVENT_WINDOW_STATE.md` shows current state = `OPEN` (declared via BURST_WINDOW state machine — BRENT-led on Path A 4/4 met OR Path B EIA triggers fire; alternatively WALTER-led if BRENT stale):
+
+**Filter posture during OPEN window:**
+- All Phase-2-cluster signals (IRAN_HORMUZ + HYDROCARBON_INFRA + OIL_ENERGY domain transmits) → dispatch FLASH (overrides per-signal-type and per-domain default precedence)
+- Cross-cluster signals (CONSUMER_STAGFLATION / BANK_COLLATERAL / POSITIONING_VALUATION / FED_FRAMEWORK / etc.) stay normal precedence — don't bleed Phase-2 burst into unrelated domains
+- Verify-research is **mandatory** on extreme-claim items (Phase 1.5 trigger patterns) even more than usual — compressed window heightens cost of routing misframed signals; budget extra $0.05/spawn vs gating by trigger
+- Confidence threshold floor stays at 0.30; OPEN posture does NOT relax the hard kill gates (Novelty + Relevance) — speed of dispatch increases, but quality bar holds
+- Will-Telegram threading: every dispatched signal pings under the rolling "BURST WINDOW OPEN — Phase 2 trigger" master message (one new message per dispatch under that thread); no individual Will-pings on each signal, only the threaded reply
+- Daily 00:00 UTC roll-up: WALTER posts a one-message digest (signal count, key dispatches, verification-gate progress per EVENT_WINDOW_STATE.md gates a-d)
+- All dispatched signals carry `event_window: open` per FORMAT_SPEC v0.8
+
+**State transition handling:**
+- CLOSED → OPEN declaration: WALTER updates EVENT_WINDOW_STATE.md (or BRENT does, with WALTER mirroring next session); Telegram-pings Will the transition message; subsequent dispatches use OPEN posture.
+- OPEN → CLOSED transition (default WALTER-led after ≥48h stable post-event): summary post to Will (window duration, dispatches fired, gate-confirmation status); next dispatches revert to BALANCED posture.
+- LESSONS #18 disambiguation early-close (verification gate fails 48h post-declare): retroactively tag in-window signals with `dispatch_note: false-positive window-context` per CHECKLIST Phase 2.5; window-context shouldn't propagate as load-bearing into post-window dispositioning.
+
+**Cost asymmetry justification (carried from §2d):** false-negative cost = miss 80% of Phase-2 move per LESSONS #11 = material P/L. False-positive cost = 24-72h FLASH burst on non-event = bounded operational cost (~$0.05-0.20 in dispatch sub-spawns + Will Telegram fatigue) + recoverable via early-close + retroactive tagging. Asymmetric → declare on announcement.
+
+This posture **composes with** but does NOT replace the BALANCED default — when OPEN window closes, posture reverts to BALANCED (or whatever default is in force).
+
 ---
 
 ## Full Pipeline Summary
@@ -266,6 +288,8 @@ Raw Information Arrives
 ```
 
 ---
+
+*v0.5 — May 8, 2026 — Added "OPEN-window dispatch posture" sub-section under Tuning Rules per JOINT_PROPOSAL_2026-05-05_walter_carl_brent §2d (3-way cosigned BRENT+CARL+WALTER 2026-05-05/06; Will sign-off 2026-05-08). When EVENT_WINDOW_STATE.md state = OPEN: Phase-2-cluster signals dispatch FLASH; cross-cluster signals stay normal precedence; verify-research mandatory on extreme-claim items; Will-Telegram threading under master message; daily roll-up; `event_window: open` header field on all dispatches. State transitions BRENT-led on CLOSED→OPEN (Path A 4/4 met OR Path B EIA triggers fire) and WALTER-led on OPEN→CLOSED (≥48h stable post-event); LESSONS #18 disambiguation early-close retroactive-tags in-window signals. Composes with BALANCED default — does not replace.*
 
 *v0.4 — April 20, 2026 (evening) — Filter v2 Segment C. Added "Verify-Research Trigger (Phase 1.5 — reference)" subsection between Gate 1b (Relevance) and the Credibility check, pointing to CHECKLIST v0.8 Phase 1.5 as canonical for the 4 trigger patterns, spawn discipline, and 4-verdict handling (CONFIRMED / CORRECTED-framing / FALSE / INDETERMINATE). FILTER_SPEC notes insertion point only; no filter logic changed. Empirical origin: 4 framing errors caught in Apr 11–20 window.*
 *v0.3 — April 20, 2026 — Filter v2 Segment A. Retired "START LOOSE" default posture (2-week calibration window expired; 51 dispatches + 18 kills reviewed, zero obvious false positives) and replaced with BALANCED posture — tuning rules as primary guide, context-shift toward LOOSE pre-catalyst and TIGHT during low-information stretches. Added empirical note in Pre-Gate Bypass section (zero FLASH in 51 dispatches) + Pre-Apr-21 bypass reaffirmation (6 specific triggers for WAL/ZION earnings + Iran catalyst day). Filter v3 trigger: ~May 20 or next 50 dispatches.*

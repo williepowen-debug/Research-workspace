@@ -1,5 +1,5 @@
 # WALTER Signal Processing Checklist
-**Version:** 0.10 | **Date:** May 6, 2026 PM (Phase 2 routing-augmentation steps 5-7 added per RED ↔ WALTER LIAISON + JOINT_PROPOSAL_2026-05-06_red_walter §3: step 5 cluster_mediating auto-cc to RED, step 6 CORRECTED-FRAMING auto-cc to RED, step 7 FALSIFICATION_TRIGGERS auto-fire scan; Will sign-off 2026-05-06) | **v0.9:** May 5, 2026 (Cluster assignment step added to Phase 2 per CLUSTER_TAXONOMY.md v0.1 — every dispatched signal lands in exactly one primary cluster) | **v0.8:** April 20, 2026 (Filter v2 Segment C — Phase 1 step 2.5 verify-research trigger check added) | **v0.7:** April 20, 2026 (Filter v2 Segment B — Phase 1b same-theme combine step added) | **v0.6:** April 11, 2026 PM (canonical Domain Vocabulary referenced — Gap C resolved) | **v0.5:** April 11, 2026 PM (Phase 1 reconciled with FILTER_SPEC v0.2 unified filter model) | **v0.4:** April 11, 2026 (header schema reconciled, conflict_zone clarified) | **v0.3:** April 10, 2026 (confidence model reconciled) | **v0.2:** April 10, 2026 (worked example added) | **v0.1:** April 7, 2026
+**Version:** 0.11 | **Date:** May 8, 2026 (Phase 2 step 4.5 v0.8 routing-augmentation tagging added + Phase 2.5 event-window state check added per JOINT_PROPOSAL_2026-05-05_walter_carl_brent §2a + §2d.5 + §2d.6; Will sign-off 2026-05-08. Step 4.5 covers signal_role / consumer_transmission / consumer_lens / cluster_secondary / event_window field tagging at dispatch time. Phase 2.5 reads EVENT_WINDOW_STATE.md once per session and overrides precedence to FLASH for Phase-2-cluster signals when state = OPEN, leaving cross-cluster signals at Phase 2 precedence; daily roll-up + close-of-window summary requirements; stale-check 7d. Step 5 updated to reference `signal_role: cluster_mediating` canonical form, retiring v0.7 prose-tag and `cluster_mediating: bool` interim discipline. Phase 3 header example refreshed) | **v0.10:** May 6, 2026 PM (Phase 2 routing-augmentation steps 5-7 added per RED ↔ WALTER LIAISON + JOINT_PROPOSAL_2026-05-06_red_walter §3) | **v0.9:** May 5, 2026 (Cluster assignment step added to Phase 2 per CLUSTER_TAXONOMY.md v0.1) | **v0.8:** April 20, 2026 (Filter v2 Segment C — Phase 1 step 2.5 verify-research trigger check added) | **v0.7:** April 20, 2026 (Filter v2 Segment B — Phase 1b same-theme combine step added) | **v0.6:** April 11, 2026 PM (canonical Domain Vocabulary referenced — Gap C resolved) | **v0.5:** April 11, 2026 PM (Phase 1 reconciled with FILTER_SPEC v0.2 unified filter model) | **v0.4:** April 11, 2026 (header schema reconciled, conflict_zone clarified) | **v0.3:** April 10, 2026 (confidence model reconciled) | **v0.2:** April 10, 2026 (worked example added) | **v0.1:** April 7, 2026
 
 One-page operational reference for processing incoming signals. Derived from 10 research prompts across emergency medicine, military communications, ATC, pub/sub systems, intelligence dissemination, emergency dispatch, scientific alerts, open output systems, newsroom editorial, and trading desk operations.
 
@@ -153,9 +153,23 @@ The cluster is written to the signal YAML header (`cluster: <NAME>`) AND determi
 
 **Superevent check:** Do any signals from this session GROUP into a convergence event more significant than its parts?
 
-**Routing augmentation (steps 5-7 added v0.10 — applied AFTER domain + signal_type + cluster have been picked, BEFORE Phase 3 OUTPUT writes the signal):**
+**Step 4.5 — v0.8 routing-augmentation field tagging** (added v0.11; applied AFTER cluster assignment + Superevent check, BEFORE the routing-augmentation steps 5-7 below). For each surviving signal, fill the v0.8 optional fields per FORMAT_SPEC v0.8 / JOINT_PROPOSAL §2a + §2d.5:
 
-5. **Cluster-mediating auto-cc.** If signal carries `cluster_mediating: true` (post-v0.8) OR prose-tagged paper-vs-structural / tape-vs-substance / bifurcation / divergence in dispatch_note (interim, pre-v0.8), ensure RED in info line. Skip if RED already in to/info. Per ROUTING_TABLE v0.7 By Tag/By Verdict.
+- **`cluster_secondary`** (comma-separated) — multi-cluster signals tag primary cluster (already set in step 4 above) plus optional secondaries in descending action-relevance order. Drives batch-folding at recipient boot. Tag whenever applicable. Skip if no cross-cluster relevance.
+
+- **`signal_role`** (4-value enum: `primary_substance` / `cluster_mediating` / `counter_evidence` / `thesis_confirmation`) — tag the role within the cluster narrative. Authoritative-voice precedence on `cluster_mediating`: NEXUS > WALTER (tagger) > action-primary. Tag whenever the role is non-default-primary (i.e., always tag explicitly when it's `cluster_mediating` / `counter_evidence` / `thesis_confirmation`; `primary_substance` is the default and may be omitted).
+
+- **`consumer_transmission`** (9-value enum) — tag ONLY when CARL is on the routing line (action OR info). Pick the mechanism through which the signal reaches CARL's consumer-stress thesis: `pump_pass_through` (oil/gas → retail pump → CPI energy → consumer-burden) / `wage_pressure` (labor data → wage growth / employment cost index) / `wealth_effect` (equity-portfolio-driven top 40% → discretionary spend) / `policy_pass_through` (tariff / regulatory / fiscal → consumer-cost / income) / `discretionary_demand` (observation-side demand-destruction) / `services_export` (international-inbound demand) / `lng_substitution` (LNG redirect → US/EU gas → heating-fuel substitution; BRENT-side outbound) / `counter_evidence` (within-cluster counter-thesis data) / `none` (info-only, no consumer-stress transmission). Skip when CARL not on routing line.
+
+- **`consumer_lens`** (4-value enum: `tier_stratified` / `broad_collapse` / `mixed` / `counter`) — tag ONLY on consumer-cluster signals with CARL on routing line. Codifies K-shape framing: `tier_stratified` = mid-tier pullback with top-decile counter-channels intact / `broad_collapse` = multi-tier consumer demand destruction / `mixed` = multi-axis no clear K-shape / `counter` = counter-evidence to consumer-stress thesis. Energy-cluster signals don't carry.
+
+- **`event_window`** (boolean: `open` / `closed`) — read current state from `AGENTS/WALTER/design/EVENT_WINDOW_STATE.md`. If state = OPEN: set `event_window: open` on Phase-2-cluster signals; cross-cluster signals stay `closed`. If state = CLOSED (default): omit field or set `closed`. State transitions are BRENT-declares-OPEN / WALTER-declares-CLOSE per JOINT_PROPOSAL §2d state machine.
+
+**Worked example (today's SIG-W-20260508-006 NFP, retro):** primary cluster CONSUMER_STAGFLATION + cluster_secondary BANK_COLLATERAL (Financial -11K cross-cluster) + signal_role cluster_mediating (paper-vs-structural Goldilocks-tape vs stagflation-underbelly) + consumer_transmission wage_pressure (AHE 3.6% YoY accelerating + LFPR drop) + consumer_lens mixed (multi-axis labor cooling AND wages accelerating) + event_window closed (no Phase-2 declaration active 2026-05-08). The v0.7 `cluster_mediating: true` interim form on today's dispatches maps equivalently to v0.8 `signal_role: cluster_mediating` — forward dispatches use the v0.8 form.
+
+**Routing augmentation (steps 5-7 added v0.10 — applied AFTER domain + signal_type + cluster + step 4.5 v0.8 tagging, BEFORE Phase 3 OUTPUT writes the signal):**
+
+5. **Cluster-mediating auto-cc.** If signal carries `signal_role: cluster_mediating` (v0.8 canonical), ensure RED in info line. Skip if RED already in to/info. Per ROUTING_TABLE v0.7 By Tag/By Verdict. **Legacy compatibility:** v0.7-era signals with `cluster_mediating: true` boolean field map equivalently — read either form. Pre-v0.7 prose-tagged paper-vs-structural / tape-vs-substance / bifurcation / divergence dispatch_note language is fully retired as of v0.11; new signals use `signal_role` header field.
 
 6. **CORRECTED-FRAMING auto-cc.** If verify-research returned CORRECTED-FRAMING verdict (Phase 1.5 output), ensure RED in info line. Skip if RED already in to/info. Composes with step 5 — apply both, but RED appears once. Per ROUTING_TABLE v0.7 By Tag/By Verdict.
 
@@ -171,6 +185,39 @@ The cluster is written to the signal YAML header (`cluster: <NAME>`) AND determi
    Append fire row to `AGENTS/WALTER/registry/FALSIFICATION_FIRED_LOG.tsv` (5-col schema: trigger_id / fired_date / metric_value_at_fire / dispatched_signal_id / sustain_confirmation — per JOINT_PROPOSAL §2.4, preserves Critical Rule #2 by keeping fire-history out of RED's tree). Approaching-threshold (within 5% one-sided per `threshold_op`) flagged in WALTER closeout SESSION LOG as "near-trigger watch", not auto-dispatched. Stale-fire suppression: skip a trigger if it fired within prior `sustain_window` sessions per the ledger.
 
 **Phase 1.5 verify-research note:** when CORRECTED-FRAMING verdict returns from a verify-research spawn, the Phase 2 step 6 auto-add-RED rule fires automatically downstream — no special handling needed in Phase 1.5 itself. Verdict logging stays in dispatch_note as prose; Phase 2 reads it.
+
+---
+
+## PHASE 2.5: EVENT-WINDOW STATE CHECK (Precedence override)
+
+Added v0.11 per JOINT_PROPOSAL_2026-05-05_walter_carl_brent §2d.6. Runs once per session AFTER Phase 2 classification has assigned per-signal precedence, BEFORE Phase 3 OUTPUT writes. Reads `AGENTS/WALTER/design/EVENT_WINDOW_STATE.md` for current declared state.
+
+```
+Read EVENT_WINDOW_STATE.md → current state?
+
+  CLOSED (default)         → no action; Phase 2 precedence assignments hold; proceed to Phase 3
+  OPEN                     → for each signal, check cluster:
+                             - Phase-2-cluster (IRAN_HORMUZ + HYDROCARBON_INFRA + OIL_ENERGY-domain transmits) →
+                                 * override precedence to FLASH (regardless of Phase 2 default)
+                                 * tag signal header `event_window: open` per FORMAT_SPEC v0.8
+                                 * Will-Telegram pings thread under "BURST WINDOW OPEN — Phase 2 trigger" master
+                                 * verify-research mandatory on extreme-claim items (heightened threshold)
+                             - Cross-cluster (CONSUMER_STAGFLATION / BANK_COLLATERAL / POSITIONING_VALUATION /
+                               FED_FRAMEWORK / etc.) →
+                                 * Phase 2 precedence holds (no override)
+                                 * tag `event_window: closed` (default) — don't bleed window context
+  PENDING_VERIFICATION     → treat as OPEN; verify-research extra-mandatory; gate-status check first
+```
+
+**Daily roll-up requirement during OPEN:** WALTER posts a single 00:00 UTC roll-up message (signal count, key dispatches, verification-gate progress per gates a-d in EVENT_WINDOW_STATE.md). One message per UTC day until window closes.
+
+**Close-of-window summary required at OPEN→CLOSED transition:** WALTER posts a window-summary to Will (window duration, dispatches fired, gate-confirmation status, any retroactive false-positive-tagging if early-close per LESSONS #18 disambiguation).
+
+**Stale check:** if EVENT_WINDOW_STATE.md hasn't been updated in >7 days AND state shows OPEN, flag stale and revert to BALANCED posture pending freshness re-confirmation (don't sit in declared-OPEN forever on memory alone).
+
+**Composes with Phase 2 routing-augmentation steps 5-7:** OPEN-window precedence override happens AFTER cluster_mediating + CORRECTED-FRAMING + falsification_trigger augmentation — it overrides the precedence floor but doesn't change recipient routing. RED auto-cc still applies; falsification triggers still fire as configured.
+
+See FILTER_SPEC v0.5 "OPEN-window dispatch posture" sub-section for the full posture rules + cost-asymmetry justification + state-transition handling. EVENT_WINDOW_STATE.md is canonical for current state.
 
 ---
 
@@ -206,6 +253,15 @@ resources: 0 | 1 | 2                  # processing resource estimate
 safety_net: clear | triggered         # override fired?
 
 word_count: NNN                       # FLASH/IMMEDIATE must be ≤200
+
+cluster: <CLUSTER_NAME>               # required v0.7+; one of 10 buckets per CLUSTER_TAXONOMY.md
+
+# v0.8 optional routing-augmentation fields (added 2026-05-08 per JOINT_PROPOSAL §2a + §2d.5)
+cluster_secondary: <CLUSTER_NAME>[, <CLUSTER_NAME>]   # multi-cluster cross-tag, descending action-relevance
+signal_role: primary_substance | cluster_mediating | counter_evidence | thesis_confirmation
+consumer_transmission: pump_pass_through | wage_pressure | wealth_effect | policy_pass_through | discretionary_demand | services_export | lng_substitution | counter_evidence | none   # CARL-on-routing-line only
+consumer_lens: tier_stratified | broad_collapse | mixed | counter   # consumer-cluster + CARL-on-routing-line only
+event_window: open | closed           # default closed; set 'open' during BURST_WINDOW state per EVENT_WINDOW_STATE.md
 ---
 ```
 
@@ -402,4 +458,4 @@ I initially drafted a SECOND signal (SIG-W-20260410-002, CPI-only with HENRY act
 
 ---
 
-*Operational checklist — derived from 10 research prompts | v0.1: April 7, 2026 | v0.2: April 10, 2026 (worked example added) | v0.3: April 10, 2026 (confidence model reconciled) | v0.4: April 11, 2026 (header schema reconciled; conflict_zone clarified) | v0.5: April 11, 2026 (Phase 1 reconciled with FILTER_SPEC v0.2 unified filter model — Gap B resolved) | v0.6: April 11, 2026 PM (canonical Domain Vocabulary referenced — Gap C resolved) | v0.7: April 20, 2026 (Filter v2 Segment B — Phase 1b same-theme combine check added between intake and classify, references FORMAT_SPEC v0.6 Multi-Origin Signals) | v0.8: April 20, 2026 (Filter v2 Segment C — Phase 1.5 verify-research framing audit codified with 4 trigger patterns, spawn discipline, and 4-verdict handling) | v0.9: May 5, 2026 (Cluster assignment step added to Phase 2 per CLUSTER_TAXONOMY.md v0.1 — every dispatched signal lands in exactly one primary cluster, header gets `cluster:` field, INDEX section is determined by cluster) | v0.10: May 6, 2026 PM (Phase 2 routing-augmentation steps 5-7 added per RED ↔ WALTER LIAISON + JOINT_PROPOSAL_2026-05-06_red_walter §3 — step 5 cluster_mediating auto-cc to RED with interim prose-tag discipline pre-v0.8, step 6 CORRECTED-FRAMING auto-cc to RED, step 7 FALSIFICATION_TRIGGERS auto-fire scan with sustain-window suppression and parallel ledger at AGENTS/WALTER/registry/FALSIFICATION_FIRED_LOG.tsv preserving Critical Rule #2)*
+*Operational checklist — derived from 10 research prompts | v0.1: April 7, 2026 | v0.2: April 10, 2026 (worked example added) | v0.3: April 10, 2026 (confidence model reconciled) | v0.4: April 11, 2026 (header schema reconciled; conflict_zone clarified) | v0.5: April 11, 2026 (Phase 1 reconciled with FILTER_SPEC v0.2 unified filter model — Gap B resolved) | v0.6: April 11, 2026 PM (canonical Domain Vocabulary referenced — Gap C resolved) | v0.7: April 20, 2026 (Filter v2 Segment B — Phase 1b same-theme combine check added between intake and classify, references FORMAT_SPEC v0.6 Multi-Origin Signals) | v0.8: April 20, 2026 (Filter v2 Segment C — Phase 1.5 verify-research framing audit codified with 4 trigger patterns, spawn discipline, and 4-verdict handling) | v0.9: May 5, 2026 (Cluster assignment step added to Phase 2 per CLUSTER_TAXONOMY.md v0.1 — every dispatched signal lands in exactly one primary cluster, header gets `cluster:` field, INDEX section is determined by cluster) | v0.10: May 6, 2026 PM (Phase 2 routing-augmentation steps 5-7 added per RED ↔ WALTER LIAISON + JOINT_PROPOSAL_2026-05-06_red_walter §3 — step 5 cluster_mediating auto-cc to RED with interim prose-tag discipline pre-v0.8, step 6 CORRECTED-FRAMING auto-cc to RED, step 7 FALSIFICATION_TRIGGERS auto-fire scan with sustain-window suppression and parallel ledger at AGENTS/WALTER/registry/FALSIFICATION_FIRED_LOG.tsv preserving Critical Rule #2) | v0.11: May 8, 2026 (Phase 2 step 4.5 v0.8 routing-augmentation tagging added per JOINT_PROPOSAL_2026-05-05_walter_carl_brent §2a + §2d.5 — fills cluster_secondary / signal_role / consumer_transmission / consumer_lens / event_window v0.8 optional fields at dispatch time; step 5 updated to reference `signal_role: cluster_mediating` canonical form retiring v0.7 prose-tag interim discipline; Phase 3 header example refreshed; Will sign-off 2026-05-08)*
