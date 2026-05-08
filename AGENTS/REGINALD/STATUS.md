@@ -64,7 +64,7 @@ Hold 0.75% as expected; **3 dissents** (Takata/Tamura/Nakagawa), biggest split s
 3. ✅ **RITM transcript pull DONE Apr 29** — soft fail on "DQ will reverse Q1" mgmt claim; got "stable QoQ" + "FHA flattened" via modification-guideline normalization. No specific %s disclosed; sector silence on non-bank servicer stress. WAL V3 thesis not disconfirmed; modestly bearish on NewRez asset quality.
 4. 🟠 **Q1 Call Reports May 1-10** — primary thesis test for WAL MI3 (≥25% = acceleration); EGBN MI3 trajectory; CFG NDFI reconciliation to Slide 24 $19.6B preliminary.
 5. 🟡 **OZK post-mortem** still pending per WALTER follow-up — Apr 21 print integrated into STATUS but no dedicated analysis file.
-6. 🟡 **REG-20 resolution** still pending Will call — WAL Q1 print delivered miss + fraud + tape -2%; mark CONFIRMED or hold for higher bar.
+6. ✅ **REG-20 resolution** RESOLVED 2026-05-08 — marked CONFIRMED-PARTIAL by Will (literal-text reading; 1 of 3 OR-triggers fired). PREDICTIONS.tsv row updated.
 
 ---
 
@@ -117,9 +117,9 @@ Hold 0.75% as expected; **3 dissents** (Takata/Tamura/Nakagawa), biggest split s
 - **REG-24:** WAL Office classified > $500M by Q3 2026 (60%) — driven by maturity wall pressure
 - **REG-25:** WAL ex-fraud NCO > 40bps in at least one of Q2/Q3 2026 (55%) — driven by 39bps Q1 vs 25-35bps guide tension
 
-### REG-20 status (pending Will resolution)
+### REG-20 status ✅ RESOLVED 2026-05-08 (CONFIRMED-PARTIAL)
 
-REG-20 (WAL major stress event Apr-Jun 2026, 82%) — Q1 print delivered: GAAP EPS miss -4.6%, $152.5M fraud charge-offs (LAM+Cantor), tape -2% on print. Arguably resolves CONFIRMED, but holding for Will's call on whether to mark resolved or hold for capital raise / regulatory action threshold.
+REG-20 (WAL major stress event Apr-Jun 2026, 82%) — Will resolved May 8 by literal-text reading: Q1 print Apr 21 delivered earnings-miss trigger (GAAP $1.65 vs $1.73 cons, -4.6%) + $152.5M fraud charge-offs + V2 vector confirmed in public 8-K. Marked CONFIRMED with PARTIAL-credit note (1 of 3 OR-triggers fired; tape -2% recovered within days; no capital raise, no regulatory action) to keep calibration honest.
 
 ---
 
@@ -269,7 +269,7 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 | REG-02 | FHLB advances spike >$600B | Q2-Q3 2026 | 60% |
 | REG-03 | At least one Tier 1 bank capital raise | H2 2026 | 50% |
 | REG-04 | Chicago pattern replicates in Phoenix | H1 2026 | 65% |
-| REG-20 | WAL major stress event | Apr-Jun 2026 | 82% — Q1 print arguably resolves; Will resolution call pending |
+| REG-20 | WAL major stress event ✅ **CONFIRMED-PARTIAL 2026-05-08** | Apr-Jun 2026 (resolved Apr 21) | 82% — earnings-miss trigger fired (1 of 3 OR-conditions); modest tape reaction; PARTIAL credit |
 | REG-24 | WAL Office classified > $500M by Q3 2026 | Q2-Q3 2026 | 60% (NEW Apr 24 — driven by $946M Office maturity wall) |
 | REG-25 | WAL ex-fraud NCO > 40bps in Q2 OR Q3 2026 | Q2-Q3 2026 | 55% (NEW Apr 24 — Q1 39bps already above 25-35bps mgmt guide) |
 
