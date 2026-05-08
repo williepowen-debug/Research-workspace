@@ -3,5 +3,35 @@
     "first_seen": "2026-05-06T18:29:00.731636+00:00",
     "title": "Commercial electricity sales have soared in Virginia, driven by data centers",
     "feed": "EIA Today in Energy"
+  },
+  "4f52cd84018e2c4c": {
+    "first_seen": "2026-05-08T18:10:54.498012+00:00",
+    "title": "One-fifth of U.S. renewable diesel and SAF production was exported in 2H25",
+    "feed": "EIA Today in Energy"
+  },
+  "1da77648b015a4b1": {
+    "first_seen": "2026-05-08T18:10:54.806069+00:00",
+    "title": "10-Q - OFG BANCORP (0001030469) (Filer)",
+    "feed": "SEC EDGAR Filings"
+  },
+  "cd47eb0d59435c61": {
+    "first_seen": "2026-05-08T18:10:54.806075+00:00",
+    "title": "10-Q - InfuSystem Holdings, Inc (0001337013) (Filer)",
+    "feed": "SEC EDGAR Filings"
+  },
+  "803aa7aede682b8e": {
+    "first_seen": "2026-05-08T18:10:54.806077+00:00",
+    "title": "8-K - CHEMUNG FINANCIAL CORP (0000763563) (Filer)",
+    "feed": "SEC EDGAR Filings"
+  },
+  "39c41c77c59e528d": {
+    "first_seen": "2026-05-08T20:44:32.210278+00:00",
+    "title": "SCHEDULE 13D/A - Multicoin Capital Management, LLC (0002017172) (Filed by)",
+    "feed": "SEC EDGAR Filings"
+  },
+  "a668fd413a49f76c": {
+    "first_seen": "2026-05-08T20:44:32.210284+00:00",
+    "title": "10-Q - abrdn Palladium ETF Trust (0001459862) (Filer)",
+    "feed": "SEC EDGAR Filings"
   }
 }

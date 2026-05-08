@@ -51,47 +51,77 @@ def item_guid(item):
     return hashlib.md5(content.encode()).hexdigest()[:16]
 
 
+import re
+
 def fetch_feed(feed_config):
     """Fetch a single feed and return new items."""
     url = feed_config["url"]
     name = feed_config["name"]
     tags = feed_config.get("tags", [])
-    
+    headers = feed_config.get("headers", {}) or {}
+    include_types = feed_config.get("include_types", []) or []
+
+    # Build a prefix-anchored regex from include_types (e.g., "8-K" matches
+    # "8-K - Foo Inc." but "SCHEDULE 13D" does NOT match "SCHEDULE 13D/A"
+    # unless explicitly listed).
+    type_re = None
+    if include_types:
+        escaped = [re.escape(t) for t in include_types]
+        type_re = re.compile(r"^(" + "|".join(escaped) + r")\s+-\s+")
+
     print(f"Fetching: {name}...", file=sys.stderr)
-    
+
     try:
-        parsed = feedparser.parse(url)
+        parsed = feedparser.parse(url, request_headers=headers) if headers else feedparser.parse(url)
     except Exception as e:
         print(f"  ERROR: {e}", file=sys.stderr)
         return []
-    
+
+    # Surface fetch failures instead of silently returning empty
+    status = getattr(parsed, "status", None)
+    if status and status >= 400:
+        print(f"  WARN: HTTP {status} from {url}", file=sys.stderr)
+        return []
+    if parsed.bozo and not parsed.entries:
+        print(f"  WARN: parse error, no entries — {parsed.bozo_exception}", file=sys.stderr)
+        return []
+
     items = []
+    skipped_by_filter = 0
     cutoff = datetime.now(timezone.utc).timestamp() - (MAX_AGE_HOURS * 3600)
-    
+
     for entry in parsed.entries[:MAX_ITEMS_PER_FEED]:
+        title = entry.get("title", "No title")
+
+        # Filing-type whitelist (e.g., SEC EDGAR — drop noise like 424B2, 144)
+        if type_re and not type_re.match(title):
+            skipped_by_filter += 1
+            continue
+
         # Parse date
         pub_date = None
         if hasattr(entry, "published_parsed") and entry.published_parsed:
             pub_date = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
         elif hasattr(entry, "updated_parsed") and entry.updated_parsed:
             pub_date = datetime(*entry.updated_parsed[:6], tzinfo=timezone.utc)
-        
+
         if pub_date and pub_date.timestamp() < cutoff:
             continue
-        
+
         guid = item_guid(entry)
-        
+
         items.append({
             "guid": guid,
-            "title": entry.get("title", "No title"),
+            "title": title,
             "link": entry.get("link", ""),
             "summary": entry.get("summary", entry.get("description", ""))[:500],
             "published": pub_date.isoformat() if pub_date else "",
             "feed": name,
             "tags": tags,
         })
-    
-    print(f"  Got {len(items)} items", file=sys.stderr)
+
+    suffix = f" (filtered {skipped_by_filter} by include_types)" if skipped_by_filter else ""
+    print(f"  Got {len(items)} items{suffix}", file=sys.stderr)
     return items
 
 
@@ -166,11 +196,14 @@ def main():
     # Load dedup state
     seen = load_seen()
     
-    # Fetch all feeds
-    all_new_items = []
+    # Fetch all feeds.
+    #   all_items: everything currently in the freshness window — written to inbound.md
+    #   new_items: subset first seen this run — added to seen.json (audit trail)
+    all_items = []
+    new_items = []
     for feed_config in feeds:
         items = fetch_feed(feed_config)
-        
+        all_items.extend(items)
         for item in items:
             if item["guid"] not in seen:
                 seen[item["guid"]] = {
@@ -178,35 +211,22 @@ def main():
                     "title": item["title"],
                     "feed": item["feed"],
                 }
-                all_new_items.append(item)
-    
-    print(f"\nTotal new items: {len(all_new_items)}", file=sys.stderr)
-    
-    # Rotate if needed
-    rotate_inbound()
-    
-    # Write inbound.md
-    if all_new_items:
-        content = format_inbound(all_new_items)
-        
-        # Append to existing or create new
-        if INBOUND_MD.exists():
-            with open(INBOUND_MD, "a") as f:
-                f.write("\n\n---\n\n")
-                f.write(content)
-        else:
-            with open(INBOUND_MD, "w") as f:
-                f.write(content)
-        
-        print(f"Wrote {len(all_new_items)} items to {INBOUND_MD}", file=sys.stderr)
-    else:
-        print("No new items to write", file=sys.stderr)
-    
+                new_items.append(item)
+
+    print(f"\nIn window: {len(all_items)} items ({len(new_items)} new)", file=sys.stderr)
+
+    # Always overwrite inbound.md with the current freshness-window snapshot.
+    # History is preserved via git log of this file (every CI commit = one snapshot).
+    # Writing on every run also lets SENTRY distinguish "ran, no items" from "stale".
+    content = format_inbound(all_items)
+    INBOUND_MD.write_text(content)
+    print(f"Wrote {len(all_items)} items to {INBOUND_MD}", file=sys.stderr)
+
     # Save dedup state
     save_seen(seen)
-    
+
     # Output for GitHub Actions
-    print(f"items_fetched={len(all_new_items)}")
+    print(f"items_fetched={len(new_items)}")
 
 
 if __name__ == "__main__":

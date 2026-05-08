@@ -1,102 +1,37 @@
-# SIGNALS — Signal Routing System
+# SIGNALS — SENTRY Working Directory
 
-## Purpose
-Central depot for extracted signals, images, and agent-specific routing. Prome deposits here; agents read from here.
+This directory is owned by **SENTRY** (Cross-domain signals analyst, `AGENTS/SENTRY/`).
 
-## Directory Structure
+## Contents
 
-```
-SIGNALS/
-├── inbox/          # Raw signals before routing (general dump)
-├── agents/         # Agent-specific signals (token-efficient)
-│   ├── HAWK/
-│   ├── BRENT/
-│   ├── REGINALD/
-│   ├── CARL/
-│   ├── LIQUID/
-│   ├── SAM/
-│   ├── ZHAO/
-│   ├── LABOR/
-│   ├── MARCO/
-│   ├── BROCK/
-│   ├── SHADE/
-│   ├── OTTO/
-│   ├── HENRY/
-│   ├── RED/
-│   └── NEXUS/
-├── images/         # Original image files (PNG, JPG)
-├── briefings/      # SENTRY cross-domain synthesis (future)
-└── archive/        # Signals >30 days old
-```
+| Path | Purpose | Writer |
+|------|---------|--------|
+| `feeds.yml` | RSS/Atom feed config | Will (proposes), SENTRY |
+| `inbound.md` | Latest raw feed items, last 48h | GitHub Action (`scripts/fetch_feeds.py`) |
+| `seen.json` | Deduplication state | GitHub Action |
+| `briefings/` | SENTRY's morning/evening/adhoc briefings | SENTRY |
+| `archive/` | Monthly rotation of inbound + old briefings | SENTRY |
 
-## File Naming Convention
+## Pipeline
 
-```
-YYYY-MM-DD-topic[-source].md
-```
+`scripts/fetch_feeds.py` runs twice daily via `.github/workflows/feeds.yml` (10:00 UTC / 22:00 UTC ≈ 6 AM / 6 PM ET). It pulls each enabled feed in `feeds.yml`, deduplicates against `seen.json`, and rewrites `inbound.md` with items from the last 48 hours.
 
-Examples:
-- `2026-04-30-brent-122-spike.md`
-- `2026-04-30-hban-earnings-beat.md`
-- `2026-04-30-iran-hormuz-closure.md`
-
-## Format Template
-
-```markdown
-# Signal: [Topic]
-**Date:** YYYY-MM-DD
-**Source:** [URL, image, tweet, etc.]
-**Routed to:** [Agent names]
-**Priority:** 🔴 / 🟠 / 🟡 / 🟢
-
-## Extracted Content
-[Text extracted from image, or summary of signal]
-
-## Key Points
-- Point 1
-- Point 2
-
-## Context
-[How this relates to current thesis/positions]
-
-## Action Required
-[What agent should do with this]
-```
-
-## Routing Rules
-
-| Signal Type | Route To |
-|-------------|----------|
-| Iran/Israel/Military | HAWK |
-| Oil/Energy/Diesel | BRENT |
-| Bank Earnings/CRE | REGINALD |
-| Consumer/Credit/Auto | CARL, OTTO |
-| Rates/Fed/Treasury | LIQUID, HENRY |
-| Japan/BOJ/Yen | SAM |
-| China/Capital Flows | ZHAO |
-| Jobs/Claims/Labor | LABOR |
-| Immigration/Border | MARCO |
-| BDC/Private Credit | BROCK |
-| PE/Insurance | SHADE |
-| Cross-domain / Synthesis | NEXUS, RED |
-
-## Agent Instructions
-
-On boot or check-in, read your folder:
+Manual run:
 ```bash
-ls SIGNALS/agents/{YOUR_NAME}/
+cd /home/willi/Research-workspace
+source .venv/bin/activate
+python3 scripts/fetch_feeds.py
 ```
 
-Process signals in priority order (🔴 first). Move processed signals to `archive/` or mark as read.
+## Edit boundaries
 
-## Prome Instructions
+- **SENTRY** owns this directory: rewrites `inbound.md`/`seen.json` via the script, writes briefings, manages archive rotation.
+- **Will** proposes feed additions/removals via `AGENTS/SENTRY/proposals.md`; SENTRY does not autonomously add data sources.
+- **Other agents** read `briefings/` as published. They do not write here.
 
-When Will forwards a signal:
-1. Analyze image/text
-2. Determine relevant agent(s)
-3. Write to `SIGNALS/agents/{NAME}/YYYY-MM-DD-topic.md`
-4. Git add + commit + push
-5. Optionally notify agent via Telegram
+## Scope note
+
+This directory previously held a draft Prome-managed signal-routing depot (`agents/{HAWK,BRENT,...}/`, `images/`, etc.). That model never materialized — the Apr 30 README has been replaced. Image/screenshot routing now lives with WALTER on Telegram. If a fleet-wide raw-signal depot is revived later, it should live elsewhere (e.g. `AGENTS/HERMES/` or its successor) so SIGNALS/ stays scoped to SENTRY's pipeline.
 
 ---
-*Created: 2026-04-30*
+*Owned by SENTRY since 2026-05-07.*
