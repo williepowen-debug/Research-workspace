@@ -26,7 +26,6 @@
 | **~May 1-10** | **Q1 Call Report filings (FFIEC)** 🔴 | MI3 ratios, NDFI, AOCI detail, CRE DQ by category, TDR/mods. **NEW for OZK:** RESG classified detail, specific reserves on problem credits (validate Thread 1 EL estimates). **NEW for VLY:** charge-off composition + ACL build/release (verify "provisions-mask-deterioration" Q1 framing). **NEW for EGBN:** MI3 trajectory post strategic-de-risk announcement. | WAL MI3 ≥25% = acceleration. CFG NDFI reconciliation to Slide 24 $19.6B prelim. **More important than earnings for thesis.** | PROME, REGINALD |
 | **May 6** | **APO Q1 earnings** (pre-market, 8:30 AM ET webcast) | Atlas SP segment disclosure; warehouse book size; any non-bank servicer counterparty commentary | Atlas SP = dominant warehouse provider to stressed non-bank mortgage servicers ($6.9B at PFSI = 78% concentration). Adds to existing APO stack (MFS fraud, First Brands, Epstein May 21, Athene). | REGINALD, CARL |
 | May 12 | WAL Investor Day | Management response to thesis vectors. Indirect IQHQ commentary possible (WAL has separate relationship?) | — | PROME |
-| **May 15** | **KRE $70P expiry** | Position management | Roll/close decision needed by ~May 8 | FORGE |
 | ~Mid-May | FDIC Quarterly Banking Profile | Aggregate CRE DQ, NDFI growth, provision trends | NDFI still +35% YoY = doubling down | PROME |
 | May 21 | APO class action deadline | PC sector headline risk | — | BROCK |
 
