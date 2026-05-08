@@ -143,12 +143,13 @@ Last-pushed origin during session: `ee95c87d` (5/8 SIG-005 dispatch). Final clos
 
 ## WILL_NEEDS
 
-1. **(NEW)** Decide repo-root stitch timing for 2-way RED+WALTER joint-proposal — both side-files committed 5/6; mechanical assembly. **My read: ship next session, low-friction (~15min).**
-2. **(carry-forward)** Decide next-LIAISON priority — REGINALD top of unblocked queue per ranking; SIG-006 Financial -11K + SIG-W-20260507-004 Sternlicht give natural opening.
-3. **(carry-forward)** CONSUMER_STAGFLATION 5-axis sub-cluster spawn decision — cluster grew 18→23 today (3 of 6 dispatches into cluster). Promotion threshold heavily accumulating. **My read: promote v0.2 next session.**
-4. **(carry-forward)** AI_INFRA_CAPEX cluster split — SIG-002 layoffs vector distinct from CAPEX. **My read: hold one more cycle for vector durability.**
-5. **(carry-forward)** Iran-war anchor re-verify boundary 5/14 minimum.
-6. **(NEW time-sensitive)** April CPI Tuesday 5/13 8:30 AM ET — next AHE/inflation cross-check. Goldilocks-vs-stagflation arbiter. Pre-register live tape pull + verify framework next session boot.
+1. **(carry-forward)** Decide next-LIAISON priority — REGINALD top of unblocked queue per ranking; SIG-006 Financial -11K + SIG-W-20260507-004 Sternlicht give natural opening.
+2. **(carry-forward)** CONSUMER_STAGFLATION 5-axis sub-cluster spawn decision — cluster grew 18→23 today (3 of 6 dispatches into cluster). Promotion threshold heavily accumulating. **My read: promote v0.2 next session.**
+3. **(carry-forward)** AI_INFRA_CAPEX cluster split — SIG-002 layoffs vector distinct from CAPEX. **My read: hold one more cycle for vector durability.**
+4. **(carry-forward)** Iran-war anchor re-verify boundary 5/14 minimum.
+5. **(NEW time-sensitive)** April CPI Tuesday 5/13 8:30 AM ET — next AHE/inflation cross-check. Goldilocks-vs-stagflation arbiter. Pre-register live tape pull + verify framework next session boot.
+
+*(Removed item: ~~Repo-root stitch timing for 2-way RED+WALTER~~ — was stale carry-forward; the stitch already shipped 5/6 in commit `8a532073` per Will catch msg 1549. Same "verify state before propagating" lesson family as 5/6 morning approval-scope misread + RED Turn 2 empirical-dispatch-surface; no new finding needed, existing auto-memory `feedback_verify_counts_before_propagating.md` already covers it.)*
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
 
@@ -171,12 +172,14 @@ Last-pushed origin during session: `ee95c87d` (5/8 SIG-005 dispatch). Final clos
 14. **SIG-W-20260508-006 stagflation-vs-Goldilocks watch** — April CPI 5/13 is the next AHE arbiter; if AHE rolls back to ≤3.4%, market-Goldilocks-read wins; if sticks ≥3.6% AND third-consecutive negative-or-soft NFP, stagflation hardens.
 15. **5-sub-agent parallel scrape pattern propagation** — apply to other small-N cluster-tests (PC_STRESS / FED_FRAMEWORK / HYDROCARBON_INFRA candidates per MEMORY finding).
 
-**TOP-5 NEXT SESSION CANDIDATES (my recommendation, in priority order):**
-16. **Repo-root stitch 2-way RED+WALTER joint-proposal** — mechanical assembly; both side-files committed 5/6; ~15min low-friction. **HIGHEST priority, low cost.**
-17. **CROSS_REFS/{CARL,BRENT}.md cache scaffolds** — WALTER self-tasks per JOINT_PROPOSAL §3d; high-leverage at next dispatch with CARL/BRENT routing. ~30min each.
-18. **REGINALD LIAISON open** — top of unblocked queue; Q1 CR window closed today so REGINALD has bandwidth; SIG-006 Financial -11K + SIG-W-20260507-004 Sternlicht give natural opening; CC-side mechanics easy.
-19. **§2b infra build IF CARL+BRENT calendars land** — read both calendars; build cron-equivalent reader; first scan target April CPI 5/13. ~1-2h depending on calendar formats.
-20. **Forward dispatches use v0.8 fields organically** — first signal arriving next session validates the spec works in the wild. Implicit task — happens at first dispatch.
+**TOP-5 NEXT SESSION CANDIDATES (my recommendation, re-ranked after Will-catch on stale 2-way stitch carry-forward):**
+16. **CROSS_REFS/{CARL,BRENT}.md cache scaffolds** — WALTER self-tasks per JOINT_PROPOSAL §3d; high-leverage at next dispatch with CARL/BRENT routing (lets WALTER cite KB-CARL-NNN / FLOW-BRT-N.NN cross-refs in dispatch_note without re-grepping each time). ~30min each. **HIGHEST priority — WALTER self-task with no cross-agent dependency.**
+17. **REGINALD LIAISON open** — top of unblocked queue; Q1 CR window closed 5/8 so REGINALD has bandwidth; SIG-006 Financial -11K + SIG-W-20260507-004 Sternlicht give natural opening; CC-side mechanics easy. Pattern transfer from CARL/BRENT/RED LIAISONs (5-turn convergence baseline, substrate prep + open-with-substance).
+18. **§2b infra build IF CARL+BRENT calendars land** — at boot, check `AGENTS/CARL/DATA_RELEASE_CALENDAR.md` + `AGENTS/BRENT/workbook/DATA_RELEASE_CALENDAR.md`. If both exist, build cron-equivalent reader; first scan target April CPI Tuesday 5/13. If neither exists, defer. ~1-2h depending on calendar formats. **Time-sensitive — first §2b live test would be 5/13 CPI.**
+19. **3-way walter_carl_brent stitch IF CARL §1+§3a+§3c+§4 lands** — at boot, check `AGENTS/CARL/design/JOINT_PROPOSAL_2026-05-05_carl_sections.md`. If exists, mechanical assembly at repo-root `design/JOINT_PROPOSAL_2026-05-05_walter_carl_brent.md` per WALTER §6 ("Final stitch lives at repo-root...WALTER stitches when all 3 per-agent files land"). ~15min low-friction.
+20. **Forward dispatches use v0.8 fields organically** — first signal arriving next session validates the spec works in the wild (signal_role / consumer_transmission / consumer_lens / cluster_secondary / event_window). Implicit task — happens at first dispatch.
+
+*(Stale-removed: ~~Repo-root stitch 2-way RED+WALTER~~ — was actually shipped 5/6 in commit `8a532073` ("WALTER: housekeeping triple — anchor UAE date + REQ-RED removal + repo-root stitch"); file `design/JOINT_PROPOSAL_2026-05-06_red_walter.md` exists at 521 lines fully populated. Will-catch msg 1549 surfaced the stale carry-forward; same "verify state before propagating" lesson family.)*
 
 **WALTER self-tasks this week (no sign-off needed):**
 21. **`design/CROSS_REFS/CARL.md` cache scaffold.**
@@ -233,7 +236,7 @@ Last-pushed origin during session: `ee95c87d` (5/8 SIG-005 dispatch). Final clos
 ## OPEN DESIGN DECISIONS (need Will — also tracked in MEMORY.md)
 
 - ~~3-way JOINT_PROPOSAL §2 stack sign-off~~ ✅ APPROVED 2026-05-08; Phase 1 SHIPPED.
-- **Repo-root stitch timing for 2-way RED+WALTER** — my read: ship next session, low-friction.
+- ~~Repo-root stitch timing for 2-way RED+WALTER~~ ✅ ALREADY DONE 2026-05-06 commit `8a532073` (Will-catch msg 1549 surfaced stale carry-forward; lesson: verify state before propagating).
 - **Next-LIAISON priority** — REGINALD vs NEXUS vs HENRY vs BROCK; my read: REGINALD next.
 - **CONSUMER_STAGFLATION 5-axis sub-cluster spawn** — cluster grew 18→23 today; my read: promote v0.2 next session.
 - **AI_INFRA_CAPEX cluster split/expansion** — hold one more cycle.
@@ -258,3 +261,5 @@ Last-pushed origin during session: `ee95c87d` (5/8 SIG-005 dispatch). Final clos
 *Maintenance note: this file is overwritten each session per CLAUDE.md spawn protocol step 15. The FOLLOW-UP and OPEN DESIGN DECISIONS sections are the load-bearing carry-forward — every closeout copies open items forward and removes resolved ones. Don't append; don't keep historical sessions here; that's what `SESSION_LOG.md` is for.*
 
 *Resolved this session (removed from carry-forward): 3-way JOINT_PROPOSAL §2 stack 4-item Will sign-off ✅ APPROVED + Phase 1 SHIPPED + v0.7 prose-tag interim discipline RETIRED + FORMAT_SPEC v0.9 prerequisite SATISFIED + 5/8 NFP dispatched + AM 3-image batch + AM kill_log audit + AM re-research follow-on + AM thread-pull-driven scrape + CARL Path C 92→97% confirmation now consensus-+ macro-confirmed + SESSION LOG roll + FOLLOW-UP renumbering.*
+
+*Stale carry-forward cleared this session (was already done; surfaced by Will-catch msg 1549 + msg 1551): 2-way RED+WALTER repo-root stitch — actually shipped 2026-05-06 commit `8a532073`; file `design/JOINT_PROPOSAL_2026-05-06_red_walter.md` exists at 521 lines fully populated; my carry-forward propagated stale text from prior closeouts without verifying file system. Top-5 next-session candidates re-ranked accordingly.*
