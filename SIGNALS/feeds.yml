@@ -1,5 +1,15 @@
 # SENTRY Feed Configuration
 # Edit this file to add/remove feeds. GitHub Action picks up changes on next run.
+#
+# Per-feed fields:
+#   name: human-readable feed name
+#   url: RSS/Atom URL
+#   tags: list of #tags applied to all items from this feed
+#   enabled: true|false
+#   headers: optional dict of HTTP headers (e.g., User-Agent for SEC compliance)
+#   include_types: optional whitelist of title-prefix strings; entries whose
+#     title doesn't start with one of these (followed by " - ") are dropped.
+#     Used to filter SEC EDGAR's noisy getcurrent feed down to high-signal forms.
 
 feeds:
   - name: "EIA Today in Energy"
@@ -7,30 +17,44 @@ feeds:
     tags: ["energy", "brent", "eia"]
     enabled: true
 
-  - name: "BLS News Releases"
-    url: "https://www.bls.gov/feed/bls_news.xml"
-    tags: ["labor", "macro", "bls"]
-    enabled: true
-
-  - name: "CBP News Releases"
-    url: "https://www.cbp.gov/newsroom/rss.xml"
-    tags: ["immigration", "border", "marco"]
-    enabled: true
-
-  # SEC EDGAR requires special handling (blocks non-browser requests)
-  # Phase 1.5: Add via EDGAR API or RSS wrapper
+  # SEC EDGAR — global getcurrent feed, filtered to high-signal forms only.
+  # Per https://www.sec.gov/os/accessing-edgar-data, requests must include a
+  # UA identifying the requester with contact info.
   - name: "SEC EDGAR Filings"
-    url: "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=&company=&dateb=&owner=include&count=40&output=atom"
+    url: "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=&company=&dateb=&owner=include&count=100&output=atom"
     tags: ["filings", "sec"]
-    enabled: false
+    enabled: true
+    headers:
+      User-Agent: "SENTRY-fleet williepowen@gmail.com"
+    include_types:
+      # Material events
+      - "8-K"
+      - "8-K/A"
+      # Periodic reports
+      - "10-Q"
+      - "10-K"
+      - "20-F"
+      # Late-filing notices (often a stress signal)
+      - "NT 10-K"
+      - "NT 10-Q"
+      # Securities offerings
+      - "S-1"
+      - "S-1/A"
+      # Activist / control disclosures (5%+ with intent to influence)
+      - "SCHEDULE 13D"
+      - "SCHEDULE 13D/A"
+      # Foreign private issuer disclosures
+      - "6-K"
+      # Proxy / annual meeting (for activism context)
+      - "DEF 14A"
 
-  # Phase 1.5 candidates:
-  # - name: "NY Fed Markets"
-  #   url: "https://www.newyorkfed.org/rss/markets"
-  #   tags: ["rates", "fed", "liquidity"]
-  #   enabled: false
-  #
-  # - name: "ISW Daily Assessments"
-  #   url: "https://www.understandingwar.org/rss.xml"
-  #   tags: ["geopol", "hawk", "military"]
-  #   enabled: false
+  # --- Removed 2026-05-08 (Will-authorized) ---
+  # BLS News Releases — IP-blocked by BLS even with browser UA. LABOR domain
+  # agent already covers BLS releases via direct workflow.
+  # CBP News Releases — 404 on documented URL. Working URL exists at
+  # /rss.xml but content is operational seizure-blotter, not policy signal;
+  # MARCO covers immigration depth via other channels.
+
+  # --- Phase 1.5 candidates (proposals.md) ---
+  # NY Fed Markets Data — primary dealer stats, repo data (LIQUID-adjacent)
+  # ISW Daily Assessments — Russia/Iran military analysis (HAWK-adjacent)
