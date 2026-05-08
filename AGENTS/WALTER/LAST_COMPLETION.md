@@ -8,7 +8,7 @@
 
 Session 2026-05-08 Fri ~02:40–03:30 UTC. Will Telegram boot 02:40 UTC msg 1483 → 3-image batch 03:09 UTC msgs 1485-1487 → green-light msg 1492 "yes to dispatches" + parallel kill_log audit request.
 
-**Net: 3 dispatches (1 IMMEDIATE + 1 PRIORITY + 1 ROUTINE) + 2 KILLs + 2 verify-research spawns ($0.10) + kill_log audit deliverable to Will (msg 1493+1494).**
+**Net: 4 dispatches (1 IMMEDIATE + 2 PRIORITY + 1 ROUTINE) + 2 KILLs + 3 verify-research spawns ($0.15) + 2 kill_log audit deliverables (82-kill all-time + 48-kill substantive-only) + 1 re-research-driven follow-on dispatch (SIG-W-20260508-004 FHA SDQ TPP-artifact).**
 
 Boot-state at session start: tree at last-pushed `10c34687` (5/7 PM-late housekeeping); origin had PROME EDGAR `e5bbb9ac` already pulled in via 5/7 PM-late rebase.
 
@@ -21,6 +21,7 @@ Boot-state at session start: tree at last-pushed `10c34687` (5/7 PM-late houseke
 | 1b | First Squawk @FirstSquawk PBOC fixes CNY 6.8502 vs last close 6.8068 (+44 pip yuan-weaker); offshore USDCNH=X faded to $6.80 within ~12-13h | n/a (golden-source PBOC fix print + golden-source live tape; no verify) | **SIG-W-20260508-003 ROUTINE → ZHAO / ASIA_CHINA** (SAM/LIQUID/RED/HENRY info). ZHAO STALE 35d revival material; ASIA_CHINA 3→4 overtakes AI_INFRA_CAPEX in ToC sort. |
 | 1a | First Squawk PBOC 500M yuan 7-day reverse repo @ steady 1.40% | n/a | **KILL — Relevance** (routine OMO, no threshold, 500M is small in absolute terms). |
 | 2 | First Squawk JGB Enhanced Liquidity Auction Japan 700B yen offered (no maturity-bucket detail) | n/a | **KILL — Relevance** (routine BOJ ELA op; no bucket detail = no curve-management signal). |
+| (re-research follow-on, dispatched ~13:55 UTC after Will-greenlit kill_log re-research msgs 1503/1507) | Center for Responsible Lending "Policy-related reporting change, not increasing financial distress, drove late-2025 FHA delinquency rise" + MBA Q4 2025 corroboration. WALTER kill_log re-research follow-on after 2026-04-20 "FHA 180% of 2009" original kill (CORRECTED-FRAMING 0.55) | **CORRECTED-FRAMING 0.85** (verify spawn ~$0.05) — original 4/20 kill VALIDATED 18d later (count-vs-rate distortion confirmed); but headline FHA SDQ rose 3.57%→5.23% Sep25→Jan26 of which **92% (153bps) is Oct-2025 TPP rule-change reporting artifact**, NOT credit deterioration. Distress-adjusted ~3.70% stable +13bps over 4mo; ~39% of 2009 peak (9.4%); not approaching 2008-09 | **SIG-W-20260508-004 PRIORITY → CARL / CONSUMER_STAGFLATION** (REGINALD/BROCK/RED auto-cc/NEXUS info). Why dispatch despite kill validation: forward FHA SDQ headlines through ~mid-2026 will be artifact-amplified; without context, downstream agents (CARL/REGINALD/RED) will misread Path C 92→97% false-positive. Re-verify trigger: headline >6.0% OR distress-adjusted >25bps single month. RED auto-cc per v0.7 CORRECTED-FRAMING. Same family as MEMORY 4/20 finding + 5/7 SIG-002/SIG-004 stale-framing pattern. |
 
 **Live tape this session via FORGE/tools/market-data/fetch.py:** Brent $101.15 -0.12% / WTI $95.62 +0.57% / VIX 17.08 -1.78% / HYG -0.37% / ^TNX 4.39% +0.83% / SPX 7,337 -0.38% / KRE -1.07% / WAL -1.22% / ZION -1.97% / **WHR -11.91% intraday (Bitzer earnings reaction validation)** / KHC +2.47% / MCD -0.14% / **NET +3.30% / UPWK +5.26% / BILL +1.59% (PRE-AH 8-K filings; mark-context lesson)** / USDCNH=X $6.80 -0.07%.
 
@@ -142,7 +143,8 @@ Total cost ~$0.10. Verdict mix: 2 CONFIRMED — clean batch.
 ### Resolved this session (removed from carry-forward)
 
 - **3-image batch 5/8 03:09 UTC** — all 3 dispatched/killed end-to-end; SIG-W-20260508-001..003 + 2 KILLs.
-- **kill_log audit Will-request msg 1492** — delivered with inline digest + attached file.
+- **kill_log audit Will-request msgs 1492/1498** — both digests delivered (82-kill all-time + 48-kill substantive-only via Novelty/DUP filter).
+- **kill_log re-research Will-greenlit msgs 1503/1507** — #2 pandemic-killed × 4-node cluster review (both kills remain correct; kill-with-watch-flag discipline shipped end-to-end clean) + #1 FHA SDQ refresh (original kill validated; surfaced new dispatch-worthy SIG-004 TPP-artifact signal).
 - **CARL Path C component-tracking from 5/7 FOLLOW-UP** — TRIGGERED earlier than expected via KHC + WHR Q1 prints (didn't need LYV/CMG/SBUX as pre-condition).
 
 ## WILL_NEEDS
@@ -172,6 +174,7 @@ Total cost ~$0.10. Verdict mix: 2 CONFIRMED — clean batch.
 11. **SIG-W-20260508-001 propagation watch** — additional CEO Iran-war-consumer attribution on remaining Q1 prints; if pattern continues, CONSUMER_STAGFLATION × IRAN_HORMUZ cluster intersection may merit dedicated track.
 12. **SIG-W-20260508-002 propagation watch** — additional concurrent SaaS/tech AI-displacement 8-K filings; if pattern continues 1-2 wks, AI-displacement may need own classification within AI_INFRA_CAPEX cluster.
 13. **SIG-W-20260508-003 ZHAO revival material** — ZHAO STALE 35d; outbox REQ if PBOC drift continues into next session.
+14. **SIG-W-20260508-004 FHA SDQ TPP-artifact re-verify trigger** — re-open if headline crosses **6.0%** OR distress-adjusted measure rises **>25bps in any single month**. Otherwise scheduled re-check at next MBA quarterly release (Q1 2026 release ~mid-May).
 
 **WALTER self-tasks this week (no sign-off needed):**
 14. **`design/CROSS_REFS/CARL.md` cache scaffold.**
