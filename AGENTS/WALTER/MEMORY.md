@@ -15,7 +15,6 @@
 - [2026-04-14] **Don't kill on lede alone.** Read the full body before classifying. Lede-only kill missed 3 hard data points in Seeking Alpha KRE piece. Distinguish weak author synthesis from named-aggregator stats (Morningstar, Redfin, BLS) — low-credibility authors can still surface real citable stats.
 - [2026-04-19] **Check target-agent KB before "missed context" findings.** Verify-research often surfaces domain knowledge target agent already holds. Apply: before filing "network is N weeks behind on X," grep target's own files first. WALTER doesn't need to hold BRENT's domain depth.
 - [2026-04-20 evening] **Surface friction proactively in spec proposals.** Enumerate ambiguities/edge cases/double-counting risks in same message as draft, not after Will asks. Shortens review loop and catches problems before they're baked in.
-- [2026-04-20] **Verify when origin uses summarizing-plurals or mechanism-assertions.** "co-founders" / "all three" / "replaced with" / "swapped for" / "backed by" — these framing slots most often misrepresent primary source. Verify-research cost ~$0.05 vs downstream-overstated-thesis cost: asymmetric. Codified as Phase 1.5 trigger pattern in CHECKLIST v0.8.
 - [2026-04-25] **CORRECTED-FRAMING is becoming the dominant verify verdict** (FL Scott "43k" / FHA "180% of 2009" / DB call/put numerics / FHLB EO / Hengli novelty-framing was CONFIRMED but the recurring pattern is direction-confirmed-specifics-imprecise). Calibration: when CORRECTED-FRAMING fires, drop confidence to ~0.55, retain directional thesis, flag specifics as imprecise in dispatch_note. The verify is HIGHEST-VALUE here — separates "real thesis transmission" from "headline cherry-pick."
 - [2026-04-26] **Verify-research can have right-history-wrong-tense.** Apr 26 session: verify-research framed BRICS bases-damage signal as "active 2026 Iran war from late February" with valid NBC News primary URL. The history claim was correct (war did happen, Iran did strike 100+ targets across 11 US bases) but the tense was wrong (currently in ceasefire since Apr 8). Cost of accepting framing wholesale: would have dispatched as ACTIVE-WAR signal when current state is post-ceasefire. Discipline: cross-check current-state against MEMORY/STATUS network anchor before accepting verify framing wholesale, especially for state-that-evolves-quickly domains (Iran/Hormuz, FL drought, retail bankruptcy waves, Fed rate path).
 - [2026-04-28] **Verify-research can surface a DIFFERENT-CATEGORY catalyst than the headline implies.** Apr 28 Phoenix BTR signal: headline framed as credit-cycle ("capital dries up, layoffs"), verify-research surfaced **regulatory** catalyst (21st Century ROAD to Housing Act Senate 89-10 Mar 10-12 forcing 7-yr forced disposal of institutional 350+ SF home portfolios → BTR institutional buyer pool collapse → new-start financing freeze). This is HIGHER-VALUE than CORRECTED-FRAMING-on-magnitude — the catalyst CATEGORY moved (financial → regulatory/legislative). Apply: when verify-research pulls a different-category catalyst, that's load-bearing for routing — adds POLITICAL/LEGISLATIVE vector to a cluster that was previously credit-only, opens BARON political-network-mapping pickup, changes the timing-pivot (House reconciliation date vs credit-cycle peak). Codify in dispatch_note explicitly: "catalyst category corrected from X to Y."
@@ -88,31 +87,11 @@ Will Telegram boot 12:48 UTC msg 1466 ("Hi Walter. Please boot up"). Boot pull c
 
 ### NEXT SESSION
 
-**Time-sensitive carry-forward:**
-1. **NFP Friday 5/8** — LABOR carry-forward; first NFP since LABOR's 5/4 refresh.
-2. **OBDC Q1 (reported 5/6 AMC)** — BROCK pickup pending.
-3. **LYV Q1 from 5/5** — CONSUMER_STAGFLATION discretionary-sub-vector still surfacing in intake.
-4. **Q1 Call Report window May 1-10** — REGINALD recheck (last day = today's close 5/7 / tomorrow 5/8).
-5. **Iran-war anchor re-verify boundary 5/14 minimum** OR earlier on visible kinetic state-change. Anchor refreshed 5/7 PM with CIA assessment update (verified-as-of stamp 5/7).
-6. **FALSIFICATION_TRIGGERS first-fire watch** — RED-FT-01 HY-OAS<280×3 closest (BOND primary OAS pull pending); RED-FT-06 VIX<16×5 ~6.75% above (just outside 5% near-trigger band; needs another 1-2pt pullback to enter watch).
+**Canonical carry-forward:** see `LAST_COMPLETION.md` FOLLOW-UP + OPEN DESIGN DECISIONS sections (load-bearing running list — do not duplicate here).
 
-**Today's dispatch follow-ups:**
-7. **SIG-001 IRAN_WAR thesis-update propagation watch** — over next 7-14d, monitor whether incoming Iran-cluster signals calibrate to the 3-4mo timeline + 75%/70% capability retention. If subsequent intel-leak / wire signals contradict (e.g., Iran-collapse "imminent" framing returns), recalibrate anchor.
-8. **SIG-002+003 CARL Path C component-tracking** — watch April restaurant prints (LYV / CMG / SBUX) for confirmation of Q2-forward turn-negative narrative MCD CFO Borden flagged. If confirmed, CRL-08 92→97%+ direction; if not, framework calibration input.
-9. **SIG-004 Sternlicht-Starwood pattern propagation** — REGINALD pickup: which money-center/regional banks hold B-piece/mezz on K-Star-serviced Starwood-Capital trusts? Q1 CR window closing this week.
-10. **3rd-session bifurcation-pattern (5/5 → 5/6 → 5/7) NOT confirmed today** — substance lighter without OPEC/EIA step-function. Pattern remains 2-session-confirmed; if 5/8 shows substance-hard / tape-soft again, becomes load-bearing thesis-revision input.
-
-**Open agent / framing pickups (unchanged):**
-11. **HAWK refresh urgent** — 17d STALE + framing actively misleading; REQ-HAWK in outbox.
-12. **NEXUS classification overdue** — 33d STALE; cluster_mediating placeholder-pending-REQ-NEXUS tags accumulating; REQ-NEXUS in outbox.
-13. **REGINALD top of unblocked LIAISON queue** — Q1 CR window May 1-10 + Sternlicht-Starwood pickup gives natural opening.
-14. **OZK Q1 post-mortem** — REGINALD pickup pending since Apr 16.
-
-**WALTER self-tasks (no sign-off needed):**
-15. **`design/CROSS_REFS/CARL.md` cache scaffold** — carry-forward.
-16. **`design/CROSS_REFS/BRENT.md` cache refresh** — carry-forward.
-17. **BOARD_CONSUMPTION_SPEC v0.2 dual-pattern doc** — carry-forward; propagation to 11 remaining Tier-1 agent CLAUDE.md still blocked on Will rollout decision.
-18. **MEMORY trim to ≤100 lines** — currently ~135 (added today's session block + 1 finding); needs trim or archive 2-3 entries to design/findings/.
-19. **STATUS SESSION LOG hygiene** — 12+ entries currently; cap is 5; roll older entries to SESSION_LOG.md. Lightweight closeout-discipline task.
-
-**Carry-forward + OPEN DESIGN DECISIONS:** see canonical running list in `LAST_COMPLETION.md` FOLLOW-UP + OPEN DESIGN DECISIONS sections.
+**Time-sensitive THIS WEEK** (boot quick-scan; everything else is in LAST_COMPLETION):
+1. **NFP Friday 5/8** — LABOR (first NFP since 5/4 refresh).
+2. **Q1 Call Report window closes 5/8** — REGINALD recheck.
+3. **OBDC Q1 5/6 AMC** — BROCK pickup pending.
+4. **Iran-war anchor next re-verify boundary 5/14 minimum** OR earlier on kinetic state-change.
+5. **FALSIFICATION first-fire watch** — RED-FT-01 HY-OAS<280×3 closest (BOND primary OAS pull pending); RED-FT-06 VIX<16×5 ~6.75% above near-trigger band.

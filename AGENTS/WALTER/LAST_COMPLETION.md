@@ -183,8 +183,7 @@ Total cost ~$0.20. Verdict mix: 2 CONFIRMED + 2 CORRECTED-FRAMING — matches ME
 14. **`design/CROSS_REFS/CARL.md` cache scaffold.**
 15. **`design/CROSS_REFS/BRENT.md` cache refresh.**
 16. **BOARD_CONSUMPTION_SPEC v0.2 dual-pattern doc.**
-17. **MEMORY trim to ≤100 lines** — currently ~135.
-18. **STATUS SESSION LOG hygiene** — roll 7+ older entries to SESSION_LOG.md.
+*(items 17 + 18 resolved this session — light-housekeeping pass; see Resolved block at bottom)*
 
 **3-way joint proposal pipeline:**
 19. **CARL drafts §1 + §3a + §3c + §4 sections** — CARL self-task per Turn 7.
@@ -266,3 +265,5 @@ Total cost ~$0.20. Verdict mix: 2 CONFIRMED + 2 CORRECTED-FRAMING — matches ME
 *Maintenance note: this file is overwritten each session per CLAUDE.md spawn protocol step 15. The FOLLOW-UP and OPEN DESIGN DECISIONS sections are the load-bearing carry-forward — every closeout copies open items forward and removes resolved ones. Don't append; don't keep historical sessions here; that's what `SESSION_LOG.md` is for.*
 
 *Resolved this session (removed from carry-forward): "6-image batch 5/7 20:31 UTC processing" + "REQ-RED outbox removal" (already done 5/6) + "Iran-war anchor UAE-exit correction" (already done 5/6) + "BOARD INDEX 5-row backfill from 5/6 batch 4" + "Visegrad source-credibility candidate-finding" (graduated to formal MEMORY entry).*
+
+*Resolved in 5/7 PM-late light-housekeeping pass (CC-side reboot ~01:00 UTC 5/8): FOLLOW-UP #17 MEMORY trim to ≤100 lines (118 → 97; dropped already-promoted [4/20] verify-summarizing-plurals entry + compressed NEXT SESSION block 30 → 9 lines pointing at this canonical FOLLOW-UP) + FOLLOW-UP #18 STATUS SESSION LOG hygiene (rolled 8 older entries 5/5–4/24 to `SESSION_LOG.md`; STATUS now at 5-cap). Outbox queue staleness confirmed (REQ-HAWK + REQ-NEXUS both 2d, well under 14d). 0 BOARD dispatches, 0 sub-spawns, 0 spec changes. Item-renumbering of remaining FOLLOW-UP rows deferred to next full closeout.*
