@@ -8,7 +8,7 @@
 
 Session 2026-05-08 Fri ~02:40–03:30 UTC. Will Telegram boot 02:40 UTC msg 1483 → 3-image batch 03:09 UTC msgs 1485-1487 → green-light msg 1492 "yes to dispatches" + parallel kill_log audit request.
 
-**Net: 4 dispatches (1 IMMEDIATE + 2 PRIORITY + 1 ROUTINE) + 2 KILLs + 3 verify-research spawns ($0.15) + 2 kill_log audit deliverables (82-kill all-time + 48-kill substantive-only) + 1 re-research-driven follow-on dispatch (SIG-W-20260508-004 FHA SDQ TPP-artifact).**
+**Net: 5 dispatches (2 IMMEDIATE + 2 PRIORITY + 1 ROUTINE) + 2 KILLs + 8 sub-agent spawns ($0.65: 2 verify-research + 1 re-research + 5 parallel Q1 transcript scrape) + 2 kill_log audit deliverables + 2 follow-on dispatches from kill_log audit thread (SIG-004 FHA SDQ TPP-artifact + SIG-005 15-CEO Iran/Middle-East-tied consumer-stretch cross-sector consensus).**
 
 Boot-state at session start: tree at last-pushed `10c34687` (5/7 PM-late housekeeping); origin had PROME EDGAR `e5bbb9ac` already pulled in via 5/7 PM-late rebase.
 
@@ -22,6 +22,7 @@ Boot-state at session start: tree at last-pushed `10c34687` (5/7 PM-late houseke
 | 1a | First Squawk PBOC 500M yuan 7-day reverse repo @ steady 1.40% | n/a | **KILL — Relevance** (routine OMO, no threshold, 500M is small in absolute terms). |
 | 2 | First Squawk JGB Enhanced Liquidity Auction Japan 700B yen offered (no maturity-bucket detail) | n/a | **KILL — Relevance** (routine BOJ ELA op; no bucket detail = no curve-management signal). |
 | (re-research follow-on, dispatched ~13:55 UTC after Will-greenlit kill_log re-research msgs 1503/1507) | Center for Responsible Lending "Policy-related reporting change, not increasing financial distress, drove late-2025 FHA delinquency rise" + MBA Q4 2025 corroboration. WALTER kill_log re-research follow-on after 2026-04-20 "FHA 180% of 2009" original kill (CORRECTED-FRAMING 0.55) | **CORRECTED-FRAMING 0.85** (verify spawn ~$0.05) — original 4/20 kill VALIDATED 18d later (count-vs-rate distortion confirmed); but headline FHA SDQ rose 3.57%→5.23% Sep25→Jan26 of which **92% (153bps) is Oct-2025 TPP rule-change reporting artifact**, NOT credit deterioration. Distress-adjusted ~3.70% stable +13bps over 4mo; ~39% of 2009 peak (9.4%); not approaching 2008-09 | **SIG-W-20260508-004 PRIORITY → CARL / CONSUMER_STAGFLATION** (REGINALD/BROCK/RED auto-cc/NEXUS info). Why dispatch despite kill validation: forward FHA SDQ headlines through ~mid-2026 will be artifact-amplified; without context, downstream agents (CARL/REGINALD/RED) will misread Path C 92→97% false-positive. Re-verify trigger: headline >6.0% OR distress-adjusted >25bps single month. RED auto-cc per v0.7 CORRECTED-FRAMING. Same family as MEMORY 4/20 finding + 5/7 SIG-002/SIG-004 stale-framing pattern. |
+| (thread-pull-driven follow-on, dispatched ~15:00 UTC after Will-greenlit 5-sub-agent Q1 transcript scrape msgs 1514/1521) | WALTER 5-sub-agent parallel Q1 transcript scrape across 41 consumer-facing public companies / 5 sectors. Aggregator-research with verbatim CEO/CFO quotes from primary earnings call transcripts. Conversation arc: Will msg 1501 ("Would any of these benefit from additional research?") → msg 1509 ("threads to pull on?") → msg 1514 ("you will need more than one agent spawn") → msg 1521 green-light. ~$0.50 cost / ~10min wall-clock parallel | **Aggregator-research CONFIRMED 0.90** — 32 reported / 6 PENDING forward-test 5/14-28. **15 IRAN_EXPLICIT/BOTH** CEO/CFO statements: CPG (PG/KO/KMB/MDLZ) + Restaurants (CMG/DPZ) + Durables (MAS/LEN) + Travel (NCLH/MAR/BKNG/EXPE) + original 3 (KHC/WHR/MCD). + 11 STRETCH_IMPLICIT + 7 NEITHER incl 5 substantive dissents (DRI $150k+ insulated / TJX refused income-bifurcation / DHI denied Iran/gas / CL silent / HLT counter-narrative C-shaped lower-end CONVERGENCE-UPWARD / PEP names-but-disputes / FUN declined). Income-tier stratification = RED-grade adversarial input | **SIG-W-20260508-005 IMMEDIATE → CARL / CONSUMER_STAGFLATION + IRAN_HORMUZ secondary** (HENRY/REGINALD/BRENT/RED auto-cc/NEXUS/BARON info). Materially extends SIG-001 from 3-CEO to 15-CEO cross-sector consensus. CARL Path C CRL-08 92→97% confirming HARDER. cluster_mediating + cross-cluster + within-cluster bifurcation via dissent. Auto-upgrade IMMEDIATE per safety-net rule (15-actor consensus far exceeds 2+-actors-same-theme threshold). Forward-test 6 PENDING reads = 14d cluster-continuation-or-bounded resolution. RED auto-cc per v0.7. **Process finding: 5-sub-agent parallel scrape pattern @ ~$0.015/reporter / ~10min wall-clock = high-leverage scrape pattern when testing whether 3-data-point cluster is broader.** |
 
 **Live tape this session via FORGE/tools/market-data/fetch.py:** Brent $101.15 -0.12% / WTI $95.62 +0.57% / VIX 17.08 -1.78% / HYG -0.37% / ^TNX 4.39% +0.83% / SPX 7,337 -0.38% / KRE -1.07% / WAL -1.22% / ZION -1.97% / **WHR -11.91% intraday (Bitzer earnings reaction validation)** / KHC +2.47% / MCD -0.14% / **NET +3.30% / UPWK +5.26% / BILL +1.59% (PRE-AH 8-K filings; mark-context lesson)** / USDCNH=X $6.80 -0.07%.
 
@@ -144,8 +145,9 @@ Total cost ~$0.10. Verdict mix: 2 CONFIRMED — clean batch.
 
 - **3-image batch 5/8 03:09 UTC** — all 3 dispatched/killed end-to-end; SIG-W-20260508-001..003 + 2 KILLs.
 - **kill_log audit Will-request msgs 1492/1498** — both digests delivered (82-kill all-time + 48-kill substantive-only via Novelty/DUP filter).
-- **kill_log re-research Will-greenlit msgs 1503/1507** — #2 pandemic-killed × 4-node cluster review (both kills remain correct; kill-with-watch-flag discipline shipped end-to-end clean) + #1 FHA SDQ refresh (original kill validated; surfaced new dispatch-worthy SIG-004 TPP-artifact signal).
-- **CARL Path C component-tracking from 5/7 FOLLOW-UP** — TRIGGERED earlier than expected via KHC + WHR Q1 prints (didn't need LYV/CMG/SBUX as pre-condition).
+- **kill_log re-research Will-greenlit msgs 1503/1507** — #2 pandemic-killed × 4-node cluster review (both kills remain correct) + #1 FHA SDQ refresh (original kill validated; surfaced SIG-004 TPP-artifact dispatch).
+- **Thread-pull discussion msgs 1509/1512/1514/1521** — proposed 4 high-leverage threads + Q1 transcript scrape selected for spawn. **Resulted in SIG-005 dispatch (15-CEO cross-sector consensus).**
+- **CARL Path C component-tracking from 5/7 FOLLOW-UP** — TRIGGERED earlier than expected via KHC + WHR Q1 prints + now confirmed at consensus breadth via SIG-005 (didn't need LYV/CMG/SBUX as pre-condition).
 
 ## WILL_NEEDS
 
@@ -171,10 +173,12 @@ Total cost ~$0.10. Verdict mix: 2 CONFIRMED — clean batch.
 10. **CRL-08 92→97% confirmation watch** — KHC + WHR Q1 already triggered Path C; if LYV/CMG/SBUX + NFP align, graduates to 97%+.
 
 **Today's dispatch follow-ups:**
-11. **SIG-W-20260508-001 propagation watch** — additional CEO Iran-war-consumer attribution on remaining Q1 prints; if pattern continues, CONSUMER_STAGFLATION × IRAN_HORMUZ cluster intersection may merit dedicated track.
+11. **SIG-W-20260508-001 propagation watch** — superseded by SIG-005 cross-sector consensus confirmation; remaining watch is whether Iran-tie language increases further on PENDING Q1 prints.
 12. **SIG-W-20260508-002 propagation watch** — additional concurrent SaaS/tech AI-displacement 8-K filings; if pattern continues 1-2 wks, AI-displacement may need own classification within AI_INFRA_CAPEX cluster.
 13. **SIG-W-20260508-003 ZHAO revival material** — ZHAO STALE 35d; outbox REQ if PBOC drift continues into next session.
-14. **SIG-W-20260508-004 FHA SDQ TPP-artifact re-verify trigger** — re-open if headline crosses **6.0%** OR distress-adjusted measure rises **>25bps in any single month**. Otherwise scheduled re-check at next MBA quarterly release (Q1 2026 release ~mid-May).
+14. **SIG-W-20260508-004 FHA SDQ TPP-artifact re-verify trigger** — re-open if headline crosses **6.0%** OR distress-adjusted measure rises **>25bps in any single month**. Otherwise scheduled re-check at next MBA quarterly release (~mid-May).
+15. **SIG-W-20260508-005 forward-test 6 PENDING reads 5/14-28** — TOL Q2 5/20 + WMT 5/15 + HD 5/19 + TGT/LOW 5/20 + COST 5/28. **14d cluster-continuation-or-bounded resolution.** If 4+ of 6 land NEITHER, cluster ceiling at ~50% of consumer-facing universe + dissent-consolidates; if 4+ Iran/Middle-East-tied, consensus is universal. **Highest-information forward-test of session.**
+16. **SIG-005 process finding propagation** — 5-sub-agent parallel scrape pattern is now in MEMORY findings; consider applying to other small-N cluster-test scenarios (PC_STRESS / FED_FRAMEWORK / HYDROCARBON_INFRA all candidate clusters).
 
 **WALTER self-tasks this week (no sign-off needed):**
 14. **`design/CROSS_REFS/CARL.md` cache scaffold.**
