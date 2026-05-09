@@ -5,11 +5,12 @@
 *Will, when you call SENTRY next, point me here ("SENTRY, read your TODO" / "SENTRY, pick up from last session"). Order to read: STATUS.md (current state) → ROADMAP.md (trajectory + suggested next-session order) → this file (immediate-action queue + friction).*
 
 **Roadmap saved 2026-05-09 PM at `AGENTS/SENTRY/ROADMAP.md`.** Next-session candidates from the roadmap (suggested order):
-1. Key State adoption ping (Will-side) + generate 5/10 morning brief
-2. CIK watchlist expansion: WAL + HBAN + KRE constituents
+1. Key State adoption ping (Will-side) + generate 5/10 morning brief — **NOW WITH THESIS-DENSE WATCHLIST**
+2. ~~CIK watchlist expansion: WAL + HBAN + KRE constituents~~ — **DONE 5/9 PM (15 entries, REGINALD-aligned)**
 3. Persistence cache so `inbound.md` retains a true 48h window
-4. Format-iteration retrospective once 4-5 real briefings exist
-5. Pause + decide whether to build Phase 2 or hold
+4. `scripts/test_fetch_feeds.py` — extract committed test file from inline-dev asserts (small lift)
+5. Format-iteration retrospective once 4-5 real briefings exist
+6. Pause + decide whether to build Phase 2 or hold
 
 ---
 
@@ -21,10 +22,10 @@
   - Workflow `permissions: contents: write` granted (`aaabf0b5`) — primary suspected root cause of the 5/8 silent-fail.
   - Workflow now installs from pinned `scripts/requirements.txt` (`3858048f`) — activates v0.4 pinning in CI.
 - [x] **Verify CI end-to-end** — DONE 5/9 20:45 UTC. Manual dispatch via GitHub Actions UI (gh CLI auth blocked by device-flow rate-limit) produced commit `d1a789f4`, all four workflow steps green. Cron-registration check remaining: confirm 22:00 UTC scheduled run fires automatically (next opportunity tonight).
-- [ ] **Generate 2026-05-10 morning briefing** — first non-dry-run brief. Substrate will be 12+ hours of accumulated feed items.
+- [ ] **Generate 2026-05-10 morning briefing** — first non-dry-run brief. Substrate will be 12+ hours of accumulated feed items, *and* the 15-entry watchlist now spans REGINALD's full thesis surface (Tier 1 live puts + Tier 2 peers + Tier 3 PE).
 - [ ] **Sweep STATUS files for new updates** — HAWK (was 18d), LIQUID (was 22d), OZK (was 14d). If updated → re-run cross-agent consistency check.
 - [ ] **OZK Thread 3 roll** — flagged as "deadline ~May 8" in Apr 24 STATUS. Verify whether executed (FORGE/OZK) before re-flagging.
-- [ ] **WAL + HBAN + KRE-constituent CIK lookup** — extend `cik_watchlist` in feeds.yml. SEC company-tickers JSON or `browse-edgar?action=getcompany&CIK=<TICKER>`.
+- [x] **WAL + HBAN + KRE-constituent CIK lookup** — DONE 5/9 PM. Per Will, scope settled on REGINALD-thesis-aligned (not generic KRE constituents): WAL, HBAN, EGBN, FITB, FLG, SSB, ZION (Tier 1 live puts) + CFG, KEY, MTB, PNC, RF (Tier 2 peers) + APO, ARES (Tier 3 credit/PE). 14 new CIKs verified via SEC `company_tickers.json`. Watchlist now 15 entries. End-to-end match verified 30/30 + 3/3 negative.
 
 ---
 
@@ -39,14 +40,17 @@
 7. **No graduation criteria for Phase 1 → Phase 2.** Spec says "Week 6-8 relied on as primary input" but no rubric. Worth drafting an honest self-eval.
 8. **NEXUS vs RED vs SENTRY boundary unclear.** Old `SIGNALS/README.md` routed cross-domain to NEXUS+RED. I haven't read either's CLAUDE.md/STATUS. Possible role duplication. Read both before next briefing if briefings continue.
 9. **Close-out hygiene gap (5/9).** Daylight session shipped the CI fix as two clean commits but never updated STATUS/MEMORY/TODO/CHANGELOG and never committed the staged SIGNALS files. Will had to call this session to salvage. Pattern: when the work feels "done" because the fix is pushed, the meta-record-keeping gets skipped. Fix going forward — *every session ends with*: (a) git status clean inside SENTRY domain, (b) STATUS Last Updated stamp matches today, (c) TODO NEXT SESSION block reflects what next-session should pick up, (d) CHANGELOG has a vN entry if anything user-visible shipped.
+10. **Test-coverage gap on `scripts/fetch_feeds.py` (5/9 PM).** v0.4 CHANGELOG claims "6/6 unit tests pass" — verified-no-test-file-exists this session. The asserts were inline-dev, never committed. Two failure modes if left as-is: (a) refactors lose silently, (b) future "tests pass" claims are unverifiable. Cheap fix: extract the 6 CIK + 6 HTML strip cases into `scripts/test_fetch_feeds.py` with `python -m pytest`-runnable structure. Logged in NEXT SESSION block + Polish queue.
 
 ---
 
 ### Code / pipeline polish queue (priority order)
 
-- [x] **(P1) SEC CIK whitelist** ✓ 5/8 evening — OZK seeded, extraction unit-tested 6/6.
+- [x] **(P1) SEC CIK whitelist** ✓ 5/8 evening — OZK seeded, extraction unit-tested 6/6 (inline-dev, see friction #10).
+- [x] **(P1 cont'd) Watchlist expansion to REGINALD-thesis surface** ✓ 5/9 PM — 14 new CIKs added, 15 total. End-to-end 30/30 + 3/3.
 - [ ] **(P1 cont'd) 8-K item-number parsing** — DEFERRED. `getcurrent` Atom feed doesn't expose item numbers in title/summary; would require fetching each filing's index page. Phase 1.5 work — adds N HTTP requests per fetch, needs throttling + caching design.
-- [ ] **(P1 cont'd) Watchlist expansion** — WAL/HBAN/KRE constituents, plus other agent-active names as fleet evolves. (Tracked above.)
+- [ ] **(P1 cont'd) Watchlist next tier** — promote BROCK-primary names (BXSL, OWL) and/or cohort-watch (VLY, RITM) when warranted. Currently held back to keep `#watched` signal high.
+- [ ] **(P2) `scripts/test_fetch_feeds.py`** — extract inline-dev asserts (extract_cik 6, strip_html 6) into a runnable test file. Eliminates friction #10.
 - [x] **(P2) HTML strip from feed summaries** ✓ 5/8 evening — `strip_html()` unit-tested 6/6.
 - [x] **(P3) `scripts/requirements.txt`** ✓ 5/8 evening — pyyaml + feedparser pinned, workflow updated.
 - [ ] **(P3) `--dry-run` and `--feed=NAME` flags** — easier testing without polluting `seen.json`.

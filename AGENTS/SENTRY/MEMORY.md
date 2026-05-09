@@ -140,3 +140,71 @@ Salvage actions taken (with Will's per-question disposition):
 - `gh auth login` is interactive and needs Will's terminal — can't be
   automated from this Claude session. Same for `! gh workflow run` if Will
   prefers to keep gh authenticated.
+
+---
+
+## 2026-05-09 — Evening session 4 (~17:10 ET, post-CI-verify)
+
+**Trigger:** Will called SENTRY back same evening, ~25 min after the daylight
+salvage commit. Goal: continue Phase 1 build-out. CI verification was already in
+hand from earlier (manual dispatch 20:45 UTC → commit `d1a789f4`); the 22:00 UTC
+scheduled cron registration test was ~50 min away at boot.
+
+**Decision: pick CIK watchlist expansion off the ROADMAP.**
+
+Will explicitly wanted to plan-before-swinging on whether the task was context-
+heavy enough to need sub-agents. Quick assessment: it's a one-fetch + one-edit
+job, ~30-45 min, ~5 turns. No sub-agents needed.
+
+**Scope decision (Will): REGINALD-thesis-aligned.**
+
+Read REGINALD/STATUS.md first 80 lines + REGINALD/POSITIONS.md + FORGE/WATCHLIST.md
+to confirm the live thesis surface. Built a 16-name candidate list across 4 tiers;
+Will approved Tier 1 + 2 + 3 (14 names, dropping Tier 4 cohort-watch VLY/RITM as
+scope creep).
+
+**14 new CIKs resolved cleanly:**
+- Tier 1 (live bank puts, 7): WAL `1212545`, HBAN `49196`, EGBN `1050441`,
+  FITB `35527`, FLG `910073` (formerly NYCB), SSB `764038`, ZION `109380`.
+- Tier 2 (peer cluster, 5): CFG `759944`, KEY `91576`, MTB `36270`,
+  PNC `713676`, RF `1281761`.
+- Tier 3 (credit/PE, 2): APO `1858681`, ARES `1176948`.
+
+Source: SEC's public `company_tickers.json` (one HTTPS fetch, identified UA).
+
+**Disambiguation pass on FLG and SSB.** SEC's title field for both reads as the
+bank-level entity ("FLAGSTAR BANK, NATIONAL ASSOCIATION", "SouthState Bank Corp")
+rather than the holding company. Title-search confirmed each ticker resolves to a
+single CIK — the holding-co filer. Display lag, not a data problem. Logged as a
+gotcha in `feeds.yml` comments.
+
+**Verification.** End-to-end watchlist behavior tested with the live `extract_cik`
+function from `fetch_feeds.py`:
+- 30/30 positive matches (15 entries × {unpadded, zero-padded} URL variants)
+- 3/3 negative tests (non-watchlist CIK like AAPL → no match; non-EDGAR link →
+  None; empty link → None)
+
+**Friction surfaced.** v0.4 CHANGELOG claims "extract_cik 6/6 + strip_html 6/6
+unit tests pass" — verified-no-test-file-exists in `scripts/`. The asserts were
+inline-dev, never preserved to a committed file. Logged as friction #10 + polish
+queue P2: extract to `scripts/test_fetch_feeds.py`. Two failure modes if left:
+silent refactor regression, and unverifiable "tests pass" claims in future.
+
+**State at end of session:**
+- Pipeline operational with 15-entry CIK watchlist.
+- 5/10 morning brief substrate now thesis-dense — fleet-name 8-Ks/10-Qs will
+  auto-tag `#watched`. Materially improves first-real-brief signal density.
+- Pending verification: 22:00 UTC cron registration tonight.
+- Close-out done in two passes (STATUS+CHANGELOG, TODO+MEMORY) per
+  `feedback_break_multifile_updates.md`.
+
+**Lessons / takeaways:**
+- ETF tickers (KRE, HYG) excluded from watchlist on purpose — their issuer-trust
+  filings are admin (NSAR/N-CSR), not thesis-bearing. Constituents move the
+  index; the constituents we care about are now in the watchlist directly.
+- Tiered-scope framing (Tier 1 live puts vs Tier 2 peer cluster vs Tier 3 credit/PE
+  vs Tier 4 cohort-watch) made the scope decision crisp — Will picked 1+2+3 in
+  one shot, no clarifying round needed.
+- Plan-before-swinging worked: the task was small, but the up-front decomposition
+  surfaced the FLG/SSB disambiguation question *before* I'd written the YAML,
+  which would have been awkward to discover post-edit.
