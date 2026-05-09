@@ -214,7 +214,7 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 | **May 6** | APO Q1 earnings (pre-market) — Atlas SP segment, warehouse book size, non-bank servicer counterparty |
 | **TBD May** | ROAD to Housing Act House vote — Sec 901 survival post 76-lawmaker bipartisan letter |
 | May 12 | WAL Investor Day |
-| May 15 | KRE $70P expiry |
+| **May 15** | **REGINALD-scope May 15 cluster: WAL $75P (tape $82.11, 9.5% OTM) + SSB $95P (tape $96.39, NTM)** — roll/close decision this week. Out-of-scope same day: TLT $88P (FORGE), OZK $42.5P/$47.5P (OZK agent) |
 | ~Mid-May | FDIC Quarterly Banking Profile |
 | May 21 | Epstein class action deadline (APO) |
 | **Jun 1** | Reinsurance renewals — FL property pricing, carrier exits |
