@@ -61,40 +61,36 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (May 8 Fri full-day, ~02:40-17:30 UTC — biggest single-session unblocking lever this cycle)
+### CHANGES SINCE LAST SESSION (May 8 Fri full-day → May 9 boot-up + closeout — biggest single-day-arc unblocking lever this cycle)
 
-**Two-half session.** AM half (02:40-15:00 UTC): Telegram-boot + 3-image batch + kill_log audit (82+48-substantive digests) + re-research SIG-004 + thread-pull-driven 5-sub-agent Q1 scrape SIG-005. PM half (15:50-17:30 UTC): NFP April pull → SIG-006 dispatch → Will task-pile request → 3-way §2 stack walkthrough → Will-approved 4 items → 5-pass Phase 1 spec ship.
+**Three-WALTER-sessions-in-one-day + cross-day boot-up + closeout.** Sessions: `b9cb7bfd` early-PM closeout (6 dispatches + Phase 1 spec ship) → `c10a0cef` PM extension #1 (4 dispatches; first v0.8 organic field use; `network_uncertainty_peak` first crossed ≥5) → `97c2e353` PM extension #2 (3 PRI dispatches; bifurcation 5→8) → `1ab838e5` step 7c add (Autonomous news-scan policy RESOLVED) → `df49b3e9` REQ-PROME filed → `6b39f94a` 5/9 boot-up (state-snapshot reply + network_uncertainty_peak processing + RED inbox handoff + STATUS lead-paragraph regen) → closeout commit pending.
 
-**Net: 6 dispatches (3 IMMEDIATE + 2 PRIORITY + 1 ROUTINE) + 2 KILLs + 8 sub-agent spawns (~$0.65) + 2 kill_log digests + 3-way JOINT_PROPOSAL §2 stack 4-item Will-approved + Phase 1 spec ship (5 design files modified + 1 NEW + WALTER CLAUDE.md updated + STATE.md refresh).** Full prose: STATUS SESSION LOG + LAST_COMPLETION.
+**Net day-arc:** **13 dispatches (5 IMMEDIATE + 7 PRIORITY + 1 ROUTINE) + 8 KILLs + ~10 sub-agent spawns (~$0.85) + 2 kill_log digests + 3-way JOINT_PROPOSAL §2 stack 4-item Will-approved + Phase 1 spec ship (5 docs + 1 NEW) + step 7c add + REQ-PROME filed + 🚨 `network_uncertainty_peak` AUTO-FIRED count 8 (2nd fire ever) + RED inbox handoff filed.** Full prose: LAST_COMPLETION.
 
-**Headline dispatches:**
-- SIG-001 IMMEDIATE Nightingale 3-CEO synthesis (KHC/WHR/MCD; CONFIRMED 0.85; WHR -11.91% tape-validated)
-- SIG-002 PRIORITY @gurgavin 3-tech-layoffs (NET 20%/UPWK 24%/BILL 30% all 8-K filed 5/7; CONFIRMED 0.92; AI displacement)
-- SIG-003 ROUTINE PBOC CNY fix +44 pip yuan-weaker offshore-faded
-- SIG-004 PRIORITY FHA SDQ 92% TPP-artifact (CORRECTED-FRAMING 0.85; kill_log re-research follow-on; original 4/20 kill validated)
-- **SIG-005 IMMEDIATE 15-CEO Q1-transcript-scrape consensus** across CPG/Restaurants/Durables/Travel (CONFIRMED 0.90; 5-sub-agent parallel; 41-company universe / 32 reported)
-- **SIG-006 IMMEDIATE NFP April Goldilocks-tape-vs-stagflation-underbelly bifurcation** (CONFIRMED 0.95; Will-flagged LABOR primary action override; Information -13K cross-confirms SIG-002 = first 8-K-to-macro translation logged; CARL Path C CRL-08 92→97% confirmation HARDENS another notch; cross-channel test for SIG-001/002/005 PASSED)
+**Headline dispatches (13):** SIG-001 Nightingale 3-CEO + SIG-002 gurgavin 3-tech-layoffs + SIG-003 PBOC fix + SIG-004 FHA SDQ TPP + SIG-005 15-CEO Q1 scrape + SIG-006 NFP April Goldilocks-vs-stagflation + SIG-007 FRED retail flat-since-2022 counter + SIG-008 Japan $200B+ yen + SIG-009 UMich 48.2 record-low + SIG-010 Flatbed Truckload ATH counter + SIG-011 FWRD Q1 covenant-default extrapolation + SIG-012 WHR first FULL dividend suspension since 1949/1971 + SIG-013 zerohedge $2.6T SPX call notional Privorotsky gamma-squeeze.
 
-**Spec ship Phase 1 (post-Will-approval msg 1541):** FORMAT_SPEC v0.7→v0.8 (5 optional fields: cluster_secondary / signal_role / consumer_transmission / consumer_lens / event_window) + CHECKLIST v0.10→v0.11 (Phase 2 step 4.5 + Phase 2.5 event-window) + ROUTING_TABLE v0.7→v0.8 (By Boundary Threshold 8-row section) + EVENT_WINDOW_STATE.md scaffold NEW + FILTER_SPEC v0.4→v0.5 (OPEN-window posture sub-section) + WALTER CLAUDE.md spawn-protocol step 7b + KEY DESIGN FILES + canonical-source lookup +2 rows + STATE.md refresh. **v0.7 cluster_mediating prose-tag interim discipline RETIRED. FORMAT_SPEC v0.9 prerequisite SATISFIED.**
+**Spec ship Phase 1 (post-Will-approval msg 1541):** FORMAT_SPEC v0.7→v0.8 + CHECKLIST v0.10→v0.11 + ROUTING_TABLE v0.7→v0.8 + EVENT_WINDOW_STATE.md NEW + FILTER_SPEC v0.4→v0.5 + WALTER CLAUDE.md step 7b + STATE.md refresh. **First v0.8 organic field use shipped clean across 7 of 13 dispatches.** v0.7 prose-tag interim RETIRED. FORMAT_SPEC v0.9 prerequisite SATISFIED.
 
-**Cluster updates:** CONSUMER_STAGFLATION 18→23 (+5 — promotion to 5-axis sub-cluster threshold heavily accumulating); ASIA_CHINA 3→4. BOARD count 130→136. Today's bifurcation count: 2 (SIG-001 within-cluster + SIG-006 paper-vs-structural #5 this week). At-dispatch FALSIFICATION scan all 6: 0 fires; FIRED_LOG remains header-only.
+**`network_uncertainty_peak` 2nd fire (5/8 count 8 ≥5 doubled):** ONE meta-bifurcation across 8 independent observation channels (positioning + sentiment + earnings + macro labor + retail composition + currency plumbing + manufacturing/freight + dividend-policy) — paper/tape vs structural/substance — NOT 8 separate bifurcations. Multi-axis (broader + more coherent than 5/6 single-axis fire at 6). Calibration cycle 1 data point #2.
 
-**Findings filed today (4 — all in Findings section above):** source-credibility map per-account-per-topic-domain + mark-context-at-intake discipline + 5-sub-agent parallel scrape pattern + walkthrough→approve-all→multi-pass spec ship pattern.
+**Cluster updates:** CONSUMER_STAGFLATION 18→26 (+8; **moved to #2 overtaking POSITIONING_VALUATION — first such overtake since 5/5 cluster taxonomy ship**); POSITIONING_VALUATION 24→25; BANK_COLLATERAL 16→17; MISC 9→10; FED_FRAMEWORK 5→6; ASIA_CHINA 3→4. BOARD count 130→**143**. At-dispatch FALSIFICATION scan all 13: **0 fires** across all; FIRED_LOG remains header-only.
+
+**Findings filed (4 — in Findings section above):** source-credibility map per-account-per-topic-domain + mark-context-at-intake discipline + 5-sub-agent parallel scrape pattern + walkthrough→approve-all→multi-pass spec ship pattern. **Cross-day finding:** multi-session-day STATUS-staleness gap caught at 5/9 boot — c10a0cef + 97c2e353 committed BOARD updates without full closeout, leaving lead-paragraph 2 sessions stale; archaeology-prevention discipline restored via boot-up regen + closeout this pass.
 
 ### NEXT SESSION
 
-**Canonical carry-forward:** see `LAST_COMPLETION.md` FOLLOW-UP + OPEN DESIGN DECISIONS sections (load-bearing running list — do not duplicate here; today's §2-stack 4-item RESOLVED + 5/8 dispatches RESOLVED but downstream propagation work added).
+**Canonical carry-forward:** see `LAST_COMPLETION.md` FOLLOW-UP + OPEN DESIGN DECISIONS sections (load-bearing running list).
 
-**Time-sensitive THIS WEEK** (boot quick-scan; everything else in LAST_COMPLETION):
-1. **April CPI Tuesday 5/13 8:30 AM ET** — next AHE/inflation cross-check; potential first §2b live test if CARL/BRENT calendars + cron land in time. Stagflation read goldilocks-vs-stagflation arbiter.
-2. **Iran-war anchor next re-verify boundary 5/14 minimum** OR earlier on visible kinetic state-change.
-3. **SIG-005 forward-test 6 PENDING reads 5/14-28** — TOL/WMT/HD/TGT/LOW/COST; 14d cluster-continuation-or-bounded resolution. Highest-information forward-test of cycle.
-4. **CARL/BRENT/RED calibration cycle 1** ETA May 19-27.
-5. **FALSIFICATION first-fire watch** — RED-FT-01 HY-OAS<280×3 closest (BOND primary pending); RED-FT-06 VIX<16×5 ~8% above near-trigger band.
+**Time-sensitive THIS WEEK** (boot quick-scan):
+1. **April CPI Tue 5/13 8:30 AM ET** — AHE arbiter (Goldilocks vs stagflation); potential first §2b live test if CARL+BRENT calendars + cron land.
+2. **Iran-war anchor re-verify boundary 5/14 min** OR earlier on visible kinetic state-change.
+3. **SIG-005 forward-test 6 PENDING** 5/14-28 (TOL/WMT/HD/TGT/LOW/COST) — 14d cluster-continuation-or-bounded resolution.
+4. **CARL/BRENT/RED calibration cycle 1** ETA May 19-27 — `network_uncertainty_peak` 2nd fire (n=2) is calibration data input.
+5. **FALSIFICATION first-fire watch** — RED-FT-01 HY-OAS<280×3 closest; RED-FT-06 VIX<16×5 ~9% above near-trigger band.
 
-**Top-5 next-session candidate work** (re-ranked after Will-catch on stale 2-way stitch carry-forward msg 1549):
-1. **CROSS_REFS/{CARL,BRENT}.md cache scaffolds** — WALTER self-tasks per JOINT_PROPOSAL §3d; high-leverage at next dispatch with CARL/BRENT routing. WALTER self-task no cross-agent dep
-2. **REGINALD LIAISON open** — top of unblocked queue; CC-side; Q1 CR window closed 5/8 so REGINALD has bandwidth; SIG-006 Financial -11K + SIG-W-20260507-004 Sternlicht give natural opening
-3. **§2b infra build IF CARL+BRENT calendars land** — at boot check both calendars; if exist, build cron-equivalent reader; first scan target April CPI 5/13
-4. **3-way walter_carl_brent stitch IF CARL §1+§3a+§3c+§4 lands** — at boot check `AGENTS/CARL/design/JOINT_PROPOSAL_2026-05-05_carl_sections.md`; if exists, mechanical assembly at repo-root ~15min
-5. **Forward dispatches use v0.8 fields organically** — first signal validates spec in wild (Stale-removed: ~~2-way RED+WALTER stitch~~ already shipped 5/6 `8a532073`)
+**Top-5 next-session candidate work:**
+1. **CROSS_REFS/{CARL,BRENT}.md cache scaffolds** — WALTER self-task per JOINT_PROPOSAL §3d; HIGHEST priority no cross-agent dep.
+2. **REGINALD LIAISON open** — top of unblocked queue; SIG-006 Financial -11K + SIG-011 FWRD + 5/7 Sternlicht give natural opening; CC-side mechanics easy.
+3. **§2b infra build IF CARL+BRENT calendars land** — at boot check both calendars; first scan target April CPI 5/13.
+4. **3-way walter_carl_brent stitch IF CARL §1+§3a+§3c+§4 lands** — mechanical assembly at repo-root ~15min.
+5. **CONSUMER_STAGFLATION v0.2 5-axis sub-cluster spawn** — cluster at 26 sigs (#2 in BOARD); my read promote v0.2 next session.
