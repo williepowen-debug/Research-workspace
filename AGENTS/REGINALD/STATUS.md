@@ -60,9 +60,16 @@ Hold 0.75% as expected; **3 dissents** (Takata/Tamura/Nakagawa), biggest split s
 ### REGINALD-domain follow-ups pending
 
 1. 🔴 **OWL Q1 print TODAY Apr 30 AMC** — pairs with Boaz Saba rejection + founder $1.1B unwind + Fed PC inquiry + redemption-cap reactivation. Forward fee-base trajectory is real risk per WALTER verify. Pickup Apr 30 PM.
-2. 🟠 **VLY 10-Q drill (~May 10)** — verify "provisions mask deterioration" claim via charge-off composition + ACL build/release detail.
+2. 🔴 **VLY 10-Q INITIAL READ DONE May 8** (filed May 7) — **provision −66% YoY ($21.2M vs $62.7M Q1-25)**. Materially supports "provisions mask deterioration" framing. Need NCO trajectory + ACL coverage detail next session to lock in. Taxi medallion $46.6M still on book. Findings → `research/Q1_10Q_SWEEP_2026-05-08.md`.
 3. ✅ **RITM transcript pull DONE Apr 29** — soft fail on "DQ will reverse Q1" mgmt claim; got "stable QoQ" + "FHA flattened" via modification-guideline normalization. No specific %s disclosed; sector silence on non-bank servicer stress. WAL V3 thesis not disconfirmed; modestly bearish on NewRez asset quality.
-4. 🟠 **Q1 Call Reports May 1-10** — primary thesis test for WAL MI3 (≥25% = acceleration); EGBN MI3 trajectory; CFG NDFI reconciliation to Slide 24 $19.6B preliminary.
+4. 🔴 **Q1 10-Qs INITIAL SWEEP May 8 — 3 of 5 filed:**
+   - **CFG (filed May 4):** NDFI broken out as Capital call $8.76B + Secured PC finance $4.10B + Other finance/insurance $5.27B = **$18.12B** vs Slide 24 prelim $19.6B → **$1.5B reconciliation gap to investigate**. C&I criticized $2.5B "stable QoQ" (not improving). `Other finance/insurance +13.7% QoQ` is highest-growth sub-line.
+   - **VLY (filed May 7):** Provision **−66% YoY**; "provisions mask deterioration" thesis gaining ground.
+   - **EGBN (filed May 7):** 🔴 **STRATEGIC DE-RISK CONFIRMED IN PRIMARY FILING TEXT** — explicit *"high-risk loans concentrated in commercial real estate office segment"* + HFS transfer mechanism + portfolio reshape language. **V1 Hidden CRE thesis getting direct primary-source validation.** Watchlist score depends on quantification of HFS transfers (next session drill).
+   - **WAL ❌ not yet filed** (only Apr 21 + Apr 30 8-Ks). Likely May 11-13. Highest-impact filing for V2.0 thesis still ahead.
+   - **OZK ❌ not yet filed** (zero filings last 30d). OZK agent will follow up.
+   - MI3/RCON2746 still pending FFIEC PDD bulk update ~mid-May.
+   - Findings → `research/Q1_10Q_SWEEP_2026-05-08.md`.
 5. 🟡 **OZK post-mortem** still pending per WALTER follow-up — Apr 21 print integrated into STATUS but no dedicated analysis file.
 6. ✅ **REG-20 resolution** RESOLVED 2026-05-08 — marked CONFIRMED-PARTIAL by Will (literal-text reading; 1 of 3 OR-triggers fired). PREDICTIONS.tsv row updated.
 
