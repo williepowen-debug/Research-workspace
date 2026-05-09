@@ -20,7 +20,7 @@ jobs:
     
     - name: Install dependencies
       run: |
-        pip install pyyaml feedparser
+        pip install -r scripts/requirements.txt
     
     - name: Fetch feeds
       run: |
