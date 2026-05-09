@@ -9,7 +9,9 @@ on:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    
+    permissions:
+      contents: write  # required for the "Commit and push" step to push back
+
     steps:
     - uses: actions/checkout@v4
     
