@@ -2,7 +2,14 @@
 
 ## 📍 NEXT SESSION — START HERE
 
-*Will, when you call SENTRY next, point me here ("SENTRY, read your TODO" / "SENTRY, pick up from last session") and I'll start from this block.*
+*Will, when you call SENTRY next, point me here ("SENTRY, read your TODO" / "SENTRY, pick up from last session"). Order to read: STATUS.md (current state) → ROADMAP.md (trajectory + suggested next-session order) → this file (immediate-action queue + friction).*
+
+**Roadmap saved 2026-05-09 PM at `AGENTS/SENTRY/ROADMAP.md`.** Next-session candidates from the roadmap (suggested order):
+1. Key State adoption ping (Will-side) + generate 5/10 morning brief
+2. CIK watchlist expansion: WAL + HBAN + KRE constituents
+3. Persistence cache so `inbound.md` retains a true 48h window
+4. Format-iteration retrospective once 4-5 real briefings exist
+5. Pause + decide whether to build Phase 2 or hold
 
 ---
 
