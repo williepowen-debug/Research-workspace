@@ -9,11 +9,12 @@
 ### Immediate actions (do first)
 
 - [x] **Local-cron triage** — ran fetch locally 5/8 evening, pipeline works. CI failure is GitHub-Actions-layer.
-- [ ] **CI triage (daylight 5/9)** — TWO token layers identified:
-  - **Will's local PAT** lacks `workflow` scope → can't push `.github/workflows/feeds.yml` from WSL. Re-issue PAT with `workflow` scope checked at github.com/settings/tokens, then push the staged-but-uncommitted workflow change (1-line: `pip install -r scripts/requirements.txt`).
-  - **GHA `GITHUB_TOKEN`** likely missing `contents: write` → workflow can fetch feeds but can't commit/push back. Add `permissions: contents: write` at job level in workflow file (combine with above push).
-  - Other possible layers (less likely): scheduled cron not registered (needs manual `workflow_dispatch` once to activate), SEC IP-block from GHA cloud IPs, pip install failure.
-- [ ] **Generate 2026-05-09 morning briefing** — once CI fixed; substrate thin until then.
+- [x] **CI triage (daylight 5/9)** — both token layers fixed and pushed:
+  - PAT-with-`workflow`-scope sorted (Will): commits `3858048f` + `aaabf0b5` pushed by `williepowen-debug` at 16:02 / 16:07 ET.
+  - Workflow `permissions: contents: write` granted (`aaabf0b5`) — primary suspected root cause of the 5/8 silent-fail.
+  - Workflow now installs from pinned `scripts/requirements.txt` (`3858048f`) — activates v0.4 pinning in CI.
+- [ ] **Verify CI end-to-end** — either Will runs `gh auth login` then `gh workflow run "SENTRY Feed Fetch"`, OR confirm 22:00 UTC scheduled run produces an origin-master commit. If still no commit, escalate to Actions UI logs.
+- [ ] **Generate 2026-05-10 morning briefing** — once CI confirmed running; substrate dependent on it.
 - [ ] **Sweep STATUS files for new updates** — HAWK (was 18d), LIQUID (was 22d), OZK (was 14d). If updated → re-run cross-agent consistency check.
 - [ ] **OZK Thread 3 roll** — flagged as "deadline ~May 8" in Apr 24 STATUS. Verify whether executed (FORGE/OZK) before re-flagging.
 - [ ] **WAL + HBAN + KRE-constituent CIK lookup** — extend `cik_watchlist` in feeds.yml. SEC company-tickers JSON or `browse-edgar?action=getcompany&CIK=<TICKER>`.
@@ -30,6 +31,7 @@
 6. **`trash` not on PATH (this WSL).** Used `gio trash`. Worth flagging fleet-wide — other agents may hit the same gap when honoring critical-rule #11.
 7. **No graduation criteria for Phase 1 → Phase 2.** Spec says "Week 6-8 relied on as primary input" but no rubric. Worth drafting an honest self-eval.
 8. **NEXUS vs RED vs SENTRY boundary unclear.** Old `SIGNALS/README.md` routed cross-domain to NEXUS+RED. I haven't read either's CLAUDE.md/STATUS. Possible role duplication. Read both before next briefing if briefings continue.
+9. **Close-out hygiene gap (5/9).** Daylight session shipped the CI fix as two clean commits but never updated STATUS/MEMORY/TODO/CHANGELOG and never committed the staged SIGNALS files. Will had to call this session to salvage. Pattern: when the work feels "done" because the fix is pushed, the meta-record-keeping gets skipped. Fix going forward — *every session ends with*: (a) git status clean inside SENTRY domain, (b) STATUS Last Updated stamp matches today, (c) TODO NEXT SESSION block reflects what next-session should pick up, (d) CHANGELOG has a vN entry if anything user-visible shipped.
 
 ---
 
@@ -85,6 +87,12 @@
 - [x] **HTML strip from feed summaries** — `strip_html()` removes `<b>` boilerplate; 6/6 unit tests pass
 - [x] **`scripts/requirements.txt`** — pyyaml + feedparser pinned; workflow updated to use it
 - [x] STATUS / CHANGELOG / TODO / MEMORY updated
+
+## Done daylight session 3 (2026-05-09, ~16:00 ET) — incl. close-out salvage
+
+- [x] **CI fix shipped** — `3858048f` activates pinned-reqs in workflow; `aaabf0b5` grants `permissions: contents: write` (primary suspected root cause of 5/8 silent fail)
+- [x] **Close-out salvage** (this turn): prior session ended without updating STATUS/MEMORY/TODO/CHANGELOG to reflect the CI fix, and left stale `SIGNALS/inbound.md` + `seen.json` from a 5/8 evening local-cron test as uncommitted modifications. Stale SIGNALS files discarded (`git checkout`); agent-state files brought current.
+- Friction logged: close-out hygiene needs a self-check — ship-the-fix and forgot-to-record-the-fix is its own failure mode. See pain points below.
 
 ---
 

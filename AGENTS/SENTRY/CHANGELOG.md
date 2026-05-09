@@ -1,5 +1,24 @@
 # SENTRY Changelog
 
+## v0.5 — 2026-05-09 (Saturday afternoon)
+- **CI triage daylight pass — both token layers fixed.** Two commits:
+  - `3858048f` — workflow's "Install dependencies" step now uses
+    `pip install -r scripts/requirements.txt` (activates v0.4's pinning protection
+    in CI; previously the file sat unused).
+  - `aaabf0b5` — granted `permissions: contents: write` at the job level. GitHub
+    changed default `GITHUB_TOKEN` to read-only on newer repos; without this the
+    "Commit and push" step silently fails. This was the most likely root cause of
+    the 5/8 22:00 UTC no-commit incident.
+- **End-to-end verification still pending** — either dispatch via
+  `gh workflow run "SENTRY Feed Fetch"` (requires `gh auth login` first; gh CLI
+  currently unauthenticated on this WSL) OR await the next scheduled cron at
+  22:00 UTC (18:00 ET) tonight.
+- **Close-out salvage** (this turn): prior session ended without committing the
+  CI fix's effect on STATUS/MEMORY/TODO/CHANGELOG, and left stale
+  `SIGNALS/inbound.md` + `seen.json` from a 5/8 evening local-cron test in the
+  working tree. Stale SIGNALS files discarded (`git checkout`); CI will overwrite
+  on next run anyway. Agent-state files (this) brought current.
+
 ## v0.4 — 2026-05-08 (evening)
 - **SEC enrichment — CIK whitelist** (TODO P1, partial). `fetch_feeds.py` now
   extracts CIK from each EDGAR link and auto-tags filings touching watched
