@@ -1,5 +1,31 @@
 # SENTRY Changelog
 
+## v0.6 — 2026-05-09 (Saturday evening)
+- **CIK watchlist expansion: 1 → 15 entries (REGINALD-thesis-aligned).** Will-approved
+  Tier 1 + Tier 2 + Tier 3 from REGINALD's POSITIONS.md and active-peer cluster.
+  - **Tier 1 (live bank puts):** WAL `1212545`, HBAN `49196`, EGBN `1050441`,
+    FITB `35527`, FLG `910073` (formerly NYCB; CIK predates rebrand),
+    SSB `764038`, ZION `109380`.
+  - **Tier 2 (peer cluster, research-tracked):** CFG `759944`, KEY `91576`,
+    MTB `36270`, PNC `713676`, RF `1281761`.
+  - **Tier 3 (credit/PE puts):** APO `1858681`, ARES `1176948`.
+  - **Already seeded:** OZK `1175796`.
+- **Deliberately excluded:** ETFs (KRE, HYG — admin filings, not thesis-relevant);
+  BROCK-primary names (BXSL, OWL — scope creep risk; can promote to a BROCK tier later).
+- **Lookup method:** SEC's public `company_tickers.json` (one HTTP fetch with
+  identified UA), grepped for the 14 targets. Disambiguation pass on FLG and SSB
+  resolved single-CIK-per-ticker (SEC's display titles "FLAGSTAR BANK, N.A." and
+  "SouthState Bank Corp" are display lag; the CIK is the right filer). Logged in
+  `feeds.yml` comments for future maintenance.
+- **End-to-end verification:** 30/30 positive matches (each of 15 entries × {unpadded,
+  zero-padded} URL variants) + 3/3 negative tests (non-watchlist CIK like AAPL,
+  non-EDGAR link, empty link). All pass.
+- **Friction logged:** `scripts/fetch_feeds.py` has no committed test file —
+  the v0.4 CHANGELOG's "6/6 unit tests pass" was inline-dev asserts that weren't
+  preserved. Polish item: extract to `scripts/test_fetch_feeds.py`.
+- **Next**: 22:00 UTC scheduled cron registration test (~50 min from this entry);
+  5/10 morning brief will be the first non-dry-run with a thesis-dense watchlist.
+
 ## v0.5 — 2026-05-09 (Saturday afternoon)
 - **CI triage daylight pass — both token layers fixed.** Two commits:
   - `3858048f` — workflow's "Install dependencies" step now uses

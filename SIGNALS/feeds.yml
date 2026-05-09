@@ -51,9 +51,29 @@ feeds:
     # #watched + #<label>. Leading zeros are tolerated.
     # Lookup: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=<TICKER>
     cik_watchlist:
-      "1175796": "OZK"   # Bank OZK
-      # Seed list — add as fleet positions evolve. Need verified CIKs for:
-      # WAL (Western Alliance), HBAN (Huntington), and KRE top constituents.
+      # Already-seeded
+      "1175796": "OZK"          # Bank OZK
+      # Tier 1 — REGINALD live bank puts (POSITIONS.md, 2026-05-09)
+      "1212545": "WAL"          # Western Alliance Bancorporation
+      "49196":   "HBAN"         # Huntington Bancshares
+      "1050441": "EGBN"         # Eagle Bancorp
+      "35527":   "FITB"         # Fifth Third Bancorp
+      "910073":  "FLG"          # Flagstar Financial (formerly NYCB; CIK predates rebrand)
+      "764038":  "SSB"          # SouthState Corp
+      "109380":  "ZION"         # Zions Bancorporation
+      # Tier 2 — REGINALD active peer cluster (research-tracked, no live put)
+      "759944":  "CFG"          # Citizens Financial Group
+      "91576":   "KEY"          # KeyCorp
+      "36270":   "MTB"          # M&T Bank
+      "713676":  "PNC"          # PNC Financial Services
+      "1281761": "RF"           # Regions Financial
+      # Tier 3 — REGINALD credit/PE puts
+      "1858681": "APO"          # Apollo Global Management
+      "1176948": "ARES"         # Ares Management
+      # Add as fleet positions evolve. CIK lookup:
+      #   https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=<TICKER>
+      # Or pull the canonical ticker→CIK map:
+      #   https://www.sec.gov/files/company_tickers.json
 
   # --- Removed 2026-05-08 (Will-authorized) ---
   # BLS News Releases — IP-blocked by BLS even with browser UA. LABOR domain
