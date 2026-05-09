@@ -1,0 +1,6 @@
+# SENTRY feed-fetch pipeline — pinned dependencies
+# Used by .github/workflows/feeds.yml and local runs.
+# Update via: pip install --upgrade pyyaml feedparser, then bump pins here.
+
+pyyaml==6.0.3
+feedparser==6.0.12

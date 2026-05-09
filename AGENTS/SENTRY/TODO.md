@@ -8,10 +8,15 @@
 
 ### Immediate actions (do first)
 
-- [ ] **Check 2026-05-08 22:00 UTC CI run** — confirm `fetch_feeds.py` worked from GitHub Actions IP against SEC EDGAR. If 403: triage (alternate UA, fall back to local-cron-only, or proxy).
-- [ ] **Generate 2026-05-09 morning briefing** — should have ~24h of accumulated feed data + a chance to see whether stale STATUS files refreshed overnight.
-- [ ] **Sweep STATUS files for new updates** — HAWK (was Apr 20), LIQUID (was Apr 16), OZK (was Apr 24). If updated → re-run cross-agent consistency check.
+- [x] **Local-cron triage** — ran fetch locally 5/8 evening, pipeline works. CI failure is GitHub-Actions-layer.
+- [ ] **CI triage (daylight 5/9)** — TWO token layers identified:
+  - **Will's local PAT** lacks `workflow` scope → can't push `.github/workflows/feeds.yml` from WSL. Re-issue PAT with `workflow` scope checked at github.com/settings/tokens, then push the staged-but-uncommitted workflow change (1-line: `pip install -r scripts/requirements.txt`).
+  - **GHA `GITHUB_TOKEN`** likely missing `contents: write` → workflow can fetch feeds but can't commit/push back. Add `permissions: contents: write` at job level in workflow file (combine with above push).
+  - Other possible layers (less likely): scheduled cron not registered (needs manual `workflow_dispatch` once to activate), SEC IP-block from GHA cloud IPs, pip install failure.
+- [ ] **Generate 2026-05-09 morning briefing** — once CI fixed; substrate thin until then.
+- [ ] **Sweep STATUS files for new updates** — HAWK (was 18d), LIQUID (was 22d), OZK (was 14d). If updated → re-run cross-agent consistency check.
 - [ ] **OZK Thread 3 roll** — flagged as "deadline ~May 8" in Apr 24 STATUS. Verify whether executed (FORGE/OZK) before re-flagging.
+- [ ] **WAL + HBAN + KRE-constituent CIK lookup** — extend `cik_watchlist` in feeds.yml. SEC company-tickers JSON or `browse-edgar?action=getcompany&CIK=<TICKER>`.
 
 ---
 
@@ -30,10 +35,13 @@
 
 ### Code / pipeline polish queue (priority order)
 
-- [ ] **(P1) SEC enrichment — CIK whitelist + 8-K item parsing.** Auto-tag `#watched` when CIK matches OZK (1175796), WAL, HBAN, KRE constituents. Parse 8-K item numbers ("Item 2.02 = earnings", "Item 5.02 = officer changes", "Item 8.01 = other material") into structured tags. Highest signal-density gain.
-- [ ] **(P2) Strip raw HTML from SEC summaries** (`<b>Filed:</b>` etc.) — ugly in inbound.md, adds parsing noise.
-- [ ] **(P3) `requirements.txt` for the script** — currently relies on whatever's in `.venv`; broke once already today.
+- [x] **(P1) SEC CIK whitelist** ✓ 5/8 evening — OZK seeded, extraction unit-tested 6/6.
+- [ ] **(P1 cont'd) 8-K item-number parsing** — DEFERRED. `getcurrent` Atom feed doesn't expose item numbers in title/summary; would require fetching each filing's index page. Phase 1.5 work — adds N HTTP requests per fetch, needs throttling + caching design.
+- [ ] **(P1 cont'd) Watchlist expansion** — WAL/HBAN/KRE constituents, plus other agent-active names as fleet evolves. (Tracked above.)
+- [x] **(P2) HTML strip from feed summaries** ✓ 5/8 evening — `strip_html()` unit-tested 6/6.
+- [x] **(P3) `scripts/requirements.txt`** ✓ 5/8 evening — pyyaml + feedparser pinned, workflow updated.
 - [ ] **(P3) `--dry-run` and `--feed=NAME` flags** — easier testing without polluting `seen.json`.
+- [ ] **(P3) Persistence cache for inbound items** — `getcurrent` rolls items off the SEC feed within minutes; current `inbound.md` only contains *whatever was in the last fetch*, not a true 48h window. Items <48h old that aged off the feed are lost. Need a small cache layer keyed by GUID with mtime → 48h expiry.
 - [ ] **(P4) Tune SEC `include_types`** after 1 week of observed signal/noise.
 
 ---
@@ -69,6 +77,14 @@
 - [x] `MEMORY.md` initialized, `archive/` created
 - [x] **First dry-run briefing generated** (`SIGNALS/briefings/2026-05-08-evening.md`) — 4 items, 480 words, surfaced OZK roll deadline + HAWK/BRENT contradiction
 - [x] STATUS, CHANGELOG, MEMORY updated to reflect all of the above
+
+## Done evening session 2 (2026-05-08, ~9pm-10pm ET)
+
+- [x] CI failure detected (no origin commit from 22:00 UTC scheduled run) → local-cron backstop verified pipeline works, triage queued for daylight
+- [x] **SEC CIK whitelist** — `cik_watchlist` config + extraction in `fetch_feeds.py`; OZK seeded, 6/6 unit tests pass
+- [x] **HTML strip from feed summaries** — `strip_html()` removes `<b>` boilerplate; 6/6 unit tests pass
+- [x] **`scripts/requirements.txt`** — pyyaml + feedparser pinned; workflow updated to use it
+- [x] STATUS / CHANGELOG / TODO / MEMORY updated
 
 ---
 

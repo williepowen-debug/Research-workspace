@@ -1,5 +1,25 @@
 # SENTRY Changelog
 
+## v0.4 — 2026-05-08 (evening)
+- **SEC enrichment — CIK whitelist** (TODO P1, partial). `fetch_feeds.py` now
+  extracts CIK from each EDGAR link and auto-tags filings touching watched
+  fleet names with `#watched` + `#<label>`. Seeded with OZK (1175796); WAL/HBAN
+  pending verified-CIK lookup. CIK-extraction unit-tested for canonical, leading-zero,
+  empty, and non-EDGAR URLs (6/6 pass). 8-K item-number parsing deferred to Phase 1.5
+  (would require fetching each filing's index page; `getcurrent` Atom feed doesn't
+  expose item numbers in title or summary).
+- **HTML strip from feed summaries** (TODO P2). `strip_html()` removes `<b>...</b>`
+  and other tag noise from SEC EDGAR summaries, unescapes HTML entities, collapses
+  whitespace. Unit-tested for tags, plain-passthrough, empties, entities, whitespace
+  (6/6 pass).
+- **`scripts/requirements.txt`** (TODO P3). Pinned pyyaml==6.0.3 + feedparser==6.0.12.
+  Workflow updated to `pip install -r scripts/requirements.txt` — version drift now
+  visible in git, easier CI triage.
+- **Local-cron triage trigger:** CI's 22:00 UTC run on 2026-05-08 produced no
+  origin-master commit. Ran fetch locally as backstop; pipeline works fine from this
+  WSL. CI failure mode is GitHub-Actions-layer (auth, schedule, IP, or env), not
+  script. Triage queued for daylight 2026-05-09.
+
 ## v0.3 — 2026-05-08 (later same day)
 - **inbound.md bug fix:** changed append-each-run → overwrite-each-run.
   File is now a rolling 48h-window snapshot; history preserved via git log of the file

@@ -5,11 +5,13 @@ Pulls RSS/Atom feeds, deduplicates, writes to SIGNALS/inbound.md
 Run by GitHub Actions twice daily (6 AM / 6 PM ET)
 """
 
+import html as _html
 import yaml
 import feedparser
 import hashlib
 import json
 import os
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -51,7 +53,32 @@ def item_guid(item):
     return hashlib.md5(content.encode()).hexdigest()[:16]
 
 
-import re
+CIK_RE = re.compile(r"/data/(\d+)/")
+_HTML_TAG_RE = re.compile(r"<[^>]+>")
+_WS_RE = re.compile(r"\s+")
+
+
+def extract_cik(link):
+    """Pull CIK from SEC EDGAR archive link (pattern: /data/<CIK>/...)."""
+    if not link:
+        return None
+    m = CIK_RE.search(link)
+    return str(int(m.group(1))) if m else None
+
+
+def strip_html(text):
+    """Strip HTML tags, unescape entities, collapse whitespace.
+
+    SEC EDGAR summaries embed `<b>Filed:</b> ...` boilerplate which is
+    just visual noise in the markdown surface; we want plain text.
+    Safe on already-plain strings (no tags = no-op).
+    """
+    if not text:
+        return ""
+    no_tags = _HTML_TAG_RE.sub("", text)
+    unescaped = _html.unescape(no_tags)
+    return _WS_RE.sub(" ", unescaped).strip()
+
 
 def fetch_feed(feed_config):
     """Fetch a single feed and return new items."""
@@ -60,6 +87,12 @@ def fetch_feed(feed_config):
     tags = feed_config.get("tags", [])
     headers = feed_config.get("headers", {}) or {}
     include_types = feed_config.get("include_types", []) or []
+    # Normalize CIK keys to canonical-int-string form so config-side
+    # leading zeros (e.g. "0000038264") still match link-extracted CIKs.
+    cik_watchlist = {
+        str(int(k)): v
+        for k, v in (feed_config.get("cik_watchlist") or {}).items()
+    }
 
     # Build a prefix-anchored regex from include_types (e.g., "8-K" matches
     # "8-K - Foo Inc." but "SCHEDULE 13D" does NOT match "SCHEDULE 13D/A"
@@ -88,6 +121,7 @@ def fetch_feed(feed_config):
 
     items = []
     skipped_by_filter = 0
+    matched_fleet = 0
     cutoff = datetime.now(timezone.utc).timestamp() - (MAX_AGE_HOURS * 3600)
 
     for entry in parsed.entries[:MAX_ITEMS_PER_FEED]:
@@ -109,19 +143,30 @@ def fetch_feed(feed_config):
             continue
 
         guid = item_guid(entry)
+        link = entry.get("link", "")
+
+        # Enrich SEC items with fleet-watchlist tags when the link's CIK
+        # matches a configured watchlist entry.
+        item_tags = list(tags)
+        if cik_watchlist:
+            cik = extract_cik(link)
+            if cik and cik in cik_watchlist:
+                item_tags.extend(["watched", cik_watchlist[cik]])
+                matched_fleet += 1
 
         items.append({
             "guid": guid,
             "title": title,
-            "link": entry.get("link", ""),
-            "summary": entry.get("summary", entry.get("description", ""))[:500],
+            "link": link,
+            "summary": strip_html(entry.get("summary", entry.get("description", "")))[:500],
             "published": pub_date.isoformat() if pub_date else "",
             "feed": name,
-            "tags": tags,
+            "tags": item_tags,
         })
 
     suffix = f" (filtered {skipped_by_filter} by include_types)" if skipped_by_filter else ""
-    print(f"  Got {len(items)} items{suffix}", file=sys.stderr)
+    fleet_suffix = f" — {matched_fleet} fleet-watched" if matched_fleet else ""
+    print(f"  Got {len(items)} items{suffix}{fleet_suffix}", file=sys.stderr)
     return items
 
 
