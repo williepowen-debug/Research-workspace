@@ -9,10 +9,15 @@
     changed default `GITHUB_TOKEN` to read-only on newer repos; without this the
     "Commit and push" step silently fails. This was the most likely root cause of
     the 5/8 22:00 UTC no-commit incident.
-- **End-to-end verification still pending** — either dispatch via
-  `gh workflow run "SENTRY Feed Fetch"` (requires `gh auth login` first; gh CLI
-  currently unauthenticated on this WSL) OR await the next scheduled cron at
-  22:00 UTC (18:00 ET) tonight.
+- **End-to-end verification: PASSED 5/9 20:45 UTC.** Will manually dispatched
+  the workflow from the GitHub Actions UI (CLI path blocked by `gh auth login`
+  device-flow rate-limit). All four workflow steps green: Set up Python →
+  Install dependencies (pinned reqs activated) → Fetch feeds → Commit and push
+  (contents:write granted). Resulting commit `d1a789f4 SENTRY: feed update
+  2026-05-09-2045` landed on origin/master with `Items: 0` (Saturday afternoon,
+  feeds had nothing new vs seen.json baseline — *operational, not a failure*).
+  Cron-registration verification remaining: 22:00 UTC scheduled run tonight will
+  confirm scheduled cadence works without manual dispatch.
 - **Close-out salvage** (this turn): prior session ended without committing the
   CI fix's effect on STATUS/MEMORY/TODO/CHANGELOG, and left stale
   `SIGNALS/inbound.md` + `seen.json` from a 5/8 evening local-cron test in the
