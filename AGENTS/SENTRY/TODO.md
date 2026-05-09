@@ -13,8 +13,8 @@
   - PAT-with-`workflow`-scope sorted (Will): commits `3858048f` + `aaabf0b5` pushed by `williepowen-debug` at 16:02 / 16:07 ET.
   - Workflow `permissions: contents: write` granted (`aaabf0b5`) — primary suspected root cause of the 5/8 silent-fail.
   - Workflow now installs from pinned `scripts/requirements.txt` (`3858048f`) — activates v0.4 pinning in CI.
-- [ ] **Verify CI end-to-end** — either Will runs `gh auth login` then `gh workflow run "SENTRY Feed Fetch"`, OR confirm 22:00 UTC scheduled run produces an origin-master commit. If still no commit, escalate to Actions UI logs.
-- [ ] **Generate 2026-05-10 morning briefing** — once CI confirmed running; substrate dependent on it.
+- [x] **Verify CI end-to-end** — DONE 5/9 20:45 UTC. Manual dispatch via GitHub Actions UI (gh CLI auth blocked by device-flow rate-limit) produced commit `d1a789f4`, all four workflow steps green. Cron-registration check remaining: confirm 22:00 UTC scheduled run fires automatically (next opportunity tonight).
+- [ ] **Generate 2026-05-10 morning briefing** — first non-dry-run brief. Substrate will be 12+ hours of accumulated feed items.
 - [ ] **Sweep STATUS files for new updates** — HAWK (was 18d), LIQUID (was 22d), OZK (was 14d). If updated → re-run cross-agent consistency check.
 - [ ] **OZK Thread 3 roll** — flagged as "deadline ~May 8" in Apr 24 STATUS. Verify whether executed (FORGE/OZK) before re-flagging.
 - [ ] **WAL + HBAN + KRE-constituent CIK lookup** — extend `cik_watchlist` in feeds.yml. SEC company-tickers JSON or `browse-edgar?action=getcompany&CIK=<TICKER>`.
