@@ -81,3 +81,62 @@ End of state:
 - requirements.txt pinning live
 - `inbound.md` + `seen.json` updated locally, **uncommitted** pending Will's commit-scope authorization
 - Phase 1 polish queue: 4/8 items shipped (P1 CIK + P2 HTML + P3 reqs.txt; P1-cont'd 8-K and watchlist expansion + P3 persistence cache + P3 dry-run flags + P4 include_types tuning still open)
+
+---
+
+## 2026-05-09 — Daylight session 3 (~16:00 ET) + close-out salvage
+
+**Trigger:** Will called SENTRY back to triage CI per the queued daylight task. Then later in the day called again because the close-out had been botched.
+
+**CI triage outcome (16:02-16:07 ET):** Both token layers fixed and pushed.
+- `3858048f` — workflow's "Install dependencies" step now runs
+  `pip install -r scripts/requirements.txt`. Without this, v0.4's pinning
+  protection was inert in CI — workflow continued to install unpinned
+  pyyaml/feedparser.
+- `aaabf0b5` — granted `permissions: contents: write` at the workflow's job
+  level. GitHub changed default `GITHUB_TOKEN` permissions to read-only on
+  newer repos; without the explicit grant, the "Commit and push" step
+  silently fails. This is the most likely root cause of the 5/8 22:00 UTC
+  no-commit incident.
+- Will's local PAT must have been re-issued with `workflow` scope (TODO
+  flagged this as required) — both commits authored by `williepowen-debug`,
+  so the push went through cleanly.
+
+**End-to-end verification still pending.** `gh` CLI is unauthenticated on
+this WSL (`gh auth status` → not logged in). Two paths: (a) Will runs
+`gh auth login` then `gh workflow run "SENTRY Feed Fetch"`, or (b) wait for
+the next scheduled cron at 22:00 UTC tonight and check for a new origin-master
+commit. Either confirms the fix end-to-end.
+
+**Close-out salvage (this turn):** Will flagged that the prior daylight
+session ended without:
+- Updating STATUS / MEMORY / TODO / CHANGELOG to reflect the CI fix
+  (STATUS still flagged CI as broken with triage queued for daylight 5/9 —
+  the fix had shipped two hours earlier)
+- Deciding what to do with the staged `SIGNALS/inbound.md` + `seen.json`
+  (1 EIA item from a 5/8 22:04 ET local-cron test — stale)
+
+Salvage actions taken (with Will's per-question disposition):
+- Stale `SIGNALS/` files discarded via `git checkout` — CI will overwrite on
+  next run anyway, no historical value, cleaner state.
+- STATUS Last Updated bumped to 2026-05-09; "Currently demanding attention"
+  rewritten to reflect CI-fix-shipped + verification-pending.
+- CHANGELOG v0.5 entry added.
+- TODO immediate-actions block updated: CI triage checked off, verification
+  call-out added.
+- Pain point #9 added to TODO friction log: close-out hygiene gap pattern,
+  and a 4-item self-check protocol for future session ends.
+
+**Lessons / friction:**
+- *Ship-and-forget-to-record* is a real failure mode. The fix was clean
+  (two well-scoped commits with good messages) but the meta-record-keeping
+  got skipped. Adding a 4-item self-check (clean git status / STATUS stamp /
+  TODO NEXT SESSION block / CHANGELOG entry) to the close-out routine.
+- The daylight session generated no morning briefing — TODO had it
+  conditional on "once CI fixed," but CI didn't get fixed until 16:07 ET,
+  past any reasonable morning window. Briefing slot missed entirely.
+  Decision (Will): skip 5/9 evening brief too — substrate thin until CI
+  produces a real run. Resume 5/10 morning.
+- `gh auth login` is interactive and needs Will's terminal — can't be
+  automated from this Claude session. Same for `! gh workflow run` if Will
+  prefers to keep gh authenticated.

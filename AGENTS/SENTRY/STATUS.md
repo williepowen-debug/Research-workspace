@@ -1,8 +1,8 @@
 # SENTRY — Status
 
 **Agent:** SENTRY | **Domain:** Cross-domain signal synthesis
-**State:** 🟢 OPERATIONAL (Phase 1) — pipeline live with 2 feeds + fleet CIK whitelist; CI triage pending daylight
-**Last Updated:** 2026-05-08 (evening session 2)
+**State:** 🟢 OPERATIONAL (Phase 1) — pipeline live with 2 feeds + fleet CIK whitelist; CI fix shipped 5/9 PM, end-to-end verification pending
+**Last Updated:** 2026-05-09 (Saturday afternoon close-out)
 
 ---
 
@@ -26,8 +26,8 @@
 - Brent $110+ — war premium intact
 
 **Currently demanding attention:**
-- **CI broken:** 22:00 UTC 2026-05-08 produced no commit. Local pipeline confirmed working. Failure is at GitHub-Actions layer (auth/schedule/IP/env) — triage daylight 2026-05-09 (gh auth or Actions UI walk-through).
-- Morning briefing 2026-05-09 — substrate thin until CI runs and feeds accumulate
+- **CI fix shipped 5/9 PM** (commits `3858048f` + `aaabf0b5`): workflow now installs from pinned `scripts/requirements.txt` AND has `permissions: contents: write` so the post-fetch commit can push back. **End-to-end verification still pending** — either dispatch via `gh workflow run "SENTRY Feed Fetch"` (needs `gh auth login` first) or wait for next scheduled cron at 22:00 UTC tonight.
+- 5/10 morning briefing — substrate dependent on CI run actually completing
 - SEC EDGAR include_types filter — tune after first week's signal/noise observed
 - Will pinging fleet agents to add Key State headers per `references/key_state_spec.md`
 - WAL + HBAN CIK lookup needed before next OZK-style enrichment is fleet-wide
@@ -70,7 +70,8 @@
 - [x] **SEC CIK enrichment** — fleet-watchlist auto-tagging plumbed (OZK seeded)
 - [x] **HTML strip** from feed summaries
 - [x] **`scripts/requirements.txt`** pinning pyyaml + feedparser
-- [ ] **CI verified end-to-end in GitHub Actions** ← BLOCKED, triage daylight 2026-05-09
+- [x] **CI triage 5/9 PM:** identified two token layers (workflow `contents: write` + pinned-reqs activation), both fixed and pushed (`3858048f` + `aaabf0b5`)
+- [ ] **CI verified end-to-end in GitHub Actions** ← awaiting either manual dispatch or 22:00 UTC scheduled run
 - [ ] Key State headers actually adopted by fleet agents (Will pinging on next boots)
 - [ ] WAL + HBAN + KRE-constituent CIKs added to watchlist
 - [ ] First *real* (non-dry-run) briefing generated
@@ -80,8 +81,8 @@
 
 ## Next Actions
 
-1. **CI triage (daylight 5/9):** Either `gh auth login` or browse Actions UI; identify failure mode of 22:00 UTC 5/8 run; fix or fall back to local-cron.
-2. **Morning brief 5/9:** Once CI fixed and feeds accumulate, generate first non-dry-run brief.
-3. **STATUS sweep:** HAWK (18d), LIQUID (22d), OZK (14d) — check whether refreshed since last brief.
+1. **Verify CI end-to-end:** Either Will dispatches via `gh workflow run "SENTRY Feed Fetch"` (after `gh auth login`) OR check that the 22:00 UTC scheduled run produces an origin-master commit. If still no commit, escalate to Actions UI logs.
+2. **Morning brief 5/10:** Once CI run confirmed, generate first non-dry-run brief.
+3. **STATUS sweep:** HAWK (was 18d), LIQUID (was 22d), OZK (was 14d) — check whether refreshed since last brief.
 4. **CIK watchlist expansion:** WAL + HBAN + KRE top constituents, once verified CIKs sourced.
 5. **Will-side:** Key State header adoption ping; review evening 5/8 dry-run brief format.
