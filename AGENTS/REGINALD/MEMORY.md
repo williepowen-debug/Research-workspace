@@ -29,6 +29,10 @@
 - [2026-04-22] **Quartr MCP is subscription-gated** — returned `subscription_required` error when searching companies. Cannot use for document/event fetching. WebFetch + direct IR page links or user-provided PDFs are the workaround.
 - [2026-04-24] **SEC EDGAR direct-fetch pattern** — WebFetch 403s on all sec.gov paths, but `curl` with a `User-Agent: REGINALD research willie@research.local` header returns 200. Canonical paths: `https://data.sec.gov/submissions/CIK<padded>.json` for recent filings index (returns recent form/accession/filingDate/primaryDocument arrays) → `https://www.sec.gov/Archives/edgar/data/<cik>/<accession-no-dashes>/<filename>` for actual documents. Note: SEC accession numbers can start with the FILER's CIK, not the COMPANY's — stocktitan reported WAL Q1 8-K as `0001212545-26-026302` but the real accession was `0001628280-26-026302`. Always cross-check via data.sec.gov.
 - [2026-04-24] **Q4CDN IR PDF hosting pattern** — Most public bank IR pages host earnings materials at `https://s21.q4cdn.com/<subscriber-id>/files/doc_financials/<year>/<qnum>/<FILENAME>.pdf`. WAL's subscriber-id is `328636679`. Filename conventions vary per bank (17 naming variants probed for WAL supplement — none hit; WAL is deck+release only). Direct fetch works without auth.
+- [2026-05-08] **yfinance option chain extraction** — `yf.Ticker('SYM').option_chain('YYYY-MM-DD').puts` returns DataFrame with strike/lastPrice/bid/ask/volume/openInterest/impliedVolatility. `yf.Ticker('SYM').options` gives the available expiry list. NOTE: greeks (delta/theta/vega) NOT included — must compute via Black-Scholes manually if needed. Friday-close marks; Mon open can move bid 25%+ on thin chains. SSB May 15 chain has only 4 OI total — illiquid weeklies can have $0 bid even when last is meaningful.
+- [2026-05-08] **Gitignore directory-exclude breaks negation** — `dir/` followed by `!dir/*.md` does NOT work because git refuses to traverse into ignored dirs. Fix: use `dir/*` (file-level wildcard, doesn't ignore the dir itself) + `!dir/*.md`. Verify with `git check-ignore -v`. The .gitignore line 39-41 pattern is the canonical example.
+- [2026-05-08] **10-Q SEC EDGAR fetch is XBRL-heavy** — typical bank 10-Q is 3-4MB raw HTML, ~350KB of stripped text. Inline-XBRL tags inflate size 10x. Use `re.sub(r'<[^>]+>',' ',html)` to strip; then `re.sub(r'\s+',' ',text)`. Standard search terms (NDFI, "fund finance") often DON'T match — banks categorize differently. CFG calls it "Capital call facilities" + "Secured private credit finance" + "Other finance and insurance" under C&I Industry sector. Search broad first ("Allowance", "Commercial real estate", "private credit") then narrow.
+- [2026-05-08] **Phantom-detection heuristic** — When a position is referenced in dashboard files (STATUS / ROADMAP / CALENDAR / MEMORY / earnings briefs) but does NOT appear in POSITIONS.md AND does NOT appear in FORGE/STATUS.md, it's stale-tracking. Closed positions need a propagation step to dependent docs; without it, phantoms accumulate and other agents (RED especially) build risk frameworks on them. Quick check on any "decide what to do with X" task: grep ground-truth (POSITIONS / FORGE) before recommending action.
 
 ## References
 - [2026-04-16] EDGAR CIK for MTB: 0000036270
@@ -45,87 +49,100 @@
 
 ## Session Notes
 
-⚠️ **Open question:** May 8 boot caught a stale-tracking error — "KRE $70P May 15" was REAL in early Feb (memory journals show +26% P/L Feb 12) but closed/exited before Apr 2 broker screenshot, never propagated to dependent docs. REGINALD-scope cleanup (6 files) done; **RED + TRADES still reference the phantom** (RED has May 12 T-3 close trigger built around it) — out of REGINALD scope to fix. Will is sending broker screenshot to refresh POSITIONS.md. Next: refresh POSITIONS → decide RED-handoff path → resume queue.
+⚠️ **Open question:** Two inbox signals are unread for next session and one is high-priority — **RED's 2026-05-06 counter-call on WAL THESIS v2.0** ("compounder with concentrated CRE tail risk" framing) directly challenges what was just shipped May 1. RED's mandate is steel-man bull case; whether v2.0 actually overcorrected (vs v1.0 "fast-transmission failure") is the call. CARL handover from 2026-05-02 also unread but lower urgency. Before next session does anything else: read both inbox signals.
 
 **Pending Will calls:** (a) REG-20 resolution (CONFIRMED or hold); (b) synthesis-files gitignore decision (still blocking 2 WAL Round 2 synthesis files from commit).
 
 ### CHANGES SINCE LAST SESSION
 *(populated at next boot via market.py)*
 
-### LAST SESSION (May 1 PM — Q1 Call Report sweep + Wave 1 chunks 3-6 closeout)
+### LAST SESSION (May 8 PM — pending Will-decisions cleared + KRE phantom + POSITIONS refresh + MAY15 memo + Q1 10-Q sweep)
 
-**Scope:** Per Will's task triage from morning ("5 tasks for today"), executed Task 1 (Q1 Call Report sweep) → empty → pivoted to Wave 1 chunks 3-6 per pre-set decision rule.
+**Scope:** Long Friday session. 4 git commits. Started by clearing two pending Will-decisions (REG-20 + gitignore), then caught a phantom that drove the rest of the session.
 
-**Task 1 — Q1 Call Report sweep (executed first, ~25 min):**
-- Confirmed cert/RSSD/CIK numbers for all 5 watchlist banks (now in References section)
-- VLY CIK confirmed = 0000714310 (NOT 740260 = Ventas — earlier guess was wrong)
-- FDIC SDI: all 5 banks' most recent REPDTE = 20251231 (Q4 2025); risview index dated Feb 18, 2026 — SDI lags 30-60 days
-- SEC EDGAR: no Q1 2026 10-Q filed for any of WAL/OZK/EGBN/CFG/VLY (all most recent 10-Qs Nov 7, 2025 = Q3 2025)
-- WAL Apr 30 8-K = routine $0.42/sh quarterly dividend (no thesis content)
-- FFIEC CDR public ManageFacsimiles is ASP.NET viewstate-locked; NIC returns 403; cannot curl
-- Background: Nelnet Bank filed Q1 2026 Call Report Apr 29 — window IS open
-- **Decision rule from morning MEMORY held:** "if no Call Reports filed yet, continue Wave 1 chunk 3" → pivoted to Wave 1
+**Decisions resolved (Will calls):**
+1. **REG-20** → CONFIRMED-PARTIAL (literal-text reading; 1 of 3 OR-triggers fired Apr 21). PREDICTIONS.tsv + STATUS/ROADMAP/CALENDAR all updated.
+2. **Synthesis-files gitignore** → Option A negation rule (file-level wildcard `q[1-4]_*/*` + `!q[1-4]_*/*.md`). Hit a gotcha on first attempt — directory-exclude breaks negation since git won't traverse into ignored dirs. Fixed. 4 .md files in `WAL/sources/q1_2026/` now committed.
 
-**Wave 1 chunks 3-6 (executed second, ~90 min):**
+**Phantom caught + cleaned:**
+- Will asked for KRE $70P May 15 decision; cross-check against POSITIONS.md (5wk stale) + FORGE/STATUS.md (6wk stale) showed position doesn't exist anywhere. Will confirmed at broker.
+- Memory journals (Feb 11-12) show position WAS real then; closed/exited before Apr 2 broker screenshot, never propagated to dependent docs.
+- 6 REGINALD-scope refs cleaned (CALENDAR/ROADMAP×2/MEMORY×2/VLY brief).
+- 5 RED-scope refs (RED has May 12 T-3 close trigger on phantom) + TRADES candidate file flagged via direct inbox signal (Will authorized per-instance: `AGENTS/RED/inbox/SIG-REGINALD-RED-20260508-kre-70p-may15-phantom.md`).
+- ROADMAP audit entry documents the corrected story (real Feb position, never propagated to dependents).
 
-3. **Chunk 3 — `WAL/FRAUD/STATUS.md` + `FRAUD/SYNTHESIS_V2.md` post-print rewrite**
-   - STATUS.md (82→106 lines): 4-row vector table now organized RESOLVED / PARTIALLY RESOLVED / SILENT (LAM full / Cantor partial / First Brands silent / Tricolor silent)
-   - SYNTHESIS_V2.md (93→136 lines): converted "Apr 21 attack plan" to retrospective hypothesis-vs-outcome table; RSM auditor case demoted from primary to tertiary; Leucadia inventory question elevated to PRIMARY open thread
-   - Pulled from transcript (line 28+): "fund of Leucadia Asset Management" specificity; "no further commentary while matter is ongoing" lockdown; Cantor recovery via $13M senior liens + UHNW springing guarantees + mortgage fraud policy; "complex and potentially of long duration"; Vecchione "largely behind us"
+**POSITIONS.md broker refresh (Apr 2 → May 8):**
+- Will sent typed list (after JPG was unreadable for confident extraction). 5 weeks of broker activity caught up.
+- New names: FITB ($45P Jun-18) + HBAN ($16P Oct-16). Both warrant thesis-row updates if Will tracks them.
+- Restructure visible: WAL added Jul-17 + new Sep-18 strikes; APO added Dec-18 longer-dated; IWM strike up to $257.
+- Real May 15 cluster surfaced (was hidden by KRE phantom): WAL $75P + SSB $95P (REGINALD scope); TLT $88P (FORGE); OZK $42.5P/$47.5P (OZK agent).
+- Quantity column dropped (broker list was strike/expiry only). FORGE/STATUS.md is also Mar 25 stale and would benefit from same broker data refresh.
+- ZION 57.5 Put expiry confirmed Jul-17-2026 by Will (was missing in his list).
 
-4. **Chunk 4 — KB.tsv + KB_INDEX.md** (KB 80→105 rows; KB_INDEX rewrite)
-   - 25 new Q1-print rows (KB-WAL-081 through KB-WAL-105) covering: Cantor charge taken/residual/validated; LAM charge/lockdown/net-new; Q1 fraud total + mgmt label + sector silence; Office Slide 12/23 + CRE-NOO + Hotel; NDFI Slide 24 + warehouse + lender finance + CLN; PD-30-89 + SM (new LEADING_CREDIT group); securities offset; Q1 EPS + deposit lead + capital + NCO guide tension + revised outlook
-   - Pre-print rows 014/015/016/018/046/050 pointed back via DerivedFrom (KB is event log, not state table — old rows stay ACTIVE)
-   - KB_INDEX 16 groups (added LEADING_CREDIT); replaced "Earnings Prep Quick-Reference" with "Post-Apr 21 Quick-Reference"; added prediction-to-row mapping for REG-20/24/25
-   - Flagged 2 pre-existing column-drift rows (KB-WAL-056/057 have 14 cols not 13) for cleanup pass — OUT OF SCOPE this session, NOT introduced by me
+**MAY15_DECISIONS.md memo created:**
+- Friday-night data via yfinance option chains.
+- WAL $75P May-15 → LET EXPIRE (don't roll). +9.2% OTM, drifting away. Existing Sep $67.5P/$70P plays the Q2-print thesis with better strike geometry. $30/contract residual not worth $4.20 roll cost. Pre-registered triggers documented (sell-to-close on real -3% catalyst Mon-Wed).
+- SSB $95P May-15 → HOLD AND WATCH. NTM (1.35% OTM) but bid $0 — cannot sell. Roll markets non-investable (Sep zero bid/ask). Pre-registered ITM trigger if SSB <$95.
 
-5. **Chunk 5 — SCENARIOS.md probability re-weight** (243→259 lines)
-   - Bear 45%→**30%** (V2 binary catalyst RESOLVED removed "$100M+ surprise charge-off" path; range $42-52→$58-68)
-   - Base 30%→**38%** (most likely is multi-quarter grind; range $55-65→$70-78)
-   - Bull 20%→**25%** (V3 disconfirmed + deposits + Juris upside structurally strengthens bull case; $75-88→$85-95)
-   - Tail 5%→**7%** (LAM inventory + Office maturity wall + Apollo Atlas SP linkage justify marginal raise; $28-38→$35-45)
-   - EV $57.10 → **$72.32** (current $81.22 → 11% overvalued, down from v1.0 18%)
-   - PUT EV refreshed at $81.22: $85P Jun $13.93 / $77.5P Sep **$8.31 best risk-adj** / $70P Sep $4.20 / **$65P Jun $0.75 — flagged for close/roll**
+**Q1 10-Q SWEEP — 3 of 5 watchlist banks filed:**
+- CFG May 4: NDFI breaks out at $18.12B (Capital call $8.76B + Secured PC finance $4.10B + Other $5.27B). vs Slide 24 prelim $19.6B → $1.5B gap. C&I criticized $2.5B "stable QoQ".
+- VLY May 7: Provision -66% YoY ($21.2M vs $62.7M Q1-25). "Provisions mask deterioration" thesis gaining ground; need NCO + ACL coverage drill to lock in.
+- EGBN May 7: 🔴 Strategic de-risk CONFIRMED IN PRIMARY FILING TEXT — "high-risk loans concentrated in commercial real estate office segment" (explicit), HFS transfer mechanism cited. **V1 Hidden CRE thesis getting direct primary-source validation.** Watchlist score depends on HFS transfer $ quantification.
+- WAL + OZK 10-Qs not yet filed (likely May 11-13 for WAL).
+- 10-Qs do NOT contain MI3/RCON2746 (FFIEC Call Report only — bulk PDD ~mid-May).
+- Findings: `research/Q1_10Q_SWEEP_2026-05-08.md`.
 
-6. **Chunk 6 — INDEX.md refresh** (85→131 lines)
-   - Q4 2025 numbers replaced with Q1 2026 (Office classified $407M, $946M maturity wall, $152.5M fraud, deposits cohort lead, NCO 39bps vs 25-35bps guide)
-   - KB row count 61→105, groups 10→16
-   - Boot sequence adds CHANGELOG step
-   - File map adds FRAUD/ subdir + sources/q1_2026/
-   - 7 open threads listed at bottom
-
-**REGINALD master files updated:**
-- STATUS.md header: PM closeout note + Wave 1 done note + Q1 CR sweep finding
-- STATUS.md WAL line in RESEARCH section: KB rows 70→105, groups 10→16, "Wave 1 carry-over" line removed, SCENARIOS EV summary added, position EV line added
-- MEMORY.md: 2 new findings (FFIEC Q1 access pattern, watchlist cert/RSSD/CIK reference table)
-
-**Will conversation moments:**
-- Morning: "5 tasks for today" → I delivered the list, Will picked Task 1
-- After Task 1 dead end: I recommended pivot to Wave 1 chunk 3, Will approved
-- Mid-chunk-3: I asked "review now or commit at session close" — Will picked (b) commit at end
+**Inbox signals NOT processed this session (next session priority):**
+- `SIG-RED-REGINALD-20260506-wal-v20-overcorrected.md` (9.5KB, May 6) — RED challenges WAL THESIS v2.0. **High priority.**
+- `SIG-CARL-REGINALD-20260502-misplaced-banking-rows-handover.md` (5.8KB, May 2). Lower priority but still pending.
 
 **Files modified this session (REGINALD scope):**
-- AGENTS/REGINALD/STATUS.md
-- AGENTS/REGINALD/MEMORY.md
-- AGENTS/REGINALD/WAL/FRAUD/STATUS.md
-- AGENTS/REGINALD/WAL/FRAUD/SYNTHESIS_V2.md
-- AGENTS/REGINALD/WAL/workbook/KB.tsv
-- AGENTS/REGINALD/WAL/workbook/KB_INDEX.md
-- AGENTS/REGINALD/WAL/SCENARIOS.md
-- AGENTS/REGINALD/WAL/INDEX.md
+- AGENTS/REGINALD/STATUS.md, MEMORY.md, ROADMAP.md, CALENDAR.md, POSITIONS.md
+- AGENTS/REGINALD/workbook/PREDICTIONS.tsv
+- AGENTS/REGINALD/MAY15_DECISIONS.md (new)
+- AGENTS/REGINALD/research/Q1_10Q_SWEEP_2026-05-08.md (new)
+- AGENTS/REGINALD/earnings_briefs/VLY_Q1_2026.md
+- AGENTS/REGINALD/WAL/sources/q1_2026/{DROPZONE.md, WAL Earnings Call.md, 2 synthesis files} (newly committed; previously gitignore-blocked)
 
-### NEXT SESSION — REG-20 close + remaining 4 of morning's 5-task list
+**Cross-agent files written this session (with Will per-instance authorization):**
+- AGENTS/RED/inbox/SIG-REGINALD-RED-20260508-kre-70p-may15-phantom.md (new)
 
-1. **Boot normally** — git pull, read STATUS (May 1 PM closeout at top), LESSONS, CALENDAR, MEMORY; market.py; inbox.
-2. **REG-20 resolution call with Will** — should still be open. Q1 print delivered: GAAP miss -4.6% + $152.5M fraud + tape -2%. Mark CONFIRMED, or hold for capital raise / regulatory action threshold?
-3. ~~KRE $70P May 15 expiry decision~~ — **PHANTOM, killed 2026-05-08**. Position does not exist at broker. 6 references across REGINALD docs cleaned up. Underlying lesson: refresh POSITIONS.md from broker screenshot before propagating any position-state language.
-4. **APO Q1 May 6 prep** — 5 days out. Atlas SP segment + warehouse book size + non-bank servicer counterparty. Was Task 4 of morning's list.
-5. **MTB Baltimore Sun primary verification** (SIG-W-20260426-009: -$1B / 29% reassessed CRE) — was Task 5; quick pull, closes signal for trade-thesis weight.
-6. **Q1 Call Report recheck** — re-query SEC EDGAR + FDIC SDI on May 4-5 (when 10-Qs typically start landing for accelerated filers). If anything is filed → MI3 / NDFI / AOCI deep read.
-7. **Synthesis-files gitignore decision** — Will's call still pending. 2 WAL Round 2 synthesis files (sources/q1_2026/) still blocked from commit.
-8. **VLY 10-Q drill (~May 10)** — verify "provisions mask deterioration."
-9. **WAL Investor Day prep (May 12)** — start outline of "what would change the thesis"; add to KB row tracking on the day.
-10. **Wave 2 cross-agent outbox signals** — BROCK / CARL / OTTO / PROME / LIQUID / HAWK. Wave 1 now fully closed → Wave 2 unblocked.
-11. **DEF 14A pass (~90pp)** — Only AFTER Wave 2 starts. Optional enhancement.
+**Shared files modified this session (with Will per-instance authorization):**
+- .gitignore (root) — Option A negation rule
 
-**Positions unchanged this session** — no broker data. Thread 3 OZK roll still pending ~May 8 deadline (lives in `../OZK/POSITIONS.md`).
+**Git: 4 local commits, push deferred.**
+- `d5d08d56` REG-20 + gitignore close
+- `486aea0b` KRE phantom cleanup + RED handoff
+- `325dc8de` POSITIONS refresh + real May 15 cluster
+- `0d876199` MAY15 memo + Q1 10-Q sweep
+
+**Push not done:** Other agents (SENTRY, SIGNALS/, scripts/fetch_feeds.py) have uncommitted work outside REGINALD scope blocking pull-then-push sequence. Try push next session if working dir is clean.
+
+**Will conversation moments:**
+- Boot: flagged that Will said Monday but it was Friday May 8.
+- Pending decisions section: Will picked CONFIRMED-literal + Option A.
+- Phantom catch: Will confirmed at broker; gave per-instance authorization for direct RED inbox write (cross-agent rule waived) and .gitignore commit (shared-root file rule waived).
+- POSITIONS scope: kept thesis-pure (banks + credit/convergence); OZK/macro/non-thesis flagged for other owners.
+- May 15 cluster: Will couldn't pull live broker data (Friday night); option chain math via yfinance close marks instead.
+- Final: Will requested clean session close + save unfinished to ROADMAP.
+
+### NEXT SESSION — clear inbox + WAL prep + 10-Q deep drill
+
+1. **Boot normally** — git pull (check working dir state first; may still need pre-pull cleanup), read STATUS (May 8 PM at top), LESSONS, CALENDAR, MEMORY; market.py refresh; inbox scan.
+2. **Process RED inbox signal first** (`SIG-RED-REGINALD-20260506-wal-v20-overcorrected.md`) — direct challenge to THESIS v2.0 shipped May 1. Read carefully, evaluate counter-arguments, decide: revise (CHANGELOG entry, possibly v2.1/v3.0), defend (outbox response addressing each point), or hybrid. Do NOT skip — fresh thesis under direct challenge.
+3. **Process CARL inbox signal** (`SIG-CARL-REGINALD-20260502-misplaced-banking-rows-handover.md`) — lower urgency but should not stay unread.
+4. **Push deferred commits** if working dir is clean — 4 commits pending (`d5d08d56`, `486aea0b`, `325dc8de`, `0d876199`).
+5. **WAL Investor Day prep** (May 12 = T-3 from May 9) — build 1-page "what would change the thesis" outline. Listening posts: Leucadia inventory Q&A pressure, Office de-risking story, Cantor recovery posture. **Time-pressure deadline May 11.**
+6. **10-Q deep drill (priority order):**
+   - EGBN HFS transfer $ quantification — watchlist score depends on it
+   - VLY NCO + ACL coverage trajectory — verify "mask" thesis
+   - CFG $1.5B NDFI reconciliation gap (Slide 24 vs 10-Q breakdown)
+   - Cross-bank Office classified $ comparison
+7. **WAL + OZK 10-Q recheck** (~May 11-13) — highest impact filing for V2.0 thesis.
+8. **APO Q1 post-print integration** — printed May 6, 3+ days old, not yet integrated. Atlas SP segment, warehouse book, non-bank servicer counterparty — WAL V3 link.
+9. **MAY15 cluster execution** — Mon-Fri. Watch for triggers (WAL -3% catalyst window; SSB <$95 ITM trigger). Default = no action; let market decide. Fri May 15 = expiry day; passive close.
+10. **MTB Baltimore Sun verification** (SIG-W-20260426-009) — quick pull when bandwidth.
+11. **Wave 2 cross-agent outbox signals** — now expanded with 10-Q findings (8 candidate signals listed in ROADMAP open thread).
+12. **MI3 / FFIEC PDD recheck** ~May 14-16 (bulk update timing).
+13. **VLY 10-Q drill** specifically per CALENDAR (already Q1-print-resolved; this is the deeper read).
+

@@ -20,45 +20,70 @@
 
 ## 2026-05-01 PM — Wave 1 chunks 3-6 + Q1 CR sweep
 
-**Format gotchas / data hygiene:**
-- KB.tsv pattern confirmed: APPEND new rows + use `DerivedFrom` column to point back to old rows. Old rows STAY ACTIVE — KB is event log not state table. Don't try to mark old rows SUPERSEDED in Status column; that's not the convention.
-- Pre-existing column-drift in KB.tsv on KB-WAL-056 and KB-WAL-057 — both have 14 columns instead of 13. Stray tab inserted before "→KB-WAL-039" / "→KB-WAL-021" pattern — looks like the Stale_By column was skipped. Out of scope to fix mid-Wave-1; flagged in ROADMAP open questions.
-- `awk -F'\t' 'NR>1 && NF!=13 {print NR": "NF" cols: "substr($0,1,80)}' KB.tsv` is the column-drift detection one-liner.
+*FFIEC access patterns promoted to MEMORY findings (2026-05-01). Most other content stale; keeping these durable bits:*
 
-**FFIEC Q1 access — what works / what doesn't:**
-- FDIC SDI (banks.data.fdic.gov, after redirect to api.fdic.gov) — clean JSON; lags 30-60d post-quarter. risview index timestamp = SDI refresh date (not bank filing date).
-- SEC EDGAR (data.sec.gov/submissions/CIK<padded>.json) — clean JSON; UA header required ("REGINALD research willie@research.local" works). 10-Qs typically file May 4-10 for accelerated filers.
-- FFIEC CDR ManageFacsimiles.aspx — heavy ASP.NET with viewstate; can't curl without browser session.
-- FFIEC NIC Institution Profile — returns 403 to standard UA. Different UA might work; not pursued today.
-
-**Useful one-liners cached:**
-```
-# Get bank's latest SDI quarter
-curl -sL "https://api.fdic.gov/banks/financials?filters=CERT:<cert>&fields=REPDTE,ASSET&sort_by=REPDTE&sort_order=DESC&limit=3"
-
-# Get bank's RSSD + holding co linkage
-curl -sL "https://api.fdic.gov/banks/institutions?filters=CERT:<cert>&fields=CERT,NAME,FED_RSSD,RSSDHCR,STALP&limit=1"
-
-# Get latest 10-Q from EDGAR
-curl -s -A "REGINALD research willie@research.local" "https://data.sec.gov/submissions/CIK<10-digit-padded>.json"
-```
+**KB.tsv hygiene (still relevant):**
+- KB.tsv pattern: APPEND new rows + use `DerivedFrom` column to point back to old rows. Old rows STAY ACTIVE — KB is event log not state table. Don't mark old rows SUPERSEDED in Status; that's not the convention.
+- Pre-existing column-drift on KB-WAL-056/057 (14 cols not 13) — out of scope; flagged in ROADMAP open questions.
+- Detection one-liner: `awk -F'\t' 'NR>1 && NF!=13 {print NR": "NF" cols: "substr($0,1,80)}' KB.tsv`
 
 **WAL Q1 transcript line-numbers (useful for future quoting):**
 - L22: opening — "decisive actions taken on two previously disclosed fraud-related credits"
 - L28: LAM — "fully charged off the remaining $126.4 million balance of the loan to a fund of Leucadia Asset Management" + "we will not provide further commentary"
 - L34: Cantor — "$29.6 million specific reserve... validated by current as-is appraisal values" + "$26 million" charged + recovery sources (UHNW springing guarantees, mortgage fraud policy)
-- L40: HFI loans 3.2% LQ ann, 8% YoY
 - L106: leading-vs-lagging — "criticized assets were largely stable... special mention loans increased $78 million quarter-over-quarter, the change was not thematic"
-- L154: revised guide — "core net charge-off guidance of 25-35 basis points... at or slightly above the midpoint of this range, with charge-offs declining in the back half"
+- L154: revised guide — "core net charge-off guidance of 25-35 basis points... at or slightly above the midpoint of this range"
+
+**Open backlog item (didn't get to):**
+- "Juris banking" line — mentioned multiple times in WAL transcript as the "real surprise driver." We don't have a KB row capturing what Juris banking actually IS. Research add: what business / counterparty / how does it monetize?
+
+---
+
+## 2026-05-08 PM — Long Friday: REG-20/gitignore close + KRE phantom + POSITIONS refresh + MAY15 + 10-Q sweep
+
+**Patterns / one-liners cached (durable bits promoted to MEMORY findings):**
+
+```python
+# yfinance option chain (Friday-night-friendly; close marks)
+import yfinance as yf
+chain = yf.Ticker('SYM').option_chain('YYYY-MM-DD')  # expiry ISO-format
+puts = chain.puts.copy()  # DataFrame: strike/lastPrice/bid/ask/volume/openInterest/impliedVolatility
+# NOTE: greeks NOT in output. Use Black-Scholes manually if needed.
+```
+
+```bash
+# 10-Q text extraction (XBRL-heavy; ~3-4MB raw → ~350KB stripped)
+curl -s -H "User-Agent: REGINALD research willie@research.local" \
+  "https://www.sec.gov/Archives/edgar/data/<CIK-no-leading-zeros>/<accession-no-dashes>/<filename>.htm" \
+  -o /tmp/file.htm
+python3 -c "
+import re
+text = re.sub(r'<[^>]+>', ' ', open('/tmp/file.htm').read())
+text = re.sub(r'\s+', ' ', text)
+# Search for narrow terms; banks categorize differently than expected
+"
+```
+
+```
+# Gitignore directory-exclude breaks negation — use file-level wildcard:
+dir/*           # not "dir/" — git refuses to traverse ignored dirs
+!dir/*.md
+# Verify: git check-ignore -v <file>
+```
 
 **Things I noticed but didn't dig into:**
-- WAL Apr 30 8-K = pure $0.42/sh dividend declaration. Auto-skip pattern candidate: when an 8-K is dated within 1 trading day of a print and content header is "Quarterly Common and Preferred Stock Dividend," it's noise. Build skip-list?
-- The ~$10/sh underwater on WAL's $50M Q1 buyback at $71.61 avg vs current $81.22 → mgmt actually got *good* price relative to current; from short-thesis view this is a small bull point (mgmt timing was correct). But irrelevant in scale.
-- The "Juris banking" line item is mentioned multiple times in transcript as the "real surprise driver." We don't have a KB row capturing what Juris banking actually IS. Quick research add: what business / counterparty / how does it monetize?
-- SCENARIOS rewrite revealed $65P Jun has only $0.75 EV. That's a position discipline finding — shouldn't have been added at this size in the first place; was vestigial from v1.0 fast-transmission framing.
+- CFG's "Other finance and insurance" sub-line grew +13.7% QoQ (vs Capital call +2%, Secured PC finance +3.4%). What's in "Other"? If it's shadow-bank lending, that's the line that maps to the BROCK domain. Decomposition not in 10-Q narrative I scanned.
+- CFG's $1.5B reconciliation gap (Slide 24 prelim $19.6B vs 10-Q $18.12B) might just be inclusion of Schedule O off-balance-sheet items. Worth a Schedule O grep next session.
+- VLY 10-Q has 22 charge-off + 38 provision references — unusual disclosure density even for a Q1. Suggests management is preparing the table for a larger Q2 disclosure. Or they're explaining the -66% YoY drop defensively.
+- EGBN's "transfer of certain loans to HFS" phrase is the recognition mechanism. Need to compare HFS balance Q1 vs Q4 to see the magnitude — pulled from Note: Loans Held for Sale.
+- Friday-night option chain quirk: SSB May 15 weekly has 4 OI total; bid showed $0 even with last $2.00. Mon open could revalidate or kill — Mon AM check is high-leverage.
 
 **Convention question for next session:**
-- Should KB rows capture the *quote* verbatim in the Fact column, or paraphrase + put quote in Notes column? Today I mostly paraphrased. Quote-in-Fact would be better for future LLM consumption but inflates row size. Decide per-style after a few more Q reads.
+- Should I treat unprocessed-inbox-signals as ROADMAP open threads (current pattern after this session) or as a separate "INBOX" section? RED counter and CARL handover both went into open threads with 🔴/🟠 markers. Works for now; revisit if the inbox queue grows.
+
+**Mistake / lesson this session:**
+- Initial gitignore attempt put `!dir/*.md` AFTER `dir/`. Didn't work — git refuses to traverse ignored dirs. Fixed via file-level wildcard `dir/*` + negation. ALWAYS test gitignore changes with `git check-ignore -v` before committing.
+- Phantom-detection lesson: when a position is referenced in dashboard files but doesn't appear in POSITIONS.md AND doesn't appear in FORGE/STATUS.md, treat as phantom by default. Closing positions needs a propagation step to dependent docs/agents. (Promoted to MEMORY findings.)
 
 ---
 
