@@ -1,8 +1,8 @@
 # SENTRY — Status
 
 **Agent:** SENTRY | **Domain:** Cross-domain signal synthesis
-**State:** 🟢 OPERATIONAL (Phase 1) — pipeline live with 2 feeds, briefings not yet generated
-**Last Updated:** 2026-05-08
+**State:** 🟢 OPERATIONAL (Phase 1) — pipeline live with 2 feeds + fleet CIK whitelist; CI triage pending daylight
+**Last Updated:** 2026-05-08 (evening session 2)
 
 ---
 
@@ -26,10 +26,11 @@
 - Brent $110+ — war premium intact
 
 **Currently demanding attention:**
-- First briefing generation once feeds accumulate ~24h (likely 2026-05-09 morning)
-- Watch CI run tonight (22:00 UTC) — confirm GitHub Actions IP isn't blocked from SEC
+- **CI broken:** 22:00 UTC 2026-05-08 produced no commit. Local pipeline confirmed working. Failure is at GitHub-Actions layer (auth/schedule/IP/env) — triage daylight 2026-05-09 (gh auth or Actions UI walk-through).
+- Morning briefing 2026-05-09 — substrate thin until CI runs and feeds accumulate
 - SEC EDGAR include_types filter — tune after first week's signal/noise observed
 - Will pinging fleet agents to add Key State headers per `references/key_state_spec.md`
+- WAL + HBAN CIK lookup needed before next OZK-style enrichment is fleet-wide
 
 ---
 
@@ -37,10 +38,11 @@
 
 | Capability | Status | Phase |
 |------------|--------|-------|
-| Briefing generation | 🟡 Skeleton ready, no briefing yet | 1 |
-| Context-aware synthesis | 🟡 Skeleton ready | 1 |
+| Briefing generation | 🟡 Dry-run shipped (5/8 evening), format iterating | 1 |
+| Context-aware synthesis | 🟡 Skeleton ready, depends on Key State adoption | 1 |
 | Cross-domain tagging | 🟢 Working — feeds tagged on ingest | 1 |
-| Inbound feed reading | 🟢 EIA + SEC EDGAR live, 2 feeds dropped | 1 |
+| Fleet-watchlist enrichment | 🟢 SEC CIK match → `#watched` + `#<label>` tags (OZK seeded) | 1 |
+| Inbound feed reading | 🟢 EIA + SEC EDGAR live (locally); CI broken | 1 |
 | Agent STATUS reads | 🔴 Needs Key State headers — only SENTRY has one | 1 |
 | Inbox alerts | 🔴 Not started | 2 |
 | Semantic dedup | 🔴 Not started | 2 |
@@ -64,16 +66,22 @@
 - [x] inbound.md overwrite-not-append fix (now shows full 48h window, history via git log)
 - [x] Key State header spec drafted at `references/key_state_spec.md`
 - [x] Orphan `SIGNALS/positions/` trashed
-- [ ] GitHub Action tested in CI (next scheduled run, 22:00 UTC tonight)
+- [x] **First dry-run briefing** generated (`SIGNALS/briefings/2026-05-08-evening.md`)
+- [x] **SEC CIK enrichment** — fleet-watchlist auto-tagging plumbed (OZK seeded)
+- [x] **HTML strip** from feed summaries
+- [x] **`scripts/requirements.txt`** pinning pyyaml + feedparser
+- [ ] **CI verified end-to-end in GitHub Actions** ← BLOCKED, triage daylight 2026-05-09
 - [ ] Key State headers actually adopted by fleet agents (Will pinging on next boots)
-- [ ] First briefing generated
+- [ ] WAL + HBAN + KRE-constituent CIKs added to watchlist
+- [ ] First *real* (non-dry-run) briefing generated
 - [ ] Format iteration (Week 1-2)
 
 ---
 
 ## Next Actions
 
-1. **Pending Will:** Authorize inbound.md overwrite fix; pick Key State rollout path (a/b/c)
-2. **Next CI run:** Verify GitHub Action commits cleanly with new feed config
-3. **Week 1:** First briefing once feeds accumulate ~24h of items; format iteration
-4. **Week 1.5:** Tune SEC EDGAR include_types based on signal/noise observed
+1. **CI triage (daylight 5/9):** Either `gh auth login` or browse Actions UI; identify failure mode of 22:00 UTC 5/8 run; fix or fall back to local-cron.
+2. **Morning brief 5/9:** Once CI fixed and feeds accumulate, generate first non-dry-run brief.
+3. **STATUS sweep:** HAWK (18d), LIQUID (22d), OZK (14d) — check whether refreshed since last brief.
+4. **CIK watchlist expansion:** WAL + HBAN + KRE top constituents, once verified CIKs sourced.
+5. **Will-side:** Key State header adoption ping; review evening 5/8 dry-run brief format.

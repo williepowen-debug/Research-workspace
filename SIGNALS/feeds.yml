@@ -47,6 +47,13 @@ feeds:
       - "6-K"
       # Proxy / annual meeting (for activism context)
       - "DEF 14A"
+    # CIK whitelist: filings whose link's CIK matches get auto-tagged with
+    # #watched + #<label>. Leading zeros are tolerated.
+    # Lookup: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=<TICKER>
+    cik_watchlist:
+      "1175796": "OZK"   # Bank OZK
+      # Seed list — add as fleet positions evolve. Need verified CIKs for:
+      # WAL (Western Alliance), HBAN (Huntington), and KRE top constituents.
 
   # --- Removed 2026-05-08 (Will-authorized) ---
   # BLS News Releases — IP-blocked by BLS even with browser UA. LABOR domain
