@@ -34,6 +34,36 @@ entities:
     agents: [REGINALD]
     forms: ['10-K', '10-Q', '8-K', 'NT 10-K', 'NT 10-Q', '4']
     keywords: ['commercial real estate', 'CRE', 'classified', 'criticized', 'provision']
+  - ticker: SSB
+    name: SouthState Bank Corporation
+    cik: '0000764038'
+    agents: [REGINALD]
+    forms: ['10-K', '10-Q', '8-K', 'NT 10-K', 'NT 10-Q', '4']
+    keywords: ['commercial real estate', 'CRE', 'Florida', 'Texas', 'classified', 'criticized', 'provision', 'deposit']
+  - ticker: EGBN
+    name: Eagle Bancorp, Inc.
+    cik: '0001050441'
+    agents: [REGINALD]
+    forms: ['10-K', '10-Q', '8-K', 'NT 10-K', 'NT 10-Q', '4']
+    keywords: ['commercial real estate', 'CRE', 'office', 'DC', 'classified', 'criticized', 'provision', 'deposit']
+  - ticker: HBAN
+    name: Huntington Bancshares Incorporated
+    cik: '0000049196'
+    agents: [REGINALD]
+    forms: ['10-K', '10-Q', '8-K', 'NT 10-K', 'NT 10-Q', '4']
+    keywords: ['SBA', 'small business', 'commercial real estate', 'CRE', 'classified', 'criticized', 'provision']
+  - ticker: CFG
+    name: Citizens Financial Group, Inc.
+    cik: '0000759944'
+    agents: [REGINALD]
+    forms: ['10-K', '10-Q', '8-K', 'NT 10-K', 'NT 10-Q', '4']
+    keywords: ['fund finance', 'NDFI', 'commercial real estate', 'CRE', 'classified', 'criticized', 'provision']
+  - ticker: VLY
+    name: Valley National Bancorp
+    cik: '0000714310'
+    agents: [REGINALD]
+    forms: ['10-K', '10-Q', '8-K', 'NT 10-K', 'NT 10-Q', '4']
+    keywords: ['commercial real estate', 'CRE', 'multifamily', 'Florida', 'classified', 'criticized', 'provision']
 
   # BROCK/SHADE — private credit / alt managers / BDCs
   - ticker: APO

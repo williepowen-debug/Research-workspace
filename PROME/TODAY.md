@@ -1,57 +1,89 @@
-# TODAY.md — Friday April 17, 2026
+# TODAY.md — Saturday May 9, 2026
 
-**Markets OPEN.** Iran FM declared Hormuz "completely open" — Brent crashed **-10.6% to $88.87** (low $87.51). Paper-physical divergence live. US-Iran talk-2 possible this weekend.
+**Markets closed.** Weekend build window. Objective is to turn Monday into execution/readout, not improvisation.
 
-Scenario D dominant (82%). War Day 44. HY OAS **294** 🟢 (collapsed 23bps post-ceasefire). CCC OAS **~980** 🟡. VIX **~18** 🟡. USD/JPY **159.5** 🔴.
-
----
-
-## 🔴 TODAY — Fri Apr 17
-
-- [ ] **BRENT paper-physical divergence** — Await Dated Brent Apr 15-17 print + weekend talk-2 outcome
-- [x] **Git pull** — Synced major Claude Code agent updates (184 files)
-- [ ] **Process cross-agent outboxes** — BRENT→CARL/HAWK/HENRY/SAM; CARL→LABOR/LIQUID/REGINALD
-- [ ] **REGINALD FITB/RF PDF review** — Provisions, NDFI disclosure, Consumer Warehouse language
-- [ ] **Update Prome root files** — TODAY, SCRATCH, STATUS (in progress)
-
-## 🔴 Coming Up
-
-- [ ] **MON 4/21: OZK + WAL Q1 earnings** — REGINALD domain (both position names).
-- [ ] **TUE 4/29: CVNA Q1 earnings** — OTTO domain.
-- [ ] **WED-THU 4/23-24: BOJ meeting** — hike live (~35-40%). SAM domain.
-- [ ] **WEEKEND: US-Iran talk-2** — if signed framework + Dated Brent <$110 → BRENT Phase 2 confirmed
-
-## Key Levels (live)
-
-| Ticker | Value | Zone | Note |
-|--------|-------|------|------|
-| HY OAS | 294 | 🟢 | Collapsed 23bps — complacency gap widening |
-| CCC OAS | ~980 | 🟡 | Below 1000 |
-| Brent | $88.87 | 🟡 | -10.6% on Iran FM statement; paper-physical divergence |
-| Gas | ~$3.50 | 🟢 | Post-ceasefire |
-| USD/JPY | ~159.5 | 🔴 | Intervention zone |
-| SOFR-IORB | 0.00 | 🟢 | Clean |
-| VIX | ~18 | 🟡 | Vol crush post-ceasefire |
-| APO | ~$103-104 | 🔴 | Below $113 stop 12+ days |
-| KRE | ~$68-69 | 🟡 | FITB/RF earnings this AM |
-| WAL | ~$77 | 🔴 | Re-breached $78 pre-market |
-
-## Position Decisions Pending
-
-| Priority | Decision | Status |
-|----------|----------|--------|
-| 🔴 | APO — cut or hold? | Below stop 12+ days, RED domain |
-| 🔴 | KRE Jun → Dec rolls | LIQUID: price before executing |
-| 🔴 | USO/STNG — Phase 2 exit? | Await Dated Brent print + talk-2 outcome |
-| 🔴 | WAL puts — hold through earnings? | Apr 21, REGINALD domain |
-
-## Notable Since Last Session
-
-- **BRENT Phase 2 trigger firing** — Iran FM "Hormuz open" but physical not confirming; paper-physical spread may have widened to ~$43-44
-- **CARL composition-masking generalizes** — ALLY pattern confirmed at BNPL + subprime auto ABS; timeline pushed to 2H 2026/Q1 2027
-- **REGINALD RF miss** — First outright miss of Q1 cohort; FITB mixed; WAL $78 re-breach
-- **Major Claude Code sync** — 184 files: BRENT scripts, CARL sub-agent handoffs, REGINALD bank folders, HENRY/LIQUID restructuring
+**Current regime:** Private-credit thesis intact but timing slowed. OBDC Q1 was **MIXED / earnings-quality bear**, not forced-mark cascade. Portfolio is mostly **cash + AAPL + regional-bank downside**; private-credit option value is small residual exposure.
 
 ---
 
-*Positions → `PROME/POSITIONS.md` | OTTO Status → `AGENTS/OTTO/STATUS.md` | Dashboard → `python3 FORGE/tools/market-data/dashboard.py` | News → `python3 FORGE/tools/news-sweep/sweep.py --compact`*
+## 🔴 Weekend Priorities
+
+- [x] **Create action-card template** → `PROME/action-cards/TEMPLATE.md`
+- [x] **Create regional-bank weekend triage card** → `PROME/action-cards/REGIONAL_BANK_WEEKEND_TRIAGE_MAY9.md`
+- [x] **FSK May 11 card exists** → `PROME/action-cards/FSK_MAY11_ACTION_CARD.md`
+- [x] **Create ZION research scaffold + REGINALD inbox request** → `AGENTS/REGINALD/ZION/INDEX.md`, `TODO.md`, `research/ZION_DEEP_DIVE_FRAMEWORK.md`, `AGENTS/REGINALD/inbox/PROME-20260509-zion-scaffold-fill-request.md`
+- [ ] **Q1 Call Report triage** — WAL, OZK, EGBN, CFG, VLY, ZION, FITB, SSB if filings available.
+- [ ] **Monday one-page decision prompt** — May scraps, KRE/WAL June roll, OZK/KRE runway, ZION kill/retain / REGINALD scaffold ownership.
+- [ ] **FSK Monday workflow** — read release pre-open, classify branch, apply FSK card.
+- [x] **Refresh `PROME/STATUS.md` / `SCRATCH.md` pointers** after ZION scaffold handoff. `HEARTBEAT.md` still needs final refresh after weekend build settles.
+
+---
+
+## Active Action Cards
+
+| Card | Purpose | Status |
+|---|---|---|
+| `PROME/action-cards/FSK_MAY11_ACTION_CARD.md` | FSK Q1 branch → private-credit/BDC action | Active through FSK read |
+| `PROME/action-cards/REGIONAL_BANK_WEEKEND_TRIAGE_MAY9.md` | Bank put expiry triage + Call Report decision rails | Active through Monday open / Call Report triage |
+| `PROME/action-cards/TEMPLATE.md` | Standard future card format | Ready |
+
+---
+
+## Catalyst Calendar
+
+| When | Event | Decision Relevance |
+|---|---|---|
+| **Weekend May 9-10** | Market closed build window | Prepare bank/FSK rails; no live tape pressure |
+| **Mon May 11 pre-open** | FSK Q1 release / 9:00 ET call | Private-credit fresh capital decision |
+| **May 1-10 window** | Q1 bank Call Reports | Regional-bank book triage; MI3/NDFI/ACL checks |
+| **Mon May 12** | WAL Investor Day per REGINALD calendar | WAL thesis refinement / June contract management |
+| **May 15** | May bank option expiry cluster | Cleanup decisions for WAL/OZK/SSB May contracts |
+| **Jun 18** | June option cluster + AOCI comment deadline | KRE/WAL/FITB/EGBN/HYG/IWM time-risk point |
+
+---
+
+## Current Decision Posture
+
+### FSK / Private Credit
+
+- Existing APO/ARES/OWL value is small: about **$445 / 1.0%**.
+- FSK is mainly a **fresh-capital gate**, not rescue of current positions.
+- Default: **no fresh premium** unless FSK is Bear / Strong Bear.
+
+### Regional Banks
+
+- Main live short book: about **$5.4K / 12.4%**.
+- Weekend card separates:
+  - **May scraps:** clean if useful bid.
+  - **June salvage/roll:** KRE $67/$65, WAL $85/$77.5 only if confirmed.
+  - **Runway:** KRE Sep/Dec, WAL Sep, OZK Aug, HBAN Oct.
+- Default: **do not sell runway into green tape; do not roll every loser.**
+
+### Cash / AAPL
+
+- Cash remains high: about **46%**.
+- AAPL is dominant single-name exposure: about **30%**.
+- Risk is not being trapped; risk is spending fresh premium too early.
+
+---
+
+## Files to Trust Today
+
+| File | Trust |
+|---|---|
+| `HEARTBEAT.md` | Current orientation as of May 8; update after weekend work |
+| `PROME/POSITIONS.md` | Current snapshot from May 8 screenshots; execution ground truth remains brokerage |
+| `PROME/DECISION_FLOW.md` | Current architecture |
+| `PROME/action-cards/FSK_MAY11_ACTION_CARD.md` | Current FSK workflow |
+| `PROME/action-cards/REGIONAL_BANK_WEEKEND_TRIAGE_MAY9.md` | Current bank triage workflow |
+| `AGENTS/REGINALD/STATUS.md` | Best bank-domain state; updated May 1, may need Call Report refresh |
+| `AGENTS/REGINALD/ZION/INDEX.md` | New ZION scaffold; use if REGINALD/Prome expands ZION tomorrow |
+
+---
+
+## Skip / Deprioritize
+
+- Do not spend weekend rescuing tiny May contracts as if they are thesis-critical.
+- Do not spawn REGINALD; it is persistent/managed.
+- Do not refresh old proposal queue before decision rails are built.
+- Do not commit/stash dirty git state without explicit approval.

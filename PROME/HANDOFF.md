@@ -1,137 +1,262 @@
 # PROME HANDOFF
-**Date:** 2026-05-07 19:15 ET
-**Status:** ✅ Checkpoint prepared — user requested fresh context window
+**Date:** 2026-05-09 21:25 ET  
+**Status:** ✅ Clear-ready handoff — weekend regional-bank build in progress; next session should continue ZION expansion + Monday bank/FSK prep
 
 ---
 
-## Session Summary
+## Immediate State
 
-Main thread: Will asked about useful machine/API access for Prome. We distinguished **true machine/API access** from human-operated terminals, discussed brokerage read-only / Koyfin / SEC filings, then built the first MVP of a central EDGAR filing radar.
+Will asked to prep for handoff after a long regional-bank triage session.
 
-### Key Conversation Outcomes
+**Current working posture:**
+- Private-credit thesis intact but timing slowed; FSK May 11 remains next BDC canary.
+- Current portfolio risk is more **regional-bank puts** than APO/ARES/OWL residuals.
+- Regional-bank work has moved from ad hoc analysis into action-card / decision-rail mode.
+- ZION was initially treated too cleanly because its folder was thin. Correction: **ZION is under-researched, not exonerated.**
+- We discovered the heavily researched target Will was remembering was **OZK**, not ZION. ZION was mostly a WAL comparator/control case.
 
-- **Unbrowse reviewed:** enabled, but no generated site skills found. Conservative config: no telemetry, no auto-contribute, no Chrome cookies, no desktop automation, credentialSource none.
-- **Connectivity inventory:** confirmed Telegram, Brave Search, OpenAI, Moonshot/Kimi, Memory Core, FRED, yfinance, EDGAR, Treasury APIs, RSS/news sweep. No brokerage, Bloomberg, Gmail, Google Calendar OAuth currently working, or generated Unbrowse site integrations.
-- **Access wishlist clarified:**
-  1. Brokerage read-only = best direct Prome upgrade.
-  2. Calendar OAuth repair.
-  3. SEC/filings enhancement.
-  4. Options/market data APIs.
-  5. Prediction markets/news APIs.
-- **SnapTrade discussed:** good first test for existing Robinhood/Fidelity accounts, but only cautiously and read-only. Not yet acted on.
-- **Koyfin discussed:** useful as human-operated market cockpit; Prome cannot directly connect unless via export/screenshots/future capture workflow. Will created a free Koyfin account and is setting up watchlists.
-- **Image reading confirmed:** Prome successfully read a chart screenshot and Koyfin pricing screenshots.
+**No trades executed. No external messages sent. Do not commit/stash/pull without Will approval.**
 
 ---
 
-## Work Completed: EDGAR Filing Radar MVP
+## Most Important Decisions / Current Calls
 
-Created new tool folder:
+### ZION July put
+Position reviewed: `ZION $57.5P Jul 17 2026`.
 
-`FORGE/tools/filing-watch/`
+Current recommendation remains:
 
-Files created:
+> **Kill / sell if there is a usable bid. Do not roll. Do not add.**
 
-| File | Purpose |
-|---|---|
-| `watchlist.yml` | 14 watched entities with CIKs, owner agents, watched forms, thesis keywords |
-| `poll_edgar.py` | SEC submissions API poller |
-| `README.md` | Usage + next phases |
-| `seen_filings.json` | Baseline duplicate-suppression state |
-| `latest.md` / `latest.json` | Most recent run output |
-| `baseline_2026-05-07.md` | Preserved first-run review + triage list |
+But language was corrected:
 
-Watched entities:
+> **ZION is not clean-clean. It has latent structural risk and one disclosure-negative C&I move. But current evidence does not support keeping/rolling a July OTM put as conviction exposure.**
 
-- **REGINALD:** WAL, OZK, ZION, FITB, RF
-- **BROCK/SHADE:** APO, ARES, OWL, BX, OBDC
-- **CARL/OTTO:** SYF, COF, ALLY, CVNA
+If bid is unusably poor, acceptable fallback: leave as tiny paid-for AOCI/regulatory lottery into Jun 18; do not average down or roll.
 
-Watched forms:
+### Why ZION call is nuanced
+Evidence found:
+- ZION folded **~$374M leasing into C&I** in Q1 — disclosure-negative.
+- Q1 10-Q/source text does **not** contain `MI3`, `Memo Item 3`, or `RCON2746`; Call Report needed.
+- C&I metrics were not flashing: nonaccruals and 30-89d past dues improved QoQ.
+- CRE/office nonaccruals improved; no near-term recognition pressure in Q1 10-Q.
+- Muni/conduit risk exists, but current muni nonaccruals only ~$2M.
+- Multifamily is the best latent CRE issue: **$4.1B / 30% of CRE; ~46% matures within 12 months**.
+- Fraud/accounting evidence mostly cuts **against WAL**, not against ZION: ZION charged off aggressively, used EY, led disclosure.
 
-- `10-K`, `10-Q`, `8-K`, `NT 10-K`, `NT 10-Q`, `4`, `SC 13D`, `SC 13G`
+### ZION research status
+Updated stance:
 
-Useful commands:
+> **ZION is under-researched, not exonerated.** Current July put can be killed on timing/evidence, but ZION needs an OZK/WAL-style research pass before being dismissed.
 
-```bash
-python3 FORGE/tools/filing-watch/poll_edgar.py --dry-run --lookback-days 30 --new-only
-python3 FORGE/tools/filing-watch/poll_edgar.py --dry-run --lookback-days 14 --material-only
-python3 FORGE/tools/filing-watch/poll_edgar.py --lookback-days 30
-```
+New scaffold created:
+- `AGENTS/REGINALD/ZION/INDEX.md`
+- `AGENTS/REGINALD/ZION/TODO.md`
+- `AGENTS/REGINALD/ZION/research/ZION_DEEP_DIVE_FRAMEWORK.md`
 
-Verification:
-
-- `python3 -m py_compile FORGE/tools/filing-watch/poll_edgar.py` passed.
-- Initial dry run found 71 filings in 30-day lookback.
-- User approved baseline.
-- Baseline pass recorded those 71 filings as seen.
-- Verification run with `--new-only` returned **0 new filings**.
-
-Important: `latest.md` now shows the latest verification run, so it says 0 new. The preserved first-run review is in:
-
-`FORGE/tools/filing-watch/baseline_2026-05-07.md`
-
----
-
-## Filing Triage From Baseline
-
-Priority follow-up filings:
-
-1. **OBDC 10-Q + 8-K — 2026-05-06 → BROCK**
-   - Top priority. Direct Blue Owl/private credit/APO relevance.
-   - 10-Q: `https://www.sec.gov/Archives/edgar/data/1655888/000165588826000033/obdc-20260331.htm`
-   - 8-K: `https://www.sec.gov/Archives/edgar/data/1655888/000165588826000034/obdc-20260506.htm`
-
-2. **OWL 10-Q + 8-K — 2026-05-01 / 2026-04-30 → BROCK**
-   - Check gating/redemption language, NAV/fair-value marks, non-accruals.
-
-3. **ZION/RF/FITB 10-Qs → REGINALD**
-   - Regional bank peer read: CRE, deposits, provisions, criticized/classified loans.
-
-4. **COF/ALLY/SYF 10-Qs → CARL/OTTO**
-   - Consumer credit read-through: NCOs, DQs, auto/card stress.
-
-5. **CVNA 8-K → CARL/OTTO**
-   - Lower priority unless auditor/material weakness/financing related.
-
----
-
-## Recommended Next Step After Fresh Context
-
-Start with **OBDC 10-Q analysis** before adding routing.
-
-Why: OBDC 10-Q was one of the pending catalysts for APO/private credit thesis. We need to learn what a useful filing-analysis note should look like before automating routing into agent inboxes.
-
-Suggested task:
-
-> Pull OBDC 10-Q + 8-K. Extract non-accruals, NAV/fair value marks, PIK income, credit quality, liquidity/leverage, portfolio marks, and any Blue Owl/APO read-through. Produce a concise BROCK/APO decision brief with what confirms/falsifies the private-credit thesis.
-
-After OBDC/OWL analysis, next system build step:
-
-- Add **routing dry-run mode** to `poll_edgar.py` that previews agent inbox notes without writing them.
-- Then add thin keyword extraction.
-
----
-
-## Other Important State
-
-- `HEARTBEAT.md` is stale/abandoned as ground truth; repeated heartbeat polls showed Apr 12 stale state. Do not rely on it for current market levels.
-- `PROME/CLEANUP_PLAN_2026-05-07.md` exists from earlier audit. Diagnosis: authority drift across root state files. Recommended future cleanup: reset Prome command surface and stale queues.
-- No active subagents were found earlier in session.
-- CARL/REGINALD/SAM/RED/BRENT remain persistent/managed agents; be careful editing their folders. Prefer self-contained inbox notes when routing later.
+Priority next for ZION:
+1. Q1 Call Report MI3 / RCON2746 / hidden CRE screen.
+2. CRE + multifamily maturity wall.
+3. Municipal / conduit risk.
+4. Fraud/accounting follow-through.
+5. AOCI / Basel offset.
+6. Funding/liquidity durability.
+7. Insider/governance scan.
+8. Then `SCENARIOS.md`, `WEAKNESSES.md`, possible `THESIS.md` v2.
 
 ---
 
 ## Files Changed This Session
 
-| File/Dir | Change |
-|---|---|
-| `FORGE/tools/filing-watch/` | New EDGAR Filing Radar MVP |
-| `FORGE/tools/filing-watch/watchlist.yml` | New watched entities/forms/agents/keywords |
-| `FORGE/tools/filing-watch/poll_edgar.py` | New poller with dry-run, new-only, material-only modes |
-| `FORGE/tools/filing-watch/README.md` | New usage docs |
-| `FORGE/tools/filing-watch/seen_filings.json` | Created by baseline run |
-| `FORGE/tools/filing-watch/baseline_2026-05-07.md` | Preserved baseline review and triage |
-| `PROME/HANDOFF.md` | This handoff |
+### Created
+- `AGENTS/REGINALD/ZION/INDEX.md` — ZION research entry point and boot map.
+- `AGENTS/REGINALD/ZION/TODO.md` — ZION deep-dive backlog.
+- `AGENTS/REGINALD/ZION/research/ZION_DEEP_DIVE_FRAMEWORK.md` — question tree / vectors / decision rule.
+- `PROME/ZION_SINGLE_BANK_TRIAGE_MAY9.md` — ZION single-bank triage memo.
 
-Git status before checkpoint showed `FORGE/tools/filing-watch/` as untracked. No commit performed.
+### Modified
+- `PROME/ZION_SINGLE_BANK_TRIAGE_MAY9.md` — updated multiple times:
+  - Added Memo Item 3 / C&I caveat.
+  - Added deeper REGINALD/sub-agent evidence.
+  - Added full ZION subtree sweep findings.
+  - Added reopen conditions including `MI3 / RCON2746` and multifamily stress.
+
+### Not modified in final handoff except this file
+- `PROME/TODAY.md` and `PROME/STATUS.md` were read and remain generally current from earlier May 9 build, but their ZION line is now slightly stale because ZION scaffold was created after them.
+- `HEARTBEAT.md` was read by heartbeat poll and remains dated May 9 11:20 ET; should be refreshed after weekend build / Monday prep settles.
+
+---
+
+## Local / Git State Notes
+
+Git sync remains blocked / dirty. Earlier checks showed local branch behind origin and many unstaged/untracked files.
+
+Important:
+- Do **not** run `git pull --rebase` without handling local changes.
+- Do **not** commit/stash without Will approval.
+- Local ZION tree now has more files than origin because scaffold and 10-Q mirror files are untracked.
+
+GitHub/origin had only these tracked ZION files before scaffold:
+```text
+AGENTS/REGINALD/ZION/FRAUD/README.md
+AGENTS/REGINALD/ZION/Q1_2026_ANALYSIS.md
+AGENTS/REGINALD/ZION/sources/transcript_Q1_2026.md
+AGENTS/REGINALD/ZION/STATUS.md
+AGENTS/REGINALD/ZION/THESIS.md
+AGENTS/REGINALD/ZION/workbook/KB.tsv
+```
+
+Local-only/untracked ZION source mirrors existed:
+```text
+AGENTS/REGINALD/ZION/sources/ZION_10Q_Q1_2026_stocktitan_raw.html
+AGENTS/REGINALD/ZION/sources/ZION_10Q_Q1_2026_stocktitan_text.txt
+```
+
+---
+
+## Research Trail / Evidence Checked
+
+### ZION subtree sweep
+Checked all local files under `AGENTS/REGINALD/ZION`:
+- `FRAUD/README.md`
+- `Q1_2026_ANALYSIS.md`
+- `STATUS.md`
+- `THESIS.md`
+- `workbook/KB.tsv`
+- `sources/transcript_Q1_2026.md`
+- `sources/ZION_10Q_Q1_2026_stocktitan_text.txt`
+- `sources/ZION_10Q_Q1_2026_stocktitan_raw.html`
+
+Findings:
+- Only 6 tracked files on origin before scaffold; 8 local including mirrors; now more due scaffold.
+- ZION folder was thin because ZION was originally a comparator, not deep target.
+- Related ZION evidence is scattered elsewhere, especially WAL/research outputs.
+
+Related files worth checking later:
+```text
+AGENTS/REGINALD/WAL/FRAUD/ZION_AUDIT_COMPARISON.md
+AGENTS/REGINALD/WAL/research/RQ-REG-A01_WAL_ZION_FRAUD_COMPARISON.md
+AGENTS/REGINALD/research/outputs/RQ-ad-hoc/RQ-REG-A01_WAL_ZION_FRAUD_COMPARISON.md
+AGENTS/REGINALD/domain/INSIDER_BEHAVIOR_SCAN.md
+AGENTS/REGINALD/research/outputs/RP-REG-3.2/Municipal_Securities_Exposure_Analysis.md
+```
+
+### OZK realization
+Will remembered that the heavy research was **OZK**, not ZION.
+
+OZK lives at:
+```text
+AGENTS/OZK/
+```
+not `AGENTS/REGINALD/OZK/`.
+
+OZK is fully built out with:
+- `INDEX.md`
+- `STATUS.md`
+- `THESIS.md`
+- `Q1_2026_ANALYSIS.md`
+- `IQHQ_PLAYBOOK.md`
+- `SEVEN_CREDIT_DEEP_DIVE.md`
+- `THREAD3_ROLL_MATH.md`
+- `workbook/KB.tsv`
+- subdirs: `GEOGRAPHY/`, `LIFE_SCI/`, `PRIVATE_CREDIT/`, `INSIDERS/`, `research/`, `raw/`, `sources/`, etc.
+
+This is the model for how ZION should be expanded tomorrow.
+
+---
+
+## Current Open TODOs
+
+### 🔴 1. Expand ZION research tomorrow — likely REGINALD-owned
+Will suggested REGINALD may handle filling out the ZION scaffold. PROME could not find a live REGINALD session via `sessions_list`, so an inbox note was written:
+
+```text
+AGENTS/REGINALD/inbox/PROME-20260509-zion-scaffold-fill-request.md
+```
+
+Start with `AGENTS/REGINALD/ZION/INDEX.md` then `TODO.md`.
+
+First real task:
+
+> **Q1 Call Report MI3 / RCON2746 hidden-CRE screen for ZION.**
+
+Output target:
+```text
+AGENTS/REGINALD/ZION/research/MI3_HIDDEN_CRE_SCREEN.md
+```
+
+Then:
+```text
+AGENTS/REGINALD/ZION/research/CRE_MULTIFAMILY_MATURITY.md
+AGENTS/REGINALD/ZION/research/MUNI_CONDUIT_RISK.md
+AGENTS/REGINALD/ZION/research/AOCI_CAPITAL_RULE.md
+AGENTS/REGINALD/ZION/research/FRAUD_ACCOUNTING_COMPARISON.md
+AGENTS/REGINALD/ZION/research/INSIDER_GOVERNANCE_SCAN.md
+```
+
+### 🔴 2. Continue regional-bank Call Report triage
+Current focus remains:
+- WAL
+- OZK
+- EGBN
+- CFG
+- VLY
+- ZION
+- FITB
+- SSB / HBAN as needed
+
+Need extract:
+- MI3 / RCON2746
+- NDFI / warehouse / lender finance if visible
+- ACL / NCO / classified / nonaccrual trends
+- FHLB / brokered deposits / uninsured liquidity
+- modified loans / maturity wall clues
+
+### 🔴 3. Monday bank decision prompt
+Needs to cover:
+- May scraps cleanup.
+- KRE/WAL June roll/salvage.
+- OZK/KRE/WAL Sep-Dec runway.
+- ZION kill/retain.
+- No broad bank-premium add unless Call Reports/tape branch Bear / Strong Bear.
+
+### 🔴 4. FSK May 11 live read
+Use:
+- `AGENTS/BROCK/domain/sources/FSK_PREBUILD_MAY11.md`
+- `PROME/action-cards/FSK_MAY11_ACTION_CARD.md`
+
+Default:
+- No fresh private-credit premium unless FSK is Bear / Strong Bear.
+- Existing APO/ARES/OWL residuals are small; FSK mainly governs fresh capital / roll decisions.
+
+### 🟠 5. GCRED / OTF / BCRED / CTAC 10-Q watch
+Still pending. These are real private-credit forced-mark tests after OBDC/FSK.
+
+### 🟠 6. EDGAR filing-watch routing dry-run
+MVP/baseline exists and watchlist expanded earlier, but routing dry-run remains incomplete.
+
+### 🟠 7. Refresh state files after weekend build
+After ZION scaffold + Call Report plan settles, refresh:
+- `HEARTBEAT.md`
+- `PROME/STATUS.md`
+- `PROME/TODAY.md` if needed
+- `PROME/SCRATCH.md`
+
+---
+
+## Current Rules / Constraints
+
+- **No trade execution without Will approval.**
+- **No fresh private-credit premium** unless FSK is Bear / Strong Bear.
+- **No broad bank-premium add** unless Call Reports/tape move to Bear / Strong Bear.
+- **No rolling every losing June contract.** Prefer one or two higher-delta candidates if confirmed.
+- **No panic-selling Sep/Dec runway** into green tape.
+- **May contracts are cleanup**, not thesis core.
+- **Do not spawn REGINALD, CARL, SAM, RED, or BRENT.** REGINALD is persistent/managed.
+- **Do not use `git pull --rebase`, commit, or stash without Will approval** while working tree is dirty.
+
+---
+
+## Suggested Fresh-Session Prompt
+
+> Continue from `PROME/HANDOFF.md`. Focus first on expanding ZION properly, using `AGENTS/REGINALD/ZION/INDEX.md` and `TODO.md`. Do not treat ZION as clean just because the folder was thin. Start with the Q1 Call Report MI3 / RCON2746 hidden-CRE screen, then CRE/multifamily and muni/conduit. Keep current ZION trade posture separate from research status: July put is kill/no-roll if usable bid, but ZION remains under-researched. After ZION framework, continue regional-bank Call Report triage and build Monday’s bank decision prompt. Do not spawn REGINALD and do not trade.
