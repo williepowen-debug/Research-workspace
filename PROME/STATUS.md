@@ -1,69 +1,78 @@
 # PROME STATUS.md
-**Updated:** 2026-04-17 13:26 ET
+**Updated:** 2026-05-09 21:35 ET
 
-## 🔴🔴 SCENARIO D DOMINANT (82%) — WAR DAY 44 — BRENT $88.87 — PAPER-PHYSICAL DIVERGENCE — STRESS: HIGH
+## Weekend Build Mode — Markets Closed
 
----
-
-## Agents
-
-| Agent | St | Key State | Upd | Inbox | Runtime |
-|-------|----|-----------|-----|-------|---------|
-| BROCK | 🔴🔴🔴 | Stage 2→3. Blue Owl OTIC 40.7% / OCIC 21.9% gated. $10B+ trapped. | 4/9 | 11 | OpenClaw |
-| BRENT | 🔴🔴🔴 | Phase 2 trigger firing. Iran FM "Hormuz open" but physical not confirming. Paper-physical spread ~$43-44. | 4/17 | 2 | OpenClaw |
-| HAWK | 🔴🔴 | Scenario D 85%. Iran deadline **Apr 6**. Israel struck nuclear sites. | 4/2 | 2 | OpenClaw | **⚠️ STALE 8d** |
-| LIQUID | 🔴🔴 | HY OAS 316 🟡 (spiked 346 q-end). CCC 981 🟡. Gold margin cascade. | 4/9 | 11 | OpenClaw |
-| ZHAO | 🔴🔴 | Demand hole $70-135B/mo. HIBOR-SOFR reverted (seasonal). TIC Apr 15. | 4/2 | 3 | OpenClaw | **⚠️ STALE 8d** |
-| HENRY | 🔴🔴 | JPM retail fatigue. Fed T-Bill $352B. $14T IG supply wall. | 4/9 | 10 | OpenClaw |
-| CARL | 🔴🔴 | Convergence 58/60. Composition-masking generalizes (ALLY→BNPL→subprime ABS). Timeline 2H 2026/Q1 2027. | 4/17 | 0 | 🖥️ Claude Code |
-| LABOR | 🔴 | NFP +178K (healthcare-driven). Claims 202K. Shadow +65K. | 4/7 | 6 | OpenClaw | **⚠️ STALE 3d** |
-| SAM | 🔴 | USD/JPY 159.64. FXY 8 shares. Tankan beat. BOJ hike ~35-40% Apr. | 4/9 | 0 | 🖥️ Claude Code |
-| REGINALD | 🔴🔴 | FITB mixed + RF miss (first cohort miss). WAL $78 re-breach. OZK+WAL earnings Apr 21. | 4/17 | 0 | 🖥️ Claude Code |
-| MARCO | 🔴 | DHS Day 47 (deal reached, may resolve today). ICE going dark on data. | 4/9 | 3 | OpenClaw |
-| OTTO | 🟠 | DQ 7.1% RED. Tricolor fraud charges. CVNA earnings Apr 29. | 4/2 | 3 | OpenClaw | **⚠️ STALE 8d** |
-| NEXUS | 🟠 | Restructured Apr 4. Pass 12 running. 16 active convergences. | 4/4 | 0 | OpenClaw | **⚠️ STALE 6d** |
-| RED | 🟢 | 85% confidence. | 4/7 | 0 | 🖥️ Claude Code | **⚠️ STALE 3d** |
-| HANS | 🔴🔴 | DD-4 delivered. EU storage 17-19%. | 3/25 | 2 | OpenClaw | **⚠️ STALE 16d** |
-| DARWIN | 🟡 | Inactive. | 2/18 | 0 | OpenClaw | **⚠️ STALE 51d** |
+**Core state:** Private-credit thesis intact, timing slower. OBDC Q1 was mixed / earnings-quality bear, not forced-mark cascade. Current portfolio risk is larger in **regional-bank puts** than in APO/ARES/OWL residuals.
 
 ---
 
-## Pending
+## Active Decision Layer
+
+| Artifact | Status | Purpose |
+|---|---|---|
+| `PROME/DECISION_FLOW.md` | ✅ Fresh | Five-layer workflow: pre-build → position snapshot → action card → live read → decision log |
+| `PROME/action-cards/TEMPLATE.md` | ✅ New | Standard action-card format |
+| `PROME/action-cards/FSK_MAY11_ACTION_CARD.md` | ✅ Active | FSK Q1 branch-to-action rails |
+| `PROME/action-cards/REGIONAL_BANK_WEEKEND_TRIAGE_MAY9.md` | ✅ Active | Bank expiry / Call Report triage rails |
+| `PROME/TRADE_DECISIONS.md` | ✅ Ready | Decision log scaffold; no trade decisions logged yet |
+| `PROME/POSITIONS.md` | ✅ Fresh May 8 | Current portfolio snapshot from screenshots |
+
+---
+
+## Pending Work
 
 | Action | Pri | Status |
-|--------|-----|--------|
-| APO hold reassess (stop $113) | 🔴 | APO at ~$103-104 — below stop 12+ days. RED domain. **STILL PENDING.** |
-| KRE Jun→Dec rolls | 🔴 | Roll timing needed. Price next week. |
-| NEXUS Pass 12 | 🟠 | Running now (spawned Apr 4). |
-| RED check-in | 🟠 | 10 days stale. |
-| HANS check-in | 🟠 | 23 days stale. Archive candidate. |
-| Near→long rebalance (61/39 → 22/78) | 🟠 | RED recommends. Deferred. |
-| ORACLE inaugural sweep | 🟡 | Registered, never spawned. Low priority. |
-| DARWIN | 🟡 | 44d stale. Zero position relevance. Archive candidate. |
-
-### Resolved
-- ✅ OWL $9.5P Apr 2 — expired, ~$100 profit
-- ✅ FXY Tranche 1 — executed (+4 shares). 8 total.
-- ✅ CCC decomposition — concentrated, not systemic. Confidence 85%→80%.
-- ✅ Timing thesis folder — built (`FORGE/timing/thesis/`)
-- ✅ Gas $4 breakpoint — breached
-- ✅ Market data dashboard — live, cron running
-- ✅ News sweep v1 — live, cron M-F 8:30 AM ET, routing to inboxes
+|---|---:|---|
+| **FSK Q1 live read May 11** | 🔴 | Pre-build + action card complete. Need Monday classification and decision prompt if Bear/Strong Bear. |
+| **Regional-bank Call Report triage** | 🔴 | Action card created. Filing radar expanded May 9; ZION/VLY/RF/EGBN/FITB/CFG/WAL filings detected. Next: extract MI3, NDFI, ACL, charge-offs, FHLB/brokered deposits. |
+| **Monday bank decision prompt** | 🔴 | Pending Call Report/tape prep. Needs May cleanup + June roll/salvage + runway hold plan. |
+| **ZION scaffold expansion** | 🟠 | Corrected framing: ZION is under-researched, not exonerated. Jul put = kill/no-roll if usable bid, but REGINALD should fill scaffold starting with Call Report MI3/RCON2746. Inbox note: `AGENTS/REGINALD/inbox/PROME-20260509-zion-scaffold-fill-request.md`. |
+| **GCRED / OTF / BCRED / CTAC 10-Q watch** | 🟠 | Private-credit forced-mark tests after OBDC/FSK. |
+| **EDGAR filing-watch routing** | 🟠 | MVP/baseline done; REGINALD watchlist expanded for SSB/EGBN/HBAN/CFG/VLY; routing dry-run still incomplete. |
+| **Refresh HEARTBEAT after weekend build** | 🟠 | Needs pointers to new bank card/template once build settles. |
+| **Resolve git sync blocker** | 🟡 | `git pull --rebase` blocked by unstaged/untracked local changes. Do not commit/stash without Will approval. |
+| **Old Toscanini QUEUE/WILL_QUEUE cleanup** | 🟡 | Stale; lower priority than live decision rails. |
 
 ---
 
-## Intelligence Quality Notes
+## Agent / Domain Notes
 
-| Claim | Source | Verdict | Date |
-|-------|--------|---------|------|
-| BlackRock sold USTs 3 consecutive quarters | Felix Prehn (FinTwit) | **FALSE** — 13F contradicts | 3/25 |
+| Domain | Status | Note |
+|---|---|---|
+| BROCK / private credit | 🔴 | FSK May 11 is next BDC canary. Existing PC exposure small; fresh capital only on Bear/Strong Bear. |
+| REGINALD / banks | 🔴 | Persistent/managed — do not spawn. Current book needs Call Report and expiry triage. |
+| LIQUID | 🟠 | HY OAS benign is main falsification pressure; watch <260 sustained. |
+| NEXUS | 🟠 | Spawn later only if FSK + Call Reports create cross-domain convergence. |
+| PROME | 🔴 | Weekend build: action-card layer + stale doc refresh + Monday prompts. |
 
 ---
 
+## Current Rules of Engagement
+
+- **No trade execution without Will approval.**
+- **No fresh private-credit premium** unless FSK is Bear / Strong Bear.
+- **No broad bank-premium add** unless Call Reports/tape move to Bear / Strong Bear.
+- **No rolling every losing June contract.** Prefer one or two higher-delta roll candidates if confirmed.
+- **No panic-selling Sep/Dec runway** into green tape.
+- **May contracts are cleanup**, not thesis core.
+- **Do not spawn REGINALD, CARL, SAM, RED, or BRENT.**
+
 ---
 
-## Tool Updates
-- **fetch.py v2.1 deployed** — Tiered cache TTL, delta filtering, audit logging, --json flag
-- **Message systems research** — 7 prompts created for agent deep dives (`FORGE/research/prompts/`)
+## Freshness Table
 
-*Dashboard → `python3 FORGE/tools/market-data/dashboard.py` | Positions → `PROME/POSITIONS.md` | News → `python3 FORGE/tools/news-sweep/sweep.py --compact`*
+| File | Status |
+|---|---|
+| `HEARTBEAT.md` | Patched May 9 evening with ZION/REGINALD scaffold note; market levels still May 8 |
+| `PROME/TODAY.md` | ✅ Refreshed May 9 evening |
+| `PROME/STATUS.md` | ✅ Refreshed May 9 evening |
+| `PROME/SCRATCH.md` | ✅ Refreshed May 9 21:35 ET |
+| `PROME/TOSCANINI/QUEUE.md` | Stale Mar 26; do not use as live proposal list |
+| `PROME/TOSCANINI/WILL_QUEUE.md` | Stale; historical only until refreshed |
+
+---
+
+## Next Best Action
+
+First check REGINALD ownership of the ZION scaffold request, then run / build the **Q1 Call Report triage** for WAL, OZK, EGBN, CFG, VLY, ZION, FITB, SSB and produce Monday’s bank decision prompt.

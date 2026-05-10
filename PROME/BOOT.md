@@ -40,7 +40,7 @@
 
 ## Boot Sequence
 
-0. **`git pull --rebase`** — sync Claude Code agent changes before reading anything.
+0. **`git pull --rebase`** — sync Claude Code agent changes before reading anything. If blocked by dirty/untracked files, **stop and read handoff/status first; do not stash, commit, reset, or force without Will approval.**
 1. **Read `PROME/SCRATCH.md`** — session handoff from last Prome. What's hot, what's unfinished.
 2. **Read `PROME/TODAY.md`** — today's catalysts, levels, task checklist.
 3. **Read `PROME/STATUS.md`** — agent health, pending actions, priorities.
