@@ -1,8 +1,8 @@
 # WAL STATUS
 
-**Last Updated:** 2026-05-01 9:50 ET (post-v2 thesis refresh) | **Thesis:** v2.0 "Compounder with Concentrated CRE Tail Risk" (`THESIS.md`, `CHANGELOG.md`)
-**Price:** $80.90 (May 1, 9:50 ET intra; -0.78% on session) | **Threshold:** $78 | **Buffer:** +$2.90 🟢
-**Status:** 🟠 SHORT THESIS ACTIVE — V2 resolved in print, V1 sharpened to Office single-point, V3 directionally disconfirmed at aggregate
+**Last Updated:** 2026-05-11 (post RED CHG-RED-025 v2.0 → v2.1 ship) | **Thesis:** v2.1 "Compounder with Concentrated CRE Tail Risk + V1 Hidden-CRE Test Pending MI3 mid-May" (`THESIS.md` v2.1, `SCENARIOS.md` v2.1, `CHANGELOG.md` v2.1, `V21_RESPONSE_TO_RED_CHG_025.md`)
+**Price:** $81.90 (May 8 close — Sunday read) | **Threshold:** $78 | **Buffer:** +$3.90 🟢
+**Status:** 🟠 SHORT THESIS ACTIVE — V2 resolved in print, V1 weight RESTORED pending MI3 mid-May (v2.0 demoted V1 prematurely; corrected v2.1 per RED M2 ACCEPT), Office single-point sharpened evidence ADDITIVE, V3 directionally disconfirmed at aggregate. Bear split: Bear-fast 12% MI3-triggered + Bear-slow 23% Office-migration. EV math made Jun-conditional per RED M4 ACCEPT.
 **KB:** 70 rows / 10 groups (refresh pending Wave 1 chunk 4) | **Consensus:** Mod Buy (cohort median) | **Assets:** ~$90B+
 
 ---
