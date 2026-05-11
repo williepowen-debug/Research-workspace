@@ -18,72 +18,90 @@
 
 ---
 
-## 2026-05-01 PM — Wave 1 chunks 3-6 + Q1 CR sweep
+## 2026-05-01 PM — Wave 1 chunks 3-6 + Q1 CR sweep [PRUNED 2026-05-11; durable bits already in MEMORY/LESSONS]
 
-*FFIEC access patterns promoted to MEMORY findings (2026-05-01). Most other content stale; keeping these durable bits:*
-
-**KB.tsv hygiene (still relevant):**
-- KB.tsv pattern: APPEND new rows + use `DerivedFrom` column to point back to old rows. Old rows STAY ACTIVE — KB is event log not state table. Don't mark old rows SUPERSEDED in Status; that's not the convention.
-- Pre-existing column-drift on KB-WAL-056/057 (14 cols not 13) — out of scope; flagged in ROADMAP open questions.
-- Detection one-liner: `awk -F'\t' 'NR>1 && NF!=13 {print NR": "NF" cols: "substr($0,1,80)}' KB.tsv`
-
-**WAL Q1 transcript line-numbers (useful for future quoting):**
+**WAL Q1 transcript line-numbers (kept — useful for future quoting):**
 - L22: opening — "decisive actions taken on two previously disclosed fraud-related credits"
 - L28: LAM — "fully charged off the remaining $126.4 million balance of the loan to a fund of Leucadia Asset Management" + "we will not provide further commentary"
 - L34: Cantor — "$29.6 million specific reserve... validated by current as-is appraisal values" + "$26 million" charged + recovery sources (UHNW springing guarantees, mortgage fraud policy)
 - L106: leading-vs-lagging — "criticized assets were largely stable... special mention loans increased $78 million quarter-over-quarter, the change was not thematic"
 - L154: revised guide — "core net charge-off guidance of 25-35 basis points... at or slightly above the midpoint of this range"
 
-**Open backlog item (didn't get to):**
-- "Juris banking" line — mentioned multiple times in WAL transcript as the "real surprise driver." We don't have a KB row capturing what Juris banking actually IS. Research add: what business / counterparty / how does it monetize?
+**Open backlog item:**
+- "Juris banking" line — mentioned multiple times in WAL transcript as the "real surprise driver." Need KB row capturing what Juris banking actually IS. Research add: what business / counterparty / how does it monetize? (Investor Day May 12 may surface.)
 
 ---
 
-## 2026-05-08 PM — Long Friday: REG-20/gitignore close + KRE phantom + POSITIONS refresh + MAY15 + 10-Q sweep
+## 2026-05-08 PM — May 8 Friday session [PRUNED 2026-05-11; durable bits in MEMORY findings]
 
-**Patterns / one-liners cached (durable bits promoted to MEMORY findings):**
+Detail in MEMORY.md LAST SESSION (May 8 PM) one-line recap + commit history `d5d08d56` / `486aea0b` / `325dc8de` / `0d876199`.
 
-```python
-# yfinance option chain (Friday-night-friendly; close marks)
-import yfinance as yf
-chain = yf.Ticker('SYM').option_chain('YYYY-MM-DD')  # expiry ISO-format
-puts = chain.puts.copy()  # DataFrame: strike/lastPrice/bid/ask/volume/openInterest/impliedVolatility
-# NOTE: greeks NOT in output. Use Black-Scholes manually if needed.
+---
+
+---
+
+## 2026-05-10/11 PM — Sunday-into-Monday: WALTER LIAISON converged + WAL V2.0 → V2.1 ship
+
+**Architectural ships (high density session):**
+
 ```
+LIAISON Turns 1-5 close-converged in <13 hr UTC (RED-pace match):
+  Turn 1 (REGINALD)  23:11 UTC  empirical-honest "ZERO action" claim
+  Turn 2 (WALTER)    23:30 UTC  empirical reframe: 16 ACTION not zero
+  Turn 3 (REGINALD)  01:53 UTC  3 files instantiated
+  Turn 4 (WALTER)    04:35 UTC  4 deliverables + REG-T-01 sustain=1 LOCK
+  Turn 5 (REGINALD)  11:42 UTC  joint-proposal §1+§3
+```
+
+**Files mental-map for next-boot context:**
+
+```
+LIAISON ships:
+  AGENTS/REGINALD/handoff_WALTER/{README.md, LIAISON.md}
+  AGENTS/REGINALD/registry/THRESHOLDS.tsv (8 rows REG-T-01..08)
+  AGENTS/REGINALD/board/BOARD_LOG.tsv (11-col, 32-row backfill stub)
+  AGENTS/REGINALD/CLAUDE.md (Boot Step 9b added)
+  AGENTS/REGINALD/design/JOINT_PROPOSAL_2026-05-11_reginald_sections.md
+
+WAL V2.1 ships:
+  AGENTS/REGINALD/WAL/THESIS.md (v2.1)
+  AGENTS/REGINALD/WAL/SCENARIOS.md (v2.1, Bear-fast/slow split, Jun-conditional EV)
+  AGENTS/REGINALD/WAL/CHANGELOG.md (v2.1 entry)
+  AGENTS/REGINALD/WAL/V21_RESPONSE_TO_RED_CHG_025.md (formal response)
+  AGENTS/REGINALD/WAL/STATUS.md (header v2.1)
+  AGENTS/REGINALD/LESSONS.md (2 new methodology entries)
+```
+
+**Patterns / one-liners cached (durable bits promoted to MEMORY findings + LESSONS):**
 
 ```bash
-# 10-Q text extraction (XBRL-heavy; ~3-4MB raw → ~350KB stripped)
-curl -s -H "User-Agent: REGINALD research willie@research.local" \
-  "https://www.sec.gov/Archives/edgar/data/<CIK-no-leading-zeros>/<accession-no-dashes>/<filename>.htm" \
-  -o /tmp/file.htm
-python3 -c "
-import re
-text = re.sub(r'<[^>]+>', ' ', open('/tmp/file.htm').read())
-text = re.sub(r'\s+', ' ', text)
-# Search for narrow terms; banks categorize differently than expected
-"
+# Quick BOARD-routing-to-REGINALD audit (mirror what WALTER ran in Turn 2):
+grep -lE 'REGINALD' BOARD/SIG-W-*.md | wc -l   # total touched
+grep -lE '^to:.*REGINALD' BOARD/SIG-W-*.md | wc -l   # ACTION recipients
+grep -lE '^info:.*REGINALD' BOARD/SIG-W-*.md | wc -l   # info recipients
+
+# Quick falsifier-status check before any thesis-level reframing:
+grep -E "Falsifier|falsifier|invalidate|Pre-registered" WAL/WEAKNESSES.md
+# THEN check whether each has fired post-print before publishing reframe
 ```
 
-```
-# Gitignore directory-exclude breaks negation — use file-level wildcard:
-dir/*           # not "dir/" — git refuses to traverse ignored dirs
-!dir/*.md
-# Verify: git check-ignore -v <file>
-```
+**Two external-grep-catches in 24 hours:**
+- WALTER Turn 2: caught "zero action" framing without grep — corrected to 16 of 51
+- RED CHG-RED-025: caught V1-demotion-before-tested + Jun-conditional EV math
+- Pattern lesson: 30-second self-verification pass catches both before publishing
+- Promoted to LESSONS.md as 2 [Methodology] entries
 
 **Things I noticed but didn't dig into:**
-- CFG's "Other finance and insurance" sub-line grew +13.7% QoQ (vs Capital call +2%, Secured PC finance +3.4%). What's in "Other"? If it's shadow-bank lending, that's the line that maps to the BROCK domain. Decomposition not in 10-Q narrative I scanned.
-- CFG's $1.5B reconciliation gap (Slide 24 prelim $19.6B vs 10-Q $18.12B) might just be inclusion of Schedule O off-balance-sheet items. Worth a Schedule O grep next session.
-- VLY 10-Q has 22 charge-off + 38 provision references — unusual disclosure density even for a Q1. Suggests management is preparing the table for a larger Q2 disclosure. Or they're explaining the -66% YoY drop defensively.
-- EGBN's "transfer of certain loans to HFS" phrase is the recognition mechanism. Need to compare HFS balance Q1 vs Q4 to see the magnitude — pulled from Note: Loans Held for Sale.
-- Friday-night option chain quirk: SSB May 15 weekly has 4 OI total; bid showed $0 even with last $2.00. Mon open could revalidate or kill — Mon AM check is high-leverage.
+- MI3 baseline data (15.5 → 24.2 trajectory) is from prior screen per LESSONS.md "Verify Agent Data Against Primary Filings" — V2.1 restores V1 weight pending MI3 print but I haven't independently re-verified the historical baseline. If 15.5 baseline was wrong, V1's case is weaker than both V2.0 and V2.1 imply. Honest hole in V2.1 not flagged in response memo.
+- WAL Investor Day pre-write read-across needs to be done tonight (Mon May 11 evening) — flagged as #1 NEXT SESSION priority but didn't do this session.
+- BOARD_LOG.tsv 16 missed-action signal full disposition pass deferred — first real maintenance-discipline test.
+- WALTER's bank_transmission enum 8-val (cre/hidden_cre/ndfi/private_credit/mfs_fraud/cmbs_maturity/fed_layoffs/stagflation_trap) lands when FORMAT_SPEC v0.9 batched ship happens — at that point BOARD_LOG.tsv `Channels_Touched` column needs uppercase→snake_case migration (currently uses `CRE,HC,NDFI,PC,MFS,CMBS,FED-LAYOFFS,STAGFLATION`).
 
 **Convention question for next session:**
-- Should I treat unprocessed-inbox-signals as ROADMAP open threads (current pattern after this session) or as a separate "INBOX" section? RED counter and CARL handover both went into open threads with 🔴/🟠 markers. Works for now; revisit if the inbox queue grows.
+- Boot Step 9b BOARD scan first execution test. If it works clean, great — that validates the LIAISON architectural ship. If it produces noise/friction, refine in next LIAISON cycle (calibration cycle 1 trigger May 25).
 
-**Mistake / lesson this session:**
-- Initial gitignore attempt put `!dir/*.md` AFTER `dir/`. Didn't work — git refuses to traverse ignored dirs. Fixed via file-level wildcard `dir/*` + negation. ALWAYS test gitignore changes with `git check-ignore -v` before committing.
-- Phantom-detection lesson: when a position is referenced in dashboard files but doesn't appear in POSITIONS.md AND doesn't appear in FORGE/STATUS.md, treat as phantom by default. Closing positions needs a propagation step to dependent docs/agents. (Promoted to MEMORY findings.)
+**One open externality I should track:**
+- WALTER had uncommitted changes (MEMORY/REGISTRY/SESSION_LOG/STATUS) when I tried pull-then-push — push went through but pull blocked. Next session may need to wait on WALTER's commit before pulling. Check `git status` carefully at boot per pull protocol.
 
 ---
 
