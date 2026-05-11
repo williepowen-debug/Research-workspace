@@ -1,30 +1,31 @@
-# WAL — Compounder With Concentrated CRE Tail Risk
+# WAL — Compounder With Concentrated CRE Tail Risk + V1 Hidden-CRE Test Pending
 
-**Last Updated:** 2026-05-01 | **Version:** v2.0 | **Prior:** v1.0 (Mar 25, 2026 — "Fast-Transmission Thesis")
+**Last Updated:** 2026-05-11 | **Version:** v2.1 | **Prior:** v2.0 (May 1) | v1.0 (Mar 25)
 
 ---
 
-## CORE THESIS (v2.0)
+## CORE THESIS (v2.1)
 
-WAL is a structural compounder with concentrated CRE tail risk. The Q1 2026 print (Apr 21) **resolved one major thesis vector** (V2 fraud, $152.5M LAM+Cantor visible in 8-K) and **refined the other two** (V1 sharpened to Office single-point; V3 directionally disconfirmed at aggregate level, retains one sub-vector).
+WAL is a structural compounder with concentrated CRE tail risk AND an active V1 hidden-CRE test pending mid-May FFIEC MI3 print. The Q1 2026 print (Apr 21) **resolved one major thesis vector** (V2 fraud, $152.5M LAM+Cantor visible in 8-K), **sharpened V1** with Office single-point structural data, and **directionally disconfirmed V3** at aggregate via Slide 24 NDFI cohort.
 
-The new framing rejects v1's "fast-transmission failure" binary. Both can be true: WAL has 10-yr TBV CAGR 18.3% (top-quartile compounder) AND Office classified at 18.5% stress with $946M maturing in 2026. The short thesis depends on **concentrated tail risk actualizing**, not on WAL being a broken bank.
+The v2.0 framing rejected v1's "fast-transmission failure" binary — that rejection stands. Both can be true: WAL has 10-yr TBV CAGR 18.3% (top-quartile compounder) AND Office classified at 18.5% stress with $946M maturing in 2026. **v2.1 refinement (per RED CHG-RED-025):** V2.0 demoted V1 before V1's primary falsifier (MI3 ≥25%) ran — that demotion was premature. V1 weight is restored pending the mid-May FFIEC PDD bulk MI3 print (~May 14-16). The Office single-point data is an *additional* sharpened V1 expression, not a replacement for the MI3 ratio test.
 
 **Path to short thesis paying:**
-1. **Tail actualizes** — Office classified migrates above $500M (REG-24), or Q2/Q3 ex-fraud NCO >40bps (REG-25), or another LAM/Leucadia-era credit surfaces.
-2. **Market re-rates the concentration** — Q1 Call Report (May 1-10) MI3 ≥25% confirms V1 acceleration; or Investor Day May 12 + broker downgrades on Office single-point.
+1. **V1-fast trigger:** MI3 print ≥25% confirms V1 hidden-CRE acceleration. If MI3 lands here, bear path is faster than V2.0's "multi-quarter slow-grind" framing implied. ($65P Jun becomes core position; bear shifts toward 40%+ weight.)
+2. **V1-slow trigger:** Office classified migrates above $500M by Q3 (REG-24, 60% standalone), or Q2/Q3 ex-fraud NCO >40bps (REG-25, 55% standalone), or another LAM/Leucadia-era credit surfaces in 10-Q Table 16 (~May 11-13) or Investor Day Q&A (May 12).
+3. **Market re-rates the concentration** — broker downgrades on Office single-point; mgmt-credibility erosion from cross-credit inventory disclosure.
 
-**Price target range: $55-70** (revised from $47-60). Bull case strengthened; tail risk sharpened.
+**Price target range: $52-70** (v2.1 widened from v2.0 $55-70, narrowing slightly on Bear-fast tail). Bull case retained (V2-resolution-driven, not new-bull-data-driven, per RED M5.3); tail risk sharpened.
 
 ---
 
-## VECTOR STATUS — POST Q1 ROUND 2
+## VECTOR STATUS — POST Q1 ROUND 2 + v2.1 REFINEMENT
 
-| Vector | v1.0 (Mar 25) | v2.0 (May 1) | Trend |
-|---|---|---|---|
-| **V1: Hidden CRE → Office single-point** | hypothesized via MI3 24.2% | **STRENGTHENED via Office** | $407M Office classified = 38% of classified on 4% of book = 9.5x disproportion. $946M Office matures 2026. |
-| **V2: Jefferies/MFS fraud chain** | hypothesized | **RESOLVED IN PUBLIC 8-K** | LAM $126.4M + Cantor $26.1M = $152.5M Q1 charge-off. Mgmt labeled "fraud-related." |
-| **V3: SSFA / NDFI arbitrage** | $17.2B SSFA at 20% RW = $1.1B capital savings | **REFINED — single sub-vector confirms** | NDFI at cohort median (Slide 24). Lender finance well-structured. CLN pool shrinking. Only $7.15B Mortgage Warehouse (12% of loans, 30x peer) confirms — and it sits in C&I, not NDFI. |
+| Vector | v1.0 (Mar 25) | v2.0 (May 1) | v2.1 (May 11) | Trend |
+|---|---|---|---|---|
+| **V1: Hidden CRE (MI3 trajectory + Office single-point)** | hypothesized via MI3 24.2% growing 15.5%→24.2% | demoted to "Office single-point" | **WEIGHT RESTORED PENDING MI3 TEST** + Office sharpening | MI3 trajectory anomalous (fastest in cohort) but ABSOLUTE level near cohort median; primary falsifier (MI3 ≥25%) hasn't run; FFIEC PDD bulk ~May 14-16. Office classified $407M = 38% on 4% of book (9.5x disproportion) + $946M maturity wall remain structurally additive. |
+| **V2: Jefferies/MFS fraud chain** | hypothesized | RESOLVED IN PUBLIC 8-K | **STANDS — resolved + counterparty-diligence discount on mgmt forward-statements** | LAM $126.4M + Cantor $26.1M = $152.5M Q1 charge-off. Mgmt labeled "fraud-related." Counterparty-diligence discount applied to Vecchione "largely behind us" framing per RED M5.6 — LAM was 2x stated $60M top-commitment bucket; >$100M fund-level exposures not disclosed. 10-Q Table 16 cross-credit inventory test pending. |
+| **V3: SSFA / NDFI arbitrage** | $17.2B SSFA at 20% RW = $1.1B capital savings | REFINED — single sub-vector | **STANDS — NDFI at-median; trajectory analysis ≠ V1 trajectory** | NDFI at cohort median (Slide 24) — V3 disconfirmation. $7.15B Mortgage Warehouse (12% of loans, 30x peer) sits in C&I, confirms one sub-vector. **v2.1 note:** V3 NDFI cohort position is NOT a proxy for V1 MI3 trajectory (different lines on Call Report; per RED M3). |
 
 ---
 
@@ -60,9 +61,20 @@ The new framing rejects v1's "fast-transmission failure" binary. Both can be tru
 
 Vecchione's "stable asset quality" narrative skips the leading buckets. **Q2-Q3 risk: leading-bucket migration into classified hits Office concentration head-on.**
 
-### Outstanding V1 question — MI3 Call Report (May 1-10)
+### Outstanding V1 PRIMARY TEST — MI3 Call Report (mid-May, FFIEC PDD bulk ~May 14-16)
 
-WAL's MI3 ratio (RCON2746 / Item 4) was 24.2% per prior screen and growing (15.5% → 24.2%). If Q1 Call Report shows ≥25%, V1 acceleration is confirmed and adds C&I as a second hiding place. If <23%, V1 has plateaued — short thesis weakens.
+WAL's MI3 ratio (RCON2746 / Item 4) was 24.2% per prior screen and growing (15.5% → 24.2% — +8.7pp over 2 quarters, fastest in cohort even though absolute level is near cohort median). **This is V1's primary falsifier and it has not yet run.** Per v2.0 → v2.1 refinement, V1 weight is restored pending this test.
+
+**v2.1 MI3 calibration table (per RED §12.1 widened):**
+
+| MI3 print | V1 status | V2.1 → V2.2 implication |
+|-----------|-----------|--------------------------|
+| **≥27%** | V1 hard-confirmed; multiple-hiding-places thesis active | Bear shifts to 45%+ ; $65P Jun becomes core not optionality; V2.2 ships fast-transmission as live sub-bear |
+| **25.0-26.9%** | V1 acceleration confirmed | Bear shifts to 40%; V2.0's V1-demotion retrospectively unjustified per V2.1; $65P Jun reactivated |
+| **24.0-24.9%** | V1 trajectory bending; partial confirmation | V2.1 stands; minor refinement only |
+| **<24%** | V1 plateaued | V2.0's V1-demotion retrospectively justified post-test; bear shifts back toward 30%; V2.2 demotes V1 (this time legitimately) |
+
+CALENDAR.md row added for FFIEC PDD bulk update window with this calibration table.
 
 ---
 

@@ -7,6 +7,87 @@ Tracks all changes to `WAL/THESIS.md`. Reverse chronological. Mirrors format of 
 
 ---
 
+## 2026-05-11 — v2.1: V1 WEIGHT RESTORED PENDING MI3 + EV MATH MADE JUN-CONDITIONAL (post RED CHG-RED-025 OVER-CORRECTED)
+
+### THESIS Updated → v2.1
+**Author:** REGINALD (with Will approval; full V2.1 ship per session direction)
+**Trigger:** RED formal challenge CHG-RED-025 (2026-05-06) — WAL V2.0 stress-test verdict OVER-CORRECTED (~26% aggregate weighted PASS across 6 methods). Source: `AGENTS/RED/research/WAL_V20_STRESSTEST.md` (415 lines). REGINALD response: `WAL/V21_RESPONSE_TO_RED_CHG_025.md` (substantive engagement on M1-M6).
+
+**Why v2.1 not v3.0:** Incremental refinement; V2.0's structural ships (V2 fraud resolution + Office single-point concentration) STAND. Two corrections required: (a) V1 weight restored pending MI3 mid-May print — V2.0 demoted V1 before V1's primary falsifier ran (M2 ACCEPT); (b) EV math made Jun-conditional — V2.0 credited Jun 18 puts with multi-quarter unconditional payoff (M4 ACCEPT). Plus secondary refinements per M3/M5/M6 partial accepts.
+
+### What changed
+
+**Core framing:**
+- **v2.0:** *"WAL is a structural compounder with concentrated CRE tail risk. Short thesis depends on tail actualizing or market re-rating the concentration."*
+- **v2.1:** *"WAL is a structural compounder with concentrated CRE tail risk AND an active V1 hidden-CRE test pending mid-May FFIEC MI3 print. V1 weight restored to bear stack pending test; Office single-point is an additional sharpened V1 expression, not a replacement for the MI3 ratio trajectory test."*
+
+**V1 (Hidden CRE):** demoted to "Office single-point" → **WEIGHT RESTORED PENDING MI3 TEST + Office sharpening additive**
+- V2.0's V1 demotion was premature — V1's primary falsifier (MI3 ≥25%) hadn't fired. Per RED M2 ACCEPT, methodologically I shouldn't have reframed V1 before the test ran.
+- V2.1 splits Bear into Bear-fast (12% — MI3 ≥25 triggers V1-fast cycle) + Bear-slow (23% — V1 Office migration via REG-24/REG-25).
+- MI3 calibration table added per RED §12.1 widened: ≥27% V1 hard-confirmed; 25.0-26.9% V1 acceleration; 24.0-24.9% trajectory bending; <24% V1 plateaued.
+- Office single-point data (Slide 12 38%/9.5x + Slide 23 $946M maturity wall) retained as STRUCTURAL additive evidence, not as V1 replacement.
+
+**V2 (Jefferies/MFS fraud):** RESOLVED → **STANDS + counterparty-diligence discount applied to mgmt forward-statements**
+- V2 publicly resolved in 8-K STANDS (no change).
+- Per RED M5.6 ACCEPT: Vecchione "largely behind us" + "past peak stress" mgmt statements receive counterparty-diligence discount given LAM was 2x stated $60M top-commitment / Janet Lee Q&A refusal on >$100M exposures / First Brands + Tricolor silent.
+- Investor Day May 12 becomes explicit mgmt-credibility test per RED §12.4.
+
+**V3 (SSFA / NDFI):** directionally disconfirmed → **STANDS + V3 cohort ≠ V1 cohort distinction explicit**
+- Per RED M3 PARTIAL ACCEPT: Slide 24 NDFI cohort comparison (V3) is NOT a proxy for MI3 cohort comparison (V1). Different lines on the Call Report.
+- WAL anomalous on MI3 trajectory (15.5 → 24.2 = +8.7pp fastest in cohort) survives V3 NDFI-at-median finding.
+
+**Probability re-weight (v2.0 → v2.1, partial reversal):**
+- Bear: 30% → **35%** (split: Bear-fast 12% MI3-triggered + Bear-slow 23% Office-migration)
+- Base: 38% → **35%** (-3pp returned to bear bucket per RED M5.4 ACCEPT)
+- Bull: 25% → **23%** (-2pp partial walk-back per RED M5.6 mgmt-discount)
+- Tail: 7% → **7%** (unchanged)
+- Bull+Base / Bear+Tail balance: V2.0 was 63/37; V2.1 is 58/42. Still bull-of-center vs v1.0 50/50, materially less than V2.0.
+
+**PT range adjustment (v2.0 $55-70 → v2.1 $52-70):**
+- Bear-fast new floor $52 (V1-fast trigger sub-bear); Bear-slow $60-68; Bull $84-92 (-$3 ceiling per M5.6); Base/Tail unchanged ranges.
+
+**EV math made Jun-conditional (RED M4 ACCEPT):**
+- V2.0 EV table credited Jun 18 puts with full multi-quarter unconditional intrinsic — mathematically incoherent with V2.0's own "fires across Q2-Q3" timeline.
+- v2.1 splits EV table into "multi-quarter unconditional" (preserved as reference) + "Jun-18-conditional" (new, for actual Jun position decisions).
+- **$85P Jun EV recalc:** $13.93 → **~$8.98** (-36%). Still positive; HOLD justified. Reframed as event-driven hedge for MI3 mid-May + 10-Q May 11-13 + Investor Day May 12.
+- **$65P Jun EV recalc:** $0.75 → **~$1.16** (+55%) once V1-fast MI3-optionality is properly counted. V2.0 understated because V2.0's V1-demoted framework implicitly assigned zero probability to MI3-mid-May fast-transmission trigger.
+
+**Position recommendation change:**
+- $65P Jun "CONSIDER CLOSE OR ROLL TO SEP" → **HOLD or ROLL TO SEP** (close-recommendation WITHDRAWN per RED M4 ACCEPT). V2.0's close-rec rested on M4-incoherent math.
+- $85P Jun designation: HOLD as **event-driven hedge** (not multi-quarter bear vehicle).
+- $77.5P Sep + $70P Sep: HOLD as **timeline-coherent core** (Sep tenor matches multi-quarter thesis).
+
+### Per-method RED engagement (summary)
+
+| Method | RED PASS% | REGINALD response | Magnitude |
+|--------|-----------|-------------------|-----------|
+| M1 | 50% | Partial accept | Defend Office data; accept V3/V1 conflation framing |
+| M2 | 10% | **FULL ACCEPT** | V1 weight restored pending MI3 |
+| M3 | 30% | Partial accept | Accept NDFI≠MI3; defend trajectory-anomaly |
+| M4 | 25% | **FULL ACCEPT** | Jun-conditional EV math; $65P close-rec withdrawn |
+| M5 | 10% | Partial accept | M5.2/M5.5/M5.6 accepted; M5.3 defended-with-caveat |
+| M6 | 15% | Partial accept | V2.0 bull-tilted; V2.1 partially corrects |
+
+### Files changed v2.1
+
+- `WAL/THESIS.md` — header v2.0→v2.1; Core Thesis rewritten; Vector Status table v2.1 column added; V1 section MI3 calibration table added
+- `WAL/SCENARIOS.md` — header v2.0→v2.1; EV Summary table updated to 5-row v2.1 (Bear-fast + Bear-slow split); Jun-18-conditional EV section added; $65P Jun position re-recommendation; v2.0 EV table preserved as reference
+- `WAL/V21_RESPONSE_TO_RED_CHG_025.md` — NEW formal response memo (full M1-M6 engagement)
+- `WAL/CHANGELOG.md` — this entry
+
+### Calibration meta-note
+
+V2.1 is the **second time in 24 hours** that external grep/audit caught a wrong surface-text claim. First was WALTER Turn 2 catching "zero action" Turn 1 framing (corrected by grep). Second is RED CHG-RED-025 catching V1-demotion-before-tested + EV-math-incoherence (corrected by RED's 6-method stress-test). **Pattern lesson candidate for LESSONS.md:** before publishing thesis-level reframings, run own falsifier-status check. V1's pre-registered falsifiers in `WEAKNESSES.md` were available; I didn't check them before writing V2.0 framework redefinition.
+
+### Cross-references
+
+- RED CHG-RED-025 source: `AGENTS/RED/research/WAL_V20_STRESSTEST.md` (415 lines, 6-method weighted)
+- RED inbox signal (the formal challenge): `AGENTS/REGINALD/inbox/processed/SIG-RED-REGINALD-20260506-wal-v20-overcorrected.md` (moved to processed/ this session)
+- REGINALD response memo: `WAL/V21_RESPONSE_TO_RED_CHG_025.md`
+- Resolution path: VIOLET CHG-RED-023 pattern (substantive engagement → CONVERGED outcome; both halves visible in audit trail)
+
+---
+
 ## 2026-05-01 — v2.0: COMPOUNDER WITH CONCENTRATED CRE TAIL RISK
 
 ### THESIS Updated → v2.0
