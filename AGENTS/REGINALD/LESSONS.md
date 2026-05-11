@@ -37,6 +37,14 @@ All three can coexist at the same bank. WAL uses all three.
 **Mistake:** MFS/Barclays exposure listed as £500M in STATUS.md but HANS signal said £600M and MEMORY.md confirmed £600M. Stale value persisted until audit.
 **Rule:** When integrating cross-agent signals, check if the new value supersedes an existing one. Update the older reference, don't just add the new one alongside.
 
+### [Methodology] — Run Own Falsifier-Status Check Before Thesis-Level Reframings
+**Mistake:** WAL THESIS v2.0 (May 1) demoted V1 (hidden CRE / MI3 reclassification) from "MI3/hidden CRE/fast-transmission" to "Office single-point" — a 14× scope narrowing — BEFORE V1's primary pre-registered falsifier (MI3 ≥25% via Q1 Call Report) actually ran. RED CHG-RED-025 stress-test (May 6, 6-method weighted) verdict: OVER-CORRECTED (~26% aggregate PASS). Strongest single critique: M2 (counter-factual / pre-registered falsifiers). Caught by external grep + methodology audit, not by self-review.
+**Rule:** Before publishing thesis-level reframings, run own falsifier-status check. Pre-registered falsifiers live in `WEAKNESSES.md` and bank-specific thesis files. Ask "have any of my own falsifiers actually fired?" — if not, reframing is premature. Demoting on framework redefinition (renaming the vector to narrower scope) instead of falsifier-firing is the specific anti-pattern. Same lesson family as the WALTER Turn 2 catch (claimed "zero action" in BOARD routing without running the grep first) — both cases would have been prevented by 30-second verification pass before publishing.
+
+### [Methodology] — Position EV Math Must Match Thesis Timeline
+**Mistake:** WAL SCENARIOS v2.0 EV table credited Jun 18 puts with full multi-quarter bear-payout intrinsic ($22 on $85P at $63 stock) — but V2.0's own bear-case mechanics said "fires across Q2-Q3 2026 (not single event)." Q3 ends Sep 30, well after Jun 18 expiry. RED M4 catch: either the math or the thesis is wrong; they can't both be true.
+**Rule:** For multi-quarter thesis with short-tenor positions, separate "unconditional scenario probability" from "conditional probability that scenario has resolved by expiry." Build Jun-conditional / Sep-conditional EV tables explicitly. The Jun-conditional bear-payout weight is much smaller than the unconditional weight when the bear scenario fires gradually over multiple quarters. Position-recommendation that flows from unconditional math is mis-calibrated.
+
 ---
 
-*Last reviewed: 2026-03-05*
+*Last reviewed: 2026-05-11 (added v2.0 → v2.1 lessons post RED CHG-RED-025)*

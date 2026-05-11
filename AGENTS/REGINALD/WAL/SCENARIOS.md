@@ -1,35 +1,90 @@
 # WAL — Scenario Analysis & Target Prices
-**Created:** 2026-03-25 (v1.0) | **Last Updated:** 2026-05-01 (v2.0 — Wave 1 chunk 5: post-Q1 print re-weight)
-**Current Price:** ~$81.22 (May 1 intra) | **TBV:** $61.14 | **P/TBV:** 1.33x | **CET1:** 11.0%
+**Created:** 2026-03-25 (v1.0) | **Last Updated:** 2026-05-11 (v2.1 — post RED CHG-RED-025 OVER-CORRECTED verdict)
+**Current Price:** ~$81.90 (May 8 close — Sunday read) | **TBV:** $61.14 | **P/TBV:** 1.34x | **CET1:** 11.0%
 **Short Interest:** 3.54% float / 2.71 days (Mar 25 — REFRESH PENDING)
 **Q1 2026 EPS:** $1.65 GAAP / $2.22 adjusted | **FY2025 NI:** $991M
 
-> **v2.0 thesis framing:** WAL is a *compounder with concentrated CRE tail risk* (per `THESIS.md` v2.0). The pre-print "fast-transmission failure" binary is rejected. V2 fraud thesis publicly **resolved** (Apr 21: $152.5M LAM+Cantor); V1 hidden-CRE **sharpened** to Office single-point ($407M classified, 18.5% stress, $946M maturing 2026); V3 NDFI **directionally disconfirmed** at aggregate (Slide 24 cohort median). Short thesis depends on **tail actualizing** (REG-24, REG-25, or additional Leucadia-era credit), not on broken-bank scenario.
+> **v2.1 thesis framing** (per `THESIS.md` v2.1, post-RED CHG-RED-025 OVER-CORRECTED refinement): WAL is a *compounder with concentrated CRE tail risk* AND **active V1 hidden-CRE test pending mid-May FFIEC MI3 print (~May 14-16)**. The pre-print "fast-transmission failure" binary stays rejected. V2 fraud thesis publicly **resolved** (Apr 21: $152.5M LAM+Cantor); V1 hidden-CRE **weight restored pending MI3** (v2.0 demoted V1 before V1's primary falsifier ran — premature); V3 NDFI **directionally disconfirmed** at aggregate. **Bear path is split into V1-fast sub-bear (MI3 ≥25% triggers fast-transmission) and V1-slow sub-bear (multi-quarter Office-migration via REG-24/REG-25).** Short thesis depends on **tail actualizing** (MI3 fast-trigger, Office migration, or additional Leucadia-era credit).
 
 ---
 
-## EXPECTED VALUE SUMMARY
+## EXPECTED VALUE SUMMARY (v2.1 — multi-quarter unconditional)
 
-| Scenario | v1.0 Prob | **v2.0 Prob** | v1.0 Range | **v2.0 Range** | Midpoint | Weighted |
-|----------|-----------|---------------|------------|----------------|----------|----------|
-| Bear | 45% | **30%** | $42-52 | **$58-68** | $63.00 | $18.90 |
-| Base | 30% | **38%** | $55-65 | **$70-78** | $74.00 | $28.12 |
-| Bull | 20% | **25%** | $75-88 | **$85-95** | $90.00 | $22.50 |
-| Tail | 5% | **7%** | $28-38 | **$35-45** | $40.00 | $2.80 |
-| **Expected Value** | | | | | | **$72.32** |
+| Scenario | v1.0 Prob | v2.0 Prob | **v2.1 Prob** | v2.0 Range | **v2.1 Range** | Midpoint | Weighted |
+|----------|-----------|-----------|---------------|------------|----------------|----------|----------|
+| Bear-fast (V1 MI3) | — | — | **12%** | — | **$52-62** | $57.00 | $6.84 |
+| Bear-slow (V1 Office migration) | 45% | 30% | **23%** | $58-68 | $60-68 | $64.00 | $14.72 |
+| Base | 30% | 38% | **35%** | $70-78 | $70-78 | $74.00 | $25.90 |
+| Bull | 20% | 25% | **23%** | $85-95 | $84-92 | $88.00 | $20.24 |
+| Tail | 5% | 7% | **7%** | $35-45 | $35-45 | $40.00 | $2.80 |
+| **Expected Value** | | | **100%** | | | | **$70.50** |
 
-**Current $81.22 → implied ~11% overvaluation vs EV of $72.32** (down from v1.0 18% overvaluation at $69.70 vs $57.10).
+**Current $81.90 → implied ~14% overvaluation vs EV of $70.50** (v2.0 was $72.32 / 11% overvaluation; v1.0 was $57.10 / 18%). v2.1 widens overvaluation back partway as V1-fast sub-bear restored.
 
-### Re-weight rationale
+### Re-weight rationale (v2.0 → v2.1)
 
-| Shift | Driver | KB rows |
+| Shift | Driver | RED ref |
 |---|---|---|
-| Bear 45% → 30% | V2 binary catalyst RESOLVED ($152.5M charge taken; mgmt "largely behind us"); fast-transmission cycle ran without breaking the bank. Bear path now requires multi-quarter slow-grind (REG-24/REG-25), not single-event repricing | 081, 084, 087, 088 |
-| Bear range $42-52 → $58-68 | Tail-risk thesis gives narrower downside band than failure-thesis; aligns to `THESIS.md` v2.0 PT $55-70 | THESIS v2.0 |
-| Base 30% → 38% | Most likely path is multi-quarter grind on V1 Office migration; no acute event; price drifts in $70-78 | 090-091, 096-099 |
-| Base range $55-65 → $70-78 | Reflects Q1 print-day strength: deposits cohort-leading +$5.6B QoQ, NIM expansion, NII guide held — cohort rerating less likely | 102, 105 |
-| Bull 20% → 25% | V3 disconfirmed at aggregate + deposits accelerating + Juris banking upside + "largely behind us" narrative may stick if Q2 NCO drops back into guide. Bull case structurally stronger | 092-095, 102, 105 |
-| Tail 5% → 7% | Marginally raised on (a) additional LAM/Leucadia-credit emergence risk, (b) Apollo Atlas SP warehouse linkage, (c) Office maturity wall refi failure | 086, 091, 093 |
+| Bear split into fast (12%) + slow (23%) | V2.0 collapsed V1-fast into V1-slow when V2.0 demoted V1; V2.1 restores V1-fast as conditional sub-bear pending MI3 print ≥25% threshold. P(MI3 ≥25%) ≈ 40-50% given trajectory; P(V1-fast cycle if MI3 fires) ≈ 25-30% → 12% aggregate. | M2 ACCEPT |
+| Bear-slow 30% → 23% | V2.0 30% had V1 fully demoted; V2.1 splits MI3-pending optionality out separately, leaving V1-Office-migration at 23% standalone | M2 ACCEPT |
+| Base 38% → 35% | V2.0 over-allocated base on V1-demoted assumption; V2.1 returns 3pp to bear bucket | M5.4 ACCEPT |
+| Bull 25% → 23% | V2.0 over-allocated bull partially on mgmt-framing absorption (M5.6); V2.1 applies counterparty-diligence discount; V2-resolution-driven bull premium stays but smaller | M5.3, M5.6 PARTIAL |
+| Tail 7% → 7% (unchanged) | Tail rationale (additional LAM/Leucadia-credit, Apollo Atlas SP warehouse, Office maturity wall refi failure) unchanged | — |
+| Bear-slow range $58-68 → $60-68 | $58 anchor tightened to $60 (V2.0 bear midpoint was $63; range was symmetric; v2.1 slightly tighter on slow-grind expected floor) | M1 PARTIAL DEFEND |
+| Bull range $85-95 → $84-92 | V2.0 raised bull-PT $10/share; V2.1 partially walks back ($1 floor, $3 ceiling) consistent with M5.6 counterparty-diligence discount on mgmt forward-statements | M5.3 DEFEND-WITH-CAVEAT |
+
+### v2.0 unconditional table preserved as reference
+
+| Scenario | v2.0 Prob | v2.0 Range | Midpoint | Weighted |
+|----------|-----------|------------|----------|----------|
+| Bear | 30% | $58-68 | $63.00 | $18.90 |
+| Base | 38% | $70-78 | $74.00 | $28.12 |
+| Bull | 25% | $85-95 | $90.00 | $22.50 |
+| Tail | 7% | $35-45 | $40.00 | $2.80 |
+| **EV** | | | | **$72.32** |
+
+---
+
+## JUN-18-CONDITIONAL EV (v2.1 — added per RED M4 ACCEPT)
+
+V2.0's EV table was multi-quarter unconditional, but applied to Jun 18 positions as if scenarios resolved by expiry. Per RED M4: bear-slow scenarios (V2.0 mechanics: "fires across Q2-Q3") and tail scenarios are multi-quarter; Jun 18 expiry is T+6 weeks from May 1. Mathematically incoherent to credit Jun 18 puts with full multi-quarter intrinsic.
+
+**v2.1 Jun-18-conditional probability model:**
+
+| Scenario | Unconditional Prob | P(price-by-Jun-18 \| scenario fires) | Jun-conditional weight |
+|----------|--------------------|---------------------------------------|------------------------|
+| Bear-fast (MI3 ≥25 triggers) | 12% | 60% (V1-fast cycle compressed; 10-Q Table 16 May 11-13 + MI3 May 14-16 + Investor Day May 12 all in Jun-window) | **7.2%** |
+| Bear-slow (V1 Office) | 23% | 20% (Q2-Q3 migration; ~20% of multi-quarter bear-slow probability mass lands by Jun 18) | **4.6%** |
+| Base (drift) | 35% | 100% (Base = drift; price IS at base by Jun) | **35.0%** |
+| Bull (V2-resolution-driven) | 23% | 50% (Bull case half-realized by Jun via Investor Day mgmt-narrative) | **11.5%** |
+| Tail (additional LAM/Leucadia credit) | 7% | 30% (event-driven via 10-Q Table 16 + Investor Day Q&A) | **2.1%** |
+| **Stays-near-current ($82)** | (residual) | 100% by construction | **39.6%** |
+| **Total** | | | **100%** |
+
+**Stays-near-current** captures the probability mass where the scenario fires but the price hasn't moved by Jun 18 yet. This is the bucket V2.0's EV table implicitly assigned to bear-payout intrinsic, which was the M4 error.
+
+### Jun-18-conditional EV by strike
+
+| Position | Bear-fast ($57, 7.2%) | Bear-slow ($64, 4.6%) | Base ($74, 35%) | Bull ($88, 11.5%) | Tail ($40, 2.1%) | Stays ($82, 39.6%) | **Jun-EV** | V2.0 stated EV | Δ |
+|----------|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| **$85P Jun 18** | $28×7.2%=$2.02 | $21×4.6%=$0.97 | $11×35%=$3.85 | $0×11.5%=$0 | $45×2.1%=$0.95 | $3×39.6%=$1.19 | **$8.98** | $13.93 | **-36%** |
+| **$65P Jun 18** | $8×7.2%=$0.58 | $1×4.6%=$0.05 | $0×35%=$0 | $0×11.5%=$0 | $25×2.1%=$0.53 | $0×39.6%=$0 | **$1.16** | $0.75 | +55% (V2.0 understated when MI3-optionality counted) |
+
+**Two findings from Jun-conditional recalc:**
+1. **V2.0 overstated $85P Jun EV by ~36%** ($13.93 → $8.98). Still positive EV; HOLD justified. Position is correctly understood as **event-driven hedge** for MI3 mid-May + 10-Q May 11-13 + Investor Day May 12, NOT multi-quarter bear vehicle.
+2. **V2.0 understated $65P Jun EV by ~55%** ($0.75 → $1.16) once V1-fast MI3-optionality is properly counted. V2.0's "close-recommendation on EV $0.75" was based on the wrong reasoning. $65P Jun has embedded MI3-mid-May optionality that V2.0's V1-demoted framework didn't credit.
+
+### Sep-18-conditional EV (for comparison)
+
+Sep 18 captures Q2 print (Jul 30) + most of Q3 → ~70% of multi-quarter bear-slow probability mass + ~60% of tail probability mass.
+
+| Position | Sep-conditional Bear-fast | Sep-conditional Bear-slow | Sep-conditional Tail | **Sep-EV** |
+|----------|-----|-----|-----|-----|
+| $77.5P Sep 18 | $20.5×9%=$1.85 | $13.5×16%=$2.16 | $37.5×4%=$1.50 + Stays/Base/Bull components | **~$8-10** (multi-quarter coherent) |
+| $70P Sep 18 | $13×9%=$1.17 | $6×16%=$0.96 | $30×4%=$1.20 | **~$4-6** (timeline-coherent cheap tail) |
+| $65P Sep 18 (if rolled) | $8×9%=$0.72 | $1×16%=$0.16 | $25×4%=$1.00 + drift | **~$2-3** (better risk-adj than Jun if Jun close-rec was right under V2.0; but Jun has MI3-optionality V2.0 missed) |
+
+**Sep tenor matches the multi-quarter thesis timeline.** The $77.5P Sep + $70P Sep are the timeline-coherent core; Jun positions are event-driven hedges.
 
 ---
 
@@ -191,7 +246,10 @@ Sep gives runway through Q2 print + Investor Day. **Best risk-adjusted core posi
 
 Pays only in Bear or Tail. Lower premium than $77.5P; cheaper exposure to tail.
 
-### $65P Jun 18 (1 contract) — Deep OTM, short timeline
+### $65P Jun 18 (1 contract) — Deep OTM, embedded MI3-mid-May optionality (v2.1 revision)
+
+**v2.0 EV table preserved as reference:**
+
 | Scenario | Prob | Stock by Jun | Intrinsic | Weighted |
 |----------|------|-------------|-----------|----------|
 | Bear ($63 by Jul) — partial by Jun | 15% | $72 | $0.00 | $0.00 |
@@ -199,20 +257,41 @@ Pays only in Bear or Tail. Lower premium than $77.5P; cheaper exposure to tail.
 | Bull | 25% | $84 | $0.00 | $0.00 |
 | Tail (rapid by Jun) | 5% | $50 | $15.00 | $0.75 |
 | Status quo | 17% | $80 | $0.00 | $0.00 |
-| **EV** | | | | **~$0.75** |
+| **v2.0 EV** | | | | **~$0.75** |
 
-Needs very rapid bear/tail move by Jun 18. **Position discipline:** consider closing or rolling to Sep on next material weakness.
+**v2.1 Jun-conditional EV recalc** (V1-fast MI3-optionality properly counted per RED M2 ACCEPT):
+
+| Scenario | Jun-conditional weight | Stock by Jun | Intrinsic | Weighted |
+|----------|------------------------|--------------|-----------|----------|
+| Bear-fast (MI3 ≥25 triggers V1-fast) | 7.2% | $57 | $8.00 | $0.58 |
+| Bear-slow (V1 Office, partial by Jun) | 4.6% | $64 | $1.00 | $0.05 |
+| Base | 35% | $74 | $0.00 | $0.00 |
+| Bull | 11.5% | $88 | $0.00 | $0.00 |
+| Tail (rapid by Jun) | 2.1% | $40 | $25.00 | $0.53 |
+| Stays-near-current | 39.6% | $82 | $0.00 | $0.00 |
+| **v2.1 EV** | | | | **~$1.16** |
+
+V2.0 understated this position by ~55% because V2.0's framework had demoted V1 — which meant the MI3-mid-May trigger probability was implicitly zero in V2.0's EV model. V2.1 with V1 weight restored recognizes the embedded MI3 optionality. **Position is event-driven hedge for MI3 mid-May, not multi-quarter bear vehicle.**
+
+**v2.1 recommendation:** HOLD-or-ROLL-TO-SEP. Close-recommendation WITHDRAWN per RED M4 ACCEPT.
 
 ---
 
-## POSITION-LEVEL READ (post-rewrite)
+## POSITION-LEVEL READ (v2.1 — post-RED CHG-RED-025)
 
-| Position | Direction | Recommendation |
-|---|---|---|
-| $85P Jun | Slightly ITM | **HOLD.** 7 weeks to Q2 print catalyst; $14 EV vs $4 intrinsic = real expected value |
-| $77.5P Sep | Slightly OTM | **HOLD.** Best risk-adjusted core; runway through Q2 + Investor Day |
-| $70P Sep | OTM | **HOLD.** Cheap tail exposure; pays in Bear or Tail |
-| $65P Jun | Deep OTM, short timeline | **CONSIDER CLOSE OR ROLL TO SEP.** ~$0.75 EV; needs rapid move that v2.0 thesis no longer projects as likely. Roll to Sep $65P preserves tail bet at lower decay |
+| Position | Direction | v2.0 Recommendation | **v2.1 Recommendation** |
+|---|---|---|---|
+| $85P Jun | Slightly ITM | HOLD ($14 EV) | **HOLD as event-driven hedge** (Jun-conditional EV ~$9; was $14 unconditional). Plays MI3 mid-May + 10-Q May 11-13 + Investor Day May 12 catalysts. NOT a multi-quarter bear vehicle. |
+| $77.5P Sep | Slightly OTM | HOLD (best risk-adj) | **HOLD — timeline-coherent core.** Sep tenor captures Q2 print + Q3 migration; matches V2.1 multi-quarter thesis timeline. |
+| $70P Sep | OTM | HOLD (cheap tail) | **HOLD — timeline-coherent cheap tail.** Sep tenor; pays on Bear or Tail. |
+| $65P Jun | Deep OTM, short timeline | CONSIDER CLOSE OR ROLL TO SEP | **HOLD or ROLL TO SEP.** v2.0 close-rec WITHDRAWN (rested on M4-incoherent math). Jun-conditional EV ~$1.16 with V1-fast MI3-optionality. Roll to Sep $65P sidesteps timeline-mismatch entirely at modest premium cost. |
+
+**Will-decision pending:** Roll-to-Sep-$65P cost analysis (need broker quote on Jun-65P-bid vs Sep-65P-ask). Out-of-scope this session; flagged for Jun T-7 close window (~Jun 11) at latest. Default if no decision by Jun 11: HOLD $65P Jun through expiry on MI3-optionality. If MI3 ≥25% (mid-May): $65P Jun reactivates as core position.
+
+**Decision discipline:** the V2.1 framing means the Jun cluster gets revisited after MI3 prints (May 14-16). Three branches:
+1. **MI3 ≥25%:** V1-fast confirmed; $65P Jun moves from optionality to core; potential to add or hold without anxiety
+2. **MI3 24.0-24.9%:** V2.1 stands; HOLD or roll-to-Sep per cost
+3. **MI3 <24%:** V1 plateaued; V2.0's V1-demotion retrospectively justified; close $65P Jun (deferred-V2.0 close-rec becomes legitimate post-test)
 
 ---
 
