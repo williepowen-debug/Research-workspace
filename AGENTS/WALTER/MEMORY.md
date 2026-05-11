@@ -75,6 +75,8 @@
 
 **Findings filed (3 consolidated as 1 entry [2026-05-11]):** (a) PROME outbox-vs-inbox surface distinction; (b) REGINALD LIAISON 4-turn architectural convergence record + accelerators; (c) empirical-reframe is regime-level pattern (3-of-3 substantive LIAISONs).
 
+**Post-closeout mechanical batch (commit `ee624781`):** Will picked the low-risk mechanical option after closeout shipped. 4 files / 541 insertions / closes 3 FOLLOW-UP items: (a) WALTER §2+§4 REGINALD-LIAISON joint-proposal sections (`AGENTS/WALTER/design/JOINT_PROPOSAL_2026-05-11_walter_sections.md`) + repo-root Will-readable stitched final (`design/JOINT_PROPOSAL_2026-05-11_reginald_walter.md`); (b) ZHAO outbox REQ filed (39d STALE, 4 material BOARD signals surfaced); (c) SENTRY row added to REGISTRY.tsv (closes known-but-not-in-REGISTRY gap since 5/7-5/9). **Multi-session-day discipline took two iterations** — initial closeout `ce121597` shipped before mechanical batch; post-batch staleness surfaced by Will msg 1679 forcing a boot-doc patch pass `(this commit)`. **Lesson for future multi-session-day work:** when post-closeout work is "low-risk mechanical batch" that resolves multiple FOLLOW-UP items, plan for a second small closeout addendum at session end OR include the patch in the same commit. Surfaced as session-discipline observation, not a memory rule (single-instance).
+
 ### NEXT SESSION
 
 **Canonical carry-forward:** see `LAST_COMPLETION.md` FOLLOW-UP + OPEN DESIGN DECISIONS sections (load-bearing running list).
