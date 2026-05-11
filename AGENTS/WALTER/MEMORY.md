@@ -29,6 +29,12 @@
 
 ## Findings
 
+- [2026-05-11 PM] **BROCK-style FRAMEWORK SCOPE CORRECTION via deep-dive sub-agent — surface-text-vs-regulatory-primary check pattern.** Path-A deep-dive #3 (NDFI extraction) surfaced that BROCK's working "$128B top-4 banks PC exposure" was a private-credit-subset only — actual full NDFI per FFIEC RC-C 10.a-10.e is **$1.4T industry YE 2025** (FDIC 2026 Risk Review), with **WFC alone $212B = 66% larger than BROCK's full working number**. This was discoverable only by going to FFIEC primary regulatory data (not aggregator/secondary). **Pattern**: agent STATUS files can carry numbers that were correct at one definitional scope but become misleading as a different definitional scope becomes the operative one. **Apply**: at LIAISON setup or cross-agent framework-touchpoint, audit the agent's numerical-anchors against regulatory primary at least once; if scope-discrepancy of >2× found, surface via outbox-REQ as scope-correction-not-data-update (different lesson family). Same lesson genus as the REGINALD/RED Turn-2-empirical-reframe pattern (target-agents underestimate WALTER dispatch volume because they aren't consuming) — both are surface-text-vs-ground-truth checks. Apply to next deep-dive cycles: include "audit any numeric anchors used in target STATUS" as a standard sub-agent prompt component when researching cross-agent domain.
+
+- [2026-05-11 PM] **Sponsor-bifurcation vs systemic-wave pattern — 11-vehicle cohort scan disambiguates franchise-cluster from market-regime.** Deep-dive #2 (non-traded REIT cohort scan) tested whether Starwood-franchise distress (SREIT 4/29 + STWD Q1 + Starwood-Capital hotel) was leading edge of broader wave OR sponsor-specific. Result: **CLEAN SPONSOR-BIFURCATION** — KKR + Starwood are stressed (KREST proration + KREF 60% dividend cut + SREIT suspension); Blackstone (BREIT NET INFLOWS Q1 +$1.2B 3-yr high) + Ares + JLL = clean counter-evidence. BREIT's 2022-2024 redemption-cap precedent is FULLY RESOLVED with vehicle now in net-inflow mode. **Pattern**: when a 3-event franchise cluster surfaces, the test isn't "is this acute?" but "is the franchise unit the catchment or is the asset-class the catchment?" — cohort scan with sister-vehicles is the decisive test. **Apply**: future franchise-cluster signals (e.g., if Apollo-affiliate or Brookfield-affiliate distress surfaces) get sister-vehicle cohort scan before sub-cluster proposal. Codifies the sub-cluster threshold as "broader-than-sponsor" not "named-events≥3." Sub-cluster `NON_TRADED_REIT_DISTRESS` warranted for KKR+Starwood pair specifically; would NOT have been warranted on Starwood-only data.
+
+- [2026-05-11 PM] **`network_uncertainty_peak` threshold first fire — 14 cluster_mediating in single calendar day.** Per JOINT_PROPOSAL_2026-05-06_red_walter §5.5b, threshold ≥5 cluster_mediating in single calendar day triggers `network_uncertainty_peak` auto-flag. Fired today first time since infra ship: 14 sigs across 5/11 session (SIG-002 / SIG-005 / SIG-006 / SIG-007 / SIG-010 / SIG-013 / SIG-014 / SIG-017 / SIG-018 / SIG-023 / SIG-025 / SIG-026 / SIG-029 / SIG-030). Calibration cycle 1 input for threshold tuning. **Observation**: 14 cluster_mediating in 30 dispatches = 47% rate; well above naive base rate. Most cluster_mediating signals today were framework-level (Iran regime variable, Fed FEDS Notes primary, BROCK scope correction, KKR-Starwood bifurcation) or CORRECTED-FRAMING-related — both heavy categories at thesis-pivot moments. **Apply**: monitor whether ≥5/day stays a useful threshold or whether 47%-rate suggests threshold should re-calibrate to ≥10 or to ratio (% of dispatches). Carry forward to calibration cycle 1 review (RED 5/20 OR BRENT 5/20-27 OR REGINALD 5/25). Single-day fire isn't enough to recalibrate; need 3-5 firings + base-rate distribution to know.
+
 - [2026-05-05] **Structural refactor pattern: sequenced passes + per-pass Will checkpoint + persisted running list.** May 4-5 STATUS.md refactor (204→110 lines / ~80k→~27.5k bytes, 7 commits) worked because: (a) **diagnostic before plan, plan before exec** — read all the boot docs, sent a 6-pattern diagnostic, then a 4-pass plan, then per-pass Will-approval; (b) **one or two file changes per pass** with explicit checkpoint (per `feedback_break_multifile_updates`); (c) **POV check mid-flight** surfaced Pass-4 prerequisite (REGISTRY refresh) Will hadn't asked for but mattered; (d) **canonical running list in `LAST_COMPLETION.md` FOLLOW-UP** survives session handoff (also pointed at from CLAUDE.md IDENTITY + boot step 3 for discoverability). Anti-pattern avoided: trying to do trim + restructure + content-rewrite in one big sweep.
 - [2026-05-05] **"verified-as-of" stamp + re-verify trigger pattern** (introduced in `anchors/IRAN_WAR.md`) — load-bearing macro state goes in a single-purpose anchor file with explicit "verified-as-of {date}" + re-verify trigger ("kinetic state-change OR every 7d OR pre-dispatch on cluster"). Beats embedding the same content in STATUS.md NETWORK AWARENESS where it goes stale invisibly. Currently a one-off; second anchor (Fed-framework / BOJ / OPEC+) would canonize it as a pattern.
 - [2026-05-05] **Regenerate-at-closeout vs snapshot-and-let-go-stale.** Pass 4 dropped the embedded NETWORK AWARENESS table (which duplicated REGISTRY.tsv on Status/Updated columns and went stale silently) and replaced it with a regenerated "today's routing + stale agents" subsection sourced from REGISTRY.tsv at each closeout. Pattern applies to any state that has a canonical source elsewhere — don't snapshot, regenerate.
@@ -63,7 +69,41 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (5/10 mirror closeout → 5/10-5/11 multi-thread session — 2 PROME inbox REQs + REGINALD LIAISON OPENED + CONVERGED)
+### CHANGES SINCE LAST SESSION (5/11 PM closeout → 5/11 PM 2nd-session news-sweep-process pass post-clear — 30 BOARD dispatches / Iran-anchor refresh / CPI doc-fix)
+
+**5/11 PM (16:17-19:00 UTC, ~3hr 2nd-session-of-day post-clear)** — **30 BOARD DISPATCHES** (largest single-session since 5/10 mirror-archive) / 0 KILLs / 7 sub-spawns ($1.05) / BOARD 160→190 / **14 cluster_mediating signals (`network_uncertainty_peak` ≥5 threshold FIRED first time since infra ship per JOINT_PROPOSAL §5.5b)** = calibration cycle 1 input. Iran-anchor REFRESHED disk-written 5/11 (5/7→5/11 full timeline). CPI date doc-bug FIXED (5/13→5/12 T-1d, BLS schedule; 4 instances STATUS+LAST_COMPLETION). 1 carry-forward RESOLVED (OBDC Q1 outcomes → SIG-009).
+
+**Dispatch arc:** (a) Path-A news-sweep 3-parallel-agent sub-spawn ($0.45, ~10min) — energy/Iran/Japan + banks/CRE/PC + macro/AI/consumer; (b) 3 verify-research ($0.10 — Iran-anchor refresh disk-write / UMich 7.3% verify FALSE year-misattribution actual 4.5% / April CPI 5/12-Tue-confirmed BLS); (c) 3-chunk dispatch 20 sigs (Iran 7 / Bank+CRE+PC+FED 8 / Consumer+AI 5); (d) Path-A deep-dive 3-parallel-agent sub-spawn ($0.50, ~12min) — regional-bank Q1 cohort N=10 / non-traded-REIT cohort N=11 / NDFI 5-category extraction; (e) 10 additional sigs (SIG-021-030).
+
+**LOAD-BEARING FINDINGS from deep-dive batch:**
+(1) **BROCK FRAMEWORK CORRECTION** — BROCK working "$128B top-4 PC" is **11× UNDERSTATED** vs actual full NDFI $1.4T industry YE 2025 (FDIC 2026 Risk Review). WFC alone $212B (66% larger than BROCK working#); JPM $238B. SIG-W-20260511-029 surfaces; **NEXT-SESSION carry-forward = outbox REQ-BROCK-framework-correction**.
+(2) **KKR + Starwood SPONSOR-BIFURCATION pattern locked** — concurrent franchise distress (Starwood: SREIT 4/29 + STWD Q1 foreclosure + Starwood-Capital $265M hotel; KKR: KREST proration + KREF 60% dividend cut + 0.53× BV); Blackstone (BREIT NET INFLOWS Q1 +$1.2B 3-yr high) + Ares + JLL = CLEAN counter-evidence. **Sub-cluster `NON_TRADED_REIT_DISTRESS` warranted within BANK_COLLATERAL.** NOT systemic non-traded REIT regime — sponsor-based bifurcation.
+(3) **OZK uniqueness is CONCENTRATION-SPECIFIC** — 5 of 10 regional banks IMPROVING Q1 YoY (ZION -3bp / CFG -11bp / MTB -25bp / FITB -24bp / EGBN-NPA -48bp). OZK pattern requires office/life-sci gateway-market concentration. **Sharpens bear thesis to narrower-more-identifiable concentration.** SIG-030 RED-action steelman.
+(4) **TOMORROW 5/12 = DOUBLE CATALYST DAY** — April CPI 8:30 AM ET (sticky-bias setup: ISM Prices Paid 70.7 + Fed FEDS Notes 3.1pp tariff pass-through primary + UMich 4.5% expectations) + WAL Investor Day NYC 8:30 AM ET (fraud-vs-structural decomposition framework set per SIG-023: reported NCO 1.45% distorted by $152M LAM+Cantor fraud / adjusted NCO 0.39% / classified assets ACTUALLY DECLINING -9bp QoQ).
+(5) **MAY 15 = T-4d for bulk Q1 2026 5-category NDFI CDR release** — first time bank-level NDFI granularity publicly available. Plan WALTER + REGINALD + BROCK pull on release.
+
+**Cluster volume deltas (this session):** IRAN_HORMUZ 38→45 / BANK_COLLATERAL 18→25 / PC_STRESS 11→15 / CONSUMER_STAGFLATION 30→33 / FED_FRAMEWORK 8→14 / AI_INFRA_CAPEX 4→6 / MISC 10→11.
+
+**Will-Telegram conversation arc:**
+- 1685 (16:17) Boot ping → 1686 boot reply
+- 1687 (16:21) "Monday 5/11 a lot of news; do news sweep first?" → 1688 path A/B with tool-status detail
+- 1689 (16:40) "launch plan A" → 3-agent sweep; 1690-1691 synthesis surfaces 9 high-priority findings
+- 1692 (17:01) "process these images" / "give you this response for you to properly plan everything"
+- 1694 (17:14) clarification — actually do news sweep first; refresh Iran-anchor; fire CPI+UMich verify; standard BOARD-only policy
+- 1695 (17:25) "dispatch" + fix CPI inline + no Will-checkpoints
+- 1696 dispatch summary (BOARD 160→180)
+- 1697 (18:33) "did news sweep reveal threads to dig wider/deeper?" → 1698-1699 5 candidates ranked
+- 1700 (18:54) "launch #1 #2 and #3" → 3 deep-dive agents
+- 1701 deep-dive synthesis (BROCK correction + KKR-Starwood pattern + OZK uniqueness)
+- 1702 (19:01) "do a clear here before moving on"
+
+**Spec changes 5/11 PM session: NONE** (no spec versions bumped; Iran-anchor refresh = ops-state not spec; CPI date doc-fix = 4-instance correction).
+
+**Multi-session-day discipline observation:** This is the 2nd session of 5/11. Per `feedback_intra_day_closeout_discipline`: every session end runs closeout. First-session closeout commit `ce121597` + boot-doc patch `465b9671` shipped earlier today. This 2nd-session closeout commit captures the ~3hr news-sweep + deep-dive batch. Clean serial closeouts protect next-session boot from archaeology.
+
+**Findings filed (3 new entries [2026-05-11 PM]):** see Findings section below.
+
+### CHANGES SINCE — PRIOR (5/10-5/11 multi-thread session — 2 PROME inbox REQs + REGINALD LIAISON OPENED + CONVERGED)
 
 **5/10 PM → 5/11 PM multi-thread session (~16hr span)** — 4 WALTER commits, 0 BOARD dispatches, 0 KILLs, 0 sub-spawns, 0 verify-research. Two distinct threads:
 
@@ -82,17 +122,21 @@
 **Canonical carry-forward:** see `LAST_COMPLETION.md` FOLLOW-UP + OPEN DESIGN DECISIONS sections (load-bearing running list).
 
 **Time-sensitive THIS WEEK** (boot quick-scan):
-1. **April CPI Tue 5/13 8:30 AM ET** — AHE arbiter (Goldilocks vs stagflation); T-2d. Potential first §2b live test if CARL+BRENT calendars + cron land.
-2. **Iran-war anchor re-verify boundary 5/14 min** — T-3d. OR earlier on visible kinetic state-change.
-3. **SIG-005 forward-test 6 PENDING** 5/14-28 (TOL/WMT/HD/TGT/LOW/COST) — 14d cluster-continuation-or-bounded resolution.
-4. **May 18 TIC March release** — Japan UST-funding-of-Apr-30-intervention question.
-5. **CARL/BRENT/RED/REGINALD calibration cycle 1** ETA May 19-27 (CARL 5/19 / BRENT 5/20-27 / RED 5/20 / REGINALD 5/25 N=15) — 4 channels now.
+1. **🔴 TOMORROW 5/12 = DOUBLE CATALYST DAY** — April CPI 8:30 AM ET (T-0/-1d) + WAL Investor Day NYC 8:30 AM ET. ISM Prices Paid 70.7 + FEDS Notes 3.1pp + UMich 4.5% = sticky-bias setup.
+2. **🟠 IMAGE BATCH from Will = NEXT-SESSION FIRST PRIORITY** — Will staged image batch this session but deferred to allow news-sweep + deep-dive ground for cleaner triage. Boot with expectation Will sends images first.
+3. **May 15 CDR Q1 2026 5-category NDFI bulk release** — T-4d. First bank-level 5-cat splits publicly available. Plan WALTER + REGINALD + BROCK pull on release.
+4. **Iran-war anchor next re-verify boundary 5/18 min** — refreshed 5/11 this session.
+5. **SIG-005 forward-test 6 PENDING** 5/14-28 (TOL/WMT/HD/TGT/LOW/COST).
+6. **May 18 TIC March release** — Japan UST-funding question.
+7. **CARL/BRENT/RED/REGINALD calibration cycle 1** ETA May 19-27.
 
 **Top next-session candidate work:**
-1. **HENRY LIAISON open** — top of remaining queue (action-pending deficit; POSITIONING_VALUATION cluster owner; complacency-trap framing stale). REGINALD LIAISON model lineage available.
-2. **REGINALD-WALTER joint-proposal repo-root stitch** — `design/JOINT_PROPOSAL_2026-05-11_reginald_walter.md`. REG §1+§3 shipped; WALTER §2+§4 + Will-mediated stitched final pending. Mechanical assembly ~15-20min.
-3. **CROSS_REFS/{CARL,BRENT}.md cache scaffolds** — WALTER self-task per JOINT_PROPOSAL §3d; pattern now battle-tested via RED.md + REGINALD.md.
-4. **CONSUMER_STAGFLATION v0.2 5-axis sub-cluster proposal** — cluster at 30 sigs (#2 BOARD); my read: surface to Will for sign-off.
-5. **ZHAO outbox REQ candidate** — 39d STALE creeping toward 6-week mark; 3 5/9-mirror ZHAO-recipient signals accumulating.
-6. **§2b infra build IF CARL+BRENT calendars land** — at boot check both calendars.
-7. **SENTRY row add to REGISTRY.tsv** — outstanding hygiene since 5/7-5/9 surface.
+1. **🔴 Image batch processing** (per #2 above) — primary task at boot, before any spec/design work.
+2. **🔴 BROCK outbox REQ on $128B → $1.4T NDFI scope correction** — SIG-W-20260511-029 surfaces; mechanical ~5min outbox file; this is cross-agent framework-level correction that BROCK needs to absorb into working model.
+3. **🟠 REGINALD CROSS_REFS NDFI 5-category schema append** — per SIG-029 dispatch_note; append FFIEC RC-C 10.a-10.e definitions to `design/CROSS_REFS/REGINALD.md`; mechanical ~5min.
+4. **HENRY LIAISON open** — top of remaining queue.
+5. **CROSS_REFS/{CARL,BRENT}.md cache scaffolds** — WALTER self-task; pattern battle-tested via RED.md + REGINALD.md.
+6. **CONSUMER_STAGFLATION v0.2 5-axis sub-cluster proposal** — cluster at 33 sigs; Will sign-off pending.
+7. **NON_TRADED_REIT_DISTRESS sub-cluster proposal** (NEW from deep-dive) — within BANK_COLLATERAL; KKR + Starwood franchise pair confirmed.
+8. **At-dispatch FALSIFICATION + REG-THRESHOLDS scan** — not run this session; live tape not pulled; run at next session boot or first dispatch.
+9. **STATUS.md cluster ToC sort re-order** — counts shifted (CONSUMER 33 > POSITIONING 29); cosmetic, mechanical.
