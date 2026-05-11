@@ -6,263 +6,211 @@
 
 ## STATUS
 
-**5/10 mirror-archive session (Sun ~18:40-20:30 UTC).** Single coherent operation per Will direction msg 1629-1631: WALTER retroactively archived 17 PROME 5/9 pinch-hitter dispatches to /BOARD/ with FORMAT_SPEC v0.8 headers + Phase 1.5 verify-research applied retroactively across 4 parallel sub-agent clusters + 1 fresh-data follow-up sub-agent. Will couldn't reboot Claude Code agents Sat 5/9; used Prome as image-batch pinch-hitter for 6-7-image batches that landed in agent inboxes via FORGE/signals/2026-05-09_*.md → AGENTS/{X}/inbox/signal_2026-05-09_*.md across 14 agents (BRENT/BROCK/CARL/HAWK/HENRY/LABOR/LIQUID/OTTO/RED/REGINALD/SAM/SHADE/VIOLET/ZHAO), bypassing /BOARD/ + WALTER's single-entry-point per Apr-14 BOARD-only policy.
+**5/10 PM → 5/11 PM multi-thread session (~16hr span, ~21:10 UTC 5/10 → ~13:45 UTC 5/11).** Two coherent threads + closeout: (Thread 1) Boot-step 7c diagnostic surfaced filing-watch + news-sweep no-scheduler state; 2 PROME inbox REQs filed under explicit Will auth (msgs 1650+1656). (Thread 2) REGINALD ↔ WALTER LIAISON OPENED + CONVERGED in 5 turns / <13hr UTC (REG Turn 1 23:11 → REG Turn 5 11:42); all 8 Qs locked both sides; 5 instantiated files end-to-end (REG: THRESHOLDS.tsv 8-row + BOARD_LOG.tsv 11-col 32-row stub + CLAUDE.md Boot 9b; WAL: CROSS_REFS/REGINALD.md v0.1 + ROUTING_TABLE v0.9 By Convergence + spawn-protocol 6b update + REG_THRESHOLDS_FIRED_LOG). `bank_transmission` 8-val enum pre-cosigned for V0_9_STACK alongside BRENT energy_transmission + regime_state. Channel state: POST-WRAP CALIBRATION-PENDING.
 
-**Net 5/10:** **17 BOARD entries (1 IMMEDIATE + 7 PRIORITY + 9 ROUTINE — 2 STEPPED DOWN from PROME's effective-PRIORITY post-verify) + 17 INDEX cluster rows + 17 route_log rows + 5 sub-agent spawns (~$0.45) + 0 new dispatches (mirror-only) + 0 KILLs.** Verify mix: 4 CONFIRMED + 7 CORRECTED-FRAMING + 6 skip-verify-by-design.
+**Net 5/10-5/11:** **4 WALTER commits + 0 BOARD dispatches + 0 KILLs + 0 sub-spawns + 0 verify-research.** Spec changes: ROUTING_TABLE v0.8→v0.9 + WALTER CLAUDE.md spawn-protocol step 6b.
 
-**Mirror outcomes by precedence:**
+**Commits this session:**
+| Commit | Description |
+|--------|-------------|
+| `41fc60f0` | WALTER → PROME inbox: EDGAR Filing Radar Phase 1 completion + Phase 2 routing decision REQ |
+| `16842f40` | WALTER → PROME inbox: migrate 5/8 news-sweep cron DOWN REQ (Item 1 of original 3-item) |
+| `774a5c0d` | WALTER → REGINALD LIAISON Turn 2: empirical reframe (16 action not zero) + 8-Q point-by-point |
+| `ceaab303` | WALTER → REGINALD LIAISON Turn 4: parallel-ship 4 deliverables + close-cosign Turn 5 |
+| *closeout* | (this commit) STATUS + REGISTRY + MEMORY + LAST_COMPLETION refresh + SESSION_LOG roll |
 
-| Precedence | Count | SIG-IDs |
-|------------|------:|---------|
-| IMMEDIATE | 1 | 014 (Hormuz closure + JPM inventory) |
-| PRIORITY | 7 | 001 (AI capex), 003 (BlackRock-Metcold), 004 (commercial Ch11 +42%), 008 (Hormuz Asia exposure), 013 (labor breadth), 015 (SPX $2.6T DUP-of-5/8-013), 016 (SPX ATH breadth) |
-| ROUTINE | 9 | 002 (auto-loans rounding), 005 (grocery trade-down), 006 (CDLI), 007 (defensives underweight), 009 (EPS-led returns), 010 (Philly SPF), 011 (Iran undersea cable reframed), 012 (Japan UST stepped-down), 017 (US debt-GDP stepped-down) |
-
-**Verify-research outcomes (4 parallel clusters, ~$0.40):**
-- **A) Hormuz-state** — SIG-014 KEEP IMMEDIATE (JPM Kaneva-led Commodities Research chart load-bearing CONFIRMED authentic — 8.4B starting / 7.6B operational stress by June / 6.8B operational floor by Sept under prolonged-Hormuz scenario; MS corroborates 4.8 mb/d Mar-Apr record drawdown; functional commercial closure since 5/6 CONFIRMED via Insurance Journal + AIS aggregators); BUT "zero crossings" overstates — dark transits continue (AIS-suppressed sat detection 9/10 vessels on 5/9; Insurance Journal flags Interstellar/Zerba turn-backs); 7.5M refined-products draw is multi-source aggregate (EIA/PJK/IE-Singapore/PAJ/Genscape/FEDCom/Platts) not US-EIA single-week (~5.1M EIA-only). SIG-011 reframed — Tasnim (IRGC-linked) editorial "Practical Measures for Revenue Generation Through Hormuz Strait Internet Cables" proposes fees/oversight, NOT state announcement.
-- **B) Equity-positioning** — SIG-001 synthetic-chart pattern likely (Macrotrends actual MSFT+GOOGL+AMZN+META liabilities $683B→$981B = +44%, NOT chart's $580B→$1.18T = +103%; CNBC current cluster-cash ~$420B, not $215B trough claimed); SIG-007 Bespoke 8.3% / lowest-since-1994 CONFIRMED 0.75; SIG-015 dup_of-SIG-W-20260508-013 for $2.6T sub-claim (already Privorotsky-primary verified 5/8) + SOX RSI "since 1999" CORRECTED-FRAMING (RSI5 all-time-record CONFIRMED but RSI14 also exceeded 1995 + 2011; 18-day streak is the actual unprecedented stat); SIG-016 ATTRIBUTION CORRECTED — Hedgeye 5.6%/3-analog (1929/1973/1999) is actual primary, NOT Goepfert 4%/2-analog (1929 + today only).
-- **C) Credit-cycle** — SIG-002 auto-loans $1.68T → actual $1.67T NY Fed Q4 2025 (rounding only, comparison framing CONFIRMED — auto > CC $1.28T by $390B; auto ≈ student $1.66T); SIG-003 BlackRock-Metcold ALL CONFIRMED via Bloomberg-original primary ($27.5M / $52.5M / Apr 1 default / Henry Ha CEO personal-guarantee enforcement / Fund II ~$435M AUM launched 2023 — first default in vehicle; $12M unpaid interest + $25M previously repaid); SIG-004 Chapter 11 +42% YoY CONFIRMED via Epiq April 2026 release — tighten to "commercial Chapter 11" specifically (644 vs 454); SIG-006 CDLI income-trajectory CONFIRMED (12% peak 2023 → 10% 2025) / INDETERMINATE on 2020 -3% peak.
-- **D) UST-plumbing** — SIG-012 STEPPED DOWN — TIC Feb 2026 shows Japan ACCUMULATING $1,225.3B → $1,239.3B = +$14B Jan→Feb (opposite of dumping); MoF May 2026 has zero Treasury-sale entries; intervention real (~¥5T Apr 30) but UST-funding mechanism speculative. SIG-017 STEPPED DOWN — 3-of-5 sub-claims FALSE ($31.26T stale / debt-crossed-GDP wrong-framing / CBO 175%-2055 actual 156%); CONFIRMED only on CBO 120%/2036 + 30Y 5.02% (May 4 not May 5).
-- **5th sub-agent (Will pushback msg 1636 "fresher than Jan Feb")** — MoF weekly foreign-bond data shows Japanese investors net-BOUGHT ¥2.42T (~$15.3B) week-ending early-April = largest weekly inflow since April 2025; Fed H.4.1 week-ended May 6 foreign-official UST custody +$10.9B WoW; no Reuters/Bloomberg wire "Japan dumping" coverage April-May. Pattern: week-to-week oscillation, not directional dumping. **Tripwires defined:** >$25B/4wk H.4.1 drop OR 3 consecutive >¥1T MoF net-sell weeks. Verdict-fresher: "accumulating-with-volatility" frame stronger than Feb-TIC-only call.
-
-**Will-Telegram conversation arc (5 messages):**
-- 1623 (5/9 23:59) "Hi Walter. Test." → 1624 channel-live ack
-- 1625 (5/10 18:43) "Sorry we had a problem yesterday and did not do a proper close out. We may still have uncommitted data sitting?" → 1626 reported clean working tree + 4 commits behind origin (PROME/SENTRY no WALTER files)
-- 1627 (5/10 18:45) "I don't expect to have Prome do this very often... can you plan this out?" → 1630 4-decision plan
-- 1629 (5/10 18:49) 4-decision answers — keep SIG-W prefix, per-signal precedence, yes-verify, inbox-copies-preserved → 1632 matrix preview + verify-cluster spawn
-- 1634 (5/10 19:20) "your research is showing Japan is accumulating UST and not selling?" → 1635 substantive answer with TIC-lag caveat
-- 1636 (5/10 19:25) "find anything more recent than Jan Feb? It's May." → 1637 freshness-source list + 5th sub-agent spawn
-- (1638) freshness verdict delivered
+**Will-Telegram conversation arc:**
+- 1643 (5/10 21:10) Boot ping → 1644-1645 ack + state-snapshot + 4-option candidate work
+- 1646-1650 (5/10 21:20-21:29) Filing-watch dig + Will auth to file REQ → 1647-1649 diagnostic
+- 1652-1654 (5/10 22:12-22:13) Pre-commit fetch confirm + green-light → 1653-1655 commit-push + migration question
+- 1656 (5/10 22:14) Migrate 5/8 REQ → 1657 ✅ migrated
+- 1658 (5/10 22:57) "What else was flagged?" → 1659 7-category synthesis incl REGINALD LIAISON option
+- 1660-1665 (5/10 23:05-23:18) REGINALD setup question + Will spawns REGINALD → 1661-1664 pointer-list + acknowledgment-of-format-rule
+- 1665 (5/10 23:18) REGINALD set up first turn → boot LIAISON file
+- (LIAISON Turns 2/3/4/5 5/10 23:30 → 5/11 11:42)
+- 1669-1670 (5/11 04:10) "Thoughts so far?" → session synthesis msg
+- 1671-1672 (5/11 12:57-13:00) "Complete here?" → recommend closeout-only
+- 1673 (5/11 13:45) "Lets run closeout per your recommendation" → this pass
 
 ## CHANGED
 
-### Files written (17 new BOARD entries)
+### Files written / modified this session
 
-`BOARD/SIG-W-20260509-001-ai-capex-semi-meltup-divergence.md` (PRIORITY)
-`BOARD/SIG-W-20260509-002-auto-loan-debt-1p68t-consumer-credit.md` (ROUTINE)
-`BOARD/SIG-W-20260509-003-blackrock-metcold-private-credit-default.md` (PRIORITY)
-`BOARD/SIG-W-20260509-004-chapter-11-bankruptcy-filings-up-42.md` (PRIORITY)
-`BOARD/SIG-W-20260509-005-consumer-grocery-trade-down.md` (ROUTINE)
-`BOARD/SIG-W-20260509-006-credit-yields-direct-lending-income-losses.md` (ROUTINE)
-`BOARD/SIG-W-20260509-007-defensives-underweight-tech-concentration.md` (ROUTINE)
-`BOARD/SIG-W-20260509-008-energy-investment-hormuz-asia-exposure.md` (PRIORITY)
-`BOARD/SIG-W-20260509-009-global-equity-earnings-valuation-rotation.md` (ROUTINE)
-`BOARD/SIG-W-20260509-010-inflation-above-target-policy-constraint.md` (ROUTINE)
-`BOARD/SIG-W-20260509-011-iran-hormuz-undersea-cable-risk.md` (ROUTINE)
-`BOARD/SIG-W-20260509-012-japan-ust-selling-yen-defense-claim.md` (ROUTINE — STEPPED DOWN)
-`BOARD/SIG-W-20260509-013-labor-breadth-health-government-only.md` (PRIORITY)
-`BOARD/SIG-W-20260509-014-oil-products-inventory-draw-hormuz-closure-claim.md` (IMMEDIATE)
-`BOARD/SIG-W-20260509-015-spx-call-notional-sox-rsi-meltup.md` (PRIORITY — dup_of SIG-W-20260508-013 for $2.6T sub-claim)
-`BOARD/SIG-W-20260509-016-spx-record-high-breadth-deterioration.md` (PRIORITY)
-`BOARD/SIG-W-20260509-017-us-debt-gdp-refunding-term-premium.md` (ROUTINE — STEPPED DOWN)
+**PROME inbox writes (cross-agent, Will-authorized):**
+- `AGENTS/PROME/inbox/SIG-WALTER-PROME-20260510-edgar-filing-radar-phase1-completion.md` NEW (79 lines)
+- `AGENTS/PROME/inbox/SIG-WALTER-PROME-20260508-newssweep-cron-down.md` NEW (75 lines, migrated)
 
-### Files modified
+**REGINALD LIAISON channel writes:**
+- `AGENTS/REGINALD/handoff_WALTER/LIAISON.md` — appended Turn 2 (267 lines) + Turn 4 (83 lines)
 
-- `BOARD/INDEX.md` — cluster ToC: IRAN_HORMUZ 35→38 / POSITIONING_VALUATION 25→29 / CONSUMER_STAGFLATION 26→30 / BANK_COLLATERAL 17→18 / PC_STRESS 9→11 / FED_FRAMEWORK 6→8 / AI_INFRA_CAPEX 3→4 (7 cluster sections updated with new section headings + 17 rows appended + latest-signal dates refreshed); TOTAL 143 → **160**.
-- `AGENTS/WALTER/routed/route_log.tsv` — 17 rows appended with `origin: PROME-dispatch` annotation in Origin column.
-- `AGENTS/WALTER/STATUS.md` — full lead-paragraph rewrite for 5/10 mirror session + Last-registry-refresh date 5/6 → 5/10 + SESSION LOG prepend new 5/10 row.
-- `AGENTS/WALTER/REGISTRY.tsv` — WALTER row Updated 5/9 → 5/10 + Focus rewritten to reflect mirror operation.
-- `AGENTS/WALTER/MEMORY.md` — CHANGES SINCE / NEXT SESSION rewrite + 1 new finding (PROME-pinch-hitter-mirror pattern) + pruned 4/15 KRE-XLF finding (well-internalized).
-- `AGENTS/WALTER/LAST_COMPLETION.md` — this file (rewritten consolidating 5/10 mirror).
+**WALTER design / registry / CLAUDE.md (today's deliverables):**
+- `AGENTS/WALTER/design/CROSS_REFS/REGINALD.md` NEW v0.1 (216 lines, 8 sections — modeled on RED.md scaffold)
+- `AGENTS/WALTER/design/ROUTING_TABLE.md` v0.8 → v0.9 (By Convergence section + version history + footer)
+- `AGENTS/WALTER/CLAUDE.md` spawn-protocol step 6b — REG THRESHOLDS read added alongside RED FALSIFICATION_TRIGGERS
+- `AGENTS/WALTER/registry/REG_THRESHOLDS_FIRED_LOG.tsv` NEW (header-only WALTER-owned ledger)
 
-### Sub-agent spawns (5 total / ~$0.45)
-
-- 4 parallel verify-research clusters at ~$0.10/spawn:
-  - `a6c8a38efed483006` Hormuz-state (covers 011/014; secondary 008) — duration 95s, 12 tool uses
-  - `a699b6def2c21b7cb` Equity-positioning (covers 001/007/015/016) — duration 129s, 23 tool uses
-  - `a323975298c52a10e` Credit-cycle (covers 002/003/004/006) — duration 93s, 17 tool uses
-  - `a93ada83efeec5d7f` UST-plumbing (covers 012/017) — duration 134s, 15 tool uses
-- 1 fresh-data follow-up (Will pushback msg 1636 "fresher than Jan Feb"):
-  - `a846af829127b7d9b` Japan-UST fresher sources — duration 56s, 9 tool uses
-
-Verdict distribution: 4 CONFIRMED + 7 CORRECTED-FRAMING + 6 skip-verify-by-design. Step-down count: 2 (SIG-012 + SIG-017). Attribution-correction count: 1 (SIG-016 Hedgeye-not-Goepfert). Routing-revision count: 1 (SIG-010 PROME-HENRY → WALTER-CARL). DUP-flag count: 1 (SIG-015 dup_of SIG-W-20260508-013).
-
-### Commits
-
-`80f6057c..a3fab7ad` clean fast-forward pull at session start (4 PROME/SENTRY commits absorbed: a3fab7ad Prome 5/9 signal routing + ZION / 23973930 SENTRY feed 5/10 / 6524f520 PROME weekend rails + ZION / 8800a01e SENTRY feed 5/9). Mirror-pass commit pending — single linear advance from a3fab7ad.
+**WALTER ops files (closeout):**
+- `AGENTS/WALTER/STATUS.md` — full lead paragraph rewrite + NETWORK AWARENESS As-of regen + Last-registry-refresh date + SESSION LOG prepend new row
+- `AGENTS/WALTER/SESSION_LOG.md` — prepended rolled 5/7 PM image-batch-throughput row (Pass 1 5-session cap)
+- `AGENTS/WALTER/REGISTRY.tsv` — REGINALD row + WALTER row Updated → 2026-05-11; Focus rewritten to reflect LIAISON convergence
+- `AGENTS/WALTER/MEMORY.md` — CHANGES SINCE / NEXT SESSION rewrite + 1 new consolidated finding entry (PROME outbox-vs-inbox + REGINALD 4-turn convergence + 3-of-3 empirical-reframe-regime-level)
+- `AGENTS/WALTER/LAST_COMPLETION.md` — this file rewrite
 
 ## RESULT
 
-**BOARD-completeness gap from 5/9 closed.** Prome dispatched 17 signals to agent inboxes Sat evening but never to BOARD; WALTER mirror-pass completes the network-shared archive while preserving Prome's authority on his own dispatch (no second-guessing-via-retro-kill — preserves inbox copies + only steps-down precedence where verify actively disconfirms). Recipient agents who already consumed Prome's inbox copies see no change; agents who didn't yet now have a canonical BOARD entry to pull from with WALTER's verify-verdict appended.
+**REGINALD LIAISON architecturally complete.** 4 of 5 Tier-1-CC agents now have converged LIAISON channels (CARL/BRENT/RED/REGINALD); WALTER itself is 5th. 8 Qs locked both sides; 5 instantiated files end-to-end span the routing-side + agent-side scaffolding (THRESHOLDS registry + auto-fire / BOARD_LOG disposition ledger / CLAUDE.md Boot Step 9b BOARD diff scan / CROSS_REFS/REGINALD.md identifier-cache / ROUTING_TABLE v0.9 By Convergence section / spawn-protocol step 6b multi-registry read / FIRED_LOG ledger). 4-turn architectural-thread convergence record — fastest of the four channels (CARL 7, BRENT 5, RED 5, REGINALD 4). Accelerators: open-with-substance + measurable retrospective + accelerated-wrap-Turn-4.
 
-**Two material precedence corrections via retro-verify:**
-1. **SIG-012 Japan-UST-selling stepped down** — original claim "Japan dumping USTs to defend yen" disconfirmed by TIC Feb (+$14B accumulating Jan→Feb), MoF May (zero Treasury-sale entries), AND fresher MoF weekly foreign-bond + H.4.1 May 6 data (Japanese investors net-bought ¥2.42T week-ending early-April = largest weekly inflow since April 2025; H.4.1 +$10.9B WoW foreign-official custody). Pattern is week-to-week oscillation, not directional dumping. Watch May 18 TIC March release for first lagged-data look at whether Apr-30 intervention was UST-funded.
-2. **SIG-017 US-debt-GDP stepped down** — 3 of 5 sub-claims FALSE. $31.26T debt is stale 2023 figure (actual gross $39.0T / public $31.41T per JEC + CRFB). "Debt crossed GDP late-April" wrong-framing — gross crossed years ago, public ~101% per CBO. CBO 175%/2055 is FALSE (actual 156%). Aggregator collapsed gross-vs-public + stale figures. Directional thesis (term-premium pressure / fiscal repression) intact with corrected anchors.
+**Two PROME inbox REQs filed**, closing the long-standing outbox-vs-inbox surface gap. 5/8 REQ that sat unread in WALTER outbox for 2 days now properly delivered to PROME's inbox; expected ETA from PROME on (a) scheduler attachment to `poll_edgar.py` and `sweep.py`, (b) Phase 2 routing decision (Option A direct-to-inboxes vs Option B via-WALTER). My read on Phase 2 = Option B preserves Apr-14 BOARD-only policy + WALTER filter discipline.
 
-**SIG-014 IMMEDIATE preserved** — JPM Kaneva-led Commodities Research chart is the load-bearing claim and confirmed authentic (8.4B starting / 7.6B operational stress by June / 6.8B operational floor by Sept). Morgan Stanley corroborates 4.8 mb/d Mar-Apr record drawdown. Hormuz functional commercial closure since 5/6 CONFIRMED via multi-source AIS. Caveats appended: "zero crossings" overstates (dark transits continue per AIS-suppressed sat detection); 7.5M refined-draw is multi-source aggregate not US-EIA single-week.
+**Empirical-reframe pattern locked at regime-level (3-of-3 substantive LIAISONs).** RED Turn 2 97% routing target / REGINALD Turn 2 16 action signals (not zero) — agent's Turn 1 framing on WALTER dispatch surface consistently off. Bias mechanism: target-agents underestimate dispatch volume because they aren't consuming. BOARD-consumption rollout (each agent's CLAUDE.md boot-step) is the keystone fix. 11 agents remaining for BOARD_CONSUMPTION rollout post-REGINALD.
 
-**SIG-001 hyperscaler-chart synthetic-pattern flagged** — Macrotrends-aggregated MSFT+GOOGL+AMZN+META actual liabilities $683B→$981B (+44%), NOT chart's $580B→$1.18T (+103%); cash side overstates compression vs CNBC current ~$420B cluster cash. Direction holds (cash compressing, leverage expanding); magnitudes wrong by 2.3× on liabilities. Position-sizing implication: anchoring on +103% liability-growth read is incorrect. Reframe to Macrotrends primary in dispatch body.
+**V0_9_STACK pre-cosigned 3 enums:** `bank_transmission` (REG, 8-val) + `energy_transmission` (BRENT, 10-val) + `regime_state` (BRENT, 5-val). FORMAT_SPEC v0.9 batched ship deferred per Will-walkthrough-grouped-by-weight cadence.
 
-**SIG-011 reframed (Tasnim editorial, not state action)** — Iran International (IRGC-watchdog) confirms primary is Tasnim (IRGC-linked) editorial "Practical Measures for Revenue Generation Through Hormuz Strait Internet Cables" proposing fees/oversight, NOT state takeover announcement. Western aggregators sensationalized; Kobeissi/First Squawk reposted aggregator framing. Treat as rhetoric/sentiment indicator NOT executed coercive lever.
-
-**SIG-016 Hedgeye-not-Goepfert attribution** — Goepfert's actual post cited >4% / 2-analog (1929 + today only). 5.6%/3-analog framing (1929/1973/1999) is from Hedgeye Risk Management May 9, not SentimenTrader / Goepfert. Breadth divergence at ATH is real and historically extreme at either threshold; analog-set differs by threshold.
-
-**Finding locked: PROME-pinch-hitter-mirror pattern.** 9-step recipe documented in MEMORY.md Findings section. Cross-platform-dispatch-archival-gap is the structural problem: OC-side coordinator can dispatch externally during CC-side outage but dispatches land in inboxes only, never BOARD. WALTER mirror-pass is the closure mechanism; Will-direction-curated decision-loop preserved (4 policy decisions surfaced pre-execute). Time/cost envelope: ~75min wall-clock + ~$0.45 sub-agent cost.
-
-**Cluster moves:** IRAN_HORMUZ extends lead (35→38, +3); POSITIONING_VALUATION +4 to 29 (4 new positioning-fragility channels: defensives underweight, EPS-led returns, SPX-$2.6T dup-of-5/8, ATH-breadth); CONSUMER_STAGFLATION holds #2 at 30 (+4: auto-loans rounding, grocery trade-down, Philly SPF, labor-breadth cluster_mediating); BANK_COLLATERAL +1 to 18 (commercial-Chapter-11 +42%); PC_STRESS +2 to 11 (BlackRock-Metcold, CDLI); FED_FRAMEWORK +2 to 8 (Japan-UST + US-debt-GDP — both stepped down to ROUTINE); AI_INFRA_CAPEX +1 to 4 (hyperscaler synthetic-chart-pattern).
+**No new BOARD dispatches / no KILLs / no sub-spawns / no verify-research** — this was an architectural / spec / LIAISON session. Live-tape not pulled.
 
 ## GAPS
 
-### New from 5/10 mirror
+### New from 5/10-5/11
 
-- **SIG-W-20260509-012 May 18 TIC March release watch** — first lagged-data look at whether Japan Apr-30 intervention was UST-funded. Currently disconfirmed by all available primary (TIC Feb + MoF May + MoF weekly + H.4.1). Tripwires: >$25B/4wk H.4.1 drop OR 3 consecutive >¥1T MoF net-sell weeks. If neither fires, SIG-012 step-down stands; if fires, re-verify and consider re-elevation.
-- **SIG-W-20260509-014 Hormuz state continued watch** — JPM 7.6B June operational-stress / 6.8B Sept floor under prolonged-Hormuz scenario. Reinforces post-5/4-break framing in anchor; next re-verify boundary 5/14 minimum stands. Watch refined-products draw weekly EIA print + JPM/MS subsequent updates + dark-transit ratio.
-- **SIG-W-20260509-001 hyperscaler ROI-language watch** — air-pocket trigger language ("pacing investments" / "optimizing capacity" / "prioritizing ROI" / "depreciation pressure" / "supply digestion") in MSFT/GOOGL/AMZN/META forward Q2 calls + investor-day commentary. Synthetic-chart-pattern caveat in body — don't anchor on +103% liability-growth claim, use Macrotrends +44% as corrected anchor.
-- **SIG-W-20260509-003 BlackRock-Metcold APAC PC follow-on watch** — first-of-kind default in BlackRock APAC Private Credit Opportunities Fund II ($435M AUM, launched 2023). Watch for additional defaults in same fund / other major-franchise APAC PC vehicles (Apollo APAC / KKR APAC / Carlyle APAC).
-- **SIG-W-20260509-016 Hedgeye-Goepfert attribution-fix propagation** — anyone who pulled the SIG-016 body before the verify-correction landed has the wrong attribution. Downstream RED/HENRY consumption: pull from BOARD canonical not inbox copy.
+- **WALTER §2+§4 REGINALD-LIAISON joint-proposal sections + repo-root stitch** at `design/JOINT_PROPOSAL_2026-05-11_reginald_walter.md` — REG shipped §1+§3; WALTER's half pending. Mechanical assembly ~15-20min. Pattern: same as RED+WALTER joint-proposal stitch.
+- **PROME response on filing-watch + news-sweep REQs** — Will not see resolution until PROME pulls + actions on OC side. ETA unknown.
+- **`bank_transmission` enum integration to V0_9_STACK.md tracker** — pre-cosigned in LIAISON Turn 4 but not yet written to V0_9_STACK.md. WALTER self-task.
+- **REGINALD BOARD_LOG.tsv full disposition backfill** on 16 missed-action signals — REGINALD self-task, separate session (not LIAISON dependency).
+- **REGINALD CALENDAR_DATA.tsv instantiation** — REGINALD self-task ~7d post-CARL DATA_RELEASE_CALENDAR.md landing (~May 17-20 ETA).
+- **At-dispatch FALSIFICATION + REG-THRESHOLDS scans** — not run today (architectural session, 0 dispatches). Next dispatch will exercise the new 15-trigger combined registry read.
 
-### Carry-forward from 5/9 closeout (still open)
+### Carry-forward from 5/10 (still open)
 
 - **SIG-W-20260508-001/005/012 IRAN-tied corporate cluster propagation** — 6 PENDING forward-test reads 5/14-28 (TOL Q2 5/20 / WMT 5/15 / HD 5/19 / TGT/LOW 5/20 / COST 5/28).
-- **SIG-W-20260508-006 NFP Goldilocks-vs-stagflation confluence watch** — April CPI Tue 5/13 8:30 AM ET is next AHE/inflation cross-check.
-- **SIG-W-20260508-007 FRED retail tier-stratified follow-through** — aggregate-flat-since-2022 bounds broad-collapse axis; tier-stratified axis open.
-- **SIG-W-20260508-008 Japan UST custody composition** — multi-quarter sell-flow watch; ZHAO STALE 36d.
-- **SIG-W-20260508-009 UMich June print** — 2nd consecutive record-low cycle; next confirmation/disconfirmation.
-- **SIG-W-20260508-010/011 mid-cap freight credit-cycle sub-cluster** — Flatbed ATH + FWRD covenant + Sternlicht-Starwood pattern forming.
-- **SIG-W-20260508-013 gamma-squeeze paper-positioning watch** — Privorotsky-pattern signature; OCC/CBOE primary not independently pulled.
-- **`network_uncertainty_peak` calibration cycle 1 input** — n=2 fires now (5/6 + 5/8); threshold ≥5 holding.
-- **§2 stack downstream propagation** — BRENT CLAUDE.md spawn-protocol delta + PREDICTIONS.tsv BRT-04/BRT-08/BRT-15 cross-refs + CARL DATA_RELEASE_CALENDAR.md + BRENT DATA_RELEASE_CALENDAR.md.
+- **SIG-W-20260508-006 NFP Goldilocks-vs-stagflation confluence watch** — April CPI Tue 5/13 8:30 AM ET next AHE/inflation cross-check.
+- **SIG-W-20260508-007 FRED retail tier-stratified follow-through.**
+- **SIG-W-20260508-008 Japan UST custody composition** — May 18 TIC March release first lagged-data look.
+- **SIG-W-20260508-009 UMich June print** — 2nd consecutive record-low cycle.
+- **SIG-W-20260508-010/011 mid-cap freight credit-cycle sub-cluster.**
+- **SIG-W-20260508-013 gamma-squeeze paper-positioning watch.**
+- **SIG-W-20260509-001 hyperscaler ROI-language watch** — air-pocket trigger language in MSFT/GOOGL/AMZN/META forward Q2 calls; synthetic-chart-caveat anchor.
+- **SIG-W-20260509-003 BlackRock-Metcold APAC PC follow-on watch** — additional defaults in Fund II / other major-franchise APAC PC vehicles.
+- **SIG-W-20260509-008 Hormuz Asia-exposure cross-reference** — Asia-side equity-pricing by Hormuz-exposure-quartile.
+- **SIG-W-20260509-011 Tasnim-editorial-vs-state-action distinction propagation.**
+- **SIG-W-20260509-014 Hormuz state continued watch** — JPM 7.6B June / 6.8B Sept timeline.
+- **SIG-W-20260509-016 Hedgeye-Goepfert attribution-fix propagation.**
+- **`network_uncertainty_peak` calibration cycle 1 input** — n=2 fires (5/6 + 5/8); threshold ≥5 holding.
 
 ### Resolved this session (removed from carry-forward)
 
-- ~~17 PROME 5/9 dispatches BOARD-completeness gap~~ ✅ MIRRORED 2026-05-10 (this session).
-- ~~Japan UST-selling claim verify-status~~ ✅ FRESH-DATA-CONFIRMED disconfirmed via 5 multi-source primaries (TIC + MoF + H.4.1 + MoF weekly + Bloomberg/Reuters wire-coverage check).
-- ~~SIG-014 IMMEDIATE precedence calibration~~ ✅ KEEP IMMEDIATE — JPM inventory chart load-bearing authentic.
+- ~~PROME outbox REQ news-sweep + filing-watch never-delivered-to-PROME-inbox gap~~ ✅ RESOLVED via 2 PROME inbox writes (`41fc60f0` + `16842f40`).
+- ~~REGINALD LIAISON open~~ ✅ RESOLVED — opened 5/10 23:11, converged Turn 5 5/11 11:42 in <13hr UTC.
+- ~~CROSS_REFS/REGINALD.md scaffold~~ ✅ RESOLVED — shipped v0.1 in WALTER Turn 4 (was carried-forward as part of CROSS_REFS scaffold work).
+- ~~SESSION_LOG.md roll discipline~~ ✅ RESOLVED — 5/7 PM row rolled this closeout per Pass 1 cap.
 
 ## WILL_NEEDS
 
-1. **(carry-forward)** Decide next-LIAISON priority — REGINALD top of unblocked queue per ranking; 5/9 mirror added natural opening (SIG-W-20260509-003 BlackRock-Metcold + SIG-004 commercial-Ch11 +42%; both touch REGINALD-info or REGINALD-action).
-2. **(carry-forward)** CONSUMER_STAGFLATION 5-axis sub-cluster spawn decision — cluster grew 26→30 today (+4 from mirror; was 18→26 5/8). Cluster firmly at #2. **My read: promote v0.2 next session** (cluster threshold heavily accumulating).
-3. **(carry-forward)** AI_INFRA_CAPEX cluster split — SIG-W-20260509-001 adds 4th signal (was 3); still small; **my read: hold one more cycle for vector durability** (synthetic-chart caveat on this entry means it's less load-bearing than the prior 3).
-4. **(carry-forward)** Iran-war anchor re-verify boundary 5/14 minimum — SIG-014 functional-commercial-Hormuz-closure-since-5/6 reinforces post-5/4-break framing; doesn't trigger early refresh on its own.
-5. **(time-sensitive)** April CPI Tuesday 5/13 8:30 AM ET — next AHE/inflation cross-check. Goldilocks-vs-stagflation arbiter.
-6. **(NEW from 5/10 SIG-012 verify)** May 18 TIC March release — first lagged-data look at Japan-Apr-30-intervention UST-funding question. Currently disconfirmed across 5 sources.
+1. **(carry-forward)** CONSUMER_STAGFLATION 5-axis sub-cluster spawn decision — cluster at 30 sigs (#2 BOARD); grew 18→30 over 5/8-5/10; **my read: promote v0.2 next session** (cluster threshold heavily accumulating).
+2. **(carry-forward)** AI_INFRA_CAPEX cluster split — SIG-W-20260509-001 added 4th signal (was 3); still small + synthetic-chart caveat; **my read: hold one more cycle for vector durability**.
+3. **(carry-forward)** Iran-war anchor re-verify boundary 5/14 minimum — T-3d; ride to date unless visible kinetic state-change.
+4. **(time-sensitive)** April CPI Tuesday 5/13 8:30 AM ET — next AHE/inflation cross-check; T-2d. Goldilocks-vs-stagflation arbiter.
+5. **(time-sensitive)** May 18 TIC March release — Japan UST-funding-of-Apr-30-intervention question.
+6. **(NEW from 5/11 REGINALD LIAISON close)** REGINALD-WALTER joint-proposal repo-root stitch — `design/JOINT_PROPOSAL_2026-05-11_reginald_walter.md`. WALTER §2+§4 + Will-mediated stitched final. Mechanical assembly.
+7. **(NEW from 5/11 LIAISON close)** HENRY LIAISON open as next priority — top of remaining queue post-REGINALD; complacency-trap framing stale 24d; POSITIONING_VALUATION cluster owner; action-pending deficit largest of remaining.
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
 
 **Time-sensitive (this/next session):**
-1. **April CPI Tuesday 5/13 8:30 AM ET** — next AHE arbiter. If AHE >3.6% YoY again, stagflation hardens; if rolls back to ≤3.4%, Goldilocks-read wins (SIG-W-20260508-006 head-fake). Potential first §2b live test if CARL+BRENT calendars + cron land.
-2. **SIG-W-20260508-005 forward-test 6 PENDING reads 5/14-28** — TOL Q2 5/20 / WMT 5/15 / HD 5/19 / TGT/LOW 5/20 / COST 5/28. **14d cluster-continuation-or-bounded resolution.** Highest-information forward-test of cycle.
-3. **Iran-war anchor next re-verify boundary 5/14 minimum** OR earlier on visible kinetic state-change.
-4. **May 18 TIC March release** — first lagged-data look at Japan UST-selling question. NEW from 5/10 SIG-012 verify.
-5. **CARL ↔ WALTER LIAISON calibration cycle 1** — primary trigger 2026-05-19 OR N=20 BOARD (early-fire).
-6. **BRENT ↔ WALTER LIAISON calibration cycle 1** — N=15 forward OR 21d from 2026-05-06; ETA May 20-27.
-7. **RED ↔ WALTER LIAISON calibration cycle 1** — synced with BRENT; `network_uncertainty_peak` 2nd fire is calibration data point #2.
-8. **FALSIFICATION_TRIGGERS first-fire watch** — RED-FT-01 HY-OAS<280×3 closest (BOND primary OAS pull pending); RED-FT-06 VIX<16×5 ~9% above near-trigger band.
-9. **OBDC Q1 5/6 AMC** — BROCK pickup pending.
-10. **LYV Q1 from 5/5** — CONSUMER_STAGFLATION discretionary watch.
-11. **UMich June print** — 2nd consecutive record-low cycle; SIG-W-20260508-009 forward extension watch.
-
-**Today's mirror dispatch follow-ups:**
-12. **SIG-W-20260509-001 hyperscaler ROI-language watch** — air-pocket trigger language in MSFT/GOOGL/AMZN/META forward Q2 calls. Synthetic-chart-caveat in body.
-13. **SIG-W-20260509-003 BlackRock-Metcold APAC PC follow-on** — watch for additional defaults in Fund II / other major-franchise APAC PC vehicles.
-14. **SIG-W-20260509-008 Hormuz Asia-exposure cross-reference** — Asia-side equity-pricing continues to differentiate by Hormuz-exposure-quartile? SK -43.8% / IN -7.1% / JP +8.5% YTD differential persistence.
-15. **SIG-W-20260509-011 Tasnim-editorial-vs-state-action distinction propagation** — Iran-cluster framing discipline; treat Tasnim editorials as IRGC-linked-rhetoric NOT state action unless parliament/decree confirmation.
-16. **SIG-W-20260509-014 Hormuz state continued watch** — JPM 7.6B June / 6.8B Sept timeline.
-17. **SIG-W-20260509-016 Hedgeye-Goepfert attribution-fix propagation** — RED/HENRY pull from BOARD canonical, not inbox copy.
-
-**Yesterday's (5/8) dispatch follow-ups (continued):**
-18. **SIG-W-20260508-001/005/012 IRAN-tied corporate cluster propagation** — incoming Iran-cluster signals calibrate to 3-4mo timeline + 75%/70% capability retention + corporate-revenue-confirmation.
-19. **SIG-W-20260508-002 LABOR + AI-displacement watch** — Information -13K macro-confirmation logged; AI-displacement may need own classification.
-20. **SIG-W-20260508-003 ZHAO revival material** — ZHAO STALE 36d; SIG-008 Japan UST custody + 5/9 SIG-008 Hormuz-Asia + SIG-003 BlackRock-Metcold all add ZHAO material.
-21. **SIG-W-20260508-004 FHA SDQ TPP-artifact re-verify trigger** — re-open if headline crosses 6.0% OR distress-adjusted >25bps single month.
-22. **SIG-W-20260508-006 stagflation-vs-Goldilocks watch** — April CPI 5/13 next AHE arbiter (now item #1 above).
-23. **SIG-W-20260508-007 FRED retail tier-stratified granularity watch** — broad-collapse bound at aggregate; tier-stratified open.
-24. **SIG-W-20260508-008 Japan UST custody multi-quarter sell-flow watch** — ZHAO + SAM cross-domain.
-25. **SIG-W-20260508-009 UMich June print** — second consecutive record-low watch (item #11 above).
-26. **SIG-W-20260508-010/011 mid-cap freight credit-cycle sub-cluster** — 2-4 quarter watch.
-27. **SIG-W-20260508-013 gamma-squeeze institutional desk-note follow-up** — primary CBOE/OCC dealer-gamma number not independently sourced.
-28. **5-sub-agent parallel scrape pattern propagation** — apply to other small-N cluster-tests.
-29. **`network_uncertainty_peak` 2nd-fire RED-side response watch** — RED-side artifacts expected within 1-3 sessions.
-
-**TOP-5 NEXT SESSION CANDIDATES:**
-30. **CROSS_REFS/{CARL,BRENT}.md cache scaffolds** — WALTER self-tasks per JOINT_PROPOSAL §3d; **HIGHEST priority** — WALTER self-task no cross-agent dep.
-31. **REGINALD LIAISON open** — top of unblocked queue; 5/9 mirror added SIG-W-20260509-003 BlackRock-Metcold + SIG-004 commercial-Ch11 +42% as natural opening; CC-side mechanics easy.
-32. **§2b infra build IF CARL+BRENT calendars land** — at boot, check both calendars; first scan target April CPI Tue 5/13.
-33. **3-way walter_carl_brent stitch IF CARL §1+§3a+§3c+§4 lands** — mechanical assembly at repo-root ~15min.
-34. **CONSUMER_STAGFLATION v0.2 5-axis sub-cluster** — cluster at 30 sigs post-mirror; my read promote next session.
+1. **April CPI Tuesday 5/13 8:30 AM ET** — next AHE arbiter (T-2d). Potential first §2b live test if CARL+BRENT calendars + cron land.
+2. **SIG-W-20260508-005 forward-test 6 PENDING reads 5/14-28** — TOL Q2 5/20 / WMT 5/15 / HD 5/19 / TGT/LOW 5/20 / COST 5/28.
+3. **Iran-war anchor next re-verify boundary 5/14 minimum** (T-3d).
+4. **May 18 TIC March release** — Japan UST-selling question lagged-data confirmation.
+5. **CARL ↔ WALTER calibration cycle 1** — primary trigger 2026-05-19.
+6. **BRENT ↔ WALTER calibration cycle 1** — N=15 forward OR 21d from 2026-05-06; ETA May 20-27.
+7. **RED ↔ WALTER calibration cycle 1** — synced w/ BRENT; ~May 20.
+8. **REGINALD ↔ WALTER calibration cycle 1** (NEW) — 2026-05-25 (14d) OR N=15 forward dispositions in REG board/BOARD_LOG.tsv (early-fire), synced w/ BRENT.
+9. **FALSIFICATION_TRIGGERS + REG_THRESHOLDS first-fire watch** — 15 total triggers v0.1; RED-FT-01 HY-OAS<280×3 closest; RED-FT-06 VIX<16×5 ~9% above near-trigger band; REG-T-NN all currently well-bounded.
+10. **OBDC Q1 outcomes** — BROCK pickup pending.
+11. **LYV Q1 from 5/5** — CONSUMER_STAGFLATION discretionary watch.
+12. **UMich June print** — 2nd consecutive record-low cycle.
+13. **WAL 10-Q May 11-13** + **OZK 10-Q May 11** + **WAL Investor Day May 12** — REGINALD CALENDAR primary events this week.
 
 **WALTER self-tasks this week (no sign-off needed):**
-35. `design/CROSS_REFS/CARL.md` cache scaffold.
-36. `design/CROSS_REFS/BRENT.md` cache refresh.
-37. BOARD_CONSUMPTION_SPEC v0.2 dual-pattern doc.
-38. "verified-as-of" pattern second anchor candidate (Fed-framework / BOJ / OPEC+).
-39. design/STATE.md maintenance discipline pass.
+14. **REGINALD-WALTER joint-proposal repo-root stitch** — `design/JOINT_PROPOSAL_2026-05-11_reginald_walter.md`. WALTER §2 (routing-side spec changes: CROSS_REFS/REGINALD.md + ROUTING_TABLE v0.9 + spawn-protocol 6b + FIRED_LOG) + §4 (cross-agent Q-trail summary + future-work §5).
+15. **bank_transmission enum integration to V0_9_STACK.md tracker** — add row alongside energy_transmission + regime_state.
+16. **CROSS_REFS/CARL.md cache scaffold** — pattern now battle-tested via RED.md + REGINALD.md.
+17. **CROSS_REFS/BRENT.md cache refresh** — per JOINT_PROPOSAL §3d.
+18. **BOARD_CONSUMPTION_SPEC v0.2 dual-pattern doc** — REGINALD adds REG-pattern alongside CARL's v0.1.
+19. **"verified-as-of" pattern second anchor candidate** (Fed-framework / BOJ / OPEC+).
+20. **design/STATE.md maintenance discipline pass** — bump ROUTING_TABLE v0.8 → v0.9 + WALTER CLAUDE.md spawn-protocol 6b update note.
+21. **SENTRY row add to REGISTRY.tsv** — outstanding hygiene since 5/7-5/9 surface.
+22. **ZHAO outbox REQ candidate** — 39d STALE; creeping toward 6-week mark; 5/9 mirror added 3 ZHAO-recipient signals; consider REQ file.
 
-**3-way joint proposal pipeline (post-§2-ship downstream):**
-40. CARL drafts §1 + §3a + §3c + §4 sections — CARL self-task.
-41. WALTER stitches 3-way at `design/JOINT_PROPOSAL_2026-05-06_walter_carl_brent.md`.
-42. CARL DATA_RELEASE_CALENDAR.md — CARL self-task this week.
-43. BRENT DATA_RELEASE_CALENDAR.md — BRENT self-task post-back-disposition.
-44. BRENT CLAUDE.md spawn-protocol delta — BRENT self-task next session.
-45. BRENT updates PREDICTIONS.tsv BRT-04/BRT-08/BRT-15 cross-refs to ROUTING_TABLE §2c row numbers.
+**Next-LIAISON candidates:**
+23. **HENRY LIAISON** — top of remaining queue (action-pending deficit; POSITIONING_VALUATION cluster owner). OC-side, file-mediated.
+24. **NEXUS LIAISON** — high-leverage; blocked on NEXUS spawn (STALE 37d; classification overdue 7+ clusters).
+25. **BROCK LIAISON** — mid-priority. OC-side.
+
+**Cluster / domain follow-ups:**
+26. **CONSUMER_STAGFLATION 5-axis sub-cluster decision** (Will sign-off) — my read: promote v0.2.
+27. **AI_INFRA_CAPEX cluster split** — hold one more cycle.
+28. **OZK Q1 post-mortem** — REGINALD pickup pending since Apr 16.
+29. **ROAD Act House reconciliation** — BARON pickup.
+30. **HENRY SIGNAL_INTAKE.md** — saved-to-disk pending.
+31. **Tier 2 staleness** — ZHAO 39d / SHADE 7+wk / OTTO 26d / ORACLE 40d / FERT 7+wk / ATHENA 8+wk / CRUISE 7+wk / DARWIN dormant.
+32. **Pandemic-meta-cluster informal watch** — 4 institutional-primary nodes; v0.2 promotion DEFERRED.
+
+**3-way joint proposal pipeline (post-§2-ship downstream — from 5/5-5/6):**
+33. **CARL drafts §1 + §3a + §3c + §4 sections** — CARL self-task.
+34. **WALTER stitches 3-way at `design/JOINT_PROPOSAL_2026-05-06_walter_carl_brent.md`.**
+35. **CARL DATA_RELEASE_CALENDAR.md** — CARL self-task this week.
+36. **BRENT DATA_RELEASE_CALENDAR.md** — BRENT self-task post-back-disposition.
+37. **BRENT CLAUDE.md spawn-protocol delta** — BRENT self-task.
+38. **BRENT updates PREDICTIONS.tsv** BRT-04/BRT-08/BRT-15 cross-refs to ROUTING_TABLE §2c row numbers.
 
 **HAWK reconciliation (when HAWK refreshes):**
-46. Archive HAWK-proxy synthesis to `design/history/hawk_proxy_synthesis_2026-05-05.md`.
-47. Update KB-BRT-NNN cross-refs to point at HAWK output for kinetic doctrine.
+39. **Archive HAWK-proxy synthesis** to `design/history/hawk_proxy_synthesis_2026-05-05.md`.
+40. **Update KB-BRT-NNN cross-refs** to point at HAWK output for kinetic doctrine.
 
-**Next-LIAISON channel candidates:**
-48. **REGINALD LIAISON** — TOP of unblocked queue (item #31 above).
-49. **NEXUS LIAISON** — high-leverage, blocked on NEXUS spawn (cluster classification overdue 7+ clusters now; CONSUMER_STAGFLATION at 30 + 5-axis sub-cluster decision pending).
-50. **HENRY LIAISON** — post-REGINALD; HENRY 21A consumption-deficit highest in network.
-51. **BROCK LIAISON** — mid-priority.
-
-**Cluster / domain follow-ups (carry-forward):**
-52. **OZK Q1 post-mortem** — REGINALD pickup pending since Apr 16.
-53. **ROAD Act House reconciliation** — BARON pickup.
-54. **HENRY SIGNAL_INTAKE.md** — saved-to-disk pending.
-55. **Tier 2 staleness** — ZHAO 36d / SHADE 7+wk / OTTO 23d / ORACLE 37d / FERT 7+wk / ATHENA 8+wk / CRUISE 7+wk / DARWIN dormant.
-56. **Pandemic-meta-cluster informal watch** — 4 institutional-primary nodes; v0.2 promotion DEFERRED.
-57. **CONSUMER_STAGFLATION 5-axis sub-cluster decision** — cluster now 30 sigs (+4 today from mirror); my read promote v0.2 next session.
-58. **AI_INFRA_CAPEX cluster split candidate** — SIG-002 layoffs vector distinct from CAPEX; hold one more cycle (5/9 SIG-001 adds 4th signal but caveat synthetic-chart).
-
-**Refactor open items:**
-59. "verified-as-of" pattern extension — second anchor candidate (Fed-framework / BOJ / OPEC+).
-60. Lead-paragraph regeneration cadence — every closeout (decided 5/7); multi-session-day discipline shipped 5/9 architectural-fix in CLAUDE.md.
+**REGINALD self-tasks (LIAISON deliverables):**
+41. **REGINALD BOARD_LOG.tsv full disposition backfill** on 16 missed-action signals — separate REG session.
+42. **REGINALD CALENDAR_DATA.tsv instantiation** — ~7d post-CARL DATA_RELEASE_CALENDAR.md landing.
 
 **Design / governance backlog:**
-61. Filter v2 Segment D — option A confidence_note; ~1hr.
-62. Signal Registry v2 — deferred.
-63. COP refresh resume trigger — paused since Apr 14.
-64. HAWK-proxy synthesis policy.
-65. BOARD_CONSUMPTION rollout to 11 remaining agent CLAUDE.md files.
-66. network_uncertainty_peak threshold tuning — n=2 fires now; current ≥5; calibration data 5/6 (6) → 5/8 (8). Keep at ≥5 through cycle 1.
-67. **NEW from 5/10 mirror:** PROME-pinch-hitter-mirror policy — formalize the 9-step recipe (Findings entry) as `design/PROME_MIRROR_PLAYBOOK.md` if pattern recurs ≥2 more times. Currently n=1 — defer until pattern repeats.
-
-**FALSIFICATION_TRIGGERS evolution:**
-68. Schema v2 with `trigger_type` discriminator — defer to ≥1 calibration cycle.
-69. Event-type triggers integration — schema v2 dependency.
-70. FALSIFICATION_TRIGGERS v0.2 — RED self-task, expand 7→10-12 triggers post-cycle 1.
+43. **Filter v2 Segment D** — option A confidence_note; ~1hr.
+44. **Signal Registry v2** — deferred.
+45. **COP refresh resume trigger** — paused since Apr 14.
+46. **HAWK-proxy synthesis policy.**
+47. **BOARD_CONSUMPTION rollout to 11 remaining agent CLAUDE.md files** — REGINALD just added; 4 of 16 active agents now have boot-step (CARL/BRENT/RED/REGINALD).
+48. **network_uncertainty_peak threshold tuning** — n=2 fires; current ≥5; calibration data 5/6 (6) → 5/8 (8). Keep at ≥5 through cycle 1.
+49. **PROME-pinch-hitter-mirror policy** — formalize 9-step recipe as `design/PROME_MIRROR_PLAYBOOK.md` if pattern recurs ≥2 more times. Currently n=1.
+50. **FALSIFICATION_TRIGGERS schema v2** with `trigger_type` discriminator — defer to ≥1 calibration cycle.
+51. **FALSIFICATION_TRIGGERS v0.2** — RED self-task, expand 7→10-12 triggers post-cycle 1.
 
 ## OPEN DESIGN DECISIONS (need Will — also tracked in MEMORY.md)
 
-- ~~3-way JOINT_PROPOSAL §2 stack sign-off~~ ✅ APPROVED 2026-05-08; Phase 1 SHIPPED.
-- ~~Repo-root stitch timing for 2-way RED+WALTER~~ ✅ ALREADY DONE 2026-05-06 commit `8a532073`.
+- ~~17 PROME 5/9 dispatches BOARD-completeness mirror policy~~ ✅ RESOLVED 2026-05-10.
 - ~~Autonomous news-scan policy~~ ✅ RESOLVED 2026-05-08 (Will direction msg 1597).
-- ~~17 PROME 5/9 dispatches BOARD-completeness mirror policy~~ ✅ RESOLVED 2026-05-10 (Will msg 1629-1631) — mirror with retroactive verify + per-signal precedence + Prome inbox copies preserved + 9-step recipe locked in MEMORY.md Findings.
-- **Next-LIAISON priority** — REGINALD vs NEXUS vs HENRY vs BROCK; my read: REGINALD next.
+- ~~Next-LIAISON priority post-CARL/BRENT/RED~~ ✅ RESOLVED — REGINALD opened + converged 5/10-5/11.
+- ~~PROME REQ delivery mechanism (outbox vs inbox)~~ ✅ RESOLVED 2026-05-10/11 — outbox is WALTER staging; inbox-write needs explicit Will auth per cross-agent rule; today's 2 REQ migrations close the gap.
+- **HENRY LIAISON priority confirmation** (NEW) — my read: top of remaining queue; want Will explicit confirm before opening.
 - **CONSUMER_STAGFLATION 5-axis sub-cluster spawn** — cluster grew 18→30 over 5/8-5/10; my read: promote v0.2 next session.
 - **AI_INFRA_CAPEX cluster split/expansion** — hold one more cycle (5/9 add has synthetic-chart caveat).
-- **HAWK-proxy synthesis frequency** — default-spawn vs wait for actual refresh; HAWK STALE 18d + framing-misleading; my read: spawn HAWK-proxy at next image-batch with Iran-cluster signal, not default-spawn.
-- **Pass 4 of 5/5 morning's cluster refactor** — IRAN_HORMUZ + POSITIONING_VALUATION sub-cluster breakdown? Defer.
+- **HAWK-proxy synthesis frequency** — default-spawn vs wait for actual refresh; HAWK STALE 21d + framing-misleading; my read: spawn HAWK-proxy at next image-batch with Iran-cluster signal, not default-spawn.
 - **FED_FRAMEWORK rename to UST_PLUMBING** — defer; cluster at 8 after 5/10 mirror but 2 of those are STEPPED-DOWN-to-ROUTINE which weakens the cluster-substance case.
 - **Cluster status flags** (🟢/🟡/🔴/⚫) — reserved for v0.2.
 - **"verified-as-of" pattern second anchor candidate** — hold until non-Iran macro-state needs it.
 - **MEMORY.md vs LAST_COMPLETION.md duplication** — partially resolved 5/5 + 5/7 PM-late.
 - **Lead-paragraph regeneration cadence** — every closeout (decided 5/7); multi-session-day discipline architectural-fix shipped 5/9 in CLAUDE.md spawn-protocol.
 - **Filter v2 Segment D** — DECIDED option A confidence_note.
-- **BOARD_CONSUMPTION rollout cadence** — 11 remaining agent CLAUDE.md propagation.
+- **BOARD_CONSUMPTION rollout cadence** — 11 remaining agent CLAUDE.md propagation; 4 of 16 active agents now have boot-step.
 - **COP refresh resume** — paused; defer per Will direction.
-- **NEXUS cluster classification cadence** — defer (NEXUS STALE 34d).
+- **NEXUS cluster classification cadence** — defer (NEXUS STALE 37d).
 - **`network_uncertainty_peak` threshold tuning** — current ≥5; n=2 fires; my read: keep through cycle 1.
 - **Pandemic-meta-cluster v0.2 cluster promotion** — DEFERRED per Hirschson MD calibration counterweight.
-- **§2b scheduled scan workflow infra build** — APPROVED cost budget 2026-05-08; awaiting CARL+BRENT calendars (Phase 2 dependency); my read: build cron-equivalent reader next session if calendars land.
-- **NEW from 5/10:** PROME-pinch-hitter-mirror as design pattern — formalize as `design/PROME_MIRROR_PLAYBOOK.md` if pattern recurs ≥2 more times; currently n=1 (this session). Defer until pattern repeats.
+- **§2b scheduled scan workflow infra build** — APPROVED cost budget 2026-05-08; awaiting CARL+BRENT calendars (Phase 2 dependency).
+- **PROME-pinch-hitter-mirror as design pattern** — formalize as `design/PROME_MIRROR_PLAYBOOK.md` if pattern recurs ≥2 more times; currently n=1.
+- **FORMAT_SPEC v0.9 batched ship timing** — 3 enums pre-cosigned (bank_transmission 8-val + energy_transmission 10-val + regime_state 5-val); Will-walkthrough-grouped-by-weight when ready.
 
 ---
 
 *Maintenance note: this file is overwritten each session per CLAUDE.md spawn protocol step 15. The FOLLOW-UP and OPEN DESIGN DECISIONS sections are the load-bearing carry-forward — every closeout copies open items forward and removes resolved ones. Don't append; don't keep historical sessions here; that's what `SESSION_LOG.md` is for.*
 
-*Resolved this session (removed from carry-forward): 17 PROME 5/9 dispatches BOARD-completeness gap ✅ MIRRORED with retroactive verify + per-signal precedence + 2 stepped-down + 1 attribution-corrected + 1 routing-revised + 1 DUP-flagged + Prome inbox copies preserved. SIG-014 IMMEDIATE preserved post-verify (JPM chart load-bearing CONFIRMED authentic). SIG-012 Japan UST-selling claim disconfirmed across 5 multi-source primaries through early-May.*
+*Resolved this session (removed from carry-forward): PROME outbox-vs-inbox surface gap (2 inbox REQs filed) / REGINALD LIAISON OPEN (converged Turn 5 <13hr) / CROSS_REFS/REGINALD.md scaffold shipped / SESSION_LOG.md 5/7 PM row rolled per Pass 1 cap.*
 
-*5/10 mirror-pass finding: PROME-pinch-hitter-mirror pattern is the closure mechanism for OC-side-dispatch / CC-side-outage gap. 9-step recipe documented in MEMORY.md Findings. ~75min wall-clock + ~$0.45 sub-agent cost envelope. Will-curated decision-loop preserved via 4 pre-execute policy decisions surfaced (ID prefix / verify-strategy / inbox-disposition / Will-pause-check).*
+*5/10-5/11 multi-thread session findings filed: PROME outbox-vs-inbox surface distinction / REGINALD LIAISON 4-turn convergence record / 3-of-3 empirical-reframe regime-level pattern (RED/BRENT/REGINALD Turn 1 framing on WALTER dispatch surface measurably off).*
