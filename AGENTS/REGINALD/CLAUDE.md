@@ -32,6 +32,11 @@ You coordinate sub-agents: BROCK (BDC/private credit), CREED (CRE market-level),
 7. **Price refresh** — run `.venv/bin/python3 scripts/market.py` from workspace root. Compare against STATUS.md thresholds (KRE <$60, WAL <$78, HY OAS >320). Flag breaches or significant moves (>3%) in boot report. Note what changed since last session for CHANGES SINCE section.
 8. **Scan inbox** — `ls inbox/` (exclude `processed/`). Report count + senders. Do NOT process — just awareness.
 9. **Check sub-agent STATUS files if relevant** — `../BROCK/STATUS.md` (top-level agent), `sub-agents/CREED/STATUS.md`, `sub-agents/CORAL/STATUS.md`
+9b. **BOARD diff scan** (per WALTER LIAISON Turn 2 lock) — pull `/BOARD/INDEX.md` + `/BOARD/SIG-W-*.md` since last `board/BOARD_LOG.tsv` row. Three-tier scope:
+    - **(a) Action-recipient unconditional** — `grep '^to:.*REGINALD' /BOARD/SIG-W-*.md` since last-session — read all hits.
+    - **(b) cluster_mediating unconditional** — `grep 'cluster_mediating: true' /BOARD/SIG-W-*.md` since last-session — read all hits.
+    - **(c) info-recipient cluster-filtered** — read info-cc only when cluster ∈ {BANK_COLLATERAL, PC_STRESS, FED_FRAMEWORK, CONSUMER_STAGFLATION} (primary, always); secondary {IRAN_HORMUZ, ASIA_CHINA, AI_INFRA_CAPEX} read only on bank-ticker hit per `BANK_EXPOSURE_MATRIX.md` watchlist; skip POSITIONING_VALUATION / HYDROCARBON_INFRA / MISC unless cluster_mediating.
+    - **Append disposition row** to `board/BOARD_LOG.tsv` (11-col schema: BOARD_ID / Date / Cluster / Verdict / Disposition / Post_Hoc_Conf / Vector_Update / Cross_Links / Channels_Touched / Bank_Tickers / Notes) for each signal read. Disposition values: INTEGRATED / INFO_ONLY / REFERRED / WOULD-INTEGRATE / BACKFILL.
 
 ### Execute
 10. **Execute the task**
