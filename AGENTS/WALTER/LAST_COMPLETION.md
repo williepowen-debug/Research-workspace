@@ -17,7 +17,9 @@
 | `16842f40` | WALTER → PROME inbox: migrate 5/8 news-sweep cron DOWN REQ (Item 1 of original 3-item) |
 | `774a5c0d` | WALTER → REGINALD LIAISON Turn 2: empirical reframe (16 action not zero) + 8-Q point-by-point |
 | `ceaab303` | WALTER → REGINALD LIAISON Turn 4: parallel-ship 4 deliverables + close-cosign Turn 5 |
-| *closeout* | (this commit) STATUS + REGISTRY + MEMORY + LAST_COMPLETION refresh + SESSION_LOG roll |
+| `ce121597` | Closeout: STATUS + REGISTRY + MEMORY + LAST_COMPLETION refresh + SESSION_LOG roll |
+| `ee624781` | Post-closeout mechanical batch: joint-proposal stitch (WALTER §2+§4 sections + repo-root stitch `design/JOINT_PROPOSAL_2026-05-11_reginald_walter.md`) + ZHAO outbox REQ + SENTRY REGISTRY row |
+| *patch* | (this commit) Boot/transition doc patch — LAST_COMPLETION FOLLOW-UP cleanup of 3 resolved items + STATUS lead 5→6 commits + MEMORY addendum + REGISTRY WALTER row append |
 
 **Will-Telegram conversation arc:**
 - 1643 (5/10 21:10) Boot ping → 1644-1645 ack + state-snapshot + 4-option candidate work
@@ -102,6 +104,9 @@
 - ~~REGINALD LIAISON open~~ ✅ RESOLVED — opened 5/10 23:11, converged Turn 5 5/11 11:42 in <13hr UTC.
 - ~~CROSS_REFS/REGINALD.md scaffold~~ ✅ RESOLVED — shipped v0.1 in WALTER Turn 4 (was carried-forward as part of CROSS_REFS scaffold work).
 - ~~SESSION_LOG.md roll discipline~~ ✅ RESOLVED — 5/7 PM row rolled this closeout per Pass 1 cap.
+- ~~WALTER §2+§4 REGINALD-LIAISON joint-proposal sections + repo-root stitch~~ ✅ RESOLVED in post-closeout mechanical batch `ee624781` — `AGENTS/WALTER/design/JOINT_PROPOSAL_2026-05-11_walter_sections.md` (199 lines, §2+§4+§5) + `design/JOINT_PROPOSAL_2026-05-11_reginald_walter.md` (252-line repo-root Will-readable stitched final). Pattern lineage: RED+WALTER stitch precedent `design/JOINT_PROPOSAL_2026-05-06_red_walter.md`.
+- ~~ZHAO outbox REQ candidate~~ ✅ RESOLVED in `ee624781` — `AGENTS/WALTER/outbox/REQ-ZHAO-20260511-revival-asia-contagion-ust-foreign.md` filed (4 material BOARD signals surfaced, 3-tier suggested execution, May 18 TIC release T-7d framing).
+- ~~SENTRY row add to REGISTRY.tsv~~ ✅ RESOLVED in `ee624781` — SENTRY Tier 2 OC-side RSS/Atom external feed scanner row added; closes known-but-not-in-REGISTRY carry-forward gap since 5/7-5/9.
 
 ## WILL_NEEDS
 
@@ -131,15 +136,15 @@
 13. **WAL 10-Q May 11-13** + **OZK 10-Q May 11** + **WAL Investor Day May 12** — REGINALD CALENDAR primary events this week.
 
 **WALTER self-tasks this week (no sign-off needed):**
-14. **REGINALD-WALTER joint-proposal repo-root stitch** — `design/JOINT_PROPOSAL_2026-05-11_reginald_walter.md`. WALTER §2 (routing-side spec changes: CROSS_REFS/REGINALD.md + ROUTING_TABLE v0.9 + spawn-protocol 6b + FIRED_LOG) + §4 (cross-agent Q-trail summary + future-work §5).
+14. ~~REGINALD-WALTER joint-proposal repo-root stitch~~ ✅ RESOLVED `ee624781`
 15. **bank_transmission enum integration to V0_9_STACK.md tracker** — add row alongside energy_transmission + regime_state.
 16. **CROSS_REFS/CARL.md cache scaffold** — pattern now battle-tested via RED.md + REGINALD.md.
 17. **CROSS_REFS/BRENT.md cache refresh** — per JOINT_PROPOSAL §3d.
 18. **BOARD_CONSUMPTION_SPEC v0.2 dual-pattern doc** — REGINALD adds REG-pattern alongside CARL's v0.1.
 19. **"verified-as-of" pattern second anchor candidate** (Fed-framework / BOJ / OPEC+).
 20. **design/STATE.md maintenance discipline pass** — bump ROUTING_TABLE v0.8 → v0.9 + WALTER CLAUDE.md spawn-protocol 6b update note.
-21. **SENTRY row add to REGISTRY.tsv** — outstanding hygiene since 5/7-5/9 surface.
-22. **ZHAO outbox REQ candidate** — 39d STALE; creeping toward 6-week mark; 5/9 mirror added 3 ZHAO-recipient signals; consider REQ file.
+21. ~~SENTRY row add to REGISTRY.tsv~~ ✅ RESOLVED `ee624781`
+22. ~~ZHAO outbox REQ candidate~~ ✅ RESOLVED `ee624781`
 
 **Next-LIAISON candidates:**
 23. **HENRY LIAISON** — top of remaining queue (action-pending deficit; POSITIONING_VALUATION cluster owner). OC-side, file-mediated.
@@ -211,6 +216,6 @@
 
 *Maintenance note: this file is overwritten each session per CLAUDE.md spawn protocol step 15. The FOLLOW-UP and OPEN DESIGN DECISIONS sections are the load-bearing carry-forward — every closeout copies open items forward and removes resolved ones. Don't append; don't keep historical sessions here; that's what `SESSION_LOG.md` is for.*
 
-*Resolved this session (removed from carry-forward): PROME outbox-vs-inbox surface gap (2 inbox REQs filed) / REGINALD LIAISON OPEN (converged Turn 5 <13hr) / CROSS_REFS/REGINALD.md scaffold shipped / SESSION_LOG.md 5/7 PM row rolled per Pass 1 cap.*
+*Resolved this session (removed from carry-forward): PROME outbox-vs-inbox surface gap (2 inbox REQs filed) / REGINALD LIAISON OPEN (converged Turn 5 <13hr) / CROSS_REFS/REGINALD.md scaffold shipped / SESSION_LOG.md 5/7 PM row rolled per Pass 1 cap / WALTER §2+§4 joint-proposal sections + repo-root stitch shipped (post-closeout mechanical batch `ee624781`) / SENTRY REGISTRY row added / ZHAO outbox REQ filed.*
 
 *5/10-5/11 multi-thread session findings filed: PROME outbox-vs-inbox surface distinction / REGINALD LIAISON 4-turn convergence record / 3-of-3 empirical-reframe regime-level pattern (RED/BRENT/REGINALD Turn 1 framing on WALTER dispatch surface measurably off).*
