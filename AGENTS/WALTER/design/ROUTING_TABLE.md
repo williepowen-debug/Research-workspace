@@ -1,10 +1,11 @@
-# WALTER Routing Table v0.8
+# WALTER Routing Table v0.9
 
 Default routing rules. WALTER uses this table to determine recipients and precedence when classifying incoming information. These are defaults — WALTER can override based on context, safety net triggers, or MINIMIZE state.
 
 **Canonical domain vocabulary:** The `Domain` column uses codes from `SIGNAL_FORMAT_SPEC.md` Domain Vocabulary section (v0.3, Apr 11). Don't invent new domain codes here without updating FORMAT_SPEC first per the canonical-source rule in `WALTER/CLAUDE.md`.
 
 **Version history:**
+- **v0.9 (May 11):** Added "By Convergence" section after By Boundary Threshold — auto-fire `signal_type: convergence_event` to REGINALD-action when BOARD INDEX scan finds N≥2 prior signals within 5-session window referencing same bank ticker OR same multi-channel exposure pattern. Detection via CROSS_REFS/REGINALD.md §1 watchlist + §5 pattern keys. Per REGINALD ↔ WALTER LIAISON Q5 (Turn 1 → Turn 4 LOCK 2026-05-11). v0.9 stack candidate `bank_transmission` enum (8-val: cre / hidden_cre / ndfi / private_credit / mfs_fraud / cmbs_maturity / fed_layoffs / stagflation_trap) pre-cosigned in V0_9_STACK.md tracker for batched FORMAT_SPEC v0.9 ship.
 - **v0.8 (May 8):** Added "By Boundary Threshold" section after By Tag/By Verdict — 8-row BRENT-IMMEDIATE threshold-cross dispatch list per JOINT_PROPOSAL_2026-05-05_walter_carl_brent §2c (3-way cosigned BRENT+CARL+WALTER 2026-05-05/06; Will sign-off 2026-05-08). Adds threshold-cross row mechanics: single-day breach = watch (no dispatch); 2-3 sess sustained = dispatch; single-print operational minima (#3 Cushing) = dispatch on print itself; re-fire convention (only on re-cross of boundary in either direction, not on continued state). BRENT-fire-as-primary; WALTER-fire-as-fallback if BRENT >5d STATUS lag. Detection via FORGE/tools/market-data + EIA scheduled scans (per §2b Phase 2 dependency). Updated By Tag/By Verdict section to reference v0.8 canonical `signal_role: cluster_mediating` form, retiring v0.7 prose-tag interim discipline.
 - **v0.7 (May 6 PM):** Added "By Tag/By Verdict" section after By Signal Type table — three rules (cluster_mediating auto-cc to RED, CORRECTED-FRAMING auto-cc to RED, falsification_trigger auto-fire from `AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv`) + de-dupe rule + interim prose-tag discipline (pre-v0.8). Per RED ↔ WALTER LIAISON Q9-Q12 + JOINT_PROPOSAL_2026-05-06_red_walter §3 (Will sign-off 2026-05-06).
 - **v0.6 (May 6):** Added "Iran-cluster CARL-info override" section after Residential-housing exception. Iran-cluster signals (cluster: IRAN_HORMUZ) route CARL info ONLY on concrete Brent thresholds (≥$110 sustained 2 sess OR ≤$95 sustained 5 sess) OR explicit kinetic event with supply-disruption mechanism OR FX/macro cross with consumer-burden vector. Posture/doctrine/diplomatic-cascade/OSINT signals → drop CARL. Added boundary-trigger threshold-cross dispatch sub-rule (≤$95/5sess and ≥$115/5sess fire IMMEDIATE → CARL with KB-CARL-259 + Vector #5/#12 + CRL-08 cross-refs). Per CARL ↔ WALTER LIAISON Q3 2026-05-05. **BRENT-IMMEDIATE 8-row "By Boundary Threshold" section deferred pending Will sign-off on JOINT_PROPOSAL §2c.**
@@ -180,6 +181,57 @@ BRENT LIAISON Q4 (BRENT→WALTER, Turn 1, 8-row list proposed) → WALTER Turn 2
 
 ---
 
+## By Convergence (NEW v0.9)
+
+Augments By Signal Domain + By Signal Type + By Tag/By Verdict + By Boundary Threshold sections. Applies AT DISPATCH after all other routing decisions. **Trigger:** when BOARD INDEX scan (cluster sections preferred for speed) finds N≥2 prior signals within 5-session window referencing the same bank ticker OR the same multi-channel exposure pattern, auto-fire `signal_type: convergence_event` precedence IMMEDIATE override.
+
+### Rule
+
+| Detection condition | Action | Recipient chain |
+|---------------------|--------|-----------------|
+| N≥2 prior BOARD signals within 5-session window mention same bank ticker (from `design/CROSS_REFS/REGINALD.md` §1 watchlist: TIER-1 / TIER-2 / NEW-TRACKING / EXTERNAL-WATCH tiers) | Auto-fire `signal_type: convergence_event` + override precedence to IMMEDIATE | **REGINALD action** + originating-channel agents info + **RED info** |
+| N≥2 prior BOARD signals within 5-session window touch same cross-bank pattern key (from `design/CROSS_REFS/REGINALD.md` §5: `cohort_fade_pattern` / `fhlb_bifurcation` / `provisions_mask_deterioration` / `office_single_point_concentration` / `hidden_cre_relabeling_trajectory` / `mi3_rcon2746_screen` / `ndfi_breakout_decomposition`) | Auto-fire `signal_type: convergence_event` + override precedence to IMMEDIATE | **REGINALD action** + originating-channel agents info + **RED info** (cohort-level convergence is RED-watchable as a structural-bifurcation candidate) |
+
+### Detection mechanics
+
+- **At dispatch:** scan BOARD INDEX cluster sections (filtered to BANK_COLLATERAL + PC_STRESS + FED_FRAMEWORK + CONSUMER_STAGFLATION primary; expand secondary on bank-ticker hit) for prior 5-session window
+- **Lookup:** use CROSS_REFS/REGINALD.md §1 ticker → watchlist row mapping + §5 pattern key list (denormalized cache, grep-speed at dispatch)
+- **Cost:** cluster-filtered grep ~50-200ms per dispatch
+- **Volume estimate:** ~1-2 convergence_events per week at current dispatch volume; peaks during Q1 earnings windows + threshold-cross windows
+
+### dispatch_note format
+
+When convergence_event fires, include in dispatch_note:
+
+- **Prior signals (count + IDs + cluster + date):** e.g., `Convergence: SIG-W-20260420-008 (BANK_COLLATERAL, 4/20) + SIG-W-20260424-005 (BANK_COLLATERAL, 4/24) + SIG-W-20260426-009 (BANK_COLLATERAL, 4/26) — 3 signals in 6 sessions on office-distress + WAL/MTB ticker overlap`
+- **Convergence type:** ticker-convergence vs pattern-key-convergence (or both)
+- **Channel codes touched** (from REGINALD's 8-channel framework): e.g., `Channels: cre,hidden_cre,cmbs_maturity`
+- **Cluster-mediating tag:** if convergence spans multiple clusters, set `cluster_mediating: true` + tag `cluster_secondary` per FORMAT_SPEC v0.7+
+
+### De-dupe behavior
+
+- If `cluster_mediating: true` already fires on the trigger signal (per v0.7 By Tag/By Verdict), convergence_event composition adds RED **once** (no double-count of RED-info)
+- If multiple convergence_event triggers fire on same dispatch (e.g., signal hits both ticker-convergence AND pattern-key-convergence), single convergence_event dispatched with both reasons listed in dispatch_note
+- If incoming signal IS the 2nd-or-later signal that COMPLETES a convergence window, dispatch fires from incoming-signal-dispatch side; prior signals stay at their original precedence (not retroactively re-dispatched)
+
+### Composition with other rules
+
+- v0.7 By Tag/By Verdict still applies — convergence_event signal with `signal_role: cluster_mediating` + CORRECTED-FRAMING verdict still de-dupe-collapses RED to one occurrence
+- v0.8 By Boundary Threshold still applies — if convergence_event also crosses a BRENT-IMMEDIATE row (e.g., Brent ≥$120 sustained 3 sessions), BRENT row recipient chain composes with REGINALD primary; precedence stays IMMEDIATE (highest)
+- Safety Net Auto-Upgrades still apply — VIX>30 or HY OAS +25bps single session can compose with convergence_event (precedence already IMMEDIATE; multi-trigger composition surfaces in dispatch_note)
+
+### Examples (illustrative — not historical dispatch)
+
+**Ticker convergence example:** signal SIG-W-20260512-NNN mentions WAL. WALTER greps BOARD INDEX for prior 5-session window — finds SIG-W-20260507-004 (Sternlicht-Starwood CMBS) mentions WAL + SIG-W-20260508-011 (FWRD covenant default) mentions WAL bank-covenant pattern. N=3 within 5 sessions → convergence_event fires; recipient chain REGINALD action / BRENT info / RED info. dispatch_note: `Convergence (ticker): SIG-W-20260507-004 + SIG-W-20260508-011 + (current) — 3 signals in 5 sessions on WAL; channels: cre,cmbs_maturity,private_credit`.
+
+**Pattern-key convergence example:** signals across 4 sessions all touch `cohort_fade_pattern` (REGINALD's structural framework) — VLY provisions tell + CFG cohort-fade signal + WAL ex-fraud NCO read. Even though no single ticker repeats N≥2, pattern-key fires same convergence_event mechanics. RED-info important here because cohort-level convergence is bifurcation candidate.
+
+### Q-trail
+
+REGINALD LIAISON Q5 (REGINALD → WALTER, Turn 1, framework proposed) → WALTER Turn 2 DECISION (YES, build atop named-entity grep from Q3) → REGINALD Turn 3 LOCK (preference: ROUTING_TABLE v0.9 section, not standalone) → WALTER Turn 4 SHIP (this section).
+
+---
+
 ## Safety Net Auto-Upgrades
 
 These conditions override the routing table and force minimum IMMEDIATE precedence:
@@ -219,4 +271,4 @@ During MINIMIZE, routing table precedence thresholds shift:
 
 ---
 
-*v0.8 — May 8, 2026 (By Boundary Threshold section added after By Tag/By Verdict per JOINT_PROPOSAL_2026-05-05_walter_carl_brent §2c — 8-row BRENT-IMMEDIATE threshold-cross dispatch list; cadence convention locked single-day=watch / 2-3 sess sustained=dispatch / single-print operational minima dispatch on print / re-fire only on boundary re-cross; BRENT-fire-as-primary, WALTER-fire-as-fallback if BRENT stale >5d; By Tag/By Verdict cluster_mediating row updated to reference v0.8 canonical `signal_role: cluster_mediating` form retiring v0.7 prose-tag interim discipline; Will sign-off 2026-05-08) | v0.7 — May 6, 2026 PM (By Tag/By Verdict section added after By Signal Type per RED ↔ WALTER LIAISON Q9-Q12 + JOINT_PROPOSAL_2026-05-06_red_walter §3 — three rules: cluster_mediating auto-cc to RED, CORRECTED-FRAMING auto-cc to RED, falsification_trigger auto-fire from `AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv`; de-dupe rule + interim prose-tag discipline pre-v0.8; Will sign-off 2026-05-06) | v0.6 — May 6, 2026 (Iran-cluster CARL-info override section added per CARL ↔ WALTER LIAISON Q3 — concrete Brent thresholds replace heuristic "near $110" framing; boundary-trigger threshold-cross dispatch sub-rule added for CARL-side ≤$95/5sess and ≥$115/5sess crosses; BRENT-IMMEDIATE 8-row "By Boundary Threshold" section deferred pending Will sign-off on JOINT_PROPOSAL §2c) | v0.5 — April 20, 2026 (thesis-frame signal_type row added per FORMAT_SPEC v0.5; Residential-housing stress exception section added per Filter v2 Segment A — geo-narrow residential → REGINALD action not CARL) | v0.4 — April 14, 2026 (ASIA_CONTAGION + UST_FOREIGN rows added per FORMAT_SPEC v0.4) | v0.3 — April 11, 2026 PM (canonical domain codes applied, Gap C resolved) | v0.2 — April 11, 2026 AM (rows + backup column) | v0.1 — April 7, 2026*
+*v0.9 — May 11, 2026 (By Convergence section added after By Boundary Threshold per REGINALD ↔ WALTER LIAISON Q5 — auto-fire convergence_event IMMEDIATE to REGINALD action + RED info on N≥2 prior signals within 5-session window referencing same bank ticker OR same multi-channel exposure pattern; detection via CROSS_REFS/REGINALD.md §1 watchlist + §5 pattern keys; dispatch_note format + de-dupe behavior + composition with other rules locked; bank_transmission enum 8-val pre-cosigned in V0_9_STACK.md tracker for batched FORMAT_SPEC v0.9 ship; REG LIAISON Q5 LOCK Turn 4 2026-05-11) | v0.8 — May 8, 2026 (By Boundary Threshold section added after By Tag/By Verdict per JOINT_PROPOSAL_2026-05-05_walter_carl_brent §2c — 8-row BRENT-IMMEDIATE threshold-cross dispatch list; cadence convention locked single-day=watch / 2-3 sess sustained=dispatch / single-print operational minima dispatch on print / re-fire only on boundary re-cross; BRENT-fire-as-primary, WALTER-fire-as-fallback if BRENT stale >5d; By Tag/By Verdict cluster_mediating row updated to reference v0.8 canonical `signal_role: cluster_mediating` form retiring v0.7 prose-tag interim discipline; Will sign-off 2026-05-08) | v0.7 — May 6, 2026 PM (By Tag/By Verdict section added after By Signal Type per RED ↔ WALTER LIAISON Q9-Q12 + JOINT_PROPOSAL_2026-05-06_red_walter §3 — three rules: cluster_mediating auto-cc to RED, CORRECTED-FRAMING auto-cc to RED, falsification_trigger auto-fire from `AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv`; de-dupe rule + interim prose-tag discipline pre-v0.8; Will sign-off 2026-05-06) | v0.6 — May 6, 2026 (Iran-cluster CARL-info override section added per CARL ↔ WALTER LIAISON Q3 — concrete Brent thresholds replace heuristic "near $110" framing; boundary-trigger threshold-cross dispatch sub-rule added for CARL-side ≤$95/5sess and ≥$115/5sess crosses; BRENT-IMMEDIATE 8-row "By Boundary Threshold" section deferred pending Will sign-off on JOINT_PROPOSAL §2c) | v0.5 — April 20, 2026 (thesis-frame signal_type row added per FORMAT_SPEC v0.5; Residential-housing stress exception section added per Filter v2 Segment A — geo-narrow residential → REGINALD action not CARL) | v0.4 — April 14, 2026 (ASIA_CONTAGION + UST_FOREIGN rows added per FORMAT_SPEC v0.4) | v0.3 — April 11, 2026 PM (canonical domain codes applied, Gap C resolved) | v0.2 — April 11, 2026 AM (rows + backup column) | v0.1 — April 7, 2026*
