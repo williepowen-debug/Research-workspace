@@ -1,0 +1,9 @@
+trigger_id	metric	threshold_op	threshold_value	sustain_window	action	recipient_chain	threshold_thesis_ref
+REG-T-01	KRE-PRICE	<	60	1	ALL-ALL-ACUTE	REGINALD action / ALL-AGENTS info / Will	STATUS.md#kre-acute-trigger
+REG-T-02	WAL-PRICE	<	78	1	V1V3-ACCELERATE	REGINALD action / Will	STATUS.md#wal-v1v3-thesis
+REG-T-03	HY-OAS	>	320	3	CREDIT-CANARY-FIRED	REGINALD action / CARL info	STATUS.md#hy-oas-canary
+REG-T-04	HY-OAS	>	350	3	ISSUANCE-FREEZE	REGINALD action / LIQUID action / Will	STATUS.md#hy-oas-issuance-freeze
+REG-T-05	INITIAL-CLAIMS	>	300	1	ORANGE-TO-RED	REGINALD action / CARL LABOR info	STATUS.md#claims-trigger
+REG-T-06	FHLB-ADVANCES	>	700	3	EARLY-CRISIS	REGINALD action / LIQUID info	STATUS.md#fhlb-early-crisis
+REG-T-07	OFFICE-CMBS-DQ	>	15	3	CRE-ACCELERATE	REGINALD action / BROCK SHADE info	STATUS.md#cmbs-cre-transmission
+REG-T-08	SOFR-IORB	>	15	3	LIQUID-FHLB-SPIKE	REGINALD action / LIQUID action / Will	STATUS.md#sofr-iorb-fhlb
