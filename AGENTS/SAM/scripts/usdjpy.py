@@ -56,6 +56,8 @@ MOF_INTERVENTIONS = [
     ("2024-04-29", "Apr24",  5.5),   # first 2024 act; USDJPY 160.17 peak
     ("2024-05-01", "May24",  4.3),   # second 2024 act; combined Apr/May ¥9.8T
     ("2024-07-11", "Jul24",  5.5),   # pre-Aug 2024 unwind
+    ("2026-04-30", "Apr26",  5.48),  # post Apr 28 BOJ hawkish hold; USDJPY 160.70 peak → 155.55 intraday low (5.15y range); first since Jul 2024
+    ("2026-05-06", "May26",  4.3),   # Golden Week round; intraday low 155.05 (2.84y range); combined Apr/May ~¥10T (~$63.5B) — largest since 2022 per BofA
 ]
 INTERVENTION_WINDOW_DAYS = 3  # touch date within ±N days of intervention = match
 
