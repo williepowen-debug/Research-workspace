@@ -8,6 +8,68 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-05-12 — MOF INTERVENTION + BESSENT AFFIRMATION (no thesis bump; v1.3 holds; correction logged)
+
+**Author:** SAM + Will
+**Action:** TIMELINE corrected to reflect that the Apr 29-30 "Tokyo session reprice" was actually MOF Intervention #1 (~¥5.48T / $35B — first since Jul 2024). Added Golden Week MOF Intervention #2 (May 6 ~¥4.3T / $28B). Added Bessent-Katayama May 11-12 meeting as new thesis vector (US public affirmation of Japan FX intervention). Updated CFTC tracking: short cover -39.5% WoW = first cover of cycle. **No thesis version bump** — MOF intervention at 160 was a v1.3 named trigger; Bessent affirmation is structurally new but rhetorical (no SWAP line announced).
+
+### What was wrong (correction)
+
+1. **Apr 30 yen rally mis-attributed.** May 3 STATUS logged USDJPY 159.60 → 157.19 as "Tokyo session reprice of Apr 28 BOJ hawkish hold." Reality: Apr 30 USDJPY hit 160.70 high then **155.55 intraday low** (5.15-yen range in one session) — characteristic intervention signature. BOJ reserve data confirmed ~¥5.48T move (first since Jul 2024). Press confirmed via Japan Times, CNBC, Bloomberg by May 2-7.
+
+2. **Tranche 2 hard trigger fired, was missed.** STRATEGY.md hard trigger "MOF intervenes at 160" fired exactly per design. SAM's read of "intervention dip" as "natural Tokyo reprice" meant the dip-add window was forfeited. FXY peaked $58.65 (May 1) then faded to $58.26 today.
+
+3. **Golden Week Intervention #2 (May 6).** USDJPY 157.89 high → 155.05 low (2.84-yen intraday); ~¥4.3T add ($28B). Combined Apr/May ~¥10T ($63.5B) — largest round since 2022 (Q4 2022 was ¥9.2T; Apr/May 2024 was ¥9.8T). Per BofA.
+
+### What's structurally new
+
+1. **Bessent-Katayama May 11-12 meeting** affirmed "constant and robust coordination" on FX volatility. Katayama: actions consistent with September joint statement "explicitly permitting intervention to combat excessive volatility." First US public affirmation of Japan FX intervention since at least 2022. Historically US objected to JPY intervention (e.g., 2022 Yellen-Suzuki tension). This is a genuine vector change.
+
+2. **CFTC cover signal.** Net short -102,059 (Apr 28) → -61,738 (May 5). 39.5% reduction in one week, -37,816 shorts covered + 2,505 longs added. Now 34.3% of Jul24 peak (was 56.7%). FIRST cover signal of cycle. **SAM-22 (CFTC stays below -75K) FAILED.**
+
+3. **The intervention paradox is partially firing.** MOF sold dollars (~$63.5B) — tactical execution of carry unwind. CFTC shorts covered. But USDJPY 157.61 today — markets reclaimed most of the move because rate differential (~300bp) is intact. **Half the unwind fuel burned through intervention itself, before BOJ even hikes.** June hike still primary trigger but less violent.
+
+### What didn't change
+
+- **Three transmission channels intact.**
+- **Conviction HIGH unchanged.**
+- **Scenario weights held** (Base 70 / Stress 25 / Crisis 5) — Channel 1 still gated on ESR May 15.
+- **Stop $55.05 unchanged.** Thesis break far from approached.
+- **June BOJ base case** (SAM-21 70% / market ~74%) unchanged.
+
+### Carry unwind probabilities
+
+| Timeframe | Pre (May 3) | Post (May 12) | Driver |
+|---|---|---|---|
+| 7d | 20% | **12%** | Intervention deterrent + Bessent affirmation reduces near-term unwind speed |
+| 30d | 72% | **70%** | Hold — catalyst load intact (ESR/CPI/GDP/trade); fuel reduced but still net -61K |
+| 60d | 90% | **88%** | Slight reduction — less violent unwind when fires; June hike still pricing 74% |
+
+### Predictions resolved
+
+- **SAM-22 FAILED FALSE.** Net short crossed above -75K (now -61,738). Lesson: when intervention trigger is near (USDJPY 160 zone), CFTC cover risk is much higher than 35%; should have prob-weighted intervention scenarios into SAM-22 directly.
+
+### Predictions added
+
+- **SAM-23:** MOF intervention #3 before June BOJ if USDJPY pushes 159+ (75%). Bessent affirmation removes diplomatic ceiling.
+- **SAM-24:** June BOJ hike size = 25bp not 50bp (85%). Consistent with all data + political math.
+
+### Why no thesis bump
+
+- MOF intervention at 160 was a NAMED v1.3 trigger that fired. Confirmation, not refinement.
+- Bessent affirmation is genuinely new but: (a) rhetoric without SWAP line, (b) single event, (c) monetary policy NOT publicly addressed at meeting. Per Apr 11 restraint lesson, single events rarely justify thesis refinement; wait for second confirmation (next intervention with explicit US backing, OR SWAP line announcement, OR rate-coordination signal).
+- v1.4 candidate (Bessent affirmation as 4th Channel 3 support) — hold for confirmation event.
+
+### Lessons (added to MEMORY)
+
+1. **Read intraday extremes, not closes.** Apr 30 close 160.18 looked like flat day; intraday 5.15-yen range was the intervention. Boot scripts focus on close-to-close which masked the move. **Action:** add intraday-range alert to boot when single-day range exceeds 2.5y.
+
+2. **Don't reach for "natural reprice" when violence is in range.** "BOJ hawkish hold caused 2.4y rally over 2 days" was implausibly large for a confirmed-hold scenario. The size of the move should have been the tell.
+
+3. **Cross-check single-source narrative against verifiable data.** First intervention is rarely confirmed officially — but BOJ reserve data, MOF current-account moves, and Fed custody flows are public. Cross-source instead of relying on one read.
+
+---
+
 ## 2026-04-28 — APR 28 BOJ RESOLUTION (no thesis bump; v1.3 holds)
 
 **Author:** SAM + Will

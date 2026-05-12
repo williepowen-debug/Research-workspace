@@ -1,9 +1,52 @@
 # SAM TIMELINE
 
-**Last Updated:** 2026-05-03
+**Last Updated:** 2026-05-12
 **View:** Base case progression with branch points marked
 
 This document maps our forward-looking expectations — what's coming, what we think happens, and where the path could diverge. Updated as events resolve or views change.
+
+---
+
+## RESOLVED — May 11-12 (BESSENT-KATAYAMA MEETING — US-JAPAN FX COORDINATION)
+
+### Mon-Tue May 11-12 — BESSENT-KATAYAMA TOKYO MEETING ✅ RESOLVED — STRUCTURAL BULL (NEW VECTOR)
+
+- **Event:** US Treasury Secretary Scott Bessent met Japan Finance Minister Satsuki Katayama in Tokyo for 2 hours; FX and financial markets on agenda.
+- **Outcome:**
+  - Bessent: "constant and robust" coordination on currency volatility — explicit affirmation
+  - Katayama: Japan's recent FX moves "consistent with September joint statement" which **explicitly permits FX intervention to combat excessive volatility**
+  - US tacitly aligned with Japan intervention — first such public affirmation. Historically US objected (1985 Plaza is the closest precedent for coordination).
+  - Monetary policy NOT publicly discussed (Katayama declined to comment on whether rates raised)
+- **Market reaction:** USDJPY 156.86 (May 11 close) → 156.70 briefly post-statement → recovered to 157.45-157.75 intraday May 12. Limited durable move; markets read it as rhetoric without immediate enforcement.
+- **Total intervention deployed Apr 30 + Golden Week:** ~¥10T (~$63.5B). BofA: "largest since 2022."
+- **Net:** **STRUCTURAL BULL — NEW THESIS VECTOR.** The Channel 3 framework (BOJ policy divergence) gets a 4th support: explicit US assent. Intervention size cap effectively removed; MOF can act repeatedly without diplomatic friction. The "intervention paradox" (MOF sells USD → carry unwind) is now amplified — bigger interventions, less political constraint.
+- **Caveat:** rhetoric ≠ FX swap line. No new SWAP facility announced. "Robust coordination" could mean "verbal support" only. But even verbal support shifts the intervention reaction function.
+
+---
+
+## RESOLVED — Apr 30 + May 6 (TWO MOF INTERVENTIONS — corrected May 12)
+
+### Thu Apr 30 — MOF INTERVENTION #1 ✅ CONFIRMED ~¥5.48T (~$35B)
+
+- **Event:** USDJPY pierced 160 in early Asia session (Apr 29 high 160.29, Apr 30 open 160.19, high **160.70** — highest of cycle). MOF intervened to support yen.
+- **Outcome:** USDJPY intraday: high 160.70 → **low 155.55** (5.15-yen range in one session). Close 160.18 — markets clawed back most of the move same day.
+- **Size:** ~¥5.48T (~$35B) per BOJ reserve data. First MOF intervention since July 2024.
+- **Initial misread (May 3 STATUS):** Logged as "Tokyo session reprice of Apr 28 hawkish hold (USDJPY 159.60 → 157.19)." Move was real but the cause was intervention, not natural BOJ-pricing. **Corrected May 12.**
+- **Net:** **MOF intervention trigger fired** — exactly the level the thesis named ("USD/JPY 160 = MOF intervention trigger"). Tranche 2 hard-trigger condition met per STRATEGY.
+
+### Wed May 6 — MOF INTERVENTION #2 (Golden Week) ✅ CONFIRMED ~¥4.3T add (~$28B)
+
+- **Event:** Yen surged in thin Golden Week (Japan closed May 4-6) trading. USDJPY 157.89 (May 6 high) → **155.05** intraday (low). Move ~2.84 yen in ~30 min.
+- **Outcome:** Close 157.68 — again markets recovered same day. Both interventions had immediate spike that decayed within hours.
+- **Size:** ~$32B additional per BofA estimate. Combined Apr 30 + May 6 = **~¥10T ($63.5B)** — largest combined intervention round since 2022.
+- **Net:** Second confirmation MOF will act. Intervention durability is the open question — markets reclaimed both moves same-day.
+
+### Implications
+
+- USDJPY low across both interventions: 155.05 (May 6). Never pierced 155 cleanly → thesis level 155 ("Phase 2 onset") NOT confirmed yet.
+- FXY peak intraday Apr 30: ~$58.65; close May 1: $58.63. Tranche 2 trigger zone $58.00-58.25 was EXCEEDED. Per STRATEGY no-chase rule, the $58 zone is forfeited.
+- May 3 STATUS logged FXY $58.44 ("inside Tranche 2 upper band") — that was POST-INTERVENTION decay. SAM should have read this as "Tranche 2 hard trigger (MOF intervention) fired but the dip already faded" — meaning EITHER add at $58.44 (chasing hard-trigger with stale dip) OR wait for next trigger. STATUS implicitly chose wait. Position regret: **$58.26 today is below where the wait got us.**
+- CFTC released May 8 (May 5 data): **net short collapsed -102,059 → -61,738** (+40,321 net change; shorts covered -37,816 contracts, longs added +2,505). **39.5% of cycle's accumulated short unwound in one week.** Now at **34.3% of Jul24 peak** (vs 56.7% prior week). FIRST cover signal of cycle. Speculators triggered out — partly intervention deterrent (MOF spent $63.5B), partly Bessent-meeting headline risk. Consistent with intervention paradox firing as designed.
 
 ---
 

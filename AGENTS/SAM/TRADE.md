@@ -1,6 +1,6 @@
 # SAM — Trade Ideas
 
-**Last Updated:** 2026-04-28 (post-BOJ: Scenario 2 triggered, trigger zone not yet hit)
+**Last Updated:** 2026-05-12 (Tranche 2 hard trigger fired retroactively — MOF intervention Apr 30 + May 6; Will placed limit at $58.00)
 **Domain:** Japan Macro, Yen, JGBs, Carry Trade, BOJ Policy
 
 ---
@@ -29,23 +29,38 @@
 | **Stop loss** | FXY ~$55.05 / USD/JPY ~167 | Oil shock full domination; intervention fails (thesis break) |
 | **Price target (6-month)** | FXY ~$60–62 / USD/JPY ~148–152 | Post-BOJ hike + carry unwind + oil stabilization |
 
-### Tranche 2 Scenario Matrix — Apr 28 BOJ RESOLVED
+### Tranche 2 Hard-Trigger Status — UPDATED MAY 12
 
-| Scenario | Triggered? | Action |
-|---|---|---|
-| **1. Hike to 1.00%** | ❌ | n/a |
-| **2. Hold + hawkish** *(base case)* | ✅ **YES — augmented by 3 dissents (biggest split since 2016) + GDP cut + inflation upgrade** | **+2 shares at $58.00-58.25** on confirmation. **+2 more** at $58.50+ break OR pre-June CPI print. |
-| **3. Hold + neutral** | ❌ | n/a |
-| **4. Hold + dovish** | ❌ | n/a |
+**MOF intervention trigger FIRED Apr 30 + May 6 + Bessent affirmation May 11-12.** Per STRATEGY.md hard-trigger list:
 
-**Current state (Apr 28 16:30 ET):** Scenario 2 triggered but **FXY $57.49 — trigger zone $58.00-58.25 NOT YET HIT**. US session has not priced the hawkish hold; overnight Tokyo (Apr 29) is the test.
+| Hard Trigger | Status (May 12) |
+|---|---|
+| BOJ hike at June meeting | PENDING (Jun 16; SAM-21 70%) |
+| **MOF intervenes at 160** | ✅ **FIRED — twice (~¥10T / $63.5B)** |
+| USDJPY sub-155 for 3+ sessions WITH oil normalizing | NEAR-MISS (May 6 low 155.05, 1 session; oil at $107 not $90) |
+| ESR <200% (FY2025) | PENDING (May 15) |
+| Fed cuts via credit cascade | PENDING |
 
-**48-hour decision tree:**
-- **FXY rallies to $58.00-58.25 in Tokyo** → execute +2 per matrix
-- **FXY drifts flat or down 24-48hrs** → market is signaling hawkish-hold isn't enough fuel for next leg. **No chase below $58.00.** Wait for ESR (mid-May) or pre-June CPI catalysts.
-- **Brent $111 wildcard:** oil could push USD/JPY higher (Phase 1) → FXY compressed short-term → +2 at $56.50 opportunity if it materializes (NOT a stop-out)
+### Tranche 2 Execution (May 12 decision)
 
-**Core logic unchanged:** April hike was only ~10% — designed correctly around modal hold+hawkish. June meeting is the base case hike (SAM-21 @ 70%; market 74% post Apr 28) — reserve dry powder for that leg.
+**Decision: Limit order at $58.00 for +4 shares (→ 12 total).**
+
+Rationale:
+- Hard trigger fired; per STRATEGY this is an authorized add window
+- But STRATEGY no-chase: Tranche 2 zone $58.00-58.25 was breached upward May 1 ($58.65 high). Current $58.26 is 1c above upper band.
+- Resolution: limit at $58.00 captures clean R:R, lives indefinitely, respects letter of no-chase rule, and is plausible-fill on (a) Brent reassertion pushing USDJPY → 160 retest, (b) intervention #3 dip-and-fade, (c) ESR May 15 disappointment near-term
+- Forfeits some Channel 2 upside if June hike fires before fill, but cleaner R:R; Tranche 1 (8 shares) still captures the move
+
+**Fill watch:**
+- Trigger: Brent $115+ → USDJPY 159-160 → intervention #3 → fade to FXY $58.00 area
+- Alternate trigger: ESR May 15 mixed-to-soft → near-term yen consolidation → FXY drift to $58.00
+- Time horizon: June 1 (give 3 weeks); if no fill, re-evaluate trigger conditions
+
+**Risk if filled:**
+- Position: 12 shares; entry blend ~$57.57
+- Stop $55.05 (4.4% below blend)
+- Target $60-62 (4.2-7.7% above blend)
+- R:R approximately 1:1 to 1:1.75 from $58.00 entry
 
 ### Catalyst Sequence (post Apr 28 update)
 
