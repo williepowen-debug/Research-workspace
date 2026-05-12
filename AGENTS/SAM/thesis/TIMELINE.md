@@ -9,18 +9,32 @@ This document maps our forward-looking expectations — what's coming, what we t
 
 ## RESOLVED — May 11-12 (BESSENT-KATAYAMA MEETING — US-JAPAN FX COORDINATION)
 
-### Mon-Tue May 11-12 — BESSENT-KATAYAMA TOKYO MEETING ✅ RESOLVED — STRUCTURAL BULL (NEW VECTOR)
+### Mon-Tue May 11-12 — BESSENT TOKYO TRIP (3-DAY, PRE-CHINA-SUMMIT) ✅ RESOLVED — STRUCTURAL BULL (NEW VECTOR)
 
-- **Event:** US Treasury Secretary Scott Bessent met Japan Finance Minister Satsuki Katayama in Tokyo for 2 hours; FX and financial markets on agenda.
-- **Outcome:**
-  - Bessent: "constant and robust" coordination on currency volatility — explicit affirmation
-  - Katayama: Japan's recent FX moves "consistent with September joint statement" which **explicitly permits FX intervention to combat excessive volatility**
-  - US tacitly aligned with Japan intervention — first such public affirmation. Historically US objected (1985 Plaza is the closest precedent for coordination).
-  - Monetary policy NOT publicly discussed (Katayama declined to comment on whether rates raised)
-- **Market reaction:** USDJPY 156.86 (May 11 close) → 156.70 briefly post-statement → recovered to 157.45-157.75 intraday May 12. Limited durable move; markets read it as rhetoric without immediate enforcement.
+- **Event:** US Treasury Secretary Scott Bessent on **3-day Tokyo trip May 11-13**, positioned BEFORE his attendance at US-China leaders' summit in Beijing **May 14-15**. Met Katayama 2hr May 11 evening + PM Takaichi separately.
+- **Full agenda (broader than FX):**
+  1. FX / yen stability
+  2. Critical minerals supply chain (US-Japan cooperation)
+  3. AI bilateral cooperation
+  4. **Japan's $550B investment pledge in US strategic industries** — first $2.2B loan disbursed early May (Texas, Georgia, Ohio projects)
+  5. BOJ policy normalisation (per investingLive)
+  6. Iran war
+- **Bessent's stated stance (important):**
+  - "Constant and robust" coordination on currency volatility (explicit affirmation)
+  - **Has publicly favored faster BOJ rate hikes** (prior public record). Subtext: supports intervention tactically, wants rate hikes structurally.
+  - "No currency targets" in trade negotiations earlier in 2026 — politically clever framing (supports intervention without dictating yen level)
+- **Takaichi-Bessent meeting:** Reaffirmed bilateral economic security cooperation; Bessent briefed Takaichi on upcoming China summit.
+- **Katayama side:** Japan's actions "consistent with September joint statement" that explicitly permits FX intervention to combat excessive volatility. First US public affirmation since at least 2022.
+- **Monetary policy NOT publicly discussed at the meeting.** Katayama declined to say whether Bessent raised rates. Pattern: deliberate ambiguity — US wants BOJ to hike but won't say so publicly to avoid market dislocation.
+- **Market reaction May 12:**
+  - Tokyo morning: yen rallied 0.3% to 156.78 (initial bullish read)
+  - Afternoon: yen weakened to 157.5 (markets sold it as policy without teeth)
+  - Afternoon weakness driver: **Trump raised doubts about US-Iran ceasefire durability** → Brent +3.4% → Phase 1 oil pressure reassertion
 - **Total intervention deployed Apr 30 + Golden Week:** ~¥10T (~$63.5B). BofA: "largest since 2022."
-- **Net:** **STRUCTURAL BULL — NEW THESIS VECTOR.** The Channel 3 framework (BOJ policy divergence) gets a 4th support: explicit US assent. Intervention size cap effectively removed; MOF can act repeatedly without diplomatic friction. The "intervention paradox" (MOF sells USD → carry unwind) is now amplified — bigger interventions, less political constraint.
-- **Caveat:** rhetoric ≠ FX swap line. No new SWAP facility announced. "Robust coordination" could mean "verbal support" only. But even verbal support shifts the intervention reaction function.
+- **Contrarian institutional voice:** **Bank of America publicly stated they expect the yen to continue depreciating** despite intervention (CNBC segment May 12). Their thesis: rate differential too wide to fix without aggressive BOJ action; intervention is bandaid; Bessent's words are cheap. Worth flagging — BofA has been carry-trade consensus voice for 18 months.
+- **Net:** **STRUCTURAL BULL — NEW THESIS VECTOR + Channel 3 strengthening.** The May 11-12 visit is closest thing to coordinated currency policy since 1985 Plaza. Bessent's pro-hike stance + affirmation of intervention = US wants rate differential to close from both sides (Fed cuts eventually, BOJ hikes). Channel 3 conviction marginally stronger than v1.3 framed.
+- **Caveat:** rhetoric ≠ FX swap line. No new SWAP facility announced. Single event. Per Apr 11 restraint lesson, no thesis bump warranted yet — wait for confirmation event (intervention #3 with explicit US backing, OR SWAP line, OR Bessent rate-specific statement, OR BOJ official referencing US coordination).
+- **Forward watch:** Bessent → Beijing May 14-15. If Trump-Xi yields anything on currency or trade, China response could drag yen via USDCNH-USDJPY correlation. May 14-15 is now a wildcard date for SAM.
 
 ---
 

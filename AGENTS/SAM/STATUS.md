@@ -8,7 +8,7 @@
 
 **SAM's May 3 STATUS was wrong about the cause.** The "Tokyo session reprice of Apr 28 hawkish hold" was actually **MOF intervention #1 on Apr 30** (~¥5.48T / $35B — first since Jul 2024). Then **intervention #2 during Golden Week May 6** (~¥4.3T / $28B). Combined ~¥10T ($63.5B) — **largest round since 2022** per BofA. Both interventions had violent intraday spikes (Apr 30: 160.70 → 155.55 low = 5.15y range; May 6: 157.89 → 155.05 low = 2.84y range) that markets reclaimed same-day.
 
-**Then May 11-12:** Bessent met Katayama in Tokyo (2hr); reaffirmed "constant and robust" coordination. Katayama: actions consistent with Sept joint statement that "explicitly permits intervention to combat excessive volatility." **First public US affirmation of Japan FX intervention.** Structural bull, new thesis vector.
+**Then May 11-13:** Bessent on 3-day Tokyo trip POSITIONED BEFORE Beijing US-China summit May 14-15. Met Katayama 2hr May 11 + PM Takaichi separately. Agenda: FX + **critical minerals + AI + $550B Japan investment in US (first $2.2B disbursed) + BOJ normalisation + Iran**. Bessent: "constant and robust" coordination on currency volatility. **Important:** Bessent has publicly favored faster BOJ rate hikes prior — his affirmation is "support intervention tactically, want hikes structurally." Monetary policy NOT publicly discussed (deliberate ambiguity). Markets initially priced bullish (yen +0.3% to 156.78 Tokyo AM) then sold as policy-without-teeth (back to 157.5 PM, also Trump-Iran-ceasefire-doubt driving Brent +3.4%). **BofA contrarian:** expects yen to continue depreciating despite intervention. Channel 3 marginally stronger than v1.3 framed — closest to coordinated currency policy since 1985 Plaza.
 
 **CFTC May 5 data (released May 8):** Net short **collapsed -102,059 → -61,738** (39.5% reduction in one week, -37,816 shorts covered + 2,505 longs added). **First cover signal of cycle.** Now 34.3% of Jul24 peak (was 56.7% the prior week).
 
@@ -115,6 +115,7 @@ Full corrected event log → `thesis/TIMELINE.md`.
 
 | Window | Event | Sig |
 |--------|-------|-----|
+| **🔴 Thu-Fri May 14-15** | **Trump-Xi Beijing summit (Bessent attends)** | Wildcard for SAM: any currency/trade announcement could drag yen via USDCNH-USDJPY correlation |
 | **🔴 Thu May 14** | Japan Q1 GDP prelim | First post-war quarter; EWJ trigger if contraction; BOJ already cut FY26 to 0.5% |
 | **🔴 Fri May 15** | **FY2025 ESR disclosures begin** | PRIMARY Channel 1 test; <200% = HARD TRIGGER |
 | **🟠 Wed May 20** | April trade balance (first post-blockade) | Phase 1 oil mechanism re-test (Brent $107) |
@@ -135,13 +136,13 @@ Full corrected event log → `thesis/TIMELINE.md`.
 
 **Combined Apr/May:** ~¥10T ($63.5B). BofA: largest since 2022 (Q4 2022 was ¥9.2T total). Comparable to Apr/May 2024 (~¥9.8T) but in 7 days vs 1 month.
 
-**Bessent-Katayama May 11-12:** 2hr meeting in Tokyo. Bessent "constant and robust coordination" on FX volatility. Katayama: consistent with Sept joint statement that explicitly permits intervention. **First US public affirmation of Japan FX intervention.** Monetary policy NOT publicly discussed. Market read: rhetoric without immediate enforcement; USDJPY traded 156.70-157.75 around statements.
+**Bessent Tokyo trip May 11-13 (pre-Beijing-summit positioning):** 3-day visit ahead of Trump-Xi Beijing summit May 14-15. Met Katayama 2hr + Takaichi separately. **Full agenda:** FX + critical minerals + AI + Japan's $550B US investment pledge (first $2.2B disbursed early May to Texas/Georgia/Ohio) + BOJ normalisation + Iran. **Bessent has publicly favored faster BOJ hikes prior** — his affirmation is "support intervention tactically, want hikes structurally." Bessent earlier 2026: "no currency targets" in trade talks (politically clever — supports intervention without dictating yen level). Monetary policy NOT publicly discussed at meeting (deliberate ambiguity). Market read: Tokyo AM yen +0.3% to 156.78, afternoon sold to 157.5 (partly policy-without-teeth read, partly Trump-Iran-ceasefire-doubt driving Brent +3.4%). **BofA contrarian:** expects yen to continue depreciating despite intervention (CNBC segment May 12). Channel 3 conviction marginally stronger than v1.3 framed — closest to coordinated currency policy since 1985 Plaza. v1.4 candidate but per restraint lesson, hold for confirmation event.
 
 **CFTC JPY (May 8 release, May 5 data):** Net short -61,738 (was -102,059). Shorts covered -37,816; longs added +2,505. Net change +40,321 = 39.5% reduction in cycle short. Now at 34.3% of Jul24 peak (was 56.7%). FIRST cover of cycle. Hits intervention deterrent + Bessent headline risk + carry-trade unwind dynamics.
 
 **Japan UST sale claim (First Squawk May 8):** Unverified. Fed custody data: foreign official accounts -$8.7B WoW to $2.73T (week to May 6). Circumstantial — could be Japan funding intervention with UST sales, but Fed data aggregates all foreign official accounts. LIQUID should track.
 
-**Brent +3.4% today ($104.21 → $107.74):** Oil reassertion. Iran/Hormuz still active despite May 1-3 de-escalation rhetoric. Phase 1 mechanism remains live; April trade balance (May 20) will print first full post-blockade month.
+**Brent +3.4% today ($104.21 → $107.74):** Driver = **Trump raised doubts about US-Iran ceasefire durability** (May 12 statements). Not just supply/demand noise — fresh political risk. Phase 1 oil pressure reasserting. April trade balance (May 20) will print first full post-blockade month.
 
 **BOJ QT:** ¥2.5T/mo purchases, ¥200B/quarter taper. Background factor.
 
