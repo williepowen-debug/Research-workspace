@@ -8,7 +8,7 @@
 
 | Date | Event | Outcome |
 |------|-------|---------|
-| Mon-Tue May 11-12 | ✅ **BESSENT-KATAYAMA TOKYO MEETING** | Bessent "constant and robust" FX coordination; Katayama: Sept joint statement permits intervention. **First US public affirmation of Japan FX intervention.** New thesis vector. |
+| Mon-Wed May 11-13 | ✅ **BESSENT 3-DAY TOKYO TRIP** (pre-Beijing summit) | Met Katayama (2hr) + Takaichi separately. Full agenda: FX + critical minerals + AI + Japan's $550B US investment pledge ($2.2B first disbursed) + BOJ normalisation + Iran. Bessent affirmed intervention, has prior public stance favoring faster BOJ hikes. Monetary policy NOT publicly discussed (deliberate ambiguity). BofA contrarian: expects yen to keep depreciating. |
 
 ## WEEK OF MAY 4-8 — RESOLVED (Golden Week + intervention #2)
 
@@ -31,6 +31,7 @@
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
+| **Thu-Fri May 14-15** | 🔴 **Trump-Xi Beijing summit** (Bessent attends) | Currency/trade announcements | Wildcard: yuan response could drag yen via USDCNH-USDJPY correlation | SAM, ZHAO, HAWK |
 | **Thu May 14** | 🔴 Japan Q1 GDP prelim | Growth vs contraction | Contraction = EWJ trigger; first post-war quarter; BOJ already cut FY26 to 0.5% | SAM, HENRY |
 | **Thu May 14** | 🟠 MOF ITS weekly (Apr 26-May 2) | Flow pace post-intervention | First full post-intervention week read | SAM, LIQUID |
 | **Fri May 15** | 🔴 **FY2025 ESR disclosures begin** | Big 4 ESR levels | Below 200% = stress case rebalance; PRIMARY Channel 1 test | LIQUID, PROME, SAM |
