@@ -40,6 +40,53 @@ Detail in MEMORY.md LAST SESSION (May 8 PM) one-line recap + commit history `d5d
 
 ---
 
+## 2026-05-11 PM — Investor Day prep + tape break to $76.95 + Q&A curation overreach caught
+
+**Single-deliverable session: `WAL/INVESTOR_DAY_PREP_2026-05-12.md`.**
+
+**What worked:**
+- Reading V2.1 THESIS + V21_RESPONSE_TO_RED_CHG_025 + SIG-W-20260511-023 in parallel before drafting → grounded in current frame, didn't re-derive
+- Table-driven structure (5 listening buckets × 4 attributes; decision tree × 8 outcome states; position implications matrix) — kept the file scannable on the day
+- Pre-registered decision tree per RED §12.4 — when the event lands tomorrow, day-of read is mechanical, not reactive
+- Tape-on-the-day ≠ signal rule explicit at the top of logistics — guards against intraday whipsaw reactions
+
+**What got caught:**
+- Layered "Q&A pool is curated by IR" interpretation on top of "in-person attendance by invitation only" — that was a stretch the announcement text didn't actually support
+- Will pushed back; honest correction made (invitation-only is capacity-management, not question-filtering; hostile analysts get invited by default)
+- Per MEMORY [Evaluate Evidence Standalone] feedback — fired AGAIN. Pattern: I have clean operational text and want to extract an implication; the implication often outruns the evidence. **30-second self-check: what does the text actually say?** Before reaching for what it implies.
+
+**WALTER SIG-W-20260511-023 (WAL Q1 fraud-vs-structural decomposition) integration:**
+- Adj NCO 0.39% / classified -9bp QoQ / NPL flat → CONFIRMS V2.1 leading-vs-lagging divergence from lagging-cleaning side
+- Doesn't change thesis weight; sharpens Bucket E listening post (NCO guide-raise vs guide-hold tension)
+- Mgmt language "past peak stress in office CRE; NPL decline expected H2" sets up the U1 modal trigger
+
+**13-signal BOARD inflow on 5/11 — observation, not action:**
+- vs ~1-2/day baseline = 6-10x volume jump
+- Could be one-off (Q1 reporting wave + WALTER weekend cohort scan) or new baseline
+- Calibration cycle 1 (May 25) will tell whether sustained
+- Notable: ~6 of 13 are MI3/NDFI-adjacent — Call Report rules + bank-level NDFI concentration data dropping ahead of FFIEC PDD bulk May 14-16
+
+**Things I noticed but didn't dig into:**
+- SIG-W-20260511-030 (cohort counter-evidence: 5 names improving) directly challenges 12/12 fade pattern in REGINALD STATUS — if confirmed it's a STATUS-level revision, not just a row update. Deferred.
+- SIG-W-20260511-029 (NDFI 5-cat schema + May 15 CDR Q1 bulk release) is the SCHEMA for how MI3-print landing will look — should read before MI3 print so reading framework is set up.
+- SIG-W-20260511-014 (NDFI $1T threshold new Call Report rules MI3-adjacent) may change MI3 disclosure mechanics going forward. Strategic; not urgent.
+
+**One-liners cached:**
+
+```bash
+# Investor Day live webcast (Tue May 12 8:30 AM ET):
+# https://investors.westernalliancebancorporation.com → Events & Presentations
+
+# Q&A transcript pattern reference for V2.1 mgmt-discount calibration:
+grep -E "Vecchione|Idnani|Bruckner|fraud-related|past peak|behind us|long duration" \
+  WAL/sources/q1_2026/WAL\ Earnings\ Call.md
+```
+
+**Convention question for next session:**
+- After Investor Day, write findings to `WAL/INVESTOR_DAY_FINDINGS_2026-05-12.md` (paralleling Q1_2026_ANALYSIS.md format)? Or fold into a v2.1.x THESIS revision directly? Default: separate findings file first; rollup to THESIS only if V2.1 → V2.2 trigger fires.
+
+---
+
 ## 2026-05-10/11 PM — Sunday-into-Monday: WALTER LIAISON converged + WAL V2.0 → V2.1 ship
 
 **Architectural ships (high density session):**

@@ -1,8 +1,8 @@
 # WAL STATUS
 
-**Last Updated:** 2026-05-11 (post RED CHG-RED-025 v2.0 → v2.1 ship) | **Thesis:** v2.1 "Compounder with Concentrated CRE Tail Risk + V1 Hidden-CRE Test Pending MI3 mid-May" (`THESIS.md` v2.1, `SCENARIOS.md` v2.1, `CHANGELOG.md` v2.1, `V21_RESPONSE_TO_RED_CHG_025.md`)
-**Price:** $81.90 (May 8 close — Sunday read) | **Threshold:** $78 | **Buffer:** +$3.90 🟢
-**Status:** 🟠 SHORT THESIS ACTIVE — V2 resolved in print, V1 weight RESTORED pending MI3 mid-May (v2.0 demoted V1 prematurely; corrected v2.1 per RED M2 ACCEPT), Office single-point sharpened evidence ADDITIVE, V3 directionally disconfirmed at aggregate. Bear split: Bear-fast 12% MI3-triggered + Bear-slow 23% Office-migration. EV math made Jun-conditional per RED M4 ACCEPT.
+**Last Updated:** 2026-05-11 PM (Investor Day prep shipped for 5/12 8:30 AM ET; tape broke $78 threshold) | **Thesis:** v2.1 "Compounder with Concentrated CRE Tail Risk + V1 Hidden-CRE Test Pending MI3 mid-May" (`THESIS.md` v2.1, `SCENARIOS.md` v2.1, `CHANGELOG.md` v2.1, `V21_RESPONSE_TO_RED_CHG_025.md`, **`INVESTOR_DAY_PREP_2026-05-12.md`** ← new)
+**Price:** **$76.95** (May 11 close, **-6.04%** intraday) | **Threshold:** $78 | **Buffer:** -$1.05 🔴 **BREACHED**
+**Status:** 🔴 SHORT THESIS ACTIVE + TAPE-CONFIRMED — First sub-$78 close since Apr 22-23 breach. Going into Investor Day 5/12 8:30 AM ET below threshold. V2 resolved in print, V1 weight RESTORED pending MI3 mid-May (v2.0 demoted V1 prematurely; corrected v2.1 per RED M2 ACCEPT), Office single-point sharpened evidence ADDITIVE, V3 directionally disconfirmed at aggregate. Bear split: Bear-fast 12% MI3-triggered + Bear-slow 23% Office-migration. EV math made Jun-conditional per RED M4 ACCEPT. **WALTER SIG-W-20260511-023** dropped fraud-vs-structural decomposition (adj NCO 0.39% / classified -9bp QoQ / NPL flat) — CONFIRMS V2.1 leading-vs-lagging divergence framing from lagging side; sharpens Bucket E listening post.
 **KB:** 70 rows / 10 groups (refresh pending Wave 1 chunk 4) | **Consensus:** Mod Buy (cohort median) | **Assets:** ~$90B+
 
 ---
@@ -142,6 +142,8 @@ Cat III/IV mandatory unrealized AFS loss recognition phasing in. Same AOCI dynam
 
 | Date | Event |
 |---|---|
+| **May 11 PM** | **Tape broke $78 threshold — close $76.95 (-6.04%).** First sub-$78 close since Apr 22-23. Whole regional cohort red (VIX +6.92%). Investor Day prep file `INVESTOR_DAY_PREP_2026-05-12.md` shipped — 5-bucket listening framework + pre-registered decision tree. WALTER SIG-W-20260511-023 confirms V2.1 leading-vs-lagging framing from lagging side. |
+| May 11 AM | V2.0 → V2.1 ship post RED CHG-RED-025 OVER-CORRECTED. M2 + M4 full accept; M1/M3/M5/M6 partial. V1 weight restored pending MI3 mid-May; Bear split into Bear-fast 12% + Bear-slow 23%; Jun-conditional EV table; $65P Jun close-rec WITHDRAWN → HOLD-or-ROLL-TO-SEP. |
 | **May 1** | THESIS v2.0 released — "compounder with concentrated CRE tail risk" framing supersedes v1 "fast-transmission failure." `CHANGELOG.md` created. |
 | Apr 30 | Risk-on tape close $81.54 (+2.35%). Holds above $78 threshold. |
 | Apr 24 | Round 2 deep-mine — deck + press release synthesis files in `sources/q1_2026/` (~1,200 lines). Slide 12 Office single-point reading corrected to 38% / 9.5x disproportion. Slide 23 $946M maturity wall surfaced. Slide 24 NDFI cohort-median finding closes V3 outlier framing. |
