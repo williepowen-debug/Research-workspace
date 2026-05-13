@@ -73,71 +73,54 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (5/11 PM 2nd-session closeout → 5/11 PM 3rd-session image-batch + WAL-falsification-fire — 15 BOARD dispatches / 🔴 REG-T-02 first fire ever / sponsor-strategy bifurcation crystallized)
+### CHANGES SINCE LAST SESSION (5/11 PM 3rd-session closeout → 5/12 PM boot + April CPI HOT dispatch — 1 BOARD dispatch SIG-W-20260512-001 IMMEDIATE → CARL)
 
-**5/11 PM 3rd session (19:18-23:50 UTC, ~4.5hr)** — **15 BOARD DISPATCHES** (14 image-batch SIG-031-036/038-044 + 1 WAL-falsification-fire SIG-037 FLASH) / 0 KILLs / 8 sub-spawns ($0.40) / BOARD 190→204. **🔴 REG-T-02 FIRST FIRE EVER of either falsification ledger** — WAL close $76.95 < $78 sustain=1 binary fire (fresh-cross-down -6.04% intraday); fire-log row appended; V1V3-ACCELERATE bear-thesis confirmation eve of WAL Investor Day TOMORROW 5/12 8:30 AM ET; Will-curated decision-loop preserved on inaugural fire. Image-batch verdict mix: 7 CORRECTED-FRAMING + 2 CONFIRMED-FRESH/MINOR + 1 CONFIRMED-PRIMARY + 1 SKIP-VERIFY + 3 cluster_mediating tagged (extends 4/25 CORRECTED-FRAMING dominant-verdict pattern; 50% rate).
+**5/12 PM session (17:09-00:30 UTC 5/13, ~7.5hr lean session post-overnight-clear)** — **1 BOARD DISPATCH** (SIG-W-20260512-001 April CPI IMMEDIATE → CARL primary, 8-agent info) / 0 KILLs / 0 sub-spawns / BOARD 204→205. Session-arc: Will boot msg 1743 → CPI-confirm request msg 1745 → BLS primary aggregator triangulation (BLS HTML 403, CNBC + Kiplinger + Advisor Perspectives + StockTwits) → CONFIRMED HOT: Headline 3.8% YoY (cons 3.7%, highest since May 2023) / Core 2.8% YoY (cons 2.7%) / Core MoM 0.4% (cons 0.3%) = 3 of 4 metrics beat consensus. Energy +17.9% YoY = steepest since Sept 2022; gasoline +28.4% YoY / fuel oil +54.3% YoY; energy alone >40% of monthly all-items increase. **Iran/Hormuz supply-squeeze regime now transmitting into headline CPI tape** — realized-tape confirmation of 47 prior IRAN_HORMUZ forward-looking signals; Aramco CEO Q1 jet-fuel-on-water mechanism (SIG-W-20260511-032) closed loop into headline tape. signal_role cluster_mediating × IRAN_HORMUZ × FED_FRAMEWORK; consumer_transmission pump_pass_through; consumer_lens tier_stratified; CONFIRMED 0.95. **REG-T-02 STILL FIRING** — WAL $77.03 +0.10% sustains <$78 post-Investor Day from yesterday's first-fire; V1V3-ACCELERATE not invalidated. Tape sticky-CPI as expected: SPY -0.85% / VIX 18.66 +1.52%. **Closeout discipline**: SESSION LOG roll executed this session (5/8 row → SESSION_LOG.md archive, resolving yesterday's 6-row carry-forward gap). Spec changes: none.
 
-**Dispatch arc:** (a) **Cluster 1 (Iran/energy 6 sigs)**: 5 verify-research ($0.25) on FANG / Aramco / Trump-IRIB / Tulsa / SPR — 4 CORRECTED-FRAMING + 1 CONFIRMED + Trump-CONFIRMED-FRESH-5/11; Modi skip-verify Reuters primary; SIG-031-036 dispatched (PRIORITY + 2 IMMEDIATE + 1 ROUTINE); Iran-anchor stamp bumped 5/11 PM with 5/11 fresh-escalation block. (b) **WAL falsification fire SIG-037 FLASH**: at-dispatch FALSIFICATION + REG-THRESHOLDS scan via fetch.py — REG-T-02 WAL <$78 sustain=1 FIRED (first fire ever of either ledger); 10-day close trail bracketed $79.67-$83.33 = fresh cross-down; Will-surfaced inaugural-fire pre-dispatch; auto-dispatched per spec post-approval. (c) **Cluster 2 (PC+banks 4 sigs)**: 3 verify-research (KKR-FSK / Apollo-MFIC / multifamily; PC-Hot-Streak skip-verify WSJ primary) — 3 CORRECTED-FRAMING + 1 CONFIRMED-MINOR; SIG-038-041 dispatched (2 IMMEDIATE + 2 PRIORITY). (d) **Cluster 3 (consumer/positioning 3 sigs after #13+#14 combine)**: 2 verify (Kalshi-Redfin / auto-CC; Carson skip-verify); 2 CORRECTED-FRAMING + 1 SKIP-VERIFY counter-evidence; SIG-042-044 dispatched (all PRIORITY).
+**LOAD-BEARING FINDINGS this session (4):**
+(1) **CPI energy +17.9% YoY is the Iran-cluster signal-framing arrival event.** Prior 47 IRAN_HORMUZ signals were forward-looking mechanism / supply-side / kinetic-state. This is the FIRST headline-macro print where the supply-squeeze regime visibly captures the CPI energy index. Anchor stamp 5/11 PM "supply-squeeze regime HARDENED" now has tape confirmation.
+(2) **Sticky-bias 5/11 PRE-CPI setup confirmed.** ISM Services Prices Paid 70.7 (SIG-W-20260511-017) + FEDS Notes tariff 3.1pp (SIG-W-20260511-018) + UMich 4.5% (SIG-W-20260511-016) all pointed at this CPI; print confirms the setup wasn't noise. Validates 5/11 PM 2nd-session pre-CPI signal dispatch as forward-correct.
+(3) **REG-T-02 sustains post-Investor Day** — WAL $77.03 +0.10% intraday after WAL Investor Day morning; sustain holds (binary trigger remains fired). Management presentation did NOT invalidate the bear thesis (would have required WAL crossing >$78 with management defending fraud-vs-structural framework). V1V3-ACCELERATE thesis-extending. Future re-fires auto-dispatch per spec.
+(4) **3 of 4 metrics beat consensus** = even with sticky-bias setup expected, energy 17.9% YoY surprises hawkish. Fed-cut pricing should re-rate harder; HENRY POSITIONING_VALUATION input.
 
-**LOAD-BEARING FINDINGS this session:**
-(1) **🔴 REG-T-02 FIRST FIRE EVER** — WAL <$78 binary trigger fired eve of Investor Day; V1V3-ACCELERATE confirmed; mechanical fire-mechanics validated at tape-pull layer; inaugural-fire Will-curated loop preserved; future re-fires auto-dispatch per spec without per-instance surface.
-(2) **SPONSOR-STRATEGY BIFURCATION** — KKR-doubles-down (FSK $300M backstop perpetual preferred + KREST $50M + KREF mREIT) **vs Apollo-cashes-out** (Apollo shopping captive listed BDC MFIC at $0.85/NAV / $3B portfolio / lending halted). Distinct sponsor responses at BDC-stress-curve inflection. Material framework finding — bridges sponsor-affiliated-fund-stress with parent-sponsor strategy at inflection.
-(3) **Iran 5/11 fresh escalation** — Iran narrowed enrichment-non-negotiable → nuclear-tech-off-agenda-entirely (Eslami parliament-committee briefing 5/11) + Trump CBS "stupid proposal" + "much more severe" Hormuz threat + Project Freedom resumption threat (new operational dimension). Both sides hardened <24h vs 5/10 SIG-005 rejection baseline. Iran-anchor stamp bumped 5/11 PM.
-(4) **3rd consecutive tape-vs-substance bifurcation** — Aramco CEO Q1 earnings call attests 2027 normalization risk if mid-June reopening missed + jet-fuel-on-water -58% Feb→May (38M→16M bbl) — substance HARDENED; Brent +3.05% intraday $104.38 — tape softened. 3rd consecutive observation (5/5 / 5/6 / 5/11) = regime-state input for calibration cycle 1 (per 5/6 finding `feedback_tape_vs_substance_bifurcation`).
-(5) **Fannie multifamily 5bps from 2010 peak; Freddie BREACHED 2010 peak** — GSE-multifamily SDQ (Fannie 0.75% / Freddie 0.48% Nov 2025) accelerating; complementary to Trepp CMBS-multifamily 6.98% per SIG-011 (different leverage strata, CMBS leading / GSE confirming).
-(6) **Bank-PC-funding-strain transmission step** — JPM cut FSK credit facility $648M (~14%) days before KKR injected $300M sponsor backstop = discrete transmission step on bank-PC-lending fragility chain. REGINALD-action primary vector — warehouse/credit-line cuts to BDCs flow into bank NDFI exposure measurement.
-
-**Cluster volume deltas (this session):** IRAN_HORMUZ 45→47 / POSITIONING_VALUATION 30→31 / BANK_COLLATERAL 25→28 / PC_STRESS 15→18 / HYDROCARBON_INFRA 8→10 / CONSUMER_STAGFLATION 33→34 / ASIA_CHINA 4→5. BOARD 190→204.
+**Cluster volume deltas (this session):** CONSUMER_STAGFLATION 34→35. BOARD 204→205.
 
 **Will-Telegram conversation arc:**
-- 1704 (19:18) Boot ping → 1705 boot reply
-- 1706 (19:23) "I have some saved images I'd like you to take a look at" → 1707 ready
-- 1708-1722 (19:24-19:27) 14 images in 2 waves (6 + 8) → 1714 ack-6 + 1724 ack-14 with cluster split A/B options
-- 1725 (20:01) "B" sub-batch by cluster
-- Cluster 1 verify spawns → 1727 proposed dispatch table → 1728 (20:35) "approve to dispatch"
-- 1729 WAL fire FLASH-ping (REG-T-02 first fire) → 1731 (21:54) "okay go ahead and begin"
-- 1730 cluster 1 dispatched + SIG-037 inaugural fire
-- Cluster 2 verify spawns → 1732 proposed dispatch table → 1733 (22:29) "approve to dispatch"
-- 1734 cluster 2 dispatched
-- Cluster 3 verify spawns → 1736 proposed dispatch table → 1737 (23:19) "approve to dispatch"
-- 1738 cluster 3 dispatched + session-summary
-- 1739 (23:35) "let's have you update transition and boot up documents before we commit and push" → this closeout
+- 1743 (17:09 UTC) Boot ping → 1744 boot reply (lean state-snapshot)
+- 1745 (17:15) "CPI came in high. Please confirm" → 1746 confirmation table + framing + proposed-dispatch
+- 1747 (18:07) "yes draft and dispatch" → 1748 dispatched confirmation
+- 1749 (00:28 UTC 5/13) "commit and push" → this closeout
 
-**Spec changes 5/11 PM 3rd session: NONE** (no spec versions bumped; Iran-anchor stamp bump + 5/11 escalation block = ops-state).
+**Spec changes 5/12 PM session: NONE** (operational dispatch only).
 
-**Multi-session-day discipline observation:** 3rd session of 5/11. Per `feedback_intra_day_closeout_discipline`: every session end runs closeout. 1st session closeout `ce121597` + boot-doc patch `465b9671` + 2nd session closeout `f4512634` shipped earlier today. This 3rd-session closeout captures the ~4.5hr image-batch + WAL-fire work. Three serial closeouts in single calendar day = pattern-of-cadence vs prior "deferred end-of-day" antipattern.
+### CHANGES SINCE — PRIOR (5/11 PM 3rd-session — 15 BOARD dispatches image-batch + REG-T-02 first fire ever)
 
-**Findings filed (3 new entries [2026-05-11 PM 3rd-session]):** see Findings section below — sponsor-strategy bifurcation (Apollo-cashout vs KKR-doubledown) / first-falsification-fire mechanics validation / 5-sub-batch BOARD-grep-before-propose discipline (CORRECTED-FRAMING 7 of 14 = batch-process integrity).
+**5/11 PM 3rd session (19:18-23:50 UTC, ~4.5hr)** — 15 BOARD dispatches (14 image-batch SIG-031-044 + 1 WAL-falsification-fire SIG-037 FLASH) / 0 KILLs / 8 sub-spawns ($0.40) / BOARD 190→204. **🔴 REG-T-02 FIRST FIRE EVER** — WAL close $76.95 < $78 sustain=1 binary fire eve of WAL Investor Day. Image-batch verdict mix: 7 CORRECTED-FRAMING + 2 CONFIRMED-FRESH/MINOR + 1 CONFIRMED-PRIMARY + 1 SKIP-VERIFY + 7 cluster_mediating + 1 falsification_trigger + 1 counter-evidence. Sponsor-strategy bifurcation crystallized (KKR-doubles-down vs Apollo-cashes-out). Iran 5/11 fresh escalation Iran-anchor stamp bump. 3rd consecutive tape-vs-substance bifurcation. Fannie multifamily 5bps from 2010 peak. JPM-FSK $648M credit-cut transmission step. CORRECTED-FRAMING 50% of batch. **Full record:** git log `06bf5730` (5/11 PM 3rd-session closeout).
 
-### CHANGES SINCE — PRIOR (5/11 PM 2nd-session — 30 BOARD dispatches news-sweep + deep-dive)
+### CHANGES SINCE — PRIOR-PRIOR (5/11 multi-session arc)
 
-**5/11 PM 2nd session (16:17-19:00 UTC, ~3hr post-clear)** — 30 BOARD dispatches (SIG-001 thru -030) / 0 KILLs / 7 sub-spawns ($1.05) / BOARD 160→190 / 14 cluster_mediating (`network_uncertainty_peak` first fire). Iran-anchor REFRESHED disk-write 5/7→5/11 full timeline. CPI date doc-bug FIXED (5/13→5/12 T-1d, 4 instances). 1 carry-forward RESOLVED (OBDC Q1 → SIG-009). Deep-dive findings: BROCK $128B→$1.4T NDFI scope correction (11× understated), KKR+Starwood sponsor-bifurcation pattern (extended this session to KKR-vs-Apollo strategy bifurcation), OZK uniqueness concentration-specific NOT cohort-wide. Spec changes: NONE. **Full record:** `LAST_COMPLETION.md` (overwritten this session, 5/11 PM 3rd-session detail) — for 5/11 PM 2nd-session arc archaeology see git log commits `ce121597` (5/11 PM closeout) + `465b9671` (boot-doc patch) + `f4512634` (5/11 PM 2nd-session news-sweep closeout).
-
-### CHANGES SINCE — PRIOR-PRIOR (5/10-5/11 multi-thread)
-
-**5/10 PM → 5/11 PM multi-thread (~16hr span)** — 4 commits / 0 BOARD dispatches / Two threads: (a) PROME inbox REQs (filing-watch Phase 1 completion + 5/8 news-sweep cron migration); (b) **REGINALD LIAISON OPENED + CONVERGED in 5 turns / <13hr UTC** — 4 parallel WALTER Turn 4 deliverables (CROSS_REFS/REGINALD.md + ROUTING_TABLE v0.9 By Convergence + spawn-protocol 6b + REG_THRESHOLDS_FIRED_LOG). Spec changes: ROUTING_TABLE v0.8→v0.9 + WALTER CLAUDE.md spawn-protocol step 6b. Findings: PROME outbox-vs-inbox + REGINALD 4-turn convergence + empirical-reframe regime-level pattern.
+**5/11 PM 2nd session (16:17-19:00 UTC)** — 30 BOARD dispatches news-sweep + deep-dive; `network_uncertainty_peak` first fire (14 cluster_mediating). **5/10-5/11 multi-thread (~16hr)** — 2 PROME inbox REQs + REGINALD LIAISON OPENED + CONVERGED in 5 turns / <13hr UTC; ROUTING_TABLE v0.8→v0.9 + WALTER CLAUDE.md spawn-protocol step 6b. **Full record:** `LAST_COMPLETION.md` GAPS section retains carry-forward; archaeology in git log commits `ce121597` + `465b9671` + `f4512634` + earlier REGINALD LIAISON commits.
 
 ### NEXT SESSION
 
 **Canonical carry-forward:** see `LAST_COMPLETION.md` FOLLOW-UP + OPEN DESIGN DECISIONS sections (load-bearing running list).
 
 **Time-sensitive THIS WEEK** (boot quick-scan):
-1. **🔴 TOMORROW 5/12 8:30 AM ET DOUBLE CATALYST** — April CPI + WAL Investor Day NYC (REG-T-02 fired today eve-of-event; SIG-023 fraud-vs-structural framework set; SIG-037 V1V3-ACCELERATE confirmation logged). ISM Prices 70.7 + FEDS Notes 3.1pp + UMich 4.5% = sticky-bias CPI setup.
-2. **🟠 May 13 EIA WPSR Tuesday** — SPR 8.6 MMbbl gross-figure confirmation per SIG-035 forward-flag (last 5/1 print -5.2 MMbbl; total since March -22.7 MMbbl).
-3. **🟠 May 15 CDR Q1 2026 5-category NDFI bulk release** — T-4d. First bank-level 5-cat splits publicly available; plan WALTER + REGINALD + BROCK pull on release (sharpened by FSK + MFIC sponsor-bifurcation context).
-4. **Iran-war anchor next re-verify boundary 5/18 min** — stamp bumped 5/11 PM this session (5/11 escalation block); next re-verify trigger fires on visible kinetic state-change OR 7d boundary OR pre-dispatch on Iran-cluster signals.
-5. **SIG-005 forward-test 6 PENDING** 5/14-28 (TOL/WMT/HD/TGT/LOW/COST).
-6. **May 18 TIC March release** — Japan UST-funding question.
-7. **CARL/BRENT/RED/REGINALD calibration cycle 1** ETA May 19-27.
+1. **🔴 TOMORROW 5/13 EIA WPSR Tuesday** — SPR 8.6 MMbbl gross-figure confirmation per SIG-035 forward-flag (last 5/1 print -5.2 MMbbl; total since March -22.7 MMbbl).
+2. **🟠 May 15 CDR Q1 2026 5-category NDFI bulk release** — T-3d. First bank-level 5-cat splits publicly available; plan WALTER + REGINALD + BROCK pull on release (sharpened by FSK + MFIC sponsor-bifurcation context).
+3. **Iran-war anchor next re-verify boundary 5/18 min** — stamp at 5/11 PM (5/11 escalation block); re-verify trigger fires on visible kinetic state-change OR 7d boundary OR pre-dispatch on Iran-cluster signals.
+4. **SIG-005 forward-test 6 PENDING** 5/14-28 (TOL/WMT/HD/TGT/LOW/COST).
+5. **May 18 TIC March release** — Japan UST-funding question.
+6. **CARL/BRENT/RED/REGINALD calibration cycle 1** ETA May 19-27.
 
 **Top next-session candidate work:**
-1. **🔴 WAL Investor Day live-coverage** (per #1 above) — REGINALD-action primary; cross-confirm SIG-023 framework vs management presentation; first-look at fraud-vs-structural management decomp.
-2. **🔴 BROCK outbox REQ on $128B → $1.4T NDFI scope correction** — carries forward from prior session + now sharpened with FSK + MFIC sponsor-bifurcation context. SIG-W-20260511-029 + SIG-038 + SIG-040 surface. Mechanical ~10min outbox file.
-3. **🔴 BOARD INDEX section-placement consolidated cleanup** — relocate 9 misplaced rows (SIG-001 thru -007 IRAN + SIG-032/033) from POSITIONING_VALUATION section back to IRAN_HORMUZ section. Counts on ToC correct; placement bug from 5/11 PM 2nd-session inherited this session.
+1. **🔴 WAL Investor Day post-mortem** — REGINALD-action primary; cross-confirm SIG-023 framework vs management presentation; WAL closed $77.03 sustains <$78 post-event = thesis-extending (REG-T-02 not invalidated).
+2. **🔴 BROCK outbox REQ on $128B → $1.4T NDFI scope correction** — carries forward; sharpened with FSK + MFIC sponsor-bifurcation context. SIG-W-20260511-029 + SIG-038 + SIG-040 surface together. Mechanical ~10min outbox file.
+3. **🔴 BOARD INDEX section-placement consolidated cleanup** — relocate 9 misplaced rows (SIG-W-20260511-001 thru -007 IRAN + SIG-032/033) from POSITIONING_VALUATION section back to IRAN_HORMUZ section. Counts on ToC correct; placement wrong.
 4. **🟠 REGINALD CROSS_REFS NDFI 5-category schema append** — per SIG-029 + SIG-038 dispatch_note; mechanical ~5min.
-5. **NON_TRADED_REIT_DISTRESS sub-cluster proposal sharpening** — now KKR-FRANCHISE_STRESS or SPONSOR_BIFURCATION (FSK addition expands KKR-side from 2 to 3 vehicles; Apollo MFIC adds 2nd-sponsor data-point). Will sign-off pending.
+5. **NON_TRADED_REIT_DISTRESS / SPONSOR_BIFURCATION sub-cluster proposal sharpening** — KKR + Starwood + Apollo MFIC data points. Will sign-off pending.
 6. **HENRY LIAISON open** — top of remaining queue.
 7. **CROSS_REFS/{CARL,BRENT}.md cache scaffolds** — WALTER self-task; pattern battle-tested via RED.md + REGINALD.md.
-8. **CONSUMER_STAGFLATION v0.2 5-axis sub-cluster proposal** — cluster at 34 sigs; Will sign-off pending.
-9. **At-dispatch FALSIFICATION + REG-THRESHOLDS scan** — RAN this session, REG-T-02 fired; next-session scan to check if REG-T-02 sustains or recovers + monitor RED-FT-01 HY OAS 281 vs <280 threshold (1bp near-miss).
-10. **STATUS.md cluster ToC sort re-order** — counts shifted (CONSUMER 34 > POSITIONING 31 > BANK_COLLATERAL 28); cosmetic.
+8. **CONSUMER_STAGFLATION v0.2 5-axis sub-cluster proposal** — cluster at 35 sigs; Will sign-off pending.
+9. **At-dispatch FALSIFICATION + REG-THRESHOLDS scan** — REG-T-02 sustains post-event; monitor for re-fire or reversal; RED-FT-01 HY OAS still 1bp near-miss.
+10. **CPI energy transmission pickup propagation** — CARL pump_pass_through engaged; BRENT energy-cluster reinforcement; HENRY Fed-cut repricing input; SAM USD/JPY → BOJ June-hike pressure intensifies.
