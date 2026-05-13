@@ -54,6 +54,10 @@ Will mentioned possible intervention at boot. Web search confirmed: TWO interven
 
 **Position decision (May 12):** Limit at $58.00 for +4 shares (→ 12 total). Recorded in TRADE.md and STATUS.md. Live indefinitely; re-evaluate June 1 if no fill.
 
+**Deeper sweep (May 12 PM):** Found broader Bessent agenda (3-day trip pre-Beijing summit, critical minerals + AI + $550B investment + BOJ + Iran), prior pro-hike stance, BofA contrarian view, Trump-Iran-ceasefire-doubts driving Brent +3.4%, Trump-Xi May 14-15 wildcard. Updated TIMELINE, STATUS, CALENDAR, CHANGELOG. No thesis bump.
+
+**Push coordination (May 12 PM):** First push (AM commit `25567657`) clean. Second push (Bessent sweep `bd032212`) initially rejected — WALTER was mid-session routing April CPI 3.8% signal. Will coordinated: WALTER finished + pulled-rebased + pushed, and my Bessent commit went up cleanly with WALTER's via rebase. **Workflow lesson:** when push is rejected by remote-divergence with another agent's uncommitted work, defer to operator coordination; rebase-via-other-agent's-pull can resolve cleanly without my direct intervention.
+
 ### NEXT SESSION
 
 **Position followup:**
