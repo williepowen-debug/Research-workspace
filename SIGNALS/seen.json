@@ -218,5 +218,10 @@
     "first_seen": "2026-05-13T11:53:17.544732+00:00",
     "title": "6-K - PolyPid Ltd. (0001611842) (Filer)",
     "feed": "SEC EDGAR Filings"
+  },
+  "a5e3e96b7e1cd8d0": {
+    "first_seen": "2026-05-13T22:54:37.516347+00:00",
+    "title": "Electricity generation from solar could exceed coal in ERCOT for the first time in 2026",
+    "feed": "EIA Today in Energy"
   }
 }
