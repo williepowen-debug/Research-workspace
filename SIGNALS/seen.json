@@ -223,5 +223,35 @@
     "first_seen": "2026-05-13T22:54:37.516347+00:00",
     "title": "Electricity generation from solar could exceed coal in ERCOT for the first time in 2026",
     "feed": "EIA Today in Energy"
+  },
+  "3999faf3761c0710": {
+    "first_seen": "2026-05-14T11:31:07.779561+00:00",
+    "title": "8-K - Incannex Healthcare Inc. (0001873875) (Filer)",
+    "feed": "SEC EDGAR Filings"
+  },
+  "1d721ad466777313": {
+    "first_seen": "2026-05-14T11:31:07.779568+00:00",
+    "title": "DEF 14A - EDAP TMS SA (0001041934) (Filer)",
+    "feed": "SEC EDGAR Filings"
+  },
+  "a53303d818dd6279": {
+    "first_seen": "2026-05-14T11:31:07.779571+00:00",
+    "title": "6-K - NOVA LTD. (0001109345) (Filer)",
+    "feed": "SEC EDGAR Filings"
+  },
+  "51a693991f8bad05": {
+    "first_seen": "2026-05-14T11:31:07.779574+00:00",
+    "title": "8-K - Genie Energy Ltd. (0001528356) (Filer)",
+    "feed": "SEC EDGAR Filings"
+  },
+  "ebe8856d5faafa3a": {
+    "first_seen": "2026-05-14T11:31:07.779577+00:00",
+    "title": "8-K - Hewlett Packard Enterprise Co (0001645590) (Filer)",
+    "feed": "SEC EDGAR Filings"
+  },
+  "93f5272f5a6229e6": {
+    "first_seen": "2026-05-14T11:31:07.779583+00:00",
+    "title": "6-K - FORMULA SYSTEMS (1985) LTD (0001045986) (Filer)",
+    "feed": "SEC EDGAR Filings"
   }
 }
