@@ -2,7 +2,18 @@
 
 *Updated each session. Adversarial perspective: what confirms, what challenges, what kills the thesis.*
 
-**Last Updated:** 2026-05-06 (Wed)
+**Last Updated:** 2026-05-13 (Wed Session 12 — MI3 5/15 T-2 prominent; stagflation regime printing on tape since 5/12)
+
+---
+
+## IMMINENT (Next 3 Days)
+
+| Date | Event | Bear Signal | Bull Signal | RED Threshold |
+|------|-------|-------------|-------------|---------------|
+| **MAY 14-16** | **FFIEC BULK Q1 RELEASE — WAL MI3 CRITICAL TEST** | MI3 ≥25% → V1V3-ACCELERATE confirmed; +3 confidence | MI3 <19% → V1 thesis broken; -5 confidence | **PRE-REGISTERED:** `research/MI3_5_15_DECISION_TREE.md` (4-bin tree). T-2 from today. Bin probabilities: 30/35/25/10. RED-primary tracking per CHG-RED-025. |
+| **MAY 15** | **OZK $42.5P May / $47.5P May / SOFI $16P May / KRE $70P May / TLT $88P May expire (T-2)** | Various ITM intraday 5/13 | — | Window-trigger menu fired 5/12-5/13. **Pre-MI3 mark-favorable exit recommended** per `MI3_5_15_DECISION_TREE.md`. |
+| **MAY 15** | OZK Q1 MI3 baseline 37.6% trajectory test (FFIEC same release) | OZK MI3 ≥40% → concentration acceleration | OZK MI3 ≤36% → strategic de-risk credible | OZK-primary cross-read |
+| **MAY 15** | EGBN MI3 test (FFIEC same release; baseline 23.7% Apr 24) | EGBN >24% → strategic de-risk hollow | EGBN ≤22% → de-risk credible | Cohort-broad-CRE weakening if WAL <22% AND EGBN ≤22% AND OZK <40% |
 
 ---
 
@@ -22,7 +33,11 @@
 | **Apr 30** | OWL Q1 | BROCK domain primary. PC redemption-cap reactivation context. | REGINALD info pickup. |
 | **May 1** | Initial claims 189K wk Apr 25 | **Lowest since 1969.** Counter-stress signal. LABOR transmission inert. | NEW bull steelman input. |
 | **May 4-5** | **UAE struck two consecutive days** | Iran missiles + drones (15 missiles May 4 per Al Jazeera; revised up). Bypass-pair pattern (Petroline Apr 9 + Fujairah May 4) confirmed per BRENT v2.0. | War premium re-priced; physical Brent stress real, but RED challenges the inferential leverage (CHG-RED-024). |
-| **May 6 (today)** | **Live levels** | Brent $102.87 (-6.37% intraday). VIX 16.54. WAL $81.86, OZK $48.48, KRE $69.92, HYG $79.92, TLT $85.43, IWM $282.56, SOFI $16.02, APO $130.30, SPY $723.77. HY OAS 285 (Apr 30 FRED), CCC OAS 9.09 (-12bps from Apr 16, moving AWAY from 10.00 analog threshold). | Path A signals continuing; structural confirms; bifurcation persists. |
+| **May 6** | Live levels | Brent $102.87 (-6.37% intraday). VIX 16.54. WAL $81.86, OZK $48.48, KRE $69.92, HYG $79.92, TLT $85.43, IWM $282.56, SOFI $16.02, APO $130.30, SPY $723.77. HY OAS 285 (Apr 30 FRED). | Path A signals continuing; structural confirms; bifurcation persists. |
+| **May 8** | UAE struck again; OZK Thread 3 roll hard deadline | — | — | **Thread 3 status UNCONFIRMED** — pending Will/broker confirm. |
+| **May 11 PM** | **WAL TAPE BROKE $78 → REG-T-02 FIRED (inaugural WALTER falsification fire)** | WAL $76.95 (-6.04%); first sub-$78 close since Apr 22-23; cohort fully red. **WAL Q1 CORRECTED-FRAMING dispatched (SIG-W-20260511-023):** reported NCO 1.45% = $152.5M fraud; adjusted NCO 0.39%; classified -9bp QoQ to 1.08%; NPL 0.83% flat. **REGINALD V2.1 shipped post my CHG-RED-025** — V1 weight restored pending MI3, $65P Jun close-rec WITHDRAWN. | V1V3-ACCELERATE on tape; substance-vs-tape bifurcation observation #3. |
+| **May 12** | **WAL Investor Day 8:30 AM ET; April CPI 3.8% YoY release; NY Fed Q1 HHDC release; USDA WASDE release** | CPI 3.8% YoY (cons 3.7%, highest since May 2023); Core 2.8%; Core MoM 0.4%; Energy +17.9% YoY steepest since Sept 2022. HHDC student-loan defaults VERTICAL step-up 1M→2.6M Q1; CC 90+d ~13% (AT/EXCEEDING 2009-10 peak ~13.8%). WASDE HRW wheat 515M bushels = LOWEST SINCE 1957. WAL IDay: mgmt soft-deflective; fraud bridge in footnote not headline; no IQHQ / NDFI sub-cat / $946M maturity-wall financing detail; vintage stat ~85% Office 2020-22 perf/mod/resolution = strongest bull steelman. Tape rejected the reset. | Path B confirms on macro; WAL IDay HOLD bear per sub-agent verdict. |
+| **May 13 (today)** | **April PPI 6.0% YoY release; Live levels mid-session** | PPI +6.0% YoY (largest since Dec 2022 +6.4%); MoM +1.4% triples cons 0.5%; Core +5.2% YoY vs cons 4.3%; Services MoM +1.2% biggest since Mar 2022. **Live: WAL $74.97 (-3.34%) [3rd consecutive sub-$78], KRE $67.14 (-1.60%), OZK $46.61 (-1.40%), SPY $742.31 (+0.56%) ATH, VIX $17.87 (-0.67%), HYG $79.91 (+0.05%), TLT $84.80 (-0.22%), IWM $282.67 (+0.04%), SOFI $15.31 (-3.71%), APO $131.60 (-0.25%).** WAL $85P Jun / $77.5P Jun / KRE $70P May / SOFI $16P May / OZK $47.5P May / TLT $88P May all ITM. | Stagflation regime printing on tape; bull counter-evidence pile growing in parallel (Carson 8-streak / Sentimentrader / small-mid PE 25-yr discount). |
 
 ---
 

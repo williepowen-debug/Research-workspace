@@ -4,6 +4,62 @@
 
 ---
 
+## 2026-05-13 — WAL Post-IDay Reassessment + Stagflation Regime Tape-Realization + CHG-RED-025 RESOLVED-CONVERGED (Session 12 on Claude Code, 7-day gap from Session 11)
+
+**Confidence:** 73% → **75%** (+2)
+
+**Competing hypotheses rebalanced — bear regains lead by +3:**
+- Full Stagflation: 36% → **38%** (+2)
+- Managed Decline: 35% → **33%** (-2)
+- Policy Rescue: 14% → 14% (=)
+- Acute Dislocation: 9% → 9% (=)
+- War Escalation: 4% → **5%** (+1)
+- Soft Landing: 2% → **1%** (-1)
+
+Net bear: 49% → **52%** (+3) | Net managed/rescue: 49% → **47%** (-2) | Soft: 2% → 1% (-1).
+
+**What drove the change:**
+
+1. **CHG-RED-025 RESOLVED-CONVERGED via REGINALD V2.1.** Third RED agent-converge cycle (VIOLET SKEW Apr 22 → VIOLET May 3 + BRENT v2.0 ongoing + REGINALD V2.0 → V2.1 May 11). V2.1 hybrid response: M2 + M4 FULL ACCEPT (V1 weight restored pending MI3; EV math made Jun-conditional; $65P Jun close-rec WITHDRAWN); M1/M3/M5/M6 PARTIAL ACCEPT. Bear-prob restored 37 → 42%. The 6-method stress-test framework validated: M2 falsifier-status + M4 EV-timeline-coherence are the cleanest single-method pair for peer-thesis-revision stress-testing. Adversarial cycle's best outcome is forcing the network to do the analysis, not winning the argument.
+
+2. **WAL Q1 CORRECTED-FRAMING absorbed into bull steelman.** REGINALD primary dispatch SIG-W-20260511-023: reported NCO 1.45% = $152.5M fraud (LAM $126.4M Leucadia/Jefferies + Cantor $26.1M); adjusted NCO 0.39%; classified -9bp QoQ to 1.08%; NPL 0.83% flat YoY; NIM +3bp; deposits +$5.6B ahead of $8B FY target. Underlying credit IS improving absent fraud. **But:** pre-MI3 disambiguation unresolved — adjusted-NCO-0.39% could be (i) real structural improvement OR (ii) fraud-distortion-only without hidden-CRE-acceleration yet visible. MI3 5/15 disambiguates.
+
+3. **WAL Investor Day 5/12 — sub-agent verdict: HOLD bear thesis (don't downgrade pre-MI3).** Mgmt soft-deflective: fraud bridge in footnote not headline; NO IQHQ disclosure; NO life-sci sub-allocation; NO $946M 2026 maturity-wall financing; NO NDFI sub-category split (only peer-comp 13%). Vintage stat "~85% of 2020-2022 Office vintages performing/modified/in active resolution" = strongest specific falsifiable bull steelman. ROATCE 16-17% medium-term (vs 2025 15.3%) is stretch not step. Tape REJECTED the reset: $76.95 5/11 → $77.56 5/12 IDay → $74.97 5/13 = 3 consecutive sub-$78 closes; REG-T-02 sustained 2 sessions. Market would have bounced if reset was credible; it didn't. **The IDay-rejection-by-tape is itself a bear-confirming data point.**
+
+4. **Stagflation regime realizing on tape (simultaneously):**
+   - Apr CPI 3.8% YoY (cons 3.7%, highest since May 2023) / Core 2.8% / MoM 0.4% / **Energy +17.9% YoY steepest since Sept 2022** (5/12)
+   - Apr PPI **6.0% YoY largest since Dec 2022** / MoM +1.4% triples cons / Core +5.2% / Services MoM +1.2% biggest since Mar 2022 (5/13)
+   - NY Fed Q1 HHDC: student-loan defaults **VERTICAL step-up 1M → 2.6M Q1** (2.6× QoQ); CC 90+d ~13% AT/EXCEEDING 2009-10 peak ~13.8%
+   - USDA WASDE HRW wheat 515M bushels = **LOWEST SINCE 1957** (Plains drought 37% abandonment)
+   
+   47 prior IRAN_HORMUZ signals were forward-looking mechanism; this week is the realization on tape. Iran/Hormuz pump-pass-through confirmed.
+
+5. **But the bull counter-evidence pile GREW alongside the realization.** Carson 8-streak analogs (N=13 since 1950, mean +20.76% 12mo, 76.9% hit rate, bullish setups not 1929/1973/1999-ominous). Sentimentrader retail-puts-at-ATH analogs (N=10 since 2002, **10/10 higher 1yr later**, median +20.76%). Small/mid-cap forward-PE 25-year deepest discount (S&P 600/SPX 0.76, structural-flow trend may persist but cycle-shift mean-reversion magnitude large). RED-dispatched SIG-W-20260511-030: 5 of 10 regional Q1 names IMPROVING YoY (ZION −3bp NPA, CFG −11bp, MTB −25bp, FITB −24bp, EGBN-NPA −48bp); OZK pattern concentration-specific NOT cohort-wide. **4th consecutive tape-vs-substance bifurcation observation** (5/5 + 5/6 + 5/11 + 5/13) HARDENS regime-state.
+
+6. **Iran/Hormuz hardened both sides 5/8-5/11.** F-18 LGB double tanker strike Sea Star III + Sevda 5/8; US destroyers Truxtun/Peralta/Mason attacked but THWARTED (escalation 20mm → LGB within 48h). 5/10 Trump rejected Iran counterproposal "TOTALLY UNACCEPTABLE." 5/11 Iran narrowed enrichment-non-negotiable → nuclear-tech-off-agenda entirely; Trump "much more severe" Hormuz action + Project Freedom resumption threat. **First Iran-approved Hormuz transit (Qatari LNG 5/10) = control signal NOT reopening.** Diplomatic exit structurally further. Still contained tactically (no US hits, no Yanbu/major-facility-strike). +1 War Escalation.
+
+7. **Mark-favorable exit windows fired on spot side.** May 12 T-3 backstop PASSED yesterday. Window-trigger menu fired multiple positions: KRE <$68 (KRE $67.14 / $70P May ITM $2.86); SOFI <$15-ish (SOFI $15.31 / $16P May ITM $0.69); OZK <$47 (OZK $46.61 / $47.5P May ITM $0.89); WAL <$78 sustained 3 sessions (WAL $74.97 / $85P Jun ITM $10.03 / $77.5P Jun ITM $2.53). **This is the opposite of Session 11's worst-mark problem.** Exit-Window Framework works in both directions: pre-registered backstops + trigger menu let spot do the work; mark is now favorable for exits.
+
+**Predictions update:**
+- RED-08 (Brent <$120 sustained Q2, 60%) → tracking right ($104 today)
+- RED-10 (HY OAS <400 by Jun, 45%) → tracking very right (~281)
+- RED-11 (VIX ≥25 sustain by May 19, 18%) → tracking very right (17.87 today, 4 td out, low implied prob)
+- RED-12 (Dated Brent next print <$115, 50%) → tracking right
+- RED-13 (Brent Dec26 $80-95 over 60d, 65%) → day 7 of 60 active
+- RED-14 (US rigs 400-415 through Jun, 65%) → tracking right (408 May 1)
+
+**4 wrong / 1 correct / 6 active.** RED-08/10/12 tracking right.
+
+**Methodology deltas:**
+- Third agent-converge cycle validated. Pattern: RED issues stress-test challenge → peer agent absorbs via incremental refinement (vN → vN.1) → distributions/positions converge → CHALLENGES.tsv close RESOLVED-CONVERGED with documented hybrid acceptance.
+- Exit-Window Framework bidirectionality established. When trigger fires bull-direction (VIX <16, vol floor) → wait-for-better is right. When trigger fires bear-direction (positions move ITM) → exit-at-mark is right.
+- MI3 5/15 4-bin decision tree pre-written (`research/MI3_5_15_DECISION_TREE.md`) with WAL Jun put EV memo. Sell $85P / Hold $77.5P / Hold $65P / Re-deploy into Sep $77.5P ×2 recommended sequence.
+- Self-falsifier on bifurcation framing pre-registered (CHG-RED-027, 4 sub-triggers; 2-of-4 = capitulate framing).
+
+**Files written:** STATUS.md (full refresh), CALENDAR.md (IMMINENT section + RESOLVED CATALYSTS through 5/13), thesis/CHANGELOG.md (this entry), workbook/CHALLENGES.tsv (CHG-RED-025 RESOLVED-CONVERGED + 026 + 027 + 028 added), workbook/ML.tsv (ML-RED-059 through ML-RED-063), research/MI3_5_15_DECISION_TREE.md (NEW; ~280 lines).
+
+---
+
 ## 2026-05-06 — Apr 21 / Apr 22 Catalyst Reconciliation (Session 8 on Claude Code, after 17-day gap)
 
 **Confidence:** 70% → **73%** (pre-committed trigger fired: "either miss + tape muted/crushed → +3"; both missed muted, so +3, not +6)
