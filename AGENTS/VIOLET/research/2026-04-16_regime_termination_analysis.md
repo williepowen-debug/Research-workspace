@@ -20,7 +20,7 @@
 
 | # | Start | End | Duration | Peak SKEW | Status |
 |--:|:------|:----|:--------:|----------:|:-------|
-| 12 | 2025-06-16 | 2026-05-04 | 212 td | 161.9 | **ONGOING** |
+| 12 | 2025-06-16 | 2026-05-13 | 223 td | 161.9 | **ONGOING** |
 | 11 | 2024-08-21 | 2025-03-27 | 150 td | 183.1 | ended |
 | 5 | 2021-05-11 | 2021-10-11 | 107 td | 170.6 | ended |
 | 9 | 2024-01-24 | 2024-04-23 | 63 td | 170.5 | ended |
@@ -126,10 +126,10 @@ What happened to VIX in the 30 trading days after the regime ended?
 
 ## Finding 4: Current Regime in Context
 
-**Duration:** 212 td (ongoing)
-**SKEW at latest:** 141.4
-**20d avg at latest:** 144.9
-**Final 5d slope:** 0.6
+**Duration:** 223 td (ongoing)
+**SKEW at latest:** 141.5
+**20d avg at latest:** 142.8
+**Final 5d slope:** -1.0
 **Intermediate VIX event:** 31.05 on 2026-03-27 (regime persisted through it)
 
 **Trajectory comparison (final 5d slope):**
@@ -141,7 +141,7 @@ What happened to VIX in the 30 trading days after the regime ended?
 | R9 | 63 td | -3.5 | VIX 19.23 (POST_EVENT_PERSIST) |
 | R1 | 60 td | -3.5 | VIX 36.07 (PRE_EVENT_FADE) |
 | R6 | 59 td | -2.6 | VIX 36.45 (GRADUAL_FADE) |
-| **Current** | **212 td** | **+0.6** | **TBD** |
+| **Current** | **223 td** | **-1.0** | **TBD** |
 
 ---
 
@@ -159,5 +159,5 @@ The dominant pattern is that regimes **persist through** VIX events and collapse
 
 ---
 
-*Generated 2026-05-03 21:08 by VIOLET `scripts/regime_termination.py`*
+*Generated 2026-05-13 20:51 by VIOLET `scripts/regime_termination.py`*
 *Data: yfinance + vix_historical.csv + VX_DAILY.tsv*

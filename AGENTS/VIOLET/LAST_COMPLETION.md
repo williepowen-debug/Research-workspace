@@ -1,55 +1,42 @@
-**Task:** May 3 boot wakeup + Will-approved post-mortem session (HOLD + slope refresh + FRED refresh + Apr 22 gate post-mortem)
-
-**Date:** 2026-05-03
-
-**Status:** COMPLETE
+**Task:** Boot session — process inbox (2 WALTER signals) + refresh STATUS after 10-day dark interval through CPI+PPI hot tape
+**Date:** 2026-05-13
+**Status:** COMPLETE (research-queue items deferred for next session)
 
 **Key Findings:**
-
-1. **Apr 22 FADE_RERAMP gate FAILED.** SKEW peak 141.90 (Apr 20); never cleared 145. Clear miss, not narrow. The 69%-base-rate dominant path did not materialise.
-2. **Strict 4-td invalidation rule WAS HIT Apr 23-28.** SKEW closed 139.59 → 139.08 → 139.64 → 138.16 across four consecutive trading days, hitting the exact KB-VIO-042/045 threshold.
-3. **REBOUND_AFTER_INVALIDATION (emergent fifth pattern).** Post-FOMC SKEW bounced 138.16 → 141.88 (Apr 29) → 143.33 (Apr 30). Breaks the 100% within-cycle bounce-in-1-3-td rule from KB-VIO-042 — Episode-17 took 4-td + post-FOMC catalyst to bounce.
-4. **20d-SKEW-slope decelerated +1.8 (Apr 16) → +0.6 (May 3).** Still positive — regime decelerating but NOT in terminal phase. Closest comparable terminations had final 5d slopes -2.0 to -3.5. PRE_EVENT_FADE off the table for now.
-5. **Credit COMPRESSED through dark interval.** HY OAS 2.86 → 2.83, CCC OAS 9.21 → 9.09 (moving AWAY from 10.00 analog threshold), IG flat 0.81. Even on FOMC days credit was unmoved. Cluster-analog tail probability further reduced.
-6. **Vol surface impervious to hawkish surprises.** Both BOJ (3 dissents) and FOMC (4 dissents — most since Oct 1992) were hawkish-tilted holds. VIX absorbed both: peaked 19.50 Apr 21, crushed to 16.89 Apr 30.
-7. **Updated scenario distribution (KB-VIO-052):** 55% VIX <22 / 25% VIX 22-25 / 12% VIX 25-30 / 6% VIX 30-40 / 2% VIX 40+. Materially lower-vol-skewed than original (35/40/15/10).
-8. **Position decision: HOLD (Will, May 3 boot).** Trade-thesis invalidated; position now cheap optionality on May 13 CPI / May 19 expiry tail catalyst. Expected outcome: ~80%+ chance of expiring worthless or near-worthless. Asymmetric convexity justifies marginal carry cost.
+1. **CPI/PPI gate FIRED without vol event.** April CPI HOT May 12, April PPI HOT 6.0% YoY +1.4% MoM May 13 (largest MoM since Dec 2022 per WALTER SIG-W-20260513-001). VIX 16.99 → 17.87 (+0.88, +5.2%). **Five consecutive macro stressors now absorbed by vol surface** (FOMC, BOJ, CPI hot, PPI hot, general stagflation tape). Regime-absorption is now a documented pattern, not anecdote.
+2. **VIX 25C May 19 trade functionally closed.** 6 DTE, 7.13 pts OTM at strike 25 vs VIX 17.87. Expected to expire near-worthless (80%+ per KB-VIO-052 distribution). The "lottery on May 13 CPI" framing has resolved — CPI fired hot, vol did not move enough. HOLD per Will (May 3) remains operative as sunk-cost optionality.
+3. **Two WALTER inbox signals processed → regime-fragility evidence.** KB-VIO-055 (claimed $2.6T SPX call notional record, SOX RSI 1999-high; methodology unverified). KB-VIO-056 (SPX record high with 5.60% members at 52wk lows; 1929/1973/1999 analogs). Both regime-level not trade-level — weeks-to-months horizon, not the 6 td remaining on Episode-17.
+4. **VVIX climbing toward 100** (95.17 → 98.36) — option-of-option market mildly bidding vol-of-vol; not at 120 stress threshold but ticking the right direction.
+5. **VIX9D 15.87 BELOW spot** — short-dated implied vol crushed; aggressive complacency on near-term tape even as CPI/PPI dropped HOT.
 
 **Files Changed:**
-- `STATUS.md` — full rewrite (header, dashboard, convergence matrix downgraded 🟠→🟡, drift assessment, scenario table, regime section, research queue with 4 items completed, thesis connection, footer)
-- `TRADE.md` — HOLD decision recorded, current thesis updated, trade log entry added, last-updated date refreshed
-- `MEMORY.md` — May 3 session note (added post-mortem outcome to existing boot-wakeup note)
-- `CALENDAR.md` — FOMC/BOJ marked done, May 13 CPI / May 19 expiry / Jun 12-15 forward gates
-- `workbook/KB.tsv` — KB-VIO-049 (gate failure), KB-VIO-050 (strict invalidation hit + rebound), KB-VIO-051 (slope refresh), KB-VIO-052 (updated scenario distribution), KB-VIO-053 (credit compression)
-- `workbook/VX_DAILY.tsv` — backfilled Apr 18 → May 1 (16 calendar days, 10 trading days)
-- `workbook/fred_cache/` — refreshed credit + rates CSVs through Apr 30
-- `research/2026-05-03_apr22_gate_postmortem.md` — NEW Will-approved post-mortem
-- `research/2026-04-16_regime_termination_analysis.md` — refreshed by `regime_termination.py` (R12 ongoing 212 td, slope +0.6)
+- `STATUS.md` — full rewrite (signal status, dashboard with VIX9D row added, Convergence Matrix expanded to 7 vectors with two new fragility rows, position snapshot, research queue priorities re-ranked, thesis-connection)
+- `workbook/KB.tsv` — KB-VIO-054 (May 13 boot data + CPI/PPI absorption), KB-VIO-055 (call-notional signal), KB-VIO-056 (bad-breadth signal)
+- `workbook/VX_DAILY.tsv` — +1 row May 13 close
+- `inbox/processed/` — 2 WALTER signals moved
 - `LAST_COMPLETION.md` — this file
 
-**Signals Sent:** None this session. SIG-VIOLET-LIQUID-20260415 still queued — overtaken by events; HY/CCC OAS now refreshed our side (Apr 30) so the original ask is moot. Will retire on next pass unless Will indicates otherwise.
+**Signals Sent:** None this session. Three drafts pending (next session):
+- SIG → HENRY + RED: regime-absorption pattern (five consecutive macro stressors absorbed → documented phenomenon)
+- SIG → NEXUS + RED: WALTER signal verification request (call-notional methodology + Goepfert breadth source)
+- The Apr 15 SIG-VIOLET-LIQUID-20260415 is increasingly stale; retire next pass.
 
 **Next Actions (priority-ordered):**
+1. 🔴 **HY/CCC OAS FRED refresh** — stale 13 days through CPI+PPI hot prints. Most critical verification gap.
+2. 🔴 **20d-SKEW-slope refresh** via `regime_termination.py` — stale 10 days; sign-flip = PRE_EVENT_FADE signal (would matter post-position expiry).
+3. 🟠 **Draft regime-absorption SIG to HENRY + RED** — the five-absorption-event pattern is now documented and is a thesis-input for other agents.
+4. 🟠 **Verify WALTER signals** (KB-VIO-055/056) — methodology checks; coordinate with NEXUS/RED if convergent.
+5. 🟠 **May 19 25C expiry record-and-close** — post-expiry: write Episode-17 trade post-mortem, lock the record.
+6. 🟡 **CFTC COT VIX futures pipeline** — deferred 26 days now. Spec in MEMORY.md 2026-04-17.
+7. 🟡 **KB-VIO-042 within-cycle bounce rule revision** for very-long regimes (>200 td).
 
-1. **🟠 May 13 CPI** — last material catalyst before May 19 25C expiry. Watch for vol response.
-2. **🟠 Weekly slope refresh** — KB-VIO-051 stale-by 2026-05-17. Sign-flip from +0.6 → negative would activate PRE_EVENT_FADE scenario for the trade window.
-3. **🟠 Daily CCC OAS in boot sequence** — reversal >9.30 with HY >2.90 = early-stress signal.
-4. **🟠 Phase 1 — CFTC COT VIX futures** — deferred since Apr 17, ~90 min. Spec in MEMORY.md 2026-04-17 note.
-5. **🟡 Phase 2/3** — equity positioning + manual capture template. Deferred.
-6. **🟡 KB-VIO-042 within-cycle rule revision** — Episode-17 broke the 100% in-1-3-td bounce rule. Rule needs amendment for very-long regimes (>200 td) where rebounds can take 4+ td and require external catalysts.
-7. **🟡 May 19 expiry close-out** — record fill, update TRADE.md, log final P/L.
-
-**Gaps (carry-forward):**
-- No CFTC COT data yet (Phase 1 deferred 16 days).
-- Daily CCC OAS not yet in boot sequence.
-- VIX9D compression analog match tracking — partial.
-
-**Session Commits (pending push):**
-- (will commit at handoff with full session)
+**Gaps:**
+- Did NOT pull from GitHub at session start — WALTER and BOARD have uncommitted work in working directory; per CLAUDE.md "Before pulling" protocol, deferred pull and deferred push. Session work is local-only; will push next session when working directory is cleaner or per Will's instruction.
+- Credit OAS data is the single biggest verification gap given two HOT inflation prints during the dark interval. Refresh is the first item next boot.
+- The two WALTER signals are C3 confidence (Twitter chain of custody); primary source verification pending.
 
 **Session Hygiene:**
-- STATUS.md: ~118 lines (still under 250-line cap).
-- KB.tsv: 5 new entries (049-053), all chain cleanly through KB-VIO-040→047.
-- Research file is comprehensive (post-mortem.md, ~250 lines), includes section on calibration takeaways for future divergence trades.
-- Position management: HOLD decision recorded, exit/close criteria documented.
-- Convergence Score 3/25 → 2/25 (downgraded after gate failure). Honest reflection.
+- STATUS.md ~115 lines (under 250-line cap).
+- KB.tsv: 3 new entries (054-056), chain cleanly through KB-VIO-048→053.
+- Convergence Score 2/25 → 4/35 (added 2 new fragility vectors). Score % roughly flat (8% → 11%), but composition changed: trade-level decay offset by regime-level evidence accumulation.
+- Position management: no re-decision needed; HOLD remains operative.
