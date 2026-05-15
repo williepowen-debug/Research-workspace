@@ -10,6 +10,7 @@
 
 | Date | From | To | Priority | Signal |
 |------|------|-----|----------|--------|
+| 2026-05-15 | BRENT | PROME/ALL | 🔴 | PATH B TRIGGER #3 FIRED — CFTC MM net longs 70,791 (May 5), down 29K from 99,887 peak over 2 wks, Brent $106–111 = distribution. 1/3 Path B triggers fired. Phase 2 watch active. |
 | 2026-03-12 | OTTO | CARL | 🔴 | DQ 7.1% crosses RED threshold (Feb 2026); SoFi 2025-1 CNL triggered at 2.6%; transmission accelerating |
 | 2026-03-11 | LIQUID | PROME | 🟠 | Gulf petrodollar recycling = 4th UST anchor — combined selling $50-90B/month |
 | 2026-03-11 | BROCK | REGINALD | 🟠 | Kennedy-Wilson bondholder revolt — creditors refusing debt exchange, CRE extend-and-pretend cracking |
