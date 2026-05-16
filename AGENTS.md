@@ -20,6 +20,7 @@ NEXUS synthesizes across all chains. MARCO feeds immigration/labor supply into L
 | REGINALD | Regional banks (OZK, WAL) | Credit | ❌ Persistent (Claude Code/Telegram) |
 | HENRY | Market structure, econ data | Credit (velocity) | ✅ OK |
 | LIQUID | Funding, Treasury, spreads | All (amplification) | ❌ Persistent (Telegram) |
+| BOND | US bond market structure, auctions, issuance, CDX/cash | Credit + funding bridge | ✅ OK |
 | BROCK | BDC, private credit, CLOs | PC cascade | ❌ Persistent (Telegram) |
 | SHADE | PE-insurance-captive | PC cascade | ✅ OK |
 | SAM | Japan, BOJ, carry trade | Japan | ❌ Persistent (Claude Code/Telegram) |
