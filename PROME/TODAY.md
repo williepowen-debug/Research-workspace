@@ -1,21 +1,18 @@
-# TODAY.md — Saturday May 9, 2026
+# TODAY.md — Thursday May 14, 2026
 
-**Markets closed.** Weekend build window. Objective is to turn Monday into execution/readout, not improvisation.
+**Objective:** keep decision rails clean while tape remains mechanically calm. Do not confuse VIX/HY calm with all-clear; do not treat gamma extremes as standalone short confirmation.
 
-**Current regime:** Private-credit thesis intact but timing slowed. OBDC Q1 was **MIXED / earnings-quality bear**, not forced-mark cascade. Portfolio is mostly **cash + AAPL + regional-bank downside**; private-credit option value is small residual exposure.
+**Current regime:** BDC/private-credit stress confirmed by FSK, but public-credit contagion still unconfirmed. HY OAS and VIX remain benign; stress is concentrated in BDC equities, regional-bank tape, energy, and USD/JPY.
 
 ---
 
-## 🔴 Weekend Priorities
+## 🔴 Priorities
 
-- [x] **Create action-card template** → `PROME/action-cards/TEMPLATE.md`
-- [x] **Create regional-bank weekend triage card** → `PROME/action-cards/REGIONAL_BANK_WEEKEND_TRIAGE_MAY9.md`
-- [x] **FSK May 11 card exists** → `PROME/action-cards/FSK_MAY11_ACTION_CARD.md`
-- [x] **Create ZION research scaffold + REGINALD inbox request** → `AGENTS/REGINALD/ZION/INDEX.md`, `TODO.md`, `research/ZION_DEEP_DIVE_FRAMEWORK.md`, `AGENTS/REGINALD/inbox/PROME-20260509-zion-scaffold-fill-request.md`
-- [ ] **Q1 Call Report triage** — WAL, OZK, EGBN, CFG, VLY, ZION, FITB, SSB if filings available.
-- [ ] **Monday one-page decision prompt** — May scraps, KRE/WAL June roll, OZK/KRE runway, ZION kill/retain / REGINALD scaffold ownership.
-- [ ] **FSK Monday workflow** — read release pre-open, classify branch, apply FSK card.
-- [x] **Refresh `PROME/STATUS.md` / `SCRATCH.md` pointers** after ZION scaffold handoff. `HEARTBEAT.md` still needs final refresh after weekend build settles.
+- [ ] **Refresh live dashboard before citing levels** — `python3 FORGE/tools/market-data/dashboard.py --compact`.
+- [ ] **Regional-bank Call Report triage** — WAL, OZK, EGBN, CFG, VLY, ZION, FITB, SSB/HBAN as needed.
+- [ ] **Bank decision prompt** — May cleanup, KRE/WAL June salvage/roll, OZK/KRE/WAL runway, ZION kill/retain.
+- [ ] **BDC/private-credit decision prompt** — FSK Strong Bear allows fresh downside discussion; use live pricing and avoid rescuing dead June premium by default.
+- [ ] **Gamma/vol-suppression follow-through** — HENRY/VIOLET/LIQUID/NEXUS signal routed; determine if VIX <20 is mechanical suppression.
 
 ---
 
@@ -23,47 +20,43 @@
 
 | Card | Purpose | Status |
 |---|---|---|
-| `PROME/action-cards/FSK_MAY11_ACTION_CARD.md` | FSK Q1 branch → private-credit/BDC action | Active through FSK read |
-| `PROME/action-cards/REGIONAL_BANK_WEEKEND_TRIAGE_MAY9.md` | Bank put expiry triage + Call Report decision rails | Active through Monday open / Call Report triage |
+| `PROME/action-cards/FSK_MAY11_ACTION_CARD.md` | FSK branch → private-credit/BDC action | Active; FSK classified Strong Bear / near Max Bear |
+| `PROME/action-cards/REGIONAL_BANK_WEEKEND_TRIAGE_MAY9.md` | Bank expiry / Call Report triage rails | Active; apply to KRE/WAL/OZK/ZION/etc. |
 | `PROME/action-cards/TEMPLATE.md` | Standard future card format | Ready |
 
 ---
 
-## Catalyst Calendar
+## Latest Dashboard Snapshot
 
-| When | Event | Decision Relevance |
-|---|---|---|
-| **Weekend May 9-10** | Market closed build window | Prepare bank/FSK rails; no live tape pressure |
-| **Mon May 11 pre-open** | FSK Q1 release / 9:00 ET call | Private-credit fresh capital decision |
-| **May 1-10 window** | Q1 bank Call Reports | Regional-bank book triage; MI3/NDFI/ACL checks |
-| **Mon May 12** | WAL Investor Day per REGINALD calendar | WAL thesis refinement / June contract management |
-| **May 15** | May bank option expiry cluster | Cleanup decisions for WAL/OZK/SSB May contracts |
-| **Jun 18** | June option cluster + AOCI comment deadline | KRE/WAL/FITB/EGBN/HYG/IWM time-risk point |
+From May 14 08:26 ET dashboard:
+- HY OAS **282bps 🟢**; VIX **17.85 🟢** — no cascade confirmation.
+- CCC OAS **937bps 🟡**.
+- Brent **$103.87 🔴**, gas **$4.50 🔴**.
+- USD/JPY **157.89 🟡 / near red**.
+- KRE **$67.14 🟡**, WAL **$74.97 🟡 / bear-line breach**.
+- APO **$131.60**, above $130 watch.
+- BIZD **$12.57 🔴**.
+- Claims: initial **200k**, continuing **1.766M** — not labor-break confirmation.
 
 ---
 
 ## Current Decision Posture
 
-### FSK / Private Credit
-
-- Existing APO/ARES/OWL value is small: about **$445 / 1.0%**.
-- FSK is mainly a **fresh-capital gate**, not rescue of current positions.
-- Default: **no fresh premium** unless FSK is Bear / Strong Bear.
+### BDC / Private Credit
+- FSK Q1 = **Strong Bear / near Max Bear**.
+- Fresh downside discussion is allowed, but only with live bid/ask and Will approval.
+- Prefer liquid longer-dated BIZD/ARCC-type structures if pricing is sane.
+- Do not default to rescuing June APO/ARES premium.
 
 ### Regional Banks
+- WAL/KRE are yellow; WAL touched/breached $75 bear line.
+- No broad bank-premium add without Call Report/tape confirmation.
+- ZION remains **under-researched, not exonerated**; Jul put posture remains kill/no-roll if usable bid unless MI3/RCON2746 changes picture.
 
-- Main live short book: about **$5.4K / 12.4%**.
-- Weekend card separates:
-  - **May scraps:** clean if useful bid.
-  - **June salvage/roll:** KRE $67/$65, WAL $85/$77.5 only if confirmed.
-  - **Runway:** KRE Sep/Dec, WAL Sep, OZK Aug, HBAN Oct.
-- Default: **do not sell runway into green tape; do not roll every loser.**
-
-### Cash / AAPL
-
-- Cash remains high: about **46%**.
-- AAPL is dominant single-name exposure: about **30%**.
-- Risk is not being trapped; risk is spending fresh premium too early.
+### Gamma / Market Structure
+- Momentum factors dominate; quality/value/dividend yield lag.
+- Positive gamma + 0DTE may be suppressing VIX and smoothing the index.
+- Treat as fragility overlay: bearish only if momentum leaders crack + VIX wakes up + KRE/WAL/HYG/BIZD weaken together.
 
 ---
 
@@ -71,19 +64,17 @@
 
 | File | Trust |
 |---|---|
-| `HEARTBEAT.md` | Current orientation as of May 8; update after weekend work |
-| `PROME/POSITIONS.md` | Current snapshot from May 8 screenshots; execution ground truth remains brokerage |
-| `PROME/DECISION_FLOW.md` | Current architecture |
+| `HEARTBEAT.md` | Current scenario/levels as of May 14 08:26 ET |
+| `PROME/HANDOFF.md` | Clear-ready handoff as of May 14 10:25 ET |
+| `PROME/POSITIONS.md` | Last known portfolio snapshot from May 8 screenshots; brokerage is execution truth |
 | `PROME/action-cards/FSK_MAY11_ACTION_CARD.md` | Current FSK workflow |
 | `PROME/action-cards/REGIONAL_BANK_WEEKEND_TRIAGE_MAY9.md` | Current bank triage workflow |
-| `AGENTS/REGINALD/STATUS.md` | Best bank-domain state; updated May 1, may need Call Report refresh |
-| `AGENTS/REGINALD/ZION/INDEX.md` | New ZION scaffold; use if REGINALD/Prome expands ZION tomorrow |
+| `FORGE/signals/2026-05-14_gamma_momentum_factor_squeeze.md` | Latest market-structure signal |
 
 ---
 
 ## Skip / Deprioritize
 
-- Do not spend weekend rescuing tiny May contracts as if they are thesis-critical.
-- Do not spawn REGINALD; it is persistent/managed.
-- Do not refresh old proposal queue before decision rails are built.
-- Do not commit/stash dirty git state without explicit approval.
+- Do not spawn REGINALD/CARL/SAM/RED/BRENT.
+- Do not refresh stale Toscanini queues before live decision rails.
+- Do not commit/stash/pull/reset dirty git state without explicit approval.
