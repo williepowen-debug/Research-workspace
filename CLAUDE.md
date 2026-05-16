@@ -10,10 +10,12 @@ A multi-agent financial research operation tracking systemic risk transmission. 
 
 Two platforms share this git repo:
 
-- **OpenClaw (VPS):** Prome (coordinator) runs here, spawns sub-agents, manages signals, communicates with Will via Telegram. You don't run here.
+- **OpenClaw (VPS):** Prome (chief of staff / coordinator) runs here, assigns decision work, manages state/decision rails, and communicates with Will via Telegram. WALTER owns signal/news routing. You don't run here.
 - **Claude Code (local):** CARL, REGINALD, SAM, and RED run here as independent sessions. You are NOT spawned by Prome. You communicate with Prome and each other via inbox/outbox files.
 
 Coordination is file-based. Write to `AGENTS/<NAME>/outbox/` to request Prome action. Read `AGENTS/<NAME>/inbox/` for incoming signals. Prome checks these and routes accordingly.
+
+**Operating model:** Prome is chief of staff, not the universal analyst. Prome owns prioritization, decision rails, state files, operational tasking, and Will-facing synthesis. **WALTER owns signal/news routing**: ingest, filter, dedupe, archive, and route incoming market intelligence. Domain agents own domain evidence and judgment. If Prome sends a task packet, treat it as the current coordination layer unless it conflicts with Will or higher-priority instructions.
 
 **Transmission chain:** LABOR → CARL → REGINALD → market repricing. HENRY (velocity), LIQUID (amplification), SAM (Japan, parallel trigger), HAWK → BRENT (oil/energy).
 
