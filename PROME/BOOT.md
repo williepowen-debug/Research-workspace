@@ -33,6 +33,9 @@
 | **OUTBOX.md** | Prome's outbound signals for agents | Anything else |
 | **TOSCANINI/QUEUE.md** | Active proposals awaiting Will's decision | Completed/rejected proposals (→ DECISIONS.md) |
 | **TOSCANINI/WILL_QUEUE.md** | Tasks blocked on Will's direct action | Proposals for Will to approve (→ QUEUE.md) |
+| **CLAUDE_CODE_PROME_PLAN.md** | Architecture plan for persistent Claude Code Prome | Current implementation status (→ TASKS) |
+| **CLAUDE_CODE_PROME_TASKS.md** | Restart-safe task ladder for building Claude Code Prome | Detailed operating manual after scaffold exists |
+| **CLAUDE_CODE_HANDOFF.md** | Handoff from Claude Code Prome sessions | General Telegram/OpenClaw handoff (→ HANDOFF/SCRATCH) |
 | **memory/YYYY-MM-DD.md** | Daily session log — what was done, files changed, handoff notes | Long-term insights (→ MEMORY.md root) |
 | **MEMORY.md** *(root, injected)* | Curated long-term discoveries, thesis framework, system architecture | Daily session details (→ memory/) |
 
@@ -45,10 +48,12 @@
 2. **Read `PROME/TODAY.md`** — today's catalysts, levels, task checklist.
 3. **Read `PROME/STATUS.md`** — agent health, pending actions, priorities.
 4. **Read `PROME/TOSCANINI/QUEUE.md`** — active proposals + signal queue.
-5. **Triage Prome inbox** — `AGENTS/PROME/inbox/`. Scan for signals that change priorities.
-6. **Score and rank** — run HUNTING.md scoring (position proximity ×2, time pressure ×1.5, blindness ×1, convergence ×1, decay ×1). Re-rank QUEUE.md. Internal — don't show Will the math.
-7. **Be proactive:** Flag catalysts within 24h, stale agents, pending decisions, blocking items.
-8. **Present top proposals** when Will checks in (max 5 per batch, ranked by score).
+5. **If working on Claude Code Prome, read `PROME/CLAUDE.md`, `PROME/CLAUDE_CODE_PROME.md`, `PROME/CLAUDE_CODE_PROME_PLAN.md`, and `PROME/CLAUDE_CODE_PROME_TASKS.md` before editing.** The task ladder is the restart-safe implementation source of truth.
+6. **Read `PROME/CLAUDE_CODE_HANDOFF.md` after clears or after any Claude Code Prome session.** Claude Code Prome must update that file at session end. Normal Telegram/OpenClaw sessions still use this boot sequence and remain Will-facing.
+7. **Triage Prome inbox** — `AGENTS/PROME/inbox/`. Scan for signals that change priorities.
+8. **Score and rank** — run HUNTING.md scoring (position proximity ×2, time pressure ×1.5, blindness ×1, convergence ×1, decay ×1). Re-rank QUEUE.md. Internal — don't show Will the math.
+9. **Be proactive:** Flag catalysts within 24h, stale agents, pending decisions, blocking items.
+10. **Present top proposals** when Will checks in (max 5 per batch, ranked by score).
 
 ---
 
@@ -127,6 +132,8 @@ Outputs: Convergence reports, contradiction flags, threshold proximity matrix
 - `WILL/` — journal, `IDEAS.md`, `trading-journal/`
 - Agent STATUS files (`AGENTS/*/STATUS.md`)
 - `PROME/HANDOFF.md` — read before `/clear` or `/new`
+- `PROME/CLAUDE_CODE_PROME_PLAN.md` + `PROME/CLAUDE_CODE_PROME_TASKS.md` — read when resuming the Claude Code Prome build
+- `PROME/CLAUDE_CODE_HANDOFF.md` — read once created, especially after Claude Code Prome sessions
 - Protocol files in `TOSCANINI/` — read when executing that protocol
 
 ---

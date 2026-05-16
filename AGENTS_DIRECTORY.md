@@ -1,6 +1,6 @@
 # AGENTS DIRECTORY
 
-*Quick reference. Updated: 2026-03-27*
+*Quick reference. Updated: 2026-05-16*
 
 ## Runtime Architecture
 
@@ -8,6 +8,7 @@
 |---------|----------|-----------|-------|
 | **OpenClaw (VPS)** | Prome + all spawn-based agents | Telegram | Orchestrator. Spawns sub-agents. Full workspace access. |
 | **Claude Code** | REGINALD, CARL, SAM | Telegram | Independent sessions. Siloed to own domain folders. Push to shared repo. |
+| **Claude Code** | PROME | Repo / Claude Code | Repo-native implementation surface for the same Prome identity. Uses shared Prome state, not a separate domain silo. Owns docs/tools/audits/handoffs when scoped. |
 
 **Key rules for multi-runtime:**
 - Prome does NOT spawn REGINALD or CARL as sub-agents. They run independently.
@@ -15,6 +16,7 @@
 - Prome must **read before editing** any REGINALD/CARL file — they may be writing at any time.
 - Their completions won't come through sub-agent channels. Check their files directly.
 - **They are fully siloed** — can only see their own CLAUDE.md + domain folder. Cannot read HEARTBEAT.md, MEMORY.md, other agents' files, or cross-references. **Inbox signals must be self-contained** with all relevant context inline. No "see BRENT/research/..." links.
+- **Claude Code Prome is different:** it is not a siloed market-domain agent and does not replace Telegram/OpenClaw Prome. It uses the shared `PROME/` state layer, leaves `PROME/CLAUDE_CODE_HANDOFF.md`, and does not own Will-facing approvals or final decision prompts.
 
 ## Signal Flow
 Sub-agents own detail → distill upward to parents → lateral only when transmission matters. Don't dump raw signals to parents.

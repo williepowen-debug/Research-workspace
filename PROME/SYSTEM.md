@@ -31,12 +31,81 @@ Core rule:
 
 | File | Current status | Role |
 |---|---|---|
-| `PROME/BOOT.md` | Useful but partly stale | Boot sequence, doc ownership, protocol reminders. Some agent/spawn details may lag `AGENTS.md`. |
-| `PROME/HANDOFF.md` | Fresh as of 2026-05-08 18:12 ET | Clear/new-session handoff. Best narrative of latest work. |
+| `PROME/BOOT.md` | Updated May 16 for Claude Code Prome integration; still partly stale elsewhere | Boot sequence, doc ownership, protocol reminders. Some agent/spawn details may lag `AGENTS.md`. |
+| `PROME/HANDOFF.md` | Fresh May 15 22:16 ET | Clear/new-session handoff. Best narrative of latest work and Claude Code Prome build pointer. |
+| `PROME/CLAUDE_CODE_PROME_PLAN.md` | Fresh May 15 | Architecture/rationale for persistent Claude Code Prome. Read before continuing that build. |
+| `PROME/CLAUDE_CODE_PROME_TASKS.md` | Fresh May 16 | Restart-safe phase/task ladder for Claude Code Prome. Current next step: Phase 3 dry run. |
 | `PROME/SCRATCH.md` | Stale / lower trust | Ephemeral session handoff. Should be rewritten once system state stabilizes. |
 | `PROME/TODAY.md` | Stale | Daily catalysts/checklist. Do not rely without refresh. |
 | `PROME/STATUS.md` | Stale | Operational status. Do not rely without refresh. |
 | `PROME/TOSCANINI/QUEUE.md` | Stale | Proposal queue. Do not rely without refresh. |
+
+---
+
+## Prome Runtime Split
+
+Prome now has two work surfaces, not two identities.
+
+Core rule:
+
+> One Prome, two work surfaces. Shared files are the source of truth.
+
+### Telegram / OpenClaw Prome
+
+Owns the Will-facing interface:
+
+- Conversational synthesis and check-ins with Will.
+- Trade/portfolio decision prompts and approval rails.
+- Agent routing, proposal ranking, and external-message discretion.
+- Final “what changed / why it matters / what to do” framing.
+
+### Claude Code Prome
+
+Owns repo-native implementation when scoped:
+
+- Prome operating docs, system maps, and handoffs.
+- Tools, dashboards, scripts, and verification gates.
+- Agent-folder audits and inbox/task packet preparation.
+- Action-card scaffolds and decision-artifact buildout.
+
+Claude Code Prome does **not** replace Telegram/OpenClaw Prome as Will-facing operator, does **not** execute trades or external sends, and does **not** fork memory into a private truth layer.
+
+### Shared State / Handoff
+
+Primary shared files:
+
+- `PROME/BOOT.md` — boot sequence and ownership map.
+- `PROME/SYSTEM.md` — architecture map and trust layer.
+- `PROME/HANDOFF.md` / `PROME/SCRATCH.md` — Telegram/OpenClaw session continuity.
+- `PROME/CLAUDE_CODE_HANDOFF.md` — Claude Code Prome session continuity.
+- `PROME/TODAY.md`, `PROME/STATUS.md`, `PROME/TOSCANINI/QUEUE.md`, `HEARTBEAT.md`, `MEMORY.md` — current-state and long-term context as their own rules define.
+
+Split-brain prevention:
+
+- Put facts in owner files; reference them elsewhere.
+- Claude Code Prome must update `PROME/CLAUDE_CODE_HANDOFF.md` at the end of meaningful sessions.
+- If Claude Code work changes the next Telegram/OpenClaw session, also update `PROME/HANDOFF.md` or `PROME/SCRATCH.md`.
+- Telegram/OpenClaw Prome should read `PROME/CLAUDE_CODE_HANDOFF.md` after clears or after known Claude Code Prome work.
+
+## Claude Code Prome Build
+
+Persistent **Claude Code Prome** is being integrated as the repo-native work surface for the same Prome identity.
+
+Current source files:
+
+| File | Role |
+|---|---|
+| `PROME/CLAUDE_CODE_PROME_PLAN.md` | Architecture plan and design rationale. |
+| `PROME/CLAUDE_CODE_PROME_TASKS.md` | Restart-safe task ladder and clear checkpoints. |
+| `PROME/CLAUDE.md` | Claude Code bootstrap file. |
+| `PROME/CLAUDE_CODE_PROME.md` | Longer operating manual. |
+| `PROME/CLAUDE_CODE_HANDOFF.md` | Dedicated handoff from Claude Code Prome sessions. |
+
+Current status: Phase 2 architecture integration complete from Telegram/OpenClaw side. Next step is Phase 3 dry run. Do not treat Claude Code Prome as fully trusted until the dry run passes.
+
+Design rule:
+
+> One Prome, two work surfaces. Telegram/OpenClaw Prome owns Will-facing synthesis and approvals; Claude Code Prome owns repo-native implementation, tooling, audits, and handoffs when scoped.
 
 ---
 
@@ -126,7 +195,7 @@ Known current caveat:
 | File | Status | Use? |
 |---|---|---|
 | `HEARTBEAT.md` | Fresh enough, updated May 8 from dashboard/handoff; needs timestamp refresh later | Yes, current orientation. |
-| `PROME/HANDOFF.md` | Fresh May 8 18:12 ET | Yes for latest narrative. |
+| `PROME/HANDOFF.md` | Fresh May 15 22:16 ET | Yes for latest narrative and Claude Code Prome build pointer. |
 | `PROME/POSITIONS.md` | Fresh May 8 14:17 ET from screenshots | Yes, but brokerage screen is execution ground truth. |
 | `PROME/DECISION_FLOW.md` | Fresh May 8 | Yes. |
 | `PROME/action-cards/FSK_MAY11_ACTION_CARD.md` | Fresh May 8 | Yes for FSK workflow. |
@@ -136,6 +205,8 @@ Known current caveat:
 | `PROME/SCRATCH.md` | Stale/legacy | Use only as historical hint; rewrite soon. |
 | `PROME/TOSCANINI/QUEUE.md` | Stale | No, refresh before presenting proposals. |
 | `FORGE/STATUS.md` | Stale per Prome inbox signal | No, refresh before using. |
+| `PROME/CLAUDE_CODE_PROME_PLAN.md` | Fresh May 15 | Yes when continuing Claude Code Prome build. |
+| `PROME/CLAUDE_CODE_PROME_TASKS.md` | Fresh May 15 | Yes; current source of truth for next implementation task. |
 
 ---
 
@@ -160,15 +231,20 @@ Known current caveat:
    - `git pull --rebase` previously blocked by unstaged/untracked local changes.
    - Do not commit/stash without Will approval.
 
+6. **Claude Code Prome dry run pending**
+   - Phase 1 bootstrap files and Phase 2 architecture integration are complete.
+   - Next: Phase 3 dry run with no risky edits; Claude Code Prome should only update `PROME/CLAUDE_CODE_HANDOFF.md` during the first test.
+
 ---
 
 ## Recommended Next Architecture Steps
 
-1. Create `PROME/action-cards/TEMPLATE.md`.
-2. Create regional-bank Call Report / expiry-triage action card.
-3. Refresh or retire stale `TODAY.md`, `STATUS.md`, `SCRATCH.md`, and `QUEUE.md`.
-4. Resolve git working-tree blocker with Will-approved commit/stash strategy.
-5. Update `PROME/BOOT.md` so the boot sequence reflects the new decision-support layer.
+1. Run Claude Code Prome Phase 3 dry run from `PROME/CLAUDE_CODE_PROME_TASKS.md`.
+2. Create `PROME/action-cards/TEMPLATE.md`.
+3. Create regional-bank Call Report / expiry-triage action card.
+4. Refresh or retire stale `TODAY.md`, `STATUS.md`, `SCRATCH.md`, and `QUEUE.md`.
+5. Resolve git working-tree blocker with Will-approved commit/stash strategy.
+6. Keep `PROME/BOOT.md` aligned with the current decision-support layer.
 
 ---
 
