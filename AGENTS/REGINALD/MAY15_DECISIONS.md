@@ -116,3 +116,88 @@ SSB May 15 chain has 4 OI total. Monday open could easily move bids 25%+ either 
 ---
 
 *Companion files:* `POSITIONS.md` (canonical position state) | `WAL/THESIS.md` (V2.0 framing) | `STATUS.md` (May 15 cluster row in KEY CATALYSTS)
+
+---
+
+## EXECUTION DAY — Friday May 15, 2026 (~12:21 ET intraday)
+
+### Tape moved decisively in our direction overnight + intraday
+
+| Metric | 5/8 close (memo date) | 5/11 close (ITM trigger fire) | 5/15 ~12:21 ET (intraday) |
+|---|---|---|---|
+| **SSB spot** | $96.28 (+1.35% OTM) | $93.89 (-1.17% ITM) | **$91.21** (-3.99% ITM) |
+| **Day move (5/15)** | — | — | open $93.17 → low $91.15 (-2.17% intraday) |
+| **$95P bid** | $0.00 (broken) | (unknown, likely $0) | **$1.55** — live! |
+| **$95P ask** | $3.10 | — | $4.30 |
+| **$95P last** | $2.00 | — | $3.23 |
+| **$95P intrinsic** | $0.00 (OTM) | $1.11 | **$3.79** |
+| **$95P IV** | 70.1% | — | **93.3%** (pin vol) |
+| **Volume / OI** | 0 / 4 | — | 1 / 1 |
+
+**Read:** The pre-registered 🔴 trigger from this memo ("SSB closes <$95 any day next week → Sell at intrinsic + remaining time value | Option becomes ITM; bids should appear; only liquid window") fired Mon 5/11 ($93.89 close) and is now significantly ITM at $91.21. The bid HAS appeared ($0 → $1.55) per the trigger logic. However, the **bid at $1.55 is $2.24 BELOW intrinsic value of $3.79** — selling at bid forfeits ~$224/contract.
+
+### Roll math (still not viable)
+
+| Target | Bid / Ask / Last | OI | Verdict |
+|---|---|---|---|
+| Jun 18 $95P | $3.10 / $6.80 / $3.04 | 3 | Wide spread $3.70; thin OI; net debit vs $95P May 15 ≈ wash. Not investable. |
+| Sep 18 $95P | $0.00 / $0.00 | 0 | **Still broken market.** Zero bid/ask. Not investable. |
+| Sep 18 $90P | $3.70 / $6.90 / $3.37 | 1 | Spread $3.20; thin OI. Not investable. |
+
+**Roll path confirmed CLOSED.** This was the case 5/8 and is the case 5/15. SSB option chain past May is not transactable at thesis-relevant strikes.
+
+### Auto-exercise risk (the new factor)
+
+If SSB closes <$95 today (near-certain at intraday $91.21), the long $95P will auto-exercise at 4:00 PM ET unless explicit DNE instruction. Result: **SHORT 100 shares of SSB per contract at $95 strike.**
+
+| Broker | Default behavior | Risk |
+|---|---|---|
+| Schwab / Fidelity | Auto-exercise if account supports short equity | Margin call possible if intraday loss + overnight gap |
+| IBKR | Auto-exercise ≥$0.01 ITM | Short stock position carries hard-to-borrow + overnight risk |
+| Robinhood / E*Trade | Auto-close ITM options if account can't support short | May force-close at bid (could be unfavorable mark) |
+
+**For thesis-pure exit (which is what this memo prescribed):** close before market close TODAY. Holding through assignment converts a clean options exit into an open short-equity position with overnight + borrow + margin complications.
+
+### TACTICAL RECOMMENDATION — Sell-to-Close TODAY before 4:00 PM ET
+
+| Phase | Time | Action |
+|---|---|---|
+| **Phase 1 — Patient limit** | NOW – 2:00 PM ET | Place STC limit @ **$3.50** (92% of intrinsic at $91.21 spot; ~$5 above bid). Wait. |
+| **Phase 2 — Step-down** | 2:00 – 3:00 PM ET | If unfilled, cancel and re-place @ **$3.00** (79% of intrinsic). |
+| **Phase 3 — Clear-the-book** | 3:00 – 3:30 PM ET | If unfilled, re-place @ **$2.50** (66% of intrinsic; mid is currently $2.93). |
+| **Phase 4 — Forced exit** | 3:30 – 3:50 PM ET | Market order or STC @ bid ($1.55 currently) to avoid auto-exercise. |
+| **Phase 5 — DNE backstop** | Before 3:45 PM ET | If still unfilled AND Will does not want to take short SSB exposure: contact broker to file **Do-Not-Exercise (DNE)** instruction on the long $95P contract. Option expires worthless ($-$ paid premium lost); no assignment. |
+
+### EV math at each phase (per contract, intrinsic $3.79 at current $91.21)
+
+| Phase fill | $/contract | vs intrinsic | vs original premium (if entered $2.00) |
+|---|---|---|---|
+| Phase 1 ($3.50) | +$350 | -$29 | +$150 (+75%) |
+| Phase 2 ($3.00) | +$300 | -$79 | +$100 (+50%) |
+| Phase 3 ($2.50) | +$250 | -$129 | +$50 (+25%) |
+| Phase 4 ($1.55 bid) | +$155 | -$224 | -$45 (-23%) |
+| Phase 5 (DNE) | $0 (premium lost) | -$379 | -$200 (-100%) |
+| Auto-exercise → short SSB @ $95 | +$379 intrinsic captured BUT overnight short equity exposure | matches intrinsic | +$179 (+90%) BUT carries borrow + margin + Mon-gap risk |
+
+### Decision logic
+
+- **If Will wants clean thesis-pure exit + no overnight short equity exposure:** Execute Phase 1-4 today. Best case Phase 1 fills @ $3.50 = +$350/contract win.
+- **If Will is comfortable holding short SSB at $95 into Mon 5/18 + believes thesis continues (cohort-fade + FL/TX exposure intact):** Let auto-exercise → start short at $95; capture intrinsic + retain directional exposure. **Requires margin/buying power capacity for 100 × $95 = $9,500 per contract short equity position.**
+- **Recommendation:** **Phase 1-4 execution.** Reasoning: (1) the memo's pre-registered design was thesis-relevant options exit, not a stealth pivot to short equity exposure; (2) SSB FL/TX thesis can be re-expressed via Sep $90P (currently bid $3.70 / ask $6.90 / OI 1 — same problem the memo flagged 5/8) or new positions if conviction warrants; (3) overnight + assignment complexity is operational risk that didn't get pre-registered consent.
+
+### ⚠️ Unknown: position quantity
+
+POSITIONS.md does NOT carry the quantity column (dropped in 5/8 broker refresh). FORGE/STATUS.md is Mar 25 stale. **Will needs to confirm contract count at broker.** All per-contract math above scales linearly.
+
+### Open question for Will (REPLY-REQUIRED if possible before 2:00 PM ET)
+
+1. **Confirm contract quantity** (typical recent REGINALD positions = 1-2 contracts; assume 1 for math unless told otherwise)
+2. **Confirm execution approach** — Phase 1-4 (sell-to-close ladder) or hold-and-let-exercise (short SSB at $95)?
+3. **Confirm DNE backstop willingness** — if liquidation fails, file DNE before 3:45 PM ET to avoid forced short equity position?
+
+### Default (if no Will reply before 3:30 PM ET)
+
+Execute Phase 4 (sell-to-close at bid by 3:30 PM ET) and Phase 5 (file DNE by 3:45 PM ET) — protects against unwanted short equity assignment at the cost of taking suboptimal fills. Captures whatever bid is live. This is the operationally-safe default for an illiquid expiry with no Will input.
+
+---
+
