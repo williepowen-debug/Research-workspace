@@ -98,6 +98,21 @@ First dry run should remain low-risk:
 
 ---
 
+
+## Clear Handoff — May 17 10:44 ET
+
+Will asked to clear here. Repo should now be clean and pushed. Next session priority: **install Agents View** now that the workspace is synced.
+
+Last completed git checkpoint:
+- `728e9f78 PROME: refresh state after agent sync`
+- Local `master` matched `origin/master` immediately after push.
+
+Next session start:
+1. Run `PROME/BOOT.md` sequence.
+2. Confirm `git status --short` is clean and pull/rebase if safe.
+3. Begin Agents View installation from local OpenClaw docs/source; do not guess commands.
+4. Keep changes scoped and verify install with the smallest runnable check.
+
 ## Highest-Value Next Actions
 
 1. Commit/push this Prome/OpenClaw state refresh if Will wants it saved.
