@@ -1,702 +1,677 @@
-# News Sweep — 2026-04-10 20:15 UTC
+# News Sweep — 2026-05-16 23:06 UTC
 
-## 🔴 WATCH_FOR HITS (3)
+## 🔴 WATCH_FOR HITS (1)
 
-- **Saudi Arabia's SATORP Refinery Shut Down After Attack**
-  Crude Oil Prices Today | OilPrice.com (wt:1) | HENRY | WATCH_FOR: HENRY: refinery attack
-  https://news.google.com/rss/articles/CBMirAFBVV95cUxPUGE5RDNESWpzdlo2MWlQWXlPWmpoYUprZjdYbE1FbmhrYXVNZGZMRW5mWGh5TTZmTjh1aDU1bmFleEVHV0x0WHhSMUdSaTF4dGNjcGxwMEZJN0tIYmxEaWdCYl9vYWtXMllNNS1QQ1RkWmp2RHdDdXRuak0wSEtvTENNM3c3RjAxY2RKWmMxZnhXZWZ1MmktdEVQeFp2SzUtRkNjTlo4aUlMSmhw0gGyAUFVX3lxTE9keGJOWXlGU1BpaVFBYzJ1ZGQwck1DdUVhMm5Rb2cwZWxkOXkyTC00QkhEejZPa1FLS1NDOW5yanZ3LWlleFBncGFLTDA0eW1LbWNqSVExUDJpWmN3WDVPSk9kNngzdWRjUmwtZXhrcVdMMlBhTDk3S251TFF5ZlpOQ0gyeVJrcGJDZ3BZbU00bGZyVmFOa3dfMmVkTVcwVGkxNUFFMkR5QzNtQlJvaU5tN0E?oc=5
+- **Fitch stress test sees no Turkish bank failure even if Iran conflict drives lira to USD/75**
+  MSN (wt:1) | REGINALD, LIQUID | keyword: bank failure | WATCH_FOR: BROCK: CLO OC test failure
+  https://news.google.com/rss/articles/CBMi7wJBVV95cUxPdFFjU3U1RU1OellMWmxaM1lxQ2V3c0R1c3Q2bFNLdDhVdjM0bkNLU3VYSFBpQlM4Y2JFZmc0OHE0VzZlbXB0amVjYUhqWFpCcGdsZW82aXd5WFQ2NGN5QzZWVGp3SXVleGx1UG1FSS1kTVB2ZmNPUE1LYTZRSWphSE9OVThEZWtQX0xOTzNMYWdGMzhOckxKVzJveExaVDFEaEF6MktYWHVKUUlRb0JOUXF6OG4yZUl1NExzRTBha2JiR2lkZnRYSEswLVQ5VDFDTzQ3UlZybWJxalFpeDlZa0syNFR2WnFtdmhQY0xpSml4SlppNG0wMVk0T3AwSWdDX2p3QThXMVV4N3MyMkZMWm00S2tYeHhrbGRwbE0zVkZ5eVdkYmdKbW9iVFk4N1lLLWp0X2twQjgxYzRmRVU0YnJFakx5T3RKZHJnM3NpZFY4bzZNb2R5QnYwekdNdHIwV2RLZHdZbW9paTRKeFJR?oc=5
 
-- **Aramco and TotalEnergies shut down 465,000 bpd refinery after attack**
-  Upstream Online (wt:1) | HENRY | WATCH_FOR: HENRY: refinery attack
-  https://news.google.com/rss/articles/CBMixgFBVV95cUxQOXRUeE5USGxpNVJpRko2Wm9neklMWXRubzEwQ0llSGNRQ2VIUmtMMzhURnZ1QlZnM1ZkQ28zdEl0dXZ2Q3ZlNkJoeTFxbW1hYUZxamtyNDlrNHRjV2w0YUl4NGlkSmhvNHBRZzEzM3dURHB0WXVmbThldGdpSmVUc1dKem9nSXFLNmZZbmo0RVNBY1phZWtjWksta3dKeUppUTZOeG9fa1V2dDdDZ011SDR4UEptbVVyY2RSQkVJUGNyNzhYaFE?oc=5
+## 🔴 ALERTS (12)
 
-- **USD/JPY: Dollar Near Multi-Year High Against Yen Ahead of US Inflation Print**
-  TradingView (wt:1) | SAM | WATCH_FOR: SAM: USD/JPY above 162
-  https://news.google.com/rss/articles/CBMi0wFBVV95cUxQemw3SlZNeXNXZm1LZGVGNzNjRGdFX2twT1QzVUxVUUQ0MkIwcy1Sa254N0RfRE1ibDNYQXJaMmlscWpwdWpONGZyNFhiclA5WW5RcmVYbHpZYmFNamNCcDItN0syN0pnYWtyM2N1Q2R3ckluMVlQZTBrTUNYV1JQUzZ3dkxlQl81QkF3aXpNcS1NU3RQSTZHSFd5SVB0bzFGMGQ4alJMbkdtQlFaRmZkcTNKdmdJQXZmLWZZcDlvZ0RFV0M2M2YwVWhRaUJfMkNqenRB?oc=5
+- **Georgia sees 1st bank failure in nearly a decade**
+  S&P Global (wt:2) | REGINALD, LIQUID | keyword: bank failure
+  https://news.google.com/rss/articles/CBMi0gFBVV95cUxNV1U3RklVRy10TUsweTV1UmVWc1FXaXFPQlZNbFVuT2k0UlpQcE9SYjBFbjZJT1VOSXRQN1ptQUMyZHRhRlVkbE5NQTZ5aF94WDBYd2R0LUhySkVrcDJfZllFTy1pXzU2NU5tOVpZWjdnRzZtZmpsbkRSM1dwQmVRUk9JOEI3enpMNXZaMjFZbkdxLU1nOGticzhrUFItaEJ2WmNXWW9aY2VQZkN4UmxjdmhZYXM4bTBZYlBlZE9KcFFkTjlsa0JjTUpza1VRQ28zYkE?oc=5
 
-## 🔴 ALERTS (11)
+- **Banking Trade Groups Urge Senate Banking Leaders to Strengthen Stablecoin Yield Guardrails to Prevent Deposit Flight**
+  Bank Policy Institute (wt:1) | REGINALD, LIQUID | keyword: deposit flight
+  https://news.google.com/rss/articles/CBMizgFBVV95cUxQRzYybTl0dHVDOG53X2FMRWFPMnVxM1VkdkFia2VXYnR5dWlIY2hMbGxldjlYODN2MWZ3anZObnZZZFRyYURfMnhLZmdLMUZiekY1T1VLVmlsTWJMdm1Ranc5ekVJVGNlX2p6RkotZ0NmbHduOEhla202d0lVOHh5R2Fzd3JUbXVaNzdUVnp0LUpJa1UyTUN0MS1QdmtEU1dsRTV4blRZdlJEd3BGRTZwTUVtVnV2anJ5S1dEQU05SWYyVk9UVFJjOXhxVTZ4QQ?oc=5
 
-- **Fed's Bowman says new external review of Silicon Valley Bank failure underway**
-  Reuters (wt:3) | REGINALD, LIQUID | keyword: bank failure
-  https://news.google.com/rss/articles/CBMi4wFBVV95cUxOR01VSURTMVN6SGRmV0xmaEF1NUZhTXBrSVJ0ek1reGZpckFqdVYtOGh6UzFsOG5NNjRRZWZfQjhtRjBYLXA5TzEtSl83akRDcGd1a2dySVIwYnFPVjN5ZmJqTlVMTUVxM2ZsbTdWNnFONFVSRE1qajcza0JMRGxtalJMdkpOYXRJcmhQS2hreGw5VjVVNXZkWi0wTk82Q0t5TVRuY1dxbmhNTmtKQWs2MEYzMUVfSE9RdUdieEdkcWFRLVlZVDhiWDdWcGZsNmQ4alVXbGhKaURRbW9NVW0yZ0FmTQ?oc=5
+- **Georgia lender's demise marks second bank failure this year**
+  American Banker (wt:1) | REGINALD, LIQUID | keyword: bank failure
+  https://news.google.com/rss/articles/CBMilwFBVV95cUxNc21nZlNqbUxTMk11cWFmSTUzel9OWU9CanFtWFdCNnFXQlh0dTJNTWt2bFhYYkV0THpydU1jQmJXRkt0VVdPd1Z2TDNXdjhUYzBicVpjcC1odFVqTHoyMEtZR3d3NURILWRkaEJ0bUd0R255RjViNHZPMEZEd01MUy00Y2I2cXluczFVTmpDYnpJc29GNjVj?oc=5
 
-- **CLARITY Act: White House Says Deposit Flight Risk From Stablecoin Rewards “Quantitatively Small”**
-  CoinGape (wt:2) | REGINALD, LIQUID | keyword: deposit flight
-  https://news.google.com/rss/articles/CBMitgFBVV95cUxOVXZyX3psUzg3Y05VTjRVSUE4N0VlbXoyblMyTW9DLUVZZDZZQTZXa25talR2LWstRkRFWGNmXzBuSHR0RFpjQU5zZlpLVlpNMlRNRVVyc2VyUFkzaVM5X1d4UlY1bTNJeVVwa3I5T1lTNV9NWExja1FsS1A0enFPOFhEYlg2cS02NEE2NDk5MGJZRkc4QkhYTWNwTDdwUlBUNnlrQ29qeEFSeDAtdzNnS0MwaEQwUQ?oc=5
+- **Georgia bank closed by regulators, 2nd U.S. bank failure this year**
+  BNO News (wt:1) | REGINALD, LIQUID | keyword: bank failure
+  https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUkYzSzJXVU9qbTZrYmhxNlR5VlVQYUtLY29UTnlQVjlHUXI0dG8wOXRkSXdpX3daaDh4WDdOVURVUEpINURKNzkzZWJ5Wm42cVJoUVFOX0lFM3RZQmhaeEhKN0JMTXg0SS16UFh2U2lqTFdTWGtScUNtc0k1d09NRXBBNnJHR3lDTjh3M0tiZUI4ZHFlWU9pa3JTTzNsZGV2N2Rtd0Izc2pRQQ?oc=5
 
-- **US bank failure by June 30? Trading Odds & Predictions**
-  Polymarket (wt:1) | REGINALD, LIQUID | keyword: bank failure
-  https://news.google.com/rss/articles/CBMia0FVX3lxTFBmdExuMUxIYUVqVTFLVVNLZHVmM1h6QVloNU1YQWlIM2NlbkZFVHA4Sm1jc3dGc1VueVlQbnIwY0xBaFRnam5USWZkNkdkbFdhN3JQVE9EcHhnbkJ4WkJjTk5GSE53Y19sQkdJ?oc=5
+- **Akerman Settles FDIC Suit for $250,000 After Bank Failure**
+  Law.com (wt:1) | REGINALD, LIQUID | keyword: bank failure
+  https://news.google.com/rss/articles/CBMiXEFVX3lxTE9HdVZDMUJuWEtDMHZwMzFxN1UzaGNDNVAzR0JaX0dVNXZiNzZKNlE4SW1sRXhZSS1USmhCVXdvRzRBclgwV2ZUc1VBbWdTRnRfRDdyUjlLN19vcFR4?oc=5
 
-- **Deposit Flight Concerns Over Stablecoin Yield Are 'Quantitatively Small': White House Report**
-  thedefiant.io (wt:1) | REGINALD, LIQUID | keyword: deposit flight
-  https://news.google.com/rss/articles/CBMimwFBVV95cUxOVHNYNlBhVG42WDh0b0hHdndBWEJ4NGRpMVYxcFExNE11RU9QWDRlb2l1QVF1STZudlVvZlNRcmoyaWZvbFhid3p4d3hSOF9ubk9tSVFGa1kyRXhod0tVNFRxbF9QckVmblU1MHpNeWFKYTB6Y2k2blJlbV9ScUs0a2hOQ201Q3BNdGV6THhoZzJSV0pCcmRYODNlSQ?oc=5
+- **A Miami luxury hotel got hit by a bank failure and then a fire**
+  Miami Herald (wt:1) | REGINALD, LIQUID | keyword: bank failure
+  https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSmFKSjg5SDlHOFJvTjRkUDBoaGd6Ylo4WGdORWExVmI2b3o5YmpoNDBSVXZoeVUtMXVrTXZwWTV0WU81aTduV2VONDhlWG1MMlExVThCaS1MYy14ZFJfeE5XNG42QUEyQzRYN0JGRU5pRjdsMjNrZmQzakFWR0RwYWVCNlB5Y3lr0gGIAUFVX3lxTE5kTUx0WU05VWpraGpDM3RCclZQNGtvWXZJMlNMRFI4UkUyWTRsRlJMVExOcnNEOXhqRjBvcnFWUTE3VF9PRF9YUkM4S2FvM1ZOSGpoSmlnLW1tSUpvMVh1elBteVFmSDQ4Y0lGS0V1SmdYSm9nWnJUaGZqUWVMMl82UWRyclZUc0Y?oc=5
 
-- **BoE and PRA streamline reporting and disclosure requirements for bank failure regime**
-  Global Regulation Tomorrow (wt:1) | REGINALD, LIQUID | keyword: bank failure
-  https://news.google.com/rss/articles/CBMixwFBVV95cUxPajZCMnpQeDlPS05vV0h0TElCTFFXTW1ONTY3a3A0d3lZaG9FMVhWVEhYXzBUaXFtRlBSbm0xVkgtUnNnQ1dMMHA4alBIbGpVLU8yM0NFT0JEcUR0aXVGUUlYekt3enVaZGhwWVJsY1pLY0x3NGxvQ1NmbFYzZTZHaU5oUXV2Q2RDQWd0T2tJLWQtang3dXdZRTJScVdrZXV3OUhBd0I3SFhRNUw4b0U1dmJaOE9wVjlZUUFFZ0p1Q01QUDhuSWIw?oc=5
+- **Authorities Abruptly Shut Down Georgia Lender in Second Bank Failure of 2026**
+  The Daily Hodl (wt:1) | REGINALD, LIQUID | keyword: bank failure
+  https://news.google.com/rss/articles/CBMirwFBVV95cUxPWERleWE1Yklnbm1EOWdIWXBVLVZTenN5dTdfRzNBX1BJa3dOVUwtdmUtcHVNWi1oTjRXcm5EZ3BVUnBHa0xpNXljaFgxcjg1WV8zQWhzY052NFhuR1dZOXVaYl9NUDFURTlScDNNMTlVdklIVk9va1J1TlJiYU01VndoVGhUQ19hTW1RYW42WnlGYjdlVS0zUmdoQ016dTBNSk1QMjRBQmdHMFBGVUp30gG0AUFVX3lxTFBmb0o1YjlDT2dOTTBnelA0ZndxZTVUeVRTRG1vUlBhX2NIaVVQczl2NjM4TE9tU2JlYnRmMUt0Y29UMWNXeG1jS0FRYTR2RGVQYTcxQzN0LU9KeEFZZDJoRFdiZ1FzUktKdkxuUUZXNFg2eTJmOHFKTEFlak9zRmJVdEFKT1R1Q0FneTc2SlA1SllzNHNpOFhacmlac3dJdDN2WGMxVGlHZzBLYUVFa0NoQUtWRg?oc=5
 
-- **FDIC releases audit of causes and response to January 2025 community bank failure**
-  JD Supra (wt:1) | REGINALD, LIQUID | keyword: bank failure
-  https://news.google.com/rss/articles/CBMiggFBVV95cUxQMXNzVnJ0Z2U0eURoYmd4SzZhNWlxZlBPRzM1X2YzWksxOUR6dGRfUEhaREdlX2dWdDczbm1KZmt6eDN2T2N4bDhUWUM0TXhSbnljTzB1YnNDUmFvSXUyak40aHJWY2pmVXBLdDBucDBwMUczenRNclFaY0trY3BzN3FR?oc=5
+- **What Is a Bank Failure? Definition and List of Failed Banks**
+  NerdWallet (wt:1) | REGINALD, LIQUID | keyword: bank failure
+  https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zbnZVcFhWR1dzN0M1NWdUdFpUeFFNeHplbEFsLVdfTGluZlQ4Nk43M1k2VGw5UEFxdF9XOXdMU2FyT1FhYkhyaGRadmFnS29ENWRmcUdjbG4tREhkWXJTUV9Pcw?oc=5
 
 - **15 most recent bank failures**
   American Banker (wt:1) | REGINALD, LIQUID | keyword: bank failure
   https://news.google.com/rss/articles/CBMickFVX3lxTE9OU0FZMFVvZ2QtYXVOTWpCa3djUGxETDEzbzlFTWhobUpfVnZMdWlDWmswQzNrOEIzc0ZDWVM3cnFTV1ZXTlRMamp2V25jM0ppMTBYM3BEZFM3OFI4bnIyaFlBSlQtT2NNa0RxMURCZ3JaQQ?oc=5
 
-- **Economic Capital: A Better Measure of Bank Failure?**
-  Liberty Street Economics (wt:1) | REGINALD, LIQUID | keyword: bank failure
-  https://news.google.com/rss/articles/CBMipwFBVV95cUxOVm15SjQxYWh1empkUzNQOGE4cTktX0JFdWhseHhhUVdFV05KUEhTd25nTS1qN25DR095cGdERUJWenNqRjJEQk9wajZObU1MVWlVZDNzVUFIc3paSmdDR0FEdzlWaS0zQVR6RFpDZ2dzdDNRckV5WkM1MG5lNXpFeDYtUDlKZXAtNnRRaFZjZDNHeUF0cGE4U3h3Uks4RldzZ0VLNXNPYw?oc=5
+- **First Bank Failure of 2026 is Largest in Almost Two Years**
+  KBRA (wt:1) | REGINALD, LIQUID | keyword: bank failure
+  https://news.google.com/rss/articles/CBMirwFBVV95cUxPZW1iOE9RUnplNm95cUtRdkpuVlZoQXFoaVZjU0pKOVZ0Ym54MTR6ZzladUFtaG5TZWZEdThiOHJzX2RnU0VhbjNRTWxtcUdHRVZVSm1DMG5obml5YlFWa25CaEJmUGNmQXlFUF9pT2xrNEItV2ZKTTVWVU94cDZlRjMxSE5HNWV5V1F5aWdwZzNzZWM2NTMybFQxQXNLY2pxdmtfTTFCOFRNTmsxN1Uw?oc=5
 
-- **The first bank failure of 2026**
-  Chicago Sun-Times (wt:1) | REGINALD, LIQUID | keyword: bank failure
-  https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTDRFLWg3S1lkN0FWZlFQRkxLQ0I4TW4wQ3pCQ2dDclZ3OFdJUnNvRE54ckZXWEJPQThsbXFxUDQ1c2p1OEMtT1pqSUl4WTkzNUd5R1MxZWsyNHI0eV9BeTFnNE9BbHdyUXhUeE95c0l0U3hObU40Mk9Ma1lRM2M0cnFrV3k0SjBGU1pGSEZuQVR5SXVQbUhtbmJ4bDM1S2wyYmptX3FqU1AzVzM4STNHMUwwMEt1ZTZUZl9SejZsWG12QWZidm01elpPdVZRT0R0c1E?oc=5
+- **Banks Push Back on White House Stablecoin View, Warn of Deposit Flight Risk**
+  CryptoRank (wt:1) | REGINALD, LIQUID | keyword: deposit flight
+  https://news.google.com/rss/articles/CBMisgFBVV95cUxONndQVkhpczBldU82bXBjRlAyYlMxdU1ScFkyWXB1SW9hNzJ4SE91cm9vNUVxWW9YVTk2QzcxUDRqX2tkaWkxaTIyTlBlNTNtbm10OXJGRkxyc2ZmNU9nckc0M2RFRTQ3WFBYTFlNZ2NHVlFrS1ZnZUZwdVdMSFBvSE1ydGZrSWpiOWtzWEdreWwtTDNJRWtHdk9jU2ZzR0dITmdPWVYtc3g1aDhmb0ZPelN3?oc=5
 
-- **Chicago’s Metropolitan Capital Bank becomes first US bank failure of 2026**
-  Chicago Tribune (wt:1) | REGINALD, LIQUID | keyword: bank failure
-  https://news.google.com/rss/articles/CBMiggFBVV95cUxQam96RlZVY0tzN2NHNmtoT2lyNVdlQzFqTGNGbkwxRThMYW9rUVlHRE9BMTlxZlpidi1NVWQ5cWJsUTBMOXpCWGUwS2JHdVBIMnhHT0RmT0I1cTZ1TWhHYnd1YUI5YXZaNnpSc3JSdHBvcHNfLXRhTDRCYklkR3dQcXh3?oc=5
+- **Bank of England updates bank failure playbook after US regulator’s nod**
+  Private Banker International (wt:1) | REGINALD, LIQUID | keyword: bank failure
+  https://news.google.com/rss/articles/CBMiigFBVV95cUxNTkUyR2VkVWF0OGhXSWFRRGN6U2JoM2h0QlpkNm40LW9Bck1ha3FfR0gxTVd6RkExWnVxdl9FQV9QQXpraXp1WkhrNjBSTldRZ3FxNEpjTHVJcS0xdUduUXpFVFFITmJINGF4cEdBNzJtLWxRMVNhLWVtcnRGQmh5QVhGMFBnLVBUNUE?oc=5
 
-- **US lawmakers revisit stablecoin yields amid deposit flight concerns**
-  The Block (wt:1) | REGINALD, LIQUID | keyword: deposit flight
-  https://news.google.com/rss/articles/CBMinwFBVV95cUxQNnZfZl9tUGowdDhqNmlrN1dUbjJpU0tibUNwaGF4RGR2RGhLMkQwOW9nRklsQ1NELTI5RFJUcHdiNzVTaThHVWZNS281X1RWSENVbTZnbjFZSUV1TGJqQWs1VWUybEFnaS1ZS3Z0WGZjUC1tT2J5a1E0WGIzREV2cXBFNi1zNm1JcENYM0VvbjNKWlRrdmJ0by14cE1OeHc?oc=5
+## 🟡 DEVELOPMENTS (4)
 
-## 🟡 DEVELOPMENTS (6)
+- **Ares Management Raises Record $30 Billion in First Quarter Despite Market Fears**
+  WSJ (wt:3) | BROCK | escalation: record
+  https://news.google.com/rss/articles/CBMioAFBVV95cUxNRFZsRmlSSlNJemNGZmRLa213TnoxMWNaNHQwU1YxZ0xTNjlCREJqVC1DcG9tVTZEMVRybUNuRUZjV1ZQZm9kX1YxNFNvVUNpQjBFMWtBdlhQYXNCTDVhY3JpQkM1RFNHSkhPNFR6SXRLTTRMTDN0QWlvZE5NaWctOXByeWZma0R4WWtJS0xjaGtxRjBrRDFCVVZWSDhQQzlv?oc=5
 
-- **A Record Jump in U.S. Gasoline Prices Is Squeezing Consumers**
-  The New York Times (wt:2) | HENRY, MARCO | escalation: record
-  https://news.google.com/rss/articles/CBMiggFBVV95cUxPTGNJd3NwdUE1b1pFbjZ3OExvdHRWMU1DUDhwUjIzYm5IQk0xMm54UmJIWFNJQ21iMXVHeGpuMFU1ejAzMm1hNWRhY0tWRUF6enVMcTlsSEhEWFk1ZnNTa0lHS18xZE5GM2tKaDlpR1NOM2llTmVZZmxDLUM2V1RKZGxR?oc=5
+- **Global oil stockpiles could hit record lows if Strait of Hormuz remains closed**
+  CNBC (wt:2) | HENRY, SAM | escalation: record
+  https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNEJPWkhNeTJrWXZRbkdYNXY2S2FQN1ZPTmxZMzUybDd1WW1vX09VN2VYQ2JkTUttM0c0NFdqNVpMUTQ5bzhtRnZfeEhlT0djNjRua2w2OVBlR3lKZkxYbFVqNUd1Z28wRi1veng3WG9MR0tlTzZJMHBrS3MzY2xhT1FUakZ1TzJtaEpr0gGQAUFVX3lxTFAxRmtrUXFfRTNoLWU0Q0tvVVdISTJzazN5a1ZqYUV3NVplbTh1bVJhUzNVNTd3YnpSTWQxQUoyUUNyYjQwdnlrMWdJb0VwdEhhNk1qbEFyS2dKdk8xVEY4ZXZsN2R2MXE2bnc0Q1dYWkc3RjIwYWFBM2dYdW5OTmpiaDBRUENmWWNYd0tvallKMw?oc=5
 
 - **Tricolor executives charged with 'systematic fraud' after subprime auto lender roiled banking sector**
   CNBC (wt:2) | CARL, OTTO | keyword: subprime | escalation: fraud
   https://news.google.com/rss/articles/CBMiygFBVV95cUxPN3VsaXdPdFhMTVJmb0xBZVJSZ0IxZlFMNUZRSHFJQTB1SnAyZVl3T3FOak9pUTg2QnNaWEJDOTZQWk9ma01XZnBPQzV1M1RPeWZ4MFgwRWZjdGlwcnhJc0ZnZDMzTzZ5d2UwcmkwZXNKSVR5ZjZkekJ5NnZxTE9zUFJuZXdEQUlqQnJHVWUxQW94Qk15QlJXY3ppRFcwOEZKdkQ5ZUxMQlJQcDhRaFk0TW5OMWt0T0VXdzI5M3QzbDRTTlJmcmY5Snh30gHPAUFVX3lxTE56dXFibjhLRmM1V1dTRFBuaGNvVWktUTRGUHBZZjQyNlViX2hDTG9WRGVtdTdXckhQTmpoUHJEcUxRekpzZWJfTXZaSnh5NVNJWHBORl9nYWV4M2ZOalo2UFRYdU56S2xPcDk5M2NrRGpNTWczYk5WMl9wM2xSM1lYRkxfZUdkTXpJZEZ1b0Y0aE1fLWw0U0hFRVNwVFpWQS1KRmQwbUxqYlIzdThrNUQ4OVU3V05fbkdCdnlsV0owMFpKWmQ3blVrNEF2aTdXNA?oc=5
 
-- **Record surge in gasoline prices fuels inflation in March**
-  Bangor Daily News (wt:1) | HENRY, MARCO | escalation: record
-  https://news.google.com/rss/articles/CBMimwFBVV95cUxPVkp6LU1QbmtjSHNDTk83Zk41bmwtdlA1d3FLaFVhT3hiS0FIbXFxR1M0Z25uUDF2aFEyMi03aEFFbXg3R1lJQTFRWllXWVpoX0hzVl9WVkE1a2N2Y18tU3FLaFB3dnZSYmdWMVJDSVpoZnByZjNnby1MdnRoVkJTZG9VZDMtMzkwLVBwRGgycFlpYlI0QzdaUlk0VQ?oc=5
+- **Bank Of Japan Offers A 'Final Warning' Of Intervention To Investors As Yen Currency Slides On 'Extreme Speculation'**
+  Yahoo Finance (wt:1) | SAM | escalation: intervention
+  https://news.google.com/rss/articles/CBMiogFBVV95cUxPZVVuM2l5MGU0WGIyY2RuWTFOdURWXzB1V3FDUVpqY2FxaERDSlFmZmQ0Vk9kUEs3WGM0MmFXZzMxYkRFd2Y2R0hXLVBtYlhCamJ0ZXFoWXliak9NOGJ2VUh6anp1REdxaHpSenpLV0RZcHRFRFdvanh3YXNLQUZTZjl2eTRfMFM1c3hiVzg2NzMtbE1OODBoNUFIX0dkYlNuSlE?oc=5
 
-- **US consumer inflation hot in March amid record surge in gasoline prices**
-  MSN (wt:1) | HENRY, MARCO | escalation: record
-  https://news.google.com/rss/articles/CBMi4wFBVV95cUxQOVlSMkgtd0dGNmVHYldpVG1ObGZadXdwVlIwWmhWd2k5bkJ4RFEyeVB1Yi1jR2tMNV91OWRWTHV1RUFPUEVOYTVnekQxQ1lnN0I4SnNjbnNpVmU0MDdpa3pzM1k5OGVQaUh2UC1fWXBnRG9WZTR6Y2F5VzUwOWR0ODgtVk5wbFQ0bjdXc2Y1bUxJOFAyTk11Z1VqTmptaXdoNGpjVUJaalVFcGFIUXhjbWZvU0x6YVptb3NYbzQzWHIwMW9TZW5pVUlUc2dOVG1FTWVGckJScldWbmxSYjlILWJtYw?oc=5
+## 🟡 WATCH KEYWORD HITS (14)
 
-- **Deadline Alert: Apollo Global Management, Inc. (APO) Shareholders Who Lost Money Urged To Contact Glancy Prongay Wolke & Rotter LLP About Securities Fraud Lawsuit**
-  GlobeNewswire (wt:1) | BROCK | escalation: fraud
-  https://news.google.com/rss/articles/CBMiywJBVV95cUxNUGRtVFJ4Q3VvTUQ0Z3BjRTNZVHUwQVQ4ZTc3RVJSRXpyZ3FldTJSMzY2dVUzSkJpTWtfdzF2YXR3QWEtNmVYNGptV1AxMFNGMTYwTE1odnpVaGs1UEQwUldjLXd6T2xBQ0VNb1V1UXZERVVyWThwekZDUDBWNWk0czZ2cF93M1JKMzdIQ1VIVXJBc1o1aFF4dEQxakwzYXlaeW91bm5Oa1V2MWNxRlVtMWlwaldRVWUwYzFmQllnSEp5UkZ1Q1ctbjMxRS16M3FUVnRVN1hEZHhfbjhoUnU2QlE4aDVoR1M2U09RMDNlVGltNUpDbC1Wc0MtRllLcTczTER4MUs5VWZVYmVkdkk2NE1UcEEzc3RlR0RIVURIeHZ4aXVqUXFyWF94dDR3ejZzd21FbkxtbnViQmFTOUFnc3JUYlNjTVhaLXJR?oc=5
-
-- **Oil Price Shock Drives 140% Surge In China's EV Exports To Record High**
-  ZeroHedge (wt:1) | MARCO | escalation: record
-  https://www.zerohedge.com/technology/oil-price-shock-drives-140-surge-chinas-ev-exports-record-high
-
-## 🟡 WATCH KEYWORD HITS (16)
-
-- **Don’t Toss Junk Bonds Out With Private-Credit Debt**
+- **When to Add Junk Bonds to Your Investment Portfolio**
   WSJ (wt:3) | LIQUID | keyword: junk bond
-  https://news.google.com/rss/articles/CBMijwFBVV95cUxOcTlOUXE1R1hoT1BEakthMVk1N1V2VmM0bmZxcDVsOWxRWGNEUEhNb1Vpb0I3Q0ozNC1meEFBTVdodjc4cXBtQVByNk5GMk1VelZkMVdIY1VWM01GWWtuWUpuNklxUzV0a3FMQjJXc0Z5bnhiWGJ4TWg1MThnaEVEMkFfNUluMHFyZHdVV3JNQQ?oc=5
+  https://news.google.com/rss/articles/CBMihAFBVV95cUxPNzB4QXFtcTJTSWI3ZmdNV19FZnZiTl9aampaOWVHWjJTOGFTSnRyb0d3UDBlR3ZrVUtVWjA0eWxsNVhmZU01QXc4OFVTVjd0b2NnblVDTmRvbm5QUkIwby13VGVMNk5kNDI1VHRkdDg1eFd4TnFwNEUyckItSFpTOGg0ZzY?oc=5
 
-- **Credit investors flee to safety, pulling nearly $14bn from junk bonds this year**
-  Financial Times (wt:3) | LIQUID | keyword: junk bond
-  https://news.google.com/rss/articles/CBMihAFBVV95cUxORFhNamlZTTNqSmlRclVPTGNlelkzcUV2SmF3Y3pXcUtxX2FLemNrS2hmdmtmdUcxeGVkMkRRVTFHTG4tc2R3VFBBakkxT1BlMFlRQnY4aDR1OGdvWjlmblU3bUhnREJnbzAtb0FyaVg5eDNRRTRmTFdEVjJIeGg5VGs2ZVM?oc=5
+- **Stabilizing a Distressed Subprime Auto Lender**
+  FTI Consulting (wt:3) | CARL | keyword: subprime
+  https://news.google.com/rss/articles/CBMimwFBVV95cUxPUGdnTTR1LUlwU24xMS1CUzFkanVieDU2Y2FVWjI0YXRCeTFmVHBvZzFEXzM5cEM3TzV6Z3JiblRPQTUtQVFlS0NOcF94SVJFcHB1N1ZHZWNfX1gtd2RYbzl5ekt2UmgySERCNThLaVAzMHJqSDdfWjNCeXpzcG11eEZKVWZYX1dySDZQRUFuYVp5TzJHOWJNMm1jWQ?oc=5
 
-- **FirstFT: Credit investors flee to safety and pull billions from junk bonds**
-  Financial Times (wt:3) | LIQUID | keyword: junk bond
-  https://news.google.com/rss/articles/CBMihAFBVV95cUxNUUpJY1ZiSXREakFsVF9DX2hwWkpSU0U0RG05UXcxR0o1bkM3UHVTMGVoTDBrdjI4aHJ4YVRUQVlEVTFSWUdOMy1PQ3ZKQzZCUkFwd3Nnb1VCZjJHSVNuZzhNR184Qjh4Zzc1Z1p5UGFNbXl5WjZPazQ0SEluZi1qYjBCdFA?oc=5
-
-- **Leveraged Loans Are Outperforming Junk Bonds By Most Since 2023**
-  Bloomberg.com (wt:3) | LIQUID | keyword: junk bond
-  https://news.google.com/rss/articles/CBMitAFBVV95cUxQRGVhZGdld1dCVGdjYS14ZXgyeUJHaDNEdm45eDd0Q0dUMUlFTzI0RmVrRlZoTUp5RjEyU2NaanB4Y1lPbHpodWpRelBiWVJYVGhfV2txNElOSjlWS2hLaU5mOEJJTDdLUFE5RGRFSE93UWkwa0g1NHB1VlNJU1BmOWxIdW5NU3o5MFdNYVhLZGdHdlpwVUZ4NGtuM3EwLU5EMWlYZkVSMnh2emdzbzEyNVJSQW4?oc=5
-
-- **Record Missed Car Payments Fuel Angst Over Subprime Auto Lenders**
-  Bloomberg.com (wt:3) | CARL | keyword: subprime
-  https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUg0UnBPX1RNNmlvT3VhSVE1RGY4eWFJSE1xaXhQaW4tMHhadHdBMDE3YTdUbWM1dDlVVlNpdVVfYm9FWGJycFRMYnpXQS1TWDgtZlhrdFYwcXFsS2ZaelZXSXdmb0V5SmhsWWcyZXQzRjdQdTYtU2hBclN0QTZRLWpiUmk3LUpaR1dpUm5nR0hlRlM0THRVRXJPcS1iU0pxUmhsN0hUd05vLV9DbFR0RjFwWTRDdw?oc=5
-
-- **‘Garbage in, garbage out’: Weak dealer data threatens subprime auto funding**
+- **60-plus-day subprime auto DQs hit 32-year high**
   Auto Finance News (wt:2) | CARL | keyword: subprime
-  https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYmV6aVFkT1A2eUpIS2lWamExVkxGRHFCQ28tVE1uMzVlUGJEeHlkTGF0UUx2T0Y5Rm41U1EyVExfMmFSeUNXaHJXN1Z1aUZmcnBpN1JSRE5iSHQzdTVjTUJ5UWdxQWZ2c2NUQm5sRHpHdFZMYjQyZDBBaWxFTGJDZE5ISHlOMWxFdEhra285dFdZU0w0eVRBQXlSYzl4NGpTbHQtRDl1d0Y4REZQVmFnZXB6X0ZfVTV0bElYNmRDZWNMWVIzaTRWQQ?oc=5
+  https://news.google.com/rss/articles/CBMipwFBVV95cUxQVk1oR0pkQUxPRWZ6X3ZWRkx5bWFYNWJpcVJxNFlTcGx2RDlVX01Vc3VCazZNdE5FdDM1dlhqdXVZNHVmc0ljcDA4U1N1bTc4T2U3TG5uRmEteEctZ3ljeFVIQ2JiQTV2YThGZ1BTeHA4QzFqVE1HZFVWdUgtYjN6VnBUYmZ5N25Rby1LU3JvQ3p6TG00OGlJU0hXSGtXOWZnLUM1NVdiYw?oc=5
 
-- **Non-Listed BDC NAV Tops $200B as Liquidity Pressures Broaden**
-  connectmoney.com (wt:1) | BROCK | keyword: BDC NAV
-  https://news.google.com/rss/articles/CBMingFBVV95cUxOZER5dEwxS2pONFZDRlM2LTQzbTdJMGlDcldXR3RnU3dJSGxqQmN4bnNxV2N5VTRPR0lyTTZGd3ZYS0VNU29xTnJjeURzTTliYVRBejJOa25aenhaR0tlS0pVNEgtVmIwMW1DbXYtbTlKMDRFWlBoNC03d2dVQUc1V3c4eS1hYkx0RVItUVBoOU94VDAyaGpfeFk3VHdSQQ?oc=5
+- **Executives at Subprime Auto Lender Are Charged With Fraud**
+  The New York Times (wt:2) | CARL | keyword: subprime
+  https://news.google.com/rss/articles/CBMidEFVX3lxTE5CZVZlS2RQeTMydnY2U1ZYTkctN1laT25fd0hvU0JYcDF6a3dtTXBqUE4zcERFbTF1cWk5WnlvN2xSdlc3Q3czMFZBT1hnWklRZk03eGM3ZmphbTlXdVduSDZ5cllEYm1RdE9ieDlyaDBBYk5Y?oc=5
 
-- **Top Companies that Announced Major Layoffs & Hiring Freezes-2025 - 26**
-  Intellizence (wt:1) | LABOR | keyword: hiring freeze
-  https://news.google.com/rss/articles/CBMinAFBVV95cUxNaWxJMW1sTjUwRVNKSXpQWHN3OWFieURKZWlHSGF1MVFMdUl5Z0FkRE5zb2J0allacVZQYWplSC1HNXhENjJwbnIxMEN2ZkRNODhHLTIxQXNqWUxkZXUzbnVKMXNvQnRLVUhtY1hIMUthX25NcW95S0RDRzg4ZEttTW5IYmRncm41RTVHNWdpYy1RS1ZuNFpaQnVIS1U?oc=5
+- **Canada’s junk bonds under stress: Moody’s**
+  Investment Executive (wt:1) | LIQUID | keyword: junk bond
+  https://news.google.com/rss/articles/CBMihwFBVV95cUxPcm91TFhVaTNnblp3S0V2YW9KUUNCaGpCWXJiV2tRcEVCOXlhYmVzWEVqb1o5WENrMUQ5Z2JSU2F3dXhkOGVYV3p2QzFUMlhoVG11TXJjQUxrSmZWeGxwQ1diQ2YtcDl2YW5WRXdSb213Vnl6TTJ4ZF9UTEpwYlFkZTY5VWdjVW8?oc=5
 
-- **CoreWeave's newly issued junk bonds surge as investor optimism rises**
-  Bitget (wt:1) | LIQUID | keyword: junk bond
-  https://news.google.com/rss/articles/CBMiY0FVX3lxTE9hd29Fa0Z2UEZHUnZkYmN2dzBPNklFenE5VnNPWlR3T3Q4RFpicmxIbTBneGJLdzZwdlNsVURpYThUeHFHbU5IUENKTmhOX1ZodDdHbmhiRkEzbGJKejVqRDZMMNIBY0FVX3lxTE9hd29Fa0Z2UEZHUnZkYmN2dzBPNklFenE5VnNPWlR3T3Q4RFpicmxIbTBneGJLdzZwdlNsVURpYThUeHFHbU5IUENKTmhOX1ZodDdHbmhiRkEzbGJKejVqRDZMMA?oc=5
-
-- **AI Collaboration Boosts Market Confidence as CoreWeave's Junk Bonds Garner Strong Demand**
-  富途牛牛 (wt:1) | LIQUID | keyword: junk bond
-  https://news.google.com/rss/articles/CBMirAFBVV95cUxQUUI3cUh5MWJPYUJJMWF2RV9uN1dSOUNNWVZIby16Z0tSajZkWks3b0F5NWNJV0JiTVNJNEZrakc4N056b09aeTBOMDk4eDNzN0lLSXZsbFJkN1RqVDZBQ2lOLU9Ga0ZDenZSVjlqLVRkZDVEa1JtcjZLVUFqZlN4aEJQVUVRZjNRMTcyV1VLeEc0Z3lwbzBLVU9DSmo3QXZ4X0lBRENQd1B2bDh1?oc=5
-
-- **Pump the Brakes: What Financial Regulators Should Consider in Trying to Prevent a Subprime Auto Loan Bubble**
-  California Law Review (wt:1) | CARL | keyword: subprime
-  https://news.google.com/rss/articles/CBMi4gFBVV95cUxPcmdGUE5BekVlMkRtc0ZsRzMzVzU1bzBYUkRXaGJDRl9uME94cEt5UzRTNmxTZnRaSFhDME1lNlQtY0dUdW9Sd012VWhGdlJkVXlDcFZYYWJnVm1vQ3JLVFMyeWZSYXFHMUVFNVVya2c4Y2FCcVlLQVBoeEJvbjRRckxnN1R1Zmh6TFE5dFltMllJdzliaTVBa2xKOW9vY1FxaFVJQnRqbUhObF8tcngyN3RFbnhraWUyWnFrTnpfQWpNMjAxLW9nalgxUVlQaE9TVko2VllzSGV5MzZqVkZ6UUNn?oc=5
+- **TruDecision’s Parry defends current status of subprime auto finance**
+  Auto Remarketing (wt:1) | CARL | keyword: subprime
+  https://news.google.com/rss/articles/CBMirAFBVV95cUxNd0NCZjZmREVPSmNabmlPOG1VSEN5OGZCY2FDYUhiMm51RmtuR0pEUlFPWklSZWlHWEdGZ2lkVzdGN0pEM2tLNVZOc1N6b1Q3WGhNSm1sX01NUW9NQm9lYkU5RkZManpVUXg3d0h1X090NjJYZnlHY3Z3X09qWkZZdUNQVk5odTBIZ3dYUG11Qi01T3dRTVhCR0FoZmd6ejVlY3EyVlUwMjR1N0VK?oc=5
 
 - **Subprime auto loans fall as lenders tighten credit in Q3**
   WardsAuto (wt:1) | CARL | keyword: subprime
   https://news.google.com/rss/articles/CBMie0FVX3lxTE1KeFVtcDN2TGRBMnhLbGRhNlJid1RVTGIzUnY4Y012V0JGcGxLbzdVNFNhY280MjZWeF9hT3VQYzJGWE5SOEdWenhqMUd4R253dmh4bndVNWhfV3dtT0VTYzVYUEtVcC1wbTVITGRPLU94dHZwMmV1MC1pbw?oc=5
 
+- **How predatory but legal auto loans are systematically taking advantage of people with subprime credit**
+  Bankrate (wt:1) | CARL | keyword: subprime
+  https://news.google.com/rss/articles/CBMieEFVX3lxTE5lYnNzV21sQUZUWGxKRkthby1wdzBLeE9uWU9RUDVkYXNpZmVzZmMtVmJYbENmVENUTDVIMEo5aXpSS2VHNFdZQTV6UFdvMnBKNVJUUkdfalFJNTJTb0wzdFUxa1B5T1RXMFcwVlNmYThibm5DZDYzNg?oc=5
+
+- **Lobel's latest subprime auto ABS pool raises $223.8 million**
+  Asset Securitization Report (wt:1) | CARL | keyword: subprime
+  https://news.google.com/rss/articles/CBMinwFBVV95cUxQaXJUMHdndHhwS3MxTmdDb3lFMTg2bzRsNmVJZWpMbnhYc0hmNmZTNHlXa0xJNEtzbG1XUjkwTjRRMjBSQXZBSVY4TU54V3ZNRWJBZ3hYVkx1Y1huUUJ4RUptZ2UzbXRJZV9ZdDFxblBvMVY3OGdyLXpTc1J2ODhVZmZacDg0b2lZNExCNU9TeXBEWHJpX05xSmV4eTZBZFU?oc=5
+
 - **Subprime auto financing stress is adding pressure to loan approvals**
   Car Dealership Guy News (wt:1) | CARL | keyword: subprime
   https://news.google.com/rss/articles/CBMisAFBVV95cUxQQWxKd3Zib2RMbl8wY1BnRUhfR2FmeGtLS1dBV0JHa0Q3eE9FTWpHLWE0UVlPSGFoRGMxUUZrZ1VkMnhjY2pBcjF4b3haT05UOXZXcXI4UUJFVVpnYXBnRUFsRkN0MXFKaUpFMW00TnJqN2hhajRiVzZNRDY1YU1McGFhZGx5MGU4TC1rNTh3R2s2M3lvUUJ4OWFrWUtiaGZoSGtzRWU4TTNXY3VPQmU0Mw?oc=5
 
-- **CPS's $335M Credit Facility Growth: A Structural Boost for Subprime Auto Financing**
-  Bitget (wt:1) | CARL | keyword: subprime
-  https://news.google.com/rss/articles/CBMiXkFVX3lxTE5tbXRVdkNyOU9jR0dRQnAtbHdQZVV6RlJNVkM1VmZ1LWN5aC1VZEQzOEV3ZFNkaklxQi1ZYU5VNUc5MW1WQlBlQWtiWU5od0YwOUNFRW1nUFFtbE94WVHSAWNBVV95cUxNLUNtWDBvVVd3alRfVVNqMVgwYVlSUElmWU56NE5XQnE1MnBzd2tJaTA5dUxwTVlyQ3hwc2kxM3BheW5qd3o1Tm5TZ3RYX0RIVkRZUkhrSUl2ZnNjQ19UYlNaRTg?oc=5
-
-- **A major subprime auto lender suddenly collapsed — raising concerns about the industry. How it could impact borrowers**
+- **Top executives at subprime auto lender charged with fraud. Here’s how prosecutors say they misled banks to earn billions**
   Yahoo Finance (wt:1) | CARL | keyword: subprime
-  https://news.google.com/rss/articles/CBMiiAFBVV95cUxNLTZmR0NwaWlnVDFmZFZDYkFPTkUzNVZKMG9SalNuWHQtZUZUTS1MamRmcnVGWkVQRFh0aVZfTEJieDk1eEVyaWd1ZnBGcS1mYW9vY2M3Uzh1MlhqLWdnMDJ0cmlRRmNSaFhOSGpBclZzMVBBcEpGampOb2xLUHJtX2xlUUxhVDNv?oc=5
+  https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNWttNi1OZXRMMFhlME9USFc2bzB5bHNabXJYNldtTklYLWVDSmFIYkZ4OHVkRnlUaEJzN21WZkJtZ1NGeUY5NmQ4TERYYXdTLWJxUldMUGcyUkJoWlF1azNjV2pxNlQzUk5CX2g1dk1VYXM3YmM3WkJpVE5pRml2eTkydGo2eTNY?oc=5
+
+- **Pump the Brakes: What Financial Regulators Should Consider in Trying to Prevent a Subprime Auto Loan Bubble**
+  California Law Review (wt:1) | CARL | keyword: subprime
+  https://news.google.com/rss/articles/CBMi4gFBVV95cUxPcmdGUE5BekVlMkRtc0ZsRzMzVzU1bzBYUkRXaGJDRl9uME94cEt5UzRTNmxTZnRaSFhDME1lNlQtY0dUdW9Sd012VWhGdlJkVXlDcFZYYWJnVm1vQ3JLVFMyeWZSYXFHMUVFNVVya2c4Y2FCcVlLQVBoeEJvbjRRckxnN1R1Zmh6TFE5dFltMllJdzliaTVBa2xKOW9vY1FxaFVJQnRqbUhObF8tcngyN3RFbnhraWUyWnFrTnpfQWpNMjAxLW9nalgxUVlQaE9TVko2VllzSGV5MzZqVkZ6UUNn?oc=5
 
 - **Subprime Auto Lender Files for Chapter 7 Bankruptcy**
   ACA International (wt:1) | CARL | keyword: subprime
   https://news.google.com/rss/articles/CBMilAFBVV95cUxQdEhHZWxNM0w2LUFVZG43Q1h1NW16aC1PV3kwWHRzNGpleGtGR2FBX3hiOWtiNHlCT1FBdlhkbHpuWjlLQ0FWeVE0eGE2Zk9iWGpzNjF4b3FDS3BxWmtGMnpkZ0w4c25lUzh3bE1KejBnSUw5Q3hac05Rbl9JQzYzQkpzRUFneVVaQjZFMThYNXRmanhi?oc=5
 
-## 📰 NEW HEADLINES (132)
+- **Best Subprime Auto Loan Lenders in 2026**
+  BadCredit.org (wt:1) | CARL | keyword: subprime
+  https://news.google.com/rss/articles/CBMib0FVX3lxTFBqVmk2cTUxejl4TWRBQWxKOG4yWEJycXFQem9PWXdQSnRyX1psMXU1YWUwSHl6VXQ1LW1yYXAybEdoMThFS0poQW9sLUR0LU9RX2xJcEFDd0k5MVBfNmI0Rl9vQVhtWVFTemN6dlI0WdIBdEFVX3lxTE9ZRWhWb1R0YnlBbHp6d3VDTjh6dU1XWjAxam1GTk1ZN09hbDRXQ1kwX3Q3Wk00N1Vxc1U0NF9pMVpXVVJGUGgwTmVldDF4Rk10V0pIdUJ3cmRGRmpNWW1XR3hfaVh5TWZ1b2tqTGlzTnU4QTh6?oc=5
 
-- **It’s time for private credit’s spring cleaning**
-  Financial Times (wt:3) | BROCK
-  https://news.google.com/rss/articles/CBMihAFBVV95cUxPb3BfNnQ4S3lGc2NfWXVfRzVWNFJZYlZqdm5DcFRPRV9nRVZYUFgxZTc5SlVtTjNOMEdYV3ZHZEsxSXhrSEZBUXhkN29abktCWGFPajBKOXlDdUJSc19TRzNkcEN3alM1SC1xeS1OZGozLXp6cThjT0NEYlo3dnk5blJVOGo?oc=5
+## 📰 NEW HEADLINES (131)
 
-- **Goldman Sachs' private credit fund defies sector-wide spike in redemptions**
-  Reuters (wt:3) | BROCK
-  https://news.google.com/rss/articles/CBMixAFBVV95cUxNd0tTZldiSVdKMkdqcndGbFM1a19PUUxwYXpaNjRyaGJrNDNUR0dWVzBNMHdpREc5RjV0c3NTNEtMeEI2WGE5djZGSjBCYVZOazFXQTI1WkNXNzFqNE1RdWdJeF84YmUxbml4RGQtV1RsUGpiTmUtTVh4QVpzR19hSHhlWllQaTB6N3RuWXdOdUU2dkF0SS12Y1ZNTWV1eWY5TEY1eUhESFhCcEZDbk5jbU4tNXNUWWtWdGdrWnQ0dkozWTBz?oc=5
+- **Beware of Bargains in Private Credit**
+  WSJ (wt:3) | BROCK
+  https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTXZRN3h6VjJIaEo0MHZVTlZtamRJS2ZqZG1GalFteVNpLVN3YkQwZ09IWE5yS0stLTBsV3VnY2ZCNmU2cVc3THBzQ0M2MUhtbWxtcWdoTzluUjE2Z0VWRGxjdGNTZVB4SXhnRUktVy1FUzNTQzAybDJlc1NRRkV1eWZaSlhOamNrYzBR?oc=5
 
-- **Japan rules out major domestic risks from private credit for now**
-  Reuters (wt:3) | BROCK
-  https://news.google.com/rss/articles/CBMirAFBVV95cUxPaVNYZklrZDBkX3QxWXRQcTVzYlp1YVphUFB6dE53Yml3aVJ1N2Rlekh0akVYMm1nN0tqN1lhZUFwbloyYm05dkJ6TFFXMjBqWE8wSW1nZExtczJkRUJIV2JURmdMdUNnY1B4cjA1MjloNk1uUmRQbEFISjlfSEI0UEpJZXhMOTJKU2JqMWgtbjcxeXRjWVZneExiTVF5UzVZMzBTZlNxU21UUzQw?oc=5
-
-- **Private-Credit Worry Sparks Slide in Booming Part of Muni Market**
+- **Public BDCs Are Pricing In Most Pain Since Covid**
   Bloomberg.com (wt:3) | BROCK
-  https://news.google.com/rss/articles/CBMitgFBVV95cUxQc2JrM1JLVlJ5eU1BTlktclBCaXZ5eGstRjljWEk4bVJwbGNSRldVVzhjLXFkdm5UTk8tTlZabWVnNHkyUUppVFdsT1k3X2RhVjBRTTAySXdvdHp4VnBoTEwxbmt4a2dyUUpXa2VZZDdqbDVZbzFMZ1hEcDVEdDhFblFtX09aU2c4OHZRT2xqZ0p0TDF4aUhjdHpteXVONjFnSjFDX1RhVVpfTUhYc1pjZF9HWmZDZw?oc=5
+  https://news.google.com/rss/articles/CBMiswFBVV95cUxOVlFPakkyNEdCbUVMUDNHSzJHTjJVTlRvSzNpMmhfYUxIZll6YVBDa0Q2WkEyTVRHMldYVkh1c0NoazNsMF9CVWhVZ0x4UmdyQnBSLXVNTWlhMk1NOWNfejdyUUNhWDFwWnhXaGhjSDRZQUVTRy1YdmxQdThkWFk1bjJSc0FYbm1UUG8wZnYzb3AyelZmQ0l1QmtocHpjVGRTdmozNUZDdUFDU3k1ZGEtZnZTVQ?oc=5
 
-- **TotalEnergies, Aramco Refinery Shut After Being Damaged Amid Iran Conflict**
-  WSJ (wt:3) | HENRY
-  https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ2RHQmhjME55Mi1NQ1lHUlM3VFpIeEZzcEFFM2YzNUZJRjB1MWJ6X0h4d1NYVS1WMzNvNi1KRDBtenQxUW84OVFLd0pjazNyTlJONW1wTGg2NGxJaXFtYzIxVXVuT0R2WEZJOHBQY0Vva0pQV2NSVVppQk5laHhVVy1aVFJqNmhzR0x3UmJJcWplYUJxeXpEb01ubjdaRm4wX2pPS1FOc0cySUZTeFJlUUtRaHhpVmd3U2VYUA?oc=5
+- **Private credit funds mark investment values lower, filings show**
+  Reuters (wt:3) | BROCK
+  https://news.google.com/rss/articles/CBMiugFBVV95cUxPS0d5dy1URVFoa1lTbHJ3UTR6eVc2WHl0TG1sR1RpUE9STzlxMVcwa3E3c0hwVlkwNEtZdmM3WG9aVVlHQ2xNVkh1VHU4QWFtM3p1RkM4U3VKekJfQjlZWjFsWTlZVFRuTTFpTHVnZlgzUFFuT28yU3dXVjVpREREM2lGa0EzU2VXTHhadmlhTWkya0w5X1ZOcTRHTmQ3QUw2aGRWOC1qeUphdGpldDVmZF8wb1dpMEhBbWc?oc=5
 
-- **TotalEnergies says SATORP refinery in Saudi Arabia damaged after incidents**
+- **The More You Know About This Private-Credit Fund, the Less You Understand**
+  WSJ (wt:3) | BROCK
+  https://news.google.com/rss/articles/CBMigAFBVV95cUxOakFqWGpZbXBRWm95WnlfZE5KemxGZHJsbFlhYlljTGZudjhmZUFfNzF0eFQ3VnBVdFZUeWpiNkpzVHpGYU9MTWNUM3dHSGJXcnJBd0tTQ2Q4R1ZLY1JkeE9UWTczX3RTQ1k3cDJRWnh5YkhYcjY2WGtLeTBqaC1yRA?oc=5
+
+- **Mexico's Pemex says brief fire at Olmeca refinery controlled, operations normal**
   Reuters (wt:3) | HENRY
-  https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdEdDZ3g3TDV5eVNUZXRFNEtYYzY3SVU5dDZfblRIWVlfaEREWG5Ed0Z2akw2Z2VOQV9TcXRpNzNkR2hEc3BMNUY1R0pISzJpMXk3VWlBWk5Gd2llb01jRHZFcmd5M2lpWmVlaFg5cGRrTkJOTEF4OS01MU51QzYyLTVIMUh6bHRqS3VKbl92ODRHdW5tTkFUOElCX0s5YTNRX3paRnV0OGlpcEtDLVhNVFkzR3hGa0w2dHhrOE44U0w?oc=5
+  https://news.google.com/rss/articles/CBMixAFBVV95cUxPcHpzcFJFSzlCV2VicEpJM2ZWYk9YaDhyWnVQN0RyLU92NUFZaVdyNXdCYjF3R3d6X09JOEtPdzhWU003SjY3cXBYVGp4OGJjdDltS214QW91bDBTN3hkb3oyTGQ4VFBxLXE2M3h1dV9KTUF3Tk1ZWkpQOG4zc2xtS0tqVGp3by1WMFBrZmZidzZMYzNTRUJxbUFXYmdRLVlCTTA1S282ZkdtQmdVRFgyZUdnMFJURkpNYXdfcWhvR2VoUm9a?oc=5
 
-- **Valero Pulls Back on Mexican Oil After Texas Refinery Blast**
-  Bloomberg.com (wt:3) | HENRY
-  https://news.google.com/rss/articles/CBMirwFBVV95cUxNcWhSMDB6cFFtMll1dHM0Wkh1a2FuUUEydXhEd2NqbmVGMmxocjVicXZGbTFwV21TZ2UtbWtoaVYxZXg1Y0Utakc5R25PeWVrN0JfRmdseXNobzRpWlBneXl5YVlwbDhuVlIzQkx6a2dCRS1wSDNONG5wRkdLZG5ldzZlc1dfeXBQQk1STmRxdGdiZDAyZGVyak9JOHFiUmxzSHhELWYtd1NtY3B6TjJr?oc=5
-
-- **Berkshire Sells ¥272.3b of Yen Bonds in First After Buffett Exit**
+- **Alphabet Sells Biggest Yen Bond on Record by Foreign Issuer**
   Bloomberg.com (wt:3) | SAM
-  https://news.google.com/rss/articles/CBMitAFBVV95cUxOUV9UU185VHVpMzY4UFdKTjZKd0ZuYmd3aldhb1M2MVRubnc3c0YtZllPSkxWczJhdUxqMEFadS1wMm1Jdjl5WmFRWFdBZWhuRkUtWXdId1E0U1lmN1NWMm9FblZNVV9SYnNLSzNacnZHeWxZamRIbzJwV2I5MnAyTWlJMnBLVTQzZGs3LS1GajhUdTRJMEtQaF9FN3YyczBlNmt1aWhSWmdBLXA0eExHRnh0T0o?oc=5
+  https://news.google.com/rss/articles/CBMilAFBVV95cUxNLXZFcW1xdnFtMnptcWc2dzlQZE9fd2gxOGQySFBCbGNCS0VJZENRMUFUeThUSk42VjFDdmp4WXJFLTJPbTAyODIwRnBab1RVSWtsNGZsQXNaSjB2SUFfbHJHel9EYnFSYVgyd0J2dkd4U3ZVQmdCMlhQRkFOdlVMU0ZIRWpMNFlFbjRHeU5JMElxcW0x?oc=5
 
-- **Exclusive | Disney Planning Layoffs Under New CEO Josh D’Amaro**
-  WSJ (wt:3) | LABOR
-  https://news.google.com/rss/articles/CBMikgFBVV95cUxNVnhhU0ppVUozazlhVV9WR2ZabDdIaTRNcHVUZVpramNTVW9vX09LeXlna1Axb3d5VjR4dmpCVGZKX2g0dG5Xd0tET2VQajVzX052dEVfYzdNUXZVakNvdFJnM3VfVHBacVlLYUc0MTJtSzFtSGJLWnRmUWgyYjljdHZiWWpwNW5EemhnYnpEOHlpZw?oc=5
+- **Japan says Scott Bessent offered ‘understanding’ on yen policy**
+  Financial Times (wt:3) | SAM
+  https://news.google.com/rss/articles/CBMihAFBVV95cUxOcjZlbkZKS2xVbUNiUkgwd0ZsdHpZX1djb1Q0dzN2aHJjZnUtOHBJODVSbzRTOWNlR0h3VWZPMUlJOVE5eGt6eEN1Sl85VENGaDAyR3ZrWmYxRjd2SjlkZnBVRFBsYU5vbmpma2VvYWdfVUNwYnJleTZPOFFMcGpSb0pCM28?oc=5
 
-- **US employment growth likely rebounded in March, war casting shadow over labor market**
+- **Japanese Yen Stronger After Possible Intervention**
+  WSJ (wt:3) | SAM
+  https://news.google.com/rss/articles/CBMingFBVV95cUxNZG1ra2k0TXNSU1lJYzV3VGgyaVphVUI2ZkNqM0ZBRFlGemwyMmhDZUZzRkhWSDZCTHFUYkxuUURxM2ptYW45ZW54cG03WjM4cVdxQk9iRzFIRXJGSFBnLUE1aXQyOExod2dOTk44c3N3SmdNVlYtQW40clFBandyM1dybENrRWxob1JwZDBaVm1vSHRINFItVkRQSmZoUQ?oc=5
+
+- **Alphabet sells yen bonds worth $3.6 billion, largest such issue by foreign company**
+  Reuters (wt:3) | SAM
+  https://news.google.com/rss/articles/CBMizwFBVV95cUxPMzBqQ19YNmZvbFU2VEQ4M1pOU1hzLW5yR0ZfcVFkMTVRdVYyN2pTejF1a0djY0pIOV9Ec3pCaHhHUVJBWWhDX3puSjhJLVJYVEpQZ2E3WDhUaTZIdU1oaWJ2RFRFNlBST1Q1NGphTnE4dFVPNkQySmR3RlZTcTcycjB5Mm1Mekh2d1owdUJIR01lZ2FXd0dBVDVtVE1FS1NmUnNqOVNmQWVkQXdvMDl0ZS02VjFQcWM2eXdsWDd1a0NqUy1KTVUtMVFJaXBTZ2s?oc=5
+
+- **Yen’s Week-Long Slide Puts Traders on Guard for Intervention**
+  Bloomberg.com (wt:3) | SAM
+  https://news.google.com/rss/articles/CBMisAFBVV95cUxOUE5xVFBldkY1Y25JZmFJT0ZGbk1sVEZieU8wZzNoeU5DUUFDX1ZIU1BfelJuaTVNZ3lBaEhnVWNTX2ZnMXpzbmRvTUtqQXB3SDgydjgzWGdXdFVvNkFSa3lDTXR1RUJJYnozd21PTzRxeFIxNXhCcmR6VzdOODNNNFhnYW9IS1lwT1JVMWVjcmNFcHhUR2I2dHVQbjJObnQ5bzdqbmZjYVVyMVR1cVlqdw?oc=5
+
+- **Exclusive: LinkedIn planning to lay off 5% of staff in latest tech-sector cuts, source says**
   Reuters (wt:3) | LABOR
-  https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUkhLeXpUbTgzeDJzNFllTHFPcFlnRTZJOHhsalo0MEotLU13MEVaUFp0U0NaclR0ZFhQa1Q1M05ZRXpZX20xR2MyWm1BdWhfRF9DVDVuNUtiOGR6X3B5OXhud0FrZWVoTXkzNjhYeFZRMEx3S2lCSUZZRzBDTDNtSGRPWjZtWFBNc1IxLU1hTHlxd1l3Q2FjSXIxWi1peGhCRjloVWl6cV9jWVlOWkNtd3ZDWlc0cmJ3UGFyVkVBZmJRNms?oc=5
+  https://news.google.com/rss/articles/CBMiywFBVV95cUxQYlNwRmtuNFk4c2w2M0l2SWsxaW4wMmQ3TndEQVY2UUdSWFhXNzhCS1RHZkg1ZFFPcGlJMmZiTzNqMjZ0U2JtWWFlR1RORVhOcjhualhsTV83WmxEZ2ROMEIwWEhQTEhVYmd0WmlhWC1DaGh0QjhHVWQ3TW5uMldTRF8xdm9BNmp1aHJ5YWRCOGF6RnpRYzA2ZlFlUXRLMHltdnNrazFYcko3Y2IwZDVvQm95N1NDTHBNVUFTMjhJTUZreGxvTGtOdXR4Zw?oc=5
 
-- **Andrew Bailey Warns Iran War Is Compounding Private Credit Stress**
-  Bloomberg.com (wt:3) | LIQUID
-  https://news.google.com/rss/articles/CBMitgFBVV95cUxPT3hKZHE3TmZiOGZJWmJkYmlVcXNvSVgwYjJqV1BYeGxfUVVuakhKNFMzb2Y2Um9sVEFJQTlfYURNVTJGaENEcDUzV0YyNU5vdUxfcEstWmRYOUZ6Z24yd3Q0QXB1RzFNVEhhSTFGa2h6b25LQThYdTlXaXhBcVU0S3k3V05xMVNyQUFiQnBVTkxqWll1UGVHdjFwNjhTbngzZmpJTlZDMnM4RnUwaHU2WVlQYjc3dw?oc=5
-
-- **CoreWeave Tapping Junk Debt Market After Meta AI Computing Deal**
-  Bloomberg.com (wt:3) | LIQUID
-  https://news.google.com/rss/articles/CBMitAFBVV95cUxQVUxUOFpCZ3U4UUVPU1VFOXl4eTdsOEQycUR5OWd6SlJXV0ZKdlZIZy1xclhlWkt6Z3ltaGZ3TGhZc0E2NHJzbTFjbGhNdXVYNy1NamUyRVRJNGx2cXpKZFFmSm8zcUEwOVNPMG52amExZ0NuN0F0RXU5YXBiZ2dqN1VLZHYta2hnN3liSUxxMjZkb2VsVkJNNC1PRUQ3X2xQdTRsREFOYzdPVzhYQktlS1dGTko?oc=5
-
-- **Global watchdog flags risks in $16 trillion government-backed repo market**
+- **Private credit stress could tip US into recession, CIO warns**
   Reuters (wt:3) | LIQUID
-  https://news.google.com/rss/articles/CBMi3gFBVV95cUxQYlN2aVg5YURtZURzSmtoaDhXZjNVWTU0dTdOMGxvNlhWVEF3TEZ6UGRxSWszSkFCUzdqOXU2ZW4xalEydXprdndTZGlFcVVYQzJrbFF5RDA1bUNnZU4yTkFqZ0huNEZfNVhubEVQWTFKT0NibTYySEhNWXNSRlZmNTRjVHRtdTB5c3VaOUFJNmRGbDQzMXpLTUlXazg2bGU5QVp4NngxazhOSnZ6eDNjbjJqbXBVRi03QVFUamtwOWU5dUpoQVExOTNWaTRRWHdjSUt1cW5zY3lMcmZFOHc?oc=5
+  https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5BdXhfcUotaWxnbzZtcC12SFNQdk9fRUZScG1QT1kyLWl2eVA3aTFHZ1c2QzdBM25uNlVkRlhJN3paSDdadmNhM3ZIR3RjdzI3TElCRU1fNDhIdEc3c1h5TjdfMEZZR2c?oc=5
 
-- **Freed From US Punishment, Wells Fargo Bolsters the Repo Market**
-  Bloomberg.com (wt:3) | LIQUID
-  https://news.google.com/rss/articles/CBMivAFBVV95cUxONTJGUjEyYjV3TGNVSzFUTlhXLXlsdEZEVEIzS1lCdzdsWklsVUVwQVoxRHFxQk5wa0F5WWJDeDNmd01FeUd5XzdkTFZxU0RwS19OMk5senpTS0tQRmlGbU9oZzdUZ1hud3MybmJ0Vkxxc3JDNjNUQkI1YkpER0tVMnNVeXBhRHVoa29DRzBGZzVvWGg1S2EwQlRQRVpLRGd6NTVvcHM4cHJHclJsU1o5R2JubnoyOE1aQzFMYg?oc=5
-
-- **The Fed - What Happens on Quarter-Ends in the Repo Market**
-  Federal Reserve (.gov) (wt:3) | LIQUID
-  https://news.google.com/rss/articles/CBMiuAFBVV95cUxQOHBZM0N2VG4tU0Zfbk9nSl9iZVg0QktqMVIzQjQ5LUJ3ZTZJekJPbkNLb1RnSUprN2FpQXJ2YnZaRXc4WGU5VGVybEQ0a19KZllXb0pLeTlEYURPVEptME10UGdQS3N6VlNDRlRobzNsdkxOZlNzLXEzTjRNR0dPN0NpRjk0cEVEMXJ3MHlrcXh3UUZNNTV1YTA1MVpRLUx2cUwwLUN1MXdWb3Qta1pPN3U1QjVJajBH?oc=5
+- **US Treasury weighs repo role for cash, liquidity management**
+  Reuters (wt:3) | LIQUID
+  https://news.google.com/rss/articles/CBMiowFBVV95cUxPdEdONU92WFBpTV94SFZoc1BTekxzY01relhZQXA3UFRBeDI4NGNROHRWRUxZQXgwMUhxWEVENk5MMVotM3FoYTVuOGgwN3M5enVmZm5ZdHZkYnpnTWV0WU5wQmlUQXU2VUFtTkU2Vk00TUxsY25COEJWcHNiQWpaLUg4TFV5anJsRTItTzhoWmhGd25HbU9QRzdlbE1KR1JRa3Fr?oc=5
 
 - **Failed Bank Information for Metropolitan Capital Bank & Trust, Chicago, IL**
   Federal Deposit Insurance Corporation (FDIC) (.gov) (wt:3) | REGINALD, LIQUID
   https://news.google.com/rss/articles/CBMiiwFBVV95cUxOczdnV21aVUQ0cE9YYkNfTll4bHlZbm8zM3dWQzdvR0psYWI1cllMNzZNN1ZrcldmLTRTaTR2aUVMaUhNQVpHdW9lTHJ3VkRLcG1JbENTQzZwWDh1Sm80WkdSN3ExQ2hpODI4bWVXRW92MlozeEhZWTdiU01UekwwaHloT1ZBNmdIUzFF?oc=5
 
-- **The Broad, Continuing Rise in Delinquent U.S. Credit Card Debt Revisited**
-  Federal Reserve Bank of St. Louis (wt:3) | CARL
-  https://news.google.com/rss/articles/CBMiswFBVV95cUxPck9odHhwa3FYYjVJcjJmVjYyeWtpXy1Zb0R3cmkyc0o3bnU5UzFlT1hFdGRpb0FOc1B3TGRYODJNNno3Wjc0R3NfamZKVGljT0VyQldVelBjNldxSkdkSEhLU291WU1CZFNqMlZaeG5lYUR4YjBrZUNva1FmdWhEWGxNQng4ZWlXbGc5RHY2LWJnYlFteGwzSHB3Ylp2YldJcUJMU0R4YzhFTkJzRDVydVp6RQ?oc=5
-
-- **US inflation jumps to two-year high as Iran war ripples across economy**
+- **Nato to press Europe’s arms makers to boost investment and production**
   FT (wt:3)
-  https://www.ft.com/content/7573b421-9c1e-4203-8477-7414f82eb248
+  https://www.ft.com/content/d6ec23af-9b0e-49cd-b53d-a8a1786d5f5e
 
-- **Hizbollah chief vows to keep on fighting**
+- **Why birth rates are falling everywhere all at once**
   FT (wt:3)
-  https://www.ft.com/content/ffef195c-8b3c-48fc-bddd-64036880dc6f
+  https://www.ft.com/content/fba35eca-df3a-4ad6-b42d-eb08eb7c9ad3
 
-- **Trump is surrendering America’s moral leadership**
+- **The century of the stalemate**
   FT (wt:3)
-  https://www.ft.com/content/f3f8231a-f399-4f51-b95e-2c37dcd3a85e
+  https://www.ft.com/content/ef39e535-f040-4ade-91b1-61fea53bd31a
 
-- **Vance says Islamabad talks will be ‘positive’ even as Iran casts doubt on attendance**
+- **How can Trump turn things around on inflation?**
   FT (wt:3)
-  https://www.ft.com/content/5a14a4dd-0042-46bf-bbdf-bc0cc19635b1
+  https://www.ft.com/content/0a8613df-6b35-475d-8549-787be1fce900
 
-- **Crispin Odey abandons £79mn libel case against the FT over sexual misconduct claims**
+- **Trump turns up the heat on Cuba**
   FT (wt:3)
-  https://www.ft.com/content/69666b46-8452-4807-add9-712a0394a53c
+  https://www.ft.com/content/fb62a4c4-6615-434e-a259-bc813a27ac6a
 
-- **Trumpism has done remarkably little to the GOP’s centre of gravity**
+- **Israel kills last Hamas chief who oversaw October 7 attack**
   FT (wt:3)
-  https://www.ft.com/content/c8c495f2-a675-4f15-b9b8-97682b078307
+  https://www.ft.com/content/e36df354-4d50-4399-b9dd-5beda50688b9
 
-- **Bessent called in US bank CEOs to discuss Anthropic model’s cyber risks**
+- **NextEra and Dominion in talks over tie-up to create $400bn US utility giant**
   FT (wt:3)
-  https://www.ft.com/content/397bf755-54cf-4018-a01d-8f714d8667c5
+  https://www.ft.com/content/37ba1609-ffa7-42ae-b63c-b2c628c584e1
 
-- **Donald Trump touts Palantir’s ‘war’ role after short seller attack**
-  FT (wt:3)
-  https://www.ft.com/content/8ab0fc62-b6ec-4b31-a8d7-cb076c9b0fb4
+- **Private Credit, Now in an ETF**
+  Apollo Global Management (wt:2) | BROCK
+  https://news.google.com/rss/articles/CBMiigFBVV95cUxOSEYzcFkxQnFHamgtVmNrc21Ycm1rM0d2U1BMUEVZUTBLR1NxOERJMXhzbGRJU2hIQ0dGbW9nbWVqdmlLcXZaVVIzS3BzZkpDSkhqdk81WURIX0NFYlBmVXhnVmtMTS10UTVBOHdiUXJTY3JNM1FGamg2eW9ITnFXeDdod1RIY0RiT1E?oc=5
 
-- **China’s Xi tells Taiwan opposition leader unification an ‘inevitability’**
-  FT (wt:3)
-  https://www.ft.com/content/e4aecf2e-9975-4b44-b01c-d6f2b8435386
+- **European Banking Brief: Private Credit Exposure Remains Contained, But Risks Loom**
+  S&P Global (wt:2) | BROCK
+  https://news.google.com/rss/articles/CBMi3gFBVV95cUxObmlQRExPSjFLQlItOEJxcHdzWVpGMUw0djlvYUx5RllLeVFtbXlwWHBCNVpnUmwzZ0ZpVHBLNzB2QWROQ0FqNkxaTXRIM3ZvaEJtUFotS1M3bTlFUW1LVFM4VElja1U2WFNjU3hlT0cxVEZxQXRaR3VoOHlPbzFYWGZfM0VvRE85R0ItcFUyaVVNd1IwNXl3LVh0RExzUXZROXRSM2thRlUxZV9Ld0QzYWE3UGhVd0ZNMXkwRlEwSzd2R3FpRG1fTGRLSEdxU2JYblRlWDdsb1VfdnpnV2c?oc=5
 
-- **Molotov cocktail thrown at home of OpenAI chief Sam Altman**
-  FT (wt:3)
-  https://www.ft.com/content/46ec2fa5-834d-4e49-81ef-6fb736b7e81d
-
-- **Week’s Best: How to Spring Clients From Private Credit**
+- **Europe’s Regulators May Launch Private Credit Inquiry**
   Barron's (wt:2) | BROCK
-  https://news.google.com/rss/articles/CBMipAFBVV95cUxNZEV2cG9xMWU0SGFYbmFTb3ZZQzVsdXZUakowYmdMSk5xV2pOM1pHNUZuTTNuWDZCQ0dLck1QY3J5d01rWFVyT3RpOEZwRjFWbElRYzkzZnNwQ1VPaFJwTGVkNXVpeEh5N0djQ2lKY2JXQmZXVjZkUjF2TnlhNEctN0RpOWlVWkhGcTFJSmtGUlhwTEt4ejc3NE9ZcENENk5iN3hDbw?oc=5
+  https://news.google.com/rss/articles/CBMieEFVX3lxTFBpb3o5UDVSM3BNR1VhR0pMa1hDQzJURVp6c0ZtMkJmTklKNTFnUTBYSXNFU002M0ZxU2ZBNmF4S3VSTmoxODZPT2JoOEtxS29zblJybjdUemN5UjdoTEpJNDJ5VjY3RDV3MzZIbVdSa2pOWmQ2eEtvSQ?oc=5
 
-- **Private credit’s ‘zero-loss fantasy’ is coming to an end as defaults and fund exits rise**
-  CNBC (wt:2) | BROCK
-  https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd3hta1plU1FreU5LTER1eE9SaHZ5VDFTalJlU0Zua0k1bmFObEt5UkFLYmtBT1hrMGN0TW1FZUp1Ny1ISDJ5cGhMRm1wSWRJempaNW5uR0luaTduY1V0YUVfSEVvLVhtOE9YM2dxVDNIWW1DNVlXOHVTdERDTjUzQ0t0SEdOWDFFTWFxOUhrMU0tNG9zM3NySkZ0MXAwUWFfdXZHcFBQcWVqZ9IBrwFBVV95cUxNaGlwNHUtMkQzMUNMdzZSRFJCY0kwSEZONWJ3b1NzYTV3S3k0R2I1Q2xTQWZlM3BQWTlhMk9tRXFzSm5QWVVOVHZCcEZzdGdoaGxnNURyaHczY2lDZ2hHb1BCNE1VVWxNSElIY1RZRjZwMDBNUHRUV25HRGx3QWlKaHZwa1JENGIxZDVTZHR3ZnNlX2xQX2NoZll4Y1ZGdGdoSmpHdUpuM3lnOEhhTFhN?oc=5
+- **Accelerate the Autonomous Enterprise with SAP Business Data Cloud**
+  SAP News Center (wt:2) | BROCK
+  https://news.google.com/rss/articles/CBMiekFVX3lxTE1nd1U2ZmxzT0NoSzZHWmZnOTlxRnFKSHpiNmJYUmU3emlTYzY3YzNSYmNRdzRSZkN6eFl4ZWRFUlc5MnN3NXlSX1lEM0dicFFQWHNXaVJmNkhtd3AzN2R5aHUzNHVUeHhpbUxrQzRlNkwtN3JpV0FiMkt3?oc=5
 
-- **U.S. crude oil posts biggest one-day drop since 2020 on U.S.-Iran ceasefire agreement**
+- **U.S. crude oil tops $100 again as hope fades for a U.S.-Iran peace deal**
   CNBC (wt:2) | HENRY
-  https://news.google.com/rss/articles/CBMijgFBVV95cUxOak9leTJMbGVibkQ3YUhWYkpsVUZETDdMSC16bENyOXFkUWhqVTQ0S2lBVDRzdmZfdTgtaUJJN2ZxeFJ3dXdIQ3JfbVBNRnBaajdKTEwxOUNkOWFja3BsTlFrZk9tNG1NRDZXM3BodWEzcTdlMkpidzBXNlNsNWVERnpBQkZmUW16NTVESEZ30gGTAUFVX3lxTE9nT2tialRaWXJtSVh1OWtqdnJ3ZzI4TWFuS0EzbjBPS2gtWHNwdDFUVlZhbXBGVEJTOExsWDNHclAzOVhPV24yYW1fWDJ5bElqNW5FMllPdy1manp6N0x0eHNYc0xHbWVQSWxjRTdUaHhPbDdVSjROQWJYSXRvRUlKeXZDOTBDRTFaWjVKUENhR3NrVQ?oc=5
+  https://news.google.com/rss/articles/CBMijgFBVV95cUxPMkxmWTI1ZTZZT1dGX2J3eV9oYXNsc3ltdlJmT1BLY0R3bmczdHFoTm1ESTgtelYtQ3V1bFhRanZkSUV4eHJYYjVqWGljcVFyOWNyN29zRUlQbkxyUFB6R3hEdVhka01weVhLVjUxRnh6eE5CcFk4LXVjVUN5T1hBUWZFRGpIaWx0Vmk1aDFn0gGTAUFVX3lxTE9SUXF1blN0N1cxaE84VVpQWENPS2NMLVZBaTFaR0tBMWpXb3RfeGFveVZCWTd1aG9qNHJPM0ZOcDVkMGhMVjJVaEx3UTVBR3l2ZHROMlJINDRKS2NQcnF4R3Z0S2ZiV0wzS015eGU2VFhIS1p3dnJaN0Q5VFlnYmRNM2VWX1puQ1cycWwzamdWUk5DMA?oc=5
 
-- **Analysis: A new oil shock is building. The next few weeks of war will be decisive for the economy.**
-  CNBC (wt:2) | HENRY
-  https://news.google.com/rss/articles/CBMidkFVX3lxTE1zTVFoZWZTNmluWmtDdnBqcGd1OWxVdE1oMmhfcnpfc2xzSGZ3Z0s2ekpoU3ZMVlZJYXJZZDFmSXhEVS1kUkZNZGNkSDdHbWtWSUE5YmhwZERmV3pVS3hZTEoyQnVxRUJmbUZVYnFhTm1EQ0NzbGfSAXtBVV95cUxQNHJQdnlCNmFQeTh0VWpkaEJrbkhvazcxR3FHZklvZzh2YTdZNlFTOUJKRng1cFRrbWstamRfem0xQlgxVjkwbFZGd01BSjR4NlFVOF9fUG1VSWNLNDFSUGxMYjQwemIxajBTOW9PcF83TU5wNVY0UlVhbTQ?oc=5
+- **The Yen Is Wobbly. What It Means for Japan.**
+  Barron's (wt:2) | SAM
+  https://news.google.com/rss/articles/CBMid0FVX3lxTFBISGx0alVJVzlBWlJ1QWhuRXVPOHVrdkdlMG0wcE1udi1XSTRBUHo1VVBVbjQ2bEJpU1RWa3pqV1ZjOVl2WWpZcV80RjMwbnBwVFRxYjk0bHUwZWZWRzBVa3ZkeWlrZDFmdldGOGFKU0JOai1fcmZR?oc=5
 
-- **The US refinery now processing Venezuelan oil**
-  BBC (wt:2) | HENRY
-  https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CQ2tRMHQtanM3TVBsZUxxUHJIbzJzVUFIM3FNTUt4TF9BYlhGYTNfOERvbExXRTFJQmVRb0dRVjFSOHJtMmtySVhuM2c1Wlhpa2JJajVSaWRyZw?oc=5
-
-- **Stocks rally 5% and yen strengthens 1% after U.S. and Iran agree to ceasefire**
+- **Curious yen spikes have traders gaming Japan ‘warning shots’**
   The Japan Times (wt:2) | SAM
-  https://news.google.com/rss/articles/CBMihgFBVV95cUxOaVN0MjVUTWZHVUNBU0ZHZ0hBem1kNlJ4dGFjZXVUS3dNdWNxdnNYYW9wcXVGdWE0ZTVuSk0wTGFVWk5RTHlYT2h5dzd5U0RnRkZOS202Q0JGdzI4SDJjRXNvV2Y4YXdPN2F2cTVBSUQ0RlZYWGQ2RDFfOVFfOUdLbHJ1RlVrUQ?oc=5
+  https://news.google.com/rss/articles/CBMilAFBVV95cUxPRzV6LWQwNWNPY0lsNWk4OUxnWlk3VFRnclBNX1Jrb0gzY2NDSE1yLUE2UzRlWGt5aWFGVmU1aHVGREpCbGVGZ25OVWFNMGtkbVlOR1d2NXdqRG9rXzJvMktjSkZROWNJNk9nTEJIUHJEbUdNcUlsZG0wWndlVVpWUkZRR29DS245T3FITk9VN0VoeVpO?oc=5
 
-- **Disney plans layoffs of as many as 1,000 employees**
+- **U.S. payrolls jump more than expected, but the report had several red flags for the economy**
   CNBC (wt:2) | LABOR
-  https://news.google.com/rss/articles/CBMidkFVX3lxTFBtN0phLWgzQWNaOU1QNlpIVDE2T09hcnRsSnV3UmRNX1JiSzN6QVpubzJuRDROSFIybTBzb2JHcXRzUmdZb3JpdTgzWnBqZ1c1dm05VlVRNnNOT3o3U2kwaG9hVXlLVGxsUXEzQURqSnp5N0t1UEHSAXtBVV95cUxPbUlIVzU0bFllUlB2NXZ4WDk5eG55X2JuRDd1cDdZRl9zZjM4c3gxbkhDS3RnZ1BsTk5hNXA4OFR6YzRfR2FoUkY2NU5OQWRvRDFSR2NwcDMxN01FX0R4eEJRSTJZSUI1TGlKbWNvUEFUT0xfNHB6NEhTaVk?oc=5
+  https://news.google.com/rss/articles/CBMia0FVX3lxTE1lUFdEbERNS0FVaC0za3F4SWVvTUNKUG51NWtHZWFGYXhKUmQyZzFnc2ZVTXhQekRwVmRFMHo0d2wtc2FLem9fU01TaVFNWW5IVkpZU2VBZ3VvSlNKZjZSUG9Pdm1sNDJTZXJJ0gFwQVVfeXFMTU1NdzFla1JfTEw2bnJvbUZiZ3h0TTR0TzI2VTBqVjdIZHdlb1hqeklrXzlpRTJnZUpVYl9sODZUal80VjRsTVk2aGRfd0JqQ1g5MjNtejhWN1VvOVBySFJycWpabzdxVnhPWnRvOGlGSw?oc=5
 
-- **Disney Stock Drops. Why Layoffs Won’t Be Enough for Investors.**
-  Barron's (wt:2) | LABOR
-  https://news.google.com/rss/articles/CBMid0FVX3lxTFBObHZIbVUtTEp3cUVZOHRlX1BrTS1tVWh6ZkwwMGp2b21hREIyVkpzdlNlcm9ZelUwa1Q4cTM3LTRqaG1xcWhPWTdTVnMyRXlFQzBvMmZscWNFLW4yUFRqc2IxQWY3UVJwM3pTcjR1aFd0N2FRcFlJ?oc=5
+- **Job Market Remained Solid in April, Even as Energy Costs Rose**
+  The New York Times (wt:2) | LABOR
+  https://news.google.com/rss/articles/CBMid0FVX3lxTE1EckJBSlJkWlI0NGV2dm05U0UtRWVqbVl0aGpJNDFOc290eDl3dFBXbHhaTDRKaGNUdXB0QkxQTUt4bmFIbUEwOW9hX1E5Uk9sRVFwRS02WkhLZ29BTTZmemVWdXdLZXphR1FvMnN1cDhBejl0ME1F?oc=5
 
-- **NFP expands in Upper Midwest with Sherman Insurance deal**
-  Insurance Business (wt:2) | LABOR
-  https://news.google.com/rss/articles/CBMizwFBVV95cUxQZW95cFNsNW5aMXQ3aW1GUllBQ2VtbnVZaVlETXBIejVpbEoxOEVNaWVHZFducHo5RHdCQnZBdG1aQVNGNjJ4LUwyejNJV1BrTGRYZnFZS3NDUnBzNzVIeHFVNkE0RDJCRUVQaHhUUVNpQnNUTXNPcVNSbkgteWV3Rkw3a0xHd1FFNGx1YXdRaWJ2N2oyZ2NvVnp6bkJZeVRkbXltaE5yYWsyeWtsNW1SWHphYkRCN1JaazRHNWdRMDJSRUYxczlYY1JjVk1uVGM?oc=5
-
-- **From Strait Blockage to Straight Losses: Credit Stress Pathways for Asian Listed Companies**
-  S&P Global (wt:2) | LIQUID
-  https://news.google.com/rss/articles/CBMi_AFBVV95cUxQSXlIbWNUUDd3QUxuZk9VV3hrV1ZwLXRuSkcwTUdTandabXVlb1BBZUYtRXlER3pTS2ZsWktjT3I1T1B2VDUzMldkRWE2Z2RpMmtLM2RyVjVqN0xveGtRQ2p0eUIyODVOdDhVVE5HTmNxT0VOT0t2dGpOeFUtYjlETm1kbzhfbGxTaGx1MV9mVDgzT0p1aFFiVjlQTHJ2akVPQ2F3X0xfSC1kNzJnWFYtLTNhUkJkNUVtM05DYU11al9aVXNlZ29xeVRHZlRxdmZwSmotSTFQVnJuY1oyMW9JckJKUG9lck54VDdQakh6MHJGTmpEVlJJUXZNS1k?oc=5
-
-- **Commercial real estate could become key safety play, says Easterly Govt. Properties CEO**
-  CNBC (wt:2) | REGINALD
-  https://news.google.com/rss/articles/CBMixwFBVV95cUxNaXdHbmFJZHFVWmVXVmVaU0hNM3NaYzVfUVN5OGRsdTlUTGllMlJwMFhvdUxyeGNZcUMzb2M3RU1lNEs2UzJQbmpZa3NJS21IRXJRcVF1clg5WFg3YnJuZjV4alVnQUc2ZzRFZnBhZEtBRFc3VzlTM3p0Tmx5SmpvaFNRTU1XdkZxVDZoaUpmMVR6ZTFyc2RobnFBVnlqRi1iWVdEOHMzcXpXY1BibVY5YjZiZm1STzVFMFNSM1lIYW95NFhRYWx3?oc=5
-
-- **Tankers urged not to pay toll to Iran for use of strait**
+- **'They took £20,000 I didn't owe': Parents hit by child maintenance errors**
   BBC Business (wt:2)
-  https://www.bbc.com/news/articles/c3dl0gdvvveo?at_medium=RSS&at_campaign=rss
+  https://www.bbc.com/news/articles/cq8wjn98y85o?at_medium=RSS&at_campaign=rss
 
-- **Great at gaming? US air traffic control wants you to apply**
+- **UK borrowing costs rise and pound falls as leadership drama continues**
   BBC Business (wt:2)
-  https://www.bbc.com/news/articles/ce84rvx0e6do?at_medium=RSS&at_campaign=rss
+  https://www.bbc.com/news/articles/czr2pl5lj84o?at_medium=RSS&at_campaign=rss
 
-- **Dolce & Gabbana co-founder steps down as chair**
+- **British Gas pays £20m over prepayment meter force-fitting scandal**
   BBC Business (wt:2)
-  https://www.bbc.com/news/articles/c77m3p8182no?at_medium=RSS&at_campaign=rss
+  https://www.bbc.com/news/articles/cq8p7l1y59lo?at_medium=RSS&at_campaign=rss
 
-- **TV for dogs booms but are they watching?**
+- **Heathrow rival could lead expansion, watchdog says**
   BBC Business (wt:2)
-  https://www.bbc.com/news/articles/cq59leg3gp5o?at_medium=RSS&at_campaign=rss
+  https://www.bbc.com/news/articles/cqxpz4q5vdvo?at_medium=RSS&at_campaign=rss
 
-- **This coat cost $248 in illegal tariffs. Will he ever get the money back?**
+- **Beckhams become billionaires as Oasis make rich list for first time**
   BBC Business (wt:2)
-  https://www.bbc.com/news/articles/ckgr67kgvdko?at_medium=RSS&at_campaign=rss
+  https://www.bbc.com/news/articles/ce8p4ywypx8o?at_medium=RSS&at_campaign=rss
 
-- **EU fingerprint and photo travel rules come into force**
+- **Inside the secretive and lucrative world of orchid breeding**
   BBC Business (wt:2)
-  https://www.bbc.com/news/articles/c39rkpe8mj2o?at_medium=RSS&at_campaign=rss
+  https://www.bbc.com/news/articles/cly039rr2mgo?at_medium=RSS&at_campaign=rss
 
-- **White House staff told not to place bets on prediction markets**
+- **X pledges quicker action on hate and terror content in the UK**
   BBC Business (wt:2)
-  https://www.bbc.com/news/articles/cgld65x396go?at_medium=RSS&at_campaign=rss
+  https://www.bbc.com/news/articles/clyp9652v18o?at_medium=RSS&at_campaign=rss
 
-- **Jo Malone hopes 'sense will prevail' in lawsuit over her name**
+- **Trump and Xi conclude 'very successful' talks but few deals confirmed**
   BBC Business (wt:2)
-  https://www.bbc.com/news/articles/c7471n0lm2vo?at_medium=RSS&at_campaign=rss
+  https://www.bbc.com/news/articles/clypj01189lo?at_medium=RSS&at_campaign=rss
 
-- **OpenAI pauses UK data centre deal over energy costs and regulation**
+- **Claim, counter-claim and tech's seedy side exposed: Five things we learned in the Musk-Altman trial**
   BBC Business (wt:2)
-  https://www.bbc.com/news/articles/clyd032ej70o?at_medium=RSS&at_campaign=rss
+  https://www.bbc.com/news/articles/cg7pj8p5mv4o?at_medium=RSS&at_campaign=rss
 
-- **Lebanon says ceasefire must be in place before Israel talks**
+- **US hotel owners expected a World Cup boom - so far it hasn't happened**
+  BBC Business (wt:2)
+  https://www.bbc.com/news/articles/cn0p2532xn4o?at_medium=RSS&at_campaign=rss
+
+- **AI could put people off tech jobs and hurt the economy, warns Raspberry Pi boss**
+  BBC Business (wt:2)
+  https://www.bbc.com/news/articles/clypr8p2lewo?at_medium=RSS&at_campaign=rss
+
+- **India's Adanis agree to pay $18m to settle civil fraud case in the US**
+  BBC Business (wt:2)
+  https://www.bbc.com/news/articles/c4g82p5ygp8o?at_medium=RSS&at_campaign=rss
+
+- **Why Modi wants Indians to buy less gold and take fewer foreign holidays**
+  BBC Business (wt:2)
+  https://www.bbc.com/news/articles/c775v7dlndyo?at_medium=RSS&at_campaign=rss
+
+- **Faisal Islam: Six things we now know about the UK economy in charts**
+  BBC Business (wt:2)
+  https://www.bbc.com/news/articles/clyprjddgj3o?at_medium=RSS&at_campaign=rss
+
+- **UK economy sees surprise growth in March despite Iran war**
+  BBC Business (wt:2)
+  https://www.bbc.com/news/articles/cx213n20njzo?at_medium=RSS&at_campaign=rss
+
+- **Taiwan insists it is independent after Trump warning**
   BBC World (wt:2)
-  https://www.bbc.com/news/articles/c93en5q2zl3o?at_medium=RSS&at_campaign=rss
+  https://www.bbc.com/news/articles/cx2132w81jqo?at_medium=RSS&at_campaign=rss
 
-- **Palestinian shot dead during Israeli settler attack on occupied West Bank village**
+- **Man drives car into pedestrians in Italy, injuring eight**
   BBC World (wt:2)
-  https://www.bbc.com/news/articles/czrekrzzex1o?at_medium=RSS&at_campaign=rss
+  https://www.bbc.com/news/articles/cyv28pd4n22o?at_medium=RSS&at_campaign=rss
 
-- **Man accused of coercing wife into sex with 120 men goes on trial in Sweden**
+- **Senior IS leader killed in joint operation, US and Nigeria say**
   BBC World (wt:2)
-  https://www.bbc.com/news/articles/cx24pdwx588o?at_medium=RSS&at_campaign=rss
+  https://www.bbc.com/news/articles/cy72p2kpd03o?at_medium=RSS&at_campaign=rss
 
-- **Chimpanzees in Uganda locked in vicious 'civil war', say researchers**
+- **Rescue diver dies during search for bodies of Italians who drowned in Maldives caves**
   BBC World (wt:2)
-  https://www.bbc.com/news/articles/cr71lkzv49po?at_medium=RSS&at_campaign=rss
+  https://www.bbc.com/news/articles/c1w2gv1gdnjo?at_medium=RSS&at_campaign=rss
 
-- **French man charged with locking son in van for more than a year**
+- **Whale found dead near Danish island after German rescue operation**
   BBC World (wt:2)
-  https://www.bbc.com/news/articles/cew7jwwep7wo?at_medium=RSS&at_campaign=rss
+  https://www.bbc.com/news/articles/c1l28lql137o?at_medium=RSS&at_campaign=rss
 
-- **Gunmen kill multiple people at Afghanistan picnic spot**
+- **US planning to charge ex-Cuban leader Raúl Castro**
   BBC World (wt:2)
-  https://www.bbc.com/news/articles/cr51z5p17myo?at_medium=RSS&at_campaign=rss
+  https://www.bbc.com/news/articles/c1w2gnd9xp2o?at_medium=RSS&at_campaign=rss
 
-- **South Korea deploys thermal imaging cameras in search for escaped zoo wolf**
+- **Toddlers among more than 50 schoolchildren kidnapped in Nigeria**
   BBC World (wt:2)
-  https://www.bbc.com/news/articles/cr41d4r5kdeo?at_medium=RSS&at_campaign=rss
+  https://www.bbc.com/news/articles/c202vrxlwqgo?at_medium=RSS&at_campaign=rss
 
-- **Melania Trump denies ties to Jeffrey Epstein and urges hearing for survivors**
+- **Canadian from hantavirus-hit cruise ship tests positive**
   BBC World (wt:2)
-  https://www.bbc.com/news/articles/c3ex07l1qvpo?at_medium=RSS&at_campaign=rss
+  https://www.bbc.com/news/articles/c2k2p057ezno?at_medium=RSS&at_campaign=rss
 
-- **German transgender far-right extremist arrested in Czech Republic**
+- **Switzerland to open secret files on Auschwitz 'Angel of Death' Mengele**
   BBC World (wt:2)
-  https://www.bbc.com/news/articles/cn4vdnr8knjo?at_medium=RSS&at_campaign=rss
+  https://www.bbc.com/news/articles/cgjpyqjj8y4o?at_medium=RSS&at_campaign=rss
 
-- **Russia and Ukraine agree to Orthodox Easter truce**
+- **Lebanon says six killed in Israeli strike as US announces ceasefire extension**
   BBC World (wt:2)
-  https://www.bbc.com/news/articles/cn0wkkwev2vo?at_medium=RSS&at_campaign=rss
+  https://www.bbc.com/news/articles/cqlpzzl0d67o?at_medium=RSS&at_campaign=rss
 
-- **Taiwan opposition leader meets Xi Jinping in Beijing**
+- **Freight train and bus crash kills at least eight in Bangkok**
   BBC World (wt:2)
-  https://www.bbc.com/news/articles/cj94y87k2ljo?at_medium=RSS&at_campaign=rss
+  https://www.bbc.com/news/articles/c98rez3x0nwo?at_medium=RSS&at_campaign=rss
 
-- **Popular Tanzanian musician Matonya charged with rape in Kenya**
+- **Man killed by 13ft shark in Western Australia**
   BBC World (wt:2)
-  https://www.bbc.com/news/articles/cwydvrj4vgzo?at_medium=RSS&at_campaign=rss
+  https://www.bbc.com/news/articles/c1m2xy3dr20o?at_medium=RSS&at_campaign=rss
 
-- **Private equity has a private credit problem**
-  Axios (wt:1) | BROCK
-  https://news.google.com/rss/articles/CBMiekFVX3lxTE1LUy1tM0UtOWozTFRmUEd4NGtua2cxci1KUzNiM3NhbjVsb3JaVUJJa2s5ZENxanFzZ2tTSHhYNUg1aVJCNFBHVXBlc0NGZV9GOTUyWVk5WF9nak0yamFhaWEzOWlOYXBJekNseU9pM29Lc3JVaVNLQXFB?oc=5
+- **What China critics in Maga movement make of Trump's Beijing trip**
+  BBC World (wt:2)
+  https://www.bbc.com/news/articles/cvgz902mqe5o?at_medium=RSS&at_campaign=rss
 
-- **Howard Marks addresses private credit concerns in new memo**
-  Yahoo Finance (wt:1) | BROCK
-  https://news.google.com/rss/articles/CBMiqAFBVV95cUxQb18yemhQbnBjTkd0NzEtT0N6dnBQMV9LdXpqVjlCeDlDWEsxYVdNMWQyMy1wOV9yTlRYbWR3X1VGLWdNWWFfV2wzRzZBMkZ5c1B3dmQ1RFU3cENxdGRIdjJDN25XSVR0dU5jVW5TZm8wSnVVTE9CNExvWENWaklhdldpVWkzdExQd3pjWkJsWmI2SF9sRGJnaTlnWXJYSHQ4Ri1KYXFnOUE?oc=5
+- **What is a 'safe death'? Mentally ill woman asks for assisted dying in Canada**
+  BBC World (wt:2)
+  https://www.bbc.com/news/articles/c78qzpg0n0go?at_medium=RSS&at_campaign=rss
 
-- **Private Credit Is Becoming A Quagmire**
-  Seeking Alpha (wt:1) | BROCK
-  https://news.google.com/rss/articles/CBMihAFBVV95cUxQeTBJQTQ0Z1FvQWVjYzdVbWFEQkRYQWppM2t3VENDaHRRam8tZ2tiYm54bjhoS3lmZVJJajFYRHpRU3ZtakRzV2VvYXJiaUIzeXBjSTBJbFhfQ21aWklpSlVxS2liSHA5SGVpUmhkOVJNNzdTQlFWQkJjLXpTRnNOX05Xcjg?oc=5
+- **From misfit to rap sensation: A 'Reble' storms into Indian hip-hop**
+  BBC World (wt:2)
+  https://www.bbc.com/news/articles/c4g0z40xwx7o?at_medium=RSS&at_campaign=rss
 
-- **Banks Launch New CDS Index Targeting $3 Trillion Private Credit Market**
-  Quiver Quantitative (wt:1) | BROCK
-  https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcFhlbXNZejNGYzJrb3Jia1ZwRWYzamp6d21hNkVISGZPeV9uMVBwcGlWSl96QTVMYlBtZUtBNGtlYmstd1pHUE9KRW13dXpyQXBhOWQ1R2hpRk1VeXhMcTJXQWgza0NDdm13aDR4TVVXU3FWbVdyeFdtSDE0Y19YbkFYRkVESDNTQXRvamVPWGhRbmpwM3BUUmJPdUhxdVVkWEVycFpyTUs?oc=5
+- **Private Credit Stress: Contained or Contagious?**
+  CBRE (wt:1) | BROCK
+  https://news.google.com/rss/articles/CBMiigFBVV95cUxPOEFlODBsZnJ3SGVzTnBJMDV4N3NWalZGRUR2OFByZHdGazRLelMtcjdpejZmRXZLX2pKMkg5ZWlHTngzOUthZ2tLNC10R3hFSXhfMGRTUUw1X1pwaXNrNzdlTzlReDBoUWxEM0F1dmd4dmxaLXU5YWJDOHptVU14aUMxbjFLdlhMSHc?oc=5
 
-- **Can the secondary market allay private-credit fears?**
-  The Economist (wt:1) | BROCK
-  https://news.google.com/rss/articles/CBMirwFBVV95cUxPNzAxaDJUWktEMjZHQmZib3FKdXR2MllodE1fdXhOQWJXbFEyc3UyMXY0ajJDb0hRb2Z6STdPWE1RdzZPeHRid1pXQktEdldYOEJsRVd4VThuWEVvbUd5a3FzbWtDSHphOEUzNjBTM3NsNS1mNFBvTEI3cFpSUjlhSEdaN1NpRzFJOEs5R1U3dVJ1amd6enUzTEs2TlhPM1JrSEY3bmFmYWxzV3dEQm1n?oc=5
+- **Federal Probe Puts BlackRock Private Credit Valuations And Growth Plans Under Review**
+  simplywall.st (wt:1) | BROCK
+  https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZ2E0R0dCUmVvR21JZjd6VHZGcTVLOTJkcVQyM3Qza2R3V3RGMkxrU1VSZ2hJd1F6UjVmWTd0RExwN1lSYUZlV1hycFBOR3YtV2ZNRUE3eXhZdWZwZjV2TFFSUmlzcDktRlQ2b0hTSlNyZDlNTUYxZ2pPMzdVUkVibGxNN29KOG56eDViM3BHaDBoVmt0T1dDTm40SjlNS2RoYnctaFlUNGY2eTk0V1A3azItcXhGT2tmWkUxQmMyQ0RReFJpSjM4dTctZ2I4RUJyYVpUYzZn0gHbAUFVX3lxTFBfWUpwcUZVMjBjbW5nbUZQVFB1WEdnb3BrZHdweW9WRFJaTmJNMnFCWmFCMXFOV1l6OGE3UGRPVWlUaXNzdXdtRDl5a05Jb2hheTRtSTdhYmpJS2lYYlF1bmE0cHdzdkV6cnNteTJvWGw1dkRKbkx5aWFiSTVmZ0FnQXktdThCTzh5RHdnYi0wb0FEWHBjWnctRnNNVFRrXzh5UGcyOUdMZ2ZPVjhxYUJCc205YXZ6NWxyYm5EbTB3TEdWQXo2NmlrU213STJNSWd1U0FUWHhydk0tZw?oc=5
 
-- **The Outlook for Private Credit amid Rising Market Stress**
-  Goldman Sachs (wt:1) | BROCK
-  https://news.google.com/rss/articles/CBMipgFBVV95cUxQN0djSEFKcDNVOU9YajBRSDVXcWVJNFllSHQtTEhfN2tvSU5DWkJnTE1POHQ0SHluSWhJajV1M3pjOFNNVDVVUkpBZ1NVNXFxNUZqajF3Y3c1MHlZeGlPRHBGYlViOWNCTExEel9oYnJTbG1lb1EzbGFwZk5iSnBuMEdCX3pvRVlJYkxyVHRGRDZpZXkwcm9PbjBqMk9VdWcwOG1KOHN3?oc=5
+- **Private Credit and Preferreds: What the Headlines Get Wrong**
+  Morgan Stanley (wt:1) | BROCK
+  https://news.google.com/rss/articles/CBMisAFBVV95cUxOZml4blBjN2J5QVFsNTZoVWRwRENGTUE0Vnl4NWdYNGdxdXFYc0gzSVdHSG5HdzNoWlN6eXVJeUIxOWFOYU4xUVFBcXNQSnoybFVFWXlXXzZjTGZkZGJFWHp6MVVYUFNydnlxUTBTa2dmRW9IZmhvU0hwQnNyS3RUQmVVSWN1cGtFaGdVZ0FYLTJMZVpnZ3phYXYzS01IanpRaUtZdXlDcFZaOGRnNmhqMA?oc=5
 
-- **Defense contractors announce more than 250 layoffs in Maryland**
-  thebanner.com (wt:1) | BROCK
-  https://news.google.com/rss/articles/CBMioAFBVV95cUxOOURCeWxTT01vclJ2UGJpQ2hzVkxPMXFDSkd5SU14Y0xGbWdJRDFxUGQ3a041TjFMdndCVXd4Q0l3dmlhSkVtaC1NVEh5SG9VLUUwVXlObFFDWG93QndEVEUzVFdkcVV2TkNRX0ZJNG1leGduaXJZeEh5WWhOY042MVJEWXVzb2VZdzJ0bFhUQ0ZxQWhzSk85U3hVS3VhNWda?oc=5
+- **Private Credit Crash Fears Are Overstated**
+  Global Finance Magazine (wt:1) | BROCK
+  https://news.google.com/rss/articles/CBMie0FVX3lxTE9idzhZN0RkMllqV3B5eE56bjJHWEZ1T0h2YzJJalFLYkZRbU1GQnd6dHdQMkxoNHpMVGVWcW9CdTdZa0FOZWRpLV9ycXNSanAyaVFBNFBJZ3VxcDZQYmJOeWY1RVAySlJnS2YwMjBDb1ZWUTFyYUJvWmg3cw?oc=5
 
-- **Hundreds Of Layoffs Impact MD Defense Contractors**
-  Patch (wt:1) | BROCK
-  https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZnI3U3AydWh3OHdzLUJlQl92R19VelpHUGNvY05LWlVYV3pBUWs1TUk0TXR6TkZlMzZkUEVCbFQwZ3lCM3pPWGJna3o4clJvME5pRF9yMnZiU2ZmUlVCYlRLTVlpdkZhWXd4X3NQYUROSWpJNTRwV1pWc0RNR1A1ZHI3NWJ6VUxH0gGeAUFVX3lxTE9ib0wxaHJvMEJXVGFad0NEUzAzMk1NZ1lZRjdoSkpzRGdVaXo5N1ZaaWNUelVRRmk2SVgtaHB1NkRyRFlUN1k4T0VpR1hMN3FITWdQTmwwT2tTQmlrcURSMnNpNGtkNFY0RGJlZkVhTFJiYWVfbFdQSGJxUnREQ29FNWxoTFFRNzNQWDVkc1JfTHNwcVQ1M0hfdm5nS1dn?oc=5
+- **Private Credit Funds Generally Deserve Praise, Not Brickbats – Asset Managers**
+  Family Wealth Report (wt:1) | BROCK
+  https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSDZpNWpCTGJpbEJEVzZmdENhcWlHa19NREZaUG9tTmR1eThzcFBNTHpYblNtN0V2TlBrdlNhR2pIN3JGYkEzOGZNdTI5QjhzOEZsY2tFZG9HUko3YTc1ZHpRZnhlUWZhNEJxVWhnVUhPeDJYTkVLcndtMzc0aDV4X25KdXpxSW9wc2c0V29jMmhRTFVHWkw2WTI3SkhjaFV2R29SRGZpSHZtSHpGYUExc0o1emhyT1VzZ2pCb2xqTDVyQ243S0hwNTM3Nkd5TzJ6OEtqV0RaNTRndDdoQnJR?oc=5
 
-- **Inflation surges to highest level in nearly two years as energy costs spike**
-  Houston Public Media (wt:1) | HENRY
-  https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTUFYLXhEaE5BeUFjeW1zNWVSM1djazlqdkZLYVdMVkVGMzlFYmpwU19tXzMwRzQ4SmNiU3NEV2pYV2MtU3dmMmVvM0l2YUVOTzJKRDl2dFFDVks5RVVaQXVJdW1HSzY4SFZ0QXBMSVFUT0VGR05Ya0NSaFdmelh5V0NyTDMyazlaQkNDMi10N0ZjbUxhcTFLY3prSGhvdHNCb3cyQk5WUHBqRGpWSFNoa1Q0UW1yZzhPRVBOdGlYMEtmdzBVdmJCaHFxUlRKY3phbXNvRkNyVQ?oc=5
+- **PGIM Launches Private Credit CIT for Defined Contribution Plans**
+  401k Specialist (wt:1) | BROCK
+  https://news.google.com/rss/articles/CBMimgFBVV95cUxQcXk4c251YjNXeXZVVFpNeFBFTDE5WDRkVFdxZEtDYlVXVy1Bak9pMUdwOXVjLXlNOXRVdTZ0aUF5MFRsRmJyb0F4UEVVb2NxWWRJM1RoN2U5WW91ZTZBSmxmYnp1ODJjcURqOHcwb2J1ZWxreWtnMkxiQktKZm9SR0tmWjloZ0xKVktucGI2ZmZoQjhUdEZTSTB30gGiAUFVX3lxTE9GdGVvUU5CcHVFenFKQWEzdlY1aV9ocng2ano1cG9BQmFtc2txSDBZWlhKRWE5UzBja2g3V0J5OVNRSnlkMHRTMVNpVms3UTFJSVZEa3FWVzBBalRZbmkzM0wweTBPMVJwTG03bU5xcmNHbWdGREZuNVVibG80WXNvOTlwckhmUVFZOGUtYThINFlxdGpGUDNBWFRrQ3NuOUdiZw?oc=5
 
-- **Nikkei (JPY) Overview**
-  CME Group (wt:1) | SAM
-  https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUXhmUXM2OUlEaFFkcGgxb2VScmpiR0JSY0RKc0ZoT2VGWHF6RXRHcWR1b05jVFI4SGh1TzBwMVRTVGVVSTVSVVFKUDhfbXhlcFJKbGRMblBzSGFUdGpDVnlTcmFDQi1YTU12WGk4ZE1wVHBKRTloVF9YQ1NpMHNQS2ZSM01ONUJsbHNr?oc=5
+- **General Staff clarifies results of strike on Ryazan oil refinery**
+  Ukrinform - Ukrainian National News Agency (wt:1) | HENRY
+  https://news.google.com/rss/articles/CBMitAFBVV95cUxNWkNGRkhlQkdMT0l3bC1uNmZWM2Y5aUtwekRBVTdRT0c2WkZCeWhPbjZwUEc1MWprUnRwWjI3UUk3ckEtc3hTRHU3Zkhxb2dXNVRQelRvMEQwZ3VTQV81RXYyRHcxeVZBcDE5eUN6Mlh4X1N3Y0pWTWdBUFhSaDZ3OHRTc01kVl93ZmhuM0tJZjFSSU9WOWZSNUZRakNaM0pISDl3T0Nvc0RyUTRIaXhZUnppUErSAboBQVVfeXFMUGhNYWQ5Q2xHd2hrbTIwX3JmNjJSU2c0WlhRd09tR0pja3hXR0x0RWp0a3pEdm9yWGlTVlAtQzFlNm11T2FXS2cza2Vmal9UcWp4a2F3VnVYLVlBQU95enI4RXMzZ2o0bnMxX291azRTZnhIRkJnYVNReDhqQjRXUTFyRDRlcDJPUVZiTVRkc2haOElIOERMcU1EZ0FpdDBkMkZuaWxzRUZxQnZ1VGo5RjBZY1JmSkRkZzJB?oc=5
 
-- **Berkshire Hathaway sells yen-denominated bonds in first such deal after Abel took over - report**
-  MSN (wt:1) | SAM
-  https://news.google.com/rss/articles/CBMigwJBVV95cUxQWllzOGNDVVdjYlliY0V5bXNiN2hvbk43MGdtNldfYmVsQTd2UGp4SzlKNWdfVnlfX3RydWJuNWlpdUVqbWhaYlU3NU0xdWNpZUg1YzZja3RiazhnVmFLY01YVUpfRHI0a1JrcmtTaG50Y1pxdlNyYmZjRnFNTHEyZlVERzJFV2I1d3dPT0s2WFRLRlBCSFVwcWVCVVpUb3h2SWlKaWlIb1kwQi1hMHR5eHgyc1ZHM2FxWmlXejUwWllFT200cHd2RmxuaTgtVXVyYWFpVzBOUXo4Zk9wdUc2ZmJ2cmJlVTVCOTRaUW9UTkRVejlNX0dseTVxRFljcE1BWE0w?oc=5
+- **He moved into a Buddhist monastery. Then he heard about the big refinery going in nearby**
+  OregonLive.com (wt:1) | HENRY
+  https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdzBFR1lRaWtLMkk3VDR0akl4OUJlM3ZZTnBkcXlXRVBWWTl5RmxXeVgtWkdrdWY5RWIyaWZCZmNSSnpJTFNJMmZMRkkyMkZ5ODAwdkJhWjA4bHQ3WUVocS1hOG1iazY4QXpGOF9qRW1MRUd6VzlBMG8wTlhQYjJUTXloOEdyZ05aaENVWlc3c1hrMEthMUJSRnVjVnNSTURjOExXanM2WmFTenFTdmE2U0FGRWlFenY3X0x2YVZPZnUtS3pqQXpZV0VPakpMdEYxVW1scTJR?oc=5
 
-- **Japanese Yen drifts lower ahead of US CPI inflation data, US-Iran talks**
-  FXStreet (wt:1) | SAM
-  https://news.google.com/rss/articles/CBMiswFBVV95cUxPbXZhYzdSY1g2enl6V0tyYjM0Wm1tczQ2bWhMWDJiVUlpbjViQTk2NlU2MEYtM0tQU3BHME5reFdpeHUzN1lQSHJLVEUyOENBMGgyeW5sb0VHYmlnT0ZCZXhrd2dpVXN6VUlzSXpzRm9RQlI0djZFMVJubGJvcEk1Z25rczJHVVVwb3NDMDdrdGU0NjJtUU9PZHNOb1BFVXUteWZBMFZ1UG1kbzRDdWVJd3Rpaw?oc=5
+- **How much additional firepower does Japan have for yen-buying intervention?**
+  Investing.com (wt:1) | SAM
+  https://news.google.com/rss/articles/CBMivwFBVV95cUxOUlpieDRzT1NabnVLd1NsaDEwNjhTeTJqSW52VUdTWmptUGdES2cxZ2JLSlhnSTk3Tl9ZcTVsWnR6cXQ2VGN5UjJXVEczUkJpemstcnE2QnZTVnlkRlRJWG51SVpHR1pjWl9xcndmWFo1a19mMXlKdDRmMzhTNjRZVWJwMjA2OUtLOXVLZEs4R2xERDNEbUJoQ0dhUXlFZ2o5YWtHNUZtUW1UOHVMVWI0U2ZYOWlUU1dDS0RuS3lhaw?oc=5
 
-- **Berkshire Hathaway Sells $1.71 Billion Worth of Yen-Denominated Bonds**
-  marketscreener.com (wt:1) | SAM
-  https://news.google.com/rss/articles/CBMivgFBVV95cUxORFE5eUVUb1Z3WDRER285aVU1dXlWS1RGQWFoamxQbi1jUWJDQUN6MXV4Qm1VMGdraVBEUUdSRjVvQmVKQkVJcllwQVdtdTdkVU52WVdPcG91YS1KN1RpdEJQQ0VJUTJSTWNvTmM1NDNsUTdMaWpDWjgza2FxS3Q1dFVvUGN0OHk2blg0MzVORGNyRy1abVhVczF3bkpwa3JQRmhWWlJBY0RQeS1zNHdaWWhkbDAwN3RYdVBIejJB?oc=5
+- **Alphabet’s Record Yen Bond And Anthropic Deal Test AI Valuation Story**
+  simplywall.st (wt:1) | SAM
+  https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWDJZZG5wdHFsbmFhb0xjSXQyUWkxSXZVV0FXUHByUmRjdnZMS1dfRHFsaTZkR3Y0T3BsUUxqOVRpelRvZDBaaloxUHkxU1A3dUN4ekFLeWVBRC1GV2VLSjRHdlhsM0hZRmlGUmZsOGg3Y0FGY1JzUDlKVDZycFo3bURXVEk0OHJQdTdqNHA3UVFKUFZ0RXV5U2pjNUxZVkpWTWxCVnQ3ZWQ4bVM3ZmxkVWZLa3lQZ1dTOFhlcmpNMG8xd1HSAcgBQVVfeXFMT2VFUm9GN1I2NmhlVzBUT01XdHNzMnBDM3hwOVlBVG9WMWVGWDBPYkJTVmpqQUpvelJJemJuTUxiZlljNGl6c1BkVlpVR21acUhXanB2bzZIRUxReUZoR29XUEZoenNXSlhnYXhPN1RnNUltTDJHZXhBRDhTSTF3QWRTcDkzSG9WVTFpbU1Cb250bXY5bV9IZXRhcWl4VDJsQ2YycGgwWjVTeXJOeDloSEVNVmtONEl3cVBRSjBIRW1kZXpNSDNSVHE?oc=5
 
-- **New CEO, new layoffs? What Disney’s story tells us**
-  HR Executive (wt:1) | LABOR
-  https://news.google.com/rss/articles/CBMifEFVX3lxTE5COHhCVmdQSWdHSnV3QWtyR1JNc0g3VmRHZVhGWVBIMnYxNTNoNHdwX3VpMnZqaTVHdDh6dk5yN2VYNXZZTi1pYVRUT1lka0trNEh1N2xfMVEtanFQQXF3RFIzWXRDNzZOcjJ0Tl90QUROTjFpMFp4U2FhQl8?oc=5
+- **SBUSD finalizes layoffs for 2026-2027 school year**
+  Santa Barbara News-Press (wt:1) | LABOR
+  https://news.google.com/rss/articles/CBMikAFBVV95cUxNXzFEVzh1Vk1CUTJuVVVMSDBmUzdPQzhjUjZMbndjU3pac01lbEsxM29KZ2x2M0FqNTBpU21iYk9lU3JoR1U4Rm4xQUZvQmtya0c2bVVfSklQcWpTS0NEbkVvTFRfYW1HbmMyQS1YWEJwWEhuZUdaU0pxNkJEYWJ1dVg0QUxOZ2MydUhldUpTNHU?oc=5
+
+- **Microsoft-owned LinkedIn cuts 5% of workforce in latest tech industry layoffs**
+  MyNorthwest.com (wt:1) | LABOR
+  https://news.google.com/rss/articles/CBMickFVX3lxTE12Y2E2Zk5WN0tPaVNZQ28waXJJVEdqeVpuSHNKODJOQ1B2QnBKOVp3WWNFbmFTRkpad25yQWdwYl9YdnV0QUJBaFlQZk5Za0lDcENIUWN2dThuQWdBRmlkX2R6YWwxbXM0bHM4UTUtTW56UQ?oc=5
+
+- **Cisco, LinkedIn to cut thousands of jobs in latest tech layoffs**
+  KRON4 (wt:1) | LABOR
+  https://news.google.com/rss/articles/CBMipwFBVV95cUxOb3dSSkVmM0xwYS1OMmpOckgtOFhpZGNGbEZLLTZzS0I1LUxWZVYtQlplZ29VNU5RdHNBWEF4X2dJQVNadHhKc0RvTHVHM0NVSTdvZVRjaUlRaUdJUzIzc29MQXo5N2hTZ0xjdm5wSGF2eUlvbzVHQUxtQjl5VndvV0ZyYVJ6ZFBSeGVLb3ZWYk52aWJ3SWJkV0ZKTUN5MGNhUFdXUE1XUdIBrAFBVV95cUxQOVJvZUlBSFVtM09uSURCSlNJbWRCeVdfVGxJUThWSTI3aHptSWlfZktkMjhvZjl3RUFoREZzRTdsT1JOSDFHelVmc1BldEY4a3hRLXlzdEdGWGJDR05hNjJmWXZ5YVVQN0pka0VIOEh4UG5KcnNkZENZUVRUV1RzNmpqYmZxNld3Q1gzaUFBWnJ0QzB1WXdobnVjZVRleEFfSmhlb1E1QmhnVDZu?oc=5
+
+- **The tech job market is a bloodbath. It's likely going to get even worse.**
+  SFGATE (wt:1) | LABOR
+  https://news.google.com/rss/articles/CBMieEFVX3lxTE8wSjVNUDVYRk1DdEFlUFlvZDZwOTFOUV9IYWc0dEE0WXRYa2E0X1N6WGFIU2RONEVVdEc4RTNQTWRKNWVVTWdFT0d4ZVdldDcwYjFxbDNfS0cwZHBhcVM2cmpQUU1XZk1rVkNWWkhMTktYb1FadDVOeg?oc=5
+
+- **Starbucks announces more layoffs**
+  The Seattle Times (wt:1) | LABOR
+  https://news.google.com/rss/articles/CBMiugFBVV95cUxObW5kdVBhMnJYWFlMRHBxRnU2dm5GTklucnpVUm1xSlItUHBsRG1mdlNxcFpFZXg0MldOem9tSVdrM0JxTnVYMklvcVFkcDZyYUJsemF4UVpIUkpnWXVjdXQxZGJjNi0yZWxjRHlQYzZ6ZmdadzR1T3NYdUltSXlEaDdYTGlmOFFpR2VSQ3JGcUsxM1lfak9rMHQ5dUQtUVNDSHhEWTBnSUpDeHBMeE5yREFxa1gwLW1fWmc?oc=5
+
+- **Washington state tech layoffs are second highest in the country**
+  KUOW (wt:1) | LABOR
+  https://news.google.com/rss/articles/CBMilwFBVV95cUxOMzFsQkE3ZkVfa1p1azRCX0drakkxUjFnUWFWNlVzYkxPYklZZ1ZYdFlEbEdEbUlabkVJUGw0YlJUUV9QVEdyS2llNzBTandOcXFpQnU2amRyU0JZZklabGJEZ0xiQ0M0bFBPWGFKZ3dTRlEtUWpoaE5RT2NlejY1bmQwaWQ5NWgzQUcwdlRkQmhjUFVHMGZz?oc=5
+
+- **Executives are blaming layoffs on AI, but research shows AI is 'not the main driver' of US labor slowdown.**
+  Yahoo Finance (wt:1) | LABOR
+  https://news.google.com/rss/articles/CBMi8AFBVV95cUxQMExtSHhKWkU1STE4QXZsODVQMHR4YldoTDZGQllLVV93SHN5Y29CMTdKUTBVcVBlZnc3UDlLX29wVHRnUVZVZjVua3NaY1dYdlVfR05JSzZkbGw1bkVjLWJYck9jeHphbExFVW1GQ0xBUVFQRHZwUmNVRmY2Q2FFSlVhYU0yM041eUJPZWpDVWZWSmxXMGVEWDZRbURNdUdYLUZtMnFHUFl4M2FCRlJlM3Z2YmVINUxVNER4RUNhSGgxb0lROVUzTjRkZWlraDdkakhhS0QxbTROb2RMaVV1R0JxZUM1VW9YSEZBNEhFRXo?oc=5
+
+- **Gambling Layoffs Pile Up As Sports Betting Industry Recalibrates**
+  Front Office Sports (wt:1) | LABOR
+  https://news.google.com/rss/articles/CBMimwFBVV95cUxOdEhHbkdWZXF5YTRpT1FxMVlNc05iVzNKanhtV05DLXN4UFJlZWRVTGVjN1kxTGdhdndaVkdRdFlnbGZrTnpXQzFGRVFTSkxPU3JnTktlWEZwOHc4LXluZW9aRjEzVGg5RnQyaVNBUDlfYUZjTVFDZlFjaFdTeW1yOXJwLVpKaWs0NklYRm4yTWhHbFppdFZqcmRzMA?oc=5
 
 - **2026 tech company layoffs**
   InformationWeek (wt:1) | LABOR
   https://news.google.com/rss/articles/CBMigwFBVV95cUxOWjYtTERSWHVxM2xtWEc2bkYtdkE4Nk45WHBvdVdycmpKTEprR1pURVVIZkZJRXpDUzRRaTQ5WVRwRV9sNENyT0VmRWtDX1NmLWtBeVpqUUpzRHUwQjI4ZUxhNXBncEx5cnZZYkstTnRmQXlSbUdkUzFTdnBHUERKbUU0cw?oc=5
 
-- **'My prerogative.' DuJuan McCoy addresses WRTV layoffs**
-  IndyStar (wt:1) | LABOR
-  https://news.google.com/rss/articles/CBMizgFBVV95cUxOQUI4NXlvNEVabUswNFJzcVhRYlczQ0lndFNnNEdkRERCa1ZINTJFTTc0RzY4cG1nZUpwbzRUeWtpWFdDdGs2Rk9ESzJrbHlLRVlLaXRmZUgzeEZxSndiSjhtYW9LNTRNWVcybVE1aEh0cUxuZXNvX0lJS0ZsaUdIaWtxRmI0NTNNTGkzVFpNQ19zWV93LVhLaDd5VFRVeWh4V1NfR1NRb1JQMFVoUFpKRG94Uk1zdzhZTl80NEc2V2ZnMUV5SnRzZ0Rrci14dw?oc=5
+- **Our Path Forward**
+  Cisco Blogs (wt:1) | LABOR
+  https://news.google.com/rss/articles/CBMiWEFVX3lxTE11R1B4UEJJR1UwNnh0MnJVeHVkMmpQWnEycmhKQUdQdWhkaXZfem9NSERNNHlydXI5N0hDcGFZZ2ZZZkZHZVFmTkozUUlVSkRmWjN6OEZOWXY?oc=5
 
-- **S.F. unions pledge to fight ‘every one’ Mayor Lurie’s proposed layoffs**
-  Mission Local (wt:1) | LABOR
-  https://news.google.com/rss/articles/CBMiiAFBVV95cUxOalV3ZXFxcXQ3eWtZbmlVTXdNTUJ3NlZkNVJhVXU4Q3ZQVW9nWE9FZm05MjF0TFJBSHFJNnJNaGtRVTdoSmtCWnBMdjhUUzVuWk5fd1pUc1ZSREFaZnlYSUc2ZGE2VUlOdF82T0p2b19XYnU1aXQtNmlhdW9URmhDaldRcmdqeVRM?oc=5
+- **‘Good, not great’: What April’s jobs report means for HR strategy**
+  HR Executive (wt:1) | LABOR
+  https://news.google.com/rss/articles/CBMijgFBVV95cUxPYWpxczVWYl9oY2J1M1FEdGlhdWtZc3lVRUkwY2VwQ3h4LTVnNzBZMmtoYkdsc1ZFTkxzS3NRYkk1eVJKUHVCbGMxM3ZFemFfQUhBUzYyZWV2eGdVeHF4a0Q2M1U1ZExtR0REUFUyMTVWUndMTkhUdHhyY1ZKMl9Rc3o0M2lzeUtyZ1JURmpn?oc=5
 
-- **More Layoffs Ahead as San Francisco’s Budget Woes Persist**
-  KQED (wt:1) | LABOR
-  https://news.google.com/rss/articles/CBMilgFBVV95cUxNYjJlczU4ZXhzSkhvQVdkWlpUbldVcTJ0MEpOeGxjem92Ry12RlhzaF9JWVNtVWs4RUNSdDYwT2dMSXIzdGVjcnhabjBma1AxZHJNQ0pwQ2QwcENGcXByVG5VeHNuckdoemVEUVV1QVlaRXItSkhUOGhWQ0VZT1JPVEJsX1ppVjFhc2RpU2lyQkhtUkUtZXc?oc=5
+- **Acting Secretary Sonderling statement on April jobs report**
+  U.S. Department of Labor (.gov) (wt:1) | LABOR
+  https://news.google.com/rss/articles/CBMiZkFVX3lxTE9rQ093S1RpZWJvR0FvYzdMMk5OX284bjZNOGtQYzdRSGR3YzJxSjlJdUN5dF9ENk1WN3JuQmYyTE1GakxScUQ3QThYQUZDVjRyV2RhQ2tpRnJiTjFWbk1PUGladFFkdw?oc=5
 
-- **Pendo layoffs AI | Tech firm in NC announces job cuts in Raleigh as part of company wide restructure**
-  ABC11 Raleigh-Durham (wt:1) | LABOR
-  https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaS11eDNkWS0tSGxhbjNFY2xqNnBwZDJKamE3S0pyRGt1aWFzYlhXRVlaaVI5RW1TajBUczFMV2pVSWVMMVY1bzhtU3RYbF95NlFsRWJsQWNKWGJzMThWbmFZYk1lUm1tRFg2OTk2ZVJMUlhSejhCSUZfQTU2aGRoWmVQVXNoV3puNlgtMUZhYWpnVXR2VmU2OG11MEQwY3Bpb3JqeW9jcGM0ZEhmSGhmQmJaYy0teWtGNEJ30gHAAUFVX3lxTE9ZcWtHbkNWTW83TndfdDdOUXhFV0xpelEwTWtxNUJSeEsxTkE5T3hscVV0RU1FU3lMdnVMYkdmdWltcmdlWS1SSTU2MDhEZU9RT1U2UGNPY3ZMeTFId0pIVEFDaUszUGlkUERFbFV2WVpxa1BsbkN3SWZyeExNU0ttRUppLVVRX1FwRms2TWlBd2U0Y1N3RTZfRHEtWlJuS3RwNnJNeXFSMlFoWVJLQklNaEZ5QXE0ZzBleV9JSDRLeA?oc=5
+- **Here’s what the April jobs report tells us about the economy**
+  Tire Business (wt:1) | LABOR
+  https://news.google.com/rss/articles/CBMifEFVX3lxTE1CNHZOVVJwVkNMY21YSVp2UlRkb3BjR0VRWHZIYXJ4cm5VM2JIcExwcER4MlJmcXNzb0tHOENGVmxydlE2VHEtYzRPTWc5Nm1jc08tajhVbE1jdm1BWDAtRWs1eS0tODNnZEE2dEQzUG5kR3hqXzJiNEZJZ2U?oc=5
 
-- **Qualcomm Announces Layoffs In San Diego**
-  Newsradio 600 KOGO (wt:1) | LABOR
-  https://news.google.com/rss/articles/CBMirAFBVV95cUxQWWROeGZ0XzdpcTcwVGN5Z3ozUUdpZUJqOFBrcF8ybGdkN2JEWC1NanBZWDNjOGJDVndZNTMxRkRibkF4c09ZQjMwakZaa1laUjZWdmIxQktmUHNxOEZYWmUtVE5DanNiREpFemc4YnJNTGVrWHd3ZHh1SE5MTlkxdGh1SGt1Rmktcms4VjRqSjVndFBvNXBpU20zcGh2WkRqZVYxUjJoUVpHd2l20gGTAUFVX3lxTE1BczZ0eHlXMk16dUhJcnRvdDdBVDBXUEpuck5uQmVOdzFfVmFZeGF4R3lhWEdianFOUTFuM3lqaG5yT0E2TUU2ODRVT0R3U3FUVEhNUE1YQ2FmVE1jYnFaaUwxdDlsRWlPdzVKU3dfVkFmTU1ibzd2TFlLMEh3bUx5cmtPMkVpMTlZUVBDSk5LRGladw?oc=5
+- **EPIC Jobs Report for April 2026**
+  The Economic Policy Innovation Center (wt:1) | LABOR
+  https://news.google.com/rss/articles/CBMib0FVX3lxTFAxcFNhQ3c1TjctUHhLVmF6T0Jqa2lfeTBTSFFmcDg5d1VfejNsUkZ3THFxQU9DV1hRbVhTRGtnRXFtY2RfZmlpTG5UZlZJanBtcUUxSVFJYXhSSjZseG9aRUQxR0tHY0ZvQmpjbHBkVQ?oc=5
 
-- **As layoffs loom, 86% of LAUSD digital instruction contracts went to private equity-backed companies**
-  Private Equity Stakeholder Project PESP (wt:1) | LABOR
-  https://news.google.com/rss/articles/CBMi5AFBVV95cUxNU1M0ZTdFYXZZYXJYMEIyRXhiSnBFdDFuMlFLaXA2ZnVUZ1RYZnRnRUVQTmhGY0ljVFQ1ektGZVp2Y3Zsa1JTRnpuUV9xQkZobVJSUEdoWUpCVkpVakx1NlpYV3ZKcTBRaU5faUwzOTJJX3E0MHdBbW9PM0NubU5tUzM0Q0hycUxFU2RUUzVpVHVhcFRVSlpGaEQ2Z1hpWWMzVVY4R1hBWXV5dHVXMUFnNnpNcl91SHowNTJoVXJKTExkd0xobWZ6ekdMTEtPN2Uzb2NNYkNyZ2VHQmlweFdzdkV6Yy0?oc=5
+- **On the April Jobs Report**
+  CounterPunch.org (wt:1) | LABOR
+  https://news.google.com/rss/articles/CBMic0FVX3lxTE9iMUFaN25WRUU5c0hoMG1OQmRPVXluYWZESWk3NzBtbUZQUnBPWXhZLWUwTXBhTlB3aU5nbzZJRUNIbVBTbUNhdjh5eTVHeHZTdjd5VldSV09UUFNPMjIzY2thal9YTURQVEJKWFdtMjk4MTQ?oc=5
 
-- **Proposed GA tax relief measure threatens teacher layoffs in schools**
-  thecurrentga.org (wt:1) | LABOR
-  https://news.google.com/rss/articles/CBMipwFBVV95cUxNZnRVZDR4R1pDOEFYRWk0X1hyWGdfRXZ2enZ3aWloZ25NdzhvLUlQdmVyRzh4RW5KQklDbWlyZFZ5YzlzanJYS2hEMVVMUktUXzVmdUphX1kxWW9RbjJtUTRCeGJEaWRUZDRBRy1PYmdxbDI5NlJGZXgwRzU2bGJEMFRWZlZBWWZwUVZ0VmF5OGp5V1NQWmJtUWZhWThuZFcwV1pkREYxOA?oc=5
+- **What to expect in Friday’s jobs report**
+  CNN (wt:1) | LABOR
+  https://news.google.com/rss/articles/CBMidkFVX3lxTFB4QWI5dC1wbXZsUjNyc3JwTHBXY1ZaLW5NOHAxME02VDlnRG16NWdtQmxjbncwVFRnWWRwT3oyV2swa3dUVUlYeUllT1RSTlFaNUpXRGxPeTIxYklacWJ4N0dYUDlmRHNYVWdrUWhtQ2lKODBtMEE?oc=5
 
-- **Layoffs surge across North Carolina**
-  WSOC TV (wt:1) | LABOR
-  https://news.google.com/rss/articles/CBMingFBVV95cUxNSWJRLXc2elVyMy1IUnA2a0VRWHpyN0pjemdaWGV2WWxwOHY1THlaLTN5Z2lORTNLZjRpTWR5YTFkV2lBcVRITnFkbWotYVdNMEFzb0p6T2lsY2xtd24zXzJ3NEhOQUgyNUNRWmF2RmluUWZFSjBaQXR0aUhvYWhvM2JCTnhzOEEzNVRmc09pa1BlYWF2MEZmdU81bUd4QdIBsgFBVV95cUxNeGFnYWFESHQySm5TcEkzT0M4bjJZd3NxUXRvMndBbmZsZHI5YkNmWDlaOFBwZ1RVRDdTSk5fZ0VUdWkzMFRUX2tXNTlJcTdocjV3dXBkcDlSendNNmtrYmU0Z0s4RWtGN2xPRXNtYkVLZU03U2FpYnZPUHV1LTNPZFJtLTRYUlE0VEJhcWNKTnZRVGpQb2p6Wkx4QmRJOUIzOUIyeTBUQ0NmaTJGWHByVjBR?oc=5
+- **Breaking: Nonfarm Payrolls rise by 115K in April vs. 62K forecast**
+  FXStreet (wt:1) | LABOR
+  https://news.google.com/rss/articles/CBMimwFBVV95cUxQbzI0UTYydkVpNjZ4VFcySF9CUnpBSk9yZkxtVGdHSGhZZVJjUk41QUtmUUxDT3UtalR4enhNc1NYd21uQWZMb3I5WmwwVUp4ME1uSGJoUHo4Nm1Wb0JpNWhGWjAzNEd0T1M2eF84ai1iSDcwYW1HT3R2YkFqN2RGM1FGczJVQXRDbFB2Ymd2Zzl0YWVPeGZRN1AyTQ?oc=5
 
-- **March Jobs Report Showed Modest Hiring: Bank of Canada Expected to Stay on Sidelines**
-  Morningstar Canada (wt:1) | LABOR
-  https://news.google.com/rss/articles/CBMiuwFBVV95cUxOR0gwX0xMYjBCdHZncENKSXlwZFY1TDk4MlpETVZxZ1hQYm93VDduOEllSjg0bXRlN2t2Z3FfN3RhWFVUNEh3WFNhREhuWXBSTHhpWGNMWGxfOHN4eVdmSngyWUlyRVROTDktTFlRcUEyYW1lOF96VFVfTHJneWVQRG4yZEFoTU1KTkJwX2VpQm1DajEyb2pqa0E2dmhqbUtSUlNyMVpkTGpadWN4ZWozTjc1cEJiVzdVTTJN?oc=5
+- **JOBS REPORT: Trump Economy Roars Ahead with Big Private Sector Job Gains**
+  The White House (.gov) (wt:1) | LABOR
+  https://news.google.com/rss/articles/CBMitwFBVV95cUxQMkRvUEYxRDU0ekJDRTU3WXVKMUhaLWJaSDRldEJpdXVIeF9HaU9LRGZsT1dKOUxsdDZEbjFYYUV0Y1Vhdi1tMVVPd04yUmpaTUlmYkJtWWdLdVNxdFY5OHNoVXBWNF9vTldSNmtCR00tcTQ5d0dpQS1RempaYjFjOEI3SnpFV2RCQ2JMdkNWbm1LR1dCWW1HWGdIT0ZGcmpaUDdUQW1ISmN2Ry0tOHVzR2hLTWtobEk?oc=5
 
-- **A strong March jobs report, but a slower path for new graduates**
-  acuoptimist.com (wt:1) | LABOR
-  https://news.google.com/rss/articles/CBMimwFBVV95cUxNOXZGRlV2a3BiNGlNTFlzZHdqZklnLUJmVTJZcXAwMEljamt0NGxSdFBocVkzSW1kN2JzT1BmMWh5NHZ6TnZ5ZWRRVTI1Yjg5d1RiSDQxa1FJamp3RlFNS0dEb1Y1YWprRVFDSTJhVEtVLTBQSVMwcFRmTWNSd0UxM2VYSEhoVWhqM2h0N3pZM2M2cmVHWWRzREU1WQ?oc=5
+- **Employment Trends Index rises with healthy jobs report**
+  Staffing Industry Analysts (wt:1) | LABOR
+  https://news.google.com/rss/articles/CBMirwFBVV95cUxQNzZsYkNZbHhIbXJQTnFoazg5MTg3ODlpejJQSXUzckV2bG5RRzcyYmR1aDVHRWlUVFhnTVdMWTRoZDBmVWo0WEJNT3lFN3BnM1hDYjE2eG1iUnJfNm55QlpyUzl4ZXlOWGY2Y3p3U21EdnNGcl8xUS04Z1I1QkdqSTJLTFFoU1dUZFhaQU1BekNrTGRFOFZNVmZjNXdtWEREVWcxdUFXN3Ffck9yT2xR?oc=5
 
-- **Canada’s Jobs Report Was Steady, But Pay Growth Stood Out**
-  Finimize (wt:1) | LABOR
-  https://news.google.com/rss/articles/CBMijAFBVV95cUxQaFI5YTV6NEJNdUdnMkh0MExQUEhOMG9IMnVJZ0ZKMTBZSXFZQ0p3SEJLRmNIUmJoT3Bjd21jV1hxSEVFZGpzR2pLSnRjNGhNb3VsQl9YRVZnTl9tb2tKRVlyQndiUkhZbm1pS2IyUFdDWkg4Z0ZlUExRc0syTlhCRmpUaXRHWGlIcjBtcA?oc=5
+- **Jobs report showed hiring slowed, but exceeded expectations**
+  ABC30 Fresno (wt:1) | LABOR
+  https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTHNYeEx0WG0xMjJEZmFmTjJOTTZ1TC1IMXF6MTc1YjJoRnZyM0l5LXh6QkxGN1hLNXNxVXZCVm5xcnhQU3NtT1pDU1ZFZXJqT1BaWjBramZSN0J2c3hLb1VqaWUzMFUzRVJXS0kydEZMUkQ4U19hRGdYNXJnbDRZVlRyY0phRmIycndB?oc=5
 
-- **Sen. Rick Scott calls Florida's latest jobs report 'concerning'**
-  WPTV (wt:1) | LABOR
-  https://news.google.com/rss/articles/CBMinwFBVV95cUxQWFlMQkNHRV9CZGltcmcwSktWMkpGeXp2d0NLbW4ycVFUN0lXeVQ2QXJPbkFuRFhoOHJfM2pSU2lZSUJfVFYyQVdzTUwwVmpKeVFIVmpFc3lVV2t5V01PQVRpQUc2QzY1Qk1UR2xWM1pRV0lXQzAxTy1YeGQ4Y1AtRUsxcS1COXlXZ094RXZCWWhkWVJuUEJoUU81eTc0U2s?oc=5
+- **April Jobs Report Resets Social Security COLA Forecast**
+  24/7 Wall St. (wt:1) | LABOR
+  https://news.google.com/rss/articles/CBMiqAFBVV95cUxPb0hQcFNlWUF2MFE3TUh0UmhTMFhjS0hQWEdPRGdNcnVEamtTYV9rVkxoSEc1dmlRYUNaY1dab1B5V3lGMnl1WV9mMVAzUno5MF9aaERqTmtnUDVVMlBBLW9HUE5oNUEtRjE5YUVkZm1yWHEwSkxCYVo3UnBYUDBrVjdQMXRMNU1oelVESnFIaGNibGVwTjA5UnE4VnJDVHJGczN3NjBkcUw?oc=5
 
-- **Friday’s Jobs Report In Perspective**
-  The American Action Forum (wt:1) | LABOR
-  https://news.google.com/rss/articles/CBMiigFBVV95cUxQNUlIQ3RCN2JoNmhTbzY4OHMyUkdWSVo4RHo3N2pIMTZkOE83dGJTVzd0XzJvY2hSRUdLODg4MEo4aDR3ZmZxanI2QjJNUEYteEpCazdfTUp3OURzUFpjcF81b2ZfSlRjanRhSEE5T2ZfTTRyTWk3djhoVXFvamlRdU94S2ZTb2dvM0E?oc=5
+- **What a stronger than expected jobs report tells us about the state of the economy**
+  PBS (wt:1) | LABOR
+  https://news.google.com/rss/articles/CBMitgFBVV95cUxQNTNGaEZPYV94M2NiX1JWMDNfQ090TG9lOUZOdGlCMHlRWjhjbDVrTFZxa3FOeHlBYVhERjRRUS05TW9GZlVpZWp4TVdmVVBRNEVhUmZoUUg5ZGFyUFdaZ3ducS1oei0tU0htVHliaGVMOC1JYllwd19oR0pmeWdRcXpxbnRNWTZQbUtpdmRoWHl3WjlEYjVfSUE2bU4zYlR1cUdpbDBNU3NzVHFDLUZQd082bWVRUQ?oc=5
 
-- **NFP Acquires Minnesota’s Sherman**
-  Insurance Journal (wt:1) | LABOR
-  https://news.google.com/rss/articles/CBMidkFVX3lxTE55NkNEeDRrYzhUU2tlMEd2bk03VDZFV3BRVk9SUWM1UmNGR0xZNHJVMFVCNVhyOVpvNDEyNk16Szd6S0ktLXA1WGRENVhsVWwzYkZWMXcxQnBxSVRzTnl6X1hfUU95RlVWMW16WjN1WUtpZG51UXc?oc=5
+- **Understanding the Realities of Private Credit Stress**
+  Connect CRE (wt:1) | LIQUID
+  https://news.google.com/rss/articles/CBMikgFBVV95cUxNZkJyeTBQZ0VYNVJad19BVXF0Q2RYbEthZ3Z4WkxuSzFDeTQ1YXVDVUpxeF9kZFpWS3hRNEZlYVRxV0NMeUFGR1dDb0JzRTZjWjNHTjFSc1dUeURlcUpzR0NTd3ZqMXJRcHRzUVc2UFNsVWZudmdHSHVjbE5vOWxpb1NaUWNwbl96dVBsRERwVnJwUQ?oc=5
 
-- **The March Jobs Report and the Story of Time**
-  cepr.net (wt:1) | LABOR
-  https://news.google.com/rss/articles/CBMif0FVX3lxTE1TbmJtOEg2eXpFRmJDN1MxdmZ5ZE5pbGZfU0kzTVQ3bGpOa3Y4Y2czNm5sT25kVmFralFRM0Z6amFFZEpZdEhycW1jZlJCUEI5bW1oXzRUYTZHWHVRS1VvOGtraU13UDBkUGxsZnQyWGJLVUtTWWdqcm1Gd1haRUE?oc=5
+- **Bankruptcy Filings Surge as Consumer Credit Stress Intensifies**
+  connectmoney.com (wt:1) | LIQUID
+  https://news.google.com/rss/articles/CBMiogFBVV95cUxPakZ0MnZYbzRTNEhnN0VhMU1odXo3ZDQ5NG9xZ3d6QUV5ZU1FRjZ3VGYwczViamtkOEFfcVQyZjZfbGJsbW9BSVNIaG5zbzQtanl0c3VEUjEzQnRvV3E4UlBYcWJheW1nVHBkcS1DRHlUZVdrbmcwVm9TdzZvSndLUENsVmxQZ3VnZzE3Mm5QcWtLWnBodnRkYjVGYXdEdXhyRVE?oc=5
 
-- **March 2026 Jobs Report: A Surprise Surge Complicates the Fed's Path**
-  The Chronicle-Journal (wt:1) | LABOR
-  https://news.google.com/rss/articles/CBMi4wFBVV95cUxNQ2lCamJ6QkxZQ0JUNWU1ZW9CWHhxQjUtMzhyQVlXREozMTJBbFZCYzFuWWNEV1Z5ZC1ONDB5bnVDOUt1S0lfVFZob0ZQalZqVVBobWxsX2NtWS1yMHJOejdjQm5LWVQxQ3NXbEpLRnhKWEpnOWpVQmhfQnAzdk03ZjJEeTRfTTd6eXJEY3Z3bms0ZUxJMnNWN2tlS3ZlbVY3LUdoYUViUi1fUEJFb1VDOFoyVkNOVGpKbGRjWWtrYk93Z1lUYm9wMDJPUEZMem5qU3J5Nl9ud2tKSEx0TGtxNWg5Yw?oc=5
+- **CBRE examines potential CRE impact from private credit stress**
+  Institutional Real Estate, Inc. (wt:1) | LIQUID
+  https://news.google.com/rss/articles/CBMijwFBVV95cUxONmRfN1VPUzIxeEU2WU5qLXpWSjRMeVc2b2ltRVNIX3BWOC00U0c4MXk2WXhQc2J4NWVkcGhzWVpNczh1R0VXTlJkcHQ0ZWdzOUl4TlE4S09QV0VZSng0bDJyOWQ1STJVWnJFcGFUVEZKSXQ1Z21uSmhVVVdFZ1lqMXZ5YXBISzlsV1FNWWVDcw?oc=5
 
-- **March jobs report shows high Black jobless rate, declining buying power**
-  New York Amsterdam News (wt:1) | LABOR
-  https://news.google.com/rss/articles/CBMilgFBVV95cUxNVHA1dzdwLU5xTFRSRVptazZ0cnp1TnhpakZ6T0REVnBoQnQ5djVQamxNUmY2SVZXT0ZCRllLZzJGMkE0UWxNTGotMUZUM0tmYU8wWHZOMDVROGI3bjg4X1p6cTZHV1NCX19Sc0tpcThYOGUzdTFnRVE4ZDBMdWVyOEpNVzRLQ0NqY2lzMVZoRzl5bUpqYkE?oc=5
+- **Private credit stress: financial reporting risks**
+  Grant Thornton (wt:1) | LIQUID
+  https://news.google.com/rss/articles/CBMimwFBVV95cUxQOVdBVjRuQXhJMEM1UFk4NWVHX1hKd2NEczVGcWFiQWZzVm45TDN1OHFOWUpYeHZ5Um1mOWRnSGJlOWVlS2hGcXZ2M1lLX294YWp1U2pnZVFZaE1kNTJoY0VuYzgxWW83dEg4dXRneVM5ajNhdUIzMjVhZkx6SzFiYW5rV1B0UW10dldyZkw3SUt5akh5cFB2bmkxUQ?oc=5
 
-- **NFP buys Sherman Insurance Agency**
-  Life Insurance International (wt:1) | LABOR
-  https://news.google.com/rss/articles/CBMigAFBVV95cUxOR2VUajg5TXdnNDBSOEVwTkJGLVFhYjNZZGVXV29fU0lyNllEemFScmswZUtXa2JmVVVNWmdRNGFNZmJHejIxMTRydkEtMzZPd1UyenFtbkkwQ1RBcnIwZTM4ZmxseTNIUUdKU3pnWGpJRncyS3cwNTUzcERaYTlyLQ?oc=5
+- **SEC’s Woodcock flags private credit stress, retail fraud risks**
+  Investing.com (wt:1) | LIQUID
+  https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSDByV0JFRnc0OXVacHIzRXZtQlFocnVpSHN4MmhDUmhMVnNYcnBySTdiZEFJaVk3ZmZZRHliek9VMmo2dGJKTjE4anREcEQzMUxUaGo0d0dPX0FjNV9VUmwxRG55YXhxZ1NtUFdTZENiQjhPSHl6azFhTnlFYXJhTG1MdFd2QjB2dnYyVnBDYTVvdWk3UjdQaUtCSGl0SU0xR05adWR5Y2RSVkdLUTFJN1BXSlNycHcxWkcyQzk3MTU5MjA?oc=5
 
-- **March jobs report shows strong growth despite Iran War**
-  WCVB (wt:1) | LABOR
-  https://news.google.com/rss/articles/CBMilwFBVV95cUxPbkpmVmJ3TzlTUDRidU90d1BDMExYZERPY1Y3VzlOczBlNTFxekFTOUlXYnc0U0ZiM3dMdktCWXZtUGp6cVZlZjVzcF9QT0ZxeURoODd6NHNHOGVLTVhwTEZjUDdLdi1LSWpYYktGM3pEUzJIb1FVczJueFc2cHU2U3l2RmNwR3l4bm1UYkctUkZub2N5em9v?oc=5
+- **Fed’s Barr Says Private Credit Stress Could Trigger Larger Credit Issues**
+  PYMNTS.com (wt:1) | LIQUID
+  https://news.google.com/rss/articles/CBMitwFBVV95cUxQU3RZZFZzNEMzR0ExY2c4MFVwQ1dYTkUzSHBETklZalVycnQxLXJfWXh1X2c5U0Zsaml5akxNSWVNeTRnZWh5WGk2c3F1ZzZ4TVBOdzV2VV9KZTdxbF9WS3RuVm1pbEdFU3laMjNtTXZ3dGRDTTlvRHJCNmNEZnNmRW9LeW9tODNRcHdsSWRXUDM3MUVuRHgyR2QteU1fM2UtZ3JodjgwcVEzUm8xYWFDSjB1WUJzV3M?oc=5
 
-- **Nonfarm payrolls surge rewrites Fed outlook: Rate cuts pushed into question**
-  Seeking Alpha (wt:1) | LABOR
-  https://news.google.com/rss/articles/CBMisgFBVV95cUxPenBhQUw3a1BRclh1OGRKcjlST0ZjeDZ6OEEycU1QQXdNSEFKTnNfSzkyRWFvVkVIc0Nsa3gxSzlxOFdrbHdIeXdmV1VDV2V6N3NrVkpPYTloUkxqMEZVOWw3STRHTjVLRjFRWmxGOC0zZXZqdGk3dDZGU2VWbzhQUWdmdmZfWFdSbXNxQ1Z6YndFUmQ3aDJMbVJvNEZmd1ZSZlhnUnZyNTc1TjNRQXZsSnZR?oc=5
+- **Private Credit Stress Test: What Breaks And What Holds**
+  Global Finance Magazine (wt:1) | LIQUID
+  https://news.google.com/rss/articles/CBMic0FVX3lxTE5CS0lQY1VXMFFuNk5zQXN5Umw2UmFrcGgyaWdyLUtYaEVlQzAxczF2RHRzTXk0WHdmNXFpcGtTd25ENWxyVkFLeWZGTnlIMXd0T3hrQVc1bmw4OEVCMHNBMlhfVF9icUN6d0ZsWUprcTdjQ00?oc=5
 
-- **Banks Must Act Now as Consumer Credit Stress Begins to Spread**
-  The Financial Brand (wt:1) | LIQUID
-  https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNXFNakh3Sno5LVRBYlhJMmdhX01CZ1I2Y0ozRTdKSE1CcHMtamVwNWNiczhYaEF2OVJBRDYtWlhxQTV4UjRzWlJnQUUweExQcHl3TUtQTkxRRFRBVkxVSlNncVozLS1valdISEpsYjBZa013MGp3WnhvLTRkM2ZfMklhaEFYaGMxSTlLLTl0WXBsRldWeml5bnhPOGI2dXBsXzhQaENZNFp1aEppMkdlVS11cFhucnctdWFVdGo4T19MY0wxSUEzcw?oc=5
+- **The Credit Stress Signals That Housing Headlines Are Missing**
+  Inman Real Estate News (wt:1) | LIQUID
+  https://news.google.com/rss/articles/CBMimgFBVV95cUxNVVZDbU5zS3MwNlV0eGhqYWE4d01JWDZuRkF4Sk9KVklnTzRJdlNEelZUa3VqVjJrbWtqM3JENm1lYWJKRHZOdHRacUJNUWNNMGN6cFFWX1NjOEZ6VTBQRXBNVlNSNWhIQXBXaHNYaFExbUxGeFJUY3FwNjFVZ0NoYWQzcC1veTVnYjhZNVBHb29GclJNM2ZCQ3Fn?oc=5
 
-- **What private credit stress is really telling investors**
-  Funds Europe (wt:1) | LIQUID
-  https://news.google.com/rss/articles/CBMihwFBVV95cUxPRk1SeXdyYU9lYWphMllpMWVIVXVRRm1WUVNSZC05ZVlqTnBJWU44c3A1b0N0NWpDYVlPbTdmeXZEemZ3cmZYUzVtYkJmNlRkQVZfc1A3TWx1dkpELTVGZ3hLeU1reVl1SnBiT0JkanZmR0FhcW1xdjVBMnNkUndjRDk3VFZJa1k?oc=5
+- **BAFN incurs Q1 loss on SBA loan credit stress, stock down 10%**
+  MSN (wt:1) | LIQUID
+  https://news.google.com/rss/articles/CBMiygJBVV95cUxPN21qcGM2OW1MbTBVZEsySDZZODZVV0JvbHlydnU2VmxRdWtQcTFWZl9vbDlSM2VPT0dtUldWYWtzWkR2VDhRWWxjOG9BdVVPVUMwYmdVSi1MeHJYTFJTaEFPSllvR1NrTXI1VzlZNlA3eExNVU5NSUFyWVZKTDJsbGF4NDVrTnVxYVdoQTZTOXM4Yll4NHZ2ekJWM0VjYmdhV0ZnZ19nd0dlX2s3VmpyY3g4c3dvOENvTnZuLVZweUxrSmNEajBUbnpEQTdNSmFYT3QzRjJGYUlNaDRoeVpRa3VTbEw4d1piOWpHdVlEM0hGWFlVajhNLVF1Z1RCOVV3T1FTMlNvOVJJb1JQT2JxaVhYOTBEUThPbk1ldm01STl1ek1wRTQzMHJuOTlsSlBsa0VKZnJyS3ZLZ0tDZzNhblhWVkhhTDBWS0E?oc=5
 
-- **Opinion: Your local banker is getting worried that credit stress will bring the economy to its knees**
-  MarketWatch (wt:1) | LIQUID
-  https://news.google.com/rss/articles/CBMi5wFBVV95cUxPN19pbG9yOTVpRFZ1V3AtQnRqU3pCaTNyeHY4c1U3XzhBd0ZLQnQwSS0xdE4yWFY4Q2hiV3JWNEtLdFM4dUVJUGVfcURfVklfcmxJUGItX0ZWRUotTmJiVlpoek5BZ0I4ZTRFeGFKMGMtOFZUNVpmamhQdHVwYlNjRU03eF9XUHZ0Smk0ZDFFS1FOTkZEeDBsMFEybHlsRVdTVnprTC1SOXk4bk1YVVpReUY5VHFKQk9FRUpWREp6bFVzSnpUakJsYkx2RWw4aFZZd2lDc3hSdG9Zd0pfYkQ3Y1AyNXRyQk0?oc=5
+- **DTCC and Broadridge push blockchain deeper into $13T repo market**
+  MSN (wt:1) | LIQUID
+  https://news.google.com/rss/articles/CBMi-AFBVV95cUxNTk9jeV9NNFNPdG1WOEUyaF80YUxyczVoOWo3MWtUS3pzbVA1LW12aVlKVzBPdkgzdXAzNGowM0pocUw2S05vUXRSLUhWOXV2LXVWaElpUHBGVUJ2Sm9mU2E5TE1xcDJjdE9RTWZnVzRLalMyVFoxUklZcnJEY2pCRExwb2tMalJ4VTJlM0lienRzak5YM1AwQmFvM19RUk5ObjU2WDc2cDZCNWdodk1ZbHBzZ2RoTmthRXVPcDRpWWxZcXVDNUlJeGNvVVRvRlBoWHhoX2N6OFhUelk1TFZHQW5nNVd2dHl0eHNUazlUcUdPSFIxRFFDXw?oc=5
 
-- **Private Credit Stress Intensifies | Newswise**
-  Newswise (wt:1) | LIQUID
-  https://news.google.com/rss/articles/CBMidkFVX3lxTE51X1lkVDc4OEJoM19Kc0pscll4LTZCWlpxSWlVZ2tPTXdyY1h0R3RSWENjVVpwSE9IUmpHTmRYVDRBd1AySkdkeGFmN0Uta3M3c3B4TXNmcmFDWTVvXy1GMlVlUWFRTlFXR3QzU0JnMFBKemtkMVHSAXZBVV95cUxOdV9ZZFQ3ODhCaDNfSnNKbHJZeC02QlpacUlpVWdrT013cmNYdEd0UlhDY1VacEhPSFJqR05kWFQ0QXdQMkpHZHhhZjdFLWtzN3NweE1zZnJhQ1k1b18tRjJVZVFhUU5RV0d0M1NCZzBQSnprZDFR?oc=5
+- **CME creates new benchmark that tracks overnight cash markets**
+  Crain's Chicago Business (wt:1) | LIQUID
+  https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVzdGSzJnMGhTcU5MbFVCeWtWOWJWOWVhcFJLZEhqdW0wZ0NoSUxtQ3RrR3NHcUwtMDUwNzdKV29FTW55SHVNWmRoX2ZsUVRheV9ELXBzTWJnZHU3Q1NCRXk4Wm81WW1na3VwX0ZUTUJ1SXNnVDZYUmJlck1lNW9lT1VRSVJVWk8zaVhiNzNIT3BVUWZsVmpiTnFjODdEczdLbFR4VXYtWWM?oc=5
 
-- **Layered Uncertainty: Conflict, Credit Stress and AI**
-  RealClearMarkets (wt:1) | LIQUID
-  https://news.google.com/rss/articles/CBMiqgFBVV95cUxPc0ZoZk1fb0twSDFmNlV0aFlGZDRPQnRNMG5tLUFGUHFLLS14NUJNQ0hXQ2VNZXJlUS1zZjZxXzNub0ZQQkFVU1g1Slp5OTdfNFNLWU5zbmdMZDVIdzdyZ1dudEpRLXNTdFdqV3huVklNRHJsaFhDaWh1Q1NnZHRrUmFFTy1wMXZ6cXNQUHc4dnNreUZvaV9kLUI4N3N5NkVROFZPa2NrR3RZUQ?oc=5
-
-- **Ultra 10-Year U.S. Treasury Note Futures Margins**
-  CME Group (wt:1) | LIQUID
-  https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQXl1cFdfbEVEZ0FpYVRENHpNWXp2dUxpOGFQTExlUjFIckdHUmR1NmQ5VWdJcW9oUUI3STBnVmNXSkNzdEduNTZ0TUlRbkp1Q2xYV0xNZ2hxUmlHOFFEUGZrTWliQzVxX1E0aW94UHJiZEZZZkxIa3Q5N2pvd3dITzBMOXJna0hSV0FFd1lCSDNjSGFaWjFnOTBfWGZOc2VXeWtYX2R0SmJhZlN3cTQ4VEd2LUxqUEJ2ZGI1MmlXQU54UTQ?oc=5
-
-- **Sallie Mae raises $2.3 billion in SLABS from its Smart Option pool**
-  Asset Securitization Report (wt:1) | LIQUID
-  https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNmdaMUhuYl8wUHMzQ2pLNk8zVERHb3NXYUxJbl9xYTYwTlQzZzd4czFDTU9qeUp0S3l5Y3dyTktpTmZiZmM0YmxTSW52WjdXQ2RQMHpHTU5FdDhZX0tNMzNCekxpYkFrQUtwRFpuc2o2Y1ZscVdxZGdhLTlKMHk5LWlFc29aS005WXp6MEYybjd0M0lxenhVYjNaSFlCQS1OMUVWdEZzUFlUZw?oc=5
-
-- **Wells Fargo Acts as a Steadying Force in the U.S. Repo Market as Analysts Differ**
-  Bitget (wt:1) | LIQUID
-  https://news.google.com/rss/articles/CBMiY0FVX3lxTE9wOHlWdlEyYkhmWlhEN01XMThDaFk2WnZVeTZaLS0tRmVPaWtxQ3VFeGVram13VmhKdUo5LWNJcFU3YWdQSkZ2ZUw5eTlrQjVVMGFkcVBoSGctLVVJTEw1aVE4b9IBY0FVX3lxTE9wOHlWdlEyYkhmWlhEN01XMThDaFk2WnZVeTZaLS0tRmVPaWtxQ3VFeGVram13VmhKdUo5LWNJcFU3YWdQSkZ2ZUw5eTlrQjVVMGFkcVBoSGctLVVJTEw1aVE4bw?oc=5
-
-- **Enhancing the resilience of the gilt repo market – BoE discussion paper feedback statement**
-  Global Regulation Tomorrow (wt:1) | LIQUID
-  https://news.google.com/rss/articles/CBMizAFBVV95cUxQQmpDakxFc3cycjFOTmY5UW5sQU5vbnVlb052WTJGZmwzNUM2R3lNMXg2MDB5Y3VLa0N1SjBmYmdQYTJJb256dXBFLVRISC1NRFRKSUZ0Z3RFNFp4ZEtTNzdLMUFNcF9NWV9QdGJLVUNER1ZSNlQtaUZWS0FYU3o4Rml2eDFFQkoxdXFQWE16aVBfLVFveVZreHkyZnkxX2Ryc25ROWpvQkpsdUY0NWJWUTd6UWJtOThfdnNyRGRsV3FsVWtwUmNEMnZCMjQ?oc=5
+- **Yes, tech stocks have taken a hit. But the real danger lies elsewhere.**
+  Atlantic Council (wt:1) | LIQUID
+  https://news.google.com/rss/articles/CBMivAFBVV95cUxNaWhHWDhuM3NsT2wxT0VSRk9oeEdXY1MxQkRMU2F2bjdCcVBGd0xEdlMtSkVDdkE2dExmSkRHcVNvWEhxcU0yRk9ubEFiWmkxNjdHNDVHSVBjd2lldmEtb2lvUl9RSHdKcjJRUkItazN2QURJbWJSR3p2bTZ2cHhFdm5oZlNhNmZTb3I1UmNQUEp3Sm5IYzNGQnhPMndhXy1mbFpTdTdBcGJkLVBCYmo5NTNKOFVTbE1kaEFuQg?oc=5
 
 - **Repo Market’s Warning Light is Flickering**
   The Daily Economy (wt:1) | LIQUID
   https://news.google.com/rss/articles/CBMigwFBVV95cUxOMFFJNWsyb0U0ZzYzQXVqdXFhZFI0UV9hN25ObC1ZWjBOVS1FMUUycGY3RUtxeVVrNjFQQnBTUVpySHM5LUtWREdVbExUd0RkRmZPT3phZkxsSHZ1RTZnQmVoeV9GRlp1cXA5cDE2OTZJTW5qeTljTUhGWDVoREFEdERyRQ?oc=5
 
-- **U.S. T-Bill Futures Margins**
-  CME Group (wt:1) | LIQUID
-  https://news.google.com/rss/articles/CBMimgJBVV95cUxOS2ZmcXJxT0g1X180c3NoRm4wRFJzNjJTUkRUOE1fRWtwOVdKQXF3RWxZQ3g2ZHlDRzFHeFJXN3FISlU2bE5hM0U3bWxTNjVUY1Q5LUE5MVdpNlZ1U2M4NllXUlIzVkpBWVEtSFBJRDdUY3lzc19SWGVZbHBqUHB1bmJIeGduM0xOR3BVc3UxSXRZdGswWWxWNHpOeGV1ZTZ5ZE12TF95anNfOTdMYkVGNzI0S3BQZktqa2Y3bWhkNlN5VU52T05sMVpKc043UHNDekhQUGIwVmVELTJCcVZvNWhJZUxMWVJYX0t5MzZBVkU5SDBJWUpMX2RVQl9aOXpqaGlEMUE1N09mTVd3Z0E3Zm9mUXo2MDBTYXc?oc=5
+- **Commercial real estate’s ‘extend and pretend’ strategy is starting to crack**
+  Baton Rouge Business Report (wt:1) | REGINALD
+  https://news.google.com/rss/articles/CBMisAFBVV95cUxOSU00N3RZcXhuaG5nSnhGeVlMYzJzY2p1dl81TkxqQmI4NWRyeTBpODdVQTc2SEEzZFY0MmY1SDFBaVB6dzhxMFRlejFBZ1I1RVpEdlRVOGZjZVU4ZzRJUnhJSkZwMzlxLXp1QUp4bWlCLXpuVWdOQnY4VnBBV19URFpfWF9NaVpsaTVqX3RqQzdLMnpGVDg0NG0yWWF0U0t6WDlEYzc1UjZ1T3JoNVcxdtIBuAFBVV95cUxOb2phRFR5LUZsSlM3bS14dll1aWk2bjBYZ2pJeV9aM3dpR29SZEo1Nno1cDFqd0llVUQ4RFNjMC0zXzN6X0o5VXpqQWs5U2pJYTdWQWdvTV9FRTljM1JTRzJXcXJnTTliYWY4SHFMak02azRsS0Q0bUNaYWIxNHFnbEpqNjFET3N4OC1SOGozTFZkT1RBY3N6QzIyQmN4YWF3Q0J4ZTFMS2o3X2tFeWJSSnEydkZ2aHZf?oc=5
 
-- **Tallahassee's commercial real estate in a relative slowdown, according to latest market update**
-  WFSU News (wt:1) | REGINALD
-  https://news.google.com/rss/articles/CBMi2AFBVV95cUxQa1NKcTFKWURCRWs4dDlkc3dlclVJLWtCTTY4bmlhOW12NTdEbUt4T1V2aVFYZi0tR1V0b0tNS1lNdllFQ1BfZmhuWlFEc1R3aUpaOFZERkxSeEdjeFNsM2JwcUZXdU56dm5JVGtCN1M2SXJNMjVibkxLaUt0RDdBSWdkOW1vWFVRUTFzUU5vOGIxMzNzaXVpczc3Vkx0S2tsRFYtYko3MWRqWHdYZnBnNldXVVFkendyVkl3MU96UTlZN01iNEZmNHJPRVFka1dNZFUteVpIZFQ?oc=5
+- **Commercial Real Estate Industry Celebrated at NAIOP Awards Gala**
+  New Jersey Business Magazine (wt:1) | REGINALD
+  https://news.google.com/rss/articles/CBMiowFBVV95cUxNNHdobl83Vm40cjRjRERtaWtSQWRHaTZJeG1idUk1VkljSF9VbjMwSjJhZi0zQk9oOHVOcVF5SHVGaktlVUNSMUlMemp0azBfem5jcDVLaW9tT2NwSU5uQXVPLVlOVWFtSGttMmNQMzR4cHQ5UEF3LXhmaFQtb0c2bVRKWEtlZEQ2S0NyWVNEQjRqYnZUU1R6TkZETGIydVJFLUxB?oc=5
 
-- **My Bridge Loan Announces Increased Demand for Bridge Financing in 2026 Commercial Real Estate Acquisitions**
-  markets.businessinsider.com (wt:1) | REGINALD
-  https://news.google.com/rss/articles/CBMi-AFBVV95cUxNRFdPREVnVndiQzFmd1Rua2hfSl9weXhaZm9wZVhBUmF5V1VVWDlwSmRxMHZSUHBuemR4bXlYY0tMM0NLbmlYYnhFNmhQVmRkclZ5WTNpSzZBaS1IcGJodnA4ZE5WTUhsREJ2NHQwVzRycjM1NndNVkFKTU9WamhNVGYyZEdQdjIydTRtLVYxQS1XT19ZeUJsYjBRaWpKanpSdDQ2RXlUenJrZGs0MHJra2JrTFduanZieG5wMWJEYjlQT2ZVbFYwS1BOajVJak1mN3hXSWlOUm5URnh0UUJHZFUyV2Z1S2xHMHhyZEhhUFNJMU1McnB0Nw?oc=5
+- **Dallas’ DuWest Realty and DBA Commercial Real Estate Merge to Form DUWEST**
+  Dallas Innovates (wt:1) | REGINALD
+  https://news.google.com/rss/articles/CBMiowFBVV95cUxNQXdhb3BFcVVkNE1OREtvRHB3bWpQSU1xMTgxYm42Y01ndjlJUU8yLVdhX2draE5ZMk1HWm5zU1ZRY3dYV19Ud2lGdlRWd193djJGRDU4RFhBZmlZN3B3TmNldnk4ZUN0QmJ4Mks0MmFPMjJQQlNua0V5ZkdVa25ZSUJiV2otUmF5T0dMVGJRWGZWLTdGQnNKdVdaQ0xWV0lzWUNz?oc=5
 
-- **Tysdal starts commercial real estate firm**
-  SiouxFalls.Business (wt:1) | REGINALD
-  https://news.google.com/rss/articles/CBMiekFVX3lxTE1udkFYVkFjdGVXSl9PRXRDNkIta3N1Nm8wNjBlZTVnTENpTkJ0RzM4QTJYZ1NEcHFsMGgzY1BidVZKNUx2UkUxblRXZ0pobWx4UHdPbkZyckZ0Tmo4YV8xcWJYczZteWxVc01lN0JWZDBkSVFWTW5PdU93?oc=5
+- **“What Else Can You Do?”: Marcio Sahade on AI and Commercial Real Estate’s Next Transformation**
+  Urban Land Magazine (wt:1) | REGINALD
+  https://news.google.com/rss/articles/CBMixwFBVV95cUxObTRwN0VrYTZWUE91X2hmMVlCenZIa0ZkNU9TNjdEaXBpQTFSZ2txLVdJLWFxR0txSHRWZXJfMDUtdzNPWE1aOWFpano1RHBSRGIzQS1BNlVBbC1vV0ViMEpib190LTUycUdpWjlUb1VZd0ItRVZTNE9pd0hkdFF2TDNveE1Mam0zVXd4aVF6TEo2WXVsVHBmVlVpZC0wX2wxQ1Q3VDV6c2J6VFg0ZHJudlg1RDE1YVVUWGs4MDFsNVd2Qm9sYU53?oc=5
 
-- **“Our Love Affair With Commercial Real Estate” To Be Presented at LA Times Festival of Books 2026**
-  WebWire (wt:1) | REGINALD
-  https://news.google.com/rss/articles/CBMiYEFVX3lxTFA5ckJLeXdKM2J4aVdseUN2cDJWX2ZoWElncUU0S2lrZ2U4WDQ3S0NKS3NScUdIdmdSWTV5VDFrNXRMdW5lak9XR3dfcXk3c3VUUzRPU1pjV2lGNGhzNjNGVg?oc=5
+- **Commercial real estate enters new cycle, and brokers who adapt will dominate the market**
+  mpamag.com (wt:1) | REGINALD
+  https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNFF1YU92LWpGWWJhaDVaVkJILWVWQ0hiTmVQNUx5MjRTWjRhSEo0RnpaZ0ZmRnBrd0NZQlk2R05oWnRvZk1qaWNhamhBUUV5Vnc1ZDZFVHZsUmRoV2czeGJkSjRsYTByblMtemFra0Vwb3ZzUUl5RmNKZGNOZVRXa2drdmR1ZFVrVmZuM1JlV1JHYjUtV0tiaThrVEk4YmQ2NVhFak5OdGt5eG43bC1vTDZIQnR1UGJNTTc0MEM2NThQcXpfV1JmUzRUTEZqSXhvS1dLTWQzZw?oc=5
 
-- **Greenwich Village luxury townhouse once home to family of artisits sold for $21.5 million**
-  Crain's New York (wt:1) | REGINALD
-  https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSHNBT0FlMTRGeVBGLXFoOHVPRDhQQU4xMDBQeDlDeUtRakJRZ28wV21reVhxdXMwUjlIa0NtdVNvdWRsbUdMRFo3UjZ3NGdtTHNORG5LeHlMYmlsMXRQWlljWmJ3MnZXYS00eEJZdW5LQWNUR2lnbnRsejFtV2hLaTlOSzN0T1JRQ1hUOVdVWGpsZkxQcDBZa1dWZXluRldqdThadkdWOUJhX0k?oc=5
+- **Lee & Associates’ Amy Broadhurst focuses on mentoring younger women in commercial real estate**
+  WPXI (wt:1) | REGINALD
+  https://news.google.com/rss/articles/CBMi3AFBVV95cUxNRHdIQ3dtTnlBQ1JBYzdTUnBGc1ZzUERmNjY5RUZuM24yX3ZCNkllaTNwTHp6U0RrRkdQX2xta3l5Q05jVWJkclZ5VzBVelRZS25SZlRTT0hFRTQwOXBtUmVDaVhPenRNMUx4MGJsLUgxYlhkc3VwRmdMTExqMUxobzlXV18zUW5Fby0weWVxVDNoekVfdkZCdzFfT2tHTzg2cWx1amJQc0FncXpCd1JuLXRrR1BmU3hWbkgxU1lnY2J0QjhSckVocEZxLUdKVXdiT0FrRHhjWktiUU5T0gHwAUFVX3lxTE42Y2NIM1ZmRVdwQXR0aFYtcWp3R1hsMzE2S3ZaLWY2WURUWVMtNXZTSGtTay01c1AyR3VIUW5GanFLUVFpTDd0enR0dDcyRlIwUkdTLTVwZFdfY2Fub2k0Nm1oRFZDbXhtaFM0SVZLQk5rQ0VRVVlNbm1feTAzbWRJSkE1ZG12dmpZeTl3V1ZCcmNiY194Q2xqa29MSHloSExycjdyczFhZUJiT21teG12ZnR3WV8teXhwWGJRWEhFY0c5RXhhTXdKRDNhSUhfUU9jTGRBdHQ5RmRYZ20tWjN0dFh6cWUxUE42UjVzVTNYbw?oc=5
 
-- **Challenges, opportunities cited in residential, commercial real estate**
-  BizWest (wt:1) | REGINALD
-  https://news.google.com/rss/articles/CBMiogFBVV95cUxQN3pTZWFEQkg2Z3liSENrbGFJRjlYZ1VPdndVUXgycWtwTDQxVDBfNGp0YjV0WEVaWC1SSkZfaXRZc0x6NWpsMHVvTUk3UFJjV202TnhtT2xUTGZkVVVyUDR3SGxnOTkxOE9yRUpKRlBoT24zOEI0YnFOV3NmSWVfTUdkaWxWc3NwS2M5VUFrSDl5VTJnQUpIZDM3VWRjc2VxU2c?oc=5
+- **Green Street News Europe Hires Elena Vardon to Cover Commercial Real Estate**
+  citybiz (wt:1) | REGINALD
+  https://news.google.com/rss/articles/CBMitAFBVV95cUxOaFkyOEJpZWlwazFleEl1UkZBbzVTMlFZdkNMMktUUllYT1dZNnd2ZTE4TjQ5Yk95LVVBRWNhYmhmb1FmcUxVZlZUNC16TTh5ZWwxY0VyaVRTVXdGYXFoS0hnejdiODlleTVmNlFqOFkyQ0NoZERwRmE2V3BQR05PdGstVDVWUV9ORG9uYUQybTQ0bDh2SGJmUU1Ub09WWldpNGk3ZVgtampxMkVMWC0xZURVaG4?oc=5
+
+- **DuWest Realty, DBA Commercial Real Estate form Dallas-based DUWEST**
+  REJournals (wt:1) | REGINALD
+  https://news.google.com/rss/articles/CBMikwFBVV95cUxORE11akoxdVhYTnJ6V1RwUHZQMncyV2xNNGtDZXVaSjFyWnhLYVE4VzNMNXhoZ0x4ei1vZlN3TUJpSjdDTUEwMVUxZEYydmUwRXMxaGhINHRYd0lVX0lqTlNMX2dVMlFQZVg2TVJ4OU9zM19SdGtnb3B5amJNakpRMU56bHEzaVV5dWtCTllJRnNCZkU?oc=5
+
+- **Commercial Real Estate: It’s More Diverse Than You Think**
+  AllianceBernstein (wt:1) | REGINALD
+  https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOHdhQVpZekxqN0lIMWc4M0FLRnRIOXhrMTd5TWU0c2xFdVlkbGlOQTZIQ3JiUUZGY2hNQTVTVjhKOXBUcjJXdUNkclNaeVVSaGNFcUYtZGttenF4N2Nwd0djTlhzWVN6bzNYczRVSXFITldYcHNLY3NzR3BreHRvVGZ0LUlvTUJfeENPaUR2ZXpzbmdWX0tqemtrX3JxVktIRE1SWnk5TmtvbUR6LVd3ekZPTlhGc29tck5FT2MzejZvNzVYV0pUZS1yc09SU2w1?oc=5
+
+- **RealtyAds Evolves Into A Connected Leasing System for Commercial Real Estate**
+  PR Newswire (wt:1) | REGINALD
+  https://news.google.com/rss/articles/CBMizAFBVV95cUxOTTJtR05uaFVrUlpTMXhoUkpOeE1Ua0xuUjRnd2xaZUhaYjEwbVNZLWdqMF9LSTlsSldJVjlQLWZTY01nUmJhRGRqQTF5R3g3cm0xZzF2STVSTW9JOTNwZUlJM1pFMXo4bGh1NERxWWVlb0xURjJVa3RqWjZWNWdCdXg5bGp3ZEw1WmZTSFJWY2hzWnNPbnlvQVp0WDlURGg1Ykl6SGR0c3ZyWFFjOVh2ckFtd0lqZG44a1dKZTVNazVnYWdaRXVlWEd3VDA?oc=5
 
 - **Credit Card Delinquency Rises to Highest Level Since 2011**
   Statista (wt:1) | CARL
   https://news.google.com/rss/articles/CBMidEFVX3lxTE5RY2dEaExMV05WcTFkaXFQV2ZLc0Y4T2J3Tk1iSTIxdUp6UDFJdktCcVNrcUVSN3BadTVJZm9PYk5FWUNWV3ltdGVmNzNmb084Q0FNLVIzUExaMzFaWDBjYTUxelA2N2JXUkx4cHI2c3N4RDVC0gF6QVVfeXFMTzNzckRMOC1iTmpWUkhlOWlFaXBWd0RKWXFSSEEzdFZtc3ZMLVZFd2dzajBwUlBXQzVEZWlOc3NrbzlLcWV2c3ItUU1VaDYwMU4wdzRldHRNR1JBWDhGLXlGMGNnbG83VmxqT3h0eUVyNkVjNXU0VXBvYkE?oc=5
 
-- **Mobile Sports Betting Apps Drive Credit Card Delinquency Surge Among Borrowers**
-  BadCredit.org (wt:1) | CARL
-  https://news.google.com/rss/articles/CBMikAFBVV95cUxNa3F5aHFOWGVMT1FUZ0N4aDhrZ3pfVjRsdjE3ZU9OajM0a3diYWY0WnNRQThhVHBNODFLdmxlLUE0OXJWSDIxbFhrWm0wR1ZScFV6dENDVGdIWVduSEp4NXZXak5GeG9nYWZSM3FadS1RUWdiQkxad0VqREZaV3RBNGM5QXhWbjktU0FxNlp5Rnk?oc=5
-
-- **Florida has lowest credit card delinquency percentage in U.S, study finds**
-  WUSF (wt:1) | CARL
-  https://news.google.com/rss/articles/CBMixAFBVV95cUxOVHcxZ2ZCNjBSTUp5X1J6SS1Od0JjQU5xWUFoUmM1V3pURDFNeDVva2N1R2pMODJZNlZMV01FX29qd1JFdlZNZ1pZZWI5SXYxMENXRThqR1FJWlFmc0RrWU0tWVZaU19BcDl1RHlVb2FPaEptZTA3cUpQZXNySTNJME05cEstRFg5ajlKNXEySW1PX3dndnZmaS1PTnNFVlJkaXZ5OEZYaXNweG01bThXZnJGTHFwLVBnSUtWOUJVUEJCbTV6?oc=5
-
 - **A record number of Americans are behind on their auto loans**
   marketplace.org (wt:1) | CARL
   https://news.google.com/rss/articles/CBMipwFBVV95cUxOWFVydVktUV9hVk5mZzUxREhrQ0lwQ05adk0yWlVGbzJrY1B6S1Y5UjNfekJMRmFDVWRJS1Q4WlFueEE4a1FPeVRpOWpTM3pIZUd0ZjRrQzZyTUhQWXpKLXYtcENFRXJtN1VBWW5PWnBPRjdqY3dncHBoVmp4My1wb2I0TnhEMGEtTzdTTkdGamtVMVFPaE15QmN6WWt2ZERUa3F2a01RZw?oc=5
 
-- **Auto delinquencies climb as lower-income Americans struggle with car payments**
-  CBT News (wt:1) | CARL
-  https://news.google.com/rss/articles/CBMipAFBVV95cUxNeEZRY1lTckZEWUFzX3BrcU5kTFpLUjR2cXAwRlNldjJXQ2dLYkl4RlJhSGZWV2VCMUd0U3ZpUFdwdXl2QkJWdHMxLXBVVWJUaWl5ZVd4SVVfNFBsVEJRLVJRVVpPMkZYTU5YdS1fVmhJc2wxMi1lc0V0eEZsZE1lMHd6UDlBYjhtVFlDSzhtQWhOVm5jT2lERGxiemFCQVB0UWtCOQ?oc=5
-
-- **Texas shopping mall investor bought for $1.7 billion by global private equity firm**
-  Dallas News (wt:1) | BROCK
-  https://news.google.com/rss/articles/CBMirAFBVV95cUxQZTBIWGZsX0Rpc0FPbjhMRzdwMkhIT3J5RXBtMU1mSGktLVFaV255TVZLQ2tPOTZiU2NadXcyaGNGWGFOeTVvcGtEYVQtR2szNTl5eXFybk8tbzZfSks0aGt6ZHVPX29VOFpITnZSSmVIZFVLODBCMFlUVlN5R1JhdHN0R3BoUDBGRFpDVGI2UGVoSGdzLXZKSnZmTVp2UURfYnFpWmlSQTZ2LW9C?oc=5
-
-- **Houston-based Whitestone REIT to be acquired for $1.7 billion**
-  Houston Chronicle (wt:1) | BROCK
-  https://news.google.com/rss/articles/CBMinwFBVV95cUxQdVZ5RUd0QjBFeGlLRVcwY2U2cHktaDlkSnVlR3dxbjRMUG5nNFA3ZFJ3NTVSa2t0V1ktc01oWjNBRGw1YV8yTURVcnJOMmdQWE1MdF83b3FrWWR6bEh2TDNOQVEwOG9xOTBvY2Z6NXd4WlNndkd3dlVvUmtITC15VkJHWjFwc1dSQ05SRlgzRTJFc0NzR2I2end0U01GTlk?oc=5
+- **EagleBank taps Stephen Curley as its next CEO**
+  The Business Journals (wt:1) | REGINALD
+  https://news.google.com/rss/articles/CBMilwFBVV95cUxNb1FFN0E1c3dFM09ULThVdzE0RV9IdnhEb0xnLW5maHBDckV5RU9LNGdDUHczNEs5M09ZMDM5RzBJeGFLSDV0clpCel9fWlV1MGp6bDBKcEpPdVR6dlQ1UVQwV2htM3JSVzlhVno2VnpZenBlc3VFMEsxdWUzMGdlcU9DVFpJaFhtNU9MS1N3U25ZQlNxUG93?oc=5
 
 - **Today&#x27;s Top Stories**
   ZeroHedge (wt:1)
 
-- **How To Win The Iran War**
+- **Bonds Are Screaming That Something&#x27;s Horribly Wrong**
   ZeroHedge (wt:1)
-  https://www.zerohedge.com/news/2026-04-10/how-win-iran-war
+  https://www.zerohedge.com/news/2026-05-16/bonds-are-screaming-somethings-horribly-wrong
 
-- **War and the Dollar System: Making Room for China**
+- **The Global War for Chips**
   ZeroHedge (wt:1)
-  https://www.zerohedge.com/news/2026-04-10/war-and-dollar-system-making-room-china
+  https://www.zerohedge.com/news/2026-05-16/global-war-chips
 
-- **Peace Deal or Not, the Inflationary Shockwave Is Already in the Pipeline**
+- **Trading The Bottlenecks**
   ZeroHedge (wt:1)
-  https://www.zerohedge.com/news/2026-04-10/peace-deal-or-not-inflationary-shockwave-already-pipeline
+  https://www.zerohedge.com/news/2026-05-16/trading-bottlenecks
 
-- **Software Slaughtered, Semis Surge, Bitcoin & Bullion Bid As 'Ceasefire' Holds Ahead Of Talks**
+- **Democrats Devastated After Supreme Court Rejects Attempt To Revive Virginia Congressional Map**
   ZeroHedge (wt:1)
-  https://www.zerohedge.com/markets/software-slaughtered-semis-surge-bitcoin-bullion-bid-ceasefire-holds-ahead-talks
+  https://www.zerohedge.com/political/democrats-devastated-after-supreme-court-rejects-attempt-revive-virginia-congressional
 
-- **Trump 'Preparing' US Military If Talks Fail, Proclaims Iran Has 'No Cards' As Delegates Arrive In Islamabad**
+- **China Confirms Boeing Jet Deal, Agrees To Cut Select Levies & Expand Agri Trade**
   ZeroHedge (wt:1)
-  https://www.zerohedge.com/geopolitical/pakistan-streets-lockdown-iran-delegation-arrives-us-talks-fighting-hasnt-ceased
+  https://www.zerohedge.com/political/us-and-china-agree-establish-trade-and-investment-boards-trump-xi-summit-delivers-modest
 
-- **If this Company Solves The $125 Billion LFP Battery Supply Gap in North America, What is that Worth?**
+- **Nearly 2,500 Pounds Of Cocaine, 105 Pounds Of Marijuana Seized In Joint Operation By US Forces**
   ZeroHedge (wt:1)
-  https://www.zerohedge.com/sponsored-post/if-company-solves-125-billion-lfp-battery-supply-gap-north-america-what-worth-0
+  https://www.zerohedge.com/political/nearly-2500-pounds-cocaine-105-pounds-marijuana-seized-joint-operation-us-forces
 
-- **Trump Rebukes Carlson, Kelly, Owens, & Jones Over Iran Comments**
+- **'Palpable Nervousness': Top Goldman Trader Sees Opportunity In Market's "Dislocation From Fundamentals"**
   ZeroHedge (wt:1)
-  https://www.zerohedge.com/political/trump-rebukes-carlson-kelly-owens-and-jones-over-iran-comments
+  https://www.zerohedge.com/markets/palpable-nervousness-top-goldman-trader-sees-opportunity-markets-dislocation-fundamentals
 
-- **JPMorgan Analyzed All The Oil And Gas Damage In The Gulf: Here Is The Complete List**
+- **FBI Offers $200,000 Reward To Catch Former US Air Force Specialist In Iran Spying Case**
   ZeroHedge (wt:1)
-  https://www.zerohedge.com/energy/jpmorgan-analyzed-all-oil-and-gas-damage-gulf-here-complete-list
+  https://www.zerohedge.com/political/fbi-offers-200000-reward-catch-former-us-air-force-specialist-iran-spying-case
 
-- **The Squeeze Worked… The Chase Is The Risk**
+- **Putin To Visit China Just Days After Trump's Beijing, Demonstrating 'No Limits' Partnership**
   ZeroHedge (wt:1)
-  https://www.zerohedge.com/the-market-ear/squeeze-worked-chase-risk
+  https://www.zerohedge.com/geopolitical/putin-visit-china-just-days-after-trumps-beijing-trip-demonstrate-no-limits
 
-- **Hunter Biden Challenges Trump Brothers To Cage Match**
+- **Goldman Reiterates $5400 Gold Target As India Curbs Trigger Bridal Jewelry Panic-Buying**
   ZeroHedge (wt:1)
-  https://www.zerohedge.com/political/hunter-biden-challenges-trump-brothers-cage-match
+  https://www.zerohedge.com/precious-metals/goldman-reiterates-5400-gold-target-india-curbs-trigger-bridal-jewelry-panic-buying
 
-- **Kamala Harris Teases 2028 Presidential Run: "I'm Thinking About It"**
+- **"You Should Be Preparing Your Criminal Defense": Becerra Feels The Heat In Final California Governor's Debate**
   ZeroHedge (wt:1)
-  https://www.zerohedge.com/political/kamala-harris-teases-2028-presidential-run-im-thinking-about-it
+  https://www.zerohedge.com/political/becerra-feels-heat-final-california-governors-debate
 
-- **D.C. Economy "Under Strain," Faces Biggest Spending Cuts Since Great Recession**
+- **The Momentum Bubble Is Starting To Crack**
   ZeroHedge (wt:1)
-  https://www.zerohedge.com/political/dc-economy-under-strain-faces-biggest-spending-cuts-great-recession
-
-- **CIA To Integrate AI 'Co-Workers' To Process Intelligence, Catch Spies**
-  ZeroHedge (wt:1)
-  https://www.zerohedge.com/ai/cia-integrate-ai-co-workers-process-intelligence-catch-spies
+  https://www.zerohedge.com/the-market-ear/momentum-bubble-starting-crack
 
 ## Suppressed
 
-- KNOWN: Apollo (16 articles)
-- KNOWN: ARES (13 articles)
-- KNOWN: ICE (13 articles)
-- KNOWN: Hormuz (12 articles)
-- KNOWN: WAL (10 articles)
-- KNOWN: Blue Owl (10 articles)
-- KNOWN: BOJ (7 articles)
-- KNOWN: OZK (5 articles)
-- KNOWN: SOFR (4 articles)
-- KNOWN: OPEC (2 articles)
-- KNOWN: Brent (1 articles)
-- KNOWN: Oracle (1 articles)
+- KNOWN: Apollo (27 articles)
+- KNOWN: WAL (15 articles)
+- KNOWN: Hormuz (14 articles)
+- KNOWN: ICE (12 articles)
+- KNOWN: Blue Owl (11 articles)
+- KNOWN: ARES (10 articles)
+- KNOWN: OPEC (7 articles)
+- KNOWN: SOFR (5 articles)
+- KNOWN: BOJ (4 articles)
 - KNOWN: KKR (1 articles)
-- NOISE: 4 articles filtered
+- KNOWN: OZK (1 articles)
+- KNOWN: Blackstone (1 articles)
+- NOISE: 2 articles filtered
 
 ---
-*267 total, 168 actionable, 95 KNOWN, 4 noise*
+*272 total, 162 actionable, 108 KNOWN, 2 noise*

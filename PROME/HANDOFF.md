@@ -1,159 +1,145 @@
 # PROME HANDOFF
-**Date:** 2026-05-15 22:16 ET
-**Status:** ✅ Clear-ready — fresh session should use updated BOOT sequence. New Claude Code Prome planning artifacts are discoverable; next build step is Phase 1 bootstrap files.
+**Date:** 2026-05-16 21:23 ET
+**Status:** ✅ Clear-ready, but repo has fresh post-push news-sweep dirt. Do not pull/rebase/stash/reset until the dirty batch is reviewed.
 
 ---
 
-## Claude Code Prome Build Pointer
+## What Just Happened
 
-Will wants a persistent **Claude Code Prome**: same Prome identity, repo-native implementation surface.
+Will asked to preserve local Prome work without losing Claude Code agents' remote git updates.
 
-Read these before continuing that work:
+Completed safely:
+- Committed the remaining dirty work in small chunks.
+- Fetched remote and rebased Prome work on top of remote agent commits.
+- Verified dry-run push was fast-forward after handling a late SENTRY remote update.
+- Pushed successfully to `origin/master`.
 
-1. `PROME/CLAUDE_CODE_PROME_PLAN.md` — architecture/rationale.
-2. `PROME/CLAUDE_CODE_PROME_TASKS.md` — restart-safe phase/task ladder.
+Published commits now on remote, newest first:
+1. `da7242c2` — `PROME: refresh heartbeat May 16 evening`
+2. `f83bd66c` — `PROME: add synthesis intel packets`
+3. `c120fa1f` — `PROME: refresh heartbeat May 16`
+4. `150a3ffc` — `PROME: clarify chief-of-staff operating model`
+5. `f95b16a3` — `PROME: route May 14 signal batch`
+6. `dfcb1983` — `BOND: refresh market-structure monitors and trade read`
+7. `992fa4b7` — `PROME: refresh state after FSK Q1 read`
+8. `61c6a966` — `PROME: add Claude Code runtime scaffold`
 
-Current state:
-
-- Phase 0 planning is complete.
-- **Phase 1 bootstrap files are complete**:
-  - `PROME/CLAUDE.md`
-  - `PROME/CLAUDE_CODE_PROME.md`
-  - `PROME/CLAUDE_CODE_HANDOFF.md`
-- Next step is **Phase 2 — Architecture Integration**:
-  - update `AGENTS_DIRECTORY.md`
-  - add full runtime split section to `PROME/SYSTEM.md`
-  - update `PROME/BOOT.md` for post-scaffold Claude Code handoff behavior
-- Do not commit yet; leave diffs unless Will explicitly approves.
-
----
-
-## Immediate State
-
-Will asked to clear for a fresh session and prep handoff.
-
-**Current working posture:**
-- Regime: **BDC/private-credit credit + mark stress confirmed, but public-credit contagion unconfirmed.**
-- FSK Q1 was **Strong Bear / near Max Bear**: NAV -9.9% QoQ, adjusted NII $0.41, distribution reset to $0.42, non-accruals 8.1% cost / 4.2% FV, net debt/equity 1.31x, KKR support package + revolver amendment.
-- Public tape still refuses cascade: **HY OAS 282bps, VIX 17.85** as of May 14 08:26 dashboard.
-- Stress is concentrated in **Brent/gas, USD/JPY near red, BIZD red, KRE/WAL yellow**, while broad credit/vol remain benign.
-- New gamma/momentum screenshots were logged/routed as a 🔴 market-structure signal: positive gamma / 0DTE may be suppressing VIX despite underlying BDC/bank/energy stress.
-
-**No trades executed. No external messages sent. No active spawns.**
+Important: after push, a fresh automated/news-sweep update appeared locally. It was **not included in the push**.
 
 ---
 
-## Files Updated This Session
+## Current Git State
 
-### Updated
-- `PROME/CLAUDE_CODE_PROME_PLAN.md` — draft architecture plan for one-Prome/two-surfaces design.
-- `PROME/CLAUDE_CODE_PROME_TASKS.md` — restart-safe task ladder with clear checkpoints; Phase 1 marked complete.
-- `PROME/CLAUDE.md` — Claude Code Prome bootstrap.
-- `PROME/CLAUDE_CODE_PROME.md` — Claude Code Prome operating manual.
-- `PROME/CLAUDE_CODE_HANDOFF.md` — dedicated Claude Code Prome handoff file.
-- `PROME/BOOT.md` — now points fresh sessions to the Claude Code Prome plan/task ladder when relevant.
-- `PROME/HANDOFF.md` — now includes this Claude Code Prome build pointer.
-- `HEARTBEAT.md` — refreshed May 14 08:26 ET with dashboard levels, claims, and gamma/momentum routing note.
-- `FORGE/signals/2026-05-14_gamma_momentum_factor_squeeze.md` — signal log from Will screenshot batch.
+As of the last check, branch was synced with remote at:
+- `HEAD = origin/master = da7242c2`
 
-### Routed signal inbox notes
-- `AGENTS/HENRY/inbox/signal_2026-05-14_gamma_momentum_factor_squeeze.md`
-- `AGENTS/VIOLET/inbox/signal_2026-05-14_gamma_momentum_factor_squeeze.md`
-- `AGENTS/LIQUID/inbox/signal_2026-05-14_gamma_momentum_factor_squeeze.md`
-- `AGENTS/NEXUS/inbox/signal_2026-05-14_gamma_momentum_factor_squeeze.md`
+But the working tree is dirty from the latest sweep/heartbeat refresh:
 
----
+Modified:
+- `FORGE/tools/news-sweep/.cache/seen.json`
+- `FORGE/tools/news-sweep/latest.json`
+- `FORGE/tools/news-sweep/latest.md`
+- `HEARTBEAT.md`
 
-## Current Market / Thesis Read
+Untracked sweep inbox files:
+- `AGENTS/BROCK/inbox/sweep_2026-05-16_2306.md`
+- `AGENTS/CARL/inbox/sweep_2026-05-16_2306.md`
+- `AGENTS/HENRY/inbox/sweep_2026-05-16_2306.md`
+- `AGENTS/LABOR/inbox/sweep_2026-05-16_2306.md`
+- `AGENTS/LIQUID/inbox/sweep_2026-05-16_2306.md`
+- `AGENTS/OTTO/inbox/sweep_2026-05-16_2306.md`
+- `AGENTS/REGINALD/inbox/sweep_2026-05-16_2306.md`
+- `AGENTS/SAM/inbox/sweep_2026-05-16_2306.md`
 
-### Base read
-**Fragile melt-up / mechanically calm surface, deteriorating understructure.**
-
-- **Not all-clear:** BDC/private-credit stress is real; FSK validates deterioration in marks/income and sponsor-support stabilization.
-- **Not cascade-confirmed:** HY OAS <300 and VIX <20 block broad panic-short posture.
-- **Tape explanation:** Momentum + positive gamma + 0DTE can keep VIX suppressed and indices stable even while internals and credit-adjacent equities weaken.
-
-### Actionable implication
-- Do **not** add broad cascade/panic shorts just because gamma is extreme.
-- Do **prepare** targeted downside where evidence exists: BIZD/BDC complex, select PE-credit names, and regional banks if Call Reports/tape confirm.
-- APO/ARES June: thesis may be directionally right but timing risk is high; do not throw good premium after bad without fresh confirmation.
-- Watch **WAL/KRE + BIZD + VIX together**. If banks/BDCs weaken and VIX wakes up despite gamma, regime may be shifting.
+Recommended next git step:
+1. `git status -sb`
+2. Inspect exact diff for the sweep batch.
+3. Check remote overlap before committing agent inbox files: `git fetch --prune` then `git log HEAD..origin/master -- <paths>`.
+4. If safe, commit as one batch: `PROME: route May 16 news sweep` or similar.
+5. Do **not** stash/reset/pull/rebase while dirty unless Will explicitly approves.
 
 ---
 
-## Latest Dashboard Levels
+## Current Market / Thesis State
 
-From `FORGE/tools/market-data/dashboard.py --compact` run May 14 08:26 ET:
+Latest `HEARTBEAT.md` says **Updated: 2026-05-16 19:06 ET**.
 
-- HY OAS **282bps 🟢**
-- CCC OAS **937bps 🟡**
-- Brent **$103.87 🔴**
-- Gas weekly **$4.50 🔴**
-- USD/JPY **157.89 🟡 / near red**
-- Initial claims **200,000 🟢**; shadow-adjusted estimate **255,000**
-- Continuing claims **1,766,000 🟢**
-- SOFR-IORB **-0.06 🟢**
-- 10Y yield **4.46 🟡**
-- KRE **$67.14 🟡**
-- WAL **$74.97 🟡 / bear-line breach**
-- APO **$131.60 — still above $130 watch**
-- BIZD **$12.57 🔴**
-- VIX **17.85 🟢**
+Core read:
+- Private-credit thesis has re-accelerated from grind to **BDC credit/mark stress confirmed**, led by FSK Q1.
+- Public-credit contagion remains **unconfirmed**: HY OAS **276bps** and VIX **18.43** remain benign.
+- Stress is concentrated in physical/Japan/BDC/bank channels:
+  - Brent **$109.26 🔴**
+  - Gas **$4.50 🔴**
+  - USD/JPY **158.73 🔴**
+  - BIZD **$12.61 🔴**
+  - KRE **$66.97 🟡**
+  - WAL **$74.42 🟡 / below bear line**
+  - APO **$135.38**, above `$130` watch line.
+
+May 16 updates:
+- 19:06 ET dashboard was unchanged from 18:09.
+- News sweep routed internally: **12 alert-level items + 1 WATCH_FOR hit** to REGINALD/LIQUID/BROCK/HENRY/SAM/CARL/OTTO/LABOR inboxes.
+- No user interruption was required unless Monday prep needs escalation.
 
 ---
 
-## Position Decisions Pending
+## Position / Decision Rails
 
-| Priority | Decision | Current Rail |
-|---|---|---|
-| 🔴 | **APO puts — hold/roll/cut** | OBDC says hold/roll bias; no add. Reassess if APO >$130 for 3 sessions or HY OAS <260 sustained. |
-| 🔴 | **Fresh BDC/private-credit downside** | FSK Strong Bear allows discussion, but needs live bid/ask and Will approval. Prefer liquid longer-dated BIZD/ARCC-type structures if pricing sane. |
-| 🟠 | **ARES $95P Jun** | Hold only if FSK/GCRED/OTF/BDC wave shows continued mark pressure; otherwise June theta risk dominates. |
-| 🔴 | **KRE/WAL/OZK bank shorts** | Use `PROME/action-cards/REGIONAL_BANK_WEEKEND_TRIAGE_MAY9.md`; next step is Call Report MI3/NDFI/ACL/liquidity checks. |
-| 🟠 | **ZION Jul put** | Prior posture: kill/no-roll if usable bid unless Call Report MI3/RCON2746 surprises. ZION remains under-researched, not exonerated. |
+Pending decisions remain:
+- 🔴 **APO puts — hold/roll/cut**: reassess if APO remains >$130 or HY OAS drifts toward <260 thesis-kill zone.
+- 🔴 **FSK / BDC downside**: Strong Bear FSK Q1 allows fresh BDC/private-credit downside discussion, but needs live bid/ask and Will approval.
+- 🟠 **ARES Jun $95P**: only hold through BDC wave if GCRED/OTF/BDC marks keep confirming; otherwise theta dominates.
+- 🔴 **KRE/WAL/OZK bank shorts**: regional-bank Call Report triage is still the next decision-support task.
+
+No trades executed. No external/public messages sent.
+
+---
+
+## Claude Code Prome State
+
+Claude Code Prome integration is no longer just planning; the scaffold/runtime docs were committed and pushed.
+
+Relevant files:
+- `PROME/CLAUDE.md`
+- `PROME/CLAUDE_CODE_PROME.md`
+- `PROME/CLAUDE_CODE_PROME_PLAN.md`
+- `PROME/CLAUDE_CODE_PROME_TASKS.md`
+- `PROME/CLAUDE_CODE_HANDOFF.md`
+- `PROME/SYSTEM.md`
+- `AGENTS/PROME/CLAUDE.md`
+- root `CLAUDE.md`
+
+Next suggested Claude Code step remains a low-risk dry run / readiness report before granting autonomous commit/push behavior.
 
 ---
 
 ## Highest-Value Next Actions for Fresh Session
 
-1. **If continuing Claude Code Prome build, start with `PROME/CLAUDE_CODE_PROME_PLAN.md` + `PROME/CLAUDE_CODE_PROME_TASKS.md`.**
-   - Current next step: Phase 2 architecture integration.
-   - Keep work small and clearable.
-
-2. **Run boot sequence from updated `PROME/BOOT.md`.**
-   - If `git pull --rebase` is blocked by dirty/untracked files, stop and read status/handoff; do not stash/commit/reset without Will approval.
-
-3. **Refresh live dashboard before citing levels.**
+1. **Run boot sequence from `PROME/BOOT.md`.**
+2. **Handle dirty news-sweep batch carefully** before any pull/rebase:
+   - inspect diffs,
+   - check remote overlap,
+   - commit only if safe and Will approves / context supports it.
+3. **Refresh live dashboard before citing any market level.**
    - `python3 FORGE/tools/market-data/dashboard.py --compact`
-
-4. **Regional-bank Call Report triage.**
-   - Apply `PROME/action-cards/REGIONAL_BANK_WEEKEND_TRIAGE_MAY9.md`.
-   - Focus: WAL, OZK, EGBN, CFG, VLY, ZION, FITB, SSB/HBAN as needed.
-   - Extract only decision metrics: MI3/RCON2746, NDFI/warehouse/fund finance, ACL/NCO/nonaccrual migration, FHLB/brokered deposits/liquidity, CRE/multifamily maturity.
-
-5. **BDC/private-credit decision prompt.**
-   - Use `PROME/FSK_Q1_READ_MAY11.md` and `PROME/action-cards/FSK_MAY11_ACTION_CARD.md`.
-   - Frame fresh downside only if live pricing is sane; do not rescue dead June premium by default.
-
-6. **Gamma/vol-suppression follow-through.**
-   - Check HENRY/VIOLET/LIQUID/NEXUS inboxes for the new signal.
-   - Key question: is VIX <20 informational, or mechanically suppressed by positive gamma/0DTE?
+4. **Regional-bank Call Report triage** using `PROME/action-cards/REGIONAL_BANK_WEEKEND_TRIAGE_MAY9.md`.
+5. **Monday decision prep** for APO/ARES/BDC and WAL/KRE/OZK.
+6. **If working Claude Code Prome**, read the Claude Code Prome plan/tasks and keep first dry run non-mutating except for its handoff report.
 
 ---
 
 ## Rules / Constraints
 
-- **No trade execution without Will approval.**
-- **No external/public messages without approval.**
-- **No broad bank-premium add** unless Call Reports/tape move to Bear / Strong Bear.
-- **No broad cascade short** while HY OAS <300 and VIX <20.
-- **No rolling every losing June contract.** Prefer one or two higher-delta candidates only if confirmed.
-- **Do not spawn REGINALD, CARL, SAM, RED, or BRENT.** They are persistent/managed.
-- **WALTER owns signal/news routing; Prome owns tasking, rails, and synthesis.**
-- **Do not commit/stash/pull/reset dirty git state without Will approval.**
+- No trade execution without Will approval.
+- No external/public messages without approval.
+- Do not spawn persistent/managed agents: **CARL, REGINALD, SAM, RED, BRENT**.
+- WALTER owns signal/news routing; Prome owns tasking, rails, and synthesis.
+- Do not commit/stash/pull/rebase/reset dirty git state without deliberate review and Will approval.
+- Use explicit path staging only; no broad `git add .`.
+- Remote agent work must not be overwritten.
 
 ---
 
 ## Suggested Fresh-Session Prompt
 
-> Continue from `PROME/HANDOFF.md`. Run the updated `PROME/BOOT.md` sequence, but do not force git if dirty. If working on Claude Code Prome, read `PROME/CLAUDE_CODE_PROME_PLAN.md` and `PROME/CLAUDE_CODE_PROME_TASKS.md` first; next step is Phase 2 architecture integration. Otherwise refresh live dashboard first. Current model: BDC/private-credit stress confirmed by FSK, but public cascade unconfirmed because HY OAS/VIX remain benign. Focus on regional-bank Call Report triage and BDC/private-credit decision rails. Treat the gamma/momentum signal as a vol-suppression / air-pocket overlay, not standalone short confirmation. Do not spawn REGINALD/CARL/SAM/RED/BRENT and do not trade without Will approval.
+> Continue from `PROME/HANDOFF.md`. Run `PROME/BOOT.md`, but do not pull/rebase while dirty. First inspect the post-push news-sweep/heartbeat dirty batch from May 16 23:06Z, check remote overlap, and prepare a safe commit if appropriate. Current market model: BDC/private-credit stress confirmed by FSK, but broad public-credit/vol contagion unconfirmed because HY OAS/VIX remain benign. Stress is concentrated in Brent/gas, USDJPY, BIZD, WAL/KRE. Prioritize repo hygiene, then Monday decision prep for APO/ARES/BDC and regional banks. Do not trade or send external messages without Will approval.
