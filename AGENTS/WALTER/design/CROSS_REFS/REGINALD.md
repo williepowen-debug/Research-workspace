@@ -118,6 +118,53 @@ REGINALD's 8-channel BANK_EXPOSURE_MATRIX framework. **v0.9 candidate:** `bank_t
 bank_transmission: cre | hidden_cre | ndfi | private_credit | mfs_fraud | cmbs_maturity | fed_layoffs | stagflation_trap
 ```
 
+### §4a — NDFI 5-category schema breakdown (FFIEC RC-C 10.a-10.e)
+
+The `ndfi` channel code above is the aggregate. **Per FFIEC RC-C call report schedule, NDFI decomposes into 5 named sub-categories** — at dispatch, when a signal touches NDFI substance, grep for the sub-category to surface the right framing in dispatch_note. Added 2026-05-14 (WALTER self-task per 5/11 NDFI deep-dive return).
+
+| Sub-code | RC-C line | Sub-category | Greppable terms | YE 2025 scale (FDIC primary) |
+|----------|-----------|--------------|-----------------|------------------------------|
+| `ndfi_securities` | 10.a | Loans to securities firms (broker-dealers, dealers' financing) | "broker-dealer financing" / "securities firm credit line" / "dealer loans" | — |
+| `ndfi_insurers` | 10.b | Loans to insurance carriers + insurance underwriters | "insurer credit facility" / "reinsurance financing" / "captive insurer lending" — **SHADE cross-feed primary** | — |
+| `ndfi_other_finvehicles` | 10.c | Loans to other financial vehicles (REITs, REIT-affiliates, finance companies, mortgage finance) | "finance company line" / "REIT credit facility" / "consumer finance lender" | — |
+| `ndfi_pe_pc` | 10.d | Loans to private equity / private credit funds (capital-call lines, NAV lending, subscription lines, fund finance) | "capital-call facility" / "subscription line" / "NAV facility" / "fund-finance" / "private credit fund line" — **BROCK overlap primary** | — |
+| `ndfi_other` | 10.e | Loans to other NDFIs (residual; mostly unconventional non-bank lenders) | "other NDFI" / residual 10.e classification | — |
+| **NDFI aggregate (10.a + 10.b + 10.c + 10.d + 10.e)** | **10.x** | **Full NDFI exposure** | "NDFI" / "non-depository financial institution" / "Memo Item 10" | **$1.4T industry** / **+35.2% YoY** / single-name top WFC $212B (21% of total loans) / MS BCI $X (19.73%) / CUBI 33% |
+
+**Single-bank concentration tier (sourced from 5/11 NDFI deep-dive primary):**
+
+| Bank | NDFI %-of-loans | $-exposure | Tier flag | Notes |
+|------|-----------------|------------|-----------|-------|
+| WFC | 21% | ~$212B | TIER-1 NDFI scale | Q1 2026 first fraud-related NDFI loss disclosed |
+| MS | 19.73% | (BCI) | TIER-1 NDFI growth | +316bps QoQ (one of the steepest quarterly accelerations) |
+| CUBI | 33% | mid-tier bank | OUTLIER | %-of-loans concentration outpaces majors; mid-bank fragility tell |
+| WAL | TBD pending Q1 NDFI breakout disclosure | TBD | Watch | Investor-Day 5/12 did not disclose NDFI sub-cat |
+
+**Forward-test:** **2026-05-16 FFIEC call-report-bulk public-data-distribution (REG-CAL-20260516-FFIEC-PDD)** — first bank-level NDFI 5-cat splits publicly available for YE 2025 / Q1 2026 deltas. Plan a coordinated WALTER+REGINALD+BROCK pull on release.
+
+**Cross-agent overlap map:**
+
+| Sub-code | Primary agent | Secondary agent | WALTER cross-feed |
+|----------|---------------|-----------------|-------------------|
+| `ndfi_securities` | REGINALD | BOND, HENRY | broker-dealer-funding |
+| `ndfi_insurers` | **SHADE** (PE-insurer-nexus primary) | REGINALD | insurer-shadow-banking |
+| `ndfi_other_finvehicles` | REGINALD | LIQUID | finance-company-credit-cycle |
+| `ndfi_pe_pc` | **BROCK** (PC-fund-finance primary) | REGINALD | BDC-fund-line-strain |
+| `ndfi_other` | REGINALD | BROCK | residual / new mechanism flag |
+
+**Sponsor-bifurcation overlay (5/11 image-batch finding, sharpened 5/14 BROCK REQ):**
+
+When `ndfi_pe_pc` substance + sponsor named, run sponsor-action-comparison cross-cluster:
+
+| Sponsor strategy | Indicators | Read |
+|------------------|------------|------|
+| **Double-down** (KKR template) | Sponsor-backstop (preferred equity injection + tender) / multi-vehicle stress concurrent / capital-flexibility constraint not yet binding | Bear thesis on portfolio quality is firm; sponsor reads stress as transient |
+| **Cash-out** (Apollo template) | Shopping captive listed BDC / lending halted / NAV-discount sale / redemption acceleration | Bear thesis on portfolio quality is firm; sponsor reads stress as durable + reaches exit |
+
+Same data, opposite strategies = leverage-and-flexibility tell, not thesis-direction tell. Surface both in dispatch_note when applicable.
+
+**Source:** FFIEC Call Report Schedule RC-C 10.a-10.e + FDIC 2026 Risk Review + WALTER 5/11 NDFI deep-dive sub-agent return + 5/11 image-batch SIG-W-20260511-038/-039/-040 sponsor-bifurcation context. WALTER outbox REQ-BROCK-20260514 filed in parallel to this append.
+
 ---
 
 ## §5 — Cross-bank pattern keys (Q4-C overlap surface — cohort/structural indicators)
