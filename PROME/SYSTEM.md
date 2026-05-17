@@ -31,13 +31,13 @@ Core rule:
 
 | File | Current status | Role |
 |---|---|---|
-| `PROME/BOOT.md` | Updated May 16 for Claude Code Prome integration; still partly stale elsewhere | Boot sequence, doc ownership, protocol reminders. Some agent/spawn details may lag `AGENTS.md`. |
-| `PROME/HANDOFF.md` | Fresh May 15 22:16 ET | Clear/new-session handoff. Best narrative of latest work and Claude Code Prome build pointer. |
+| `PROME/BOOT.md` | Updated May 16 for Claude Code Prome integration | Boot sequence, doc ownership, protocol reminders. |
+| `PROME/HANDOFF.md` | Fresh May 17 10:45 ET | Clear/new-session handoff after GitHub sync and REGINALD/WALTER closeouts. |
 | `PROME/CLAUDE_CODE_PROME_PLAN.md` | Fresh May 15 | Architecture/rationale for persistent Claude Code Prome. Read before continuing that build. |
 | `PROME/CLAUDE_CODE_PROME_TASKS.md` | Fresh May 16 | Restart-safe phase/task ladder for Claude Code Prome. Current next step: Phase 3 dry run. |
-| `PROME/SCRATCH.md` | Stale / lower trust | Ephemeral session handoff. Should be rewritten once system state stabilizes. |
-| `PROME/TODAY.md` | Stale | Daily catalysts/checklist. Do not rely without refresh. |
-| `PROME/STATUS.md` | Stale | Operational status. Do not rely without refresh. |
+| `PROME/SCRATCH.md` | Fresh May 17 | Ephemeral session state and next best action. |
+| `PROME/TODAY.md` | Fresh May 17 | Daily catalysts/checklist and latest dashboard snapshot. |
+| `PROME/STATUS.md` | Fresh May 17 | Operational status, pending work, agent/domain notes. |
 | `PROME/TOSCANINI/QUEUE.md` | Stale | Proposal queue. Do not rely without refresh. |
 
 ---
@@ -194,44 +194,37 @@ Known current caveat:
 
 | File | Status | Use? |
 |---|---|---|
-| `HEARTBEAT.md` | Fresh enough, updated May 8 from dashboard/handoff; needs timestamp refresh later | Yes, current orientation. |
-| `PROME/HANDOFF.md` | Fresh May 15 22:16 ET | Yes for latest narrative and Claude Code Prome build pointer. |
+| `HEARTBEAT.md` | Fresh May 16; levels rechecked May 17 and unchanged | Yes, current orientation. |
+| `PROME/HANDOFF.md` | Fresh May 17 10:45 ET | Yes for latest narrative and Claude Code Prome build pointer. |
 | `PROME/POSITIONS.md` | Fresh May 8 14:17 ET from screenshots | Yes, but brokerage screen is execution ground truth. |
 | `PROME/DECISION_FLOW.md` | Fresh May 8 | Yes. |
 | `PROME/action-cards/FSK_MAY11_ACTION_CARD.md` | Fresh May 8 | Yes for FSK workflow. |
+| `PROME/action-cards/REGIONAL_BANK_WEEKEND_TRIAGE_MAY9.md` | Fresh/active | Yes for bank triage workflow. |
 | `PROME/TRADE_DECISIONS.md` | Fresh scaffold | Yes, log future decisions here. |
-| `PROME/TODAY.md` | Stale Apr 17 | No, refresh before use. |
-| `PROME/STATUS.md` | Stale Apr 17 | No, refresh before use. |
-| `PROME/SCRATCH.md` | Stale/legacy | Use only as historical hint; rewrite soon. |
+| `PROME/TODAY.md` | Fresh May 17 | Yes. |
+| `PROME/STATUS.md` | Fresh May 17 | Yes. |
+| `PROME/SCRATCH.md` | Fresh May 17 | Yes for current session continuity. |
 | `PROME/TOSCANINI/QUEUE.md` | Stale | No, refresh before presenting proposals. |
 | `FORGE/STATUS.md` | Stale per Prome inbox signal | No, refresh before using. |
 | `PROME/CLAUDE_CODE_PROME_PLAN.md` | Fresh May 15 | Yes when continuing Claude Code Prome build. |
-| `PROME/CLAUDE_CODE_PROME_TASKS.md` | Fresh May 15 | Yes; current source of truth for next implementation task. |
+| `PROME/CLAUDE_CODE_PROME_TASKS.md` | Fresh May 16 | Yes; current source of truth for next implementation task. |
 
 ---
 
 ## Current Live Architecture Gaps
 
-1. **Generic action-card template missing**
-   - Needed: `PROME/action-cards/TEMPLATE.md`.
-   - Purpose: prevent every new card from becoming bespoke.
+1. **Monday decision prompts still need construction**
+   - Regional banks: KRE/WAL/OZK/ZION/SSB, Call Reports/MI3, live chain pricing.
+   - BDC/private credit: APO/ARES/BIZD/ARCC, FSK implications, live chain pricing.
 
-2. **Regional-bank action card missing**
-   - Needed because bank puts are larger live exposure than private-credit residuals.
-   - Scope: Call Reports, KRE/WAL/OZK/HBAN/ZION expiry triage, hold/cut/roll framework.
+2. **Toscanini queue still stale**
+   - `PROME/TOSCANINI/QUEUE.md` is historical and should be rebuilt before presenting proposals.
 
-3. **Stale operational docs**
-   - `PROME/TODAY.md`, `PROME/STATUS.md`, `PROME/SCRATCH.md`, `PROME/TOSCANINI/QUEUE.md` need refresh or explicit demotion.
-
-4. **FORGE status stale**
+3. **FORGE status stale**
    - Inbox signal requested `FORGE/STATUS.md` refresh.
    - This affects `/COP.md` and any dashboard/system status that references FORGE state.
 
-5. **Git sync blocked**
-   - `git pull --rebase` previously blocked by unstaged/untracked local changes.
-   - Do not commit/stash without Will approval.
-
-6. **Claude Code Prome dry run pending**
+4. **Claude Code Prome dry run pending**
    - Phase 1 bootstrap files and Phase 2 architecture integration are complete.
    - Next: Phase 3 dry run with no risky edits; Claude Code Prome should only update `PROME/CLAUDE_CODE_HANDOFF.md` during the first test.
 
@@ -239,11 +232,11 @@ Known current caveat:
 
 ## Recommended Next Architecture Steps
 
-1. Run Claude Code Prome Phase 3 dry run from `PROME/CLAUDE_CODE_PROME_TASKS.md`.
-2. Create `PROME/action-cards/TEMPLATE.md`.
-3. Create regional-bank Call Report / expiry-triage action card.
-4. Refresh or retire stale `TODAY.md`, `STATUS.md`, `SCRATCH.md`, and `QUEUE.md`.
-5. Resolve git working-tree blocker with Will-approved commit/stash strategy.
+1. Commit/push the May 17 Prome/OpenClaw state refresh if Will wants it saved.
+2. Build regional-bank Monday decision prompt using REGINALD May 17 closeout.
+3. Build BDC/private-credit Monday decision prompt using FSK rails and live option pricing.
+4. Run Claude Code Prome Phase 3 dry run from `PROME/CLAUDE_CODE_PROME_TASKS.md`.
+5. Rebuild or explicitly demote `PROME/TOSCANINI/QUEUE.md`.
 6. Keep `PROME/BOOT.md` aligned with the current decision-support layer.
 
 ---
