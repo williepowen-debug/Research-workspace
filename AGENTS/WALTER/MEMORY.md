@@ -73,54 +73,46 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (5/12 PM CPI closeout → 5/13 mid-day crashed dispatch arc + evening recovery + closeout)
+### CHANGES SINCE LAST SESSION (5/13 closeout → 5/14 Thu + 5/17 Sun multi-session arc)
 
-**5/13 session (Wed; crashed mid-day dispatch arc + evening recovery)** — 7 BOARD dispatches (2 IMM + 5 PRI) / 2 KILLs (DUP) / 0 sub-spawns / BOARD 205→212. Mid-day dispatch arc (~17:35-17:50 UTC) shipped cleanly but session died pre-closeout. Will boot of fresh window 5/13 evening → recovery via `git status` (all WALTER-owned, safe) → full closeout this pass. Spec changes: none.
+**5/14 Thu session** — 1 BOARD dispatch (initial claims PRIORITY) + 3 mechanical knockout items completed + VIOLET commit-on-behalf coordination + strategic Agent View / CC-PROME conversation. **5/17 Sun session** — rebase-recovery against PROME's 17 weekend commits; REGINALD self-committed; WALTER committed; clean rebase + push. **0 LIAISON turns. Spec changes: design/CROSS_REFS/REGINALD.md §4a NDFI 5-cat schema added (WALTER self-task).** BOARD 212 → 213.
 
-**The 7 dispatches:**
-1. **SIG-001 IMM → CARL: April PPI HOT +6.0% YoY** (largest since Dec 2022) / MoM +1.4% triples cons 0.5% / Core +5.2% / services +1.2% MoM biggest since Mar 2022 — extends 5/12 CPI; cluster_mediating × FED_FRAMEWORK × IRAN_HORMUZ.
-2. **SIG-002 IMM → CARL: NY Fed Q1 2026 HHDC** student-loan 90+d 10.3% + 2.6M Q1 defaults vertical step-up (1M Q4 → 2.6M Q1 = 2.6× QoQ COVID-forbearance-end); CC 90+d ~13% AT 2009-10 peak; cluster_mediating × BANK_COLLATERAL.
-3. **SIG-003 PRI → CARL: BAA April wage tercile K-shape** (Higher 6.0% / Lower 1.5% / 4.5pp gap vs ~0-1pp 2023).
-4. **SIG-004 PRI → CARL: USDA May WASDE HRW wheat 515M bushels lowest since 1957** / -36% YoY / Plains drought; cluster_mediating × BANK_COLLATERAL.
-5. **SIG-005 PRI → BRENT: Lake Powell 13% snowmelt record-low** / 3,490ft min-power-pool projection August / Flaming Gorge emergency release.
-6. **SIG-006 PRI → HENRY: LSEG/Yardeni small/mid-cap fwd P/E discount deepest 25+yrs** — counter-evidence; RED auto-cc.
-7. **SIG-007 PRI → HENRY: SentimenTrader retail-puts-at-SPY-ATH** 10 analogs +20.76% median fwd 1yr — counter-evidence; RED auto-cc; **4th consecutive tape-vs-substance bifurcation (5/5 / 5/6 / 5/11 / 5/13)**.
+**5/14 dispatch (SIG-W-20260514-001 PRIORITY → CARL):** Initial claims week-ending-5/9 211K vs cons 205K (+6K HOT) / +12K WoW (prior revised 199K from 200K; prior WoW -10K = direction-flip) / 4-wk MA 203.75K rolling up +15K off April 1969-low (189K). First credible labor hard-data direction-flip after April sub-200K run. cluster_mediating × FED_FRAMEWORK (labor-transmission re-arming). Below threshold-fire (REG-T-05 >300K 89K shy; RED-FT-05 >250K 39K shy outside 5% near-miss rule). Cross-feeds RED Session 12 stagflation-regime-on-tape stack — labor was the missing leg vs CPI/PPI/HHDC/WASDE. LABOR's 5/4 BIFURCATED frame starts to converge (hard softening rejoining soft deteriorating). CONFIRMED-AGGREGATOR 0.85 (DOL primary 403 to both WebFetch + curl; Trading Economics + FRED + WebSearch triangulate).
 
-**2 KILLs (DUP):** IMG 4 ZH SPX-UMich divergence (DUP-of-SIG-W-20260508-009 + 5/11-016) / IMG 5 anon X 66% calls (DUP-of-SIG-W-20260419-023 + arithmetic-misread CPC 0.66 ≠ 66% share).
+**Mechanical knockout queue completed (3 carry-forwards from 5/13 FOLLOW-UP cleared ~25min):**
+1. **BROCK NDFI scope-correction REQ filed** at `AGENTS/WALTER/outbox/REQ-BROCK-20260514-ndfi-scope-correction-128b-to-1.4t.md` — $128B private-credit-subset → $1.4T full NDFI per FFIEC RC-C 10.a-10.e (FDIC 2026 Risk Review); WFC alone $212B = 66% larger than BROCK's full working figure; sharpened with FSK + MFIC sponsor-bifurcation (KKR-doubles-down vs Apollo-cashes-out); forward-flag on 5/16 FFIEC PDD.
+2. **REGINALD CROSS_REFS §4a NDFI 5-cat schema appended** — 5 sub-codes mapped to RC-C lines 10.a-10.e (securities firms / insurers / other financial vehicles / PE+PC funds / other NDFIs) with greppable terms + single-bank concentration tier (WFC 21% / MS BCI 19.73% +316bps QoQ / CUBI 33%) + cross-agent overlap map (SHADE primary on 10.b insurers / BROCK primary on 10.d PE/PC) + sponsor-bifurcation overlay table.
+3. **BOARD INDEX 9-row IRAN_HORMUZ section-placement cleanup** — SIG-W-20260511-001/-002/-003/-004/-005/-006/-007/-032/-033 relocated POSITIONING_VALUATION → IRAN_HORMUZ; verified each row exactly once post-cleanup.
 
-**LOAD-BEARING FINDINGS (4):** (a) **PPI 6.0% + CPI 3.8% = inflation-from-both-sides consecutive days** — different mechanisms (energy/consumer-side yesterday + services/producer-side today), same direction; (b) **NY Fed HHDC student-loan vertical step-up = first hard-print catalyst for COVID-forbearance-end transmission** since Q4 2025; (c) **K-shape wage gap 4.5pp crystallized** = canonical tier_stratified mechanism; (d) **4th tape-vs-substance bifurcation observation = regime-state observation well-established** (calibration cycle 1 input HARDENS).
+**VIOLET commit-on-behalf `dfb80854`** per Will direction msg 1801 (4 files: STATUS regime-bending + LAST_COMPLETION + KB.tsv +5 / VX_DAILY.tsv +1 + 6 FRED cache CSVs + 2 inbox→processed renames). Friday-VIOLET pattern.
 
-**Cluster deltas:** CONSUMER_STAGFLATION 35→39 (+4); POSITIONING_VALUATION 31→33 (+2); HYDROCARBON_INFRA 10→11 (+1); BOARD 205→212.
+**Strategic Agent View / CC-PROME conversation (5/14 evening — 5/16 outcome):** Will asked architectural advice on (a) whether to install Agent View + (b) whether to add a "Prome on the CC side." Research surfaced Anthropic 5/12 Agent View ship (Claude Code v2.1.139+) — UI for parallel session management; Agent Teams orchestrator-subagent model where agents do NOT talk directly (coordination via shared filesystem + tool-result-as-message). Recommended sibling-coordinator architecture (Tier 2A WALTER signal-flow + Tier 2B CC-PROME ops coord, peers not nested). **<48h later PROME landed the runtime scaffold** (commit `61c6a966` 5/15 23:24 ET — 8 new files in PROME/) + chief-of-staff operating model formalized (commit `150a3ffc` 5/16 17:48 ET — root CLAUDE.md + AGENTS/PROME/CLAUDE.md updates). PROME treats it as "one Prome, two surfaces" (OC = chief of staff; CC = implementation bench) — slightly different from my sibling-coordinator sketch but converges on same outcome: **WALTER owns signal/news routing explicitly codified at root CLAUDE.md**.
 
-**Today's cluster_mediating count: 3** (sigs 001/002/004) — below ≥5 `network_uncertainty_peak` threshold.
+**5/17 rebase-recovery:** 17 incoming commits since Friday (PROME×12 + SENTRY×7 + BRENT×2 + BOND×1). File-by-file diff inspection confirmed zero collisions between my pending work and PROME's commits. REGINALD self-committed `1b37fccc` (WAL Investor Day post-mortem; Bucket E B3 fired — mgmt held 25-35bps NCO guide despite Q1 ex-fraud 39bps + deposit costs $650-700M; V2.1 → V2.1.1 minor revision: Bear-slow 23→27% / REG-25 55→65%+; SSB $95P expiry Phase 1-5 execution ladder). WALTER committed `7a3ece9d` (6 files / 193+/15- = claims dispatch + 3-item mechanical knockout + 5/17 boot REGISTRY refresh). Clean rebase + push.
 
-### CHANGES SINCE — PRIOR (5/12 PM April CPI HOT)
-
-**5/12 PM session** — 1 BOARD dispatch SIG-W-20260512-001 April CPI HOT IMM → CARL: Headline 3.8% YoY (highest since May 2023) / Core 2.8% / Core MoM 0.4% (3 of 4 beat consensus); Energy +17.9% YoY steepest since Sept 2022 = realized-tape confirmation of 47 prior IRAN_HORMUZ forward-looking signals. REG-T-02 still firing (WAL $77.03 sustains <$78). Spec changes: none. **Full record:** git log `e2c62d05` + `5f053313`.
-
-### CHANGES SINCE — PRIOR-PRIOR (5/11 multi-arc)
-
-**5/11 PM 3rd-session** — 15 BOARD dispatches image-batch + REG-T-02 FIRST FIRE EVER (WAL $76.95 <$78 sustain=1). **5/11 PM 2nd session** — 30 dispatches news-sweep + deep-dive; `network_uncertainty_peak` first fire (14 cluster_mediating). **5/10-5/11 multi-thread** — REGINALD LIAISON OPENED + CONVERGED in 5 turns / <13hr UTC; ROUTING_TABLE v0.8→v0.9. **Full record:** git log `06bf5730` + `f4512634` + `ce121597`.
+**LOAD-BEARING FINDINGS this multi-session (3):**
+1. **Cross-platform architecture convergence in <48h.** Friday WALTER sketch (sibling-coordinator-to-WALTER) → PROME runtime scaffold landed Saturday afternoon. File-mediated coordination + Will-arbitration sufficient — doesn't need Agent Teams direct-comms. Validates existing pattern.
+2. **PROME-side acknowledgment of WALTER's signal-routing exclusivity at root.** Root CLAUDE.md operating-model paragraph explicitly codifies "WALTER owns signal/news routing" — was previously implicit in AGENTS/WALTER/CLAUDE.md only. Eliminates the routing-domain ambiguity that allowed PROME-pinch-hitter-mirror situations to recur.
+3. **REGINALD self-commit pattern works.** First time REGINALD self-committed her own work cleanly during multi-agent uncommitted-work pileup (vs Friday-VIOLET commit-on-behalf). Scope discipline 100% (4 files all in REGINALD/ scope; no bleed). Preferred pattern where possible.
 
 ### NEXT SESSION
 
 **Canonical carry-forward:** see `LAST_COMPLETION.md` FOLLOW-UP + OPEN DESIGN DECISIONS sections (load-bearing running list).
 
 **Time-sensitive THIS WEEK** (boot quick-scan):
-1. **🔴 WAL tape live-pull next boot** — REG-T-02 sustain check from 5/12 close $77.03; if continues <$78 = thesis-extending, if reverses = sustain=1 binary fire was event-day-context.
-2. **🔴 5/13 EIA WPSR Tuesday actual** — SPR exchange 8.6 MMbbl gross-figure (per SIG-035) — should be out; check at next boot.
-3. **🟠 May 15 CDR Q1 2026 5-category NDFI bulk release** — T-2d. First bank-level 5-cat splits publicly available.
-4. **Iran-war anchor next re-verify boundary 5/18 minimum** — stamp at 5/11 PM.
-5. **May 18 TIC March release** — Japan UST-funding question.
-6. **SIG-005 forward-test 6 PENDING** 5/14-28 (TOL/WMT/HD/TGT/LOW/COST).
-7. **CARL/BRENT/RED/REGINALD calibration cycle 1** ETA May 19-27.
+1. **🔴 WAL tape live-pull next boot** — REG-T-02 sustain check (last 5/14 intraday $75.67; expect sustained <$78 per RED Session 12 tally of 4+ sessions).
+2. **🔴 5/18 (T-1d Mon) Iran-war anchor re-verify boundary** — stamp at 5/11 PM.
+3. **🔴 5/18 Mon TIC March release** — Japan UST flows.
+4. **🟠 5/20 Tue NVDA earnings** — pre-NFP HENRY refresh + 2 counter-evidence sigs context.
+5. **🟠 5/20-27 CARL/BRENT/RED/REGINALD calibration cycle 1 trigger window**.
+6. **BRENT PATH B Trigger #3 EVENT_WINDOW_STATE.md log entry** — 5/15 fire still uncaptured in state file.
+7. **SIG-005 forward-test 6 PENDING** 5/14-28 (TOL/WMT/HD/TGT/LOW/COST).
 
 **Top next-session candidate work:**
-1. **🔴 BROCK outbox REQ on $128B → $1.4T NDFI scope correction** — sharpened with FSK + MFIC sponsor-bifurcation; mechanical ~10min.
-2. **🔴 BOARD INDEX section-placement cleanup** — relocate 9 misplaced rows (SIG-W-20260511-001-007 + -032/-033) POSITIONING_VALUATION → IRAN_HORMUZ.
-3. **🟠 REGINALD CROSS_REFS NDFI 5-category schema append** — mechanical ~5min.
-4. **NON_TRADED_REIT_DISTRESS / SPONSOR_BIFURCATION sub-cluster** — Will sign-off pending.
-5. **CONSUMER_STAGFLATION 5-axis sub-cluster v0.2** — cluster at 39 sigs; Will sign-off pending.
-6. **HENRY LIAISON open** — top of remaining queue.
-7. **CROSS_REFS/{CARL,BRENT}.md cache scaffolds** — pattern battle-tested.
-8. **PPI/CPI/HHDC/K-shape/WASDE transmission propagation** — CARL pump_pass_through engaged across 4 sigs; BRENT/HENRY/SAM downstream.
+1. **🔴 NEXUS revival** — 43d STALE; highest-leverage open-design unblock (cluster classification cadence + convergence scoring across 213 BOARD signals + `network_uncertainty_peak` threshold calibration).
+2. **🟠 HENRY LIAISON open** — 30d STALE; top of remaining LIAISON queue; pre-NVDA 5/20 catalyst.
+3. **🟠 LIQUID refresh** — 31d STALE; VIOLET-surfaced HY OAS 8bps from 2.90 trigger + CCC crossed 9.30 early-stress 5/11.
+4. **🟠 EVENT_WINDOW_STATE.md update for BRENT PATH B Trigger #3 fire**.
+5. **HAWK refresh post 5/18 Iran-anchor re-verify** — 27d STALE; REQ filed 5/5 / 12d open.
+6. **CC-PROME ↔ WALTER coordination protocol** — sibling boundaries codified per new operating model; possible LIAISON-style channel.
+7. **MEMORY.md trim** — currently 134 lines (over 100 cap after this session's additions).
