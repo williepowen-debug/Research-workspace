@@ -1,50 +1,46 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-05-17 10:45 ET
+**Last Updated:** 2026-05-17 10:44 ET
 
 ## What Just Happened
 
-Will confirmed the Claude Code agents' commits were pushed to GitHub and asked Prome to pull/check, then refresh local Prome/OpenClaw state.
+Will asked to clear context after the repo was cleaned and synced.
 
 Completed this session:
-- `git pull --rebase` fast-forwarded cleanly from `544faaf5` to `270b6d1d`.
-- Working tree was clean after pull.
-- Pulled REGINALD + WALTER closeout commits, including WAL Investor Day findings, WALTER multi-session closeout, initial-claims BOARD dispatch, and NDFI scope-correction routing.
-- Ran live dashboard before updating state: levels unchanged from May 16 evening snapshot.
-- Refreshed Prome state files to stop pointing at the now-resolved dirty May 16 sweep batch.
+- Pulled Claude Code agent updates from GitHub cleanly.
+- Fast-forwarded local `master` to `270b6d1d`, then refreshed Prome/OpenClaw state files from REGINALD + WALTER closeouts.
+- Committed and pushed Prome state refresh:
+  - `728e9f78 PROME: refresh state after agent sync`
+- Verified local `HEAD` matches `origin/master`; working tree was clean immediately after push.
 
 ## Current Git State
 
 - Branch: `master`
-- Local head: `270b6d1d` = `origin/master`
-- Working tree at start of state refresh: clean
-- Do not broad-stage. If committing these Prome refreshes, stage explicit Prome files only.
+- HEAD / origin: `728e9f78 PROME: refresh state after agent sync`
+- Expected state for next session: clean repo.
+- First step next session: run `git status --short` and `git pull --rebase` per boot before starting Agents View work.
+
+## Next Planned Work
+
+Will wants to work on **installing Agents View** now that the repo is clean.
+
+Next session should:
+1. Run boot sequence from `PROME/BOOT.md`.
+2. Confirm clean git state.
+3. Locate/read the relevant Agents View docs or implementation plan before installing.
+4. Use first-class OpenClaw docs/local source where possible before guessing commands.
+5. Treat installs/config changes carefully: inspect docs, make scoped edits, verify with the smallest runnable check.
 
 ## Current Working Model
 
-- BDC/private-credit mark/income stress remains confirmed by FSK; sponsor-supported stabilization rather than public-credit cascade.
-- Broad cascade still not confirmed: HY OAS **276bps**, VIX **18.43**.
-- Stress remains concentrated in Brent/gas, USDJPY, BIZD, and WAL/KRE.
-- REGINALD's newest state increases priority on WAL/SSB/Call Report work:
-  - WAL Investor Day: Bucket E B3 fire; management held 25-35bps NCO guide despite Q1 ex-fraud 39bps.
-  - REG-25 moved 55% → 65%+; bear-slow 23% → 27%; no V2.2 promotion yet.
-  - WAL 10-Q filed 5/11 but not fully integrated; Schedule O / Table 16 cross-credit inventory test pending.
-  - MI3 / FFIEC PDD mid-May status check pending.
-- WALTER confirms root operating model landed: WALTER owns signal/news routing; Prome owns tasking, rails, and Will-facing synthesis.
-
-## Next Best Action
-
-1. Commit these Prome/OpenClaw state refreshes if Will wants them saved to GitHub.
-2. Monday decision prep remains top priority:
-   - APO/ARES/BDC downside: live bid/ask required; no blind June rescue.
-   - WAL/KRE/OZK/ZION regional-bank prompt: integrate REGINALD May 17 closeout + Call Report/MI3 status.
-3. Time-sensitive WALTER callbacks for May 18:
-   - Iran-war anchor T-1d re-verify.
-   - TIC March release / Japan UST-flow read.
+- BDC/private-credit mark/income stress remains confirmed by FSK; broad public-credit cascade still unconfirmed.
+- Latest checked dashboard May 17 10:38 ET: HY OAS **276bps**, VIX **18.43**, Brent **$109.26**, gas **$4.50**, USD/JPY **158.73**, BIZD **$12.61**, WAL **$74.42**, KRE **$66.97**.
+- REGINALD May 17: WAL Investor Day Bucket E B3 fired; REG-25 65%+; WAL 10-Q integration + MI3/FFIEC PDD status checks due later.
+- WALTER May 17: WALTER owns signal/news routing; Prome owns tasking/rails/synthesis. May 18 callbacks: Iran anchor reverify + TIC/Japan UST-flow watch.
 
 ## Cautions
 
 - No trades without Will approval.
 - No external/public messages without approval.
 - Do not spawn CARL, REGINALD, SAM, RED, or BRENT.
-- WALTER routes signals/news; Prome coordinates tasking and final decision memos.
 - Use explicit path staging only; never `git add .` or `git add -A`.
+- If Agents View install requires OpenClaw config changes, prefer first-class config/gateway tooling or local docs; do not hand-edit config blindly.
