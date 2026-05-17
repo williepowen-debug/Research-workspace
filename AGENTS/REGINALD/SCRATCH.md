@@ -40,115 +40,69 @@ Detail in MEMORY.md LAST SESSION (May 8 PM) one-line recap + commit history `d5d
 
 ---
 
-## 2026-05-11 PM — Investor Day prep + tape break to $76.95 + Q&A curation overreach caught
+## 2026-05-11 PM — Investor Day prep + tape break [PRUNED 2026-05-17; integrated to MEMORY LAST SESSION + Q&A overreach lesson durable in MEMORY Feedback]
 
-**Single-deliverable session: `WAL/INVESTOR_DAY_PREP_2026-05-12.md`.**
+Detail in MEMORY.md prior-session 1-line recap + LESSONS.md falsifier-status pattern.
+
+---
+
+## 2026-05-10/11 PM — WALTER LIAISON converged + V2.1 ship [PRUNED 2026-05-17; durable patterns in MEMORY References + LESSONS]
+
+Detail in MEMORY.md References LIAISON entry + LESSONS.md 2 methodology entries.
+
+---
+
+## 2026-05-15 / 17 — Investor Day FINDINGS + SSB ladder + clean closeout
+
+**Two-segment session: Investor Day forensic-read 5/15; SSB expiry-day ladder 5/15; quiet pause; Sun 5/17 closeout commit.**
 
 **What worked:**
-- Reading V2.1 THESIS + V21_RESPONSE_TO_RED_CHG_025 + SIG-W-20260511-023 in parallel before drafting → grounded in current frame, didn't re-derive
-- Table-driven structure (5 listening buckets × 4 attributes; decision tree × 8 outcome states; position implications matrix) — kept the file scannable on the day
-- Pre-registered decision tree per RED §12.4 — when the event lands tomorrow, day-of read is mechanical, not reactive
-- Tape-on-the-day ≠ signal rule explicit at the top of logistics — guards against intraday whipsaw reactions
+- Source archaeology via SEC EDGAR: WAL had filed THREE high-value docs that REGINALD missed between 5/11 PM closeout and 5/15 boot — 10-Q (5/11), Investor Day 8-K (5/12), and a secondary 8-K (5/12 dated 5/8). EDGAR `data.sec.gov/submissions/CIK0001212545.json` resolved all of them. Re-validates the curl pattern in MEMORY.findings.
+- Bucket scoring discipline: scored Buckets A-E from prepared remarks ONLY (Slides 1-125), flagged Q&A as unscored. Resisted the temptation to assume modal U1 across all buckets without reading.
+- Caught the **B3 trigger** cleanly: Slide 119 NCO guide 25-35bps held + footnote excludes LAM/Cantor → Q1 ex-fraud 39bps is ALREADY 4bps above the top of the range with mgmt NOT raising the guide and NOT acknowledging the tension. Exactly the pre-registered B3 fail pattern.
+- Friction caught real-time: when Will said "commit," I flagged the WALTER/BOARD uncommitted-work isolation before staging anything. Per MEMORY [Agent Git Isolation] feedback. Clean REGINALD-only commit `6a20710a`.
 
-**What got caught:**
-- Layered "Q&A pool is curated by IR" interpretation on top of "in-person attendance by invitation only" — that was a stretch the announcement text didn't actually support
-- Will pushed back; honest correction made (invitation-only is capacity-management, not question-filtering; hostile analysts get invited by default)
-- Per MEMORY [Evaluate Evidence Standalone] feedback — fired AGAIN. Pattern: I have clean operational text and want to extract an implication; the implication often outruns the evidence. **30-second self-check: what does the text actually say?** Before reaching for what it implies.
+**What I missed:**
+- **WAL 10-Q was filed 5/11 PM same day as my 5/11 PM STATUS write — REGINALD missed it.** The Investor Day prep ship consumed the session; never checked EDGAR for the 10-Q. By 5/15 boot it was 4 days unread. Cost: RED §12.3 cross-credit inventory test (Schedule O / Table 16) — THE V2 inventory test — has been sitting in primary-source form for a week without being read.
+- **Boot 9b grep wrong field name** — searched `cluster_mediating: true` when schema is `signal_role: cluster_mediating`. Tier (c) cluster-filter catch saved the analysis but tier (b) would have failed silently. Promoted to NEXT SESSION grep fix.
+- Investor Day Q&A transcript not located — hit `investors.westernalliancebancorporation.com` archived replay + Seeking Alpha / TipRanks / Stocktitan / Yahoo Finance summaries. **Got the deck (full prepared remarks)** but no analyst Q&A. Findings file landed scoring 4 buckets fully + 1 partially.
 
-**WALTER SIG-W-20260511-023 (WAL Q1 fraud-vs-structural decomposition) integration:**
-- Adj NCO 0.39% / classified -9bp QoQ / NPL flat → CONFIRMS V2.1 leading-vs-lagging divergence from lagging-cleaning side
-- Doesn't change thesis weight; sharpens Bucket E listening post (NCO guide-raise vs guide-hold tension)
-- Mgmt language "past peak stress in office CRE; NPL decline expected H2" sets up the U1 modal trigger
-
-**13-signal BOARD inflow on 5/11 — observation, not action:**
-- vs ~1-2/day baseline = 6-10x volume jump
-- Could be one-off (Q1 reporting wave + WALTER weekend cohort scan) or new baseline
-- Calibration cycle 1 (May 25) will tell whether sustained
-- Notable: ~6 of 13 are MI3/NDFI-adjacent — Call Report rules + bank-level NDFI concentration data dropping ahead of FFIEC PDD bulk May 14-16
+**SSB expiry-day forensics (5/15 ~12:21 ET):**
+- Tape moved hard in our direction: $93.27 open → $91.15 intraday low (-2.17% IDP)
+- $95P bid $1.55 — pre-registered trigger worked ("bids should appear" once option ITM); but $1.55 is $2.24 below intrinsic at $91.21
+- Roll path still CLOSED 5/15 as it was 5/8 (Sep $95P 0/0 bid/ask)
+- New auto-exercise risk surfaced (5/8 memo didn't address) — DNE backstop added to ladder
+- ⚠️ Quantity unknown — POSITIONS.md dropped qty col on 5/8 broker refresh; FORGE Mar 25 stale
 
 **Things I noticed but didn't dig into:**
-- SIG-W-20260511-030 (cohort counter-evidence: 5 names improving) directly challenges 12/12 fade pattern in REGINALD STATUS — if confirmed it's a STATUS-level revision, not just a row update. Deferred.
-- SIG-W-20260511-029 (NDFI 5-cat schema + May 15 CDR Q1 bulk release) is the SCHEMA for how MI3-print landing will look — should read before MI3 print so reading framework is set up.
-- SIG-W-20260511-014 (NDFI $1T threshold new Call Report rules MI3-adjacent) may change MI3 disclosure mechanics going forward. Strategic; not urgent.
+- Investor Day Slide 89 NDFI peer chart: WAL labeled "moderate" but chart text in my extract shows "13% 12% 12% 11%..." descending — can't tell from text alone where WAL sits. **PDF deck would be ground-truth.** If WAL is at 13% on the Ex-Mtg-Credit-AND-PE-Funds basis, that's a major DIVERGENCE from Q1 Slide 24's "WAL at cohort median 7%" framing. Could be reframing or could be different denominator. Worth checking against the 10-Q NDFI breakout.
+- Investor Day Slide 113 stress test: mgmt-modeled "severely adverse" scenario assumes **5.3% total loan loss rate in 2026** with CET1 stressed to 9.0% (above min). The 5.3% loss rate already EXCEEDS the V2.1 Bear-fast scenario assumptions — mgmt is pre-positioning a "we can absorb worse than the bears model" narrative. **Worth a SCENARIOS.md cross-check.**
+- Investor Day Slide 68 Mortgage Warehouse "Zero credit losses since 2010" framing does NOT address Apollo Atlas SP / non-bank servicer counterparty concentration. WAL still has ~$3.5B mortgage warehouse with stated zero-loss history but the V3 counterparty-quality test is whether THIS cycle's PFSI/loanDepot/Lakeview/Freedom stress reaches the warehouse book.
+- WAL **Investor Day Q&A transcript hunt** is a meaningful open thread — Bucket A re-score could escalate verdict V2.1 → V2.2.
 
 **One-liners cached:**
 
 ```bash
-# Investor Day live webcast (Tue May 12 8:30 AM ET):
-# https://investors.westernalliancebancorporation.com → Events & Presentations
+# EDGAR submissions index (verified 5/15):
+curl -s -A "REGINALD research willie@research.local" "https://data.sec.gov/submissions/CIK0001212545.json"
+# Path pattern for actual docs:
+# https://www.sec.gov/Archives/edgar/data/1212545/<accession-no-dashes>/<filename>
+# WAL Q1 10-Q: 0001628280-26-033054 / wal-20260331.htm  ← STILL UNREAD
+# WAL Investor Day 8-K: 0001628280-26-033850 / wal-20260512.htm + wal_investordayx2026xfin.htm (deck EX-99.1)
+# WAL 8-K 5/8: 0001628280-26-033851 / wal-20260508.htm (secondary)
 
-# Q&A transcript pattern reference for V2.1 mgmt-discount calibration:
-grep -E "Vecchione|Idnani|Bruckner|fraud-related|past peak|behind us|long duration" \
-  WAL/sources/q1_2026/WAL\ Earnings\ Call.md
+# yfinance option chain pattern (verified 5/15 SSB):
+.venv/bin/python3 -c "import yfinance as yf; t=yf.Ticker('SSB'); print(t.option_chain('2026-05-15').puts)"
+
+# Boot 9b grep — CORRECTED schema field:
+grep -lE 'signal_role: cluster_mediating' BOARD/SIG-W-*.md   # (NOT 'cluster_mediating: true')
 ```
 
 **Convention question for next session:**
-- After Investor Day, write findings to `WAL/INVESTOR_DAY_FINDINGS_2026-05-12.md` (paralleling Q1_2026_ANALYSIS.md format)? Or fold into a v2.1.x THESIS revision directly? Default: separate findings file first; rollup to THESIS only if V2.1 → V2.2 trigger fires.
-
----
-
-## 2026-05-10/11 PM — Sunday-into-Monday: WALTER LIAISON converged + WAL V2.0 → V2.1 ship
-
-**Architectural ships (high density session):**
-
-```
-LIAISON Turns 1-5 close-converged in <13 hr UTC (RED-pace match):
-  Turn 1 (REGINALD)  23:11 UTC  empirical-honest "ZERO action" claim
-  Turn 2 (WALTER)    23:30 UTC  empirical reframe: 16 ACTION not zero
-  Turn 3 (REGINALD)  01:53 UTC  3 files instantiated
-  Turn 4 (WALTER)    04:35 UTC  4 deliverables + REG-T-01 sustain=1 LOCK
-  Turn 5 (REGINALD)  11:42 UTC  joint-proposal §1+§3
-```
-
-**Files mental-map for next-boot context:**
-
-```
-LIAISON ships:
-  AGENTS/REGINALD/handoff_WALTER/{README.md, LIAISON.md}
-  AGENTS/REGINALD/registry/THRESHOLDS.tsv (8 rows REG-T-01..08)
-  AGENTS/REGINALD/board/BOARD_LOG.tsv (11-col, 32-row backfill stub)
-  AGENTS/REGINALD/CLAUDE.md (Boot Step 9b added)
-  AGENTS/REGINALD/design/JOINT_PROPOSAL_2026-05-11_reginald_sections.md
-
-WAL V2.1 ships:
-  AGENTS/REGINALD/WAL/THESIS.md (v2.1)
-  AGENTS/REGINALD/WAL/SCENARIOS.md (v2.1, Bear-fast/slow split, Jun-conditional EV)
-  AGENTS/REGINALD/WAL/CHANGELOG.md (v2.1 entry)
-  AGENTS/REGINALD/WAL/V21_RESPONSE_TO_RED_CHG_025.md (formal response)
-  AGENTS/REGINALD/WAL/STATUS.md (header v2.1)
-  AGENTS/REGINALD/LESSONS.md (2 new methodology entries)
-```
-
-**Patterns / one-liners cached (durable bits promoted to MEMORY findings + LESSONS):**
-
-```bash
-# Quick BOARD-routing-to-REGINALD audit (mirror what WALTER ran in Turn 2):
-grep -lE 'REGINALD' BOARD/SIG-W-*.md | wc -l   # total touched
-grep -lE '^to:.*REGINALD' BOARD/SIG-W-*.md | wc -l   # ACTION recipients
-grep -lE '^info:.*REGINALD' BOARD/SIG-W-*.md | wc -l   # info recipients
-
-# Quick falsifier-status check before any thesis-level reframing:
-grep -E "Falsifier|falsifier|invalidate|Pre-registered" WAL/WEAKNESSES.md
-# THEN check whether each has fired post-print before publishing reframe
-```
-
-**Two external-grep-catches in 24 hours:**
-- WALTER Turn 2: caught "zero action" framing without grep — corrected to 16 of 51
-- RED CHG-RED-025: caught V1-demotion-before-tested + Jun-conditional EV math
-- Pattern lesson: 30-second self-verification pass catches both before publishing
-- Promoted to LESSONS.md as 2 [Methodology] entries
-
-**Things I noticed but didn't dig into:**
-- MI3 baseline data (15.5 → 24.2 trajectory) is from prior screen per LESSONS.md "Verify Agent Data Against Primary Filings" — V2.1 restores V1 weight pending MI3 print but I haven't independently re-verified the historical baseline. If 15.5 baseline was wrong, V1's case is weaker than both V2.0 and V2.1 imply. Honest hole in V2.1 not flagged in response memo.
-- WAL Investor Day pre-write read-across needs to be done tonight (Mon May 11 evening) — flagged as #1 NEXT SESSION priority but didn't do this session.
-- BOARD_LOG.tsv 16 missed-action signal full disposition pass deferred — first real maintenance-discipline test.
-- WALTER's bank_transmission enum 8-val (cre/hidden_cre/ndfi/private_credit/mfs_fraud/cmbs_maturity/fed_layoffs/stagflation_trap) lands when FORMAT_SPEC v0.9 batched ship happens — at that point BOARD_LOG.tsv `Channels_Touched` column needs uppercase→snake_case migration (currently uses `CRE,HC,NDFI,PC,MFS,CMBS,FED-LAYOFFS,STAGFLATION`).
-
-**Convention question for next session:**
-- Boot Step 9b BOARD scan first execution test. If it works clean, great — that validates the LIAISON architectural ship. If it produces noise/friction, refine in next LIAISON cycle (calibration cycle 1 trigger May 25).
+- WAL Investor Day Q&A transcript pattern — Q1 transcript was sourced via Motley Fool (paywall map per MEMORY findings); Investor Day transcript may land at SA / Motley / Investing.com on different timing. Should write a `WAL_TRANSCRIPT_HUNT.md` recipe if multiple tries fail, to systematize future event-day reads.
 
 **One open externality I should track:**
-- WALTER had uncommitted changes (MEMORY/REGISTRY/SESSION_LOG/STATUS) when I tried pull-then-push — push went through but pull blocked. Next session may need to wait on WALTER's commit before pulling. Check `git status` carefully at boot per pull protocol.
+- WALTER swept the working tree on 5/17 boot (commit `7a3ece9d`) — REGINALD's local commit `6a20710a` reached origin as `1b37fccc` rebased on top. **This is the cross-agent push-handoff working.** Working tree clean externally as of 5/17 closeout — next session can pull cleanly.
 
 ---
 
