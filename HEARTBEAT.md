@@ -1,7 +1,7 @@
 # HEARTBEAT.md
 
 ## Current State
-**Updated:** 2026-05-16 18:09 ET
+**Updated:** 2026-05-16 19:06 ET
 
 **Regime:** Private-credit thesis re-accelerated from grind to **BDC credit/mark stress confirmed**, but public-credit contagion still unconfirmed. OBDC was mixed; **FSK Q1 landed Strong Bear / near Max Bear**: NAV -9.9% QoQ to $18.83, adjusted NII $0.41, distribution reset to $0.42, non-accruals rose to 8.1% cost / 4.2% FV, net debt/equity 1.31x, and FSK needed a KKR support package plus revolver amendment. Translation: fresh BDC/private-credit downside discussion is allowed, but avoid blind chase while HY OAS/VIX remain benign.
 
@@ -10,6 +10,8 @@
 **Scenario read:** D remains dominant, but FSK shifts the active transmission mode from pure slow grind to **confirmed BDC mark/income deterioration with sponsor-supported stabilization**. Public tape is still not pricing cascade: HY OAS <300 and VIX <20. Physical energy, USD/JPY, and BDC economics remain the live pressure points. Bank tape is weaker: KRE is yellow and WAL remains below the $75 bear line, so regional-bank decision prep should stay near the front of the queue. USD/JPY is now through the red threshold; route to SAM/persistent Japan workflow rather than spawning.
 
 **Key updates (May 16):**
+- 19:06 ET weekend recheck: dashboard unchanged from 18:09. Public-credit/vol still benign (**HY OAS 276bps**, **VIX 18.43**), so no broad cascade confirmation; stress remains concentrated in Brent/gas, USD/JPY, BIZD, and WAL/KRE.
+- 19:06 ET news sweep routed internally: **12 alert-level items + 1 WATCH_FOR hit** to REGINALD/LIQUID/BROCK/HENRY/SAM/CARL/OTTO/LABOR inboxes (`sweep_2026-05-16_2306.md`). Notable clusters: private-credit/regulatory stress commentary, Japan intervention-firepower watch, CRE/consumer-credit stress, and tech/retail layoffs. No user interruption needed unless Monday prep requires escalation.
 - 18:09 ET weekend dashboard check: public-credit/vol still benign (**HY OAS 276bps**, **VIX 18.43**), so no broad cascade confirmation. Claims now show **211K** initial / **1.782M** continuing (shadow-adjusted estimate **266K**) — not a labor-break confirmation.
 - Stress is concentrated and sharper in physical/Japan channels: **Brent $109.26 red**, gas **$4.50 red**, **USD/JPY 158.73 red**. This is the main weekend watch item for carry/liquidity risk.
 - Bank/BDC tape still pressured but not break-confirming: **WAL $74.42** remains below $75 bear line, **KRE $66.97 yellow**, **BIZD $12.61 red**.
@@ -80,7 +82,7 @@ None active as of 2026-05-11 20:26 ET.
 - Architecture map: `PROME/SYSTEM.md`. Decision flow: `PROME/DECISION_FLOW.md`. Current action cards: `PROME/action-cards/`.
 - `PROME/TODAY.md`, `PROME/STATUS.md`, `PROME/SCRATCH.md`, and `PROME/HANDOFF.md` are refreshed / clear-ready as of May 14 10:25 ET. `PROME/TOSCANINI/QUEUE.md` remains stale and should not be treated as current ground truth until refreshed. `PROME/POSITIONS.md` was refreshed from Will screenshots on May 8 14:17 ET.
 - ZION correction: ZION is **under-researched, not exonerated**. Scaffold created at `AGENTS/REGINALD/ZION/INDEX.md`; REGINALD inbox request written at `AGENTS/REGINALD/inbox/PROME-20260509-zion-scaffold-fill-request.md`. Current ZION Jul put trade posture remains kill/no-roll if usable bid unless Call Report MI3/RCON2746 surprises.
-- Market levels above come from `FORGE/tools/market-data/dashboard.py --compact` run May 16 18:09 ET.
+- Market levels above come from `FORGE/tools/market-data/dashboard.py --compact` re-run May 16 19:06 ET (unchanged from 18:09 ET).
 - Current OBDC interpretation comes from `PROME/HANDOFF.md` + local OBDC filings/pre-build read.
 - CARL/REGINALD/SAM/RED/BRENT are persistent/managed agents; do **not** spawn sub-agents for those five.
 

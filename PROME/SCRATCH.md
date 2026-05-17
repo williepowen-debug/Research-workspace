@@ -1,41 +1,56 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-05-14 10:25 ET
+**Last Updated:** 2026-05-16 21:23 ET
 
 ## What Just Happened
 
-Will sent gamma/momentum/0DTE screenshots, then asked for thoughts and a clear-ready handoff.
+Will wanted the git work made safe before clearing context.
 
 Completed:
-- Refreshed `HEARTBEAT.md` with May 14 08:26 dashboard levels.
-- Logged gamma/momentum signal: `FORGE/signals/2026-05-14_gamma_momentum_factor_squeeze.md`.
-- Routed signal to HENRY, VIOLET, LIQUID, NEXUS inboxes.
-- Rewrote `PROME/HANDOFF.md` as clear-ready for fresh session.
+- Local dirty work was chunked, committed, rebased on top of remote agent commits, dry-run verified, and pushed.
+- Remote now includes Prome commits through `da7242c2 PROME: refresh heartbeat May 16 evening`.
+- Rebase/push preserved Claude Code agents' remote work; no conflicts during final rebase.
+- After push, a fresh automated/news-sweep batch dirtied the tree. It is not pushed yet.
+- `PROME/HANDOFF.md` was rewritten for clear-ready fresh-session pickup.
 
-No active spawns. No trades. No external sends.
+## Current Dirty Batch
+
+Modified:
+- `FORGE/tools/news-sweep/.cache/seen.json`
+- `FORGE/tools/news-sweep/latest.json`
+- `FORGE/tools/news-sweep/latest.md`
+- `HEARTBEAT.md`
+
+Untracked:
+- `AGENTS/BROCK/inbox/sweep_2026-05-16_2306.md`
+- `AGENTS/CARL/inbox/sweep_2026-05-16_2306.md`
+- `AGENTS/HENRY/inbox/sweep_2026-05-16_2306.md`
+- `AGENTS/LABOR/inbox/sweep_2026-05-16_2306.md`
+- `AGENTS/LIQUID/inbox/sweep_2026-05-16_2306.md`
+- `AGENTS/OTTO/inbox/sweep_2026-05-16_2306.md`
+- `AGENTS/REGINALD/inbox/sweep_2026-05-16_2306.md`
+- `AGENTS/SAM/inbox/sweep_2026-05-16_2306.md`
+
+Do not pull/rebase/stash/reset while this is dirty. Inspect and commit safely if Will approves.
 
 ## Current Working Model
 
-**Fragile melt-up / mechanically calm surface, deteriorating understructure.**
-
-- BDC/private-credit stress is confirmed by FSK Q1, but public-credit contagion is not confirmed.
-- HY OAS 282 and VIX 17.85 remain benign.
-- BIZD red + KRE/WAL yellow + Brent/gas red + USD/JPY near red = understructure stress.
-- Gamma/momentum/0DTE likely explains why VIX and indices remain calm; use as fragility overlay, not standalone short trigger.
+- BDC/private-credit mark/income stress confirmed by FSK Q1.
+- Broad public-credit cascade still unconfirmed: HY OAS 276bps, VIX 18.43.
+- Stress concentrated in Brent/gas, USDJPY, BIZD, WAL/KRE.
+- Latest HEARTBEAT: 2026-05-16 19:06 ET; news sweep routed 12 alert-level items + 1 WATCH_FOR hit internally.
 
 ## Next Best Action
 
 Fresh session should:
-1. Run updated `PROME/BOOT.md` sequence.
-2. Refresh dashboard before citing prices.
-3. Prioritize regional-bank Call Report triage via `PROME/action-cards/REGIONAL_BANK_WEEKEND_TRIAGE_MAY9.md`.
-4. Build BDC/private-credit decision prompt from FSK Strong Bear read and live option pricing if needed.
-5. Check/route gamma follow-through through HENRY/VIOLET/LIQUID/NEXUS; NEXUS only if multiple domains converge.
+1. Read `PROME/HANDOFF.md` and run `PROME/BOOT.md`.
+2. Inspect dirty news-sweep/heartbeat batch and remote overlap.
+3. Commit it as a small sweep batch only if safe.
+4. Then move to Monday decision prep: APO/ARES/BDC and regional-bank Call Report triage.
 
 ## Cautions
 
-- Do not trade without Will approval.
-- Do not spawn REGINALD, CARL, SAM, RED, or BRENT.
-- No broad cascade short while HY OAS <300 and VIX <20.
-- No broad bank-premium add without Call Report/tape confirmation.
-- WALTER owns signal/news routing; Prome owns tasking, rails, and synthesis.
-- Do not commit/stash/pull/reset dirty git state without Will approval.
+- No trades without Will approval.
+- No external messages without approval.
+- Do not spawn CARL/REGINALD/SAM/RED/BRENT.
+- Use explicit path staging only; no broad `git add .`.
+- Protect remote Claude Code agents' work.
