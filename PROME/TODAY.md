@@ -8,7 +8,7 @@
 
 ## 🔴 Priorities
 
-- [x] **Git sync after Claude Code agent push** — pulled cleanly; local `master` now matches `origin/master` at `270b6d1d`.
+- [x] **Git sync after Claude Code agent push** — pulled cleanly; local `master` now matches `origin/master` at `8a44dbe2`.
 - [x] **Refresh Prome/OpenClaw state files** — update stale May 14/16 handoff and status language.
 - [ ] **Regional-bank decision prep** — use REGINALD May 17 closeout: WAL Investor Day Bucket E B3 fire, WAL 10-Q integration pending, MI3/FFIEC PDD status pending, SSB expiry outcome needs Will confirmation.
 - [ ] **BDC/private-credit decision prep** — FSK Strong Bear allows fresh downside discussion; require live bid/ask and Will approval.

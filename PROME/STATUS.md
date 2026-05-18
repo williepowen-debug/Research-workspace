@@ -13,7 +13,7 @@
 
 | Item | Status | Note |
 |---|---|---|
-| GitHub sync | ✅ Complete | Pulled cleanly; local `master` = `origin/master` at `270b6d1d`. |
+| GitHub sync | ✅ Complete | Pulled cleanly; local `master` = `origin/master` at `8a44dbe2`. |
 | REGINALD update | ✅ Pulled | WAL Investor Day findings + May 17 closeout integrated into Prome state. |
 | WALTER update | ✅ Pulled | Multi-session closeout confirms signal-routing ownership and May 18 callbacks. |
 | Claude Code Prome scaffold | ✅ Present | Phase 2 complete; Phase 3 dry run still pending. |

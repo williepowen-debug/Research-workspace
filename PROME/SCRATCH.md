@@ -11,11 +11,12 @@ Completed this session:
 - Committed and pushed Prome state refresh:
   - `728e9f78 PROME: refresh state after agent sync`
 - Verified local `HEAD` matches `origin/master`; working tree was clean immediately after push.
+- Subsequent commits since refresh: `e87724e1` (clear handoff for Agents View install), `dddce166` (record Claude Code dry run), `8a44dbe2` (SENTRY feed update). Current HEAD: `8a44dbe2`.
 
 ## Current Git State
 
 - Branch: `master`
-- HEAD / origin: `728e9f78 PROME: refresh state after agent sync`
+- HEAD / origin: `8a44dbe2 SENTRY: feed update 2026-05-17-2240`
 - Expected state for next session: clean repo.
 - First step next session: run `git status --short` and `git pull --rebase` per boot before starting Agents View work.
 

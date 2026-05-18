@@ -203,20 +203,21 @@ Goal: give Claude Code Prome one bounded useful task.
 
 Recommended first task:
 
-## Task 4.1 — Create action-card template
-**Scope:** Create `PROME/action-cards/TEMPLATE.md` and update `PROME/SYSTEM.md` reference if needed.
+## Task 4.1 — Audit/refine action-card template
+**Scope:** `PROME/action-cards/TEMPLATE.md` already exists (created 2026-05-10 alongside `FSK_MAY11_ACTION_CARD.md` and `REGIONAL_BANK_WEEKEND_TRIAGE_MAY9.md`). Read the existing TEMPLATE.md, compare it against the Decision Artifact Buildout requirements in `PROME/CLAUDE_CODE_PROME.md` §"Primary Responsibilities" and the structure used by the two live action cards, identify gaps, and propose a small refinement diff. Update `PROME/SYSTEM.md` reference if structure changes.
 
 Why this task:
 
 - Useful.
-- Bounded.
+- Bounded to one file.
 - Low external risk.
-- Tests repo editing discipline.
+- Tests repo editing discipline on real content (not meta-docs).
+- Resolves the original "create" framing which the Phase 3 dry run flagged as a collision with reality.
 
 **Acceptance criteria:**
 
-- Template exists.
-- Diff is small and readable.
+- Existing TEMPLATE.md audited against acceptance criteria + live action-card patterns.
+- Refinement diff is small and readable (or, if the existing template already meets criteria, that finding is documented in the handoff and no diff is produced).
 - Handoff updated.
 - No commit without approval.
 

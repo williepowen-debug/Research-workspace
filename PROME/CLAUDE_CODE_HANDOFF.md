@@ -3,6 +3,8 @@
 **Surface:** Claude Code Prome
 **Run type:** Phase 3 dry run — readiness audit, no mutating edits outside this file.
 
+> **Hash-refresh note (2026-05-17 evening cleanup pass):** The "Repo Hygiene Snapshot" table below has been updated to current HEAD (`8a44dbe2`). The dry-run report itself was performed at HEAD `e87724e1` and committed as `dddce166`. The "Stale Docs / Contradictions Identified" findings are preserved as the original dry-run record; several have since been addressed in this cleanup pass — see the new "Current Session" section appended at end of file.
+
 ---
 
 ## Identity / Model Confirmation
@@ -23,10 +25,10 @@ Boot reading completed this session: `CLAUDE.md`, `AGENTS.md`, `SOUL.md`, `USER.
 | Dimension | State |
 |---|---|
 | Branch | `master` |
-| Local HEAD | `e87724e1` ("PROME: clear handoff for Agents View install") |
+| Local HEAD | `8a44dbe2` ("SENTRY: feed update 2026-05-17-2240") |
 | `origin/master` | matches HEAD |
-| Working tree | clean (`git status --short` empty) |
-| Recent commit chain | `e87724e1` ← `728e9f78` ← `270b6d1d` (REGINALD/WALTER closeouts, then Prome state refresh, then handoff clear) |
+| Working tree | clean before this cleanup pass; dirty during the pass itself |
+| Recent commit chain | `8a44dbe2` ← `dddce166` ← `e87724e1` ← `728e9f78` ← `270b6d1d` (WALTER closeout → Prome state refresh → handoff clear → Phase 3 dry run record → SENTRY feed update) |
 | Phase 0 (planning) | ✅ Complete |
 | Phase 1 (bootstrap files) | ✅ Complete — all four scaffold files present |
 | Phase 2 (architecture integration) | ✅ Complete — AGENTS_DIRECTORY.md, PROME/SYSTEM.md, PROME/BOOT.md all carry Claude Code Prome references |
@@ -121,3 +123,43 @@ No other files touched. No commits, pushes, stashes, resets, deletes, external m
 - No persistent-agent spawns (CARL, REGINALD, SAM, RED, BRENT).
 - No `git add -A` or `git add .`.
 - Read-before-edit honored.
+
+---
+
+## Current Session — Cleanup Pass (2026-05-17 evening ET)
+
+**Run type:** Will-directed self-cleanup; addresses dry-run findings + context refresh.
+**HEAD at start:** `8a44dbe2`. Working tree clean before edits.
+
+**Decisions received from Will this session:**
+- Phase 3 — PASSED.
+- Autonomous internal-edit rights — SCOPED YES. Free within `AGENTS/PROME/` and `PROME/`. Propose-then-approve for other agents' files, root-level CLAUDE.md, shared infrastructure. Approval required for anything outside `~/Research-workspace/`.
+- Commit policy — show-diff-then-approve, always for now. Push only on explicit instruction.
+
+**Context update absorbed:**
+- Agent View install: ✅ done on this machine + laptop. Persistent dashboard / session manager now operational.
+- New active experiment: `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1`. Teams maps more directly than vanilla Agent View onto the chief-of-staff / named-teammates / mailbox / shared-task architecture we've been building. Small bounded test planned, likely later today.
+- The "install Agents View" priority in `HANDOFF.md` is superseded — refreshed accordingly.
+
+**Files edited this session (all in autonomous scope):**
+- `PROME/STATUS.md` — hash `270b6d1d` → `8a44dbe2`.
+- `PROME/TODAY.md` — hash `270b6d1d` → `8a44dbe2`.
+- `PROME/HANDOFF.md` — HEAD hash + Clear Handoff section rewritten to "Active Thread" (Agent View done, teams experiment is new thread).
+- `PROME/SCRATCH.md` — hash references brought current.
+- `PROME/CLAUDE_CODE_HANDOFF.md` (this file) — hash refresh in snapshot table + this Current Session section.
+- `PROME/CLAUDE_CODE_PROME_TASKS.md` — Task 4.1 reframed from "Create TEMPLATE.md" to "Audit/refine existing TEMPLATE.md."
+
+**Propose-only (not edited; awaiting approval):**
+- `AGENTS_DIRECTORY.md` Runtime row reconciliation (the CARL/REGINALD/OZK/SAM/RED contradiction with root `CLAUDE.md`). Proposal: align AGENTS_DIRECTORY.md to root CLAUDE.md as the more recently-authoritative source. Details in session output.
+
+**Three softer-inconsistency questions answered with recommendations (not acted on):**
+- `MEMORY.md` root staleness.
+- `AGENTS/PROME/CLAUDE.md` "OpenClaw" framing.
+- `AGENTS/PROME/LAST_COMPLETION.md` + trailing-off inboxes.
+
+See conversation log for the full recommendations.
+
+**Next session start:**
+- Pull, confirm clean.
+- If teams experiment fires today, read this section + `PROME/HANDOFF.md` Active Thread for the latest state.
+- The dry-run "Stale Docs / Contradictions Identified" section above is now partially obsolete — items 1, 2, 5 (hash drift) are resolved; item 8 (Phase 4 collision) is resolved; items 3, 4, 6, 7, 9 are unresolved or out of scope for this pass.
