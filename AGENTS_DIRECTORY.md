@@ -7,7 +7,7 @@
 | Runtime | Agent(s) | Interface | Notes |
 |---------|----------|-----------|-------|
 | **OpenClaw (VPS)** | Prome + all spawn-based agents | Telegram | Orchestrator. Spawns sub-agents. Full workspace access. |
-| **Claude Code** | REGINALD, CARL, SAM | Telegram | Independent sessions. Siloed to own domain folders. Push to shared repo. |
+| **Claude Code** | REGINALD, CARL, OZK, SAM, RED | Telegram | Independent sessions. Siloed to own domain folders. Push to shared repo. OZK spun out from REGINALD 2026-04-24; RED is the persistent adversarial-analysis surface (not a market domain). |
 | **Claude Code** | PROME | Repo / Claude Code | Repo-native implementation surface for the same Prome identity. Uses shared Prome state, not a separate domain silo. Owns docs/tools/audits/handoffs when scoped. |
 
 **Key rules for multi-runtime:**
