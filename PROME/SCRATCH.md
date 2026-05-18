@@ -22,14 +22,17 @@ Completed this session:
 
 ## Next Planned Work
 
-Will wants to work on **installing Agents View** now that the repo is clean.
+**Agent View install:** ✅ done on this machine + laptop. Persistent dashboard / session manager is part of the runtime now.
+
+**Active experimental thread:** `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1`. Teams maps more directly onto the chief-of-staff / named-teammates / mailbox / shared-task architecture we've been building. A small bounded test is the next experimental step. See `PROME/HANDOFF.md` Active Thread and `PROME/CLAUDE_CODE_HANDOFF.md` Current Session for the full framing.
+
+**Standing commit policy:** show-diff-then-approve, always. Push only on explicit instruction.
 
 Next session should:
 1. Run boot sequence from `PROME/BOOT.md`.
 2. Confirm clean git state.
-3. Locate/read the relevant Agents View docs or implementation plan before installing.
-4. Use first-class OpenClaw docs/local source where possible before guessing commands.
-5. Treat installs/config changes carefully: inspect docs, make scoped edits, verify with the smallest runnable check.
+3. If teams experiment is mid-flight, read `PROME/CLAUDE_CODE_HANDOFF.md` Current Session block first.
+4. Keep diffs scoped; show before committing.
 
 ## Current Working Model
 
