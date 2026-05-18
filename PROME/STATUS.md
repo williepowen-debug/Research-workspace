@@ -34,7 +34,9 @@
 | `PROME/ORCHESTRAL_LAYER_DESIGN.md` | ✅ Fresh May 18 | Design for fleet scan + adversarial-pair top-N + revival proxies |
 | `PROME/action-cards/FSK_MAY11_ACTION_CARD.md` | ✅ Active | FSK Q1 branch-to-action rails |
 | `PROME/action-cards/REGIONAL_BANK_WEEKEND_TRIAGE_MAY9.md` | ✅ Active | Bank expiry / Call Report triage rails |
-| `PROME/TOSCANINI/QUEUE.md` | ⚠️ Stale | Historical only until rebuilt |
+| `PROME/AUTONOMY.md` | ✅ Salvaged from TOSCANINI | Tier 1/2/3 permission model + change log |
+| `PROME/COMPLETION_SPEC.md` | ✅ Salvaged from TOSCANINI | LAST_COMPLETION.md format for sub-agent reports |
+| `PROME/archive/TOSCANINI_2026-03/` | 📦 Archived | Retired Mar 26 governance framework; HUNTING dimensions folded into `ORCHESTRAL_LAYER_DESIGN.md` |
 
 ---
 
@@ -49,7 +51,6 @@
 | **APO / ARES June premium review** | 🔴 | APO above $130 watch; do not roll/rescue dead premium without fresh evidence + pricing. |
 | **May 18 Iran / TIC watch** | 🔴 | WALTER flags Iran-war anchor T-1d re-verify and TIC March release / Japan UST-flow read. Route Japan to SAM persistent workflow, not spawn. |
 | **Claude Code Prome Phase 3 dry run** | 🟠 | Still pending; first run should be non-mutating except `PROME/CLAUDE_CODE_HANDOFF.md`. |
-| **Toscanini QUEUE rebuild** | 🟡 | Stale Mar 26; lower priority than live decision rails. |
 
 ---
 

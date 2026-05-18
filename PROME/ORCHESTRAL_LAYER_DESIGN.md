@@ -106,6 +106,29 @@ Each layer protects Prome's context:
 
 Will opens this file at session start. Two minutes of reading replaces an hour of carrying state in head.
 
+## Ranking criteria for Section 6 (Top-N Moves)
+
+Distilled from the retired `PROME/TOSCANINI/HUNTING.md` (now in `PROME/archive/TOSCANINI_2026-03/`). The fleet-scanner uses this rubric to rank candidate moves rather than eyeballing it.
+
+**Score each candidate move on six dimensions (0-3); apply weights; sum. Max 22.5.**
+
+| Dimension | Weight | 0 | 1 | 2 | 3 |
+|---|---:|---|---|---|---|
+| **Position Proximity** | ×2.0 | No connection to any position | Indirect — feeds a thesis that feeds a position | Direct — informs sizing/timing/exit of an open position | Urgent — position at risk without this work |
+| **Time Pressure** | ×1.5 | No deadline | Weeks away | Days away | Hours away / window closing |
+| **Blindness Risk** | ×1.0 | Full coverage, recent data | Slightly stale (<3d) | Stale (3-7d) or missing key data | Flying blind on something live (>7d stale, active domain) |
+| **Convergence Potential** | ×1.0 | Single agent | Touches 2 agents | Touches 3+ agents or feeds NEXUS | Could shift scenario probabilities or thesis confidence |
+| **Decay Rate** | ×1.0 | Stable — same value next week | Moderate — loses context over days | Degrades within 48h | Perishable — value → 0 if not acted on today |
+| **System Freshness** | ×1.0 | No upstream refreshes | 1-3 agents refreshed | 4-8 agents refreshed | 9+ refreshed — synthesis trigger (NEXUS/RED territory) |
+
+**Priority prefix from score:** 🔴 ≥14 · 🔵 7-13 · 🟢 <7. Section 6 lists top 5 ranked by total score; show the score next to each entry.
+
+**Anti-patterns to refuse (do not let these dominate Section 6):**
+- **Busywork bias** — "refresh stale agent" scores high on Blindness but low on Position Proximity. Don't let hygiene crowd out real moves.
+- **Loudness bias** — the most dramatic signal isn't always the most actionable. Quiet analyst downgrades can beat flashy geopolitical headlines.
+- **Completionism** — not every gap needs filling. Stale agents whose domain isn't active stay stale.
+- **Recency bias** — the signal that arrived 10 minutes ago isn't automatically more important than the one from two days ago still unprocessed.
+
 ## Prototype path (5 steps)
 
 1. **Step 1 (next session, ~10 min):** Spawn `fleet-scanner` subagent (general-purpose, foreground). It produces `PROME/FLEET_SCAN.md` v1 against the template above. Will reads it. Will tells Prome what's useful vs noise, what's missing, what compression's too aggressive.
