@@ -308,5 +308,35 @@
     "first_seen": "2026-05-16T10:53:10.322247+00:00",
     "title": "SCHEDULE 13D - Boost Run Inc. (0002090646) (Subject)",
     "feed": "SEC EDGAR Filings"
+  },
+  "d6b8eecb9d2bcbeb": {
+    "first_seen": "2026-05-18T12:58:43.494381+00:00",
+    "title": "8-K - Evofem Biosciences, Inc. (0001618835) (Filer)",
+    "feed": "SEC EDGAR Filings"
+  },
+  "05cf7aabb23c94e4": {
+    "first_seen": "2026-05-18T12:58:43.494389+00:00",
+    "title": "6-K - POET TECHNOLOGIES INC. (0001437424) (Filer)",
+    "feed": "SEC EDGAR Filings"
+  },
+  "a918d31bef987565": {
+    "first_seen": "2026-05-18T12:58:43.494393+00:00",
+    "title": "8-K - S&P Global Inc. (0000064040) (Filer)",
+    "feed": "SEC EDGAR Filings"
+  },
+  "02b2cd78f6d41bc8": {
+    "first_seen": "2026-05-18T12:58:43.494397+00:00",
+    "title": "SCHEDULE 13D/A - Bitfury Top HoldCo B.V. (0001884407) (Filed by)",
+    "feed": "SEC EDGAR Filings"
+  },
+  "29b36ce70d31e6eb": {
+    "first_seen": "2026-05-18T12:58:43.494400+00:00",
+    "title": "8-K - Digimarc CORP (0001438231) (Filer)",
+    "feed": "SEC EDGAR Filings"
+  },
+  "89669bb1f9f70701": {
+    "first_seen": "2026-05-18T12:58:43.494406+00:00",
+    "title": "8-K - Ondas Inc. (0001646188) (Filer)",
+    "feed": "SEC EDGAR Filings"
   }
 }
