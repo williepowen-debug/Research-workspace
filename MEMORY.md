@@ -1,6 +1,6 @@
 # MEMORY — Key Insights & Lessons
 
-**Last Updated:** 2026-04-05 14:41 ET
+**Last Updated:** 2026-05-18
 
 **Positions → `PROME/POSITIONS.md`** | **Agent roster → `AGENTS_DIRECTORY.md`** | **Background → `WILL/BACKGROUND.md`**
 
@@ -23,7 +23,9 @@
 - **CARL Path C Activating (Mar 23, confirmed Apr 3)** — "Help with mortgage" Google Trends still at ALL-TIME HIGH (above 2008). Lennar Q1 2026 margin compression continues (17%→lower, from 25%+ pandemic peak). NEW: serious mortgage DQ (90+ day) at highest since 2022 (Mar 26). Multifamily CMBS DQ hit new ATH in March. Overall CMBS DQ 7.55% (+41bps). Housing cracking BEFORE employment — parallel stress paths, not sequential. Convergence 43/50. → `AGENTS/CARL/STATUS.md`
 - **Ghalibaf + UST Demand Hole (Mar 23)** — Iran Parliament Speaker declared UST buyers "legitimate military targets." One-way ratchet: stigma gives Gulf SWFs political cover to reduce exposure. Four-anchor stress (Japan+China+Korea+Gulf), $70-135B/mo combined. TIC Apr 15 = first verification. → `AGENTS/ZHAO/STATUS.md` + `FORGE/research/iran-war/`
 - **Japan: Structural Shift + BOJ (updated Apr 3)** — Multi-year regime change, NOT a calendar event. Life insurers shifting away from USTs (hedged return now negative). $50-120B annual swing from buyer to neutral/seller. BOJ hike is the real catalyst (next meeting Apr 23-24, ~35-40%), not FY-end flows. Repatriation alone doesn't reliably strengthen yen. Ueda: can hike even into weak growth. → `AGENTS/SAM/research/JAPAN_FYEND_REPATRIATION.md`
-- **WAL + OZK: Complementary Shorts (Mar 25)** — WAL = fast-transmission (losses bypass delinquency pipeline → straight to P&L, SI 3.54% = uncrowded edge). OZK = reservoir (losses accumulate behind interest reserves, SI 13.81% = crowded). Different failure modes, different put expiry logic. OZK Q1 Apr 16, WAL Q1 Apr 21. → `AGENTS/REGINALD/STATUS.md`
+- **WAL + OZK: Complementary Shorts (Mar 25)** — WAL = fast-transmission (losses bypass delinquency pipeline → straight to P&L, SI 3.54% = uncrowded edge). OZK = reservoir (losses accumulate behind interest reserves, SI 13.81% = crowded). Different failure modes, different put expiry logic. OZK Q1 Apr 16, WAL Q1 Apr 21. OZK promoted to peer agent `AGENTS/OZK/` (Apr 24) reflecting distinct failure-mode; WAL is the next candidate. → `AGENTS/REGINALD/STATUS.md`, `AGENTS/OZK/`
+- **FSK Q1 Confirms BDC Vehicle Stress (May 11)** — FSK Q1 landed Strong Bear / near Max Bear. Second BDC vehicle (after Blue Owl OTIC/OCIC, Apr 2) to publicly confirm mark/income stress at vehicle level. PIK 8.6% (lower than initially feared 35%, which was the trigger event for the agent-data verification rule). Broad public-credit cascade still gated by HY OAS / VIX. → `PROME/action-cards/FSK_MAY11_ACTION_CARD.md` + BROCK domain.
+- **WAL Mgmt Credibility Gap (May 17)** — Investor Day Q&A held 25–35bps NCO guide despite Q1 ex-fraud running at 39bps. Same fast-transmission pattern as Mar 25 thesis: losses bypass DQ pipeline and surface directly in P&L. → `AGENTS/REGINALD/STATUS.md` + WAL trade folder.
 
 ---
 
@@ -38,7 +40,8 @@
 
 *Operational procedures (inbox structure, spawn protocol, Toscanini, tools) → `PROME/BOOT.md`. Only genuine insights below.*
 
-- **Persistent Agents — Do Not Spawn (Apr 6)** — CARL, REGINALD, RED, SAM, BRENT run as persistent agents on Claude Code/Telegram. Spawning sub-agents for these five disrupts their workflows. Spawn restriction: LABOR, HENRY, LIQUID, BROCK, SHADE, HAWK, MARCO, ZHAO, OTTO, NEXUS only. → `AGENTS.md`
+- **Persistent Agents — Do Not Spawn (updated May 17)** — CARL, REGINALD, OZK, RED, SAM, BRENT, Claude Code Prome run as persistent agents on Claude Code/Telegram. Spawning sub-agents for these disrupts their workflows. Spawn restriction: LABOR, HENRY, LIQUID, BROCK, SHADE, HAWK, MARCO, ZHAO, OTTO, NEXUS only. → `AGENTS.md`
+- **Verify Agent-Reported Data Against Filings (Apr origin, ongoing)** — Agent-reported numbers can hallucinate. PSEC PIK was reported as 35% but the 10-K showed 8.6% — caught only because Will pulled the filing. Standing rule: cross-check any agent-cited number against primary source before trading. → root `CLAUDE.md` Critical Rule #3.
 - **News Sweep Tool Deployed (Apr 3)** — Full thesis-tagged news monitoring system live. 15 Google News RSS queries + FT/BBC RSS + ZeroHedge scrape. Entity index (~35), WATCH_FOR lists (9 agents), classification routing, source quality weighting. Suppresses KNOWN stories. Cron M-F 8:30 AM ET. First automated cycle runs Monday Apr 7. → `FORGE/tools/news-sweep/`
 - **NFP Healthcare Distortion (Apr 3)** — NFP +178K beat but healthcare = 43% (+76K incl 31K Kaiser strike return). Strip healthcare → +102K. Feb revised -133K. Fed govt -18K. Hiring rate 3.1% = lowest since Jan 2011 (pre-dates war). Headline numbers mask deterioration. → `AGENTS/LABOR/STATUS.md`
 - **Dealer Capacity Research (Mar 31-Apr 2)** — Duffie et al.: 90%+ dealer capacity binds constraints, 96% = March 2020 peak (5.4σ). ABFER structural VAR: $100B flow shock → >100bps yield impact under constraint (3-5x naive OLS). 10Y clearing price: 5.00-5.25%. SLR exemption = decisive policy variable. eSLR reform effective Apr 1 ($210-384B capacity freed). → `FORGE/timing/research/DEALER_CAPACITY_RESPONSE_1B_PERPLEXITY.md`
