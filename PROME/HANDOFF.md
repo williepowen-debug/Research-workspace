@@ -22,7 +22,7 @@ Completed:
 ## Current Git State
 
 - Branch: `master`
-- HEAD: `270b6d1d` / `origin/master`
+- HEAD: `8a44dbe2` / `origin/master`
 - Pull result: fast-forward, clean
 - Local state refresh may create a new Prome-only diff after this handoff.
 
@@ -99,19 +99,23 @@ First dry run should remain low-risk:
 ---
 
 
-## Clear Handoff — May 17 10:44 ET
+## Active Thread — May 17 evening
 
-Will asked to clear here. Repo should now be clean and pushed. Next session priority: **install Agents View** now that the workspace is synced.
+**Agent View install:** ✅ done on this machine and the laptop. Persistent dashboard / session manager now operational.
+
+**New active experiment:** `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1`. Discovered during the Agent View install that the teams feature maps more directly onto the architecture we've been building — chief-of-staff lead, named teammates, mailbox messaging, shared task lists. The frontier work from here is whether teams is a useful coordination layer for the fleet. A small bounded test is planned, likely later today.
+
+This supersedes the earlier "install Agents View" next-priority. Agent View is part of the runtime now; the open question is the teams layer on top.
 
 Last completed git checkpoint:
-- `728e9f78 PROME: refresh state after agent sync`
-- Local `master` matched `origin/master` immediately after push.
+- `8a44dbe2 SENTRY: feed update 2026-05-17-2240`
+- Local `master` matches `origin/master`.
 
 Next session start:
 1. Run `PROME/BOOT.md` sequence.
 2. Confirm `git status --short` is clean and pull/rebase if safe.
-3. Begin Agents View installation from local OpenClaw docs/source; do not guess commands.
-4. Keep changes scoped and verify install with the smallest runnable check.
+3. If teams experiment is mid-flight, read `PROME/CLAUDE_CODE_HANDOFF.md` for the latest CC-Prome session record.
+4. Keep changes scoped per the standing show-diff-then-approve commit policy.
 
 ## Highest-Value Next Actions
 
