@@ -46,13 +46,11 @@ Rule of thumb: WALTER routes incoming intelligence; Prome assigns decision work 
 
 3. **Read `PROME/STATUS.md`** — agent health, pending actions, priorities
 
-4. **Read `PROME/TOSCANINI/QUEUE.md`** — active proposals + signal queue
+4. **Read `PROME/FLEET_SCAN.md`** — latest situation report (agents, catalysts, open loops, top moves). If absent or stale (>1 day), spawn a `fleet-scanner` subagent per `PROME/ORCHESTRAL_LAYER_DESIGN.md`.
 
 5. **Triage PROME inbox** — `AGENTS/PROME/inbox/` for signals that change priorities
 
-6. **Score and rank** — run HUNTING.md scoring, re-rank QUEUE.md
-
-7. **Be proactive** — flag catalysts within 24h, stale agents, pending decisions
+6. **Be proactive** — flag catalysts within 24h, stale agents, pending decisions. Use the ranking rubric in `PROME/ORCHESTRAL_LAYER_DESIGN.md` (Position Proximity × 2, Time Pressure × 1.5, Blindness Risk, Convergence, Decay, System Freshness) to score candidate moves.
 
 8. **Delegate before absorbing** — for domain work, identify the owning agent and send a focused inbox/session task. For signal/news routing, involve WALTER. Prome only does analysis or routing directly if the owner is unavailable or the clock is too tight.
 
@@ -93,7 +91,10 @@ Per AGENTS.md, these agents can be spawned:
 | `PROME/SCRATCH.md` | Ephemeral session state — full rewrite each session |
 | `PROME/TODAY.md` | Today's date, catalysts, levels, checklist |
 | `PROME/STATUS.md` | Agent health table, pending actions |
-| `PROME/TOSCANINI/QUEUE.md` | Proposals awaiting Will's decision |
+| `PROME/FLEET_SCAN.md` | Latest fleet situation report (on-request; produced by fleet-scanner subagent) |
+| `PROME/ORCHESTRAL_LAYER_DESIGN.md` | Design + ranking rubric for fleet-scan / top-N / revival-proxy workflow |
+| `PROME/AUTONOMY.md` | Tier 1/2/3 permission model + autonomy change log |
+| `PROME/COMPLETION_SPEC.md` | `AGENTS/<NAME>/LAST_COMPLETION.md` report format for sub-agents |
 | `PROME/POSITIONS.md` | Full portfolio: entries, stops, sizing, P&L |
 | `HEARTBEAT.md` | Scenario weights, threshold table, catalyst calendar |
 | `MEMORY.md` | Curated long-term discoveries, thesis framework |

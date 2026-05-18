@@ -48,7 +48,7 @@ Agent state lives at `AGENTS/<NAME>/STATUS.md`. Trade execution at `FORGE/STATUS
 | FORGE/timing/ | Thesis timing research, convergence timeline, 44-file research corpus |
 | FORGE/tools/market-data/ | Live data CLI: `python3 fetch.py price KRE`, `python3 dashboard.py` |
 | memory/ | Daily session notes (YYYY-MM-DD.md) |
-| PROME/ | Coordinator state (SCRATCH, STATUS, TOSCANINI governance) |
+| PROME/ | Coordinator state (SCRATCH, STATUS, FLEET_SCAN, ORCHESTRAL_LAYER_DESIGN, AUTONOMY) |
 | WILL/ | Will's journal, ideas, trading journal |
 | docs/ | OPERATIONS.md, ARCHITECTURE.md |
 
