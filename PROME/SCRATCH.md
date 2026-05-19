@@ -1,45 +1,60 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-05-18 14:00 ET
+**Last Updated:** 2026-05-18 (closeout)
 
 ## What Just Happened
 
-Two pieces of work landed today:
+Five threads landed this session, all CC-Prome surface:
 
-1. **memory-audit-001 — first bounded teams test (executed).** Adversarial-pair (curator + critic, both Opus general-purpose) audited 8 MEMORY draft candidates and landed 3 new MEMORY.md entries + 2 in-place updates + 1 auto-memory route + 5 rejects. Joint decision committed at `49463cf7`; META_EVAL.md committed at `a045c4b6`. Adversarial-pair pattern validated as net-positive for judgment-heavy curation (substrate-in-flux argument for rejecting #3/#5 was the headline win — emerged only from reconciliation DM, not standalone files). Reusable brief template captured in auto-memory `feedback_adversarial_brief_for_pair_teams.md`. Full meta-eval at `PROME/scratch/teams_memory_audit_001/META_EVAL.md`.
+1. **TOSCANINI retired and salvaged.** AUTONOMY.md + COMPLETION_SPEC.md promoted to `PROME/`. HUNTING ranking dimensions distilled into `PROME/ORCHESTRAL_LAYER_DESIGN.md` as a "Ranking criteria for Section 6" subsection. Remaining 8 files + `reports/` archived to `PROME/archive/TOSCANINI_2026-03/`. The `PROME/TOSCANINI/` directory no longer exists.
 
-2. **Orchestral layer design (theory-crafting only, no execution yet).** Will named the next bottleneck: direction overhead, not execution speed. Designed an orchestral layer where Prome spawns a fleet-scanner subagent to produce `PROME/FLEET_SCAN.md` (heavy reading delegated; Prome's context stays clean), optionally layered with adversarial-pair on top-N refinement and revival proxies for stale agents. Full design at `PROME/ORCHESTRAL_LAYER_DESIGN.md`.
+2. **Fleet-scan prototype (Step 1 of orchestral design) — v1 + v2 landed.** First test of context-discipline-via-subagent pattern. v1 produced a useful but rough report; v2 incorporated six fixes (two-column staleness, dormant pre-filter, merged loops section, explicit HUNTING math, math discipline, as-of price labels). v2 is in `PROME/FLEET_SCAN.md` and is now the live working surface. Boot sequence retargeted to read it at step 4.
+
+3. **LIQUID revival proxy (Step 4 of orchestral design) — first prototype.** Foreground general-purpose subagent (not teams mode) briefed as a revival proxy for LIQUID (32d self-commit stale). Produced `AGENTS/LIQUID/inbox/LIQUID_REVIVAL_PACKET_2026-05-18_prome-spawned.md` + `LIQUID_STATUS_DRAFT_..._prome-spawned.md`. Headline diagnostic: bear thesis is re-asserting through DURATION (10Y +30bps over 32d, TLT broke 🔴) not CREDIT (HY OAS only -5bps). April SOFR-IORB scare was mechanical tax-day TGA, not structural. Proxy returned 4 v2-pattern-improvement suggestions.
+
+4. **Live dashboard pulled and synthesized.** Replaces stale STATUS prices. Key live tape: HY OAS **280bps** (+4 vs 5/17, 20bps from 260 kill), CCC 935, Brent **$109.30** (BRENT scanner's $102 intraday read was a swing not the close — HEARTBEAT was right), 10Y **4.59** (+12, 🔴), TLT **$83.56** (broke 🔴), APO **$134.07** (🔴→🟢 zone change), VIX **17.82**, BIZD **$12.52**. Score 10 CRITICAL.
+
+5. **CLOSEOUT.md created + BOOT.md updated.** First standardized CC-Prome closeout procedure (4 chunks, scope tiers, file-ownership reference, skip rules). BOOT.md cleaned of TOSCANINI drift: doc-ownership table, boot sequence steps 4 & 8, retired Toscanini section, On-Demand list.
 
 ## Current Git State
 
-- Branch: `master`
-- HEAD / origin after meta-eval push: `a045c4b6 PROME: meta-eval for memory-audit-001 teams test`
-- One additional commit pending for the orchestral layer design doc + this SCRATCH update.
+- Branch `master`. After committing this closeout pass, working tree should be clean and synced to origin (one upstream commit was rebased over mid-session at `1cdd9443`).
+- Salvage + v2 fleet-scan + LIQUID revival packet location work all committed at `5558d180` mid-session.
+- This closeout pass is committed separately.
 
-## Next Planned Work
+**Untracked deliberately left:** `AGENTS/LIQUID/inbox/LIQUID_REVIVAL_PACKET_2026-05-18_prome-spawned.md` and `LIQUID_STATUS_DRAFT_..._prome-spawned.md`. Per agent-file-isolation rule, Prome does NOT commit other agents' files. Real LIQUID integrates and commits these on its next boot.
 
-**Top priority next session:** prototype Step 1 of `PROME/ORCHESTRAL_LAYER_DESIGN.md`.
+## Next Planned Work (entry point for next session)
 
-1. Will requests fleet scan (or Prome offers if no other priority displaces it).
-2. Prome spawns a `fleet-scanner` subagent (general-purpose, foreground) with the FLEET_SCAN.md template (in the design doc) as its brief.
-3. Subagent reads: first 30 lines per `AGENTS/*/STATUS.md`, last 5 commits per agent dir, inbox file counts, HEARTBEAT catalyst calendar, TOSCANINI QUEUE. Writes `PROME/FLEET_SCAN.md` v1. Returns to Prome only a ~10-line summary.
-4. Will and Prome review the v1 output; iterate template based on what's useful vs noise.
-5. Once template shape is good (likely 2-3 iterations), layer adversarial-pair on the top-N section per Step 3 of the design.
+**Top priority candidates (Will to direct):**
 
-Critical: do NOT read 13 STATUS files into Prome's context directly. The whole point of the design is context discipline via subagent delegation.
+1. **HENRY revival proxy** — Step 4 prototype #2 test. HENRY is 31d self-commit stale. NVDA earnings Tuesday 5/20 is HENRY-domain. Tests whether the pattern generalizes from plumbing (LIQUID) to market-structure (HENRY).
+
+2. **BROCK revival proxy** — Step 4 prototype #2 alt. BROCK is 17d stale. APO sustained $130+ (zone change 🔴→🟢 today); FSK fresh-premium discussion blocked on BROCK refresh. Higher position-relevance than HENRY; lower catalyst urgency.
+
+3. **Fold v3 fleet-scan feedback into `PROME/ORCHESTRAL_LAYER_DESIGN.md`** — 4 items deferred from v2 prototype: (a) directional semantics of kill levels; (b) include 5-7-point time series in pass-through; (c) sweep-file internal triage; (d) authorize/disauthorize closeout of prior open questions. ~15 min surgical edits.
+
+4. **LIQUID integration check** — has real LIQUID booted and integrated the revival packet? If yes, archive the prome-spawned drafts. If no, hold.
+
+5. **Will-decision items** (carried forward from FLEET_SCAN.md Section 7):
+   - SAM Tranche 2 FXY decision — FXY at $57.80 today, **below** the previously-forfeited $58.00-58.25 band. Tranche 2 may have re-opened.
+   - APO Jun/Dec puts hold/roll/cut — APO $134 sustained
+   - FSK fresh-premium discussion — strong-bear-classified but needs live bid/ask + Will approval
+   - WAL Q1 10-Q integration (REGINALD-owned)
 
 ## Current Working Model
 
-- BDC/private-credit mark/income stress remains confirmed by FSK; broad public-credit cascade still unconfirmed (HY OAS <300, VIX <20).
-- Latest checked dashboard May 17 10:38 ET (likely stale by next session — re-run on boot): HY OAS **276bps**, VIX **18.43**, Brent **$109.26**, gas **$4.50**, USD/JPY **158.73**, BIZD **$12.61**, WAL **$74.42**, KRE **$66.97**.
-- BRENT 5/18 update flagged: Iran drone strike on UAE Barakah nuclear plant May 17 (first nuclear-infrastructure attack of the war); US sanctions-waiver report drove Brent $111→$102 intraday; NSC meeting May 19 on potential military action. See `AGENTS/BRENT/demand_destruction/data/monday_2026-05-18.md`.
-- REGINALD May 17: WAL Investor Day Bucket E B3 fired; REG-25 65%+; WAL 10-Q integration + MI3/FFIEC PDD status checks still due.
-- WALTER May 17: routing-ownership split codified (WALTER routes signals; Prome tasks/synthesizes).
+- BDC/private-credit stress confirmed at vehicle/income/mark level (FSK Q1).
+- Public-credit cascade still unconfirmed by spread (HY OAS 280, VIX 17.82).
+- **Bear thesis transmission channel has migrated PLUMBING → DURATION.** 10Y broke 🔴, TLT broke 🔴, while HY OAS sits within 20bps of kill but stable. New watch: long-end yield regime, not SOFR-IORB.
+- BRENT's intraday $102 sanctions-waiver-print was a swing, not a close. Energy thesis intact.
+- WAL recovered $74→$76 (still below bear line); KRE $67.92 🟡; OZK rolled (Sept) per Will.
 
-## Cautions
+## Cautions for Next Session
 
-- No trades without Will approval.
-- No external/public messages without approval.
-- Persistent agents — do NOT spawn: **CARL, REGINALD, OZK, SAM, RED, BRENT, Claude Code Prome** (updated per today's MEMORY.md edit).
-- Use explicit path staging only; never `git add .` or `git add -A`.
-- Fleet-scanner subagent must respect read budget — if it tries to read full STATUS files, context discipline is broken and the design doesn't work.
-- If fleet-scanner reveals concurrent activity by other agents (dirty trees in their dirs), follow root CLAUDE.md "Before pulling" protocol; do not commit Prome's work blindly.
+- **No trades without Will approval.** No fresh broad cascade short while HY OAS <300 and VIX <20.
+- **Don't spawn:** CARL, REGINALD, OZK, SAM, RED, BRENT, Claude Code Prome.
+- **LIQUID revival packet files are untracked-by-design** — real LIQUID owns commit. If you see them and think "should I commit these?" — no.
+- **Named-spawn triggers teams mode** (auto-memory `feedback_named_spawn_teams_mode.md`). For one-shot synchronous subagent work, omit the name parameter.
+- **OZK STATUS-data desync** persists — STATUS still shows pre-roll posture for May 15 contracts. Hygiene-tier, not urgent. OZK refreshes on next boot.
+- **HEARTBEAT.md not updated with today's tape** — flagged but not edited (shared file; Will-approval gate). Numbers in this SCRATCH are from today's dashboard, not HEARTBEAT.
+- **Step 4 revival-proxy pattern is one-prototype-old.** Pattern works but has 4 design improvements parked in this SCRATCH section 3 above.

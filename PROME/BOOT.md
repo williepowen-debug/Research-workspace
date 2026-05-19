@@ -31,8 +31,11 @@
 | **POSITIONS.md** | Full portfolio: entries, stops, sizing, P&L, account value | Operational priorities or agent health |
 | **PREDICTIONS_MONITOR.md** | Falsifiable predictions with resolution dates and outcomes | Position details or daily catalysts |
 | **OUTBOX.md** | Prome's outbound signals for agents | Anything else |
-| **TOSCANINI/QUEUE.md** | Active proposals awaiting Will's decision | Completed/rejected proposals (→ DECISIONS.md) |
-| **TOSCANINI/WILL_QUEUE.md** | Tasks blocked on Will's direct action | Proposals for Will to approve (→ QUEUE.md) |
+| **FLEET_SCAN.md** | Latest fleet situation report — agents, catalysts, open loops, top-N moves | Domain analysis (→ agent STATUS files) |
+| **ORCHESTRAL_LAYER_DESIGN.md** | Design + ranking rubric for fleet-scan / top-N / revival-proxy workflow | Per-session scans (→ FLEET_SCAN.md) |
+| **CLOSEOUT.md** | Standardized session-end procedure | Boot procedure (→ BOOT.md) |
+| **AUTONOMY.md** | Tier 1/2/3 permission model + autonomy change log | Specific spawn rules (→ AGENTS.md) |
+| **COMPLETION_SPEC.md** | Sub-agent `LAST_COMPLETION.md` report format | Anything else |
 | **CLAUDE_CODE_PROME_PLAN.md** | Architecture plan for persistent Claude Code Prome | Current implementation status (→ TASKS) |
 | **CLAUDE_CODE_PROME_TASKS.md** | Restart-safe task ladder for building Claude Code Prome | Detailed operating manual after scaffold exists |
 | **CLAUDE_CODE_HANDOFF.md** | Handoff from Claude Code Prome sessions | General Telegram/OpenClaw handoff (→ HANDOFF/SCRATCH) |
@@ -47,11 +50,11 @@
 1. **Read `PROME/SCRATCH.md`** — session handoff from last Prome. What's hot, what's unfinished.
 2. **Read `PROME/TODAY.md`** — today's catalysts, levels, task checklist.
 3. **Read `PROME/STATUS.md`** — agent health, pending actions, priorities.
-4. **Read `PROME/TOSCANINI/QUEUE.md`** — active proposals + signal queue.
+4. **Read `PROME/FLEET_SCAN.md`** — latest fleet situation report (agents, catalysts, open loops, top moves). If absent or stale (>1 day), spawn a `fleet-scanner` subagent per `PROME/ORCHESTRAL_LAYER_DESIGN.md`.
 5. **If working on Claude Code Prome, read `PROME/CLAUDE.md`, `PROME/CLAUDE_CODE_PROME.md`, `PROME/CLAUDE_CODE_PROME_PLAN.md`, and `PROME/CLAUDE_CODE_PROME_TASKS.md` before editing.** The task ladder is the restart-safe implementation source of truth.
 6. **Read `PROME/CLAUDE_CODE_HANDOFF.md` after clears or after any Claude Code Prome session.** Claude Code Prome must update that file at session end. Normal Telegram/OpenClaw sessions still use this boot sequence and remain Will-facing.
 7. **Triage Prome inbox** — `AGENTS/PROME/inbox/`. Scan for signals that change priorities.
-8. **Score and rank** — run HUNTING.md scoring (position proximity ×2, time pressure ×1.5, blindness ×1, convergence ×1, decay ×1). Re-rank QUEUE.md. Internal — don't show Will the math.
+8. **Score and rank** — use the ranking rubric in `PROME/ORCHESTRAL_LAYER_DESIGN.md` (Position Proximity ×2, Time Pressure ×1.5, Blindness Risk, Convergence, Decay Rate, System Freshness). Apply to candidate moves; honor the four anti-patterns (busywork, loudness, completionism, recency bias). Internal — don't show Will the math.
 9. **Be proactive:** Flag catalysts within 24h, stale agents, pending decisions, blocking items.
 10. **Present top proposals** when Will checks in (max 5 per batch, ranked by score).
 
@@ -74,22 +77,19 @@
 
 ---
 
-## Toscanini — Orchestration Layer
+## Orchestral Layer
 
-Prome's decision interface with Will.
+TOSCANINI was retired 2026-05-18. The current orchestral layer is captured in `PROME/ORCHESTRAL_LAYER_DESIGN.md` — a fleet-scan + adversarial-pair top-N + revival-proxy pattern that delegates heavy reading to subagents so Prome's main context stays clean.
 
 | File | Purpose |
 |------|---------|
-| **QUEUE.md** | Live proposals awaiting Will. Read at boot, present at check-in. |
-| **WILL_QUEUE.md** | Tasks blocked on Will's direct action. |
-| **DECISIONS.md** | Past decisions + outcomes. Judgment pattern tracking. |
-| **PROTOCOL.md** | Rules: binary proposals (Approve/Reject), max 5/batch, 🔴/🔵/🟢 priority. |
-| **AUTONOMY.md** | Three tiers: free (internal) / propose (new work) / always ask (external, positions). |
-| **COMPLETION_SPEC.md** | Standard sub-agent report block: STATUS/CHANGED/RESULT/GAPS/WILL_NEEDS/FOLLOW-UP. |
-| **HUNTING.md** | Work item scoring framework. |
-| **SIGNAL_BATCHING.md** | 3+ signals → spawn. 🔴🔴 singles spawn immediately. |
+| **`PROME/ORCHESTRAL_LAYER_DESIGN.md`** | Design + ranking rubric (Position Proximity ×2, Time Pressure ×1.5, etc.) + four anti-patterns. Source of truth for orchestral work. |
+| **`PROME/FLEET_SCAN.md`** | Latest fleet situation report, produced on demand by `fleet-scanner` subagent. |
+| **`PROME/AUTONOMY.md`** | Tier 1/2/3 permission model + autonomy change log (salvaged from TOSCANINI). |
+| **`PROME/COMPLETION_SPEC.md`** | Sub-agent `LAST_COMPLETION.md` report format (salvaged from TOSCANINI). |
+| **`PROME/archive/TOSCANINI_2026-03/`** | Historical TOSCANINI files for reference. Do not read at boot. |
 
-**Every sub-agent spawn must include COMPLETION_SPEC instructions.**
+**Every sub-agent spawn must include COMPLETION_SPEC instructions** (pattern survives retirement).
 
 ---
 
@@ -134,7 +134,8 @@ Outputs: Convergence reports, contradiction flags, threshold proximity matrix
 - `PROME/HANDOFF.md` — read before `/clear` or `/new`
 - `PROME/CLAUDE_CODE_PROME_PLAN.md` + `PROME/CLAUDE_CODE_PROME_TASKS.md` — read when resuming the Claude Code Prome build
 - `PROME/CLAUDE_CODE_HANDOFF.md` — read once created, especially after Claude Code Prome sessions
-- Protocol files in `TOSCANINI/` — read when executing that protocol
+- `PROME/CLOSEOUT.md` — session-end procedure (read before `/clear` or `/new`)
+- `PROME/archive/TOSCANINI_2026-03/` — retired governance docs (read on-demand for historical context only)
 
 ---
 
