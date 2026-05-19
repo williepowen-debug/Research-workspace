@@ -267,11 +267,13 @@ Will-direction carries from FLEET_SCAN.md Section 7: SAM FXY Tranche 2 (FXY $57.
 
 ### What landed
 
-- **Live Monday dashboard pull** — tape essentially unchanged from Friday close; HY OAS 280, VIX 17.82, 10Y 4.59 🔴, TLT $83.56 🔴, USD/JPY 158.93 🔴, Brent $109.73 🔴, APO $134.07 (zone 🔴→🟢, sustained well past 3-session reassessment trigger).
-- **HENRY revival proxy (Step 4 #2)** — pattern generalized from plumbing → market-structure. Headline: complacency-trap clinching (not dying). Returned 5 v3-improvements + introduced framing-precision overlay as new artifact type.
-- **HENRY framing-precision note** (Will-authorized cross-agent inbox write) — preserved "trap clinching vs soft kill" concept; replaced proxy's overspecified "2 of 3 firing" with literal "1 fired + 1 compressing + 1 flat." New artifact type now canonical.
-- **v3 brief spec folded into `PROME/ORCHESTRAL_LAYER_DESIGN.md`** — 4 LIQUID items + 5 HENRY items consolidated under 7-section spec; prototype-path status updated; 3 of 4 open questions resolved.
-- **BROCK revival proxy (Step 4 #3)** — first exercise of v3 brief spec. Validated transfer to BDC/private-credit domain. Headlines: APO position-trigger fired ~May 7 entrenched 13 sessions; position-specific vs broad-thesis trigger conflation surfaced; WALTER NDFI scope-correction REQ open 5d unread (11× scope drift, $128B → $1.4T per FFIEC RC-C). Returned 4 v4-design items.
+Full session narrative in `PROME/SCRATCH.md`. One-line referents:
+- Live Monday dashboard pull (essentially unchanged from Friday close)
+- HENRY revival proxy (Step 4 #2) — pattern generalized to market-structure agent; returned framing-precision overlay as new artifact type
+- HENRY framing-precision note — Will-authorized cross-agent inbox write; new artifact type canonized
+- v3 brief spec folded into `PROME/ORCHESTRAL_LAYER_DESIGN.md` (9 items, 7-section consolidation, 3 of 4 open questions resolved)
+- BROCK revival proxy (Step 4 #3) — first exercise of v3 brief spec; surfaced position-specific vs broad-thesis trigger conflation + WALTER NDFI scope-correction REQ
+- LIQUID end-to-end revival-proxy validation (real LIQUID booted, integrated, committed 3× during session)
 
 ### Files edited (within autonomous scope)
 
@@ -286,14 +288,19 @@ Will-direction carries from FLEET_SCAN.md Section 7: SAM FXY Tranche 2 (FXY $57.
 - `AGENTS/BROCK/inbox/BROCK_STATUS_DRAFT_2026-05-19_prome-spawned.md` — proxy output, untracked
 - `memory/2026-05-19.md` — daily session log (new)
 
-### Decisions made by Will this session
+### Decisions Will made this session (retrospective audit)
 
 - Dashboard first, then HENRY revival.
-- Explanation requested + endorsed: keep "trap clinching" concept; reject "2 of 3 firing" literal count; flag this as a framing-precision note to HENRY's inbox.
-- Authorized cross-agent inbox write for HENRY framing note (per-instance authorization, not durable).
+- Endorsed "trap clinching" concept; rejected "2 of 3 firing" literal count; flag as framing-precision note to HENRY's inbox.
+- Per-instance cross-agent inbox write authorization for HENRY framing note (NOT durable; default-forbidden rule still applies).
 - Fold v3 feedback into ORCHESTRAL_LAYER_DESIGN.md before next revival.
-- BROCK revival next (first exercise of v3 brief spec).
-- Closeout after BROCK, defer VIOLET pair to next session.
+- BROCK revival next (first v3-spec exercise).
+- Closeout after BROCK; defer VIOLET pair to next session.
+- Fix doc-ownership overlap + CLOSEOUT spec drift during closeout (post-audit follow-up commit).
+
+### Decisions needed from Will (forward-looking)
+
+See `PROME/SCRATCH.md` §Next Planned Work for live carries (APO put hold/roll/cut after BROCK memo; FSK fresh-premium; SAM FXY Tranche 2; WAL 10-Q integration; VIOLET pair decision).
 
 ### Risks / Blockers
 

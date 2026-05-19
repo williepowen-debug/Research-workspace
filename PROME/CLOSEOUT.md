@@ -48,14 +48,22 @@ Skip for casual one-off exchanges with no artifacts.
 
 ### `PROME/CLAUDE_CODE_HANDOFF.md` — append session entry
 
-Per `PROME/CLAUDE.md` spec:
-- What changed
-- Files edited (compact list)
-- Decisions needed from Will
-- Risks / blockers
-- Next suggested work
+CC-Prome audit-trail role. NOT the place for session narrative (that's SCRATCH).
+- **What landed** — one-line referents per artifact; point at SCRATCH/memory for headlines
+- **Files edited** — compact list (PROME scope + any agent-inbox writes with PROVENANCE note)
+- **Decisions Will made this session** (retrospective audit; helps future-Prome avoid re-asking)
+- **Decisions needed from Will** (forward-looking; usually a one-line pointer to SCRATCH's live carries)
+- **Risks / blockers**
+- **v_next design inputs** (any new pattern feedback returned by sub-agents)
+- **Next suggested work** (one-line pointer to SCRATCH, not a full restate)
+- **Rules held to** (autonomy / scope verification)
 
-**Checkpoint:** flag if any of these three files restate the same fact (doc-ownership violation). Pick one home and reference from the other two.
+**Doc-ownership separation (canonical homes):**
+- **SCRATCH** = session narrative + next-session entry point (full headlines, "what just happened")
+- **STATUS** = state tables only (agent health, Pending Work status, Active Decision Layer freshness); no narrative
+- **HANDOFF** = CC-Prome audit trail (files, decisions, rules); references SCRATCH for narrative
+
+**Checkpoint:** if any of these three files restate the same fact, drop it from STATUS and HANDOFF, keep it in SCRATCH. Cross-reference rather than duplicate.
 
 ---
 
