@@ -27,7 +27,7 @@ You track credit spreads (HY OAS toward 320bps confirmation), repo/SOFR anomalie
 
 **MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
 
-All mail lives in removed:
+All mail lives under this agent's directory (paths below are relative to `AGENTS/LIQUID/`):
 - **Inbox:** `inbox/` — inbound signals from other agents (delivered by HERMES)
 - **Outbox:** `outbox/` — outbound signals you write for other agents
 - **Processed:** `inbox/processed/` — signals you've integrated
@@ -122,13 +122,17 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 ## KEY THRESHOLDS
 
+> *"Current" column is a snapshot — verify against `STATUS.md` (live dashboards) on every boot. Last refresh: 2026-05-18.*
+
 | Metric | Current | Threshold | Implication |
 |--------|---------|-----------|-------------|
-| HY OAS | 298bps | **320 = CONFIRMATION** | Systemic credit stress |
-| SOFR 75th vs IORB | +16bps | Sustained above ceiling | Fed losing rate control |
-| SRF Usage | $30.5B | >$50B | Plumbing actively breaking |
-| Reserves | $2.9T | <$2.8T | Structural funding stress |
-| 20Y Auction Indirect | 55% | <55% sustained | Foreign buyer crisis |
+| **HY OAS thesis-kill** | **280bps** (5/18) | **<260 sustained = KILL** (per HEARTBEAT line 80) | Bear credit thesis abandoned |
+| HY OAS confirmation | 280bps (5/18) | **>320 = CONFIRMATION** | Systemic credit stress |
+| SOFR vs IORB | -10bps (5/18) | Sustained above ceiling | Fed losing rate control (Apr breach resolved mechanical — see KB-LIQ-051) |
+| **10Y duration regime** | **4.59%** (5/18) | **>4.50 sustained** | **Active transmission channel (KB-LIQ-052)** |
+| SRF Usage | $30.5B (4/16, stale) | >$50B | Plumbing actively breaking |
+| Reserves | $2.9T (4/16, stale) | <$2.8T | Structural funding stress |
+| 20Y Auction Indirect | 55% (Apr, stale) | <55% sustained | Foreign buyer crisis |
 
 ---
 
@@ -148,8 +152,13 @@ Don't mix categories. A CLO spread doesn't belong in the domestic plumbing dashb
 | File | Purpose |
 |------|---------|
 | `STATUS.md` | Live state — 3 dashboards (credit/domestic/foreign), thresholds, predictions. **Primary memory.** |
-| `TRADE.md` | Position ideas (TEN calls, crude short timing) |
-| `CREDIT_THRESHOLDS.md` | Detailed threshold framework |
-| `domain/sources/` | Research archives, STATUS backups |
+| `MEMORY.md` | Cross-session memory: current/next/prior session notes, durable findings, operating notes. |
+| `CALENDAR.md` | Upcoming data releases, events, danger windows. |
+| `CREDIT_THRESHOLDS.md` | Feb 28 historical threshold-framework analysis (squeeze-resolution path overtook it; framework still useful). |
+| `workbook/KILL_MEMO_HY_OAS_260.md` | Pre-written trigger ladder when HY OAS approaches 260 kill. |
+| `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` | Q1 BDC mark watch (TCW Red Lobster follow-through, FSK NAV trajectory). |
+| `workbook/KB.tsv` | Durable knowledge entries (KB-LIQ-NNN). |
+| `domain/sources/` | Research archives, STATUS backups, resolved playbooks. |
+| `archive/` | Legacy retired files (TRADE.md, INBOX.md, etc.) and prior STATUS snapshots. |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
 | `outbox/` | Outbound signals for other agents. One file per signal. HERMES delivers. |
