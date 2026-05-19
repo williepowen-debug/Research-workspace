@@ -1,16 +1,16 @@
 # BOND — Status
 
 **Agent:** BOND | **Domain:** US Bond Market Structure
-**State:** 🟡 WATCH — refunding week weak but not failed; public credit still calm
-**Last Updated:** 2026-05-13 19:35 ET by PROME
+**State:** 🟡→🟠 WATCH (long-end leg) — 10Y broke 4.5, 30Y sustained above 5; credit cash still calm
+**Last Updated:** 2026-05-19 by BOND (live data pull)
 
 ---
 
 ## Regime Read
 
-Public bond-market stress is **not confirming cascade yet**. HY OAS remains tight at **282bps**, VIX is below 20, and April corporate issuance was strong. The March BOND short-credit setup has therefore softened materially.
+Two-track divergence widened over the past week. **Long-end yields broke higher decisively** (10Y 4.46→4.59, 30Y 5.03→5.12 since 5/13) while **public credit stayed calm** (HY OAS 283, IG OAS tightened to 75, VIX ~18). TLT lost another buck-eighty to **$83.01**. No coupon auctions May 14-19 — bill auctions came in clean (BTC 2.66-3.20), so the move is term-premium / duration, not auction-mechanism failure. May 12-13 refunding tails (3Y +0.6 / 10Y +0.4 / 30Y +0.5) plus the post-refunding follow-through are starting to look less like transient supply concession and more like durable repricing.
 
-But the “all clear” read is too easy: CCC OAS is still elevated at **937bps**, the 30Y has traded through **5%**, and the May refunding auctions all tailed modestly. This is **duration fatigue**, not failed-auction panic: buyers demanded concession, but indirect demand and dealer take did not confirm a Treasury-demand hole. BOND’s job now is **not to shout crisis**; it is to detect when tight cash credit and calm equities are contradicted by auctions, synthetic credit, or primary-market access.
+The "all clear" read on credit is still defensible — CCC at 942 is elevated but not breaking, HYG only off 60 cents, and SOFR-IORB at -12bps shows no funding stress. But the duration thesis is firming up: BND-07 prediction (10Y >4.5 or 30Y >5 for 5 sessions) is **now in motion** — Day 1 for the 10Y trigger and ~3 sessions deep on the 30Y >5 read. **May 20 20Y auction is tomorrow** and becomes the next decisive read on whether long-end demand is mechanically broken or just expensive.
 
 ---
 
@@ -18,18 +18,18 @@ But the “all clear” read is too easy: CCC OAS is still elevated at **937bps*
 
 | Metric | Current | Status | Source / Date | BOND Read |
 |---|---:|---|---|---|
-| HY OAS | **282bps** | 🟢 | Dashboard/FRED, May 13 | Below 300; short-HY thesis not active. |
-| CCC OAS | **937bps** | 🟡 | Dashboard/FRED, May 13 | Still stressed lower-quality credit; not broad contagion alone. |
-| IG OAS | **79bps** | 🟢 | FRED `BAMLC0A0CM`, May 8 | IG market still functional. |
-| 10Y yield | **4.46%** | 🟡/🟠 | Dashboard/FRED, May 13 | Near 4.5 trigger; duration pressure rising. |
-| 2Y yield | **3.90%** | 🟢/🟡 | FRED `DGS2`, May 8 | Curve still positive. |
-| 2s10s | **+48bps** | 🟡 | FRED derived, May 8 | Mild bear-steepener risk, not acute. |
-| 30Y yield | **~5.0%+ intraday** | 🟠 | Market/news, May 13 | Long-end traded through 5%; not confirmed by auction failure. |
-| SOFR-IORB | **-5bps** | 🟢 | Dashboard / FRED, May 13 | No current repo/funding confirmation. |
-| HYG | **$79.98** | 🟢 | yfinance, May 11 | Credit ETF not breaking. |
-| TLT | **$84.80** | 🔴 | Dashboard, May 13 | Duration weak; auction weakness not enough alone for panic. |
-| VIX | **17.88** | 🟢 | Dashboard, May 13 | Equity vol not confirming credit stress. |
-| Corp issuance YTD | **$1,013.9B through Apr, +28.2% YoY** | 🟢 | SIFMA result surfaced May 2026 | Primary market not frozen. |
+| HY OAS | **283bps** | 🟢 | FRED `BAMLH0A0HYM2`, May 18 | Below 300; short-HY thesis not active. |
+| CCC OAS | **942bps** | 🟡 | FRED `BAMLH0A3HYC`, May 18 | Lower-quality stress still elevated, not broad contagion. |
+| IG OAS | **75bps** | 🟢 | FRED `BAMLC0A0CM`, May 18 | IG actually tightened; market functional. |
+| 10Y yield | **4.59%** | 🔴 | FRED `DGS10`, May 15 | **Broke 4.5 (+13bp/wk).** BND-07 trigger Day 1. |
+| 2Y yield | **4.09%** | 🟡 | FRED `DGS2`, May 15 | +19bp/wk; front-end firmer but not curve-stressed. |
+| 2s10s | **+50bps** | 🟡 | FRED derived, May 15 | Modest bear-steepener; not acute. |
+| 30Y yield | **5.12%** | 🔴 | FRED `DGS30`, May 15 | **Sustained above 5** (5.03/5.03/5.02/5.12 last 4 sessions). Term-premium repricing. |
+| SOFR-IORB | **-12bps** | 🟢 | Dashboard, May 19 | More negative; no funding confirmation of duration stress. |
+| HYG | **$79.36** | 🟢 | yfinance, May 19 | -0.62 from 5/13; credit ETF not breaking. |
+| TLT | **$83.01** | 🔴 | yfinance, May 19 | New leg lower (-1.79 from 5/13); duration weak. |
+| VIX | **17.99** | 🟢 | Dashboard, May 19 | Equity vol still complacent vs duration move. |
+| Corp issuance YTD | **$1,013.9B through Apr, +28.2% YoY** | 🟢 | SIFMA May 2026 | Primary market not frozen. |
 
 ---
 
@@ -48,29 +48,31 @@ But the “all clear” read is too easy: CCC OAS is still elevated at **937bps*
 
 **May refunding read:** all three coupon auctions tailed modestly and bid/covers were below recent averages. This is **yellow duration fatigue**, not red auction dysfunction: tails were small (<1bp), indirect demand stayed around/above 63%, dealer take did not spike catastrophically, and SOFR-IORB remains calm.
 
+**May 14-19 follow-through:** No coupon auctions; bill auctions clean (4W 2.66, 8W 2.72, 13W 3.17, 17W 3.20, 26W 3.07, 6W 3.01). Bills are absorbing fine. Long-end repricing is happening **without** a fresh failed auction — pure term-premium move. **May 20 20Y is the next live read.**
+
 ---
 
 ## Convergence Matrix
 
 | Vector | Score | Status | Evidence | Upgrade Trigger |
 |---|---:|---|---|---|
-| Treasury auction health | 4 | 🟡 | May refunding was weak across 3Y/10Y/30Y: small tails and below-average BTCs, but no >2bp tail or dealer spike. | Upgrade to orange/red on BTC <2.3 with dealer spike, tail >2bps, or funding stress. |
-| HY market function | 1 | 🟢 | HY OAS 281; issuance strong through Apr. | HY OAS >300 watch; >350 + pulled deals = red. |
-| IG market function | 1 | 🟢 | IG OAS 79; no broad IG freeze evidence. | IG OAS +20bps/week or clustered pulled IG deals. |
-| Dealer absorption | 3 | 🟡 | Dealer take manageable; prior ~$550B net Treasury position remains capacity-used marker. | Forced inventory decline during selloff or weak auctions + repo pressure. |
-| Long-end/duration | 4 | 🟠 | 30Y traded through 5%, 10Y near 4.5, TLT weak; 30Y auction only modestly tailed. | 10Y >4.5 for 5 sessions; 30Y >5 sustained with bigger auction tails. |
-| CDX-cash basis | 2 | 🟡 | Direct CDX not wired; March divergence needs refresh. | CDX widens while HY cash stays tight for 2+ weeks. |
-| Credit-equity lead | 1 | 🟢 | HY OAS tight and VIX <20; no public-credit lead. | HY OAS +75-100bps from trough while VIX stays <20. |
+| Treasury auction health | 3 | 🟡 | Coupon refunding tailed modestly; bills clean. No coupons May 14-19. | Upgrade on May 20 20Y BTC <2.3, tail >2bps, or dealer spike. |
+| HY market function | 1 | 🟢 | HY OAS 283; issuance strong through Apr. | HY OAS >300 watch; >350 + pulled deals = red. |
+| IG market function | 1 | 🟢 | IG OAS 75 (tightening); no broad IG freeze evidence. | IG OAS +20bps/week or clustered pulled IG deals. |
+| Dealer absorption | 3 | 🟡 | May refunding take contained (10Y 12.0%, 30Y 11.7%, 3Y 16.9%); prior ~$550B net. | Forced inventory decline during selloff or weak auctions + repo pressure. |
+| Long-end/duration | **4** | 🔴 | **10Y broke 4.5 → 4.59; 30Y 5.12 (4th session above 5)**; TLT $83.01 fresh low. | 10Y >4.5 for 5 sessions and/or 20Y auction confirms demand hole = red 5. |
+| CDX-cash basis | 2 | 🟡 | Direct CDX still not wired; March divergence not refreshed. | CDX widens while HY cash stays tight for 2+ weeks. |
+| Credit-equity lead | 1 | 🟢 | HY OAS 283, VIX 18; credit hasn't led. | HY OAS +75-100bps from trough while VIX stays <20. |
 
-**Composite:** **16/35 — watch / yellow duration fatigue, not active credit stress.** BOND’s crisis thesis is on probation; the structural thesis survives, but current public-market evidence is still insufficient for broad short-credit reactivation.
+**Composite:** **15/35 — watch with active long-end leg.** Public credit cascade thesis still inactive; **duration repricing thesis firming** (10Y >4.5 trigger now in motion). Cleanest near-term read is May 20 20Y auction: clean = term-premium-only repricing; failed = demand-hole confirmation and BOND escalates to orange.
 
 ---
 
 ## Trade Interface
 
-- **HYG $75P Jun:** BOND no longer supports adding or rolling on current data. HY OAS <300 and strong issuance invalidate the Mar 26 entry logic for fresh premium. Existing position is only salvage/lottery unless HY OAS reclaims 300 quickly.
-- **TLT puts:** BOND supports **watch/conditional hold if already owned**, not aggressive add. Duration pressure is real: 30Y traded above 5%, 10Y is near 4.5, and refunding week was weak. But tails were small and auctions did not fail; conviction rises only if weakness persists or funding stress appears.
-- **Credit-equity lead:** inactive. Re-activates only with HY OAS >300 and widening velocity, ideally while VIX remains complacent.
+- **HYG $75P Jun:** BOND still does not support adding/rolling. HY OAS 283 + IG OAS tightening + HYG holding $79 = no credit transmission to argue from. Position is salvage/lottery unless HY OAS reclaims 300 quickly.
+- **TLT puts:** BOND posture upgrades from "watch/conditional hold" → **supports hold; supports add on May 20 20Y confirmation**. 10Y broke 4.5 (Day 1 of 5-session trigger); 30Y sustained above 5; TLT new low at $83.01. Aggressive add is justified if May 20 20Y delivers BTC <2.3 / tail >2bps / dealer spike; otherwise hold and let the 5-session 10Y trigger play out.
+- **Credit-equity lead:** still inactive. HY OAS hasn't moved.
 
 ---
 
@@ -78,14 +80,16 @@ But the “all clear” read is too easy: CCC OAS is still elevated at **937bps*
 
 | Date | Catalyst | What BOND watches | Signal Route |
 |---|---|---|---|
-| **May 12** | 10Y auction | ✅ Weak but not failed: 4.468%, +0.4bp tail, BTC 2.40, indirect 64.0%, dealer 12.0% | Note to LIQUID/ZHAO; no crisis signal |
-| **May 13** | 30Y auction | ✅ Below avg but not failed: 5.046%, +0.5bp tail, BTC 2.30, indirect 66.6%, dealer 11.7% | Watch long-end; no demand-hole confirmation |
+| **May 20 (tomorrow)** | **20Y Bond auction** | BTC vs 2.68 prior; tail size; dealer take vs 8.6% prior | LIQUID/ZHAO if weak; PROME if failed |
+| **May 21** | 9Y8M (10Y reopen) | Whether 10Y stress continues into reopening | LIQUID/ZHAO if weak |
+| Daily | 10Y closes >4.5 streak | BND-07 5-session trigger: Day 1 of 5 | HENRY (duration→risk-asset signal) |
+| Daily | 30Y closes >5 streak | Day ~4 of sustained above 5 | LIQUID (term-premium funding consequences) |
 | Weekly | HY/IG OAS + primary calendar | OAS >300 / pulled deals / issuance freeze | BROCK/REGINALD/HENRY |
-| Weekly | Dealer positions | absorption capacity vs forced de-risking | LIQUID/ZHAO |
+| Weekly | Dealer positions (FR2004) | absorption capacity vs forced de-risking | LIQUID/ZHAO |
 | As available | CDX.HY / CDX.IG | synthetic leading cash | HENRY/VIOLET/LIQUID |
 
 ---
 
 ## Bottom Line
 
-BOND should be treated as **watchful but de-risked**. Public credit is not confirming the private-credit stress yet. The live edge is the contradiction hunt: if FSK/BDC marks are deteriorating while HY cash and VIX stay calm, BOND needs auction weakness, CDX widening, or primary-market failures to prove public-market transmission. Without that, HYG June downside is stale. Duration shorts have support from price/yield pressure, but refunding week delivered only yellow confirmation, not a red auction break.
+The two-track regime is sharpening: **long-end is breaking, public credit is not.** 10Y broke 4.5 and 30Y is sustaining above 5 for the first time since 2007 — duration thesis has fresh evidence. But HY OAS 283, IG OAS *tightening* to 75, HYG holding, and VIX <20 mean credit cascade thesis still has no transmission. BOND's near-term decision pivot is **May 20 20Y auction**: clean = term-premium-only repricing (TLT puts work as carry-the-trend); failed = demand-hole confirmation and escalation to orange across long-end, dealer absorption, and FOI vectors. HYG June downside remains stale until HY OAS >300 with velocity.
