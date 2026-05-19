@@ -122,14 +122,16 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 ## KEY THRESHOLDS
 
-> *"Current" column is a snapshot — verify against `STATUS.md` (live dashboards) on every boot. Last refresh: 2026-05-18.*
+> *"Current" column is a snapshot — verify against `STATUS.md` (live dashboards) on every boot. Last refresh: 2026-05-19.*
 
 | Metric | Current | Threshold | Implication |
 |--------|---------|-----------|-------------|
-| **HY OAS thesis-kill** | **280bps** (5/18) | **<260 sustained = KILL** (per HEARTBEAT line 80) | Bear credit thesis abandoned |
-| HY OAS confirmation | 280bps (5/18) | **>320 = CONFIRMATION** | Systemic credit stress |
-| SOFR vs IORB | -10bps (5/18) | Sustained above ceiling | Fed losing rate control (Apr breach resolved mechanical — see KB-LIQ-051) |
-| **10Y duration regime** | **4.59%** (5/18) | **>4.50 sustained** | **Active transmission channel (KB-LIQ-052)** |
+| **HY OAS thesis-kill** | **280bps** (5/19) | **<260 sustained = KILL** (per HEARTBEAT line 80) | Bear credit thesis abandoned |
+| **APO co-trigger** | **$134, Day 7** (5/8–5/18) | **>$130 ×3 sessions = REASSESS** (per HEARTBEAT line 80) | 🟠 **FIRED 5/12; reassessment overdue.** If concurrent with HY OAS compression → KILL_MEMO Trigger C precondition. |
+| HY OAS confirmation | 280bps (5/19) | **>320 = CONFIRMATION** | Systemic credit stress |
+| SOFR vs IORB | -10bps (5/19) | Sustained above ceiling | Fed losing rate control (Apr breach resolved mechanical — see KB-LIQ-051) |
+| **10Y duration regime** | **4.59%** (5/19, +12bps acute 5/18) | **>4.50 sustained** | **Active transmission channel (KB-LIQ-052)** |
+| USD/JPY | 159.10 (5/19) | 160 | SAM-domain co-watch |
 | SRF Usage | $30.5B (4/16, stale) | >$50B | Plumbing actively breaking |
 | Reserves | $2.9T (4/16, stale) | <$2.8T | Structural funding stress |
 | 20Y Auction Indirect | 55% (Apr, stale) | <55% sustained | Foreign buyer crisis |

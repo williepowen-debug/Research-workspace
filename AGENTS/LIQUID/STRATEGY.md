@@ -1,6 +1,6 @@
 # LIQUID — Decision Playbook
 
-**Last Updated:** 2026-05-18 (revival session)
+**Last Updated:** 2026-05-19 (post-live-reverify)
 
 ---
 
@@ -8,12 +8,15 @@
 
 ### When to Escalate (signal other agents / propose trades)
 - HY OAS crosses 320bps with momentum (not just a touch)
+- **HY OAS <260 sustained ≥3 sessions** → credit-thesis kill (see `workbook/KILL_MEMO_HY_OAS_260.md`)
+- **APO >$130 for 3 sessions** → HEARTBEAT line 80 reassessment trigger. Fires before HY OAS hits 260; *currently firing* — has been live since 5/12 (Day 7+ as of 5/19). If concurrent with HY OAS compression, treat as KILL_MEMO Trigger C precondition.
 - SOFR sustained above 3.70% (not Q-end seasonal — see KB-LIQ-051 mechanical-vs-structural test)
 - SOFR-IORB sustained positive for ≥3 sessions on non-tax-day, non-quarter-end catalyst
 - SRF usage >$50B sustained
 - Auction BTC <2.0x on any coupon maturity OR indirect bid <55% sustained
 - Second private credit fund hard-gates
 - 10Y sustained >4.50% with TLT confirming (active duration-channel transmission per KB-LIQ-052)
+- 10Y single-session move >10bps (acute repricing within duration regime — 5/18 +12bps is the canonical example)
 
 ### When to Hold / Monitor
 - HY OAS in 270-310 range (current: 280 — 20bps above 260 kill, 40bps below 320 confirmation)
@@ -31,10 +34,10 @@
 
 ## Active Position Views
 
-| Position | Thesis | Current Assessment (5/18) |
+| Position | Thesis | Current Assessment (5/19) |
 |----------|--------|--------------------|
-| HYG $75P Jun x10 | LIQ-01 credit stress (HY OAS retest of 320) | **Thesis weakened.** HY OAS 280 well below 320 trigger and within 20bps of 260 KILL. If kill memo Trigger A fires (<265 ×2 sessions), CUT. Hold pending Will decision and live re-verification of OAS print. |
-| TEN calls Jun $30 | Triple premium (war + FOI + basis) | Dimona extends — hold through ceasefire resolution. Out of credit-thesis-kill scope (cross-check BRENT/HAWK before action). |
+| HYG $75P Jun x10 | LIQ-01 credit stress (HY OAS retest of 320) | **Thesis weakened AND APO co-trigger fired.** HY OAS 280 well below 320 trigger and within 20bps of 260 KILL. APO has been >$130 for 7 sessions (5/8–5/18) — HEARTBEAT reassessment trigger has been live since 5/12. Per KILL_MEMO co-trigger language: concurrent with HY OAS compression run = Trigger C precondition. **Position subject to cut pending POSITIONS read + Will decision; do not treat as still-live thesis.** |
+| TEN calls Jun $30 | Triple premium (war + FOI + basis) | Dimona extends — hold through ceasefire resolution. Brent $110.59 supports thesis. Out of credit-thesis-kill scope (cross-check BRENT/HAWK before action). |
 
 ## Active Workbooks
 - `workbook/KILL_MEMO_HY_OAS_260.md` — pre-written trigger ladder + verification + PROME template
