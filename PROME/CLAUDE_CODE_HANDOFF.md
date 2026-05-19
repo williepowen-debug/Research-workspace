@@ -260,3 +260,70 @@ Will-direction carries from FLEET_SCAN.md Section 7: SAM FXY Tranche 2 (FXY $57.
 - No trades. No external messages.
 - Read-before-edit honored.
 - Behavior-language used in state files (not hash references) per cross-session memory.
+
+---
+
+## Current Session — 2026-05-19 (v3 brief spec + HENRY + BROCK revivals)
+
+### What landed
+
+- **Live Monday dashboard pull** — tape essentially unchanged from Friday close; HY OAS 280, VIX 17.82, 10Y 4.59 🔴, TLT $83.56 🔴, USD/JPY 158.93 🔴, Brent $109.73 🔴, APO $134.07 (zone 🔴→🟢, sustained well past 3-session reassessment trigger).
+- **HENRY revival proxy (Step 4 #2)** — pattern generalized from plumbing → market-structure. Headline: complacency-trap clinching (not dying). Returned 5 v3-improvements + introduced framing-precision overlay as new artifact type.
+- **HENRY framing-precision note** (Will-authorized cross-agent inbox write) — preserved "trap clinching vs soft kill" concept; replaced proxy's overspecified "2 of 3 firing" with literal "1 fired + 1 compressing + 1 flat." New artifact type now canonical.
+- **v3 brief spec folded into `PROME/ORCHESTRAL_LAYER_DESIGN.md`** — 4 LIQUID items + 5 HENRY items consolidated under 7-section spec; prototype-path status updated; 3 of 4 open questions resolved.
+- **BROCK revival proxy (Step 4 #3)** — first exercise of v3 brief spec. Validated transfer to BDC/private-credit domain. Headlines: APO position-trigger fired ~May 7 entrenched 13 sessions; position-specific vs broad-thesis trigger conflation surfaced; WALTER NDFI scope-correction REQ open 5d unread (11× scope drift, $128B → $1.4T per FFIEC RC-C). Returned 4 v4-design items.
+
+### Files edited (within autonomous scope)
+
+- `PROME/SCRATCH.md` — full rewrite (this session's state)
+- `PROME/STATUS.md` — surgical update (Pending Work, Active Decision Layer, Next Best Action)
+- `PROME/CLAUDE_CODE_HANDOFF.md` — this entry
+- `PROME/ORCHESTRAL_LAYER_DESIGN.md` — header status + Prototype path Steps 1/2/4 + new Revival-proxy v3 brief spec section + Open questions resolution
+- `AGENTS/HENRY/inbox/HENRY_REVIVAL_PACKET_2026-05-18_prome-spawned.md` — proxy output, untracked
+- `AGENTS/HENRY/inbox/HENRY_STATUS_DRAFT_2026-05-18_prome-spawned.md` — proxy output, untracked
+- `AGENTS/HENRY/inbox/HENRY_FRAMING_NOTE_2026-05-18_prome-spawned.md` — Prome-authored framing overlay, untracked
+- `AGENTS/BROCK/inbox/BROCK_REVIVAL_PACKET_2026-05-19_prome-spawned.md` — proxy output, untracked
+- `AGENTS/BROCK/inbox/BROCK_STATUS_DRAFT_2026-05-19_prome-spawned.md` — proxy output, untracked
+- `memory/2026-05-19.md` — daily session log (new)
+
+### Decisions made by Will this session
+
+- Dashboard first, then HENRY revival.
+- Explanation requested + endorsed: keep "trap clinching" concept; reject "2 of 3 firing" literal count; flag this as a framing-precision note to HENRY's inbox.
+- Authorized cross-agent inbox write for HENRY framing note (per-instance authorization, not durable).
+- Fold v3 feedback into ORCHESTRAL_LAYER_DESIGN.md before next revival.
+- BROCK revival next (first exercise of v3 brief spec).
+- Closeout after BROCK, defer VIOLET pair to next session.
+
+### Risks / Blockers
+
+- **None blocking** the closeout itself.
+- **Soft:** HEARTBEAT.md prices remain 1+ day stale; OZK STATUS still pre-roll posture (hygiene). APO put decision genuinely overdue, surfaces to Will once BROCK boots and writes the domain memo — do not pre-empt.
+- **Pattern-level:** three sets of revival packets (LIQUID 5/18, HENRY 5/18, BROCK 5/19) sitting untracked. If real-agent boot is long-delayed for any of them, packets live in working-tree limbo. The longer this latency, the staler the packet's tape pass-through becomes — worth a v4 design-doc note on packet shelf-life.
+
+### v4 design inputs returned this session (parked for next ORCHESTRAL update)
+
+From BROCK proxy:
+1. **Position-specific vs broad-thesis trigger distinction** — explicit in §2 spec
+2. **Outbox scan** (peer outboxes for outstanding REQs ≤14d) — add to read budget
+3. **Sponsor-bifurcation diagnostic** as new artifact type (parent-level leverage/flexibility tell from sponsor responses)
+4. **Decoupling-within-complex flag** as new artifact type (alt-mgr equity decoupling from underlying vehicle stress)
+
+### Next Suggested Work
+
+Open with Will at session start:
+- **VIOLET revival proxy** (Step 4 #4) — pairs with HENRY for NVDA 5/20 read-through; second exercise of v3 brief spec on a vol agent
+- Will-decision carries: APO put hold/roll/cut (post-BROCK memo, needs execution mark), FSK fresh-premium (data ready), SAM FXY Tranche 2, WAL 10-Q integration (REGINALD-owned)
+- v4 brief-spec items defer to a maintenance pass unless next revival surfaces same issues
+
+### Rules I Held To
+
+- No commits outside `PROME/`, `AGENTS/PROME/`.
+- No `git add -A` or `git add .`.
+- No edits to other agents' files except the Will-authorized HENRY framing note (per-instance only).
+- No persistent-agent spawns (HENRY + BROCK revivals via proxy; do NOT spawn the real agents).
+- No trades. No external messages.
+- Read-before-edit honored.
+- Behavior-language in state files (not hash references) per cross-session memory.
+- Sub-agent prompt discipline applied: decision-lead, scoped read budget, verdict-first deliverables, COMPLETION block required.
+- Chunked closeout updates (3 state files sequenced, not batched).

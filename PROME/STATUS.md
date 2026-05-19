@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-05-18 (session closeout)
+**Updated:** 2026-05-19 (session closeout)
 
 ## Core State
 
@@ -28,11 +28,11 @@
 | Artifact | Status | Purpose |
 |---|---|---|
 | `HEARTBEAT.md` | ✅ Fresh May 16; levels rechecked May 17 | Scenario, levels, catalyst/position rails |
-| `PROME/SCRATCH.md` | ✅ Fresh May 18 (closeout) | Ephemeral next-action state; entry point for next session |
-| `PROME/FLEET_SCAN.md` | ✅ Fresh May 18 (v2 prototype) | Live working surface — fleet situation report |
-| `PROME/CLOSEOUT.md` | ✅ Fresh May 18 (new) | Standardized session-end procedure |
+| `PROME/SCRATCH.md` | ✅ Fresh May 19 (closeout) | Ephemeral next-action state; entry point for next session |
+| `PROME/FLEET_SCAN.md` | ⚠️ Fresh May 18 (v2 prototype); 1 day old | Live working surface — fleet situation report |
+| `PROME/CLOSEOUT.md` | ✅ Fresh May 18 | Standardized session-end procedure |
 | `PROME/BOOT.md` | ✅ Refreshed May 18 | TOSCANINI references cleaned; FLEET_SCAN + CLOSEOUT integrated |
-| `PROME/ORCHESTRAL_LAYER_DESIGN.md` | ✅ Fresh May 18 | Design + ranking rubric (HUNTING dimensions distilled in) |
+| `PROME/ORCHESTRAL_LAYER_DESIGN.md` | ✅ Fresh May 19 (v3 brief spec folded) | Design + ranking rubric + revival-proxy v3 brief spec (9 items from LIQUID + HENRY prototypes) |
 | `PROME/TODAY.md` | ⚠️ Stale (May 17) | Superseded by FLEET_SCAN.md as live working surface |
 | `PROME/HANDOFF.md` | ⚠️ Stale (May 17) | Telegram-Prome surface; defer to SCRATCH for CC-Prome continuity |
 | `PROME/CLAUDE_CODE_HANDOFF.md` | ✅ Fresh May 18 (appended) | CC-Prome session report |
@@ -51,10 +51,12 @@
 | **Fleet scan Step 1 prototype** | ✅ Complete | v1 + v2 landed; v2 production-ready; ranking criteria captured in ORCHESTRAL_LAYER_DESIGN.md. |
 | **Step 4 revival-proxy prototype (LIQUID)** | ✅ Complete | First Step 4 run produced revival packet + STATUS draft for LIQUID. Pattern validated. 4 v2-improvements deferred. |
 | **TOSCANINI retirement + CLOSEOUT/BOOT cleanup** | ✅ Complete | TOSCANINI salvaged (AUTONOMY + COMPLETION_SPEC to PROME/, HUNTING distilled, rest archived). CLOSEOUT.md created. BOOT.md cleaned. |
-| **HENRY revival proxy (Step 4 prototype #2)** | 🔴 Candidate | 31d self-commit stale; NVDA Tuesday 5/20 catalyst. Tests pattern generalization from plumbing → market-structure. |
-| **BROCK revival proxy (Step 4 prototype #2 alt)** | 🔴 Candidate | 17d stale; APO sustained $130+ (zone change 🔴→🟢 today); FSK fresh-premium discussion blocked on refresh. |
-| **Fold v3 fleet-scan feedback into ORCHESTRAL_LAYER_DESIGN.md** | 🟠 | 4 items: directional semantics, time-series pass-through, sweep-internal triage, closeout-authorization. ~15 min. |
-| **LIQUID revival packet integration** | 🔵 | LIQUID's own task on next boot. Packet at `AGENTS/LIQUID/inbox/...prome-spawned.md`. Prome tracks only. |
+| **HENRY revival proxy (Step 4 prototype #2)** | ✅ Complete | Pattern generalized from plumbing → market-structure. Headline: complacency-trap clinching (not dying). 5 v3 improvements + framing-precision overlay returned. Packet + STATUS draft + framing note at `AGENTS/HENRY/inbox/`. |
+| **HENRY framing-precision note** | ✅ Complete | Will-authorized cross-agent inbox write. New artifact type canonized: `<TARGET>_FRAMING_NOTE_<date>_prome-spawned.md`. Preserved "trap clinching vs soft kill" concept; corrected proxy's overspecified "2 of 3 firing" → literal "1 fired + 1 compressing + 1 flat." |
+| **Fold v3 fleet-scan + revival-proxy feedback into ORCHESTRAL_LAYER_DESIGN.md** | ✅ Complete | 9 items folded (4 LIQUID + 5 HENRY) under 7-section v3 brief spec. Prototype-path status updated. 3 of 4 open questions resolved. |
+| **BROCK revival proxy (Step 4 prototype #3)** | ✅ Complete | First exercise of v3 brief spec. Headlines: (a) APO position-trigger fired ~May 7, entrenched 13 sessions; (b) position-specific vs broad-thesis trigger conflation surfaced; (c) WALTER NDFI scope-correction REQ open 5d unread (11× scope drift). Packet + STATUS draft at `AGENTS/BROCK/inbox/`. 4 v4-design items returned. |
+| **VIOLET revival proxy (Step 4 prototype #4 candidate)** | 🔴 Candidate | Pairs with HENRY for NVDA 5/20 read-through. VIOLET owns SKEW-slope sign-flip + R11 analog (vol regime). Next exercise of v3 brief spec on vol agent. |
+| **LIQUID / HENRY / BROCK revival packet integration** | 🔵 | Each agent's own task on next own boot. Packets untracked-by-design at respective `AGENTS/<NAME>/inbox/` paths. Prome tracks only. |
 | **Regional-bank Call Report / WAL triage** | 🔴 | REGINALD May 17: WAL 10-Q filed but not integrated; Schedule O / Table 16 cross-credit inventory test pending; MI3/FFIEC PDD status check due. (Carried forward.) |
 | **Bank decision prompt** | 🔴 | Prome-owned synthesis: KRE/WAL/OZK/ZION/SSB cleanup, hold/roll/cut rails, live tape and option pricing required. |
 | **BDC/private-credit decision prompt** | 🔴 | FSK Strong Bear allows fresh downside discussion. Needs live pricing and Will approval before trade. Blocked partly on BROCK revival. |
@@ -94,4 +96,4 @@
 
 ## Next Best Action
 
-Open with Will: decide between **HENRY revival proxy** (Step 4 prototype #2; NVDA Tuesday catalyst) vs **BROCK revival proxy** (Step 4 alt; APO/ARES decision pressure + FSK fresh-premium blocker) for the next revival run. Or **fold v3 fleet-scan feedback into ORCHESTRAL_LAYER_DESIGN.md first** before next revival (~15 min, locks in pattern improvements). Will-direction items on FXY Tranche 2, APO hold/roll, FSK fresh-premium are also live carries from FLEET_SCAN.md Section 7. Boot follows updated `PROME/BOOT.md` which now reads `PROME/FLEET_SCAN.md` at step 4.
+Open with Will: **VIOLET revival proxy** pairs naturally with HENRY for NVDA 5/20 read-through (VIOLET owns SKEW-slope sign-flip + R11 analog; load-bearing for HENRY's vol-regime conviction); would be Step 4 prototype #4 and the second exercise of v3 brief spec on a vol-domain agent. Alternative: surface the Will-decision carries now that data is ready — APO put hold/roll/cut (BROCK domain memo coming after BROCK revives; per `feedback_exit_recommendations_need_mark_context.md` need execution mark first), FSK fresh-premium discussion (BROCK refresh now data-ready), SAM FXY Tranche 2 ($57.80 below previously-forfeited band). Boot follows `PROME/BOOT.md`.
