@@ -51,12 +51,13 @@
 | **Fleet scan Step 1 prototype** | ✅ Complete | v1 + v2 landed; v2 production-ready; ranking criteria captured in ORCHESTRAL_LAYER_DESIGN.md. |
 | **Step 4 revival-proxy prototype (LIQUID)** | ✅ Complete | First Step 4 run produced revival packet + STATUS draft for LIQUID. Pattern validated. 4 v2-improvements deferred. |
 | **TOSCANINI retirement + CLOSEOUT/BOOT cleanup** | ✅ Complete | TOSCANINI salvaged (AUTONOMY + COMPLETION_SPEC to PROME/, HUNTING distilled, rest archived). CLOSEOUT.md created. BOOT.md cleaned. |
-| **HENRY revival proxy (Step 4 prototype #2)** | ✅ Complete | Pattern generalized from plumbing → market-structure. Headline: complacency-trap clinching (not dying). 5 v3 improvements + framing-precision overlay returned. Packet + STATUS draft + framing note at `AGENTS/HENRY/inbox/`. |
-| **HENRY framing-precision note** | ✅ Complete | Will-authorized cross-agent inbox write. New artifact type canonized: `<TARGET>_FRAMING_NOTE_<date>_prome-spawned.md`. Preserved "trap clinching vs soft kill" concept; corrected proxy's overspecified "2 of 3 firing" → literal "1 fired + 1 compressing + 1 flat." |
-| **Fold v3 fleet-scan + revival-proxy feedback into ORCHESTRAL_LAYER_DESIGN.md** | ✅ Complete | 9 items folded (4 LIQUID + 5 HENRY) under 7-section v3 brief spec. Prototype-path status updated. 3 of 4 open questions resolved. |
-| **BROCK revival proxy (Step 4 prototype #3)** | ✅ Complete | First exercise of v3 brief spec. Headlines: (a) APO position-trigger fired ~May 7, entrenched 13 sessions; (b) position-specific vs broad-thesis trigger conflation surfaced; (c) WALTER NDFI scope-correction REQ open 5d unread (11× scope drift). Packet + STATUS draft at `AGENTS/BROCK/inbox/`. 4 v4-design items returned. |
-| **VIOLET revival proxy (Step 4 prototype #4 candidate)** | 🔴 Candidate | Pairs with HENRY for NVDA 5/20 read-through. VIOLET owns SKEW-slope sign-flip + R11 analog (vol regime). Next exercise of v3 brief spec on vol agent. |
-| **LIQUID / HENRY / BROCK revival packet integration** | 🔵 | Each agent's own task on next own boot. Packets untracked-by-design at respective `AGENTS/<NAME>/inbox/` paths. Prome tracks only. |
+| **HENRY revival proxy (Step 4 #2)** | ✅ Complete 5/18 | Packet + STATUS draft + framing note in `AGENTS/HENRY/inbox/`. See SCRATCH. |
+| **HENRY framing-precision note** | ✅ Complete 5/18 | New artifact type canonized. See SCRATCH §3 + `finding_framing_precision_overlay` memory. |
+| **v3 brief spec folded into ORCHESTRAL_LAYER_DESIGN.md** | ✅ Complete 5/19 | 9 items consolidated under 7-section spec. See SCRATCH §4. |
+| **BROCK revival proxy (Step 4 #3)** | ✅ Complete 5/19 | First exercise of v3 brief spec. Packet + STATUS draft in `AGENTS/BROCK/inbox/`. See SCRATCH §5. |
+| **LIQUID revival packet integration** | ✅ Complete 5/19 | LIQUID booted, integrated, committed (commits b6d38b3d / 53019ce5 / 6d4d5408). End-to-end revival-proxy pattern validated. |
+| **VIOLET revival proxy (Step 4 #4 candidate)** | 🔴 Candidate | Pairs with HENRY for NVDA 5/20. See SCRATCH §Next Planned Work. |
+| **HENRY / BROCK revival packet integration** | 🔵 | Each agent's own task on next own boot. Packets untracked-by-design at respective inboxes. Prome tracks only. |
 | **Regional-bank Call Report / WAL triage** | 🔴 | REGINALD May 17: WAL 10-Q filed but not integrated; Schedule O / Table 16 cross-credit inventory test pending; MI3/FFIEC PDD status check due. (Carried forward.) |
 | **Bank decision prompt** | 🔴 | Prome-owned synthesis: KRE/WAL/OZK/ZION/SSB cleanup, hold/roll/cut rails, live tape and option pricing required. |
 | **BDC/private-credit decision prompt** | 🔴 | FSK Strong Bear allows fresh downside discussion. Needs live pricing and Will approval before trade. Blocked partly on BROCK revival. |
@@ -96,4 +97,4 @@
 
 ## Next Best Action
 
-Open with Will: **VIOLET revival proxy** pairs naturally with HENRY for NVDA 5/20 read-through (VIOLET owns SKEW-slope sign-flip + R11 analog; load-bearing for HENRY's vol-regime conviction); would be Step 4 prototype #4 and the second exercise of v3 brief spec on a vol-domain agent. Alternative: surface the Will-decision carries now that data is ready — APO put hold/roll/cut (BROCK domain memo coming after BROCK revives; per `feedback_exit_recommendations_need_mark_context.md` need execution mark first), FSK fresh-premium discussion (BROCK refresh now data-ready), SAM FXY Tranche 2 ($57.80 below previously-forfeited band). Boot follows `PROME/BOOT.md`.
+VIOLET revival proxy (Step 4 #4) — pairs with HENRY for NVDA 5/20. Live Will-decision carries and full session context live in SCRATCH.
