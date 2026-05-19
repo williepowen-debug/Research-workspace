@@ -1,9 +1,40 @@
 # LIQUID STATUS
-**Last Updated:** 2026-04-16 16:20 ET | **Agent:** LIQUID | **Status:** 🟡 CREDIT PATH A HOLDING; **NEW: SOFR BREACHED IORB APR 15** — first funding-stress print this cycle
+**Last Updated:** 2026-05-18 (revival session, 32-day gap closed) | **Agent:** LIQUID | **Status:** 🟡 CREDIT THESIS GRINDING; HY OAS 280bps (20bps above 260 kill); **ACTIVE CHANNEL: DURATION** (10Y +30bps to 4.59% over 32d) — plumbing channel resolved
 
 ---
 
-## Apr 16 Refresh — Bank Earnings Day / SOFR-IORB FLIPS POSITIVE
+## Thesis-Kill Proximity (5/18)
+
+**HY OAS 280bps. Kill level 260 (per HEARTBEAT line 80). Cushion: 20bps. 5/17 → 5/18: +4bps (moved AWAY from kill).** Closest-of-cycle was 276 on 5/17 = 16bps cushion. Bear thesis has not triggered abandonment, but margin is thin enough that a 1-day shock toward 260 should fire the kill memo, not the kill itself.
+
+**Open framing question (for next session):** is the 16-20bps cushion "thesis grinding but intact" (refine duration transmission detection) or "thesis on life support" (centerpiece kill memo, position stand-down)? Deferred pending POSITIONS read.
+
+See `inbox/processed/LIQUID_REVIVAL_PACKET_2026-05-18_prome-spawned.md` §2 for full diagnostic.
+
+---
+
+## May 18 Revival Read (32-day gap)
+
+> *Live numbers below are pass-through from Prome's 2026-05-18 revival-proxy dashboard run; not a LIQUID-direct fetch. Re-verify on next live refresh.*
+
+**Active transmission channel migrated PLUMBING → DURATION over the gap.** Apr 16 LIQUID watched SOFR-IORB for the next leg. The next leg fired through 10Y / TLT / Brent-reflation instead:
+
+- 10Y: 4.29 → 4.59 (+30bps) — duration regime broke wide
+- TLT: $86.28 → $83.56 (-$2.72) — confirms
+- Brent: $98.20 → $109.30 (+$11) — reignites April-CPI loop, keeps 30Y >5% / 10Y >4.5% narrative durable
+- HY OAS: 285 → 280 (-5bps; grinding tighter then reversed Monday)
+- CCC OAS: 924 → 935 (+11bps) — quality bifurcation re-igniting (still 65bps from 1000 trigger)
+- SOFR-IORB: +7 → -10 (April +7bps breach **resolved mechanical** — tax-day TGA build, not structural leak)
+- BIZD: $12.96 → $12.52 — mark stress confirmed via FSK Q1 NAV -9.9%
+- USD/JPY: 159.18 → 158.83 (trigger 160 intact; SAM-domain)
+- KRE: $68.78 → $67.92 (REGINALD-domain, weaker bank tape)
+- VIX: 17.90 → 17.82 (gamma/momentum suppression hypothesis live — per 5/14 signal, may explain why HY OAS floor holds despite substance prints)
+
+**Diagnostic:** The plumbing-leak hypothesis is falsified for the April episode. The bear thesis is intact but transmitting through duration, not credit-spread/funding. Bear thesis grinding, not winning, not losing.
+
+---
+
+## Apr 16 Refresh — Bank Earnings Day / SOFR-IORB FLIPS POSITIVE  *(historical; thread resolved — see May 18 above)*
 
 ### ⚠️ NEW SIGNAL: SOFR above IORB for first time this cycle
 - **SOFR 3.72%** (Apr 15 print) vs **IORB 3.65%** → **+7bps POSITIVE** spread
@@ -54,15 +85,17 @@ Bank earnings day passed without a credit crack. APO/BIZD recoveries suggest PC 
 
 ---
 
-## Plumbing Dashboard (Apr 16 LIVE refresh)
+## Plumbing Dashboard (Apr 16 snapshot — SOFR rows overlaid with 5/18 resolved-state)
+
+> *For 5/18 deltas vs this snapshot see "May 18 Revival Read" section above.*
 
 | Metric | Apr 16 | Apr 10 | Δ | Status |
 |--------|--------|--------|---|--------|
 | **HY OAS** | **285bps** | 290bps | -5bps | 🟢 GREEN — 35bps below trigger |
 | **CCC OAS** | **924bps** | 946bps | -22bps | 🟢 76bps below 1000 trigger |
 | **VIX** | **17.90** | 19.21 | -1.31 | 🟢 Risk-on continuing |
-| **SOFR** | **3.72%** | 3.61% | **+11bps** | 🟠 **ABOVE IORB — new** |
-| **SOFR-IORB** | **+7bps** | -4bps | **+11bps** | 🟠 **First positive this cycle** |
+| **SOFR** | **3.55%** (5/18) | 3.72% (4/16) | **-17bps** | 🟢 Normalized — April breach was mechanical |
+| **SOFR-IORB** | **-10bps** (5/18) | +7bps (4/16) | **-17bps** | 🟢 Sign re-flipped negative — plumbing channel resolved |
 | **10Y yield** | 4.29% | 4.31% | -2bps | 🟢 Stable |
 | **RRP** | $0.158B | $0.507B | -$0.35B | 🔴 Structural zero (persists) |
 | **Fed BS (WALCL)** | $6.694T (Apr 8) | $6.675T (Apr 1) | +$18.5B | 🟡 Slight QE pulse |
@@ -88,8 +121,10 @@ Bank earnings day passed without a credit crack. APO/BIZD recoveries suggest PC 
 | VIX | >25 | **17.90** | 🟢 Well below |
 | USD/JPY | 160 | 159.18 | 🟠 0.82 from trigger |
 | RRP buffer | >$5B | $0.158B | 🔴 Structural zero |
-| **SOFR-IORB** | **sustained > 0** | **+7bps (Apr 15)** | 🟠 **NEW — 1 day print, awaiting confirmation** |
-| **SOFR stress** | >3.70 | **3.72%** | 🟠 **Breached — tax-day vs structural TBD** |
+| **SOFR-IORB** | sustained > 0 | -10bps (5/18) | 🟢 Resolved — April +7bps was tax-day mechanical |
+| **SOFR stress** | >3.70 | 3.55% (5/18) | 🟢 Well below — normalized |
+| **HY OAS thesis-kill** | <260 sustained (per HEARTBEAT) | 280 (5/18) | 🟢 20bps cushion; closest was 276 on 5/17 |
+| **10Y duration regime** | >4.50% sustained | 4.59% (5/18) | 🔴 Broke wide — active transmission channel |
 | SRF usage | >$50B | TBD (need NY Fed) | — Check next refresh |
 | Foreign CB UST | Stable | $2.7T (lowest since 2012) | 🔴 Structural outflow |
 | Reserve floor | $2.7T | ~$3.0T | 🟡 Cushion intact but draining |
@@ -145,8 +180,9 @@ Bank earnings day passed without a credit crack. APO/BIZD recoveries suggest PC 
 
 | File | Purpose | Active window |
 |------|---------|---------------|
-| `workbook/PLAYBOOK_SOFR_IORB_20260417.md` | 3-branch decision tree for SOFR confirmation prints (Apr 17 / 20 / 21 AM) | through Apr 21 |
-| `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` | Public-BDC mark watch; TCW Red Lobster follow-through — checks my own "PC decelerating" narrative | rolling, Q1 earnings ~mid-May |
+| `workbook/KILL_MEMO_HY_OAS_260.md` | Pre-written 1-pager: actions that fire when HY OAS <265 for 2 sessions OR <260 intraday | live until thesis reframed |
+| `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` | Public-BDC mark watch; TCW Red Lobster follow-through — checks my own "PC decelerating" narrative | rolling, Q1 BDC earnings active (FSK May NAV -9.9% in; OBDC etc. pending) |
+| ~~`workbook/PLAYBOOK_SOFR_IORB_20260417.md`~~ | ~~SOFR confirmation prints~~ | **ARCHIVED 5/18 → `domain/sources/PLAYBOOK_SOFR_IORB_20260417_RESOLVED.md`** (resolved mechanical) |
 
 ---
 
