@@ -334,3 +334,67 @@ Open with Will at session start:
 - Behavior-language in state files (not hash references) per cross-session memory.
 - Sub-agent prompt discipline applied: decision-lead, scoped read budget, verdict-first deliverables, COMPLETION block required.
 - Chunked closeout updates (3 state files sequenced, not batched).
+
+---
+
+## Current Session — 2026-05-19 PM (BOND teams-mode spawn experiment)
+
+### What landed
+
+Full narrative in `PROME/SCRATCH.md`. One-line referents:
+- Live Monday dashboard pull (post-morning-closeout) — corroborates BOND's 12:10 signal
+- **BOND spawned in teams mode** (first domain-agent teams-spawn) — alive, handshake refined two-track frame + flagged **5/21 10Y reopening** as second-leg thesis-escalation gate
+- Teams-view troubleshooting: `Shift+Down` didn't work; diagnosed WSL2 tmux env propagation gap; `~/.claude/settings.json` updated with `"teammateMode": "tmux"`
+- Restart pending: Will exits Claude Code + relaunches from inside `prome` tmux session; BOND respawn validates the fix
+
+### Files edited (within autonomous scope)
+
+- `PROME/SCRATCH.md` — full rewrite (afternoon session state)
+- `PROME/STATUS.md` — surgical update (Pending Work + Active Decision Layer + Next Best Action)
+- `PROME/CLAUDE_CODE_HANDOFF.md` — this entry
+- `memory/2026-05-19.md` — appended afternoon log
+- `~/.claude/settings.json` — **outside repo** — added `"teammateMode": "tmux"` key
+
+### Decisions Will made this session
+
+- Spawn BOND in teams mode (real BOND closed; no concurrency)
+- Pursue teams-view visibility (vs accepting in-process invisibility)
+- Light closeout (despite short session) — preserves 5/21 10Y leg, settings change, teams findings
+
+### Decisions needed from Will (forward-looking)
+
+See `PROME/SCRATCH.md` §Next Planned Work — TLT/20Y-10Y watch card scope; live carries (APO, FSK, FXY Tranche 2, WAL 10-Q, HEARTBEAT refresh) unchanged.
+
+### Risks / Blockers
+
+- **None blocking** the closeout itself.
+- **Settings change unvalidated until restart.** If BOND respawn doesn't land in a pane, we need to re-diagnose (TMUX env propagation specifically, or in-process fallback).
+- **Lifecycle question open:** how long do teams-mode teammates persist when idle? Worth testing — relevant for overnight survival to tomorrow's auction. Safer plan: respawn each session.
+- **5/21 10Y reopening** is a new second-leg test BOND introduced; not yet propagated to HEARTBEAT or PREDICTIONS_MONITOR. Will-approval gate for HEARTBEAT.
+
+### v_next design inputs returned this session
+
+From BOND teams-mode experiment:
+1. **Named-spawn proves teams-mode works for domain agents.** Boot via standard agent CLAUDE.md + IDENTITY reconstitution from files. No identity loss — fresh Claude reads same files as terminal-launched session.
+2. **`teammateMode: auto` unreliable on WSL2.** Even with TERM=tmux-256color and Claude Code launched from inside a tmux session, the pane-split didn't fire. Explicit `teammateMode: tmux` required.
+3. **No attach-from-separate-terminal exists.** Teammate views are always through the lead session (in-process cycle or tmux pane spawned by lead).
+4. **One-shot subagent agentIds aren't resumable.** Foreground non-named spawns get cleaned up after their turn. Use named spawns (teams mode) when you want multi-turn.
+5. **Commit-channel marking:** suggested `BOND (via teams):` prefix for commits from teams-spawned domain agents — audit trail for teams vs terminal channel. Not yet enforced; pattern only.
+
+### Next Suggested Work
+
+Open with Will at next-session start:
+- **Respawn BOND** with same boot prompt — validate the tmux pane lands
+- **TLT/20Y-10Y two-leg watch card** scope discussion (BOND already has the trigger criteria sharpened)
+- Live Will-decision carries unchanged (see SCRATCH)
+
+### Rules I Held To
+
+- No commits outside `PROME/`, `AGENTS/PROME/`, plus `~/.claude/settings.json` (which is outside the repo — not a commit, just a local config write authorized by Will)
+- No `git add -A` or `git add .`
+- No edits to other agents' files (BOND teams-spawn was authorized to write to AGENTS/BOND/ but didn't — held at handshake)
+- No persistent-agent spawns (BOND not on do-not-spawn list; teams-mode spawn validated)
+- No trades. No external messages.
+- Read-before-edit honored.
+- Behavior-language in state files (not hash references).
+- Chunked closeout updates (3 state files sequenced).

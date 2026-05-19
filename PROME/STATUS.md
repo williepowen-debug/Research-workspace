@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-05-19 (session closeout)
+**Updated:** 2026-05-19 (afternoon session — teams-mode BOND spawn + settings change)
 
 ## Core State
 
@@ -28,7 +28,7 @@
 | Artifact | Status | Purpose |
 |---|---|---|
 | `HEARTBEAT.md` | ✅ Fresh May 16; levels rechecked May 17 | Scenario, levels, catalyst/position rails |
-| `PROME/SCRATCH.md` | ✅ Fresh May 19 (closeout) | Ephemeral next-action state; entry point for next session |
+| `PROME/SCRATCH.md` | ✅ Fresh May 19 PM (teams-mode session) | Ephemeral next-action state; entry point for next session |
 | `PROME/FLEET_SCAN.md` | ⚠️ Fresh May 18 (v2 prototype); 1 day old | Live working surface — fleet situation report |
 | `PROME/CLOSEOUT.md` | ✅ Fresh May 18 | Standardized session-end procedure |
 | `PROME/BOOT.md` | ✅ Refreshed May 18 | TOSCANINI references cleaned; FLEET_SCAN + CLOSEOUT integrated |
@@ -56,7 +56,9 @@
 | **v3 brief spec folded into ORCHESTRAL_LAYER_DESIGN.md** | ✅ Complete 5/19 | 9 items consolidated under 7-section spec. See SCRATCH §4. |
 | **BROCK revival proxy (Step 4 #3)** | ✅ Complete 5/19 | First exercise of v3 brief spec. Packet + STATUS draft in `AGENTS/BROCK/inbox/`. See SCRATCH §5. |
 | **LIQUID revival packet integration** | ✅ Complete 5/19 | LIQUID booted, integrated, committed (commits b6d38b3d / 53019ce5 / 6d4d5408). End-to-end revival-proxy pattern validated. |
-| **VIOLET revival proxy (Step 4 #4 candidate)** | 🔴 Candidate | Pairs with HENRY for NVDA 5/20. See SCRATCH §Next Planned Work. |
+| **BOND teams-mode spawn experiment** | ✅ Complete 5/19 PM | First domain-agent teams-spawn. Boot handshake refined two-track frame + flagged 5/21 10Y reopening as second-leg test. Settings `teammateMode: tmux` added; restart pending. See SCRATCH. |
+| **Respawn BOND post-restart + TLT/20Y-10Y watch card** | 🔴 | Next-session entry. Validate tmux pane; then BOND scopes pre-auction watch card. |
+| **VIOLET revival proxy (Step 4 #4 candidate)** | 🔵 Deferred | Was next; pushed behind BOND watch-card. Pairs with HENRY for NVDA 5/20. |
 | **HENRY / BROCK revival packet integration** | 🔵 | Each agent's own task on next own boot. Packets untracked-by-design at respective inboxes. Prome tracks only. |
 | **Regional-bank Call Report / WAL triage** | 🔴 | REGINALD May 17: WAL 10-Q filed but not integrated; Schedule O / Table 16 cross-credit inventory test pending; MI3/FFIEC PDD status check due. (Carried forward.) |
 | **Bank decision prompt** | 🔴 | Prome-owned synthesis: KRE/WAL/OZK/ZION/SSB cleanup, hold/roll/cut rails, live tape and option pricing required. |
@@ -97,4 +99,4 @@
 
 ## Next Best Action
 
-VIOLET revival proxy (Step 4 #4) — pairs with HENRY for NVDA 5/20. Live Will-decision carries and full session context live in SCRATCH.
+Respawn BOND in teams mode (validates `teammateMode: tmux` fix), then scope TLT/20Y-10Y two-leg watch card. Full session context + entry-point details in SCRATCH.

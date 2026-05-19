@@ -1,84 +1,82 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-05-19 (intermediate closeout — design discussion appended)
+**Last Updated:** 2026-05-19 (afternoon session — teams-mode BOND spawn + restart pending)
 
 ## What Just Happened
 
-Five threads landed this session:
+Short Will-directed CC-Prome session, ~1 hour. Three threads landed:
 
-1. **Live Monday dashboard pull.** Tape essentially unchanged vs Friday close: HY OAS 280 (16-20bps from kill), VIX 17.82, 10Y 4.59 🔴, TLT $83.56 🔴, USD/JPY 158.93 🔴, Brent $109.73 🔴, WAL $76.59 🟡, APO $134.07 (zone change 🔴→🟢 sustained well past 3-session reassessment trigger), BIZD $12.52 🔴.
+1. **Live Monday dashboard pull.** First post-morning-closeout tape read. Confirms BOND's 12:10 ET signal:
+   - 10Y 4.59 🔴 (broke 4.5, BND-07 trigger Day 1)
+   - 30Y 5.12 🔴 (4-session streak >5)
+   - HY OAS 283 🟢 (23bps from 260 kill — slight widening, not break)
+   - IG OAS 75 🟢 (*tightened* 4bps despite long-end break — the load-bearing decoupling)
+   - TLT $83.10 🔴, HYG $79.43 🟢, BIZD $12.55 🔴, VIX 17.82 🟡
+   - Brent $110.84 🔴 (+$1.58 vs Friday on continued Iran/UAE bid)
+   - USD/JPY 158.83 🔴 (sustained)
+   - APO **$132.51** (down $1.56 from Friday's $134.07) — still above $130 watch but trending right for shorts
+   - WAL $76.48 (+$2 from 5/17), KRE $67.81, OZK $47.31 — banks stable/firmer at surface
 
-2. **HENRY revival proxy (Step 4 prototype #2).** Second exercise of the revival-proxy pattern. Headline diagnostic: COMPLACENCY TRAP invalidation triad approaching firing while substance accelerates the wrong way → trap clinching, not dying. Apr 17 framing ("only SPX qualifies") is 3 weeks stale. Returned 5 v3-design improvements + introduced framing-precision overlay as a new artifact type.
+2. **BOND spawned in teams mode** — first domain-agent teams-spawn experiment. Real BOND was closed (no concurrency). Spawned via Agent(name: "bond", subagent_type: "general-purpose") with full BOND authority (read/write/commit to AGENTS/BOND/). Boot handshake refined the regime read and introduced a new second-leg test:
+   - **Refined two-track frame:** "long-end is no longer just duration repricing in isolation — it's now being co-pressured by FX (JPY 158.83) and energy (Brent $110.84). A clean 20Y print under these macro conditions would be genuinely informative; a tail would be over-determined."
+   - **NEW second-leg test:** **5/21 10Y reopening (9Y8M)** the day after the 5/20 20Y. BOND's framing: "Two tails in 24h would force me to consider whether BND-07 graduates from 'thesis firming' to 'thesis fired.'" This is a thesis-level escalation gate.
+   - **Sharpened 20Y triggers:** BTC <2.50 = demand-hole; tail >2bps + dealer absorption = BND orange escalation; dealer take mid-teens with weak indirect = dealers catching what foreign buyers won't.
+   - BOND held for scope before producing artifacts (watch card deferred).
 
-3. **HENRY framing-precision note** (Will-authorized cross-agent inbox write). Codified the "trap clinching vs soft kill" concept while removing the proxy's overspecified "2 of 3 firing" literal claim (real count: 1 fired + 1 compressing + 1 flat). New artifact type now canonical: `<TARGET>_FRAMING_NOTE_<date>_prome-spawned.md`.
-
-4. **v3 brief spec folded into `PROME/ORCHESTRAL_LAYER_DESIGN.md`.** Four LIQUID v2 items + five HENRY v3 items consolidated into 7-section spec (§1 tape pass-through w/ time series + zone-change column + cheap-pull permission; §2 thesis-kill w/ directional semantics + literal-vs-trajectory discipline; §3 cross-channel w/ sister-revival citation + peer-KB authorization; §4 catalyst-prep-or-overflow-register; §5 inbox triage; §6 closeout-authorization; §7 recommendations). Plus framing-precision overlay as new artifact type. Prototype-path status updated (Steps 1, 2, 4 marked complete with prototype headlines). 3 of 4 open questions resolved.
-
-5. **BROCK revival proxy (Step 4 prototype #3) — first exercise of v3 brief spec.** Headline diagnostics: (a) APO position-trigger fired ~May 7, entrenched 13 sessions — decision overdue; (b) position-specific vs broad-thesis trigger conflation surfaced (HY OAS broad-thesis kill has NOT fired — cycle low 276, 16-20bps cushion); (c) WALTER NDFI scope-correction REQ open 5 days unread — 11× scope drift ($128B → $1.4T per FFIEC RC-C). FSK Q1 Strong Bear / near Max Bear (NAV -9.9%, non-accruals 8.1%, KKR $300M sponsor, JPM cut revolver -14%) — load-bearing data but BROCK domain memo unwritten. Returned 4 v4-design inputs.
+3. **Teams view troubleshooting + settings fix.** Will wanted to see BOND's session in a separate pane; Shift+Down didn't work. Diagnosed: tmux 3.4 installed, Claude Code running inside tmux session `prome`, but `prome` session had only 1 pane — auto-mode failed to trigger split-pane spawn (likely WSL2 TMUX env propagation gap). Edited `~/.claude/settings.json` to add `"teammateMode": "tmux"`. **Restart pending** — Will exits Claude Code and relaunches from within the `prome` tmux session; next BOND spawn should land in a clickable pane.
 
 ## Current Git State
 
-After this closeout commits, working tree clean and synced to origin in PROME-owned scope. Three sets of agent-inbox files remain untracked-by-design (LIQUID 5/18, HENRY 5/18, BROCK 5/19) — real agents commit on their next boots per agent-file-isolation rule. Don't commit them from Prome.
+Clean within PROME-owned scope, modulo this closeout's pending state-file commits. Other agents' working-tree items (BOND's STATUS/TRADE/KB/VX/monitors edits, LIQUID thesis/IDENTITY/TIMELINE edits, BROCK/HENRY inbox revival packets from yesterday) remain untracked-by-design — those agents own their commits.
+
+`~/.claude/settings.json` is OUTSIDE the repo and not version-controlled. The `teammateMode: tmux` change persists across restarts.
 
 ## Next Planned Work (entry point for next session)
 
-**Top priority candidates (Will to direct):**
+**Immediate after restart:**
 
-1. **VIOLET revival proxy** — pairs with HENRY for NVDA 5/20 read-through. VIOLET owns 20d-SKEW-slope sign-flip + R11 analog (VIX 17.76 → 52.33 in 8 trading days regime). Load-bearing for HENRY's vol-regime conviction on NVDA print. Now also exercises v3 brief spec on a vol agent.
+1. **Respawn BOND in teams mode** — same prompt structure as this session. Watch for him landing in a new tmux pane (validation of the `teammateMode: tmux` fix). If pane appears, click into it to verify navigation; if it doesn't, re-diagnose.
 
-2. **WAL Q1 10-Q integration** (REGINALD-owned, persistent — do not spawn). REGINALD STATUS flags 10-Q filed 5/11 but not integrated; Schedule O / Table 16 cross-credit inventory pending. Direct WAL Jun/Sep put sizing/exit input.
+2. **TLT/20Y watch card** — scope BOND to produce a pre-auction watch card covering BOTH legs (5/20 20Y reopening + 5/21 10Y reopening). Trigger criteria already sharpened by BOND (see above). Will deferred this scope discussion to next session.
 
-3. **MI3 / FFIEC PDD bulk-update status check** (REGINALD-owned). Window 5/14-16 passed; status check due. Pairs with #2.
+**Decision rails carrying forward (live):**
 
-4. **Inbox integration check** — has any of LIQUID / HENRY / BROCK booted and integrated their revival packets? If yes, archive the prome-spawned drafts and update STATUS to reflect freshness. If no, hold.
+- **TLT puts posture upgrade pending 5/20 result.** BOND's call: clean 20Y = hold; failed 20Y (BTC <2.50 / tail >2bps / dealer spike) = upgrade hold → 4/5 conditional add. Two-tail 24h (5/20 + 5/21) = thesis graduates firming → fired.
+- **APO put hold/roll/cut** — APO drifted $134→$132.51 today, still above $130. BROCK memo expected post-his-next-boot.
+- **FSK fresh-premium** discussion — data-ready, BROCK-blocked.
+- **SAM FXY Tranche 2** — FXY $57.81 today (below previously-forfeited $58.00-58.25 band).
+- **WAL Q1 10-Q integration** (REGINALD-owned).
+- **HEARTBEAT.md tape refresh** — today's numbers not propagated (Will-approval gate).
+- **VIOLET revival proxy** — yesterday's next-suggested-work; defer until after BOND watch card produces.
 
-5. **Will-decision items** (carried forward — all live, all needing live tape + Will approval):
-   - **APO Jun $100P / Dec $95P** hold/roll/cut — BROCK domain memo coming after BROCK revives. Per `feedback_exit_recommendations_need_mark_context.md`, need execution mark before close-now.
-   - **FSK fresh-premium** discussion — strong-bear-classified, blocked on BROCK refresh which is now data-ready.
-   - **ARES $95P Jun** — theta risk into Jun; small position.
-   - **SAM FXY Tranche 2** — FXY $57.80 below previously-forfeited band; may have re-opened.
-   - **HEARTBEAT.md tape refresh** — today's dashboard numbers not yet propagated (Will-approval gate; shared file).
-
-6. **v4 brief-spec items returned from BROCK** (defer to next ORCHESTRAL update unless next revival surfaces same issues):
-   - Position-specific vs broad-thesis trigger distinction → add to §2
-   - Outbox scan (peer outboxes for outstanding REQs ≤14d) → add to read budget
-   - Codify sponsor-bifurcation diagnostic + decoupling-within-complex flag as artifact types
-   - HENRY framing-precision overlay = de facto v3.1 (already captured)
+**v4 brief-spec items** still parked from yesterday's BROCK proxy (position-specific vs broad-thesis trigger; outbox scan; sponsor-bifurcation; decoupling-within-complex). Not urgent.
 
 ## Current Working Model
 
-- BDC/private-credit stress confirmed at vehicle/income/mark level (FSK Q1 — Strong Bear / near Max Bear).
-- Public-credit cascade still unconfirmed by spread (HY OAS 280, VIX 17.82). Cushion 16-20bps to 260 kill.
-- **Bear thesis transmission channel has migrated PLUMBING → DURATION** (LIQUID finding). 10Y broke 🔴, TLT broke 🔴, while HY OAS sits within 20bps of kill but stable.
-- **HENRY: trap clinching, not dying** — invalidation criteria approaching while substance accelerates wrong way (CPI 3.8%, PPI 6.0%, Brent +21%, FSK NAV -9.9%). Widening tape/substance divergence is the thesis being validated.
-- **BROCK: APO position-trigger fired** (entrenched 13 sessions), but broad-thesis kill has NOT fired. Decision-relevant separation now explicit.
-- WAL recovered $74→$76.59 (still below bear line); KRE $67.92 🟡; OZK rolled (Sept) per Will.
+Unchanged from morning closeout, sharpened by BOND's live read:
 
-## Parked Architectural Discussion (post-closeout, pre-/clear)
+- BDC/private-credit stress confirmed at vehicle/income/mark level (FSK Q1).
+- Public-credit cascade still unconfirmed by spread (HY OAS 283, VIX 17.82). Cushion 23bps to 260 kill.
+- **Bear thesis transmission has migrated PLUMBING → DURATION** (LIQUID 5/18 finding). BOND now puts a hard data signature on the duration leg: 10Y broke 4.5, 30Y sustained 5+ for 4 sessions, TLT broke $83. IG OAS tightened despite the long-end break — credit-duration decoupling is real.
+- **Long-end co-pressure:** BOND's refined frame adds FX + energy as parallel pressure on term premium. 20Y/10Y auction reads tomorrow + Wednesday become the cleanest discriminator we get this week.
+- **HENRY trap-clinching frame** still load-bearing — BOND's signal corroborates it (tape/substance divergence widening = thesis validating not dying).
+- WAL recovered $74→$76.48 (still below bear line); KRE $67.81 🟡; OZK rolled.
 
-Will is theory-crafting inside Teams/Agent View sessions to learn their limits before committing to architecture. Substantive design conversation happened this session — captured in `memory/2026-05-19.md` and `WILL/share/Whats goin on here in this pic.md` (Will's drop, ephemeral). Key parked items:
+## Teams-Mode Experiment Outcomes
 
-**The question:** how to reduce Will's manual relay overhead between agents without rebuilding architecture or pulling Will out of the loop. The fleet staleness problem is the operational symptom (LIQUID 32d, HENRY 31d, BROCK 17d this session).
+What we learned (parked here, may upgrade to memory):
 
-**Where Prome landed:**
-- File-based + inbox + PROVENANCE is the right substrate for cross-domain persistent-agent coordination. Teams/Agent View can't replace it (impedance mismatch — Teams instantiates fresh Claudes; your fleet has accumulated identity).
-- Teams/Agent View DO fit intra-domain sub-agent coordination (memory-audit-001 pattern; adversarial-pair audits; parallel sub-agents with interplay).
-- Mental model: **files for fleet, teams for swarm.**
-- `tmux pipe-pane` = OK as forensic tool, not as primary read channel; `tmux send-keys` = hard no (blast radius + no auditability).
-- The "messaging overhaul" Will parked 2026-04-14 is the right work to resume, with narrower scope: standardize message format (`_prome-spawned.md` + PROVENANCE), drop HERMES, add boot-time inbox-triage to each agent's `CLAUDE.md`.
-- The second-order problem ("how does sender know what receiver cares about without reading all of receiver's domain") gets solved receiver-side: each agent publishes a thin `TRIGGERS.md` declaring tracked entities + thresholds + hot questions. Senders consult a one-page spec, not the recipient's full state. Generalization of WALTER's WATCH_FOR pattern from external signals to internal findings.
-- **The staleness problem is cadence, not coordination.** Inbox finish reduces friction of relaying; it doesn't make agents self-driving. Cadence-automation (scheduled fleet-scan) was discussed and explicitly deferred — Will wants the system working with him in the loop first.
-
-**Not committed:** propagation work (TRIGGERS.md schema, CLAUDE.md updates per agent, dropping HERMES). Will is thinking before signing off.
-
-**`WILL/share/` folder:** new drop point for ad-hoc file/image shares to Prome (created this session). Will manages contents. The gitignore decision is open — files are currently untracked and Will hasn't said whether they should be local-only by default.
+- **Named-spawn does spawn an alive teammate.** SendMessage works; replies come back to lead session output.
+- **`teammateMode: "auto"` does NOT reliably trigger split-pane on WSL2** even when launched from inside a tmux session. Cause likely TMUX env var not propagating to Claude Code's child process. Fix: explicit `"teammateMode": "tmux"` in settings.json.
+- **No attach-from-separate-terminal exists.** Teammates are bound to the lead session. View via in-process (Shift+Down — didn't work for us) or split-pane (tmux required + explicit config).
+- **One-shot (non-named) agents are NOT resumable.** Tried to SendMessage to an earlier claude-code-guide subagent that had completed; got "no transcript to resume — may have been cleaned up." Foreground subagents are single-turn.
+- **Lifecycle question still open:** how long do teams-mode teammates persist when idle? Worth testing — relevant for keeping BOND alive overnight to see tomorrow's auction. Safer plan: respawn BOND each session, identity reconstitutes from files.
 
 ## Cautions for Next Session
 
 - **No trades without Will approval.** No fresh broad cascade short while HY OAS <300 and VIX <20.
-- **Don't spawn:** CARL, REGINALD, OZK, SAM, RED, BRENT, Claude Code Prome.
-- **Three sets of revival packets untracked-by-design** — LIQUID, HENRY, BROCK. Real agents own commit. If next-session Prome sees them and thinks "should I commit these?" — no.
-- **HENRY framing note is a new artifact type** — Will-authorized this instance. Cross-agent inbox writes remain forbidden by default per `feedback_cross_agent_inbox_writes.md`; only with explicit per-instance authorization.
-- **Named-spawn triggers teams mode** — for one-shot synchronous subagent work, omit the name parameter (per `feedback_named_spawn_teams_mode.md`).
-- **OZK STATUS-data desync** persists — STATUS still shows pre-roll posture for May 15 contracts. Hygiene-tier. OZK refreshes on next own boot.
-- **HEARTBEAT.md not updated with today's tape** — flagged; not edited (shared file, Will-approval gate). Numbers in this SCRATCH are from 2026-05-18 dashboard pull.
-- **APO put decision is genuinely overdue** — surfaces to Will after BROCK boots and writes the memo. Do not pre-empt.
+- **Don't spawn:** CARL, REGINALD, OZK, SAM, RED, BRENT, Claude Code Prome. BOND is OK (not on the do-not-spawn list; today's session proved he works in teams mode too).
+- **Three sets of revival packets** from 5/18-5/19 (LIQUID integrated; HENRY + BROCK still untracked) — leave them; their agents own commits.
+- **OZK STATUS-data desync** persists.
+- **HEARTBEAT.md not updated with today's tape** — flagged, not edited (shared file, Will-approval gate).
+- **APO put decision** still genuinely overdue — surfaces to Will after BROCK boots and writes the memo.
+- **Settings change applied but untested** — restart required before validation. Next-Prome should verify BOND lands in a tmux pane on respawn.
