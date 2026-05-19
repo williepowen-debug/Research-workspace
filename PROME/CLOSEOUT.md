@@ -24,13 +24,21 @@ Skip for casual one-off exchanges with no artifacts.
 2. Confirm no other agents have uncommitted work outside `PROME/` and `AGENTS/PROME/` (per root CLAUDE.md "Before pulling")
 3. Mentally list this session's artifacts: proposals decided, files written, prototypes run, decisions made
 4. Decide closeout scope:
-   - **Light:** state files only (SCRATCH + STATUS + handoff). For short sessions with one or two artifacts.
-   - **Standard:** state files + daily log + commit. Default.
-   - **Heavy:** standard + auto-memory + design-doc updates + residual cleanup. For sessions that produced new patterns or learnings.
+
+| Tier | When | Touches | Commit? |
+|---|---|---|---|
+| **Bounce** | Mid-day restart for config/tmux/clear/branch; you're coming right back within the hour | SCRATCH addendum (3-5 lines) | No |
+| **Light** | Short session paused for hours; 1-2 artifacts; audit can wait for end-of-day Standard | SCRATCH full rewrite + STATUS surgical | Optional |
+| **Standard** *(default)* | End-of-thread or end-of-day; multi-artifact session | All Chunk 1 + Chunk 2 daily log + Chunk 4 commit/push | Yes |
+| **Heavy** | Pattern-discovery session; new lessons/designs to fold | Standard + auto-memory + design-docs + Chunk 3 residuals | Yes |
+
+End-of-day always runs at least Standard so the audit trail catches up. 10 Bounces + 1 end-of-day Standard = no audit gap, just a rollup HANDOFF entry covering the day.
+
+**Bounce procedure (the truly minimal):** append 3-5 lines to `PROME/SCRATCH.md` — (a) what just happened, (b) what's pending, (c) next-session entry point. No STATUS, no HANDOFF, no daily log, no auto-memory, no commit. Total time: ~30 seconds. Use only when you trust the next session will pick up within the hour and you accept the durability risk (no git checkpoint).
 
 ---
 
-## Chunk 1 — State files (mandatory)
+## Chunk 1 — State files (Light / Standard / Heavy; Bounce skips except SCRATCH addendum)
 
 ### `PROME/SCRATCH.md` — full rewrite
 
@@ -46,9 +54,9 @@ Skip for casual one-off exchanges with no artifacts.
 - Update `Active Decision Layer` table (✅ / ⚠️ / ❌)
 - Update `Next Best Action` — one concrete move
 
-### `PROME/CLAUDE_CODE_HANDOFF.md` — append session entry
+### `PROME/CLAUDE_CODE_HANDOFF.md` — append session entry (Standard / Heavy only)
 
-CC-Prome audit-trail role. NOT the place for session narrative (that's SCRATCH).
+CC-Prome audit-trail role. Light skips — audit rolls up at end-of-day Standard. NOT the place for session narrative (that's SCRATCH).
 - **What landed** — one-line referents per artifact; point at SCRATCH/memory for headlines
 - **Files edited** — compact list (PROME scope + any agent-inbox writes with PROVENANCE note)
 - **Decisions Will made this session** (retrospective audit; helps future-Prome avoid re-asking)
@@ -67,7 +75,7 @@ CC-Prome audit-trail role. NOT the place for session narrative (that's SCRATCH).
 
 ---
 
-## Chunk 2 — Memory (selective)
+## Chunk 2 — Memory (Standard / Heavy; Light + Bounce skip)
 
 ### `memory/YYYY-MM-DD.md` — daily session log
 
@@ -108,7 +116,7 @@ If none triggered, skip.
 
 ---
 
-## Chunk 4 — Git + report
+## Chunk 4 — Git + report (Standard / Heavy; Light optional; Bounce skips)
 
 ### Git sequence
 
