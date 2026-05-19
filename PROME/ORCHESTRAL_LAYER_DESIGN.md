@@ -1,7 +1,8 @@
 # ORCHESTRAL LAYER DESIGN
 
 **Date drafted:** 2026-05-18
-**Status:** design captured; prototype not yet started
+**Last updated:** 2026-05-19 (v3 brief-spec folded in after LIQUID + HENRY proxy prototypes)
+**Status:** design + Step 1 (fleet-scan) + Step 4 (revival-proxy) prototyped; iterating on revival-proxy v3 brief spec
 **Drafted in:** Prome theory-crafting session with Will, post-memory-audit-001
 
 ---
@@ -131,13 +132,15 @@ Distilled from the retired `PROME/TOSCANINI/HUNTING.md` (now in `PROME/archive/T
 
 ## Prototype path (5 steps)
 
-1. **Step 1 (next session, ~10 min):** Spawn `fleet-scanner` subagent (general-purpose, foreground). It produces `PROME/FLEET_SCAN.md` v1 against the template above. Will reads it. Will tells Prome what's useful vs noise, what's missing, what compression's too aggressive.
+1. **Step 1 ✅ Prototyped 2026-05-18 (v1 + v2):** Spawned fleet-scanner subagent (general-purpose, foreground). v1 produced `PROME/FLEET_SCAN.md`; Will feedback drove v2 with six improvements (two-column staleness — header age vs self-commit age; dormant pre-filter; merged open-loops section; explicit HUNTING-math; math discipline; as-of price labels). v2 is the live working surface.
 
-2. **Step 2 (iterate, ~2-3 cycles):** Refine the template based on Will's feedback. Keep iterating until the output is genuinely useful at first read.
+2. **Step 2 ✅ In progress:** Template iteration ongoing. v2 production-ready; v3 fleet-scan items deferred (directional semantics of kill levels; 5-7-point time series in pass-through; sweep-file internal triage; closeout-authorization of prior open questions) — **now codified into the Revival-proxy v3 brief spec below, since they apply identically to revival proxies and Section 6 ranking inputs.**
 
-3. **Step 3:** Layer adversarial-pair team on the top-N section. Scanner produces unranked candidates; pair refines to forced-rank top 3 with reasoning. (Same pattern as memory-audit-001.)
+3. **Step 3:** Layer adversarial-pair team on the top-N section. Scanner produces unranked candidates; pair refines to forced-rank top 3 with reasoning. (Same pattern as memory-audit-001.) **Not yet prototyped.**
 
-4. **Step 4:** If revival of stale agents is in top-N, prototype revival proxies. One stale agent at a time; verify the proxy's output is integrated cleanly by the real persistent agent on its next boot. (Identity-attribution risk — see open questions.)
+4. **Step 4 ✅ Prototyped 2× (2026-05-18):**
+   - **LIQUID** (plumbing/funding agent) — first prototype. Validated pattern. Headline diagnostic: bear thesis migrated PLUMBING → DURATION (10Y +30bps over 32d, TLT broke 🔴) not CREDIT (HY OAS only -5bps). Returned 4 v2 improvements (now in v3 brief spec).
+   - **HENRY** (market-structure agent) — second prototype, tests generalization from plumbing → market-structure. Validated pattern transfer. Headline diagnostic: COMPLACENCY TRAP invalidation triad approaching firing while substance accelerates the wrong way → trap clinching, not dying. Returned 5 additional v3 improvements (now in v3 brief spec). Also introduced **framing-precision overlay** as a new artifact type — see v3 spec.
 
 5. **Step 5:** Once Will finds the manual flow valuable, decide on cadence:
    - On-request (current plan)
@@ -159,12 +162,62 @@ Subagent brief should specify:
 - Read budget: first 30 lines per STATUS; last 5 commits per agent dir; inbox file counts; HEARTBEAT catalyst calendar; TOSCANINI QUEUE
 - Return to Prome: ~10-line summary only (full output to file)
 
+## Revival-proxy v3 brief spec
+
+Distilled from LIQUID (2026-05-18) and HENRY (2026-05-18) prototypes. The brief sent to a revival-proxy subagent should include all of the following. Items marked **[L]** came from LIQUID v2; **[H]** from HENRY v3.
+
+### Tape pass-through (§1 of the packet)
+
+- **[L]** Include a **5-7-point time series** for any metric where trajectory matters (HY OAS, 10Y, Brent, VIX, USD/JPY, KRE, WAL, APO). Single-point deltas hide direction-of-travel; the dangerous read is "compressing toward kill for 30 days" vs "noise around a stable mean."
+- **[L]** Include a **zone-change column** in the tape-diff table (e.g., 🟢→🟡 or 🟠→🔴). Threshold crossings are operationally distinct from in-zone drift.
+- **[H]** **"Cheap domain-relevant data pull" is explicit permission, not conditional.** If the proxy can pull a missing tape datum via yfinance/FRED in <60s and it's load-bearing for the verdict, do it. The Apr-17-vs-current-dashboard tier-mismatch problem (HENRY case: SPX/SKEW/VIX3M not in current dashboard) is solved cheaply.
+
+### Thesis-kill proximity verdict (§2)
+
+- **[L]** State **directional semantics explicitly**: which direction = thesis healing vs thesis approaching death. "OAS rising = healing, OAS compressing toward 260 = approaching death" is one sentence that prevents an entire class of misreads downstream.
+- **[L]** Distinguish **literal trigger state** from **trajectory toward trigger**. Don't count "compressing toward" as "fired." See HENRY framing-precision note (2026-05-19) for what overspecification looks like.
+
+### Cross-channel cohere/contradict (§3)
+
+- **[H]** **Flag in-flight sister revivals** in the brief so the proxy cites rather than re-derives. HENRY's §3 (PLUMBING → DURATION migration) was load-bearing and came directly from the LIQUID packet shipped the same day; without the brief mentioning LIQUID, HENRY proxy would have re-derived it from raw data and wasted budget.
+- **[H]** **Authorize peer-owned sub-domain KB reads.** When the revival target's thesis depends on a peer agent's domain (HENRY→VIOLET on vol; LIQUID→BRENT on energy-CPI loop), proxy reads peer KB entries that are load-bearing. Brief should permit this explicitly, not leave it as a guess.
+
+### Domain catalyst prep (§4)
+
+- **[H]** §4 is **"domain catalyst prep if 0-7d catalyst exists, else overflow register."** Originally LIQUID's §4 was a deferred-items register; HENRY's §4 was NVDA 5/20 prep. Generalize: if the target agent owns a live 0-7d catalyst, §4 is prep for it; otherwise §4 is the overflow register.
+
+### Inbox triage (§5)
+
+- **[L]** For all unprocessed inbox items at revival target, mark each as **STILL LIVE** (integrate), **SUPERSEDED** (newer data overrides), or **STALE** (event resolved, archive without integrating). Don't let unprocessed backlog land on the real agent as undifferentiated.
+- **[H]** Read instruction is "**top N then stop and judge**," not "top N by relevance." Better to stop one-short and judge whether more reading would change the verdict than to pull a fixed N and find the last one was noise.
+
+### Open questions / closeout authorization (§6)
+
+- **[L]** For each prior unresolved open question, **authorize closeout or hold**: if data has since resolved them, recommend closeout; if still open, recommend hold. This gives the real agent mechanical first-20-minutes-of-revival work.
+
+### Recommendations (§7)
+
+- Concrete actions in priority order with effort estimates. Treat as Prome-sourced suggestions, not commitments — real agent owns final order.
+
+### Artifact discipline (across all sections)
+
+- **File naming:** `<TARGET>_REVIVAL_PACKET_<date>_prome-spawned.md` + `<TARGET>_STATUS_DRAFT_<date>_prome-spawned.md`. Suffix is load-bearing.
+- **PROVENANCE header** on every file: "drafted by Prome-spawned proxy on <date>, not by <TARGET> itself. Treat as input, not as agent self-state. <TARGET> owns integration on next boot."
+- **Untracked-by-design.** Prome does not commit the files; real agent commits them on next boot per agent-file-isolation rule.
+
+### Framing-precision overlay (new artifact type, HENRY 2026-05-19)
+
+When Will + Prome review a proxy packet and find the framing useful conceptually but overspecified on a literal claim, write a third artifact: `<TARGET>_FRAMING_NOTE_<date>_prome-spawned.md` in the same inbox. The note keeps the conceptual win, removes the overspecified count/claim, and tells the real agent how to integrate both packet and note coherently. Cross-agent inbox write requires explicit per-instance Will authorization (per existing memory).
+
+---
+
 ## Open questions / decisions deferred
 
-- **TOSCANINI revival:** The proposal queue at `PROME/TOSCANINI/QUEUE.md` is stale since Mar 26. The orchestral layer's "Open Proposals Awaiting Will" section overlaps with TOSCANINI's purpose. Should TOSCANINI be rebuilt as part of fleet scan output, or kept separate?
-- **Telegram-Prome vs CC-Prome split:** Fleet scan is naturally a CC-Prome task (subagent spawning, file writes). Will-facing synthesis is naturally Telegram-Prome. The handoff between the two surfaces during a fleet-scan flow needs to be smooth — TBD how.
-- **Revival proxy attribution:** When a proxy writes to BROCK's inbox as "Prome-sourced revival packet," is that work attributed to Prome or to BROCK in the audit trail? Worth deciding before pattern goes live to avoid identity smearing.
-- **Scanner read budget:** First 30 lines per STATUS is a guess; some STATUS files put the current-state header further down. Will iterate the budget based on Step 1 output quality.
+- ✅ **TOSCANINI revival — resolved 2026-05-18.** TOSCANINI retired; FLEET_SCAN.md replaced QUEUE.md as the open-loops surface; AUTONOMY.md + COMPLETION_SPEC.md salvaged to `PROME/`; HUNTING dimensions distilled into the Section 6 ranking rubric above; remaining files in `PROME/archive/TOSCANINI_2026-03/`.
+- ✅ **Revival proxy attribution — resolved by convention 2026-05-18.** Files use `_prome-spawned.md` suffix + PROVENANCE header; real agent owns commit on next boot. Validated on LIQUID + HENRY without identity smearing.
+- ✅ **Scanner read budget — resolved 2026-05-18.** First-30-lines proved insufficient for STATUS files with current-state headers further down; v2 budget includes inbox file counts + HEARTBEAT (full) + POSITIONS head + SCRATCH. v2 production-ready.
+- **Telegram-Prome vs CC-Prome split:** Fleet scan is naturally a CC-Prome task (subagent spawning, file writes). Will-facing synthesis is naturally Telegram-Prome. The handoff between the two surfaces during a fleet-scan flow needs to be smooth — TBD how. Open.
+- **Adversarial-pair on Section 6 top-N (Step 3):** Not yet prototyped. Open.
 
 ## Related artifacts
 
