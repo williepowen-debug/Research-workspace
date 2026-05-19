@@ -1,5 +1,7 @@
 # LIQUID — Credit Spread Threshold Analysis
-**Date:** 2026-02-28 | **Status:** YELLOW → approaching ORANGE
+**Date:** 2026-02-28 | **Status:** HISTORICAL — projected path did not play out
+
+> **⚠️ HISTORICAL DOC, read with care.** This analysis (Feb 28) projected HY OAS creep toward 320bps with ETA Mar 12-14, 2026. **That path was overtaken by squeeze resolution** — by Apr 16 HY OAS was 285 (below the implied creep trajectory), by 5/17 it touched 276 (cycle-tight, 16bps above the 260 KILL level we identified later, not the 320 confirmation). The 320 framework is still the confirmation threshold per HEARTBEAT, but the *velocity* and *creep* findings below are out of date. The Dual-Trigger Framework (level + velocity) is the durable contribution. **For current state read `STATUS.md` and `workbook/KILL_MEMO_HY_OAS_260.md`.**
 
 ## Key Findings
 
