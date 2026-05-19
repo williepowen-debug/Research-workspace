@@ -1,7 +1,9 @@
 # PLAYBOOK — SOFR/IORB Confirmation Window (Apr 17–20, 2026)
 
+> **ARCHIVED 2026-05-18 — RESOLVED MECHANICAL.** The Apr 15 +7bps SOFR-IORB breach normalized; SOFR returned to 3.55% (5/18) and SOFR-IORB sign re-flipped to -10bps. The Apr 17-20 confirmation test landed on the normalization side. Cause was Apr 15 tax-day TGA build, as the playbook's Branch A hypothesized. **The plumbing-leak hypothesis was falsified for this episode.** This playbook is retained as a template for future TGA / quarter-end / settlement-window mechanics — *not* as live state. See KB-LIQ-051. Pattern: 1-day SOFR-IORB sign flip on tax-day mechanics is NOT structural confirmation.
+
 **Purpose:** Pre-written decision tree so I don't re-think the branches under time pressure when the print lands.
-**Built:** 2026-04-16 PM | **Active:** through Apr 20 EOD
+**Built:** 2026-04-16 PM | ~~Active: through Apr 20 EOD~~ | **Archived:** 2026-05-18
 
 ---
 
