@@ -1,5 +1,5 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-05-19 (closeout)
+**Last Updated:** 2026-05-19 (intermediate closeout — design discussion appended)
 
 ## What Just Happened
 
@@ -52,6 +52,25 @@ After this closeout commits, working tree clean and synced to origin in PROME-ow
 - **HENRY: trap clinching, not dying** — invalidation criteria approaching while substance accelerates wrong way (CPI 3.8%, PPI 6.0%, Brent +21%, FSK NAV -9.9%). Widening tape/substance divergence is the thesis being validated.
 - **BROCK: APO position-trigger fired** (entrenched 13 sessions), but broad-thesis kill has NOT fired. Decision-relevant separation now explicit.
 - WAL recovered $74→$76.59 (still below bear line); KRE $67.92 🟡; OZK rolled (Sept) per Will.
+
+## Parked Architectural Discussion (post-closeout, pre-/clear)
+
+Will is theory-crafting inside Teams/Agent View sessions to learn their limits before committing to architecture. Substantive design conversation happened this session — captured in `memory/2026-05-19.md` and `WILL/share/Whats goin on here in this pic.md` (Will's drop, ephemeral). Key parked items:
+
+**The question:** how to reduce Will's manual relay overhead between agents without rebuilding architecture or pulling Will out of the loop. The fleet staleness problem is the operational symptom (LIQUID 32d, HENRY 31d, BROCK 17d this session).
+
+**Where Prome landed:**
+- File-based + inbox + PROVENANCE is the right substrate for cross-domain persistent-agent coordination. Teams/Agent View can't replace it (impedance mismatch — Teams instantiates fresh Claudes; your fleet has accumulated identity).
+- Teams/Agent View DO fit intra-domain sub-agent coordination (memory-audit-001 pattern; adversarial-pair audits; parallel sub-agents with interplay).
+- Mental model: **files for fleet, teams for swarm.**
+- `tmux pipe-pane` = OK as forensic tool, not as primary read channel; `tmux send-keys` = hard no (blast radius + no auditability).
+- The "messaging overhaul" Will parked 2026-04-14 is the right work to resume, with narrower scope: standardize message format (`_prome-spawned.md` + PROVENANCE), drop HERMES, add boot-time inbox-triage to each agent's `CLAUDE.md`.
+- The second-order problem ("how does sender know what receiver cares about without reading all of receiver's domain") gets solved receiver-side: each agent publishes a thin `TRIGGERS.md` declaring tracked entities + thresholds + hot questions. Senders consult a one-page spec, not the recipient's full state. Generalization of WALTER's WATCH_FOR pattern from external signals to internal findings.
+- **The staleness problem is cadence, not coordination.** Inbox finish reduces friction of relaying; it doesn't make agents self-driving. Cadence-automation (scheduled fleet-scan) was discussed and explicitly deferred — Will wants the system working with him in the loop first.
+
+**Not committed:** propagation work (TRIGGERS.md schema, CLAUDE.md updates per agent, dropping HERMES). Will is thinking before signing off.
+
+**`WILL/share/` folder:** new drop point for ad-hoc file/image shares to Prome (created this session). Will manages contents. The gitignore decision is open — files are currently untracked and Will hasn't said whether they should be local-only by default.
 
 ## Cautions for Next Session
 
