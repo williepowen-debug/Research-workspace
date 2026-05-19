@@ -368,5 +368,10 @@
     "first_seen": "2026-05-19T12:33:16.942906+00:00",
     "title": "8-K - RMX INDUSTRIES, INC. (0001970743) (Filer)",
     "feed": "SEC EDGAR Filings"
+  },
+  "44acfe318777fa82": {
+    "first_seen": "2026-05-19T22:55:34.328633+00:00",
+    "title": "Data center server energy use grows across the commercial building stock",
+    "feed": "EIA Today in Energy"
   }
 }
