@@ -2,35 +2,71 @@
 
 ## Session Notes
 
-### CURRENT SESSION (2026-05-19)
+### CURRENT SESSION (2026-05-19 — afternoon hygiene + thesis v2 sweep)
+
+**Context:** Multi-pass session. Will directed: "get LIQUID working properly as an agent — much is still stale." Sequenced staleness inventory → THESIS rewrite → architectural hygiene.
+
+**Delivered:**
+
+1. **Boot + live re-verify** — tape pulled mid-session (13:23 UTC). Yields extending: **30Y 5.168% fresh life-of-cycle high** (vs 5.046 May 5; first since 2007), 10Y 4.647 (+24bps day), 5Y 4.301 (+21bps day). Whole curve at 1mo highs, roughly parallel bear. Added intra-day flag to STATUS.md "May 19 Live Re-Verification" section.
+
+2. **THESIS v2.0 written** (`thesis/THESIS.md`, 162 lines, full rewrite from v1.0 Apr 8). Approved framing (ii): **narrower active scope** with explicit transmission interfaces. 9 sections covering core frame, what LIQUID actively owns vs receives, three structural failure legs (A Fed rate-control / B FOI demand hole / C basis-trade leverage), transmission channel map, bilateral 320/260 credit framework, stagflation trap, kill conditions, cross-agent interfaces (BOND placeholder), epistemic notes.
+
+3. **CHANGELOG v2.0 entry** (`thesis/CHANGELOG.md`) — documents what changed (narrower scope, channel migration framing, bilateral credit, gamma-suppression caveat, BOND interface, channel-kill vs full-thesis-kill distinction), what stayed (core frame, three legs, stagflation trap, LIQ-01), and drivers (32-day gap, 30Y >5%, missed APO co-trigger, BOND scaffold, Stage 3 recognition).
+
+4. **TIMELINE.md slimmed** to forward-only Active Branch Points (13 decision windows May 19 → Jun 18). Dropped Resolved Events half (lives in STATUS Durable Signals Log). Each window has bull/bear resolution + which channel(s) affected.
+
+5. **IDENTITY.md reconciled** with v2 — fixed "BOTH buffers" → "all three", reframed duration as BOND-domain transmission (not LIQUID-owned), refreshed numbers to 5/19 live, added APO co-trigger and Leg A dormant items, added pointer to THESIS v2.0.
+
+6. **Architectural hygiene — major directory cleanup:**
+   - **`red/`** (4 files Apr 8) → `archive/red_legacy_20260408/` + README. Reason: RED is now top-level peer agent at `AGENTS/RED/`.
+   - **`research/`** Category A foundational deep research (8 files + RESEARCH_RESULTS/, Jan 25, ~3,500 lines including $1.85T basis-trade research, $300B/yr demand hole, China/Belgium stealth exit) → `domain/sources/research_foundations_20260125/` + README. These are the empirical bedrock under v2's three legs.
+   - **`research/`** Category B tactical resolved (`KRE_HYG_ROLL_ANALYSIS.md`, `QUARTER_END_PLAYBOOK_MAR31.md`) → `archive/research_tactical_resolved/` + README. Both resolved; methodology preserved as template.
+   - **`recon/`** + `RECON_REPORT.md` + `RECON_DRY_RUN.md` (War Day 14 Mar 15 artifacts) → `archive/recon_legacy_20260315/` + README. All findings already in KB.tsv (KB-LIQ-006 through 011).
+   - **`DECK_EVIDENCE.md`** (Mar 13 investor-pitch evidence) → trashed via gio. Fully superseded by v2 + KB.tsv.
+   - **`research/` directory removed** (empty after moves).
+
+7. **BOND interface acknowledged.** Will confirmed BOND is scaffolded but not built out. v2 names the interface (duration / yield curve / term-premium / dealer positioning will migrate to BOND-primary when stood up) but LIQUID retains all current scope; no actual handoff this session. **Read BOND/CLAUDE.md** — formal scope claims overlap LIQUID significantly (HY OAS, IG OAS, CDX, auctions, yield curve). Defer reconciliation until BOND is active.
+
+**Major findings this session:**
+
+- **Duration channel intensified intra-session.** 30Y 5.168 fresh life-high TODAY confirms the channel-migration thesis in v2 in real time.
+- **THESIS v1.0 had drift risk.** Old doc framed HY OAS 320 as "orange systemic stress" — but current STATUS treats 320 as confirmation and 260 as kill. A future session reading v1.0 would have acted on wrong levels. Now reconciled in v2.
+- **`research/` had ~3,500 lines of orphaned foundational work.** Not referenced anywhere on the active surface but contains the empirical basis for v2's $1.85T basis-trade, $300B/yr FOI demand hole, and auction thresholds. Preserved into `domain/sources/` rather than lost.
+
+**Top-level LIQUID surface now (post-cleanup):**
+```
+CALENDAR.md  CLAUDE.md  CREDIT_THRESHOLDS.md  IDENTITY.md
+MEMORY.md    STATUS.md  STRATEGY.md           USER.md
++ archive/  domain/  inbox/  outbox/  thesis/  workbook/
+```
+8 active files + 6 directories, all referenced in CLAUDE.md. Down from 13 top-level files + 7 directories before sweep.
+
+**Still open / carrying forward:**
+
+- **POSITIONS read still gating.** APO co-trigger has now been live ~8 sessions (5/12 → 5/19). HYG $75P Jun x10 cut/hold decision still deferred. Will explicitly directed not to cut anything this session — focus was agent hygiene.
+- **Cross-agent outboxes NOT written.** Still pending if escalation warranted: BROCK (APO Day 7+), HENRY (10Y / 30Y duration acute).
+- **`workbook/` cleanup not started.** Mar/Apr resolved-episode files + domain frameworks + Tier 2 tsv files (FLOW/PREDICTIONS/VX/ML/VX_HISTORY) still need triage. Deferred to next session.
+
+### NEXT SESSION
+
+1. **Boot from clean top-level surface.** v2 thesis, refreshed IDENTITY, slimmed TIMELINE, new CHANGELOG entry. STATUS has morning re-verify + intra-day flag.
+2. **Re-verify tape morning of next session.** APO 5/19 close (Day 8 watch), HY OAS print, 30Y/10Y direction (did 5.168 hold or extend? did 4.647 hold or extend?).
+3. **Workbook cleanup pass.** Triage `workbook/` Mar/Apr resolved-episode files (DIFC, Hamilton NOPI, Iran war scenarios, Gulf/Brent/Ras Laffan/Kuwait/VIX coiled spring/Stagflation Mar 11), domain frameworks (TIC, AUCTION, TREASURY_BUYBACK, CUSTODIAL_VELOCITY), and Tier 2 tsv files (FLOW, PREDICTIONS, VX, ML, VX_HISTORY). Decide retire vs maintain in light of KB.tsv being the durable findings track.
+4. **POSITIONS read still gating.** Resolve when Will is ready to discuss positions.
+5. **Cross-agent outboxes if warranted** — BROCK on APO Day 8+, HENRY on 30Y/10Y duration acute.
+6. **BDC Q1 baseline** into `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` (OBDC/ARCC/BXSL/MAIN).
+7. This week's calendar: 20Y auction Wed (VERIFY), initial claims Thu.
+
+### PRIOR SESSION (2026-05-19 morning)
 
 **Context:** Live tape re-verification of Prome's 5/18 pass-through. Pulled dashboard via `FORGE/tools/market-data/dashboard.py` and APO 10-day history via yfinance.
 
 **Delivered:**
 1. STATUS.md live re-verification — added "May 19 Live Re-Verification" section with full dashboard table; restamped 5/19. Header status flipped to 🟠.
 2. **APO co-trigger discovered as MISSED.** APO closed >$130 starting 5/8 ($133.20), sustained through 5/18 ($134.07, peak $135.52 on 5/14). HEARTBEAT line 80 reassessment trigger fired on 5/12 (Day 3) and has been live for ~6 sessions of LIQUID inattention. Coincides with HY OAS compression run (282 → 276 cycle-tight). Per KILL_MEMO co-trigger language, this is the Trigger C precondition (APO + HY OAS compression concurrent).
-3. Updated thresholds table with APO co-trigger row + USD/JPY row; updated cross-domain signals (APO Day 7 → BROCK, 10Y acute → HENRY); trimmed stale Apr-16 Danger Windows/Watch into single forward-looking 5/19 table.
-4. 10Y observation refined: not just chronic +30bps, but **acute +12bps on 5/18 alone** — duration channel actively repricing.
-
-**Re-verification confirmed Prome pass-through accurate**, but the live pull surfaced two things the proxy didn't have:
-- APO trigger status (proxy noted >$130 in 5/14 signal item #2 only as cited macro, didn't compute the day count)
-- 10Y intraday delta (+12bps on 5/18) buried in the chronic +30bps frame
-
-**Still open / blocked on Will:**
-- **POSITIONS read still gating.** Now urgent — kill-memo Trigger C precondition has held for ~6 sessions. Need to answer whether HYG put gets cut now or waits for HY OAS confirmation.
-- **Thesis framing question sharpened:** cushion isn't 16-20bps with no triggers, it's 16-20bps + APO co-trigger fired + HY OAS in compression. "Life support" reading has more weight.
-- BDC Q1 cycle: FSK NAV -9.9% in; OBDC/ARCC/BXSL/MAIN pending.
-- Outboxes NOT written this turn (per Will direction). If escalation warranted: BROCK on APO Day 7, HENRY on 10Y acute.
-
-### NEXT SESSION
-
-1. **Read POSITIONS** (`FORGE/POSITIONS`, `FORGE/STATUS.md`). Resolve the cushion-framing question. APO co-trigger has been live ~6+ sessions — this is overdue.
-2. **Re-verify tape morning of next session** — APO 5/19 close (Day 8 watch), HY OAS print, 10Y direction.
-3. Decide on cross-agent outboxes — BROCK (APO Day 7+), HENRY (10Y acute). Don't write these without first reading POSITIONS context.
-4. Pull BDC Q1 baseline into `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` (OBDC/ARCC/BXSL/MAIN).
-5. This week's calendar: 20Y auction Wed (VERIFY), initial claims Thu, daily SOFR/HY OAS, APO sustain count.
-6. If HY OAS approaches 270, execute KILL_MEMO pre-trigger drill.
-7. Monitor gamma-suppression-hypothesis unwind.
+3. Updated thresholds table with APO co-trigger row + USD/JPY row; updated cross-domain signals; trimmed stale Apr-16 Danger Windows/Watch into single forward-looking 5/19 table.
+4. 10Y observation refined: not just chronic +30bps, but acute +12bps on 5/18 alone.
 
 ### PRIOR SESSION (2026-05-18 PM) — Revival
 - 32-day revival. Integrated Prome's revival-proxy packet.

@@ -42,6 +42,8 @@ See `inbox/processed/LIQUID_REVIVAL_PACKET_2026-05-18_prome-spawned.md` §2 for 
 
 **Dashboard summary:** 🔴 CRITICAL (score 10) — 6🔴 / 7🟡 / 7🟢.
 
+> **Intra-day update (2026-05-19 13:23 UTC / 09:23 ET):** Yields extending higher across the curve. **30Y 5.168% — FRESH LIFE-OF-CYCLE HIGH** (vs 5.046 May 5 print, first since 2007; today's print is +12bps above that and still climbing). 10Y 4.647 (+24bps day, +40bps month). 5Y 4.301 (+21bps day). Whole curve at 1mo highs; roughly parallel bear move. Confirms "more days like 5/18 +12bps possible" risk flagged in morning re-verify. **Duration channel intensifying intra-session.** Updated in THESIS v2.0 §3 Leg B and §4 transmission map.
+
 **Two reads that changed since revival pass-through:**
 1. **APO trigger was already fired (Day 7), not pending.** This is the key finding from live re-verification. The reassessment HEARTBEAT-grade trigger has been live for ~6 sessions without LIQUID acknowledging it. POSITIONS read is gating action.
 2. **10Y +12bps in a single session (5/18)** = acute, not chronic. Duration channel is repricing in real time, not just grinding wider.

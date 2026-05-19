@@ -1,38 +1,48 @@
-# LIQUID — Timeline & Branch Points
+# LIQUID — Active Branch Points (Forward Decision Windows)
 
-**Last Updated:** 2026-04-08
+**Last Updated:** 2026-05-19
+
+> **Purpose:** Forward-looking bull-vs-bear resolution tree at the decision windows that matter for the LIQUID thesis. Resolved events live in `STATUS.md` (Durable Signals Log). When a window resolves here, retire the row and append the resolution to STATUS's log.
 
 ---
 
-## Resolved Events
+## Active Branch Points (May 19 → Jun 18)
 
-| Date | Event | Outcome | Impact |
-|------|-------|---------|--------|
-| 2025-12-31 | SRF ceiling breach | SOFR +12bps above SRF rate | CONFIRMED: SRF is porous ceiling |
-| 2026-02-18 | SRF $30.5B usage | 3rd highest since 2020, afternoon spike abnormal | Fed responded with $8B stealth QE (RMPs) |
-| 2026-02-28 | Iran war begins | Phase 1 oil spike, war premium embeds | Structural shift in energy/credit |
-| 2026-03-03 | BCRED 7.9% redemption requests | BX raised cap 5%→7% to avoid hard gate | PC→public market transmission ACTIVE |
-| 2026-03-12 | Citi DIFC evacuation | Gulf operational disruption | DIFC flows triggered (now de-escalating) |
-| 2026-03-13 | HY OAS hits 328bps | LIQ-01 TRIGGERED | Credit stress confirmed, later pulled back |
-| 2026-03-19 | SPX breaks 200-DMA | Technical breakdown | VIX coiled spring thesis |
-| 2026-03-26 | Janus bond sale scrapped | JPM absorbed $2.6B as junk loan | Dealer inventory stress |
-| 2026-03-26 | MS $85B BD→bank transfer | Fed approved 4-3 | Pre-positioning, balance sheet consumption |
-| 2026-03-31 | Q-end SOFR spike | 3.68% (+5bps), normalized by Apr 7 | Orderly — SRF absorbed, no structural leak |
-| 2026-04-01 | HY OAS 328bps retest | LIQ-01 re-triggered, then pulled back | Volatile in 305-328 range |
-| 2026-04-01 | BIZD -5.4% | Institutional PC exit | Stage 3→4 transition signal |
-| 2026-04-07 | Brent crashes to $96 | -12% from $109 | Ceasefire pricing, war premium compressing |
-| 2026-04-08 | Stagflation trap double confirmed | Brent -12%, 10Y -1bp | Bonds refuse to rally on oil relief |
+| Window | Question | Bull Resolution (thesis weakens) | Bear Resolution (thesis confirms) | Channels affected |
+|---|---|---|---|---|
+| **Daily (rolling)** | Does HY OAS 276–282 compression run hold or break? | Sustained <265 with CCC compressing alongside = genuine credit-channel resolution (kill-memo Trigger A→C ladder) | Gap wider through 300 on substance print (gamma unwind) = credit channel re-engaging | Credit |
+| **Daily (rolling)** | APO co-trigger: does it sustain Day 8+ or break back below $130? | Sustained >$130 + HY OAS compression = Trigger C precondition holds; credit-channel kill more likely | Break back <$130 + 2nd PC gate = thesis-direction reversal, public PC sentiment re-engaging | Credit / PC |
+| **5/21 (VERIFY)** | 20Y Treasury auction | BTC >2.5x, indirect >60%, tail <1bp = FOI bid sustaining | BTC <2.0x OR indirect <55% OR tail >3bps = Leg B confirmation, escalate ALL | Duration (Leg B) |
+| **5/22 (VERIFY)** | Initial jobless claims | <230k = labor still intact | >250k = labor weakening / CARL signal; >300k = recession-signal escalation | Macro / CARL-interface |
+| **May 19–30** | BDC Q1 continuation (OBDC, ARCC, BXSL, MAIN to report after FSK -9.9%) | NAV stable or up = Stage 3 mark-catch-down hypothesis weakens | NAV down -5% to -10% range = Stage 3→4 transmission confirming | Credit / PC |
+| **5/30 (VERIFY)** | April PCE | Core PCE decelerating despite oil → Fed cuts back on table | Core PCE sticky with Brent $110 embed = stagflation trap reinforced, Fed trapped | Stagflation trap / duration |
+| **June 18 (VERIFY)** | June FOMC | Dovish dots, liquidity-facility language = Leg A kill candidate | Hawkish dots, Warsh transition signal, no facility expansion = Leg A persists | Leg A / all |
+| **June TIC (mid-Jun, VERIFY)** | April flows release | Japan net positive AND China (Belgium proxy) flat/positive = Leg B closing | Japan net negative OR Belgium proxy declining = Leg B confirmation | Duration (Leg B) |
+| **Q2 / Jun (window)** | BCRED Q2 redemption window | Redemptions ≤7% cap, no hard gate = Stage 3 manageable | Hard gate triggers OR redemptions >7% = Stage 3→4 inflection | Credit / PC |
+| **May → Jun (rolling)** | 30Y >5% durability | 30Y back below 4.90 sustained = duration channel unwinding | 30Y holds >5% for ≥5 sessions = duration regime durable, Leg B priced in | Duration (Leg B) |
+| **May → Jun** | USD/JPY toward 160 | BOJ intervention or yen reversal back below 158 = Japan repat deferred | Break 160 + Japan trade balance confirms repat = SAM channel firing into LIQUID | Japan repat |
+| **May → Jun (rolling)** | Powell → Warsh transition | Orderly, dovish continuity language | Hawkish shift, intervention-willingness collapse risk | Leg A / all |
+| **May → Jun (rolling)** | Brent reflation sustainability | Brent <$95 with ceasefire = stagflation trap leg de-escalates | Brent sustained >$108 + Hormuz status quo = stagflation trap re-engaging | Stagflation / duration |
 
-## Active Branch Points
+---
 
-| Window | Question | Bull Resolution | Bear Resolution |
-|--------|----------|----------------|-----------------|
-| Apr 10-15 | CPI with lower oil embed? | Inflation eases, Fed cut hopes | Sticky inflation despite oil drop |
-| Apr 16+ | Bank earnings | Clean NIM, loan loss provisions manageable | CRE writedowns, NIM compression, HY OAS >320 |
-| Apr 20-25 | Japan March trade balance | Deficit smaller than feared (Brent drop) | Deficit confirms repatriation pressure |
-| May | Powell→Warsh transition | Orderly, dovish continuity | Policy uncertainty, hawkish shift |
-| May-Jun | BCRED Q2 test | Redemptions manageable, no hard gate | Hard gate triggers cascade |
+## How to use this table
 
-## Forward View
+- **Each row carries an independent bull / bear binary.** Most resolve over days–weeks; some are rolling watches.
+- **A row resolves** when the named condition is met. Move the resolution to `STATUS.md` Durable Signals Log; retire the row here.
+- **A row escalates** when the bear-resolution condition fires. Cross-check with `STRATEGY.md` escalation rules and write the cross-agent signal per `STATUS.md` Cross-Domain Signals table.
+- **Channel labels** map to THESIS v2.0 §4 transmission map. A bull-resolution row that fires kills *the named channel*, not the whole thesis (per THESIS §7 channel-kill vs full-thesis-kill distinction).
+- **Full-thesis-kill** requires the credit-channel kill (HY OAS <260 sustained ≥3 sessions) AND duration-channel kill (10Y <4.30 sustained) concurrent. Single-channel kills are partial.
 
-Credit is moderating tactically (312bps) while structural vulnerabilities persist. The ceasefire question dominates near-term: if confirmed, war premium unwinds and HY OAS could pull inside 300. If ceasefire fails, snap-back to 320+ likely fast. Bank earnings (Apr 16+) are the next structural catalyst.
+---
+
+## Out of scope here (live elsewhere)
+
+| Lives in | Content |
+|---|---|
+| `STATUS.md` Durable Signals Log | Resolved events archive |
+| `STATUS.md` Danger Windows | Daily / weekly volatility windows (overlaps but operational, not decision-tree) |
+| `STATUS.md` Cross-Domain Signals | Current cross-agent signal status |
+| `STRATEGY.md` | When to escalate / hold / de-escalate rules at the position level |
+| `workbook/KILL_MEMO_HY_OAS_260.md` | Credit-channel kill trigger ladder (granular) |
+| `CALENDAR.md` | Data release schedule (no thesis interpretation) |
