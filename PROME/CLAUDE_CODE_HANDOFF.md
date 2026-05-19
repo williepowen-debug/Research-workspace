@@ -163,3 +163,100 @@ See conversation log for the full recommendations.
 - Pull, confirm clean.
 - If teams experiment fires today, read this section + `PROME/HANDOFF.md` Active Thread for the latest state.
 - The dry-run "Stale Docs / Contradictions Identified" section above is now partially obsolete — items 1, 2, 5 (hash drift) are resolved; item 8 (Phase 4 collision) is resolved; items 3, 4, 6, 7, 9 are unresolved or out of scope for this pass.
+
+---
+
+## Current Session — 2026-05-18 (Orchestral Layer Prototyping)
+
+**Run type:** Will-directed CC-Prome session. Prototype orchestral-layer Step 1 (fleet scan) + Step 4 (revival proxy); retire TOSCANINI; create CLOSEOUT.md; refresh BOOT.md.
+
+**Working tree at start:** clean, synced to origin.
+**Working tree at close:** clean within PROME/, AGENTS/PROME/, and root CLAUDE.md scope. `AGENTS/LIQUID/inbox/*_prome-spawned.md` left untracked deliberately — revival proxy outputs for LIQUID to own.
+
+### What landed
+
+1. **TOSCANINI retired + salvaged.** AUTONOMY.md and COMPLETION_SPEC.md promoted to `PROME/`. HUNTING ranking dimensions distilled into a "Ranking criteria for Section 6" subsection of `PROME/ORCHESTRAL_LAYER_DESIGN.md`. Remaining 8 files + `reports/` archived to `PROME/archive/TOSCANINI_2026-03/`. `PROME/TOSCANINI/` removed.
+
+2. **Step 1 (fleet scan) prototype — v1 + v2.** First test of the context-discipline-via-subagent pattern. v1 produced rough but useful output; v2 incorporated six explicit fixes (two-column staleness, dormant pre-filter, merged loops, explicit HUNTING math, math discipline, as-of price labels). v2 is production-ready; lives at `PROME/FLEET_SCAN.md`.
+
+3. **Step 4 (revival proxy) prototype — LIQUID.** First Step 4 run. Foreground general-purpose subagent (NOT teams mode) briefed as revival proxy for 32d-stale LIQUID. Produced revival packet + STATUS draft in `AGENTS/LIQUID/inbox/` with PROVENANCE preamble + `prome-spawned` filename suffix. Headline diagnostic: bear thesis migrated PLUMBING → DURATION (10Y +30bps over 32d, TLT broke 🔴, while HY OAS only -5bps). April SOFR-IORB scare was mechanical tax-day TGA, not structural.
+
+4. **Live dashboard refresh.** `python3 FORGE/tools/market-data/dashboard.py` after activating venv. Score 10 CRITICAL. Key prints: HY OAS 280 (+4, 20bps from 260 kill), Brent $109.30 (BRENT's intraday $102 was a swing, not the close — HEARTBEAT held), 10Y 4.59 broke 🔴, TLT $83.56 broke 🔴, APO $134.07 (🔴→🟢 zone change), VIX 17.82, BIZD $12.52.
+
+5. **CLOSEOUT.md created + BOOT.md cleaned.** First standardized CC-Prome closeout procedure: 4 chunks (state files / memory / residuals / git+report), scope tiers (Light/Standard/Heavy), file-ownership reference, skip rules. BOOT.md patched in 5 places to remove TOSCANINI drift and integrate new orchestral-layer surfaces.
+
+### Files edited (within autonomous scope)
+
+| File | Action |
+|---|---|
+| `PROME/ORCHESTRAL_LAYER_DESIGN.md` | Added "Ranking criteria for Section 6" subsection |
+| `PROME/STATUS.md` | Pending Work table refreshed; Active Decision Layer refreshed; Next Best Action rewritten |
+| `PROME/SCRATCH.md` | Full rewrite for closeout |
+| `PROME/CLAUDE_CODE_HANDOFF.md` (this file) | Appended this session entry |
+| `PROME/BOOT.md` | 5 edits: Doc Ownership table, Boot Sequence steps 4 & 8, Toscanini section → Orchestral Layer section, On-Demand line |
+| `PROME/AUTONOMY.md` | NEW (salvaged from `TOSCANINI/`) |
+| `PROME/COMPLETION_SPEC.md` | NEW (salvaged from `TOSCANINI/`) |
+| `PROME/CLOSEOUT.md` | NEW (standardized closeout procedure) |
+| `PROME/FLEET_SCAN.md` | v1 + v2 written by `fleet-scanner` subagent |
+| `PROME/archive/TOSCANINI_2026-03/` | NEW dir with 8 files + `reports/` subdir |
+| `AGENTS/PROME/CLAUDE.md` | Boot sequence step 4 & 6 retargeted; Key Files table refreshed |
+
+**Will-approved shared-file edit (one):**
+- Root `CLAUDE.md` — Key Directories table phrase "TOSCANINI governance" → "FLEET_SCAN, ORCHESTRAL_LAYER_DESIGN, AUTONOMY"
+
+**Untracked-by-design (NOT staged):**
+- `AGENTS/LIQUID/inbox/LIQUID_REVIVAL_PACKET_2026-05-18_prome-spawned.md`
+- `AGENTS/LIQUID/inbox/LIQUID_STATUS_DRAFT_2026-05-18_prome-spawned.md`
+- These are revival-proxy outputs for LIQUID to own. Real LIQUID integrates and commits on next boot per agent-file-isolation rule.
+
+### Commits
+
+- Mid-session: `5558d180` — "PROME: retire TOSCANINI; orchestral fleet-scan v2 prototype" (after rebase over upstream `1cdd9443`)
+- Closeout: separate commit
+
+### Decisions made by Will this session
+
+- ✅ Spawn fleet-scanner v1 with prescribed brief
+- ✅ Iterate to v2 with six explicit fixes
+- ✅ TOSCANINI retire + 6-step salvage approved
+- ✅ Root CLAUDE.md TOSCANINI mention fixed
+- ✅ Commit salvage + v2 fleet-scan mid-session (durability against 529 overload)
+- ✅ Run live dashboard
+- ✅ Spawn LIQUID revival proxy (Step 4 prototype)
+- ✅ CLOSEOUT.md adopted as drafted
+- ✅ BOOT.md items 1-6 patched
+- Deferred: BOOT.md medium-priority items (agent ID table reconciliation, git protocol example tightening) → dedicated maintenance session
+- Deferred: fold v3 fleet-scan feedback into design doc → next session
+
+### Risks / Blockers
+
+- **None blocking** the closeout itself.
+- **Soft:** HEARTBEAT.md prices are 1-day stale (today's dashboard not propagated; shared file, Will-approval gate). OZK STATUS still shows pre-roll posture (hygiene; OZK refreshes own STATUS).
+- **Pattern-level open question:** Revival-proxy files in another agent's inbox sit untracked until target agent boots. If that delay is long, they live in working-tree limbo. Worth a v3 design-doc note.
+
+### Step 4 (revival proxy) — pattern feedback for v2 of the pattern
+
+Surfaced by the LIQUID proxy run, parked here for fold-in:
+1. **Directional semantics** — brief should state kill-level direction ("kill = bull floor; rising OAS = thesis healing").
+2. **Time series in pass-through** — proxy had 4 HY OAS data points across 32d; future briefs should include 5-7-point series.
+3. **Sweep-file triage** — inbox sweep files contain many signals; brief should call for sweep-internal triage when sweeps dominate.
+4. **Closeout authorization** — proxy unsure whether to declare April SOFR-IORB "resolved mechanical"; brief should authorize/disauthorize closeout of prior open questions.
+
+### Next Suggested Work
+
+Open with Will at session start:
+- **HENRY revival proxy** (Step 4 prototype #2; NVDA Tuesday catalyst pressure), OR
+- **BROCK revival proxy** (Step 4 alt; APO sustained $130+, FSK fresh-premium blocker), OR
+- **Fold v3 fleet-scan feedback into ORCHESTRAL_LAYER_DESIGN.md first** (~15 min), then revival.
+
+Will-direction carries from FLEET_SCAN.md Section 7: SAM FXY Tranche 2 (FXY $57.80 below forfeit band), APO Jun/Dec puts hold/roll, FSK fresh-premium discussion, WAL Q1 10-Q integration.
+
+### Rules I Held To
+
+- No commits outside `PROME/`, `AGENTS/PROME/`, and Will-approved root `CLAUDE.md`.
+- No `git add -A` or `git add .`.
+- No edits to other agents' files (LIQUID revival proxy outputs left untracked for LIQUID to own).
+- No persistent-agent spawns. (LIQUID revival was via proxy — does NOT spawn LIQUID itself, writes to LIQUID's inbox for next-boot integration.)
+- No trades. No external messages.
+- Read-before-edit honored.
+- Behavior-language used in state files (not hash references) per cross-session memory.

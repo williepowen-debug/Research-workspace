@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-05-18 14:30 ET
+**Updated:** 2026-05-18 (session closeout)
 
 ## Core State
 
@@ -28,15 +28,19 @@
 | Artifact | Status | Purpose |
 |---|---|---|
 | `HEARTBEAT.md` | ✅ Fresh May 16; levels rechecked May 17 | Scenario, levels, catalyst/position rails |
-| `PROME/SCRATCH.md` | ✅ Fresh May 18 | Ephemeral next-action state; carries Step 1 prototype directive |
-| `PROME/TODAY.md` | ⚠️ Stale (May 17) | Will be rebuilt by fleet-scanner subagent as part of Step 1 prototype |
-| `PROME/HANDOFF.md` | ⚠️ Stale (May 17) | Defer to `SCRATCH.md` for current next-session entry point |
-| `PROME/ORCHESTRAL_LAYER_DESIGN.md` | ✅ Fresh May 18 | Design for fleet scan + adversarial-pair top-N + revival proxies |
+| `PROME/SCRATCH.md` | ✅ Fresh May 18 (closeout) | Ephemeral next-action state; entry point for next session |
+| `PROME/FLEET_SCAN.md` | ✅ Fresh May 18 (v2 prototype) | Live working surface — fleet situation report |
+| `PROME/CLOSEOUT.md` | ✅ Fresh May 18 (new) | Standardized session-end procedure |
+| `PROME/BOOT.md` | ✅ Refreshed May 18 | TOSCANINI references cleaned; FLEET_SCAN + CLOSEOUT integrated |
+| `PROME/ORCHESTRAL_LAYER_DESIGN.md` | ✅ Fresh May 18 | Design + ranking rubric (HUNTING dimensions distilled in) |
+| `PROME/TODAY.md` | ⚠️ Stale (May 17) | Superseded by FLEET_SCAN.md as live working surface |
+| `PROME/HANDOFF.md` | ⚠️ Stale (May 17) | Telegram-Prome surface; defer to SCRATCH for CC-Prome continuity |
+| `PROME/CLAUDE_CODE_HANDOFF.md` | ✅ Fresh May 18 (appended) | CC-Prome session report |
 | `PROME/action-cards/FSK_MAY11_ACTION_CARD.md` | ✅ Active | FSK Q1 branch-to-action rails |
 | `PROME/action-cards/REGIONAL_BANK_WEEKEND_TRIAGE_MAY9.md` | ✅ Active | Bank expiry / Call Report triage rails |
 | `PROME/AUTONOMY.md` | ✅ Salvaged from TOSCANINI | Tier 1/2/3 permission model + change log |
 | `PROME/COMPLETION_SPEC.md` | ✅ Salvaged from TOSCANINI | LAST_COMPLETION.md format for sub-agent reports |
-| `PROME/archive/TOSCANINI_2026-03/` | 📦 Archived | Retired Mar 26 governance framework; HUNTING dimensions folded into `ORCHESTRAL_LAYER_DESIGN.md` |
+| `PROME/archive/TOSCANINI_2026-03/` | 📦 Archived | Retired Mar 26 governance framework |
 
 ---
 
@@ -44,13 +48,19 @@
 
 | Action | Pri | Status |
 |---|---:|---|
-| **Fleet scan Step 1 prototype** | 🔴 | Top priority next session: spawn `fleet-scanner` subagent per `PROME/ORCHESTRAL_LAYER_DESIGN.md` Step 1. Produces `PROME/FLEET_SCAN.md` v1. Heavy reading delegated to protect Prome context. Will + Prome review/iterate template. |
-| **Regional-bank Call Report / WAL triage** | 🔴 | REGINALD May 17: WAL 10-Q filed but not integrated; Schedule O / Table 16 cross-credit inventory test pending; MI3/FFIEC PDD status check due. (Carried forward; no action today.) |
+| **Fleet scan Step 1 prototype** | ✅ Complete | v1 + v2 landed; v2 production-ready; ranking criteria captured in ORCHESTRAL_LAYER_DESIGN.md. |
+| **Step 4 revival-proxy prototype (LIQUID)** | ✅ Complete | First Step 4 run produced revival packet + STATUS draft for LIQUID. Pattern validated. 4 v2-improvements deferred. |
+| **TOSCANINI retirement + CLOSEOUT/BOOT cleanup** | ✅ Complete | TOSCANINI salvaged (AUTONOMY + COMPLETION_SPEC to PROME/, HUNTING distilled, rest archived). CLOSEOUT.md created. BOOT.md cleaned. |
+| **HENRY revival proxy (Step 4 prototype #2)** | 🔴 Candidate | 31d self-commit stale; NVDA Tuesday 5/20 catalyst. Tests pattern generalization from plumbing → market-structure. |
+| **BROCK revival proxy (Step 4 prototype #2 alt)** | 🔴 Candidate | 17d stale; APO sustained $130+ (zone change 🔴→🟢 today); FSK fresh-premium discussion blocked on refresh. |
+| **Fold v3 fleet-scan feedback into ORCHESTRAL_LAYER_DESIGN.md** | 🟠 | 4 items: directional semantics, time-series pass-through, sweep-internal triage, closeout-authorization. ~15 min. |
+| **LIQUID revival packet integration** | 🔵 | LIQUID's own task on next boot. Packet at `AGENTS/LIQUID/inbox/...prome-spawned.md`. Prome tracks only. |
+| **Regional-bank Call Report / WAL triage** | 🔴 | REGINALD May 17: WAL 10-Q filed but not integrated; Schedule O / Table 16 cross-credit inventory test pending; MI3/FFIEC PDD status check due. (Carried forward.) |
 | **Bank decision prompt** | 🔴 | Prome-owned synthesis: KRE/WAL/OZK/ZION/SSB cleanup, hold/roll/cut rails, live tape and option pricing required. |
-| **BDC/private-credit decision prompt** | 🔴 | FSK Strong Bear allows fresh downside discussion. Needs live pricing and Will approval before trade. |
-| **APO / ARES June premium review** | 🔴 | APO above $130 watch; do not roll/rescue dead premium without fresh evidence + pricing. |
-| **May 18 Iran / TIC watch** | 🔴 | WALTER flags Iran-war anchor T-1d re-verify and TIC March release / Japan UST-flow read. Route Japan to SAM persistent workflow, not spawn. |
-| **Claude Code Prome Phase 3 dry run** | 🟠 | Still pending; first run should be non-mutating except `PROME/CLAUDE_CODE_HANDOFF.md`. |
+| **BDC/private-credit decision prompt** | 🔴 | FSK Strong Bear allows fresh downside discussion. Needs live pricing and Will approval before trade. Blocked partly on BROCK revival. |
+| **APO / ARES June premium review** | 🔴 | APO $134.07 (live tape); sustained above $130 watch; zone change 🔴→🟢 today. Premium under pressure. |
+| **SAM FXY Tranche 2 decision** | 🔴 | FXY $57.80 today, below previously-forfeited $58.00-58.25 band. Will-direction required. |
+| **HEARTBEAT.md tape refresh** | 🟠 | Today's dashboard numbers not yet propagated to HEARTBEAT (shared file; Will-approval gate). |
 
 ---
 
@@ -84,4 +94,4 @@
 
 ## Next Best Action
 
-Prototype Step 1 of `PROME/ORCHESTRAL_LAYER_DESIGN.md`: spawn `fleet-scanner` subagent (general-purpose, foreground) with the FLEET_SCAN.md template as its brief. Subagent produces `PROME/FLEET_SCAN.md` v1; returns ~10-line summary only. Will + Prome review and iterate template. Critical: do NOT read 13 STATUS files into Prome's main context — context discipline via subagent delegation is the whole point of the design.
+Open with Will: decide between **HENRY revival proxy** (Step 4 prototype #2; NVDA Tuesday catalyst) vs **BROCK revival proxy** (Step 4 alt; APO/ARES decision pressure + FSK fresh-premium blocker) for the next revival run. Or **fold v3 fleet-scan feedback into ORCHESTRAL_LAYER_DESIGN.md first** before next revival (~15 min, locks in pattern improvements). Will-direction items on FXY Tranche 2, APO hold/roll, FSK fresh-premium are also live carries from FLEET_SCAN.md Section 7. Boot follows updated `PROME/BOOT.md` which now reads `PROME/FLEET_SCAN.md` at step 4.
