@@ -1,7 +1,7 @@
 # BOND Monitor — Treasury Auction Health
 
 **Owner:** BOND
-**Last Updated:** 2026-05-13 by PROME
+**Last Updated:** 2026-05-19 by BOND
 **Purpose:** Track whether Treasury market absorption is improving, mechanically supported, or deteriorating.
 
 ## Classification Rules
@@ -25,6 +25,13 @@
 | 2026-05-11 | 3Y | $58B | 2.54 | 3.965% | 63.0 | 20.1 | 16.9 | 🟡 | Treasury PDF / InvestingLive | +0.6bp tail; BTC below 6mo avg; dealer take elevated. |
 | 2026-05-12 | 10Y | $42B | 2.40 | 4.468% | 64.0 | 24.1 | 12.0 | 🟡 | Treasury PDF / ZH | +0.4bp tail to 4.464 WI; below avg BTC; 4th consecutive 10Y tail per market commentary. |
 | 2026-05-13 | 30Y | $25B | 2.30 | 5.046% | 66.6 | 21.7 | 11.7 | 🟡 | Treasury PDF / InvestingLive | +0.5bp tail to 5.041 WI; below avg BTC; demand mix not failed. |
+| 2026-05-14 | 4W Bill | — | 2.66 | — | — | — | — | 🟢 | TreasuryDirect | Clean. |
+| 2026-05-14 | 8W Bill | — | 2.72 | — | — | — | — | 🟢 | TreasuryDirect | Clean. |
+| 2026-05-18 | 13W Bill | — | 3.17 | — | — | — | — | 🟢 | TreasuryDirect | Clean. |
+| 2026-05-18 | 26W Bill | — | 3.07 | — | — | — | — | 🟢 | TreasuryDirect | Clean. |
+| 2026-05-19 | 6W Bill | — | 3.01 | — | — | — | — | 🟢 | TreasuryDirect | Clean. |
+| 2026-05-20 | **20Y Bond** | — | — | — | — | — | — | **PENDING** | TreasuryDirect | Compare against 4/22 reopen BTC 2.68 / indirect 59.6%. Watch list: BTC <2.3, tail >2bps, dealer >12%. |
+| 2026-05-21 | 9Y 8M (10Y reopen) | — | — | — | — | — | — | PENDING | TreasuryDirect | 4th consecutive 10Y tail context — pressure on this one. |
 
 ## Open Questions
 

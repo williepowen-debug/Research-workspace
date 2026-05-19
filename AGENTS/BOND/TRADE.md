@@ -1,15 +1,15 @@
 # BOND — Trade Recommendations
 
-**Last Updated:** 2026-05-13 19:35 ET by PROME
-**Regime:** 🟡 watch / de-risked — refunding week weak, not failed; public credit calm
+**Last Updated:** 2026-05-19 by BOND (live data pull)
+**Regime:** 🟡→🟠 watch — long-end leg active (10Y broke 4.5, 30Y >5 sustained); public credit still calm
 
 ---
 
 ## Current Bottom Line
 
-BOND **does not support fresh short-HY premium** on current public-market evidence. HY OAS is **282bps**, VIX is below 20, HYG is not breaking, and corporate issuance through April was strong. The Mar 26 HYG thesis is stale unless spreads re-widen quickly.
+BOND still **does not support fresh short-HY premium**. HY OAS 283, IG OAS 75 (tightening), HYG holding $79 — credit cascade has no transmission.
 
-BOND remains useful for **reactivation triggers**: auctions, CDX/cash divergence, issuance freeze, and credit-equity lead timing. May refunding produced a yellow warning — small tails across 3Y/10Y/30Y and below-average bid/covers — but not a failed-auction trigger.
+BOND **does support duration shorts (TLT puts) with sharper conviction**: 10Y broke 4.5 on 5/15 (4.59), 30Y at 5.12 sustained above 5 for 4 sessions, TLT new low $83.01. The May 20 20Y auction is the decision point — clean = ride the term-premium move; failed = escalate to red across long-end / dealer absorption / FOI vectors.
 
 ---
 
@@ -17,8 +17,8 @@ BOND remains useful for **reactivation triggers**: auctions, CDX/cash divergence
 
 | # | Trade | Current Posture | Conviction | Why | Hold / Add / Kill Rules |
 |---|---|---|---:|---|---|
-| 1 | HYG $75P Jun | **Do not add / do not roll by default** | 1/5 | Original entry logic was HY OAS >300 + pulled deals + CDX divergence. Current HY OAS 281 and issuance strong. | **Kill/let decay:** HY OAS <300 and no CDX/issuance stress. **Reopen:** HY OAS >300 with velocity. **Add/roll only:** HY OAS >350 or credible issuance freeze. |
-| 2 | TLT puts | **Watch / conditional hold if already owned** | 3/5 | 30Y traded above 5%, 10Y near 4.5, TLT weak, and refunding week was soft. But tails were only +0.4/+0.5bp on 10Y/30Y and dealer take stayed contained. | **Add only:** 10Y >4.5 sustained, 30Y >5 sustained, or next auction tail >2bps / dealer spike / SOFR stress. **Kill:** 10Y <4.15 and auctions clear strongly. |
+| 1 | HYG $75P Jun | **Do not add / do not roll** | 1/5 | HY OAS 283, IG OAS tightened to 75, HYG $79.36 — no credit transmission despite duration move. | **Kill/let decay:** HY OAS <300 and no CDX/issuance stress. **Reopen:** HY OAS >300 with velocity. **Add/roll only:** HY OAS >350 or credible issuance freeze. |
+| 2 | TLT puts | **Hold; conditional add on May 20 20Y confirmation** | 3/5→4/5 conditional | 10Y broke 4.5 (4.59 on 5/15), 30Y 5.12 sustained, TLT new low $83.01. BND-07 trigger Day 1. | **Add on:** May 20 20Y BTC <2.3, tail >2bps, or dealer spike → upgrade to 4/5. Also add on 10Y >4.5 for 5 consecutive sessions (currently Day 1). **Hold:** clean 20Y + 10Y holds 4.5 zone. **Kill:** 10Y back below 4.15 and 20Y clears strongly. |
 | 3 | Credit-equity lead | **Inactive watch** | 1/5 | HY cash not widening; VIX below 20. No public-credit lead signal. | **Reactivate:** HY OAS +75-100bps from trough while VIX remains <20; strongest if CDX leads cash. |
 
 ---
@@ -59,4 +59,4 @@ BOND remains useful for **reactivation triggers**: auctions, CDX/cash divergence
 
 ## Next Review
 
-Next: watch 10Y >4.5 / 30Y >5 persistence, May 20 20Y auction, SOFR-IORB, and HY OAS >300. Update again if duration weakness starts funding through repo or public credit.
+**May 20 (tomorrow): 20Y Bond auction** — decisive read on whether long-end break is mechanical (failed demand) or just expensive (term premium repricing). Update TLT conviction immediately post-result. Also watch: 10Y >4.5 streak (Day 1 of 5), SOFR-IORB (-12bps, no funding stress yet), HY OAS for any whiff of >300.
