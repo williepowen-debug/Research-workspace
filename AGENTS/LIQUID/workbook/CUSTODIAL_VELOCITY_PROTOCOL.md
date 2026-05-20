@@ -72,7 +72,7 @@ Distinguish between **benign custody migration** (China moving assets to Europea
 2. Extract custodial claims for Belgium banking system on US securities
 3. Cross-reference with Belgium TIC holdings for same period
 4. Validate Scenario A vs Scenario B
-5. Document in ML.tsv with diagnostic value
+5. Document in KB.tsv with diagnostic value
 
 **Event-Driven:**
 - Trump-Xi summit (April 2026): Watch for pre-positioning
@@ -162,7 +162,7 @@ Collateral Velocity Ratio = (Triparty Repo Volume) / (Outstanding UST)
 **Monthly (mid-month):**
 1. Update Outstanding UST denominator from SIFMA
 2. Recalculate baseline velocity
-3. Document any structural shifts in ML.tsv
+3. Document any structural shifts in KB.tsv
 
 **Event-Driven:**
 - Quarter-end: Velocity often drops due to window dressing
@@ -185,7 +185,7 @@ Collateral Velocity Ratio = (Triparty Repo Volume) / (Outstanding UST)
 
 | Condition | Status | Escalation |
 |-----------|--------|------------|
-| Belgium >$500B **OR** Combined flow <-$50B/qtr | ORANGE | Update STATUS.md, document in ML.tsv |
+| Belgium >$500B **OR** Combined flow <-$50B/qtr | ORANGE | Update STATUS.md, document in KB.tsv |
 | Velocity <2.5x for 2+ weeks | YELLOW | Update STATUS.md, monitor closely |
 | Belgium >$500B **AND** Velocity <2.0x | RED | Immediate PROME alert — dual fragility |
 | BIS confirms Scenario B **AND** Velocity <2.0x | **CRITICAL** | Systemic stress — expect term premium spike |
@@ -211,7 +211,7 @@ Collateral Velocity Ratio = (Triparty Repo Volume) / (Outstanding UST)
 - [ ] Download BIS International Banking Statistics Table B4
 - [ ] Cross-reference Belgium TIC vs BIS custodial claims
 - [ ] Validate Scenario A (migration) vs Scenario B (exit)
-- [ ] Document findings in ML.tsv with diagnostic value
+- [ ] Document findings in KB.tsv with diagnostic value
 - [ ] Update STATUS.md if scenario changes
 
 ### Event-Driven
