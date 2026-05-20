@@ -33,6 +33,43 @@
 
 ---
 
+## POV Pivots (intra-version)
+
+> Reverse-chronological log of significant LIQUID point-of-view shifts that didn't trigger a full thesis-doc revision. Captures the trajectory of reads that would otherwise be lost when STATUS.md is pruned of historical narrative. Each entry: prior view → revised view, with the trigger that forced the update and the durable anchor (KB entry / file) where the finding now lives.
+
+### 2026-05-20 — Foreign-demand-canary refined
+- **Prior view:** long-end break 5/13–5/19 (10Y 4.59, 30Y 5.12+ for 4 sessions, TLT fresh lows) was the foreign-buyer-exit canary firing; next leg would be auction-mechanism failure (BTC <2.50, indirect <55%, tail >2bps).
+- **Revised view:** demand hole **compresses price** (term-premium digestion, expensive); it does **not break auction mechanism** under current conditions. Foreign demand shows up at the price the macro demands; term premium ratchets higher per absorption.
+- **Trigger:** 5/20 20Y NEW issue ($16B, CUSIP 912810UV8) prints indirect 67.7% (strong), tail 0bp (stopped on screws), dealer 9.4% (clean) — under maximally-loaded macro (JPY 159+, Brent $111+, 30Y 5.12+ sustained).
+- **Falsification standing:** tail >2bps confirmed by 2nd source would reverse. 5/21 10Y reopening Leg 2 is the corroboration test.
+- **Anchored in:** KB-LIQ-057.
+
+### 2026-05-19 — APO co-trigger watch went dormant during agent staleness
+- **Prior view:** HEARTBEAT line 80 reassessment triggers (APO >$130 for 3 sessions OR HY OAS <260 sustained) were being watched; agent would notice if either fired.
+- **Revised view:** Trigger-watch can go silently dormant during multi-session staleness. APO crossed >$130 on 5/8 and the co-trigger fired on 5/12 (Day 3). LIQUID was stale Apr 16 → May 18 (32 days); the trigger lived for ~6 sessions before live-tape re-verify caught it on 5/19. **Pattern:** on revival, don't trust the proxy's narrative summary alone — pull live values for every named threshold in HEARTBEAT line 80 and verify day-counts. A proxy synthesizing inbox items can cite "APO >$130" as macro context without computing the trigger ladder.
+- **Trigger:** 5/19 live tape re-verification + APO 10-day yfinance pull showed Day 7 (now Day 9 as of 5/20).
+- **Anchored in:** MEMORY.md Durable Findings; reinforced by 5/19 PM #1 session log.
+
+### 2026-05-18 — Active transmission channel migrated PLUMBING → DURATION
+- **Prior view (Apr 16):** SOFR-IORB +7bps breach was the next active channel; structural-vs-mechanical confirmation pending; plumbing dashboard yellow-flashing.
+- **Revised view:** SOFR-IORB breach resolved mechanical (tax-day TGA build, not structural leak). The next leg fired through **10Y / TLT / Brent-reflation** instead. Bear thesis transmits through whichever channel is currently active; channel migration is normal, not thesis-abandonment.
+- **Trigger:** 32-day gap revival showed 10Y 4.29 → 4.59 (+30bps), TLT $86.28 → $83.56, Brent $98 → $109, while SOFR normalized to 3.55% and SOFR-IORB re-flipped to -10bps.
+- **Anchored in:** KB-LIQ-051 (SOFR resolved mechanical), KB-LIQ-052 (Duration regime break May 2026). Elevated to thesis-doc-level concept in v2.0 §1 + §4.
+
+### 2026-04-16 — SOFR-IORB first cycle breach added as plumbing watch
+- **Prior view (Apr 10):** Path A (squeeze resolution) winning. LIQ-01 at 290bps, 30bps below 320 trigger. Credit dashboard green. No active plumbing concern.
+- **Revised view:** Plumbing dashboard yellow-flashing — SOFR 3.72 vs IORB 3.65 = +7bps positive (first cycle breach). Zero-RRP buffer thesis being tested in real time. Pending structural-vs-mechanical confirmation Apr 17-20.
+- **Trigger:** Apr 15 SOFR print; 6-day swing of +11bps on SOFR (Apr 9 3.57 → Apr 15 3.72).
+- **Resolution (May 18):** mechanical, not structural. Tax-day TGA build. KB-LIQ-051. The episode generated the now-durable pattern: 1-day SOFR-IORB sign flip on tax-day mechanics is NOT structural confirmation; apply same skepticism to quarter-end / settlement-window single-print breaches.
+
+### 2026-04-10 — Path A (squeeze resolution) confirmation
+- **Prior view (Mar/early-Apr):** HY OAS at 346 post-Q-end (Apr 1), bear thesis tracking the LIQ-01 confirmation path toward 320bps. Credit transmission active.
+- **Revised view:** Path A (seasonal squeeze unwind) winning. HY OAS reverted 346 → 285 over 2 weeks. Credit/VIX divergence resolved. PC Stage 3 cascade public-equity sentiment decelerating (APO +15.9% over 6 days, BIZD +4.9%).
+- **Trigger:** Apr 1 → Apr 10 tape; sustained HY OAS compression below 290.
+- **Anchored in:** Durable Signals Log "HY OAS post-Q-end reversion" entry (preserved in KB.tsv lineage). Became the precondition that the *Apr 16 SOFR breach* read against.
+
+---
+
 ## v1.0 — 2026-04-08
 **Initial thesis document created.**
 - Extracted core thesis from STATUS.md, CREDIT_THRESHOLDS.md, IDENTITY.md

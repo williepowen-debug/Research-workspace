@@ -135,7 +135,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 | USD/JPY | 159.10 (5/19) | 160 | SAM-domain co-watch |
 | SRF Usage | $30.5B (4/16, stale) | >$50B | Plumbing actively breaking |
 | Reserves | $2.9T (4/16, stale) | <$2.8T | Structural funding stress |
-| 20Y Auction Indirect | 55% (Apr, stale) | <55% sustained | Foreign buyer crisis |
+| 20Y Auction Indirect | **67.7% (5/20 NEW issue)** | <55% sustained | 🟢 Foreign demand STRONG; demand-hole compresses price, doesn't break mechanism |
 
 ---
 
@@ -158,11 +158,23 @@ Don't mix categories. A CLO spread doesn't belong in the domestic plumbing dashb
 | `MEMORY.md` | Cross-session memory: current/next/prior session notes, durable findings, operating notes. |
 | `CLOSEOUT.md` | Session-end procedure: 4-tier model (Bounce/Light/Standard/Heavy), chunked steps, file-ownership reference. Run before `/clear` or session handoff. |
 | `CALENDAR.md` | Upcoming data releases, events, danger windows. |
+| `IDENTITY.md` | Agent persona / role / vibe. Boot doc. |
+| `USER.md` | Will profile and communication preferences. Boot doc. |
+| `STRATEGY.md` | Decision playbook — escalation triggers, position framework. |
 | `CREDIT_THRESHOLDS.md` | Feb 28 historical threshold-framework analysis (squeeze-resolution path overtook it; framework still useful). |
+| `thesis/THESIS.md` | THESIS v2.0 (5/19) — core frame, three structural failure legs, transmission channels, bilateral credit framework, cross-agent interfaces. |
+| `thesis/CHANGELOG.md` | Versioned thesis revision log — what changed v1.0→v2.0 and why. |
+| `thesis/TIMELINE.md` | Forward-only Active Branch Points (13 decision windows through Jun FOMC). |
+| `workbook/KB.tsv` | Durable knowledge entries (KB-LIQ-NNN). Primary durable findings track. |
 | `workbook/KILL_MEMO_HY_OAS_260.md` | Pre-written trigger ladder when HY OAS approaches 260 kill. |
 | `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` | Q1 BDC mark watch (TCW Red Lobster follow-through, FSK NAV trajectory). |
-| `workbook/KB.tsv` | Durable knowledge entries (KB-LIQ-NNN). |
-| `domain/sources/` | Research archives, STATUS backups, resolved playbooks. |
-| `archive/` | Legacy retired files (TRADE.md, INBOX.md, etc.) and prior STATUS snapshots. |
+| `workbook/AUCTION_FRAMEWORK.md` | Treasury auction grading framework (BTC, indirect bid, tail). Active for 20Y/2Y/5Y/7Y cycles. |
+| `workbook/TIC_FRAMEWORK.md` | Monthly TIC release interpretation (Japan, China/Belgium proxy, FOI demand hole). |
+| ~~`workbook/CUSTODIAL_VELOCITY_PROTOCOL.md`~~ | Slimmed 5/20 → KB-LIQ-055 (Foreign_Custodial_Flow_Disaggregation) + KB-LIQ-056 (Collateral_Velocity_Ratio); full doc preserved at `domain/sources/CUSTODIAL_VELOCITY_PROTOCOL_20260211.md`. |
+| `workbook/FLOW.tsv` | Flow signal registry — cross-referenced from KB.tsv. |
+| `workbook/VX.tsv` | Volatility / vector observation registry — cross-referenced from KB.tsv. |
+| `workbook/PREDICTIONS.tsv` | Active prediction log (small; durable). |
+| `domain/sources/` | Foundational research, resolved playbooks, framework archives. Empirical bedrock under THESIS v2 legs. |
+| `archive/` | Retired files: handoffs, legacy methodology, resolved episodes, prior STATUS snapshots (`status_snapshots/`). |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
 | `outbox/` | Outbound signals for other agents. One file per signal. HERMES delivers. |
