@@ -1,18 +1,26 @@
 # BOND — Status
 
 **Agent:** BOND | **Domain:** US Bond Market Structure
-**State:** 🟡→🟠 WATCH (long-end leg) — 10Y broke 4.5, 30Y sustained above 5; credit cash still calm
-**Last Updated:** 2026-05-19 by BOND (live data pull)
+**State:** 🟡 WATCH (long-end leg, no escalation) — 5/20 20Y clean (0bp tail confirmed); demand-hole thesis materially weakened
+**Last Updated:** 2026-05-20 ~3:25pm ET by BOND (post-20Y print + ZH tail confirmation)
 
 ---
 
 ## Regime Read
 
-Two-track divergence widened over the past week. **Long-end yields broke higher decisively** (10Y 4.46→4.59, 30Y 5.03→5.12 since 5/13) while **public credit stayed calm** (HY OAS 283, IG OAS tightened to 75, VIX ~18). TLT lost another buck-eighty to **$83.01**. No coupon auctions May 14-19 — bill auctions came in clean (BTC 2.66-3.20), so the move is term-premium / duration, not auction-mechanism failure. May 12-13 refunding tails (3Y +0.6 / 10Y +0.4 / 30Y +0.5) plus the post-refunding follow-through are starting to look less like transient supply concession and more like durable repricing.
+**5/20 20Y new-issue auction printed clean (0bp tail, on the screws), NOT a demand hole.** BTC 2.55 / high yield 5.122% = WI 5.122% / indirect 67.7% / dealer 9.4% (FiscalData CUSIP 912810UV8 + ZH 5/20 ~1:30pm ET, single-source confirmed). Critically, this was a **new $16B 20Y issue** (coupon set 5.000%, dated 5/15), not a reopen of the Apr 22 $13B — larger size with strong foreign demand mix is structurally clean for size. **Today priced ~2bp THROUGH the 5/18 DGS20 close of 5.14% — demand showed up below the screen, broke an 11-of-12 stop-through streak but did NOT tail.**
 
-The "all clear" read on credit is still defensible — CCC at 942 is elevated but not breaking, HYG only off 60 cents, and SOFR-IORB at -12bps shows no funding stress. But the duration thesis is firming up: BND-07 prediction (10Y >4.5 or 30Y >5 for 5 sessions) is **now in motion** — Day 1 for the 10Y trigger and ~3 sessions deep on the 30Y >5 read. **May 20 20Y auction is tomorrow** and becomes the next decisive read on whether long-end demand is mechanically broken or just expensive.
+**Mix dominates headline BTC:** indirect rose vs Apr 22 reopen (67.7 vs 59.6), dealer stayed near baseline (9.4 vs 8.6, well below 12% watch). Per WATCH_20Y_10Y §2, this lands at row 1 (Clean) with only BTC modestly below the 2.60 threshold. **Did NOT trigger orange escalation** per pre-set criteria (BTC <2.3, tail >2bps, dealer >12%). The demand-hole thesis is **materially weakened** by this print — foreign demand showed up despite macro co-pressure (JPY 158.81, Brent $105) AND paid ~2bp through the screen to participate.
 
-**Decomposition (5/19):** today's 10Y break is **predominantly real-yield-driven**, not reflation. DFII10 has moved +21bp over 4wk (1.92→2.13) while 10Y breakevens have moved only +11bp (2.38→2.49) — real yields are the heavier contributor to the +24bp move in 10Y nominal. That sharpens the term-premium/supply read going into tomorrow's 20Y auction: this is a duration-risk-repricing story, not a Fed-expectations story. **The catch:** 5Y5Y forward inflation has risen +16bp over the same window (2.16→2.32), drifting above the 2.25 anchor band. Near-term breakevens (T5YIE +6bp) are subdued — so it's not transitory oil/JPY pass-through carrying the long-term move. **Long-term inflation expectations are slowly drifting while real yields break higher** — the worse combination, because it means tomorrow's auction is reading into a tape with both real-rate stress AND incipient unanchoring, not just one.
+**Two-track frame: largely intact but softer.** Long-end is still elevated (10Y 4.61 today, +2bp vs 5/19; HY OAS drifted to 286, +3bp; VIX softened to 17.47). The 20Y didn't fix the broken-long-end story — yields are still expensive — but it **did** disprove the "foreign-demand-canary" reading of the 5/13-5/19 long-end break. Real-yield-dominant decomposition (5/19 BND-07: DFII10 +21bp/4wk leading, 5Y5Y forward +16bp drifting) holds; this auction confirms it's **term-premium digestion at price**, not foreign-flight. The 5Y5Y forward at 2.32 still warrants watch but no escalation today.
+
+**TLT puts posture: HOLD; no add.** Pre-set conditional-add criteria (Leg 1 orange print) did not trigger.
+
+**5/21 10Y reopening — base-rate posterior shift (post-confirmation):**
+- Prior base-rate of Leg 2 firing the conditional-add layer (clean + single-tail or weak mix): ~35-40%.
+- **Posterior: ~20-25%.** Foreign demand canary is dead (indirect 67.7% with paid-through-screen pricing); vol regime softened concurrently; no behavioral evidence of capitulating demand at the long-end. Caveat: 10Y is a different buyer mix (more bank/dealer/CTA-driven) and is on its own 4-consecutive-tail streak, so cross-validation from the 20Y is partial, not complete.
+- **Aggressive-add gate is structurally dead.** The two-tail-in-24h path required Leg 1 to tail; it didn't. Failed-Leg-1 path is closed for the same reason. Tomorrow's worst-case posture-shift is conditional-add (Aug 15 $83P × 2), not aggressive-add.
+- **Conditional-add layer remains correctly armed.** Lower base-rate doesn't change the arming logic — the layer is cheap optionality on a still-possible bad print, not a high-conviction expected-execution.
 
 ---
 
@@ -20,22 +28,24 @@ The "all clear" read on credit is still defensible — CCC at 942 is elevated bu
 
 | Metric | Current | Status | Source / Date | BOND Read |
 |---|---:|---|---|---|
-| HY OAS | **283bps** | 🟢 | FRED `BAMLH0A0HYM2`, May 18 | Below 300; short-HY thesis not active. |
-| CCC OAS | **942bps** | 🟡 | FRED `BAMLH0A3HYC`, May 18 | Lower-quality stress still elevated, not broad contagion. |
-| IG OAS | **75bps** | 🟢 | FRED `BAMLC0A0CM`, May 18 | IG actually tightened; market functional. |
-| 10Y yield | **4.59%** | 🔴 | FRED `DGS10`, May 15 | **Broke 4.5 (+13bp/wk).** BND-07 trigger Day 1. |
-| 2Y yield | **4.09%** | 🟡 | FRED `DGS2`, May 15 | +19bp/wk; front-end firmer but not curve-stressed. |
-| 2s10s | **+50bps** | 🟡 | FRED derived, May 15 | Modest bear-steepener; not acute. |
-| 30Y yield | **5.12%** | 🔴 | FRED `DGS30`, May 15 | **Sustained above 5** (5.03/5.03/5.02/5.12 last 4 sessions). Term-premium repricing. |
-| SOFR-IORB | **-12bps** | 🟢 | Dashboard, May 19 | More negative; no funding confirmation of duration stress. |
-| HYG | **$79.36** | 🟢 | yfinance, May 19 | -0.62 from 5/13; credit ETF not breaking. |
-| TLT | **$83.01** | 🔴 | yfinance, May 19 | New leg lower (-1.79 from 5/13); duration weak. |
-| VIX | **17.99** | 🟢 | Dashboard, May 19 | Equity vol still complacent vs duration move. |
-| Corp issuance YTD | **$1,013.9B through Apr, +28.2% YoY** | 🟢 | SIFMA May 2026 | Primary market not frozen. |
-| **10Y TIPS yield (DFII10)** | **2.13%** | 🔴 | FRED `DFII10`, May 18 | **Real yield +21bp/4wk (1.92→2.13).** Single largest driver of 10Y nominal break — term-premium/supply story dominant over reflation. |
-| **10Y breakeven (T10YIE)** | **2.49%** | 🟡 | FRED `T10YIE`, May 19 | +11bp/4wk (2.38→2.49). Inflation expectations drifting up but not the leading leg. |
-| **5Y breakeven (T5YIE)** | **2.66%** | 🟡 | FRED `T5YIE`, May 19 | +6bp/4wk (2.60→2.66); choppy. Near-term inflation expectations mixed — JPY/Brent pass-through showing but not dominant. |
-| **5Y5Y forward inflation (T5YIFR)** | **2.32%** | 🟠 | FRED `T5YIFR`, May 19 | **+16bp/4wk (2.16→2.32).** Long-term expectations drifting; approaching unanchoring watch zone. Combined with DFII10 break = "real yields + slowly-drifting LT expectations," worse mix than pure real-yield story. |
+| HY OAS | **286bps** | 🟢 | FRED `BAMLH0A0HYM2`, May 19 | +3bp from 5/18; still below 300, short-HY thesis not active. |
+| CCC OAS | **948bps** | 🟡 | FRED `BAMLH0A3HYC`, May 19 | +6bp from 5/18; lower-quality stress elevated, not broad contagion. |
+| IG OAS | **76bps** | 🟢 | FRED `BAMLC0A0CM`, May 19 | +1bp from 5/18; market functional. |
+| 10Y yield | **4.61%** | 🔴 | Dashboard ~2:55pm ET, May 20 | +2bp vs 5/19. BND-07 trigger Day ~2-3. |
+| 30Y yield | **5.14%** | 🔴 | FRED `DGS30`, May 18 (latest published) | Sustained above 5. Term-premium repricing. |
+| **20Y high yield (5/20 auction)** | **5.122%** (tail **0bp**) | 🟡 | FiscalData CUSIP 912810UV8 + ZH 5/20 | New $16B issue; BTC 2.55, indirect 67.7%, dealer 9.4%. WI 5.122% = high (on the screws). ~2bp through 5/18 DGS20. **Clean, NOT orange.** |
+| SOFR-IORB | -12bps | 🟢 | Dashboard, May 19 | No funding confirmation of duration stress. |
+| HYG | TBD | 🟢 | — | Watch for transmission; live mark not pulled in this update. |
+| TLT | **$83.89** | 🔴 | Dashboard ~2:55pm ET, May 20 | +$0.88 vs 5/19 — relief bid post-auction (foreign demand showed up); still well below pre-break levels. |
+| VIX | **17.47** | 🟢 | Dashboard ~2:55pm ET, May 20 | -0.52 vs 5/19; equity vol softer post-auction. |
+| KRE | **$68.85** | 🟢 | Dashboard ~2:55pm ET, May 20 | Was 🟡 5/19; relief bid. |
+| USD/JPY | 158.81 | 🟠 | Dashboard ~2:55pm ET, May 20 | Sustained; off 159+ peak. |
+| Brent | $105.03 | 🟡 | Dashboard ~2:55pm ET, May 20 | Off recent $111 peak — macro co-pressure easing. |
+| Corp issuance YTD | $1,013.9B through Apr, +28.2% YoY | 🟢 | SIFMA May 2026 | Primary market not frozen. |
+| **10Y TIPS yield (DFII10)** | **2.13%** | 🔴 | FRED `DFII10`, May 18 | Real yield +21bp/4wk; term-premium/supply story dominant over reflation. |
+| **10Y breakeven (T10YIE)** | **2.49%** | 🟡 | FRED `T10YIE`, May 19 | Inflation expectations drifting up but not leading leg. |
+| **5Y breakeven (T5YIE)** | **2.66%** | 🟡 | FRED `T5YIE`, May 19 | Near-term inflation expectations mixed. |
+| **5Y5Y forward inflation (T5YIFR)** | **2.32%** | 🟠 | FRED `T5YIFR`, May 19 | Long-term expectations drifting; watch zone but no escalation. |
 
 ---
 
@@ -51,10 +61,11 @@ The "all clear" read on credit is still defensible — CCC at 942 is elevated bu
 | May 11 | 3Y | $58B | 2.54 | 3.965% | 63.0% | 20.1% | 16.9% | Weak: +0.6bp tail, BTC below 6mo avg, dealer take elevated. |
 | May 12 | 10Y | $42B | 2.40 | 4.468% | 64.0% | 24.1% | 12.0% | Weak: +0.4bp tail, 4th consecutive 10Y tail; foreign demand soft vs recent avg. |
 | May 13 | 30Y | $25B | 2.30 | 5.046% | 66.6% | 21.7% | 11.7% | Below avg: +0.5bp tail and lower BTC; demand mix not failed. |
+| **May 20** | **20Y new issue** | **$16B** | **2.55** | **5.122%** (tail **0bp**) | **67.7%** | **22.9%** | **9.4%** | **🟢/🟡 Clean — stopped on the screws (WI 5.122% = high yield 5.122%, ZH-confirmed). Priced ~2bp THROUGH 5/18 DGS20 (5.14). Indirect ROSE vs Apr 22 reopen (67.7 vs 59.6); dealer near baseline (9.4 vs 8.6). Broke 11-of-12 stop-through streak but did NOT tail. Did NOT trigger orange criteria.** |
 
 **May refunding read:** all three coupon auctions tailed modestly and bid/covers were below recent averages. This is **yellow duration fatigue**, not red auction dysfunction: tails were small (<1bp), indirect demand stayed around/above 63%, dealer take did not spike catastrophically, and SOFR-IORB remains calm.
 
-**May 14-19 follow-through:** No coupon auctions; bill auctions clean (4W 2.66, 8W 2.72, 13W 3.17, 17W 3.20, 26W 3.07, 6W 3.01). Bills are absorbing fine. Long-end repricing is happening **without** a fresh failed auction — pure term-premium move. **May 20 20Y is the next live read.**
+**5/20 20Y read:** New $16B issue (not Apr 22's $13B reopen) printed with **strong foreign demand mix** (indirect 67.7%) and **dealer take near baseline** (9.4%, vs 12% watch threshold). BTC 2.55 below 2.60 clean threshold but well above 2.30 stress floor. **Tail 0bp confirmed (ZH single-source, 1:30pm ET) — stopped on the screws and priced ~2bp THROUGH the 5/18 DGS20 (5.14).** Demand showed up below the screen. Mix > headline BTC per WATCH §2 tie-breaker. **Demand-hole thesis materially weakened**, not confirmed; reads as continued duration fatigue with foreign sponsorship intact and willing to pay through the screen. The relief in TLT ($83.01→$83.89), VIX (17.99→17.47), and KRE (🟡→🟢) is consistent with the market having priced in worse than what printed.
 
 ---
 
@@ -62,23 +73,23 @@ The "all clear" read on credit is still defensible — CCC at 942 is elevated bu
 
 | Vector | Score | Status | Evidence | Upgrade Trigger |
 |---|---:|---|---|---|
-| Treasury auction health | 3 | 🟡 | Coupon refunding tailed modestly; bills clean. No coupons May 14-19. | Upgrade on May 20 20Y BTC <2.3, tail >2bps, or dealer spike. |
-| HY market function | 1 | 🟢 | HY OAS 283; issuance strong through Apr. | HY OAS >300 watch; >350 + pulled deals = red. |
-| IG market function | 1 | 🟢 | IG OAS 75 (tightening); no broad IG freeze evidence. | IG OAS +20bps/week or clustered pulled IG deals. |
-| Dealer absorption | 3 | 🟡 | May refunding take contained (10Y 12.0%, 30Y 11.7%, 3Y 16.9%); prior ~$550B net. | Forced inventory decline during selloff or weak auctions + repo pressure. |
-| Long-end/duration | **4** | 🔴 | **10Y broke 4.5 → 4.59; 30Y 5.12 (4th session above 5)**; TLT $83.01 fresh low. | 10Y >4.5 for 5 sessions and/or 20Y auction confirms demand hole = red 5. |
+| Treasury auction health | 2 | 🟡 | 5/20 20Y clean (BTC 2.55, indirect 67.7%, dealer 9.4%, tail 0bp ZH-confirmed; ~2bp through 5/18 CMT). No orange trigger. Bills clean. | Upgrade on 5/21 10Y tail OR 2+ weak coupon auctions same tenor. |
+| HY market function | 1 | 🟢 | HY OAS 286; issuance strong through Apr. | HY OAS >300 watch; >350 + pulled deals = red. |
+| IG market function | 1 | 🟢 | IG OAS 76 (still tight); no broad IG freeze evidence. | IG OAS +20bps/week or clustered pulled IG deals. |
+| Dealer absorption | 2 | 🟡 | 5/20 20Y dealer 9.4% (clean for size); May refunding contained (10Y 12.0%, 30Y 11.7%). | Forced inventory decline during selloff or weak auctions + repo pressure. |
+| Long-end/duration | **4** | 🔴 | 10Y 4.61 sustained; 30Y 5.14; TLT $83.89 (relief bid off $83.01 low). **20Y stopped on the screws (0bp tail) and priced ~2bp through CMT — disproved foreign-canary read.** | 10Y >4.5 for 5 sessions WITH new evidence (5/21 tail, SOFR-IORB lift, ZHAO confirmation) = red 5. |
 | CDX-cash basis | 2 | 🟡 | Direct CDX still not wired; March divergence not refreshed. | CDX widens while HY cash stays tight for 2+ weeks. |
-| Credit-equity lead | 1 | 🟢 | HY OAS 283, VIX 18; credit hasn't led. | HY OAS +75-100bps from trough while VIX stays <20. |
+| Credit-equity lead | 1 | 🟢 | HY OAS 286, VIX 17.47; credit hasn't led. | HY OAS +75-100bps from trough while VIX stays <20. |
 
-**Composite:** **15/35 — watch with active long-end leg.** Public credit cascade thesis still inactive; **duration repricing thesis firming** (10Y >4.5 trigger now in motion). Cleanest near-term read is May 20 20Y auction: clean = term-premium-only repricing; failed = demand-hole confirmation and BOND escalates to orange.
+**Composite:** **13/35 — watch with long-end leg active but not escalating.** Score dropped 15→13 as auction health and dealer absorption vectors moved 3→2 on the 5/20 print (soft-but-functional, no orange). Long-end/duration vector held at 4 (yields still elevated; thesis intact but **demand-hole subcomponent weakened**). 5/21 10Y reopening remains the live gate for two-tail-in-24h graduation.
 
 ---
 
 ## Trade Interface
 
-- **HYG $75P Jun:** BOND still does not support adding/rolling. HY OAS 283 + IG OAS tightening + HYG holding $79 = no credit transmission to argue from. Position is salvage/lottery unless HY OAS reclaims 300 quickly.
-- **TLT puts:** BOND posture upgrades from "watch/conditional hold" → **supports hold; supports add on May 20 20Y confirmation**. 10Y broke 4.5 (Day 1 of 5-session trigger); 30Y sustained above 5; TLT new low at $83.01. Aggressive add is justified if May 20 20Y delivers BTC <2.3 / tail >2bps / dealer spike; otherwise hold and let the 5-session 10Y trigger play out.
-- **Credit-equity lead:** still inactive. HY OAS hasn't moved.
+- **HYG $75P Jun:** BOND still does not support adding/rolling. HY OAS 286 + IG OAS still tight + HYG holding = no credit transmission to argue from. Position is salvage/lottery unless HY OAS reclaims 300 quickly.
+- **TLT puts:** **HOLD posture — no add.** 5/20 20Y did NOT trigger conditional-add criteria (BTC 2.55 above 2.3 floor; indirect 67.7% strong; dealer 9.4% well below 12% watch; tail 0bp confirmed via ZH, well below +2bp orange trigger). Aug 15 $83P × 2 layer remains correctly armed for 5/21 10Y reopening if that prints weak (posterior base-rate ~20-25%, down from prior ~35-40%). **Aggressive-add gate is structurally dead** — two-tail-in-24h path required Leg 1 to tail; it didn't. Failed-Leg-1 path is also closed. Tomorrow's worst-case posture is conditional-add, not aggressive-add. TLT relief bid to $83.89 supports HOLD discipline.
+- **Credit-equity lead:** still inactive. HY OAS only +3bp on day; not transmission-grade.
 
 ---
 
@@ -86,8 +97,8 @@ The "all clear" read on credit is still defensible — CCC at 942 is elevated bu
 
 | Date | Catalyst | What BOND watches | Signal Route |
 |---|---|---|---|
-| **May 20 (tomorrow)** | **20Y reopening (Leg 1)** | BTC vs 2.68 prior; tail size; dealer take vs 8.6% prior. See `WATCH_20Y_10Y_MAY20-21.md` §2 for verdict matrix and §4 for locked add specs (TLT $83P Aug 15 × 2 on orange print; aggressive-add pre-approved on failed/two-tail). | LIQUID/ZHAO if weak; PROME if failed |
-| **May 21** | **10Y reopening 9Y8M (Leg 2 — escalation gate)** | **Two tails in 24h across both legs = BND-07 graduates "firming"→"FIRED", composite long-end 4→5, BOND 🟠→🔴.** See `WATCH_20Y_10Y_MAY20-21.md` §3. | LIQUID/ZHAO if weak; PROME if two-tail |
+| **May 20 (today, complete)** | **20Y new issue (Leg 1)** | ✅ Printed BTC 2.55 / high 5.122 (tail **0bp** ZH-confirmed) / indirect 67.7% / direct 22.9% / dealer 9.4%. **Clean. No orange escalation. TLT puts: HOLD, no add.** | Routed to PROME (`outbox/2026-05-20_to-PROME_20Y-post-auction.md` + addendum) |
+| **May 21 (tomorrow)** | **10Y reopening 9Y8M (Leg 2 — single-tail gate only)** | 5th consecutive 10Y to watch for a tail. **Two-tail-in-24h aggressive-add gate is now structurally dead** (Leg 1 didn't tail). Single-tail conditional-add path remains live; posterior base-rate ~20-25% (down from prior ~35-40%). Aug 15 $83P × 2 layer correctly armed. | LIQUID/ZHAO if weak; PROME if tail |
 | Daily | 10Y closes >4.5 streak | BND-07 5-session trigger: Day 1 of 5 | HENRY (duration→risk-asset signal) |
 | Daily | 30Y closes >5 streak | Day ~4 of sustained above 5 | LIQUID (term-premium funding consequences) |
 | Weekly | HY/IG OAS + primary calendar | OAS >300 / pulled deals / issuance freeze | BROCK/REGINALD/HENRY |
@@ -98,4 +109,4 @@ The "all clear" read on credit is still defensible — CCC at 942 is elevated bu
 
 ## Bottom Line
 
-The two-track regime is sharpening: **long-end is breaking, public credit is not.** 10Y broke 4.5 and 30Y is sustaining above 5 for the first time since 2007 — duration thesis has fresh evidence. But HY OAS 283, IG OAS *tightening* to 75, HYG holding, and VIX <20 mean credit cascade thesis still has no transmission. BOND's near-term decision pivot is **May 20 20Y auction**: clean = term-premium-only repricing (TLT puts work as carry-the-trend); failed = demand-hole confirmation and escalation to orange across long-end, dealer absorption, and FOI vectors. HYG June downside remains stale until HY OAS >300 with velocity.
+**5/20 20Y new issue printed CLEAN — tail 0bp confirmed (ZH 1:30pm ET).** BTC 2.55 / indirect 67.7% (rose vs 4/22 reopen 59.6%) / dealer 9.4% (near 8.6% baseline) / high yield 5.122% = WI 5.122% (on the screws; priced ~2bp THROUGH the 5/18 DGS20 of 5.14). Did not trigger the BOND pre-set escalation criteria (BTC <2.3, tail >2bps, dealer >12%). **TLT puts posture: HOLD, no add today.** The two-track frame is intact but the demand-hole subcomponent of the long-end thesis is **materially weakened** — foreign sponsorship showed up at price AND paid through the screen to participate, consistent with term-premium digestion at price rather than mechanical break. Long-end yields remain elevated (10Y 4.61, 30Y 5.14) so the duration repricing thesis itself still has fresh evidence; the auction confirms it's **expensive, not broken**. 5/21 10Y reopening is the next live read — Aug 15 $83P × 2 conditional-add layer remains correctly armed (single-tail path only; aggressive-add gate is structurally dead because Leg 1 didn't tail). Posterior base-rate of Leg 2 firing conditional-add: ~20-25%, down from prior ~35-40%.
