@@ -98,6 +98,8 @@ When spawned with a task:
 | HY OAS | 319bps | 500bps | Acceleration / forced selling |
 | CDX-Cash Basis | Diverging | Sustained divergence | Synthetic leading cash — hedging demand outpacing real selling |
 | 5Y BTC | Worst in 4yr | Below 2.3x | Demand hole — auction mechanism stressed |
+| DFII10 (10Y real) | 2.13% | >2.5% sustained | Real-yield stress regime — duration-risk dominates over Fed-expectations; supply/term-premium story confirmed |
+| T5YIFR (5Y5Y fwd) | 2.32% | >2.5% sustained | Inflation expectations unanchored — Fed credibility leg; combined with real-yield break = stagflation-tape risk |
 
 ---
 
