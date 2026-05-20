@@ -22,6 +22,7 @@ You track credit spreads (HY OAS toward 320bps confirmation), repo/SOFR anomalie
 2. **Execute the task**
 3. **Write results back to `STATUS.md`** — update dashboard values, adjust predictions
 4. **Research detail → `domain/sources/`**
+5. **Session close → `CLOSEOUT.md`** — run the tier-appropriate closeout (Bounce / Light / Standard / Heavy) before `/clear`, `/new`, or stepping away.
 
 
 
@@ -155,6 +156,7 @@ Don't mix categories. A CLO spread doesn't belong in the domestic plumbing dashb
 |------|---------|
 | `STATUS.md` | Live state — 3 dashboards (credit/domestic/foreign), thresholds, predictions. **Primary memory.** |
 | `MEMORY.md` | Cross-session memory: current/next/prior session notes, durable findings, operating notes. |
+| `CLOSEOUT.md` | Session-end procedure: 4-tier model (Bounce/Light/Standard/Heavy), chunked steps, file-ownership reference. Run before `/clear` or session handoff. |
 | `CALENDAR.md` | Upcoming data releases, events, danger windows. |
 | `CREDIT_THRESHOLDS.md` | Feb 28 historical threshold-framework analysis (squeeze-resolution path overtook it; framework still useful). |
 | `workbook/KILL_MEMO_HY_OAS_260.md` | Pre-written trigger ladder when HY OAS approaches 260 kill. |

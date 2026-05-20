@@ -25,7 +25,12 @@
 
 **Final workbook/ state:** 9 active files (down from 22). All actively used or referenced.
 
-**Top-level LIQUID surface unchanged** (8 files + 6 directories — same as after PM #1 sweep).
+**Top-level LIQUID surface:** 9 files + 6 directories (was 8 files — added `CLOSEOUT.md`).
+
+**Pass 3 — closeout codification (post-push):**
+- `CLOSEOUT.md` created — mirrors PROME's 4-tier model (Bounce / Light / Standard / Heavy) for cross-agent vocabulary consistency, but rebuilt for LIQUID's surface (STATUS-primary, 3-dashboard structure, KB.tsv durable track, outbox/SIGNALS.md cross-agent rails). Includes pre-closeout inventory, 5 chunked steps (state / workbook / cross-agent / auto-memory / git), skip rules, file-ownership reference table.
+- `CLAUDE.md` SPAWN PROTOCOL gets step 5 pointer to CLOSEOUT.md; FILES table adds CLOSEOUT.md row.
+- This session is the first dogfooded Standard closeout under the new doc.
 
 **Open follow-ups (not addressed this session):**
 - `CUSTODIAL_VELOCITY_PROTOCOL.md` (270 lines, Feb 11) prescribes weekly SIFMA velocity pulls that aren't happening. Belgium watch IS live in STATUS thresholds; collateral-velocity piece is unimplemented. Either revive cadence or slim the doc — flagged for separate session.
