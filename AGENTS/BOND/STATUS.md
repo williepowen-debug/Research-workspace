@@ -12,6 +12,8 @@ Two-track divergence widened over the past week. **Long-end yields broke higher 
 
 The "all clear" read on credit is still defensible — CCC at 942 is elevated but not breaking, HYG only off 60 cents, and SOFR-IORB at -12bps shows no funding stress. But the duration thesis is firming up: BND-07 prediction (10Y >4.5 or 30Y >5 for 5 sessions) is **now in motion** — Day 1 for the 10Y trigger and ~3 sessions deep on the 30Y >5 read. **May 20 20Y auction is tomorrow** and becomes the next decisive read on whether long-end demand is mechanically broken or just expensive.
 
+**Decomposition (5/19):** today's 10Y break is **predominantly real-yield-driven**, not reflation. DFII10 has moved +21bp over 4wk (1.92→2.13) while 10Y breakevens have moved only +11bp (2.38→2.49) — real yields are the heavier contributor to the +24bp move in 10Y nominal. That sharpens the term-premium/supply read going into tomorrow's 20Y auction: this is a duration-risk-repricing story, not a Fed-expectations story. **The catch:** 5Y5Y forward inflation has risen +16bp over the same window (2.16→2.32), drifting above the 2.25 anchor band. Near-term breakevens (T5YIE +6bp) are subdued — so it's not transitory oil/JPY pass-through carrying the long-term move. **Long-term inflation expectations are slowly drifting while real yields break higher** — the worse combination, because it means tomorrow's auction is reading into a tape with both real-rate stress AND incipient unanchoring, not just one.
+
 ---
 
 ## Current Dashboard
@@ -30,6 +32,10 @@ The "all clear" read on credit is still defensible — CCC at 942 is elevated bu
 | TLT | **$83.01** | 🔴 | yfinance, May 19 | New leg lower (-1.79 from 5/13); duration weak. |
 | VIX | **17.99** | 🟢 | Dashboard, May 19 | Equity vol still complacent vs duration move. |
 | Corp issuance YTD | **$1,013.9B through Apr, +28.2% YoY** | 🟢 | SIFMA May 2026 | Primary market not frozen. |
+| **10Y TIPS yield (DFII10)** | **2.13%** | 🔴 | FRED `DFII10`, May 18 | **Real yield +21bp/4wk (1.92→2.13).** Single largest driver of 10Y nominal break — term-premium/supply story dominant over reflation. |
+| **10Y breakeven (T10YIE)** | **2.49%** | 🟡 | FRED `T10YIE`, May 19 | +11bp/4wk (2.38→2.49). Inflation expectations drifting up but not the leading leg. |
+| **5Y breakeven (T5YIE)** | **2.66%** | 🟡 | FRED `T5YIE`, May 19 | +6bp/4wk (2.60→2.66); choppy. Near-term inflation expectations mixed — JPY/Brent pass-through showing but not dominant. |
+| **5Y5Y forward inflation (T5YIFR)** | **2.32%** | 🟠 | FRED `T5YIFR`, May 19 | **+16bp/4wk (2.16→2.32).** Long-term expectations drifting; approaching unanchoring watch zone. Combined with DFII10 break = "real yields + slowly-drifting LT expectations," worse mix than pure real-yield story. |
 
 ---
 
@@ -80,8 +86,8 @@ The "all clear" read on credit is still defensible — CCC at 942 is elevated bu
 
 | Date | Catalyst | What BOND watches | Signal Route |
 |---|---|---|---|
-| **May 20 (tomorrow)** | **20Y Bond auction** | BTC vs 2.68 prior; tail size; dealer take vs 8.6% prior | LIQUID/ZHAO if weak; PROME if failed |
-| **May 21** | 9Y8M (10Y reopen) | Whether 10Y stress continues into reopening | LIQUID/ZHAO if weak |
+| **May 20 (tomorrow)** | **20Y reopening (Leg 1)** | BTC vs 2.68 prior; tail size; dealer take vs 8.6% prior. See `WATCH_20Y_10Y_MAY20-21.md` §2 for verdict matrix and §4 for locked add specs (TLT $83P Aug 15 × 2 on orange print; aggressive-add pre-approved on failed/two-tail). | LIQUID/ZHAO if weak; PROME if failed |
+| **May 21** | **10Y reopening 9Y8M (Leg 2 — escalation gate)** | **Two tails in 24h across both legs = BND-07 graduates "firming"→"FIRED", composite long-end 4→5, BOND 🟠→🔴.** See `WATCH_20Y_10Y_MAY20-21.md` §3. | LIQUID/ZHAO if weak; PROME if two-tail |
 | Daily | 10Y closes >4.5 streak | BND-07 5-session trigger: Day 1 of 5 | HENRY (duration→risk-asset signal) |
 | Daily | 30Y closes >5 streak | Day ~4 of sustained above 5 | LIQUID (term-premium funding consequences) |
 | Weekly | HY/IG OAS + primary calendar | OAS >300 / pulled deals / issuance freeze | BROCK/REGINALD/HENRY |
