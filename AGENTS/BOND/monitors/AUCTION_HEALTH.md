@@ -30,7 +30,7 @@
 | 2026-05-18 | 13W Bill | — | 3.17 | — | — | — | — | 🟢 | TreasuryDirect | Clean. |
 | 2026-05-18 | 26W Bill | — | 3.07 | — | — | — | — | 🟢 | TreasuryDirect | Clean. |
 | 2026-05-19 | 6W Bill | — | 3.01 | — | — | — | — | 🟢 | TreasuryDirect | Clean. |
-| 2026-05-20 | **20Y Bond** | — | — | — | — | — | — | **PENDING** | TreasuryDirect | Compare against 4/22 reopen BTC 2.68 / indirect 59.6%. Watch list: BTC <2.3, tail >2bps, dealer >12%. |
+| 2026-05-20 | **20Y Bond (new issue)** | $16B | **2.55** | **5.122%** (tail **0bp**, ZH) | **67.7** | **22.9** | **9.4** | 🟢/🟡 | FiscalData CUSIP 912810UV8 + ZH 5/20 ~1:30pm ET (single-source) | **Tail 0bp — stopped on the screws.** New issue (NOT reopen — coupon 5.000%, dated 5/15) vs 4/22 reopen $13B. Indirect rose vs 4/22 (67.7 vs 59.6); dealer near baseline (9.4 vs 8.6). BTC 2.55 below 2.60 clean threshold but above 2.30 stress floor. WI 5.122% at 1pm ET matched high yield exactly (ZH recap). DGS20 5/18 was 5.14% → today priced ~2bp THROUGH prior CMT (demand below the screen). Broke an 11-of-12 stop-through streak but did NOT tail. **No orange trigger fired.** ZH headline mislabeled "7Y"; body is unambiguously 20Y. URL: https://www.zerohedge.com/markets/solid-7y-auction-prices-screws-solid-foreign-demand |
 | 2026-05-21 | 9Y 8M (10Y reopen) | — | — | — | — | — | — | PENDING | TreasuryDirect | 4th consecutive 10Y tail context — pressure on this one. |
 
 ## Open Questions
@@ -42,3 +42,17 @@
 ## May 2026 Refunding Read
 
 All three coupon auctions tailed modestly: 3Y +0.6bp, 10Y +0.4bp, 30Y +0.5bp. Bid/covers were below recent averages, but tails were not large, indirect demand was not collapsing, and dealer take was contained outside the 3Y. Classification: **yellow duration fatigue, not red auction dysfunction**.
+
+## 5/20 20Y Read (post-print, ~2:55pm ET)
+
+**Verdict: Soft-but-functional. Did NOT trigger orange escalation criteria.**
+
+- BTC 2.55 — slightly soft (below 2.60 clean threshold) but well above 2.30 stress floor
+- Indirect 67.7% — **rose** vs Apr 22 reopen (59.6%) and well above 58% clean threshold
+- Dealer 9.4% — near Apr 22 baseline (8.6%); well below 12% watch level
+- Tail: **0bp confirmed (ZH single-source, second-source pending).** WI 5.122% = high yield 5.122%, stopped on the screws. DGS20 5/18 was 5.14% → today priced ~2bp THROUGH prior CMT. Broke 11-of-12 stop-through streak but did NOT tail.
+- **Context:** $16B new issue (not $13B reopen); larger size with strong foreign demand mix is a structurally clean print
+
+**Read against §2 verdict matrix:** sits at the boundary of "clean" (row 1) and "soft but functional" (row 2). Only BTC is in row 2's band. Indirect, dealer, and tail are all in row 1. Tie-breaker rule ("worse of the two") would push to row 2 strictly, but mix is genuinely strong. **Net: yellow duration fatigue confirmed; demand-hole thesis weakened, not strengthened.**
+
+**Implication for 5/21 10Y:** 5th consecutive 10Y is the live escalation gate. If 10Y prints with a tail, BND-07 "firming" persists but doesn't graduate to "FIRED" unless tail is sizeable. The 20Y showing foreign demand reduces base-rate expectation of a 10Y demand hole tomorrow.
