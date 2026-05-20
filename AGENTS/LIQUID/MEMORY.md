@@ -2,7 +2,36 @@
 
 ## Session Notes
 
-### CURRENT SESSION (2026-05-19 — afternoon hygiene + thesis v2 sweep)
+### CURRENT SESSION (2026-05-19 PM #2 — workbook triage)
+
+**Context:** Cleared context after earlier afternoon session. Will queued workbook cleanup (NEXT SESSION item #3 from prior block).
+
+**Delivered (2 passes):**
+
+**Pass 1 — episode + framework triage:**
+- 5 frameworks → `domain/sources/frameworks_20260311/` + README (STAGFLATION_TRAP_MAR11, VIX_COILED_SPRING_MAR11, DIFC_TRANSMISSION_MAR11, HAMILTON_NOPI_MAR18, RAS_LAFFAN_LNG_MAR18). These were episode-attached but contain reusable methodology.
+- 3 episode narratives → `archive/workbook_resolved_mar2026/` + README (GULF_ESCALATION_MAR18, BRENT_SCENARIOS_MAR18, KUWAIT_CURTAILMENT_MAR18). Resolved Mar 18-20 phase-change narrative.
+- 1 auction playbook → `archive/workbook_resolved_jan2026/PLAYBOOK_7Y_AUCTION_20260129.md` + README flagging template-reuse value.
+- 1 misfiled status snapshot → `archive/STATUS_archive_20260325.md`.
+- **2 new KB entries** for durable frameworks: **KB-LIQ-053** Stagflation_Trap_Structural (Mar 10 oil-11%/30Y+4bps confirmation + 60/40 breakdown + trap-broken test), **KB-LIQ-054** Financial_Hub_Transmission (4-path framework: FOI / Bank CDS / War-Risk Insurance / CLO Arranger). Both pointer-link back to the source files now in `domain/sources/frameworks_20260311/`.
+- 5 in-workbook cross-refs updated in KB.tsv/ML.tsv/VX.tsv to new paths. Archive snapshots left untouched as historical state.
+
+**Pass 2 — domain frameworks + tsv files:**
+- `TREASURY_BUYBACK_PATTERN.md` → `domain/sources/frameworks_20260311/` (added to README). Mar-episode-attached but durable insight: Treasury has advance TIC visibility, pre-positions buybacks ahead of release.
+- `ML.tsv` → `domain/sources/ML_historical.tsv` (renamed). KB.tsv is the durable track per operating notes; ML.tsv was effectively superseded. Preserved as historical learning log.
+- `VX_HISTORY.tsv` → `archive/VX_HISTORY_through_20260317.tsv`. Untouched since Mar 17.
+- `CUSTODIAL_VELOCITY_PROTOCOL.md`: kept in workbook/, but 4 internal `ML.tsv` refs updated → `KB.tsv` to match durable-track convention.
+- KEPT in workbook/: AUCTION_FRAMEWORK.md (20Y auction this week), TIC_FRAMEWORK.md (monthly recurring), FLOW.tsv + VX.tsv (registries — load-bearing for KB/ML cross-refs), PREDICTIONS.tsv (small active log), KB.tsv, KILL_MEMO_HY_OAS_260.md, BDC_MARK_CONVERGENCE_MONITOR.md.
+
+**Final workbook/ state:** 9 active files (down from 22). All actively used or referenced.
+
+**Top-level LIQUID surface unchanged** (8 files + 6 directories — same as after PM #1 sweep).
+
+**Open follow-ups (not addressed this session):**
+- `CUSTODIAL_VELOCITY_PROTOCOL.md` (270 lines, Feb 11) prescribes weekly SIFMA velocity pulls that aren't happening. Belgium watch IS live in STATUS thresholds; collateral-velocity piece is unimplemented. Either revive cadence or slim the doc — flagged for separate session.
+- No active "observation" log distinct from KB.tsv durable-findings. If desired in future, that's an architectural choice.
+
+### PRIOR SESSION (2026-05-19 PM #1 — afternoon hygiene + thesis v2 sweep)
 
 **Context:** Multi-pass session. Will directed: "get LIQUID working properly as an agent — much is still stale." Sequenced staleness inventory → THESIS rewrite → architectural hygiene.
 
@@ -50,13 +79,13 @@ MEMORY.md    STATUS.md  STRATEGY.md           USER.md
 
 ### NEXT SESSION
 
-1. **Boot from clean top-level surface.** v2 thesis, refreshed IDENTITY, slimmed TIMELINE, new CHANGELOG entry. STATUS has morning re-verify + intra-day flag.
-2. **Re-verify tape morning of next session.** APO 5/19 close (Day 8 watch), HY OAS print, 30Y/10Y direction (did 5.168 hold or extend? did 4.647 hold or extend?).
-3. **Workbook cleanup pass.** Triage `workbook/` Mar/Apr resolved-episode files (DIFC, Hamilton NOPI, Iran war scenarios, Gulf/Brent/Ras Laffan/Kuwait/VIX coiled spring/Stagflation Mar 11), domain frameworks (TIC, AUCTION, TREASURY_BUYBACK, CUSTODIAL_VELOCITY), and Tier 2 tsv files (FLOW, PREDICTIONS, VX, ML, VX_HISTORY). Decide retire vs maintain in light of KB.tsv being the durable findings track.
-4. **POSITIONS read still gating.** Resolve when Will is ready to discuss positions.
-5. **Cross-agent outboxes if warranted** — BROCK on APO Day 8+, HENRY on 30Y/10Y duration acute.
-6. **BDC Q1 baseline** into `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` (OBDC/ARCC/BXSL/MAIN).
-7. This week's calendar: 20Y auction Wed (VERIFY), initial claims Thu.
+1. **Boot from clean workbook + top-level surface.** v2 thesis, refreshed IDENTITY, slimmed TIMELINE, CHANGELOG. STATUS has 5/19 morning re-verify + intra-day flag. Workbook now 9 active files.
+2. **Re-verify tape.** APO 5/19 close (Day 8 watch), HY OAS print, 30Y/10Y direction (did 5.168 hold or extend? did 4.647 hold or extend?).
+3. **POSITIONS read still gating.** APO co-trigger now ~Day 8+. HYG $75P Jun x10 cut/hold decision still deferred. Resolve when Will is ready.
+4. **Cross-agent outboxes if warranted** — BROCK on APO Day 8+, HENRY on 30Y/10Y duration acute.
+5. **BDC Q1 baseline** into `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` (OBDC/ARCC/BXSL/MAIN).
+6. This week's calendar: 20Y auction Wed (VERIFY), initial claims Thu.
+7. **CUSTODIAL_VELOCITY_PROTOCOL.md decision** — slim it or revive the SIFMA velocity cadence. Belgium watch piece is live; velocity piece is unimplemented.
 
 ### PRIOR SESSION (2026-05-19 morning)
 
