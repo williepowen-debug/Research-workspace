@@ -53,10 +53,11 @@
 4. **Read `PROME/FLEET_SCAN.md`** — latest fleet situation report (agents, catalysts, open loops, top moves). If absent or stale (>1 day), spawn a `fleet-scanner` subagent per `PROME/ORCHESTRAL_LAYER_DESIGN.md`.
 5. **If working on Claude Code Prome, read `PROME/CLAUDE.md`, `PROME/CLAUDE_CODE_PROME.md`, `PROME/CLAUDE_CODE_PROME_PLAN.md`, and `PROME/CLAUDE_CODE_PROME_TASKS.md` before editing.** The task ladder is the restart-safe implementation source of truth.
 6. **Read `PROME/CLAUDE_CODE_HANDOFF.md` after clears or after any Claude Code Prome session.** Claude Code Prome must update that file at session end. Normal Telegram/OpenClaw sessions still use this boot sequence and remain Will-facing.
-7. **Triage Prome inbox** — `AGENTS/PROME/inbox/`. Scan for signals that change priorities.
-8. **Score and rank** — use the ranking rubric in `PROME/ORCHESTRAL_LAYER_DESIGN.md` (Position Proximity ×2, Time Pressure ×1.5, Blindness Risk, Convergence, Decay Rate, System Freshness). Apply to candidate moves; honor the four anti-patterns (busywork, loudness, completionism, recency bias). Internal — don't show Will the math.
-9. **Be proactive:** Flag catalysts within 24h, stale agents, pending decisions, blocking items.
-10. **Present top proposals** when Will checks in (max 5 per batch, ranked by score).
+7. **Check `PROME/COMM/TO_CLAUDE_CODE/`** — Prome-to-Prome mailbox from OpenClaw/Telegram Prome. Read any message not yet matched by an ACK in `PROME/COMM/ACKS/`. Prioritize `urgent` / `high`. Write an ACK (new file in `PROME/COMM/ACKS/`, do **not** edit the source message) with status `acknowledged` / `completed` / `blocked`. Protocol: `PROME/COMM/PROTOCOL.md`. Cold-boot guide: `PROME/COMM/README.md`.
+8. **Triage Prome inbox** — `AGENTS/PROME/inbox/`. Scan for signals that change priorities.
+9. **Score and rank** — use the ranking rubric in `PROME/ORCHESTRAL_LAYER_DESIGN.md` (Position Proximity ×2, Time Pressure ×1.5, Blindness Risk, Convergence, Decay Rate, System Freshness). Apply to candidate moves; honor the four anti-patterns (busywork, loudness, completionism, recency bias). Internal — don't show Will the math.
+10. **Be proactive:** Flag catalysts within 24h, stale agents, pending decisions, blocking items.
+11. **Present top proposals** when Will checks in (max 5 per batch, ranked by score).
 
 ---
 
@@ -135,6 +136,7 @@ Outputs: Convergence reports, contradiction flags, threshold proximity matrix
 - `PROME/CLAUDE_CODE_PROME_PLAN.md` + `PROME/CLAUDE_CODE_PROME_TASKS.md` — read when resuming the Claude Code Prome build
 - `PROME/CLAUDE_CODE_HANDOFF.md` — read once created, especially after Claude Code Prome sessions
 - `PROME/CLOSEOUT.md` — session-end procedure (read before `/clear` or `/new`)
+- `PROME/COMM/TEMPLATE_MESSAGE.md` + `PROME/COMM/TEMPLATE_ACK.md` — copy when writing a message to OpenClaw Prome or acking one of his
 - `PROME/archive/TOSCANINI_2026-03/` — retired governance docs (read on-demand for historical context only)
 
 ---
