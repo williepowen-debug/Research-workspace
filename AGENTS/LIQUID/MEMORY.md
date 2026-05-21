@@ -2,7 +2,54 @@
 
 ## Session Notes
 
-### CURRENT SESSION (2026-05-19 PM #2 — workbook triage)
+### CURRENT SESSION (2026-05-20 — file-tree audit + 20Y auction + STATUS restructure)
+
+**Context:** Will requested file-tree audit at boot. Session evolved through 4 distinct phases: hygiene → 20Y signal pickup → STATUS prune → POV-preservation + dashboard restructure.
+
+**Delivered:**
+
+**Phase 1 — File-tree audit + 5 cleanups:**
+- CLAUDE.md FILES table expanded (was missing 9 active files — boot docs, thesis/, workbook secondary). 12 → 22 rows.
+- `archive/recon_legacy_20260315/recon_subfolder/` flattened (single-file ghost dir).
+- `archive/status_snapshots/` subdir created for 3 loose STATUS files; archive root now uniform subdir-only structure.
+- CALENDAR.md verify-pass — 8 dates corrected via web-search vs Treasury/BLS/BEA/Fed schedules. Biggest: **20Y auction was 5/20 (today), not 5/21**; April PCE Thu 5/28 (not Fri 5/30); NFP Fri 6/5; CPI Wed 6/10; FOMC Wed 6/17 (decision day, not 6/18).
+- `CUSTODIAL_VELOCITY_PROTOCOL.md` (270 lines, Feb 11) — Belgium watch cadence dormant ~14 weeks. Decision: **slim to KB entries.** Wrote KB-LIQ-055 (Foreign_Custodial_Flow_Disaggregation) + KB-LIQ-056 (Collateral_Velocity_Ratio); moved full doc to `domain/sources/CUSTODIAL_VELOCITY_PROTOCOL_20260211.md`. Resolves an open-follow-up that had been carrying for 2 sessions.
+
+**Phase 2 — 20Y auction integration (Will-prompted; signal not in my inbox yet):**
+- Will flagged that BOND had probably sent a signal. Found 2 BOND outbox files awaiting HERMES delivery: `2026-05-19_to-LIQUID_10y_break_30y_sustained.md` (pre-auction ask: SOFR-IORB -12bps = ample-reserves or stress-not-yet-funded?) and `2026-05-20_to-PROME_20Y-post-auction.md` (post-auction read).
+- **5/20 20Y NEW issue ($16B, CUSIP 912810UV8) printed soft-but-functional, NO orange trigger:** BTC 2.55 (soft), indirect 67.7% (STRONG vs 55% LIQUID trigger), tail 0bp (stopped on screws, paid through screen), dealer 9.4% (clean near 4/22 baseline 8.6%).
+- KB-LIQ-057 (Foreign_Demand_Showed_At_Price) authored — refines v2 Leg B: foreign-demand-canary reading of 5/13-5/19 long-end break is disproved by this print. Demand hole compresses price, doesn't break mechanism. Late-session sharpened to two-poles framing after Will-prompted reflection (see "Open follow-ups" below).
+- Outbox to BOND: 4-point cross-check answering SOFR-IORB ample-reserves question. (HERMES sweep pending.)
+
+**Phase 3 — STATUS prune (265 → 153 lines, 42% reduction; well under 250 ceiling):**
+- Steps 1+2: Deleted Apr 16 Refresh (~48 lines) + Apr 16 Plumbing Dashboard (~23 lines) + replaced Durable Signals Log table with KB.tsv pointer (~16 lines). Fixed thresholds-table contradiction (Apr 16 LIQ-01-320 framing was contradicting current 260-kill / 320-confirmation HEARTBEAT framework). Deduped USD/JPY rows. Pinned APO day-count at Day 9 (5/8→5/20 inclusive).
+- Steps 3+4: Compressed May 18 Revival Read + May 19 Live Re-Verification narrative sections (~50 lines) into one 5-line "Key Recent Marks" preserving the load-bearing 30Y 5.168 intra-day life-high. Restructured single mixed-metric Thresholds table into **3 separate dashboards per CLAUDE.md prescription** — Credit Spreads, Domestic Plumbing, Foreign Official. Each dashboard is a single table; metrics no longer mixed across categories.
+- Re-stamped 5/19→5/20 across Cross-Domain Signals / Active Proposals / Active Positions / Danger Windows.
+
+**Phase 4 — POV preservation + KB-LIQ-057 sharpening:**
+- Before pruning historical STATUS narrative, Will raised the concern that LIQUID's POV-evolution arc would be lost. Extended `thesis/CHANGELOG.md` with **5 POV-pivot entries** (5/20 foreign-demand-canary refined → 5/19 trigger-watch dormancy → 5/18 channel migration → 4/16 SOFR breach → 4/10 Path A confirmation). Each entry: prior view → revised view + trigger + durable anchor (KB entry / file).
+- Late-session reflection: KB-LIQ-057 headline could be misread as "demand-hole is fine." Sharpened with "⚠️ READ BEFORE CITING" preamble + two-poles framing (mechanism-failure DORMANT, term-premium ratchet ACTIVE). A successful 5.122% auction is now explicitly framed as evidence of transmission via term premium (price had to rise ~+50bps from late-2024 absorption to clear).
+- Added explicit "5/21 10Y is the reassessment trigger" callout to Thesis-Kill Proximity in STATUS — names the gate that should resolve the APO co-trigger reassessment that's been carrying ~10 days.
+
+**Commits pushed:**
+- `71d6a9f3` LIQUID: file-tree audit + 20Y auction integration + STATUS prune (5/20) — initially got bundled into BRENT commit f246d36f due to concurrent agent staging; BRENT session corrected before push; my commit landed clean afterward.
+- `06f28e2d` LIQUID: STATUS 3-dashboard restructure + KB-LIQ-057 sharpened — rebased onto SENTRY feed update ab86b6c8 and pushed clean.
+
+**Major findings this session:**
+
+- **POV-pivots-in-CHANGELOG is a transferable pattern** — bridges KB.tsv (point-in-time facts) and formal version revisions (CHANGELOG's original role). Captures the "I changed my mind about X because Y" trajectory that neither alone preserves. Will explicitly noted transferability to CARL/BROCK. Saved as auto-memory `finding_pov_changelog_pattern.md`.
+- **Concurrent agent commits can bundle work into wrong-titled commits.** When two Claude Code sessions stage files simultaneously, one session's commit can sweep up the other's staged files under its own message. Reinforces existing memory `feedback_agent_git_isolation.md` and `feedback_check_staged_before_commit.md`. The fix this time was BRENT noticing + amending; the pattern to remember is: **on concurrent activity, watch the commit's file list, not just the staged diff.**
+- **KB entries with strong directional language need guard-rails.** KB-LIQ-057 needed a "READ BEFORE CITING" preamble because the headline framing could be misread. Pattern: when a KB entry refines transmission *mode* (not *whether*), explicitly state both — what's now-active and what was-disproved — to prevent the entry being cited for the wrong conclusion in a future session.
+
+**Open follow-ups (carried into NEXT SESSION):**
+
+- **5/21 10Y reopening (today, 1pm ET) is the reassessment trigger.** Leg 2 of BOND's two-leg watch. Corroboration test for KB-LIQ-057 (term-premium-digestion vs mechanism-failure poles). The input that should finally resolve the APO co-trigger reassessment that's been carrying for ~10 days.
+- **APO co-trigger reassessment STILL pending.** Day 10 by 5/21 close if APO holds >$130. Reassessment overdue per HEARTBEAT line 80; STATUS now explicitly tells next session to resolve on 5/21 print or carry-forward with stated reason.
+- **HYG $75P Jun x10** — June expiry, theta-killer with HY OAS 286 (vs 320 trigger; cushion to kill widening, not narrowing). Cut/hold decision gated on (1) 5/21 10Y print and (2) APO reassessment.
+- **Cross-agent outboxes**: BROCK on APO Day 10+ if reassessment fires; HENRY on duration acute if 10Y reopening prints weak.
+- BDC Q1 continuation (OBDC/ARCC/BXSL/MAIN) if any prints land.
+
+### PRIOR SESSION (2026-05-19 PM #2 — workbook triage)
 
 **Context:** Cleared context after earlier afternoon session. Will queued workbook cleanup (NEXT SESSION item #3 from prior block).
 
@@ -84,13 +131,15 @@ MEMORY.md    STATUS.md  STRATEGY.md           USER.md
 
 ### NEXT SESSION
 
-1. **Boot from clean workbook + top-level surface.** v2 thesis, refreshed IDENTITY, slimmed TIMELINE, CHANGELOG. STATUS has 5/19 morning re-verify + intra-day flag. Workbook now 9 active files.
-2. **Re-verify tape.** APO 5/19 close (Day 8 watch), HY OAS print, 30Y/10Y direction (did 5.168 hold or extend? did 4.647 hold or extend?).
-3. **POSITIONS read still gating.** APO co-trigger now ~Day 8+. HYG $75P Jun x10 cut/hold decision still deferred. Resolve when Will is ready.
-4. **Cross-agent outboxes if warranted** — BROCK on APO Day 8+, HENRY on 30Y/10Y duration acute.
-5. **BDC Q1 baseline** into `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` (OBDC/ARCC/BXSL/MAIN).
-6. This week's calendar: 20Y auction Wed (VERIFY), initial claims Thu.
-7. **CUSTODIAL_VELOCITY_PROTOCOL.md decision** — slim it or revive the SIFMA velocity cadence. Belgium watch piece is live; velocity piece is unimplemented.
+1. **Boot from STATUS 3-dashboard structure** (151 lines, well under ceiling). Credit / Domestic Plumbing / Foreign Official tables — each dashboard is single-category. APO Day count pinned (manual increment per session).
+2. **5/21 10Y reopening today 1pm ET is the gate.** BOND-led Leg 2. Two questions resolve on this print:
+   - **KB-LIQ-057 corroboration:** clean print → term-premium-digestion pole confirmed; tail → mechanism-failure pole partially reopens for 10Y buyer mix.
+   - **APO co-trigger reassessment (Day 10+):** carrying for 10 days; HEARTBEAT line 80 overdue. Use 10Y print + 5/21 HY OAS read as inputs. **Do NOT defer another session without stated reason** (per STATUS Thesis-Kill callout).
+3. **HYG $75P Jun x10 cut/hold decision** — gated on (2). June expiry = theta-killer; cushion to 260 kill is widening, not narrowing.
+4. **Cross-agent outboxes** post-reassessment: BROCK on APO Day 10+ (especially if FSK NAV -9.9% + bull-recovery divergence remains loud), HENRY on duration if 10Y prints weak.
+5. **BDC Q1 continuation** if any prints land (OBDC/ARCC/BXSL/MAIN) → `workbook/BDC_MARK_CONVERGENCE_MONITOR.md`.
+6. **Initial claims Thu 5/21** — sanity check on labor (>250k = labor weakening; >300k = recession-signal).
+7. **HERMES sweep** likely happens between sessions — my 5/20 BOND outbox should land in BOND's inbox.
 
 ### PRIOR SESSION (2026-05-19 morning)
 
