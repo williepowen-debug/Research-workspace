@@ -211,6 +211,34 @@ Curated long-term insights on VIX, volatility regimes, and credit-vol transmissi
 
 ---
 
+## METRIC SEMANTICS — final_5d_change vs 20d regression slope
+
+**Added 2026-05-21 (methodology audit, Prome ask). KB-VIO-059.**
+
+VIOLET tracks two distinct "slope" metrics on SKEW that have been historically conflated in STATUS.md narrative. Keeping them straight matters because they tell different stories.
+
+### `final_5d_change` (the regime-termination indicator)
+- **Definition:** `SKEW(t) - SKEW(t - 5td)` — endpoint difference over 5 trading days.
+- **Computed by:** `scripts/regime_termination.py:118` (`slope = float(final5.iloc[-1] - final5.iloc[0])`).
+- **Units:** Absolute SKEW points moved over 5 td.
+- **R11 analog threshold:** `final_5d_change <= -2.0` historically marks PRE_EVENT_FADE regimes.
+- **Distribution across the 4 PRE_EVENT_FADE regimes:** R1 -1.0, R2 -0.6, R5 -1.9, R11 -2.0.
+- **Reading on the current regime (R12):** Hit -9.20 on 5/20 — but driven by single-day spike (5/15 145.77 → 5/20 132.31 in 3 td), not sustained-grind archetype like prior PRE_EVENT_FADE regimes.
+- **Misleading label in old STATUS.md / KB:** Was called "20d-SKEW-slope" through 5/13. Renamed `final_5d_change` 5/21 (KB-VIO-051, KB-VIO-058 corrected with [LABEL CORRECTED] preambles).
+
+### 20d regression slope (separate metric, not the same thing)
+- **Definition:** Linear regression of SKEW values on day-index over a trailing 20 trading-day window. Slope in SKEW-points-per-day.
+- **Units:** SKEW points per day.
+- **Reading on R12 termination:** Through 5/13 = -0.118; through 5/20 = -0.140. Attenuated from early-May -0.49. Has been negative since early May (not "sign-flipped" anywhere recently).
+- **Use case:** Background trend health (gradual fade vs sharp termination). Not a discrete trigger threshold.
+
+### Why this matters
+The 5/13 STATUS billed "20d-SKEW-slope SIGN-FLIPPED +0.6 → -1.0" as the FIRST genuine thesis-positive signal of the boot. The substantive call (R12 regime is fading, R11 analog activating) was directionally correct. But the LABEL was wrong on two counts: (1) it wasn't a 20-day slope, it was a 5-day endpoint change; (2) the 20-day regression slope wasn't "sign-flipped" because it had been negative since early May. The mislabel risked over-reading the signal as a sudden trend break when it was a continuous endpoint-difference metric crossing zero.
+
+**Rule going forward:** When STATUS or sub-agent prompts cite a "slope" on SKEW, name it explicitly — `final_5d_change` for the regime-termination indicator, `20d_regr_slope` for the trend health metric. The two will often diverge in shape (5d endpoint can spike on a single day; 20d regression smooths) and they answer different questions.
+
+---
+
 ## KEY RELATIONSHIPS
 
 | Relationship | Normal | Stress | Implication |
