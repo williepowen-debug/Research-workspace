@@ -164,6 +164,25 @@ def row(cells, widths):
     return BOX_V + BOX_V.join(parts) + BOX_V
 
 
+def _date_stamp(entry):
+    """Format an as-of date stamp for FRED-sourced entries.
+
+    Returns short MM/DD label if entry has a date (FRED observation date);
+    empty string for yfinance-sourced entries (which are intraday-live).
+
+    Surfaces FRED's T+1 publication lag in user-facing output so agents
+    don't propagate stale-data-as-live. Per citation convention in
+    FORGE/tools/market-data/README.md § Citation Convention.
+    """
+    if not entry.get("date"):
+        return ""
+    try:
+        obs = datetime.date.fromisoformat(entry["date"])
+        return f"[{obs.month}/{obs.day}]"
+    except (ValueError, TypeError):
+        return f"[{entry['date']}]"
+
+
 def stress_score(results):
     """Weighted stress: Tier 1 reds = 2pts, Tier 2 reds = 1pt."""
     score = 0
@@ -191,9 +210,9 @@ def print_table(results, title, transitions=None):
 
     print(f"\n  {title}")
 
-    widths = [18, 14, 12, 10]
+    widths = [18, 20, 8, 12, 10]
     print(f"  {hr(widths, BOX_TL, BOX_TM, BOX_TR)}")
-    print(f"  {row(['Series', 'Value', 'Zone', 'Agent'], widths)}")
+    print(f"  {row(['Series', 'Value', 'As-of', 'Zone', 'Agent'], widths)}")
     print(f"  {hr(widths, BOX_ML, BOX_MC, BOX_MR)}")
 
     for r in results:
@@ -214,8 +233,9 @@ def print_table(results, title, transitions=None):
                 change_str = f" ({sign}{r['change']:.2f})"
 
         val_str = f"{r['formatted']}{change_str}"
+        date_str = _date_stamp(r)
 
-        print(f"  {row([r['name'], val_str, zone_str + trans, r['agent']], widths)}")
+        print(f"  {row([r['name'], val_str, date_str, zone_str + trans, r['agent']], widths)}")
 
         # Shadow adjustment line
         if r.get("shadow"):
@@ -232,7 +252,9 @@ def print_compact(results, transitions=None):
         if transitions and r["name"] in transitions:
             old, new = transitions[r["name"]]
             trans = f" ← was {get_emoji(old)}"
-        print(f"{r['emoji']} {r['name']}: {r['formatted']}{trans}  [{r['agent']}]")
+        date_str = _date_stamp(r)
+        date_part = f" {date_str}" if date_str else ""
+        print(f"{r['emoji']} {r['name']}: {r['formatted']}{date_part}{trans}  [{r['agent']}]")
         if r.get("shadow"):
             print(f"   ({r['shadow']['label']}: {r['shadow']['formatted']})")
 
