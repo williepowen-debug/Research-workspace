@@ -1,48 +1,114 @@
 # HENRY STATUS
 
-**Signal Status:** 🟡 COMPLACENCY TRAP — **VIX 17.76, Brent $90.67, HY OAS 285 (stale)** | Hormuz "completely open" Apr 17 AM → oil closed off lows (-8.8% Brent vs -11% intraday) | **Last Updated:** 2026-04-17 EOD (~16:00 ET)
+**Signal Status:** 🟠 **TRAP CLINCHING — substance accelerating, surface refusing; R11 analog clock NOW RUNNING (window 5/28-6/02, prior 36%) per VIOLET 5/21 LIAISON.** Literal triad: 1 fired (SPX >7,100 entrenched ~20 sessions), 1 compressing (HY OAS 286, cycle min 276, cushion 26bps after widening +6bps from 5/17 floor), 1 flat (VIX 17.38). VIX9D 15.02 = front-vol crushed *below* 15 for first time in regime. Substance side accelerating: 10Y 4.67% (+42bps; 8bps from VIOLET R11 substance trigger 4.75%), CCC 948bps (+13bps over window), WAL Bear-medium 30% V2.2 (REGINALD, today), BROCK Stage 2 APO trigger entrenched, FSK Max Bear. NVDA 5/20 print drifted -1.5% intraday 5/21 — **clean beat, no tone-shift catalyst; trap deepens path.** **R12 SKEW>140 regime TERMINATED 5/18-5/20** (4/5 closes <140, low 132.31) — regime termination ACTIVATES R11 clock, does not deactivate vol-spike pathway. **Last Updated:** 2026-05-21 ~14:30 ET (LIAISON integration pass).
+
+**Revival lineage:** Apr 17 EOD → 34-day dark window → Prome v3 revival proxy 5/18 (packet + draft + framing-precision overlay) → this integration 5/21. PROVENANCE files staying in `inbox/processed/` for audit trail.
 
 ---
 
-## MARKET DATA — Apr 17, 2026 EOD
+## LIVE TAPE — May 21, 2026
 
-| Metric | EOD | Δ vs Apr 16 close | Δ vs AM (10:40) | Source | Status |
-|--------|-----|-------------------|-----------------|--------|--------|
-| SPX | **7,123.77** | +1.17% | flat | yfinance | 🟡 |
-| VIX | **17.76** | -1.00% | +0.10 | yfinance | 🟡 No further compression |
-| VIX3M | 20.68 | — | +0.25 | yfinance | Term structure slightly wider |
-| SKEW | 140.74 | flat | flat | yfinance | 🟠 Holds >140 — FADE_RERAMP active (VIOLET) |
-| Brent | **$90.67** | **-8.77%** | **+$2.51** | yfinance | 🟡 Partial retrace — skepticism on unilateral |
-| WTI | **$83.18** | **-12.16%** | +$2.16 | yfinance | 🟡 Same — off intraday lows |
-| Gas (AAA) | **$4.076** | -$0.047 | — | AAA | 🔴 Still >$4 |
-| 10Y Yield | 4.25% | -1bp | +1bp | yfinance | 🟡 |
-| USD/JPY | **158.55** | -0.16% | +0.84 | yfinance | 🟠 Yen gave back |
-| HY OAS | 285bps (Apr 16) | — | — | FRED (1-day lag) | 🟢 Apr 17 print tomorrow AM |
-| CCC OAS | 924bps (Apr 2) | — | — | FRED | 🟡 |
-| KRE | **$70.38** | +2.24% | **-$0.55** | yfinance | 🟡 Gave back — AM bid was Hormuz beta |
-| APO | **$124.28** | +2.87% | -$2.20 | yfinance | 🟡 Faded |
-| TLT | $87.04 | +0.88% | -$0.07 | yfinance | — |
-| HYG | $80.62 | +0.34% | — | yfinance | 🟢 Risk-on |
-| LQD | $110.04 | +0.56% | — | yfinance | 🟢 Bid |
+| Metric | Live (5/21) | 5/18 packet | Δ over window | Apr 17 EOD | Status | Source |
+|--------|-------------|-------------|---------------|------------|--------|--------|
+| **SPX** | **7,413.67** | 7,403.05 | +10 | 7,123.77 | 🟢 above 7,100 invalidation ~20 sessions | yfinance ^GSPC |
+| **VIX** | **17.38** | 17.82 | -0.44 | 17.76 | 🟡 refusing to break range; cycle low ~17 | yfinance ^VIX |
+| **VIX3M** | 20.58 | 20.92 | -0.34 | 20.68 | 🟢 deep contango | yfinance |
+| **VIX9D** | **15.02** | 16.86 | -1.84 | n/a | 🔴 **first sub-15 front vol of regime** — see §VOL REGIME | yfinance ^VIX9D |
+| **VIX3M/VIX** | 1.184 | 1.174 | +0.010 | 1.160 | 🟢 deeper contango | calc |
+| **VVIX** | 94.19 | 91.18 | +3.01 | 94.26 | 🟢 not stressed; back to Apr 17 level | yfinance |
+| **SKEW** | **132.31** | 138.40 | **-6.09** | 140.74 | 🟡→🟢 **out of 140+ regime** post-NVDA | yfinance ^SKEW |
+| **NVDA** | $220.15 (-1.48%) | $222.32 pre-print | — | n/a | post-print drift, no tone-shift trade | yfinance |
+| **SMH** | $563.15 (-0.27%) | $566.54 | -$3.39 | n/a | tracking NVDA softness | yfinance |
+| **10Y Yield** | **4.67%** 🔴 | 4.59% | **+8bps** | 4.25% | 🔴 +42bps over 34d; into 4.8% zone | yfinance ^TNX |
+| **TLT** | $83.61 | $83.56 | flat | $87.04 | 🔴 confirms duration regime | yfinance |
+| **HY OAS** | **286bps** | 280bps | **+6bps** | 285bps | 🟢 widening AWAY from 260 kill (cushion 26bps) | BROCK 5/21 dashboard |
+| **CCC OAS** | **948bps** | 935bps | +13bps | 924bps | 🟡 quality bifurcation deepening | BROCK 5/21 dashboard |
+| **KRE** | $68.76 (-0.59%) | $67.92 | +$0.84 | $70.38 | 🟡 bank tape recovered modestly; 3.76 above $65 trigger | yfinance |
+| **WAL** | **$77.96** (+1.21%) | $76.59 | +$1.37 | n/a | 🟡 REGINALD-primary; V2.2 Bear-medium 30% / EV $67.98 / ~14% over | yfinance |
+| **Brent** | $106.95 | $109.73 | -$2.78 | $90.67 | 🔴 sustained >$100; +$16 over 34d | BROCK 5/21 dashboard |
+| **USD/JPY** | (pull) | 158.93 | — | 158.55 | 🟠 SAM-primary | — |
 
 ---
 
 ## VOL REGIME
 
-*VIX/term structure/VVIX/SKEW owned by VIOLET — values below are `[CONF VIOLET Apr 17]` from her `workbook/VX_DAILY.tsv` 14:32 UTC pull. Do not duplicate-track; pull from her file.*
+*VIX/term structure/VVIX/SKEW co-owned with VIOLET. **HENRY-VIOLET LIAISON channel OPEN 2026-05-21** post-NVDA slope/SKEW reconciliation. VIOLET first-pass landed same day (5/21); integrated below.*
 
-- **VIX:** 17.62 | **VIX3M:** 20.43 | **VIX6M:** 22.47 | **VIX3M/VIX:** 1.160 (steepening, further from inversion)
-- **VVIX:** 94.26 (compressed from 100.09 Apr 16; well below 120 stress threshold) — dealer vol-of-vol premium collapsing on Hormuz reopen
-- **SKEW:** 140.74 (**bounced** from 139.23 Apr 16; back above 140) — reverses VIOLET's Apr 16 "peaceful resolution" watch; re-activates FADE_RERAMP path (69% historical) if holds
-- **Term structure:** VX M1 (K6) / M2 (M6) **+2.54% contango, roll-adjusted** (below 5.6% avg; flat-ish but normal, not backwardation)
-- **Regime (VIOLET):** LOW_VOL — credit-vol correlation weak (~0.06), credit leads vol 6-16 weeks in this regime
-- **Vol-control layer:** VIX <23 = mechanical buying; INACTIVE-BUYING (compression = flow-in)
-- **0DTE SPX share:** *PENDING* — HENRY domain, SpotGamma/Barchart wire-up needed
-- **GEX regime:** *PENDING* — HENRY domain, SpotGamma gated
-- **MOVE / HY OAS bracket (LIQUID Apr 10):** HY OAS <300 = squeeze path (Apr 16 @ 285); >340 = stress path. Hormuz reopen should compress further — sub-260 sustained would trip thesis invalidation.
-- **VIOLET tactical trigger (not armed):** HY OAS +100bps from Jan 22 trough (264) → VIX 15-26 regime = 2-6wk lead to VIX >10pt spike. Currently only +20bps from trough.
+- **VIX:** 17.38 | **VIX3M:** 20.58 | **VIX9D:** 15.02 (BELOW 15-thresh sub-component) | **VIX3M/VIX:** 1.184 (deeper contango)
+- **VVIX:** 94.19 (back to Apr 17 level; further from 120 stress)
+- **SKEW:** 132.31 — **R12 SKEW>140 REGIME LIKELY TERMINATED 5/18-5/20** per VIOLET 5/21 (4/5 last closes <140, low 132.31). 223+ td streak ended. HENRY hypothesis confirmed on R12.
+- **20d-SKEW-slope label correction (VIOLET 5/21):** the 5/13 STATUS "20d-SKEW-slope SIGN-FLIPPED -1.0" was actually `final_5d_change`, not a 20d regression slope. Substantive direction-call was right; label was wrong. HENRY uses `final_5d_change` terminology going forward when citing VIOLET's metric.
+- **R11 ANALOG CLOCK IS NOW RUNNING (window 5/28-6/02), prior 36%.** HENRY's earlier "R11 weakens" hypothesis was **half right**: R12 regime done (correct), but R11 does NOT auto-deactivate — it activates on regime termination with a lower prior. Vol-spike pathway is LIVE not dead.
+- **VIOLET 7-trigger Stage 3 watch list (R11 confirming):** **2 of {VVIX>105, VIX9D>VIX, SKEW>145} fire same week as 1 of {HY OAS>2.90, CCC>10.00, 10Y>4.75%}** → R11 confirms; vol-spike pathway transitions from clock-running to firing. Current state: 0/3 surface triggers (VVIX 94, VIX9D 15.02 << VIX 17.38, SKEW 132); 1/3 substance triggers within reach (10Y 4.67%, 8bps from 4.75%; CCC 948 = 9.48 below 10.00 by 52bps; HY 2.86 below 2.90 by 4bps — VIOLET surfaced HY proximity as 8bps in 5/13 framework).
+- **Regime (VIOLET):** LOW_VOL — credit-vol correlation ~0.06, credit leads vol 6-16 weeks.
+- **VIX9D < 15:** first front-vol crush below 15 of regime — short-dated complacency at cycle extreme. Pairs with VVIX 94 and SKEW 132 = **vol surface decisively fading the NVDA print**. The market read NVDA as a clean beat with no transmission catalyst.
+- **Vol-control layer:** VIX <23 = mechanical buying; INACTIVE-BUYING (compression = flow-in).
+- **0DTE SPX share / GEX regime:** *STILL PENDING — HENRY GAP.* Per 5/14 gamma/momentum signal — positive gamma + 0DTE amplifier is the standing hypothesis explaining VIX floor. Manual SpotGamma estimate acceptable; full wire-up backlogged.
 
-*Next refresh: HENRY to wire 0DTE + GEX via SpotGamma/Barchart; fresh HY OAS Apr 17 close via FRED tomorrow AM.*
+---
+
+## INVALIDATION TRIAD — LITERAL STATUS (per 5/18 framing-precision overlay)
+
+| Criterion | Literal threshold | Live (5/21) | Literal status |
+|---|---|---|---|
+| HY OAS <260 sustained 5 sess | <260 × 5 | 286 (cycle min 276, 5/17) | **Not fired. Compressing toward kill stalled; WIDENING +6bps from cycle min.** |
+| VIX <15 single session | <15 | 17.38 (VIX9D 15.02 sub-component) | **Not fired (spot). VIX9D within 0.02 of threshold = first proximity.** |
+| SPX >7,100 5 sessions | >7,100 × 5 | 7,413, held ~20 sessions | **Fired and entrenched.** |
+
+**Literal count: 1 fired + 1 compressing + 1 flat.** Use this count, not "2 of 3" — per framing-precision overlay, the trajectory framing invites a defense problem that the literal count doesn't.
+
+### Tape/Substance Divergence Metric (replaces bare triad watch)
+
+| Side | Status |
+|---|---|
+| **Tape (cushion-from-kill)** | HY OAS cushion 26bps (widening). VIX cushion 2.38pts. SPX entrenched above. **Calmer not crackier.** Tape side UN-FIRING from cycle min. |
+| **Substance** | CPI 3.8% Apr (hotter than Mar 3.3%), PPI 6.0% YoY largest MoM since Dec 2022, Brent $107 sustained >$100, 10Y 4.67% (+42bps), CCC 948 (+13bps), FSK Q1 NAV -9.9%, BIZD $12.60, WAL below $80 with REGINALD V2.2 Bear-medium 30%, KRE trending toward $65. **Accelerating wrong way.** |
+| **Divergence verdict** | **WIDENING.** Trap clinching, not unwinding, not softly killing. Conviction ↑ on the regime read; conviction-via-tape-confirmation ↓ (tape continues to refuse). |
+
+---
+
+## THESIS STATE — COMPLACENCY TRAP CLINCHING
+
+**Working thesis (May 21):** The trap IS the divergence between (a) substance + duration + bank/BDC stress accelerating and (b) vol + credit refusing to confirm. 2026 active transmission migrated PLUMBING → DURATION (per LIQUID 5/18 reframe). NVDA 5/20 was the most-likely near-term catalyst; print was a clean beat — surface faded it (SKEW -6, VIX9D crushed below 15) without forcing a tone-shift unwind. **Trap deepens path.**
+
+### Confirmed/amplifying (substance accelerating)
+- ✅ Apr CPI 3.8% / Core 2.8% — hotter than Mar 3.3% baseline (HEN-22 confirm)
+- ✅ Apr PPI 6.0% YoY / largest MoM since Dec 2022 — Fed-can't-cut locked
+- ✅ Brent $107 sustained >$100 (BRENT dependency direction RE-CONFIRMED — was inverse in Apr 17 STATUS)
+- ✅ 10Y 4.67% (+42bps over 34d) — broke through 4.5% yellow into 4.8% zone (duration channel widening)
+- ✅ TLT $83.61 — confirms duration break (no 60/40 escape)
+- ✅ CCC OAS 948 — quality bifurcation deepening (HY held; tail wider)
+- ✅ FSK Q1 Max Bear (NAV -9.9% QoQ, non-accruals 8.1%/4.2%) — BDC mark stress (BROCK)
+- ✅ BIZD $12.60 — at red threshold edge (BROCK)
+- ✅ WAL V2.2 Bear-medium 30%, $99M life-science walk-away + Curley exit (REGINALD)
+- ✅ APO sustained >$130 13+ sessions — Stage 2 trigger entrenched (BROCK)
+- ✅ NY Fed Q1 HHDC: student-loan 90+d 10.3%, 2.6M Q1 defaults (2.6x QoQ); CC 90+d ~13% — COVID-forbearance-end transmission firing (WALTER SIG 5/13 → CARL primary)
+
+### Counter-signals (the TRAP itself — tape refusing to confirm)
+- ⚠️ VIX 17.38 — 31-day band 17.3-18.5 through CPI 3.8%, PPI 6.0%, Brent $109, FSK Max Bear
+- ⚠️ VIX9D 15.02 = front-vol crushed BELOW 15 = aggressive immediate-tape complacency
+- ⚠️ HY OAS 286 with cycle min 276 — gentle compression stalled at 276-280 floor; widening +6bps from min
+- ⚠️ SPX 7,413 — entrenched above 7,100 invalidation 20+ sessions; structural bid intact
+- ⚠️ SKEW 132 — out of 140+ regime first time in 223+td — directionally weakens VIOLET vol-spike pathway, needs slope reconfirm
+- ⚠️ Positive gamma + 0DTE + record call notional + SOX RSI 1999-high (signal 5/14, 5/9) = mechanical-bid hypothesis
+
+### Counter-evidence from WALTER (bull-side counter-evidence; pending integration)
+- 🟡 **SIG-W-20260513-006:** LSEG/Yardeni S&P 600/SPX 0.76 = deepest small/mid-cap fwd P/E discount in 25+ years (structural QDIA-TDF passive-large-cap-tilt mechanism). Counter-evidence to bear POSITIONING_VALUATION cluster.
+- 🟡 **SIG-W-20260513-007:** SentimenTrader retail-puts-at-SPY-ATH — 10 analogs since 2002 / median +20.76% fwd 1yr / all higher 1yr later; ROBO P/C 0.54. 2nd institutional-grade bull-counter within 2d. 4th tape-vs-substance bifurcation observation. **Net read:** these are not invalidation events for trap-clinching framework — they REINFORCE the divergence (substance bearish, positioning/tape neutral-to-bullish = wider divergence = trap deepens). But they are honest pushback on positioning conviction. Flag for the next surveillance cycle.
+
+### Vol-spike pathway (HENRY-VIOLET shared canary — RECONCILED 5/21)
+- 🟠 **R12 SKEW>140 regime LIKELY TERMINATED 5/18-5/20** per VIOLET 5/21 (4/5 closes <140, low 132.31). 223+ td streak ended.
+- 🟠 **R11 analog clock NOW RUNNING — window 5/28-6/02, prior 36%.** Regime termination activates clock; R11 does NOT auto-deactivate on R12 termination. Pathway is live not dead. HENRY's pre-LIAISON hypothesis was half-right (R12 yes; R11 weakens — no).
+- 🟠 **VIOLET 7-trigger Stage 3 watch list:** 2 of {VVIX>105, VIX9D>VIX, SKEW>145} same week as 1 of {HY OAS>2.90, CCC>10.00, 10Y>4.75%} = R11 confirms. Current: 0/3 surface + 1/3 substance within striking proximity (10Y 4.67%, 8bps from 4.75% trigger).
+- 📝 **Metric label correction:** VIOLET's "20d-SKEW-slope" cited in earlier HENRY STATUS was actually `final_5d_change`. Substantive direction-call was right; label was wrong. HENRY uses `final_5d_change` terminology going forward.
+
+### Invalidation criteria (REFRAMED — soft kill vs trap clinch)
+
+**Soft kill (full thesis invalidation, stand down):** all 3 triad legs fire simultaneously for required durations AND substance softens (CPI back to 2%-handle, FSK-style prints reverse, gas <$4 sustained, BROCK Stage-2 triggers un-fire). **Not currently firing on either axis.**
+
+**Trap clinch (current state — thesis VALIDATES):** triad legs approach firing while substance keeps hot. Today is this state: tape side un-firing modestly (HY OAS widening from min, SKEW out of 140), substance side accelerating. The longer this state holds, the more asymmetric the eventual break IF a break comes.
+
+**Leading invalidation tell (NEW HEN-30):** HY OAS sub-265 for 2 consecutive sessions → 80% prob sub-260 on session 3. Currently 286, **moving wrong way for invalidation** — confirms trap clinching not invalidating.
 
 ---
 
@@ -50,88 +116,85 @@
 
 | Metric | Current | Yellow | Orange | Red | Cross-Agent Trigger |
 |--------|---------|--------|--------|-----|---------------------|
-| VIX | 17.76 | >23 | >28 | **>30 sustained** | → ALL (risk-off regime) |
-| SPX | 7,123.77 | <6,800 | <6,707 | **<6,494** | → CTA layer 4 (long-term) |
-| KRE | $70.38 | <$65 | <$62 | **<$60** | → REGINALD, PROME |
-| ISM Mfg | 52.7 | <50 | <48 | **<47** | → LABOR, PROME |
-| 10Y Yield | 4.25% | >4.5% | >4.8% | **>5.0%** | → LIQUID (term premium crisis) |
-| HY OAS | 285bps (Apr 16) | >320 | >400 | **>500** | → credit-equity transmission |
-| CCC-BB Spread | ~800bps (Apr 2) | >750 | >900 | **>1100** | → dispersion canary (pre-Apr 21) |
-| USD/JPY | 158.55 | >160 | >162 | **>165** | → SAM (carry unwind) |
+| VIX | 17.38 | >23 | >28 | >30 sustained | → ALL (risk-off regime) |
+| VIX9D | 15.02 | <15 spot | — | — | → invalidation proximity tell |
+| SPX | 7,413 | <7,200 | <7,100 (briefly) | <6,494 (CTA L4) | → CTA layer 4 |
+| KRE | $68.76 | <$65 | <$62 | <$60 | → REGINALD, PROME |
+| 10Y Yield | 4.67% 🔴 | >4.5% | >4.8% | >5.0% | → LIQUID (term premium crisis) |
+| HY OAS | 286bps | >320 | >400 | >500 | → credit-equity transmission |
+| CCC OAS | 948bps | >900 | >1000 | >1100 | → dispersion canary |
+| USD/JPY | (pull) | >160 | >162 | >165 | → SAM (carry unwind) |
+| **HY OAS kill watch** | 286 | <290 (warn) | <270 (orange) | **<260 sustained** | → invalidation leg 1 |
+| **VIX kill watch** | 17.38 | <17 | <16 | **<15 single session** | → invalidation leg 2 — VIX9D 15.02 = warn-zone PROXIMITY |
+| **SPX kill watch** | 7,413 | <7,200 | <7,100 (briefly) | **>7,100 × 5 sess** | → invalidation leg 3 — **FIRED ~Apr 25** |
 
 ---
 
-## APRIL CATALYST STACK
+## MAY-JUN CATALYST STACK
 
 | Date | Event | HENRY Lens |
 |------|-------|------------|
-| **Apr 21 AMC** | **OZK Q1 + WAL Q1** (same day) | First real test of CRE marks. REGINALD thesis convergence. Binary vol event. |
-| Apr 21 | Retail Sales Mar (rescheduled) | First consumer print post-CPI 3.3%. Control group is the GDP feed. |
-| Apr 23-24 | **BOJ Policy Meeting** | Carry unwind catalyst. USD/JPY 159 → >160 or <157 either way. |
-| Apr 28-29 | **FOMC Meeting** (no SEP) | Powell presser into CPI 3.3% + UMich inflation exp 3.8% = hawkish lock-in. |
-| Apr 29 | Housing Starts Mar (rescheduled) | — |
-| Apr 30 | **March PCE + GDP Q1 Advance** | First war-energy-inclusive PCE. Core expected hot vs Feb 3.0%. |
+| Wed 5/21 | 10Y reopening auction 1PM ET | BOND active; HENRY watches indirect bid / BTC for duration narrative confirmation |
+| Tue-Fri 5/20-22 | NVDA post-print SKEW/slope read | **HENRY-VIOLET coordination** — does SKEW <140 stick (regime decay) or revert (slope still PRE_EVENT_FADE) |
+| ~5/22-27 | CARL/BRENT/RED/REGINALD calibration cycle-1 trigger | WALTER-coordinated; HENRY peripheral |
+| TBD | WAL 10-Q drill closeout (REGINALD V2.2 done) | REGINALD-primary; HENRY watches KRE/WAL beta |
+| Late May / early Jun | Q1 BDC tail (GCRED/OTF/BCRED/CTAC) 10-Qs | BROCK-primary; HENRY watches credit-tape reaction |
+| Daily | HY OAS vs 260 thesis-kill | HENRY co-watches with LIQUID — leading tell is sub-265 ×2 sess |
+| Next NFP | Labor cliff resolution (HEN-28 extended; shadow-adjusted ~266K already firing via shadow series) | LABOR-primary |
 
 ---
 
 ## ACTIVE PREDICTIONS
 
-| ID | Prediction | Resolves |
-|----|------------|----------|
-| HEN-22 | CPI 3.3% + VIX 19 = complacency trap forming | Apr 30 |
-| HEN-23 | Gas $4+ = consumer demand destruction begins | Apr 30 |
-| HEN-24 | OZK Q1: provision spike / MI3 acceleration, stock gaps >5% | Apr 22 |
-| HEN-25 | WAL Q1: fund-finance/CRE exposure, stock gaps >5% | Apr 22 |
-| HEN-26 | BOJ: USD/JPY moves >2 handles; base case HOLD → yen weakens past 160 | Apr 25 |
-| HEN-27 | March PCE: core YoY >3.0% OR MoM >0.3% (energy passthrough) | Apr 30 |
-| HEN-28 | Labor cliff: claims >240K or 4-wk avg >230K | May 1 |
+| ID | Prediction | Resolves | Status |
+|----|------------|----------|--------|
+| HEN-27 | March PCE: core YoY >3.0% OR MoM >0.3% | Apr 30 (passed) | HOLD — pull actual PCE print + score |
+| HEN-28 | Labor cliff: claims >240K or 4-wk avg >230K | Next NFP | HOLD — initial 211K not firing; **shadow-adjusted ~266K IS firing via shadow series** (CARL-primary cite); extend deadline |
+| HEN-29 (NEW) | NVDA Q1: ROI-discipline language → SMH -3% / VIX +2 / HY OAS +10bps within 2 sessions | 5/20-22 | **PARTIAL DISCONFIRM** — print 5/20, NVDA -1.5% / SMH -0.3% / VIX -0.4 / HY OAS +6bps. No ROI-discipline tone shift fired. Score: clean beat, trap deepens. CLOSEOUT — confirm directional miss on the catalyst-firing thesis. |
+| HEN-30 (NEW) | Trap-clinch: HY OAS sub-265 for 2 consecutive sessions → 80% prob sub-260 on session 3 | rolling | Active — currently 286, MOVING WRONG WAY for firing. |
 
-*Full log: workbook/PREDICTIONS.tsv (24 rows, 23 resolved, 7 active)*
+**Closed/resolved (per revival packet §6 + this session):**
+- HEN-22: CONFIRM, promote to trap-clinch framing
+- HEN-23: CONFIRM directional, defer demand-destruction to CARL
+- HEN-24/25: RESOLVED, defer scoring to REGINALD/OZK (V2.2 published today)
+- HEN-26: PARTIAL — directional confirm, magnitude miss; score 0.6
+- HEN-29: PARTIAL DISCONFIRM (NVDA didn't deliver the tone-shift catalyst)
 
----
-
-## THESIS STATE
-
-**COMPLACENCY TRAP (primary working thesis — Apr 2026):**
-
-*Confirmed/amplifying signals:*
-- ✅ CPI 3.3% + Core PCE 3.0% = Fed trap LOCKED (cuts repriced to H2 2027)
-- ✅ UMich 1-yr inflation expectations 3.4% → 3.8% (largest jump since Apr 2025)
-- ✅ ISM Services Employment 45.2 (lowest since Dec 2023) + JOLTS hiring 3.1% (lowest since Apr 2020) = **LABOR internals breaking under surface**
-- ✅ ISM Mfg Prices Paid 78.3 (highest since Jun 2022) = stagflation, not expansion
-- ✅ Gas $4.12 + consumer sentiment 53.3 = consumer double-bind
-- ✅ March PPI +4.0% YoY headline (highest since Feb 2023), Core +3.8% — Fed-can't-cut print, though core-core +0.2% MoM cooler (goods/energy shock, not broad)
-
-*Counter-signals / invalidation watch:*
-- ⚠️ VIX 18.6 + HY OAS 285 = credit NOT confirming stress yet (but CCC-BB dispersion vertical: 700→800bps Jan→Apr 2, mask effect)
-- ⚠️ SPX 7,038 above Feb high = structural bid intact (buybacks + passive flows)
-- ⚠️ KRE $68.93 = regional banks have NOT cracked
-- 🕒 Econ Surprise 0.338 (Apr 2, highest since late 2023) = longer lag before stress shows, sharper break when it does — April data prints are the test
-- **Invalidates if:** HY OAS <260 sustained + VIX <15 + SPX >7,100 held 5+ sessions
+*Full log: workbook/PREDICTIONS.tsv — needs update.*
 
 ---
 
-## APR 21 SETUP — POSITIONING ASYMMETRY
-
-- **HF short-cover whipsaw (GS Prime):** Week ending Apr 4, HFs covered single-stock + macro shorts fastest pace since 2020. Prior week was fastest *sold* in 13 years — violent reversal, not conviction. Trigger = Trump Iran ceasefire, now dead (Islamabad collapsed Apr 12, Hormuz blockade). Funds covered into optimism that evaporated = wrong-footed into Apr 21.
-- **Financials positioning gap (DB/ISABELNET):** High-freq financials positioning at multi-year lows (-1.5 to -2z) while consensus earnings growth +20-40% YoY. Widest divergence since 2020. Resolves OZK + WAL + ZION Apr 21 AMC.
-- **Binary magnitude:** Both tails fatten. Beat → short-squeeze (HFs still underweight financials). Miss → deeper crack (positioning correct, covered broad shorts re-risk into weakening tape).
-
----
-
-## CROSS-AGENT DEPENDENCIES
+## CROSS-AGENT DEPENDENCIES (updated)
 
 | From | Signal | HENRY Impact |
 |------|--------|-------------|
-| LABOR | claims >300K | Structural bid breaks → cascade accelerates |
-| LIQUID | HY OAS >320 | Credit transmission confirmed → H4 validates |
-| SAM | Yen strengthens past 155 | Carry unwind Phase 2 → systematic deleveraging |
-| REGINALD | KRE <$60 OR OZK/WAL earnings miss | Credit-equity transmission, bank-stress cascade |
-| HAWK | Hormuz escalation | Oil >$100 → Fed hold locked → stagflation regime |
-| BRENT | Brent sustained <$85 | Energy-deflation = CPI cools = Fed cuts return = thesis weakens |
+| LABOR | initial claims >240K **or shadow-adjusted >280K** (currently shadow ~266K firing) | Structural bid breaks → cascade accelerates |
+| LIQUID | HY OAS sub-265 for 2 sessions | Leading invalidation tell — HEN-30 fires |
+| LIQUID | HY OAS >320 | Credit transmission → trap cracks from credit side |
+| SAM | USD/JPY >160 | Carry unwind phase 2 → systematic deleveraging |
+| REGINALD | KRE <$65 OR WAL <$70 OR V2.2 Bear-medium escalating to Bear-fast | Credit-equity transmission |
+| HAWK/BRENT | Iran/Hormuz fresh escalation OR sustained Brent >$110 | April-CPI loop reignites |
+| BRENT | **Brent sustained >$100 = CONFIRMS trap** (was inverse in Apr 17) | DIRECTION FLIPPED 5/21 |
+| BRENT | Brent sustained <$85 | Energy-deflation → soft-kill watch |
+| BROCK | Stage 3 narrative recognition (GCRED/OTF/BCRED/CTAC 10-Q forced marks) | Eventual credit-vol transmission |
+| VIOLET | **R11 7-trigger watch list:** 2 of {VVIX>105, VIX9D>VIX, SKEW>145} same week as 1 of {HY OAS>2.90, CCC>10.00, 10Y>4.75%} | R11 analog confirms (vol-spike pathway transitions from clock-running 5/28-6/02 window to firing); prior 36% |
+| VIOLET | R12 regime termination confirmation (4/5 closes <140) | Regime decay; HENRY uses `final_5d_change` not "20d-slope" label going forward |
+| WALTER | Counter-evidence (small/mid-cap discount, retail puts at ATH) | Honest pushback on positioning; flag for surveillance cycle |
 
 ---
 
 ## BOTTOM LINE
 
-**Complacency trap intact into weekend.** Apr 17 EOD: SPX closed +1.17% at 7,123.77 (within 4pts of AM highs), VIX 17.76 (did NOT break 17), SKEW 140.74 (holds >140), Brent +$2.51 off intraday lows (closed -8.77% vs -11.3% AM), KRE gave back $0.55 from AM peak, APO faded $2.20. **Three EOD tells:** (1) VIX refused to compress below 17 — complacency hasn't deepened, (2) Brent partial retrace = oil market itself pricing skepticism on unilateral Iranian declaration, (3) KRE/APO gave back most of the AM Hormuz beta — consistent with LESSONS rule on regional-bank margin vs credit trade distinction. **Invalidation criteria NOT triggered** (required VIX <15 + HY OAS <260 + SPX >7,100 for 5 sessions — only SPX piece qualifies). **Counter-counter still holds:** oil-shock-removed does not fix CPI 3.3% / UMich 3.8% / ISM Services Employment 45.2 — stagflation trap survives a clean oil unwind. **April 21–30 catalyst window fully intact:** OZK+WAL Q1 (Tue AMC), BOJ (Wed-Thu), FOMC (Tue-Wed following), PCE+GDP (Thu). Positioning asymmetry into Apr 21 unchanged (HF whipsaw, DB financials -2z). **Monday watch:** (a) Apr 17 HY OAS settle print (tomorrow AM FRED) — sub-280 = compression continuing, (b) Brent weekend gap — any fresh escalation/de-escalation headline repricing, (c) tanker-tracking signal (HAWK/BRENT) on whether physical flow is actually moving vs just announced.
+**Trap clinching, NVDA passed without firing the catalyst.** May 21 1PM ET: SPX 7,413 (+10 from 5/18 packet; entrenched above 7,100 invalidation ~20 sessions); VIX 17.38 (-0.44 from packet, cycle band 17.3-18.5 through every hot print + every bank/BDC stress data); **VIX9D 15.02 = first sub-15 front-vol of regime** = surface decisively pricing immediate calm; SKEW 132.31 dropped out of 140+ regime for first time in 223+td post-NVDA print; HY OAS 286 widening +6bps from 5/17 cycle min 276 (cushion 26bps); 10Y 4.67% (+8bps from packet, +42bps over 34d) — duration channel widening (LIQUID frame); CCC 948 (+13bps) = quality bifurcation deepening even as HY holds.
+
+**NVDA 5/20 print outcome: clean beat, no tone-shift transmission.** HEN-29 partial disconfirm — the catalyst-firing thesis didn't deliver; vol surface faded the print (SKEW -6, VIX9D crushed). This is the **trap deepens path** per pre-print scenario matrix. KRE +1.7% over window, WAL +1.4% — bank tape recovered modestly, didn't crack.
+
+**Macro/structure tape supports BROCK trap-clinching + REGINALD Bear-medium 30% V2.2** because the substance side keeps accelerating (10Y +42bps, CCC +13bps, FSK Max Bear, WAL $99M walk-away + Curley exit, BDC stress) while the tape side is grinding calmer or flat (VIX low, HY OAS widening from cycle min, SKEW out of 140-regime). The widening tape-vs-substance gap IS what the trap thesis predicts; nothing in the May 18-21 tape pushes back on the regime read.
+
+**Where I would push back if anywhere:** (1) the **2nd consecutive institutional bull-counter** (SIG-006 small/mid-cap fwd P/E discount deepest in 25yr + SIG-007 retail-puts-at-SPY-ATH 10/10 analogs higher 1yr later) deserves honest weight — positioning-side conviction in the bear should be calibrated, not just substance-side. Both are structural/positioning counter-evidence to the POSITIONING_VALUATION cluster. They don't invalidate the trap, but the bull-case analog frequency is real. (2) **My earlier "R11 weakens post-NVDA" hypothesis was half-right and is now corrected by VIOLET 5/21:** R12 SKEW>140 regime did terminate, but **R11 analog clock IS now running (window 5/28-6/02, prior 36%)** — vol-spike pathway is live not dead. The trap-clinch read is unchanged; the conviction-via-vol-spike-pathway is *re-confirmed* not weakened. Watch list: VIOLET's 2-of-3 surface (VVIX>105, VIX9D>VIX, SKEW>145) + 1-of-3 substance (HY>2.90, CCC>10.00, 10Y>4.75%) same week. 10Y 4.67% is 8bps from the substance trigger — closest of the six.
+
+**Monday watch (5/24-25 if no fresh boot):** (a) **R11 analog window 5/28-6/02 — 7-trigger watch list active** (VIOLET handles surface side; HENRY tracks substance side: 10Y >4.75%, CCC >10.00, HY >2.90; 10Y closest at 8bps); (b) HY OAS daily — any cycle-low retest <276 = HEN-30 watch; (c) WAL 10-Q drill closeout (REGINALD); (d) post-NVDA SMH/SOX action — if semis fade alone without breadth response, AI capex air-pocket transmission firing (signal 5/9 #4).
+
+---
+
+*Inbox 18 → 0 processed this session. 3 revival-proxy files (revival packet, draft STATUS, framing-precision note) integrated. 15 signal files: 8 LIVE absorbed into this STATUS narrative + 7 archive (per revival packet §5 triage). HENRY-VIOLET coordination open on slope/SKEW read.*
