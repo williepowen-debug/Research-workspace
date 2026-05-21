@@ -1,10 +1,51 @@
 # WAL — Scenario Analysis & Target Prices
-**Created:** 2026-03-25 (v1.0) | **Last Updated:** 2026-05-11 (v2.1 — post RED CHG-RED-025 OVER-CORRECTED verdict)
-**Current Price:** ~$81.90 (May 8 close — Sunday read) | **TBV:** $61.14 | **P/TBV:** 1.34x | **CET1:** 11.0%
+**Created:** 2026-03-25 (v1.0) | **Last Updated:** 2026-05-21 (v2.2 — post 10-Q drill; B1 fired)
+**Current Price:** ~$77.63 (May 21 intraday) | **TBV:** $61.14 | **P/TBV:** 1.27x | **CET1:** 11.0%
 **Short Interest:** 3.54% float / 2.71 days (Mar 25 — REFRESH PENDING)
 **Q1 2026 EPS:** $1.65 GAAP / $2.22 adjusted | **FY2025 NI:** $991M
 
-> **v2.1 thesis framing** (per `THESIS.md` v2.1, post-RED CHG-RED-025 OVER-CORRECTED refinement): WAL is a *compounder with concentrated CRE tail risk* AND **active V1 hidden-CRE test pending mid-May FFIEC MI3 print (~May 14-16)**. The pre-print "fast-transmission failure" binary stays rejected. V2 fraud thesis publicly **resolved** (Apr 21: $152.5M LAM+Cantor); V1 hidden-CRE **weight restored pending MI3** (v2.0 demoted V1 before V1's primary falsifier ran — premature); V3 NDFI **directionally disconfirmed** at aggregate. **Bear path is split into V1-fast sub-bear (MI3 ≥25% triggers fast-transmission) and V1-slow sub-bear (multi-quarter Office-migration via REG-24/REG-25).** Short thesis depends on **tail actualizing** (MI3 fast-trigger, Office migration, or additional Leucadia-era credit).
+> **v2.2 thesis framing** (per `THESIS.md` v2.2, post 10-Q drill): WAL's concentrated CRE tail risk is **actualizing on Q2 timeline** — one quarter earlier than v2.1's bear-slow case priced. 10-Q subsequent-event note disclosed **$99M life-science office sponsor walk-away** (Bucket B1 fired); Chief Banking Officer Curley resigned same week; market reacted ~10% on combined news. **Bear-slow → Bear-medium speed.** V2 inventory test came back clean (no new Leucadia-era credits); V3 NDFI cohort-median confirmed via 10-Q breakout. V1 MI3 primary falsifier still hasn't run (FFIEC PDD pending). Short thesis is now *partially realizing*; Q2 print (late July) is the critical second-data-point test.
+
+---
+
+## EXPECTED VALUE SUMMARY (v2.2 — multi-quarter unconditional)
+
+| Scenario | v2.0 Prob | v2.1 Prob | **v2.2 Prob** | v2.1 Range | **v2.2 Range** | Midpoint | Weighted |
+|----------|-----------|-----------|---------------|------------|----------------|----------|----------|
+| Bear-fast (V1 MI3 ≥25 trigger) | — | 12% | **12%** | $52-62 | $52-62 | $57.00 | $6.84 |
+| Bear-medium (was Bear-slow) (V1 Office migration) | 30% | 23% | **30%** | $60-68 | $58-66 | $62.00 | $18.60 |
+| Base | 38% | 35% | **33%** | $70-78 | $70-77 | $73.50 | $24.26 |
+| Bull | 25% | 23% | **18%** | $84-92 | $82-90 | $86.00 | $15.48 |
+| Tail | 7% | 7% | **7%** | $35-45 | $35-45 | $40.00 | $2.80 |
+| **Expected Value** | | | **100%** | | | | **$67.98** |
+
+**Current $77.63 → implied ~14% overvaluation vs EV of $67.98** (v2.1 was $70.50 / 13% over at $81.90; v2.0 was $72.32 / 11% over). Drawdown -5.2% from v2.1 base offset by EV drift -$2.50 (Bear-medium reweight) — overvaluation% similar but bear scenarios more probable.
+
+### Re-weight rationale (v2.1 → v2.2)
+
+| Shift | Driver |
+|---|---|
+| Bear-slow → Bear-medium (23% → 30%) | B1 has fired via $99M life-science walk-away. Bear path is no longer "wait for multi-quarter migration" — first material migration already disclosed. Probability that price re-rates to $58-66 range over Q2-Q3 horizon increases materially. |
+| Base 35% → 33% | Slow-grind base case retains weight but loses 2pp to bear-medium realization. |
+| Bull 23% → 18% | $99M life-science walk-away + Curley resignation + ~10% drawdown materially erode the "largely behind us" mgmt narrative. Bull case still alive (TBV CAGR, deposits, Juris) but plausibility down 5pp. |
+| Bear-medium range $60-68 → $58-66 | $2 floor compression — Q2 print is the second test; if it materializes, $58 is more reachable. Ceiling -$2 because Q1 already showed leading-bucket migration. |
+| Bull range $84-92 → $82-90 | $2 compression on each end; mgmt-credibility flag (Curley + B1 disclosure timing) tightens upside. |
+| Bear-fast / Tail unchanged | MI3 calibration table still governs Bear-fast (FFIEC PDD hasn't printed); Tail mechanics unchanged. |
+
+### v2.1 unconditional table preserved as reference
+
+| Scenario | v2.1 Prob | v2.1 Range | Midpoint | Weighted |
+|----------|-----------|------------|----------|----------|
+| Bear-fast (V1 MI3) | 12% | $52-62 | $57.00 | $6.84 |
+| Bear-slow (V1 Office) | 23% | $60-68 | $64.00 | $14.72 |
+| Base | 35% | $70-78 | $74.00 | $25.90 |
+| Bull | 23% | $84-92 | $88.00 | $20.24 |
+| Tail | 7% | $35-45 | $40.00 | $2.80 |
+| **v2.1 EV** | | | | **$70.50** |
+
+---
+
+## EXPECTED VALUE SUMMARY (v2.1 — multi-quarter unconditional, superseded)
 
 ---
 
@@ -277,14 +318,18 @@ V2.0 understated this position by ~55% because V2.0's framework had demoted V1 �
 
 ---
 
-## POSITION-LEVEL READ (v2.1 — post-RED CHG-RED-025)
+## POSITION-LEVEL READ (v2.2 — post 10-Q drill)
 
-| Position | Direction | v2.0 Recommendation | **v2.1 Recommendation** |
+| Position | Direction (5/21 spot $77.63) | v2.1 Recommendation | **v2.2 Recommendation** |
 |---|---|---|---|
-| $85P Jun | Slightly ITM | HOLD ($14 EV) | **HOLD as event-driven hedge** (Jun-conditional EV ~$9; was $14 unconditional). Plays MI3 mid-May + 10-Q May 11-13 + Investor Day May 12 catalysts. NOT a multi-quarter bear vehicle. |
-| $77.5P Sep | Slightly OTM | HOLD (best risk-adj) | **HOLD — timeline-coherent core.** Sep tenor captures Q2 print + Q3 migration; matches V2.1 multi-quarter thesis timeline. |
-| $70P Sep | OTM | HOLD (cheap tail) | **HOLD — timeline-coherent cheap tail.** Sep tenor; pays on Bear or Tail. |
-| $65P Jun | Deep OTM, short timeline | CONSIDER CLOSE OR ROLL TO SEP | **HOLD or ROLL TO SEP.** v2.0 close-rec WITHDRAWN (rested on M4-incoherent math). Jun-conditional EV ~$1.16 with V1-fast MI3-optionality. Roll to Sep $65P sidesteps timeline-mismatch entirely at modest premium cost. |
+| $85P Jun | $7.37 ITM | HOLD as event-driven hedge | **HOLD as event-driven hedge.** Most v2.2 evidence (B1 fire, Curley) ALREADY in tape via 5/11-5/15 drawdown. Q2 print is post-Jun expiry; Jun catalysts now slimmer (only FFIEC PDD if integrated; AOCI rule comment close Jun 18). |
+| $77.5P Sep | ~ATM (slightly OTM) | HOLD — timeline-coherent core | **REINFORCED-HOLD core.** Sep window catches Q2 print (late Jul) — this is where v2.2's $99M materializes as charge-off + REG-25 hit. Single best risk-adj position. |
+| $70P Sep | 9.8% OTM | HOLD — timeline-coherent cheap tail | **REINFORCED-HOLD.** Same Q2 print thesis; cheaper exposure to bear-medium midpoint $62. Pays on bear-medium / bear-fast / tail. |
+| $65P Jun | Deep OTM | HOLD or ROLL TO SEP (MI3 optionality) | **HOLD-to-expiry as cheap lottery.** v2.2 doesn't change the underlying math; MI3 optionality still embedded if FFIEC PDD integrates pre-expiry. Jun expiry post-Curley/post-10Q digestion = limited upside outside MI3 surprise. |
+| $67.5P Jun | Deep OTM | (added 5/8 broker refresh) | **HOLD as Jun expiry tactical** — same window as $65P/$85P; layered strike coverage. |
+| $77.5P Jun | (added 5/8 broker refresh) | (added 5/8 broker refresh) | **HOLD.** Jun expiry. Strike near current — most leveraged Jun position to any near-term move. |
+| $65P Jul | (added 5/8 broker refresh) | (added 5/8 broker refresh) | **HOLD** — Jul 17 expiry doesn't catch Q2 print (late Jul). Tactical only. |
+| $67.5P Sep | (added 5/8 broker refresh) | (added 5/8 broker refresh) | **REINFORCED-HOLD.** Sep tenor; deeper OTM than $77.5P/$70P; cheaper tail leg of the Sep core. |
 
 **Will-decision pending:** Roll-to-Sep-$65P cost analysis (need broker quote on Jun-65P-bid vs Sep-65P-ask). Out-of-scope this session; flagged for Jun T-7 close window (~Jun 11) at latest. Default if no decision by Jun 11: HOLD $65P Jun through expiry on MI3-optionality. If MI3 ≥25% (mid-May): $65P Jun reactivates as core position.
 
@@ -335,4 +380,4 @@ The remaining mispricing is **structural CRE tail-risk concentration**, not **fa
 
 ---
 
-*KB evidence: 105 rows | Master thesis: `THESIS.md` v2.0 | Changelog: `CHANGELOG.md` | Weaknesses: `WEAKNESSES.md` | Q1 analysis: `Q1_2026_ANALYSIS.md` | Round 2 deck/press detail: `sources/q1_2026/`*
+*KB evidence: 105 rows | Master thesis: `THESIS.md` v2.2 | Changelog: `CHANGELOG.md` | Weaknesses: `WEAKNESSES.md` | Q1 analysis: `Q1_2026_ANALYSIS.md` | Round 2 deck/press detail: `sources/q1_2026/` | 10-Q drill: `../research/WAL_10Q_DRILL_2026-05-21.md`*

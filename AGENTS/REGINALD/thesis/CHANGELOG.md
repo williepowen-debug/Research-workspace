@@ -8,6 +8,39 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-05-21 — WAL bank-thesis: v2.1 → v2.2 (B1 fired via 10-Q subsequent event + Curley resignation)
+
+### Bank-Thesis Update — master THESIS.md unchanged
+**Author:** REGINALD (with Will approval)
+**Action:** `WAL/THESIS.md` transitioned from v2.1 ("V1 weight restored pending MI3 + Jun-conditional EV") → v2.2 ("Concentrated CRE tail risk actualizing on Q2 timeline"). Primary audit trail: `../WAL/CHANGELOG.md`. Drill findings: `../research/WAL_10Q_DRILL_2026-05-21.md`.
+
+*Note: v2.0 → v2.1 (May 11) was logged only in `WAL/CHANGELOG.md` because it was a methodology refinement (post-RED CHG-RED-025). v2.2 is logged here because it's the actualization milestone — first material Office credit migration disclosed, which is the kind of evidence the master Validation Scorecard tracks.*
+
+**What changed at WAL bank-thesis level:**
+
+- **B1 FIRED** — 10-Q subsequent-event note disclosed $99M life-science office sponsor walk-away (late April 2026) on a loan previously graded *pass*. Same strategic-default mechanic as IQHQ (OZK). At 60% LGD = ~$60M Q2 charge-off = ~10bps incremental; Q1 was 39bps; REG-25 near-locked.
+- **V4 ADDED** — Mgmt credibility / org stability vector. Chief Banking Officer Stephen Curley (head of National Business Lines — Office / Hotel / Tech / Warehouse / Public Finance / Renewable all sit there) resigned effective immediately, same week as 10-Q. Stated reason: CEO opportunity elsewhere. Pattern flag, tracked.
+- **V2 INVENTORY CLEAN** — 10-Q lists only LAM + Cantor V; no new Leucadia-era credits. Bucket A (Investor Day prep framework) confirmed U1. NEW: WAL escalated to active litigation against Jefferies parent in NY Supreme Court (March 2026).
+- **V3 CONFIRMED** — 10-Q NDFI breakout ($14.93B / 25.2% of HFI) ties to deck Slide 24's 7% Ex-Mtg Credit cohort-median claim. Disconfirmation holds.
+- **Bear-slow → Bear-medium speed** (probability reweight 23%→30%; Bull 23%→18%; Base 35%→33%). EV $70.50 → $67.98 (-$2.52). PT range $52-70 → $50-68.
+- **Predictions:** REG-24 (Office classified > $500M by Q3) 60% → 70%. REG-25 (ex-fraud NCO > 40bps Q2 OR Q3) 55% → 75%.
+- **Market context:** ~10% WAL drawdown 5/11-5/15 on combined 10-Q + Curley news (per Simply Wall St 5/14). DA Davidson PT cut $93→$90 (5/13, Buy maintained, valuation-driven). Asymmetric entry largely compressed; position structure unchanged.
+
+**Why noted in master CHANGELOG (master THESIS.md unchanged):**
+
+The v2.2 ship is the v2.0 "concentrated CRE tail risk" framing *actualizing* — not a thesis pivot. But it's material enough for the master REGINALD thesis to track:
+
+- **Bank × Cluster table (Section 1.5):** WAL's Cluster A (CRE) cell now has live realization evidence (not just structural exposure). Flagged for review.
+- **Validation Scorecard (Section 7):** G2 (CRE recognition) gets a stronger confirmation hit from $99M life-science walk-away — first material pre-quarter migration on watchlist.
+- **Cross-bank life-science pattern:** WAL $99M (May 2026) + OZK IQHQ ($555M funded, Aug 2026 maturity) = **two Class-A life-science strategic defaults across watchlist in 6 months**. Sector signal worth tracking explicitly in master thesis if a third surfaces.
+- **Cluster A timeline:** v2.0 implied multi-quarter Office migration starting Q2. v2.2 shows migration starting earlier than that — pulls forward Cluster A activation by ~1 quarter for the master timeline.
+
+**Master THESIS.md unchanged.** Master Bank × Cluster table refresh + Validation Scorecard re-score deferred to a future master-thesis update — likely after Q2 print (late July) which is the critical second-data-point test for whether v2.2 understates (2+ migrations) or overstates ($99M is the only one).
+
+**Evidence base:** WAL Q1 2026 10-Q (filed 5/11), Investor Day deck + remarks (5/12), Simply Wall St 5/14 + DA Davidson 5/13 + investing.com Curley 8-K filing. Detail in `../WAL/CHANGELOG.md` and `../research/WAL_10Q_DRILL_2026-05-21.md`.
+
+---
+
 ## 2026-05-01 — WAL bank-thesis: v1.0 → v2.0 (Q1 2026 Round 2 integration)
 
 ### Bank-Thesis Update — master THESIS.md unchanged

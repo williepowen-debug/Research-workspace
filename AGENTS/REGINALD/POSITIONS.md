@@ -1,6 +1,6 @@
 # REGINALD — Thesis Positions
 
-**Updated:** 2026-05-08 from broker (typed list, Will dispatch — refreshed after KRE $70P May 15 phantom incident). Apr 2 → May 8 = ~5 weeks of broker activity caught up.
+**Updated:** 2026-05-21 (May 15 expiry cluster cleared — SSB $95P + WAL $75P both gone per Will 5/21 confirm; exact execution path not recorded). Prior refresh 2026-05-08 from broker (typed list).
 
 **Scope:** Thesis-relevant only — bank puts + credit/convergence. OZK lives in `../OZK/POSITIONS.md` (peer agent). Stocks, macro options (TLT/VIX/USO/XLE), and non-thesis (AAPL/APD/AAL/CCL/CF/DIS/KELYA/FXY/SLV/TBT) live in `FORGE/STATUS.md`.
 
@@ -8,18 +8,11 @@
 
 ---
 
-## 🔴 MAY 15 EXPIRY CLUSTER (T-5 trading days)
+## ✅ MAY 15 EXPIRY CLUSTER — CLEARED
 
-REGINALD-scope positions expiring May 15:
+REGINALD-scope: both expired/sold per Will confirm 5/21. Tape 5/15 close: WAL $75.93 ($0.93 ITM), SSB $91.21 ($3.79 ITM). Exact execution path (auto-ex / limit / DNE) not recorded; result is positions are gone.
 
-| Ticker | Strike | Tape (May 8) | OTM% | Mechanical decision |
-|---|---|---|---|---|
-| WAL | $75P | $82.11 | 9.5% OTM | Roll vs let-expire — needs Greek/IV math |
-| SSB | $95P | $96.39 | 1.5% OTM (NTM) | Pin risk; closest to actionable |
-
-(Out of REGINALD scope but on the same day: TLT $88P, OZK $42.5P/$47.5P. TLT in FORGE; OZK in `../OZK/POSITIONS.md`.)
-
-Mechanical-before-creative deadline: this week.
+Outcome lesson if any: see `MAY15_DECISIONS.md` post-script for the pre-registered ladder we wrote.
 
 ---
 
@@ -27,7 +20,6 @@ Mechanical-before-creative deadline: this week.
 
 | Ticker | Strike | Expiry | Notes |
 |---|---|---|---|
-| WAL | $75P | May-15-2026 | NTM/OTM — **May 15 cluster** |
 | WAL | $65P | Jun-18-2026 | Aggressive |
 | WAL | $67.5P | Jun-18-2026 | |
 | WAL | $77.5P | Jun-18-2026 | |
@@ -47,7 +39,6 @@ Mechanical-before-creative deadline: this week.
 | FITB | $45P | Jun-18-2026 | **NEW name vs Apr 2** — cohort-fade thesis play? |
 | FLG | $13P | Jul-17-2026 | |
 | HBAN | $16P | Oct-16-2026 | **NEW name vs Apr 2** — DC corridor / federal layoff exposure? |
-| SSB | $95P | May-15-2026 | NTM — **May 15 cluster** |
 | ZION | $57.5P | Jul-17-2026 | (expiry confirmed by Will 2026-05-08) |
 
 ## Credit / Convergence
@@ -67,9 +58,9 @@ Mechanical-before-creative deadline: this week.
 
 ## Key Context
 
-- **WAL** is the heaviest single-name (8 positions across 4 expiries: May-15 / Jun-18 / Jul-17 / Sep-18). WAL Q1 print Apr 21 ✅ V2 fraud confirmed in 8-K. THESIS v2.0 May 1 = "compounder with concentrated CRE tail risk." May 15 $75P added since Apr 2 = short-dated tactical layer.
-- **KRE** — 8 positions across 5 expiries ($60-$67 strikes, Jun-18 / Jun-30 / Aug-21 / Sep-30 / Dec-18). **Confirmed: NO May 15 expiry on KRE.** The phantom was a Feb position closed/exited and never propagated. Tape $70.05 today = above all strikes (deep OTM); positions are tail-risk insurance, not directional.
+- **WAL** is the heaviest single-name (7 positions across 3 expiries: Jun-18 / Jul-17 / Sep-18 — May-15 cluster cleared 5/15). WAL Q1 print Apr 21 ✅ V2 fraud confirmed in 8-K. **THESIS v2.2 pending** (B1 fired via $99M life-science office sponsor walk-away in 10-Q subsequent event note + Chief Banking Officer Curley resignation same week). Sep $77.5P / $70P are core REINFORCED-HOLD per V2.2 deltas.
+- **KRE** — 8 positions across 5 expiries ($60-$67 strikes, Jun-18 / Jun-30 / Aug-21 / Sep-30 / Dec-18). Tape $69.07 (5/21) = above all strikes (deep OTM); positions are tail-risk insurance, not directional.
 - **New bank names since Apr 2:** FITB (mid-cap regional, Q1 cohort-fade pattern candidate) and HBAN (Huntington — Ohio + DC corridor / federal layoff exposure). Both warrant thesis-row updates in STATUS.md if Will wants them tracked.
-- **May 15 cluster (T-5) is the real mechanical decision pile** — was hidden by the phantom. WAL $75P (9.5% OTM) and SSB $95P (1.5% OTM) need Greek/IV-vs-roll math this week.
-- **OZK positions are in `../OZK/POSITIONS.md`** (peer agent, spun out 2026-04-24). 4 OZK rows in Will's typed list (May-15 $42.5/$47.5, Aug-21 $42.5/$45) need to flow there, not here.
-- **FORGE/STATUS.md staleness propagates the same risk** — Mar 25, also 6+ weeks behind broker. Same broker data should refresh FORGE's current-positions table (out of REGINALD scope).
+- **Next mechanical decision pile is Jun 18 expiry cluster** — WAL $65P/$67.5P/$77.5P/$85P, KRE $60P, EGBN $25P, FITB $45P, HYG $75P, APO $100P, ARES $95P, IWM $257P. Position management ~Jun 11. Note: WAL Q2 print is late July, AFTER Jun 18 expiry — Jun puts won't catch the Q2 print catalyst directly.
+- **OZK positions are in `../OZK/POSITIONS.md`** (peer agent, spun out 2026-04-24).
+- **FORGE/STATUS.md staleness propagates the same risk** — Mar 25, also 8+ weeks behind broker. Same broker data should refresh FORGE's current-positions table (out of REGINALD scope).
