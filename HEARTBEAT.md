@@ -1,5 +1,5 @@
 # HEARTBEAT.md
-**Updated:** 2026-05-21 ~15:55 ET
+**Updated:** 2026-05-21 ~16:25 ET
 
 ## Regime
 
@@ -29,14 +29,15 @@ HY OAS **280🟢** [5/20] · CCC **940🟡** [5/20] · 10Y **4.57🔴** [5/20] �
 
 | Pri | Decision | Reference |
 |---|---|---|
-| 🔴 | **SAM FXY Tranche 2** — FXY $57.77 below previously-forfeited $58.00-58.25 band | SAM persistent workflow |
+| 🔴 | **FORGE rehab** — STATUS 2mo stale, FXY position shown wrong, 6 expired options listed as active, "Immediate Actions" all past deadline. Will-flagged + SAM-blocking. | `AGENTS/SAM/outbox/2026-05-21_to-PROME_sam-position-state-for-forge-rehab.md` |
+| 🟠 | **SAM Sep-18 $60C × 5-10 contracts** — pending post-CPI entry window (Tranche 2 already executed 5/21 at $57.66, 5 shares) | `AGENTS/SAM/TRADE.md` v1.4 |
 | 🟠 | **HEARTBEAT refresh cadence** — who writes, how often (in discussion 5/21) | this file |
-| 🔵 | **PROME execution-rails design** — HYG roll Jun→Dec died for lack of mechanism | BROCK LESSONS #16 |
+| 🔵 | **PROME execution-rails design** — HYG roll Jun→Dec died for lack of mechanism; relevant to 6/18 expiry cluster | BROCK LESSONS #16 |
 
 ## Pointers
 
 - Recent activity → `PROME/SCRATCH.md` (CC) / `PROME/HANDOFF.md` (OpenClaw)
-- Catalysts (next 7d) → `PROME/TODAY.md`
+- Catalysts (next 7d) → `PROME/TODAY.md` (⚠️ itself stale 5/17; refresh pending) + `CALENDAR.md` (3/27 stale; has 6/16 FOMC + 6/18 expiry cluster)
 - Action cards → `PROME/action-cards/`
 - Agent state → `AGENTS/<NAME>/STATUS.md`
 - Two-Prome COMM mailbox → `PROME/COMM/`

@@ -121,11 +121,14 @@ Local at `ded870e0` after PROME FRED-fix push. BROCK + REGINALD + HENRY + VIOLET
 - Optional: PROME state refresh after BOND returns (this file is current; STATUS + HANDOFF parallel)
 
 **Live Will-decision carries (remaining):**
-- **SAM FXY Tranche 2** — FXY $57.73 below forfeit band (within 10bps of yellow when SAM boots); Will-direction required
-- **HEARTBEAT.md refresh** — ~4 days stale + all of today's posterior shifts owed (BROCK convergence 46/60 + REGINALD V2.2 + HENRY+VIOLET Stage-2-late + FRED convention adoption); Will-approval gate; no clock pressure now that matrix Q4 deferred
-- **WALTER bull-counter calibration** — signal filed in inbox, awaiting WALTER boot
-- **PROME execution-rails design note** — BROCK LESSONS #16 owed for a quiet maintenance window
-- **OZK STATUS hygiene refresh** — STATUS still pre-roll posture (hygiene, not execution risk)
+- **🔴 FORGE rehab (NEW, Will-flagged via SAM 5/21 ~12:35)** — `AGENTS/SAM/outbox/2026-05-21_to-PROME_sam-position-state-for-forge-rehab.md` documents: FORGE/STATUS Mar 25, PORTFOLIO Feb 19, JOURNAL Feb 27, per-trade folders Mar 17. FXY in FORGE shows wrong position (4 shares @ $59.77; actual is 13 shares + 1 Jun-18 $58C). 6 expired options listed as active (USO 3/27, OWL 4/2, APO 4/17, SOFI 5/1, OZK 5/15, TLT 5/15). Will plans to have PROME do the rehab. **Top next-session item.**
+- **SAM Sep-18 $60C × 5-10 contracts** — pending post-CPI cheaper entry. (Tranche 2 ALREADY executed 5/21 at $57.66, 5 shares — was previously listed here as awaiting direction; that was wrong-from-boot; lesson reinforced.)
+- **HEARTBEAT.md refresh** — ✅ done this session by CC-Prome (8f3fa922 Path B + 16:25 surgical fix). OpenClaw refresh cadence still owed as design question.
+- **WALTER bull-counter calibration** — ✅ WALTER responded 5/21 (`SIG-WALTER-PROME-20260521-bull-counter-tier-rec.md`); both Tier-2 + forced steelman.
+- **PROME execution-rails design note** — BROCK LESSONS #16; quiet maintenance window. Especially relevant to 6/18 Jun expiry cluster (WAL/KRE/HYG/APO/AAL/ARES/EGBN/CF).
+- **TODAY.md Path B refresh** — drafted this session but not shipped; FORGE finding redirected priority. Catalysts from CALENDAR.md (6/16 FOMC, 6/18 expiry cluster, 5/25 Memorial Day) NOT yet folded.
+- **CALENDAR.md** — 3/27 stale; needs own refresh after TODAY.md.
+- **OZK STATUS hygiene refresh** — STATUS still pre-roll posture (hygiene, not execution risk).
 
 **Pre-June 9-10 (next nominal 10Y reopening):**
 - BOND can re-validate his matrix v2 deployment on the June test
@@ -134,6 +137,9 @@ Local at `ded870e0` after PROME FRED-fix push. BROCK + REGINALD + HENRY + VIOLET
 
 ## Cautions for Next Session
 
+- **🔴 FORGE rehab is the highest-leverage next thread.** Bigger than HEARTBEAT/MEMORY were. Touches multiple agents' position state; needs careful reconciliation against AGENTS/SAM/TRADE.md (just refreshed v1.4), BROCK position-decisions (5/21 closeout), RED's processed Fidelity CSV, and reality-check against the 6/18 expiry cluster which is 28 days out.
+- **Workflow gap detected.** SAM's PROME-bound signal lived in `AGENTS/SAM/outbox/` not `AGENTS/PROME/inbox/`. File-based routing depends on sender placing in receiver's inbox; outbox-resident signals don't trigger PROME attention. Per `project_messaging_overhaul` memory the file system is being replaced, but in the interim: **boot procedure should scan agent outboxes for PROME-targeted signals**, not just PROME/inbox.
+- **The Tranche 2 wrong-from-boot finding is exactly the methodology lesson we just saved to MEMORY** (`Stamp content as well as metadata` — verify against current state, don't propagate from inherited STATUS/SCRATCH narrative). Even with the lesson explicit, I propagated it again this same session. Reinforces the value of cross-agent verification at boot.
 - **BOND's pre-auction baseline file** untracked — repurpose-or-delete decision for the June 9-10 test. BOND owns.
 - **HEARTBEAT staleness compounding.** Now has 4 days of tape + BROCK 46/60 convergence + REGINALD V2.2 + HENRY/VIOLET Stage-2-late + FRED convention adoption owed. Best window for refresh is when Will has time to review the diff.
 - **TIPS-vs-nominal lesson saved to memory** — apply before any future matrix-test scheduling around Treasury auctions.
