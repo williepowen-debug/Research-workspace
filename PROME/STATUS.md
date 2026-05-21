@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-05-19 (afternoon session — teams-mode BOND spawn + settings change)
+**Updated:** 2026-05-21 (BOND matrix surgery session + build-out artifacts)
 
 ## Core State
 
@@ -28,7 +28,7 @@
 | Artifact | Status | Purpose |
 |---|---|---|
 | `HEARTBEAT.md` | ✅ Fresh May 16; levels rechecked May 17 | Scenario, levels, catalyst/position rails |
-| `PROME/SCRATCH.md` | ✅ Fresh May 19 PM (teams-mode session) | Ephemeral next-action state; entry point for next session |
+| `PROME/SCRATCH.md` | ✅ Fresh May 21 (BOND matrix surgery + build-out) | Ephemeral next-action state; entry point for next session |
 | `PROME/FLEET_SCAN.md` | ⚠️ Fresh May 18 (v2 prototype); 1 day old | Live working surface — fleet situation report |
 | `PROME/CLOSEOUT.md` | ✅ Fresh May 18 | Standardized session-end procedure |
 | `PROME/BOOT.md` | ✅ Refreshed May 18 | TOSCANINI references cleaned; FLEET_SCAN + CLOSEOUT integrated |
@@ -56,9 +56,13 @@
 | **v3 brief spec folded into ORCHESTRAL_LAYER_DESIGN.md** | ✅ Complete 5/19 | 9 items consolidated under 7-section spec. See SCRATCH §4. |
 | **BROCK revival proxy (Step 4 #3)** | ✅ Complete 5/19 | First exercise of v3 brief spec. Packet + STATUS draft in `AGENTS/BROCK/inbox/`. See SCRATCH §5. |
 | **LIQUID revival packet integration** | ✅ Complete 5/19 | LIQUID booted, integrated, committed (commits b6d38b3d / 53019ce5 / 6d4d5408). End-to-end revival-proxy pattern validated. |
-| **BOND teams-mode spawn experiment** | ✅ Complete 5/19 PM | First domain-agent teams-spawn. Boot handshake refined two-track frame + flagged 5/21 10Y reopening as second-leg test. Settings `teammateMode: tmux` added; restart pending. See SCRATCH. |
-| **Respawn BOND post-restart + TLT/20Y-10Y watch card** | 🔴 | Next-session entry. Validate tmux pane; then BOND scopes pre-auction watch card. |
-| **VIOLET revival proxy (Step 4 #4 candidate)** | 🔵 Deferred | Was next; pushed behind BOND watch-card. Pairs with HENRY for NVDA 5/20. |
+| **BOND teams-mode spawn experiment** | ✅ Complete 5/19 PM | First domain-agent teams-spawn. Boot handshake refined two-track frame + flagged 5/21 10Y reopening as second-leg test. |
+| **BOND 5/20 20Y post-auction read** | ✅ Complete 5/20 PM | Teams-mode respawn. Verdict: no orange. Tail verified 0bp via ZH. Commit `4eb21894` pushed. Posterior shift: P(5/21 weak Leg 2) ~35-40% → ~20-25%. |
+| **BOND background build-out (5 sub-agents)** | ✅ Complete 5/20-21 | WI playbook + auction history dataset (v1 + v2 enriched) + cross-tenor base-rates + escalation matrix backtest. 5 artifacts in `AGENTS/BOND/{analysis,data,research,proposals,inbox}/` untracked-by-design. See SCRATCH §Thread 2. |
+| **BOND matrix v2 draft (Q1-Q5 walkthrough)** | ✅ Complete 5/21 | Teams-mode DRAFT-ONLY spawn. Proposal at `proposals/MATRIX_V2_DRAFT_prome-spawned.md`. Q1/Q2/Q3 RESOLVED, Q4 DEFERRED-with-conditional-rule, Q5 OPEN. See SCRATCH §Thread 4. |
+| **BOND 5/21 10Y auction read (dual-grade)** | 🔴 | Next-session entry. Respawn ~12:30pm pre-auction + ~2pm post-auction. Dual-grade format mandatory — mechanically resolves Q4. |
+| **v2 deployment + Q5 decision** | 🔵 | Triggered by Q4 branch resolution after 5/21 10Y print. |
+| **VIOLET revival proxy (Step 4 #4 candidate)** | 🔵 Deferred | Pushed behind BOND v2 deployment. |
 | **HENRY / BROCK revival packet integration** | 🔵 | Each agent's own task on next own boot. Packets untracked-by-design at respective inboxes. Prome tracks only. |
 | **Regional-bank Call Report / WAL triage** | 🔴 | REGINALD May 17: WAL 10-Q filed but not integrated; Schedule O / Table 16 cross-credit inventory test pending; MI3/FFIEC PDD status check due. (Carried forward.) |
 | **Bank decision prompt** | 🔴 | Prome-owned synthesis: KRE/WAL/OZK/ZION/SSB cleanup, hold/roll/cut rails, live tape and option pricing required. |
@@ -99,4 +103,4 @@
 
 ## Next Best Action
 
-Respawn BOND in teams mode (validates `teammateMode: tmux` fix), then scope TLT/20Y-10Y two-leg watch card. Full session context + entry-point details in SCRATCH.
+Respawn BOND ~12:30 PM ET 5/21 for pre-auction tape pull; respawn ~2 PM ET for post-1pm verdict using mandatory dual-grade format (v1+v2 simultaneously). The dual-grade output mechanically resolves Q4 (v2 deployment timing). Full session context + branch rules in SCRATCH.
