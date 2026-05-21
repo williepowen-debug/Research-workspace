@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-05-21 ~14:15 ET (post-auction; post HENRY+VIOLET revival + LIAISON; post FRED-fix Phases 1-3; pre-closeout)
+**Updated:** 2026-05-21 ~19:30 ET (post FORGE rehab Steps 1-4; commit `ec7e8ad9`)
 
 ## Core State
 
@@ -82,7 +82,7 @@
 | **BOND-TIPS cross-flag to BROCK** | ✅ Filed 5/21 ~14:15 | SIG in BROCK inbox flagging duration-channel vector re-weight question. Untracked-by-design; BROCK integrates next boot. |
 | **BOND-TIPS cross-flag to HENRY** | ✅ Integrated 5/21 ~14:20 | HENRY commit `526d3586`: R11 trigger #6 imminence SOFTENED ("long end clearing demand at price"); breakeven decomposition added as 3rd independent Fed-can't-cut confirmation (PCE + duration + breakeven all triangulating). 2 new MEMORY findings. |
 | **SAM FXY Tranche 2 decision** | ✅ Executed 5/21 ~12:46 | SAM Tranche 2 executed at $57.66, 5 shares (commit `fb539597`). Total FXY now 13 shares + 1 Jun-18 $58C. Discovered post-closeout via cross-agent verification of SAM outbox-to-PROME signal. Next SAM Will-pending: Sep-18 $60C × 5-10 contracts (post-CPI cheaper entry). |
-| **🔴 FORGE rehab (NEW, top priority)** | 🔴 | SAM 5/21 outbox-to-PROME flags: STATUS Mar 25, PORTFOLIO Feb 19, JOURNAL Feb 27, per-trade folders Mar 17. FXY shown wrong (4 shares @ $59.77; actual 13+1C). 6 expired options listed as active (USO/OWL/APO/SOFI/OZK/TLT). Will-flagged + SAM-blocking. Top next-session item. |
+| **FORGE rehab Steps 1-4** | ✅ Done 5/21 by CC | Commit `ec7e8ad9` (Will-authorized). STATUS reconciled against Fidelity CSV (5/21 14:03 ET) + SAM v1.4. Position tables rewritten (KRE 19 / WAL 8 / TLT 7 / APO 2 / OZK 7 / Other Puts 14 / Longs 8). Immediate Actions rebuilt around 6/18 expiry-cluster decisions. PORTFOLIO + ACTIVE_TRADES marked SUPERSEDED. JOURNAL gap entry for Feb 27 → May 21 (~22 equity closures + 6 expirations + 4 rolls + ~13 new opens). Recon worksheet: `FORGE/scratch/REHAB_RECON_2026-05-21.md`. **Open Will-decisions surfaced:** 6/18 theta-killer cluster dispositions (HYG×8/EGBN/AAL×2/WAL×3/KRE), TLT $88P May 15 disposition unknown (was +100% pending), FXY $58C reconciliation (not in CSV), APD new long thesis tag, VIOLET 4/15 VIX/SKEW trade overdue. |
 | **WALTER bull-counter calibration** | ✅ Responded 5/21 ~14:45 | WALTER filed `SIG-WALTER-PROME-20260521-bull-counter-tier-rec.md`: both Tier-2; forced steelman ("regime may LAST not BREAK"). Folded into HEARTBEAT regime line. |
 | **HEARTBEAT.md refresh** | ✅ Done 5/21 by CC | Path B refresh shipped 15:55 (`8f3fa922`); surgical fix 16:25 (`a0aa4232`). 98→38 lines. Refresh-cadence design question remains open (now self-referentially listed as Blocking on Will inside HEARTBEAT). |
 | **MEMORY.md sweep** | ✅ Done 5/21 by CC | 2 new entries + 3 footnotes (`d60616cc`). Will-authorized cross-surface boundary. |
@@ -125,16 +125,21 @@
 
 ## Next Best Action
 
-**Closeout posture (Will-confirmed 5/21 ~16:35 ET, second closeout of the day).** Post-14:30 session ran HEARTBEAT/MEMORY/BOOT/COMM updates; pivoted from TODAY.md to FORGE rehab via SAM outbox-to-PROME signal discovery.
+**Closeout posture (5/21 ~19:30 ET, third CC session of day).** Third session ran FORGE rehab Steps 1-4 (commit `ec7e8ad9`). Two-commit sequence in progress: FORGE files landed; PROME state propagation pending.
 
-**Next-session top priority:** 🔴 **FORGE rehab.** Touches FORGE/STATUS, PORTFOLIO, JOURNAL, per-trade folders. Reconciliation against SAM/TRADE.md v1.4 + BROCK position-decisions + RED Fidelity CSV. 6/18 expiry cluster is 28 days out — bounded urgency.
+**Next-session top priorities (Will-decisions surfaced by rehab):**
+1. 🔴 **6/18 theta-killer cluster dispositions** — 6 undecided rolls/let-expire (HYG×8, EGBN, AAL×2, WAL $65P, WAL $67.5P×2, KRE $60P×1). BROCK LESSONS #16 execution-rails territory. 28 days to expiry.
+2. 🟠 **FXY $58C reconciliation** — Per SAM v1.4 but not in 5/21 2:03 PM CSV. Confirm separate account / post-CSV fill / didn't fill.
+3. 🟠 **TLT $88P May 15 disposition unknown** — Was +100% pending Will at Mar 25; absent from 5/21 CSV. Tax/perf relevance if anyone tracked.
+4. 🟠 **VIOLET 4/15 VIX/SKEW trade** — Never adjudicated; 60d window from 4/13 closes ~6/12.
 
-**Live Will-decision carries (remaining):**
+**Live Will-decision carries (unchanged):**
 - SAM Sep-18 $60C × 5-10 contracts — pending post-CPI cheaper entry
 - TODAY.md Path B refresh (drafted but not shipped; inputs ready)
 - CALENDAR.md refresh (3/27 stale; after TODAY.md)
 - HEARTBEAT refresh-cadence design question (self-referenced in HEARTBEAT)
 - PROME execution-rails design note (BROCK LESSONS #16; relevant to 6/18 expiry cluster)
+- APD new long thesis tag (unassigned in STATUS)
 - OZK STATUS hygiene (low priority)
 
 **Pre-June 9-11 (next nominal 10Y reopening):**
