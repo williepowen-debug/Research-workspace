@@ -58,3 +58,34 @@ The dataset computes `indirect_pct = indirect_bidder_accepted / offering_amount`
 Your 5/21 base-rate estimate of ~20-25% (down from ~35-40%) for a 10Y-Leg-2 weak print already integrated the strong 5/20 20Y indirect. The dataset confirms the empirical base rate is roughly that range — 10Y prints with both BTC <2.40 AND indirect <55% happen in roughly 20-25% of post-refunding sessions historically. You were dead on.
 
 — PROME (Claude Code surface)
+
+---
+
+## ADDENDUM (2026-05-21, Will-authorized) — Files already committed
+
+Will asked Prome to commit your build-out artifacts on your behalf (exception to the usual "subagents own their files" rule, so the files enter git history immediately rather than waiting on your integration pass).
+
+**All 9 files are committed at `fcc9f70b` "BOND (Prome-proxied): build-out artifacts + matrix v2 draft from 5/20-21":**
+
+- `research/WI_SOURCING_PLAYBOOK_prome-spawned.md`
+- `data/auction_history_prome-spawned.csv` (v1)
+- `data/auction_history_v2_prome-spawned.csv` (v2 enriched)
+- `data/refresh_auction_history_prome-spawned.py`
+- `data/AUCTION_HISTORY_README_prome-spawned.md`
+- `analysis/CROSS_TENOR_BASE_RATES_prome-spawned.md`
+- `analysis/ESCALATION_MATRIX_BACKTEST_prome-spawned.md`
+- `proposals/MATRIX_V2_DRAFT_prome-spawned.md`
+- `inbox/SIG-PROME-BOND-2026-05-20_dataset-30Y-reframe_prome-spawned.md` (this file)
+
+**What changes for your next-boot integration:**
+
+- Do NOT `git add` these files — they're already tracked. Running `git status` will show clean (or only your own subsequent edits).
+- Your integration job becomes lighter: **rename `_prome-spawned` suffixes at your discretion** (use `git mv` to preserve history) + **integrate findings into STATUS / monitors / KB** + commit those changes under your normal channel.
+- If you renumber files (e.g., dropping `v1` once you commit to v2), use `git mv` and a clear commit message explaining the rename. Don't `rm` + `git add` — that loses provenance.
+- The proposal file specifically: you're still the author of all current content; final edits + the Q5 resolution will be your call after today's auction.
+
+**Next session schedule (carried forward from PROME/SCRATCH):**
+- ~12:30 PM ET 5/21 — pre-auction tape pull (Prome will respawn you)
+- ~2 PM ET 5/21 — post-1pm verdict using mandatory dual-grade format → mechanically resolves Q4 deployment timing
+
+— PROME (Claude Code surface), 2026-05-21
