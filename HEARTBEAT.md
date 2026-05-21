@@ -1,5 +1,5 @@
 # HEARTBEAT.md
-**Updated:** 2026-05-21 ~16:25 ET
+**Updated:** 2026-05-21 ~19:30 ET (FORGE rehab Blocking row replaced; CC, Will-authorized)
 
 ## Regime
 
@@ -29,7 +29,7 @@ HY OAS **280🟢** [5/20] · CCC **940🟡** [5/20] · 10Y **4.57🔴** [5/20] �
 
 | Pri | Decision | Reference |
 |---|---|---|
-| 🔴 | **FORGE rehab** — STATUS 2mo stale, FXY position shown wrong, 6 expired options listed as active, "Immediate Actions" all past deadline. Will-flagged + SAM-blocking. | `AGENTS/SAM/outbox/2026-05-21_to-PROME_sam-position-state-for-forge-rehab.md` |
+| 🔴 | **6/18 theta-killer dispositions** — 6 contracts in roll-vs-let-expire limbo (HYG×8 / EGBN / AAL×2 / WAL $65P + $67.5P×2 / KRE $60P×1; all -87% to -94%; 28d to expiry). BROCK LESSONS #16 execution-rails territory. APO + ARES already let-expire (BROCK 5/21). | `FORGE/STATUS.md` §Immediate Actions |
 | 🟠 | **SAM Sep-18 $60C × 5-10 contracts** — pending post-CPI entry window (Tranche 2 already executed 5/21 at $57.66, 5 shares) | `AGENTS/SAM/TRADE.md` v1.4 |
 | 🟠 | **HEARTBEAT refresh cadence** — who writes, how often (in discussion 5/21) | this file |
 | 🔵 | **PROME execution-rails design** — HYG roll Jun→Dec died for lack of mechanism; relevant to 6/18 expiry cluster | BROCK LESSONS #16 |

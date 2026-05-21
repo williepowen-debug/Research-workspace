@@ -726,3 +726,84 @@ Open with Will at next-session start:
 - Behavior-language in state files (commits referenced only as audit anchors).
 - Show-diff-then-approve for each cross-surface boundary write (HEARTBEAT path-choice + MEMORY scope + HEARTBEAT surgical fix all gated through Will before commit).
 - Scope creep on MEMORY (2nd new entry) disclosed openly before commit; Will approved.
+
+---
+
+## Current Session — 2026-05-21 evening (FORGE rehab Steps 1-4)
+
+**Run type:** Will-directed CC-Prome session, ~17:42-19:30 ET. Boot from /clear; deep front-loaded planning pass (23 decisions surfaced + Will-default-approved before execution); 5-step ladder Steps 1-4 executed; Step 5 commit + propagation in progress at this entry.
+
+### What landed
+
+Single commit `ec7e8ad9` (+442/-86 lines, 5 files):
+- **Step 1: Recon worksheet.** `FORGE/scratch/REHAB_RECON_2026-05-21.md` (200 lines). CSV × thesis bucket × agent owner table. 5 discrepancies surfaced (FXY $58C not in CSV / AAPL trim 80→30 / 18 equity closures / APD new long / ~12 new option opens). Computed account total ~$45,400 (vs Mar 25 $52K).
+- **Step 2: STATUS.md positions rewrite.** Header drop $52K stale (replaced with Cash $25,138.80 + Pending -$288.28 + provenance line); thesis paragraph → 1-line pointer to HEARTBEAT; all 6 thesis-puts subsections replaced (KRE Dec $60P merged 7-contract with weighted-avg + dagger footnote); Other Puts re-organized into Regional banks / Credit / Consumer / Index sub-clusters; Longs with FXY 13sh + $58C double-dagger footnote.
+- **Step 3: Immediate Actions rebuild.** Decision-surfacing 6-group hierarchy: Expiring-today (QQQ) / 6/18 theta-killer dispositions (HYG×8 + EGBN + AAL×2 + WAL×3 + KRE) / 6/18 still-live (WAL $85P + TLT × 3 + IWM + FITB + CF) / SAM watches / Other near-dated / INBOX pending (VIOLET 4/15 overdue). PROTOCOL.md advisor-not-authority posture honored — surfaces decisions with owners, no prescriptions. Mar 25 Catalysts stripped; Watchlist annotated with current resolution (PC + FXY ✅ resolved; HYG + SOFI ⚠️ stale-but-superseded).
+- **Step 4: Banners.** PORTFOLIO SUPERSEDED; ACTIVE_TRADES STALE; JOURNAL gap entry (~22 equity closures + 6 expirations + 4 rolls + ~13 new opens, no per-trade P&L reconstructable). Mar 9 NFP red-day trim table moved from STATUS → JOURNAL. Per-trade folders KRE/WAL/OZK left alone per REGINALD ownership.
+
+### Files edited (within autonomous scope)
+
+- `FORGE/STATUS.md` — full rewrite of positions section + new Immediate Actions; stale Catalysts stripped; Watchlist annotated
+- `FORGE/PORTFOLIO.md` — SUPERSEDED banner
+- `FORGE/ACTIVE_TRADES.md` — STALE banner
+- `FORGE/JOURNAL.md` — Reconstruction Gap section + Mar 9 trim table moved over
+- `FORGE/scratch/REHAB_RECON_2026-05-21.md` — NEW
+- `PROME/STATUS.md` — header + FORGE row 🔴→✅ + Next Best Action rewrite
+- `PROME/SCRATCH.md` — full rewrite for third-session-of-day
+- `PROME/CLAUDE_CODE_HANDOFF.md` — this entry
+
+### Cross-surface boundary (Will-auth pending)
+
+- `HEARTBEAT.md` — Blocking-on-Will FORGE row needs removal (resolved). Will-auth + path choice (delete row only vs replace with new "6/18 theta-killer dispositions" row) requested at handoff time.
+
+### Decisions Will made this session
+
+- Pick scope: B+ (use CSV to ground-truth full position section since data in hand) over literal B ✅
+- Break the work into manageable steps; front-load planning + answer questions ahead of execution ✅
+- All 23 pre-execution defaults approved (Q1-Q23) ✅
+- Steps 1-4 executed without mid-execution review escalations (proposed at each step boundary, Will green-lit "proceed")
+- Commit 1 (FORGE rehab) green-lit ✅
+
+### Decisions needed from Will (forward-looking)
+
+See `PROME/SCRATCH.md` §Next Planned Work. Five new ones surfaced by the rehab:
+1. 6/18 expiry cluster — 6 theta-killer dispositions undecided
+2. FXY $58C reconciliation (separate account? not filled?)
+3. TLT $88P May 15 disposition unknown (was +100% pending Will)
+4. VIOLET 4/15 VIX/SKEW trade overdue
+5. APD new long thesis tag
+
+### Risks / Blockers
+
+- **None blocking** the closeout itself.
+- **Push deferred** — WALTER mid-session (MEMORY + route_log + 10 new BOARD SIGs + 1 inbox). Per protocol, do not pull or push when other agents have uncommitted work. Commit 2 (PROME state) will land locally; push gated on WALTER closeout + Will green-light.
+- **Soft:** HEARTBEAT cross-surface boundary still pending Will-auth at this entry. Without it, HEARTBEAT still flags FORGE rehab as 🔴 top Blocking-on-Will item, which is no longer true.
+
+### v_next design inputs returned this session
+
+1. **Front-loaded planning pass works for multi-step deterministic work.** 23 decisions surfaced + defaulted before execution; Will pre-approved en bloc with "your defaults sound good." Execution then ran mechanical-with-checkpoints across Steps 1-4 (~25 min total tool time) without a single mid-execution decision escalation. Pattern transferable to other multi-step rehabs (TODAY.md Path B, CALENDAR.md refresh, OZK STATUS hygiene).
+2. **Step-by-step proceed-pacing with "proceed to step N" gate.** Will-driven cadence; CC-Prome stops at each step boundary with one-paragraph delta summary; Will replies "proceed." Lower-friction than full-review-each-step, more controlled than batch-everything-then-review.
+3. **CSV-as-ground-truth pattern.** Today's Fidelity CSV (downloaded 2:03 PM ET, sitting in RED's processed inbox) was the unblocker for B+ scope. Without it, B would have been a half-done patch; with it, B+ became a clean reconciliation. **Future state rehabs benefit from this pattern: locate the ground-truth source first, scope second.** Worth adding to a "rehab playbook" memory entry if the pattern recurs.
+4. **Reconstruction-gap acknowledgment is honest framing.** JOURNAL gap entry openly disclaims "no per-trade P&L reconstructable" rather than guessing. Pattern is preferable to silent partial reconstruction. Same family as `feedback_verify_counts_before_propagating`.
+5. **Surface-decisions-not-prescribe posture in Immediate Actions.** Each row names what needs deciding + who owns it + by when. No "do X" prescriptions. Matches PROTOCOL.md advisor-not-authority + memory `feedback_evidence_standalone`. Particularly valuable for theta-killer cluster where wrong prescription (e.g., "roll all") would burn $30-50 in tickets on positions worth $1-40 each.
+
+### Next Suggested Work
+
+Open with Will at next-session start:
+- **6/18 theta-killer cluster** decision pass (the top thing the rehab surfaced)
+- FXY $58C reconciliation (likely needs Will broker-check)
+- HEARTBEAT FORGE-row removal if not already done in this closeout
+- TODAY.md Path B (if FORGE-rehab follow-ups don't fully consume the session)
+
+### Rules I Held To
+
+- No commits outside `FORGE/` (Will-authorized) + `PROME/`.
+- No `git add -A` or `git add .`. Explicit-path staging on every commit.
+- No edits to other agents' files — verified with `git diff --cached --stat` before commit 1.
+- No persistent-agent spawns.
+- No trades. No external messages.
+- Read-before-edit honored (caught ACTIVE_TRADES.md needing Read after only peeking via bash head).
+- Behavior-language in state files (commits referenced as audit anchors only).
+- Sequenced state-file edits per chunked-update memory.
+- Cross-surface boundary (HEARTBEAT) NOT crossed without Will-auth proposal.
+- Show-diff-then-approve honored on commit 1.
