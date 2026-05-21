@@ -32,13 +32,14 @@ The strongest version of "we're wrong" — refreshed 5/21 against tape that stil
 
 1. **WAL tape held $77.63 today** despite 10-Q B1 fire + IDay non-disclosure + Curley resignation + DA Davidson PT cut + ~10% week-of drawdown. **Market absorbed all of it within 6 sessions and recovered ~+$2.66 off 5/13 low.** If V2.2 PT $50-68 was the right read, tape would still be falling; instead it's bouncing.
 2. **Cohort fade intact 12/12** (REGINALD signal dashboard). 5/10 regionals IMPROVING YoY (ZION −3bp NPA, CFG −11bp, MTB −25bp, FITB −24bp, EGBN-NPA −48bp). OZK + WAL concentration-specific; the rest of the cohort is *stabilizing*, not bear-cascading.
-3. **HY OAS 276bps cycle-low 5/18 (LIQUID 5/18 + REGINALD dashboard).** Credit canary NOT firing despite stagflation prints. RED's Apr 7 falsifier fired Apr 10; sustained 40+ days. Public/private bifurcation continues — public credit refuses to widen.
+3. **HY OAS 286bps 5/20 (LIQUID v2.0).** Drifted +10 wider from 276 cycle-low 5/17/18 — popped back above 280. Kill threshold 260 = 26bps cushion (widening). LIQUID's frame: "term-premium digestion, NOT broken auction mechanism" (KB-LIQ-057). Credit canary NOT firing despite stagflation prints. RED's Apr 7 falsifier fired Apr 10; sustained 40+ days but now off cycle-low. Public/private bifurcation continues — public credit refuses to widen even at the highest substance-prints.
 4. **VIX 17.61 today, below my RED-16 25-threshold by 7.4pts.** Vol regime impervious. FOMC (Apr 28-29 4 dissents) + BOJ (Apr 28 3 dissents) + CPI HOT + PPI HOT + B1 fire + Curley resignation all absorbed without panic-spike.
 5. **Sentimentrader retail-puts-at-ATH analogs N=10** (5/12 dispatch): 10/10 higher 12mo, median +20.76%. Carson 8-streak analogs N=13: 76.9% hit rate, median +20.76%. Small/mid forward-PE 0.76 = 25-year deepest discount. **The exact configuration bears believe confirms regime fragility has historically resolved bullish.**
 6. **TBT (ProShares UltraShort 20+yr) +6.91% in portfolio + TBT alongside TLT puts winning** = duration trade is the *real* bear signal, not regional banks. Bond-channel thesis is the right thesis; equity-vol-channel was wrong instrument.
 7. **WAL "~85% of 2020-2022 Office vintages performing/modified/in active resolution"** (IDay vintage stat) — still the strongest specific falsifiable bull stat. If the $99M life-sci is the only Office migration in Q2, V2.2 over-states the bear; cohort-median MI3 in Q2 print confirms it.
 8. **REGINALD V2.2 acknowledges Jun catalysts are slim.** V2.2 SCENARIOS: *"Most v2.2 evidence (B1 fire, Curley) ALREADY in tape via 5/11-5/15 drawdown. Q2 print is post-Jun expiry; Jun catalysts now slimmer (only FFIEC PDD if integrated; AOCI rule comment close Jun 18)."* The bull steelman absorbs this: there's no obvious bear-catalyst left in the Jun window absent (a) MI3 finally prints, (b) AOCI comment-period closure causes vol, (c) macro shock, or (d) second sponsor walk-away. **Time-decay wins by default for the marginal Jun stack.**
 9. **Adversarial counter-pressure on Carson/Sentimentrader analogs.** The 5/9 image batch surfaces 1929/1973/1999 as bear-side historical analogs (SPX ATH + 5% members at 52w-lows). Carson/Sentimentrader cite *different* configurations (8-streak / retail-puts-at-ATH) that historically resolve bullish. Same-class evidence pile, opposite conclusions. **RED can't anchor the bull steelman exclusively on Carson/Sentimentrader without conceding the 5/9 batch is bear-equivalent.** Net: both datasets are late-cycle positioning markers, not timing tools — the tension itself is the honest read. Tilt: slight bear-leaning (40/60) because gamma-squeeze + mechanical melt-up framing matches REGINALD V2.2 "leveraged paper not organic" hypothesis weight.
+10. **NEW — LIQUID v2.0 gamma-suppression caveat supplies the bifurcation mechanism (5/19).** LIQUID v2.0 §5/§9 promoted gamma-suppression from 5/14 Will/Prome signal to thesis-level epistemic warning: *"positive gamma may suppress VIX / HY OAS even while substance accumulates. Cross-verify too-calm prints during loud-substance windows."* This is the **first candidate mechanism for RED's bifurcation pattern** — RED has been observational ("paper diverging from structural"); LIQUID v2.0 supplies a structural reason: positive gamma in dealer books mechanically suppresses paper-vol responses. Bear-side implication: bifurcation can persist longer than a "honest market repricing" frame would predict, until a gamma-event (large unhedged downside flow, vol-event, sponsor-driven unwind) snaps the suppression. Bull-side implication: until that snap arrives, structural prints can keep firing without paper response — and the substance-side bears die of theta. This is the SAME PATTERN as Session 8's "Bull wins short, bear wins long" finding but now with a named mechanism. **Watch:** if next stagflation-print (May PPI mid-June / CPI mid-June / Q2 print late-Jul) fails to widen HY OAS despite hot data, gamma-suppression is the dominant frame and near-dated bears should NOT be added.
 
 **If this is right:** Q2 print (late July) shows only $99M as the Office migration; MI3 cohort-median; WAL stabilizes $75-80; Jun stack expires worthless except $85P; rest of Jun-expiry bear stack ($67.5P/$65P/Jul$65P/HYG/APO/ARES/IWM Jun) sub-$0.50 mark = dead. RED's bear-thesis substance was right; instrument timing was wrong. Sep/Dec stack survives for Q3 catalysts. Trade for Q3: TLT duration + KRE Dec long-dated, NOT WAL/regional Jun.
 
@@ -53,7 +54,7 @@ The strongest version of "we're wrong" — refreshed 5/21 against tape that stil
 | **REGINALD V2.2 ship Bear-medium 30%** | 5/21 | -2pp Base, but Base+Bull still 51% | Speed acceleration; PT $50-68; EV $67.98 | **30/70 bear** | NEW |
 | **WAL tape $77.63 (recovering)** | 5/21 | 7th sub-$78 but bouncing off $74.42 low | Hasn't reclaimed $78 threshold | **55/45 bull** | NEW |
 | **DA Davidson PT $93→$90** | 5/13 | Buy maintained; valuation-driven | Sell-side acknowledging bear-medium | **40/60 bear** | NEW |
-| **HY OAS 276 cycle-low** | 5/18 (LIQUID) | Path A intact 40+d post-falsifier | Sub-280 sustained; bifurcation persists | **65/35 bull** | tightening bull |
+| **HY OAS 286** (off 276 cycle-low 5/17/18; +10 wider) | 5/20 (LIQUID v2.0) | Path A intact 40+d post-falsifier; popped back above 280 = sub-280-sustained criterion BROKE | LIQUID v2.0 frame "term-premium digestion not mechanism-failure"; KB-LIQ-057 | **60/40 bull** | tightening bull fade |
 | **VIX 17.61** | 5/21 | Vol resilient; no panic-spike on B1 fire | RED-16 resolved CORRECT (modal 82%) | **60/40 bull** | = |
 | **TLT Jun $85P x3 +92%** | broker 5/21 | Single trade; not portfolio-wide | Duration channel paying; LIQUID PLUMBING→DURATION validating | **20/80 bear** | NEW (winner) |
 | **WAL Jun $85P drift $11→$7 (-33%)** | broker 5/21 | Time-premium IV-crush; spot-bound | Held through binary that didn't print | **45/55 bear** | NEW |
@@ -223,8 +224,8 @@ Apr 10 falsifier fired; Will deferred 41 days now; mark at $0.03. **Workbook loo
 
 | Trigger | Action | Status |
 |---------|--------|--------|
-| **HY OAS <280 sustained 3d** | Exit KRE Jun18/Jun30 + IWM Jun; reduce OZK/WAL 25% | **PARTIALLY FIRED.** 276 cycle-low 5/18 (LIQUID). Sub-280 sustained 40+ days. Next: check 5/21 LIQUID 3-dashboard read. |
-| **HY OAS >320 sustained 3d** | Path B reasserts; confidence +3 | OAS 276 currently. 44bps away. |
+| **HY OAS <280 sustained 3d** | Exit KRE Jun18/Jun30 + IWM Jun; reduce OZK/WAL 25% | **FIRED-THEN-FADED.** 276 cycle-low 5/17-18; popped to **286 5/20 (+10 wider)** per LIQUID v2.0. Sustained <280 criterion BROKE on 5/20. Sub-280 was day-40-of-60 toward fire; now off cycle-low. Bifurcation sub-trigger (b) regressing not advancing. |
+| **HY OAS >320 sustained 3d** | Path B reasserts; confidence +3 | OAS 286 5/20. 34bps away. |
 | **WAL Q1 MI3 ≥25% (FFIEC Q1 release)** | Confirm V1 hidden-CRE acceleration; **+3** | **RE-SCOPED to Q2 print late-July or whenever MI3 integrates.** Bin (a) prior adjusted: B1 fire (alt-mechanism) shifts pre-MI3 prior 30% → 35% (some V1 acceleration evidence accumulated). |
 | **WAL Q1 MI3 <19% (cohort-median)** | V1-demotion partially confirmed; trim Jun stack | **Re-scoped to Q2.** Bin (c)/(d) priors widen because B1 fire de-couples V1 from MI3 number alone. |
 | **WAL or OZK Q2 beat + clean disclosure** | Exit both; confidence 73 → 65 | Q2 prints mid-late Jul. Bin (a) of self-falsifier (Session 12). |
@@ -237,7 +238,7 @@ Apr 10 falsifier fired; Will deferred 41 days now; mark at $0.03. **Workbook loo
 | **Brent <$95 sustained + Hormuz operational >5 mbpd 15+d** | Iran-cluster reverses | Brent ~$107 — clear from <$95 trigger. |
 | **Initial claims >250K** | LABOR transmission re-arms; +3 | 211K 5/14. |
 | **VIX <16 sustained 5d** | Managed decline confirmed; reduce 50% | 17.61 today. 1.61 above trigger. |
-| **EGBN single-day -84% Jun put move (today)** | Either Q1-absorption IV crush or pre-catalyst spot move | NEW WATCH. Verify spot move + Q1 absorption story. |
+| ~~EGBN single-day -84% Jun put move (5/21)~~ | RESOLVED no surprise | **CLOSED Session 14.** Verified yfinance: EGBN $24.47 5/15 low → $25.09/$25.04/$25.80/$26.08 (5/18-5/21). Strike $25 was ATM 5/15, now OTM $1.08. Q1 reported 5/7 (NCO 1.46%); IV normalized. Mechanical theta + IV crush + spot drift off cohort improving signals (5/10 IMPROVING YoY rebound). NO special catalyst. Cleanup candidate at next bid ≤$0.20, $20 residual. |
 | **REG-T-02 sustain rule** | Apply WALTER sustain protocol once defined | Pending WALTER definition. |
 
 ### RED self-falsifier on bifurcation-framing (Session 12 carryover)
@@ -247,11 +248,11 @@ Apr 10 falsifier fired; Will deferred 41 days now; mark at $0.03. **Workbook loo
 | Sub-trigger | Threshold | Status (5/21) |
 |---|---|---|
 | (a) WAL or OZK Q2 beat + clean disclosure | mid-late Jul | Pending. |
-| (b) HY OAS sustained <280 for 60+ days | from 5/11 firing | **Day 40 of 60.** Tracking toward fire. |
+| (b) HY OAS sustained <280 for 60+ days | from 5/11 firing | **FADED.** Was tracking day 40 of 60; OAS popped to 286 on 5/20 (LIQUID v2.0) — "sustained" criterion broke. Counter-clock or rolling-window required to re-arm. **Sub-trigger (b) is now LESS LIKELY to fire on its 60-day clock**; bifurcation framework is more durable than RED previously framed. |
 | (c) Structural data backs OFF | mid-late Jul | Not firing — V2.2 acceleration moves opposite direction. |
 | (d) Brent <$95 sustained + Hormuz operational >5 mbpd 15+ days | rolling | Brent $107 — not firing. |
 
-**2-of-4 = capitulate bifurcation framing.** Currently 0-of-4 fired, 1-of-4 (b) tracking. If (b) fires day 60 with (a) clean Q2 beat = capitulation event scheduled mid-late Jul.
+**2-of-4 = capitulate bifurcation framing.** Currently 0-of-4 fired, (b) faded from "tracking toward fire" back to dormant. **Bifurcation framework strengthens, doesn't weaken, with (b) regressing** — paper continues to refuse to widen even at PPI 6.0% / 30Y 5.168% / B1 fire / Curley resignation = the gamma-suppression mechanism (LIQUID v2.0 §5/§9) is the candidate explanation. If (b) re-fires later AND (a) prints clean Q2 beat = capitulation event mid-late Jul.
 
 ---
 
@@ -261,11 +262,11 @@ Apr 10 falsifier fired; Will deferred 41 days now; mark at $0.03. **Workbook loo
 |-----------|--------|----------|--------|
 | **HYG exit closure owed** | RED self → Will | CRITICAL | Mark $0.03. Loop closure owed. Final write-up after Jun 18 expiry. |
 | **CHG-RED-026 WAL post-IDay reassessment** | REGINALD | RESOLVED-CONVERGED | V2.2 ship (5/21) closes the challenge: bear-medium speed accepted; PT $50-68; B1 fire validates V1 acceleration via alt-mechanism. RED's "HOLD bear thesis don't downgrade pre-MI3" verdict honored; REGINALD upgraded bear independently. |
-| **CHG-RED-027 self-bifurcation falsifier** | Self | ACTIVE | Day 40 of 60 on sub-trigger (b). Q2 print mid-late Jul resolves (a)+(c) simultaneously. |
-| **CHG-RED-028 stagflation regime persistence** | Self | ACTIVE | Substance hardened (PPI 5/13 + B1 5/11); calibration cycle 1 retro (~5/25) gets formal read on persistent-vs-resolving. |
-| **CHG-RED-024 BRENT v2.0 adversarial overlay** | BRENT | STRONG | 7-day session-gap; BRENT shipped Phase 1 contested + sanctions-waiver back-door (5/20) + Barakah strike (5/18). BRENT response on CHG-RED-024 not yet read this session — re-read next chunk. |
+| **CHG-RED-027 self-bifurcation falsifier** | Self | ACTIVE-REFRAMED | Sub-trigger (b) FADED — HY OAS popped to 286 5/20, "sustained <280" broke. Framework now MORE durable not less. Q2 print mid-late Jul resolves (a)+(c) simultaneously. Re-arm (b) as rolling-window or counter-clock per LIQUID v2.0 KB-LIQ-057 framing. |
+| **CHG-RED-028 stagflation regime persistence** | Self | ACTIVE — gamma-suppression candidate mechanism | LIQUID v2.0 §5/§9 supplies first mechanism candidate for the bifurcation: positive gamma in dealer books suppresses VIX/HY OAS even while substance accumulates. Substance hardened (PPI 5/13 + B1 5/11 + 30Y 5.168% 5/19 first 5% since 2007); calibration cycle 1 retro (~5/25) gets formal read on persistent-vs-resolving with gamma-mechanism as primary candidate. |
+| **CHG-RED-024 BRENT v2.0 adversarial overlay** | BRENT | AWAITING-RESPONSE | Session 14 read: zero formal closure from BRENT (no v2.1, no CHANGELOG, no outbox-to-RED, no file references to CHG-RED-024). BUT substance has converged via 5/20 STATUS pivots: **Challenges 1+2+5 RED-direction full or indirect accept** (spread-evidence retired; curve "actively flattening toward this expected mean" framing adopted; Phase 1∩Phase 2 simultaneity now BRENT's own framing line 4+160+168); **Challenge 3 REVERSES against RED** (rigs 415 May 15 +8 from trough, 3 consec WoW gains, capex layer break confirmed = BRT-04 weakening was correctly called); **Challenge 4 narrowed-not-resolved** (still n=2 bypass-pair; pattern claim pivoted to UAE energy-infra widening). Net 3/5 RED + 1/5 reverse + 1/5 narrowed. NEW convergence-mechanism variant ("silent absorption" — STATUS pivots without thesis-version bump; less satisfying than VIOLET/REGINALD explicit-closure cycles but substance is there). RED→BRENT signal dispatched 5/21 to BRENT inbox requesting brief confirm/counter/closure; backstop close as RESOLVED-CONVERGED-SILENT by ~5/27 if no response. **RED-19 (rigs 400-415 through Jun) at risk** — 415 = upper bound, 2 more upward prints falsifies; calibration cycle 1 retro ~5/25 is the formal-score venue. |
 | **MI3 4-bin tree re-scope to Q2** | RED-primary | NEW | Bin (a) prior 30% → 35% given B1-via-alt-mechanism. Bin probabilities under review pending Q2 publication-cadence verification. |
-| **WAL EGBN Jun $25P -84% one-day move** | Self → REGINALD | LOW | Verify catalyst (likely Q1 absorption + IV crush; cross-check EGBN spot). |
+| ~~WAL EGBN Jun $25P -84% one-day move~~ | Self | RESOLVED | Verified Session 14. No surprise catalyst. EGBN $24.47 5/15 → $26.08 5/21 (+6.6%); strike $25 was ATM, now OTM $1.08. Q1 reported 5/7 (NCO 1.46%); IV normalized. Mechanical theta + IV crush + spot drift off cohort improving signals. Cleanup at next bid ≤$0.20 = $20 residual. |
 | **Q2 instrument mismatch** | Portfolio | REALIZED | Jun stack in capitulation; thesis substance still right; vehicle wrong. Lesson logged. |
 | **RED calibration (5/13 sell-rec on $85P)** | Self | NEW MODERATE | Recommended sell at $11 mark; Will held; spot recovered $2.66 in 6 sessions but binary didn't print so theta won. Calibration: weighted MI3-prints prior too high vs MI3-doesn't-print prior. |
 
@@ -300,7 +301,7 @@ Apr 10 falsifier fired; Will deferred 41 days now; mark at $0.03. **Workbook loo
 | RED-10 (HY OAS <400 by Jun) | 45% | 276 cycle-low 5/18 | ACTIVE-VERY-RIGHT |
 | RED-17 (Dated Brent next print <$115) | 50% | $107 area | ACTIVE-RIGHT |
 | RED-18 (Brent Dec26 $80-95 over 60d) | 65% | day 15 of 60 | ACTIVE |
-| RED-19 (US rigs 400-415 through Jun) | 65% | rigs 408 May 1 | ACTIVE-RIGHT (last refresh 5/1; verify) |
+| RED-19 (US rigs 400-415 through Jun) | 65% | rigs **415 May 15** (+8 from 407 trough, 3 consec WoW gains per BRENT 5/20) | **AT-RISK** — 415 = upper bound; 2 more upward prints falsifies; BRT-04 weakening firing against me |
 
 **4 wrong / 2 correct / 5 active.** RED-08/10/12 tracking right.
 
