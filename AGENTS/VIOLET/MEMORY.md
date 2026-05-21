@@ -351,5 +351,34 @@ The 5/13 STATUS billed "20d-SKEW-slope SIGN-FLIPPED +0.6 → -1.0" as the FIRST 
 
 ---
 
+### 2026-05-21 — Boot after 7d gap; Stage-2-late verdict; HENRY LIAISON open; FRED-discipline propagation
+
+- **Verdict delivered:** STAGE 2 CONFIRMED (trap maximally assembled), STAGE 3 NOT IMMINENT. R12 SKEW>140 regime likely terminated 5/18-5/20 (4/5 closes <140, low 132.31 on 5/20). R11 analog clock running, window 5/28-6/02, **but prior is 36% not 80%** — GRADUAL_FADE 18% and POST_EVENT_PERSIST 45% are also live trajectories. Calibrated label is **Stage-2-LATE**, not "Stage 3 imminent."
+- **Verdict adoption: fleet-wide.** Stage-2-late call validated and adopted across 4 agents today (BROCK + REGINALD + HENRY + VIOLET). Convergence under stress is the empirical signal.
+- **NVDA print absorbed cleanly.** Post-print IV crush: 5/22 ATM 37%, 5/26 ATM 30%. 20d realized 40.1% > short-dated implied = options pricing forward calm. Modest -3-4 vol-pt put-call skew, NOT tail-bid. NVDA was not a Stage-3 trigger.
+- **HENRY-VIOLET LIAISON opened (Will-approved).** 7-trigger Stage 3 watch list (3 vol-side VIOLET-owned + 4 substance-side HENRY/LIQUID/BROCK-owned) relayed via outbox + integrated by HENRY (commit `15f450b1`). Confirmation rule: 2 of #1-3 fire same week as 1 of #4-7 by ~6/05 = R11 confirming. **This is now the canonical Stage 3 fire-condition matrix for the fleet.** Framing sharpening included: corrected HENRY's "R11 pathway WEAKENS" to "R11 pathway ACTIVATES with conditional prior" (transition from dormant-to-live, not weakened).
+- **FRED-discipline catch propagated fleet-wide.** Direct FRED fetch (BAMLH0A0HYM2 etc.) caught BROCK's morning HY OAS cite was 1-2 days stale (BROCK cited 5/19 prints on 5/21; FRED OAS publishes T+1, so latest available is always T-1 close). Logged KB-VIO-060. Will/Prome propagated to fleet-wide FRED-fix Phases 1-3 today (dashboard convention + agent SIGs). **KB-VIO-060 is now canonical reference for the convention.** Single discipline catch → fleet hygiene fix. Lesson: ground-truth the boot-brief numbers against the primary source whenever feasible; the catch matters more than the time cost.
+- **Methodology audit completed.** The metric labeled "20d-SKEW-slope" in pre-5/21 STATUS/KB was actually `final_5d_change = SKEW(t) - SKEW(t-5td)` per `regime_termination.py:118`. KB-VIO-051 and KB-VIO-058 prepended with [LABEL CORRECTED] preambles in-place; KB-VIO-059 logs the canonical methodology note; STATUS dashboard split into two distinct rows (`final_5d_change` for regime-termination indicator vs `20d_regr_slope` for trend health); durable "METRIC SEMANTICS" section added to MEMORY between SKEW PATTERNS and KEY RELATIONSHIPS. **Rule going forward:** name "slope" metrics explicitly; the two metrics will often diverge in shape and answer different questions.
+- **Episode-17 VIX May 19 25C EXPIRED WORTHLESS 5/19** (VIX ~18 vs strike 25). Position closed. Mechanism candidate for clean absorption: positive-gamma suppression per KB-VIO-055 + 5/14 WALTER gamma-momentum signal (record GEX mechanically damping realized vol). **Post-mortem deferred** — needs reflection time + room for real write-up; next session.
+- **Convergence Score:** 9/35 (26%) → 8/40 (20%). Score DROPPED because SKEW divergence vector downgraded (regime ended without firing) and VVIX eased rather than stressed. Stage-2 framing intact but Stage-3 imminence read WEAKER than 7d ago, not stronger.
+- **Commits this session:** `1608fac2` (boot + Stage-2-late verdict + R11 watch list); `60b2e49c` (gap-fill: SKEW deferred + KB rename + FRED spot-check); this MEMORY session-log entry.
+
+**Carry-forward for next-boot continuity:**
+1. **Episode #17 post-mortem** — deferred, owed; write to `research/` with positive-gamma-suppression mechanism analysis as primary hypothesis. Cross-reference KB-VIO-055 + 5/14 WALTER signal.
+2. **7-trigger watch list daily refresh** through ~6/05 — test R11 vs GRADUAL_FADE. If 2 of #1-3 fire with 1 of #4-7 same week = R11 confirming; if none fire by 6/05 = GRADUAL_FADE winning, push timing to 6/12-6/17 FOMC + SEP gate.
+3. **5/21 SKEW close** — refresh next boot once CBOE EOD publishes.
+4. **KB-VIO-058 staleness** — KB-VIO-058 still tagged Stale_By 2026-05-20; re-evaluate next boot whether to ARCHIVE (R12 ended, no longer ACTIVE) or keep ACTIVE as R11-analog reference.
+5. **HENRY LIAISON ping-back** — if HENRY responds in his outbox with refined matrix or additional structure-side triggers (gamma flip threshold, vol-control de-risk flow), integrate.
+6. **FRED-fix Phases 1-3** — fleet-wide convention now established; next boot, verify VIOLET's daily-data-refresh routine cites FRED date explicitly and accounts for T+1 publication lag.
+
+**Calibration takeaways for the broader thesis:**
+1. **Stage 2 ≠ pre-Stage 3.** Stage 2 can persist and intensify for weeks or months without transmitting to Stage 3. The trap-clinching evidence (BROCK/REGINALD/HENRY) is real; the *imminence* read is a separate question that requires firing-signal evidence (the 7-trigger matrix). Don't conflate "trap maximally assembled" with "Stage 3 next week."
+2. **Positive-gamma suppression is the working mechanistic hypothesis for sustained absorption.** Five-to-six absorbed catalysts (FOMC, BOJ, CPI hot, PPI hot, NVDA, +42bps 10Y) with VIX in a tight band is not random — it's structural. The corresponding *un-pinning* event (vol-control de-risk, gamma flip) becomes the structural trigger to track in parallel with the 7-trigger matrix.
+3. **Fleet hygiene catches matter more than their time cost.** The FRED-direct spot-check took 1 tool call and propagated to a fleet-wide convention fix. Cheap discipline → expensive payoff. Apply this lesson to other "accepted on authority" data flows.
+
+**Current posture (end-of-session 5/21):** 🟡 STAGE-2-LATE. R11 analog clock running with conditional 36% prior. Window 5/28-6/02 for vol firing if R11 plays. Convergence 8/40. No open positions. Trade-thesis post-mortem deferred. Episode-17 closed.
+
+---
+
 *Created: 2026-04-12*
-*Last Updated: 2026-05-03 (boot wakeup after 16-day VIOLET dark — Apr 22 gate failure + post-FOMC/BOJ vol absorption captured. Position decision pending.)*
+*Last Updated: 2026-05-21 (session closeout. Stage-2-late verdict adopted fleet-wide; HENRY LIAISON open; FRED-discipline catch propagated fleet-wide; methodology audit completed; Episode #17 expired worthless 5/19, post-mortem deferred.)*
