@@ -45,36 +45,58 @@
 - NVDA 5/20 print: clean beat, no tone-shift catalyst, vol surface decisively faded (SKEW 138→132, VIX9D 16.86→15.02).
 - BROCK Stage 2 APO trigger entrenched (sustained >$130 13+ sessions); broad-thesis HY OAS widening from 260 kill (276 cycle min → 286).
 
-### LAST SESSION (2026-05-21 Wed mid-day — Session 1 of revival)
+### LAST SESSION (2026-05-21 Wed mid-day-to-PM — Session 1 of revival; 3-arc continuation)
+
+**Session arc summary (audience: next HENRY):** Single multi-arc continuation session. Three commits, all pushed:
+1. `15f450b1` — Revival + STATUS rewrite + NVDA read-through + VIOLET LIAISON integration
+2. `36a8219b` — Gap-fill (USD/JPY pull + HEN-27 PCE scoring + HEN-28 claims + PREDICTIONS.tsv refresh)
+3. `526d3586` — BOND TIPS integration (R11 imminence softened + breakeven decomp as 3rd Fed-can't-cut confirmation channel)
+
+**Net state at close:** trap-clinching thesis with 3 independent Fed-can't-cut confirmations (PCE Core 3.20% YoY CONFIRMED + LIQUID duration reframe + BOND breakeven decomposition). R11 analog clock running 5/28-6/02 (prior 36%) per VIOLET LIAISON; 10Y substance trigger proximity intact but imminence softened by BOND auction-demand reads. R12 SKEW>140 regime terminated 5/18-5/20.
+
+**Detail (arc 1 — revival + LIAISON):**
 - **Inbox cleared (18 → 0).** Revival packet + draft STATUS + framing-precision note integrated. 15 signal/sweep files moved to processed/ via git mv. 8 LIVE absorbed into STATUS narrative; 7 archived (per revival packet §5 triage — items 11-15 + 8 + 9).
 - **STATUS rewrite.** Apr 17 → May 21. New status header (TRAP CLINCHING), live tape table with Δ vs 5/18 and Apr 17, vol regime block updated (VIX9D <15, SKEW out of 140+), literal triad-status table (1 fired + 1 compressing + 1 flat per framing-precision overlay), tape/substance divergence metric replaces bare triad watch, thesis state with confirmed/counter/counter-evidence/vol-spike-pathway sub-sections, soft-kill vs trap-clinch invalidation reframe, updated thresholds with kill-watch sub-rows, May-Jun catalyst stack, predictions table (HEN-29 scored partial disconfirm), updated cross-agent dependencies (BRENT direction FLIPPED 5/21 — sustained >$100 NOW CONFIRMS, sustained <$85 inverts to soft-kill watch).
 - **NVDA 5/20 read-through one-pager** filed at `research/NVDA_5_20_READ_THROUGH_2026-05-21.md`. Vol structure context + options market signal + broader regime tell + drafted cross-agent sends (VIOLET, LIQUID, PROME).
-- **Position read for Prome:** Macro/structure tape SUPPORTS trap-clinching + REGINALD V2.2 Bear-medium 30%. Push-back surface limited to: (1) WALTER 5/13 bull-counter signals (SIG-006 small/mid-cap discount + SIG-007 retail-puts-at-SPY-ATH) deserve calibration weight; (2) if VIOLET's next slope read shows positive re-steepening, R11 vol-spike-pathway weakens (grind-not-spike scenario).
+- **Position read for Prome:** Macro/structure tape SUPPORTS trap-clinching + REGINALD V2.2 Bear-medium 30%. Push-back surface limited to: (1) WALTER 5/13 bull-counter signals (SIG-006 small/mid-cap discount + SIG-007 retail-puts-at-SPY-ATH) deserve calibration weight; (2) HENRY's "R11 weakens post-NVDA" hypothesis was half-right (corrected in arc 1).
+
+**Detail (arc 2 — VIOLET LIAISON resolution + gap-fill):**
+- **VIOLET LIAISON resolved same session (~90 min cycle).** R12 SKEW>140 regime terminated 5/18-5/20 confirmed; R11 analog clock ACTIVATES on termination (window 5/28-6/02, prior 36%) — HENRY's "R11 weakens" hypothesis was half-right; regime-end ≠ pathway-end. 7-trigger Stage 3 watch list integrated into cross-agent dependency table. Metric label correction: `final_5d_change` not "20d-slope" going forward.
+- **Gap-fill batch (Prome relay):** USD/JPY 159.16 (+0.23 vs 5/18 packet; 0.84 handles from 160 yellow trigger); HEN-27 PCE March CONFIRMED via core YoY +3.20% (>3.0% threshold; MoM +0.293% just under 0.3% but OR-trigger met); HEN-28 labor cliff NOT-FIRING on headline (ICSA 4-wk avg 202.5K, single-week 209K) — shadow-adjusted ~266K firing via WALTER 5/13 BAA series; PREDICTIONS.tsv refreshed HEN-22 through HEN-31.
+
+**Detail (arc 3 — BOND TIPS integration):**
+- **BOND TIPS 5/21 read** (commit `724169c3`) integrated as 3rd Fed-can't-cut confirmation channel.
+- **R11 trigger #6 (10Y) imminence SOFTENED:** BOND live intraday 10Y 4.599-4.635 = 15bps below 4.75% trigger (not 8bps from FRED 5/19 DGS10 print). 2 consecutive clean long-end auctions (5/20 nominal 20Y + 5/21 TIPS BTC 2.52 = 100th pctile / direct 27.51% = 92nd pctile) → "long end clearing demand at price — expensive, not broken." Proximity intact, imminence reduced.
+- **Breakeven decomposition:** TIPS 2.169% real + nominal ~4.60% = breakeven ~2.43% (FRED T10YIE 2.49→2.44 on 5/19→5/20). Real yields rose, breakeven did not. Duration repricing is term-premium / Fed-pinned, NOT reflation-driven. Independent confirmation of HEN-27 PCE-CONFIRMED Fed-can't-cut via bond-decomposition angle.
+
+**Cross-session lessons added to Findings (this MEMORY pass):**
+- R11 clock activates on R12 termination, doesn't deactivate (regime-end ≠ pathway-end)
+- VIOLET metric label correction (`final_5d_change` not "20d-slope")
+- LIAISON-channel-open within session = ~90 min cycle for cross-agent canary reconciliation
+- Breakeven decomposition = independent confirmation channel for Fed-can't-cut framing
+- Auction-demand softens R11 substance-trigger imminence even with proximity intact (proximity vs imminence are separable; cross-reference BOND auction-tail dynamics before treating yield-level proximity as imminent-firing)
 
 ### NEXT SESSION
-1. **🟠 VIOLET 20d-SKEW-slope post-NVDA read.** Central HENRY-VIOLET LIAISON question. Currently -1.0 (5/13 print); post-NVDA SKEW out of 140+ regime suggests possible re-steepening positive (regime decay). Need fresh slope read.
+1. **🟠 R11 analog window 5/28-6/02** — 7-trigger Stage 3 watch (VIOLET surface side; HENRY substance side). Current proximity: 10Y closest (8-15bps depending on FRED-vs-live framing), HY 4bps, CCC 52bps. Imminence softened by BOND auction-demand 5/20+5/21 reads — watch auction-tail dynamics alongside yield level for next 20Y/30Y/10Y prints.
 2. **🟢 Daily HY OAS** — watch for sub-265 ×2 sess (HEN-30 leading invalidation tell). Currently 286, moving wrong way.
-3. **🟢 Score HEN-27** (March PCE actual). Resolution date passed; pull data + score.
+3. **🟡 Inbox arrival to process:** `SIG-PROME-HENRY-2026-05-21_fred-citation-convention.md` (Prome FRED citation convention — deferred this session per closeout holds).
 4. **🟡 WAL 10-Q drill closeout** (REGINALD V2.2). Watch KRE/WAL beta into Q2 (late Jul second migration test).
 5. **🟡 BDC tail prints** (GCRED/OTF/BCRED/CTAC late May / early Jun, BROCK-primary; HENRY watches credit-tape reaction).
 6. **🟡 PCE Apr release** when scheduled — Fed framework test.
-7. **🟢 Workbook updates** — PREDICTIONS.tsv (HEN-22/24/25/26/29 close, HEN-27/28 hold, HEN-30 new); KB.tsv entries for gamma/momentum-suppression hypothesis + duration regime break + AI capex air-pocket + tape/substance divergence metric.
+7. **🟢 Workbook updates** — KB.tsv entries pending for gamma/momentum-suppression hypothesis + duration regime break + AI capex air-pocket + tape/substance divergence metric + breakeven-decomposition-as-confirmation-channel. (PREDICTIONS.tsv done arc 2.)
 
 ### GAPS — PERSISTENT
 - **0DTE SPX share + GEX regime** STATUS PENDING. 4+ sessions deferred. NVDA passed; less urgent now but still a HENRY gap. Manual estimate acceptable.
 - **VX.tsv 11 STALE Jan/Feb rows** — refresh or archive.
-- **PREDICTIONS.tsv update** — Apr 17 active set needs closeout/extend pass per above.
+- **KB.tsv** — 5 entries pending from today's session (see NEXT SESSION #7).
 
-### RESEARCH QUEUE (carried from Apr 17 + this session)
-1. **NVDA post-print transmission tracking.** Daily SMH/AVGO/AMD vs NVDA action — does AI capex air-pocket transmission fire incrementally vs need a fresh catalyst?
-2. **Apr 21–30 catalyst scenario matrix** — most events resolved; **lower priority post-revival.**
-3. **Historical cascade fired-vs-aborted cases** — NVDA 5/20 just became another fired-vs-aborted case study. **Promote priority.**
-4. **GEX wire-up decision doc** — backlog.
-5. **Structural bid decomposition** — gamma/momentum suppression hypothesis (5/14 signal) gives the working framework; quantify $/day mechanical bid.
-6. **Regional bank credit-vs-margin playbook** — sharpens WAL/KRE read post-V2.2.
-7. **Macro-surprise-index as leading indicator** — nice-to-have.
-8. **Credit-vol decoupling phase tracker** — complements VIOLET's LOW_VOL framework; NVDA-day cross-asset tell (HY widening on AI beat) is a useful data point.
+### RESEARCH QUEUE (current priorities — pruned 5/21)
+1. **Historical cascade fired-vs-aborted cases** — NVDA 5/20 added as case study. **Promoted.**
+2. **NVDA post-print transmission tracking** — daily SMH/AVGO/AMD vs NVDA; AI capex air-pocket transmission firing incrementally vs needing fresh catalyst?
+3. **Structural bid decomposition** — gamma/momentum suppression (5/14 signal) framework; quantify $/day mechanical bid.
+4. **Regional bank credit-vs-margin playbook** — sharpens WAL/KRE read post-V2.2.
+5. **Credit-vol decoupling phase tracker** — complements VIOLET LOW_VOL framework.
+6. **GEX wire-up decision doc** — backlog.
 
 ### INFRASTRUCTURE CHANGES (persistent)
-- Apr 17: MEMORY.md adopted, CLAUDE.md SPAWN PROTOCOL restructured, research/deep_dives/ subdir, role split LAST_COMPLETION vs MEMORY.
-- 5/21: Revival-proxy framing-precision overlay pattern documented in Findings. Tape/substance divergence metric replaces bare triad watch (Feedback section).
+- 5/21: Tape/substance divergence metric replaces bare triad watch (Feedback). Revival-proxy framing-precision overlay pattern documented (Findings).
