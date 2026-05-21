@@ -1,7 +1,7 @@
 # RED STATUS
-**Last Updated:** 2026-05-21 (Thu Session 13 — MI3 binary did not print; B1/B3/V4 fired separately via 10-Q + IDay; REGINALD V2.2 ship accepted; portfolio drift on Jun stack; RED-11 RESOLVED CORRECT) | **Role:** Adversarial Analysis / Thesis Stress-Tester
+**Last Updated:** 2026-05-21 (Thu Session 14 — Session 13 substance intact; housekeeping pass: prediction-numbering reconciled to workbook IDs RED-16/17/18/19; inbox CSV moved to processed/) | **Role:** Adversarial Analysis / Thesis Stress-Tester
 
-> **Session 13 thesis-impacting deltas:** (1) **MI3 binary DID NOT PRINT** in the 5/14-16 FFIEC PDD bulk window — per REGINALD STATUS today, *"V1 MI3 primary falsifier STILL HASN'T RUN; v2.1 calibration table preserved."* My pre-registered 4-bin tree never triggered. RE-SCOPED to Q2 print late-July or whenever MI3 data integrates. (2) **B1 fired via 10-Q subsequent event (5/11)** — WAL $99M life-science office sponsor walk-away (Class-A LEED Silver, gateway market) on a *pass*-graded loan = strategic default. **Same mechanic as IQHQ (OZK).** V1 sub-vector materialized through an *alternate instrument* (10-Q narrative, not MI3 number). (3) **B3 fired (IDay 5/12)** — mgmt held 25-35bps NCO guide despite Q1 ex-fraud 39bps. (4) **V4 NEW** — Chief Banking Officer Stephen Curley resigned same week as 10-Q (National Business Lines = Office/Hotel/Tech-Innov/Mortgage Warehouse/Public Finance/Renewable Resources). (5) **REGINALD V2.2 SHIPPED 5/21** — Bear-slow → **Bear-medium speed**; Bear-fast 12 / **Bear-medium 30** (+7) / Base 33 (-2) / Bull 18 (-5) / Tail 7; EV $70.50 → $67.98; PT $50-68. **Fourth agent-converge cycle** — REGINALD V2.1 → V2.2 = stronger version of CHG-RED-025 direction. (6) **DA Davidson PT cut $93→$90** (5/13, Buy maintained). (7) **Portfolio reality vs RED Session 12 view:** broker CSV 5/21 14:03 ET shows OZK Thread 3 rolled May→**Jul 17 $42.5P** (not Jan27); KRE $70P May was confirmed phantom (cleaned); WAL Jun $85P held through MI3 = $7.00 mark (-$3.63 drift from 5/13 $11 mark); WAL Jun $67.5P/$65P / Jul $65P all -91% to -94% basis (effectively dead OTM); HYG $75P x8 at $0.03 = $24 total (dying); TLT Jun $85P x3 +92% (duration channel paying). (8) **RED-11 RESOLVED CORRECT** — VIX peaked ~19.21 5/15, never crossed 25 vs RED's 18% bear-spike call; modal 82% call landed. Calibration: 4 W / 2 C / 8 ACTIVE (was 4/1/9).
+> **Session 13 thesis-impacting deltas:** (1) **MI3 binary DID NOT PRINT** in the 5/14-16 FFIEC PDD bulk window — per REGINALD STATUS today, *"V1 MI3 primary falsifier STILL HASN'T RUN; v2.1 calibration table preserved."* My pre-registered 4-bin tree never triggered. RE-SCOPED to Q2 print late-July or whenever MI3 data integrates. (2) **B1 fired via 10-Q subsequent event (5/11)** — WAL $99M life-science office sponsor walk-away (Class-A LEED Silver, gateway market) on a *pass*-graded loan = strategic default. **Same mechanic as IQHQ (OZK).** V1 sub-vector materialized through an *alternate instrument* (10-Q narrative, not MI3 number). (3) **B3 fired (IDay 5/12)** — mgmt held 25-35bps NCO guide despite Q1 ex-fraud 39bps. (4) **V4 NEW** — Chief Banking Officer Stephen Curley resigned same week as 10-Q (National Business Lines = Office/Hotel/Tech-Innov/Mortgage Warehouse/Public Finance/Renewable Resources). (5) **REGINALD V2.2 SHIPPED 5/21** — Bear-slow → **Bear-medium speed**; Bear-fast 12 / **Bear-medium 30** (+7) / Base 33 (-2) / Bull 18 (-5) / Tail 7; EV $70.50 → $67.98; PT $50-68. **Fourth agent-converge cycle** — REGINALD V2.1 → V2.2 = stronger version of CHG-RED-025 direction. (6) **DA Davidson PT cut $93→$90** (5/13, Buy maintained). (7) **Portfolio reality vs RED Session 12 view:** broker CSV 5/21 14:03 ET shows OZK Thread 3 rolled May→**Jul 17 $42.5P** (not Jan27); KRE $70P May was confirmed phantom (cleaned); WAL Jun $85P held through MI3 = $7.00 mark (-$3.63 drift from 5/13 $11 mark); WAL Jun $67.5P/$65P / Jul $65P all -91% to -94% basis (effectively dead OTM); HYG $75P x8 at $0.03 = $24 total (dying); TLT Jun $85P x3 +92% (duration channel paying). (8) **RED-16 RESOLVED CORRECT** (workbook ID; Session 11-12 STATUS labeled this RED-11 — reconciled this session) — VIX peaked ~19.21 5/15, never crossed 25 vs RED's 18% bear-spike call; modal 82% call landed. Calibration: 4 W / 2 C / 8 ACTIVE (was 4/1/9).
 
 ---
 
@@ -33,7 +33,7 @@ The strongest version of "we're wrong" — refreshed 5/21 against tape that stil
 1. **WAL tape held $77.63 today** despite 10-Q B1 fire + IDay non-disclosure + Curley resignation + DA Davidson PT cut + ~10% week-of drawdown. **Market absorbed all of it within 6 sessions and recovered ~+$2.66 off 5/13 low.** If V2.2 PT $50-68 was the right read, tape would still be falling; instead it's bouncing.
 2. **Cohort fade intact 12/12** (REGINALD signal dashboard). 5/10 regionals IMPROVING YoY (ZION −3bp NPA, CFG −11bp, MTB −25bp, FITB −24bp, EGBN-NPA −48bp). OZK + WAL concentration-specific; the rest of the cohort is *stabilizing*, not bear-cascading.
 3. **HY OAS 276bps cycle-low 5/18 (LIQUID 5/18 + REGINALD dashboard).** Credit canary NOT firing despite stagflation prints. RED's Apr 7 falsifier fired Apr 10; sustained 40+ days. Public/private bifurcation continues — public credit refuses to widen.
-4. **VIX 17.61 today, below my RED-11 25-threshold by 7.4pts.** Vol regime impervious. FOMC (Apr 28-29 4 dissents) + BOJ (Apr 28 3 dissents) + CPI HOT + PPI HOT + B1 fire + Curley resignation all absorbed without panic-spike.
+4. **VIX 17.61 today, below my RED-16 25-threshold by 7.4pts.** Vol regime impervious. FOMC (Apr 28-29 4 dissents) + BOJ (Apr 28 3 dissents) + CPI HOT + PPI HOT + B1 fire + Curley resignation all absorbed without panic-spike.
 5. **Sentimentrader retail-puts-at-ATH analogs N=10** (5/12 dispatch): 10/10 higher 12mo, median +20.76%. Carson 8-streak analogs N=13: 76.9% hit rate, median +20.76%. Small/mid forward-PE 0.76 = 25-year deepest discount. **The exact configuration bears believe confirms regime fragility has historically resolved bullish.**
 6. **TBT (ProShares UltraShort 20+yr) +6.91% in portfolio + TBT alongside TLT puts winning** = duration trade is the *real* bear signal, not regional banks. Bond-channel thesis is the right thesis; equity-vol-channel was wrong instrument.
 7. **WAL "~85% of 2020-2022 Office vintages performing/modified/in active resolution"** (IDay vintage stat) — still the strongest specific falsifiable bull stat. If the $99M life-sci is the only Office migration in Q2, V2.2 over-states the bear; cohort-median MI3 in Q2 print confirms it.
@@ -54,7 +54,7 @@ The strongest version of "we're wrong" — refreshed 5/21 against tape that stil
 | **WAL tape $77.63 (recovering)** | 5/21 | 7th sub-$78 but bouncing off $74.42 low | Hasn't reclaimed $78 threshold | **55/45 bull** | NEW |
 | **DA Davidson PT $93→$90** | 5/13 | Buy maintained; valuation-driven | Sell-side acknowledging bear-medium | **40/60 bear** | NEW |
 | **HY OAS 276 cycle-low** | 5/18 (LIQUID) | Path A intact 40+d post-falsifier | Sub-280 sustained; bifurcation persists | **65/35 bull** | tightening bull |
-| **VIX 17.61** | 5/21 | Vol resilient; no panic-spike on B1 fire | RED-11 resolved CORRECT (modal 82%) | **60/40 bull** | = |
+| **VIX 17.61** | 5/21 | Vol resilient; no panic-spike on B1 fire | RED-16 resolved CORRECT (modal 82%) | **60/40 bull** | = |
 | **TLT Jun $85P x3 +92%** | broker 5/21 | Single trade; not portfolio-wide | Duration channel paying; LIQUID PLUMBING→DURATION validating | **20/80 bear** | NEW (winner) |
 | **WAL Jun $85P drift $11→$7 (-33%)** | broker 5/21 | Time-premium IV-crush; spot-bound | Held through binary that didn't print | **45/55 bear** | NEW |
 | **Apr CPI 3.8% YoY / Core 2.8% / Energy +17.9%** | 5/12 BLS | Headline tariff+energy concentrated | Iran/Hormuz transmission realized | **25/75 bear** | sustained |
@@ -280,7 +280,7 @@ Apr 10 falsifier fired; Will deferred 41 days now; mark at $0.03. **Workbook loo
 5. **MI3 Q2 re-scope formalization** — Update CALENDAR + falsifier with publication-cadence-confirmed dates. Bin (a) prior 30%→35% formal write-up.
 6. **CHG-RED-024 BRENT v2.0 response check** — BRENT shipped 5/18-5/20 material (Barakah strike + sanctions-waiver back-door + Phase 1 contested). Re-read for response to my Apr CHG-RED-024.
 7. **LIQUID 5/19 thesis v2 + 5/21 3-dashboard read** — credit-side primary source updated 3 times in 8 days. Cross-check sub-280 status + APO co-trigger.
-8. **VIOLET 5/21 Stage 2-late verdict + R11 clock** — VIOLET formally closed RED-11 scoring. Update PREDICTIONS.tsv.
+8. **VIOLET 5/21 Stage 2-late verdict + R16 clock** — VIOLET formally closed RED-16 (VIX) scoring. PREDICTIONS.tsv already updated.
 9. **5/9 image-batch signals (4 in inbox unprocessed)** — AI capex / defensives underweight / SPX call-notional / breadth deterioration. RED-relevant for bull-pile growth & calibration cycle 1.
 10. **Calibration cycle 1 retro prep** — scheduled ~5/25 with BRENT/REGINALD. 5 bifurcation observations now; need formal position on persistent-vs-resolving.
 
@@ -295,12 +295,12 @@ Apr 10 falsifier fired; Will deferred 41 days now; mark at $0.03. **Workbook loo
 | RED-06 (CDX vs cash) | 30% | cash compressed | WRONG |
 | **RED-07 (≥1 of WAL/OZK beats)** | 25% | both missed | **CORRECT** |
 | **RED-09 (BOJ delays past May 1)** | 15% | held Apr 28 (delay) | **WRONG modal** |
-| **RED-11 (VIX ≥25 sustain by May 19)** | 18% | VIX peaked 19.21 5/15; never crossed 25 | **RESOLVED CORRECT (modal 82%)** |
+| **RED-16 (VIX ≥25 sustain by May 19)** | 18% | VIX peaked 19.21 5/15; never crossed 25 | **RESOLVED CORRECT (modal 82%)** |
 | RED-08 (Brent <$120 Q2) | 60% | $107 today; never sustained above | ACTIVE-RIGHT |
 | RED-10 (HY OAS <400 by Jun) | 45% | 276 cycle-low 5/18 | ACTIVE-VERY-RIGHT |
-| RED-12 (Dated Brent next print <$115) | 50% | $107 area | ACTIVE-RIGHT |
-| RED-13 (Brent Dec26 $80-95 over 60d) | 65% | day 15 of 60 | ACTIVE |
-| RED-14 (US rigs 400-415 through Jun) | 65% | rigs 408 May 1 | ACTIVE-RIGHT (last refresh 5/1; verify) |
+| RED-17 (Dated Brent next print <$115) | 50% | $107 area | ACTIVE-RIGHT |
+| RED-18 (Brent Dec26 $80-95 over 60d) | 65% | day 15 of 60 | ACTIVE |
+| RED-19 (US rigs 400-415 through Jun) | 65% | rigs 408 May 1 | ACTIVE-RIGHT (last refresh 5/1; verify) |
 
 **4 wrong / 2 correct / 5 active.** RED-08/10/12 tracking right.
 
@@ -318,4 +318,4 @@ Apr 10 falsifier fired; Will deferred 41 days now; mark at $0.03. **Workbook loo
 
 ---
 
-*RED Session 13: MI3 binary did not print; B1/B3/V4 fired separately; REGINALD V2.2 accepted as fourth agent-converge cycle. Confidence -2. Portfolio shows instrument-timeline mismatch fully manifest in Jun stack capitulation; TLT duration channel is the trade actually paying. RED-11 RESOLVED CORRECT. MI3 falsifier re-scoped to Q2 print (late-July) with B1-via-alt-mechanism prior shift. Top priority: Jun stack cleanup decision with Will + WAL $85P window-trigger menu re-arm.*
+*RED Session 13: MI3 binary did not print; B1/B3/V4 fired separately; REGINALD V2.2 accepted as fourth agent-converge cycle. Confidence -2. Portfolio shows instrument-timeline mismatch fully manifest in Jun stack capitulation; TLT duration channel is the trade actually paying. RED-16 RESOLVED CORRECT (was labeled RED-11 in Sessions 11-12 STATUS — reconciled to workbook IDs Session 14 housekeeping). MI3 falsifier re-scoped to Q2 print (late-July) with B1-via-alt-mechanism prior shift. Top priority: Jun stack cleanup decision with Will + WAL $85P window-trigger menu re-arm.*
