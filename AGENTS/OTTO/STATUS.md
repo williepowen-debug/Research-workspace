@@ -1,8 +1,47 @@
 # OTTO STATUS
 
-**Signal Status:** 🔴🔴 CRITICAL — ESCALATING | **Last Updated:** 2026-04-15 EDT
+**Signal Status:** 🔴🔴 CRITICAL — ESCALATING | **Last Updated:** 2026-05-21 EDT
 
-> **📌 New spawn:** Read `LAST_COMPLETION.md` first — Apr 15 session rewrote Tricolor timeline (real deadline Apr 30, not Mar 31), moved OZK out of OTTO scope (REGINALD owns), switched cross-agent signals to route through WALTER. PREDICTIONS.tsv has 5 CONFIRMED (was 1) + 2 new entries. Follow-up priority queue in LAST_COMPLETION.md.
+> **📌 New spawn:** Read `LAST_COMPLETION.md` first. May 21 session resolved Tricolor's actual outcomes (vehicle sales were Mar 31 deadline, NOT Apr 30 — prior recalibration was wrong; auction proceeds emerging mid-May), surfaced Wilmington Trust's exit from non-mortgage ABS custodial business (systemic), and expanded the fraud surface to ACV Capital. Auction recovery tracking ~3% of debt; ~30K vehicles missing valued up to $1.1B.
+
+---
+
+## MAY 21 CHECK-IN — TRICOLOR AUCTION DATA + WILMINGTON EXIT (2026-05-21)
+
+**Summary:** Vehicle auction proceeds emerged ~May 14: 5,857 of ~9,500 vehicles sold for **$39.5M net** (~32% of cost basis on the sold fraction). At full-auction projection ~$64M / $2B+ debt = **~3% recovery from vehicles alone**. Separately, the indenture trustee for $1.8B+ of Tricolor ABS — Wilmington Trust — is reportedly shutting down its entire non-mortgage custodial business. Fraud surface expanded to ACV Capital (auction-side counterparty) via a May 14 trustee Rule 2004 motion.
+
+### New Findings
+
+- **Auction proceeds (AFN, ~May 14):** 5,857 vehicles / **$39.5M net**. Projects to ~$64M full-auction total = **~3.2% recovery vs $2B+ debt**.
+- **Phantom inventory (AFN):** ~**30,000 vehicles** marked for repossession are MISSING — valued **up to $1.1B**. Validates Invisible Exit at industrial scale (borrowers disappeared with collateral). Distinct from the 29,000 double-pledged loans previously identified.
+- **Distribution gridlock (Green Street):** $113M of receivables HELD UP — ownership disputed between Wilmington Trust (securitization trustee), JPM, Fifth Third, and the bankruptcy trustee. Vervent BLOCKED from distributing initial servicer report. "Nearly 6 months after collapse, no solution in sight." → **New transmission mechanic:** banks can't realize losses cleanly because nobody agrees whose loans these are.
+- **🔴🔴 Wilmington Trust exiting non-mortgage ABS custody:** Per Jan 14 subordinated noteholder complaint, Wilmington is reportedly shutting down "its entire non-mortgage custodial business" spanning "billions of dollars of asset backed securities." Was custodian on **7 Tricolor trusts 2018-2025 / $1.8B+ ABS issued**. Systemic — major indenture trustee retreat may force re-papering across non-prime ABS broadly.
+- **ACV Capital subpoenaed (Trustee Rule 2004, May 14):** Burns filed discovery motion against ACV Capital LLC (affiliate of ACV Auctions, which disclosed $19M Tricolor-linked loss Feb 23). Fraud surface expanding to auction-side counterparty.
+- **Trustee Rule 2004 motion Apr 24:** Discovery against Tricolor's own affiliates (Tricolor Financial, Tricolor Auto Receivables, TAG Asset Funding, Apoyo Financial). Likely tracking inter-entity transfers underlying the $113M dispute.
+- **Vehicle Sales Deadline was Mar 31, not Apr 30.** Apr 15 OTTO recalibration to Apr 30 was incorrect — no formal extension motion found in public records. Auctions proceeded on the original Mar 31 schedule; proceeds data lagged into May.
+- **Two parallel noteholder lawsuits clarified:** (1) Jan 14 vs Wilmington Trust + Vervent — breach of post-default reserve-fund obligations + "asleep at the wheel." (2) Feb 27 vs JPM + Barclays + Fifth Third — banks "concealed and misrepresented" fraud despite 2022 + 2024 auditor warnings. **30 investors holding ~$270M** in subordinated ABS (revised up from $230M).
+- **Fifth Third exposure precise:** **$178M** (was prior "$170-200M" range).
+- **Fifth Third Apr 24 supplemental motion exists** per Octus (May 8), but contents could not be pulled directly — Verita has cert-verification issues. Tooling gap.
+- **Vervent "Fresh Start" mod program** to 30,000+ delinquent borrowers (half >4 mo DQ) — waives late fees, adds missed payments to end of loan. Implicit institutional concession this cohort is uncollectable.
+
+### Thesis Impact
+
+- **Cockroach magnitude — further strengthened:** Auction recovery ~3% confirms <10¢ ABS pricing was right. The $1.1B phantom-inventory finding adds a new dimension — fraud + abandonment compounding.
+- **Wilmington Trust exit is a NEW vector:** Promotes "indenture-trustee retreat" to its own transmission row. Single fraud → major custodial business shutdown → re-papering pressure on the broader non-prime ABS stack.
+- **Distribution gridlock is a NEW transmission mechanic:** Mark-to-recovery has been outpaced by ownership disputes. Banks know losses are coming but can't book them because the legal infrastructure for whose-loan-is-this hasn't resolved.
+- **Invisible Exit — industrially validated:** 30K missing vehicles = institutional concession that this cohort can't be pursued. Vervent's Fresh Start program is the operational expression.
+
+### Timeline Correction
+
+| Was (Apr 15 OTTO recalibration) | Is (May 21 sourced) |
+|----|----|
+| ❌ Apr 30: "actual" Tricolor vehicle-sale deadline | ✅ Mar 31 was the operative deadline; no extension; auctions ran |
+| — | ✅ ~May 14: 5,857 vehicles sold / $39.5M net proceeds emerged |
+| Jun 17: creditor meeting / trustee distribution plan ETA | ⚠️ Distribution gridlocked by $113M ownership dispute — Jun 17 ETA at risk |
+
+### Next Re-Check
+
+**Jun 17 creditor meeting** — was supposed to bring trustee distribution plan, but $113M dispute may push this out. **Q1/Q2 bank earnings sweep** — MTB, Regions, additional names for OTTO-30 (6th bank). **Wilmington Trust non-mortgage business exit confirmation** — find a corporate-side source (not just plaintiff allegation).
 
 ---
 
@@ -171,14 +210,14 @@
 
 | Case | Type | Scale | Status |
 |------|------|-------|--------|
-| Tricolor | Double-pledging | $2B debt, $800M gap | Ch. 7; Chu trial Aug 2026 |
+| Tricolor | Double-pledging + abandonment | $2B debt, $800M pledge gap, **~30K vehicles missing up to $1.1B** | Auctions ran; **~3% recovery projected**; $113M distribution gridlocked; Wilmington Trust exiting custody; Chu trial **Oct 19 2026** (SDNY, Liman) |
 | First Brands | Invoice fabrication, Ponzi | $12B debt | Indicted; Ch. 7 risk. JEF zero. Barclays/Apollo/WAL hold paper. |
 | PrimaLend | BVY2 fraud | $286M debt | Plan confirmation Feb 2026 |
 | **MFS (UK)** | **Double-pledging** | **£2B+ ($2.7B)** | **CONFIRMED Feb 26** |
 | Carvana | Related-party (alleged) | $70B+ mkt cap | Discovery ongoing |
 
 ### Secondary: "The Invisible Exit" — Immigration-Auto Transmission
-Recovery ratio 30.58% (vs 41% benchmark). Construction -92.7% YoY. S&P CreditWatch Lendbuzz/SAFCO.
+**Industrially validated May 21:** Tricolor's 30K missing vehicles ($1.1B) + Vervent "Fresh Start" mod program (institutional concession this cohort can't be pursued) = the thesis at scale. Adjacent data: Recovery ratio 30.58% vs 41% benchmark; Construction -92.7% YoY; S&P CreditWatch Lendbuzz/SAFCO.
 
 ---
 
@@ -187,7 +226,11 @@ Recovery ratio 30.58% (vs 41% benchmark). Construction -92.7% YoY. S&P CreditWat
 | Indicator | Value | Status |
 |-----------|-------|--------|
 | Confirmed Fraud Cases | **4** (MFS confirmed) | 🔴 |
-| Bank Losses | ~$1.8B+; JPM/Barclays/Fifth Third sued $230M+ | 🔴 |
+| Tricolor Auction Recovery | **$39.5M on 5,857 sold (~62%); projects ~3% of debt** | 🔴🔴 |
+| Tricolor Missing Vehicles | **~30,000 missing, up to $1.1B** | 🔴🔴 |
+| Tricolor Disputed Receivables | **$113M frozen — distribution gridlocked** | 🔴 |
+| Wilmington Trust | **Exiting non-mortgage ABS custody** ($1.8B+ Tricolor) | 🔴🔴 |
+| Bank Losses | JPM $170M / 5/3 **$178M** / BCS $150M / Regions $68M / MTB litigation TBD | 🔴 |
 | BCRED Redemptions | $6.5B = 7.9% (met via $400M firm injection + 7% cap) | 🔴 |
 | MS North Haven | **GATED** — 10.9% requests, 5% cap, 45.8% fulfilled | 🔴🔴 |
 | BlackRock HPS | Restricted withdrawals on $26B fund | 🔴 |
@@ -203,6 +246,12 @@ Recovery ratio 30.58% (vs 41% benchmark). Construction -92.7% YoY. S&P CreditWat
 ---
 
 ## ACTIVE VECTORS
+
+### Wilmington Trust Exit — 🔴🔴 NEW May 21
+Indenture trustee for $1.8B+ Tricolor ABS (7 trusts 2018-2025) reportedly shutting down its entire non-mortgage custodial business. Per Jan 14 noteholder complaint. Major custodial retreat = structural pressure on non-prime ABS re-papering. Find corporate-side confirmation.
+
+### Tricolor Distribution Gridlock — 🔴 NEW May 21
+$113M of receivables held up in disputed-ownership escrow. Wilmington Trust + JPM + Fifth Third + bankruptcy trustee all contesting. Vervent BLOCKED from initial servicer report. Banks can't book losses cleanly; resolution on Jun 17 timeline at risk.
 
 ### MFS (Cockroach #4) — CONFIRMED Feb 26
 UK mortgage-finance. Barclays + Atlas SP (Apollo) = £2B+. Shortfall £1.3B ($1.7-1.8B). Same double-pledging mechanism as Tricolor. Bloomberg: "regulatory black hole."
@@ -233,18 +282,16 @@ $12B debt (FT). DOJ indicted Patrick James (9 counts, life risk). Asset recovery
 
 | Date | Event | Status |
 |------|-------|--------|
-| ~~Mar 31~~ | ~~Tricolor vehicle liquidation~~ | ❌ WRONG DATE — real deadline Apr 30 |
+| **Mar 31** | Tricolor vehicle-sale deadline (ORIGINAL — operative) | ✅ Auctions ran; 5,857 sold / $39.5M net (data emerged ~May 14) |
 | **Mar 31** | First Brands asset sales (Walbro $50M pending) | ✅ $25M 12-brand sale confirmed |
-| **Apr 9** | First Brands hearing — **ADJOURNED** | ⏳ NEW DATE TBD |
-| **Apr 21** | OZK Q1 earnings (same day as WAL) — **REGINALD owns** | 🟠 WATCH (not OTTO scope) |
-| **Apr 30** | **Tricolor vehicle-sale deadline (actual)** | 🔴 ACTIVE |
-| Jun 17 | Tricolor creditor meeting continued — trustee report ETA | 🟠 |
-| Apr 6 | TCPC class action lead deadline | 🟠 |
-| May 1 | APO class action lead deadline | 🟠 |
-| May 5 | CVNA stock split vote | 🟠 |
+| **Apr 9** | First Brands hearing — **ADJOURNED** | ⚠️ STALE — pending rescheduled date check |
+| **Apr 24** | Trustee Rule 2004 motion vs Tricolor affiliates + Fifth Third supplemental motion (contents opaque) | 🟠 |
+| **May 5** | CVNA stock split vote | ⚠️ STALE — outcome not yet sourced |
+| **May 14** | Trustee Rule 2004 motion vs ACV Capital LLC | 🟠 fraud surface expansion |
 | Jun 12 | Carvana discovery production 2 | 🟠 |
+| **Jun 17** | Tricolor creditor meeting — trustee distribution plan ETA | ⚠️ AT RISK — $113M ownership dispute gridlocked |
 | June | First Brands trial | 🟠 |
-| **Oct** | Tricolor executive trial (moved from Aug) | 🟠 |
+| **Oct 19** | Tricolor executive trial (Judge Liman, SDNY) | 🟠 |
 
 ---
 
@@ -257,6 +304,8 @@ $12B debt (FT). DOJ indicted Patrick James (9 counts, life risk). Asset recovery
 | OTTO-09 | BDC markdown First Brands >10% | ✅ CONFIRMED 2026-02 (debt 13-16¢/0.4¢) |
 | OTTO-27 | FSK dividend coverage <1.0x | ✅ CONFIRMED 2026-02 (cut $0.70→$0.48; Q1 NII $0.44) |
 | OTTO-26 | PSEC dividend cut (Feb 20) | ⚠️ NEEDS MANUAL VERIFICATION ($0.045 vs $0.06 historical) |
+| OTTO-29 | Tricolor ABS trustee distribution <15¢ | 🟢 Substance tracking CONFIRMED (auction ~3%, ABS <10¢); **resolution at Sep 30 RISK** — $113M dispute may push past resolve date |
+| OTTO-30 | 6th US bank discloses Tricolor exposure by Q2 | 🟠 OPEN — Q1 earnings sweep pending (MTB litigation TBD; others to scan) |
 | OTTO-04, -05, -06, -07, -10, -11, -12, -28 | — | 8 OPEN (see TSV for timeframes) |
 
 ### Signal Triggers (not predictions — watched for cross-agent routing)
@@ -274,4 +323,4 @@ $12B debt (FT). DOJ indicted Patrick James (9 counts, life risk). Asset recovery
 - research/outputs/ — RP-OTT-1.1–4.1 (15 reports)
 
 *Mar 20 check-ins (FOMC, CVNA, fraud, ABS, CFPB) and prior condensed check-ins archived to `workbook/STATUS_archive_20260325.md`*
-*Next triggers: OZK 8-K, Tricolor Mar 31, First Brands auction, CVNA discovery*
+*Next triggers: Jun 17 Tricolor creditor meeting / distribution plan (at risk of slip), Jun 12 Carvana discovery production 2, First Brands rescheduled hearing TBD, Q1/Q2 bank earnings sweep for OTTO-30, Oct 19 Tricolor criminal trial*
