@@ -1,97 +1,119 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-05-21 (session spans 5/20 PM → 5/21 early)
+**Last Updated:** 2026-05-21 ~11:30 ET (CC-Prome boot + BROCK/REGINALD post-closeout refresh; pre-BOND-auction)
 
 ## What Just Happened
 
-Substantive multi-thread session built out BOND's domain infrastructure (he's the newest agent; peer agents have months of accumulated data BOND lacked) AND drafted a v2 escalation matrix to replace the v1 the data showed was anti-signal.
+CC-Prome booted from cleared context at 10:54 ET. While Prome was booting, BROCK and REGINALD ran live closeouts in parallel and pushed; the BOND matrix-surgery + build-out chain from last night still leads into today's 1 PM ET 10Y reopening auction.
 
-### Thread 1 — 5/20 20Y post-auction read (resolved)
+### Thread A — BROCK live closeout (5 commits f47b9a30 → 1310ed42)
 
-BOND spawned in teams mode for the post-auction read. Verdict: 20Y did NOT trigger orange escalation. BTC 2.55, dealer 9.4%, indirect 67.7%, tail provisional clean-to-1bp. TLT puts: HOLD, no add. Reframe: NEW $16B 20Y issue (NOT reopen of 4/22 $13B); Apr 22's 2.68 BTC is not like-for-like.
+20-day BROCK dark window (5/1 → 5/21) closed today. Per-position decisions formalized against Fidelity PDF marks:
 
-Verify-research sub-agent confirmed tail was actually 0bp ("on the screws") per ZH. BOND respawned to update STATUS / AUCTION_HEALTH / outbox with confirmed-0bp + posterior shift on 5/21 base-rate (~20-25% → ~12% empirical) + structural "aggressive-add gate closed regardless of Leg 2." Commit `4eb21894` pushed.
+| Position | Mark | Call |
+|---|---|---|
+| APO Dec $95P ×1 | $275 | **HOLD** — thesis vehicle, 210d runway |
+| APO Jun $100P ×1 | $20 | LET EXPIRE |
+| ARES Jun $95P ×1 | $25 | LET EXPIRE |
+| OWL Jun 5 $9.5P ×2 | $40 | **HOLD** — 15d, 5% OTM, real ITM probability ~10-20% |
+| HYG Jun $75P ×8 | $40 | LET EXPIRE |
 
-### Thread 2 — BOND background build-out (4 sub-agents, parallel batches)
+Net BROCK book ~$400 on $3,120 cost. Dec $95P is the only position carrying real optionality.
 
-**Batch 1 (sequential, both done):**
-- WI sourcing playbook → `AGENTS/BOND/research/WI_SOURCING_PLAYBOOK_prome-spawned.md`. Pre-1pm WI structurally unobtainable without terminal. InvestingLive is new primary post-auction WI source (5-15 min faster than ZH).
-- Auction history dataset → `AGENTS/BOND/data/auction_history_prome-spawned.csv` (364 rows, 7 tenors, 2023→present) + refresh script + README. **Surprise finding: 5/13 30Y BTC 2.30 was 11th percentile of all 30Y prints since 2023** — the real statistical outlier of the May refunding, NOT the 20Y BOND focused on.
+**FSK Q1 classification: Strong Bear** (data Max Bear; KKR $450M+ defensive package pulls back one tier). One-line read: *"cleanest evidence, worst vehicle"* — KKR tender at $11 = hard floor, sponsor structurally long defense. **No fresh FSK premium.** Fresh PC premium would go to BIZD or ARCC Q2, not FSK direct. **No fresh BIZD/ARCC yet** either — HY OAS 286 widening *away* from 260 (cushion 26bps). Entry triggers: HY OAS <270 sustained 2+, OR GCRED/OTF release within 30d, OR bank PC loss disclosure, OR sub-90¢ arms-length BDC loan transaction.
 
-**Batch 2 (3 parallel):**
-- Dataset v2 enrichment → added `tail_vs_cmt_bps` (FRED CMT proxy) + `indirect_pct_of_competitive` columns. CSV at `auction_history_v2_prome-spawned.csv` (NOT overwriting v1). Today's 20Y reconciles as MIDDLING (45th-pctile competitive indirect, 38th-pctile BTC) — neither strong nor weak.
-- Cross-tenor base-rates → `analysis/CROSS_TENOR_BASE_RATES_prome-spawned.md`. **P(Leg2 weak | Leg1 strong) = 11.7% empirical**, vs BOND's "~20-25%" vibes estimate. BOND was anchored near unconditional baseline (22.6%).
-- Escalation matrix backtest → `analysis/ESCALATION_MATRIX_BACKTEST_prome-spawned.md`. **Matrix is anti-signal at current thresholds.** Fires (N=26) had 19.2% hit rate vs base 35.7% — UNDER base by 16.5pp. Dealer >12% threshold wrong-signed (dealer >20% has +1.45% median 5d TLT = contrarian-bullish). Best single signal is indirect <50% of-offering (N=18, hit 50%, median -1.07%).
+**WALTER NDFI REQ-BROCK-20260514 closed** — scope correction $128B → $1.4T. New framework: `AGENTS/BROCK/domain/sources/NDFI_FRAMEWORK_MAY21.md` with 4-sponsor bifurcation table (KKR doubles-down / Apollo cashes-out / Blackstone backstops / Blue Owl holds-and-pays).
 
-### Thread 3 — Inbox signal to BOND (Will-authorized cross-agent write)
+**Convergence re-scored ~46/60** (was 38/50) with 2 new vectors: sponsor-bifurcation diagnostic + duration-channel NAV pressure (LIQUID 5/18 reframe). Trap-clinching framing canonized — tape loosening (HY OAS +6 from cycle min, BDC equities bounced, VIX 17.5) while substance worsens (CCC +26, 10Y +42, FSK Max Bear).
 
-`AGENTS/BOND/inbox/SIG-PROME-BOND-2026-05-20_dataset-30Y-reframe_prome-spawned.md` — consolidated addendum to brief BOND on next boot. Includes the 5/12 10Y indirect-7th-percentile reframe and the dual-convention methodology flag.
+**LESSONS #16 is a flag to Prome:** *Execution rails matter as much as decisions.* HYG Jun→Dec roll planned May 1, never executed during BROCK dark window because no mechanism existed. Same gap as May 15 cluster pre-registered ladder. Worth a PROME design note.
 
-### Thread 4 — Matrix v2 surgery (teams-mode draft)
+### Thread B — REGINALD live closeout (`f91ee9fb`, 14 files, +775/-341)
 
-BOND respawned in teams mode for DRAFT-ONLY matrix surgery. Produced `AGENTS/BOND/proposals/MATRIX_V2_DRAFT_prome-spawned.md`. Iterative Will + Prome review through SendMessage. **5 open questions resolved through walkthrough:**
+WAL V2.1 → **V2.2 shipped.** 10-Q drill (`research/WAL_10Q_DRILL_2026-05-21.md`) propagated through THESIS + SCENARIOS + CHANGELOG ×2 + PREDICTIONS.
 
-- **Q1** indirect threshold: **(c) pure per-tenor percentile**, indirect-of-offering <15th-pctile trailing-12mo. BOND pushed back against Prome's misframing of Option C (math error: 51.5% > 50% won't catch 5/12); steelmanned per-tenor percentile as the only rule that catches systematic blind spots. Quarterly snapshot table mechanism added to monitor footer.
-- **Q2** dealer-as-TRIM: parked as future research thread; revisit ~3 weeks post-deploy.
-- **Q3** TLT puts budget: **(c) middle path** — keep 2-contract budget; 3-of-3 fires generate Will-touch ad-hoc prompt, no pre-authorized aggressive tier.
-- **Q4** deployment timing: **DEFERRED with conditional rule** — resolves mechanically on today's 1pm ET 10Y print. (i) v2 fires → deploy this week. (ii) v1 fires but v2 doesn't → deploy this week. (iii) neither fires → deploy next week Tue-Thu. Option "wait until June 10-12" rejected.
-- **Q5** v2-native backtest re-run: OPEN, pairs with Q4 branch resolution.
+- **B1 FIRED** — $99M life-science office sponsor walk-away (10-Q subsequent event, previously *pass* grade). Same strategic-default mechanic as IQHQ on OZK. At 60% LGD alone pushes Q2 NCO past 40bps.
+- **V4 NEW** — CBO Stephen Curley resigned same week. Market -10% on combined news; DA Davidson PT $93→$90.
+- **V2 inventory test CLEAN** — no new Leucadia-era credits; WAL escalated to active NY Sup Ct litigation against Jefferies parent.
+- Other CRE-NOO nonaccrual **+15.4% QoQ** — leading bucket firing pre-event.
+- NDFI 10-Q breakout $14.93B / 25.2% of HFI; V3 cohort-median conclusion confirmed.
 
-Proposal file revised across §1/§2/§3d/§4/§5/§6/§7/§8/§9. §6 re-grade under (c) verifies: 5/12 10Y FIRES (51.5% vs 52.0% threshold = 0.5pp margin, maps to marginal half-add tier), 5/13 30Y FIRES via B'+T', 5/20 20Y does NOT fire. §9 Phase 0 now requires today's 10Y read produces dual-grade format (v1 + v2 simultaneously).
+**Scenario reweight:** Bear-fast 12% / **Bear-medium 30%** / Base 33% / Bull 18% / Tail 7%. EV $70.50 → **$67.98**, PT range $50-68. **REG-24 60→70%, REG-25 55→75%**. Frame matters: bear case got *more confident* but *slower* — Bear-medium dominates Bear-fast 30/12.
+
+**V1 MI3 primary falsifier STILL HASN'T RUN** — FFIEC PDD 5/14-16 window passed without integration. V2.1's MI3 calibration table remains the trigger for V1-fast vs V1-slow.
+
+May 15 expiry cluster cleared (WAL $75P + SSB $95P both gone per Will 5/21). STATUS 309→182 lines (Apr sections archived). POSITIONS WAL 8→7 positions / 3 expiries.
+
+**Next critical test: Q2 print late July** — "one Office migration or many?" Jun 18 puts won't catch the Q2 catalyst directly (expire before print).
+
+### Thread C — BOND auction still leads today
+
+Plan from yesterday unchanged:
+- **~12:30 PM** respawn BOND for pre-auction tape pull
+- **~2 PM** respawn BOND for post-1pm verdict in **mandatory dual-grade format** (v1 read + v2 read simultaneously)
+- Dual-grade output mechanically resolves **Q4** (v2 matrix deployment timing)
+- Then **Q5** (v2-native backtest re-run pre-deploy?) resolves with Q4 branch
+
+5 BOND artifacts from last night sit untracked-by-design in `AGENTS/BOND/{analysis,data,research,proposals,inbox}/`. BOND owns commits on next live boot.
 
 ## Current Git State
 
-Clean within PROME/. BOND artifacts untracked-by-design (5 new files + 1 dir-creation in `AGENTS/BOND/`):
-- `AGENTS/BOND/analysis/` — 2 files (cross-tenor base-rates, escalation matrix backtest)
-- `AGENTS/BOND/data/` — 4 files (v1 CSV, v2 CSV, refresh script, README)
-- `AGENTS/BOND/inbox/SIG-PROME-BOND-2026-05-20_dataset-30Y-reframe_prome-spawned.md`
-- `AGENTS/BOND/proposals/MATRIX_V2_DRAFT_prome-spawned.md`
-- `AGENTS/BOND/research/WI_SOURCING_PLAYBOOK_prome-spawned.md`
+Clean. Tree shows only `WILL/share/` untracked (Will's files). Local at `f91ee9fb`, in sync with origin. BROCK + REGINALD both pushed cleanly.
 
-LIQUID's prior uncommitted work has been integrated and committed (`4a1c7fe2`, `5f92933a`, `06f28e2d`, `71d6a9f3`) — no longer a tree-cleanliness concern.
+## Resolved This Morning (off Pending Work)
 
-`WILL/share/` remains untracked (Will's own files).
+- APO / ARES June premium review → BROCK closed (Dec hold, Jun let-expire)
+- BDC/private-credit decision prompt → BROCK closed (no fresh premium, triggers documented)
+- FSK fresh-premium discussion → BROCK closed (no, KKR structurally long defense)
+- WAL Q1 10-Q integration → REGINALD closed (V2.2 shipped)
 
-## Next Planned Work (entry point for next CC-Prome session)
+## Next Planned Work
 
-**Pre-1 PM ET today (5/21):** respawn BOND for 12:30 PM pre-auction tape pull. Brief carries forward from `PROME/SCRATCH.md` §Thread 4 — emphasis on the dual-grade format requirement in §9 Phase 0 of the proposal.
+**~12:30 PM ET today:** respawn BOND for pre-auction tape pull. Brief carries from yesterday's matrix-v2 draft — emphasis on dual-grade format requirement in proposal §9 Phase 0.
 
-**Post-1 PM ET today:** respawn BOND for post-auction verdict using mandatory dual-grade format:
-- v1 read: BTC <2.30, dealer >12%, indirect <55% (of-offering) → 2-of-3 fire?
+**~2 PM ET today:** respawn BOND for post-auction verdict. Mandatory dual-grade:
+- v1 read: BTC <2.30, dealer >12%, indirect <55% of-offering → 2-of-3 fire?
 - v2 read: BTC <2.30, indirect-of-offering <52% (10Y snapshot threshold), tail ≥75th-pctile-of-12mo-10Y → I' alone OR 2-of-3?
-- Report which framework fires (v1 only / v2 only / both / neither) → mechanically resolves Q4
+- Report which framework fires → mechanically resolves Q4
 
-**Q4 branch resolution → triggers v2 deployment timing decision:**
-- v2 fires → deploy this week, pair with Q5 v2-native backtest re-run
+**Q4 branch resolution → v2 deployment timing decision:**
+- v2 fires → deploy this week, pair with Q5
 - v1 only fires → deploy this week, same Q5 pairing
-- Neither fires → deploy next week Tue-Thu, more time for Q5
+- Neither fires → deploy next week Tue-Thu
 
-**Q5 decision:** v2-native backtest re-run before deployment? Will + Prome decide once Q4 branch resolves.
+**Q5:** v2-native backtest re-run before deployment? Will + Prome decide once Q4 branch resolves.
 
-**Live deployment (Phases 1-6 of §9 in proposal):** monitor matrix surgery + STATUS posture update + TRADE.md confidence-stepped add + KB entries + cross-agent outbox + 6-month re-grade backlog.
+**Live Will-decision carries (remaining after this morning's closeouts):**
+- **SAM FXY Tranche 2** — FXY $57.80 below forfeit band; Will-direction required
+- **HEARTBEAT.md tape refresh** — ~3-4 days stale; Will-approval gate; today's tape + V2.2 scenario weights + trap-clinching framing should fold in post-auction
+- **V1 MI3 / FFIEC PDD status check** — REGINALD's V1-fast falsifier; window 5/14-16 passed without integration
 
-**Live Will-decision carries** (unchanged from prior session):
-- APO put hold/roll/cut (BROCK memo expected post-his-next-boot; APO $131.87 at last dashboard)
-- FSK fresh-premium discussion (BROCK-blocked)
-- SAM FXY Tranche 2 (FXY $57.80 below forfeit band)
-- WAL Q1 10-Q integration (REGINALD-owned)
-- HEARTBEAT.md tape refresh (~3 days stale; Will-approval gate)
+**Open BROCK items (deferred to BROCK next session):**
+- CDR Q1 5-cat NDFI bulk release pull (May 15 release; first publicly available 10.a-10.e splits)
+- OTF release date confirmation (highest priority — 74.2% software concentration)
+- GCRED / BCRED / CTAC release date confirmation
+- ARES Q1 release status verification
+- MS BCI 19.73% / CUBI 33% primary-source confirmation (currently WALTER-sourced)
+- LESSONS #16 PROME design note (execution rails)
 
 ## Cautions for Next Session
 
-- **BOND artifacts untracked-by-design.** BOND owns commit on his next live boot. Do NOT git-add or stage them as Prome — they belong to BOND.
-- **Q4 resolves mechanically off today's auction.** Do not pre-empt; wait for BOND's dual-grade verdict.
-- **5/12 10Y fire under v2 is TIGHT** (51.5% vs 52.0% = 0.5pp margin). Future near-boundary prints need explicit margin annotation in BOND's reads. Documented in §7 caveat of the proposal.
-- **HEARTBEAT.md still stale** (no tape refresh since 5/16). Will-approval gate.
+- **BOND artifacts untracked-by-design.** BOND owns commits on next live boot. Do NOT git-add as Prome.
+- **Q4 resolves mechanically off today's 1pm auction.** Do not pre-empt; wait for BOND's dual-grade verdict.
+- **5/12 10Y fire under v2 is TIGHT** (51.5% vs 52.0% = 0.5pp margin). Future near-boundary prints need explicit margin annotation.
+- **HEARTBEAT.md stale** (~3-4 days). Will-approval gate; fold today's tape + V2.2 + BROCK framing post-auction.
 - **OZK STATUS still pre-roll posture** (hygiene, not execution risk).
 - **Do not spawn:** CARL, REGINALD, OZK, SAM, RED, BRENT, Claude Code Prome. BOND OK in teams mode.
-- **Three agentIds from this session may still be resumable** if needed for follow-on Q5 work: BOND's matrix-surgery handle `a91cfacd0926fc1e6` (proposal author), 5/20 post-auction handle `a23ef79d62048d07d`. Lifecycle unknown; safer to respawn fresh next session per yesterday's pattern.
 
-## Live Carry: Posterior Shifts Tracked This Session
+## Live Carry: Posterior Shifts Tracked This Morning
 
-| Item | Pre-session view | Post-session view |
+| Item | Pre-closeout view | Post-closeout view |
 |---|---|---|
-| 5/20 20Y read | "Soft but functional" → "Strong demand at price" | **Middling** (45th-pctile competitive indirect, 38th-pctile BTC, 0bp tail) |
-| Real May-refunding outlier | The 20Y (BOND focus) | **The 5/13 30Y** (11th-pctile BTC, 75th-pctile tail proxy) |
-| 5/21 weak-Leg-2 base-rate | ~20-25% (vibes) | **~12%** (empirical, N=103 same-week coupon pairs) |
-| BOND's escalation matrix | Trusted framework | **Anti-signal at current thresholds.** v2 proposal in draft. |
-| TLT puts posture | Hold; conditional on orange via v1 | Hold; conditional on v2 fire (per Q4 conditional rule) |
+| APO put hold/roll/cut | 🔴 Pending (10+ days waiting) | **Resolved** — Dec hold, Jun let-expire |
+| FSK fresh premium | 🔴 Pending discussion | **Resolved — no** (KKR structurally long defense) |
+| BDC fresh entry | 🔴 Pending | **Resolved — no yet**; triggers documented |
+| WAL thesis weight | v2.1 (Bear-slow case) | **v2.2 — Bear-medium 30% dominates Bear-fast 12%** |
+| WAL EV | $70.50 | **$67.98** |
+| REG-25 confidence | 55% | **75%** |
+| BROCK convergence | 38/50 🔴 | **46/60 🔴🔴** |
+| Trap-clinching framework | HENRY conceptual | **Canonized in BROCK STATUS + TRADE.md §9** |
+| Execution-rail process gap | Implicit | **LESSONS #16; PROME design note owed** |
