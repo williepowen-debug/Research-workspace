@@ -3,6 +3,8 @@
 *Every trade gets logged here at entry with full thesis. Updated as trades evolve.*
 *P/L tracking lives in FORGE/STATUS.md. This file is the WHY, not the what.*
 
+> **STALE 2026-05-21** — Last refresh was Mar 25. The entry-thesis records below remain **historically valid** for trades opened before that date. Trades opened, closed, or rolled between Mar 25 and May 21 (~12 new option opens, 6 expirations, 4 rolls, ~22 equity closures, AAPL trims) are **not documented here**. Current position state → `FORGE/STATUS.md`. Reconstruction-gap summary → `FORGE/JOURNAL.md`.
+
 **Last Updated:** 2026-03-25
 
 ---
