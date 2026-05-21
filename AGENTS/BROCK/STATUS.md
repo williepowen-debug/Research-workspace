@@ -43,11 +43,11 @@
 ---
 
 ## REGIME BLOCK (5-line)
-1. **Default rate trend:** Reported ~1.5%; Fitch PCDR 5.8% trailing / 9.2% 2025 cohort; MS ~8% true distress. Ch11 filings +42% YoY claim (5/9 signal, verify Epiq/AACER). FSK Q1 NII $0.41 / realized loss $2.00 = income-masks-loss pattern at vehicle level (Cliffwater CDLI parallel). **Trending up, possibly inflecting.**
+1. **Default rate trend:** Reported ~1.5%; Fitch PCDR 5.8% trailing / 9.2% 2025 cohort; MS ~8% true distress. **Ch11 April 2026 +42% YoY commercial [CONF Epiq AACER 5/6], Sub V +46%, foreclosure Q1 +26%** — primary-source verified, broader-than-PC. FSK Q1 NII $0.41 / realized loss $2.00 = income-masks-loss pattern at vehicle level (Cliffwater CDLI parallel: +9-12% income vs -0.5 to -2% realized loss persistent). **Trending up, inflecting.**
 2. **Gate cascade:** 13+ funds gated; BCRED Q1 $3.2B (7.9% NAV) absorbed via 7% cap + BX/exec personal capital. Apollo MFIC 11% redemption Q with Apollo shopping captive BDC @ $0.85/NAV. **Persistent, with Apollo-side parent-level signal added.**
 3. **PIK trend:** ARCC Q1 ~7% (contained). FSK Q1 PIK + income-vs-loss pattern at vehicle level. GCRED 24.2% / OTF 74.2% software concentration not yet refreshed. **Top-tier contained, FSK sub-tier confirms; second-tier 10-Qs still pending.**
 4. **BDC NAV median discount:** ~25% (Raymond James Mar 23, 59d stale). FSK at $11.03 / NAV $18.83 = **41% discount** (single-name confirmation). **Holding wide; fresh print needed.**
-5. **Narrative phase:** April-May bull narrative (OWL fee-rally) has CRACKED. WSJ 5/16 "Most Pain Since Covid" + Reuters "marks lower in filings" + Fed Barr 5/16 + BlackRock probe = **Stage 3 narrative recognition resuming.** APO equity decoupling from BDC sector weakness is the structural contradict-flag (LESSONS #11 expansion).
+5. **Narrative phase:** April-May bull narrative (OWL fee-rally) has CRACKED. WSJ 5/16 "Most Pain Since Covid" + Reuters "marks lower in filings" + Fed Barr 5/16 + BlackRock probe = **Stage 3 narrative recognition resuming, contested not converging** (MS + Global Finance Magazine running explicit counter-defense). APO equity decoupling from BDC sector weakness is the structural contradict-flag (LESSONS #11 expansion).
 
 ---
 
@@ -95,7 +95,9 @@
 | Top-4 PE/PC slice (BROCK prior working figure, now historical) | $128B at JPM/BAC/Citi/WFC — represents 10.d sub-cat only | — superseded by full NDFI | [CONF] Q1 transcripts |
 | BDC retail sales YoY | -40% | 🔴 | [CONF] FinancialContent Apr 6 |
 | **BlackRock APAC PC Fund II (Metcold)** | $27.5M default, personal-guarantee enforcement | 🟡 sub-systemic | [CONF] 5/9 signal |
-| Ch11 filings +42% YoY claim | Insider Wire X — **verify Epiq/AACER/ABI** | 🟡 unverified | [PENDING] 5/9 signal |
+| **Ch11 filings April 2026** | **+42% YoY commercial (644 vs 454); Sub V +46%; foreclosure Q1 +26%; total bankruptcies +14%** | 🔴 verified | [CONF] Epiq AACER 5/6/26 |
+| **ARES Q1 fundraise** (bull counter-data) | **$30B record** despite market fears | 🟢 manager-level bull | [CONF] WSJ 5/16 |
+| **Apollo PC ETF + PGIM PC CIT** | Retail/DC funding base expansion; ambiguous Stage 3 mitigant/accelerator | 🟡 | [CONF] 5/16 sweep |
 | 2nd US bank failure 2026 (Georgia) | per 5/16 sweep | 🟡 REGINALD-primary | [CONF] 5/16 |
 
 ---
