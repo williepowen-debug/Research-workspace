@@ -159,5 +159,5 @@ The dominant pattern is that regimes **persist through** VIX events and collapse
 
 ---
 
-*Generated 2026-05-13 20:51 by VIOLET `scripts/regime_termination.py`*
+*Generated 2026-05-21 11:49 by VIOLET `scripts/regime_termination.py`*
 *Data: yfinance + vix_historical.csv + VX_DAILY.tsv*
