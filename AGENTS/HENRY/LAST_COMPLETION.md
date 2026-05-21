@@ -1,57 +1,80 @@
-## COMPLETION — HENRY — 2026-04-17 (Session 4 — Fri EOD, refresh + infra)
-STATUS: ✅ DONE
-CHANGED: STATUS.md, CLAUDE.md, MEMORY.md (new), LAST_COMPLETION.md (this file), workbook/MARKET_DATA.tsv, research/README.md, research/deep_dives/ (new — 2 files moved from research/ root)
-RESULT: EOD refresh banked. Complacency trap intact into weekend — invalidation NOT triggered. MEMORY.md adopted (SAM template). File structure normalized (deep_dives/, MARKET_DATA in FILES, LAST_COMPLETION/MEMORY role split). 3 clean commits pushed.
+# HENRY — Last Completion
+
+**Session:** 2026-05-21 Wed ~12:00-13:30 ET — REVIVAL (34d dark) | **Status:** ✅ Complete
+
+---
+
+## CHANGED
+
+- `AGENTS/HENRY/STATUS.md` — full rewrite Apr 17 → May 21 (trap clinching, literal triad, divergence metric)
+- `AGENTS/HENRY/MEMORY.md` — feedback/findings updated, session notes for revival
+- `AGENTS/HENRY/LAST_COMPLETION.md` — this file
+- `AGENTS/HENRY/research/NVDA_5_20_READ_THROUGH_2026-05-21.md` (NEW)
+- `AGENTS/HENRY/inbox/` → 18 files moved to `processed/` via git mv (3 revival-proxy + 15 signal/sweep)
+
+## RESULT
+
+Macro/structure tape SUPPORTS BROCK trap-clinching + REGINALD V2.2 Bear-medium 30% read. Substance accelerating (10Y 4.67% +42bps, CCC +13bps, FSK Max Bear, WAL B1 fired), tape refusing (VIX 17.38 cycle band, HY OAS widening from 276 cycle min to 286, SKEW out of 140+ regime post-NVDA, VIX9D 15.02 first sub-15 of regime). NVDA 5/20 print was clean beat with no tone-shift catalyst — trap-deepens path per pre-print scenario matrix; HEN-29 partial disconfirm.
 
 ## Session Work
 
-### EOD market refresh
-- SPX 7,123.77 (+1.17%), VIX 17.76 (-1.00% — did NOT break 17), SKEW 140.74 (holds >140 — VIOLET FADE_RERAMP active), VIX3M 20.68.
-- Brent **$90.67** closed -8.77% vs -11.3% intraday → **+$2.51 partial retrace** off AM lows.
-- WTI $83.18 (-12.16%), also off intraday lows.
-- KRE **$70.38 gave back $0.55** from AM peak; APO **$124.28 faded $2.20**. AM regional-bank/alts bid was Hormuz beta, not credit-quality conviction.
-- USD/JPY 158.55 (yen gave back 0.84 from AM).
-- 10Y 4.25%, TLT $87.04, HYG $80.62, LQD $110.04.
+1. **Boot:** read AGENTS/HENRY/CLAUDE.md, STATUS, MEMORY. Identity reconstituted from files.
+2. **Inbox integration:** 3 revival-proxy files (revival packet, draft STATUS, framing-precision note) integrated. Framing-precision overlay applied (literal "1 fired + 1 compressing + 1 flat" not trajectory "2 of 3 firing").
+3. **World-state catch-up:** cross-read BROCK STATUS 5/21 (Stage 2 APO entrenched; HENRY trap-clinching canonized), REGINALD WAL THESIS V2.2 (Bear-medium 30% / Bear-fast 12% / EV $67.98), VIOLET STATUS 5/13 (slope -1.0, R11 analog), WALTER 5/13 dispatches (counter-evidence bull signals SIG-006/007).
+4. **Live tape pull:** fetch.py SPX/VIX/SKEW/VIX3M/VIX9D/VVIX/10Y/KRE/WAL/NVDA/SMH/TLT. SKEW 132.31 = out of 140+ regime post-NVDA (load-bearing surprise).
+5. **STATUS rewrite:** new header, live tape table, vol regime, literal triad, divergence metric, thesis state, thresholds, catalyst stack, predictions, cross-agent deps, bottom line.
+6. **NVDA read-through one-pager** written to research/.
+7. **MEMORY rewrite:** feedback (literal triad, divergence metric), findings (SKEW exit + credit-on-AI-beat + HENRY-VIOLET canary contradicts + revival-proxy overlay pattern), session notes, next-session queue.
+8. **Inbox cleared via git mv.**
 
-### Three EOD tells
-1. **VIX refused to compress below 17** — complacency hasn't deepened.
-2. **Oil partial retrace** — market itself pricing skepticism on unilateral Iranian declaration. Confirms LESSONS "unilateral ≠ bilateral" rule.
-3. **Regional-bank give-back** — KRE/APO gave back most of AM Hormuz beta.
+## GAPS / Still Pending
 
-### Invalidation criteria status
-- Required: VIX <15 + HY OAS <260 + SPX >7,100 sustained 5 sessions. **Only SPX piece qualifies.** Criteria NOT triggered.
-- Counter-counter still holds: oil-shock-removed does not fix CPI 3.3% / UMich 3.8% / ISM Svc Emp 45.2. Stagflation trap survives a clean oil unwind.
+- **HENRY-VIOLET LIAISON: RESOLVED same session 5/21.** VIOLET first-pass: R12 SKEW>140 regime terminated 5/18-5/20 (HENRY hypothesis confirmed); R11 analog clock activates on termination (window 5/28-6/02, prior 36%) — HENRY's "R11 weakens" was half-right. 7-trigger Stage 3 watch list integrated into STATUS cross-agent dependency. Metric label correction: `final_5d_change` not "20d-slope" going forward.
+- **0DTE/GEX wire-up** — 4+ sessions deferred, still pending. Manual estimate acceptable post-NVDA.
+- **PREDICTIONS.tsv update** — HEN-22/24/25/26/29 close, HEN-27/28 hold + extend, HEN-30 new. Not done this session.
+- **HEN-27 score** (March PCE actual) — resolution date passed Apr 30; pull data + score next session.
+- **Workbook KB.tsv entries** — gamma/momentum-suppression hypothesis + duration regime break + AI capex air-pocket + tape/substance divergence metric all warrant KB entries.
+- **HEARTBEAT push** — Prome holds; HENRY surfaces findings, doesn't propagate to HEARTBEAT directly per holds.
 
-### MEMORY.md adopted (first time)
-- SAM-style template: Feedback / Findings / References / Session Notes (CHANGES SINCE / LAST SESSION / NEXT SESSION).
-- CLAUDE.md SPAWN PROTOCOL restructured: Boot (1-3) / Execute (4) / Write-back (5-9) / Git. Step 3 reads MEMORY.md; step 8 writes it; step 9 writes LAST_COMPLETION.md.
-- Role split: LAST_COMPLETION = Will-facing session closeout (overwritten), MEMORY = HENRY cross-session notebook (cumulative).
+## COMMITS
 
-### File-structure cleanup
-- `research/deep_dives/` created. `GEX_CTA_DEEP_DIVE_MAR3.md` + `INFORMED_OPTIONS_TRADING_RESEARCH_THREAD.md` moved from research/ root (mirrors credit/ topic-subdir pattern).
-- research/README.md index updated.
-- `workbook/MARKET_DATA.tsv` added to CLAUDE.md FILES table; Apr 17 row updated intraday (~10:40 AM) → EOD values.
-
-## GAPS / Still pending
-- **VOL REGIME 0DTE + GEX** — SpotGamma/Barchart wire-up still pending 3+ sessions running. Decision needed next session (wire up, remove fields, or accept PENDING).
-- **VX.tsv 11 STALE Jan/Feb rows** — unactioned since Session 3 PM audit flagged.
-- **1 undelivered outbox signal to VIOLET** (skew-bounce-status-lag) — HERMES sweep issue, not HENRY's to fix.
-
-## COMMITS (all pushed to origin/master)
-- `351c3a08` — Apr 17 EOD refresh (STATUS.md)
-- `55cd72fe` — SAM-style MEMORY.md closeout template (new MEMORY.md + CLAUDE.md)
-- `cb2d53ab` — file-structure cleanup (deep_dives/, MARKET_DATA, role split)
+None yet. Awaiting Prome / Will guidance on commit timing per session-end protocol.
 
 ## NEXT SESSION FOLLOW-UP
-- **Mon Apr 20 AM**: HY OAS Apr 17 settle (FRED). <280 = compression → amber watch tightens. >290 = complacency break incipient.
-- **Weekend**: Brent gap watch — US-Iran headline repricing into Monday open.
-- **Tue Apr 21 AMC**: OZK + WAL Q1 binary. HEN-24/25 resolve Apr 22. Positioning asymmetry (HF whipsaw + DB -2z financials) fattens both tails.
-- **Tue Apr 21**: Retail Sales March (rescheduled) — first consumer print post-CPI 3.3%.
-- **Apr 23-24**: BOJ — USD/JPY 158.55 approaching 160 intervention zone (HEN-26).
-- **Apr 28-29**: FOMC — Powell into CPI 3.3% + UMich 3.8%.
-- **Apr 30**: March PCE + Q1 GDP Advance — HEN-22/23/27/28 cluster.
 
-## THESIS SNAPSHOT (Apr 17 EOD close)
-COMPLACENCY TRAP, **amber-active, invalidation NOT triggered.** SPX 7,123.77 (+1.17%) / VIX 17.76 / SKEW 140.74 / Brent $90.67 (-8.77% vs -11.3% intraday) / KRE $70.38 (+2.24%, gave back AM bid) / HY OAS 285 (Apr 16, Mon refresh) / USD/JPY 158.55. Hormuz unilateral reopen: oil market itself retraced partially — skepticism priced. Stagflation trap intact despite oil unwind (CPI 3.3%, UMich 3.8%, ISM Svc Emp 45.2 all locked). **Apr 21-30 catalyst window fully intact** — 10 days, binary events stacked.
+- **R11 analog window 5/28-6/02** — 7-trigger Stage 3 watch list (VIOLET surface side; HENRY substance side: HY OAS>2.90, CCC>10.00, 10Y>4.75% — 10Y closest at 8bps).
+- **Daily HY OAS** — HEN-30 leading tell (sub-265 ×2 sess); currently 286 widening.
+- **WAL Q2 print (late Jul)** — second migration test per REGINALD V2.2.
+- **BDC tail 10-Qs** (GCRED/OTF/BCRED/CTAC late May / early Jun) — BROCK-primary.
+- **Next NFP** — labor cliff resolution (HEN-28 extended; shadow-adjusted ~266K already firing).
+- **Apr PCE release** — Fed framework test (HEN-27 score pending).
 
-WILL_NEEDS: None immediate. Session 4 closeout complete, ready for handoff. Push is synced (cb2d53ab at origin tip before Friday PM cross-agent commits).
+## THESIS SNAPSHOT (frozen at close 2026-05-21 ~13:00 ET)
+
+**COMPLACENCY TRAP CLINCHING.** Substance accelerating (CPI 3.8%, PPI 6.0% YoY largest MoM since Dec 2022, Brent $107 sustained >$100, 10Y 4.67% / +42bps, CCC 948bps / +13bps, FSK Q1 NAV -9.9%, WAL V2.2 Bear-medium 30%, APO Stage 2 entrenched, NY Fed HHDC student-loan vertical step-up); tape refusing (VIX 17.38, VIX9D 15.02 first sub-15 of regime, HY OAS 286 widening from cycle min 276, SKEW 132 out of 140+ regime first time in 223+td, SPX 7,413 entrenched above 7,100 invalidation 20+ sessions). Active transmission migrated PLUMBING → DURATION per LIQUID 5/18. NVDA 5/20 passed without catalyst-firing — surface decisively faded. Working scenario: trap-deepens-then-asymmetric-break; conviction in regime read intact; next likely transmission nodes are BDC-tail / WAL-Q2 / Stage-3 / labor-cliff — none HENRY-primary. HENRY posture pivot: catalyst-anticipation → drift-monitoring.
+
+## WILL_NEEDS
+
+- ~~Decision: open a HENRY-VIOLET LIAISON channel on slope/SKEW post-NVDA reconciliation?~~ **RESOLVED — Will approved, LIAISON opened + closed same session.**
+- Standing decision: counter-evidence weight calibration. SIG-006 small/mid-cap discount + SIG-007 retail-puts-at-SPY-ATH (10/10 analogs) deserve weight — how heavily in cross-agent dependency table? Prome flagged this may route through HENRY this session.
+
+---
+
+## COMPLETION (per PROME/COMPLETION_SPEC.md)
+
+**TASK_ID:** HENRY-revival-2026-05-21
+**STATUS:** complete
+**DECISION_DRIVEN:** Macro/structure tape supports BROCK trap-clinching + REGINALD V2.2 Bear-medium 30%. No push-back from May 18-21 tape; calibration notes filed.
+**VERDICT_FIRST:** Tape supports thesis. Substance accelerating, surface refusing, divergence widening. NVDA 5/20 passed without firing the catalyst chain (clean beat / no tone shift / surface decisively faded — trap-deepens path).
+**ARTIFACTS:**
+- AGENTS/HENRY/STATUS.md (full rewrite)
+- AGENTS/HENRY/research/NVDA_5_20_READ_THROUGH_2026-05-21.md (one-pager)
+- AGENTS/HENRY/MEMORY.md (feedback/findings/session)
+- AGENTS/HENRY/LAST_COMPLETION.md (this file)
+- AGENTS/HENRY/inbox/processed/ (18 files moved)
+**HOLDS_HONORED:** No fresh position recs. Surface data + framing only. Commit scope HENRY only. Read-before-edit observed.
+**OPEN_QUESTIONS:**
+1. ~~VIOLET slope post-NVDA read~~ — **RESOLVED same session**; R11 clock running 5/28-6/02 prior 36%; 7-trigger watch list integrated.
+2. Counter-evidence weight calibration (SIG-006/007) — Prome may route through HENRY this session.
+3. Workbook PREDICTIONS.tsv + KB.tsv updates deferred.
+**NEXT_TRIGGER:** R11 7-trigger watch list (window 5/28-6/02) OR daily HY OAS sub-265 ×2 sess (HEN-30) OR BDC-tail 10-Q OR WAL Q2 (late Jul). Substance trigger closest: 10Y 4.67% / 8bps from VIOLET 4.75% threshold.
