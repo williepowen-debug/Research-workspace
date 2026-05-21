@@ -1,10 +1,10 @@
 # BROCK — TRADE.md
-**Base:** 2026-03-16 EOD (Prome + Will) | **Last cleaned:** 2026-05-01 (post-Q1 wave kickoff + APO trigger watch)
-**Convergence:** 38/50 🔴🔴 (May 1, narrative downgrade only). See STATUS.md for live tape.
-**Status:** Stage 2 persists. APO breached $130 D1/3 May 1 close $131.20. OBDC Q1 May 6 = collision day. SEC subpoena power probe Apr 24.
-**Account:** ⚠️ STALE — verify live before any execution
+**Base:** 2026-03-16 EOD (Prome + Will) | **Last cleaned:** 2026-05-21 (post-revival session)
+**Convergence:** ~46/60 🔴🔴 (May 21 — 2 new vectors added: sponsor-bifurcation + duration-channel NAV). See STATUS.md for live tape.
+**Status:** Stage 2 persists. APO position trigger FIRED ~May 7 and entrenched 13+ sessions. FSK Q1 (5/11) = Strong Bear / data Max Bear (NAV $18.83, non-accruals 8.1%, KKR $450M+ support). OBDC Q1 (5/6) was MIXED — no forced-mark re-arm.
+**Account:** ⚠️ Per-position decisions superseded by `domain/sources/POSITION_DECISIONS_MAY21.md` (anchored to live Fidelity PDF pull 5/21).
 
-> **🔴 ACTIVE TRIGGER WATCH (May 1):** APO close $131.20 = Day 1 of 3-session position-kill rule. D2 = Mon May 4, D3 = Tue May 5. **OBDC Q1 10-Q lands May 6 post-close.** Position-kill rule and next major bear catalyst collide within 24hrs. **Do not pre-close any APO put before reading OBDC.** See Section 8 for per-position decisions.
+> **🔴 TRIGGER STATE (May 21):** APO position-kill rule FIRED — sustained >$130 since ~May 7, entrenched 13+ sessions. Decision resolved this session per POSITION_DECISIONS_MAY21.md: Dec $95P holds (thesis vehicle); Jun $100P lets expire (residual $20). Broad-thesis HY OAS kill NOT firing — cycle low 276 (5/17), live 286 (5/21), cushion 26bps and widening.
 
 > **Core doctrine:** Every trade must link to a convergence vector or FLOW transmission channel. Private credit cascade is the thesis — positions express specific pathways within it.
 >
@@ -98,29 +98,30 @@ Detail → `domain/sources/TARGETING_FRAMEWORK_MAR16.md`
 
 ---
 
-## SECTION 3: ROLLS — ⚠️ STALE (Written Mar 16)
+## SECTION 3: ROLLS — RESOLVED (closed May 21)
 
-*APO Apr and OWL Apr have both expired since this section was written. FOMC Mar 17-18 has passed. This section needs full rewrite on next BROCK spawn with live prices.*
+*All Mar 16 roll candidates have resolved. Section retained for historical reference. Live position state is in `domain/sources/POSITION_DECISIONS_MAY21.md`.*
 
-| Priority | Position | Mar 16 Status | Outcome |
+| Priority | Position | Mar 16 Status | Final Outcome |
 |----------|----------|---------------|---------|
-| 1 | APO $100P Apr | +11.75% ($450) | **EXPIRED** worthless (APO $106.19 at expiry) |
-| 2 | APO $100P Jun | +7.6% ($830) | **ACTIVE** — verify current value |
-| 3 | HYG $75P Jun ×8 | +46.7% ($360) | **Verify** — roll to Dec still recommended |
-| 4 | OWL $9.5P Apr | -7% ($95) | **EXPIRED ITM** ($0.84 ITM at expiry) — confirm exercise/settlement |
+| 1 | APO $100P Apr | +11.75% ($450) | EXPIRED worthless (APO $106.19 at expiry) |
+| 2 | APO $100P Jun | +7.6% ($830) | Mark deteriorated to -97% ($20) by 5/21; let-expire posture per POSITION_DECISIONS_MAY21.md |
+| 3 | HYG $75P Jun ×8 | +46.7% ($360) | **Roll Jun→Dec NEVER EXECUTED** (no rail during BROCK dark window 5/1→5/21). Mark collapsed to $40 residual; let-expire. See LESSONS.md #16. |
+| 4 | OWL $9.5P Apr | -7% ($95) | EXPIRED ITM $0.84 — settlement assumed complete (back-office); BROCK re-entered OWL Jun 5 $9.5P ×2 separately |
 
 ---
 
-## SECTION 4: EXISTING POSITIONS (⚠️ Base: Mar 16 — updated Apr 7 for expirations)
+## SECTION 4: EXISTING POSITIONS (⚠️ SUPERSEDED by `domain/sources/POSITION_DECISIONS_MAY21.md` — verify against live PDF before any execution)
 
-| Position | Status | Conv | Assessment |
-|----------|--------|------|-----------|
-| APO $100P Apr ×1 | **EXPIRED** worthless | — | APO $106.19 at expiry |
-| APO $100P Jun ×1 | ACTIVE ~$590 | 5 | HOLD — May 1 catalyst |
-| APO $95P Dec ×1 | ACTIVE ~$920 | 5 | HOLD — full thesis runway |
-| ARES $95P Jun ×1 | ACTIVE ~$890 | 4 | HOLD — Q1 earnings catalyst |
-| OWL $9.5P Apr ×1 | **EXPIRED ITM** $0.84 | — | Confirm settlement |
-| HYG $75P Jun ×8 | ACTIVE — verify | 4 | Roll to Dec recommended |
+| Position | Live mark (5/21) | Conv | Decision |
+|----------|------------------|------|---------|
+| APO $100P Jun ×1 | $20 (-97%) | 1 | LET EXPIRE (residual too small to sell) |
+| APO $95P Dec ×1 | $275 (-77%) | 5 | **HOLD — thesis vehicle, 210d runway** |
+| ARES $95P Jun ×1 | $25 (-97%) | 1 | LET EXPIRE |
+| OWL Jun 5 $9.5P ×2 | $40 (-66%, 5% OTM, 15d) | 3 | **HOLD — live near-strike lottery** |
+| HYG $75P Jun ×8 | $40 (-84%) | 1 | LET EXPIRE (roll opportunity passed) |
+
+**Net BROCK book:** ~$400 residual on $3,120 cost (13% remaining).
 
 ---
 
@@ -183,19 +184,25 @@ $100B+ distressed dry powder (KB-BRK-022) puts a floor under forced-seller prici
 
 ---
 
-## SECTION 7: NEXT ACTIONS (Updated Apr 7)
+## SECTION 7: NEXT ACTIONS — RESOLVED / DEFERRED (closed May 21)
 
-1. **Confirm OWL $9.5P Apr settlement** — expired ITM $0.84, verify exercise/assignment.
-2. **Roll HYG Jun→Dec** — on next green day.
-3. **Q1 earnings prep** — ARES/ARCC earnings late Apr/May. Key marks.
-4. **Feldman v. Apollo** — lead plaintiff deadline May 1.
-5. **Monitor National Dentex** — April maturity imminent.
-6. **Pull ARCC options chain** — verify liquidity for new position if Q1 marks confirm.
-7. **Full TRADE.md rewrite** — many sections stale. Next BROCK spawn should rebuild with live prices.
+| # | Mar/Apr Action | Status (May 21) |
+|---|---|---|
+| 1 | Confirm OWL $9.5P Apr settlement | Back-office assumed complete; BROCK re-entered OWL Jun 5 separately |
+| 2 | Roll HYG Jun→Dec | **NEVER EXECUTED** (no rail). LESSONS #16. Let-expire posture now. |
+| 3 | Q1 earnings prep ARES/ARCC | ARCC contained-bear Apr 28; **ARES Q1 release status still TBD — flagged for next session** |
+| 4 | Feldman v. Apollo lead plaintiff deadline May 1 | Passed — outcome unverified |
+| 5 | Monitor National Dentex | KB-BRK noted Cerberus (not Thoma Bravo) ownership; April maturity outcome unverified |
+| 6 | Pull ARCC options chain | DEFERRED — TRADE.md 8F re-trigger condition controlling (FSK fired non-accrual >3% at 8.1%, so condition partially met; still hold off per current `POSITION_DECISIONS_MAY21.md`) |
+| 7 | Full TRADE.md rewrite | Surgical refresh this session; full rewrite still deferred (workbook tab-count repair + Section 5 watchlist refresh + Section 6 concentration check vs full Fidelity PDF) |
 
 ---
 
-## SECTION 8: MAY 1 REASSESSMENT — PER-POSITION DECISIONS
+## SECTION 8: MAY 1 REASSESSMENT — SUPERSEDED
+
+**Per-position decisions superseded by `domain/sources/POSITION_DECISIONS_MAY21.md` (5/21 revival session, anchored to live Fidelity PDF).** Section 8A-8G below retained for historical reference only — *do not boot decisions from this section, it pre-dates OBDC May 6 resolution + FSK May 11 print + APO trigger fire entrenchment*.
+
+### HISTORICAL — May 1 Framework (DO NOT USE FOR LIVE DECISIONS)
 
 **Live tape (May 1 close):** APO $131.20 (+1.92%), ARES $119.80 (+1.94%), BX $127.04 (+1.19%), OWL $9.93 (+1.79%), BIZD $13.31 (+1.22%), HY OAS 2.83% (Apr 30, 23bps from 260 thesis-kill).
 
@@ -247,15 +254,20 @@ $100B+ distressed dry powder (KB-BRK-022) puts a floor under forced-seller prici
 
 ---
 
-## SECTION 9: TRIGGER LADDER (May 1)
+## SECTION 9: TRIGGER LADDER (May 21)
 
 Adaptive priority shifters — drop everything if any fires:
 
-| Trigger | Status (May 1) | Effect |
-|---------|----------------|--------|
-| APO sustained >$130 (3 sessions) | **🔴 D1/3** | Position-kill on APO puts (caveat: OBDC May 6 collision — do not pre-close) |
-| HY OAS <260bps sustained 10+ sessions | 283bps Apr 30, 23bps away | Thesis-kill — exit 100% PC overlay |
-| Arms-length sub-90¢ BDC loan transaction | Not yet | BRK-25 fires, Stage 3 catalyst |
-| First SEC enforcement filing | SEC probe Apr 24 (no filings yet) | BRK-26 fires, Stage 3 catalyst |
-| Major BDC Q1 NAV markdown >5% | ARCC -1.76% (no fire); 6 candidates remain | BRK-27 fires |
-| 3+ convergence vectors RED→ORANGE in same period | 1 down (narrative) | Reassess timeline |
+| Trigger | Status (May 21) | Effect |
+|---------|-----------------|--------|
+| APO sustained >$130 (3 sessions) | **🔴 FIRED ~May 7, entrenched 13+ sessions** — resolved per POSITION_DECISIONS_MAY21.md | Position-kill on APO puts already actioned |
+| HY OAS <260bps sustained 10+ sessions | **286bps live, cycle low 276 (5/17). Widening away from kill.** Cushion 26bps. | Thesis-kill — exit 100% PC overlay — NOT FIRING |
+| HY OAS <270 sustained 2+ sessions OR <260 intraday once | Not fired; pre-write kill memo if approaches | Pre-stage thesis-kill memo (per LIQUID Move #1) |
+| Arms-length sub-90¢ BDC loan transaction | Not yet; **Apollo shopping captive BDC @ $0.85/NAV is the watch** | BRK-25 fires, Stage 3 catalyst → open BIZD Sep $12P |
+| First SEC enforcement filing | SEC probe Apr 24 active w/ subpoena power; BlackRock probe added 5/16; no filings yet | BRK-26 fires, Stage 3 catalyst → open BIZD basket aggressively |
+| Major BDC Q1 NAV markdown >5% | ARCC -1.76% no fire; **FSK FIRED -9.9%** (Strong Bear); OBDC MIXED no fire; GCRED/OTF/CTAC/BCRED pending | BRK-27 already fired at FSK; pending fires at GCRED/OTF |
+| KKR adds to FSK support package within 90 days | Initial $450M+ package 5/11; no additions yet | Bear signal upgraded (doubling down twice) → open BDC basket aggressively |
+| BCRED Q2 redemption refused OR sponsor backstop refused | Q1 $3.2B/7.9% absorbed via 7% cap + $400M BX backstop; Q2 print TBD | Gate cascade fires → BX puts (REGINALD cross-flag) + BIZD basket |
+| Bank PC loss disclosure (JPM/BAC/Citi/WFC NDFI 5-cat detail) | WALTER REQ May 15 CDR Q1 5-cat data not yet pulled by BROCK | Bank transmission live → REGINALD cross-flag; opens KRE basket |
+| VIX spike +3 in absence of HY OAS widening | VIX 17.54 (suppressed) | Gamma-unwind path; HENRY-VIOLET coordination |
+| 3+ convergence vectors RED→ORANGE in same period | 0 down (narrative re-upgraded 🟠→🔴 since May 1) | Reassess timeline |
