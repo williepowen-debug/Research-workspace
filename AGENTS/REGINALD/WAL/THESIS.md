@@ -1,31 +1,58 @@
-# WAL — Compounder With Concentrated CRE Tail Risk + V1 Hidden-CRE Test Pending
+# WAL — Concentrated CRE Tail Risk Actualizing on Q2 Timeline
 
-**Last Updated:** 2026-05-11 | **Version:** v2.1 | **Prior:** v2.0 (May 1) | v1.0 (Mar 25)
+**Last Updated:** 2026-05-21 | **Version:** v2.2 | **Prior:** v2.1 (May 11) | v2.0 (May 1) | v1.0 (Mar 25)
 
 ---
 
-## CORE THESIS (v2.1)
+## CORE THESIS (v2.2)
+
+WAL's concentrated CRE tail risk is actualizing one quarter earlier than v2.1's bear-slow case priced. The Q1 2026 10-Q (filed 5/11) disclosed a **subsequent event** that fires Bucket B1: a **$99M life-science office sponsor walk-away** (late April 2026) on a loan previously graded **pass**. Same week, **Chief Banking Officer Stephen Curley** (head of National Business Lines, the org where Office/CRE concentration sits) resigned effective immediately. Market reacted ~10% on the combined news. Bear-slow → Bear-medium speed.
+
+**What's new in v2.2 vs v2.1:**
+1. **B1 FIRED — $99M life-science office walk-away** (10-Q subsequent event). Same strategic-default mechanic as IQHQ (OZK). At 60% LGD, alone pushes Q2 NCO past 40bps before any normal Q2 activity. REG-25 confidence ratchet 55% → 75%+.
+2. **Curley resignation** (effective immediately, same week as 10-Q). Stated reason: CEO opportunity elsewhere. Pattern matters regardless of stated causality.
+3. **Q1 leading-bucket migration already firing pre-event:** Other CRE-NOO nonaccrual $228M → $263M = **+$35M QoQ (+15.4%)**.
+4. **NDFI breakout cleaner than deck:** $14.928B total (25.2% of HFI) — Mortgage credit intermediaries $10.25B / Business credit $3.4B / PE funds $1.26B. Ties to deck Slide 24; V3 cohort-median conclusion stands.
+5. **V2 inventory test: CLEAN.** No new Leucadia-era credits surface in 10-Q. WAL escalated to active litigation against Jefferies parent (NY Supreme Court, March 2026). LAM and Cantor V remain the only two named credits.
+
+**What's UNCHANGED from v2.1:**
+- "Compounder with concentrated CRE tail risk" structural framing — tail is actualizing, framing isn't replaced.
+- V1 MI3 primary falsifier STILL HASN'T RUN (FFIEC PDD 5/14-16 window passed without integration). V2.1's MI3 calibration table remains the trigger for V1-fast vs V1-slow.
+- V3 NDFI cohort-median conclusion — 10-Q confirms.
+- Structural bull case (TBV CAGR 18.3%, deposit growth, NII +11-14% guide).
+
+**Path to short thesis paying (v2.2 reweight):**
+1. **Q2 print (late July) — second migration test.** If Q2 shows additional material Office/CRE-NOO credit migration beyond the $99M, we're in V2.5/V3 territory and Bear shifts toward 45%+. If $99M is the ONLY material migration, V2.2 may overstate and thesis is contained slow-grind.
+2. **V1-fast trigger** (MI3 ≥25% on FFIEC PDD when integrated): bear path faster than v2.2's bear-medium framing; $65P Jun becomes core position.
+3. **V1-slow trigger** (REG-24 Office classified >$500M by Q3 confidence now 70%): mechanical given $377M Q1 classified + $99M moving = $476M start of Q2; one more $50M migration crosses threshold.
+
+**Price target range: $50-68** (v2.2 compressed from v2.1 $52-70 — market priced ~10% on 5/11-5/15 drawdown; upside narrows because relief-rally risk is real; downside floor moved fractionally lower because bear-medium speed materializing).
+
+---
+
+## CORE THESIS (v2.1 — preserved for reference)
 
 WAL is a structural compounder with concentrated CRE tail risk AND an active V1 hidden-CRE test pending mid-May FFIEC MI3 print. The Q1 2026 print (Apr 21) **resolved one major thesis vector** (V2 fraud, $152.5M LAM+Cantor visible in 8-K), **sharpened V1** with Office single-point structural data, and **directionally disconfirmed V3** at aggregate via Slide 24 NDFI cohort.
 
 The v2.0 framing rejected v1's "fast-transmission failure" binary — that rejection stands. Both can be true: WAL has 10-yr TBV CAGR 18.3% (top-quartile compounder) AND Office classified at 18.5% stress with $946M maturing in 2026. **v2.1 refinement (per RED CHG-RED-025):** V2.0 demoted V1 before V1's primary falsifier (MI3 ≥25%) ran — that demotion was premature. V1 weight is restored pending the mid-May FFIEC PDD bulk MI3 print (~May 14-16). The Office single-point data is an *additional* sharpened V1 expression, not a replacement for the MI3 ratio test.
 
-**Path to short thesis paying:**
+**Path to short thesis paying (v2.1 — superseded by v2.2 above):**
 1. **V1-fast trigger:** MI3 print ≥25% confirms V1 hidden-CRE acceleration. If MI3 lands here, bear path is faster than V2.0's "multi-quarter slow-grind" framing implied. ($65P Jun becomes core position; bear shifts toward 40%+ weight.)
 2. **V1-slow trigger:** Office classified migrates above $500M by Q3 (REG-24, 60% standalone), or Q2/Q3 ex-fraud NCO >40bps (REG-25, 55% standalone), or another LAM/Leucadia-era credit surfaces in 10-Q Table 16 (~May 11-13) or Investor Day Q&A (May 12).
 3. **Market re-rates the concentration** — broker downgrades on Office single-point; mgmt-credibility erosion from cross-credit inventory disclosure.
 
-**Price target range: $52-70** (v2.1 widened from v2.0 $55-70, narrowing slightly on Bear-fast tail). Bull case retained (V2-resolution-driven, not new-bull-data-driven, per RED M5.3); tail risk sharpened.
+**Price target range (v2.1): $52-70.**
 
 ---
 
-## VECTOR STATUS — POST Q1 ROUND 2 + v2.1 REFINEMENT
+## VECTOR STATUS — POST 10-Q DRILL (v2.2)
 
-| Vector | v1.0 (Mar 25) | v2.0 (May 1) | v2.1 (May 11) | Trend |
+| Vector | v2.0 (May 1) | v2.1 (May 11) | v2.2 (May 21) | Trend |
 |---|---|---|---|---|
-| **V1: Hidden CRE (MI3 trajectory + Office single-point)** | hypothesized via MI3 24.2% growing 15.5%→24.2% | demoted to "Office single-point" | **WEIGHT RESTORED PENDING MI3 TEST** + Office sharpening | MI3 trajectory anomalous (fastest in cohort) but ABSOLUTE level near cohort median; primary falsifier (MI3 ≥25%) hasn't run; FFIEC PDD bulk ~May 14-16. Office classified $407M = 38% on 4% of book (9.5x disproportion) + $946M maturity wall remain structurally additive. |
-| **V2: Jefferies/MFS fraud chain** | hypothesized | RESOLVED IN PUBLIC 8-K | **STANDS — resolved + counterparty-diligence discount on mgmt forward-statements** | LAM $126.4M + Cantor $26.1M = $152.5M Q1 charge-off. Mgmt labeled "fraud-related." Counterparty-diligence discount applied to Vecchione "largely behind us" framing per RED M5.6 — LAM was 2x stated $60M top-commitment bucket; >$100M fund-level exposures not disclosed. 10-Q Table 16 cross-credit inventory test pending. |
-| **V3: SSFA / NDFI arbitrage** | $17.2B SSFA at 20% RW = $1.1B capital savings | REFINED — single sub-vector | **STANDS — NDFI at-median; trajectory analysis ≠ V1 trajectory** | NDFI at cohort median (Slide 24) — V3 disconfirmation. $7.15B Mortgage Warehouse (12% of loans, 30x peer) sits in C&I, confirms one sub-vector. **v2.1 note:** V3 NDFI cohort position is NOT a proxy for V1 MI3 trajectory (different lines on Call Report; per RED M3). |
+| **V1: Hidden CRE (MI3 + Office single-point)** | demoted to "Office single-point" | weight restored pending MI3 test | **OFFICE SUB-VECTOR FIRING — $99M life-science walk-away materialized as 10-Q subsequent event;** MI3 calibration table still awaits FFIEC PDD integration | Office concentration translating to active credit migration. $99M was rated pass at 3/31 → straight to substandard. REG-24 confidence 60→70%. |
+| **V2: Jefferies/MFS fraud chain** | RESOLVED IN PUBLIC 8-K | resolved + counterparty-discount on forward statements | **INVENTORY TEST CLEAN (U1) — no new credits in 10-Q;** WAL escalated to active litigation against Jefferies parent (NY Supreme, Mar 2026) | Two named credits remain (LAM + Cantor V). Recovery posture aggressive ($13M senior lien purchased; plans more). |
+| **V3: SSFA / NDFI arbitrage** | REFINED — single sub-vector | NDFI at-median; trajectory ≠ V1 | **CONFIRMED at cohort median via 10-Q breakout** — $14.93B NDFI (25.2% of HFI); Business+PE = 7.9% ties to deck Slide 24 | Disconfirmed at aggregate. Warehouse $10.25B remains; counterparty silent. |
+| **V4 (NEW): Mgmt credibility / org stability** | n/a | n/a | **CURLEY RESIGNATION** — Chief Banking Officer for National Business Lines, effective immediately, same week as 10-Q. Stated reason: CEO opportunity elsewhere. | Pattern flag, not standalone bear-trigger. Tracked. |
 
 ---
 
@@ -50,16 +77,34 @@ The v2.0 framing rejected v1's "fast-transmission failure" binary — that rejec
 - Geography: 90% Suburban / 10% Midtown / 0% CBD — defensive offset.
 - LTV distribution: 20% of book at LTV >70%, **12% at LTV >80% ($264M = equity-thin / underwater).**
 
-### Press release — leading-vs-lagging divergence
+### Press release + 10-Q — leading-vs-lagging divergence
 
 | Bucket | Q4 25 | Q1 26 | QoQ | Direction |
 |---|---|---|---|---|
-| 30-89d PD still accruing | $108M | $157M | **+$49M (+45%)** | 🔴 leading buckets building |
-| Special Mention | $325M | $403M | **+$78M (+24%)** | 🔴 leading |
-| Classified loans on accrual | — | $455M (0.77%) | improved | 🟢 lagging cleaning |
-| Nonaccrual | — | — | improved | 🟢 lagging cleaning |
+| 30-89d PD still accruing (all loans) | $108M | $251M ($182 + $69) | building | 🔴 leading buckets building |
+| Special Mention (all loans) | $325M | **$403M** | +$78M (+24%) | 🔴 leading |
+| Classified loans (all loans) | — | **$947M** | growing | 🔴 |
+| **Other CRE-NOO Nonaccrual** | **$228M** | **$263M** | **+$35M (+15.4%)** | 🔴 **firing in Q1 BEFORE the $99M event** |
+| Other CRE-NOO Classified | — | **$377M (5.95%)** | — | 🔴 ~40% of total classified |
 
-Vecchione's "stable asset quality" narrative skips the leading buckets. **Q2-Q3 risk: leading-bucket migration into classified hits Office concentration head-on.**
+Vecchione's "stable asset quality" narrative skips both the all-loans leading buckets AND the Other CRE-NOO nonaccrual migration that the 10-Q confirms. **Q2 starts with $377M Other CRE-NOO classified + the $99M life-science loan moving = $476M, $24M from REG-24 trigger.**
+
+### 🔴 V2.2 KEY EVIDENCE — 10-Q Subsequent Event ($99M Life-Science Office Walk-Away)
+
+> *"In late April 2026, the Company received notification from a borrower regarding its intention not to repay a CRE non owner occupied loan with an outstanding balance of $99 million. Prior to this notification, the loan had been performing in accordance with its contractual terms and was internally graded as **pass**. The property securing this loan is a 6-story newly constructed, LEED Silver-certified, Class-A life-science laboratory/office building with a 7-story parking structure, located on a 6.0-acre site in a **gateway life-science market**."* — WAL 10-Q filed 5/11/2026
+
+**Why this fires Bucket B1:**
+- Pass → substandard in a single quarter. Confirms rating-quality concern (RED M5 family).
+- Sponsor strategic-default, not credit deterioration — borrower elected not to repay a performing loan.
+- **Same mechanic as IQHQ (OZK Aug 2026 maturity).** Two Class-A life-science strategic defaults across watchlist in 6 months = sector signal.
+- At 60% LGD, ~$60M Q2 charge-off = ~10bps annualized incremental on $58.2B avg loans. Q1 was 39bps; Q2 crosses 40bps before normal Q2 activity. **REG-25 near-locked.**
+- Small offset: $60M LOI early-May on different substandard at carrying value.
+
+### 🟠 V2.2 SECOND EVIDENCE — Curley Resignation
+
+**Stephen Curley, Chief Banking Officer for National Business Lines**, resigned effective immediately, same week as 10-Q (early-to-mid May 2026). Stated reason: CEO opportunity at another financial services firm. National Business Lines = where Office / Hotel Franchise / Tech & Innovation / Mortgage Warehouse / Public Finance / Renewable Resources all sit organizationally. Even if Curley's stated reason is real, same-week timing matters; companies with a credit event + immediate senior departure typically see additional disclosures.
+
+Pattern flag, tracked — not promoted to standalone bear-trigger without a second corroborating departure.
 
 ### Outstanding V1 PRIMARY TEST — MI3 Call Report (mid-May, FFIEC PDD bulk ~May 14-16)
 
@@ -171,9 +216,9 @@ V3 is now a **quality-of-names question on the 2,000 underlying lender-finance o
 
 | # | Prediction | Timeframe | Confidence | Status |
 |---|---|---|---|---|
-| **REG-20** | WAL major stress event (miss / raise / regulatory) | Apr-Jun 2026 | 82% | **Q1 print: GAAP miss + $152.5M fraud + tape -2%. Resolution call pending Will.** |
-| **REG-24** | WAL Office classified > $500M by Q3 2026 | Q2-Q3 2026 | 60% | NEW Apr 24 — driven by $946M Office maturity wall; current $407M baseline |
-| **REG-25** | WAL ex-fraud NCO > 40bps in Q2 OR Q3 2026 | Q2-Q3 2026 | 55% | NEW Apr 24 — Q1 39bps already above 25-35bps guide top |
+| **REG-20** | WAL major stress event | Apr-Jun 2026 | 82% | ✅ **RESOLVED CONFIRMED-PARTIAL 2026-05-08** (Q1 earnings miss + $152.5M fraud + tape -2%) |
+| **REG-24** | WAL Office classified > $500M by Q3 2026 | Q2-Q3 2026 | **70%** (was 60%) | v2.2 ratchet — $377M Q1 classified + $99M life-science moving = $476M Q2 start; one more $50M migration crosses |
+| **REG-25** | WAL ex-fraud NCO > 40bps in Q2 OR Q3 2026 | Q2-Q3 2026 | **75%** (was 55%) | v2.2 ratchet — $99M life-science at 60% LGD = ~$60M Q2 charge-off = ~10bps; Q1 was 39bps; mechanical cross of 40bps before any normal Q2 activity |
 
 ---
 
@@ -187,11 +232,14 @@ CFO swap remains the tell. Vishal Idnani (JPM FIG, 20yr MD, advised 50+ regional
 
 | Date | Event | What resolves |
 |---|---|---|
-| **May 1-10** | **Q1 Call Report filings** | MI3 ratio (V1 acceleration test); NDFI line reconciles |
-| May 6 | APO Q1 | Atlas SP context for warehouse-counterparty story |
-| **May 12** | **WAL Investor Day** | Mgmt response to thesis vectors; possible MI3 / Office commentary |
-| Jun 18 | $85P / $65P expiry; AOCI rule comment period closes | Position management decision |
-| Q2 2026 print (~Jul) | Quarterly report | NCO ex-fraud test (REG-25); Office classified migration (REG-24) |
+| ~~May 1-10~~ ⏳ | Q1 Call Report filings → **FFIEC PDD bulk integration STILL PENDING** | MI3 ratio (V1 acceleration test per v2.1 calibration table) |
+| ~~May 6~~ ✅ | APO Q1 printed; integration deferred | Atlas SP context for warehouse-counterparty story |
+| ~~May 11~~ ✅ | **WAL 10-Q filed** (accession `0001628280-26-033054`) | ✅ Drilled 5/21 — V2 inventory CLEAN; B1 fired via $99M life-science subsequent event |
+| ~~May 12~~ ✅ | WAL Investor Day | Bucket E B3 fired; Q&A transcript not retrieved |
+| ~~May 13~~ ✅ | DA Davidson PT cut $93→$90 (Buy maintained) | Valuation-driven; not credit |
+| ~~May 14~~ ✅ | **Curley resignation** + ~10% WAL drawdown on week | V4 mgmt-credibility flag |
+| **Jun 18** | $85P / $65P / $77.5P expiry; AOCI rule comment period closes | Position management decision |
+| **Late Jul (Q2 print)** | 🔴 **Critical second-data-point test** | If $99M is the ONLY material Office migration → V2.2 may overstate; if 2+ migrations → V2.5/V3 territory |
 
 ---
 
@@ -230,4 +278,4 @@ Current: $85P / $77.5P / $70P / $65P Jun/Sep — see `../POSITIONS.md` for contr
 
 ---
 
-*v2.0 supersedes v1.0 (Mar 25, 2026) following Q1 2026 print integration (Round 1 Apr 22, Round 2 Apr 24). Change rationale and old-vs-new view documented in `CHANGELOG.md` (this directory) and `../thesis/CHANGELOG.md`.*
+*v2.2 supersedes v2.1 (May 11, 2026) following 10-Q drill (May 21). B1 fired via $99M life-science subsequent event + Curley resignation + market reaction. Detailed findings in `research/WAL_10Q_DRILL_2026-05-21.md`. Change rationale and old-vs-new view documented in `CHANGELOG.md` (this directory) and `../thesis/CHANGELOG.md`.*

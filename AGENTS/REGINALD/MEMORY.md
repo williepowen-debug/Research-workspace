@@ -50,72 +50,97 @@
 
 ## Session Notes
 
-⚠️ **Open question:** **SSB $95P May 15 expiry-day execution outcome unknown.** Ladder written `MAY15_DECISIONS.md` post-script (Phase 1 STC $3.50 → Phase 5 DNE backstop) with SSB at $91.21 intraday + intrinsic $3.79; Will hadn't confirmed contract qty or path choice when session paused for commit. Boot next session by asking Will what happened — auto-exercised into short SSB at $95? sold at limit? DNE filed? Log outcome in POSITIONS.md + extract LESSON if any.
+⚠️ **Open question:** **Will Q2 print (late July) show ONE Office credit walking away or 2+?** v2.2 priced one (the $99M life-science). If Q2 reveals a second material Office walk-away, v2.2 understates and we're in v2.5/v3 territory. If $99M is the only one, v2.2 may overstate — bear-medium probability should pull back. This is the binary test that resolves whether v2.2 framing holds.
 
-**Pending Will calls:** SSB $95P expiry outcome (above) + WAL $75P May 15 outcome ($75.93 ITM by $0.93 — also expired Friday, also needs outcome confirm).
+**Pending Will calls:** None — May 15 cluster cleared this session.
 
 ### CHANGES SINCE LAST SESSION
 *(populated at next boot via market.py)*
 
-### LAST SESSION (May 15-17 — Investor Day FINDINGS + SSB expiry ladder + clean closeout commit)
+### LAST SESSION (May 21 — 10-Q drill + V2.2 ship + STATUS hygiene)
 
-**Scope:** 2-segment session across 3 calendar days. Investor Day findings + SSB expiry day work on 5/15; tape pause; closeout on 5/17 Sun.
+**Scope:** Single full session. Pulled WAL Q1 2026 10-Q from EDGAR (filed 5/11 PM but uintegrated through 5/17 closeout); drilled the V2 inventory + Office + NDFI + Atlas SP + Cantor targets; surfaced the $99M life-science office sponsor walk-away in the subsequent-event note + Curley resignation via market awareness check; propagated v2.1 → v2.2 through THESIS / SCENARIOS / 2x CHANGELOG / PREDICTIONS; archived stale STATUS sections.
 
-**1. WAL Investor Day FINDINGS shipped: `WAL/INVESTOR_DAY_FINDINGS_2026-05-12.md`** (~160 lines, +1 EDGAR source archive set):
-- Located source materials: WAL 8-K EX-99.1 deck (accession `0001628280-26-033850`, filed 5/12 8:30 AM ET pre-event); archived raw HTML to `WAL/sources/investor_day_2026/{deck_raw.htm, 8k_raw.htm}` (~160KB total)
-- Bucket scoring from prepared remarks (125-slide deck): **A=U1** (0 new Leucadia credits named); **B=U2** (Office portfolio breakdown ✅ but no quantified de-risking $ / $946M maturity wall NOT mentioned); **C=U2** (Cantor silent / legal-proceedings boilerplate); **D=U2** (Office partial via Slide 93 / MI3 / RCON2746 / Memo Item 3 SILENT); **E=B3 FIRED** (mgmt held 25-35bps NCO guide despite Q1 ex-fraud 39bps above range top + deposit costs raised $650-700M)
-- Recommended **V2.1 → V2.1.1 minor revision**: Bear-slow 23→27%, Base 38→35%, Bull 25→24%; REG-25 confidence 55%→65%+; EV $72.32→~$70-71 (still ~7-9% over at $75.93)
-- **No V2.2 promotion** (single-bucket bear-trigger = sub-component re-weight, not thesis-level shift)
-- **Q&A transcript still missing** — Bucket A/C re-score could escalate to V2.2 if B1 fires
-- Position implications per prep matrix: Sep $77.5P/$70P core REINFORCED-HOLD; Jun $85P/$65P HOLD; no new positions
+**1. WAL 10-Q drill** (`research/WAL_10Q_DRILL_2026-05-21.md`, ~280 lines):
+- Fetched 5.3MB raw HTML → 339KB stripped text via curl + regex (MEMORY findings line 30 + 34 patterns)
+- **V2 inventory test: CLEAN (U1)** — only LAM ($126.4M) + Cantor V ($26.1M) named. Schedule O / Table 16 don't exist in 10-Qs (10-K/proxy items). NEW: WAL filed complaint in NY Supreme Court against Jefferies Financial Group + LAM + affiliates (March 2026) — escalation to active litigation against parent.
+- **🔴 SUBSEQUENT EVENT — $99M life-science office walk-away (late April 2026)** on a loan previously graded *pass*. 6-story LEED Silver Class-A lab/office building, "gateway life-science market." Borrower notified WAL of intention not to repay. Same strategic-default mechanic as IQHQ (OZK Aug 2026 maturity). At 60% LGD = ~$60M Q2 charge-off = ~10bps incremental; Q1 was 39bps; REG-25 near-locked at 75%.
+- **NDFI breakout cleaner than deck:** $14.928B total (25.2% of HFI) = Mortgage credit intermediaries $10.25B (17.3%) + Business credit $3.42B (5.8%) + PE funds $1.26B (2.1%). Business+PE = 7.9% ties to deck Slide 24 "7% Ex-Mtg Credit." V3 cohort-median confirmed.
+- **Other CRE-NOO nonaccrual $228M → $263M = +$35M QoQ (+15.4%)** — leading-bucket migration already firing in Q1 BEFORE the late-April event.
+- Hotel franchise classified $44M / 1.0% — still light.
+- Zero Atlas SP / PennyMac / Apollo counterparty mentions — non-bank servicer silence consistent with deck.
 
-**2. SSB $95P May 15 expiry-day execution ladder appended to `MAY15_DECISIONS.md`:**
-- Live tape 5/15 ~12:21 ET: SSB $91.21 (open $93.17 → low $91.15); $95P ITM intrinsic $3.79; bid $1.55 / ask $4.30 / last $3.23 (OI 1, volume 1)
-- Roll path still CLOSED (Sep $95P 0/0 bid/ask; Jun $95P $3.10/$6.80 spread OI 3; Sep $90P $3.70/$6.90 OI 1)
-- New factor vs 5/8 memo: **auto-exercise risk** — long ITM $95P auto-exercises into SHORT SSB at $95 on close unless DNE filed; carries margin + borrow + overnight risk
-- Recommended Phase 1-5 ladder: STC $3.50 → $3.00 → $2.50 → bid → DNE backstop (per-ctr; scales linearly w/ qty)
-- ⚠️ POSITIONS.md does NOT carry quantity (dropped 5/8 broker refresh) — must ask Will for ctr count
-- Will paused work to commit before confirming execution path — outcome unknown at session close
+**2. Market awareness check** (WebSearch + WebFetch — 5 min, decisive):
+- **Simply Wall St 5/14:** "WAL Is Down 10.0% After Disclosing Major Bad Loan And Executive Exit" — market reacted within days of 10-Q.
+- **NEW SIGNAL not surfaced in 10-Q drill: Stephen Curley resignation** (Chief Banking Officer for National Business Lines, effective immediately, same week as 10-Q). Per investing.com SEC filing: stated reason = CEO opportunity at another financial services firm. Pattern flag — National Business Lines is where Office / Hotel / Tech / Warehouse / Public Finance / Renewable all sit organizationally.
+- **DA Davidson PT cut $93→$90 (5/13), Buy maintained, valuation-driven** — not the $99M loan. Sell side passive on credit event.
+- Reframed v2.2 narrative: NOT "market unaware, asymmetric entry" but "start of bear-medium, expect more migration to come." Don't chase.
 
-**3. Critical discovery NOT integrated this session: WAL 10-Q filed 5/11 PM** (EDGAR accession `0001628280-26-033054`, `wal-20260331.htm`):
-- Was filed Monday 5/11 same day as STATUS write — REGINALD missed it through the LIAISON work + V2.1 ship + Investor Day prep ship
-- Schedule O / Table 16 cross-credit inventory test per RED §12.3 still pending
-- **This is the highest-information delta** I missed between 5/11 PM and 5/15
-- Next session #1 priority
+**3. POSITIONS.md cleared May 15 cluster** — Will confirmed 5/21 SSB $95P + WAL $75P both gone (exact execution path not recorded). WAL position count 8 → 7 across 3 expiries (was 4). Removed cluster section header; updated WAL Key Context line to reflect v2.2-pending → cleared.
 
-**4. Boot Step 9b BOARD diff scan run:**
-- 9 BOARD signals 5/12-5/15; **0 ACTION-routed to REGINALD**, 6 info-cc'd (all CONSUMER_STAGFLATION cluster, 5 cluster_mediating)
-- Read-only awareness: CPI hot 3.8% (5/12), PPI hot 6.0% (5/13), NYFed HHDC student-loan defaults (5/13), BAA wage K-shape (5/13), USDA WASDE wheat 1957-low (5/13), claims 211K (5/14)
-- No REGINALD-domain action triggers — these are CARL/BRENT/HENRY primary
-- **Boot 9b grep refinement noted:** schema uses `signal_role: cluster_mediating` not `cluster_mediating: true`; my grep returned 0 cluster_mediating hits when there were actually 5. Tier (c) catch saved the analysis but grep needs fix.
+**4. V2.2 propagation cascade** (4a-4d sequenced with checkpoint per file):
+- `WAL/THESIS.md` v2.1 → v2.2 — new core thesis block (concentrated CRE tail risk *actualizing*); vector status table updated to 4 rows (V1 office-firing, V2 inventory clean, V3 cohort-median confirmed, V4 NEW Curley); leading-vs-lagging table includes 10-Q +15.4% nonaccrual finding; new $99M subsequent-event section with full direct quote; new Curley section (pattern flag, not standalone bear-trigger); predictions REG-24 60→70% / REG-25 55→75%; watch dates updated with past events ✅; PT range $52-70 → $50-68; footer points to drill file.
+- `WAL/SCENARIOS.md` v2.1 → v2.2 — current price $77.63; new v2.2 EV table (Bear-fast 12% / Bear-medium 30% / Base 33% / Bull 18% / Tail 7% → EV $67.98); v2.1 preserved as reference; 6-shift re-weight rationale spelled out; position-level table expanded from 4 to 8 positions per May 8 broker refresh; footer references drill file.
+- `WAL/CHANGELOG.md` v2.2 entry — full pattern (trigger, why-v2.2-not-v2.1.1, why-v2.2-not-v3.0, vector-by-vector changes, old vs new view table, probability reweight, PT adjustment, predictions ratchet, position implications, falsifier status, files updated).
+- `thesis/CHANGELOG.md` cross-reference entry — notes v2.1 was logged only in WAL/ (methodology refinement); v2.2 logged here because actualization milestone. Flags cross-bank life-science pattern (WAL $99M + OZK IQHQ) as worth master-thesis tracking if a third surfaces.
+- `workbook/PREDICTIONS.tsv` — REG-24 60→70% with v2.2 ratchet note; REG-25 55→75% with ratchet note. TSV schema preserved (10 cols both rows).
 
-**5. Tape post-Investor-Day:**
-- WAL net -1.3% over 3 trading days post-event (5/12 ID-day → 5/15 $75.93) despite cohort tailwind today — Investor Day did NOT clear the bear
-- SSB idiosyncratic -2.17% intraday 5/15 on cohort-green day; FL/TX cohort-fade thesis acute today
-- Brent re-spiked $104 → $108 (+2.26% 5/15) — stagflation pillar reasserting after 5/11 softening
-- VIX +11.3% on green-cohort day = vol bid through risk-on tape; implied stress not resolved
+**5. REGINALD STATUS.md refresh + hygiene pass** — Header rewritten for 5/21 v2.2 ship; Convergence Matrix WAL row updated; THRESHOLD STATUS table at bottom refreshed with 5/21 prices. **Archived stale sections** APR 30 PM + APR 29 5-DAY CATCH-UP + POST-DECK INTEGRATION Apr 24 to `archive/STATUS_apr24_may1.md` (127 lines moved; full content preserved with v2.2 annotations on REG-24/REG-25 ratchets). STATUS.md 309 → 182 lines (under 250 target). Prior briefs pointer updated.
+
+**6. WAL/STATUS.md header refreshed** for 5/21 v2.2 ship (5/17 → 5/21; v2.1 → v2.2; new V4 vector + B1 trigger reflected).
+
+**7. CALENDAR.md updates** — Marked May 11 10-Q drilled ✅, May 13 DA Davidson ✅, May 14 Curley ✅, May 15 cluster cleared ✅. **New JULY section: WAL Q2 print late July = critical v2.2 second-data-point test.**
 
 **Files modified this session (REGINALD scope):**
-- `WAL/INVESTOR_DAY_FINDINGS_2026-05-12.md` (new, ~160 lines)
-- `WAL/sources/investor_day_2026/deck_raw.htm` (new, 132KB EDGAR source)
-- `WAL/sources/investor_day_2026/8k_raw.htm` (new, 28KB EDGAR source)
-- `MAY15_DECISIONS.md` (+85 lines — Phase 1-5 execution ladder appendix)
-- `STATUS.md` (header + threshold table + macro read for 5/15 + 5/17 closeout)
-- `WAL/STATUS.md` (header for 5/15 + V2.1.1 recommendation)
-- `CALENDAR.md` (5/12 Investor Day ✅, 5/11-13 WAL 10-Q ⚠️ filed but not integrated, 5/14-16 MI3 window passed status-pending, 5/15 expiry-day outcome pending)
+- `STATUS.md` (header + Convergence Matrix WAL + THRESHOLD STATUS + Prior briefs pointer; 309→182 lines)
+- `WAL/STATUS.md` (header refresh)
+- `WAL/THESIS.md` (v2.1 → v2.2)
+- `WAL/SCENARIOS.md` (v2.1 → v2.2)
+- `WAL/CHANGELOG.md` (v2.2 entry prepended)
+- `thesis/CHANGELOG.md` (v2.2 cross-reference entry)
+- `workbook/PREDICTIONS.tsv` (REG-24 + REG-25)
+- `CALENDAR.md` (5/11-15 events resolved + July Q2 print row added)
+- `POSITIONS.md` (May 15 cluster cleared; WAL line updated)
 - `MEMORY.md` (this rewrite)
 - `ROADMAP.md` (this rewrite — pending)
-- `SCRATCH.md` (5/15-17 entry — pending)
+- `SCRATCH.md` (prune — pending)
+
+**New files this session:**
+- `archive/STATUS_apr24_may1.md` (NEW, ~125 lines, archived from STATUS.md)
+- `research/WAL_10Q_DRILL_2026-05-21.md` (NEW, ~280 lines)
+- `WAL/sources/q1_2026/wal-20260331.htm` (NEW, 5.3MB EDGAR raw)
+- `WAL/sources/q1_2026/wal-20260331_text.txt` (NEW, 339KB stripped)
 
 **Will conversation moments:**
-- Boot: caught me up from 5/11 to 5/15 across 4-day gap; flagged Investor Day findings + SSB expiry as the two outstanding items
-- WAL Investor Day: chose to pursue findings work first (over SSB pivot or 10-Q hunt)
-- SSB ladder: paused work to commit when execution recommendation written; deferred execution decision
-- Date-check ping 5/17 Sun: confirmed I was reading; chose closeout path over continuing work
-- Authorized REGINALD-only commit `6a20710a` (later pushed by WALTER as `1b37fccc`); no push allowed
-- Confirmed WALTER had pushed my updates — working tree now clean externally
+- Boot: asked for stale data update; flagged WAL 10-Q drill priority
+- Pre-drill: Will asked "Did we really not do this already? Have you checked the WAL subagent?" — verified empty; SSB + WAL $75P both expired/sold per Will (exact path not recorded; "either way both of those are gone")
+- Sequencing: Will asked for recommended order; I gave 6-step plan with checkpoints; Will approved
+- Mid-cascade: Will asked about changelog system — confirmed two-layer (WAL/ + thesis/) already in place + POV-pivot pattern; Will: "great I was just checking"
+- Will checkpoint after each step before proceeding
 
-**Git:** Closeout commit pending at end of this rewrite. Working tree clean externally (WALTER swept on 5/17 boot per the consolidated WALTER commit `7a3ece9d`). REGINALD push allowed this round since no other agent has uncommitted work blocking.
+**Git: pending closeout commit.**
+
+### NEXT SESSION — Q2 print prep + MI3 status check + Q&A transcript + OZK 10-Q + APO integration
+
+1. **Boot normally** — git pull, read boot docs, market.py refresh, inbox scan, BOARD diff scan Step 9b (with FIXED grep — `signal_role: cluster_mediating` not `cluster_mediating: true`).
+2. 🟠 **WAL Investor Day Q&A transcript hunt** (still outstanding) — Seeking Alpha / Motley Fool / Investing.com / `investors.westernalliancebancorporation.com` archived replay. **If B1 fires retroactively from Q&A** (analyst pressure on Leucadia + mgmt dodge), promote v2.2 → v2.3 with mgmt-discount tightening. *Probably lower priority now that 10-Q B1 fire is the bigger trigger.*
+3. 🟠 **MI3 / FFIEC PDD bulk update status check** (window 5/14-16 passed without integration; now 5+ days stale) — recheck FFIEC PDD; if data available, run V2.1 calibration table.
+4. 🟠 **APO Q1 post-print integration** (printed May 6 — now 15+ days stale) — Atlas SP segment, warehouse book size, non-bank servicer counterparty.
+5. 🟠 **OZK 10-Q recheck** — OZK peer-agent primary; REGINALD info-only on cohort-fade pickup.
+6. 🟠 **BOARD action-signal integration backlog** — 13 ACTION signals on 5/11 + accumulated 5/15-5/21 inflow; no disposition rows written. Run fixed grep + tier-c cluster filter.
+7. 🟡 **PROME ZION-scaffold-fill request** (May 9-10 inbox; now 11+ days unread) — substantive new work; needs dedicated session.
+8. 🟡 **CARL handover signal** (May 2 inbox; now 19+ days unread). Lower urgency.
+9. 🟡 **BOARD_LOG.tsv full backfill execution** — 16 missed-action signals still stubbed.
+10. 🟡 **MTB Baltimore Sun verification** (SIG-W-20260426-009) — quick pull when bandwidth.
+11. 🟡 **Wave 2 cross-agent outbox signals** — 9 candidates in ROADMAP (now includes v2.2 ship → RED + B1 fire → PROME). Defer until HERMES revival or new messaging pattern.
+12. 🟡 **WALTER LIAISON calibration cycle 1** — trigger 2026-05-25 (14d) OR N=15 forward BOARD dispositions (early-fire).
+13. 🟡 **Cross-bank life-science pattern tracking** — WAL $99M + OZK IQHQ = 2 strategic defaults in 6 months. Watch for #3.
+
+**Top-3 priority for next boot:** Items 2 (Q&A — secondary now) + 3 (MI3 status — still mechanical decision-input) + 6 (BOARD backlog — overdue). Q2 print prep itself is still 9+ weeks out.
+
+### LAST SESSION (May 15-17 — Investor Day FINDINGS + SSB expiry ladder + clean closeout commit) [PRIOR-SESSION RECAP — pruned to 1 line]
+
+May 15-17: WAL Investor Day FINDINGS shipped (`WAL/INVESTOR_DAY_FINDINGS_2026-05-12.md`, ~160 lines, T+3 post-fact); EDGAR archives saved; Bucket scoring A=U1 B=U2 C=U2 D=U2 E=B3 FIRED (mgmt held 25-35bps NCO despite Q1 39bps); recommended v2.1.1 (NOT shipped — superseded by 5/21 v2.2). SSB $95P May 15 expiry-day ladder appended to MAY15_DECISIONS.md (SSB $91.21 / $3.79 intrinsic; ladder $3.50→$3.00→$2.50→bid→DNE). WAL 10-Q filed 5/11 NOT INTEGRATED — became this session's #1 priority. Boot 9b BOARD diff scan run (9 signals 5/12-15; 0 ACTION to REGINALD). Commit `6a20710a` local, pushed by WALTER as `1b37fccc`.
 
 ### LAST SESSION (May 11 PM — Investor Day prep + tape break) [PRIOR-SESSION RECAP — pruned to 1 line]
 
@@ -196,33 +221,4 @@ May 8: REG-20 resolved CONFIRMED-PARTIAL; gitignore Option A negation rule; KRE 
 - POSITIONS scope: kept thesis-pure (banks + credit/convergence); OZK/macro/non-thesis flagged for other owners.
 - May 15 cluster: Will couldn't pull live broker data (Friday night); option chain math via yfinance close marks instead.
 - Final: Will requested clean session close + save unfinished to ROADMAP.
-
-### NEXT SESSION — SSB outcome log + WAL 10-Q drill + MI3 status check + V2.1.1 propagation
-
-1. **Boot normally** — git pull (working tree should be clean — WALTER swept 5/17), read STATUS (5/17 closeout header), CALENDAR (5/12 ID done, 5/15 expiry outcome pending), MEMORY (this session note at top), ROADMAP, SCRATCH; market.py refresh; inbox scan; BOARD diff scan Step 9b (with FIXED grep — `signal_role: cluster_mediating` not `cluster_mediating: true`).
-2. 🔴 **SSB $95P + WAL $75P May 15 expiry OUTCOME LOG** — ask Will:
-   - SSB $95P: auto-exercised (now short 100×N at $95)? sold at limit ($3.50/$3.00/$2.50/bid)? DNE filed (premium lost)?
-   - WAL $75P: closed at $75.93 (-$0.93 ITM); auto-exercised into short WAL at $75? sold/DNE?
-   - Log to `POSITIONS.md` + `FORGE/STATUS.md` if any. Extract LESSON if execution path diverged from pre-registered.
-3. 🔴 **WAL 10-Q drill — FILED 5/11 PM (accession `0001628280-26-033054`)** — fetch via EDGAR (curl pattern in MEMORY findings); strip XBRL; search for: Schedule O / Table 16 large-credit names (RED §12.3 test: 0/1/2+ Leucadia-era credits); Office concentration Q1 numbers; Cantor residual; Apollo Atlas SP counterparty; NDFI breakout. **Outcome feeds V2.1.1 → V2.2 decision.**
-4. 🔴 **MI3 / FFIEC PDD bulk update status check (5/14-16 window passed)** — recheck FFIEC PDD; if data is now available, run V1 calibration per `WAL/THESIS.md` v2.1 pre-registered branching table (≥27% / 25-26.9% / 24-24.9% / <24%). Also OZK 37.6% baseline + EGBN 23.7% trajectories.
-5. 🔴 **WAL Investor Day Q&A transcript hunt** — Seeking Alpha / Motley Fool / Investing.com / `investors.westernalliancebancorporation.com` archived replay. Search per prep grep list. **If B1 fires (analyst pressure on Leucadia + mgmt dodge), promote V2.1 → V2.2 with mgmt-discount tightening + bear +3-5pp.**
-6. 🟠 **V2.1.1 propagation** (only AFTER Q&A read so we know if we're going V2.1.1 or V2.2):
-   - `WAL/THESIS.md` v2.1 → v2.1.1 OR v2.2 (re-weight per Bucket E B3; Bear-slow 23→27; REG-25 confidence 55→65%)
-   - `WAL/SCENARIOS.md` v2.1 → v2.1.1 / v2.2 (re-run EV table)
-   - `WAL/CHANGELOG.md` (version entry)
-   - `workbook/PREDICTIONS.tsv` (REG-25 confidence ratchet)
-7. 🟠 **BOARD diff scan since 5/14** — likely accumulated signals over 5/15-17; fixed grep + tier-c cluster filter. Backfill `board/BOARD_LOG.tsv` disposition rows.
-8. 🟠 **OZK 10-Q recheck** (filed expected May 11-13) — OZK peer-agent owns; REGINALD info-only on cohort-fade pickup. Hand off via outbox if anything REGINALD-relevant surfaces.
-9. 🟠 **APO Q1 post-print integration** (printed May 6 — now 11+ days stale) — Atlas SP segment, warehouse book size, non-bank servicer counterparty.
-10. 🟠 **Q1 10-Q deep drill (deferred from May 8 sweep)** — EGBN HFS transfer $ quantification; VLY NCO + ACL coverage trajectory; CFG $1.5B NDFI reconciliation gap; cross-bank Office classified comparison.
-11. 🟡 **PROME ZION-scaffold-fill request** (May 9 inbox; now 8 days unread) — substantive new work; needs dedicated session. 3 priority research outputs: MI3_HIDDEN_CRE_SCREEN.md, CRE_MULTIFAMILY_MATURITY.md, MUNI_CONDUIT_RISK.md.
-12. 🟡 **CARL handover signal** (May 2 inbox; now 15+ days unread). Lower urgency.
-13. 🟡 **BOARD_LOG.tsv full backfill execution** — 16 missed-action signals still stubbed + new 5/11+ ACTION signals; full disposition pass.
-14. 🟡 **MTB Baltimore Sun verification** (SIG-W-20260426-009) — quick pull when bandwidth.
-15. 🟡 **Wave 2 cross-agent outbox signals** — 8 candidates in ROADMAP; deferred until HERMES revival or new messaging pattern.
-16. 🟡 **STATUS.md hygiene pass** — APR 30 PM LIVE TAPE + APR 29 catch-up sections now 17+ days stale; archive to `archive/STATUS_apr28_may1.md`; STATUS should be a snapshot not multi-week diary.
-17. 🟡 **WALTER LIAISON calibration cycle 1** — trigger 2026-05-25 (14d) OR N=15 forward BOARD dispositions (early-fire).
-
-**Top-3 priority for next boot:** Items 2 (expiry-day outcome log — clears Will-call queue) + 3 (WAL 10-Q drill — biggest unread information delta) + 5 (Investor Day Q&A — determines whether V2.1.1 or V2.2). Everything else negotiable.
 

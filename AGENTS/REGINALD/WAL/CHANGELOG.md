@@ -7,6 +7,105 @@ Tracks all changes to `WAL/THESIS.md`. Reverse chronological. Mirrors format of 
 
 ---
 
+## 2026-05-21 — v2.2: B1 FIRED via $99M LIFE-SCIENCE OFFICE WALK-AWAY + CURLEY RESIGNATION (post 10-Q drill)
+
+### THESIS Updated → v2.2
+**Author:** REGINALD (with Will approval; full V2.2 ship per session direction)
+**Trigger:** WAL Q1 2026 10-Q drill (EDGAR accession `0001628280-26-033054`, filed 2026-05-11; drilled 2026-05-21 — 10-day integration lag). Drill findings: `research/WAL_10Q_DRILL_2026-05-21.md`. Market awareness check confirmed ~10% week-of drawdown (5/11-5/15) on combined 10-Q + Curley news per Simply Wall St (5/14) + DA Davidson PT cut $93→$90 (5/13, Buy maintained).
+
+**Why v2.2 not v2.1.1:** Two bear-buckets fired (B1 + B3) per the V2.1 calibration framework. B1 = "first material Office credit walking away" — fired via $99M life-science strategic default. B3 = mgmt held NCO guide despite Q1 ex-fraud 39bps (fired at Investor Day 5/12 per `WAL/INVESTOR_DAY_FINDINGS_2026-05-12.md`). Single-bucket fire would have been v2.1.1 minor revision; compound 2-bucket fire is major-version threshold.
+
+**Why v2.2 not v3.0:** Thesis framing ("compounder with concentrated CRE tail risk") is STRENGTHENED, not replaced. Tail is *actualizing*, not *invalidating thesis* — V2.2 is the actualization milestone, not a thesis pivot. V1 MI3 primary falsifier still hasn't run; V2 inventory test came back CLEAN; V3 cohort-median CONFIRMED via 10-Q breakout. Structure intact; speed accelerated.
+
+### What changed
+
+**Core framing:**
+- **v2.1:** *"WAL is a structural compounder with concentrated CRE tail risk AND an active V1 hidden-CRE test pending mid-May FFIEC MI3 print."*
+- **v2.2:** *"WAL's concentrated CRE tail risk is actualizing on Q2 timeline. The 10-Q subsequent-event disclosed a $99M life-science office sponsor walk-away (B1 fired) on a loan previously graded pass. Same week, Chief Banking Officer Curley resigned. Bear-slow → Bear-medium speed."*
+
+**V1 (Hidden CRE / Office):** weight restored pending MI3 → **OFFICE SUB-VECTOR FIRING**
+- $99M Class-A LEED Silver life-science laboratory/office building, "gateway life-science market" — borrower notified WAL of intention not to repay. Pass → substandard / non-accrual.
+- Same strategic-default mechanic as IQHQ (OZK Aug 2026 maturity) — two Class-A life-science walk-aways across watchlist in 6 months = sector signal.
+- 10-Q confirms leading-bucket migration already firing in Q1 pre-event: Other CRE-NOO nonaccrual $228M → $263M (+$35M / +15.4%).
+- MI3 primary falsifier (≥25% FFIEC PDD) STILL HASN'T RUN — V2.1 calibration table preserved; bulk window 5/14-16 passed without integration.
+
+**V2 (Jefferies/MFS fraud chain):** STANDS + counterparty-discount → **INVENTORY TEST CLEAN**
+- 10-Q lists only LAM ($126.4M) + Cantor V ($26.1M) — no new Leucadia-era credits. Bucket A (Investor Day prep framework) confirmed U1.
+- NEW: WAL escalated to active litigation against Jefferies Financial Group + LAM + affiliates in NY Supreme Court (March 2026) — breach of contract + fraudulent inducement.
+- Q1 collateral defense: $13M non-performing senior lien loan purchased; plans more.
+- $3.5M specific allowance remains on Cantor loan.
+
+**V3 (SSFA / NDFI):** stands disconfirmed → **CONFIRMED via 10-Q breakout**
+- Total NDFI $14.928B = 25.2% of HFI loans (cleaner disclosure than deck Slide 24).
+- Mortgage credit intermediaries $10.25B (17.3%) / Business credit intermediaries $3.42B (5.8%) / PE funds $1.26B (2.1%).
+- Business + PE = 7.9% ties to deck Slide 24's "7% Ex-Mtg Credit, peer median 6%, avg 8%" — cohort median holds.
+- Zero mentions of Atlas SP, PennyMac, PFSI, LoanDepot, Apollo as counterparties — silence on non-bank servicer concentration consistent with deck.
+
+**V4 (NEW): Mgmt credibility / org stability — CURLEY RESIGNATION**
+- Stephen Curley, Chief Banking Officer for **National Business Lines** (the org where Office / Hotel Franchise / Tech & Innovation / Mortgage Warehouse / Public Finance / Renewable Resources all sit), resigned effective immediately, same week as 10-Q.
+- Stated reason: CEO opportunity at another financial services firm.
+- Pattern flag, tracked — not promoted to standalone bear-trigger without a second corroborating departure. Same-week-as-disclosure timing matters even if causal link is denied by company.
+
+**Probability re-weight (v2.1 → v2.2):**
+- Bear-fast: 12% → **12%** (unchanged — MI3 calibration still governs)
+- Bear-slow → Bear-medium: 23% → **30%** (+7pp — B1 fired, multi-quarter migration started)
+- Base: 35% → **33%** (-2pp — base loses to bear-medium realization)
+- Bull: 23% → **18%** (-5pp — "largely behind us" narrative materially eroded by $99M + Curley + drawdown)
+- Tail: 7% → **7%** (unchanged — tail rationale not disturbed by v2.2)
+
+**EV: $70.50 → $67.98** (-$2.52). Current $77.63 → ~14% overvaluation (vs v2.1's 13% at $81.90; drawdown -5.2% offset by EV drift -$2.52).
+
+**PT range adjustment (v2.1 $52-70 → v2.2 $50-68):**
+- Bear-medium range $60-68 → $58-66 ($2 floor compression — Q2 print is second test, $58 more reachable)
+- Bull range $84-92 → $82-90 ($2 compression each end — mgmt-credibility flag tightens upside)
+- Bear-fast / Base / Tail ranges unchanged
+
+**Predictions ratchet:**
+- REG-24 (Office classified > $500M by Q3 2026): **60% → 70%**. Driver: $377M Q1 classified + $99M life-science moving = $476M Q2 start; one more $50M migration crosses threshold.
+- REG-25 (ex-fraud NCO > 40bps in Q2 OR Q3): **55% → 75%**. Driver: $99M at 60% LGD = ~$60M Q2 charge-off = ~10bps incremental; Q1 was 39bps; mechanical cross before any normal Q2 activity.
+
+### Old view vs new view
+
+| Element | v2.1 | v2.2 |
+|---|---|---|
+| Bear narrative | "Wait for Q2-Q3-Q4 Office migration" | "First migration disclosed; expect more in Q2 print" |
+| REG-25 confidence | 55% (Q1 39bps tension; mgmt held guide) | 75% (single-credit $60M Q2 charge-off near-locks 40bps) |
+| Bull plausibility | 23% ("largely behind us" + V2 resolution) | 18% (narrative eroded by post-quarter $99M + Curley) |
+| Multi-quarter speed | Bear-slow | Bear-medium |
+| Mgmt credibility | Counterparty-diligence discount on forward statements | V4 vector added; pattern flag on org stability |
+| Market positioning | Asymmetric entry available pre-event | Already 10% priced in via 5/11-5/15 drawdown |
+
+### Position implications
+
+- **Sep $77.5P / Sep $70P:** REINFORCED-HOLD core. Sep window catches Q2 print (late July) — exactly where V2.2's $99M materializes as charge-off + REG-25 hit.
+- **Jun $85P:** HOLD as event hedge — most v2.2 evidence already in tape; Jun catalysts slimmer (FFIEC PDD if integrates; AOCI rule comment close).
+- **Jun $65P / $67.5P / $77.5P:** HOLD — Jun expiry tactical; v2.2 doesn't change Jun math materially.
+- **Sep $67.5P:** REINFORCED-HOLD — adds deeper-OTM Sep coverage; cheap leg of the Sep core.
+- **No new positions** — asymmetric entry compressed by 5/11-5/15 drawdown. Structure correct, don't chase.
+
+### Falsifier status
+
+- **B1 (first Office credit walking away):** ✅ FIRED ($99M life-science)
+- **B3 (mgmt held NCO guide despite Q1 39bps):** ✅ FIRED (Investor Day 5/12)
+- **V1 MI3 ≥25% (V2.1 fast-trigger):** ⏳ Still pending FFIEC PDD integration
+- **V1 MI3 24.0-24.9%:** ⏳ Same
+- **V2 inventory (2+ Leucadia-era credits):** ❌ NOT FIRED — 10-Q clean (U1)
+- **Hotel sub-portfolio migration:** ❌ NOT FIRED — Q1 Hotel classified $44M / 1.0%, still light
+- **Q2 print SECOND material Office migration:** ⏳ Pending late July
+
+If Q2 print shows the $99M is the ONLY material Office migration, V2.2 may overstate and bear-medium probability should pull back. If Q2 shows 2+ Office migrations, we're in V2.5/V3 territory and bear shifts toward 40%+.
+
+### Files updated
+
+- `WAL/THESIS.md` v2.2 (header + new V2.2 core thesis block + vector status table + V1 Office expression section + Curley section + predictions + watch dates + PT range + footer)
+- `WAL/SCENARIOS.md` v2.2 (header + new EV summary + v2.1 preserved + position-level read expanded to 8 positions + footer)
+- `WAL/CHANGELOG.md` v2.2 (this entry)
+- `workbook/PREDICTIONS.tsv` (REG-24 60→70%, REG-25 55→75% — step 4d pending)
+- `research/WAL_10Q_DRILL_2026-05-21.md` (drill findings, ~280 lines)
+- `POSITIONS.md` (May 15 cluster cleared; WAL position count 8→7; v2.2-pending flag added → cleared)
+
+---
+
 ## 2026-05-11 — v2.1: V1 WEIGHT RESTORED PENDING MI3 + EV MATH MADE JUN-CONDITIONAL (post RED CHG-RED-025 OVER-CORRECTED)
 
 ### THESIS Updated → v2.1
