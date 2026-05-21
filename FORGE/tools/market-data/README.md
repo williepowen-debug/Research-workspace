@@ -43,6 +43,35 @@ python3 fetch.py price KRE           # Single ticker price
 python3 fetch.py fred ICSA           # Single FRED series
 ```
 
+## Citation Convention (CRITICAL — read before citing data)
+
+**FRED data has a publication lag.** OAS series (HY, CCC, BBB), yields (DGS2, DGS10), spreads (T10Y2Y, T10YIE), and claims (ICSA, CCSA) are **end-of-day computed** and **publish T+1** — meaning at any point during a trading day, the latest data available from FRED is **yesterday's close at the earliest** (and on a weekend, Friday's). Yfinance prices (KRE, APO, etc.) are intraday-live; only FRED data has the lag.
+
+**Standard cite format for FRED data:**
+
+```
+HY OAS 280bps [FRED 5/20 close]    ← preferred (explicit)
+HY OAS 280bps [5/20]               ← shorthand acceptable in compact contexts
+```
+
+**Standard cite format for yfinance data:**
+
+```
+KRE $69.10 [yfinance live 13:45]   ← intraday timestamp
+KRE $69.10                          ← timestamp implied current if no tag
+```
+
+**Rule:** Do NOT call a FRED-sourced number "live" or "today" without verifying the observation date matches today. The dashboard (`dashboard.py`) appends the observation date to every FRED row — propagate that date into your STATUS, HEARTBEAT, and analysis cites.
+
+**Why this matters:** When numbers are within bps of a trigger or threshold (e.g., HY OAS approaching 260 kill or 290 R11 trigger), a 1-2 day lag changes whether the trigger is "almost firing" or "comfortably distant." Mis-stamped data has caused 4-agent convergence misalignment (5/21 incident — VIOLET KB-VIO-060).
+
+**Per-series publication cadence (for interpretation):**
+- **Daily T+1:** HY OAS, CCC OAS, BBB OAS, DGS2, DGS10, T10Y2Y, T10YIE, DCOILBRENTEU
+- **Weekly:** ICSA + CCSA (Thursday AM, prior week), GASREGW (Monday AM, prior week)
+- **Monthly:** PCE, CPI, PPI series
+
+---
+
 ## Build Status
 
 - [x] Layer 1: fetch.py (FRED + yfinance) — fixed price_fetch bug Mar 29

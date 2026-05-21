@@ -6,7 +6,7 @@
 
 ## Tools
 
-**Market Data:** `FORGE/tools/market-data/` — `fetch.py` (live prices + FRED), `config.py` (thresholds), `dashboard.py` (CLI stress dashboard). Use `python3 dashboard.py` before citing any price. Cron: 5min (self-throttled). Morning briefing 6 AM ET. Web: `:8080/api/stress`.
+**Market Data:** `FORGE/tools/market-data/` — `fetch.py` (live prices + FRED), `config.py` (thresholds), `dashboard.py` (CLI stress dashboard). Use `python3 dashboard.py` before citing any price. Cron: 5min (self-throttled). Morning briefing 6 AM ET. Web: `:8080/api/stress`. **Citation convention:** FRED data has T+1 publication lag — always cite FRED-sourced numbers with observation-date stamp (e.g., `HY OAS 280bps [FRED 5/20 close]`). Full convention in `FORGE/tools/market-data/README.md` § Citation Convention.
 
 **News Sweep:** `FORGE/tools/news-sweep/` — `sweep.py` (fetcher + classifier + router), `config.py` (queries, entity index, WATCH_FOR lists, keywords, source weights). Cron M-F 8:30 AM ET + Telegram push. On-demand: `python3 sweep.py --compact --route`. Web: `/api/news`. **Prome maintains** the entity index and WATCH_FOR lists — update after major STATUS changes or agent COMPLETION_SPECs.
 
