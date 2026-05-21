@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-05-21 ~11:30 ET (post BROCK + REGINALD live closeouts; pre-BOND 1pm auction)
+**Updated:** 2026-05-21 ~14:15 ET (post-auction; post HENRY+VIOLET revival + LIAISON; post FRED-fix Phases 1-3; pre-closeout)
 
 ## Core State
 
@@ -28,7 +28,9 @@
 | Artifact | Status | Purpose |
 |---|---|---|
 | `HEARTBEAT.md` | ⚠️ Stale (May 16 levels); BROCK + REGINALD posterior shifts NOT yet integrated | Scenario, levels, catalyst/position rails. Will-approval gate; fold post-auction. |
-| `PROME/SCRATCH.md` | ✅ Fresh May 21 ~11:30 ET (post BROCK + REGINALD closeouts) | Ephemeral next-action state; entry point for next session |
+| `PROME/SCRATCH.md` | ✅ Fresh May 21 ~14:00 ET (full session narrative through BOND TIPS read) | Ephemeral next-action state; entry point for next session |
+| `FORGE/tools/market-data/README.md` | ✅ Fresh May 21 (Citation Convention section added) | Canonical FRED date-stamp convention reference |
+| `FORGE/tools/market-data/dashboard.py` | ✅ Fresh May 21 (As-of column for FRED rows; `_date_stamp` helper) | Live tape; auto-displays observation date |
 | `PROME/FLEET_SCAN.md` | ⚠️ Fresh May 18 (v2 prototype); 3 days old | Live working surface — fleet situation report |
 | `PROME/CLOSEOUT.md` | ✅ Fresh May 18 | Standardized session-end procedure |
 | `PROME/BOOT.md` | ✅ Refreshed May 18 | TOSCANINI references cleaned; FLEET_SCAN + CLOSEOUT integrated |
@@ -66,15 +68,25 @@
 | **FSK fresh-premium discussion** | ✅ Resolved 5/21 | BROCK: no — KKR structurally long defense ($450M+ package, $11 tender = hard floor). Fresh PC premium would go to BIZD or ARCC Q2 if triggers fire. See `AGENTS/BROCK/domain/sources/FSK_Q1_READ_MAY21.md`. |
 | **BDC/private-credit decision prompt** | ✅ Resolved 5/21 | BROCK: no fresh entry yet; HY OAS 286 widening from kill, cushion 26bps. Entry triggers documented (HY OAS <270 sustained, GCRED/OTF release in 30d, bank PC loss disclosure, sub-90¢ arms-length BDC loan). |
 | **WAL Q1 10-Q integration** | ✅ Resolved 5/21 | REGINALD V2.2: B1 fired + V4 new + V2 clean. Bear-slow → Bear-medium speed. |
-| **BOND 5/21 10Y auction read (dual-grade)** | 🔴 | Next event. Respawn ~12:30pm pre-auction + ~2pm post-auction. Dual-grade format mandatory — mechanically resolves Q4. |
-| **v2 matrix deployment + Q5 decision** | 🔵 | Triggered by Q4 branch resolution after 5/21 10Y print. |
-| **SAM FXY Tranche 2 decision** | 🔴 | FXY $57.80 below previously-forfeited $58.00-58.25 band. Will-direction required. |
-| **HEARTBEAT.md refresh** | 🟠 | ~3-4d stale + BROCK V2.2 framework + REGINALD V2.2 scenario reweight + trap-clinching framing all owed. Will-approval gate; fold post-auction. |
-| **V1 MI3 / FFIEC PDD status check** | 🟠 | REGINALD's V1-fast falsifier; window 5/14-16 passed without integration. REGINALD-owned next session. |
-| **PROME design note: execution rails** | 🔵 | BROCK LESSONS #16 flagged — HYG roll Jun→Dec never executed during dark window because no mechanism existed. Same gap as May 15 ladder. Worth a Prome-side rail design pass. |
-| **VIOLET revival proxy (Step 4 #4 candidate)** | 🔵 Deferred | Pushed behind BOND v2 deployment. |
-| **HENRY revival packet integration** | 🔵 | HENRY's own task on next own boot. Packets untracked-by-design in HENRY inbox. Prome tracks only. |
-| **Regional-bank Call Report / Bank decision prompt** | 🟠 | Reduced priority post-V2.2 (REGINALD owns WAL thesis state). REG-25 75% confidence locks Sep $77.5P/$70P as core REINFORCED-HOLD per V2.2 deltas. MI3/PDD still the V1-fast trigger. |
+| **HENRY teams-mode revival (5/21 PM)** | ✅ Complete 5/21 | Commit `36a8219b` (gap-fill: USD/JPY, PCE CONFIRMED, claims, PREDICTIONS.tsv). Boot integrated 3 revival packets, swept inbox 18→0, NVDA 5/20 read-through. UUID `abf1cd8d4ed725569` standing by. |
+| **VIOLET teams-mode revival (5/21 PM)** | ✅ Complete 5/21 | Commit `1608fac2` + gap-fill `60b2e49c`. R12 SKEW>140 regime terminated; R11 clock running 5/28-6/02 prior 36%; FRED spot-check found BROCK numbers 2d stale. UUID `ad7350e8d26f70249` standing by. |
+| **HENRY-VIOLET LIAISON channel** | ✅ Complete 5/21 | Auto-converged via VIOLET outbox file + HENRY pre-commit integration. ~90min in-session resolution. New finding: `finding_liaison_convergence_pattern` validated for live (not stale-stale) pairings. |
+| **BOND 5/21 1pm auction read** | ✅ Complete with correction | Was actually 9Y8M TIPS reopening (CUSIP 91282CPU9), NOT nominal 10Y. Matrix Q4 dual-grade test reschedules to June 9-11 (CUSIP 91282CQQ7 reopening). BOND TIPS read commit `724169c3`: real-money showed up at 2.17% real, BTC 100th-pctile, demand-hole thesis qualitatively weakened. |
+| **FRED publication-lag fix Phases 1-3** | ✅ Complete 5/21 | Commit `ded870e0`: README convention + BOOT.md pointer + dashboard.py As-of column + 4 agent SIGs (BROCK/LIQUID/REGINALD/HENRY inboxes, untracked-by-design). Phase 4 (HEARTBEAT propagation) + Phase 5 (compliance audit) deferred. |
+| **APO / ARES June premium review** | ✅ Resolved 5/21 | BROCK: APO Dec hold, APO Jun + ARES Jun let-expire. |
+| **FSK fresh-premium discussion** | ✅ Resolved 5/21 | BROCK: no; KKR structurally long defense. |
+| **BDC/private-credit decision prompt** | ✅ Resolved 5/21 | BROCK: no fresh entry yet; entry triggers documented. |
+| **WAL Q1 10-Q integration** | ✅ Resolved 5/21 | REGINALD V2.2. |
+| **Matrix Q4 deployment timing decision** | 🔵 Deferred to June 9-11 | TIPS-not-nominal correction. BOND's pre-auction baseline + sentiment-context lens apply to June test. Treasury announcement ~June 3-5. |
+| **Q5 decision (v2-native backtest re-run)** | 🔵 Pairs with Q4 | Same June 9-11 window. |
+| **BOND-TIPS cross-flag to BROCK** | ✅ Filed 5/21 ~14:15 | SIG in BROCK inbox flagging duration-channel vector re-weight question. Untracked-by-design; BROCK integrates next boot. |
+| **BOND-TIPS cross-flag to HENRY** | ✅ Integrated 5/21 ~14:20 | HENRY commit `526d3586`: R11 trigger #6 imminence SOFTENED ("long end clearing demand at price"); breakeven decomposition added as 3rd independent Fed-can't-cut confirmation (PCE + duration + breakeven all triangulating). 2 new MEMORY findings. |
+| **SAM FXY Tranche 2 decision** | 🔴 | FXY $57.73 below previously-forfeited $58.00-58.25 band. Will-direction required. Will is booting SAM separately today. |
+| **WALTER bull-counter calibration** | 🟠 | SIG-PROME-WALTER-2026-05-21 filed in WALTER inbox. Tier-rank SIG-006 (small/mid-cap discount) + SIG-007 (retail-puts-at-ATH analogs) against 4-agent convergence. Awaits WALTER boot. |
+| **HEARTBEAT.md refresh** | 🟠 | ~4d stale + BROCK 46/60 convergence + REGINALD V2.2 + HENRY/VIOLET Stage-2-late + BOND TIPS soft-negative + FRED date-stamp convention adoption all owed. No matrix-Q4 clock urgency now (deferred). Will-approval gate; paced. |
+| **V1 MI3 / FFIEC PDD status check** | 🟠 | REGINALD V1-fast falsifier; window 5/14-16 passed. REGINALD-owned next session. |
+| **PROME design note: execution rails** | 🔵 | BROCK LESSONS #16 — HYG roll Jun→Dec died for lack of mechanism. Same gap as May 15 ladder. Worth a Prome-side rail design pass on a quiet maintenance window. |
+| **Regional-bank Call Report / Bank decision prompt** | 🟠 | Reduced priority post-V2.2. MI3/PDD remains V1-fast trigger. |
 
 ---
 
@@ -82,15 +94,16 @@
 
 | Domain | Status | Note |
 |---|---|---|
-| WALTER / signal routing | 🟠 | Owns signal/news routing. NDFI REQ-BROCK-20260514 now closed by BROCK ($1.4T framework). |
-| REGINALD / banks | 🔴 | Persistent/managed — do not spawn. WAL V2.2 shipped 5/21 (Bear-medium 30% dominant, EV $67.98). MI3/FFIEC PDD V1-fast falsifier still owed. Q2 print late-July is next critical test. |
-| BROCK / private credit | 🔴 | 20-day dark window closed 5/21. Convergence 46/60 🔴🔴. Position decisions formalized. 2 new vectors (sponsor-bifurcation + duration-channel). Next: CDR Q1 5-cat pull + OTF release date confirmation. |
-| LIQUID | 🟠 | Duration-channel reframe (5/18) now propagated through BROCK convergence matrix. 10Y +42bps over 20d window is the live transmission. |
-| HENRY / market structure | 🟠 | Framing-precision discipline now canonized in BROCK STATUS (trap-clinching vs soft-kill). NVDA 5/20 read-through still owed; revival packet untracked in HENRY inbox. |
-| SAM / Japan | 🔴 | FXY $57.80 below forfeit band; Will-direction owed. Route via persistent SAM, not spawn. |
-| BOND | 🟠 | Teams-mode operational. Matrix v2 draft awaiting today's 1pm 10Y auction for Q4 branch resolution. 5 artifacts untracked-by-design in `AGENTS/BOND/`; BOND commits on next live boot. |
+| WALTER / signal routing | 🟠 | Owns signal/news routing. NDFI REQ closed by BROCK. **Bull-counter calibration SIG awaiting WALTER boot** for SIG-006/007 tier-ranking against 4-agent convergence. |
+| REGINALD / banks | 🔴 | Persistent/managed — do not spawn. WAL V2.2 shipped 5/21 (Bear-medium 30% dominant, EV $67.98). MI3/FFIEC PDD V1-fast falsifier still owed. Q2 print late-July is next critical test. FRED-citation SIG in inbox. |
+| BROCK / private credit | 🔴 | 20-day dark window closed 5/21. Convergence 46/60 🔴🔴. Position decisions formalized. 2 new vectors (sponsor-bifurcation + duration-channel). **BOND-TIPS cross-flag in inbox raises duration-vector re-weight question.** FRED-citation SIG also in inbox. |
+| LIQUID | 🟠 | Duration-channel reframe (5/18) now propagated through BROCK convergence matrix. FRED-citation SIG in inbox flags BROCK's 286 cite was 2 days stale. |
+| HENRY / market structure | 🟠 | **Teams-mode revival complete 5/21** (UUID `abf1cd8d4ed725569`). STATUS rewritten Apr 17→May 21. NVDA absorbed cleanly; macro/structure tape supports Stage-2-late. HEN-27 PCE CONFIRMED. Standing by — context 175K/200K. BOND-TIPS cross-flag relayed; awaiting his judgment on integration. |
+| VIOLET / vol/SKEW | 🟠 | **Teams-mode revival complete 5/21** (UUID `ad7350e8d26f70249`). Stage 2-late confirmed; R12 SKEW>140 regime terminated; R11 clock running 5/28-6/02 prior 36%. 7-trigger Stage 3 watch list canonized. Standing by — context 114K/200K. |
+| SAM / Japan | 🔴 | FXY $57.73 below forfeit band; Will-direction owed. Route via persistent SAM, not spawn. Will is booting SAM separately today. 8 uncommitted files in flight from his active session. |
+| BOND | 🟠 | **Teams-mode operational, persistent** (UUID `ad32628b028661b70`). Today's auction was TIPS not nominal; matrix Q4 deferred to June 9-11 (CUSIP 91282CQQ7 reopening). TIPS read commit `724169c3` local-only (not yet pushed). Standing by. Calendar update: re-check Treasury announcement June 3-5. |
 | NEXUS | 🟠 | Stale but high-leverage if multiple domains converge; WALTER still wants revival. |
-| PROME | 🔴 | Chief of staff: keep rails/state current, assign decision work, synthesize Will-ready prompts. Execution-rails design note owed per BROCK LESSONS #16. |
+| PROME | 🔴 | Chief of staff: keep rails/state current, assign decision work, synthesize Will-ready prompts. Execution-rails design note owed per BROCK LESSONS #16. **Today's coordination load was the heaviest of any single session — 4 active teammates + 4 inbox SIGs + 2 commits + 2 memory entries.** |
 
 ---
 
@@ -109,8 +122,21 @@
 
 ## Next Best Action
 
-**Primary (clock-driven):** Respawn BOND ~12:30 PM ET 5/21 for pre-auction tape pull; respawn ~2 PM ET for post-1pm verdict using mandatory dual-grade format (v1 + v2 simultaneously). The dual-grade output mechanically resolves Q4 (v2 matrix deployment timing). Branch rules + Q5 pairing in SCRATCH.
+**Closeout posture (Will-confirmed 5/21 ~14:10 ET).** Major session work is done; no decision-blocking items on Prome side. Closeout sequence:
 
-**Post-auction:** Propose HEARTBEAT refresh to Will folding in (a) today's tape, (b) BROCK trap-clinching framing + convergence 46/60, (c) REGINALD V2.2 scenario weights (Bear-medium 30% / EV $67.98), (d) BOND verdict + Q4 branch outcome.
+1. Finish STATUS + HANDOFF update (in flight)
+2. Single PROME commit + push — carries BOND `724169c3` (TIPS read) + Phase 3 FRED SIGs + BOND-TIPS cross-flag SIG + PROME state refresh
+3. Release HENRY + VIOLET to final-commit-and-handoff posture; free their UUIDs
+4. (Optional) HEARTBEAT refresh — defer-or-draft decision per Will
 
-**Carry (not clock-driven):** SAM FXY Tranche 2 needs Will-direction (FXY $57.80 below forfeit band). PROME execution-rails design note (LESSONS #16) for a maintenance pass when the auction window closes.
+**Live Will-decision carries** (none clock-blocking after matrix Q4 deferral):
+- SAM FXY Tranche 2 (Will booting SAM separately)
+- WALTER bull-counter calibration (signal awaits WALTER boot)
+- HEARTBEAT refresh (paced)
+- PROME execution-rails design note (maintenance window)
+- OZK STATUS hygiene refresh (low priority)
+
+**Pre-June 9-11 (next nominal 10Y reopening):**
+- BOND re-validates matrix v2 deployment on the June test
+- WALTER bull-counter response should be integrated by then
+- HEARTBEAT refresh should land before then to anchor convergence weight
