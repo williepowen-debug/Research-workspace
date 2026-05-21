@@ -71,7 +71,14 @@
 - RED reads all agents but owns no domain data. Challenge what others produce.
 - CARL, SAM, REGINALD run on Claude Code independently — do not expect to spawn them.
 
-## Standing Counter-Evidence (Updated May 6)
+## Standing Counter-Evidence (Updated May 21)
+
+### V2.2 cleanup (Session 13)
+- **V3 NDFI REMOVED from active pile.** Per REGINALD V2.2 10-Q breakout: NDFI $14.93B / 25.2% HFI; business + PE = 7.9% ≈ peer ~7%. Cohort-median confirmed; not pending. Mortgage Warehouse $10.25B / 17.3% HFI is lone confirming sub-vector but counterparty exposure lands at Apollo Atlas SP not WAL. V3-NDFI as Apr 2026 standing-counter-evidence line is RESOLVED-disconfirmed-at-aggregate. (Was prev line: "NDFI $1.4T framework correction" — keep historical reference but no longer active counter-evidence.)
+- **V4 NEW pre-registered: WAL second C-suite departure within 90 days** (Curley resigned ~May 14; 90-day window through ~Aug 13). Targets: CFO Idnani / COO / Chief Credit Officer / division-head departures. Fires V4 promotion from tracked-pattern to standalone bear-trigger; +2 confidence.
+- **B1 fire (10-Q $99M life-science walk-away)** — first material Office sponsor strategic-default. Same mechanic as IQHQ (OZK). Q2 starts $377M classified + $99M migrating = $476M; one more $50M migration crosses REG-24 $500M threshold. Q2 NCO trajectory ~10bps annualized incremental.
+
+### Previous list (May 6 snapshot — most rows still valid Session 13)
 - **HY OAS 285 sustained 26 days** (Apr 30 FRED via VIOLET). Falsification fired Apr 10. HYG reissue owed (RED-TO-PROME-20260506-001). Bull-leaning 60/40.
 - **CCC OAS 9.09** (Apr 30) — moving AWAY from 10.00 analog threshold (was 9.21 Apr 16). VIOLET-sourced refresh. Bull-leaning.
 - **VIX 16.54** — vol regime reset. FOMC + BOJ both absorbed without spike. Bull-leaning 65/35.
