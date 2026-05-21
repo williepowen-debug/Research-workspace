@@ -68,3 +68,8 @@
 ### INFRASTRUCTURE NOTES
 - War-transmission row in Apr 1 STATUS (Iran Day 32, oil >$100, gas $3.99) is now stale — ceasefire dynamics in play (BRENT/HAWK scope). Doesn't affect OTTO-core domain but the "ABS spreads +17bps on inflation fears" reading should be re-checked next session.
 - Boot-pointer convention in STATUS.md continues to work — refreshed for May 21.
+
+### PENDING PUSH
+- Commit `347199eb` (OTTO: May 21 closeout) is local-only. Deferred at session close because other agents (WALTER, BOARD, FORGE) had uncommitted work in the tree and Will confirmed more was coming.
+- Remote `8d751be8` (SENTRY feed update, touches only SIGNALS/inbound.md) is ahead by 1.
+- Next OTTO session: at boot, follow standard pull/stash/pop sequence; if working tree is clean outside OTTO/, push `347199eb` (or whatever it becomes after rebase) before doing new work.
