@@ -4,13 +4,21 @@
 
 Claude Code Prome is the repo-native integrator. OpenClaw Prome is the live operator / real-world interface. This mailbox lets them pass operationally important context without relying on fuzzy memory or editing the same hot files.
 
+
+---
+
+## Cold-Boot First Step
+
+If you are Prome and do not remember this system, read `PROME/COMM/README.md` first. It is the 30-second operating guide. This protocol is the detailed reference.
+
 ---
 
 ## Directory Layout
 
 ```text
 PROME/COMM/
-  PROTOCOL.md
+  README.md          # cold-boot guide
+  PROTOCOL.md        # full rules/schema
   TEMPLATE_MESSAGE.md
   TEMPLATE_ACK.md
   TO_OPENCLAW/       # Claude Code Prome writes; OpenClaw Prome reads
@@ -25,10 +33,11 @@ PROME/COMM/
 
 1. **Append-only by default.** Write a new message file; do not edit another Prome's message in place.
 2. **Ack with a new file.** Reader responds in `ACKS/`, not by changing `status:` in the source message.
-3. **Keep messages short.** Link to owner files for full analysis.
-4. **No authority escalation.** A COMM message does not authorize GitHub pushes, external messages, destructive actions, or trades.
-5. **No GitHub push without Will approval.** Local scoped commits are allowed unless Will changes the rule.
-6. **Use COMM for handoffs, caveats, blockers, and action requests — not full research memos.**
+3. **Source status is initial status only.** `status: open` means the message was open when written. The latest matching ACK is the actual current status.
+4. **Keep messages short.** Link to owner files for full analysis.
+5. **No authority escalation.** A COMM message does not authorize GitHub pushes, external messages, destructive actions, or trades.
+6. **No GitHub push without Will approval.** Local scoped commits are allowed unless Will changes the rule.
+7. **Use COMM for handoffs, caveats, blockers, and action requests — not full research memos.**
 
 ---
 
