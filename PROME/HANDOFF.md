@@ -99,6 +99,26 @@ First dry run should remain low-risk:
 ---
 
 
+## CC-Prome Cross-Surface Update — 2026-05-21 (for OpenClaw next-boot orientation)
+
+CC-Prome ran a Will-authorized cross-surface refresh pass during 5/21 PM. OpenClaw's next-boot context will land in materially changed shared state. Brief reorientation:
+
+- **`HEARTBEAT.md` is refreshed and trimmed.** Path B treatment: 98→38 lines per its SYSTEM.md "pointer-shape" design role. Auto-injects fresh on next boot. New stress-dashboard line + thresholds table (added 10Y + TLT rows + tightened VIX green band to <15) + new "Blocking on Will" 4-row table with FORGE rehab as the top 🔴 item. Commits: `8f3fa922` (Path B) + `a0aa4232` (surgical fix). Refresh-cadence question (who writes / how often) is now self-referentially listed inside HEARTBEAT as a blocking item — design discussion happened in CC session.
+
+- **`MEMORY.md` (root) is refreshed.** Additive sweep only — 2 new SYSTEM ARCHITECTURE entries (Execution-Rails Are Part of the Framework; Stamp content as well as metadata) + 3 footnotes on still-valid framework entries that aged into testable / contradicted states (Timing Thesis, Hamilton Framework, PC Contagion Mechanics). Commit `d60616cc`. Will-authorized cross-surface boundary.
+
+- **`PROME/COMM/` mailbox is live and integrated.** Will-routable channel between OpenClaw and CC-Prome. First two TO_CLAUDE_CODE messages already ACKed in `PROME/COMM/ACKS/`. CC-Prome's BOOT.md updated to check the mailbox at step 7. OpenClaw should mirror that boot-step on his side (`PROME/HANDOFF.md` was previously the only Telegram-Prome continuity surface; COMM is now the targeted message channel). Templates: `PROME/COMM/TEMPLATE_MESSAGE.md` + `TEMPLATE_ACK.md`. Cold-boot guide: `PROME/COMM/README.md`.
+
+- **🔴 FORGE rehab is the top blocking item.** SAM filed `AGENTS/SAM/outbox/2026-05-21_to-PROME_sam-position-state-for-forge-rehab.md` flagging: FORGE/STATUS Mar 25 (~2 months), PORTFOLIO Feb 19, JOURNAL Feb 27, per-trade folders Mar 17. FXY shown wrong (4 shares @ $59.77; actual 13 + 1 Jun-18 $58C). 6 expired options listed as active. Will plans to have PROME do the rehab. 6/18 expiry cluster is 28 days out — bounded urgency.
+
+- **TIPS-vs-nominal correction landed.** Today's 1pm auction was the 9Y8M TIPS reopening (CUSIP 91282CPU9), not the nominal 10Y the BOND matrix Q4 conditional rule depended on. BOTH surfaces caught this independently — OpenClaw via FiscalData's `inflation_index_security` flag (filed as COMM message); CC via PDF inspection + CUSIP-family heuristic. First concrete instance of cross-surface validation; saved as auto-memory finding. Matrix Q4 deployment reschedules to next nominal 10Y reopening ~June 9-11 (CUSIP family `91282CQ*`).
+
+- **Other shifts to fold mentally:** WAL REG-T-02 sustain BROKE today ($78.53 reclaimed $78 for first time since 5/11 fire); SAM Tranche 2 executed at $57.66 (13 shares + 1 Jun-18 $58C); WALTER bull-counter response landed (both Tier-2 with forced steelman "regime may LAST not BREAK"); WALTER IRAN_WAR refresh shifted Iran picture to "partial-thaw on diplomatic + tape side, full-pressure on enforcement side, kinetic theater shifted to land-against-infrastructure with 5/17 Barakah strike."
+
+Full CC-Prome audit trail (today's 2 sessions, 10+ commits) in `PROME/CLAUDE_CODE_HANDOFF.md`. Session-state entry-point in `PROME/SCRATCH.md`. Daily narrative in `memory/2026-05-21.md`.
+
+---
+
 ## Active Thread — May 17 evening
 
 **Agent View install:** ✅ done on this machine and the laptop. Persistent dashboard / session manager now operational.
