@@ -7,7 +7,9 @@
 
 **HY OAS 286bps. Kill 260 (HEARTBEAT line 80). Cushion: 26bps** (widening; closest-of-cycle was 276 on 5/17 = 16bps).
 
-**APO co-trigger live since 5/12** (~Day 9 today, 5/8 → 5/20 inclusive). HEARTBEAT line 80 reassessment trigger fired but HY OAS-260 kill not breached. Per `workbook/KILL_MEMO_HY_OAS_260.md`: APO co-trigger alongside HY OAS compression = treat as Trigger C even if HY OAS doesn't hit 260. **Open framing question:** "thesis grinding but intact via duration channel" vs "thesis on life support, kill-memo-Trigger-C de-facto already." POSITIONS read is the gate.
+**APO co-trigger live since 5/12** (Day 9 as of 5/20 close, 5/8 → 5/20 inclusive). HEARTBEAT line 80 reassessment trigger fired but HY OAS-260 kill not breached. Per `workbook/KILL_MEMO_HY_OAS_260.md`: APO co-trigger alongside HY OAS compression = treat as Trigger C even if HY OAS doesn't hit 260. **Open framing question:** "thesis grinding but intact via duration channel" vs "thesis on life support, kill-memo-Trigger-C de-facto already." POSITIONS read is the gate.
+
+> **🎯 Next reassessment trigger: 5/21 10Y reopening (today, 1pm ET).** Leg 2 of BOND's two-leg watch. This is the corroboration test for KB-LIQ-057 (term-premium-digestion vs mechanism-failure pole) AND the input that should resolve the APO-co-trigger reassessment that's been carrying for ~10 days. Reassessment should NOT be deferred another session — either resolve on 5/21 print or explicitly carry-forward with a stated reason. Clean Leg 2 print → corroborates "thesis grinding intact via duration channel," weakens kill-memo-C urgency. Tail → reopens auction-mechanism pole partially + adds weight to "thesis on life support" read.
 
 POV-arc for how we got here: see `thesis/CHANGELOG.md` § POV Pivots (5/20, 5/19, 5/18).
 
@@ -34,84 +36,57 @@ POV-arc for how we got here: see `thesis/CHANGELOG.md` § POV Pivots (5/20, 5/19
 
 ---
 
-## May 19 Live Re-Verification
+## Key Recent Marks (5/18–5/19)
 
-> *Dashboard run 2026-05-19 12:24 UTC (08:24 ET) via `FORGE/tools/market-data/dashboard.py`. Pass-through 5/18 numbers from Prome confirmed accurate; deltas below are 5/18→5/19 unless noted.*
+- **30Y tagged 5.168% intra-day 5/19** — fresh life-of-cycle high (+12bps above May 5's 5.046, first 5% print since 2007). 10Y 4.647 intra-day (+24bps day). Whole curve at 1mo highs; roughly parallel bear move. **Duration channel intensified intra-session.**
+- **10Y +12bps acute on 5/18 alone** = duration repricing in real time, not just grinding wider.
+- **Active transmission channel migrated PLUMBING → DURATION over the 32-day gap** (Apr 16 → May 18). SOFR-IORB resolved mechanical (KB-LIQ-051); duration regime broke wide (KB-LIQ-052).
 
-| Metric | 5/19 Live | 5/18 (Prome) | Daily Δ | Reading |
-|---|---|---|---|---|
-| HY OAS | 280bps | 280 | +4 | 🟢 — but compression run + APO co-trigger flips read |
-| CCC OAS | 935 | 935 | +13 | 🟡 — quality bifurcation widening |
-| SOFR | 3.55% | 3.55 | -0.01 | 🟢 normalized |
-| SOFR-IORB | -10bps | -10 | -1 | 🟢 plumbing channel resolved |
-| 10Y | 4.59% | 4.59 | **+12bps daily** | 🔴 **acute duration move** |
-| TLT | $83.56 | $83.56 | flat | 🔴 confirms |
-| Brent | **$110.59** | $109.30 | +$1.29 | 🔴 reflation continuing — April CPI loop hot |
-| USD/JPY | **159.10** | 158.83 | +0.27 | 🔴 now 0.90 from 160 trigger |
-| VIX | 18.03 | 17.82 | +0.21 | 🟡 gamma-suppression hypothesis still live |
-| KRE | $67.92 | 67.92 | flat | 🟡 REGINALD-domain |
-| BIZD | $12.52 | 12.52 | flat | 🔴 mark stress confirmed via FSK NAV -9.9% |
-| **APO** | **$134.07** | — | — | **🚨 Day 7 of >$130** (5/8: $133.20, 5/15: $135.52 peak) |
-| ARES | $123.70 | — | — | 🟡 BROCK-domain |
-| FXY | $57.80 | — | — | 🟡 SAM-domain |
-| Initial Claims | 211k (266k shadow) | — | — | 🟢 not labor-break |
-| Cont Claims | 1.782M | — | — | +24k weekly |
-| Gas (wkly) | $4.50 | — | — | 🔴 +$0.05 |
-| CP-TBill | 0.12 | 0.12 | flat | 🟢 plumbing clean |
-
-**Dashboard summary:** 🔴 CRITICAL (score 10) — 6🔴 / 7🟡 / 7🟢.
-
-> **Intra-day update (2026-05-19 13:23 UTC / 09:23 ET):** Yields extending higher across the curve. **30Y 5.168% — FRESH LIFE-OF-CYCLE HIGH** (vs 5.046 May 5 print, first since 2007; today's print is +12bps above that and still climbing). 10Y 4.647 (+24bps day, +40bps month). 5Y 4.301 (+21bps day). Whole curve at 1mo highs; roughly parallel bear move. Confirms "more days like 5/18 +12bps possible" risk flagged in morning re-verify. **Duration channel intensifying intra-session.** Updated in THESIS v2.0 §3 Leg B and §4 transmission map.
-
-**Two reads that changed since revival pass-through:**
-1. **APO trigger was already fired (Day 7), not pending.** This is the key finding from live re-verification. The reassessment HEARTBEAT-grade trigger has been live for ~6 sessions without LIQUID acknowledging it. POSITIONS read is gating action.
-2. **10Y +12bps in a single session (5/18)** = acute, not chronic. Duration channel is repricing in real time, not just grinding wider.
+Full POV-arc and per-metric deltas: `thesis/CHANGELOG.md` § POV Pivots 5/18 + 5/19 + 4/16 + 4/10. Apr 16 Refresh + Apr 16 Plumbing Dashboard pruned 5/20 (lived ~35 days). Apr 14 external signals (IMF GFSR / TCW Red Lobster / GS HF whipsaw / SEC PDT) live in KB.tsv lineage.
 
 ---
 
-## May 18 Revival Read (32-day gap)
+## Dashboard 1 — Credit Spreads (5/20)
 
-**Active transmission channel migrated PLUMBING → DURATION over the gap.** Apr 16 LIQUID watched SOFR-IORB for the next leg. The next leg fired through 10Y / TLT / Brent-reflation instead:
-
-- 10Y: 4.29 → 4.59 (+30bps over 32d, with +12bps acute on 5/18) — duration regime broke wide
-- TLT: $86.28 → $83.56 (-$2.72) — confirms
-- Brent: $98.20 → $110.59 (+$12) — reignites April-CPI loop, keeps 30Y >5% / 10Y >4.5% narrative durable
-- HY OAS: 285 → 280 (-5bps; grinding tighter then reversed Monday) — but APO bull divergence loud
-- CCC OAS: 924 → 935 (+11bps) — quality bifurcation re-igniting (still 65bps from 1000 trigger)
-- SOFR-IORB: +7 → -10 (April +7bps breach **resolved mechanical** — tax-day TGA build, not structural leak)
-- BIZD: $12.96 → $12.52 — mark stress confirmed via FSK Q1 NAV -9.9%
-- USD/JPY: 159.18 → 159.10 (trigger 160 still 0.90 away; SAM-domain)
-- KRE: $68.78 → $67.92 (REGINALD-domain, weaker bank tape)
-- VIX: 17.90 → 18.03 (gamma/momentum suppression hypothesis live — per 5/14 signal)
-- **APO: $120.81 → $134.07 (+11% over gap)** — public-equity PC sentiment fully recovered; co-trigger fires.
-
-**Diagnostic:** The plumbing-leak hypothesis is falsified for the April episode. The bear thesis is *partially* transmitting through duration. The credit-spread component is under pressure from BOTH directions: HY OAS grinding near cycle tights AND APO co-trigger fired. Duration channel alive but credit-thesis reassessment is overdue.
+| Metric | Threshold | Current | Status |
+|--------|-----------|---------|--------|
+| **HY OAS** | confirmation >320 / freeze >350 / **kill <260** | **286** (5/20, +6 daily) | 🟢 34bps below 320; 26bps cushion above 260 kill (widening). Closest-of-cycle 276 on 5/17. |
+| **APO co-trigger** | >$130 for 3 sessions (HEARTBEAT line 80) | **$134 — Day 9** (5/8→5/20) | 🟠 **FIRED 5/12; reassessment overdue.** Concurrent with HY OAS compression run = KILL_MEMO Trigger C precondition. |
+| CCC OAS | >1000bps | 935 (5/19) | 🟢 65bps away — quality bifurcation widening but not at trigger |
+| BIZD | mark stress | $12.52 (5/19) | 🔴 FSK Q1 NAV -9.9% confirms mark catch-down direction |
+| VIX | >25 | 17.47 (5/20 post-auction) | 🟢 Well below; gamma-suppression hypothesis live (positive gamma may suppress VIX/HY OAS while substance accumulates) |
+| BDC Q1 marks | rolling | FSK -9.9% in; OBDC/ARCC/BXSL/MAIN pending | 🟡 See `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` |
 
 ---
 
-*Apr 16 Refresh + Apr 16 Plumbing Dashboard pruned 5/20 (lived ~35 days). POV-arc preserved in `thesis/CHANGELOG.md` § POV Pivots 2026-04-10 + 2026-04-16. Findings preserved in KB-LIQ-051 (SOFR resolved mechanical) and KB-LIQ-052 (channel migration). Apr 14 external signals (IMF GFSR / TCW Red Lobster / GS HF whipsaw / SEC PDT) live in Durable Signals → KB.tsv lineage.*
+## Dashboard 2 — Domestic Plumbing (5/20)
 
----
-
-## Thresholds (5/20 LIVE)
-
-| Threshold | Level | Current | Status |
-|-----------|-------|---------|--------|
-| **HY OAS confirmation** | >320bps (LIQ-01) | 286 (5/20) | 🟢 34bps below |
-| **HY OAS thesis-kill** | <260 sustained (HEARTBEAT) | 286 (5/20, +6 daily) | 🟢 26bps cushion (widening); closest 276 on 5/17 |
-| **HY OAS freeze** | >350bps | 286 (5/20) | 🟢 64bps away |
-| **APO co-trigger** | >$130 for 3 sessions (HEARTBEAT line 80) | $134 — Day 9 (5/8–5/20) | 🟠 **FIRED 5/12; reassessment overdue** |
-| CCC OAS | >1000bps | 935 (5/19) | 🟢 65bps away — bifurcation widening but not at trigger |
-| VIX | >25 | 17.47 (5/20 post-auction) | 🟢 Well below; gamma-suppression hypothesis live |
-| **10Y duration regime** | >4.50% sustained | 4.59% (5/19; 4.647 intra-day) | 🔴 Broke wide; +12bps acute on 5/18; 30Y 5.168 fresh life-high 5/19 |
-| **20Y Auction Indirect** | <55% sustained | 67.7% (5/20 NEW issue) | 🟢 Foreign demand STRONG — sharpens demand-hole read to "compresses price, doesn't break mechanism" (KB-LIQ-057) |
-| USD/JPY | 160 | 159.10 (5/19) | 🟠 0.90 from trigger; SAM-domain co-watch |
+| Metric | Threshold | Current | Status |
+|--------|-----------|---------|--------|
 | **SOFR** | >3.70 | 3.55% (5/18) | 🟢 Normalized |
-| **SOFR-IORB** | sustained > 0 | -12bps (5/19 BOND) | 🟢 Resolved — April +7bps was tax-day mechanical (KB-LIQ-051); current drift = ample reserves absorbing supply |
-| RRP buffer | >$5B | $0.158B (Apr 16) | 🔴 Structural zero |
-| SRF usage | >$50B | TBD (need NY Fed) | — Check next refresh |
-| Foreign CB UST | stable | $2.7T (lowest since 2012) | 🔴 Structural outflow |
+| **SOFR-IORB** | sustained >0 | **-12bps** (5/19 BOND) | 🟢 Resolved — April +7bps was tax-day mechanical (KB-LIQ-051); current drift = ample reserves absorbing supply (LIQUID→BOND outbox 5/20) |
+| **10Y yield** | >4.50% sustained | 4.59% (5/19; 4.647 intra-day) | 🔴 Broke wide; +12bps acute on 5/18 |
+| **30Y yield** | >5% sustained | **5.168% intra-day 5/19** | 🔴 Fresh life-of-cycle high; first 5% sustained since 2007 |
+| TLT | level | $83.89 (5/20 post-auction) | 🔴 Confirms duration repricing; bounced from 5/19 lows on auction relief |
+| RRP buffer | >$5B | $0.158B (Apr 16) | 🔴 Structural zero — no buffer to drain |
+| SRF usage | >$50B | TBD | — Check next NY Fed refresh |
 | Reserve floor | >$2.8T | ~$3.0T | 🟡 Cushion intact but draining |
+| CP-TBill | spread health | 0.12 (5/19) | 🟢 Plumbing clean |
+
+> *Yield-curve and dealer-positioning scope migrates to BOND-primary when stood up; LIQUID retains repo/SOFR/reserves at thesis level (THESIS v2.0 §8).*
+
+---
+
+## Dashboard 3 — Foreign Official (5/20)
+
+| Metric | Threshold | Current | Status |
+|--------|-----------|---------|--------|
+| **20Y Auction Indirect** | <55% sustained | **67.7%** (5/20 NEW issue, $16B) | 🟢 Foreign demand **STRONG**; sharpens demand-hole read to "compresses price, doesn't break mechanism" (KB-LIQ-057) |
+| **20Y Auction Mix** | BTC ≥2.60, tail ≤+1bp, dealer ≤10% | BTC 2.55 / tail 0bp / dealer 9.4% (5/20) | 🟡 Soft-but-functional; only BTC in soft band, mix genuinely clean |
+| USD/JPY | >160 | 159.10 (5/19) | 🟠 0.90 from trigger; SAM-domain co-watch; BOJ verbal-intervention risk rising |
+| Brent | reflation watch | $110.59 (5/19) | 🔴 Continuing reflation; April-CPI loop hot (HAWK/BRENT-domain) |
+| Foreign CB UST | stable | $2.7T (lowest since 2012) | 🔴 Structural outflow |
+| Belgium TIC | >$500B = ORANGE | $481B (Nov 2025) | 🟡 Watch; next data mid-Jun (KB-LIQ-055 framework) |
 
 ---
 
