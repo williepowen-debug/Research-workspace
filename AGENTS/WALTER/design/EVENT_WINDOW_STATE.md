@@ -3,8 +3,8 @@
 **Current state:** `CLOSED`
 **Last transition:** —
 **Last transition by:** —
-**Verification gate status:** n/a (no OPEN window declared)
-**Expected close trigger:** n/a
+**Verification gate status:** Phase 2 watch active — **1 of 3 Path B triggers fired (Trigger #3, 2026-05-15)**; needs ≥2/3 Path B OR Path A 4/4 for OPEN declaration per JOINT_PROPOSAL §2d
+**Expected close trigger:** n/a (no OPEN window declared)
 
 ---
 
@@ -59,9 +59,19 @@ Either agent may declare CLOSED → OPEN; default declaration is BRENT (domain p
 
 ## State Transition Log (append-only)
 
+*Records actual state transitions only (CLOSED ↔ OPEN ↔ PENDING_VERIFICATION). Trigger fires that do not cross the OPEN threshold are recorded in the "Pre-OPEN trigger fire log" section below.*
+
 | Date | From | To | Declared by | Trigger | Expected close | Outcome |
 |------|------|-----|-------------|---------|----------------|---------|
 | 2026-05-08 | — | CLOSED (initial) | WALTER | Scaffold create per JOINT_PROPOSAL §2d Will sign-off | n/a | n/a — initial state |
+
+## Pre-OPEN trigger fire log (Path B / Path A observability)
+
+*Records individual Path B (3-trigger) or Path A (4-criteria) fires that have not yet crossed the OPEN-declaration threshold (≥2/3 Path B OR 4/4 Path A). Recorded for observability + cumulative count tracking; do NOT cause state transitions on their own.*
+
+| Date | Trigger | Detail | Path B count after | Recorded by |
+|------|---------|--------|--------------------|-------------|
+| 2026-05-15 | Path B Trigger #3 (CFTC MM positioning) | Brent CFTC Managed Money net longs 70,791 (week of May 5) — down 29K from 99,887 peak over 2 weeks at Brent $106-111 distribution; large-spec distribution underway per BRENT thesis v2.0 + commits `ad9d29fb` (Friday data refresh) + `3ef8d916` (SIGNALS.md cross-agent alert) | 1/3 | BRENT (entered into log by WALTER 5/21 closeout) |
 
 ---
 
