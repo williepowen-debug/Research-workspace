@@ -1,66 +1,127 @@
 # SAM — Trade Ideas
 
-**Last Updated:** 2026-05-12 (Tranche 2 hard trigger fired retroactively — MOF intervention Apr 30 + May 6; Will placed limit at $58.00)
+**Last Updated:** 2026-05-21 (v1.4 thesis bump; executed: 5 shares added → 13 total + 1 June $58 call @ $0.40)
 **Domain:** Japan Macro, Yen, JGBs, Carry Trade, BOJ Policy
 
 ---
 
 ## Active Positions
 
-### 🔴 FXY (Yen ETF) — LONG (Shares)
+### 🔴 FXY (Yen ETF) — LONG (Shares + Calls)
 
-**Position:** 8 shares (Tranche 1 complete)
-**Entry context:** USD/JPY at 160 handle, pre-intervention, pre-BOJ hike cycle. Tranche 1 (+4) added per entry card.
+**Shares:** 13 (Tranche 1 + Tranche 2 — added +5 at ~$57.66 May 21)
+**Calls:** 1 × June 18 2026 $58 call @ $0.40 premium ($40 total cost). Executed May 21 pre-CPI.
+**Entry context (Tranche 1):** USD/JPY at 160 handle, pre-intervention, pre-BOJ hike cycle.
+**Entry context (Tranche 2):** Post Apr 30 + May 6 MOF interventions (~¥10T combined), v1.4 thesis bump confirming JGB 30Y at 4.0% via J-ICS lifer abandonment. Better entry than original May 12 $58.00 limit.
+**Entry context (Call):** Sized as event lottery — 1 contract = max loss $40 (~5% of share notional). ATM at execution. IV ~9.3% (underpriced for BOJ event). Entered pre-CPI rather than post-CPI for IV protection (CPI surprise risk both ways).
 
-**Thesis:** Structural yen appreciation over next 3-6 months driven by BOJ rate hikes, carry unwind, and life insurer repatriation. Oil-in-yen headwind is temporary — makes BOJ hike MORE urgent, not less. When oil stabilizes or BOJ acts, yen snaps back hard.
+**Thesis:** Structural yen appreciation over next 3-6 months driven by BOJ rate hikes, carry unwind, and life insurer repatriation. Oil-in-yen headwind inverted under blockade (supply destruction → surplus, not deficit); yen weakness is now rate-differential-driven, which a BOJ hike directly addresses. JGB 30Y at 4.0% via J-ICS confirms Channel 1 amplifier mechanism.
 
 ---
 
-## 🔴🔴 FXY Entry Decision Card (v1.3 refresh — Apr 24)
+## 🔴🔴 FXY Entry Decision Card (v1.4 refresh — May 21)
 
-### DECISION: BUY IN TRANCHES — DO NOT WAIT
+### DECISION: 13 SHARES + 1 JUNE $58 CALL — EXECUTED MAY 21
 
 | Parameter | Value | Notes |
 |-----------|-------|-------|
-| **Current size** | **8 shares** | Tranche 1 complete |
-| **Tranche 1** | ✅ +4 shares → 8 total | Executed pre-intervention |
-| **Tranche 2 — On confirmation** | +4 shares → **12 total** | Per scenario matrix below |
-| **Target size** | **12 shares** | Full position |
-| **Stop loss** | FXY ~$55.05 / USD/JPY ~167 | Oil shock full domination; intervention fails (thesis break) |
+| **Tranche 1** | ✅ +8 → 8 shares | Executed pre-intervention |
+| **Tranche 2** | ✅ +5 → 13 shares at ~$57.66 (May 21) | v1.4 authorization; better entry than original $58 limit |
+| **June $58 call** | ✅ 1 × Jun-18 $58 @ $0.40 ($40) | Event lottery; ATM at execution; pre-CPI entry |
+| **Stop loss (shares)** | FXY ~$55.05 / USD/JPY ~167 | Oil shock full domination + intervention fails (thesis break) |
 | **Price target (6-month)** | FXY ~$60–62 / USD/JPY ~148–152 | Post-BOJ hike + carry unwind + oil stabilization |
+| **Blended entry (shares)** | ~$57.48 | (8 × $57.36 + 5 × $57.66) / 13 |
+| **R:R from blend (shares)** | 1:1.86 — risk $31.50 to target $62 ($58.76 upside) | Plus convex tail via call |
+| **Call max loss** | $40 (sunk if FXY <$58 at June 18 expiry) | 5.3% of share notional |
+| **Call payoff @ $60 (target lower)** | ~$160 = 4x | Triggers if BOJ hikes + small post-event move |
+| **Call payoff @ $62 (target upper)** | ~$360 = 9x | Triggers if BOJ + intervention #3 or partial unwind |
 
-### Tranche 2 Hard-Trigger Status — UPDATED MAY 12
+### Tranche 2 Hard-Trigger Status — RE-CONFIRMED MAY 21
 
-**MOF intervention trigger FIRED Apr 30 + May 6 + Bessent affirmation May 11-12.** Per STRATEGY.md hard-trigger list:
-
-| Hard Trigger | Status (May 12) |
+| Hard Trigger | Status (May 21) |
 |---|---|
-| BOJ hike at June meeting | PENDING (Jun 16; SAM-21 70%) |
-| **MOF intervenes at 160** | ✅ **FIRED — twice (~¥10T / $63.5B)** |
-| USDJPY sub-155 for 3+ sessions WITH oil normalizing | NEAR-MISS (May 6 low 155.05, 1 session; oil at $107 not $90) |
-| ESR <200% (FY2025) | PENDING (May 15) |
+| BOJ hike at June meeting | PENDING (Jun 16; SAM-21 70%; market 74%) |
+| **MOF intervenes at 160** | ✅ **FIRED — twice (~¥10T / $63.5B); USDJPY 159.19 = #3 zone live** |
+| USDJPY sub-155 for 3+ sessions WITH oil normalizing | NEAR-MISS (May 6 low 155.05, 1 session) |
+| ESR <200% (Big 3 mutuals) | PENDING (May 25-29 — primary near-term test) |
+| **JGB 30Y >4.0% (v1.4 NEW)** | ✅ **BREACHED May 15 (4.000%)** — J-ICS lifer abandonment |
 | Fed cuts via credit cascade | PENDING |
 
-### Tranche 2 Execution (May 12 decision)
+### Why this entry (May 21) vs original May 12 plan
 
-**Decision: Limit order at $58.00 for +4 shares (→ 12 total).**
+- Original May 12 limit at $58.00 sat unfilled while FXY drifted to $57.66
+- v1.4 thesis is STRONGER than May 12: JGB 30Y at 4.0% confirms Channel 1 amplifier; lifer long-end abandonment is self-perpetuating; Bessent affirmation promoted to Channel 3 pillar
+- Yen weakness May 12-21 (157.61 → 159.19) is rate-differential-driven (not flow-driven, not trade-driven) — exactly the gap a BOJ hike closes
+- STRATEGY no-chase rule applies to UPSIDE breaches (chasing a missed entry up); adding at $57.66 is BELOW the original limit = new entry zone, not a chase
+- 18 trading days to BOJ June 16
 
-Rationale:
-- Hard trigger fired; per STRATEGY this is an authorized add window
-- But STRATEGY no-chase: Tranche 2 zone $58.00-58.25 was breached upward May 1 ($58.65 high). Current $58.26 is 1c above upper band.
-- Resolution: limit at $58.00 captures clean R:R, lives indefinitely, respects letter of no-chase rule, and is plausible-fill on (a) Brent reassertion pushing USDJPY → 160 retest, (b) intervention #3 dip-and-fade, (c) ESR May 15 disappointment near-term
-- Forfeits some Channel 2 upside if June hike fires before fill, but cleaner R:R; Tranche 1 (8 shares) still captures the move
+---
 
-**Fill watch:**
-- Trigger: Brent $115+ → USDJPY 159-160 → intervention #3 → fade to FXY $58.00 area
-- Alternate trigger: ESR May 15 mixed-to-soft → near-term yen consolidation → FXY drift to $58.00
-- Time horizon: June 1 (give 3 weeks); if no fill, re-evaluate trigger conditions
+## 🔴 FXY Options Layer (NEW — May 21)
 
-**Risk if filled:**
-- Position: 12 shares; entry blend ~$57.57
-- Stop $55.05 (4.4% below blend)
-- Target $60-62 (4.2-7.7% above blend)
-- R:R approximately 1:1 to 1:1.75 from $58.00 entry
+### Strategy: Layer convex tail exposure on linear share base
+
+**Why options:** FXY IV is unusually LOW (9-16% across strikes) — market is pricing FXY as quiet through BOJ. That's wrong if: (a) BOJ actually hikes (realized vol 2-3x current IV), (b) intervention #3 fires, (c) Aug 2024-style unwind (realized vol 50%+). Heavy call positioning across the chain (P/C 0.06x; 89% of call OI in $58-65 zone) means institutional money is already there.
+
+### Position A — September $60 calls — NOT EXECUTED (still authorized)
+
+| Field | Value |
+|---|---|
+| Strike / Expiry | $60 / 2026-09-18 (120 DTE) |
+| Limit price | $0.65 (mid; range $0.50-0.85) |
+| Suggested size | 5-10 contracts ($340-680 total) |
+| Open Interest | 21,306 (institutional consensus strike) |
+| IV | 13.2% |
+| Breakeven | $60.68 (+5.2% from $57.66) |
+| Payoff at $62 (target) | ~$1.32 = **~2x** |
+| Payoff at $64 (tail) | ~$4 = **~6x** |
+| Payoff at $65 (Aug 2024 redux) | ~$5 = **~7x** |
+| Captures | BOJ Jun 16 + post-hike unwind + Big 3 ESR + Fed cuts |
+
+**Status:** Authorized but not yet executed as of May 21. Worth revisiting after CPI tomorrow when entry price clarifies (soft CPI = cheaper entry; hot CPI = chase but justified by thesis confirmation). The post-BOJ second-wave cascade exposure isn't captured by the June call alone.
+
+### Position B — June $58 calls — ✅ EXECUTED MAY 21 PRE-CPI (1 contract @ $0.40)
+
+| Field | Value |
+|---|---|
+| Strike / Expiry | $58 / 2026-06-18 (28 DTE at entry) |
+| Entry price | $0.40 ($40 total for 1 contract) |
+| Size | 1 contract (max loss $40) |
+| Open Interest | 13,846 (smart money already here) |
+| IV at entry | 9.3% — underpriced for BOJ event |
+| Breakeven | $58.40 (+1.3% from $57.66 entry) |
+| Payoff at $60 | ~$160 = **4x** |
+| Payoff at $62 | ~$360 = **9x** |
+| Captures | BOJ Jun 16 event directly + 2 days post |
+
+**Entry timing — pre-CPI vs my post-CPI recommendation:**
+- I had suggested waiting until Friday post-CPI for potentially cheaper entry ($0.20-0.25) on expected soft print
+- Will executed pre-CPI for IV protection: if CPI surprises HOT (>2.0%), FXY pops, IV expands, and the post-CPI entry would have been at $0.60+ — locked in worse entry
+- Trade-off: paid full price for IV protection; sacrificed potential 50% discount if soft CPI plays out
+- **Net:** legitimate hedge against the CPI bimodal outcome. Sized small (1 contract = $40) so the timing penalty is bounded.
+
+**What's NOT in the position (originally planned but not executed):**
+- Additional June $58 contracts (2-4 more); skipped given small initial sizing
+- Position A (Sep $60 calls) — still authorized but not yet executed
+
+### Total options layer sizing
+
+- **Position A (Sep $60):** $340-680 (~5-10% of position notional)
+- **Position B (June $58, conditional Friday):** $120-200 (~2-3%)
+- **Combined ceiling:** ~$880 (10-12% of total FXY exposure)
+
+### Execution rules
+
+- **Use limit orders only.** FXY options have wide spreads — June $60 has 200% bid-ask spread. Pay at mid or slightly favorable; do NOT market.
+- **Stick to $58 and $60 strikes** where OI is real (13K+ at June $58, 21K at Sep $60). $61+ strikes are illiquid noise.
+- **No stops on options** — premium is the loss limit. Sized small for that reason.
+
+### What we are NOT doing (and why)
+
+- **No short-dated OTM strikes ($61+ June):** wide spreads, thin OI, premium is mostly noise
+- **No LEAPS ($65+ Jan 2027):** FXY rarely sustains above $65 even in carry unwinds
+- **No call spreads:** the asymmetric tail (Aug 2024 redux) IS the point; capping upside throws away the best scenario
+- **No puts/spread sells:** different bet; not the thesis
 
 ### Catalyst Sequence (post Apr 28 update)
 
@@ -85,13 +146,13 @@ Rationale:
 
 ---
 
-## Carry Unwind Probability (post Apr 28 BOJ)
+## Carry Unwind Probability (v1.4 — May 21)
 
 | Timeframe | Probability | Key Driver |
 |-----------|-------------|------------|
-| **7 day** | **15%** | Binary catalyst (BOJ Apr 28) passed without trigger; FXY hasn't reacted yet |
-| **30 day** | **70%** | June hike near-locked (74% swap); ESR mid-May next test |
-| **60 day** | **90%** | June hike consensus + 3 dissents = direction confirmed |
+| **7 day** | **18%** | USDJPY 159+ raises intervention #3 odds → intraday yen pop catalyst; CPI tomorrow as binary |
+| **30 day** | **72%** | June BOJ swap 74%; Big 3 ESR May 25-29; JGB 30Y at 4% now structural pressure |
+| **60 day** | **88%** | June hike consensus intact; intervention has partially front-run; CFTC re-loaded fuel |
 
 ---
 
@@ -175,18 +236,18 @@ Private credit cascade (APO, ARES — 9 funds gated) → recession signal → Fe
 
 | Date | Event | Impact |
 |------|-------|--------|
-| ~~Apr 14-25~~ | ~~Big 4 insurer FY2026 plans~~ | ✅ Resolved — zero clean foreign cuts; rotation within (unhedged → hedged). SAM-19 FALSE. |
-| ~~Apr 15~~ | ~~Feb TIC~~ | ✅ Resolved — Japan holdings rose +$53.8B Dec→Feb |
-| ~~Apr 16~~ | ~~MOF ITS weekly~~ | ✅ Resolved — base pace, not stress |
-| ~~Apr 22~~ | ~~Ceasefire expiry~~ | ✅ Resolved — extended (not indefinite); blockade continues |
-| ~~Apr 28~~ | ~~BOJ Meeting~~ | ✅ Resolved — HOLD + 3 dissents + GDP cut + infl up; swap 74% June |
-| **Apr 29 (Tokyo)** | First overnight reaction to dissent split | Tranche 2 trigger zone test ($58.00-58.25) |
-| **May 1** | BOJ Meeting — secondary | Low info; language evolution check |
-| **May 14** | Q1 GDP prelim | EWJ trigger if contraction |
-| **Mid-May** | 🔴 ESR disclosures begin (FY2025) | Channel 1's primary test |
-| **~May 20** | April trade balance (post-blockade) | Brent $111 makes hot — Phase 1 re-test |
-| **Late May** | Japan April CPI | June hike lock |
-| **Mid-June** | 🔴🔴 **BOJ Meeting — BASE CASE HIKE (SAM-21 70%; market 74%)** | FXY: +5–8% structural |
+| ~~Apr 28~~ | ~~BOJ Meeting~~ | ✅ HOLD + 3 dissents + GDP cut + infl up; swap 74% June |
+| ~~Apr 30 + May 6~~ | ~~MOF interventions~~ | ✅ ~¥10T ($63.5B) combined; largest since 2022 |
+| ~~May 11-12~~ | ~~Bessent-Katayama Tokyo~~ | ✅ Public US FX coordination affirmation; Channel 3 pillar |
+| ~~May 15~~ | ~~JGB 30Y 4.0% threshold~~ | ✅ **BREACHED 4.000% — J-ICS lifer abandonment driver** |
+| ~~May 13-15~~ | ~~Dai-ichi FY2025 ESR~~ | ✅ ~220% (resilient; least-representative of Big 4) |
+| ~~May 19~~ | ~~Q1 GDP prelim~~ | ✅ BEAT +2.1% ann; June BOJ on track; EWJ contraction trigger did NOT fire |
+| ~~May 21~~ | ~~April trade balance~~ | ✅ ¥+301.9B SURPLUS via -64% YoY crude import volume collapse; **Phase 1 INVERTED** (v1.4 finding) |
+| **🔴 Fri May 22** | **Japan April national CPI** | Tokyo leading 1.5%; consensus 1.7% core. Soft = fades June BOJ pricing 74% → 60-65%. SAM-27 @75% on <2.0%. |
+| **🔴🔴 May 25-29** | **Big 3 mutual ESR (Nippon, Meiji Yasuda, Sumitomo)** | PRIMARY Channel 1 test. SAM-25 @40% on any <200%. |
+| **🟠 ongoing** | **USDJPY 159+ retest** | Intervention #3 likely on >159.50 close; SAM-23 @75% |
+| **🔴🔴 Tue Jun 16** | **BOJ MPM — BASE CASE HIKE (SAM-21 70%; market 74%)** | FXY: +5–8% structural; SAM-24 @85% (25bp not 50bp) |
+| Jun 16 | Sato joins BOJ board | Hawk→dove swap; post-June political risk |
 
 ---
 

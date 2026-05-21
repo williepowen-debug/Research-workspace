@@ -31,65 +31,59 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (May 3 evening → May 12 morning)
+### CHANGES SINCE LAST SESSION (May 12 → May 21)
 
-1. **MOF Intervention #1 (Apr 30) ~¥5.48T ($35B)** — first since Jul 2024. SAM's May 3 STATUS mis-attributed as "Tokyo session reprice." Corrected May 12.
-2. **MOF Intervention #2 (May 6, Golden Week) ~¥4.3T ($28B).** Combined ~¥10T ($63.5B) — largest round since 2022.
-3. **Bessent-Katayama Tokyo meeting May 11-12.** "Constant and robust" FX coordination affirmed; Katayama: actions per Sept joint statement. First US public affirmation of Japan FX intervention. **New thesis vector** (Channel 3 augmentation candidate).
-4. **CFTC cover signal (May 8 release, May 5 data).** Net short -102,059 → -61,738 (-39.5%). FIRST cover signal of cycle. **SAM-22 FAILED.**
-5. **Brent $107.74 (+3.4% today).** Phase 1 oil reasserting after weekend de-escalation.
-6. **FXY $58.26.** BELOW May 3 level ($58.44). Tranche 2 hard trigger fired but dip faded.
+1. **JGB 30Y BROKE 4.000% (May 15)** — first time. Peak 4.205%. 10Y at 2.77% (29-yr high). **Driver: J-ICS-induced lifer long-end abandonment** (not high-yields-attract-buyers reflex). v1.4 thesis driver.
+2. **USDJPY 157.61 → 159.19** — inside intervention #3 zone (159+). Driver is rate differential + fiscal supply + lifer absence, NOT trade or flow data.
+3. **Q1 GDP +2.1% ann beat** (May 19). June BOJ on track. EWJ-put contraction trigger did NOT fire.
+4. **Dai-ichi FY2025 ESR ~220%** (May 13-15) — resilient but least-representative of Big 4. Big 3 mutuals (Nippon, Meiji Yasuda, Sumitomo) print May 25-29 — primary test.
+5. **April trade balance ¥+301.9B SURPLUS** (May 21) — Phase 1 mechanism INVERTED by blockade volume collapse (crude imports -64% YoY, ME -67%, lowest since 1979). v1.4 thesis finding.
+6. **CFTC short cover REVERSED** — re-loading as USDJPY pressed 159.
+7. **FXY $57.66** — drifted below May 12 $58.00 limit. Better entry available than originally planned.
 
-### LAST SESSION (May 12 morning — intervention catch-up + position regret + thesis update)
+### LAST SESSION (May 21 — v1.4 thesis bump + full doc sync)
 
-Will mentioned possible intervention at boot. Web search confirmed: TWO interventions ($63.5B total) + Bessent affirmation today. SAM's May 3 read of the Apr 30 move was wrong — labeled it "natural Tokyo reprice" when intraday 5.15-yen range was the intervention signature.
+Will requested boot + parse domain updates. Boot complete (9.3s, all 8 green). Discovered three mechanism-level findings warranting v1.4: (a) J-ICS lifer abandonment as JGB 30Y driver, (b) Phase 1 inversion under blockade, (c) Bessent affirmation promoted to Channel 3 pillar.
 
 **Updates shipped:**
-- `scripts/usdjpy.py` MOF_INTERVENTIONS catalog: added 2026-04-30 (Apr26 ¥5.48T) and 2026-05-06 (May26 ¥4.3T). 160-touch now correctly tags "MOF Apr26."
-- `thesis/TIMELINE.md`: corrected Apr 30 entry; added Golden Week intervention + Bessent meeting entries.
-- `STATUS.md`: rewrote to reflect intervention + cover + Bessent + position regret. Carry unwind probs 12/70/88 (was 20/72/90).
-- `CALENDAR.md`: forward gaze refreshed; intervention watch added.
-- `thesis/CHANGELOG.md`: 2026-05-12 entry — correction logged, no thesis bump (v1.3 holds per restraint lesson).
-- `thesis/PREDICTIONS.tsv`: SAM-22 FAILED FALSE; added SAM-23 (intervention #3, 75%) and SAM-24 (June 25bp not 50bp, 85%).
+- `thesis/THESIS.md` → v1.4 (status line, Channel 1 new subsection, Channel 3 expansion, Oil-in-Yen revision, thresholds, catalyst sequence resolved/forward, risk factors, falsified predictions)
+- `thesis/CHANGELOG.md` → v1.3 → v1.4 audit entry with old/new view table
+- `STATUS.md` → full rewrite for v1.4 state
+- `thesis/TIMELINE.md` → added May 13-21 resolved cluster; updated branch points table
+- `CALENDAR.md` → pruned past; refreshed forward window (May 22 CPI, May 25-29 Big 3 ESR, intervention #3 watch, structural Channel 1 monitors)
+- `thesis/PREDICTIONS.tsv` → added SAM-25 (Big 3 mutual ESR <200% @40%), SAM-26 (JGB 30Y holds ≥4.0% through BOJ @70%), SAM-27 (April CPI core <2.0% @75%)
 
-**Position decision (May 12):** Limit at $58.00 for +4 shares (→ 12 total). Recorded in TRADE.md and STATUS.md. Live indefinitely; re-evaluate June 1 if no fill.
+**Position executed (May 21):** +5 shares FXY at ~$57.66 → 13 total (blended entry $57.48). +1 June 18 $58 call @ $0.40 ($40 cost). Will chose pre-CPI entry for IV protection rather than my post-CPI recommendation — legitimate trade-off (IV could expand on hot CPI surprise). Sep $60 calls (Position A) authorized but not executed; revisit post-CPI. Stop $55.05 unchanged.
 
-**Deeper sweep (May 12 PM):** Found broader Bessent agenda (3-day trip pre-Beijing summit, critical minerals + AI + $550B investment + BOJ + Iran), prior pro-hike stance, BofA contrarian view, Trump-Iran-ceasefire-doubts driving Brent +3.4%, Trump-Xi May 14-15 wildcard. Updated TIMELINE, STATUS, CALENDAR, CHANGELOG. No thesis bump.
-
-**Push coordination (May 12 PM):** First push (AM commit `25567657`) clean. Second push (Bessent sweep `bd032212`) initially rejected — WALTER was mid-session routing April CPI 3.8% signal. Will coordinated: WALTER finished + pulled-rebased + pushed, and my Bessent commit went up cleanly with WALTER's via rebase. **Workflow lesson:** when push is rejected by remote-divergence with another agent's uncommitted work, defer to operator coordination; rebase-via-other-agent's-pull can resolve cleanly without my direct intervention.
+**Research sub-agents spawned (parallel):** ESR disclosures, Q1 GDP, April trade balance, April CPI preview. All four delivered. Phase 1 inversion was the most thesis-significant finding.
 
 ### NEXT SESSION
 
 **Position followup:**
-1. Check fill status (FXY $58.00 limit, +4 shares) — Will placed order
-2. If filled: confirm new position size (12 shares), entry blend, update TRADE.md "Active Positions" header. Flag FORGE update to Prome (don't edit FORGE directly per CLAUDE.md cross-directory rule).
-3. If not filled by June 1: re-evaluate trigger conditions — has Brent settled? Is intervention #3 plausible? Or has FXY drifted such that the $58.00 limit is too aggressive vs market price?
+1. **Check FXY $58.00 limit fill status** — if filled (FXY dropped below $58 on May 13-21), confirm position and entry blend. If not filled, re-evaluate against current $57.66.
+2. If Will approves add at $57.66, update TRADE.md "Active Positions" header to 12 shares; flag FORGE update to Prome (don't edit FORGE directly per CLAUDE.md cross-directory rule).
 
-**Imminent catalysts (this week):**
-1. **🔴 Thu May 14: Q1 GDP prelim + MOF ITS weekly (Apr 26-May 2)** — GDP is EWJ trigger if contraction; MOF first full post-intervention week is key flow read
-2. **🔴 Fri May 15: FY2025 ESR disclosures begin** — PRIMARY Channel 1 test, hard trigger if Big 4 <200%
-3. **🟠 Fri May 15: CFTC JPY release** — continuation cover vs re-build
+**Imminent catalysts:**
+1. **🔴 Fri May 22: Japan April national CPI** — Tokyo leading 1.5%; consensus 1.7% core. Soft = fades June BOJ pricing 74% → 60-65%. SAM-27 @75% on <2.0%.
+2. **🔴🔴 May 25-29: Big 3 mutual ESR (Nippon, Meiji Yasuda, Sumitomo)** — PRIMARY Channel 1 test. SAM-25 @40% on any <200%.
+3. **🟠 ongoing: USDJPY 159+** — intervention #3 trigger zone. SAM-23 @75% (intervention #3 before BOJ).
+4. **🟠 ongoing: JGB 30Y >4.0%** — SAM-26 @70% (holds through June BOJ).
 
 **Hard trigger window:**
-4. **🔴🔴 Tue Jun 16: BOJ MPM — BASE CASE HIKE.** SAM-21 (70% / market 74%). SAM-24 (25bp not 50bp, 85%) tracks.
+5. **🔴🔴 Tue Jun 16: BOJ MPM — BASE CASE HIKE.** SAM-21 (70% / market 74%). SAM-24 (25bp @85%).
 
-**Background watches:**
-- **Intervention #3 watch:** USDJPY 159+ retest. Bessent affirmation removes diplomatic friction. SAM-23 (75%).
-- **Brent direction:** $107.74 today (+3.4%). Through $115 = Phase 1 escalates → intervention #3 likely; through $100 = Phase 2 path.
-- **JGB long end:** 30Y/40Y pending boot pull (last MOF Apr 30 — Golden Week + early May data may show further drift).
-
-**Pickup work (lower priority):**
-- **Boot script enhancement:** add intraday-range alert when USDJPY single-day range > 2.5y (the May 12 intervention-miss lesson)
-- **`usdjpy.py` touch tolerance:** consider tolerance band on level matching so May 6 low 155.05 maps to "MOF May26" for 155 (today shows "no MOF" because strict ≤155 fails on 155.05)
-- **THESIS audit pass 2 cleanup** — 7 items deferred from May 3 session (line 37 "at current ~160", line 100 collision window, NEW— tags, etc.)
+**Pickup work (deferred):**
+- Boot script enhancement: intraday-range alert when USDJPY single-day range > 2.5y (May 12 intervention-miss lesson)
+- `usdjpy.py` touch tolerance band (May 6 low 155.05 currently fails strict ≤155)
+- THESIS audit pass 2 cleanup — items deferred from May 3 session
 
 ### PENDING (carry-over)
-- v1.4 thesis decision gate: ESR disclosures May 15 (hedged/unhedged nuance — SAM-19 lesson). Plus Bessent vector — wait for second confirmation (intervention #3 with US backing, or SWAP line, or rate-coordination signal).
-- STRATEGY no-chase rule: Tranche 2 zone $58.00-58.25 was breached upward May 1; per rule, forfeited. Re-add at hard trigger or new defined zone.
+- STRATEGY no-chase rule: Tranche 2 zone $58.00-58.25 was breached upward May 1; per rule, forfeited at that level. Adding at $57.66 is a NEW entry zone, not a chase of the original.
+- v1.5 trigger gate: if Big 3 mutual ESR prints stress (<200%), would warrant scenario rebalance to stress case 50/40/10 (currently 70/25/5).
 
 ### INFRASTRUCTURE STATUS (persistent)
-- Boot scripts: 8/8 green. CFTC SHORT COVER alert fired for first time this cycle.
-- Workbook auto-pulls: JGB_YIELDS May 11, MOF_FLOWS Apr 19-25 (next Thu May 14), JGB_AUCTIONS Apr 30, CFTC_JPY May 5 (BIG SHIFT), FXY_OPTIONS May 12, USDJPY May 11.
-- **NEW: MOF_INTERVENTIONS catalog updated** — Apr26 (¥5.48T) + May26 (¥4.3T) added. 160-touch now tags "MOF Apr26."
-- CATALYSTS.tsv synced to v1.3 thesis.
+- Boot scripts: 8/8 green (9.3s May 21).
+- Workbook auto-pulls: JGB_YIELDS May 20 (30Y BREACHED 4.0%), MOF_FLOWS May 10-16 (net buying), CFTC_JPY (SHORT BUILD reversal), FXY_OPTIONS May 21, USDJPY May 21.
+- MOF_INTERVENTIONS catalog: Apr26 (¥5.48T) + May26 (¥4.3T).
+- CATALYSTS.tsv (needs sync to v1.4 — deferred to next session).
 - STRATEGY.md canonical decision doc; STATUS scenario matrices subordinate.

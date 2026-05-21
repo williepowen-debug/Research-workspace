@@ -1,113 +1,131 @@
 # SAM STATUS
 
-**Signal Status:** 🟠 THESIS CONFIRMED — JUNE HIKE LOCKED + MOF FIRED TWICE | USD/JPY **157.61** (🟠 markets reclaiming after $63.5B intervention) | FXY **$58.26** (🟡 below Tranche 2 upper band — dip already faded) | JGB 10Y **2.527%** (🔴 BREACHED, holding) | Brent **$107.74** (🟠 +3.39% today, Phase 1 oil reasserting) | CARRY UNWIND 7D: **12%** (intervention deterrent active) | **MOF spent ¥10T ($63.5B) Apr 30 + May 6; Bessent affirmed coordination May 11-12** | **Last Updated:** 2026-05-12 09:35 ET
+**Signal Status:** 🟠 v1.4 — THESIS STRENGTHENED — JGB 30Y BREACHED 4.0% (J-ICS LIFER ABANDONMENT) | USD/JPY **159.19** (🟠 inside intervention #3 trigger zone) | FXY **$57.66** | JGB 10Y **2.770%** (🔴 29yr high) | JGB 30Y **4.000%** (🔴 BREACHED) | Brent **$107.84** | **Position: 13 shares (blend $57.48) + 1 Jun-18 $58C @ $0.40** | **Last Updated:** 2026-05-21 12:35 ET
 
 ---
 
-## 🔴 BIG SHIFT MAY 3 → MAY 12 — INTERVENTION FIRED + COVER SIGNAL + US AFFIRMATION
+## 🔴 STATE OF PLAY (May 21)
 
-**SAM's May 3 STATUS was wrong about the cause.** The "Tokyo session reprice of Apr 28 hawkish hold" was actually **MOF intervention #1 on Apr 30** (~¥5.48T / $35B — first since Jul 2024). Then **intervention #2 during Golden Week May 6** (~¥4.3T / $28B). Combined ~¥10T ($63.5B) — **largest round since 2022** per BofA. Both interventions had violent intraday spikes (Apr 30: 160.70 → 155.55 low = 5.15y range; May 6: 157.89 → 155.05 low = 2.84y range) that markets reclaimed same-day.
+**Three structural findings since May 12 force v1.3 → v1.4:**
 
-**Then May 11-13:** Bessent on 3-day Tokyo trip POSITIONED BEFORE Beijing US-China summit May 14-15. Met Katayama 2hr May 11 + PM Takaichi separately. Agenda: FX + **critical minerals + AI + $550B Japan investment in US (first $2.2B disbursed) + BOJ normalisation + Iran**. Bessent: "constant and robust" coordination on currency volatility. **Important:** Bessent has publicly favored faster BOJ rate hikes prior — his affirmation is "support intervention tactically, want hikes structurally." Monetary policy NOT publicly discussed (deliberate ambiguity). Markets initially priced bullish (yen +0.3% to 156.78 Tokyo AM) then sold as policy-without-teeth (back to 157.5 PM, also Trump-Iran-ceasefire-doubt driving Brent +3.4%). **BofA contrarian:** expects yen to continue depreciating despite intervention. Channel 3 marginally stronger than v1.3 framed — closest to coordinated currency policy since 1985 Plaza.
+1. **JGB 30Y at 4.000%** (breached May 15; 29-yr high). The driver is **J-ICS-induced lifer abandonment of the long end**, not high yields drawing forced buyers. Under J-ICS (live April 2025), super-long JGB moves reprice the entire balance sheet — mid-size lifers (Fukoku, Asahi) pivoted from 30/40Y → 10-15Y BEFORE the May ESR window. Big 4 sidelined. **The mechanism is an amplifier, not a relief valve.** Yields don't draw insurers back; they push them further out.
 
-**CFTC May 5 data (released May 8):** Net short **collapsed -102,059 → -61,738** (39.5% reduction in one week, -37,816 shorts covered + 2,505 longs added). **First cover signal of cycle.** Now 34.3% of Jul24 peak (was 56.7% the prior week).
+2. **April trade balance posted SURPLUS** (¥+301.9B vs deficit consensus) via -64% YoY crude import VOLUME collapse (-67% ME, lowest since 1979). Blockade severity choked physical flow — supply destruction inverts Phase 1 mechanism ("oil → deficit → yen weak"). **Yen still weakened to 159.19** — but the driver is rate differential + fiscal supply + lifer absence, NOT trade. Channel attribution corrected.
 
-**Position regret:** STRATEGY hard trigger "MOF intervenes at 160" fired Apr 30. SAM's May 3 read mis-attributed it. Tranche 2 add window (FXY $58.00-58.25) was breached upward during intervention dip ($58.65 high May 1) and faded back to $58.26 today. Per STRATEGY no-chase rule, the $58.00-58.25 zone is technically forfeited; FXY is currently 1c above upper band. **Decision pending — Will to direct.**
+3. **Bessent affirmation promoted to Channel 3 pillar.** Two interventions (~¥10T combined) + public US backing + Bessent's prior pro-hike stance = closest to coordinated currency policy since 1985 Plaza. Intervention #3 odds elevated at USDJPY 159+.
 
-Full corrected event log → `thesis/TIMELINE.md`.
+**The unresolved May 25-29 Big 3 mutual ESR window is now the primary near-term Channel 1 test.** Dai-ichi (listed, May 13-15) printed ESR ~220% — resilient but least-representative (most equity-heavy). Nippon, Meiji Yasuda, Sumitomo will tell the real story.
+
+**Tomorrow's CPI** (May 22) is the immediate event: Tokyo leading 1.5%; national consensus 1.7% core. Soft = fades June BOJ pricing 74% → 60-65%. ≥2.0% = locks.
+
+Full v1.4 mechanism rewrite → `thesis/THESIS.md` and `thesis/CHANGELOG.md` (2026-05-21 entry).
 
 ---
 
-## MARKET DATA — MAY 12 (live, post-Bessent meeting)
+## MARKET DATA — MAY 21 (live)
 
 | Metric | Value | Source | Status |
 |--------|-------|---------|--------|
-| USD/JPY | **157.61** | May 12 live | 🟠 markets reclaiming intervention move; high 157.75 intraday |
-| FXY | **$58.26** | May 12 live | 🟡 -0.30%; below Tranche 2 upper band; dip already faded |
-| JGB 10Y | **2.527%** | MOF May 11 | 🔴 +0.7bp vs May 3; 28yr high zone holds |
-| JGB 20Y | (pending MOF refresh) | — | 🟠 boot pulls daily |
-| JGB 30Y | (pending MOF refresh) | — | 🟠 boot pulls daily |
-| EUR/JPY | **185.00** | May 12 live | 🟠 -0.04% |
-| GBP/JPY | **213.10** | May 12 live | 🟠 -0.30% |
-| AUD/JPY | **113.85** | May 12 live | 🟠 -0.05% |
-| Brent | **$107.74** | May 12 live | 🟠 **+3.39% today** — oil pressure reasserting |
-| CFTC JPY net | **-61,738** (covered -37,816 shorts WoW) | May 8 release (May 5 data) | 🟢 **34.3% of Jul24 peak** — FIRST cover of cycle, -39.5% net change |
-| MOF LT-debt net (4W) | **¥-2.68T** (~$-18B/mo) | MOF Apr 19-25 (stale, next Thu May 14) | 🟡 ELEVATED |
-| MOF intervention total | **~¥10T ($63.5B)** | Apr 30 + May 6 | 🔴 LARGEST SINCE 2022 |
-| Insurer hedge ratio | **44.4%** | (14yr low, Mar 2025) | 🔴🔴 |
-| FXY P/C ratio | **0.12x** | May 12 boot.py | 🟢 Call-heavy (bullish) |
+| USD/JPY | **159.19** | May 21 live | 🟠 inside intervention #3 trigger zone (159+); 0.5% from 160 |
+| FXY | **$57.66** | May 21 live | 🟡 -0.21% today; below May 12 $58.00 limit |
+| JGB 10Y | **2.770%** | MOF May 20 | 🔴 +24bp vs May 11; 29yr high |
+| JGB 30Y | **4.000%** | MOF May 20 | 🔴 **BREACHED severe insurer stress threshold (first time)** |
+| JGB 40Y | **3.990%** | MOF May 20 | 🟠 at-threshold |
+| EUR/JPY | 184.42 | May 21 live | 🟠 -0.12% |
+| GBP/JPY | 213.35 | May 21 live | 🟠 -0.02% |
+| AUD/JPY | 113.51 | May 21 live | 🟠 -0.04% |
+| Brent | **$107.84** | May 21 live | 🟠 +2.7% today |
+| CFTC JPY net | **SHORT BUILD** (latest release) | boot.py May 21 | 🔴 cover signal reversed — shorts re-loading as USDJPY pressed 159 |
+| MOF LT-debt net | **Net BUYING** (Apr 26-May 2 + May 10-16) | MOF | 🟢 no repatriation signal at weekly level |
+| MOF intervention total | **~¥10T ($63.5B)** Apr 30 + May 6 | BoJ/BofA | 🔴 LARGEST SINCE 2022 |
+| Insurer hedge ratio | 44.4% (Mar 2025) | (14yr low) | 🔴🔴 |
+| FXY P/C ratio | 0.06x | May 21 boot.py | 🟢 Call-heavy (bullish) |
 
-*Boot.py 12.1s, all 8 green. SHORT COVER alert fired for first time this cycle.*
+*Boot.py 9.3s, all 8 green. JGB 30Y first 4.0% breach; USDJPY in 159+ zone.*
 
 ---
 
-## CARRY UNWIND PROBABILITY — MAY 12 (post-intervention + cover)
+## CARRY UNWIND PROBABILITY — MAY 21 (v1.4)
 
-| Timeframe | May 3 | **May 12** | Driver |
+| Timeframe | May 12 | **May 21** | Driver |
 |-----------|--------|-----------|--------|
-| **7d** | 20% | **12%** | Intervention deterrent active; markets reclaiming; oil reasserting near-term |
-| **30d** | 72% | **70%** | Hold — ESR (May 15) + April CPI (May 22) + GDP (May 14) catalyst load intact; CFTC fuel reduced but still net -61K |
-| **60d** | 90% | **88%** | Slight reduction — less fuel for violent unwind; June hike consensus still ~74% swap; intervention has partially front-run the unwind |
+| **7d** | 12% | **18%** | USDJPY 159+ raises intervention #3 odds → intraday yen pop catalyst; CPI tomorrow as binary |
+| **30d** | 70% | **72%** | June BOJ swap 74%; Big 3 ESR May 25-29; JGB 30Y at 4% now structural pressure; offset by softer CPI risk |
+| **60d** | 88% | **88%** | Hold — June hike consensus intact; intervention has partially front-run; CFTC re-loaded fuel |
 
-*Intervention paradox in motion: MOF sold dollars (=tactical carry unwind execution), CFTC shorts covered (=positioning unwind), but USDJPY 157.61 above the 155 trigger zone. Half-cycle complete. Channel 2 still loaded for June BOJ.*
-
----
-
-## INTERVENTION STATUS — RE-ESCALATED
-
-**FIRED TWICE + US AFFIRMED.** Apr 30 ~¥5.48T, May 6 ~¥4.3T, combined ~¥10T ($63.5B), largest since 2022. May 11-12 Bessent-Katayama affirmation removes diplomatic ceiling on further interventions. Katayama "decisive measures against speculative moves" (May 4); Bessent "constant and robust coordination" (May 12).
-
-**Effectiveness:** Mixed. Each intervention drove ~5y/3y intraday spike but markets reclaimed same-day. USDJPY 157.61 today vs 160.70 peak Apr 30 = -3y net. **Pure FX intervention can't fix rate differential (~300bp Fed-BOJ gap).** Bessent meeting did NOT publicly address rates — gap remains.
-
-**Re-engagement trigger:** If USDJPY pushes 159+ (markets again testing), expect intervention #3. Iran/Hormuz escalation that drives Brent through $115 would tighten this loop fast.
+*JGB 30Y at 4% via J-ICS mechanism is a structural shift but not a probability shift on the carry trade itself — it's a Channel 1 amplifier that runs in parallel with Channel 2. 60d carries the BOJ-hike-conditional weight.*
 
 ---
 
-## BOJ ASSESSMENT — APR 28 + JUNE 16 PATH
+## INTERVENTION STATUS — #3 ZONE LIVE
 
-**Apr 28: HOLD + 3 dissents (biggest split since 2016). Market 74% June hike.**
+**FIRED TWICE + US AFFIRMED. USDJPY now 159.19 — inside SAM-23 trigger zone (159+).**
+
+| Date | Size | USDJPY intraday | Outcome |
+|---|---|---|---|
+| Apr 30 | ~¥5.48T ($35B) | 160.70 → 155.55 (5.15y range) | Same-day reclaim |
+| May 6 (Golden Week) | ~¥4.3T ($28B) | 157.89 → 155.05 (2.84y range) | Same-day reclaim |
+| **Combined** | **~¥10T ($63.5B)** | — | Largest round since 2022 |
+
+**Re-engagement watch:** USDJPY closes >159.50 with markets testing → intervention #3 likely. Bessent affirmation removes diplomatic friction. SAM-23 @75%.
+
+**Pure FX cannot fix the ~300bp Fed-BOJ gap.** Each intervention drove ~5y/3y intraday spike but markets reclaimed because rate differential intact. **Bessent meeting did NOT publicly address rates** — gap remains.
+
+---
+
+## BOJ ASSESSMENT — JUNE 16 PATH
+
+**Apr 28: HOLD + 3 dissents (biggest split since 2016). Market 74% June.** Q1 GDP +2.1% beat (May 19) confirmed path. Reuters poll: 65% of economists expect June hike to 1.00%.
 
 | Date | Significance |
 |---|---|
-| Apr 28 ✅ | Hold 0.75% + 3 dissents for 1.00% (Takata/Tamura/Nakagawa); GDP cut FY26 1.0%→0.5%; inflation upgrade; Ueda hawkish presser |
+| Apr 28 ✅ | Hold 0.75% + 3 dissents for 1.00%; GDP cut FY26 1.0%→0.5%; inflation upgrade |
+| **May 22 (tomorrow)** 🟠 | April CPI — Tokyo leading 1.5%; consensus 1.7% core. Soft = swap fades to 60-65% |
 | **Jun 16** 🔴🔴 | **BASE CASE HIKE** to 1.00% (SAM-21 70% / market 74%) |
-| Jun 16 🟡 | Sato joins board (hawk→dove swap) — June hike unchanged; beyond gets harder |
+| Jun 16 🟡 | Sato joins board (hawk→dove swap) — June unchanged; beyond gets harder |
 
-**Risk to June:** Brent +3.4% today (back to oil reassertion) could give BOJ another ME-uncertainty excuse. ESR disclosures May 15 could trigger financial-stability pause. Takaichi political pressure if mortgage stress visible. None yet at trigger levels.
+**Risks to June:** Soft CPI tomorrow + Big 3 mutual ESR comfortably resilient + Brent re-acceleration. None at trigger levels yet.
 
 ---
 
-## FXY POSITIONING — 8 SHARES (Tranche 2 hard trigger FIRED, missed)
+## FXY POSITIONING — 13 SHARES + 1 JUNE $58 CALL (executed May 21)
 
-**Position +1.57% on entry ($58.26 vs ~$57.36).** Per **STRATEGY.md**:
+**Shares:** 13 (Tranche 1: 8 @ $57.36 + Tranche 2: 5 @ ~$57.66 May 21). Blended entry ~$57.48. Position +0.3% on blend.
+**Call:** 1 × June 18 2026 $58 call @ $0.40 ($40 total). ATM at execution. Pre-CPI entry for IV protection.
+
+Per **STRATEGY.md**:
 
 | Hard Trigger | Status | Implication |
 |---|---|---|
 | BOJ hikes at June meeting | PENDING (Jun 16) | Primary |
-| **MOF intervenes at 160** | ✅ **FIRED Apr 30 + May 6** | Tranche 2 was authorized; dip faded; $58.26 today is 1c above upper-band |
-| USD/JPY sub-155 for 3+ sessions WITH oil normalizing | NEAR-MISS | Got to 155.05 intraday May 6 only (1 session); oil at $107 not $90 |
-| ESR <200% (FY2025 disclosures) | PENDING (May 15) | Primary Channel 1 test |
+| MOF intervenes at 160 | ✅ FIRED Apr 30 + May 6 | Tranche 2 authorization remains valid |
+| USD/JPY sub-155 for 3+ sessions WITH oil normalizing | NEAR-MISS (May 6 1 session only) | Not confirmed |
+| ESR <200% (FY2025 Big 3 mutuals) | PENDING (May 25-29) | Primary Channel 1 test |
 | Fed cuts via private credit cascade | PENDING | Independent path |
 
-**Add decision:** STRATEGY no-chase rule: "If a matrix-defined zone is breached upward before the add fires, the add is forfeited at that level." FXY hit ~$58.65 May 1 (above $58.25 upper band), so the zone was breached. Current $58.26 is 1c above upper band.
+**Executed May 21:**
+- **+5 shares at ~$57.66 → 13 total.** Blended entry ~$57.48. Stop $55.05 (4.2% below blend). Target $60-62 (4.4-7.9% above).
+- **+1 June 18 $58 call @ $0.40** = $40 cost. Event lottery on BOJ Jun 16. Max loss $40 (sized small). Pre-CPI entry chosen for IV protection vs my post-CPI recommendation.
 
-**DECISION (May 12):** Limit at **$58.00 for +4 shares (→ 12 total)**. Lives indefinitely. Plausible fill on (a) Brent reassertion pushing USDJPY → 160 retest, (b) intervention #3 dip-and-fade, (c) ESR May 15 disappointment near-term. Forfeits some Channel 2 upside if June hike fires before fill, but cleaner R:R. Re-evaluate June 1 if no fill.
+**Sep $60 calls (Position A) authorized but not executed.** Worth revisiting post-CPI tomorrow when entry price clarifies. Captures post-BOJ cascade (Aug 2024 took weeks).
 
-**Stop $55.05 (thesis break only). Target $60-62. Decision logic: STRATEGY.md (canonical).**
+**Stop $55.05 unchanged. Target $60-62. Decision logic: STRATEGY.md (canonical).**
 
 ---
 
 ## KEY THRESHOLDS
 
-| Level | Significance | Status (May 12) |
+| Level | Significance | Status (May 21) |
 |-------|-------------|--------|
-| USD/JPY 160 | MOF intervention | 🔴 **BREACHED + DEFENDED** (Apr 30 high 160.70, MOF intervened); 1.5% away |
-| USD/JPY 155 | Phase 2 onset | 🟠 NEAR-MISS — May 6 low 155.05 (1 session, not 3); thesis not confirmed |
-| USD/JPY 145 | Forced unwind | SET |
-| JGB 10Y 2.40% | Stress crossover | 🔴 BREACHED — 2.527% (MOF May 11) |
-| JGB 30Y 4.0% | Severe insurer stress | 🟡 ~28bp away (last MOF print) |
-| Brent $120 | Kharg scenario | 🟠 $107.74 — +3.4% today reasserts Phase 1 pressure |
-| Brent $90 | Headwind resolved | 🟠 ~$18 above $90 |
+| USD/JPY 160 | MOF intervention | 🟠 **159.19 — inside #3 zone, 0.5% away** |
+| USD/JPY 155 | Phase 2 onset | NEAR-MISS twice (Apr 30 155.55, May 6 155.05) |
+| USD/JPY 147 | Forced unwind | SET |
+| USD/JPY 145 | Mechanical selling | SET |
+| JGB 10Y 2.40% | Stress crossover | 🔴 BREACHED — 2.770% (29yr high) |
+| JGB 30Y 4.0% | Severe insurer stress | 🔴 **BREACHED 4.000% — J-ICS lifer abandonment driving** |
+| JGB 40Y | — | 🟠 3.990%, at-threshold |
+| Brent $120 | Kharg scenario | 🟠 $107.84 — +2.7% today |
+| Brent $90 | Headwind resolved | 🟠 ~$18 above |
 
 ---
 
@@ -115,49 +133,45 @@ Full corrected event log → `thesis/TIMELINE.md`.
 
 | Window | Event | Sig |
 |--------|-------|-----|
-| **🔴 Thu-Fri May 14-15** | **Trump-Xi Beijing summit (Bessent attends)** | Wildcard for SAM: any currency/trade announcement could drag yen via USDCNH-USDJPY correlation |
-| **🔴 Thu May 14** | Japan Q1 GDP prelim | First post-war quarter; EWJ trigger if contraction; BOJ already cut FY26 to 0.5% |
-| **🔴 Fri May 15** | **FY2025 ESR disclosures begin** | PRIMARY Channel 1 test; <200% = HARD TRIGGER |
-| **🟠 Wed May 20** | April trade balance (first post-blockade) | Phase 1 oil mechanism re-test (Brent $107) |
-| **🟠 Fri May 22** | Japan April CPI | Oil passthrough; June hike lock |
-| **🟠 ongoing** | USDJPY 158-160 retest | If markets press, intervention #3 likely; Bessent affirmation removes friction |
-| **🟠 ongoing** | CFTC weekly | Cover continuation vs re-build; -75K threshold for SAM-22 |
+| **🔴 Fri May 22** | Japan April national CPI | Tokyo leading 1.5%; consensus 1.7% core. Soft = fades June BOJ pricing |
+| **🔴🔴 May 25-29** | **Big 3 mutual ESR disclosures (Nippon, Meiji Yasuda, Sumitomo)** | PRIMARY Channel 1 test. <200% any = stress-case rebalance trigger |
+| **🟠 ongoing** | USDJPY 159+ retest | Intervention #3 likely on >159.50 close; Bessent affirmation removes friction |
+| **🟠 ongoing** | CFTC weekly | Cover signal reversed; re-build → SAM-22-style fuel reload |
+| **🟠 ongoing** | JGB 30Y > 4.0% | If holds/extends, Channel 1 thesis runs structurally without forced ESR catalyst |
+| **🟠 ongoing** | Brent direction | >$115 = Phase 1 oil escalates → intervention #3 likely; <$100 = Phase 2 path |
 | **🔴🔴 Tue Jun 16** | **BOJ MPM — BASE CASE HIKE** (SAM-21 70%; market 74%) | FXY +5-8% structural |
 
 ---
 
 ## REFERENCE DATA
 
-**Channel 1 flow pace:** BASE CASE $7-10B/mo. MOF ITS 4W rolling ¥-2.68T (Apr 19-25; next release Thu May 14 will cover Apr 26-May 2 — first full post-intervention week, **important read**).
+**Channel 1 (v1.4):** Base case flow pace $7-10B/mo. MOF ITS Apr 26-May 2 + May 10-16 both NET BUYING. **The thesis now runs via lifer long-end abandonment (JGB 30Y at 4.0% via J-ICS) and the May 25-29 ESR window — not via weekly MOF flows.** Dai-ichi (May 13-15) printed ~220% ESR — resilient but least-representative (most equity-heavy of Big 4).
 
-**MOF Intervention #1 (Apr 30):** ~¥5.48T ($35B) per BOJ reserve data. USDJPY intraday 160.70 → 155.55. First since Jul 2024.
+**Channel 2 (Carry):** CFTC short COVER reversed — re-loading. Position remains primary fuel for June BOJ unwind. Aug 2024 precedent speed intact.
 
-**MOF Intervention #2 (May 6 / Golden Week):** ~¥4.3T ($28B). USDJPY intraday 157.89 → 155.05. Thinner Golden Week liquidity amplified spike.
+**Channel 3 (BOJ + US coordination, v1.4 expansion):**
+- Apr 30 + May 6 MOF interventions (~¥10T / $63.5B) — largest since 2022.
+- May 11-12 Bessent-Katayama Tokyo meeting — "constant and robust" FX coordination, first US public affirmation since 2022. Bessent prior pro-hike stance.
+- Monetary policy NOT publicly discussed (deliberate ambiguity).
+- BofA contrarian: expects yen to keep depreciating despite intervention.
 
-**Combined Apr/May:** ~¥10T ($63.5B). BofA: largest since 2022 (Q4 2022 was ¥9.2T total). Comparable to Apr/May 2024 (~¥9.8T) but in 7 days vs 1 month.
+**Q1 GDP (May 19):** +2.1% ann (+0.5% QoQ) vs +1.7% est. Net exports drove. Q1 was "last clean quarter" — Q2 consensus contraction window on Iran shock. EWJ-put trigger DID NOT fire.
 
-**Bessent Tokyo trip May 11-13 (pre-Beijing-summit positioning):** 3-day visit ahead of Trump-Xi Beijing summit May 14-15. Met Katayama 2hr + Takaichi separately. **Full agenda:** FX + critical minerals + AI + Japan's $550B US investment pledge (first $2.2B disbursed early May to Texas/Georgia/Ohio) + BOJ normalisation + Iran. **Bessent has publicly favored faster BOJ hikes prior** — his affirmation is "support intervention tactically, want hikes structurally." Bessent earlier 2026: "no currency targets" in trade talks (politically clever — supports intervention without dictating yen level). Monetary policy NOT publicly discussed at meeting (deliberate ambiguity). Market read: Tokyo AM yen +0.3% to 156.78, afternoon sold to 157.5 (partly policy-without-teeth read, partly Trump-Iran-ceasefire-doubt driving Brent +3.4%). **BofA contrarian:** expects yen to continue depreciating despite intervention (CNBC segment May 12). Channel 3 conviction marginally stronger than v1.3 framed — closest to coordinated currency policy since 1985 Plaza. v1.4 candidate but per restraint lesson, hold for confirmation event.
+**April trade balance (May 21):** ¥+301.9B SURPLUS via -64% YoY crude import volume collapse. Phase 1 INVERTED under blockade. Yen weakening is now rate-diff-driven not trade-driven.
 
-**CFTC JPY (May 8 release, May 5 data):** Net short -61,738 (was -102,059). Shorts covered -37,816; longs added +2,505. Net change +40,321 = 39.5% reduction in cycle short. Now at 34.3% of Jul24 peak (was 56.7%). FIRST cover of cycle. Hits intervention deterrent + Bessent headline risk + carry-trade unwind dynamics.
+**MOF Intervention #1 (Apr 30):** ~¥5.48T ($35B). USDJPY 160.70 → 155.55.
+**MOF Intervention #2 (May 6 / Golden Week):** ~¥4.3T ($28B). USDJPY 157.89 → 155.05. Thinner Golden Week amplified.
 
-**Japan UST sale claim (First Squawk May 8):** Unverified. Fed custody data: foreign official accounts -$8.7B WoW to $2.73T (week to May 6). Circumstantial — could be Japan funding intervention with UST sales, but Fed data aggregates all foreign official accounts. LIQUID should track.
-
-**Brent +3.4% today ($104.21 → $107.74):** Driver = **Trump raised doubts about US-Iran ceasefire durability** (May 12 statements). Not just supply/demand noise — fresh political risk. Phase 1 oil pressure reasserting. April trade balance (May 20) will print first full post-blockade month.
-
-**BOJ QT:** ¥2.5T/mo purchases, ¥200B/quarter taper. Background factor.
-
-**GDP:** Q4 2025 +0.3% QoQ. Q1 2026 prelim May 14.
+**BOJ QT:** ¥2.5T/mo purchases, ¥200B/quarter taper. Background.
 
 ---
 
-## THESIS (v1.3 short-form, post intervention + Bessent)
+## THESIS (v1.4 short-form)
 
-Three transmission channels intact; MOF intervention trigger fired exactly as v1.3 mapped (USDJPY 160 → intervention). New thesis vector: **Bessent affirmation upgrades intervention reaction function** (Channel 3 augmentation). The intervention paradox is firing — MOF sold USD; CFTC shorts covered -39.5%; but markets reclaimed levels because rate differential intact. **Carry unwind is partially executing through intervention itself** before BOJ even hikes. June BOJ remains primary trigger (74% market). Brent +3.4% today reasserts Phase 1 oil pressure; intervention #3 possible if USDJPY tests 159+.
+Three transmission channels intact AND amplifying. JGB 30Y at 4.0% via J-ICS lifer abandonment (Channel 1 structural amplifier). USDJPY 159.19 in intervention #3 zone (Channel 3 near-term catalyst). June BOJ hike at 74% market (Channel 2 primary trigger). Phase 1 oil mechanism inverted under blockade — yen weakening now rate-differential-driven, not trade-driven, which means a BOJ hike directly addresses the cause. Big 3 mutual ESR May 25-29 is the primary near-term Channel 1 test. CPI tomorrow is the immediate event.
 
-**Position regret:** Tranche 2 hard trigger fired Apr 30 but SAM mis-read it as natural reprice. Dip faded; FXY $58.26 today is 1c above upper-band. Three add options (limit $58.25 / limit $58.00 / wait next trigger) — Will to direct.
-
-**v1.4 candidate:** Add Bessent affirmation as 4th support to Channel 3. Hold for now — single event, no SWAP line announced. Re-evaluate if intervention #3 fires with explicit US backing or if SWAP line discussions surface.
+**Position update (May 21):** Tranche 2 executed +5 shares at $57.66 (13 total). 1 June $58 call added at $0.40 ($40 lottery). Sep $60 calls authorized but not yet executed — revisit post-CPI.
 
 **Stop $55.05 unchanged.** Thesis break far from approached.
 
-*Archive: Pre-May 12 → CHANGELOG 2026-05-12 entry*
+*Archive: v1.3 → v1.4 mechanism update logged → CHANGELOG 2026-05-21 entry*
