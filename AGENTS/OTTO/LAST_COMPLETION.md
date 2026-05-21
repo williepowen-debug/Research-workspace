@@ -1,63 +1,53 @@
-# OTTO COMPLETION — 2026-04-15 evening
+# OTTO COMPLETION — 2026-05-21 evening
 
 ## STATUS
-✅ Local reconciliation with parallel remote OTTO session complete. Pushed to origin. Branch clean.
+✅ 36-day Tricolor outcomes gap closed. STATUS / ML / PREDICTIONS / MEMORY all refreshed. Cross-agent signal routed via WALTER. Ready to commit + push.
 
 ## CHANGED
-- Rebased 3 OTTO commits onto `origin/master` after discovering remote had a parallel Apr 15 AM OTTO session (`e43c9e3f`, Prome/OpenClaw, 10:18 AM) with conflicting STATUS.md + PREDICTIONS.tsv:
-  - `378e90d8` (was 644d6a78) — Tricolor recalibration + PREDICTIONS cleanup + MEMORY.md init
-  - `e2ffa06a` (was 532f3864) — Apr 15 session housekeeping
-  - `a69c78d5` (was d31d710d) — push-deferred note in MEMORY.md
-- Conflict resolutions:
-  - `AGENTS/OTTO/STATUS.md` — kept local (newer, sourced Tricolor ABS <10¢ + MTB escalation; remote's 10:18 AM version was stale by 8 hrs)
-  - `AGENTS/OTTO/PREDICTIONS.tsv` root — kept deleted (our canonical PREDICTIONS.tsv lives in `workbook/`)
-  - OTTO-26 remains NEEDS_VERIFY (remote's FALSIFIED was internally inconsistent: $0.54 annual = $0.045/mo, which is the post-cut amount)
-  - OTTO-27 remains CONFIRMED (sourced: 247 Wall St, SignalBloom, Seeking Alpha — FSK $0.70 → $0.48 cut, Q1 2026 NII guide $0.44 vs new $0.48 div = 0.92x coverage)
-- Files inherited from remote `e43c9e3f` (additive, not conflicting):
-  - `AGENTS/OTTO/scripts/abs_issuance_tracker.py` (239 lines)
-  - `AGENTS/OTTO/scripts/extension_proxy.py` (269 lines)
-  - `AGENTS/OTTO/workbook/ABS_ISSUANCE.tsv`
-  - `AGENTS/OTTO/workbook/EXTENSION_PROXY.tsv`
-  - `AGENTS/OTTO/workbook/CROSS_AGENT_LOG.tsv`
-- `AGENTS/OTTO/MEMORY.md` — updated CHANGES / LAST SESSION / NEXT SESSION for reconciliation
-- Pushed 15 commits to `origin/master`. Branch up to date.
-- Local safety branch `otto-backup-pre-rebase-20260415` retained (can delete after next session review).
+- **STATUS.md** (+64/-15): New May 21 check-in section with 11 findings + thesis impact + timeline correction. Active Vectors: 2 new top-of-list (Wilmington Trust Exit 🔴🔴 + Tricolor Distribution Gridlock 🔴). Signal Dashboard: 4 new rows (auction recovery / missing vehicles / disputed receivables / Wilmington exit) + Fifth Third exposure precise at $178M. Thesis table: Tricolor row enriched; Invisible Exit promoted to "industrially validated." Critical Timeline corrected: Mar 31 was operative deadline (Apr 30 entry removed); added Apr 24 / May 14 / flagged Jun 17 ETA at risk. Predictions: added OTTO-29 + OTTO-30 status rows.
+- **workbook/ML.tsv** (+8 entries, 145→152): auction proceeds, phantom inventory, distribution gridlock, Wilmington exit, ACV Capital subpoena, Apr 24 motions, Fifth Third exposure precision, two-lawsuit clarification. ML-OTTO-145 explicitly supersedes ML-OTTO-140's deadline assertion.
+- **workbook/PREDICTIONS.tsv** (16→17 rows, 2 updated): OTTO-29 conf 75→80% + RESOLUTION-AT-RISK flag (Sep 30 may slip due to $113M dispute); OTTO-30 conf 60→65% + 6th-bank candidate list folded in; **OTTO-31 NEW** (Wilmington Trust non-mortgage exit, 60%, resolve 2026-12-31).
+- **MEMORY.md** rewritten — 8 new May 21 Findings, 2 new Feedback entries (recalibration-supersession discipline, Verita cert gap), 2 new References (Octus, AFN). Session Notes refreshed for May 21. ~95 lines, under the 100 cap.
+- **AGENTS/WALTER/inbox/SIG-OTTO-WALTER-20260521-tricolor-data-emerged-wilmington-exit.md** — cross-agent signal routed (REGINALD primary, BROCK + CARL info-cc). Three main payloads: Wilmington custodial exit (structural), distribution gridlock (new transmission mechanic), Fifth Third precision. Specific REGINALD asks: (a) corporate-side read on Wilmington/M&T wind-down, (b) PACER/Octus pull of Apr 24 Fifth Third supplemental motion.
 
 ## RESULT
 
-Remote's morning OTTO run reached wrong verdicts on OTTO-26 and OTTO-27 (both marked FALSIFIED) using stale/incorrect data. Our afternoon sourced work (CONFIRMED FSK cut + NEEDS_VERIFY PSEC) is now the record of truth on origin. Remote's unique tooling (scripts + 3 workbook TSVs + WALTER inbox drop) merged in without modification — pending review next session.
+Tricolor data is now correctly framed at scale: auction recovery ~3.2% of debt; ~30K vehicles missing up to $1.1B (industrial-scale Invisible Exit); $113M frozen in distribution gridlock; Wilmington Trust exiting an entire ABS custodial business line. The Apr 15 Apr-30-deadline recalibration is explicitly superseded — Mar 31 was the operative deadline. Two new transmission mechanics added (distribution gridlock + custodial retreat) which weren't in prior thesis framing. OTTO-29 substance is tracking to confirmed; resolution is the risk. OTTO-31 surfaces a new systemic claim worth a 6-month window.
 
 ## GAPS
 
-- **Remote-inherited files not yet reviewed.** Scripts and new workbook TSVs came in as black boxes. CROSS_AGENT_LOG.tsv especially needs review — it's a remote convention we didn't create; may conflict with WALTER-routing norm established this session.
-- **OTTO-26 PSEC still NEEDS_VERIFY.** The reconciliation didn't resolve the underlying fact question — 5-min PSEC 8-K check still pending.
-- **Remote dropped `OTTO_2026-04-15_Tricolor_Bank_Losses.md` in WALTER's inbox** — need to confirm WALTER sees it as inherited and processes / archives per normal flow.
-- **Parallel-session root cause not diagnosed.** Prome spawned an OTTO at 10:18 AM when a Claude Code OTTO was also running. The architecture should prevent this but apparently didn't. May warrant surfacing to Will / Prome governance.
+- **Fifth Third Apr 24 supplemental motion contents:** Couldn't pull. Verita cert verification blocks WebFetch; Octus references it but didn't quote; Bloomberg Law / PACER paywalled. **Tooling gap to surface to Will/Prome.** Possible workarounds: PACER access for OTTO, paid Octus seat, or accept search-surface-only on docket.
+- **Wilmington custodial exit needs corporate-side confirmation.** Currently plaintiff-allegation only. Watch: M&T parent earnings (Q2/Q3), Wilmington Trust press, ABS surveillance for trustee-substitution filings.
+- **OTTO-26 PSEC** still NEEDS_VERIFY — carried over from Apr 15.
+- **War-transmission row from Apr 1 STATUS** (Iran Day 32, oil >$100, gas $3.99, ABS +17bps) is stale — ceasefire dynamics in play. Doesn't affect OTTO-core but the ABS-spread-on-inflation reading needs re-check.
+- **Remote-inherited Apr 15 scripts/TSVs** still black-boxes (`abs_issuance_tracker.py`, `extension_proxy.py`, `workbook/{ABS_ISSUANCE,EXTENSION_PROXY,CROSS_AGENT_LOG}.tsv`).
 
 ## WILL_NEEDS
 
-- Decision on retaining vs retiring remote-inherited scripts after next-session review.
-- Awareness that parallel OTTO sessions happened Apr 15 (one on OpenClaw/Prome AM, two on local PM) — governance question.
+- Decision on Verita / PACER / Octus access path so OTTO can read docket contents directly (current state: search-surface only)
+- Awareness that OTTO went dark 36 days — this is the longest gap since Feb. Cadence may want explicit "OTTO check-in" beats in the calendar if Tricolor/CVNA/First Brands timelines warrant it
+- Awareness of OTTO-31 (Wilmington exit) as a new systemic prediction worth Q2/Q3 watch — REGINALD signal flagged this in addition to OTTO carrying it
 
 ## FOLLOW-UP (Priority queue for next spawn)
 
 **P0:**
-- Review remote-inherited scripts + workbook TSVs (keep/refactor/retire)
-- OTTO-26 PSEC 8-K verification (5 min)
-- Apr 30–May 5 Tricolor trustee filing re-check
+- OTTO-26 PSEC manual verification (5-min 8-K check; outstanding since Apr 15)
+- First Brands docket sweep — Apr 9 hearing was adjourned; check for new date
+- CVNA May 5 stock split vote outcome + short-seller scan (Gotham/Hindenburg pre-discovery Jun 12)
+- Q1/Q2 bank earnings sweep for OTTO-30 (HBAN, CFG, RF, regional warehouse exposure)
 
 **P1:**
-- Confirm WALTER processed remote-origin Tricolor Bank Losses inbox item
-- First Brands Apr 9 hearing reschedule check
-- Delete `otto-backup-pre-rebase-20260415` branch if rebase looks clean
+- Process 2 unread inbox items (May 9 $1.68T auto-loan; May 16 CNBC Tricolor)
+- Wilmington Trust corporate-side confirmation pass
+- Review remote-inherited Apr 15 scripts/TSVs (keep/refactor/retire)
 
 **P2:**
-- Auto parts → WAL/Jefferies/Point Bonita ($715M) thread (from Apr 6 research inbox)
-- CVNA short-seller scan pre-May 5 split vote
+- WAL / Jefferies / Point Bonita $715M thread (Apr 6 research inbox)
+- Ally Q1 print for OTTO-28 (Carvana-specific DQ/NCO break-out)
 
 **P3:**
-- Ally Q1 print late April — OTTO-28 Carvana-specific DQ/NCO watch
-- Jun 17 creditor meeting — OTTO-29 resolution trigger
+- Delete `otto-backup-pre-rebase-20260415` branch (5+ weeks clean)
+- Tooling-gap surfacing to Will/Prome (Verita/PACER)
 
 ## SIGNALS ROUTED
-- None this session (reconciliation only). Prior session's WALTER inbox drop (`SIG-OTTO-WALTER-20260415-tricolor-mtb-abs-update.md`) stands.
+- `SIG-OTTO-WALTER-20260521-tricolor-data-emerged-wilmington-exit.md` → WALTER inbox → REGINALD primary, BROCK + CARL info-cc
