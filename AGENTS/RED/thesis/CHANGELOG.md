@@ -4,6 +4,78 @@
 
 ---
 
+## 2026-05-21 — MI3 Binary Didn't Print; B1/B3/V4 Fired Separately; REGINALD V2.2 Acceptance; Jun Stack Capitulation; RED-11 RESOLVED CORRECT (Session 13 on Claude Code, 8-day gap from Session 12)
+
+**Confidence:** 75% → **73%** (-2)
+
+**Competing hypotheses re-balanced — direction holds, quality shifts:**
+- Full Stagflation: 38% → **37%** (-1)
+- Managed Decline: 33% → 33% (=)
+- **Acute Dislocation: 9% → 11% (+2)** — step-up from B1/V2.2/Curley
+- Policy Rescue: 14% → 13% (-1)
+- War Escalation: 5% → 5% (=)
+- Soft Landing: 1% → 1% (=)
+
+Net bear: 52% → **53%** (+1) | Net managed/rescue: 47% → **46%** (-1) | Soft: 1%.
+
+**What drove the change:**
+
+1. **MI3 binary DID NOT PRINT in the 5/14-16 FFIEC PDD bulk window.** Per REGINALD STATUS 5/21: *"V1 MI3 primary falsifier STILL HASN'T RUN; v2.1 calibration table preserved."* My pre-registered 4-bin tree (a/b/c/d on ≥25 / 22-25 / 19-22 / <19) never triggered. Calendaring miss — assumed bulk release in window; publication cadence is variable (historically 4-12 weeks post Q1 close). **Re-scoped to Q2 print late-July or whenever MI3 integrates.**
+
+2. **B1 fired via 10-Q subsequent event (5/11 filing, 5/21 drilled by REGINALD).** WAL disclosed $99M life-science office sponsor walk-away (Class-A LEED Silver, gateway market — Boston/SF Bay/SD) on a *pass*-graded loan = strategic default. **Same mechanic as IQHQ (OZK).** Two life-sci sponsor walk-aways across watchlist in 6 months = sector signal. Per REGINALD drill: "~$60M Q2 charge-off / +10bps annualized incremental." V1 sub-vector materializing through an *alternate instrument* (10-Q narrative, not MI3 number). Bin (a) of my 4-bin tree partially fires via this alt-mechanism. **Methodology lesson: don't tie V1 evidence to a single instrument (MI3) — V1 acceleration can manifest in 10-Q narrative or non-MI3 channels and still satisfy the bear-acceleration condition.**
+
+3. **B3 fired at IDay 5/12.** Mgmt held 25-35bps NCO guide despite Q1 ex-fraud 39bps (per REGINALD `WAL/INVESTOR_DAY_FINDINGS_2026-05-12.md`).
+
+4. **V4 NEW — Curley resignation week of 10-Q.** Chief Banking Officer for National Business Lines (Office / Hotel Franchise / Tech & Innovation / Mortgage Warehouse / Public Finance / Renewable Resources). Stated reason CEO opportunity elsewhere; same-week-as-disclosure timing flagged but not promoted to standalone bear-trigger without second corroborating departure.
+
+5. **V2 inventory CLEAN (10-Q drill).** No new Leucadia-era credits beyond LAM ($126.4M) + Cantor V ($26.1M). WAL escalated to active litigation against Jefferies Financial Group parent in NY Supreme Court (March 2026) — breach of contract + fraudulent inducement. Recovery escalation, not new fraud.
+
+6. **V3 NDFI cohort-median CONFIRMED via 10-Q breakout.** $14.93B / 25.2% HFI; business + PE = 7.9% ≈ peer ~7%. Directionally consistent with my Apr framing.
+
+7. **REGINALD V2.2 SHIPPED 5/21** — fourth agent-converge cycle (after VIOLET SKEW / BRENT v2.0 / REGINALD V2.1 → now V2.2). Bear-slow → **Bear-medium speed**; Bear-fast 12 / **Bear-medium 30** (was Bear-slow 23, +7pp) / Base 33 (-2) / Bull 18 (-5) / Tail 7. EV $70.50 → $67.98. PT $50-68. **V2.2 is stronger than V2.1 in my direction** — restored bear weight more aggressively than my CHG-RED-025 asked for. CHG-RED-026 (post-IDay reassessment) RESOLVED-CONVERGED via V2.2 ship. Methodology: peer-agent vN→vN.1→vN.2 progression *toward* RED's challenge direction is the convergence-cycle pattern at second-iteration.
+
+8. **Market reaction:** ~10% drawdown 5/11-5/15 (per Simply Wall St 5/14). DA Davidson PT cut $93→$90 (5/13, Buy maintained, valuation-driven). WAL price path: 5/11 $76.95 → 5/13 $74.97 → 5/15 $75.93 → 5/17 $74.42 → 5/18 $76.59 → 5/21 $77.63. 7th consecutive sub-$78 close. Tape recovered $2.66 off 5/13 low but did not reclaim $78 threshold.
+
+9. **Portfolio reality vs RED Session 12 view (broker CSV 5/21 14:03 ET):**
+   - **WAL Jun $85P** held through MI3 binary that didn't print → mark $7.00 (was $11+ at 5/13 rec). Drift -$4 / ~-33%. Currently +18.5% total vs $5.91 basis.
+   - **OZK Thread 3** rolled May $42.5P → **Jul 17 $42.5P x2** (not Jan27 as RED pre-registered). Mark $0.50, -50.83%.
+   - **KRE $70P May ×2** was **PHANTOM** per REGINALD 5/8 inbox signal — no longer in stack. (Earlier flag honored.)
+   - **WAL Jun $77.5P / $67.5P / $65P / Jul $65P** all -53% to -94% basis = effectively dead OTM.
+   - **HYG Jun $75P x8 at $0.03 = $24 total** = dying. Loop closure owed.
+   - **TLT Jun $85P x3 at +92.2%** = best trade in stack. Duration channel paying per LIQUID 5/18 PLUMBING → DURATION read.
+   - **KRE Dec $60P x7** (4 cash + 3 margin) at -12% to -23% only = long-dated structural intact.
+   - **EGBN Jun $25P** -84% single-day today — single biggest %drop in stack. Verify catalyst.
+
+10. **RED-11 RESOLVED CORRECT.** VIX peaked ~19.21 5/15, never crossed 25 through 5/19 deadline. Modal 82% call landed. Calibration: 4 W / 2 C / 8 ACTIVE (was 4/1/9).
+
+11. **5th tape-vs-substance bifurcation observation today** (5/5 / 5/6 / 5/11 / 5/13 / 5/21). Pattern is now persistent, not transient. Calibration cycle 1 retro (~5/25 with BRENT/REGINALD) needs formal position on persistent-vs-resolving.
+
+**Predictions update:**
+- RED-08 (Brent <$120 Q2, 60%) → tracking right ($107 today)
+- RED-10 (HY OAS <400 by Jun, 45%) → tracking very right (276 cycle-low 5/18)
+- RED-11 (VIX ≥25 sustain by 5/19, 18%) → **RESOLVED CORRECT** (modal 82%)
+- RED-12 (Dated Brent next print <$115, 50%) → tracking right
+- RED-13 (Brent Dec26 $80-95 over 60d, 65%) → day 15 of 60 active
+- RED-14 (US rigs 400-415 through Jun, 65%) → 408 May 1 (verify update)
+
+**4 wrong / 2 correct / 5 active.** RED-08/10/12 tracking right.
+
+**Methodology deltas (Session 13 lessons):**
+- **Pre-register MI3 / catalysts against publication-confirmed-cadence, not assumed bulk-release dates.** FFIEC PDD publication has historically lagged 4-12 weeks post Q1 close. Next time: pre-register *contingent on data actually printing in window X*, with fallback action *if window X passes without data*.
+- **Don't tie V1 evidence to a single instrument.** B1 fired through 10-Q narrative, not MI3 number. V1 acceleration can manifest in multiple channels — pre-registered tree should accept *any* of: MI3 number print, 10-Q subsequent-event Office walk-away ≥$50M, second sponsor walk-away, mgmt-credibility break (e.g., Curley + Q2 miss). Treat them as alternate-routes-to-same-bin-(a).
+- **Peer-agent V2.2 = closing event for V2.1-direction challenge.** Pattern at second iteration: V2.0 (Apr) → CHG-RED-025 → V2.1 (May 11) → V2.2 (May 21). REGINALD restored bear weight more aggressively than my challenge asked for. Methodology lesson: when peer ships vN.2 with stronger-bear than vN.1, **close the related challenge RESOLVED-CONVERGED** without further stress-test — the peer-cycle resolved in challenge direction.
+- **Instrument-timeline mismatch is now fully manifest.** ~14/27 thesis-positions at -50% basis or worse; Jun stack in capitulation; TLT duration the only paying trade. Bear thesis right on substance, wrong on instrument-vehicle. Next thesis-cycle: rotate to duration (TLT) + long-dated regional (KRE Dec) + skip near-dated credit (HYG) + skip near-dated PC (APO Jun / ARES Jun).
+- **The 5/13 sell-rec on $85P was right framework, wrong calibration.** RED weighted MI3-prints-in-window probability too high vs MI3-doesn't-print-in-window. Real distribution should have been ~50/50, not the implicit ~70/30 my framework assumed. Lesson: when pre-registering binary-conditional sell-recs, *also* pre-register the no-binary-fires fallback.
+
+**Files written this session:**
+- `STATUS.md` (full refresh — header, top deltas, current assessment 75→73%, hypothesis rebalance, bull steelman compressed, counter-signals table 25-row refresh, position vulnerability table from broker CSV 5/21, exit-window framework state-3 added, falsification re-scoped, open challenges close-out, top priorities reorder, predictions scorecard)
+- `thesis/CHANGELOG.md` (this entry)
+- (pending) `CALENDAR.md` refresh + `workbook/PREDICTIONS.tsv` (RED-11 RESOLVED CORRECT) + `workbook/CHALLENGES.tsv` (CHG-RED-026 RESOLVED-CONVERGED via V2.2)
+- (pending) `workbook/ML.tsv` (ML-RED-064 through 067 — MI3-no-print discipline, V1-alt-mechanism, peer-V2.2-closing-event, instrument-timeline-mismatch realization)
+- (pending) `MEMORY.md` lessons (publication-cadence discipline + V1-alt-mechanism)
+
+---
+
 ## 2026-05-13 — WAL Post-IDay Reassessment + Stagflation Regime Tape-Realization + CHG-RED-025 RESOLVED-CONVERGED (Session 12 on Claude Code, 7-day gap from Session 11)
 
 **Confidence:** 73% → **75%** (+2)
