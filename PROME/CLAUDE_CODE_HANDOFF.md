@@ -644,3 +644,85 @@ Open with Will at next-session start:
 - Sequenced state-file edits per chunked-update memory.
 - TIPS-vs-nominal correction surfaced openly to Will rather than buried; lesson saved to memory.
 - HENRY context tightening (175K → 185K through this session) explicitly tracked; release sequence planned.
+
+---
+
+## Current Session — 2026-05-21 PM (post-closeout: COMM mailbox + Path B sweep on boot-context files)
+
+**Run type:** Will-directed late-session work after the ~14:30 ET closeout. Spawned again at ~15:35 ET to handle inbound messages from OpenClaw + run a focused staleness audit across auto-injected / boot-read files.
+
+### What landed (chronological)
+
+1. **COMM mailbox integration (commit `28dd3e13`).** OpenClaw Prome had scaffolded `PROME/COMM/` (merge-safe append-only mailbox, directional folders, separate-ACK pattern) and filed two TO_CLAUDE_CODE messages: BOND CUSIP caveat (HIGH; already-resolved on master via `724169c3` + `526d3586`) and mailbox-live confirmation (NORMAL). Filed both ACKs. Patched `BOOT.md` step 7 to make COMM check part of standard boot sequence + added templates to On-Demand. **Cross-surface validation finding:** OpenClaw caught the TIPS-vs-nominal issue independently from FiscalData's `inflation_index_security` flag; CC caught it independently from PDF / CUSIP-family inspection. Two evidence paths, same correction — first concrete validation of the dual-Prome redundancy thesis.
+
+2. **HEARTBEAT.md Path B refresh (commit `8f3fa922`, then surgical fix `pending`).** Honest reckoning: I had been propagating "HEARTBEAT refresh owed" across multiple sessions of CC state files without ever opening the file. Read it; established that it was OpenClaw-written historically (`Prome <prome@research.local>` author on every commit, zero `williepowen-debug` writes). Per SYSTEM.md design principle ("Current-state pointer layer. Should reference action cards, not contain full action logic.") the file had drifted from pointer-shape. Will explicitly authorized cross-surface boundary crossing for this pass. Trimmed 98→38 lines: cut multi-day Key Updates blocks (duplicates SCRATCH/STATUS/memory), Active Spawns (ephemeral), Operating Notes (SYSTEM/BOOT own that map). Refreshed Regime (4-agent Stage-2-late convergence + tape-vs-substance divergence read + WALTER steelman), Stress dashboard (live levels from dashboard.py — HY 280 [5/20], 10Y 4.57 [5/20], TLT $84.22, WAL $78.53 reclaimed $78, Brent $104.45), Thresholds table (refreshed + added 10Y + TLT rows + tightened VIX green band to <15). Then 16:25 surgical correction: **Tranche 2 row was wrong-from-boot** (SAM had executed 12:46 ET, before my 15:35 boot, but his commits weren't in my session state). Replaced with FORGE rehab as new top Blocking-on-Will row.
+
+3. **MEMORY.md focused sweep (commit `d60616cc`).** Read first (no inherited claims). Header metadata + content audit: stamp was honest (5/18 matched git), no silent drift. Frameworks still load-bearing. Three real framework-vs-reality contradictions caught — added 3 footnotes (Timing Thesis "May-Jul call-window now active and under test"; Hamilton Framework "execution-rails gap discovered May 21"; PC Contagion Mechanics "Stage 3 confirmed Apr 5 vs Stage 2-late today — different ontologies, reconcile"). 2 new SYSTEM ARCHITECTURE entries (Execution-Rails Are Part of the Framework; Stamp content as well as metadata). Scope creep disclosed: 2nd new entry not pre-promised — Will approved keeping.
+
+4. **TODAY.md / FORGE Path C pivot.** Started TODAY.md staleness audit (4 days off — title still "Sunday May 17"). While verifying catalyst calendar, discovered SAM had filed an outbox-to-PROME signal earlier today asking for FORGE rehab. **FORGE is significantly worse than HEARTBEAT/MEMORY/TODAY were** — STATUS Mar 25, PORTFOLIO Feb 19, JOURNAL Feb 27, per-trade folders Mar 17. FXY shown wrong (4 shares @ $59.77; actual 13 shares + 1 Jun-18 $58C). 6 expired options listed as active. Will-flagged + SAM-blocking + 6/18 expiry cluster is 28 days out. Pivoted scope: HEARTBEAT correction (Tranche 2 row + FORGE rehab row as new top blocking item + TODAY.md staleness flag in pointers); FORGE rehab captured as top next-session work; TODAY.md Path B drafted but not shipped.
+
+### Files edited (within autonomous scope)
+
+- `PROME/BOOT.md` — step 7 inserted (COMM check); On-Demand updated (templates)
+- `PROME/COMM/ACKS/20260521T193904Z_ack_bond-cusip-caveat.md` — new
+- `PROME/COMM/ACKS/20260521T193904Z_ack_comm-mailbox-live.md` — new
+- `HEARTBEAT.md` — Will-authorized cross-surface boundary; Path B refresh + 16:25 surgical fix
+- `MEMORY.md` — Will-authorized cross-surface boundary; focused sweep (additive only)
+- `PROME/SCRATCH.md` — surgical updates: Live carries refreshed; Cautions section adds FORGE leverage + workflow gap finding
+- `PROME/CLAUDE_CODE_HANDOFF.md` — this entry
+
+### Decisions Will made this session
+
+- Patch BOOT.md with the COMM check step ✅
+- Commit + push BOOT.md and ACKs ✅
+- Approve Path B over Path A/C/D for HEARTBEAT ✅
+- Write Path B directly to HEARTBEAT.md (vs draft elsewhere first) ✅
+- Commit + push HEARTBEAT.md ✅
+- Examine MEMORY.md next ✅
+- Do the focused sweep on MEMORY ✅
+- Keep the scope-crept second new entry ✅
+- Commit + push MEMORY.md ✅
+- Examine TODAY.md ✅
+- Verify before propagating (SAM Tranche 2 + CALENDAR.md) ✅
+- **Path C** — fix HEARTBEAT and capture FORGE for next session ✅
+
+### Decisions needed from Will (forward-looking)
+
+- **FORGE rehab** — top next-session item. Scope question: full rehab (STATUS + PORTFOLIO + JOURNAL + per-trade folders, reconciliation across SAM/BROCK/RED/HENRY position states) vs incremental (fix FXY + flag expired options first, deeper work later).
+- **HEARTBEAT refresh cadence design question** — listed as Blocking on Will in HEARTBEAT itself; needs resolution before next staleness loop.
+- **OpenClaw-surface refresh** (HANDOFF, FLEET_SCAN) — these are still his to write. COMM mailbox now exists as a coordination channel; could draft a message asking for his refresh on next boot.
+- **CALENDAR.md** — 3/27 stale; flagged in SCRATCH for own treatment after TODAY.md.
+- **TODAY.md Path B refresh** — drafted but not shipped. Has all the inputs ready (live data, catalyst additions from CALENDAR, SAM correction). 15-25 min if Will wants it next session.
+
+### Risks / Blockers
+
+- **None blocking** this handoff itself.
+- **Soft:** TODAY.md unrefreshed but flagged in HEARTBEAT pointers as stale. Acceptable interim state.
+- **Soft:** FORGE remains wrong-state until rehab. Position-tracking risk is real but bounded — SAM's TRADE.md v1.4 is authoritative for FXY; BROCK position-decisions doc is authoritative for the BDC book.
+
+### v_next design inputs returned this session
+
+1. **Cross-surface validation pattern canonized.** OpenClaw + CC both catching the TIPS-vs-nominal issue independently from different evidence paths is exactly what the dual-Prome architecture should produce. Worth a finding-memory entry.
+2. **Outbox-resident PROME-bound signals don't auto-route.** Per file-based messaging convention, sender writes to receiver's inbox; sender writing to own outbox + expecting receiver to scan creates a discovery gap. Boot procedure should scan agent outboxes for PROME-targeted signals OR cross-agent-inbox writes should be standardized via the COMM mailbox now that it exists.
+3. **Path B Pattern.** "Trim to design-doc-prescribed shape" works well on bloated state files. Recipe: read SYSTEM/BOOT for design role, audit current vs role, cut anything that duplicates other owner files, refresh remaining sections to live state. Applied to HEARTBEAT (98→38); transferable.
+4. **The "Stamp content as well as metadata" lesson re-validated within the same session it was saved.** Tranche 2 wrong-from-boot was Inheritance-Of-Stale-Claim #2 today (first was HEARTBEAT itself). Even with the lesson explicit in MEMORY, propagation happened. Implication: the failure mode is structural (inherited state files reload into next session's surface text), not just a behavioral lapse. Cross-agent verification at boot is the structural fix.
+
+### Next Suggested Work
+
+Open with Will at next-session start:
+- **FORGE rehab** (top item; biggest leverage)
+- TODAY.md Path B (if FORGE work allows; drafted, has inputs)
+- CALENDAR.md treatment after TODAY
+- HEARTBEAT refresh cadence design question
+
+### Rules I Held To
+
+- No commits outside `PROME/`, `AGENTS/PROME/`, plus Will-authorized HEARTBEAT.md + MEMORY.md (root) crossings.
+- No `git add -A` or `git add .`.
+- No edits to other agents' files. SAM's outbox-to-PROME signal read-only; not moved/copied/edited.
+- No persistent-agent spawns. No teams-mode spawns this session.
+- No trades. No external messages.
+- Read-before-edit honored.
+- Behavior-language in state files (commits referenced only as audit anchors).
+- Show-diff-then-approve for each cross-surface boundary write (HEARTBEAT path-choice + MEMORY scope + HEARTBEAT surgical fix all gated through Will before commit).
+- Scope creep on MEMORY (2nd new entry) disclosed openly before commit; Will approved.
