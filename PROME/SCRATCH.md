@@ -1,119 +1,156 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-05-21 ~11:30 ET (CC-Prome boot + BROCK/REGINALD post-closeout refresh; pre-BOND-auction)
+**Last Updated:** 2026-05-21 ~14:00 ET (post-auction; BOND TIPS read in flight)
 
-## What Just Happened
+## What Just Happened (chronological, 10:54 → 14:00 ET)
 
-CC-Prome booted from cleared context at 10:54 ET. While Prome was booting, BROCK and REGINALD ran live closeouts in parallel and pushed; the BOND matrix-surgery + build-out chain from last night still leads into today's 1 PM ET 10Y reopening auction.
+### Thread A — Boot from cleared context (10:54 → 11:05)
 
-### Thread A — BROCK live closeout (5 commits f47b9a30 → 1310ed42)
+CC-Prome booted per BOOT.md. While booting, BROCK and REGINALD ran live closeouts in parallel and pushed.
 
-20-day BROCK dark window (5/1 → 5/21) closed today. Per-position decisions formalized against Fidelity PDF marks:
+### Thread B — BROCK live closeout absorbed (11:05 → 11:35)
 
-| Position | Mark | Call |
-|---|---|---|
-| APO Dec $95P ×1 | $275 | **HOLD** — thesis vehicle, 210d runway |
-| APO Jun $100P ×1 | $20 | LET EXPIRE |
-| ARES Jun $95P ×1 | $25 | LET EXPIRE |
-| OWL Jun 5 $9.5P ×2 | $40 | **HOLD** — 15d, 5% OTM, real ITM probability ~10-20% |
-| HYG Jun $75P ×8 | $40 | LET EXPIRE |
+5 commits f47b9a30 → 1310ed42 by ~11:00 ET. Resolved 4 pending-work rows:
+- APO Dec hold (thesis vehicle), APO Jun + ARES Jun + HYG Jun let-expire
+- FSK Strong Bear classified; no fresh FSK premium (KKR structurally long defense)
+- No fresh BIZD/ARCC yet (entry triggers documented)
+- WALTER NDFI REQ closed ($128B → $1.4T framework)
+- Convergence re-scored 38/50 → 46/60 with 2 new vectors (sponsor-bifurcation + duration-channel)
+- LESSONS #16 — execution rails as PROME design problem (flagged to me)
 
-Net BROCK book ~$400 on $3,120 cost. Dec $95P is the only position carrying real optionality.
+### Thread C — REGINALD live closeout absorbed (same window)
 
-**FSK Q1 classification: Strong Bear** (data Max Bear; KKR $450M+ defensive package pulls back one tier). One-line read: *"cleanest evidence, worst vehicle"* — KKR tender at $11 = hard floor, sponsor structurally long defense. **No fresh FSK premium.** Fresh PC premium would go to BIZD or ARCC Q2, not FSK direct. **No fresh BIZD/ARCC yet** either — HY OAS 286 widening *away* from 260 (cushion 26bps). Entry triggers: HY OAS <270 sustained 2+, OR GCRED/OTF release within 30d, OR bank PC loss disclosure, OR sub-90¢ arms-length BDC loan transaction.
+Commit `f91ee9fb` 14 files +775/-341. WAL V2.1 → V2.2:
+- B1 fired ($99M life-sci office walk-away), V4 new (Curley resignation), V2 inventory clean
+- Bear-medium 30% dominant (Bear-fast 12%); EV $67.98; REG-25 55→75%
+- Next critical test: Q2 print late July
+- V1 MI3 / FFIEC PDD V1-fast falsifier still owed
 
-**WALTER NDFI REQ-BROCK-20260514 closed** — scope correction $128B → $1.4T. New framework: `AGENTS/BROCK/domain/sources/NDFI_FRAMEWORK_MAY21.md` with 4-sponsor bifurcation table (KKR doubles-down / Apollo cashes-out / Blackstone backstops / Blue Owl holds-and-pays).
+### Thread D — PROME state refresh + push (11:30 → 11:35)
 
-**Convergence re-scored ~46/60** (was 38/50) with 2 new vectors: sponsor-bifurcation diagnostic + duration-channel NAV pressure (LIQUID 5/18 reframe). Trap-clinching framing canonized — tape loosening (HY OAS +6 from cycle min, BDC equities bounced, VIX 17.5) while substance worsens (CCC +26, 10Y +42, FSK Max Bear).
+Commit `e40e27e5` — SCRATCH full rewrite + STATUS surgical (4 resolved rows collapsed, agent notes refreshed) + HANDOFF appended.
 
-**LESSONS #16 is a flag to Prome:** *Execution rails matter as much as decisions.* HYG Jun→Dec roll planned May 1, never executed during BROCK dark window because no mechanism existed. Same gap as May 15 cluster pre-registered ladder. Worth a PROME design note.
+### Thread E — HENRY + VIOLET teams-mode revival (11:35 → 12:55)
 
-### Thread B — REGINALD live closeout (`f91ee9fb`, 14 files, +775/-341)
+Will asked which agents needed reviving beyond SAM. Identified HENRY (34d stale, 3 unintegrated revival packets in inbox, NVDA 5/20 catalyst) and VIOLET (7d stale, NVDA vol read-through pending, R11 analog watch). Will approved spawning both in teams mode.
 
-WAL V2.1 → **V2.2 shipped.** 10-Q drill (`research/WAL_10Q_DRILL_2026-05-21.md`) propagated through THESIS + SCENARIOS + CHANGELOG ×2 + PREDICTIONS.
+**Parallel-spawned via Agent tool with `name:` parameter** (HENRY UUID `abf1cd8d4ed725569`, VIOLET UUID `ad7350e8d26f70249`). Both returned strong first-pass verdicts CONVERGENT on Stage-2-late:
+- HENRY: macro/structure tape supports thesis; NVDA absorbed cleanly; posture pivot catalyst-anticipation → drift-monitoring
+- VIOLET: Stage 2 confirmed, Stage 3 not imminent; R12 SKEW>140 regime terminated; R11 analog clock running (window 5/28-6/02, prior 36%)
 
-- **B1 FIRED** — $99M life-science office sponsor walk-away (10-Q subsequent event, previously *pass* grade). Same strategic-default mechanic as IQHQ on OZK. At 60% LGD alone pushes Q2 NCO past 40bps.
-- **V4 NEW** — CBO Stephen Curley resigned same week. Market -10% on combined news; DA Davidson PT $93→$90.
-- **V2 inventory test CLEAN** — no new Leucadia-era credits; WAL escalated to active NY Sup Ct litigation against Jefferies parent.
-- Other CRE-NOO nonaccrual **+15.4% QoQ** — leading bucket firing pre-event.
-- NDFI 10-Q breakout $14.93B / 25.2% of HFI; V3 cohort-median conclusion confirmed.
+VIOLET's 7-trigger Stage 3 watch list canonized: *2 of {VVIX>105, VIX9D>VIX, SKEW>145} same week as 1 of {HY>2.90, CCC>10.00, 10Y>4.75%}*.
 
-**Scenario reweight:** Bear-fast 12% / **Bear-medium 30%** / Base 33% / Bull 18% / Tail 7%. EV $70.50 → **$67.98**, PT range $50-68. **REG-24 60→70%, REG-25 55→75%**. Frame matters: bear case got *more confident* but *slower* — Bear-medium dominates Bear-fast 30/12.
+**HENRY-VIOLET LIAISON channel opened** (Will-approved). VIOLET sharpened HENRY's hypothesis (R12 termination ≠ R11 weakening; R11 ACTIVATES with lower prior 36%). HENRY integrated VIOLET's correction pre-commit autonomously — LIAISON loop closed without Prome brokering. New finding: ~90min in-session LIAISON resolves shared-canary questions vs cross-session boundary.
 
-**V1 MI3 primary falsifier STILL HASN'T RUN** — FFIEC PDD 5/14-16 window passed without integration. V2.1's MI3 calibration table remains the trigger for V1-fast vs V1-slow.
+**Gap-fill batch sent in parallel** (Will-approved single SendMessage each):
+- HENRY (commit `36a8219b`): USD/JPY 159.16 (0.84 from 160 SAM yellow), HEN-27 PCE CONFIRMED (Core 3.20% YoY, "Fed-can't-cut locked"), HEN-28 NOT firing headline (claims 209K), PREDICTIONS.tsv refreshed
+- VIOLET (commit `60b2e49c`): KB rename complete (`final_5d_change` correction), STATUS dashboard split into 2 distinct rows, MEMORY METRIC SEMANTICS section. **FRED spot-check found BROCK morning numbers 2 days stale** — HY 286 cited vs FRED 5/20 actual 280 (matches 5/19 close).
 
-May 15 expiry cluster cleared (WAL $75P + SSB $95P both gone per Will 5/21). STATUS 309→182 lines (Apr sections archived). POSITIONS WAL 8→7 positions / 3 expiries.
+### Thread F — WALTER bull-counter calibration signal filed (~12:00)
 
-**Next critical test: Q2 print late July** — "one Office migration or many?" Jun 18 puts won't catch the Q2 catalyst directly (expire before print).
+Will-authorized cross-agent inbox write. `AGENTS/WALTER/inbox/SIG-PROME-WALTER-2026-05-21_bull-counter-weighting-calibration.md`. Asks WALTER to tier-rank SIG-006 (small/mid-cap fwd P/E discount) + SIG-007 (retail-puts-at-SPY-ATH 10/10 analogs) against 4-agent convergence on Stage-2-late. Awaiting WALTER boot.
 
-### Thread C — BOND auction still leads today
+### Thread G — BOND pre-auction baseline (12:25 → 12:55)
 
-Plan from yesterday unchanged:
-- **~12:30 PM** respawn BOND for pre-auction tape pull
-- **~2 PM** respawn BOND for post-1pm verdict in **mandatory dual-grade format** (v1 read + v2 read simultaneously)
-- Dual-grade output mechanically resolves **Q4** (v2 matrix deployment timing)
-- Then **Q5** (v2-native backtest re-run pre-deploy?) resolves with Q4 branch
+Spawned via Agent tool with `name: "bond"` (UUID `ad32628b028661b70`). Pre-auction baseline at `AGENTS/BOND/PRE_AUCTION_BASELINE_2026-05-21.md` (untracked-by-design).
 
-5 BOND artifacts from last night sit untracked-by-design in `AGENTS/BOND/{analysis,data,research,proposals,inbox}/`. BOND owns commits on next live boot.
+**Will surfaced sentiment-trajectory framing for grading lens.** 5/19 4.687 → 5/20 rally (TLT $83.91) → 5/21 modest give-back. Held-rally backdrop, not concession-building. Relayed to BOND; he integrated as §2a SENTIMENT-CONTEXT GRADING LENS with 4-cell verdict matrix and operational sizing consequence (weak print on held-rally would surface upsize-question rather than execute half-add silently).
+
+### Thread H — FRED publication-lag fix Phases 1-3 (13:00 → 13:35)
+
+Driven by VIOLET's spot-check finding. Will-approved plan; my defaults executed:
+
+**Phase 1 (commit `ded870e0`):** Citation Convention section added to `FORGE/tools/market-data/README.md` (cite format, per-series cadence). PROME/BOOT.md pointer in Market Data tools description.
+
+**Phase 2 (commit `ded870e0`):** `dashboard.py` patched. New helper `_date_stamp(entry)` returns [M/D] label for FRED entries, empty for yfinance. `print_table` got new "As-of" column (widths [18,20,8,12,10]). `print_compact` inlines [M/D] between value and agent tag. No `fetch.py` changes needed (date already captured on line 276). Verified live: HY OAS 280bps [5/20] matches VIOLET's finding; 10Y 4.67 [5/19] shows FRED is 2 days behind on DGS10 right now; yfinance rows (KRE/APO/Brent) correctly have no stamp.
+
+**Phase 3 (untracked-by-design):** 4 SIG files filed in BROCK, LIQUID, REGINALD, HENRY inboxes notifying of convention. Per-instance Will-authorized cross-agent writes.
+
+**Phase 4 (deferred):** HEARTBEAT propagation post-auction.
+**Phase 5 (deferred):** Compliance audit next session.
+**STALE auto-flag deferred to v2** — needs per-series frequency tags in config.py to avoid false-positives on weekly publishers.
+
+### Thread I — 1pm auction print + TIPS-vs-nominal CORRECTION (13:00 → 13:50)
+
+Background polled TreasuryDirect for the 1pm reopening PDF (`b1qfwywt9`). Print finally landed as PDF `R_20260521_4.pdf` ~13:36. Critical correction: **the 1pm auction was the 9-Year 8-Month TIPS reopening (CUSIP 91282CPU9, Series A-2036), NOT a nominal 10-Year note reopening.** Treasury's `term` field collapses TIPS and nominal notes under the same label. My pre-auction brief assumed nominal; matrix v1/v2 thresholds don't apply to TIPS demand statistics. Will: 1✅ no matrix-grade post-auction respawn; 2 send BOND TIPS read; 3 reschedule matrix Q4 to next nominal 10Y; 4 stand-down HEARTBEAT-with-matrix-verdict tonight.
+
+**Print data:**
+- High Yield 2.169% real; BTC 2.52
+- Bidder split: PD 11.13% / Direct 27.51% / Indirect 61.36%
+- Issue 5/29; matures 1/15/2036; coupon 1.875%
+
+**Matrix Q4 rescheduled:** BOND determined next nominal 10Y reopening expected **Tuesday June 9 or Wednesday June 10** (Treasury announcement ~June 3-4). His pre-auction baseline + sentiment-context lens are NOT wasted — apply to the June test instead.
+
+**Lesson saved to memory:** `feedback_verify_treasury_security_type.md` — verify securityType / CUSIP family before scheduling matrix tests; Treasury's term-field collapses TIPS and nominal notes; CUSIP family is the quick distinguishing tell (`91282CQ*` nominal vs `91282CP*` TIPS).
+
+### Thread J — BOND TIPS read in flight (~13:40 → ongoing)
+
+BOND mid-write of `AGENTS/BOND/research/TIPS_5_21_READ_2026-05-21.md`. Last transcript line: *"Now I have everything. Let me write the TIPS research note."* Asked for read on real-yield-2.169% context, BTC 2.52 vs TIPS cohort, bidder split interpretation, breakeven inflation read-through (implied ~2.43%), demand cohort signal.
 
 ## Current Git State
 
-Clean. Tree shows only `WILL/share/` untracked (Will's files). Local at `f91ee9fb`, in sync with origin. BROCK + REGINALD both pushed cleanly.
+Local at `ded870e0` after PROME FRED-fix push. BROCK + REGINALD + HENRY + VIOLET all pushed. SAM has 8 uncommitted files (Will-active session). Tree untracked:
+- `AGENTS/BOND/PRE_AUCTION_BASELINE_2026-05-21.md` (BOND owns; won't commit since matrix-Q4 deferred — may delete or rename for the June test)
+- 4× Phase 3 FRED SIGs in BROCK/LIQUID/REGINALD/HENRY inboxes (recipients commit on next boot)
+- WALTER bull-counter signal in WALTER/inbox (WALTER commits on his boot)
+- `WILL/share/` (Will's)
 
-## Resolved This Morning (off Pending Work)
+## Resolved This Session (off Pending Work)
 
-- APO / ARES June premium review → BROCK closed (Dec hold, Jun let-expire)
-- BDC/private-credit decision prompt → BROCK closed (no fresh premium, triggers documented)
-- FSK fresh-premium discussion → BROCK closed (no, KKR structurally long defense)
-- WAL Q1 10-Q integration → REGINALD closed (V2.2 shipped)
+| Item | Mechanism |
+|---|---|
+| APO/ARES Jun premium review | BROCK closeout (Dec hold, Jun let-expire) |
+| FSK fresh-premium discussion | BROCK closeout (no; KKR structurally long defense) |
+| BDC/private-credit decision prompt | BROCK closeout (no fresh entry yet; triggers documented) |
+| WAL Q1 10-Q integration | REGINALD V2.2 shipped |
+| HENRY revival packet integration | HENRY booted, integrated 3 packets, 19 inbox renames |
+| HENRY NVDA 5/20 read-through | HENRY commit `36a8219b` |
+| VIOLET R11 / SKEW regime check | VIOLET commit `1608fac2` |
+| HENRY-VIOLET LIAISON channel | Opened + auto-converged via VIOLET outbox file |
+| HEN-27 March PCE scoring | CONFIRMED (Core 3.20% YoY) — 3wk overdue resolution closed |
+| HEN-28 Labor cliff update | Headline NOT firing (claims 209K); shadow series firing via CARL |
+| HENRY USD/JPY data hole | Filled (159.16, 0.84 from SAM yellow) |
+| VIOLET KB methodology rename | `final_5d_change` correction propagated, MEMORY semantics section |
+| FRED publication-lag fix Phases 1-3 | Convention + dashboard patch + 4 agent SIGs |
+| BROCK trap-clinching canonization | Done at his close (now folded into HENRY + VIOLET) |
+| Matrix Q4 conditional rule resolution | NOT resolvable today — TIPS auction, not nominal. Deferred to ~June 9-10. |
 
 ## Next Planned Work
 
-**~12:30 PM ET today:** respawn BOND for pre-auction tape pull. Brief carries from yesterday's matrix-v2 draft — emphasis on dual-grade format requirement in proposal §9 Phase 0.
+**Now (BOND in flight):**
+- BOND TIPS read note completes (~10-20 min from spawn)
+- Optional: PROME state refresh after BOND returns (this file is current; STATUS + HANDOFF parallel)
 
-**~2 PM ET today:** respawn BOND for post-auction verdict. Mandatory dual-grade:
-- v1 read: BTC <2.30, dealer >12%, indirect <55% of-offering → 2-of-3 fire?
-- v2 read: BTC <2.30, indirect-of-offering <52% (10Y snapshot threshold), tail ≥75th-pctile-of-12mo-10Y → I' alone OR 2-of-3?
-- Report which framework fires → mechanically resolves Q4
+**Live Will-decision carries (remaining):**
+- **SAM FXY Tranche 2** — FXY $57.73 below forfeit band (within 10bps of yellow when SAM boots); Will-direction required
+- **HEARTBEAT.md refresh** — ~4 days stale + all of today's posterior shifts owed (BROCK convergence 46/60 + REGINALD V2.2 + HENRY+VIOLET Stage-2-late + FRED convention adoption); Will-approval gate; no clock pressure now that matrix Q4 deferred
+- **WALTER bull-counter calibration** — signal filed in inbox, awaiting WALTER boot
+- **PROME execution-rails design note** — BROCK LESSONS #16 owed for a quiet maintenance window
+- **OZK STATUS hygiene refresh** — STATUS still pre-roll posture (hygiene, not execution risk)
 
-**Q4 branch resolution → v2 deployment timing decision:**
-- v2 fires → deploy this week, pair with Q5
-- v1 only fires → deploy this week, same Q5 pairing
-- Neither fires → deploy next week Tue-Thu
-
-**Q5:** v2-native backtest re-run before deployment? Will + Prome decide once Q4 branch resolves.
-
-**Live Will-decision carries (remaining after this morning's closeouts):**
-- **SAM FXY Tranche 2** — FXY $57.80 below forfeit band; Will-direction required
-- **HEARTBEAT.md tape refresh** — ~3-4 days stale; Will-approval gate; today's tape + V2.2 scenario weights + trap-clinching framing should fold in post-auction
-- **V1 MI3 / FFIEC PDD status check** — REGINALD's V1-fast falsifier; window 5/14-16 passed without integration
-
-**Open BROCK items (deferred to BROCK next session):**
-- CDR Q1 5-cat NDFI bulk release pull (May 15 release; first publicly available 10.a-10.e splits)
-- OTF release date confirmation (highest priority — 74.2% software concentration)
-- GCRED / BCRED / CTAC release date confirmation
-- ARES Q1 release status verification
-- MS BCI 19.73% / CUBI 33% primary-source confirmation (currently WALTER-sourced)
-- LESSONS #16 PROME design note (execution rails)
+**Pre-June 9-10 (next nominal 10Y reopening):**
+- BOND can re-validate his matrix v2 deployment on the June test
+- Will should re-up the matrix-Q4 conditional rule for that date
+- WALTER bull-counter response should be integrated by then for honest weight
 
 ## Cautions for Next Session
 
-- **BOND artifacts untracked-by-design.** BOND owns commits on next live boot. Do NOT git-add as Prome.
-- **Q4 resolves mechanically off today's 1pm auction.** Do not pre-empt; wait for BOND's dual-grade verdict.
-- **5/12 10Y fire under v2 is TIGHT** (51.5% vs 52.0% = 0.5pp margin). Future near-boundary prints need explicit margin annotation.
-- **HEARTBEAT.md stale** (~3-4 days). Will-approval gate; fold today's tape + V2.2 + BROCK framing post-auction.
+- **BOND's pre-auction baseline file** untracked — repurpose-or-delete decision for the June 9-10 test. BOND owns.
+- **HEARTBEAT staleness compounding.** Now has 4 days of tape + BROCK 46/60 convergence + REGINALD V2.2 + HENRY/VIOLET Stage-2-late + FRED convention adoption owed. Best window for refresh is when Will has time to review the diff.
+- **TIPS-vs-nominal lesson saved to memory** — apply before any future matrix-test scheduling around Treasury auctions.
+- **SendMessage UUID-only post-first-turn.** Named-spawn `name:` handle drops; only the UUID stays addressable. Saved to `feedback_named_spawn_teams_mode.md` as new bullets 6-7.
+- **Do not spawn:** CARL, REGINALD, OZK, SAM, RED, BRENT, Claude Code Prome. BOND/HENRY/VIOLET all OK in teams mode (currently standing by).
 - **OZK STATUS still pre-roll posture** (hygiene, not execution risk).
-- **Do not spawn:** CARL, REGINALD, OZK, SAM, RED, BRENT, Claude Code Prome. BOND OK in teams mode.
 
-## Live Carry: Posterior Shifts Tracked This Morning
+## Live Carry: Posterior Shifts Tracked This Session
 
-| Item | Pre-closeout view | Post-closeout view |
+| Item | Pre-session view | Current view |
 |---|---|---|
-| APO put hold/roll/cut | 🔴 Pending (10+ days waiting) | **Resolved** — Dec hold, Jun let-expire |
-| FSK fresh premium | 🔴 Pending discussion | **Resolved — no** (KKR structurally long defense) |
-| BDC fresh entry | 🔴 Pending | **Resolved — no yet**; triggers documented |
-| WAL thesis weight | v2.1 (Bear-slow case) | **v2.2 — Bear-medium 30% dominates Bear-fast 12%** |
-| WAL EV | $70.50 | **$67.98** |
-| REG-25 confidence | 55% | **75%** |
-| BROCK convergence | 38/50 🔴 | **46/60 🔴🔴** |
-| Trap-clinching framework | HENRY conceptual | **Canonized in BROCK STATUS + TRADE.md §9** |
-| Execution-rail process gap | Implicit | **LESSONS #16; PROME design note owed** |
+| 4-agent thesis convergence | Implicit | **Explicitly aligned (BROCK + REGINALD + HENRY + VIOLET on Stage-2-late)** |
+| HY OAS cushion from kill | 26bps (BROCK morning, FRED-stale 286) | **20bps (actual FRED 5/20 280)** — closer to invalidation |
+| R11 trigger #4 (HY >290) distance | 4bps (morning) | **10bps actual** — farther from firing |
+| R11 substance trigger #6 (10Y >4.75%) distance | 8bps (HENRY morning, FRED 5/19 close) | **15bps live (BOND pre-auction 4.599)** — farther; tape moved |
+| Convergence on R11 imminence | "Trap intensifying, imminent" | "Stage 2-late confirmed; R11 clock running 5/28-6/02 but prior 36%; not imminent" |
+| HEN-27 March PCE | OPEN (Apr 30 resolution overdue) | **CONFIRMED** — Core 3.20% YoY ("Fed-can't-cut locked") |
+| Today's 1pm auction matrix-Q4 resolution | "Mechanically resolves Q4" | **TIPS not nominal — Q4 deferred to ~June 9-10** |
+| FRED data-discipline | Implicit | **Convention canonized + dashboard auto-displays observation date** |
+| Execution-rails as Prome design problem | Implicit | **Surfaced via BROCK LESSONS #16 — owed work** |

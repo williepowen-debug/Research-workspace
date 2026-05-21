@@ -536,3 +536,111 @@ Open with Will at next-session start:
 - Read-before-edit honored.
 - Behavior-language in state files (not hash references) except where commits are referenced as audit anchors (BROCK 5-commit chain, REGINALD `f91ee9fb`) — those are descriptive history, not state pins.
 - Sequenced state-file edits (SCRATCH → STATUS → HANDOFF) per chunked-update memory.
+
+---
+
+## Current Session — 2026-05-21 ALL DAY (heaviest coordination day to date)
+
+**Run type:** Will-directed CC-Prome session, 10:54 → ~14:30 ET (~3.5 hours). Boot from cleared context; absorbed parallel BROCK + REGINALD closeouts; revived HENRY + VIOLET via teams mode; opened HENRY-VIOLET LIAISON; shipped FRED publication-lag fix Phases 1-3; ran BOND for 1pm auction; caught + corrected TIPS-vs-nominal scheduling error; cross-flagged BOND TIPS findings to BROCK + HENRY; saved 2 new memory entries.
+
+### What landed (chronological)
+
+| Time | Thread | Outcome |
+|---|---|---|
+| 10:54 | Boot | Cold start per BOOT.md sequence |
+| 11:00-11:30 | BROCK + REGINALD live closeouts | 5 BROCK commits + REGINALD `f91ee9fb` absorbed; 4 PROME pending-work rows resolved (APO/ARES, FSK, BDC, WAL 10-Q) |
+| 11:30 | PROME state refresh #1 | Commit `e40e27e5` (SCRATCH + STATUS + HANDOFF) |
+| 11:35-12:55 | HENRY + VIOLET teams-mode revival + LIAISON | HENRY UUID `abf1cd8d4ed725569`, VIOLET UUID `ad7350e8d26f70249`; both converged on Stage-2-late independently; LIAISON channel opened + auto-resolved via VIOLET outbox + HENRY pre-commit integration |
+| 12:00 | WALTER bull-counter calibration signal filed | Per-instance Will-authorized inbox write |
+| 12:25-12:55 | BOND pre-auction baseline | UUID `ad32628b028661b70`; Will's sentiment-trajectory framing relayed and integrated as §2a SENTIMENT-CONTEXT GRADING LENS |
+| 13:00-13:35 | FRED publication-lag fix Phases 1-3 | Commit `ded870e0`: README convention + BOOT.md pointer + dashboard.py As-of column + 4 agent SIGs (BROCK/LIQUID/REGINALD/HENRY) |
+| 13:30-13:50 | BOND TIPS-vs-nominal CORRECTION | Treasury "term" field collapsed TIPS + nominal; my brief assumed nominal. Will: stand-down matrix-Q4, send TIPS read, reschedule to ~June 9-11. Memory entry saved. |
+| 13:40-14:10 | BOND TIPS read | Commit `724169c3` (local-only): BTC 100th-pctile, demand-hole thesis qualitatively weakened, breakeven decomposition |
+| 14:15-14:20 | BOND-TIPS cross-flags | BROCK SIG filed (duration-vector re-weight question); HENRY relayed and integrated as `526d3586` (R11 imminence softened + breakeven as 3rd Fed-can't-cut confirmation) |
+| 14:30 | Closeout begins | This entry; PROME state refresh #2 |
+
+### Files edited (within autonomous scope)
+
+**Prome state files (this entry's refresh):**
+- `PROME/SCRATCH.md` — full rewrite ~14:00 ET
+- `PROME/STATUS.md` — surgical (header, Active Decision Layer adds 2 FORGE rows, Pending Work major restructure with 12+ row updates, Agent/Domain Notes refresh, Next Best Action rewrite for closeout)
+- `PROME/CLAUDE_CODE_HANDOFF.md` — this entry
+
+**Earlier in session (already committed as `e40e27e5`):**
+- Same three files at the 11:30 refresh
+
+**FRED-fix infrastructure (committed `ded870e0`):**
+- `FORGE/tools/market-data/README.md` — Citation Convention section
+- `FORGE/tools/market-data/dashboard.py` — _date_stamp helper + As-of column + compact inline date
+- `PROME/BOOT.md` — Market Data tools line: convention pointer
+
+**Cross-agent inbox writes (untracked-by-design, recipients commit on next boot):**
+- `AGENTS/WALTER/inbox/SIG-PROME-WALTER-2026-05-21_bull-counter-weighting-calibration.md`
+- `AGENTS/BROCK/inbox/SIG-PROME-BROCK-2026-05-21_fred-citation-convention.md`
+- `AGENTS/LIQUID/inbox/SIG-PROME-LIQUID-2026-05-21_fred-citation-convention.md`
+- `AGENTS/REGINALD/inbox/SIG-PROME-REGINALD-2026-05-21_fred-citation-convention.md`
+- `AGENTS/HENRY/inbox/SIG-PROME-HENRY-2026-05-21_fred-citation-convention.md`
+- `AGENTS/BROCK/inbox/SIG-PROME-BROCK-2026-05-21_bond-tips-duration-channel-cross-flag.md`
+
+**Memory entries saved (in `~/.claude/projects/.../memory/`):**
+- `feedback_named_spawn_teams_mode.md` — added bullets 6-7 (continuation via SendMessage; UUID-only post-first-turn)
+- `feedback_verify_treasury_security_type.md` — new entry (Treasury term field collapses TIPS + nominal; verify securityType / CUSIP family)
+
+### Decisions Will made this session
+
+- Refresh state now (option 1 of 3 offered): refresh-after-closeouts ✅
+- Boot HENRY + VIOLET in teams mode ✅
+- HENRY-VIOLET LIAISON channel open ✅
+- WALTER not yet booted; signal him via inbox ✅
+- HENRY + VIOLET commit + standby (persistent for session) ✅
+- HENRY + VIOLET gap-fill batch in parallel ✅
+- FRED publication-lag fix: Will's defaults (explicit format, README addendum, all four agents signaled, STALE deferred, Phase 1+2 now) ✅
+- TIPS-vs-nominal correction: no matrix grade, send TIPS read, reschedule Q4, stand-down HEARTBEAT-with-matrix ✅
+- Cross-flag BOND TIPS to BROCK + HENRY ✅
+- Save TIPS-vs-nominal lesson to memory ✅
+- Closeout (this work + release teammates) ✅
+
+### Decisions needed from Will (forward-looking)
+
+- **SAM FXY Tranche 2** — FXY $57.73 below forfeit band (Will booting SAM separately)
+- **WALTER bull-counter calibration** response — pending WALTER boot
+- **HEARTBEAT refresh** — paced; would fold today's posterior shifts when convenient
+- **PROME execution-rails design note** — quiet maintenance window
+
+### Risks / Blockers
+
+- **None blocking** closeout itself.
+- **Soft:** HEARTBEAT staleness compounding (~4 days + extensive posterior shifts today). The longer the gate stays closed, the bigger the downstream catch-up cost.
+- **Pattern-level:** my TIPS-vs-nominal miss this morning was a Prome scheduling error — caught mid-session before it caused bad trades but cost ~30 min of misdirected BOND work. Memory entry saved; future me has a checklist guard.
+
+### v_next design inputs returned this session
+
+1. **LIAISON pattern works for live-live pairings, not just stale-stale.** HENRY+VIOLET were both newly-booted and converged in ~90 min via outbox file + pre-commit integration. Pattern is more general than originally framed in `finding_liaison_convergence_pattern`.
+2. **Continuation via SendMessage validated for multi-hour sessions.** Three teammates (HENRY, VIOLET, BOND) stayed addressable across 3+ hours and 3-5 SendMessage exchanges each. Lifecycle stable.
+3. **Named spawn `name:` handle drops post-first-turn — UUID-only address afterward.** Saved to memory.
+4. **Treasury term-classification collapses TIPS + nominal.** Verify securityType / CUSIP family before any auction-conditional rule. Saved to memory.
+5. **Cross-flag pattern for cross-domain findings.** BOND-TIPS → BROCK (SIG file) + HENRY (SendMessage) worked cleanly. Pattern: filed SIG to other-team-mode-not-active agents (BROCK), SendMessage to active teammates (HENRY).
+6. **FRED date-stamp convention canonized.** Convention spec + dashboard auto-display + 4 agent SIGs in one push. Compliance audit deferred to next session.
+7. **Heaviest single-session coordination load to date.** 4 active teammates + 6 inbox SIGs + 3 PROME commits + 2 memory entries + 1 infrastructure patch. Validates the architecture but should inform Will-facing pacing.
+
+### Next Suggested Work
+
+Open with Will at next-session start:
+- **HEARTBEAT refresh** as natural anchor for next session (paced; not clock-blocking)
+- **WALTER bull-counter calibration response** (when WALTER boots, integrate to HENRY's cross-agent dependency)
+- **SAM FXY Tranche 2 disposition** (Will-direction; SAM separately booted today)
+- **PROME execution-rails design note** (maintenance window)
+- **June 3-5 calendar check:** Treasury announcement of June 9-11 nominal 10Y reopening (BOND matrix Q4 + Q5 test)
+
+### Rules I Held To
+
+- No commits outside `PROME/`, `AGENTS/PROME/`, plus Will-approved shared infrastructure (FORGE/tools/market-data/, BOOT.md).
+- No `git add -A` or `git add .`.
+- No edits to other agents' STATUS / domain files. Cross-agent inbox writes were per-instance Will-authorized; standard default-forbidden rule remains in force.
+- No persistent-agent spawns from do-not-spawn list (CARL, REGINALD, OZK, SAM, RED, BRENT, Claude Code Prome). HENRY/VIOLET/BOND OK in teams mode.
+- No trades. No external messages.
+- Read-before-edit honored.
+- Behavior-language in state files (commits referenced only as audit anchors).
+- Sequenced state-file edits per chunked-update memory.
+- TIPS-vs-nominal correction surfaced openly to Will rather than buried; lesson saved to memory.
+- HENRY context tightening (175K → 185K through this session) explicitly tracked; release sequence planned.
