@@ -398,3 +398,82 @@ Open with Will at next-session start:
 - Read-before-edit honored.
 - Behavior-language in state files (not hash references).
 - Chunked closeout updates (3 state files sequenced).
+
+---
+
+## Current Session — 2026-05-20 PM → 2026-05-21 (BOND post-auction read + background build-out + matrix v2 draft)
+
+### What landed
+
+Full narrative in `PROME/SCRATCH.md`. One-line referents:
+- **5/20 20Y post-auction read** — BOND teams-mode respawn. Verdict: no orange escalation. Tail verified 0bp via verify-research sub-agent (ZH source). Commit `4eb21894` pushed. Posterior shift on 5/21 base-rate.
+- **5-artifact BOND build-out** — WI sourcing playbook, auction history dataset (v1 + v2 enriched with `tail_vs_cmt_bps` + `indirect_pct_of_competitive`), cross-tenor base-rates analysis, escalation matrix backtest. Background sub-agents; PROVENANCE preambles + `_prome-spawned` suffixes.
+- **Will-authorized inbox signal to BOND** — consolidated addendum reframing the 5/13 30Y (11th-pctile BTC) as the real May-refunding outlier vs the 20Y BOND had been focused on.
+- **Matrix v2 draft via teams-mode DRAFT-ONLY pattern** — new artifact type. Iterative Will + Prome review through SendMessage over ~5 turns. Q1/Q3 resolved with BOND pushback on Prome misframings; Q2 parked; Q4 deferred-with-conditional-rule; Q5 open.
+
+### Files edited (within autonomous scope)
+
+- `PROME/SCRATCH.md` — full rewrite
+- `PROME/STATUS.md` — surgical update (Pending Work table + Active Decision Layer + Next Best Action)
+- `PROME/CLAUDE_CODE_HANDOFF.md` — this entry
+- `memory/2026-05-21.md` — daily session log (new)
+- 1 auto-memory entry (sub-agent backstops Prome reasoning errors — see MEMORY.md index)
+
+### Files written by sub-agents (untracked-by-design; BOND owns commits)
+
+- `AGENTS/BOND/research/WI_SOURCING_PLAYBOOK_prome-spawned.md`
+- `AGENTS/BOND/data/auction_history_prome-spawned.csv` + `auction_history_v2_prome-spawned.csv` + `refresh_auction_history_prome-spawned.py` + `AUCTION_HISTORY_README_prome-spawned.md`
+- `AGENTS/BOND/analysis/CROSS_TENOR_BASE_RATES_prome-spawned.md`
+- `AGENTS/BOND/analysis/ESCALATION_MATRIX_BACKTEST_prome-spawned.md`
+- `AGENTS/BOND/proposals/MATRIX_V2_DRAFT_prome-spawned.md`
+- `AGENTS/BOND/inbox/SIG-PROME-BOND-2026-05-20_dataset-30Y-reframe_prome-spawned.md` (Will-authorized cross-agent inbox write)
+
+### Decisions Will made this session
+
+- Approve Tier A + Tier B BOND background tasks (then lay off, per "manageable amounts" framing)
+- Approve push of BOND 5/20 20Y commit `4eb21894` (explicit authorization)
+- Q1 indirect threshold → (c) per-tenor percentile, indirect-of-offering <15th-pctile trailing-12mo
+- Q2 dealer-as-TRIM → park as future research thread (~3 weeks post-deploy)
+- Q3 TLT puts budget → (c) middle path: 2-contract budget; 3rd contract via Will-touch ad-hoc
+- Q4 deployment timing → DEFERRED with three-branch conditional rule resolving on today's 1pm 10Y print
+- Q5 v2-native backtest re-run → OPEN, pair with Q4 branch
+- Per-instance cross-agent inbox write authorization for SIG-PROME-BOND-2026-05-20 (NOT durable)
+
+### Decisions needed from Will (forward-looking)
+
+See `PROME/SCRATCH.md` §Next Planned Work. Q5 resolution after Q4 branch resolves. Live carries unchanged (APO, FSK, FXY Tranche 2, WAL 10-Q, HEARTBEAT refresh).
+
+### Risks / Blockers
+
+- **None blocking** closeout itself.
+- **Soft:** 5/12 10Y fire under v2 is 0.5pp margin (tight); future near-boundary prints need explicit margin annotation. HEARTBEAT.md still ~3 days stale (Will-approval gate).
+- **Pattern-level:** 5 BOND artifacts sitting untracked. Lower latency than prior revival packets — BOND was just here, his next boot is today (5/21 12:30 PM ET for auction prep). Working-tree-limbo risk is minimal.
+
+### v_next design inputs returned this session
+
+From the matrix v2 draft pattern:
+1. **DRAFT-ONLY teams-mode spawn pattern.** New artifact type: domain agent spawned in teams mode, briefed to draft-only (NO live state file edits), output to `proposals/` subdir, iterative Will + Prome review via SendMessage over multiple turns. Worth canonizing alongside revival proxy + framing-precision overlay.
+2. **Sub-agent pushback as backstop on Prome reasoning errors.** BOND caught a math error in Prome's Option-C synthesis (Q1) and pushed back with better domain framing. The "ask the domain expert to steelman" turn produced strictly better outcomes than Prome + Will alone. Saved as auto-memory.
+3. **Conditional-rule deferral for branching decisions.** When a decision depends on a near-term data point (today's 10Y print), pre-committing a branched rule lets the data resolve mechanically rather than re-asking the question. Avoids second-decision overhead.
+4. **5/12 10Y "false negative" framing.** The threshold-vs-percentile distinction caught BOND's matrix as having a systematic blind spot in long-end tenors. Lesson: per-tenor baselines diverge enough that flat thresholds embed a hidden uniformity assumption.
+
+### Next Suggested Work
+
+Open with Will at next-session start:
+- **Pre-1 PM ET (today):** respawn BOND for pre-auction tape pull
+- **Post-1 PM ET (today):** respawn BOND for post-auction verdict — mandatory dual-grade format → resolves Q4
+- **Then:** Q5 decision (v2-native backtest re-run pre-deploy?) → v2 deployment in matching window
+- Live Will-decision carries unchanged
+
+### Rules I Held To
+
+- No commits outside `PROME/` and `AGENTS/PROME/`.
+- No `git add -A` or `git add .`.
+- No edits to other agents' files except the Will-authorized SIG-PROME-BOND inbox signal (per-instance only).
+- No persistent-agent spawns (BOND OK in teams mode + as sub-agent target).
+- No trades. No external messages.
+- Read-before-edit honored.
+- Behavior-language in state files (not hash references).
+- Chunked closeout updates (state files sequenced).
+- DRAFT-ONLY discipline maintained for matrix surgery (no live AUCTION_HEALTH / STATUS / TRADE edits to BOND files).
+- Math error in Q1 framing surfaced openly to Will before sending to BOND (didn't hide the correction).
