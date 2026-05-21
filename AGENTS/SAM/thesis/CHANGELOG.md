@@ -8,6 +8,74 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-05-21 — v1.3 → v1.4 (Channel 1 mechanism update + Phase 1 inversion + Bessent affirmation promoted)
+
+**Author:** SAM + Will
+**Action:** Bumped to v1.4. Three structural findings warrant the bump (all mechanism-level, not probability-level): (1) JGB 30Y blowout to 4.0% is driven by J-ICS-induced lifer abandonment of the long end — amplifier mechanism, not relief valve; (2) April trade balance posted SURPLUS because Hormuz blockade collapsed import volumes (-64% YoY ME crude, lowest since 1979) — Phase 1 mechanism INVERTS under supply-destruction conditions; (3) Bessent affirmation (May 11-12) promoted from deferred candidate to Channel 3 pillar after second intervention + public US backing established the pattern.
+
+### What changed
+
+**Channel 1 (Life insurer repatriation) — new subsection added:**
+- **Lifer Long-End Abandonment as JGB 30Y Driver (NEW v1.4):** Under J-ICS, super-long JGB moves reprice the entire balance sheet. Mid-size lifers (Fukoku, Asahi) pivoted from 30/40Y to 10-15Y BEFORE the May ESR window. Big 4 sidelined at the long end. JGB 30Y broke 4.000% on May 15.
+- **Critical inversion vs. v1.3 framing:** Lifer absence at the long end is the *cause* of the yield blowout, not the consequence. Higher yields don't draw insurers back — J-ICS makes long-duration purchases punitive for solvency. Traditional "yield reaches a level that brings insurers back" reflex is broken.
+- Implication: JGB long-end pressure persists/grows without forced BOJ intervention. Pushes BOJ toward (a) policy normalization to legitimize the curve OR (b) YCC-style cap (D2 scenario). Either way, structural yen tailwind.
+
+**Oil-in-Yen — Phase 1 mechanism caveat:**
+- April trade balance (May 21 print): ¥+301.9B SURPLUS vs ¥-30-45B deficit consensus. Crude oil imports -64% YoY (steepest since 1980); ME crude -67.2% YoY (lowest since 1979); LNG from ME -76.1%.
+- **The blockade didn't increase Japan's oil bill — it collapsed import volumes (physical supply choke).** Phase 1 mechanism inverts when blockade severity chokes physical flow — supply destruction shows up as smaller deficit, not larger.
+- Yen STILL weakened (USDJPY 157.61 → 159.19 May 12-21) despite trade surplus. Driver is rate differential + fiscal supply (super-long JGB selling) + lifer absence, NOT trade. Channel attribution corrected.
+- Implication: Trade-balance is no longer a clean Phase-1 confirmation indicator under blockade conditions. Watch rate-differential proxies, JGB long-end supply/demand, CFTC positioning.
+
+**Channel 3 — Bessent affirmation promoted from deferred candidate to pillar:**
+- May 11-12 Bessent-Katayama Tokyo meeting: "Constant and robust" FX coordination affirmed publicly. First US public affirmation of Japan FX intervention since 2022.
+- Bessent has prior public stance favoring faster BOJ hikes — subtext: US wants rate differential compressed from both sides.
+- Promoted because we now have the pattern: Apr 30 intervention + May 6 intervention + May 11-12 public US backing = coordinated currency policy, closest to 1985 Plaza precedent.
+- Caveat: No SWAP line. Effectiveness mixed (interventions reclaimed same-day). Pure FX cannot fix ~300bp Fed-BOJ gap.
+
+**Resolved events integrated (May 6 → May 21):**
+- MOF interventions #1 + #2 (~¥10T combined, largest since 2022)
+- CFTC cover signal then reversal (SAM-22 FALSE)
+- Bessent-Katayama meeting
+- Dai-ichi FY2025 ESR ~220% (resilient; least-representative of Big 4)
+- Q1 GDP +2.1% ann beat (June BOJ on track; EWJ-put contraction didn't fire)
+- JGB 30Y breaching 4.000% (severe insurer stress threshold)
+- April trade balance Phase 1 inversion
+
+**Thresholds updated:**
+- USDJPY 160 → 159.19 (inside intervention #3 zone, 0.5% away)
+- JGB 10Y 2.40% → 2.770% (29yr high)
+- JGB 30Y 4.0% → **BREACHED 4.000%** (first time)
+- JGB 40Y added at 3.990%
+
+**Risk factors revised:**
+- Added "Big 3 mutual ESR all comfortably >220% (Dai-ichi-like)" at 25% — would mean no Channel 1 acceleration; thesis grinds rather than accelerates.
+
+### What didn't change
+
+- Three transmission channels intact (now amplifying, not relieving).
+- Conviction HIGH unchanged.
+- Stop $55.05 unchanged. Thesis break far from approached.
+- June BOJ base case (SAM-21 70% / market ~74%) unchanged.
+- Carry unwind path: still BOJ-hike-primary, intervention-#3-secondary, ESR-shock-tertiary.
+
+### Old → new view summary
+
+| Item | v1.3 view | v1.4 view |
+|---|---|---|
+| JGB 30Y at 4% | Watch threshold — would trigger if breached | BREACHED, driven by J-ICS lifer abandonment; mechanism is amplifier not relief |
+| Phase 1 oil mechanism | "Oil → trade deficit → yen weak" — modeled as clean transmission | Inverts under blockade severity (supply destruction → volume collapse → smaller deficit). Yen weakening now rate-differential-driven not trade-driven |
+| Bessent / US backing | Deferred candidate, single-event | Promoted to Channel 3 pillar after second intervention + public coordination |
+| Trade balance as Phase 1 indicator | Primary signal | No longer clean under blockade — use rate-differential proxies |
+
+### Pending tests
+
+- **May 22 CPI:** Tokyo leading 1.5%; national consensus 1.7% core. Soft = fade June BOJ pricing 74% → 60-65%. ≥2.0% = locks.
+- **May 25-29 Big 3 mutual ESR:** Nippon, Meiji Yasuda, Sumitomo. <200% any = stress-case trigger.
+- **Intervention #3:** USDJPY 159+ zone live; SAM-23 @75%.
+- **June 16 BOJ:** SAM-21 @70% / market 74%; SAM-24 @85% (25bp not 50bp).
+
+---
+
 ## 2026-05-12 — MOF INTERVENTION + BESSENT AFFIRMATION (no thesis bump; v1.3 holds; correction logged)
 
 **Author:** SAM + Will

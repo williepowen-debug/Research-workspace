@@ -1,9 +1,61 @@
 # SAM TIMELINE
 
-**Last Updated:** 2026-05-12
+**Last Updated:** 2026-05-21
 **View:** Base case progression with branch points marked
 
 This document maps our forward-looking expectations — what's coming, what we think happens, and where the path could diverge. Updated as events resolve or views change.
+
+---
+
+## RESOLVED — May 13-21 (v1.4 STRUCTURAL CLUSTER: Dai-ichi ESR, Q1 GDP beat, JGB 30Y breach, April trade Phase 1 inversion, USDJPY pressed 159+)
+
+### Tue-Thu May 13-15 — DAI-ICHI FY2025 ESR DISCLOSURE ✅ RESOLVED — RESILIENT (least-representative)
+
+- **Event:** Dai-ichi Life Holdings (listed, ticker 8750) printed FY2025 results — first of Big 4 to report.
+- **Outcome:** **ESR ~220%**, up ~10pp YoY. Above their internal 170-200% target band. Driver: domestic equity rally lifted eligible capital (~+¥1.5T), offsetting +¥530B mass-lapse risk from rising rates. **Above our 200% stress trigger.**
+- **Caveat (important):** Dai-ichi is the most equity-heavy of the Big 4 and least representative of the mutual lifer FX/JGB pressure profile. Strong read here does NOT generalize. **Nippon Life (largest UST holder) and Meiji Yasuda (prior ESR-disclosure resister) are the real tests** — both expected week of May 25-29.
+- **Net:** Initial signal CONFIRMS RESILIENCE, but Channel 1 stress thesis remains UNTESTED for the bulk of the system. No forced rebalance signaled.
+
+### Fri May 15 — JGB 30Y BREAKS 4.000% ✅ RESOLVED — STRUCTURAL (v1.4 thesis driver)
+
+- **Event:** JGB 30Y yield broke 4.000% — first time. Peak ~4.205%. 10Y at 2.770% (29-yr high). 40Y at 3.990%.
+- **Mechanism (v1.4):** Driven by **J-ICS-induced lifer abandonment of the long end**. Under J-ICS (live April 2025), super-long JGB moves reprice the entire balance sheet — making long-duration purchases punitive for solvency. Mid-size lifers (Fukoku, Asahi) pivoted from 30/40Y → 10-15Y tenors BEFORE the May ESR window. Big 4 sidelined.
+- **Critical inversion:** Lifer absence is the *cause* of the yield blowout, not the consequence. Higher yields don't draw insurers back — the traditional "yield reaches a level that brings insurers back" reflex is broken.
+- **Drivers cited:** Takaichi fiscal expansion concerns + super-long supply imbalance + US-Iran oil-spike inflation premium.
+- **Net:** **STRUCTURAL BULL — Channel 1 amplifier confirmed.** Pushes BOJ toward (a) policy normalization to legitimize the curve OR (b) YCC-style cap (D2 scenario). Either way, structural yen tailwind. Promoted to v1.4 thesis section in THESIS.md.
+
+### Tue May 19 — JAPAN Q1 2026 GDP PRELIM ✅ RESOLVED — BEAT (June BOJ on track)
+
+- **Event:** Cabinet Office Q1 2026 GDP preliminary release.
+- **Outcome:** **+2.1% QoQ annualized (+0.5% QoQ SA)** vs +1.7% est. Q4 2025 revised down +0.3% → +0.2%.
+- **Composition:**
+  - Private consumption +0.3% (vs +0.2% est) — soft beat
+  - Capex/business investment +0.3% (vs +0.2% est)
+  - Net exports +0.3 ppt contribution (vs +0.2 ppt est) — main upside surprise
+- **Market reaction:** USDJPY pushed toward 159 and JGB 30Y broke 4.0%, but these moves are NOT primarily GDP-driven. Drivers were fiscal/super-long supply + Iran oil weighing yen via rate-diff channel. GDP was a sideshow.
+- **BOJ implications:** Reuters poll 65% of economists expect June hike to 1.00%. ING reaffirmed June +25bp. No walk-back. However, Q2 consensus contraction expected on Iran energy shock — Q1 was "last clean quarter."
+- **Net:** **BEAT — EWJ-put contraction trigger DID NOT fire.** June BOJ on track. War-driven two-phase JPY dynamic intact.
+
+### Wed May 21 — APRIL TRADE BALANCE ✅ RESOLVED — v1.4 THESIS FINDING (Phase 1 INVERSION)
+
+- **Event:** MOF customs April trade statistics — first FULL post-blockade month.
+- **Outcome:** ¥+301.9B **SURPLUS** (3rd consecutive month) vs consensus ¥-30 to -45B deficit. YoY swing from ¥-149.5B deficit (Apr 2025). **Big upside miss.**
+  - **Exports:** +14.8% YoY (3-month high, accelerated from +11.5% Mar). Semiconductors +41.6% YoY.
+  - **Imports:** +9.7% YoY (above 8.3% consensus, decelerated from +10.9% Mar).
+  - **Crude oil imports -64% YoY** (steepest drop since 1980). **ME crude -67.2% YoY**, volume 3.843M kL — lowest since 1979. LNG from ME -76.1% YoY. US crude partially offset.
+- **Phase 1 verdict — DID NOT FIRE, but for an unexpected reason:**
+  - v1.3 thesis: oil spike → trade deficit widens → yen weakens. Mechanism **BROKE** because the blockade didn't INCREASE Japan's oil bill — it **collapsed import volumes** (physical supply choke). Japan literally couldn't buy ME barrels.
+  - This is a thesis-level finding. Phase 1 requires *price* transmission with *volumes intact*. Blockade severity inverts the trade-balance signal — supply destruction shows up as smaller deficit, not larger.
+- **USDJPY reaction:** Yen WEAKENED to 159.17 (+0.16% post-print). Strong trade data ignored. Driver = rate differential + persistent ME risk premium. **Trade-balance channel currently DOMINATED by rate-differential channel.**
+- **Net:** **v1.4 thesis update — Phase 1 mechanism needs "supply-disruption inversion" caveat.** The yen weakness from May 12 to May 21 (157.6 → 159.2) is rate-driven, NOT trade-driven. Phase 2 (US recession → safe-haven yen) timing unchanged. THESIS Oil-in-Yen section rewritten in v1.4.
+
+### Ongoing — USDJPY DRIFT 157.61 → 159.19 (rate-differential-driven)
+
+- **Event:** USDJPY pressed from 157.61 (May 12) to 159.19 (May 21) — back inside intervention #3 trigger zone (159+).
+- **NOT driven by:** ESR disclosures (delayed); Q1 GDP (beat); trade balance (surplus); flow data (MOF ITS net buying).
+- **Driven by:** Rate differential (~300bp Fed-BOJ gap intact); CFTC short re-build (cover reversed); fiscal supply concerns; lifer long-end abandonment; persistent ME risk premium on USD.
+- **CFTC update:** Cover signal (May 8) has reversed — shorts re-loading as USDJPY tested 159. Sets up another fuel-load into June BOJ.
+- **Net:** Confirms v1.4 channel attribution — yen weakness is rate-diff-driven, and a BOJ hike directly addresses the cause. Intervention #3 zone live. SAM-23 trigger condition met (USDJPY 159+).
 
 ---
 
@@ -389,10 +441,13 @@ These are the moments where our expected path could fork:
 | **May 1** | BOJ MPM (secondary) | n/a | n/a | 🟡 **RESOLVED: ARTIFACT** — calendar mislabel, no actual policy event |
 | **May 1** | CFTC JPY release | Cover starts | Shorts keep building | ✅ **RESOLVED: BULL** — -102,059 (+7,599 build), 56.7% Jul24 peak; no cover on hawkish hold |
 | **May 1-3** | Iran/Hormuz de-escalation step | Durable proposal accepted | Talks collapse | 🟡 **RESOLVED: AMBIGUOUS** — Trump "TERMINATED" letter, Iran 14-pt proposal (maximalist), May 4 Project Freedom escort starts |
-| **May 14** | Q1 GDP prelim | Growth | Contraction → EWJ trigger | PENDING |
-| **Mid-May** | ESR disclosures | Stress visible → repatriation accelerates | Manageable → base case holds | PENDING (ELEVATED importance) |
-| **~May 20** | April trade balance | Surplus | Deficit → Phase 1 fires | PENDING (Brent $107.85; depends on May 4 escort response) |
-| **Late May** | April CPI | Upward surprise → BOJ locked | Tame → less urgency | PENDING |
+| **May 13-15** | Dai-ichi FY2025 ESR | <200% stress | >220% resilient | ✅ **RESOLVED: RESILIENT** — ~220%, but least-representative (most equity-heavy) |
+| **May 15** | JGB 30Y 4.0% threshold | Holds <4.0% | Breaks 4.0% | ✅ **RESOLVED: BREACHED** — 4.000% peak 4.205%; J-ICS lifer abandonment driver |
+| **May 19** | Q1 GDP prelim | Growth | Contraction → EWJ trigger | ✅ **RESOLVED: BEAT** — +2.1% ann vs +1.7% est; June BOJ on track |
+| **May 21** | April trade balance | Surplus | Deficit → Phase 1 fires | ✅ **RESOLVED: SURPLUS via INVERSION** — ¥+301.9B; crude imports -64% YoY; Phase 1 INVERTED by blockade volume collapse (v1.4 finding) |
+| **Fri May 22** | April CPI | Upward surprise → BOJ locked | Tame → less urgency | PENDING (Tokyo leading 1.5%; consensus 1.7% core) |
+| **May 25-29** | **Big 3 mutual ESR (Nippon/Meiji Yasuda/Sumitomo)** | <200% → stress-case | >220% → manageable | PENDING — PRIMARY Channel 1 test |
+| **Ongoing** | Intervention #3 watch | USDJPY 159+ → MOF acts | USDJPY holds <159 organically | PENDING (USDJPY 159.19; SAM-23 75%) |
 | **Mid-June** | **BOJ meeting (BASE CASE HIKE)** | Hike to 1.00% → structural move | Delay → H2 timeline | PENDING (SAM-21 70%; market 74%) |
 | **June** | Sato joins board | n/a | Dovish majority forming | PENDING |
 
