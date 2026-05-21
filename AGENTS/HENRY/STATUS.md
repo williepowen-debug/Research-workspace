@@ -26,7 +26,7 @@
 | **KRE** | $68.76 (-0.59%) | $67.92 | +$0.84 | $70.38 | 🟡 bank tape recovered modestly; 3.76 above $65 trigger | yfinance |
 | **WAL** | **$77.96** (+1.21%) | $76.59 | +$1.37 | n/a | 🟡 REGINALD-primary; V2.2 Bear-medium 30% / EV $67.98 / ~14% over | yfinance |
 | **Brent** | $106.95 | $109.73 | -$2.78 | $90.67 | 🔴 sustained >$100; +$16 over 34d | BROCK 5/21 dashboard |
-| **USD/JPY** | (pull) | 158.93 | — | 158.55 | 🟠 SAM-primary | — |
+| **USD/JPY** | **159.16** | 158.93 | +0.23 | 158.55 | 🟠 broke 158, 0.84 handles from 160 yellow trigger | yfinance JPY=X |
 
 ---
 
@@ -123,7 +123,7 @@
 | 10Y Yield | 4.67% 🔴 | >4.5% | >4.8% | >5.0% | → LIQUID (term premium crisis) |
 | HY OAS | 286bps | >320 | >400 | >500 | → credit-equity transmission |
 | CCC OAS | 948bps | >900 | >1000 | >1100 | → dispersion canary |
-| USD/JPY | (pull) | >160 | >162 | >165 | → SAM (carry unwind) |
+| USD/JPY | 159.16 | >160 | >162 | >165 | → SAM (carry unwind) — 0.84 handles from yellow |
 | **HY OAS kill watch** | 286 | <290 (warn) | <270 (orange) | **<260 sustained** | → invalidation leg 1 |
 | **VIX kill watch** | 17.38 | <17 | <16 | **<15 single session** | → invalidation leg 2 — VIX9D 15.02 = warn-zone PROXIMITY |
 | **SPX kill watch** | 7,413 | <7,200 | <7,100 (briefly) | **>7,100 × 5 sess** | → invalidation leg 3 — **FIRED ~Apr 25** |
@@ -148,19 +148,21 @@
 
 | ID | Prediction | Resolves | Status |
 |----|------------|----------|--------|
-| HEN-27 | March PCE: core YoY >3.0% OR MoM >0.3% | Apr 30 (passed) | HOLD — pull actual PCE print + score |
-| HEN-28 | Labor cliff: claims >240K or 4-wk avg >230K | Next NFP | HOLD — initial 211K not firing; **shadow-adjusted ~266K IS firing via shadow series** (CARL-primary cite); extend deadline |
-| HEN-29 (NEW) | NVDA Q1: ROI-discipline language → SMH -3% / VIX +2 / HY OAS +10bps within 2 sessions | 5/20-22 | **PARTIAL DISCONFIRM** — print 5/20, NVDA -1.5% / SMH -0.3% / VIX -0.4 / HY OAS +6bps. No ROI-discipline tone shift fired. Score: clean beat, trap deepens. CLOSEOUT — confirm directional miss on the catalyst-firing thesis. |
-| HEN-30 (NEW) | Trap-clinch: HY OAS sub-265 for 2 consecutive sessions → 80% prob sub-260 on session 3 | rolling | Active — currently 286, MOVING WRONG WAY for firing. |
+| HEN-27 | March PCE: core YoY >3.0% OR MoM >0.3% | Apr 30 (passed) | **CONFIRMED** — Core PCE Mar 2026 YoY +3.20% (>3.0% MET); MoM +0.293% (0.007pp under but trigger was OR). Headline 3.50%/0.66%. FRED PCEPILFE primary. Fed-can't-cut narrative locked. |
+| HEN-28 | Labor cliff: claims >240K or 4-wk avg >230K | Next NFP | **NOT FIRING ON HEADLINE** — ICSA 4-wk avg 202.5K (period 5/16); single-week 209K. NEITHER threshold firing. **Shadow-adjusted ~266K (WALTER 5/13 BAA Q1 HHDC) IS firing via shadow series** — thesis intact via different leg. Extend headline deadline to next NFP; CARL-domain. |
+| HEN-29 | NVDA Q1: ROI-discipline language → SMH -3% / VIX +2 / HY OAS +10bps within 2 sessions | 5/20-22 | **PARTIAL DISCONFIRM** — NVDA -1.5% / SMH -0.3% / VIX -0.4 / HY OAS +6bps. No ROI-discipline tone shift fired. Clean beat, trap deepens. |
+| HEN-30 | Trap-clinch: HY OAS sub-265 for 2 consecutive sessions → 80% prob sub-260 on session 3 | rolling | **Active** — currently 286, MOVING WRONG WAY for firing. Confirms trap-clinching, not invalidating. |
+| HEN-31 | R11 analog 7-trigger Stage 3 watch (VIOLET LIAISON 5/21): 2 of {VVIX>105, VIX9D>VIX, SKEW>145} same week as 1 of {HY OAS>2.90, CCC>10.00, 10Y>4.75%} → R11 confirms | 5/28-6/02 window | **Active** — HENRY substance side: 10Y 4.67% (8bps below trigger, closest); HY 2.86 (4bps below); CCC 9.48 (52bps below). VIOLET surface: 0/3 fired. Prior 36%. |
 
 **Closed/resolved (per revival packet §6 + this session):**
 - HEN-22: CONFIRM, promote to trap-clinch framing
 - HEN-23: CONFIRM directional, defer demand-destruction to CARL
 - HEN-24/25: RESOLVED, defer scoring to REGINALD/OZK (V2.2 published today)
 - HEN-26: PARTIAL — directional confirm, magnitude miss; score 0.6
+- HEN-27: CONFIRMED via core YoY 3.20% (>3.0% threshold MET); scored 5/21 gap-fill
 - HEN-29: PARTIAL DISCONFIRM (NVDA didn't deliver the tone-shift catalyst)
 
-*Full log: workbook/PREDICTIONS.tsv — needs update.*
+*Full log: workbook/PREDICTIONS.tsv — updated 5/21 gap-fill pass (HEN-22 through HEN-31).*
 
 ---
 
