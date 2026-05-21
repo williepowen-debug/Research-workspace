@@ -55,6 +55,14 @@ Will requested boot + parse domain updates. Boot complete (9.3s, all 8 green). D
 
 **Position executed (May 21):** +5 shares FXY at ~$57.66 → 13 total (blended entry $57.48). +1 June 18 $58 call @ $0.40 ($40 cost). Will chose pre-CPI entry for IV protection rather than my post-CPI recommendation — legitimate trade-off (IV could expand on hot CPI surprise). Sep $60 calls (Position A) authorized but not executed; revisit post-CPI. Stop $55.05 unchanged.
 
+**Second batch (May 21 afternoon):**
+- `STRATEGY.md` v1.4 — position updated to 13 sh + 1 call; Stage 3 "WE ARE HERE — 3 of 5 triggers fired"; new OPTIONS DECISION RULES section (Jun-18 exit triggers, Position A entry windows, what-NOT-to-do); hard-trigger table now tracks FIRED/USED/OPEN
+- `insurers/TRACKER.md` refresh — v1.4 J-ICS key insight; new FY2025 ESR Disclosure Status table (Dai-ichi ~220% logged, Big 3 mutuals May 25-29 pending); MONITORING CHECKLIST rebuilt for ESR window
+- 3 outbox signals shipped: LIQUID 🔴 (JGB 30Y 4% J-ICS mechanism), HENRY 🟠 (USDJPY 159+ + CFTC rebuild), PROME 🟠 (SAM FXY position state for FORGE rehab)
+- FORGE audit: confirmed significantly stale (STATUS Mar 25, PORTFOLIO Feb 19, expired options listed as active). Will to have Prome rehab; SAM signal in outbox provides authoritative FXY position state.
+
+**Commits pushed:** `fb539597` (v1.4 sync + position execution), `2c079ab8` (STRATEGY + TRACKER + outbox).
+
 **Research sub-agents spawned (parallel):** ESR disclosures, Q1 GDP, April trade balance, April CPI preview. All four delivered. Phase 1 inversion was the most thesis-significant finding.
 
 ### NEXT SESSION
