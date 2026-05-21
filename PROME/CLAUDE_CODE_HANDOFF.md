@@ -477,3 +477,62 @@ Open with Will at next-session start:
 - Chunked closeout updates (state files sequenced).
 - DRAFT-ONLY discipline maintained for matrix surgery (no live AUCTION_HEALTH / STATUS / TRADE edits to BOND files).
 - Math error in Q1 framing surfaced openly to Will before sending to BOND (didn't hide the correction).
+
+---
+
+## Current Session — 2026-05-21 AM (boot from /clear + BROCK/REGINALD closeout integration)
+
+**Run type:** Will-cleared context at 10:54 ET; CC-Prome boot per BOOT.md sequence; while booting, BROCK and REGINALD ran live closeouts in parallel and pushed. Post-closeout state-file refresh.
+
+### What landed
+
+- **Boot sequence completed** — read PROME/CLAUDE.md + BOOT.md + HANDOFF + this file + SCRATCH + STATUS + TODAY + FLEET_SCAN. Confirmed git clean; verified inbox + WILL/share state.
+- **Will-facing briefing on REGINALD + BROCK arrivals** — surfaced both agents' uncommitted-in-flight work, then watched for clean closeout. Read FSK_Q1_READ_MAY21.md + POSITION_DECISIONS_MAY21.md while BROCK was still live (untouched files). Read REGINALD POSITIONS + WAL THESIS diff before commit.
+- **Post-closeout digest** — confirmed both pushed clean (BROCK 5 commits f47b9a30→1310ed42; REGINALD `f91ee9fb` 14 files +775/-341). Tree clean modulo `WILL/share/`.
+- **State-file refresh sequenced** — SCRATCH full-rewrite → STATUS surgical (header + Active Decision Layer + Pending Work + Agent/Domain Notes + Next Best Action) → this entry.
+
+### Files edited (within autonomous scope)
+
+- `PROME/SCRATCH.md` — full rewrite (post BROCK + REGINALD closeouts, pre-auction)
+- `PROME/STATUS.md` — surgical: header timestamp; Active Decision Layer (HEARTBEAT flagged stale + posterior-shift owed; FLEET_SCAN 3d); Pending Work (collapsed 4 resolved rows: APO/ARES, FSK, BDC, WAL 10-Q; added BROCK closeout, REGINALD closeout, execution-rails design note, MI3/PDD); Agent/Domain Notes (refreshed BROCK + REGINALD + BOND rows); Next Best Action (clock-driven + post-auction + carry)
+- `PROME/CLAUDE_CODE_HANDOFF.md` — this entry
+
+### Decisions Will made this session
+
+- Refresh PROME state files now (option 1 of 3 offered: refresh-now vs propose-HEARTBEAT-diff vs park-until-post-auction). HEARTBEAT held for post-auction folding.
+
+### Decisions needed from Will (forward-looking)
+
+- **Post-1pm 10Y auction:** HEARTBEAT refresh (Will-approval gate); fold today's tape + BROCK trap-clinching + REGINALD V2.2 scenario weights + BOND verdict.
+- **SAM FXY Tranche 2** — FXY $57.80 below forfeit band; carries forward.
+- **Execution-rails design** — BROCK LESSONS #16 surfaced HYG roll Jun→Dec never executed during dark window because no mechanism existed. Same pattern as May 15 cluster pre-registered ladder. Warrants a Prome-side rail design pass on a quiet window.
+
+### Risks / Blockers
+
+- **None blocking** the refresh itself.
+- **HEARTBEAT staleness compounding** — now has unincorporated REGINALD V2.2 scenario reweight + BROCK V2.2 convergence framework + 4 days of tape. The longer the gate stays closed, the bigger the downstream catch-up cost. Best window is post-auction.
+- **BOND 1pm auction is ~90 min out** at refresh time. Tight runway if Will wants any other state work before respawn.
+
+### v_next design inputs returned this session
+
+1. **Booting-while-agent-active pattern.** BROCK was mid-session at CC-Prome boot. Correct play was read-only digest of his uncommitted work, then wait for his commit before refreshing Prome state. Validates the "subagents own their files; wait for finish" rule on real concurrent work, not just hypothetical.
+2. **Resolution-table refactor on Pending Work.** When multiple high-priority rows resolve in one event (4 today via BROCK + REGINALD closeouts), keeping them in the table with ✅ status + pointer to the resolving artifact is more useful than deletion — preserves audit trail for the next session boot.
+3. **Execution-rails gap as a Prome design problem.** BROCK LESSONS #16 is the second instance of a planned mechanical decision dying for lack of execution path (May 15 cluster ladder was the first). Worth a focused design pass.
+
+### Next Suggested Work
+
+Open with Will at next-session start:
+- **If auction has fired:** BOND post-auction respawn (or Will already did it). HEARTBEAT refresh diff. Q5 decision.
+- **If auction has not yet fired:** ~12:30 PM ET pre-auction BOND respawn.
+- Live Will-decision carries: SAM FXY Tranche 2, HEARTBEAT, execution-rails design note.
+
+### Rules I Held To
+
+- No commits outside `PROME/` and `AGENTS/PROME/` this session (in fact: no commits at all; refresh is uncommitted at handoff time per show-diff-then-approve policy).
+- No `git add -A` or `git add .`.
+- No edits to other agents' files. Specifically: did NOT touch BROCK or REGINALD files even after they pushed; their state is theirs.
+- No persistent-agent spawns.
+- No trades. No external messages.
+- Read-before-edit honored.
+- Behavior-language in state files (not hash references) except where commits are referenced as audit anchors (BROCK 5-commit chain, REGINALD `f91ee9fb`) — those are descriptive history, not state pins.
+- Sequenced state-file edits (SCRATCH → STATUS → HANDOFF) per chunked-update memory.
