@@ -90,8 +90,9 @@
 | **10Y yield** | **4.67%** (+42bps over window) | 🔴 duration channel | [CONF] dashboard |
 | SEC + Treasury + Fed formal probe | Multi-agency; BlackRock probe added 5/16 | 🔴🔴🔴 | [CONF] Apr 24 + 5/16 |
 | Fed Barr 5/16 | "PC could trigger larger credit issues" | 🔴 | [CONF] 5/16 sweep |
-| **Top 4 US bank PC** (BROCK working figure) | $128B at JPM/BAC/Citi/WFC | 🔴 | [CONF] Q1 transcripts |
-| **Full NDFI scope (WALTER REQ)** | **$1.4T industry YE 2025; WFC $212B (66% larger than BROCK working figure); +35.2% YoY** | 🔴🔴 NEW SCALE — **integration pending** | [CONF] FDIC 2026 Risk Review citing FFIEC RC-C |
+| **Full NDFI scope (FFIEC primary)** | **$1.4T industry YE 2025 (5.6% of bank assets); WFC alone $212.1B; +22.7% multi-yr CAGR; 86% concentrated at banks >$100B**. Framework: `domain/sources/NDFI_FRAMEWORK_MAY21.md` | 🔴🔴 | [CONF] FDIC 2026 Risk Review + WFC Q1 10-Q + FFIEC RC-C |
+| **Single-name NDFI concentration tier** | CUBI 33% / WFC 21% / MS BCI 19.73% +316bps QoQ. CDR Q1 5-cat May 15 release **not yet pulled** | 🔴 | [CONF] WALTER REQ + WFC Q1; MS/CUBI pending CDR pull verification |
+| Top-4 PE/PC slice (BROCK prior working figure, now historical) | $128B at JPM/BAC/Citi/WFC — represents 10.d sub-cat only | — superseded by full NDFI | [CONF] Q1 transcripts |
 | BDC retail sales YoY | -40% | 🔴 | [CONF] FinancialContent Apr 6 |
 | **BlackRock APAC PC Fund II (Metcold)** | $27.5M default, personal-guarantee enforcement | 🟡 sub-systemic | [CONF] 5/9 signal |
 | Ch11 filings +42% YoY claim | Insider Wire X — **verify Epiq/AACER/ABI** | 🟡 unverified | [PENDING] 5/9 signal |
@@ -110,7 +111,7 @@
 | Default rates | 🔴 (4) | Fitch 5.8% / Cohort 9.2%; Ch11 +42% claim; Metcold default | Q1 print >7% reported | May 21 |
 | Athene/insurance | 🟠 (3) | Treasury convening insurance regs | RBC breach OR APO related-party sale forced | Apr 24 |
 | Software sector marks | 🔴 (4) | $103.7B exposure, $46.9B distressed | Forced markdown event in 10-Qs | Apr 6 |
-| Bank warehouse lines / NDFI | 🔴🔴 (5) | **$1.4T full NDFI / WFC $212B / +35.2% YoY (WALTER REQ)** + JPM cut FSK -$648M | First bank PC loss disclosure | May 21 |
+| Bank warehouse lines / NDFI | 🔴🔴 (5) | **$1.4T full NDFI / WFC $212.1B / +22.7% CAGR (FFIEC)** + JPM cut FSK -$648M. Steelman: FDIC says PDNA 0.15% (benign tape); BROCK thesis is on indirect transmission lagged 2-3q. See `NDFI_FRAMEWORK_MAY21.md` §5 | First bank PC loss disclosure | May 21 |
 | Regulatory action | 🔴🔴 (5) | SEC + Treasury + Fed probe + BlackRock probe + Fed Barr 5/16 | First enforcement filing | May 21 |
 | Mainstream narrative | 🔴 (4) | Stage 3 recognition resuming (WSJ 5/16, Reuters 5/16, Fed Barr) | Fortune/Bloomberg cover-story re-engagement | May 21 |
 | **NEW: Sponsor-bifurcation diagnostic** | 🔴 (4) | KKR-doubles-down (FSK $450M+) vs Apollo-cashes-out (MFIC $61M markdowns, captive BDC shop @ $0.85/NAV) | 3rd sponsor enters stress with new pattern | May 21 |
@@ -159,7 +160,7 @@
 
 **Cross-channel:** BDC NAV stress now has TWO channels — credit (BROCK primary) + duration (LIQUID 5/18 reframe, feeds via discount rate). FSK NAV -9.9% has both contributing.
 
-**Sponsor-bifurcation diagnostic (new):** KKR-doubles-down ($450M+ FSK support) vs Apollo-cashes-out (MFIC $61M markdowns, captive BDC shop @ $0.85/NAV, 11% Q redemption, lending halted). Same underlying signal, opposite sponsor responses — parent-level leverage-and-flexibility tell.
+**Sponsor-bifurcation diagnostic (new):** KKR-doubles-down ($450M+ FSK support) vs Apollo-cashes-out (MFIC $61M markdowns, captive BDC shop @ $0.85/NAV, 11% Q redemption, lending halted). Same underlying signal, opposite sponsor responses — parent-level leverage-and-flexibility tell. Full diagnostic: `domain/sources/NDFI_FRAMEWORK_MAY21.md` §4 — 4-sponsor table (KKR / Apollo / Blackstone / Blue Owl), trade implications, cross-flag conditions.
 
 **Watch order:** GCRED/OTF release-date confirmation (OTF highest priority — 74.2% software) > WALTER NDFI 5-cat May 15 CDR pull > HY OAS 270 watch + GCRED/OTF pre-build > ARES Q1 status verification > inbox sweep.
 
@@ -172,15 +173,16 @@
 - ✅ FSK Q1 domain memo (`domain/sources/FSK_Q1_READ_MAY21.md`) — closes PROME-20260510 ask
 - ✅ Position decisions memo (`domain/sources/POSITION_DECISIONS_MAY21.md`) — supersedes TRADE.md Section 8
 - ✅ STATUS integration (this file)
-- ⏸️ WALTER NDFI scope correction integration — deferred
+- ✅ WALTER NDFI scope correction framework (`domain/sources/NDFI_FRAMEWORK_MAY21.md`) — closes WALTER REQ-BROCK-20260514
 - ⏸️ Inbox sweep (6 items) — deferred
 
 **Tier 1 — Highest priority next session:**
-1. **WALTER NDFI scope correction** — 7 days open. Pull May 15 CDR Q1 5-cat (10.a-10.e) NDFI bulk release. Replace $128B working figure with $1.4T full NDFI / WFC $212B / +35.2% YoY framing. Add single-name watchlist (WFC 21%, MS BCI 19.73% +316bps QoQ, CUBI 33%).
+1. **CDR Q1 2026 NDFI 5-cat data pull (May 15 release)** — first publicly available bank-level 10.a-10.e splits. Pull JPM/BAC/Citi/WFC/MS/USB/GS + regionals OZK/ZION/HBAN/FITB/CUBI/FLG/EGBN. Coordinate with WALTER+REGINALD per `NDFI_FRAMEWORK_MAY21.md` §6.
 2. **OTF release date confirmation** — Blue Owl IR. 74.2% software concentration = highest-priority forced-mark candidate. Pre-build doc analogous to FSK_PREBUILD_MAY11.md.
 3. **GCRED / BCRED / CTAC release dates** — verify via BC Partners / BX / Carlyle IR. Same pre-build pattern.
 4. **ARES Q1 release status** — open question affecting Jun $95P read.
-5. **Inbox sweep — 6 items** (PROME-20260510 close, PROME-20260511 integration noted in this STATUS, 5/16 sweep narrative confirmation, 5/9 signal trio).
+5. **Inbox sweep — 6 items** (PROME-20260510 close, PROME-20260511 integration noted in STATUS, 5/16 sweep narrative confirmation, 5/9 signal trio).
+6. **MS BCI 19.73% / CUBI 33% primary-source confirmation** — currently sourced via WALTER REQ; need 10-Q / call-report primary citation before trading-grade use.
 
 **Tier 2 — Adaptive priority shifters (drop everything if any fires):**
 - HY OAS <270 sustained 2+ sessions OR <260 intraday once → BRK-28 thesis-kill pre-write
