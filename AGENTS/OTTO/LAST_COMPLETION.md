@@ -1,53 +1,54 @@
-# OTTO COMPLETION — 2026-05-21 evening
+# OTTO COMPLETION — 2026-05-22
 
 ## STATUS
-✅ 36-day Tricolor outcomes gap closed. STATUS / ML / PREDICTIONS / MEMORY all refreshed. Cross-agent signal routed via WALTER. Ready to commit + push.
+✅ Arc closed. Inbox cleared, P0 backlog swept (4/5 resolved + 1 retry from sub-agent gap), First Brands Ch.7 promoted PENDING → IN MOTION, WALTER signal routed, commit `c17d108f` pushed.
 
 ## CHANGED
-- **STATUS.md** (+64/-15): New May 21 check-in section with 11 findings + thesis impact + timeline correction. Active Vectors: 2 new top-of-list (Wilmington Trust Exit 🔴🔴 + Tricolor Distribution Gridlock 🔴). Signal Dashboard: 4 new rows (auction recovery / missing vehicles / disputed receivables / Wilmington exit) + Fifth Third exposure precise at $178M. Thesis table: Tricolor row enriched; Invisible Exit promoted to "industrially validated." Critical Timeline corrected: Mar 31 was operative deadline (Apr 30 entry removed); added Apr 24 / May 14 / flagged Jun 17 ETA at risk. Predictions: added OTTO-29 + OTTO-30 status rows.
-- **workbook/ML.tsv** (+8 entries, 145→152): auction proceeds, phantom inventory, distribution gridlock, Wilmington exit, ACV Capital subpoena, Apr 24 motions, Fifth Third exposure precision, two-lawsuit clarification. ML-OTTO-145 explicitly supersedes ML-OTTO-140's deadline assertion.
-- **workbook/PREDICTIONS.tsv** (16→17 rows, 2 updated): OTTO-29 conf 75→80% + RESOLUTION-AT-RISK flag (Sep 30 may slip due to $113M dispute); OTTO-30 conf 60→65% + 6th-bank candidate list folded in; **OTTO-31 NEW** (Wilmington Trust non-mortgage exit, 60%, resolve 2026-12-31).
-- **MEMORY.md** rewritten — 8 new May 21 Findings, 2 new Feedback entries (recalibration-supersession discipline, Verita cert gap), 2 new References (Octus, AFN). Session Notes refreshed for May 21. ~95 lines, under the 100 cap.
-- **AGENTS/WALTER/inbox/SIG-OTTO-WALTER-20260521-tricolor-data-emerged-wilmington-exit.md** — cross-agent signal routed (REGINALD primary, BROCK + CARL info-cc). Three main payloads: Wilmington custodial exit (structural), distribution gridlock (new transmission mechanic), Fifth Third precision. Specific REGINALD asks: (a) corporate-side read on Wilmington/M&T wind-down, (b) PACER/Octus pull of Apr 24 Fifth Third supplemental motion.
+- **STATUS.md** (+70/-12): New MAY 22 SWEEP section + First Brands Ch.7 IN MOTION subsection. Signal Dashboard: 2 new rows (auto $1.685T, transition 2.97%) + Bank Losses row extended with OBK $74.7M. Critical Timeline: 5 new rows (May 5 CVNA vote, May 7 PSEC cut, May 12 NY Fed HDC, Apr 28 PMG plan, May 13 UST motion, May 20 disclosure hearing, May 25 omnibus) + Apr 9 marked superseded. Predictions: OTTO-26 FALSIFIED, OTTO-30 conf drop note, OTTO-31 unchanged, OTTO-32 NEW row. Signal-trigger table updated.
+- **workbook/ML.tsv** (+8 entries, 154→162): inbox-proc (153-154), sweep-may22 (155-160), first-brands-ch7 (161-162).
+- **workbook/PREDICTIONS.tsv**: OTTO-26 → FALSIFIED (cut May 7 not Feb 20). OTTO-30 conf 65→45% (Q1 sweep clean for new names; Origin Bancorp surfaces pre-prediction-window). **OTTO-32 NEW** (85%, resolve 2026-09-30): First Brands cases converted to Ch.7 (whole or majority) by Sep 30.
+- **MEMORY.md**: 4 new feedback entries (recalibration discipline, Verita cert gap from prior session retained; date-specificity-at-low-conf, forward-discovery-spirit, sub-agent-tooling-confirmation). 7 new findings. Session Notes rewritten — LAST/PRIOR/NEXT split.
+- **AGENTS/WALTER/inbox/SIG-OTTO-WALTER-20260522-firstbrands-ch7-in-motion.md** (5.9KB, untracked per protocol): Cross-agent signal routed. REGINALD primary; BROCK + CARL + LIQUID info-cc. Three payloads: (1) Ch.7 conversion now US-Trustee driven, (2) PMG hybrid plan architecture, (3) "administratively insolvent" as new transmission mechanic weaponized by regulator. WALTER already processed (file moved to processed/ by WALTER session).
 
 ## RESULT
-
-Tricolor data is now correctly framed at scale: auction recovery ~3.2% of debt; ~30K vehicles missing up to $1.1B (industrial-scale Invisible Exit); $113M frozen in distribution gridlock; Wilmington Trust exiting an entire ABS custodial business line. The Apr 15 Apr-30-deadline recalibration is explicitly superseded — Mar 31 was the operative deadline. Two new transmission mechanics added (distribution gridlock + custodial retreat) which weren't in prior thesis framing. OTTO-29 substance is tracking to confirmed; resolution is the risk. OTTO-31 surfaces a new systemic claim worth a 6-month window.
+OTTO entered the arc with First Brands Ch.7 as a pending watch trigger; exits with it actively driven by the US Trustee, prediction at 85% by Sep 30. CVNA case unchanged but binary moved from May 5 (clean) to Jun 12 Discovery Production 2. NY Fed Q1 data confirms the Invisible Exit signature — consumer-level flow flat (2.97%) while ABS-level subprime stress at 32-yr highs. Tricolor recovery side fully institutionally validated (~3%, custodial retreat, distribution gridlock). PSEC OTTO-26 calibration loss — date specificity was the failure mode.
 
 ## GAPS
-
-- **Fifth Third Apr 24 supplemental motion contents:** Couldn't pull. Verita cert verification blocks WebFetch; Octus references it but didn't quote; Bloomberg Law / PACER paywalled. **Tooling gap to surface to Will/Prome.** Possible workarounds: PACER access for OTTO, paid Octus seat, or accept search-surface-only on docket.
-- **Wilmington custodial exit needs corporate-side confirmation.** Currently plaintiff-allegation only. Watch: M&T parent earnings (Q2/Q3), Wilmington Trust press, ABS surveillance for trustee-substitution filings.
-- **OTTO-26 PSEC** still NEEDS_VERIFY — carried over from Apr 15.
-- **War-transmission row from Apr 1 STATUS** (Iran Day 32, oil >$100, gas $3.99, ABS +17bps) is stale — ceasefire dynamics in play. Doesn't affect OTTO-core but the ABS-spread-on-inflation reading needs re-check.
-- **Remote-inherited Apr 15 scripts/TSVs** still black-boxes (`abs_issuance_tracker.py`, `extension_proxy.py`, `workbook/{ABS_ISSUANCE,EXTENSION_PROXY,CROSS_AGENT_LOG}.tsv`).
+- **May 20 First Brands disclosure-statement hearing outcome** — not yet sourced (resolves over weekend or Monday).
+- **May 25 First Brands omnibus hearing** — Ch.7 conversion timeline likely clarifies.
+- **OBK Q1 10-Q** — exposure quantum vs Oct 23 disclosure ($74.7M) not yet read.
+- **Wilmington Trust corporate-side confirmation** — OTTO-31 still plaintiff-allegation only.
+- **Fifth Third Apr 24 supplemental motion contents** — Verita cert verification still blocks.
+- **Apr 15 remote-inherited scripts/TSVs** — still black-boxes.
 
 ## WILL_NEEDS
-
-- Decision on Verita / PACER / Octus access path so OTTO can read docket contents directly (current state: search-surface only)
-- Awareness that OTTO went dark 36 days — this is the longest gap since Feb. Cadence may want explicit "OTTO check-in" beats in the calendar if Tricolor/CVNA/First Brands timelines warrant it
-- Awareness of OTTO-31 (Wilmington exit) as a new systemic prediction worth Q2/Q3 watch — REGINALD signal flagged this in addition to OTTO carrying it
+- Awareness of OTTO-32 NEW (85%) — First Brands Ch.7 conversion by Sep 30; near-term binary at May 25 omnibus.
+- Awareness of OTTO-26 calibration loss — date-specific predictions at ≤40% confidence proved unreliable on date even when directionally correct.
+- Multi-session-day git-isolation incident logged: WALTER session ran non-pathspec `git commit` mid-arc, bundled my staged OTTO files into commit `83b943d8`, then self-reset. My re-commit used pathspec (`c17d108f`). [feedback_agent_git_isolation] activated correctly via WALTER's self-detection.
 
 ## FOLLOW-UP (Priority queue for next spawn)
 
 **P0:**
-- OTTO-26 PSEC manual verification (5-min 8-K check; outstanding since Apr 15)
-- First Brands docket sweep — Apr 9 hearing was adjourned; check for new date
-- CVNA May 5 stock split vote outcome + short-seller scan (Gotham/Hindenburg pre-discovery Jun 12)
-- Q1/Q2 bank earnings sweep for OTTO-30 (HBAN, CFG, RF, regional warehouse exposure)
+- May 20 First Brands disclosure-statement hearing outcome + May 25 omnibus result
+- Wilmington Trust corporate-side confirmation (M&T Q2, Wilmington press, ABS surveillance trustee-substitution filings)
 
 **P1:**
-- Process 2 unread inbox items (May 9 $1.68T auto-loan; May 16 CNBC Tricolor)
-- Wilmington Trust corporate-side confirmation pass
-- Review remote-inherited Apr 15 scripts/TSVs (keep/refactor/retire)
+- OBK 10-Q Q1 2026 exposure quantum read
+- War-transmission row in Apr 1 STATUS still stale (ceasefire dynamics; BRENT/HAWK scope but OTTO ABS read needs refresh)
+- Review remote-inherited Apr 15 scripts/TSVs
 
 **P2:**
-- WAL / Jefferies / Point Bonita $715M thread (Apr 6 research inbox)
-- Ally Q1 print for OTTO-28 (Carvana-specific DQ/NCO break-out)
+- WAL / Jefferies / Point Bonita $715M thread
+- Ally Q1 print for OTTO-28
+- Q2 2026 bank earnings sweep (Jul-Aug) — last live shot for OTTO-30 new-disclosure
 
 **P3:**
 - Delete `otto-backup-pre-rebase-20260415` branch (5+ weeks clean)
-- Tooling-gap surfacing to Will/Prome (Verita/PACER)
+- Verita/PACER tooling-gap formal surfacing to Will/Prome
 
 ## SIGNALS ROUTED
-- `SIG-OTTO-WALTER-20260521-tricolor-data-emerged-wilmington-exit.md` → WALTER inbox → REGINALD primary, BROCK + CARL info-cc
+- `SIG-OTTO-WALTER-20260522-firstbrands-ch7-in-motion.md` → WALTER inbox → REGINALD primary, BROCK + CARL + LIQUID info-cc → WALTER processed (BOARD SIG-W-20260522-003 already filed by WALTER)
+
+## GIT
+- Commit `c17d108f` pushed to origin/master. 0 ahead, 0 behind.
+- Other agents' staged work (WALTER STATUS/MEMORY/REGISTRY/routed, BOARD signals, PROME outboxes) intact, awaiting their own commits.
