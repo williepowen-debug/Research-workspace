@@ -56,6 +56,8 @@
 
 - [2026-05-22 PM #4] **Sign-inversion is a distinct framing-error class from numerical-stretch — and is the most pernicious because the metric appears familiar.** Amit Tal SOFR-IORB = -15bp framed as "collateral scarcity" is the canonical example: numbers are plausibly right, but the DIRECTION-OF-SIGN is opposite of the canonical FRED convention. Under FRED, SOFR-IORB > 0 = stress; the -15bp print is OPPOSITE direction = ample-reserves / loose-liquidity. The inversion sneaks past readers who assume "negative = bad" without checking convention. **Apply**: for any pre-registered threshold metric (REG-T-NN / RED-FT-NN), verify-research must explicitly confirm sign convention before accepting framing wholesale, ESPECIALLY when an X-source uses "negative spread" or "spread compression" framing. The verify cost is $0.05; the downstream cost of routing an opposite-direction signal as cluster_mediating substance is dispatch-credibility destroying. Distinct from Kobeissi-style numerical-stretch in that the substance can be observable but the direction-interpretation is opposite of what the metric was designed to capture.
 
+- [2026-05-22 Fri AM] **Calendar-anchor verify-at-write-time extends "verify state before propagating" to scheduled release dates.** Boot reads showed time-sensitive THIS WEEK list with "🔴 5/22 Tokyo CPI" + "🔴 5/22 initial claims" — both wrong. Initial claims released **Thu 5/21** (DOL weekly Thursday cadence); Tokyo CPI releases **5/29** (Japan Stat Bureau publishes Tokyo CPI in final week of month, not third Friday). Same lesson family as 5/8 Treasury TIPS-vs-nominal CUSIP-family collapse + 5/6 5-instance verify-against-ground-truth pattern. **Mechanism:** STATUS docs propagate calendar anchors from session to session; once one session keys a release wrong, subsequent sessions inherit the error. **Apply (boot discipline):** when re-reading "time-sensitive THIS WEEK" list at boot, cross-check release dates against primary-source calendar BEFORE acting on them — same way we cross-check market-data prices against ground-truth fetch. Specifically: BLS / DOL / Census / BEA / FOMC dates are observable via institutional calendars and should be re-anchored not inherited. **Counter-pattern caught:** Tokyo CPI premise error would have wasted a sub-agent verify-spawn ($0.05) had Will not asked the follow-up "I think something was released by japan yesterday/last night though?" — the right Japan release (National CPI April) was downstream of the calendar-anchor correction. Cross-platform finding: dual-surface premise-correction validates user-on-the-loop discipline.
+
 ## References
 
 - **Root `CLAUDE.md`** — git protocol, agent lifecycle rules, cost model, status hierarchy.
@@ -67,7 +69,11 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (5/17 closeout → 5/21 full-day arc: AM light-closeout + PM #1 cluster-backfill + PM #2 cluster-backfill round 2)
+### CHANGES SINCE LAST SESSION (PM #4 closeout → 5/22 Fri AM session)
+
+**5/22 Fri AM (commit pending this closeout):** Will Telegram boot 14:00 UTC msg 1941. Will direction "pull claims + Tokyo CPI please" → 2 parallel sub-agents corrected both calendar anchors (claims = Thu 5/21; Tokyo CPI = 5/29). Follow-on Will msg 1946 surfaced Japan **National** CPI April released Fri 5/22 JST AM. 3 sub-agent spawns $0.15. **2 BOARD dispatches PRIORITY×2:** SIG-W-20260522-001 (Japan CPI fade gate → SAM / cluster ASIA_CHINA cluster_mediating / 0.88) + SIG-W-20260522-002 (claims counter_evidence to 5/14 / cluster CONSUMER_STAGFLATION / 0.75). BOARD 244→246; ASIA_CHINA 6→7; CONSUMER_STAGFLATION 45→46. New finding: calendar-anchor verify-at-write-time discipline extension.
+
+### CHANGES PRIOR SESSION (5/17 closeout → 5/21 full-day arc: AM light-closeout + PM #1 cluster-backfill + PM #2 cluster-backfill round 2)
 
 **5/21 AM (commit `ce61de74`):** Anchor + state-file + REGISTRY ops; 0 BOARD dispatches.
 
@@ -85,14 +91,16 @@
 
 **Canonical carry-forward:** see `LAST_COMPLETION.md` FOLLOW-UP + OPEN DESIGN DECISIONS sections (load-bearing running list).
 
-**Time-sensitive THIS WEEK** (boot quick-scan):
-1. **🔴 5/22 Thu (T+0/+1) Tokyo CPI** — SAM Channel 1 primary; soft fades June BOJ pricing 74%→60-65%, ≥2.0% locks. **Also feeds ASIA_CHINA cluster post-print backfill candidate.**
-2. **🔴 5/22 Thu initial claims** — LABOR BIFURCATED frame; claims direction-flip 5/14.
-3. **🟠 5 clusters still silent (post-PM#2)**: FED_FRAMEWORK (thin; partial coverage via SIG-016) / HYDROCARBON_INFRA (Barakah already cluster_secondary) / MISC / AI_INFRA_CAPEX (split-threshold decision; NVDA absorbed already in SIG-013 cluster_secondary) / ASIA_CHINA (dedicated post-Tokyo CPI candidate). Most marginal.
-4. **🟠 5/20-27 calibration cycle 1 trigger window** open (CARL/BRENT/RED/REGINALD).
-5. **🟠 Iran-war anchor next re-verify boundary 2026-05-28**.
-6. **🟠 REQ-HAWK + REQ-NEXUS now 16d** — over 14d retry threshold; escalate or amend.
-7. **🟠 COST 5/28** — 6th forward-test name from SIG-W-20260508-005.
-8. **🟠 SESSION_LOG.md archive trim** — STATUS.md SESSION LOG now at 8 rows vs spec'd 5.
-9. **🟠 HENRY R11 analog clock window 5/28-6/02** — vol-spike pathway transition watch (SIG-W-20260521-012/015).
-10. **🟠 HY OAS 286 highest-asymmetric near-trigger watch** (4bps from 2.90 kill, widening for 4 sessions).
+**Time-sensitive THIS WEEK + NEXT** (boot quick-scan — calendar-anchor verified at write-time per 5/22 finding):
+1. **🔴 5/29 Fri Tokyo CPI** — SAM Channel 1 primary; final-week Stat Bureau pattern (corrected from prior 5/22 anchor); soft fades June BOJ pricing 74%→60-65%, ≥2.0% locks.
+2. **🟠 5/22 Thu+ Japan National CPI April (DONE)** + **5/21 Thu initial claims (DONE)** — both dispatched this AM as SIG-W-20260522-001/002.
+3. **🟠 May 25-29 Big 3 mutual ESR window** (SAM Channel 1 primary near-term test).
+4. **🟠 5 clusters still silent**: FED_FRAMEWORK (thin; partial coverage via SIG-016) / HYDROCARBON_INFRA (Barakah already cluster_secondary) / MISC / AI_INFRA_CAPEX (split-threshold decision; NVDA absorbed already in SIG-013 cluster_secondary). ASIA_CHINA now has 2 dedicated entries post-Japan-CPI dispatch.
+5. **🟠 5/20-27 calibration cycle 1 trigger window** open (CARL/BRENT/RED/REGINALD).
+6. **🟠 Iran-war anchor next re-verify boundary 2026-05-28**.
+7. **🟠 REQ-HAWK + REQ-NEXUS now 17d** — over 14d retry threshold; escalate or amend.
+8. **🟠 COST 5/28** — 6th forward-test name from SIG-W-20260508-005.
+9. **🟠 SESSION_LOG.md archive trim** — STATUS.md SESSION LOG now at 9 rows vs spec'd 5.
+10. **🟠 HENRY R11 analog clock window 5/28-6/02** — vol-spike pathway transition watch (SIG-W-20260521-012/015).
+11. **🟠 HY OAS 286 highest-asymmetric near-trigger watch** (4bps from 290 widening side; RED-FT-01 + REG-T-03).
+12. **🟠 WAL REG-T-02 re-fire watch** — $78.07 above $78 by 7c; sustain-state intact since 5/21 reclaim.
