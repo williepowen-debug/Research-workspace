@@ -48,7 +48,9 @@
 - [2026-05-11 PM] **3-finding consolidation (BROCK NDFI scope-correction + sponsor-bifurcation + falsification-fire mechanics).** (a) **Framework-scope correction via deep-dive sub-agent**: BROCK working "$128B top-4 banks PC exposure" was private-credit-subset only; actual full NDFI per FFIEC RC-C 10.a-10.e is $1.4T industry YE 2025. Pattern: agent STATUS files carry numbers correct at one definitional scope, misleading as different scope becomes operative. Apply: at LIAISON setup, audit numerical-anchors against regulatory primary once. (b) **Sponsor-strategy bifurcation pattern**: KKR doubles-down (FSK $300M + KREST $50M + KREF) vs Apollo cashes-out (MFIC at $0.85/NAV; shopping $3B portfolio) at same underlying BDC-stress signal. Same data, divergent sponsor moves = thesis-pivot input on which sponsors are leaned/exposed. (c) **First falsification fire mechanics validated**: SIG-W-20260511-037 = REG-T-02 WAL <$78 sustain=1 inaugural-fire. Will-surface pre-dispatch on inaugural-fire only; future re-fires auto-dispatch per spec without per-instance Will-surface.
 - [2026-05-11 PM] **`network_uncertainty_peak` threshold first fire — 21 cluster_mediating single day = recalibration candidate.** ≥5 cluster_mediating in single calendar day triggers auto-flag. Fired 21-in-day 5/11 across 3 sessions (well above naive base rate). Re-fired 9-in-day 5/21 PM (cluster-backfill arc). Carry forward to calibration cycle 1: monitor whether ≥5/day stays useful or recalibrate to ≥10 / ratio (% of dispatches).
 
-- [2026-05-21 PM] **Cluster-by-cluster backfill is the recovery mechanic for BOARD silence.** When upstream cron pipeline degrades + domain agents work their own evidence independently, BOARD goes silent at the cluster level even though substance accumulates network-wide. Recovery recipe: (a) start with the cluster carrying densest just-refreshed anchor-level evidence (5/21 IRAN_HORMUZ via AM anchor refresh); (b) leverage existing domain-agent STATUS data for substance without re-discovery — cheap ($0) cross-agent re-cap; (c) sub-agent ONLY for data-genuinely-pending (forward-test outcomes like Q1 retailer earnings) — ~$0.05 targeted; (d) propose-cluster-then-execute per Will-approval to preserve curated-loop. Delivered 10 sigs in ~2.5hr at $0.05 total compute (5/21 PM session). **Anti-pattern**: news-sweep all 10 clusters from scratch ($0.50-1.00 sub-agent cost + 30-60min wall clock). Same lesson family as 5/8 walkthrough-grouped-by-weight + 5/5 sequenced-passes-with-checkpoint — Will-curated decision-loop + cheap-first approach + cluster-by-cluster pacing prevents over-spend and surfaces approvals at decision points. **Apply**: any time BOARD goes silent >7d on a cluster while domain agents have advanced their thesis, backfill-pass-recovery is the recovery; do NOT default to full news-sweep.
+- [2026-05-21 PM] **Cluster-by-cluster backfill is the recovery mechanic for BOARD silence.** When upstream cron pipeline degrades + domain agents work their own evidence independently, BOARD goes silent at the cluster level even though substance accumulates network-wide. Recovery recipe: (a) start with the cluster carrying densest just-refreshed anchor-level evidence (5/21 IRAN_HORMUZ via AM anchor refresh); (b) leverage existing domain-agent STATUS data for substance without re-discovery — cheap ($0) cross-agent re-cap; (c) sub-agent ONLY for data-genuinely-pending (forward-test outcomes like Q1 retailer earnings) — ~$0.05 targeted; (d) propose-cluster-then-execute per Will-approval to preserve curated-loop. **Pattern validated at TWO instances same day**: PM #1 delivered 10 sigs across 3 clusters in ~2.5hr at $0.05 (IRAN_HORMUZ + CONSUMER_STAGFLATION + BANK_COLLATERAL); PM #2 delivered 9 sigs across 2 clusters in ~35min at $0 (POSITIONING_VALUATION + PC_STRESS, zero sub-agent, all from domain STATUS). **Anti-pattern**: news-sweep all 10 clusters from scratch ($0.50-1.00 sub-agent cost + 30-60min wall clock). Same lesson family as 5/8 walkthrough-grouped-by-weight + 5/5 sequenced-passes-with-checkpoint. **Apply**: any time BOARD goes silent >7d on a cluster while domain agents have advanced their thesis, backfill-pass-recovery is the recovery; do NOT default to full news-sweep.
+
+- [2026-05-21 PM #2] **Backfill pass IS the counter-evidence dispatch when bull-counter clusters are among the silent.** POSITIONING_VALUATION backfill produced highest counter-evidence concentration of any session (4 of 9 sigs counter_evidence: NVDA absorbed, VIX9D sub-15, TIPS clean, bull-leg of 7-trigger framework). Pairs with PROME 5/21 calibration ask. Implication for next time PROME asks "where is the bull-counter weighting?": check whether the bull-counter cluster is silent first — if so, the backfill IS the answer. Cluster-silence and counter-density divergence are coupled, not independent.
 
 ## References
 
@@ -61,22 +63,26 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (5/17 closeout → 5/21 full-day arc: AM light-closeout + PM trim + PM cluster-backfill)
+### CHANGES SINCE LAST SESSION (5/17 closeout → 5/21 full-day arc: AM light-closeout + PM #1 cluster-backfill + PM #2 cluster-backfill round 2)
 
-**5/21 Thu AM light-closeout (~14:08-15:30 ET, 4d gap from 5/17; commit `ce61de74`):** 0 BOARD dispatches; 1 cross-agent inbox response shipped (PROME); IRAN_WAR.md anchor major-refresh (Barakah 5/17 catch via BRENT cross-check); EVENT_WINDOW_STATE update (Path B Trigger #3 5/15 logged, state stays CLOSED at 1/3); 2 outbox items resolved; 9 REGISTRY rows refreshed; WAL REG-T-02 sustain-state BROKE ($78.77 +2.26%). 2 feedback entries filed AM (verify-against-domain-agent-STATUS + bull-counter-density-divergence).
+**5/21 AM (commit `ce61de74`):** Anchor + state-file + REGISTRY ops; 0 BOARD dispatches.
 
-**5/21 Thu PM session (~20:00-23:35 UTC, this commit):** **MEMORY trim executed** plan→approve→execute 137 → 78 lines (target ≤100). Drops: CHANGES PRIOR SESSION block + compressed three 4/14 + three 5/6 + 5/11 PM triple-finding entries. **Cluster-by-cluster BOARD backfill — 10 new signals dispatched across 3 clusters (IRAN_HORMUZ 47→51 / CONSUMER_STAGFLATION 40→42 / BANK_COLLATERAL 28→32); BOARD 213 → 223.** Per-cluster Will-approval gates preserved curated-loop. 1 sub-agent spawn for retail-earnings forward-test closure (~$0.05). `network_uncertainty_peak` FIRES 9 cluster_mediating in single PM session. New finding filed: backfill-pass-recovery as cluster-recovery mechanic.
+**5/21 PM #1 (commit `ec3c322d`):** MEMORY trim 137→82; 11 BOARD signals across IRAN_HORMUZ 47→51 + CONSUMER_STAGFLATION 40→42 + BANK_COLLATERAL 28→33 (incl. OTTO Tricolor inbound). New finding: backfill-pass-recovery as cluster-recovery mechanic.
+
+**5/21 PM #2 (this commit, ~00:00-00:35 UTC 5/22):** 9 BOARD signals across POSITIONING_VALUATION 33→38 + PC_STRESS 18→22. BOARD 224→233. Zero sub-agent spawns; all sourced from VIOLET/HENRY/BROCK/REGINALD STATUS files refreshed 5/21. 2 new findings: backfill-as-counter-evidence-dispatch + domain-STATUS-as-durable-substrate (extends PM #1 finding to second instance).
 
 ### NEXT SESSION
 
 **Canonical carry-forward:** see `LAST_COMPLETION.md` FOLLOW-UP + OPEN DESIGN DECISIONS sections (load-bearing running list).
 
 **Time-sensitive THIS WEEK** (boot quick-scan):
-1. **🔴 5/22 Thu (T+1) Tokyo CPI** — SAM Channel 1 primary; soft fades June BOJ pricing 74%→60-65%, ≥2.0% locks.
-2. **🔴 5/22 Thu (T+1) initial claims** — LABOR's BIFURCATED frame still converging from claims direction-flip 5/14.
-3. **🟠 7 clusters still silent 5/12-5/21 — backfill carry-forward**: POSITIONING_VALUATION (NVDA + VIOLET R12 termination + VIX9D sub-15), PC_STRESS (BROCK Stage-2-APO-entrenched), FED_FRAMEWORK, HYDROCARBON_INFRA, MISC, AI_INFRA_CAPEX (split-threshold decision), ASIA_CHINA. Use same backfill-pass-recovery pattern.
+1. **🔴 5/22 Thu (T+0/+1) Tokyo CPI** — SAM Channel 1 primary; soft fades June BOJ pricing 74%→60-65%, ≥2.0% locks. **Also feeds ASIA_CHINA cluster post-print backfill candidate.**
+2. **🔴 5/22 Thu initial claims** — LABOR BIFURCATED frame; claims direction-flip 5/14.
+3. **🟠 5 clusters still silent (post-PM#2)**: FED_FRAMEWORK (thin; partial coverage via SIG-016) / HYDROCARBON_INFRA (Barakah already cluster_secondary) / MISC / AI_INFRA_CAPEX (split-threshold decision; NVDA absorbed already in SIG-013 cluster_secondary) / ASIA_CHINA (dedicated post-Tokyo CPI candidate). Most marginal.
 4. **🟠 5/20-27 calibration cycle 1 trigger window** open (CARL/BRENT/RED/REGINALD).
-5. **🟠 Iran-war anchor next re-verify boundary 2026-05-28** (7d from 5/21).
+5. **🟠 Iran-war anchor next re-verify boundary 2026-05-28**.
 6. **🟠 REQ-HAWK + REQ-NEXUS now 16d** — over 14d retry threshold; escalate or amend.
-7. **🟠 COST 5/28** — 6th forward-test name from SIG-W-20260508-005 still pending; close the loop when prints.
-8. **🟠 SESSION_LOG.md archive trim** — STATUS.md SESSION LOG now at 7 rows vs spec'd 5.
+7. **🟠 COST 5/28** — 6th forward-test name from SIG-W-20260508-005.
+8. **🟠 SESSION_LOG.md archive trim** — STATUS.md SESSION LOG now at 8 rows vs spec'd 5.
+9. **🟠 HENRY R11 analog clock window 5/28-6/02** — vol-spike pathway transition watch (SIG-W-20260521-012/015).
+10. **🟠 HY OAS 286 highest-asymmetric near-trigger watch** (4bps from 2.90 kill, widening for 4 sessions).
