@@ -171,7 +171,7 @@
 
 ## OPEN DESIGN DECISIONS (need Will — also tracked in MEMORY.md)
 
-- **🆕 SPONSOR_BIFURCATION sub-cluster spawn** — 5-instance crystallization confirmed via SIG-019; promotes from carry-forward question to active design decision. Decision: spawn new sub-cluster vs PC_STRESS ↔ BANK_COLLATERAL bridge cluster.
+- ~~**SPONSOR_BIFURCATION sub-cluster spawn**~~ ✅ RESOLVED 2026-05-22 00:11 UTC Will-mediated — Option C (status quo cluster_secondary tagging) locked; Option D (`sponsor_strategy` enum header field) PARKED in V0_9_STACK §3.1 with re-evaluation triggers (cycle 1 close 5/25 / pattern ≥8 instances / cross-domain surfacing / 6/15 cutoff to v0.10). Rationale: 5 instances at just-crystallized state is too sparse for new cluster; cluster_secondary already works.
 - **HENRY LIAISON priority confirmation** — HENRY revived; top of remaining queue.
 - **Continue cluster-backfill arc next session** — 5 remaining silent clusters mostly thin; ASIA_CHINA post-Tokyo CPI is the dedicated-entry candidate.
 - **CONSUMER_STAGFLATION 5-axis sub-cluster spawn** — cluster at 42 sigs.
