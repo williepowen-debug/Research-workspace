@@ -913,3 +913,92 @@ Open with Will at next-session start:
 **Next suggested work:** Push if approved; then scan BROCK / REGINALD / HENRY replies for 6/18 trigger-set v0.2 by 2026-05-24 EOD.
 
 **Rules held:** no trade execution, no external messages, no persistent-agent spawns except HAWK (spawnable), explicit path staging only, no GitHub push without explicit approval.
+
+---
+
+## Current Session — 2026-05-22 late PM (crash-recovery boot + closeout)
+
+**Run type:** Will-directed cold boot after computer crash interrupted the 5/22 mid-day CC-Prome session. Full reconstruction from file mtimes + uncommitted diffs + action card headers; then PROME-scope closeout commit + push.
+
+### Crash-state reconstruction (5/22 mid-day work, pre-crash)
+
+| Time | Event |
+|---|---|
+| ~10:19–10:20 | Filed 3 parallel calibration SIGs (BROCK / REGINALD / HENRY) for Jun18 cluster trigger calibration |
+| ~13:42 | HENRY (new teams UUID `a9200162cddd73274`) replied via outbox — TLT verdicts: 2/1 split, Sep $85P, 6/06 backstop, $85.50+velocity trigger |
+| ~14:18–14:46 | Built `PROME/action-cards/TLT_JUN18_DECISION_2026-05-22.md` + appended TRADE_DECISIONS entry. CARL active in parallel processing inbox |
+| ~14:46 | CARL last clean write (BOARD_LOG) |
+| ~15:00 | Will [Approve] stamped on action card. CARL atomic STATUS.md rename interrupted → `STATUS.md.tmp.542915.8a61cc80397b` leaked |
+| post-15:00 | Computer crashed before broker action or commit |
+
+### What this recovery boot did
+
+- Read PROME/CLAUDE.md + BOOT/STATUS/SCRATCH/HANDOFF + git status + recent log.
+- Reconstructed the 5/22 PM work entirely from `git status` + mtimes + the action card / TRADE_DECISIONS / HENRY reply content.
+- **Confirmed with Will:** TLT trade was never placed at broker; CARL recovery is hands-off (he owns his files); scope = full PROME closeout + push.
+- Diffed CARL's tmp leak against current STATUS — single Gas Pump row patch ($4.564 May 21 / all-50-states ≥$4 per SIG-W-20260521-030). Did not touch CARL files. Tmp diff captured in SCRATCH for CARL's next-boot reference.
+- Updated action card header to make execution-pending state literal (was reading as "executed"; now reads "APPROVED — orders NOT yet placed at broker; earliest exec Tue 5/27").
+- Rewrote SCRATCH for closeout entry-point.
+- Surgical STATUS updates: header timestamp, GitHub-sync row, action-cards row added, 6/18-trigger-set row → 🟠 Partial (HENRY done, BROCK/REGINALD pending), new TLT-decision row, HAWK row → ✅ pushed `888a5e9d`, new CARL-recovery row, HENRY domain row refreshed, Next Best Action rewrite.
+- This entry appended.
+
+### Files edited (within autonomous scope)
+
+- `PROME/action-cards/TLT_JUN18_DECISION_2026-05-22.md` — header status line rewrite (literal pending-execution state)
+- `PROME/SCRATCH.md` — full rewrite (closeout state)
+- `PROME/STATUS.md` — surgical (7 edits)
+- `PROME/CLAUDE_CODE_HANDOFF.md` — this entry
+- `PROME/TRADE_DECISIONS.md` — already drafted pre-crash; not re-edited (entry is coherent as-is)
+
+### Files NOT touched (other agents' scope or Will's)
+
+- `AGENTS/CARL/*` (4 modified + 5 inbox moves + dispositions file + tmp leak) — CARL recovers on next boot
+- `AGENTS/HENRY/outbox/REPLY-PROME-2026-05-22-tlt-decision.md` — HENRY's outbox, HENRY commits
+- `AGENTS/{BROCK,REGINALD,HENRY}/inbox/SIG-PROME-*` — recipients integrate + commit on their next boot
+- `WILL/share/agents capture image.JPG` — Will's file
+
+### Decisions Will made this session
+
+- TLT trade not placed at broker (confirmed via AskUserQuestion).
+- Show CARL tmp diff but do not touch CARL files.
+- Full closeout — commit PROME scope + push; flag CARL for next boot.
+
+### Decisions needed from Will (forward-looking)
+
+- **Tuesday 5/27 open:** place TLT orders per action card (or re-evaluate against C1–C5 conditional triggers if market moved).
+- **Live carries unchanged:** SAM Sep-18 $60C entry timing, FXY $58C reconciliation, TLT $88P May 15 disposition, VIOLET 4/15 trade adjudication, APD long-thesis tag, TODAY/CALENDAR refresh, HEARTBEAT cadence design.
+
+### Risks / Blockers
+
+- **None blocking** closeout itself.
+- **Soft:** CARL's dirty tree blocks PROME's push if he's not first to commit. Workaround: PROME-scope-only stage avoids cross-agent files; push should be clean.
+- **Time-pressure soft:** TLT broker execution window opens Tue 5/27. If Will is unavailable that day, conditional triggers C1–C5 are the safety net; 6/06 EOD time backstop is hard.
+
+### v_next design inputs returned this session
+
+1. **Mid-session-crash recovery is feasible from artifacts alone.** Action card header + TRADE_DECISIONS entry + file mtimes were sufficient to reconstruct the decision trail without conversation log. Validates `finding_stamp_content_as_well_as_metadata` (5/21) as load-bearing for crash resilience.
+2. **Action card status line is a state machine, not a binary flag.** "ACTIVE — Will Approved" is ambiguous between "execution underway" and "execution pending." Literal phrasing — "APPROVED — orders NOT yet placed at broker" — survives crashes and intra-day handoffs more cleanly.
+3. **Parallel-leg cluster pattern produces uneven response cadence by design.** TLT was time-sensitive → HENRY raced. BROCK + REGINALD legs run to default-pass deadline. Pattern: convert the fastest-reply leg into its own action card immediately; consolidate the rest at deadline. Don't wait for all legs to converge.
+4. **CARL atomic-rename leak as a diagnostic artifact.** `STATUS.md.tmp.<pid>.<random>` is the standard pattern; if it persists past CARL's commit, indicates an interrupted write. PROME should leave it alone but capture the diff for the owning agent.
+
+### Next Suggested Work
+
+Open with Will at next-session start:
+- **5/27 Tue open** — TLT broker execution sweep (most likely the next Will-time-pressure event).
+- **CARL next boot** — recovery + Gas Pump patch + own-tmp cleanup (Will spawns).
+- **6/18 trigger-set v0.2 consolidation** — scan BROCK/REGINALD/HENRY outboxes by 5/24 EOD default-pass.
+- **HAWK 5/23 close re-check** — Gulf framework text presence/absence.
+- Live carries unchanged.
+
+### Rules I Held To
+
+- No commits outside `PROME/`.
+- No `git add -A` or `git add .`.
+- No edits to any other agent's files. Verified `git diff --cached --stat` pre-commit.
+- No persistent-agent spawns.
+- No trades. No external messages.
+- Read-before-edit honored.
+- Behavior-language in state files (commits as audit anchors only).
+- Sequenced multi-file updates (action card → SCRATCH → STATUS → HANDOFF).
+- Show-diff-then-approve honored on commit (commit gated on Will's "full closeout" approval).
+- CARL files untouched per agent-isolation rule even on tempting tmp-leak cleanup.

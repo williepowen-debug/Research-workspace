@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-05-22 ~13:30 ET (OpenClaw closeout — HAWK armed-pause consolidation local, push-ready)
+**Updated:** 2026-05-22 late PM ET (CC-Prome — crash-recovery boot + closeout; PROME-scope commit + push)
 
 ## Core State
 
@@ -13,7 +13,7 @@
 
 | Item | Status | Note |
 |---|---|---|
-| GitHub sync | ✅ Complete / push-ready | Pulled/rebased cleanly over latest origin; local branch is ahead with HAWK consolidation + Prome closeout commits pending push. |
+| GitHub sync | ✅ Synced at boot (HEAD `6848fcc3` OTTO 5/22 PM); CC-Prome closeout commit + push planned this session | HAWK consolidation (`888a5e9d`) + earlier OpenClaw closeout (`0ff0755d`) already in origin. |
 | REGINALD update | ✅ Pulled | WAL Investor Day findings + May 17 closeout integrated into Prome state. |
 | WALTER update | ✅ Pulled | Multi-session closeout confirms signal-routing ownership and May 18 callbacks. |
 | Claude Code Prome scaffold | ✅ Present | Phase 2 complete; Phase 3 dry run still pending. |
@@ -28,7 +28,8 @@
 | Artifact | Status | Purpose |
 |---|---|---|
 | `HEARTBEAT.md` | ⚠️ Stale (May 16 levels); BROCK + REGINALD posterior shifts NOT yet integrated | Scenario, levels, catalyst/position rails. Will-approval gate; fold post-auction. |
-| `PROME/SCRATCH.md` | ✅ Fresh May 22 ~13:30 ET (HAWK armed-pause consolidation + push-prep) | Ephemeral next-action state; entry point for next session |
+| `PROME/SCRATCH.md` | ✅ Fresh May 22 late PM ET (CC-Prome crash-recovery + closeout; TLT approval recorded, broker exec pending Tue 5/27) | Ephemeral next-action state; entry point for next session |
+| `PROME/action-cards/TLT_JUN18_DECISION_2026-05-22.md` | ✅ Active 5/22 | TLT Jun18 $85P 2/1 split + Sep 19 $85P roll. **Will Approved 5/22; broker execution pending Tue 5/27 open** (computer crash interrupted same-day execution). Conditional triggers C1–C5 live through 6/06 EOD. |
 | `FORGE/tools/market-data/README.md` | ✅ Fresh May 21 (Citation Convention section added) | Canonical FRED date-stamp convention reference |
 | `FORGE/tools/market-data/dashboard.py` | ✅ Fresh May 21 (As-of column for FRED rows; `_date_stamp` helper) | Live tape; auto-displays observation date |
 | `PROME/FLEET_SCAN.md` | ⚠️ Fresh May 18 (v2 prototype); 3 days old | Live working surface — fleet situation report |
@@ -83,8 +84,10 @@
 | **BOND-TIPS cross-flag to HENRY** | ✅ Integrated 5/21 ~14:20 | HENRY commit `526d3586`: R11 trigger #6 imminence SOFTENED ("long end clearing demand at price"); breakeven decomposition added as 3rd independent Fed-can't-cut confirmation (PCE + duration + breakeven all triangulating). 2 new MEMORY findings. |
 | **SAM FXY Tranche 2 decision** | ✅ Executed 5/21 ~12:46 | SAM Tranche 2 executed at $57.66, 5 shares (commit `fb539597`). Total FXY now 13 shares + 1 Jun-18 $58C. Discovered post-closeout via cross-agent verification of SAM outbox-to-PROME signal. Next SAM Will-pending: Sep-18 $60C × 5-10 contracts (post-CPI cheaper entry). |
 | **FORGE rehab Steps 1-4** | ✅ Done 5/21 by CC | Commit `ec7e8ad9` (Will-authorized). STATUS reconciled against Fidelity CSV (5/21 14:03 ET) + SAM v1.4. Position tables rewritten (KRE 19 / WAL 8 / TLT 7 / APO 2 / OZK 7 / Other Puts 14 / Longs 8). Immediate Actions rebuilt around 6/18 expiry-cluster decisions. PORTFOLIO + ACTIVE_TRADES marked SUPERSEDED. JOURNAL gap entry for Feb 27 → May 21 (~22 equity closures + 6 expirations + 4 rolls + ~13 new opens). Recon worksheet: `FORGE/scratch/REHAB_RECON_2026-05-21.md`. **Open Will-decisions surfaced:** 6/18 theta-killer cluster dispositions (HYG×8/EGBN/AAL×2/WAL×3/KRE), TLT $88P May 15 disposition unknown (was +100% pending), FXY $58C reconciliation (not in CSV), APD new long thesis tag, VIOLET 4/15 VIX/SKEW trade overdue. |
-| **6/18 trigger set v0.1 + 3 calibration SIGs** | ✅ Routed 5/22 by CC | `FORGE/trigger-sets/JUN18_CLUSTER_2026-06-18.md` v0.1 drafted. Will-decision: vol-floor/ATH concern + `feedback_put_vs_duration_expression` → pivot from active-roll-decisions to pre-registered triggers + hard backstop 6/16 16:00 ET. AAL + CF dropped (no domain owner; mechanical let-expire). SIGs filed to BROCK (HY OAS R2/R4 + HYG roll target + sub-90¢/bank-PC language), REGINALD (KRE bear-line + WAL break-zone + WAL/KRE/EGBN roll targets), HENRY (VIX R1 + **TLT decision packet, strawman = trim 2/roll 1 to Sep $82P**). Response default-passes 2026-05-24 EOD; PROME consolidates → v0.2 → Will approval gate. TLT decision separate from trigger-set adoption. |
-| **HAWK armed-pause consolidation** | ✅ Done 5/22 by OpenClaw | HAWK booted, refreshed, audited in phases, and consolidated at `AGENTS/HAWK/audits/HAWK_SYNTHESIS_2026-05-22.md`. Current frame: **armed pause / controlled grind**; C 57% / D 35% / B 8%; Hormuz ~10/day vs 125-140 normal; Barakah direct-Iran attribution unconfirmed; old zero-crossing and uninsurable language superseded. Local commit pending push. |
+| **6/18 trigger set v0.1 + 3 calibration SIGs** | 🟠 Partial 5/22 by CC | SIGs filed to BROCK (HY OAS R2/R4 + HYG roll target + sub-90¢/bank-PC language), REGINALD (KRE bear-line + WAL break-zone + WAL/KRE/EGBN roll targets), HENRY (VIX R1 + TLT decision packet). **HENRY replied 5/22 ~13:42** (TLT verdicts → action card built + Will-approved). **BROCK + REGINALD still owe replies; deadline 2026-05-24 EOD default-pass.** Consolidate v0.2 next session. |
+| **TLT $85P decision (Jun18 cluster sub-leg)** | 🔴 Approved, broker-exec pending | Will [Approve] stamped 5/22 ~15:00 ET on action card. Plan: SELL 3 × TLT Jun18 $85P / BUY 1 × TLT **Sep 19** $85P (HENRY-recommended monthly, not Sep 30 quarterly). Computer crashed before broker action. Memorial Day Monday 5/25 closed. Earliest exec Tue 5/27 open. TRADE_DECISIONS.md logged; Outcome: Pending. Conditional triggers C1–C5 (TLT $85.50 / $85.20-grind / <$82 / 6/06 backstop / HY-OAS-or-R11 substance break) live through 6/06 EOD. |
+| **HAWK armed-pause consolidation** | ✅ Done + pushed 5/22 by OpenClaw (commit `888a5e9d`) | HAWK frame: **armed pause / controlled grind**; C 57% / D 35% / B 8%; Hormuz ~10/day vs 125-140 normal; Barakah direct-Iran attribution unconfirmed; old zero-crossing and uninsurable language superseded. May 23 close re-check + May 28 IRAN_WAR boundary are next gates. |
+| **CARL 5/22 inbox-processing crash recovery** | 🟠 Held back — CARL owns | CARL was mid-session at crash. 5 inbox items moved to `processed/` (dispositions file written), ROADMAP/SCRATCH/BOARD_LOG dirty, STATUS atomic-rename interrupted → `STATUS.md.tmp.542915.8a61cc80397b` leaked. Tmp diff = one Gas Pump row update ($4.564 May 21 / all-50-states ≥$4 per SIG-W-20260521-030). CARL on next boot: finish row patch, clean own tmp, commit. PROME did NOT touch. |
 | **WALTER bull-counter calibration** | ✅ Responded 5/21 ~14:45 | WALTER filed `SIG-WALTER-PROME-20260521-bull-counter-tier-rec.md`: both Tier-2; forced steelman ("regime may LAST not BREAK"). Folded into HEARTBEAT regime line. |
 | **HEARTBEAT.md refresh** | ✅ Done 5/21 by CC | Path B refresh shipped 15:55 (`8f3fa922`); surgical fix 16:25 (`a0aa4232`). 98→38 lines. Refresh-cadence design question remains open (now self-referentially listed as Blocking on Will inside HEARTBEAT). |
 | **MEMORY.md sweep** | ✅ Done 5/21 by CC | 2 new entries + 3 footnotes (`d60616cc`). Will-authorized cross-surface boundary. |
@@ -103,7 +106,7 @@
 | REGINALD / banks | 🔴 | Persistent/managed — do not spawn. WAL V2.2 shipped 5/21 (Bear-medium 30% dominant, EV $67.98). MI3/FFIEC PDD V1-fast falsifier still owed. Q2 print late-July is next critical test. FRED-citation SIG in inbox. |
 | BROCK / private credit | 🔴 | 20-day dark window closed 5/21. Convergence 46/60 🔴🔴. Position decisions formalized. 2 new vectors (sponsor-bifurcation + duration-channel). **BOND-TIPS cross-flag in inbox raises duration-vector re-weight question.** FRED-citation SIG also in inbox. |
 | LIQUID | 🟠 | Duration-channel reframe (5/18) now propagated through BROCK convergence matrix. HAWK routed OFAC/IRGC/PGSA toll-payment risk as legal/funding choke point. |
-| HENRY / market structure | 🟠 | **Teams-mode revival complete 5/21** (UUID `abf1cd8d4ed725569`). STATUS rewritten Apr 17→May 21. NVDA absorbed cleanly; macro/structure tape supports Stage-2-late. HEN-27 PCE CONFIRMED. Standing by — context 175K/200K. BOND-TIPS cross-flag relayed; awaiting his judgment on integration. |
+| HENRY / market structure | 🟠 | Teams-mode revival 5/21 (UUID `abf1cd8d4ed725569`). NVDA absorbed cleanly; macro/structure tape supports Stage-2-late. HEN-27 PCE CONFIRMED. **5/22 replied to TLT calibration SIG** (new teams UUID `a9200162cddd73274`) with verdicts on 2/1 split + Sep $85P + 6/06 backstop + $85.50+velocity trigger — drove TLT action card construction. Reply lives at `AGENTS/HENRY/outbox/REPLY-PROME-2026-05-22-tlt-decision.md` (untracked-by-design; HENRY commits on next boot). |
 | VIOLET / vol/SKEW | 🟠 | **Teams-mode revival complete 5/21** (UUID `ad7350e8d26f70249`). Stage 2-late confirmed; R12 SKEW>140 regime terminated; R11 clock running 5/28-6/02 prior 36%. 7-trigger Stage 3 watch list canonized. Standing by — context 114K/200K. |
 | SAM / Japan | 🟠 | Tranche 2 executed 5/21 at $57.66; v1.4 thesis bump shipped (`fb539597` / `2c079ab8` / `a5852d99`). Total FXY 13 shares + Jun-18 $58C. Next SAM Will-pending: Sep-18 $60C × 5-10 contracts. Filed outbox-to-PROME signal asking for FORGE rehab (workflow note: signal lived in his outbox, not PROME/inbox — discovery gap closed via Will-prompted scan). |
 | BOND | 🟠 | **Teams-mode operational, persistent** (UUID `ad32628b028661b70`). Today's auction was TIPS not nominal; matrix Q4 deferred to June 9-11 (CUSIP 91282CQQ7 reopening). TIPS read commit `724169c3` local-only (not yet pushed). Standing by. Calendar update: re-check Treasury announcement June 3-5. |
@@ -127,20 +130,21 @@
 
 ## Next Best Action
 
-**Current posture (5/22 ~13:30 ET):** HAWK consolidation is complete locally and ready to publish once Will explicitly approves `git push`. Latest local frame: **armed pause / controlled grind** — not closed, not clean de-escalation. HAWK weights: C 57% / D 35% / B 8%. The local branch is ahead of origin with HAWK consolidation + closeout state after clean pull/rebase.
+**Current posture (5/22 late PM):** CC-Prome boot was a crash-recovery, not a working session. Mid-day work (Jun18 cluster calibration push + TLT decision packet + action card + Will approval) reconstructed from file mtimes; PROME-scope closeout commit + push pending. CARL's parallel in-flight inbox-processing is held back per agent-file-isolation. TLT trade APPROVED but UNEXECUTED; broker exec window opens Tuesday 5/27 (Memorial Day Monday closed).
 
 **Immediate next action:**
-1. 🔴 **If Will says push:** run `git pull --rebase` first if origin moved, then `git push`.
-2. 🟠 **May 23 close HAWK re-check:** if no Gulf/framework text appears, update HAWK STATUS/CALENDAR to mark hold expired without framework and May 25-29 grind/re-ratchet pressure active.
-3. 🟡 **6/18 trigger set v0.2 consolidation** — scan BROCK / REGINALD / HENRY outboxes/inboxes for replies by 2026-05-24 EOD; consolidate into one Will approval packet. TLT $85P decision remains separate and time-sensitive.
+1. 🔴 **Tuesday 5/27 open** — Will places TLT orders at broker. Action card live; conditional triggers C1–C5 still apply. After fills: FORGE/STATUS TLT row update + TRADE_DECISIONS fills log + action card → Completed.
+2. 🟠 **CARL next-boot recovery** — finish Gas Pump row patch, delete own tmp leak (`STATUS.md.tmp.542915.8a61cc80397b`), commit CARL 5/22 inbox-processing work.
+3. 🟠 **6/18 trigger set v0.2 consolidation** — scan BROCK + REGINALD outboxes by 2026-05-24 EOD default-pass; consolidate v0.2; prepare Will approval packet. HENRY leg already converted to TLT action card.
+4. 🟡 **May 23 close HAWK re-check** — if no Gulf/framework text, update HAWK STATUS/CALENDAR to "hold expired without framework; May 25-29 grind/re-ratchet pressure active."
 
 **Live Will-decision carries:**
-- TLT $85P × 3 decision packet — HENRY validation pending; strawman trim 2 / roll 1 Sep $82P.
+- TLT $85P × 3 → 2/1 split + Sep 19 $85P roll — **approved 5/22, broker exec Tue 5/27**.
 - SAM Sep-18 $60C × 5-10 contracts — pending post-CPI cheaper entry.
-- FXY $58C reconciliation — SAM v1.4 says held, missing from 5/21 CSV.
+- FXY $58C reconciliation — SAM v1.4 says held; missing from 5/21 CSV.
 - TLT $88P May 15 disposition unknown.
 - VIOLET 4/15 VIX/SKEW trade adjudication — 60d window closes ~6/12.
-- APD new long thesis tag.
-- TODAY.md / CALENDAR.md broader refresh and HEARTBEAT cadence design remain open.
+- APD long thesis tag unassigned.
+- TODAY.md / CALENDAR.md broader refresh; HEARTBEAT cadence design open.
 
-**Pre-6/16 FOMC:** trigger set v0.2 needs Will approval + daily monitor; TLT decision time trigger 6/13 EOD at latest.
+**Pre-6/16 FOMC:** trigger set v0.2 needs Will approval + daily monitor.
