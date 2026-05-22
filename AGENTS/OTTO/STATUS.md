@@ -1,8 +1,34 @@
 # OTTO STATUS
 
-**Signal Status:** 🔴🔴 CRITICAL — ESCALATING | **Last Updated:** 2026-05-22 EDT
+**Signal Status:** 🔴🔴 CRITICAL — ESCALATING | **Last Updated:** 2026-05-22 PM EDT
 
-> **📌 New spawn:** Read `LAST_COMPLETION.md` first. May 21-22 arc: (1) Tricolor outcomes catch-up — Mar 31 was operative deadline, ~3% auction recovery, $113M distribution gridlock, Wilmington Trust exiting non-mortgage ABS custody. (2) May 22 post-inbox sweep — PSEC cut FALSIFIED on date (cut occurred May 7 not Feb 20), CVNA May 5 split passed + chairman-separation defeated 96% + GT auditor ratified, NY Fed Q1 2026 confirms $1.685T total auto + transition-to-90+ flat at 2.97%, Origin Bancorp surfaces as previously-undiscovered Tricolor-exposed bank (Oct 23 2025 disclosure).
+> **📌 New spawn:** Read `LAST_COMPLETION.md` first. May 21-22 arc: (1) Tricolor outcomes catch-up — Mar 31 was operative deadline, ~3% auction recovery, $113M distribution gridlock. (2) May 22 post-inbox sweep — PSEC cut FALSIFIED on date, CVNA May 5 split passed + chairman-separation defeated 96% + GT ratified, NY Fed Q1 confirms $1.685T total auto + transition flat at 2.97%, Origin Bancorp surfaces as previously-undiscovered Tricolor-exposed bank. (3) **May 22 PM P0 sweep — Wilmington Trust full-exit thesis WEAKENED (corporate-side denial via M&T anonymous source; narrow Tricolor-only resignation is the real event); First Brands May 20 hearing outcome NOT YET in public sources (re-check Mon).**
+
+---
+
+## MAY 22 PM — P0 SWEEP: FIRST BRANDS MAY 20 + WILMINGTON CORPORATE-SIDE (2026-05-22 PM)
+
+**Summary:** P0 carryover sweep. Two questions: (1) outcome of May 20 First Brands disclosure-statement hearing, (2) corporate-side confirmation/denial of Wilmington Trust non-mortgage ABS custodial exit. One unresolved-but-bracketed; one materially weakened by corporate-side evidence.
+
+### Findings
+
+- **First Brands May 20 hearing outcome NOT YET in public sources** as of Fri May 22 PM. News media has not covered (hearing was Wed); no court order in searchable record; Kroll docket 403-blocked. Structural picture remains strongly supportive of OTTO-32 — debtors' own PMG plan converts 111/112 to Ch.7; UST motion attacks structure as "sleight of hand." Additional context: **May 29 combined disclosure-final + plan-confirmation hearing requested by debtors**; **May 22 (today) bid deadline for litigation trust sale**; **May 5 examiner emergency motion** — De Luca's $7M budget exhausted, needs ~90 days + funding. No new objections from Barclays/Apollo/ad hoc group between May 13-22 in news. **Re-check Mon May 25 post-omnibus.**
+- **Wilmington Trust full-exit allegation DENIED corporate-side.** American Banker (Feb 19-20) reports M&T-side anonymous source on record **denied** the Jan 14 plaintiff claim; said the non-mortgage custodial unit "is accepting new clients." M&T spokesperson otherwise restricted to securities-filing language; 10-Q says Wilmington will "vigorously defend itself."
+- **What IS corporate-confirmed (narrow):** Wilmington gave 30-day notice **Sep 20, 2025** to resign as Tricolor ABS indenture trustee/custodian — Tricolor-specific only. Successor-trustee role being shunned by other major trustees (Auto Finance News). KBRA Oct 2025 commentary on Tricolor servicing transition did NOT extend to other Wilmington-administered deals.
+- **Active-business counter-evidence:** Wilmington ranked #2 US ABS/MBS trustee 1H 2025; published "Outlook 2026: Five Structured Finance Themes" thought-leadership; structured-finance product pages live; no non-Tricolor trustee-substitution filings surfaced; no rating-agency notes flagging substitutions.
+
+### Thesis Impact
+
+- **OTTO-31 confidence dropped 60% → 30%.** Plaintiff allegation looks like litigation rhetoric, not franchise exit. The Tricolor-specific resignation is a real cockroach #1 mechanic, but the broader "indenture-trustee retreat across non-prime ABS" framing was over-reach.
+- **Wilmington Trust active-vector reframed from 🔴🔴 to 🟠 (narrow Tricolor-only resignation).** The systemic transmission row should remain — successor trustees shunning the role IS a structural signal — but its magnitude is smaller than prior STATUS framing implied.
+- **OTTO-32 unchanged at 85%** — no early read on May 20 hearing, but no disconfirming signal either; structural picture (PMG plan + UST motion) remains converging on majority-Ch.7.
+- **Calibration lesson (new feedback):** plaintiff-allegation-only signals should be weighted ≤40% confidence pending corporate-side or independent corroboration. The Wilmington case was a good test — substance held narrow, framing did not.
+
+### Next Re-Check
+
+- **Mon May 25:** First Brands omnibus hearing + Mon news cycle for any May 20 outcome reporting
+- **Late May / early Jun:** M&T Q2 prep — Wilmington Trust segment language
+- **Any non-Tricolor trustee-substitution filings** on previously-Wilmington-administered deals — hard signal for OTTO-31
 
 ---
 
@@ -274,7 +300,7 @@
 | Tricolor Auction Recovery | **$39.5M on 5,857 sold (~62%); projects ~3% of debt** | 🔴🔴 |
 | Tricolor Missing Vehicles | **~30,000 missing, up to $1.1B** | 🔴🔴 |
 | Tricolor Disputed Receivables | **$113M frozen — distribution gridlocked** | 🔴 |
-| Wilmington Trust | **Exiting non-mortgage ABS custody** ($1.8B+ Tricolor) | 🔴🔴 |
+| Wilmington Trust | **Resigned Tricolor trustee role (Sep 20 2025, narrow)** — full-exit allegation denied corporate-side (M&T anon source via American Banker Feb 19-20); active-business evidence cuts against franchise exit | 🟠 |
 | Bank Losses | JPM $170M / 5/3 **$178M** / BCS $150M / Regions $68M / MTB litigation TBD / **OBK $74.7M (Oct 23 2025)** | 🔴 |
 | Total Auto Loans (NY Fed Q1 2026) | **$1.685T** (+1.08% QoQ; ATH) | 🟠 |
 | Auto transition-to-90+ (Q1) | **2.97%** flat QoQ, +3bps YoY | 🟡 |
@@ -285,6 +311,12 @@
 | JPM PC Markdowns | $22.2B exposure; 3-5% default spike forecast | 🔴🔴 |
 | Private Credit Sector | $265B market cap wipeout — "resembles bank run" | 🔴🔴 |
 | 60+ DQ Rate | **7.1% (Feb) — NEW RECORD** | 🔴🔴 |
+| Subprime ABS A-rated 3yr spread | **+110bps Apr 23** (vs +80 Feb = +30bps Iran arc) | 🟠 |
+| Subprime ABS BBB spread | **~200-235bps late Apr (extrapolated)** vs ~180 Jan baseline; trigger 250bps Jun 30 | 🟠 |
+| Subprime ABS issuance | **IG-only — BB/single-B tranches not clearing** | 🟠 structural |
+| Fitch subprime ANL (Jan 2026) | **9.81% — post-pandemic high** (+30bp YoY) | 🔴 |
+| Recovery rate (YE2025) | **32.64%** (vs pre-pandemic 43.73%) | 🔴 |
+| 2022 vintage CNL realized | **22.42% Apr 15** → projects ~24.3-24.5% Sep 30 (vs 25% trigger) | 🟠 |
 | NFP | **-92,000 — FIRST NEGATIVE** | 🔴 |
 | CVNA Extension Rate | 5.41% (+45% spike) | 🔴 |
 | CFPB | **Functionally Dead** | 🔴 |
@@ -294,8 +326,11 @@
 
 ## ACTIVE VECTORS
 
-### Wilmington Trust Exit — 🔴🔴 NEW May 21
-Indenture trustee for $1.8B+ Tricolor ABS (7 trusts 2018-2025) reportedly shutting down its entire non-mortgage custodial business. Per Jan 14 noteholder complaint. Major custodial retreat = structural pressure on non-prime ABS re-papering. Find corporate-side confirmation.
+### Wilmington Trust Resignation — 🟠 REFRAMED May 22 PM
+Gave 30-day notice Sep 20 2025 to resign as Tricolor ABS indenture trustee/custodian (7 trusts 2018-2025 / $1.8B+) — **narrow, Tricolor-only**. Successor-trustee role being shunned by other major trustees (Auto Finance News). The broader "shutting down entire non-mortgage ABS custodial business" framing came from Jan 14 plaintiff complaint and is **denied corporate-side** (American Banker Feb 19-20, M&T anonymous source: unit "is accepting new clients"). Active-business evidence (Wilmington #2 US ABS/MBS trustee 1H 2025; Outlook 2026 thought-leadership; no non-Tricolor substitutions) cuts against franchise exit. Cockroach #1 mechanic intact; systemic-transmission magnitude smaller than May 21 framing implied.
+
+### Tricolor Successor-Trustee Vacuum — 🟠 NEW (carved out from Wilmington exit framing May 22 PM)
+Major trustees reportedly shunning the successor role on Tricolor ABS deals (Auto Finance News). This is a real structural signal even after the broader Wilmington-exit framing collapsed: the cost/risk of taking over fraud-tainted post-default ABS is high enough that the indenture-trustee market can't clear. Watch ABS surveillance for trustee-substitution filings on Tricolor's 7 trusts.
 
 ### Tricolor Distribution Gridlock — 🔴 NEW May 21
 $113M of receivables held up in disputed-ownership escrow. Wilmington Trust + JPM + Fifth Third + bankruptcy trustee all contesting. Vervent BLOCKED from initial servicer report. Banks can't book losses cleanly; resolution on Jun 17 timeline at risk.
@@ -334,8 +369,10 @@ $12B debt (FT). DOJ indicted Patrick James (9 counts, life risk). Asset recovery
 | **Apr 9** | First Brands hearing — **ADJOURNED** | ✅ Superseded — eclipsed by Apr 28 PMG plan filing + larger structural events |
 | **Apr 28** | First Brands: PMG files Ch.11 Plan + Disclosure Statement (litigation trust; 111 other debtors → Ch.7) | ✅ |
 | **May 13** | First Brands: US Trustee motion to dismiss-or-convert all FBG cases to Ch.7 | 🔴 IN MOTION |
-| **May 20** | First Brands: Disclosure statement conditional-approval hearing | ⚠️ Outcome pending sweep |
+| **May 20** | First Brands: Disclosure statement conditional-approval hearing | ⚠️ Held; outcome NOT in public sources as of May 22 PM (Kroll docket auth-gated) |
+| **May 22** | First Brands: Litigation trust sale bid deadline + 10am ET Interim Class Counsel Designation hearing | 🟠 |
 | **May 25** | First Brands: Omnibus hearing | 🟠 |
+| **May 29** | First Brands: Combined disclosure-final-approval + plan-confirmation hearing (debtor-requested) | 🔴 KEY |
 | **Apr 24** | Trustee Rule 2004 motion vs Tricolor affiliates + Fifth Third supplemental motion (contents opaque) | 🟠 |
 | **May 5** | CVNA stockholder vote: split PASSED (5-for-1, eff. May 7-8); chairman separation FAILED 96%; GT ratified | ✅ |
 | **May 7** | PSEC declares $0.035 monthly div (down from $0.045) — Q3 FY26 earnings | ✅ |
@@ -359,8 +396,10 @@ $12B debt (FT). DOJ indicted Patrick James (9 counts, life risk). Asset recovery
 | OTTO-26 | PSEC dividend cut (Feb 20) | ❌ FALSIFIED on date — cut DID happen ($0.045→$0.035) but May 7 2026, not Feb 20. Directionally correct, date wrong. |
 | OTTO-29 | Tricolor ABS trustee distribution <15¢ | 🟢 Substance tracking CONFIRMED (auction ~3%, ABS <10¢); **resolution at Sep 30 RISK** — $113M dispute may push past resolve date |
 | OTTO-30 | 6th US bank discloses Tricolor exposure by Q2 | 🟠 OPEN — conf 65→45%. Q1 surface swept (HBAN/CFG/RF/Truist/etc clean). Origin Bancorp surfaces as known-unknown 6th name predating prediction window. Only Q2 earnings + MTB dollar update left. |
-| OTTO-31 | Wilmington Trust non-mortgage custodial exit by Dec 31 | 🟠 OPEN — awaiting corporate-side confirmation |
-| OTTO-04, -05, -06, -07, -10, -11, -12, -28 | — | 8 OPEN (see TSV for timeframes) |
+| OTTO-31 | Wilmington Trust non-mortgage custodial exit by Dec 31 | 🟠 OPEN — **conf 60→30%**. Corporate-side EVIDENCE AGAINST (M&T anon source denial); only narrow Tricolor-specific resignation is corporate-confirmed. |
+| OTTO-04 | 2022 vintage CNL >25% by Sep 30 | 🟠 OPEN 75% — TRACKING. Apr 15 baseline 22.42% + ~40bp/mo on original → ~24.3-24.5% Sep 30. Striking distance but just below. |
+| OTTO-05 | Subprime BBB ABS spread >250bps by Jun 30 | 🟠 OPEN **conf 60→62%** — TRACKING. A-rated widened +30bps Feb→Apr; extrapolated BBB ~200-235bps; IG-only issuance structurally confirms. |
+| OTTO-06, -07, -10, -11, -12, -28 | — | 6 OPEN (see TSV) |
 
 ### Signal Triggers (not predictions — watched for cross-agent routing)
 
@@ -377,4 +416,4 @@ $12B debt (FT). DOJ indicted Patrick James (9 counts, life risk). Asset recovery
 - research/outputs/ — RP-OTT-1.1–4.1 (15 reports)
 
 *Mar 20 check-ins (FOMC, CVNA, fraud, ABS, CFPB) and prior condensed check-ins archived to `workbook/STATUS_archive_20260325.md`*
-*Next triggers: Jun 17 Tricolor creditor meeting / distribution plan (at risk of slip), Jun 12 Carvana discovery production 2, First Brands rescheduled hearing TBD, Q1/Q2 bank earnings sweep for OTTO-30, Oct 19 Tricolor criminal trial*
+*Next triggers: Mon May 25 First Brands omnibus + May 20 outcome news sweep, May 29 FBG combined disclosure/confirmation hearing (KEY for OTTO-32), Jun 12 Carvana discovery production 2, Jun 17 Tricolor creditor meeting / distribution plan (at risk of slip), Q1/Q2 bank earnings sweep for OTTO-30, Oct 19 Tricolor criminal trial*
