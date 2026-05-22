@@ -807,3 +807,91 @@ Open with Will at next-session start:
 - Sequenced state-file edits per chunked-update memory.
 - Cross-surface boundary (HEARTBEAT) NOT crossed without Will-auth proposal.
 - Show-diff-then-approve honored on commit 1.
+
+---
+
+## Current Session — 2026-05-22 (6/18 trigger set v0.1 + 3 calibration SIGs)
+
+**Run type:** Will-directed CC-Prome session. Focused FORGE rehab Step-5 follow-up: convert open 6/18-cluster decisions to pre-registered execution rails. ~10 turns, file-based async routing (no agent spawns).
+
+### What landed
+
+- **Boot:** standard sequence. HEAD already at origin via WALTER's 5/21 closeout push-train. Comm-mirror check passed (2 inbound ACKed 5/21; quiet).
+- **FORGE rehab decision walkthrough:** clarified ticket-cost asymmetry on theta-killers; surfaced Will's vol-floor/ATH concern; pivoted to triggers-not-active-decisions pattern.
+- **Trigger set v0.1** at `FORGE/trigger-sets/JUN18_CLUSTER_2026-06-18.md` (133 lines). First instance of pre-registered cluster execution rails. AAL + CF dropped (no domain owner). TLT routed separately.
+- **3 calibration SIGs filed in parallel** to BROCK / REGINALD / HENRY inboxes (untracked-by-design).
+- **Commit `dc63c709`** rode WALTER's push-train to origin `32d619e6`.
+- **Closeout** (this entry + SCRATCH rewrite + daily log + 1 new auto-memory).
+
+### Files edited (within autonomous scope)
+
+| File | Action |
+|---|---|
+| `FORGE/trigger-sets/JUN18_CLUSTER_2026-06-18.md` | NEW (v0.1, 133 lines) — first execution-rails artifact (Will-authorized FORGE write) |
+| `PROME/STATUS.md` | Surgical: header + new row + Next Best Action rewrite |
+| `PROME/SCRATCH.md` | Full rewrite per ephemeral cadence |
+| `PROME/CLAUDE_CODE_HANDOFF.md` | This entry appended |
+| `memory/2026-05-22.md` | NEW (daily session log) |
+| Auto-memory: `feedback_consolidate_domain_pressure.md` | NEW — async SIG + Prome-consolidation pattern saved |
+
+### Files written (untracked-by-design; recipient agents own commits)
+
+- `AGENTS/BROCK/inbox/SIG-PROME-BROCK-2026-05-22_jun18-cluster-credit-trigger-calibration.md`
+- `AGENTS/REGINALD/inbox/SIG-PROME-REGINALD-2026-05-22_jun18-cluster-bank-trigger-calibration.md`
+- `AGENTS/HENRY/inbox/SIG-PROME-HENRY-2026-05-22_tlt-decision-and-vix-trigger-calibration.md`
+
+### Decisions Will made this session
+
+- Comm-mirror sanity check first ✅
+- FORGE rehab "Step 5" = next-phase Will-decisions work (not original ladder Step 5 which already shipped 5/21) ✅
+- Vol-floor / ATH framing → pivot to pre-registered triggers + hard backstop ✅
+- Drop AAL + CF from trigger set (no domain owner, mechanical let-expire) ✅
+- Vet trigger set with BROCK + REGINALD + HENRY via async SIG routing (not synchronous spawn) ✅
+- Route TLT decision packet separately to HENRY ✅
+- Per-instance cross-agent inbox write authorization for the 3 SIGs ✅
+- Commit ✅
+- Push ✅
+- Closeout ✅
+
+### Decisions needed from Will (forward-looking)
+
+See `PROME/SCRATCH.md` §Next Planned Work. v0.2 trigger set + TLT decision packet land by 2026-05-24 EOD (default-pass deadline). Single Will-approval packet target.
+
+Live carries unchanged: VIOLET 4/15 (overdue), FXY $58C reconciliation, TLT $88P May 15 disposition, APD tag, SAM Sep-18 $60C (post-CPI), TODAY.md Path B, CALENDAR.md, HEARTBEAT cadence, OZK hygiene.
+
+### Risks / Blockers
+
+- **None blocking** the closeout itself.
+- **Soft:** trigger set v0.1 is not yet adopted — Will-approval gate is v0.2. Don't reference v0.1 as live monitoring rail until v0.2 ships.
+- **Soft:** TLT decision is time-sensitive. If HENRY doesn't respond by 5/24 EOD, strawman becomes de-facto recommendation; 6/13 EOD is hard time trigger anyway.
+- **Pattern-level:** push-train fired real-time today (2nd concrete instance). Boot procedure should `git fetch` first to confirm origin state rather than assuming local = remote.
+
+### v_next design inputs returned this session
+
+1. **Trigger-set artifact as execution-rails pattern.** First instance, reusable template for future expiry clusters (Jul 17, Aug 21, Sep 30, Dec 18). Canonize after first end-to-end use post-6/18.
+2. **Async SIG-routing + Prome-consolidation pattern** for relieving Will-pressure when multiple agents converge on same decision. Saved as `feedback_consolidate_domain_pressure`.
+3. **Push-train pattern 2nd concrete instance** (5/22 WALTER closeout sweeping dc63c709 + OTTO's c17d108f). Both unplanned, both clean. Pattern is robust at 3-4 concurrent agents.
+4. **Vol-floor/ATH pivot framing.** When Will surfaces a regime concern arguing against execution, convert active decisions to monitored conditions. Cross-references `feedback_exit_recommendations_need_mark_context` + `feedback_put_vs_duration_expression`.
+5. **Honest mid-conversation correction.** Caught my own misframing ("Step 5 never started" — wrong; Step 5 was the 5/21 PROME state propagation). Disclosed immediately rather than letting it carry. Per `feedback_verify_counts_before_propagating`.
+
+### Next Suggested Work
+
+Open with Will at next-session start:
+- **Scan BROCK/REGINALD/HENRY outboxes + STATUS files** for replies to today's SIGs
+- If any landed: integrate → trigger-set v0.2 → Will approval packet
+- If silent by 5/24 EOD: default-pass v0.2 = v0.1 + TLT strawman → Will approval packet
+- **TLT decision packet** to Will if HENRY responded (highest-urgency leg)
+- Live carries unchanged
+
+### Rules I Held To
+
+- No commits outside `PROME/` and Will-authorized `FORGE/trigger-sets/`.
+- No `git add -A` or `git add .`. Explicit path staging both commits.
+- Foreign work (OTTO + WALTER + WILL/share) untouched on every stage. Verified via `git diff --cached --stat` pre-commit.
+- Cross-agent inbox writes scoped to per-instance Will-authorization (the 3 SIGs).
+- No persistent-agent spawns. No teams-mode spawn. No trades. No external messages.
+- Read-before-edit honored.
+- Behavior-language in state files (commits referenced as audit anchors only).
+- Sequenced multi-file updates (trigger set → 3 SIGs in parallel → STATUS surgical → closeout files sequenced).
+- Show-diff-then-approve honored on commit.
+- Honest mid-conversation correction on Step-5 misframing.
