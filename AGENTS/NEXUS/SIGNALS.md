@@ -1,37 +1,61 @@
 # NEXUS SIGNALS — Active Cross-Agent Signal Tracker
-**Purpose:** Live, unresolved signals flowing between agents. Signals are inputs — once absorbed into a convergence (STATUS.md) or resolved, they move to archive.
-**Last Updated:** 2026-04-04 16:30 UTC | **Last Pass:** 12 (Apr 4)
+**Last Updated:** 2026-05-21 ~20:30 ET | **Mode:** May 21 reset aligned to `STATUS.md`
+**Purpose:** Live, unresolved cross-agent signals only. Old March/April tracker archived at `AGENTS/NEXUS/signals_archive/SIGNALS_PRE_MAY21_RESET_20260521.md`.
 
 ---
 
 ## Lifecycle
-1. Signal arrives (inbox, agent outbox, PROME route)
-2. NEXUS evaluates: new convergence? upgrades existing? contradiction?
-3. **If absorbed** → archive to `domain/signals_archive/` with mapping
-4. **If resolved** → archive with outcome
-5. **If still developing** → stays here
+
+1. Signal arrives via inbox, agent outbox, PROME route, or COMM.
+2. NEXUS evaluates: new convergence, upgrade/downgrade, contradiction, or stale/noise.
+3. If absorbed into `STATUS.md`, keep only a short reference here until next pass.
+4. If resolved/superseded, archive with outcome.
+5. If still developing, keep active with next evidence.
 
 ---
 
-## ARCHIVED (detail in `domain/signals_archive/SIGNALS_THROUGH_PASS11.md`)
-SIG-001→C-11 | SIG-002→C-11 | SIG-003→C-02/C-16 | SIG-004→resolved | SIG-005→resolved | SIG-006→C-10 | SIG-007→C-10 | SIG-008→resolved | SIG-010→C-02/C-16 | SIG-011→C-32 | SIG-012→C-10 | SIG-013→thresholds | SIG-014→QUEUE | SIG-018→T-15 | SIG-021→C-29 | SIG-030→T-15 | SIG-032→thresholds | SIG-033→C-34 | SIG-034→C-27 | SIG-035→C-02 | SIG-036→C-07/C-34 | SIG-037→thresholds | SIG-038→C-21 | SIG-039→findings | SIG-040→findings | SIG-041→C-07/C-34 | SIG-042→findings | SIG-043→findings | SIG-044→C-17 | SIG-045→T-15
+## Active May 21 Signals
+
+| SIG-ID | Date | Source | Signal | Mapping | Status | Priority |
+|---|---|---|---|---|---|---|
+| **SIG-M01** | 2026-05-21 | HEARTBEAT / BROCK / REGINALD / HENRY / VIOLET / WALTER / RED | **Stage-2-late divergence** — substance-side bear convergence hardening while HY/VIX/tape do not confirm transmission. | M-01 / T-01 | Active core regime; governs all synthesis. | 🔴 |
+| **SIG-M02** | 2026-05-21 | BROCK / RED / REGINALD / WALTER | **BDC/private-credit Stage 2 persists** — FSK strong bear, gates/marks stress, but no HY OAS Stage 3. | M-02 / T-05 | Active; wait for BIZD sustain, arms-length marks, Q2 BDC/bank prints. | 🔴 |
+| **SIG-M03** | 2026-05-21 | LIQUID / HENRY / BOND / HEARTBEAT | **Duration channel replacing plumbing channel** — TLT/10Y stress live; SOFR/plumbing clean; auctions clear at price. | M-03 / T-02 | Active; June 9–11 nominal auctions are next clean test. | 🔴 |
+| **SIG-M04** | 2026-05-21 | VIOLET / HENRY / WALTER gamma signal / RED | **Vol/gamma suppression** — VIX <20, VIX9D near/sub-15, contango, SKEW regime ended without spike. | M-04 / T-03 | Active tension; R11 5/28–6/02 trigger window pending. | 🟠 |
+| **SIG-M05** | 2026-05-21 | REGINALD / RED / BROCK | **WAL/CRE bear-medium vs tape recovery** — WAL V2.2 accepted, B1 fired; WAL reclaimed/contests $78. | M-05 / T-04 | Active contradiction; Q2 print + second migration decide. | 🔴 |
+| **SIG-M06** | 2026-05-21 | WALTER / HENRY / HEARTBEAT | **Energy/stagflation pressure, war path softened** — Brent >100 and hot prints, but Iran old binary escalation downweighted. | M-06 / T-06 | Active but needs BRENT refresh before hard-weighting. | 🟠 |
+| **SIG-M07** | 2026-05-21 | WALTER / BOND / VIOLET / RED / HEARTBEAT | **Bull-counter tape cluster** — clean auction, NVDA absorbed, WAL/KRE bounce, SKEW termination without vol spike, HY <300. | M-07 / T-01 | Active constraint against near-dated bearish overreach. | 🔴 |
+| **SIG-M08** | 2026-05-21 | PROME / FORGE rehab | **Position truth not clean enough for NEXUS trade rails** — FORGE rehab in progress; 6/18 theta cluster now blocking item. | STATUS constraint | Active guardrail; NEXUS synthesis allowed, trade routing deferred. | 🔴 |
 
 ---
 
-## 🟠 ACTIVE
+## Pending Refresh Inputs
 
-| SIG-ID | Date | From → To | Signal | Status | Priority |
-|--------|------|-----------|--------|--------|----------|
-| SIG-015 | 2026-03-25 | LABOR → NEXUS | **Meta layoffs executing** — "several hundred" across Reality Labs, Facebook, recruiting. First tranche of ~15K/20% pipeline. Tech layoffs accelerating. | 🟠 Developing — feeds C-02 upstream (employment → credit) | 🟠 |
-| SIG-017 | 2026-03-25 | SAM → NEXUS/HENRY | **Ceasefire rally pattern = relief, not reversal** — Tehran denied negotiations throughout. Pattern repeats with each headline. | 🟠 Recurring — T-14 tension | 🟠 |
-| SIG-019 | 2026-03-26 | HAWK → HENRY | **Russia suspends ammonium nitrate exports** — Combined with China N-K halt + Gulf urea impairment = THREE major fertilizer sources offline. Urea +40% ($700/mt). Q3-Q4 food CPI lock-in. | ✅ Absorbed → **C-35 NEW** (Fertilizer Supply Collapse) | 🔴🔴 |
-| SIG-020 | 2026-03-26 | HAWK → HENRY/NEXUS | **Israel strikes Caspian Sea weapons route** — War theater expanding. Drones, oil, wheat route disrupted. | 🟠 Active — feeds C-10 theater expansion | 🟠 |
-| SIG-031 | 2026-03-24 | NEXUS → CARL | **FL UI Wave 2 — Apr 26 peak** — Mechanical. Second WARN cohort exhaustion wave. | 🟡 Scheduled — 22 days out | 🟡 |
+| Input | Why needed | Owner / path |
+|---|---|---|
+| BRENT current status | Energy remains active but old Hormuz/dual-chokepoint frame is stale. | `AGENTS/BRENT/STATUS.md` / WALTER anchor |
+| SAM current Japan/FX read | USDJPY near 160; FXY/SAM trade state changed during FORGE rehab. | `AGENTS/SAM/STATUS.md`, `AGENTS/SAM/TRADE.md` |
+| LABOR / CARL current read | Old Hotel California / FL UI wave should not be active-weighted without refresh. | `AGENTS/LABOR/STATUS.md`, `AGENTS/CARL/STATUS.md` |
+| BOND post-TIPS correction canonical state | BOND `STATUS.md` may lag; use LAST_COMPLETION until STATUS refresh. | `AGENTS/BOND/LAST_COMPLETION.md` |
+| FORGE rehab final state | Needed before any NEXUS outbox proposes action rails. | `FORGE/STATUS.md` |
 
 ---
 
-## Signal Cleanup Protocol
-- **Absorbed into convergence** → archive with C-XX mapping
-- **Event resolved** → archive with outcome
-- **2 passes without change** → archive or flag stale
-- 🔴🔴🔴 = immediate / position decision | 🔴🔴 = active catalyst | 🔴 = monitoring | 🟠 = developing | 🟡 = background
+## Recently Archived / Superseded
+
+| Old signal | Action | Reason |
+|---|---|---|
+| SIG-015 Meta layoffs | Archived as stale | No current LABOR/CARL refresh in May 21 pass. |
+| SIG-017 ceasefire rally pattern | Superseded | WALTER now frames Iran as partial-thaw + infrastructure-theater shift. |
+| SIG-019 fertilizer collapse | Monitor only | No fresh HAWK/BRENT/MARCO evidence in May 21 pass. |
+| SIG-020 Caspian route strike | Superseded / stale | Old war-theater expansion frame not current enough. |
+| SIG-031 FL UI Wave 2 Apr 26 | Retired | Date passed; needs LABOR/CARL verification before reactivation. |
+
+---
+
+## Next NEXUS Pass
+
+Trigger a fuller NEXUS pass when either:
+
+1. FORGE rehab is complete and Prome wants a Will-facing synthesis, or
+2. one of the release mechanisms fires: HY >300, VIX/VVIX trigger cluster, weak June nominal auction, WAL second migration, BIZD sustained <12.50, or Q2 BDC/bank print confirms arms-length marks.
