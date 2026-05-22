@@ -52,6 +52,8 @@
 
 - [2026-05-21 PM #2] **Backfill pass IS the counter-evidence dispatch when bull-counter clusters are among the silent.** POSITIONING_VALUATION backfill produced highest counter-evidence concentration of any session (4 of 9 sigs counter_evidence: NVDA absorbed, VIX9D sub-15, TIPS clean, bull-leg of 7-trigger framework). Pairs with PROME 5/21 calibration ask. Implication for next time PROME asks "where is the bull-counter weighting?": check whether the bull-counter cluster is silent first — if so, the backfill IS the answer. Cluster-silence and counter-density divergence are coupled, not independent.
 
+- [2026-05-22 PM #3] **Kobeissi source-credibility map crystallizes at 5-instance:** numbers CONFIRMED, framing-stretch is the recurring risk class. Pattern across SIG-W-20260505-002 (LNG, one CORRECTED YoY/MoM minor) → SIG-W-20260513-X (multiple) → SIG-W-20260521-022 (oil/SPR, CORRECTED-FRAMING on exchange-vs-sale mechanic). Apply: when Kobeissi posts cross WALTER pipeline, **default-spawn verify-research**, **expect the numbers to hold + the framing to need a precision overlay**, **dispatch with explicit body-level framing-correction inherited downstream** rather than relying on confidence-stepdown alone. Source-credibility map is per-account-per-topic; Kobeissi profile = institutional-data-curation-with-narrative-stretch.
+
 ## References
 
 - **Root `CLAUDE.md`** — git protocol, agent lifecycle rules, cost model, status hierarchy.
@@ -69,7 +71,11 @@
 
 **5/21 PM #1 (commit `ec3c322d`):** MEMORY trim 137→82; 11 BOARD signals across IRAN_HORMUZ 47→51 + CONSUMER_STAGFLATION 40→42 + BANK_COLLATERAL 28→33 (incl. OTTO Tricolor inbound). New finding: backfill-pass-recovery as cluster-recovery mechanic.
 
-**5/21 PM #2 (this commit, ~00:00-00:35 UTC 5/22):** 9 BOARD signals across POSITIONING_VALUATION 33→38 + PC_STRESS 18→22. BOARD 224→233. Zero sub-agent spawns; all sourced from VIOLET/HENRY/BROCK/REGINALD STATUS files refreshed 5/21. 2 new findings: backfill-as-counter-evidence-dispatch + domain-STATUS-as-durable-substrate (extends PM #1 finding to second instance).
+**5/21 PM #2 (commit `0eecc535`):** 9 BOARD signals across POSITIONING_VALUATION 33→38 + PC_STRESS 18→22. BOARD 224→233. Zero sub-agent spawns; all from domain STATUS. 2 new findings: backfill-as-counter-evidence-dispatch + domain-STATUS-as-durable-substrate.
+
+**Sponsor-bifurcation decision (commit `384da757`):** Will-mediated Option C (status quo cluster_secondary) locked + Option D (`sponsor_strategy` enum) parked in V0_9_STACK §3.1.
+
+**5/21 PM #3 (this commit, ~01:30-02:00 UTC 5/22):** Will-Telegram 6-image batch. 4 parallel verify-research spawns ($0.20). Returns: 2 CONFIRMED + 2 CORRECTED-FRAMING + 2 SKIP-VERIFY institutional. 6 PRIORITY BOARD dispatches across 5 clusters (IRAN_HORMUZ 51→53 / POSITIONING_VALUATION 38→39 / CONSUMER_STAGFLATION 42→43 / BANK_COLLATERAL 33→34 / PC_STRESS 22→23). BOARD 233→239. Full-day total: 26 sigs across 6 clusters. `network_uncertainty_peak` fires 3rd time this day; full-day bifurcation count 22 cluster_mediating + 3 counter_evidence = strongest single-day reading since infra ship.
 
 ### NEXT SESSION
 
