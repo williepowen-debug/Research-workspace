@@ -54,6 +54,8 @@
 
 - [2026-05-22 PM #3] **Kobeissi source-credibility map crystallizes at 5-instance:** numbers CONFIRMED, framing-stretch is the recurring risk class. Pattern across SIG-W-20260505-002 (LNG, one CORRECTED YoY/MoM minor) → SIG-W-20260513-X (multiple) → SIG-W-20260521-022 (oil/SPR, CORRECTED-FRAMING on exchange-vs-sale mechanic). Apply: when Kobeissi posts cross WALTER pipeline, **default-spawn verify-research**, **expect the numbers to hold + the framing to need a precision overlay**, **dispatch with explicit body-level framing-correction inherited downstream** rather than relying on confidence-stepdown alone. Source-credibility map is per-account-per-topic; Kobeissi profile = institutional-data-curation-with-narrative-stretch.
 
+- [2026-05-22 PM #4] **Sign-inversion is a distinct framing-error class from numerical-stretch — and is the most pernicious because the metric appears familiar.** Amit Tal SOFR-IORB = -15bp framed as "collateral scarcity" is the canonical example: numbers are plausibly right, but the DIRECTION-OF-SIGN is opposite of the canonical FRED convention. Under FRED, SOFR-IORB > 0 = stress; the -15bp print is OPPOSITE direction = ample-reserves / loose-liquidity. The inversion sneaks past readers who assume "negative = bad" without checking convention. **Apply**: for any pre-registered threshold metric (REG-T-NN / RED-FT-NN), verify-research must explicitly confirm sign convention before accepting framing wholesale, ESPECIALLY when an X-source uses "negative spread" or "spread compression" framing. The verify cost is $0.05; the downstream cost of routing an opposite-direction signal as cluster_mediating substance is dispatch-credibility destroying. Distinct from Kobeissi-style numerical-stretch in that the substance can be observable but the direction-interpretation is opposite of what the metric was designed to capture.
+
 ## References
 
 - **Root `CLAUDE.md`** — git protocol, agent lifecycle rules, cost model, status hierarchy.
@@ -75,7 +77,9 @@
 
 **Sponsor-bifurcation decision (commit `384da757`):** Will-mediated Option C (status quo cluster_secondary) locked + Option D (`sponsor_strategy` enum) parked in V0_9_STACK §3.1.
 
-**5/21 PM #3 (this commit, ~01:30-02:00 UTC 5/22):** Will-Telegram 6-image batch. 4 parallel verify-research spawns ($0.20). Returns: 2 CONFIRMED + 2 CORRECTED-FRAMING + 2 SKIP-VERIFY institutional. 6 PRIORITY BOARD dispatches across 5 clusters (IRAN_HORMUZ 51→53 / POSITIONING_VALUATION 38→39 / CONSUMER_STAGFLATION 42→43 / BANK_COLLATERAL 33→34 / PC_STRESS 22→23). BOARD 233→239. Full-day total: 26 sigs across 6 clusters. `network_uncertainty_peak` fires 3rd time this day; full-day bifurcation count 22 cluster_mediating + 3 counter_evidence = strongest single-day reading since infra ship.
+**5/21 PM #3 (commit `7f2c1256`):** Will-Telegram 6-image batch. 4 parallel verify-research spawns ($0.20). 6 PRIORITY BOARD dispatches across 5 clusters (IRAN_HORMUZ 51→53 / POSITIONING_VALUATION 38→39 / CONSUMER_STAGFLATION 42→43 / BANK_COLLATERAL 33→34 / PC_STRESS 22→23). BOARD 233→239. Kobeissi source-credibility map 5-instance finding.
+
+**5/22 PM #4 (this commit, ~02:30-03:10 UTC):** Will-Telegram 7-image batch #2. 4 parallel verify-research spawns ($0.20). 5 BOARD dispatches (1 IMMEDIATE + 4 PRIORITY) + 1 DUP-KILL (CPB resend) across 4 clusters: IRAN_HORMUZ 53→54 / CONSUMER_STAGFLATION 43→45 / ASIA_CHINA 5→6 (first dedicated entry since 5/11) / FED_FRAMEWORK 14→15. BOARD 239→244. Full-day total: **31 sigs across 7 clusters at $0.45 total compute / 26 cluster_mediating + 5 counter_evidence = strongest single-day reading since infra ship.** New finding: sign-inversion framing-error class on pre-registered threshold metrics (Amit Tal SOFR-IORB) — verify-research must explicitly confirm sign convention.
 
 ### NEXT SESSION
 

@@ -6,15 +6,32 @@
 
 ## STATUS
 
-**5/21/22 UTC full-day arc — AM (`ce61de74`) + PM #1 (`ec3c322d`) + PM #2 (`0eecc535`) + sponsor-bifurcation decision (`384da757`) + PM #3 Will-Telegram image-batch (this commit).**
+**5/22 UTC full-day arc — AM (`ce61de74`) + PM #1 (`ec3c322d`) + PM #2 (`0eecc535`) + sponsor-bifurcation decision (`384da757`) + PM #3 image-batch (`7f2c1256`) + PM #4 image-batch #2 (this commit).**
 
-**PM #3 session:** ~01:30-02:00 UTC 5/22. Will-Telegram 6-image batch via msg 1916 + msgs 1918-1923. **6 PRIORITY BOARD signals dispatched across 5 clusters** (IRAN_HORMUZ 51→53 / POSITIONING_VALUATION 38→39 / CONSUMER_STAGFLATION 42→43 / BANK_COLLATERAL 33→34 / PC_STRESS 22→23). **BOARD 233 → 239.** 4 parallel verify-research spawns ($0.20). Full-day total: **26 sigs across 6 clusters** in single calendar day ET.
+**PM #4 session:** ~02:30-03:10 UTC. Will-Telegram 7-image batch #2 (msgs 1928-1934). **5 BOARD signals dispatched (1 IMMEDIATE + 4 PRIORITY) + 1 DUP-KILL across 4 clusters** (IRAN_HORMUZ 53→54 / CONSUMER_STAGFLATION 43→45 / ASIA_CHINA 5→6 first-dedicated-entry / FED_FRAMEWORK 14→15). **BOARD 239 → 244.** 4 parallel verify-research spawns ($0.20). Full-day total: **31 sigs across 7 clusters at $0.45 total compute.**
 
-**Push state:** AM + PM #1 + PM #2 + sponsor-bifurcation all pushed clean. PM #3 commit pending at handoff.
+**Push state:** AM + PM #1 + PM #2 + sponsor-bifurcation + PM #3 all pushed clean. PM #4 commit pending at handoff.
 
 ## CHANGED
 
-### Files written / modified this PM #3 session (Will-Telegram image-batch)
+### Files written / modified PM #4 session (Will-Telegram image-batch #2)
+
+**BOARD signals (5 new files):**
+- `BOARD/SIG-W-20260521-027-sofr-iorb-minus-15bp-framing-inversion-loose-liquidity-not-collateral-scarcity-reg-t-08-opposite-direction.md` — PRIORITY → REGINALD (CORRECTED-FRAMING 0.55 sign-inversion correction)
+- `BOARD/SIG-W-20260521-028-luke-gromen-ft-iran-war-golden-window-renminbi-cips-1-22t-cny-daily-april-record-asia-china-first-dedicated.md` — PRIORITY → CARL (CORRECTED-FRAMING 0.55 / first dedicated ASIA_CHINA entry)
+- `BOARD/SIG-W-20260521-029-us-housing-starts-april-2-8-mom-single-family-9-0-most-in-year-30y-fmm-6-51-multi-week-high.md` — PRIORITY → CARL (CONFIRMED 0.85)
+- `BOARD/SIG-W-20260521-030-aaa-gas-4-all-50-states-first-since-2022-national-4-56-pump-pre-reversal-peak-wartime-high.md` — IMMEDIATE → CARL (CONFIRMED 0.93)
+- `BOARD/SIG-W-20260521-031-kpler-global-opec-crude-exports-2026-jan-may-sharp-drop-opec-29pct-global-14pct-iran-war-supply-collapse.md` — PRIORITY → BRENT (SKIP-VERIFY 0.85)
+
+**BOARD/INDEX.md:** 4 cluster ToC + section header updates (IRAN_HORMUZ 53→54 / CONSUMER_STAGFLATION 43→45 / ASIA_CHINA 5→6 / FED_FRAMEWORK 14→15 / TOTAL 239→244); 5 rows appended.
+
+**kill_log.tsv:** 1 row (IMG E CPB DUP of msg 1923 / SIG-W-20260521-026; file_unique_id match; likely accidental resend).
+
+**route_log.tsv:** 5 rows appended.
+
+**WALTER dashboard files:** STATUS.md lead + PM #4 SESSION LOG row (10 rows now; archive trim pending); MEMORY.md PM #4 sign-inversion finding + CHANGES SINCE rewrite; LAST_COMPLETION.md (this file).
+
+### Files written / modified PM #3 session (commit 7f2c1256)
 
 **BOARD signals (6 new files):**
 - `BOARD/SIG-W-20260521-021-phl-variable-pe-insurer-liquidation-golden-gate-100k-policyholders-34-57-recovery-first-ct-failure-decade.md` — PRIORITY → SHADE (CONFIRMED 0.90)
