@@ -1,72 +1,68 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-05-21 ~19:30 ET (third CC session — FORGE rehab Steps 1-4 landed)
+**Last Updated:** 2026-05-22 (CC-Prome session — 6/18 trigger set v0.1 + 3 SIGs filed)
 
 ## What Just Happened
 
-Today ran in three CC-Prome sessions.
+Single focused CC-Prome session — FORGE rehab Step-5 follow-up.
 
-**Morning + early afternoon (10:54-14:30 ET) — first session:** Heaviest single-session coordination day to date. Boot from cleared context; absorbed BROCK + REGINALD live closeouts in parallel; revived HENRY + VIOLET via teams mode + LIAISON channel; shipped FRED publication-lag fix Phases 1-3; ran BOND for 1pm Treasury auction; caught TIPS-vs-nominal correction + cross-flagged to BROCK + HENRY; closed out at commit `d2231c3c`.
+Boot from fresh context; HEAD already at origin via WALTER's 5/21 closeout push-train. Comm-mirror check passed (2 inbound ACKed 5/21; channel quiet). Then walked through FORGE rehab open Will-decisions.
 
-**Late afternoon (15:35-17:00 ET) — second session:** Will respawned CC-Prome to handle OpenClaw COMM mailbox inbound. Stretched into focused staleness audit of auto-injected / boot-read state files. 6 commits this stretch:
+Initial framing was "sell/roll anything for June." Pushed back on ticket-cost asymmetry — the 6 theta-killers are roll-vs-let-expire decisions, not sell candidates. Will then surfaced the deeper vol-floor/ATH concern: rolling equity puts at suppressed vol pays rich premium. That's exactly the pattern saved in `feedback_put_vs_duration_expression` memory.
 
-- `28dd3e13` COMM mailbox boot integration + first two ACKs
-- `8f3fa922` HEARTBEAT.md Path B refresh (98→38 lines, Will-authorized cross-surface boundary write)
-- `d60616cc` MEMORY.md focused sweep (Will-authorized; 2 new entries + 3 footnotes)
-- `a0aa4232` HEARTBEAT surgical fix + FORGE rehab handoff
-- `00fe9247` Standard closeout (STATUS surgical + daily log addendum)
-- `85da125a` closeout finalization (SCRATCH rewrite + HANDOFF surgical)
+**Decision pivot:** from active "decide 6 dispositions now" → **pre-register triggers, default let-expire, only act on regime-break confirmation**. Closes BROCK LESSONS #16 execution-rails design loop. First instance of pre-registered cluster rails as a reusable artifact pattern.
 
-**Evening (~17:42-19:30 ET) — third session: FORGE rehab Steps 1-4.** Will respawned for FORGE rehab. Boot from /clear, then deep front-loaded planning pass (23 decisions surfaced, defaults accepted), then 5-step ladder executed Steps 1-4. Commit `ec7e8ad9`:
-- Step 1: Recon worksheet `FORGE/scratch/REHAB_RECON_2026-05-21.md` (CSV × thesis bucket × agent owner)
-- Step 2: STATUS.md positions section fully replaced (header drop $52K stale; KRE Dec $60P merged 7-contract; FXY 13sh + $58C footnote; Other Puts sub-clustered by domain)
-- Step 3: Immediate Actions rebuilt around decision-surfacing (6/18 expiry cluster — 6 theta-killer dispositions undecided); Mar 25 Catalysts stripped; Watchlist annotated with current resolution
-- Step 4: PORTFOLIO + ACTIVE_TRADES SUPERSEDED banners; JOURNAL gap entry (~22 equity closures + 6 expirations + 4 rolls + ~13 new opens, no per-trade P&L reconstructable)
+**Trigger set v0.1 drafted + saved** (`FORGE/trigger-sets/JUN18_CLUSTER_2026-06-18.md`). 4 regime-break triggers (VIX / HY OAS ×2 / KRE), 5 position-specific (HYG / EGBN / WAL ×2 / KRE), hard backstop 6/16 16:00 ET. AAL + CF dropped (no domain owner; mechanical let-expire). TLT $85P × 3 (winner, +92%) routed separately.
 
-Full session narrative lives in `memory/2026-05-21.md` + `PROME/CLAUDE_CODE_HANDOFF.md`. This file is the next-session entry point, not the audit trail.
+**3 calibration SIGs filed in parallel** to BROCK / REGINALD / HENRY inboxes (untracked-by-design; recipients commit on integration). Default-pass 2026-05-24 EOD. PROME consolidates → v0.2 → single Will-approval packet (not 3 parallel conversations).
+
+**Commit `dc63c709`** pushed via WALTER push-train (real-time, 2nd concrete instance of pattern). Origin landed at `32d619e6` containing my work + OTTO's 5/22 closeout + WALTER's 5/22 BOARD dispatches.
 
 ## Current Git State
 
-PROME/FORGE work landed locally as `ec7e8ad9`; PROME state propagation commit pending. **Push deferred** — WALTER mid-session (MEMORY + route_log + 10 new BOARD SIGs + 1 inbox file from OTTO) and there's a SENTRY commit (`8d751be8`) ahead of local HEAD on origin. Next session needs to pull/rebase before any push attempt; safe to commit locally meanwhile.
+Clean. Local HEAD = origin/master at `32d619e6`. My closeout commits (this file + memory daily log + HANDOFF entry + auto-memory) staged after this rewrite, awaiting commit + push.
 
 Working tree at this entry:
-- PROME-side staged + uncommitted: `PROME/STATUS.md`, `PROME/SCRATCH.md`, `PROME/CLAUDE_CODE_HANDOFF.md`, possibly `HEARTBEAT.md` (cross-surface Will-auth pending)
-- Foreign uncommitted (do NOT touch): WALTER (MEMORY/route_log/inbox/BOARD), `WILL/share/` image
-- RED earlier work shipped (commit `347199eb` OTTO + earlier RED commits between sessions)
+- PROME-side staged + uncommitted: `PROME/SCRATCH.md`, `PROME/CLAUDE_CODE_HANDOFF.md`, `memory/2026-05-22.md`, auto-memory file
+- Foreign uncommitted: `WILL/share/agents capture image.JPG` (Will's own)
 
-Behavior-language summary: 3rd session's FORGE work committed locally; PROME state propagation pending; push gated on WALTER closeout + Will green-light.
+Push-train risk if multiple closeouts collide: low — OTTO and WALTER both closed before me; SAM/BOND/BROCK/REGINALD/HENRY not active.
 
 ## Next Planned Work
 
-**🔴 Top priorities for next session — FORGE rehab surfaced these Will-decisions:**
+**🟡 Trigger set v0.2 consolidation arrival window:**
 
-1. **6/18 expiry cluster — 6 theta-killer dispositions undecided** (28 days out). Roll vs let-expire for: HYG $75P × 8, EGBN $25P × 1, AAL $10P × 2, WAL $65P × 1, WAL $67.5P × 2, KRE $60P × 1. All deep OTM at -87% to -94%. BROCK LESSONS #16 execution-rails territory — same dark-window gap as Apr HYG roll. APO + ARES already decided let-expire by BROCK 5/21. Will + BROCK + REGINALD joint decision.
-2. **FXY $58C reconciliation** — Per SAM v1.4 ($0.40, $40 cost) but not in 5/21 2:03 PM Fidelity CSV. Pending activity (-$288.28) exactly matches Tranche 2 shares only. Confirm: separate account / post-CSV fill / didn't fill / SAM bookkeeping error.
-3. **TLT $88P May 15 × 2 disposition unknown** — Was +100% pending Will at Mar 25; absent from 5/21 CSV. Either closed during the window (P&L lost) or expired worthless. Worth checking with RED for tax/perf if it matters.
-4. **VIOLET 4/15 VIX/SKEW trade idea** — Never adjudicated. 60d window from 4/13 closes ~6/12. Decision overdue.
-5. **APD new long thesis tag** — 2 shares @ $294.79, no FORGE thesis doc, "unassigned" in STATUS.
+By **2026-05-24 EOD** (default-pass deadline). Three possible arrivals:
 
-**Live Will-decision carries (from prior sessions, unchanged):**
-- SAM Sep-18 $60C × 5-10 contracts — pending post-CPI cheaper entry window
-- TODAY.md Path B refresh — drafted but not shipped; all inputs ready
-- CALENDAR.md refresh — 3/27 stale; queued after TODAY.md
-- HEARTBEAT refresh-cadence design question — self-referenced inside HEARTBEAT
-- PROME execution-rails design note — BROCK LESSONS #16; ties directly to the 6/18 cluster question above
-- OZK STATUS hygiene refresh — low priority
+1. **BROCK reply** — HY OAS R2/R4 thresholds + HYG roll target + sub-90¢/bank-PC trigger wording. Likely route: BROCK outbox file `REPLY-PROME-2026-05-22-credit-trigger-calibration.md` per Convention B (own-outbox routing), OR STATUS.md update.
+2. **REGINALD reply** — KRE R3 + WAL break-zone + WAL/KRE/EGBN roll targets + late MI3/FFIEC PDD likelihood.
+3. **HENRY reply** — VIX R1 + **TLT decision packet** (split + strike + expiry). TLT decision is the highest-urgency leg of HENRY's response since it needs Will-approval + execution before 6/13 EOD time trigger.
+
+Next-session boot must scan all three agents' outboxes per `feedback_scan_agent_outboxes_at_boot`. If any reply landed, integrate → v0.2 → Will approval packet. If silent, default-pass: v0.2 = v0.1 + TLT strawman → Will approval packet.
+
+**Will-approval packet target:** single document with (a) consolidated trigger set, (b) TLT decision recommendation, (c) execution-rails monitoring plan. Two outcomes from Will: green-light (adopt + monitor) or revise (specific edits).
+
+**Other carries (unchanged):**
+
+- 🟠 **VIOLET 4/15 VIX/SKEW trade adjudication** — 60d window from 4/13 closes ~6/12 (21 days). Decision overdue.
+- 🟠 **FXY $58C reconciliation** — per SAM v1.4, missing from 5/21 CSV. Confirm with SAM (or wait for next CSV refresh).
+- 🟠 **TLT $88P May 15 disposition** — was +100% pending Will at Mar 25; absent from 5/21 CSV. RED tax/perf check.
+- 🟠 **APD long thesis tag** — 2 sh @ $294.79, unassigned in STATUS.
+- 🔵 SAM Sep-18 $60C × 5-10 contracts — post-CPI cheaper entry; SAM-owned trigger.
+- 🔵 TODAY.md Path B refresh (drafted but not shipped).
+- 🔵 CALENDAR.md refresh (3/27 stale).
+- 🔵 HEARTBEAT refresh-cadence design Q (self-referenced in HEARTBEAT).
+- 🔵 OZK STATUS hygiene (low priority).
 
 ## Cautions for Next Session
 
-- **🔴 Outbox scanning at boot is now an enforcement gap.** Saved as auto-memory `feedback_scan_agent_outboxes_at_boot.md`. Until BOOT.md is updated with the explicit scan step, agent-to-PROME signals routed via own-outbox (Convention B — SAM's pattern) will keep arriving late. Boot procedure should `git log --since="3 days ago" --diff-filter=A --name-only -- 'AGENTS/*/outbox/*'` and filter for `*to-PROME*` patterns.
+- **Trigger set v0.1 is NOT yet adopted.** Will-approval gate is v0.2. Don't reference v0.1 as if it's the live monitoring rail until v0.2 ships.
 
-- **Structural staleness inheritance is real.** The "Verify state before propagating" rule was violated TWICE in today's late-session stretch — first for HEARTBEAT (propagated "owed" claim across multiple sessions without opening the file), then for SAM Tranche 2 (wrote HEARTBEAT row from inherited PROME state without checking SAM's morning commits). Auto-memory entry updated with structural-vs-behavioral framing: mental discipline alone doesn't fix the failure mode; boot-time automated cross-verification is the structural fix.
+- **TLT decision is the time-sensitive leg.** TLT $85P × 3 at +92% has theta acceleration starting now. The 6/13 EOD time trigger is the hard backstop; the conditional triggers ($85.50 trim signal, $82 hold-full signal) may fire sooner. If HENRY doesn't respond by 5/24 EOD, the strawman (trim 2 / roll 1 Sep $82P) becomes the de-facto recommendation to Will.
 
-- **HEARTBEAT + MEMORY now refreshed and current.** Auto-injected files reflect 5/21 ~16:25 state on OpenClaw's next boot. FORGE rehab is visible as top blocking item.
+- **Push-train pattern fired in real-time today.** When I ran `git push`, WALTER had just pushed in the millisecond before, sweeping my commit + OTTO's. This means: closeout commits can land on origin via someone else's push before my own push reaches the server. **Next session boot should `git fetch` first to confirm true origin state** rather than assuming local = remote.
 
-- **OpenClaw's HANDOFF.md got a surgical update this closeout** to flag the cross-surface state shift. He'll see refreshed HEARTBEAT auto-inject + the new COMM channel with two ACKs from CC + FORGE blocking item.
+- **AAL + CF are mechanical let-expire** — no further action needed unless a domain owner emerges. AAL $10P × 2 ($180 cost) + CF $130C × 1 ($1,167 cost) → expected combined loss ~$1,015. Already absorbed in Will-decision.
 
-- **Cross-surface validation pattern just got its first concrete instance** (TIPS-vs-nominal catch by both surfaces independently). Saved as auto-memory `finding_cross_surface_validation_pattern.md`.
+- **No persistent-agent spawns at boot.** Do not spawn: CARL, REGINALD, OZK, SAM, RED, BRENT, Claude Code Prome. HENRY/VIOLET/BOND were teams-mode standing-by but released after 5/21 closeout — assume they're terminated unless explicitly respawned.
 
-- **No persistent-agent spawns at boot.** Do not spawn: CARL, REGINALD, OZK, SAM, RED, BRENT, Claude Code Prome. HENRY/VIOLET/BOND were teams-mode standing-by during the morning session but released to closeout.
-
-- **TODAY.md remains 4 days stale.** Path B draft is in conversation history. Skip rule in CLOSEOUT.md says "usually skip" — fine for now since HEARTBEAT now explicitly flags TODAY.md staleness in its Pointers section.
-
-- **CALENDAR.md is itself 3/27 stale** but contains the load-bearing upcoming catalysts: 5/25 Memorial Day, 6/16-17 FOMC + SEP + dot plot, 6/18 Jun expiry cluster (WAL/KRE/HYG/APO/AAL/ARES/EGBN/CF — the cluster that BROCK LESSONS #16 references for execution-rails gap).
+- **3 SIGs sitting untracked-by-design** in BROCK/REGINALD/HENRY inboxes. Agents own commits on integration. Don't pre-commit them.
