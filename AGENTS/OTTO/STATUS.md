@@ -1,8 +1,53 @@
 # OTTO STATUS
 
-**Signal Status:** 🔴🔴 CRITICAL — ESCALATING | **Last Updated:** 2026-05-21 EDT
+**Signal Status:** 🔴🔴 CRITICAL — ESCALATING | **Last Updated:** 2026-05-22 EDT
 
-> **📌 New spawn:** Read `LAST_COMPLETION.md` first. May 21 session resolved Tricolor's actual outcomes (vehicle sales were Mar 31 deadline, NOT Apr 30 — prior recalibration was wrong; auction proceeds emerging mid-May), surfaced Wilmington Trust's exit from non-mortgage ABS custodial business (systemic), and expanded the fraud surface to ACV Capital. Auction recovery tracking ~3% of debt; ~30K vehicles missing valued up to $1.1B.
+> **📌 New spawn:** Read `LAST_COMPLETION.md` first. May 21-22 arc: (1) Tricolor outcomes catch-up — Mar 31 was operative deadline, ~3% auction recovery, $113M distribution gridlock, Wilmington Trust exiting non-mortgage ABS custody. (2) May 22 post-inbox sweep — PSEC cut FALSIFIED on date (cut occurred May 7 not Feb 20), CVNA May 5 split passed + chairman-separation defeated 96% + GT auditor ratified, NY Fed Q1 2026 confirms $1.685T total auto + transition-to-90+ flat at 2.97%, Origin Bancorp surfaces as previously-undiscovered Tricolor-exposed bank (Oct 23 2025 disclosure).
+
+---
+
+## MAY 22 SWEEP — PSEC / CVNA / NY FED / BANK CHASE (2026-05-22)
+
+**Summary:** Multi-target lookups resolved 3 of 4 P0 carryover items. PSEC OTTO-26 prediction falsified on date (cut May 7 not Feb 20). CVNA May 5 meeting clean — split passed, chairman-separation proposal crushed, GT ratified (one OTTO red-line trigger disconfirmed). NY Fed Q1 2026 HDC published May 12 — $1.685T total auto, transition flat 2.97% — confirms First Squawk $1.68T but does NOT support headline-level consumer flow acceleration. Origin Bancorp surfaces as a pre-existing (Oct 23 2025) Tricolor-exposed bank that OTTO had never logged.
+
+### New Findings
+
+- **PSEC cut $0.045 → $0.035 on May 7 2026** (~22% cut, Q3 FY26 earnings 8-K accession 0001287032-26-000165). Cut DID happen but on March-quarter earnings, not Feb-quarter. OTTO-26 falsified on date.
+- **CVNA May 5 stockholder meeting:**
+  - 5-for-1 forward split: APPROVED, effective May 7 9:30am ET, split-adjusted trading May 8
+  - Chairman/CEO separation proposal: **FAILED 96% against** (32M FOR / 788M AGAINST) — Garcia retains combined role; thesis-confirming on governance entrenchment
+  - GT auditor ratification: APPROVED — **disconfirms "GT resigns" red-line trigger**
+  - 2026 Omnibus Incentive Plan: APPROVED; Maroone + Parikh re-elected
+- **No new short-seller activity on CVNA Mar 15 – May 21** (Gotham, Hindenburg, Muddy Waters, Citron). Jun 12 Discovery Production 2 remains the cleanest re-entry trigger.
+- **NY Fed Q1 2026 HDC (released May 12):** Total auto loan balance **$1.685T** (+$18B / +1.08% QoQ from $1.667T). Transition-to-90+ rate **2.97%** (flat QoQ, +3bps YoY). Stock-level 90+ DQ ~5.2% (near GFC peak of 5.3%). Read: First Squawk $1.68T VALIDATED but headline transition-flow flat — consistent with Invisible Exit (skip bypasses DQ chain).
+- **🟠 Origin Bancorp (NYSE: OBK) — previously-undiscovered Tricolor exposure** (per Oct 23 2025 disclosure, surfaced via TradingView/TipRanks in Q1 2026 small-bank private-credit roundups): $16.2M executive mortgages + $28.4M charge-off + $30.1M commitments. OTTO never logged this. Counted as a known-unknown 6th name predating the OTTO-30 prediction window.
+- **Q1 2026 bank sweep clean for new 6th name:** HBAN, CFG, RF, Truist, Comerica, KeyCorp, PNC, ZION, USB, FCNCA — NO new Tricolor disclosures in Q1 prints. Truist explicitly disclaimed (First Brands only). Q1 surface considered swept.
+
+### Thesis Impact
+
+- **OTTO-26 falsified on date** — write down as a calibration loss. Directionally correct (PSEC did cut) but Resolve_Date precision was off by ~2.5 months. Calibration lesson: when a confidence is at 40% on a specific-date prediction, the date-specificity is the weakest link.
+- **CVNA governance row** — separation vote 96% against entrenches Garcia/family insider control, which is *thesis-confirming* on related-party concern even though the market shrugged. GT ratification removes one accelerant but doesn't change substance.
+- **NY Fed transition-flow flat** — does NOT support consumer-level acceleration narrative at headline aggregate. ABS-level stress (subprime 60+ at 32-yr high) and consumer-level flow (~3% transition, flat) are diverging. The Invisible Exit thesis is structurally consistent with this divergence — skips don't show up in standard DQ chains.
+- **OTTO-30 confidence drop 65% → 45%** — Q1 surface swept clean for *new* disclosure; only Q2 2026 earnings (Jul-Aug) and any M&T dollar-amount update remain before Aug 31 resolve. Origin is a sixth name in the public record but predates the prediction's discovery window.
+
+### First Brands — Ch.7 Conversion IN MOTION (added late-session)
+
+- **Apr 28:** Premier Marketing Group (PMG, one of ~112 FBG debtors) filed Ch.11 Plan + Disclosure Statement. Architecture: PMG litigation trust funded by Global Settlement with ad hoc group + UCC; **all other 111 FBG debtors convert to Ch.7**.
+- **May 13:** **US Trustee Kevin Epstein filed motion to dismiss-or-convert** all FBG cases to Ch.7 outright. Calls Global Settlement "sleight of hand"; cites $245M paid in advisory fees, $223M unpaid admin fees, administrative insolvency, no realistic reorg prospect.
+- **May 20:** Conditional disclosure statement hearing (outcome not yet sourced).
+- **May 25:** Omnibus hearing.
+- **OTTO signal trigger** "First Brands converts to Ch.7" promoted **PENDING → IN MOTION** (US-Trustee driven, strongest institutional signal).
+- **Cross-agent signal routed** via WALTER inbox → REGINALD primary, BROCK + CARL info-cc.
+
+### Next Re-Check
+
+- **Q2 2026 bank earnings (Jul 15 onward)** — last live shot for OTTO-30 6th-new-bank discovery
+- **Jun 12 CVNA Discovery Production 2** — re-entry catalyst window
+- **May 20 disclosure statement hearing outcome** — sweep next session
+- **May 25 First Brands omnibus hearing** — Ch.7 conversion timeline likely clarifies
+- **OBK 10-Q** for Q1 2026 — verify if exposure quantum changed since Oct 23 disclosure
+
+---
 
 ---
 
@@ -230,7 +275,9 @@
 | Tricolor Missing Vehicles | **~30,000 missing, up to $1.1B** | 🔴🔴 |
 | Tricolor Disputed Receivables | **$113M frozen — distribution gridlocked** | 🔴 |
 | Wilmington Trust | **Exiting non-mortgage ABS custody** ($1.8B+ Tricolor) | 🔴🔴 |
-| Bank Losses | JPM $170M / 5/3 **$178M** / BCS $150M / Regions $68M / MTB litigation TBD | 🔴 |
+| Bank Losses | JPM $170M / 5/3 **$178M** / BCS $150M / Regions $68M / MTB litigation TBD / **OBK $74.7M (Oct 23 2025)** | 🔴 |
+| Total Auto Loans (NY Fed Q1 2026) | **$1.685T** (+1.08% QoQ; ATH) | 🟠 |
+| Auto transition-to-90+ (Q1) | **2.97%** flat QoQ, +3bps YoY | 🟡 |
 | BCRED Redemptions | $6.5B = 7.9% (met via $400M firm injection + 7% cap) | 🔴 |
 | MS North Haven | **GATED** — 10.9% requests, 5% cap, 45.8% fulfilled | 🔴🔴 |
 | BlackRock HPS | Restricted withdrawals on $26B fund | 🔴 |
@@ -284,9 +331,15 @@ $12B debt (FT). DOJ indicted Patrick James (9 counts, life risk). Asset recovery
 |------|-------|--------|
 | **Mar 31** | Tricolor vehicle-sale deadline (ORIGINAL — operative) | ✅ Auctions ran; 5,857 sold / $39.5M net (data emerged ~May 14) |
 | **Mar 31** | First Brands asset sales (Walbro $50M pending) | ✅ $25M 12-brand sale confirmed |
-| **Apr 9** | First Brands hearing — **ADJOURNED** | ⚠️ STALE — pending rescheduled date check |
+| **Apr 9** | First Brands hearing — **ADJOURNED** | ✅ Superseded — eclipsed by Apr 28 PMG plan filing + larger structural events |
+| **Apr 28** | First Brands: PMG files Ch.11 Plan + Disclosure Statement (litigation trust; 111 other debtors → Ch.7) | ✅ |
+| **May 13** | First Brands: US Trustee motion to dismiss-or-convert all FBG cases to Ch.7 | 🔴 IN MOTION |
+| **May 20** | First Brands: Disclosure statement conditional-approval hearing | ⚠️ Outcome pending sweep |
+| **May 25** | First Brands: Omnibus hearing | 🟠 |
 | **Apr 24** | Trustee Rule 2004 motion vs Tricolor affiliates + Fifth Third supplemental motion (contents opaque) | 🟠 |
-| **May 5** | CVNA stock split vote | ⚠️ STALE — outcome not yet sourced |
+| **May 5** | CVNA stockholder vote: split PASSED (5-for-1, eff. May 7-8); chairman separation FAILED 96%; GT ratified | ✅ |
+| **May 7** | PSEC declares $0.035 monthly div (down from $0.045) — Q3 FY26 earnings | ✅ |
+| **May 12** | NY Fed Q1 2026 HDC published — auto $1.685T, transition 2.97% flat | ✅ |
 | **May 14** | Trustee Rule 2004 motion vs ACV Capital LLC | 🟠 fraud surface expansion |
 | Jun 12 | Carvana discovery production 2 | 🟠 |
 | **Jun 17** | Tricolor creditor meeting — trustee distribution plan ETA | ⚠️ AT RISK — $113M ownership dispute gridlocked |
@@ -303,9 +356,10 @@ $12B debt (FT). DOJ indicted Patrick James (9 counts, life risk). Asset recovery
 | OTTO-08 | BDC redemptions trigger gate | ✅ CONFIRMED 2026-03 (MS North Haven + Blue Owl) |
 | OTTO-09 | BDC markdown First Brands >10% | ✅ CONFIRMED 2026-02 (debt 13-16¢/0.4¢) |
 | OTTO-27 | FSK dividend coverage <1.0x | ✅ CONFIRMED 2026-02 (cut $0.70→$0.48; Q1 NII $0.44) |
-| OTTO-26 | PSEC dividend cut (Feb 20) | ⚠️ NEEDS MANUAL VERIFICATION ($0.045 vs $0.06 historical) |
+| OTTO-26 | PSEC dividend cut (Feb 20) | ❌ FALSIFIED on date — cut DID happen ($0.045→$0.035) but May 7 2026, not Feb 20. Directionally correct, date wrong. |
 | OTTO-29 | Tricolor ABS trustee distribution <15¢ | 🟢 Substance tracking CONFIRMED (auction ~3%, ABS <10¢); **resolution at Sep 30 RISK** — $113M dispute may push past resolve date |
-| OTTO-30 | 6th US bank discloses Tricolor exposure by Q2 | 🟠 OPEN — Q1 earnings sweep pending (MTB litigation TBD; others to scan) |
+| OTTO-30 | 6th US bank discloses Tricolor exposure by Q2 | 🟠 OPEN — conf 65→45%. Q1 surface swept (HBAN/CFG/RF/Truist/etc clean). Origin Bancorp surfaces as known-unknown 6th name predating prediction window. Only Q2 earnings + MTB dollar update left. |
+| OTTO-31 | Wilmington Trust non-mortgage custodial exit by Dec 31 | 🟠 OPEN — awaiting corporate-side confirmation |
 | OTTO-04, -05, -06, -07, -10, -11, -12, -28 | — | 8 OPEN (see TSV for timeframes) |
 
 ### Signal Triggers (not predictions — watched for cross-agent routing)
@@ -313,7 +367,7 @@ $12B debt (FT). DOJ indicted Patrick James (9 counts, life risk). Asset recovery
 | Trigger | Status |
 |---------|--------|
 | Carvana 10-K delayed or GT resigns | ❌ 10-K filed; no GT resignation |
-| First Brands converts to Ch. 7 | ⏳ Pending — Apr 9 hearing adjourned |
+| First Brands converts to Ch. 7 | 🔴 **IN MOTION** — US Trustee filed dismiss-or-convert motion May 13; PMG Ch.11 plan Apr 28 already proposes Ch.7 for 111 other debtors |
 
 ---
 
