@@ -79,7 +79,26 @@
 
 ## 3. Future v0.9 candidates (NOT yet proposed)
 
-Empty as of 2026-05-06. Calibration cycle 1 (CARL/BRENT/RED) likely surfaces additional candidates 2026-05-19 to 2026-05-27. Add rows here as they emerge.
+### 3.1 — `sponsor_strategy` enum (header field, optional) — PARKED 2026-05-21
+
+**Origin:** Will-mediated decision 2026-05-22 00:11 UTC re: SPONSOR_BIFURCATION sub-cluster spawn question. 5-instance crystallization surfaced via SIG-W-20260521-019 (KKR-doubles-down / Apollo-cashes-out / Blackstone-counter-inflows / Blue-Owl-gates / NEW WAL-sponsor-walk-away bank-side). Decision: status quo cluster_secondary tagging is sufficient at 5 instances; defer header-sub-tag promotion until pattern grows or surfaces outside PC_STRESS / BANK_COLLATERAL domain.
+
+| Attribute | Value |
+|-----------|-------|
+| Field name | `sponsor_strategy` |
+| Type | String enum |
+| Values | `defend | cash_out | counter | gate | walk_away` |
+| Optional | YES — only set when signal substance is about how an alt-asset sponsor responded to PC/BDC/bank-loan stress |
+| Domain | PC_STRESS + BANK_COLLATERAL primary; cross-cluster eligible |
+
+**Re-evaluation trigger:** calibration cycle 1 close 2026-05-25 OR pattern reaches 8-10 instances OR pattern surfaces in non-PC non-bank domain. If none fires by 6/15, defer to v0.10 stack.
+
+**Why parked not shipped:**
+1. WAL bank-side instance just crystallized 2026-05-21 — premature to spawn structure for a pattern only just locked in at 5 instances.
+2. Existing `cluster_secondary` already accommodates the cross-cluster bifurcation (SIG-W-20260521-019 demonstrates the mechanic works).
+3. Signal density is in the LENS not standalone events — header sub-tag adds queryability but not classification value the current tags don't capture.
+
+Calibration cycle 1 (CARL/BRENT/RED) likely surfaces additional candidates 2026-05-19 to 2026-05-27. Add rows here as they emerge.
 
 ---
 
