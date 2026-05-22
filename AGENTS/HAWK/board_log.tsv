@@ -17,3 +17,9 @@ timestamp_read	signal_id	disposition	notes
 2026-04-20T20:30:00Z	SIG-W-20260420-001	acted	Tuapse refinery + Black Sea port struck 2nd time in 4 days (Visegrad24 + BRICS News dual-outlet). Rosneft-owned, ~240kbpd. 3rd-theater hydrocarbon-infra-under-attack (alongside Hormuz + Qatar LNG). Propose KB-HAWK-141.
 2026-04-20T20:30:00Z	SIG-W-20260420-002	noted	Pachpadra HPCL Rajasthan refinery fire Apr 20 pre-Modi inauguration. Cause/scale TBD, single-outlet. Context for non-ME incident cluster; no standalone HAWK action.
 2026-04-20T20:30:00Z	SIG-W-20260420-003	acted	Aggregator compilation 11 non-ME hydrocarbon incidents Mar 1-Apr 15: 4 Russia war-driven, 3 India, 3 Texas US, 1 Mexico, 1 AU, 1 Ecuador. Thesis-frame meta-cluster. HAWK does NOT have this pattern logged. Propose KB-HAWK-142 (cluster observation, moderate confidence, unattributed compilation).
+2026-05-22T16:03:00Z	SIG-W-20260521-001	acted	Barakah nuclear-infra strike integrated as KB-HAWK-145; raised infra-tail despite base-case downgrade.
+2026-05-22T16:03:00Z	SIG-W-20260521-002	acted	Trump called-off attack integrated as KB-HAWK-146; lowered immediate-collapse base case and created May 25-29 re-ratchet watch.
+2026-05-22T16:03:00Z	SIG-W-20260521-003	acted	Chinese tanker egress integrated as KB-HAWK-147; carve-out trend now expanding but not reopening.
+2026-05-22T16:03:00Z	SIG-W-20260521-004	acted	Anchor recalibration accepted: old hardened/no-carve-out framing stepped down to partial-thaw/grind.
+2026-05-22T16:03:00Z	SIG-W-20260521-023	noted	Rapidan August product-inventory exhaustion logged as tail scenario; not HAWK base while partial-thaw channel active.
+2026-05-22T16:03:00Z	SIG-W-20260521-031	acted	Kpler export-flow step-down integrated as KB-HAWK-150; supports substance-vs-tape bifurcation.
