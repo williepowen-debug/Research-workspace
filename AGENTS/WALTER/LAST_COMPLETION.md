@@ -6,15 +6,31 @@
 
 ## STATUS
 
-**5/21/22 UTC full-day arc — AM light-closeout (`ce61de74`) + PM #1 cluster-backfill round 1 (`ec3c322d`) + PM #2 cluster-backfill round 2 (this commit).**
+**5/21/22 UTC full-day arc — AM (`ce61de74`) + PM #1 (`ec3c322d`) + PM #2 (`0eecc535`) + sponsor-bifurcation decision (`384da757`) + PM #3 Will-Telegram image-batch (this commit).**
 
-**PM #2 session:** ~00:00-00:35 UTC 5/22 after /clear re-boot at 23:56 UTC 5/21. **9 new BOARD signals dispatched closing 5/12-5/20 silence across 2 additional clusters** (POSITIONING_VALUATION 33→38 / PC_STRESS 18→22). **BOARD 224 → 233.** Full-day total: 20 sigs across 5 clusters (IRAN_HORMUZ + CONSUMER_STAGFLATION + BANK_COLLATERAL + POSITIONING_VALUATION + PC_STRESS).
+**PM #3 session:** ~01:30-02:00 UTC 5/22. Will-Telegram 6-image batch via msg 1916 + msgs 1918-1923. **6 PRIORITY BOARD signals dispatched across 5 clusters** (IRAN_HORMUZ 51→53 / POSITIONING_VALUATION 38→39 / CONSUMER_STAGFLATION 42→43 / BANK_COLLATERAL 33→34 / PC_STRESS 22→23). **BOARD 233 → 239.** 4 parallel verify-research spawns ($0.20). Full-day total: **26 sigs across 6 clusters** in single calendar day ET.
 
-**Push state:** AM + PM #1 pushed clean. PM #2 commit pending at handoff.
+**Push state:** AM + PM #1 + PM #2 + sponsor-bifurcation all pushed clean. PM #3 commit pending at handoff.
 
 ## CHANGED
 
-### Files written / modified this PM #2 session
+### Files written / modified this PM #3 session (Will-Telegram image-batch)
+
+**BOARD signals (6 new files):**
+- `BOARD/SIG-W-20260521-021-phl-variable-pe-insurer-liquidation-golden-gate-100k-policyholders-34-57-recovery-first-ct-failure-decade.md` — PRIORITY → SHADE (CONFIRMED 0.90)
+- `BOARD/SIG-W-20260521-022-eia-spr-9-9-mmbbl-largest-weekly-drain-record-but-exchange-not-sale-framing-correction-kobeissi.md` — PRIORITY → BRENT (CORRECTED-FRAMING 0.65)
+- `BOARD/SIG-W-20260521-023-bloomberg-rapidan-hormuz-august-recession-rivaling-2008-q3-product-inventory-exhaustion-mcnally.md` — PRIORITY → BRENT (CONFIRMED 0.85)
+- `BOARD/SIG-W-20260521-024-chapter-12-farmer-bankruptcies-april-62-monthly-highest-since-feb-2020-corrected-framing-chart-inflated.md` — PRIORITY → CARL (CORRECTED-FRAMING 0.55)
+- `BOARD/SIG-W-20260521-025-hedgeye-spx-total-call-volume-ath-2-6t-notional-positioning-extreme-bear-side-balance-pm2.md` — PRIORITY → HENRY (SKIP-VERIFY 0.80)
+- `BOARD/SIG-W-20260521-026-campbell-soup-cpb-30-year-low-19-99-packaged-food-tier-stratified-consumer-stress.md` — PRIORITY → CARL (SKIP-VERIFY 0.85)
+
+**BOARD/INDEX.md:** 5 cluster ToC + section header updates (IRAN_HORMUZ 51→53 / POSITIONING_VALUATION 38→39 / CONSUMER_STAGFLATION 42→43 / BANK_COLLATERAL 33→34 / PC_STRESS 22→23 / TOTAL 233→239); 6 rows appended to respective cluster sections.
+
+**route_log.tsv:** 6 rows appended.
+
+**WALTER dashboard files:** STATUS.md lead + PM #3 SESSION LOG row (9 rows; archive trim still pending); MEMORY.md PM #3 finding + CHANGES SINCE rewrite; LAST_COMPLETION.md (this file).
+
+### Files written / modified PM #2 session (commit 0eecc535)
 
 **BOARD signals (9 new files):**
 - `BOARD/SIG-W-20260521-012-r12-skew-regime-terminated-223td-streak-r11-analog-clock-running-window-5-28-6-02.md` — IMMEDIATE → HENRY
