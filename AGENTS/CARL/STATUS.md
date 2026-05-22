@@ -1,6 +1,6 @@
 # CARL STATUS
-**Updated:** 2026-05-05 ~21:30 UTC (PM — BOARD May 5 12-signal disposition + AAA pump May 5 ($4.483, gap $0.017) + ISM Services Apr / JOLTS Mar / AHLA WC / Black Box Apr restaurants integration; CRL-08 holds 92%)
-**Overall:** 🔴🔴 CRITICAL — Convergence **53/70 (76%)**. Thesis **v2.5.1** (May 3): masking framework narrowed 6→4 issuers + K-shape Selection / Tariff Transmission sibling section + CRL-22/23 added. **v2.5** (May 1): Path C ACTIVE-RED (provisional), matrix expanded 12→14 vectors, score recalibrated 58/60 → 53/70 (~60% calibration + ~40% conviction reduction). Audit trail in `thesis/CHANGELOG.md`. Counter-evidence tracking moved to `handoff_RED/COUNTER_LOG.md`.
+**Updated:** 2026-05-22 ~14:30 UTC (BOOT after 17d gap — multi-print integration: **CRL-08 BREACHED** AAA $4.552 May 22 ≥$4.50; **CRL-05 strengthens** NY Fed Q1 HHDC CC 90+ DQ 13.1% (15-yr high), gap to GFC 0.64pp; CPI Apr 3.8% reaccel (+Iran/tariff transmission); NFP Apr +115K headline beat, Feb deepened -156K, 3-mo avg ~48K; Klarna Q1 profitable counter-signal; Tricolor fraud charges Dec 17. Convergence candidates: V1+V5 upgrade review pending.)
+**Overall:** 🔴🔴 CRITICAL — Convergence **53/70 (76%)** *[V1 + V5 upgrade candidates after May 12-22 data — pending dedicated review]*. Thesis **v2.5.1** (May 3): masking framework narrowed 6→4 issuers + K-shape Selection / Tariff Transmission sibling section + CRL-22/23 added. **v2.5** (May 1): Path C ACTIVE-RED (provisional), matrix expanded 12→14 vectors, score recalibrated 58/60 → 53/70 (~60% calibration + ~40% conviction reduction). Audit trail in `thesis/CHANGELOG.md`. Counter-evidence tracking moved to `handoff_RED/COUNTER_LOG.md`.
 
 *Check-in archives: `archive/status/`*
 
@@ -11,8 +11,8 @@
 ### Credit / Delinquency
 | Metric | Value | As Of | Status |
 |--------|-------|-------|--------|
-| CC 90+ DQ | **12.70%** (92% of GFC) | Q4 2025, NY Fed | 🔴 |
-| Subprime Auto 60+ DQ | **6.9% ATR** | Jan 2026, Fitch | 🔴🔴 |
+| CC 90+ DQ | **13.1% Q1 2026 — 15-yr HIGH** (95% of GFC; gap collapsed 1.04pp → **0.64pp**). NY Fed researchers: "subprime borrowers driving most of the increase, prime only marginal deterioration" = K-shape converging downward CONFIRMED IN PRIMARY DATA. Early DQ transitions ticked DOWN 8.7→8.6% QoQ (mixed signal). Total HH debt $18.8T. CC balances -2.2% QoQ seasonal, +5.9% YoY. **CRL-05 strengthens.** | Q1 2026, NY Fed (rel May 12) | 🔴🔴 |
+| Subprime Auto 60+ DQ | **6.90% Jan 2026 — 32-YEAR HIGH** (385-month record back to Jan 1994 per Fitch; +34bps YoY). Auto Finance News May 2026 reframed Jan number with magnitude context. | Jan 2026, Fitch (reframed May 2026) | 🔴🔴 |
 | SoFi 2025-1 CNL | **2.6% TRIGGERED** (⚠️ snapshot Mar 2026 — no SEC path, private/144A. Cannot refresh via abs_monitor. See KB-CARL-078.) | Mar 2026, Eisman Ep 49 | 🔴 |
 | **ABS Structural** | **EART 2024-2 Class E CE BREACHED** (CNL 13.06% > 7.6% initial CE). AMCAR Class E 0.4pp cushion (~2mo). SDART Class D 1.8pp (~7mo). Terminal CNL: EART 32.3%, SDART 17.6%, AMCAR 14.5%. Rating actions imminent on subordinate tranches. | Apr 16 CARL analysis, EDGAR 424B5 | 🔴🔴 |
 | **Ally Near-Prime** | Q1 NCO 1.97% / 30+ DQ 4.6% — 5th consec qtr "improvement" headline. **Composition-masking** (S-tier 40→37%, nonprime 9.7→10.1%, CLN +43% YoY, ACL -$224M). FY2025 vintage loss window 2H 2026 / Q1 2027. Detail: KB-CARL-222-226. | Apr 17 2026 | 🟢 (headline) / 🟠 (cohort) |
@@ -24,9 +24,11 @@
 | SAVE Transition | **ENDING Jul 1** — 7.5M must select; judicially dead (8th Cir Mar 10) + legislatively dead (WFTCA Jul 2025). Wave-structured notices every 2wks, 90-day selection window, non-selectors → Standard/Tiered Standard Oct 1. | ED.gov / 8th Cir | 🔴 |
 | MOHELA Servicer Failure | **2.5M missed bills → 800K DQ.** AFT v. MOHELA in discovery; next status conf **May 28**; 3 concurrent class actions active. | DOE / AFT | 🔴 |
 | BNPL Late Rate | **41%** (+7pp YoY) | 2025, CFPB | 🟠 |
+| **Klarna Q1 2026** | **PROFITABLE counter-signal.** GMV +33% YoY to $33.7B; Revenue +44% to $1.0B; adj op profit $68M; net income POSITIVE; >1M merchants, 119M consumers. Q2 GMV guide $35.5-36.5B; FY26 GMV >$155B reiterated. **BNPL issuer not stressed = survivor-bias parallel to SYF/ALLY (worst already off-book or absorbed by lender flexibility).** Distinct from consumer-side BNPL Late Rate 41%. KB-CARL-283 (pending). | May 14 rel | 🟢 issuer / ⚠️ consumer cohort unchanged |
+| **Tricolor Holdings — fraud indictment** | **Dec 17 2025 SDNY** charged CEO Chu, COO Goodgame + 2 others (Kollar/Seibold pleaded guilty + cooperating). **Double-pledged subprime auto loans + manipulated DQ data** to misrepresent collateral. JPMorgan + Jefferies among lender exposure. Subprime auto fraud-vintage pattern hardens (CVNA fraud-watch reinforced). Was on CARL INVESTIGATIONS BACKLOG — now REALIZED. KB-CARL-284 (pending). | Dec 17 2025 / re-surfaced May 16 sweep | 🔴 |
 | SYF Q1 2026 | NCO **5.42%** / FY26 guide CUT to <5.5% (was 6.0%). ⚠️ Survivor-pool: Home & Auto -3.7% YoY, active accounts -0.7%; ACL +36bps. CRL-12 77→55%. KB-CARL-243/244. | Apr 21 | 🟠 headline / 🔴 cohort |
 | COF Q1 2026 | Card NCO **5.1%** clean; Auto +21% YoY originations w/ "slightly higher subprime mix" admitted; $230M ACL build. ALLY-pattern confirmed. KB-CARL-245/246. | Apr 21 | 🟠 Card / 🔴 Auto composition |
-| Total Household Debt | **$18.78T record** | Q4 2025, NY Fed | 🔴 |
+| Total Household Debt | **$18.8T Q1 2026** (modest rise, NY Fed) | Q1 2026 NY Fed (rel May 12) | 🔴 |
 
 ### Housing / Multifamily
 | Metric | Value | As Of | Status |
@@ -65,10 +67,10 @@
 ### Macro / Energy / Stress
 | Metric | Value | As Of | Status |
 |--------|-------|-------|--------|
-| Gas Pump | **$4.483 national** (May 5 AAA — +2.6¢ vs May 4 $4.457, +30.7¢ WoW, +41.6% YoY). **Gap to CRL-08 $4.50 = $0.017; 5-day path +9.2/+4.1/+1.3/+1.1/+2.6¢ — Tue May 6 close highly likely to breach absent Brent transmit relief.** Top: HI $5.656, CT $4.556, DC $4.530, NJ $4.480, VT $4.468. Detail: KB-CARL-278. | May 5, AAA | 🔴🔴 |
+| Gas Pump | **$4.552 national May 22 — CRL-08 BREACHED ≥$4.50.** Was $4.483 May 5; cumulative +6.9¢ over 17d sustained above-threshold (exact first-cross date TBD next session). 2-week sustainability clock starts NOW. Detail: KB-CARL-278 update pending. | May 22, AAA | 🔴🔴 |
 | Diesel | **$5.659 national** (May 5 AAA — +1.8¢ vs May 4, +60.2% YoY). Diesel-gas single-digit-cent moves continuing; gap compression sustaining. Distillate awaiting May 7 EIA. | May 5, AAA | 🔴 |
-| Brent | **$110.41 May 5 close** (-$3.03 / -3.52% intraday tape divergence DESPITE 5-vector cluster confluence per BOARD-012 — "risk-premium-already-priced" steelman tape-confirmed). Path: $108.17 May 2 → $114.44 May 4 (+5.80% rally) → $110.41 May 5. Net Mon-Fri +$2.24 / +2.07%. Detail: KB-CARL-278. | May 5 close | 🔴🔴 |
-| WTI | **~$102.68 May 5** (-$3.74 / -3.51%). Brent-WTI spread ~$7.73 — WIDENING further from May 2 $6.23 = physical-spot tightness mechanism continuing to relax. KB-CARL-278. | May 5 | 🔴 |
+| Brent | **~$108.76 May 21** (afternoon -2% on Iran de-escalation hopes; pre-decline intraday up to +3%). Path: $110.41 May 5 → ~$108.76 May 21 (net -1.5% over 16d). **Substance softening BUT pump still elevated 17d later** = transmission lag from earlier rally. Detail update pending. | May 21, intraday | 🔴 |
+| WTI | Refresh pending next session — Brent-WTI spread structure not re-measured. | May 5 (stale) | 🟡 PENDING |
 | **Qatar LNG** | **~80 MTPA OFFLINE = ~20% global LNG supply** (Iranian drone strikes Ras Laffan Mar 2/18-19; QatarEnergy FM extended). TTF EU gas +50%, JKM Asia LNG +39%. Supports diesel elevated + distillate tightness. | Apr 19 | 🔴🔴 |
 | **Iran Cluster Resolution** | **STILL LIVE May 5 — substance HARDENED, tape SOFTENED.** 5-vector confluence today: (a) IRGC sovereign-corridor doctrine + new maritime-oversight body (BOARD-004 — broader than 4/11, sets up next kinetic incident as Iran-justified); (b) IEA/S&P/Citi 205 MMbbl crude drawdown ex-Gulf + Q2 5.5 mb/d most-on-record (BOARD-001); (c) IEA Apr LNG ~33 Mt 2-yr-low + 120 BCM 2026-2030 cumulative loss + 2-yr expansion delay refines Qatar damage (BOARD-002); (d) EIA US gasoline stocks lowest seasonal in 10+yr Wk 17 below 2015-25 envelope (BOARD-003); (e) Chevron CEO Wirth Bloomberg/Milken 5/4 "physical shortages starting to appear, EU jet fuel tightening, potentially as big as 1970s" + EU airline op confirmed (Lufthansa 20K cancellations, Spirit BK weekend) (BOARD-009). **Tape divergence (BOARD-012):** Brent intraday -4% DESPITE substance confluence — RED's risk-premium-already-priced thesis tape-confirmed; market pricing scenario B (doctrine-coercion-without-sustained-kinetic, 45%) or D (status-quo low-grade, 25%), NOT scenario A (full kinetic resumption, 20%). Wirth 1970s magnitude likely 0.6× direction-right per HAWK-proxy. Detail: KB-CARL-278. | May 5 | 🔴🔴 substance / 🟠 tape |
 | HY OAS | **294bps Apr 10 — STALE 23d, FRED + secondary fetches all blocked May 3.** Iran cluster + 8-session Brent streak almost certainly widened spreads beyond Apr 10 reading. Awaiting fetch path resolution. | Apr 10, FRED ⚠️STALE | 🟡 PENDING REFRESH |
@@ -88,8 +90,11 @@
 | Unemployment Duration | **25.7 wks** (4-yr high) | Feb 2026, BLS | 🔴 |
 | UI Exhaustion Hole | **$650M/mo** (peak $930M/mo July) | CARL est, Mar 31 | 🔴🔴 |
 | Core PCE Monthly | **3.2% YoY Mar** (+0.3% MoM, +20bps from Feb 3.0% — acceleration confirmed). CRL-19 RESOLVES direction-correct / magnitude-light (predicted 3.3-3.5%, actual 3.2% = 10bps below floor). Headline PCE 3.5% YoY. KB-CARL-270. | Mar 2026, BEA | 🔴 |
-| CPI Headline Mar | **+3.28% YoY, +0.86% MoM** (hot headline, gas/food pass-through) | Mar 2026, BLS | 🔴 |
-| CPI Core Mar | **+2.61% YoY, +0.21% MoM** (contained — supply-side inflation, not demand) | Mar 2026, BLS | 🟠 |
+| **CPI Headline Apr** | **+3.8% YoY, +0.6% MoM REACCELERATING** (from Mar 3.28% +0.86%). Energy +3.8% MoM = ~40% of headline (Iran-shock transmission). Shelter +0.6% MoM. **First full Iran-shock + tariff month firing through.** | Apr 2026, BLS (rel May 12) | 🔴 |
+| **CPI Core Apr** | **+2.8% YoY, +0.4% MoM** (from Mar 2.61% +0.21% — Core MoM doubled, breadth widening beyond supply-side). | Apr 2026, BLS (rel May 12) | 🔴 |
+| **CPI Food at Home Apr** | **+0.7% MoM** (food overall +0.5%). **Pulling forward** vs CRL-10 baseline ("4% YoY by Q4 2026"). Wheat/corn/urea supply-side stress now visible on grocery shelves. | Apr 2026, BLS (rel May 12) | 🔴 |
+| CPI Headline Mar | +3.28% YoY, +0.86% MoM | Mar 2026 (historical) | — |
+| CPI Core Mar | +2.61% YoY, +0.21% MoM | Mar 2026 (historical) | — |
 | PPI Headline Mar | **+4.0% YoY, +0.5% MoM** (highest since Feb 2023; gasoline MoM +15.7% drove ~½ of monthly jump) | Mar 2026, BLS | 🔴 |
 | PPI Core Mar | **+3.8% YoY** (also highest since Feb 2023) | Mar 2026, BLS | 🔴 |
 | PPI Core-Core Mar | **+3.6% YoY, +0.2% MoM DECELERATING** (ex food/energy/trade — services MoM ~0%; goods+energy shock, NOT broad) | Mar 2026, BLS | 🟠 |
@@ -105,12 +110,14 @@
 | Real Consumer Spending | **+0.2% Mar** (Real PCE — barely positive despite +0.9% nominal). Savings-funded forced consumption. KB-CARL-270. | Mar 2026, BEA | 🔴 |
 | Real DPI | **-0.1% Mar** (4th NEGATIVE month sustaining; nominal DPI +0.6% but PCE deflator +0.7% MoM = real income shrinking). KB-CARL-270. | Mar 2026, BEA | 🔴🔴 |
 | Retail Control Group | **+0.7% Mar** (vs cons +0.2% — beat by 50bps); 15.5% gas station distortion explains majority of headline beat. KB-CARL-271. | Mar 2026, Census | 🟢 ⚠️ |
-| **NFP Mar** | **+178K** (cons +57K) — Scenario 1 headline / Scenario 2 internals | Apr 3, BLS | 🟢 ⚠️ |
-| Feb NFP Revision | **-133K** (revised down from -92K, -41K revision) | Apr 3, BLS | 🔴 |
-| 3-Mo NFP Avg | **~68K/mo** (well below 150K breakeven) | Apr 3, CARL calc | 🔴 |
-| Unemployment Rate | **4.3%** (from 4.4% — BUT LFPR fell to 61.9%, lowest since Nov 2021) | Mar 2026, BLS | 🟠 ⚠️ |
+| **NFP Apr** | **+115K** (cons +55K — HEADLINE BEAT but masks revisions). Health care +37K dominant; transp/warehousing + retail also gained. **Feb revised DOWN further: -133K → -156K (-23K)**; Mar revised UP: +178K → +185K (+7K). Net Feb+Mar combined -16K vs prior. | Apr 2026, BLS (rel May 8) | 🟠 ⚠️ |
+| NFP Mar (revised) | **+185K** (was +178K, +7K revision) | Mar 2026 final | — |
+| NFP Feb (re-revised) | **-156K** (was -133K, additional -23K downward) | Feb 2026 final | 🔴🔴 |
+| 3-Mo NFP Avg | **~48K/mo** (Feb -156K + Mar 185K + Apr 115K = +144K / 3 ≈ +48K, well below 150K breakeven, DEEPER stress vs prior 68K) | Apr 2026 CARL calc | 🔴 |
+| Unemployment Rate | **4.3% HELD Apr** (NFP +115K modest enough to maintain UR) | Apr 2026, BLS (rel May 8) | 🟠 ⚠️ |
+| AHE Apr | **+3.6% YoY** (+0.2% MoM, $37.41/hr) | Apr 2026, BLS (rel May 8) | 🟠 |
 | LFPR | **61.9%** (labor force shrank ~396K — discouraged workers exiting) | Mar 2026, BLS | 🔴 |
-| AHE YoY | **3.5%** (lowest since May 2021, barely above PCE 3.1%) | Mar 2026, BLS | 🟠 |
+| AHE YoY (Mar) | 3.5% (historical, superseded by Apr 3.6%) | Mar 2026 | — |
 | Avg Weekly Hours | **34.2** (-0.1 — hours cut = leading layoff indicator) | Mar 2026, BLS | 🟠 |
 | Part-Time Econ Reasons | **4.5M** | Mar 2026, BLS | 🟠 |
 | Long-Term Unemployed | **1.8M** (25.4% of total, +322K YoY) | Mar 2026, BLS | 🔴 |
@@ -168,14 +175,15 @@ V9 merged into V8 (May 1). V15 Refi-Window dropped (RED domain).
 
 | Window | Trigger | Status |
 |--------|---------|--------|
-| **NOW (May 5)** | Iran cluster substance HARDENED + tape SOFTENED: 5-vector BOARD confluence (IRGC corridor doctrine, IEA/S&P/Citi crude, IEA LNG, EIA gasoline stocks 10-yr low, Wirth Milken 1970s) + Brent -4% intraday DIVERGENCE = risk-premium-already-priced steelman tape-confirmed. **CRL-08 gas $4.483 NEAR-BREACH NOT-YET** (gap $0.017, May 4 Brent +5.80% rally just transmitted at 1d lag). ISM Services Apr Prices Paid 70.7 + JOLTS Mar hiring +0.4pp = soft-landing-stress shape. Live Nation Q1 5/5 AMC near-term watch. | 🔴🔴 **OIL BREAKOUT / CONSUMER STAGFLATION** |
-| **Recently fired (last 30d)** | Apr 15 Sweet v. McMahon ✅ (~271K pipeline) • Apr 21 SYF/COF/UNH/ELV/DHI/PHM ✅ (3-way K-shape WIDENING, KB-243-247) • Apr 24 UMich Final 49.8 ✅ (5-10Y 3.5%) • Apr 26 FL UI Wave 2 🟡 PARTIAL (KB-262) • Apr 28 Case-Shiller Feb ✅ + Rithm Q1 ✅ (KB-257/261) • **Apr 28-29 FOMC ✅ HELD 3.50-3.75% w/ 4 dissents most since 1992 (KB-274)** • Apr 30 BEA Mar PCE ✅ (Real DPI -0.1%, Savings 3.6%, Core PCE 3.2%, KB-270) • May 1 ALL Q1 ✅ POLLY-P05 confirmed (KB-266) • **May 3 CRL-19 RESOLVED MIXED** (Mar Core PCE 3.2% direction-right/magnitude-light) • **May 5 ISM Services + JOLTS ✅** (Apr Services Prices Paid 70.7 highest in 2.5yr + Mar hiring +0.4pp soft-landing-stress, KB-279/280) • **May 5 AHLA WC2026** (KB-281 new tourism-receipts vector) • **May 5 Black Box Apr restaurants** (traffic -3.5% Easter-clean, KB-282) • **May 5 Wirth Milken** (1970s analog magnitude calibration, KB-278 BOARD-009) | — |
+| **NOW (May 22)** | **CRL-08 BREACHED** AAA $4.552 ≥$4.50; 2-week sustainability clock starts. **CRL-05 strengthens** CC 90+ DQ 13.1% Q1 = 15-yr high, gap to GFC 0.64pp, K-shape converging downward confirmed in NY Fed primary data + researcher commentary. **CPI Apr 3.8% reaccel** (Mar 3.28% → Apr 3.8%) — first full Iran/tariff transmission month; Food at Home +0.7% MoM pulling CRL-10 forward. **NFP Apr +115K headline beat masks Feb -156K re-revision** (3-mo avg now ~48K, well below 150K breakeven). Brent ~$108.76 May 21 (Iran de-escalation softening tape, but pump still climbing — transmission lag from earlier rally). | 🔴🔴 **GAS BREACHED / CC DQ NEAR GFC / STAGFLATION CONFIRMED** |
+| **Recently fired (May 5 → May 22)** | **May 8 NFP Apr +115K** (headline beat / Feb deepened -156K / 3-mo avg 48K) • **May 12 NY Fed Q1 HHDC** (CC 90+ DQ 13.1% 15-yr high; subprime-driven K-shape confirmed) • **May 12 CPI Apr 3.8%** (reaccel; Core 2.8% MoM +0.4%; Food at Home +0.7% MoM) • **May 14 Klarna Q1 profitable** (counter-signal, BNPL survivor-bias) • **May 16 sweep**: Tricolor fraud charges Dec 17 (realized INVESTIGATIONS BACKLOG) + subprime auto 60+ DQ 32-yr high context (Fitch 6.90% Jan, 385-mo record) • **May 22 AAA pump $4.552** (CRL-08 breach) — Apr 26-May 5 fired catalysts (FOMC 4-dissent / FL UI Wave 2 / Case-Shiller / Rithm / ALL Q1 / ISM Svc / JOLTS / AHLA / Black Box) all carried forward from prior digest | — |
 | **Late Apr/May** | PennyMac Q1 — FHA DQ >7.5% bridge test on Rithm mod-accounting framework | 🟠 |
 | **May 5** | PayPal Q1 (new CEO Lores) — PHAN owns | ⏳ |
-| **May 6-8** | Earnings cluster: Uber+DoorDash (May 6) / Dave+Lyft+Affirm (May 7) / BLS Apr NFP (May 8) | ⏳ |
-| **May 13** | BLS Apr CPI — first full Iran-shock + tariff month | ⏳ |
+| **May 6-8** | Earnings + Apr NFP ✅ FIRED (NFP +115K beat, Feb -156K re-revision) | ✅ |
+| **May 12** | NY Fed Q1 HHDC ✅ FIRED (CC 90+ DQ 13.1% — CRL-05 strengthens) + Apr CPI ✅ FIRED (3.8% reaccel) | ✅ |
+| **May 14** | Klarna Q1 ✅ FIRED (profitable counter-signal) | ✅ |
+| **~Jun 5** | **CRL-08 2-week sustainability clock** — gas must hold ≥$4.50 through ~Jun 5 to confirm | 🔴 |
 | **May-Jun** | DQ conversion (Mar/Apr stress → May/Jun spike) + middle-market PC cuts | 🔴 UPGRADED |
-| **~Mid-May** | NY Fed Q1 HHDC — CC 90+ DQ vs 12.7% / CRL-05 test | ⏳ |
 | **May 28** | AFT/MOHELA status conference (discovery) + BEA Q1 GDP 2nd est (CRL-18) | 🟠 |
 | **Jun 16-17** | **FOMC + SEP** — first dot-plot post-Iran-shock + un-anchoring Apr Final UMich 5-10Y 3.5%; 4-dissent April pattern carries forward (KB-274) | 🔴 |
 | **Jun 24** | FL Wave 1 UI exhaustion cliff (~4,500 workers) | 🔴 |
@@ -219,12 +227,12 @@ V9 merged into V8 (May 1). V15 Refi-Window dropped (RED domain).
 |----|-----------|------|-----------|---------|
 | CRL-03 | Fannie MF DQ >0.80% (GFC) | 90% | Q2 2026 | 0.74% Feb — hovering 6bps from target |
 | CRL-04 | Student 90+ DQ >10% | 95% | Q1-Q2 2026 | **~9.8% FICO Spring 2026** (up 25% from 7.9% Apr 2025). 9.2M default, 2.4M late-stage DQ. **Near-confirmed, breach likely Q2.** |
-| CRL-05 | CC 90+ DQ >13.74% (GFC) | **82%** | Q2-Q3 2026 | 12.70% — 1.04pp gap. **Apr 17 (PM): 85→82%** on ALLY Q1 counter-evidence — near-prime auto headline clean 5 consec qtrs. Audit found composition-masking not fraud (KB-CARL-223). SL cascade pathway intact. |
+| CRL-05 | CC 90+ DQ >13.74% (GFC) | **85%** ↑ | Q2-Q3 2026 | **Q1 2026 NY Fed HHDC (rel May 12): 13.1% = 15-yr HIGH** (was 12.70% Q4). Gap collapsed **1.04pp → 0.64pp**. NY Fed researchers: "subprime driving most, prime marginal" = **K-shape converging downward CONFIRMED in primary data**. May 22 PM: 82→85% on direct mechanism confirmation. Q2 2026 print (~mid-Aug) is the breach window. |
 | CRL-06 | Foreclosures >70K/qtr | 70% | Q2 2026 | 58,140 Q4 — needs +20% |
 | CRL-07 | FL UI exhaustion → DQ spike | 85% | Jun-Aug 2026 | LABOR model confirms timeline |
-| CRL-08 | Gas $4.50+ national avg | **92%** | May-Jun 2026 | **May 5 AAA: $4.483** (+2.6¢ vs May 4, +30.7¢ WoW, +41.6% YoY). Gap to threshold $0.017. **5-day path:** +9.2¢ → +4.1¢ → +1.3¢ → +1.1¢ → +2.6¢ (re-acceleration off weekend trough; May 4 Brent +5.80% transmitted at 1d lag, faster than 3-4d Iran-cluster regime). **Tue May 6 close highly likely to breach absent Brent transmit relief.** Counter-pressure: Brent May 5 close $110.41 (-3.52% intraday tape divergence) → pump softening transmit Wed-Fri (May 6-8). Disposition NEAR-BREACH NOT-YET; held 92% (no reprice without 2-week sustainability test post-cross). Capped below 95% by: (a) tape-divergence signal that risk-premium-already-priced (BOARD-012), (b) demand destruction $4.50+ behavioral breakpoint, (c) Brent retreat pathway if cluster scenario B/D dominates. |
+| CRL-08 | Gas $4.50+ national avg | ✅ **BREACHED (provisional)** | May-Jun 2026 | **May 22 AAA: $4.552** (≥$4.50 threshold cleared sometime May 5-22 window; exact first-cross TBD next session). Sustained-above pattern visible (May 5 $4.483 → May 22 $4.552, net +6.9¢ over 17d). **2-week sustainability clock STARTS NOW.** CONFIRMED status conditional on holding ≥$4.50 through ~Jun 5. Brent ~$108.76 May 21 (Iran-de-escalation softening) = counter-pressure; pump-Brent transmit lag may produce pullback if Brent stays sub-$110. |
 | CRL-09 | JOLTS Mar ratio <0.88 | 75% | May release | Feb was 0.91, pre-Iran |
-| CRL-10 | Food CPI YoY >4.0% | 70% | Q4 2026 | Wheat 107yr low, urea $690s |
+| CRL-10 | Food CPI YoY >4.0% | **75%** ↑ | Q4 2026 *(possibly pulling forward)* | **Apr CPI Food at Home +0.7% MoM** (rel May 12) — pulling forward vs Q4 2026 baseline. Wheat 107yr low + urea + tariff transmission now visible on shelves earlier than expected. Possible inflection to >4% YoY by Q3 2026 if MoM holds 0.4%+. |
 | CRL-11 | Hires rate ≤3.2% through Q2 | 85% | Jul/Aug releases | Currently 3.1% COVID-low |
 | CRL-12 | SYF FY2026 NCO >6.0% (guidance ceiling) | **55%** | FY2026 (Jan 2027) | Q1 NCO 5.42%, FY guide CUT to <5.5%. Apr 29: 77→55%. Survivor-pool not recovery (Home & Auto -3.7%, ACL +36bps). |
 | CRL-13 | SAVE non-selection rate >35% | 70% | Oct 1 2026 | NEW — 2.6M+ face $0→$407/mo cliff |
@@ -241,5 +249,5 @@ V9 merged into V8 (May 1). V15 Refi-Window dropped (RED domain).
 - **Thesis kill:** Claims <220K 8+ weeks AND CC 90+ DQ declines 2 consecutive quarters
 - **Time-based:** Q1 consumer earnings (April) = mandatory review → **See `EARNINGS_WATCH_Q1.md` for full calendar + watch metrics**
 
-*Next catalysts (forward-looking only): **Tonight 5/5 AMC** Live Nation Q1 (small-venue/mid-tier ticket commentary — KB-282 tier-stratified discretionary) | **May 6** Uber+DoorDash + BLS state jobs + **AAA pump breach watch** | **May 7 TRIPLE** Dave + Lyft + Affirm + EIA distillate | **May 8** BLS Apr NFP | **May 13** BLS Apr CPI (Food at Home decomposition + first full Iran-shock + tariff month) | **~May 18** Klarna Q1 | **Mid-May** NY Fed Q1 HHDC (CC 90+ DQ — CRL-05 test) | **May 28** AFT/MOHELA + GDP Q1 2nd (CRL-18) | **Jun 16-17** FOMC + SEP (V12 hawk/dove surprise) | **Jul 1** SAVE→RAP | **$4.50/gal CRL-08 breach watch** | **Q2-Q3** ABS subordinate rating actions | **Q3-Q4 2026** Food CPI loading (CRL-10) | **Q1 2027** ALLY FY2025 vintage loss window*
+*Next catalysts (forward-looking only): **May 28** AFT/MOHELA + GDP Q1 2nd (CRL-18) | **~May 30** Apr core PCE | **~Jun 5** CRL-08 2-wk sustainability checkpoint (must hold ≥$4.50) | **Jun 6** May NFP (V16 second realized print) | **Jun 11** May CPI (Iran/tariff second-month) | **Jun 16-17** FOMC + SEP (V12 hawk/dove surprise — first dot-plot post Iran-shock) | **Jun 24** FL Wave 1 UI exhaustion cliff | **Jul 1** SAVE→RAP transition | **~mid-Aug** NY Fed Q2 HHDC (CRL-05 next breach window — direct test) | **Q2-Q3** ABS subordinate rating actions | **Q3-Q4 2026** Food CPI loading (CRL-10, possibly pulling forward) | **Q1 2027** ALLY FY2025 vintage loss window*
 *Key docs: `thesis/THESIS.md` | `thesis/PREDICTIONS.tsv` | `thesis/CHANGELOG.md` | `workbook/KB.tsv` | `domain/sources/CVNA_FRAUD_WATCH.md` | `workbook/ABS_BASELINE.tsv` | `workbook/STATE_DIFFUSION.tsv`*
