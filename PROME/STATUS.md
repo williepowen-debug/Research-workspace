@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-05-21 ~19:30 ET (post FORGE rehab Steps 1-4; commit `ec7e8ad9`)
+**Updated:** 2026-05-22 (FORGE rehab continuation — 6/18 trigger set v0.1 + 3 calibration SIGs filed)
 
 ## Core State
 
@@ -83,6 +83,7 @@
 | **BOND-TIPS cross-flag to HENRY** | ✅ Integrated 5/21 ~14:20 | HENRY commit `526d3586`: R11 trigger #6 imminence SOFTENED ("long end clearing demand at price"); breakeven decomposition added as 3rd independent Fed-can't-cut confirmation (PCE + duration + breakeven all triangulating). 2 new MEMORY findings. |
 | **SAM FXY Tranche 2 decision** | ✅ Executed 5/21 ~12:46 | SAM Tranche 2 executed at $57.66, 5 shares (commit `fb539597`). Total FXY now 13 shares + 1 Jun-18 $58C. Discovered post-closeout via cross-agent verification of SAM outbox-to-PROME signal. Next SAM Will-pending: Sep-18 $60C × 5-10 contracts (post-CPI cheaper entry). |
 | **FORGE rehab Steps 1-4** | ✅ Done 5/21 by CC | Commit `ec7e8ad9` (Will-authorized). STATUS reconciled against Fidelity CSV (5/21 14:03 ET) + SAM v1.4. Position tables rewritten (KRE 19 / WAL 8 / TLT 7 / APO 2 / OZK 7 / Other Puts 14 / Longs 8). Immediate Actions rebuilt around 6/18 expiry-cluster decisions. PORTFOLIO + ACTIVE_TRADES marked SUPERSEDED. JOURNAL gap entry for Feb 27 → May 21 (~22 equity closures + 6 expirations + 4 rolls + ~13 new opens). Recon worksheet: `FORGE/scratch/REHAB_RECON_2026-05-21.md`. **Open Will-decisions surfaced:** 6/18 theta-killer cluster dispositions (HYG×8/EGBN/AAL×2/WAL×3/KRE), TLT $88P May 15 disposition unknown (was +100% pending), FXY $58C reconciliation (not in CSV), APD new long thesis tag, VIOLET 4/15 VIX/SKEW trade overdue. |
+| **6/18 trigger set v0.1 + 3 calibration SIGs** | ✅ Routed 5/22 by CC | `FORGE/trigger-sets/JUN18_CLUSTER_2026-06-18.md` v0.1 drafted. Will-decision: vol-floor/ATH concern + `feedback_put_vs_duration_expression` → pivot from active-roll-decisions to pre-registered triggers + hard backstop 6/16 16:00 ET. AAL + CF dropped (no domain owner; mechanical let-expire). SIGs filed to BROCK (HY OAS R2/R4 + HYG roll target + sub-90¢/bank-PC language), REGINALD (KRE bear-line + WAL break-zone + WAL/KRE/EGBN roll targets), HENRY (VIX R1 + **TLT decision packet, strawman = trim 2/roll 1 to Sep $82P**). Response default-passes 2026-05-24 EOD; PROME consolidates → v0.2 → Will approval gate. TLT decision separate from trigger-set adoption. |
 | **WALTER bull-counter calibration** | ✅ Responded 5/21 ~14:45 | WALTER filed `SIG-WALTER-PROME-20260521-bull-counter-tier-rec.md`: both Tier-2; forced steelman ("regime may LAST not BREAK"). Folded into HEARTBEAT regime line. |
 | **HEARTBEAT.md refresh** | ✅ Done 5/21 by CC | Path B refresh shipped 15:55 (`8f3fa922`); surgical fix 16:25 (`a0aa4232`). 98→38 lines. Refresh-cadence design question remains open (now self-referentially listed as Blocking on Will inside HEARTBEAT). |
 | **MEMORY.md sweep** | ✅ Done 5/21 by CC | 2 new entries + 3 footnotes (`d60616cc`). Will-authorized cross-surface boundary. |
@@ -125,24 +126,33 @@
 
 ## Next Best Action
 
-**Closeout posture (5/21 ~19:30 ET, third CC session of day).** Third session ran FORGE rehab Steps 1-4 (commit `ec7e8ad9`). Two-commit sequence in progress: FORGE files landed; PROME state propagation pending.
+**Current posture (5/22):** 6/18 expiry-cluster work pivoted from active-decision sweep to pre-registered execution rails. Will-driven framing — vol-floor + ATH made roll-equity-puts-now a known bleed pattern (`feedback_put_vs_duration_expression`). Trigger set v0.1 drafted + 3 calibration SIGs out to BROCK / REGINALD / HENRY. v0.2 consolidates and lands as single Will-approval packet by 2026-05-24 EOD.
 
-**Next-session top priorities (Will-decisions surfaced by rehab):**
-1. 🔴 **6/18 theta-killer cluster dispositions** — 6 undecided rolls/let-expire (HYG×8, EGBN, AAL×2, WAL $65P, WAL $67.5P×2, KRE $60P×1). BROCK LESSONS #16 execution-rails territory. 28 days to expiry.
-2. 🟠 **FXY $58C reconciliation** — Per SAM v1.4 but not in 5/21 2:03 PM CSV. Confirm separate account / post-CSV fill / didn't fill.
-3. 🟠 **TLT $88P May 15 disposition unknown** — Was +100% pending Will at Mar 25; absent from 5/21 CSV. Tax/perf relevance if anyone tracked.
-4. 🟠 **VIOLET 4/15 VIX/SKEW trade** — Never adjudicated; 60d window from 4/13 closes ~6/12.
+**Active threads:**
+1. 🟡 **Trigger set v0.2 consolidation** — pending domain responses (BROCK / REGINALD / HENRY). Default-pass 2026-05-24 EOD; draft levels stand if no response. PROME owns consolidation.
+2. 🟡 **TLT $85P × 3 decision packet** (routed to HENRY) — separate from trigger-set adoption. Strawman: trim 2 contracts, roll 1 to Sep $82P. Awaiting HENRY validation → Will approval → execution.
+3. 🔴 **AAL + CF mechanical let-expire** — dropped from trigger set (no domain owner). Will-acknowledged; no further action needed unless thesis owner emerges before 6/18.
 
-**Live Will-decision carries (unchanged):**
+**Live Will-decision carries (unchanged from 5/21):**
 - SAM Sep-18 $60C × 5-10 contracts — pending post-CPI cheaper entry
 - TODAY.md Path B refresh (drafted but not shipped; inputs ready)
 - CALENDAR.md refresh (3/27 stale; after TODAY.md)
 - HEARTBEAT refresh-cadence design question (self-referenced in HEARTBEAT)
-- PROME execution-rails design note (BROCK LESSONS #16; relevant to 6/18 expiry cluster)
+- FXY $58C reconciliation (per SAM v1.4 but not in 5/21 CSV)
+- TLT $88P May 15 disposition unknown (RED tax/perf check if anyone tracked)
+- VIOLET 4/15 VIX/SKEW trade adjudication (60d window closes ~6/12)
 - APD new long thesis tag (unassigned in STATUS)
 - OZK STATUS hygiene (low priority)
+
+**Pre-6/16 FOMC (24 days):**
+- Trigger set v0.2 must be Will-approved + monitored daily
+- TLT decision must execute (time trigger 6/13 EOD at latest)
+- HEARTBEAT refresh recommended before FOMC to anchor regime view
+
+**Pre-6/18 expiry (27 days):**
+- Hard backstop 6/16 16:00 ET — anything not triggered → mechanical let-expire sweep
+- Cluster work closes one way or the other
 
 **Pre-June 9-11 (next nominal 10Y reopening):**
 - BOND re-validates matrix v2 deployment on the June test
 - WALTER bull-counter response should be integrated by then
-- HEARTBEAT refresh should land before then to anchor convergence weight
