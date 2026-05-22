@@ -895,3 +895,21 @@ Open with Will at next-session start:
 - Sequenced multi-file updates (trigger set → 3 SIGs in parallel → STATUS surgical → closeout files sequenced).
 - Show-diff-then-approve honored on commit.
 - Honest mid-conversation correction on Step-5 misframing.
+
+---
+
+## OpenClaw Session — 2026-05-22 HAWK armed-pause consolidation
+
+**What landed:** HAWK was booted from stale state, audited in bounded phases, and consolidated into `AGENTS/HAWK/audits/HAWK_SYNTHESIS_2026-05-22.md`. Local frame: **armed pause / controlled grind**; C 57% / D 35% / B 8%.
+
+**Files edited:** `AGENTS/HAWK/STATUS.md`, `AGENTS/HAWK/CALENDAR.md`, `AGENTS/HAWK/LAST_COMPLETION.md`, `AGENTS/HAWK/audits/*`, `AGENTS/HAWK/workbook/KB.tsv`, `AGENTS/HAWK/board_log.tsv`, HAWK processed inbox moves, and routing notes to BRENT / LIQUID / RED / NEXUS / ZHAO. Prome closeout updated `PROME/SCRATCH.md`, `PROME/STATUS.md`, this file, and `memory/2026-05-22.md`.
+
+**Decisions Will made:** proceed with HAWK boot; switch to stale-data audit; break work into phases; run Phase 1, Phase 2, Phase 3, inserted Phase 3.5 after Will flagged US aircraft staging in Israel, then Phase 4; stop research and consolidate; prepare for GitHub push but pull/rebase first.
+
+**Decisions needed from Will:** explicit `git push` approval. Current local branch is ahead after clean pull/rebase; no push was performed.
+
+**Risks / blockers:** HAWK Phase 5 maintenance remains deferred (2 duplicate KB IDs + 58 stale active/watch/confirmed rows). May 23 close requires re-check of Gulf/framework text; if none, HAWK STATUS/CALENDAR should mark hold expired without framework.
+
+**Next suggested work:** Push if approved; then scan BROCK / REGINALD / HENRY replies for 6/18 trigger-set v0.2 by 2026-05-24 EOD.
+
+**Rules held:** no trade execution, no external messages, no persistent-agent spawns except HAWK (spawnable), explicit path staging only, no GitHub push without explicit approval.
