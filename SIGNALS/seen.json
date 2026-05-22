@@ -438,5 +438,15 @@
     "first_seen": "2026-05-21T12:37:48.755032+00:00",
     "title": "6-K - Allied Gold Corp (0001993344) (Filer)",
     "feed": "SEC EDGAR Filings"
+  },
+  "cb8ab52d6a5d9669": {
+    "first_seen": "2026-05-22T12:11:06.816987+00:00",
+    "title": "DEF 14A - Green Brick Partners, Inc. (0001373670) (Filer)",
+    "feed": "SEC EDGAR Filings"
+  },
+  "eb8572e02097e317": {
+    "first_seen": "2026-05-22T12:11:06.816995+00:00",
+    "title": "6-K - BioNTech SE (0001776985) (Filer)",
+    "feed": "SEC EDGAR Filings"
   }
 }
