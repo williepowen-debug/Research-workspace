@@ -1,10 +1,16 @@
 # TLT Jun 18 $85P Decision Action Card
 **Created:** 2026-05-22 ~15:00 ET
-**Status:** ✅ **APPROVED — orders NOT yet placed at broker.** Computer crashed shortly after Will approval; no broker action occurred. Memorial Day Monday 5/25 closed. **Earliest execution window: Tuesday 5/27 open.** Plan: 2/1 split + Sep 19 $85P roll per HENRY.
-**Event / Decision Window:** Execute by 2026-06-06 EOD (HENRY-set time backstop) unless conditional trigger fires earlier
-**Domain source:** `AGENTS/HENRY/outbox/REPLY-PROME-2026-05-22-tlt-decision.md`
-**Sister SIG (open):** `AGENTS/HENRY/inbox/SIG-PROME-HENRY-2026-05-22_tlt-decision-and-vix-trigger-calibration.md`
-**Position source:** `FORGE/STATUS.md` (5/21 19:30 ET) + live 5/22 marks below
+**State:** `BROKER_PENDING`
+**Owner:** Will for broker execution; Prome for post-fill file updates.
+**Next:** Will places 2 orders at broker Tue 5/27 open if C3/C5 have not invalidated.
+**Window:** Execute by 2026-06-06 EOD unless conditional trigger fires earlier.
+**Backstop:** 2026-06-06 EOD.
+**Default:** Execute approved 2/1 roll; do not let Jun theta decay continue by default.
+**Source:** `AGENTS/HENRY/outbox/REPLY-PROME-2026-05-22-tlt-decision.md`
+**Sister SIG:** `AGENTS/HENRY/inbox/SIG-PROME-HENRY-2026-05-22_tlt-decision-and-vix-trigger-calibration.md`
+**Position:** `FORGE/STATUS.md` (5/21 19:30 ET) + live 5/22 marks below
+
+**State note:** Will approved the plan, but orders were NOT placed before the computer crash. Memorial Day Monday 5/25 closed; earliest execution window is Tuesday 5/27 open.
 
 ---
 
