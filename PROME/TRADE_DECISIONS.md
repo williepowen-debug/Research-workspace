@@ -1,9 +1,11 @@
 # TRADE_DECISIONS.md
-**Created:** 2026-05-08 21:10 ET  
-**Owner:** Prome  
+**Created:** 2026-05-08 21:10 ET
+**Owner:** Prome
 **Purpose:** Permanent record of Will’s trade/portfolio decisions, rationale, and outcomes.
 
 This file is not a position snapshot and not a research file. It records decisions after they happen so Prome can learn from judgment patterns.
+
+**Important:** a logged approval is not the same as completed execution. Use the decision state field to distinguish `WILL_APPROVED`, `BROKER_PENDING`, `ORDER_PLACED`, `FILLED`, `POSITION_UPDATED`, `LOGGED`, and `COMPLETED`.
 
 ---
 
@@ -11,6 +13,7 @@ This file is not a position snapshot and not a research file. It records decisio
 
 Log when:
 - Will approves, rejects, modifies, or defers a trade/portfolio action.
+- A decision changes operational state: approval → broker pending → placed → filled → position updated → completed.
 - A non-action is itself meaningful, e.g. “no fresh premium after FSK Mixed.”
 - A prior rule is overridden.
 - A decision should be reviewed later.
@@ -20,8 +23,9 @@ Do not log:
 - Routine market observations.
 - Research findings unless tied to a decision.
 
-For current positions, use `PROME/POSITIONS.md`.  
+For current positions, use `PROME/POSITIONS.md`.
 For event branch frameworks, use event pre-builds and action cards.
+For trigger/default logic, use `PROME/EXECUTION_RAILS.md` and the action-card Execution Rail section.
 
 ---
 
@@ -30,33 +34,39 @@ For event branch frameworks, use event pre-builds and action cards.
 ```md
 ## YYYY-MM-DD HH:MM ET — <Decision Title>
 
-**Context:**  
+**Context:**
 What triggered the decision.
 
-**References:**  
+**References:**
 - Pre-build/action card/position snapshot paths.
 
-**Options considered:**  
+**Options considered:**
 1. ...
 2. ...
 3. ...
 
-**Recommendation:**  
+**Recommendation:**
 Prome recommendation at the time.
 
-**Will decision:** Approved / Rejected / Deferred / Modified  
+**Decision state:** DRAFT / PROPOSED / WILL_APPROVED / BROKER_PENDING / ORDER_PLACED / FILLED / POSITION_UPDATED / LOGGED / COMPLETED / REJECTED / DEFERRED / EXPIRED / SUPERSEDED / CANCELLED
+Exact operational state.
+
+**Will decision:** Approved / Rejected / Deferred / Modified
 Exact decision.
 
-**Action taken:**  
+**Action taken:**
 What happened, if anything.
 
-**Follow-up date / trigger:**  
+**Next owner / verification needed:**
+Who owns the next step; what proof closes the loop.
+
+**Follow-up date / trigger:**
 When to reassess.
 
-**Outcome:** Pending / Good / Bad / Mixed  
+**Outcome:** Pending / Good / Bad / Mixed
 Fill later.
 
-**Lesson:**  
+**Lesson:**
 Fill later if there is a reusable lesson.
 ```
 
@@ -99,6 +109,8 @@ TLT $85P × 3 Jun 18 was +92% at 5/21 close ($83.56 spot). 5/22 intraday bounce 
 **Recommendation:**
 Prome recommended 2/1 + Sep 19 monthly $85P after HENRY validation. Walked Will through bond-bull evidence (5/20-21 clean auctions, breakeven decomp, HENRY softening R11 trigger #6), then strategic-vs-tactical horizon mismatch. Will agreed.
 
+**Decision state:** `BROKER_PENDING` — Will approved; orders not yet placed/reported filled.
+
 **Will decision:** ✅ **Approved 2026-05-22**
 Execute 2/1 with Sep 19 (not Sep 30 quarterly) $85P. Two orders:
 - Sell-to-close 3 × TLT Jun 18, 2026 $85P (limit at mid; expected ~$0.85-0.95)
@@ -107,6 +119,9 @@ Execute 2/1 with Sep 19 (not Sep 30 quarterly) $85P. Two orders:
 
 **Action taken:**
 Pending Will execution at broker. Today PM (5/22) or Tuesday open (5/27) both acceptable; slight bias to today PM.
+
+**Next owner / verification needed:**
+Will owns broker execution. Prome needs fill prices or explicit Will confirmation, then updates `FORGE/STATUS.md`, this log, and the action card.
 
 **Follow-up date / trigger:**
 - Will reports fills → Prome updates FORGE/STATUS.md + action card status to Completed
