@@ -2,6 +2,8 @@
 **Last session:** 2026-05-22 ~14:30 UTC (BOOT after 17-day gap)
 **Type:** Staleness recovery — live-data refresh (4 parallel WebSearches) → 5-item inbox disposition → STATUS surgical refresh → ROADMAP refresh
 
+> **2026-05-23 03:14 UTC — crash-recovery boot:** Committed + pushed the staleness-recovery session's unsaved work (commit 5e5f981b). Trashed `STATUS.md.tmp.*` crash artifact (1-line gas-pump drift; current STATUS retains May 22 data). No analytical work this boot. PRIORITY-1 below still stands.
+
 **PRIORITY-1:** **AAA pump tomorrow + 2-wk sustainability clock starts.** CRL-08 BREACHED May 22 at $4.552 (first-cross date in May 5-22 window TBD). Track daily AAA until ~Jun 5 sustainability checkpoint. If retraces sub-$4.50 → mark "first-cross-not-sustained" partial confirmation. Brent ~$108.76 May 21 softening = real downside pressure.
 
 ---
