@@ -1,5 +1,5 @@
 # SENTRY Inbound Feed
-**Generated:** 2026-05-22T22:46:49.496535+00:00
+**Generated:** 2026-05-23T11:03:06.917606+00:00
 **Items:** 3
 
 ## EIA Today in Energy
@@ -13,16 +13,16 @@
 
 ## SEC EDGAR Filings
 
-### SCHEDULE 13D/A - Casdin Capital, LLC (0001534261) (Filed by)
-- **Link:** https://www.sec.gov/Archives/edgar/data/1534261/000091957426003687/0000919574-26-003687-index.htm
-- **Date:** 2026-05-22T22:37:01+00:00
+### SCHEDULE 13D/A - BATTALION OIL CORP (0001282648) (Subject)
+- **Link:** https://www.sec.gov/Archives/edgar/data/1282648/000110465926065866/0001104659-26-065866-index.htm
+- **Date:** 2026-05-23T01:51:39+00:00
 - **Tags:** #filings #sec
-- **GUID:** 099c81b58b6d96e9
-- **Summary:** Filed: 2026-05-22 AccNo: 0000919574-26-003687 Size: 26 KB
+- **GUID:** ef7bd326b0b87756
+- **Summary:** Filed: 2026-05-22 AccNo: 0001104659-26-065866 Size: 24 KB
 
-### SCHEDULE 13D/A - BIOLIFE SOLUTIONS INC (0000834365) (Subject)
-- **Link:** https://www.sec.gov/Archives/edgar/data/834365/000091957426003687/0000919574-26-003687-index.htm
-- **Date:** 2026-05-22T22:37:01+00:00
+### SCHEDULE 13D/A - LUMINUS MANAGEMENT LLC (0001279151) (Filed by)
+- **Link:** https://www.sec.gov/Archives/edgar/data/1279151/000110465926065866/0001104659-26-065866-index.htm
+- **Date:** 2026-05-23T01:51:39+00:00
 - **Tags:** #filings #sec
-- **GUID:** 099c81b58b6d96e9
-- **Summary:** Filed: 2026-05-22 AccNo: 0000919574-26-003687 Size: 26 KB
+- **GUID:** ef7bd326b0b87756
+- **Summary:** Filed: 2026-05-22 AccNo: 0001104659-26-065866 Size: 24 KB
