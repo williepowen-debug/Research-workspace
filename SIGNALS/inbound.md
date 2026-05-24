@@ -1,15 +1,6 @@
 # SENTRY Inbound Feed
-**Generated:** 2026-05-24T11:05:00.041883+00:00
-**Items:** 3
-
-## EIA Today in Energy
-
-### The regional differences in gasoline prices this Memorial Day
-- **Link:** https://www.eia.gov/todayinenergy/detail.php?id=67706
-- **Date:** 2026-05-22T14:00:00+00:00
-- **Tags:** #energy #brent #eia
-- **GUID:** 2c93c22729ad4d92
-- **Summary:** Against the backdrop of a nationwide increase in gasoline prices, regional dynamics including local supply and demand conditions, state fuel specifications, and state taxes influence the different prices drivers see at the pump.
+**Generated:** 2026-05-24T22:44:23.475063+00:00
+**Items:** 2
 
 ## SEC EDGAR Filings
 
