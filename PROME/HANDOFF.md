@@ -155,3 +155,23 @@ Next session start:
 - WALTER owns signal/news routing; Prome owns tasking, rails, and synthesis.
 - Use explicit path staging only; no broad `git add .`.
 - Remote Claude Code agent work must not be overwritten.
+
+---
+
+## OpenClaw Session — 2026-05-22 HAWK armed-pause consolidation
+
+**Relocated 2026-05-24:** This entry was originally written into `PROME/CLAUDE_CODE_HANDOFF.md` in error. Moved here (OpenClaw's continuity surface) during the 5/24 CC-Prome handoff archive pass.
+
+**What landed:** HAWK was booted from stale state, audited in bounded phases, and consolidated into `AGENTS/HAWK/audits/HAWK_SYNTHESIS_2026-05-22.md`. Local frame: **armed pause / controlled grind**; C 57% / D 35% / B 8%.
+
+**Files edited:** `AGENTS/HAWK/STATUS.md`, `AGENTS/HAWK/CALENDAR.md`, `AGENTS/HAWK/LAST_COMPLETION.md`, `AGENTS/HAWK/audits/*`, `AGENTS/HAWK/workbook/KB.tsv`, `AGENTS/HAWK/board_log.tsv`, HAWK processed inbox moves, and routing notes to BRENT / LIQUID / RED / NEXUS / ZHAO. Prome closeout updated `PROME/SCRATCH.md`, `PROME/STATUS.md`, `PROME/CLAUDE_CODE_HANDOFF.md` (in error — see relocation note above), and `memory/2026-05-22.md`.
+
+**Decisions Will made:** proceed with HAWK boot; switch to stale-data audit; break work into phases; run Phase 1, Phase 2, Phase 3, inserted Phase 3.5 after Will flagged US aircraft staging in Israel, then Phase 4; stop research and consolidate; prepare for GitHub push but pull/rebase first.
+
+**Decisions needed from Will:** explicit `git push` approval. (Subsequently approved + pushed as commit `888a5e9d`.)
+
+**Risks / blockers:** HAWK Phase 5 maintenance remains deferred (2 duplicate KB IDs + 58 stale active/watch/confirmed rows). May 23 close requires re-check of Gulf/framework text; if none, HAWK STATUS/CALENDAR should mark hold expired without framework.
+
+**Next suggested work:** Push if approved; then scan BROCK / REGINALD / HENRY replies for 6/18 trigger-set v0.2 by 2026-05-24 EOD.
+
+**Rules held:** no trade execution, no external messages, no persistent-agent spawns except HAWK (spawnable), explicit path staging only, no GitHub push without explicit approval.
