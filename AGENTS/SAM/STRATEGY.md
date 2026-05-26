@@ -11,7 +11,7 @@
 |-------|-------------|--------|
 | 1. Smart money exits quietly | Early voluntary insurer selling, positions being built | ✅ Confirmed Q1-Apr |
 | 2. Pre-trigger setup | BOJ hawkish hold (Apr 28 — 3 dissents, biggest split since 2016); June hike at 74% swap | ✅ Confirmed Apr 28 |
-| **3. Triggers firing (partial)** | **MOF intervention #1 (Apr 30 ~¥5.48T) + #2 (May 6 ~¥4.3T) + Bessent affirmation May 11-12 + JGB 30Y BREACHED 4.0% via J-ICS lifer abandonment (May 15). USDJPY 159.19 in intervention #3 zone. June BOJ in 18 trading days. Big 3 mutual ESR May 25-29.** | **WE ARE HERE — 3 of 5 triggers fired; primary (June BOJ) imminent** |
+| **3. Triggers firing (partial)** | **MOF intervention #1 (Apr 30 ~¥5.48T) + #2 (May 6 ~¥4.3T) + Bessent affirmation May 11-12 + JGB 30Y BREACHED 4.0% via J-ICS lifer abandonment (May 15, retraced to 3.931% May 22 on oil collapse). Big 3 mutual ESR May 26 Tue resolved WITHOUT firing forced-rebalance signal (Nippon 195% M&A-driven; Meiji 208% manageable). June BOJ in ~15 trading days at 55-65%.** | **WE ARE HERE — 3 of 5 triggers fired; Channel 1 ESR-trigger demoted to deferred mechanism; June BOJ now primary remaining** |
 | 4. Unhedged losses spike | 70% unhedged insurer portfolios take FX hit, forced selling begins | Pending — gated on June BOJ + Big 3 ESR |
 | 5. Spiral | Selling strengthens yen, more forced selling, carry unwind cascades | Days to weeks post-trigger |
 | 6. Target zone | USD/JPY 148-152, FXY $60-62 | 2-4 weeks post-trigger |
@@ -31,8 +31,8 @@
 | **MOF intervenes at 160** | ✅ FIRED twice (Apr 30 + May 6, ~¥10T combined) | USED — Tranche 2 executed |
 | **JGB 30Y >4.0% (v1.4 NEW)** | ✅ FIRED May 15 (4.000% peak 4.205%, J-ICS lifer abandonment driver) | USED — folded into Tranche 2 reasoning |
 | **Bessent / US backing of intervention** | ✅ FIRED May 11-12 (promoted to Channel 3 pillar) | USED |
-| **BOJ hikes at June meeting** | PENDING (Jun 16; SAM-21 70% / market 74%) — primary | OPEN for share add OR options re-up |
-| ESR disclosures Big 3 mutuals <200% | PENDING (May 25-29) | OPEN for share add if fires; gates Position A urgency |
+| **BOJ hikes at June meeting** | PENDING (Jun 16; SAM-21 mark down 70% → ~57% post-CPI; market 55-65%) — **primary remaining trigger given Channel 1 deferral** | OPEN for share add OR options re-up |
+| ESR disclosures Big 3 mutuals <200% | **TUE PARTIAL-RESOLVED — DID NOT FIRE AS FORCED-REBALANCE TRIGGER** (Nippon 195% via M&A, Meiji 208% manageable; both foreign books in unrealized GAIN). Sumitomo Wed May 27 still pending — only fires as actionable trigger if <200% via market stress, NOT capital action. | NOT OPEN for share add on Tue resolution; Sumitomo conditional |
 | Fed forced cuts via private credit cascade | PENDING | OPEN; independent path |
 | USD/JPY sustains below 155 for 3+ sessions WITH oil normalizing | NEAR-MISS twice (Apr 30 155.55, May 6 155.05; only 1 session each) | NOT CONFIRMED |
 

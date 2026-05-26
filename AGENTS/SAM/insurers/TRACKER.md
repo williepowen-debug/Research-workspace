@@ -1,6 +1,6 @@
 # Japanese Life Insurer Tracker
 
-**Last Updated:** 2026-05-21 (v1.4 J-ICS finding; Dai-ichi FY2025 ESR ~220% printed; Big 3 mutual disclosures May 25-29)
+**Last Updated:** 2026-05-26 (Nippon 195% M&A-driven + Meiji Yasuda 208% manageable; Channel 1 thesis demoted; Sumitomo Wed May 27 pending)
 **Purpose:** Dashboard for tracking Big 10 insurer positioning, FY2025 ESR disclosures, and repatriation signals.
 
 ---
@@ -37,23 +37,31 @@ Reconciles why Feb TIC showed Japan UST holdings RISING (+$53.8B Dec→Feb) whil
 | Insurer | AUM (¥T) | FY2025 ESR | Disclosed? | Stress trigger (<200%) | Notes |
 |---------|----------|-----------|-----------|----------------------|-------|
 | **Dai-ichi Life Holdings** (listed) | ~72.4 | **~220%** (+~10pp YoY) | ✅ **May 13-15** | NO — above target band 170-200% | First to print. Domestic equity rally (~+¥1.5T) offset +¥530B mass-lapse risk. **Least-representative of Big 4** — most equity-heavy. |
-| **Nippon Life** (mutual) | ~96 | TBD | ⏳ **Week of May 25-29** (historical: May 23) | TBD | LARGEST UST HOLDER. ESR at FY2024 interim was 222%; -¥3.6T domestic bond losses since. Real test for FX/JGB pressure profile. |
-| **Meiji Yasuda** (mutual) | ~52.9 | TBD | ⏳ **Week of May 25-29** (~May 27) | TBD | Prior ESR-disclosure RESISTER. ¥1.386T JGB paper losses at FY2024. With 30Y now at 4%, losses materially worse. **Highest stress probability.** |
-| **Sumitomo Life** (mutual) | ~37.5 | TBD | ⏳ **Week of May 25-29** | TBD | $10.7B US private credit stack on top of JGB stress. Symetra outsourcing structural already. |
+| **Nippon Life** (mutual) | ~96 | **195%** (vs 222%, -27pt) | ✅ **May 26** | **LITERAL YES / MECHANISM NO** | **-28pt driver = Resolution Life $10.6B M&A subsidiarization, NOT market stress.** Economic env -4pt; new business +5pt. JGB unrealized loss -¥3.6T → **-¥5.73T** (worse by ¥2.13T). **Foreign securities unrealized GAIN +¥3.99T (+¥909B YoY)** — book profitable. Resolution Life basic profit +52% YoY. **No forced rebalance signal.** Source: kessan202605_gaiyo.pdf p.7. |
+| **Meiji Yasuda** (mutual) | ~52.9 | **208%** (vs 216%, -8pt) | ✅ **May 26** | NO — manageable band | Inside 200-219% band, below 220% target. Standard model 213% / internal 208%. JGB unrealized loss -¥1.39T → **-¥2.16T** (worse by ¥776B). **Foreign securities unrealized GAIN +¥709B (+¥227B YoY)**. Stancorp (US sub) record earnings via Allstate group acquisition — leaning INTO US, mirroring Nippon Resolution Life direction. |
+| **Sumitomo Life** (mutual) | ~37.5 | TBD | ⏳ **Wed May 27** | TBD | $10.7B US private credit stack on top of JGB stress. Symetra outsourcing structural already. **Pattern-confirmation test**: if matches Nippon/Meiji (ESR draw via capital action, foreign book intact) → Channel 1 v1.5 downgrade confirmed. |
 | **Fukoku Mutual** | ~8 | TBD | ⏳ | TBD | First-mover super-long JGB exit Jan 2026. Already pivoted to 10-15Y. |
 | **Japan Post Insurance** | ~55 | TBD | ⏳ | TBD | Zero PC exposure (cleaner read). Selling low-yield JGBs. |
 | **T&D Holdings** (listed) | ~18 | TBD | ⏳ | TBD | Includes Fortitude; ¥550B PC. |
 | **Norinchukin** (cooperative) | — | TBD | ⏳ Jun | TBD | World's largest CLO investor; ¥9.7T CLO book. Q1 2026 ¥500B decline. |
 
-### Reading the Big 3 mutual prints (May 25-29)
+### Reading the Big 3 mutual prints — Tue update (post-Nippon/Meiji)
 
-**SAM-25 (40% prob):** at least 1 of Big 3 prints <200% = stress-case Channel 1 trigger.
+**SAM-25 (40% prob):** at least 1 of Big 3 prints <200% — **TUE RESOLUTION: TRUE-IN-LETTER / FALSE-IN-SPIRIT.** Nippon 195% literally below 200% but the breach is M&A capital deployment (Resolution Life), not market-stress forced rebalancing. The intent of the prediction (forced repatriation visible) did NOT fire.
 
-**Bull (stress case fires):** Any <200% → forced rebalancing visible → outbox signal to LIQUID 🔴 + Position A urgency rises.
+**Tape priced it accordingly:** USDJPY 158.95 → 159.24 post-print (yen WEAKER, broad-based). FXY flat. If headline 195% had been read as stress, yen would have spiked stronger.
 
-**Bear (resilience holds):** All >220% (Dai-ichi-like) → no Channel 1 acceleration. Thesis still works at base pace via J-ICS lifer absence (now self-perpetuating), but the stress-case fork stays unrealized.
+**Channel 1 thesis status (updated post-Tue):**
+- ESR pressure is REAL but transmission to UST selling is NOT firing
+- Both insurers' foreign books in unrealized GAIN; direction of travel INTO US
+- ESR cap absorbed by capital actions (sub-debt, M&A profits, retained earnings), not asset sales
+- The "ESR forces UST sale" mechanism that anchored v1.0-v1.4 needs revision
+- J-ICS domestic-curve mechanism intact; cross-border leg deferred
 
-**Most-likely mixed:** One in 200-220% band (probably Meiji Yasuda given prior resistance), others >220%. Partial trigger. Watch language on portfolio rebalancing plans more than the headline ESR number.
+**Wed Sumitomo (pattern-confirmation test):**
+- **If matches Tue pattern** (ESR draw via capital action, foreign book intact, US growth) → Channel 1 v1.5 downgrade confirmed. Write LIQUID 🟡 signal (counter-thesis).
+- **If <200% via genuine market stress** (forced JGB selling, FX-driven foreign mark-down, withdrawal commentary) → Channel 1 reactivates. Write LIQUID 🔴.
+- **Symetra/US PC angle wild card:** Even if headline ESR looks manageable, $10.7B US private credit stack could surface stress that Nippon/Meiji didn't have to disclose.
 
 ---
 
@@ -124,7 +132,9 @@ Reconciles why Feb TIC showed Japan UST holdings RISING (+$53.8B Dec→Feb) whil
 |------|-------|-----------|
 | ~~Apr 14-25~~ | ~~FY2026 plans~~ | ✅ RESOLVED — zero clean cuts; rotation within |
 | ✅ May 13-15 | Dai-ichi FY2025 ESR | ~220% (above 200% trigger; least-representative of Big 4) |
-| **🔴🔴 May 25-29** | **Big 3 mutual ESR (Nippon / Meiji Yasuda / Sumitomo)** | <200% any = stress-case trigger; >220% all = no acceleration. Watch portfolio rebalancing LANGUAGE more than headline number. |
+| ✅ May 26 | **Nippon Life FY2025 ESR** | **195% (M&A-driven; foreign book +¥3.99T gain). TRUE-in-letter / FALSE-in-spirit. Channel 1 thesis weakened.** |
+| ✅ May 26 | **Meiji Yasuda FY2025 ESR** | **208% manageable; foreign book +¥709B gain; Stancorp/Allstate US growth.** |
+| **🔴 Wed May 27** | **Sumitomo Life FY2025 ESR** | Pattern-confirmation test. Symetra/US PC stack is the wild card. |
 | **🟠 May 22** | Japan April CPI | Tokyo leading 1.5%; soft = fades BOJ June pricing 74% → 60-65% |
 | **🔴🔴 Jun 16** | BOJ MPM — BASE CASE HIKE | If hike fires, insurer asset-side relief on JGB book (yields stabilize); liability-side new constraint (longer-duration liabilities reprice). Net for ESR depends on duration matching. |
 | **Jun** | Norinchukin FY2025 results | CLO strategy signals; ¥9.7T book direction |
