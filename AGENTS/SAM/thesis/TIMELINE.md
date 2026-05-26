@@ -7,6 +7,57 @@ This document maps our forward-looking expectations — what's coming, what we t
 
 ---
 
+## RESOLVED — May 26 (BIG 3 ESR DAY 1 — CHANNEL 1 THRESHOLD-VS-MECHANISM DIVERGENCE)
+
+### Tue May 26 — NIPPON LIFE FY2025 ESR ✅ RESOLVED — THRESHOLD TRUE, MECHANISM FALSE
+
+- **Event:** Nippon Life (largest Japanese life insurer) printed FY2025 results 15:00 JST.
+- **Outcome:** **Internal Model ESR 195% (vs 222% FY2024, -27pt)** — BREACHED 200% nominal stress threshold (first major mutual to cross).
+- **Decomposition (from gaiyo PDF page 7 waterfall):**
+  - New business + sub-debt: **+5pt**
+  - Economic environment: **-4pt**
+  - **Capital allocation / business investment: -28pt** ← explicitly labeled "Resolution Life full-subsidiarization and related effects" ($10.6B M&A closed Oct 2025)
+- **Asset position (page 18):**
+  - JGB (公社債) unrealized loss expanded -¥3.60T → **-¥5.73T** (worse by ¥2.13T) — domestic, expected from 30Y at 4%
+  - **Foreign securities (外国証券) unrealized GAIN +¥3.99T (+¥909B YoY)** — book profitable and GROWING in unrealized gain
+  - Domestic equities unrealized gain ¥10.77T (+¥2.83T YoY) — equity rally lifted eligible capital
+  - Hedge cost relief noted ("利差損の改善"): supports rotation-within thesis, not net-cut
+- **US-side growth (page 23):** Resolution Life FY25 basic profit **+52% YoY** ($343M → $522M); premium revenue $6.5B (+18.6%). Direction of travel is INTO US.
+- **Market reaction:** USDJPY 158.95 → **159.24 (+0.29, yen WEAKER)**. FXY flat at $57.70. EURJPY 185.02 → 185.21 (broad-based mild yen weakness). Market unambiguously priced as M&A capital action, NOT Channel 1 forced-repatriation trigger. If headline 195% had been read as stress, yen would have spiked stronger.
+- **Verification:** Direct PDF read confirmed M&A attribution (page 7 ESR waterfall + page 23 Resolution Life). Prior research-pass attribution of "Stancorp" was wrong — Stancorp is Meiji Yasuda's. Nippon = Resolution Life.
+- **Net:** **THRESHOLD-VS-MECHANISM TRAP** — exactly the finding logged in MEMORY this morning playing out in real-time. SAM-25 prints TRUE in letter (Nippon <200%), FALSE in spirit (no forced rebalance, no foreign book pressure, no yen bid). Channel 1 thesis materially weakened.
+
+### Tue May 26 — MEIJI YASUDA FY2025 ESR ✅ RESOLVED — MANAGEABLE BASE CASE
+
+- **Event:** Meiji Yasuda (prior ESR-disclosure resister) printed FY2025 results 15:00 JST.
+- **Outcome:** **Group ESR 208% (vs 216% FY2024, -8pt)** — inside 200-219% manageable band, below 220% internal target.
+  - Standard model 213% / internal model 208% (lower used as group ESR)
+  - Group surplus ¥12.9T (+¥1.63T YoY)
+- **Asset position:**
+  - JGB unrealized loss -¥1.39T → **-¥2.16T** (worse by ¥776B)
+  - **Foreign securities unrealized GAIN +¥709B (+¥227B YoY)** — book profitable, growing
+- **US-side:** Stancorp (US sub) record earnings via Allstate group-business acquisition — leaning INTO US, mirroring Nippon's Resolution Life direction.
+- **Net:** **BASE CASE RESILIENT.** ESR drift consistent with general JGB markdown across the industry; no stress signal, no forced rebalance language. Confirms the "ESR pressure absorbed by capital actions and equity rally, not foreign asset sales" pattern.
+
+### Tue May 26 — CHANNEL 1 THESIS DOWNGRADE (v1.5 CANDIDATE)
+
+- **Synthesis:** Both disclosing insurers show ESR pressure REAL (down 27pt and 8pt respectively) but transmission to UST selling NOT FIRING. Foreign books in unrealized gain at both. M&A direction is INTO US. Hedge-cost relief noted. The v1.0-v1.4 mechanism ("ESR cap → forced foreign bond reduction") is not evidenced in these prints.
+- **What's still intact:**
+  - J-ICS lifer long-end abandonment (JGB 30Y / 40Y curve mechanism) — domestic, independent of ESR transmission
+  - Channel 2 (carry / BOJ) — unchanged
+  - Channel 3 (BOJ + US coordination) — unchanged
+- **What's deferred:**
+  - "ESR forces UST sale" timing assumption
+  - Big 3 mutual ESR window as primary near-term Channel 1 catalyst
+- **Scenario weight implications:** 70/25/5 (base / stress / crisis) may shift toward 75/20/5 on transmission failure — but holding pending Sumitomo Wed May 27 print.
+- **Carry unwind probability rebalance (May 26 post-ESR):**
+  - 7d 22% → 17% (Channel 1 binary catalyst dropped quietly; Sumitomo only 7d catalyst left)
+  - 30d 70% → 65% (Channel 1 leg of 30d weight removed pending v1.5)
+  - 60d 88% → 83% (structural Channel 1 weakened ~5pp; June BOJ + CFTC reload still anchor)
+- **Position:** No change. Sep $60 calls deferred until post-Sumitomo. FXY flat = no urgency.
+
+---
+
 ## RESOLVED — May 22-25 (DOVISH CPI + BRENT COLLAPSE + CFTC RELOAD CLUSTER — v1.4 catalyst-weight rebalance)
 
 ### Fri May 22 — JAPAN APRIL NATIONAL CPI ✅ RESOLVED — DOVISH MISS
@@ -491,8 +542,8 @@ These are the moments where our expected path could fork:
 | **May 22-25** | Brent / Iran-Hormuz | Deal → oil down → Phase 2 | Talks collapse | ✅ **RESOLVED: PHASE 2 INCEPTION** — Brent -12% to $94.53 on MOU rumor (Pakistan mediating, no signed text) |
 | **May 22** | CFTC JPY release | Cover → fuel burning off | Build → fuel re-loading | ✅ **RESOLVED: MAJOR FUEL RELOAD** — -93,905 (+18,803 WoW, 3rd straight build); new shorts +25K, longs flat; 92% of cycle peak |
 | **May 22** | JGB 30Y 4% durability | Holds breach | Retraces below 4% | ✅ **RESOLVED: RETRACED** — 3.931% on oil + dovish CPI; SAM-26 tracking FALSE |
-| **🔴 Tue May 26** | **Nippon Life + Meiji Yasuda FY2025 ESR** | <200% → stress-case | >220% → manageable | PENDING (historical pattern ~15:00 JST; no scheduled date published) |
-| **🔴 Wed May 27** | **Sumitomo Life FY2025 ESR** | <200% → stress-case | >220% → manageable | PENDING (historical pattern) |
+| **Tue May 26** | **Nippon Life + Meiji Yasuda FY2025 ESR** | <200% → stress-case | >220% → manageable | ✅ **RESOLVED: THRESHOLD-VS-MECHANISM DIVERGE** — Nippon 195% (M&A-driven, foreign book +¥3.99T gain); Meiji 208% (manageable, +¥709B gain). Channel 1 weakened; v1.5 candidate. |
+| **🔴 Wed May 27** | **Sumitomo Life FY2025 ESR** | <200% via market stress → Channel 1 reactivates | Matches Nippon pattern → v1.5 downgrade confirmed | PENDING (historical pattern) |
 | **Thu-Fri May 28-29** | Tokyo May CPI | Core-core rebounds → June BOJ holds 55-65% | Core-core slips → June breaks lower | PENDING |
 | **Ongoing** | Iran/Hormuz MOU status | Signed text → Phase 2 accelerates | Collapses → intervention #3 zone reactivates | PENDING (rumor-tier) |
 | **Ongoing** | Intervention #3 watch | USDJPY 159+ → MOF acts | USDJPY holds <159 organically | PENDING (USDJPY 158.95; SAM-23 fading 75% → ~55%) |
