@@ -1,7 +1,7 @@
 # 6/18 Cluster Trigger Set v0.2 — Will-Approval Packet
 **Created:** 2026-05-25 ET
-**State:** `PROPOSED`
-**Owner:** Will (decision) → Prome (file updates on decision)
+**State:** `WILL_APPROVED` (2026-05-26 ~17:00 ET — see § Decision Log)
+**Owner:** Prome (daily monitor) → Will (approval at any trigger fire)
 **Source artifact:** `FORGE/trigger-sets/JUN18_CLUSTER_2026-06-18.md` (v0.2 PROPOSED)
 **Operational tracker:** `PROME/action-cards/JUN18_EXPIRY_CLUSTER_2026.md`
 **Spec:** `PROME/EXECUTION_RAILS.md`
@@ -124,3 +124,29 @@ This packet expires on:
 - Will approves → packet logged in TRADE_DECISIONS, archive to `PROME/archive/` after 30 days. OR
 - Will rejects / amends → packet superseded by v0.3 packet. OR
 - 2026-06-16 16:00 ET hard backstop fires → packet auto-expires; backstop default applied.
+
+---
+
+## Decision Log
+
+**2026-05-26 ~17:00 ET — Will approved v0.2 as drafted.**
+
+Approval followed a Prome pre-approval review pass earlier the same session which surfaced two scope-limits (added to § "Outside this rail"):
+- WAL Q2-print gap: if WAL holds >$73 through 6/18, A4/A5 expire mechanically and lose exposure for the late-July REGINALD V2.2 Q2 print catalyst. Fresh-open routed to its own action card.
+- AAL Jul 17 standalone: orphan, no rail until post-6/16 sweep.
+
+Tape table refreshed 5/22 → 5/26 16:10 ET (VIX 16.92 / HY OAS 274 / KRE $70.24 / WAL $79.56 vs $73 trigger). All cushions equal or larger vs v0.2 ship.
+
+**Default-picks adopted as drafted:**
+- A1 HYG → no pre-spec; BROCK validates at trigger fire ✅
+- A5 WAL $67.5P × 2 → Sep $67.5P × 2 ✅
+- A6 KRE $60P × 1 → Aug 21 $60P × 1 (fold into existing Aug 21 stack of 3 @ $2.70 wt avg) ✅
+
+**State transitions completed:**
+- `PROME/action-cards/JUN18_EXPIRY_CLUSTER_2026.md` → `WILL_APPROVED`
+- `FORGE/trigger-sets/JUN18_CLUSTER_2026-06-18.md` → v0.2 `WILL_APPROVED`
+- `PROME/ACTIVE_DECISIONS.md` 6/18 cluster row → `WILL_APPROVED`
+- `PROME/TRADE_DECISIONS.md` → new entry logged
+- Two Next Candidate rows added (WAL Q2-print fresh-open + AAL Jul 17 orphan)
+
+**Operational next:** daily dashboard scan of R1-R4 + position-specific levels. No trade pending. Any trigger fire spawns domain agent → fresh Will approval for actual roll.
