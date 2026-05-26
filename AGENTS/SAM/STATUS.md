@@ -8,39 +8,16 @@
 
 **Channel 1 took a quiet hit today. Threshold fired; mechanism didn't.**
 
-**Nippon Life FY2025 ESR: 195% (vs 222% prior, -27pt)** — below 200% nominal stress threshold. **BUT decomposition is M&A-driven, not market stress:**
-- Capital allocation / business investment **-28pt** (explicitly attributed to Resolution Life $10.6B full-subsidiarization, closed Oct 2025)
-- Economic environment only -4pt
-- New business + sub-debt **+5pt** (positive)
-- **Foreign securities unrealized GAIN +¥3.99T** (+¥909B YoY) — book profitable, no pressure
-- JGB unrealized loss -¥5.73T (worse by ¥2.13T YoY) — domestic, expected from 30Y at 4%
-- Resolution Life basic profit +52% YoY ($343M → $522M); premium +18.6%
-- Source: kessan202605_gaiyo.pdf p.7 ESR waterfall, p.18 unrealized P&L, p.23 Resolution Life
+- **Nippon Life ESR 195%** (vs 222%, -27pt) — breached 200% threshold but driver is M&A capital action (Resolution Life $10.6B subsidiarization, -28pt). Foreign book unrealized GAIN +¥3.99T (+¥909B YoY). NOT market stress.
+- **Meiji Yasuda ESR 208%** (vs 216%, -8pt) — inside 200-219% manageable band. Foreign book +¥709B GAIN. Both insurers leaning INTO US (Resolution Life; Stancorp/Allstate).
+- **Tape priced as capital action, not stress** — USDJPY 158.95 → 159.24 (yen WEAKER). FXY flat $57.70.
+- **Channel 1 thesis materially weakened.** "ESR forces UST sale" mechanism not evidenced. Demoted to deferred-mechanism / structural backstop.
+- **Channel 2 (June BOJ 55-65%) now dominant remaining trigger.** Channel 3 dormant on Brent -12%. CFTC -93,905 reload is now Channel-2 fuel, not Channel-1.
+- **SAM-25 threshold-vs-mechanism trap fired in real-time** — TRUE in letter, FALSE in spirit. See `thesis/PREDICTIONS.tsv` calibration preamble.
+- **Forward triggers:** 🔴 Wed May 27 Sumitomo ESR (pattern confirmation) → 🔴🔴 Tue Jun 16 BOJ MPM (base case hike) → 🟠 Fri May 29 CFTC weekly.
+- **Position unchanged:** 13 shares + 1 Jun-18 $58C. Sep $60 calls deferred until post-Sumitomo. Stop $55.05.
 
-**Meiji Yasuda FY2025 ESR: 208% (vs 216%, -8pt)** — inside 200-219% manageable band, below 220% target:
-- JGB unrealized loss -¥2.16T (worse by ¥776B)
-- Foreign securities unrealized GAIN +¥709B (+¥227B YoY)
-- Stancorp (US sub) record earnings via Allstate group acquisition — leaning INTO US
-
-**Market reaction priced the M&A read, not Channel 1 stress:** USDJPY 158.95 → **159.24 (yen WEAKER +0.18%)**. FXY flat at $57.70. If headline 195% had been read as forced-repatriation, yen would have spiked stronger. Tape unambiguously priced capital action, not stress.
-
-**Channel 1 thesis update — materially weakened:**
-- ESR pressure is REAL (both insurers down YoY) but transmission to UST selling is NOT firing
-- Both insurers' foreign books in unrealized GAIN; direction of travel is INTO US (Nippon Resolution Life; MY Stancorp/Allstate)
-- ESR cap is being absorbed by capital actions (sub-debt, M&A profits, retained earnings), NOT asset sales
-- Hedge-cost relief noted in Nippon narrative ("利差損の改善") — supports rotation-within thesis, not net-cut
-- J-ICS mechanism intact (insurers stepped from super-long) but the cross-border leg doesn't follow as cleanly as v1.4 modeled
-
-**SAM-25 (any Big 3 <200% @40%) — TECHNICALLY TRUE on Nippon 195% but FAILED IN SPIRIT.** Exact threshold-vs-mechanism trap logged in MEMORY this morning, playing out in real-time. Need calibration note, not clean confirmation.
-
-**Channel 2 (carry / BOJ) becomes the dominant remaining catalyst.** CFTC reload to -93,905 + June BOJ at 55-65% is now the primary thesis-firing path. Channel 1 isn't dead, just deferred — but the "ESR forces UST sale" mechanism that anchored v1.0-v1.4 needs revision.
-
-**Forward triggers:**
-- 🔴 **Wed May 27**: Sumitomo Life FY2025 ESR — if confirms the pattern (stress = capital action, foreign book intact), Channel 1 v1.5 downgrade warranted
-- 🔴🔴 **Jun 16**: BOJ MPM — base case hike (55-65%) becomes dominant
-- 🟠 ongoing: CFTC weekly (next Fri May 29) — break of -102K cycle peak = new fuel high
-
-**Position: NO change.** FXY flat = no urgency. Sep $60 calls (Position A authorized) deferred until post-Sumitomo. Stop $55.05 unchanged.
+*Full event narrative: `thesis/timeline/TIMELINE.md` May 26 section.*
 
 ---
 
@@ -130,9 +107,7 @@ Per **STRATEGY.md**:
 | ESR <200% (FY2025 Big 3 mutuals) | **PENDING Tue-Wed THIS WEEK** | Primary Channel 1 test |
 | Fed cuts via private credit cascade | PENDING | Independent path |
 
-**No position change May 22-25.** Flat day. The dovish CPI didn't crater FXY because oil collapse + Phase 2 setup + Big 3 ESR catalyst window offsets. Stop $55.05 unchanged. Target $60-62.
-
-**Decision-eve:** If Big 3 ESR Tue prints stress (<200% any), Sep $60 calls (Position A authorized but not executed) becomes time-sensitive. Revisit Tue post-print.
+**Status:** No change since May 21. Stop $55.05, target $60-62. Sep $60 calls (Position A authorized) deferred until post-Sumitomo Wed May 27.
 
 ---
 
@@ -168,36 +143,11 @@ Per **STRATEGY.md**:
 
 ## REFERENCE DATA
 
-**Channel 1 (v1.4 → v1.5 candidate):** Base case flow pace $7-10B/mo. MOF ITS May 10-16 NET BUYING. **POST-ESR May 26: thesis materially weakened.** Nippon 195% / Meiji 208% prints showed ESR pressure absorbed via capital actions (M&A, sub-debt), not foreign asset sales. Both foreign books in unrealized GAIN (Nippon +¥3.99T, MY +¥709B). J-ICS lifer long-end abandonment (JGB 30Y driver) intact at domestic-curve mechanism level, but the cross-border leg (ESR → UST sale) doesn't follow. Sumitomo Wed will confirm or rebut. Dai-ichi (May 13-15) printed ~220% (least-representative). v1.5 downgrade language pending Sumitomo print.
+- **Channel 1:** Base flow pace $7-10B/mo. Hedge ratio 44.4% (Mar 2025, 14yr low) = $370-550B unhedged. ESR → UST sale mechanism deferred post-May-26 (Nippon/Meiji absorbed pressure via M&A; foreign books in unrealized gain). Sumitomo Wed = pattern confirmation.
+- **Channel 2:** CFTC -93,905 (May 19; 3rd build week; 92% Apr 28 peak; +25K new shorts, longs flat). Aug 2024 unwind speed intact.
+- **Channel 3:** MOF interventions Apr 30 + May 6 totaled ~¥10T ($63.5B) — largest since 2022. Bessent May 11-12 affirmation is live overhang. No jawbone May 22-25.
+- **BOJ QT:** ¥2.5T/mo purchases, ¥200B/quarter taper. Interim QT assessment flagged Jun 16-17.
 
-**Channel 2 (Carry):** **CFTC short REBUILT to -93,905** (May 19 data). +18,803 WoW; 3rd straight build week; 92% of -102,059 Apr 28 cycle peak. Build = new shorts (+25K), not long liquidation. **Major fuel reload right before catalyst window.** Aug 2024 precedent speed intact.
+*Resolved-event narratives (April CPI, Brent collapse, Q1 GDP, April trade balance) live in `thesis/timeline/TIMELINE.md`.*
 
-**Channel 3 (BOJ + US coordination, v1.4):**
-- Apr 30 + May 6 MOF interventions (~¥10T / $63.5B) — largest since 2022. No #3 this week.
-- May 11-12 Bessent-Katayama affirmation — live overhang, no fresh verbal needed.
-- No MOF/BOJ/Bessent jawbone May 22-25 — confirms positioning offset (CFTC corroborates), not verbal intervention, drove muted yen response to Brent -12%.
-
-**April CPI (May 22):** Core 1.4% vs 1.7% consensus; core-core 1.9% vs 2.2% est. 3rd month below 2%. Subsidy + base-effect (ING).
-
-**Brent collapse (May 22-25):** $107.84 → $94.53 (-12%). Iran/Hormuz MOU optimism. Phase 2 (war wind-down → safe-haven yen) priced ahead of actual deal.
-
-**Q1 GDP (May 19):** +2.1% ann vs +1.7% est. June BOJ on track despite CPI miss.
-
-**April trade balance (May 21):** ¥+301.9B SURPLUS via -64% YoY crude import volume collapse. Phase 1 INVERTED under blockade.
-
-**BOJ QT:** ¥2.5T/mo purchases, ¥200B/quarter taper. June 16-17 has interim QT assessment flagged.
-
----
-
-## THESIS (v1.4 → v1.5 candidate post-ESR)
-
-Channel 1 took a quiet hit May 26. Nippon 195% (M&A-driven) + Meiji 208% (manageable) showed ESR pressure absorbed via capital actions, not foreign bond sales — direction of travel into US, not out. Tape priced it accordingly (yen WEAKER post-print). Channel 2 (carry / BOJ June 16 hike at 55-65%) becomes the dominant remaining catalyst. Channel 3 defused on Brent collapse. CFTC reload to -93,905 still primary asymmetric fuel — but for a Channel 2 trigger now, not Channel 1.
-
-**v1.5 candidate update (deferred to post-Sumitomo Wed May 27):**
-- Channel 1 mechanism: J-ICS lifer long-end abandonment intact at domestic curve; cross-border ESR → UST transmission NOT firing as modeled
-- Reframe Channel 1 from "primary near-term trigger" to "deferred mechanism / structural backstop"
-- Scenario weights may shift: 70/25/5 → 75/20/5 (base case widens, stress case narrows on transmission failure)
-
-**Position (May 26):** No change. 13 shares + 1 Jun $58 call. FXY flat on the print = no urgency. Sep $60 calls deferred until post-Sumitomo. Stop $55.05 unchanged.
-
-*Archive: CHANGELOG v1.5 entry to be written post-Sumitomo with full Channel 1 reframe.*
+*Thesis-level view + v1.5 candidate framing: `thesis/THESIS.md` (status banner). CHANGELOG v1.5 entry will be written post-Sumitomo.*
