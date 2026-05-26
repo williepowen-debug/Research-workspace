@@ -1,5 +1,5 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-05-26 ET (CC-Prome — Standard closeout, rolling 5/24-5/26 session)
+**Last Updated:** 2026-05-26 15:50 ET (CC-Prome — intra-day date-hygiene sweep + intraday TLT mark refresh; prior closeout used "Tue 5/27" Tue↔Wed date-name swap)
 
 ## What Just Happened (5/24 → 5/26 rolling session)
 
@@ -44,28 +44,28 @@ Three calendar days, one continuous CC-Prome thread. Three landings:
 
 **Tape is choosing healing.** v0.2 default = let-expire path validated by live data.
 
-## TLT Tomorrow (Tue 5/27 open)
+## TLT Today/Tomorrow (Tue 5/26 = first post-Memorial-Day session; Wed 5/27 = next read)
 
-TLT **$85.27** — action card conditional triggers:
+TLT intraday **$85.09 [5/26 15:45 ET, ~15 min to close]** — softened 18¢ from AM dashboard $85.27. If closes near here, today does NOT register as C2 session 1, and the C2 path effectively resets to Wed 5/27 as a fresh session-1 candidate.
 
-| Trigger | Status |
+| Trigger | Status (intraday 5/26 15:45 ET) |
 |---|---|
-| C1 single close ≥ $85.50 → fire 2/1 split | needs +23¢ |
-| C2 two consecutive ≥ $85.20 → fire 2/1 split | today qualifies as session 1; **fires if 5/27 closes ≥ $85.20** |
-| C3 single close < $82 → hold 3 | $3.27 cushion, not at risk |
-| C5 regime break (HY OAS ≥ 290 sustained OR R11 vol-spike) | not firing |
+| C1 single close ≥ $85.50 → fire 2/1 split | $0.41 short; final-hour rip needed |
+| C2 two consecutive ≥ $85.20 → fire 2/1 split | **11¢ short.** If closes here, today does NOT register as session 1; Wed 5/27 becomes fresh session-1 candidate |
+| C3 single close < $82 → hold 3 | $3.09 cushion, not at risk |
+| C5 regime break (HY OAS ≥ 290 sustained OR R11 vol-spike) | not firing (tape healing) |
 
-Three macro reads converge: CPI miss + Brent -12% + SAM Channel 1 weakened → all duration-bullish, supportive of 2/1 split.
+Three macro reads converge: CPI miss + Brent -12% + SAM Channel 1 weakened → all duration-bullish, supportive of 2/1 split when triggers eventually fire. Wed 5/27 now carries both TLT C2 session-1 candidate AND Sumitomo ESR print — paired catalyst day.
 
 ## Next Planned Work
 
-**Immediate (next CC-Prome session — likely Tue 5/27 AM):**
-1. 🔴 **TLT pre-open packet for Will.** Live tape pull, conditional-trigger read, broker-ready order summary. After Will places: FORGE/STATUS update + TRADE_DECISIONS fills log + action card → `COMPLETED`.
+**Immediate (next CC-Prome session — likely Wed 5/27 AM, paired-catalyst day):**
+1. 🔴 **TLT pre-open packet for Will.** Live tape pull, conditional-trigger read (Wed = C2 session-1 candidate if it closes ≥ $85.20), broker-ready order summary. After Will places: FORGE/STATUS update + TRADE_DECISIONS fills log + action card → `COMPLETED`.
 2. 🟠 **Sumitomo Life FY2025 ESR (Wed 5/27 PM SAM-owned).** If confirms Nippon/Meiji pattern, Channel 1 v1.5 downgrade warranted. PROME-side: monitor, fold into HEARTBEAT if Channel 1 weakens further.
 3. 🟠 **v0.2 Will review** — approval packet sitting in Will's queue. No clock; could pair with TLT-execution review.
 
 **Live Will-decision carries:**
-- TLT 2/1 split: approved 5/22, broker exec Tue 5/27 open.
+- TLT 2/1 split: approved 5/22, broker window opened Tue 5/26 but triggers didn't fire intraday ($85.09 close vs $85.20 C2 threshold); Wed 5/27 next session-1 candidate.
 - v0.2 cluster: `PROPOSED`, awaiting Will review.
 - SAM Sep-18 $60C: deferred until post-Sumitomo.
 - FXY $58C reconciliation.
@@ -81,7 +81,7 @@ Three macro reads converge: CPI miss + Brent -12% + SAM Channel 1 weakened → a
 
 ## Cautions for Next Session
 
-- **TLT action card APPROVED but UNEXECUTED.** State `BROKER_PENDING`. Tue 5/27 open is the broker window.
+- **TLT action card APPROVED but UNEXECUTED.** State `BROKER_PENDING`. Broker window opened Tue 5/26 (first post-Memorial-Day session); no trigger fired intraday. Wed 5/27 next live read; conditional triggers C1-C5 remain in effect through 6/06 EOD.
 - **v0.2 trigger set is PROPOSED, not WILL_APPROVED.** Don't reference as "live monitoring rail" until Will signs off.
 - **Persistent-agent do-not-spawn:** CARL, REGINALD, OZK, SAM, RED, BRENT, Claude Code Prome.
 

@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-05-26 ET (CC-Prome — closeout after 5/24-5/26 rolling session: HANDOFF archive + memory salvage + 6/18 v0.2 default-pass + push-train ride)
+**Updated:** 2026-05-26 15:50 ET (CC-Prome — intra-day date-hygiene sweep; prior closeout "Tue 5/27" was Tue↔Wed name-swap. Today = Tue 5/26 = first post-Memorial-Day session; Wed 5/27 = Sumitomo + TLT C2 fresh-start day)
 
 ## Core State
 
@@ -30,10 +30,10 @@
 |---|---|---|
 | `HEARTBEAT.md` | ⚠️ Stale (May 16 levels); BROCK + REGINALD posterior shifts NOT yet integrated | Scenario, levels, catalyst/position rails. Will-approval gate; fold post-auction. |
 | `PROME/SCRATCH.md` | ✅ Fresh 5/26 (CC-Prome closeout — 5/24-5/26 rolling session) | Ephemeral next-action state; entry point for next session |
-| `PROME/ACTIVE_DECISIONS.md` | ✅ Updated 5/25 (CC) | Current live rows: TLT `BROKER_PENDING` (Tue 5/27 open); 6/18 theta-killer cluster `PROPOSED` (Will-review pending on v0.2 packet). |
+| `PROME/ACTIVE_DECISIONS.md` | ✅ Updated 5/25 (CC) | Current live rows: TLT `BROKER_PENDING` (Tue 5/26 broker window opened, no trigger fired intraday — TLT $85.09 close vs $85.20 C2; Wed 5/27 fresh session-1 candidate); 6/18 theta-killer cluster `PROPOSED` (Will-review pending on v0.2 packet). |
 | `PROME/EXECUTION_RAILS.md` | ✅ New 5/23 | Canonical spec for state vocabulary, trigger/default/backstop rails, active-decision index, cluster rails, and promotion rules. |
 | `PROME/DECISION_ARTIFACTS_INDEX.md` | ✅ New 5/23 | Inventory/taxonomy of action cards, trigger sets, decision memos, trade logs, and promotion rules. |
-| `PROME/action-cards/TLT_JUN18_DECISION_2026-05-22.md` | ✅ Active 5/22 | TLT Jun18 $85P 2/1 split + Sep 19 $85P roll. State now explicit: `BROKER_PENDING` — Will approved 5/22; broker execution pending Tue 5/27 open. Conditional triggers C1–C5 live through 6/06 EOD. |
+| `PROME/action-cards/TLT_JUN18_DECISION_2026-05-22.md` | ✅ Active 5/22 | TLT Jun18 $85P 2/1 split + Sep 19 $85P roll. State now explicit: `BROKER_PENDING` — Will approved 5/22; Tue 5/26 broker window opened, intraday $85.09 below C2 $85.20 trigger; Wed 5/27 fresh session-1 candidate. Conditional triggers C1–C5 live through 6/06 EOD. |
 | `PROME/action-cards/JUN18_EXPIRY_CLUSTER_2026.md` | ✅ `PROPOSED` 5/25 (CC) | Will-facing wrapper around `FORGE/trigger-sets/JUN18_CLUSTER_2026-06-18.md` (v0.2). Default-pass applied 5/25 (BROCK + REGINALD silent at 5/24 EOD). Default: no trigger = let theta-killers expire. Next: Will review approval packet. |
 | `PROME/action-cards/JUN18_V0.2_APPROVAL_PACKET_2026-05-25.md` | ✅ New 5/25 (CC) | Will-decision artifact for v0.2 adoption. Three default-picks PROME made: A1 HYG no pre-spec (BROCK validates at fire); A5 WAL $67.5P → Sep; A6 KRE → Aug 21. |
 | `FORGE/trigger-sets/JUN18_CLUSTER_2026-06-18.md` | ✅ v0.2 `PROPOSED` 5/25 (CC) | Source-of-truth for 6/18 cluster execution rail. Pending language stripped; default-picks locked; calibration tracking shows BROCK/REGINALD default-pass + HENRY routed to TLT card. |
@@ -44,7 +44,7 @@
 | `PROME/CLOSEOUT.md` | ✅ Fresh May 18 | Standardized session-end procedure |
 | `PROME/BOOT.md` | ✅ Refreshed May 18 | TOSCANINI references cleaned; FLEET_SCAN + CLOSEOUT integrated |
 | `PROME/ORCHESTRAL_LAYER_DESIGN.md` | ✅ Fresh May 19 (v3 brief spec folded) | Design + ranking rubric + revival-proxy v3 brief spec (9 items from LIQUID + HENRY prototypes) |
-| `PROME/TODAY.md` | ⚠️ Stale (May 17) | Superseded by FLEET_SCAN.md as live working surface |
+| `PROME/TODAY.md` | ✅ Fresh 5/26 15:50 (full refresh) | Today's catalysts + live market levels + decision posture; paired-catalyst Wed 5/27 framing |
 | `PROME/HANDOFF.md` | ✅ Updated 5/24 (CC appended HAWK relocation entry) | Telegram-Prome surface; CC adds entries only when relocating misfiled OpenClaw content. |
 | `PROME/CLAUDE_CODE_HANDOFF.md` | ✅ Fresh 5/26 (CC appended; 5/24-5/26 closeout) | CC-Prome session report. Archived entries 5/17-5/21 live in `archive/CC_HANDOFF_2026-05-pre-22.md`. |
 | `PROME/action-cards/FSK_MAY11_ACTION_CARD.md` | ✅ Active | FSK Q1 branch-to-action rails |
@@ -94,7 +94,7 @@
 | **FORGE rehab Steps 1-4** | ✅ Done 5/21 by CC | Commit `ec7e8ad9` (Will-authorized). STATUS reconciled against Fidelity CSV (5/21 14:03 ET) + SAM v1.4. Position tables rewritten (KRE 19 / WAL 8 / TLT 7 / APO 2 / OZK 7 / Other Puts 14 / Longs 8). Immediate Actions rebuilt around 6/18 expiry-cluster decisions. PORTFOLIO + ACTIVE_TRADES marked SUPERSEDED. JOURNAL gap entry for Feb 27 → May 21 (~22 equity closures + 6 expirations + 4 rolls + ~13 new opens). Recon worksheet: `FORGE/scratch/REHAB_RECON_2026-05-21.md`. **Open Will-decisions surfaced:** 6/18 theta-killer cluster dispositions (HYG×8/EGBN/AAL×2/WAL×3/KRE), TLT $88P May 15 disposition unknown (was +100% pending), FXY $58C reconciliation (not in CSV), APD new long thesis tag, VIOLET 4/15 VIX/SKEW trade overdue. |
 | **Execution-rails architecture v1** | ✅ Created 5/23 by OpenClaw | Files created/updated: `EXECUTION_RAILS.md`, `ACTIVE_DECISIONS.md`, `DECISION_ARTIFACTS_INDEX.md`, `DECISION_FLOW.md`, action-card template, TLT card. Core rule: `WILL_APPROVED` ≠ execution; `BROKER_PENDING` = live risk. |
 | **6/18 trigger set v0.1 + 3 calibration SIGs** | 🟠 Partial → promoted 5/23 | SIGs filed to BROCK (HY OAS R2/R4 + HYG roll target + sub-90¢/bank-PC language), REGINALD (KRE bear-line + WAL break-zone + WAL/KRE/EGBN roll targets), HENRY (VIX R1 + TLT decision packet). HENRY replied 5/22 → TLT action card. BROCK + REGINALD still owe replies; deadline 2026-05-24 EOD default-pass. Promoted into `PROME/action-cards/JUN18_EXPIRY_CLUSTER_2026.md` + `ACTIVE_DECISIONS.md`; next = v0.2 approval packet. |
-| **TLT $85P decision (Jun18 cluster sub-leg)** | 🔴 Approved, broker-exec pending | Will [Approve] stamped 5/22 ~15:00 ET on action card. Plan: SELL 3 × TLT Jun18 $85P / BUY 1 × TLT **Sep 19** $85P (HENRY-recommended monthly, not Sep 30 quarterly). Computer crashed before broker action. Memorial Day Monday 5/25 closed. Earliest exec Tue 5/27 open. TRADE_DECISIONS.md logged; Outcome: Pending. Conditional triggers C1–C5 (TLT $85.50 / $85.20-grind / <$82 / 6/06 backstop / HY-OAS-or-R11 substance break) live through 6/06 EOD. |
+| **TLT $85P decision (Jun18 cluster sub-leg)** | 🔴 Approved, broker-exec pending | Will [Approve] stamped 5/22 ~15:00 ET on action card. Plan: SELL 3 × TLT Jun18 $85P / BUY 1 × TLT **Sep 19** $85P (HENRY-recommended monthly, not Sep 30 quarterly). Computer crashed before broker action. Memorial Day Monday 5/25 closed. Broker window opened Tue 5/26; intraday $85.09 vs $85.20 C2 trigger → no fire; Wed 5/27 fresh session-1 candidate. TRADE_DECISIONS.md logged; Outcome: Pending. Conditional triggers C1–C5 (TLT $85.50 / $85.20-grind / <$82 / 6/06 backstop / HY-OAS-or-R11 substance break) live through 6/06 EOD. |
 | **HAWK armed-pause consolidation** | ✅ Done + pushed 5/22 by OpenClaw (commit `888a5e9d`) | HAWK frame: **armed pause / controlled grind**; C 57% / D 35% / B 8%; Hormuz ~10/day vs 125-140 normal; Barakah direct-Iran attribution unconfirmed; old zero-crossing and uninsurable language superseded. May 23 close re-check + May 28 IRAN_WAR boundary are next gates. |
 | **CARL 5/22 inbox-processing crash recovery** | 🟠 Held back — CARL owns | CARL was mid-session at crash. 5 inbox items moved to `processed/` (dispositions file written), ROADMAP/SCRATCH/BOARD_LOG dirty, STATUS atomic-rename interrupted → `STATUS.md.tmp.542915.8a61cc80397b` leaked. Tmp diff = one Gas Pump row update ($4.564 May 21 / all-50-states ≥$4 per SIG-W-20260521-030). CARL on next boot: finish row patch, clean own tmp, commit. PROME did NOT touch. |
 | **WALTER bull-counter calibration** | ✅ Responded 5/21 ~14:45 | WALTER filed `SIG-WALTER-PROME-20260521-bull-counter-tier-rec.md`: both Tier-2; forced steelman ("regime may LAST not BREAK"). Folded into HEARTBEAT regime line. |
@@ -139,15 +139,15 @@
 
 ## Next Best Action
 
-**Current posture (5/26 closeout):** 5/24-5/26 rolling CC session shipped 3 landings (HANDOFF archive + memory salvage; 6/18 v0.2 default-pass + approval packet; push-train ride + tape verify). State clean; ready for fresh session boot. Tomorrow's TLT broker window is the next clock-driven event.
+**Current posture (5/26 15:50 ET intra-day):** Tue 5/26 broker window opened post-Memorial-Day; TLT triggers did not fire intraday ($85.09 close-area vs $85.20 C2 / $85.50 C1). Wed 5/27 now carries paired catalyst load (TLT C2 fresh session-1 candidate + Sumitomo ESR print).
 
-**Immediate next action (likely next CC-Prome session):**
-1. 🔴 **Tue 5/27 ~9:30 ET — TLT pre-open packet for Will.** Live tape pull, conditional-trigger read (C1 $85.50 / C2 $85.20×2 / C3 $82 / C5 substance), broker-ready order summary. Per 5/26 dashboard TLT $85.27 → C2 fires if 5/27 closes ≥ $85.20. After fills: FORGE/STATUS TLT row update + TRADE_DECISIONS fills log + action card → `COMPLETED`.
+**Immediate next action (likely next CC-Prome session — Wed 5/27 AM):**
+1. 🔴 **Wed 5/27 ~9:30 ET — TLT pre-open packet for Will.** Live tape pull, conditional-trigger read (C1 $85.50 / C2 $85.20×2 / C3 $82 / C5 substance), broker-ready order summary. C2 path requires Wed 5/27 ≥ $85.20 close to register as fresh session 1; if so, Thu 5/28 ≥ $85.20 close fires 2/1 split. After fills: FORGE/STATUS TLT row update + TRADE_DECISIONS fills log + action card → `COMPLETED`.
 2. 🟠 **Wed 5/27 PM — Sumitomo Life FY2025 ESR (SAM-owned).** If confirms Nippon/Meiji pattern, Channel 1 v1.5 downgrade warranted. PROME-side: fold into HEARTBEAT if Channel 1 weakens further.
 3. 🟠 **v0.2 Will review** — `PROME/action-cards/JUN18_V0.2_APPROVAL_PACKET_2026-05-25.md` sitting in Will's queue. No clock; could pair with TLT-execution review.
 
 **Live Will-decision carries:**
-- TLT $85P × 3 → 2/1 split + Sep 19 $85P roll — **approved 5/22, broker exec Tue 5/27**.
+- TLT $85P × 3 → 2/1 split + Sep 19 $85P roll — **approved 5/22**. Tue 5/26 broker window opened, no trigger fire; Wed 5/27 next live read.
 - 6/18 cluster v0.2 — `PROPOSED`, awaiting Will review.
 - SAM Sep-18 $60C × 5-10 contracts — pending post-CPI cheaper entry, deferred until post-Sumitomo.
 - FXY $58C reconciliation.
