@@ -158,6 +158,8 @@ Oil shock creates a two-phase JPY dynamic:
 
 **v1.4 implication:** Trade-balance is no longer a clean Phase-1 confirmation indicator under blockade conditions. Watch rate-differential proxies (USDJPY vs swap-implied rate path), JGB long-end supply/demand, and CFTC positioning instead.
 
+**Phase 1 stability watch (added 2026-05-26 — PROME forward-question):** The April surplus may have been a one-month volume-collapse spike rather than a structural inversion. Investing.com (5/21) caveat: *"this collapse artificially inflates the trade surplus figures, and petroleum-related input costs are expected to rise in the coming months."* If Iran/Hormuz MOU sticks and ME crude flows normalize — even with Brent staying low — volume recovery alone could swing the trade balance back toward deficit on a 1-3 month lag. **May TB print (~June 18-19) is the diagnostic** — mechanism-aware routing logged in `CALENDAR.md`. Diagnostic outcomes: (a) deficit re-opens with Brent <$100 → Phase 1 mechanism back online (transient inversion, not structural); (b) surplus persists with ME volumes recovering → inversion is structural across the cycle; (c) surplus persists but ME volumes still depressed → inconclusive, defer to June TB print. Threshold-vs-mechanism discipline applies: surplus is a threshold-style read, the volume-vs-cost decomposition is the mechanism.
+
 **Oil-yen paradox (modified):** Yen weakening vs JGB yield surge = rate differential still matters more than flow. Oil adding CPI pressure without trade-deficit pressure = Phase 2 starts earlier (less drawdown delay).
 
 **FXY wins in all 3 oil scenarios (3-6mo horizon):**

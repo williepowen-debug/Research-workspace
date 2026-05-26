@@ -16,7 +16,7 @@
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| Early Jun | May trade balance (~Jun 18) | Phase 1 mechanism re-test under lower oil | If blockade eases AND oil low, deficit could narrow further | SAM, BRENT |
+| **🟠 Jun 18-19** | **May trade balance — PHASE 1 STABILITY LAG-TEST** (per PROME 5/26 forward-question) | Volume recovery vs cost-side: did ME crude flows normalize? did petroleum input costs rise? | **Routing:** (a) deficit re-opens with Brent <$100 → 🟠 Phase 1 mechanism back online (inversion was transient); v1.5 CHANGELOG candidate to relabel inversion as one-month spike. (b) surplus persists with ME volumes recovering → 🟢 inversion is structural; v1.4 finding confirmed durably. (c) surplus persists but ME volumes still depressed → 🟡 inconclusive; defer to June TB (~July 16-17). | SAM, BRENT, HAWK |
 | Early Jun | CFTC weekly continued | Position vs June BOJ | Watch for break of -102K cycle peak or sudden cover (intervention/MOU shock) | SAM, HENRY |
 | Mid-Jun | Tokyo May CPI release feeds national | Confirm dovish trajectory or rebound | Subsidies are scheduled to taper — passthrough may emerge | SAM |
 

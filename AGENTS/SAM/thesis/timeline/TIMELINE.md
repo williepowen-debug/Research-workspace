@@ -70,13 +70,14 @@ This document maps our forward-looking expectations — what's coming, what we t
 - **Market reaction:** June BOJ swap pricing softened **74% → ~55-65%** (Polymarket 59.5% post-CPI). ING desk maintained June hike base case ("subsidy + base-effect noise"). Reuters poll has no public reset yet. Counterweights intact: Q1 GDP +2.1% beat (May 19), April exports +14.8%, board dissent split (Takata, Tamura, Nakagawa at 1.00%), April Summary of Opinions "quite possible from next MPM."
 - **Net:** **SAM-27 (<2.0%) CONFIRMED TRUE by wider margin.** SAM-21 (June hike @70%) marked down to ~57%. June still base case, but no longer near-locked.
 
-### Fri-Mon May 22-25 — BRENT COLLAPSE -12% ON IRAN/HORMUZ MOU OPTIMISM ✅ RESOLVED — PHASE 2 INCEPTION
+### Fri-Mon May 22-25 — BRENT COLLAPSE -12% ON IRAN/HORMUZ MOU FRAMEWORK ✅ RESOLVED (framework hardening May 23-24) — PHASE 2 INCEPTION
 
 - **Event:** Brent crude collapsed $107.84 → **$94.53** (-12% over 4 sessions) on news of US-Iran moving toward MOU covering Hormuz reopening + frozen-asset release + nuclear talks restart. Pakistan mediating.
-- **Critical caveat:** Deal is **rumor-tier** — Trump's "largely negotiated" framing, no signed text confirmed, both sides reporting "progress." Tape pricing convergence ahead of confirmation.
-- **Cross-market:** USDJPY 159.19 → 158.95 (-0.24, only modest yen strength) — confirms positioning offset, not deal-conviction. CFTC data corroborates (shorts re-loaded into the oil collapse, not covered). DXY broadly weaker (CNBC framing: "dollar slumps on signs of deal").
+- **May 23-24 framework hardening (logged May 26 PM):** Trump publicly stated deal "largely negotiated" (CNN/Fortune May 23). Axios published deal framework May 24: **60-day ceasefire, Hormuz reopens, Iran can sell oil freely, 30 days for Hormuz procedures + 60 days for nuclear talks.** Pakistani Field Marshal Asim Munir in Tehran Fri-Sat pushing it across the line. Times of Israel and al-Jazeera corroborated framework details.
+- **Friction signal:** al-Jazeera May 24 — *"Tehran accusing Washington of obstruction"* + Tehran insisting nuclear issues not part of current negotiations (war end first, nuclear after). **Not as done as Trump frames.** Brent +2.3% Tue May 26 ($94.53 → $96.71) consistent with friction priced back in. **STATUS-level reclassification:** "rumor-tier, no signed text" → "near-signed framework with visible Tehran-obstruction friction; final sign-off (Trump + Khamenei) still required."
+- **Cross-market (initial collapse):** USDJPY 159.19 → 158.95 (-0.24, only modest yen strength) — confirms positioning offset, not deal-conviction. CFTC data corroborates (shorts re-loaded into the oil collapse, not covered). DXY broadly weaker (CNBC framing: "dollar slumps on signs of deal").
 - **Phase mechanism:** This is the start of **Phase 2 (war wind-down → safe-haven yen)** being priced. v1.3 framing held that Phase 2 would lag oil resolution; market now front-running. **But the muted USDJPY response shows rate differential dominates short-term** — Phase 2 transmission needs either MOU confirmation OR BOJ hike OR Big 3 ESR stress to actually fire on yen.
-- **Net:** Phase 2 inception priced, not confirmed. SAM-23 (intervention #3 if USDJPY 159+) fading from 75% → ~55% as upside pressure defused. Intervention #3 zone effectively dormant unless MOU collapses and Brent snaps back.
+- **Net:** Phase 2 inception priced, not confirmed. **MOU watch is now binary, not gradient** — signing → Brent further collapse + Phase 2 accelerates; Tehran walk → Brent snapback + intervention #3 zone reactivates fast. SAM-23 marked at ~55% (held — not fading further given Tue PM USDJPY drift 159.32 + Brent partial reversal).
 
 ### Fri May 22 — CFTC JPY (MAY 19 DATA) ✅ RESOLVED — MAJOR FUEL RELOAD
 
@@ -130,6 +131,13 @@ This document maps our forward-looking expectations — what's coming, what we t
 - **Market reaction:** USDJPY pushed toward 159 and JGB 30Y broke 4.0%, but these moves are NOT primarily GDP-driven. Drivers were fiscal/super-long supply + Iran oil weighing yen via rate-diff channel. GDP was a sideshow.
 - **BOJ implications:** Reuters poll 65% of economists expect June hike to 1.00%. ING reaffirmed June +25bp. No walk-back. However, Q2 consensus contraction expected on Iran energy shock — Q1 was "last clean quarter."
 - **Net:** **BEAT — EWJ-put contraction trigger DID NOT fire.** June BOJ on track. War-driven two-phase JPY dynamic intact.
+
+### Tue May 19 — KATAYAMA "BOLD YEN ACTION" + G-7 SUPPORT (BLOOMBERG) ✅ RESOLVED — CHANNEL 3 DIPLOMATIC LAYER HARDENED
+
+- **Event:** Bloomberg published Japan-FinMin Katayama remarks pledging "bold action for weak yen as needed" with **G-7 support for Japan's currency stance** — first time G-7 backstop framed publicly post Bessent-Katayama Tokyo meeting.
+- **What's new:** STATUS/THESIS had referenced May 11-12 Bessent-Katayama bilateral. The May 19 Bloomberg adds a multilateral diplomatic layer — G-7-wide support for the FX intervention posture. Modestly hardens the Channel 3 diplomatic backstop for intervention #3 if the trigger zone re-arms.
+- **Context:** Comes one week after the Apr 30 + May 6 interventions (combined ¥10T / $63.5B). Katayama explicitly preserves "free hand." No new intervention triggered by these remarks — they're posture, not action.
+- **Net:** **Channel 3 reaction function strengthened** — when intervention #3 re-arms (USDJPY back through 159.50 with markets testing), the diplomatic ceiling is even lower than it was on May 11-12. SAM-23 (intervention #3 prob) supported at the ~55% level even with Brent collapse defusing near-term USDJPY upside. Logged retrospectively May 26 PM from fresh search.
 
 ### Wed May 21 — APRIL TRADE BALANCE ✅ RESOLVED — v1.4 THESIS FINDING (Phase 1 INVERSION)
 
