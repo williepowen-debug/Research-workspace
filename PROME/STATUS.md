@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-05-23 ~17:10 ET (OpenClaw Prome — execution-rails architecture created + indexed)
+**Updated:** 2026-05-26 ET (CC-Prome — closeout after 5/24-5/26 rolling session: HANDOFF archive + memory salvage + 6/18 v0.2 default-pass + push-train ride)
 
 ## Core State
 
@@ -13,7 +13,7 @@
 
 | Item | Status | Note |
 |---|---|---|
-| GitHub sync | ✅ Synced at boot (HEAD `6848fcc3` OTTO 5/22 PM); CC-Prome closeout commit + push planned this session | HAWK consolidation (`888a5e9d`) + earlier OpenClaw closeout (`0ff0755d`) already in origin. |
+| GitHub sync | ✅ Synced at HEAD `02da0047` (SAM transition docs sync); 2 PROME commits from this session on origin (`045fdc59` archive + memory salvage; `c4680e51` v0.2 default-pass + approval packet — rebased via SAM push-train) | Push-train pattern 3rd concrete instance. |
 | REGINALD update | ✅ Pulled | WAL Investor Day findings + May 17 closeout integrated into Prome state. |
 | WALTER update | ✅ Pulled | Multi-session closeout confirms signal-routing ownership and May 18 callbacks. |
 | Claude Code Prome scaffold | ✅ Present | Phase 2 complete; Phase 3 dry run still pending. |
@@ -29,21 +29,24 @@
 | Artifact | Status | Purpose |
 |---|---|---|
 | `HEARTBEAT.md` | ⚠️ Stale (May 16 levels); BROCK + REGINALD posterior shifts NOT yet integrated | Scenario, levels, catalyst/position rails. Will-approval gate; fold post-auction. |
-| `PROME/SCRATCH.md` | ✅ Fresh May 22 late PM ET (CC-Prome crash-recovery + closeout; TLT approval recorded, broker exec pending Tue 5/27) | Ephemeral next-action state; entry point for next session |
-| `PROME/ACTIVE_DECISIONS.md` | ✅ New 5/23 | Boot-readable cockpit of non-terminal decisions. Current live rows: TLT `BROKER_PENDING`; 6/18 theta-killer cluster `DRAFT`. |
+| `PROME/SCRATCH.md` | ✅ Fresh 5/26 (CC-Prome closeout — 5/24-5/26 rolling session) | Ephemeral next-action state; entry point for next session |
+| `PROME/ACTIVE_DECISIONS.md` | ✅ Updated 5/25 (CC) | Current live rows: TLT `BROKER_PENDING` (Tue 5/27 open); 6/18 theta-killer cluster `PROPOSED` (Will-review pending on v0.2 packet). |
 | `PROME/EXECUTION_RAILS.md` | ✅ New 5/23 | Canonical spec for state vocabulary, trigger/default/backstop rails, active-decision index, cluster rails, and promotion rules. |
 | `PROME/DECISION_ARTIFACTS_INDEX.md` | ✅ New 5/23 | Inventory/taxonomy of action cards, trigger sets, decision memos, trade logs, and promotion rules. |
 | `PROME/action-cards/TLT_JUN18_DECISION_2026-05-22.md` | ✅ Active 5/22 | TLT Jun18 $85P 2/1 split + Sep 19 $85P roll. State now explicit: `BROKER_PENDING` — Will approved 5/22; broker execution pending Tue 5/27 open. Conditional triggers C1–C5 live through 6/06 EOD. |
-| `PROME/action-cards/JUN18_EXPIRY_CLUSTER_2026.md` | 🟠 Draft 5/23 | Will-facing wrapper around `FORGE/trigger-sets/JUN18_CLUSTER_2026-06-18.md`. Default: no trigger = let theta-killers expire. Next: BROCK/REGINALD calibration/default-pass → v0.2 approval packet. |
+| `PROME/action-cards/JUN18_EXPIRY_CLUSTER_2026.md` | ✅ `PROPOSED` 5/25 (CC) | Will-facing wrapper around `FORGE/trigger-sets/JUN18_CLUSTER_2026-06-18.md` (v0.2). Default-pass applied 5/25 (BROCK + REGINALD silent at 5/24 EOD). Default: no trigger = let theta-killers expire. Next: Will review approval packet. |
+| `PROME/action-cards/JUN18_V0.2_APPROVAL_PACKET_2026-05-25.md` | ✅ New 5/25 (CC) | Will-decision artifact for v0.2 adoption. Three default-picks PROME made: A1 HYG no pre-spec (BROCK validates at fire); A5 WAL $67.5P → Sep; A6 KRE → Aug 21. |
+| `FORGE/trigger-sets/JUN18_CLUSTER_2026-06-18.md` | ✅ v0.2 `PROPOSED` 5/25 (CC) | Source-of-truth for 6/18 cluster execution rail. Pending language stripped; default-picks locked; calibration tracking shows BROCK/REGINALD default-pass + HENRY routed to TLT card. |
+| `PROME/archive/CC_HANDOFF_2026-05-pre-22.md` | ✅ New 5/24 (CC) | Archive of 5/17-5/21 CC HANDOFF entries (844 lines). Salvage manifest at top — 4 findings promoted to MEMORY before archive. |
 | `FORGE/tools/market-data/README.md` | ✅ Fresh May 21 (Citation Convention section added) | Canonical FRED date-stamp convention reference |
 | `FORGE/tools/market-data/dashboard.py` | ✅ Fresh May 21 (As-of column for FRED rows; `_date_stamp` helper) | Live tape; auto-displays observation date |
-| `PROME/FLEET_SCAN.md` | ⚠️ Fresh May 18 (v2 prototype); 3 days old | Live working surface — fleet situation report |
+| `PROME/FLEET_SCAN.md` | ✅ Fresh 5/23 (OpenClaw scanner; paired with execution-rails landing) | Live working surface — fleet situation report |
 | `PROME/CLOSEOUT.md` | ✅ Fresh May 18 | Standardized session-end procedure |
 | `PROME/BOOT.md` | ✅ Refreshed May 18 | TOSCANINI references cleaned; FLEET_SCAN + CLOSEOUT integrated |
 | `PROME/ORCHESTRAL_LAYER_DESIGN.md` | ✅ Fresh May 19 (v3 brief spec folded) | Design + ranking rubric + revival-proxy v3 brief spec (9 items from LIQUID + HENRY prototypes) |
 | `PROME/TODAY.md` | ⚠️ Stale (May 17) | Superseded by FLEET_SCAN.md as live working surface |
-| `PROME/HANDOFF.md` | ⚠️ Stale (May 17) | Telegram-Prome surface; defer to SCRATCH for CC-Prome continuity |
-| `PROME/CLAUDE_CODE_HANDOFF.md` | ✅ Fresh May 18 (appended) | CC-Prome session report |
+| `PROME/HANDOFF.md` | ✅ Updated 5/24 (CC appended HAWK relocation entry) | Telegram-Prome surface; CC adds entries only when relocating misfiled OpenClaw content. |
+| `PROME/CLAUDE_CODE_HANDOFF.md` | ✅ Fresh 5/26 (CC appended; 5/24-5/26 closeout) | CC-Prome session report. Archived entries 5/17-5/21 live in `archive/CC_HANDOFF_2026-05-pre-22.md`. |
 | `PROME/action-cards/FSK_MAY11_ACTION_CARD.md` | ✅ Active | FSK Q1 branch-to-action rails |
 | `PROME/action-cards/REGIONAL_BANK_WEEKEND_TRIAGE_MAY9.md` | ✅ Active | Bank expiry / Call Report triage rails |
 | `PROME/AUTONOMY.md` | ✅ Salvaged from TOSCANINI | Tier 1/2/3 permission model + change log |
@@ -136,21 +139,21 @@
 
 ## Next Best Action
 
-**Current posture (5/22 late PM):** CC-Prome boot was a crash-recovery, not a working session. Mid-day work (Jun18 cluster calibration push + TLT decision packet + action card + Will approval) reconstructed from file mtimes; PROME-scope closeout commit + push pending. CARL's parallel in-flight inbox-processing is held back per agent-file-isolation. TLT trade APPROVED but UNEXECUTED; broker exec window opens Tuesday 5/27 (Memorial Day Monday closed).
+**Current posture (5/26 closeout):** 5/24-5/26 rolling CC session shipped 3 landings (HANDOFF archive + memory salvage; 6/18 v0.2 default-pass + approval packet; push-train ride + tape verify). State clean; ready for fresh session boot. Tomorrow's TLT broker window is the next clock-driven event.
 
-**Immediate next action:**
-1. 🔴 **Tuesday 5/27 open** — Will places TLT orders at broker. Action card live; conditional triggers C1–C5 still apply. After fills: FORGE/STATUS TLT row update + TRADE_DECISIONS fills log + action card → Completed.
-2. 🟠 **CARL next-boot recovery** — finish Gas Pump row patch, delete own tmp leak (`STATUS.md.tmp.542915.8a61cc80397b`), commit CARL 5/22 inbox-processing work.
-3. 🟠 **6/18 trigger set v0.2 consolidation** — source trigger set is now wrapped at `PROME/action-cards/JUN18_EXPIRY_CLUSTER_2026.md` and indexed in `ACTIVE_DECISIONS.md`. Scan BROCK + REGINALD outboxes by 2026-05-24 EOD default-pass; consolidate v0.2; prepare Will approval packet. HENRY leg already converted to TLT action card.
-4. 🟡 **May 23 close HAWK re-check** — if no Gulf/framework text, update HAWK STATUS/CALENDAR to "hold expired without framework; May 25-29 grind/re-ratchet pressure active."
+**Immediate next action (likely next CC-Prome session):**
+1. 🔴 **Tue 5/27 ~9:30 ET — TLT pre-open packet for Will.** Live tape pull, conditional-trigger read (C1 $85.50 / C2 $85.20×2 / C3 $82 / C5 substance), broker-ready order summary. Per 5/26 dashboard TLT $85.27 → C2 fires if 5/27 closes ≥ $85.20. After fills: FORGE/STATUS TLT row update + TRADE_DECISIONS fills log + action card → `COMPLETED`.
+2. 🟠 **Wed 5/27 PM — Sumitomo Life FY2025 ESR (SAM-owned).** If confirms Nippon/Meiji pattern, Channel 1 v1.5 downgrade warranted. PROME-side: fold into HEARTBEAT if Channel 1 weakens further.
+3. 🟠 **v0.2 Will review** — `PROME/action-cards/JUN18_V0.2_APPROVAL_PACKET_2026-05-25.md` sitting in Will's queue. No clock; could pair with TLT-execution review.
 
 **Live Will-decision carries:**
 - TLT $85P × 3 → 2/1 split + Sep 19 $85P roll — **approved 5/22, broker exec Tue 5/27**.
-- SAM Sep-18 $60C × 5-10 contracts — pending post-CPI cheaper entry.
-- FXY $58C reconciliation — SAM v1.4 says held; missing from 5/21 CSV.
+- 6/18 cluster v0.2 — `PROPOSED`, awaiting Will review.
+- SAM Sep-18 $60C × 5-10 contracts — pending post-CPI cheaper entry, deferred until post-Sumitomo.
+- FXY $58C reconciliation.
 - TLT $88P May 15 disposition unknown.
 - VIOLET 4/15 VIX/SKEW trade adjudication — 60d window closes ~6/12.
 - APD long thesis tag unassigned.
 - TODAY.md / CALENDAR.md broader refresh; HEARTBEAT cadence design open.
 
-**Pre-6/16 FOMC:** trigger set v0.2 needs Will approval + daily monitor.
+**Pre-6/16 FOMC:** v0.2 approval still needed for daily monitor activation. All R1-R4 triggers MORE benign than at v0.2 ship (5/26 tape).
