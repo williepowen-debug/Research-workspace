@@ -6,9 +6,9 @@
 
 ## STATUS
 
-**5/26 Tue PM image-batch session ~22:25-22:55 UTC.** Will Telegram boot msg 2013 18:14 UTC → "What is Sumitomo?" Q msg 2015 (answered with Big-3-life-insurer/SAM-Channel-1 context msg 2016) → 7-image batch msgs 2017-2023 ts 22:28 UTC → triage reply to Will msg 2024 → 5 verify-and-write working session → final results to Will msg 2025 → this closeout.
+**5/26 Tue PM DOUBLE-BATCH day session ~22:25-23:25 UTC.** Will Telegram boot msg 2013 18:14 UTC → "What is Sumitomo?" Q msg 2015 (answered msg 2016) → **Batch #1** 7-image msgs 2017-2023 ts 22:28 UTC → triage msg 2024 → 5 dispatches + 1 KILL + 2 verifies → results msg 2025 → Batch #1 closeout commit `fe8e9c77` pushed clean → **Batch #2** 7-image msgs 2026-2032 ts 22:45 UTC → triage msg 2033 → 4 dispatches + 2 DUP-KILLs + 3 verifies → results msg 2034 → this consolidated closeout.
 
-**5 BOARD dispatches + 1 KILL + 2 verify-research spawns ($0.10) this session.** All PRIORITY precedence. Productive single-batch arc.
+**Day-total: 9 BOARD dispatches + 3 KILLs (1 Novelty + 2 DUP) + 5 verify-research spawns ($0.25).** 8 PRIORITY + 1 ROUTINE (Japan FSA SOURCES). Intra-day closeout discipline honored: Batch #1 closeout committed clean before Batch #2 started.
 
 **Boot anomalies surfaced (resolved during boot):**
 - **Pull-block from 5/22 RESOLVED** — origin synced clean during Sun→Tue gap; PROME FLEET_SCAN.md local mod cleared.
@@ -19,20 +19,27 @@
 
 ## CHANGED
 
-### Files written this 5/26 Tue PM session
+### Files written this 5/26 Tue PM DOUBLE-BATCH day
 
-- **BOARD/SIG-W-20260526-001-softbank-openai-financing-structure-60b-bridge-margin-loan-8pct-bloomberg-hedgie-thread-corrected-framing.md** — new signal (Hedgie X-thread reposting Bloomberg 5/19 primary; CONFIRMED 0.80 with WeWork-15x CORRECTED-FRAMING)
-- **BOARD/SIG-W-20260526-002-azo-fy26-q3-beat-and-sold-off-9pct-margin-international-lifo-not-pure-macro-corrected-framing.md** — new signal (CORRECTED-FRAMING on both historical context "since March 2020" → since May 2022 AND catalyst attribution margin/intl/LIFO not pure-macro; CONFIRMED-with-CORRECTED-FRAMING 0.55)
-- **BOARD/SIG-W-20260526-003-philly-fed-non-mfg-may-minus23-6-vs-est-minus13-services-sector-contraction-accelerating.md** — new signal (3σ services-side miss; CONFIRMED 0.90)
-- **BOARD/SIG-W-20260526-004-first-brands-tariff-fraud-285m-us-govt-claim-bloomberg-extends-ch7-conversion-bank-bdc-recovery-deeper-leg-down.md** — new signal (EXTENDS SIG-W-20260522-003; CONFIRMED 0.90)
-- **BOARD/SIG-W-20260526-005-equity-risk-premium-negative-territory-sp500-ey-minus-10y-divid-chart-may-2026-fred-multpl.md** — new signal (CONFIRMED 0.80 on concept; magnitude range-estimate)
-- **BOARD/INDEX.md** — ToC updated (4 cluster rows: POSITIONING_VALUATION 39→40 / CONSUMER_STAGFLATION 48→50 / BANK_COLLATERAL 36→37 / AI_INFRA_CAPEX 6→7); 4 section headings count-bumped; 5 row inserts (1 each section, 2 for CONSUMER_STAGFLATION); TOTAL 255→260
-- **AGENTS/WALTER/routed/route_log.tsv** — 5 rows appended (5/26 dispatches)
-- **AGENTS/WALTER/filtered/kill_log.tsv** — 1 row appended (real-wages chart Novelty fail)
-- **STATUS.md** — Updated stamp bumped to 2026-05-26 ~22:55 UTC; lead paragraph rewritten with full 5/26 dispatch summary + verify findings; BOARD count line refreshed (255→260 with cluster updates); FALSIFICATION scan line refreshed; bifurcation count line refreshed (5/26 3+2); push state line refreshed; pending callbacks line refreshed (5/27 Sumitomo + 5/28 Iran-anchor + 5/29 Tokyo CPI + CFTC + 5/28 COST + HENRY R11 + 6/11 STEO + 6/16 BOJ MPM); new SESSION LOG row inserted at top above prior 5/22 PM2 row
-- **REGISTRY.tsv** — WALTER row Updated bumped to 2026-05-26 + Focus rewritten leading with 5/26 session
-- **LAST_COMPLETION.md** — this file (overwrite)
-- **MEMORY.md** — CHANGES SINCE / NEXT SESSION blocks rewritten; brief finding-extension append (CNBC-headline-updated-source-since-corrected pattern extends 5/22 calendar-anchor-verify discipline)
+**Batch #1 (already in commit `fe8e9c77` pushed):**
+- BOARD/SIG-W-20260526-001 SoftBank-OpenAI financing structure (BROCK; AI_INFRA_CAPEX 6→7; 0.80 with WeWork-15x→4x correction)
+- BOARD/SIG-W-20260526-002 AZO FY26-Q3 beat-and-sold-off (CARL; CORRECTED-FRAMING on "since March 2020" → since May 2022 AND catalyst margin/intl/LIFO; 0.55)
+- BOARD/SIG-W-20260526-003 Philly Fed Non-Mfg May -23.6 vs -13.0 (CARL; 3σ services-side miss; 0.90)
+- BOARD/SIG-W-20260526-004 First Brands $285.5M tariff-fraud claim (REGINALD; EXTENDS SIG-W-20260522-003; 0.90)
+- BOARD/SIG-W-20260526-005 ERP-negative chart (HENRY; 0.80 on concept)
+
+**Batch #2 (pending in this commit):**
+- BOARD/SIG-W-20260526-006 SpaceX IPO Heidi-thread (HENRY; cluster_mediating × POSITIONING_VALUATION; CONFIRMED-with-MULTIPLE-CORRECTED-FRAMINGS 0.55 including **second SIGN-INVERSION finding** — "3x weighting" inverts mechanism)
+- BOARD/SIG-W-20260526-007 Wolf Street condo -15% to -33% in 24 markets (REGINALD; EXTENDS SIG-W-20260522-011 HOUSING DEFLATION SETUP; housing-segment K-shape; 0.85)
+- BOARD/SIG-W-20260526-008 Japan FSA "URGING" capex vs buybacks ROUTINE (SAM; SOURCES leak-grade; 0.65; ASIA_CHINA 7→8)
+- BOARD/SIG-W-20260526-009 US inflation > wage real-purchasing-power (CARL; CORRECTED-FRAMING month 3 not month 1; tier-stratification severe; 0.55)
+- BOARD/INDEX.md — ToC updated 4 cluster rows: POSITIONING_VALUATION 40→41 / CONSUMER_STAGFLATION 50→51 / BANK_COLLATERAL 37→38 / ASIA_CHINA 7→8; 4 section headings count-bumped; 4 row inserts; TOTAL 260→264
+- AGENTS/WALTER/routed/route_log.tsv — 4 rows appended (Batch #2 dispatches via python script)
+- AGENTS/WALTER/filtered/kill_log.tsv — 2 rows appended (Blackstone DUP + CC delinq DUP)
+- STATUS.md — Updated stamp bumped to 2026-05-26 ~23:25 UTC; lead paragraph rewritten to consolidate double-batch day; BOARD count line refreshed (255→264 with day-total cluster updates); FALSIFICATION scan line refreshed (9 day dispatches; 0 fires); bifurcation count line refreshed (7+2=9-in-day ~2× threshold); push state line refreshed; SESSION LOG row replaced with consolidated double-batch entry
+- REGISTRY.tsv — WALTER row Focus rewritten leading with double-batch day; 6 MEMORY findings noted
+- MEMORY.md — CHANGES SINCE block rewritten to consolidate double-batch day; 6 findings documented (2 structural: SIGN-INVERSION-recurring + K-shape 3-axis crystallization; 4 calibration extensions)
+- LAST_COMPLETION.md — this file (consolidated overwrite)
 
 ### NOT written this session (deferred)
 
