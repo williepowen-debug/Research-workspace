@@ -1,6 +1,6 @@
 # SAM — Trade Ideas
 
-**Last Updated:** 2026-05-21 (v1.4 thesis bump; executed: 5 shares added → 13 total + 1 June $58 call @ $0.40)
+**Last Updated:** 2026-05-26 (Position unchanged; Channel 1 demoted post-Nippon/Meiji ESR; June BOJ + CFTC reload now dominant thesis path)
 **Domain:** Japan Macro, Yen, JGBs, Carry Trade, BOJ Policy
 
 ---
@@ -15,7 +15,7 @@
 **Entry context (Tranche 2):** Post Apr 30 + May 6 MOF interventions (~¥10T combined), v1.4 thesis bump confirming JGB 30Y at 4.0% via J-ICS lifer abandonment. Better entry than original May 12 $58.00 limit.
 **Entry context (Call):** Sized as event lottery — 1 contract = max loss $40 (~5% of share notional). ATM at execution. IV ~9.3% (underpriced for BOJ event). Entered pre-CPI rather than post-CPI for IV protection (CPI surprise risk both ways).
 
-**Thesis:** Structural yen appreciation over next 3-6 months driven by BOJ rate hikes, carry unwind, and life insurer repatriation. Oil-in-yen headwind inverted under blockade (supply destruction → surplus, not deficit); yen weakness is now rate-differential-driven, which a BOJ hike directly addresses. JGB 30Y at 4.0% via J-ICS confirms Channel 1 amplifier mechanism.
+**Thesis:** Structural yen appreciation over next 3-6 months driven primarily by BOJ rate hikes (Jun 16 at 55-65%) and carry unwind (CFTC short rebuilt to -93,905, near cycle peak). Life insurer repatriation (Channel 1) demoted to deferred mechanism post-May 26 ESR window: Nippon 195% and Meiji 208% prints showed ESR pressure absorbed via capital actions (M&A subsidiarization, sub-debt), NOT foreign bond sales — foreign books in unrealized GAIN at both. J-ICS domestic-curve mechanism (JGB 30Y) intact; cross-border transmission deferred. Oil-in-yen headwind resolving on Iran/Hormuz MOU optimism (Brent $94.53, -12% May 22-25). Channel 2 (carry/BOJ) now the dominant remaining catalyst path.
 
 ---
 
