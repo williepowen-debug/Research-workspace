@@ -1,9 +1,51 @@
 # SAM TIMELINE
 
-**Last Updated:** 2026-05-21
+**Last Updated:** 2026-05-26
 **View:** Base case progression with branch points marked
 
 This document maps our forward-looking expectations — what's coming, what we think happens, and where the path could diverge. Updated as events resolve or views change.
+
+---
+
+## RESOLVED — May 22-25 (DOVISH CPI + BRENT COLLAPSE + CFTC RELOAD CLUSTER — v1.4 catalyst-weight rebalance)
+
+### Fri May 22 — JAPAN APRIL NATIONAL CPI ✅ RESOLVED — DOVISH MISS
+
+- **Event:** Japan April national CPI release.
+- **Outcome:** **Core 1.4% YoY vs 1.7% consensus / 1.8% prior** — 30bp undershoot, 4-yr low. Core-core 1.9% vs 2.2% est / 2.4% prior. Headline 1.4% (from 1.5%). 3rd consecutive month below 2% target.
+- **Driver:** Government fuel subsidies absorbed Iran-war oil passthrough. Subsidies are scheduled to taper but currently dominate.
+- **Market reaction:** June BOJ swap pricing softened **74% → ~55-65%** (Polymarket 59.5% post-CPI). ING desk maintained June hike base case ("subsidy + base-effect noise"). Reuters poll has no public reset yet. Counterweights intact: Q1 GDP +2.1% beat (May 19), April exports +14.8%, board dissent split (Takata, Tamura, Nakagawa at 1.00%), April Summary of Opinions "quite possible from next MPM."
+- **Net:** **SAM-27 (<2.0%) CONFIRMED TRUE by wider margin.** SAM-21 (June hike @70%) marked down to ~57%. June still base case, but no longer near-locked.
+
+### Fri-Mon May 22-25 — BRENT COLLAPSE -12% ON IRAN/HORMUZ MOU OPTIMISM ✅ RESOLVED — PHASE 2 INCEPTION
+
+- **Event:** Brent crude collapsed $107.84 → **$94.53** (-12% over 4 sessions) on news of US-Iran moving toward MOU covering Hormuz reopening + frozen-asset release + nuclear talks restart. Pakistan mediating.
+- **Critical caveat:** Deal is **rumor-tier** — Trump's "largely negotiated" framing, no signed text confirmed, both sides reporting "progress." Tape pricing convergence ahead of confirmation.
+- **Cross-market:** USDJPY 159.19 → 158.95 (-0.24, only modest yen strength) — confirms positioning offset, not deal-conviction. CFTC data corroborates (shorts re-loaded into the oil collapse, not covered). DXY broadly weaker (CNBC framing: "dollar slumps on signs of deal").
+- **Phase mechanism:** This is the start of **Phase 2 (war wind-down → safe-haven yen)** being priced. v1.3 framing held that Phase 2 would lag oil resolution; market now front-running. **But the muted USDJPY response shows rate differential dominates short-term** — Phase 2 transmission needs either MOU confirmation OR BOJ hike OR Big 3 ESR stress to actually fire on yen.
+- **Net:** Phase 2 inception priced, not confirmed. SAM-23 (intervention #3 if USDJPY 159+) fading from 75% → ~55% as upside pressure defused. Intervention #3 zone effectively dormant unless MOU collapses and Brent snaps back.
+
+### Fri May 22 — CFTC JPY (MAY 19 DATA) ✅ RESOLVED — MAJOR FUEL RELOAD
+
+- **Event:** CFTC Disaggregated COT release reflecting positioning as of Tuesday May 19.
+- **Outcome:** **Non-commercial net short -93,905** (from -75,102 May 12). +18,803 WoW build. **3rd straight week of net-short rebuild.** Now within 8K contracts of -102,059 Apr 28 cycle peak (92% of peak).
+- **Composition:** Build came entirely from NEW SHORTS (+25,251), not long liquidation (longs added +6,448). **Directional re-engagement, not stop-outs.**
+- **Path of the cycle:** -102,059 (Apr 28 peak) → -61,738 (May 5 post-MOF cover) → -75,102 (May 12) → -93,905 (May 19).
+- **Interpretation:** Carry community is pricing BOJ-delay + rate-diff-still-wide narrative aggressively, ignoring Phase 2 setup AND the upcoming Big 3 ESR catalyst window. **Asymmetric fuel reload right before primary near-term Channel 1 test.** If any Big 3 prints stress (<200%), -93,905 has nowhere to run cleanly.
+- **Net:** **STRUCTURAL BULL FORK** for unwind violence. Aug 2024 precedent (hours, not days) intact. The dovish CPI / oil collapse week did not loosen the asymmetry — it tightened it. Source: CFTC `cftc.gov/dea/newcot/deafut.txt` line 278.
+
+### Fri May 22 — JGB 30Y RETRACEMENT BELOW 4.000% ✅ RESOLVED — BREACH NOT DURABLE ON OIL
+
+- **Event:** JGB 30Y yield retraced 4.000% → **3.931%** (-7bp). 10Y 2.770% → 2.749% (-2bp). 40Y 3.990% → 3.921% (-7bp).
+- **Driver:** Oil collapse + dovish CPI. **No BOJ super-long-specific operation announced. No insurer return.** Pure macro relief trade — lower oil eases import-cost pressure, reduces near-term hike urgency, long-end bid returns at the margin.
+- **Channel 1 implications:** J-ICS lifer-abandonment mechanism (v1.4 thesis driver) remains structurally intact — insurers are not buying super-long; the bid came from non-insurer flow. But the threshold breach is not durable on the first cross-current shock.
+- **Net:** **SAM-26 (JGB 30Y holds ≥4.0% through BOJ) tracking FALSE within 1 week.** Channel 1 amplifier thesis intact at mechanism level; threshold framing needs softening in eventual v1.5. CHANGELOG candidate, not v1.5 trigger yet.
+
+### Ongoing — JAWBONE QUIET WINDOW MAY 22-25
+
+- **Event:** Despite USDJPY in 158-159 zone and Brent collapsing -12%, **no MOF/BOJ/Bessent FX statements** May 22-25.
+- **Interpretation:** Bessent's May 12 "constant and robust" coordination signal remains the live overhang — no fresh verbal needed. Muted yen response (-0.24) to Brent -12% is positioning offset (CFTC corroborates), NOT verbal intervention.
+- **Net:** Channel 3 dormant this window. If Iran MOU collapses and Brent snaps back, expect Katayama back on the wire within hours per prior pattern.
 
 ---
 
@@ -445,10 +487,16 @@ These are the moments where our expected path could fork:
 | **May 15** | JGB 30Y 4.0% threshold | Holds <4.0% | Breaks 4.0% | ✅ **RESOLVED: BREACHED** — 4.000% peak 4.205%; J-ICS lifer abandonment driver |
 | **May 19** | Q1 GDP prelim | Growth | Contraction → EWJ trigger | ✅ **RESOLVED: BEAT** — +2.1% ann vs +1.7% est; June BOJ on track |
 | **May 21** | April trade balance | Surplus | Deficit → Phase 1 fires | ✅ **RESOLVED: SURPLUS via INVERSION** — ¥+301.9B; crude imports -64% YoY; Phase 1 INVERTED by blockade volume collapse (v1.4 finding) |
-| **Fri May 22** | April CPI | Upward surprise → BOJ locked | Tame → less urgency | PENDING (Tokyo leading 1.5%; consensus 1.7% core) |
-| **May 25-29** | **Big 3 mutual ESR (Nippon/Meiji Yasuda/Sumitomo)** | <200% → stress-case | >220% → manageable | PENDING — PRIMARY Channel 1 test |
-| **Ongoing** | Intervention #3 watch | USDJPY 159+ → MOF acts | USDJPY holds <159 organically | PENDING (USDJPY 159.19; SAM-23 75%) |
-| **Mid-June** | **BOJ meeting (BASE CASE HIKE)** | Hike to 1.00% → structural move | Delay → H2 timeline | PENDING (SAM-21 70%; market 74%) |
+| **Fri May 22** | April CPI | Upward surprise → BOJ locked | Tame → less urgency | ✅ **RESOLVED: DOVISH MISS** — core 1.4% vs 1.7% est; core-core 1.9% vs 2.2%; 3rd month <2%; SAM-27 TRUE; June pricing 74% → 55-65% |
+| **May 22-25** | Brent / Iran-Hormuz | Deal → oil down → Phase 2 | Talks collapse | ✅ **RESOLVED: PHASE 2 INCEPTION** — Brent -12% to $94.53 on MOU rumor (Pakistan mediating, no signed text) |
+| **May 22** | CFTC JPY release | Cover → fuel burning off | Build → fuel re-loading | ✅ **RESOLVED: MAJOR FUEL RELOAD** — -93,905 (+18,803 WoW, 3rd straight build); new shorts +25K, longs flat; 92% of cycle peak |
+| **May 22** | JGB 30Y 4% durability | Holds breach | Retraces below 4% | ✅ **RESOLVED: RETRACED** — 3.931% on oil + dovish CPI; SAM-26 tracking FALSE |
+| **🔴 Tue May 26** | **Nippon Life + Meiji Yasuda FY2025 ESR** | <200% → stress-case | >220% → manageable | PENDING (historical pattern ~15:00 JST; no scheduled date published) |
+| **🔴 Wed May 27** | **Sumitomo Life FY2025 ESR** | <200% → stress-case | >220% → manageable | PENDING (historical pattern) |
+| **Thu-Fri May 28-29** | Tokyo May CPI | Core-core rebounds → June BOJ holds 55-65% | Core-core slips → June breaks lower | PENDING |
+| **Ongoing** | Iran/Hormuz MOU status | Signed text → Phase 2 accelerates | Collapses → intervention #3 zone reactivates | PENDING (rumor-tier) |
+| **Ongoing** | Intervention #3 watch | USDJPY 159+ → MOF acts | USDJPY holds <159 organically | PENDING (USDJPY 158.95; SAM-23 fading 75% → ~55%) |
+| **Mid-June** | **BOJ meeting (BASE CASE HIKE)** | Hike to 1.00% → structural move | Delay → H2 timeline | PENDING (SAM-21 mark down 70% → ~57%; market 55-65%) |
 | **June** | Sato joins board | n/a | Dovish majority forming | PENDING |
 
 ---
