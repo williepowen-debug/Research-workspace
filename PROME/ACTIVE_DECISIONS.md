@@ -32,3 +32,5 @@ Add these when their rails/action cards become concrete enough:
 - TLT $88P May 15 disposition unknown.
 - VIOLET 4/15 VIX/SKEW trade adjudication — 60d window closes ~6/12.
 - APD long thesis tag unassigned.
+- WAL Sep $67.5P × N — fresh Q2-print exposure (REGINALD V2.2 Bear-medium 30% dominant, EV $67.98, Q2 print late-July). Decision window opens at 6/13 EOD review or paired with 6/16 backstop sweep, whichever fires first. v0.2 6/18 cluster rail explicitly silent on this gap (disclosed in `PROME/action-cards/JUN18_V0.2_APPROVAL_PACKET_2026-05-25.md` § "Outside this rail").
+- AAL Jul 17 $10P × 1 — standalone orphan, decision deferred until 6/18 cluster sweep clears. No domain owner (airline). Surface post-6/16 backstop.

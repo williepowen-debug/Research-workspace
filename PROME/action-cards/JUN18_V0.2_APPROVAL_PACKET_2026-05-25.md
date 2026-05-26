@@ -49,23 +49,32 @@ Default-pass applied 2026-05-25 per the JUN18 action card C1 branch. **v0.2 is a
 | **R4** HY OAS ≥ 320 (single close) | Cascade-onset; arms full review same-day |
 | **A2** EGBN $25P → Sep $25P, convert margin→cash | unchanged |
 | **A4** WAL $65P → Sep $65P | unchanged |
-| **Dropped positions** (AAL ×2, CF, AAL Jul standalone) | mechanical let-expire, no triggers |
+| **Dropped positions** (AAL ×2 Jun 18, CF Jun 18) | mechanical let-expire on 6/18, no triggers |
 | **Hard backstop** 2026-06-16 16:00 ET | unchanged |
 | **TLT $85P × 3** | already routed to separate action card (`BROKER_PENDING`) |
 | **Cluster vol-floor principle** | unchanged — bias toward let-expire when triggers ambiguous |
 
 ---
 
-## Current tape vs triggers (as-of 5/22 close per fleet scan)
+## Outside this rail (no v0.2 coverage — disclosed for scope clarity)
+
+v0.2 is intentionally scoped to *theta-killer loss-management at 6/18 expiry*. Two known forward decisions sit **outside** this rail and will be surfaced as separate action cards in their own time:
+
+- **AAL Jul 17 $10P × 1 standalone:** Per source trigger set, decision deferred until the Jun 18 sweep clears. No rail in v0.2. PROME brings this as a separate one-line decision after the 6/16 backstop fires.
+- **WAL Sep $67.5P × N fresh-open for REGINALD V2.2 Q2 print exposure (late-July):** v0.2 is silent on this gap by design. **If WAL holds above $73 through 6/18, A4/A5 mechanically expire and you lose WAL put exposure for the Q2 print catalyst.** The fresh-open is a new-exposure decision (different category from loss-management) and wants fresh marks/IV/sizing in front of you at the time. Logged as a candidate row in `ACTIVE_DECISIONS.md`; PROME surfaces it as its own action card around 6/13 EOD review or paired with the 6/16 backstop sweep, whichever fires first.
+
+---
+
+## Current tape vs triggers (refreshed 2026-05-26 16:10 ET)
 
 | Trigger | Threshold | Current | Cushion | Status |
 |---|---|---|---:|---|
-| R1 VIX ≥ 22 (×2 sessions) | 22 | 16.70 | -5.30 | 🟢 not firing |
-| R2 HY OAS ≥ 290 (×2 sessions) | 290 | 278 [5/21] | -12 | 🟢 not firing |
-| R3 KRE breaks $63 (close) | 63 | $69.37 | -6.37 | 🟢 not firing |
-| R4 HY OAS ≥ 320 (single) | 320 | 278 [5/21] | -42 | 🟢 not firing |
+| R1 VIX ≥ 22 (×2 sessions) | 22 | 16.92 | -5.08 | 🟢 not firing |
+| R2 HY OAS ≥ 290 (×2 sessions) | 290 | 274 [5/25] | -16 | 🟢 not firing |
+| R3 KRE breaks $63 (close) | 63 | $70.24 | -7.24 | 🟢 not firing |
+| R4 HY OAS ≥ 320 (single) | 320 | 274 [5/25] | -46 | 🟢 not firing |
 
-**No regime trigger fires at packet-build time.** Position-specific levels (WAL $73, etc.) also not firing.
+**No regime trigger fires at refresh time.** Position-specific levels also not firing: WAL **$79.56** vs $73 trigger (-$6.56 cushion, moving *away* from trigger since v0.2 ship); KRE **$70.24** vs $63 trigger. All cushions equal or larger vs v0.2 ship (5/22) — tape direction confirms v0.2's let-expire bias and also widens the Q2-print gap noted above.
 
 ---
 
