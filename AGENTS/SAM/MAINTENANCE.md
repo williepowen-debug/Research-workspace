@@ -48,7 +48,7 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 - Pass 3 (research/ reorg into outputs/+archive/) — cosmetic, low behavioral impact, defer indefinitely.
 - SIGNAL_INTAKE full refresh — pending messaging-system overhaul direction.
 
-**Rationale (per [[feedback_audit_cleanup_ranking]] / 2026-05-26 lesson):** Cuts ranked by behavioral impact, not line-count. HIGH-impact dead dirs and stale top-level files cleared first; MED-impact workbook staging + inbox/outbox cleared because user opted in; LOW-impact research/ reorg deferred.
+**Rationale (per [[feedback_audit_behavioral_ranking]] / 2026-05-26 lesson):** Cuts ranked by behavioral impact, not line-count. HIGH-impact dead dirs and stale top-level files cleared first; MED-impact workbook staging + inbox/outbox cleared because user opted in; LOW-impact research/ reorg deferred.
 
 ---
 
