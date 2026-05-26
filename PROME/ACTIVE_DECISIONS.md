@@ -19,7 +19,7 @@
 | Decision | State | Owner | Next | Backstop | Source |
 |---|---|---|---|---|---|
 | TLT Jun 18 $85P ×3 2/1 roll | `BROKER_PENDING` | Will → broker; Prome → post-fill files | Tue 5/27 open: place sell 3× Jun18 $85P / buy 1× Sep19 $85P if invalidation has not fired | 2026-06-06 EOD | `PROME/action-cards/TLT_JUN18_DECISION_2026-05-22.md` |
-| 6/18 theta-killer cluster | `DRAFT` | Prome | Consolidate BROCK + REGINALD calibration/default-pass; present v0.2 approval packet | Calibration default-pass 2026-05-24 EOD; hard operational backstop 2026-06-16 16:00 ET | `PROME/action-cards/JUN18_EXPIRY_CLUSTER_2026.md` + `FORGE/trigger-sets/JUN18_CLUSTER_2026-06-18.md` |
+| 6/18 theta-killer cluster | `PROPOSED` | Will → review v0.2 packet; Prome → file updates on decision | Will reviews `JUN18_V0.2_APPROVAL_PACKET_2026-05-25.md`; approve / reject / amend | Hard operational backstop 2026-06-16 16:00 ET | `PROME/action-cards/JUN18_EXPIRY_CLUSTER_2026.md` + `FORGE/trigger-sets/JUN18_CLUSTER_2026-06-18.md` (v0.2) + `PROME/action-cards/JUN18_V0.2_APPROVAL_PACKET_2026-05-25.md` |
 
 ---
 

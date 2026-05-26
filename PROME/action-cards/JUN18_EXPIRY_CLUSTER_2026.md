@@ -1,12 +1,13 @@
 # 6/18 Expiry Cluster Action Card
 **Created:** 2026-05-23 17:00 ET
-**State:** `DRAFT`
-**Owner:** Prome
-**Next:** Consolidate BROCK + REGINALD calibration replies or apply 2026-05-24 EOD default-pass, then present v0.2 to Will.
+**State:** `PROPOSED` (v0.2 default-pass applied 2026-05-25; ready for Will review)
+**Owner:** Will (review v0.2 approval packet) → Prome (file updates on decision)
+**Next:** Will reviews `PROME/action-cards/JUN18_V0.2_APPROVAL_PACKET_2026-05-25.md`; approve / reject / amend.
 **Window:** Now → 2026-06-18 expiry; hard operational backstop 2026-06-16 16:00 ET.
 **Backstop:** 2026-06-16 16:00 ET post-FOMC close.
 **Default:** If no pre-registered trigger fires, let theta-killer positions expire mechanically.
-**Source:** `FORGE/trigger-sets/JUN18_CLUSTER_2026-06-18.md`
+**Source:** `FORGE/trigger-sets/JUN18_CLUSTER_2026-06-18.md` (v0.2 PROPOSED, 2026-05-25)
+**Approval packet:** `PROME/action-cards/JUN18_V0.2_APPROVAL_PACKET_2026-05-25.md`
 **Position:** `FORGE/STATUS.md` 2026-05-21 rehab + source trigger set marks.
 **Spec:** `PROME/EXECUTION_RAILS.md` + `PROME/DECISION_FLOW.md`
 
@@ -90,13 +91,13 @@ Any one trigger arms cluster-wide review. Two triggers escalate to roll-default 
 
 ---
 
-## Open Calibration
+## Calibration Resolution (default-pass applied 2026-05-25)
 
-| Agent | Asked | Due | Status | Prome action |
-|---|---|---|---|---|
-| BROCK | R2/R4, HYG roll target, sub-90¢ / bank-PC trigger language | 2026-05-24 EOD | No local outbox reply seen at 5/23 boot | Default-pass if no reply; do not spawn BROCK unless Will requests |
-| REGINALD | R3, WAL break-zone, WAL/KRE/EGBN roll targets | 2026-05-24 EOD | No local outbox reply seen at 5/23 boot | Default-pass if no reply; persistent agent, do not spawn |
-| HENRY | R1/R4-VIX calibration + TLT decision | 2026-05-24 EOD | TLT reply landed and became separate card | Fold TLT result separately; use default R1 if no further reply |
+| Agent | Asked | Due | Resolution |
+|---|---|---|---|
+| BROCK | R2/R4, HYG roll target, sub-90¢ / bank-PC trigger language | 2026-05-24 EOD | ⚪ Default-pass: no outbox reply by deadline. R2/R4 + sub-90¢ + bank-PC language locked to v0.1 Will-authorized defaults. HYG roll target deliberately deferred to trigger-fire-time BROCK validation. |
+| REGINALD | R3, WAL break-zone, WAL/KRE/EGBN roll targets | 2026-05-24 EOD | ⚪ Default-pass: no outbox reply by deadline. R3 + WAL break-zone locked to v0.1 defaults. A5 WAL $67.5P → Sep, A6 KRE → Aug 21 (PROME-chosen v0.2 defaults; REGINALD may override at trigger fire). |
+| HENRY | R1/R4-VIX calibration + TLT decision | 2026-05-24 EOD | 🟢 Replied 5/22 ~13:42 ET. TLT validated → separate action card `TLT_JUN18_DECISION_2026-05-22.md`. R1/R4-VIX not addressed; locked to v0.1 default. |
 
 ---
 
@@ -134,8 +135,10 @@ Any one trigger arms cluster-wide review. Two triggers escalate to roll-default 
 
 ## Current Recommendation
 
-Keep state as `DRAFT` until calibration deadline/default-pass. Then move to `PROPOSED` and present Will one simple approval packet:
+**State `PROPOSED` as of 2026-05-25.** Default-pass executed cleanly: BROCK + REGINALD silent, HENRY's TLT reply routed to its own card. v0.2 source trigger set has pending language stripped and PROME-chosen defaults locked for A1/A5/A6.
+
+Will reviews `JUN18_V0.2_APPROVAL_PACKET_2026-05-25.md` and chooses:
 
 > Adopt the 6/18 trigger set as execution rail v0.2: no trigger = let expire; trigger = named review/roll action; hard backstop 6/16 close.
 
-This is deliberately conservative. It prevents revenge-rolling dead premium while preserving the right to act if the regime actually breaks.
+This is deliberately conservative. It prevents revenge-rolling dead premium while preserving the right to act if the regime actually breaks. On Will-approval, this card moves to `WILL_APPROVED` and goes into daily monitor mode.

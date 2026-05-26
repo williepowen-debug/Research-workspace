@@ -1,0 +1,117 @@
+# 6/18 Cluster Trigger Set v0.2 — Will-Approval Packet
+**Created:** 2026-05-25 ET
+**State:** `PROPOSED`
+**Owner:** Will (decision) → Prome (file updates on decision)
+**Source artifact:** `FORGE/trigger-sets/JUN18_CLUSTER_2026-06-18.md` (v0.2 PROPOSED)
+**Operational tracker:** `PROME/action-cards/JUN18_EXPIRY_CLUSTER_2026.md`
+**Spec:** `PROME/EXECUTION_RAILS.md`
+
+---
+
+## The Ask
+
+Adopt the 6/18 cluster trigger set as **execution rail v0.2**. Once approved:
+
+- Every 6/18 theta-killer line has a pre-registered rule: no trigger = let expire; trigger = named review/roll action with named owner.
+- Daily dashboard monitor checks R1-R4 + position-specific levels.
+- Hard backstop 2026-06-16 16:00 ET clears the field on any line that never triggered.
+- v0.2 becomes the live monitoring rail; this card becomes `WILL_APPROVED`.
+
+**This packet is a Will-decision artifact, not a trade order.** Approval authorizes the *rail*, not any specific roll trade. Any actual roll trade requires its own Will approval at trigger fire.
+
+---
+
+## What changed from v0.1 → v0.2
+
+v0.1 was Will-authorized 5/22 with three pieces left "pending calibration" from BROCK / REGINALD / HENRY. By the 5/24 EOD default-pass deadline:
+
+- **HENRY replied 5/22** — TLT decision routed to its own action card; R1/R4-VIX calibration not addressed, locked to v0.1 default.
+- **BROCK did not reply.**
+- **REGINALD did not reply.**
+
+Default-pass applied 2026-05-25 per the JUN18 action card C1 branch. **v0.2 is a pure pending-language-strip + default-pick lock pass — no threshold edits, no new trigger IDs, no positions added or removed.**
+
+### The three default-picks PROME made (review these)
+
+| ID | v0.1 status | v0.2 lock | Why this default |
+|---|---|---|---|
+| **A1 HYG** | "Dec 18 $75P or further OTM (BROCK to spec)" | **No pre-spec; BROCK validates at trigger fire** | HYG roll target is regime-sensitive — depends on the credit-cycle leg the trigger lands in. Pre-committing now bakes in an assumption. Routing already sends R2 fire → BROCK validation → Will approval. |
+| **A5 WAL $67.5P × 2** | "Jul or Sep — REGINALD to pick" | **Sep $67.5P × 2** | REGINALD V2.2 Q2-print fire is **late-July**, *after* Jul expiry. Jul wouldn't catch the print. Sep does. REGINALD may override at trigger fire if framing changes. |
+| **A6 KRE $60P × 1** | "Aug or Sep" | **Aug 21 $60P × 1** | Folds into existing Aug 21 stack via weighted-cost roll, per v0.1 source-trigger-set guidance. Sep would create a new isolated basis. |
+
+### What stayed identical to v0.1
+
+| Item | v0.1 = v0.2 |
+|---|---|
+| **R1** VIX ≥ 22 (intraday close, 2 sessions) | Out of vol-floor regime |
+| **R2** HY OAS ≥ 290 (FRED close, 2 sessions) | Inverse of BROCK kill <270 sustained |
+| **R3** KRE breaks $63 (close, 1 session) | Regional bank bear-line (KRE $69.37 5/22 close — 6.37 cushion) |
+| **R4** HY OAS ≥ 320 (single close) | Cascade-onset; arms full review same-day |
+| **A2** EGBN $25P → Sep $25P, convert margin→cash | unchanged |
+| **A4** WAL $65P → Sep $65P | unchanged |
+| **Dropped positions** (AAL ×2, CF, AAL Jul standalone) | mechanical let-expire, no triggers |
+| **Hard backstop** 2026-06-16 16:00 ET | unchanged |
+| **TLT $85P × 3** | already routed to separate action card (`BROKER_PENDING`) |
+| **Cluster vol-floor principle** | unchanged — bias toward let-expire when triggers ambiguous |
+
+---
+
+## Current tape vs triggers (as-of 5/22 close per fleet scan)
+
+| Trigger | Threshold | Current | Cushion | Status |
+|---|---|---|---:|---|
+| R1 VIX ≥ 22 (×2 sessions) | 22 | 16.70 | -5.30 | 🟢 not firing |
+| R2 HY OAS ≥ 290 (×2 sessions) | 290 | 278 [5/21] | -12 | 🟢 not firing |
+| R3 KRE breaks $63 (close) | 63 | $69.37 | -6.37 | 🟢 not firing |
+| R4 HY OAS ≥ 320 (single) | 320 | 278 [5/21] | -42 | 🟢 not firing |
+
+**No regime trigger fires at packet-build time.** Position-specific levels (WAL $73, etc.) also not firing.
+
+---
+
+## What approval does
+
+On `[Approve]`:
+
+1. JUN18 action card moves `PROPOSED` → `WILL_APPROVED`.
+2. v0.2 source trigger set becomes the live monitoring rail.
+3. ACTIVE_DECISIONS.md row updates accordingly.
+4. Daily monitor scans R1-R4 + position levels via dashboard.
+5. Any trigger fire spawns the named domain agent for roll-target validation → Will-approval for actual trade.
+6. Hard backstop 2026-06-16 16:00 ET clears untriggered lines via let-expire default.
+
+On `[Reject]` or `[Amend]`:
+
+1. PROME notes which element changed (default-pick, threshold, position) in TRADE_DECISIONS log.
+2. Card stays `PROPOSED` pending revision OR moves `REJECTED` if Will abandons the rail framework.
+3. If amend: PROME drafts v0.3 with specified changes; same approval loop.
+
+---
+
+## Open Will-decisions in this packet
+
+1. **Approve v0.2 as drafted?**
+2. **Override any of the three default-picks?**
+   - A1 HYG: keep "BROCK validates at trigger fire" (recommended) vs. pre-spec a target now?
+   - A5 WAL $67.5P: keep Sep (recommended) vs. switch to Jul?
+   - A6 KRE: keep Aug 21 stack-fold (recommended) vs. switch to Sep?
+3. **Threshold sanity check** — any of R1-R4 read wrong to you given the 5/22 tape?
+4. **Position scope** — any 6/18 line that should be added to or removed from the rail?
+
+---
+
+## Default-pass discipline note
+
+Per `feedback_consolidate_domain_pressure` memory finding (5/22): when 3+ agents need to weigh in on the same Will-decision, file async SIGs with default-pass deadlines and consolidate into ONE Will-facing packet. This is that consolidation. BROCK and REGINALD chose silence; v0.2 doesn't penalize them — it just doesn't wait. They can override at trigger fire if their framing changes by then.
+
+Per `feedback_front_load_planning` memory finding (5/21): 6 default-pick questions surfaced + Will-approved en bloc before any file edits. Execution then ran mechanical with proceed-pacing across Tasks 7-10. Zero mid-execution review escalations.
+
+---
+
+## Expiration / Supersession
+
+This packet expires on:
+
+- Will approves → packet logged in TRADE_DECISIONS, archive to `PROME/archive/` after 30 days. OR
+- Will rejects / amends → packet superseded by v0.3 packet. OR
+- 2026-06-16 16:00 ET hard backstop fires → packet auto-expires; backstop default applied.
