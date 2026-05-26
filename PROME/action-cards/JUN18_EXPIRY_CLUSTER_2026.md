@@ -1,8 +1,8 @@
 # 6/18 Expiry Cluster Action Card
 **Created:** 2026-05-23 17:00 ET
-**State:** `PROPOSED` (v0.2 default-pass applied 2026-05-25; ready for Will review)
-**Owner:** Will (review v0.2 approval packet) → Prome (file updates on decision)
-**Next:** Will reviews `PROME/action-cards/JUN18_V0.2_APPROVAL_PACKET_2026-05-25.md`; approve / reject / amend.
+**State:** `WILL_APPROVED` (v0.2 approved 2026-05-26 ~17:00 ET; live monitoring rail)
+**Owner:** Prome (daily monitor) → Will (approval at any trigger fire)
+**Next:** Daily dashboard scan of R1-R4 + position-specific levels; on any trigger fire spawn named domain agent for roll-target validation; surface Q2-print fresh-open decision around 6/13 EOD review or paired with 6/16 backstop sweep.
 **Window:** Now → 2026-06-18 expiry; hard operational backstop 2026-06-16 16:00 ET.
 **Backstop:** 2026-06-16 16:00 ET post-FOMC close.
 **Default:** If no pre-registered trigger fires, let theta-killer positions expire mechanically.
@@ -135,10 +135,13 @@ Any one trigger arms cluster-wide review. Two triggers escalate to roll-default 
 
 ## Current Recommendation
 
-**State `PROPOSED` as of 2026-05-25.** Default-pass executed cleanly: BROCK + REGINALD silent, HENRY's TLT reply routed to its own card. v0.2 source trigger set has pending language stripped and PROME-chosen defaults locked for A1/A5/A6.
+**State `WILL_APPROVED` as of 2026-05-26 ~17:00 ET.** Will approved v0.2 against the refreshed-tape packet after Q2-print gap was disclosed. Card now in daily monitor mode through 2026-06-16 16:00 ET hard backstop.
 
-Will reviews `JUN18_V0.2_APPROVAL_PACKET_2026-05-25.md` and chooses:
+**Live monitoring rail:**
+- Daily dashboard scan: R1 VIX / R2 HY OAS / R3 KRE / R4 HY OAS + position-specific WAL/KRE/EGBN levels
+- Any trigger fire → spawn named domain agent (BROCK for credit, REGINALD for banks) for roll-target validation → fresh Will approval for actual trade
+- 6/16 EOD: untriggered theta-killer lines let-expire by default
 
-> Adopt the 6/18 trigger set as execution rail v0.2: no trigger = let expire; trigger = named review/roll action; hard backstop 6/16 close.
-
-This is deliberately conservative. It prevents revenge-rolling dead premium while preserving the right to act if the regime actually breaks. On Will-approval, this card moves to `WILL_APPROVED` and goes into daily monitor mode.
+**Acknowledged scope-limits (per approval packet § Outside this rail):**
+- WAL Sep $67.5P × N fresh Q2-print exposure — surfaces as separate action card around 6/13 EOD review or paired with 6/16 backstop sweep
+- AAL Jul 17 $10P × 1 standalone — surfaces post-6/16 backstop

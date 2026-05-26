@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-05-26 16:15 ET (CC-Prome — session closeout: SAM TRACKER cleanup analysis + Will-authorized Phase-1-stability SIG to SAM + date-hygiene sweep + TODAY.md full refresh)
+**Updated:** 2026-05-26 ~17:00 ET (CC-Prome — v0.2 approval landed: 6/18 cluster trigger set now live monitoring rail through 6/16 backstop)
 
 ## Core State
 
@@ -30,13 +30,13 @@
 |---|---|---|
 | `HEARTBEAT.md` | ⚠️ Stale (May 16 levels); BROCK + REGINALD posterior shifts NOT yet integrated | Scenario, levels, catalyst/position rails. Will-approval gate; fold post-auction. |
 | `PROME/SCRATCH.md` | ✅ Fresh 5/26 (CC-Prome closeout — 5/24-5/26 rolling session) | Ephemeral next-action state; entry point for next session |
-| `PROME/ACTIVE_DECISIONS.md` | ✅ Updated 5/25 (CC) | Current live rows: TLT `BROKER_PENDING` (Tue 5/26 broker window opened, no trigger fired intraday — TLT $85.09 close vs $85.20 C2; Wed 5/27 fresh session-1 candidate); 6/18 theta-killer cluster `PROPOSED` (Will-review pending on v0.2 packet). |
+| `PROME/ACTIVE_DECISIONS.md` | ✅ Updated 5/26 (CC) | Current live rows: TLT `BROKER_PENDING` (Tue 5/26 broker window opened, no trigger fired intraday — TLT $85.09 close vs $85.20 C2; Wed 5/27 fresh session-1 candidate); 6/18 theta-killer cluster `WILL_APPROVED` 5/26 ~17:00 ET (live monitor through 6/16 backstop). Next Candidate rows: WAL Q2-print fresh-open + AAL Jul 17 orphan. |
 | `PROME/EXECUTION_RAILS.md` | ✅ New 5/23 | Canonical spec for state vocabulary, trigger/default/backstop rails, active-decision index, cluster rails, and promotion rules. |
 | `PROME/DECISION_ARTIFACTS_INDEX.md` | ✅ New 5/23 | Inventory/taxonomy of action cards, trigger sets, decision memos, trade logs, and promotion rules. |
 | `PROME/action-cards/TLT_JUN18_DECISION_2026-05-22.md` | ✅ Active 5/22 | TLT Jun18 $85P 2/1 split + Sep 19 $85P roll. State now explicit: `BROKER_PENDING` — Will approved 5/22; Tue 5/26 broker window opened, intraday $85.09 below C2 $85.20 trigger; Wed 5/27 fresh session-1 candidate. Conditional triggers C1–C5 live through 6/06 EOD. |
-| `PROME/action-cards/JUN18_EXPIRY_CLUSTER_2026.md` | ✅ `PROPOSED` 5/25 (CC) | Will-facing wrapper around `FORGE/trigger-sets/JUN18_CLUSTER_2026-06-18.md` (v0.2). Default-pass applied 5/25 (BROCK + REGINALD silent at 5/24 EOD). Default: no trigger = let theta-killers expire. Next: Will review approval packet. |
-| `PROME/action-cards/JUN18_V0.2_APPROVAL_PACKET_2026-05-25.md` | ✅ New 5/25 (CC) | Will-decision artifact for v0.2 adoption. Three default-picks PROME made: A1 HYG no pre-spec (BROCK validates at fire); A5 WAL $67.5P → Sep; A6 KRE → Aug 21. |
-| `FORGE/trigger-sets/JUN18_CLUSTER_2026-06-18.md` | ✅ v0.2 `PROPOSED` 5/25 (CC) | Source-of-truth for 6/18 cluster execution rail. Pending language stripped; default-picks locked; calibration tracking shows BROCK/REGINALD default-pass + HENRY routed to TLT card. |
+| `PROME/action-cards/JUN18_EXPIRY_CLUSTER_2026.md` | ✅ `WILL_APPROVED` 5/26 (CC) | Will-facing wrapper around `FORGE/trigger-sets/JUN18_CLUSTER_2026-06-18.md` (v0.2). Live monitoring rail; daily R1-R4 + position-level scan; on fire, spawn domain agent. |
+| `PROME/action-cards/JUN18_V0.2_APPROVAL_PACKET_2026-05-25.md` | ✅ `WILL_APPROVED` 5/26 (CC) | Will-decision artifact; Decision Log section records approval, default-picks adopted, and scope-limits (WAL Q2-print gap + AAL Jul 17 standalone) disclosed pre-approval. |
+| `FORGE/trigger-sets/JUN18_CLUSTER_2026-06-18.md` | ✅ v0.2 `WILL_APPROVED` 5/26 (CC) | Source-of-truth for 6/18 cluster execution rail. Live through 2026-06-16 16:00 ET hard backstop. |
 | `PROME/archive/CC_HANDOFF_2026-05-pre-22.md` | ✅ New 5/24 (CC) | Archive of 5/17-5/21 CC HANDOFF entries (844 lines). Salvage manifest at top — 4 findings promoted to MEMORY before archive. |
 | `FORGE/tools/market-data/README.md` | ✅ Fresh May 21 (Citation Convention section added) | Canonical FRED date-stamp convention reference |
 | `FORGE/tools/market-data/dashboard.py` | ✅ Fresh May 21 (As-of column for FRED rows; `_date_stamp` helper) | Live tape; auto-displays observation date |
@@ -139,21 +139,23 @@
 
 ## Next Best Action
 
-**Current posture (5/26 15:50 ET intra-day):** Tue 5/26 broker window opened post-Memorial-Day; TLT triggers did not fire intraday ($85.09 close-area vs $85.20 C2 / $85.50 C1). Wed 5/27 now carries paired catalyst load (TLT C2 fresh session-1 candidate + Sumitomo ESR print).
+**Current posture (5/26 ~17:00 ET):** v0.2 6/18 cluster trigger set is now `WILL_APPROVED` and live monitoring through 2026-06-16 16:00 ET. Tue 5/26 TLT broker window opened, no fire intraday ($85.09 vs $85.20 C2). Wed 5/27 carries paired catalyst load (TLT C2 fresh session-1 candidate + Sumitomo ESR).
 
 **Immediate next action (likely next CC-Prome session — Wed 5/27 AM):**
-1. 🔴 **Wed 5/27 ~9:30 ET — TLT pre-open packet for Will.** Live tape pull, conditional-trigger read (C1 $85.50 / C2 $85.20×2 / C3 $82 / C5 substance), broker-ready order summary. C2 path requires Wed 5/27 ≥ $85.20 close to register as fresh session 1; if so, Thu 5/28 ≥ $85.20 close fires 2/1 split. After fills: FORGE/STATUS TLT row update + TRADE_DECISIONS fills log + action card → `COMPLETED`.
-2. 🟠 **Wed 5/27 PM — Sumitomo Life FY2025 ESR (SAM-owned).** If confirms Nippon/Meiji pattern, Channel 1 v1.5 downgrade warranted. PROME-side: fold into HEARTBEAT if Channel 1 weakens further.
-3. 🟠 **v0.2 Will review** — `PROME/action-cards/JUN18_V0.2_APPROVAL_PACKET_2026-05-25.md` sitting in Will's queue. No clock; could pair with TLT-execution review.
+1. 🔴 **Wed 5/27 ~9:30 ET — TLT pre-open packet for Will.** Live tape pull, conditional-trigger read (C1 $85.50 / C2 $85.20×2 / C3 $82 / C5 substance), broker-ready order summary. C2 path requires Wed 5/27 ≥ $85.20 close to register as fresh session 1; if so, Thu 5/28 ≥ $85.20 close fires 2/1 split.
+2. 🟠 **Wed 5/27 PM — Sumitomo Life FY2025 ESR (SAM-owned).** If confirms Nippon/Meiji pattern, Channel 1 v1.5 downgrade warranted.
+3. 🟠 **Daily 6/18 cluster monitor — START 5/27.** R1 VIX / R2 HY OAS / R3 KRE / R4 HY OAS dashboard scan + position-specific levels (WAL $73, KRE $63, EGBN $26). On any fire: spawn named domain agent → fresh Will approval for any roll.
 
 **Live Will-decision carries:**
 - TLT $85P × 3 → 2/1 split + Sep 19 $85P roll — **approved 5/22**. Tue 5/26 broker window opened, no trigger fire; Wed 5/27 next live read.
-- 6/18 cluster v0.2 — `PROPOSED`, awaiting Will review.
+- 6/18 cluster v0.2 — **`WILL_APPROVED` 5/26 ~17:00 ET. Live monitor active.**
 - SAM Sep-18 $60C × 5-10 contracts — pending post-CPI cheaper entry, deferred until post-Sumitomo.
 - FXY $58C reconciliation.
 - TLT $88P May 15 disposition unknown.
 - VIOLET 4/15 VIX/SKEW trade adjudication — 60d window closes ~6/12.
 - APD long thesis tag unassigned.
+- **WAL Sep $67.5P × N fresh Q2-print exposure** — surfaces ~6/13 EOD or paired with 6/16 backstop sweep (per ACTIVE_DECISIONS Next Candidate row).
+- **AAL Jul 17 $10P × 1 standalone** — surfaces post-6/16 backstop.
 - TODAY.md / CALENDAR.md broader refresh; HEARTBEAT cadence design open.
 
-**Pre-6/16 FOMC:** v0.2 approval still needed for daily monitor activation. All R1-R4 triggers MORE benign than at v0.2 ship (5/26 tape).
+**v0.2 ship-state tape (5/26 16:10 ET):** all R1-R4 cushions equal or larger vs 5/22 v0.2-draft tape — tape direction confirms let-expire bias.

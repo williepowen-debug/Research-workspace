@@ -131,3 +131,52 @@ Will owns broker execution. Prome needs fill prices or explicit Will confirmatio
 **Outcome:** Pending
 
 **Lesson:** Fill later — but provisional lesson already surfaced in conversation: **strategic directional reads need strategic-horizon vehicles; using tactical-horizon contracts (17 days) for strategic theses (multi-month structural pressure) is a vehicle-thesis mismatch that gets cured by rolling out, not by hoping the catalyst lands in window.** Worth saving to memory if Will agrees post-fill.
+
+---
+
+## 2026-05-26 ~17:00 ET — 6/18 Theta-Killer Cluster Trigger Set v0.2: Adopt as Live Execution Rail
+
+**Context:**
+6/18 expiry cluster has 5 theta-killer positions down ~87-94% (HYG ×8, EGBN ×1, WAL $65 ×1, WAL $67.5 ×2, KRE ×1) plus 3 dropped orphans (AAL Jun ×2, CF ×1, AAL Jul standalone). v0.1 was Will-authorized 5/22 with 3 calibration questions out to BROCK/REGINALD/HENRY. By 5/24 EOD: HENRY replied (TLT routed to its own card), BROCK + REGINALD silent. v0.2 default-pass applied 5/25 — pure pending-language-strip + default-pick lock. v0.2 entered Will-review state with approval packet `JUN18_V0.2_APPROVAL_PACKET_2026-05-25.md`. Earlier this session (5/26) Prome ran a pre-approval review pass — surfaced WAL Q2-print gap + AAL Jul 17 standalone scope-limit, refreshed stale 5/22 tape table to 5/26 16:10 ET, added two Next Candidate rows to ACTIVE_DECISIONS. Will then approved.
+
+**References:**
+- `PROME/action-cards/JUN18_V0.2_APPROVAL_PACKET_2026-05-25.md` (Will-decision artifact + Decision Log section)
+- `PROME/action-cards/JUN18_EXPIRY_CLUSTER_2026.md` (wrapper action card, `WILL_APPROVED`)
+- `FORGE/trigger-sets/JUN18_CLUSTER_2026-06-18.md` (source trigger set, v0.2 `WILL_APPROVED`)
+- `PROME/ACTIVE_DECISIONS.md` (live row state + Next Candidate rows for Q2-print + AAL Jul 17)
+- `PROME/EXECUTION_RAILS.md` (canonical state-vocabulary spec)
+
+**Options considered:**
+1. **Adopt v0.2 clean as let-expire-default rail** (Prome recommended; chosen) — Q2-print exposure handled as separate decision around 6/13 EOD review or 6/16 backstop sweep
+2. **Embed time-trigger in v0.2 for Q2-print fresh-open** — rejected; violates v0.2 "no new trigger IDs" discipline; conflates loss-management with fresh-position-opening
+3. **Override A1/A5/A6 default-picks** — Will held with all three defaults
+
+**Recommendation:**
+Prome recommended (1). Three reasons: rail discipline (v0.2 scoped to loss-management at expiry, not new-exposure forward decisions), decision quality (fresh Sep $67.5P × N wants live marks/IV/sizing at decision time, not pre-approved embedding), cleaner approval contract.
+
+**Decision state:** `WILL_APPROVED`
+Live monitoring rail through 2026-06-16 16:00 ET hard backstop. No trade pending — daily monitor only.
+
+**Will decision:** ✅ **Approved 2026-05-26 ~17:00 ET**
+Adopt 6/18 trigger set as live execution rail v0.2 with A1 HYG no-pre-spec / A5 WAL $67.5P → Sep / A6 KRE → Aug 21 defaults as drafted. No regime trigger fires at approval time (R1 VIX 16.92 / R2 HY OAS 274 / R3 KRE $70.24 / R4 HY OAS 274 — all cushions equal or larger vs v0.2 ship). Position-specific levels also not firing (WAL $79.56 vs $73 trigger).
+
+**Action taken:**
+- `JUN18_EXPIRY_CLUSTER_2026.md` PROPOSED → `WILL_APPROVED`
+- `JUN18_V0.2_APPROVAL_PACKET_2026-05-25.md` PROPOSED → `WILL_APPROVED` + Decision Log appended
+- `FORGE/trigger-sets/JUN18_CLUSTER_2026-06-18.md` v0.2 PROPOSED → v0.2 `WILL_APPROVED`
+- `ACTIVE_DECISIONS.md` row updated to `WILL_APPROVED`; Next column = daily monitor + spawn-on-fire
+- Two Next Candidate rows added (WAL Q2-print fresh-open; AAL Jul 17 orphan)
+- This entry logged
+
+**Next owner / verification needed:**
+Prome owns daily dashboard scan of R1-R4 + position-specific levels through 6/16. Any trigger fire → spawn named domain agent (BROCK for credit, REGINALD for banks) → fresh Will approval for any roll. Will owns final-trade approval on every fire event.
+
+**Follow-up date / trigger:**
+- Any R1-R4 fire (single-trigger arms cluster review; double-trigger escalates to roll-default unless thesis contradicts)
+- Position-specific trigger: WAL <$73 close / KRE <$63 close / EGBN <$26 / sub-90¢ BDC arms-length / bank PC loss disclosure
+- **6/13 EOD review** — surface WAL Sep $67.5P × N fresh Q2-print exposure decision as its own action card (if not yet triggered by earlier fire)
+- **2026-06-16 16:00 ET** — hard backstop sweep; untriggered theta-killer lines let-expire; surface AAL Jul 17 standalone as its own decision
+
+**Outcome:** Live monitoring active. First proof-test for the pre-registered execution-rails pattern (closes BROCK LESSONS #16 execution-rails gap that killed the HYG Hamilton Jun→Dec roll in Apr dark window).
+
+**Lesson:** Pending end-to-end through 6/18. Pattern-level finding to watch for: does pre-registered trigger discipline survive a real fire event vs. the "should I roll?" judgment-in-the-moment drift it's designed to prevent?
