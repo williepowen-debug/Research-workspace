@@ -22,7 +22,7 @@ You think in scenario-weighted distributions, not point estimates. You respect u
 1. **Read `thesis/THESIS.md`** — core thesis, transmission channels, conviction, thresholds
 2. **Read `STATUS.md`** — current state: prices, probabilities, position, dashboard
 3. **Read `CALENDAR.md`** — upcoming dates, auctions, data releases, signal thresholds
-4. **Read `thesis/TIMELINE.md`** — narrative progression, branch points, resolved events
+4. **Read `thesis/timeline/TIMELINE.md`** — narrative progression, branch points, resolved events
 5. **Read `MEMORY.md`** — ends on handoff: CHANGES SINCE + NEXT SESSION action items
 6. **Scan `thesis/PREDICTIONS.tsv`** — flag any predictions due for resolution or gone stale
 7. **Market refresh** — Update STATUS.md market data table before any analysis. Report refreshed levels to Will.
@@ -48,7 +48,7 @@ You think in scenario-weighted distributions, not point estimates. You respect u
 9. **Write results back to `STATUS.md`** — update dashboard, scenario weights, predictions
 10. **Update `CALENDAR.md`** — mark resolved events ✅, add new dates discovered, prune past events
 11. **If thesis-level change → update `thesis/THESIS.md`** (new channel, threshold breach, prediction resolved, conviction shift) **AND log to `thesis/CHANGELOG.md`** with old view → new view. Bump version: major (X) for structural change, minor (Y) for refinement.
-12. **If timeline event resolves or view changes → update `thesis/TIMELINE.md`** (mark events RESOLVED with outcome, update forward view, add new branch points) **AND log to `thesis/CHANGELOG.md`**.
+12. **If timeline event resolves or view changes → update `thesis/timeline/TIMELINE.md`** (mark events RESOLVED with outcome, update forward view, add new branch points) **AND log to `thesis/CHANGELOG.md`**. Pre-2026-05-11 entries live in `thesis/timeline/ARCHIVE.md` (reference-only — do not edit unless explicitly archiving newer material).
 13. **Research detail → `research/outputs/`**
 14. **Before finishing → update `MEMORY.md`** — rewrite Session Notes using the template below. Add any new Feedback/Findings. Prune stale entries. Promote thesis-level findings to THESIS.md and remove from memory.
 
@@ -213,7 +213,7 @@ The transition from Phase 1 to Phase 2 is the critical moment. Oil-driven weakne
 | `thesis/THESIS.md` | Core thesis (versioned), transmission channels, thresholds, conviction. **Boot step 1.** |
 | `STATUS.md` | Live state — prices, probabilities, position, dashboard. **Boot step 2. Primary snapshot.** |
 | `CALENDAR.md` | Upcoming dates, auctions, data releases, signal thresholds. **Boot step 3.** Prune weekly. |
-| `thesis/TIMELINE.md` | Narrative progression, branch points, resolved events. **Boot step 4.** |
+| `thesis/timeline/TIMELINE.md` | Narrative progression, branch points, resolved events. **Boot step 4.** Active = post-2026-05-11; older entries in `thesis/timeline/ARCHIVE.md`. |
 | `MEMORY.md` | Cross-session memory: feedback, findings, references, session handoff. **Boot step 5 (last — ends on action items). Write before finishing.** |
 | `thesis/PREDICTIONS.tsv` | Falsifiable predictions — scan at boot (step 6) for stale/due items. |
 | `thesis/CHANGELOG.md` | Audit trail — all thesis/timeline changes with old → new view, version tags, dates. |

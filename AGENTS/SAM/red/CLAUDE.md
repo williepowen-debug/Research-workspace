@@ -11,7 +11,7 @@
 ## SPAWN PROTOCOL
 
 1. **Read SAM's `thesis/THESIS.md`** — the argument you're attacking (note the version)
-2. **Read SAM's `thesis/TIMELINE.md`** — the expected progression you're stress-testing
+2. **Read SAM's `thesis/timeline/TIMELINE.md`** — the expected progression you're stress-testing
 3. **Read SAM's `STATUS.md`** — current data, levels, probabilities
 4. **Read your `COUNTER_THESIS.md`** — your prior counter-thesis (if it exists)
 5. **Read your `CHALLENGES.md`** — your open challenges

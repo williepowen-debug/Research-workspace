@@ -1,9 +1,10 @@
-# SAM THESIS — v1.4
+# SAM THESIS — v1.4 (v1.5 candidate pending Sumitomo May 27)
 
 **Version:** 1.4
-**Last Updated:** 2026-05-21 (post Apr 30 + May 6 MOF interventions, Bessent affirmation, JGB 30Y breaching 4.0%, April trade balance Phase 1 inversion, ESR disclosures delayed)
-**Status:** 🟠 THESIS STRENGTHENED — JGB 30Y at 4.0% severe-insurer-stress threshold; USDJPY 159.19 in intervention #3 zone; June BOJ swap pricing 74%
-**Conviction:** HIGH
+**Last Updated:** 2026-05-26 (Big 3 ESR Day 1 — Nippon 195% M&A-driven, Meiji 208% manageable; Channel 1 thesis materially weakened; v1.5 reframe deferred to post-Sumitomo)
+**Status:** 🟠 MIXED — Channel 1 weakened (ESR pressure absorbed via M&A capital action, not forced selling); Channel 2 (June BOJ 55-65%) now dominant remaining trigger; Channel 3 dormant (intervention #3 zone defused on Brent -12%)
+**Conviction:** HIGH on direction; MEDIUM on near-term timing
+**Current state (daily snapshot):** see `STATUS.md`
 
 ---
 
@@ -125,44 +126,21 @@ CFTC net short JPY still BUILDING (not covering) — May 1 release (Apr 28 data)
 
 ---
 
-## CATALYST SEQUENCE (v1.4 refresh, May 21 update)
+## CATALYST SEQUENCE
 
-### Resolved (Apr 13 → May 21)
-
-| Date | Catalyst | Outcome |
-|------|----------|---------|
-| Apr 14 | 20Y JGB auction | ✅ BULL — BTC 4.82x, tail 0.2bp (exceptional demand; super-long strike not broadening) |
-| Apr 15 | Feb TIC data | ❌ BEAR — Japan UST holdings ROSE to $1,239.3B (+$53.8B Dec→Feb). SAM-17 FALSE. |
-| Apr 16 | MOF ITS weekly (DECISIVE) | ❌ BEAR — Apr 5-11 +¥698B net BUYING; 4W rolling at BASE pace (not stress). SAM-18 FALSE. |
-| Apr 21-25 | Big 4 insurer FY2026 plans | 🟡 Zero clean foreign bond CUTS — rotation within (unhedged → hedged). SAM-19 FALSE. |
-| Apr 22 | Ceasefire expiry | 🟡 EXTENDED (not indefinite); Hormuz blockade continues; Iran seized 2 ships |
-| Apr 22 | March trade balance | ❌ BEAR (Phase 1) — ¥+667B SURPLUS (+25.9% YoY); exports +11.7% absorbed oil cost |
-| Apr 22 | Nippon Life FY2026 briefing | 🟡 Reducing yen bonds; foreign allocation ambiguous |
-| Apr 24 | March CPI core | 🟡 1.8% (accelerated from 1.6%, still below target 2nd month) |
-| **Apr 28** | **BOJ meeting** | ✅ **MODAL+ — HOLD 0.75% + 3 dissents (biggest split since 2016) + GDP cut FY26 1.0%→0.5% + inflation upgrade. Swap pricing 74% June hike. SAM-20 FALSE; SAM-21 BULL.** |
-| **Apr 28** | **Brent (Trump rejects Iran Hormuz proposal)** | 🔴 +12% in 4 days to $111.26 settle — Phase 1 oil pressure reasserts |
-| **Apr 29-30** | **Tokyo session reprice + Katayama/Aida response + 2Y JGB auction** | ✅ **BULL FORK** — USDJPY -2.4y to 157.19, FXY +1.98% to $58.63 (Tranche 2 zone hit), politics quiet (no D2 escalation), 2Y BTC 5.24x tail 0.005y |
-| **May 1** | **BOJ MPM secondary** | 🟡 Calendar artifact — no actual policy event; Apr 28 was THE meeting |
-| **May 1** | **CFTC JPY release (Apr 28 data)** | 🔴 BULL FORK — net short DEEPENED to -102,059 (+7,599 build); shorts pressed THROUGH BOJ event = no cover on hawkish hold; 56.7% Jul24 peak (highest of cycle) |
-| **May 1-3** | **Iran/Hormuz de-escalation step** | 🟡 AMBIGUOUS — Trump May 1 "TERMINATED" letter, Iran May 2 14-pt proposal (maximalist), May 4 "Project Freedom" Navy escort start |
-| **Apr 30 + May 6** | **MOF interventions #1 + #2** | ✅ CONFIRMED — ~¥10T ($63.5B) combined (largest since 2022); USDJPY intraday 160.70 → 155.55 then 157.89 → 155.05; both reclaimed same-day |
-| **May 8** | CFTC JPY release (May 5 data) | ✅ BEAR FORK → BULL FORK — net short collapsed -102,059 → -61,738 (first cover of cycle, -39.5%). SAM-22 FALSE. **Cover has since reversed — shorts re-building per latest data.** |
-| **May 11-12** | Bessent-Katayama Tokyo meeting | ✅ STRUCTURAL BULL — public US affirmation of Japan FX intervention; promoted to Channel 3 v1.4 pillar |
-| **May 15** | JGB 30Y breaches 4.000% | 🔴 STRUCTURAL — severe insurer stress threshold hit, driven by J-ICS lifer abandonment of long end. 10Y also at 29-yr high (2.77%). |
-| **May 13-15** | Dai-ichi FY2025 ESR | 🟢 ~220% (above 200% trigger); least-representative read (most equity-heavy of Big 4) |
-| **May 19** | Q1 2026 GDP prelim | ✅ BEAT — +2.1% ann vs +1.7% est; net exports drove. June BOJ hike on track. EWJ-put contraction trigger DID NOT fire. |
-| **May 21** | April trade balance | 🔴 v1.4 THESIS FINDING — ¥+301.9B SURPLUS (vs deficit consensus) via -64% YoY crude import volume collapse. **Phase 1 mechanism INVERTED under blockade conditions.** |
+*Resolved-event narratives live in [`timeline/TIMELINE.md`](timeline/TIMELINE.md) (active) and [`timeline/ARCHIVE.md`](timeline/ARCHIVE.md) (pre-May 11). This section keeps forward-looking only.*
 
 ### Forward
 
 | Date | Catalyst | Expected Impact |
 |------|----------|-----------------------|
-| **Fri May 22** | Japan April CPI | Tokyo leading 1.5%; national consensus 1.7% core. Soft = does NOT lock June, swap likely fades 74% → 60-65%. ≥2.0% = locks. |
-| **May 25-29** | **Big 3 mutual ESR disclosures (Nippon, Meiji Yasuda, Sumitomo)** | PRIMARY Channel 1 test. <200% any = stress-case rebalance trigger. |
-| **Ongoing** | Intervention #3 watch | USDJPY 159+ = trigger zone live. Bessent affirmation removes diplomatic friction. SAM-23 @75%. |
-| **Mid-June** | BOJ MPM — base case hike (SAM-21 70%; market 74%) | Hike to 1.00% = FXY +5-8% structural. SAM-24 @85% (25bp not 50bp). |
-| **Jun 16** | Sato joins BOJ board (hawk→dove swap) | Medium-term political risk post-June |
-| **Mid-June** | BOJ meeting — BASE CASE HIKE (SAM-21 70%; market 74%) | Structural yen move; carry unwind fires |
+| **Wed May 27** | **Sumitomo Life FY2025 ESR** (last of Big 3 disclosure window) | Channel 1 pattern-confirmation test. If matches Nippon (capital-action-not-stress) → v1.5 Channel 1 downgrade. If <200% via market stress → Channel 1 reactivates. |
+| **Thu-Fri May 28-29** | Tokyo May CPI | Leading indicator for June national. Core-core <1.9% → June BOJ pricing breaks lower from 55-65%. |
+| **Ongoing** | Intervention #3 watch | USDJPY 159+ = trigger zone. Brent collapse defused near-term (SAM-23 fading 75% → ~55%). Reactivates if Iran MOU collapses. |
+| **🔴🔴 Tue Jun 16** | **BOJ MPM — BASE CASE HIKE to 1.00%** (SAM-21 ~57%; market 55-65%; SAM-24 25bp @85%) | Hike = FXY +5-8% structural; carry unwind fires. Dominant remaining catalyst given Channel 1 deferral. |
+| Jun 16 | Sato joins BOJ board (hawk→dove swap) | Medium-term political risk post-June (beyond 1.00% gets harder) |
+
+*Operational forward calendar (with current status, daily tracking) lives in `CALENDAR.md`.*
 
 ---
 
@@ -201,28 +179,27 @@ If cascade → recession → Fed cuts → USD weakens → JPY sub-145 WITHOUT BO
 
 ## POSITION VIEW
 
-**FXY (CurrencyShares Japanese Yen Trust):** Long. 8 shares (4 starter + Tranche 1 executed). Entry ~$57.36.
+**Vehicle:** FXY (CurrencyShares Japanese Yen Trust) — long, sized to capture carry unwind. Target $60-62 / USD/JPY 148-152 (6-month). Stop $55.05 / USD/JPY 167 (thesis break: no MOF + BOJ turns dovish).
 
-- Tranche 2: +4 shares on confirmation (BOJ or intervention dip)
-- Target: $60-62 / USD/JPY 148-152 (6-month)
-- Stop: ~$55.05 / USD/JPY 167 (thesis break: no MOF + BOJ turns dovish)
+*Current size, blended entry, and tranche state live in `STATUS.md` and `TRADE.md`. Decision playbook (when to add/hold/exit, vol-signal interpretation) lives in `STRATEGY.md`.*
 
 ---
 
 ## KEY THRESHOLDS
 
-| Level | Significance | Status (May 21) |
-|-------|-------------|--------|
-| USD/JPY 160 | MOF intervention trigger | 🟠 159.19 — 0.5% away, **inside intervention #3 trigger zone** |
-| USD/JPY 155 | Phase 2 carry unwind onset | NEAR-MISS twice (Apr 30 155.55, May 6 155.05) |
-| USD/JPY 147 | Forced carry unwind | SET |
-| USD/JPY 145 | Unhedged positions underwater → mechanical selling | SET |
-| USD/JPY 130-135 | Life insurer forced systematic selling (avg entry for unhedged) | SET |
-| JGB 10Y 2.40% | Stress crossover | 🔴 BREACHED — 2.770% (May 20, 29yr high) |
-| JGB 30Y 4.0% | Severe insurer stress / acceleration zone | 🔴 **BREACHED — 4.000% (May 20), driven by J-ICS lifer abandonment of long end** |
-| JGB 40Y | — | 🟠 3.990%, at-threshold |
-| Brent $120 | Kharg Island scenario | 🟠 $107.84 — Phase 1 pressure persists |
-| BOJ rate 0.75% | Political ceiling (mortgage constraint) | 🔴 AT CEILING — next hike (June 16 base case) breaches |
+Structural levels that gate thesis paths. *Current values + breach status live in `STATUS.md`.*
+
+| Level | Significance |
+|-------|-------------|
+| USD/JPY 160 | MOF intervention trigger |
+| USD/JPY 155 | Phase 2 carry unwind onset |
+| USD/JPY 147 | Forced carry unwind |
+| USD/JPY 145 | Unhedged positions underwater → mechanical selling |
+| USD/JPY 130-135 | Life insurer forced systematic selling (avg entry for unhedged) |
+| JGB 10Y 2.40% | Stress crossover |
+| JGB 30Y 4.0% | Severe insurer stress / acceleration zone (J-ICS lifer long-end abandonment driver) |
+| Brent $120 | Kharg Island scenario (Phase 1 oil shock) |
+| BOJ rate 0.75% | Political ceiling (Takaichi mortgage constraint) — next hike breaches |
 
 ---
 
@@ -240,27 +217,9 @@ If cascade → recession → Fed cuts → USD weakens → JPY sub-145 WITHOUT BO
 
 ---
 
-## CONFIRMED PREDICTIONS
+## PREDICTIONS
 
-| ID | Prediction | Result |
-|----|-----------|--------|
-| SAM-04 | JGB 30Y stays <4.0% through Q1 | TRUE — peaked 3.692% (Mar 27); held below threshold |
-| SAM-05 | BOJ signals faster hikes post-election | TRUE — Takata dissented for 1.0%, "raise without hesitation" |
-| SAM-06 | Life insurers announce more JGB selling | TRUE — Fukoku first to stop 30Y/40Y; Nippon Life ¥220B realized; Feb MOF ¥3.42T |
-| SAM-07 | Strong Shunto ≥3.5% | TRUE — 5.26% confirmed |
-| SAM-13 | MOF weekly net selling >¥500B/mo | TRUE |
-| SAM-16 | 20Y JGB BTC ≥2.5x (Apr 14) | TRUE — BTC 4.82x, tail 0.2bp (Apr 14 v1.3) |
-
-## FALSIFIED PREDICTIONS (calibration)
-
-| ID | Prediction | Result |
-|----|-----------|--------|
-| SAM-08 | April BOJ hike to 1.00% if Shunto strong (90%) | FALSE — Shunto met (5.26%) but BOJ held 0.75% Apr 28; 90%-conf calibration miss; political ceiling overrode data case |
-| SAM-17 | Feb TIC Japan UST net selling >$10B (65%) | FALSE — Japan holdings ROSE +$53.8B Dec→Feb. Stock vs flow miss. |
-| SAM-18 | MOF Apr 5-11 LT-debt selling >¥1.5T (55%) | FALSE — actual +¥698B net BUYING. Mar 29-Apr 4 was FY-end spike. |
-| SAM-19 | ≥2 of first 5 insurer FY2026 plans announce foreign bond cuts (75%) | FALSE — zero clean cuts; rotation within (unhedged → hedged); v1.4 nuance candidate |
-| SAM-20 | BOJ hikes to 1.00% at April 28 (60%) | FALSE — held 0.75% with 3 dissents; same lesson as SAM-08 (Takaichi 0.75% line binding) |
-| SAM-22 | CFTC JPY net short does NOT cover below -75K through June BOJ (65%) | FALSE — May 5 release -61,738 crossed above -75K by 13K. Cause: MOF intervention + Bessent affirmation = mass cover event. Should have prob-weighted intervention scenarios into the prediction. Half the unwind fuel burned through intervention itself. |
+*Canonical source: [`PREDICTIONS.tsv`](PREDICTIONS.tsv). Calibration scoreboard at top of that file lists OPEN positions, RESOLVED-special (SAM-25 threshold-vs-mechanism), 6 FAILED with lessons, 7 CONFIRMED. Failure-pattern synthesis (political ceiling, stock-vs-flow, intervention prob-weighting, threshold-vs-mechanism) is the working calibration warning before writing any new prediction.*
 
 ---
 
