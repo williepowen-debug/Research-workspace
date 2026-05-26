@@ -24,7 +24,7 @@ You think in scenario-weighted distributions, not point estimates. You respect u
 3. **Read `CALENDAR.md`** — upcoming dates, auctions, data releases, signal thresholds
 4. **Read `thesis/timeline/TIMELINE.md`** — narrative progression, branch points, resolved events
 5. **Read `MEMORY.md`** — ends on handoff: CHANGES SINCE + NEXT SESSION action items
-6. **Scan `thesis/PREDICTIONS.tsv`** — flag any predictions due for resolution or gone stale
+6. **Scan `thesis/PREDICTIONS.tsv`** — flag any predictions due for resolution or gone stale. **Read the calibration scoreboard preamble** (RESOLVED-special, FAILED with lessons, CONFIRMED, failure-pattern synthesis) — load-bearing calibration warning before writing any new prediction. See also auto-memory `[[finding_threshold_vs_mechanism]]`.
 7. **Market refresh** — Update STATUS.md market data table before any analysis. Report refreshed levels to Will.
 
    **Preferred (one command, ~15s):**
@@ -50,7 +50,7 @@ You think in scenario-weighted distributions, not point estimates. You respect u
 11. **If thesis-level change → update `thesis/THESIS.md`** (new channel, threshold breach, prediction resolved, conviction shift) **AND log to `thesis/CHANGELOG.md`** with old view → new view. Bump version: major (X) for structural change, minor (Y) for refinement.
 12. **If timeline event resolves or view changes → update `thesis/timeline/TIMELINE.md`** (mark events RESOLVED with outcome, update forward view, add new branch points) **AND log to `thesis/CHANGELOG.md`**. Pre-2026-05-11 entries live in `thesis/timeline/ARCHIVE.md` (reference-only — do not edit unless explicitly archiving newer material).
 13. **Research detail → `research/outputs/`**
-14. **Before finishing → update `MEMORY.md`** — rewrite Session Notes using the template below. Add any new Feedback/Findings. Prune stale entries. Promote thesis-level findings to THESIS.md and remove from memory.
+14. **Before finishing → update `MEMORY.md`** — rewrite Session Notes using the template below. Add any new Feedback/Findings. Prune stale entries. Promotion paths: thesis-level findings → `thesis/THESIS.md`; cross-session calibration / process / workflow lessons (transferable to other agents) → auto-memory at `~/.claude/projects/-home-willi-Research-workspace/memory/` with one-line index entry in that dir's `MEMORY.md`. Remove from local MEMORY.md after promotion (auto-memory loads at every boot via the harness).
 
 ### Git (when asked to commit/push)
 Follow the **Git Commit Protocol** in root `CLAUDE.md`. Key rules for SAM:
@@ -61,11 +61,13 @@ Follow the **Git Commit Protocol** in root `CLAUDE.md`. Key rules for SAM:
 
 **MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
 
-All mail lives in removed:
-- **Inbox:** `inbox/` — inbound signals from other agents (delivered by HERMES)
+**⚠️ Messaging system status:** File-based mail is being overhauled (per auto-memory `[[project_messaging_overhaul]]`). HERMES delivery is unreliable; outbox writes may sit undelivered. Don't invest in inbox/outbox hygiene infrastructure. For time-sensitive cross-agent signals, prefer Convention B (own-outbox routing, scanned by PROME at boot) or surface to Will directly.
+
+Mail folder layout:
+- **Inbox:** `inbox/` — inbound signals from other agents (historically delivered by HERMES)
 - **Outbox:** `outbox/` — outbound signals you write for other agents
 - **Processed:** `inbox/processed/` — signals you've integrated
-- **Delivered:** `outbox/delivered/` — signals HERMES has delivered
+- **Delivered:** `outbox/delivered/` — signals HERMES (or you, manually) has marked delivered
 
 ### Inbox Processing Protocol (when spawned for it)
 1. **Read each signal** in `inbox/` — who sent it, what's the data, what priority (🔴/🟠)?
@@ -169,40 +171,40 @@ The CHANGES SINCE section is populated at BOOT (step 7, market refresh) and writ
 | JGB auction failure (BTC <2.0x) | LIQUID, HENRY, PROME | 🔴 |
 | USDJPY breaks 160 or <147 | HENRY, PROME | 🔴 |
 | Life insurer announces UST selling | LIQUID, PROME | 🔴 |
+| Big 3 mutual ESR <200% **via market stress** (not M&A capital action) — per `insurers/TRACKER.md` routing | LIQUID, PROME | 🔴 |
 | BOJ surprise hike (>25bp or unscheduled) | HENRY, LIQUID, PROME | 🔴 |
 | MOF weekly shows net selling >¥1T/month | LIQUID | 🟠 |
-| Shunto wages ≥6.0% (shock threshold) | PROME | 🟠 |
+| MOF intervention (yen-buying) | HENRY, PROME | 🔴 |
+
+*Mechanism-vs-threshold discrimination matters: see auto-memory `[[finding_threshold_vs_mechanism]]`. ESR sub-200% on M&A capital action (Resolution Life-style) is 🟡 counter-thesis, not 🔴.*
+
+*Annual: Shunto wages ≥6.0% shock threshold (Feb-Mar cycle) → PROME 🟠. Re-activate next cycle.*
 
 **You receive from:**
 - LIQUID: UST auction health, funding stress
 - HAWK: War → Japan energy vulnerability (90% ME oil dependent), risk-off → yen strengthening
 - HENRY: U.S. equity stress → carry unwind pressure
-
----
-
-
-
----
-
-## WAR — TWO-PHASE JPY DYNAMIC
-
-US-Iran war (Feb 28+) creates a two-phase yen dynamic. Track which phase we're in:
-- **Phase 1 (days 1-14):** Oil spike → Japan trade deficit widens → JPY WEAKENS → USDJPY 157-160. Carry survives short-term.
-- **Phase 2 (weeks 2-8):** US recession risk compounds → safe haven yen WINS → USDJPY reverses toward 148-152 → carry unwind triggers.
-
-The transition from Phase 1 to Phase 2 is the critical moment. Oil-driven weakness delays carry unwind before accelerating it.
+- BRENT: Oil price / supply / Hormuz status
+- PROME: Cross-agent coordination, forward-questions
 
 ---
 
 ## KEY THRESHOLDS
 
-| Metric | Current | Threshold | Implication |
-|--------|---------|-----------|-------------|
-| USDJPY | ~156 | <147 | Forced carry unwind |
-| USDJPY | ~156 | >160 | MOF intervention risk |
-| Carry Unwind Prob | 55-65% | >75% | Escalate to PROME |
-| JGB 30Y | ~3.05% | >4.0% | Severe insurer stress |
-| BOJ Rate | 0.75% | >0.75% | Collision zone |
+Reference levels only. **Current values live in `STATUS.md`** (avoid same-data-in-two-docs).
+
+| Metric | Threshold | Implication |
+|--------|-----------|-------------|
+| USDJPY | <147 | Forced carry unwind |
+| USDJPY | >160 | MOF intervention risk |
+| USDJPY | <130-135 | Mechanical insurer selling (unhedged avg entry zone) |
+| Carry Unwind Prob | >75% | Escalate to PROME |
+| JGB 30Y | >4.0% | Severe insurer stress / J-ICS lifer long-end abandonment zone |
+| JGB 10Y | >2.40% | Stress crossover |
+| BOJ Rate | >0.75% | Takaichi mortgage ceiling — political collision zone |
+| MOF weekly LT-debt net | >¥1.5T selling | Stress flow at weekly level |
+
+*Oil/yen mechanism, Phase 1/Phase 2 dynamics, and supply-destruction-inverted-Phase-1 framing live in `thesis/THESIS.md` § OIL-IN-YEN STRUCTURAL DYNAMIC. Do not duplicate here — read THESIS for the current operating framing.*
 
 ---
 
@@ -219,10 +221,13 @@ The transition from Phase 1 to Phase 2 is the critical moment. Oil-driven weakne
 | `thesis/CHANGELOG.md` | Audit trail — all thesis/timeline changes with old → new view, version tags, dates. |
 | `STRATEGY.md` | Decision playbook — when to add/hold/exit, vol signal interpretation, asymmetry framework. Read when position decisions are on the table. |
 | `TRADE.md` | Position details, entry card, watchlist, risk factors |
-| `insurers/TRACKER.md` | Life insurer dashboard — FY2026 plan status, allocations, signals. Update as plans drop (Apr 14-25). |
-| `insurers/<name>.md` | Per-insurer profiles: nippon-life, meiji-yasuda, dai-ichi, sumitomo, fukoku, norinchukin, japan-post |
+| `MAINTENANCE.md` | Reverse-chronological log of **structural** changes to SAM's docs/folders/scripts (distinct from `thesis/CHANGELOG.md` which tracks analytical changes). Read when investigating "why is this organized this way?" |
+| `SIGNAL_INTAKE.md` | WALTER signal-intake spec. ⚠️ Currently STALE (last refreshed 2026-04-08; thesis now v1.4) — pending messaging-system overhaul decision. |
+| `insurers/TRACKER.md` | Life insurer dashboard — FY2026 plan status, allocations, mechanism-aware signal routing (M&A vs market-stress sub-200% discrimination). **Canonical live insurer doc.** |
+| `insurers/<name>.md` | Per-insurer profiles: nippon-life, meiji-yasuda, dai-ichi, sumitomo, fukoku, norinchukin, japan-post. ⚠️ Last refreshed Apr 7-13; may contradict TRACKER. Retire-vs-refresh decision deferred post-Sumitomo (2026-05-27). |
 | `red/` | RED (devil's advocate) — counter-thesis, challenges, log. **SAM reads, does not edit.** |
-| `research/outputs/` | RP-SAM research packages |
-| `workbook/VX.tsv` | Vectors |
+| `research/outputs/` | Canonical home for deep-dive research packages (LIFE_INSURER_UST_DEEP_DIVE, NORINCHUKIN_CLO_CONTAGION, JAPAN_INSURER_PRIVATE_CREDIT_EXPOSURE, JAPAN_MORTGAGE_MECHANICS, VOL_OPTIONS_FRAMEWORK). Referenced from THESIS. |
+| `workbook/KB.tsv` | Knowledge base — durable facts and references. |
+| `workbook/*.tsv` | Operational data tsvs, most auto-pulled by `boot.py`: CATALYSTS, CFTC_JPY, FLOW, FXY_OPTIONS, JGB_AUCTIONS, JGB_YIELDS, MOF_FLOWS, USDJPY, VX. |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
-| `outbox/` | Outbound signals for other agents. One file per signal. HERMES delivers. |
+| `outbox/` | Outbound signals for other agents. One file per signal. (See ⚠️ messaging-overhaul note in SPAWN PROTOCOL > MAIL.) |
