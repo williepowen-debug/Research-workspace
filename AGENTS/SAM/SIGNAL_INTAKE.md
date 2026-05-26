@@ -1,5 +1,7 @@
 # SAM — Signal Intake Spec
 
+> ⚠️ **STALE (last refreshed 2026-04-08; thesis now v1.4).** Priority levels and trigger lists below reflect v1.0 framing. Current canonical signal definitions live in `thesis/THESIS.md` (channels, thresholds) and `STATUS.md` (live state). File preserved for WALTER routing reference pending messaging-system overhaul decision. Do not treat as authoritative until refreshed.
+
 **Owner:** SAM | **Consumer:** WALTER (routing) | **Last Updated:** 2026-04-08
 **Domain:** Japan macro — BOJ, yen, carry trade, JGBs, institutional flows
 

@@ -8,6 +8,50 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
+## 2026-05-26 evening — Folder cleanup Pass 1a/1b/2a/2c (Will-directed audit response)
+
+**Trigger:** Will asked for folder-structure audit (post-Sumitomo pre-watch session). Audit surfaced ~6 weeks of accumulated dead-ends at SAM's edges; Will approved Pass 1a + 1b + 2a + 2c (deferred 2b insurer per-name files until post-Sumitomo; deferred Pass 3 research/ reorg).
+
+**Pass 1a — dead top-level dirs trashed:**
+- `recon/` (single Mar 15 file) — `git rm`
+- `domain/` (single Mar 17 file, superseded by `research/outputs/LIFE_INSURER_UST_DEEP_DIVE.md`) — `git rm`
+- `sources/` (3 Mar 17 files) — `git rm`
+- `session_archive/` (single Mar 3 STATUS archive) — `git rm`
+
+**Pass 1b — stale top-level files:**
+- `LAST_COMPLETION.md` (Apr 11 stale; absorbed by MEMORY.md "LAST SESSION" block) — `git rm`
+- `SIGNAL_INTAKE.md` (Apr 8 stale; thesis now v1.4) — added top-banner `⚠️ STALE` note pointing readers to THESIS/STATUS as canonical; file preserved for WALTER routing reference pending messaging-system overhaul decision
+
+**Pass 2a — workbook staging moved to workbook/archive/:**
+- `KB_STAGING_A.md`, `KB_STAGING_A_FORMATTED.tsv`, `KB_STAGING_B.md`, `KB_STAGING_B_FORMATTED.tsv` (Mar 30 unresolved staging)
+- `KB_BACKUP_10rows.tsv` (Mar 30)
+- `ML.tsv` (Mar 17), `VX_HISTORY.tsv` (Mar 17)
+- Live `workbook/` now shows only the 10 active tsvs (CATALYSTS, CFTC_JPY, FLOW, FXY_OPTIONS, JGB_AUCTIONS, JGB_YIELDS, KB, MOF_FLOWS, USDJPY, VX) + archive/
+
+**Pass 2c — inbox/outbox bankruptcy (one-time sweep per `project_messaging_overhaul`):**
+- *Inbox* — 7 files trashed after read-review. None held uncaptured signal: 2 info-only WALTER routes (IMF GFSR, Baker Hughes), 2 absorbed-into-thesis claims (Hormuz exposure, oil products inventory), 1 falsified claim (Japan UST-selling — Feb TIC contradicts), 1 tangential (equity rotation), 1 sweep superseded by Apr 30 + May 6 intervention integration.
+- *Outbox* — 2 Apr-era files trashed (6+ weeks stale, undelivered, superseded); 3 May 21 files moved to `delivered/` (recent, content preserved); current May 26 PROME tracker_cleanup_complete left in `outbox/`.
+
+**Files touched (`AGENTS/SAM/` only):**
+- Trashed: `recon/`, `domain/`, `sources/`, `session_archive/`, `LAST_COMPLETION.md`, 7 inbox files, 2 Apr-era outbox files
+- Moved: 7 workbook staging files → `workbook/archive/`; 3 May 21 outbox files → `outbox/delivered/`
+- Edited: `SIGNAL_INTAKE.md` (banner), `MAINTENANCE.md` (this entry)
+
+**Boot impact:**
+- `ls AGENTS/SAM/` now shows 7 top-level docs (was 9) + 9 subdirs (was 12 incl. dead). Cleaner orientation surface.
+- `ls workbook/` now shows live tsvs only; archive subdir holds the staging graveyard.
+- `inbox/` empty (processed/ unchanged); `outbox/` shows only current session's work.
+- No boot-sequence file path changes — all paths in CLAUDE.md boot steps unaffected.
+
+**Deferred:**
+- Pass 2b (insurers/<name>.md per-insurer profiles) — wait for post-Sumitomo Wed AM when Big 3 mutual state is fully resolved; then retire-vs-refresh decision is cheaper.
+- Pass 3 (research/ reorg into outputs/+archive/) — cosmetic, low behavioral impact, defer indefinitely.
+- SIGNAL_INTAKE full refresh — pending messaging-system overhaul direction.
+
+**Rationale (per [[feedback_audit_cleanup_ranking]] / 2026-05-26 lesson):** Cuts ranked by behavioral impact, not line-count. HIGH-impact dead dirs and stale top-level files cleared first; MED-impact workbook staging + inbox/outbox cleared because user opted in; LOW-impact research/ reorg deferred.
+
+---
+
 ## 2026-05-26 PM — TRACKER.md mechanism-aware routing + Channel 1 banner + staleness fixes (PROME cleanup ask + follow-up audit)
 
 **Trigger:** PROME signal `prome_2026-05-26_insurer_tracker_cleanup_request.md` — Will + PROME walked SAM domain to understand Channel 1; flagged stale alert rule ("ANY ESR <200% → 🔴") and missing mechanism-vs-threshold discrimination. Independent finding from same root as MEMORY 2026-05-26 (threshold-vs-mechanism trap on SAM-25). Follow-up audit (post-PROME-reply) caught two additional actively-wrong sections.
