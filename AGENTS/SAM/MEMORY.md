@@ -35,35 +35,39 @@
 ### CHANGES SINCE LAST SESSION
 *(populated at next boot — step 7 market refresh)*
 
-### LAST SESSION (2026-05-26 — Big 3 ESR Day 1 + boot-doc maintenance pass)
+### LAST SESSION (2026-05-26 — Big 3 ESR Day 1 + maintenance pass + PROME TRACKER cleanup + Sumitomo pre-watch)
 
-**Phase A (AM — Big 3 ESR Day 1):** Boot 9:36 AM ET; boot.py 12.7s, 7/8 green. Nippon Life FY2025 ESR 195% (vs 222%, -27pt) — breached 200% threshold BUT decomposition is M&A capital action (Resolution Life $10.6B subsidiarization, -28pt; economic environment only -4pt). Foreign book unrealized GAIN +¥3.99T (+¥909B YoY). Meiji Yasuda 208% (manageable; +¥709B GAIN). Market priced as capital action (USDJPY 158.95→159.24 yen WEAKER, FXY flat). **Channel 1 thesis materially weakened — "ESR forces UST sale" mechanism not evidenced.** Demoted to deferred-mechanism / structural-backstop. Channel 2 (June BOJ 55-65%) now dominant remaining trigger; Channel 3 dormant on Brent -12%. Carry unwind probs: 7d 22→17, 30d 70→65, 60d 88→83. **SAM-25 threshold-vs-mechanism trap fired in real-time** hours after logging same finding for SAM-26.
+**Day arc:** 4 phases — (A) AM Big 3 ESR resolution → (B) boot-doc maintenance pass → (C) PROME TRACKER cleanup (2-pass) → (D) Sumitomo pre-watch + PROME Phase 1 stability integration.
 
-**Phase B (PM — boot-doc maintenance pass):** Audited 6 boot-doc cleanup candidates, executed all. Boot context 1,230 → 815 lines (-34%). TIMELINE.md split into `thesis/timeline/{TIMELINE.md, ARCHIVE.md}` at May-11 cut. PREDICTIONS.tsv restructured in-place with `#`-preamble calibration scoreboard (Will pushed back on archive plan — preserved closed predictions as calibration record; that was the best decision of the session). THESIS.md de-duped (Catalyst Sequence resolved + predictions tables stripped; banner refreshed). THESIS residuals: forward catalyst table refreshed, KEY THRESHOLDS Status column stripped, POSITION VIEW collapsed to thesis-level. STATUS.md narrative compressed (40-line prose → 10 bullets; REFERENCE DATA condensed). New `MAINTENANCE.md` at SAM root tracks structural changes (distinct from analytical `thesis/CHANGELOG.md`). Co-located archive convention established (archives next to active doc; root `archive/` is legacy graveyard, do not add). Two commits pushed (b1f7be2a maintenance + beb1c124 workbook).
+**Channel 1 verdict (Phase A):** Nippon 195% M&A-driven (-28pt = Resolution Life $10.6B sub) + Meiji 208% manageable. Foreign books in unrealized GAIN at both. Tape priced as capital action (USDJPY 158.95→159.24, FXY flat). **"ESR forces UST sale" mechanism not evidenced.** Channel 1 demoted to deferred mechanism / structural backstop. Channel 2 (June BOJ 55-65%) now dominant remaining trigger. Channel 3 dormant on Brent -12%. Carry unwind probs: 7d 22→17, 30d 70→65, 60d 88→83. SAM-25 threshold-vs-mechanism trap fired in real-time.
 
-**Honest retro:** Maintenance pass ~30% behavioral-impact (PREDICTIONS scoreboard + transferable archive convention), ~70% cosmetic. See new finding 2026-05-26 "rank by behavioral impact before line-count impact."
+**TRACKER cleanup (Phase C):** PROME ask `prome_2026-05-26_insurer_tracker_cleanup_request.md` — replaced crude "ANY ESR <200% → 🔴" rule with mechanism-aware 5-row table; added Channel 1 "downgraded not dead" banner; refreshed key dates + Oct 2025 survey down-weighted. Pass 2 audit (Will-prompted "anything else?") caught 2 actively-wrong items NOT in PROME scope: JGB 30Y "BREACHED" vs STATUS 3.931% retraced (cross-doc conflict); Apr 12 Hormuz blockade section was v1.3-era backwards framing. **New auto-memory:** [[finding_followup_audit_pass]] from this pattern. Completion note to PROME via Convention B outbox.
 
-**Phase C (PM — PROME TRACKER cleanup):** PROME ask `prome_2026-05-26_insurer_tracker_cleanup_request.md` executed in 2 passes. Pass 1: Channel 1 status banner + mechanism-aware 5-row signal routing (deprecating "ANY ESR <200% → 🔴") + key dates refresh + Oct 2025 survey down-weighted. Pass 2 (Will-approved follow-up audit): JGB row refresh (30Y retraced 3.931% + SAM-26 lesson footnote) + oil-yen section rewritten to v1.4 (Phase 1 inversion + Phase 2 inception). Completion note to PROME via Convention B outbox. Maintenance log entry covers both passes + transferable lesson ("doc-cleanup asks benefit from follow-up audit pass — highest-impact remaining issues were adjacent to the ask, not in it"). Commit 43a1e308 pushed.
+**Sumitomo pre-watch + PROME Phase 1 signal (Phase D):** Sumitomo not out yet (~10 hrs early at session end). News sweep found: (1) Iran/Hormuz MOU hardened May 23-24 (Trump "largely negotiated"; Axios framework; Munir in Tehran; Tehran obstruction accusation = friction signal); (2) Bessent-Katayama May 19 Bloomberg adds G-7 support framing to Channel 3. PROME signal `prome_2026-05-26_phase1-inversion-stability-may-tbal-lag-test.md` arrived — independently verified v1.4 trade-balance numbers cross-surface (2nd concrete instance of [[finding_cross_surface_validation_pattern]]); raised forward-question on Phase 1 inversion stability. Integrated as TIMELINE Brent-entry extension + Bessent May 19 entry + THESIS § OIL-IN-YEN Phase 1 stability watch + CALENDAR Jun 18-19 routing row. **No STATUS edit** — Will pushed back when I proposed putting narrative into STATUS; routed correctly to TIMELINE/THESIS/CALENDAR. **New auto-memory:** [[feedback_doc_routing_data_drops]] from this catch.
 
-**Phase D (PM — Sumitomo pre-watch + PROME Phase 1 stability signal):** Pre-Sumitomo news sweep — Sumitomo not out yet (~10 hrs early). Two material findings: (1) Iran/Hormuz MOU has materially hardened May 23-24 (Trump "largely negotiated"; Axios published framework — 60d ceasefire + 30d Hormuz procedures + 60d nuclear; Pakistani Field Marshal Munir in Tehran), with friction signal (Tehran obstruction accusation). Reclassified STATUS framing from "rumor-tier" to "near-signed with friction." (2) Bessent-Katayama May 19 Bloomberg adds G-7 support framing to Channel 3. PROME signal `prome_2026-05-26_phase1-inversion-stability-may-tbal-lag-test.md` arrived — independently verified my v1.4 trade-balance numbers cross-surface (matches `finding_cross_surface_validation_pattern`); raised forward-question on whether April trade surplus was one-month volume-collapse spike or structural. Integrated as: TIMELINE Brent entry extended + Bessent May 19 entry added + THESIS § OIL-IN-YEN "Phase 1 stability watch" subsection + CALENDAR Jun 18-19 row with PROME 3-row routing. No STATUS edit (intraday drift = noise; tomorrow's boot.py refresh handles it).
+**Commits pushed:** b1f7be2a (maintenance) + beb1c124 (workbook) + 43a1e308 (TRACKER cleanup) + 271f70dd (Sumitomo pre-watch).
 
 **Position unchanged:** 13 shares + 1 Jun-18 $58C. Sep $60 calls deferred. Stop $55.05.
 
 ### NEXT SESSION
 
-**Imminent catalysts:**
-1. **🔴 Wed May 27: Sumitomo Life FY2025 ESR** (~15:00 JST / ~2-3 AM ET). IR page sumitomolife.co.jp/about/company/ir/settlement/. **Pattern-confirmation test.** Check: (a) ESR level, (b) decomposition (M&A vs market stress), (c) Symetra/US PC ($10.7B stack) exposure update, (d) JGB unrealized loss, (e) foreign securities mark. If matches Nippon (M&A-driven, foreign book intact) → v1.5 Channel 1 downgrade. If <200% via market stress → Channel 1 reactivates.
+**Imminent catalyst — IMMEDIATE on boot:**
+1. **🔴 Wed May 27: Sumitomo Life FY2025 ESR** (~15:00 JST / ~2-3 AM ET). IR: sumitomolife.co.jp/about/company/ir/settlement/. **Pattern-confirmation test.** Check: (a) ESR level + decomposition (M&A vs market stress), (b) Symetra/US PC ($10.7B stack) update, (c) JGB unrealized loss, (d) foreign securities mark, (e) any explicit foreign-bond reduction language. Routing per new TRACKER table: M&A-style sub-200% → 🟡 counter-thesis; stress-driven sub-200% → 🔴 LIQUID + PROME; 200-220% manageable → 🟠 watch.
+
+**Other near-term:**
 2. **🟠 Thu-Fri May 28-29: Tokyo May CPI.** Core-core <1.9% → June BOJ pricing breaks lower from 55-65%.
 3. **🟠 Fri May 29: CFTC weekly (May 22 data).** Watch for break of -102K cycle peak.
+4. **🟠 ongoing: Iran/Hormuz MOU status.** Binary watch — signing → Brent further collapse + Phase 2 accelerates; Tehran walk → Brent snapback + intervention #3 zone reactivates. Brent +2.3% Tue ($94.53 → $96.71) consistent with friction priced back in.
 
 **Action items:**
-1. **First task: pull Sumitomo ESR from IR page**, then synthesis call.
-2. **Post-Sumitomo:** if pattern confirms, write v1.5 THESIS update with Channel 1 reframe; CHANGELOG with old/new view; scenario weights 70/25/5 → 75/20/5.
-3. **Outbox signal:** prepare consolidated LIQUID 🟡 + HENRY 🟠 — counter-Channel-1 read (CFTC reload + Big 3 ESR + Channel 1 demotion in ONE signal).
-4. **Position decision:** Sep $60 calls (Position A authorized) — with Channel 1 deferred, case rests on June BOJ + CFTC reload, less time-sensitive than pre-ESR.
+1. **Pull Sumitomo ESR from IR page first** — direct PDF read for decomposition (M&A vs stress).
+2. **If Sumitomo confirms pattern (M&A-style):** write v1.5 THESIS update with Channel 1 reframe; CHANGELOG with old/new view; scenario weights 70/25/5 → 75/20/5. LIQUID 🟡 counter-thesis signal.
+3. **If Sumitomo breaks pattern (stress-driven <200%):** Channel 1 reactivates per new TRACKER 🔴 row; consolidated LIQUID + HENRY 🔴 signal; reconsider scenario weights toward stress case.
+4. **Position decision deferred:** Sep $60 calls (Position A authorized) — case rests on June BOJ + CFTC reload + Sumitomo read.
 
 **Hard trigger window:**
 - **🔴🔴 Tue Jun 16: BOJ MPM — base case hike.** SAM-21 ~57% (market 55-65%); SAM-24 (25bp @85%).
+- **🟠 Jun 18-19: May trade balance** — PROME-framed Phase 1 stability lag-test; mechanism-aware routing in CALENDAR.
 
 **Pickup work (deferred):**
 - Boot script: intraday-range alert when USDJPY single-day range > 2.5y.
@@ -79,4 +83,4 @@
 - Boot scripts: 7/8 green (jgb_auctions append bug; parser fine).
 - Workbook auto-pulls current through May 26 boot.py run.
 - MOF_INTERVENTIONS catalog: Apr 30 (¥5.48T) + May 6 (¥4.3T). No #3 yet.
-- Boot doc structure post-2026-05-26 cleanup: see `MAINTENANCE.md` for the 6-candidate audit pass + conventions established.
+- Boot doc structure post-2026-05-26 cleanup: see `MAINTENANCE.md` for the 6-candidate audit pass + PROME TRACKER cleanup entries + conventions established.
