@@ -8,6 +8,43 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
+## 2026-05-26 PM — TRACKER.md mechanism-aware routing + Channel 1 banner + staleness fixes (PROME cleanup ask + follow-up audit)
+
+**Trigger:** PROME signal `prome_2026-05-26_insurer_tracker_cleanup_request.md` — Will + PROME walked SAM domain to understand Channel 1; flagged stale alert rule ("ANY ESR <200% → 🔴") and missing mechanism-vs-threshold discrimination. Independent finding from same root as MEMORY 2026-05-26 (threshold-vs-mechanism trap on SAM-25). Follow-up audit (post-PROME-reply) caught two additional actively-wrong sections.
+
+**Change (single-file structural cleanup, two passes):**
+
+*Pass 1 — PROME ask:*
+- Added top-level **🟡 CHANNEL 1 STATUS** banner ("downgraded, not dead") above the J-ICS Key Insight. Captures: what's intact, what's deferred (not dead), why the old rule is too crude.
+- **Signal routing replaced** — old 5-bullet rule list collapsed; new 5-row mechanism-aware table discriminating market-loss-driven vs M&A-driven sub-200% prints. New row for J-ICS-cited super-long avoidance.
+- **"What's confirmed"** — re-ranked by mechanism evidence weight. Oct 2025 50% planned-cut survey explicitly down-weighted as superseded by Apr 2026 actuals (zero clean cuts). Old "Nippon 222% → if drops <200% → tone changes" assertion stripped as superseded by May 26 Nippon 195% (M&A) outcome.
+- **"What we're waiting for"** — refreshed: Sumitomo Wed May 27, mid-tier Late Jun, Norinchukin Jun, any explicit reduction target (Fukoku-2023-style), MOF ITS sustained selling.
+- **KEY DATES** — added Apr 14-25 FY2026 plans (✅) and May 22 CPI (✅ dovish miss) with outcomes. Refreshed Sumitomo row to call out M&A-vs-stress pattern test explicitly.
+- **MONITORING CHECKLIST** — section header retired (week mostly resolved); extract-checklist preserved inside the new SIGNAL ROUTING section. Added US-subsidiary direction-of-travel row (Resolution Life, Stancorp).
+- **Last Updated + Purpose** banners refreshed.
+
+*Pass 2 — follow-up staleness fixes (Will-approved after Pass 1 audit):*
+- **Industry Aggregates JGB rows refreshed.** JGB 30Y was claiming "4.000% ✅ BREACHED" as if durable; STATUS already showed 3.931% (May 22, retraced -7bp). Replaced with breach-and-retrace narrative + footnote treating 4.000% as structural stress level, not durably-held floor (SAM-26 lesson). JGB 10Y refreshed 2.770% May 20 → 2.749% May 22. JGB 40Y row added (3.921%).
+- **Oil-yen section replaced.** "Apr 12 Hormuz blockade context" was v1.3-era framing ("oil spike → trade deficit widens → yen weakens → FX gains paper over bond losses") — actively wrong post-v1.4. April trade balance posted ¥+302B SURPLUS (blockade collapsed import volumes); CPI missed on fuel subsidies; Brent has since collapsed -12% on MOU optimism. Replaced with tight v1.4 oil-yen note flagging Phase 1 inversion + Phase 2 inception + insurer FX-cushion fading, pointing to `thesis/THESIS.md` § OIL-IN-YEN as single source of truth.
+
+**Files touched:**
+- `insurers/TRACKER.md` (+58 / -51 net across both passes; structural replacement, not accumulation)
+
+**Boot impact:** None on the standard 7-step read sequence. TRACKER is read on insurer-specific spawns. Behavioral impact is twofold: (1) alert-routing correctness — future ESR-threshold breaches won't auto-trigger 🔴 if the mechanism is capital action; (2) cross-doc consistency — TRACKER no longer reports JGB stress facts in conflict with STATUS, and no longer carries an obsolete mental model of the oil-yen channel.
+
+**Convention transferable (Pass 1):** Threshold-based alert rules across SAM (and other agents) should be audited for mechanism qualifier — the "level breach → route as stress" reflex mis-fires when capital actions, M&A, or sub-debt drives the breach. Apply when calibrating BROCK HY OAS triggers, REGINALD KRE bear-line, HENRY VIX regime triggers — any level-based signal where the same level can be reached by multiple mechanisms.
+
+**Lesson reinforced (Pass 2):** Doc-cleanup asks benefit from a follow-up audit pass after executing the explicit scope — the PROME ask covered the rule + Channel 1 banner + key dates, but the two highest-impact remaining issues (cross-doc fact conflict on JGB 30Y; obsolete oil-yen mental model) were *adjacent* to the ask, not in it. Catching them required a fresh end-to-end read once the requested edits were in. Behavioral-impact ranking (per MEMORY 2026-05-26): only proposed top-2 of 11 noticed items; deferred cosmetic and duplicative items. Validates "rank by behavioral impact first, line count second" lesson in practice.
+
+**Not changed (per PROME scope):**
+- `STATUS.md` — Channel 1 demotion already reflected on May 26 AM (line 14)
+- `thesis/THESIS.md` — v1.5 reframe deferred to post-Sumitomo
+- `thesis/CHANGELOG.md` — no analytical version change; this is rule calibration + staleness, not thesis update
+
+**Completion note:** filed to `outbox/2026-05-26_to-PROME_tracker_cleanup_complete.md` (Convention B own-outbox routing).
+
+---
+
 ## 2026-05-26 — TIMELINE archive split + `thesis/timeline/` folder
 
 **Trigger:** Boot-doc audit found `thesis/TIMELINE.md` at 555 lines / 56KB — 45% of total boot context. Resolved entries going back to Mar 31 + obsolete v1.3-era forward-looking sections were padding the read.
