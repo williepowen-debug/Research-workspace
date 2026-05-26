@@ -74,7 +74,19 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (5/22 Fri PM Batches consolidated)
+### CHANGES SINCE LAST SESSION (5/26 Tue PM image-batch)
+
+**5/26 Tue PM image-batch (single-session arc):** Will Telegram boot msg 2013 → Sumitomo Q msg 2015 (answered) → 7-image batch msgs 2017-2023 → triage msg 2024 → results msg 2025. **5 BOARD dispatches + 1 KILL + 2 verify-research spawns ($0.10).** BOARD 255 → 260. Bifurcation 3 cluster_mediating + 2 counter_evidence = 5/day = `network_uncertainty_peak` fires.
+
+**Dispatch arc:** SIG-001 SoftBank-OpenAI financing structure → BROCK (AI_INFRA_CAPEX 6→7); SIG-002 AZO CORRECTED-FRAMING → CARL (counter_evidence); SIG-003 Philly Fed Non-Mfg -23.6 3σ miss → CARL (cluster_mediating); SIG-004 First Brands $285.5M tariff-fraud extension → REGINALD (extends SIG-W-20260522-003); SIG-005 ERP-negative chart → HENRY (counter_evidence). KILL: real-wages aggregator chart.
+
+**2 new findings — small calibration extensions to existing discipline (not structural):**
+- **CNBC-headline-updated-source-since-corrected family** — extends 5/22 calendar-anchor-verify-at-write-time + 5/8 Treasury TIPS/nominal CUSIP collapse. Source-headlines get silently corrected too — verify primary CURRENT framing not just publication. Caught Financelot propagating CNBC's original-and-since-corrected "AZO worst since March 2020" — actual is May 18 2022 -9.5%.
+- **Catalyst-attribution-overlay pattern** — distinct from numerical-stretch (Kobeissi) / sign-inversion (Amit Tal) / framing-stretch (Visegrad). X post conflates macro framing onto idio drivers (AZO sell-off attributed to "slowing economy concerns" when actual was margin/intl/LIFO). New verify-spawn trigger pattern; CHECKLIST v0.11 candidate.
+
+**Open Q from 5/22 PM2 RESOLVED by observation:** 3 PROME-→domain Jun18 calibration signals were PROME-PROME internal coordination, NOT WALTER routing. Confirmed by PROME default-pass `c4680e51` today AM.
+
+### CHANGES PRIOR SESSION (5/22 Fri PM Batches consolidated)
 
 **5/22 Fri PM full-day (commits `07016356` + `4a079c58` + `fb85490c` + `2cd37795` pushed clean):** 11 BOARD dispatches total day (1 IMMEDIATE + 10 PRIORITY) + 16 KILLs + 4 verify-research spawns ($0.40 total). BOARD 244 → 255 (+11). Bifurcation count 9 cluster_mediating + 2 counter_evidence = 11-in-day (~2× network_uncertainty_peak threshold).
 
