@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-05-26 15:50 ET (CC-Prome — intra-day date-hygiene sweep; prior closeout "Tue 5/27" was Tue↔Wed name-swap. Today = Tue 5/26 = first post-Memorial-Day session; Wed 5/27 = Sumitomo + TLT C2 fresh-start day)
+**Updated:** 2026-05-26 16:15 ET (CC-Prome — session closeout: SAM TRACKER cleanup analysis + Will-authorized Phase-1-stability SIG to SAM + date-hygiene sweep + TODAY.md full refresh)
 
 ## Core State
 

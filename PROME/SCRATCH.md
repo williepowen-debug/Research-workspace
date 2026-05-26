@@ -1,92 +1,84 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-05-26 15:50 ET (CC-Prome — intra-day date-hygiene sweep + intraday TLT mark refresh; prior closeout used "Tue 5/27" Tue↔Wed date-name swap)
+**Last Updated:** 2026-05-26 16:15 ET (CC-Prome — session closeout: SAM analysis + Will-authorized SIG + date-hygiene sweep)
 
-## What Just Happened (5/24 → 5/26 rolling session)
+## What Just Happened (5/26 PM session)
 
-Three calendar days, one continuous CC-Prome thread. Three landings:
+Mid-day Will-directed CC-Prome session. ~30 turns, 1 PROME commit pushed (`b7f745c1`), 1 cross-agent SIG filed to SAM (Will-authorized per-instance).
 
-### 5/24 — HANDOFF archive + memory salvage (commit `045fdc59`)
-- CC HANDOFF was 1005 lines append-only. Per Option B audit: archived 5/17-5/21 entries to `PROME/archive/CC_HANDOFF_2026-05-pre-22.md`; kept 5/22 entries live (new HANDOFF ~207 lines).
-- Moved OpenClaw HAWK 5/22 consolidation entry to `PROME/HANDOFF.md` (category violation fix; OpenClaw sessions belong on his surface).
-- Salvaged 4 unsaved v_next findings to MEMORY: `draft-only-teams-spawn`, `csv-as-ground-truth`, `cross-flag-routing`, `path-b-trim-pattern`.
-- Appended live-live extension to `finding_liaison_convergence_pattern`.
+### Three landings
 
-### 5/25 — 6/18 trigger set v0.2 default-pass (commit `c4680e51` after rebase)
-- FLEET_SCAN conflict resolved: took origin (OpenClaw's 5/23 scan, paired with his execution-rails architecture landing).
-- Absorbed OpenClaw's 5/23 work: `EXECUTION_RAILS.md` (186 lines spec), `JUN18_EXPIRY_CLUSTER_2026.md` action card, `ACTIVE_DECISIONS.md`, `DECISION_ARTIFACTS_INDEX.md`, updates to BOOT/DECISION_FLOW/STATUS.
-- C1 default-pass executed per JUN18 action card: BROCK + REGINALD silent at 5/24 EOD; HENRY's TLT reply already on its own card.
-- v0.1 → v0.2 trigger set: pending language stripped; default-picks locked (A5 WAL $67.5P → Sep; A6 KRE → Aug 21; A1 HYG no pre-spec — BROCK validates at trigger fire).
-- JUN18 action card state `DRAFT` → `PROPOSED`.
-- ACTIVE_DECISIONS row updated.
-- New Will-approval packet at `PROME/action-cards/JUN18_V0.2_APPROVAL_PACKET_2026-05-25.md`.
-- Push deferred (SAM mid-session).
+**1. SAM TRACKER cleanup analysis (read-only).**
+- Boot found SAM had committed `43a1e308` (TRACKER cleanup — mechanism-aware routing + Channel 1 banner) during boot read window. SAM acting on PROME's earlier cleanup request `prome_2026-05-26_insurer_tracker_cleanup_request.md`.
+- Graded SAM's response against PROME's 5-item request: all 5 addressed cleanly, plus bonus oil-yen Phase-1-inversion rewrite + JGB 30Y "structural stress level vs durably-held floor" epistemic update.
+- Spot-checked SAM's load-bearing empirical claim (¥+301.9B surplus / crude -64% YoY / steepest since 1980) via WebSearch — verified against Reuters / investingLive.
 
-### 5/26 — push-train verify + tape read + closeout
-- SAM closed out clean, pushed 3 commits; BRENT pushed 1 ("PATH A imminent").
-- My 2 PROME commits swept to origin via push-train: `045fdc59` unchanged, `c7fcdfd3` → `c4680e51` (rebase parent shift to a SENTRY child of `045fdc59`).
-- Live tape pull: all v0.2 R1-R4 triggers MORE benign than at ship time.
-- BRENT + SAM updates absorbed (Channel 1 mechanism weakened; Brent $96.36; CPI miss).
+**2. Will-authorized SIG to SAM (Convention B, untracked-by-design).**
+- Filed `AGENTS/SAM/inbox/prome_2026-05-26_phase1-inversion-stability-may-tbal-lag-test.md`.
+- Forward-question for SAM: May trade balance print (~June 18-19) as diagnostic on whether Phase 1 inversion was one-month spike vs structural. 3-row pre-registered routing table mirroring SAM's own mechanism-aware pattern.
+- Explicit FYI / no-reply-needed / take-or-leave / doesn't-block-Sumitomo / not-a-v1.5-driver framing.
+
+**3. Date-hygiene sweep + TODAY.md full refresh (committed `b7f745c1`, pushed).**
+- Resolved "Tue 5/27" Tue↔Wed name-swap inherited from prior closeout. Today = Tue 5/26 (first post-Memorial-Day session); Wed 5/27 = paired catalyst (TLT C2 fresh session-1 candidate + Sumitomo ESR print).
+- SCRATCH/STATUS surgical edits — TLT section reframed for intraday $85.09 (no trigger fire today).
+- TODAY.md full rewrite from May 17 stale → live 5/26 16:10 ET dashboard. Catalyst recap + paired-catalyst Wed 5/27 framing + market deltas vs 5/17 + decision posture + file-trust table.
 
 ## Current Git State
 
-- HEAD: `02da0047` (SAM: transition docs sync) = origin/master.
-- Tree: clean of own work; held-back untracked are all Convention B (BROCK/HENRY/REGINALD inboxes + HENRY outbox reply + WILL/share JPG).
-- 2 PROME commits on origin from this session: `045fdc59` + `c4680e51`.
+Clean, synced to origin. Held-back untracked are Convention B (4 prior-session SIGs + WILL/share JPG) — unchanged from session start.
 
-## Live Tape vs v0.2 Triggers (5/26 dashboard)
+## Live Tape vs Triggers (5/26 ~16:10 ET dashboard)
 
-| Trigger | Threshold | At v0.2 ship (5/22) | Now (5/26) | Direction |
-|---|---|---|---|---|
-| R1 VIX ≥ 22 (×2) | 22 | 16.70 | 16.75 | flat 🟢 |
-| R2 HY OAS ≥ 290 (×2) | 290 | 278 | **274** | tightened 🟢 |
-| R3 KRE < $63 | 63 | $69.37 | **$70.39** | further from fire 🟢 |
-| R4 HY OAS ≥ 320 | 320 | 278 | 274 | further from fire 🟢 |
+| Trigger | Threshold | Live | Status |
+|---|---:|---:|---|
+| TLT C1 (single close ≥ $85.50) | $85.50 | $85.10 | not fired today |
+| TLT C2 (two consec ≥ $85.20) | $85.20 | $85.10 | 11¢ short; Wed 5/27 fresh session-1 candidate |
+| TLT C3 (single close <$82) | $82.00 | $85.10 | safe |
+| TLT C5 (substance break) | — | HY OAS 274 | not firing (tape healing) |
+| R1 VIX ≥ 22 (×2) | 22 | 16.92 | benign |
+| R2 HY OAS ≥ 290 (×2) | 290 | 274 | tightened further |
+| R3 KRE < $63 | 63 | $70.24 | further from fire |
+| R4 HY OAS ≥ 320 | 320 | 274 | further from fire |
 
-**Tape is choosing healing.** v0.2 default = let-expire path validated by live data.
+All 6/18 cluster triggers MORE benign than at v0.2 ship. Tape choosing healing.
 
-## TLT Today/Tomorrow (Tue 5/26 = first post-Memorial-Day session; Wed 5/27 = next read)
+## Wed 5/27 = Paired-Catalyst Day
 
-TLT intraday **$85.09 [5/26 15:45 ET, ~15 min to close]** — softened 18¢ from AM dashboard $85.27. If closes near here, today does NOT register as C2 session 1, and the C2 path effectively resets to Wed 5/27 as a fresh session-1 candidate.
-
-| Trigger | Status (intraday 5/26 15:45 ET) |
+| Event | Pre-cabling |
 |---|---|
-| C1 single close ≥ $85.50 → fire 2/1 split | $0.41 short; final-hour rip needed |
-| C2 two consecutive ≥ $85.20 → fire 2/1 split | **11¢ short.** If closes here, today does NOT register as session 1; Wed 5/27 becomes fresh session-1 candidate |
-| C3 single close < $82 → hold 3 | $3.09 cushion, not at risk |
-| C5 regime break (HY OAS ≥ 290 sustained OR R11 vol-spike) | not firing (tape healing) |
-
-Three macro reads converge: CPI miss + Brent -12% + SAM Channel 1 weakened → all duration-bullish, supportive of 2/1 split when triggers eventually fire. Wed 5/27 now carries both TLT C2 session-1 candidate AND Sumitomo ESR print — paired catalyst day.
+| TLT pre-open (~9:30 ET) | Live tape pull → C1/C2/C3/C5 check → broker-ready order summary. If Wed closes ≥ $85.20, banks as fresh session 1; Thu 5/28 ≥ $85.20 close fires 2/1 split. |
+| Sumitomo Life FY2025 ESR (PM JST) | SAM-owned. M&A-style → SAM writes Channel 1 v1.5 + 🟡 LIQUID note. Sub-200% via stress → 🔴 LIQUID + PROME, Channel 1 reactivates. |
+| Tokyo May CPI (Thu-Fri) | SAM-owned. Leading indicator for June national; core-core <1.9% breaks June BOJ pricing lower. |
 
 ## Next Planned Work
 
-**Immediate (next CC-Prome session — likely Wed 5/27 AM, paired-catalyst day):**
-1. 🔴 **TLT pre-open packet for Will.** Live tape pull, conditional-trigger read (Wed = C2 session-1 candidate if it closes ≥ $85.20), broker-ready order summary. After Will places: FORGE/STATUS update + TRADE_DECISIONS fills log + action card → `COMPLETED`.
-2. 🟠 **Sumitomo Life FY2025 ESR (Wed 5/27 PM SAM-owned).** If confirms Nippon/Meiji pattern, Channel 1 v1.5 downgrade warranted. PROME-side: monitor, fold into HEARTBEAT if Channel 1 weakens further.
-3. 🟠 **v0.2 Will review** — approval packet sitting in Will's queue. No clock; could pair with TLT-execution review.
+**Wed 5/27 AM (next CC-Prome session — paired-catalyst day):**
+1. 🔴 TLT pre-open packet for Will (live tape pull, C1-C5 read, broker-ready order summary).
+2. 🟠 Sumitomo monitor — fold into HEARTBEAT if Channel 1 weakens further.
+3. 🟠 v0.2 Will review (approval packet sitting in queue, no clock).
 
-**Live Will-decision carries:**
-- TLT 2/1 split: approved 5/22, broker window opened Tue 5/26 but triggers didn't fire intraday ($85.09 close vs $85.20 C2 threshold); Wed 5/27 next session-1 candidate.
-- v0.2 cluster: `PROPOSED`, awaiting Will review.
-- SAM Sep-18 $60C: deferred until post-Sumitomo.
+**Live Will-decision carries (unchanged):**
+- TLT 2/1 split: approved 5/22, Tue 5/26 broker window opened, no fire; Wed 5/27 next live read.
+- v0.2 cluster: `PROPOSED`.
+- SAM Sep-18 $60C × 5-10 contracts (post-Sumitomo).
 - FXY $58C reconciliation.
 - TLT $88P May 15 disposition unknown.
 - VIOLET 4/15 VIX/SKEW (60d window closes ~6/12).
 - APD long thesis tag.
-- HEARTBEAT refresh cadence.
-
-**Soft observations:**
-- APO $129.91 — back at watch line (was $128.51 disarmed 5/22); 3-session re-arm rule not yet triggered.
-- BRENT 5/25 commit flagged "PATH A imminent / M1-M3 alert" — Brent -12% playing through curve.
-- Push-train pattern 3rd concrete instance (eligible for memory append if recurs).
+- HEARTBEAT cadence design.
 
 ## Cautions for Next Session
 
-- **TLT action card APPROVED but UNEXECUTED.** State `BROKER_PENDING`. Broker window opened Tue 5/26 (first post-Memorial-Day session); no trigger fired intraday. Wed 5/27 next live read; conditional triggers C1-C5 remain in effect through 6/06 EOD.
-- **v0.2 trigger set is PROPOSED, not WILL_APPROVED.** Don't reference as "live monitoring rail" until Will signs off.
+- **TLT action card APPROVED but UNEXECUTED.** State `BROKER_PENDING`. Wed 5/27 = fresh C2 session-1 candidate.
+- **HEARTBEAT.md still stale (May 16 levels)** — flagged across multiple sessions; biggest remaining staleness in PROME state.
 - **Persistent-agent do-not-spawn:** CARL, REGINALD, OZK, SAM, RED, BRENT, Claude Code Prome.
+- **SAM concurrent activity confirmed this session.** SAM committed `43a1e308` during my boot window. Check `git log --oneline -5` early on next boot.
 
 ## v_next design inputs
 
-1. **Meta-work-before-substantive pattern.** This session cleared 800 lines of HANDOFF bloat + salvaged 4 memories before executing the v0.2 default-pass. Hygiene-first reduced cognitive load on the harder work.
-2. **Cross-surface architecture spec → cross-surface execution.** OpenClaw shipped EXECUTION_RAILS.md spec 5/23; CC executed v0.2 against that spec 5/25 without coordination. Both surfaces converged on the C1 default-pass branch independently.
-3. **Push-train 3rd instance.** SAM swept both PROME commits on 5/26. Robust at 4+ concurrent agents.
+1. **Intra-day mark pull → reframes question.** Today's TLT mark pull at 15:45 ET (15 min before close) flipped the framing from "TLT broker window TODAY — closes in 15 min" to "no trigger fire today — Wed becomes session-1 candidate." Quick dashboard pulls are high-leverage when calendar context is uncertain.
+
+2. **External-source verification of agent claim.** Verified SAM's load-bearing trade-balance number externally (Reuters, investingLive). Confirmed the data + surfaced a forward-looking caveat the agent hadn't tracked. Pattern: when agent claims rest on a single load-bearing number, a one-pass external check is cheap and often surfaces value-adds.
+
+3. **Convention B SIG with explicit FYI/no-reply framing.** First instance of a PROME→SAM SIG that's neither tasking nor decision-request — pure forward-question. Tested whether the cross-agent inbox channel works for "here's an idea, take or leave." TBD whether SAM integrates or ignores.
+
+4. **Date-name-swap correction surfacing TODAY.md refresh.** What looked like a hygiene sweep (replace Tue 5/27 → Tue 5/26) opened into a broader live-tape question (is the TLT window closing in 15 min?) which then produced the dashboard pull which then enabled a substantive TODAY.md refresh. Compound work — one investigation chains into the next.

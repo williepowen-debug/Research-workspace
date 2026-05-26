@@ -295,3 +295,89 @@ Open with Will at next-session start:
 - Show-diff-then-approve honored on all 3 commits.
 - Cross-surface boundaries respected (PROME/HANDOFF.md write was Will-authorized 5/24 only; HEARTBEAT not touched this session despite ongoing staleness).
 - Honest mid-session correction: caught my own scope when the OpenClaw HAWK entry surfaced; flagged + moved with breadcrumb.
+
+---
+
+## Current Session — 2026-05-26 PM (SAM analysis + Phase-1-stability SIG + date-hygiene sweep)
+
+**Run type:** Will-directed mid-day CC-Prome session. SAM-focused analysis followed by date-hygiene sweep that compounded into TODAY.md full refresh. ~30 turns, 1 PROME commit pushed (`b7f745c1`), 1 Will-authorized cross-agent SIG to SAM (Convention B).
+
+### What landed
+
+- **Boot:** standard sequence. HEAD ride: SAM committed `43a1e308` (TRACKER cleanup) during my boot window — confirms concurrent SAM activity. Pulled clean.
+- **SAM analysis (read-only):** graded SAM's TRACKER cleanup against PROME's 5-item request (`prome_2026-05-26_insurer_tracker_cleanup_request.md`); all 5 items addressed cleanly. Spot-checked SAM's load-bearing trade-balance number (¥+301.9B / crude -64% YoY / steepest since 1980) via WebSearch — verified against Reuters / investingLive.
+- **SIG to SAM** (Will-authorized per-instance, Convention B untracked-by-design): forward-question for SAM on Phase 1 inversion stability and May trade-balance lag-test (~June 18-19 print). 3-row pre-registered routing table mirroring SAM's mechanism-aware pattern. Explicit FYI/no-reply/take-or-leave framing.
+- **Date-hygiene sweep:** resolved "Tue 5/27" Tue↔Wed name-swap. SCRATCH/STATUS surgical edits. TLT framing reframed for intraday $85.09 (no trigger fire today).
+- **TODAY.md full refresh** (Will-chose Full vs date-only): 9-day-stale May 17 → live 5/26 16:10 ET dashboard. Catalyst recap + paired-catalyst Wed 5/27 framing + market deltas + decision posture + file-trust table.
+- **Commit `b7f745c1`** pushed to origin (271f70dd → b7f745c1). PROME-scope only (3 files).
+- **Closeout** (this entry + SCRATCH rewrite + daily log).
+
+### Files edited (within autonomous scope)
+
+| File | Action |
+|---|---|
+| `PROME/SCRATCH.md` | Mid-session intra-day amendment then full closeout rewrite |
+| `PROME/STATUS.md` | Surgical (header + TLT row in ACTIVE_DECISIONS + TLT action card row + Pending Work TLT row + Next Best Action + Live Will-decision carry + TODAY.md row Stale→Fresh) |
+| `PROME/TODAY.md` | Full rewrite (May 17 → 5/26 PM) |
+| `PROME/CLAUDE_CODE_HANDOFF.md` | This entry appended |
+| `memory/2026-05-26.md` | Append session block (closeout) |
+
+### Files written (untracked-by-design; recipient agent owns commit)
+
+- `AGENTS/SAM/inbox/prome_2026-05-26_phase1-inversion-stability-may-tbal-lag-test.md` (Will-authorized SIG; SAM commits on next boot)
+
+### Decisions Will made this session
+
+- Read & analyze SAM TRACKER cleanup ✅
+- Verify SAM's bold empirical claim externally ✅
+- File Will-authorized FYI SIG to SAM about Phase 1 stability ✅
+- Pivot question on TLT timing (pull live mark before continuing hygiene) ✅
+- Date-hygiene sweep approved ✅
+- TODAY.md: Full refresh (vs date-only or skip) ✅
+- Commit + push PROME-scope only ✅
+- Closeout ✅
+
+### Decisions needed from Will (forward-looking)
+
+See `PROME/SCRATCH.md` §Next Planned Work. Wed 5/27 = paired-catalyst day:
+1. TLT pre-open packet (~9:30 ET) — C1/C2/C3/C5 read.
+2. Sumitomo monitor (PM JST) — Channel 1 v1.5 vs reactivation.
+3. v0.2 Will review (no clock).
+
+Live carries unchanged from prior session.
+
+### Risks / Blockers
+
+- **None blocking** the closeout itself.
+- **Soft:** HEARTBEAT.md remains May 16 stale (biggest remaining PROME state staleness).
+- **Soft:** SAM is concurrent — confirmed via `43a1e308` landing during boot. Next session should `git fetch` early to confirm origin state.
+- **Soft:** SIG to SAM is Convention B / untracked; if SAM ignores or doesn't see it on next boot, the forward-question loses its window before June 18-19 print.
+
+### v_next design inputs returned this session
+
+1. **Intra-day mark pull → reframes question.** Dashboard pull at 15:45 ET (15 min before close) flipped TLT framing from "window closes in 15 min, decide now" to "no fire today, Wed becomes session-1 candidate." Quick live pulls are high-leverage when calendar context is uncertain.
+2. **External verification of agent's load-bearing data point.** One-pass WebSearch confirmed SAM's claim AND surfaced a forward-looking caveat (Reuters: "petroleum-related input costs expected to rise in coming months") that SAM's files hadn't tracked. Pattern: cheap external check on single-load-bearing numbers is value-positive even when claim verifies.
+3. **Convention B FYI SIG.** First instance of PROME→SAM SIG that's neither tasking nor decision-request — pure forward-question with no-reply-needed framing. Tests whether cross-agent inbox channel works for "here's an idea, take or leave." TBD whether SAM integrates or ignores; trackable signal either way.
+4. **Compound work pattern.** What looked like date hygiene → opened into live-tape question → forced dashboard pull → enabled substantive TODAY.md refresh. Mechanical-task framing produced one substantive deliverable beyond the original ask.
+
+### Next Suggested Work
+
+Open with Will at next-session start:
+- **Wed 5/27 ~9:30 ET — TLT pre-open packet.** Live tape pull → C1/C2/C3/C5 read → broker-ready order summary.
+- **Sumitomo monitor** (PM JST).
+- **HEARTBEAT refresh** if Will wants to address the biggest staleness gap.
+- **v0.2 approval-packet walkthrough** with Will if engagement window opens.
+
+### Rules I Held To
+
+- No commits outside `PROME/`.
+- No `git add -A` or `git add .`. Explicit path staging; `git diff --cached --stat` sanity-check pre-commit.
+- No edits to other agents' files (SAM/BROCK/HENRY/REGINALD/WILL untouched).
+- Cross-agent inbox write to SAM was per-instance Will-authorized and explicitly FYI/no-reply scoped.
+- No persistent-agent spawns. No teams-mode. No trades. No external messages.
+- Read-before-edit honored.
+- Behavior-language in state files; hashes as audit anchors only.
+- Sequenced multi-file updates (SCRATCH → STATUS surgical → TODAY.md full → commit → closeout files).
+- Show-diff-then-approve honored on commit (single commit, scope confirmed via `--cached --stat`).
+- Live mark pulled before propagating count (TLT $85.09 confirmed against threshold before framing).
+- AskUserQuestion used for scope-decisions, not for confirmation of decided plans (TODAY.md scope; TLT pivot).
