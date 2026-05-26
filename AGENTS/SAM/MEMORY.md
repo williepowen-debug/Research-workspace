@@ -8,19 +8,18 @@
 - [2026-03-31] Will values boot transparency — wants to know what SAM read, in what order, and whether the process is working well. Don't just orient silently; confirm orientation.
 - [2026-03-31] Will thinks long-term about infrastructure. When proposing solutions, address scaling and durability, not just immediate need.
 - [2026-04-01] Key dates were getting buried in STATUS.md. Will approved CALENDAR.md as standalone living doc — pure table format, forward-looking only, pruned weekly. Added to boot sequence as step 5.
-- [2026-04-02] When explaining complex financial mechanics, Will needs the simplified version first. Start with the plain-English punchline, then layer in detail only if asked. He asked for a re-explain on hedge ratios/repatriation spiral — the second attempt (simpler) landed, the first (detailed) didn't.
-- [2026-04-02] Will uses Perplexity for deep research and shares outputs. Treat Perplexity data as high-quality but verify framework logic independently. Will explicitly asked SAM to validate the vol/options framework rather than accepting it uncritically.
-- [2026-04-11] **Script-defined alert thresholds MUST match THESIS scenario bucket definitions** — not invented independently. Built `mof_flows.py` with arbitrary thresholds and reported MOF flows at "crisis pace" when actually in "stress case." Fixed to calibrate at ¥1.4T elevated / ¥3.5T stress / ¥14T crisis. **Lesson:** scripts using THESIS scenario vocabulary must cross-reference THESIS.md.
+- [2026-04-02] When explaining complex financial mechanics, Will needs the simplified version first. Start with the plain-English punchline, then layer in detail only if asked.
+- [2026-04-02] Will uses Perplexity for deep research and shares outputs. Treat Perplexity data as high-quality but verify framework logic independently.
+- [2026-04-11] **Script-defined alert thresholds MUST match THESIS scenario bucket definitions** — not invented independently.
 - [2026-04-11] Will prefers intellectually honest corrections over doubling down. Lean toward restraint on thesis-level updates; one data point rarely justifies 15-25pp probability shifts.
+- [2026-05-25] **Will wants gap-check before writebacks.** When SAM proposes writebacks, Will asks "any other searches?" — surfaces gaps the synthesis missed. Build in a "what's still missing?" beat before executing multi-file passes.
 
 ## Findings
-- [2026-05-12] **Read intraday extremes, not just closes — Apr 30 intervention misread.** May 3 STATUS logged Apr 30 yen move as "Tokyo session reprice of Apr 28 BOJ hawkish hold" (USDJPY 159.60 → 157.19). Reality: Apr 30 high 160.70, **intraday low 155.55** (5.15-yen range one session) — characteristic intervention. MOF confirmed ~¥5.48T move via BOJ reserve data within days; SAM didn't cross-check intraday data or web news. Lesson: (1) any 2+ yen close-to-close move on a non-event day deserves cross-source verification, (2) boot scripts focus on close-to-close which masks intervention; **add intraday-range alert when single-day range > 2.5y**, (3) "natural reprice" should rarely be the first hypothesis when the move size is implausible for the named catalyst. Plus, the boot's `usdjpy.py` directional touch logic uses strict `low <= level` — May 6 low 155.047 didn't pierce 155 so the catalog shows "no MOF" for 155 even though intervention #2 was that day. Tolerance band is a future fix.
-- [2026-04-24] **Channel 1 hedged-vs-unhedged nuance — candidate v1.4 refinement.** Japanese insurers rotating WITHIN foreign bonds (reducing unhedged, increasing hedged credit) rather than net-cutting. Reconciles Feb TIC (Japan UST +$53.8B) with MOF ITS residents-selling. Aggregate TIC may never confirm thesis cleanly. Wait for ESR disclosures May 15 before refining.
-- [2026-04-24] **SAM-19 miss exposes two error types.** (1) Setup mismatch — conflated super-long JGB avoidance with foreign bond cuts. (2) Model oversimplification — binary cut/not-cut framing missed mix-shift behavior.
+- [2026-05-12] **Read intraday extremes, not just closes — Apr 30 intervention misread.** May 3 STATUS logged Apr 30 yen move as "Tokyo session reprice" when it was MOF intervention (intraday range 5.15y). Add intraday-range alert when single-day range >2.5y. `usdjpy.py` touch tolerance band needed (May 6 low 155.05 failed strict ≤155).
+- [2026-05-25] **Threshold-durability ≠ mechanism-durability — SAM-26 lesson.** Predicting a number-level holds is fragile when the underlying mechanism is right but cross-currents drive temporary retracement. JGB 30Y broke 4.0% (May 15) on J-ICS lifer abandonment; retraced to 3.931% within 1 week on oil collapse + dovish CPI even though insurers did NOT return as buyers (bid came from non-insurer flow). **Lesson:** when writing falsifiable predictions, separate "mechanism intact" propositions from "threshold sticks" propositions. Threshold predictions need explicit cross-current language ("holds X through event Y absent oil/Fed/intervention shock"). Transferable to any threshold-based prediction (yield levels, FX levels, CFTC contract counts).
+- [2026-05-03] **Sub-agent fresh-context usability tests surface gaps invisible to the builder.** ~30s/test, high-yield. Re-applicable to any future SAM build/refactor.
 - [2026-03-31] PROME's SCRATCH.md is the single most useful file at boot for system-wide context.
 - [2026-03-31] EUR/JPY went unmonitored for 8 weeks and blew through 175 to 183. Cross-pair yen weakness can be a blind spot when USD/JPY dominates attention.
-- [2026-03-31] SocGen ¥7.5T "buying" figure from web searches was from 2025, not 2026 — always verify article dates on flow data.
-- [2026-05-03] **Sub-agent fresh-context usability tests surface gaps invisible to the builder.** Spawn fresh-context agent with realistic decision question + scoped context restriction, ask for honest gaps. ~30s/test, high-yield. Re-applicable to any future SAM build/refactor.
 
 ## References
 - [2026-04-11] **Primary data sources wrapped by `AGENTS/SAM/scripts/`.** `boot.py` for morning refresh. One-off: `jgb_yields.py`, `jgb_auctions.py`, `cftc_jpy.py`, `mof_flows.py`, `fxy_options.py`, `thresholds.py`, `catalyst_countdown.py`, `usdjpy.py`. Source URLs in scripts and CLAUDE.md boot step 7.
@@ -31,67 +30,60 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (May 12 → May 21)
+### CHANGES SINCE LAST SESSION (May 21 → May 26)
 
-1. **JGB 30Y BROKE 4.000% (May 15)** — first time. Peak 4.205%. 10Y at 2.77% (29-yr high). **Driver: J-ICS-induced lifer long-end abandonment** (not high-yields-attract-buyers reflex). v1.4 thesis driver.
-2. **USDJPY 157.61 → 159.19** — inside intervention #3 zone (159+). Driver is rate differential + fiscal supply + lifer absence, NOT trade or flow data.
-3. **Q1 GDP +2.1% ann beat** (May 19). June BOJ on track. EWJ-put contraction trigger did NOT fire.
-4. **Dai-ichi FY2025 ESR ~220%** (May 13-15) — resilient but least-representative of Big 4. Big 3 mutuals (Nippon, Meiji Yasuda, Sumitomo) print May 25-29 — primary test.
-5. **April trade balance ¥+301.9B SURPLUS** (May 21) — Phase 1 mechanism INVERTED by blockade volume collapse (crude imports -64% YoY, ME -67%, lowest since 1979). v1.4 thesis finding.
-6. **CFTC short cover REVERSED** — re-loading as USDJPY pressed 159.
-7. **FXY $57.66** — drifted below May 12 $58.00 limit. Better entry available than originally planned.
+1. **Japan April CPI MISS (May 22)** — core 1.4% vs 1.7% consensus / 1.8% prior; core-core 1.9% vs 2.2%; 3rd consecutive month below 2% target. Subsidies absorbing oil passthrough. **SAM-27 (<2.0%) CONFIRMED TRUE.**
+2. **Brent -12% to $94.53** on Iran/Hormuz MOU optimism (Pakistan mediating; deal rumor-tier, no signed text). Phase 2 (war wind-down → safe-haven yen) being priced.
+3. **CFTC net short REBUILT to -93,905** (May 19 data, May 22 release) — +18,803 WoW, 3rd straight build week, now 92% of -102,059 Apr 28 cycle peak. Build = new shorts (+25K), not long liquidation = directional re-engagement.
+4. **JGB 30Y retraced 4.000% → 3.931%** on oil + dovish CPI. **SAM-26 tracking FALSE within 1 week.** Mechanism (J-ICS) intact; threshold not durable.
+5. **USDJPY 159.19 → 158.95** — only modest yen strength despite Brent -12%. CFTC corroborates: positioning offset, not deal-conviction.
+6. **No MOF/BOJ/Bessent jawbone May 22-25** — Channel 3 dormant. Bessent May 12 affirmation remains live overhang.
+7. **June BOJ swap pricing 74% → ~55-65%** (Polymarket 59.5%) post-CPI. ING maintained base case ("subsidy + base-effect noise").
 
-### LAST SESSION (May 21 — v1.4 thesis bump + full doc sync)
+### LAST SESSION (May 25-26 — Pass 1-2-3 writeback sync)
 
-Will requested boot + parse domain updates. Boot complete (9.3s, all 8 green). Discovered three mechanism-level findings warranting v1.4: (a) J-ICS lifer abandonment as JGB 30Y driver, (b) Phase 1 inversion under blockade, (c) Bessent affirmation promoted to Channel 3 pillar.
+Will requested boot at 7:30 PM Mon May 25. Boot.py 8.7s, 7/8 green (JGB auctions TSV-append bug; auction parsed fine — 5Y Climate Transition BTC 4.622x). Three follow-up searches resolved gaps before writebacks: CFTC actual print, Big 3 ESR scheduling, June BOJ OIS + jawboning.
 
-**Updates shipped:**
-- `thesis/THESIS.md` → v1.4 (status line, Channel 1 new subsection, Channel 3 expansion, Oil-in-Yen revision, thresholds, catalyst sequence resolved/forward, risk factors, falsified predictions)
-- `thesis/CHANGELOG.md` → v1.3 → v1.4 audit entry with old/new view table
-- `STATUS.md` → full rewrite for v1.4 state
-- `thesis/TIMELINE.md` → added May 13-21 resolved cluster; updated branch points table
-- `CALENDAR.md` → pruned past; refreshed forward window (May 22 CPI, May 25-29 Big 3 ESR, intervention #3 watch, structural Channel 1 monitors)
-- `thesis/PREDICTIONS.tsv` → added SAM-25 (Big 3 mutual ESR <200% @40%), SAM-26 (JGB 30Y holds ≥4.0% through BOJ @70%), SAM-27 (April CPI core <2.0% @75%)
+**Pass 1 (STATUS + CALENDAR):** Refreshed all market data, carry unwind probs (7d 18→22, 30d 72→70, 60d 88 held), intervention status "defused," BOJ section with counterweights, Big 3 ESR Tue-Wed as primary catalyst. CALENDAR added Phase 2 Watch section + Recently-Resolved log.
 
-**Position executed (May 21):** +5 shares FXY at ~$57.66 → 13 total (blended entry $57.48). +1 June 18 $58 call @ $0.40 ($40 cost). Will chose pre-CPI entry for IV protection rather than my post-CPI recommendation — legitimate trade-off (IV could expand on hot CPI surprise). Sep $60 calls (Position A) authorized but not executed; revisit post-CPI. Stop $55.05 unchanged.
+**Pass 2 (TIMELINE + PREDICTIONS):** TIMELINE got new "RESOLVED May 22-25" cluster (CPI miss, Brent -12% Phase 2 inception, CFTC reload, 30Y retracement, jawbone-quiet). Branch points table updated; Big 3 ESR split into Tue/Wed. PREDICTIONS: SAM-27 CONFIRMED TRUE; SAM-21 70%→57%; SAM-23 75%→55%; SAM-26 70%→30% TRACKING FALSE.
 
-**Second batch (May 21 afternoon):**
-- `STRATEGY.md` v1.4 — position updated to 13 sh + 1 call; Stage 3 "WE ARE HERE — 3 of 5 triggers fired"; new OPTIONS DECISION RULES section (Jun-18 exit triggers, Position A entry windows, what-NOT-to-do); hard-trigger table now tracks FIRED/USED/OPEN
-- `insurers/TRACKER.md` refresh — v1.4 J-ICS key insight; new FY2025 ESR Disclosure Status table (Dai-ichi ~220% logged, Big 3 mutuals May 25-29 pending); MONITORING CHECKLIST rebuilt for ESR window
-- 3 outbox signals shipped: LIQUID 🔴 (JGB 30Y 4% J-ICS mechanism), HENRY 🟠 (USDJPY 159+ + CFTC rebuild), PROME 🟠 (SAM FXY position state for FORGE rehab)
-- FORGE audit: confirmed significantly stale (STATUS Mar 25, PORTFOLIO Feb 19, expired options listed as active). Will to have Prome rehab; SAM signal in outbox provides authoritative FXY position state.
+**Pass 3 (this file).** Added [2026-05-25] feedback (gap-check before writebacks) + [2026-05-25] finding (threshold-vs-mechanism). Pruned two stale findings (2026-04-24 hedged-vs-unhedged + SAM-19 error types — both fully incorporated into v1.4 THESIS).
 
-**Commits pushed:** `fb539597` (v1.4 sync + position execution), `2c079ab8` (STRATEGY + TRACKER + outbox).
+**Synthesis insight (carries into next session):** The dovish-CPI + Brent-collapse week looked bearish-for-thesis on headlines but was *bullish-for-asymmetry* — CFTC re-loaded into all the cross-currents. Carry community is pricing BOJ-delay + rate-diff-still-wide and ignoring (a) Phase 2 setup, (b) Big 3 ESR catalyst window, (c) the fact that intervention #3 zone defusing doesn't reduce June BOJ probability much. If any Big 3 prints stress, -93,905 has nowhere to run.
 
-**Research sub-agents spawned (parallel):** ESR disclosures, Q1 GDP, April trade balance, April CPI preview. All four delivered. Phase 1 inversion was the most thesis-significant finding.
+**No position change.** 13 shares + 1 Jun-18 $58 call unchanged from May 21 entry. Stop $55.05.
+
+**No commit/push this session** — working directory has uncommitted PROME/FORGE/inbox files outside SAM, skipped pull at boot. SAM files committed at close.
 
 ### NEXT SESSION
 
-**Position followup:**
-1. **Check FXY $58.00 limit fill status** — if filled (FXY dropped below $58 on May 13-21), confirm position and entry blend. If not filled, re-evaluate against current $57.66.
-2. If Will approves add at $57.66, update TRADE.md "Active Positions" header to 12 shares; flag FORGE update to Prome (don't edit FORGE directly per CLAUDE.md cross-directory rule).
+**Imminent catalysts (THIS WEEK):**
+1. **🔴🔴 Tue May 26 (~2-3 AM ET / 15:00 JST): Nippon Life + Meiji Yasuda FY2025 ESR.** No scheduled date published — historical pattern. Watch nissay.co.jp/news/ and meijiyasuda.co.jp/profile/corporate_info/disclosure/account/. **PRIMARY Channel 1 test.** Set SAM-25 (any <200% @40%) up for resolution.
+2. **🔴🔴 Wed May 27: Sumitomo Life FY2025 ESR.** Watch sumitomolife.co.jp/about/company/ir/settlement/.
+3. **🟠 Thu-Fri May 28-29: Tokyo May CPI.** Leading for June national. Core-core slip below 1.9% → BOJ pricing breaks lower.
+4. **🟠 Fri May 29: CFTC weekly (May 22 data).** Watch for break of -102K cycle peak (new fuel high) or sudden cover (MOU/intervention shock).
 
-**Imminent catalysts:**
-1. **🔴 Fri May 22: Japan April national CPI** — Tokyo leading 1.5%; consensus 1.7% core. Soft = fades June BOJ pricing 74% → 60-65%. SAM-27 @75% on <2.0%.
-2. **🔴🔴 May 25-29: Big 3 mutual ESR (Nippon, Meiji Yasuda, Sumitomo)** — PRIMARY Channel 1 test. SAM-25 @40% on any <200%.
-3. **🟠 ongoing: USDJPY 159+** — intervention #3 trigger zone. SAM-23 @75% (intervention #3 before BOJ).
-4. **🟠 ongoing: JGB 30Y >4.0%** — SAM-26 @70% (holds through June BOJ).
+**Action items:**
+1. **At boot tomorrow**: pull Big 3 ESR results from IR pages first. If any <200% → write LIQUID 🔴 + HENRY 🔴 outbox signals immediately, escalate to Will pre-market.
+2. **Position eve**: if Big 3 ESR prints stress, Sep $60 calls (Position A authorized but not executed) becomes time-sensitive. Pre-decision price grid would help — sketch entry zones for Sep $60C against possible ESR outcomes.
+3. **Outbox bundling**: deferred CFTC reload signal to HENRY 🟠 — consolidate with Big 3 ESR result into ONE multi-finding signal Tue post-print.
 
 **Hard trigger window:**
-5. **🔴🔴 Tue Jun 16: BOJ MPM — BASE CASE HIKE.** SAM-21 (70% / market 74%). SAM-24 (25bp @85%).
+4. **🔴🔴 Tue Jun 16: BOJ MPM — base case hike.** SAM-21 ~57% (market 55-65%). SAM-24 (25bp @85%) still tracking.
 
 **Pickup work (deferred):**
-- Boot script enhancement: intraday-range alert when USDJPY single-day range > 2.5y (May 12 intervention-miss lesson)
-- `usdjpy.py` touch tolerance band (May 6 low 155.05 currently fails strict ≤155)
-- THESIS audit pass 2 cleanup — items deferred from May 3 session
+- Boot script enhancement: intraday-range alert when USDJPY single-day range > 2.5y (May 12 intervention-miss lesson).
+- `usdjpy.py` touch tolerance band (May 6 low 155.05 fails strict ≤155).
+- `jgb_auctions.py` TSV-append bug (auction parses fine; only append crashes).
+- CHANGELOG candidate for v1.5: separate "J-ICS mechanism intact" from "JGB 30Y threshold holds" framing — deferred until durability of Iran MOU is known.
 
 ### PENDING (carry-over)
-- STRATEGY no-chase rule: Tranche 2 zone $58.00-58.25 was breached upward May 1; per rule, forfeited at that level. Adding at $57.66 is a NEW entry zone, not a chase of the original.
-- v1.5 trigger gate: if Big 3 mutual ESR prints stress (<200%), would warrant scenario rebalance to stress case 50/40/10 (currently 70/25/5).
+- v1.5 trigger gate: if Big 3 mutual ESR prints stress (<200% any), warrant scenario rebalance toward stress case 50/40/10 (currently 70/25/5).
+- STRATEGY no-chase rule: Tranche 2 zone $58.00-58.25 was breached upward May 1; per rule forfeited at that level. May 21 $57.66 add was NEW entry zone, not a chase.
 
 ### INFRASTRUCTURE STATUS (persistent)
-- Boot scripts: 8/8 green (9.3s May 21).
-- Workbook auto-pulls: JGB_YIELDS May 20 (30Y BREACHED 4.0%), MOF_FLOWS May 10-16 (net buying), CFTC_JPY (SHORT BUILD reversal), FXY_OPTIONS May 21, USDJPY May 21.
-- MOF_INTERVENTIONS catalog: Apr26 (¥5.48T) + May26 (¥4.3T).
-- CATALYSTS.tsv (needs sync to v1.4 — deferred to next session).
+- Boot scripts: 7/8 green May 25 (jgb_auctions append bug; parser fine).
+- Workbook auto-pulls: JGB_YIELDS May 22 (30Y 3.931% retraced), CFTC_JPY -93,905 May 19 (3rd build week), MOF_FLOWS May 10-16 (net buying), FXY_OPTIONS May 21.
+- MOF_INTERVENTIONS catalog: Apr26 (¥5.48T) + May26 (¥4.3T). No #3 this week.
 - STRATEGY.md canonical decision doc; STATUS scenario matrices subordinate.
