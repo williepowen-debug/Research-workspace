@@ -1,6 +1,6 @@
 # SAM CALENDAR
 
-**Last Updated:** 2026-05-25 | **View:** Forward-looking only. Past events pruned weekly.
+**Last Updated:** 2026-05-26 | **View:** Forward-looking only. Past events pruned weekly.
 
 ---
 
@@ -8,9 +8,7 @@
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| **🔴🔴 Tue May 26 (~2-3 AM ET / 15:00 JST)** | **Nippon Life FY2025 ESR** (historical pattern; no scheduled date published) | ESR level + foreign-bond commentary + UST holdings update | <200% = stress-case Channel 1 trigger; 200-219% = manageable; >220% = base case holds | LIQUID, PROME, SAM |
-| **🔴🔴 Tue May 26** | **Meiji Yasuda FY2025 ESR** (historical pattern — typically same day as Nippon) | ESR level + JGB unrealized loss disclosure | Acute interest given FY24 ¥1.39T paper losses; was the prior ESR-disclosure resister | LIQUID, SAM |
-| **🔴🔴 Wed May 27** | **Sumitomo Life FY2025 ESR** (historical pattern) | ESR + Symetra private-credit exposure update | $10.7B US PC stack stress test; FY24 paper losses ¥1.52T baseline | LIQUID, SAM |
+| **🔴 Wed May 27** | **Sumitomo Life FY2025 ESR** (historical pattern) | ESR + Symetra private-credit exposure update | $10.7B US PC stack stress test. If matches Nippon pattern (capital-action-not-market-stress) → Channel 1 v1.5 downgrade. If <200% via market stress → Channel 1 reactivates | LIQUID, SAM |
 | **🟠 Thu-Fri May 28-29** | **Tokyo May CPI** | Core / core-core trend | Leading indicator for June national. If core-core <1.9% → June BOJ pricing breaks lower from 55-65% | SAM, HENRY |
 | **🟠 Fri May 29** | CFTC JPY weekly release (May 22 data) | Net short level | Currently -93,905 (3rd build week). Break above -102K = NEW cycle peak fuel load | SAM, HENRY |
 
@@ -83,6 +81,8 @@
 
 | Date | Event | Outcome |
 |---|---|---|
+| Tue May 26 | ✅ **Nippon Life FY2025 ESR** | **195% (vs 222%, -27pt)** — BELOW 200% threshold but driver = Resolution Life $10.6B M&A (-28pt), NOT market stress. Foreign securities unrealized GAIN +¥3.99T (+¥909B YoY). Market priced as capital action (USDJPY 158.95 → 159.24). **SAM-25 TRUE-in-letter, FAILED-in-spirit.** Channel 1 thesis materially weakened. |
+| Tue May 26 | ✅ **Meiji Yasuda FY2025 ESR** | **208% (vs 216%, -8pt)** — inside 200-219% manageable band, below 220% target. JGB unrealized loss -¥2.16T (worse by ¥776B); Foreign securities unrealized GAIN +¥709B. Stancorp leaning INTO US via Allstate. Resilient base case. |
 | Fri May 22 | ✅ **Japan April national CPI** | DOVISH MISS — core 1.4% vs 1.7% consensus / 1.8% prior; core-core 1.9% vs 2.2% est. 3rd month <2%. SAM-27 (<2.0%) CONFIRMED TRUE. Swap pricing 74% → ~55-65% for June BOJ. |
 | May 22-25 | ✅ **Brent collapse** | -12% from $107.84 → $94.53 on Iran/Hormuz MOU optimism (Pakistan mediating). Phase 2 inception priced; deal still rumor-tier. |
 | May 22 | ✅ **CFTC JPY (May 19 data)** | Net short -93,905 (+18,803 WoW; 3rd build week). Build = new shorts (+25K), not long liquidation. Major fuel reload right before catalyst window. |

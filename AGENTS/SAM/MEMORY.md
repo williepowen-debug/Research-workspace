@@ -17,6 +17,7 @@
 ## Findings
 - [2026-05-12] **Read intraday extremes, not just closes — Apr 30 intervention misread.** May 3 STATUS logged Apr 30 yen move as "Tokyo session reprice" when it was MOF intervention (intraday range 5.15y). Add intraday-range alert when single-day range >2.5y. `usdjpy.py` touch tolerance band needed (May 6 low 155.05 failed strict ≤155).
 - [2026-05-25] **Threshold-durability ≠ mechanism-durability — SAM-26 lesson.** Predicting a number-level holds is fragile when the underlying mechanism is right but cross-currents drive temporary retracement. JGB 30Y broke 4.0% (May 15) on J-ICS lifer abandonment; retraced to 3.931% within 1 week on oil collapse + dovish CPI even though insurers did NOT return as buyers (bid came from non-insurer flow). **Lesson:** when writing falsifiable predictions, separate "mechanism intact" propositions from "threshold sticks" propositions. Threshold predictions need explicit cross-current language ("holds X through event Y absent oil/Fed/intervention shock"). Transferable to any threshold-based prediction (yield levels, FX levels, CFTC contract counts).
+- [2026-05-26] **Threshold-vs-mechanism trap fired in real-time on SAM-25 hours after logging.** SAM-25 (any Big 3 <200% ESR @40%) printed TRUE literally on Nippon 195% — but mechanism is M&A capital deployment (Resolution Life $10.6B subsidiarization, -28pt), NOT market stress. Foreign book in unrealized GAIN +¥3.99T. Market priced as capital action (USDJPY 158.95 → 159.24, yen WEAKER). **Same lesson as SAM-26 but on a level-breach instead of a level-hold.** Lesson extension: ESR / capital-ratio predictions must explicitly distinguish "<200% via market stress (forced rebalance signal)" from "<200% via capital action (M&A, sub-debt, dividend)." The intent of these predictions is to flag forced-selling triggers, not generic capital-ratio movement. Future versions: prefix with "due to market losses / forced rebalance" qualifier or split into two sub-predictions.
 - [2026-05-03] **Sub-agent fresh-context usability tests surface gaps invisible to the builder.** ~30s/test, high-yield. Re-applicable to any future SAM build/refactor.
 - [2026-03-31] PROME's SCRATCH.md is the single most useful file at boot for system-wide context.
 - [2026-03-31] EUR/JPY went unmonitored for 8 weeks and blew through 175 to 183. Cross-pair yen weakness can be a blind spot when USD/JPY dominates attention.
@@ -40,34 +41,30 @@
 6. **No MOF/BOJ/Bessent jawbone May 22-25** — Channel 3 dormant. Bessent May 12 affirmation remains live overhang.
 7. **June BOJ swap pricing 74% → ~55-65%** (Polymarket 59.5%) post-CPI. ING maintained base case ("subsidy + base-effect noise").
 
-### LAST SESSION (May 25-26 — Pass 1-2-3 writeback sync)
+### LAST SESSION (May 25-26 — Boot sync + Big 3 ESR Day 1 update)
 
-Will requested boot at 7:30 PM Mon May 25. Boot.py 8.7s, 7/8 green (JGB auctions TSV-append bug; auction parsed fine — 5Y Climate Transition BTC 4.622x). Three follow-up searches resolved gaps before writebacks: CFTC actual print, Big 3 ESR scheduling, June BOJ OIS + jawboning.
+**Phase A (May 25 PM):** Boot from 7:30 PM. boot.py 8.7s, 7/8 green. Three follow-up searches (CFTC, ESR scheduling, BOJ OIS + jawboning). 3-pass writeback (STATUS/CALENDAR, TIMELINE/PREDICTIONS, MEMORY). Pushed clean; push-train carried PROME 6/18 cluster commit.
 
-**Pass 1 (STATUS + CALENDAR):** Refreshed all market data, carry unwind probs (7d 18→22, 30d 72→70, 60d 88 held), intervention status "defused," BOJ section with counterweights, Big 3 ESR Tue-Wed as primary catalyst. CALENDAR added Phase 2 Watch section + Recently-Resolved log.
+**Phase B (May 26 AM — Big 3 ESR Day 1):** Nippon 195% + Meiji 208% disclosed 15:00 JST. Verified Nippon decomposition via direct PDF read (gaiyo p.7 ESR waterfall): -28pt driven by Resolution Life $10.6B M&A subsidiarization, NOT market stress. Both insurers' foreign books in unrealized gain. Market priced as capital action (USDJPY 158.95 → 159.24 yen WEAKER, FXY flat). Updated STATUS / CALENDAR / TIMELINE / PREDICTIONS / MEMORY to reflect Channel 1 thesis materially weakened, scenario weights deferred pending Sumitomo Wed May 27. Carry unwind probs: 7d 22→17, 30d 70→65, 60d 88→83. THESIS / CHANGELOG NOT updated yet — v1.5 deferred to post-Sumitomo.
 
-**Pass 2 (TIMELINE + PREDICTIONS):** TIMELINE got new "RESOLVED May 22-25" cluster (CPI miss, Brent -12% Phase 2 inception, CFTC reload, 30Y retracement, jawbone-quiet). Branch points table updated; Big 3 ESR split into Tue/Wed. PREDICTIONS: SAM-27 CONFIRMED TRUE; SAM-21 70%→57%; SAM-23 75%→55%; SAM-26 70%→30% TRACKING FALSE.
+**Synthesis insight:** The threshold-vs-mechanism finding logged 2026-05-25 fired in real-time on SAM-25 — hours after writing it. SAM-25 prints TRUE literally (Nippon <200%) but FALSE in spirit (no forced rebalance). Same pattern as SAM-26 but on a level-breach not a level-hold. Pattern recognition working; need to update prediction-writing template to bake in mechanism qualifiers.
 
-**Pass 3 (this file).** Added [2026-05-25] feedback (gap-check before writebacks) + [2026-05-25] finding (threshold-vs-mechanism). Pruned two stale findings (2026-04-24 hedged-vs-unhedged + SAM-19 error types — both fully incorporated into v1.4 THESIS).
-
-**Synthesis insight (carries into next session):** The dovish-CPI + Brent-collapse week looked bearish-for-thesis on headlines but was *bullish-for-asymmetry* — CFTC re-loaded into all the cross-currents. Carry community is pricing BOJ-delay + rate-diff-still-wide and ignoring (a) Phase 2 setup, (b) Big 3 ESR catalyst window, (c) the fact that intervention #3 zone defusing doesn't reduce June BOJ probability much. If any Big 3 prints stress, -93,905 has nowhere to run.
+**Channel re-weighting (current understanding):** Channel 1 (life insurer repatriation) demoted to "deferred mechanism / structural backstop." Channel 2 (carry / BOJ) now dominant remaining trigger. Channel 3 (intervention) defused on Brent collapse. CFTC -93,905 still primary asymmetric fuel, but for a Channel 2 fire now.
 
 **No position change.** 13 shares + 1 Jun-18 $58 call unchanged from May 21 entry. Stop $55.05.
 
-**No commit/push this session** — working directory has uncommitted PROME/FORGE/inbox files outside SAM, skipped pull at boot. SAM files committed at close.
-
 ### NEXT SESSION
 
-**Imminent catalysts (THIS WEEK):**
-1. **🔴🔴 Tue May 26 (~2-3 AM ET / 15:00 JST): Nippon Life + Meiji Yasuda FY2025 ESR.** No scheduled date published — historical pattern. Watch nissay.co.jp/news/ and meijiyasuda.co.jp/profile/corporate_info/disclosure/account/. **PRIMARY Channel 1 test.** Set SAM-25 (any <200% @40%) up for resolution.
-2. **🔴🔴 Wed May 27: Sumitomo Life FY2025 ESR.** Watch sumitomolife.co.jp/about/company/ir/settlement/.
-3. **🟠 Thu-Fri May 28-29: Tokyo May CPI.** Leading for June national. Core-core slip below 1.9% → BOJ pricing breaks lower.
-4. **🟠 Fri May 29: CFTC weekly (May 22 data).** Watch for break of -102K cycle peak (new fuel high) or sudden cover (MOU/intervention shock).
+**Imminent catalysts:**
+1. **🔴 Wed May 27: Sumitomo Life FY2025 ESR** (~15:00 JST / ~2-3 AM ET). Watch sumitomolife.co.jp/about/company/ir/settlement/. **The pattern-confirmation test.** If matches Nippon (capital-action-not-market-stress + foreign book intact) → Channel 1 v1.5 downgrade language warranted. If <200% via market stress → Channel 1 reactivates. Sumitomo's Symetra/US PC exposure is the wild card — $10.7B PC stack stress could surface here even if ESR headline looks manageable.
+2. **🟠 Thu-Fri May 28-29: Tokyo May CPI.** Leading for June national. Core-core slip below 1.9% → BOJ pricing breaks lower from 55-65%.
+3. **🟠 Fri May 29: CFTC weekly (May 22 data).** Watch for break of -102K cycle peak (new fuel high) or sudden cover.
 
 **Action items:**
-1. **At boot tomorrow**: pull Big 3 ESR results from IR pages first. If any <200% → write LIQUID 🔴 + HENRY 🔴 outbox signals immediately, escalate to Will pre-market.
-2. **Position eve**: if Big 3 ESR prints stress, Sep $60 calls (Position A authorized but not executed) becomes time-sensitive. Pre-decision price grid would help — sketch entry zones for Sep $60C against possible ESR outcomes.
-3. **Outbox bundling**: deferred CFTC reload signal to HENRY 🟠 — consolidate with Big 3 ESR result into ONE multi-finding signal Tue post-print.
+1. **First task next session: pull Sumitomo ESR result from IR page.** Check for: (a) ESR level, (b) decomposition (is the move M&A/capital-action like Nippon, or market-stress?), (c) Symetra/US PC exposure update, (d) JGB unrealized loss, (e) foreign securities mark.
+2. **Post-Sumitomo synthesis call:** if pattern confirms (capital action driver), write v1.5 THESIS update with Channel 1 reframe. Update CHANGELOG with old/new view. Adjust scenario weights 70/25/5 → 75/20/5.
+3. **Outbox signal bundling:** prepare LIQUID 🟡 signal (not 🔴) — counter-Channel-1 read for the May 22-26 window. Their UST demand thesis from Japanese repatriation needs same nuance. Bundle CFTC reload + Big 3 ESR + Channel 1 demotion into ONE consolidated signal. HENRY 🟠 mirror.
+4. **Position eve check:** Sep $60 calls (Position A authorized) decision after Sumitomo. With Channel 1 deferred, the Sep $60C entry case rests more heavily on June BOJ hike + CFTC reload — less time-sensitive than pre-ESR.
 
 **Hard trigger window:**
 4. **🔴🔴 Tue Jun 16: BOJ MPM — base case hike.** SAM-21 ~57% (market 55-65%). SAM-24 (25bp @85%) still tracking.
