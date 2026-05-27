@@ -1,6 +1,6 @@
 # SAM STATUS
 
-**Signal Status:** 🟠 v1.4 — CHANNEL 1 TEST IN: NIPPON 195% (M&A-DRIVEN, NOT STRESS) + MEIJI 208% MANAGEABLE | USD/JPY **159.24** (yen WEAKENED post-print — priced as capital action, not Channel 1 trigger) | FXY **$57.70** (flat on Nippon print) | CFTC **-93,905** (3rd build week) | JGB 10Y **2.749%** | JGB 30Y **3.931%** | Brent **$94.53** | **Position: 13 shares + 1 Jun-18 $58C — unchanged** | **Last Updated:** 2026-05-26 ESR window AM ET
+**Signal Status:** 🟠 v1.4 — CHANNEL 1 TEST IN: NIPPON 195% (M&A-DRIVEN, NOT STRESS) + MEIJI 208% MANAGEABLE | USD/JPY **159.24** (yen WEAKENED post-print — priced as capital action, not Channel 1 trigger) | FXY **$57.70** (flat on Nippon print) | CFTC **-93,905** (3rd build week) | JGB 10Y **2.749%** | JGB 30Y **3.931%** | Brent **$94.53** | **Position: 13 shares + 1 Jun-18 $58C — unchanged** | **Last Updated:** 2026-05-26 PM ET — pre-Sumitomo handoff (markets closed; infra session only, no market refresh)
 
 ---
 

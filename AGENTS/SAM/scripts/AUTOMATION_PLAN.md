@@ -1,6 +1,8 @@
 # SAM Automation Plan
 
-**Created:** 2026-04-11 | **Status:** DRAFT — awaiting Will approval | **Model:** Adapted from REGINALD/scripts/AUTOMATION_PLAN.md
+**Created:** 2026-04-11 | **Status:** ✅ EXECUTED (verified 2026-05-26 — all 8 scripts + `boot.py` orchestrator built and running daily; ~8.7s boot. May 26 PM: `jgb_auctions.py` TSV-append bug fixed; `usdjpy.py` touch tolerance + intraday-range alert added.) | **Model:** Adapted from REGINALD/scripts/AUTOMATION_PLAN.md
+
+*This doc is preserved as the original design rationale. For current script status, run `boot.py` directly. For pickup work / known issues, see SAM `MAINTENANCE.md` and inline TODOs.*
 
 ---
 

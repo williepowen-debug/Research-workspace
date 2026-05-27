@@ -46,6 +46,19 @@ REFERENCE_LEVELS = [
     (140, "Aug 2024 low"),
 ]
 
+# Touch tolerance — within this many yen counts as a touch of the level.
+# Reason: strict ≥/≤ comparison failed May 6 (low 155.05 missed 155 as a Phase 2 touch).
+# 0.10y captures near-touches without losing precision on the 5y-range thresholds.
+TOUCH_TOLERANCE = 0.10
+
+# Intraday-range alert thresholds (high - low for a single trading day).
+# Calibrated against MOF intervention events:
+#   Apr 30 2026: 5.15y range (¥5.48T intervention)
+#   May 6 2026:  2.84y range (¥4.3T intervention)
+# Normal USDJPY daily range is 0.5-1.5y. >2.5y is a stress event.
+INTRADAY_RANGE_WARN = 2.5      # 🟠 stress event — investigate
+INTRADAY_RANGE_CRIT = 4.0      # 🔴 intervention-grade move
+
 # Confirmed MOF intervention episodes (public record). Touches near these
 # dates get a MOF marker; touches NOT near these dates = "no MOF" (level was
 # hit naturally without policy response).
@@ -186,15 +199,16 @@ def print_summary(rows):
 
     def days_since_level(level):
         """Directional touch — looks at HIGH for above-current levels,
-        LOW for below-current levels. Returns (days, touch_date_str) or
-        (None, None) if never touched in window."""
+        LOW for below-current levels. Uses TOUCH_TOLERANCE band so near-touches
+        register (e.g., May 6 low 155.05 counts as a touch of 155).
+        Returns (days, touch_date_str) or (None, None) if never touched in window."""
         for r in reversed(rows):
             if level >= current:
-                if r["high"] >= level:
+                if r["high"] >= level - TOUCH_TOLERANCE:
                     td = date.fromisoformat(r["date"])
                     return (today - td).days, r["date"]
             else:
-                if r["low"] <= level:
+                if r["low"] <= level + TOUCH_TOLERANCE:
                     td = date.fromisoformat(r["date"])
                     return (today - td).days, r["date"]
         return None, None
@@ -234,6 +248,25 @@ def print_summary(rows):
             touch_parts.append(f"{level} → {days}d, {marker}")
     line2 = f"  {color} Days since touch: " + " | ".join(touch_parts)
     print(line2)
+
+    # Intraday-range alert — flag single-day high-low moves that suggest
+    # intervention or capitulation. Apr 30 2026 misread as "Tokyo session reprice"
+    # because close-to-close looked tame (intraday range was 5.15y = MOF intervention).
+    recent = rows[-5:] if len(rows) >= 5 else rows
+    ranges = [(r["date"], r["high"] - r["low"]) for r in recent]
+    max_date, max_range = max(ranges, key=lambda x: x[1])
+    latest_range = rows[-1]["high"] - rows[-1]["low"]
+
+    range_marker = "🟢"
+    range_note = "normal daily range"
+    if max_range >= INTRADAY_RANGE_CRIT:
+        range_marker = "🔴"
+        range_note = f"INTERVENTION-GRADE move {max_date} ({max_range:.2f}y intraday range)"
+    elif max_range >= INTRADAY_RANGE_WARN:
+        range_marker = "🟠"
+        range_note = f"stress-event move {max_date} ({max_range:.2f}y intraday range — investigate)"
+
+    print(f"  {range_marker} Intraday range (5d max): {max_range:.2f}y on {max_date} | latest: {latest_range:.2f}y | {range_note}")
 
 
 def main():
