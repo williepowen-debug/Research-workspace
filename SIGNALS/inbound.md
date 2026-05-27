@@ -1,8 +1,15 @@
 # SENTRY Inbound Feed
-**Generated:** 2026-05-26T22:58:42.826043+00:00
-**Items:** 1
+**Generated:** 2026-05-27T23:06:43.949090+00:00
+**Items:** 2
 
 ## EIA Today in Energy
+
+### The United States is a major energy exporter and importer, especially for petroleum
+- **Link:** https://www.eia.gov/todayinenergy/detail.php?id=67724
+- **Date:** 2026-05-27T14:00:00+00:00
+- **Tags:** #energy #brent #eia
+- **GUID:** 55ae7a61ed8c5ec3
+- **Summary:** Total energy exports from the United States reached a record 31 quadrillion British thermal units (quads) in 2025, 2% more than the previous record set in 2024. U.S. energy imports were 21 quads, down 5% from 2024. Taken together, net trade—total imports less total exports—reached 11 quads of net exports in 2025, a record and 20% more net exports than the previous record set in 2024.
 
 ### Most planned natural gas pipeline capacity additions in 2026 and 2027 originate in Texas
 - **Link:** https://www.eia.gov/todayinenergy/detail.php?id=67707
