@@ -1,26 +1,41 @@
-# SAM THESIS — v1.4 (v1.5 candidate pending Sumitomo May 27)
+# SAM THESIS — v1.5
 
-**Version:** 1.4
-**Last Updated:** 2026-05-26 (Big 3 ESR Day 1 — Nippon 195% M&A-driven, Meiji 208% manageable; Channel 1 thesis materially weakened; v1.5 reframe deferred to post-Sumitomo)
-**Status:** 🟠 MIXED — Channel 1 weakened (ESR pressure absorbed via M&A capital action, not forced selling); Channel 2 (June BOJ 55-65%) now dominant remaining trigger; Channel 3 dormant (intervention #3 zone defused on Brent -12%)
-**Conviction:** HIGH on direction; MEDIUM on near-term timing
+**Version:** 1.5
+**Last Updated:** 2026-05-27 (Big 3 ESR window resolved 3-of-3 — Nippon 195% M&A, Meiji 208% manageable, **Sumitomo 197% ↑+19pt with foreign book growing**; Channel 1 demoted to deferred structural backstop)
+**Status:** 🟠 SINGLE-PATH — Channel 1 deferred (3-of-3 Big 3 confirmed ESR pressure absorbed via M&A + equity rally + hedge-cost relief, NOT foreign bond sales); Channel 2 (June BOJ 55-65%) is dominant remaining near-term trigger; Channel 3 dormant on Brent collapse
+**Conviction:** HIGH on direction; MEDIUM on near-term timing (single-catalyst structure carries more drawdown risk than multi-channel convergence)
 **Current state (daily snapshot):** see `STATUS.md`
 
 ---
 
 ## CORE THESIS
 
-Japan is approaching a structural inflection where multiple independent transmission channels converge on the same outcome: yen strengthening and carry unwind. The question is not *if* but *when* and *how fast*.
+Japan is approaching a structural inflection. As of v1.5, the path is **single-catalyst**: yen strengthens primarily via the June BOJ hike (Channel 2). The forced-repatriation mechanism (Channel 1) is deferred to multi-year — the Big 3 mutual ESR disclosures resolved without forced foreign selling. The structural direction is intact but the near-term path is narrower.
 
-**One-liner:** Structural channels intact and amplifying. JGB 30Y breached the 4.0% severe-insurer-stress threshold on May 15 — driven by mid-size lifer abandonment of the long end under J-ICS (mechanism amplifier, not relief valve). MOF intervened TWICE (Apr 30 + May 6, ~¥10T / $63.5B combined — largest since 2022) with explicit US backing from Bessent May 11-12. June BOJ hike at 74% swap pricing. Direction confirmed; the question is whether the unwind fires via BOJ hike (June 16), intervention #3 + spec capitulation, or ESR-disclosure shock at Big 3 mutuals next week (May 25-29).
+**One-liner:** v1.5 — Channel 2 (June BOJ June 16, ~57% SAM / 55-65% market) is now the dominant remaining near-term path. Channel 1 (life insurer ESR pressure → foreign bond sale) deferred after 3-of-3 Big 3 mutual prints (Nippon, Meiji Yasuda, Sumitomo) showed ESR pressure absorbed via M&A capital action + equity rally + hedge-cost relief WITHOUT foreign bond reduction. Foreign books in unrealized GAIN at all three; foreign exposure GROWING (Sumitomo's allocation rose from 33.3% → 35.5%); M&A direction INTO US (Resolution Life, Allstate, Dearborn). J-ICS lifer long-end abandonment (the JGB 30Y mechanism, domestic) remains intact. Channel 3 dormant on Brent -12% collapse (Iran/Hormuz MOU framework hardening). Direction confirmed; the single-path structure makes the position correctly sized at 13 shares + Jun-18 $58C — no Sep OTM addition warranted under v1.5.
 
 ---
 
 ## THREE TRANSMISSION CHANNELS
 
-### Channel 1: Life Insurer Repatriation (SAM → LIQUID)
+### Channel 1: Life Insurer Repatriation (SAM → LIQUID) — **v1.5 STATUS: DEFERRED STRUCTURAL BACKSTOP**
 
-Japanese life insurers hold $450-810B in USTs. Total Japanese institutional foreign portfolio exposure subject to repatriation is ~$3.0-3.5T (including GPIF ¥124.6T, life insurers ~¥100-150T, megabanks, regionals). Japan holds $1,239.3B in USTs (Feb 2026, +$53.8B Dec→Feb) — world's largest foreign holder. The April 2025 ESR regime change (SMR 933% → ESR 219% in field tests) made unrealized losses visible to regulators for the first time. They can no longer hide.
+**v1.5 verdict (May 27):** The Big 3 mutual ESR disclosure window (Nippon, Meiji Yasuda, Sumitomo — all printed May 26) resolved with 3-of-3 evidence AGAINST the v1.0-v1.4 transmission mechanism. ESR pressure exists (Nippon -27pt to 195%, Meiji -8pt to 208%) but was absorbed via capital actions (Resolution Life $10.6B M&A), equity rally, and hedge-cost relief — NOT via foreign bond sales. Sumitomo's ESR ROSE +19pt to 197% with foreign exposure GROWING +¥1.11T (foreign bonds +¥543B, +6.2%). Foreign books in unrealized GAIN at all three. M&A direction is INTO the US (Resolution Life, Allstate, Dearborn Life).
+
+**Channel 1 demoted to deferred structural backstop (multi-year, not 2026).** The mechanism is not falsified at the multi-year/cycle level — the structural setup (hedge ratio collapse, J-ICS visibility, rate-differential pressure) is intact. But the 2026 transmission timing assumption is broken. Next near-term Channel 1 re-test window is the H2 FY2026 plan announcements (Oct-Nov 2026) and the FY2026 ESR disclosures (May 2027). See `thesis/CHANGELOG.md` 2026-05-27 entry for the full v1.4 → v1.5 transition.
+
+**What still works (mechanism level — kept in v1.5):**
+- **J-ICS lifer long-end abandonment** as the JGB 30Y/40Y driver (DOMESTIC mechanism, independent of foreign-asset transmission) — see subsection below
+- Mid-size lifer pivots (Fukoku, Asahi) from 30/40Y → 10-15Y tenors — confirmed
+- Norinchukin CLO ¥9.7T position shrinking — confirmed (¥500B decline Q1 2026)
+
+**What's deferred:**
+- "ESR cap → forced UST sale" transmission timing — pushed to multi-year horizon
+- Big 3 mutual ESR window as primary near-term catalyst — exhausted
+
+---
+
+Japanese life insurers hold $450-810B in USTs. Total Japanese institutional foreign portfolio exposure subject to repatriation is ~$3.0-3.5T (including GPIF ¥124.6T, life insurers ~¥100-150T, megabanks, regionals). Japan holds $1,239.3B in USTs (Feb 2026, +$53.8B Dec→Feb) — world's largest foreign holder. The April 2025 ESR regime change (SMR 933% → ESR 219% in field tests) made unrealized losses visible to regulators for the first time. They can no longer hide. **However, v1.5 confirms ESR visibility ≠ forced foreign selling at multi-year amplitude — capital actions and equity rally absorb the pressure on the timescale of the disclosure window.**
 
 **Note:** GPIF is NOT a forced-selling risk. Its 25/25/25/25 target allocation has ±6-7% deviation bands. Even USD/JPY 150→130 only drops foreign asset weights to ~21.5-21.8% — within band. GPIF rebalancing actually CUSHIONS yen appreciation by buying foreign assets when they decline. Confirmed through FY2029.
 
@@ -62,17 +77,17 @@ Japanese life insurers hold $450-810B in USTs. Total Japanese institutional fore
 - **Apr 30 2Y JGB auction:** BTC 5.24x, tail 0.005y — front-end demand robust. JGB market continues orderly across the curve.
 - **Interpretation:** Selling is real (hedge math + ESR pressure drive it) but gradual. Visible at weekly MOF level, invisible at aggregate TIC level = offset by other Japanese buyers (banks, retail Toshin) or price-effect on stock.
 
-**Flow scenarios (held):**
-- Base case: $80-120B over 12 months ($7-10B/mo) — **70% prob** *(Apr data confirms)*
-- Stress case: $150-250B over 6 months ($25-40B/mo) — 25% prob *(ESR disclosures May-Jun may trigger)*
-- Crisis case: $300-500B over 3 months ($100-165B/mo) — 5% prob
+**Flow scenarios (v1.5 — post Big 3 ESR window 3-of-3 confirmation):**
+- Base case: $80-120B over 12 months ($7-10B/mo) — **78% prob** *(confirmed by 3-of-3 Big 3 — rotation-within, hedge ratio shifts, no net cut)*
+- Stress case: $150-250B over 6 months ($25-40B/mo) — **18% prob** *(lowered — would require new shock to trigger; ESR disclosure window resolved without stress signal)*
+- Crisis case: $300-500B over 3 months ($100-165B/mo) — **4% prob**
 
 **Private Credit Amplifier (NEW — Apr 3):**
 Life insurers also hold ~$40-53B (~$45B central est.) in US private credit — mostly unhedged (80-90%, hedge costs destroy yield pickup on illiquid cash flows). Double-hit: BOJ hike strengthens yen 5-8% (wiping 2-3yr spread income on ~$35-48B unhedged) WHILE US PC marks down simultaneously ($10.1B redemption cascade, gates rising). Combined currency + mark-to-market losses est. $4-12B on positions that CANNOT be sold (illiquid, gated). Key holdings: Sumitomo $10.7B, Nippon Life $3.25B (TCW), Meiji Yasuda $4.2B, Dai-ichi $4.2B. Most CLO holdings are AAA/AA tranches (resilient historically) but direct PC lending less protected. Under ESR, these losses are now visible to regulators. **Net effect:** shifts probability from base case → stress case repatriation. Orderly exit becomes less likely. Source: Morgan Stanley 1-3% AUM range, verified bottom-up. Full research: `research/outputs/JAPAN_INSURER_PRIVATE_CREDIT_EXPOSURE.md`.
 
-### Channel 2: Carry Unwind (SAM → HENRY)
+### Channel 2: Carry Unwind (SAM → HENRY) — **v1.5 STATUS: DOMINANT REMAINING NEAR-TERM TRIGGER**
 
-**Current probability:** 20% (7d) / 72% (30d) / 90% (60d) *(post May 1 CFTC; 30d +2pp on shorts pressed through hawkish hold; 60d held on June lock)*
+**Current probability (v1.5, May 27 post-Sumitomo):** 12% (7d) / 62% (30d) / 80% (60d) *(7d trimmed -5pp on no remaining Channel 1 binary; 30d / 60d trimmed -3pp each on Channel 1 demotion)*
 
 CFTC net short JPY still BUILDING (not covering) — May 1 release (Apr 28 data) at **-102,059** (built +7,599 THROUGH the BOJ event, no cover on hawkish hold). Now **56.7% of July 2024 peak** (-180K) — highest of cycle. Positioning hasn't corrected despite hawkish hold → fuel load actively growing. Aug 2024 precedent: unwind took hours, not days.
 
@@ -134,11 +149,13 @@ CFTC net short JPY still BUILDING (not covering) — May 1 release (Apr 28 data)
 
 | Date | Catalyst | Expected Impact |
 |------|----------|-----------------------|
-| **Wed May 27** | **Sumitomo Life FY2025 ESR** (last of Big 3 disclosure window) | Channel 1 pattern-confirmation test. If matches Nippon (capital-action-not-stress) → v1.5 Channel 1 downgrade. If <200% via market stress → Channel 1 reactivates. |
 | **Thu-Fri May 28-29** | Tokyo May CPI | Leading indicator for June national. Core-core <1.9% → June BOJ pricing breaks lower from 55-65%. |
-| **Ongoing** | Intervention #3 watch | USDJPY 159+ = trigger zone. Brent collapse defused near-term (SAM-23 fading 75% → ~55%). Reactivates if Iran MOU collapses. |
-| **🔴🔴 Tue Jun 16** | **BOJ MPM — BASE CASE HIKE to 1.00%** (SAM-21 ~57%; market 55-65%; SAM-24 25bp @85%) | Hike = FXY +5-8% structural; carry unwind fires. Dominant remaining catalyst given Channel 1 deferral. |
+| **Fri May 29** | CFTC JPY (May 22 data) | Watch for break of -102K cycle peak (currently -93,905, 3rd build week) |
+| **Ongoing** | Iran/Hormuz MOU binary watch | Signed text → Phase 2 accelerates; collapsed → intervention #3 zone reactivates. Brent $93.13 (-3.66% intraday May 27). |
+| **Ongoing** | Intervention #3 watch | USDJPY 159+ = trigger zone (currently 159.41). SAM-23 fading 75% → ~55%. Reactivates if Iran MOU collapses. |
+| **🔴🔴 Tue Jun 16** | **BOJ MPM — DOMINANT REMAINING CATALYST** (SAM-21 ~57%; market 55-65%; SAM-24 25bp @85%) | Hike = FXY +5-8% structural; carry unwind fires. **Single-path under v1.5.** |
 | Jun 16 | Sato joins BOJ board (hawk→dove swap) | Medium-term political risk post-June (beyond 1.00% gets harder) |
+| Jun 18-19 | May trade balance — Phase 1 stability lag-test | Volume recovery vs cost-side decomposition (per CALENDAR routing) |
 
 *Operational forward calendar (with current status, daily tracking) lives in `CALENDAR.md`.*
 
@@ -205,17 +222,17 @@ Structural levels that gate thesis paths. *Current values + breach status live i
 
 ---
 
-## RISK FACTORS (v1.4)
+## RISK FACTORS (v1.5)
 
 | Risk | Prob | Impact | Mitigation |
 |------|------|--------|-----------|
-| Oil shock dominates (Kharg, Brent $120+) | 15% | FXY to ~$51-53 short term | Stop at $55.05; sized to absorb |
-| Intervention fails (USDJPY breaks 162+ despite #3, Bessent jawboning empty) | 15% | FXY to ~$55-56 before recovery | Hold if fundamentals intact; stop limits damage |
-| BOJ delays past June (oil + political cover extends to Sep+) | 20% | FXY -3-5% short term | Time = more CFTC fuel load (cover already reversed); unwind more violent when fires |
-| Big 3 mutual ESR all comfortably >220% (Dai-ichi-like) | 25% | No Channel 1 acceleration; thesis grinds | Channel 1 still works at base pace; Channel 2/3 unchanged |
+| BOJ delays past June (oil + political cover extends to Sep+) | **25%** | FXY -3-5% short term | **Single-path elevation of this risk** — under v1.5 there's no parallel Channel 1 catalyst to absorb the disappointment. Time = more CFTC fuel load; unwind more violent when fires. June 18-19 trade balance + Tokyo CPI gate this. |
+| Oil shock dominates (Kharg, Brent $120+) | 15% | FXY to ~$51-53 short term | Stop at $55.05; sized to absorb. Brent currently $93.13 (Phase 2 inception direction). |
+| Intervention fails (USDJPY breaks 162+ despite #3, Bessent jawboning empty) | 12% | FXY to ~$55-56 before recovery | Hold if fundamentals intact; stop limits damage. Lowered from 15% on Brent collapse defusing #3 zone. |
+| **Channel 1 reactivates (new shock — e.g. JGB 30Y blows out to 4.5%+, ESR re-tests below 200% via market stress)** | **10%** | Re-add Channel 1 to multi-channel structure; FXY +3-5pp 60d prob upside | Watch JGB long-end, M&A capital action saturation at Big 3 mutuals |
 | Takaichi board stacking blocks hikes beyond 1.00% | Medium-term | Limits structural appreciation | June hike math unchanged; risk is 2027+ |
 
-**Thesis break condition:** USD/JPY pierces 167 with no MOF response AND BOJ turns dovish. Either alone is insufficient.
+**Thesis break condition (v1.5):** USD/JPY pierces 167 with no MOF response AND BOJ turns dovish at June 16 meeting. Single-path structure makes the AND condition slightly weaker but still required — neither alone is sufficient.
 
 ---
 
@@ -227,10 +244,10 @@ Structural levels that gate thesis paths. *Current values + breach status live i
 
 ## CROSS-AGENT LINKS
 
-- **→ LIQUID:** Life insurer UST selling (base-case pace $7-10B/mo). Hedge ratio 44.4% (14yr low) = $370-550B unhedged. Norinchukin CLO ¥9.7T shrinking. Japan holds **$1,239.3B USTs (Feb 2026)** — +$53.8B Dec→Feb. JGB 30Y at 4.0% via J-ICS lifer long-end abandonment — Big 3 mutual ESR disclosures May 25-29 are the next read.
-- **→ HENRY:** Carry unwind probabilities (v1.4 May 21 refresh): TBD intra-update — sized post tomorrow's CPI. CFTC short rebuilt after May 8 cover signal — shorts re-loading as USDJPY pressed 159. Intervention #3 trigger zone live (USDJPY 159+). Aug 2024 speed precedent intact.
-- **← HAWK:** War → Japan energy vulnerability (90% ME oil dependent). Hormuz blockade collapsed Japan's ME crude imports -67% YoY (lowest since 1979) — supply destruction inverted the Phase 1 trade-deficit mechanism. Brent $107.84.
-- **← HANS/BROCK:** Private credit cascade → Fed cuts → USD/JPY sub-145 independent of BOJ.
+- **→ LIQUID:** Life insurer UST selling (base-case pace $7-10B/mo confirmed by v1.5). Hedge ratio 44.4% (14yr low) = $370-550B unhedged. Norinchukin CLO ¥9.7T shrinking. Japan holds **$1,239.3B USTs (Feb 2026)** — +$53.8B Dec→Feb. **v1.5 update: Big 3 mutual ESR window resolved 3-of-3 benign — Channel 1 forced-repatriation timing pushed to multi-year. No acute UST sell signal from Japan lifer side for 2026.** JGB 30Y mechanism (J-ICS lifer long-end abandonment) remains intact but is DOMESTIC — does not transmit to UST demand on the timescale previously framed.
+- **→ HENRY:** Carry unwind probabilities (v1.5, May 27): 7d 12% / 30d 62% / 60d 80%. CFTC -93,905 (3rd build week, 92% of cycle peak). Single-path to Channel 2 (June BOJ Jun 16). Aug 2024 speed precedent intact. **Position structure narrows: with Channel 1 deferred, June BOJ hike is the dominant remaining near-term path for the carry unwind.**
+- **← HAWK:** War → Japan energy vulnerability (90% ME oil dependent). Hormuz blockade collapsed Japan's ME crude imports -67% YoY (lowest since 1979) — supply destruction inverted the Phase 1 trade-deficit mechanism. Brent $93.13 (-3.66% intraday May 27 on Iran/Hormuz MOU framework hardening).
+- **← HANS/BROCK:** Private credit cascade → Fed cuts → USD/JPY sub-145 independent of BOJ. **v1.5 elevates this as the secondary path** — with Channel 1 deferred, the US-credit-side route to carry unwind matters more.
 
 ---
 
