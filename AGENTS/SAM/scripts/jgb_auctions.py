@@ -176,6 +176,16 @@ def parse_auction(html, date_obj):
     }
 
 
+def _fmt(value, spec):
+    """Format a value, returning empty string for None.
+    Some auction formats (e.g., Climate Transition Bond uniform-price)
+    omit weighted-average columns, leaving avg_yield_pct / tail_bp as None.
+    """
+    if value is None:
+        return ""
+    return format(value, spec)
+
+
 def append_tsv(result):
     """Append result row to TSV, idempotent on (date, security)."""
     existing = set()
@@ -197,10 +207,10 @@ def append_tsv(result):
     with open(AUCTIONS_TSV, "a") as f:
         f.write(
             f"{result['date']}\t{result['security']}\t{result['issue']}\t"
-            f"{result['comp_bids_b']:.1f}\t{result['accepted_b']:.1f}\t"
-            f"{result['btc']:.3f}\t"
-            f"{result['lowest_yield_pct']:.3f}\t{result['avg_yield_pct']:.3f}\t"
-            f"{result['tail_bp']:.2f}\t{result['status']}\n"
+            f"{_fmt(result['comp_bids_b'], '.1f')}\t{_fmt(result['accepted_b'], '.1f')}\t"
+            f"{_fmt(result['btc'], '.3f')}\t"
+            f"{_fmt(result['lowest_yield_pct'], '.3f')}\t{_fmt(result['avg_yield_pct'], '.3f')}\t"
+            f"{_fmt(result['tail_bp'], '.2f')}\t{result['status']}\n"
         )
     return True
 
