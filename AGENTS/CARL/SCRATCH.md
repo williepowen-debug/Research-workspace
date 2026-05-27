@@ -1,8 +1,10 @@
 # CARL SCRATCH
-**Last session:** 2026-05-27 ~17:00 UTC
-**Type:** BOARD 22-day-gap catch-up (recent-only scope 5/21-5/26) — 43 unrecorded SIGs dispositioned + 5 INTEGRATED to STATUS
+**Last session:** 2026-05-27 ~18:30 UTC
+**Type:** BOARD 22-day-gap catch-up (5/21-5/26 recent-only, 43 SIGs) + CRL-08 reversion (AAA $4.459 sub-threshold). 2 commits pushed clean (45a998ec, 61fc9a1f).
 
-**PRIORITY-1:** **V12 REGIME SHIFT integration follow-through.** Waller 5/22 pivot reset cutting-regime assumption network-wide. Re-read `thesis/THESIS.md` Vector #12 framing against new "possibly hiking" stance — may need v2.5.2 minor revision (currently locked-passive → locked + hawkish-leaning → locked + hawkish + possibly hiking). Jun 16-17 FOMC + SEP is highest-leverage near-term V12 catalyst. Score-upgrade review for V12 + V8 (K-shape wage completion) + V5 (gas BREACHED) + V1 (CC DQ 13.1%) all pending.
+**PRIORITY-1:** **V12 REGIME SHIFT integration follow-through.** Waller 5/22 pivot reset cutting-regime assumption network-wide. Re-read `thesis/THESIS.md` Vector #12 framing against new "possibly hiking" stance — may need v2.5.2 minor revision (currently locked-passive → locked + hawkish-leaning → locked + hawkish + possibly hiking). Jun 16-17 FOMC + SEP is highest-leverage near-term V12 catalyst. Score-upgrade review for V12 + V8 (K-shape wage completion) + V1 (CC DQ 13.1%) pending. **V5 upgrade TABLED post-CRL-08 reversion** (see below).
+
+**PRIORITY-2 / context update:** **CRL-08 reverted to "first-cross-not-sustained" partial.** AAA $4.459 5/27 sub-$4.50 after 5-6d breach window peak $4.564 5/21. Brent-pump lag empirically calibrated at **17-18 days both directions** this cycle. V5 score-upgrade tabled until potential re-test on next Iran-kinetic.
 
 ---
 
@@ -16,35 +18,37 @@
 6. **STATUS surgical updates** (~10 edits + 5 new rows): Gas Pump $4.564 + ALL-50-states / FOMC Waller pivot / Tricolor extended fraud→fraud+custody-collapse / UMich May ~44 + K-shape paradox / Freddie HPI Mar +0.7% / Condo K-shape -15-33% / Housing Starts Apr -2.8% / Philly Fed Non-Mfg -23.6 / Real-Wage K-Shape / Initial Claims 5/16 209K.
 7. **DANGER WINDOW** NOW row rewrote for 5/27; "Recently fired May 22→27" digest added; EXIT RULES catalysts refreshed.
 8. **ROADMAP** +4 new OPEN THREADS (V12 regime shift / K-shape wage completion / Housing deflation setup / Tricolor custody-collapse extension); CRL-08 thread refreshed; RECENTLY RESOLVED entry added.
+9. **CRL-08 reversion (Will-directed AAA daily fetch):** Live AAA $4.459 5/27 = SUB-$4.50 after 5-6d breach window. Per pre-registered logic: "first-cross-not-sustained" partial confirmation only; V5 upgrade tabled. **17-18d Brent-pump lag empirically calibrated both directions** this cycle (new mini-finding). STATUS Gas Pump row + CRL-08 prediction row + DANGER WINDOW NOW + ROADMAP CRL-08 thread all reframed. Commit 61fc9a1f.
 
 ## STATUS CHANGES
 | Item | Change |
 |------|--------|
 | BOARD_LOG.tsv | 150→193 lines (+43 dispositions); 9-col clean |
-| STATUS.md | 253→260 lines (10 over target — flagged); ~10 edits + 5 NEW rows |
-| Gas Pump row | $4.552 May 22 → **$4.564 May 21 + ALL 50 states ≥$4** |
+| STATUS.md | 253→260 lines (10 over target — flagged); ~13 edits + 5 NEW rows |
+| Gas Pump row | $4.552 May 22 → $4.564 May 21 + ALL-50 → **$4.459 May 27 sub-threshold retrace** (🔴🔴→🔴) |
 | FOMC row | Apr 28-29 4-dissent → **+ May 22 Waller pivot V12 regime-shift narrative** |
 | Tricolor row | fraud-indictment-only → **fraud + Wilmington-Trust custody-collapse + $113M frozen + Fifth Third $178M precise** |
 | UMich row | Apr Final 49.8 → **May ~44 record-low ~80yr + WMT/TGT bifurcation** |
+| CRL-08 prediction row | BREACHED-provisional → **FIRST-CROSS-NOT-SUSTAINED partial** (92%→~70% confidence on full CONFIRMED) |
 | 5 NEW STATUS rows | Freddie HPI Mar +0.7% / Condo K-shape -15-33% / Housing Starts Apr -2.8% / Philly Fed Non-Mfg -23.6 / Real-Wage K-Shape / Initial Claims 5/16 |
-| ROADMAP.md | +4 OPEN THREADS (V12 + K-shape wage + Housing deflation + Tricolor custody); RECENTLY RESOLVED entry; timestamp |
-| Convergence narrative | V1 + V5 + V8 + V12 all on upgrade-review queue |
+| ROADMAP.md | +4 OPEN THREADS (V12 + K-shape wage + Housing deflation + Tricolor custody); CRL-08 thread reframed; RECENTLY RESOLVED entry; timestamp |
+| Convergence narrative | V1 + V8 + V12 on upgrade-review queue; **V5 TABLED** post-CRL-08 reversion |
+| Commits | 45a998ec (BOARD pass) + 61fc9a1f (CRL-08 reversion) — both pushed clean |
 
 ---
 
 ## NEXT SESSION SHOULD
 
 ### IMMEDIATE (this session / 24hrs)
-1. **AAA daily check** — Day 6 of CRL-08 sustainability clock; one-shot live fetch.
-2. **5/28 catalysts** — BEA GDP Q1 2nd estimate (CRL-18 test, pattern -0.2 to -0.4pp revision risk) + AFT/MOHELA status conf (STUE).
+1. **5/28 catalysts** — BEA GDP Q1 2nd estimate (CRL-18 test, pattern -0.2 to -0.4pp revision risk) + AFT/MOHELA status conf (STUE).
+2. **AAA daily continues** — watch for re-spike on next Iran-kinetic; CRL-08 re-test possible if pump re-crosses $4.50 with 2-wk hold. Today $4.459.
 
 ### UPCOMING (this week)
 3. **5/30** Apr core PCE (BEA monthly) — bridges Iran-shock CPI 3.8% into PCE-deflator post-Waller.
 
 ### UPCOMING (next 2 weeks)
-4. **~Jun 5** CRL-08 2-wk sustainability checkpoint — must hold ≥$4.50.
-5. **Jun 6** BLS May NFP (V16 second realized print).
-6. **Jun 11** BLS May CPI (second Iran-shock + tariff month).
+4. **Jun 6** BLS May NFP (V16 second realized print).
+5. **Jun 11** BLS May CPI (second Iran-shock + tariff month).
 
 ### UPCOMING (next 6+ weeks)
 7. **Jun 16-17** FOMC + SEP — **MATERIALLY HIGHER STAKES post-Waller** — first dot-plot test of market's 2-in-3 Oct-hike pricing.
@@ -133,9 +137,9 @@
 ---
 
 ## URGENT
-- **AAA daily through ~Jun 5** for CRL-08 sustainability — Day 6 today.
 - **5/28 GDP Q1 2nd est + AFT/MOHELA conf** tomorrow.
 - **V12 thesis re-read after Waller pivot** — current framing may underweight new "possibly hiking" stance.
+- **CRL-08 status now PARTIAL** — PREDICTIONS.tsv mutation deferred to next session pending re-test or lock.
 
 ## SESSION FINDINGS WORTH CARRYING (informational, not urgent)
 
@@ -145,3 +149,4 @@
 - **Tricolor custody-collapse goes beyond fraud-only frame.** Wilmington Trust exiting ABS custodial business is structured-credit-infrastructure event, not just one-issuer fraud. $113M FROZEN = reserved-but-unrealized-loss accounting mechanic propagates Q2/Q3.
 - **CORRECTED-FRAMING regime is now the dominant verify-verdict** in the 5/21-5/26 batch — at least 5 instances (AZO "worst since 2020" / SpaceX 3x-weighting SIGN-INVERSION / SOFR-IORB SIGN-INVERSION / Gromen renminbi / "first time since 2023" wage). Verify-tier sub-agent calibration appears to be catching layered errors; LIAISON cycle 1 mechanical summary should note this.
 - **Sponsor-strategy bifurcation 5-instance pattern (BROCK 5/21-019)** is now a thesis-level finding for cross-cluster — KKR-doubles-down / Apollo-cashes-out / BX-counter-inflows / BlueOwl-gates / WAL-sponsor-walk-away. Bridges PC_STRESS ↔ BANK_COLLATERAL.
+- **Brent-pump lag empirically 17-18d both directions this cycle** (5/4 Brent peak $114 → 5/21 pump peak $4.564 = 17d; 5/5 Brent reversal → 5/22-23 pump turnover = 17-18d). Useful for next-cycle prediction; previously variable estimates (3-4d compressed in early-Iran-cluster vs 2-4wk normal regime). Suggests this cycle reverted to ~normal-regime lag despite earlier compression — worth a KB row.
