@@ -381,3 +381,86 @@ Open with Will at next-session start:
 - Show-diff-then-approve honored on commit (single commit, scope confirmed via `--cached --stat`).
 - Live mark pulled before propagating count (TLT $85.09 confirmed against threshold before framing).
 - AskUserQuestion used for scope-decisions, not for confirmation of decided plans (TODAY.md scope; TLT pivot).
+
+---
+
+## Current Session — 2026-05-26 evening → 5/27 (v0.2 approval landing + Wed 5/27 pre-cabling)
+
+**Run type:** Will-directed re-engage after the 5/26 PM closeout. ~40 turns across the evening; 3 separate commits pushed (`dce20394`, `eee1fd76`, `9677b944`); session straddled midnight into 5/27. Closeout this entry.
+
+### What landed (chronological)
+
+| Step | Thread | Commit |
+|---|---|---|
+| 1 | Boot + state read; SAM concurrent activity confirmed (2 new commits during my offline window) | reads only |
+| 2 | v0.2 packet summary for Will on request | reads only |
+| 3 | Pre-approval review pass — surfaced WAL Q2-print gap + AAL Jul 17 scope-limit; refreshed packet tape table 5/22 → 5/26 16:10 ET; added "Outside this rail" section; 2 Next Candidate rows added to ACTIVE_DECISIONS | `dce20394` |
+| 4 | Will-approval landing — 6-file state transition across PROME action cards + FORGE trigger set + ACTIVE_DECISIONS + TRADE_DECISIONS + STATUS + SCRATCH; first end-to-end proof-test of EXECUTION_RAILS architecture | `eee1fd76` |
+| 5 | Pre-cabled Wed 5/27 TLT pre-open packet — `PROME/scratch/TLT_PRE_OPEN_2026-05-27.md` (171 lines, 6 steps, 5 pre-written branches, slot-fill format). Folded 6/18 cluster monitor first scan into the same dashboard pull | `9677b944` |
+| 6 | Standard closeout (this entry + SCRATCH rewrite + memory/2026-05-26.md Session 3 append) | this commit |
+
+### Files edited (within autonomous scope)
+
+- `PROME/action-cards/JUN18_V0.2_APPROVAL_PACKET_2026-05-25.md` — Outside-this-rail section + tape refresh + State→WILL_APPROVED + Decision Log appended
+- `PROME/action-cards/JUN18_EXPIRY_CLUSTER_2026.md` — State PROPOSED → WILL_APPROVED + Current Recommendation rewrite
+- `FORGE/trigger-sets/JUN18_CLUSTER_2026-06-18.md` — Status v0.2 PROPOSED → v0.2 WILL_APPROVED
+- `PROME/ACTIVE_DECISIONS.md` — 6/18 row WILL_APPROVED + 2 Next Candidate rows
+- `PROME/TRADE_DECISIONS.md` — new approval entry
+- `PROME/STATUS.md` — surgical (header + 3 ADL rows + Next Best Action)
+- `PROME/SCRATCH.md` — full rewrite with evening-landing entry-point
+- `PROME/scratch/TLT_PRE_OPEN_2026-05-27.md` — NEW
+- `memory/2026-05-26.md` — Session 3 append
+- `PROME/CLAUDE_CODE_HANDOFF.md` — this entry
+
+### Decisions Will made this session
+
+- Question v0.2 readiness before approving (audit-before-approve) ✅
+- Choose option (a) [v0.2 clean + separate Q2-print rail] over (b) [embed time-trigger in v0.2] ✅
+- Approve v0.2 as drafted (all 3 default-picks adopted) ✅
+- Set up Wed 5/27 TLT pre-open packet ✅
+- 3 separate commits + pushes ✅
+- Standard closeout ✅
+
+### Decisions needed from Will (forward-looking)
+
+- **Wed 5/27 broker window:** depends which TLT rail branch fires; see pre-cabled packet. Plain-English read coming from next CC-Prome session.
+- **Wed 5/27 PM:** Sumitomo Life FY2025 ESR — SAM-owned pattern test.
+- **~6/13 EOD or 6/16 backstop:** surface WAL Sep $67.5P × N fresh Q2-print exposure decision.
+- **Post-6/16:** AAL Jul 17 standalone disposition.
+- Live carries unchanged (Sep-18 $60C / FXY $58C / TLT $88P May 15 / VIOLET 4/15 / APD tag / HEARTBEAT cadence).
+
+### Risks / Blockers
+
+- **None blocking** closeout.
+- **Soft:** `fetch.py price` errored with `ModuleNotFoundError: yfinance` this session. Pre-open packet documents fallback (install yfinance in venv first, then web-pull if still broken). Next session must verify dashboard is functional before doing anything else.
+- **Soft:** HEARTBEAT.md remains May 16 stale. Flagged repeatedly across sessions; not blocking.
+- **Soft:** SAM is highly concurrent (committed `0e58c525`, `20da4862`, others during this session). Next boot must `git fetch` early.
+
+### v_next design inputs returned
+
+1. **Pre-approval review pass pattern** — audit a Will-decision packet against source-of-truth + live tape before logging approval. Especially load-bearing when packet is a default-pass consolidation. Worth promoting to feedback memory.
+2. **"Outside this rail" disclosure subsection** — new artifact format for Will-decision packets with non-trivial scope boundaries. Worth promoting to finding memory.
+3. **Rail discipline / refuse scope creep** — when adjacent decisions could fit existing rail by stretching scope, prefer new rail + clean candidate row. Worth promoting to feedback memory.
+4. **Cross-surface state-transition pattern validated end-to-end** — first proof-test of EXECUTION_RAILS architecture under live load. 6 files, no double-write.
+5. **Pre-cabling pattern** — slot-fill scaffold (not checklist) for next-session execution. Defer canonization until first end-to-end run on Wed.
+
+### Next Suggested Work
+
+Open with Will at next-session start (Wed 5/27 AM):
+- **Fill the pre-open packet** — `PROME/scratch/TLT_PRE_OPEN_2026-05-27.md`. Output is a Telegram-ready read.
+- **6/18 cluster monitor first scan** — folded into same dashboard pull (Step 5 of the packet).
+- **Sumitomo Life ESR Wed PM JST** — SAM-owned; PROME-side folds into HEARTBEAT if Channel 1 weakens further.
+
+### Rules I Held To
+
+- No commits outside `PROME/` and Will-authorized `FORGE/trigger-sets/` (single file).
+- No `git add -A` or `git add .`. Explicit path staging; `git diff --cached --stat` sanity-check before all 3 commits.
+- No edits to other agents' files. SAM concurrent throughout; his work untouched.
+- No persistent-agent spawns. No teams-mode. No trades. No external messages.
+- Read-before-edit honored (caught one "must read before write" error and recovered).
+- Behavior-language in state files; hashes as audit anchors only.
+- Sequenced multi-file updates (review pass → approval landing → pre-cabling → closeout, each its own commit).
+- Show-diff-then-approve honored on every commit.
+- AskUserQuestion not used — Will's direction was clear at every step.
+- Honest framing throughout: explicitly walked Will through (a) vs (b) tradeoff for Q2-print gap rather than just executing my preference.
+- Surfaced packet staleness + Q2-print gap proactively before Will-approval rather than letting him approve against stale data.
