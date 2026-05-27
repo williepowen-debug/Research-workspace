@@ -35,12 +35,24 @@
 - Brent -3.66% intraday to $93.13 on Iran/Hormuz MOU framework hardening (Phase 2 still firing but rate-diff dominating yen response).
 - CPI panel live for first time at boot — April national core 1.4 / core-core 1.9 / Tokyo April matches (+0.4pp gap = subsidy-driven, BOJ can look through).
 
-### LAST SESSION (2026-05-27 morning — Sumitomo retrospective integration + v1.5 thesis bump)
+### LAST SESSION (2026-05-27 — morning v1.5 writeback + afternoon eval suite v1 → v1.1 → v1.1.1 ship)
+
+**Morning (Sumitomo retrospective integration + v1.5 thesis bump):**
 
 3-chunk sequenced writeback after fetching Sumitomo PDFs from IR page and extracting via pdfminer:
 - **Chunk 1:** THESIS v1.4 → v1.5 (Channel 1 demoted to deferred structural backstop); CHANGELOG 2026-05-27 entry with full 3-of-3 cross-Big-3 table + old/new view + scenario weights 70/25/5 → 78/18/4 + carry unwind probs 17/65/83 → 12/62/80; Channel 1 v1.5 verdict block inline in THESIS Channel 1 section; risk factors revised (BOJ-delay elevated to 25%, intervention failure lowered to 12%, added Channel-1-reactivation at 10%).
 - **Chunk 2:** STATUS full rewrite (new v1.5 banner, May 27 09:24 ET market data, single-path framing, **Sep $60 call decision logged as NOT WARRANTED**); TIMELINE Sumitomo entry logged retrospectively in May 26 cluster with asset composition table + Symetra detail; CALENDAR full rewrite (Big 3 ESR pruned from forward-looking; June 16 BOJ flagged as DOMINANT REMAINING CATALYST single-path; "v1.5 deferred structural backstop" section reframes Channel 1 monitors).
 - **Chunk 3:** PREDICTIONS — SAM-14 moved OPEN → FAILED (4-of-4 Big 4 confirmation against UST reduction); SAM-25 extended (Sumitomo confirms 3-of-3 threshold-vs-mechanism trap); SAM-26 mark-down to 25%; calibration scoreboard preamble updated with new failure-pattern point (mechanism-direction assumption); outbox signals written to PROME (🟡 v1.5 reframe) + LIQUID (🟡 no acute UST sell from Japan lifer side for 2026).
+
+**Afternoon (eval suite scaffold + contamination fix + baseline):**
+
+Walked through Will's `Ideas.docx` 4-part infra menu; eval suite (#2) picked as highest-ROI item; capped at 2 cases not 5 per discipline-of-cap-on-first-ship.
+
+- **v1 ship:** Single-file cases (INPUT + EXPECTED + DO-NOT combined). Case 01 = Nippon ESR threshold-vs-mechanism. Case 02 = JGB 30Y J-ICS direction-of-causation. README + results.tsv + MAINTENANCE log.
+- **v1 baseline run + critique:** Will ran both. Sister model flagged contamination (smoking-gun: Case 02 response contained "super-long duration adds proportionally more solvency-capital strain than yield pickup compensates for" — verbatim from EXPECTED, absent from INPUT). Confirmed: file-design discipline > operator-instruction discipline.
+- **v1.1 same-session fix:** Split each case into INPUT (pasteable, scenario-only) + RUBRIC (scorer-only, ⚠️ header). Re-shaped Case 02 EXPECTED from quote-form to assertion-form. Added multi-point contamination self-checks (INPUT headers, README, post-response signature check). New result categories: PASS-CAVEATED, FAIL-CONTAMINATED.
+- **v1.1 baseline run:** Will ran both. CLEAN. No verbatim phrase echo, no auto-memory tag-drop, bullet structure follows INPUT questions not RUBRIC. Both PASS. Smoking-gun phrase absent. **Contamination flaw fixed; v1 → v1.1 redesign worked.**
+- **v1.1.1 same-session refinement:** Case 01 runner reasonably interpreted Jun $58C as Channel-1-conditional (INPUT under-specified) and recommended trim. Not a runner fail — case-design issue. Fixed: Case 01 INPUT now explicitly distinguishes Jun $58C (multi-catalyst: BOJ + MOF + risk-off) from Sep $60 OTM (Channel-1-specific). RUBRIC criterion 6 + scorer notes updated.
 
 **Position:** 13 shares + 1 Jun-18 $58C unchanged. Sep $60 calls (Position A, deferred from May 21) explicitly resolved as NOT WARRANTED under v1.5 single-path structure.
 
@@ -53,6 +65,8 @@
 5. **🔴🔴 Tue Jun 16 BOJ MPM** — DOMINANT REMAINING CATALYST under v1.5. Approach pre-cabling on Jun 13-15.
 6. **PROME outbox-scan check:** verify 2026-05-27 to-PROME signal lands; if not picked up within ~24h, escalate via direct surface to Will.
 7. **Position next-touch:** No add/trim warranted near-term under v1.5 single-path. Only triggers for action: (a) USDJPY <156 for 3 sessions = Phase 2 confirmed → consider add; (b) BOJ pre-meeting cabling (Jun 13-15) — assess hike probability vs market pricing; (c) thesis break (USDJPY >167 + BOJ turns dovish) = stop $55.05.
+8. **Eval Case 02 substantive finding — v1.5.x thesis-consider:** The v1.1 Case 02 baseline runner argued June BOJ hike is LESS likely not MORE on fiscal-dominance logic (JGB long-end blowout is doing de facto tightening; hiking on top compounds curve damage + detonates Takaichi ceiling + risks disorderly auction → BOJ frozen until forced into long-end-specific operation). This inverts the SAM-21 ~57% / market 55-65% framing. Not adopted as v1.5 change, but worth reading the full reasoning in `evals/baseline_artifacts/2026-05-27_v1.1_responses.md` Case 02 § 3 and considering for v1.5.x or v1.6. Could resolve into a RED counter-thesis filing if it sharpens further. Tokyo May CPI + Fri 5/29 CFTC may inform direction.
+9. **Eval suite re-baseline cadence:** v1.1.1 INPUT is the current frozen version. Re-baseline IF (a) Case 01 INPUT gets further refinement, (b) auto-memory `[[finding_threshold_vs_mechanism]]` is rewritten, (c) THESIS v1.5 → v1.6, (d) CLAUDE.md SPAWN PROTOCOL changes. Routine STATUS / CALENDAR updates do NOT trigger re-baseline.
 
 ### NEXT INFRA SESSION (script build queue — unchanged from prior session)
 
