@@ -61,9 +61,11 @@ All 6/18 cluster triggers MORE benign than at v0.2 ship. Tape direction confirms
 ## Next Planned Work
 
 **Wed 5/27 AM (next CC-Prome session):**
-1. 🔴 TLT pre-open packet for Will (live tape pull, C1-C5 read, broker-ready order summary).
-2. 🔴 **6/18 cluster daily monitor — first run.** Routine; logs a one-line "no fire" entry unless something breaks.
+1. 🔴 **TLT pre-open packet — fill `PROME/scratch/TLT_PRE_OPEN_2026-05-27.md`** (pre-cabled this session; 6 steps, slot-filling). Output is a Telegram-ready read to Will: execute (Branch B), C2 session-1 banked (Branch C), hold all 3 (Branch D/E), or no-fire (Branch A).
+2. 🔴 **6/18 cluster daily monitor — first run** (Step 5 of the pre-open packet, folded into same dashboard pull). Routine; logs a one-line "no fire" entry unless something breaks.
 3. 🟠 Sumitomo monitor — fold into HEARTBEAT if Channel 1 weakens further.
+
+**Pre-open packet known-issue note:** `fetch.py price` errored earlier this session with `ModuleNotFoundError: yfinance`. If dashboard hits the same Wed AM, `python3 -m pip install yfinance` in `.venv/` first. If still broken, fall back to web pull rather than blocking on Will.
 
 **Live Will-decision carries:**
 - TLT 2/1 split: approved 5/22, Tue 5/26 broker window opened no fire; Wed 5/27 next live read.
