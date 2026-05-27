@@ -8,6 +8,96 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-05-27 — v1.4 → v1.5 (Channel 1 demoted to deferred structural backstop after Big 3 ESR window 3-of-3 confirmation)
+
+**Author:** SAM + Will
+**Action:** Bumped to v1.5. The Big 3 mutual ESR window (Nippon May 26, Meiji Yasuda May 26, Sumitomo May 26 — all reported the same day) resolved with 3-of-3 evidence against the Channel 1 transmission mechanism. The threshold-vs-mechanism trap fired three times in three prints. Channel 1 is demoted from "co-equal transmission trigger" to "deferred structural backstop (multi-year, not 2026)." Channel 2 (carry / BOJ June 16) becomes the dominant remaining near-term path.
+
+### What changed
+
+**Channel 1 (Life insurer repatriation) — demoted to deferred structural backstop:**
+
+Three-of-three Big 3 mutual lifer ESR prints showed no forced repatriation mechanism in motion. Specifically:
+
+| Insurer | Prior ESR | FY2025 ESR | Δ | Driver | Foreign book FY25 |
+|---|---|---|---|---|---|
+| Nippon Life | 222% | 195% | **-27pt** | Resolution Life $10.6B M&A subsidiarization (-28pt waterfall line) | Unrealized **GAIN +¥3.99T** (+¥909B YoY) |
+| Meiji Yasuda | 216% | 208% | -8pt | Manageable JGB markdown; Stancorp/Allstate acquisition positive | Unrealized **GAIN +¥709B** (+¥227B YoY) |
+| **Sumitomo** | **178%** | **197%** | **+19pt** | Stable ops + equity rally + Dearborn Life partial acquisition | Foreign bonds **+¥543B (+6.2%)**; total foreign securities **+¥1.11T (+9.3%)** |
+
+Common pattern across all three:
+1. Foreign books in unrealized **GAIN** (not loss) — the v1.0-v1.4 thesis assumed mark-to-market pressure forces sales
+2. Foreign exposure **GROWING**, not shrinking (Sumitomo's allocation rose from 33.3% → 35.5% of total investments)
+3. M&A direction is **INTO the US** (Resolution Life, Allstate, Dearborn) — opposite of repatriation
+4. Domestic JGB exposure being pared (Sumitomo -¥505B / -3.6%) — JGB stress absorbed via domestic exit, not foreign exit
+5. Hedge cost relief noted (narrowed rate differential during the year)
+
+The v1.0-v1.4 mechanism — "ESR cap forces foreign bond reduction" — is **not evidenced** by the prints of the three largest mutuals representing the bulk of the system. Capital actions (M&A subsidiarization), equity rally, and hedge-cost relief absorbed ESR pressure without touching foreign asset allocation.
+
+**What's still intact (mechanism level):**
+- **J-ICS lifer long-end abandonment** as JGB 30Y driver — DOMESTIC mechanism, independent of ESR-foreign transmission. This is what's actually driving 30Y/40Y stress. Stays in v1.5.
+- Mid-size lifer pivots (Fukoku, Asahi) from 30/40Y → 10-15Y tenors — confirmed pre-disclosure window.
+- Channel 2 (carry / June BOJ) — unchanged.
+- Channel 3 (BOJ + US-Japan FX coordination) — unchanged.
+
+**What's deferred:**
+- "ESR forces UST sale" transmission timing assumption — pushed from 2026 to multi-year horizon
+- Big 3 mutual ESR window as a primary near-term Channel 1 catalyst — exhausted; no scheduled re-test for ~1 year
+
+**Flow scenarios revised:**
+
+| Scenario | v1.4 weight | v1.5 weight | Note |
+|---|---|---|---|
+| Base ($80-120B/12mo, $7-10B/mo) | 70% | **78%** | Confirmed by 3-of-3 Big 3 prints — gradual rotation-within (unhedged → hedged), not net cut |
+| Stress ($150-250B/6mo) | 25% | **18%** | Lowered — ESR catalyst window resolved without stress signal; would require new shock to trigger |
+| Crisis ($300-500B/3mo) | 5% | **4%** | Tail unchanged but trimmed slightly |
+
+**Carry unwind probabilities (post Sumitomo May 27):**
+
+| Timeframe | v1.4 (May 26) | v1.5 (May 27) | Driver |
+|---|---|---|---|
+| 7d | 17% | **12%** | All Big 3 binary catalysts resolved benign; no near-term Channel 1 trigger remaining |
+| 30d | 65% | **62%** | Channel 1 leg of 30d weight structurally removed; June BOJ + CFTC reload anchor |
+| 60d | 83% | **80%** | Structural Channel 1 cut ~3pp; Channel 2 (BOJ hike) becomes near-sole driver |
+
+**Status banner updated:**
+- v1.4: 🟠 MIXED — Channel 1 weakened (one print)
+- v1.5: 🟠 SINGLE-PATH — Channel 1 deferred (3-of-3 confirmed); Channel 2 (June BOJ 55-65%) is dominant remaining trigger; Channel 3 dormant on Brent collapse
+
+### What didn't change
+
+- **Position:** 13 shares + 1 Jun-18 $58C, stop $55.05, target $60-62. Sized to the v1.5 single-path structure.
+- **Conviction direction:** HIGH on direction (yen strengthens through 2026) — Channel 2 alone supports the structural view.
+- **Conviction timing:** MEDIUM, slightly weakened (single-catalyst structure has more drawdown risk than multi-channel convergence).
+- **Stop level:** $55.05 unchanged.
+- **June BOJ base case:** SAM-21 ~57% / market 55-65% — unchanged.
+- **JGB 30Y / J-ICS amplifier mechanism:** intact; the lifer long-end abandonment driver is domestic and doesn't depend on ESR-foreign transmission.
+
+### Old → new view summary
+
+| Item | v1.4 view | v1.5 view |
+|---|---|---|
+| Channel 1 status | Co-equal trigger; ESR window May 25-29 is primary near-term Channel 1 catalyst | **Deferred structural backstop** (multi-year); ESR window exhausted with 3-of-3 benign |
+| ESR cap → foreign bond reduction | Working assumption (would force selling) | Falsified for Big 3 mutuals; absorbed via M&A + equity rally + hedge-cost relief without touching foreign allocation |
+| Foreign asset direction (Big 3) | Expected to shrink under stress | Confirmed GROWING (Sumitomo +¥1.11T total foreign securities; Nippon/Meiji into US M&A) |
+| Flow scenario weights | 70/25/5 | **78/18/4** |
+| Carry unwind 7d / 30d / 60d | 17 / 65 / 83 | **12 / 62 / 80** |
+| Channel rank | Three co-equal channels | Channel 2 (BOJ) primary; Channel 1 deferred; Channel 3 dormant pending Iran/Hormuz outcome |
+| Position sizing logic | Multi-channel asymmetric convergence | Single-path durable view; existing position correctly sized; **no Sep $60 call addition warranted** |
+
+### Position decision implications
+
+The Sep $60 call addition (Position A, authorized by Will May 21 pending Sumitomo) is **NOT triggered** by v1.5. The asymmetry case for OTM-deferred optionality was built on multi-channel convergence (Channel 1 + Channel 2 + Channel 3 all firing in the same window). With Channel 1 deferred and Channel 3 dormant, the structure is now single-path. Single-path requires paying for time at a 55-65% probability — that is not the asymmetry Will established the position for. Existing position (13 shares + Jun-18 $58C @ $0.40) correctly covers near-term (call) + durable view (shares).
+
+### Pending tests (post v1.5)
+
+- **Thu-Fri May 28-29:** Tokyo May CPI — leading indicator for June national; if core-core slips below 1.9%, June BOJ pricing breaks lower from 55-65%
+- **Fri May 29:** CFTC weekly (May 22 data) — watch for break of -102K cycle peak
+- **Ongoing:** Iran/Hormuz MOU binary watch — signed → Phase 2 accelerates; collapsed → intervention #3 zone reactivates
+- **🔴🔴 Tue Jun 16:** BOJ MPM — now the dominant remaining catalyst (Channel 2 single-path)
+
+---
+
 ## 2026-05-21 — v1.3 → v1.4 (Channel 1 mechanism update + Phase 1 inversion + Bessent affirmation promoted)
 
 **Author:** SAM + Will
