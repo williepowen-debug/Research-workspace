@@ -8,6 +8,59 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
+## 2026-05-27 afternoon — eval suite v1 → v1.1 (split-file redesign after baseline contamination)
+
+Same-day follow-up to the v1 scaffold below. Will ran the baseline against v1 single-file cases and reported both responses showed near-verbatim phrase echo from EXPECTED criteria. Diagnosed by a sister model (Prome / external session) and confirmed: v1 design had INPUT + EXPECTED + DO-NOT in a single file, README told operator to paste only the INPUT block, but file-design discipline is stronger than operator-instruction discipline. Will pasted the whole file (or selection scrolled past rubric), and rubric language leaked into the runner's prompt.
+
+**Smoking gun:** Case 02 response contained "super-long duration adds proportionally more solvency-capital strain than the yield pickup compensates for" — that exact phrase was in v1's EXPECTED list, NOT in the INPUT. Near-verbatim echo confirms contamination source.
+
+**Substantive finding (positive):** Both responses also contained reasoning that was NOT in EXPECTED — positioning recommendations, BOJ-tactical paths, FX rate-diff decoupling explanations. Real reasoning was happening alongside the rubric echo. v1 just couldn't measure how much.
+
+**v1.1 fix (same-session ship):**
+- Split each case into TWO files. `case_NN_<topic>_INPUT.md` is pasteable (scenario data + questions only). `case_NN_<topic>_RUBRIC.md` is scorer-only with a prominent "⚠️ SCORER ONLY — DO NOT PASTE INTO RUNNER" header. Makes contamination physically harder.
+- Re-shaped EXPECTED criteria from quote-form to assertion-form. Case 02 J-ICS solvency-strain criterion rewritten as "Explains why super-long is structurally unattractive under J-ICS — beyond just citing J-ICS by name. Must connect duration repricing to solvency capital impact AND explain why this dominates yield-pickup motivation. Wording is flexible. The test is whether the response articulates the structural disincentive, not whether it uses any particular phrase." Tests concept, not phrasing match.
+- Added contamination self-check at multiple points in INPUT file headers ("Does your selection contain `EXPECTED`, `DO NOT`, or `RUBRIC`? → too much"). README repeats the check. RUBRIC files include a post-response contamination-signature check.
+- Added `PASS-CAVEATED` and `FAIL-CONTAMINATED` result categories to scoring rubric.
+
+**Files in v1.1 (active):**
+- `evals/README.md` — rewritten for v1.1 split-file workflow, includes v1 → v1.1 baseline-finding note
+- `evals/case_01_nippon_esr_INPUT.md` + `evals/case_01_nippon_esr_RUBRIC.md`
+- `evals/case_02_jgb30y_jics_INPUT.md` + `evals/case_02_jgb30y_jics_RUBRIC.md`
+- `evals/results.tsv` — 2 baseline rows logged as PASS-CAVEATED with contamination diagnosis
+- `evals/baseline_artifacts/` — preserved v1 response transcripts (docx) for audit trail
+
+**Files removed:**
+- `evals/case_01_nippon_esr_mechanism.md` (v1 combined-file)
+- `evals/case_02_jgb30y_jics_direction.md` (v1 combined-file)
+
+Both files were never committed to git in their v1 form, so deletion is clean (no rewrite-history issue).
+
+**Recommendation for next session:** re-baseline against v1.1 once. Pick Case 02 — the harder of the two to derive unprompted (structural-inversion call against pre-J-ICS muscle memory) — for the higher-diagnostic-value clean run.
+
+**Boot impact:** None. `evals/` remains operator-only infrastructure.
+
+---
+
+## 2026-05-27 morning — eval suite v1 (scaffold) [SUPERSEDED — see v1.1 above]
+
+Ship-day for the SAM eval suite. New top-level `evals/` directory with 2 frozen-scenario test cases. Origin: design-doc review session with Will (Ideas.docx walked through 4-part infra menu; eval suite picked as highest-ROI item; scoped to 2 cases not 5 per discipline-of-cap-on-first-ship).
+
+**v1 artifacts (now superseded by v1.1):**
+- `evals/README.md` — runner protocol (skip-boot pattern), pass/fail scoring rubric, re-run cadence, retire policy, failure-protocol diagnostic buckets.
+- `evals/case_01_nippon_esr_mechanism.md` — combined INPUT + EXPECTED + DO-NOT in one file. **Contamination flaw discovered same-day; redesigned in v1.1.**
+- `evals/case_02_jgb30y_jics_direction.md` — same structure, same flaw. **Redesigned in v1.1.**
+- `evals/results.tsv` — header row only initially; v1.1 added 2 baseline-PASS-CAVEATED rows.
+
+**CLAUDE.md update:** FILES table entry added for `evals/` between `red/` and `research/outputs/`. Explicit note: SAM does NOT auto-load eval files at boot — eval scoring happens in a separate fresh skip-boot session that Will runs.
+
+**Runner pattern (skip-boot):** Will opens a fresh Claude Code session in `AGENTS/SAM/`, pastes ONLY the INPUT block (which contains explicit "DO NOT RUN BOOT" framing), scores the response against EXPECTED + DO-NOT, appends to `results.tsv`. CLAUDE.md + auto-memory auto-load (that's correct — they contain the lesson surface; the test is application not derivation). STATUS / THESIS / PREDICTIONS / TIMELINE do NOT load (they contain answer keys for resolved cases — would contaminate the test).
+
+**Cap discipline:** v1 holds at 2 cases. No case 3 until either (a) one of the first 2 catches a regression, OR (b) a new lesson emerges that neither covers. Per README.md retire policy: cases retire when their lesson migrates to script-enforcement.
+
+**Boot impact:** None. `evals/` is operator infrastructure, not agent context.
+
+---
+
 ## 2026-05-26 evening (continued) — MEMORY restructure + CLAUDE.md audit + scripts fixes + cpi_japan.py build
 
 Same-evening continuation of the folder cleanup logged below. Five additional workstreams, six commits total.
