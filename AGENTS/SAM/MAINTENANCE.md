@@ -8,6 +8,34 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
+## 2026-05-26 evening (continued) — MEMORY restructure + CLAUDE.md audit + scripts fixes + cpi_japan.py build
+
+Same-evening continuation of the folder cleanup logged below. Five additional workstreams, six commits total.
+
+**MEMORY.md restructure (commit 0e58c525):** 87→44 lines. Promoted threshold-vs-mechanism lesson (SAM-25/26) + audit-behavioral-ranking lesson to auto-memory (`finding_threshold_vs_mechanism.md`, `feedback_audit_behavioral_ranking.md`). Compressed Session Notes to template (terse LAST SESSION + numbered NEXT SESSION); retired PENDING + INFRASTRUCTURE STATUS sub-sections. Findings 7→2 (kept SAM-operational items; retired 2 stale — PROME SCRATCH contradicts `project_openclaw_prome_degraded`, EUR/JPY operationalized in boot.py). References collapsed 5→2 lines.
+
+**CLAUDE.md audit (commit 20da4862):** 228→233 lines but net more accurate. Phase A (SPAWN PROTOCOL): fixed broken "All mail lives in removed:" line; added ⚠️ messaging-overhaul status note pointing to `[[project_messaging_overhaul]]`; boot step 6 now references PREDICTIONS calibration scoreboard + `[[finding_threshold_vs_mechanism]]`; boot step 14 captures auto-memory promotion path. Phase B: deleted WAR — TWO-PHASE JPY DYNAMIC section (contradicted THESIS v1.4 supply-destruction-inverted Phase 1 framing); removed stale "Current" column from KEY THRESHOLDS table; added 4 thresholds (USDJPY <130-135, JGB 10Y >2.40%, MOF weekly >¥1.5T). Phase C: added Big 3 ESR <200% via market stress row to CROSS-AGENT SIGNALS (mechanism-aware per TRACKER); retired Shunto row (annual reactivation note); cleaned blank-section debris; FILES table now lists MAINTENANCE.md, SIGNAL_INTAKE.md (with stale warning), expanded workbook breakdown beyond just VX.tsv.
+
+**Scripts fixes (commit a4572223):**
+- `jgb_auctions.py` — TSV-append bug fixed. Climate Transition uniform-price auctions lack weighted-average column, causing `TypeError: unsupported format string passed to NoneType.__format__` at append time. Added `_fmt()` helper handling None gracefully. Verified by appending May 25 5-Year Climate Transition (BTC 4.622x). Boot 7/8 → 8/8 green.
+- `usdjpy.py` — added `TOUCH_TOLERANCE = 0.10` constant; modified `days_since_level()` to use tolerance band. May 6 low 155.05 now correctly registers as touching 155 (was n/a previously). Added intraday-range alert as third summary line — `INTRADAY_RANGE_WARN = 2.5` 🟠, `INTRADAY_RANGE_CRIT = 4.0` 🔴, calibrated against Apr 30 (5.15y) + May 6 (2.84y) intervention events. Would have correctly flagged Apr 30 as INTERVENTION-GRADE.
+- `AUTOMATION_PLAN.md` — status banner DRAFT → ✅ EXECUTED with verification line.
+
+**cpi_japan.py — net new boot script (commit bdca2519):** 9th script in boot sequence; closes the Japan CPI observability gap that was previously hand-pulled via web search. Architecture: e-Stat API v3 (`api.e-stat.go.jp/rest/3.0`), statsDataId `0003427113` (2020-base CPI), pulls headline + core + core-core YoY for National (area 00000) + Tokyo Ku-area (13A01). `ESTAT_APPID` loaded from repo-root `.env` (gitignored). Two-table threshold scheme per Will's `Thresholds.md` note — separate buckets for Core (BOJ target series) and Core-core (trend gauge), plus cross-series divergence flag (≥0.5pp = energy/subsidy driven; ≤0.2pp = broad-based softening), plus Tokyo-vs-National comparison note with CALENDAR `<1.95%` Tokyo trigger adjustment. Idempotent `workbook/CPI.tsv` append on (Series, Reference_Month). Today's read: 🟠 National Apr 2026 core 1.4 Soft band + 0.5pp divergence (energy/subsidy-driven softness BOJ can look through); Tokyo gap to National 0.0pp vs typical -30-40bp (softness may be closing). Boot 9/9 green, 9.9s total. Will registered the AppID; one-time setup. Pattern carries forward to future Japan-stats scripts (BOJ, trade balance, employment).
+
+**Boot impact:**
+- `boot.py` BOOT_SEQUENCE: 8 → 9 entries (added "Japan CPI" between MOF Weekly Flows and Catalyst Countdown).
+- `MAINTENANCE.md` and `SIGNAL_INTAKE.md` (with stale warning) now listed in CLAUDE.md FILES table.
+- `KEY THRESHOLDS` in CLAUDE.md no longer carries stale Current values; STATUS.md is the canonical live values doc.
+- `workbook/CPI.tsv` — new file, 12 rows seeded (Nov 2025 → Apr 2026 × National + Tokyo).
+- Repo-root `.env` — new file, gitignored, holds `ESTAT_APPID`.
+
+**Auto-memory entries created:**
+- `finding_threshold_vs_mechanism.md` — falsifiable-prediction discipline pattern (SAM-25/26 both fired the same trap)
+- `feedback_audit_behavioral_ranking.md` — rank doc-cleanup findings by behavioral impact, not line-count
+
+---
+
 ## 2026-05-26 evening — Folder cleanup Pass 1a/1b/2a/2c (Will-directed audit response)
 
 **Trigger:** Will asked for folder-structure audit (post-Sumitomo pre-watch session). Audit surfaced ~6 weeks of accumulated dead-ends at SAM's edges; Will approved Pass 1a + 1b + 2a + 2c (deferred 2b insurer per-name files until post-Sumitomo; deferred Pass 3 research/ reorg).
