@@ -24,7 +24,7 @@
 
 ### Position Management — Post-Tranche-2
 
-**Tranche 2 EXECUTED May 21** (+5 shares at ~$57.66; blended entry $57.48). Position is at target size for shares. **Further share adds require a new hard trigger** AND a defined entry zone.
+**Tranche 2 EXECUTED May 21** (+5 shares; 13 total @ **$58.32 avg cost** — corrected to Will's ground truth 2026-05-28; prior "$57.48 blend" was inaccurate). Position is at target size for shares. **Further share adds require a new hard trigger** AND a defined entry zone.
 
 **Hard triggers — STATUS UPDATED v1.5 (May 27):**
 
@@ -45,7 +45,7 @@
 
 **Soft-signal convergence rule (unchanged):** Matrix-defined zones in STATUS.md fire ONLY when (a) price is in the planned zone AND (b) at least one hard trigger is approaching. Soft signals alone never greenlight an add.
 
-**No-chase rule (unchanged):** If a matrix-defined zone is breached upward before the add fires, the add is forfeited at that level. The rule applies UPWARD only — adding below a planned zone (as we did Tranche 2 at $57.66 vs original $58.00 limit) is a NEW entry zone, not a chase.
+**No-chase rule (unchanged):** If a matrix-defined zone is breached upward before the add fires, the add is forfeited at that level. The rule applies UPWARD only — adding below a planned zone (as we did with Tranche 2, below the original $58.00 limit) is a NEW entry zone, not a chase.
 
 **DO NOT add when:**
 - Oil is surging and yen is weakening (headwind phase)
@@ -56,7 +56,7 @@
 ### When to HOLD (current stance — v1.5 single-path)
 
 - Thesis intact on direction; structure has narrowed from multi-channel convergence to single-path (June BOJ Jun 16)
-- Position sized to survive single-path drawdown (stop $55.05 = 4.2% below blend; risk-factor table now flags BOJ-delay at 25% as the dominant downside)
+- Position sized to survive single-path drawdown (stop $55.05 = 5.6% below $58.32 avg cost; risk-factor table now flags BOJ-delay at 25% as the dominant downside)
 - Let June BOJ do its job — pre-cabling Jun 13-15 is the next decision window
 - Tokyo May CPI (Thu-Fri May 28-29) + CFTC weekly (Fri May 29) are the only near-term reads that can move SAM-21
 
