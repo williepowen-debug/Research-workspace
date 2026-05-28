@@ -135,6 +135,7 @@ def main():
                 "BUYER STRIKE", "Quality problem",
                 "IMMINENT", "HIGH PRIORITY",
                 "Latest", "LATEST",
+                "VOL PROXY", "ATM IV", "25d RR",  # surface the FXY vol read
             )
             lines = output.splitlines()
             shown = False

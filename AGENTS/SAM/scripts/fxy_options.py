@@ -13,7 +13,8 @@ Usage:
 """
 
 import sys
-from datetime import datetime
+import math
+from datetime import datetime, date
 from pathlib import Path
 
 try:
@@ -31,7 +32,138 @@ FXY_TSV = WORKBOOK / "FXY_OPTIONS.tsv"
 THESIS_ZONE_LOW = 58.0
 THESIS_ZONE_HIGH = 65.0
 
-TSV_HEADER = "Date\tExpiry\tTotal_Put_OI\tTotal_Call_OI\tPC_Ratio\tThesis_Zone_Call_OI\tTop_Put_Strike\tTop_Put_OI\tTop_Call_Strike\tTop_Call_OI\tTop5_Puts\tTop5_Calls\n"
+# Vol-proxy parameters (CVOL/RR proxy computed from the FXY chain)
+RFR = 0.0          # risk-free proxy for BS delta classification; r≈0 is fine for a proxy
+TARGET_DTE = 30    # headline IV/RR is the expiry nearest this (mirrors CVOL's 30d horizon)
+
+TSV_HEADER = (
+    "Date\tExpiry\tTotal_Put_OI\tTotal_Call_OI\tPC_Ratio\tThesis_Zone_Call_OI\t"
+    "Top_Put_Strike\tTop_Put_OI\tTop_Call_Strike\tTop_Call_OI\tTop5_Puts\tTop5_Calls\t"
+    "ATM_IV_pct\tRR25_USDJPY\n"
+)
+NUM_COLS = 14  # column count after the vol-proxy migration
+
+
+# --------------------------------------------------------------------------
+# Vol proxy: ATM IV (CVOL proxy) + 25-delta risk reversal (USD/JPY convention)
+#
+# SIGN CONVENTION — read carefully:
+#   FXY moves INVERSELY to USD/JPY (FXY up = yen up = USD/JPY down).
+#   So a USD/JPY put ≈ an FXY call.  Therefore:
+#       USD/JPY 25d RR  =  IV(USDJPY 25d call) − IV(USDJPY 25d put)
+#                       ≈  IV(FXY 25d put)     − IV(FXY 25d call)
+#   We report the USD/JPY convention so it plugs into VOL_OPTIONS_FRAMEWORK.md:
+#       NEGATIVE RR = puts richer = yen-strength crash protection bid = THESIS firing.
+# --------------------------------------------------------------------------
+
+def _norm_cdf(x):
+    return 0.5 * (1.0 + math.erf(x / math.sqrt(2.0)))
+
+
+def _valid_iv(v):
+    """yfinance IV is a decimal (0.10 = 10%). Reject NaN and insane values."""
+    return v == v and 0.001 < v < 3.0
+
+
+def _bs_delta(opt_type, S, K, T, iv):
+    """Black-Scholes delta (American FXY options approximated as European — fine for
+    25-delta strike classification on a proxy)."""
+    if S <= 0 or K <= 0 or T <= 0 or iv <= 0:
+        return None
+    d1 = (math.log(S / K) + (RFR + 0.5 * iv * iv) * T) / (iv * math.sqrt(T))
+    return _norm_cdf(d1) if opt_type == "call" else _norm_cdf(d1) - 1.0
+
+
+def compute_iv_skew(calls, puts, spot, dte):
+    """Return (atm_iv_pct, rr25_usdjpy, note). Degrades gracefully to (None, None, reason)
+    so it can NEVER break the OI pull / boot sweep."""
+    if spot is None or spot <= 0 or not dte or dte <= 0:
+        return None, None, "no spot/dte"
+    T = dte / 365.0
+
+    # --- ATM IV: IV at the strike nearest spot, averaged across call+put ---
+    atm_iv = None
+    try:
+        ivs = []
+        for df in (calls, puts):
+            if "impliedVolatility" not in df.columns or "strike" not in df.columns:
+                continue
+            v = df[df["impliedVolatility"].apply(_valid_iv)].reset_index(drop=True)
+            if len(v):
+                i = (v["strike"] - spot).abs().idxmin()
+                ivs.append(float(v.loc[i, "impliedVolatility"]))
+        if ivs:
+            atm_iv = sum(ivs) / len(ivs)
+    except Exception:
+        atm_iv = None
+
+    # --- 25-delta RR (USD/JPY convention = FXY put IV − FXY call IV) ---
+    rr = None
+    note = ""
+    try:
+        def _otm(df, side):
+            v = df[df["impliedVolatility"].apply(_valid_iv)].copy()
+            if "openInterest" in v.columns:
+                v = v[v["openInterest"] > 0]
+            v = v[(v["strike"] >= spot)] if side == "call" else v[(v["strike"] <= spot)]
+            v = v.reset_index(drop=True)
+            if not len(v):
+                return None
+            v["delta"] = v.apply(
+                lambda r: _bs_delta(side, spot, r["strike"], T, r["impliedVolatility"]), axis=1
+            )
+            v = v.dropna(subset=["delta"]).reset_index(drop=True)
+            if not len(v):
+                return None
+            target = 0.25 if side == "call" else -0.25
+            i = (v["delta"] - target).abs().idxmin()
+            return v.loc[i]
+
+        call25 = _otm(calls, "call")
+        put25 = _otm(puts, "put")
+        if call25 is not None and put25 is not None:
+            rr = (float(put25["impliedVolatility"]) - float(call25["impliedVolatility"])) * 100.0
+            if abs(call25["delta"] - 0.25) > 0.12 or abs(put25["delta"] + 0.25) > 0.12:
+                note = "approx (thin wings)"
+        else:
+            note = "RR n/a (thin wings)"
+    except Exception:
+        note = "RR calc error"
+
+    return (
+        round(atm_iv * 100.0, 2) if atm_iv is not None else None,
+        round(rr, 2) if rr is not None else None,
+        note,
+    )
+
+
+def _iv_flag(iv_pct):
+    """Framework CVOL thresholds (VOL_OPTIONS_FRAMEWORK.md §1)."""
+    if iv_pct is None:
+        return ""
+    if iv_pct < 10:
+        return "🟢 carry-grind"
+    if iv_pct < 12:
+        return "🟡 early shift"
+    if iv_pct < 15:
+        return "🟠 event premium"
+    if iv_pct < 18:
+        return "🟠 elevated"
+    return "🔴 stress"
+
+
+def _rr_flag(rr):
+    """SIGN/direction interpretation only. NOTE: FXY ETF option skew runs structurally
+    much steeper than USD/JPY OTC RR, so the framework's absolute OTC thresholds
+    (-0.3/-0.7 = stress) DO NOT transfer to this proxy. Track the trend vs its own
+    history; here we only read the sign + which side is bid."""
+    if rr is None:
+        return ""
+    if rr <= -0.5:
+        return "↓ FXY calls bid = yen-strength demand (thesis-side)"
+    if rr < 0.5:
+        return "→ ~symmetric skew"
+    return "↑ FXY puts bid = yen-weakness demand (counter-thesis)"
 
 
 def get_fxy_options(num_expiries=4):
@@ -48,9 +180,16 @@ def get_fxy_options(num_expiries=4):
             current_price = info.get("regularMarketPrice") or info.get("previousClose")
         except Exception:
             pass
+        if not current_price:  # fallback if .info is flaky — needed for ATM/delta
+            try:
+                current_price = float(t.history(period="1d")["Close"].iloc[-1])
+            except Exception:
+                pass
     except Exception as e:
         print(f"  ERROR fetching FXY options: {e}")
         return [], None
+
+    today = date.today()
 
     results = []
     for expiry in expiries[:num_expiries]:
@@ -69,6 +208,13 @@ def get_fxy_options(num_expiries=4):
                 zone_call_oi = int(calls.loc[zone_mask, "openInterest"].sum())
 
             pc_ratio = round(total_put_oi / total_call_oi, 2) if total_call_oi > 0 else 999.0
+
+            # Vol proxy: ATM IV + 25d RR for this expiry (fail-safe — never raises)
+            try:
+                dte = (datetime.strptime(expiry, "%Y-%m-%d").date() - today).days
+            except Exception:
+                dte = None
+            atm_iv_pct, rr25, iv_note = compute_iv_skew(calls, puts, current_price, dte)
 
             # Top 5 puts and calls by OI
             top_puts = []
@@ -89,6 +235,7 @@ def get_fxy_options(num_expiries=4):
 
             results.append({
                 "expiry": expiry,
+                "dte": dte,
                 "total_put_oi": total_put_oi,
                 "total_call_oi": total_call_oi,
                 "pc_ratio": pc_ratio,
@@ -97,6 +244,9 @@ def get_fxy_options(num_expiries=4):
                 "top_call": top_calls[0] if top_calls else (0, 0),
                 "top5_puts": top_puts,
                 "top5_calls": top_calls,
+                "atm_iv_pct": atm_iv_pct,
+                "rr25": rr25,
+                "iv_note": iv_note,
             })
         except Exception:
             continue
@@ -104,34 +254,79 @@ def get_fxy_options(num_expiries=4):
     return results, current_price
 
 
-def append_tsv(date_str, data_list):
-    """Append today's options data to TSV if not already present."""
-    existing = set()
-    if FXY_TSV.exists():
-        with open(FXY_TSV) as f:
-            for line in f:
-                parts = line.strip().split("\t")
-                if len(parts) >= 2:
-                    existing.add((parts[0], parts[1]))
-    else:
-        with open(FXY_TSV, "w") as f:
-            f.write(TSV_HEADER)
+def _ensure_schema():
+    """One-time migration: pad pre-vol-proxy (12-col) TSV rows to the 14-col schema
+    so column count stays uniform. Idempotent."""
+    if not FXY_TSV.exists():
+        return
+    lines = FXY_TSV.read_text().splitlines()
+    if not lines or lines[0] == TSV_HEADER.strip():
+        return  # already migrated (or empty)
+    new_lines = [TSV_HEADER.strip()]
+    for ln in lines[1:]:
+        if not ln.strip():
+            continue
+        cols = ln.split("\t")
+        while len(cols) < NUM_COLS:
+            cols.append("")  # pad ATM_IV_pct / RR25_USDJPY for historical rows
+        new_lines.append("\t".join(cols))
+    FXY_TSV.write_text("\n".join(new_lines) + "\n")
 
-    appended = 0
-    with open(FXY_TSV, "a") as f:
-        for d in data_list:
-            key = (date_str, d["expiry"])
-            if key in existing:
+
+def _row_for(date_str, d):
+    """Build the 14-col TSV row (list) for one expiry's data."""
+    puts_str = "; ".join(f"${s:.0f}={oi}" for s, oi in d["top5_puts"])
+    calls_str = "; ".join(f"${s:.0f}={oi}" for s, oi in d["top5_calls"])
+    iv_str = "" if d.get("atm_iv_pct") is None else f"{d['atm_iv_pct']}"
+    rr_str = "" if d.get("rr25") is None else f"{d['rr25']}"
+    return [
+        date_str, d["expiry"], str(d["total_put_oi"]), str(d["total_call_oi"]),
+        str(d["pc_ratio"]), str(d["zone_call_oi"]), str(d["top_put"][0]), str(d["top_put"][1]),
+        str(d["top_call"][0]), str(d["top_call"][1]), puts_str, calls_str, iv_str, rr_str,
+    ]
+
+
+def append_tsv(date_str, data_list):
+    """Upsert today's options data into the TSV: add new (date, expiry) rows, and
+    backfill ATM_IV/RR on an existing row when it's blank and we now have values.
+    Idempotent — re-running the same day won't duplicate, and self-heals partial pulls."""
+    _ensure_schema()
+    rows = []          # ordered list of column-lists
+    index = {}         # (date, expiry) -> position in rows
+    if FXY_TSV.exists():
+        for line in FXY_TSV.read_text().splitlines()[1:]:
+            if not line.strip():
                 continue
-            puts_str = "; ".join(f"${s:.0f}={oi}" for s, oi in d["top5_puts"])
-            calls_str = "; ".join(f"${s:.0f}={oi}" for s, oi in d["top5_calls"])
-            f.write(
-                f"{date_str}\t{d['expiry']}\t{d['total_put_oi']}\t{d['total_call_oi']}\t"
-                f"{d['pc_ratio']}\t{d['zone_call_oi']}\t{d['top_put'][0]}\t{d['top_put'][1]}\t"
-                f"{d['top_call'][0]}\t{d['top_call'][1]}\t{puts_str}\t{calls_str}\n"
-            )
-            appended += 1
-    return appended
+            cols = line.split("\t")
+            while len(cols) < NUM_COLS:
+                cols.append("")
+            index[(cols[0], cols[1])] = len(rows)
+            rows.append(cols)
+
+    changed = 0
+    for d in data_list:
+        key = (date_str, d["expiry"])
+        new_cols = _row_for(date_str, d)
+        if key in index:
+            cur = rows[index[key]]
+            # backfill IV (col 12) / RR (col 13) if currently blank and now available
+            upgraded = False
+            for ci in (12, 13):
+                if not cur[ci] and new_cols[ci]:
+                    cur[ci] = new_cols[ci]
+                    upgraded = True
+            if upgraded:
+                changed += 1
+        else:
+            index[key] = len(rows)
+            rows.append(new_cols)
+            changed += 1
+
+    with open(FXY_TSV, "w") as f:
+        f.write(TSV_HEADER)
+        for cols in rows:
+            f.write("\t".join(cols) + "\n")
+    return changed
 
 
 def print_from_tsv():
@@ -195,12 +390,35 @@ def main():
     if zone_pct > 25:
         print(f"  🟢 Meaningful positioning in ${THESIS_ZONE_LOW:.0f}-${THESIS_ZONE_HIGH:.0f} zone")
 
+    # --- VOL PROXY headline: expiry nearest TARGET_DTE (mirrors CVOL 30d) ---
+    dated = [d for d in data if d.get("dte")]
+    headline = min(dated, key=lambda d: abs(d["dte"] - TARGET_DTE)) if dated else None
+    if headline:
+        iv = headline.get("atm_iv_pct")
+        rr = headline.get("rr25")
+        note = headline.get("iv_note") or ""
+        print(f"\n  VOL PROXY (FXY-derived; {headline['expiry']}, ~{headline['dte']}d)")
+        print(f"  {'-'*60}")
+        iv_disp = f"{iv:.2f}%" if iv is not None else "n/a"
+        rr_disp = f"{rr:+.2f}" if rr is not None else "n/a"
+        print(f"  ATM IV (CVOL proxy):   {iv_disp:>10}  {_iv_flag(iv)}")
+        print(f"  25d RR (USDJPY-conv):  {rr_disp:>10}  {_rr_flag(rr)}")
+        if note:
+            print(f"  ⚠️  {note}")
+        print(f"  (proxy: FXY ETF options ≠ CME CVOL / OTC RR — compare to own history)")
+
     # Per-expiry
     print(f"\n  {'PER EXPIRY'}")
     print(f"  {'-'*60}")
     for d in data:
-        print(f"\n  {d['expiry']}  (P/C {d['pc_ratio']:.2f}x)")
+        dte_disp = f", ~{d['dte']}d" if d.get("dte") else ""
+        print(f"\n  {d['expiry']}{dte_disp}  (P/C {d['pc_ratio']:.2f}x)")
         print(f"     Puts: {d['total_put_oi']:>7,}  Calls: {d['total_call_oi']:>7,}  Zone-call: {d['zone_call_oi']:>6,}")
+        iv = d.get("atm_iv_pct"); rr = d.get("rr25")
+        if iv is not None or rr is not None:
+            iv_d = f"{iv:.2f}%" if iv is not None else "n/a"
+            rr_d = f"{rr:+.2f}" if rr is not None else "n/a"
+            print(f"     ATM IV: {iv_d}   25d RR: {rr_d}")
         if d["top5_puts"]:
             puts_str = ", ".join(f"${s:.0f}={oi}" for s, oi in d["top5_puts"][:3])
             print(f"     Top puts:  {puts_str}")
@@ -208,12 +426,12 @@ def main():
             calls_str = ", ".join(f"${s:.0f}={oi}" for s, oi in d["top5_calls"][:3])
             print(f"     Top calls: {calls_str}")
 
-    # Append to TSV
-    appended = append_tsv(date_str, data)
-    if appended > 0:
-        print(f"\n  Appended {appended} row(s) to FXY_OPTIONS.tsv")
+    # Upsert to TSV (adds new rows, backfills IV/RR on existing blank rows)
+    changed = append_tsv(date_str, data)
+    if changed > 0:
+        print(f"\n  Wrote/updated {changed} row(s) in FXY_OPTIONS.tsv")
     else:
-        print(f"\n  TSV already has data for {date_str} — no append")
+        print(f"\n  TSV already current for {date_str} — no change")
 
     print()
     return 0

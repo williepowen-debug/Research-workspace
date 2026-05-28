@@ -143,13 +143,26 @@ Any ONE moving = noise. All THREE moving = signal.
 
 | Data | Source | Access | Limitation |
 |------|--------|--------|-----------|
-| JPY CVOL (JPVL) | CME Group market data page | Free (delayed) | Dynamic rendering — use Perplexity or direct browser |
-| UpVar / DnVar | CME CVOL detail page | Free (delayed) | May require CME DataMine for historical |
-| FXY options OI | Barchart.com/etfs-funds/quotes/FXY/options | Free | Dynamic rendering — use browser |
-| FXY P/C ratio | Barchart FXY overview | Free | Dynamic rendering |
-| USD/JPY RR (25d) | Investing.com, broker platforms | Free/broker | Hard to get precise numbers without terminal |
+| **FXY ATM IV + 25d RR (PROXY)** | **`fxy_options.py` (yfinance FXY chain)** | **Free, auto-pulled → `FXY_OPTIONS.tsv` cols `ATM_IV_pct`, `RR25_USDJPY`** | **Proxy — see note below. This is now the PRIMARY live feed.** |
+| JPY CVOL (JPVL) — true | CME Group market data page / EOD API | Gated (login + entitlement; undisclosed cost — recon 2026-05-28) | Not free-scriptable; CBOE JYVIX discontinued. Use only if Will pursues a CME login. |
+| UpVar / DnVar | CME CVOL detail page | Gated | The FXY 25d-RR proxy approximates the DnVar>UpVar tell (put-side/yen-strength demand). |
+| FXY options OI / P/C | `fxy_options.py` (yfinance) | Free, auto-pulled | — |
+| USD/JPY RR (25d) — true OTC | Investing.com, broker platforms | Free/broker | Hard to get precise numbers without terminal; FXY proxy substitutes. |
 
-**Workaround:** Will checks via Perplexity or browser, relays key numbers to SAM for workbook update.
+---
+
+## FXY-DERIVED VOL PROXY (implemented 2026-05-28 in `fxy_options.py`)
+
+Computes two numbers per expiry from the FXY options chain we already pull, written to `FXY_OPTIONS.tsv`. The boot brief + STATUS surface the **~30-DTE** expiry as the headline.
+
+- **ATM IV (CVOL proxy):** IV at the strike nearest spot, ×100. Roughly comparable scale to CME CVOL (both annualized vol) but runs a touch lower (FXY ETF vs simple-variance USD/JPY-futures strip). IV traffic-light bands in §1 are usable as a soft guide.
+- **25d RR (USD/JPY convention):** BS-delta finds the ~25Δ OTM call/put on FXY; reported as `IV(FXY put) − IV(FXY call)`.
+
+  ⚠️ **SIGN:** FXY moves *inversely* to USD/JPY, so a USD/JPY put ≈ an FXY call. A **negative** reported RR = FXY calls bid = yen-strength convexity demand = **thesis-side** (matches §3's "negative = puts richer" in USD/JPY terms).
+
+  ⚠️ **SCALE:** FXY ETF skew runs *structurally much steeper* than OTC USD/JPY RR — the §3 absolute thresholds (−0.3/−0.7) **do NOT transfer**. The script only reads the **sign + trend vs its own history**, not the OTC-calibrated level. (First read 2026-05-28: ATM IV ~8% / RR ~−5.8 across liquid expiries — calm level, heavily thesis-side skew.)
+
+**Limits:** proxy not identical to CVOL/OTC (American FXY options, ATM not full-strip); ATM IV robust, RR noisier (thin wings — script marks "thin wings" / degrades to n/a when the 25Δ strikes aren't cleanly available). Compare to own history, not to the old manual "10.44 / −1.5" reads.
 
 ---
 

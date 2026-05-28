@@ -8,6 +8,31 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
+## 2026-05-28 (PM, live session #5) — FXY-derived vol proxy built into fxy_options.py (closes the CVOL/RR gap)
+
+Built the vol-signal feed that recon (#3) parked. Decision trail: CME CVOL route gated → fall back to a **free proxy computed from the FXY options chain `fxy_options.py` already pulls.** Placement settled with Will: *data* is workbook-native (it's a scripted feed) but the *signal* is STATUS; so raw lands in FXY_OPTIONS.tsv, the read lands in STATUS, and this **retires the 3 VX vol rows**.
+
+**`scripts/fxy_options.py` — additive + fail-safe** (compute wrapped in try/except; can never break the boot sweep):
+- `compute_iv_skew()` returns **ATM IV** (CVOL proxy: IV at nearest-spot strike ×100) + **25d RR** (BS-delta via `math.erf`, no scipy; finds ~25Δ OTM call/put). Both per-expiry → term structure.
+- **SIGN convention (the crux):** FXY is inverse to USD/JPY, so RR reported as `IV(FXY put) − IV(FXY call)` = USD/JPY-convention (negative = FXY calls bid = yen-strength demand = thesis-side). Documented in code + VOL_OPTIONS_FRAMEWORK.md.
+- **SCALE caveat:** FXY ETF skew runs far steeper than OTC RR — framework's −0.3/−0.7 OTC thresholds DON'T transfer. `_rr_flag` reads sign/direction only (NOT the OTC "stress/crisis" labels — caught + fixed during validation when a raw −5.76 was mislabeled "crisis"). `_iv_flag` keeps the §1 CVOL bands as a soft guide.
+- Headline = expiry nearest 30 DTE (mirrors CVOL horizon). Spot fallback added (t.history if .info flaky).
+- **TSV:** 2 new cols `ATM_IV_pct`, `RR25_USDJPY` (12→14). One-time `_ensure_schema()` migration pads historical rows. `append_tsv` rewritten as an **idempotent upsert** (adds new rows; backfills IV/RR on existing blank rows; self-heals partial pulls) — needed because today's rows predated the feature.
+
+**`scripts/boot.py`:** added "VOL PROXY"/"ATM IV"/"25d RR" to the collapse-filter `key_markers` so the vol read surfaces in the default (non-verbose) brief when fxy runs (RR line uses ↓→↑ arrows, not stoplight emoji, so it needed explicit markers).
+
+**`STATUS.md`:** 2 new market-table rows (ATM IV + 25d RR) — the live signal surface.
+
+**`VX.tsv`:** retired 3 vol rows (12.00/12.01/12.03) — superseded by FXY_OPTIONS.tsv (raw) + STATUS (read). **VX now 3 rows** (wage ×2 + trade balance), all awaiting their own scripts → VX on a path to dissolution, as predicted.
+
+**`VOL_OPTIONS_FRAMEWORK.md`:** DATA SOURCES updated (proxy = primary feed; CME/OTC = gated reference); added a "FXY-DERIVED VOL PROXY" section documenting method, sign, scale caveat.
+
+**Validation:** live-pulled 2026-05-28 — spot $57.65 ✓; ATM IV term structure 8.01%(Jun)→13.28%(Dec); RR −5.76/−5.58/−5.99 across liquid Jun/Sep/Dec (thin Jul −1.46 = noise) → consistent steep call skew = real thesis-side positioning. py_compile clean; idempotent on 2nd run; --print OK; all 53 TSV rows uniform 14-col. **First read: calm IV level + heavily thesis-side skew** = directional long-yen positioning without imminent-vol pricing. No new deps (yfinance/pandas already used; math stdlib). **Boot-impact: safe** (additive, fail-safe; boot skips fxy if today's row exists).
+
+**Deferred:** insurers/<name>.md retire-vs-refresh; CLAUDE.md FILES-table touch-ups (FXY_OPTIONS new cols, VX scope, FLOW_ARCHIVE — eval-baseline-gated); RR proxy could later add a "vs 20d avg" trend once history accumulates.
+
+---
+
 ## 2026-05-28 (PM, live session #4) — KB.tsv superseded-row move + v1.5 scan + archive/ graveyard cleanup
 
 Closed out the workbook audit (Will's "finish the workbook"). Three parts:
