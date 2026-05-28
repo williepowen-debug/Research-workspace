@@ -8,6 +8,27 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
+## 2026-05-28 — workbook KB.tsv cleanup: split + recategorize + internal backfill
+
+Two-batch cleanup of `workbook/KB.tsv` (was 167 rows, frozen at 2026-04-07). Triggered by Will's workbook-staleness review. Pre-step verified **no script reads KB.tsv** (boot.py only auto-pulls the data feeds) — schema change is boot-safe.
+
+**Batch 1 — split + recategorize:**
+- Split 167 rows → 116 live (`KB.tsv`) + 51 historical (new `workbook/KB_ARCHIVE.tsv`). Historical = resolved point-in-time operational telemetry (SK-refiner saga, Mar-27 USD/JPY-160 intervention sequence, dated carry-probability snapshots, FY2025-end window timing).
+- Consolidated 32 inconsistent Category values → 9 (Insurer / Regulatory / Repatriation / BOJ-Wages / Carry-FX / Energy / Household / Framework / Cross-Agent). Live rows grouped by category, sorted by ID within.
+- Added `Status` column (LIVE / SUPERSEDED / HISTORICAL).
+- Flagged 4 insurer assessments contradicted by v1.5 actuals as SUPERSEDED **in place** (KB-081/084/087/092) with actual outcomes appended — preserves the threshold-vs-mechanism calibration lesson rather than burying it.
+
+**Batch 2 — dedup + internal backfill (no web; sourced from STATUS / TIMELINE / TRACKER):**
+- Merged duplicate KB-148 into KB-137 (identical +50bp→ESR-200% calc, DEEP_DIVE §1B).
+- Added 7 LIVE rows (KB-168..174) closing the Apr-7 → May-28 sync gap: BOJ Apr 28 hold + 3-way dissent; April CPI dovish miss; MOF interventions Apr 30 + May 6; Big 3 FY2025 ESR actuals (3-of-3); FY2026 plan outcomes (zero clean foreign-bond cuts); current vol/positioning; and **SYNTHESIS KB-172** resolving the KB-164 (active-at-stress-pace) vs KB-081 (deferred) Channel-1 contradiction in favor of deferral.
+- KB-166/167 left archived as superseded forecasts; their outcomes captured in new LIVE rows instead of un-archiving.
+
+**Net: KB.tsv 167 → 122 live rows. Boot-impact: none.** Calibration framing: the "blind spot" was a sync gap, not lost intelligence — current state was already in STATUS/TIMELINE/TRACKER; KB had drifted.
+
+**Deferred to next workbook passes:** numeric-conflict reconciliation (UST holdings $450B vs $810B — narrows but estimation gap remains; hedge ratio → 44.4% authoritative; JGB losses → ¥13.2T); CATALYSTS.tsv retire (dup of CALENDAR); VX.tsv vs STATUS owner decision; archive scaffolding cleanup (KB_STAGING_*, SAM_WORKBOOK.xlsx, ML.tsv + VX_HISTORY.tsv merge).
+
+---
+
 ## 2026-05-27 evening — v1.5 propagation sweep (STRATEGY, TRADE, TRACKER, RED, all 7 insurer profiles)
 
 Same-day evening follow-up to the morning v1.5 thesis bump. Will flagged STRATEGY.md + TRADE.md as likely stale; I confirmed and asked to expand to a full doc-stack audit. Outcome: 12 docs refreshed across decision layer, RED counter-thesis layer, and per-insurer reference layer. Triage discipline: ranked by behavioral impact per [[feedback_audit_behavioral_ranking]] before touching files.

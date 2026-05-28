@@ -228,7 +228,8 @@ Reference levels only. **Current values live in `STATUS.md`** (avoid same-data-i
 | `red/` | RED (devil's advocate) — counter-thesis, challenges, log. **SAM reads, does not edit.** |
 | `evals/` | Frozen-scenario eval suite (v1: 2 cases). Re-run before promoting non-trivial CLAUDE.md or thesis-doc changes. Will runs in a fresh skip-boot session and scores; **SAM does NOT auto-load at boot.** See `evals/README.md`. |
 | `research/outputs/` | Canonical home for deep-dive research packages (LIFE_INSURER_UST_DEEP_DIVE, NORINCHUKIN_CLO_CONTAGION, JAPAN_INSURER_PRIVATE_CREDIT_EXPOSURE, JAPAN_MORTGAGE_MECHANICS, VOL_OPTIONS_FRAMEWORK). Referenced from THESIS. |
-| `workbook/KB.tsv` | Knowledge base — durable facts and references. |
-| `workbook/*.tsv` | Operational data tsvs, most auto-pulled by `boot.py`: CATALYSTS, CFTC_JPY, FLOW, FXY_OPTIONS, JGB_AUCTIONS, JGB_YIELDS, MOF_FLOWS, USDJPY, VX. |
+| `workbook/KB.tsv` | Knowledge base — durable facts/references. Grouped by 9 categories (Insurer/Regulatory/Repatriation/BOJ-Wages/Carry-FX/Energy/Household/Framework/Cross-Agent); `Status` col flags LIVE vs SUPERSEDED. Not auto-pulled (hand-maintained; no script reads it). |
+| `workbook/KB_ARCHIVE.tsv` | Retired KB rows — resolved point-in-time operational telemetry (SK-refiner saga, Mar-27 intervention sequence, dated probability snapshots). Same schema as KB. Reference-only. |
+| `workbook/*.tsv` | Operational data tsvs, most auto-pulled by `boot.py`: CATALYSTS, CFTC_JPY, CPI, FLOW, FXY_OPTIONS, JGB_AUCTIONS, JGB_YIELDS, MOF_FLOWS, USDJPY, VX. |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
 | `outbox/` | Outbound signals for other agents. One file per signal. (See ⚠️ messaging-overhaul note in SPAWN PROTOCOL > MAIL.) |
