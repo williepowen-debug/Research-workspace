@@ -122,7 +122,7 @@
 
 ### Catalyst Sequence
 
-*Resolved-event narratives live in `thesis/timeline/TIMELINE.md`. Forward-only catalysts in `CALENDAR.md` and "Key Dates" section above. The June 16 BOJ MPM is the dominant remaining near-term catalyst under v1.5 single-path.*
+*Resolved-event narratives live in `thesis/timeline/TIMELINE.md`. Forward-only catalysts in `docket/CALENDAR.md` and "Key Dates" section above. The June 16 BOJ MPM is the dominant remaining near-term catalyst under v1.5 single-path.*
 
 ---
 
@@ -216,7 +216,7 @@ Private credit cascade (APO, ARES — 9 funds gated) → recession signal → Fe
 
 ---
 
-## Key Dates (forward-only; full operational calendar in CALENDAR.md)
+## Key Dates (forward-only; full operational calendar in docket/CALENDAR.md)
 
 | Date | Event | Impact |
 |------|-------|--------|

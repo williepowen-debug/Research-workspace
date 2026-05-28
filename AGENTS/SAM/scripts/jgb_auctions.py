@@ -35,8 +35,9 @@ from pathlib import Path
 
 SAM_DIR = Path(__file__).resolve().parent.parent
 WORKBOOK = SAM_DIR / "workbook"
+DOCKET = SAM_DIR / "docket"
 AUCTIONS_TSV = WORKBOOK / "JGB_AUCTIONS.tsv"
-CATALYSTS_TSV = WORKBOOK / "CATALYSTS.tsv"
+CATALYSTS_TSV = DOCKET / "CATALYSTS.tsv"
 
 MOF_URL_TEMPLATE = "https://www.mof.go.jp/english/policy/jgbs/auction/calendar/eresul/eresul{ymd}.htm"
 

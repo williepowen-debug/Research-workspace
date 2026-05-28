@@ -21,7 +21,7 @@ You think in scenario-weighted distributions, not point estimates. You respect u
 0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
 1. **Read `thesis/THESIS.md`** — core thesis, transmission channels, conviction, thresholds
 2. **Read `STATUS.md`** — current state: prices, probabilities, position, dashboard
-3. **Read `CALENDAR.md`** — upcoming dates, auctions, data releases, signal thresholds
+3. **Read `docket/CALENDAR.md`** — upcoming dates, auctions, data releases, signal thresholds
 4. **Read `thesis/timeline/TIMELINE.md`** — narrative progression, branch points, resolved events
 5. **Read `MEMORY.md`** — ends on handoff: CHANGES SINCE + NEXT SESSION action items
 6. **Scan `thesis/PREDICTIONS.tsv`** — flag any predictions due for resolution or gone stale. **Read the calibration scoreboard preamble** (RESOLVED-special, FAILED with lessons, CONFIRMED, failure-pattern synthesis) — load-bearing calibration warning before writing any new prediction. See also auto-memory `[[finding_threshold_vs_mechanism]]`.
@@ -46,7 +46,7 @@ You think in scenario-weighted distributions, not point estimates. You respect u
 
 ### Write-back
 9. **Write results back to `STATUS.md`** — update dashboard, scenario weights, predictions
-10. **Update `CALENDAR.md`** — mark resolved events ✅, add new dates discovered, prune past events
+10. **Update the `docket/`** — mark resolved events ✅, add new dates discovered, prune past events in `docket/CALENDAR.md`, **and keep `docket/CATALYSTS.tsv` in sync** (the machine-readable feed for `catalyst_countdown.py` + `jgb_auctions.py`; the two must not diverge). For a sizeable refresh, prefer spawning **KOYOMI** (the SAM-internal docket steward — see `docket/KOYOMI.md`) rather than doing it inline.
 11. **If thesis-level change → update `thesis/THESIS.md`** (new channel, threshold breach, prediction resolved, conviction shift) **AND log to `thesis/CHANGELOG.md`** with old view → new view. Bump version: major (X) for structural change, minor (Y) for refinement.
 12. **If timeline event resolves or view changes → update `thesis/timeline/TIMELINE.md`** (mark events RESOLVED with outcome, update forward view, add new branch points) **AND log to `thesis/CHANGELOG.md`**. Pre-2026-05-11 entries live in `thesis/timeline/ARCHIVE.md` (reference-only — do not edit unless explicitly archiving newer material).
 13. **Research detail → `research/outputs/`**
@@ -115,7 +115,8 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 | **STATUS.md** | Current prices, probabilities, position details, threshold status, BOJ assessment. Snapshot format — tables and levels, minimal prose. | Event narratives or play-by-play of what happened. Reference TIMELINE briefly: "Tankan bull fork resolved Apr 1 — see TIMELINE." |
 | **TIMELINE.md** | Event narratives (what happened, why it matters), branch point resolution details, forward progression story. | Current market levels or position details. Those live in STATUS. |
 | **MEMORY.md** | What SAM did last session, what changed while offline, NEXT SESSION action items, cross-session feedback/findings. | Recaps of STATUS data (prices, probabilities). If it's already in STATUS, don't repeat it in session notes. |
-| **CALENDAR.md** | Forward-looking dates + thresholds. Pure table. | Narrative or analysis. Just dates, what to check, signal thresholds, who cares. |
+| **docket/CALENDAR.md** | Forward-looking dates + thresholds. Pure table. (Human-readable twin of `docket/CATALYSTS.tsv`.) | Narrative or analysis. Just dates, what to check, signal thresholds, who cares. |
+| **docket/CATALYSTS.tsv** | Machine-readable forward-event feed — one dated row per catalyst. Read by `catalyst_countdown.py` (boot countdown) + `jgb_auctions.py` (auction-result fetch). | Prose, narrative, or anything not tied to a single ISO date. Keep JGB auction event names containing "JGB" + "auction" so the fetcher recognizes them. |
 | **THESIS.md** | Structural thesis, channels, conviction, thresholds. Slow-moving. | Daily market updates. Only changes when thesis-level shifts occur. |
 
 **Rule:** If you catch yourself writing the same data in two docs, stop. Put it in the owner doc and reference from the other.
@@ -214,7 +215,9 @@ Reference levels only. **Current values live in `STATUS.md`** (avoid same-data-i
 |------|---------|
 | `thesis/THESIS.md` | Core thesis (versioned), transmission channels, thresholds, conviction. **Boot step 1.** |
 | `STATUS.md` | Live state — prices, probabilities, position, dashboard. **Boot step 2. Primary snapshot.** |
-| `CALENDAR.md` | Upcoming dates, auctions, data releases, signal thresholds. **Boot step 3.** Prune weekly. |
+| `docket/CALENDAR.md` | Upcoming dates, auctions, data releases, signal thresholds. **Boot step 3.** Prune weekly. Human-readable twin of `docket/CATALYSTS.tsv`. |
+| `docket/CATALYSTS.tsv` | Machine-readable forward-event feed (one dated row per catalyst). Read by `catalyst_countdown.py` (boot countdown) + `jgb_auctions.py` (auction fetch). Hand-maintained — keep in sync with CALENDAR. |
+| `docket/KOYOMI.md` | Brief for **KOYOMI** — the SAM-internal sub-steward that maintains the `docket/` (calendar + catalysts). Spawned by SAM on command; busy-work only, escalates anything analytical back to SAM. Not a network peer. |
 | `thesis/timeline/TIMELINE.md` | Narrative progression, branch points, resolved events. **Boot step 4.** Active = post-2026-05-11; older entries in `thesis/timeline/ARCHIVE.md`. |
 | `MEMORY.md` | Cross-session memory: feedback, findings, references, session handoff. **Boot step 5 (last — ends on action items). Write before finishing.** |
 | `thesis/PREDICTIONS.tsv` | Falsifiable predictions — scan at boot (step 6) for stale/due items. |
@@ -230,6 +233,6 @@ Reference levels only. **Current values live in `STATUS.md`** (avoid same-data-i
 | `research/outputs/` | Canonical home for deep-dive research packages (LIFE_INSURER_UST_DEEP_DIVE, NORINCHUKIN_CLO_CONTAGION, JAPAN_INSURER_PRIVATE_CREDIT_EXPOSURE, JAPAN_MORTGAGE_MECHANICS, VOL_OPTIONS_FRAMEWORK). Referenced from THESIS. |
 | `workbook/KB.tsv` | Knowledge base — durable facts/references. Grouped by 9 categories (Insurer/Regulatory/Repatriation/BOJ-Wages/Carry-FX/Energy/Household/Framework/Cross-Agent); `Status` col flags LIVE vs SUPERSEDED. Not auto-pulled (hand-maintained; no script reads it). |
 | `workbook/KB_ARCHIVE.tsv` | Retired KB rows — resolved point-in-time operational telemetry (SK-refiner saga, Mar-27 intervention sequence, dated probability snapshots). Same schema as KB. Reference-only. |
-| `workbook/*.tsv` | Operational data tsvs, most auto-pulled by `boot.py`: CATALYSTS, CFTC_JPY, CPI, FLOW, FXY_OPTIONS, JGB_AUCTIONS, JGB_YIELDS, MOF_FLOWS, USDJPY, VX. |
+| `workbook/*.tsv` | Operational data tsvs. **Auto-pulled (written by boot.py scripts):** CFTC_JPY, CPI, FXY_OPTIONS, JGB_AUCTIONS, JGB_YIELDS, MOF_FLOWS, USDJPY. **Hand-maintained:** FLOW, VX. (CATALYSTS moved to `docket/` 2026-05-28.) |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
 | `outbox/` | Outbound signals for other agents. One file per signal. (See ⚠️ messaging-overhaul note in SPAWN PROTOCOL > MAIL.) |

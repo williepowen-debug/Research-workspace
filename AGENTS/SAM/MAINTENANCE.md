@@ -8,6 +8,29 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
+## 2026-05-28 (latest) — new `docket/` folder + KOYOMI sub-steward (delegation prototype)
+
+Created `AGENTS/SAM/docket/` to co-locate the forward-calendar layer and give a future maintenance sub-agent a single, enforceable ownership boundary. Outcome of a design conversation with Will: SAM stays sole orchestrator + analyst; bounded *busy-work* (calendar/catalyst upkeep) gets delegated to an ephemeral, SAM-internal sub-steward so SAM's context stays free for judgment.
+
+**Moves (git mv, history preserved):**
+- `CALENDAR.md` → `docket/CALENDAR.md`
+- `workbook/CATALYSTS.tsv` → `docket/CATALYSTS.tsv`
+
+**Repaths (verified both scripts resolve the new path + parse correctly):**
+- `catalyst_countdown.py` — CATALYSTS path → `docket/`; docstring updated.
+- `jgb_auctions.py` — added `DOCKET` const; CATALYSTS path → `docket/` (AUCTIONS_TSV stays in workbook/). Confirmed `load_catalyst_auction_dates()` still finds the 2 JGB auctions.
+- `boot.py` untouched (invokes scripts by name).
+
+**CLAUDE.md updated:** boot step 3 (`docket/CALENDAR.md`); write-back step 10 (sync CALENDAR + CATALYSTS, prefer spawning KOYOMI for sizeable refresh); doc-ownership table (added CATALYSTS row); FILES table (docket/CALENDAR + docket/CATALYSTS + docket/KOYOMI rows); corrected the old line-233 inaccuracy (CATALYSTS/FLOW/VX were wrongly listed as "auto-pulled" — now split auto-pulled vs hand-maintained). Forward-pointing CALENDAR refs updated in TRADE/STRATEGY/THESIS; historical mentions + CHANGELOG history left as-is.
+
+**KOYOMI brief — `docket/KOYOMI.md`:** SAM-internal sub-steward (暦, "almanac"), spawned on command, NOT a network peer. Read-set: STATUS / THESIS§CATALYST / TIMELINE + run catalyst_countdown.py. Exclusive owned write-set: `docket/` only. Job: prune resolved, add upcoming, refresh stale content, keep CALENDAR↔CATALYSTS in sync + ISO/auction-name format rules. **Escalate-don't-act clause** is the load-bearing guardrail: anything analytical goes back to SAM, never edited inline. Does not commit (git is SAM's). Returns a tight summary.
+
+**Status: command-first prototype.** KOYOMI runs only when SAM/Will invokes it — evaluate-mode until Will decides he likes the pattern. **Deferred (graduation rungs):** boot-time staleness *tripwire* in catalyst_countdown.py (runway < ~10d → auto-nudge SAM to spawn KOYOMI) → weekly scheduled run (needs an external firer — PROME/cron; `/loop` only runs within a live session). Boot-impact: none.
+
+**Remaining deferred workbook passes (unchanged):** VX.tsv keep-vs-retire; FLOW.tsv refresh-vs-archive; archive/ scaffolding cleanup.
+
+---
+
 ## 2026-05-28 (later) — CATALYSTS.tsv refresh + live-search additions + countdown holiday-skip (deferred-pass #1: KEEP, not retire)
 
 Resolved the first deferred next-pass item from the KB cleanup entry below. The deferred note read "CATALYSTS.tsv retire (dup of CALENDAR)" — **corrected after gap-check: the file is not a free delete.** `scripts/catalyst_countdown.py` (runs at boot) READS CATALYSTS.tsv as its structured countdown feed. CALENDAR.md's dates are freeform ("Thu-Fri May 28-29", "🔴🔴 Tue Jun 16", "Early Jun", "Ongoing" triggers) and can't be parsed reliably into the strict `%Y-%m-%d` the script needs. Re-plumbing the script to read CALENDAR is fragile/intrusive.
