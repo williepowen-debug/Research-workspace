@@ -23,9 +23,14 @@ Two-batch cleanup of `workbook/KB.tsv` (was 167 rows, frozen at 2026-04-07). Tri
 - Added 7 LIVE rows (KB-168..174) closing the Apr-7 → May-28 sync gap: BOJ Apr 28 hold + 3-way dissent; April CPI dovish miss; MOF interventions Apr 30 + May 6; Big 3 FY2025 ESR actuals (3-of-3); FY2026 plan outcomes (zero clean foreign-bond cuts); current vol/positioning; and **SYNTHESIS KB-172** resolving the KB-164 (active-at-stress-pace) vs KB-081 (deferred) Channel-1 contradiction in favor of deferral.
 - KB-166/167 left archived as superseded forecasts; their outcomes captured in new LIVE rows instead of un-archiving.
 
+**Batch 3 — numeric-conflict reconciliation (Notes-only appends, rows stay LIVE):**
+- **RESOLVED — JGB losses → ¥13.2T** ($86B, Jun 2025; FY2025 prints confirm worsening: Nippon -¥5.73T, Meiji -¥2.16T). Annotated KB-063/064; the ¥9T DEEP_DIVE figure was earlier/lower.
+- **RESOLVED — hedge ratio → 44.4%** (Mar 2025, 14-yr low; STATUS/TRACKER). Annotated KB-065/066; DEEP_DIVE's ~30% was too low, RP-SAM-4's 45-50% range was right.
+- **STANDING GAP — per-insurer UST split** ($450-810B) not closeable from FY2025 disclosures (no clean UST line). Annotated KB-061/062/139/140 with the Japan all-inst TIC total ($1,239.3B Feb 2026) + rotation-within reframe.
+
 **Net: KB.tsv 167 → 122 live rows. Boot-impact: none.** Calibration framing: the "blind spot" was a sync gap, not lost intelligence — current state was already in STATUS/TIMELINE/TRACKER; KB had drifted.
 
-**Deferred to next workbook passes:** numeric-conflict reconciliation (UST holdings $450B vs $810B — narrows but estimation gap remains; hedge ratio → 44.4% authoritative; JGB losses → ¥13.2T); CATALYSTS.tsv retire (dup of CALENDAR); VX.tsv vs STATUS owner decision; archive scaffolding cleanup (KB_STAGING_*, SAM_WORKBOOK.xlsx, ML.tsv + VX_HISTORY.tsv merge).
+**Deferred to next workbook passes:** CATALYSTS.tsv retire (dup of CALENDAR); VX.tsv vs STATUS owner decision; archive scaffolding cleanup (KB_STAGING_*, SAM_WORKBOOK.xlsx, ML.tsv + VX_HISTORY.tsv merge).
 
 ---
 
