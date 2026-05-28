@@ -49,9 +49,15 @@
 - **Strip live spot from CALENDAR** (KOYOMI executed round 2 — forward monitors stripped, resolved-outcome records left intact).
 - Built **`docket/RELEASES.md`** (recurring-releases reference: cadence rules + official schedule links + confirmed-dates scratchpad); updated KOYOMI.md spec; web-verified Jun 8 GDP date (cadence-consistent, ⚠️ pending ESRI). Full structural detail in MAINTENANCE 2026-05-28 (PM) entry. **Prototype validated — Will likes the pattern; KOYOMI now operational.**
 
-**Tier-1 doc updates:** MAINTENANCE 5/28 (PM) entry added; this MEMORY rewrite. (Tier 2 TRADE.md peek + Tier 3 flags below still open at time of writing.)
+**Tier-1 doc updates:** MAINTENANCE 5/28 (PM) entry + MEMORY rewrite.
 
-**Position:** 13 shares + 1 Jun-18 $58C unchanged. No action warranted today — quiet tape, no thresholds tripped, v1.5 single-path intact.
+**Position cost-basis correction (Will ground truth):** Will corrected avg cost to **$58.32** (13 sh) — prior "$57.48 blend" (8 @ $57.36 + 5 @ $57.66) was inaccurate (avg can't exceed both fills). Propagated across STATUS/TRADE/STRATEGY/MEMORY; P/L flipped +0.4% → −1.1%, R:R 1:1.86 → 1:1.13, stop now 5.6% below cost, breakeven $58.32 above spot. Logged Finding (above). **TRADE.md cleanups also done:** Position A "still authorized" leftover → NOT WARRANTED; embedded spot genericized to "see STATUS"; dates tidied (+FOMC Jun 17). **SIG dropped to RED** (`red/SIG-FROM-SAM-2026-05-28...`) to correct its $57.48 refs on next boot.
+
+**Committed + pushed:** cb3f9b97 (12 files, SAM-scoped). Origin synced 0/0.
+
+**KOYOMI top-sheet design Q (resolved — NO build):** Will asked whether KOYOMI should synthesize an at-a-glance state sheet. Decided against: I only boot-read CALENDAR.md (not the whole docket), so a top-sheet saves no reading; the only real gap (cross-session escalation orphaning) is covered by routing unresolved KOYOMI escalations into this MEMORY NEXT SESSION list (zero-cost, no new file/sync surface). Also: KOYOMI must NOT synthesize the macro "situation" — that's STATUS (analysis line). Revisit a dedicated STATE.md only if KOYOMI's scope grows to multiple dockets.
+
+**Position:** 13 sh @ $58.32 avg + 1 Jun-18 $58C (ACTIVE), both unchanged. No action warranted today — quiet tape, no thresholds tripped, v1.5 single-path intact; shares modestly underwater (−1.1%), breakeven above spot.
 
 ### NEXT SESSION
 
@@ -63,10 +69,10 @@
 6. **🟠 Jun FY2025 Norinchukin** — only remaining near-term Channel 1 reactivation gate. Watch for CLO-book reduction language / CEO Kitabayashi escalation.
 7. **⚠️ Eval re-baseline DUE:** today's CLAUDE.md SPAWN PROTOCOL change (docket path + KOYOMI step 10) is a standing re-baseline trigger (criterion d). Will runs evals in a fresh skip-boot session — flag at next opportunity.
 8. **outbox PROME/LIQUID pickup:** 5/27 v1.5-demotion (PROME) + channel-1-deferred (LIQUID) signals still in `outbox/` (not delivered/). Verify integration or surface to Will. (Messaging mid-overhaul — don't over-invest.)
-9. **TRADE.md position-mark peek** (Tier 2, may carry over) — only doc with live-ish position data; refresh Jun-18 $58C mark / blended-entry delta if stale.
-10. **KOYOMI now operational** — spawn for sizeable docket refreshes (e.g. post-BOJ Jun 16 event cluster), not quiet days. Standing rules live in `docket/KOYOMI.md` + `docket/RELEASES.md`.
+9. **KOYOMI now operational** — spawn for sizeable docket refreshes (e.g. post-BOJ Jun 16 event cluster), not quiet days. Standing rules in `docket/KOYOMI.md` + `docket/RELEASES.md`. **Escalation convention:** route any unresolved KOYOMI escalation into this NEXT SESSION list (decided 5/28 — no top-sheet). Open KOYOMI escalation carried forward: **Jun 8 GDP 2nd-prelim date** is cadence-derived (⚠️ in RELEASES.md), confirm at ESRI when it nears.
+10. **RED to self-correct** the $57.48 → $58.32 basis in COUNTER_THESIS on its next boot (SIG dropped); evals also still carry $57.48 in frozen inputs — folds into the re-baseline (#7).
 11. **Position next-touch:** No add/trim under v1.5 single-path. Triggers: (a) USDJPY <156 for 3 sessions → consider add; (b) BOJ pre-meeting cabling Jun 13-15; (c) thesis break (USDJPY >167 + BOJ dovish) = stop $55.05. Jun-18 $58C theta-watch: if Tokyo CPI in-line/hot, consider close-into-pop for salvage; if soft, hold as Phase 2 lottery.
-12. **Uncommitted work pending push:** this session's docket batch (CALENDAR strip, RELEASES.md new, KOYOMI.md spec) + STATUS + MAINTENANCE + MEMORY + boot.py workbook appends. Confirm with Will to commit + push at session-close (per [[feedback_agent_git_isolation]] + [[feedback_check_staged_before_commit]]).
+12. **Git:** clean at last session-close (cb3f9b97 pushed, origin 0/0). This MEMORY closeout edit is the only pending commit.
 
 ### NEXT INFRA SESSION (script build queue — unchanged from prior session)
 
