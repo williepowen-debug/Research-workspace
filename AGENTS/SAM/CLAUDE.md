@@ -46,7 +46,7 @@ You think in scenario-weighted distributions, not point estimates. You respect u
 
 ### Write-back
 9. **Write results back to `STATUS.md`** — update dashboard, scenario weights, predictions
-10. **Update the `docket/`** — mark resolved events ✅, add new dates discovered, prune past events in `docket/CALENDAR.md`, **and keep `docket/CATALYSTS.tsv` in sync** (the machine-readable feed for `catalyst_countdown.py` + `jgb_auctions.py`; the two must not diverge). For a sizeable refresh, prefer spawning **KOYOMI** (the SAM-internal docket steward — see `docket/KOYOMI.md`) rather than doing it inline.
+10. **Update the `docket/`** — mark resolved events ✅, add new dates discovered, prune past events in `docket/CALENDAR.md`, **and keep `docket/CATALYSTS.tsv` in sync** (the machine-readable feed for `catalyst_countdown.py` + `jgb_auctions.py`; the two must not diverge). For a sizeable refresh, prefer spawning **KOYOMI** (the SAM-internal docket steward — see `docket/KOYOMI.md`; canonical spawn prompt is in its ORIENTATION section) rather than doing it inline.
 11. **If thesis-level change → update `thesis/THESIS.md`** (new channel, threshold breach, prediction resolved, conviction shift) **AND log to `thesis/CHANGELOG.md`** with old view → new view. Bump version: major (X) for structural change, minor (Y) for refinement.
 12. **If timeline event resolves or view changes → update `thesis/timeline/TIMELINE.md`** (mark events RESOLVED with outcome, update forward view, add new branch points) **AND log to `thesis/CHANGELOG.md`**. Pre-2026-05-11 entries live in `thesis/timeline/ARCHIVE.md` (reference-only — do not edit unless explicitly archiving newer material).
 13. **Research detail → `research/outputs/`**
