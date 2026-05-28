@@ -8,6 +8,23 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
+## 2026-05-28 (PM, session #6) — self-calibration + provenance added to fxy_options.py (RR scale fix)
+
+**Rebuild note:** session #6 originally implemented this but crashed before commit (window lost, no push). The crashed diff was unrecoverable; this is a clean reconstruction from the approved spec. A handful of parameter choices the original session made could not be recovered and were re-derived here — flagged `[RECONSTRUCTED]` in code for SAM review. Foundation (session #5 / `fabf645`) was fully committed and intact; only this enhancement layer was lost.
+
+**The problem it fixes:** the FXY-proxy 25d RR has no meaningful absolute scale (runs ~10x steeper than OTC USD/JPY RR), so a raw −5.76 can't be read against the framework's OTC −0.3/−0.7 thresholds. Fix = **calibrate each reading against its OWN trailing history** (Option B; OTC-scale mapping (C) and a real CME/OTC feed (E) were rejected as gated/overkill for a confirmation signal).
+
+**`scripts/fxy_options.py` — additive, fail-safe:**
+- **Self-calibration:** `_headline_rr_series()` rebuilds the one-reading-per-date headline RR series from the TSV; `calibrate_rr()` reports the current RR as a z-score + raw deviation vs its trailing mean. While priors < `MIN_HISTORY` (8) it shows `building history (n/8)`; it activates automatically as weekly snapshots accumulate — no future session or external data needed. **Load-bearing read is DIRECTION:** z below norm = call/yen-strength demand intensifying (thesis-side); **z above norm = RR drifting toward zero = long-yen positioning UNWINDING (the genuine early-warning).**
+- **Provenance:** 2 new TSV cols `Method_Ver` + `Vol_Quality` (14→16). `Method_Ver` tags the compute method so a future math change can't silently contaminate the trailing series (calibration only mixes same-version readings). `Vol_Quality` grades each reading (ok / approx / rr_na / none); only ok+approx feed calibration. `_ensure_schema()` pads + backfills legacy rows (stamps existing RR readings with current version + quality). `append_tsv` upsert extended to backfill the 2 new cols.
+- **Reconstructed params (SAM-reviewable):** `MIN_HISTORY=8` (from the "(n/8)" spec floor), `CALIB_WINDOW_DAYS=60` ("60-day average"), `METHOD_VER="fxy-proxy-v1"`, `Vol_Quality` bucket thresholds, z-score (vs simple delta) as the primary readout, and column order (appended at end).
+
+**Validation:** py_compile clean; idempotent on re-run; migrates the live 53-row / 14-col TSV to 16-col and stamps the 4 existing 5/28 readings as `fxy-proxy-v1 / ok`. Self-cal currently reports `building history (1/8)` — only one date of RR history exists, exactly as expected. No new deps (math stdlib). **Boot-impact: safe** (additive, fail-safe; degrades to raw RR when history is short).
+
+**Deferred:** STATUS.md unchanged — self-cal is in `building` state, no z-score signal to surface yet. Add a STATUS self-cal line once history crosses 8 readings.
+
+---
+
 ## 2026-05-28 (PM, live session #5) — FXY-derived vol proxy built into fxy_options.py (closes the CVOL/RR gap)
 
 Built the vol-signal feed that recon (#3) parked. Decision trail: CME CVOL route gated → fall back to a **free proxy computed from the FXY options chain `fxy_options.py` already pulls.** Placement settled with Will: *data* is workbook-native (it's a scripted feed) but the *signal* is STATUS; so raw lands in FXY_OPTIONS.tsv, the read lands in STATUS, and this **retires the 3 VX vol rows**.
