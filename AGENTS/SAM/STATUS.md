@@ -1,6 +1,6 @@
 # SAM STATUS
 
-**Signal Status:** 🟠 v1.5 — BIG 3 ESR WINDOW RESOLVED 3-OF-3 (SUMITOMO 197% ↑+19PT, FOREIGN BOOK GROWING) | CHANNEL 1 DEMOTED TO DEFERRED STRUCTURAL BACKSTOP | USD/JPY **159.41** (yen WEAKER — no Channel 1 yen-bullish catalyst left) | FXY **$57.63** (-0.12%) | CFTC **-93,905** (3rd build week, 92% of cycle peak) | JGB 10Y **2.713%** | JGB 30Y **3.866%** (further retracement) | Brent **$93.13** (-3.66% intraday on Iran/Hormuz MOU framework hardening) | **Position: 13 shares + 1 Jun-18 $58C — unchanged. Sep $60 calls NOT warranted under v1.5 single-path.** | **Last Updated:** 2026-05-27 09:24 ET — post-Sumitomo writeback
+**Signal Status:** 🟠 v1.5 — BIG 3 ESR WINDOW RESOLVED 3-OF-3 (SUMITOMO 197% ↑+19PT, FOREIGN BOOK GROWING) | CHANNEL 1 DEMOTED TO DEFERRED STRUCTURAL BACKSTOP | USD/JPY **159.21** (flat; yen marginally firmer) | FXY **$57.65** (+0.19%) | CFTC **-93,905** (3rd build week, 92% of cycle peak; next release Fri May 29) | JGB 10Y **2.687%** | JGB 30Y **3.856%** (further retracement) | Brent **$92.46** (Phase 2 still firing) | **Position: 13 shares + 1 Jun-18 $58C — unchanged. Sep $60 calls NOT warranted under v1.5 single-path.** | **Next catalyst: 🔴 Tokyo May CPI + CFTC weekly TOMORROW (Fri May 29). BOJ Jun 16 = 13 trd days.** | **Last Updated:** 2026-05-28 13:57 ET — boot refresh
 
 ---
 
@@ -20,27 +20,26 @@
 
 ---
 
-## MARKET DATA — MAY 27 09:24 ET (live)
+## MARKET DATA — MAY 28 13:57 ET (live)
 
 | Metric | Value | Source | Status |
 |--------|-------|---------|--------|
-| USD/JPY | **159.41** | May 27 09:24 ET | 🟠 +0.17 vs y/d close; 0.4% from 160; yen WEAKER on no remaining Channel 1 catalyst |
-| FXY | **$57.63** | May 27 09:24 ET | 🟡 -0.12% (-$0.07); flat on v1.5 single-path; position +0.3% on blended entry |
-| JGB 10Y | **2.713%** | MOF May 26 | 🔴 -4bp vs May 22; well above 2.40% stress threshold |
-| JGB 30Y | **3.866%** | MOF May 26 | 🟠 further -7bp from 3.931% (May 22); 13bp below 4.000% breach. SAM-26 deeper in FALSE territory. |
-| JGB 40Y | **3.836%** | MOF May 26 | 🟠 -9bp |
-| EUR/JPY | 185.62 | May 27 09:24 ET | 🟢 +0.24% |
-| GBP/JPY | 214.31 | May 27 09:24 ET | 🟢 +0.07% |
-| AUD/JPY | 113.73 | May 27 09:24 ET | 🔴 -0.36% (commodity-currency weakness on Brent -3.66%) |
-| Brent | **$93.13** | May 27 09:24 ET | 🔴 **-3.66% intraday on Iran/Hormuz MOU framework hardening (Phase 2 still firing)** |
-| CFTC JPY net | **-93,905** (May 19) | CFTC May 22 release | 🔴 3rd straight build week; 92% of cycle peak. Next release Fri May 29. |
-| MOF LT-debt net | Net BUYING (May 10-16) | MOF | 🟢 no repatriation signal at weekly level |
+| USD/JPY | **159.21** | May 28 13:57 ET | 🟠 -0.20 vs May 27 AM; 0.5% from 160; yen marginally firmer |
+| FXY | **$57.65** | May 28 13:57 ET | 🟢 +0.19% on day; position **−1.1% vs $58.32 avg cost** (13 sh, ≈−$8.7 unrealized); breakeven $58.32 above spot |
+| JGB 10Y | **2.687%** | MOF May 27 | 🔴 -2.6bp vs May 26; well above 2.40% stress threshold |
+| JGB 30Y | **3.856%** | MOF May 27 | 🟠 further -1bp; 14bp below 4.000% breach. SAM-26 deeper in FALSE territory. |
+| EUR/JPY | 185.53 | May 28 13:57 ET | 🟢 +0.12% |
+| GBP/JPY | 214.03 | May 28 13:57 ET | 🟢 -0.02% |
+| AUD/JPY | 114.08 | May 28 13:57 ET | 🟢 +0.28% |
+| Brent | **$92.46** | May 28 13:57 ET | 🔴 **Phase 2 still firing; MOU framework hardening continues** |
+| CFTC JPY net | **-93,905** (May 19) | CFTC May 22 release | 🔴 3rd straight build week; 92% of cycle peak. **Next release TOMORROW Fri May 29.** |
+| MOF LT-debt net | Net BUYING (May 17-23) | MOF | 🟢 no repatriation signal at weekly level |
 | MOF intervention total | ~¥10T ($63.5B) Apr 30 + May 6 | BoJ/BofA | 🔴 LARGEST SINCE 2022; no new this week |
 | Insurer hedge ratio | 44.4% (Mar 2025) | (14yr low) | 🔴🔴 |
-| FXY P/C ratio | 0.06x | May 27 boot.py | 🟢 Call-heavy (bullish) |
-| Japan April CPI | core 1.4 / core-core 1.9 | MIC May 22 | 🟠 soft band; energy/subsidy-driven (BOJ can look through). SAM-27 CONFIRMED. |
+| FXY P/C ratio | 0.06x | May 28 boot.py | 🟢 Call-heavy (bullish) |
+| Japan April CPI | core 1.4 / core-core 1.9 | MIC May 22 | 🟠 soft band; energy/subsidy-driven (BOJ can look through). SAM-27 CONFIRMED. **Tokyo May print TOMORROW.** |
 
-*Boot.py 11.9s, 9/9 green.*
+*Boot.py 14.1s, 9/9 green.*
 
 ---
 
@@ -96,7 +95,7 @@
 
 ## FXY POSITIONING — 13 SHARES + 1 JUNE $58 CALL (unchanged; Sep $60 NOT WARRANTED)
 
-**Shares:** 13 (Tranche 1: 8 @ $57.36 + Tranche 2: 5 @ ~$57.66 May 21). Blended entry ~$57.48. Position +0.3% on blend ($57.63).
+**Shares:** 13 @ **$58.32 avg cost** (built in two adds; Tranche 2 added May 21). Position **−1.1%** at FXY $57.65 (≈−$8.7 unrealized); shares breakeven $58.32, above spot. *Corrected to Will's ground-truth avg cost 2026-05-28 — prior "$57.48 blend" (8 @ $57.36 + 5 @ $57.66) was inaccurate and did not reconcile.*
 **Call:** 1 × June 18 2026 $58 call @ $0.40 ($40 total). Slightly OTM at execution; needs USDJPY <156 zone to fire.
 
 Per **STRATEGY.md** + v1.5 position logic:

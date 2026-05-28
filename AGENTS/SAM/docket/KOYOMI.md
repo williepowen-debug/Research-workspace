@@ -31,25 +31,38 @@ You do maintenance, not analysis. If a task requires a judgment call about the t
 1. `AGENTS/SAM/STATUS.md` — current state, what's resolved, live levels
 2. `AGENTS/SAM/thesis/THESIS.md` — § CATALYST SEQUENCE (forward events) + current channel framing
 3. `AGENTS/SAM/thesis/timeline/TIMELINE.md` — recently resolved events (so you know what to prune)
-4. Run `.venv/bin/python3 AGENTS/SAM/scripts/catalyst_countdown.py` — the current countdown view + runway
+4. `AGENTS/SAM/docket/RELEASES.md` — recurring-releases reference: cadence rules + official schedule links. **Your first stop for verifying any event date.**
+5. `AGENTS/SAM/docket/CALENDAR.md` + `AGENTS/SAM/docket/CATALYSTS.tsv` — the two files you reconcile (you must read both to do the job, even though you also write them).
+6. Run `.venv/bin/python3 AGENTS/SAM/scripts/catalyst_countdown.py` — the current countdown view + runway
 
-You may also WebSearch to confirm a specific event **date** (e.g. an auction or release date). You may NOT search to form a view on what an event will mean — that's analysis.
+**Date verification order:** when a `CATALYSTS.tsv` row's date isn't corroborated by STATUS/THESIS/TIMELINE, check `RELEASES.md` cadence rules first. Only WebSearch if `RELEASES.md` can't resolve it — and only to confirm a **date**, never to form a view on what an event will mean (that's analysis). If you confirm a date at an official source, record it in the `RELEASES.md` "Confirmed dates" table (this is the one exception where you may write outside CALENDAR/CATALYSTS — and only that table).
 
 ## OWNED WRITE-SET (you exclusively own these for your run; touch nothing else)
 
 - `AGENTS/SAM/docket/CALENDAR.md` — human-readable forward calendar (narrative thresholds + routing)
 - `AGENTS/SAM/docket/CATALYSTS.tsv` — machine-readable feed for `catalyst_countdown.py` + `jgb_auctions.py`
+- `AGENTS/SAM/docket/RELEASES.md` — **append-only to the "Confirmed dates" table** when you verify a date at source. Do not restructure the rest of this file (that's SAM's).
 
-**Edit nothing outside `AGENTS/SAM/docket/`.** Not STATUS, not THESIS, not TIMELINE, not the workbook. If you believe one of those needs to change, that's an escalation, not an edit.
+**Edit nothing else, inside or outside `AGENTS/SAM/docket/`.** Not STATUS, not THESIS, not TIMELINE, not the workbook, not KOYOMI.md. If you believe one of those needs to change, that's an escalation, not an edit.
+
+---
+
+## TRUTH MODEL (which file wins when they disagree)
+
+**Split ownership — neither file duplicates the other's domain:**
+
+- **`CATALYSTS.tsv` is source-of-truth for the dated-event SET** — *which* events exist, their `YYYY-MM-DD` dates, and priority. When CALENDAR is missing an event the TSV has (or vice versa), the TSV's event list wins; bring CALENDAR up to it.
+- **`CALENDAR.md` is source-of-truth for narrative** — routing, threshold prose, who-cares context, the "what to check" framing. The TSV carries only a terse version of this.
+- **Neither carries live spot.** CALENDAR's watch tables hold **structural thresholds + significance only** (e.g. "USDJPY 159.50 → intervention #3"), never the current level. Live spot is STATUS's job exclusively (root CLAUDE.md no-same-data-in-two-docs rule). If you find a live price/yield/level sitting in a CALENDAR cell, **remove it** and leave the threshold — do not refresh it.
 
 ---
 
 ## THE JOB
 
-1. **Prune resolved events.** Anything now in the past (cross-check TIMELINE/STATUS for confirmation) comes out of the forward views.
-2. **Add upcoming events.** Pull dated catalysts forward from THESIS § CATALYST SEQUENCE, STATUS "what to watch", and known recurring releases (BOJ MPM, CPI, CFTC, JGB auctions, FOMC, trade balance). Verify each date at source if unsure.
-3. **Refresh stale content** inside still-future rows — e.g. a probability or framing that STATUS/THESIS has since moved (the countdown can't detect this; you must read and reconcile). Match the wording to the current STATUS/THESIS view; do not invent a new view.
-4. **Keep the two in sync.** CALENDAR.md and CATALYSTS.tsv must not diverge — same forward events in both.
+1. **Prune resolved events — by the file's own rule, not on sight.** An event leaves the *forward* views as soon as its date passes. It then lingers in CALENDAR's "RECENTLY RESOLVED" table, which has its own retention rule: **remove only after >1 week old.** Do NOT delete a resolved row early just because it's resolved — honor the 1-week rule. (Cross-check TIMELINE/STATUS to confirm an event actually resolved before moving it.)
+2. **Add upcoming events.** Pull dated catalysts forward from THESIS § CATALYST SEQUENCE, STATUS "what to watch", and known recurring releases. **Verify each date via `RELEASES.md` first** (cadence rules + official links); WebSearch only if that can't resolve it.
+3. **Refresh stale *framing*** inside still-future rows — e.g. a probability or routing note that STATUS/THESIS has since moved (the countdown can't detect this; you must read and reconcile). Match the wording to the current STATUS/THESIS view; do not invent a new view. **Do NOT refresh live spot — there should be none in CALENDAR (see TRUTH MODEL); if you find some, strip it.**
+4. **Keep the two in sync** under the TRUTH MODEL above — same forward event SET in both; TSV wins on the event list, CALENDAR owns the narrative.
 
 ### CATALYSTS.tsv format rules (load-bearing — scripts parse this)
 - Columns, tab-separated: `date  event  what_to_check  threshold_signal  priority  who_cares  notes`

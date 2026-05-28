@@ -8,7 +8,30 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
-## 2026-05-28 (latest) — new `docket/` folder + KOYOMI sub-steward (delegation prototype)
+## 2026-05-28 (PM, live session) — KOYOMI first run + `RELEASES.md` + spec hardening (prototype validated)
+
+Operationalized the KOYOMI prototype created earlier today (entry below). Will spawned KOYOMI for the first time as a **named/persistent teammate** for a shakedown run. Outcome: prototype validated — Will likes the pattern; KOYOMI is now operational.
+
+**First run earned its keep immediately:** KOYOMI caught a real **CALENDAR↔CATALYSTS.tsv divergence** — CALENDAR was missing 6–7 forward events the TSV already had (FOMC Jun 17, US CPI Jun 10, both JGB auctions, GDP revision Jun 8, National May CPI Jun 19, Tokyo June CPI Jun 26). She reconciled CALENDAR up to the TSV, then surfaced 3 design questions instead of guessing. Will decided all 3.
+
+**Three decisions encoded into `docket/KOYOMI.md`:**
+1. **TRUTH MODEL (split ownership)** — new spec section. `CATALYSTS.tsv` = source-of-truth for the dated-event SET (which events, dates, priority); `CALENDAR.md` = source-of-truth for narrative/routing/threshold prose; **neither carries live spot.** Resolves the "which file wins" ambiguity that made KOYOMI second-guess.
+2. **Prune by the >1-week retention rule, not on sight** — codified in JOB step 1. A resolved event leaves the *forward* views when its date passes but stays in RECENTLY RESOLVED until >1 week old. (KOYOMI's own round-1 instinct; my spawn-prompt instruction to prune May 26 early was wrong — she correctly held it.)
+3. **Strip live spot from CALENDAR** — executed by KOYOMI round 2.
+
+**New file — `docket/RELEASES.md`:** recurring-releases reference. Cadence rules (CFTC=Fri/data-as-of-Tue, Tokyo CPI=last Fri, GDP 2nd prelim=~3wk after 1st, BOJ/FOMC/JGB-auction cadence) + official schedule links (ESRI, MIC, BOJ, MOF, CFTC, Fed, BLS) + a "Confirmed dates" scratchpad. Now KOYOMI's first stop for date verification (WebSearch only if this can't resolve). Holds **schedules only — no analysis, no live data.**
+
+**`KOYOMI.md` spec changes:** added TRUTH MODEL section; read-set expanded to include RELEASES.md + both docket files (they were listed only under write-set); JOB step 1 (prune rule) + step 3 (no spot refresh) rewritten; granted a narrow write-set exception (append-only to the RELEASES.md "Confirmed dates" table when a date is verified at source).
+
+**`docket/CALENDAR.md` — spot stripped (KOYOMI):** removed all live levels from INTERVENTION WATCH, PHASE 2 WATCH, STRUCTURAL CHANNEL 1 MONITORS, GEOPOLITICAL WATCH, and the May 29 CFTC / Jun 10 JGB auction rows — kept structural thresholds + significance, replaced bare-level cells with "see STATUS". **Historical levels in RECENTLY RESOLVED left intact** — they're resolved-event *outcome records* (what printed), not live monitors duplicating STATUS, and age out under the 1-week rule. SAM-confirmed convention: the strip rule applies to forward monitors, not outcome records.
+
+**Jun 8 GDP date:** web-verified cadence-consistent (Q1 1st prelim May 19 + ~3wk → Mon Jun 8); logged ⚠️ in RELEASES.md pending ESRI schedule confirmation. Row kept in CALENDAR + TSV, noted "(date cadence-derived; confirm at ESRI)".
+
+**Git:** SAM stages all docket changes (KOYOMI does not commit, per agent-git-isolation). **Boot-impact:** none — `catalyst_countdown.py` runs clean; CALENDAR is slimmer (one less divergence surface, no daily spot treadmill). **Eval note:** today's CLAUDE.md SPAWN PROTOCOL change (docket path + KOYOMI step 10) is a standing eval re-baseline trigger — flagged to Will.
+
+---
+
+## 2026-05-28 (AM) — new `docket/` folder + KOYOMI sub-steward (delegation prototype)
 
 Created `AGENTS/SAM/docket/` to co-locate the forward-calendar layer and give a future maintenance sub-agent a single, enforceable ownership boundary. Outcome of a design conversation with Will: SAM stays sole orchestrator + analyst; bounded *busy-work* (calendar/catalyst upkeep) gets delegated to an ephemeral, SAM-internal sub-steward so SAM's context stays free for judgment.
 
