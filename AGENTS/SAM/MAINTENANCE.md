@@ -8,7 +8,7 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
-## 2026-05-28 (later) — workbook CATALYSTS.tsv refresh (deferred-pass item #1 resolved: KEEP, not retire)
+## 2026-05-28 (later) — CATALYSTS.tsv refresh + live-search additions + countdown holiday-skip (deferred-pass #1: KEEP, not retire)
 
 Resolved the first deferred next-pass item from the KB cleanup entry below. The deferred note read "CATALYSTS.tsv retire (dup of CALENDAR)" — **corrected after gap-check: the file is not a free delete.** `scripts/catalyst_countdown.py` (runs at boot) READS CATALYSTS.tsv as its structured countdown feed. CALENDAR.md's dates are freeform ("Thu-Fri May 28-29", "🔴🔴 Tue Jun 16", "Early Jun", "Ongoing" triggers) and can't be parsed reliably into the strict `%Y-%m-%d` the script needs. Re-plumbing the script to read CALENDAR is fragile/intrusive.
 
@@ -16,6 +16,10 @@ Resolved the first deferred next-pass item from the KB cleanup entry below. The 
 
 - Rewrote forward-only: dropped 6 resolved May events; refreshed to current v1.5 forward set — Tokyo May CPI (5/29), CFTC weekly (5/29), BOJ MPM base case (6/16, SAM-21 ~57% / market 55-65%, SAM-24 25bp @85%), Sato board (6/16), BOJ interim QT (6/16), May trade balance Phase 1 lag-test (6/18). who_cares + threshold_signal columns synced to current routing.
 - Verified `catalyst_countdown.py` runs clean against refreshed file: imminent Tokyo CPI + CFTC (1 trd), upcoming Jun 16 cluster + Jun 18 TB. Boot-impact: none (positive — countdown was previously showing only stale Jun 16 with wrong probabilities).
+
+**Live-search catalyst additions (Will-approved):** ran web research (MOF / Fed / BLS / Stats Bureau / Cabinet Office) for missing forward catalysts; added 7 rows, all dates verified at source. **FOMC Jun 17 (🔴)** — the rate-differential half of the carry trade, was absent (file tracked only the BOJ side); lands 24h after BOJ Jun 16 and now co-headlines the HIGH-PRIORITY summary. Also: US CPI May (Jun 10, 🟠, feeds FOMC dots); JGB 30Y auction (Jun 10, 🟠, direct J-ICS long-end / SAM-26 demand test); Japan Q1 GDP 2nd est (Jun 8, 🟡); JGB 20Y auction (Jun 25, 🟡); National May CPI (Jun 19, 🟡 — verified off Stats Bureau raw table, NOT Jun 26); Tokyo June CPI (Jun 26, 🟡). File now 13 forward events, date-sorted.
+
+**Script fix — catalyst_countdown.py holiday-skip:** `trading_days_between` previously counted all weekdays; now skips a HOLIDAYS frozenset (Japan national holidays + US market holidays, 2026). Market-agnostic union (errs ~1 day toward "more urgent" near a single-market holiday — documented in-code). Verified: Jun 18→Jun 25 now 4 trd not 5 (skips Juneteenth); July 4 week skips correctly. Extend the set each calendar year.
 
 **Anti-drift recommendation (NOT yet done — needs Will sign-off):** tie CATALYSTS.tsv refresh to CALENDAR.md maintenance so it can't drift again — either (a) add a one-line reminder to CLAUDE.md write-back step 10 ("update CALENDAR.md → also refresh workbook/CATALYSTS.tsv dates for catalyst_countdown.py"), or (b) leave as-is and refresh CATALYSTS opportunistically at boot when stale. Also: CLAUDE.md FILES table (line ~233) inaccurately lists CATALYSTS among tsvs "auto-pulled by boot.py" — it is hand-maintained and READ by boot, not written. Flag for the CLAUDE.md pass.
 

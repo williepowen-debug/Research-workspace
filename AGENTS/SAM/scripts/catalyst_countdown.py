@@ -18,6 +18,22 @@ CATALYSTS_TSV = SAM_DIR / "workbook" / "CATALYSTS.tsv"
 
 DEFAULT_HORIZON = 45  # days to look ahead
 
+# Market holidays excluded from trading-day countdowns (in addition to weekends).
+# Union of Japan national holidays + US market holidays. The counter is
+# market-agnostic, so near a holiday that closes only one market the countdown to
+# an event in the OTHER market can read ~1 day sooner than reality — acceptable for
+# an alerting tool (errs toward "more urgent"). Extend each calendar year.
+HOLIDAYS = frozenset({
+    # Japan 2026 (national holidays + substitute days)
+    "2026-01-01", "2026-01-12", "2026-02-11", "2026-02-23", "2026-03-20",
+    "2026-04-29", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06",
+    "2026-07-20", "2026-08-11", "2026-09-21", "2026-09-22", "2026-09-23",
+    "2026-10-12", "2026-11-03", "2026-11-23",
+    # US market 2026 (NYSE / federal)
+    "2026-01-19", "2026-02-16", "2026-04-03", "2026-05-25",
+    "2026-06-19", "2026-07-03", "2026-09-07", "2026-11-26", "2026-12-25",
+})
+
 
 def load_catalysts():
     """Read CATALYSTS.tsv and return list of dicts."""
@@ -37,13 +53,13 @@ def load_catalysts():
 
 
 def trading_days_between(start_date, end_date):
-    """Count weekdays between two dates, exclusive of start, inclusive of end."""
+    """Count weekdays excluding market holidays, exclusive of start, inclusive of end."""
     if end_date <= start_date:
         return 0
     days = 0
     current = start_date + timedelta(days=1)
     while current <= end_date:
-        if current.weekday() < 5:
+        if current.weekday() < 5 and current.isoformat() not in HOLIDAYS:
             days += 1
         current += timedelta(days=1)
     return days
