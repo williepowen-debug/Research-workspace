@@ -8,6 +8,22 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
+## 2026-05-28 (PM, live session #2) — workbook FLOW.tsv refresh-split (v1.5 consistency)
+
+Second-pass workbook cleanup, triggered by Will's "get the workbook caught up" review. FLOW.tsv (14 transmission-flow vectors) was ~7 weeks stale (last touched Mar 4 – Apr 7) and actively **contradicted v1.5** — most dangerously logging carry-unwind probs at 80/95/95 (vs current 12/62/80) and Channel 1 as "CRITICAL-CONFIRMED, $10-15B/mo selling active NOW" (v1.5 demoted Channel 1 to deferred after 3-of-3 benign Big 3 ESR prints). Pre-step confirmed **no script reads FLOW.tsv** (boot.py only auto-pulls data feeds) — edit is boot-safe. Mirrors the May-28 KB.tsv live-vs-archive split pattern.
+
+**Split 14 rows → 10 live (`FLOW.tsv`) + 4 archived (new `workbook/FLOW_ARCHIVE.tsv`).**
+
+- **Archived (resolved point-in-time telemetry):** `5.03` Path D (Apr 23-24/May 1 BOJ hike window — resolved by Apr 28 hold), `6.01` Energy→JGB Supply (March QatarEnergy/LNG crisis — abated), `6.03` War Escalation (Apr-7 8pm Hormuz deadline — passed, Brent $110→$92), `7.01` Taiwan LNG→TSMC (Mar-15 inflection — passed, cross-domain non-core). Each preserved verbatim with a `[RESOLVED YYYY-MM-DD: …]` prefix in Key Insight + Status → `ARCHIVED (was …)`.
+- **Refreshed to v1.5 (5 live vectors):** `5.02` Carry Unwind (probs 80/95/95→12/62/80; CFTC -72.9K→-93,905; USDJPY→159.21; repointed to Jun 16 single-path); `2.03` J-SOLV (CRITICAL-CONFIRMED→DEFERRED; 3-of-3 benign ESR, foreign books growing; J-ICS long-end leg kept INTACT); `5.01` Floating Mortgage (repointed to Jun 16 collision); `3.01` CLO/Norinchukin (flagged Jun FY2025 print as the data-refresh gate; Apr-7 figures marked PENDING REFRESH); `1.06` Fiscal Doom Loop (re-pointed from stale "Feb 19 20Y auction" to current super-long auction softness + Jun 16).
+- **Reaffirmed (5 structural, date-touch + "(Reaffirmed 2026-05-28, v1.5)" tag):** `1.05` Rural Political, `3.02` Desperation Swap, `3.03` Private Market Contagion, `4.01` BDC Latent, `6.02` USD-vs-Yen Safe-Haven (spot refreshed to 159.21).
+
+**Files:** `workbook/FLOW.tsv` (14→10 rows, all v1.5-consistent); `workbook/FLOW_ARCHIVE.tsv` (new, 4 rows, same 10-col schema). Both verified 10-col clean. **Boot-impact: none.** **FILES-table note:** CLAUDE.md line ~236 lists FLOW under hand-maintained workbook tsvs — add FLOW_ARCHIVE alongside it on the next CLAUDE.md pass.
+
+**Deferred workbook passes remaining (unchanged):** VX.tsv keep-vs-retire (decide-after-review pending); KB.tsv 4 SUPERSEDED rows → KB_ARCHIVE + v1.5 consistency scan; archive/ scaffolding cleanup (KB_STAGING_*, KB_BACKUP_10rows, ML.tsv + VX_HISTORY.tsv, SAM_WORKBOOK.xlsx).
+
+---
+
 ## 2026-05-28 (PM, live session) — KOYOMI first run + `RELEASES.md` + spec hardening (prototype validated)
 
 Operationalized the KOYOMI prototype created earlier today (entry below). Will spawned KOYOMI for the first time as a **named/persistent teammate** for a shakedown run. Outcome: prototype validated — Will likes the pattern; KOYOMI is now operational.
