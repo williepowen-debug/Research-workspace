@@ -157,7 +157,7 @@ CFTC net short JPY still BUILDING (not covering) — May 1 release (Apr 28 data)
 | Jun 16 | Sato joins BOJ board (hawk→dove swap) | Medium-term political risk post-June (beyond 1.00% gets harder) |
 | Jun 18-19 | May trade balance — Phase 1 stability lag-test | Volume recovery vs cost-side decomposition (per CALENDAR routing) |
 
-*Operational forward calendar (with current status, daily tracking) lives in `CALENDAR.md`.*
+*Operational forward calendar (with current status, daily tracking) lives in `docket/CALENDAR.md`.*
 
 ---
 

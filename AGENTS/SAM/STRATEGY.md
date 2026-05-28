@@ -199,7 +199,7 @@ The only loss scenario: oil spikes AND BOJ blocked AND Fed doesn't cut AND inter
 | `thesis/THESIS.md` | Structural thesis, 3 channels, conviction |
 | `research/outputs/VOL_OPTIONS_FRAMEWORK.md` | Full technical vol/options interpretation framework |
 | `STATUS.md` | Current market data, probabilities |
-| `CALENDAR.md` | Upcoming catalysts and signal thresholds |
+| `docket/CALENDAR.md` | Upcoming catalysts and signal thresholds |
 
 ---
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 SAM Catalyst Countdown
-Reads workbook/CATALYSTS.tsv and shows trading-day countdown to each event.
+Reads docket/CATALYSTS.tsv and shows trading-day countdown to each event.
 Flags anything within 5 trading days. Highlights 🔴 priority events within 30 days.
 
 Usage:
@@ -14,7 +14,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 
 SAM_DIR = Path(__file__).resolve().parent.parent
-CATALYSTS_TSV = SAM_DIR / "workbook" / "CATALYSTS.tsv"
+CATALYSTS_TSV = SAM_DIR / "docket" / "CATALYSTS.tsv"
 
 DEFAULT_HORIZON = 45  # days to look ahead
 

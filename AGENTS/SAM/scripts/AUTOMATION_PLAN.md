@@ -94,7 +94,7 @@ Highest ratio of value to effort. Direct REGINALD ports to SAM thresholds/data.
 | # | Script | Purpose |
 |---|--------|---------|
 | 1 | `thresholds.py` | USDJPY 160/155/147/145/130, JGB 10Y 2.40%, JGB 30Y 4.0%, Brent $120/$90, FXY $55.05 stop + $60-62 target. Prints breaches + 5% near-misses. Reads prices from FORGE cache or calls `fetch.py`. |
-| 2 | `catalyst_countdown.py` | Reads from `workbook/CATALYSTS.tsv` (new — migrated from CALENDAR.md). Auto-flags anything within 5 trading days. BOJ/auctions/TIC/CPI/ceasefire. |
+| 2 | `catalyst_countdown.py` | Reads from `docket/CATALYSTS.tsv` (moved from workbook/ 2026-05-28). Auto-flags anything within 5 trading days. BOJ/auctions/TIC/CPI/ceasefire. |
 | 3 | `fxy_options.py` | FXY chain next 4 expiries. Put/call OI aggregates, top 5 strikes each side. Flags OI building at $58-65 thesis zone. Appends `workbook/FXY_OPTIONS.tsv`. |
 
 **Test each individually, commit each after verification.**
