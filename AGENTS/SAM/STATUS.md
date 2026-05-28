@@ -37,6 +37,8 @@
 | MOF intervention total | ~¥10T ($63.5B) Apr 30 + May 6 | BoJ/BofA | 🔴 LARGEST SINCE 2022; no new this week |
 | Insurer hedge ratio | 44.4% (Mar 2025) | (14yr low) | 🔴🔴 |
 | FXY P/C ratio | 0.06x | May 28 boot.py | 🟢 Call-heavy (bullish) |
+| FXY ATM IV (CVOL proxy) | **8.01%** (~21d, Jun-18) | May 28 fxy_options.py | 🟢 carry-grind — no imminent shock priced on the *level* |
+| FXY 25d RR (USDJPY-conv) | **−5.76** | May 28 fxy_options.py | ↓ steep FXY call skew = yen-strength convexity bid (thesis-side). ⚠️ proxy scale ≠ OTC RR — read sign/trend, not absolute. Liquid expiries (Jun/Sep/Dec) all −5.5 to −6. |
 | Japan April CPI | core 1.4 / core-core 1.9 | MIC May 22 | 🟠 soft band; energy/subsidy-driven (BOJ can look through). SAM-27 CONFIRMED. **Tokyo May print TOMORROW.** |
 
 *Boot.py 14.1s, 9/9 green.*
