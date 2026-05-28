@@ -8,6 +8,49 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
+## 2026-05-27 evening — v1.5 propagation sweep (STRATEGY, TRADE, TRACKER, RED, all 7 insurer profiles)
+
+Same-day evening follow-up to the morning v1.5 thesis bump. Will flagged STRATEGY.md + TRADE.md as likely stale; I confirmed and asked to expand to a full doc-stack audit. Outcome: 12 docs refreshed across decision layer, RED counter-thesis layer, and per-insurer reference layer. Triage discipline: ranked by behavioral impact per [[feedback_audit_behavioral_ranking]] before touching files.
+
+**Triggering trail:** Morning STATUS+THESIS+CHANGELOG resolved Position A (Sep $60 OTM) as NOT WARRANTED under v1.5 single-path. But STRATEGY.md + TRADE.md still presented full entry rules + ranked entry windows for the same Position A — a behaviorally-active contradiction (future SAM or Will reading those would get conflicting guidance from STATUS vs decision docs). The Sep-$60-NOT-WARRANTED reframe is the load-bearing edit that drove the whole sweep.
+
+**Files touched (12 total):**
+
+1. **`STRATEGY.md`** — v1.4 → v1.5; Stage 3 reframed multi-channel → single-path; hard trigger table refreshed (SAM-21 70%→~57%, ESR row ✅ resolved 3-of-3 benign, JGB 30Y retracement noted, Channel 3 dormant); **Position A flipped AUTHORIZED → NOT WARRANTED** with 4 explicit re-activation conditions; When-to-HOLD refreshed; Key Check Dates pruned forward-only; new CHANGELOG entry. Live data references redirected to STATUS.md.
+
+2. **`TRADE.md`** — header v1.5; Tranche 2 Hard-Trigger Status table SAM-21 + ESR row + Channel-3-dormant + JGB-30Y-retracement; Position A NOT WARRANTED with re-activation conditions; Carry Unwind Probability synced to v1.5 (12/62/80); Risk Factors restructured (BOJ-delay 10%→25% single-path elevation; oil 20%→15%; intervention-fails 15%→12%; new Channel-1-reactivation row at 10%); "Bigger Hike" section anchored to SAM-24 @85%; Watchlist EWJ + Japan Banks SAM-21 refs; Key Dates pruned forward-only; Catalyst Sequence collapsed to TIMELINE pointer.
+
+3. **`insurers/TRACKER.md`** — header 5/26 PM → 5/27 v1.5; Channel 1 banner "🟡 DOWNGRADED, NOT DEAD (Day 1)" → "🟡 DEFERRED STRUCTURAL BACKSTOP (3-of-3 confirmed)" with 5 explicit reactivation conditions; Sumitomo row in ESR table fully populated (197% ↑+19pt, foreign book +¥1.11T detail, Symetra/Dearborn); "Reading the Big 3 mutual prints" closed out as 3-of-3 RESOLVED with v1.5 signature table (insurer × ESR × mechanism × foreign book × US direction); "Wed Sumitomo pattern-confirmation test" section retired; Industry aggregates JGB row updated (30Y 3.866% / 40Y 3.836% / 10Y 2.713%); "What we're waiting for" pruned + added H2 FY2026 plans as next structural re-test; Key Dates Sumitomo ✅; Phase 2 inception extended to May 27 with Brent $93.13 + MOU framework hardening.
+
+4. **`red/COUNTER_THESIS.md`** — full rewrite v1.0 → v1.5. New one-liner: single-path narrowing = thinner not stronger; June BOJ is most-priced event of cycle. Explicit calibration credit for CH-002 (FY2025 net buying) and CH-003 (intervention spike-and-reverse) wins driving v1.5 demotion. New narrative builds on threshold-vs-mechanism trap potentially repeating on Channel 2 (BOJ stress absorbed via targeted long-end op, not rate hike). "What world looks like if I'm right" / "What would prove me wrong" re-spec'd for v1.5. Explicit "what I'm NOT challenging" section preserves [[feedback_red_edge]] discipline. v1.0 counter-thesis archived below for historical record.
+
+5. **`red/CHALLENGES.md`** — full rewrite. Resolved CH-002 + CH-003 (CONFIRMED) and CH-006 (DISMISSED) removed and logged. Retargeted CH-001 (severity 🟠→🟡 under v1.5 — Channel 1 demoted), CH-004 (severity 🟠→🟡 — lower probabilities, less false-precision risk), CH-005 (unchanged under v1.5), CH-007 (severity 🟡→🟠 — single-path makes consensus risk worse). **NEW CH-008 — Fiscal-Dominance Frame (BOJ Frozen, Not Hike-Ready) from eval Case 02 baseline runner; resolves Jun 16.** This formalizes the v1.5.x candidate finding logged in morning MEMORY into an active RED challenge with counter-evidence and resolution criteria.
+
+6. **`red/LOG.md`** — new calibration scoreboard at top (2 CONFIRMED, 1 DISMISSED, 4 RETARGETED, 1 NEW). 5/27 resolution rows for CH-002, CH-003 (CONFIRMED) and CH-006 (DISMISSED) with full evidence trails. Retarget rows for CH-001 / CH-004 / CH-005 / CH-007 with v1.5 reasoning. New CH-008 entry. Original 3/31 rows preserved with cross-references — full audit trail intact. Major calibration call surfaced: **RED's CH-002 (FY2025 was net buying) was correct in substance 8 weeks before v1.5 demotion landed** — durable evidence that RED earns its keep.
+
+7-13. **`insurers/<7 profiles>.md`** — all 7 refreshed under v1.5 (decision point in CLAUDE.md "retire-vs-refresh deferred post-Sumitomo" resolved as REFRESH after Will pushed back on the retire recommendation):
+   - **nippon-life.md** — FY2025 ESR 195% section with Resolution Life decomposition; canonical threshold-vs-mechanism trap example; Stancorp attribution error fixed (Stancorp is Meiji's, not Nippon's)
+   - **meiji-yasuda.md** — FY2025 ESR 208% manageable; pre-FY2025 "ESR NOT DISCLOSED red flag" resolved; cleanest base-case datapoint of Big 3
+   - **sumitomo.md** — FY2025 ESR 197% ↑+19pt with full asset-composition table (foreign book +¥1.11T); Symetra/Dearborn detail; explicit cross-ref to RED CH-002 confirmation; most narrative-rich of the three
+   - **dai-ichi.md** — FY2025 ESR ~220% +10pp equity-rally-driven; framed as least-representative of Big 4 / US-PC-stress amplifier via Canyon Partners
+   - **norinchukin.md** — positioned as standalone independent Channel 1 reactivation gate (Jun FY2025); CEO Kitabayashi public risk-off concern preserved; ¥500B Q1 "fastest on record" decline
+   - **fukoku.md** — first-mover historical-marker; J-ICS DOMESTIC mechanism precedent case (preserved in v1.5)
+   - **japan-post.md** — clean-read JGB seller (zero PC); CEO Sahara Mar-3 directional-right / timing-wrong (April expectation missed); v1.5 sentiment confirmation for BOJ hike thesis
+
+**Pattern preserved across all 7 profile refreshes:** durable per-insurer narrative (executive quotes with attribution, specific deal commitments by amount/counterparty, source attributions, historical trajectory) kept intact. The refresh added FY2025 ESR data + v1.5 framing on top, didn't strip the depth layer. Per Will's pushback: "TRACKER's table form can't hold executive quotes / PC deal specifics / source attributions" — refresh-not-retire was the right call.
+
+**Net behavioral fix:**
+- Position A NOT WARRANTED resolution now coherent across STATUS, STRATEGY, TRADE (was split before this sweep)
+- RED has a functional counter-thesis targeting v1.5 again (was targeting v1.0, useless for v1.5 single-path decisions)
+- Per-insurer reference layer + TRACKER aggregator layer now both reflect 3-of-3 Big 3 ESR window resolution
+- Future SAM boots will load consistent v1.5 framing across all 12 docs
+
+**Boot impact:** None directly — STRATEGY/TRADE not in boot sequence; TRACKER not in boot sequence; RED not in boot sequence; per-insurer profiles not in boot sequence. All are reference docs read on demand. Boot.py + boot docs (THESIS, STATUS, CALENDAR, TIMELINE, MEMORY) untouched.
+
+**Cross-session lesson promoted to auto-memory:** `finding_refresh_not_retire_perentity_profiles.md` — when a thesis bump leaves per-entity profiles stale, refresh-with-trajectory-preservation beats archive-and-rely-on-aggregator. Aggregator files (TRACKER-style table) cannot hold executive quotes / source attributions / deal specifics / historical trajectory. Transferable to CARL (per-bank profiles?), REGINALD (per-name?), HENRY (per-vol-product?), BROCK (per-spread-pair?), HAWK (per-belligerent?).
+
+---
+
 ## 2026-05-27 afternoon — eval suite v1 → v1.1 (split-file redesign after baseline contamination)
 
 Same-day follow-up to the v1 scaffold below. Will ran the baseline against v1 single-file cases and reported both responses showed near-verbatim phrase echo from EXPECTED criteria. Diagnosed by a sister model (Prome / external session) and confirmed: v1 design had INPUT + EXPECTED + DO-NOT in a single file, README told operator to paste only the INPUT block, but file-design discipline is stronger than operator-instruction discipline. Will pasted the whole file (or selection scrolled past rubric), and rubric language leaked into the runner's prompt.
