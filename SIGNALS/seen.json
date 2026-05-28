@@ -473,5 +473,20 @@
     "first_seen": "2026-05-27T23:06:43.729392+00:00",
     "title": "The United States is a major energy exporter and importer, especially for petroleum",
     "feed": "EIA Today in Energy"
+  },
+  "ea2577be8bd8158e": {
+    "first_seen": "2026-05-28T12:59:31.802393+00:00",
+    "title": "6-K - AEGON LTD. (0000769218) (Filer)",
+    "feed": "SEC EDGAR Filings"
+  },
+  "3d2d85bf632b7f39": {
+    "first_seen": "2026-05-28T12:59:31.802402+00:00",
+    "title": "8-K - Seagate Technology Holdings plc (0001137789) (Filer)",
+    "feed": "SEC EDGAR Filings"
+  },
+  "3f559d1fe9ee1376": {
+    "first_seen": "2026-05-28T12:59:31.802407+00:00",
+    "title": "8-K - Ondas Inc. (0001646188) (Filer)",
+    "feed": "SEC EDGAR Filings"
   }
 }
