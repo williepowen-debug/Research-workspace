@@ -553,15 +553,20 @@ def main():
         print(f"  (proxy: FXY ETF options ≠ CME CVOL / OTC RR — compare to own history)")
 
         # --- Self-calibration: read RR against its OWN trailing history ----------
-        cal = calibrate_rr(date_str, rr)
-        if cal["state"] == "building":
-            remaining = cal["need"] - cal["n"]
-            print(f"  Self-cal:              building history ({cal['n']}/{cal['need']}) — "
-                  f"{remaining} more reading(s) until z-score activates")
-        elif cal["state"] == "calibrated":
-            print(f"  Self-cal ({cal['n']} priors, mean {cal['mean']:+.2f}, σ {cal['sd']:.2f}):  "
-                  f"z={cal['z']:+.2f}  (Δ {cal['delta']:+.2f} vs norm)")
-            print(f"     {cal['interp']}")
+        # Wrapped fail-safe: this script is 1 of 9 in the boot sweep — the self-cal
+        # read must NEVER break the brief if the TSV history is malformed.
+        try:
+            cal = calibrate_rr(date_str, rr)
+            if cal["state"] == "building":
+                remaining = cal["need"] - cal["n"]
+                print(f"  Self-cal:              building history ({cal['n']}/{cal['need']}) — "
+                      f"{remaining} more reading(s) until z-score activates")
+            elif cal["state"] == "calibrated":
+                print(f"  Self-cal ({cal['n']} priors, mean {cal['mean']:+.2f}, σ {cal['sd']:.2f}):  "
+                      f"z={cal['z']:+.2f}  (Δ {cal['delta']:+.2f} vs norm)")
+                print(f"     {cal['interp']}")
+        except Exception:
+            pass  # self-cal is a read-only enhancement; never let it break the sweep
 
     # Per-expiry
     print(f"\n  {'PER EXPIRY'}")
