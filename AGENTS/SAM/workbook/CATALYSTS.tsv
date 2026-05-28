@@ -1,9 +1,7 @@
 date	event	what_to_check	threshold_signal	priority	who_cares	notes
-2026-04-30	2Y JGB auction	BTC ratio	Routine (BOJ-driven)	🟡	-
-2026-05-01	BOJ MPM meeting — secondary (low info)	Language evolution from Apr 28	Lower info; Ueda one-pager	🟡	ALL	Apr 28 resolved hawkish hold; May 1 is repeat read
-2026-05-14	Japan Q1 GDP prelim	Growth vs contraction	Contraction = EWJ trigger; first post-war quarter	🟠	SAM,HENRY	BOJ already cut FY26 to 0.5%
-2026-05-15	FY2025 ESR disclosures begin	First mark-to-market regime	ESR <200% = danger zone; primary Channel 1 test	🔴	LIQUID,PROME	FY2025 ended Mar 31 — financials start releasing mid-May
-2026-05-20	April trade balance (first post-blockade)	Deficit size	Brent $111 makes hot — Phase 1 mechanism re-test	🟠	SAM	March was ¥+667B surplus; April is true post-blockade test
-2026-05-22	Japan April CPI print	Core CPI, reflects oil passthrough	Upward surprise = June hike locked	🟠	PROME	Oil-in-yen feedthrough
-2026-06-16	BOJ MPM meeting — BASE CASE HIKE	Rate decision, Outlook Report	Hike to 1.00% = structural FXY +5-8%	🔴	ALL	SAM-21 70%; market swap 74% post Apr 28 dissent split
-2026-06-16	Sato joins BOJ board (hawk→dove swap)	Board composition	Medium-term political risk (post-June)	🟡	SAM	Takaichi's 2nd dovish appointment
+2026-05-29	Tokyo May CPI	Core / core-core trend; Tokyo-vs-National gap	core-core <1.9% → June BOJ pricing breaks lower from 55-65% (v1.5 single-path impairs)	🟠	SAM,HENRY	Leading indicator for June national. cpi_japan.py auto-pulls. Release Fri ~8:30 JST (Thu eve ET).
+2026-05-29	CFTC JPY weekly (May 22 data)	Net short level vs -102K cycle peak	break above -102K = NEW cycle peak fuel load (currently -93,905)	🟠	SAM,HENRY	3rd straight build week, 92% of cycle peak. cftc_jpy.py auto-pulls.
+2026-06-16	BOJ MPM — BASE CASE HIKE	Rate decision + Outlook Report + QT assessment	Hike to 1.00% = structural FXY +5-8%; carry unwind fires	🔴	ALL	DOMINANT REMAINING CATALYST under v1.5 single-path. SAM-21 ~57% / market 55-65%; SAM-24 25bp @85%.
+2026-06-16	Sato joins BOJ board (hawk→dove swap)	Board composition	Medium-term political risk (post-June; beyond 1.00% gets harder)	🟡	SAM	Takaichi's 2nd dovish appointment.
+2026-06-16	BOJ interim QT assessment	Pace adjustment / super-long-specific op	Potential super-long op if JGB stress re-engages	🟡	SAM,LIQUID	¥2.5T/mo purchases, ¥200B/qtr taper. Jun 16-17 window.
+2026-06-18	May trade balance — Phase 1 stability lag-test	Volume recovery vs cost-side; did ME crude flows normalize?	deficit re-opens w/ Brent <$100 → Phase 1 back online; surplus + ME volumes recovering → structural inversion	🟠	SAM,BRENT,HAWK	PROME 5/26 forward-question. Jun 18-19 window. Mechanism-aware routing in CALENDAR.

@@ -8,6 +8,21 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
+## 2026-05-28 (later) — workbook CATALYSTS.tsv refresh (deferred-pass item #1 resolved: KEEP, not retire)
+
+Resolved the first deferred next-pass item from the KB cleanup entry below. The deferred note read "CATALYSTS.tsv retire (dup of CALENDAR)" — **corrected after gap-check: the file is not a free delete.** `scripts/catalyst_countdown.py` (runs at boot) READS CATALYSTS.tsv as its structured countdown feed. CALENDAR.md's dates are freeform ("Thu-Fri May 28-29", "🔴🔴 Tue Jun 16", "Early Jun", "Ongoing" triggers) and can't be parsed reliably into the strict `%Y-%m-%d` the script needs. Re-plumbing the script to read CALENDAR is fragile/intrusive.
+
+**Decision: KEEP CATALYSTS.tsv as the machine-readable forward-event feed; CALENDAR.md remains the human-readable narrative/routing doc.** Different consumers. The root problem was drift (hand-maintained, ~6 weeks stale — still listed resolved May 1/14/15/20/22 events, Jun 16 BOJ row stale at SAM-21 70% / swap 74%), not duplication per se.
+
+- Rewrote forward-only: dropped 6 resolved May events; refreshed to current v1.5 forward set — Tokyo May CPI (5/29), CFTC weekly (5/29), BOJ MPM base case (6/16, SAM-21 ~57% / market 55-65%, SAM-24 25bp @85%), Sato board (6/16), BOJ interim QT (6/16), May trade balance Phase 1 lag-test (6/18). who_cares + threshold_signal columns synced to current routing.
+- Verified `catalyst_countdown.py` runs clean against refreshed file: imminent Tokyo CPI + CFTC (1 trd), upcoming Jun 16 cluster + Jun 18 TB. Boot-impact: none (positive — countdown was previously showing only stale Jun 16 with wrong probabilities).
+
+**Anti-drift recommendation (NOT yet done — needs Will sign-off):** tie CATALYSTS.tsv refresh to CALENDAR.md maintenance so it can't drift again — either (a) add a one-line reminder to CLAUDE.md write-back step 10 ("update CALENDAR.md → also refresh workbook/CATALYSTS.tsv dates for catalyst_countdown.py"), or (b) leave as-is and refresh CATALYSTS opportunistically at boot when stale. Also: CLAUDE.md FILES table (line ~233) inaccurately lists CATALYSTS among tsvs "auto-pulled by boot.py" — it is hand-maintained and READ by boot, not written. Flag for the CLAUDE.md pass.
+
+**Remaining deferred workbook passes:** VX.tsv keep-vs-retire (STATUS dup; ~6wk stale); FLOW.tsv refresh-vs-archive (Feb-Apr war/LNG content); archive/ scaffolding cleanup (KB_STAGING_*, KB_BACKUP_10rows, ML.tsv + VX_HISTORY.tsv merge, SAM_WORKBOOK.xlsx).
+
+---
+
 ## 2026-05-28 — workbook KB.tsv cleanup: split + recategorize + internal backfill
 
 Two-batch cleanup of `workbook/KB.tsv` (was 167 rows, frozen at 2026-04-07). Triggered by Will's workbook-staleness review. Pre-step verified **no script reads KB.tsv** (boot.py only auto-pulls the data feeds) — schema change is boot-safe.
