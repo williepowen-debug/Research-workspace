@@ -8,6 +8,40 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
+## 2026-05-28 (PM, live session #4) — KB.tsv superseded-row move + v1.5 scan + archive/ graveyard cleanup
+
+Closed out the workbook audit (Will's "finish the workbook"). Three parts:
+
+**1. Moved 4 SUPERSEDED rows KB.tsv → KB_ARCHIVE.tsv** (KB 123→119 lines; ARCHIVE 52→56). Rows already carried v1.5 supersession notes: `081` Nippon repatriation-risk, `084` Meiji ESR-non-disclosure, `087` Meiji UST/3-6mo-timeline, `092` Sumitomo sell-at-159 mean-reversion. All boot-safe (no script reads KB).
+
+**2. v1.5 consistency scan (LIVE rows):** verdict — KB is in good shape; v1.5 was already well-propagated in the earlier 2026-05-28 KB cleanup (the `KB-172` synthesis row + numerous `RECONCILED 2026-05-28` notes). Two unambiguous data-staleness refreshes applied: `KB-127` (Inflection-2 scenario repointed from dead 'April hike' → Jun 16) and `KB-135` (30Y-10Y spread refreshed 131bp Feb-8 → ~117bp May-27). Per-insurer Feb-8 "repatriation risk/timeline" rows (091/095/097/099/101…) carry stale framing but are globally caveated by `KB-172` — individual rewrite folds into the deferred `insurers/<name>.md` retire-vs-refresh decision; NOT touched here.
+
+**3. archive/ graveyard cleanup (Will: trash 5 scaffolding + 2 superseded .md):** verified STAGING content fully integrated (STAGING_B industry data → KB-059/062; STAGING_A SK-refiner → KB_ARCHIVE ×12) before deleting. **Trashed (gio trash) 7 files:** KB_STAGING_A/B(.md + _FORMATTED.tsv), KB_BACKUP_10rows.tsv, FRAMEWORK_IMPLEMENTATION_FEB11.md, INSURER_UST_TRANSMISSION_ANALYSIS.md (superseded by research/outputs/LIFE_INSURER_UST_DEEP_DIVE.md). **Kept as deep archive:** ML.tsv (master session log — only copy), VX_HISTORY.tsv (threshold time-series), SAM_WORKBOOK.xlsx (legacy Excel master).
+
+**Files:** KB.tsv (119 rows), KB_ARCHIVE.tsv (56 rows), 7 archive/ deletions. **Boot-impact: none.**
+
+**Workbook audit COMPLETE** (sessions #2–#4): FLOW refresh-split ✅, VX slim-to-unique ✅, KB superseded-move + scan ✅, archive cleanup ✅. **Remaining deferred (not workbook-hygiene):** vol IV/skew proxy build in fxy_options.py (queued — CME route gated); insurers/<name>.md retire-vs-refresh; CLAUDE.md FILES-table touch-ups (FLOW_ARCHIVE add + VX scope narrow — defer, eval-baseline trigger).
+
+---
+
+## 2026-05-28 (PM, live session #3) — workbook VX.tsv slim-to-unique + CVOL/RR source recon
+
+Third-pass workbook cleanup (Will's "get the workbook caught up" review). VX.tsv was a 37-metric threshold dashboard built Feb–Apr, BEFORE boot.py existed — newest row 45 days stale (Apr 13). Confirmed **no script reads VX.tsv** (grep scripts/ clean) → edit boot-safe. Walkthrough found ~85% of rows were duplicated by sources that post-date VX: auto-pulled feeds (JGB_YIELDS, USDJPY, CFTC_JPY, CPI, FXY_OPTIONS, MOF_FLOWS, JGB_AUCTIONS), STATUS KEY THRESHOLDS, insurers/TRACKER, research docs — and 8 rows actively contradicted v1.5 (insurer "selling", MOF "regime-change" repatriation, war-era PROME scenario probs).
+
+**Decision (Will): slim to unique rows only** — VX repositioned as a small "manual-only metrics not yet auto-pulled" sheet. **37 → 6 rows.**
+
+- **Kept + REFRESHED to current data (3 macro, not auto-pulled):** `8.03` Nominal Wage (Mar 2026 +2.7%, cooled from Feb +3.3% → ORANGE→YELLOW); `8.04` Real Wage (Mar +1.0%, decelerating from +1.9%); `11.02` Trade Balance (Apr 2026 **¥+301.9B surplus**, beat — old oil-shock-deficit Phase-1 framing did NOT materialize; Brent collapsed).
+- **Kept, FLAGGED stale pending build (3 vol):** `12.00` Vol Convergence composite, `12.01` CVOL, `12.03` 25d Risk Reversals — VX's one genuinely-unique contribution (CVOL + RR are not auto-pulled, not in STATUS).
+- **Dropped 31 rows** (no physical archive — duplicates of live auto-pulled series / v1.5-superseded / resolved; full pre-slim original preserved in git at prior commit). `12.02` FXY Call OI dropped — now covered by auto-pulled FXY_OPTIONS.tsv.
+
+**CVOL/RR source recon (Will: "build a pull, recon first"):** No clean free direct source — CME CVOL EOD API is license-gated (~$290/mo sub-vendor, no confirmed free tier); CBOE JYVIX discontinued (Yahoo ^JYVIX = zeros); 25d RR only via paid Refinitiv/Bloomberg/Saxo. **Viable free path identified:** extend existing `fxy_options.py` to compute a 30d ATM-IV proxy (CVOL-equivalent) + 25d skew proxy (call-IV − put-IV = risk-reversal-equivalent) from the FXY options chain it ALREADY fetches via yfinance. Proxy (FXY-ETF options, not USD/JPY OTC) but free/scriptable/zero-auth. **Build decision pending Will** — not yet built.
+
+**Files:** `workbook/VX.tsv` (37→6 rows). **Boot-impact: none.** **FILES-table note:** CLAUDE.md line ~236 VX description should narrow to "manual-only un-scripted metrics (wages, trade balance, vol-signal)" on next CLAUDE.md pass (defer — eval-baseline trigger). **FLOW_ARCHIVE.tsv** add to FILES table also still pending (from session #2).
+
+**Deferred workbook passes remaining:** KB.tsv 4 SUPERSEDED rows → KB_ARCHIVE + v1.5 consistency scan; archive/ scaffolding cleanup (KB_STAGING_*, KB_BACKUP_10rows, ML.tsv + VX_HISTORY.tsv, SAM_WORKBOOK.xlsx). Plus NEW: vol IV/skew proxy build in fxy_options.py (if Will green-lights).
+
+---
+
 ## 2026-05-28 (PM, live session #2) — workbook FLOW.tsv refresh-split (v1.5 consistency)
 
 Second-pass workbook cleanup, triggered by Will's "get the workbook caught up" review. FLOW.tsv (14 transmission-flow vectors) was ~7 weeks stale (last touched Mar 4 – Apr 7) and actively **contradicted v1.5** — most dangerously logging carry-unwind probs at 80/95/95 (vs current 12/62/80) and Channel 1 as "CRITICAL-CONFIRMED, $10-15B/mo selling active NOW" (v1.5 demoted Channel 1 to deferred after 3-of-3 benign Big 3 ESR prints). Pre-step confirmed **no script reads FLOW.tsv** (boot.py only auto-pulls data feeds) — edit is boot-safe. Mirrors the May-28 KB.tsv live-vs-archive split pattern.
