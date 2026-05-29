@@ -8,6 +8,23 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
+## 2026-05-29 (PM) — boot audit re-run + boot.py fetch-timeout fix (CPI/MOF/CFTC)
+
+**Trigger:** Will-requested re-audit of the boot process after the day's doc changes. Two classes of finding — doc staleness (fixed) and a boot.py script-failure root cause (fixed).
+
+**Doc-staleness fixes (cross-doc consistency, same class as the 5/29 AM audit):**
+- `THESIS.md` PREDICTIONS section said "6 FAILED with lessons" — stale after SAM-15 resolution; corrected to **8 FAILED**, added the new failure cluster + a pointer to `PREDICTIONS_ARCHIVE.md`.
+- `CLAUDE.md` didn't know `PREDICTIONS_ARCHIVE.md` existed — added a FILES-table row + a boot-step-6 note (so a future SAM resolving a prediction finds the archive and doesn't re-bloat inline `Notes`). This is the loop-closer that keeps target (b)'s slimming durable.
+
+**boot.py CPI-failure root cause (the "why" Will asked for):** `cpi_japan.py` makes **two** e-Stat calls, each with a **30s** urllib timeout (≈60s worst case), colliding with boot.py's **60s** per-script subprocess ceiling (`run_script`, boot.py:65). On a transiently slow API the script ran up against the ceiling and surfaced as FAIL — even though it's *designed* to fall back to cached TSV. Standalone it's instant/green; only a slow-network boot trips it.
+- **Fix:** lowered urllib timeout **30s→8s** (cpi_japan.py). Worst case ~16s, well under the ceiling; the cached-TSV fallback now runs. **Confirmed by boot.py re-run: Japan CPI OK 2.5s** (was FAIL 57.2s).
+- **Same pattern in two more scripts** surfaced on the re-run (MOF Weekly Flows FAILed at 28.8s): `mof_flows.py` + `cftc_jpy.py` both had 30s single-call timeouts. Lowered **30s→10s** (matches the already-reasonable 15s in jgb_yields/jgb_auctions). NOTE: unlike CPI, MOF/CFTC `return 1` on fetch failure (no cached fallback) — so the 10s fix makes them fail *fast* (honest "couldn't refresh") rather than pass; the cached-fallback design choice (issue 2) was deliberately NOT changed (a loud FAIL on a dead endpoint beats silently showing stale flow data as refreshed).
+- Today's MOF/CFTC FAILs were transient afternoon network flakiness (both green standalone: MOF 1.5s, CFTC 0.2s). `thresholds.py` 33s slowness is yfinance (third-party), left alone.
+
+**Boot-impact: positive** — fetch scripts now fail fast (≤16s) instead of hanging ~30-60s; boot stays within budget and FAILs become honest signals, not timeout artifacts. All three scripts py_compile clean.
+
+---
+
 ## 2026-05-29 (PM) — boot-slimming target (b): PREDICTIONS post-mortems → calibration archive
 
 **Trigger:** continuation of Will's boot-slimming focus (MEMORY NEXT SESSION #2, target (b)). Will chose option (i) — keep a one-line lesson inline per closed row, move blow-by-blow to an archive.

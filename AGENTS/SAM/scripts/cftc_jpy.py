@@ -47,7 +47,10 @@ def fetch_cftc_text():
     """Fetch CFTC deafut.txt content."""
     try:
         req = urllib.request.Request(CFTC_URL, headers=HEADERS)
-        with urllib.request.urlopen(req, timeout=30) as resp:
+        # 10s (not 30s): fail fast on a slow/dead CFTC endpoint rather than
+        # hanging ~30s and eating boot.py's 60s per-script budget. Cached TSV
+        # holds last-known positioning; a FAIL here is an honest "couldn't refresh".
+        with urllib.request.urlopen(req, timeout=10) as resp:
             return resp.read().decode("utf-8", errors="replace")
     except Exception as e:
         print(f"  ERROR fetching CFTC data: {e}")

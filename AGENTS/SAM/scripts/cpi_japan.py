@@ -119,7 +119,10 @@ def fetch_series(area_code, from_month, to_month):
 
     try:
         req = urllib.request.Request(url)
-        with urllib.request.urlopen(req, timeout=30) as resp:
+        # 8s (not 30s): e-Stat normally answers in ~1-2s. Two calls (National +
+        # Tokyo) must finish well under boot.py's 60s per-script ceiling so the
+        # graceful cached-TSV fallback can run when the API is transiently slow.
+        with urllib.request.urlopen(req, timeout=8) as resp:
             data = json.loads(resp.read())
     except urllib.error.URLError as e:
         print(f"  ⚠️  e-Stat fetch failed: {e}")
