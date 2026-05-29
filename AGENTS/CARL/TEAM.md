@@ -1,6 +1,8 @@
 # CARL Sub-Agent Team
 
-**Updated:** 2026-04-17 (PM#3 — POLLY + POP refresh)
+**Updated:** 2026-05-29 (staleness refresh — all 7 monitoring agents now 42+ days stale; catalyst feed moved to `docket/`)
+
+> ⚠️ **All 7 monitoring sub-agents are STALE (last refreshed Apr 9-17, now 42-50d).** A dedicated refresh-burst session is overdue (Sonnet, parallel spawns). **DOC is the priority spawn** — healthcare-services GDP drag (5/28 Q1 2nd-est) = care-avoidance primary data in DOC's domain. Forward catalysts + which agent owns each now live in `docket/CALENDAR.md` (who_cares column), not the table below.
 
 ---
 
@@ -8,54 +10,24 @@
 
 | Agent | Domain | Status | Last Refresh | Next Catalyst | Stale? |
 |-------|--------|--------|-------------|---------------|--------|
-| **STUE** | Student loans (DQ, default, SAVE/RAP, servicers) | 🟢 BUILT | **Apr 17** | AFT/MOHELA May 28, SAVE transition Jul 1 | ✅ Current |
-| **HOMER** | Housing (foreclosures, MF DQ, builders, state-level) | 🟢 BUILT | **Apr 17** | DHI Apr 21, PHM Apr 23, Fannie MF Mar (late Apr), CS Feb Apr 28 | ✅ Current |
-| **GIG** | Gig economy (oversupply, Dave 28DPD, gas squeeze, AV) | 🟢 BUILT | **Apr 17** | May 6-7 cluster: Uber+DoorDash May 6, **Dave May 7 CONFIRMED**, Lyft May 7 | ✅ Current |
-| **PHAN** | Phantom debt / BNPL ($400B+ invisible, stacking, fintech cockroaches) | 🟢 BUILT | **Apr 17** | **Affirm Q3 FY2026 May 7 AMC CONFIRMED**, Klarna ~May 18 est, CFPB 1033 EFFECTIVELY DEAD | ✅ Current |
-| **POLLY** | Insurance (P&C, FAIR plans, health, FL/CA, auto) | 🟢 BUILT | **Apr 17** | **UNH Apr 21, ELV Apr 22**, CB Apr 22, ALL May 1 | ✅ Current |
-| **POP** | Small business (Ch.11, closures, owner guarantees, tariff transmission) | 🟢 BUILT | **Apr 17** | Jul 24 Sec 122 cliff, NFIB monthly, Census BFS monthly | ✅ Current |
-| **DOC** | Healthcare costs (medical debt, OOP, care avoidance, GLP-1 cost shock) | 🟢 BUILT | **Apr 9** | ACA enrollment May, KFF survey fall | ⚠️ 8d — borderline |
+| **STUE** | Student loans (DQ, default, SAVE/RAP, servicers) | 🟢 BUILT | **Apr 17** | AFT/MOHELA May 28, SAVE transition Jul 1 | ⚠️ 42d+ stale |
+| **HOMER** | Housing (foreclosures, MF DQ, builders, state-level) | 🟢 BUILT | **Apr 17** | DHI Apr 21, PHM Apr 23, Fannie MF Mar (late Apr), CS Feb Apr 28 | ⚠️ 42d+ stale |
+| **GIG** | Gig economy (oversupply, Dave 28DPD, gas squeeze, AV) | 🟢 BUILT | **Apr 17** | May 6-7 cluster: Uber+DoorDash May 6, **Dave May 7 CONFIRMED**, Lyft May 7 | ⚠️ 42d+ stale |
+| **PHAN** | Phantom debt / BNPL ($400B+ invisible, stacking, fintech cockroaches) | 🟢 BUILT | **Apr 17** | **Affirm Q3 FY2026 May 7 AMC CONFIRMED**, Klarna ~May 18 est, CFPB 1033 EFFECTIVELY DEAD | ⚠️ 42d+ stale |
+| **POLLY** | Insurance (P&C, FAIR plans, health, FL/CA, auto) | 🟢 BUILT | **Apr 17** | **UNH Apr 21, ELV Apr 22**, CB Apr 22, ALL May 1 | ⚠️ 42d+ stale |
+| **POP** | Small business (Ch.11, closures, owner guarantees, tariff transmission) | 🟢 BUILT | **Apr 17** | Jul 24 Sec 122 cliff, NFIB monthly, Census BFS monthly | ⚠️ 42d+ stale |
+| **DOC** | Healthcare costs (medical debt, OOP, care avoidance, GLP-1 cost shock) | 🟢 BUILT | **Apr 9** | ACA enrollment, KFF survey fall | 🔴 50d — PRIORITY spawn (GDP healthcare-services drag) |
 | **META** | Methodology & architecture research | ⚪ SPECIAL | Apr 6 | N/A — not a monitoring agent | — |
 
-**Team readiness:** 7/7 monitoring agents built. All operational.
+**Team readiness:** 7/7 monitoring agents built. All operational but ALL STALE (42-50d) — refresh-burst overdue.
 
 ---
 
-## UPCOMING CATALYSTS (next 30 days)
+## UPCOMING CATALYSTS → see `docket/`
 
-| Date | Catalyst | Agent(s) | Spawn Type |
-|------|----------|----------|------------|
-| ~~Apr 10~~ | ~~CPI March~~ — ✅ PASSED (headline +3.28%, core +2.61%, CPI Energy +12.5% YoY) | DOC, CARL | — |
-| ~~Apr 14~~ | ~~JPM Q1 earnings~~ — handled by REGINALD | REGINALD | — |
-| **Apr 15** | **Sweet v. McMahon non-Exhibit C notices deadline** — DOE likely misses → auto full relief | STUE | DATA REFRESH |
-| **Apr 15** | NAHB HMI Apr + MBA Apps — Feed VX-CARL-BLDR-01, HSG-01 | HOMER | DATA REFRESH |
-| **Apr 16** | OZK earnings (release) / Apr 22 call — CRE construction | REGINALD primary | EARNINGS WATCH |
-| **Apr 21** | SYF Q1 earnings — NCO >6%? CRL-12 test. HY OAS complacency test #2. Apply ALLY composition-masking framework (KB-CARL-225, 228). | CARL direct | EARNINGS WATCH |
-| **Apr 21** | COF Q1 earnings — apply ALLY framework (domestic card + auto book) | CARL direct | EARNINGS WATCH |
-| **Apr 23** | AXP Q1 earnings — apply ALLY framework | CARL direct | EARNINGS WATCH |
-| **May 5** | PayPal Q1 2026 — first report under new CEO (Lores). Consensus EPS $1.27 / rev $8.29B. SCHEDULE CORRECTION May 1 (was incorrectly listed Apr 29). | PHAN | EARNINGS WATCH |
-| **May 6** | Uber Q1 + DoorDash Q1 — driver count QoQ post-gas-squeeze | GIG | EARNINGS WATCH |
-| **May 7** | **Dave Q1 (28DPD, GIG-P01 test) + Lyft Q1 + Affirm Q3 FY2026 (ALLY analog May 7 test)** | GIG, PHAN | EARNINGS WATCH — triple event |
-| **~May 18** | Klarna Q1 2026 est (first full quarter post-FY-loss) | PHAN | EARNINGS WATCH |
-| **Apr 21** | DHI Q2 earnings — builder margin vs 19.0-19.5% guidance | HOMER | EARNINGS WATCH |
-| **Apr 23** | PHM Q1 earnings — missing middle of builder K-shape | HOMER | EARNINGS WATCH |
-| **Apr 25** | UMich April FINAL — is 47.6 preliminary confirmed? Post-ceasefire re-measure | CARL direct | DATA REFRESH |
-| Apr 26 | FL UI Wave 2 peak | GIG, HOMER | DATA REFRESH |
-| **Apr 28** | **Rithm/NewRez Q1 earnings — "DQ will reverse in Q1" testable claim** (18% Ginnie exposure) | CARL direct | EARNINGS WATCH |
-| **Apr 28** | Case-Shiller Feb — Tampa trajectory, Midwest broadening | HOMER | DATA REFRESH |
-| **Apr 29** | Census Mar Housing Starts (delayed) | HOMER | DATA REFRESH |
-| ~~Apr 30~~ | ~~CFPB 1033 deadline~~ — ON HOLD (judge enjoined) | PHAN | MONITOR |
-| **Late Apr / Early May** | **PennyMac Q1 earnings** — FHA DQ >7.5%? Cenlar integration | CARL direct | EARNINGS WATCH |
-| **Late Apr** | **Fannie MF March DQ — GFC breach test** (trajectory 0.74% → 0.80%?) | HOMER | DATA REFRESH |
-| May 7-12 | Dave Q1 earnings — 28DPD with gas squeeze | GIG | EARNINGS WATCH |
-| ~May | Uber/Lyft Q1 — driver counts, gas impact | GIG | EARNINGS WATCH |
-| ~May | MBA Q1 NDS — foreclosure pipeline update | HOMER | DATA REFRESH |
-| ~May | Affirm Q3 FY2026 earnings | PHAN | EARNINGS WATCH |
-| ~May | KFF employer survey / ACA enrollment data | POLLY, DOC | DATA REFRESH |
-| May 28 | AFT/MOHELA status conference (discovery) | STUE | MONITOR |
-| Jun 1 | FL hurricane season begins | POLLY, HOMER | MONITOR |
-| Q2-Q3 | Non-bank servicer stress window (Ginnie advance drain cumulative) | CARL direct | MONITOR |
-| Jul 1 | SAVE → RAP transition — 7.5M forced into new plans | STUE | DATA REFRESH |
+Forward catalysts (with the sub-agent that owns each, in the `who_cares` column) now live in **`docket/CALENDAR.md`** / **`docket/CATALYSTS.tsv`** — run `scripts/docket_countdown.py` at boot. The old April/May table here was retired May 29 2026 (all dates fired; superseded by the docket). This file is now just the sub-agent **roster + staleness + spawn rules**; the docket drives *when* to spawn.
+
+**Near-term sub-agent spawn relevance (from docket):** DOC (healthcare GDP drag — priority) · HOMER (Case-Shiller/Freddie HPI/NAHB/home-sales/builder Q2, late June) · GIG/LABOR (JOLTS Jun 2, NFP Jun 5, FL UI cliff Jun 24) · POLLY (insurance Q2 ~Jul + hurricane season) · PHAN (Affirm/Klarna ~Aug) · STUE (SAVE→RAP Jul 1, collections ~Jul) · POP (Sub-V Jul 24).
 
 ---
 
