@@ -1,47 +1,64 @@
 # CARL DOCKET — Catalyst Calendar
-**Updated:** 2026-05-29 (docket created — full consolidation of CARL's forward-catalyst surfaces)
+**Updated:** 2026-05-29 (QA pass — date fixes verified vs BLS/BEA; full gap fill all tiers; 16→34 catalysts; Fannie MF DQ Apr integrated)
 
-Human-readable twin of `docket/CATALYSTS.tsv`. **The two must not diverge** — edit both together, or regenerate this from the TSV. The TSV is the machine source (read by `scripts/docket_countdown.py` at boot, SPAWN PROTOCOL step 7).
+Human-readable twin of `docket/CATALYSTS.tsv`. **The two must not diverge** — edit both together, or regenerate this from the TSV. The TSV is the machine source (read by `scripts/docket_countdown.py` at boot, SPAWN PROTOCOL step 7a).
 
-**Discipline:** once a catalyst's data is folded into STATUS/ROADMAP/PREDICTIONS, **prune its row** from the TSV + this file (the historical record then lives in STATUS DANGER WINDOW "recently fired" + ROADMAP RECENTLY RESOLVED + CHANGELOG). A past-dated row still present = a missed integration; the countdown flags it.
+**Discipline:** once a catalyst's data is folded into STATUS/ROADMAP/PREDICTIONS, **prune its row** from the TSV + this file, and (for recurring monthly releases) add the next instance. A past-dated row still present = a missed integration; the countdown flags it. The historical record lives in STATUS "recently fired" + ROADMAP RECENTLY RESOLVED + CHANGELOG.
+
+*Dates marked (~) are standard-cadence estimates — firm as official schedules confirm. June macro dates verified vs BLS/BEA where noted.*
 
 ---
 
-## ⚠️ Released / past-due (integrate & prune)
+## This week (≤ Jun 5)
 | Date | Event | Test | Pri |
 |------|-------|------|-----|
-| 2026-05-28 | **Fannie MF DQ — Mar/Apr refresh** | CRL-03 / >0.80% GFC breach (6bps away); STATUS stale at Feb 0.74% | 🔴 |
+| Jun 1 | ISM Mfg PMI (May) | V12 Prices Paid stagflation (Apr 84.6) | 🔴 |
+| Jun 1 | FL hurricane season begins | POLLY/HOMER P&C; Q3 = true test | 🟡 |
+| Jun 2 | **JOLTS (Apr)** | CRL-09 (Mar missed 0.95) / CRL-11 hires | 🔴 |
+| Jun 2 | Dollar General (DG) Q1 | K-shape bottom-quintile canary | 🟠 |
+| Jun 3 | ISM Services (May) | V12 New Orders + Prices Paid | 🔴 |
+| Jun 5 | **BLS May NFP + UR + AHE** *(verified)* | V16 second realized print | 🔴 |
 
-## This week / next 2 weeks (≤ ~Jun 12)
+## Jun 6–17
 | Date | Event | Test | Pri |
 |------|-------|------|-----|
-| 2026-06-01 | FL hurricane season begins | POLLY/HOMER P&C cost monitor; Q3 = true test | 🟡 |
-| 2026-06-02 | Dollar General (DG) Q1 | K-shape bottom-quintile canary (traffic vs ticket; SNAP mix) | 🟠 |
-| 2026-06-06 | BLS May NFP + UR + AHE | V16 second realized print (Apr +115K noise or stabilization?) | 🔴 |
-| 2026-06-11 | BLS May CPI | Iran+tariff 2nd month; CRL-10 food; feeds FOMC | 🔴 |
+| Jun 10 | **BLS May CPI** *(verified)* | Iran+tariff 2nd month; CRL-10 food | 🔴 |
+| Jun 11 | BLS May PPI | Stagflation goods vs services | 🟠 |
+| Jun 12 | UMich sentiment prelim (June) | V12 5-10Y >3.5% red line; sentiment | 🔴 |
+| Jun 16 | Retail Sales (May) | Consumer spending; forced-consumption | 🟠 |
+| Jun 16 | NAHB HMI (June) | Builder <40 (Apr 34) | 🟠 |
+| Jun 16 | Lennar (LEN) FQ2 earnings | CRL-23 builder GM baseline | 🟠 |
+| **Jun 16-17** | **FOMC + SEP dot-plot** | **V12 REGIME — first dots post-Waller vs ~2-in-3 Oct hike** | 🔴 |
 
-## Mid-June → end-June
+## Jun 18–30
 | Date | Event | Test | Pri |
 |------|-------|------|-----|
-| 2026-06-16/17 | **FOMC + SEP dot-plot** | V12 REGIME — first dots post-Waller vs ~2-in-3 Oct-hike pricing | 🔴 |
-| 2026-06-24 | FL Wave 1 UI exhaustion cliff (~4,500) | CRL-07 / DQ spike +30-60d | 🔴 |
-| 2026-06-30 | May PCE (Personal Income & Outlays) | V12 monthly bridge; savings-rate trajectory (Apr 2.6%) | 🟠 |
+| ~Jun 19 | Existing Home Sales (May, NAR) | <4.0M RED (Mar 3.98M) | 🟠 |
+| Jun 24 | FL Wave 1 UI exhaustion cliff (~4,500) | CRL-07 / DQ +30-60d | 🔴 |
+| ~Jun 24 | New Home Sales (May, Census) | Housing demand | 🟡 |
+| **Jun 25** | **May PCE (Personal Income & Outlays)** *(verified)* | V12 monthly bridge; savings-rate (Apr 2.6%) | 🟠 |
+| Jun 26 | UMich sentiment final (June) | V12 5-10Y red line | 🟠 |
+| ~Jun 26 | **Fannie MF DQ (May)** | CRL-03 — Apr reversed to 0.64% (Mar 0.78% near-breach) | 🔴 |
+| ~Jun 29 | Freddie HPI (Apr) | Housing-deflation (Mar +0.7% cycle low) | 🔴 |
+| Jun 30 | Case-Shiller HPI (Apr) | Housing-deflation (real prices neg 9mo) | 🔴 |
+| Jun 30 | CB Consumer Confidence (June) | Expectations <80 (4+ mo) | 🟠 |
 
 ## July
 | Date | Event | Test | Pri |
 |------|-------|------|-----|
-| 2026-07-01 | SAVE → RAP transition (7.5M) | CRL-13 / CRL-14 | 🔴 |
-| 2026-07-15 (~) | Involuntary collections restart (AWG + Treasury Offset, 5M+) | Student-loan cascade executing | 🔴 |
-| 2026-07-15 (~) | Q2 consumer-credit earnings cluster (SYF/COF/ALLY/DHI/PHM/UNH/ELV) | Masking CRL-20/21; CRL-12/22/23 — firm exact dates | 🟠 |
-| 2026-07-24 | Subchapter V Sec 122 cliff | Small-biz bankruptcy (CRL-16/17) | 🟠 |
-| 2026-07-31 (~) | ABS subordinate rating actions (Q2-Q3) | EART/AMCAR Class E, SDART Class D → forced selling | 🔴 |
+| Jul 1 | SAVE → RAP transition (7.5M) | CRL-13 / CRL-14 | 🔴 |
+| ~Jul 15 | Insurance Q2 (UNH/ELV; ALL ~Aug) | CRL-22 MLR / K-shape Selection | 🟠 |
+| ~Jul 15 | Involuntary collections restart (AWG + Treasury Offset, 5M+) | Student-loan cascade executing | 🔴 |
+| ~Jul 16 | ATTOM Q2 foreclosures | V10 (Q1 REO +45% YoY) | 🟠 |
+| ~Jul 21 | Q2 consumer-credit earnings (SYF/COF/ALLY/AXP) | Masking CRL-20/21; CRL-12 | 🟠 |
+| ~Jul 22 | Builder Q2 (DHI FQ3 / PHM) | CRL-23 FY27 GM compression | 🟠 |
+| Jul 24 | Subchapter V Sec 122 cliff | Small-biz bankruptcy (CRL-16/17) | 🟠 |
+| ~Jul 31 | ABS subordinate rating actions (Q2-Q3) | EART/AMCAR Class E, SDART Class D → forced selling | 🔴 |
 
 ## August → September
 | Date | Event | Test | Pri |
 |------|-------|------|-----|
-| 2026-08-15 (~) | NY Fed Q2 2026 HHDC | **CRL-05 next breach window** (Q1 13.1% vs GFC 13.74%) | 🔴 |
-| 2026-08-31 (~) | FL + national UI exhaustion peak | CRL-07 peak; Q3 consumption-stress quarter | 🔴 |
-| 2026-09-15 (~) | Food CPI YoY approaching/breaching 4% | CRL-10 (possibly pulling from Q4 to Q3) | 🟠 |
-
----
-*Approximate dates marked (~) — firm them as official release schedules confirm. Q1 earnings calendar (now historical) archived from `EARNINGS_WATCH_Q1.md`.*
+| ~Aug 13 | Affirm FQ4 + Klarna Q2 (BNPL) | Survivor-bias vs cohort 41% late | 🟡 |
+| ~Aug 15 | **NY Fed Q2 2026 HHDC** | **CRL-05 next breach window** (Q1 13.1% vs GFC 13.74%) | 🔴 |
+| ~Aug 31 | FL + national UI exhaustion peak | CRL-07 peak; Q3 consumption-stress quarter | 🔴 |
+| ~Sep 15 | Food CPI YoY approaching/breaching 4% | CRL-10 (possibly pulling Q4→Q3) | 🟠 |

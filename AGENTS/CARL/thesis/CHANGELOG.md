@@ -35,6 +35,12 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 **Apr PCE (Personal Income & Outlays, rel May 28, also grabbed 5/29):** Core PCE **3.3% YoY** (+0.2% MoM) = cycle high, accel from Mar 3.2%; headline PCE 3.8% YoY (+0.4% MoM). Savings rate **2.6%** (-100bps from Mar 3.6%); Real DPI -0.5% MoM (5th neg, accelerating); personal income flat 0.0%; Real PCE +0.1%. = buffer-exhaustion deepening + savings-funded-forced-consumption mechanic intensifying. No prediction resolved (CRL-19 was Mar, already MIXED) — STATUS data integration only.
 
+**CRL-03 — REPRICE 90 → 72% (Fannie MF DQ April reversal):**
+- Apr 2026 MF serious DQ **0.64%** (rel May 27) = −14bps MoM. Updated trajectory: Feb 0.74% → Mar **0.78%** (2bps from the 0.80% GFC breach — closest approach yet) → Apr 0.64%.
+- Series nearly breached in March then pulled back hard. ⚠️ Apr 0.64% is **month 1 of CRL-03's own invalidation window** ("<0.65% for 2 consecutive months") — if May (rel ~Jun 26) also <0.65%, CRL-03 invalidates.
+- Threshold-vs-mechanism: MF DQ is lumpy (single large-loan workouts swing it); CRE/MF-stress mechanism intact (CMBS MF DQ ATH 7.15%, $270B+ debt wall) → threshold pushed out + confidence cut, not thesis break. STATUS Fannie row 🔴→🟠.
+- **Process note:** surfaced by the new docket past-due flag (boot step 7a) on its QA pass — the docket flagged Fannie as stale, the check revealed the data had moved against the prediction.
+
 **No THESIS.md change.** V12-hardening evidence accumulating across THREE 5/28-29 datapoints (Waller pivot + GDP Q1 stagflation composition + Apr monthly Core PCE 3.3%); formal V12 score-upgrade review + possible v2.5.2 minor still pending Jun 16-17 SEP per OPEN THREAD.
 
 ## 2026-05-03 PM7 — Workbook hardening: VX P1 + KB ref integrity + SCHEMA Option A + VX dedup P4
