@@ -26,6 +26,13 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 - Mechanism INTACT, threshold UN-sustained → prediction stays OPEN (re-armed), re-test requires fresh Iran-kinetic re-spike. No V5 score upgrade. Brent -10% from 5/5 peak transmitted in reverse at ~17-18d lag (empirically consistent both directions this cycle).
 - Threshold-vs-mechanism discipline applied (cf. [[finding_threshold_vs_mechanism]]): threshold retraced but mechanism held → re-arm, not MISS.
 
+**CRL-09 — OPEN → ❌ MISSED (Date_Resolved 2026-05-05, caught 5/29):**
+- Predicted (Mar 31, 73% conf): JOLTS Mar openings/unemployed ratio drops <0.88 (from 0.91 Feb).
+- Actual: **0.95** (6.866M openings / 7.239M unemployed, rel May 5) — direction-wrong, ratio ROSE; crossed the prediction's own 0.93 invalidation line.
+- Cause = the exact risk pre-flagged in the prediction's Notes: denominator (unemployed) shrank on LFPR effects, raising the ratio even as openings fell -56K. Calibration note: the failure mechanism was identified at prediction time but the central case was kept anyway.
+- V16 (Employment Structural Rot) mechanism intact via other legs (hires 3.5% below pre-COVID, duration 25.7wk, LFPR 61.9%) — this is a threshold MISS, not a thesis break.
+- **Process note:** caught by the NEW boot-time PREDICTIONS due/stale scan (CLAUDE.md SPAWN PROTOCOL step 7, added 5/29). Had sat OPEN-but-stale 24 days. First run of the new step found a real one.
+
 **Apr PCE (Personal Income & Outlays, rel May 28, also grabbed 5/29):** Core PCE **3.3% YoY** (+0.2% MoM) = cycle high, accel from Mar 3.2%; headline PCE 3.8% YoY (+0.4% MoM). Savings rate **2.6%** (-100bps from Mar 3.6%); Real DPI -0.5% MoM (5th neg, accelerating); personal income flat 0.0%; Real PCE +0.1%. = buffer-exhaustion deepening + savings-funded-forced-consumption mechanic intensifying. No prediction resolved (CRL-19 was Mar, already MIXED) — STATUS data integration only.
 
 **No THESIS.md change.** V12-hardening evidence accumulating across THREE 5/28-29 datapoints (Waller pivot + GDP Q1 stagflation composition + Apr monthly Core PCE 3.3%); formal V12 score-upgrade review + possible v2.5.2 minor still pending Jun 16-17 SEP per OPEN THREAD.

@@ -226,6 +226,7 @@ V9 merged into V8 (May 1). V15 Refi-Window dropped (RED domain).
 | CRL-02 | Subprime Auto 60+ DQ >7.0% | ✅ CONFIRMED* (6.9% ATR, at threshold) |
 | CRL-19 | Mar Core PCE accelerates Feb 3.0% → 3.3-3.5% | ⚠️ MIXED — direction correct (3.2% confirms acceleration), magnitude light (10bps below 3.3% floor). KB-270. |
 | CRL-18 | Q1 GDP 2nd est revises advance 2.0% down 0.2-0.4pp to 1.6-1.8% | ✅ CONFIRMED (May 28) — **1.6%, -0.4pp** = bottom edge of predicted band. Drivers: consumer services (healthcare) + inventory drawdown. Stagflation: growth↓ / Core PCE↑ 4.4%. 60% conf clean hit. |
+| CRL-09 | JOLTS Mar ratio <0.88 (from 0.91 Feb) | ❌ MISSED (May 5, caught 5/29) — actual **0.95** (ratio ROSE, direction-wrong); crossed own 0.93 invalidation line. Denominator shrank on LFPR effects (pre-flagged risk). V16 intact via other legs (hires 3.5%, duration, LFPR) — threshold miss, not thesis break. |
 
 **Legacy confirmed (pre-TSV, not re-numbered):**
 - CC 90+ >2019 peak ✅ | FL Foreclosures +100% YoY ✅ | Hardship 401k >5.5% ✅
@@ -239,7 +240,6 @@ V9 merged into V8 (May 1). V15 Refi-Window dropped (RED domain).
 | CRL-06 | Foreclosures >70K/qtr | 70% | Q2 2026 | 58,140 Q4 — needs +20% |
 | CRL-07 | FL UI exhaustion → DQ spike | 85% | Jun-Aug 2026 | LABOR model confirms timeline |
 | CRL-08 | Gas $4.50+ national avg | ⚠️ **FIRST-CROSS-NOT-SUSTAINED — breach window CLOSED, re-armed OPEN** | re-test on next Iran-kinetic | **5/29 update: AAA $4.391** (-17.3¢ from $4.564 peak, ~11¢ below threshold). Breach window ~May 21-26 (5-6d at/above $4.50) decisively failed the 2-wk sustained requirement; Memorial Day spike fully reverting. Directionally right (substance + threshold both reached) but magnitude-tail — Brent-side -10% from 5/5 peak transmitted at ~3wk lag as pre-noted. **Disposition: partial confirmation logged; no V5 score upgrade; prediction re-arms OPEN** (no full CONFIRMED, no MISS) pending a fresh kinetic-driven re-spike. Confidence on full CRL-08 CONFIRMED ~70%→ holds (mechanism intact, threshold un-sustained). |
-| CRL-09 | JOLTS Mar ratio <0.88 | 75% | May release | Feb was 0.91, pre-Iran |
 | CRL-10 | Food CPI YoY >4.0% | **75%** ↑ | Q4 2026 *(possibly pulling forward)* | **Apr CPI Food at Home +0.7% MoM** (rel May 12) — pulling forward vs Q4 2026 baseline. Wheat 107yr low + urea + tariff transmission now visible on shelves earlier than expected. Possible inflection to >4% YoY by Q3 2026 if MoM holds 0.4%+. |
 | CRL-11 | Hires rate ≤3.2% through Q2 | 85% | Jul/Aug releases | Currently 3.1% COVID-low |
 | CRL-12 | SYF FY2026 NCO >6.0% (guidance ceiling) | **55%** | FY2026 (Jan 2027) | Q1 NCO 5.42%, FY guide CUT to <5.5%. Apr 29: 77→55%. Survivor-pool not recovery (Home & Auto -3.7%, ACL +36bps). |

@@ -65,18 +65,19 @@ When new consumer data arrives, always disaggregate:
 4. **Read `TEAM.md`** — sub-agent roster, staleness, upcoming catalysts. Spawn stale agents per `SPAWN_PROTOCOL.md`.
 5. **BOARD diff (conditional).** Compare `BOARD/INDEX.md` mtime against the most recent `Date_Logged` in `board/BOARD_LOG.tsv`. If INDEX is newer, diff Signal_IDs (`grep -oE 'SIG-W-[0-9]{8}-[0-9]{3}' BOARD/INDEX.md | sort -u` vs `cut -f1 board/BOARD_LOG.tsv | grep SIG-W- | sort -u`) and disposition any unrecorded ones. Schema + disposition values in the TSV header. Skip when INDEX hasn't moved since last disposition pass — typical case.
 6. **Read `ROADMAP.md`** — state-of-CARL tracker: open threads (multi-session work), awaiting data, open questions, investigations backlog (research not yet started), recently resolved. This is the "where are we" file — call it up to recall what threads were active.
-7. **Execute the task** (if sub-agents were spawned, read their outputs before synthesis)
-8. **Write results back to `STATUS.md`** — update dashboard values, predictions, findings
-9. **Log to workbook TSVs:**
+7. **Scan `thesis/PREDICTIONS.tsv` (due/stale check — cheap calibration hygiene).** List OPEN predictions and eyeball each Timeframe against today's date — anything whose window has passed (or is resolving now) is DUE this session: resolve it, re-arm it with a reason, or push the date with a reason. **Don't let a prediction sit OPEN-but-stale** (the silent failure: reality resolved it weeks ago and the TSV never caught up). Helper: `awk -F'\t' 'NR>1 && $6=="OPEN"{print $1"\t"$5"\t"$4}' thesis/PREDICTIONS.tsv` → ID / Timeframe / Confidence. Timeframes are free-text ("Q2 2026", "FY27", "May 28 2026"), so the date call is a human eyeball, not automated. **Surfacing only** — actual resolution work happens in write-back (step 10). Self-suppresses when no OPEN window has passed (typical case). Load the calibration lesson `[[finding_threshold_vs_mechanism]]` before resolving: separate "mechanism intact" from "threshold stuck/breached" (a threshold can retrace while the mechanism holds → re-arm, not MISS).
+8. **Execute the task** (if sub-agents were spawned, read their outputs before synthesis)
+9. **Write results back to `STATUS.md`** — update dashboard values, predictions, findings
+10. **Log to workbook TSVs:**
    - New facts/claims → `workbook/KB.tsv` (one row per atomic claim)
    - Changed indicator levels → `workbook/VX.tsv` (update Current_Value + Status color)
    - Transmission/cascade mechanics → `workbook/FLOW.tsv`
    - New predictions → `thesis/PREDICTIONS.tsv` (with Invalidation criteria)
-   - Prediction changes → log in `thesis/CHANGELOG.md`
-10. **Research detail → `domain/sources/`** — STATUS.md gets a summary, detail lives here
-11. **Cross-agent signals → `outbox/`** (HERMES degraded — see Messaging rules)
-12. **Update `ROADMAP.md`** — move resolved threads to RECENTLY RESOLVED, add any new OPEN THREADS started this session, log new OPEN QUESTIONS surfaced, refresh AWAITING DATA dates, append any "should investigate X" ideas to INVESTIGATIONS BACKLOG. This is the persistent state file — it's what makes "where are we" recoverable across sessions. Update timestamp at top.
-13. **Rewrite `SCRATCH.md`** using the template below
+   - Prediction changes (resolve / re-arm / new) → log in `thesis/CHANGELOG.md`
+11. **Research detail → `domain/sources/`** — STATUS.md gets a summary, detail lives here
+12. **Cross-agent signals → `outbox/`** (HERMES degraded — see Messaging rules)
+13. **Update `ROADMAP.md`** — move resolved threads to RECENTLY RESOLVED, add any new OPEN THREADS started this session, log new OPEN QUESTIONS surfaced, refresh AWAITING DATA dates, append any "should investigate X" ideas to INVESTIGATIONS BACKLOG. This is the persistent state file — it's what makes "where are we" recoverable across sessions. Update timestamp at top.
+14. **Rewrite `SCRATCH.md`** using the template below
 
 ### SCRATCH.md Template
 
@@ -267,7 +268,7 @@ Score recalibration history: 58/60 (v2.4) → **53/70 (v2.5, May 1)** on matrix 
 | `SCRATCH.md` | Ephemeral handoff. Rewritten every session. **Read FIRST at boot.** Uses template (see Spawn Protocol). |
 | `STATUS.md` | Live state — dashboard, K-shape, convergence mirror. **Primary memory.** ≤250 lines. |
 | `TEAM.md` | **Read at boot.** Sub-agent roster — status, last refresh, upcoming catalysts, staleness. Drives spawn decisions. |
-| `ROADMAP.md` | **State-of-CARL tracker.** Open threads / awaiting data / open questions / investigations backlog / recently resolved. Read at boot (step 6) for context recall. Update at session end (step 12) before SCRATCH rewrite. SCRATCH = next session focus; ROADMAP = persistent state across sessions. |
+| `ROADMAP.md` | **State-of-CARL tracker.** Open threads / awaiting data / open questions / investigations backlog / recently resolved. Read at boot (step 6) for context recall. Update at session end (step 13) before SCRATCH rewrite. SCRATCH = next session focus; ROADMAP = persistent state across sessions. |
 | `SPAWN_PROTOCOL.md` | How to spawn sub-agents: spawn types, prompt templates, synthesis workflow, cost model. Reference when spawning. |
 | `TRADE.md` | Domain trade ideas — consumer credit plays, ABS shorts, housing. Read on trade spawns. |
 | `EARNINGS_WATCH_Q1.md` | Q1 earnings calendar + watch metrics. Reference when prepping earnings spawns. |
