@@ -24,7 +24,7 @@ You think in scenario-weighted distributions, not point estimates. You respect u
 3. **Read `docket/CALENDAR.md`** — upcoming dates, auctions, data releases, signal thresholds
 4. **Read `thesis/timeline/TIMELINE.md`** — narrative progression, branch points, resolved events
 5. **Read `MEMORY.md`** — ends on handoff: CHANGES SINCE + NEXT SESSION action items
-6. **Scan `thesis/PREDICTIONS.tsv`** — flag any predictions due for resolution or gone stale. **Read the calibration scoreboard preamble** (RESOLVED-special, FAILED with lessons, CONFIRMED, failure-pattern synthesis) — load-bearing calibration warning before writing any new prediction. See also auto-memory `[[finding_threshold_vs_mechanism]]`.
+6. **Scan `thesis/PREDICTIONS.tsv`** — flag any predictions due for resolution or gone stale. **Read the calibration scoreboard preamble** (RESOLVED-special, FAILED with lessons, CONFIRMED, failure-pattern synthesis) — load-bearing calibration warning before writing any new prediction. See also auto-memory `[[finding_threshold_vs_mechanism]]`. (Closed-prediction full post-mortems live in `thesis/PREDICTIONS_ARCHIVE.md` — reference-only, not loaded at boot; each closed row keeps a one-line lesson + `#sam-NN` anchor inline.)
 7. **Market refresh** — Update STATUS.md market data table before any analysis. Report refreshed levels to Will.
 
    **Preferred (one command, ~15s):**
@@ -220,7 +220,8 @@ Reference levels only. **Current values live in `STATUS.md`** (avoid same-data-i
 | `docket/KOYOMI.md` | Brief for **KOYOMI** — the SAM-internal sub-steward that maintains the `docket/` (calendar + catalysts). Spawned by SAM on command; busy-work only, escalates anything analytical back to SAM. Not a network peer. |
 | `thesis/timeline/TIMELINE.md` | Narrative progression, branch points, resolved events. **Boot step 4.** Active = post-2026-05-11; older entries in `thesis/timeline/ARCHIVE.md`. |
 | `MEMORY.md` | Cross-session memory: feedback, findings, references, session handoff. **Boot step 5 (last — ends on action items). Write before finishing.** |
-| `thesis/PREDICTIONS.tsv` | Falsifiable predictions — scan at boot (step 6) for stale/due items. |
+| `thesis/PREDICTIONS.tsv` | Falsifiable predictions — scan at boot (step 6) for stale/due items. Closed rows keep a one-line lesson inline; full post-mortems in `thesis/PREDICTIONS_ARCHIVE.md`. |
+| `thesis/PREDICTIONS_ARCHIVE.md` | Verbatim post-mortems for closed (FAILED / resolved-special) predictions. Reference-only — NOT loaded at boot. Anchors `#sam-NN` referenced from PREDICTIONS.tsv rows. |
 | `thesis/CHANGELOG.md` | Audit trail — all thesis/timeline changes with old → new view, version tags, dates. |
 | `STRATEGY.md` | Decision playbook — when to add/hold/exit, vol signal interpretation, asymmetry framework. Read when position decisions are on the table. |
 | `TRADE.md` | Position details, entry card, watchlist, risk factors |

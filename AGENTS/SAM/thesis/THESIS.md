@@ -219,7 +219,7 @@ Structural levels that gate thesis paths. *Current values + breach status live i
 
 ## PREDICTIONS
 
-*Canonical source: [`PREDICTIONS.tsv`](PREDICTIONS.tsv). Calibration scoreboard at top of that file lists OPEN positions, RESOLVED-special (SAM-25 threshold-vs-mechanism), 6 FAILED with lessons, 7 CONFIRMED. Failure-pattern synthesis (political ceiling, stock-vs-flow, intervention prob-weighting, threshold-vs-mechanism) is the working calibration warning before writing any new prediction.*
+*Canonical source: [`PREDICTIONS.tsv`](PREDICTIONS.tsv). Calibration scoreboard at top of that file lists OPEN positions, RESOLVED-special (SAM-25 threshold-vs-mechanism), 8 FAILED with lessons, 7 CONFIRMED. Failure-pattern synthesis (political ceiling, stock-vs-flow, intervention prob-weighting, threshold-vs-mechanism, premise-dependence/standalone-channel) is the working calibration warning before writing any new prediction. Full post-mortems for closed predictions live in [`PREDICTIONS_ARCHIVE.md`](PREDICTIONS_ARCHIVE.md) (not loaded at boot).*
 
 ---
 
