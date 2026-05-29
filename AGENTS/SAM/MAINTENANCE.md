@@ -8,6 +8,20 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
+## 2026-05-29 (AM) — boot-file staleness audit: THESIS live-values → STATUS pointers (doc-ownership cleanup)
+
+**Trigger:** Will-requested audit of boot-up files for stale/unhelpful content.
+
+**The problem it fixes:** the May 28 Tokyo-CPI downgrade (SAM-21 ~57%→~50%; carry probs 62/80→58/77) was propagated to STATUS / TIMELINE / PREDICTIONS / CHANGELOG / CALENDAR last session but **NOT THESIS** — so boot doc #1 (THESIS) contradicted boot doc #2 (STATUS) on the single most load-bearing number (June BOJ probability). A fresh SAM anchored on the stale ~57–70% before STATUS corrected it.
+
+**Fix (no analytical/view change — version held at 1.5, so logged HERE not CHANGELOG):** replaced hardcoded live probabilities/levels in THESIS with **pointers to STATUS** (the daily-snapshot owner), per the OUTPUT RULES doc-ownership table — so they can't re-rot on the next print. Touched: one-liner (June BOJ prob), Channel 2 current-probability block + CFTC paragraph + Post-Apr-28 anchor, Channel 2 triggers (~70%), OIL-IN-YEN "Current state" (was frozen at **Brent $107.84 / May 21** — ~$16 stale), forward CATALYST table (pruned resolved May 28-29 Tokyo CPI row; trimmed 159.41/-102K/$93.13 live leaks; SAM-21 ~57%→pointer), CROSS-AGENT → HENRY (62/80) + → HAWK ($93.13).
+
+**Also this pass:** TIMELINE + PREDICTIONS header dates bumped to 5/29; **SAM-15 flagged OPEN — FOR REVIEW** (oil-in-yen-forces-repatriation @80%; premise complicated by Phase-1-inversion finding + Brent collapse + Big-3 foreign-book growth — needs dedicated reassessment, see MEMORY NEXT SESSION); MEMORY date-stamp incident note pruned; two findings promoted to auto-memory; CLAUDE.md SIGNAL_INTAKE version ref v1.4→v1.5.
+
+**Boot-impact: positive** — removes a boot-doc contradiction on the June BOJ probability; future CPI prints update STATUS only, THESIS stays correct via pointer.
+
+---
+
 ## 2026-05-28 (PM, session #6) — self-calibration + provenance added to fxy_options.py (RR scale fix)
 
 **Rebuild note:** session #6 originally implemented this but crashed before commit (window lost, no push). The crashed diff was unrecoverable; this is a clean reconstruction from the approved spec. A handful of parameter choices the original session made could not be recovered and were re-derived here — flagged `[RECONSTRUCTED]` in code for SAM review. Foundation (session #5 / `fabf645`) was fully committed and intact; only this enhancement layer was lost.
