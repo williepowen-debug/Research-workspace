@@ -1,5 +1,5 @@
 # CARL SCRATCH
-> ⚠️ **PENDING PUSH** — the docket QA-pass commit (current local HEAD) is committed but NOT pushed. Origin diverged (BRENT Friday-data commit landed); rebase blocked because SAM has uncommitted work in the tree (`M AGENTS/SAM/*`), so per CLAUDE.md Option B the push is deferred. **Next session: once SAM's tree is clean (or riding a push-train), `git pull --rebase` then push the HEAD commit.** All earlier CARL commits this session ARE pushed (origin has the docket-build); only the final QA-pass commit (date fixes + CRL-03 90→72% + 16→34 catalysts) is pending. Confirm with `git log --oneline origin/master..HEAD` — should show exactly one CARL commit.
+> ✅ **All CARL work this session is on origin, in sync (clean).** The docket QA-pass commit was briefly deferred (origin had diverged + SAM's tree was dirty) but rode SAM's push-train — it landed on origin as part of SAM's `pull --rebase`+push. No pending push.
 
 **Last session:** 2026-05-29 ~15:30 UTC
 **Type:** 5/28-print resolution + docket build + docket QA (all Will-directed). CRL-18 CONFIRMED; CRL-08 re-armed; Apr PCE (Core 3.3%, savings 2.6%); boot-step 7 PREDICTIONS scan → CRL-09 MISSED; **`docket/` built + QA'd → 34 catalysts, 3 date fixes, CRL-03 90→72% on Fannie Apr reversal**. STATUS 260→250. Multiple commits pushed; QA commit pending.
