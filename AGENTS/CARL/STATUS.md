@@ -33,7 +33,7 @@
 ### Housing / Multifamily
 | Metric | Value | As Of | Status |
 |--------|-------|-------|--------|
-| Fannie MF DQ | **0.74%** (6bps from GFC) | Feb 2026, Fannie | 🔴 |
+| Fannie MF DQ | **0.64% Apr (−14bps MoM) — SHARP REVERSAL.** Trajectory: Feb 0.74% → **Mar 0.78% (2bps from 0.80% GFC, closest approach yet)** → Apr 0.64%. CRL-03 counter-signal: series nearly breached in March then pulled back hard. MF DQ is lumpy (single large-loan workouts swing it) → CRE/MF-stress *mechanism* intact, but Q2 >0.80% breach less likely. SF DQ also eased (0.57%, −1bp). **CRL-03 90→72%.** | Apr 2026, Fannie (rel May 27) | 🟠 (was 🔴) |
 | FHA DQ | **11.52%** vs Conv 2.89% | Q4 2025, MBA | 🔴 |
 | 30-Yr Mortgage | **6.30%** PMMS Apr 30 — easing thread REVERSED (round-trip 6.30 Apr 17 → 6.23 Apr 24 → 6.30 Apr 30); MBA contract **6.37% (+2bps)** wk Apr 24, jumbo/large-balance pricing pressure. Iran-shock + UMich un-anchoring back-up. KB-CARL-272. | Apr 30, Freddie PMMS | 🟠 |
 | MBA Purchase Apps | **+1.1% WoW (wk Apr 24)** — Composite -1.6% (after prior +7.9% mass-refi-pop), Refi -4.4% (refi window collapsed). Rate easing window opened-and-shut. KB-CARL-272. | Apr 24, MBA | 🟠 |
@@ -224,7 +224,7 @@ V9 merged into V8 (May 1). V15 Refi-Window dropped (RED domain).
 **Open:**
 | ID | Prediction | Conf | Timeframe | Current |
 |----|-----------|------|-----------|---------|
-| CRL-03 | Fannie MF DQ >0.80% (GFC) | 90% | Q2 2026 | 0.74% Feb — hovering 6bps from target |
+| CRL-03 | Fannie MF DQ >0.80% (GFC) | **72%** ↓ | Q2 2026 | **Apr 0.64% (−14bps) reversal.** Mar 0.78% nearly breached (2bps) then pulled back. Lumpy series — mechanism intact, threshold less likely Q2. 90→72% (May 29). |
 | CRL-04 | Student 90+ DQ >10% | 95% | Q1-Q2 2026 | **~9.8% FICO Spring 2026** (up 25% from 7.9% Apr 2025). 9.2M default, 2.4M late-stage DQ. **Near-confirmed, breach likely Q2.** |
 | CRL-05 | CC 90+ DQ >13.74% (GFC) | **85%** ↑ | Q2-Q3 2026 | **Q1 2026 NY Fed HHDC (rel May 12): 13.1% = 15-yr HIGH** (was 12.70% Q4). Gap collapsed **1.04pp → 0.64pp**. NY Fed researchers: "subprime driving most, prime marginal" = **K-shape converging downward CONFIRMED in primary data**. May 22 PM: 82→85% on direct mechanism confirmation. Q2 2026 print (~mid-Aug) is the breach window. |
 | CRL-06 | Foreclosures >70K/qtr | 70% | Q2 2026 | 58,140 Q4 — needs +20% |
