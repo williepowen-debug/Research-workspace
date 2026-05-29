@@ -8,6 +8,26 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-05-29 — CRL-18 CONFIRMED (GDP Q1 2nd est) + CRL-08 re-armed OPEN (gas un-sustained)
+
+### PREDICTIONS.tsv — 2 rows, no THESIS version bump
+**Author:** CARL (Will-directed 5/28-print resolution session)
+**Trigger:** BEA GDP Q1 2nd estimate (May 28) + AAA pump re-check (May 29).
+
+**CRL-18 OPEN → ✅ CONFIRMED (Date_Resolved 2026-05-28):**
+- Predicted (May 1, 60% conf): Q1 GDP 2nd est revises advance 2.0% down 0.2-0.4pp into 1.6-1.8%.
+- Actual: **+1.6%, -0.4pp** — landed at the bottom edge of the predicted band. Clean hit at 60% conf.
+- Drivers (CARL-domain): consumer SERVICES decline led by healthcare (Census QSS) + private inventory drawdown (mfg+retail); goods (recreation/vehicles) revised UP = forced/trade-down pattern.
+- **Stagflation signature in one release:** real growth revised DOWN while Core PCE prices revised UP to 4.4% ann. (from 4.3% advance); headline PCE 4.5% held. Realized core PCE 4.4% >> UMich 5-10Y 3.5% red line → **V12 (Stagflation Trap) hardens further post-Waller.**
+
+**CRL-08 — FIRST-CROSS-NOT-SUSTAINED, re-armed OPEN (confidence 92% → 70%):**
+- AAA $4.391 (May 29) = -17.3¢ from $4.564 peak (May 21), ~11¢ below the $4.50 threshold.
+- Breach window ~May 21-26 (5-6 days at/above $4.50) decisively failed the 2-wk sustained requirement; Memorial Day spike fully reverting.
+- Mechanism INTACT, threshold UN-sustained → prediction stays OPEN (re-armed), re-test requires fresh Iran-kinetic re-spike. No V5 score upgrade. Brent -10% from 5/5 peak transmitted in reverse at ~17-18d lag (empirically consistent both directions this cycle).
+- Threshold-vs-mechanism discipline applied (cf. [[finding_threshold_vs_mechanism]]): threshold retraced but mechanism held → re-arm, not MISS.
+
+**No THESIS.md change.** V12-hardening evidence accumulating (GDP composition); formal V12 score-upgrade review + possible v2.5.2 minor still pending Jun 16-17 SEP per OPEN THREAD.
+
 ## 2026-05-03 PM7 — Workbook hardening: VX P1 + KB ref integrity + SCHEMA Option A + VX dedup P4
 
 ### Structural workbook work — 4 files touched, 1 commit (3b47901f)
