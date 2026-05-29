@@ -1,6 +1,6 @@
 # SAM STATUS
 
-**Signal Status:** 🟠 v1.5 — **TOKYO MAY CPI DOVISH MISS (core-core 1.6%, −30bp, breaches 1.9% single-path threshold)** | June BOJ marked ~57% → **~50%** | CHANNEL 1 DEFERRED STRUCTURAL BACKSTOP (Big 3 ESR 3-of-3) | USD/JPY **159.27** (flat) | FXY **$57.65** (+0.19%) | CFTC **-93,905** (May 19; weekly w/ May 22 data still due Fri May 29) | JGB 10Y **2.692%** | JGB 30Y **3.896%** | Brent **$92.37** | **Position: 13 shares + 1 Jun-18 $58C — unchanged. Sep $60 calls NOT warranted under v1.5 single-path.** | **Next catalyst: 🟠 CFTC weekly TOMORROW (Fri May 29). 🔴🔴 BOJ Jun 16 = 13 trd days (dovish-impaired).** | **Last Updated:** 2026-05-28 ~14:30 ET — boot refresh + Tokyo CPI
+**Signal Status:** 🟠 v1.5 — **TOKYO MAY CPI DOVISH MISS (core-core 1.6%)** offset by **APR ACTIVITY BEAT (May 29: IP +0.8%, retail +2.1%)** | June BOJ **~50%** — balanced coin-flip (soft price / firm activity) | CHANNEL 1 DEFERRED STRUCTURAL BACKSTOP (Big 3 ESR 3-of-3) | USD/JPY **159.28** (flat) | FXY **$57.62** (−0.05%) | CFTC **-93,905** (May 19; weekly NOT yet released — afternoon ET, may slip to Mon Jun 1 on Memorial Day) | JGB 10Y **2.692%** | JGB 30Y **3.896%** | Brent **$92.08** | **Position: 13 shares + 1 Jun-18 $58C — unchanged. Sep $60 calls NOT warranted under v1.5 single-path.** | **Next catalyst: 🟠 CFTC weekly (today PM / possibly Mon). 🔴🔴 BOJ Jun 16 = 12 trd days (dovish-impaired).** | **Last Updated:** 2026-05-29 ~10:50 ET — boot refresh
 
 ---
 
@@ -20,30 +20,30 @@
 
 ---
 
-## MARKET DATA — MAY 28 ~14:30 ET (live)
+## MARKET DATA — MAY 29 ~10:50 ET (live)
 
 | Metric | Value | Source | Status |
 |--------|-------|---------|--------|
-| USD/JPY | **159.27** | May 28 14:30 ET | 🟠 flat (+0.04%); 0.5% from 160 |
-| FXY | **$57.65** | May 28 14:30 ET | 🟢 +0.19% on day; position **−1.1% vs $58.32 avg cost** (13 sh, ≈−$8.7 unrealized); breakeven $58.32 above spot |
-| JGB 10Y | **2.692%** | MOF May 28 | 🔴 +0.5bp vs May 27; well above 2.40% stress threshold |
-| JGB 30Y | **3.896%** | MOF May 28 | 🟠 +4bp vs May 27; 10bp below 4.000% breach. SAM-26 still FALSE. |
-| JGB 40Y | 3.814% | MOF May 28 | 🟠 +0bp |
-| EUR/JPY | 185.58 | May 28 14:30 ET | 🟢 +0.07% |
-| GBP/JPY | 214.18 | May 28 14:30 ET | 🟢 +0.10% |
-| AUD/JPY | 114.09 | May 28 14:30 ET | 🟢 +0.09% |
-| Brent | **$92.37** | May 28 14:30 ET | 🔴 **Phase 2 still firing; MOU framework hardening** (-0.36%) |
-| CFTC JPY net | **-93,905** (May 19) | CFTC May 22 release | 🔴 3rd straight build week; 92% of cycle peak. **Weekly w/ May 22 data releases TOMORROW Fri May 29.** |
+| USD/JPY | **159.28** | May 29 10:50 ET | 🟠 flat (+0.0%); 0.5% from 160 |
+| FXY | **$57.62** | May 29 10:50 ET | 🟢 −0.05% on day; position **−1.2% vs $58.32 avg cost** (13 sh, ≈−$9.1 unrealized); breakeven $58.32 above spot |
+| JGB 10Y | **2.692%** | MOF May 28 | 🔴 well above 2.40% stress threshold (May 29 pub not yet out — ~1bd lag) |
+| JGB 30Y | **3.896%** | MOF May 28 | 🟠 10bp below 4.000% breach. SAM-26 still FALSE. (May 29 pub pending) |
+| JGB 40Y | 3.814% | MOF May 28 | 🟠 (May 29 pub pending) |
+| EUR/JPY | 185.67 | May 29 10:50 ET | 🟢 +0.12% |
+| GBP/JPY | 214.29 | May 29 10:50 ET | 🟢 +0.15% |
+| AUD/JPY | 114.43 | May 29 10:50 ET | 🟢 +0.39% |
+| Brent | **$92.08** | May 29 10:50 ET | 🔴 **Phase 2 still firing; MOU framework hardening** (−0.67%) |
+| CFTC JPY net | **-93,905** (May 19) | CFTC May 22 release | 🔴 3rd straight build week; 92% of cycle peak. **Weekly NOT yet out — releases ~3:30pm ET today; may slip to Mon Jun 1 on Memorial Day (Mon May 25).** |
 | MOF LT-debt net | Net BUYING (May 17-23) | MOF | 🟢 no repatriation signal at weekly level |
 | MOF intervention total | ~¥10T ($63.5B) Apr 30 + May 6 | BoJ/BofA | 🔴 LARGEST SINCE 2022; no new |
 | Insurer hedge ratio | 44.4% (Mar 2025) | (14yr low) | 🔴🔴 |
-| FXY P/C ratio | 0.06x | May 28 boot.py | 🟢 Call-heavy (bullish) |
-| FXY ATM IV (CVOL proxy) | **8.01%** (~21d, Jun-18) | May 28 fxy_options.py | 🟢 carry-grind — no imminent shock priced on the *level* |
-| FXY 25d RR (USDJPY-conv) | **−5.76** | May 28 fxy_options.py | ↓ steep FXY call skew = yen-strength convexity bid (thesis-side). ⚠️ proxy scale ≠ OTC RR — read sign/trend, not absolute. |
-| **Tokyo May CPI** 🆕 | **headline 1.4 / core 1.3 / core-core 1.6** | MIC May 28 | 🟠 **DOVISH MISS — core-core −30bp vs Apr 1.9; breaches 1.9% June-BOJ threshold; 7th straight monthly decline. Tokyo subsidy-bias caveat applies vs national.** |
+| FXY P/C ratio | 0.06x | May 29 boot.py | 🟢 Call-heavy (bullish) |
+| FXY ATM IV (CVOL proxy) | **8.59%** (~20d, Jun-18) | May 29 fxy_options.py | 🟢 carry-grind — no imminent shock on *level*; +0.58 vs May 28 (creeping up into catalyst window) |
+| FXY 25d RR (USDJPY-conv) | **−6.35** | May 29 fxy_options.py | ↓ steeper FXY call skew vs May 28 (−5.76) = yen-strength convexity bid building (thesis-side). ⚠️ proxy scale ≠ OTC RR — read sign/trend, not absolute. |
+| **Tokyo May CPI** | **headline 1.4 / core 1.3 / core-core 1.6** | MIC May 28 | 🟠 **DOVISH MISS — core-core −30bp vs Apr 1.9; breaches 1.9% June-BOJ threshold; 7th straight monthly decline. Tokyo subsidy-bias caveat applies vs national.** |
 | Japan April CPI (national) | core 1.4 / core-core 1.9 | MIC May 22 | 🟠 soft band; SAM-27 CONFIRMED. National May print Jun 19 (post-BOJ). |
 
-*Boot.py 42.8s, 8/9 green (CFTC timed out at 31.8s on boot; re-ran clean standalone — data unchanged at May 19 -93,905).*
+*Boot.py 71.6s, 9/9 green. USDJPY yfinance fetch failed → cached TSV fallback (level cross-checked vs FXY, consistent). CFTC unchanged at May 19 -93,905 (weekly not yet released).*
 
 ---
 
@@ -82,18 +82,20 @@
 | Apr 28 ✅ | Hold 0.75% + 3 dissents for 1.00%; GDP cut FY26 1.0%→0.5%; inflation upgrade |
 | May 22 ✅ | April core CPI 1.4% MISS — swap pricing softened 74% → 55-65% |
 | May 28 ✅ | **Tokyo May CPI DOVISH MISS — core-core 1.6% (−30bp, breaches 1.9% threshold). SAM-21 marked ~57% → ~50%.** Tokyo-subsidy-bias caveat applies vs national. |
+| May 29 ✅ | **April activity data BEAT — HAWKISH counterweight.** IP +0.8% MoM (vs −0.4% exp, semis/AI capex; May guide +5.1%); retail sales +2.1% YoY (vs +1.4% exp); unemployment steady. Real economy not rolling over with disinflation. SAM-21 held ~50% — split now balanced (soft price / firm activity), not drifting lower. |
 | **Jun 16** 🔴🔴 | **DOMINANT REMAINING CATALYST (dovish-impaired)** — base case hike to 1.00% (SAM-21 ~50%; market likely sub-55% post-Tokyo) |
 | Jun 16 🟡 | Sato joins board (hawk→dove swap); medium-term political risk |
 | Jun 16-17 | BOJ interim QT assessment |
 
 **Counterweights to dovish CPI:**
+- **April activity data (May 29): IP +0.8% MoM vs −0.4% exp; retail sales +2.1% YoY vs +1.4% exp** — real economy firm; BOJ normalization bias is activity/wage-driven, not spot-CPI driven (Ueda: temporary downward pressure won't prevent hikes)
 - ING desk (May 22): June hike base case held; calls miss "subsidy + base-effect noise"
 - Q1 GDP +2.1% beat (May 19)
 - April exports +14.8% YoY (broad strength)
 - BOJ April Summary of Opinions: "quite possible" to hike "from next MPM" (hawkish anchor)
 - Apr 28 dissent split intact (Takata, Tamura, Nakagawa for 1.00%)
 
-**Resolved (May 28):** Tokyo May CPI core-core slipped to 1.6% (−30bp) — the dovish break flagged here. June pricing impaired; SAM-21 ~57% → ~50%. National May CPI (Jun 19, post-BOJ) is the next read — watch whether national core-core holds above Tokyo's 1.6% (Tokyo subsidy-bias should keep it higher).
+**Resolved (May 28-29):** Tokyo May CPI core-core slipped to 1.6% (−30bp) — dovish *price* break. **April activity data (May 29) then firmed the *quantity* side** (IP +0.8%, retail +2.1%, both beats), so the June picture is a balanced coin-flip with offsetting inputs rather than a probability drifting lower. SAM-21 held ~50%. National May CPI (Jun 19, post-BOJ) is the next CPI read — watch whether national core-core holds above Tokyo's 1.6% (Tokyo subsidy-bias should keep it higher). *Fiscal context: Takaichi ¥3T ($19B) supplementary budget (May 25) funds fuel subsidies — the same subsidies suppressing CPI prints — with "no extra borrowing overall" reassurance, though fresh-debt reports pushed 10Y to ~2.8% intraday last week (long-end fiscal-supply pressure ties to the J-ICS mechanism).*
 
 ---
 

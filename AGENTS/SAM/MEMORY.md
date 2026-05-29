@@ -16,21 +16,16 @@
 - [2026-05-28] **Will likes the flag-then-fetch stepwise method for big refreshes** — flag stale items first (review), THEN fetch newer data tier-by-tier. Keeps scope controlled and lets him gate each tier. Applied to the KB freshness pass; worked well.
 
 ## Findings
-- [2026-05-28] **Shallow-clone "false fork" illusion in web sessions.** Claude-Code web containers clone SHALLOW (`.git/shallow` graft present). `git merge-base` / `rev-list --left-right` then falsely report NO common ancestor + huge divergence — saw "53 ahead / 50 behind, unrelated histories" when the branch was really just **3 ahead / 1 behind** master. Fix: at boot, `git rev-parse --is-shallow-repository`; if true, `git fetch --unshallow origin` before trusting ANY ahead/behind or merge-base. Don't panic at apparent forks in web sessions. Auto-memory promotion candidate.
-- [2026-05-28] **Position cost-basis in state files was inaccurate — recorded "$57.48 blend" vs $58.32 actual (Will ground truth).** Recorded per-tranche fills (8 @ $57.36 + 5 @ $57.66) didn't even reconcile (avg can't exceed both components). Flipped live P/L +0.4% → **−1.1%**, R:R 1:1.86 → 1:1.13. **Never cite position cost-basis / P/L from STATUS-file figures as authoritative — confirm with Will (CLAUDE.md rule #3 + #4).** Auto-memory promotion candidate.
 - [2026-05-12] **Read intraday extremes, not just closes — Apr 30 intervention misread.** May 3 STATUS logged Apr 30 yen move as "Tokyo session reprice" when it was MOF intervention (intraday range 5.15y). Add intraday-range alert when single-day range >2.5y. `usdjpy.py` touch tolerance band (May 6 low 155.05 failed strict ≤155).
 - [2026-05-03] **Sub-agent fresh-context usability tests surface gaps invisible to the builder.** ~30s/test, high-yield. Re-applicable to any future SAM build/refactor.
 
-*Calibration / process lessons now live in auto-memory: see [[finding_threshold_vs_mechanism]] (SAM-25/26), [[feedback_audit_behavioral_ranking]] (doc-cleanup ranking), [[feedback_doc_routing_data_drops]] (snapshot-vs-narrative routing), [[finding_followup_audit_pass]] (re-read after scoped ask).*
+*Calibration / process lessons now live in auto-memory: see [[finding_threshold_vs_mechanism]] (SAM-25/26), [[feedback_audit_behavioral_ranking]] (doc-cleanup ranking), [[feedback_doc_routing_data_drops]] (snapshot-vs-narrative routing), [[finding_followup_audit_pass]] (re-read after scoped ask), [[finding_shallow_clone_false_fork]] (unshallow before trusting git divergence), [[feedback_position_cost_basis_not_authoritative]] (never cite cost-basis from state files).*
 
 ## References
 - Primary data sources + scripts: see `CLAUDE.md` boot step 7 (canonical list).
 - Vol/options: CME CVOL (JPVL), Barchart FXY OI, Investing.com risk reversals. FXY OI auto-captured by `fxy_options.py`.
 
 ## Session Notes
-
-### ⚠️ DATE-STAMP NOTE (read first)
-The prior session this evening (5/28 ~20:00 ET) committed with **UTC** timestamps that had rolled past midnight (00:17–00:39 UTC = 20:17–20:39 ET) and mislabeled its MEMORY notes "**5/29**." The operation runs on **Eastern** (CLAUDE.md) — it was still **5/28 Thursday**. All "5/29" stamps in those notes were wrong and have been corrected to 5/28. Confirmed with Will 5/28. Don't re-introduce 5/29 stamps for 5/28-evening work. *(CFTC weekly genuinely releases 5/29 — that 5/29 is correct.)*
 
 ### CHANGES SINCE LAST SESSION (5/28 eve workbook session → 5/28 PM boot)
 
@@ -62,12 +57,13 @@ The prior session this evening (5/28 ~20:00 ET) committed with **UTC** timestamp
 5. **Tier 2 KB cleanup (deferred):** stale macro/flow rows — KB-131/132/133/134 (MOF flows), 050 (10Y), 116/117 (rate-diff/breakeven "~150"), 138 (JGB levels), 154 (real wages), 155 (consumer/prime), 136 (UST indirect bidder), 139/140/141 (Japan UST $1.1T→$1,239.3B + Mar/Apr TIC). Mostly mirror workbook tsvs → low-effort.
 6. **JICPA finalization MONITOR** — pending past Mar 17 comment close; no final standard as of late May (KB-108/125). Check JICPA site.
 7. **⏸️ DEFERRED — cross-agent signals (Will decision 5/28):** Layer B (BROCK/HANS PC-cascade pull for the Fed-cut secondary path) AND the HENRY stale-carry-numbers ping are **both shelved** pending other-agent development. Will is spending the next couple days bringing CARL/REGINALD/BROCK/HENRY up to SAM's structural level; signaling into agents that can't yet integrate is low-yield. **Do NOT re-flag these as open gaps** — they're captured (STATUS secondary-path row says "pull from BROCK/HANS"; carry numbers in STATUS). Re-activate once recipients are developed. SAM offered to write a "SAM structure → how to port" reference / help per-agent when Will gets there.
-8. **Vol-proxy recalibration (infra TODO):** STRATEGY VOL SIGNALS now reads FXY ATM-IV / 25d-RR proxies directionally — absolute firing thresholds NOT yet recalibrated to proxy scale. Recalibrate against VOL_OPTIONS_FRAMEWORK.md when time allows. Also Fed-cut pricing (FedWatch) has no auto-pull — manual check Jun 9-16 (STATUS secondary-path row flags ⚪ TODO).
-8. **🟠 Iran/Hormuz MOU** — binary; sign → Phase 2 accelerates; collapse → intervention #3 reactivates. **🟠 USDJPY 160 watch** (159.21 at last refresh).
-9. **Eval re-baseline DUE** — CLAUDE.md docket-path + KOYOMI changes are standing trigger; evals carry stale $57.48. RED to self-correct $57.48→$58.32 on next boot.
-10. **Position next-touch:** No add/trim under v1.5 single-path. Triggers: (a) USDJPY <156 for 3 sessions → consider add; (b) BOJ pre-cabling Jun 13-15; (c) thesis break (USDJPY >167 + BOJ dovish) = stop $55.05. Jun-18 $58C theta-watch.
-11. **Tier-1 leftover:** per-insurer hedge ratios + Dai-ichi/Sumitomo FY2025 detail flagged stale — refresh if individual gaiyo PDFs accessible.
-12. **Git:** PR #1 merged to master (`2279198`); MEMORY update is a follow-up PR. Verify origin/master sync at boot (re: shallow-clone Finding).
+8. **🔴 SAM-15 REVIEW (flagged 5/29):** "Oil-in-yen forces repatriation regardless of rate differential" @80%, OPEN — FLAGGED FOR REVIEW. Premise complicated three ways: (1) v1.4 Phase-1-inversion (oil spike under blockade → smaller deficit, not larger — mechanism inverts); (2) Brent collapsed ~$108→~$92, oil-spike premise gone; (3) Big 3 ESR 3-of-3 showed foreign books GROWING, not liquidating. Reassess confidence / restate / resolve FAILED-in-spirit (cf SAM-25). Do NOT leave parked at 80%. Dedicated pass.
+9. **Vol-proxy recalibration (infra TODO):** STRATEGY VOL SIGNALS now reads FXY ATM-IV / 25d-RR proxies directionally — absolute firing thresholds NOT yet recalibrated to proxy scale. Recalibrate against VOL_OPTIONS_FRAMEWORK.md when time allows. Also Fed-cut pricing (FedWatch) has no auto-pull — manual check Jun 9-16 (STATUS secondary-path row flags ⚪ TODO).
+10. **🟠 Iran/Hormuz MOU** — binary; sign → Phase 2 accelerates; collapse → intervention #3 reactivates. **🟠 USDJPY 160 watch** (159.28 at 5/29 boot).
+11. **Eval re-baseline DUE** — CLAUDE.md docket-path + KOYOMI changes are standing trigger; evals carry stale $57.48. RED to self-correct $57.48→$58.32 on next boot.
+12. **Position next-touch:** No add/trim under v1.5 single-path. Triggers: (a) USDJPY <156 for 3 sessions → consider add; (b) BOJ pre-cabling Jun 13-15; (c) thesis break (USDJPY >167 + BOJ dovish) = stop $55.05. Jun-18 $58C theta-watch.
+13. **Tier-1 leftover:** per-insurer hedge ratios + Dai-ichi/Sumitomo FY2025 detail flagged stale — refresh if individual gaiyo PDFs accessible.
+14. **Git:** PR #1 merged to master (`2279198`); MEMORY update is a follow-up PR. Verify origin/master sync at boot (re: shallow-clone Finding).
 
 ### NEXT INFRA SESSION (script build queue — unchanged)
 

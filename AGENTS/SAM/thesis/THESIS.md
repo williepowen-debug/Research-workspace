@@ -1,7 +1,7 @@
 # SAM THESIS — v1.5
 
 **Version:** 1.5
-**Last Updated:** 2026-05-27 (Big 3 ESR window resolved 3-of-3 — Nippon 195% M&A, Meiji 208% manageable, **Sumitomo 197% ↑+19pt with foreign book growing**; Channel 1 demoted to deferred structural backstop)
+**Last Updated:** 2026-05-27 (Big 3 ESR window resolved 3-of-3 — Nippon 195% M&A, Meiji 208% manageable, **Sumitomo 197% ↑+19pt with foreign book growing**; Channel 1 demoted to deferred structural backstop) | 2026-05-29 maintenance: live probabilities/levels now reference STATUS (doc-ownership cleanup — no view change; version held at 1.5)
 **Status:** 🟠 SINGLE-PATH — Channel 1 deferred (3-of-3 Big 3 confirmed ESR pressure absorbed via M&A + equity rally + hedge-cost relief, NOT foreign bond sales); Channel 2 (June BOJ 55-65%) is dominant remaining near-term trigger; Channel 3 dormant on Brent collapse
 **Conviction:** HIGH on direction; MEDIUM on near-term timing (single-catalyst structure carries more drawdown risk than multi-channel convergence)
 **Current state (daily snapshot):** see `STATUS.md`
@@ -12,7 +12,7 @@
 
 Japan is approaching a structural inflection. As of v1.5, the path is **single-catalyst**: yen strengthens primarily via the June BOJ hike (Channel 2). The forced-repatriation mechanism (Channel 1) is deferred to multi-year — the Big 3 mutual ESR disclosures resolved without forced foreign selling. The structural direction is intact but the near-term path is narrower.
 
-**One-liner:** v1.5 — Channel 2 (June BOJ June 16, ~57% SAM / 55-65% market) is now the dominant remaining near-term path. Channel 1 (life insurer ESR pressure → foreign bond sale) deferred after 3-of-3 Big 3 mutual prints (Nippon, Meiji Yasuda, Sumitomo) showed ESR pressure absorbed via M&A capital action + equity rally + hedge-cost relief WITHOUT foreign bond reduction. Foreign books in unrealized GAIN at all three; foreign exposure GROWING (Sumitomo's allocation rose from 33.3% → 35.5%); M&A direction INTO US (Resolution Life, Allstate, Dearborn). J-ICS lifer long-end abandonment (the JGB 30Y mechanism, domestic) remains intact. Channel 3 dormant on Brent -12% collapse (Iran/Hormuz MOU framework hardening). Direction confirmed; the single-path structure makes the position correctly sized at 13 shares + Jun-18 $58C — no Sep OTM addition warranted under v1.5.
+**One-liner:** v1.5 — Channel 2 (June BOJ June 16 — currently a coin-flip; live SAM mark + market pricing in STATUS) is now the dominant remaining near-term path. Channel 1 (life insurer ESR pressure → foreign bond sale) deferred after 3-of-3 Big 3 mutual prints (Nippon, Meiji Yasuda, Sumitomo) showed ESR pressure absorbed via M&A capital action + equity rally + hedge-cost relief WITHOUT foreign bond reduction. Foreign books in unrealized GAIN at all three; foreign exposure GROWING (Sumitomo's allocation rose from 33.3% → 35.5%); M&A direction INTO US (Resolution Life, Allstate, Dearborn). J-ICS lifer long-end abandonment (the JGB 30Y mechanism, domestic) remains intact. Channel 3 dormant on Brent -12% collapse (Iran/Hormuz MOU framework hardening). Direction confirmed; the single-path structure makes the position correctly sized at 13 shares + Jun-18 $58C — no Sep OTM addition warranted under v1.5.
 
 ---
 
@@ -87,14 +87,14 @@ Life insurers also hold ~$40-53B (~$45B central est.) in US private credit — m
 
 ### Channel 2: Carry Unwind (SAM → HENRY) — **v1.5 STATUS: DOMINANT REMAINING NEAR-TERM TRIGGER**
 
-**Current probability (v1.5, May 27 post-Sumitomo):** 12% (7d) / 62% (30d) / 80% (60d) *(7d trimmed -5pp on no remaining Channel 1 binary; 30d / 60d trimmed -3pp each on Channel 1 demotion)*
+**Current probability:** daily-marked in STATUS (CARRY UNWIND PROBABILITY table). Structural shape: 7d low (no near-term binary between now and the June meeting); 30d / 60d anchored on June 16 BOJ as the dominant single-path trigger, trimmed on Channel 1 demotion.
 
-CFTC net short JPY still BUILDING (not covering) — May 1 release (Apr 28 data) at **-102,059** (built +7,599 THROUGH the BOJ event, no cover on hawkish hold). Now **56.7% of July 2024 peak** (-180K) — highest of cycle. Positioning hasn't corrected despite hawkish hold → fuel load actively growing. Aug 2024 precedent: unwind took hours, not days.
+CFTC net short JPY has been rebuilding toward the cycle peak (live net + % of peak in STATUS). Positioning did NOT correct after the Apr 28 hawkish hold → fuel load growing into the June catalyst. Aug 2024 precedent: unwind took hours, not days.
 
-**Post Apr 28 BOJ:** Hold + 3 dissents + GDP cut + inflation upgrade = market repriced June hike to 74% (vs SAM-21 70%). Direction confirmed; timing now hinges on June meeting.
+**Post Apr 28 BOJ:** Hold + 3 dissents + GDP cut + inflation upgrade = market repriced June hike to 74% *at the time*. Since softened by the May 22 national + May 28 Tokyo CPI misses (partly offset by the May 29 activity beat) — current SAM/market marks in STATUS. Direction confirmed; timing hinges on the June meeting.
 
 **Triggers (any one sufficient):**
-- **BOJ hike June base case** (~70% SAM, 74% market); Apr 28 resolved hold + hawkish
+- **BOJ hike June base case** (current SAM mark in STATUS — softened to a coin-flip after the May CPI misses; market 55-65%); Apr 28 resolved hold + hawkish
 - MOF intervention at 160 (USDJPY 157 currently off zone; reactivates if oil escalates again or Tokyo weakness reverses; Katayama "free hand" still on the table)
 - Fed forced cuts via private credit cascade (USD/JPY sub-145 without BOJ)
 - Risk-off event (geopolitical escalation → safe haven yen bid)
@@ -149,11 +149,10 @@ CFTC net short JPY still BUILDING (not covering) — May 1 release (Apr 28 data)
 
 | Date | Catalyst | Expected Impact |
 |------|----------|-----------------------|
-| **Thu-Fri May 28-29** | Tokyo May CPI | Leading indicator for June national. Core-core <1.9% → June BOJ pricing breaks lower from 55-65%. |
-| **Fri May 29** | CFTC JPY (May 22 data) | Watch for break of -102K cycle peak (currently -93,905, 3rd build week) |
-| **Ongoing** | Iran/Hormuz MOU binary watch | Signed text → Phase 2 accelerates; collapsed → intervention #3 zone reactivates. Brent $93.13 (-3.66% intraday May 27). |
-| **Ongoing** | Intervention #3 watch | USDJPY 159+ = trigger zone (currently 159.41). SAM-23 fading 75% → ~55%. Reactivates if Iran MOU collapses. |
-| **🔴🔴 Tue Jun 16** | **BOJ MPM — DOMINANT REMAINING CATALYST** (SAM-21 ~57%; market 55-65%; SAM-24 25bp @85%) | Hike = FXY +5-8% structural; carry unwind fires. **Single-path under v1.5.** |
+| **Fri May 29** | CFTC JPY weekly | Watch for break of cycle peak (live net in STATUS; weekly may slip to Mon Jun 1 on Memorial Day) |
+| **Ongoing** | Iran/Hormuz MOU binary watch | Signed text → Phase 2 accelerates; collapsed → intervention #3 zone reactivates. Brent live in STATUS. |
+| **Ongoing** | Intervention #3 watch | USDJPY 159+ = trigger zone (live level in STATUS). SAM-23 ~55%. Reactivates if Iran MOU collapses. |
+| **🔴🔴 Tue Jun 16** | **BOJ MPM — DOMINANT REMAINING CATALYST** (SAM-21 coin-flip — live mark in STATUS; market 55-65%; SAM-24 25bp @85%) | Hike = FXY +5-8% structural; carry unwind fires. **Single-path under v1.5.** |
 | Jun 16 | Sato joins BOJ board (hawk→dove swap) | Medium-term political risk post-June (beyond 1.00% gets harder) |
 | Jun 18-19 | May trade balance — Phase 1 stability lag-test | Volume recovery vs cost-side decomposition (per CALENDAR routing) |
 
@@ -167,7 +166,7 @@ Oil shock creates a two-phase JPY dynamic:
 - **Phase 1 (weeks 1-2):** Oil spike → trade deficit widens → JPY WEAKENS → carry survives
 - **Phase 2 (weeks 2-8):** Recession risk compounds → safe haven yen WINS → carry unwind
 
-**Current state (May 21):** Brent **$107.84** (+2.7% today). Dual-blockade dynamic persists. Iran/Hormuz remains uncertain.
+**Current state:** Brent live level in STATUS — collapsed from ~$108 (May 21) to ~$92 (late May) on the Iran/Hormuz MOU framework hardening. Phase 2 (war wind-down → safe-haven yen) inception now priced; the dual-blockade dynamic has eased. Iran/Hormuz MOU still binary (sign → Phase 2 accelerates; collapse → oil snapback + intervention #3 zone reactivates).
 
 **v1.4 revision — Phase 1 mechanism INVERTED by supply-destruction effect:** April trade balance (May 21 print) posted ¥+301.9B **SURPLUS** vs ¥-30-45B deficit consensus. **Crude oil imports -64% YoY** (steepest since 1980); ME crude -67.2% YoY (lowest since 1979); LNG from ME -76.1%. The blockade didn't INCREASE Japan's oil bill — it **collapsed import volumes** (physical supply choke). Japan couldn't buy ME barrels. **The Phase 1 mechanism ("oil → trade deficit widens → JPY weakens") inverts when blockade severity chokes physical flow — supply destruction shows up as smaller deficit, not larger.**
 
@@ -259,8 +258,8 @@ Structural levels that gate thesis paths. *Current values + breach status live i
 ## CROSS-AGENT LINKS
 
 - **→ LIQUID:** Life insurer UST selling (base-case pace $7-10B/mo confirmed by v1.5). Hedge ratio 44.4% (14yr low) = $370-550B unhedged. Norinchukin CLO ¥9.7T shrinking. Japan holds **$1,239.3B USTs (Feb 2026)** — +$53.8B Dec→Feb. **v1.5 update: Big 3 mutual ESR window resolved 3-of-3 benign — Channel 1 forced-repatriation timing pushed to multi-year. No acute UST sell signal from Japan lifer side for 2026.** JGB 30Y mechanism (J-ICS lifer long-end abandonment) remains intact but is DOMESTIC — does not transmit to UST demand on the timescale previously framed.
-- **→ HENRY:** Carry unwind probabilities (v1.5, May 27): 7d 12% / 30d 62% / 60d 80%. CFTC -93,905 (3rd build week, 92% of cycle peak). Single-path to Channel 2 (June BOJ Jun 16). Aug 2024 speed precedent intact. **Position structure narrows: with Channel 1 deferred, June BOJ hike is the dominant remaining near-term path for the carry unwind.**
-- **← HAWK:** War → Japan energy vulnerability (90% ME oil dependent). Hormuz blockade collapsed Japan's ME crude imports -67% YoY (lowest since 1979) — supply destruction inverted the Phase 1 trade-deficit mechanism. Brent $93.13 (-3.66% intraday May 27 on Iran/Hormuz MOU framework hardening).
+- **→ HENRY:** Carry unwind probabilities + CFTC net short: daily-marked in STATUS. Single-path to Channel 2 (June BOJ Jun 16). Aug 2024 speed precedent intact. **Position structure narrows: with Channel 1 deferred, June BOJ hike is the dominant remaining near-term path for the carry unwind.**
+- **← HAWK:** War → Japan energy vulnerability (90% ME oil dependent). Hormuz blockade collapsed Japan's ME crude imports -67% YoY (lowest since 1979) — supply destruction inverted the Phase 1 trade-deficit mechanism. Brent collapsed to ~$92 (late May) on Iran/Hormuz MOU framework hardening — live level in STATUS.
 - **← HANS/BROCK:** Private credit cascade → Fed cuts → USD/JPY sub-145 independent of BOJ. **v1.5 elevates this as the secondary path** — with Channel 1 deferred, the US-credit-side route to carry unwind matters more.
 
 ---

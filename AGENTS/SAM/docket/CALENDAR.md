@@ -82,6 +82,8 @@
 | **Ongoing** | Iran/Hormuz MOU (Pakistan mediating) | Signed text, both-side confirmation | Brent pricing framework hardening; deal not done. (See STATUS for live Brent.) | ALL |
 | **Ongoing** | Trump-Iran posture | Public statements, escort posture | Phase 2 acceleration if durable de-escalation | BRENT, HAWK, SAM |
 
+**MOU framework terms (Axios, May 24 — the structure being watched):** 60-day ceasefire · Hormuz reopens to unrestricted shipping · Iran can sell oil freely · 30 days for Hormuz procedures + 60 days for nuclear talks. Pakistan (Field Marshal Asim Munir) mediating. **Friction:** Tehran accuses Washington of obstruction + insists nuclear is separate (war-end first, nuclear after) — final sign-off (Trump + Khamenei) still required. May 29 update: reports of a *temporary* ceasefire-extension agreement + nuclear-talks start (drove Nikkei +2.5%). *Status reclassification trail: "rumor-tier" (May 22) → "near-signed framework w/ Tehran friction" (May 26) → "temporary extension agreed" (May 29). Binary: sign → Phase 2 accelerates; collapse → Brent snapback + intervention #3 zone reactivates.*
+
 ---
 
 *Pruning rule: events older than 1 week get ✅ and removed at next update. Keep under 50 lines of active events.*
