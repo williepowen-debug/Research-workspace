@@ -26,7 +26,9 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 - Mechanism INTACT, threshold UN-sustained → prediction stays OPEN (re-armed), re-test requires fresh Iran-kinetic re-spike. No V5 score upgrade. Brent -10% from 5/5 peak transmitted in reverse at ~17-18d lag (empirically consistent both directions this cycle).
 - Threshold-vs-mechanism discipline applied (cf. [[finding_threshold_vs_mechanism]]): threshold retraced but mechanism held → re-arm, not MISS.
 
-**No THESIS.md change.** V12-hardening evidence accumulating (GDP composition); formal V12 score-upgrade review + possible v2.5.2 minor still pending Jun 16-17 SEP per OPEN THREAD.
+**Apr PCE (Personal Income & Outlays, rel May 28, also grabbed 5/29):** Core PCE **3.3% YoY** (+0.2% MoM) = cycle high, accel from Mar 3.2%; headline PCE 3.8% YoY (+0.4% MoM). Savings rate **2.6%** (-100bps from Mar 3.6%); Real DPI -0.5% MoM (5th neg, accelerating); personal income flat 0.0%; Real PCE +0.1%. = buffer-exhaustion deepening + savings-funded-forced-consumption mechanic intensifying. No prediction resolved (CRL-19 was Mar, already MIXED) — STATUS data integration only.
+
+**No THESIS.md change.** V12-hardening evidence accumulating across THREE 5/28-29 datapoints (Waller pivot + GDP Q1 stagflation composition + Apr monthly Core PCE 3.3%); formal V12 score-upgrade review + possible v2.5.2 minor still pending Jun 16-17 SEP per OPEN THREAD.
 
 ## 2026-05-03 PM7 — Workbook hardening: VX P1 + KB ref integrity + SCHEMA Option A + VX dedup P4
 

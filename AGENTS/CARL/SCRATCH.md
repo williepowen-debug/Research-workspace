@@ -1,10 +1,10 @@
 # CARL SCRATCH
 **Last session:** 2026-05-29 ~15:30 UTC
-**Type:** 5/28-print resolution (Will-directed live-data pass). CRL-18 CONFIRMED (GDP Q1 2nd est +1.6%); CRL-08 re-armed OPEN (gas un-sustained); AFT/MOHELA conf held no ruling. STATUS + PREDICTIONS + CHANGELOG + ROADMAP updated. **Commit pending.**
+**Type:** 5/28-print resolution (Will-directed live-data pass). CRL-18 CONFIRMED (GDP Q1 2nd est +1.6%); CRL-08 re-armed OPEN (gas un-sustained); AFT/MOHELA conf held no ruling; **Apr PCE grabbed** (Core PCE 3.3% cycle-high, savings rate 2.6%). STATUS + PREDICTIONS + CHANGELOG + ROADMAP + SCRATCH updated. **2nd commit pending (Apr-PCE add).**
 
-**PRIORITY-1:** **Apr core PCE (Personal Income & Outlays) — check release status FIRST.** Was pencilled "~May 30"; may have released 5/29 or land 6/1-2. This is the direct bridge from CPI Apr 3.8% reaccel + GDP 2nd-est Core PCE 4.4% ann. into the monthly PCE-deflator post-Waller. Highest-leverage near-term V12 datapoint before Jun 16-17 SEP.
+**PRIORITY-1:** **V12 score-upgrade case now has THREE hardening datapoints in one window** (Waller pivot 5/22 + GDP Q1 2nd-est stagflation composition 5/28 + Apr monthly Core PCE 3.3% cycle-high 5/28). Re-read THESIS.md Vector #12 against "locked + hawkish + possibly hiking"; decide v2.5.2 minor. Score-upgrade review for V1 (CC DQ 13.1%) + V8 (K-shape wage completion) + V12. **Hold the FORMAL V12 score call for Jun 16-17 SEP** (decisive catalyst), but the evidence is now loaded — worth a dedicated thesis pass before then.
 
-**PRIORITY-2:** **V12 score-upgrade case now has 2 hardening datapoints** (Waller pivot 5/22 + GDP Q1 2nd-est stagflation composition 5/28). Re-read THESIS.md Vector #12 against "locked + hawkish + possibly hiking" → decide v2.5.2 minor. Score-upgrade review for V1 (CC DQ 13.1%) + V8 (K-shape wage completion) + V12 still queued.
+**PRIORITY-2:** **Buffer-exhaustion deepening is its own thread now.** Apr savings rate 2.6% (-100bps MoM) + Real DPI -0.5% (5th neg, accelerating) + income flat = savings-funded-forced-consumption intensifying. This is the consumer-runway-shortening mechanic; worth a SAV-vector update + possible KB synthesis row.
 
 ---
 
@@ -15,6 +15,7 @@
 3. **GDP Q1 2026 2nd est (BEA May 28): +1.6%, -0.4pp from 2.0% advance → CRL-18 CONFIRMED** (60% conf, bottom-edge of predicted 1.6-1.8%). Stagflation signature: growth↓ / Core PCE prices↑ to 4.4% ann. (from 4.3%); headline PCE 4.5% held. Drivers: consumer SERVICES (healthcare, Census QSS) + inventory drawdown; goods (recreation/vehicles) revised UP.
 4. **AAA pump $4.391 (5/29) → CRL-08 breach window CLOSED** — partial-not-sustained, re-armed OPEN (92→70%). -17.3¢ from $4.564 peak; Memorial Day spike reverting.
 5. **AFT/MOHELA 5/28 conf** held — no ruling, still in discovery, no class cert / settlement. Low new signal (STUE).
+6. **Apr PCE grabbed (per Will follow-up).** Core PCE **3.3% YoY** cycle-high (+0.2% MoM); headline 3.8% (+0.4%). **Savings rate 2.6% (-100bps from Mar 3.6%)**, Real DPI -0.5% (5th neg, accel), income flat 0.0%, Real PCE +0.1%. Third V12-hardening datapoint of the window + buffer-exhaustion deepening. 4 STATUS rows updated (Core PCE Monthly, Savings Rate, Real DPI, Real Consumer Spending).
 
 ## STATUS CHANGES
 | Item | Change |
@@ -33,8 +34,8 @@
 ## NEXT SESSION SHOULD
 
 ### IMMEDIATE (this session / 24hrs)
-1. **Apr core PCE** — check if released (5/29/6/1-2); if out, fetch + integrate (V12 bridge). PRIORITY-1.
-2. **AAA pump** — only re-arm daily cadence if Brent re-spikes on Iran-kinetic; otherwise dormant (CRL-08 re-armed, no active breach).
+1. **V12 thesis pass** — 3 hardening datapoints loaded (see PRIORITY-1); dedicated re-read worth doing before Jun 16-17 SEP.
+2. **AAA pump** — only re-arm daily cadence if Brent re-spikes on Iran-kinetic; otherwise dormant (CRL-08 re-armed, no active breach). Apr core PCE DONE (grabbed 5/29).
 
 ### UPCOMING (this week)
 3. **Jun 6** BLS May NFP (V16 second realized print).
@@ -47,7 +48,7 @@
 6. **Jun 24** FL Wave 1 UI exhaustion cliff. **Jul 1** SAVE→RAP (7.5M). **~mid-Aug** NY Fed Q2 HHDC (CRL-05 breach window).
 
 ### Workbook / thesis hardening pending
-7. **KB candidates now ~14** — 12 carried + **GDP 2nd-est (stagflation composition)** + **CRL-08 5d-breach episode**. Dedicated workbook session.
+7. **KB candidates now ~16** — 12 carried + **GDP 2nd-est (stagflation composition)** + **CRL-08 5d-breach episode** + **Apr PCE Core 3.3%** + **Apr savings-rate 2.6% / buffer-exhaustion**. Dedicated workbook session. Also: SAV-vector update for 2.6% print.
 8. **V12 thesis re-read / v2.5.2** — 2 hardening datapoints now (Waller + GDP composition).
 9. **V1 + V8 + V12 score-upgrade review.**
 10. **STATUS hygiene** — was 260 over target; this session net ~neutral, recheck line count.
@@ -106,11 +107,11 @@ COUNTER_LOG.md / SOFT_LANDING.md / CONTAINMENT.md / COUNTER_EVIDENCE_FROM_THESIS
 ---
 
 ## URGENT
-- **Apr core PCE** — check release status first thing (PRIORITY-1; V12 bridge).
-- **V12 score-upgrade now has 2 hardening datapoints** (Waller + GDP composition) — flag for thesis re-read.
+- **V12 score-upgrade now has 3 hardening datapoints** (Waller + GDP composition + Apr Core PCE 3.3%) — flag for thesis re-read; hold formal call for Jun 16-17 SEP.
 - CRL-08 dormant unless Brent re-spikes — don't burn AAA daily fetches without a kinetic trigger.
 
 ## SESSION FINDINGS WORTH CARRYING
 - **GDP Q1 2nd est is a clean one-release stagflation signature** — real growth revised DOWN (1.6%) while Core PCE prices revised UP (4.4%). Strongest single-print V12 evidence since Waller; the two compound.
-- **Healthcare-services drag drove the consumer-side revision** (Census QSS) — that's care-avoidance showing up in NIPA, a DOC-domain primary-data point. Goods (recreation/vehicles) revised UP = forced/trade-down consumption, consistent with CARL's savings-funded-consumption read (savings rate 3.6%).
+- **Apr PCE deepens it twice over:** (1) Core PCE 3.3% YoY = monthly-data confirmation of the GDP-quarterly read (V12 third datapoint same window); (2) **savings rate 2.6% (-100bps MoM) on Real DPI -0.5% + flat income** = the consumer runway is shortening fast — savings-funded forced consumption is now eating buffer at an accelerating rate. This is the clearest single-month buffer-exhaustion print of the cycle. Watch whether May/Jun savings rate stabilizes or keeps falling toward sub-2.5% (GFC/2022 territory).
+- **Healthcare-services drag drove the consumer-side GDP revision** (Census QSS) — that's care-avoidance showing up in NIPA, a DOC-domain primary-data point. Goods (recreation/vehicles) revised UP = forced/trade-down consumption.
 - **CRL-08 is the textbook threshold-vs-mechanism case** (cf. finding_threshold_vs_mechanism): threshold reached but didn't sustain, mechanism intact → re-arm OPEN, not MISS. Brent-pump lag empirically 17-18d both directions this cycle.
