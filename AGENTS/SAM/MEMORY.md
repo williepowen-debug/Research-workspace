@@ -27,35 +27,33 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (5/28 PM boot → 5/29 AM boot)
+### CHANGES SINCE LAST SESSION (5/29 AM boot → 5/29 PM boot)
 
-- **Overnight Japan (Fri Tokyo session):** April **activity beat** — IP +0.8% MoM (vs −0.4% exp; semis/AI capex) + retail sales +2.1% YoY (vs +1.4% exp). Hawkish counterweight to Tue's dovish Tokyo CPI. **Iran/Hormuz temporary ceasefire-extension** reported (60d + nuclear talks) → Nikkei +2.5%; energy lower. Takaichi ¥3T budget (5/25) surfaced + logged.
-- Markets flat at boot: USDJPY 159.28, FXY $57.62, Brent $92.08, JGB 30Y 3.896% (5/28 MOF pub).
-- **CFTC weekly did NOT release 5/29 AM** — still -93,905 (May 19). CFTC COT drops ~3:30pm ET Fri; with Memorial Day (Mon 5/25) it may slip to **Mon Jun 1**. Action item #1 below.
+- Same-day continuation. Markets flat: boot.py 12:15 ET → USDJPY 159.24, FXY $57.63, Brent $91.27 (−1.5%), JGB 30Y 3.896% (5/28 MOF pub). No new prints.
+- **CFTC weekly STILL not released** — TSV ends May 19 (-93,905, 3rd build week). COT drops ~3:30pm ET Fri; may slip to **Mon Jun 1** on Memorial Day. Action item #1 below.
 
-### LAST SESSION (5/29 AM — Japan news log + boot-file staleness audit + TIMELINE archive sweep; committed+pushed `cf29a3d2`)
+### LAST SESSION (5/29 PM — boot-slimming targets a+b + SAM-15 resolution)
 
-- **Boot:** git sync clean (FF, only SIGNALS files moved); boot.py 9/9 green; STATUS market table refreshed to 5/29.
-- **Japan news log (Will asked "any overnight news?"):** activity beat → **SAM-21 HELD ~50%** (balanced coin-flip — soft price / firm activity, NOT drifting lower; one activity print doesn't move a coin-flip but rebalances the split). Logged to STATUS BOJ assessment + TIMELINE (5/29 entry) + Takaichi budget (5/25 retro entry) + SAM-21 note.
-- **Staleness audit (Will-requested):** found THESIS never got the 5/28 Tokyo-CPI downgrade → contradicted STATUS on the June-BOJ probability (THESIS ~57-70% vs STATUS ~50%). **Fix: replaced hardcoded probabilities/levels in THESIS with pointers to STATUS** (one-liner, Channel 2 block, triggers, OIL-IN-YEN — which had a **$107.84 / May-21 stale price**, forward table, cross-agent links) so they can't re-rot. SAM-15 flagged OPEN-FOR-REVIEW. Headers bumped; CLAUDE.md SIGNAL_INTAKE v1.4→v1.5 + insurers retire-decision marked actionable; MEMORY date-stamp note pruned + 2 findings promoted to auto-memory ([[finding_shallow_clone_false_fork]], [[feedback_position_cost_basis_not_authoritative]]); logged to MAINTENANCE.
-- **TIMELINE archive sweep (Will-requested, examined-before-cut):** MOU framework terms preserved to CALENDAR FIRST (the one at-risk item), THEN 130 lines of May 11-25 narrative moved verbatim to ARCHIVE.md (lossless, scripted w/ boundary asserts). Active TIMELINE **296→172 lines**. Branch-point table trimmed (8 resolved rows) + stale marks fixed. **Cold-boot footprint ~38.7K→~34.9K tokens (~19.4%→~17.5%).**
-- **Git:** committed `cf29a3d2` (11 files), pushed clean FF to origin (CARL active but untouched — push doesn't touch working tree; origin hadn't advanced).
+- **Boot-slimming target (a):** condensed THESIS deferred-Channel-1 legacy mechanism depth (mechanism bullets / "evidence NOW" / "FLOWS at base pace" / hedge-ratio + private-credit paragraphs) → compact reference block with `research/outputs/` pointers. Verified all three blocks captured in research first (hedge-ratio verbatim in NORINCHUKIN:71, PC in PRIVATE_CREDIT, flow-scenarios in UST_DEEP_DIVE). **Preserved:** v1.5 demotion status, Lifer Long-End Abandonment (kept-live DOMESTIC JGB driver), 78/18/4 weights. THESIS **267→235 ln / 4125→3646 w**.
+- **Boot-slimming target (b):** moved 9 closed-prediction post-mortems (8 FAILED + SAM-25) **verbatim** to new `thesis/PREDICTIONS_ARCHIVE.md` (option i — one-line lesson + `#sam-NN` anchor kept inline per row). Preserved scoreboard preamble (load-bearing per boot step 6) + all OPEN/CONFIRMED rows. PREDICTIONS **2481→1741 w**. Lossless verified; TSV col-integrity intact.
+- **SAM-15 resolved FAILED (mechanism falsified)** — cleared the 80% OPEN-FOR-REVIEW flag. All 4 sub-claims contradicted (oil premise evaporated, deficit→liquidation inverted, rate-differential dominated, insurers grew foreign books). NEW failure-pattern cluster (6): premise-dependence + standalone-channel overreach. Scoreboard now **7C / 8F / 1RS / 4O**.
+- **Combined ~1,050 w off cold-boot footprint.** Logged: 2 MAINTENANCE entries (a, b — structural), 1 CHANGELOG entry (SAM-15, view-neutral).
+- **Then:** Will requested a fresh boot-process audit (in progress at this writeback).
 
 ### NEXT SESSION
 
-1. **🟠 FIRST: pull CFTC weekly — STILL PENDING from 5/29** (didn't release AM; slips to PM 5/29 or **Mon Jun 1** on Memorial Day). `cftc_jpy.py`. Watch break of -102K cycle peak (-93,905, 3rd build week).
-2. **🪙 CONTINUE BOOT-SLIMMING (Will's stated focus for the fresh window).** Footprint now ~34.9K tok (~17.5%). Remaining targets, ranked: (a) **THESIS deferred-Channel-1 detail** → condense the "evidence it's happening NOW" / private-credit-amplifier / flow-scenario depth, point to `research/outputs/` (~2-3K, Channel 1 is DEFERRED so it shouldn't carry ~25% of THESIS); (b) **PREDICTIONS verbose post-mortems** (SAM-25/14/scoreboard) → keep one-line lessons inline, move blow-by-blow to a calibration archive (~1-2K); (c) **May 26 per-insurer ESR deep-dives in TIMELINE** → keep cross-Big-3 synthesis table, archive line-items (~2wk out, too recent now); (d) **auto-memory index growth** (~3.4K, ~60 entries, loads every agent's boot) = cross-agent flag, raise with system-org effort, not SAM-only. **Measure with boot.py + wc before/after each cut. Same discipline as the TIMELINE pass: verify the finding is captured elsewhere before archiving.**
+1. **🟠 FIRST: pull CFTC weekly — STILL PENDING** (didn't release 5/29 AM or by 12:15 PM; slips to PM 5/29 or **Mon Jun 1** on Memorial Day). `cftc_jpy.py`. Watch break of -102K cycle peak (-93,905, 3rd build week).
+2. **🪙 BOOT-SLIMMING — remaining targets.** Done this session: (a) THESIS Channel 1, (b) PREDICTIONS. Remaining, ranked: (c) **May 26 per-insurer ESR deep-dives in TIMELINE** → keep cross-Big-3 synthesis table, archive line-items (still ~recent — judge staleness); (d) **auto-memory index growth** (~60 entries, loads every agent's boot) = cross-agent flag, raise with system-org effort, not SAM-only. **Measure w/ wc before/after; verify captured elsewhere before archiving.**
 3. **Run boot.py** — refresh market table; verify National May CPI not early.
 4. **🔴🔴 Jun 16 BOJ MPM** — DOMINANT, ~50%/dovish-impaired. Jun 17 FOMC co-headline (lands ~24h after = backup catalyst). National May CPI Jun 19 (post-BOJ) — watch if national core-core holds above Tokyo's 1.6%. RED CH-008 resolves here.
-5. **🔴 SAM-15 REVIEW** — "oil-in-yen forces repatriation" @80%, FLAGGED. Premise complicated by Phase-1 inversion + Brent collapse + Big-3 foreign-book growth. Reassess / restate / resolve FAILED-in-spirit (cf SAM-25). Don't leave at 80%.
-6. **🟠 Jun FY2025 Norinchukin** — only near-term Channel 1 reactivation gate; CLO-book reduction language / CEO Kitabayashi.
-7. **Eval re-baseline DUE** — standing trigger now compounded (CLAUDE.md edited again 5/29 + THESIS pointers + TIMELINE restructure). Evals carry stale $57.48; RED to self-correct $57.48→$58.32 on next boot.
-8. **Position next-touch:** No add/trim under v1.5 single-path. Triggers: (a) USDJPY <156 for 3 sessions → consider add; (b) BOJ pre-cabling Jun 13-15; (c) thesis break (USDJPY >167 + BOJ dovish) = stop $55.05. Jun-18 $58C theta-watch.
-9. **🟠 Iran/Hormuz MOU** — binary; sign → Phase 2 accelerates; collapse → intervention #3 reactivates. Terms now in CALENDAR. **🟠 USDJPY 160 watch.**
-10. **⏸️ DEFERRED — cross-agent signals (Will decision 5/28, still holds):** Layer B (BROCK/HANS PC-cascade pull) + HENRY carry-numbers ping shelved pending other-agent development. **Do NOT re-flag as open gaps** — captured in STATUS. Re-activate when recipients developed.
-11. **Vol-proxy recalibration (infra TODO):** STRATEGY VOL SIGNALS reads FXY proxies directionally; absolute thresholds not yet recalibrated to proxy scale. FedWatch has no auto-pull — manual check Jun 9-16.
-12. **KB cleanup leftover (low-effort):** Tier-2 macro/flow rows (KB-131/132/133/134, 050, 116/117, 138, 154, 155, 136, 139/140/141 — mirror workbook tsvs); Tier-1 per-insurer hedge ratios + Dai-ichi/Sumitomo detail (refresh if gaiyo PDFs accessible). **JICPA finalization MONITOR** (KB-108/125 — check site).
-13. **Git:** `cf29a3d2` pushed to origin, in sync at closeout. This MEMORY closeout = follow-up commit. Verify origin/master sync at boot.
+5. **🟠 Jun FY2025 Norinchukin** — only near-term Channel 1 reactivation gate; CLO-book reduction language / CEO Kitabayashi.
+6. **Eval re-baseline DUE** — standing trigger now compounded (THESIS condensed + PREDICTIONS restructured + new PREDICTIONS_ARCHIVE this session, on top of 5/29 AM CLAUDE.md/THESIS edits). Evals carry stale $57.48; RED to self-correct $57.48→$58.32 on next boot.
+7. **Position next-touch:** No add/trim under v1.5 single-path. Triggers: (a) USDJPY <156 for 3 sessions → consider add; (b) BOJ pre-cabling Jun 13-15; (c) thesis break (USDJPY >167 + BOJ dovish) = stop $55.05. Jun-18 $58C theta-watch.
+8. **🟠 Iran/Hormuz MOU** — binary; sign → Phase 2 accelerates; collapse → intervention #3 reactivates. Terms in CALENDAR. **🟠 USDJPY 160 watch.**
+9. **⏸️ DEFERRED — cross-agent signals (Will decision 5/28, still holds):** Layer B (BROCK/HANS PC-cascade pull) + HENRY carry-numbers ping shelved pending other-agent development. **Do NOT re-flag as open gaps** — captured in STATUS.
+10. **Vol-proxy recalibration (infra TODO):** STRATEGY VOL SIGNALS reads FXY proxies directionally; absolute thresholds not recalibrated to proxy scale. FedWatch no auto-pull — manual check Jun 9-16.
+11. **KB cleanup leftover (low-effort):** Tier-2 macro/flow rows (mirror workbook tsvs); Tier-1 per-insurer hedge ratios + Dai-ichi/Sumitomo detail (refresh if gaiyo PDFs accessible). **JICPA finalization MONITOR** (KB-108/125).
+12. **Git:** verify origin/master sync at boot.
 
 ### NEXT INFRA SESSION (script build queue — unchanged)
 

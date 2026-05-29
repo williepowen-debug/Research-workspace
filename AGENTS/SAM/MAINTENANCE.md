@@ -8,6 +8,38 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
+## 2026-05-29 (PM) — boot-slimming target (b): PREDICTIONS post-mortems → calibration archive
+
+**Trigger:** continuation of Will's boot-slimming focus (MEMORY NEXT SESSION #2, target (b)). Will chose option (i) — keep a one-line lesson inline per closed row, move blow-by-blow to an archive.
+
+**The problem it fixes:** closed-prediction `Notes` fields carried verbose post-mortems (8 FAILED + SAM-25 resolved-special ≈ 1,240w) that duplicate the load-bearing one-liners already in the scoreboard preamble. Boot step 6 reads the **preamble**, not the per-row blow-by-blow — so the depth was paying boot-token rent for nothing.
+
+**Fix (no analytical/view change — logged HERE not CHANGELOG):**
+- **New file `thesis/PREDICTIONS_ARCHIVE.md`** (archive-next-to-active-doc convention) — full post-mortems for the 8 FAILED rows (SAM-08/14/15/17/18/19/20/22) + SAM-25, moved **verbatim** (lossless), one `## SAM-NN` section each. Reference-only; not loaded at boot.
+- **Compressed each closed row's `Notes` to a one-line lesson + anchor pointer** (`→ PREDICTIONS_ARCHIVE.md#sam-NN`). Row keeps its falsifiable record (date / confidence / outcome / one-line lesson).
+- **Preserved 100%:** the scoreboard preamble (the load-bearing calibration layer per boot step 6); all **OPEN** rows (SAM-21/23/24/26 — live); all **CONFIRMED** rows (already short, and their "why" isn't duplicated in the preamble).
+- Header pointer added to PREDICTIONS.tsv.
+
+**Verify-before-archive:** lossless by construction (verbatim move, not delete); confirmed all 9 closed Pred_IDs present in the archive + TSV column integrity intact (20 data rows, all 9-col except the pre-existing 8-col SAM-13).
+
+**Boot-impact: positive** — PREDICTIONS.tsv 2,481→1,741 words (−740 / ~30%). Combined with target (a), this session removed ~1,050 words from the cold-boot footprint. Full calibration depth one pointer away.
+
+---
+
+## 2026-05-29 (PM) — boot-slimming target (a): condensed THESIS deferred-Channel-1 detail
+
+**Trigger:** continuation of Will's boot-slimming focus (MEMORY NEXT SESSION #2, target (a) — highest-ranked cut).
+
+**The problem it fixes:** Channel 1 is DEFERRED under v1.5, yet its legacy v1.0-v1.4 mechanism depth (THESIS lines 38-86 — full Mechanism bullets, "Evidence it's happening NOW", "Evidence FLOWS at BASE pace", verbose Hedge-Ratio + Private-Credit paragraphs) carried ~25% of THESIS. A deferred channel shouldn't dominate boot doc #1.
+
+**Verify-before-archive (same discipline as the 5/29 AM TIMELINE pass):** confirmed all three detail blocks are captured in `research/outputs/` before cutting — hedge-ratio 44.4% verbatim in `NORINCHUKIN_CLO_CONTAGION.md:71`; private-credit holdings ($45B central, Sumitomo $10.7B, Nippon TCW $3.25B, $10.1B cascade) in `JAPAN_INSURER_PRIVATE_CREDIT_EXPOSURE.md`; flow-scenario dollar/timeframe defs in `LIFE_INSURER_UST_DEEP_DIVE.md:20-22`.
+
+**Fix (no analytical/view change — version held at 1.5, so logged HERE not CHANGELOG):** collapsed lines 38-86 into a compact "Deferred mechanism reference" bullet block with research pointers. **Preserved live-status content:** v1.5 verdict / demotion / what-still-works / what's-deferred (untouched); the **Lifer Long-End Abandonment** subsection (DOMESTIC JGB 30Y/40Y mechanism explicitly KEPT-LIVE in v1.5); the **78/18/4 flow-scenario weights** (current v1.5 view). GPIF "not a forced seller" note retained as a parenthetical. Section sub-headers promoted to `####` for structure.
+
+**Boot-impact: positive** — THESIS 267→235 lines, 4125→3646 words (−479 words / ~11.6%). No live numbers lost; deferred depth one pointer away in `research/outputs/`.
+
+---
+
 ## 2026-05-29 (AM) — boot-file staleness audit: THESIS live-values → STATUS pointers (doc-ownership cleanup)
 
 **Trigger:** Will-requested audit of boot-up files for stale/unhelpful content.

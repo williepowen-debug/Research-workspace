@@ -35,55 +35,23 @@ Japan is approaching a structural inflection. As of v1.5, the path is **single-c
 
 ---
 
-Japanese life insurers hold $450-810B in USTs. Total Japanese institutional foreign portfolio exposure subject to repatriation is ~$3.0-3.5T (including GPIF ¥124.6T, life insurers ~¥100-150T, megabanks, regionals). Japan holds $1,239.3B in USTs (Feb 2026, +$53.8B Dec→Feb) — world's largest foreign holder. The April 2025 ESR regime change (SMR 933% → ESR 219% in field tests) made unrealized losses visible to regulators for the first time. They can no longer hide. **However, v1.5 confirms ESR visibility ≠ forced foreign selling at multi-year amplitude — capital actions and equity rally absorb the pressure on the timescale of the disclosure window.**
+#### Deferred mechanism reference (condensed — full depth in `research/outputs/`)
 
-**Note:** GPIF is NOT a forced-selling risk. Its 25/25/25/25 target allocation has ±6-7% deviation bands. Even USD/JPY 150→130 only drops foreign asset weights to ~21.5-21.8% — within band. GPIF rebalancing actually CUSHIONS yen appreciation by buying foreign assets when they decline. Confirmed through FY2029.
+*The multi-year structural setup, retained for re-test windows. Channel 1 is DEFERRED under v1.5 — this is reference, not an active near-term driver.*
 
-**Mechanism:**
-- JGB yields rising → unrealized losses mount (Big 4: ~¥13.2T / $86B, up 125% YoY)
-- ESR pressure → sell foreign bonds first (2-3x risk weight vs domestic JGBs)
-- Hedged UST returns now NEGATIVE vs JGBs (-0.34% after hedge costs vs +1.82% JGB)
-- Selling is outright (not FX hedging) because hedge costs ~4.35% exceed UST yield ~4%
+- **Scale:** Life insurers hold $450-810B USTs; total Japanese institutional foreign exposure ~$3.0-3.5T. Japan holds $1,239.3B USTs (Feb 2026, world's largest holder). The Apr-2025 ESR regime made unrealized losses regulator-visible — but v1.5 confirms **ESR visibility ≠ forced foreign selling** at the disclosure-window timescale (capital actions + equity rally absorb it). *(GPIF is NOT a forced seller — ±6-7% bands cushion; even USD/JPY 150→130 keeps foreign weight ~21.5-21.8%, within band. Confirmed through FY2029.)*
+- **Mechanism (legacy):** JGB yields ↑ → unrealized losses mount → ESR pressure → sell foreign bonds first (2-3× risk weight); hedged UST returns negative vs JGBs; selling outright because hedge costs (~4.35%) exceed UST yield (~4%). → `research/outputs/LIFE_INSURER_UST_DEEP_DIVE.md`
+- **Hedge-ratio collapse:** 44.4% (Mar 2025, 14-yr low); ~55% of foreign bonds (~$370-550B) unhedged; vol-wtd entry USD/JPY 135-145. Acceleration point USD/JPY <130-135 = mechanical forced selling. At ~159 FX is not the trigger. → `research/outputs/NORINCHUKIN_CLO_CONTAGION.md`
+- **Private-credit amplifier:** ~$45B central est (¥6-8T) US private credit, 80-90% unhedged; double-hit (yen strength wipes spread income WHILE US PC marks down + gates). Illiquid/un-sellable. Key: Sumitomo $10.7B, Nippon $3.25B (TCW), Meiji $4.2B, Dai-ichi $4.2B. → `research/outputs/JAPAN_INSURER_PRIVATE_CREDIT_EXPOSURE.md`
+- **Flow pace (latest BASE, Apr-30/May-3 data):** Feb TIC stock +$53.8B (aggregate NOT net selling); 4-wk MOF rolling ~$18B/mo (elevated, below stress); JGB auctions orderly across curve (Apr 14 20Y BTC 4.82x). Selling is real but gradual — visible at weekly MOF level, invisible at TIC aggregate (offset by banks/retail Toshin + price effect).
 
-**Lifer Long-End Abandonment as JGB 30Y Driver (NEW v1.4 — May 21):**
-- JGB 30Y broke 4.000% on May 15 (severe insurer stress threshold). 40Y at 3.99%.
-- **Mechanism:** Under J-ICS (live April 2025), super-long JGB moves now reprice the ENTIRE balance sheet (duration mismatch surfaces immediately). Mid-size lifers (Fukoku, Asahi) pivoted from 30/40Y → 10-15Y tenors before the May ESR window. Big 4 sidelined at the long end.
-- **Critical inversion vs. v1.3 framing:** Lifer absence at the long end is **the cause of the yield blowout, not the consequence**. Higher yields don't draw insurers back — J-ICS makes long-duration purchases punitive for solvency. The traditional "yield reaches a level that brings insurers back" reflex is broken.
-- **Implication:** JGB long-end pressure persists/grows without forced BOJ intervention. Pushes BOJ toward (a) policy normalization to legitimize the curve OR (b) YCC-style cap (D2 scenario). Either way, structural yen tailwind.
-- Source: SSGA/Aviva J-ICS analysis; mid-size lifer pivots reported pre-disclosure window.
+**Flow scenarios (v1.5 — post Big 3 ESR 3-of-3):** Base $80-120B/12mo ($7-10B/mo) **78%** · Stress $150-250B/6mo ($25-40B/mo) **18%** · Crisis $300-500B/3mo **4%**. *(Base confirmed by 3-of-3 Big 3 — rotation-within, no net cut; stress lowered, would need a new shock.)*
 
-**Hedge Ratio Collapse (Apr 5):**
-- Nine major life insurers' hedge ratio: **44.4% as of Mar 2025 — 14-YEAR LOW** (down from ~60% historically)
-- ~55% of foreign bond holdings (~$370-550B) are now UNHEDGED
-- Volume-weighted avg FX entry rate for unhedged positions: **USD/JPY 135-145**
-- **Critical acceleration point: USD/JPY below 130-135** — losses severe enough to force systematic selling
-- At current ~160, FX isn't the trigger. Carry unwind to 147-148 starts eating coupon income. Below 135 = mechanical forced selling.
-- Source: `research/outputs/NORINCHUKIN_CLO_CONTAGION.md`
+#### Lifer Long-End Abandonment — JGB 30Y/40Y driver (**KEPT LIVE in v1.5; DOMESTIC**, independent of foreign-asset transmission)
 
-**Evidence it's happening NOW:**
-- Feb 2026 MOF ITS: ¥3.42T foreign bond selling — largest since Oct 2024
-- Nippon Life: ¥220B realized JGB losses (active selling, not paper)
-- Fukoku Mutual: FIRST to stop buying 30Y/40Y JGBs (Jan 2026)
-- 50% of Big 10 insurers planned overseas debt cuts (Oct 2025 survey)
-- J-ICS explains buyer strike: insurers need yield STABILITY not just yield LEVEL
-- Norinchukin (world's largest CLO investor, ¥9.7T/$65B) already shrinking: ¥500B decline Q1 2026, "fastest on record"
-- Nippon Life Apr 22 FY2026: will PARE yen bond holdings (direction of foreign allocation ambiguous)
-
-**Evidence FLOWS running at BASE pace, not stress (latest Apr 30 / May 3 data):**
-- **Feb TIC (Apr 15):** Japan UST holdings ROSE to $1,239.3B (from $1,185.5B Dec) — +$53.8B stock. Aggregate flows NOT visible as net selling.
-- **MOF ITS Apr 5-11 (Apr 16 release):** +¥698B NET BUYING of LT-debt. Mar 29-Apr 4 ¥-2.46T was FY-end seasonal spike, not regime change.
-- **4-week MOF rolling (latest Apr 19-25):** ¥-2.68T ≈ $18B/mo — ELEVATED above base-case upper, below stress.
-- **Apr 14 20Y JGB auction:** BTC 4.82x, tail 0.2bp — exceptional demand. Insurer buyer strike confirmed super-long (30Y/40Y) specific, NOT broadening to 20Y.
-- **Apr 30 2Y JGB auction:** BTC 5.24x, tail 0.005y — front-end demand robust. JGB market continues orderly across the curve.
-- **Interpretation:** Selling is real (hedge math + ESR pressure drive it) but gradual. Visible at weekly MOF level, invisible at aggregate TIC level = offset by other Japanese buyers (banks, retail Toshin) or price-effect on stock.
-
-**Flow scenarios (v1.5 — post Big 3 ESR window 3-of-3 confirmation):**
-- Base case: $80-120B over 12 months ($7-10B/mo) — **78% prob** *(confirmed by 3-of-3 Big 3 — rotation-within, hedge ratio shifts, no net cut)*
-- Stress case: $150-250B over 6 months ($25-40B/mo) — **18% prob** *(lowered — would require new shock to trigger; ESR disclosure window resolved without stress signal)*
-- Crisis case: $300-500B over 3 months ($100-165B/mo) — **4% prob**
-
-**Private Credit Amplifier (NEW — Apr 3):**
-Life insurers also hold ~$40-53B (~$45B central est.) in US private credit — mostly unhedged (80-90%, hedge costs destroy yield pickup on illiquid cash flows). Double-hit: BOJ hike strengthens yen 5-8% (wiping 2-3yr spread income on ~$35-48B unhedged) WHILE US PC marks down simultaneously ($10.1B redemption cascade, gates rising). Combined currency + mark-to-market losses est. $4-12B on positions that CANNOT be sold (illiquid, gated). Key holdings: Sumitomo $10.7B, Nippon Life $3.25B (TCW), Meiji Yasuda $4.2B, Dai-ichi $4.2B. Most CLO holdings are AAA/AA tranches (resilient historically) but direct PC lending less protected. Under ESR, these losses are now visible to regulators. **Net effect:** shifts probability from base case → stress case repatriation. Orderly exit becomes less likely. Source: Morgan Stanley 1-3% AUM range, verified bottom-up. Full research: `research/outputs/JAPAN_INSURER_PRIVATE_CREDIT_EXPOSURE.md`.
+- Under J-ICS (live Apr 2025), super-long JGB moves reprice the ENTIRE balance sheet (duration mismatch surfaces immediately). Mid-size lifers (Fukoku, Asahi) pivoted 30/40Y → 10-15Y; Big 4 sidelined at the long end.
+- **Critical inversion:** lifer absence at the long end is **the cause of the yield blowout, not the consequence**. Higher yields don't draw insurers back — J-ICS makes long-duration purchases punitive for solvency. The "yield level brings insurers back" reflex is broken.
+- **Implication:** JGB long-end pressure persists without forced BOJ intervention → pushes BOJ toward normalization OR a YCC-style cap (D2 scenario). Either way, structural yen tailwind. Source: SSGA/Aviva J-ICS analysis.
 
 ### Channel 2: Carry Unwind (SAM → HENRY) — **v1.5 STATUS: DOMINANT REMAINING NEAR-TERM TRIGGER**
 

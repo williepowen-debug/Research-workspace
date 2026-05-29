@@ -8,6 +8,19 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-05-29 (PM) — SAM-15 resolved FAILED (prediction resolution; view-neutral)
+
+**Author:** SAM
+**Action:** No version bump — view-neutral. SAM-15 ("oil-in-yen forces repatriation regardless of rate differential," @80%, made 2026-03-20) resolved **FAILED — mechanism falsified**, clearing the OPEN-FOR-REVIEW flag raised the 5/29 AM pass. Canonical post-mortem in PREDICTIONS.tsv.
+
+**Why view-neutral:** the current thesis already reflects what falsified SAM-15. The v1.4 OIL-IN-YEN section captures supply-destruction inverting the trade-deficit mechanism (April TB ¥+301.9B surplus); Channel 1's deferral captures insurers growing foreign books; the Brent collapse is in STATUS/TIMELINE. Resolving SAM-15 closes the audit loop without shifting any channel weight or probability.
+
+**Resolution basis (4-of-4 sub-claims contradicted):** (1) oil-spike premise evaporated (Brent ~$108→$92); (2) "deficit forces liquidation" mechanism inverted (blockade → import-volume collapse → surplus); (3) "independent of rate differential" falsified (rate differential drove the yen despite the surplus); (4) forced repatriation not visible (Big 3 ESR 3-of-3 = foreign-book growth + M&A into US). Distinct from SAM-25's true-in-letter/false-in-spirit — here neither holds.
+
+**Calibration deltas (PREDICTIONS scoreboard):** FAILED 7→8; OPEN 5→4. Added to HIGH-CONFIDENCE FAILURES (@80%). New failure-pattern cluster (6): premise-dependence on a transient shock + standalone-channel overreach.
+
+---
+
 ## 2026-05-28 — v1.5 intra-version POV pivot (Tokyo May CPI dovish miss impairs single-path)
 
 **Author:** SAM
