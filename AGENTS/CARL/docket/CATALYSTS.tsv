@@ -1,0 +1,17 @@
+date	event	what_to_check	threshold_signal	priority	who_cares	notes
+2026-05-28	Fannie MF DQ — Mar/Apr refresh	Mar+Apr monthly DQ vs Feb 0.74%	CRL-03 / >0.80% = GFC breach (only 6bps away)	🔴	CARL,HOMER	STALE in STATUS at Feb 0.74%. Surfaced by 5/29 predictions scan. Monthly release ~end of following month.
+2026-06-01	FL hurricane season begins	Season open	POLLY/HOMER P&C cost monitor	🟡	CARL,POLLY,HOMER	Q3 hurricane = true P&C test (ALL/PGR/TRV were cat-light Q1).
+2026-06-02	Dollar General (DG) Q1	Comp traffic vs ticket; "core customer under pressure"; SNAP/EBT mix	K-shape bottom-quintile canary — convergence-downward read	🟠	CARL	DG mgmt historically candid on bottom-quintile. Watch-metrics framework in archive/EARNINGS_WATCH_Q1.md.
+2026-06-06	BLS May NFP + UR + AHE	Headline vs revisions; 3-mo avg	V16 second realized print — Apr +115K noise or stabilization?	🔴	CARL,LABOR	Feb re-revised -156K; 3-mo avg ~48K. Watch revision pattern.
+2026-06-11	BLS May CPI	Headline+core MoM/YoY; Food at Home	Iran-shock+tariff 2nd month; CRL-10 food decomposition	🔴	CARL	Apr 3.8% reaccel; feeds Jun 16-17 FOMC one week ahead.
+2026-06-16	FOMC decision + SEP dot-plot	Dots vs market ~2-in-3 Oct-hike pricing	V12 REGIME — FIRST dot-plot post-Waller pivot	🔴	CARL,REGINALD,HENRY,SAM	Highest-leverage near-term V12 catalyst. Materially higher stakes post-Waller. 2-day mtg (16-17).
+2026-06-24	FL Wave 1 UI exhaustion cliff	~4,500 workers exhaust UI	CRL-07 / DQ spike follows 30-60d	🔴	CARL,LABOR,GIG	DEO Wave 1; DQ conversion feeds CC/auto. LABOR/GIG cross-feed.
+2026-06-30	May PCE (Personal Income & Outlays)	Core PCE MoM/YoY; savings rate; Real DPI	V12 monthly bridge; buffer-exhaustion (Apr savings 2.6%)	🟠	CARL	Watch savings-rate trajectory toward sub-2.5% (GFC/2022 territory).
+2026-07-01	SAVE -> RAP transition	7.5M must select; non-selector payment shock	CRL-13 (non-selection >35%) / CRL-14 (MOHELA defaults)	🔴	CARL,STUE	Wave-structured notices; non-selectors -> Standard/Tiered Oct 1.
+2026-07-15	Involuntary collections restart (AWG + Treasury Offset)	5M+ defaulted borrowers	Student-loan cascade EXECUTING	🔴	CARL,STUE	Approx date — firm when ED/FSA confirms.
+2026-07-15	Q2 consumer-credit earnings cluster	SYF/COF/ALLY NCO+DQ; DHI/PHM GM; UNH/ELV MLR	Masking framework CRL-20/21; CRL-12/22/23	🟠	CARL	Approx mid-Jul — firm exact dates (SYF/COF ~Jul 21) from earnings calendar.
+2026-07-24	Subchapter V Sec 122 cliff	Sub-V eligibility threshold	Small-biz bankruptcy (CRL-16/17 context)	🟠	CARL,POP	POP domain; SubV +67% YoY context.
+2026-07-31	ABS subordinate rating actions (Q2-Q3 window)	EART Class E / AMCAR Class E / SDART Class D	Downgrades -> forced selling	🔴	CARL,REGINALD,LIQUID	Approx; EART Class E CE already breached. AMCAR Class E ~2mo cushion.
+2026-08-15	NY Fed Q2 2026 HHDC	CC 90+ DQ vs GFC 13.74%	CRL-05 next breach window (Q1 13.1%, gap 0.64pp)	🔴	CARL	Direct CRL-05 test. Approx mid-Aug release.
+2026-08-31	FL + national UI exhaustion peak	$7.4M/mo FL + $800-930M/mo national hole	CRL-07 peak; Q3 consumption-stress quarter	🔴	CARL,LABOR	Jul-Aug peak window.
+2026-09-15	Food CPI YoY approaching/breaching 4%	Food at Home YoY trajectory	CRL-10 (>4% Q4 2026, possibly pulling to Q3)	🟠	CARL	Apr Food at Home +0.7% MoM = pulling forward vs Q4 baseline.

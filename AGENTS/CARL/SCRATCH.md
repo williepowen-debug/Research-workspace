@@ -1,6 +1,6 @@
 # CARL SCRATCH
 **Last session:** 2026-05-29 ~15:30 UTC
-**Type:** 5/28-print resolution + boot-process improvement (both Will-directed). CRL-18 CONFIRMED (GDP Q1 2nd est +1.6%); CRL-08 re-armed OPEN (gas un-sustained); Apr PCE grabbed (Core PCE 3.3% cycle-high, savings rate 2.6%); **new boot-step 7 PREDICTIONS scan added → caught CRL-09 MISSED**. STATUS + PREDICTIONS + CHANGELOG + ROADMAP + SCRATCH + CLAUDE.md updated. **3rd commit pending (boot-step + CRL-09).**
+**Type:** 5/28-print resolution + boot-process build (both Will-directed). CRL-18 CONFIRMED; CRL-08 re-armed OPEN; Apr PCE grabbed (Core 3.3% cycle-high, savings 2.6%); boot-step 7 PREDICTIONS scan → caught CRL-09 MISSED; **`docket/` built (single-source catalyst feed + countdown) consolidating 4 drift surfaces, STATUS 260→250**. Multiple commits pushed; docket commit pending.
 
 **PRIORITY-1:** **V12 score-upgrade case now has THREE hardening datapoints in one window** (Waller pivot 5/22 + GDP Q1 2nd-est stagflation composition 5/28 + Apr monthly Core PCE 3.3% cycle-high 5/28). Re-read THESIS.md Vector #12 against "locked + hawkish + possibly hiking"; decide v2.5.2 minor. Score-upgrade review for V1 (CC DQ 13.1%) + V8 (K-shape wage completion) + V12. **Hold the FORMAL V12 score call for Jun 16-17 SEP** (decisive catalyst), but the evidence is now loaded — worth a dedicated thesis pass before then.
 
@@ -16,7 +16,8 @@
 4. **AAA pump $4.391 (5/29) → CRL-08 breach window CLOSED** — partial-not-sustained, re-armed OPEN (92→70%). -17.3¢ from $4.564 peak; Memorial Day spike reverting.
 5. **AFT/MOHELA 5/28 conf** held — no ruling, still in discovery, no class cert / settlement. Low new signal (STUE).
 6. **Apr PCE grabbed (per Will follow-up).** Core PCE **3.3% YoY** cycle-high (+0.2% MoM); headline 3.8% (+0.4%). **Savings rate 2.6% (-100bps from Mar 3.6%)**, Real DPI -0.5% (5th neg, accel), income flat 0.0%, Real PCE +0.1%. Third V12-hardening datapoint of the window + buffer-exhaustion deepening. 4 STATUS rows updated (Core PCE Monthly, Savings Rate, Real DPI, Real Consumer Spending).
-7. **BOOT PROCESS CHANGE (Will-directed).** Added SPAWN PROTOCOL **step 7 "PREDICTIONS due/stale scan"** to CLAUDE.md (cheap half of SAM's calibration discipline; renumbered execute/write-back to 8-14; fixed step-12→13 cross-ref). Helper: `awk -F'\t' 'NR>1 && $6=="OPEN"{print $1"\t"$5"\t"$4}' thesis/PREDICTIONS.tsv`. **First run caught CRL-09 → ❌ MISSED** (JOLTS Mar ratio 0.95 vs predicted <0.88; direction-wrong, crossed own 0.93 invalidation line; cause = pre-flagged LFPR-denominator shrink; V16 intact via other legs). Was OPEN-stale 24d. Resolved in PREDICTIONS + STATUS + CHANGELOG. Scan also surfaced **Fannie MF DQ stale** (STATUS Feb 0.74% — Mar/Apr data should be out; CRL-03 input).
+7. **BOOT PROCESS CHANGE (Will-directed).** Added SPAWN PROTOCOL **step 7 "PREDICTIONS due/stale scan"** to CLAUDE.md (cheap half of SAM's calibration discipline). Helper: `awk -F'\t' 'NR>1 && $6=="OPEN"{print $1"\t"$5"\t"$4}' thesis/PREDICTIONS.tsv`. **First run caught CRL-09 → ❌ MISSED** (JOLTS Mar ratio 0.95 vs predicted <0.88; direction-wrong, crossed own 0.93 invalidation line; cause = pre-flagged LFPR-denominator shrink; V16 intact via other legs). Was OPEN-stale 24d. Resolved in PREDICTIONS + STATUS + CHANGELOG.
+8. **DOCKET BUILT (Will-directed, full consolidation).** New `docket/` (CATALYSTS.tsv 16-row + CALENDAR.md twin) + `scripts/docket_countdown.py` = single source of truth for forward catalysts. Boot step 7 now "Boot scans" (7a docket countdown + 7b predictions); write-back step 13 prunes fired catalysts. **Consolidated 4 drift surfaces:** ROADMAP AWAITING DATA + STATUS EXIT-RULES line → docket pointers; DANGER WINDOW trimmed 12 dated/fired rows (STATUS 260→250); EARNINGS_WATCH_Q1.md → archive/. Countdown auto-flagged **Fannie MF DQ Mar/Apr past-due** (CRL-03 refresh, 0.80% GFC, 6bps away).
 
 ## STATUS CHANGES
 | Item | Change |
@@ -37,7 +38,7 @@
 ### IMMEDIATE (this session / 24hrs)
 1. **V12 thesis pass** — 3 hardening datapoints loaded (see PRIORITY-1); dedicated re-read worth doing before Jun 16-17 SEP.
 2. **Fannie MF DQ refresh** — STATUS stale at Feb 0.74%; Mar/Apr monthly data should be out. CRL-03 (90%, Q2 2026, 0.80% GFC target) is 6bps away — worth a fetch. (Surfaced by new PREDICTIONS scan.)
-3. **Run the new boot-step 7 PREDICTIONS scan** every boot now — `awk -F'\t' 'NR>1 && $6=="OPEN"{print $1"\t"$5"\t"$4}' thesis/PREDICTIONS.tsv`, eyeball Timeframe vs today.
+3. **Run boot-step 7 scans every boot now:** (7a) `.venv/bin/python3 AGENTS/CARL/scripts/docket_countdown.py` (docket countdown — past-due + upcoming); (7b) PREDICTIONS due/stale awk. Prune fired catalysts from docket at write-back.
 4. **AAA pump** — only re-arm daily cadence if Brent re-spikes on Iran-kinetic; otherwise dormant. Apr core PCE DONE (grabbed 5/29).
 
 ### UPCOMING (this week)
