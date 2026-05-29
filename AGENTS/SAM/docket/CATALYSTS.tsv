@@ -1,5 +1,4 @@
 date	event	what_to_check	threshold_signal	priority	who_cares	notes
-2026-05-29	Tokyo May CPI	Core / core-core trend; Tokyo-vs-National gap	core-core <1.9% → June BOJ pricing breaks lower from 55-65% (v1.5 single-path impairs)	🟠	SAM,HENRY	Leading indicator for June national. cpi_japan.py auto-pulls. Release Fri ~8:30 JST (Thu eve ET).
 2026-05-29	CFTC JPY weekly (May 22 data)	Net short level vs -102K cycle peak	break above -102K = NEW cycle peak fuel load (currently -93,905)	🟠	SAM,HENRY	3rd straight build week, 92% of cycle peak. cftc_jpy.py auto-pulls.
 2026-06-08	Japan Q1 GDP — 2nd/revised estimate	Revision vs +2.1% prelim	Downward revision softens BOJ June hawkish case; upward firms it	🟡	SAM,HENRY	Prelim +2.1% (May 19 beat). BOJ June input. Cabinet Office (ESRI).
 2026-06-10	US CPI (May data)	Headline + core MoM/YoY	Hot → Fed dots stay higher → USD firm → carry survives; soft → Fed-cut path → USDJPY down	🟠	SAM,HENRY	Feeds Jun 17 FOMC dots one week ahead. US leg of the rate differential.

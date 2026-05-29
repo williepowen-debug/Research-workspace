@@ -4,11 +4,11 @@
 
 ---
 
-## WEEK OF MAY 27-29 — TOKYO CPI + CFTC
+## WEEK OF MAY 27-29 — TOKYO CPI ✅ + CFTC
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| **🟠 Thu-Fri May 28-29** | **Tokyo May CPI** | Core / core-core trend | Leading indicator for June national. If core-core <1.9% → June BOJ pricing breaks lower from 55-65% → **v1.5 single-path impairs materially**. `cpi_japan.py` auto-pulls. | SAM, HENRY |
+| **✅ Thu May 28** | **Tokyo May CPI** | Core / core-core trend | RESOLVED DOVISH — core-core **1.6%** (−30bp, breaches 1.9% threshold). June BOJ pricing breaks lower; SAM-21 ~57% → ~50%; v1.5 single-path impaired. National May print Jun 19. | SAM, HENRY |
 | **🟠 Fri May 29** | CFTC JPY weekly release (May 22 data) | Net short level vs -102K cycle peak | Break above -102K = NEW cycle peak fuel load (3rd build week running). (See STATUS for current net.) | SAM, HENRY |
 
 ## EARLY-MID JUNE — INTERVENING DATA (rate-differential + super-long demand tests)
@@ -16,7 +16,7 @@
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
 | 🟡 Jun 8 (Mon) | Japan Q1 GDP — 2nd/revised estimate | Revision vs +2.1% prelim (May 19 beat) | Downward revision softens BOJ June hawkish case; upward firms it. *(date cadence-derived; confirm at ESRI)* | SAM, HENRY |
-| 🟠 Jun 10 (Wed) | US CPI (May data) | Headline + core MoM/YoY | Hot → Fed dots stay higher → USD firm → carry survives; soft → Fed-cut path → USDJPY down. Feeds Jun 17 FOMC dots one week ahead. | SAM, HENRY |
+| 🟠 Jun 10 (Wed) | US CPI (May data) — **SECONDARY-PATH READ** | Headline + core MoM/YoY | Hot → Fed dots stay higher → USD firm → carry survives; soft → **Fed-cut secondary path opens** → USDJPY down. Feeds Jun 17 FOMC dots one week ahead. *(Fed-cut path = the v1.5 backup engine if BOJ disappoints — see THESIS INDEPENDENT CATALYST.)* | SAM, HENRY, BROCK |
 | 🟠 Jun 10 (Wed) | **JGB 30Y auction** | BTC ratio, tail | Weak demand (BTC <2.5x / wide tail) = J-ICS lifer long-end abandonment confirmed (SAM-26 mechanism). (See STATUS for live 30Y yield.) | SAM, LIQUID |
 | **🟠 Jun 18 (Thu)** | **May trade balance — PHASE 1 STABILITY LAG-TEST** (per PROME 5/26 forward-question) | Volume recovery vs cost-side: did ME crude flows normalize? did petroleum input costs rise? | **Routing:** (a) deficit re-opens with Brent <$100 → 🟠 Phase 1 mechanism back online (inversion was transient); v1.5 CHANGELOG candidate to relabel inversion as one-month spike. (b) surplus persists with ME volumes recovering → 🟢 inversion is structural; v1.4 finding confirmed durably. (c) surplus persists but ME volumes still depressed → 🟡 inconclusive; defer to June TB (~July 16-17). | SAM, BRENT, HAWK |
 | 🟡 Jun 19 (Fri) | Japan National May CPI | Core / core-core vs April (1.4 / 1.9) | Post-BOJ; confirms or breaks dovish trajectory. Subsidy-taper passthrough watch. | SAM, HENRY |
@@ -30,7 +30,7 @@
 | **🔴🔴 Tue Jun 16** | **BOJ MPM — DOMINANT REMAINING CATALYST under v1.5 single-path** (SAM-21 ~57%; market 55-65%) | Rate + Outlook + QT assessment | Hike to 1.00% = structural FXY +5-8%. Counterweights to dovish CPI: GDP beat, exports +14.8%, dissent split intact. **No Channel 1 parallel catalyst left to absorb a delay** — single-path. | **ALL** |
 | Jun 16 | 🟡 Sato joins BOJ board | Hawk→dove swap | Medium-term political risk (post-June) | SAM |
 | Jun 16-17 | BOJ interim QT assessment | Pace adjustment | Potential super-long-specific operation if JGB stress re-engages | SAM, LIQUID |
-| **🔴 Wed Jun 17** | **FOMC rate decision + dot plot** | Rate decision, SEP dots, Powell presser | Dovish dots → USDJPY down independent of BOJ; the OTHER half of the carry trade. Lands ~24h after BOJ. Statement 2pm ET. | **ALL** |
+| **🔴 Wed Jun 17** | **FOMC rate decision + dot plot — SECONDARY-PATH CATALYST** | Rate decision, SEP dots, Powell presser | Dovish dots → USDJPY down independent of BOJ; the OTHER half of the carry trade. **Lands ~24h after BOJ — the backup read if BOJ disappoints Jun 16** (v1.5 Fed-cut secondary path; see THESIS INDEPENDENT CATALYST). Statement 2pm ET. | **ALL** |
 
 ---
 

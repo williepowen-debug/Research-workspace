@@ -188,11 +188,25 @@ Oil changes TIMING and DRAWDOWN, not DESTINATION. Only loss scenario: oil spikes
 
 ---
 
-## INDEPENDENT CATALYST: FED CUT PATH (via HANS/BROCK)
+## INDEPENDENT CATALYST: FED CUT PATH (SECONDARY PATH under v1.5 — via HANS/BROCK)
 
-Private credit cascade: $10.1B redemption requests Q1 2026 (BlackRock, Blackstone, Apollo, etc). Only ~70% honored. Median borrower interest coverage 1.6x.
+Private credit cascade: $10.1B redemption requests Q1 2026 (BlackRock, Blackstone, Apollo, etc). Only ~70% honored. Median borrower interest coverage 1.6x. Q2 2026 = redemption PEAK (KB-152: Apollo 15% / Ares 14% / BCRED 12% + gating; Blue Owl OCIC/OTIC 28.5%/52.9%).
 
-If cascade → recession → Fed cuts → USD weakens → JPY sub-145 WITHOUT BOJ action. This path is now non-negligible. Carry unwind fires on U.S. credit deterioration alone.
+**Mechanism:** cascade → recession risk → Fed cuts → USD weakens → USD/JPY sub-145 WITHOUT BOJ action. Carry unwind fires on U.S. credit deterioration alone.
+
+**Why this is the SECONDARY PATH now (v1.5, elevated May 27; sharpened May 28):** With Channel 1 deferred and Channel 3 dormant, the position is single-path on the June BOJ hike — which the May 28 Tokyo CPI dovish miss softened to ~50% (SAM-21). This path is the backup engine if the BOJ disappoints, and it is **not** owned by SAM: SAM owns the *carry / USD-JPY transmission end*; HANS/BROCK own the *US private-credit end*. SAM monitors the carry-end tripwires below and pulls the credit-end read from BROCK/HANS.
+
+**The timing key:** **FOMC Jun 17 lands ~24h after BOJ Jun 16.** So if the BOJ disappoints on the 16th, dovish Fed dots on the 17th are the immediate backup read — the secondary path has a *discrete catalyst one day behind the primary*, not a vague multi-month horizon. This materially softens the "BOJ delays = pure downside" framing in the RISK FACTORS table.
+
+**Tripwires (carry-end — SAM watches; current values live in STATUS):**
+
+| Tripwire | "Firing" condition | Significance |
+|---|---|---|
+| Fed-cut pricing (CME FedWatch / FF futures) | Jun 17 cut odds rising; 2026 cut count expanding | Market pricing the Fed-cut path → USD softening ahead of spot |
+| US CPI (Jun 10) | Soft print | Opens Fed-cut path; feeds Jun 17 dots one week ahead |
+| FOMC Jun 17 dots | Dovish dots / cut delivered | USD/JPY down independent of BOJ — the other half of the carry trade |
+| USD/JPY 145 | Breach | Secondary-path target zone; unhedged insurer positions underwater → mechanical selling (links back to Channel 1 threshold) |
+| PC-cascade escalation (**BROCK/HANS input**) | Redemption peak → systemic / forced-seller | The credit-end trigger SAM cannot generate — pull from BROCK/HANS |
 
 ---
 
@@ -226,7 +240,7 @@ Structural levels that gate thesis paths. *Current values + breach status live i
 
 | Risk | Prob | Impact | Mitigation |
 |------|------|--------|-----------|
-| BOJ delays past June (oil + political cover extends to Sep+) | **25%** | FXY -3-5% short term | **Single-path elevation of this risk** — under v1.5 there's no parallel Channel 1 catalyst to absorb the disappointment. Time = more CFTC fuel load; unwind more violent when fires. June 18-19 trade balance + Tokyo CPI gate this. |
+| BOJ delays past June (oil + political cover extends to Sep+) | **25%** (raised weight after May 28 Tokyo CPI dovish miss softened June hike to ~50%) | FXY -3-5% short term | **Single-path, but NOT pure downside:** the Fed-cut secondary path (see INDEPENDENT CATALYST section) provides a backup catalyst — **FOMC Jun 17 dots land ~24h after BOJ Jun 16**, so a BOJ disappointment can be rescued by a dovish Fed the next day. Channel 1 remains deferred (no parallel there). Time = more CFTC fuel load; unwind more violent when fires. May TB (Jun 18) gates the oil/cover side. |
 | Oil shock dominates (Kharg, Brent $120+) | 15% | FXY to ~$51-53 short term | Stop at $55.05; sized to absorb. Brent currently $93.13 (Phase 2 inception direction). |
 | Intervention fails (USDJPY breaks 162+ despite #3, Bessent jawboning empty) | 12% | FXY to ~$55-56 before recovery | Hold if fundamentals intact; stop limits damage. Lowered from 15% on Brent collapse defusing #3 zone. |
 | **Channel 1 reactivates (new shock — e.g. JGB 30Y blows out to 4.5%+, ESR re-tests below 200% via market stress)** | **10%** | Re-add Channel 1 to multi-channel structure; FXY +3-5pp 60d prob upside | Watch JGB long-end, M&A capital action saturation at Big 3 mutuals |
