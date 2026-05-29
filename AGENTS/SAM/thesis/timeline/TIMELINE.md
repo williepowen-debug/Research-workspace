@@ -9,6 +9,22 @@ This document maps our forward-looking expectations — what's coming, what we t
 
 ---
 
+## RESOLVED — May 28 (TOKYO MAY CPI — DOVISH MISS IMPAIRS v1.5 SINGLE-PATH)
+
+### Thu May 28 — TOKYO MAY CPI ✅ RESOLVED — DOVISH MISS (core-core 1.6%)
+
+- **Event:** Tokyo May 2026 CPI release (MIC) — leading indicator (~2-3wk lead) for national June print.
+- **Outcome:** headline 1.4 / core 1.3 / **core-core 1.6%**. Core-core down **−30bp** from April's 1.9% and the **7th consecutive monthly decline** in the underlying-demand gauge (trajectory: Jan 2.4 → Feb 2.5 → Mar 2.3 → Apr 1.9 → **May 1.6**). Core 1.5 → 1.3; headline 1.5 → 1.4.
+- **Why it matters:** Breaches the pre-registered 1.9% June-BOJ threshold (CALENDAR: "core-core <1.9% → June pricing breaks lower from 55-65%"). Critically, **core-core strips energy AND food** — so unlike the April national miss (which was dismissable as fuel-subsidy noise), this is the underlying-demand read softening, harder for the BOJ to look through.
+- **Mechanism-vs-threshold decomposition (per [[finding_threshold_vs_mechanism]]):**
+  - **Threshold read (dovish):** Tokyo core-core 1.6% well below 2% target and falling. The pre-registered threshold breached materially.
+  - **Mechanism read (what the BOJ reacts to):** BOJ normalization is wage-price-spiral driven (Shunto 5.26%, 3rd straight year >5%), not spot-CPI driven. Ueda has explicitly removed the growth precondition and said temporary downward pressure won't prevent hikes. So a soft CPI threshold is dovish-leaning but not decisive.
+  - **Tokyo-vs-national caveat:** Tokyo CPI carries known structural downward bias vs national from Tokyo-metropolitan subsidies (free high-school education, childcare). National May core-core (Jun 19, post-BOJ) likely prints **above** Tokyo's 1.6%. Don't over-extrapolate Tokyo → national.
+- **Market reaction:** Muted — USDJPY 159.27 (flat, +0.04%), FXY $57.65 (+0.19%), JGB 30Y +4bp to 3.896%. No discrete repricing on the Tokyo print at the tape level (national is the BOJ-relevant series).
+- **Net:** **SAM-21 (June hike) marked ~57% → ~50% (coin-flip).** Measured -7pp, not a slash — the Tokyo subsidy-bias + wage-driven mechanism + intact counterweights (Q1 GDP +2.1%, exports +14.8%, 3-dissent split, Apr SoO "quite possible from next MPM") keep June live. **v1.5 single-path now dovish-impaired:** June BOJ is the sole near-term trigger and its probability just softened, with no parallel Channel 1/Channel 3 catalyst to absorb a delay. Carry-unwind probs trimmed 30d 62→58%, 60d 80→77%.
+
+---
+
 ## RESOLVED — May 26 (BIG 3 ESR WINDOW — ALL THREE PRINTED SAME DAY — CHANNEL 1 v1.5 DEMOTION CONFIRMED)
 
 ### Tue May 26 — NIPPON LIFE FY2025 ESR ✅ RESOLVED — THRESHOLD TRUE, MECHANISM FALSE
@@ -243,7 +259,7 @@ This document maps our forward-looking expectations — what's coming, what we t
 | **May 22** | CFTC JPY release | Cover → fuel burning off | Build → fuel re-loading | ✅ **RESOLVED: MAJOR FUEL RELOAD** — -93,905 (+18,803 WoW, 3rd straight build); new shorts +25K, longs flat; 92% of cycle peak |
 | **May 22** | JGB 30Y 4% durability | Holds breach | Retraces below 4% | ✅ **RESOLVED: RETRACED** — 3.931% on oil + dovish CPI; SAM-26 tracking FALSE |
 | **Tue May 26** | **Big 3 mutual ESR window (Nippon + Meiji Yasuda + Sumitomo all same day)** | <200% via market stress → Channel 1 reactivates | Capital-action / manageable → v1.5 downgrade confirmed | ✅ **RESOLVED: v1.5 DOWNGRADE CONFIRMED 3-of-3** — Nippon 195% (M&A-driven, foreign +¥3.99T gain); Meiji 208% (manageable, +¥709B gain); **Sumitomo 197% ↑+19pt with foreign book GROWING +¥1.11T**. Channel 1 demoted to deferred structural backstop. |
-| **Thu-Fri May 28-29** | Tokyo May CPI | Core-core rebounds → June BOJ holds 55-65% | Core-core slips → June breaks lower (v1.5 single-path impairs) | PENDING |
+| **Thu May 28** | Tokyo May CPI | Core-core rebounds → June BOJ holds 55-65% | Core-core slips → June breaks lower (v1.5 single-path impairs) | ✅ **RESOLVED: DOVISH MISS** — core-core 1.6% (−30bp, breaches 1.9%); SAM-21 ~57% → ~50%; v1.5 single-path dovish-impaired |
 | **Ongoing** | Iran/Hormuz MOU status | Signed text → Phase 2 accelerates | Collapses → intervention #3 zone reactivates | PENDING (rumor-tier) |
 | **Ongoing** | Intervention #3 watch | USDJPY 159+ → MOF acts | USDJPY holds <159 organically | PENDING (USDJPY 158.95; SAM-23 fading 75% → ~55%) |
 | **Mid-June** | **BOJ meeting (BASE CASE HIKE)** | Hike to 1.00% → structural move | Delay → H2 timeline | PENDING (SAM-21 mark down 70% → ~57%; market 55-65%) |

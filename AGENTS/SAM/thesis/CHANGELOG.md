@@ -8,6 +8,26 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-05-28 — v1.5 intra-version POV pivot (Tokyo May CPI dovish miss impairs single-path)
+
+**Author:** SAM
+**Action:** No version bump (probability refinement within v1.5's single-path framing). Logged as dated POV pivot per [[finding_pov_changelog_pattern]] to preserve trajectory when STATUS narrative is pruned.
+
+**Old view (May 27, v1.5):** Channel 2 (June BOJ Jun 16) is the dominant remaining near-term trigger; SAM-21 June hike ~57%; carry-unwind 30d 62% / 60d 80%.
+
+**New view (May 28):** June BOJ remains the single-path trigger but is now **dovish-impaired**. Tokyo May CPI printed core-core **1.6%** (−30bp vs April national 1.9%; 7th straight monthly decline in the underlying-demand gauge), breaching the pre-registered 1.9% June-BOJ threshold. SAM-21 marked ~57% → **~50%** (coin-flip). Carry-unwind trimmed 30d 62→58%, 60d 80→77%.
+
+**Why measured (-7pp on SAM-21, not a slash):**
+1. **Tokyo-vs-national bias** — Tokyo CPI carries structural downward bias from Tokyo-metropolitan subsidies (free education/childcare); national May core-core (Jun 19, post-BOJ) likely prints above 1.6%.
+2. **Mechanism vs threshold** ([[finding_threshold_vs_mechanism]]) — BOJ normalization is wage-price-spiral driven (Shunto 5.26%), not spot-CPI driven. Ueda removed the growth precondition; temporary downward pressure won't prevent hikes. A soft CPI threshold is dovish-leaning, not decisive.
+3. **Counterweights intact** — Q1 GDP +2.1%, exports +14.8%, 3-dissent split for 1.00%, Apr SoO "quite possible from next MPM."
+
+**Structural note:** No channel structure change. v1.5 single-path stands; this is the first concrete realization of the v1.5 "BOJ delays past June" risk (25% in THESIS risk table) gaining weight. TIMELINE May 28 entry has the full decomposition.
+
+**Addendum — Fed-cut secondary-path operationalized (same session):** Closed a monitoring gap surfaced this session — the v1.5-elevated Fed-cut path (Channel-1-deferred backup) was framed but not operationalized. Extended THESIS `INDEPENDENT CATALYST: FED CUT PATH` from a thin paragraph into a real monitor with carry-end **tripwires** (Fed-cut pricing, US CPI Jun 10, FOMC Jun 17 dots, USD/JPY 145, PC-cascade escalation as BROCK/HANS input). Key insight logged: **FOMC Jun 17 lands ~24h after BOJ Jun 16**, so a BOJ disappointment can be rescued by a dovish Fed the next day — RISK FACTORS "BOJ delays" row updated from "no parallel catalyst to absorb" to "single-path but NOT pure downside." Kept as independent-catalyst section, NOT promoted to Channel 4 (would require structural-conviction bump beyond one CPI print). Placement per doc-ownership: structure+tripwire-levels → THESIS; dates → CALENDAR (tagged, no new rows); live read → STATUS; BROCK/HANS intelligence → KB-152.
+
+---
+
 ## 2026-05-27 — v1.4 → v1.5 (Channel 1 demoted to deferred structural backstop after Big 3 ESR window 3-of-3 confirmation)
 
 **Author:** SAM + Will
