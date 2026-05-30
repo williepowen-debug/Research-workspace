@@ -1,15 +1,6 @@
 # SENTRY Inbound Feed
-**Generated:** 2026-05-30T11:09:30.953195+00:00
-**Items:** 5
-
-## EIA Today in Energy
-
-### Natural gas for power generation flat this summer, record high expected in 2027
-- **Link:** https://www.eia.gov/todayinenergy/detail.php?id=67725
-- **Date:** 2026-05-28T14:00:00+00:00
-- **Tags:** #energy #brent #eia
-- **GUID:** 2dbc847687c96730
-- **Summary:** We forecast natural gas consumption by the U.S. electric power sector this summer will remain near recent highs and set a record next summer in our May Short-Term Energy Outlook (STEO). Despite a 2% increase in overall U.S. electricity demand this summer, we expect natural gas-fired electricity generation to be similar to last summer, primarily because of forecast increased generation from renewables. In the May STEO, we forecast natural gas consumed by the U.S. electric power sector will averag
+**Generated:** 2026-05-30T22:44:18.879414+00:00
+**Items:** 4
 
 ## SEC EDGAR Filings
 
