@@ -1,51 +1,42 @@
 # CARL TRADE.md
-**Updated:** 2026-03-10 02:15 UTC
+**Status:** ⚠️ STALE — awaiting v2.5.1 refresh
+**Last full version:** 2026-03-10 → `archive/TRADE_2026-03-10.md`
 
 ---
 
-## Active Recommendations
+## Why this file is a stub
 
-| # | Trade | Direction | Conv | Domain Rationale | Entry Signal | Exit Signal | Updated |
-|---|-------|-----------|------|-----------------|-------------|-------------|---------|
-| 1 | **SYF puts** | Short | 4/5 | Store card king, subprime-heavy book. CC 90+ DQ at 12.70% (92% of GFC). NFP -92K = employment detonator arrived. 2-3 month lag to CC charge-offs. K-shape: SYF's borrowers are the bottom 60%. | NFP confirmed. Next catalyst: Q1 earnings miss or guidance cut (Apr). Add on green days. | CC 90+ DQ declines 2 consecutive quarters AND claims <220K sustained. | Mar 10 |
-| 2 | **ALLY puts** | Short | 4/5 | Subprime auto DQ breached 7.1% (CRL-02 CONFIRMED). ALLY has auto + consumer double exposure. Carvana credit channel adds tail risk. Auto DQ leads mortgage DQ by 1-2 quarters — this is early. | Subprime auto threshold breached. Entry justified now. | Auto ABS 60+ DQ reverses below 6.5% for 2 months. | Mar 10 |
-| 3 | **COOP puts** | Short | 3/5 | Largest non-bank servicer. Wright data: 609K current→DQ in one month (Oct 2025). HUD deferrals ended. Foreclosures +41% YoY. MSR valuations assume stable prepay — if foreclosures accelerate, MSR impairment hits. | Foreclosures >70K/qtr (CRL-06) OR Wright shows sustained >500K/mo flows. | Foreclosure pace reverses -20% AND mortgage DQ stabilizes. | Mar 10 |
-| 4 | **OMF puts** | Short | 3/5 | Pure-play subprime personal loans. Bottom 60% consumer is their entire customer base. Gas squeeze ($4.50+ pump, CRL-08) hits OMF borrowers first. FL/TX/Sun Belt concentration = UI exhaustion wave overlap. | Gas pump >$4.50 national avg confirmed OR Q1 NCO spike in earnings. | Subprime personal loan DQ improves 2 consecutive quarters. | Mar 10 |
-| 5 | **IWM puts** | Short | 3/5 | Consumer discretionary weight in small caps. Gas squeeze + CC stress + employment crack = consumer spending collapse. K-shape: small caps have more subprime-customer-facing businesses than large caps. | Already positioned (cross-agent). CARL domain adds conviction via consumer channel. | K-shape closes — subprime metrics improve while aggregate worsens for 2 quarters (survivorship). | Mar 10 |
-| 6 | **HYG puts** | Short | 3/5 | Consumer credit deterioration → HY spread widening. CC issuers and subprime auto lenders are HY components. ABS stress transmits to HY via confidence channel even before defaults spike. | HY OAS >320bps (LIQUID threshold). Consumer data accelerates the path there. | HY OAS reverses below 280bps for 2 weeks. | Mar 10 |
+The Mar 10 version was written under the v2.1 **employment-detonator** framing ("NFP -92K = detonator arrived, 2-3 mo lag to charge-offs"). The thesis is now **v2.5.1** — **multi-vector cost squeeze**, not single employment break. Several Mar 10 anchor rationales no longer match the current mechanism:
 
----
+- **Cross-industry data masking framework** (v2.5, narrowed v2.5.1 to 4 issuers: ALLY / COF / SYF [ACL-only] / RITM) means SYF/ALLY consumer-credit puts now carry a **12-24mo P&L visibility lag** — CRL-21 Q3'26 / CRL-20 Q1'27 falsification windows. Short-dated puts on issuers in the masking set are fighting a known optical-clean window.
+- **V12 Stagflation Trap regime shift** (Waller 5/22 pivot) inverted the easing assumption HYG/HY-OAS trades were written under.
+- **K-shape converging downward** (V8 v2.5) — the bottom-60% / top-40% split that informed OMF/IWM rationales has tightened (both cohorts deteriorating; survivorship bias on public issuers more acute).
+- Gas pump trade (OMF) — CRL-08 partial breach not sustained (5/29), Brent transmission reversed.
 
-## Domain Catalysts
-
-| Date | Event | Trades Affected | Expected Impact |
-|------|-------|-----------------|-----------------|
-| **Mar 20** | Gas pump peak (2-3wk lag from Brent $90) | OMF, SYF, IWM | Bottom 60% squeeze. ULSD parabolic = diesel/heating cost amplifier. |
-| **Mar 24** | FL UI exhaustion first wave | SYF, OMF, COOP | 12-week FL max. Unemployed lose benefits → DQ acceleration in Sun Belt. |
-| **Apr (early)** | NY Fed Q1 consumer credit report | SYF, ALLY, HYG | First data capturing NFP -92K period. CC/auto DQ update. |
-| **Apr 16** | OZK earnings (bank catalyst) | HYG, IWM | Not CARL's domain but bank stress validates consumer→bank transmission. |
-| **Apr-May** | Consumer earnings (SYF, ALLY, OMF, COOP) | ALL | Q1 results = first to show NFP impact on NCOs/provisions. Guidance critical. |
-| **May-Jun** | FL UI exhaustion full wave + gas squeeze overlap | ALL | Maximum consumer stress window. Both vectors converge. |
+The ideas in `archive/TRADE_2026-03-10.md` are still **directionally relevant** but the entry/exit triggers, conviction levels, and naming need to be re-anchored to v2.5.1 mechanism and the masking/visibility-lag constraint.
 
 ---
 
-## Cross-Agent Dependencies
+## Where current active trades live
 
-| Trade | Strengthened By | Weakened By |
-|-------|----------------|-------------|
-| SYF/ALLY puts | LABOR: claims >250K, continued negative NFP | LABOR: claims <220K sustained, positive NFP reversal |
-| COOP puts | REGINALD: bank CRE stress confirms housing feedback loop | Fed mortgage forbearance program (BTFP 2.0 equivalent) |
-| OMF puts | HAWK: Brent stays >$85, gas squeeze confirmed | HAWK: Hormuz reopens, Brent drops <$75 |
-| IWM puts | HENRY: SPX <6,500 (cascade fires), VIX >30 | HENRY: vol compression, market recovers 50-DMA |
-| HYG puts | LIQUID: HY OAS widening accelerates toward 320bps | LIQUID: Fed emergency facilities, spread compression |
+CARL **holds no direct positions.** Live FORGE positions in CARL-adjacent names (bank puts, duration puts) are owned by other agents:
+
+| Position | Owner |
+|----------|-------|
+| KRE puts | REGINALD |
+| WAL puts | REGINALD |
+| OZK puts | OZK |
+| TLT puts | HENRY / BOND |
+
+See `/FORGE/STATUS.md` + `/FORGE/PORTFOLIO.md` for live state.
 
 ---
 
-## Rejected / Exited
+## When to refresh this file
 
-| Trade | Reason |
-|-------|--------|
-| COF/DFS long (contrarian) | K-shape improvement is survivorship bias — worst borrowers already charged off, not credit healing. Pass. |
-| Consumer discretionary basket (BBWI/GPS/KSS) | Too diffuse, low conviction. Individual names don't have enough edge vs. IWM proxy. |
-| AZO long (counter-cyclical) | Potentially valid but outside CARL's stress thesis. Not enough domain edge. |
-| CACC puts | Deep subprime auto pure-play but illiquid options, wide spreads. ALLY captures the theme with better liquidity. |
+A dedicated trade-spawn session, post a thesis-level review of:
+1. Which v2.5.1 vectors give CARL-domain trade edge (consumer credit / housing / ABS / insurance) that REGINALD/HENRY don't already cover.
+2. How to express trades that survive the 12-24mo masking visibility-lag (longer-dated, vintage-window-timed, or non-masked names).
+3. ABS subordinate-tranche short construction (EART Class E breached; AMCAR/SDART cushion measured) — likely fixed-income / structured rather than equity puts.
+
+Until then, do **not** cite triggers or conviction levels from this stub or from `archive/TRADE_2026-03-10.md` on any live trade decision. Surface the staleness instead.
