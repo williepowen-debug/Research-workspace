@@ -1,6 +1,6 @@
 # SAM STATUS
 
-**Signal Status:** 🟠 v1.5 — **TOKYO MAY CPI DOVISH MISS (core-core 1.6%)** offset by **APR ACTIVITY BEAT (May 29: IP +0.8%, retail +2.1%)** | June BOJ **~50%** — balanced coin-flip (soft price / firm activity) | CHANNEL 1 DEFERRED STRUCTURAL BACKSTOP (Big 3 ESR 3-of-3) | USD/JPY **159.28** (flat) | FXY **$57.62** (−0.05%) | CFTC **-93,905** (May 19; weekly NOT yet released — afternoon ET, may slip to Mon Jun 1 on Memorial Day) | JGB 10Y **2.692%** | JGB 30Y **3.896%** | Brent **$92.08** | **Position: 13 shares + 1 Jun-18 $58C — unchanged. Sep $60 calls NOT warranted under v1.5 single-path.** | **Next catalyst: 🟠 CFTC weekly (today PM / possibly Mon). 🔴🔴 BOJ Jun 16 = 12 trd days (dovish-impaired).** | **Last Updated:** 2026-05-29 ~10:50 ET — boot refresh
+**Signal Status:** 🟠 v1.5 — **TOKYO MAY CPI DOVISH MISS (core-core 1.6%)** offset by **APR ACTIVITY BEAT (May 29: IP +0.8%, retail +2.1%)** | June BOJ **~50%** — balanced coin-flip (soft price / firm activity) | CHANNEL 1 DEFERRED STRUCTURAL BACKSTOP (Big 3 ESR 3-of-3) | USD/JPY **159.28** (Fri close, cached) | FXY **$57.62** (Fri close) | 🆕 CFTC **-114,667** (May 26 — **+27K new shorts, BROKE -102K cycle peak; 4th build week**) | JGB 10Y **2.692%** | JGB 30Y **3.896%** | Brent **$91.12** | **Position: 13 shares + 1 Jun-18 $58C — unchanged. Sep $60 calls NOT warranted under v1.5 single-path.** | **Next catalyst: 🔴🔴 BOJ Jun 16 = 12 trd days (dovish-impaired).** | **Last Updated:** 2026-05-31 ~11:50 ET — Sunday boot (CFTC weekly release integrated; prices Fri-cached, mkt closed)
 
 ---
 
@@ -20,30 +20,30 @@
 
 ---
 
-## MARKET DATA — MAY 29 ~10:50 ET (live)
+## MARKET DATA — MAY 31 ~11:50 ET (Sunday boot — prices Fri-cached, mkt closed)
 
 | Metric | Value | Source | Status |
 |--------|-------|---------|--------|
-| USD/JPY | **159.28** | May 29 10:50 ET | 🟠 flat (+0.0%); 0.5% from 160 |
-| FXY | **$57.62** | May 29 10:50 ET | 🟢 −0.05% on day; position **−1.2% vs $58.32 avg cost** (13 sh, ≈−$9.1 unrealized); breakeven $58.32 above spot |
-| JGB 10Y | **2.692%** | MOF May 28 | 🔴 well above 2.40% stress threshold (May 29 pub not yet out — ~1bd lag) |
-| JGB 30Y | **3.896%** | MOF May 28 | 🟠 10bp below 4.000% breach. SAM-26 still FALSE. (May 29 pub pending) |
-| JGB 40Y | 3.814% | MOF May 28 | 🟠 (May 29 pub pending) |
-| EUR/JPY | 185.67 | May 29 10:50 ET | 🟢 +0.12% |
-| GBP/JPY | 214.29 | May 29 10:50 ET | 🟢 +0.15% |
-| AUD/JPY | 114.43 | May 29 10:50 ET | 🟢 +0.39% |
-| Brent | **$92.08** | May 29 10:50 ET | 🔴 **Phase 2 still firing; MOU framework hardening** (−0.67%) |
-| CFTC JPY net | **-93,905** (May 19) | CFTC May 22 release | 🔴 3rd straight build week; 92% of cycle peak. **Weekly NOT yet out — releases ~3:30pm ET today; may slip to Mon Jun 1 on Memorial Day (Mon May 25).** |
+| USD/JPY | **159.28** | Fri May 29 close (cached) | 🟠 flat; 0.5% from 160 |
+| FXY | **$57.62** | Fri May 29 close | 🟢 position **−1.2% vs $58.32 avg cost** (13 sh, ≈−$9.1 unrealized); breakeven $58.32 above spot |
+| JGB 10Y | **2.692%** | MOF May 28 | 🔴 well above 2.40% stress threshold (~1bd lag; May 29 pub not yet propagated) |
+| JGB 30Y | **3.896%** | MOF May 28 | 🟠 10bp below 4.000% breach. SAM-26 still FALSE. |
+| JGB 40Y | 3.814% | MOF May 28 | 🟠 |
+| EUR/JPY | 185.67 | Fri May 29 | 🟢 |
+| GBP/JPY | 214.29 | Fri May 29 | 🟢 |
+| AUD/JPY | 114.41 | Fri May 29 | 🟢 |
+| Brent | **$91.12** | Fri May 29 close | 🔴 **Phase 2 still firing; MOU framework hardening** (−1.70%; −$1 vs 5/29) |
+| 🆕 CFTC JPY net | **-114,667** (May 26) | CFTC May 30 release | 🔴🔴 **4th straight build week; BROKE -102K recent-cycle peak (now 63.7% of Jul-2024 -180K peak). +27,152 NEW shorts WoW (longs +6,390); net −20,762. Fuel load growing into June catalyst, NOT unwinding.** |
 | MOF LT-debt net | Net BUYING (May 17-23) | MOF | 🟢 no repatriation signal at weekly level |
 | MOF intervention total | ~¥10T ($63.5B) Apr 30 + May 6 | BoJ/BofA | 🔴 LARGEST SINCE 2022; no new |
 | Insurer hedge ratio | 44.4% (Mar 2025) | (14yr low) | 🔴🔴 |
-| FXY P/C ratio | 0.06x | May 29 boot.py | 🟢 Call-heavy (bullish) |
-| FXY ATM IV (CVOL proxy) | **8.59%** (~20d, Jun-18) | May 29 fxy_options.py | 🟢 carry-grind — no imminent shock on *level*; +0.58 vs May 28 (creeping up into catalyst window) |
-| FXY 25d RR (USDJPY-conv) | **−6.35** | May 29 fxy_options.py | ↓ steeper FXY call skew vs May 28 (−5.76) = yen-strength convexity bid building (thesis-side). ⚠️ proxy scale ≠ OTC RR — read sign/trend, not absolute. |
+| FXY P/C ratio | 0.06x | May 31 boot.py | 🟢 Call-heavy (bullish) |
+| FXY ATM IV (CVOL proxy) | **8.03%** (~18d, Jun-18) | May 31 fxy_options.py | 🟢 carry-grind — no imminent shock on *level*; −0.56 vs May 29 (eased back despite skew steepening) |
+| FXY 25d RR (USDJPY-conv) | **−7.81** | May 31 fxy_options.py | ↓ steeper FXY call skew vs May 29 (−6.35) = yen-strength convexity bid building further (thesis-side). ⚠️ proxy scale ≠ OTC RR — read sign/trend, not absolute. |
 | **Tokyo May CPI** | **headline 1.4 / core 1.3 / core-core 1.6** | MIC May 28 | 🟠 **DOVISH MISS — core-core −30bp vs Apr 1.9; breaches 1.9% June-BOJ threshold; 7th straight monthly decline. Tokyo subsidy-bias caveat applies vs national.** |
 | Japan April CPI (national) | core 1.4 / core-core 1.9 | MIC May 22 | 🟠 soft band; SAM-27 CONFIRMED. National May print Jun 19 (post-BOJ). |
 
-*Boot.py 71.6s, 9/9 green. USDJPY yfinance fetch failed → cached TSV fallback (level cross-checked vs FXY, consistent). CFTC unchanged at May 19 -93,905 (weekly not yet released).*
+*Boot.py 11.3s, 9/9 green (Sunday — mkt closed, FX/Brent are Fri-cached). CFTC weekly RELEASED (May 30, data as of May 26): -114,667 — broke -102K cycle peak, 4th build week.*
 
 ---
 
@@ -154,7 +154,7 @@ Per **STRATEGY.md** + v1.5 position logic:
 |--------|-------|-----|
 | **✅ Tue May 26** | Big 3 ESR window (all three same day) | RESOLVED 3-of-3 — Nippon 195% M&A; Meiji 208% manageable; **Sumitomo 197% ↑+19pt with foreign book GROWING**. v1.5 Channel 1 demoted. |
 | **✅ Thu May 28** | Tokyo May CPI | RESOLVED DOVISH — core-core 1.6% (−30bp, breaches 1.9%). June BOJ ~57% → ~50%; v1.5 single-path impaired. National May print Jun 19. |
-| **🟠 Fri May 29** | CFTC weekly (May 22 data) | -93,905 (3rd build week); watch for break of -102K cycle peak |
+| **✅ Sat May 30** | CFTC weekly (May 26 data) | **-114,667 — BROKE -102K cycle peak; 4th build week, +27K new shorts. Fuel load growing into June.** |
 | **🟠 ongoing** | Iran/Hormuz MOU framework | Framework hardening but Tehran-obstruction friction visible; binary outcome (sign → Phase 2 accelerates; collapse → intervention #3 zone reactivates) |
 | **🟠 ongoing** | USDJPY 160 retest | Currently 159.41; #3 zone dormant pending Brent direction |
 | **🔴🔴 Tue Jun 16** | **BOJ MPM — DOMINANT REMAINING CATALYST under v1.5 single-path** | Hike to 1.00% = structural FXY +5-8%; carry unwind fires |
@@ -164,7 +164,7 @@ Per **STRATEGY.md** + v1.5 position logic:
 ## REFERENCE DATA
 
 - **Channel 1 (v1.5 DEFERRED):** Base flow pace $7-10B/mo confirmed by 3-of-3 Big 3 prints. Hedge ratio 44.4% (Mar 2025, 14yr low) = $370-550B unhedged. ESR → UST sale mechanism timing pushed to multi-year. Big 3 mutual ESR window resolved without stress signal — next near-term re-test = H2 FY2026 plans (Oct-Nov 2026) or FY2026 ESR (May 2027). J-ICS lifer long-end abandonment (DOMESTIC) remains intact as JGB 30Y/40Y mechanism.
-- **Channel 2 (v1.5 DOMINANT):** CFTC -93,905 (May 19; 3rd build week; 92% Apr 28 peak; +25K new shorts, longs flat). Aug 2024 unwind speed intact. Single-path to June 16 BOJ.
+- **Channel 2 (v1.5 DOMINANT):** CFTC -114,667 (May 26; **4th build week; broke -102K recent-cycle peak; 63.7% of Jul-2024 -180K peak**; +27K new shorts WoW, longs +6.4K). Aug 2024 unwind speed intact. Single-path to June 16 BOJ — fuel load building, not covering.
 - **Channel 3 (v1.5 DORMANT):** MOF interventions Apr 30 + May 6 totaled ~¥10T ($63.5B) — largest since 2022. Bessent May 11-12 affirmation is live overhang. No jawbone May 22-27. Brent -3.66% intraday on MOU framework defuses re-engagement near-term.
 - **BOJ QT:** ¥2.5T/mo purchases, ¥200B/quarter taper. Interim QT assessment flagged Jun 16-17.
 

@@ -9,7 +9,7 @@
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
 | **✅ Thu May 28** | **Tokyo May CPI** | Core / core-core trend | RESOLVED DOVISH — core-core **1.6%** (−30bp, breaches 1.9% threshold). June BOJ pricing breaks lower; SAM-21 ~57% → ~50%; v1.5 single-path impaired. National May print Jun 19. | SAM, HENRY |
-| **🟠 Fri May 29** | CFTC JPY weekly release (May 22 data) | Net short level vs -102K cycle peak | Break above -102K = NEW cycle peak fuel load (3rd build week running). (See STATUS for current net.) | SAM, HENRY |
+| **✅ Sat May 30** | CFTC JPY weekly release (May 26 data) | Net short level vs -102K cycle peak | RESOLVED — **-114,667; BROKE -102K cycle peak (4th build week, +27K new shorts).** Fuel load growing into June, not covering. (See STATUS.) | SAM, HENRY |
 
 ## EARLY-MID JUNE — INTERVENING DATA (rate-differential + super-long demand tests)
 
