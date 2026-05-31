@@ -1,11 +1,24 @@
 # SAM TIMELINE
 
-**Last Updated:** 2026-05-29 (April activity beat + Takaichi ¥3T budget logged; v1.5 single-path framing held)
+**Last Updated:** 2026-05-31 (market repriced June BOJ hike to ~88% through CPI miss; SAM-21 marked ~50% → 70%)
 **View:** Base case progression with branch points marked
 
 This document maps our forward-looking expectations — what's coming, what we think happens, and where the path could diverge. Updated as events resolve or views change.
 
 *Pre-2026-05-11 entries archived to [ARCHIVE.md](ARCHIVE.md).*
+
+---
+
+## RESOLVED — May 31 (MARKET REPRICED JUNE HIKE TO ~88% — SINGLE-PATH MARKET-CONFIRMED)
+
+### Sun May 31 — JUNE BOJ HIKE REPRICED TO ~88% ✅ RESOLVED — SAM-21 MARKED ~50% → 70%
+
+- **Event:** Sunday boot web-check surfaced that the market had repriced the June 16 BOJ hike sharply higher while SAM was carrying a stale 55-65% read. **Polymarket 88.2% / trader-swap pricing ~87.5%** for a 25bp hike (both current May 31). Verified directly (Polymarket page timestamp May 31; cross-read consistent with a second source).
+- **The move:** a **sustained 9-day repricing** — Polymarket was 59.5% on May 22 → 88.2% on May 31 (~+29pp). Critically, it repriced UP straight *through* two dovish CPI prints (April national May 22, Tokyo May 28).
+- **What the market is saying (mechanism-vs-threshold, per [[finding_threshold_vs_mechanism]]):** the market is weighting the **April activity beat (IP +0.8%, retail +2.1%), the 3-dissent split for 1.00%, and the SoO "quite possible from next meeting"** OVER the soft CPI prints. That is the market siding with the **wage/activity mechanism** the BOJ actually reacts to, over the **CPI threshold** — a real-time vindication of the framing we'd logged on May 28-29 (Tokyo CPI = threshold read; activity/wages = mechanism read).
+- **SAM mark:** **SAM-21 ~50% → 70%.** +20pp, not the full +38pp to market, because: (a) earned discount — SAM has failed TWICE being too-hawkish on the Takaichi 0.75% ceiling (SAM-08 @90%, SAM-20 @60%), and that ceiling is still live; (b) thin-liquidity caveat on Polymarket. 70% = clear base case; ~30% held for the political-ceiling/surprise tail.
+- **Corroborating positioning:** CFTC net short -114,667 (May 26) — 4th straight build week, +27K new shorts, broke the -102K recent-cycle peak. Fuel load is building INTO a hawkening market → a more violent unwind if the hike lands (Aug-2024 speed precedent).
+- **Net:** **v1.5 single-path reframed from "dovish-impaired" (May 28) to "market-confirmed base case."** Still single-path (Channel 1 deferred, Channel 3 dormant) — but the single path is now a clear base case, not a coin-flip. Carry-unwind probs bumped 30d 58→70%, 60d 77→83%. Position unchanged (13 sh + Jun-18 $58C); Sep $60 call still NOT warranted (higher near-term hike odds cut against deferred Sep optionality). **Next check: re-verify swap pricing Jun 9-15; National May CPI Jun 19 (post-BOJ).**
 
 ---
 
@@ -162,7 +175,7 @@ This document maps our forward-looking expectations — what's coming, what we t
 | **Thu May 28** | Tokyo May CPI | Core-core rebounds → June BOJ holds 55-65% | Core-core slips → June breaks lower (v1.5 single-path impairs) | ✅ **RESOLVED: DOVISH MISS** — core-core 1.6% (−30bp, breaches 1.9%); SAM-21 → ~50%; v1.5 single-path dovish-impaired |
 | **Ongoing** | Iran/Hormuz MOU status | Signed text → Phase 2 accelerates | Collapses → intervention #3 zone reactivates | PENDING — temporary ceasefire-extension agreed May 29 (framework terms in CALENDAR); final sign-off pending |
 | **Ongoing** | Intervention #3 watch | USDJPY 159+ → MOF acts | USDJPY holds <159 organically | PENDING (USDJPY + SAM-23 ~55% mark in STATUS) |
-| **Mid-June** | **BOJ meeting (BASE CASE HIKE)** | Hike to 1.00% → structural move | Delay → H2 timeline | PENDING (SAM-21 coin-flip ~50% — live mark in STATUS; market 55-65%) |
+| **Mid-June** | **BOJ meeting (BASE CASE HIKE)** | Hike to 1.00% → structural move | Delay → H2 timeline | PENDING (SAM-21 **70%** — live mark in STATUS; **market ~88%** repriced May 31) |
 | **June** | Sato joins board | n/a | Dovish majority forming | PENDING |
 
 *Resolved May 13-22 branch points → condensed summary above + [ARCHIVE.md](ARCHIVE.md). Pre-May 11 → ARCHIVE.md.*

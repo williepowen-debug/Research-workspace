@@ -8,6 +8,27 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-05-31 — v1.5 intra-version POV pivot (market repriced June hike to ~88%; SAM-21 ~50% → 70%)
+
+**Author:** SAM
+**Action:** No version bump (probability refinement within v1.5's single-path framing). Logged as dated POV pivot per [[finding_pov_changelog_pattern]]. **Directly reverses and exceeds the 2026-05-28 "dovish-impaired" pivot below.**
+
+**Old view (May 28-29, v1.5):** June BOJ single-path but **dovish-impaired**; SAM-21 ~50% (coin-flip, held after the May 29 activity beat rebalanced soft-price/firm-activity); carry-unwind 30d 58% / 60d 77%; market read carried as 55-65%.
+
+**New view (May 31):** June BOJ single-path and **market-confirmed base case**. Market repriced the hike to **~88%** (Polymarket 88.2% / trader-swap ~87.5%, both current May 31) — a **sustained 9-day move** (Polymarket 59.5% May 22 → 88.2% May 31) that held *through* both dovish CPI prints. SAM-21 marked ~50% → **70%**. Carry-unwind bumped 30d 58→70%, 60d 77→83%.
+
+**Why this is the decisive read (and why we were behind it):** the market repricing UP through two dovish CPI prints is the market **siding with the wage/activity mechanism over the CPI threshold** — a real-time vindication of the [[finding_threshold_vs_mechanism]] framing we'd logged May 28-29 (Tokyo CPI = threshold; activity/wages = mechanism). Our ~50% mark was carrying a stale 55-65% market read; the live read had moved to ~88%, so 50% was staleness, not a differentiated view.
+
+**Why +20pp (to 70%), not the full +38pp (to 88%):**
+1. **Earned discount** — SAM has failed TWICE being too-hawkish on the Takaichi 0.75% ceiling (SAM-08 @90%, SAM-20 @60%); the ceiling is still live and a thin-ish prediction market won't price political-surprise risk.
+2. 70% = clear base case; ~30% held for the political-ceiling/surprise tail. Re-verify swap pricing Jun 9-15.
+
+**Corroborating:** CFTC net short -114,667 (May 26, 4th build week, +27K new shorts, broke -102K cycle peak) — fuel load building into a hawkening market → more violent unwind if the hike lands.
+
+**Structural note:** No channel structure change. v1.5 single-path stands. Position unchanged (13 sh + Jun-18 $58C); Sep $60 call still NOT warranted (higher near-term hike odds cut against deferred Sep optionality). TIMELINE May 31 entry has the full decomposition.
+
+---
+
 ## 2026-05-29 (PM) — SAM-15 resolved FAILED (prediction resolution; view-neutral)
 
 **Author:** SAM

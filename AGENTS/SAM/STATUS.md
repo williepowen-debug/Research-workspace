@@ -1,19 +1,20 @@
 # SAM STATUS
 
-**Signal Status:** 🟠 v1.5 — **TOKYO MAY CPI DOVISH MISS (core-core 1.6%)** offset by **APR ACTIVITY BEAT (May 29: IP +0.8%, retail +2.1%)** | June BOJ **~50%** — balanced coin-flip (soft price / firm activity) | CHANNEL 1 DEFERRED STRUCTURAL BACKSTOP (Big 3 ESR 3-of-3) | USD/JPY **159.28** (Fri close, cached) | FXY **$57.62** (Fri close) | 🆕 CFTC **-114,667** (May 26 — **+27K new shorts, BROKE -102K cycle peak; 4th build week**) | JGB 10Y **2.692%** | JGB 30Y **3.896%** | Brent **$91.12** | **Position: 13 shares + 1 Jun-18 $58C — unchanged. Sep $60 calls NOT warranted under v1.5 single-path.** | **Next catalyst: 🔴🔴 BOJ Jun 16 = 12 trd days (dovish-impaired).** | **Last Updated:** 2026-05-31 ~11:50 ET — Sunday boot (CFTC weekly release integrated; prices Fri-cached, mkt closed)
+**Signal Status:** 🟠 v1.5 — **🆕 MARKET REPRICED JUNE HIKE TO 88% (Polymarket + swaps, May 31) THROUGH the CPI miss** → SAM-21 marked **~50% → 70%** | June BOJ now CLEAR base case (mkt weighting activity beat + 3-dissent split over soft CPI) | CHANNEL 1 DEFERRED STRUCTURAL BACKSTOP (Big 3 ESR 3-of-3) | USD/JPY **159.28** (Fri close, cached) | FXY **$57.62** (Fri close) | CFTC **-114,667** (May 26 — **+27K new shorts, BROKE -102K cycle peak; 4th build week — fuel load building INTO a hawkening market**) | JGB 10Y **2.692%** | JGB 30Y **3.896%** | Brent **$91.12** | **Position: 13 shares + 1 Jun-18 $58C — unchanged. Sep $60 calls NOT warranted under v1.5 single-path.** | **Next catalyst: 🔴🔴 BOJ Jun 16 = 12 trd days.** | **Last Updated:** 2026-05-31 ~12:30 ET — Sunday boot + BOJ repricing mark-up
 
 ---
 
-## 🔴 STATE OF PLAY (May 28 — Tokyo CPI dovish miss impairs single-path)
+## 🔴 STATE OF PLAY (May 31 — market repriced June hike to 88%, SAM-21 marked up to 70%)
 
-**Single-path to Channel 2 (June BOJ Jun 16) — and Tokyo May CPI just printed dovish, weakening the dominant remaining trigger.**
+**Single-path to Channel 2 (June BOJ Jun 16) — and the market has repriced that trigger sharply HIGHER, straight through the dovish CPI. Our dominant remaining path just got market-confirmed.**
 
-- **🆕 Tokyo May CPI DOVISH MISS (printed May 28):** headline 1.4 / core 1.3 / **core-core 1.6%** — down 30bp from April's 1.9% and the 7th straight monthly decline in the underlying-demand gauge. **Breaches the pre-registered 1.9% threshold (CALENDAR: <1.9% → June pricing breaks lower).** Core-core strips energy AND food, so NOT dismissable as subsidy/energy noise the way headline is. June BOJ hike (SAM-21) marked ~57% → **~50%** (coin-flip).
-  - **Calibration caveats (why ~50%, not lower):** (1) Tokyo CPI carries known structural downward bias vs national from Tokyo-specific subsidies (free education/childcare) — national May core-core (Jun 19, post-BOJ) likely prints above Tokyo's 1.6%; (2) BOJ normalization bias is wage-driven (Shunto 5.26%), not spot-CPI driven — Ueda: temporary downward pressure won't prevent hikes; (3) counterweights intact (Q1 GDP +2.1%, exports +14.8%, 3-dissent split for 1.00%, April SoO "quite possible from next MPM").
-- **v1.5 single-path now dovish-impaired:** with Channel 1 deferred and Channel 3 dormant, June BOJ is the sole near-term trigger — and its probability just softened. No parallel catalyst to absorb a June delay. Elevates the "BOJ delays past June" risk.
+- **🆕 MARKET REPRICED JUNE HIKE TO ~88% (May 31):** Polymarket **88.2%** / trader-swap pricing **~87.5%** for a 25bp hike — both current May 31. This is a **sustained 9-day repricing (~60% May 22 → 88%)** that held *through* two dovish CPI prints (Apr national May 22, Tokyo May 28). The market is weighting the **April activity beat (IP +0.8%, retail +2.1%), 3-dissent split for 1.00%, and SoO "quite possible from next meeting" OVER the soft CPI** — siding with the wage/activity mechanism over the CPI threshold. **SAM-21 marked ~50% → 70%.**
+  - **Why 70%, not 88%:** earned discount — failed TWICE being too-hawkish on the Takaichi 0.75% ceiling (SAM-08, SAM-20), which remains live; plus thin-liquidity caveat on Polymarket. 70% = clear base case; ~30% held for the political-ceiling/surprise tail. Verify swap pricing again Jun 9-15.
+- **Tokyo May CPI dovish miss (May 28) — now market-overridden:** core-core 1.6% (−30bp vs Apr 1.9%, 7th straight decline) breached the 1.9% threshold, BUT the subsequent market repricing UP shows the BOJ-relevant read is the wage/activity mechanism, not the spot-CPI threshold. National May core-core (Jun 19, post-BOJ) likely prints above Tokyo's 1.6% (subsidy bias). The dovish-CPI risk is retained as the ~30% tail, not the base case.
+- **v1.5 single-path now market-confirmed (was dovish-impaired):** with Channel 1 deferred and Channel 3 dormant, June BOJ is the sole near-term trigger — and the market has converged hard toward it firing. CFTC shorts STILL building into it (-114,667) = heavy fuel load + rising hike odds = violent unwind if it lands (Aug-2024 speed).
 - **Channel 1 deferred structural backstop:** Big 3 mutual ESR window resolved 3-of-3 benign (Nippon 195% M&A, Meiji 208% manageable, Sumitomo 197% ↑+19pt foreign book growing). "ESR cap → forced foreign sale" timing pushed to multi-year (next re-test May 2027). J-ICS lifer long-end abandonment (DOMESTIC, JGB 30Y/40Y driver) intact.
 - **Channel 3 dormant** on Brent $92.37 — Iran/Hormuz MOU framework hardening. Tehran-obstruction friction visible.
-- **Forward triggers:** ✅ May 28 Tokyo CPI (dovish) → 🟠 Fri May 29 CFTC weekly (May 22 data) → 🔴🔴 Tue Jun 16 BOJ MPM (single-path, dovish-impaired).
+- **Forward triggers:** ✅ May 28 Tokyo CPI (dovish) → ✅ May 30 CFTC (broke -102K peak) → ✅ May 31 market repriced hike to ~88% → 🔴🔴 Tue Jun 16 BOJ MPM (single-path, market-confirmed base case).
 - **Position unchanged:** 13 shares + 1 Jun-18 $58C. **Sep $60 calls NOT warranted.** Stop $55.05. Jun-18 $58C theta-watch — dovish CPI lengthens odds it fires.
 
 *Full event narrative: `thesis/timeline/TIMELINE.md`. Full v1.4 → v1.5 transition: `thesis/CHANGELOG.md` 2026-05-27 entry.*
@@ -47,15 +48,15 @@
 
 ---
 
-## CARRY UNWIND PROBABILITY — MAY 28 (post Tokyo CPI dovish miss)
+## CARRY UNWIND PROBABILITY — MAY 31 (post BOJ-hike repricing to 88%)
 
-| Timeframe | v1.5 (May 27) | **May 28** | Driver |
-|-----------|--------|-----------|--------|
-| **7d** | 12% | **12%** | No near-term binary; CFTC weekly (Fri) is a gradient. Unchanged. |
-| **30d** | 62% | **58%** | Trimmed -4pp: 30d window is anchored on June 16 BOJ; dovish Tokyo CPI softened that hike from ~57% → ~50%. |
-| **60d** | 80% | **77%** | Trimmed -3pp: June BOJ near-sole driver under single-path, now dovish-impaired. 60d retains more secondary paths (Fed cuts / Phase 2) so less affected. |
+| Timeframe | May 27 | May 28 | **May 31** | Driver |
+|-----------|--------|--------|-----------|--------|
+| **7d** | 12% | 12% | **12%** | No near-term binary; weekend / no live tape. Unchanged. |
+| **30d** | 62% | 58% | **70%** | +12pp: reverses the May 28 dovish-CPI trim AND adds — 30d window is anchored on June 16 BOJ, now repriced to ~88% hike / SAM-21 70%. The dovish-CPI trim is contradicted by the sustained market repricing. |
+| **60d** | 80% | 77% | **83%** | +6pp: June BOJ near-sole driver, now market-confirmed; CFTC fuel load at -114,667 raises unwind violence if it fires. 60d also retains Fed-cut/Phase-2 secondary paths. |
 
-*May 28 adjustment: Tokyo May CPI core-core 1.6% (−30bp, breaches 1.9% threshold) softens the June BOJ hike — the dominant single-path trigger. Measured trim (3-4pp), not a slash: Tokyo subsidy-bias vs national + BOJ wage-driven normalization bias + counterweights keep June a coin-flip, not a "no." Channel 1 deferred, Channel 3 dormant. See `thesis/CHANGELOG.md`.*
+*May 31 adjustment: market repriced the June hike to ~88% (Polymarket + swaps) through the CPI miss → SAM-21 ~50% → 70%. The May 28 dovish-CPI trim (-3/-4pp) is reversed and exceeded — the market sided with the wage/activity mechanism over the CPI threshold. Channel 1 still deferred, Channel 3 still dormant, so the 30d/60d remain single-path — but the single path is now a clear base case, not a coin-flip. See PREDICTIONS SAM-21.*
 
 ---
 
@@ -82,8 +83,9 @@
 | Apr 28 ✅ | Hold 0.75% + 3 dissents for 1.00%; GDP cut FY26 1.0%→0.5%; inflation upgrade |
 | May 22 ✅ | April core CPI 1.4% MISS — swap pricing softened 74% → 55-65% |
 | May 28 ✅ | **Tokyo May CPI DOVISH MISS — core-core 1.6% (−30bp, breaches 1.9% threshold). SAM-21 marked ~57% → ~50%.** Tokyo-subsidy-bias caveat applies vs national. |
-| May 29 ✅ | **April activity data BEAT — HAWKISH counterweight.** IP +0.8% MoM (vs −0.4% exp, semis/AI capex; May guide +5.1%); retail sales +2.1% YoY (vs +1.4% exp); unemployment steady. Real economy not rolling over with disinflation. SAM-21 held ~50% — split now balanced (soft price / firm activity), not drifting lower. |
-| **Jun 16** 🔴🔴 | **DOMINANT REMAINING CATALYST (dovish-impaired)** — base case hike to 1.00% (SAM-21 ~50%; market likely sub-55% post-Tokyo) |
+| May 29 ✅ | **April activity data BEAT — HAWKISH counterweight.** IP +0.8% MoM (vs −0.4% exp, semis/AI capex; May guide +5.1%); retail sales +2.1% YoY (vs +1.4% exp); unemployment steady. Real economy not rolling over with disinflation. |
+| **May 31** ✅ | **🆕 MARKET REPRICED HIKE TO ~88%** — Polymarket 88.2% / swaps ~87.5% (sustained ~60% May 22 → 88%, held through both CPI misses). Market siding with wage/activity mechanism over CPI threshold. **SAM-21 marked ~50% → 70%.** |
+| **Jun 16** 🔴🔴 | **DOMINANT REMAINING CATALYST — now market-confirmed** — base case hike to 1.00% (SAM-21 **70%**; market ~88%) |
 | Jun 16 🟡 | Sato joins board (hawk→dove swap); medium-term political risk |
 | Jun 16-17 | BOJ interim QT assessment |
 
@@ -95,13 +97,13 @@
 - BOJ April Summary of Opinions: "quite possible" to hike "from next MPM" (hawkish anchor)
 - Apr 28 dissent split intact (Takata, Tamura, Nakagawa for 1.00%)
 
-**Resolved (May 28-29):** Tokyo May CPI core-core slipped to 1.6% (−30bp) — dovish *price* break. **April activity data (May 29) then firmed the *quantity* side** (IP +0.8%, retail +2.1%, both beats), so the June picture is a balanced coin-flip with offsetting inputs rather than a probability drifting lower. SAM-21 held ~50%. National May CPI (Jun 19, post-BOJ) is the next CPI read — watch whether national core-core holds above Tokyo's 1.6% (Tokyo subsidy-bias should keep it higher). *Fiscal context: Takaichi ¥3T ($19B) supplementary budget (May 25) funds fuel subsidies — the same subsidies suppressing CPI prints — with "no extra borrowing overall" reassurance, though fresh-debt reports pushed 10Y to ~2.8% intraday last week (long-end fiscal-supply pressure ties to the J-ICS mechanism).*
+**Resolved (May 28-31):** Tokyo May CPI core-core slipped to 1.6% (−30bp) — dovish *price* break. April activity data (May 29) firmed the *quantity* side (IP +0.8%, retail +2.1%). **Then the market broke the tie decisively on May 31 — repricing the hike to ~88% straight through the dovish CPI**, confirming the BOJ-relevant read is the wage/activity mechanism, not the spot-CPI threshold. SAM-21 marked ~50% → 70% (held below 88% for the live Takaichi-ceiling tail). National May CPI (Jun 19, post-BOJ) is the next CPI read — watch whether national core-core holds above Tokyo's 1.6% (Tokyo subsidy-bias should keep it higher). *Fiscal context: Takaichi ¥3T ($19B) supplementary budget (May 25) funds fuel subsidies — the same subsidies suppressing CPI prints — with "no extra borrowing overall" reassurance, though fresh-debt reports pushed 10Y to ~2.8% intraday last week (long-end fiscal-supply pressure ties to the J-ICS mechanism).*
 
 ---
 
 ## SECONDARY PATH — FED CUT (live read; the v1.5 backup engine)
 
-*With June BOJ dovish-impaired (~50%) under single-path, the Fed-cut path is the backup. SAM watches the carry-end tripwires; PC-cascade credit-end read pulled from BROCK/HANS. Tripwire definitions + mechanism live in THESIS INDEPENDENT CATALYST section.*
+*With June BOJ now a market-confirmed base case (SAM 70% / market ~88%) under single-path, the Fed-cut path is the secondary backup if the BOJ disappoints. SAM watches the carry-end tripwires; PC-cascade credit-end read pulled from BROCK/HANS. Tripwire definitions + mechanism live in THESIS INDEPENDENT CATALYST section.*
 
 | Tripwire | Current read (May 28) | Status |
 |---|---|---|
@@ -122,13 +124,13 @@ Per **STRATEGY.md** + v1.5 position logic:
 
 | Hard Trigger | Status | Implication |
 |---|---|---|
-| BOJ hikes at June meeting | PENDING (Jun 16, ~57% SAM / 55-65% market) | **Single-path under v1.5** |
+| BOJ hikes at June meeting | PENDING (Jun 16, **70% SAM / ~88% market**) | **Single-path under v1.5 — now market-confirmed base case** |
 | MOF intervenes at 160 | ✅ FIRED Apr 30 + May 6 | Tranche 2 authorization remains valid (used) |
 | USD/JPY sub-155 for 3+ sessions WITH oil normalizing | NEAR-MISS (May 6 1 session only); oil normalizing now ($93.13) — watch closely | Not confirmed but Phase 2 path opening |
 | ESR <200% (FY2025 Big 3 mutuals) | ✅ RESOLVED 3-of-3 BENIGN | **Channel 1 demoted to deferred structural backstop. No reactivation catalyst near-term.** |
 | Fed cuts via private credit cascade | PENDING | **Elevated to secondary path under v1.5** |
 
-**Sep $60 call decision (Position A, deferred from May 21 pending Sumitomo):** **NOT WARRANTED.** The asymmetry case for OTM-deferred optionality was built on multi-channel convergence (Channel 1 + Channel 2 + Channel 3 firing in same window). With Channel 1 deferred and Channel 3 dormant, structure is single-path. Paying for time at a 55-65% single-catalyst case is not the asymmetry Will established the position for. Existing position correctly covers near-term (Jun $58 call) + durable view (shares). Stop $55.05 unchanged.
+**Sep $60 call decision (Position A, deferred from May 21 pending Sumitomo):** **NOT WARRANTED — conclusion holds, arguably strengthened by the repricing.** The asymmetry case for OTM-deferred optionality was built on multi-channel convergence (Channel 1 + Channel 2 + Channel 3 firing in same window). With Channel 1 deferred and Channel 3 dormant, structure is single-path. The May 31 repricing (hike now ~88% market / 70% SAM in JUNE) cuts AGAINST a Sep call, not for it: Sep OTM optionality is time-insurance for a *delayed* catalyst, and a higher near-term hike probability makes the delay scenario less likely. Near-dated Jun-18 $58C + shares already cover the high-probability June case. Stop $55.05 unchanged. *(Any position change remains Will's call.)*
 
 ---
 
