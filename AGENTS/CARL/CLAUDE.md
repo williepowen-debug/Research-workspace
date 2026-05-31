@@ -263,21 +263,21 @@ These rules govern *how to reason about workbook mutations* — distinct from ou
 | `TEAM.md` | **Read at boot.** Sub-agent roster — status, last refresh, upcoming catalysts, staleness. Drives spawn decisions. |
 | `ROADMAP.md` | **State-of-CARL tracker.** Open threads / open questions / investigations backlog / recently resolved. *(Dated forward catalysts moved to `docket/` — May 29 2026.)* Read at boot (step 6) for context recall. Update at session end (step 13) before SCRATCH rewrite. SCRATCH = next session focus; ROADMAP = persistent state across sessions. |
 | `SPAWN_PROTOCOL.md` | How to spawn sub-agents: spawn types, prompt templates, synthesis workflow, cost model. Reference when spawning. |
-| `TRADE.md` | **Stub (May 30 2026).** Mar 10 v2.1 version archived to `archive/TRADE_2026-03-10.md` — old framing (NFP-detonator, pre-masking-framework) is misaligned to v2.5.1 mechanism. Refresh = dedicated trade-spawn session. Until then, do not cite triggers/conviction from either file on live trade decisions. |
-| `archive/EARNINGS_WATCH_Q1.md` | **Archived May 29 2026** (Q1 dates fired; calendar function → `docket/`). Per-company watch-metric templates (SYF/COF/ALLY/AXP/WMT/DLTR/DG) remain reusable reference for Q2+ earnings prep. |
+| `TRADE.md` | **Stub.** Mar-10 v2.1 archived (`archive/TRADE_2026-03-10.md`) — misaligned to v2.5.1 mechanism. Refresh = dedicated trade-spawn session; do not cite triggers/conviction from either file on live trade decisions. |
+| `archive/EARNINGS_WATCH_Q1.md` | Archived (Q1 fired; calendar → `docket/`). Per-company watch-metric templates (SYF/COF/ALLY/AXP/WMT/DLTR/DG) reusable for Q2+ earnings prep. |
 | `SIGNAL_INTAKE.md` | Inbound signal intake protocol / format. Reference if questioned about inbox conventions. |
-| `docket/` | **Catalyst calendar — single source of truth for forward dated events.** `CATALYSTS.tsv` (machine feed, 7-col, read by countdown at boot step 7a) + `CALENDAR.md` (human twin — must not diverge). Prune fired catalysts at write-back (step 13). Replaced the old scattered date-lists (ROADMAP AWAITING DATA / STATUS EXIT-RULES / EARNINGS_WATCH). Created May 29 2026. |
+| `docket/` | **Single source of truth for forward catalysts.** `CATALYSTS.tsv` (machine feed, read by countdown at boot step 7a) + `CALENDAR.md` (human twin — must not diverge). Prune fired catalysts at write-back (step 13). |
 | `scripts/` | CARL utility scripts. `docket_countdown.py` — boot countdown over `docket/CATALYSTS.tsv` (upcoming + past-due "integrate & prune" flag). Run via `.venv/bin/python3 AGENTS/CARL/scripts/docket_countdown.py`. |
 | `board/` | BOARD-related artifacts. Contains `BOARD_LOG.tsv` — CARL's disposition ledger for `/BOARD/INDEX.md` network signals. Diff against INDEX at boot; schema in TSV header. |
 | `inbox/` | Inbound signals. Process when spawned for it. |
 | `outbox/` | Outbound signals. One file per signal. HERMES delivery degraded — see Messaging rules. |
-| `handoff_RED/` | Transitional staging (May 1 2026): counter-evidence + alternative hypotheses (SOFT_LANDING, CONTAINMENT, COUNTER_LOG) staged for transfer to RED. Counter-signal work belongs to RED at the system level — CARL is bear-thesis specialist, not its own red team. Do NOT maintain these files; they are awaiting RED pickup. |
-| `handoff_WALTER/` | CARL ↔ WALTER liaison channel (May 5 2026 onward). `LIAISON.md` is append-only turn-by-turn dialog about *routing rules* — what BOARD signals should come to CARL, calibration on disposition patterns, edge cases. Distinct from BOARD itself (which is the routing). Will mediates turns. Append turns when prompted; don't edit prior turns. Conventions in `handoff_WALTER/README.md`. |
+| `handoff_RED/` | Counter-evidence + alt-hypotheses (SOFT_LANDING, CONTAINMENT, COUNTER_LOG) staged for RED transfer. Do NOT maintain — counter-signal work belongs to RED at system level; CARL is bear-thesis specialist. |
+| `handoff_WALTER/` | CARL↔WALTER routing-rules liaison. `LIAISON.md` append-only; Will mediates turns; don't edit prior turns. Conventions: `handoff_WALTER/README.md`. |
 | `thesis/THESIS.md` | Thesis of record — "Beneath the Ice" v2.5.1, load-bearing vectors, convergence matrix (canonical), exit rules, masking + K-shape Selection + Tariff Transmission frameworks. Read when assessing conviction or trade proposals. |
 | `thesis/PREDICTIONS.tsv` | Trackable predictions with resolution dates + invalidation criteria. |
 | `thesis/CHANGELOG.md` | Audit trail of thesis evolution — every version bump, prediction change, structural shift logged with what/why/old→new. |
 | `workbook/SCHEMA.tsv` | **Read at boot.** Column definitions for all TSVs below. |
-| `archive/workbook_hardening/` | **Archived May 31 2026.** Transitional artifacts from the May 2-3 workbook hardening sequence: `AUDIT_2026-05-02.md` (programmatic audit, source of WORKBOOK DISCIPLINE rule above), `ITEM_2.5_PLAN.md` + `ITEM_2.5_DISPOSITIONS.md` (VX reference integrity pass). The methodology rule (verify-by-reading-target, [FLAG] convention, conservative ref-cleanup) is preserved in the WORKBOOK DISCIPLINE section above — no need to re-read AUDIT for the rule. Reference these archived files only when researching the May 2-3 sequence itself (e.g., to understand a specific disposition or to extend Item #3 validator). |
+| `archive/workbook_hardening/` | May 2-3 hardening sequence (AUDIT + ITEM_2.5 plan/dispositions). Methodology rule already extracted to WORKBOOK DISCIPLINE above — consult archive only to research specific dispositions or extend Item #3 validator. |
 | `workbook/KB.tsv` | Knowledge base — 15-column schema (ID/Date/Group/Entity/Fact/Source/Conf/Epistemic/Status/Stale_By/DerivedFrom/Vectors/Notes/Last_Refreshed/Delegated_To). ID format KB-CARL-NNN. |
 | `workbook/VX.tsv` | Indicator vectors — threshold tracking with Y/O/R status colors. See stale data rules. |
 | `workbook/FLOW.tsv` | Transmission mechanics — payment hierarchy, K-shape cascade, stress conversion paths. |
@@ -288,6 +288,6 @@ These rules govern *how to reason about workbook mutations* — distinct from ou
 | `domain/sources/` | Research archives, deep dives. |
 | `research/` | Deep dives (MD analysis, etc.). Reference, not boot material. |
 | `archive/` | STATUS backups, legacy data, old analysis. Historical reference only. |
-| `sub_agents/` | 8 sub-agents. **All 7 monitoring agents BUILT (Apr 9):** STUE (student loans), HOMER (housing), GIG (gig economy), PHAN (shadow credit/BNPL), POLLY (insurance), POP (small business), DOC (medical debt). **SPECIAL:** META (methodology). See `TEAM.md` for last-refresh + staleness. |
+| `sub_agents/` | 7 monitoring agents built (STUE/HOMER/GIG/PHAN/POLLY/POP/DOC) + META (methodology, special). Roster + last-refresh + staleness in `TEAM.md`. |
 
 **Data TSVs live in `workbook/` (TSVs only — no prose).** Predictions live in `thesis/`. Archives live in `archive/`.
