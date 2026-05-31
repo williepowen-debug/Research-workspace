@@ -8,6 +8,53 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-05-31 — THESIS v3.0 (Major version bump — Phase 2 PRICING dominant; flat-price conviction reversal)
+
+### THESIS v2.0 → v3.0 — Regime shift: Phase 2 arrived via the diplomatic/supply-relief channel
+**Author:** BRENT
+**Action:** Major rewrite. v2.0 (May 6) framed "Phase 1 DEEPENING, Conviction HIGH on Phase 1 longs." Over the following 25 days the flat price decoupled from the physical squeeze on diplomatic-relief pricing: Brent $116.55 (May 5 peak) → $92.05 (May 29), −19% on the month (worst since Mar 2020), −21% from peak. This is a phase-transition-in-pricing + a flat-price conviction reversal — both qualify for a major (X) bump per the versioning convention.
+
+**What changed (7 numbered items):**
+
+1. **Phase 2 PRICING has arrived — via SUPPLY RELIEF (diplomacy), not demand destruction.** A 60-day US-Iran MOU ("mostly agreed": Hormuz reopens, mines cleared, US lifts blockade + sanctions waivers) drove the −21% move as the market priced Iranian barrels returning seaborne.
+   - Old view (v2.0): Phase 2 "more remote than 24hr ago"; Path A 1/4 partial, prob 10%
+   - New view: Phase 2 is what the tape is pricing; Path A prob raised to ~40%. The demand-destruction path (Path B) is NOT the channel — supply relief is.
+
+2. **Flat-price conviction REVERSED to cautious-neutral.** The v2.0 "HIGH on Phase 1 longs, kinetic gap-up is the live risk" call is retired.
+   - Old view: hold Phase 1 longs; paper relief is a slow grind, kinetic event is the gap risk
+   - New view: position the binary — signature → $75-85; collapse/kinetic → $100+. No new flat-price longs. Cleanest expression = tanker ton-mile (BRT-15) + XLE gap-up insurance, not flat-price longs.
+
+3. **LESSONS #18 is now the central discipline — the Apr 17 false-reopening rhyme, louder.** The reopening is PRICED but NOT operational: deal unsigned and fraying on all terms (Iran/Fars contradicts uranium, no-tolls, adds a $12B frozen-asset precondition); Trump "not to rush"; Rubio floating military "Plan B"; physical strait trickle-flow (~10 vessels/day; UBS "little evidence" of improvement); kinetic continued through the peace week (US strikes May 25-26, Iranian missiles at Kuwait + drones at strait).
+   - Old view: Path A 4-hour exit on fire; gates mostly moving away
+   - New view: gates are the live scorecard; tape is pricing ahead of all of them; snapback ($100+) is the re-widened tail, not just a 10% risk
+
+4. **Storage is now the truest Phase-1 read — and it screams the OPPOSITE of price.** Cushing −2.794M (week May 22) → ~23.0M = biggest single-week draw since Aug 2023; 20M floor ~early-mid June. SPR 365.1M (−9.1M; lowest since Apr 2024); ~350M floor ~1.5-2 wks. The physical squeeze is intensifying even as flat price falls.
+   - Old view (v2.0): Cushing 29.8M, ~12-week trajectory; SPR release "failed to dent tape"
+   - New view: Cushing draw accelerated ~2× and is weeks (not months) from the operational floor — a WTI-dislocation / kinetic-resolution forcing function independent of the deal
+
+5. **BRT-04 (shale non-response) downgraded 75% → ~60%; RED-19 FALSIFIED.** Rigs 429 (May 29; +22 from 407 trough; 7 consec weekly gains; >415 upper bound). RED's own prediction (rigs 400-415 through Jun) falsified, confirming the BRT-04 downgrade direction.
+   - Old view (v2.0): BRT-04 75%, "first weakness" (FANG/COP)
+   - New view: shale response is a persistent uptrend; capex AND rig-count layers both creeping; BRT-04 materially weakened
+
+6. **Demand destruction still NOT visible — Path B is the dog that didn't bark.** Gasoline +0.5% YoY (May 15); the anticipated first-negative print didn't materialize; util ramped to 94.5% (summer driving). Only Trigger #1 (curve <$3) is at/near firing; Trigger #3 fired May 5 then reversed (May 26 COT due Jun 5 is the re-fire watch).
+   - Old view: Path B 0/3, first clean signal window May 7+
+   - New view: Path B 1/3; demand inelastic so far; Phase 2 is arriving on the supply axis ahead of the demand axis
+
+7. **LIAISON/BOARD/FLOW infra detail collapsed out of THESIS** per messaging-system-overhaul direction. `demand_destruction/TRACKER.md` named as the operational dashboard (kept current through May 29 while STATUS lagged).
+   - Old view (v2.0): heavy LIAISON architectural layer in-thesis (FORMAT_SPEC, BURST_WINDOW, enums, dispatch lists)
+   - New view: thesis carries thesis; messaging infra lives in its own files and is being replaced
+
+**Provenance:**
+- STATUS refreshes: May 20 (Phase 1 contested), May 31 (Phase 2 pricing dominant + weekend deal-fray sweep)
+- demand_destruction/TRACKER.md + data files (May 22/25/27/29) — operational dashboard, current
+- Weekend news sweep May 31: Axios/PBS/The Hill (MOU terms), CNBC (Brent $92.05, −19% month), Fars via Iran Intl/Al Jazeera (Iran contradicts terms, $12B), CNN (Hegseth combat-ready; Kuwait missiles), CNBC (Trump "not to rush"; Rubio "Plan B")
+- RED CHG-RED-024 closure (RESOLVED-CONVERGED-SILENT); RED-19 falsification noted
+- HAWK routing May 22 ("armed pause / controlled grind")
+
+**Cache refresh trigger:** v2.0 → v3.0 version-string change. (LIAISON dual-trigger cache mechanism deprecated per messaging-overhaul; noted for audit continuity only.)
+
+---
+
 ## 2026-05-06 — THESIS v2.0 (Major version bump — Project Freedom + bypass-pair + BRT-04 weakness + LIAISON layer)
 
 ### THESIS v1.1 → v2.0 — Structural deepening + architectural integration
