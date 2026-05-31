@@ -117,7 +117,7 @@ CFTC net short JPY has been rebuilding toward the cycle peak (live net + % of pe
 
 | Date | Catalyst | Expected Impact |
 |------|----------|-----------------------|
-| **Fri May 29** | CFTC JPY weekly | Watch for break of cycle peak (live net in STATUS; weekly may slip to Mon Jun 1 on Memorial Day) |
+| **Ongoing** | CFTC JPY weekly (auto-pulled) | Fuel-load gauge; broke -102K cycle peak May 30 (-114,667, 4th build week). Live net in STATUS. |
 | **Ongoing** | Iran/Hormuz MOU binary watch | Signed text → Phase 2 accelerates; collapsed → intervention #3 zone reactivates. Brent live in STATUS. |
 | **Ongoing** | Intervention #3 watch | USDJPY 159+ = trigger zone (live level in STATUS). SAM-23 ~55%. Reactivates if Iran MOU collapses. |
 | **🔴🔴 Tue Jun 16** | **BOJ MPM — DOMINANT REMAINING CATALYST** (SAM-21 70% — live mark in STATUS; market ~88% repriced May 31; SAM-24 25bp @85%) | Hike = FXY +5-8% structural; carry unwind fires. **Single-path under v1.5 — market-confirmed base case.** |

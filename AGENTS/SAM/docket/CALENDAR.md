@@ -1,15 +1,8 @@
 # SAM CALENDAR
 
-**Last Updated:** 2026-05-28 (KOYOMI docket sync — CALENDAR↔CATALYSTS.tsv reconciled; live spot stripped per TRUTH MODEL, levels now in STATUS only) | **View:** Forward-looking only. Past events pruned weekly.
+**Last Updated:** 2026-05-31 (KOYOMI docket sync — pruned >1wk resolved rows; moved Tokyo CPI/activity/CFTC/repricing to RECENTLY RESOLVED; Jun 16 BOJ framing brought to current SAM-21 70% / mkt ~88%; stale CFTC release date + live levels stripped per TRUTH MODEL) | **View:** Forward-looking only. Past events pruned weekly.
 
 ---
-
-## WEEK OF MAY 27-29 — TOKYO CPI ✅ + CFTC
-
-| Date | Event | What to Check | Threshold / Signal | Who Cares |
-|------|-------|---------------|-------------------|-----------|
-| **✅ Thu May 28** | **Tokyo May CPI** | Core / core-core trend | RESOLVED DOVISH — core-core **1.6%** (−30bp, breaches 1.9% threshold). June BOJ pricing breaks lower; SAM-21 ~57% → ~50%; v1.5 single-path impaired. National May print Jun 19. | SAM, HENRY |
-| **✅ Sat May 30** | CFTC JPY weekly release (May 26 data) | Net short level vs -102K cycle peak | RESOLVED — **-114,667; BROKE -102K cycle peak (4th build week, +27K new shorts).** Fuel load growing into June, not covering. (See STATUS.) | SAM, HENRY |
 
 ## EARLY-MID JUNE — INTERVENING DATA (rate-differential + super-long demand tests)
 
@@ -71,7 +64,7 @@
 | Brent | <$90 = "headwind resolved" | Phase 2 still firing; Iran/Hormuz MOU framework hardening |
 | Iran/Hormuz MOU framework | Signed text by both sides | Phase 2 (yen-bullish) accelerates if confirmed; Tehran-obstruction friction visible (Trump May 23 "largely negotiated"; Axios May 24 details) |
 | USDJPY 3-session sub-155 test | hard trigger condition | Not yet met; closest approach May 6 (155.05 single session) |
-| CFTC short positioning | -75K cover line | Re-loaded; cover would signal MOU acceptance. Next release Fri May 29. |
+| CFTC short positioning | -75K cover line | Re-loaded (broke -102K cycle peak May 30, still building); cover would signal MOU acceptance. Live net in STATUS. cftc_jpy.py auto-pulls weekly (Fri/Mon). |
 
 ---
 
@@ -97,7 +90,7 @@
 | Tue May 26 | ✅ **Sumitomo Life FY2025 ESR** (logged retrospectively May 27) | **197% (vs 178%, ↑+19pt)** — ESR INCREASED. No M&A waterfall; stable ops + equity rally + Dearborn Life partial. Foreign bonds +¥543B (+6.2%); total foreign securities +¥1.11T (+9.3% to 35.5% of GA). Domestic bonds -¥505B. Symetra in-force +23.7%. **3-of-3 Big 3 confirm v1.5 downgrade.** |
 | Tue May 26 | ✅ **Nippon Life FY2025 ESR** | **195% (vs 222%, -27pt)** — driver Resolution Life $10.6B M&A (-28pt waterfall). Foreign securities unrealized GAIN +¥3.99T (+¥909B YoY). Market priced as capital action (USDJPY 158.95 → 159.24). SAM-25 TRUE-in-letter, FAILED-in-spirit. |
 | Tue May 26 | ✅ **Meiji Yasuda FY2025 ESR** | **208% (vs 216%, -8pt)** — inside 200-219% manageable band. JGB unrealized loss -¥2.16T (worse by ¥776B); Foreign securities unrealized GAIN +¥709B. Stancorp leaning INTO US via Allstate. |
-| Fri May 22 | ✅ **Japan April national CPI** | DOVISH MISS — core 1.4% vs 1.7% consensus / 1.8% prior; core-core 1.9% vs 2.2% est. SAM-27 CONFIRMED TRUE. Swap pricing 74% → ~55-65% for June BOJ. |
-| May 22-25 | ✅ **Brent collapse** | -12% from $107.84 → $94.53 on Iran/Hormuz MOU framework; extended to $93.13 May 27 (-3.66% intraday) on framework hardening. Phase 2 inception priced; deal still rumor-tier with Tehran friction. |
-| May 22 | ✅ **CFTC JPY (May 19 data)** | Net short -93,905 (+18,803 WoW; 3rd build week). Build = new shorts (+25K), not long liquidation. Major fuel reload right before catalyst window. |
-| May 22 | ✅ **JGB 30Y retracement** | 4.000% → 3.931% (May 22) → 3.866% (May 26) on oil collapse + dovish CPI. SAM-26 tracking FALSE; v1.5 CHANGELOG candidate to separate "J-ICS mechanism" from "JGB 30Y threshold" framing. |
+| Thu May 28 | ✅ **Tokyo May CPI** | DOVISH MISS — core-core **1.6%** (−30bp vs Apr 1.9; 7th straight decline; breaches 1.9% threshold). BUT market subsequently repriced June hike UP (siding with wage/activity mechanism over CPI threshold) — see May 31 below. National May print Jun 19 (post-BOJ). |
+| Fri May 29 | ✅ **April activity data** | HAWKISH counterweight — IP +0.8% MoM (vs −0.4% exp); retail sales +2.1% YoY (vs +1.4% exp); unemployment steady. Real economy firm; quantity-side counter to soft CPI. |
+| Sat May 30 | ✅ **CFTC JPY weekly (May 26 data)** | **-114,667 — BROKE -102K cycle peak (4th build week, +27K new shorts).** Fuel load growing into June, not covering. |
+| Sun May 31 | ✅ **Market repriced June BOJ hike** | Polymarket 88.2% / swaps ~87.5% — sustained ~60% (May 22) → 88% repricing, held through both CPI misses. **SAM-21 marked ~50% → 70%.** Market siding with wage/activity mechanism over CPI threshold. |
