@@ -248,9 +248,7 @@ These rules govern *how to reason about workbook mutations* — distinct from ou
 
 ## EXIT / INVALIDATION RULES
 
-*Canonical in `thesis/THESIS.md` (full thesis kill, partial invalidation, falsification windows CRL-20/21, fast 1-month early-warning table). Mandatory review windows in PREDICTIONS.tsv.*
-
-⚠️ **Open question (May 3 2026):** "Full thesis kill" rule (`Claims <220K + CC 90+ DQ`) is from v2.1 employment-detonator framing and may not match v2.5.1 multi-vector cost-squeeze mechanism. Same wording is in THESIS.md. Logged on ROADMAP for thesis-level review.
+*Canonical in `thesis/THESIS.md` (full thesis kill, partial invalidation, falsification windows CRL-20/21, fast 1-month early-warning table). Mandatory review windows in PREDICTIONS.tsv. Open question on v2.1→v2.5.1 kill-rule mismatch tracked in ROADMAP OPEN QUESTIONS.*
 
 ---
 
