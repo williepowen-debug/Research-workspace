@@ -1,11 +1,10 @@
 date	event	what_to_check	threshold_signal	priority	who_cares	notes
-2026-04-22	EIA Weekly Petroleum	Gasoline stocks + demand YoY + Cushing + util	Gas YoY ≤−5% = Path B Trigger #2 / Cushing <20M = dislocation	🔴	BRENT,CARL	First EIA under blockade regime — real signal window Apr 22-May 6
-2026-04-25	Baker Hughes Rig Count	Total rigs WoW	>595 = shale response kicking in (bearish medium)	🟠	BRENT	SIG-009 confirmed 545 Apr 10 — watch for inflection
-2026-04-25	CFTC COT Report	NYMEX managed money net longs	Decline 2nd consecutive week while price flat = Path B #3	🟠	BRENT	Non-commercial proxy declined Mar 24-31
-2026-04-28	Cheniere Q1 Earnings	EPS vs $3.15 consensus + spot cargo mix	Beat $5+ = LNG thesis validated (BRT-10)	🟠	BRENT,SAM	Our model $4.87-5.60; spot LNG >$10 premium = $288-300M incremental EBITDA
-2026-04-29	EIA Weekly Petroleum	Same as Apr 22	Week 2 of signal window	🔴	BRENT,CARL	If gas YoY negative 2nd week = Phase 2 accelerating
-2026-05-01	BOJ Policy Meeting	Rate decision + YCC stance	Hike → yen strength → carry unwind → brief oil selloff	🟠	SAM,BRENT	Cross-agent — SAM base case hike date
-2026-05-06	EIA Weekly Petroleum	Same as Apr 22	Week 3 — if YoY neg 3rd week, Trigger #2 fires	🔴	BRENT,CARL	End of signal window — decisive
-2026-05-13	EIA Weekly Petroleum	Cushing trajectory + demand YoY	If Cushing <25M, operational minimum in weeks	🟠	BRENT
-2026-06-07	OPEC+ Regular Meeting	3.24 mbpd deferred unwind decision	If Hormuz open = flood (Phase 2); if closed = symbolic	🔴	BRENT,ALL	BRT-11 trigger — binary on Hormuz status
-2026-07-29	FOMC Meeting	Rate decision + oil shock framing	If Fed holds into oil shock = staglation setup	🟠	HENRY,BRENT	BRT-25 housing/mortgage transmission
+2026-06-03	EIA Weekly Petroleum (week May 29)	Cushing level + gasoline demand YoY (post-Memorial-Day base) + SPR floor proximity	Cushing <20M = WTI dislocation; gas YoY ≤−5% = Trigger #2	🔴	BRENT,CARL	First clean post-Memorial-Day gasoline read; Cushing ~23M after −2.794M May 22 (biggest draw since Aug 2023)
+2026-06-05	CFTC COT (May 26 data)	NYMEX managed money net longs	Specs dump on deal news while price falls = Trigger #3 re-fire (Path B accelerating)	🔴	BRENT	May 19 was +98,219 re-accumulation but PRE-$96 drop; this is the first post-drop read
+2026-06-05	Baker Hughes Rig Count	Oil rig count vs 457 threshold	457+ (=+50 from 407 trough) = shale response confirmed; BRT-26 invalidation	🟠	BRENT	429 May 29 (+22 from trough; 28 to go)
+2026-06-07	OPEC+ Regular Meeting	Unwind-vs-defend decision into a falling-price regime	If Hormuz open = flood (Phase 2); if closed = symbolic	🔴	BRENT,ALL	BRT-07/BRT-11 relevant; first regular mtg post-UAE-exit + into Brent −19% month
+2026-06-11	EIA STEO (June)	Brent/WTI price path + Gulf shut-in revision	First STEO post-MOU + post-Barakah	🔴	BRENT	Apr STEO had Q2 peak $115; watch downward revision
+2026-06-12	Cushing 20M operational floor (modeled ~Jun 10-14)	WTI delivery-point dislocation risk	Sub-20M single print = M1-M2 WTI inversion risk	🔴	BRENT,PROME	Modeled date; −2.794M last week accelerated it; PROME-tier physical flag
+2026-06-18	CF $130C expiry	Position resolution	HOLD decided (Will 5/31); re-eval on pop or near expiry	🟠	BRENT	Near write-off unless a Brent snapback lifts the fertilizer chain
+2026-07-29	FOMC Meeting	Rate decision + oil shock framing	If Fed holds into oil shock = stagflation setup	🟠	HENRY,BRENT	BRT-16 macro transmission
+2026-09-30	XLE $65C expiry	Position resolution	Kinetic-gap-up insurance; ~15% OTM	🟡	BRENT	4-month runway; re-rates if MOU collapses / kinetic event
