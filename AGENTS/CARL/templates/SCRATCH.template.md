@@ -21,6 +21,9 @@ Every session rewrites `SCRATCH.md` using the structure below. Boot reads SCRATC
 
 ---
 
+## CHANGES SINCE LAST SESSION
+[3-5 lines: what moved in markets/data/news while CARL was offline — gas pump tick, BOARD signals landed, data prints fired, breaking news that hasn't been integrated to STATUS yet. Boot-step-7a "integrate & prune" flags belong here. This is the **delta** view; current state stays in STATUS.md. Skip if truly nothing moved (e.g., back-to-back same-day sessions).]
+
 ## WHAT HAPPENED
 [Numbered list of what this session accomplished. Keep brief.]
 
