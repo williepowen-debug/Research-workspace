@@ -68,6 +68,7 @@ When new consumer data arrives, always disaggregate:
 7. **Boot scans (two cheap due/stale checks — surfacing only; resolution happens in write-back).**
    - **7a. Docket countdown.** Run `.venv/bin/python3 AGENTS/CARL/scripts/docket_countdown.py` — reads `docket/CATALYSTS.tsv` and prints upcoming catalysts + flags any PAST-dated row still present as "released, integrate & prune" (the silent-miss catch: a lingering past row = a catalyst whose data was never folded into STATUS/ROADMAP). The docket is the **single source of truth** for forward catalysts — it replaces the old scattered date-lists in ROADMAP AWAITING DATA / STATUS EXIT-RULES line / EARNINGS_WATCH. `docket/CALENDAR.md` is the human twin (must not diverge from the TSV).
    - **7b. PREDICTIONS due/stale.** List OPEN predictions and eyeball each Timeframe against today — anything whose window has passed is DUE: resolve / re-arm with a reason / push the date with a reason. **Don't let a prediction sit OPEN-but-stale.** Helper: `awk -F'\t' 'NR>1 && $6=="OPEN"{print $1"\t"$5"\t"$4}' thesis/PREDICTIONS.tsv` → ID / Timeframe / Confidence (free-text timeframes → human eyeball). Load `[[finding_threshold_vs_mechanism]]` before resolving: separate "mechanism intact" from "threshold stuck/breached" (a threshold can retrace while the mechanism holds → re-arm, not MISS).
+   - **7c. Failure-pattern preamble (before resolving OR writing a new prediction).** Read the Notes column for MISSED/MIXED rows: `awk -F'\t' '$6~/MISSED|MIXED/{print $1"\t"$6"\t"$NF}' thesis/PREDICTIONS.tsv`. Failure patterns to calibrate against: CRL-01 ("direction right, magnitude wrong" — gas pump peak), CRL-09 ("denominator shrank on LFPR effects — pre-flagged risk realized" — JOLTS ratio), CRL-19 ("direction correct, magnitude light" — Core PCE acceleration). Don't repeat the same failure mode in a new threshold/timeframe.
 8. **Execute the task** (if sub-agents were spawned, read their outputs before synthesis)
 9. **Write results back to `STATUS.md`** — update dashboard values, predictions, findings
 10. **Log to workbook TSVs:**
@@ -81,7 +82,7 @@ When new consumer data arrives, always disaggregate:
 13. **Update the docket + `ROADMAP.md` (forward-state maintenance).**
    - **Docket:** for any catalyst whose data you integrated this session, **prune its row** from `docket/CATALYSTS.tsv` AND `docket/CALENDAR.md` (its record now lives in STATUS "recently fired" + ROADMAP RECENTLY RESOLVED + CHANGELOG). Add any newly-discovered forward catalysts as dated rows. Keep the TSV and CALENDAR.md in sync. The docket — not ROADMAP — now holds the dated-event feed (the old AWAITING DATA table is retired).
    - **ROADMAP:** move resolved threads to RECENTLY RESOLVED, add new OPEN THREADS, log new OPEN QUESTIONS, append "should investigate X" ideas to INVESTIGATIONS BACKLOG. Persistent "where are we" state — update timestamp at top.
-14. **Rewrite `SCRATCH.md`** using the template below
+14. **Rewrite `SCRATCH.md`** using `templates/SCRATCH.template.md`. **Before finishing, scan for promotion candidates** — see promotion paths below.
 
 ### SCRATCH.md rewrite (step 14)
 
@@ -90,6 +91,15 @@ Every session rewrites SCRATCH.md using the template at **`templates/SCRATCH.tem
 - **IMMEDIATE items must have dates.** If a date has passed, remove or reclassify.
 - **Outbox/inbox summaries: one line per signal** so next session can triage without reading files.
 - **Workbook health:** run `wc -l` and `stat` on TSVs to populate.
+- **CHANGES SINCE LAST SESSION:** if data/market/news moved while CARL was offline (look at STATUS.md mtime vs today + any boot-step-7a integrate-and-prune flags), capture it in the template's CHANGES SINCE section. This is the "what's new in the world" delta — not duplicative with WHAT HAPPENED (what CARL did this session).
+
+### Promotion paths (apply at step 14)
+
+If this session produced a finding/feedback that's bigger than SCRATCH:
+- **Thesis-level finding** (new mechanism, threshold breach, framework shift) → `thesis/THESIS.md` + log to `thesis/CHANGELOG.md` with old → new view and version bump (major = structural, minor = refinement).
+- **Cross-session calibration / process / workflow lesson** (transferable to other agents) → auto-memory at `~/.claude/projects/-home-willi-Research-workspace/memory/` as a new `feedback_*.md` / `finding_*.md` file + one-line entry in that dir's `MEMORY.md`. Auto-memory loads at every boot via the harness — anything you write there is read on next CARL spawn AND available to all agents on this machine.
+- **Architectural/structural change to CARL's docs/folders/scripts** → ROADMAP RECENTLY RESOLVED row (already standard) — the audit trail.
+- **Domain-specific learning** (consumer-stress-only, not transferable) → SCRATCH SESSION FINDINGS WORTH CARRYING section, then prune next session if not load-bearing.
 
 ---
 
