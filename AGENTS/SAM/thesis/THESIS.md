@@ -1,8 +1,8 @@
 # SAM THESIS — v1.5
 
 **Version:** 1.5
-**Last Updated:** 2026-05-27 (Big 3 ESR window resolved 3-of-3 — Nippon 195% M&A, Meiji 208% manageable, **Sumitomo 197% ↑+19pt with foreign book growing**; Channel 1 demoted to deferred structural backstop) | 2026-05-29 maintenance: live probabilities/levels now reference STATUS (doc-ownership cleanup — no view change; version held at 1.5)
-**Status:** 🟠 SINGLE-PATH — Channel 1 deferred (3-of-3 Big 3 confirmed ESR pressure absorbed via M&A + equity rally + hedge-cost relief, NOT foreign bond sales); Channel 2 (June BOJ 55-65%) is dominant remaining near-term trigger; Channel 3 dormant on Brent collapse
+**Last Updated:** 2026-05-27 (Big 3 ESR window resolved 3-of-3 — Nippon 195% M&A, Meiji 208% manageable, **Sumitomo 197% ↑+19pt with foreign book growing**; Channel 1 demoted to deferred structural backstop) | 2026-05-29 maintenance: live probabilities/levels now reference STATUS (doc-ownership cleanup — no view change; version held at 1.5) | 2026-05-31: SAM-21 June-hike mark ~50% → 70% on market repricing to ~88% (POV pivot, no version bump — see CHANGELOG)
+**Status:** 🟠 SINGLE-PATH — Channel 1 deferred (3-of-3 Big 3 confirmed ESR pressure absorbed via M&A + equity rally + hedge-cost relief, NOT foreign bond sales); Channel 2 (June BOJ — market ~88% / SAM 70%, repriced May 31) is dominant remaining near-term trigger, now a market-confirmed base case; Channel 3 dormant on Brent collapse
 **Conviction:** HIGH on direction; MEDIUM on near-term timing (single-catalyst structure carries more drawdown risk than multi-channel convergence)
 **Current state (daily snapshot):** see `STATUS.md`
 
@@ -12,7 +12,7 @@
 
 Japan is approaching a structural inflection. As of v1.5, the path is **single-catalyst**: yen strengthens primarily via the June BOJ hike (Channel 2). The forced-repatriation mechanism (Channel 1) is deferred to multi-year — the Big 3 mutual ESR disclosures resolved without forced foreign selling. The structural direction is intact but the near-term path is narrower.
 
-**One-liner:** v1.5 — Channel 2 (June BOJ June 16 — currently a coin-flip; live SAM mark + market pricing in STATUS) is now the dominant remaining near-term path. Channel 1 (life insurer ESR pressure → foreign bond sale) deferred after 3-of-3 Big 3 mutual prints (Nippon, Meiji Yasuda, Sumitomo) showed ESR pressure absorbed via M&A capital action + equity rally + hedge-cost relief WITHOUT foreign bond reduction. Foreign books in unrealized GAIN at all three; foreign exposure GROWING (Sumitomo's allocation rose from 33.3% → 35.5%); M&A direction INTO US (Resolution Life, Allstate, Dearborn). J-ICS lifer long-end abandonment (the JGB 30Y mechanism, domestic) remains intact. Channel 3 dormant on Brent -12% collapse (Iran/Hormuz MOU framework hardening). Direction confirmed; the single-path structure makes the position correctly sized at 13 shares + Jun-18 $58C — no Sep OTM addition warranted under v1.5.
+**One-liner:** v1.5 — Channel 2 (June BOJ June 16 — now a market-confirmed base case, market ~88% / SAM 70%; live marks in STATUS) is now the dominant remaining near-term path. Channel 1 (life insurer ESR pressure → foreign bond sale) deferred after 3-of-3 Big 3 mutual prints (Nippon, Meiji Yasuda, Sumitomo) showed ESR pressure absorbed via M&A capital action + equity rally + hedge-cost relief WITHOUT foreign bond reduction. Foreign books in unrealized GAIN at all three; foreign exposure GROWING (Sumitomo's allocation rose from 33.3% → 35.5%); M&A direction INTO US (Resolution Life, Allstate, Dearborn). J-ICS lifer long-end abandonment (the JGB 30Y mechanism, domestic) remains intact. Channel 3 dormant on Brent -12% collapse (Iran/Hormuz MOU framework hardening). Direction confirmed; the single-path structure makes the position correctly sized at 13 shares + Jun-18 $58C — no Sep OTM addition warranted under v1.5.
 
 ---
 
@@ -62,7 +62,7 @@ CFTC net short JPY has been rebuilding toward the cycle peak (live net + % of pe
 **Post Apr 28 BOJ:** Hold + 3 dissents + GDP cut + inflation upgrade = market repriced June hike to 74% *at the time*. Since softened by the May 22 national + May 28 Tokyo CPI misses (partly offset by the May 29 activity beat) — current SAM/market marks in STATUS. Direction confirmed; timing hinges on the June meeting.
 
 **Triggers (any one sufficient):**
-- **BOJ hike June base case** (current SAM mark in STATUS — softened to a coin-flip after the May CPI misses; market 55-65%); Apr 28 resolved hold + hawkish
+- **BOJ hike June base case** (current SAM mark in STATUS — market repriced to ~88% / SAM 70% on May 31, *through* the May CPI misses); Apr 28 resolved hold + hawkish
 - MOF intervention at 160 (USDJPY 157 currently off zone; reactivates if oil escalates again or Tokyo weakness reverses; Katayama "free hand" still on the table)
 - Fed forced cuts via private credit cascade (USD/JPY sub-145 without BOJ)
 - Risk-off event (geopolitical escalation → safe haven yen bid)
@@ -73,7 +73,7 @@ CFTC net short JPY has been rebuilding toward the cycle peak (live net + % of pe
 ### Channel 3: BOJ Policy Divergence + US-Japan FX Coordination (v1.4 expansion)
 
 **Current rate:** 0.75% (Dec 2025 hike) — AT Takaichi ceiling. Next hike to 1.00% = political collision.
-**Timeline:** April 28 = **HELD with 3 dissents for 1.00%** (resolved). May 1 "secondary MPM" was a calendar artifact — no actual policy event. **June 16 = base case (~70% SAM / 74% market).**
+**Timeline:** April 28 = **HELD with 3 dissents for 1.00%** (resolved). May 1 "secondary MPM" was a calendar artifact — no actual policy event. **June 16 = base case (~70% SAM / ~88% market, repriced May 31).**
 **Terminal rate:** 0.75% (political ceiling), NOT market consensus 1.25-1.5%
 
 **US-Japan FX Coordination (NEW v1.4 — promoted from candidate):**
@@ -120,7 +120,7 @@ CFTC net short JPY has been rebuilding toward the cycle peak (live net + % of pe
 | **Fri May 29** | CFTC JPY weekly | Watch for break of cycle peak (live net in STATUS; weekly may slip to Mon Jun 1 on Memorial Day) |
 | **Ongoing** | Iran/Hormuz MOU binary watch | Signed text → Phase 2 accelerates; collapsed → intervention #3 zone reactivates. Brent live in STATUS. |
 | **Ongoing** | Intervention #3 watch | USDJPY 159+ = trigger zone (live level in STATUS). SAM-23 ~55%. Reactivates if Iran MOU collapses. |
-| **🔴🔴 Tue Jun 16** | **BOJ MPM — DOMINANT REMAINING CATALYST** (SAM-21 coin-flip — live mark in STATUS; market 55-65%; SAM-24 25bp @85%) | Hike = FXY +5-8% structural; carry unwind fires. **Single-path under v1.5.** |
+| **🔴🔴 Tue Jun 16** | **BOJ MPM — DOMINANT REMAINING CATALYST** (SAM-21 70% — live mark in STATUS; market ~88% repriced May 31; SAM-24 25bp @85%) | Hike = FXY +5-8% structural; carry unwind fires. **Single-path under v1.5 — market-confirmed base case.** |
 | Jun 16 | Sato joins BOJ board (hawk→dove swap) | Medium-term political risk post-June (beyond 1.00% gets harder) |
 | Jun 18-19 | May trade balance — Phase 1 stability lag-test | Volume recovery vs cost-side decomposition (per CALENDAR routing) |
 

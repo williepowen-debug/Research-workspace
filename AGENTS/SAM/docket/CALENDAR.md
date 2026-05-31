@@ -27,7 +27,7 @@
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| **🔴🔴 Tue Jun 16** | **BOJ MPM — DOMINANT REMAINING CATALYST under v1.5 single-path** (SAM-21 ~57%; market 55-65%) | Rate + Outlook + QT assessment | Hike to 1.00% = structural FXY +5-8%. Counterweights to dovish CPI: GDP beat, exports +14.8%, dissent split intact. **No Channel 1 parallel catalyst left to absorb a delay** — single-path. | **ALL** |
+| **🔴🔴 Tue Jun 16** | **BOJ MPM — DOMINANT REMAINING CATALYST under v1.5 single-path** (SAM-21 **70%**; **market ~88%** repriced May 31) | Rate + Outlook + QT assessment | Hike to 1.00% = structural FXY +5-8%. Market converged toward hike through the CPI miss (weighting activity beat + dissent split). Single-path — no Channel 1 parallel, but now a clear base case, not a coin-flip. **Re-verify swap pricing at boot Jun 9-15.** | **ALL** |
 | Jun 16 | 🟡 Sato joins BOJ board | Hawk→dove swap | Medium-term political risk (post-June) | SAM |
 | Jun 16-17 | BOJ interim QT assessment | Pace adjustment | Potential super-long-specific operation if JGB stress re-engages | SAM, LIQUID |
 | **🔴 Wed Jun 17** | **FOMC rate decision + dot plot — SECONDARY-PATH CATALYST** | Rate decision, SEP dots, Powell presser | Dovish dots → USDJPY down independent of BOJ; the OTHER half of the carry trade. **Lands ~24h after BOJ — the backup read if BOJ disappoints Jun 16** (v1.5 Fed-cut secondary path; see THESIS INDEPENDENT CATALYST). Statement 2pm ET. | **ALL** |

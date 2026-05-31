@@ -34,16 +34,17 @@
 - FXY options: ATM IV eased to **8.03%** (−0.56 vs 5/29) but 25d RR steepened to **−7.81** (from −6.35) — yen-strength convexity bid building further (thesis-side). IV down + skew up = market not pricing imminent shock on level but paying up for yen-strength tails.
 - Brent **$91.12** (−$1 vs 5/29); JGB/USDJPY/FXY otherwise flat (weekend, mkt closed — Fri-cached). No new macro prints.
 
-### LAST SESSION (5/31 Sunday — boot + CFTC release integration)
+### LAST SESSION (5/31 Sunday — boot + CFTC release + BOJ repricing mark-up)
 
-- Clean boot, read phase steps 0-6 + market refresh. **Skipped git pull** — CARL has staged changes + untracked signal files in BROCK/HENRY/REGINALD/WILL (other-agent uncommitted work; pull protocol STOP). Deferred sync.
-- boot.py 11.3s, 9/9 green. Integrated the CFTC release into STATUS (banner + market table + Channel 2 reference) + marked CALENDAR CFTC row resolved.
-- No thesis-level change (CFTC break confirms existing Channel 2 direction, doesn't shift conviction); no open prediction resolves on it (SAM-22 already FAILED). No CHANGELOG entry.
+- Clean boot, read phase steps 0-6 + market refresh. boot.py 11.3s, 9/9 green. Integrated CFTC release (-114,667, broke -102K cycle peak, 4th build week) into STATUS + CALENDAR.
+- **Git housekeeping (Will-authorized cross-agent exception):** committed 4 stale PROME SIG/REPLY files (BROCK/HENRY/REGINALD inboxes+outbox) → `bfb9c654`; trashed WILL/share image via gio. Then committed SAM boot writebacks → `7614efc2`; **pushed both, origin clean** (`da1165d4..7614efc2`). CARL's "uncommitted" work from the boot snapshot had already been committed+pushed by CARL (commits 70cc4c41/3371ddf4/581b62c9) — boot snapshot was stale.
+- **🆕 BIG ONE — Japan news check surfaced a stale mark: market repriced June BOJ hike to ~88%** (Polymarket 88.2% / swaps ~87.5%, both May 31; sustained ~60% May 22 → 88%, held through both CPI misses). We were carrying a stale 55-65%. **Marked SAM-21 ~50% → 70%** (Will-approved). Mechanism-over-threshold vindication. Ran the full cascade: PREDICTIONS + STATUS (banner/STATE-OF-PLAY/carry-table/BOJ-assessment/trigger-table) + TIMELINE (May 31 RESOLVED entry) + CHANGELOG (POV pivot reversing the May 28 "dovish-impaired" entry). Position unchanged; Sep $60 call still NOT warranted.
+- **Lesson (calibration/process):** a market-pricing input we *poll* (Polymarket/swaps) went stale in STATUS while we tracked hard data — the divergence (50% vs 88%) was staleness, not a differentiated view. Re-poll BOJ swap/Polymarket pricing at every boot in the catalyst window, not just at named prints.
 
 ### NEXT SESSION
 
 1. **Run boot.py** — refresh market table (Monday Jun 1 = first live tape since this Sunday boot; FX/Brent will be fresh). Verify National May CPI not early. CFTC next weekly Sat Jun 6 (watch continued build past -114,667 vs first cover).
-2. **🔴🔴 Jun 16 BOJ MPM** — DOMINANT, ~50%/dovish-impaired. Jun 17 FOMC co-headline (lands ~24h after = backup catalyst). National May CPI Jun 19 (post-BOJ) — watch if national core-core holds above Tokyo's 1.6%. RED CH-008 resolves here. CFTC fuel load now at -114,667 = more violent unwind if it fires.
+2. **🔴🔴 Jun 16 BOJ MPM** — DOMINANT, **SAM-21 70% / market ~88% (market-confirmed base case)**. **Re-verify swap/Polymarket pricing at boot Jun 9-15** (it went stale on us this cycle — see lesson above). Jun 17 FOMC co-headline (lands ~24h after = backup catalyst). National May CPI Jun 19 (post-BOJ) — watch if national core-core holds above Tokyo's 1.6%. RED CH-008 resolves here. CFTC fuel load -114,667 = more violent unwind if it fires.
 3. **🟠 Jun FY2025 Norinchukin** — only near-term Channel 1 reactivation gate; CLO-book reduction language / CEO Kitabayashi.
 4. **Eval re-baseline DUE** — standing trigger now compounded (THESIS condensed + PREDICTIONS restructured + new PREDICTIONS_ARCHIVE, on top of 5/29 AM CLAUDE.md/THESIS edits). Evals carry stale $57.48; RED to self-correct $57.48→$58.32 on next boot.
 5. **Position next-touch:** No add/trim under v1.5 single-path. Triggers: (a) USDJPY <156 for 3 sessions → consider add; (b) BOJ pre-cabling Jun 13-15; (c) thesis break (USDJPY >167 + BOJ dovish) = stop $55.05. Jun-18 $58C theta-watch.
