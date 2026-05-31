@@ -83,73 +83,13 @@ When new consumer data arrives, always disaggregate:
    - **ROADMAP:** move resolved threads to RECENTLY RESOLVED, add new OPEN THREADS, log new OPEN QUESTIONS, append "should investigate X" ideas to INVESTIGATIONS BACKLOG. Persistent "where are we" state — update timestamp at top.
 14. **Rewrite `SCRATCH.md`** using the template below
 
-### SCRATCH.md Template
+### SCRATCH.md rewrite (step 14)
 
-Every session rewrites SCRATCH.md using this structure:
-
-```markdown
-# CARL SCRATCH
-**Last session:** YYYY-MM-DD ~HH:MM UTC
-**Type:** [brief description of session work]
-
-**PRIORITY-1:** [Single most important thing for the next session. One line.]
-
----
-
-## WHAT HAPPENED
-[Numbered list of what this session accomplished. Keep brief.]
-
-## STATUS CHANGES
-| Item | Change |
-|------|--------|
-[One row per changed value, threshold, or file. Include old→new.]
-
----
-
-## NEXT SESSION SHOULD
-
-### IMMEDIATE (this session / 24hrs)
-[Items with deadlines in the next 24 hours. Max 3-4.]
-
-### UPCOMING (this week)
-[Items due this week. Include dates.]
-
-### UPCOMING (next 2 weeks)
-[Items due in 2 weeks. Include dates.]
-
-### BACKLOG (no deadline)
-[Lower priority items. Keep under 6.]
-
----
-
-## OUTBOX ([N] signals, awaiting HERMES)
-| File | To | Summary |
-|------|----|---------|
-[One row per outbox signal with one-line summary.]
-
-## INBOX ([N] items, unprocessed)
-| File | From | Summary |
-|------|------|---------|
-[One row per inbox item with one-line summary.]
-
----
-
-## WORKBOOK HEALTH
-| TSV | Rows | Last Modified | Note |
-|-----|------|---------------|------|
-[One row per workbook TSV. Flag anything >7 days as stale.]
-
----
-
-## URGENT
-[Max 3 bullet points. Only truly time-sensitive items.]
-```
-
-**Rules:**
-- PRIORITY-1 must be verifiable against current dates — never carry forward event references without checking the date is still in the future.
-- IMMEDIATE items must have dates. If a date has passed, remove or reclassify.
-- Outbox/inbox summaries: one line per signal so the next session can triage without reading files.
-- Workbook health: run `wc -l` and `stat` on TSVs to populate.
+Every session rewrites SCRATCH.md using the template at **`templates/SCRATCH.template.md`** (copy the fenced block, fill in). Enforcement rules:
+- **PRIORITY-1 must be future-verifiable** — never carry forward event references without checking the date is still in the future.
+- **IMMEDIATE items must have dates.** If a date has passed, remove or reclassify.
+- **Outbox/inbox summaries: one line per signal** so next session can triage without reading files.
+- **Workbook health:** run `wc -l` and `stat` on TSVs to populate.
 
 ---
 
@@ -275,6 +215,7 @@ These rules govern *how to reason about workbook mutations* — distinct from ou
 | `thesis/PREDICTIONS.tsv` | Trackable predictions with resolution dates + invalidation criteria. |
 | `thesis/CHANGELOG.md` | Audit trail of thesis evolution — every version bump, prediction change, structural shift logged with what/why/old→new. |
 | `workbook/SCHEMA.tsv` | **Read at boot.** Column definitions for all TSVs below. |
+| `templates/` | Reusable file templates. `SCRATCH.template.md` — used at session end (step 14) to rewrite SCRATCH.md. |
 | `archive/workbook_hardening/` | May 2-3 hardening sequence (AUDIT + ITEM_2.5 plan/dispositions). Methodology rule already extracted to WORKBOOK DISCIPLINE above — consult archive only to research specific dispositions or extend Item #3 validator. |
 | `workbook/KB.tsv` | Knowledge base — 15-column schema (ID/Date/Group/Entity/Fact/Source/Conf/Epistemic/Status/Stale_By/DerivedFrom/Vectors/Notes/Last_Refreshed/Delegated_To). ID format KB-CARL-NNN. |
 | `workbook/VX.tsv` | Indicator vectors — threshold tracking with Y/O/R status colors. See stale data rules. |
