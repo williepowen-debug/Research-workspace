@@ -1,247 +1,212 @@
-# BRENT THESIS — v2.0
+# BRENT THESIS — v3.0
 
-**Version:** 2.0
-**Last Updated:** 2026-05-06
-**Status:** 🔴🔴🔴 Phase 1 DEEPENING — Project Freedom narrow channel only; bypass-pair pattern (Petroline + Fujairah) confirmed; UAE struck 2 consecutive days
-**Conviction:** HIGH (on physical Phase 1), TEMPERED ON DURATION (Brent curve back-end Dec26 $80 / Jun27 $76 prices "severe but temporary"); FIRST WEAKNESS in BRT-04 (FANG May 4 capex break)
+**Version:** 3.0
+**Last Updated:** 2026-05-31
+**Status:** 🟠→🔴 **PHASE 2 PRICING DOMINANT — diplomatic track won the tape but is FRAYING; Phase 1 intact physically (storage) + kinetically (strikes), but the PRICE broke** — Brent $92.05 (−21% vs May 5 $116.55 peak; −19% on the month, worst since Mar 2020)
+**Conviction:** **Flat-price direction REVERSED** to cautious-neutral (was HIGH-long Phase 1 at v2.0). Phase 1 physical squeeze still real (Cushing biggest draw since Aug 2023; SPR near floor). **Snapback tail re-widened** on weekend deal-fray. BRT-04 (shale non-response) now LOW (~60%); RED-19 falsified.
 
 ---
 
 ## CORE THESIS
 
-Oil markets are in a **structurally deepened Phase 1** driven by Hormuz closure that survived an Apr 8 ceasefire and is now in its second open-conflict phase. The alpha is in the sequencing: Phase 1 (supply squeeze) is DEEPENING — Iran is systematically targeting both workaround corridors (Petroline Apr 9 + Fujairah May 4), the US response is a narrow US-flagged-only Navy escort ("Project Freedom") not a broad reopening, and the largest coordinated reserve release in IEA history (400M bbl) failed to dent the tape. Phase 2 (demand destruction / OPEC+ unwind) remains more remote than 24hr ago — Path A 1/4 partial, Path B 0/3 — but the **first weakness in our shale-non-response thesis (BRT-04) appeared May 4** when FANG broke capital discipline. Curve structure tempers our duration view: spot $108-116 vs Dec26 $80 vs Jun27 $76 — back end is already pricing eventual unwind. Positioning aligns to sustained-high Phase 1 with ≤6mo expression.
+The two-phase oil crisis has reached its **Phase 1 → Phase 2 hinge — and Phase 2 arrived via the SUPPLY-RELIEF / diplomatic channel, not demand destruction.** A 60-day US-Iran MOU ("mostly agreed" per Trump: Hormuz reopens, Iran clears mines, US lifts blockade + issues sanctions waivers) drove Brent −21% from the May 5 peak as the market priced a high probability of Iranian barrels returning seaborne. **The alpha was always in the sequencing; the call now is whether $92 is a Phase 2 entry confirmation or a paper overshoot.**
 
-**One-liner:** Hormuz functionally closed for general commercial since Feb 27; both bypass corridors attacked; Project Freedom = US-flagged channel only with >1,500 vessels still trapped per CENTCOM; 400M-barrel IEA coordinated release ran since March and didn't bend the curve = the squeeze is structurally larger than paper supply can offset; Brent $116 morning May 5 → $109.87 close (cluster-mediating tape-substance divergence pending NEXUS authoritative read); pump $4.457 +47% since war start.
+The critical discipline is **LESSONS #18: the reopening is priced but NOT operational.** The deal is unsigned and fraying on every core term (uranium, Hormuz tolls/control, a new $12B frozen-asset precondition); Trump is slow-walking ("not to rush"); Rubio is floating a military "Plan B"; the physical strait is still trickle-flow (~10 vessels/day, UBS: "little evidence" of improvement); and kinetic exchange continued *through* the peace week (US strikes May 25-26; Iranian ballistic missiles at Kuwait + drones at the strait). **This rhymes with the Apr 17 false-reopening** — louder, not quieter. Phase 1's physical squeeze is, if anything, intensifying (Cushing drew the most since Aug 2023; SPR is near its operational floor) — it's the flat *price* that broke, not the supply situation.
+
+**The trade has shifted** from "hold Phase 1 longs / kinetic gap-up is the live risk" (v2.0) to **positioning the binary**: signature + operational confirmation → Brent $75-85 (Phase 2 rotation); collapse or kinetic escalation → snapback toward $100+. Base case still skews to eventual de-escalation, but the *path* is bumpier and near-term gap-up risk is back. Cleanest expression is no longer flat-price longs — it's the tanker ton-mile thesis (BRT-15) plus the kinetic-gap-up insurance (XLE Sep call).
+
+**One-liner:** Hormuz functionally closed since Feb 27, deal "mostly agreed" but unsigned and contested on every term; Brent $92 (−21% from peak) prices the reopening the physical strait hasn't delivered; storage tightening (Cushing biggest draw since Aug 2023, SPR near floor) says the squeeze is intact even as price falls; demand destruction still NOT visible (gasoline +0.5% YoY); Phase 2 is arriving on the supply axis, with the LESSONS #18 snapback as the live tail.
 
 ---
 
 ## TWO PHASES
 
-### Phase 1: Supply Squeeze (DEEPENING — Day ~68 since Feb 27 onset; Day ~28 since Apr 8 ceasefire)
+### Phase 1: Supply Squeeze (PHYSICALLY INTACT, KINETICALLY LIVE, PRICE-CONTESTED — Day ~92 since Feb 27)
 
-The physical oil market is in the most severe sustained supply disruption since 1973. Apr 8 ceasefire collapsed via Apr 12 Islamabad talks failure → Apr 13 US naval blockade. Project Freedom (May 4) restored a narrow US-flagged transit channel but **deepened the kinetic environment, not the supply environment**.
+The physical squeeze that defined Phase 1 is still real — but for the first time the flat price has decoupled from it on diplomatic-relief pricing.
 
-**Mechanism:**
-- Hormuz closed for general commercial transit; ~20M bpd normal Strait throughput continues offline
-- **Project Freedom narrow channel (May 4):** US Navy escort active, 100+ aircraft, 15,000 personnel; **2 US-flagged transits Day 1** (CENTCOM); >1,500 vessels still trapped awaiting transit; commercial ships hit by drones/missiles same day (ADNOC M.V. Barakah, HMM Namu, UK vessel)
-- **Bypass-pair pattern confirmed:** Iran systematically targeting BOTH workaround corridors:
-  - **Petroline** (Saudi East-West to Yanbu) drone-hit Apr 9, lost ~700K bpd, restored Apr 12; nameplate 7M bpd, Yanbu loading ceiling 4.5M
-  - **Fujairah** (UAE eastern bypass / ADCOP terminus ~1.5M bpd) drone-hit May 4
-  - Implication: bypass-route security premium repricing across structure, not just Strait
-- **Day-2 UAE strikes (May 5):** Iran attacked UAE 2 consecutive days; 15 missiles + drones May 4 (Al Jazeera; revised up from 4); VTTI Fujairah Petroleum Industries Zone hit; Borouge petrochemical + Emirates Global Aluminum smelter sustained collateral damage
-- **Admin "ceasefire not over" framing (May 5):** Trump/Hegseth publicly maintaining Apr 8 ceasefire framing — but this is War Powers Resolution cover, not kinetic reality. Tape disagrees: Brent +5.13% May 4 → +$2.79 May 5 morning before pulling back to $109.87 close [BRENT-placeholder-narrative pending REQ-NEXUS-20260505]
-- Gulf production **9.1M bpd shut-in** Apr (vs 7.5M Mar) per EIA STEO; Saudi 7.763M Mar (vs Feb 10.111M)
-- Aramco "12M sustainable for 1yr" capacity stranded by Hormuz
-- Russia compounding: Tuapse refinery struck 2nd time in 4 days (Apr 19-20); Ukraine mass drone+cruise on Crimea+W Russia oil-infra Apr 24
-- China Hormuz imports **−95%** (4.45M → 222K bpd Apr); India **−91%** (2.8M → 247K) — substituting Russian crude, not destruction
+**Mechanism (still operative):**
+- Hormuz closed for general commercial transit; **trickle-flow ~10 vessels/day vs 125-140 normal** [HAWK "armed pause / controlled grind," May 22]. P&I NOT resumed.
+- Gulf production **9.1M bpd shut-in** (EIA STEO Apr); Saudi 7.763M Mar; Aramco 12M capacity stranded.
+- China Hormuz imports −95%, India −91% (Apr) — Russian-crude substitution, not destruction.
 
-**Evidence the squeeze is structural, not positional:**
-- Brent **$108-116** range May 5-6 (intraday volatile; STATUS captured $116.55 ~08:45 morning, boot showed $108.11 close — substance/tape interpretive layer per LIAISON Turn 3 Q9)
-- **Brent 3:2:1 crack $42/bbl** (+176% YoY) Mar 27 — through CARL $30 alert threshold weeks ago
-- Gasoline **$4.457/gal** AAA May 5 (+47% since Feb 27 war start; +$0.33 in ~1 wk vs $4.123 Apr 27 FRED)
-- US gasoline stocks **lowest seasonal in 10+ years** going into Memorial Day (EIA / FT chart May 5)
-- Distillate **11% below 5-yr** (103.6M Apr 24 wk; deteriorating)
-- Cushing **29.8M bbl** (-796K Apr 24 wk; trajectory ~12wk to 20M operational min)
-- US rigs **408 May 1** (new low, -3 WoW, despite Brent recovery to $110+) — primary BRT-04 evidence
-- **CRACK in BRT-04 May 4:** FANG Q1 raised oil guide 510 → 520+ MBO/d, capex $3.75B → $3.9B; ConocoPhillips raised CapEx + adding Permian Delaware rig H2. **First major shale break from capital discipline.** Watch other E&P calls in earnings season; BRT-04 downgraded 95% → 75%
-- Refining backlog ~5.1M bpd product-side offline; util 89.6% (vs pre-war Gulf 93-95%)
-- **172M SPR exchange + 400M IEA coordinated release** active since Mar 11 — **failed to dent the tape**. Strong squeeze confirmation: Hormuz outage (9.1M bpd shut-in) is structurally larger than coordinated paper supply can offset. Latest US tranche 92.5M barrels bids closed May 4; awaiting awards
-- War-risk premium: **LMA confirms coverage available**; binding constraint = owner safety appetite, not insurance withdrawal. Premiums repricing back toward early-Mar 2.5% peak post May 4-5 attacks
-- **STNG Q1 2026 May 5:** mgmt explicit "freight not curtailed because oil too valuable for security of supply" — BRT-15 thesis directly confirmed
+**The storage signal — Phase 1's most acute evidence, screaming the OPPOSITE of price:**
+- **Cushing −2.794M (week May 22) → ~23.0M — biggest single-week draw since August 2023.** 20M operational floor now ~early-to-mid June. WTI delivery-dislocation risk imminent absent a deal.
+- **SPR 365.1M (−9.1M week May 22; lowest since April 2024).** ~350M operational floor ~1.5-2 weeks out at current pace. DOE must slow soon — which itself tightens marginal supply.
+- Commercial crude 441.7M (2% below 5-yr; 3rd consec draw, moderating −7.86M → −3.33M).
+- Refinery util ramped to **94.5%** (inputs +652K → 17.0M bpd) — summer driving, supply-side normalizing.
 
-**Curve structure (NEW dimension v2.0 — vs v1.1 omission):**
-- Spot $116 / Jun26 $98 / Dec26 $80 / Jun27 $76 / Dec30 $70
-- M1-M6 ~$18, M1-M12 ~$22 backwardation
-- Back end pricing **"severe but temporary"** — NOT extending the shock structurally
-- Implication: positioning beyond ~6 months fights the curve. XLE Sep $65C (5mo) is the right window; year-end+ exposure would lose to time decay even if Phase 1 holds
-- Tempers the sustained-high duration view in v1.1; doesn't change Phase 1 conviction
+**What broke — the price/curve:**
+- Brent **$92.05** (May 29 close) vs $116.55 peak (May 5). −19% on the month — worst since March 2020.
+- **Curve flattened hard:** M1-M3 ~$2-4 (from ~$18 at peak) — at/near the Path B Trigger #1 threshold ($3). Backwardation collapsing as paper supply (SPR + Iran-return expectation) prices in. Dec26 back-end ~$78-80 (always "severe but temporary").
+- Dated Brent (physical) STALE since Apr 15 — last ~$132 Apr 9-11 Platts; no real-time paper-physical diagnostic without terminal.
 
-**Paper vs Physical dislocation (refined v2.0):**
-- Paper (futures) $108-116: market pricing probability-weighted Path A reopen + ongoing kinetic risk premium
-- Physical (Dated Brent) **STALE post-Apr 15** — last public ~$132 Apr 9-11 Platts; terminal-only since
-- Paper-physical spread is no longer a reliably observable diagnostic in real-time without Bloomberg/Platts terminal access
-- Substitutable diagnostics: Brent 3:2:1 crack ($42), gasoline crack ($30+ per CARL alert weeks ago), VLCC WS rates (peak ~700 early Mar, no public May refresh), war-risk insurance prints (LMA-cited 0.8-1% moderating; repricing post May 4-5 toward 2.5%)
+**The diplomatic catalyst (Phase 2-pricing driver):**
+- 60-day MOU "mostly agreed" per Trump (Axios/PBS/The Hill May 24-29). NOT signed.
+- **Iran publicly contradicts all three pillars (Fars, "manufactured victory"):** no uranium-handover clause; no no-tolls clause (wants monitoring/inspection/security = control); demands immediate **$12B** frozen-asset payment as precondition.
+- Trump ended Fri (May 29) Situation Room with no "final determination"; told officials "not to rush." Rubio: US/allies need a "Plan B." Hegseth: military "more strongly placed than day one."
 
-**What breaks Phase 1:**
-- Path A (binary resolution) — see Exit Protocol; Path A 1/4 partial (escort active but US-flagged-only narrow channel); 3 other criteria moving further away post May 4-5
-- Brent <$75 sustained 3 sessions = thesis break (squeeze failed) — current Brent $108-116 = clear of break level
+**What breaks Phase 1 (price, not mechanism):**
+- Path A operational confirmation (signature + P&I resumption + vessel-traffic recovery) → Phase 2 rotation
+- Brent <$75 sustained 3 sessions = thesis break (squeeze failed). Current $92 = clear of break level but no longer clear of $100 either way.
 
-### Phase 2: Demand Destruction / OPEC+ Unwind (MORE REMOTE THAN 24HR AGO)
+### Phase 2: Demand Destruction / OPEC+ Unwind — PRICING HAS ARRIVED AHEAD OF CONFIRMATION
 
-Phase 2 is the reversal — when supply returns and/or demand collapses. Price crash triggers at ANNOUNCEMENT, not physical delivery (LESSONS #11).
+Phase 2 is no longer "remote." The market is pricing it — but via supply relief (diplomacy), not the demand-destruction path our framework originally modeled.
 
-**Mechanism (unchanged from v1.1):**
-- OPEC+ unwind: 3.24 mbpd deferred capacity (paper); only Saudi 1.84M + UAE 0.67M = ~2.5M true deployable, useless while Hormuz closed (LESSONS #17)
-- Demand destruction: minimum 20-24 weeks to -5% YoY gasoline historical; 2026 likely 28-32+ weeks (LESSONS #12 — EVs removed marginal drivers)
-- Sequential macro damage: consumer squeeze → manufacturing jobs → GDP → E&P credit → regional bank stress (LESSONS #13, 6-24 months)
+**Path A (binary resolution) — DOMINATING PRICE, not operationally fired:**
+- "Mostly agreed" MOU; tape pricing ~$92 = high deal probability. Per LESSONS #18, none of the operational gates have fired (see Exit Protocol).
+- Signature → Brent reprices $75-85 within days (LESSONS #11 — crash on announcement, not delivery). Collapse → snapback $100+.
 
-**Leading indicators (Phase 2 approaching — UPDATED v2.0):**
-1. **Airline capacity cuts** (4-8 wk lead) — 🔴 CONFIRMED FIRING GLOBALLY: Lufthansa 20K flights through Oct, KLM 160 May, Spirit Airlines ceased May 2, SAS ~1K April, Cathay -2% May-Jun, ULCC -10%, AAL bracing for $4B incremental fuel cost 2026 (~36% YoY)
-2. **ATA Truck Tonnage** — 🟡 monitoring (no fresh print)
-3. **Diesel PPI spike** — 🟠 building; HENRY owns
-4. **Brent M1-M3 contango <$3** — CLEAR (currently $7-8 backwardation; flattening)
-5. **EIA gasoline -5% YoY sustained 3 weeks** — CLEAR (+1.2% YoY 4-wk Apr 29; first clean post-Easter signal window May 7+)
-6. **CFTC NYMEX MM net longs declining** — CLEAR (99,887 Apr 21, +1,519 WoW; 4th consec increase)
-7. **US shale capex break (NEW v2.0 — supply-side Phase 2 entry)** — 🟠 CRACKING: FANG May 4 + ConocoPhillips raised. Earnings season runs May; if 2-3 more break, BRT-04 materially weakened — Phase 2 supply-side path opens
+**Path B (demand destruction) — 1/3 fired:**
+1. **Trigger #1 (M1-M3 < $3 ×3 daily closes):** 🟠 AT/NEAR threshold (~$2-4 EST; needs ICE CONF) — closest it has ever been.
+2. **Trigger #2 (gasoline ≤−5% YoY ×3 wks):** ❌ NOT fired — **+0.5% YoY (May 15)**; the anticipated first-negative didn't materialize. Util ramp + Memorial Day base = summer driving offsetting. Jet fuel −6.2% YoY is the lone soft spot.
+3. **Trigger #3 (CFTC MM declining 2 wks while price flat):** 🔴 FIRED May 5 (99,887→70,791), then **reversed** — May 19 NYMEX 98,219 (+25,418). ⚠️ Those positions are PRE-$96-drop; **May 26 COT (due Jun 5) is the re-fire watch** — a spec dump on deal news with falling price = Path B accelerating.
 
-**Phase 2 confirmation rule (from BRT-21):** ALL THREE x3 readings simultaneously = top is 4-6 weeks away (~80-85% historical accuracy). NONE currently active. Updated count: 1 of 7 indicators firing (airlines).
+**Supply-side Phase 2 entry (shale break) — building:**
+- Rigs **429** (May 29; +22 from 407 trough; 7 consec weekly gains). FANG + ConocoPhillips capex breaks confirmed. Below 457 alert threshold (28 away, ~7 wks). **BRT-04 downgraded to ~60%; RED-19 (rigs 400-415 through Jun) FALSIFIED** (429 > 415).
 
-**What Phase 2 looks like:**
-- Brent drops $20-40 from peak within 7 days of reopening announcement [BRT-07]
-- E&P credit stress lags price crash by 6-12 months (refiner spreads lead) [BRT-12]
-- Regional bank stress concentrates geographically (1986 Texas analog) [LESSON-14]
+**Phase 2 confirmation rule (BRT-21):** ALL THREE Path B triggers ×3 readings = top 4-6 weeks away (~80-85% historical). Currently 1/3. But Path A (diplomatic) can pre-empt the entire Path B sequence with a single signature.
+
+**What Phase 2 looks like:** Brent −$20-40 within 7 days of operational reopening [BRT-07]; E&P credit stress lags price crash 6-12 months [BRT-12]; regional bank stress concentrates geographically (1986 Texas analog) [LESSON-14].
 
 ---
 
 ## TRANSMISSION CHANNELS
 
 ### Channel 1: Physical Supply → Price (BRENT core)
-Hormuz closure + multi-theater destruction → physical scarcity → price surge → Phase 1 deepening.
-*Primary channel. BRENT owns end-to-end.*
+Hormuz closure → physical scarcity → price. **NEW in v3.0: the price has decoupled from the physical squeeze on diplomatic-relief pricing.** Storage (Cushing/SPR) now the truest Phase-1 read; flat price reflects deal-probability weighting. *Primary channel. BRENT owns end-to-end.*
 
 ### Channel 2: Price → Consumer (BRENT → CARL)
-Oil price → crack spreads → pump prices → consumer spending compression → demand destruction signal.
-**Iran-cluster regime (active):** transmission speed 3-4 days, NOT normal 2-3 weeks. May 4 Brent +5.80% → AAA $4.457 May 5 (~1d lag). Crack $42/bbl, jet crack at all-time records. Per FLOW-BRT-02 + FLOW-BRT-27.
-*BRENT provides the input. CARL owns the consumer transmission.*
+Gas plateaued at $4.459 (May 27); Brent −20% should ease pump prices May 31-Jun 14 (2-4 wk lag). The consumer *relief* channel is now opening as Phase 1 price unwinds. *BRENT provides the input; CARL owns consumer transmission.*
 
 ### Channel 3: Price → Inflation (BRENT → HENRY)
-Energy PPI/CPI components → headline inflation → Fed trapped (can't cut into inflation).
-2007-08 analog: $147 oil pushed CPI 2.1%→5.6%. Per FLOW-BRT-04.
-*BRENT flags energy inflation inputs. HENRY owns the print.*
+Oil −19% on the month **flips the energy-inflation tailwind hard** — energy PPI/CPI components turn disinflationary. *BRENT flags inputs; HENRY owns the print.*
 
 ### Channel 4: Supply Chain (BRENT → multiple)
-- LNG: Qatar curtailment → JKM $16.87/MMBTU May 4 (+50% YoY) → SAM Japan crisis (FLOW-BRT-19) + NEW Korea/Taiwan FX/inflation extension (FLOW-BRT-28)
-- Sulphur chain → copper/cobalt (DRC SX-EW force majeure risk) [VX-BRT-11]
-- Taiwan LNG → semiconductor risk (TSMC grid reliability) [VX-BRT-12]
-- Energy credit → systemic (LIQUID; HY Energy 2.85% Apr 28 — no stress yet despite Brent $116)
-- Refining capacity damage → CARL/HENRY pump cluster (FLOW-BRT-29) — Geelong/Pachpadra/Tuapse/Corpus Christi event-cluster
+- LNG: JKM stale ($16.87 May 4); Japan relief if deal closes → SAM
+- Sulphur → DRC copper/cobalt [VX-BRT-11 / BRT-23]; Taiwan LNG → semiconductors [VX-BRT-12 / BRT-24/25] — both Hormuz-duration-dependent; resolve toward "no-fire" if deal closes
+- Energy credit → systemic (LIQUID; HY Energy 2.85% Apr 28, STALE — oil −20% may widen energy-specific)
 
 ---
 
 ## EXIT PROTOCOL
 
-### PATH A — RESOLUTION (Binary)
+### PATH A — RESOLUTION (Binary) — the LESSONS #18 gates are now the central discipline
 
-**v2.0 verification gates (per LESSONS #18 — disambiguate rhetorical vs operational):**
+Tape is pricing Path A ahead of these gates. **None have operationally fired:**
 
-| Criterion | Status (May 5-6) | Required for Path A fire |
-|-----------|------------------|--------------------------|
-| Naval escort active (broad commercial) | 🟡 PARTIAL — US-flagged-only narrow channel; commercial vessels still hit | Broad commercial transit, not US-flagged |
-| War-risk premium / owner safety appetite | ❌ MOVING AWAY — repricing toward 2.5% peak post May 4-5 UAE strikes | Premiums moderating; commercial owner pickup |
-| Sovereign Iran reopening action | ❌ MOVING AWAY — Day-2 UAE strikes confirm campaign | Iran climbdown OR US escalation forcing renegotiation |
-| Platts physical convergence | ❌ STALE Apr 15+ | Dated Brent narrows to within $10 of futures |
-| Lloyd's vessel transit count | ❌ ~95% below baseline | Returns to 60-135/day baseline |
-| P&I insurer resumption notices | ❌ none observed | Insurers issue formal resumption |
+| Criterion | Status (May 31) | Required for Path A fire |
+|-----------|-----------------|--------------------------|
+| MOU signed by both parties | ❌ "mostly agreed," unsigned; Iran contradicts all terms; Trump "not to rush" | Signed framework, not "largely negotiated" rhetoric |
+| Naval escort → broad commercial transit | 🟡 trickle-flow ~10 vessels/day | Broad commercial transit, not US-flagged-only |
+| War-risk premium / owner appetite | ❌ elevated; P&I not resumed | Premiums moderating; commercial owner pickup |
+| Sovereign Iran reopening action | ❌ kinetic continued (Kuwait missiles, drones); IRGC threats | Iran climbdown + mine clearance underway |
+| P&I insurer resumption notices | ❌ none | Insurers issue formal resumption |
+| Lloyd's / vessel transit recovery | ❌ UBS: "little evidence" of improvement | Returns toward 60-135/day baseline |
+| Platts physical convergence | ❌ stale Apr 15+ | Dated Brent narrows to within ~$10 of futures |
 
-**Path A FIRED?** ❌ MORE REMOTE THAN 24HR AGO. Project Freedom is narrow not broad; war-risk pricing tightening; Day-2 UAE strikes confirm Iran isn't climbing down.
+**Path A FIRED?** ❌ NO — priced, not operational. The Apr 17 precedent (paper overshot, physical didn't confirm, Brent recovered) is the live snapback template.
 
-**Action on fire:** Exit ALL Phase 1 longs within 4 hours per LESSONS #11 (price collapses Day 3-8 of announcement, NOT Week 6-8 of physical delivery). STNG/equity exits at announcement; tankers don't physically transit before equity reprices [BRT-15 + LESSONS #16].
-
-**BURST_WINDOW_OPEN protocol (NEW v2.0):** When Path A fires (4/4 verification gates met), BURST_WINDOW_OPEN declared via LIAISON; FLASH-only routing 24-72h with rolling Telegram thread + daily 00:00 UTC roll-up. Pre-aligned per LIAISON Turn 3 Q5 (pending WALTER Turn 4 close-loop).
+**Action on fire:** Exit ALL Phase 1 longs within 4 hours per LESSONS #11 (collapse Day 3-8 of announcement, not Week 6-8 of delivery). Equity (STNG/XLE) reprices at announcement, before physical transit [LESSONS #16].
 
 ### PATH B — DEMAND DESTRUCTION (Gradual)
-**Trigger:** ALL THREE x3 readings: Brent M1-M3 < $3 | EIA gasoline -5% YoY | CFTC longs declining (currently 0/3)
-**Action:** Gradual rotation. Full exit 4-6 weeks.
+**Trigger:** ALL THREE ×3: Brent M1-M3 < $3 | EIA gasoline −5% YoY | CFTC longs declining. Currently **1/3** (Trigger #3 fired-then-reversed; Trigger #1 at/near threshold; Trigger #2 not fired).
+**Action:** Gradual rotation; full exit 4-6 weeks.
 
 ### SHORT PLAYBOOK (Phase 2)
-Bear put spreads, NOT outright puts (IV at 100th percentile) [LESSONS #15]. 60-90 DTE, 10-15% OTM, 3:1 risk-reward. Execute within 48 hours of Phase 2 trigger confirmation. See `research/PHASE2_SHORT_PLAYBOOK.md`.
+Bear put spreads, NOT outright puts (vol crush) [LESSONS #15]. 60-90 DTE, 10-15% OTM, 3:1 R:R. Execute within 48h of Phase 2 trigger confirmation. See `research/PHASE2_SHORT_PLAYBOOK.md`. **NOTE: with Brent already −21% and curve flattened, a meaningful chunk of the Phase 2 move may already be in the paper price — size the short to the *operational confirmation* gap, not the peak.**
 
 ---
 
-## POSITION VIEW (refreshed v2.0 per STATUS May 4-5 + Will May 3)
+## POSITION VIEW (refreshed v3.0 per STATUS May 31)
 
-| Position | Type | Spot (May 4) | Status |
-|----------|------|-------------|--------|
-| XLE $65C Sep 30 | Call (2) | XLE $59.37 (OTM, 5mo to expiry) | Energy beta, longer-dated; Phase 1 sustained-high expression |
-| CF $130C Jun 18 | Call (1) | CF $124.52 (OTM, ~6 wk to expiry) | Fertilizer (BRENT-adjacent — sulphur/nitrogen chain) |
+| Position | Type | Spot (May 29 close) | Status |
+|----------|------|--------------------|--------|
+| XLE $65C Sep 30 | Call (2) | XLE $56.29 (OTM $8.71 / ~15%; ~4 mo) | **HOLD — kinetic-gap-up insurance.** 4-month runway absorbs the grind; re-rates if MOU collapses or a strike lands. The gap-up tail just got fatter. |
+| CF $130C Jun 18 | Call (1) | CF $112.35 (OTM $17.65 / ~14%; ~18 days) | **Near write-off.** Oil −20% crushed the fertilizer chain. **Don't roll** (oil-up thesis reversing). **Don't pre-commit to expiry either** — a Monday snapback could give a better mark to sell into. Hold through a possible pop, reassess live mark, then close. |
 
-**Realized BRENT book P&L:** USO $120C May 1 closed for **+~$1,700** (cost basis to be reconciled with FORGE). USO $118C Mar 27 closed prior +$534.83.
+**Tanker (BRT-15) — no equity expression yet; the cleaner play now.** DHT resilient on down-Brent days; STNG pulled back from $81.68 (May 20) to ~$74.51 (better entry). Ton-mile thesis intact: Iranian barrels returning seaborne = more tanker miles even as flat price falls. **Initiate on MOU signature, not anticipation** [LESSONS #16].
 
-**No USO/STNG/DHT shares on the book.** Tanker thesis (BRT-15) currently has no equity expression. **No new initiations pending Project Freedom resolution + Dated Brent refresh.**
+**Realized:** USO $120C May 1 closed +~$1,700 (FORGE reconciliation pending — cost basis NOT authoritative per system rule).
 
-**Curve-aware sizing rule (NEW v2.0):** XLE Sep aligns with squeeze-window (5mo captures Phase 1; back end Dec26 $80 means year-end+ holds fight the curve). Don't initiate new positions beyond Sep expiry without explicit duration thesis.
-
----
-
-## KEY THRESHOLDS (refreshed v2.0)
-
-| Metric | Level | Significance | Status (May 5-6) |
-|--------|-------|-------------|------------------|
-| Brent futures | >$100 | HAWK Scenario C confirmation | 🔴 BREACHED ($108-116 range) |
-| Dated Brent | >$140 | Extreme physical scarcity | 🔴 LAST PUBLIC ~$132 Apr 9-11 (stale) |
-| Brent futures | >$120 sustained 3 sess | Phase 2 demand-destruction acceleration; BRT-04/BRT-08 threat | 🟠 APPROACHING; BRENT-IMMEDIATE dispatch trigger per Q4 |
-| Brent | <$75 sustained 3 sess | Thesis break — squeeze failed; BRT-15 invalidation | CLEAR — BRENT-IMMEDIATE dispatch trigger |
-| WTI-Brent spread | >$5 | US decoupling from global | 🟡 -$8.46 May 4 (US relative supply premium from Project Freedom narrow scope) |
-| Cushing | <20M bbl single print | Operational minimum, WTI dislocation; BRENT-IMMEDIATE | 🟠 29.8M Apr 24 wk; trajectory ~12 wk |
-| Retail gas | >$4.00/gal | Demand destruction psychological trigger | 🔴 BREACHED INTENSIFYING ($4.457 May 5 +$0.33/wk) |
-| VLCC rate | >WS200 sustained-cross-from-baseline (≥2× trailing 30d median) | Tanker super-cycle territory | 🔴 PRE-CONDITIONS HOLD (peak ~WS700 early Mar; no public May refresh) |
-| HY Energy OAS | >400bps | Energy credit stress emerging; BRENT-IMMEDIATE | CLEAR (~285bps Apr 28; LIQUID owns) |
-| US rig count | +50 from 408 trough | Shale capex break confirmed; BRT-04 invalidation; BRENT-IMMEDIATE | 🟠 408 May 1 — but FANG/COP capex break May 4 = leading-indicator firing |
-| Brent 3:2:1 crack | >$30 (re-cross from below) OR >$50/bbl spike | Refining-margin extremum; CARL alert | 🔴 STANDING $42 (CARL alert tripped weeks ago); on threshold-cross-on-re-cross logic per LIAISON Q4 |
-| Gasoline crack | >$30 (re-cross logic) | Pump price surge → CARL alert | 🔴 STANDING; same threshold-cross logic |
-| Dated-futures spread | >$20 | Physical scarcity confirmed | 🔴 BREACHED (~$29 Apr 16; later stale) |
-| EIA gasoline YoY | -5% | Phase 2 demand destruction | CLEAR (+1.2% Apr 29 4-wk; first clean post-Easter window May 7+) |
-| Brent M1-M3 | <$3 | Phase 2 approaching | CLEAR (~$7-8) |
-
-**BRENT-IMMEDIATE dispatch list (NEW v2.0):** 8 thresholds above marked "BRENT-IMMEDIATE" auto-fire WALTER FLASH/IMMEDIATE-precedence dispatch when breached per LIAISON Turn 3 Q4 + JOINT_PROPOSAL §2c. Re-fire convention: one signal per boundary cross, no re-fire on continued state.
+**Curve-aware sizing rule (carried from v2.0):** don't initiate beyond ~Sep without explicit duration thesis. **No new flat-price longs** into a deal the market is already pricing.
 
 ---
 
-## CROSS-AGENT LINKS (refreshed v2.0)
+## KEY THRESHOLDS (refreshed v3.0; status as of May 31)
 
-| Direction | Agent | What Flows | Channel |
-|-----------|-------|------------|---------|
-| **← HAWK** | Military ops, Hormuz status, sanctions, escalation tier; per LIAISON Q10 HAWK supersedes proxy on doctrinal/kinetic | per HAWK |
-| **← MARCO** | Trade policy / tariff impact on energy flows | per MARCO |
-| **→ CARL** | Gas pump prices, heating oil, consumer energy burden; pump-pass-through 3-4d Iran-cluster regime | FLOW-BRT-02, -23, -27, -29 |
-| **→ LIQUID** | Energy HY OAS, E&P debt stress, energy credit contagion | FLOW-BRT-08, -22 |
-| **→ HENRY** | Oil-driven inflation inputs (energy PPI/CPI components) | FLOW-BRT-04 |
-| **→ SAM** | Japan energy import costs, LNG spot prices, Korea/Taiwan extension | FLOW-BRT-03, -19, -28 |
-| **→ HAWK** | Oil price levels + storage data for scenario framework (NEW dedicated FLOW v2.0) | FLOW-BRT-26 |
-| **→ REGINALD** | Energy loan exposure at regional banks (Phase 2 pathway) | FLOW-BRT-22 |
-| **↔ WALTER** | BOARD signal routing per `handoff_WALTER/LIAISON.md` Turns 1-3; 47-signal back-disposition pass complete (commit bf8c2c9e); BRENT-IMMEDIATE dispatch list active | FLOW-BRT-30 |
-| **↔ NEXUS** | Cluster-narrative authority on cluster-mediating signals (e.g., -012 Brent tape divergence); BRENT placeholder caveat applied per LIAISON Q3 | pending NEXUS spawn |
-
-**LIAISON-protocol layer (NEW v2.0):** BRENT participates in 3-way joint proposal with CARL+WALTER (FORMAT_SPEC v0.8 cosign + lng_substitution + BRENT-IMMEDIATE thresholds + BURST_WINDOW_OPEN protocol). Energy_transmission v0.9 candidate enum (10-value) + regime_state v0.9 candidate (5-value) for outbound-from-BRENT signal tagging — separate Will-surface from v0.8.
+| Metric | Level | Significance | Status |
+|--------|-------|-------------|--------|
+| Brent futures | >$100 | HAWK Scenario C | 🟠 $92.05 — fell back below $100; snapback to $100+ is the live tail |
+| Brent | <$75 sustained 3 sess | Thesis break (squeeze failed) | CLEAR ($92) |
+| Brent | >$120 sustained 3 sess | Phase 2 demand-destruction acceleration | CLEAR (moving away) |
+| **Cushing** | <20M bbl single print | Operational minimum; WTI dislocation | 🔴 **~23.0M; floor ~early-mid June** (biggest draw since Aug 2023) |
+| **SPR** | approaching ~350M floor | DOE forced to slow → marginal tightening | 🔴 **365.1M; floor ~1.5-2 wks** |
+| Brent M1-M3 | <$3 | Phase 2 approaching (Path B Trigger #1) | 🟠 **~$2-4 EST — AT/NEAR threshold** (needs ICE CONF) |
+| EIA gasoline YoY | −5% ×3 wks | Phase 2 demand destruction (Trigger #2) | ❌ +0.5% (May 15) — not fired |
+| US rig count | +50 from 407 trough (=457) | Shale capex break; BRT-04 invalidation | 🟠 429 (28 away); capex layer already cracked |
+| Retail gas | >$4.00/gal | Consumer trigger | 🔴 $4.459 (plateaued; easing expected) |
+| WTI-Brent spread | >$5 | US decoupling | 🟡 ~−$4.7 (narrowing as complex deflates) |
+| HY Energy OAS | >400bps | Energy credit stress | CLEAR (~285bps Apr 28, STALE; LIQUID owns; may widen on oil −20%) |
+| VLCC rate | >WS200 sustained | Tanker super-cycle | 🟡 pre-conditions hold (peak ~WS700 early Mar; no public May refresh) |
+| Brent 3:2:1 crack | >$30 / >$50 spike | Refining extremum; CARL alert | last $42 Mar 27 — refresh needed (should compress on Brent −20%) |
 
 ---
 
-## RISK FACTORS (refreshed v2.0)
+## CROSS-AGENT LINKS
+
+| Direction | Agent | What Flows |
+|-----------|-------|------------|
+| **← HAWK** | Military ops, Hormuz status, escalation tier (HAWK supersedes on kinetic). Current frame: "armed pause / controlled grind" (May 22) |
+| **← MARCO** | Trade policy / tariff impact on energy flows |
+| **→ CARL** | Gas pump (now easing), heating oil, consumer energy *relief* as price unwinds |
+| **→ LIQUID** | Energy HY OAS, E&P debt stress (Phase 2 tail; oil −20% may widen) |
+| **→ HENRY** | Energy PPI/CPI — now disinflationary (tailwind flipped) |
+| **→ SAM** | Japan energy import relief if deal closes; LNG/JKM |
+| **→ HAWK** | Oil price + storage for scenario framework |
+| **→ REGINALD** | Energy loan exposure at regional banks (Phase 2 pathway) |
+| **↔ PROME** | Cushing 20M + SPR 350M floors = PROME-tier physical flags (WTI-dislocation / kinetic-resolution forcing) |
+
+*Infra note: LIAISON/BOARD/FLOW dispatch detail collapsed per messaging-system-overhaul direction; not maintained in THESIS. `demand_destruction/TRACKER.md` is the operational dashboard.*
+
+---
+
+## RISK FACTORS (refreshed v3.0)
 
 | Risk | Prob | Impact | Mitigation |
 |------|------|--------|-----------|
-| Path A fires (sudden ceasefire / Hormuz reopen) | 10% (down from 15% v1.1) | Phase 1 longs lose 20-30% in days | PATH A 4-hour exit + BURST_WINDOW_OPEN protocol per LIAISON Q5; STNG announcement-not-delivery exit |
-| Iran retaliates further on Saudi/UAE / 3rd-day UAE strike | 35% (up from 25% v1.1) | Brent $130+, bypass routes destroyed; FLOW-BRT-30 IMMEDIATE | Already long; benefits Phase 1 |
-| Demand destruction faster than modeled (Path B fires before Path A) | 15% (up from 10% v1.1) | Phase 2 arrives early; BRT-04 weakening (FANG/COP capex) | Monitor weekly; BRT-04 downgraded 95→75% |
-| US shale capex layer cracks broadly (E&P earnings May) | 30% NEW | BRT-04 invalidation; rigs +50 from 408 trough | Watch CXO/OXY/EOG/MRO Q1 calls |
-| SPR/IEA further coordinated release | 25% (up; one already failed) | Likely ineffective per Mar 11 onset failed-to-dent | SPR-1 already failed; expect diminishing returns |
-| OPEC+ surprise unwind announcement | 5% | Price crash before Hormuz reopens | Watch Saudi-Russia back-channel + UAE post-exit dynamics |
-| Tape-vs-substance divergence widens (range-bound choppy without resolution) | 30% NEW | Position chops; thesis intact but P&L stagnant | Don't chase intraday; respect cluster-mediating placeholder caveats |
+| **Path A fires (deal signed + operational)** | **40%** (up from 10% v2.0) | Phase 1 longs → Phase 2 rotation; Brent $75-85 | LESSONS #11 4-hour exit; tanker/XLE reprice at announcement |
+| **Deal collapses / kinetic escalation → snapback** | **30%** (the re-widened tail) | Brent $100+ gap-up; XLE re-rates | Hold XLE gap-up insurance; don't short into a possible bounce |
+| Cushing breaches 20M before deal | 35% | WTI delivery dislocation; M1-M2 inversion; forces kinetic-resolution conversation | Flag PROME if Jun 4 EIA < 21M |
+| Choppy unresolved range ($88-100) | 35% | P&L chops; thesis intact but stagnant | Don't chase intraday; respect the binary |
+| Trigger #3 re-fires (May 26 COT, Jun 5) | 30% | Path B accelerates with falling price | Watch Jun 5 COT closely |
+| Demand destruction finally appears (Trigger #2) | 20% | Path B path opens | Watch Jun 4 EIA gasoline (post-Memorial-Day clean read) |
 
-**Thesis break condition (unchanged):** Brent sustains below $75 with Hormuz still closed = demand destruction overwhelmed supply squeeze without resolution.
+**Thesis break condition:** Brent sustains below $75 with Hormuz still closed = demand destruction overwhelmed supply squeeze without resolution. (Not in play at $92.)
 
 ---
 
-## CONFIRMED PREDICTIONS (refreshed v2.0; full set in `workbook/PREDICTIONS.tsv`)
+## CONFIRMED PREDICTIONS (refreshed v3.0; full set in `workbook/PREDICTIONS.tsv`)
 
 | ID | Prediction | Status | Result |
 |----|-----------|--------|--------|
-| BRT-01 | Brent reaches $100 before Hormuz reopens | CONFIRMED | $100 hit weeks before any reopening event |
-| BRT-02 | Kuwait full curtailment within 14 days | CONFIRMED | ~2.58M bpd curtailed by Mar 20 |
-| BRT-03 | UAE curtailment within 25 days | CONFIRMED | ~1.6M bpd cut, Fujairah suspended |
-| BRT-04 | US shale does NOT meaningfully respond in Q1 | OPEN — DOWNGRADED 95→75% | Q1 confirmed (rigs flat); FANG/COP capex break May 4 = leading-indicator weakness |
-| BRT-05 | Phase 2 does not begin before Q2 | CONFIRMED | 0/3 Path B triggers fired in Q1 |
-| BRT-06 | Tanker rates rise 20%+ from rerouting | CONFIRMED | VLCC peaked WS700 (~14× baseline) early Mar |
-| BRT-07 | Phase 2 reopen-announcement | OPEN — TIMER RESET | Apr 17 declaration retracted by Iran ship attacks; Brent fully recovered |
-| BRT-08 | Path B EIA signal window | OPEN — Watch May 7+ | Real signal opens post-Easter |
-| BRT-09 | Aviation cuts confirm Phase 2 leading | OPEN — leading indicator firing | 22+ carriers cutting; Lufthansa 20K, Spirit ceased |
-| BRT-13 | US retail gas reaches $4.00 if Brent >$95 | CONFIRMED — INTENSIFYING | $4.457 May 5 (+47% since Feb 27) |
-| BRT-14 | 30d of Hormuz closure → $100 near-inevitable | CONFIRMED | Brent hit $110 Apr 7, $100 on blockade Apr 13 |
-| BRT-15 | STNG benefits from war-risk-premium tanker tightness | OPEN | $83.53 (+9.9% from entry $76); STNG Q1 May 5 confirms thesis |
-| BRT-17 | Same Path A logic as BRT-07 | OPEN — TIMER RESET | 60/90-day Ras Laffan windows reset post-Apr-17 |
-| BRT-19 | US munitions constraints force policy shift by early Apr | PARTIAL | Apr 8 ceasefire + Apr 13 blockade fit arc; causal attribution unverified |
-| BRT-20 | Apr 25 deadline | NOT-FIRED | Hormuz precondition never reopened |
+| BRT-01 | Brent reaches $100 before Hormuz reopens | CONFIRMED | $100 hit weeks before any reopening |
+| BRT-02 | Kuwait full curtailment within 14 days | CONFIRMED | ~2.58M bpd by Mar 20 |
+| BRT-03 | UAE curtailment within 25 days | CONFIRMED | ~1.6M bpd cut |
+| BRT-04 | US shale does NOT meaningfully respond in Q1 | OPEN — DOWNGRADED ~60% | Rigs 429 (+22 from trough, 7 consec gains); RED-19 falsified; capex breaks confirmed |
+| BRT-05 | Phase 2 does not begin before Q2 | CONFIRMED | 0/3 Path B in Q1 |
+| BRT-06 | Tanker rates rise 20%+ from rerouting | CONFIRMED | VLCC peaked WS700 early Mar |
+| BRT-07 | Phase 2 reopen-announcement crash | OPEN — TIMER RESET | MOU "mostly agreed" closest yet but not operational (LESSONS #18) |
+| BRT-08 | Path B EIA gasoline signal | OPEN — NOT fired | +0.5% YoY May 15; far from −5% |
+| BRT-09 | Aviation cuts confirm Phase 2 leading | OPEN — leading, firing | ~30+ carriers; jet fuel −6.2% YoY |
+| BRT-13 | US retail gas reaches $4.00 if Brent >$95 | CONFIRMED — peaking | $4.459 May 27; easing expected on Brent −20% |
+| BRT-14 | 30d Hormuz closure → $100 near-inevitable | CONFIRMED | $100 on blockade Apr 13 |
+| BRT-15 | STNG benefits from war-risk tanker tightness | OPEN — thesis intact, awaiting catalyst | DHT resilient on down-Brent days; entry gated on MOU signature |
+| BRT-17 | Same Path A logic as BRT-07 | OPEN — TIMER RESET | Ras Laffan windows reset; trigger on signature |
+| BRT-19 | US munitions constraints force policy shift | PARTIAL | Ceasefire/blockade arc fits; causal attribution unverified |
+| BRT-20 | Apr 25 deadline | NOT-FIRED | Hormuz never reopened |
 
 ---
 
-*This is a living document. Update when: phase transition signals appear, thresholds breach, predictions resolve, or new supply/demand channels identified. v2.0 reflects May 4-5 structural changes (Project Freedom + bypass-pair pattern + BRT-04 weakness + LIAISON architectural layer).*
+*This is a living document. Update when: phase transition signals appear, thresholds breach, predictions resolve, or new channels identified. v3.0 reflects the May 6→31 regime shift: Phase 2 PRICING via the diplomatic/supply-relief channel, flat-price conviction reversal, storage-as-truest-Phase-1-read, and the LESSONS #18 snapback discipline. Full audit trail in `CHANGELOG.md`.*
