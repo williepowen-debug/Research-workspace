@@ -34,12 +34,14 @@
 - FXY options: ATM IV eased to **8.03%** (−0.56 vs 5/29) but 25d RR steepened to **−7.81** (from −6.35) — yen-strength convexity bid building further (thesis-side). IV down + skew up = market not pricing imminent shock on level but paying up for yen-strength tails.
 - Brent **$91.12** (−$1 vs 5/29); JGB/USDJPY/FXY otherwise flat (weekend, mkt closed — Fri-cached). No new macro prints.
 
-### LAST SESSION (5/31 Sunday — boot + CFTC release + BOJ repricing mark-up)
+### LAST SESSION (5/31 Sunday — boot + CFTC release + BOJ repricing mark-up + KOYOMI docket audit)
 
 - Clean boot, read phase steps 0-6 + market refresh. boot.py 11.3s, 9/9 green. Integrated CFTC release (-114,667, broke -102K cycle peak, 4th build week) into STATUS + CALENDAR.
 - **Git housekeeping (Will-authorized cross-agent exception):** committed 4 stale PROME SIG/REPLY files (BROCK/HENRY/REGINALD inboxes+outbox) → `bfb9c654`; trashed WILL/share image via gio. Then committed SAM boot writebacks → `7614efc2`; **pushed both, origin clean** (`da1165d4..7614efc2`). CARL's "uncommitted" work from the boot snapshot had already been committed+pushed by CARL (commits 70cc4c41/3371ddf4/581b62c9) — boot snapshot was stale.
 - **🆕 BIG ONE — Japan news check surfaced a stale mark: market repriced June BOJ hike to ~88%** (Polymarket 88.2% / swaps ~87.5%, both May 31; sustained ~60% May 22 → 88%, held through both CPI misses). We were carrying a stale 55-65%. **Marked SAM-21 ~50% → 70%** (Will-approved). Mechanism-over-threshold vindication. Ran the full cascade: PREDICTIONS + STATUS (banner/STATE-OF-PLAY/carry-table/BOJ-assessment/trigger-table) + TIMELINE (May 31 RESOLVED entry) + CHANGELOG (POV pivot reversing the May 28 "dovish-impaired" entry). Position unchanged; Sep $60 call still NOT warranted.
 - **Lesson (calibration/process):** a market-pricing input we *poll* (Polymarket/swaps) went stale in STATUS while we tracked hard data — the divergence (50% vs 88%) was staleness, not a differentiated view. Re-poll BOJ swap/Polymarket pricing at every boot in the catalyst window, not just at named prints.
+- **KOYOMI docket audit (spawned post-mark-up):** synced CALENDAR ↔ CATALYSTS.tsv to the 70% mark (TSV Jun 16 row still carried stale 55-65%), pruned >1wk resolved rows, stripped live levels. 2 escalations → both resolved: (#2) pruned the resolved May 29 CFTC row from THESIS forward table → `c405758b`; (#1) **confirmed Jun 8 Q1-GDP 2nd-prelim at ESRI = Mon Jun 8 8:50 AM JST (= ~7:50 PM ET Sun Jun 7)** + fixed ESRI source URL in RELEASES.md → `e01ee204`. All pushed, origin clean.
+- **Timing note for Jun 8 GDP:** prints **Sunday evening ET (Jun 7 ~7:50 PM)**, the night before the US week opens — ahead of the Jun 10 US CPI / JGB 30Y cluster. (Bonus: full 2026 GDP calendar pulled from ESRI — next after Jun 8 is Q2 1st-prelim Aug 17; not yet logged, beyond horizon.)
 
 ### NEXT SESSION
 
