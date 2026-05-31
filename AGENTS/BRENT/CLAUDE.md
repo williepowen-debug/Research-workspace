@@ -21,19 +21,33 @@ Oil markets are 24/7 and data-rich. EIA weekly, Baker Hughes, OPEC meetings, tan
 
 ## SPAWN PROTOCOL
 
+**Boot and closeout are one symmetric sequence: what you READ at boot, you WRITE BACK at closeout.** The CLOSEOUT phase (steps 7-13) is the write-back tail — run it at **EVERY session end, not just end-of-day** (per auto-memory `[[feedback_intra_day_closeout_discipline]]`). It is not optional; it is the back half of this protocol. Read→write pairings: STATUS (read 1 → write 7), SCRATCH (read 2 → write 11), predictions (surface 5 → resolve 8), thesis (read via STATUS → write 9).
+
+### BOOT (read phase)
 0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
 1. **Read `STATUS.md`** — price levels, storage timelines, phase thesis, convergence matrix, positions
-2. **Read `LESSONS.md`** if it exists — mistake patterns to avoid
-3. **Read `domain/REFERENCE_TABLES.md`** if task involves fundamentals — breakevens, OPEC quotas, storage capacities
-4. **Run `scripts/boot.py`** — live prices + FRED + EIA + catalyst countdown in ~10s:
+2. **Read `SCRATCH.md`** — ephemeral handoff from last session (CHANGES SINCE / what was done / NEXT SESSION action items). The canonical "where are we" file.
+3. **Read `LESSONS.md`** if it exists — mistake patterns to avoid
+4. **Read `domain/REFERENCE_TABLES.md`** if task involves fundamentals — breakevens, OPEC quotas, storage capacities
+5. **Run `scripts/boot.py`** — live prices + FRED + EIA + catalyst countdown in ~10s:
    ```
    .venv/bin/python3 AGENTS/BRENT/scripts/boot.py
    ```
-   Use `--verbose` for full output. Web-search only for narrative/headline catalysts the boot kit doesn't cover.
-5. **Execute the task**
-6. **Write results back to `STATUS.md`** — update prices, storage, convergence, predictions
-7. **Research detail → `domain/sources/` (external) or `research/` (deep dives)**
-8. **Cross-agent signals → `outbox/`** (HERMES delivers)
+   Use `--verbose` for full output. Web-search only for narrative/headline catalysts the boot kit doesn't cover. **Also eyeball OPEN rows in `workbook/PREDICTIONS.tsv` whose Timeframe has passed** — flag any DUE for resolution at closeout (don't let a prediction sit OPEN-but-stale). *(Predictions-due auto-scan in boot.py is a pending enhancement.)*
+
+### EXECUTE
+6. **Execute the task.**
+
+### CLOSEOUT (write-back — run at EVERY session end)
+7. **`STATUS.md`** — write the dashboard back: prices, storage, convergence, positions. Threshold breaches + active position decisions go to the top. Keep under 250 lines (archive overflow to `workbook/` or `research/`). *(Mirror of boot step 1.)*
+8. **Workbook / ledgers** — log new facts/claims → `workbook/KB.tsv`; changed indicator levels → `workbook/VX.tsv`; transmission/cascade mechanics → `workbook/FLOW.tsv`. **Resolve every prediction flagged DUE at boot** in `workbook/PREDICTIONS.tsv`: resolve / re-arm-with-reason / push-date-with-reason — never leave OPEN-but-stale. Separate "mechanism intact" from "threshold stuck/breached" (auto-memory `[[finding_threshold_vs_mechanism]]`). Log prediction changes to `thesis/CHANGELOG.md`.
+9. **Thesis-level change → `thesis/THESIS.md` + `thesis/CHANGELOG.md`** (and `thesis/TIMELINE.md` if a tracked event resolved). Trigger: new channel, conviction shift, phase transition, threshold breach, prediction resolution. Version bump — major (X) = structural change / conviction reversal / phase transition; minor (Y) = refinement. Always log old view → new view in CHANGELOG.
+10. **Forward-state maintenance.** **Catalysts:** `workbook/CATALYSTS.tsv` is the source of truth — prune fired rows, add newly-discovered dated catalysts; the STATUS `📅 CATALYST CALENDAR` section is the human twin and **must not diverge**. **Incidents:** log any new energy-infra strike to `refinery_damage/INCIDENTS.tsv` — **verify against a primary source before logging** (LESSONS #1; don't transcribe unverified events as facts). **Operational tracker:** keep `demand_destruction/TRACKER.md` current if demand/Path-B data moved.
+11. **Rewrite `SCRATCH.md`** using `templates/SCRATCH.template.md` — CHANGES SINCE (what moved while offline) / WHAT I DID / NEXT SESSION (dated, future-verifiable items) / OPEN THREADS / pending position decisions / one-line mail state. This is the **canonical session handoff** (it replaces the retired `LAST_COMPLETION.md`; `MEMORY.md` holds persistent learnings, NOT the per-session handoff). *(Mirror of boot step 2.)*
+12. **Promotion scan** — if this session produced something bigger than SCRATCH: thesis-level finding → `thesis/THESIS.md` + CHANGELOG; transferable cross-agent lesson → auto-memory (`~/.claude/projects/-home-willi-Research-workspace/memory/` + one-line index in its `MEMORY.md`); BRENT-specific durable learning → local `MEMORY.md`. Cross-agent signals → `outbox/` per the Outbox Protocol below (messaging degraded — see that section).
+13. **Git** — per root CLAUDE.md: `git reset HEAD` → `git add AGENTS/BRENT/` → `git diff --cached --stat` (verify nothing outside your dir) → commit → push (pull-rebase first if origin diverged). If blocked by other agents' uncommitted work, **note the pending push in `SCRATCH.md`** and defer.
+
+**Discipline overlay (applies throughout closeout):** one source of truth per metric — don't write the same value in two docs (own it in the owner doc, reference from the other). Stale-marked > carried-forward-as-current — if you can't refresh a value, mark it `[STALE]` with the date, don't present it as live.
 
 **MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
 
