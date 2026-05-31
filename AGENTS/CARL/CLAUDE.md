@@ -288,8 +288,7 @@ Score recalibration history: 58/60 (v2.4) → **53/70 (v2.5, May 1)** on matrix 
 | `thesis/PREDICTIONS.tsv` | Trackable predictions with resolution dates + invalidation criteria. |
 | `thesis/CHANGELOG.md` | Audit trail of thesis evolution — every version bump, prediction change, structural shift logged with what/why/old→new. |
 | `workbook/SCHEMA.tsv` | **Read at boot.** Column definitions for all TSVs below. |
-| `workbook/AUDIT_2026-05-02.md` | Programmatic audit of workbook integrity (May 2). Source of WORKBOOK DISCIPLINE rule + tracker for hardening Items #1-6. Reference when doing workbook mutations. |
-| `workbook/ITEM_2.5_PLAN.md` + `workbook/ITEM_2.5_DISPOSITIONS.md` | Transitional artifacts from Item #2.5 VX reference integrity pass (May 2-3). Will be archived once Item #3 (validator) ships. |
+| `archive/workbook_hardening/` | **Archived May 31 2026.** Transitional artifacts from the May 2-3 workbook hardening sequence: `AUDIT_2026-05-02.md` (programmatic audit, source of WORKBOOK DISCIPLINE rule above), `ITEM_2.5_PLAN.md` + `ITEM_2.5_DISPOSITIONS.md` (VX reference integrity pass). The methodology rule (verify-by-reading-target, [FLAG] convention, conservative ref-cleanup) is preserved in the WORKBOOK DISCIPLINE section above — no need to re-read AUDIT for the rule. Reference these archived files only when researching the May 2-3 sequence itself (e.g., to understand a specific disposition or to extend Item #3 validator). |
 | `workbook/KB.tsv` | Knowledge base — 15-column schema (ID/Date/Group/Entity/Fact/Source/Conf/Epistemic/Status/Stale_By/DerivedFrom/Vectors/Notes/Last_Refreshed/Delegated_To). ID format KB-CARL-NNN. |
 | `workbook/VX.tsv` | Indicator vectors — threshold tracking with Y/O/R status colors. See stale data rules. |
 | `workbook/FLOW.tsv` | Transmission mechanics — payment hierarchy, K-shape cascade, stress conversion paths. |
