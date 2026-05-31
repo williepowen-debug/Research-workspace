@@ -8,7 +8,7 @@
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| 🟡 Jun 8 (Mon) | Japan Q1 GDP — 2nd/revised estimate | Revision vs +2.1% prelim (May 19 beat) | Downward revision softens BOJ June hawkish case; upward firms it. *(date cadence-derived; confirm at ESRI)* | SAM, HENRY |
+| 🟡 Jun 8 (Mon) | Japan Q1 GDP — 2nd/revised estimate | Revision vs +2.1% prelim (May 19 beat) | Downward revision softens BOJ June hawkish case; upward firms it. *(✅ date confirmed at ESRI — 8:50 AM JST = ~7:50 PM ET Jun 7)* | SAM, HENRY |
 | 🟠 Jun 10 (Wed) | US CPI (May data) — **SECONDARY-PATH READ** | Headline + core MoM/YoY | Hot → Fed dots stay higher → USD firm → carry survives; soft → **Fed-cut secondary path opens** → USDJPY down. Feeds Jun 17 FOMC dots one week ahead. *(Fed-cut path = the v1.5 backup engine if BOJ disappoints — see THESIS INDEPENDENT CATALYST.)* | SAM, HENRY, BROCK |
 | 🟠 Jun 10 (Wed) | **JGB 30Y auction** | BTC ratio, tail | Weak demand (BTC <2.5x / wide tail) = J-ICS lifer long-end abandonment confirmed (SAM-26 mechanism). (See STATUS for live 30Y yield.) | SAM, LIQUID |
 | **🟠 Jun 18 (Thu)** | **May trade balance — PHASE 1 STABILITY LAG-TEST** (per PROME 5/26 forward-question) | Volume recovery vs cost-side: did ME crude flows normalize? did petroleum input costs rise? | **Routing:** (a) deficit re-opens with Brent <$100 → 🟠 Phase 1 mechanism back online (inversion was transient); v1.5 CHANGELOG candidate to relabel inversion as one-month spike. (b) surplus persists with ME volumes recovering → 🟢 inversion is structural; v1.4 finding confirmed durably. (c) surplus persists but ME volumes still depressed → 🟡 inconclusive; defer to June TB (~July 16-17). | SAM, BRENT, HAWK |

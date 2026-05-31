@@ -32,7 +32,7 @@
 
 | Source | What | URL |
 |--------|------|-----|
-| Cabinet Office / ESRI | GDP (QE) release schedule | https://www.esri.cao.go.jp/en/sna/sokuhou/sokuhou_top.html |
+| Cabinet Office / ESRI | GDP (QE) release schedule | https://www.esri.cao.go.jp/en/sna/kouhyou/kouhyou_top.html (carries the dated release calendar; `sokuhou_top` is the data page, not the schedule) |
 | Statistics Bureau (MIC) | CPI release schedule (National + Tokyo) | https://www.stat.go.jp/english/data/cpi/ |
 | BOJ | MPM dates, Summary of Opinions, minutes | https://www.boj.or.jp/en/mopo/mpmsche_minu/ |
 | MOF | JGB auction / issuance calendar | https://www.mof.go.jp/english/policy/jgbs/auction/calendar/ |
@@ -49,7 +49,7 @@
 | Date | Event | Confirmed? | Source checked |
 |------|-------|-----------|----------------|
 | 2026-05-19 | Japan Q1 2026 GDP — 1st preliminary | ✅ resolved (TIMELINE) | released; +2.1% ann |
-| 2026-06-08 | Japan Q1 2026 GDP — 2nd preliminary | ⚠️ cadence-derived (1st prelim + ~3wk → Mon Jun 8); confirm at ESRI | pending ESRI schedule check |
+| 2026-06-08 | Japan Q1 2026 GDP — 2nd preliminary | ✅ CONFIRMED — Mon Jun 8, **8:50 AM JST** (= ~7:50 PM ET Jun 7) | ESRI release schedule (kouhyou_top), checked 2026-05-31 |
 | 2026-06-16 | BOJ MPM (day 2 decision) | per BOJ schedule | — |
 | 2026-06-17 | FOMC decision + dot plot | per Fed calendar | — |
 
