@@ -242,18 +242,7 @@ These rules govern *how to reason about workbook mutations* — distinct from ou
 
 ## CONVERGENCE MATRIX
 
-*Canonical matrix + score in `thesis/THESIS.md`; live mirror in STATUS.md.*
-
-**v2.5 5-point scoring definition (durable methodology):**
-- **5** = fully fired, no further upside in mechanism
-- **4** = firing, room to escalate
-- **3** = watching, elevated
-- **2** = mildly relevant
-- **1** = not active
-
-Score recalibration history: 58/60 (v2.4) → **53/70 (v2.5, May 1)** on matrix expansion 12→14 vectors + tighter 5-definition. ~60% calibration / ~40% legitimate conviction reduction. Currently 0 vectors at 5; bias against scoring 5 unless mechanism is genuinely exhausted.
-
-**K-shape converging downward** — containment thesis weakening. Path C (housing → banks) ACTIVE-RED provisional. Q3 2026 = consumption stress quarter.
+*Canonical matrix, 5-point scoring definition, v2.4→v2.5 recalibration decomposition, and per-vector downgrade triggers all live in `thesis/THESIS.md`. Live score mirror in `STATUS.md`. Bias against scoring 5 — reserved for "fully fired, no further upside in mechanism."*
 
 ---
 
