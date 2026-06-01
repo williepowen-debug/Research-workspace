@@ -32,6 +32,7 @@ BOOT_SEQUENCE = [
     # (label, script, args, slow)
     ("Live thresholds + daily log", "thresholds.py", [], False),
     ("VIX options positioning",     "vix_options.py", [], False),
+    ("CFTC COT VIX positioning",    "cftc_cot.py", ["--boot"], False),
     ("Catalyst countdown",          "catalyst_countdown.py", [], False),
 ]
 
@@ -43,6 +44,8 @@ KEY_MARKERS = (
     "Regime:", "M1:M2", "VVIX", "SKEW", "VIX",  # always show the core numbers
     "IMMINENT", "CHECKPOINT", "checkpoint",  # catalyst countdown markers
     "C/P OI", "top-3 call",  # VIX options markers
+    "Lev Money", "lev_money", "pct3y", "FLAG:", "Open Interest", "Dealer", "Asset Mgr",  # COT markers
+    "EXTREME_", "ELEVATED_",  # COT flag triggers
     "📊",  # DoD OI alert
     "⚠️",
     "✓ appended", "already has a row",

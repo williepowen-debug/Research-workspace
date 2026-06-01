@@ -20,6 +20,7 @@
 | 5d_SKEW_change | **+7.22** | 5/29 | 🟡 | [CONF] computed — directional rebound active |
 | VIX3M/VIX | **1.213** EOD / 1.222 intra | 6/1 | 🟢 | [CONF] Calculated — contango deepened from 1.183 |
 | **M1:M2 contango (VX/M6:VX/N6)** | **12.93%** | 6/1 EOD | **🟠** | **[CONF] CBOE settlement via backfill — exploded 5.66% (5/15) → 13.40% (5/29) → 12.93% (6/1). Front (Jun, pre-FOMC) crushed; M2 (Jul, post-FOMC) refuses to compress. Volmageddon-shape short-vol pile-up. ~25-30% annualized roll-carry yield = magnetic for more short-vol. KB-VIO-062 amended.** |
+| **COT Lev Money NET (VIX futures)** | **-49,336 / pct3y 17.9 = ELEVATED_SHORT** | Tue 5/26 (Fri 5/29 release) | **🟡** | **[CONF] CFTC TFF via cftc_cot.py — speculators NET SHORT 49k contracts, 17.9th pct of trailing 3yr. Confirms short-vol pile-up DIRECTIONALLY but ~half the depth of Mar 2026 pre-spike (pct 13, -64k) and far from Aug-Oct 2025 extreme crowding (pct 0-1.4, -90 to -106k). M1:M2 price evidence currently MORE extreme than COT positioning evidence — disambiguation comes 6/05 release for 6/02 positions. KB-VIO-065.** |
 | **SPX 20d realized vol** | **10.09%** | 6/1 | 🟡 | [CONF] computed — SPX 5d realized just 3.98%; gamma-damping evidence |
 | **VRP (VIX − 20d RV)** | **+5.68** | 6/1 | 🟢 | [CONF] computed — 67th pct of 10y; ABOVE-median, NOT compressed. KB-VIO-063 |
 | HY OAS | **2.74** | 5/31 | 🟢 | [CONF] FRED BAMLH0A0HYM2 — eased -12bps from 5/19 peak 2.86. 16bps from 2.90 kill |
@@ -100,7 +101,7 @@ Full position framework: `TRADE.md`.
 | 🟠 | **Diet coiled-spring backtest** | New. Historical analysis of half-magnitude divergences: do they carry signal at reduced hit rate? GEX-conditional efficacy of KB-VIO-036. Pairs with Episode-17 post-mortem. |
 | 🟡 | **Daily 20d-avg refresh** | New. Knife-edge resolves on 5td of data. Tool: simple yfinance + window math. Refresh daily through 6/10. |
 | 🟡 | **6/12 CPI / 6/17 FOMC catalyst prep** | New. Next named vol gate. Calendar-driven. |
-| 🟡 | **CFTC COT VIX futures pipeline** | Long-deferred (~90 min). Last updated MEMORY 2026-04-17. |
+| 🟠 | **6/05 COT release disambiguation** | Auto-pulled by `boot.py` on next-boot after Fri 6/05 3:30 PM ET. KB-VIO-065 watch threshold: Lev Money pct3y <10 = EXTREME_SHORT → upgrade Volmageddon-shape; >15 = M2-event-hedger-bid hypothesis confirmed. |
 | 🟡 | **KB-VIO-042 within-cycle bounce rule revision** | Long-deferred. Rule needs amendment for very-long regimes. |
 | 🟡 | **Inbox 5/14 gamma signal formal disposition** | Content absorbed; admin step pending. |
 

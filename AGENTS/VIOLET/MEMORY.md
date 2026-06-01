@@ -259,11 +259,13 @@ The 5/13 STATUS billed "20d-SKEW-slope SIGN-FLIPPED +0.6 → -1.0" as the FIRST 
 | Yahoo Finance | Historical VIX | finance.yahoo.com/quote/%5EVIX |
 | FRED | VIX, credit spreads | fred.stlouisfed.org |
 | CBOE LiveVol | Options data | livevol.com |
+| CFTC TFF | VIX futures positioning (weekly, Tue-snap, Fri-release) | cftc.gov/dea/newcot/FinFutWk.txt + files/dea/history/fut_fin_txt_YYYY.zip |
 
 **Known data caveats:**
 - **yfinance ^VIX phantom-prints on US market holidays** (caught 2026-06-01 on Memorial Day 5/25 row: ^VIX returned a 16.59 close while ^VIX3M/^VIX6M/^VVIX/^SKEW all correctly skipped). `scripts/backfill.py` has a holiday guard that drops rows where ^VIX3M is missing — orphan ^VIX = phantom. If using a different fetch path, apply the same companion-corroboration rule.
 - **FRED OAS T+1 publication lag** (KB-VIO-060). Latest available FRED HY/CCC/IG OAS is always T-1 close, not same-day. Cite the FRED data-date explicitly, not "today."
 - **CBOE ^SKEW EOD T+1 lag** — boot.py SKEW print is yfinance, which trails CBOE direct by ~1 trading day. The 6/1 16:20 ET backfill found 6/1 ^SKEW still empty.
+- **CFTC TFF release schedule** — VIX futures positioning data: Tue close → Fri 3:30 PM ET release. So `cftc_cot.py --boot` freshness gate treats Mon-Thu as "use prior week's Tuesday" and Fri-Sun as "use current week's Tuesday." Annual zip URL pattern is `fut_fin_txt_YYYY.zip` (NOT `fin_fut_txt_YYYY.zip` — easy to swap). VIX contract = "VIX FUTURES - CBOE FUTURES EXCHANGE", code 1170E1.
 
 ---
 
