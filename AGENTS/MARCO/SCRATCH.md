@@ -13,7 +13,8 @@
 - Updated PREDICTIONS.tsv: MAR-27 (DHS >60d) and MAR-08 (FL condo >9mo) → CONFIRMED; refreshed notes on MAR-14/-18/-26.
 - Updated FINDINGS.md live-state pointers.
 - Committed + pushed session-6 refresh (`9d9e93e0`). Set git identity locally (was unset this session): `williepowen-debug`.
-- **Codified MARCO CLOSEOUT PROTOCOL** in CLAUDE.md (lean version, mirrors SAM): boot↔closeout symmetric write-back tail. Integrated 7 steps MARCO already had files for; deferred 2 infra builds (see below).
+- **Codified MARCO CLOSEOUT PROTOCOL** in CLAUDE.md (lean version, mirrors SAM): boot↔closeout symmetric write-back tail. Integrated 7 steps MARCO already had files for; deferred 2 infra builds.
+- **Built `thesis/` directory (v2.0)** — closed the bigger of the 2 deferred gaps. `THESIS.md` (5 channels w/ conviction split), `CHANGELOG.md` (v1.0→v2.0 inflection), `TIMELINE.md`; `git mv` PREDICTIONS.tsv → `thesis/`. Wired into closeout step 10. SKELETON.md marked superseded. Only `docket/` machine-feed remains deferred.
 
 ## Open Threads / Decisions Pending
 | Item | Status |
@@ -25,8 +26,8 @@
 | FL airport Apr YoY (MIA/MCO/FLL) — Prediction #24 test | Pending — only disruption headlines, no clean pax data |
 | TOURISM sub-agent stalled (no commits since Apr 22; never delivered 04-28/05-05) | Decide: re-spawn or shelve (tourism vector softened) |
 | ICE off-farm pivot — durable or tactical (Q4 ag re-acceleration risk) | Watch |
-| **Deferred build: `thesis/` machinery** (THESIS.md + CHANGELOG + TIMELINE, mirrors SAM/CARL/BRENT) | Future — toward full closeout mirror |
-| **Deferred build: `docket/CATALYSTS.tsv` machine-feed + countdown** | Future — replaces hand-kept STATUS KEY DATES |
+| ✅ ~~Deferred build: `thesis/` machinery~~ | DONE this session (v2.0) |
+| **Deferred build: `docket/CATALYSTS.tsv` machine-feed + countdown** | Future — replaces hand-kept STATUS KEY DATES; only remaining gap to full SAM/CARL/BRENT mirror |
 
 ## Handoff Block
 **Last context:** Session 6 full refresh complete. STATUS + PREDICTIONS + FINDINGS rewritten to the inflection. NOT committed yet (awaiting Will). Signals NOT sent (Will's call).
