@@ -29,7 +29,14 @@
 - Retired `LAST_COMPLETION.md` → `archive/2026-06-01_LAST_COMPLETION_final.md`. SCRATCH is canonical handoff.
 - Reconciled `workbook/CATALYSTS.tsv` (pruned 8 fired rows; added 6/05/6/09/6/12/6/17 forward catalysts) + `CALENDAR.md` (reconciled to CATALYSTS as source of truth; flagged Jun 17 FOMC+SEP+VIX-quarterly convergence as highest forward gate).
 
-**Commits (all pushed to origin):** `80a10ed5` (catch-up), `ac376e9f` (SCRATCH creation), `7d8f8fb2` (closeout codification + CHANGELOG + LAST_COMPLETION archive).
+**Pass 3 — VX_DAILY backfill (intra-day, 16:20 ET):**
+- Ran `scripts/backfill.py` (default 90d spot, 30d M1:M2). 115 → 132 rows; 5/14 → 6/1 EOD now present with VIX/VIX3M/VIX6M/VVIX/SKEW + M1:M2 steepness.
+- **Caught yfinance ^VIX phantom-print on Memorial Day (5/25).** yfinance returned a ^VIX close of 16.59 on a US holiday; all four companion tickers correctly skipped. Removed the orphan 5/25 row.
+- **Patched `scripts/backfill.py`** with a holiday guard: drop rows where ^VIX3M is missing (orphan ^VIX = phantom). Re-ran spot-only and confirmed 5/25 stays out. Logged in MEMORY DATA SOURCES caveats.
+- CALENDAR.md `VX_DAILY.tsv time series` row updated 5/13 → 6/1.
+- 6/1 SKEW EOD still empty (CBOE T+1 publication lag — next-boot refresh).
+
+**Commits (all pushed to origin):** `80a10ed5` (catch-up), `ac376e9f` (SCRATCH creation), `7d8f8fb2` (closeout codification + CHANGELOG + LAST_COMPLETION archive), `fca7e6c8` (pass-2 reconciliation), [pending — pass-3 VX_DAILY backfill].
 
 ## NEXT SESSION (priority-ordered)
 
@@ -44,7 +51,6 @@
 - KB-VIO-042 within-cycle bounce rule revision — needs amendment for very-long regimes
 - Inbox 5/14 gamma signal formal disposition — content absorbed into KB-VIO-062, admin step pending
 - 6/1 SKEW EOD + 6/1 FRED OAS refresh — T+1 publication lags; refresh next boot
-- **VX_DAILY.tsv backfill** — last row 5/13; needs 5/14 → 6/1 appended (CALENDAR flagged this overdue)
 - **vix_options.py snapshot** — last 4/17, overdue. Would inform C/P-OI shifts pre Jun 17 FOMC.
 
 ## OPEN HYPOTHESES (flagged, NOT actionable until backtested)
@@ -53,4 +59,4 @@
 
 ---
 
-*Last rewritten: 2026-06-01 14:45 ET (catch-up boot closeout. R11 dead, R12 knife-edge, diet coiled-spring + GEX hypothesis is the live analytical product.)*
+*Last rewritten: 2026-06-01 16:25 ET (intra-day pass 3 — VX_DAILY backfill 5/14 → 6/1, yfinance phantom-holiday caught + script patched. R11 dead, R12 knife-edge, diet coiled-spring + GEX hypothesis is the live analytical product.)*
