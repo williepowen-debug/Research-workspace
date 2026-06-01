@@ -8,7 +8,53 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
-## 2026-05-31 — THESIS v3.0 (Major version bump — Phase 2 PRICING dominant; flat-price conviction reversal)
+## 2026-06-01 — PHASE 1 RE-ARMED (intra-version POV pivot; THESIS v3.0 framing inverted, no v-bump yet)
+
+### Phase 2 PRICING dominant → PHASE 1 RE-ARMED in <24 hours on MOU suspension
+**Author:** BRENT
+**Action:** STATUS.md 3-chunk rewrite (header, diplomatic/kinetic sections, verdict, Path A, catalyst calendar, price dashboard, convergence matrix, two-phase thesis, KEY OPEN ITEMS, Summary for Will, POSITIONS). Per [[finding_pov_changelog_pattern]] this is an intra-version POV pivot documented here without bumping THESIS to v3.1 — the structural thesis (two-phase, kinetic-diplomatic clocks, storage-tightening, demand-destruction-lagging) is unchanged; the WHICH-CLOCK-WINS read inverted at the Mon open. A formal THESIS.md rewrite is deferred to next session pending Trump/Rubio response (which gates dead-vs-on-ice on the MOU).
+
+**What changed:** 
+- Iran (Tasnim, IRGC-aligned) announced Jun 1 SUSPENSION of indirect (Pakistan-mediated) US talks citing Israel's Lebanon incursion. Statement invokes "complete closure of Hormuz + activate Bab al-Mandab" — NEW chokepoint vector. MOU framework went rumor → "mostly agreed" → walked in <7 days.
+- CENTCOM intercepted 2 Iranian ballistic missiles targeting Kuwait bases overnight Sun→Mon May 31 — second Kuwait-targeted volley in 4 days.
+- Brent gapped **+4.40% to $95.13** at Monday open (from Fri $92.05 close). WTI +5.15%. Tanker complex +2.4% on war-risk re-pricing (STNG $76.33 / DHT $16.72). VG (Hormuz-LNG-arb) +6.60%, the largest mover. Natgas −3.62% — tape pricing this as oil-specific not broad energy-systemic.
+
+**Old view (5/31, v3.0 published):** Phase 2 PRICING DOMINANT via diplomatic channel. Tape pricing near-certainty of MOU signature; flat-price asymmetry inverted in May toward $75-85 downside; kinetic gap-up was the tail risk. "Asymmetry that favored holding longs in May has inverted."
+
+**New view (6/1):** PHASE 1 RE-ARMED. Apr-17-rhyme (LESSONS #18) resolved toward snapback. Asymmetry RE-INVERTED back toward kinetic/squeeze tail. Open question is *depth*: walkout-as-bargaining (Iran re-engages 48-72hr) caps bounce at $95-100; full collapse + Bab al-Mandab operational + Cushing floor prints $105-115. Convergence matrix recalc: **46/65 (was 42/60)** — added Bab al-Mandab 🟡 NEW vector; upgraded Brent price 🟠3→4 + Tanker 🟠3→4; Kinetic+Ceasefire 🔴5 reinforced.
+
+**Position frame:** XLE $65C Sep 30 = now THE live scenario, not a tail (Brent +4.4% gap is what the call insures). CF $130C Jun 18 HOLD-with-pop-re-eval tested intraday — pop was modest (+1.62% vs USO +4.30%); fertilizer chain not catching the bounce. Tanker BRT-15 channel-mix-shift: original ton-mile-on-Iranian-return gate temporarily dead, but war-risk-premium channel firing — entry gating may be wrong-sided. Decisions pending Will.
+
+**New predictions:** BRT-27 (Iran walkback within 14d, 55%), BRT-28 (Bab al-Mandab operational within 30d, 45%).
+
+**STATUS section reference:** lines 15-34 (PHASE 1 RE-ARMED section). Predictions: thesis/PREDICTIONS.tsv BRT-07, 15, 16, 17, 21, 26 updated for Jun 1; BRT-27/28 new.
+
+---
+
+## 2026-06-01 — PREDICTIONS ARCHITECTURE REHAB (SAM-aligned Tier 1)
+
+**Author:** BRENT
+**Action:** Restructured BRENT predictions per SAM-style architecture. Three-chunk rehab (T1-A status renames; T1-B archive build + Notes condensation; T1-C scoreboard preamble + relocation + reference updates).
+
+**What changed:**
+- **Location:** `workbook/PREDICTIONS.tsv` → `thesis/PREDICTIONS.tsv` (sibling of THESIS.md; SAM-aligned). git mv preserved history.
+- **Status nomenclature:** NOT-FIRED → FAILED for direction errors (BRT-23, BRT-24); → NOT-FIRED-PRECONDITION for unfired conditionals (BRT-20, BRT-25); CONFIRMED-MECHANISM → RESOLVED — MECHANISM-CONFIRMED / THRESHOLD-UNTESTABLE for BRT-22 (SAM-25-style split).
+- **Notes condensation:** All 17 closed-row Notes condensed to ≤265 chars + `→ PREDICTIONS_ARCHIVE.md#BRT-XX` anchor links. Full blow-by-blow moved to archive.
+- **Archive created:** `thesis/PREDICTIONS_ARCHIVE.md` with 17 post-mortems by Pred_ID (CONFIRMED + FAILED + NOT-FIRED-PRECONDITION + PARTIAL + RESOLVED-special + RETIRED). Reference-only, not boot-loaded.
+- **Scoreboard preamble:** 26 comment lines at top of PREDICTIONS.tsv with tally, directional failures, resolved-special, calibration findings, pre-flight check.
+- **2 new predictions:** BRT-27 (Iran walkback within 14d, 55%), BRT-28 (Bab al-Mandab operational within 30d, 45%).
+- **Reference updates:** CLAUDE.md (2 paths + closeout discipline note for closed-row condensation), thesis/THESIS.md, handoff_WALTER/README.md.
+
+**Calibration findings surfaced:**
+- BRENT systematically **UNDER-confident** on direct-supply / chokepoint / storage predictions (BRT-06 @ 55% overshot threshold by ~2000%). Anchor 80-95% next time storage math binds.
+- BRENT systematically **OVER-confident** on industrial-transmission (third-order) predictions (BRT-23 @ 70% + BRT-24 @ 65% both FAILED). Anchor 40-55% when chain has 2+ intermediating actors.
+- No FAILED above 70% — high-conviction predictions are reliable.
+
+**Cross-agent:** [[finding_threshold_vs_mechanism]] auto-memory refreshed with BRT-23 as first non-SAM case — pattern now 3-of-3 cross-agent confirmed (SAM-25, SAM-26, BRT-23). Memory edit was additive evidence, not new rule.
+
+**Why no THESIS v-bump:** This rehab is *infrastructure/process* (how BRENT tracks predictions), not thesis content. THESIS.md untouched.
+
+---
 
 ### THESIS v2.0 → v3.0 — Regime shift: Phase 2 arrived via the diplomatic/supply-relief channel
 **Author:** BRENT
