@@ -31,7 +31,7 @@ Three domains: (1) International Visitor Flows (Canadian collapse -28%), (2) Wor
 5. **`STATUS.md` write-back** — dashboard, active situations, adjusted predictions/confidence; threshold breaches + inflections to the top. Keep under 250 lines (archive overflow to `domain/sources/_archive/`). *(Mirror of boot 1.)*
 6. **Resolve predictions flagged DUE at boot** in `thesis/PREDICTIONS.tsv` — resolve / re-arm-with-reason / push-date-with-reason; never leave OPEN-but-stale. Separate "mechanism intact" from "threshold breached." *(Mirror of boot 3.)*
 7. **Workbook updates** — new facts/claims → `workbook/KB.tsv`; changed indicator levels/status → `workbook/VX.tsv`; transmission/cascade mechanics → `workbook/FLOW.tsv`.
-8. **ROOMS + forward-state maintenance** — archive any closed `thread.md` → `sub_agents/[NAME]/threads/archive/` + one-line in `threads/INDEX.md`; log sub-agent "Requires cross-agent input" items → `DEFERRED.md`; update `COUPLINGS.md` if edges changed; refresh the `KEY DATES` table in STATUS (MARCO's forward-state twin — no machine docket yet).
+8. **ROOMS + forward-state maintenance** — archive any closed `thread.md` → `sub_agents/[NAME]/threads/archive/` + one-line in `threads/INDEX.md`; log sub-agent "Requires cross-agent input" items → `DEFERRED.md`; update `COUPLINGS.md` if edges changed; refresh the docket — `docket/CATALYSTS.tsv` (machine feed, source-of-truth) + `docket/CALENDAR.md` (countdown twin): re-date passed rows, prune resolved ones to `thesis/TIMELINE.md`, re-date the recurring monthly anchors. STATUS `KEY DATES` is now a pointer to the docket, not a parallel list.
 9. **Rewrite `SCRATCH.md`** as the canonical session handoff: CHANGES SINCE (what moved while offline) / WHAT I DID / NEXT SESSION (dated, future-verifiable) / OPEN THREADS / one-line mail state. *(Mirror of boot 2. `LAST_COMPLETION.md` is legacy — SCRATCH supersedes it.)*
 10. **Promotion scan** — thesis-level finding (new channel, conviction shift, threshold breach, prediction resolution) → `thesis/THESIS.md` + log old→new view in `thesis/CHANGELOG.md` with version bump (major = structural/conviction reversal, minor = refinement); update `thesis/TIMELINE.md` if a tracked event resolved. Transferable cross-agent lesson → auto-memory (`~/.claude/projects/-home-willi-Research-workspace/memory/` + one-line index in its `MEMORY.md`); cross-agent signals → `outbox/` per Outbox Protocol.
 11. **Git** — per root CLAUDE.md: `git reset HEAD` → `git add AGENTS/MARCO/` → `git diff --cached --stat` (verify nothing outside your dir) → commit → push (pull-rebase first if origin diverged). If blocked by other agents' uncommitted work, **note the pending push in `SCRATCH.md`** and defer.
@@ -39,7 +39,7 @@ Three domains: (1) International Visitor Flows (Canadian collapse -28%), (2) Wor
 
 **Discipline overlay (throughout closeout):** one source of truth per metric — own it in the owner doc, reference from others; never write the same value twice. Stale-marked > carried-forward-as-current — if you can't refresh a value, mark it `[STALE]` with the date.
 
-**Deferred infrastructure (not yet built — route around for now):** `docket/CATALYSTS.tsv` machine-feed + countdown — until built, forward-state lives in STATUS `KEY DATES` (+ `thesis/TIMELINE.md` for thesis-level branch points). Candidate future build toward a full SAM/CARL/BRENT mirror. *(The `thesis/` machinery is now built — see step 10.)*
+**Infrastructure (built — maintain in closeout):** `docket/` (machine-feed forward-state, step 8) and `thesis/` (versioned thesis machinery, step 10) are both built — MARCO now mirrors the full SAM/CARL/BRENT shape. Forward-state lives in `docket/CATALYSTS.tsv` + `docket/CALENDAR.md`; thesis-level branch points in `thesis/TIMELINE.md`. No remaining deferred builds.
 
 **MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
 
@@ -205,6 +205,9 @@ After close: move `thread.md` content to `sub_agents/[NAME]/threads/archive/YYYY
 | `thesis/CHANGELOG.md` | Thesis version-transition log (old view → new view). |
 | `thesis/TIMELINE.md` | Dated event spine — resolved events + forward branch points. |
 | `thesis/PREDICTIONS.tsv` | Full prediction detail (moved from top-level 2026-05-31). |
+| `docket/CATALYSTS.tsv` | **Forward-state machine feed** (built 2026-05-31) — dated catalysts, threshold-signals, cross-agent routing. Source-of-truth for forward dates. |
+| `docket/CALENDAR.md` | Countdown twin of the docket — forward catalysts grouped by window, day-counts. Prose/narrative; TSV owns fields. |
+| `EXPECTED_SIGNALS.md` | "Absence-is-information" tracker — signals that should appear if thesis holds. Complements PREDICTIONS.tsv. |
 | `TRADE.md` | Position ideas |
 | `RESEARCH_STATUS.md` | Research tracking (check before starting new research) |
 | `baselines/` | Airport data, tourism baselines |

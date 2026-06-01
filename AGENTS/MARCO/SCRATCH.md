@@ -1,35 +1,48 @@
 # MARCO SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-05-31 ET (session 6)
+**Last Updated:** 2026-05-31 ET (session 7)
 
-## Current Session Context
-**Goal:** Full-sweep data refresh — STATUS was 5 weeks cold (last Apr 23). Updating MARCO's own files only; cross-agent signals deferred at Will's request (he's updating other agents first).
+## CHANGES SINCE (what moved while offline)
+- Nothing external this session — session 7 followed directly after session 6 (same evening, 9:17 PM ET). No new data releases. Pure housekeeping/infrastructure session.
 
-## What Just Happened (session 6)
-- Pulled live data on all stale board items. **Found a thesis inflection:** the Apr-23 "10-breached acute-crisis" framing broke.
-- **Reversed/softened (cyclical):** DHS shutdown ENDED Apr 30 (76-day record); FL condo 8.9mo (below 9.0, tightening); Canadian visitors +1.4% YoY Apr (air still -8.1%); NFP +115K / UE 4.3% (Feb -92K was a blip); remittances $ +4.9% Mar (but count -3.6%); ICE eased off ag raids.
-- **Hardened/structural:** Produce CPI F&V +6.1% YoY (accelerating); ICE $71.7B reconciliation locked; H-2A bottleneck persists; 2.2M self-deportation stock loss irreversible.
-- **Reframe:** acute multi-front crisis → slow structural produce/ag-labor squeeze.
-- Rewrote STATUS.md (status 🔴→🟠). Archived old to `domain/sources/_archive/STATUS_2026-04-23_session5.md`.
-- Updated PREDICTIONS.tsv: MAR-27 (DHS >60d) and MAR-08 (FL condo >9mo) → CONFIRMED; refreshed notes on MAR-14/-18/-26.
-- Updated FINDINGS.md live-state pointers.
-- Committed + pushed session-6 refresh (`9d9e93e0`). Set git identity locally (was unset this session): `williepowen-debug`.
-- **Codified MARCO CLOSEOUT PROTOCOL** in CLAUDE.md (lean version, mirrors SAM): boot↔closeout symmetric write-back tail. Integrated 7 steps MARCO already had files for; deferred 2 infra builds.
-- **Built `thesis/` directory (v2.0)** — closed the bigger of the 2 deferred gaps. `THESIS.md` (5 channels w/ conviction split), `CHANGELOG.md` (v1.0→v2.0 inflection), `TIMELINE.md`; `git mv` PREDICTIONS.tsv → `thesis/`. Wired into closeout step 10. SKELETON.md marked superseded. Only `docket/` machine-feed remains deferred.
+## WHAT I DID (session 7 — domain cleanup + docket build)
+**1. Legacy-file cleanup (root de-cluttered, 16→11 live .md):**
+- 🗑️ Trashed (via `gio trash`, recoverable in `~/.local/share/Trash` + git history): `MARCO_STARTUP_PROMPT.txt` (dead C:/ Windows paths), `OUTBOX.md` (stale stub; real outbox is `outbox/` dir), `LAST_COMPLETION.md` (legacy, SCRATCH supersedes per CLAUDE.md).
+- 📦 Archived → `domain/sources/_archive/`: `CHECKIN_2026-03-06.md` (was CHECKIN_MAR6.md), `DECK_EVIDENCE_2026-03-13.md` (was DECK_EVIDENCE.md).
+- ♻️ Refreshed `EXPECTED_SIGNALS.md` (was stale) — resolved ES-03 (condo >9mo APPEARED Mar) + ES-02 (snowbird PARTIAL — capacity confirmed, demand >20% did not appear); updated 5 active signals with dated current-reads. Now a live complement to PREDICTIONS.tsv.
+- ✅ Kept: `NOTES.md` (live deportation-data-discrepancy caveat), `MARCO_SKELETON.md` (v1.0 artifact, already marked superseded), `handoffs/` + `archive/` (already subdirs).
 
-## Open Threads / Decisions Pending
+**2. Built `docket/` — the last deferred infra (now full SAM/CARL/BRENT mirror):**
+- `docket/CATALYSTS.tsv` — 12-row forward machine feed, peer schema (date/event/what_to_check/threshold_signal/priority/who_cares/notes). Source-of-truth for forward dates.
+- `docket/CALENDAR.md` — countdown twin, grouped by window (overdue / this week / mid-June / late-June-Q3 / Q4-annual), day-counts anchored to 2026-05-31.
+- Built from STATUS KEY DATES + RESEARCH_STATUS gaps + PREDICTIONS timeframes.
+
+**3. Wired docket into the system:**
+- CLAUDE.md closeout step 8 rewritten — docket is now forward-state owner; STATUS KEY DATES demoted to pointer.
+- CLAUDE.md deferred-infra note → "Infrastructure (built)"; **no remaining deferred builds.**
+- CLAUDE.md FILES table — added docket/CATALYSTS.tsv, docket/CALENDAR.md, EXPECTED_SIGNALS.md.
+- STATUS.md KEY DATES replaced with docket pointer + imminent-5 near-term cut. Header → session 7.
+
+## NEXT SESSION (dated, future-verifiable)
+1. **Jun 1 (TOMORROW):** Watch ICE/CBP reconciliation passage ($71.7B). 🔴 — if passes, log to TIMELINE + signal NEXUS/LABOR.
+2. **~Jun 2:** Banxico Apr remittances — run the paradox test (does count recover → tax pull-forward, or stay − → SDL-01 confirmed).
+3. **Jun 10:** BLS May CPI fresh F&V — primary signal; feeds the produce-attribution decomp (still Tier-1, not started).
+4. **PULL the StatCan Q1 BOP** (overdue since ~May 28) — Canadian-corridor cross-check.
+5. **Produce-spike attribution decomp** (labor vs weather/energy/tariff) — STILL the top research item, deferred again this session for infra work.
+6. **Cross-agent correction re-sends** (REGINALD condo-tightening, LABOR ICE-off-farms, CARL, NEXUS inflection) — still pending Will's clearance to send.
+7. **TOURISM sub-agent** re-spawn-vs-shelve decision — still open.
+
+## OPEN THREADS
 | Item | Status |
 |------|--------|
-| Cross-agent correction signals (REGINALD/LABOR/CARL/NEXUS) | DEFERRED — Will updating other agents first |
-| Produce-spike attribution decomp (labor vs weather/energy/tariff) | 🔴 Tier-1 next session — now the primary live signal |
-| Remittance paradox (count -3.6% vs $ +4.9%) — 1% tax pull-forward test | 🟠 |
-| StatCan Q1 2026 BOP (Canadian remittances, ~May 28) | Not pulled this session |
-| FL airport Apr YoY (MIA/MCO/FLL) — Prediction #24 test | Pending — only disruption headlines, no clean pax data |
-| TOURISM sub-agent stalled (no commits since Apr 22; never delivered 04-28/05-05) | Decide: re-spawn or shelve (tourism vector softened) |
-| ICE off-farm pivot — durable or tactical (Q4 ag re-acceleration risk) | Watch |
-| ✅ ~~Deferred build: `thesis/` machinery~~ | DONE this session (v2.0) |
-| **Deferred build: `docket/CATALYSTS.tsv` machine-feed + countdown** | Future — replaces hand-kept STATUS KEY DATES; only remaining gap to full SAM/CARL/BRENT mirror |
+| Produce-attribution decomp | 🔴 Tier-1, deferred 2 sessions for infra — DO NEXT |
+| Remittance paradox (count −3.6% vs $ +4.9%) — tax pull-forward test | 🟠 — Jun 2 Banxico print is the test |
+| Cross-agent correction re-sends | 🟠 — awaiting Will's clearance |
+| TOURISM sub-agent (stalled since Apr 22) | 🟡 — re-spawn or shelve |
+| ICE off-farm pivot durability | 🟡 — Q4 test (in docket) |
+| ✅ ~~Deferred build: docket/~~ | DONE this session — no deferred builds remain |
 
-## Handoff Block
-**Last context:** Session 6 full refresh complete. STATUS + PREDICTIONS + FINDINGS rewritten to the inflection. NOT committed yet (awaiting Will). Signals NOT sent (Will's call).
-**Next tide:** (1) commit MARCO files, (2) produce-attribution decomp = top research item, (3) cross-agent corrections once Will clears it, (4) decide TOURISM re-spawn.
-**Open:** produce attribution, remittance-paradox test, StatCan Q1 BOP, FL airport Apr data.
+## Mail state
+Inbox NOT processed (normal spawn). Outbox empty (no pending signals). No signals sent this session.
+
+## Handoff
+Session 7 = infrastructure complete. MARCO now mirrors the full SAM/CARL/BRENT shape (thesis/ + docket/ both built). Next session is back to RESEARCH: produce-attribution decomp is the overdue Tier-1. Git: committing session-7 housekeeping at closeout.

@@ -1,5 +1,5 @@
 # MARCO STATUS
-**Last Updated:** 2026-05-31 ET (session 6, full-sweep refresh) | **Status:** 🟠 ELEVATED (downgraded from 🔴) — **THESIS INFLECTION: cyclical stress signals reversed, structural supply-shock persists. DHS shutdown ENDED Apr 30; FL condo tightening; Canadian headline + NFP + remittances $ all flipped positive. Only ICE-funding, H-2A bottleneck, and PRODUCE PRICES still hardening.**
+**Last Updated:** 2026-05-31 ET (session 7 — docket build + legacy-file cleanup; data unchanged from session 6 refresh) | **Status:** 🟠 ELEVATED (downgraded from 🔴) — **THESIS INFLECTION: cyclical stress signals reversed, structural supply-shock persists. DHS shutdown ENDED Apr 30; FL condo tightening; Canadian headline + NFP + remittances $ all flipped positive. Only ICE-funding, H-2A bottleneck, and PRODUCE PRICES still hardening.**
 
 ---
 
@@ -128,18 +128,18 @@ Five weeks of data (Apr 23 → May 31) broke the "10-breached acute-crisis" fram
 
 ## KEY DATES
 
-| Date | Event |
-|------|-------|
-| **Apr 30** | ✅ DHS shutdown ENDED — Trump signed funding bill (TSA/FEMA/CG/CISA/SS); ICE/CBP carved to reconciliation |
-| **May 1** | ✅ Banxico Mar 2026 remittances: $5.39B, +4.9% YoY (count −3.6%) |
-| **May 4** | ✅ ICE/CBP reconciliation text released: $71.7B |
-| **May 8** | ✅ BLS Apr 2026 jobs: NFP +115K, UE 4.3%, Mar revised +185K |
-| **May 11** | ✅ StatCan Apr 2026: Canadian US-return trips +1.4% YoY (air −8.1%) |
-| **May 13** | ✅ BLS CPI Apr 2026: fresh F&V +6.1% YoY, veg +3.1% MoM |
-| **~May 17** | ✅ FL Realtors Apr 2026: condo inventory 8.9mo |
-| **May 28** | StatCan Q1 2026 BOP (first 2026 Canadian remittance data) — PULL NEXT SESSION |
-| **Jun 1** | Trump reconciliation deadline (TOMORROW) — watch passage |
-| **~Jun** | Banxico Q1 state-of-origin data (tax-pull-forward distortion check) |
+**→ Forward state now lives in the docket: `docket/CATALYSTS.tsv` (machine feed) + `docket/CALENDAR.md` (countdown).** Resolved events spine → `thesis/TIMELINE.md`. This section is the at-a-glance near-term cut only.
+
+**Imminent (next 10 days):**
+| Date | Event | Priority |
+|------|-------|----------|
+| **May 28** | StatCan Q1 2026 BOP — released, PULL at boot (overdue) | 🟠 |
+| **Jun 1** | Trump ICE/CBP reconciliation deadline (TOMORROW) — watch passage | 🔴 |
+| **~Jun 2** | Banxico Apr 2026 remittances — paradox test (count recovery?) | 🟠 |
+| **Jun 5** | BLS May NFP + UR — FL hospitality sub-sector watch | 🟡 |
+| **Jun 10** | BLS May CPI fresh F&V — **MARCO's primary signal** | 🔴 |
+
+*Full forward docket (StatCan travel, FL Realtors, Banxico state-of-origin, OFLC H-2A, FL airports, ICE Q4, Census annual) → `docket/CALENDAR.md`.*
 
 ---
 
