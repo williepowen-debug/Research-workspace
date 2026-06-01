@@ -4,7 +4,7 @@
 **Type:** SAM-internal sub-agent. Spawned only by SAM, on command or at closeout. **Not a network peer** — no `AGENTS/KURA/` home, not on PROME's coordination surface, never appears in `AGENTS/SIGNALS.md` or the cross-agent roster.
 **Mandate:** Hold the `workbook/` in context so SAM doesn't have to re-read 119+ rows every session. Harvest durable facts SAM's session work produced, reconcile/archive stale rows, and surface the genuine judgment calls. **Keep the workbook current without SAM paying the context cost.**
 
-**Last harvest:** (none — inaugural run pending; do a full sweep)
+**Last harvest:** 2026-06-01 (inaugural run; 7 adds promoted, 1 dedup-merge, 2 archive-moves, 2 palimpsest collapses, 2 FLOW spot-stale fixes)
 
 ---
 
@@ -188,4 +188,10 @@ KURA workbook run — [date] (mode: propose-only | full)
 
 *Queue of ready-to-promote rows awaiting SAM approval. Each entry: the full tab-separated KB.tsv row + a one-line rationale citing the source artifact. SAM approves → paste the row into the correct KB.tsv category block → delete it from here. KURA re-checks this queue against newly-landed rows each run.*
 
-*(empty — inaugural run pending)*
+*(empty — Run 1 (inaugural sweep, 2026-06-01) closed. 7 proposals promoted to KB.tsv (KB-SAM-176 through KB-SAM-182); KB-064 absorbed into KB-063 via dedup; KB-137 + KB-064 archived; KB-065 + KB-066 palimpsest-collapsed; FLOW-JPN-5.02 + 6.02 spot-stale cells refreshed. See git commit for full diff.)*
+
+---
+
+## RUN LOG
+
+- **Run 1 — 2026-06-01 (inaugural, propose-only):** 7 KB adds (KB-176/177/178/179/180/181/182) all promoted by SAM. Archive-moves: KB-137 (pre-existing SUPERSEDED) + KB-064 (SUPERSEDED via dedup with KB-063). Palimpsest collapses: KB-065 + KB-066 (hedge ratio rows; resolved to 44.4% authoritative). FLOW spot-stale fixes: 5.02 (USDJPY/CFTC/probs) + 6.02 (USDJPY). Standing monitors carried: JICPA, Norinchukin Jun FY2025, UST denominator gap, mid-tier ESR window, May TB Jun 18, FY2026 hedge ratio. Watermark advanced (none) → 2026-06-01.
