@@ -1,9 +1,9 @@
-# MARCO THESIS — v2.0
+# MARCO THESIS — v2.1
 
-**Version:** 2.0
-**Last Updated:** 2026-05-31 (session 6 — v1.0→v2.0 inflection: thesis bifurcated, see `CHANGELOG.md`)
-**Status:** 🟠 NARROWED — durable core = structural produce/ag-labor squeeze; cyclical channels (tourism, migration, condo, aggregate labor) reversed/softened.
-**Conviction:** HIGH on the workforce→produce channel (structural, irreversible); MEDIUM/LOW and cooling on tourism, internal migration, border-fiscal; WATCH on emigration. *(Conviction is now split by channel — that split IS v2.0.)*
+**Version:** 2.1
+**Last Updated:** 2026-05-31 (session 8 — v2.0→v2.1 minor: produce channel re-attributed multi-causal, see `CHANGELOG.md`)
+**Status:** 🟠 NARROWED — durable core = structural ag-labor supply shock; its produce-price transmission is real but **confounded/multi-causal**, not a clean thermometer. Cyclical channels (tourism, migration, condo, aggregate labor) reversed/softened.
+**Conviction:** HIGH that the ag-labor supply shock exists (2.2M stock loss + H-2A bottleneck, structural/irreversible); **MEDIUM, downgraded, that produce CPI cleanly measures it** (the +6.1% print is multi-causal — labor is one co-driver among freeze + tariff + freight). MEDIUM/LOW and cooling on tourism, internal migration, border-fiscal; WATCH on emigration. *(Conviction split by channel; v2.1 splits Channel 1 further into mechanism-vs-thermometer.)*
 **Current live state (daily):** see `../STATUS.md`. **Vector roster:** `../workbook/VX.tsv` (58 vectors). **Predictions:** `PREDICTIONS.tsv`.
 
 ---
@@ -14,7 +14,9 @@
 
 **v2.0 reframe (the inflection):** The acute, multi-front "everything compounding" framing of v1.0 (76%, STRENGTHENING) was **over-fit to cyclical noise.** The session-6 full-sweep refresh (2026-05-31) showed the thesis **bifurcating**: the cyclical channels reversed while the structural channel hardened. The thesis did not break — it **narrowed to its durable spine.**
 
-The durable spine is a **slow structural produce/ag-labor squeeze**: an irreversible 2.2M self-deportation stock loss + an H-2A consular bottleneck, transmitting to food prices (CPI fresh F&V **+6.1% YoY**, accelerating). The **master driver** is immigration enforcement policy — and as of May 2026 that driver is **funded and unconstrained**: the $71.7B ICE/CBP reconciliation package locks enforcement intensity through Trump's term, removing funding as a brake.
+The durable spine is a **slow structural ag-labor supply shock**: an irreversible 2.2M self-deportation stock loss + an H-2A consular bottleneck. The **master driver** is immigration enforcement policy — and as of May 2026 that driver is **funded and unconstrained**: the $71.7B ICE/CBP reconciliation package locks enforcement intensity through Trump's term, removing funding as a brake.
+
+**v2.1 correction (the produce re-attribution):** v2.0 treated CPI fresh F&V **+6.1% YoY** as the clean confirmation of this channel transmitting to food prices. A session-8 attribution decomp (deep-research + external-primary verification) showed the produce spike is **multi-causal — labor is one co-driver among several, not the dominant/measurable signal.** Three co-drivers are verified, well-timed, and magnitude-material: (1) **FL freeze** Dec'25–Feb'26 — $3.17B, USDA disaster declaration, hit exactly the spiking crops (berry/tomato); a fleet-wide blind spot; (2) **Mexican tomato tariff** — 17% AD duty (Jul'25) on the most-weighted fresh vegetable; (3) **diesel/freight** — crude spiked to $116 (May 5) with distillate stocks ~11% below 5-yr, timed to the April acceleration (cross-checked against BRENT's files). A slow labor *stock* drift does not mechanically produce a one-month +4.0%→+6.1% *acceleration*; supply/cost shocks do. **The mechanism (labor shortage) is intact and HIGH-conviction; its thermometer (produce CPI) is confounded and demoted.** Exact split is unknowable; the *directional* conclusion — labor over-credited — is robust. Decomp: `../domain/sources/PRODUCE_ATTRIBUTION_DECOMP_2026-05-31.md`.
 
 Everything else MARCO tracks — Canadian tourism, FL condos, Sun Belt migration, border-city fiscal stress — is real but **cyclical, slower, or already softening**, and no longer carries the thesis.
 
@@ -24,13 +26,13 @@ Everything else MARCO tracks — Canadian tourism, FL condos, Sun Belt migration
 
 The organizing spine (promotes the prior `workbook/FLOW.tsv` cascades). Each channel carries its own v2.0 status and conviction.
 
-### Channel 1 — Workforce Displacement → Produce/Ag Prices 🔴 HARDENING · **HIGH** · *load-bearing*
-**This is the channel that defines v2.0.** Mechanism: enforcement + self-deportation → ag-labor supply shock → wage spike / output loss → food-price pass-through.
-- **Stock loss is irreversible (2-5yr):** 2.2M self-deportations in 2025 (CBO) — a *stock* shock, not a flow. Produce prices reflect the depleted workforce regardless of current raid pace.
-- **Bottleneck persists:** H-2A consular interviews backed to July (South Africa), Red River Valley potato cohorts missed planting; NASS/NAWS surveys canceled (permanent measurement blind spot = information asymmetry).
-- **Transmission confirmed in data:** CPI fresh F&V +6.1% YoY (Apr, up from +4.0% Mar); fresh veg +3.1% MoM.
-- **Caveat:** ICE *eased off* ag worksite raids (harvest-protection, May 2026) — the *flow* softened even as the *stock* effect dominates. Re-acceleration risk if enforcement returns to ag post-harvest (Q4 2026).
-- Vectors: SDL-01, H2A-01/-02, 2.02, 2.05, CA-02, SFE-04. Research: `../domain/sources/SDL/`, `../domain/sources/LABOR/`. Routes to: LABOR, CARL (consumer), REGINALD.
+### Channel 1 — Workforce Displacement → Produce/Ag Prices 🔴 MECHANISM HARDENING / 🟠 THERMOMETER CONFOUNDED · **HIGH on shock, MEDIUM on produce-proof** · *spine, re-attributed v2.1*
+**This is the channel that defines the thesis — but v2.1 splits it into mechanism (solid) vs. thermometer (confounded).** Mechanism: enforcement + self-deportation → ag-labor supply shock → wage spike / output loss → food-price pass-through.
+- **Mechanism — HIGH, intact.** Stock loss is irreversible (2-5yr): 2.2M self-deportations in 2025 (CBO) — a *stock* shock, not a flow. H-2A consular interviews backed to July (South Africa), Red River Valley potato cohorts missed planting; NASS/NAWS surveys canceled (permanent measurement blind spot = information asymmetry). None of this is in dispute.
+- **Thermometer — MEDIUM, demoted (v2.1).** CPI fresh F&V +6.1% YoY (Apr, up from +4.0% Mar; fresh veg +3.1% MoM) is **real but multi-causal** — it is *not* clean evidence of labor transmission. Verified co-drivers: FL freeze ($3.17B, USDA disaster decl), 17% tomato tariff, diesel/freight spike (crude $116 May 5, distillate −11% vs 5-yr). Labor is one contributor among these, not the dominant one — a slow stock drift doesn't generate a one-month acceleration. *Stop citing "+6.1% produce" as strong proof of the labor thesis.*
+- **Forward test (v2.1, dated):** the diesel/freight co-driver is **transient and mean-reverting** — crude −19% on the month, pump relief lands May 31–Jun 14 (2-4 wk lag). If fresh F&V CPI **stays elevated into June/July CPI while pump prices fall**, the transient driver is exiting and the residual (labor + freeze aftermath + tariff) is re-weighted *up*. If produce *also* softens with diesel, freight carried more of the spike than credited. June 10 / July CPI is the discriminating fork — see `../EXPECTED_SIGNALS.md` ES-MARCO-08. (Caveat: distillate is structurally tight, so freight relief is partial/lagged, not 1:1 with crude.)
+- **Caveat:** ICE *eased off* ag worksite raids (harvest-protection, May 2026) — the *flow* softened even as the *stock* effect persists. Re-acceleration risk if enforcement returns to ag post-harvest (Q4 2026).
+- Vectors: SDL-01, H2A-01/-02, 2.02, 2.05, CA-02, SFE-04. Research: `../domain/sources/SDL/`, `../domain/sources/LABOR/`, `../domain/sources/PRODUCE_ATTRIBUTION_DECOMP_2026-05-31.md`. Couplings: `../COUPLINGS.md` (MARCO↔BRENT freight edge). Routes to: LABOR, CARL (consumer), REGINALD, BRENT (freight input cost).
 
 ### Channel 2 — International Visitor Flows → Regional Tourism $ / FL CRE 🟠 BIFURCATED · **MEDIUM**
 Mechanism: visitor collapse → hospitality/spend → occupancy → tax base + hotel/CRE → bank exposure.
@@ -68,7 +70,7 @@ US-born citizen emigration rising (IRS 4,889 expatriates 2025 record, Q1 +102% Y
 |---------|-------------|-------------|
 | 2.2M self-deportations 2025 (CBO) | 🔴 smoking gun | **HELD** — irreversible stock loss, defines Channel 1 |
 | H-2A catastrophic shortage in planting season | 🔴 smoking gun | **HELD** — consular bottleneck persists post-shutdown |
-| Produce/food CPI rising | 🟠 strong (was +3.1%) | **HARDENED** — F&V +6.1% YoY, accelerating |
+| Produce/food CPI rising | 🟠 strong (was +3.1%) | **RE-ATTRIBUTED (v2.1)** — F&V +6.1% YoY is real but multi-causal (freeze + tariff + freight + labor); labor is a co-driver, not the dominant signal. Not clean labor proof. |
 | Canadian tourism structurally rerouted | 🔴 smoking gun | **PARTIAL** — air −8.1% held; headline rebounded +1.4% (auto) |
 | FL migration −93%, #1→#8 | 🔴 smoking gun | **HELD but stale** (annual data) |
 | NFP −92K (Feb, "first negative print") | 🔴 smoking gun | **SOFTENED** — Apr +115K, UE 4.3%; Feb was a blip |
@@ -86,7 +88,8 @@ US-born citizen emigration rising (IRS 4,889 expatriates 2025 record, Q1 +102% Y
 
 | Channel | Conviction | Trend |
 |---------|-----------|-------|
-| 1 — Workforce → Produce | **HIGH** | ↑ hardening |
+| 1 — Workforce shock (mechanism) | **HIGH** | → intact / hardening |
+| 1 — Produce-CPI as its proof (thermometer) | **MEDIUM** ↓ | ↓ demoted v2.1 (multi-causal) |
 | 2 — Visitor Flows → FL CRE | MEDIUM | ↓ bifurcating |
 | 3 — Migration → Sun Belt housing | MED-LOW | ↓ softening |
 | 4 — Cross-border → muni fiscal | MEDIUM | → slow grind |
@@ -105,7 +108,7 @@ v1.0 listed 4 invalidation conditions. **The honest v2.0 accounting: two partial
 | FL RE stabilizes / outperforms Snowbelt | **PARTIAL** — condo tightening to 8.9mo; → Channel 3 conviction cut |
 | Net US immigration returns to +500K/yr | **NO** |
 
-**Channel-1 (spine) kill conditions:** fresh F&V CPI MoM <0.2% for 2+ consecutive months AND H-2A backlog clearing AND enforcement materially de-funded. None met (reconciliation funds enforcement through term).
+**Channel-1 (spine) kill conditions:** the kill test is now on the *mechanism*, not the produce thermometer (which v2.1 demoted as confounded). Kill = H-2A backlog clearing AND enforcement materially de-funded AND no wage/output signal in ag-labor data. None met (reconciliation funds enforcement through term). Note: fresh F&V CPI falling is *no longer* a clean kill signal — it could fall on diesel/freeze reversal while the labor shock persists (precisely the v2.1 confounding).
 
 ## COUNTER-SIGNALS → routed to RED
 The bear case against MARCO's own thesis, stated plainly: DHS shutdown resolved (acute disruption over); FL condo tightening (supply absorbed); Canadian headline positive; NFP rebound (no labor collapse); remittance $ positive; ICE eased off farms (raid flow down). If these *cyclical* reversals were the whole story, the thesis would be broken — they are not, because Channel 1 is a stock/structural effect they don't touch. RED owns adjudicating whether the spine holds.

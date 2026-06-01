@@ -1,16 +1,8 @@
 # MARCO CALENDAR
 
-**Last Updated:** 2026-05-31 (session 7 — docket built from STATUS KEY DATES + RESEARCH_STATUS gaps) | **View:** Forward-looking only. Past events pruned to `thesis/TIMELINE.md`. Countdown anchored to 2026-05-31.
+**Last Updated:** 2026-05-31 (session 8 — Jun-10 reframed to ES-MARCO-08 test; StatCan Q1 BOP retired-unpulled; produce demoted from "primary signal") | **View:** Forward-looking only. Past events pruned to `thesis/TIMELINE.md`. Countdown anchored to 2026-05-31.
 
 **Machine feed:** `docket/CATALYSTS.tsv` (this is its prose/countdown twin). When they disagree, the TSV is source-of-truth for fields; this file owns grouping + narrative.
-
----
-
-## ⏰ OVERDUE — PULL AT BOOT
-
-| Δ | Date | Event | Why it matters | Who |
-|---|------|-------|----------------|-----|
-| **−3d** | May 28 | StatCan Q1 2026 BOP | First 2026 Canadian-corridor remittance data — cross-check vs Mexico count-decline. Released, not yet pulled. | MARCO |
 
 ---
 
@@ -24,11 +16,11 @@
 
 ---
 
-## MID-JUNE (Jun 8–17) — PRIMARY-SIGNAL TESTS
+## MID-JUNE (Jun 8–17) — ATTRIBUTION + CHANNEL TESTS
 
 | Δ | Date | Event | Threshold / Signal | Who |
 |---|------|-------|--------------------|-----|
-| **+10d** 🔴 | Jun 10 (Wed) | **BLS May CPI — fresh F&V** | **MARCO'S PRIMARY LIVE SIGNAL.** F&V holds >6% YoY / MoM hot → produce squeeze intact (Pred MAR-14/21 HOLD-UPGRADE). Fresh F&V MoM <0.2% → flip toward downgrade. Apr was +6.1% YoY / veg +3.1% MoM. 8:30 ET. | MARCO, CARL |
+| **+10d** 🔴 | Jun 10 (Wed) | **BLS May CPI — fresh F&V** | **ES-MARCO-08 discriminating test** (no longer "the primary signal" — produce is a confounded thermometer per v2.1). F&V holds ≳5% YoY **while pump prices fall** → transient freight driver exiting, labor re-weights UP (MAR-14 hold/upgrade). F&V softens in step with diesel → freight carried more of the spike, labor demoted further. Apr +6.1% YoY / veg +3.1% MoM. 8:30 ET. | MARCO, CARL |
 | +11d 🟠 | ~Jun 11 | StatCan May 2026 travel | Air stays <−8% = snowbird/FL channel still bleeding (Pred MAR-18). Headline re-negative = boycott re-hardening. Air is the live tell, not headline (+1.4%). | MARCO, REGINALD |
 | +17d 🟡 | ~Jun 17 | FL Realtors May 2026 | >9.0mo again = distress re-engaging (Pred MAR-08). <8.5mo = absorption confirmed, FL-cooling reframe holds. Apr reverted to 8.9mo. | MARCO, REGINALD |
 

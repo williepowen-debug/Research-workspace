@@ -1,5 +1,5 @@
 # MARCO STATUS
-**Last Updated:** 2026-05-31 ET (session 7 — docket build + legacy-file cleanup; data unchanged from session 6 refresh) | **Status:** 🟠 ELEVATED (downgraded from 🔴) — **THESIS INFLECTION: cyclical stress signals reversed, structural supply-shock persists. DHS shutdown ENDED Apr 30; FL condo tightening; Canadian headline + NFP + remittances $ all flipped positive. Only ICE-funding + H-2A bottleneck clearly structural. PRODUCE prices elevated but DECOMP (5/31) shows them MULTI-CAUSAL (FL freeze + tomato tariff + diesel), labor only secondary — see Produce situation.**
+**Last Updated:** 2026-05-31 ET (session 8 — thesis v2.1: produce channel re-attributed multi-causal; BRENT diesel/freight cross-check; MAR-21 resolved) | **Status:** 🟠 ELEVATED (downgraded from 🔴) — **THESIS INFLECTION: cyclical stress signals reversed, structural supply-shock persists. DHS shutdown ENDED Apr 30; FL condo tightening; Canadian headline + NFP + remittances $ all flipped positive. Only ICE-funding + H-2A bottleneck clearly structural. PRODUCE channel SPLIT (v2.1): labor-shock MECHANISM intact/HIGH, but produce CPI THERMOMETER demoted to MEDIUM — multi-causal (FL freeze + tomato tariff + transient diesel/freight), labor a co-driver not the dominant signal. See Produce situation + thesis v2.1.**
 
 ---
 
@@ -21,7 +21,7 @@ Five weeks of data (Apr 23 → May 31) broke the "10-breached acute-crisis" fram
 - **H-2A bottleneck persists:** Red River Valley potato delays; South Africa consular interviews backed to July.
 - Underlying **2.2M self-deportation supply shock** is irreversible — the durable transmission to produce prices.
 
-**Reframe:** Stop modeling this as an acute multi-front crisis. The durable signal is a **slow structural produce/ag-labor squeeze** driven by the 2.2M supply shock + unconstrained ICE funding, showing up in CPI F&V — NOT in tourism, condos, or aggregate labor, which have normalized.
+**Reframe:** Stop modeling this as an acute multi-front crisis. The durable signal is a **slow structural ag-labor supply shock** driven by the 2.2M supply shock + unconstrained ICE funding — NOT tourism, condos, or aggregate labor, which have normalized. **v2.1 caveat:** do NOT use CPI F&V as the clean proof of it. The +6.1% produce print is multi-causal — labor is a co-driver alongside the FL freeze, tomato tariff, and a *transient* diesel/freight pulse (crude $116 May 5, now −19% on the month; pump relief Jun). The mechanism is solid; the produce thermometer is confounded. June/July CPI vs. pump-price decoupling is the discriminating test (ES-MARCO-08).
 
 ---
 
@@ -48,7 +48,7 @@ Five weeks of data (Apr 23 → May 31) broke the "10-breached acute-crisis" fram
 ## NEXT SESSION FOCUS (2026-05-31)
 
 **Tier 1 — do first:**
-1. **Confirm produce-spike attribution.** F&V +6.1% YoY is the live thesis. Is it labor-supply-shock driven (SDL-01) or weather/energy/tariff? Need to decompose before upgrading Prediction #21/#14 further. This is now MARCO's *primary* signal — everything else softened.
+1. ✅ **DONE (sessions 7-8):** produce-spike attribution decomposed and resolved → multi-causal, labor a co-driver (thesis v2.1; MAR-21 resolved wrong-mechanism). **Carry-forward:** watch **ES-MARCO-08** — June 10 / July CPI vs. pump-price decoupling discriminates the labor-vs-transient-freight weighting. No longer "the primary signal" — the H-2A bottleneck + 2.2M stock loss are the durable mechanism; produce CPI is a confounded readout of it.
 2. **Resolve the remittance paradox.** $ value +4.9% but transfer count −3.6%. Test the 1% tax pull-forward hypothesis (effective Jan 1) vs. genuine recovery. If pull-forward, expect a Q2-Q3 air-pocket. StatCan Q1 BOP (due ~May 28) for Canadian-corridor cross-check — pull next session.
 3. **Re-baseline the dashboard's RED claims.** Several cross-agent signals (→REGINALD condo, →CARL Miami, →LABOR ag) were sent under the acute-crisis framing that has now softened. Decide whether to send correction signals. Likely YES to REGINALD (condo tightening) and a nuance to LABOR (ICE off farms, but produce still spiking).
 
@@ -75,11 +75,13 @@ Five weeks of data (Apr 23 → May 31) broke the "10-breached acute-crisis" fram
 - Senate Judiciary + Homeland Security committees passed. **June 1 self-imposed deadline** (tomorrow). Passes on GOP votes alone, no Democratic support needed.
 - **Implication:** ICE enforcement intensity funded and unconstrained through Trump's term (~2028). This is the durable accelerator for the SDL-01 → produce-price transmission. Funding is no longer a brake.
 
-### Produce Price Spike — REAL BUT MULTI-CAUSAL (🟠, was 🔴 "PRIMARY LIVE SIGNAL" — DECOMP RESOLVED 2026-05-31)
+### Produce Price Spike — REAL BUT MULTI-CAUSAL; THERMOMETER DEMOTED (🟠, was 🔴 "PRIMARY LIVE SIGNAL" — DECOMP RESOLVED 5/31, thesis v2.1)
 - CPI Apr 2026: **fresh fruits & vegetables +6.1% YoY** (up from +4.0% Mar); **fresh vegetables +3.1% MoM**; fresh fruit +1.2% MoM. Food-at-home +0.7% MoM / +2.9% YoY. *(Spike is real — not in dispute.)*
-- **ATTRIBUTION RESOLVED (deep-research + internal verification):** the spike is MULTI-CAUSAL — **labor (SDL-01) is a SECONDARY (~10-20%) contributor, NOT the dominant/clean signal STATUS previously claimed.** Verified co-drivers: (1) **FL freeze** Dec'25–Feb'26, **$3.17B, USDA disaster declaration**, hit berry/tomato crops — *fleet blind spot, nobody caught it*; (2) **Mexican tomato tariff** 17% AD duty (Jul'25); (3) **elevated diesel/freight** from the oil-war spike. Crop-"fingerprint" is confounded by the freeze.
+- **ATTRIBUTION RESOLVED (deep-research + external-primary verification):** the spike is MULTI-CAUSAL — **labor (SDL-01) is one co-driver, NOT the dominant/clean signal STATUS previously claimed.** A slow labor *stock* drift doesn't produce a one-month +4.0%→+6.1% *acceleration*; supply/cost shocks do. Verified co-drivers: (1) **FL freeze** Dec'25–Feb'26, **$3.17B, USDA disaster declaration**, hit berry/tomato crops — *fleet blind spot, nobody caught it*; (2) **Mexican tomato tariff** 17% AD duty (Jul'25); (3) **diesel/freight** from the oil-war spike. Crop-"fingerprint" confounded by the freeze.
+- **Diesel/freight is TRANSIENT (BRENT cross-check, session 8):** crude $87.51 (Apr 17) → $116.55 (May 5 peak) → **$92.05 (May 29, −19% on month)**; distillate ~11% below 5-yr (structurally tight → relief partial/lagged); pump relief lands **May 31–Jun 14**. The freight contribution was a spike-window pulse feeding the Apr print and is **now reversing.** Edge logged → `COUPLINGS.md` (MARCO↔BRENT). 
+- **Forward test (ES-MARCO-08):** if F&V CPI holds ≳+5% YoY into **June 10 / July CPI while pump prices fall** → transient driver exiting, labor re-weights UP. If F&V softens with diesel → freight carried more of the spike. This discriminates the labor-vs-transient split.
 - **Correction note:** I first called the freeze fabricated (fleet silence) — WRONG; verified real via USDA + multiple outlets. Full record + analyst-error log → `domain/sources/PRODUCE_ATTRIBUTION_DECOMP_2026-05-31.md`.
-- **Implication:** stop treating "+6.1% produce" as strong evidence of the labor thesis. MAR-21 downgraded 75→50. Exact driver %-split is unknowable; directional conclusion (labor over-credited) is robust.
+- **Implication:** v2.1 splits Channel 1 — labor-shock **mechanism HIGH/intact**, produce CPI **thermometer MEDIUM/confounded**. Stop citing "+6.1% produce" as strong labor proof. **MAR-21 RESOLVED (wrong-mechanism).** Exact %-split unknowable; directional conclusion (labor over-credited as the produce driver) is robust.
 
 ### ICE Ag Enforcement — PIVOTED OFF FARMS (🟠, was 🔴 EXPANDING)
 - Reporting (Stateline Nov 2025; ag-press May 2026): ICE **refraining from agricultural worksite raids**, concentrating on Democratic-led cities. Harvest-protection motive explicit.
@@ -116,7 +118,7 @@ Five weeks of data (Apr 23 → May 31) broke the "10-breached acute-crisis" fram
 
 | # | Prediction | Timeframe | Conf | Notes (2026-05-31) |
 |---|-----------|-----------|------|-------|
-| 21 | Planting-season raid surge → produce spike | Mar-May 2026 | **~50%** | ↓ 75→50 (decomp DOWNGRADE). Spike is MULTI-CAUSAL — labor SECONDARY, not dominant. Verified co-drivers: FL freeze ($3.17B, USDA disaster decl), Mexican tomato tariff (17%), elevated diesel. Raid-surge claim weak (raids eased, H-2A wages cut). → `domain/sources/PRODUCE_ATTRIBUTION_DECOMP_2026-05-31.md`. |
+| 21 | Planting-season raid surge → produce spike | Mar-May 2026 | **RESOLVED** | ✅ RESOLVED 5/31 (window closed) — **WRONG-MECHANISM.** Produce DID spike (+6.1%) but NOT via raid surge: raids eased off farms + H-2A wages cut during window. Spike multi-causal (freeze + tariff + transient freight + labor co-driver). Scored on mechanism, not the print. → PREDICTIONS.tsv + thesis v2.1. |
 | 14 | CA produce prices +15% | H2 2026 | **74%** | ↑ 72→74. F&V trajectory accelerating; SDL-01 stock loss + H-2A bottleneck intact. |
 | 26 | ICE construction raids → housing-start delays (TX, AZ, FL) | Q2 2026 | **72%** | ↓ 80→72. ICE pivoted off worksite raids toward cities — construction-raid intensity likely easing alongside ag. Stock effect remains; flow softened. |
 | 11 | H-2A certifications >425K | FY 2026 | 75% | Demand accelerating; bottleneck = processing, not demand. |
