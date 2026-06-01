@@ -1,6 +1,6 @@
 # SAM CALENDAR
 
-**Last Updated:** 2026-05-31 (KOYOMI docket sync — pruned >1wk resolved rows; moved Tokyo CPI/activity/CFTC/repricing to RECENTLY RESOLVED; Jun 16 BOJ framing brought to current SAM-21 70% / mkt ~88%; stale CFTC release date + live levels stripped per TRUTH MODEL) | **View:** Forward-looking only. Past events pruned weekly.
+**Last Updated:** 2026-06-01 (Iran MOU effectively broken — Geopolitical Watch + Intervention Watch updated; Phase 2 Watch reframed) | **View:** Forward-looking only. Past events pruned weekly.
 
 ---
 
@@ -31,11 +31,10 @@
 
 | Trigger | Action Expected | Notes |
 |------|---------|-----------|
-| **USDJPY closes >159.50** | Intervention #3 likely | Brent collapse defusing near-term; SAM-23 ~55%. (See STATUS for live USDJPY level.) |
-| Brent through $115 | Phase 1 reasserts; USDJPY upside → intervention | Brent currently well below this — opposite direction. (See STATUS for live Brent.) |
-| Iran/Hormuz MOU framework signs | Brent further collapse → Phase 2 accelerates | Framework hardening (Trump May 23, Axios May 24); Tehran-obstruction friction visible |
-| Iran/Hormuz MOU collapses | Brent snapback → USDJPY pressure resumes | Watch Tehran public posture; Pakistan mediating |
-| Bessent statement on rates | Channel 3 augmentation if explicit | May 11-12 affirmation is live overhang |
+| **USDJPY closes >159.50** | Intervention #3 likely | 🔴 #3 ZONE LIVE — USDJPY 159.64 inside zone; SAM-23 ~72% post MOU break. (See STATUS for live USDJPY.) |
+| Brent through $115 | Phase 1 reasserts; USDJPY upside → intervention | Brent $94.78 (+4% Jun 1 on MOU break); rebuilding but well below $115. |
+| **Iran/Hormuz MOU framework — effectively broken Jun 1** | Brent snapback ✅ ($91→$95 in one session); intervention #3 zone reactivated ✅ | Tehran suspended document exchange via mediators + threatened Hormuz block (Tasnim, CNBC). Pakistan-mediated 60-day framework hit hard setback; not formal collapse but document exchange halted. Watch for: (a) formal Tehran withdrawal vs walk-back; (b) Trump response; (c) Khamenei statement. |
+| Bessent / Katayama statement | Channel 3 augmentation if explicit | Reuters Jun 1: Bessent "BOJ should have independence" read as clearing political runway for Jun 16 hike. Katayama May 29 "decisive action" verbal at 159.3+. Pre-meeting blackout starts ~Jun 13. |
 
 ---
 
@@ -55,16 +54,16 @@
 
 ---
 
-## PHASE 2 WATCH (Brent collapse + MOU framework hardening)
+## PHASE 2 WATCH (REFRAMED Jun 1: Phase 2 inception PAUSED on MOU break; Phase 1 oil pressure rebuilds)
 
 *Live levels (Brent, USDJPY, CFTC net) live in STATUS — this table holds thresholds + significance only.*
 
 | Indicator | Threshold | Significance |
 |---|---|---|
-| Brent | <$90 = "headwind resolved" | Phase 2 still firing; Iran/Hormuz MOU framework hardening |
-| Iran/Hormuz MOU framework | Signed text by both sides | Phase 2 (yen-bullish) accelerates if confirmed; Tehran-obstruction friction visible (Trump May 23 "largely negotiated"; Axios May 24 details) |
-| USDJPY 3-session sub-155 test | hard trigger condition | Not yet met; closest approach May 6 (155.05 single session) |
-| CFTC short positioning | -75K cover line | Re-loaded (broke -102K cycle peak May 30, still building); cover would signal MOU acceptance. Live net in STATUS. cftc_jpy.py auto-pulls weekly (Fri/Mon). |
+| Brent | <$90 = "headwind resolved" | 🔴 BREACHED UP Jun 1: $94.78 (+4% on MOU break). Phase 2 inception paused; Phase 1 oil-pressure dynamics rebuild (with v1.4 supply-destruction caveat — May TB Jun 18 diagnostic). |
+| Iran/Hormuz MOU framework | Signed text by both sides | 🔴 Effectively broken Jun 1 (Tehran suspended exchange + Hormuz threat). Resign path open if Trump-Khamenei reset; watch for walk-back. |
+| USDJPY 3-session sub-155 test | hard trigger condition | Not yet met; MOU break delays this scenario. |
+| CFTC short positioning | -75K cover line | Re-loaded (broke -102K cycle peak May 30, 4th build week); cover would signal MOU acceptance. Live net in STATUS. cftc_jpy.py auto-pulls weekly (Fri/Mon). Next release Sat Jun 6. |
 
 ---
 
@@ -72,10 +71,10 @@
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| **Ongoing** | Iran/Hormuz MOU (Pakistan mediating) | Signed text, both-side confirmation | Brent pricing framework hardening; deal not done. (See STATUS for live Brent.) | ALL |
-| **Ongoing** | Trump-Iran posture | Public statements, escort posture | Phase 2 acceleration if durable de-escalation | BRENT, HAWK, SAM |
+| **🔴 Jun 1** | **Iran/Hormuz MOU — effectively broken** | Tehran suspended message exchange via mediators (Tasnim); Hormuz block threat | Brent +4.02% to $94.78; intervention #3 zone reactivated; SAM-23 ~72%. **Watch for walk-back vs formal Iranian withdrawal.** | ALL |
+| **Ongoing** | Trump-Iran posture | Public statements, escort posture | Re-engagement (Trump-Khamenei reset) would resign path; further escalation → Brent through $100+ and possible Hormuz close attempt | BRENT, HAWK, SAM |
 
-**MOU framework terms (Axios, May 24 — the structure being watched):** 60-day ceasefire · Hormuz reopens to unrestricted shipping · Iran can sell oil freely · 30 days for Hormuz procedures + 60 days for nuclear talks. Pakistan (Field Marshal Asim Munir) mediating. **Friction:** Tehran accuses Washington of obstruction + insists nuclear is separate (war-end first, nuclear after) — final sign-off (Trump + Khamenei) still required. May 29 update: reports of a *temporary* ceasefire-extension agreement + nuclear-talks start (drove Nikkei +2.5%). *Status reclassification trail: "rumor-tier" (May 22) → "near-signed framework w/ Tehran friction" (May 26) → "temporary extension agreed" (May 29). Binary: sign → Phase 2 accelerates; collapse → Brent snapback + intervention #3 zone reactivates.*
+**MOU framework terms (Axios, May 24 — the structure that was being watched):** 60-day ceasefire · Hormuz reopens to unrestricted shipping · Iran can sell oil freely · 30 days for Hormuz procedures + 60 days for nuclear talks. Pakistan (Field Marshal Asim Munir) mediating. **Status reclassification trail:** "rumor-tier" (May 22) → "near-signed framework w/ Tehran friction" (May 26) → "temporary extension agreed" (May 29) → **"effectively broken — Tehran suspended document exchange + Hormuz block threat" (Jun 1)**. Tehran cited US "mixed signals" + Israeli escalation in Gaza/Lebanon. Fresh US-Iran clashes near Hormuz. Binary outcome: walk-back / Trump-Khamenei reset → resign path; further escalation → Brent $100+ / Hormuz close attempt.
 
 ---
 

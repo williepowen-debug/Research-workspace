@@ -1,11 +1,35 @@
 # SAM TIMELINE
 
-**Last Updated:** 2026-05-31 (market repriced June BOJ hike to ~88% through CPI miss; SAM-21 marked ~50% → 70%)
+**Last Updated:** 2026-06-01 (Iran MOU effectively broken; intervention #3 zone reactivated; Fed-cut backup engine reads dead for Jun)
 **View:** Base case progression with branch points marked
 
 This document maps our forward-looking expectations — what's coming, what we think happens, and where the path could diverge. Updated as events resolve or views change.
 
 *Pre-2026-05-11 entries archived to [ARCHIVE.md](ARCHIVE.md).*
+
+---
+
+## RESOLVED — Jun 1 (IRAN MOU BROKEN + FED-CUT BACKUP READS DEAD)
+
+### Mon Jun 1 — IRAN/HORMUZ MOU EFFECTIVELY BROKEN ✅ RESOLVED — SAM-23 MARKED ~55% → ~72%
+
+- **Event:** Boot-time news sweep (4 parallel agents) surfaced that Tehran has **suspended message exchanges via mediators** (per Tasnim) and **threatened to "completely block" the Strait of Hormuz**, with fresh US-Iran clashes reported near Hormuz. Cross-confirmed by CNBC, OilPrice, Al Jazeera, investingLive. **WTI +7%, Brent +4.02% to $94.78** (vs $91.12 Fri close).
+- **What broke:** The Pakistan-mediated 60-day MOU framework (near-signed last week, awaiting Trump approval) hit a hard setback. Not formal collapse — Iran walked away from the document-exchange step citing US "mixed signals" + Israeli escalation in Gaza/Lebanon. The May 26-29 Tehran-obstruction friction (which we'd downgraded but kept on watch) escalated into open suspension.
+- **The reframe vs last week:** On May 29 our STATUS read "MOU framework hardening" with Brent at $91. Four days later that view inverted. POV pivot logged to CHANGELOG.
+- **Position-side impacts:**
+  - **SAM-23 (intervention #3) re-rates ~55% → ~72%.** The explicit re-rate-higher condition from the May 25 mark-down (MOU collapse + USDJPY 160+ retest) is now substantially met. Held below 75% only because USDJPY hasn't tagged the 160 hard trigger yet — currently 159.64, inside the 159.50+ verbal zone.
+  - **Intervention #3 zone reactivated.** Katayama (May 29) "decisive action against volatility or speculative movement" verbal at 159.3+ frames live MOF posture. Pre-meeting blackout starts ~Jun 13 (T-2) so this week is the cabling window.
+  - **Phase 1 oil pressure rebuilds** (with v1.4 supply-destruction caveat — blockade severity can choke imports and invert the trade-deficit mechanism; May TB Jun 18 is the diagnostic).
+  - **Bessent-Katayama-Himino alignment** (per Reuters Jun 1) cabling **hike + intervention combo** for Jun 16. Bessent's "BOJ should have independence" posture being read as clearing political runway for Takaichi acquiescence.
+- **What's NOT changing:** SAM-21 (BOJ June hike) stays 70% — Polymarket 88.5% / swap 78-87.5%, slight uptick, discourse now post-hike framed (MUFG, OANDA, ING). The MOU break doesn't move BOJ pricing; the two are separate vectors.
+- **Net:** Thesis-side bullish, structure tighter. Short-term risk: MOU break could push USDJPY through 160 pre-Jun 13 — would likely fire MOF intervention #3, which is yen-bullish but at the cost of a same-day reclaim. Position unchanged.
+
+### Mon Jun 1 — FED-CUT SECONDARY ENGINE READS DEAD AT JUN 17 ✅ RESOLVED — SECONDARY-PATH FRAMING OVERSTATED
+
+- **Event:** Same boot sweep pulled CME FedWatch Jun 1: **Jun 17 FOMC priced >97% no-change** at 3.50-3.75%; **<10% cut odds anywhere in 2026.** April US CPI 3.8% YoY (ME energy passthrough) + resilient labor (115k NFP, 4.3% U/E) blocking the cut. Apr 29 FOMC minutes acknowledged credit-conditions stress (leveraged loans, CMBS, small-biz) but not enough to force a pivot.
+- **What this falsifies (partially):** The v1.5 THESIS framed the Fed-cut path as a "secondary backup engine" with Jun 17 dots landing "~24h after BOJ Jun 16" providing a "discrete catalyst one day behind the primary." That framing softened the RISK FACTORS "BOJ delays = pure downside" line. **It was a stretch.** With FOMC near-certain to hold and 2026 cuts <10%, there is no discrete Jun-window rescue catalyst.
+- **What's retained:** The PC-cascade mechanism is live (BCRED 7.9% Q1 redemptions, Ares ASIF 11.6%; Q2 peak ~mid-June BCRED ~12% / Ares ~14% per BofA/Pitchbook; Moody's flagging rising PIK toggle + Caa1+ borrower share). But this is a multi-month tail driving recession → cuts later in 2026, **not a Jun 16-17 backup**.
+- **Implication:** v1.5 is more single-path than we framed it. The Jun-18 $58C is pure BOJ binary — no Fed-side insurance. Soften the "24h Fed rescue" language in THESIS RISK FACTORS on next pass.
 
 ---
 

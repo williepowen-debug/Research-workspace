@@ -8,6 +8,29 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-06-01 — v1.5 intra-version POV pivot (Iran MOU broken; intervention #3 reactivated; Fed-cut backup reads dead)
+
+**Author:** SAM
+**Action:** No version bump (no channel-structure change; probability + framing refinement within v1.5). Logged as dated POV pivot per [[finding_pov_changelog_pattern]]. **Reverses the 2026-05-29 STATUS read of "MOU framework hardening" and softens the v1.5 THESIS "Fed-cut secondary engine with 24h rescue" framing.**
+
+**Old view (May 29-31, v1.5):**
+- Iran/Hormuz MOU framework hardening (Brent $91.12, near-signed pending Trump approval); intervention #3 zone dormant; SAM-23 ~55%.
+- Fed-cut secondary engine described as "backup catalyst one day behind the primary" via Jun 17 FOMC dots landing ~24h after BOJ.
+
+**New view (Jun 1):**
+- **MOU effectively broken** — Tehran suspended message exchange via mediators + threatened to block Hormuz; Brent +4.02% to $94.78, WTI +7%. Pakistan-mediated framework hit hard setback. Tehran-obstruction friction we'd kept on watch escalated into open suspension. **SAM-23 marked ~55% → ~72%.** Intervention #3 zone REACTIVATED (USDJPY 159.64 inside 159.50+ verbal zone; Katayama May 29 "decisive action" frames live posture; Bessent-Katayama-Himino alignment cabling hike + intervention combo per Reuters Jun 1).
+- **Fed-cut backup engine reads dead at Jun 17:** FOMC priced >97% no-change, <10% cut odds anywhere in 2026 (CME FedWatch). April US CPI 3.8% + resilient labor blocking. **v1.5 is more single-path than we framed it** — the Jun-18 $58C is pure BOJ binary, no Fed-side insurance. PC cascade retained as multi-month tail (not Jun-window catalyst).
+
+**Why view-changing (not just data refresh):**
+- Last week we used MOU optimism to justify a -20pp SAM-23 mark-down and a Channel 3 "dormant" designation. The basis for both inverted in 4 days. Documenting the round-trip protects calibration (was the May 25 mark-down right at the time, or did we over-credit Brent crash optimism?).
+- The "Fed-cut 24h rescue" framing was thesis-level reassurance written into v1.5 RISK FACTORS. With <10% 2026 cut odds, that reassurance was a stretch. Acknowledging it now prevents leaning on it pre-meeting.
+
+**Position-side:** Unchanged. 13 sh + Jun-18 $58C. Stop $55.05. Thesis-side bullish (BOJ pricing held + cabling + intervention backstop + insurer mech intact); structure tighter (single-path more single).
+
+**Carry-unwind probs:** 7d 12→15% (intervention zone live); 30d 70%→70% (BOJ pricing held offsets Fed-cut removal); 60d 83%→80% (Fed-cut tail trimmed).
+
+---
+
 ## 2026-05-31 — v1.5 intra-version POV pivot (market repriced June hike to ~88%; SAM-21 ~50% → 70%)
 
 **Author:** SAM
