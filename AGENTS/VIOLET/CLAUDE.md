@@ -15,18 +15,37 @@ You are part of a multi-agent research network tracking systemic financial risk.
 
 ## SPAWN PROTOCOL
 
-When spawned with a task:
+**Boot and closeout are one symmetric sequence: what you READ at boot, you WRITE BACK at closeout.** The CLOSEOUT phase (steps 7-13) is the write-back tail — run it at **EVERY session end, not just end-of-day** (per auto-memory `[[feedback_intra_day_closeout_discipline]]`). It is not optional; it is the back half of this protocol. Read→write pairings: STATUS (read 1 → write 7), SCRATCH (read 2 → write 11), thesis (surfaced via STATUS → written 9).
 
-1. **Check `inbox/`** — process any pending signals (INTEGRATE, LOG, or DISCARD). **For each signal, log a one-line entry to KB.tsv** using the 13-column schema. Move processed signals to `inbox/processed/`.
-2. **Read `STATUS.md`** — your current state, dashboard, active situations
-3. **Before writing to KB.tsv, read `workbook/SCHEMA.tsv`** — validate all enum fields (Conf, Epistemic, Status) against `allowed_values`. Use `default` values when unsure.
-3b. **Read `AGENTS/VOCABULARIES.tsv`** — use NETWORK_GROUPS for Group field, CANONICAL_ENTITIES for Entity field, SOURCE_TAGS for Source field. If no match exists, use closest term and note the gap.
-4. **Execute the task**
-5. **Write results back to your files** — update `STATUS.md`, log to workbook (KB/VX/FLOW) when appropriate
-6. **If your findings are relevant to another agent's domain, write to `outbox/`**
-7. **If the task changes your thesis or key numbers, update STATUS.md before finishing**
+### BOOT (read phase)
+0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
+1. **Read `STATUS.md`** — live dashboard, regime status, convergence matrix, drift assessment, position posture
+2. **Read `SCRATCH.md`** — ephemeral handoff from last session (CHANGES SINCE / WHAT I DID / NEXT SESSION action items). The canonical "where are we" file.
+3. **Read `MEMORY.md`** — curated insights, regime definitions, KB-VIO-036 divergence framework, METRIC SEMANTICS, prior session notes for trajectory context
+4. **Read `CALENDAR.md`** — VIX expirations, FOMC, CPI/PPI, BOJ, NVDA-class catalysts; cross-check against `workbook/CATALYSTS.tsv`
+5. **Run `scripts/boot.py`** — live vol surface + FRED credit + catalyst countdown in ~10s:
+   ```
+   .venv/bin/python3 AGENTS/VIOLET/scripts/boot.py
+   ```
+   Use `--verbose` for full output. Web-search only for narrative/headline catalysts the boot kit doesn't cover.
 
-⚠️ **Critical:** Always WRITE to STATUS.md. Do not just report findings back to PROME verbally. If it's not in the file, it doesn't persist.
+### EXECUTE
+6. **Execute the task.**
+
+### CLOSEOUT (write-back — run at EVERY session end)
+7. **`STATUS.md`** — write the dashboard back: VIX complex, SKEW + 20d-avg, VVIX, credit (HY/CCC/IG OAS), 10Y, convergence matrix, drift assessment, regime status, positions. Threshold breaches + active situations go to the top. Keep under 250 lines (archive overflow to `research/` or `archive/`). *(Mirror of boot step 1.)*
+8. **Workbook / ledgers** — log new facts/claims → `workbook/KB.tsv` (validate enums against `workbook/SCHEMA.tsv`; use NETWORK_GROUPS/CANONICAL_ENTITIES/SOURCE_TAGS from `AGENTS/VOCABULARIES.tsv`); changed vol-surface levels → `workbook/VX.tsv` or `VX_DAILY.tsv`; transmission/cascade mechanics → `workbook/FLOW.tsv`; VIX options snapshots → `workbook/VIX_OPTIONS.tsv`. Mark superseded entries STALE with closing disposition rather than deleting. Separate "mechanism intact" from "threshold stuck/breached" (auto-memory `[[finding_threshold_vs_mechanism]]`).
+9. **Thesis-level change → `thesis/VIX_THESIS.md` + `thesis/CHANGELOG.md`.** Trigger: new transmission channel, conviction shift, phase transition, regime classification change, formal-trigger calibration update, prediction resolution. Version bump — major (X) = structural change / conviction reversal / phase transition; minor (Y) = refinement. Always log old view → new view in CHANGELOG.
+10. **Forward-state maintenance.** **Catalysts:** `workbook/CATALYSTS.tsv` is the source of truth — prune fired rows, add newly-discovered dated catalysts; `CALENDAR.md` is the human twin and **must not diverge**. **Cross-agent ownership:** if another agent owns a metric (HENRY owns SPX/macro prices, LIQUID owns credit spreads, BROCK owns private credit), reference their value with `[CONF AGENT date]` rather than keeping a drifting copy.
+11. **Rewrite `SCRATCH.md`** — CHANGES SINCE (what moved while offline) / WHAT I DID / NEXT SESSION (priority-ordered, dated where possible) / CARRY-FORWARD / OPEN HYPOTHESES (flagged, not actionable until backtested). This is the **canonical session handoff** (it replaces the retired LAST_COMPLETION.md; `MEMORY.md` holds persistent learnings, NOT the per-session handoff). *(Mirror of boot step 2.)*
+12. **Promotion scan** — if this session produced something bigger than SCRATCH: thesis-level finding → `thesis/VIX_THESIS.md` + CHANGELOG; transferable cross-agent lesson → auto-memory (`~/.claude/projects/-home-willi-Research-workspace/memory/` + one-line index in its `MEMORY.md`); VIOLET-specific durable learning → local `MEMORY.md`. Cross-agent signals → `outbox/` per the Outbox Protocol below (messaging degraded — see that section).
+13. **Git** — per root CLAUDE.md: `git reset HEAD` → `git add AGENTS/VIOLET/` → `git diff --cached --stat` (verify nothing outside your dir) → commit → push (pull-rebase first if origin diverged). If blocked by other agents' uncommitted work, **note the pending push in `SCRATCH.md`** and defer (push-train pattern often resolves it on the next clean-closing agent).
+
+**Discipline overlay (applies throughout closeout):** one source of truth per metric — don't write the same value in two docs (own it in the owner doc, reference from the other). Stale-marked > carried-forward-as-current — if you can't refresh a value, mark it `[STALE]` with the date, don't present it as live. **Don't let prior-session narrative substitute for fresh measurement** — VIOLET-specific (3 framing errors caught 6/1: termination date, VIX9D percentile, VRP percentile; all directional-right, precision-wrong).
+
+**MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it. (Per auto-memory `[[project_messaging_overhaul]]` — file-based mail is being overhauled; HERMES delivery unreliable; don't invest in inbox/outbox infrastructure.)
+
+⚠️ **Critical:** Always WRITE to STATUS.md / SCRATCH.md / KB.tsv. Do not just report findings back verbally. If it's not in the file, it doesn't persist.
 
 ⚠️ **File > verbal.** Cross-agent session visibility is restricted. If asked to report findings, propose changes, or review something, write to a named file (e.g., `REPORT.md`, `REVIEW.md`) in your agent directory. Don't rely on your response reaching the caller — the file is the handoff.
 
@@ -146,32 +165,19 @@ Your STATUS.md must include a Convergence Matrix — a scored table of your doma
 
 | File | Purpose | Update Frequency |
 |------|---------|------------------|
-| `STATUS.md` | Live dashboard | Every check-in |
-| `MEMORY.md` | Curated insights | When thesis changes |
-| `workbook/KB.tsv` | Knowledge base | Every significant finding |
-| `workbook/VX.tsv` | VIX tracking data | Daily when markets open |
-| `workbook/FLOW.tsv` | Cross-agent signals | Per signal |
-| `CALENDAR.md` | VIX expirations, catalysts | Weekly |
+| `STATUS.md` | Live dashboard | Every closeout |
+| `SCRATCH.md` | Canonical session handoff (CHANGES SINCE / WHAT I DID / NEXT SESSION) | Every closeout |
+| `MEMORY.md` | Curated insights (regime defs, KB-VIO-036 framework, METRIC SEMANTICS, session-note trajectory) | When thesis evolves or session adds durable learning |
+| `CALENDAR.md` | VIX expirations, FOMC/CPI/BOJ catalysts (human twin of CATALYSTS.tsv) | Weekly + at closeout |
 | `TRADE.md` | VIX-linked positions | When positions change |
 | `thesis/VIX_THESIS.md` | Core framework | When thesis evolves |
+| `thesis/CHANGELOG.md` | Old view → new view at each thesis version bump | At thesis-version bump |
+| `workbook/KB.tsv` | Knowledge base (validate against SCHEMA.tsv + VOCABULARIES.tsv) | Every significant finding |
+| `workbook/VX.tsv` / `VX_DAILY.tsv` | VIX tracking data | Daily when markets open |
+| `workbook/FLOW.tsv` | Cross-agent signal log | Per signal |
+| `workbook/VIX_OPTIONS.tsv` | VIX options snapshots (C/P OI, strike concentration) | When `vix_options.py` is run |
+| `workbook/CATALYSTS.tsv` | Source of truth for dated catalysts (machine feed for `catalyst_countdown.py`) | At closeout when calendar shifts |
 
 ---
 
-## COMPLETION SPEC
-
-When you finish a task, write to `LAST_COMPLETION.md`:
-
-```markdown
-**Task:** [what you did]
-**Date:** YYYY-MM-DD
-**Status:** COMPLETE / PARTIAL / BLOCKED
-**Key Findings:** [1-3 bullets]
-**Files Changed:** [list]
-**Signals Sent:** [to whom, about what]
-**Next Actions:** [what should happen next]
-**Gaps:** [what you couldn't resolve]
-```
-
----
-
-*Template derived from AGENTS/templates/CLAUDE_TEMPLATE.md*
+*Template derived from AGENTS/templates/CLAUDE_TEMPLATE.md. Closeout pattern adapted from BRENT 2026-05-31 codification (auto-memory `[[finding_closeout_as_writeback_tail]]`).*
