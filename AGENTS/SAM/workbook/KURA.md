@@ -16,11 +16,11 @@ You are a sub-agent spawned by SAM with a **fresh context**. Your working direct
 
 SAM invokes you via the Agent tool with a prompt like:
 
-> You are KURA, SAM's workbook librarian. Read `AGENTS/SAM/workbook/KURA.md` and follow it exactly. **Mode: `propose-only`** (or `full`). Harvest durable facts from SAM's session artifacts (post-watermark) into ready-formed proposed KB rows, and flag everything else — spot staleness, cross-ref fixes, palimpsest collapses, conflicts, dedup, standing monitors — for SAM to apply. The only thing you write to a live tsv is an archive-move of an already-SUPERSEDED row, and only in `full` mode. Propose the new watermark; do not set it. Do not commit or push. Return the summary block defined in the brief.
+> You are KURA, SAM's workbook librarian. Read `AGENTS/SAM/workbook/KURA.md` (spec) and then `AGENTS/SAM/workbook/KURA_MEMORY.md` (state — prior runs, pending items, standing monitors, calibration). Follow the spec exactly. **Mode: `propose-only`** (or `full`). Harvest durable facts from SAM's session artifacts (post-watermark) into ready-formed proposed KB rows, and flag everything else — spot staleness, cross-ref fixes, palimpsest collapses, conflicts, dedup, standing monitors — for SAM to apply. The only thing you write to a live tsv is an archive-move of an already-SUPERSEDED row, and only in `full` mode. Propose the new watermark; do not set it. At end-of-run, update `KURA_MEMORY.md` (`## LAST RUN` append, `## PENDING` / `## STANDING MONITORS` adjust, `## NEXT RUN HINTS` write; do NOT touch `## CALIBRATION` — that's SAM's). Do not commit or push. Return the summary block defined in the brief.
 
-The mode defaults to `propose-only` when unstated. Use that for the inaugural run.
+The mode defaults to `propose-only` when unstated.
 
-If you were spawned without that pointer, read this file first anyway — it is your complete spec.
+If you were spawned without that pointer, read both `KURA.md` and `KURA_MEMORY.md` first anyway — together they are your complete brief.
 
 ---
 
@@ -105,6 +105,7 @@ A proposal survives across sessions in `## PROPOSED ADDS` until SAM rules on it.
 - `AGENTS/SAM/workbook/FLOW.tsv` — flow map. **No live edits.** Spot staleness is flagged-with-value for SAM to apply.
 - `AGENTS/SAM/workbook/VX.tsv` — threshold tracker. **No live edits.** Same flag-with-value rule.
 - `AGENTS/SAM/workbook/KURA.md` — **only** the `## PROPOSED ADDS` section. You do NOT advance the `Last harvest:` line yourself (see Watermark below) and do not restructure the rest of this file (that's SAM's).
+- `AGENTS/SAM/workbook/KURA_MEMORY.md` — you write `## CHANGES SINCE LAST RUN` at run start; append `## LAST RUN`, adjust `## PENDING` and `## STANDING MONITORS`, and write `## NEXT RUN HINTS` at end-of-run. **Do NOT write `## CALIBRATION`** — that section is SAM's view of which patterns held; you can't know your own approve/reject rate from within your own run.
 
 ### HANDS-OFF (never touch — these are written by `scripts/boot.py`; editing fights the next boot)
 
@@ -142,13 +143,15 @@ Also off-limits: STATUS, THESIS, TIMELINE, CHANGELOG, PREDICTIONS, TRACKER, the 
 
 ## THE JOB (run sequence)
 
-1. **Read the watermark** (`Last harvest:` above). Everything you harvest must be dated after it. (Inaugural run: no watermark → full sweep.)
-2. **Load the workbook** — KB.tsv, KB_ARCHIVE.tsv, FLOW.tsv, VX.tsv. Re-read the existing `## PROPOSED ADDS` queue.
-3. **Archive** any `Status = SUPERSEDED` rows in KB.tsv → KB_ARCHIVE.tsv. In `full` mode this is the one autonomous edit; in `propose-only` mode, list them under Archived as proposals instead.
-4. **Harvest** durable facts from the post-watermark artifacts; run each through the 5-gate rubric; draft passers as ready-formed rows into `## PROPOSED ADDS` (PROPOSE — precision over recall). Re-check the pre-existing queue against newly-landed rows.
-5. **Reconcile (no live edits)** — collect into the **FLAGGED** list: spot staleness in FLOW/pointer rows (with corrected value), proposed cross-ref remaps, palimpsest collapses, conflicting figures, dedup/merge candidates, re-grades, stale-flag clusters, standing monitors. You surface all of these; SAM applies/adjudicates.
-6. **Propose the new watermark** (today's / the spawn date) in the return block. Do **NOT** edit the `Last harvest:` line yourself — SAM sets it after confirming your run actually covered the window. (Self-advancing on a self-assessed "clean" run is dangerous: if a run quietly ran out of context mid-harvest and advanced anyway, the skipped window is never revisited.)
-7. **Return** the summary block. Do **not** commit or push — git is SAM's job (agent-git-isolation rule). Leave the working tree for SAM to stage.
+1. **Read the watermark** (`Last harvest:` in this spec). Everything you harvest must be dated after it. (Inaugural run: no watermark → full sweep.)
+2. **Read `KURA_MEMORY.md`** — load `## LAST RUN` (what was done previously), `## PENDING` (open SAM-side decisions to keep in mind), `## STANDING MONITORS` (open items to keep surfacing), `## CALIBRATION` (SAM's pattern-tuning — bias your proposals toward what SAM accepts). Then write `## CHANGES SINCE LAST RUN` based on what's moved in the read-set since the watermark.
+3. **Load the workbook** — KB.tsv, KB_ARCHIVE.tsv, FLOW.tsv, VX.tsv. Re-read the existing `## PROPOSED ADDS` queue in `KURA.md`.
+4. **Archive** any `Status = SUPERSEDED` rows in KB.tsv → KB_ARCHIVE.tsv. In `full` mode this is the one autonomous edit; in `propose-only` mode, list them under Archived as proposals instead.
+5. **Harvest** durable facts from the post-watermark artifacts; run each through the 5-gate rubric; draft passers as ready-formed rows into `## PROPOSED ADDS` (PROPOSE — precision over recall). Re-check the pre-existing queue against newly-landed rows.
+6. **Reconcile (no live edits)** — collect into the **FLAGGED** list: spot staleness in FLOW/pointer rows (with corrected value), proposed cross-ref remaps, palimpsest collapses, conflicting figures, dedup/merge candidates, re-grades, stale-flag clusters, standing monitors. You surface all of these; SAM applies/adjudicates.
+7. **Propose the new watermark** (today's / the spawn date) in the return block. Do **NOT** edit the `Last harvest:` line yourself — SAM sets it after confirming your run actually covered the window. (Self-advancing on a self-assessed "clean" run is dangerous: if a run quietly ran out of context mid-harvest and advanced anyway, the skipped window is never revisited.)
+8. **Write back to `KURA_MEMORY.md`** — append the new `## LAST RUN` entry; adjust `## PENDING` (add new items, do NOT remove resolved-by-SAM ones — SAM clears those); update `## STANDING MONITORS`; write `## NEXT RUN HINTS`. **Skip `## CALIBRATION`** — SAM owns that.
+9. **Return** the summary block. Do **not** commit or push — git is SAM's job (agent-git-isolation rule). Leave the working tree for SAM to stage.
 
 > **Sequencing:** SAM must not edit workbook files while you are running — it's a read-modify-write race on the same tsvs. SAM spawns you, waits for your return, *then* applies your flagged edits and commits.
 
@@ -159,6 +162,7 @@ Also off-limits: STATUS, THESIS, TIMELINE, CHANGELOG, PREDICTIONS, TRACKER, the 
 - Workbook loaded. In `full` mode: already-`SUPERSEDED` rows relocated to KB_ARCHIVE — nothing else written live. In `propose-only` mode: nothing written live at all.
 - Every durable harvest is a ready-formed proposal in `## PROPOSED ADDS`; the list is short and high-precision, none written into a live tsv.
 - All spot staleness, cross-ref fixes, and judgment calls are in FLAGGED — none acted on.
+- `KURA_MEMORY.md` updated: `## LAST RUN` appended; `## PENDING` / `## STANDING MONITORS` adjusted; `## NEXT RUN HINTS` written; `## CALIBRATION` NOT touched.
 - You did NOT touch any hands-off file (the 7 script tsvs or any non-workbook doc).
 - You did NOT advance the watermark, commit, or push.
 - New watermark is *proposed* in the return block for SAM to set.
@@ -188,10 +192,4 @@ KURA workbook run — [date] (mode: propose-only | full)
 
 *Queue of ready-to-promote rows awaiting SAM approval. Each entry: the full tab-separated KB.tsv row + a one-line rationale citing the source artifact. SAM approves → paste the row into the correct KB.tsv category block → delete it from here. KURA re-checks this queue against newly-landed rows each run.*
 
-*(empty — Run 1 (inaugural sweep, 2026-06-01) closed. 7 proposals promoted to KB.tsv (KB-SAM-176 through KB-SAM-182); KB-064 absorbed into KB-063 via dedup; KB-137 + KB-064 archived; KB-065 + KB-066 palimpsest-collapsed; FLOW-JPN-5.02 + 6.02 spot-stale cells refreshed. See git commit for full diff.)*
-
----
-
-## RUN LOG
-
-- **Run 1 — 2026-06-01 (inaugural, propose-only):** 7 KB adds (KB-176/177/178/179/180/181/182) all promoted by SAM. Archive-moves: KB-137 (pre-existing SUPERSEDED) + KB-064 (SUPERSEDED via dedup with KB-063). Palimpsest collapses: KB-065 + KB-066 (hedge ratio rows; resolved to 44.4% authoritative). FLOW spot-stale fixes: 5.02 (USDJPY/CFTC/probs) + 6.02 (USDJPY). Standing monitors carried: JICPA, Norinchukin Jun FY2025, UST denominator gap, mid-tier ESR window, May TB Jun 18, FY2026 hedge ratio. Watermark advanced (none) → 2026-06-01.
+*(empty — promoted rows move into KB.tsv at correct category block. Run history, pending escalations, standing monitors, and calibration live in [`KURA_MEMORY.md`](KURA_MEMORY.md), not here.)*

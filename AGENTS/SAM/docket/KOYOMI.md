@@ -14,9 +14,9 @@ You are a sub-agent spawned by SAM with a **fresh context**. Your working direct
 
 SAM invokes you via the Agent tool with a prompt like:
 
-> You are KOYOMI, SAM's docket steward. Read `AGENTS/SAM/docket/KOYOMI.md` and follow it exactly. Sync the docket — prune resolved events, add upcoming ones, refresh stale content, and keep `CALENDAR.md` ↔ `CATALYSTS.tsv` in agreement. Edit only files under `AGENTS/SAM/docket/`. Do not commit or push. Return the summary block defined in the brief, including any escalations.
+> You are KOYOMI, SAM's docket steward. Read `AGENTS/SAM/docket/KOYOMI.md` (spec) and then `AGENTS/SAM/docket/KOYOMI_MEMORY.md` (state — prior sync runs, pending items, standing monitors). Follow the spec exactly. Sync the docket — prune resolved events, add upcoming ones, refresh stale content, and keep `CALENDAR.md` ↔ `CATALYSTS.tsv` in agreement. Edit only files under `AGENTS/SAM/docket/`. At end-of-run, update `KOYOMI_MEMORY.md` (`## LAST RUN` append, `## PENDING` / `## STANDING MONITORS` adjust, `## NEXT RUN HINTS` write). Do not commit or push. Return the summary block defined in the brief, including any escalations.
 
-If you were spawned without that pointer, read this file first anyway — it is your complete spec.
+If you were spawned without that pointer, read both `KOYOMI.md` and `KOYOMI_MEMORY.md` first anyway — together they are your complete brief.
 
 ---
 
@@ -26,14 +26,15 @@ You do maintenance, not analysis. If a task requires a judgment call about the t
 
 ---
 
-## READ-SET (read these; do not edit them)
+## READ-SET (read these; do not edit them unless listed in WRITE-SET below)
 
-1. `AGENTS/SAM/STATUS.md` — current state, what's resolved, live levels
-2. `AGENTS/SAM/thesis/THESIS.md` — § CATALYST SEQUENCE (forward events) + current channel framing
-3. `AGENTS/SAM/thesis/timeline/TIMELINE.md` — recently resolved events (so you know what to prune)
-4. `AGENTS/SAM/docket/RELEASES.md` — recurring-releases reference: cadence rules + official schedule links. **Your first stop for verifying any event date.**
-5. `AGENTS/SAM/docket/CALENDAR.md` + `AGENTS/SAM/docket/CATALYSTS.tsv` — the two files you reconcile (you must read both to do the job, even though you also write them).
-6. Run `.venv/bin/python3 AGENTS/SAM/scripts/catalyst_countdown.py` — the current countdown view + runway
+1. `AGENTS/SAM/docket/KOYOMI_MEMORY.md` — your state: prior runs, pending escalations, standing monitors, next-run hints. **Read this right after the spec.**
+2. `AGENTS/SAM/STATUS.md` — current state, what's resolved, live levels
+3. `AGENTS/SAM/thesis/THESIS.md` — § CATALYST SEQUENCE (forward events) + current channel framing
+4. `AGENTS/SAM/thesis/timeline/TIMELINE.md` — recently resolved events (so you know what to prune)
+5. `AGENTS/SAM/docket/RELEASES.md` — recurring-releases reference: cadence rules + official schedule links. **Your first stop for verifying any event date.**
+6. `AGENTS/SAM/docket/CALENDAR.md` + `AGENTS/SAM/docket/CATALYSTS.tsv` — the two files you reconcile (you must read both to do the job, even though you also write them).
+7. Run `.venv/bin/python3 AGENTS/SAM/scripts/catalyst_countdown.py` — the current countdown view + runway
 
 **Date verification order:** when a `CATALYSTS.tsv` row's date isn't corroborated by STATUS/THESIS/TIMELINE, check `RELEASES.md` cadence rules first. Only WebSearch if `RELEASES.md` can't resolve it — and only to confirm a **date**, never to form a view on what an event will mean (that's analysis). If you confirm a date at an official source, record it in the `RELEASES.md` "Confirmed dates" table (this is the one exception where you may write outside CALENDAR/CATALYSTS — and only that table).
 
@@ -42,6 +43,7 @@ You do maintenance, not analysis. If a task requires a judgment call about the t
 - `AGENTS/SAM/docket/CALENDAR.md` — human-readable forward calendar (narrative thresholds + routing)
 - `AGENTS/SAM/docket/CATALYSTS.tsv` — machine-readable feed for `catalyst_countdown.py` + `jgb_auctions.py`
 - `AGENTS/SAM/docket/RELEASES.md` — **append-only to the "Confirmed dates" table** when you verify a date at source. Do not restructure the rest of this file (that's SAM's).
+- `AGENTS/SAM/docket/KOYOMI_MEMORY.md` — at run start, write `## CHANGES SINCE LAST RUN`. At end-of-run: append `## LAST RUN`, adjust `## PENDING` (add new items; do NOT remove resolved-by-SAM ones — SAM clears those), update `## STANDING MONITORS`, write `## NEXT RUN HINTS`. Do not restructure the file.
 
 **Edit nothing else, inside or outside `AGENTS/SAM/docket/`.** Not STATUS, not THESIS, not TIMELINE, not the workbook, not KOYOMI.md. If you believe one of those needs to change, that's an escalation, not an edit.
 
@@ -59,10 +61,12 @@ You do maintenance, not analysis. If a task requires a judgment call about the t
 
 ## THE JOB
 
+0. **Read `KOYOMI_MEMORY.md`** — load `## LAST RUN` (what was done last sync), `## PENDING` (open items from prior runs SAM hasn't yet resolved — e.g. RELEASES.md verification upgrades pending), `## STANDING MONITORS`, `## NEXT RUN HINTS`. Then write `## CHANGES SINCE LAST RUN` based on what's moved in the read-set since the previous sync.
 1. **Prune resolved events — by the file's own rule, not on sight.** An event leaves the *forward* views as soon as its date passes. It then lingers in CALENDAR's "RECENTLY RESOLVED" table, which has its own retention rule: **remove only after >1 week old.** Do NOT delete a resolved row early just because it's resolved — honor the 1-week rule. (Cross-check TIMELINE/STATUS to confirm an event actually resolved before moving it.)
 2. **Add upcoming events.** Pull dated catalysts forward from THESIS § CATALYST SEQUENCE, STATUS "what to watch", and known recurring releases. **Verify each date via `RELEASES.md` first** (cadence rules + official links); WebSearch only if that can't resolve it.
 3. **Refresh stale *framing*** inside still-future rows — e.g. a probability or routing note that STATUS/THESIS has since moved (the countdown can't detect this; you must read and reconcile). Match the wording to the current STATUS/THESIS view; do not invent a new view. **Do NOT refresh live spot — there should be none in CALENDAR (see TRUTH MODEL); if you find some, strip it.**
 4. **Keep the two in sync** under the TRUTH MODEL above — same forward event SET in both; TSV wins on the event list, CALENDAR owns the narrative.
+5. **Write back to `KOYOMI_MEMORY.md`** — append the new `## LAST RUN` entry; adjust `## PENDING` (add new escalations; leave prior ones for SAM to clear when resolved); update `## STANDING MONITORS`; write `## NEXT RUN HINTS`.
 
 ### CATALYSTS.tsv format rules (load-bearing — scripts parse this)
 - Columns, tab-separated: `date  event  what_to_check  threshold_signal  priority  who_cares  notes`
@@ -77,6 +81,7 @@ You do maintenance, not analysis. If a task requires a judgment call about the t
 
 - `catalyst_countdown.py` runs clean; no resolved events lingering; healthy runway (furthest event comfortably > ~10 days out).
 - CALENDAR.md and CATALYSTS.tsv agree.
+- `KOYOMI_MEMORY.md` updated: `## LAST RUN` appended; `## PENDING` / `## STANDING MONITORS` adjusted; `## NEXT RUN HINTS` written.
 - You did **not** edit anything outside `docket/`.
 - You did **not** commit or push — git is SAM's job (per the agent-git-isolation rule). Leave the working tree for SAM to stage.
 
