@@ -33,7 +33,7 @@
 
 | Thread | Summary | Documentation |
 |--------|---------|---------------|
-| | | |
+| Produce-spike attribution | RESOLVED 2026-05-31 (deep-research + verification). Spike is MULTI-CAUSAL — labor SECONDARY (~10-20%); real co-drivers = FL freeze ($3.17B, verified), tomato tariff (17%), diesel. MAR-21 cut 75→50. Exact %-split unknowable. | `domain/sources/PRODUCE_ATTRIBUTION_DECOMP_2026-05-31.md` |
 
 ---
 
@@ -43,8 +43,8 @@
 
 | Thread | Focus | Next Action |
 |--------|-------|-------------|
-| Produce-spike attribution | F&V CPI +6.1% YoY Apr — decompose labor (SDL-01) vs weather/energy/tariff | TIER 1. Now MARCO's primary live signal. Decompose before further upgrading Pred #21/#14. |
 | Remittance paradox | $ +4.9% Mar vs transfer count -3.6% | Test 1% tax pull-forward hypothesis (effective Jan 1). If confirmed, expect Q2-Q3 air-pocket. |
+| Ag-weather / crop-disaster monitoring | NEW gap exposed by produce decomp — fleet missed a real $3.17B FL freeze. No agent owns ag-weather. | Flagged to PROME (outbox 5/31) to assign an owner. MARCO candidate (FL-adjacent). |
 
 ---
 

@@ -1,5 +1,5 @@
 # MARCO STATUS
-**Last Updated:** 2026-05-31 ET (session 7 — docket build + legacy-file cleanup; data unchanged from session 6 refresh) | **Status:** 🟠 ELEVATED (downgraded from 🔴) — **THESIS INFLECTION: cyclical stress signals reversed, structural supply-shock persists. DHS shutdown ENDED Apr 30; FL condo tightening; Canadian headline + NFP + remittances $ all flipped positive. Only ICE-funding, H-2A bottleneck, and PRODUCE PRICES still hardening.**
+**Last Updated:** 2026-05-31 ET (session 7 — docket build + legacy-file cleanup; data unchanged from session 6 refresh) | **Status:** 🟠 ELEVATED (downgraded from 🔴) — **THESIS INFLECTION: cyclical stress signals reversed, structural supply-shock persists. DHS shutdown ENDED Apr 30; FL condo tightening; Canadian headline + NFP + remittances $ all flipped positive. Only ICE-funding + H-2A bottleneck clearly structural. PRODUCE prices elevated but DECOMP (5/31) shows them MULTI-CAUSAL (FL freeze + tomato tariff + diesel), labor only secondary — see Produce situation.**
 
 ---
 
@@ -31,7 +31,7 @@ Five weeks of data (Apr 23 → May 31) broke the "10-breached acute-crisis" fram
 |-----------|--------|--------|
 | DHS Shutdown | **ENDED Apr 30** (Trump signed; 76-day record). TSA/FEMA/CG/CISA/SS funded. ICE/CBP carved out → reconciliation. | 🟢 RESOLVED |
 | ICE/CBP Reconciliation | **$71.7B text released May 4** ($38B ICE, $26B CBP, $32.5B HSGAC). Senate cmtes passed. Jun 1 target. Enforcement insulated through term. | 🔴 STRUCTURAL |
-| Produce / CPI F&V | **+6.1% YoY Apr** (↑ from +4.0% Mar); fresh veg **+3.1% MoM**, fresh fruit +1.2% MoM. Food-at-home +2.9% YoY. | 🔴 ACCELERATING |
+| Produce / CPI F&V | **+6.1% YoY Apr** (↑ from +4.0% Mar); fresh veg **+3.1% MoM**. **DECOMP: multi-causal — labor SECONDARY; FL freeze ($3.17B) + tomato tariff (17%) + diesel are the larger drivers.** | 🟠 MULTI-CAUSAL |
 | ICE Ag Raids | **Eased off farms** — ICE refraining from ag worksite enforcement, pivoted to Democratic cities (harvest-protection). | 🟠 SOFTENED |
 | H-2A Bottleneck | Red River Valley potato delays; South Africa consular interviews → July (past planting). FY26 demand accelerating. | 🔴 LIVE |
 | FL Condo Inventory | **8.9mo Apr** (↓ from 9.1mo Mar; *below* 9.0). Miami-Dade 12.9mo (↓ from 13.7 YoY), PB 8.2mo (↓ from 10.4). Tightening. | 🟡 SOFTENED |
@@ -75,10 +75,11 @@ Five weeks of data (Apr 23 → May 31) broke the "10-breached acute-crisis" fram
 - Senate Judiciary + Homeland Security committees passed. **June 1 self-imposed deadline** (tomorrow). Passes on GOP votes alone, no Democratic support needed.
 - **Implication:** ICE enforcement intensity funded and unconstrained through Trump's term (~2028). This is the durable accelerator for the SDL-01 → produce-price transmission. Funding is no longer a brake.
 
-### Produce Price Spike — INTENSIFYING (🔴, MARCO's PRIMARY LIVE SIGNAL)
-- CPI Apr 2026: **fresh fruits & vegetables +6.1% YoY** (up from +4.0% Mar). Fruits+veg combined **+1.8% MoM**; **fresh vegetables +3.1% MoM**; fresh fruit +1.2% MoM (+2.1% YoY). Food-at-home +0.7% MoM / +2.9% YoY.
-- Prediction #21 flip-condition was: fresh F&V MoM <0.2% AND H-2A catching up → downgrade. **MoM is +1.8%/+3.1% (veg), nowhere near 0.2%; H-2A still bottlenecked → HOLD/UPGRADE.**
-- This is the cleanest, most durable expression of the ag-labor supply shock. Attribution decomposition (labor vs weather/energy/tariff) is Tier-1 next session.
+### Produce Price Spike — REAL BUT MULTI-CAUSAL (🟠, was 🔴 "PRIMARY LIVE SIGNAL" — DECOMP RESOLVED 2026-05-31)
+- CPI Apr 2026: **fresh fruits & vegetables +6.1% YoY** (up from +4.0% Mar); **fresh vegetables +3.1% MoM**; fresh fruit +1.2% MoM. Food-at-home +0.7% MoM / +2.9% YoY. *(Spike is real — not in dispute.)*
+- **ATTRIBUTION RESOLVED (deep-research + internal verification):** the spike is MULTI-CAUSAL — **labor (SDL-01) is a SECONDARY (~10-20%) contributor, NOT the dominant/clean signal STATUS previously claimed.** Verified co-drivers: (1) **FL freeze** Dec'25–Feb'26, **$3.17B, USDA disaster declaration**, hit berry/tomato crops — *fleet blind spot, nobody caught it*; (2) **Mexican tomato tariff** 17% AD duty (Jul'25); (3) **elevated diesel/freight** from the oil-war spike. Crop-"fingerprint" is confounded by the freeze.
+- **Correction note:** I first called the freeze fabricated (fleet silence) — WRONG; verified real via USDA + multiple outlets. Full record + analyst-error log → `domain/sources/PRODUCE_ATTRIBUTION_DECOMP_2026-05-31.md`.
+- **Implication:** stop treating "+6.1% produce" as strong evidence of the labor thesis. MAR-21 downgraded 75→50. Exact driver %-split is unknowable; directional conclusion (labor over-credited) is robust.
 
 ### ICE Ag Enforcement — PIVOTED OFF FARMS (🟠, was 🔴 EXPANDING)
 - Reporting (Stateline Nov 2025; ag-press May 2026): ICE **refraining from agricultural worksite raids**, concentrating on Democratic-led cities. Harvest-protection motive explicit.
@@ -115,7 +116,7 @@ Five weeks of data (Apr 23 → May 31) broke the "10-breached acute-crisis" fram
 
 | # | Prediction | Timeframe | Conf | Notes (2026-05-31) |
 |---|-----------|-----------|------|-------|
-| 21 | Planting-season raid surge → produce spike | Mar-May 2026 | **75%** | ↑ 68→75. CPI F&V +6.1% YoY Apr / fresh veg +3.1% MoM. Flip-condition not met. Caveat: raids eased off farms — spike now driven by *stock* supply shock, not flow. Attribution decomp pending. |
+| 21 | Planting-season raid surge → produce spike | Mar-May 2026 | **~50%** | ↓ 75→50 (decomp DOWNGRADE). Spike is MULTI-CAUSAL — labor SECONDARY, not dominant. Verified co-drivers: FL freeze ($3.17B, USDA disaster decl), Mexican tomato tariff (17%), elevated diesel. Raid-surge claim weak (raids eased, H-2A wages cut). → `domain/sources/PRODUCE_ATTRIBUTION_DECOMP_2026-05-31.md`. |
 | 14 | CA produce prices +15% | H2 2026 | **74%** | ↑ 72→74. F&V trajectory accelerating; SDL-01 stock loss + H-2A bottleneck intact. |
 | 26 | ICE construction raids → housing-start delays (TX, AZ, FL) | Q2 2026 | **72%** | ↓ 80→72. ICE pivoted off worksite raids toward cities — construction-raid intensity likely easing alongside ag. Stock effect remains; flow softened. |
 | 11 | H-2A certifications >425K | FY 2026 | 75% | Demand accelerating; bottleneck = processing, not demand. |
