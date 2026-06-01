@@ -1,5 +1,7 @@
 # MARCO OPERATIONAL SKELETON v1.0
 
+> ⚠️ **SUPERSEDED for live thesis by `thesis/THESIS.md` (v2.0, 2026-05-31).** Retained as the v1.0 historical artifact — the original thesis articulation, FLOW cascades, and Phase 2→3 framing. The v1.0→v2.0 transition (bifurcation) is logged in `thesis/CHANGELOG.md`.
+
 **Agent:** MARCO (Migration And Regional Change Observer)
 **Domain:** Population Movement, Tourism, Workforce Displacement, Internal Migration
 **Peer Agent:** CARL (Consumer stress) — Florida is primary intersection

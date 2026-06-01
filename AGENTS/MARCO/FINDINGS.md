@@ -68,7 +68,8 @@ Each section below is a **thesis bucket**. Under each bucket: the research docs 
 - **ICE raids** — PIVOTED OFF FARMS (harvest-protection; enforcement to Democratic cities). Flow softened; 2.2M stock loss irreversible. Lives in `STATUS.md`.
 - **Canadian travel** — Apr +1.4% YoY headline (first rise since Dec '24, auto-driven); air channel -8.1% still bleeding. Lives in `STATUS.md`.
 - **Remittances** — Mar +4.9% YoY ($5.39B record), Q1 +1.4%; count -3.6% (likely 1% tax pull-forward). Lives in `STATUS.md`.
-- **Predictions** — `PREDICTIONS.tsv` (MAR-08, MAR-27 now CONFIRMED), active set in `STATUS.md`.
+- **Thesis** — `thesis/THESIS.md` (v2.0, canonical) + `thesis/CHANGELOG.md` (version history) + `thesis/TIMELINE.md`.
+- **Predictions** — `thesis/PREDICTIONS.tsv` (MAR-08, MAR-27 now CONFIRMED), active set in `STATUS.md`.
 - **Vectors** — `workbook/VX.tsv`.
 
 ---

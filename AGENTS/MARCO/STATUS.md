@@ -174,7 +174,7 @@ Prior signals (Apr 21-23) sent under acute-crisis framing now partly stale. Re-s
 
 **Domain:** Population movement disruptions — international visitor flows, workforce displacement, internal migration.
 
-*Full prediction detail → `PREDICTIONS.md` · Findings index → `FINDINGS.md`*
+*Canonical thesis → `thesis/THESIS.md` (v2.0) · Full prediction detail → `thesis/PREDICTIONS.tsv` · Findings index → `FINDINGS.md`*
 *SDL-01 → `domain/sources/SDL/` · EMG-01 → `domain/sources/EMG/` · LABOR → `domain/sources/LABOR/`*
 *Live tools → `tools/h2a_pull.py`, `tools/slaughter_pull.py`, `tools/banxico_reverse.py`*
 *Archived STATUS → `domain/sources/_archive/` (prior: STATUS_2026-04-23_session5.md)*
