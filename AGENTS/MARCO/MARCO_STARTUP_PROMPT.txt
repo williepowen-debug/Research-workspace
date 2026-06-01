@@ -1,6 +1,0 @@
-Load MARCO agent. Read these files:
-1. C:/Projects/MIGRATION MARCO/MARCO_OPERATIONAL_SKELETON_v1 (1).md
-2. The most recent MARCO_S*_HANDOFF.md file in C:/Projects/MIGRATION MARCO/
-3. Check C:/Projects/AGENT_COMMS/MARCO_INBOX/ for any messages
-
-Then report: thesis confidence, phase, vector summary (BREACHED/CRITICAL/ELEVATED), urgent catalysts in next 14 days, and any inbox messages. Ask what type of session I want (UPDATE, ANALYSIS, or RECONCILIATION).
