@@ -10,9 +10,10 @@
 
 - **Fresh boot via boot.py:** VIX 16.05 (+0.12 since EOD), VVIX 91.6 (flat), SKEW 142.46 (-1.72 from 144.18). Knife-edge math unchanged (~5td to resolve). COT no change (next refresh 6/05).
 - **KB-VIO-066 added:** Deep-tail call OI concentration (65-strike) ranks #3 on 6/17 (176,503) and #2 on 7/22 (254,923). CALIBRATION CHECK: 4/17 baseline already had 70-strike at 281,828 OI ranked #3 → deep-tail call concentration is PERSISTENT not a fresh surge. What IS notable: tail concentration spans BOTH sides of 6/17 quad-event = hedgers carrying through July, not unwinding after. Corroborates KB-VIO-062 (SKEW rebid + tail-bid) and KB-VIO-064 (M2 IV event-hedger support) from positioning angle. Mid-session framing-precision correction filed: boot output "(+X%)" is %OTM-vs-spot NOT growth metric.
-- **KB-VIO-067 added — DIET COILED-SPRING BACKTEST (Priority 1 closure):** Built `scripts/diet_coiled_spring.py` (re-runnable), scanned 2007-01 to 2026-06 daily ^VIX/^VVIX/^SKEW (4811 obs). STRICT signature exactly reproduced (46 days/17 episodes including open 4/13/26). DIET signature (ΔSKEW≥+10, ΔVIX≤-2, ΔVVIX≤-10, 20d, NOT also STRICT) yields 37 fires/25 episodes — comparable forward returns to STRICT (fwd60 peak>+50% hit-rate: DIET 65% vs STRICT 62% vs NEITHER 38%). **Era split shows NO GEX-suppression specificity** — DIET fires 2024-25 perform similarly to DIET fires 2012-20. KB-VIO-062 GEX-mechanism claim PARTIALLY SUPERSEDED → STATUS Call-notional/GEX vector downgraded 🟡→⚪.
-- **Position implication:** DIET fires should be treated as KB-VIO-036-class signals for watch-flag purposes. Sizing discipline unchanged (catalyst-then-position; compound-confirmation entry).
-- **Commits (evening):** `f27dfd0e` (KB-VIO-066) pushed; KB-VIO-067 + backtest research file + STATUS amendments pending this closeout commit.
+- **KB-VIO-067 added — DIET COILED-SPRING BACKTEST (Priority 1 piece b closure):** Built `scripts/diet_coiled_spring.py` (re-runnable), scanned 2007-01 to 2026-06 daily ^VIX/^VVIX/^SKEW (4811 obs). STRICT signature exactly reproduced (46 days/17 episodes including open 4/13/26). DIET signature (ΔSKEW≥+10, ΔVIX≤-2, ΔVVIX≤-10, 20d, NOT also STRICT) yields 37 fires/25 episodes — comparable forward returns to STRICT (fwd60 peak>+50% hit-rate: DIET 65% vs STRICT 62% vs NEITHER 38%). **Era split shows NO GEX-suppression specificity** — DIET fires 2024-25 perform similarly to DIET fires 2012-20. KB-VIO-062 GEX-mechanism claim PARTIALLY SUPERSEDED → STATUS Call-notional/GEX vector downgraded 🟡→⚪.
+- **KB-VIO-068 added — FEB 2018 VOLMAGEDDON M1:M2 ANALOG (Priority 1 piece c closure):** Built `scripts/feb2018_m1m2.py` (re-runnable), discovered CBOE archive URL pattern `cdn.cboe.com/resources/futures/archive/volume-and-price/CFE_<CODE>_VX.csv`, fetched F18/G18/H18/J18 per-contract settles, computed M1:M2 contango Jan 2 → Feb 23 2018. **KEY FINDING: KB-VIO-064 framing partially supported but materially refined.** Yes — +11.93% contango occurred Jan 5 2018 (F18 dte=12) nearly matching today's +12.93% (VX/M6 dte=12). BUT the immediate pre-spike contango was +1% to -4%, NOT +13%. Volmageddon trajectory: contango COMPRESSED from +12 → +5 → +1 → -4 over 22td while VIX ROSE from 9.22 → 17.31. **Current setup is the OPPOSITE direction-of-travel** — contango EXPANDED (5.66→12.93) while VIX FELL (17.39→16.05). Refined KB-VIO-064 trigger: compression direction × VIX direction is the disambiguating matrix, not compression alone. STATUS Volmageddon-shape vector downgraded 🟠→🟡. Convergence score 11/50 → 8/50.
+- **Position implication unchanged:** still watch-flag, not trade-trigger. Forward gates 6/05 COT / 6/12 CPI / 6/17 FOMC unchanged. Refined: watch the M1:M2-direction × VIX-direction matrix as the analog activates or fails.
+- **Commits (evening):** `f27dfd0e` (KB-VIO-066) pushed; `d8d801eb` (KB-VIO-067 + backtest) pushed; KB-VIO-068 + Feb 2018 analog + STATUS refinements pending this closeout commit.
 
 ---
 
@@ -68,15 +69,15 @@
 
 **Commits (all pushed to origin):** `80a10ed5` (catch-up), `ac376e9f` (SCRATCH creation), `7d8f8fb2` (closeout codification + CHANGELOG + LAST_COMPLETION archive), `fca7e6c8` (pass-2 reconciliation), `e6d02ccd` (pass-3 VX_DAILY backfill + yfinance holiday guard).
 
-## NEXT SESSION (priority-ordered — refreshed after evening session)
+## NEXT SESSION (priority-ordered — refreshed after evening session, pieces b+c closed)
 
-1. **🟠 Episode-17 trade post-mortem** (Priority 1 residual from triple-package — only (b) backtest closed this session). Reframed by KB-VIO-067: less about GEX-suppression specificity, more about "Episode-17 was a STRICT fire that bucked the 62% peak>+50% hit-rate due to event-absorption mechanics." Needs dedicated session. Now leaner because the backtest already provides the population-level context.
-2. **🟠 Feb 2018 M1:M2 Volmageddon analog** (Priority 1 residual — package piece (c)). KB-VIO-064 raises this from "watch-flag" to "trigger-bearing watch-flag" needing historical grounding. Requires extending `backfill.py` to fetch CBOE settlements for Jan-Feb 2018. Existing `research/crisis_analogs/feb2018_vix_spike.csv` has VIX/VIX3M/VVIX/SKEW/HYG/HY_OAS but no M1:M2 series.
-3. **🟠 6/05 COT release disambiguation** (auto-pulled by `boot.py` on next-boot after Fri 6/05 3:30 PM ET) — KB-VIO-065 watch threshold. Cleanest near-term thesis-discriminating data point.
-4. **🟠 M1:M2 daily refresh through 6/17** (~2 min/boot) — KB-VIO-064 falsifiable trigger. ≤8% by 6/10 = trap releasing → downgrade; ≥10% = pile-up intensifies. Pair with knife-edge monitor.
-5. **🟡 Daily knife-edge monitor through 6/10** (~3 min/boot) — recompute 20d_avg + project re-establishment date.
-6. **🟡 Diet multi-window + threshold-grid sensitivity** (KB-VIO-067 follow-on) — 7d/10d/15d/25d/30d windows × (ΔVIX, ΔVVIX) cuts to find smooth-curve equivalence with STRICT. Lower priority — calibration refinement, not thesis-shifting.
-7. **🟡 6/12-6/17 catalyst pre-mortem** — Best built 6/08-6/10 once knife-edge + M1:M2 trajectory resolves.
+1. **🟠 Episode-17 trade post-mortem** (Priority 1 residual — only piece (a) of triple-package still open). Reframed by KB-VIO-067: less about GEX-suppression specificity, more about "Episode-17 was a STRICT fire that bucked the 62% peak>+50% hit-rate due to event-absorption mechanics." Needs dedicated session.
+2. **🟠 6/05 COT release disambiguation** (auto-pulled by `boot.py` on next-boot after Fri 6/05 3:30 PM ET) — KB-VIO-065 watch threshold. Cleanest near-term thesis-discriminating data point. Now ALSO connects to KB-VIO-068 analog: COT-confirmed speculator crowding + VIX rising during compression = analog re-activates.
+3. **🟠 M1:M2 + VIX direction monitor through 6/17** (~2 min/boot) — KB-VIO-068 refined trigger matrix. Watch (M1:M2 direction) × (VIX direction) jointly. Compression + VIX rising = upgrade Volmageddon-shape analog. Compression + VIX falling = trap-releasing. Replaces single-threshold framing.
+4. **🟡 Daily knife-edge monitor through 6/10** (~3 min/boot) — recompute 20d_avg + project re-establishment date.
+5. **🟡 6/12-6/17 catalyst pre-mortem** — Best built 6/08-6/10 once knife-edge + M1:M2 trajectory + COT result resolve.
+6. **🟡 Diet multi-window + threshold-grid sensitivity** (KB-VIO-067 follow-on) — 7d/10d/15d/25d/30d windows × (ΔVIX, ΔVVIX) cuts. Lower priority.
+7. **🟡 Other M1:M2 pile-up windows control set** (KB-VIO-068 follow-on) — historical scan for 10%+ contango in long-DTE M1 phases that did NOT spike. Validates whether Feb 2018 was unique or one of N similar setups with mixed outcomes.
 8. **🟡 Cross-agent re-engagement** once fleet architecture work settles.
 
 ## CARRY-FORWARD (lower priority)
@@ -93,4 +94,4 @@
 
 ---
 
-*Last rewritten: 2026-06-01 19:30 ET (evening session — post-power-loss recovery confirmed clean. KB-VIO-066 tail-call OI persistence + KB-VIO-067 diet coiled-spring backtest filed. Priority 1 piece (b) closed; (a) Episode-17 post-mortem and (c) Feb 2018 M1:M2 analog now top of NEXT SESSION docket.)*
+*Last rewritten: 2026-06-01 21:00 ET (extended evening session — KB-VIO-066 (tail-call OI persistence) + KB-VIO-067 (diet coiled-spring backtest, piece b) + KB-VIO-068 (Feb 2018 Volmageddon M1:M2 analog, piece c) filed. Priority 1 triple-package now (b) and (c) closed; only (a) Episode-17 post-mortem remains open. Headline product of session: KB-VIO-064 trigger matrix refined from single-threshold to (M1:M2 direction × VIX direction). Convergence score 11/50 → 8/50 — not because position weakened, but because two mechanism-specific claims (GEX-suppression specificity, Volmageddon-shape direction-of-travel) are now empirically constrained.)*
