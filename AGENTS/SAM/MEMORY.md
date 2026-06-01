@@ -47,18 +47,23 @@
 - **VIOLET pre-staged files caught at commit time** — unstaged before SAM commit (re-validated [[feedback_check_staged_before_commit]] in real-time).
 - **Hedge-ratio data-quality flag** (sub-agent returned <30% claim, conflicts with 44.4% authoritative) — NOT propagated, flagged in KURA_MEMORY PENDING + standing follow-up.
 
+### LAST SESSION — POST-14:56 ADDENDUM (3 commits after the MEMORY closeout pass; power loss hit after the 18:07 push)
+
+- **16:03 `8b319c7c` — CLAUDE.md FILES table:** added KURA_MEMORY + KOYOMI_MEMORY entries; pointed KURA.md / KOYOMI.md rows at the new MEMORY pair-files. Codifies the sub-agent CLAUDE+MEMORY split in the boot-loaded spec.
+- **17:35 `8a2f830c` — TRADE.md Jun 1 refresh:** 2-pass state-sync + thesis-loaded (header, thesis para, live P/L, all 6 Tranche 2 hard-triggers, Carry Unwind table, EWJ + Japan Banks triggers, EWJ MOU anti-trigger flipped inactive, Key Dates pruned + Jun 10 US CPI added, Risk Factors mitigation columns). Plus Position A inline partial-trigger disclosure (#3 partial via wrong leg) + Fed Path softened to multi-month tail. Mini-pass: Decision Card header relabeled + TLT watchlist v1.5 note (Channel 1 deferred → near-term TLT-put not warranted from Japan side). Position 13 sh + Jun-18 $58C unchanged.
+- **18:07 `0414f49a` — THESIS surgical sync (closes NEXT-SESSION item 4):** 7 surgical edits propagating the Jun 1 POV pivot into THESIS body — header banner, Forward catalyst table (MOU watch + Intervention #3 row SAM-23 ~72%), Phase 2 Current state, "Why secondary path now" paragraph, "Timing key" paragraph rewritten from "24h rescue catalyst" → "multi-month tail not Jun-window," tripwires table Jun 1 annotations, RISK FACTORS BOJ-delays mitigation rewritten ("closer to pure downside than v1.5 originally framed"). Probabilities HELD by design (25%/15%/12%); explicit inline notes flag re-rate as separate deliberate decision pending escalation trajectory. No version bump.
+
 ### NEXT SESSION
 
 1. **Run boot.py** — Tue Jun 2. Verify MOU walk-back vs further escalation overnight (key: Trump/Khamenei statements; Brent direction). CFTC next release Sat Jun 6.
 2. **🔴🔴 Jun 16 BOJ MPM** — DOMINANT, SAM-21 70% / mkt ~88.5%. **Re-verify swap/Polymarket pricing at boot Jun 9-15**. Pre-meeting blackout starts ~Jun 13 (T-2) — this week is the cabling window (Bessent/Katayama jawbone watch). National May CPI Jun 19 (post-BOJ). Position unchanged: 13 sh + Jun-18 $58C.
 3. **🔴 Iran/Hormuz MOU watch** — broke Jun 1; SAM-23 ~72%. Binary: walk-back / Trump-Khamenei reset → resign path; further escalation → Brent $100+ / Hormuz close attempt. USDJPY 160 hard intervention trigger watch.
-4. **THESIS edit pass deferred:** soften RISK FACTORS Fed-cut "24h backup" language to "multi-month tail." Flagged in CHANGELOG + TIMELINE Jun 1 entries.
-5. **Hedge-ratio verification:** primary-source check on 44.4% vs <30% claim (now tracked in KURA_MEMORY PENDING).
-6. **🟠 Jun FY2025 Norinchukin** — only near-term Channel 1 reactivation gate; CLO-book reduction language / CEO Kitabayashi. CLO book reportedly down to ¥8.2T (was ¥9.7T in thesis) — verify. (Tracked in KURA_MEMORY STANDING MONITORS.)
-7. **Eval re-baseline DUE** — standing trigger compounded (Jun 1 POV pivot stack on top of prior). Evals carry stale $57.48; RED to self-correct $57.48→$58.32 on next boot.
-8. **Position next-touch:** No add/trim under v1.5 single-path. Triggers: (a) USDJPY <156 for 3 sessions → consider add; (b) BOJ pre-cabling Jun 13-15; (c) thesis break (USDJPY >167 + BOJ dovish) = stop $55.05. Jun-18 $58C theta-watch (vol pop Jun 1 modestly offsets).
-9. **KURA/KOYOMI next runs** — both have populated MEMORY files now; next spawns should self-orient. Validate the architecture by spawning without re-briefing in spawn prompt (just point at the spec; MEMORY does the rest). KURA's next meaningful harvest window opens post-Jun-16 BOJ.
-10. **⏸️ DEFERRED (still holds):** Layer B cross-agent signals (BROCK/HANS PC-cascade pull, HENRY carry-numbers); vol-proxy recalibration; KB cleanup tier-2 macro/flow rows. Do NOT re-flag as open gaps.
+4. **Hedge-ratio verification:** primary-source check on 44.4% vs <30% claim (now tracked in KURA_MEMORY PENDING).
+5. **🟠 Jun FY2025 Norinchukin** — only near-term Channel 1 reactivation gate; CLO-book reduction language / CEO Kitabayashi. CLO book reportedly down to ¥8.2T (was ¥9.7T in thesis) — verify. (Tracked in KURA_MEMORY STANDING MONITORS.)
+6. **Eval re-baseline DUE** — standing trigger compounded (Jun 1 POV pivot stack on top of prior). Evals carry stale $57.48; RED to self-correct $57.48→$58.32 on next boot.
+7. **Position next-touch:** No add/trim under v1.5 single-path. Triggers: (a) USDJPY <156 for 3 sessions → consider add; (b) BOJ pre-cabling Jun 13-15; (c) thesis break (USDJPY >167 + BOJ dovish) = stop $55.05. Jun-18 $58C theta-watch (vol pop Jun 1 modestly offsets).
+8. **KURA/KOYOMI next runs** — both have populated MEMORY files now; next spawns should self-orient. Validate the architecture by spawning without re-briefing in spawn prompt (just point at the spec; MEMORY does the rest). KURA's next meaningful harvest window opens post-Jun-16 BOJ.
+9. **⏸️ DEFERRED (still holds):** Layer B cross-agent signals (BROCK/HANS PC-cascade pull, HENRY carry-numbers); vol-proxy recalibration; KB cleanup tier-2 macro/flow rows. Do NOT re-flag as open gaps.
 
 ### NEXT INFRA SESSION (script build queue — unchanged)
 
