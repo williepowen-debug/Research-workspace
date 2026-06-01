@@ -29,21 +29,29 @@
 - Retired `LAST_COMPLETION.md` → `archive/2026-06-01_LAST_COMPLETION_final.md`. SCRATCH is canonical handoff.
 - Reconciled `workbook/CATALYSTS.tsv` (pruned 8 fired rows; added 6/05/6/09/6/12/6/17 forward catalysts) + `CALENDAR.md` (reconciled to CATALYSTS as source of truth; flagged Jun 17 FOMC+SEP+VIX-quarterly convergence as highest forward gate).
 
-**Pass 3 — VX_DAILY backfill (intra-day, 16:20 ET):**
+**Pass 3 — VX_DAILY backfill + analytical re-read (intra-day, 16:20-16:30 ET):**
 - Ran `scripts/backfill.py` (default 90d spot, 30d M1:M2). 115 → 132 rows; 5/14 → 6/1 EOD now present with VIX/VIX3M/VIX6M/VVIX/SKEW + M1:M2 steepness.
 - **Caught yfinance ^VIX phantom-print on Memorial Day (5/25).** yfinance returned a ^VIX close of 16.59 on a US holiday; all four companion tickers correctly skipped. Removed the orphan 5/25 row.
 - **Patched `scripts/backfill.py`** with a holiday guard: drop rows where ^VIX3M is missing (orphan ^VIX = phantom). Re-ran spot-only and confirmed 5/25 stays out. Logged in MEMORY DATA SOURCES caveats.
 - CALENDAR.md `VX_DAILY.tsv time series` row updated 5/13 → 6/1.
 - 6/1 SKEW EOD still empty (CBOE T+1 publication lag — next-boot refresh).
 
+**Pass 3 analytical findings (Will-asked walkthrough):**
+- **Front-curve contango M1:M2 EXPLOSION** — biggest finding. 5.66% (5/15) → 12.93% (6/1), peaked 13.40% on 5/29. Front (Jun, pre-FOMC) crushed; M2 (Jul, post-FOMC) refuses to compress. Volmageddon 2018 setup shape. Asymmetric short-vol pile-up specifically refusing to price through 6/17 quad-event (FOMC + SEP + VIX Jun quarterly). **VIX3M/VIX ratio only moved 1.159 → 1.218 (+5%) over same window — M1:M2 is ~27x more pronounced than the 3M/spot ratio.** STATUS framing materially under-weighted the asymmetry-size. KB-VIO-064 added; KB-VIO-062 amended with M1:M2 as 5th leg.
+- **SKEW shape was spike-crash-rebid, not clean rebid** — 5/15 145.77 ceiling (delayed PPI reaction, 2 td post-print) → 5/20 132.31 low (NVDA-IV-crush) → 5/29 144.18. **Current rebid still BELOW 5/15 ceiling**, sitting in upper half of 12-pt range. Knife-edge re-establishment requires holding upper-third against mid-range gravity (20d-avg 138.985 = midpoint).
+- **VVIX EOD bid** — STATUS 14:30 intraday showed 89.25; EOD 91.61 = +2.36 late-session move. +5.58 over 2 sessions from 5/28 low 86.03. **First 2-day VVIX bid >5pts since early May** — earliest stir of vol-of-vol leading-indicator. If 92+ by 6/05, the "no VVIX leg" piece of KB-VIO-062 weakens.
+- **Convergence Score:** 7/45 → 11/50. Divergence vector renamed SKEW-VIX-VVIX-M1M2 and upgraded 🟡→🟠. New "front-curve contango / Volmageddon-shape" vector at 🟠. VVIX upgraded ⚪→🟡.
+- **Action call (Will-asked): watch-flag, NOT trade-trigger.** VIOLET discipline = catalyst-then-position. Best entry condition (compound): CCC >9.50 OR HY >2.85 WITH M1:M2 still >10% = confirmation + asymmetric setup intact. Do NOT pre-position June VIX calls; they're cheap precisely because M1 is being smashed and expire 6/17 (pure theta-killer on timing). KB-VIO-064 carries the falsifiable trigger: M1:M2 ≤8% by 6/10 = trap releasing without event → downgrade; ≥10% = pile-up intensifies → upgrade asymmetry-weighted snap impact.
+
 **Commits (all pushed to origin):** `80a10ed5` (catch-up), `ac376e9f` (SCRATCH creation), `7d8f8fb2` (closeout codification + CHANGELOG + LAST_COMPLETION archive), `fca7e6c8` (pass-2 reconciliation), `e6d02ccd` (pass-3 VX_DAILY backfill + yfinance holiday guard).
 
 ## NEXT SESSION (priority-ordered)
 
-1. **🟠 Episode-17 post-mortem + diet coiled-spring backtest** (paired research package) — same underlying GEX-suppression hypothesis from two angles. (a) Why didn't VIX fire on a textbook Episode-17 setup? (b) Does half-magnitude divergence carry signal at reduced hit rate? GEX-conditional KB-VIO-036 efficacy. **Highest-value next thread — determines whether we have a tradeable thesis or a rationalization.** Doubly-deferred (5/21 + 6/1); needs dedicated session.
-2. **🟡 Daily knife-edge monitor through 6/10** (~3 min/boot) — recompute 20d_avg + project re-establishment date. If SKEW holds 144 daily, regime re-establishes 6/05; if 142, 6/09. Binary resolves on 5 td of incoming data.
-3. **🟡 6/12-6/17 catalyst pre-mortem** — Three catalysts in one week: 6/12 May CPI, 6/17 FOMC, 6/17-18 SEP. Best built 6/08-6/10 once knife-edge resolves. Frame both outcomes: clean absorption (new regime to characterize) vs something cracks (likely CCC re-acceleration vector).
-4. **🟡 Cross-agent re-engagement** once fleet architecture work settles — HENRY/BROCK/LIQUID all stale 5/21; their views are inputs to ours.
+1. **🟠 Episode-17 post-mortem + diet coiled-spring backtest** (paired research package) — same underlying GEX-suppression hypothesis from two angles. (a) Why didn't VIX fire on a textbook Episode-17 setup? (b) Does half-magnitude divergence carry signal at reduced hit rate? GEX-conditional KB-VIO-036 efficacy. **Now expand to triple-package: also (c) M1:M2 dimension — Feb 2018 Volmageddon analog comparison. KB-VIO-064 raises this from "watch-flag" to "trigger-bearing watch-flag" needing historical grounding.** Doubly-deferred (5/21 + 6/1); needs dedicated session.
+2. **🟠 M1:M2 daily refresh through 6/17** (~2 min/boot) — KB-VIO-064 falsifiable trigger. Read m1m2_adj_pct in VX_DAILY each boot. ≤8% by 6/10 = trap releasing → downgrade; ≥10% = pile-up intensifies. Pair with knife-edge monitor.
+3. **🟡 Daily knife-edge monitor through 6/10** (~3 min/boot) — recompute 20d_avg + project re-establishment date. If SKEW holds 144 daily, regime re-establishes 6/05; if 142, 6/09. Binary resolves on 5 td of incoming data.
+4. **🟡 6/12-6/17 catalyst pre-mortem** — Three catalysts in one week: 6/12 May CPI, 6/17 FOMC, 6/17-18 SEP. Best built 6/08-6/10 once knife-edge + M1:M2 trajectory resolves. Frame both outcomes: clean absorption (new regime to characterize) vs something cracks (CCC re-acceleration or M1:M2 sustained ≥10% pre-event = setup intact for snap).
+5. **🟡 Cross-agent re-engagement** once fleet architecture work settles — HENRY/BROCK/LIQUID all stale 5/21; their views are inputs to ours. **M1:M2 finding likely warrants a HENRY signal** (Volmageddon-shape positioning crowding is a macro-tape-relevant data point HENRY would want).
 
 ## CARRY-FORWARD (lower priority)
 
