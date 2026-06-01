@@ -41,7 +41,7 @@ BRENT is the **action-primary** agent for energy data substance: oil price/struc
 
 All in git, network-readable for grep at dispatch:
 
-- **Predictions BRT-NN** → `AGENTS/BRENT/workbook/PREDICTIONS.tsv` and `AGENTS/BRENT/thesis/THESIS.md`
+- **Predictions BRT-NN** → `AGENTS/BRENT/thesis/PREDICTIONS.tsv` (+ archive `AGENTS/BRENT/thesis/PREDICTIONS_ARCHIVE.md`) and `AGENTS/BRENT/thesis/THESIS.md`
 - **KB-BRT-NNN claims** → `AGENTS/BRENT/workbook/KB.tsv`
 - **VX-BRT-NN indicators** → `AGENTS/BRENT/workbook/VX.tsv`
 - **FLOW-BRT-N.NN transmission** → `AGENTS/BRENT/workbook/FLOW.tsv`

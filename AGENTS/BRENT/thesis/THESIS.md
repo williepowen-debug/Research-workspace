@@ -187,7 +187,7 @@ Bear put spreads, NOT outright puts (vol crush) [LESSONS #15]. 60-90 DTE, 10-15%
 
 ---
 
-## CONFIRMED PREDICTIONS (refreshed v3.0; full set in `workbook/PREDICTIONS.tsv`)
+## CONFIRMED PREDICTIONS (refreshed v3.0; full set in `thesis/PREDICTIONS.tsv` + archive in `thesis/PREDICTIONS_ARCHIVE.md`)
 
 | ID | Prediction | Status | Result |
 |----|-----------|--------|--------|
