@@ -2,7 +2,7 @@
 
 **Purpose:** Track signals that SHOULD appear if thesis is correct but haven't yet. **Absence of an expected signal is information** — it flags a timing error, a blocked transmission, or a thesis flaw. This is the complement to `thesis/PREDICTIONS.tsv`: predictions assert what will happen; expected-signals assert what we'd *see* if the mechanism is live.
 
-**Last refreshed:** 2026-05-31 (session 7)
+**Last refreshed:** 2026-05-31 (session 8 — added ES-MARCO-08 produce-vs-pump decoupling test)
 
 ---
 
@@ -15,6 +15,7 @@
 | ES-MARCO-05 | CA ag produce prices spike >10% YoY | Q2 2026 | NEAR | CPI fresh F&V **+6.1% YoY Apr** (veg +3.1% MoM) — appearing, trajectory toward 10% but not breached. If holds to Jun without hitting 10%, push deadline to H2 (aligns w/ Pred MAR-14). |
 | ES-MARCO-06 | FL domestic migration turns negative | Dec 2026 | WATCHING | Last print 22,517 (93% collapse), Miami −2.0%. Annual Census — no new data until late 2026. On track for the Dec test. |
 | ES-MARCO-07 | Vegas visitor decline continues >5% | Q2 2026 | WATCHING | No fresh LVCVA print pulled this session. Canadian air −8.1% supports, but unconfirmed for Vegas specifically. |
+| ES-MARCO-08 | **Produce CPI decouples from pump prices** (fresh F&V CPI stays elevated while retail gas/diesel falls) | **Jun 10 + Jul CPI** | WATCHING | **The v2.1 discriminating test for produce attribution.** Diesel/freight was a transient co-driver of the Apr +6.1% spike; crude −19% on the month, pump relief lands May 31–Jun 14 (BRENT). **If fresh F&V CPI holds ≳+5% YoY into June/July while pump prices fall** → transient driver exiting, residual (labor + freeze + tariff) re-weighted UP → labor partially rehabilitated. **If F&V softens in step with diesel** → freight carried more of the spike than credited → labor demoted further. Caveat: distillate structurally tight (−11% vs 5-yr), so freight relief is partial/lagged, not 1:1. Resolves the Channel-1 thermometer question (`thesis/THESIS.md` v2.1). |
 
 ---
 
