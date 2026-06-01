@@ -1,5 +1,5 @@
 # MARCO FINDINGS INDEX
-**Last Updated:** 2026-04-21 | **Purpose:** Category map of MARCO research docs. Not a synthesis — a navigator. For live state see `STATUS.md`.
+**Last Updated:** 2026-05-31 | **Purpose:** Category map of MARCO research docs. Not a synthesis — a navigator. For live state see `STATUS.md`.
 
 ---
 
@@ -9,7 +9,7 @@ Each section below is a **thesis bucket**. Under each bucket: the research docs 
 
 ---
 
-## 🟠 SDL-01 — Self-Deportation Ledger (BREACHED, 85% conf)
+## 🟠 SDL-01 — Self-Deportation Ledger (BREACHED, 80% conf — formalized VX 2026-04-21)
 
 **Core claim:** ~2.2M undocumented workers self-deported in 2025 (CBO). Structural supply shock, not cyclical. Transmission now quantified via 1930s historical template.
 
@@ -60,13 +60,15 @@ Each section below is a **thesis bucket**. Under each bucket: the research docs 
 
 ---
 
-## Live state (not in this index)
+## Live state (not in this index) — refreshed 2026-05-31
 
-- **FL triple exposure** — Canadian tourism -22%, Miami migration -2.0%, condo 9.1mo BREACHED. Lives in `STATUS.md` ACTIVE SITUATIONS. No dedicated research doc yet.
-- **DHS shutdown** — Day 61-64, $75B OBBBA cushion, Jun 1 Trump deadline. Lives in `STATUS.md`.
-- **ICE raids** — Expanding (CA Central Valley +58%, WA farmworkers, MN meatpacking). Lives in `STATUS.md`.
-- **Canadian travel** — 13th consecutive monthly decline. Lives in `STATUS.md`.
-- **Predictions** — `PREDICTIONS.tsv`, active set in `STATUS.md`.
+- **THESIS INFLECTION (2026-05-31):** cyclical stress reversed, structural supply-shock persists. See STATUS.md top block. Durable signal = produce CPI F&V +6.1% YoY (ag-labor stock loss).
+- **FL triple exposure** — COOLING. Condo 8.9mo Apr (below 9.0, tightening); Canadian air -8.1% (headline flipped +1.4%); Miami migration -2.0% stale. Aggregate $ stress pushed to winter 2026-27. Lives in `STATUS.md`.
+- **DHS shutdown** — RESOLVED Apr 30 (76-day record). ICE/CBP carved to $71.7B reconciliation (text May 4, Jun 1 target). Lives in `STATUS.md`.
+- **ICE raids** — PIVOTED OFF FARMS (harvest-protection; enforcement to Democratic cities). Flow softened; 2.2M stock loss irreversible. Lives in `STATUS.md`.
+- **Canadian travel** — Apr +1.4% YoY headline (first rise since Dec '24, auto-driven); air channel -8.1% still bleeding. Lives in `STATUS.md`.
+- **Remittances** — Mar +4.9% YoY ($5.39B record), Q1 +1.4%; count -3.6% (likely 1% tax pull-forward). Lives in `STATUS.md`.
+- **Predictions** — `PREDICTIONS.tsv` (MAR-08, MAR-27 now CONFIRMED), active set in `STATUS.md`.
 - **Vectors** — `workbook/VX.tsv`.
 
 ---
