@@ -28,33 +28,34 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (5/29 PM boot → 5/31 Sunday boot)
+### CHANGES SINCE LAST SESSION (5/31 Sunday boot → 6/1 Monday boot)
 
-- **🆕 CFTC weekly RELEASED** (May 30, data as of May 26): net short **-114,667** (was -93,905 May 19). **+27,152 NEW shorts WoW** (longs +6,390; net −20,762). **BROKE the -102K recent-cycle peak** we'd been watching — 4th straight build week. 63.7% of Jul-2024 -180K peak. Fuel load growing INTO the June catalyst, not covering. This is the action-item-#1 resolution.
-- FXY options: ATM IV eased to **8.03%** (−0.56 vs 5/29) but 25d RR steepened to **−7.81** (from −6.35) — yen-strength convexity bid building further (thesis-side). IV down + skew up = market not pricing imminent shock on level but paying up for yen-strength tails.
-- Brent **$91.12** (−$1 vs 5/29); JGB/USDJPY/FXY otherwise flat (weekend, mkt closed — Fri-cached). No new macro prints.
+- **🆕 IRAN MOU EFFECTIVELY BROKEN (Jun 1):** Tehran suspended message exchange via mediators (Tasnim) + threatened to "completely block" Hormuz. WTI +7%, **Brent +4.02% to $94.78**. Pakistan-mediated 60-day framework hit hard setback (not formal collapse but document exchange halted; fresh US-Iran clashes near Hormuz). Reverses last week's "MOU framework hardening" view in 4 days.
+- **🆕 FED-CUT BACKUP READS DEAD:** Jun 17 FOMC priced **>97% no-change**, **<10% cut odds anywhere in 2026** (CME FedWatch). April US CPI 3.8% (ME passthrough) + resilient labor blocking. v1.5 "24h Fed rescue" framing was a stretch.
+- **🆕 BOJ pricing HELD / slight uptick:** Polymarket **88.5%** (Jun 1, was 88.2% May 31); swap 78-87.5%. Discourse now post-hike framed (MUFG, OANDA, ING). Bessent-Katayama-Himino alignment cabling hike + intervention combo per Reuters Jun 1.
+- USDJPY **159.64** (+0.36y vs Fri — inside #3 verbal zone); FXY $57.51; **FXY ATM IV jumped 8.03 → 10.52% (+2.49v)** — market pricing the binary; 25d RR steepened to −8.11. JGB curve eased 3-4bp across.
 
-### LAST SESSION (5/31 Sunday — boot + CFTC release + BOJ repricing mark-up + KOYOMI docket audit)
+### LAST SESSION (6/1 Monday — boot + 4-agent news sweep + Jun-1 POV pivot)
 
-- Clean boot, read phase steps 0-6 + market refresh. boot.py 11.3s, 9/9 green. Integrated CFTC release (-114,667, broke -102K cycle peak, 4th build week) into STATUS + CALENDAR.
-- **Git housekeeping (Will-authorized cross-agent exception):** committed 4 stale PROME SIG/REPLY files (BROCK/HENRY/REGINALD inboxes+outbox) → `bfb9c654`; trashed WILL/share image via gio. Then committed SAM boot writebacks → `7614efc2`; **pushed both, origin clean** (`da1165d4..7614efc2`). CARL's "uncommitted" work from the boot snapshot had already been committed+pushed by CARL (commits 70cc4c41/3371ddf4/581b62c9) — boot snapshot was stale.
-- **🆕 BIG ONE — Japan news check surfaced a stale mark: market repriced June BOJ hike to ~88%** (Polymarket 88.2% / swaps ~87.5%, both May 31; sustained ~60% May 22 → 88%, held through both CPI misses). We were carrying a stale 55-65%. **Marked SAM-21 ~50% → 70%** (Will-approved). Mechanism-over-threshold vindication. Ran the full cascade: PREDICTIONS + STATUS (banner/STATE-OF-PLAY/carry-table/BOJ-assessment/trigger-table) + TIMELINE (May 31 RESOLVED entry) + CHANGELOG (POV pivot reversing the May 28 "dovish-impaired" entry). Position unchanged; Sep $60 call still NOT warranted.
-- **Lesson (calibration/process):** a market-pricing input we *poll* (Polymarket/swaps) went stale in STATUS while we tracked hard data — the divergence (50% vs 88%) was staleness, not a differentiated view. Re-poll BOJ swap/Polymarket pricing at every boot in the catalyst window, not just at named prints.
-- **KOYOMI docket audit (spawned post-mark-up):** synced CALENDAR ↔ CATALYSTS.tsv to the 70% mark (TSV Jun 16 row still carried stale 55-65%), pruned >1wk resolved rows, stripped live levels. 2 escalations → both resolved: (#2) pruned the resolved May 29 CFTC row from THESIS forward table → `c405758b`; (#1) **confirmed Jun 8 Q1-GDP 2nd-prelim at ESRI = Mon Jun 8 8:50 AM JST (= ~7:50 PM ET Sun Jun 7)** + fixed ESRI source URL in RELEASES.md → `e01ee204`. All pushed, origin clean.
-- **Timing note for Jun 8 GDP:** prints **Sunday evening ET (Jun 7 ~7:50 PM)**, the night before the US week opens — ahead of the Jun 10 US CPI / JGB 30Y cluster. (Bonus: full 2026 GDP calendar pulled from ESRI — next after Jun 8 is Q2 1st-prelim Aug 17; not yet logged, beyond horizon.)
+- Clean boot, read phase steps 0-6 + boot.py 26.1s 9/9 green. STATUS market table refreshed.
+- **News sweep — 4 parallel agents (Will-approved):** Brent driver / BOJ pricing / Japan commentary / credit+insurer. Convergent finding: MOU broken + Fed-cut backup dead. High value — caught two material reframes we'd have missed.
+- **Full writeback cascade:** STATUS (banner + STATE-OF-PLAY + carry-table + intervention + secondary-path + thresholds + watch + ref data) + PREDICTIONS (SAM-23 ~55%→~72% w/ traceback to May 25 explicit re-rate condition) + TIMELINE (two Jun 1 RESOLVED entries: MOU + Fed-cut) + CHANGELOG (Jun 1 POV pivot, reverses May 29 MOU-hardening + softens v1.5 "24h Fed rescue" framing) + CALENDAR (Intervention/Phase-2/Geopolitical Watch refresh). Committed `b11cefad` (8 files, +320/−73), **pushed cleanly** (`4528dbc5..b11cefad`).
+- **KURA committed (`AGENTS/SAM/workbook/KURA.md`)** — workbook-librarian sub-agent brief, prior-session draft. Architecture complete: mandate, autonomy gradient, 5-gate rubric, truth model, run sequence, DONE criteria, return template. KB structure verified (119 rows, 8 live categories + Energy in archive, max ID KB-SAM-175 → next = KB-SAM-176). **Inaugural run pending** (propose-only mode, full sweep — no watermark).
+- **Data-quality flag (NOT propagated):** sub-agent reported aggregate insurer hedge ratio <30%; conflicts with our 44.4% Mar-2025 reference. Source was ainvest.com — needs primary verification before integration. Likely source confusion or stale ratio mix. Standing follow-up.
+- **Lesson reinforced:** boot-time live-narrative sweeps catch fast-evolving state (MOU broke in 4 days; Fed-cut framing went from "24h backup" to "dead" without us repricing). Re-check live narrative state at every boot in the catalyst window, not just hard data (extends the 5/31 polling-staleness lesson to the qualitative side).
 
 ### NEXT SESSION
 
-1. **Run boot.py** — refresh market table (Monday Jun 1 = first live tape since this Sunday boot; FX/Brent will be fresh). Verify National May CPI not early. CFTC next weekly Sat Jun 6 (watch continued build past -114,667 vs first cover).
-2. **🔴🔴 Jun 16 BOJ MPM** — DOMINANT, **SAM-21 70% / market ~88% (market-confirmed base case)**. **Re-verify swap/Polymarket pricing at boot Jun 9-15** (it went stale on us this cycle — see lesson above). Jun 17 FOMC co-headline (lands ~24h after = backup catalyst). National May CPI Jun 19 (post-BOJ) — watch if national core-core holds above Tokyo's 1.6%. RED CH-008 resolves here. CFTC fuel load -114,667 = more violent unwind if it fires.
-3. **🟠 Jun FY2025 Norinchukin** — only near-term Channel 1 reactivation gate; CLO-book reduction language / CEO Kitabayashi.
-4. **Eval re-baseline DUE** — standing trigger now compounded (THESIS condensed + PREDICTIONS restructured + new PREDICTIONS_ARCHIVE, on top of 5/29 AM CLAUDE.md/THESIS edits). Evals carry stale $57.48; RED to self-correct $57.48→$58.32 on next boot.
-5. **Position next-touch:** No add/trim under v1.5 single-path. Triggers: (a) USDJPY <156 for 3 sessions → consider add; (b) BOJ pre-cabling Jun 13-15; (c) thesis break (USDJPY >167 + BOJ dovish) = stop $55.05. Jun-18 $58C theta-watch.
-6. **🟠 Iran/Hormuz MOU** — binary; sign → Phase 2 accelerates; collapse → intervention #3 reactivates. Terms in CALENDAR. **🟠 USDJPY 160 watch.**
-7. **⏸️ DEFERRED — cross-agent signals (Will decision 5/28, still holds):** Layer B (BROCK/HANS PC-cascade pull) + HENRY carry-numbers ping shelved pending other-agent development. **Do NOT re-flag as open gaps** — captured in STATUS.
-8. **Vol-proxy recalibration (infra TODO):** STRATEGY VOL SIGNALS reads FXY proxies directionally; absolute thresholds not recalibrated to proxy scale. FedWatch no auto-pull — manual check Jun 9-16.
-9. **KB cleanup leftover (low-effort):** Tier-2 macro/flow rows (mirror workbook tsvs); Tier-1 per-insurer hedge ratios + Dai-ichi/Sumitomo detail (refresh if gaiyo PDFs accessible). **JICPA finalization MONITOR** (KB-108/125).
-10. **Git:** CARL + BROCK/HENRY/REGINALD/WILL had uncommitted work at this boot — sync skipped. Verify origin/master clean before next pull.
+1. **Run boot.py** — verify CFTC release Sat Jun 6 (continued build past -114,667 vs first cover? key fuel-load signal). Watch MOU walk-back vs further escalation through this week.
+2. **🔴🔴 Jun 16 BOJ MPM** — DOMINANT, SAM-21 70% / mkt ~88.5%. **Re-verify swap/Polymarket pricing at boot Jun 9-15**. Pre-meeting blackout starts ~Jun 13 (T-2) — this week is the cabling window (Bessent/Katayama jawbone watch). National May CPI Jun 19 (post-BOJ). Position unchanged: 13 sh + Jun-18 $58C.
+3. **🔴 Iran/Hormuz MOU watch** — broke Jun 1; SAM-23 ~72%. Binary: walk-back / Trump-Khamenei reset → resign path; further escalation → Brent $100+ / Hormuz close attempt. USDJPY 160 hard intervention trigger watch.
+4. **THESIS edit pass deferred:** soften RISK FACTORS Fed-cut "24h backup" language to "multi-month tail." Flagged in CHANGELOG + TIMELINE Jun 1 entries.
+5. **Hedge-ratio verification:** primary-source check on 44.4% vs <30% claim. Not propagated.
+6. **KURA inaugural run** — ready to spawn (architecture complete, KB structure verified). Mode: `propose-only`. Canonical invocation in KURA.md lines 17-19. Will return a summary block; SAM applies/adjudicates.
+7. **🟠 Jun FY2025 Norinchukin** — only near-term Channel 1 reactivation gate; CLO-book reduction language / CEO Kitabayashi. CLO book reportedly down to ¥8.2T (was ¥9.7T in thesis) — verify.
+8. **Eval re-baseline DUE** — standing trigger compounded (now also Jun 1 POV pivot stack on top of prior changes). Evals carry stale $57.48; RED to self-correct $57.48→$58.32 on next boot.
+9. **Position next-touch:** No add/trim under v1.5 single-path. Triggers: (a) USDJPY <156 for 3 sessions → consider add; (b) BOJ pre-cabling Jun 13-15; (c) thesis break (USDJPY >167 + BOJ dovish) = stop $55.05. Jun-18 $58C theta-watch (vol pop today modestly offsets).
+10. **⏸️ DEFERRED (still holds):** Layer B cross-agent signals (BROCK/HANS PC-cascade pull, HENRY carry-numbers); vol-proxy recalibration; KB cleanup tier-2 macro/flow rows; JICPA finalization MONITOR. Do NOT re-flag as open gaps.
 
 ### NEXT INFRA SESSION (script build queue — unchanged)
 
