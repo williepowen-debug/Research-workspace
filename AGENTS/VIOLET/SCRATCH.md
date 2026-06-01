@@ -36,6 +36,17 @@
 - CALENDAR.md `VX_DAILY.tsv time series` row updated 5/13 → 6/1.
 - 6/1 SKEW EOD still empty (CBOE T+1 publication lag — next-boot refresh).
 
+**Pass 4 — CFTC COT VIX futures pipeline build (17:00 ET):**
+- Built `scripts/cftc_cot.py` (~350 lines) — fetches CFTC TFF (Traders in Financial Futures) weekly VIX positioning. URL pattern confirmed: `https://www.cftc.gov/dea/newcot/FinFutWk.txt` (latest, no header) + `https://www.cftc.gov/files/dea/history/fut_fin_txt_YYYY.zip` (historical zips, with header). VIX contract = "VIX FUTURES - CBOE FUTURES EXCHANGE" / code 1170E1.
+- Schema (`workbook/COT_VIX.tsv`): report_date + open_interest + L/S/Net for dealer/asset_mgr/lev_money/other/nonrept + 3yr rolling percentiles for lev_money/dealer/asset_mgr NETs + flag (EXTREME_SHORT/ELEVATED_SHORT/NORMAL/ELEVATED_LONG/EXTREME_LONG).
+- CLI: default `cftc_cot.py` (fetch latest), `--backfill` (full 2023-current rebuild), `--summary` (no fetch), `--boot` (freshness-gated for boot.py integration).
+- Backfilled **178 weekly observations 2023-current** (52 + 53 + 52 + 21).
+- Wired `boot.py` with `--boot` freshness gate: 0.1s overhead vs prior, only hits network when local data older than expected latest-available Tuesday.
+- **Latest reading (Tue 5/26 / Fri 5/29 release):** Open Interest 384,562 | Lev Money NET -49,336 (long 65,926 / short 115,262) | **pct3y 17.9 = ELEVATED_SHORT** | Dealer NET +51,650 (76.9 pct) taking other side | Asset Mgr near-flat.
+- **KEY CALIBRATION FINDING (KB-VIO-065):** Current Lev Money positioning is directionally short-vol-piled-up but ~half the depth of historical pre-spike crowding. Aug-Oct 2025 peak = pct 0-1.4 / -90 to -106k contracts (long elevated-SKEW regime grind). Mar 2026 pre-spike = pct ~13 / -64k contracts. Today = pct 17.9 / -49k. **M1:M2 price evidence (13% contango, KB-VIO-064) currently MORE extreme than COT positioning evidence (pct ~18, mid-elevated).** Two interpretations: (a) NEW shorts not yet in 5/26 COT — 6/05 release for 6/02 positions disambiguates; (b) M1:M2 partly M2-event-hedger-bid-driven not pure M1-crushing (consistent with KB-VIO-062 conjecture).
+- **Disambiguation event scheduled: Fri 6/05 3:30 PM ET COT release** for Tue 6/02 positions. If Lev Money pct3y breaks <10 = EXTREME_SHORT confirmed → M1:M2 driver = pure speculator crowding → upgrade Volmageddon-shape. If stays >15 = driver = M2-event-hedger-bid → mechanism differs, asymmetry less extreme.
+- KB-VIO-065 added. STATUS dashboard new row "COT Lev Money NET (VIX futures)". MEMORY DATA SOURCES table + Known caveats updated. CALENDAR data-refresh schedule updated (CFTC row now wired). CLAUDE.md FILES table adds COT_VIX.tsv.
+
 **Pass 3 analytical findings (Will-asked walkthrough):**
 - **Front-curve contango M1:M2 EXPLOSION** — biggest finding. 5.66% (5/15) → 12.93% (6/1), peaked 13.40% on 5/29. Front (Jun, pre-FOMC) crushed; M2 (Jul, post-FOMC) refuses to compress. Volmageddon 2018 setup shape. Asymmetric short-vol pile-up specifically refusing to price through 6/17 quad-event (FOMC + SEP + VIX Jun quarterly). **VIX3M/VIX ratio only moved 1.159 → 1.218 (+5%) over same window — M1:M2 is ~27x more pronounced than the 3M/spot ratio.** STATUS framing materially under-weighted the asymmetry-size. KB-VIO-064 added; KB-VIO-062 amended with M1:M2 as 5th leg.
 - **SKEW shape was spike-crash-rebid, not clean rebid** — 5/15 145.77 ceiling (delayed PPI reaction, 2 td post-print) → 5/20 132.31 low (NVDA-IV-crush) → 5/29 144.18. **Current rebid still BELOW 5/15 ceiling**, sitting in upper half of 12-pt range. Knife-edge re-establishment requires holding upper-third against mid-range gravity (20d-avg 138.985 = midpoint).
@@ -51,11 +62,11 @@
 2. **🟠 M1:M2 daily refresh through 6/17** (~2 min/boot) — KB-VIO-064 falsifiable trigger. Read m1m2_adj_pct in VX_DAILY each boot. ≤8% by 6/10 = trap releasing → downgrade; ≥10% = pile-up intensifies. Pair with knife-edge monitor.
 3. **🟡 Daily knife-edge monitor through 6/10** (~3 min/boot) — recompute 20d_avg + project re-establishment date. If SKEW holds 144 daily, regime re-establishes 6/05; if 142, 6/09. Binary resolves on 5 td of incoming data.
 4. **🟡 6/12-6/17 catalyst pre-mortem** — Three catalysts in one week: 6/12 May CPI, 6/17 FOMC, 6/17-18 SEP. Best built 6/08-6/10 once knife-edge + M1:M2 trajectory resolves. Frame both outcomes: clean absorption (new regime to characterize) vs something cracks (CCC re-acceleration or M1:M2 sustained ≥10% pre-event = setup intact for snap).
-5. **🟡 Cross-agent re-engagement** once fleet architecture work settles — HENRY/BROCK/LIQUID all stale 5/21; their views are inputs to ours. **M1:M2 finding likely warrants a HENRY signal** (Volmageddon-shape positioning crowding is a macro-tape-relevant data point HENRY would want).
+5. **🟠 6/05 COT release disambiguation** (auto-pulled by `boot.py` on next-boot after Fri 6/05 3:30 PM ET) — KB-VIO-065 watch threshold. If Lev Money pct3y breaks <10 = M1:M2 driver = pure speculator crowding → upgrade Volmageddon-shape; if stays >15 = driver = M2-event-hedger-bid → mechanism differs. This is the cleanest near-term thesis-discriminating data point.
+6. **🟡 Cross-agent re-engagement** once fleet architecture work settles — HENRY/BROCK/LIQUID all stale 5/21; their views are inputs to ours. **M1:M2 + COT findings together likely warrant a HENRY signal** (Volmageddon-shape positioning crowding is a macro-tape-relevant data point HENRY would want).
 
 ## CARRY-FORWARD (lower priority)
 
-- CFTC COT VIX futures pipeline — long-deferred (~90 min)
 - KB-VIO-042 within-cycle bounce rule revision — needs amendment for very-long regimes
 - Inbox 5/14 gamma signal formal disposition — content absorbed into KB-VIO-062, admin step pending
 - 6/1 SKEW EOD + 6/1 FRED OAS refresh — T+1 publication lags; refresh next boot

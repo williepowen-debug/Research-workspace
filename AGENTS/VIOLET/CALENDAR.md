@@ -85,10 +85,10 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 | Catalyst countdown | Per boot | `scripts/catalyst_countdown.py` | 2026-06-01 |
 | VIX options OI | When notable | `scripts/vix_options.py` | 2026-04-17 (overdue) |
 | VX_DAILY.tsv time series | Daily | `scripts/thresholds.py` → append; `scripts/backfill.py` for gaps | 2026-06-01 (backfilled 5/14 → 6/1 EOD; SKEW 6/1 pending T+1) |
-| CFTC COT VIX futures | Weekly Fri | `scripts/cftc_cot.py` (**not yet built**) | Not wired |
+| CFTC COT VIX futures | Weekly Fri 3:30pm ET (Tue position-snap) | `scripts/cftc_cot.py` (`--boot` freshness-gated; `--backfill` for full rebuild) | 2026-05-26 (178 weeks 2023-current backfilled) |
 | NAAIM + ICI equity positioning | Weekly Wed/Thu | `scripts/equity_positioning.py` (**not yet built**) | Not wired |
 
-**Boot sequence:** `python3 scripts/boot.py` runs thresholds + vix_options + catalyst_countdown.
+**Boot sequence:** `python3 scripts/boot.py` runs thresholds + vix_options + cftc_cot + catalyst_countdown.
 
 ---
 

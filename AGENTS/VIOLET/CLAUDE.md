@@ -176,6 +176,7 @@ Your STATUS.md must include a Convergence Matrix — a scored table of your doma
 | `workbook/VX.tsv` / `VX_DAILY.tsv` | VIX tracking data | Daily when markets open |
 | `workbook/FLOW.tsv` | Cross-agent signal log | Per signal |
 | `workbook/VIX_OPTIONS.tsv` | VIX options snapshots (C/P OI, strike concentration) | When `vix_options.py` is run |
+| `workbook/COT_VIX.tsv` | CFTC TFF VIX-futures speculator positioning + 3yr percentiles (machine feed for `cftc_cot.py`) | Weekly Fri 3:30pm ET via `cftc_cot.py --boot` (auto in boot.py) |
 | `workbook/CATALYSTS.tsv` | Source of truth for dated catalysts (machine feed for `catalyst_countdown.py`) | At closeout when calendar shifts |
 
 ---
