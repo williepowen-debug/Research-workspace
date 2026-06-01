@@ -1,19 +1,20 @@
 # TOURISM STATUS
-**Last Updated:** 2026-04-20 | **Status:** 🔴 RED — Canadian boycott structural but **FL $ transmission is DELAYED** to Q1-Q2 2027 (winter 2026-27 snowbird non-recovery). Summer 2026 bleed small ($50-120M); winter 2026-27 projected $600M-$1.2B FL loss.
+**Last Updated:** 2026-05-31 (MARCO session-9 full refresh) | **Status:** 🔴 STRUCTURAL — Canadian boycott intact and 2-yr stack *worsening* (−30% Apr vs 2024); the April +1.4% YoY headline is base-effect noise, not recovery. Sentiment 82% (Nanos May). MIA flipped negative. Air channel + FL-bound capacity permanently deleting. **The FL $ hole still lands winter 2026-27 (snowbird no-show, $600M-$1.2B).**
 
 ---
 
-## ⚠️ READ FIRST: BASE-YEAR CAVEAT (2026-04-20)
+## ⚠️ READ FIRST: BASE-YEAR CAVEAT (load-bearing — strengthened 2026-05-31)
 
-**The headline Canadian-travel YoY series is contaminated and will mislead you.** The boycott began Feb 2025, so from Jan 2026 onward YoY comps lap already-depressed months. StatCan explicitly flagged "base-year effect" in their Mar 10 and Apr 13 2026 Daily releases.
+**The headline Canadian-travel YoY series will mislead you, and as of April it flips POSITIVE while the real trend worsens.** Boycott began Feb 2025, so from Jan 2026 YoY comps lap depressed months. StatCan flags "base-year effect" in its releases. **Use the 2-year stack vs 2024.**
 
-| Month | Headline YoY | 2-yr stack vs 2024 |
-|-------|-------------:|-------------------:|
-| Jan 2026 | -22.0% | (comparable) |
-| Feb 2026 | -14.5% | **-31.5%** |
-| Mar 2026 | -7.6% | **-34.9%** (auto) |
+| Month | Headline YoY | **2-yr stack vs 2024** |
+|-------|-------------:|----------------------:|
+| Jan 2026 | −22.0% | −23.2% |
+| Feb 2026 | −12.5% | −27.1% |
+| Mar 2026 | −6.4% | **−28.0%** |
+| Apr 2026 (prelim) | **+1.4%** | **−30.0%** ⬇ |
 
-**Use the 2-year stack vs 2024, not YoY.** TOUR-01 threshold has been reframed accordingly (see PREDICTIONS.tsv).
+**The 2-yr stack deteriorated Mar→Apr even as the headline went positive.** Anyone reading the +1.4% as recovery is reading base-effect. TOUR-01 is framed on the stack for exactly this reason. Detail: `../../domain/sources/TOUR_REFRESH_2026-05-31.md`.
 
 ---
 
@@ -21,115 +22,88 @@
 
 | Indicator | Value | Date | Status |
 |-----------|-------|------|--------|
-| Canadian Return Trips from US | **2.0M, -7.6% YoY** (but -34.9% vs Mar 2024 — base-effect moderation) | Mar 2026 | 🔴 BREACHED |
-| Canadian Return Trips (Feb) | 1.5M, -14.5% YoY (-31.5% vs Feb 2024) | Feb 2026 | 🔴 BREACHED |
-| Canadian Auto Returns | Mar -4.5% / Feb -12.9% (headline moderating, 2-yr -34.9%) | Mar 2026 | 🔴 BREACHED |
-| Canadian Air Returns | Mar -13.8% / Feb -17.6% | Mar 2026 | 🔴 BREACHED |
-| **US Residents to Canada** | **Mar +4.0% / Feb +6.1% — first YoY positives after 12 mo decline** | Mar 2026 | 🔴 ASYMMETRY INTENSIFIED |
-| Consecutive Months of CA→US Decline | **15** (extended from 13) | Mar 2026 | 🔴 BREACHED |
-| Canadian Overseas Air > US Auto | 3 consecutive months (Jan-Mar 2026) | Mar 2026 | 🔴 HABIT FORMATION |
-| Canadian Airlines Seat Cuts | 450K Q1 cut; **Air Transat ending ALL 3 Quebec-FL routes May-Jun**; WestJet cutting 15 US routes; **Q1 2026 Canadian seat capacity lowest since 2006 (ex-pandemic)** | Apr 2026 | 🔴 BREACHED |
-| NTTO Overseas Visitors (Feb) | 2.2M, +0.8% YoY but **-14.8% vs 2019** | Feb 2026 | 🔴 BREACHED |
-| NTTO Asia Arrivals | -12.3% vs 2019 (+6.2% YoY) | Feb 2026 | 🔴 BREACHED |
-| NTTO Europe Arrivals | -2.5% vs 2019 (+0.7% YoY, stalled) | Feb 2026 | 🟠 ELEVATED |
-| LAS Feb 2026 | -3.3% total / **-10.9% intl** / YTD -5.7% | Feb 2026 | 🔴 BREACHED |
-| LAS Canadian Carriers (Jan ref) | WestJet -27.9%, Air Canada -34.2%, AC pulled 82K Q1 seats | Q1 2026 | 🔴 BREACHED |
-| NV Gaming Statewide (Feb) | $1.24B, **+1.5% YoY — first positive in months** | Feb 2026 | 🟡 STABILIZING |
-| FLL 2025 Full Year | **-8.5% YoY** (already meets Pred #24 condition) | 2025 | 🔴 BREACHED |
-| MIA / MCO Spring Break 2026 | Record days (MIA Mar 20 busiest ever, MCO spring break +8% projected) | Mar 2026 | 🟡 DOMESTIC HOLDING |
-| FL Total Visitors 2025 | 143.3M (+0.2%, record); Canadian 2.9M (-14.7% / -27.9% vs 2019); overseas +4.0% masking | CY2025 | 🟡 DOMESTIC OFFSETTING |
-| Orange TDT | Jan 2026 $35.3M = 10th straight record month | Jan 2026 | 🟢 HOLDING (Epic Universe) |
-| Miami-Dade TDT | CY2025 ~$400M (+3%) | CY2025 | 🟢 HOLDING |
-| **Broward TDT (CANARY)** | **CY2025 $124M (+0.3%) — thinnest cushion, first likely to flip** | CY2025 | 🟠 WATCH |
-| Lee TDT (post-Ian) | Feb 2026 +17.0% (recovery, not representative) | Feb 2026 | 🟢 REBUILDING |
-| Summer 2026 Canadian-FL $ loss (modeled) | $50-122M (Orange $29-71M, Broward $21-51M) | Summer 2026 | 🔴 BOOKED |
-| Winter 2026-27 FL $ loss (modeled) | **$600M-$1.2B projected (Broward/Palm Beach/Lee)** | Q1-Q2 2027 | 🔴 LEADING SIGNAL |
-| Canada Tourism Index | ~0.72 (pending full 2025 recalc) | 2025 | 🔴 BREACHED |
+| Canadian Return Trips (Apr prelim) | **1.85M, +1.4% YoY but −30.0% vs 2024** — base-effect | Apr 2026 | 🔴 STACK WORSENING |
+| Canadian Return Trips (Mar full) | 2.6M, −6.4% YoY / **−28.0% vs 2024** | Mar 2026 | 🔴 BREACHED |
+| Canadian **AIR** Returns | **Apr −8.1% / Mar −10.8%** (2yr −15 to −26%) | Apr 2026 | 🔴 STRUCTURAL — the FL-relevant channel |
+| Canadian Auto Returns | Apr +5.8% / Mar −3.3% (2yr −33.7%) — headline driver, same-day land | Apr 2026 | 🟡 BASE-EFFECT BOUNCE |
+| **US Residents → Canada** | **Apr +7.3% (air +10.8%) / Mar +4.4%** — asymmetry WIDENING | Apr 2026 | 🔴 ASYMMETRY |
+| **Boycott sentiment (Nanos)** | **82% call boycott "helpful" (53%+29%)** — NO softening | May 3-6 2026 | 🔴 PERSISTENT |
+| Q1 2026 BOP | Canada services surplus +$1.3B; Cdn US-travel spend "continued to decline"; non-US near record | Q1 2026 | 🔴 NET EXPORTER |
+| **MIA total pax** | **Apr −2.02% / Mar −1.76%** — FLIPPED NEGATIVE (2 mo); Apr **domestic −3.27%** | Apr 2026 | 🔴 ANCHOR CRACKING |
+| FLL total pax | Mar +10.2% (intl +10.5%) — but vs 2025 −11.7%, **base-effect**; Jan intl −9.6% is the tell | Mar 2026 | 🟡 BASE-EFFECT |
+| MCO/OIA | Jan +3.0%; spring break +8% record (7.4M, 46-day) — domestic anchor; Feb-Apr unposted | Jan 2026 | 🟢 HOLDING |
+| NTTO Overseas | Mar 2.5M (+3.6%, −14.2% vs 2019); **Apr 2.6M −14.1% YoY / −26.5% vs 2019** (Easter+Iran) | Apr 2026 | 🟠 STUCK BELOW 2019 |
+| NV Gaming Statewide | **Mar +11.78% / Apr +5.29%** — bodies down, dollars up (high-end + conventions) | Apr 2026 | 🟢 $-DIVERGING |
+| LAS total pax | **Apr −7.1% / Mar −4.2%** (intl Apr −12.4% / Mar −15.0%) — still bleeding, accelerating | Apr 2026 | 🔴 BREACHED |
+| LV Canadian visitors | 2025: 1.196M, **−17.4%** (~25% of intl, ~3% of total) | CY2025 | 🔴 BREACHED |
+| Canadian airline capacity | **Air Transat COMPLETE US EXIT Jun 13**; WestJet summer −32% ASM; Cdn carriers −450K seats Q1 | Jun 2026 | 🔴 DELETING |
+| Air Canada winter 26-27 | **ZERO new US/FL routes**; dropped YVR-Tampa; 11 new non-US snowbird routes | Apr 6 annc | 🔴 SNOWBIRD EXIT |
+| Broward TDT (CANARY) | CY2025 $124M (+0.3%) — thinnest cushion; **no fresh monthly print (gap)** | CY2025 | 🟠 WATCH |
+| Winter 2026-27 FL $ loss (modeled) | **$600M-$1.2B** (Broward/Palm Beach/Lee) | Q1-Q2 2027 | 🔴 LEADING SIGNAL |
 
-**Composite: 13 BREACHED, 2 ELEVATED/STABILIZING, 2 HOLDING**
+**Composite: 9 BREACHED/structural, 2 base-effect, 3 holding/diverging, 1 stuck-below-2019.** The headline-vs-stack divergence is now the central story.
 
 ---
 
-## 🔑 TIMING SHIFT — FL $ stress transmission is DELAYED (not absent)
+## THESIS (updated 2026-05-31)
 
-**Nuance added 2026-04-20 from Visit Florida + county TDT data:**
+Canadian travel boycott is **structural and quietly intensifying beneath a misleading positive headline:**
 
-| Window | Event | Size |
-|--------|-------|------|
-| 2025 full year | Canadian visitors -14.7%, FL aggregate $ **still record** ($ carried by domestic + ADR + Epic Universe + cruise) | masked |
-| Q2-Q3 2026 (summer) | Air Transat/WestJet FL route exits direct bleed | **~$50-120M** (small) |
-| Q4 2026 (booking season) | Canadian winter 2026-27 bookings print → leading indicator | early signal |
-| **Q1-Q2 2027 (winter realization)** | Snowbird season capacity contracts 15-25% | **~$600M-$1.2B** |
+1. **The 2-yr stack is WORSENING (−28% Mar → −30% Apr).** Absolute Canadian volume vs the pre-tension 2024 baseline is still declining. The April +1.4% YoY headline is base-effect — the boycott isn't easing, the comparison base is.
 
-**FL bank/CRE stress timing for REGINALD shifts RIGHT by ~6 months** — from "Q3 2026 summer non-recovery" to **Q1-Q2 2027 winter snowbird no-show**.
+2. **Sentiment confirms it: 82% (Nanos May 3-6) still call the boycott helpful.** This is a May reading, well after any de-escalation narrative. 15th+ consecutive month of decline.
 
-**Broward TDT +0.3% in CY2025** is the thinnest margin of any big FL county — first to plausibly flip negative. Higher Canadian mix than Orange; no theme-park anchor; cruise already offsetting. **Watch monthly Broward TDT** — first negative YoY print = confirmation that domestic substitution has exhausted.
+3. **Air ≠ auto — the FL-relevant channel is the broken one.** Auto (same-day land) drives the headline bounce (+5.8% Apr); air (snowbird, long-haul-to-FL) stays −8 to −11% and its capacity is being permanently deleted. FL snowbird $ rides on air.
 
----
+4. **MIA flipped negative** (Mar −1.76%, Apr −2.02%) — the anchor-airport thesis is cracking. April domestic −3.27% adds a broader-demand-softness signal beyond Canadians. **But MAR-24 (all 3 FL airports negative) is NOT met** — FLL/MCO print positive on base-effect (lapping depressed 2025). The base-effect cuts *for* FLL/MCO headline YoY.
 
-## THESIS (updated 2026-04-20)
+5. **Capacity leaving, not rebooked.** Air Transat completes total US exit Jun 13. Air Canada winter 2026-27 has zero new FL/US routes (11 new snowbird routes all to Mexico/Caribbean). WestJet summer −32% ASM. TOUR-03/TOUR-05 near-certain.
 
-Canadian travel boycott is **structural and now asymmetrically intensifying**:
-
-1. **Structural persistence:** 15 consecutive months of YoY decline through Mar 2026. 2-year stack (vs pre-tension 2024): -31.5% Feb, -34.9% Mar auto. Headline YoY moderation (-22→-14.5→-7.6) is a **base-year effect** — StatCan explicitly flagged it — not a boycott easing.
-
-2. **Asymmetry INTENSIFIED, not normalized:** US→Canada flipped to +4-6% YoY in Feb/Mar, first positives after 12 consecutive monthly declines. So the split went from "Canadians down 22, Americans flat" to "Canadians still down, Americans now returning." Political-boycott narrative strengthened.
-
-3. **Habit formation now visible in hard data:** 3 consecutive months (Jan-Mar 2026) where Canadian overseas air returns exceeded US auto returns — first time in 50+ years. The substitution shown in surveys (Portugal +40%, Mexico +12%) is now structurally embedded.
-
-4. **Capacity leaving, not being rebooked:** Air Transat cancelling **all three Quebec-FL routes** (May-Jun 2026). WestJet cutting 15 US routes. Canadian airline capacity to US -10% YoY Feb; Q1 2026 Canadian seat capacity to Vegas lowest since 2006 (ex-pandemic). Makes TOUR-03 (no restoration through 2027) near-certain.
-
-5. **Demand destruction not fully visible yet at FL anchor airports:** MIA/MCO spring break showed record days — theme-park/anchor thesis holding domestic demand. FLL already -8.5% for 2025. **Stress is concentrated in discretionary/Canadian-exposed traffic, not anchor traffic.** Prediction #24 (all 3 FL airports simultaneously negative) depends on MIA flipping — Feb daily signal was -6.24% but spring break offset; Q2 post-spring-break data is the test.
+6. **$ stress delayed, not absent.** FL aggregate held on domestic/overseas substitution + ADR + Epic Universe + cruise. The Canadian-driven $ hole lands **winter 2026-27** (snowbird no-show, $600M-$1.2B) → FL bank/CRE stress Q1-Q2 2027. NV shows the pattern early: bodies down (LAS −7%), dollars up (gaming +5%), substitution running.
 
 ---
 
 ## ACTIVE PREDICTIONS
 
-| ID | Prediction | Timeframe | Confidence | Notes |
+| ID | Prediction | Timeframe | Confidence | Notes (2026-05-31) |
 |----|-----------|-----------|------------|-------|
-| TOUR-01 | **REFRAMED:** Canadian return-trip volume 2-year stack vs 2024 stays below -25% | Through 2026 | **80%** | Was "YoY >-15%" at 80%→70% (contaminated by base effect). Restated 2026-04-20 with clean 2-yr stack metric. Current: Feb -31.5%, Mar auto -34.9%. Falsification = rise above -25%. Confidence restored to 80% under clean metric. |
-| TOUR-02 | Las Vegas Canadian visitor share drops below 5% | Q2-Q3 2026 | **75% ↑ from 65%** | AC -34%, WestJet -28%, AC pulled 82K Q1 seats, Canadian capacity 2006-low. Structurally on track. |
-| TOUR-03 | No airline seat restoration to 2025 levels | Through 2027 | **85% ↑ from 70%** | Air Transat fully exiting Quebec-FL; WestJet cutting 15 US routes; capacity leaving not being rebooked. Near-certain. |
-| TOUR-04 | MIA flips YoY negative (tests Prediction #24) | Q2 2026 | 55% | Spring break masked underlying weakness. Apr-Jun monthly data post-peak tests the thesis. |
-| TOUR-05 (NEW 2026-04-20) | Canadian-FL winter 2026-27 capacity (Dec-Feb) contracts ≥15% vs winter 2024-25 | Q4 2026 | 75% | Leading indicators: Air Canada winter 2026-27 has ZERO new FL routes, all 11 new snowbird routes going to Mexico/Caribbean. Air Transat YQB-FLL resuming only 3x weekly (reduced). WestJet summer 2026 transborder -32% ASM YoY. Resolution: airline published winter schedules by Oct 2026. |
-| TOUR-06 (NEW 2026-04-20) | Broward TDT flips YoY negative in any month by Q1 2027 | Q4 2026 – Q1 2027 | 70% | +0.3% CY2025 cushion is thinnest. High Canadian mix; cruise already offsetting; no theme-park anchor. First county TDT negative = domestic substitution exhausted. Watch monthly. |
+| TOUR-01 | Canadian 2-yr stack vs 2024 stays below −25% | Through 2026 | **85% ↑** | Mar −28%, Apr −30% — worsening. Headline positive but stack deteriorating. Conf 80→85. |
+| TOUR-02 | LV Canadian share <5% (of total visitors) | Q2-Q3 2026 | **RESOLVED-CORRECT** | Disambiguated to share-of-total: 2025 = ~3% (1.196M/38.5M), already <5%; 2026 reinforcing (−17.4%). NB: share-of-*intl* reading (~25%) is structurally unreachable — Canada is #1 intl market. Resolved on the sensible metric. |
+| TOUR-03 | No airline seat restoration to 2025 levels | Through 2027 | **90% ↑** | Air Transat COMPLETE US exit Jun 13; AC winter zero FL routes; capacity deleting not rebooking. Conf 85→90. |
+| TOUR-04 | MIA flips YoY negative | Q2 2026 | **RESOLVED-CORRECT** | MIA −1.76% Mar / −2.02% Apr — two consecutive negative months, within window. Anchor airport flipped. |
+| TOUR-05 | Canadian-FL winter 2026-27 capacity contracts ≥15% vs winter 2024-25 | Q4 2026 | **85% ↑** | AC zero new FL routes + YVR-Tampa dropped + Air Transat exit + WestJet −32% summer. Mechanism locked; only % open. Resolution = published winter schedules by Oct 2026. Conf 75→85. |
+| TOUR-06 | Broward TDT flips YoY negative in any month by Q1 2027 | Q4 2026 – Q1 2027 | 70% | No fresh Broward monthly TDT print found (data gap persists). Thesis intact; watch. |
 
 ---
 
-## NEW FINDINGS (2026-04-20 refresh)
+## NEW FINDINGS (2026-05-31 refresh)
 
-1. **StatCan Mar 2026 (released Apr 13):** Return trips 2.0M, -7.6% YoY. But 2-year stack -34.9%. Boycott intact; YoY moderation is base effect.
-2. **US→Canada flipped positive:** Feb +6.1%, Mar +4.0% — first YoY positives after 12 months of decline. Asymmetry now bidirectional in the signal, not just one-sided.
-3. **Habit formation confirmed in hard data:** Canadian overseas air > US auto for 3 consecutive months (Jan-Mar 2026). First time since 1972.
-4. **Air Transat full Quebec-FL exit:** Montreal-MCO ends May 4, Quebec City-FLL May 30, Montreal-FLL June 13. This is the concrete summer-2026 capacity story for FL.
-5. **NTTO vs StatCan reconciliation:** NTTO Canada -9.7% (Feb) vs StatCan -14.5% — not a contradiction. NTTO = bidirectional air-only; StatCan = Canadian-resident return trips both modes. Land-crossing collapse is the missing delta.
-6. **LAS Feb 2026 -3.3% with international -10.9%** — weakness isolated in international/leisure carriers; top 5 domestic carriers +5-11% YoY.
-7. **NV Gaming Feb 2026 first positive in months (+1.5%)** — partial domestic stabilization offsetting Canadian bleed. TOUR-02 thesis unaffected.
-8. **FLL 2025 full year -8.5%** — already meets Prediction #24 condition unilaterally. Waiting on MIA + MCO to follow.
-9. **DHS shutdown × FLL operations:** Mar 20 = 216 disruptions, Mar 27 = 11 cancels + 240 delays. BORDER-subagent linkage confirmed.
+1. **StatCan Mar full (May 21):** 2.6M, −6.4% YoY, **−28.0% vs 2024.** April prelim (May 11): +1.4% YoY but **−30.0% vs 2024** — stack worsened.
+2. **Nanos May 3-6: 82% boycott "helpful"** — direct refutation of any softening read. Sentiment durable.
+3. **MIA flipped negative** (Mar −1.76%, Apr −2.02%); April domestic −3.27% = new broader-demand signal.
+4. **FLL +10.2% Mar is base-effect** (2025 was −11.7%) — not recovery; intl Jan −9.6% is the clean read.
+5. **Q1 BOP (May 28):** Canada now net travel-services exporter (+$1.3B services surplus); US-travel spend declining.
+6. **NV gaming +5-12% while LAS pax −7%** — high-end/convention spend offsetting lost Canadian/budget volume; the substitution pattern FL will see in winter.
+7. **Air Transat complete US exit Jun 13;** AC winter 26-27 zero FL routes; WestJet −32% summer ASM.
+8. **2025 = first US tourism decline in 20 years** (−5.5%, 68.3M). Overseas stuck 14-26% below 2019; April distorted by Easter + Iran war.
 
 ---
 
-## CROSS-AGENT SIGNALS (new → outbox)
+## CROSS-AGENT SIGNALS (→ via MARCO)
 
 | Direction | Signal | Priority |
 |-----------|--------|----------|
-| → CARL | FL/NV spending hit: LAS intl -10.9%, NV Gaming Feb +1.5% (first positive), Air Transat Quebec-FL exit = summer demand destruction confirmed | 🟠 |
-| → REGINALD/CORAL | Air Transat full Quebec-FL route exit May-Jun 2026 → FL tourism-exposed CRE cash-flow stress Q2-Q3. Compounds 9.1mo condo inventory breach. | 🟠 |
-| → BRENT | Reduced Canadian route capacity → jet fuel demand hit regional. Lowest Canadian-US capacity since 2006 (ex-pandemic). | 🟡 |
-| → MIGRATION | Canadian snowbird structural exit now visible in route cancellations, not just survey data. Reinforces FL demand-withdrawal thesis. | 🟠 |
-| → NEXUS | Canadian boycott = permanent demand shift; habit formation now hard data (3 mo overseas air > US auto). Asymmetry intensified (US→Canada flipped +). | 🔴 |
+| → MARCO (top-level) | **Reframe Channel 2: tourism is STRUCTURAL, not "softened."** Headline +1.4% is base-effect; 2-yr stack worsening, sentiment 82%, air channel + capacity permanently deleting. Mirror of the produce mechanism-vs-thermometer split: structural air/winter vs base-effect headline. | 🔴 |
+| → REGINALD/CORAL | Winter 2026-27 FL Canadian-$ hole ($600M-$1.2B) on track — Air Transat total exit + AC zero FL winter routes lock the capacity contraction. FL bank/CRE stress timing Q1-Q2 2027. | 🟠 |
+| → CARL | NV pattern (bodies −7%, dollars +5%) = domestic/high-end substitution masking volume loss; watch FL TDT for the same. LAS intl −12 to −15%. | 🟡 |
 
 ---
 
 ## DATA SOURCES
 
-- **Primary:** StatCan CANSIM (monthly, ~55d lag); Table 24-10-0053-01
-- **Primary:** NTTO / DHS I-94 (trade.gov/i-94-arrivals-program, ~45d lag)
-- **Primary:** Airport authority monthly PDFs (MIA, MCO, FLL, LAS — 30-45d lag)
-- **Secondary:** NV Gaming Control Board ARR (gaming.nv.gov, ~30d lag)
-- **Secondary:** Visit Florida (quarterly, ~90d lag)
-- **Supplementary:** Airline route announcements (Cirium/OAG paid; free proxy = airline press releases)
+- **Primary:** StatCan CANSIM (Table 24-10-0053, ~55d lag; Daily releases dq2605*); NTTO/I-94 (trade.gov, ~45d); airport authority monthly PDFs (MIA miami-airport.com, FLL broward.org, MCO flymco.com); NV GCB (gaming.nv.gov); Clark County Aviation (LAS); LVCVA.
+- **Sentiment:** Nanos, Abacus, Leger.
+- **Capacity:** airline IR/press (Air Canada, WestJet, Air Transat); OAG/Cirium (paid; free proxy = press).
 
 ---
 
@@ -137,29 +111,27 @@ Canadian travel boycott is **structural and now asymmetrically intensifying**:
 
 | Date | Event |
 |------|-------|
-| Apr 24-28 2026 | LAS March + NV Gaming March expected |
-| Apr 28 – May 5 2026 | MIA / MCO / FLL March PDFs expected |
-| **May 4 2026** | **Air Transat Montreal-MCO final flight** |
-| May 10-15 2026 | StatCan April 2026 Daily (Leading indicator) |
-| **May 30 2026** | **Air Transat Quebec City-FLL final flight** |
-| **Jun 13 2026** | **Air Transat Montreal-FLL final flight** |
-| May 28 2026 | StatCan Q1 2026 BOP |
+| **Jun 11 2026** | StatCan May leading indicator |
+| **Jun 13 2026** | **Air Transat YUL-FLL final flight → complete US exit** |
+| Jun 23 2026 | StatCan May full counts + April final detail |
+| ~late Jun 2026 | WestJet winter 2026-27 schedule (TOUR-05 watch) |
+| ~Jun 27-30 2026 | MIA/FLL April–May monthly reports; MCO Feb-Apr if posted |
+| Oct 2026 | Airline winter 2026-27 schedules finalize → TOUR-05 resolution |
 
 ---
 
-## OPEN GAPS (for next refresh ~Apr 28-30)
+## OPEN GAPS (next refresh)
 
-1. Mar 2026 FL airports (MIA, MCO, FLL) — pull PDFs when posted; use local `.venv/pdfminer.six`
-2. Mar 2026 LAS + NV Gaming ARR — re-check site after Apr 25
-3. NTTO Mar 2026 country-level detail — requires Excel pull from trade.gov (agent couldn't parse, pull locally)
-4. Visit Florida Q4 2025 — check visitflorida.org/research (may be posted by now)
-5. Update CTI recalculation with full 2025 StatCan annual total
-6. Quebec-provincial tourism boards' Spring 2026 US booking data (summer structural test)
+1. **WestJet winter 2026-27 formal schedule** — not yet published (TOUR-05's last open input).
+2. **MCO Feb-Apr 2026 monthly** — GOAA Contentful CDN URLs unguessable; need direct page pull.
+3. **FLL April 2026** — not posted as of May 31.
+4. **Broward (+ Palm Beach/Lee) monthly TDT** — still not web-accessible (TOUR-06 gap).
+5. **NTTO April regional/country detail** — in trade.gov `.xlsx`, not in secondary; pull locally.
+6. **LV Canadian share Q1/H1 2026** — LVCVA publishes annual Visitor Profile only; no monthly Canadian split.
 
 ---
 
 ## WORKBOOK
 
-- `KB.tsv` — 12 tourism knowledge entries (update needed: add Air Transat exit, US→Canada flip, habit formation in hard data)
-- `PREDICTIONS.tsv` — Active falsifiable predictions (added TOUR-04)
-- `outbox/` — Signals to CARL, BRENT, NEXUS, MIGRATION, REGINALD
+- `KB.tsv` — tourism knowledge entries (updated 2026-05-31: IVF-21 base-effect/stack, IVF-22 Nanos 82%, IVF-23 MIA flip, IVF-24 Air Transat exit/AC winter, IVF-25 NV-vs-LAS divergence, IVF-26 NTTO/2025 first decline).
+- `PREDICTIONS.tsv` — TOUR-02 + TOUR-04 resolved; TOUR-01/03/05 confidence raised.

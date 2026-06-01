@@ -1,42 +1,41 @@
 # MARCO SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-05-31 ET (session 8)
+**Last Updated:** 2026-06-01 ET (session 9 — started 5/31, rolled past midnight)
 
 ## CHANGES SINCE (what moved while offline)
-- Nothing external — session 8 ran the same day as session 7. No new data releases. (Jun 1 reconciliation vote, ~Jun 2 Banxico still ahead.)
+- **StatCan Mar-full (May 21):** 2.6M, −6.4% YoY but **−28.0% vs 2024** — the clean 2-yr stack that v2.0/v2.1 lacked.
+- **StatCan Q1 BOP (May 28):** Canada now net travel-services exporter (+$1.3B); US-travel spend declining. (Was the "overdue pull" — done.)
+- **Nanos May 3-6:** 82% call boycott helpful — no softening.
+- **FL airport Mar/Apr posted:** MIA flipped negative; FLL base-effect positive; MCO record spring break.
+- **NV/LAS Mar/Apr:** gaming +5-12%, LAS pax −7% (intl −12 to −15%).
+- Jun 1 reconciliation vote = TODAY (watch passage). ~Jun 2 Banxico, Jun 10 CPI (ES-MARCO-08) still ahead.
 
-## WHAT I DID (session 8)
-**Part A — BRENT cross-check (the trigger for today's work):**
-- Instead of building a static MARCO↔BRENT coupling, read BRENT's key files (STATUS, `demand_destruction/TRACKER.md`, DIESEL_CRACK_ANALYSIS, diesel-trucking outbox).
-- Confirmed the diesel/freight produce co-driver is REAL but **transient/mean-reverting**: crude $87.51 (Apr 17) → $116.55 (May 5 peak) → $92.05 (May 29, −19% on month); distillate −11% vs 5-yr (relief partial/lagged); pump relief lands May 31–Jun 14. This sets up a dated falsification test rather than a fixed edge.
-
-**Part B — thesis v2.1 rewrite (Will-approved, committed the directional reframe):**
-- THESIS bumped v2.0→v2.1: Channel 1 SPLIT into **mechanism (labor shock, HIGH/intact)** vs **thermometer (produce CPI, MEDIUM/demoted — multi-causal)**. CHANGELOG entry (MINOR) logged. Kill conditions rewritten (produce CPI no longer a clean kill signal).
-- 5 files written: `thesis/THESIS.md`, `thesis/CHANGELOG.md`, `thesis/PREDICTIONS.tsv` (MAR-21 resolved), `EXPECTED_SIGNALS.md` (added ES-MARCO-08), `COUPLINGS.md` (created — MARCO↔BRENT decaying freight edge). Plus STATUS write-back.
-- Discipline held: directional reframe committed (3 verified co-drivers), precise %-split left "unknowable," freight test kept as forward refinement not a gate.
-
-**Part C — housekeeping (this part):**
-- Trashed ALL inbox/outbox contents (Will: not a priority, clear it). Directory skeleton intact. (16 stale Apr-20/21 outbox files + 12 processed-inbox files + PROME ag-weather note — all gone.)
-- Resolved **MAR-19** (FL March Break bookings) → PARTIAL (capacity/booking collapse confirmed; realized −20% moderated on base effect; consistent w/ ES-MARCO-02).
-- Docket re-dated: StatCan Q1 BOP (passed/unpulled) → retired to Q2 ~Aug 28 low-priority; Jun-10 CPI row reframed from "PRIMARY LIVE SIGNAL" → ES-MARCO-08 discriminating test (both CATALYSTS.tsv + CALENDAR.md twin).
+## WHAT I DID (session 9 — TOURISM full refresh + thesis v2.2)
+**Will's task: "get tourism up to speed and updated to current."** TOURISM sub-agent was frozen at Apr 20; top-level had only the April headline.
+- **4 parallel research agents** pulled current data (Canadian/StatCan, FL airports, NV/LAS, NTTO+capacity). Archived → `domain/sources/TOUR_REFRESH_2026-05-31.md`.
+- **The correction:** April's +1.4% Canadian "recovery" is BASE-EFFECT — 2-yr stack worsened −28% Mar → −30% Apr; sentiment 82%; air −8 to −11%; MIA flipped; capacity permanently deleting (Air Transat complete US exit Jun 13; AC winter zero FL). Canadian travel moved from "softened" → **STRUCTURAL**.
+- **Files written:** TOURISM `STATUS.md` (full rewrite, 🔴 STRUCTURAL), `workbook/PREDICTIONS.tsv` (TOUR-02 + TOUR-04 RESOLVED-CORRECT; TOUR-01→85, TOUR-03→90, TOUR-05→85), `workbook/KB.tsv` (+6 rows IVF-21..26). Top-level `STATUS.md` (header, thesis-inflection block, dashboard +3 rows, Canadian situation rewrite, MAR-22→50/MAR-24→45). `thesis/THESIS.md` v2.1→**v2.2** (Channel 2 split structural-vs-base-effect), `CHANGELOG.md` (v2.2 entry), `TIMELINE.md` (+resolutions & branch points), `PREDICTIONS.tsv` (MAR-18/22/24). Docket: `CATALYSTS.tsv` + `CALENDAR.md` (added Air Transat Jun 13, WestJet winter ~Jun 27; StatCan May reframed to 2-yr stack; re-anchored to Jun 1).
+- **Auto-memory:** `feedback_yoy_baseeffect_use_multiyear_stack` (transferable: YoY laps a structural break → false positive reversal; use multi-year stack).
 
 ## NEXT SESSION
-1. **Workbook lag (deferred this session):** `KB.tsv` + `FLOW.tsv` last touched Apr 21 — add a KB fact row for the multi-causal produce attribution + a FLOW row for freight→produce transmission. (Item 4 from the housekeeping audit; skipped to focus on 1/2/3/5.)
-2. **Cross-agent correction re-sends** — STATUS still lists 4 drafted (REGINALD condo / LABOR ICE-off-farms / CARL / NEXUS thesis-inflection). NEXUS one should now carry the v2.1 produce-thermometer demotion. Mail de-prioritized this session per Will; pick up on a mail-dedicated spawn.
-3. **Jun 1** reconciliation vote (passage = enforcement funding locked). **~Jun 2** Banxico (remittance paradox test). **Jun 10 CPI = ES-MARCO-08 test** (produce vs pump decoupling — the v2.1 fork). See `docket/CALENDAR.md`.
-4. **MIG-03 sub-agent TPA→FLL fix; MAR-18 absent from STATUS active** — minor, still open.
+1. **Jun 1 reconciliation passage** (TODAY) — confirm enforcement funding lock. **~Jun 2 Banxico** (remittance paradox test). **Jun 10 CPI = ES-MARCO-08** (produce-vs-pump fork, v2.1).
+2. **Jun 11 StatCan May** — does the 2-yr stack keep worsening? (read stack, not headline). **Jun 13 Air Transat** final flight. **~Jun 27 WestJet winter schedule** = TOUR-05's last open input.
+3. **Workbook lag (STILL deferred from session 8):** top-level `workbook/KB.tsv` + `FLOW.tsv` last touched Apr 21 — add the multi-causal-produce KB fact + freight→produce FLOW row. (TOURISM workbook IS now current; this is the MARCO-level workbook.)
+4. **Cross-agent correction re-sends** — STATUS still lists drafts (REGINALD condo / LABOR ICE-off-farms / CARL / NEXUS). NEXUS should now carry BOTH the v2.1 produce-thermometer demotion AND the v2.2 tourism-structural re-classification. Mail de-prioritized per Will; pick up on a mail-dedicated spawn. TOURISM sub-agent flagged 3 outbound (→MARCO done, →REGINALD winter-$, →CARL substitution).
+5. **MCO Feb-Apr monthly pull** (GOAA Contentful CDN, URLs unguessable — needs direct page pull); **FLL April**; **NTTO April regional .xlsx** (local pull); **Broward TDT monthly** (TOUR-06 gap, still not web-accessible).
 
 ## OPEN THREADS
 | Item | Status |
 |------|--------|
-| ES-MARCO-08 produce-vs-pump test | 🔴 Jun 10 CPI is the resolution date |
-| Workbook KB/FLOW lag (Apr 21) | 🟠 next session |
+| TOURISM refresh + v2.2 | ✅ DONE this session |
+| WestJet winter 2026-27 schedule | 🟠 ~Jun 27 — TOUR-05 last input |
+| ES-MARCO-08 produce-vs-pump test | 🔴 Jun 10 CPI |
+| Top-level workbook KB/FLOW lag (Apr 21) | 🟠 carried 2 sessions now |
 | Cross-agent correction re-sends | 🟡 deferred — mail-dedicated spawn |
-| Remittance paradox (count −3.6% vs $ +4.9%) | 🟠 — Jun 2 Banxico is the test |
-| MIG-03 TPA→FLL fix; MAR-18 STATUS-active gap | 🟡 minor |
-| TOURISM sub-agent re-spawn vs shelve | 🟡 |
+| Remittance paradox (count −3.6% vs $ +4.9%) | 🟠 — Jun 2 Banxico |
+| MCO/FLL/NTTO/Broward data gaps | 🟡 next refresh |
 
 ## Mail state
-Inbox + outbox CLEARED (trashed this session per Will — not a priority). Skeleton dirs intact. No pending outbound.
+Inbox + outbox empty (cleared session 8). No pending outbound written this session (TOURISM's 3 cross-agent signals drafted in its STATUS but not sent — mail deferred per Will).
 
 ## Handoff
-Thesis v2.1 done — produce channel honestly split into intact mechanism vs confounded thermometer; MAR-19 + MAR-21 both resolved; docket + STATUS realigned to drop the stale "produce = primary signal" framing. The live question is now a dated, falsifiable fork (ES-MARCO-08, Jun 10 CPI) instead of a judgment call. Workbook KB/FLOW update is the one piece of closeout debt carried forward.
+Tourism is current and the thesis is honest again: the April "recovery" was base-effect, the boycott is structural and worsening on the 2-yr stack, and Canadian travel is back in the structural column alongside ag-labor (v2.2). Symmetric to v2.1 — v2.1 demoted an over-claimed signal (produce), v2.2 re-promoted an under-claimed one (tourism). Same discipline both times: read the clean metric (stack), not the contaminated headline. TOURISM sub-agent now fully caught up (was 6 weeks + one inflection behind). Carried debt: top-level workbook KB/FLOW lag (2 sessions), cross-agent re-sends (mail spawn).

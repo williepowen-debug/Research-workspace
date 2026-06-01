@@ -1,6 +1,6 @@
 # MARCO CALENDAR
 
-**Last Updated:** 2026-05-31 (session 8 — Jun-10 reframed to ES-MARCO-08 test; StatCan Q1 BOP retired-unpulled; produce demoted from "primary signal") | **View:** Forward-looking only. Past events pruned to `thesis/TIMELINE.md`. Countdown anchored to 2026-05-31.
+**Last Updated:** 2026-06-01 (session 9 — TOURISM refresh: added Air Transat Jun 13 + WestJet winter; StatCan May reframed to 2-yr stack; FL airport row notes MIA flipped) | **View:** Forward-looking only. Past events pruned to `thesis/TIMELINE.md`. Countdown anchored to 2026-06-01.
 
 **Machine feed:** `docket/CATALYSTS.tsv` (this is its prose/countdown twin). When they disagree, the TSV is source-of-truth for fields; this file owns grouping + narrative.
 
@@ -10,7 +10,7 @@
 
 | Δ | Date | Event | Threshold / Signal | Who |
 |---|------|-------|--------------------|-----|
-| **+1d** 🔴 | Jun 1 (Mon) | **Trump ICE/CBP reconciliation deadline** | Passage = $71.7B enforcement funding locked & unconstrained through term → the structural accelerator under SDL-01. Passes on GOP votes alone. | MARCO, LABOR, NEXUS, PROME |
+| **TODAY** 🔴 | Jun 1 (Mon) | **Trump ICE/CBP reconciliation deadline** | Passage = $71.7B enforcement funding locked & unconstrained through term → the structural accelerator under SDL-01. Passes on GOP votes alone. **Watch for passage today.** | MARCO, LABOR, NEXUS, PROME |
 | +2d 🟠 | ~Jun 2 | Banxico Apr 2026 remittances | The **paradox test**: count recovers → Mar was 1% tax pull-forward (expect Q2-Q3 air-pocket); count stays −, $ flips − → SDL-01 labor-income decline confirmed. | MARCO, CARL |
 | +5d 🟡 | Jun 5 (Fri) | BLS May NFP + UR | FL leisure/hospitality sub-sector decline = ES-MARCO-01 appears. Aggregate confirms/relapses the Apr +115K rebound. 8:30 ET. | MARCO, LABOR |
 
@@ -21,8 +21,9 @@
 | Δ | Date | Event | Threshold / Signal | Who |
 |---|------|-------|--------------------|-----|
 | **+10d** 🔴 | Jun 10 (Wed) | **BLS May CPI — fresh F&V** | **ES-MARCO-08 discriminating test** (no longer "the primary signal" — produce is a confounded thermometer per v2.1). F&V holds ≳5% YoY **while pump prices fall** → transient freight driver exiting, labor re-weights UP (MAR-14 hold/upgrade). F&V softens in step with diesel → freight carried more of the spike, labor demoted further. Apr +6.1% YoY / veg +3.1% MoM. 8:30 ET. | MARCO, CARL |
-| +11d 🟠 | ~Jun 11 | StatCan May 2026 travel | Air stays <−8% = snowbird/FL channel still bleeding (Pred MAR-18). Headline re-negative = boycott re-hardening. Air is the live tell, not headline (+1.4%). | MARCO, REGINALD |
-| +17d 🟡 | ~Jun 17 | FL Realtors May 2026 | >9.0mo again = distress re-engaging (Pred MAR-08). <8.5mo = absorption confirmed, FL-cooling reframe holds. Apr reverted to 8.9mo. | MARCO, REGINALD |
+| +10d 🟠 | ~Jun 11 | StatCan May 2026 travel | **Read the 2-yr STACK, not the headline (v2.2).** Stack stays <−25% = boycott structural (TOUR-01, −30% Apr & worsening); air <−8% = snowbird/FL bleeding (MAR-18). The +1.4% headline is base-effect; only a stack improvement = real recovery. Nanos May 82%. | MARCO, REGINALD |
+| **+12d** 🟡 | Jun 13 (Sat) | **Air Transat YUL-FLL final flight** | Air Transat's last US route → **complete US exit** (YUL-MCO gone May 4, YQB-FLL May 30). Confirms summer capacity deletion (TOUR-03/05) + winter 2026-27 FL-$ thesis. | MARCO, REGINALD, BRENT |
+| +16d 🟡 | ~Jun 17 | FL Realtors May 2026 | >9.0mo again = distress re-engaging (Pred MAR-08). <8.5mo = absorption confirmed, FL-cooling reframe holds. Apr reverted to 8.9mo. | MARCO, REGINALD |
 
 ---
 
@@ -30,9 +31,10 @@
 
 | Δ | Date | Event | Threshold / Signal | Who |
 |---|------|-------|--------------------|-----|
-| +30d 🟡 | ~Jun 30 | Banxico Q1 state-of-origin map | Concentrated drop in high-ICE-enforcement states = SDL-01 spatial confirmation. banxico_reverse.py. | MARCO |
-| +30d 🟡 | ~Jun 30 | OFLC H-2A Q3 FY26 disclosure | On-pace for >425K = Pred MAR-11 on track. OFLC = replacement proxy for canceled NASS survey. h2a_pull.py. | MARCO, LABOR |
-| ~Q3 🟡 | ~Sep 30 | FL airport Q3/summer pax (MIA/MCO/FLL) | All 3 negative same period = Pred MAR-24 fires (→ REGINALD/CARL/PROME). OIA negative = Pred MAR-22. Spring record volumes argue against. | MARCO, REGINALD, CARL |
+| **+26d** 🟠 | ~Jun 27 | **WestJet winter 2026-27 schedule** (approx) | TOUR-05's last open input. ≥15% FL-bound seat contraction = TOUR-05 confirms. AC winter already published (zero new FL, dropped YVR-Tampa); WestJet summer −32% ASM → winter = cuts. | MARCO, REGINALD |
+| +29d 🟡 | ~Jun 30 | Banxico Q1 state-of-origin map | Concentrated drop in high-ICE-enforcement states = SDL-01 spatial confirmation. banxico_reverse.py. | MARCO |
+| +29d 🟡 | ~Jun 30 | OFLC H-2A Q3 FY26 disclosure | On-pace for >425K = Pred MAR-11 on track. OFLC = replacement proxy for canceled NASS survey. h2a_pull.py. | MARCO, LABOR |
+| ~Q3 🟡 | ~Sep 30 | FL airport Q3/summer pax (MIA/MCO/FLL) | **MIA already flipped** (−2.02% Apr → TOUR-04 resolved). All 3 negative = MAR-24 (now 45% — FLL/MCO base-effect protects their headline). OIA negative = MAR-22 (50%). Consider 2-yr-stack reframe. | MARCO, REGINALD, CARL |
 
 ---
 

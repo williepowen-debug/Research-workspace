@@ -4,6 +4,33 @@ Version-transition log. Newest first. Each entry: old view → new view, trigger
 
 ---
 
+## v2.1 → v2.2 — 2026-05-31 (session 9) — MINOR — "Canadian travel is structural, not softened"
+
+**Trigger:** Session-9 TOURISM full refresh (sub-agent frozen since Apr 20; top-level dashboard had absorbed only the April headline). 4 parallel research agents pulled current data — and the new StatCan March-full release (May 21) supplied the clean 2-yr stack that v2.0/v2.1 were missing.
+
+**Old view (v2.0/v2.1):** Channel 2 "BIFURCATED," MEDIUM, filed in the *softened/cyclical* column of the thesis inflection. The April Canadian return-trips +1.4% YoY was read as a headline reversal (auto-driven, air still negative) — softening, not recovery, but on the "reversed" side of the ledger.
+
+**New view (v2.2):** Channel 2 splits into **structural (air/winter/capacity, MEDIUM-HIGH) vs. base-effect-readout (headline + FLL/MCO airport YoY, LOW).** The April "recovery" is base-effect: the 2-yr stack vs 2024 *worsened* (−28% Mar → −30% Apr) even as the headline went positive. The boycott isn't easing — the comparison base is. Canadian travel moves OUT of the "softened" bucket back to **structural**, joining Channel 1 as the thesis's second durable spine.
+
+**Three confirming facts (current, primary-sourced):**
+- **2-yr stack worsening:** StatCan Mar-full (dq260521a) −28.0% vs 2024; Apr prelim (dq260511a) −30.0%. Headline +1.4% is the base easing.
+- **Sentiment 82%:** Nanos May 3-6 (n=1,003) — 82% call the boycott helpful. A May reading; no softening.
+- **Capacity permanently deleting:** Air Transat complete US exit Jun 13; AC winter 2026-27 zero new FL routes; WestJet summer −32% ASM. MIA flipped negative (−2.02% Apr).
+
+**Why MINOR not MAJOR:** structurally symmetric to v2.1. v2.1 separated Channel 1's mechanism (solid) from its thermometer (confounded); v2.2 separates Channel 2's structural signal (air/winter) from its misleading readout (base-effect headline). Both are conviction-by-indicator refinements, not spine reversals. If anything v2.2 *raises* Channel 2 conviction by correcting a too-generous "softened" read.
+
+**Conviction deltas:**
+| Item | v2.1 | v2.2 |
+|---|---|---|
+| Channel 2 air/winter (structural) | MEDIUM (bifurcated) | **MEDIUM-HIGH ↑** structural |
+| Canadian headline YoY as readout | (implicit signal) | **LOW** — base-effect noise |
+
+**Prediction resolutions logged:** TOUR-04 (MIA flips negative) RESOLVED-CORRECT (−1.76% Mar, −2.02% Apr); TOUR-02 (LV Canadian share <5%) RESOLVED-CORRECT on share-of-total (~3%). TOUR-01/03/05 confidence raised (80→85, 85→90, 75→85). Top-level MAR-22 70→50, MAR-24 55→45 (base-effect protects FLL/MCO headline). Detail: `PREDICTIONS.tsv`, `../sub_agents/TOURISM/`.
+
+**Discipline note:** this is the inverse of the v2.1 correction — there the data forced a *demotion* (produce over-claimed); here it forced a *re-promotion* (tourism under-claimed when I let the April headline soften the top-level read). Same lesson: read the clean metric (2-yr stack), not the contaminated one (headline YoY). The base-year caveat the TOURISM sub-agent held since Apr 20 was right; the top level had partly lost it.
+
+---
+
 ## v2.0 → v2.1 — 2026-05-31 (session 8) — MINOR — "The produce thermometer is confounded"
 
 **Trigger:** Session-8 produce-attribution decomp (deep-research harness + external-primary verification, completed session 7; reviewed against BRENT's diesel/freight files session 8). v2.0 leaned on CPI fresh F&V +6.1% YoY as the clean confirmation that the workforce shock (Channel 1) was transmitting to food prices. The decomp showed the spike is multi-causal.
