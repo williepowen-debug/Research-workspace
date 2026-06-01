@@ -380,5 +380,35 @@ The 5/13 STATUS billed "20d-SKEW-slope SIGN-FLIPPED +0.6 → -1.0" as the FIRST 
 
 ---
 
+### 2026-06-01 — Catch-up boot after 8td gap; R11 dead; R12 termination correction; diet coiled-spring + GEX hypothesis
+
+- **Phased plan executed** (Will ask): (1) data refresh, (2) analytical pass, (3) KB hygiene, (4) STATUS rewrite + closeout. Cross-agent routing skipped per Will direction (fleet in architecture transition).
+- **R11 analog CONFIRMED DEAD.** Window 5/28-6/02 expired today. VIX trended DOWN -1.46 in 8td post regime-end, not up. Zero of 7 watch-list triggers fired. GRADUAL_FADE or POST_EVENT_PERSIST won. KB-VIO-058 marked STALE with closing disposition.
+- **R12 termination DATE CORRECTION.** 5/21 STATUS said "regime terminated 5/18-5/20"; actual technical break per 20d-avg<140 was **5/12** (139.917). 1d bounce 5/13, sustained <140 since. Off by 6 td. Regime ran 222 td (longest in 19yr). Filed as KB-VIO-061 with full knife-edge sensitivity analysis.
+- **Knife-edge:** 20d-avg 138.985 = -1.015 from threshold. If SKEW holds 144 daily, regime re-establishes 6/05; if 142, 6/09. Aligns with 6/12 CPI / 6/17 FOMC. Binary resolves on 5td of incoming data — daily-refresh tool worth ~3 min/boot through 6/10.
+- **DIET COILED-SPRING pattern firing 5/20-5/29.** SKEW +11.87 / VIX -2.54 / VVIX -10.39 — directional KB-VIO-036 signature WITHOUT formal magnitude. Tested 5/10/15/20/25/30d windows; zero formal fires. Closest = 7td with SKEW✅ only, VIX/VVIX at half/two-thirds threshold. KB-VIO-062.
+- **Working hypothesis (KB-VIO-062, ASSUMPTION not EMPIRICAL):** record GEX (KB-VIO-055 + 5/14 WALTER gamma signal) mechanically pins VIX/VVIX legs. Empirically supported by SPX 5d realized 3.98%, 20d realized 10.09%, VRP +5.68 (67th pct = above-median, NOT compressed). If correct, KB-VIO-036's 94% hit rate may have a lower effective magnitude floor in current GEX regime — but unbacktested. **Do NOT size positions on this hypothesis until backtest exists.**
+- **Three calibration corrections this session** — R12 termination date (off by 6td), VIX9D 12.59 not "structurally extreme" (27.84 pct of 10y = normal low-vol), VRP not "compressed" (67th pct = above-median). All 5/21 directional reads were intact; precision was off. **Pattern: don't let prior-session narrative substitute for fresh measurement.** Filed as KB-VIO-063 + drift-assessment meta-note.
+- **Credit substance EASED across all tiers.** HY 2.86→2.74 (-12bps, 4.2%), CCC 9.48→9.41 (-7bps, 0.7%), IG flat. Bifurcation milder but directionally intact (HY eased 6x faster than CCC in % terms). CCC re-firmed +3bps last 2td (9.38→9.41) — early margin re-acceleration to watch. Stage-3 triggers (#4 HY>2.90 / #5 CCC>10.00) FARTHER away than 5/21. Credit-to-vol vector downgraded 🟠→🟡.
+- **Convergence Score:** 8/40 (5/21) → 7/45 (6/1). DROPPED. One new vector added (VRP) at ⚪. Credit-vol downgraded. VVIX further relaxed. **Stage-2 trap framing intact; imminence read materially weaker than 5/21, which was itself weaker than 5/13.**
+- **Commits this session:** [pending — to be filled in at closeout commit]
+
+**Carry-forward for next-boot continuity:**
+1. **Episode-17 post-mortem** (now-doubly-deferred — 5/21 + 6/1) — write to `research/` pairing with KB-VIO-062 GEX-suppression mechanism as primary hypothesis.
+2. **Diet coiled-spring historical backtest** — new dedicated research thread. (a) half-magnitude divergence forward returns, (b) GEX-conditional KB-VIO-036 efficacy. Pairs with Episode-17 post-mortem (same underlying hypothesis).
+3. **Daily 20d-avg refresh** through 6/10 — knife-edge resolution. Tool: simple yfinance + window math. Refresh at each boot.
+4. **6/12 CPI / 6/17 FOMC catalyst prep** — first named macro test post this window. Build pre-mortem framing before 6/10.
+5. **6/1 SKEW EOD + 6/1 FRED OAS** — refresh next boot (T+1 publication lags).
+6. **Inbox 5/14 gamma signal formal disposition** — content absorbed into KB-VIO-062 but admin step pending.
+
+**Calibration takeaways for the broader thesis:**
+1. **Stage 2 can persist and weaken concurrently.** The trap-substance is real (SKEW rebid, GEX record, breadth narrowed) but the *imminence* read has now degraded twice — first 5/13→5/21, now 5/21→6/1. Trap framing intact ≠ Stage-3 next month. The diet-coiled-spring + GEX-suppression hypothesis is the live analytical product.
+2. **Calibration corrections are cheap to file but expensive to skip.** Three corrections this session, all directional-right / precision-wrong. The aggregate cost: 5/21 framing risked over-conviction on regime imminence and vol-compression that didn't exist. Empirical-first discipline pays.
+3. **Knife-edge regime status is the right uncertainty acknowledgement.** Not "regime ended" (terminated 5/12 by technical rule) and not "regime intact" (20d-avg below 140 for 14td) but "data-determined this week." Boot framing should reflect this rather than premature classification.
+
+**Current posture (end-of-session 6/1):** 🟡 STAGE-2-LATE held. R11 dead. R12 knife-edge re-establishing. Diet coiled-spring firing without formal magnitude. GEX-suppression hypothesis is the active analytical product. Credit substance eased. Next firm test 6/12 CPI / 6/17 FOMC. No open positions. Episode-17 post-mortem owed.
+
+---
+
 *Created: 2026-04-12*
-*Last Updated: 2026-05-21 (session closeout. Stage-2-late verdict adopted fleet-wide; HENRY LIAISON open; FRED-discipline catch propagated fleet-wide; methodology audit completed; Episode #17 expired worthless 5/19, post-mortem deferred.)*
+*Last Updated: 2026-06-01 (catch-up boot after 8td gap. R11 dead; R12 termination date correction (5/12 not 5/18-20); diet coiled-spring pattern + GEX-suppression hypothesis filed; 3 calibration corrections; convergence 8/40 → 7/45. KB-VIO-061/062/063 added, 058 marked STALE.)*

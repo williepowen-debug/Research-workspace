@@ -1,8 +1,8 @@
 # VIOLET STATUS
 
-**Signal Status:** 🟠→🟡 **STAGE 2 CONFIRMED, NOT STAGE 3. REGIME LIKELY TERMINATED, BUT VIX HAS NOT YET FIRED.** May 21 boot (Prome ask; 7d gap). **SKEW collapsed 5/15 145.77 → 5/20 132.31 (-13.5 pts in 3 td); 4 of last 5 closes below 140.** This is materially more decisive than the Apr 23-28 mini-break (low 138.16, bounced 2 td). **R12 regime end is the high-probability call now — and that starts the R11 analog clock.** R11 had SKEW collapse → VIX 52.33 in 8 td (PRE_EVENT_FADE). But R12 ended on a *softer* slope (-1.0 vs R11's -2.0): could be GRADUAL_FADE instead. **Episode-17 25C expired worthless 5/19 (VIX ~18 vs strike 25)** — lottery did not print, as expected from a low-vol regime termination not yet completed by a vol event. **The trap is intensifying** (vol absorbed CPI/PPI/FOMC/BOJ/NVDA; SKEW now fading without VIX event; credit deteriorating per BROCK), **but transmission to vol has not occurred.** Stage 2 = "low VIX + widening tape-substance gap" is the read.
+**Signal Status:** 🟡 **STAGE-2-LATE. R11 ANALOG DEAD (GRADUAL_FADE won). R12 SKEW REGIME TECHNICALLY TERMINATED 5/12 — but spot rebid hard, 20d-avg now ON KNIFE-EDGE of re-establishment.** 6/1 boot (Will ask; 11 calendar / 8 td gap). **Diet coiled-spring firing 5/20-5/29 (SKEW +11.87 / VIX -2.54 / VVIX -10.39) — directional KB-VIO-036 signature WITHOUT formal magnitude.** Working hypothesis: record GEX (KB-VIO-055 + 5/14 WALTER signal) mechanically pinning VIX/VVIX legs while SKEW reprices tail. Credit substance EASED across all tiers since 5/21 (HY -12bps, CCC -7bps, 10Y -20bps); Stage-3 substance triggers all farther away. **Timing horizon resets to 6/12 May CPI + 6/17 FOMC + SEP gate.** Position book empty.
 
-**Live (May 21, 12:45 ET — Prome gap-fill batch):** VIX **17.39** | VIX9D **15.01** | VIX3M **20.58** | VIX6M **22.76** | VVIX **94.20** | SKEW **132.31** (5/20; 5/21 EOD not yet posted) | VIX3M/VIX **1.183** | final_5d_change(SKEW) **-9.20** (5/20) | 20d_regr_slope(SKEW) **-0.14**/day (5/20) | HY OAS **2.80** | CCC OAS **9.40** | IG OAS **0.75** (all FRED 5/20 force-fetch) | Regime **R12 likely terminated** | **Last Updated:** 2026-05-21 12:45 ET
+**Live (6/1, 14:30 ET):** VIX **15.77** | VIX9D **13.62** | VIX3M **19.27** | VIX6M **21.97** | VVIX **89.25** | SKEW **144.18** (5/29 EOD; 6/1 CBOE EOD not yet posted) | VIX3M/VIX **1.222** | 20d_SKEW_avg **138.985** (regime <140 since 5/12) | SPX 20d realized **10.09%** | VRP **+5.68** (67th pct 10y) | HY OAS **2.74** | CCC OAS **9.41** | IG OAS **0.74** (all FRED 5/31) | 10Y **4.47%** (yf ^TNX 6/1) | **Last Updated:** 2026-06-01 14:30 ET
 
 ---
 
@@ -10,23 +10,22 @@
 
 | Metric | Value | As Of | Status | Source |
 |--------|-------|-------|--------|--------|
-| VIX Spot | **17.39** | May 21 (intraday) | 🟡 | [CONF] yfinance ^VIX |
-| VIX9D | **15.01** | May 21 | 🟢 | [CONF] yfinance ^VIX9D — short-dated crushed BELOW spot ⇒ market pricing immediate calm post-NVDA |
-| VIX3M | **20.58** | May 21 | 🟡 | [CONF] yfinance ^VIX3M |
-| VIX6M | **22.76** | May 21 | 🟡 | [CONF] yfinance ^VIX6M |
-| VVIX | **94.20** | May 21 | 🟢 | [CONF] yfinance ^VVIX — **eased from 5/12 peak 98.55; vol-of-vol no stress** |
-| SKEW | **132.31** | May 20 | 🟢 | [CONF] yfinance ^SKEW — **broke 140 sustained: 4/5 last closes below; low 132.31. 5/21 close not yet posted via yfinance at 12:45 ET refresh; CBOE publishes ^SKEW EOD; refresh deferred to next boot.** |
-| VIX3M/VIX | **1.183** | May 21 | 🟢 | [CONF] Calculated — contango deep, holding |
-| VIX Futures Curve | Contango (deep) | May 21 | 🟢 | [CONF] CBOE |
-| HY OAS | **2.80** | May 20 | 🟢 | [CONF] FRED BAMLH0A0HYM2 force-fetch 5/21. Tightened -6bps 5/19→5/20 (2.86→2.80, FURTHER from 2.90 kill). BROCK 5/21 brief cited 2.86 = 5/19 print (1d stale). |
-| CCC OAS | **9.40** | May 20 | **🟠** | [CONF] FRED BAMLH0A3HYC force-fetch 5/21. Tightened -8bps 5/19→5/20 (9.48→9.40, 60bps from 10.00 analog). 20d trajectory still +25bps (9.15 5/07 → 9.40 5/20). BROCK 5/21 brief cited 9.48 = 5/19 print (1d stale). |
-| 10Y UST | **4.67%** (LIQUID 5/18) | May 21 | **🟠** | [CONF LIQUID 5/18] — **+42bps over 20d; duration channel FIRING** |
-| IG OAS | **0.75** | May 20 | 🟢 | [CONF] FRED BAMLC0A0CM force-fetch 5/21. IG continues tightening through CCC bifurcation — complacency persists. |
-| final_5d_change (SKEW) | **-9.20** | May 20 | 🟠 | [CONF] regime_termination.py:118 = SKEW(t) - SKEW(t-5td). **Steepest 5d decline of regime; this IS the regime-termination indicator. (Mislabeled "20d-SKEW-slope" in 5/13 STATUS; see KB-VIO-059 for methodology audit.)** |
-| 20d_regr_slope (SKEW) | **-0.14**/day | May 20 | 🟢 | [CONF] regr through 5/20. Separate metric from final_5d_change. Attenuated from -0.49 (early May). Has been negative since early May (not "sign-flipped" — earlier STATUS conflated this with final_5d_change). |
-| NVDA ATM IV (1-2wk) | **30-37%** | May 21 | 🟢 | [CONF] yf option chain — **post-print IV crush; 5/22 ATM 37%, 5/26 ATM 30%, 6/12 ATM ~33%** |
-| NVDA 20d realized | **40.1%** | May 21 | 🟢 | [CONF] computed — realized > short-dated implied = IV crushed below realized |
-| NVDA put-call IV skew | **+3-4 vol pts** | May 21 | 🟡 | [CONF] yf 5/29 chain — OTM puts (40%-43% IV) > OTM calls (37%-41% IV); modest negative skew, not tail-bid |
+| VIX Spot | **15.77** | 6/1 intraday | 🟢 | [CONF] yf ^VIX — crushed -1.46 since 5/21; bottomed 15.32 on 5/29 |
+| VIX9D | **13.62** | 6/1 intraday | 🟢 | [CONF] yf ^VIX9D — front below spot, deep complacency. 27th pct of 10y (not "extreme") |
+| VIX3M | **19.27** | 6/1 intraday | 🟡 | [CONF] yf ^VIX3M |
+| VIX6M | **21.97** | 6/1 intraday | 🟡 | [CONF] yf ^VIX6M |
+| VVIX | **89.25** | 6/1 intraday | 🟢 | [CONF] yf ^VVIX — eased -4.95 since 5/21, bottomed 86.03 on 5/28. Vol-of-vol NOT bidding |
+| SKEW | **144.18** | 5/29 EOD | 🟡 | [CONF] yf ^SKEW — rebid +11.87 from 5/20 low 132.31. 6/1 EOD pending |
+| **20d SKEW avg** | **138.985** | 5/29 | 🟡 | **[CONF] computed — regime TERMINATED 5/12; knife-edge (-1.015 from 140). Re-establishes 6/05 if SKEW holds 144** |
+| 5d_SKEW_change | **+7.22** | 5/29 | 🟡 | [CONF] computed — directional rebound active |
+| VIX3M/VIX | **1.222** | 6/1 | 🟢 | [CONF] Calculated — contango deepened from 1.183 |
+| **SPX 20d realized vol** | **10.09%** | 6/1 | 🟡 | [CONF] computed — SPX 5d realized just 3.98%; gamma-damping evidence |
+| **VRP (VIX − 20d RV)** | **+5.68** | 6/1 | 🟢 | [CONF] computed — 67th pct of 10y; ABOVE-median, NOT compressed. KB-VIO-063 |
+| HY OAS | **2.74** | 5/31 | 🟢 | [CONF] FRED BAMLH0A0HYM2 — eased -12bps from 5/19 peak 2.86. 16bps from 2.90 kill |
+| CCC OAS | **9.41** | 5/31 | 🟡 | [CONF] FRED BAMLH0A3HYC — eased -7bps from 5/19 peak 9.48 but re-firmed +3bps last 2td. 59bps from 10.00 analog |
+| IG OAS | **0.74** | 5/31 | 🟢 | [CONF] FRED BAMLC0A0CM — complacency persists |
+| 10Y UST | **4.47%** | 6/1 | 🟢 | [CONF] yf ^TNX — rallied -20bps from 5/19 peak 4.67%, duration channel un-firing |
+| SPX | **7613.67** | 6/1 | 🟡 | [CONF] yf ^GSPC — new ATH zone, +2% since 5/21 |
 
 ---
 
@@ -34,67 +33,47 @@
 
 | Vector | Score | Evidence | Last Updated |
 |--------|-------|----------|--------------|
-| Spot VIX elevation | ⚪ | 17.39 — drifted DOWN 0.48 over 8d through NVDA print, hot CPI/PPI, geopolitics. Vol-surface absorption now 5+ catalysts deep. | 2026-05-21 |
-| Term structure inversion | ⚪ | 1.183 — contango holds deep; VIX9D 15.01 BELOW spot = market pricing immediate calm post-NVDA. | 2026-05-21 |
-| VVIX stress | ⚪ | 94.20 — EASED from 5/12 peak 98.55; option-of-option market relaxed, not bidding tail vol. | 2026-05-21 |
-| **SKEW-VIX-VVIX divergence** | **🟡↓** | **SKEW collapsed 145.77 (5/15) → 132.31 (5/20). 5d-change -9.20, steepest of regime. 4/5 closes <140. R12 regime likely TERMINATED. But final slope softer than R11's (-2 to -3 PRE_EVENT_FADE archetype). Could be R11 analog (VIX 52 in 8 td) OR GRADUAL_FADE (R6/R7-type, peaceful resolution). Downgrade 🟠→🟡 because the *signal* the divergence was supposed to deliver (vol event) didn't fire on R12 termination day.** | 2026-05-21 |
-| **Credit-to-vol transmission** | **🟠** | **FRED spot-check 5/21 (latest data 5/20): CCC 9.40 (+25bps 20d, +36bps from cycle low 9.04, 60bps from 10.00 analog). HY 2.80 (cycle-low retest, 10bps from 2.90 kill). IG 0.75 (still tightening). BROCK 5/21 brief was 1-day stale (cited 5/19 prints: HY 2.86 / CCC 9.48). 20d bifurcation thesis intact (CCC +25 / HY ~flat) but most recent 1d (5/19→5/20) showed BOTH HY and CCC tightening — risk-on retrace at the substance-side. Substance-side Stage-3 triggers (#4 HY>2.90, #5 CCC>10.00) FARTHER away than 5/13 STATUS implied. VIX not pricing any of this. Classic stage-2 decoupling.** | 2026-05-21 |
-| **Index concentration / breadth** | **🟡** | WALTER signal KB-VIO-056 — SPX record high with bad breadth. Persists. | 2026-05-13 |
-| **Call-notional/dealer-flow stretch** | **🟡** | KB-VIO-055 + 5/14 gamma-momentum signal — gamma index reportedly record-high; suppresses realized vol mechanically. Explains the absorption pattern: VIX <20 is mechanical (positive-gamma damping) not informational. | 2026-05-21 |
-| **NVDA post-print vol verdict (new)** | **⚪** | **Post-print IV crush: 5/22 ATM 37%, 5/26 ATM 30%, 6/12 ATM ~33%. 20d realized 40.1% > short-dated implied = option market pricing LESS forward vol than recent history. Modest -3 to -4 vol-pt put-call skew (puts 40-43%, calls 37-41%), not tail-bid. Verdict: NVDA print absorbed cleanly; options market signals calm.** | 2026-05-21 |
+| Spot VIX elevation | ⚪ | 15.77 — crushed -1.46 in 8td; 5/29 low 15.32. Vol-surface absorption now 7+ catalysts deep. | 2026-06-01 |
+| Term structure inversion | ⚪ | 1.222 — contango deepened; VIX9D 13.62 BELOW spot = extreme front complacency. | 2026-06-01 |
+| VVIX stress | ⚪ | 89.25 — eased -4.95 since 5/21, low 86.03 (5/28). Vol-of-vol relaxing, not bidding. | 2026-06-01 |
+| **SKEW-VIX-VVIX divergence** | **🟡** | **Diet coiled-spring firing 5/20-5/29 (SKEW +11.87 / VIX -2.54 / VVIX -10.39). Directional KB-VIO-036 signature WITHOUT formal magnitude (tested 5/10/15/20/25/30d windows — zero fires). Working hypothesis: GEX-suppression damps VIX/VVIX magnitudes. KB-VIO-062.** | 2026-06-01 |
+| **R12 regime knife-edge** | **🟡** | **Technically terminated 5/12 (20d avg 139.917). 20d-avg 138.985 = -1.015 from 140. Re-establishes 6/05 if SKEW holds 144 daily, 6/09 if holds 142. Aligns with 6/12 CPI / 6/17 FOMC gate. KB-VIO-061.** | 2026-06-01 |
+| **Credit-to-vol transmission** | **🟡** | **DOWNGRADED 🟠→🟡. Credit substance EASED across all tiers since 5/21: HY -12bps from peak (2.86→2.74), CCC -7bps (9.48→9.41), IG flat. Bifurcation milder but directionally intact (HY eased 6x faster than CCC in % terms). CCC re-firmed +3bps last 2td. Stage-3 triggers (#4 HY>2.90 / #5 CCC>10.00) FARTHER away. 10Y rallied -20bps.** | 2026-06-01 |
+| **Index concentration / breadth** | **🟡** | SPX 7613.67 new ATH zone (+2% since 5/21); WALTER KB-VIO-056 breadth deterioration signal still in force. | 2026-06-01 |
+| **Call-notional/GEX suppression** | **🟡** | KB-VIO-055 + 5/14 WALTER gamma signal; now elevated explanatory weight — empirically supported by SPX 5d realized 3.98% + VRP 67th pct (not compressed). Mechanism is doing real work in current regime. | 2026-06-01 |
+| **VRP / vol risk premium** | **⚪** | NEW row. VIX-20d_RV +5.68 = 67th pct of 10y. ABOVE-median, NOT compressed. Calibration: "vol is cheap" framing only holds vs forward, not trailing. KB-VIO-063. | 2026-06-01 |
 
-**Convergence Score:** 8/40 (20%) — Credit-to-vol 🟠 (3), SKEW divergence 🟡 (2; downgraded — divergence regime ended without vol event), Index concentration 🟡 (2), Call-notional stretch 🟡 (2; supported by 5/14 WALTER gamma signal), NVDA print ⚪ (1), all others ⚪. **Score dropped from 9/35 because (1) the SKEW divergence regime appears to have terminated WITHOUT vol event, removing the strongest near-term firing-signal vector, and (2) VVIX eased rather than stressed. The Stage-2 trap framing is intact but the imminence read for Stage 3 is WEAKER than it was 7d ago, not stronger.**
+**Convergence Score:** 7/45 (16%) — knife-edge (2), diet coiled-spring (2), credit-vol transmission downgraded (2), breadth (2), GEX suppression (2), VRP (1), VIX/term/VVIX all ⚪ (3). **Score DROPPED from 8/40 because (1) credit substance eased reducing transmission urgency, (2) VVIX further relaxed, and (3) one new vector added (VRP) but at ⚪. The Stage-2 trap framing is intact — SKEW reprice + substance worsening week-over-week — but the *imminence* read is materially weaker than the 5/21 framing, which itself was weaker than 5/13.**
 
-**Drift assessment (May 13 → May 21):**
-- 🟡 **SKEW regime R12 likely TERMINATED.** 5/15 145.77 → 5/20 132.31 (-13.5 pts in 3 td). 4 of 5 last closes below 140. Materially more decisive than the Apr 23-28 mini-break (low 138.16, bounced in 2 td). The May 13 STATUS forecast was: regime ends → R11 clock starts → VIX event 0-8 td later. **R12 ended ~5/18-5/20. Clock is now running.** Window: peak vol 5/26 - 6/01 if R11 analog holds.
-- ⚠️ **HOWEVER: R12 ended on a softer 5d-slope (-9.2 absolute / regr -0.14 per-day) than R11 (-2.0 final 5d).** Of the 4 PRE_EVENT_FADE regimes, the slopes were R1 -1.0 (still produced VIX 36), R2 -0.6, R5 -1.9, R11 -2.0. R12 sits at the *softer* end of the PRE_EVENT_FADE distribution — and PRE_EVENT_FADE is only 4 of 11 historical regimes (36%). GRADUAL_FADE (R6, R7 — 18%) is also live; those resolved peacefully into modest VIX of 21-36.
-- 🟠 **Credit bifurcation 20d trajectory intact, but 1d retrace.** FRED 5/21 fetch (latest data 5/20): CCC 9.40 (+25bps 20d from 9.15 5/07), HY 2.80 (vs 2.79 5/07, ~flat 20d). The bifurcation thesis (CCC widening while HY flat = quality-sensitive credit stress) is intact on 20d window. BUT the most recent 1d (5/19→5/20) was -8bps CCC and -6bps HY — risk-on retrace at the substance-side, both tiers tightening together. **BROCK 5/21 brief cited 9.48 / 2.86 = 5/19 prints (1d stale; FRED OAS publishes T+1). KB-VIO-060 flags. Stage-3 substance triggers (#4 HY>2.90, #5 CCC>10.00) are FARTHER away than 5/13 STATUS implied.** Stage-2 archetype (tape loose while substance worsens) holds on 20d frame but recent 1d shows the credit-side easing too.
-- 🟠 **10Y +42bps over 20d to 4.67% (LIQUID 5/18).** Duration channel firing without vol event = vol surface ignoring real-rate stress. Adds to the "vol absorption" tally.
-- ⚪ **Episode-17 May 19 25C expired worthless 5/19** (VIX ~18 vs strike 25). Confirms regime termination did not transmit to vol within DTE window. Trade-thesis post-mortem: SKEW divergence as VIX-spike predictor was correct on direction (regime ended) but failed on transmission (no spike). Mechanism candidate: positive-gamma suppression (5/14 WALTER signal) damped realized vol mechanically.
-- ⚪ **NVDA print absorbed cleanly (5/20 print, 5/21 -1.5% spot move).** Post-print IV crush: 5/22 ATM 37%, 5/26 ATM 30%. Short-dated implied LESS than 20d realized 40.1% = option market pricing forward calm. Modest -3-4 vol-pt put-call skew (40-43% puts vs 37-41% calls), NOT tail-bid. NVDA was not a vol catalyst.
-- ⚪ **VVIX EASED, not stressed.** 5/12 peak 98.55 → 5/21 94.20. The 5/13 STATUS noted "climbing toward 100" — that climb reversed. If transmission were imminent, VVIX would lead VIX higher; it isn't.
+---
 
-**Methodology note (resolved 2026-05-21):** STATUS 5/13 cited "20d-SKEW-slope -1.0 SIGN-FLIPPED" — that was `final_5d_change = SKEW(t) - SKEW(t-5)` per `regime_termination.py:118`, not a 20-day regression slope. The literal 20d regression slope through 5/13 was -0.118 (per-day), had been negative since early May (not "sign-flipped"). Substantive call (regime fading) was directionally right; the label was wrong. **Corrections completed 5/21:** KB-VIO-051 and KB-VIO-058 prepended with [LABEL CORRECTED 2026-05-21] preambles; new KB-VIO-059 logs the methodology note; STATUS dashboard rows renamed to `final_5d_change (SKEW)` and `20d_regr_slope (SKEW)` as two separate metrics; MEMORY.md gained durable "METRIC SEMANTICS" section.
+## DRIFT ASSESSMENT (5/21 → 6/1, 8 td)
 
-**Prior drift assessment (May 3 → May 13) — preserved for trajectory:**
-- 🟠 **20d-SKEW-slope SIGN-FLIPPED +0.6 → -1.0 (KB-VIO-058).** First negative reading in the entire 223-td regime. PRE_EVENT_FADE trajectory now activating. Of 11 historical regimes, 4 (36%) ended PRE_EVENT_FADE; all 4 had final 5d slopes -2.0 to -3.5. Closest analog R11 (150 td) had -2.0 → VIX 52.33 just 8 td after regime end. Current -1.0 is BEGINNING of that pattern — needs continued steepening to confirm.
-- 🟠 **CCC OAS REVERSED through the dark interval (KB-VIO-057).** Cycle low 9.04 May 1 → 9.37 May 12, +33bps. Crossed 9.30 early-stress threshold May 11. **Critically: CCC widened ON THE CPI DAY itself** (9.20 May 8 → 9.31 May 11 → 9.37 May 12). Credit DID NOT absorb the hot inflation the way vol did. HY +7bps only (cycle low 2.75 → 2.82); IG still tightening (0.77). Classic late-cycle CCC decoupling.
-- 🔴 **CPI/PPI gate FIRED without vol event.** Two consecutive HOT inflation prints (CPI May 12, PPI May 13 — 6.0% YoY largest MoM since Dec 2022). VIX moved from 16.99 to 17.87 (+5.2%). This was the last named material catalyst in the pre-mortem (May 3 STATUS). **Gate fired; lottery did not print** — but credit and slope tell a different story than VIX surface.
-- ⚪ **VVIX climbing 95.17 → 98.36** — option market mildly bidding vol-of-vol but nowhere near 120 stress threshold. Watch.
-- ⚪ **VIX9D 15.87 BELOW spot** = short-dated implied vol crushed; market pricing immediate calm even as CPI/PPI dropped HOT. Aggressive complacency on near-term tape.
-- 🟡 **Two regime-fragility signals from WALTER inbox (May 9):** record SPX call notional + bad breadth at record high with 1929/1973/1999 analogs. Both processed → KB-VIO-055, KB-VIO-056. Operate on weeks-to-months horizon, not 6-DTE trade horizon.
+- ⚪ **R11 analog CONFIRMED DEAD.** Window was 5/28-6/02 (8td post regime-end). Today is tail day. VIX trended DOWN -1.46 instead of spiking; VVIX eased -4.95; VIX9D crushed below spot; contango deepened. Zero of 7 watch-list triggers fired. GRADUAL_FADE or POST_EVENT_PERSIST won. KB-VIO-058 marked STALE with closing disposition.
+- 🟡 **R12 regime TECHNICALLY TERMINATED 5/12** (not 5/18-5/20 as 5/21 STATUS claimed — that framing was directionally right, date-wrong by 6 td). 20d-avg dropped through 140 on 5/12 (139.917), 1d bounce 5/13, sustained <140 since. Regime ran 222 td (still longest in 19yr). KB-VIO-061.
+- 🟡 **But knife-edge: 20d-avg 138.985 is -1.015 from threshold.** Low-floor days (5/06 135.42, 5/07 136.11) drop off the back of the window over next 5 td. If SKEW holds 144 daily, regime RE-ESTABLISHES 6/05 — cleanly precedes 6/12 CPI / 6/17 FOMC. Binary resolves on roughly 5td of incoming data.
+- 🟡 **Diet coiled-spring firing 5/20 → 5/29.** Directional KB-VIO-036 signature (SKEW +11.87 / VIX -2.54 / VVIX -10.39) but magnitudes fail formal trigger across all tested windows. Closest = 7td with SKEW✅ only. **Working hypothesis: GEX-suppression mechanically pins VIX/VVIX legs.** Empirically supported by SPX 5d realized 3.98% and VRP 67th pct (above-median, not compressed). KB-VIO-062.
+- ⚪ **VIX9D 12.59 (5/29 low) is NOT structurally extreme** — 27.84 percentile of 10y. Just normal low-vol. Filed as calibration correction; do not propagate "extreme front complacency" framing without qualifier.
+- 🟢 **Credit substance EASED across all tiers.** HY 2.86 → 2.74 (-12bps, 4.2%); CCC 9.48 → 9.41 (-7bps, 0.7%); IG 0.76 → 0.74 (-2bps). HY eased 6x faster than CCC in % terms = mild bifurcation intact, but Stage-3 triggers all FARTHER away than 5/21. CCC re-firmed +3bps last 2td (9.38 → 9.41) — early margin re-acceleration to watch.
+- 🟢 **10Y rallied -20bps** (4.67 → 4.47). Duration channel un-firing. TIPS also eased -12bps. Real-rate stress NOT propagating to vol.
+- 🟡 **SPX +2% to 7613.67 new ATHs** with VIX crushed — classic late-cycle trap signature, but VRP says option market is fairly pricing vs realized.
+- ⚪ **VRP calibration correction filed (3rd this session-pair).** I had been implicitly framing vol as "compressed." Empirically the opposite — 67th pct, above median. The "trap" framing requires forward-looking not trailing comparison. KB-VIO-063.
+
+**Methodology meta-note:** This session caught 3 framing/calibration errors in 5/21 work — termination date (off by 6 td), VIX9D extremity (not extreme), VRP compression (above-median). All directional reads were intact; precision was off. Filed in KB. The pattern is **don't let prior-session narrative substitute for fresh measurement.**
 
 ---
 
 ## REGIME STATUS
 
-**Current Regime:** LOW VOL (VIX 17.39, 15-20 bucket) — SKEW R12 regime **likely TERMINATED 5/18-5/20** after 230+ td (longest in 19-yr history). Last 5 closes: 145.77 / 138.40 / 135.50 / 132.31 (5/15-5/20). Term structure deeply in contango (1.183), VIX9D 15.01 BELOW spot (front crushed). VVIX 94.20, EASED from 5/12 peak. **R11 analog clock now running, but R12 ended on a softer 5d-decline (-9.2) than R11's final-5d -2.0; PRE_EVENT_FADE is one of three live trajectories (PRE_EVENT_FADE 36%, GRADUAL_FADE 18%, POST_EVENT_PERSIST 45% historically). Stage-3 transmission window: 5/26 - 6/01 IF R11 analog holds; if GRADUAL_FADE, vol drifts to 20-25 over weeks without spike.** Credit substance worsening (CCC 9.48 +26bps, 10Y 4.67% +42bps) while vol absorbs — Stage-2 trap framing fully canonical.
+**Current Regime:** LOW VOL (VIX 15.77, 12-18 bucket) — R12 elevated SKEW regime **TECHNICALLY TERMINATED 5/12** after 222 td (longest in 19yr history). But 20d-avg 138.985 is barely below threshold and re-establishes 6/05 if SKEW holds 144 daily. Term structure deeply in contango (1.222), VIX9D 13.62 well below spot. VVIX 89.25 eased. **GRADUAL_FADE or POST_EVENT_PERSIST is the realized path; R11 PRE_EVENT_FADE confirmed dead.** Credit substance eased, transmission triggers farther away. Next named catalyst gate: **6/12 May CPI + 6/17 FOMC + SEP 6/17-18.**
 
-*Full regime framework, threshold logic, and crisis-analog library: `thesis/VIX_THESIS.md`.*
+*Full regime framework, threshold logic, crisis-analog library: `thesis/VIX_THESIS.md`.*
 
 ---
 
 ## POSITION SNAPSHOT
 
-**VIX May 19 25C — Episode #17 — EXPIRED WORTHLESS 5/19** (VIX 18.06 close vs strike 25). Episode-17 closed. Post-mortem to be written in `research/` — key learning: SKEW divergence as VIX-spike predictor was directionally correct (regime ended within DTE window) but failed on transmission (no spike). Candidate mechanism: positive-gamma suppression (KB-VIO-055, 5/14 WALTER signal) damped realized vol mechanically through CPI/PPI/NVDA. No open positions.
-
-**Prior framing (preserved for record):** As of 5/13 status, position had non-trivial path to ITM if slope steepened to -2.0 + HY broke 2.90 within 6 DTE. **Neither happened.** Slope stayed shallow (5d-change peaked at -9.2 on the last day BEFORE regime-end was confirmed); HY moved *opposite* direction (now 2.86, further from 2.90 trigger).
-
-**Material context flip from earlier this session.** When I wrote the post-CPI take, the framing was "lottery did not print, expire worthless." The FRED + slope refresh changed that:
-- 🟠 20d-slope sign-flipped (+0.6 → -1.0) — PRE_EVENT_FADE trajectory beginning
-- 🟠 CCC OAS reversed +33bps from cycle low, crossed 9.30 early-stress May 11
-- ⚪ HY OAS at 2.82 (8bps from 2.90 dual-trigger second half)
-
-**Why this matters for 6 DTE:** Closest historical analog R11 (also long regime: 150 td) had final 5d slope -2.0 → VIX 52.33 just 8 td after regime end. Current slope -1.0 → if it steepens to -2.0+ over the next 4 td (May 14-19), the historical PRE_EVENT_FADE lag could align with expiry. Mechanism: regime ends (SKEW collapses below 140) → vol event 0-8 td later. The R11 precedent is the most relevant case in the dataset.
-
-**Watchlist through expiry (daily, May 14-19):**
-1. 20d-SKEW-slope trajectory — does it steepen toward -2.0?
-2. HY OAS — does it break 2.90 (currently 2.82)?
-3. CCC OAS — does it continue widening or stall at 9.37?
-4. VVIX — does it break 100, then 110?
-5. SKEW absolute level — sustained <140 = regime ends, R11 clock starts
-
-**Re-decision closed by expiry.** Per Will-approved HOLD (May 3) → ran to expiry. No new position recs without Will.
+**No open positions.** Episode-17 VIX May 19 25C expired worthless 5/19 (VIX ~18 vs strike 25). Post-mortem still deferred from 5/21 — owed; pair with KB-VIO-062 GEX-suppression hypothesis as primary mechanism.
 
 Full position framework: `TRADE.md`.
 
@@ -102,13 +81,12 @@ Full position framework: `TRADE.md`.
 
 ## CROSS-AGENT SIGNALS (Pending)
 
-**Outbound:**
-- `outbox/SIG-VIOLET-LIQUID-20260415-hy-oas-trigger-monitor.md` — STILL QUEUED (status unconfirmed; messaging system overhaul in progress per project memory)
-- **New (pending draft):** SIG to HENRY+RED — CPI+PPI both hot, VIX absorbed both → regime-absorption framing now a confirmed pattern, not anecdote
+**Per Will direction this session:** fleet is in architecture transition; focus VIOLET on own domain. Cross-agent routing deferred.
 
-**Inbound:** ✅ **Processed May 13:**
-- signal_2026-05-09_spx-call-notional-sox-rsi-meltup.md → KB-VIO-055 → `inbox/processed/`
-- signal_2026-05-09_spx-record-high-breadth-deterioration.md → KB-VIO-056 → `inbox/processed/`
+**Stale outbound (do not re-send without check):**
+- `outbox/SIG-VIOLET-LIQUID-20260415-hy-oas-trigger-monitor.md` — 45+ days stale, overtaken by FRED-direct fetch convention (KB-VIO-060).
+
+**Inbox:** 1 pending signal (5/14 gamma_momentum_factor_squeeze) — content informationally absorbed into KB-VIO-062 working hypothesis but formal disposition deferred.
 
 ---
 
@@ -116,34 +94,37 @@ Full position framework: `TRADE.md`.
 
 | Priority | Topic | Status |
 |----------|-------|--------|
-| ✅ | **HY/CCC OAS FRED refresh** | **DONE May 13. CCC reversed +33bps (9.04→9.37), crossed 9.30 early-stress May 11. HY +7bps only. KB-VIO-057.** |
-| ✅ | **20d-SKEW-slope refresh** | **DONE May 13. SIGN-FLIPPED +0.6 → -1.0. PRE_EVENT_FADE trajectory activating. KB-VIO-058.** |
-| 🔴 | **Daily slope + CCC + HY monitoring through expiry** | NEW. Trigger watch: CCC >9.30 ✅ (May 11). Need HY >2.90, slope steepening to -2.0+. Re-check daily May 14-19. |
-| 🟠 | **Draft SIG to HENRY+RED on regime-absorption pattern** | Five consecutive absorbed catalysts is now a documented phenomenon worth flagging. |
-| 🟠 | **Verify WALTER signals (KB-VIO-055, 056)** | $2.6T notional methodology + Goepfert breadth source primary check. Defer to NEXUS/RED if convergent. |
-| 🟠 | **May 19 25C expiry record-and-close** | Post-expiry: write trade post-mortem; lock Episode-17 record. |
-| 🟡 | **Phase 1: CFTC COT VIX futures pipeline** | Deferred — ~90 min. Spec in MEMORY.md 2026-04-17. |
-| 🟡 | **KB-VIO-042 within-cycle bounce rule revision** | Long regime broke the 1-3 td bounce rule (took 4-td + post-FOMC catalyst). Rule needs amendment. |
+| 🟠 | **Episode-17 trade post-mortem** | Deferred from 5/21. Pair with KB-VIO-062 GEX-suppression mechanism as primary hypothesis. Needs dedicated session. |
+| 🟠 | **Diet coiled-spring backtest** | New. Historical analysis of half-magnitude divergences: do they carry signal at reduced hit rate? GEX-conditional efficacy of KB-VIO-036. Pairs with Episode-17 post-mortem. |
+| 🟡 | **Daily 20d-avg refresh** | New. Knife-edge resolves on 5td of data. Tool: simple yfinance + window math. Refresh daily through 6/10. |
+| 🟡 | **6/12 CPI / 6/17 FOMC catalyst prep** | New. Next named vol gate. Calendar-driven. |
+| 🟡 | **CFTC COT VIX futures pipeline** | Long-deferred (~90 min). Last updated MEMORY 2026-04-17. |
+| 🟡 | **KB-VIO-042 within-cycle bounce rule revision** | Long-deferred. Rule needs amendment for very-long regimes. |
+| 🟡 | **Inbox 5/14 gamma signal formal disposition** | Content absorbed; admin step pending. |
 
 ---
 
 ## THESIS CONNECTION
 
-**Updated assessment (May 13):** The trade-thesis is now functionally closed (6 DTE, deep OTM, no remaining named catalyst). The **regime-thesis is stronger than it was May 3** — vol surface has now absorbed five consecutive macro stressors (FOMC, BOJ, CPI hot, PPI hot, plus general stagflationary tape from WALTER BOARD signals 001-007). Two new regime-fragility vectors arrived from WALTER inbox: record call notional and bad-breadth at index records with 1929/1973/1999 analogs. **The regime is bending under accumulating fragility evidence but has not broken — and the trade-window is expiring before the break.**
+**Updated assessment (6/1):** The regime-thesis is **softer than 5/21**. Stage-2 framing intact (SKEW reprice + macro stress accumulation) but Stage-3 imminence reads have weakened twice now — first 5/13→5/21 (R12 termination without firing), now 5/21→6/1 (R11 analog dead, credit substance eased, VRP not compressed). **The diet coiled-spring pattern + GEX-suppression hypothesis are the live analytical product** — they preserve the "vol surface broken" framing while accepting that current GEX backdrop may have decoupled the formal KB-VIO-036 trigger from its 19yr historical hit rate. The next firm test is the 6/12-6/17 catalyst gate.
 
-**Resolved gates (full list):**
-- ❌ Apr 22 SKEW >145 — never breached
-- ✅ Apr 23-28 strict invalidation — hit, low 138.16
-- 🟢 Apr 30 REBOUND_AFTER_INVALIDATION — bounced to 143.33 post-FOMC
-- 🟡 Apr 28-29 FOMC — 4 dissents (most since 1992), vol did not spike
-- 🟡 Apr 28 BOJ — 3 dissents, vol did not spike
-- 🟡 **May 12 April CPI HOT — vol did not spike** (KB-VIO-054)
-- 🟡 **May 13 April PPI HOT 6.0% YoY +1.4% MoM largest since Dec 2022 — vol did not spike** (KB-VIO-054)
+**Resolved gates (recent):**
+- ✅ Apr 22 SKEW >145 — never breached
+- ❌ Apr 23-28 strict invalidation — hit, low 138.16
+- 🟢 Apr 30 REBOUND_AFTER_INVALIDATION — bounced post-FOMC
+- 🟡 Apr 28-29 FOMC (4 dissents) / Apr 28 BOJ (3 dissents) — vol did not spike
+- 🟡 May 12 CPI hot / May 13 PPI hot 6.0% — vol did not spike
+- 🟡 May 20-21 NVDA print — absorbed cleanly, IV crush
+- ❌ **R11 analog window (5/28-6/02) — FAILED.** VIX trended DOWN, not up.
 
-**Forward gates:** May 19 25C expiry (HOLD; non-trivial path to ITM emerging) · **20d-slope steepening watch: -1.0 → -2.0+** (R11 analog threshold) · **Dual credit-stress trigger: CCC >9.30 ✅ FIRED May 11; HY >2.90 pending (currently 2.82, 8bps away)** · SKEW <140 sustained (regime end → R11 clock starts) · Jun 12-15 (60d window close + FOMC + SEP Jun 16-17 — secondary vol gate).
+**Forward gates:**
+- 6/05-6/10: R12 regime re-establishment knife-edge (binary on SKEW trajectory)
+- **6/12: May CPI** — next named macro gate
+- **6/17 FOMC + 6/17-18 SEP** — primary vol catalyst
+- 6/15: KB-VIO-031 60-day-window expiry on Episode-17 cohort base rate
 
-*Core hypothesis, transmission chain, and regime-dependent lead-lag logic: `thesis/VIX_THESIS.md`.*
+*Core hypothesis, transmission chain, regime-dependent lead-lag logic: `thesis/VIX_THESIS.md`.*
 
 ---
 
-*Last updated: 2026-05-13 20:55 ET (boot + FRED refresh + slope refresh. Two material findings: (1) CCC OAS reversed +33bps through CPI hot, crossed 9.30 early-stress May 11 → KB-VIO-057; (2) 20d-SKEW-slope SIGN-FLIPPED +0.6 → -1.0 → KB-VIO-058. SKEW divergence and credit-to-vol both upgraded ⚪→🟠. Convergence Score 4/35 → 9/35 (8% → 26%). Position re-framed: not "dead lottery" — now "sunk-cost optionality with non-trivial path to ITM" if slope steepens + HY clears 2.90 within DTE window. Watchlist established for daily May 14-19. Signal status ⚪→🟠.)*
+*Last updated: 2026-06-01 14:30 ET (Will boot ask after 8 td gap. Full data refresh + analytical pass. Three calibration corrections filed: R12 termination date (5/12 not 5/18-20), VIX9D not structurally extreme (27th pct of 10y), VRP not compressed (67th pct = above median). 4 new KB entries: 061 (regime termination + knife-edge), 062 (diet coiled-spring + GEX hypothesis), 063 (VRP measurement), and 058 marked STALE. R11 analog dead. Convergence 8/40 → 7/45. Signal status 🟠→🟡 → 🟡 STAGE-2-LATE held. Next firm test: 6/12 CPI + 6/17 FOMC.)*
