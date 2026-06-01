@@ -1,6 +1,18 @@
-# VIOLET SCRATCH — June 1, 2026
+# VIOLET SCRATCH — June 1, 2026 (evening session)
 
-**Purpose:** Ephemeral session handoff — canonical "where are we / what next." Read at boot, rewritten at closeout. Persistent learnings → `MEMORY.md`; dated catalysts → `CALENDAR.md`. (First instance; mirrors SAM/CARL/BRENT fleet pattern.)
+**Purpose:** Ephemeral session handoff — canonical "where are we / what next." Read at boot, rewritten at closeout. Persistent learnings → `MEMORY.md`; dated catalysts → `CALENDAR.md`.
+
+---
+
+## EVENING SESSION (6/1 ~18:00-20:00 ET — post-power-loss recovery)
+
+**Will lost power mid pass-4 closeout; verified all 5446b64e commits pushed to origin — no work lost.**
+
+- **Fresh boot via boot.py:** VIX 16.05 (+0.12 since EOD), VVIX 91.6 (flat), SKEW 142.46 (-1.72 from 144.18). Knife-edge math unchanged (~5td to resolve). COT no change (next refresh 6/05).
+- **KB-VIO-066 added:** Deep-tail call OI concentration (65-strike) ranks #3 on 6/17 (176,503) and #2 on 7/22 (254,923). CALIBRATION CHECK: 4/17 baseline already had 70-strike at 281,828 OI ranked #3 → deep-tail call concentration is PERSISTENT not a fresh surge. What IS notable: tail concentration spans BOTH sides of 6/17 quad-event = hedgers carrying through July, not unwinding after. Corroborates KB-VIO-062 (SKEW rebid + tail-bid) and KB-VIO-064 (M2 IV event-hedger support) from positioning angle. Mid-session framing-precision correction filed: boot output "(+X%)" is %OTM-vs-spot NOT growth metric.
+- **KB-VIO-067 added — DIET COILED-SPRING BACKTEST (Priority 1 closure):** Built `scripts/diet_coiled_spring.py` (re-runnable), scanned 2007-01 to 2026-06 daily ^VIX/^VVIX/^SKEW (4811 obs). STRICT signature exactly reproduced (46 days/17 episodes including open 4/13/26). DIET signature (ΔSKEW≥+10, ΔVIX≤-2, ΔVVIX≤-10, 20d, NOT also STRICT) yields 37 fires/25 episodes — comparable forward returns to STRICT (fwd60 peak>+50% hit-rate: DIET 65% vs STRICT 62% vs NEITHER 38%). **Era split shows NO GEX-suppression specificity** — DIET fires 2024-25 perform similarly to DIET fires 2012-20. KB-VIO-062 GEX-mechanism claim PARTIALLY SUPERSEDED → STATUS Call-notional/GEX vector downgraded 🟡→⚪.
+- **Position implication:** DIET fires should be treated as KB-VIO-036-class signals for watch-flag purposes. Sizing discipline unchanged (catalyst-then-position; compound-confirmation entry).
+- **Commits (evening):** `f27dfd0e` (KB-VIO-066) pushed; KB-VIO-067 + backtest research file + STATUS amendments pending this closeout commit.
 
 ---
 
@@ -56,14 +68,16 @@
 
 **Commits (all pushed to origin):** `80a10ed5` (catch-up), `ac376e9f` (SCRATCH creation), `7d8f8fb2` (closeout codification + CHANGELOG + LAST_COMPLETION archive), `fca7e6c8` (pass-2 reconciliation), `e6d02ccd` (pass-3 VX_DAILY backfill + yfinance holiday guard).
 
-## NEXT SESSION (priority-ordered)
+## NEXT SESSION (priority-ordered — refreshed after evening session)
 
-1. **🟠 Episode-17 post-mortem + diet coiled-spring backtest** (paired research package) — same underlying GEX-suppression hypothesis from two angles. (a) Why didn't VIX fire on a textbook Episode-17 setup? (b) Does half-magnitude divergence carry signal at reduced hit rate? GEX-conditional KB-VIO-036 efficacy. **Now expand to triple-package: also (c) M1:M2 dimension — Feb 2018 Volmageddon analog comparison. KB-VIO-064 raises this from "watch-flag" to "trigger-bearing watch-flag" needing historical grounding.** Doubly-deferred (5/21 + 6/1); needs dedicated session.
-2. **🟠 M1:M2 daily refresh through 6/17** (~2 min/boot) — KB-VIO-064 falsifiable trigger. Read m1m2_adj_pct in VX_DAILY each boot. ≤8% by 6/10 = trap releasing → downgrade; ≥10% = pile-up intensifies. Pair with knife-edge monitor.
-3. **🟡 Daily knife-edge monitor through 6/10** (~3 min/boot) — recompute 20d_avg + project re-establishment date. If SKEW holds 144 daily, regime re-establishes 6/05; if 142, 6/09. Binary resolves on 5 td of incoming data.
-4. **🟡 6/12-6/17 catalyst pre-mortem** — Three catalysts in one week: 6/12 May CPI, 6/17 FOMC, 6/17-18 SEP. Best built 6/08-6/10 once knife-edge + M1:M2 trajectory resolves. Frame both outcomes: clean absorption (new regime to characterize) vs something cracks (CCC re-acceleration or M1:M2 sustained ≥10% pre-event = setup intact for snap).
-5. **🟠 6/05 COT release disambiguation** (auto-pulled by `boot.py` on next-boot after Fri 6/05 3:30 PM ET) — KB-VIO-065 watch threshold. If Lev Money pct3y breaks <10 = M1:M2 driver = pure speculator crowding → upgrade Volmageddon-shape; if stays >15 = driver = M2-event-hedger-bid → mechanism differs. This is the cleanest near-term thesis-discriminating data point.
-6. **🟡 Cross-agent re-engagement** once fleet architecture work settles — HENRY/BROCK/LIQUID all stale 5/21; their views are inputs to ours. **M1:M2 + COT findings together likely warrant a HENRY signal** (Volmageddon-shape positioning crowding is a macro-tape-relevant data point HENRY would want).
+1. **🟠 Episode-17 trade post-mortem** (Priority 1 residual from triple-package — only (b) backtest closed this session). Reframed by KB-VIO-067: less about GEX-suppression specificity, more about "Episode-17 was a STRICT fire that bucked the 62% peak>+50% hit-rate due to event-absorption mechanics." Needs dedicated session. Now leaner because the backtest already provides the population-level context.
+2. **🟠 Feb 2018 M1:M2 Volmageddon analog** (Priority 1 residual — package piece (c)). KB-VIO-064 raises this from "watch-flag" to "trigger-bearing watch-flag" needing historical grounding. Requires extending `backfill.py` to fetch CBOE settlements for Jan-Feb 2018. Existing `research/crisis_analogs/feb2018_vix_spike.csv` has VIX/VIX3M/VVIX/SKEW/HYG/HY_OAS but no M1:M2 series.
+3. **🟠 6/05 COT release disambiguation** (auto-pulled by `boot.py` on next-boot after Fri 6/05 3:30 PM ET) — KB-VIO-065 watch threshold. Cleanest near-term thesis-discriminating data point.
+4. **🟠 M1:M2 daily refresh through 6/17** (~2 min/boot) — KB-VIO-064 falsifiable trigger. ≤8% by 6/10 = trap releasing → downgrade; ≥10% = pile-up intensifies. Pair with knife-edge monitor.
+5. **🟡 Daily knife-edge monitor through 6/10** (~3 min/boot) — recompute 20d_avg + project re-establishment date.
+6. **🟡 Diet multi-window + threshold-grid sensitivity** (KB-VIO-067 follow-on) — 7d/10d/15d/25d/30d windows × (ΔVIX, ΔVVIX) cuts to find smooth-curve equivalence with STRICT. Lower priority — calibration refinement, not thesis-shifting.
+7. **🟡 6/12-6/17 catalyst pre-mortem** — Best built 6/08-6/10 once knife-edge + M1:M2 trajectory resolves.
+8. **🟡 Cross-agent re-engagement** once fleet architecture work settles.
 
 ## CARRY-FORWARD (lower priority)
 
@@ -74,8 +88,9 @@
 
 ## OPEN HYPOTHESES (flagged, NOT actionable until backtested)
 
-- **GEX-suppression** (KB-VIO-062): record GEX mechanically suppresses VIX/VVIX legs of divergence pattern. Substance-direction-right via SKEW, magnitude-broken via GEX. Could explain 5+ catalyst absorption streak. **Test:** historical regression of KB-VIO-036 efficacy conditional on GEX percentile.
+- **GEX-suppression specificity** (KB-VIO-062): record GEX mechanically suppresses VIX/VVIX legs of divergence pattern. **STATUS: PARTIALLY SUPERSEDED by KB-VIO-067 era-split.** DIET signature worked across full 19yr sample including pre-record-GEX eras → not regime-specific. Standalone GEX-conditional efficacy test still open (would need multi-year SPX gamma series; Spotgamma/SqueezeMetrics archive candidates).
+- **Event-hedger-bid mechanism** (post-KB-VIO-067 working hypothesis): the better explanation for current M1:M2 + tail-call + DIET-but-not-STRICT signature is that hedgers are SPECIFICALLY supporting M2/Jun-quad-event/7/22 pricing while M1 is being smashed by short-vol carry. NOT a generic suppression. **Test:** 6/05 COT release — if Lev Money pct3y stays >15 = event-hedger-bid confirmed; if breaks <10 = pure-speculator-crowding.
 
 ---
 
-*Last rewritten: 2026-06-01 16:25 ET (intra-day pass 3 — VX_DAILY backfill 5/14 → 6/1, yfinance phantom-holiday caught + script patched. R11 dead, R12 knife-edge, diet coiled-spring + GEX hypothesis is the live analytical product.)*
+*Last rewritten: 2026-06-01 19:30 ET (evening session — post-power-loss recovery confirmed clean. KB-VIO-066 tail-call OI persistence + KB-VIO-067 diet coiled-spring backtest filed. Priority 1 piece (b) closed; (a) Episode-17 post-mortem and (c) Feb 2018 M1:M2 analog now top of NEXT SESSION docket.)*
