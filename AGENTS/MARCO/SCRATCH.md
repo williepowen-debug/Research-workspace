@@ -1,55 +1,44 @@
 # MARCO SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-05-31 ET (session 7)
+**Last Updated:** 2026-05-31 ET (session 7, evening)
 
 ## CHANGES SINCE (what moved while offline)
-- Nothing external this session — session 7 followed directly after session 6 (same evening, 9:17 PM ET). No new data releases. Pure housekeeping/infrastructure session.
+- Nothing external — session 7 ran the same evening as session 6. No new data releases.
 
-## WHAT I DID (session 7 — domain cleanup + docket build)
-**1. Legacy-file cleanup (root de-cluttered, 16→11 live .md):**
-- 🗑️ Trashed (via `gio trash`, recoverable in `~/.local/share/Trash` + git history): `MARCO_STARTUP_PROMPT.txt` (dead C:/ Windows paths), `OUTBOX.md` (stale stub; real outbox is `outbox/` dir), `LAST_COMPLETION.md` (legacy, SCRATCH supersedes per CLAUDE.md).
-- 📦 Archived → `domain/sources/_archive/`: `CHECKIN_2026-03-06.md` (was CHECKIN_MAR6.md), `DECK_EVIDENCE_2026-03-13.md` (was DECK_EVIDENCE.md).
-- ♻️ Refreshed `EXPECTED_SIGNALS.md` (was stale) — resolved ES-03 (condo >9mo APPEARED Mar) + ES-02 (snowbird PARTIAL — capacity confirmed, demand >20% did not appear); updated 5 active signals with dated current-reads. Now a live complement to PREDICTIONS.tsv.
-- ✅ Kept: `NOTES.md` (live deportation-data-discrepancy caveat), `MARCO_SKELETON.md` (v1.0 artifact, already marked superseded), `handoffs/` + `archive/` (already subdirs).
+## WHAT I DID (session 7)
+**Part A — infra + cleanup (committed `fb7244d1` + `4be73009`):**
+- Trashed 3 dead files; archived 2 snapshots; refreshed EXPECTED_SIGNALS.md.
+- Built `docket/CATALYSTS.tsv` + `docket/CALENDAR.md` (last deferred infra — MARCO now mirrors SAM/CARL/BRENT). Wired into CLAUDE.md.
+- Verification pass caught + fixed a ledger gap: formalized MAR-21/22/24 into thesis/PREDICTIONS.tsv (they lived only in STATUS). Resolved FLL-vs-TPA (canonical = MIA/MCO/FLL).
 
-**2. Built `docket/` — the last deferred infra (now full SAM/CARL/BRENT mirror):**
-- `docket/CATALYSTS.tsv` — 12-row forward machine feed, peer schema (date/event/what_to_check/threshold_signal/priority/who_cares/notes). Source-of-truth for forward dates.
-- `docket/CALENDAR.md` — countdown twin, grouped by window (overdue / this week / mid-June / late-June-Q3 / Q4-annual), day-counts anchored to 2026-05-31.
-- Built from STATUS KEY DATES + RESEARCH_STATUS gaps + PREDICTIONS timeframes.
+**Part B — produce-attribution decomp (the big one):**
+- Ran deep-research harness on "is the produce spike labor-driven or weather/energy/tariff/FX?"
+- **VERDICT: produce spike is MULTI-CAUSAL; labor is SECONDARY (~10-20%), NOT the dominant/clean signal STATUS claimed.** Real verified co-drivers: FL freeze (Dec'25–Feb'26, $3.17B, USDA disaster decl), Mexican tomato tariff (17% AD, Jul'25), elevated diesel (oil-war spike).
+- **Epistemic whiplash — logged honestly:** harness's energy premise looked like it contradicted SAM/BRENT's "Brent collapse" — but our oil ACTUALLY spiked to $116 (May 5) then collapsed; I'd fed a wrong premise. Then I called the FL freeze FABRICATED on fleet silence; **Will pushed back; external check proved the freeze REAL.** I was wrong twice. Lesson saved to auto-memory (`feedback_verify_existence_external_primaries`).
+- Full record + analyst-error log: `domain/sources/PRODUCE_ATTRIBUTION_DECOMP_2026-05-31.md`.
 
-**3. Wired docket into the system:**
-- CLAUDE.md closeout step 8 rewritten — docket is now forward-state owner; STATUS KEY DATES demoted to pointer.
-- CLAUDE.md deferred-infra note → "Infrastructure (built)"; **no remaining deferred builds.**
-- CLAUDE.md FILES table — added docket/CATALYSTS.tsv, docket/CALENDAR.md, EXPECTED_SIGNALS.md.
-- STATUS.md KEY DATES replaced with docket pointer + imminent-5 near-term cut. Header → session 7.
+**Part C — closeout edits (this commit):**
+1. MAR-21 downgraded 75→50% (ledger + STATUS); Produce situation + dashboard + inflection block reframed to multi-causal.
+2. Flagged the ag-weather coverage gap to PROME (`outbox/2026-05-31_to-PROME_ag-weather-coverage-gap.md`).
+3. RESEARCH_STATUS: produce-decomp thread → COMPLETE; added ag-weather monitoring as new gap.
 
-**4. Verification pass + ledger reconciliation (Will's "double-check" request):**
-- Verified all of the above: TSV machine-clean (7 fields/row, schema byte-identical to SAM), weekdays/day-counts correct, CALENDAR↔TSV consistent, facts match STATUS, deletions recoverable in Trash, archives landed.
-- **Caught + fixed a real gap:** predictions #21/#22/#24 (planting-raid→produce, OIA-negative, all-3-FL-airports) were tracked ONLY in STATUS.md, never in the canonical thesis/PREDICTIONS.tsv ledger. My docket had minted dangling "MAR-21/22/24" refs. **Fixed:** formalized all three into PREDICTIONS.tsv (8-field convention, original-confidence-in-col, Date_Made 2026-02-23 flagged inferred). STATUS↔ledger divergence now fully closed — every STATUS active prediction has a ledger entry.
-- **Resolved the FLL-vs-TPA question:** canonical 3 FL airports = MIA/MCO/FLL (MARCO has baseline data files for all three; TPA is unbaselined). MIG-03 sub-agent's "TPA" is non-canonical — documented in the MAR-24 note.
-
-## NEXT SESSION (dated, future-verifiable)
-1. **Jun 1 (TOMORROW):** Watch ICE/CBP reconciliation passage ($71.7B). 🔴 — if passes, log to TIMELINE + signal NEXUS/LABOR.
-2. **~Jun 2:** Banxico Apr remittances — run the paradox test (does count recover → tax pull-forward, or stay − → SDL-01 confirmed).
-3. **Jun 10:** BLS May CPI fresh F&V — primary signal; feeds the produce-attribution decomp (still Tier-1, not started).
-4. **PULL the StatCan Q1 BOP** (overdue since ~May 28) — Canadian-corridor cross-check.
-5. **Produce-spike attribution decomp** (labor vs weather/energy/tariff) — STILL the top research item, deferred again this session for infra work.
-6. **Cross-agent correction re-sends** (REGINALD condo-tightening, LABOR ICE-off-farms, CARL, NEXUS inflection) — still pending Will's clearance to send.
-7. **TOURISM sub-agent** re-spawn-vs-shelve decision — still open.
+## NEXT SESSION
+1. **Full thesis v2.1 reframe** (deferred tonight — Will tired): produce channel from "pure labor transmission" → "labor + co-drivers" in thesis/THESIS.md + CHANGELOG. Consider MAR-14 (CA produce +15%) caveat too.
+2. **Add MARCO↔BRENT coupling** (oil-war diesel/freight → produce input cost) to COUPLINGS.md — deferred tonight.
+3. **Watch for PROME's ag-weather ownership decision** (responding to tonight's outbox).
+4. Jun 1 reconciliation vote; ~Jun 2 Banxico (remittance paradox test); Jun 10 CPI fresh F&V; pull overdue StatCan Q1 BOP. (See `docket/CALENDAR.md`.)
 
 ## OPEN THREADS
 | Item | Status |
 |------|--------|
-| Produce-attribution decomp | 🔴 Tier-1, deferred 2 sessions for infra — DO NEXT |
-| Remittance paradox (count −3.6% vs $ +4.9%) — tax pull-forward test | 🟠 — Jun 2 Banxico print is the test |
-| Cross-agent correction re-sends | 🟠 — awaiting Will's clearance |
-| TOURISM sub-agent (stalled since Apr 22) | 🟡 — re-spawn or shelve |
-| ICE off-farm pivot durability | 🟡 — Q4 test (in docket) |
-| ✅ ~~Deferred build: docket/~~ | DONE this session — no deferred builds remain |
-| MIG-03 sub-agent says FL airports = MIA/MCO/TPA (canonical = FLL) | 🟡 minor — fix in sub_agents/MIGRATION/workbook/PREDICTIONS.tsv next MIGRATION spawn |
-| MAR-18 (Canadian air capacity) OPEN in ledger but absent from STATUS active table | 🟡 minor — pre-existing; re-add to STATUS active set or confirm intentional drop |
+| Thesis v2.1 produce reframe + MARCO↔BRENT coupling | 🟠 next session (Will-approved direction, deferred for fatigue) |
+| Ag-weather coverage gap | 🟠 awaiting PROME owner decision |
+| Remittance paradox (count −3.6% vs $ +4.9%) | 🟠 — Jun 2 Banxico is the test |
+| Cross-agent correction re-sends (REGINALD/LABOR/CARL/NEXUS) | 🟠 awaiting Will clearance |
+| MIG-03 sub-agent TPA→FLL fix; MAR-18 absent from STATUS active | 🟡 minor |
+| TOURISM sub-agent re-spawn vs shelve | 🟡 |
 
 ## Mail state
-Inbox NOT processed (normal spawn). Outbox empty (no pending signals). No signals sent this session.
+Inbox NOT processed (normal spawn). Outbox: 1 pending → PROME (ag-weather gap), awaiting HERMES delivery.
 
 ## Handoff
-Session 7 = infrastructure complete. MARCO now mirrors the full SAM/CARL/BRENT shape (thesis/ + docket/ both built). Next session is back to RESEARCH: produce-attribution decomp is the overdue Tier-1. Git: committing session-7 housekeeping at closeout.
+Produce decomp RESOLVED — labor demoted from "MARCO's primary signal" to secondary co-driver; the durable win is exposing a real $3.17B FL freeze the whole fleet missed. Key discipline lesson saved to memory. Thesis v2.1 reframe is teed up but intentionally left for a fresh session.
