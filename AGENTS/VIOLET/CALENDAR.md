@@ -84,7 +84,7 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 | 20d SKEW avg + 5td_change | Per boot during knife-edge | inline calc | 2026-06-01 |
 | Catalyst countdown | Per boot | `scripts/catalyst_countdown.py` | 2026-06-01 |
 | VIX options OI | When notable | `scripts/vix_options.py` | 2026-04-17 (overdue) |
-| VX_DAILY.tsv time series | Daily | `scripts/thresholds.py` → append | 2026-05-13 (overdue — needs backfill 5/14 → 6/1) |
+| VX_DAILY.tsv time series | Daily | `scripts/thresholds.py` → append; `scripts/backfill.py` for gaps | 2026-06-01 (backfilled 5/14 → 6/1 EOD; SKEW 6/1 pending T+1) |
 | CFTC COT VIX futures | Weekly Fri | `scripts/cftc_cot.py` (**not yet built**) | Not wired |
 | NAAIM + ICI equity positioning | Weekly Wed/Thu | `scripts/equity_positioning.py` (**not yet built**) | Not wired |
 
@@ -93,4 +93,4 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 ---
 
 *Created: 2026-04-12*
-*Last Updated: 2026-06-01 (catch-up session closeout — calendar reconciled with workbook/CATALYSTS.tsv; June 17 FOMC+SEP+VIX quarterly convergence flagged as highest forward gate; knife-edge dates 6/05-6/10 added; VX_DAILY backfill flagged as overdue.)*
+*Last Updated: 2026-06-01 (catch-up session closeout — calendar reconciled with workbook/CATALYSTS.tsv; June 17 FOMC+SEP+VIX quarterly convergence flagged as highest forward gate; knife-edge dates 6/05-6/10 added. Intra-day pass 3: VX_DAILY backfilled 5/14 → 6/1.)*

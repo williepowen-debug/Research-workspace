@@ -86,6 +86,11 @@ def backfill_spot(days: int, rows: dict[str, dict]) -> int:
 
     # Combine into aligned date index
     df = pd.concat(hist, axis=1).dropna(how="all")
+    # Holiday guard: yfinance ^VIX sometimes carries forward on US market holidays
+    # (e.g. Memorial Day) while companion tickers correctly skip. Require ^VIX3M
+    # corroboration; an orphan ^VIX row is treated as a phantom and dropped.
+    if "vix3m" in df.columns:
+        df = df[df["vix3m"].notna()]
     # Pandas gave us datetime index in ET or UTC — normalize to date
     df.index = [d.date() if hasattr(d, "date") else d for d in df.index]
 
