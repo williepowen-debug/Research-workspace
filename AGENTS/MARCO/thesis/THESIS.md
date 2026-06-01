@@ -1,9 +1,9 @@
-# MARCO THESIS — v2.1
+# MARCO THESIS — v2.2
 
-**Version:** 2.1
-**Last Updated:** 2026-05-31 (session 8 — v2.0→v2.1 minor: produce channel re-attributed multi-causal, see `CHANGELOG.md`)
-**Status:** 🟠 NARROWED — durable core = structural ag-labor supply shock; its produce-price transmission is real but **confounded/multi-causal**, not a clean thermometer. Cyclical channels (tourism, migration, condo, aggregate labor) reversed/softened.
-**Conviction:** HIGH that the ag-labor supply shock exists (2.2M stock loss + H-2A bottleneck, structural/irreversible); **MEDIUM, downgraded, that produce CPI cleanly measures it** (the +6.1% print is multi-causal — labor is one co-driver among freeze + tariff + freight). MEDIUM/LOW and cooling on tourism, internal migration, border-fiscal; WATCH on emigration. *(Conviction split by channel; v2.1 splits Channel 1 further into mechanism-vs-thermometer.)*
+**Version:** 2.2
+**Last Updated:** 2026-05-31 (session 9 — v2.1→v2.2 minor: Canadian-travel channel re-classified structural-not-softened, air/winter vs base-effect-headline split, see `CHANGELOG.md`)
+**Status:** 🟠 NARROWED — durable core = **two structural channels**: (1) ag-labor supply shock (produce transmission real but confounded/multi-causal), and (2) the Canadian-travel boycott (air/snowbird channel + capacity deletion, $ delayed to winter 2026-27). Truly-cyclical channels (condo, aggregate labor) reversed/softened.
+**Conviction:** HIGH that the ag-labor supply shock exists (2.2M stock loss + H-2A bottleneck, structural/irreversible); **MEDIUM, downgraded, that produce CPI cleanly measures it** (multi-causal). **MEDIUM-HIGH on Canadian travel as structural** (v2.2 raised from MEDIUM/bifurcated — the April headline reversal was base-effect; 2-yr stack worsening, sentiment 82%, capacity permanently deleting). MED-LOW and cooling on internal migration; MEDIUM border-fiscal; WATCH on emigration. *(Conviction split by channel; v2.1 split Channel 1 mechanism-vs-thermometer; v2.2 splits Channel 2 structural-vs-base-effect.)*
 **Current live state (daily):** see `../STATUS.md`. **Vector roster:** `../workbook/VX.tsv` (58 vectors). **Predictions:** `PREDICTIONS.tsv`.
 
 ---
@@ -34,11 +34,14 @@ The organizing spine (promotes the prior `workbook/FLOW.tsv` cascades). Each cha
 - **Caveat:** ICE *eased off* ag worksite raids (harvest-protection, May 2026) — the *flow* softened even as the *stock* effect persists. Re-acceleration risk if enforcement returns to ag post-harvest (Q4 2026).
 - Vectors: SDL-01, H2A-01/-02, 2.02, 2.05, CA-02, SFE-04. Research: `../domain/sources/SDL/`, `../domain/sources/LABOR/`, `../domain/sources/PRODUCE_ATTRIBUTION_DECOMP_2026-05-31.md`. Couplings: `../COUPLINGS.md` (MARCO↔BRENT freight edge). Routes to: LABOR, CARL (consumer), REGINALD, BRENT (freight input cost).
 
-### Channel 2 — International Visitor Flows → Regional Tourism $ / FL CRE 🟠 BIFURCATED · **MEDIUM**
-Mechanism: visitor collapse → hospitality/spend → occupancy → tax base + hotel/CRE → bank exposure.
-- **Headline reversed, air channel didn't:** Canadian US-return trips +1.4% YoY (Apr, first rise since Dec '24) — but **auto-driven (+5.8%); air −8.1%.** The air channel (snowbird, long-haul-to-FL) keeps bleeding.
-- **$ stress delayed, not cancelled:** FL aggregate tourism $ held on domestic/overseas substitution; the real Canadian-driven $ hole lands **winter 2026-27** (snowbird no-show, projected $600M-$1.2B). Air Transat exited all 3 Quebec-FL routes; WestJet summer transborder −32% ASM.
-- Vectors: IVF 1.01-1.04, NV-01, CTI-01, FL-01, APT-01, GTR-01, TAX-01, AZ-01. Research: `../domain/sources/TOUR_*`. Routes to: REGINALD/CORAL (FL banks), BRENT (jet fuel).
+### Channel 2 — International Visitor Flows → Regional Tourism $ / FL CRE 🔴 STRUCTURAL (air/winter) / 🟡 base-effect (auto/headline) · **MEDIUM-HIGH** · *re-classified v2.2*
+**v2.2 splits this channel the way v2.1 split Channel 1 — separate the structural signal from the misleading readout.** Mechanism: visitor collapse → hospitality/spend → occupancy → tax base + hotel/CRE → bank exposure.
+- **The April "recovery" was base-effect — the 2-yr stack WORSENED.** StatCan Mar-full (May 21): −6.4% YoY but **−28.0% vs 2024**; Apr prelim +1.4% YoY but **−30.0% vs 2024** (stack deteriorated even as headline flipped positive). The boycott isn't easing; the comparison base is. Sentiment confirms: Nanos May 82% call the boycott helpful. **Stop reading the +1.4% headline as recovery.**
+- **Structural signal = air, not auto.** Auto (same-day land) drives the headline bounce (+5.8% Apr); **air −8 to −11%** — the snowbird/FL-relevant channel — stays negative and its capacity is permanently deleting (Air Transat complete US exit Jun 13; AC winter 26-27 zero new FL routes; WestJet summer −32% ASM; Cdn carriers −450K seats Q1). MIA flipped negative (Mar −1.76%, Apr −2.02%). FL $ rides on air/winter.
+- **Base-effect readout = headline + FLL/MCO airport YoY.** FLL +10.2% Mar prints positive only because 2025 was −11.7%; MCO record spring break on domestic anchor. This is why MAR-24 (all 3 FL airports negative) is *not* met on a YoY basis — same base-effect confounding as the StatCan headline, cutting the other way.
+- **$ stress delayed, not cancelled:** FL aggregate held on domestic/overseas substitution + ADR + Epic + cruise; the Canadian-driven $ hole lands **winter 2026-27** (snowbird no-show, $600M-$1.2B) → FL bank/CRE stress Q1-Q2 2027. NV shows the pattern early (LAS pax −7%, gaming +5% on high-end/convention substitution).
+- **Forward tests:** WestJet winter 2026-27 schedule (~late Jun) is TOUR-05's last open input; StatCan May (Jun 11/23) for whether the stack keeps worsening; Broward TDT first negative month (TOUR-06) = domestic-substitution exhaustion.
+- Vectors: IVF 1.01-1.04 + 1.21-1.26, NV-01, CTI-01, FL-01, APT-01, GTR-01, TAX-01, AZ-01. Research: `../domain/sources/TOUR_*`, `../domain/sources/TOUR_REFRESH_2026-05-31.md`. Sub-agent: `../sub_agents/TOURISM/`. Routes to: REGINALD/CORAL (FL banks), BRENT (jet fuel).
 
 ### Channel 3 — Internal Migration Reversal → Sun Belt Housing / CRE 🟡 SOFTENING · **MED-LOW**
 Mechanism: insurance/climate cost → affordability → out-migration → price decline → bank collateral.
@@ -71,7 +74,7 @@ US-born citizen emigration rising (IRS 4,889 expatriates 2025 record, Q1 +102% Y
 | 2.2M self-deportations 2025 (CBO) | 🔴 smoking gun | **HELD** — irreversible stock loss, defines Channel 1 |
 | H-2A catastrophic shortage in planting season | 🔴 smoking gun | **HELD** — consular bottleneck persists post-shutdown |
 | Produce/food CPI rising | 🟠 strong (was +3.1%) | **RE-ATTRIBUTED (v2.1)** — F&V +6.1% YoY is real but multi-causal (freeze + tariff + freight + labor); labor is a co-driver, not the dominant signal. Not clean labor proof. |
-| Canadian tourism structurally rerouted | 🔴 smoking gun | **PARTIAL** — air −8.1% held; headline rebounded +1.4% (auto) |
+| Canadian tourism structurally rerouted | 🔴 smoking gun | **HELD (v2.2)** — 2-yr stack worsening (−30% Apr vs 2024); sentiment 82%; air −8 to −11% + capacity deleting. Headline +1.4% is base-effect, not a rebound. |
 | FL migration −93%, #1→#8 | 🔴 smoking gun | **HELD but stale** (annual data) |
 | NFP −92K (Feb, "first negative print") | 🔴 smoking gun | **SOFTENED** — Apr +115K, UE 4.3%; Feb was a blip |
 | Mexico remittances −4.6% FY25 (worst since GFC) | 🟠 strong | **FLIPPED** — Mar +4.9%; count −3.6% is the residual tell |
@@ -90,7 +93,8 @@ US-born citizen emigration rising (IRS 4,889 expatriates 2025 record, Q1 +102% Y
 |---------|-----------|-------|
 | 1 — Workforce shock (mechanism) | **HIGH** | → intact / hardening |
 | 1 — Produce-CPI as its proof (thermometer) | **MEDIUM** ↓ | ↓ demoted v2.1 (multi-causal) |
-| 2 — Visitor Flows → FL CRE | MEDIUM | ↓ bifurcating |
+| 2 — Visitor Flows → FL CRE (air/winter channel) | **MEDIUM-HIGH** ↑ | ↑ re-classified structural v2.2 (was bifurcating) |
+| 2 — Canadian headline YoY as a readout | LOW | ↓ base-effect noise, not a recovery signal |
 | 3 — Migration → Sun Belt housing | MED-LOW | ↓ softening |
 | 4 — Cross-border → muni fiscal | MEDIUM | → slow grind |
 | 5 — American emigration | LOW | → watch |
@@ -103,7 +107,7 @@ v1.0 listed 4 invalidation conditions. **The honest v2.0 accounting: two partial
 
 | v1.0 invalidation condition | Status 2026-05-31 |
 |---|---|
-| Canadian tourism rebounds to within 10% of 2024 | **PARTIAL** — headline +1.4% but air −8.1%; → Channel 2 conviction cut |
+| Canadian tourism rebounds to within 10% of 2024 | **NO (v2.2 correction)** — 2-yr stack −30% vs 2024 and *worsening*; the +1.4% headline is base-effect. Condition not met; Channel 2 re-classified structural. |
 | Labor shortage filled domestically | **NO** — Channel 1 intact; produce still +6.1% |
 | FL RE stabilizes / outperforms Snowbelt | **PARTIAL** — condo tightening to 8.9mo; → Channel 3 conviction cut |
 | Net US immigration returns to +500K/yr | **NO** |
@@ -111,7 +115,7 @@ v1.0 listed 4 invalidation conditions. **The honest v2.0 accounting: two partial
 **Channel-1 (spine) kill conditions:** the kill test is now on the *mechanism*, not the produce thermometer (which v2.1 demoted as confounded). Kill = H-2A backlog clearing AND enforcement materially de-funded AND no wage/output signal in ag-labor data. None met (reconciliation funds enforcement through term). Note: fresh F&V CPI falling is *no longer* a clean kill signal — it could fall on diesel/freeze reversal while the labor shock persists (precisely the v2.1 confounding).
 
 ## COUNTER-SIGNALS → routed to RED
-The bear case against MARCO's own thesis, stated plainly: DHS shutdown resolved (acute disruption over); FL condo tightening (supply absorbed); Canadian headline positive; NFP rebound (no labor collapse); remittance $ positive; ICE eased off farms (raid flow down). If these *cyclical* reversals were the whole story, the thesis would be broken — they are not, because Channel 1 is a stock/structural effect they don't touch. RED owns adjudicating whether the spine holds.
+The bear case against MARCO's own thesis, stated plainly: DHS shutdown resolved (acute disruption over); FL condo tightening (supply absorbed); NFP rebound (no labor collapse); remittance $ positive; ICE eased off farms (raid flow down). If these *cyclical* reversals were the whole story, the thesis would be broken — they are not, because Channels 1 and 2 are stock/structural effects they don't touch. **(v2.2 note: the "Canadian headline +1.4%" that earlier looked like a sixth bear-point washed out as base-effect — the 2-yr stack is worsening. It is no longer counted against the thesis.)** RED owns adjudicating whether the spine holds.
 
 ## TRADEABLE EXPRESSIONS
 MARCO produces series, not instruments (REGINALD/FORGE pick instruments). Candidates from `../TRADE.md`:

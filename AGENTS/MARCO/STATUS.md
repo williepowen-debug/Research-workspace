@@ -1,5 +1,5 @@
 # MARCO STATUS
-**Last Updated:** 2026-05-31 ET (session 8 — thesis v2.1: produce channel re-attributed multi-causal; BRENT diesel/freight cross-check; MAR-21 resolved) | **Status:** 🟠 ELEVATED (downgraded from 🔴) — **THESIS INFLECTION: cyclical stress signals reversed, structural supply-shock persists. DHS shutdown ENDED Apr 30; FL condo tightening; Canadian headline + NFP + remittances $ all flipped positive. Only ICE-funding + H-2A bottleneck clearly structural. PRODUCE channel SPLIT (v2.1): labor-shock MECHANISM intact/HIGH, but produce CPI THERMOMETER demoted to MEDIUM — multi-causal (FL freeze + tomato tariff + transient diesel/freight), labor a co-driver not the dominant signal. See Produce situation + thesis v2.1.**
+**Last Updated:** 2026-05-31 ET (session 9 — TOURISM full refresh to current + thesis v2.2: Canadian-travel channel re-classified structural-not-softened) | **Status:** 🟠 ELEVATED — **THESIS INFLECTION (refined): structural channels (ag-labor shock, Canadian-travel) persist; truly-cyclical channels (condo, NFP) reversed. TOURISM CORRECTION (session 9): the April Canadian +1.4% YoY "recovery" was BASE-EFFECT — the 2-yr stack vs 2024 WORSENED (−28% Mar → −30% Apr); Nanos May 82% boycott-helpful (no softening); MIA flipped negative; Air Transat completes total US exit Jun 13. Canadian travel moves back from "softened" → STRUCTURAL, split air/winter (structural-intact) vs auto/headline (base-effect noise) — mirror of the produce mechanism-vs-thermometer split. See thesis v2.2 + Canadian Travel situation. PRODUCE (v2.1): labor MECHANISM intact/HIGH, produce CPI THERMOMETER demoted/MEDIUM (multi-causal).**
 
 ---
 
@@ -10,7 +10,7 @@ Five weeks of data (Apr 23 → May 31) broke the "10-breached acute-crisis" fram
 **REVERSED / SOFTENED (cyclical):**
 - DHS shutdown **ENDED Apr 30** (76-day record). TSA/FEMA/CG/CISA/SS funded. TSA callout normalizing (~10.6%, was 12.4% peak).
 - FL condo inventory **8.9mo Apr** — *fell back below* 9.0 threshold from 9.1mo; sales rising, inventory tightening statewide.
-- Canadian visitors **+1.4% YoY Apr** — first YoY *increase* since Dec 2024 (auto +5.8%; **air still −8.1%**).
+- Canadian visitors **headline +1.4% YoY Apr** — but this is **BASE-EFFECT, NOT recovery** (see structural column; session-9 correction). Only the auto/same-day-land sub-channel actually recovered.
 - Mexico remittances **+4.9% YoY Mar** ($5.39B record), Q1 +1.4% — dollar value flipped positive (count −3.6%, see caveat).
 - NFP **+115K Apr**, UE **4.3%** (down from 4.4%), Mar revised to +185K — labor market rebounded; Feb −92K was a blip.
 - ICE **eased off agricultural worksite raids** — pivoted enforcement to Democratic cities to protect harvest.
@@ -20,8 +20,9 @@ Five weeks of data (Apr 23 → May 31) broke the "10-breached acute-crisis" fram
 - **ICE funding locked:** $71.7B reconciliation text (May 4) — $38B ICE / $26B CBP / $32.5B HSGAC. Enforcement unconstrained through Trump's term.
 - **H-2A bottleneck persists:** Red River Valley potato delays; South Africa consular interviews backed to July.
 - Underlying **2.2M self-deportation supply shock** is irreversible — the durable transmission to produce prices.
+- **Canadian travel — STRUCTURAL (re-classified session 9, was "softened"):** 2-yr stack vs 2024 *worsened* −28% Mar → −30% Apr (the +1.4% headline is base-effect); Nanos May 82% boycott-helpful; **air −8 to −11%** (the FL-relevant snowbird channel) while only auto/land recovers; Air Transat completes total US exit Jun 13; AC winter 26-27 zero new FL routes. FL Canadian-$ hole still lands winter 2026-27 ($600M-$1.2B). Split: **air/winter = structural-intact, auto/headline = base-effect noise.**
 
-**Reframe:** Stop modeling this as an acute multi-front crisis. The durable signal is a **slow structural ag-labor supply shock** driven by the 2.2M supply shock + unconstrained ICE funding — NOT tourism, condos, or aggregate labor, which have normalized. **v2.1 caveat:** do NOT use CPI F&V as the clean proof of it. The +6.1% produce print is multi-causal — labor is a co-driver alongside the FL freeze, tomato tariff, and a *transient* diesel/freight pulse (crude $116 May 5, now −19% on the month; pump relief Jun). The mechanism is solid; the produce thermometer is confounded. June/July CPI vs. pump-price decoupling is the discriminating test (ES-MARCO-08).
+**Reframe:** Stop modeling this as an acute multi-front crisis. The durable signals are **(1) a slow structural ag-labor supply shock** (2.2M stock loss + unconstrained ICE funding) and **(2) the Canadian-travel boycott** — both structural, both still transmitting (ag-labor → produce; travel → winter 2026-27 FL $). Truly normalized: condos (tightening), aggregate labor (NFP rebound). **Session-9 correction:** tourism does NOT belong in the normalized bucket — the April headline reversal was base-effect; the structural air/snowbird channel + capacity deletion are intact and the FL $ hole is just timing-delayed to winter. **v2.1 caveat:** do NOT use CPI F&V as the clean proof of it. The +6.1% produce print is multi-causal — labor is a co-driver alongside the FL freeze, tomato tariff, and a *transient* diesel/freight pulse (crude $116 May 5, now −19% on the month; pump relief Jun). The mechanism is solid; the produce thermometer is confounded. June/July CPI vs. pump-price decoupling is the discriminating test (ES-MARCO-08).
 
 ---
 
@@ -35,13 +36,16 @@ Five weeks of data (Apr 23 → May 31) broke the "10-breached acute-crisis" fram
 | ICE Ag Raids | **Eased off farms** — ICE refraining from ag worksite enforcement, pivoted to Democratic cities (harvest-protection). | 🟠 SOFTENED |
 | H-2A Bottleneck | Red River Valley potato delays; South Africa consular interviews → July (past planting). FY26 demand accelerating. | 🔴 LIVE |
 | FL Condo Inventory | **8.9mo Apr** (↓ from 9.1mo Mar; *below* 9.0). Miami-Dade 12.9mo (↓ from 13.7 YoY), PB 8.2mo (↓ from 10.4). Tightening. | 🟡 SOFTENED |
-| Canadian Visitors to US | **Apr +1.4% YoY** (1.8M; first YoY rise since Dec '24). Auto +5.8%, **AIR −8.1%**. Air channel (snowbird/FL) still bleeding. | 🟠 BIFURCATED |
+| Canadian Visitors to US | **Apr headline +1.4% YoY but −30% vs 2024** (2-yr stack worsened from −28% Mar = base-effect, NOT recovery). Auto +5.8%; **AIR −8.1%** (snowbird/FL channel bleeding). Nanos May **82% boycott-helpful** — no softening. | 🔴 STRUCTURAL (re-classified session 9) |
+| FL Airports (Mar/Apr) | **MIA flipped negative: −1.76% Mar, −2.02% Apr** (Apr domestic −3.27% = new signal). FLL +10.2% Mar = base-effect (vs 2025 −11.7%). MCO record spring break. **All-3-negative (MAR-24) NOT met.** | 🟠 MIA CRACKING |
+| Canadian Airline Capacity | **Air Transat COMPLETE US exit Jun 13**; AC winter 26-27 zero new FL routes; WestJet summer −32% ASM; Cdn carriers −450K seats Q1. | 🔴 DELETING |
+| LAS / NV (Mar/Apr) | LAS pax **−7.1% Apr** (intl −12 to −15%, bleeding) but NV gaming **+5.3% Apr / +11.8% Mar** — bodies down, dollars up (high-end/convention substitution). | 🟠 BODIES↓ $↑ |
 | Mexico Remittances | **Mar +4.9% YoY** ($5.39B record); Q1 +1.4% ($14.45B). BUT transfer **count −3.6%**, avg transfer +8.9% — likely 1% tax pull-forward / FX. | 🟡 $-FLIPPED |
 | NFP Apr 2026 | **+115K** (beat 55K est), UE **4.3%** (↓ from 4.4%), Mar revised +185K. Part-time-for-econ +445K (soft underbelly). | 🟢 REBOUNDED |
 | FL Net Domestic Migration | 22,517 (93% collapse); Miami −2.0% — STALE (annual Census, no new print). | 🟡 STALE |
 | E-Verify | ✅ OPERATIONAL | 🟢 ACTIVE |
 
-**Composite: 3 structural-hardening (ICE funding, H-2A, PRODUCE) | 4 reversed/softened | 2 stale**
+**Composite: 4 structural-hardening (ICE funding, H-2A, PRODUCE-mechanism, CANADIAN-TRAVEL) | 3 reversed/softened (condo, NFP, remittance-$) | 2 stale | tourism sub-signals (MIA, capacity, LAS) all confirm the structural read**
 
 ---
 
@@ -94,11 +98,14 @@ Five weeks of data (Apr 23 → May 31) broke the "10-breached acute-crisis" fram
 - NASS Farm Labor Survey still CANCELED (Aug 2025) — permanent data blind spot. Replacement framework: OFLC H-2A disclosure, BLS QCEW NAICS 11, NASS Crop Progress, State Dept visa issuances, CPI F&V. (→ `domain/sources/AG_LABOR_ALT_SOURCES_MAR26.md`)
 - Prediction #11 (H-2A >425K FY26) still live — demand accelerating.
 
-### Canadian Travel — BIFURCATED (🟠, was 🔴 STRUCTURAL)
-- **StatCan Apr 2026 (released May 11):** Canadian return trips from US = **1.8M, +1.4% YoY** — first YoY increase since Dec 2024. Driven by **auto +5.8%**.
-- **Air still −8.1% YoY** — the air channel (snowbird, long-haul-to-FL relevant) continues bleeding while drive-across recovers.
-- Headline crossing positive is the base-effect moderation flagged back in Apr (TOUR-01 reframe to 2-yr stack was correct). The structural story now lives in the **air channel + winter snowbird capacity**, not the headline.
-- Capacity still left: Air Transat exited all 3 Quebec-FL routes (May-Jun); WestJet summer transborder −32% ASM; Air Canada winter 2026-27 zero new FL routes.
+### Canadian Travel — STRUCTURAL (🔴, re-classified from 🟠 BIFURCATED — session-9 full refresh)
+- **The April "recovery" was base-effect.** StatCan Mar-full (May 21): 2.6M, −6.4% YoY but **−28.0% vs 2024**. Apr prelim: 1.85M, +1.4% YoY but **−30.0% vs 2024** — the 2-yr stack *worsened* even as the headline flipped positive. Absolute Canadian volume still sliding; the comparison base eased, not the boycott. TOUR-01 (framed on the stack) confirmed; conf 80→85.
+- **Sentiment NOT softening:** Nanos May 3-6 (n=1,003) — **82% call the boycott "helpful"** (53%+29%). A May reading, post any trade-thaw. 15th+ consecutive month of decline.
+- **Air ≠ auto:** auto (same-day land) drives the headline bounce (+5.8% Apr); **air −8.1% Apr / −10.8% Mar** — the snowbird/FL-relevant channel, structurally negative and its capacity permanently deleting. FL $ rides on air.
+- **MIA flipped negative** (Mar −1.76%, Apr −2.02%; Apr domestic −3.27% = new broader-demand signal) → TOUR-04 RESOLVED-CORRECT. But **MAR-24 (all 3 FL airports negative) NOT met** — FLL +10.2% Mar / MCO record spring break print positive on base-effect (lapping depressed 2025). Base-effect protects FLL/MCO headline.
+- **Capacity deletion locked:** Air Transat **complete US exit Jun 13** (YUL-FLL last flight); AC winter 2026-27 zero new FL/US routes (dropped YVR-Tampa; 11 new snowbird routes all non-US); WestJet summer −32% ASM; Cdn carriers −450K seats Q1. TOUR-03→90%, TOUR-05→85%.
+- **Asymmetry widening:** US→Canada Apr +7.3% (air +10.8%); Q1 BOP (May 28) — Canada now net travel-services exporter (+$1.3B), US-travel spend declining.
+- **$ stress delayed not absent:** NV shows the pattern early (LAS pax −7%, gaming +5% on high-end/convention substitution). FL Canadian-$ hole lands **winter 2026-27** ($600M-$1.2B) → REGINALD bank/CRE stress Q1-Q2 2027. Detail: `domain/sources/TOUR_REFRESH_2026-05-31.md`.
 
 ### Mexico Remittances — DOLLAR-VALUE REVERSAL (🟡, was 🔴)
 - **Banxico Mar 2026:** $5.39B, **+4.9% YoY** — record for March. Q1 2026 $14.45B, **+1.4% YoY** — best Q1 since 2023.
@@ -108,7 +115,7 @@ Five weeks of data (Apr 23 → May 31) broke the "10-breached acute-crisis" fram
 ### Florida Triple Exposure — COOLING (🟡, was UPGRADED)
 - Condo inventory **8.9mo Apr** (fell below 9.0; sales up, inventory tightening). Miami-Dade 12.9mo (↓ from 13.7 YoY), Lee still elevated, PB 8.2mo. The distress-inventory thesis softened — supply is being absorbed, not piling up.
 - Migration (93% collapse, Miami −2.0%) stale — annual Census, no new print.
-- Airports: spring 2026 at record/near-record volumes (domestic anchor absorbing); Canadian/discretionary weakness concentrated in air. Clean April YoY pending.
+- Airports (session-9 update): **MIA flipped negative** (Mar −1.76%, Apr −2.02%); FLL +10.2% Mar but base-effect; MCO record spring break (domestic anchor). Canadian/discretionary weakness concentrated in air + winter capacity, not yet aggregate FL airport volume.
 - Insurance (FL Citizens) exposure — no fresh print; was $678.8B.
 - **Net:** FL acute-stress timing pushed right; aggregate $ stress still projected for **winter 2026-27** (snowbird no-show, $600M-$1.2B), not Q2-Q3 2026.
 
@@ -122,8 +129,8 @@ Five weeks of data (Apr 23 → May 31) broke the "10-breached acute-crisis" fram
 | 14 | CA produce prices +15% | H2 2026 | **74%** | ↑ 72→74. F&V trajectory accelerating; SDL-01 stock loss + H-2A bottleneck intact. |
 | 26 | ICE construction raids → housing-start delays (TX, AZ, FL) | Q2 2026 | **72%** | ↓ 80→72. ICE pivoted off worksite raids toward cities — construction-raid intensity likely easing alongside ag. Stock effect remains; flow softened. |
 | 11 | H-2A certifications >425K | FY 2026 | 75% | Demand accelerating; bottleneck = processing, not demand. |
-| 24 | All 3 FL airports negative simultaneously | Q3 2026 | **55%** | ↓ 65→55. Spring record volumes; domestic anchor absorbing. Air channel weak but aggregate positive. |
-| 22 | OIA flips negative | Q2-Q3 2026 | **55%** | ↓ 70→55. Record spring volumes argue against near-term flip. |
+| 24 | All 3 FL airports negative simultaneously | Q3 2026 | **45%** | ↓ 55→45 (session 9). MIA flipped (−2% Apr) but FLL +10.2% Mar / MCO record spring break = base-effect (lapping depressed 2025) PROTECTS their headline YoY. On YoY basis unlikely near-term; on 2-yr stack all 3 are down. Consider reframing to 2-yr stack like TOUR-01. |
+| 22 | OIA/MCO flips negative | Q2-Q3 2026 | **50%** | ↓ 55→50 (session 9). MCO Jan +3.0%, spring break +8% record (7.4M) — domestic anchor strongly positive, argues against near-term flip. (Distinct from MIA, which flipped → TOUR-04 resolved at sub-agent.) |
 | 25 | ✅ TSA disruption → measurable FL airport delays | NOW | ✅ | RESOLVED-CORRECT. Shutdown ended; thesis played out. |
 | 8 | ✅ FL condo inventory >9 months | Q2 2026 | ✅ | RESOLVED-CORRECT (9.1mo Mar). NB: reverted to 8.9mo Apr — one-month breach, now tightening. |
 
