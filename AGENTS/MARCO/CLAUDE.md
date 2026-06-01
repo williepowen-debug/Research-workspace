@@ -17,12 +17,29 @@ Three domains: (1) International Visitor Flows (Canadian collapse -28%), (2) Wor
 
 ## SPAWN PROTOCOL
 
-1. **Read `STATUS.md`** — active situations, signal dashboard, confirmed findings
-2. **Execute the task**
-3. **Write results back to `STATUS.md`** — update dashboard, add findings, adjust predictions
-4. **Research detail → `domain/sources/` or `baselines/`**
+**Boot and closeout are one symmetric sequence: what you READ at boot, you WRITE BACK at closeout.** The CLOSEOUT phase runs at **EVERY session end, not just end-of-day** — it is the back half of this protocol, not optional. Read→write pairings: STATUS (read 1 → write 5), SCRATCH (read 2 → write 9), predictions-due (surface 3 → resolve 6).
 
+### Boot (read phase)
+1. **Read `STATUS.md`** — active situations, signal dashboard, confirmed findings, thesis-inflection block.
+2. **Read `SCRATCH.md`** — last session's canonical handoff: open threads, NEXT SESSION items, pending decisions.
+3. **Surface predictions-due** — eyeball OPEN rows in `PREDICTIONS.tsv` whose Timeframe has passed; flag any DUE for resolution at closeout (don't let a prediction sit OPEN-but-stale).
 
+### Execute
+4. **Execute the task.**
+
+### Closeout (write-back — run at EVERY session end)
+5. **`STATUS.md` write-back** — dashboard, active situations, adjusted predictions/confidence; threshold breaches + inflections to the top. Keep under 250 lines (archive overflow to `domain/sources/_archive/`). *(Mirror of boot 1.)*
+6. **Resolve predictions flagged DUE at boot** in `PREDICTIONS.tsv` — resolve / re-arm-with-reason / push-date-with-reason; never leave OPEN-but-stale. Separate "mechanism intact" from "threshold breached." *(Mirror of boot 3.)*
+7. **Workbook updates** — new facts/claims → `workbook/KB.tsv`; changed indicator levels/status → `workbook/VX.tsv`; transmission/cascade mechanics → `workbook/FLOW.tsv`.
+8. **ROOMS + forward-state maintenance** — archive any closed `thread.md` → `sub_agents/[NAME]/threads/archive/` + one-line in `threads/INDEX.md`; log sub-agent "Requires cross-agent input" items → `DEFERRED.md`; update `COUPLINGS.md` if edges changed; refresh the `KEY DATES` table in STATUS (MARCO's forward-state twin — no machine docket yet).
+9. **Rewrite `SCRATCH.md`** as the canonical session handoff: CHANGES SINCE (what moved while offline) / WHAT I DID / NEXT SESSION (dated, future-verifiable) / OPEN THREADS / one-line mail state. *(Mirror of boot 2. `LAST_COMPLETION.md` is legacy — SCRATCH supersedes it.)*
+10. **Promotion scan** — thesis-level finding → STATUS top-block + auto-memory (no `thesis/` dir yet); transferable cross-agent lesson → auto-memory (`~/.claude/projects/-home-willi-Research-workspace/memory/` + one-line index in its `MEMORY.md`); cross-agent signals → `outbox/` per Outbox Protocol.
+11. **Git** — per root CLAUDE.md: `git reset HEAD` → `git add AGENTS/MARCO/` → `git diff --cached --stat` (verify nothing outside your dir) → commit → push (pull-rebase first if origin diverged). If blocked by other agents' uncommitted work, **note the pending push in `SCRATCH.md`** and defer.
+12. **Research detail → `domain/sources/` or `baselines/`.**
+
+**Discipline overlay (throughout closeout):** one source of truth per metric — own it in the owner doc, reference from others; never write the same value twice. Stale-marked > carried-forward-as-current — if you can't refresh a value, mark it `[STALE]` with the date.
+
+**Deferred infrastructure (not yet built — route around for now):** (a) `thesis/` machinery (THESIS.md + CHANGELOG + TIMELINE w/ version bumps, as SAM/CARL/BRENT have) — until built, thesis-level changes live in STATUS top-block + auto-memory; (b) `docket/CATALYSTS.tsv` machine-feed + countdown — until built, forward-state lives in STATUS `KEY DATES`. Both are candidate future builds toward a full SAM/CARL/BRENT mirror.
 
 **MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
 
