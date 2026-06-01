@@ -22,6 +22,11 @@
 - CLAUDE.md FILES table — added docket/CATALYSTS.tsv, docket/CALENDAR.md, EXPECTED_SIGNALS.md.
 - STATUS.md KEY DATES replaced with docket pointer + imminent-5 near-term cut. Header → session 7.
 
+**4. Verification pass + ledger reconciliation (Will's "double-check" request):**
+- Verified all of the above: TSV machine-clean (7 fields/row, schema byte-identical to SAM), weekdays/day-counts correct, CALENDAR↔TSV consistent, facts match STATUS, deletions recoverable in Trash, archives landed.
+- **Caught + fixed a real gap:** predictions #21/#22/#24 (planting-raid→produce, OIA-negative, all-3-FL-airports) were tracked ONLY in STATUS.md, never in the canonical thesis/PREDICTIONS.tsv ledger. My docket had minted dangling "MAR-21/22/24" refs. **Fixed:** formalized all three into PREDICTIONS.tsv (8-field convention, original-confidence-in-col, Date_Made 2026-02-23 flagged inferred). STATUS↔ledger divergence now fully closed — every STATUS active prediction has a ledger entry.
+- **Resolved the FLL-vs-TPA question:** canonical 3 FL airports = MIA/MCO/FLL (MARCO has baseline data files for all three; TPA is unbaselined). MIG-03 sub-agent's "TPA" is non-canonical — documented in the MAR-24 note.
+
 ## NEXT SESSION (dated, future-verifiable)
 1. **Jun 1 (TOMORROW):** Watch ICE/CBP reconciliation passage ($71.7B). 🔴 — if passes, log to TIMELINE + signal NEXUS/LABOR.
 2. **~Jun 2:** Banxico Apr remittances — run the paradox test (does count recover → tax pull-forward, or stay − → SDL-01 confirmed).
@@ -40,6 +45,8 @@
 | TOURISM sub-agent (stalled since Apr 22) | 🟡 — re-spawn or shelve |
 | ICE off-farm pivot durability | 🟡 — Q4 test (in docket) |
 | ✅ ~~Deferred build: docket/~~ | DONE this session — no deferred builds remain |
+| MIG-03 sub-agent says FL airports = MIA/MCO/TPA (canonical = FLL) | 🟡 minor — fix in sub_agents/MIGRATION/workbook/PREDICTIONS.tsv next MIGRATION spawn |
+| MAR-18 (Canadian air capacity) OPEN in ledger but absent from STATUS active table | 🟡 minor — pre-existing; re-add to STATUS active set or confirm intentional drop |
 
 ## Mail state
 Inbox NOT processed (normal spawn). Outbox empty (no pending signals). No signals sent this session.
