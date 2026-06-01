@@ -1,11 +1,13 @@
 date	event	type	agent_domain	expected_vol_impact	source	notes
-2026-04-29	FOMC Rate Decision + Powell	FOMC	VIOLET/HENRY	HIGH	CME FedWatch	Fed put test. 93.8% hold priced. Hawkish surprise → vol spike. VIOLET SKEW scenario checkpoint same day.
-2026-05-01	BOJ Rate Decision	BOJ	SAM/VIOLET	HIGH	BOJ schedule	Hike pricing after USD/JPY 160 + JGB yield surge Mar 27. Yen intervention risk.
-2026-04-30	Core PCE (March)	DATA	CARL/HENRY	MEDIUM	BLS	Post-oil-shock pass-through. Hot print = stagflation reinforced, no-cut narrative strengthens.
-2026-05-02	NFP (April)	DATA	LABOR	MEDIUM	BLS	Labor data drives Fed path.
-2026-04-16	OZK Q1 Earnings	EARNINGS	REGINALD/FORGE	MEDIUM	OZK IR	First hard CRE thesis test. Collides with RED HY OAS falsification day 5.
-2026-04-17	KRE $68 put-wall expiry	OPEX	FORGE/REGINALD	LOW	option chain	Post-OZK earnings; dealer gamma rolls.
-2026-05-16	OPEX (May monthly)	OPEX	VIOLET/HENRY	LOW	option cycle	Standard monthly expiry.
-2026-06-17	FOMC Rate Decision + Dot Plot	FOMC	VIOLET/HENRY	HIGH	FOMC schedule	Current FedWatch 81.2% hold.
-2026-06-15	VIOLET SKEW scenario full checkpoint	INTERNAL	VIOLET	—	KB-VIO-031	60-day window closes on Apr 13 SKEW pattern trigger.
-2026-04-29	VIOLET SKEW scenario early checkpoint	INTERNAL	VIOLET	—	KB-VIO-031	2-week read on scenario A/B. Same day as FOMC.
+2026-06-05	R12 regime re-establishment knife-edge (5td path)	INTERNAL	VIOLET	—	KB-VIO-061	If SKEW holds 144 daily from 6/1, 20d-avg crosses 140 on 6/05. Re-establishes "longest in history + active divergence" framing right before CPI/FOMC.
+2026-06-10	R12 regime re-establishment knife-edge (8td path)	INTERNAL	VIOLET	—	KB-VIO-061	If SKEW holds 142 daily, regime re-establishes by 6/09-6/10. Latest realistic timing for re-establishment before catalyst gate.
+2026-06-12	May CPI release	DATA	CARL/HENRY	HIGH	BLS	First named macro test post-R11-window. CPI hot path = potential vol catalyst; clean print = continued gauntlet-absorb signature.
+2026-06-15	VIOLET SKEW scenario full checkpoint	INTERNAL	VIOLET	—	KB-VIO-031	60-day window closes on Apr 13 SKEW divergence trigger. Scenario A/B/C resolution.
+2026-06-17	VIX June expiration (quarterly)	OPEX	VIOLET/HENRY	MEDIUM	option cycle	Quarterly — high volume. Pin risk on dealer gamma.
+2026-06-17	FOMC Rate Decision + Powell	FOMC	VIOLET/HENRY	HIGH	FOMC schedule	Primary vol catalyst gate. Current FedWatch ~80% hold (refresh at boot). First post-Apr-dissent meeting.
+2026-06-17	FOMC SEP (Summary of Economic Projections)	FOMC	VIOLET/HENRY/CARL	HIGH	FOMC schedule	First dot-plot since Apr 4-dissent split. Dot-plot reset = potential vol catalyst.
+2026-07-15	VIX July expiration	OPEX	VIOLET/HENRY	LOW	option cycle	Standard monthly.
+2026-07-29	FOMC Rate Decision	FOMC	VIOLET/HENRY	HIGH	FOMC schedule	No SEP. Powell presser only.
+2026-08-19	VIX August expiration	OPEX	VIOLET/HENRY	LOW	option cycle	Standard monthly.
+2026-09-16	VIX September expiration (quarterly)	OPEX	VIOLET/HENRY	MEDIUM	option cycle	Quarterly.
+2026-09-16	FOMC Rate Decision + SEP	FOMC	VIOLET/HENRY/CARL	HIGH	FOMC schedule	Quarterly dot-plot.
