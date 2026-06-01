@@ -36,7 +36,7 @@
 - CALENDAR.md `VX_DAILY.tsv time series` row updated 5/13 → 6/1.
 - 6/1 SKEW EOD still empty (CBOE T+1 publication lag — next-boot refresh).
 
-**Commits (all pushed to origin):** `80a10ed5` (catch-up), `ac376e9f` (SCRATCH creation), `7d8f8fb2` (closeout codification + CHANGELOG + LAST_COMPLETION archive), `fca7e6c8` (pass-2 reconciliation), [pending — pass-3 VX_DAILY backfill].
+**Commits (all pushed to origin):** `80a10ed5` (catch-up), `ac376e9f` (SCRATCH creation), `7d8f8fb2` (closeout codification + CHANGELOG + LAST_COMPLETION archive), `fca7e6c8` (pass-2 reconciliation), `e6d02ccd` (pass-3 VX_DAILY backfill + yfinance holiday guard).
 
 ## NEXT SESSION (priority-ordered)
 
