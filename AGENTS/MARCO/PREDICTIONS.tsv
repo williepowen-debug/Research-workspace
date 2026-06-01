@@ -1,14 +1,14 @@
 Pred_ID	Date_Made	Prediction	Confidence	Timeframe	Status	Date_Resolved	Outcome	Notes
 MAR-10	2026-02-23	Canadian visitors >-20% YoY	80%	Through Q2 2026	CONFIRMED	2026-01-20	-28% confirmed
 MAR-15	2026-02-23	Mexico remittances full-year decline	75%	2025 FINAL	CONFIRMED	2026-02-17	-4.6% ($61.8B) worst since 2009
-MAR-18	2026-02-23	Canadian airline US capacity stays -10%+	75%	Through Q2 2026	OPEN		On track
+MAR-18	2026-02-23	Canadian airline US capacity stays -10%+	75%	Through Q2 2026	OPEN		On track. Apr 2026 air returns -8.1% YoY (auto flipped +5.8%; headline +1.4%). Air Transat exited all 3 Quebec-FL routes; WestJet summer transborder -32% ASM. Air channel still bleeding.
 MAR-19	2026-02-23	FL March Break Canadian bookings -20%+	80%	Mar 2026	OPEN		Forward bookings collapsed
 MAR-01	2026-02-23	Nogales residential floor at -50% to -60%	65%	Q2 2026	OPEN		Currently -43.2%
-MAR-08	2026-02-23	FL condo inventory >9 months	75%	Q2 2026	OPEN		Currently 8.8mo
+MAR-08	2026-02-23	FL condo inventory >9 months	75%	Q2 2026	CONFIRMED	2026-04-17	9.1mo Mar 2026 (FL Realtors) breached 9.0 before Q2 midpoint. NB: reverted to 8.9mo Apr — one-month breach, inventory now tightening (sales up).
 MAR-17	2026-02-23	FL Citizens exposure >$750B	60%	Q4 2026	OPEN		Currently $678.8B
 MAR-11	2026-02-23	H-2A certifications >425K	80%	FY 2026	OPEN		FY2025 was 415K; admin emergency rules cutting wages + pushing volume; UFW lawsuit ongoing
 MAR-12	2026-02-23	Central America remittances -10% (reversal)	60%	H2 2026	OPEN		Currently +20-26%
-MAR-14	2026-02-23	CA produce prices +15%	55%	H2 2026	OPEN		
+MAR-14	2026-02-23	CA produce prices +15%	55%	H2 2026	OPEN		On track / accelerating. CPI fresh F&V +6.1% YoY Apr 2026 (was +4.0% Mar); fresh veg +3.1% MoM. SDL-01 stock loss + H-2A bottleneck driving. Conf raised to 74% in STATUS active set.
 MAR-25	2026-02-27	TSA partial/full walkout triggers measurable FL airport delays	95%	By Mar 21 2026	CONFIRMED	2026-03-22	CONFIRMED — 400+ TSA quit, 11% national callout (Houston 40%, ATL 30%), 2-3hr waits at major hubs, small airport closures warned. Day 40 shutdown, no resolution til Apr 13. Exceeded prediction — not just FL but nationwide.
-MAR-26	2026-03-23	ICE construction raids → housing start delays in border states (TX, AZ, FL)	70%	Q2 2026	OPEN		57 Concrete -60% vol/bankruptcy; RGV worksites halted; 1-in-3 workers foreign-born. Leading indicator confirmed.
-MAR-27	2026-03-26	DHS shutdown exceeds 60 days (longest ever)	90%	By Apr 13 2026	OPEN		Congress recessed til Apr 13 = Day 60. No deal. No off-ramp visible.
+MAR-26	2026-03-23	ICE construction raids → housing start delays in border states (TX, AZ, FL)	70%	Q2 2026	OPEN		57 Concrete -60% vol/bankruptcy; RGV worksites halted; 1-in-3 foreign-born. CAVEAT (May 2026): ICE eased off worksite raids, pivoted to Democratic cities — flow softening, stock effect remains. Conf lowered 80→72 in STATUS.
+MAR-27	2026-03-26	DHS shutdown exceeds 60 days (longest ever)	90%	By Apr 13 2026	CONFIRMED	2026-04-30	76-day record shutdown — Trump signed funding bill Apr 30 (TSA/FEMA/CG/CISA/SS). ICE/CBP carved out to reconciliation. Longest ever, confirmed.
