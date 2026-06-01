@@ -14,13 +14,22 @@
 
 ## WHAT I DID THIS SESSION
 
+**Pass 1 — Catch-up (4 phases):**
 - Phased catch-up plan (Will-approved): data refresh → analytical pass → KB hygiene → STATUS rewrite. Cross-agent routing skipped per Will direction (fleet in architecture transition).
 - Filed **3 calibration corrections** (5/21 directional reads were right, precision was off): termination date (off by 6td), VIX9D not "structurally extreme" (27th pct of 10y), VRP not "compressed" (67th pct = above-median).
 - Discovered **diet coiled-spring pattern** 5/20→5/29: directional KB-VIO-036 signature (SKEW +11.87 / VIX -2.54 / VVIX -10.39) **without formal magnitude** — tested 5/10/15/20/25/30d windows, zero formal fires.
 - Filed **working hypothesis** (KB-VIO-062, ASSUMPTION): record GEX mechanically pins VIX/VVIX legs while SKEW reprices tail. Empirically supported by SPX 5d realized 3.98%, VRP +5.68 (67th pct). Implies KB-VIO-036's 94% hit rate may have lower effective magnitude floor in current regime — UNBACKTESTED. Do not size positions on it yet.
 - KB.tsv: +3 (KB-VIO-061 regime termination + knife-edge sensitivity, KB-VIO-062 diet coiled-spring + GEX hypothesis, KB-VIO-063 VRP measurement); KB-VIO-058 marked STALE with closing disposition.
 - STATUS.md full refresh (130 lines, under cap). Convergence Score 8/40 → 7/45.
-- Commit `80a10ed5` pushed to origin via SAM's push-train.
+
+**Pass 2 — Closeout codification:**
+- Created `SCRATCH.md` (this file) — canonical session handoff mirroring SAM/CARL/BRENT fleet pattern.
+- Rewrote `CLAUDE.md` SPAWN PROTOCOL as symmetric BOOT/EXECUTE/CLOSEOUT sequence adapted from BRENT (write-back tail; auto-load is decisive). Discipline overlay added.
+- Created `thesis/CHANGELOG.md` with backfilled v3.1 entry.
+- Retired `LAST_COMPLETION.md` → `archive/2026-06-01_LAST_COMPLETION_final.md`. SCRATCH is canonical handoff.
+- Reconciled `workbook/CATALYSTS.tsv` (pruned 8 fired rows; added 6/05/6/09/6/12/6/17 forward catalysts) + `CALENDAR.md` (reconciled to CATALYSTS as source of truth; flagged Jun 17 FOMC+SEP+VIX-quarterly convergence as highest forward gate).
+
+**Commits (all pushed to origin):** `80a10ed5` (catch-up), `ac376e9f` (SCRATCH creation), `7d8f8fb2` (closeout codification + CHANGELOG + LAST_COMPLETION archive).
 
 ## NEXT SESSION (priority-ordered)
 
@@ -35,6 +44,8 @@
 - KB-VIO-042 within-cycle bounce rule revision — needs amendment for very-long regimes
 - Inbox 5/14 gamma signal formal disposition — content absorbed into KB-VIO-062, admin step pending
 - 6/1 SKEW EOD + 6/1 FRED OAS refresh — T+1 publication lags; refresh next boot
+- **VX_DAILY.tsv backfill** — last row 5/13; needs 5/14 → 6/1 appended (CALENDAR flagged this overdue)
+- **vix_options.py snapshot** — last 4/17, overdue. Would inform C/P-OI shifts pre Jun 17 FOMC.
 
 ## OPEN HYPOTHESES (flagged, NOT actionable until backtested)
 
