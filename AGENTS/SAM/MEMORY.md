@@ -45,7 +45,19 @@
 - **Polymarket BOJ Jun 16 verified intraday at 87.6%** (Jun 2 ~12:02 ET) — held vs Mon 88.5%. SAM-21 70% mark unchanged. Cross-source: MUFG 80%, swap 77-80%.
 - **FXY ATM IV proxy outlier (1.56 vs 10.52 prior day) — calibration glitch flagged.** Not a real vol crush; USDJPY pushing UP at T-10 to BOJ. Investigate proxy / consider real OTC pull for KURA next run.
 - No mark changes. No position changes. SAM-23 72% held; SAM-21 70% held.
-- Closeout: STATUS lead + state-of-play + market table refreshed Jun 2; MEMORY session notes; commit.
+- Closeout: STATUS lead + state-of-play + market table refreshed Jun 2; MEMORY session notes; commit `4e9d7f50`.
+
+### LAST SESSION (6/2 Tue PM — KOYOMI Run 4 + KURA Run 2 + BASELINE AUDIT spec amendment) — commit `127ae123`
+
+Same SAM window as the AM verification (long session, likely auto-compaction in between). Re-entered with a stale boot read (08:42 morning data — USDJPY 159.35 etc, didn't see the 4e9d7f50 commit until git log). Will course-corrected the parallel-SAM misread (no parallel SAM running — earlier-me, post-compaction recall loss).
+
+- **KOYOMI Run 4 (teams-mode):** Spawned to backfill Jun 2 10Y auction + investigate why it wasn't in CATALYSTS.tsv. Investigation surfaced a ~months-old structural exclusion — prior runs cherry-picked super-long JGB (30Y/20Y/40Y) and silently dropped 2Y/5Y belly/front. Run 4 added 13 forward events (Jun 23 5Y, Jun 30 2Y, full July inc. Tankan Q2 + JGB Jul 2/7/9/14/22/30 + BOJ Jul 30-31), corrected FOMC Jul 28-29 (vs prior Jul 30 hint), 13 RELEASES.md confirmed-dates added.
+- **KURA Run 2 (teams-mode):** Low-yield post-Jun-1-inaugural window. 1 KB add proposed (**KB-183 fxy-proxy-v1 Framework** — durable caveat on the FXY vol-proxy collapse-to-near-zero failure mode caught Jun 2 boot). Watermark → 2026-06-02. Precision-over-recall held (1 vs 4 rejected).
+- **Will decisions (4):** track 2Y/5Y (KOYOMI Run 4 default OK), promote FOMC Jul 28-29, approve KB-183 as Framework, ping KOYOMI back via SendMessage for spec amendment (dogfood teams-mode iterative use case).
+- **BASELINE AUDIT spec amendment (two-round SendMessage):** Round 1 — KOYOMI proposed monthly + post-miss + month-rollover triggers, universe table, propose-only output. Round 2 (SAM refinement) — merged monthly + month-rollover into one trigger; added decline-memory clause via SAM-owned `## CALIBRATION` read-only signal source (mirrors KURA/METSUKE CALIBRATION ownership). Applied to `docket/KOYOMI.md` (step 2a + § BASELINE AUDIT subsection + READ-SET 7a + DONE guard + RETURN line). KOYOMI_MEMORY cleanups (3 self-resolved items removed). MAINTENANCE.md 2026-06-02 AM entry logged.
+- **Auto-memory promotions (2):** `finding_teams_mode_iterative_tasks` (when SendMessage earns vs synchronous spawn; default mental model bias correction) + `finding_subagent_baseline_audit` (set-maintenance sub-agents need explicit baseline-scope audit + decline-memory; incremental-update rubrics silently extend-from-precedent).
+- **No thesis/STATUS/PREDICTIONS/CHANGELOG changes** this thread. Spec/process work only.
+- Commit `127ae123` (KOYOMI spec amendment + KOYOMI_MEMORY cleanups + MAINTENANCE log) held for coordinated SAM+OTTO+REGINALD push.
 
 ### LAST SESSION (6/1 Monday — full day: boot + Jun-1 POV pivot + KURA inaugural + KOYOMI sync + sub-agent MEMORY architecture)
 
@@ -80,15 +92,17 @@ Will lost power after the 18:07 push; came back, asked SAM to verify closeout st
 1. **🔴 USDJPY 160 watch** — 159.92 at Tue mid-session, 0.05% from hard trigger. Intervention #3 may fire intraday/this week pre T-2 blackout (~Jun 13). Monitor: Reuters/Bloomberg MOF headlines, Bessent/Katayama verbals (cabling window LIVE this week). If 160 prints → SAM-23 resolves (not re-rates).
 2. **🔴🔴 Jun 16 BOJ MPM** — DOMINANT, SAM-21 70% / Polymarket 87.6% (verified Jun 2 intraday). **Re-verify pricing Jun 9-15.** If pricing holds >85% through cabling week with no Takaichi pushback → consider +5pp mark to 75%. National May CPI Jun 19 (post-BOJ). Position unchanged: 13 sh + Jun-18 $58C.
 3. **🔴 Iran/Hormuz MOU watch** — broke Jun 1; SAM-23 ~72%. Brent +0.73% Tue confirms no walk-back overnight. Binary still: walk-back / Trump-Khamenei reset → resign path; further escalation → Brent $100+ / Hormuz close attempt.
-4. **🆕 FXY ATM IV proxy investigation** — Jun 2 reading 1.56 vs Jun 1 10.52 is non-physical (USDJPY rising into BOJ binary; vol should be UP not down). Likely scraper calibration. Check `fxy_options.py` source / consider real OTC pull next session. Flagged STATUS + KURA next-run.
+4. **🆕 FXY ATM IV proxy investigation** — Jun 2 reading 1.56 vs Jun 1 10.52 is non-physical (USDJPY rising into BOJ binary; vol should be UP not down). Likely scraper calibration. Check `fxy_options.py` source / consider real OTC pull next session. **Now also durably captured as KB-183** (fxy-proxy-v1 Framework caveat — read sign/trend not absolute).
 5. **Hedge-ratio verification:** primary-source check on 44.4% vs <30% claim (tracked in KURA_MEMORY PENDING).
 6. **🟠 Jun FY2025 Norinchukin** — only near-term Channel 1 reactivation gate; CLO-book reduction language / CEO Kitabayashi. CLO book reportedly ¥8.2T (was ¥9.7T in thesis) — verify. (Tracked in KURA_MEMORY STANDING MONITORS.)
 7. **Eval re-baseline DUE** — standing trigger compounded. Evals carry stale $57.48; RED self-correct $57.48→$58.32 on next boot.
 8. **Position next-touch:** No add/trim under v1.5 single-path. Triggers: (a) USDJPY <156 for 3 sessions → consider add; (b) BOJ pre-cabling Jun 13-15; (c) thesis break (USDJPY >167 + BOJ dovish) = stop $55.05.
-9. **KURA / KOYOMI / METSUKE next runs** — all 3 have populated MEMORY files. Natural cadence: **METSUKE** Jun 9-15 pre-BOJ window OR on next material POV pivot; **KOYOMI + KURA** post-Jun-16 BOJ. Validate architecture by spawning without re-briefing.
-10. **⏸️ DEFERRED (still holds):** Layer B cross-agent signals (BROCK/HANS PC-cascade pull, HENRY carry-numbers); KB cleanup tier-2 macro/flow rows. Do NOT re-flag.
+9. **KURA / KOYOMI / METSUKE next runs** — all 3 have populated MEMORY files. Natural cadence: **METSUKE** Jun 9-15 pre-BOJ window OR on next material POV pivot; **KOYOMI + KURA** post-Jun-16 BOJ. Validate architecture by spawning without re-briefing. **KOYOMI BASELINE AUDIT first fires first run of July** (monthly trigger per amended spec) — covers Jul + Aug forward window vs MOF/BOJ/Fed source.
+10. **🆕 Push coordination pending:** commit `127ae123` held for SAM+OTTO+REGINALD coordinated push. Will managing the timing — do not push solo on next boot; check with Will.
+11. **🆕 KOYOMI_MEMORY ## CALIBRATION** — section deliberately NOT scaffolded (propose-to-seed). Seed structure when first declination happens: `### Declined release classes` (date + reason per line) + optional `### Accepted proposals` (pattern-tracking). Placement: between STANDING MONITORS and NEXT RUN HINTS.
+12. **⏸️ DEFERRED (still holds):** Layer B cross-agent signals (BROCK/HANS PC-cascade pull, HENRY carry-numbers); KB cleanup tier-2 macro/flow rows. Do NOT re-flag.
 
-**🟢 RESOLVED THIS SESSION:** Polymarket BOJ pricing intraday verification (87.6% — held; from Mon close-out NEXT item 1).
+**🟢 RESOLVED THIS SESSION (full Tue, AM + PM):** Polymarket BOJ pricing intraday verification (87.6% — held; from Mon close-out NEXT item 1); KOYOMI Jun-2 10Y backfill + structural 2Y/5Y gap closed; FOMC Jul 28-29 promoted to CATALYSTS.tsv + CALENDAR.md; KB-183 promoted (FXY vol-proxy caveat); KOYOMI spec extended with BASELINE AUDIT (Run-4 PENDING auto-resolves); teams-mode iterative-task pattern validated via SendMessage round-trip (auto-memory promoted).
 
 ### NEXT INFRA SESSION (script build queue — unchanged)
 
