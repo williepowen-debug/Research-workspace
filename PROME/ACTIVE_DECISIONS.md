@@ -1,7 +1,15 @@
 # ACTIVE_DECISIONS.md
-**Created:** 2026-05-23 15:20 ET
+**Updated:** 2026-06-02 09:55 ET
 **Owner:** Prome
-**Purpose:** Boot-readable index of live decisions that are not terminal. Full logic stays in action cards / execution rails.
+**Purpose:** Boot-readable index of non-terminal decisions. Full logic stays in action cards / execution rails.
+
+---
+
+## Current Mode — Verification Required
+
+Will has directed this pass toward **getting Prome updated and caught up**, not trade-position optimization. Several rows below originated from May 22-26 rails and may be stale by fill state, market path, or elapsed trigger window.
+
+**Rule for this boot state:** do not act from any old `BROKER_PENDING` / trigger language without fresh broker/Will reconciliation. This file is currently a safety index, not an execution prompt.
 
 ---
 
@@ -11,6 +19,7 @@
 - Remove or archive when terminal: `COMPLETED`, `REJECTED`, `EXPIRED`, `SUPERSEDED`, `CANCELLED`.
 - Keep this file short. It is an index, not a thesis document.
 - Every row must name an owner, next action, backstop, and source file.
+- If current state is unknown, mark the row `DEFERRED` and set next action to **reconcile**, not execute.
 
 ---
 
@@ -18,19 +27,29 @@
 
 | Decision | State | Owner | Next | Backstop | Source |
 |---|---|---|---|---|---|
-| TLT Jun 18 $85P ×3 2/1 roll | `BROKER_PENDING` | Will → broker; Prome → post-fill files | Tue 5/27 open: place sell 3× Jun18 $85P / buy 1× Sep19 $85P if invalidation has not fired | 2026-06-06 EOD | `PROME/action-cards/TLT_JUN18_DECISION_2026-05-22.md` |
-| 6/18 theta-killer cluster | `WILL_APPROVED` | Prome (daily monitor); Will (approval at any trigger fire) | Daily dashboard scan of R1-R4 + position-specific WAL/KRE/EGBN levels; on fire, spawn named domain agent → fresh Will approval for any roll | Hard operational backstop 2026-06-16 16:00 ET | `PROME/action-cards/JUN18_EXPIRY_CLUSTER_2026.md` + `FORGE/trigger-sets/JUN18_CLUSTER_2026-06-18.md` (v0.2 WILL_APPROVED) + `PROME/action-cards/JUN18_V0.2_APPROVAL_PACKET_2026-05-25.md` (§ Decision Log) |
+| TLT Jun 18 $85P ×3 2/1 roll | `DEFERRED` — verification required | Prome → reconcile; Will → confirm broker/fill state if needed | Do **not** treat old `BROKER_PENDING` language as actionable. First reconcile whether orders were ever placed / filled / superseded after May 27. | Before any TLT-related action or state write | `PROME/action-cards/TLT_JUN18_DECISION_2026-05-22.md` |
+| 6/18 theta-killer cluster | `WILL_APPROVED` historical rail; verification required before use | Prome → reconcile monitor history; Will → approve any new action | Do **not** roll or refresh position logic from stale May 26 rail. First reconstruct whether any triggers fired since May 27 and whether Will/broker acted. | Before any 6/18 cluster decision or June-expiry write | `PROME/action-cards/JUN18_EXPIRY_CLUSTER_2026.md` + `FORGE/trigger-sets/JUN18_CLUSTER_2026-06-18.md` + `PROME/action-cards/JUN18_V0.2_APPROVAL_PACKET_2026-05-25.md` |
 
 ---
 
-## Next Candidate Rows
+## Next Candidate Rows — Not Active in This Rehab Pass
 
-Add these when their rails/action cards become concrete enough:
+These remain context only until Prome finishes state catch-up and Will asks to revisit positions:
 
-- SAM Sep-18 $60C × 5-10 contracts — pending post-CPI cheaper entry.
-- FXY $58C reconciliation — SAM v1.4 says held; missing from 5/21 CSV.
-- TLT $88P May 15 disposition unknown.
-- VIOLET 4/15 VIX/SKEW trade adjudication — 60d window closes ~6/12.
+- SAM Sep-18 $60C × 5-10 contracts — SAM v1.5 says Sep $60 calls are **not warranted** under current single-path framing; do not use old pending-entry language without reading current SAM.
+- FXY $58C reconciliation — portfolio/fill-state issue, not solved here.
+- TLT $88P May 15 disposition unknown — portfolio/fill-state issue, not solved here.
+- VIOLET 4/15 VIX/SKEW trade adjudication — 60d window closes ~6/12, but VIOLET Jun 1 says R11 analog dead and timing reset; read current VIOLET before using.
 - APD long thesis tag unassigned.
-- WAL Sep $67.5P × N — fresh Q2-print exposure (REGINALD V2.2 Bear-medium 30% dominant, EV $67.98, Q2 print late-July). Decision window opens at 6/13 EOD review or paired with 6/16 backstop sweep, whichever fires first. v0.2 6/18 cluster rail explicitly silent on this gap (disclosed in `PROME/action-cards/JUN18_V0.2_APPROVAL_PACKET_2026-05-25.md` § "Outside this rail").
-- AAL Jul 17 $10P × 1 — standalone orphan, decision deferred until 6/18 cluster sweep clears. No domain owner (airline). Surface post-6/16 backstop.
+- WAL Sep $67.5P × N fresh Q2-print exposure — remains a possible later REGINALD rail; not active during state rehab.
+- AAL Jul 17 $10P × 1 — standalone orphan; not active during state rehab.
+
+---
+
+## Next Maintenance Step
+
+When Will wants positions reconciled, create a separate **position-state reconciliation pass**:
+1. Pull broker / FORGE / trade-decision state.
+2. Compare against these rows and action-card logs.
+3. Mark each row terminal, active, or superseded.
+4. Only then consider any recommendation.
