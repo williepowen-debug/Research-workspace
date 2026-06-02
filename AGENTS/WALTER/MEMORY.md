@@ -61,6 +61,8 @@
   (b) **Regime-shift-anchor framing for named-dove operating-bias pivots.** When the confirmed-cut-voter pivots on dovish forward-guidance language (e.g., Waller "remove easing bias" 5/22 → market modal-flip Dec→Oct for first hike), the signal value is the floor — even when speaker explicitly says "not advocating hikes." IMMEDIATE precedence justified because the transmission to network thinking is what matters, not literal text. Validated SIG-W-20260522-005. Future analogue: if Daly/Goolsbee echoes "bias removal" in next 2-3 weeks, treat as confirmation; if pushed back, downgrade to Waller-idiosyncrasy. Candidate for CHECKLIST v0.11 IMMEDIATE-precedence-rule addition.
   (c) **Full-batch DUP-detection at boot-grep level validated 8/8.** When image batch is entirely DUP-of-prior-session content (accidental Will re-send), BOARD-grep + cluster-ToC check catches it before any verify-spawn or dispatch. Validated Batch #2 (msgs 1975-1982) — 8/8 detected as DUPs of prior 5/21/PM sessions, $0 verify cost. Pattern: ALWAYS grep BOARD before verify-spawn even when items look novel — accidental resend is real failure mode. Counter-pattern previously catastrophic: $0.40 verify-spawn × 8 items = $3.20 burn + cluttered BOARD with re-dispatches.
 
+- [2026-06-02 Tue AM] **Trump-rhetoric-tape-not-info SYMMETRIC rule — applies UP and DOWN equally.** Pattern crystallized at 2-instance: 5/23 "largely negotiated" was real-but-overstated (deal-side); 6/1 "rapid pace" denial of Iran's MOU suspension is also tape-not-info (denial-side, containment signal toward market). Same Trump-rhetoric pattern but symmetric across the deal-yes / deal-no axis. **Apply** to Iran-cluster signal-framing: confidence stepdown ≤0.55 on signals leaning EITHER on "deal suspended/collapsed" framing OR "talks continuing" framing without primary-source confirmation of (a) which Iran channel (Tasnim/IRGC vs Araghchi/MFA), (b) US Plan B activation state. Extends auto-memory `feedback_trump_rhetoric_tape_not_info.md` from 1-instance to 2-instance symmetric pattern; bilateral substance is uncorrelated with Trump rhetoric on EITHER side of "deal happening" / "deal not happening." Counterpart pattern (less obvious): **Iranian channel asymmetry** — Tasnim/IRGC and Araghchi/MFA do not always speak the same line; when they diverge publicly, route the divergence itself as the signal (which is the data point), not either statement alone. Apply both rules in dispatch_note via new `narrative_channel:{tasnim,mfa,potus,centcom}` field tagging (candidate for FORMAT_SPEC v0.9 batch).
+
 - [2026-05-22 Fri AM] **Calendar-anchor verify-at-write-time extends "verify state before propagating" to scheduled release dates.** Boot reads showed time-sensitive THIS WEEK list with "🔴 5/22 Tokyo CPI" + "🔴 5/22 initial claims" — both wrong. Initial claims released **Thu 5/21** (DOL weekly Thursday cadence); Tokyo CPI releases **5/29** (Japan Stat Bureau publishes Tokyo CPI in final week of month, not third Friday). Same lesson family as 5/8 Treasury TIPS-vs-nominal CUSIP-family collapse + 5/6 5-instance verify-against-ground-truth pattern. **Mechanism:** STATUS docs propagate calendar anchors from session to session; once one session keys a release wrong, subsequent sessions inherit the error. **Apply (boot discipline):** when re-reading "time-sensitive THIS WEEK" list at boot, cross-check release dates against primary-source calendar BEFORE acting on them — same way we cross-check market-data prices against ground-truth fetch. Specifically: BLS / DOL / Census / BEA / FOMC dates are observable via institutional calendars and should be re-anchored not inherited. **Counter-pattern caught:** Tokyo CPI premise error would have wasted a sub-agent verify-spawn ($0.05) had Will not asked the follow-up "I think something was released by japan yesterday/last night though?" — the right Japan release (National CPI April) was downstream of the calendar-anchor correction. Cross-platform finding: dual-surface premise-correction validates user-on-the-loop discipline.
 
 ## References
@@ -74,7 +76,13 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (5/26 Tue PM DOUBLE-BATCH day)
+### CHANGES SINCE LAST SESSION (5/27 Wed AM Iran-anchor session + 5/28-6/01 5-day gap)
+
+**6/02 Tue AM Iran-anchor re-verify session (~13:20-14:30 UTC, commit pending):** Will-Telegram boot msg 2048 → comprehensive boot reply flagged Iran-anchor inversion as headline gap → Will "Yes" msg 2050 → 1 verify-research spawn ($0.05, agent_id a6724ab82fd939c7d) + live tape pull. Verify TIGHTENED SAM+BRENT Jun 1 STATUS framing: Iran MOU "suspended" is OBSERVER-DEPENDENT (Tasnim says suspended / Araghchi MFA says ongoing / Trump denies); Bab al-Mandab is RHETORICAL-ONLY (no commercial-vessel-strike 2026); Brent +7% Mon → pared to +5% on Trump denial → market mid-confidence not unilateral break. **Net state Jun 2: NARRATIVE-FORK + KINETIC-ACCELERATION.** Anchor refreshed verified-as-of 5/27→6/02; current state block rewritten; signal-framing implications fully rewritten. STATUS.md lead paragraph + IRAN-WAR ANCHOR subsection refreshed. New finding filed (above): Trump-rhetoric-tape-not-info SYMMETRIC rule + Iranian channel asymmetry. **Net dispatch tally: 0 (anchor-only session); BOARD 264 unchanged.**
+
+**5/28-6/01 5-day gap activity (peer surface — no WALTER work):** SAM v1.4 → v1.5 single-path BOJ Jun 16 base case + intervention #3 reactivated + Fed-cut backup off; BRENT Phase 1 RE-ARMED + CF $130C Jun 18 HOLD-with-pop-re-eval; VIOLET 6/1 catch-up boot (R11 DEAD, R12 termination date correction, diet coiled-spring + GEX hypothesis); MARCO sessions 6-9 TOURISM thesis v2.0 → v2.2; CARL adopted lean CLOSEOUT PROTOCOL from cross-agent audit; SAM new sub-agent METSUKE (3rd: KURA + KOYOMI + METSUKE).
+
+### PRIOR CHANGES (5/26 Tue PM DOUBLE-BATCH day)
 
 **5/26 Tue PM DOUBLE-BATCH day (~22:25-23:25 UTC):** Two 7-image batches from Will processed back-to-back. **Day-total: 9 BOARD dispatches + 3 KILLs (1 Novelty + 2 DUP) + 5 verify-research spawns ($0.25).** BOARD 255 → 264. Day bifurcation 7 cluster_mediating + 2 counter_evidence = 9-in-day = ~2× `network_uncertainty_peak`. Batch #1 closeout committed clean `fe8e9c77` before Batch #2 started — intra-day closeout discipline honored per memory feedback.
 
@@ -110,18 +118,20 @@
 
 **Canonical carry-forward:** see `LAST_COMPLETION.md` FOLLOW-UP + OPEN DESIGN DECISIONS sections (load-bearing running list).
 
-**Time-sensitive THIS WEEK + NEXT** (boot quick-scan — calendar-anchor verified at write-time per 5/22 finding):
-1. **🔴 5/29 Fri Tokyo CPI** — SAM Channel 1 primary; final-week Stat Bureau pattern; soft fades June BOJ pricing.
-2. **🔴 Fed Oct FOMC implied 25bp hike now modal (~2-in-3 post-Waller 5/22)** — major recalibration input across CARL/REGINALD/HENRY/SAM. Watch for Daly/Goolsbee echo of "bias removal" in next 2-3 weeks (confirmation) vs pushback (Waller-idiosyncrasy).
-3. **🟠 May 25-29 Big 3 mutual ESR window** (SAM Channel 1 primary near-term test).
-4. **🟠 First Brands 5/25 omnibus hearing T+3** — Ch.7 conversion in motion; bank/BDC mark force-resolution upcoming.
-5. **🟠 AVB+EQR $69B merger H2 2026 close** — multifamily REIT consolidation; CRE-cycle signaling watch.
-6. **🟠 5/20-27 calibration cycle 1 trigger window** open (CARL/BRENT/RED/REGINALD).
-7. **🟠 Iran-war anchor next re-verify boundary 2026-05-28**.
-8. **🟠 REQ-HAWK + REQ-NEXUS now 17d** — over 14d retry threshold.
-9. **🟠 COST 5/28** — 6th forward-test name from SIG-W-20260508-005.
-10. **🟠 SESSION_LOG.md archive trim** — STATUS.md SESSION LOG over 9 rows.
-11. **🟠 HENRY R11 analog clock window 5/28-6/02**.
-12. **🟠 HY OAS 286 highest-asymmetric near-trigger watch** (4bps from 290; RED-FT-01 + REG-T-03).
-13. **🟠 WAL REG-T-02 re-fire watch** — $78.07 above $78 by 7c; sustain-state intact since 5/21 reclaim.
-14. **🟢 Freddie HPI YoY watch** — +0.7% March → McBride "might turn negative in 2026"; first crossing-zero would be REG-T candidate.
+**Time-sensitive THIS WEEK + NEXT** (boot quick-scan — calendar-anchor verified at write-time per 5/22 finding; refreshed 6/02 for items that passed during 5/28-6/01 gap):
+1. **🔴 6/03 Wed EIA weekly** — BRENT primary (week May 29: Cushing<20M floor watch + gasoline YoY post-Memorial-Day base).
+2. **🔴 6/05 Fri CFTC weekly** — first read post-$96-drop; BRENT Trigger #3 re-fire watch.
+3. **🔴 6/07 OPEC+** — first into a suspended-MOU regime, not falling-price (BRENT primary).
+4. **🔴 6/09 Iran-war anchor next re-verify boundary** — 7d from 6/02 (or pre-dispatch on any Iran-cluster signal whose framing depends on Tasnim-vs-MFA channel state).
+5. **🔴 6/11 STEO** — BRENT primary post-Phase-1-re-armed.
+6. **🔴 6/16 BOJ MPM** — SAM v1.5 base case hike (market 88% / SAM 70%); single-path market-confirmed.
+7. **🔴 6/17 FOMC** — now hold-confirming per SAM read (FedWatch >97% no-change, <10% 2026 cut odds); NOT a rescue catalyst.
+8. **🟠 Trump-Rubio Iran response watch (this week)** — gates whether MOU is dead, on-ice, or contested. Activates "Plan B" allies-only fallback or not? Currently AS-OF 6/02 mid: Trump "rapid pace" denial public; no official "deal is off."
+9. **🟠 Pakistan-Munir / MFA response to Tasnim suspension** — load-bearing missing data point; Munir's posture disambiguates the Iran narrative-fork.
+10. **🟠 HAWK scenario refresh** — 5/22 weights DOUBLY-STALE post-Jun 1 (D-Reescalation understated post-Kuwait-cadence + Israel-Lebanon).
+11. **🟠 REQ-HAWK + REQ-NEXUS now 28d each** — well over 14d retry threshold; escalation candidates.
+12. **🟠 REQ-BRENT/PROME/ZHAO 22-25d** — staleness candidates.
+13. **🟠 LIAISON DORMANT auto-flag** — CARL/BRENT/RED hit 30d (DORMANT) on 6/5-6/6; REGINALD hits 30d on 6/10. Decision needed: re-engage or flip.
+14. **🟠 HY OAS 286 → 290 near-trigger** (RED-FT-01 + REG-T-03); CCC 939; 10Y 4.57%; Brent ~$95 (declined; PATH B Trigger #3 already fired 5/15).
+15. **🟠 WAL REG-T-02 re-fire watch** — sustain-state intact since 5/21 reclaim (need fresh tape pull at next dispatch session).
+16. **🟢 Freddie HPI YoY watch** — +0.7% March → McBride "might turn negative in 2026"; first crossing-zero REG-T candidate.
