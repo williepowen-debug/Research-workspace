@@ -1,6 +1,6 @@
 # WAL — Scenario Analysis & Target Prices
 **Created:** 2026-03-25 (v1.0) | **Last Updated:** 2026-05-21 (v2.2 — post 10-Q drill; B1 fired)
-**Current Price:** ~$77.63 (May 21 intraday) | **TBV:** $61.14 | **P/TBV:** 1.27x | **CET1:** 11.0%
+**Current Price:** ~$77.63 (May 21 intraday) — ⚠️ STALE: 6/2 spot **$80.20** (reclaimed $78); EV/overvaluation math below NOT recomputed (analysis deferred — see ROADMAP) | **TBV:** $61.14 | **P/TBV:** 1.27x | **CET1:** 11.0%
 **Short Interest:** 3.54% float / 2.71 days (Mar 25 — REFRESH PENDING)
 **Q1 2026 EPS:** $1.65 GAAP / $2.22 adjusted | **FY2025 NI:** $991M
 
