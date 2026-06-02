@@ -1,40 +1,28 @@
-STATUS: DONE — Session 16 (2026-06-02). Continuation of S15 catch-up per Will. Two bodies of work: (1) a SELF-CORRECTION of the S15 AM thesis headline, and (2) a RED data-structure staleness audit (Will-directed) + venv repair.
+STATUS: DONE — Session 16 (2026-06-02). Long multi-part session: a self-correction of the S15 AM thesis + a full RED structure/content hygiene pass (Will-directed). Handed off before thesis/TIMELINE.md (charter item 3) to avoid a mid-rewrite truncation. Full detail: archive/handoffs/RED_016_HANDOFF.md.
 
-## PART 1 — Self-correction (thesis)
-S15 (AM, same day) concluded VIOLET's 6/1 GEX invalidation meant "no snap-mechanism survives → Managed Decline modal." Verified VIOLET's primary backtest doc: S15 OVER-READ it. VIOLET killed only the GEX *explanation* for suppressed VIX/VVIX magnitudes; the DIET coiled-spring snap *signature* SURVIVED the 19yr era-split (65% fwd60 peak>+50%) and is currently firing. The snap is loaded, not gone.
-- Sub-trigger (e) "no snap-mechanism survives" → un-fired.
-- Hypotheses: Acute 10→12 / Managed 38→36 (now co-modal w/ Stagflation 37); net bear 53→55; confidence held 72.
-- VIX<16 falsifier GUARDED: sub-16 while DIET fires = loaded-spring suppression leg, NOT managed-decline → do not auto-cut bear 50% until DIET resolves (6/12 CPI / 6/17 FOMC).
-- Files: STATUS.md, thesis/CHANGELOG.md, MEMORY.md (mirror lesson), workbook/KB.tsv (KB-RED-042 refined), workbook/ML.tsv (ML-RED-075), workbook/CHALLENGES.tsv (CHG-RED-027/028), OUTBOX.md (RED-TO-PROME-20260602-001 — shares the VIX guard w/ VIOLET/HENRY/LIQUID).
+THESIS STATE (carry forward): Confidence 72% held. Net bear 55%. Stagflation 37 / Managed 36 (co-modal) / Acute 12 / Rescue 6 / War 6 / Soft 3. Bifurcation real (6th+ obs); GEX *explanation* dead but DIET coiled-spring snap *signature* survived & firing (catalyst-gated 6/12 CPI / 6/17 FOMC). Nearest falsifier VIX<16 sustained 5d — GUARDED (sub-16 while DIET fires = loaded-spring leg, don't auto-cut). Live VIX 15.80 on 6/2.
 
-## PART 2 — Staleness audit (Will-directed) → research/STALENESS_AUDIT_2026-06-02.md
-- VENV REPAIRED: .venv didn't exist; recreated via `python3 -m venv --without-pip` + get-pip bootstrap + `pip install yfinance requests`. Market tool now returns live data (VIX 15.80, WAL $80.20 back >$78, KRE 69.53, OZK 48.54, TLT 85.65, HYG 79.90, 10Y 4.45%).
-- FILE HYGIENE: removed 5 md5-identical archive↔challenges dupes (kept challenges/); relocated completed VIOLET skew-recheck bundle (10 files incl 1.78MB CSV) → archive/; moved 3 old-format TSVs → archive/superseded_workbook/; filed loose HAWK signal → processed/.
-- VX.tsv: 8 status changes (2 Flip_If FIRED: VX-002 real-wages, VX-004 Japan 30Y JGB; 5 RESOLVED: VX-011/018/019/020/023; VX-016 AAPL 45%→20.08% corrected) + 12 review-date refreshes; all logged to VX_HISTORY.tsv.
-- KB.tsv: 14 SUPERSEDED (April point-in-time facts), 8 EXTENDED (live themes), 2 ragged rows normalized → all 42 rows uniform 13-col.
-- CALENDAR.md: fixed RED-19 stale "ACTIVE-RIGHT"→RESOLVED WRONG contradiction; refreshed falsification-watch spots to live; added VIX<16 DIET guard.
+WORK DONE (7 parts):
+1. Self-correction — S15 over-read VIOLET's GEX invalidation; snap signature survived. sub-trigger (e) un-fired; Acute +2/Managed −2; net bear 53→55; VIX<16 guard. (ML-RED-075)
+2. Staleness audit (research/STALENESS_AUDIT_2026-06-02.md) — repaired missing .venv (yfinance live again); deduped/relocated archive; VX.tsv 8 status changes (2 fired Flip_Ifs + 5 resolved + AAPL 45→20.08%); KB.tsv 14 superseded/8 extended/ragged→13-col; CALENDAR live refresh + RED-19 fix.
+3. S15 external re-verification (ML-RED-076) — 7/7 deltas confirmed vs BEA/Fed/Philly/Freddie/BH/BOJ. One CORRECTED-FRAMING: Philly Fed −23.6 is regional subindex (firm-level +18.2 steady) → softened 30/70→45/55.
+4. SAM-pattern adaptations — docket/CATALYSTS.tsv (28-row backbone; CALENDAR slimmed); MAINTENANCE.md (structural log + hygiene checklist); MEMORY boot-slim → MEMORY_ARCHIVE.md (35.7→17.6KB); CLAUDE.md loop-closer. (Skipped KOYOMI steward — deferred.)
+5. Charter item 1 RESOLVED — retired thesis/PREDICTIONS.tsv (unreconciled fork, contradictory IDs); workbook/ sole canonical; WALTER pinged (OUTBOX) re CROSS_REFS cache.
+6. Charter item 2 RESOLVED — RED_SKELETON.md references cleaned from CLAUDE.md (Feb-12 file, superseded by VX.tsv); re-filed as RETIRED archive.
+7. Git divergence analysis (read-only fetch).
 
-## PART 3 — Re-verified S15 deltas vs EXTERNAL primaries (Will-directed) → ML-RED-076
-Tested whether the GEX over-read signaled broader data-propagation error. VERDICT: 7/7 S15 deltas directionally confirmed against BEA/Fed/Philly Fed/Freddie/Baker Hughes/BOJ primaries. GEX was an interpretation error, not a data error, and did NOT repeat.
-- CONFIRMED exact: GDP Q1 +1.6%/core PCE 4.4% (BEA); Apr core PCE 3.3%/savings 2.6%/real DPI -0.5% (BEA); Freddie HPI +0.7% cycle-low; rigs 429 (BH); BOJ June 86.5% hike; Waller pivot (Fed primary).
-- ⚠️ CORRECTED-FRAMING: Philly Fed -23.6 is the REGIONAL subindex; firm-level general activity was +18.2 STEADY. Softened that counter-signal 30/70→45/55 in STATUS. Stagflation-hardened read STANDS (GDP/PCE/savings/Freddie all solid).
-- CAVEAT: Waller's precise '2-in-3 Oct hike / <10% 2026 cut' odds are fleet-stated market-implied, not externally pinned (direction is).
+CHARTER ITEMS: 1 ✅ (PREDICTIONS) / 2 ✅ (RED_SKELETON) / 3 ⬜ thesis/TIMELINE.md staleness — NEXT SESSION, paired with position reconcile.
 
-## PART 4 — SAM-pattern structural adaptations (Will-directed) → MAINTENANCE.md
-Studied SAM's structure; Will chose 3 to adapt:
-1. **docket/CATALYSTS.tsv** — structured forward-catalyst backbone (28 rows, 9-col); CALENDAR.md slimmed to narrative layer (~150→88 lines) + pointer; dropped a stale "IMMEDIATE May 22-29" section.
-2. **MAINTENANCE.md** — structural-change log split from analytical thesis/CHANGELOG; logs all S16 structural work + a standing hygiene checklist.
-3. **Boot-slim MEMORY.md** — verbose methodology bodies → MEMORY_ARCHIVE.md (lossless); inline one-liners + pointers. MEMORY 35.7→17.6KB (−50%). Combined RED boot read ~73→~51KB.
-4. **CLAUDE.md loop-closer** — registered the new files + boot-step scan of CATALYSTS.tsv. Did NOT touch the 3 flagged charter items (those await Will).
-(Did NOT build the KOYOMI-analog hygiene-steward sub-agent — Will deferred it.)
+GIT / COORDINATION (read before push/pull):
+- 6 unpushed commits: 4 RED + 2 MARCO. Push HELD by Will (multi-agent session).
+- Diverged 1 behind / 6 ahead. Origin has SAM's 4e9d7f50 (SAM-dir only, clean — pulls cleanly).
+- ⚠️ DO NOT PULL NOW: LABOR (CLAUDE.md, STATUS.md) + MARCO (thesis/THESIS.md) have UNCOMMITTED work in the tree. Wait for clean tree or coordinate.
+- Push sequence: LABOR/MARCO commit → git pull --rebase (clean, dir-isolated) → git push.
 
-## FLAGGED FOR WILL (touch RED's charter — not changed unilaterally)
-1. Two divergent PREDICTIONS files (workbook canonical Jun 2 vs thesis/ stale May 17). Recommend designate workbook canonical + update CLAUDE.md.
-2. RED_SKELETON.md referenced as live in CLAUDE.md (3 places) but MEMORY says DELETED; only archive/ copy exists. Recommend prune refs.
-3. thesis/TIMELINE.md (Apr 20) likely stale — refresh pass owed.
+NEXT SESSION LEAD ITEMS:
+1. Position reconcile → thesis/TIMELINE.md refresh (do together; market tool works now; check if TLT duration trade moved on −20bps 10Y).
+2. KOYOMI-analog hygiene-steward sub-agent (Will deferred to fresh session; seed = MAINTENANCE.md hygiene checklist + SAM docket/KOYOMI.md pattern).
+3. Cross-agent calibration retro re-pair (REGINALD/LIQUID were stale; LIQUID owes a post-GEX-invalidation read).
+4. Proper venv fix (sudo apt install python3.12-venv; pin pandas; test dashboard.py).
 
-## STILL OWED (carryover, unblocked when peers refresh)
-- Cross-agent calibration retro re-pair: REGINALD (5/21) + LIQUID (5/20) still stale. LIQUID specifically owes a read now that VIOLET killed the GEX explanation his v2.0 promoted.
-- Position-state reconcile: 5/21 broker CSV is the last truth; now have a working market tool to verify live (e.g., did TLT duration trade move).
-
-GIT: 30 RED-file entries changed; nothing staged outside AGENTS/RED/; .venv gitignored (safe). Commit/push at close.
+NEW FILES (boot awareness): MAINTENANCE.md, docket/CATALYSTS.tsv, MEMORY_ARCHIVE.md, thesis/PREDICTIONS_README.md. CLAUDE.md boot step 3 now scans CATALYSTS.tsv. MEMORY.md boot-slimmed.
