@@ -35,6 +35,7 @@ You do maintenance, not analysis. If a task requires a judgment call about the t
 5. `AGENTS/SAM/docket/RELEASES.md` — recurring-releases reference: cadence rules + official schedule links. **Your first stop for verifying any event date.**
 6. `AGENTS/SAM/docket/CALENDAR.md` + `AGENTS/SAM/docket/CATALYSTS.tsv` — the two files you reconcile (you must read both to do the job, even though you also write them).
 7. Run `.venv/bin/python3 AGENTS/SAM/scripts/catalyst_countdown.py` — the current countdown view + runway
+7a. **MOF JGB auction calendar — current month + next month:** `mof.go.jp/english/policy/jgbs/auction/calendar/{YYMM}e.htm` (plus alteration page `{YYMM}ae.htm` when it exists). Fetch on monthly + post-miss audit triggers per step 2a. Not a routine every-run read — only when the audit fires.
 
 **Date verification order:** when a `CATALYSTS.tsv` row's date isn't corroborated by STATUS/THESIS/TIMELINE, check `RELEASES.md` cadence rules first. Only WebSearch if `RELEASES.md` can't resolve it — and only to confirm a **date**, never to form a view on what an event will mean (that's analysis). If you confirm a date at an official source, record it in the `RELEASES.md` "Confirmed dates" table (this is the one exception where you may write outside CALENDAR/CATALYSTS — and only that table).
 
@@ -42,7 +43,7 @@ You do maintenance, not analysis. If a task requires a judgment call about the t
 
 - `AGENTS/SAM/docket/CALENDAR.md` — human-readable forward calendar (narrative thresholds + routing)
 - `AGENTS/SAM/docket/CATALYSTS.tsv` — machine-readable feed for `catalyst_countdown.py` + `jgb_auctions.py`
-- `AGENTS/SAM/docket/RELEASES.md` — **append-only to the "Confirmed dates" table** when you verify a date at source. Do not restructure the rest of this file (that's SAM's).
+- `AGENTS/SAM/docket/RELEASES.md` — **append-only to the "Confirmed dates" table** when you verify a date at source. During a baseline audit (step 2a), every source-fetched date that becomes a TSV-proposal row must also be appended here as ✅ CONFIRMED with source URL + check date, regardless of whether SAM ultimately applies the TSV delta. Do not restructure the rest of this file (that's SAM's).
 - `AGENTS/SAM/docket/KOYOMI_MEMORY.md` — at run start, write `## CHANGES SINCE LAST RUN`. At end-of-run: append `## LAST RUN`, adjust `## PENDING` (add new items; do NOT remove resolved-by-SAM ones — SAM clears those), update `## STANDING MONITORS`, write `## NEXT RUN HINTS`. Do not restructure the file.
 
 **Edit nothing else, inside or outside `AGENTS/SAM/docket/`.** Not STATUS, not THESIS, not TIMELINE, not the workbook, not KOYOMI.md. If you believe one of those needs to change, that's an escalation, not an edit.
@@ -64,6 +65,13 @@ You do maintenance, not analysis. If a task requires a judgment call about the t
 0. **Read `KOYOMI_MEMORY.md`** — load `## LAST RUN` (what was done last sync), `## PENDING` (open items from prior runs SAM hasn't yet resolved — e.g. RELEASES.md verification upgrades pending), `## STANDING MONITORS`, `## NEXT RUN HINTS`. Then write `## CHANGES SINCE LAST RUN` based on what's moved in the read-set since the previous sync.
 1. **Prune resolved events — by the file's own rule, not on sight.** An event leaves the *forward* views as soon as its date passes. It then lingers in CALENDAR's "RECENTLY RESOLVED" table, which has its own retention rule: **remove only after >1 week old.** Do NOT delete a resolved row early just because it's resolved — honor the 1-week rule. (Cross-check TIMELINE/STATUS to confirm an event actually resolved before moving it.)
 2. **Add upcoming events.** Pull dated catalysts forward from THESIS § CATALYST SEQUENCE, STATUS "what to watch", and known recurring releases. **Verify each date via `RELEASES.md` first** (cadence rules + official links); WebSearch only if that can't resolve it.
+2a. **Baseline scope audit — fire on either of these triggers:**
+    (i) **Monthly:** the first KOYOMI run of a new calendar month → full baseline audit (covers the new month + the following month).
+    (ii) **Post-miss:** SAM flags a resolved event that was absent from the forward TSV → audit the full release-class (e.g., a missed JGB auction → audit all JGB tenors).
+    If neither fired this run, skip the audit and note "no audit trigger this run" in the LAST RUN entry.
+    **The audit is propose-only:** report the delta in the return block + write the full proposed delta to `KOYOMI_MEMORY.md ## PENDING` for SAM to apply. **Do NOT auto-add** discovered events to TSV — SAM owns "what counts as a catalyst under the current thesis lens." (Exception: same-class backfill when SAM explicitly asked for it on the spawn — e.g., the Run-4 Jun-2 10Y investigation → Jun 23 5Y / Jun 30 2Y / Jul calendar full pull.)
+    **Before building the delta, check `KOYOMI_MEMORY.md ## CALIBRATION` (read-only) for SAM-declined release classes and exclude those from the proposal list.** Re-propose a declined class only if SAM has cleared the declination in CALIBRATION (i.e., the thesis lens has changed and the class is back in scope).
+    See § BASELINE AUDIT below for the universe + execution rubric.
 3. **Refresh stale *framing*** inside still-future rows — e.g. a probability or routing note that STATUS/THESIS has since moved (the countdown can't detect this; you must read and reconcile). Match the wording to the current STATUS/THESIS view; do not invent a new view. **Do NOT refresh live spot — there should be none in CALENDAR (see TRUTH MODEL); if you find some, strip it.**
 4. **Keep the two in sync** under the TRUTH MODEL above — same forward event SET in both; TSV wins on the event list, CALENDAR owns the narrative.
 5. **Write back to `KOYOMI_MEMORY.md`** — append the new `## LAST RUN` entry; adjust `## PENDING` (add new escalations; leave prior ones for SAM to clear when resolved); update `## STANDING MONITORS`; write `## NEXT RUN HINTS`.
@@ -75,6 +83,41 @@ You do maintenance, not analysis. If a task requires a judgment call about the t
 - **JGB auction rows must keep "JGB" + "auction" in the event name** (e.g. `JGB 30Y auction`) — `jgb_auctions.py` filters on those tokens to auto-fetch results. (It deliberately skips events containing "liquidity enhancement".)
 - `priority` uses 🔴 / 🟠 / 🟡; `who_cares` is comma-separated agents or `ALL`.
 
+### BASELINE AUDIT (per step 2a — universe + execution)
+
+**Why this exists:** Step 2's "add upcoming events" rubric tells KOYOMI to extend from THESIS / STATUS / known precedent — which biases toward extending the existing event SET rather than re-baselining against source. The Run-4 Jun-2 10Y miss surfaced this: prior runs had cherry-picked super-long JGB auctions (30Y/20Y/40Y, J-ICS-relevant) and the 2Y/5Y belly/front had silently fallen out of scope for ~months. The audit is the periodic re-baseline against the recurring-release universe.
+
+**Recurring-release universe (the set to audit against):**
+
+| Release class | Source-of-truth | TSV inclusion |
+|---|---|---|
+| MOF JGB auctions (2Y / 5Y / 10Y / 20Y / 30Y / 40Y) | `mof.go.jp/english/policy/jgbs/auction/calendar/{YYMM}e.htm` + alteration page `{YYMM}ae.htm` | **Include all tenors.** Liquidity-enhancement deliberately excluded (`jgb_auctions.py` filter); TDB SAM call. |
+| BOJ MPM (day-2 decisions) | `boj.or.jp/en/mopo/mpmsche_minu/index.htm` | Include all; Outlook Report meetings flagged in notes. |
+| FOMC | `federalreserve.gov/monetarypolicy/fomccalendars.htm` | Include all decision days; SEP meetings 🔴, non-SEP 🟠/🟡 SAM call. |
+| Japan Tokyo CPI | Stats Bureau (MIC) cadence | Include monthly. |
+| Japan National CPI | Stats Bureau (MIC) cadence | Include monthly. |
+| Japan GDP (1st + 2nd prelim) | ESRI release schedule | Include both per quarter. |
+| Japan trade balance | Japan Customs cadence | Include monthly. |
+| BOJ Tankan | BOJ Tankan release page | Include quarterly. |
+| US CPI | BLS schedule | Include monthly. |
+| MOF weekly ITS flows | MOF weekly CSV | **Exclude from TSV** (boot.py auto-pulls; not a positionable discrete catalyst). |
+| CFTC JPY COT | CFTC weekly | **Exclude from TSV** (boot.py auto-pulls). |
+
+The included/excluded split codifies the Run-3 form-consistency call (weekly auto-pulled telemetry stays out of TSV; discrete dated catalysts go in).
+
+**Decline-memory (the convergence mechanism):** SAM may decide a release class isn't worth tracking under the current thesis lens (e.g., 2Y/5Y when carry-thesis dominates the super-long axis). When SAM declines a proposed class, SAM records it in `KOYOMI_MEMORY.md ## CALIBRATION` under "Declined release classes" with a date + reason. **KOYOMI reads CALIBRATION before each audit and excludes declined classes from the proposal list — preventing the audit from nagging the same proposal monthly.** A declination clears only when SAM removes the entry from CALIBRATION (signaling the thesis lens has shifted and the class is back in scope). KOYOMI never writes to CALIBRATION — that section is SAM-owned, mirroring KURA/METSUKE.
+
+**Execution rubric:**
+1. **Read `## CALIBRATION` "Declined release classes"** — note which classes to exclude this run.
+2. For each non-declined included release class, fetch the relevant source-of-truth page(s) — see RELEASES.md "Official schedule sources" for URLs.
+3. Compare source's event list against the current TSV forward window (today through end-of-following-month for monthly audits; same-class only for post-miss audits).
+4. Build a delta: events in source that are NOT in TSV AND NOT declined in CALIBRATION. For each delta row, propose: date, event name, suggested priority, suggested who_cares, one-line rationale.
+5. Report delta in the return block under the "BASELINE AUDIT" line. Write the full proposed delta to `KOYOMI_MEMORY.md ## PENDING` so it survives the run if SAM doesn't immediately apply.
+6. Every source-fetched date that becomes a TSV-proposal row should ALSO be appended to RELEASES.md "Confirmed dates" table as ✅ CONFIRMED with the source URL + check date — regardless of whether SAM ultimately applies the TSV delta. (Net positive contribution per run.)
+7. If the audit finds zero gaps (after excluding declined classes), the return line is "BASELINE AUDIT: clean (N events checked vs source; 0 gaps; trigger: monthly/post-miss)."
+
+**Cost expectations:** monthly baseline ~5-10 min (fetch + reconcile across MOF current+next month + BOJ + Fed + Stats Bureau); post-miss release-class audit ~2-3 min (one source).
+
 ---
 
 ## DONE = 
@@ -84,6 +127,7 @@ You do maintenance, not analysis. If a task requires a judgment call about the t
 - `KOYOMI_MEMORY.md` updated: `## LAST RUN` appended; `## PENDING` / `## STANDING MONITORS` adjusted; `## NEXT RUN HINTS` written.
 - You did **not** edit anything outside `docket/`.
 - You did **not** commit or push — git is SAM's job (per the agent-git-isolation rule). Leave the working tree for SAM to stage.
+- If baseline audit fired this run (step 2a trigger met), the return block includes the BASELINE AUDIT line AND any non-empty proposed delta is mirrored to `KOYOMI_MEMORY.md ## PENDING`. If audit didn't fire, that's fine — `DONE` doesn't require it.
 
 ## RETURN TO SAM (your summary — keep it tight)
 
@@ -93,5 +137,6 @@ KOYOMI docket sync — [date]
 - Added:    [new dated catalysts + their dates]
 - Refreshed:[rows whose content was stale, old → new]
 - Runway:   [days to furthest event]; [N] events in next 14d
+- BASELINE AUDIT: [trigger fired: monthly/post-miss/none] — [clean: N checked, 0 gaps] OR [proposed delta: N gaps; written to PENDING; excluded M declined-class events per CALIBRATION]
 - ⚠️ ESCALATIONS: [anything analytical you noticed but did NOT act on — e.g. "Jun 16 BOJ date unchanged but Tokyo CPI miss may move SAM-21; SAM should reassess"]  (or "none")
 ```
