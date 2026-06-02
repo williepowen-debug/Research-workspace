@@ -1,5 +1,5 @@
 # REGINALD ROADMAP — "Where are we"
-**Updated:** 2026-05-21 (post 10-Q drill + V2.2 ship + STATUS hygiene pass) | **Status:** ACTIVE
+**Updated:** 2026-06-02 (12-day-gap boot + file-tree catch-up — STATUS/CALENDAR/SCRATCH/WAL-hygiene refreshed; messaging + position-analysis deferred per Will scope) | **Status:** ACTIVE
 
 Persistent state-of-REGINALD tracker across sessions. **SCRATCH** = loose notes, intra-day workspace. **MEMORY.md Session Notes** = session-bridge handoff (what just happened, what's next). **STATUS** = live dashboard. **ROADMAP** = what threads are open, what data we're waiting on, what questions are unresolved, what we want to investigate next, what just got done.
 
@@ -12,6 +12,8 @@ Persistent state-of-REGINALD tracker across sessions. **SCRATCH** = loose notes,
 
 | Thread | Status | Next Step | Last Touched |
 |--------|--------|-----------|--------------|
+| 🟠 **Jun 18 cluster — bank-trigger calibration reply owed to PROME** | PROME SIG (5/22) read 6/2; asks REGINALD to calibrate KRE R3 / WAL break-zone / roll targets (Sep not Jul) / late-MI3 trigger / interim triggers. Default-pass deadline (5/24) already lapsed so draft levels stand, but cluster is still ~16 days out (decision window ~Jun 11). Reply drafted in-session (held — messaging deferred). Key insight logged: my Q2-print catalyst is post-expiry, so bank puts are timeline-orphaned; rolls must be Sep. | Write `outbox/REPLY-PROME-2026-05-22-bank-trigger-calibration.md` next messaging-enabled session. | NEW 2026-06-02 |
+| 🟠 **WAL SCENARIOS EV-math refresh (deferred analysis)** | SCENARIOS still pinned to 5/21 spot $77.63 / EV $67.98 / ~14% over. 6/2 spot $80.20 → overvaluation ~19%; "Jun is 7 weeks" → ~2.3wk; position-rec column stale. Header staleness-flagged 6/2; math NOT recomputed (analysis out of catch-up scope). NOT a file-architecture defect — normal between-pass staleness. | Dedicated analysis session: recompute overvaluation at current spot, weeks-to-expiry, position-rec column. | NEW 2026-06-02 |
 | 🟠 **WAL Investor Day Q&A transcript hunt** | Findings file (`WAL/INVESTOR_DAY_FINDINGS_2026-05-12.md`) scored A=U1, B/C/D=U2, E=B3 FIRED from prepared remarks. Q&A still missing. Lower priority post-v2.2 since 10-Q B1 fire is the bigger trigger; Q&A could still escalate v2.2 → v2.3 with mgmt-discount tightening if B1-from-Q&A surfaces. | Seeking Alpha / Motley Fool / Investing.com / archived replay search per prep grep list. | 2026-05-21 (downgraded post-v2.2) |
 | 🟠 **Cross-bank life-science strategic-default pattern tracking** | WAL $99M (May 2026, gateway market) + OZK IQHQ (~$555M funded, Aug 2026 maturity) = two Class-A life-science walk-aways across watchlist in 6 months. Pattern is the kind of thing the master THESIS Bank × Cluster table tracks if it hardens. | Watch for #3 in next 1-2 quarter print cycles. If surfaces, escalate to master THESIS update + cross-agent flag to PROME. | NEW 2026-05-21 |
 | **Other LAM/Leucadia-era credits in WAL book** (V2 PRIMARY post-print) | ✅ **10-Q inventory test CLEAN 2026-05-21.** Only LAM + Cantor V named; no new credits surface. WAL escalated to active Jefferies-parent litigation in NY Supreme Court (Mar 2026). Q&A still untested but lower priority. | (a) Investor Day Q&A transcript when found, (b) WAL Q2 print late Jul | 2026-05-21 (10-Q done) |
@@ -32,26 +34,30 @@ Persistent state-of-REGINALD tracker across sessions. **SCRATCH** = loose notes,
 ## AWAITING DATA
 *Known external prints with dates. Order = chronological.*
 
+**⚠️ Fired during 5/21–6/2 gap — status unverified (check next session):**
+
+| Date | Item | Status |
+|------|------|--------|
+| ~5/14-16 (passed) | **MI3 / FFIEC PDD bulk update** — V2.2 calibration input | Window passed without integration; now 2.5+ weeks overdue. Recheck FFIEC PDD; if available run V2.2 calibration table (`WAL/THESIS.md`): ≥27% V1 hard-confirmed; 25-26.9% acceleration; 24-24.9% v2.2 stands; <24% plateaued. Also OZK 37.6% / EGBN 23.7% baselines. |
+| ~Mid-May (passed) | FDIC Quarterly Banking Profile Q1 | Likely released; not pulled. Aggregate CRE DQ / NDFI growth / provisions. |
+| 5/21 (passed) | APO Epstein class-action deadline | PC sector headline risk — outcome unverified (BROCK primary). |
+| 5/25 (passed) | WALTER ↔ REGINALD LIAISON calibration cycle 1 | Trigger fired; not run (messaging deferred). See LIAISON post-wrap thread. |
+| TBD May→Jun? | ROAD to Housing Act House vote | Sec 901 survival post-76-lawmaker letter; may have slipped to June. Status check. |
+| 6/1 (fired) | FL property reinsurance renewals | CORAL primary; REGINALD info. Outcome unverified. |
+
+**Forward (from 6/2):**
+
 | Date | Item | Test / Implication |
 |------|------|-------------------|
-| **🔴 May 14-16** | **MI3 / FFIEC PDD bulk update** — V2.1 → V2.2 trigger | Per V2.1 calibration table (`WAL/THESIS.md`): ≥27% V1 hard-confirmed; 25.0-26.9% V1 acceleration; 24.0-24.9% V2.1 stands; <24% V1 plateaued post-test. Pre-registered branching makes decision mechanical. Also OZK (37.6% baseline), EGBN (23.7% baseline post strategic-de-risk). |
-| **🔴 May 11-13** | **WAL + OZK 10-Qs** (SEC EDGAR) | WAL: highest-impact for V2.1 thesis — RED §12.3 cross-credit inventory test (0/1/2+ Leucadia-era credits in Schedule O / Table 16); Office Slide 12/23 Q1 numbers in 10-Q form; Cantor residual disclosure; Apollo Atlas SP counterparty. OZK: RESG classified detail, specific reserves on 11 problem credits. |
-| **🔴 May 12** | **WAL Investor Day** — RED §12.4 mgmt-credibility test | V2.1 mgmt-discount calibration: addresses-MI3/Office-maturity/cross-credit-directly = mgmt-discount loosens; dodges per Q1 transcript pattern = mgmt-discount tightens. **Pre-write read-across needed tonight (Mon May 11 evening) — escalated to next-session #1 priority.** |
-| **May 4-10 ✅ partial** | ~~10-Qs (SEC EDGAR) for WAL/OZK/EGBN/VLY/CFG~~ | CFG May 4, VLY May 7, EGBN May 7 ✅ scanned May 8. WAL + OZK pending. |
-| ~~May 6~~ ✅ printed | ~~APO Q1 (pre-market 8:30 ET)~~ — moved to OPEN THREAD `APO Q1 post-print integration` | — |
-| ~~May 6~~ ⏸ data not yet integrated | BLS state jobs March (LABOR primary; REGINALD = FL signal CARL/CORAL) | LABOR/CARL own integration; check for cross-domain signals next session |
-| ~~May 8~~ ⏸ data not yet integrated | BLS Apr NFP (LABOR/CARL primary) | LABOR/CARL primary; check claims for >300K trigger violation next session |
-| **~Mid-May** | FDIC Quarterly Banking Profile Q1 | Aggregate CRE DQ, NDFI growth, provision trends |
-| **~Mid-May** | FFIEC PDD Q1 bulk update | MI3 ratios bulk-queryable |
-| **May 21** | Epstein class action deadline (APO) | PC sector headline risk |
-| **TBD May** | ROAD to Housing Act House vote | Sec 901 survival post-76-lawmaker bipartisan letter Apr 22 |
-| **Jun 1** | FL property reinsurance renewals | FL property insurance pricing, carrier exits — CORAL primary |
+| **Weekly Thu** | Initial claims | >300K trigger (latest 215K [FRED 5/23]) |
 | **Jun 18** | AOCI capital rewrite comment period closes | Final rule direction; Cat III/IV impact $49.5B aggregate |
-| **Jun 18** | Options expiry cluster | WAL $85P/$65P, SSB $90P, KRE multi, IWM $250P, HYG $75P — position management decisions ~Jun 11 |
-| **~Late Jul** | WAL Q2 print | NCO ex-fraud test (REG-25); Office classified migration test (REG-24); leading-bucket trend |
-| **Aug 2026** | IQHQ loan maturity (OZK) | Sponsor support test (OZK primary) |
+| **Jun 18** | Options expiry cluster | WAL $85P/$67.5P/$65P, SSB $90P, KRE $60P, EGBN $25P, IWM $250P, HYG $75P — decision window ~Jun 11 (PROME trigger set; calibration reply owed) |
+| **~Late Jul (~Jul 30)** | WAL Q2 print | NCO ex-fraud test (REG-25, 75%); Office classified migration (REG-24, 70%); leading-bucket trend; one Office migration or 2+? (v2.2 vs v2.5/v3). **Note: post Jul-17 expiry — Sep is the print-catching tenor.** |
+| **Aug 2026** | IQHQ loan maturity (OZK) | Sponsor support test (OZK primary) — life-science pattern pair with WAL $99M |
 | **Oct 1 2026** | OZK $350M sub notes reprice (2.75%→SOFR+209) | Tier 2 capital -20% (OZK primary) |
 | **Oct 2026** | Affinius Capital $2.7B bond maturity | OZK link — NOT mentioned on Q1 call |
+
+*Still-pending integrations (printed, not yet worked — see OPEN THREADS): OZK 10-Q; APO Q1 (Atlas SP / warehouse); BLS state jobs + NFP (LABOR/CARL primary, check claims).*
 
 ---
 
@@ -73,6 +79,9 @@ Persistent state-of-REGINALD tracker across sessions. **SCRATCH** = loose notes,
 
 | Topic | Why interesting | Scope |
 |-------|-----------------|-------|
+| **"Juris banking" — what is it** (carried from SCRATCH 5/1) | Named repeatedly in WAL Q1 transcript as the "real surprise driver"; still no KB row capturing the business / counterparty / monetization. | Quick |
+| **WAL Investor Day Slide 113 stress test** (carried from SCRATCH 5/15-17) | 5.3% total loan-loss rate under 2026 severely-adverse, CET1 stressed to 9.0% — *exceeds* v2.2 Bear-fast assumptions. Mgmt pre-positioning "we can absorb worse than bears model." Cross-check vs SCENARIOS bear legs. | Quick-Medium (pairs with SCENARIOS EV refresh) |
+| **WAL Investor Day Slide 89 NDFI peer chart** (carried from SCRATCH 5/15-17) | "13% 12% 12% 11%" chart text vs 10-Q's 25.2%-of-HFI / 7.9% Business+PE — likely different denominator. PDF deck would resolve. | Quick, low priority |
 | **Apollo Atlas SP warehouse counterparty mapping** | $7.155B WAL warehouse exposure + Atlas SP $6.9B PFSI 78% concentration = transmission landing point analysis. APO May 6 print may surface. WAL/CFG/MTB/etc. exposure to Atlas SP needs explicit mapping. | Medium (1 session, possibly cross-agent with BROCK) |
 | **Cantor mortgage-fraud-policy precedent** | WAL Cantor recovery cited mortgage fraud insurance policy. Industry precedent? Other banks reaching for same? Insurance industry exposure to bank-loan-fraud claims at scale? | Quick-Medium |
 | **First Brands transmission landing at peer banks** | Jefferies took $17M Q1; WAL silent in Q1 — where else did the loss land? PE/credit fund chain analysis (BROCK has primary). | Medium (cross-agent) |
@@ -93,6 +102,7 @@ Persistent state-of-REGINALD tracker across sessions. **SCRATCH** = loose notes,
 
 | Date | What | Result |
 |------|------|--------|
+| **2026-06-02** | **12-day-gap boot + file-tree catch-up** (scope: REGINALD files only; no messaging, no position analysis) | Tape fully retraced 5/15-5/21 stress regime: WAL $80.20 (reclaimed $78), Brent $95.91 (−$15, Hormuz re-spike unwound), 10Y 4.46% (−16bps), VIX 15.73 — 4-for-4 risk-on; bear-medium drew zero tape corroboration but thesis is print-dependent (logged risk-on beta, not invalidation). Credit bifurcation the one non-fading signal (CCC 946 / HY 272, ratio 3.48x). **Files refreshed:** STATUS (FRED rows date-stamped per PROME 5/21 convention; dashboard/triggers/threshold tables → 6/2 tape; PREDICTIONS 60/55→70/75 sync catch), CALENDAR (MAY pruned, JUNE current, Jun 18 surfaced), SCRATCH (4 stale sections pruned, 3 research threads rescued to ROADMAP), WAL/SCENARIOS (staleness flag only — EV math NOT recomputed). **2 PROME signals read, not actioned** (FRED convention adopted; Jun 18 cluster calibration reply held). No commits yet (Phase 7). |
 | **2026-05-21** | **WAL 10-Q drill complete + V2.1 → V2.2 SHIPPED** | Drill findings `research/WAL_10Q_DRILL_2026-05-21.md` (~280 lines). **V2 inventory test CLEAN** (only LAM + Cantor V; WAL→Jefferies parent NY Sup Ct Mar 2026). **🔴 B1 FIRED via 10-Q subsequent event: $99M life-science office sponsor walk-away** (late April 2026, pass→substandard, same mechanic as IQHQ). **🔴 V4 added (mgmt credibility): Stephen Curley (Chief Banking Officer National Business Lines) resigned same week as 10-Q.** Market reacted ~10% on 5/11-5/15 (Simply Wall St 5/14); DA Davidson PT cut $93→$90 (5/13). **NDFI 10-Q breakout** $14.93B/25.2% of HFI = $10.25B mortgage credit + $3.42B business credit + $1.26B PE; Business+PE = 7.9% ties to deck Slide 24. **Other CRE-NOO nonaccrual $228M→$263M (+15.4% QoQ)** — leading-bucket migration firing in Q1 BEFORE the $99M event. V2.2 reweight: Bear-fast 12% / Bear-medium 30% (was Bear-slow 23%) / Base 33% / Bull 18% / Tail 7%. EV $70.50→$67.98. PT range $52-70→$50-68. REG-24 60→70%, REG-25 55→75%. Files: THESIS v2.2 + SCENARIOS v2.2 + 2x CHANGELOG + PREDICTIONS.tsv + WAL/STATUS + STATUS (hygiene 309→182 lines) + POSITIONS + CALENDAR + archive/STATUS_apr24_may1.md (new). |
 | **2026-05-21** | **May 15 expiry cluster CLEARED** | SSB $95P + WAL $75P both gone per Will confirm 5/21 (exact execution path — auto-ex / sold / DNE — not recorded; "either way both of those are gone"). POSITIONS.md cleaned (WAL 8→7 positions / 3 expiries). |
 | **2026-05-21** | **STATUS.md hygiene pass** | Archived `APR 30 PM LIVE TAPE` + `APR 29 5-DAY CATCH-UP` + `POST-DECK INTEGRATION Apr 24` sections (127 lines) to `archive/STATUS_apr24_may1.md`. STATUS.md 309→182 lines (under 250 target). Closes ROADMAP item from 5/17. |
@@ -109,16 +119,7 @@ Persistent state-of-REGINALD tracker across sessions. **SCRATCH** = loose notes,
 | **2026-05-08** | **"KRE $70P May 15" stale-tracking caught + REGINALD scope cleaned** | Will confirmed at broker: position does not exist. Memory journals (`memory/2026-02-11.md`, `2026-02-12.md`) show position WAS real in early Feb (P/L tracked +26%); closed/exited between Feb 12 and Apr 2 broker screenshot, **never propagated to dependent docs**. REGINALD-scope cleanup (CALENDAR / ROADMAP×2 / MEMORY×2 / VLY brief) done. **Out-of-scope still affected:** AGENTS/RED (5 files — STATUS, CALENDAR, TIMELINE, 2 challenges) actively using May 12 T-3 close trigger; AGENTS/TRADES/JUNE_2026_CANDIDATES.md. RED's invalidation framework references a position that doesn't exist — flagged to Will. Lesson: closing a position requires a propagation step to dependent agents (RED especially), not just a POSITIONS.md update. |
 | **2026-05-08** | **REG-20 RESOLVED → CONFIRMED-PARTIAL** | Will called by literal-text reading. Q1 print Apr 21 delivered earnings-miss trigger (1 of 3 OR-conditions; GAAP -4.6% + $152.5M fraud + V2 confirmed in 8-K). PARTIAL credit notation on row to keep calibration honest (modest tape reaction; no capital raise; no regulatory action). PREDICTIONS.tsv + STATUS.md updated. |
 | **2026-05-08** | **Synthesis-files gitignore RESOLVED → Option A negation rule** | Will picked negation `!AGENTS/REGINALD/*/sources/q[1-4]_*/*.md` below line 38. One-time fix; auto-applies to all future quarter dirs. Unblocks 4 .md files in `WAL/sources/q1_2026/` (DROPZONE, transcript, 2 synthesis). `.gitignore` is shared-root file — Will to commit separately. |
-| **2026-05-01 PM** | **Wave 1 chunks 3-6 closed** | FRAUD/STATUS + FRAUD/SYNTHESIS_V2 post-print rewrite (V2 RESOLVED public; Leucadia inventory primary open thread); KB.tsv 80→105 rows (Q1 print evidence 081-105); KB_INDEX 16 groups (added LEADING_CREDIT) + post-Apr 21 quick-reference + REG-20/24/25 prediction-to-row mapping; SCENARIOS re-weighted Bear 45→30 / Base 30→38 / Bull 20→25 / Tail 5→7 (EV $57→$72.32, current $81.22 → 11% over); INDEX refresh (Q4 25→Q1 26 numbers, KB count, file map). 597 insertions / 385 deletions across 8 files. Pushed `551d8c9b`. |
-| **2026-05-01 PM** | **Q1 Call Report sweep** | Confirmed cert/RSSD/CIK for all 5 watchlist banks (now in MEMORY References). FDIC SDI: all banks' most recent REPDTE = 20251231 (Q4 2025); SDI lags 30-60d; risview index Feb 18 2026. SEC EDGAR: no Q1 10-Q filed for any of WAL/OZK/EGBN/VLY/CFG (most recent Nov 7, 2025). FFIEC CDR public ManageFacsimiles is ASP.NET viewstate-locked. Background: Nelnet Bank filed Q1 2026 Call Report Apr 29 — window IS open at FFIEC, just not query-friendly. |
-| **2026-05-01 AM** | **WAL THESIS v1.0→v2.0 release** | "Compounder With Concentrated CRE Tail Risk" framing (was "fast-transmission failure"). V1 STRENGTHENED (Office single-point Slide 12 + $946M maturity wall Slide 23). V2 RESOLVED in public 8-K ($152.5M LAM+Cantor). V3 directionally DISCONFIRMED at aggregate (Slide 24 cohort median). PT $47-60→$55-70. New predictions REG-24 (Office classified >$500M Q3, 60%) + REG-25 (ex-fraud NCO >40bps Q2/Q3, 55%). |
-| **2026-05-01 AM** | **WAL/CHANGELOG.md created** + master `thesis/CHANGELOG.md` entry | First entry pins v1.0 baseline + documents v2.0 transition. |
-| **2026-05-01 AM** | **WAL/STATUS.md refresh** Apr 2→May 1 | Header 🔴🔴 HIGH CONVICTION SHORT → 🟠 SHORT THESIS ACTIVE. Q1 print snapshot table; V1/V2/V3 compact sections; mgmt outlook tensions; live price; positions pointer. |
-| **2026-04-30** | OWL Q1 print (BROCK primary) | REGINALD info-pickup deferred to BROCK ownership |
-| **2026-04-29** | 5-day catch-up integration (Apr 23 cohort + RITM Apr 28 + BOJ Apr 28) | Cohort fade 12/12 confirmed. RITM transcript pull DONE — soft fail on "DQ will reverse Q1" mgmt claim. BOJ hold + 3 dissents → June hike pricing 74%. |
-| **2026-04-24** | WAL Q1 Round 2 deep-mine | Slide 12/23/24 deck synthesis; Office single-point thesis identified; 3 synthesis files in `sources/q1_2026/`. |
-| **2026-04-22** | WAL Q1 Round 1 analysis | `Q1_2026_ANALYSIS.md` from 8-K + press release; V2 fraud confirmed in print; LAM = Leucadia Asset Management identified. |
-| **2026-04-21** | **WAL Q1 print** | $152.5M fraud charge ($126.4M LAM + $26.1M Cantor); GAAP $1.65 miss / Adj $2.22 beat; tape -2%; mgmt "two fraud-related credits" + "largely behind us." |
+*(Pruned 2026-06-02: 5/01-and-earlier entries — Wave 1 chunks, Q1 CR sweep, WAL v1.0→v2.0, WAL/CHANGELOG+STATUS creation, OWL/RITM/BOJ Apr catch-up, WAL Q1 Rounds 1-2, Apr 21 Q1 print. All captured in MEMORY prior-session recaps + commit history.)*
 
 ---
 

@@ -18,6 +18,19 @@
 
 ---
 
+## 2026-06-02 — Boot + file-tree catch-up [pruned 4 stale sections >2wk: 5/1, 5/8, 5/10-11, 5/11; collapsed 5/15-17 to open items]
+
+**Things noticed during the catch-up (factual hygiene session — no analysis pursued):**
+- CALENDAR + STATUS PREDICTIONS sections were both stale at REG-24 60% / REG-25 55% — never synced to the 5/21 v2.2 ratchet (canonical PREDICTIONS.tsv was already 70%/75%). Synced both. Lesson echo: a thesis-version bump touches more files than the headline four; sweep PREDICTIONS *consumers* (STATUS, CALENDAR) not just the canonical tsv.
+- Credit bifurcation is the one signal that didn't fade with the risk-on tape: CCC OAS 946 [6/1] vs HY 272, ratio 3.22x→3.48x. Recorded in STATUS macro-read; Will reviewed and chose to keep in STATUS (no separate tripwire / ROADMAP item this session). If it keeps widening, candidate for a CCC/ratio early-warning trigger to supplement the lagging HY>320 tripwire.
+
+**Carried-forward open research threads (orphaned from pruned sections — promote to ROADMAP investigations on next research pass):**
+- **"Juris banking"** (from WAL Q1 transcript, 5/1) — named multiple times as the "real surprise driver." Still no KB row capturing what it actually IS (business / counterparty / monetization). Research add.
+- **Investor Day Slide 113 stress test** (from 5/15-17) — 5.3% total loan loss rate under 2026 severely-adverse, CET1 stressed to 9.0% — *exceeds* v2.2 Bear-fast assumptions. Mgmt pre-positioning "we can absorb worse than bears model." Open SCENARIOS.md cross-check (analysis pass, not this session).
+- **Investor Day Slide 89 NDFI peer chart** (from 5/15-17) — "13% 12% 12% 11%" chart text vs 10-Q's 25.2%-of-HFI / 7.9% Business+PE. Likely different denominator. PDF deck would resolve. Low priority.
+
+---
+
 ## 2026-05-21 — 10-Q drill + V2.2 ship [PRUNED at closeout; durable bits in MEMORY LAST SESSION + WAL/CHANGELOG]
 
 **Things noticed but didn't dig into:**
@@ -43,49 +56,6 @@ grep -oiE "(Leucadia|Jefferies|Cantor)" wal-20260331_text.txt          # 3+9+9 h
 **Open externality:**
 - WAL Investor Day Q&A transcript still not located (downgraded priority post-v2.2; 10-Q B1 fire is the bigger trigger). Could escalate v2.2 → v2.3 if B1-from-Q&A surfaces.
 - Cross-bank life-science pattern: WAL $99M + OZK IQHQ. Watching for #3.
-
----
-
-## 2026-05-01 PM — Wave 1 chunks 3-6 + Q1 CR sweep [PRUNED 2026-05-11; durable bits already in MEMORY/LESSONS]
-
-**WAL Q1 transcript line-numbers (kept — useful for future quoting):**
-- L22: opening — "decisive actions taken on two previously disclosed fraud-related credits"
-- L28: LAM — "fully charged off the remaining $126.4 million balance of the loan to a fund of Leucadia Asset Management" + "we will not provide further commentary"
-- L34: Cantor — "$29.6 million specific reserve... validated by current as-is appraisal values" + "$26 million" charged + recovery sources (UHNW springing guarantees, mortgage fraud policy)
-- L106: leading-vs-lagging — "criticized assets were largely stable... special mention loans increased $78 million quarter-over-quarter, the change was not thematic"
-- L154: revised guide — "core net charge-off guidance of 25-35 basis points... at or slightly above the midpoint of this range"
-
-**Open backlog item:**
-- "Juris banking" line — mentioned multiple times in WAL transcript as the "real surprise driver." Need KB row capturing what Juris banking actually IS. Research add: what business / counterparty / how does it monetize? (Investor Day May 12 may surface.)
-
----
-
-## 2026-05-08 PM — May 8 Friday session [PRUNED 2026-05-11; durable bits in MEMORY findings]
-
-Detail in MEMORY.md LAST SESSION (May 8 PM) one-line recap + commit history `d5d08d56` / `486aea0b` / `325dc8de` / `0d876199`.
-
----
-
----
-
-## 2026-05-11 PM — Investor Day prep + tape break [PRUNED 2026-05-17; integrated to MEMORY LAST SESSION + Q&A overreach lesson durable in MEMORY Feedback]
-
-Detail in MEMORY.md prior-session 1-line recap + LESSONS.md falsifier-status pattern.
-
----
-
-## 2026-05-10/11 PM — WALTER LIAISON converged + V2.1 ship [PRUNED 2026-05-17; durable patterns in MEMORY References + LESSONS]
-
-Detail in MEMORY.md References LIAISON entry + LESSONS.md 2 methodology entries.
-
----
-
-## 2026-05-15 / 17 — Investor Day FINDINGS + SSB ladder [PRUNED 2026-05-21; durable bits in MEMORY LAST SESSION (May 15-17 1-liner) + WAL/INVESTOR_DAY_FINDINGS_2026-05-12.md]
-
-**Still-open research items not yet addressed elsewhere:**
-- Investor Day **Slide 89 NDFI peer chart**: WAL labeled "moderate" with chart text "13% 12% 12% 11%..." — partial answer from 10-Q: NDFI 25.2% of HFI ($14.93B); Business+PE = 7.9% ties to Slide 24's "7% Ex-Mtg Credit cohort median." The 13% chart number likely uses a different denominator (Ex-Mtg basis but including PE funds in numerator?). PDF deck would resolve. Low priority.
-- Investor Day **Slide 113 stress test 5.3% total loan loss rate** assumes 2026 severely-adverse with CET1 stressed to 9.0% — already EXCEEDS v2.2 Bear-fast scenario assumptions. Mgmt pre-positioning "we can absorb worse than bears model" narrative. **SCENARIOS.md cross-check open.**
-- Slide 68 Mortgage Warehouse "Zero credit losses since 2010" — 10-Q silent on Atlas SP / non-bank counterparty; consistent with deck. CARL Apr 14 research already established WAL not direct to FHA-stressed servicers. Item closable.
 
 ---
 
