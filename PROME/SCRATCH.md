@@ -1,16 +1,17 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-02 09:55 ET (OpenClaw Prome — post-clear state rehab)
+**Last Updated:** 2026-06-02 ~10:15 ET (OpenClaw Prome — Phase 1 boot-surface cleanup)
 
 ## What Just Happened
 
 Will requested a clean `/clear` after compacting, then explicitly redirected: **do not worry about trade positions right now; get Prome updated and caught up.**
 
 Completed so far:
-- Confirmed repo is synced to GitHub/source-of-truth: `master` at `origin/master` / HEAD `e17a4c90`.
+- Confirmed repo is synced to GitHub/source-of-truth; after rebases/pushes, local `master` matches `origin/master` at HEAD `e8e11442`.
 - Earlier stale local generated edits (`AGENTS/PROME/LAST_COMPLETION.md`, `PROME/FLEET_SCAN.md`) were discarded with Will approval before pull.
 - Ran live dashboard 2026-06-02 ~09:45 ET.
 - Spawned bounded read-only fleet scan (`fleet-scanner-2026-06-02`); result confirmed Prome boot files were stale even though agent dirs advanced through Jun 1.
-- Began Prome boot-surface rehab: rewrite SCRATCH / TODAY / STATUS / FLEET_SCAN / ACTIVE_DECISIONS as current June 2 state surfaces.
+- Rewrote and pushed Prome boot-surface rehab package: SCRATCH / TODAY / STATUS / FLEET_SCAN / ACTIVE_DECISIONS (`79a66053`).
+- During later push/rebase, WALTER refreshed Iran anchor (`ddb94d13`) and Prome disabled SENTRY scheduled feed pushes while keeping manual `workflow_dispatch` (`e8e11442`).
 
 ## Current Operating Posture
 
@@ -55,7 +56,7 @@ Live/price rows:
 | VIOLET | Jun 1 | R11 analog dead / gradual fade won; R12 technically terminated but spot/SKEW watch near re-establishment; coiled-spring class validated for later timing windows. |
 | MARCO | Jun 1 | Thesis refined: acute crisis softened, structural ag-labor + Canadian-travel channels persist. |
 | CARL | May 31 | Consumer/stagflation state hardened via GDP/PCE; important but not immediate Prome state-rehab blocker. |
-| WALTER | May 27 | Operationally stale relative to Jun 1 Iran/BRENT shift; routing owner, likely needs anchor refresh after Prome surfaces are fixed. |
+| WALTER | Jun 2 | Iran anchor reverified: new frame is **narrative-fork + kinetic-acceleration**. Channel state is contested (Tasnim/IRGC suspension vs MFA/Trump ongoing/rapid-pace denial), Kuwait strike cadence is load-bearing, and Trump rhetoric is tape-not-info in both directions. |
 | REGINALD / BROCK / HENRY / LIQUID / BOND | May 20-21 domain heads, later housekeeping commits | Important but state-stale; revive only after Prome boot surfaces are clean or a trigger/signal requires it. |
 
 ## Current Prome File Trust
@@ -67,13 +68,13 @@ Live/price rows:
 | `PROME/STATUS.md` | ✅ Current Jun 2 operational surface. |
 | `PROME/FLEET_SCAN.md` | ✅ Current Jun 2 bounded fleet scan. |
 | `PROME/ACTIVE_DECISIONS.md` | ✅ Current Jun 2 safety index; old trade rails marked verification-required. |
-| `HEARTBEAT.md` | Injected but stale vs Jun 1 agent changes; do not quote old levels. |
+| `HEARTBEAT.md` | Injected but stale vs Jun 1/2 agent changes and live levels; do not quote old levels. Next major target after Phase 1/2 cleanup. |
 
 ## Next Work
 
-1. Review final diff/stat for the Jun 2 boot-surface refresh.
-2. Ask Will whether to commit/push the Prome refresh to GitHub source-of-truth.
-3. After state files are safe, decide whether to refresh WALTER Iran anchor / news routing.
+1. Finish Phase 1 factual cleanup across Prome boot surfaces: remove completed/pending-process residue and fold in SENTRY/WALTER updates.
+2. Phase 2: add a fresh top block to `PROME/HANDOFF.md` for OpenClaw continuity.
+3. Phase 3: refresh root `HEARTBEAT.md` with a live dashboard pull and Jun 2 regime update.
 
 ## Guardrails
 

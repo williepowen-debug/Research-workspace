@@ -1,6 +1,6 @@
 # TODAY.md — Tuesday June 2, 2026
 
-**Objective:** Get Prome caught up and safe to boot from. Do not optimize trade decisions in this pass; fix state staleness, distinguish live evidence from historical rails, and prevent stale May 26/27 surfaces from misleading future sessions.
+**Objective:** Keep Prome safe to boot from after the Jun 2 catch-up. Phase 1 is factual cleanup only: remove completed/pending-process residue, fold in WALTER/SENTRY updates, and leave HEARTBEAT for a separate careful refresh.
 
 **Current regime:** Divergence persists. Public credit and vol remain calm — HY OAS **272bps [FRED 6/1 close]**, VIX **16.18** — while stress remains visible in Japan/FX, energy, BDC/private-credit marks, and duration. Treat this as **substance/tape divergence**, not broad cascade confirmation.
 
@@ -10,12 +10,14 @@
 
 | Priority | Work | Status |
 |---|---|---|
-| 🔴 | Sync local repo to GitHub source-of-truth | ✅ Done — `master` matches `origin/master` at `e17a4c90` |
+| 🔴 | Sync local repo to GitHub source-of-truth | ✅ Done — `master` matches `origin/master` at `e8e11442` |
 | 🔴 | Discard stale local generated edits that blocked pull | ✅ Done with Will approval |
-| 🔴 | Refresh stale Prome boot surfaces | In progress — SCRATCH / TODAY / STATUS / FLEET_SCAN / ACTIVE_DECISIONS |
+| 🔴 | Refresh stale Prome boot surfaces | ✅ Done and pushed (`79a66053`) |
+| 🔴 | Disable SENTRY scheduled feed pushes | ✅ Done and pushed (`e8e11442`); manual `workflow_dispatch` preserved |
 | 🟠 | Identify agent state changes since Prome went stale | ✅ Bounded fleet scan complete |
+| 🟠 | Integrate WALTER Jun 2 Iran-anchor refresh | ✅ Phase 1 cleanup target; WALTER commit `ddb94d13` landed during rebase |
 | 🟠 | Reconcile trade rails / fills / active decisions | Deferred by Will: not the focus right now |
-| 🟡 | Decide whether to commit/push Prome refresh | Pending after diff review |
+| 🟡 | Refresh HEARTBEAT | Pending Phase 3; do not trust old HEARTBEAT levels |
 
 ---
 
@@ -45,11 +47,11 @@ Dashboard summary: **3🔴 / 9🟡 / 8🟢 — elevated, not cascade.**
 ## Agent-State Changes to Carry Forward
 
 - **SAM:** Fresh Jun 1. BOJ Jun 16 is the dominant single-path catalyst; market priced hike ~88%, SAM marks 70%. USD/JPY near 160; intervention risk reactivated. Sep $60 calls explicitly not warranted under v1.5.
-- **BRENT:** Fresh Jun 1. Iran talks suspension + Kuwait missile volley re-armed Phase 1; Brent around $95. Trump “deal close” rhetoric downgraded unless real substance follows.
+- **BRENT:** Fresh Jun 1, with WALTER Jun 2 correction. Iran/energy stress re-armed, but channel state is now **contested**: Tasnim/IRGC suspension vs MFA/Trump ongoing/rapid-pace denial. Treat Trump rhetoric as tape-not-info in both directions unless substance confirms.
 - **VIOLET:** Fresh Jun 1. R11 analog is dead / gradual fade won. R12 technically terminated, but spot/SKEW watch near re-establishment. Timing reset toward later windows.
 - **MARCO:** Fresh Jun 1. Acute crisis softened, but structural ag-labor and Canadian-travel channels remain live.
 - **CARL:** Fresh enough May 31. Consumer/stagflation hardened on GDP/PCE, but not today's state-rehab bottleneck.
-- **WALTER:** Last refreshed May 27; likely stale relative to Jun 1 Iran/BRENT shift. Routing owner should get anchor refresh after Prome files are clean.
+- **WALTER:** Fresh Jun 2. Iran anchor reverified; current frame is **narrative-fork + kinetic-acceleration**. Kuwait strike cadence is load-bearing; Bab al-Mandab remains rhetorical only; next anchor boundary 2026-06-09.
 - **REGINALD / BROCK / HENRY / LIQUID / BOND:** Domain heads are stale by 1-2 weeks. Do not chase completionism today; revive when a concrete signal/decision requires it.
 
 ---
@@ -60,7 +62,7 @@ Dashboard summary: **3🔴 / 9🟡 / 8🟢 — elevated, not cascade.**
 - Make Prome boot surfaces current and explicit about stale rails.
 - Keep GitHub as source-of-truth; show diff before any commit/push.
 - Use live dashboard before citing levels.
-- Route WALTER/news refresh after state rehab if time remains.
+- Keep WALTER/news routing as WALTER-owned; Prome should carry the Jun 2 anchor frame rather than re-routing it.
 
 **Do not:**
 - Treat May 26/27 `BROKER_PENDING` or trigger language as actionable without reconciliation.
@@ -72,6 +74,7 @@ Dashboard summary: **3🔴 / 9🟡 / 8🟢 — elevated, not cascade.**
 
 ## Pending After State Rehab
 
-1. Review diff for the refreshed Prome files.
-2. Ask Will whether to commit/push the Prome refresh.
-3. Then choose next catch-up target: WALTER Iran anchor, Prome inbox triage, or a formal fleet-scan commit.
+1. Finish Phase 1 factual cleanup diff for Prome boot files.
+2. Phase 2: add fresh OpenClaw handoff block to `PROME/HANDOFF.md`.
+3. Phase 3: refresh root `HEARTBEAT.md` with live dashboard + Jun 2 regime state.
+4. Later/separate: Prome inbox triage and position-state reconciliation if Will asks.
