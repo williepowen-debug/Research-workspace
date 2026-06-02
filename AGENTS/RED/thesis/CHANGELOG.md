@@ -4,6 +4,23 @@
 
 ---
 
+## 2026-06-02 (PM) — SELF-CORRECTION of the S15 AM Read: GEX *Explanation* Died but DIET Coiled-Spring Snap *Signature* Survived & Is Firing (Session 16)
+
+**Confidence:** 72% → **72%** (held)
+
+**What happened:** Per Will's "continue catching RED up," I verified the single load-bearing item of the S15 AM session — VIOLET's 6/1 "GEX-suppression invalidated" — by reading her primary backtest doc rather than trusting the S15 summary. **S15 over-read it.** VIOLET killed only the GEX *explanation* for suppressed VIX/VVIX magnitudes (no era-specificity across 19yr). Her DIET coiled-spring snap *signature* SURVIVED the era-split (37 fires/25 episodes; fwd60 peak>+50% 65% vs strict 62%; median fwd60 +14.7%) and is **currently firing (5/20–5/29).** S15 had correctly applied the borrowed-mechanism caution to GEX, then committed the mirror error: dragged the bifurcation's directional implication down with the dead mechanism, and missed that VIOLET handed over a replacement snap signature in the same session.
+
+**Corrections (RED files):**
+- Sub-trigger (e) "no snap-mechanism survives" → **un-fired** (was FIRING). Self-falsifier ~1/5 (was 1.5/5); snap-interpretation RESTORED.
+- Hypotheses recomposed: **Acute 10→12** (snap path restored) / **Managed 38→36** (loses the false coiled-spring-removal driver) → Stagflation 37 & Managed 36 now **co-modal**; Policy Rescue 6 / War 6 / Soft 3 unchanged.
+- **Net bear 53→55** (+2 = restored snap path, NOT new conviction; VIOLET's own convergence FELL to 8/50, no imminence).
+- **VIX<16 falsifier GUARDED:** sub-16 VIX *while DIET fires* = loaded-spring suppression leg, not managed-decline confirmation. Do NOT auto-cut bear 50% until DIET resolves (catalyst 6/12 CPI / 6/17 FOMC). Track VIX+DIET jointly.
+- KB-RED-042 note refined; ML-RED-075 logged; CHG-RED-027/028 updated; MEMORY mirror-lesson added.
+
+**Still owed:** cross-agent retro re-pair with REGINALD(5/21)/LIQUID(5/20) — both still stale; LIQUID specifically owes a read now that VIOLET killed the GEX explanation LIQUID's v2.0 promoted. Position-state reconcile (5/21 CSV stale; market tool broken — yfinance missing from venv).
+
+---
+
 ## 2026-06-02 — Waller Hawkish Pivot Kills Rescue Tail; Stagflation Substance Hardened; Paper Got Calmer; GEX-Suppression Mechanism INVALIDATED; RED-19 Falsified (Session 15, 12-day gap from Session 14)
 
 **Confidence:** 73% → **72%** (−1)

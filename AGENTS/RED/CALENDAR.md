@@ -2,7 +2,7 @@
 
 *Updated each session. Adversarial perspective: what confirms, what challenges, what kills the thesis.*
 
-**Last Updated:** 2026-06-02 (Tue Session 15 — 12-day gap catch-up. Waller hawkish pivot 5/22 kills rescue tail; stagflation substance hardened; paper calmer; GEX-suppression mechanism INVALIDATED by VIOLET; RED-19 falsified; CHG-RED-024 closed)
+**Last Updated:** 2026-06-02 (Tue **Session 16** — data-hygiene pass: refreshed FALSIFICATION WATCH with live anchors (VIX 15.80, HY OAS 272, Brent $94.78), fixed stale RED-19 scoring (was "ACTIVE-RIGHT", now RESOLVED WRONG), added VIX<16 DIET guard. S15 base: Waller pivot kills rescue tail; stagflation hardened; paper calmer; GEX *explanation* invalidated but DIET snap *signature* survived; CHG-RED-024 closed)
 
 ---
 
@@ -95,23 +95,23 @@
 
 ---
 
-## FALSIFICATION WATCH (active triggers, May 21)
+## FALSIFICATION WATCH (active triggers — refreshed 6/2 S16 with live anchors)
 
 | Event | Impact | When to Watch |
 |-------|--------|---------------|
-| **HY OAS <280 sustained 3d** | Exit KRE Jun18/Jun30 + IWM Jun; reduce OZK/WAL 25% | **PARTIALLY FIRED — 276 cycle-low 5/18 LIQUID.** Day 40 of 60 (CHG-RED-027 sub-trigger b). |
-| **HY OAS >320 sustained 3d** | Path B reasserts; confidence +3 | OAS ~276 — 44bps away |
+| **HY OAS <280 sustained 3d** | Exit KRE Jun18/Jun30 + IWM Jun; reduce OZK/WAL 25% | **FIRED & SUSTAINED — 272 (6/1, FRED 2.74 5/31).** Well past day 60 (CHG-RED-027 sub-trigger b). Note S16: mechanism (GEX) that explained the suppression is invalidated → treat as pure observation, not mechanism-backed. |
+| **HY OAS >320 sustained 3d** | Path B reasserts; confidence +3 | OAS ~272 — 48bps away |
 | **WAL Q1 MI3 ≥25% (Q1 release re-scoped to Q2 late-Jul)** | V1 hidden-CRE acceleration confirmed via primary instrument; +3 | **RE-SCOPED.** Bin (a) prior 30% → 35% given B1 alt-mechanism partial-fire |
 | **WAL Q1 MI3 <19% (cohort-median)** | V1-demotion partially confirmed; trim Jun stack | **RE-SCOPED.** Bin (c)/(d) priors widen due to B1 de-coupling V1 from MI3 number alone |
 | **WAL second Office sponsor walk-away (≥$50M, late-Apr/May/Jun, gateway market)** | V1 cluster-confirms; +2 | NEW WATCH. B1 was first ($99M life-sci). Watch 10-Qs + 8-Ks |
 | **Q2 WAL or OZK beat + clean disclosure** | Exit both; confidence 73 → 65 | Mid-late Jul. CHG-RED-027 sub-trigger (a) |
 | **OZK NCO sustained ≤55bps through Q3** | Invalidation §2 fires; confidence -5 | Q2 print mid-late Jul. Q1 was 57bps |
 | **Structural data backs OFF (3+ regionals Q2)** | Bear thesis broken; capitulate framework | Mid-late Jul. CHG-RED-027 sub-trigger (c) |
-| **Brent <$95 sustained + Hormuz >5 mbpd 15+ days** | Iran-cluster reverses | Brent $107 — clear from <$95. CHG-RED-027 sub-trigger (d) |
-| **Initial claims >250K** | LABOR transmission re-arms; +3 | 211K 5/14 |
-| **VIX <16 sustained 5d** | Managed decline confirmed; reduce 50% | 17.61 today |
-| **VIX >20 intraday** | Window-trigger menu fires for Jun stack | 17.61; 2.39 cushion |
-| **Brent paper >$130 sustained 5d** | Re-price stagflation, add to KRE/TLT | $107; 23 away |
+| **Brent <$95 sustained + Hormuz >5 mbpd 15+ days** | Iran-cluster reverses | **Brent $94.78 (6/1 SAM) — PRICE LEG AT/BELOW $95.** Hormuz still ~10 vessels/day trickle (kinetic side) → half-firing. CHG-RED-027 sub-trigger (d). |
+| **Initial claims >250K** | LABOR transmission re-arms; +3 | ~209K |
+| **VIX <16 sustained 5d** ⚠️GUARDED | Managed decline confirmed; reduce 50% — **ONLY IF DIET coiled-spring NOT concurrently firing** | **VIX 15.80 live 6/2 (sub-16) / 16.01 EOD 6/1.** AT level — BUT DIET coiled-spring firing (VIOLET 6/1) ⇒ sub-16 = loaded-spring suppression leg, NOT managed-decline. Do NOT auto-cut bear; resolve at 6/12 CPI / 6/17 FOMC. (S16 guard) |
+| **VIX >20 intraday** | Window-trigger menu fires for Jun stack | 15.80 live; 4.2 cushion |
+| **Brent paper >$130 sustained 5d** | Re-price stagflation, add to KRE/TLT | $94.78; ~35 away |
 | **BTFP 2.0 announced** | EXIT ALL IMMEDIATELY | Dormant |
 | **EGBN -84% single-day Jun $25P 5/21** | Verify spot catalyst | NEW WATCH today |
 | **REG-T-02 sustain protocol** | Apply once defined | Pending WALTER LIAISON Turn 6+ |
@@ -123,11 +123,11 @@
 | Pred | Date | Conf | Status |
 |------|------|:---:|--------|
 | **RED-16** VIX ≥25 sustain by 5/19 | **5/19** | 18% | **RESOLVED CORRECT** (modal 82%; VIX peaked 19.21 5/15) |
-| **RED-17** Dated Brent next print <$115 | next Platts | 50% | ACTIVE-RIGHT ($107) |
+| **RED-17** Dated Brent next print <$115 | next Platts | 50% | ACTIVE-RIGHT (~$95 area) |
 | **RED-08** Brent <$120 sustained Q2 | Jun 30 | 60% | Workbook RESOLVED WRONG (both sides; physical hit $141) — historical |
 | **RED-10** HY OAS <400 by Jun expiry | Jun 30 | 45% | ACTIVE-VERY-RIGHT (276) |
 | **RED-18** Brent Dec26 $80-95 over 60d | Jul 5 | 65% | ACTIVE (day 15 of 60) |
-| **RED-19** US rigs 400-415 through Jun | Jun 30 | 65% | ACTIVE-RIGHT (408 May 1; verify) |
+| **RED-19** US rigs 400-415 through Jun | Jun 30 | 65% | **RESOLVED WRONG** (rigs 429 May 29, >415 upper bound; BRENT-confirmed 5/31). Fixed S16 — was stale "ACTIVE-RIGHT". |
 
 ---
 
