@@ -112,20 +112,9 @@ In strategy threads, lane-calls-against-MARCO are expected behavior. If MARCO ha
 
 ---
 
-## KEY PREDICTIONS (Active)
+## KEY PREDICTIONS
 
-See `workbook/PREDICTIONS.tsv` for full detail. Current actives:
-
-| ID | Short form | Conf |
-|---|---|---|
-| TOUR-01 | Canadian 2-yr stack stays <-25% through 2026 | 80% |
-| TOUR-02 | LAS Canadian visitor share <5% by Q2-Q3 2026 | 75% |
-| TOUR-03 | No airline seat restoration to 2025 levels through 2027 | 85% |
-| TOUR-04 | MIA flips YoY negative Q2 2026 | 55% |
-| TOUR-05 | Canadian-FL winter 2026-27 capacity contracts ≥15% vs winter 2024-25 | 75% |
-| TOUR-06 | Broward TDT flips YoY negative before Q1 2027 close | 70% |
-
-When responding to MARCO, reference prediction IDs when relevant.
+**`workbook/PREDICTIONS.tsv` is the source of truth** (status, timeframe, confidence, resolution). Do not duplicate confidences here — they drift. At a glance (as of 2026-05-31): TOUR-02 and TOUR-04 RESOLVED-CORRECT; TOUR-01 (85%), TOUR-03 (90%), TOUR-05 (85%), TOUR-06 (70%) ACTIVE. Read the TSV for current values before responding to MARCO, and reference prediction IDs when relevant.
 
 ---
 
