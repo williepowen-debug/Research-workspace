@@ -1,7 +1,7 @@
-# MARCO THESIS — v2.3
+# MARCO THESIS — v2.4
 
-**Version:** 2.3
-**Last Updated:** 2026-06-02 (session 10 — v2.2→v2.3 minor: enforcement-funding lock downgraded structural→contested after the reconciliation bill missed Jun 1 + parliamentarian carved the core; SDL-01 stock-loss spine untouched, see `CHANGELOG.md`)
+**Version:** 2.4
+**Last Updated:** 2026-06-02 (session 11 — v2.3→v2.4 minor: Channel-2 macro frame added — the Canadian boycott sits *inside* the first US inbound-tourism decline in 20 years (−5.5%, 68.3M, CY2025); FIFA World Cup 2026 added as the reversal-catalyst test. Prior v2.2→v2.3: enforcement-funding lock downgraded structural→contested. SDL-01 stock-loss spine untouched. See `CHANGELOG.md`)
 **Status:** 🟠 NARROWED — durable core = **two structural channels**: (1) ag-labor supply shock (produce transmission real but confounded/multi-causal), and (2) the Canadian-travel boycott (air/snowbird channel + capacity deletion, $ delayed to winter 2026-27). Truly-cyclical channels (condo, aggregate labor) reversed/softened.
 **Conviction:** HIGH that the ag-labor supply shock exists (2.2M stock loss + H-2A bottleneck, structural/irreversible); **MEDIUM, downgraded, that produce CPI cleanly measures it** (multi-causal). **MEDIUM-HIGH on Canadian travel as structural** (v2.2 raised from MEDIUM/bifurcated — the April headline reversal was base-effect; 2-yr stack worsening, sentiment 82%, capacity permanently deleting). MED-LOW and cooling on internal migration; MEDIUM border-fiscal; WATCH on emigration. *(Conviction split by channel; v2.1 split Channel 1 mechanism-vs-thermometer; v2.2 splits Channel 2 structural-vs-base-effect.)*
 **Current live state (daily):** see `../STATUS.md`. **Vector roster:** `../workbook/VX.tsv` (58 vectors). **Predictions:** `PREDICTIONS.tsv`.
@@ -36,6 +36,7 @@ The organizing spine (promotes the prior `workbook/FLOW.tsv` cascades). Each cha
 
 ### Channel 2 — International Visitor Flows → Regional Tourism $ / FL CRE 🔴 STRUCTURAL (air/winter) / 🟡 base-effect (auto/headline) · **MEDIUM-HIGH** · *re-classified v2.2*
 **v2.2 splits this channel the way v2.1 split Channel 1 — separate the structural signal from the misleading readout.** Mechanism: visitor collapse → hospitality/spend → occupancy → tax base + hotel/CRE → bank exposure.
+- **Macro frame (v2.4): the Canadian boycott is the sharp edge of a broader structural contraction.** CY2025 was the **first US inbound-tourism decline in 20 years** — −5.5%, 68.3M arrivals (NTTO/Inbound Travel Assoc). Overseas arrivals are stuck **14–26% below 2019** (Apr −14.1% YoY, Easter/Iran-war distorted — the durable read is the below-2019 level, not the point estimate). So Channel 2 isn't a Canada-only story: Canada (#1 market, structurally rerouting) is the leading edge of a whole inbound complex that turned negative. **The reversal-catalyst test is live: the FIFA World Cup (US co-host, Jun 11–Jul 19 2026) is the event that *should* pull inbound back above 2019 — and Q2 data is not yet encouraging.** If the World Cup fails to reverse the 20-yr decline, the structural read hardens (→ ES-MARCO-09).
 - **The April "recovery" was base-effect — the 2-yr stack WORSENED.** StatCan Mar-full (May 21): −6.4% YoY but **−28.0% vs 2024**; Apr prelim +1.4% YoY but **−30.0% vs 2024** (stack deteriorated even as headline flipped positive). The boycott isn't easing; the comparison base is. Sentiment confirms: Nanos May 82% call the boycott helpful. **Stop reading the +1.4% headline as recovery.**
 - **Structural signal = air, not auto.** Auto (same-day land) drives the headline bounce (+5.8% Apr); **air −8 to −11%** — the snowbird/FL-relevant channel — stays negative and its capacity is permanently deleting (Air Transat complete US exit Jun 13; AC winter 26-27 zero new FL routes; WestJet summer −32% ASM; Cdn carriers −450K seats Q1). MIA flipped negative (Mar −1.76%, Apr −2.02%). FL $ rides on air/winter.
 - **Base-effect readout = headline + FLL/MCO airport YoY.** FLL +10.2% Mar prints positive only because 2025 was −11.7%; MCO record spring break on domestic anchor. This is why MAR-24 (all 3 FL airports negative) is *not* met on a YoY basis — same base-effect confounding as the StatCan headline, cutting the other way.
@@ -75,6 +76,7 @@ US-born citizen emigration rising (IRS 4,889 expatriates 2025 record, Q1 +102% Y
 | H-2A catastrophic shortage in planting season | 🔴 smoking gun | **HELD** — consular bottleneck persists post-shutdown |
 | Produce/food CPI rising | 🟠 strong (was +3.1%) | **RE-ATTRIBUTED (v2.1)** — F&V +6.1% YoY is real but multi-causal (freeze + tariff + freight + labor); labor is a co-driver, not the dominant signal. Not clean labor proof. |
 | Canadian tourism structurally rerouted | 🔴 smoking gun | **HELD (v2.2)** — 2-yr stack worsening (−30% Apr vs 2024); sentiment 82%; air −8 to −11% + capacity deleting. Headline +1.4% is base-effect, not a rebound. |
+| US inbound tourism −5.5% CY2025 (first decline in 20 years) | — (new v2.4) | **HELD/structural** — 68.3M arrivals; overseas stuck 14–26% below 2019. The macro frame Channel 2 sits inside; FIFA World Cup 2026 is the reversal test (ES-MARCO-09). |
 | FL migration −93%, #1→#8 | 🔴 smoking gun | **HELD but stale** (annual data) |
 | NFP −92K (Feb, "first negative print") | 🔴 smoking gun | **SOFTENED** — Apr +115K, UE 4.3%; Feb was a blip |
 | Mexico remittances −4.6% FY25 (worst since GFC) | 🟠 strong | **FLIPPED** — Mar +4.9%; count −3.6% is the residual tell |
@@ -93,7 +95,7 @@ US-born citizen emigration rising (IRS 4,889 expatriates 2025 record, Q1 +102% Y
 |---------|-----------|-------|
 | 1 — Workforce shock (mechanism) | **HIGH** | → intact / hardening |
 | 1 — Produce-CPI as its proof (thermometer) | **MEDIUM** ↓ | ↓ demoted v2.1 (multi-causal) |
-| 2 — Visitor Flows → FL CRE (air/winter channel) | **MEDIUM-HIGH** ↑ | ↑ re-classified structural v2.2 (was bifurcating) |
+| 2 — Visitor Flows → FL CRE (air/winter channel) | **MEDIUM-HIGH** ↑ | ↑ structural v2.2; v2.4 macro frame — sits inside first 20-yr US inbound decline; World Cup reversal test live |
 | 2 — Canadian headline YoY as a readout | LOW | ↓ base-effect noise, not a recovery signal |
 | 3 — Migration → Sun Belt housing | MED-LOW | ↓ softening |
 | 4 — Cross-border → muni fiscal | MEDIUM | → slow grind |

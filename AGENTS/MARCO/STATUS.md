@@ -102,6 +102,7 @@ Five weeks of data (Apr 23 → May 31) broke the "10-breached acute-crisis" fram
 - Prediction #11 (H-2A >425K FY26) still live — demand accelerating.
 
 ### Canadian Travel — STRUCTURAL (🔴, re-classified from 🟠 BIFURCATED — session-9 full refresh)
+- **Macro frame (v2.4):** the boycott sits *inside* the **first US inbound-tourism decline in 20 years** (CY2025 −5.5%, 68.3M; overseas stuck 14–26% below 2019). Canada is the sharp edge, not the whole story. **FIFA World Cup (Jun 11–Jul 19) is the live reversal test** — Q2 not yet encouraging; if it doesn't pull inbound back above 2019, structural read hardens. *(Owner: `thesis/THESIS.md` Channel 2 / KB-MARCO-IVF-27 → ES-MARCO-09.)*
 - **The April "recovery" was base-effect.** StatCan Mar-full (May 21): 2.6M, −6.4% YoY but **−28.0% vs 2024**. Apr prelim: 1.85M, +1.4% YoY but **−30.0% vs 2024** — the 2-yr stack *worsened* even as the headline flipped positive. Absolute Canadian volume still sliding; the comparison base eased, not the boycott. TOUR-01 (framed on the stack) confirmed; conf 80→85.
 - **Sentiment NOT softening:** Nanos May 3-6 (n=1,003) — **82% call the boycott "helpful"** (53%+29%). A May reading, post any trade-thaw. 15th+ consecutive month of decline.
 - **Air ≠ auto:** auto (same-day land) drives the headline bounce (+5.8% Apr); **air −8.1% Apr / −10.8% Mar** — the snowbird/FL-relevant channel, structurally negative and its capacity permanently deleting. FL $ rides on air.
