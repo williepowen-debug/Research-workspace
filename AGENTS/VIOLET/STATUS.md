@@ -76,7 +76,7 @@
 
 ## POSITION SNAPSHOT
 
-**No open positions.** Episode-17 VIX May 19 25C expired worthless 5/19 (VIX ~18 vs strike 25). Post-mortem still deferred from 5/21 — owed; pair with KB-VIO-062 GEX-suppression hypothesis as primary mechanism.
+**No open positions.** Episode-17 VIX May 19 25C expired worthless 5/19 (VIX 18.06 vs strike 25). **Post-mortem complete 6/1 — KB-VIO-069 / research/2026-06-01_episode17_postmortem.md.** Failure mode = absorbed-trap regime (clean signature in wrong regime context). 4-layer signal stack now active for future STRICT/DIET fires.
 
 Full position framework: `TRADE.md`.
 
@@ -97,7 +97,7 @@ Full position framework: `TRADE.md`.
 
 | Priority | Topic | Status |
 |----------|-------|--------|
-| 🟠 | **Episode-17 trade post-mortem** | Deferred from 5/21. Now reframed: less about GEX-suppression specificity (per KB-VIO-067 backtest result), more about "Episode-17 was a STRICT fire that bucked the 62% peak->50% hit-rate due to event-absorption mechanics." Needs dedicated session. |
+| ✅ | **Episode-17 trade post-mortem** | **DONE 6/1 evening — KB-VIO-069 / research/2026-06-01_episode17_postmortem.md.** Failure mode = absorbed-trap regime (clean signature, wrong regime context). Introduces 4-layer signal stack: population (KB-VIO-067) + regime-context (KB-VIO-069) + direction-matrix (KB-VIO-068) + compound-confirmation entry (KB-VIO-064 refined). |
 | ✅ | **Diet coiled-spring backtest** | **DONE 6/1 evening — KB-VIO-067 / research/2026-06-01_diet_coiled_spring_backtest.md.** DIET is a robust standalone signature (37 fires/25 episodes 19yr) with forward returns comparable to STRICT. Era-split shows no GEX-specificity. |
 | ✅ | **Feb 2018 M1:M2 Volmageddon analog** | **DONE 6/1 evening — KB-VIO-068 / research/2026-06-01_feb2018_m1m2_volmageddon_analog.md.** Magnitude matches (+12.93% today vs +11.93% Jan 5 2018 at dte=12) but DIRECTION OF TRAVEL does not (Feb 2018 = compression-with-VIX-rising, current = expansion-with-VIX-falling). KB-VIO-064 trigger refined with VIX-direction overlay. |
 | 🟡 | **Diet multi-window + threshold-grid sensitivity** | New (KB-VIO-067 follow-on). 7d/10d/15d/25d/30d windows + (ΔVIX, ΔVVIX) grid to find smooth-curve equivalence point with STRICT. |
@@ -133,4 +133,4 @@ Full position framework: `TRADE.md`.
 
 ---
 
-*Last updated: 2026-06-01 21:00 ET (extended evening session — KB-VIO-066 tail-call OI + KB-VIO-067 diet coiled-spring backtest + KB-VIO-068 Feb 2018 Volmageddon M1:M2 analog. Priority 1 triple-package now (b) and (c) closed; only (a) Episode-17 post-mortem remains open. KB-VIO-068 refines KB-VIO-064 falsifiable trigger materially: compression-vs-pile-up is not the right framing; direction-of-travel of spot VIX is the disambiguating variable. Current setup (expansion-with-VIX-falling) is OPPOSITE to Feb 2018 pre-spike (compression-with-VIX-rising). M1:M2 row downgraded 🟠→🟡; Volmageddon-shape vector downgraded 🟠→🟡. Convergence score effectively unchanged in headline but mechanism-confidence reduced. Forward gates unchanged: 6/05 COT / 6/12 CPI / 6/17 FOMC.)*
+*Last updated: 2026-06-01 22:30 ET (extended evening session — Priority 1 triple-package COMPLETE. KB-VIO-066 (tail-call OI) + KB-VIO-067 (diet coiled-spring backtest, piece b) + KB-VIO-068 (Feb 2018 M1:M2 analog, piece c) + KB-VIO-069 (Episode-17 post-mortem synthesis, piece a). The three pieces triangulate: KB-VIO-069's "absorbed-trap regime" mechanism = KB-VIO-068's "expansion-with-VIX-falling quadrant" = KB-VIO-067's "decay-context STRICT failure sub-population." Forward signal stack now 4 layers: (1) population KB-VIO-067, (2) regime-context KB-VIO-069, (3) direction-matrix KB-VIO-068, (4) compound-confirmation KB-VIO-064 refined. Current 6/1 setup has same Layer 1-3 reading Episode-17 had at T+4 = absorbed-trap quadrant. Layer 4 still open pending 6/05 COT / 6/12 CPI / 6/17 FOMC.)*
