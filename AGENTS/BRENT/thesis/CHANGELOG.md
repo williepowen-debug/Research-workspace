@@ -8,6 +8,31 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-06-01 PM — BRT-15 BARNACLE CHANNEL + CF HOLD CONFIRMED + TRUMP/RUBIO RHETORIC DOWNGRADED (intra-version POV pivot)
+
+### BRT-15 thesis: 2-channel → 3-channel structure (barnacle/clean-fleet-premium added)
+**Author:** BRENT (with Will, Jun 1 PM session)
+**Action:** STATUS.md BRT-15 row + Positions tanker paragraph + KEY OPEN ITEM #9 updated to 3-channel framing; PREDICTIONS.tsv BRT-15 JUN 1 PM UPDATE; KB-BRT-153 logged.
+
+**What changed:** Will surfaced Twitter chatter about barnacles on trapped tankers; live web search confirmed: ~85 large oil tankers trapped in Persian Gulf (Greenpeace May 21); 6-8 wks in ~30°C water → heavy hull/propeller biofouling per FT sourced to Wallenius Wilhelmsen + Hapag-Lloyd CEOs; escaped vessels sailing slowly from drag. **This is a third channel for BRT-15 distinct from ton-mile-on-Iranian-return (dormant) and war-risk-premium (firing now):** an effective-supply-contraction mechanism that pays on eventual Hormuz reopen because fouled tonnage cannot snap back to service without drydock. Weakens the standard "rates collapse on reopen" supply bear case. Most thesis-resilient leg of the three because it does not depend on either MOU resumption or continued kinetic escalation.
+
+**Old view (5/31, Fri):** BRT-15 single-channel ton-mile-on-Iranian-return; initiation gated on MOU signature.
+**New view (6/1 PM):** BRT-15 three-channel — (1) ton-mile-on-Iranian-return DORMANT, (2) war-risk-premium FIRING, (3) barnacle/clean-fleet-premium DURABLE. Entry decision still open with Will but the durability argument is materially stronger.
+
+**Caveat logged in KB-BRT-153:** named CEO quotes are container/RoRo (Wallenius, Hapag-Lloyd); tanker-specific inference comes from Greenpeace's 85-vessel count + identical biofouling physics. Drydock-time quantification not in named sources — Twitter "decent time to remove" framing directionally right but unsourced numerically.
+
+### CF $130C Jun 18 — HOLD confirmed
+**Action:** STATUS.md POSITIONS table + KEY OPEN ITEM #6 closed as decision-pending (now decided).
+**Will decision (Jun 1 PM):** Mon pop was modest (+1.62% / +$1.82, underperformed USO +4.30%; fertilizer chain not catching the oil bounce). Will chose continued overlap-insurance with XLE through Jun 18 over close-on-modest-pop. Accepts near-write-off risk if kinetic-tail doesn't escalate further before expiry.
+
+### Trump/Rubio rhetoric — 🔴 → 🟡 (tape-only, no longer substantive information)
+**Action:** STATUS.md KEY OPEN ITEM #1 reframed.
+**Will calibration (Jun 1 PM):** "Trump has declared a deal is close repeatedly with nothing to show for it." Rhetoric pattern: "deal close" declared 4-5 times since late April (Witkoff round, May 25 weekend, May 29 Situation Room, May 31 "orderly and constructive") with no material follow-through. The MOU went rumor → "mostly agreed" → walked in <7 days on Iran's bilateral substance, not on Trump's silence. **Substantive watches now:** Iran walkback signal 48-72hr (partial retrace), Rubio "Plan B" allies-only activation (death-confirm + $100-115 re-rate), continued kinetic escalation, P&I resumption. **Trump rhetoric retained as tape-tactical only** for short-dated positions — one tweet can still retrace $5-10 in minutes regardless of substance.
+
+**Candidate for memory promotion (deferred — pending sustained validation):** "Trump deal-close rhetoric calibration: directional rhetoric pattern uncorrelated with bilateral substance; trade as tape catalyst not information." Save to auto-memory if persists through another rhetoric/event cycle.
+
+---
+
 ## 2026-06-01 — PHASE 1 RE-ARMED (intra-version POV pivot; THESIS v3.0 framing inverted, no v-bump yet)
 
 ### Phase 2 PRICING dominant → PHASE 1 RE-ARMED in <24 hours on MOU suspension

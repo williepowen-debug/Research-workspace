@@ -1,14 +1,18 @@
-# BRENT SCRATCH — June 1, 2026
+# BRENT SCRATCH — June 1, 2026 (PM session)
 
 **Purpose:** Ephemeral session handoff — the canonical "where are we / what next" file. Read at boot (SPAWN PROTOCOL step 2), rewritten in full at closeout (step 11). Disposable: rewritten every session, not appended to. Persistent learnings live in `MEMORY.md`; dated forward catalysts live in `workbook/CATALYSTS.tsv`; this file is the bridge between sessions.
 
 ---
 
-## CHANGES SINCE LAST SESSION
-- **Brent gapped +4.40% to $95.13 at Mon Jun 1 open** (from Fri $92.05 close). WTI +5.15% / Tanker complex +2.4% (STNG $76.33 / DHT $16.72) / VG +6.60% (Hormuz-LNG arb) / Natgas −3.62% (tape pricing as oil-specific, not broad energy-systemic).
-- **Iran (Tasnim, IRGC-aligned) SUSPENDED indirect (Pakistan-mediated) US talks Jun 1 AM** — cites Israel's Lebanon incursion; explicitly threatens "complete closure of Hormuz + activate Bab al-Mandab" (NEW chokepoint vector). MOU went rumor → "mostly agreed" → walked in <7 days.
-- **CENTCOM intercepted 2 Iranian ballistic missiles targeting Kuwait bases overnight Sun→Mon May 31** — 2nd Kuwait-targeted volley in 4 days (pending primary-source verify per LESSONS #1 before INCIDENTS.tsv).
-- **Trump/Rubio response not yet on record Mon AM** — gates whether MOU is dead or on ice.
+## CHANGES SINCE LAST SESSION (Jun 1 PM)
+- **Power loss caused mid-day session break.** Verified at PM boot: AM closeout (`ea90c85d`) did finish cleanly + pushed to origin; SCRATCH narrating "not yet committed" was a pre-commit artifact, not a corruption sign.
+- **Live tape Jun 1 ~19:00 ET:** Brent $95.27 (+0.31% from AM open's $95.13 — bounce held through close); WTI $92.29; VIX 16.05 (+4.77%).
+- **AM thesis state (carried forward):** Iran (Tasnim) suspended indirect US talks Jun 1 AM; CENTCOM intercepted Kuwait missiles Sun→Mon overnight; Brent gapped +4.40% at open; Phase 1 RE-ARMED across the board.
+
+## NEW THIS PM SESSION
+- **BRT-15 acquires 3rd channel (BARNACLE / clean-fleet-premium).** Will surfaced Twitter chatter on trapped-tanker biofouling; web search confirmed: ~85 large oil tankers trapped in Persian Gulf (Greenpeace May 21); 6-8 wks in ~30°C water → heavy hull/propeller marine growth per FT (Wallenius Wilhelmsen + Hapag-Lloyd CEOs); escaped vessels sailing slowly from drag. **Effective-supply-contraction mechanism on eventual Hormuz reopen** — fouled tonnage can't snap back without drydock; weakens "rates collapse on reopen" supply bear case. STNG = young clean-fleet candidate. Channel pays both on prolonged blockade AND on eventual reopen — **most thesis-resilient leg of the BRT-15 triplet**.
+- **CF $130C Jun 18 — HOLD confirmed (Will).** Mon pop was modest (+1.62% vs USO +4.30%); fertilizer chain not catching the oil bounce. Will chose continued overlap-insurance with XLE through Jun 18 over close-on-modest-pop. Accepts near-write-off risk if kinetic-tail doesn't escalate before expiry.
+- **Trump/Rubio rhetoric DOWNGRADED 🔴 → 🟡.** Will calibration: "deal close" declared 4-5 times since late April with no material follow-through; rhetoric has decoupled from bilateral substance. Tape-tactical only for short-dated positions (one tweet can retrace $5-10 in minutes); no longer information about substantive resolution probability. Substantive watches now: Iran walkback signal 48-72hr / Rubio Plan B activation / continued kinetic / P&I resumption.
 
 ## WHAT I DID THIS SESSION
 - **Boot + Mon news sweep** — Tasnim suspension + CENTCOM Kuwait intercept surfaced as Jun 1 events; explained the gap-up.
@@ -50,9 +54,9 @@
 - 🟡 **HY energy OAS catch-up** — credit dismissed Brent −20%; if doesn't widen on Jun 1 suspension, mechanism-vs-threshold note.
 
 ## POSITION DECISIONS PENDING
-- **CF $130C Jun 18** — HOLD-with-pop-re-eval (Will 5/31), TESTED Jun 1 with modest pop (+1.62% / +$1.82; CF $114.17 vs $130 strike, ~12.2% OTM, ~17 days to expiry). Decision: close-on-further-pop-above-$115 vs hold-to-expiry-as-overlap-insurance-with-XLE. **Needs Will read on continuing intraday tape.**
+- **CF $130C Jun 18** — ✅ HOLD CONFIRMED (Will, Jun 1 PM). Closed as pending decision.
 - **XLE $65C Sep 30** — HOLD (now THE live scenario, not a tail; ~12% OTM narrowed from $8.71 to $7.75; ~4mo to expiry).
-- **Tanker BRT-15** — entry gating may be wrong-sided (war-risk leg firing today; original ton-mile gate deferred). STNG $76.33 (+2.44%) / DHT $16.72 (+2.45%). **Needs Will decision: initiate now or wait?**
+- **Tanker BRT-15** — entry decision STILL OPEN with Will. 3-channel structure now: (1) ton-mile dormant; (2) war-risk firing — STNG $76.33 (+2.44%) / DHT $16.72 (+2.45%); (3) barnacle/clean-fleet-premium NEW DURABLE — STNG = young clean fleet, premium-bid candidate during cleaning queue when Hormuz eventually reopens. Barnacle channel materially raises durability of the trade vs Fri's war-risk-only read.
 
 ## MAIL STATE (one line per signal)
 - **Inbox:** clear (cross-agent intake on hold per `[[project_messaging_overhaul]]` — file-based messaging being replaced).
@@ -67,7 +71,7 @@
 - **`refinery_damage/INCIDENTS.tsv`:** Jun 1 Kuwait intercept not yet logged (LESSONS #1: verify CENTCOM primary source before transcribing).
 
 ## GIT STATE
-- **Last commit:** `8779db33` (Jun 1 STATUS rewrite + Tier 1 predictions architecture). 7 files, +397/-128.
-- **Post-commit work this session:** thesis/CHANGELOG.md entries (Phase 1 RE-ARMED + Tier 1 rehab) + this SCRATCH rewrite. Both stage-clean but not yet committed.
-- **Push status:** NOT yet pushed to origin. Will-approval needed for session-end push. Other agent (SAM/TRADE.md) has uncommitted work outside BRENT — does not block BRENT push.
-- **Next session boot:** check origin sync; if SAM committed in interim, follow pull protocol.
+- **Last AM commit:** `ea90c85d` (Jun 1 AM closeout — CHANGELOG + SCRATCH rewrite) — pushed.
+- **PM session work (uncommitted at SCRATCH write):** STATUS.md (BRT-15 3-channel + CF HOLD + Trump rhetoric calibration + KEY OPEN ITEMS reframe), thesis/PREDICTIONS.tsv (BRT-15 JUN 1 PM UPDATE), workbook/KB.tsv (+KB-BRT-153 barnacle row), thesis/CHANGELOG.md (Jun 1 PM entry), this SCRATCH (PM rewrite). To be committed in next step.
+- **Working tree note:** `AGENTS/VIOLET/workbook/KB.tsv` modified outside BRENT dir — not mine, won't stage.
+- **Next session boot:** check origin sync.
