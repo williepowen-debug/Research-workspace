@@ -20,6 +20,14 @@ Tested whether the GEX over-read signaled broader data-propagation error. VERDIC
 - ⚠️ CORRECTED-FRAMING: Philly Fed -23.6 is the REGIONAL subindex; firm-level general activity was +18.2 STEADY. Softened that counter-signal 30/70→45/55 in STATUS. Stagflation-hardened read STANDS (GDP/PCE/savings/Freddie all solid).
 - CAVEAT: Waller's precise '2-in-3 Oct hike / <10% 2026 cut' odds are fleet-stated market-implied, not externally pinned (direction is).
 
+## PART 4 — SAM-pattern structural adaptations (Will-directed) → MAINTENANCE.md
+Studied SAM's structure; Will chose 3 to adapt:
+1. **docket/CATALYSTS.tsv** — structured forward-catalyst backbone (28 rows, 9-col); CALENDAR.md slimmed to narrative layer (~150→88 lines) + pointer; dropped a stale "IMMEDIATE May 22-29" section.
+2. **MAINTENANCE.md** — structural-change log split from analytical thesis/CHANGELOG; logs all S16 structural work + a standing hygiene checklist.
+3. **Boot-slim MEMORY.md** — verbose methodology bodies → MEMORY_ARCHIVE.md (lossless); inline one-liners + pointers. MEMORY 35.7→17.6KB (−50%). Combined RED boot read ~73→~51KB.
+4. **CLAUDE.md loop-closer** — registered the new files + boot-step scan of CATALYSTS.tsv. Did NOT touch the 3 flagged charter items (those await Will).
+(Did NOT build the KOYOMI-analog hygiene-steward sub-agent — Will deferred it.)
+
 ## FLAGGED FOR WILL (touch RED's charter — not changed unilaterally)
 1. Two divergent PREDICTIONS files (workbook canonical Jun 2 vs thesis/ stale May 17). Recommend designate workbook canonical + update CLAUDE.md.
 2. RED_SKELETON.md referenced as live in CLAUDE.md (3 places) but MEMORY says DELETED; only archive/ copy exists. Recommend prune refs.

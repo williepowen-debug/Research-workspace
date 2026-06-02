@@ -6,16 +6,11 @@
 
 ---
 
-## IMMINENT (Next ~7 Days)
+## FORWARD CATALYSTS → `docket/CATALYSTS.tsv` (structured backbone, S16)
 
-| Date | Event | Bear Signal | Bull Signal | RED Threshold |
-|------|-------|-------------|-------------|---------------|
-| **Wed Jun 3-4** | EIA WPSR (wk May 29) | Cushing <20M floor; gasoline YoY clean | Build / demand soft | BRENT primary; cross-read stagflation-oil leg (weakest leg) |
-| **Fri Jun 5** | CFTC COT (May 26) | Spec re-accumulation in oil (Trigger #3 re-fire) | Spec dump = deal-priced | BRENT primary; RED-18 oil-bear input |
-| **Fri Jun 5** | SOFI Jun5 $16P / OWL Jun5 $9.5P expire | Near-money put outcome | Theta-kill | Position state stale (5/21 CSV) — verify w/ Will before any read |
-| **Sun Jun 7** | OPEC+ meeting (first into suspended-MOU regime) | Quota discipline / no hike → tighter | Output add → bearish oil | BRENT primary |
-| **Mon Jun 9** | WALTER Iran-anchor re-verify boundary | Kuwait strike cadence / narrative-fork resolution | De-escalation confirmed | Cross-read War Escalation hypothesis (6%) |
-| **Daily** | Iran narrative-fork (Tasnim "suspended" / Araghchi "ongoing" / Trump "rapid pace") | Kinetic escalation; Bab al-Mandab operational | Deal-close tweet (tape-not-info) | Don't price Brent on Trump rhetoric; verify primary |
+**The full forward catalyst list (imminent → medium-term, 28 rows) now lives in `docket/CATALYSTS.tsv`** — the queryable, row-by-row-prunable source of truth for catalyst dates/thresholds (date / window / event / bear_signal / bull_signal / red_threshold / priority / status / notes). This file (CALENDAR.md) keeps the *narrative* layer below: resolved-catalyst history, the FALSIFICATION WATCH, prediction-scoring windows, and exit backstops. Adapted from SAM's `docket/CATALYSTS.tsv` pattern (S16; see MAINTENANCE.md). **Boot:** scan CATALYSTS.tsv for `status=pending` rows in the next ~14 days; read the narrative sections here for the adversarial framing.
+
+**Top imminent (next ~7d, see TSV for full):** Jun 3 EIA WPSR · Jun 5 CFTC COT + SOFI/OWL expiry · Jun 7 OPEC+ · Jun 9 WALTER Iran-anchor · Jun 10 US CPI · Jun 11 Jun-stack T-7 backstop · Jun 12 May CPI/DIET gate · **Jun 16 BOJ** · **Jun 17 FOMC+SEP** · **Jun 18 WAL/KRE/HYG Jun expiry cluster + HYG closure owed.** Daily: Iran narrative-fork (don't price Brent on Trump rhetoric — verify primary).
 
 ---
 
@@ -40,58 +35,6 @@
 | **May 21** | **WAL 10-Q drill (REGINALD)** + **REGINALD V2.2 SHIP** | B1 fired ($99M life-science office sponsor walk-away, late April 2026, pass→substandard, Class-A LEED Silver gateway market = same mechanic as IQHQ); B3 fired (mgmt held NCO guide despite ex-fraud 39bps); V4 NEW (Curley resignation Chief Banking Officer National Business Lines); V2 inventory CLEAN (LAM+Cantor only, no new Leucadia-era); V3 NDFI cohort-median CONFIRMED ($14.93B / 25.2% HFI); Bear-medium 30% (was Bear-slow 23%, +7pp); EV $70.50→$67.98; PT $50-68. **Fourth agent-converge cycle.** | **CHG-RED-026 RESOLVED-CONVERGED via V2.2 ship.** Confidence Δ -2 (was -5 in original 4-bin (d), but B1 alt-mechanism partial-fires bin (a)). |
 | **May 21** | DA Davidson PT cut $93→$90 (Buy maintained, valuation-driven) | Sell-side acknowledging bear-medium speed | Bear-leaning counter-signal |
 | **May 21** | Will-provided broker CSV (Portfolio_Positions_May-21-2026.csv) | 27 thesis put positions; ~14 at -50% basis or worse; Jun stack in capitulation; TLT Jun $85P +92%; OZK Thread 3 = Jul 17 (not Jan27); WAL Jun $85P held $7 (vs $11 5/13 rec) | RED Position vulnerability table fully rewritten from broker ground truth. FORGE STATUS 3/25 (stale 57d) deprecated for RED purposes. |
-
----
-
-## IMMEDIATE (Next 7 Days)
-
-| Date | Event | Bear Signal | Bull Signal | RED Threshold |
-|------|-------|-------------|-------------|---------------|
-| **May 22** | Tokyo CPI / Japan national core CPI cons 1.7% | ≥2.0% locks June hike | <1.5% fades hike | SAM primary; cross-read FXY |
-| **May 22-28** | Jun stack residual cleanup window | Theta accelerating into weekend / Memorial Day | — | RED rec: bulk close <$0.50 residuals |
-| **May 23** | Memorial Day weekend (Mon 5/25 close) | Carry risk over 3-day weekend | — | Hard-low-liquidity volatility risk |
-| **May 25-ish** | **Calibration cycle 1 retro (BRENT + REGINALD pair)** | Formal position required on persistent-vs-resolving bifurcation framework (5 observations now: 5/5/5/6/5/11/5/13/5/21) | — | RED-primary deliverable. Per CHG-RED-028 framework. |
-| **May 28** | AFT v. MOHELA next status conference | Servicer failure litigation update | — | Cross-read CARL |
-| **May 29** | OZK Q1 Call Report (if filed) | MI3 baseline 37.6% accel | Stable | OZK primary thesis test |
-
----
-
-## NEAR-TERM (8-30 Days)
-
-| Date | Event | Bear Signal | Bull Signal | RED Threshold |
-|------|-------|-------------|-------------|---------------|
-| **Early Jun** | LIQUID-flagged APO co-trigger window | APO equity decoupling from BDC redemption stress | APO stays above $130 | Cross-read with RED Acute Dislocation hypothesis +2 step-up |
-| **Jun 5** | SOFI Jun 5 $16P / OWL Jun 5 $9.5P expire | SOFI/OWL near-money put outcome | Theta-kill | Will replaced SOFI May with Jun5; OWL = PC redemption play |
-| **Jun 11** | **Jun stack T-7 backstop wave** (per Exit-Window Framework) | Forced cleanup window | — | HYG x8 final loop closure owed; APO/ARES/IWM/WAL$67.5P-$65P-Jul$65P/KRE Jun cleanup |
-| **Jun 12** | USO Jun 12 $155C / SOFI Jun 5 follow-up | — | — | Non-thesis (USO) |
-| **Jun 18** | **WAL Jun puts expire (4 lines: $85P x1 / $77.5P x1 / $67.5P x2 / $65P x1)** | $85P at $7 mark = lock-or-hold decision; $77.5P+/$67.5P/$65P effectively dead | — | RED top priority #2: window-trigger menu + Jun 11 backstop |
-| **Jun 18** | **KRE Jun 18 / HYG Jun 18 / APO Jun 18 / ARES Jun 18 / IWM Jun 18 / FITB Jun 18 / EGBN Jun 18 expire** | Multi-name cleanup | — | Most positions effectively dead; lock favorable marks where possible |
-| **Jun 18** | CF Jun 18 $130C / AAL Jun 18 expire | — | — | Non-thesis |
-| **Jun 18** | **AOCI capital rewrite comment period closes** | REGINALD: $49.5B aggregate hit across 21 banks | Comment period extension | Bank capital regulatory trigger |
-| **Jun 24** | FL UI Wave 1 exhaustion cliff | CARL: ~4,500 workers hit wall | — | CARL primary |
-| **Jun 30** | **Q2 ends. RED-08 (Brent <$120 Q2), RED-18 (Brent Dec26 $80-95 60d), RED-19 (rigs 400-415) scoring** | Multiple BRENT v2.0 predictions resolve | — | Per BRENT v2.0 framework |
-| **Jun 30** | IWM Jun 30 $250P / KRE Jun 30 $63/65/67P expire | — | — | KRE Jun30 $67P closer-to-mark (KRE ~$69) |
-| **Jul 1** | **SAVE transition ends (7.5M must select)** | CARL: student loan cliff | — | CARL primary |
-| **Jul 1** | Next BOJ meeting (June or first week of July) | June hike 74% priced | — | SAM primary |
-| **Jul 17** | **OZK Jul 17 $42.5P x2 expire (Thread 3 roll target)** | OZK Q2 pre-announce / mid-Jul | — | T-57 from today; window-trigger menu pending Q2 print |
-| **Jul 17** | WAL Jul 17 $65P / ZION Jul / FLG Jul / CCL Jul / AAL Jul / DIS Jul expire | Multi-name cleanup | — | WAL Jul $65P deep-OTM cleanup candidate |
-
----
-
-## MEDIUM-TERM (30-90 Days)
-
-| Date | Event | Significance |
-|------|-------|-------------|
-| **Mid-late Jul** | **OZK Q2 2026 earnings** | Dress rehearsal for Aug IQHQ. RED falsifier: OZK NCO sustained ≤55bps through Q3 → confidence -5 (Q1 was 57bps, on edge). |
-| **Mid-late Jul** | **WAL Q2 2026 earnings + Q2 FFIEC MI3 release window (re-scoped)** | **THE binary RED's 4-bin tree was originally pre-registered for.** Bin (a) prior 30% → 35% given B1 alt-mechanism already fired. Bin (c)/(d) priors widen because B1 de-couples V1 from MI3 number alone. Also second-data-point test for REGINALD V2.2 (one more Office migration or stabilization). |
-| **Mid-late Jul** | CHG-RED-027 self-bifurcation 2-of-4 evaluation point | Sub-triggers (a) Q2 beat+clean + (b) HY OAS sub-280 day 60+ + (c) structural backs off resolve simultaneously |
-| Jul-Aug | National UI exhaustion peak ($800-930M/mo hole) | CARL: consumption stress quarter |
-| **Aug 2026** | **IQHQ RaDD maturity** | OZK 4-scenario tree (corrected from Aug 2028); $140M weighted EL on $555M funded. OZK Aug $42.5P + Aug $45P + WAL Sep $70P+$67.5P timeline-coherent |
-| **Aug 21** | OZK Aug $42.5P x1 / OZK Aug $45P x4 / KRE Aug $60P x3 / KELYA expire | Core IQHQ thesis vehicles |
-| **Sep 18** | WAL Sep $70P x1 / WAL Sep $67.5P x1 expire | V2.2 PT $50-68 bear-medium midpoint $66 = ITM at $70P strike; HOLD core |
-| **Sep 30** | KRE Sep $60P x2 / TLT Sep $85P x2 / XLE Sep $65C expire | Cohort + duration |
-| **Oct 16** | HBAN Oct $16P x4 / TLT Oct $82P x2 expire | DC-corridor + BOJ June outcome / Q4 supply |
-| **Dec 18** | KRE Dec $60P x7 / APO Dec $95P expire | Long-dated structural |
 
 ---
 
