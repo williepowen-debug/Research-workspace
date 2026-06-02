@@ -28,3 +28,23 @@ Date	VX_ID	Old_Strength	New_Strength	Old_BullWt	New_BullWt	Reason
 2026-04-18	VX-RED-019	—	STRONG	—	50	NEW. Paper-physical oil spread $43-44 widest of cycle. Apr 22 binary.
 2026-04-18	VX-RED-020	—	MODERATE-STRONG	—	40	NEW. Bank cohort fade now miss-driven after RF. Apr 21 WAL/OZK binary.
 2026-04-18	VX-RED-021	—	STRONG	—	60	NEW. Paper markets pricing Path A; structural data accumulating stress. Bifurcation captured.
+2026-06-02	VX-RED-002	MODERATE	FLIPPED-BEAR	45	15	Flip_If fired - real wages negative 3 consecutive months (CARL 5/26 K-shape)
+2026-06-02	VX-RED-004	MODERATE	FLIPPED-BEAR	35	20	Flip_If fired - 30Y JGB 3.859% > 2.5% sustained; BOJ Jun hike 88%
+2026-06-02	VX-RED-011	STRONG	RESOLVED-BEAR	40	20	Resolved - WAL+OZK both missed Q1 (Apr 21); earnings-vs-stress test resolved bear
+2026-06-02	VX-RED-018	MODERATE	RESOLVED-MECHANICAL	40	65	Resolved - LIQUID 5/18 confirmed mechanical tax-day TGA, not structural
+2026-06-02	VX-RED-019	STRONG	RESOLVED	50	50	Resolved - Apr 22 binary passed; physical converged down to ~$95, spread gone
+2026-06-02	VX-RED-020	MODERATE-STRONG	RESOLVED-BEAR	40	25	Resolved - WAL+OZK both missed Apr 21; fade pattern broke to outright miss
+2026-06-02	VX-RED-023	STRONG	RESOLVED-CONVERGED	25	40	Resolved-converged - REGINALD V2.2 absorbed CHG-RED-025/026 stronger than asked
+2026-06-02	VX-RED-016	STRONG	STRONG	20	30	Data refresh - AAPL concentration 45% (stale) -> 20.08% actual per 5/21 CSV
+2026-06-02	VX-RED-001	STRONG	STRONG	45	45	Last_Reviewed refresh 2026-04-05->2026-06-02; direction still valid, see STALENESS_AUDIT for per-vector notes
+2026-06-02	VX-RED-003	MODERATE	MODERATE	35	35	Last_Reviewed refresh 2026-04-03->2026-06-02; direction still valid, see STALENESS_AUDIT for per-vector notes
+2026-06-02	VX-RED-005	MODERATE	MODERATE	40	40	Last_Reviewed refresh 2026-04-03->2026-06-02; direction still valid, see STALENESS_AUDIT for per-vector notes
+2026-06-02	VX-RED-006	STRONG	STRONG	45	45	Last_Reviewed refresh 2026-04-03->2026-06-02; direction still valid, see STALENESS_AUDIT for per-vector notes
+2026-06-02	VX-RED-007	STRONG	STRONG	45	45	Last_Reviewed refresh 2026-04-03->2026-06-02; direction still valid, see STALENESS_AUDIT for per-vector notes
+2026-06-02	VX-RED-008	MODERATE-STRONG	MODERATE-STRONG	45	45	Last_Reviewed refresh 2026-04-03->2026-06-02; direction still valid, see STALENESS_AUDIT for per-vector notes
+2026-06-02	VX-RED-009	WEAK	WEAK	30	30	Last_Reviewed refresh 2026-04-03->2026-06-02; direction still valid, see STALENESS_AUDIT for per-vector notes
+2026-06-02	VX-RED-010	MODERATE	MODERATE	40	40	Last_Reviewed refresh 2026-04-03->2026-06-02; direction still valid, see STALENESS_AUDIT for per-vector notes
+2026-06-02	VX-RED-012	MODERATE	MODERATE	45	45	Last_Reviewed refresh 2026-04-03->2026-06-02; direction still valid, see STALENESS_AUDIT for per-vector notes
+2026-06-02	VX-RED-014	STRONG	STRONG	40	40	Last_Reviewed refresh 2026-04-03->2026-06-02; direction still valid, see STALENESS_AUDIT for per-vector notes
+2026-06-02	VX-RED-015	FALSIFIED	FALSIFIED	65	65	Last_Reviewed refresh 2026-04-18->2026-06-02; direction still valid, see STALENESS_AUDIT for per-vector notes
+2026-06-02	VX-RED-021	STRONG	STRONG	60	60	Last_Reviewed refresh 2026-04-18->2026-06-02; direction still valid, see STALENESS_AUDIT for per-vector notes
