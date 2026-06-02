@@ -45,9 +45,9 @@
 |---|---|
 | BOJ hike at June meeting | PENDING (Jun 16; **SAM-21 70%; market ~88.5%** — repriced May 31). Dominant remaining catalyst, now **market-confirmed base case**. |
 | **MOF intervenes at 160** | ✅ FIRED twice (~¥10T / $63.5B Apr 30 + May 6); **#3 zone REACTIVATED Jun 1** on Iran MOU break — Katayama May 29 "decisive action" verbal at 159+; SAM-23 ~72%; Bessent-Katayama-Himino cabling hike+intervention combo (Reuters Jun 1); pre-meeting blackout ~Jun 13. |
-| USDJPY sub-155 for 3+ sessions WITH oil normalizing | NEAR-MISS (May 6 low 155.05, 1 session); oil now **$94.78 — re-accelerating post-MOU-break**; **Phase 2 inception PAUSED — MOU break delays the 3-session test**. |
+| USDJPY sub-155 for 3+ sessions WITH oil normalizing | NEAR-MISS (May 6 low 155.05, 1 session); oil re-accelerating post Jun 1 MOU break (live Brent in STATUS); **Phase 2 inception PAUSED — MOU break delays the 3-session test**. |
 | ESR <200% (Big 3 mutuals) | ✅ **RESOLVED 3-of-3 BENIGN** (Nippon 195% M&A; Meiji 208% manageable; Sumitomo 197% ↑+19pt with foreign book growing) — Channel 1 deferred. |
-| **JGB 30Y >4.0% (v1.4)** | ✅ BREACHED May 15 (4.000%); since RETRACED — currently **3.859%** (14bp below threshold); SAM-26 still tracking FALSE at ~25% (see STATUS for live). |
+| **JGB 30Y >4.0% (v1.4)** | ✅ BREACHED May 15 (4.000%); since RETRACED below threshold (live yield in STATUS); SAM-26 still tracking FALSE at ~25%. |
 | Fed cuts via credit cascade | PENDING — **multi-month tail under v1.5** (Jun 17 FOMC reads dead: CME FedWatch >97% no-change, <10% cut odds anywhere in 2026; PC-cascade Q2 peak live but not yet forcing pivot). See Asymmetric Setup §. |
 
 ### Why this entry (May 21) vs original May 12 plan
@@ -236,6 +236,7 @@ Private credit cascade (APO, ARES — 9 funds gated; BCRED Q1 redemptions ~7.9%,
 | **🔴 ongoing** | **Iran/Hormuz MOU — effectively broken Jun 1** | Tehran suspended document exchange + Hormuz block threat. Watch for walk-back (Trump-Khamenei reset → resign path) vs further escalation (Brent $100+, Hormuz close attempt). Intervention #3 zone REACTIVATED (SAM-23 ~72%). |
 | **🟠 ongoing** | **CFTC JPY weekly** (next release Sat Jun 6) | Currently **-114,667 (May 26 data) — broke -102K cycle peak, 4th build week, +27K new shorts WoW**. Fuel load growing into BOJ. Cover (-75K line) would signal MOU acceptance / dovish-BOJ-priced. |
 | **🟠 Wed Jun 10** | **US CPI (May) — Fed-side gate** | Hot → Fed dots stay higher → USD firm → carry survives; soft → opens Fed-cut tail (currently <10% 2026 cut odds priced). Feeds Jun 17 dots one week ahead. |
+| **🟠 Wed Jun 10** | **JGB 30Y auction** | BTC ratio + tail. Weak demand (BTC <2.5x / wide tail) = J-ICS lifer long-end abandonment confirmed (SAM-26 mechanism — currently tracking FALSE; auction is the next forward read that could re-light it). |
 | **🔴🔴 Tue Jun 16** | **BOJ MPM — DOMINANT REMAINING CATALYST (SAM-21 70%; market ~88.5%; SAM-24 25bp @85%)** | FXY +5–8% structural on hike; v1.5 single-path now market-confirmed base case. Re-verify swap pricing at boot Jun 9-15. |
 | Jun 16 | Sato joins BOJ board | Hawk→dove swap; post-June political risk |
 | Jun 16-17 | BOJ interim QT assessment | Pace adjustment; potential super-long-specific op if JGB stress re-engages |
