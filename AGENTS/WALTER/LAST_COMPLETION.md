@@ -6,220 +6,194 @@
 
 ## STATUS
 
-**5/26 Tue PM DOUBLE-BATCH day session ~22:25-23:25 UTC.** Will Telegram boot msg 2013 18:14 UTC → "What is Sumitomo?" Q msg 2015 (answered msg 2016) → **Batch #1** 7-image msgs 2017-2023 ts 22:28 UTC → triage msg 2024 → 5 dispatches + 1 KILL + 2 verifies → results msg 2025 → Batch #1 closeout commit `fe8e9c77` pushed clean → **Batch #2** 7-image msgs 2026-2032 ts 22:45 UTC → triage msg 2033 → 4 dispatches + 2 DUP-KILLs + 3 verifies → results msg 2034 → this consolidated closeout.
+**6/02 Tue AM Iran-anchor re-verify session ~13:20-14:30 UTC.** Will Telegram boot msg 2048 13:20 UTC "Hi Walter please boot up" → comprehensive boot reply (msg 2049) flagged Iran-anchor inversion as headline gap → Will "Yes" msg 2050 13:44 UTC → 1 verify-research spawn ($0.05, agent_id a6724ab82fd939c7d) + live tape pull via fetch.py → anchors/IRAN_WAR.md refreshed 5/27→6/02 with **NEW STATE: NARRATIVE-FORK + KINETIC-ACCELERATION** → STATUS.md lead paragraph + IRAN-WAR ANCHOR subsection refreshed → 1 new MEMORY finding (Trump-rhetoric-tape-not-info SYMMETRIC rule) → closeout commit + push.
 
-**Day-total: 9 BOARD dispatches + 3 KILLs (1 Novelty + 2 DUP) + 5 verify-research spawns ($0.25).** 8 PRIORITY + 1 ROUTINE (Japan FSA SOURCES). Intra-day closeout discipline honored: Batch #1 closeout committed clean before Batch #2 started.
+**Session triggered by 6-day gap since 5/27 last session + boot detection of major Iran state-change in SAM Jun 1 + BRENT Jun 1 STATUS files.** Anchor re-verify trigger fired on kinetic state-change rule (4 exchanges 5/27→6/01) + observer-dependent MOU suspension (Tasnim/IRGC vs Araghchi/MFA vs Trump); pulled forward from 6/3 scheduled boundary.
 
-**Boot anomalies surfaced (resolved during boot):**
-- **Pull-block from 5/22 RESOLVED** — origin synced clean during Sun→Tue gap; PROME FLEET_SCAN.md local mod cleared.
-- **Open Q from 5/22 PM2 RESOLVED by observation** — 3 PROME-→BROCK/HENRY/REGINALD Jun18 calibration signals are PROME-PROME internal coordination, NOT WALTER routing. Confirmed by PROME executing default-pass per execution rail today AM (`c4680e51`) since BROCK + REGINALD silent at 5/24 EOD. HENRY replied on own card. Carry-forward dropped.
-- **4 untracked files still sitting** (3 PROME→domain Jun18 calibration packets + 1 HENRY outbox REPLY-PROME-TLT) — still NOT WALTER scope. Stage skip.
-- **Cron feeds:** SENTRY/inbound today 0-item; news-sweep 9d stale (last 5/17); filing-watch 19d stale (last 5/7). REQ-PROME from 5/8 still open.
-- **5 outbox REQs all 14-21d+ open** (HAWK 21d / NEXUS 21d / BRENT 18d / PROME 18d / ZHAO 15d) — escalation candidates.
+**Boot reads complete; significant peer state-change ingested:**
+- SAM v1.4 → v1.5 single-path BOJ Jun 16 (88% market / 70% SAM); intervention #3 zone reactivated (USDJPY 159.64); Fed-cut backup OFF.
+- BRENT Phase 1 RE-ARMED; CF $130C Jun 18 HOLD-with-pop-re-eval; HAWK 5/22 frame STALE flagged.
+- VIOLET 6/1 R11 DEAD (retires HENRY R11 5/28-6/02 watch).
+- MARCO TOURISM thesis v2.0 → v2.2 (sessions 6-9).
+- CARL adopted lean CLOSEOUT PROTOCOL from cross-agent audit.
+- SAM new sub-agent METSUKE (3rd staleness-flagger; KURA + KOYOMI + METSUKE).
+
+**Anomalies / standing flags:**
+- News-sweep cron 16d stale (last 5/17) + filing-watch cron 26d stale (last 5/7) — both pipelines likely down; SENTRY ran 6/1 19:26 ET (14h fresh; 0 items).
+- 5 outbox REQs all 22-28d stale (HAWK 28 / NEXUS 28 / BRENT 25 / PROME 25 / ZHAO 22).
+- LIAISONs all approaching 30d DORMANT auto-flag (CARL/BRENT/RED on 6/5-6/6; REGINALD on 6/10).
+- EVENT_WINDOW_STATE.md last touched 5/21 (12d stale; BRENT Jun 1 STATUS implies Phase 1 RE-ARMED — may have advanced beyond 1/3 Path B).
+- SAM workbook unstaged mods (FXY_OPTIONS + JGB_AUCTIONS + JGB_YIELDS + USDJPY) — outside WALTER scope, ignored per protocol.
 
 ## CHANGED
 
-### Files written this 5/26 Tue PM DOUBLE-BATCH day
+### Files written this 6/02 Tue AM session
 
-**Batch #1 (already in commit `fe8e9c77` pushed):**
-- BOARD/SIG-W-20260526-001 SoftBank-OpenAI financing structure (BROCK; AI_INFRA_CAPEX 6→7; 0.80 with WeWork-15x→4x correction)
-- BOARD/SIG-W-20260526-002 AZO FY26-Q3 beat-and-sold-off (CARL; CORRECTED-FRAMING on "since March 2020" → since May 2022 AND catalyst margin/intl/LIFO; 0.55)
-- BOARD/SIG-W-20260526-003 Philly Fed Non-Mfg May -23.6 vs -13.0 (CARL; 3σ services-side miss; 0.90)
-- BOARD/SIG-W-20260526-004 First Brands $285.5M tariff-fraud claim (REGINALD; EXTENDS SIG-W-20260522-003; 0.90)
-- BOARD/SIG-W-20260526-005 ERP-negative chart (HENRY; 0.80 on concept)
-
-**Batch #2 (pending in this commit):**
-- BOARD/SIG-W-20260526-006 SpaceX IPO Heidi-thread (HENRY; cluster_mediating × POSITIONING_VALUATION; CONFIRMED-with-MULTIPLE-CORRECTED-FRAMINGS 0.55 including **second SIGN-INVERSION finding** — "3x weighting" inverts mechanism)
-- BOARD/SIG-W-20260526-007 Wolf Street condo -15% to -33% in 24 markets (REGINALD; EXTENDS SIG-W-20260522-011 HOUSING DEFLATION SETUP; housing-segment K-shape; 0.85)
-- BOARD/SIG-W-20260526-008 Japan FSA "URGING" capex vs buybacks ROUTINE (SAM; SOURCES leak-grade; 0.65; ASIA_CHINA 7→8)
-- BOARD/SIG-W-20260526-009 US inflation > wage real-purchasing-power (CARL; CORRECTED-FRAMING month 3 not month 1; tier-stratification severe; 0.55)
-- BOARD/INDEX.md — ToC updated 4 cluster rows: POSITIONING_VALUATION 40→41 / CONSUMER_STAGFLATION 50→51 / BANK_COLLATERAL 37→38 / ASIA_CHINA 7→8; 4 section headings count-bumped; 4 row inserts; TOTAL 260→264
-- AGENTS/WALTER/routed/route_log.tsv — 4 rows appended (Batch #2 dispatches via python script)
-- AGENTS/WALTER/filtered/kill_log.tsv — 2 rows appended (Blackstone DUP + CC delinq DUP)
-- STATUS.md — Updated stamp bumped to 2026-05-26 ~23:25 UTC; lead paragraph rewritten to consolidate double-batch day; BOARD count line refreshed (255→264 with day-total cluster updates); FALSIFICATION scan line refreshed (9 day dispatches; 0 fires); bifurcation count line refreshed (7+2=9-in-day ~2× threshold); push state line refreshed; SESSION LOG row replaced with consolidated double-batch entry
-- REGISTRY.tsv — WALTER row Focus rewritten leading with double-batch day; 6 MEMORY findings noted
-- MEMORY.md — CHANGES SINCE block rewritten to consolidate double-batch day; 6 findings documented (2 structural: SIGN-INVERSION-recurring + K-shape 3-axis crystallization; 4 calibration extensions)
-- LAST_COMPLETION.md — this file (consolidated overwrite)
+- **AGENTS/WALTER/anchors/IRAN_WAR.md** — verified-as-of bumped 5/27→6/02; new Current state (Jun 2) block with NARRATIVE-FORK + KINETIC-ACCELERATION frame; 5/27 demoted to Prior state; source-basis line rewritten with 6/2 sweep primary sources (Bloomberg, Euronews, RTE, NPR, Reuters, CENTCOM, WaTimes, CNBC, CNN, Times of Israel, Al Jazeera, NBC, GlobalSecurity, IRGC primary, TradingEconomics tape); Iran-cluster signal-framing implications fully rewritten with Trump-rhetoric-symmetric-rule + Bab-al-Mandab-rhetorical-only-guard + Israel-as-active-accelerant reframe + `narrative_channel` field-tagging proposal.
+- **AGENTS/WALTER/STATUS.md** — Updated stamp bumped to 2026-06-02 ~14:30 UTC; lead paragraph rewritten to cover this session; IRAN-WAR ANCHOR subsection refreshed (state-block + signal-framing-current paragraph); BOARD count line unchanged (264; no dispatches); EVENT_WINDOW_STATE annotation added (12d stale; BRENT Phase 1 RE-ARMED noted); pending callbacks line rewritten (5/27-6/01 passed items resolved; forward-callbacks 6/3-6/17 listed); SESSION LOG row prepended for 6/02 Tue AM.
+- **AGENTS/WALTER/MEMORY.md** — 1 new Feedback finding (Trump-rhetoric SYMMETRIC rule + Iranian channel asymmetry); CHANGES SINCE LAST SESSION block rewritten for 6/02 session + 5/28-6/01 5-day peer-state-change summary; NEXT SESSION time-sensitive list refreshed for 6/3-6/17 forward window + 5/27-6/01 passed items resolved.
+- **AGENTS/WALTER/LAST_COMPLETION.md** — this file (overwritten).
 
 ### NOT written this session (deferred)
 
-- **REGISTRY.tsv peer-rows** — CARL/REGINALD/SAM/RED/HENRY/BROCK still on 5/17 snapshot (deferred again; peer STATUS reads not done this session)
-- **NETWORK AWARENESS subsection regen in STATUS.md** — still on 5/17 data (deferred)
-- **SESSION_LOG.md archive trim** — STATUS.md SESSION LOG over 9 rows (deferred)
-- **MEMORY.md 111-line cap trim** — over cap; deferred (no structural promote-to-spec candidates this session)
-- **Iran-anchor re-verify** — boundary is 5/28 Thu; deferred to that date
+- **REGISTRY.tsv refresh** — peer rows would benefit from refresh given 5-day peer state changes (SAM v1.5 / BRENT Phase 1 / VIOLET R11-dead / MARCO TOURISM v2.2 / CARL closeout-protocol). Deferred — focused anchor session.
+- **NETWORK AWARENESS regen in STATUS.md** — should regenerate from refreshed REGISTRY (per Pass 4 design); deferred with REGISTRY refresh.
+- **SESSION_LOG.md archive trim** — STATUS.md SESSION LOG now 6+ rows; older 5/22 entries should roll into archive; deferred.
+- **MEMORY.md cap trim** — file growing; deferred to next session.
+- **EVENT_WINDOW_STATE.md refresh** — BRENT Jun 1 "Phase 1 RE-ARMED" implies trigger state has advanced; needs BRENT-coordinated update; deferred.
+- **Outbox REQ escalations** — 5 REQs aging 22-28d; deferred to next session for batched escalation decision.
 
 ## RESULT
 
-**5/26 Tue PM image-batch outcome — bifurcation regime input single-session:**
+**Iran-war anchor frame state-change Jun 2: PAPER-THAW + KINETIC-RELAPSE → NARRATIVE-FORK + KINETIC-ACCELERATION.**
 
-**Substance side (3 cluster_mediating dispatches):**
-1. **SoftBank-OpenAI financing-structure** (SIG-001) — $60-65B AGI-worldview bet financed via $40B bridge + $10B margin loan @ ~8% on a private mark-up-dependent asset. Forward catalyst: "next OpenAI funding round disappoints." Cluster AI_INFRA_CAPEX 6→7 (sub-cluster decision still pending). Hedgie X-thread sourced; Bloomberg 5/19 primary verified.
-2. **Philly Fed Non-Mfg May -23.6 vs est -13.0** (SIG-003) — services-sector contraction ACCELERATING (-7.1 MoM); 3σ miss. Counter to AZO domestic +4.1% same-day = sector-bifurcation regime input. Load-bearing services-side primary add to goods-heavy CONSUMER_STAGFLATION cluster.
-3. **First Brands $285.5M US-gov tariff-fraud claim** (SIG-004) — extends SIG-W-20260522-003 Ch.7-conversion-in-motion. Sovereign-creditor entry into administratively-insolvent estate worsens BDC mark recovery. Dual-track posture (civil + criminal) compresses recovery economics.
+**Substance side (anchor refresh content):**
+1. **MOU narrative-fork crystallized.** Jun 1 Tasnim (IRGC-affiliated) declared suspension of indirect Pakistan-mediated message exchanges with US, citing Israel-Lebanon ops as ceasefire violation, threatening Hormuz closure + Bab al-Mandab activation. Iranian FM Araghchi via IRNA softened to "dialogue and exchange of messages are ongoing." Trump Truth Social denied ("rapid pace") + NBC "couldn't care less" if collapse. **Bilateral channel state is observer-dependent — IRGC says suspended, MFA says ongoing, US POTUS says continuing.** This three-way fork is the new operating reality.
+2. **Kuwait strike cadence is the load-bearing escalation metric.** 5/27 Iran ballistic at Kuwait + 5 OWA drones (all intercepted) + 5/31 11pm ET 2 Iran ballistics at Ali Al-Salem AB (intercepted). Second Iran strike on Kuwait in 4 days. CENTCOM weekend 5/30-5/31 strikes on Goruk + Qeshm Island (radar, drone C2, JY-27A + HQ-9 destroyed). 4 distinct kinetic exchanges in 6 days vs ~1/week prior cadence.
+3. **Israel-Lebanon = real casus belli, not pretext.** 5/31 IDF Beaufort Castle + Litani crossing + advance toward Nabatieh + Zahrani evacuation = deepest Lebanon incursion in 26+ years (~2,000 sq km, ~1/5 of Lebanon). Netanyahu vowed expansion. Trump-brokered 5/31-6/1 Israel-Hezbollah halt-of-attacks announcement = partial overlay (doesn't resolve occupation-overhang). Israel-Lebanon is now first-order Iran-cluster INPUT, not background.
 
-**Counter side (2 counter_evidence dispatches):**
-4. **AZO FY26-Q3 beat-and-sold-off** (SIG-002) — domestic SSS +4.1% strong = US-consumer-demand counter-evidence. Sell-off driver is margin/intl/LIFO NOT pure-macro stagflation. CORRECTED-FRAMING on both historical context AND catalyst attribution.
-5. **Dividendology ERP-negative chart** (SIG-005) — ~-100 to -150 bps sustained 2024-2026; counter-evidence to "stocks reasonably priced given growth" framing. 228K-view crystallization.
+**Counter side (anchor refresh content):**
+4. **Bab al-Mandab = rhetorical only, NOT activated.** IRGC Quds Force commander + Tasnim "decided to execute full blockade" rhetoric — but no commercial vessel struck in 2026, Houthi proxy posture unchanged. CORRECTED-FRAMING on any signal conflating threat with activation. Verify-research mandatory for any "Bab al-Mandab activated" claim.
+5. **Tape mid-confidence, NOT unilateral collapse.** Brent spiked +7% Mon intraday → pared to +5% on Trump "rapid pace" Truth Social → holds +5% Tue AM (BNO -0.48% intraday). Market pricing partial-credit on dual-channel break, not full break.
 
-**Net regime read:** Single-session bifurcation = network_uncertainty_peak fires at exactly threshold (≥5/day). Bear-confirm (services contraction + AGI-overbet financing + tariff-fraud extension + ERP-sustained-negative) paired with bull-counter (US-consumer-demand still strong via AZO domestic +4.1%). Calibration cycle 1 input. Cost: $0.10.
+**Net regime read:** Anchor inversion from 5/27 frame is real but not clean. Pattern is "narrative-fork" — Iran-internal channel disagreement + US POTUS denial vs IRGC declaration — over an externally-accelerating kinetic clock. Iran-cluster signals dispatched 6/2+ require `narrative_channel` field tagging + confidence stepdown ≤0.55 if framing depends on either side of the fork.
 
-**Verify-research load-bearing findings:**
-- (a) **CNBC-headline-updated-source-since-corrected family** — Financelot propagated CNBC's original-and-since-corrected "since March 2020" framing. Same family as 5/22 calendar-anchor-verify-at-write-time + 5/8 Treasury TIPS/nominal CUSIP collapse. **Discipline extends to source-headlines-since-corrected:** when X-source cites a primary outlet's framing on a magnitude/historical claim, verify the primary source's CURRENT framing (not just that it was published) — primary outlets correct headlines silently.
-- (b) **Catalyst-attribution-overlay pattern** — X post conflated macro framing ("slowing economy concerns") onto idio drivers (margin/intl/LIFO). Distinct from numerical-stretch (Kobeissi pattern) or sign-inversion (Amit Tal SOFR-IORB) or framing-stretch (Visegrad Iran-cluster). **New verify-spawn trigger pattern:** when X-source provides catalyst attribution that DOESN'T match what the earnings-release/filing actually says, verify-research catches the gap.
+**Verify-research load-bearing findings (1 new MEMORY entry):**
+- (Trump-rhetoric SYMMETRIC rule) — Trump rhetoric is tape-not-info IN BOTH DIRECTIONS. 5/23 "largely negotiated" was real-but-overstated (deal-side); 6/1 "rapid pace" denial is also tape-not-info (denial-side, containment signal). Auto-memory `feedback_trump_rhetoric_tape_not_info.md` extends from 1-instance to 2-instance symmetric pattern. Companion finding: **Iranian channel asymmetry** — Tasnim/IRGC vs Araghchi/MFA divergence is itself the signal, not either statement alone. Both rules manifest in dispatch_note via new `narrative_channel:{tasnim,mfa,potus,centcom}` field tagging (candidate for FORMAT_SPEC v0.9 batch).
 
 ## GAPS
 
-### New from 5/26 PM
+### New from 6/02 AM
 
-- **REGISTRY peer-row refresh + NETWORK AWARENESS subsection regen** — still deferred (no peer STATUS reads this session)
-- **MEMORY.md 111-line cap trim** — over cap; structural promote-to-spec candidates remain (FILTER_SPEC v0.6 BODY-INACCESSIBLE-PAYWALL + CHECKLIST v0.11 REGIME-SHIFT-anchor); deferred
-- **SESSION_LOG.md archive trim** — STATUS.md SESSION LOG now 6+ rows
+- **REGISTRY.tsv peer-row refresh + NETWORK AWARENESS regen** — 5-day peer activity dense; deferred again.
+- **SESSION_LOG.md archive trim** — STATUS.md SESSION LOG now 6+ rows.
+- **MEMORY.md cap** — file growing past 100-line target.
+- **EVENT_WINDOW_STATE.md refresh** — BRENT Phase 1 RE-ARMED implies trigger advancement; needs BRENT coordination.
 
-### Carry-forward from 5/22 Fri PM2 (still open)
+### Carry-forward from 5/26 PM (still open, status updated 6/02)
 
-- **REQ-HAWK + REQ-NEXUS** now 21d each (over retry threshold)
-- **REQ-PROME cron Items 2+3** (filing-watch + freight-watchlist) — 18d open
-- **REQ-BRENT data-release-calendar** — 18d open
-- **REQ-ZHAO revival** — 15d open
-- **Cross-platform Iran-recalibration mechanism decision** — SIG-W-20260521-004 surfaced via BOARD
-- **HENRY LIAISON open** — top of remaining queue
-- **NEXUS revival** — 43+d STALE
-- **LIQUID LIAISON candidate** — newly-eligible
-- **BROCK LIAISON** — mid-priority
-- **CC-PROME ↔ WALTER coordination protocol** — sibling-peer boundaries not yet codified (PROME shipped EXECUTION_RAILS.md 5/23 — skim candidate for handshake spec)
-- **OZK Q1 post-mortem** — REGINALD pickup pending
-- **CONSUMER_STAGFLATION 5-axis sub-cluster decision** — cluster at 50 (~at-threshold; this session pushed it deeper)
-- **AI_INFRA_CAPEX cluster split decision** — at 7 (incremented this session); SIG-001 SoftBank-OpenAI is the kind of mediating signal that warrants the split-or-grow conversation
-- **COST 5/28** — 6th forward-test name from SIG-W-20260508-005
+- **REQ-HAWK 28d / REQ-NEXUS 28d / REQ-BRENT 25d / REQ-PROME 25d / REQ-ZHAO 22d** — all over retry threshold; batched escalation candidates.
+- **HENRY LIAISON open** — top of remaining queue.
+- **NEXUS revival** — 49+d STALE.
+- **LIQUID + BROCK LIAISON** — mid-priority.
+- **CC-PROME ↔ WALTER coordination protocol** — PROME EXECUTION_RAILS.md skim candidate.
+- **OZK Q1 post-mortem** — REGINALD pickup pending.
+- **CONSUMER_STAGFLATION 5-axis sub-cluster decision** — cluster at 51 (over threshold).
+- **AI_INFRA_CAPEX cluster split decision** — at 7; SIG-W-20260526-001 SoftBank-OpenAI is the mediating signal.
+- **News-sweep + filing-watch cron pipelines** — likely down (16d + 26d stale).
+- **Cross-platform Iran-recalibration mechanism decision** — SIG-W-20260521-004 surfaced.
 
-### Resolved this 5/26 PM session
+### Resolved this 6/02 AM session
 
-- ~~Pull-block from 5/22~~ ✅ RESOLVED during Sun→Tue gap.
-- ~~Open Q: PROME-→domain Jun18 calibration signals WALTER routing or PROME lane?~~ ✅ RESOLVED by observation — PROME's lane (internal coordination, PROME executed default-pass `c4680e51` today AM).
-- ~~7-image batch triage + dispatch + KILL~~ ✅ DONE (5 dispatches + 1 KILL + 2 verifies).
-- ~~Closeout writes + commit + push~~ ✅ in progress this turn.
+- ~~Iran-anchor re-verify 6/3 boundary~~ ✅ DONE 6/02 (1 day early via kinetic state-change trigger).
+- ~~5/27 Sumitomo ESR carry-forward~~ ✅ Resolved by SAM v1.5 (Big 3 ESR 3-of-3 benign per Jun 1 stamp; Channel 1 deferred backstop confirmed).
+- ~~5/29 Tokyo CPI~~ ✅ Passed; SAM v1.5 covers.
+- ~~5/29 CFTC weekly~~ ✅ Passed; SAM Jun 1: -114,667 4th build week.
+- ~~5/28 COST forward-test~~ ✅ Passed; CARL/REGINALD pickup if any.
+- ~~5/28-6/02 HENRY R11 watch~~ ✅ RETIRED per VIOLET 6/1 "R11 dead."
 
 ## WILL_NEEDS
 
-1. **(NEW)** **AI_INFRA_CAPEX cluster split decision NOW relevant** — at 7; SIG-001 SoftBank financing is a clear cluster_mediating signal that anchors cluster narrative. Split into AI_INFRA_CAPEX_CHIPS + AI_INFRA_CAPEX_FINANCING, or grow as-is?
-2. **(NEW)** **AZO-style CORRECTED-FRAMING calibration delta** — 2-of-2 today (CNBC source-headline-since-corrected + catalyst-attribution-overlay). RED + CARL calibration input candidates.
-3. **(carry-forward)** Regime-shift transmission to CARL/REGINALD/HENRY/SAM — Waller pivot 5/22 + Philly Fed -23.6 5/26 compounding stagflation-no-relief read. Outbox REQs from WALTER or PROME-mediated via EXECUTION_RAILS.md?
-4. **(carry-forward)** REG-T-NN / RED-FT-NN expansion candidates — Freddie HPI YoY / TIC monthly delta / Oct-FOMC hike-prob / Philly Fed Non-Mfg threshold cluster (now -23.6 is the new data point).
-5. **(carry-forward)** HENRY LIAISON open priority confirmation.
-6. **(carry-forward)** CONSUMER_STAGFLATION 5-axis sub-cluster v0.2 promotion (cluster at 50 now).
-7. **(carry-forward)** CC-PROME ↔ WALTER coordination protocol (PROME EXECUTION_RAILS shipped — read + integrate?).
-8. **(carry-forward)** Cross-platform Iran-recalibration outbox REQs vs recipient-pull.
+1. **(NEW 6/02)** **`narrative_channel:{tasnim,mfa,potus,centcom}` field tagging** — promote to FORMAT_SPEC v0.9 batch? Captures Iran-internal channel asymmetry + Trump-rhetoric-symmetric rule at dispatch-mechanic layer.
+2. **(NEW 6/02)** **HAWK refresh REQ escalation** — 16d-stale + DOUBLY-STALE-post-Jun-1; outbox REQ at 28d. Escalate or coordinate via PROME?
+3. **(NEW 6/02)** **EVENT_WINDOW_STATE.md BRENT-coordinated refresh** — BRENT Jun 1 "Phase 1 RE-ARMED" implies trigger state advanced beyond 1/3 Path B; WALTER-side state-file needs sync with BRENT thesis.
+4. **(NEW 6/02)** **LIAISON DORMANT auto-flag decision** — CARL/BRENT/RED hit 30d DORMANT on 6/5-6/6; REGINALD on 6/10. Re-engage with calibration-cycle deliverables or accept DORMANT flip?
+5. **(carry-forward)** AI_INFRA_CAPEX cluster split decision — at 7; SoftBank-OpenAI is the mediating signal.
+6. **(carry-forward)** Regime-shift transmission via outbox REQs vs PROME-mediated.
+7. **(carry-forward)** REG-T-NN / RED-FT-NN expansion candidates — Freddie HPI YoY / TIC monthly delta / Oct-FOMC hike-prob / Philly Fed Non-Mfg threshold.
+8. **(carry-forward)** HENRY LIAISON open priority confirmation.
+9. **(carry-forward)** CONSUMER_STAGFLATION 5-axis sub-cluster v0.2 promotion (cluster at 51).
+10. **(carry-forward)** CC-PROME ↔ WALTER coordination protocol (EXECUTION_RAILS.md skim + integrate).
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
 
-**Time-sensitive (calendar-anchor verified at write-time per 5/22 finding):**
-1. **🔴 5/27 Wed Sumitomo Life FY2025 ESR** — SAM Channel-1 pattern confirmation; Nippon 195% M&A-driven + Meiji 208% manageable already in (5/26 AM). If Sumitomo prints <200% via genuine stress → Channel 1 reactivates; if also M&A/unrealized-gain → Channel 1 dies and SAM thesis goes to v1.5 with Channel 2 (Jun BOJ hike) as dominant.
-2. **🔴 5/28 Thu Iran-war anchor re-verify boundary** — last 5/21 partial-thaw frame.
-3. **🔴 5/29 Fri Tokyo CPI** — Stat Bureau final-week pattern; SAM Channel 1 deferred mechanism.
-4. **🔴 Fed Oct FOMC implied 25bp hike modal (~2-in-3 post-Waller 5/22)** — watch for Daly/Goolsbee echo "bias removal" next 1-2 wks (confirmation) vs pushback (Waller-idiosyncrasy); Philly Fed -23.6 today is the kind of data that adds friction to a hike modal.
-5. **🟠 5/29 Fri CFTC weekly** — SAM Channel-2 fuel-reload watch.
-6. **🟠 5/28 Thu COST forward-test print** — 6th name from SIG-W-20260508-005.
-7. **🟠 5/28-6/02 HENRY R11 analog clock window opens**.
-8. **🟠 6/11 STEO post-Barakah** — BRENT primary catalyst.
-9. **🟠 6/16 BOJ MPM** — SAM Channel-2 base case hike.
-10. **🟠 5/20-27 calibration cycle 1 trigger window** open (CARL/BRENT/RED/REGINALD).
-11. **🟠 HY OAS 286 → 290 near-trigger asymmetric watch** (RED-FT-01 + REG-T-03).
-12. **🟠 REG-T-02 re-fire watch** — WAL last close $78.59 above $78 by 59c (sustain-state intact since 5/21 reclaim).
-13. **🟠 FALSIFICATION + REG_THRESHOLDS near-trigger watch** — CCC 939 / 10Y 4.57% / Brent $94.53 (declined; PATH B Trigger #3 already fired 5/15).
-14. **🟠 WAL Q2 print late July** — REGINALD V2.2 second-data-point test.
-15. **🟢 Freddie HPI YoY watch** — +0.7% March → McBride "might turn negative in 2026"; crossing-zero would be REG-T candidate.
+**Time-sensitive forward (calendar-anchor verified at write-time per 5/22 finding):**
+1. **🔴 6/03 Wed EIA weekly** — BRENT primary (Cushing<20M floor + gasoline YoY post-Memorial-Day base).
+2. **🔴 6/05 Fri CFTC weekly** — first read post-$96-drop; BRENT Trigger #3 re-fire watch.
+3. **🔴 6/07 OPEC+** — first into a suspended-MOU regime.
+4. **🔴 6/09 Iran-war anchor re-verify boundary** — 7d from 6/02 (or pre-dispatch trigger).
+5. **🔴 6/11 STEO** — BRENT primary post-Phase-1-re-armed.
+6. **🔴 6/16 BOJ MPM** — SAM v1.5 base case hike (market 88% / SAM 70%).
+7. **🔴 6/17 FOMC** — hold-confirming (FedWatch >97%); not rescue.
+8. **🟠 Trump-Rubio Iran response watch this week** — Plan B activation or not.
+9. **🟠 Pakistan-Munir / Iran MFA response to Tasnim suspension** — load-bearing missing data point.
+10. **🟠 HAWK scenario refresh** — DOUBLY-STALE.
+11. **🟠 LIAISON DORMANT auto-flag** — 4 channels approaching 6/5-6/10.
+12. **🟠 HY OAS 286 → 290 near-trigger** (RED-FT-01 + REG-T-03); CCC 939; 10Y 4.57%.
+13. **🟠 WAL REG-T-02 re-fire watch** — sustain intact 5/21 reclaim.
+14. **🟢 Freddie HPI YoY watch** — McBride "might turn negative in 2026."
 
-**Next-session backfill priority:**
-16. **🟡 REGISTRY.tsv peer-row refresh** — CARL/REGINALD/SAM/HENRY/BROCK/RED.
-17. **🟡 STATUS.md NETWORK AWARENESS subsection regen** from refreshed REGISTRY.
-18. **🟡 MEMORY.md trim 113→<100** — promote-to-spec candidates remain (BODY-INACCESSIBLE-PAYWALL → FILTER_SPEC v0.6; REGIME-SHIFT-anchor → CHECKLIST v0.11).
-19. **🟡 SESSION_LOG.md archive trim** — STATUS.md SESSION LOG now 6+ rows.
-20. **🟡 PROME EXECUTION_RAILS.md skim + integrate** — new coordination doc 5/23 `4345d912`; potentially impacts WALTER ↔ CC-PROME handshake spec.
-21. **🟢 FED_FRAMEWORK backfill** — at 18; monitor for new entries (Philly Fed -23.6 has POSITIONING_VALUATION secondary tag, not FED_FRAMEWORK direct).
-22. **🟢 HYDROCARBON_INFRA backfill** — Barakah already cluster_secondary in IRAN_HORMUZ; dedicated entry candidate.
+**Next-session housekeeping:**
+15. **🟡 REGISTRY.tsv peer-row refresh** — SAM v1.5 / BRENT Phase 1 / VIOLET R11-dead / MARCO TOURISM v2.2 / CARL closeout-protocol updates pending.
+16. **🟡 STATUS.md NETWORK AWARENESS regen** from refreshed REGISTRY.
+17. **🟡 SESSION_LOG.md archive trim**.
+18. **🟡 MEMORY.md cap trim**.
+19. **🟡 EVENT_WINDOW_STATE.md BRENT-coordinated refresh**.
+20. **🟡 PROME EXECUTION_RAILS.md skim + integrate** (5/23 commit `4345d912`).
+21. **🟢 Outbox REQ batched escalation** (5 REQs 22-28d).
 
-**WALTER self-tasks this week (no sign-off needed):**
-23. **Cross-platform Iran-recalibration outbox REQs.**
-24. **CROSS_REFS/CARL.md cache scaffold.**
-25. **CROSS_REFS/BRENT.md cache refresh.**
-26. **bank_transmission enum integration to V0_9_STACK.md.**
-27. **BOARD_CONSUMPTION_SPEC v0.2 dual-pattern doc.**
-28. **"verified-as-of" pattern second anchor candidate.**
-29. **design/STATE.md maintenance discipline pass.**
-30. **Outbox REQ-PROME cron-feed Items 2+3 follow-up** (escalate at 21d).
+**WALTER self-tasks this week:**
+22. **`narrative_channel` field tagging promotion to FORMAT_SPEC v0.9**.
+23. **Cross-platform Iran-recalibration outbox REQs** (carry-forward — surface to existing recipients post-Jun-1 frame).
+24. **CROSS_REFS/CARL.md + CROSS_REFS/BRENT.md cache scaffolds**.
+25. **bank_transmission enum integration to V0_9_STACK.md**.
+26. **BOARD_CONSUMPTION_SPEC v0.2 dual-pattern doc**.
 
-**Next-LIAISON candidates:**
-31. **HENRY LIAISON** — top of remaining queue.
-32. **NEXUS revival** — highest-leverage open-design unblock.
-33. **BROCK LIAISON** — mid-priority.
-34. **LIQUID LIAISON** — newly-eligible.
+**Next-LIAISON candidates (DORMANT-flip avoidance):**
+27. **HENRY LIAISON** — top of remaining queue.
+28. **CARL/BRENT/RED re-engagement** — calibration cycle 1 deliverables (CARL post-hoc-conf delta summary; BRENT-IMMEDIATE 8-row threshold dispatch list; RED falsification-trigger first auto-fire).
+29. **REGINALD re-engagement** — BOARD_LOG.tsv backfill + CALENDAR_DATA.tsv instantiation deliverables.
+30. **NEXUS revival** — highest-leverage open-design unblock.
+31. **LIQUID + BROCK LIAISON** — mid-priority.
 
 **Cluster / domain follow-ups:**
-35. **CONSUMER_STAGFLATION 5-axis sub-cluster decision** — cluster at 50 (over threshold).
-36. **AI_INFRA_CAPEX cluster split decision** — at 7; SIG-001 mediating-signal anchors the conversation.
-37. **OZK Q1 post-mortem** — REGINALD pickup pending.
-38. **ROAD Act House reconciliation** — BARON pickup.
-39. **HENRY SIGNAL_INTAKE.md** — saved-to-disk pending.
-
-**Tier 2 staleness:** SHADE 8+wk / OTTO 33d+ / ORACLE 47d+ / FERT 9+wk / ATHENA 10+wk / CRUISE 9+wk / DARWIN dormant / HANS 23d / ZHAO 55d.
+32. **CONSUMER_STAGFLATION 5-axis sub-cluster decision** — at 51.
+33. **AI_INFRA_CAPEX cluster split decision** — at 7; SoftBank-OpenAI mediating signal anchor.
+34. **OZK Q1 post-mortem** — REGINALD pickup pending.
 
 **Design / governance backlog:**
-40. **Filter v2 Segment D — option A confidence_note.**
-41. **Signal Registry v2 — deferred.**
-42. **COP refresh resume trigger — paused since Apr 14.**
-43. **HAWK-proxy synthesis policy.**
-44. **BOARD_CONSUMPTION rollout to 11 remaining agent CLAUDE.md files — KEYSTONE.**
-45. **`network_uncertainty_peak` threshold tuning** — 11-in-day 5/22 + 5-in-session 5/26 = recalibration candidate post-cycle-1.
-46. **PROME-pinch-hitter-mirror policy — formalize if pattern recurs ≥2 more times.**
-47. **FALSIFICATION_TRIGGERS schema v2 with `trigger_type` discriminator.**
-48. **FALSIFICATION_TRIGGERS v0.2** — RED self-task, expand 7→10-12 triggers post-cycle 1 (Freddie HPI YoY / TIC monthly delta / Oct-FOMC hike-prob / Philly Fed Non-Mfg candidates).
-49. **FILTER_SPEC v0.6 candidate: BODY-INACCESSIBLE-PAYWALL verdict class** (5/22 finding).
-50. **CHECKLIST v0.11 candidate: REGIME-SHIFT-anchor IMMEDIATE precedence rule for named-dove operating-bias pivots** (5/22 finding).
-51. **CHECKLIST v0.11 candidate: catalyst-attribution-overlay verify-spawn trigger pattern** (5/26 finding).
-
-**REGINALD self-tasks (LIAISON deliverables):**
-52. **REGINALD BOARD_LOG.tsv full disposition backfill** on 16+ missed-action signals.
-53. **REGINALD CALENDAR_DATA.tsv instantiation.**
-
-**3-way joint proposal pipeline:**
-54. **CARL drafts §1 + §3a + §3c + §4 sections.**
-55. **WALTER stitches 3-way at `design/JOINT_PROPOSAL_2026-05-06_walter_carl_brent.md`.**
-56. **CARL DATA_RELEASE_CALENDAR.md.**
-57. **BRENT DATA_RELEASE_CALENDAR.md.**
-58. **BRENT CLAUDE.md spawn-protocol delta.**
-59. **BRENT updates PREDICTIONS.tsv cross-refs.**
-
-**HAWK reconciliation (when HAWK refreshes):**
-60. **Archive HAWK-proxy synthesis.**
-61. **Update KB-BRT-NNN cross-refs.**
+35. **`narrative_channel` field FORMAT_SPEC v0.9 promotion** (NEW 6/02).
+36. **Trump-rhetoric SYMMETRIC-rule CHECKLIST v0.11 candidate** (NEW 6/02 — promote alongside existing 5/22 REGIME-SHIFT-anchor + 5/26 catalyst-attribution-overlay candidates).
+37. **Filter v2 Segment D — option A confidence_note**.
+38. **Signal Registry v2 — deferred**.
+39. **COP refresh resume trigger — paused since Apr 14**.
+40. **HAWK-proxy synthesis policy**.
+41. **BOARD_CONSUMPTION rollout to 11 remaining agent CLAUDE.md files — KEYSTONE**.
+42. **`network_uncertainty_peak` threshold tuning** — recalibration candidate post-cycle-1.
+43. **PROME-pinch-hitter-mirror policy — formalize if pattern recurs**.
+44. **FALSIFICATION_TRIGGERS schema v2 + v0.2 expansion** (Freddie HPI YoY / TIC delta / Oct-FOMC hike-prob / Philly Fed Non-Mfg candidates).
+45. **FILTER_SPEC v0.6 BODY-INACCESSIBLE-PAYWALL verdict class** (5/22 finding).
+46. **CHECKLIST v0.11 batch (5/22 + 5/26 + 6/02):** REGIME-SHIFT-anchor + catalyst-attribution-overlay + Trump-rhetoric-SYMMETRIC.
 
 ## OPEN DESIGN DECISIONS (need Will — also tracked in MEMORY.md)
 
-- **(NEW 5/26)** **AI_INFRA_CAPEX cluster split** — cluster at 7; SIG-001 SoftBank-OpenAI financing-structure is the mediating signal that anchors the cluster narrative; split into AI_INFRA_CAPEX_CHIPS + AI_INFRA_CAPEX_FINANCING or grow as-is?
-- **(NEW 5/26)** **`network_uncertainty_peak` threshold tuning** — fired 5-in-session 5/26 (exactly threshold) AND 11-in-day 5/22 AND 31-in-day 5/21; threshold may need recalibration at ≥7 or ratio-based (% of dispatches) post-cycle-1.
-- **(NEW 5/26)** **catalyst-attribution-overlay verify-spawn trigger** — promote 5/26 finding (a) to CHECKLIST v0.11 alongside existing 5/22 candidates? Could ship as part of v0.11 batch.
-- **Regime-shift transmission to CARL/REGINALD/HENRY/SAM** — outbox REQs from WALTER or PROME-mediated via newly-shipped EXECUTION_RAILS.md?
-- **REG-T-NN / RED-FT-NN expansion candidates** — Freddie HPI YoY / TIC monthly delta / Oct-FOMC hike-prob / Philly Fed Non-Mfg threshold (LIAISON cycle 1 input).
-- **HENRY LIAISON priority confirmation** — HENRY revived; top of remaining queue.
-- **CONSUMER_STAGFLATION 5-axis sub-cluster spawn** — cluster at 50 (over threshold; pushed deeper this session).
+- **(NEW 6/02)** **`narrative_channel:{tasnim,mfa,potus,centcom}` field tagging** — promote to FORMAT_SPEC v0.9 batch?
+- **(NEW 6/02)** **LIAISON DORMANT auto-flag decision** — 4 channels approaching 30d on 6/5-6/10; re-engage with cycle-1 deliverables or accept flip?
+- **(NEW 6/02)** **EVENT_WINDOW_STATE.md BRENT-coordinated refresh** — BRENT Phase 1 RE-ARMED Jun 1; trigger state needs sync.
+- **(carry-forward 5/26)** **AI_INFRA_CAPEX cluster split** — at 7.
+- **(carry-forward 5/26)** **`network_uncertainty_peak` threshold tuning** — recalibration candidate.
+- **(carry-forward 5/26)** **catalyst-attribution-overlay verify-spawn trigger** — CHECKLIST v0.11 candidate.
+- **Regime-shift transmission to CARL/REGINALD/HENRY/SAM** — outbox REQ vs PROME-mediated EXECUTION_RAILS.md.
+- **REG-T-NN / RED-FT-NN expansion candidates** — Freddie HPI YoY / TIC monthly delta / Oct-FOMC hike-prob / Philly Fed Non-Mfg.
+- **HENRY LIAISON priority confirmation** — top of remaining queue.
+- **CONSUMER_STAGFLATION 5-axis sub-cluster spawn** — cluster at 51.
 - **Cross-platform Iran-recalibration mechanism** — SIG-W-20260521-004 surfaced.
-- **HAWK-proxy synthesis frequency.**
+- **HAWK-proxy synthesis frequency**.
 - **FED_FRAMEWORK rename to UST_PLUMBING** — defer.
 - **Cluster status flags** (🟢/🟡/🔴/⚫) — reserved for v0.2.
-- **"verified-as-of" pattern second anchor candidate** — hold until non-Iran macro-state needs it.
+- **"verified-as-of" pattern second anchor candidate** — hold.
 - **Filter v2 Segment D** — DECIDED option A confidence_note.
-- **BOARD_CONSUMPTION rollout cadence** — 11 remaining agent CLAUDE.md propagation; KEYSTONE.
+- **BOARD_CONSUMPTION rollout cadence** — 11 remaining; KEYSTONE.
 - **COP refresh resume** — paused.
 - **NEXUS cluster classification cadence** — defer.
 - **§2b scheduled scan workflow infra build** — APPROVED 2026-05-08; awaiting CARL+BRENT calendars.
-- **PROME-pinch-hitter-mirror as design pattern** — formalize if recurs ≥2 more times.
-- **FORMAT_SPEC v0.9 batched ship timing** — 3 enums pre-cosigned.
+- **PROME-pinch-hitter-mirror as design pattern** — formalize if recurs.
+- **FORMAT_SPEC v0.9 batched ship timing** — 3 enums + `narrative_channel` pre-cosigned.
 - **FILTER_SPEC v0.6 BODY-INACCESSIBLE-PAYWALL verdict class** — 5/22 finding.
-- **CHECKLIST v0.11 batch (5/22 + 5/26):** REGIME-SHIFT-anchor IMMEDIATE precedence rule + catalyst-attribution-overlay verify-spawn trigger.
+- **CHECKLIST v0.11 batch (5/22 + 5/26 + 6/02)**: REGIME-SHIFT-anchor IMMEDIATE precedence + catalyst-attribution-overlay verify-spawn trigger + Trump-rhetoric-SYMMETRIC rule.
 
 ---
 
 *Maintenance note: this file is overwritten each session per CLAUDE.md spawn protocol step 15.*
 
-*5/26 PM image-batch closeout: 5 dispatches + 1 kill + 2 verify-spawns ($0.10); bifurcation 3+2 = 5/day at threshold; pull-block + open-Q-on-Jun18-calibration both resolved; closeout committing + pushing clean tonight; handoff state clean.*
+*6/02 Tue AM anchor-only session: 0 dispatches; 1 verify-research spawn ($0.05); anchor refreshed with major frame change; STATUS + MEMORY + LAST_COMPLETION refreshed; commit + push tonight.*
