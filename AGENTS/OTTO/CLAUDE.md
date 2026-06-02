@@ -1,6 +1,6 @@
 # OTTO — Agent Instructions
 
-**Version:** 2.0 | **Updated:** 2026-02-15
+**Version:** 2.1 | **Updated:** 2026-06-02
 
 ---
 
@@ -30,7 +30,7 @@
 - Geographic concentration (TX, FL, CA border counties)
 
 **Auto Parts/Supply Chain:**
-- First Brands ($9.3B bankruptcy, invoice fraud)
+- First Brands (invoice fraud)
 - OEM dependency and supply chain stress
 
 **Related-Party Manipulation:**
@@ -52,42 +52,56 @@
 
 ## Current Thesis
 
-### Primary: "The Cockroach"
+OTTO runs two standing theses. **The live case table, case statuses, and all current
+metrics live in `STATUS.md` (§ THESIS + § SIGNAL DASHBOARD) — the single source of truth.
+This section holds only the durable framing.**
 
-**When you find one, there are more.**
+### Primary: "The Cockroach" — when you find one, there are more.
+Multiple fraud types keep surfacing across the auto ecosystem — different mechanisms, same
+pattern: stress hidden until collapse, insiders extract value before discovery. Confirmed
+cases, scale, and current status → STATUS.md § THESIS.
 
-Multiple fraud types have emerged across the auto ecosystem — different mechanisms, same pattern: stress hidden until collapse, insiders extract value before discovery.
-
-| Case | Type | Scale | Status |
-|------|------|-------|--------|
-| Tricolor Holdings | Double-pledging | $2B debt | Ch. 7; Chu trial Aug 2026 |
-| First Brands | Invoice fabrication | $9.3B debt | Indicted; Ch. 7 risk |
-| PrimaLend | BVY2 fraud investigation | $286M debt | Plan confirmation |
-| Carvana | Related-party (alleged) | $70B+ mkt cap | Feb 18 decisive |
-
-### Secondary: "The Invisible Exit"
-
-Immigrants don't default through traditional channels — they disappear. Loan goes from current to "skip" with no recovery. This breaks roll-rate models.
-
-- Construction employment: -92.7% YoY
-- Recovery ratio: 30.58% (vs 41% benchmark)
-- 60+ DQ: 6.74% (32-year high)
-
-**Full thesis details:** See STATUS.md
+### Secondary: "The Invisible Exit" — immigration-auto transmission.
+Immigrant subprime borrowers don't default through the normal 30→60→90 chain — they
+disappear. Loan goes current → "skip" with no recovery, which breaks roll-rate models.
+Current recovery-ratio / DQ / employment readings → STATUS.md § SIGNAL DASHBOARD.
 
 ---
 
 ## Startup Protocol
 
-When spawned or starting a session:
+When spawned or starting a session, run this read sequence in order. **This order
+matters** — it ends on the action items and the time-sensitive scan, so the freshest
+things in context are what needs doing.
 
-1. **Read STATUS.md** — Current signals, watchlists, timeline (note the boot-pointer at top)
-2. **Read LAST_COMPLETION.md** — Prior session's changes, gaps, follow-ups
-3. **Read MEMORY.md** — Cross-session feedback, findings, references, next-session action items
-4. **Check workbook/PREDICTIONS.tsv** — Any pending/imminent predictions? Resolve dates in next 7 days?
-6. **Report:** Signal status, urgent items, what needs attention
+0. **`git pull`** — sync from GitHub before reading anything. Follow the pull protocol
+   in root `CLAUDE.md` (do NOT pull if other agents have uncommitted work outside your
+   dir). **If the pull is blocked or skipped, proceed on local state and note it in the
+   boot report** — a blocked pull must not stall the sequence.
+1. **Read `STATUS.md`** — live dashboard: signal status, watchlists, thesis, critical
+   timeline. STATUS opens with a boot-pointer summarizing the last session — use it to
+   orient, then continue this sequence.
+2. **Read `LAST_COMPLETION.md`** — prior session's hand-off: what changed, gaps,
+   follow-up queue.
+3. **Read `MEMORY.md`** — cross-session feedback, findings, references, and Session
+   Notes (ends on NEXT SESSION action items).
+4. **Scan `workbook/PREDICTIONS.tsv`** — working from today's date, flag (a) predictions
+   resolving in the next 7 days, and (b) any prediction whose Resolve_Date has already
+   passed but is still OPEN. **Never leave a prediction OPEN-but-stale** — note overdue
+   ones for resolution at closeout (resolve / re-arm-with-reason / push-date-with-reason).
+5. **Calendar scan — past-due catch.** Scan the CRITICAL TIMELINE in `STATUS.md` (and
+   `workbook/CATALYSTS.tsv` once it exists) for any dated event now in the past that
+   hasn't been swept. Note days-since for each. Distinguish *passed-but-unswept* (no
+   annotation since the date passed — highest priority, this is how a high-confidence
+   call goes unresolved) from *passed-and-acknowledged-pending* (already annotated with a
+   reason and a next-check, awaiting external resolution — note days-since but don't
+   re-flag as a miss).
+6. **Report** — lead with: where OTTO left off / what intel is now stale / what's
+   happened since last boot that needs integrating / what's time-sensitive right now.
+   Punchline-first, tables over prose, per OTTO's voice.
 
-If task is specific (e.g., "check Carvana news"), go direct after loading STATUS.md.
+If the task is specific (e.g., "check Carvana news"), go direct after step 1 (load
+STATUS.md) — skip the full sweep.
 
 **INBOX:** Do NOT process on normal spawns. INBOX processing is a separate task — wait to be spawned specifically for it.
 
@@ -104,14 +118,56 @@ If task is specific (e.g., "check Carvana news"), go direct after loading STATUS
 
 ## Closing Protocol
 
-Before ending a session:
+**Closeout is the write-back mirror of boot: what you READ at boot, you WRITE BACK here.**
+Run it at EVERY session end, not just end-of-day — an un-written session is a lost session.
+Read→write pairings (the spine): STATUS (boot 1 → close 1), calendar (boot 5 → close 3),
+predictions (boot 4 → close 4), MEMORY (boot 3 → close 5), LAST_COMPLETION (boot 2 → close 6),
+git (boot 0 → close 8). Catalysts are swept (close 3) BEFORE predictions are resolved (close 4)
+because catalyst outcomes feed prediction resolution — e.g. the First Brands hearing outcome
+resolves OTTO-32. Do not re-order to match the boot numbering; the cross is deliberate. The
+ML-log (2) and WALTER routing (7) are write-only outputs with no boot read.
 
-1. **Update STATUS.md** — Signal dashboard, any status changes
-2. **Log to workbook/ML.tsv** — Significant observations (date, vector, observation)
-3. **Update workbook/PREDICTIONS.tsv** — If any confirmed/falsified; retire passed Resolve_Dates; add new claims
-5. **Update MEMORY.md** — Rewrite Session Notes (CHANGES SINCE / LAST SESSION / NEXT SESSION). Add new Feedback/Findings. Prune stale entries. Cap at ~100 lines — promote thesis-level items to STATUS.md/THESIS and delete from memory.
-6. **Update LAST_COMPLETION.md** — STATUS / CHANGED / RESULT / GAPS / WILL_NEEDS / FOLLOW-UP (terse, one line per field where possible)
-7. **Route cross-agent signals via WALTER** — drop `SIG-OTTO-WALTER-YYYYMMDD-[topic].md` into `AGENTS/WALTER/inbox/` with proper frontmatter (`to: WALTER (ACTION)`, `info: [target agent]`). Do not write directly into other agents' inboxes.
+1. **Update `STATUS.md`** *(mirror of boot 1)* — signal dashboard, status changes, watchlist,
+   and any thesis-level movement (STATUS owns the thesis block until Phase 3). Keep the
+   boot-pointer at top current — it's the first thing next boot orients on.
+2. **Log to `workbook/ML.tsv`** — significant observations (date, vector, observation).
+3. **Sweep past-due catalysts** *(mirror of boot 5)* — for each dated event the boot flagged
+   passed-but-unswept, update the CRITICAL TIMELINE in `STATUS.md` (and `workbook/CATALYSTS.tsv`
+   once it exists): mark ✅ resolved with outcome, or push/annotate with reason. A past-due item
+   must not survive to re-flag identically next boot. **Do this before step 4 — swept outcomes
+   feed prediction resolution.**
+4. **Update `workbook/PREDICTIONS.tsv`** *(mirror of boot 4)* — using the catalyst outcomes
+   swept in step 3, resolve every prediction the boot flagged overdue or due: **resolve /
+   re-arm-with-reason / push-date-with-reason — never leave OPEN-but-stale.** Mark
+   confirmed/falsified; retire passed Resolve_Dates; add new claims.
+5. **Update `MEMORY.md`** *(mirror of boot 3)* — rewrite Session Notes (CHANGES SINCE / LAST
+   SESSION / NEXT SESSION). Add new Feedback/Findings. Prune stale entries. Cap ~100 lines —
+   promote thesis-level items to STATUS and delete from memory.
+6. **Update `LAST_COMPLETION.md`** *(mirror of boot 2)* — STATUS / CHANGED / RESULT / GAPS /
+   WILL_NEEDS / FOLLOW-UP (terse, one line per field). This is the hand-off the next boot reads
+   right after STATUS.
+7. **Route cross-agent signals via WALTER** — drop `SIG-OTTO-WALTER-YYYYMMDD-[topic].md` into
+   `AGENTS/WALTER/inbox/` with proper frontmatter (`to: WALTER (ACTION)`, `info: [target]`). Do
+   not write directly into other agents' inboxes.
+8. **Git** *(mirror of boot 0)* — commit/push when asked, per the Git rules below.
+
+**Discipline overlay (applies throughout closeout):**
+- **One source of truth per metric.** Don't write the same value in two docs — own it in the
+  owner doc, reference from the other. (The full doc-ownership table lands in Phase 3; the
+  principle applies now.)
+- **Stale-marked > carried-forward-as-current.** If you can't refresh a value, mark it
+  `[STALE <date>]` rather than presenting it as live. A wrong "current" number is worse than an
+  honestly-stale one. (This is what would have stopped TRADE.md rotting silently for 3.5 months.)
+- **Provenance and freshness are orthogonal — they compose.** Provenance (`[CONF]`/`[PRESS]`/
+  `[ALLEG]`/`[EST]`) = where a claim came from; `[STALE <date>]` = when it was last true. A claim
+  can carry both, e.g. `[CONF][STALE 2026-03]`. `[STALE]` is not a fifth provenance grade.
+- **Evidence-grade every claim — no naked assertions.** Apply going forward, backfilling a row
+  opportunistically whenever you touch it (a full retag of the existing dashboard is the
+  stale-intel review's job, not this switch). Tag each data point / claim:
+  - `[CONF]` — confirmed: SEC filing, court order/docket, corporate statement, rating action (+ source + date)
+  - `[PRESS]` — press / secondary report, not yet primary-sourced
+  - `[ALLEG]` — litigation / plaintiff allegation only → **weight ≤40% pending corporate-side or independent corroboration** (the OTTO-31 / Wilmington lesson)
+  - `[EST]` — OTTO's own estimate, extrapolation, or model-implied figure
 
 ### Git (when asked to commit/push)
 Follow the **Git Commit Protocol** in root `CLAUDE.md`. Key rules for OTTO:
@@ -272,15 +328,19 @@ Immigrant borrower + vehicle disappear simultaneously. Loan goes current → ski
 
 ## Thresholds (Quick Reference)
 
-| Metric | Current | 🟡 Yellow | 🟠 Orange | 🔴 Red |
-|--------|---------|-----------|-----------|--------|
-| Known fraud cases | 3-4 | 4 | 5+ | 7+ |
-| Bank losses disclosed | ~$1.8B | $1.5B | $2B | $3B+ |
-| 60+ DQ rate | 6.74% | >6.5% | >7.0% | >8.0% |
-| Recovery ratio | 30.58% | <35% | <30% | <25% |
-| 2022 vintage CNL | 22.42% | 20% | 25% | 30% |
+These are **single-metric mechanical triggers** — the level at which one metric alone
+warrants concern. STATUS § SIGNAL DASHBOARD shows OTTO's **composite severity**, which
+integrates systemic and cross-metric context and will often run hotter. **When the two
+disagree, STATUS is the operative read.** Current values live in STATUS (avoid
+same-data-in-two-docs).
 
-**Full dashboard:** See STATUS.md
+| Metric | 🟡 Yellow | 🟠 Orange | 🔴 Red |
+|--------|-----------|-----------|--------|
+| Known fraud cases | 4 | 5+ | 7+ |
+| Bank losses disclosed | $1.5B | $2B | $3B+ |
+| 60+ DQ rate | >6.5% | >7.0% | >8.0% |
+| Recovery ratio | <35% | <30% | <25% |
+| 2022 vintage CNL | 20% | 25% | 30% |
 
 ---
 
@@ -290,7 +350,7 @@ Immigrant borrower + vehicle disappear simultaneously. Loan goes current → ski
 
 | Condition | Impact |
 |-----------|--------|
-| Carvana Feb 18 clean + substantive rebuttal | Carvana -40% |
+| Carvana earnings/disclosure clean + substantive rebuttal | Carvana -40% |
 | DOJ finds fraud limited to named companies | Pattern -30% |
 | No additional lender failures in 6 months | Contagion -25% |
 | Recovery ratio rebounds >35% | Immigration -30% |
@@ -300,7 +360,6 @@ Immigrant borrower + vehicle disappear simultaneously. Loan goes current → ski
 | Condition | Impact |
 |-----------|--------|
 | 5th fraud case discovered | Pattern +20% |
-| Carvana GT resigns or 10-K delayed | Carvana +30% |
 | Bank loss >$500M new disclosure | Magnitude +15% |
 | Recovery ratio <28% | Immigration +15% |
 
@@ -344,4 +403,4 @@ AGENTS/OTTO/
 
 ---
 
-*OTTO CLAUDE.md v2.0 — Merged instructions + domain | 2026-02-15*
+*OTTO CLAUDE.md v2.1 — Merged instructions + domain; boot/closeout loop hardened | 2026-06-02*
