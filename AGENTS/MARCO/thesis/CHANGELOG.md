@@ -4,6 +4,26 @@ Version-transition log. Newest first. Each entry: old view → new view, trigger
 
 ---
 
+## v2.3 → v2.4 — 2026-06-02 (session 11) — MINOR — "Channel 2 has a macro frame: the first US inbound decline in 20 years"
+
+**Trigger:** A TOURISM-assessment pass surfaced a thesis-grade fact that had sat in the sub-agent (KB-MARCO-IVF-26) since session 9 without propagating up: **CY2025 was the first US inbound-tourism decline in 20 years (−5.5%, 68.3M arrivals; NTTO/Inbound Travel Assoc).** The propagation gap is itself the finding — the sub-agent does good work that doesn't reliably rise to MARCO.
+
+**Old view (v2.2/v2.3):** Channel 2 was framed as the **Canadian boycott** — air/winter structural, base-effect headline — plus a secondary overseas/NTTO line. The boycott was treated as a largely self-contained Canada story.
+
+**New view (v2.4):** Channel 2 is re-framed one level up. **The Canadian boycott is the sharp edge of a broader structural inbound contraction** — the whole US inbound complex turned negative for the first time in two decades, and overseas arrivals are stuck 14–26% below 2019 on top of the Canadian collapse. Canada (#1 market) is the leading edge, not the whole story. **No conviction-level change** — Channel 2 stays MEDIUM-HIGH; the frame strengthens it rather than reclassifying it.
+
+**New forward test (the live piece):** the **FIFA World Cup (US co-host, Jun 11–Jul 19 2026)** is the event that *should* pull inbound back above 2019 — the natural reversal catalyst. Q2 data is not yet encouraging. If the World Cup fails to reverse the 20-yr decline, the structural read hardens. Added as ES-MARCO-09 + a docket catalyst + a TIMELINE forward branch point. **Note:** this catalyst was absent from MARCO's docket entirely despite being the single largest US-inbound event of 2026 and already live.
+
+**Why MINOR not MAJOR:** adds a frame + a forward test to an existing channel; no conviction reversal, no new channel, no spine change.
+
+**Conviction deltas:**
+| Item | v2.3 | v2.4 |
+|---|---|---|
+| Channel 2 (visitor flows → FL CRE) | MEDIUM-HIGH (Canada boycott) | **MEDIUM-HIGH** — unchanged level, frame widened to first-20-yr-inbound-decline |
+| World Cup as inbound-reversal test | not tracked | **live forward catalyst** (ES-MARCO-09, docket Jun 11–Jul 19) |
+
+---
+
 ## v2.2 → v2.3 — 2026-06-02 (session 10) — MINOR — "Enforcement-funding lock is contested, not locked"
 
 **Trigger:** Session-10 pull of the Jun 1 reconciliation outcome + April Banxico print. The reconciliation bill **MISSED Trump's June 1 deadline**; Senate Parliamentarian MacDonough struck core ICE/CBP enforcement-and-screening provisions under the Byrd rule (jurisdiction), plus the $1.8B DOJ fund and $1B ballroom security. No floor passage.

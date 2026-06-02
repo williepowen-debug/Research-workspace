@@ -8,6 +8,7 @@ Dated event spine. Resolved events (mark ✅ with outcome) + forward branch poin
 
 | Date | Event | Channel | Outcome |
 |------|-------|---------|---------|
+| 2025 (CY) | First US inbound-tourism decline in 20 years (−5.5%, 68.3M arrivals; NTTO) | 2 | Macro backdrop (v2.4 frame) — Canadian boycott is the sharp edge of a structural inbound contraction; overseas stuck 14–26% below 2019. World Cup 2026 = the reversal test |
 | 2026-03-22 | TSA disruption → FL airport delays (Pred MAR-25) | 2 | ✅ CONFIRMED — nationwide, exceeded prediction |
 | 2026-04-17 | FL condo inventory hit 9.1mo (Pred MAR-08) | 3 | ✅ CONFIRMED breach — but reverted to 8.9mo Apr (one-month) |
 | 2026-04-30 | DHS shutdown ENDED (76-day record); Trump signed TSA/FEMA/CG funding (Pred MAR-27) | — | ✅ CONFIRMED longest-ever; ICE/CBP carved to reconciliation |
@@ -29,6 +30,7 @@ Dated event spine. Resolved events (mark ✅ with outcome) + forward branch poin
 
 | Date / Window | Event | Channel | Branch logic |
 |------|-------|---------|--------------|
+| 2026-06-11 → 07-19 | **FIFA World Cup** (US co-host, 11 US host cities) | 2 | The inbound-reversal catalyst test. SHOULD pull NTTO arrivals back toward/above 2019; Q2 not yet encouraging. Fails to reverse the first-20-yr inbound decline → structural read hardens (ES-MARCO-09) |
 | ~2026-06-30 | ICE/CBP reconciliation reworked floor vote (TBD post-recess) | 1 | Missed Jun 1; parliamentarian carved core. Reworked passage = flow restored (delayed/diminished); further slip = funding brake stays partially on |
 | 2026-06-13 | Air Transat YUL-FLL final → complete US exit | 2 | Executes summer capacity deletion (TOUR-03/05); feeds winter FL-$ thesis |
 | ~2026-06-27 | WestJet winter 2026-27 schedule | 2 | TOUR-05's last open input; ≥15% FL-bound seat cut = confirm |
