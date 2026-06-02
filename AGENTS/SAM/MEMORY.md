@@ -28,12 +28,24 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (5/31 Sunday boot → 6/1 Monday boot)
+### CHANGES SINCE LAST SESSION (6/1 evening close-out → 6/2 Tue morning)
 
-- **🆕 IRAN MOU EFFECTIVELY BROKEN (Jun 1):** Tehran suspended message exchange via mediators (Tasnim) + threatened to "completely block" Hormuz. WTI +7%, **Brent +4.02% to $94.78**. Pakistan-mediated 60-day framework hit hard setback (not formal collapse but document exchange halted; fresh US-Iran clashes near Hormuz). Reverses last week's "MOU framework hardening" view in 4 days.
-- **🆕 FED-CUT BACKUP READS DEAD:** Jun 17 FOMC priced **>97% no-change**, **<10% cut odds anywhere in 2026** (CME FedWatch). April US CPI 3.8% (ME passthrough) + resilient labor blocking. v1.5 "24h Fed rescue" framing was a stretch.
-- **🆕 BOJ pricing HELD / slight uptick:** Polymarket **88.5%** (Jun 1, was 88.2% May 31); swap 78-87.5%. Discourse now post-hike framed (MUFG, OANDA, ING). Bessent-Katayama-Himino alignment cabling hike + intervention combo per Reuters Jun 1.
-- USDJPY **159.64** (+0.36y vs Fri — inside #3 verbal zone); FXY $57.51; **FXY ATM IV jumped 8.03 → 10.52% (+2.49v)** — market pricing the binary; 25d RR steepened to −8.11. JGB curve eased 3-4bp across.
+- **USDJPY +0.28y to 159.92** (Mon 159.64 → Tue mid-session). **0.05% from 160 hard intervention trigger.** Mon intraday already tagged 159.75 high. MOF cabling window LIVE before T-2 blackout ~Jun 13.
+- **Brent +$0.89 to $95.67** (+0.94% Tue, on top of Mon +4.02%). **No Iran walk-back overnight** — MOU break sticking. Tasnim/Hormuz framing intact going into US session.
+- **JGB 10Y +2.5bp to 2.682%** (Jun 1 publication). 30Y +0.4bp to 3.863%, 40Y +1.1bp to 3.800%. Modest back-up across the curve.
+- **10Y JGB auction TODAY (Jun 2) orderly** — BTC 3.53x, tail 0.7bp, avg 2.649%. Confirms domestic long-end is quiet despite oil rebuild; J-ICS mechanism not compounding.
+- **Polymarket BOJ Jun 16 hike: 87.6%** (Tue 16:02 UTC ≈ 12:02 ET) vs Mon 88.5%, May 31 88.2%. Held within noise. MUFG ~80%, swap 77-80% (consistent with Mon read).
+- **FXY ATM IV proxy printed 1.56% Jun 2 (vs 10.52% Jun 1) — calibration glitch, not real vol collapse.** USDJPY is pushing UP with BOJ T-10; vol cannot have crushed 9pp organically. Flagged STATUS table + KURA next-run.
+
+### LAST SESSION (6/2 Tue morning — intraday verification, no thesis-level move)
+
+- Clean boot from WALTER cwd (Will explicitly invoked SAM identity). git in sync with origin (0/0). boot.py 7.3s, 8/9 OK + FXY OI skip.
+- Tape check: USDJPY 159.92 (0.05% from 160), Brent $95.67 (+0.73% on top of Mon +4.02%), FXY $57.42. MOU break sticking.
+- 10Y JGB auction TODAY orderly (BTC 3.53x, tail 0.7bp). No domestic supply-stress story.
+- **Polymarket BOJ Jun 16 verified intraday at 87.6%** (Jun 2 ~12:02 ET) — held vs Mon 88.5%. SAM-21 70% mark unchanged. Cross-source: MUFG 80%, swap 77-80%.
+- **FXY ATM IV proxy outlier (1.56 vs 10.52 prior day) — calibration glitch flagged.** Not a real vol crush; USDJPY pushing UP at T-10 to BOJ. Investigate proxy / consider real OTC pull for KURA next run.
+- No mark changes. No position changes. SAM-23 72% held; SAM-21 70% held.
+- Closeout: STATUS lead + state-of-play + market table refreshed Jun 2; MEMORY session notes; commit.
 
 ### LAST SESSION (6/1 Monday — full day: boot + Jun-1 POV pivot + KURA inaugural + KOYOMI sync + sub-agent MEMORY architecture)
 
@@ -65,15 +77,18 @@ Will lost power after the 18:07 push; came back, asked SAM to verify closeout st
 
 ### NEXT SESSION
 
-1. **Run boot.py** — Tue Jun 2. Verify MOU walk-back vs further escalation overnight (key: Trump/Khamenei statements; Brent direction). CFTC next release Sat Jun 6.
-2. **🔴🔴 Jun 16 BOJ MPM** — DOMINANT, SAM-21 70% / mkt ~88.5%. **Re-verify swap/Polymarket pricing at boot Jun 9-15**. Pre-meeting blackout starts ~Jun 13 (T-2) — this week is the cabling window (Bessent/Katayama jawbone watch). National May CPI Jun 19 (post-BOJ). Position unchanged: 13 sh + Jun-18 $58C.
-3. **🔴 Iran/Hormuz MOU watch** — broke Jun 1; SAM-23 ~72%. Binary: walk-back / Trump-Khamenei reset → resign path; further escalation → Brent $100+ / Hormuz close attempt. USDJPY 160 hard intervention trigger watch.
-4. **Hedge-ratio verification:** primary-source check on 44.4% vs <30% claim (now tracked in KURA_MEMORY PENDING).
-5. **🟠 Jun FY2025 Norinchukin** — only near-term Channel 1 reactivation gate; CLO-book reduction language / CEO Kitabayashi. CLO book reportedly down to ¥8.2T (was ¥9.7T in thesis) — verify. (Tracked in KURA_MEMORY STANDING MONITORS.)
-6. **Eval re-baseline DUE** — standing trigger compounded (Jun 1 POV pivot stack on top of prior). Evals carry stale $57.48; RED to self-correct $57.48→$58.32 on next boot.
-7. **Position next-touch:** No add/trim under v1.5 single-path. Triggers: (a) USDJPY <156 for 3 sessions → consider add; (b) BOJ pre-cabling Jun 13-15; (c) thesis break (USDJPY >167 + BOJ dovish) = stop $55.05. Jun-18 $58C theta-watch (vol pop Jun 1 modestly offsets).
-8. **KURA / KOYOMI / METSUKE next runs** — all 3 sub-agents now have populated MEMORY files. Validate the architecture by spawning without re-briefing in spawn prompt (just point at spec; MEMORY does the rest). Natural next cadence: **KOYOMI** post-Jun-16 BOJ (catalyst resolution drains forward calendar); **KURA** post-Jun-16 BOJ (post-watermark material accumulates); **METSUKE** at the Jun 9-15 pre-BOJ window (TRADE/STRATEGY get touched then; spawn pre-edit to catch any drift carried into the pre-meeting refresh) OR on next material POV pivot, whichever comes first.
-9. **⏸️ DEFERRED (still holds):** Layer B cross-agent signals (BROCK/HANS PC-cascade pull, HENRY carry-numbers); vol-proxy recalibration (now urgent — Jun 1 expansion to 10.5% sits outside the calibrated band, "directional" framing held but absolute firing levels are pending); KB cleanup tier-2 macro/flow rows. Do NOT re-flag as open gaps.
+1. **🔴 USDJPY 160 watch** — 159.92 at Tue mid-session, 0.05% from hard trigger. Intervention #3 may fire intraday/this week pre T-2 blackout (~Jun 13). Monitor: Reuters/Bloomberg MOF headlines, Bessent/Katayama verbals (cabling window LIVE this week). If 160 prints → SAM-23 resolves (not re-rates).
+2. **🔴🔴 Jun 16 BOJ MPM** — DOMINANT, SAM-21 70% / Polymarket 87.6% (verified Jun 2 intraday). **Re-verify pricing Jun 9-15.** If pricing holds >85% through cabling week with no Takaichi pushback → consider +5pp mark to 75%. National May CPI Jun 19 (post-BOJ). Position unchanged: 13 sh + Jun-18 $58C.
+3. **🔴 Iran/Hormuz MOU watch** — broke Jun 1; SAM-23 ~72%. Brent +0.73% Tue confirms no walk-back overnight. Binary still: walk-back / Trump-Khamenei reset → resign path; further escalation → Brent $100+ / Hormuz close attempt.
+4. **🆕 FXY ATM IV proxy investigation** — Jun 2 reading 1.56 vs Jun 1 10.52 is non-physical (USDJPY rising into BOJ binary; vol should be UP not down). Likely scraper calibration. Check `fxy_options.py` source / consider real OTC pull next session. Flagged STATUS + KURA next-run.
+5. **Hedge-ratio verification:** primary-source check on 44.4% vs <30% claim (tracked in KURA_MEMORY PENDING).
+6. **🟠 Jun FY2025 Norinchukin** — only near-term Channel 1 reactivation gate; CLO-book reduction language / CEO Kitabayashi. CLO book reportedly ¥8.2T (was ¥9.7T in thesis) — verify. (Tracked in KURA_MEMORY STANDING MONITORS.)
+7. **Eval re-baseline DUE** — standing trigger compounded. Evals carry stale $57.48; RED self-correct $57.48→$58.32 on next boot.
+8. **Position next-touch:** No add/trim under v1.5 single-path. Triggers: (a) USDJPY <156 for 3 sessions → consider add; (b) BOJ pre-cabling Jun 13-15; (c) thesis break (USDJPY >167 + BOJ dovish) = stop $55.05.
+9. **KURA / KOYOMI / METSUKE next runs** — all 3 have populated MEMORY files. Natural cadence: **METSUKE** Jun 9-15 pre-BOJ window OR on next material POV pivot; **KOYOMI + KURA** post-Jun-16 BOJ. Validate architecture by spawning without re-briefing.
+10. **⏸️ DEFERRED (still holds):** Layer B cross-agent signals (BROCK/HANS PC-cascade pull, HENRY carry-numbers); KB cleanup tier-2 macro/flow rows. Do NOT re-flag.
+
+**🟢 RESOLVED THIS SESSION:** Polymarket BOJ pricing intraday verification (87.6% — held; from Mon close-out NEXT item 1).
 
 ### NEXT INFRA SESSION (script build queue — unchanged)
 

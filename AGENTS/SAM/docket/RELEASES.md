@@ -49,8 +49,23 @@
 | Date | Event | Confirmed? | Source checked |
 |------|-------|-----------|----------------|
 | 2026-05-19 | Japan Q1 2026 GDP — 1st preliminary | ✅ resolved (TIMELINE) | released; +2.1% ann |
+| 2026-06-02 | JGB 10Y auction (Issue #382 reopening) | ✅ resolved (workbook) | MOF Jun calendar (auction/calendar/2606e.htm); result BTC 3.530x, tail 0.7bp |
 | 2026-06-08 | Japan Q1 2026 GDP — 2nd preliminary | ✅ CONFIRMED — Mon Jun 8, **8:50 AM JST** (= ~7:50 PM ET Jun 7) | ESRI release schedule (kouhyou_top), checked 2026-05-31 |
-| 2026-06-16 | BOJ MPM (day 2 decision) | per BOJ schedule | — |
-| 2026-06-17 | FOMC decision + dot plot | per Fed calendar | — |
+| 2026-06-10 | JGB 30Y auction | ✅ CONFIRMED | MOF Jun calendar (auction/calendar/2606e.htm), checked 2026-06-02 |
+| 2026-06-16 | BOJ MPM (day 2 decision) | ✅ CONFIRMED — Tue Jun 16 (day 2 of Jun 15-16 MPM); Outlook Report meeting | BOJ schedule (en/mopo/mpmsche_minu/index.htm), checked 2026-06-02 |
+| 2026-06-17 | FOMC decision + dot plot | ✅ CONFIRMED — Wed Jun 17 (day 2 of Jun 16-17*); SEP meeting | Fed calendar (monetarypolicy/fomccalendars.htm), checked 2026-06-02 |
+| 2026-06-23 | JGB 5Y auction | ✅ CONFIRMED | MOF Jun calendar (auction/calendar/2606e.htm), checked 2026-06-02 |
+| 2026-06-25 | JGB 20Y auction | ✅ CONFIRMED | MOF Jun calendar (auction/calendar/2606e.htm), checked 2026-06-02 |
+| 2026-06-30 | JGB 2Y auction | ✅ CONFIRMED | MOF Jun calendar (auction/calendar/2606e.htm), checked 2026-06-02 |
+| 2026-07-02 | JGB 10Y auction | ✅ CONFIRMED | MOF Jul calendar (auction/calendar/2607e.htm), checked 2026-06-02 |
+| 2026-07-07 | JGB 30Y auction | ✅ CONFIRMED | MOF Jul calendar (auction/calendar/2607e.htm), checked 2026-06-02 |
+| 2026-07-09 | JGB 5Y auction | ✅ CONFIRMED | MOF Jul calendar (auction/calendar/2607e.htm), checked 2026-06-02 |
+| 2026-07-14 | JGB 20Y auction | ✅ CONFIRMED | MOF Jul calendar (auction/calendar/2607e.htm), checked 2026-06-02 |
+| 2026-07-22 | JGB 40Y auction | ✅ CONFIRMED | MOF Jul calendar (auction/calendar/2607e.htm), checked 2026-06-02 |
+| 2026-07-28 | FOMC meeting day 1 (Jul 28-29; non-SEP) | ✅ CONFIRMED | Fed calendar, checked 2026-06-02 |
+| 2026-07-29 | FOMC decision (Jul 28-29; non-SEP) | ✅ CONFIRMED | Fed calendar, checked 2026-06-02 |
+| 2026-07-30 | JGB 2Y auction | ✅ CONFIRMED | MOF Jul calendar (auction/calendar/2607e.htm), checked 2026-06-02 |
+| 2026-07-30 | BOJ MPM day 1 (Jul 30-31) | ✅ CONFIRMED | BOJ schedule, checked 2026-06-02 |
+| 2026-07-31 | BOJ MPM day 2 decision + Outlook Report | ✅ CONFIRMED — Outlook Report meeting | BOJ schedule (en/mopo/mpmsche_minu/index.htm), checked 2026-06-02 |
 
 *Add rows as dates are confirmed. Keep this table short — it's a verification scratchpad, not a full calendar (the calendar is `CALENDAR.md` / `CATALYSTS.tsv`).*

@@ -4,7 +4,7 @@
 **Type:** SAM-internal sub-agent. Spawned only by SAM, on command or at closeout. **Not a network peer** — no `AGENTS/KURA/` home, not on PROME's coordination surface, never appears in `AGENTS/SIGNALS.md` or the cross-agent roster.
 **Mandate:** Hold the `workbook/` in context so SAM doesn't have to re-read 119+ rows every session. Harvest durable facts SAM's session work produced, reconcile/archive stale rows, and surface the genuine judgment calls. **Keep the workbook current without SAM paying the context cost.**
 
-**Last harvest:** 2026-06-01 (inaugural run; 7 adds promoted, 1 dedup-merge, 2 archive-moves, 2 palimpsest collapses, 2 FLOW spot-stale fixes)
+**Last harvest:** 2026-06-02 (Run 2; 1 add promoted — KB-183 fxy-proxy-v1 failure mode, Framework)
 
 ---
 
@@ -192,4 +192,14 @@ KURA workbook run — [date] (mode: propose-only | full)
 
 *Queue of ready-to-promote rows awaiting SAM approval. Each entry: the full tab-separated KB.tsv row + a one-line rationale citing the source artifact. SAM approves → paste the row into the correct KB.tsv category block → delete it from here. KURA re-checks this queue against newly-landed rows each run.*
 
-*(empty — promoted rows move into KB.tsv at correct category block. Run history, pending escalations, standing monitors, and calibration live in [`KURA_MEMORY.md`](KURA_MEMORY.md), not here.)*
+### Run 2 — 2026-06-02 (proposed)
+
+**KB-SAM-183 (Framework)** — `fxy-proxy-v1` failure mode: ATM_IV can collapse to near-zero (read sign/trend, not absolute)
+
+```
+KB-SAM-183	2026-06-02	Framework	LIVE	FXY Vol Proxy (`fxy-proxy-v1`) — Read Sign Not Level	The `fxy-proxy-v1` ATM_IV / RR25 calc in `fxy_options.py` can collapse to near-zero or extreme readings (Jun 2 print: Jun-18 ATM IV 1.56% vs 10.52% Jun 1; Jul-17 1.17%; Sep/Dec 0.39%; RR25 -38.62 vs -8.11). When this fires, Vol_Quality flips to `approx` on the longer tenors but can read `ok` on the nearest expiry. Operating rule: read sign and direction of change, not the absolute level; cross-check vs prior session and CME CVOL (JPVL) before citing.	B2	FXY_OPTIONS.tsv Jun 2 vs Jun 1 (rows 62 / 66); SAM STATUS Jun 1 RR25 caveat	Cf. KB-174 (Vol Positioning Current Read). Calibration anchor for any future vol-proxy reading. Proxy-scale ≠ OTC RR — already flagged in STATUS Jun 1; promoting that caveat to durable KB. Will likely need a `fxy-proxy-v2` revision before this row retires.
+```
+
+**Rationale:** Jun 2 boot surfaced an apparent data anomaly in the auto-pulled vol feed — ATM IV reading 1.56% (Jun-18) and 0.39% (Sep/Dec) is implausible mid-June BOJ window pricing. SAM is reading sign-only and has flagged level as suspect in MEMORY NEXT SESSION #9 ("vol-proxy recalibration now urgent"). The caveat is durable (it's a methodology fact about `fxy-proxy-v1`, not a single tape print) and reference-grade (next time the proxy prints weird, this row is the lookup). Gate test: Durable ✅ (methodology, not telemetry) / Reference-grade ✅ / Not in KB ✅ (KB-174 covers the LIVE read pointer but not the proxy-failure mode) / Not tsv-territory ✅ (this is interpretation of the tsv, not the tsv data itself) / Thesis-relevant ✅ (vol read feeds 3-of-3 convergence read, position decisions). Conservative grade B2 — proxy methodology not yet primary-source documented.
+
+*(KURA judgment-call note: this is borderline at the "Framework" category since it shades into "process/calibration." Routed it as Framework KB row rather than auto-memory because it's a fact about a specific SAM tool, not a transferable agent-cross-cutting lesson. SAM may prefer to push it to auto-memory or to a `scripts/README.md` instead — flag for SAM call.)*
