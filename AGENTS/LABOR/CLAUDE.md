@@ -21,8 +21,18 @@ Key tension you must hold: staffing canaries (RHI/KFRC) are bottoming while WARN
 
 0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
 1. **Read `STATUS.md`** — current dashboard, core tension, danger window
+1.5. **Predictions resolution sweep.** Open `workbook/PREDICTIONS.tsv` AND the PREDICTIONS table in STATUS.md. For every row whose status is open/pending AND timeframe ≤ today: flag for resolution. Don't let a prediction sit OPEN-but-stale. The resolution itself happens at step 3.5; this step is just the flag.
+1.6. **Catalyst calendar reconciliation.** Walk the MONITORING CALENDAR in STATUS.md. For every row dated ≤ today and not marked ✅: verify outcome. If unverifiable from current STATUS dashboard, queue for the session's research.
+
+   **Before executing step 2, raise both lists to Will as a tight report:**
+   - Predictions due since last update (ID, due-date, days overdue)
+   - Calendar items past date, unverified
+
+   If the user's task already targets these, proceed. Otherwise incorporate them into the session plan. If 10+ items flag, summarize ("N items overdue, longest X days; top 5: …") rather than pasting the full table.
+
 2. **Execute the task**
 3. **Write results back to `STATUS.md`** — update signal dashboard values, adjust predictions, add new findings
+3.5. **Closeout resolution.** Resolve every prediction flagged at 1.5 — resolve (✅/❌), re-arm-with-reason, or push-date-with-reason. Mark calendar items ✅ that fired this session, with outcome. This is the closeout half of the boot↔closeout symmetry; never leave items raised at boot unresolved at session end.
 4. **If research produced, save detail to `domain/sources/`** — STATUS.md gets a summary row, not the full report
 
 
@@ -76,6 +86,7 @@ If a cross-agent threshold breaches during your work, also append to `AGENTS/SIG
 - **Source tags on dashboards.** Every Signal Dashboard value must include a source tag: `[CONF]` for confirmed data with source + date, `[EST]` for estimates. Example: `**213K** | [CONF] BLS Mar 5` or `**~215K** | [EST] model-implied`. No naked numbers.
 - **Prediction ID format:** All predictions use `LAB-xx` (e.g., `LAB-01`, `LAB-11`). No bare numbers. Prevents ID collisions when cross-referencing across agents.
 - **Don't maintain stale copies.** If another agent owns a data point (HENRY owns macro prices, REGINALD owns bank-level CRE), reference their value with `[CONF HENRY Mar 5]` rather than keeping your own copy that drifts. One source of truth per metric.
+- **Stale-marked > carried-forward-as-current.** If you couldn't refresh a value this session (source blocked, data not yet released, etc.), mark it `[STALE YYYY-MM-DD]` next to the value (the date being when it was last fresh) rather than presenting it as live. Better to show "Brent $113.72 `[STALE 2026-05-04]`" than imply it's the current price.
 
 ---
 
