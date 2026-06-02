@@ -8,6 +8,32 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
+## 2026-06-02 (AM) — KOYOMI spec amended: BASELINE AUDIT (step 2a) + CALIBRATION decline-memory
+
+**Trigger:** Run-4 surfaced ~months-old structural exclusion in CATALYSTS.tsv — prior runs had cherry-picked super-long JGB auctions (30Y/20Y/40Y) and silently dropped 2Y/5Y belly/front. Gap only caught because Will + SAM directed KOYOMI to *investigate* the Jun 2 10Y miss vs just backfill it. Root cause: spec's add-upcoming rubric biased toward extending-from-precedent rather than re-baselining-against-source.
+
+**Amendment (developed via teams-mode SendMessage round-trip with KOYOMI agent `aa47880ebecec2ad7`):**
+- **New step 2a in § THE JOB** — propose-only baseline audit, fires on (i) monthly: first run of new calendar month → full audit; (ii) post-miss: SAM flags resolved event absent from forward TSV → release-class audit. Skip if neither triggers.
+- **New § BASELINE AUDIT subsection** — universe table (MOF JGB all tenors, BOJ MPM, FOMC, Tokyo+National CPI, GDP, trade balance, Tankan, US CPI; excludes weekly auto-pulled telemetry MOF ITS + CFTC COT), execution rubric (read CALIBRATION first → fetch source → diff vs TSV → propose delta to PENDING → append confirmed dates to RELEASES.md).
+- **Decline-memory mechanism** — KOYOMI reads `KOYOMI_MEMORY ## CALIBRATION "Declined release classes"` (read-only; SAM owns) before each audit, excludes declined classes from proposal list. Convergence over time (declined classes don't nag monthly); reactivation when SAM clears CALIBRATION entry.
+- **READ-SET item 7a** — MOF JGB auction calendar fetch on audit triggers only (not routine).
+- **RELEASES.md write extension** — every source-fetched date that becomes a TSV-proposal row must also be appended to Confirmed dates (net positive RELEASES.md contribution regardless of SAM apply decision).
+- **DONE guard + RETURN block line** — BASELINE AUDIT line added to return template; DONE doesn't require audit if trigger didn't fire.
+
+**Files touched:**
+- `AGENTS/SAM/docket/KOYOMI.md` — step 2a inserted; § BASELINE AUDIT added; READ-SET item 7a; RELEASES.md OWNED-WRITE-SET bullet extended; DONE bullet added; RETURN block line added.
+- `AGENTS/SAM/docket/KOYOMI_MEMORY.md` — Run-4 "coverage policy" PENDING cleared (self-resolved by amendment); Run-4 "FOMC Jul 28-29 promote" PENDING cleared (Will approved promotion → applied to TSV/CALENDAR); Run-4 "MOF schedule full-coverage default" STANDING MONITORS bullet removed (redundant per spec).
+
+**Not done yet (propose-to-seed):** `KOYOMI_MEMORY.md ## CALIBRATION` section. The amendment references it but doesn't pre-scaffold an empty section. SAM seeds when first declination happens — structure proposed by KOYOMI: `### Declined release classes` (date + reason per line) + optional `### Accepted proposals` (pattern-tracking). Placement: between `## STANDING MONITORS` and `## NEXT RUN HINTS`.
+
+**Boot-impact:** none for SAM. KOYOMI runs gain monthly audit cycle (~5-10 min) starting first run of July 2026; post-miss trigger is reactive only. No SAM boot doc changes.
+
+**Calibration / process lessons (transferable, candidates for auto-memory):**
+- **Teams-mode SendMessage earns when task is iterative + context-leveraging** — KOYOMI held its own spec + proposal + memory in-context across two rounds; re-spawning would have re-paid the prime cost twice. Synchronous spawn appropriate for batch propose-only single-turn work; SendMessage appropriate for refinement loops. Bias caught: defaulted to "act now" mental model the first round, missed teams-mode value — corrected on round 2.
+- **Sub-agent specs need baseline-scope audits, not just incremental-update rubrics.** Any sub-agent whose job is "maintain a set" (catalysts, KB rows, trade triggers) is at risk of extending-from-precedent rather than re-baselining-against-source. The propagation bug is silent — only surfaces on direct investigation.
+
+---
+
 ## 2026-05-29 (PM) — boot audit re-run + boot.py fetch-timeout fix (CPI/MOF/CFTC)
 
 **Trigger:** Will-requested re-audit of the boot process after the day's doc changes. Two classes of finding — doc staleness (fixed) and a boot.py script-failure root cause (fixed).

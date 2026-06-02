@@ -52,9 +52,7 @@ State file for the docket-steward sub-agent. Spec is in [`KOYOMI.md`](KOYOMI.md)
 ## PENDING (escalations SAM hasn't yet resolved)
 
 - **Phase 2 Watch section reframe** may be needed if MOU walks back this week (Trump-Khamenei reset → Brent collapse → Phase 2 re-engages). Pre-emptive flag from Run 3 escalation #2. SAM-domain trigger. *(Still pending Jun 2; no MOU walk-back observed today; Brent live in STATUS.)*
-- **CATALYSTS.tsv coverage policy (NEW):** Run 4 discovered that prior runs cherry-picked super-long JGB auctions and dropped 2Y/5Y. KOYOMI now defaults to **full MOF schedule** (all tenors). If SAM wants to suppress non-stress-relevant tenors (e.g., 2Y/5Y when carry-thesis-irrelevant), set explicit policy. Otherwise: comprehensive = the default going forward.
 - **Jul Tankan Q2 date (Jul 1)** — used cadence rule (1st business day of July; March Tankan released Apr 1 2026); could not find an explicit BOJ Tankan release-schedule page that confirms the date forward. Surface to SAM in case a closer-to-date check finds a different date. Non-blocking — directionally correct.
-- **FOMC Jul 28-29** added to RELEASES.md as confirmed but NOT to CATALYSTS.tsv (non-SEP meeting, no dot plot). SAM call whether to promote.
 
 ---
 
@@ -64,7 +62,6 @@ State file for the docket-steward sub-agent. Spec is in [`KOYOMI.md`](KOYOMI.md)
 - **Recurring weekly catalysts** (CFTC release Fri/Mon) — not in TSV (handled by `cftc_jpy.py` auto-pull). Surface if cadence changes.
 - **Post-meeting catalyst-window refill** — after each major catalyst resolves, the forward horizon thins; pull next-month's events from RELEASES.md cadence rules.
 - **MOF auction calendar alteration page** — `auction/calendar/26MMae.htm` (e.g., 2606ae.htm) records mid-month tenor-band changes. Check at month boundary; current Jun 2026 alteration was a liquidity-enhancement tenor-band tweak (15.5-39 vs 11-39, then back), no date moves.
-- **MOF schedule full-coverage default** — KOYOMI now mirrors the full MOF auction schedule (all tenors) in TSV unless SAM sets a suppress policy. See PENDING.
 
 ---
 
