@@ -1,6 +1,6 @@
 # SAM CALENDAR
 
-**Last Updated:** 2026-06-01 (Iran MOU effectively broken — Geopolitical Watch + Intervention Watch updated; Phase 2 Watch reframed) | **View:** Forward-looking only. Past events pruned weekly.
+**Last Updated:** 2026-06-02 (KOYOMI Run 4 — Jun 2 10Y auction backfilled to RECENTLY RESOLVED; Jun 23 5Y / Jun 30 2Y TSV gaps filled from MOF Jun calendar; Jul auction window seeded from MOF Jul calendar; BOJ Jun-MPM / FOMC Jun-MPM / BOJ Jul-MPM / FOMC Jul-MPM dates verified at source; May 26 ESR row pruned per >1wk rule) | **View:** Forward-looking only. Past events pruned weekly.
 
 ---
 
@@ -13,8 +13,10 @@
 | 🟠 Jun 10 (Wed) | **JGB 30Y auction** | BTC ratio, tail | Weak demand (BTC <2.5x / wide tail) = J-ICS lifer long-end abandonment confirmed (SAM-26 mechanism). (See STATUS for live 30Y yield.) | SAM, LIQUID |
 | **🟠 Jun 18 (Thu)** | **May trade balance — PHASE 1 STABILITY LAG-TEST** (per PROME 5/26 forward-question) | Volume recovery vs cost-side: did ME crude flows normalize? did petroleum input costs rise? | **Routing:** (a) deficit re-opens with Brent <$100 → 🟠 Phase 1 mechanism back online (inversion was transient); v1.5 CHANGELOG candidate to relabel inversion as one-month spike. (b) surplus persists with ME volumes recovering → 🟢 inversion is structural; v1.4 finding confirmed durably. (c) surplus persists but ME volumes still depressed → 🟡 inconclusive; defer to June TB (~July 16-17). | SAM, BRENT, HAWK |
 | 🟡 Jun 19 (Fri) | Japan National May CPI | Core / core-core vs April (1.4 / 1.9) | Post-BOJ; confirms or breaks dovish trajectory. Subsidy-taper passthrough watch. | SAM, HENRY |
+| 🟡 Jun 23 (Tue) | JGB 5Y auction | BTC ratio, tail | Belly demand; 5Y is the rate-expectation barometer (post-BOJ forward path read) — off the J-ICS-abandonment axis, clean rate-expectation tell | SAM, LIQUID |
 | 🟡 Jun 25 (Thu) | JGB 20Y auction | BTC ratio, tail | Insurer demand test; broadening of buyer strike to 20Y = escalation (Apr 14 20Y was strong, BTC 4.82x — strike was 30Y/40Y-specific) | SAM, LIQUID |
 | 🟡 Jun 26 (Fri) | Tokyo June CPI | Core / core-core trend | Advance read for July national; subsidy-taper passthrough | SAM, HENRY |
+| 🟡 Jun 30 (Tue) | JGB 2Y auction | BTC ratio, tail | Front-end demand; sensitive to BOJ near-term path (first 2Y post Jun-16 MPM) | SAM, LIQUID |
 
 ## MID-JUNE — DOMINANT REMAINING CATALYST (v1.5 single-path)
 
@@ -24,6 +26,20 @@
 | Jun 16 | 🟡 Sato joins BOJ board | Hawk→dove swap | Medium-term political risk (post-June) | SAM |
 | Jun 16-17 | BOJ interim QT assessment | Pace adjustment | Potential super-long-specific operation if JGB stress re-engages | SAM, LIQUID |
 | **🔴 Wed Jun 17** | **FOMC rate decision + dot plot — SECONDARY-PATH CATALYST** | Rate decision, SEP dots, Powell presser | Dovish dots → USDJPY down independent of BOJ; the OTHER half of the carry trade. **Lands ~24h after BOJ — the backup read if BOJ disappoints Jun 16** (v1.5 Fed-cut secondary path; see THESIS INDEPENDENT CATALYST). Statement 2pm ET. | **ALL** |
+
+## EARLY JULY — POST-MEETING FOLLOW-ON WINDOW (seeded Jun 2 from MOF Jul calendar + BOJ/Fed schedules)
+
+| Date | Event | What to Check | Threshold / Signal | Who Cares |
+|------|-------|---------------|-------------------|-----------|
+| 🟠 Wed Jul 1 | Tankan Q2 (June survey) | Large-mfg DI + capex plans + price expectations | Hawkish if DI firm + capex strong + price expectations sticky; supports post-Jun-16 hike trajectory. *(Convention: 1st business day of July; March Tankan released Apr 1 2026 — verify at BOJ Tankan page closer to date.)* | SAM, HENRY |
+| 🟡 Thu Jul 2 | JGB 10Y auction | BTC ratio, tail | First post-BOJ-meeting 10Y demand read; hike-priced or not | SAM, LIQUID |
+| 🟠 Tue Jul 7 | **JGB 30Y auction** | BTC ratio, tail | First post-BOJ super-long auction; J-ICS lifer long-end abandonment continuation test (SAM-26 mechanism re-test) | SAM, LIQUID |
+| 🟡 Thu Jul 9 | JGB 5Y auction | BTC ratio, tail | Belly demand post-BOJ; reflects forward-rate-path repricing | SAM, LIQUID |
+| 🟡 Tue Jul 14 | JGB 20Y auction | BTC ratio, tail | Insurer demand test continuing; watch for strike broadening to 20Y | SAM, LIQUID |
+| 🟠 Wed Jul 22 | **JGB 40Y auction** | BTC ratio, tail | Ultra-long demand; J-ICS abandonment most acute at 40Y (May 27 BTC 2.702 was soft) — watch for further deterioration | SAM, LIQUID |
+| 🟠 Wed Jul 29 | **FOMC rate decision — July (non-SEP)** | Rate decision + Powell presser | No dot plot (non-SEP); read presser for hint on Sep SEP path. US leg of carry trade; lands ~2 days before BOJ Jul 31. | **ALL** |
+| 🟡 Thu Jul 30 | JGB 2Y auction | BTC ratio, tail | Front-end demand; reads BOJ near-term path; lands same day as BOJ Jul MPM Day 1 | SAM, LIQUID |
+| 🔴 Fri Jul 31 | **BOJ MPM — July meeting** | Rate decision + Outlook Report | Follow-on to Jun 16 hike (if delivered); pace assessment. *(BOJ confirmed Jul 30-31 dates; Day 2 decision = Jul 31.)* | **ALL** |
 
 ---
 
@@ -88,10 +104,10 @@
 
 | Date | Event | Outcome |
 |---|---|---|
-| Tue May 26 | ✅ **Sumitomo Life FY2025 ESR** (logged retrospectively May 27) | **197% (vs 178%, ↑+19pt)** — ESR INCREASED. No M&A waterfall; stable ops + equity rally + Dearborn Life partial. Foreign bonds +¥543B (+6.2%); total foreign securities +¥1.11T (+9.3% to 35.5% of GA). Domestic bonds -¥505B. Symetra in-force +23.7%. **3-of-3 Big 3 confirm v1.5 downgrade.** |
-| Tue May 26 | ✅ **Nippon Life FY2025 ESR** | **195% (vs 222%, -27pt)** — driver Resolution Life $10.6B M&A (-28pt waterfall). Foreign securities unrealized GAIN +¥3.99T (+¥909B YoY). Market priced as capital action (USDJPY 158.95 → 159.24). SAM-25 TRUE-in-letter, FAILED-in-spirit. |
-| Tue May 26 | ✅ **Meiji Yasuda FY2025 ESR** | **208% (vs 216%, -8pt)** — inside 200-219% manageable band. JGB unrealized loss -¥2.16T (worse by ¥776B); Foreign securities unrealized GAIN +¥709B. Stancorp leaning INTO US via Allstate. |
 | Thu May 28 | ✅ **Tokyo May CPI** | DOVISH MISS — core-core **1.6%** (−30bp vs Apr 1.9; 7th straight decline; breaches 1.9% threshold). BUT market subsequently repriced June hike UP (siding with wage/activity mechanism over CPI threshold) — see May 31 below. National May print Jun 19 (post-BOJ). |
 | Fri May 29 | ✅ **April activity data** | HAWKISH counterweight — IP +0.8% MoM (vs −0.4% exp); retail sales +2.1% YoY (vs +1.4% exp); unemployment steady. Real economy firm; quantity-side counter to soft CPI. |
 | Sat May 30 | ✅ **CFTC JPY weekly (May 26 data)** | **-114,667 — BROKE -102K cycle peak (4th build week, +27K new shorts).** Fuel load growing into June, not covering. |
 | Sun May 31 | ✅ **Market repriced June BOJ hike** | Polymarket 88.2% / swaps ~87.5% — sustained ~60% (May 22) → 88% repricing, held through both CPI misses. **SAM-21 marked ~50% → 70%.** Market siding with wage/activity mechanism over CPI threshold. |
+| Tue Jun 2 | ✅ **JGB 10Y auction** (Issue #382 reopening) | **ORDERLY** — BTC **3.530x**, tail **0.7bp**, WA yield **2.649%**. Mild demand soften vs May 12 same issue (BTC 3.904x, tail 0.4bp, WA 2.540%) — directionally consistent with rising-yield mark-up + pre-BOJ caution, not a stress print. *Note: was missing from forward CATALYSTS.tsv; KOYOMI Run 4 gap fix — workbook captured the result independently.* |
+
+*Pruned this run (Jun 2, >1wk rule): Tue May 26 Big 3 ESR window (Nippon 195% / Meiji 208% / Sumitomo 197%) — narratives live in TIMELINE.md (May 26 RESOLVED entries).*

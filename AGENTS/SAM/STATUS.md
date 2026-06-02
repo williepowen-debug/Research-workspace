@@ -1,12 +1,14 @@
 # SAM STATUS
 
-**Signal Status:** 🟠 v1.5 — **MARKET REPRICED JUNE HIKE TO 88% (May 31, holds)** → SAM-21 **70%** | June BOJ CLEAR base case (mkt weighting activity beat + 3-dissent split over soft CPI) | CHANNEL 1 DEFERRED STRUCTURAL BACKSTOP (Big 3 ESR 3-of-3) | USD/JPY **159.64** (Mon Jun 1, +0.36y vs Fri) | FXY **$57.51** (−0.19%) | CFTC **-114,667** (May 26 — +27K new shorts, BROKE -102K cycle peak; 4th build week) | JGB 10Y **2.657%** | JGB 30Y **3.859%** | **🆕 Brent $94.78 (+4.02%) — Iran/MOU friction re-engaging?** | **🆕 FXY ATM IV jumped 8.03 → 10.52% (+2.49v) into BOJ window** | **Position: 13 shares + 1 Jun-18 $58C — unchanged. Sep $60 calls NOT warranted under v1.5 single-path.** | **Next catalyst: 🔴🔴 BOJ Jun 16 = 11 trd days.** | **Last Updated:** 2026-06-01 ~13:40 ET — Monday boot (first live tape since Fri close)
+**Signal Status:** 🟠 v1.5 — **JUNE HIKE PRICING HELD (Polymarket 87.6%, Jun 2 intraday)** → SAM-21 **70%** | June BOJ CLEAR base case (mkt weighting activity beat + 3-dissent split over soft CPI) | CHANNEL 1 DEFERRED STRUCTURAL BACKSTOP (Big 3 ESR 3-of-3) | **USD/JPY 159.92 (Tue Jun 2 12:15 ET — 0.05% from 160 hard trigger; +0.36% on day)** | FXY **$57.42** (−0.16%) | CFTC **-114,667** (May 26 — +27K new shorts, BROKE -102K cycle peak; 4th build week; next release Sat Jun 6) | JGB 10Y **2.682%** (+2.5bp) | JGB 30Y **3.863%** | **Brent $95.67 (+0.73% on top of Mon +4.02%) — MOU break NOT walked back overnight** | **🆕 10Y JGB auction Jun 2 ORDERLY (BTC 3.53x, tail 0.7bp)** | **Position: 13 shares + 1 Jun-18 $58C — unchanged. Sep $60 calls NOT warranted under v1.5 single-path.** | **Next catalyst: 🔴🔴 BOJ Jun 16 = 10 trd days.** | **Last Updated:** 2026-06-02 ~12:15 ET — Tue boot (intraday verification, no mark changes)
 
 ---
 
-## 🔴 STATE OF PLAY (Jun 1 — Iran MOU effectively broken; #3 zone REACTIVATED; Fed-cut backup OFF)
+## 🔴 STATE OF PLAY (Jun 2 — single-path holds; USDJPY pressing 160; MOU break sticking)
 
-**Single-path BOJ base case held (mkt 88% / SAM 70%); Iran MOU broke today reactivating intervention #3 zone and Phase 1 oil pressure; Fed-cut secondary engine now reads ~dead at Jun 17 (FOMC >97% hold, <10% 2026 cut odds). v1.5 is more single-path than we framed it.**
+**Tue Jun 2 intraday verification: BOJ pricing held (Polymarket 87.6% vs Mon 88.5% — within noise); USDJPY drifted to 159.92 (0.05% from 160 hard trigger) — MOF cabling window LIVE before T-2 blackout ~Jun 13; Brent +0.73% on top of Mon +4.02% confirms no Iran walk-back overnight; 10Y JGB auction orderly (BTC 3.53x, tail 0.7bp) — no domestic supply-stress story compounding. No mark changes, no position changes.**
+
+### Mon Jun 1 baseline (carried forward):
 
 - **🆕 IRAN MOU EFFECTIVELY BROKEN (Jun 1):** Tasnim reported Tehran suspended message exchanges via mediators + threatened to "completely block" Hormuz + open Bab el-Mandeb front. **WTI +7%, Brent +4.02% to $94.78 today.** Pakistan-mediated 60-day MOU framework (Trump-pending) hit hard setback — not formally collapsed but document exchange halted, fresh US-Iran clashes near Hormuz. **SAM-23 (#3 intervention) re-rates ~55% → ~72%** — MOU optimism was the basis for the May 25 mark-down; that basis just inverted.
 - **🆕 INTERVENTION #3 ZONE REACTIVATED:** USDJPY **159.64** back inside the 159.50+ trigger zone (was 159.27 Fri close). Katayama (May 29) verbal: "decisive action against volatility or speculative movement." Bessent-Katayama-Himino alignment cabling **hike + intervention combo** for Jun 16. Pre-meeting blackout starts ~Jun 13 (T-2) — this week is the cabling window. 160 line is the hard intervention trigger.
@@ -20,36 +22,38 @@
 
 ---
 
-## MARKET DATA — JUN 1 ~13:40 ET (Monday boot — first live tape since Fri close)
+## MARKET DATA — JUN 2 ~12:15 ET (Tue boot — intraday verification)
 
 | Metric | Value | Source | Status |
 |--------|-------|---------|--------|
-| USD/JPY | **159.64** | Mon Jun 1 live | 🟠 +0.36y vs Fri (+0.24%); 0.2% from 160 — back inside #3 trigger zone |
-| FXY | **$57.51** | Mon Jun 1 live | 🟢 position **−1.4% vs $58.32 avg cost** (13 sh, ≈−$10.5 unrealized); −0.19% vs Fri |
-| JGB 10Y | **2.657%** | MOF May 29 | 🔴 well above 2.40% stress threshold; −3.5bp vs May 28 |
-| JGB 30Y | **3.859%** | MOF May 29 | 🟠 14bp below 4.000% breach (−3.7bp vs May 28). SAM-26 still tracking FALSE. |
-| JGB 40Y | 3.778% | MOF May 29 | 🟠 −3.6bp vs May 28 |
-| EUR/JPY | 185.68 | Mon Jun 1 | 🟢 flat |
-| GBP/JPY | 214.92 | Mon Jun 1 | 🟢 +0.32% |
-| AUD/JPY | 114.36 | Mon Jun 1 | 🟢 flat |
-| 🆕 Brent | **$94.78** | Mon Jun 1 live | 🟠 **+4.02% (+$3.66) — sharp re-acceleration. Iran/MOU friction re-engaging? Phase 2 paused, watch for MOU collapse headline.** |
-| CFTC JPY net | **-114,667** (May 26) | CFTC May 30 release | 🔴🔴 4th straight build week; BROKE -102K recent-cycle peak (63.7% of Jul-2024 -180K peak). +27,152 NEW shorts WoW. Next release Sat Jun 6. |
+| USD/JPY | **159.92** | Tue Jun 2 ~12:15 ET | 🔴 **0.05% from 160 hard trigger; +0.36% on day. Katayama "decisive action" verbal at 159.3+ LIVE; MOF cabling window before T-2 blackout (~Jun 13).** |
+| FXY | **$57.42** | Tue Jun 2 ~12:15 ET | 🟢 position **−1.5% vs $58.32 avg cost** (13 sh, ≈−$11.7 unrealized); −0.16% on day |
+| JGB 10Y | **2.682%** | MOF Jun 1 publication | 🔴 well above 2.40% stress threshold; **+2.5bp vs May 29** |
+| JGB 30Y | **3.863%** | MOF Jun 1 publication | 🟠 14bp below 4.000% breach (+0.4bp vs May 29). SAM-26 still tracking FALSE. |
+| JGB 40Y | 3.800% | MOF Jun 1 publication | 🟠 +1.1bp vs May 29 |
+| 🆕 10Y JGB auction | **BTC 3.53x, tail 0.7bp, avg 2.649%** | MOF Jun 2 | ✅ **ORDERLY** — no domestic supply-stress story compounding the oil rebuild |
+| EUR/JPY | 186.01 | Tue Jun 2 | 🟢 +0.20% — broad-based yen weakness (not USD-specific) |
+| GBP/JPY | 215.46 | Tue Jun 2 | 🟢 +0.32% |
+| AUD/JPY | 114.88 | Tue Jun 2 | 🟢 +0.52% |
+| 🆕 Brent | **$95.67** | Tue Jun 2 ~12:15 ET | 🟠 **+0.73% on day, on top of Mon +4.02% — MOU break NOT walked back overnight. Phase 1 oil pressure continuing to rebuild.** |
+| CFTC JPY net | **-114,667** (May 26) | CFTC May 30 release | 🔴🔴 4th straight build week; BROKE -102K recent-cycle peak (63.7% of Jul-2024 -180K peak). +27,152 NEW shorts WoW. **Next release Sat Jun 6.** |
 | MOF LT-debt net | Net BUYING (May 17-23) | MOF | 🟢 no repatriation signal at weekly level |
 | MOF intervention total | ~¥10T ($63.5B) Apr 30 + May 6 | BoJ/BofA | 🔴 LARGEST SINCE 2022; no new (USDJPY now 159.64, inside #3 zone) |
 | Insurer hedge ratio | 44.4% (Mar 2025) | (14yr low) | 🔴🔴 |
-| FXY P/C ratio | 0.06x | Jun 1 boot.py | 🟢 Call-heavy (bullish) |
-| 🆕 FXY ATM IV (CVOL proxy) | **10.52%** (~17d, Jun-18) | Jun 1 fxy_options.py | 🟡 **+2.49v vs May 31 (8.03 → 10.52) — meaningful pre-catalyst vol pop. Market starting to price BOJ binary.** |
-| 🆕 FXY 25d RR (USDJPY-conv) | **−8.11** | Jun 1 fxy_options.py | ↓ even steeper FXY call skew vs May 31 (−7.81) = yen-strength convexity bid continuing to build (thesis-side). ⚠️ proxy scale ≠ OTC RR — read sign/trend, not absolute. |
+| FXY P/C ratio | 0.07x (Jun-18) | Jun 2 boot.py | 🟢 Call-heavy (bullish) |
+| FXY ATM IV (CVOL proxy) | **1.56%** print (~16d, Jun-18) | Jun 2 fxy_options.py | ⚠️ **OUTLIER vs Mon 10.52 — proxy calibration issue, not a real vol crush. Investigate (see KURA_MEMORY PENDING).** |
+| FXY 25d RR (USDJPY-conv) | **−38.62** (proxy) | Jun 2 fxy_options.py | ⚠️ Same proxy issue — flagged for KURA next run. Read DIRECTION not absolute. |
 | Tokyo May CPI | headline 1.4 / core 1.3 / core-core 1.6 | MIC May 28 | 🟠 dovish miss but market-overridden (see BOJ assessment). National May print Jun 19 (post-BOJ). |
 | Japan April CPI (national) | core 1.4 / core-core 1.9 | MIC May 22 | 🟠 soft band; SAM-27 CONFIRMED. |
 
-*Boot.py 26.1s, 9/9 green. Monday Jun 1 first live tape since Fri close.*
+*Boot.py 7.3s, 8/9 OK + FXY OI skip. Tue Jun 2 intraday verification.*
 
-**🆕 Notable moves this boot (Fri→Mon):**
-- **Brent +4.02%** ($91.12 → $94.78). Biggest move on the board. Iran/Hormuz MOU friction re-engaging? Check for MOU collapse headline — would reactivate intervention #3 zone (per CALENDAR Geopolitical Watch).
-- **FXY ATM IV +2.49v** (8.03 → 10.52). Vol pop into Jun 16 BOJ window with 17 cal days to expiry — market starting to price the binary.
-- **USD/JPY +0.36y** to 159.64 — back inside the 159.50+ #3 trigger zone (had been 159.41 mid-last-week, slipped to 159.28 Fri close).
-- **JGB curve eased 3-4bp across 10Y/30Y/40Y** on MOF May 29 publication — modest, opposite direction to oil move.
+**Notable Jun 2 deltas (Mon close → Tue mid-session):**
+- **USDJPY +0.28y** (159.64 → 159.92). Pressing 160 hard intervention trigger in real time. Mon intraday already tagged 159.75.
+- **Brent +$0.89** ($94.78 → $95.67, +0.94% on top of Mon's +4.02%). No Iran walk-back overnight.
+- **JGB 10Y +2.5bp** to 2.682% (Jun 1 publication). Modest back-up; 30Y/40Y also up 0-1bp.
+- **10Y JGB auction TODAY orderly** (BTC 3.53x, tail 0.7bp). Confirms domestic long-end is quiet despite oil rebuild — J-ICS mechanism not compounding.
+- **Polymarket BOJ Jun 16 hike: 87.6%** (vs Mon 88.5%, May 31 88.2%). Held; SAM-21 70% mark held; SAM-23 72% mark held.
 
 ---
 
