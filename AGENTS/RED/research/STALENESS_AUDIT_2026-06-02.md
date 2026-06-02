@@ -59,7 +59,7 @@ Remaining 12 active vectors (001/003/005/006/007/008/009/010/012/013/014/015/021
 
 ## C. FLAGGED FOR WILL — touch RED's documented charter, not changed unilaterally
 
-1. **Two divergent PREDICTIONS files.** `workbook/PREDICTIONS.tsv` (Jun 2, canonical, has RED-16→19 scored) vs `thesis/PREDICTIONS.tsv` (May 17, stale, predates RED-16/19 — different schema/size). CLAUDE.md "WHAT YOU OWN" lists *both*, which is the root of the drift. **Recommend:** designate workbook/ canonical; archive or convert thesis/PREDICTIONS.tsv to a pointer; update CLAUDE.md. (Not done — restructuring a documented file is a Will call.)
+1. ~~**Two divergent PREDICTIONS files.**~~ **✅ RESOLVED S16 (Will-directed).** Investigation found `thesis/PREDICTIONS.tsv` was worse than stale — the unreconciled pre-ML-RED-068 fork with *contradictory IDs* (May predictions mis-numbered RED-11–14, conflicting with canonical RED-16–19; missing the Apr-18 batch + RED-15–19). Retired: archived verbatim → `archive/superseded_workbook/PREDICTIONS_thesis_unreconciled_PRE-ML-RED-068.tsv`; breadcrumb `thesis/PREDICTIONS_README.md`; CLAUDE.md updated (workbook sole canonical); WALTER pinged (RED-TO-WALTER-20260602-001) to fix CROSS_REFS cache. See MAINTENANCE.md.
 2. **RED_SKELETON.md references.** MEMORY says it was DELETED Apr 5; a copy survives in `archive/RED_SKELETON.md` (fine). But CLAUDE.md still lists it as a live reference in 3 places (lines 146/190/271). **Recommend:** prune those CLAUDE.md references or relabel as "archived." (Not done — CLAUDE.md is RED's charter.)
 3. **thesis/TIMELINE.md** (Apr 20) — likely stale (position/expiry mismatch analysis predates the Jun stack capitulation + channel migration). Worth a refresh pass when time permits.
 

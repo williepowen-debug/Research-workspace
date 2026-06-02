@@ -34,6 +34,21 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## 2026-06-02 (Session 16, cont.) — retired the duplicate/contradictory `thesis/PREDICTIONS.tsv`
+
+**Trigger:** Will — "take a look at Predictions." Investigation of the dual-file flag (audit §C item 1).
+
+**Finding:** `thesis/PREDICTIONS.tsv` wasn't just stale — it was the **unreconciled pre-ML-RED-068 fork** with *contradictory IDs*. It numbered the May predictions RED-11–14 (conflicting with canonical, where RED-11–14 = the Apr-18 batch and the May predictions = RED-16–19), and was missing the Apr-18 batch + RED-15–19 entirely (14 rows, ragged 6/7-col, last touched May 17). The Session-14 ML-RED-068 cleanup reconciled STATUS/MEMORY/CALENDAR but **missed this file.**
+
+**Fix (lossless):**
+- `git mv thesis/PREDICTIONS.tsv → archive/superseded_workbook/PREDICTIONS_thesis_unreconciled_PRE-ML-RED-068.tsv` (verbatim preserved). Verify-before-archive: confirmed `workbook/PREDICTIONS.tsv` is a complete superset (RED-01–19, uniform 10-col) and the only genuinely-unique content (BRENT v2.0 challenge-rationale phrasing) lives in `CHG-RED-024` / `challenges/BRENT_V2_CHALLENGE.md`.
+- New breadcrumb `thesis/PREDICTIONS_README.md` — points to the canonical file + warns against re-forking.
+- **`CLAUDE.md` updated:** removed `thesis/PREDICTIONS.tsv` from the Thesis-Directory table; added a callout that `workbook/PREDICTIONS.tsv` is sole canonical.
+
+**Resolves:** charter-flag item 1 (dual PREDICTIONS). Remaining flagged items: RED_SKELETON refs in CLAUDE.md; `thesis/TIMELINE.md` staleness.
+
+---
+
 ## Pre-S16 (retroactive note)
 
 Before S16, structural and analytical changes were both logged in `thesis/CHANGELOG.md`. Earlier structural history (folder reorganizations, the Apr 5 RED_SKELETON deletion, workbook 7-col→14-col migration, the May WALTER LIAISON file instantiations) lives in `thesis/CHANGELOG.md`, `MEMORY.md` "Cleanup Done" notes, and git history. This file starts the clean separation.
