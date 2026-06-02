@@ -118,7 +118,7 @@
 - DB Asset Allocation: financials positioning -1.5 to -2z vs consensus +20-40% earnings. Squeeze risk on beat.
 
 ## Cleanup Done (Apr 5)
-- RED_SKELETON.md — DELETED. VX.tsv is the live counter-evidence system. Git history has the old file.
+- RED_SKELETON.md — RETIRED Apr 5 (deleted from active root; Feb-12-vintage copy retained at `archive/RED_SKELETON.md`). VX.tsv is the live counter-evidence system. CLAUDE.md "live reference" mentions cleaned up S16 (6/2) — it had still been cited as rebuildable/for-deep-work; now marked retired-archive-only.
 - counter-evidence/ — Cleaned. Only KRE_BULL_CASE.md retained (substantive 18K analysis). CARL/SAM logs deleted.
 - competing-hypotheses/ — DELETED. Probabilities tracked in thesis/CHANGELOG.md. Git history preserved.
 - Debate framework: HY OAS debate (Apr 5) is the new model. File-based, structured, produced concrete position changes.

@@ -49,6 +49,21 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## 2026-06-02 (Session 16, cont.) — cleaned up retired `RED_SKELETON.md` references in CLAUDE.md
+
+**Trigger:** Will — "look at the RED_SKELETON references" (audit §C item 2).
+
+**Finding:** `RED_SKELETON.md` was retired Apr 5 (superseded by `workbook/VX.tsv`), but `CLAUDE.md` still cited it as a **live** reference in 3 places — "Reference for deep work," "Rebuild when time permits," and an anti-pattern — risking a future RED consulting or rebuilding a **Feb-12-vintage** file (per-agent counter-evidence registry incl. a stale agent roster: CREED, old MARCO framing). Verified VX.tsv (per-target vectors) fully supersedes its counter-evidence content; nothing unique to salvage.
+
+**Fix:**
+- `CLAUDE.md`: removed the `RED_SKELETON.md` row from the WHAT YOU READ table; removed the "Reference (not boot-critical)" subsection and re-filed it under **Archive** as `archive/RED_SKELETON.md` **RETIRED** (do-not-rebuild); generalized the anti-pattern to "don't trust stale registry data — verify VX/KB `Last_Reviewed`/`Stale_By`."
+- `MEMORY.md`: corrected the Apr-5 "DELETED" note (archived copy retained; CLAUDE.md mentions cleaned up).
+- `archive/RED_SKELETON.md` itself kept as historical record (correctly placed).
+
+**Resolves:** charter-flag item 2. **Remaining flagged item:** `thesis/TIMELINE.md` staleness (Apr 20, predates channel-migration).
+
+---
+
 ## Pre-S16 (retroactive note)
 
 Before S16, structural and analytical changes were both logged in `thesis/CHANGELOG.md`. Earlier structural history (folder reorganizations, the Apr 5 RED_SKELETON deletion, workbook 7-col→14-col migration, the May WALTER LIAISON file instantiations) lives in `thesis/CHANGELOG.md`, `MEMORY.md` "Cleanup Done" notes, and git history. This file starts the clean separation.

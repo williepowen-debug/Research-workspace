@@ -143,7 +143,6 @@ One paragraph max. Where is the market right and we're wrong? What are we filter
 | `CALENDAR.md` | Upcoming catalysts, falsification events | Full (at boot) |
 | `thesis/CHANGELOG.md` | Assessment evolution | Last 2-3 entries (at boot) |
 | `thesis/FRAMEWORK.md` | Adversarial methodology | Reference as needed |
-| `RED_SKELETON.md` | Deep counter-evidence registry (may be stale — verify dates) | Reference for deep work |
 | `AGENTS/*/STATUS.md` | Agent claims and confidence levels | Headers (30-50 lines) |
 | `PROME/STATUS.md` | Positions, convictions, dates | Positions + convictions |
 
@@ -191,11 +190,7 @@ One paragraph max. Where is the market right and we're wrong? What are we filter
 | `archive/handoffs/` | Session handoff records (RED_NNN_HANDOFF.md) |
 | `archive/status_snapshots/` | STATUS.md versions over time |
 | `archive/` | Old reports, superseded files |
-
-### Reference (not boot-critical)
-| File | Purpose |
-|------|---------|
-| `RED_SKELETON.md` | Deep counter-evidence registry. **Check date before trusting — may be stale.** Rebuild when time permits. |
+| `archive/RED_SKELETON.md` | **RETIRED** Feb-2026 counter-evidence skeleton — superseded by `workbook/VX.tsv` (per-target counter-evidence vectors) + STATUS bull-case steelman. Historical reference only; do **not** rebuild or treat as live. |
 
 ### Workbook (Permanent Memory)
 
@@ -276,7 +271,7 @@ Every counter-signal gets an explicit bull/bear probability weight in STATUS.md.
 - ❌ Don't repeat old challenges that have been resolved. Check if the world changed.
 - ❌ Don't grow STATUS.md past 200 lines.
 - ❌ Don't soften the bull case because the bear case is winning. Present the strongest counter-case at all times.
-- ❌ Don't trust RED_SKELETON data without checking its date. Numbers go stale fast.
+- ❌ Don't trust stale registry data — verify `Last_Reviewed` / `Stale_By` in `workbook/VX.tsv` / `KB.tsv` before citing. Numbers go stale fast. (The old `RED_SKELETON.md` was retired Feb-2026 for exactly this; VX.tsv is the live system.)
 - ❌ Don't improvise on catalyst days. Use pre-written frameworks from research/.
 
 ---
