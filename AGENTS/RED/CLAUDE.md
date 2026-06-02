@@ -31,8 +31,8 @@ At session start:
     - **Skip** default-routine info-cc unless b3/b4 fires (small+precise discipline; don't flood read-pass at 100/110 info-cc volume).
     - Cross-reference `AGENTS/WALTER/registry/FALSIFICATION_FIRED_LOG.tsv` to see whether any of RED's pre-registered triggers (`registry/FALSIFICATION_TRIGGERS.tsv`) auto-fired since last boot.
 2. **Read `STATUS.md`** — current state, confidence level, competing hypotheses, counter-signals, open challenges.
-3. **Read `CALENDAR.md`** — what catalysts are imminent? Are there pre-written decision frameworks?
-4. **Read `thesis/CHANGELOG.md`** (last 2-3 entries) — how has your assessment been evolving? Watch for drift.
+3. **Read `CALENDAR.md`** (narrative layer) + **scan `docket/CATALYSTS.tsv`** (structured backbone, S16) for `status=pending` rows in the next ~14 days — what catalysts are imminent? Are there pre-written decision frameworks?
+4. **Read `thesis/CHANGELOG.md`** (last 2-3 entries) — how has your assessment been evolving? Watch for drift. *(Analytical changes only; structural/file changes are in `MAINTENANCE.md`.)*
 5. **Read `LAST_COMPLETION.md`** — what was your last task?
 6. **Determine mode** based on task:
    - If task specifies agent(s): **Targeted Challenge**
@@ -155,10 +155,17 @@ One paragraph max. Where is the market right and we're wrong? What are we filter
 | File | Purpose |
 |------|---------|
 | `STATUS.md` | Active challenges, competing hypotheses, counter-signals, probability updates (≤200 lines) |
-| `MEMORY.md` | Agent-level institutional knowledge — what RED has learned across sessions |
-| `CALENDAR.md` | Standing catalyst calendar with bear/bull signals and RED thresholds |
+| `MEMORY.md` | Agent-level institutional knowledge — one-line lessons (full bodies in `MEMORY_ARCHIVE.md`) |
+| `CALENDAR.md` | Narrative catalyst layer: RESOLVED history, FALSIFICATION WATCH, scoring windows, exit backstops |
+| `docket/CATALYSTS.tsv` | **Structured forward-catalyst backbone** (S16) — queryable dates/thresholds; scan `status=pending` next ~14d at boot |
 | `OUTBOX.md` | Reports and signals for PROME pickup |
 | `LAST_COMPLETION.md` | Last task result |
+
+### Reference / archive (NOT read at boot — pointers only)
+| File | Purpose |
+|------|---------|
+| `MAINTENANCE.md` | **Structural** change log (files/folders/schemas/tooling) — distinct from analytical `thesis/CHANGELOG.md`. Log file/schema/boot changes here. |
+| `MEMORY_ARCHIVE.md` | Full verbose bodies of MEMORY methodology lessons (boot-slim S16); one pointer away from the inline one-liners. |
 
 ### Thesis Directory (versioned adversarial framework)
 | File | Purpose |

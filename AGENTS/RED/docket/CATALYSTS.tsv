@@ -1,0 +1,29 @@
+date	window	event	bear_signal	bull_signal	red_threshold	priority	status	notes
+2026-06-03	imminent	EIA WPSR (wk May 29)	Cushing <20M floor; gasoline YoY clean	Build / demand soft	BRENT primary; cross-read stagflation-oil leg (weakest leg)	🟡	pending	Oil-leg stagflation cross-read
+2026-06-05	imminent	CFTC COT (May 26)	Spec re-accumulation in oil (Trigger #3 re-fire)	Spec dump = deal-priced	BRENT primary; RED-18 oil-bear input	🟡	pending	First COT read post-$96 drop
+2026-06-05	imminent	SOFI Jun5 $16P / OWL Jun5 $9.5P expire	Near-money put outcome	Theta-kill	Position state — verify live (tool now works)	🟡	pending	Near-money/event-driven
+2026-06-07	imminent	OPEC+ meeting (first into suspended-MOU regime)	Quota discipline / no hike = tighter	Output add = bearish oil	BRENT primary	🟡	pending	First OPEC+ into suspended-MOU
+2026-06-08	near	Japan Q1 GDP 2nd est	Downward revision softens BOJ hawkish case	Upward firms BOJ hike	SAM primary; cross-read FXY	🟡	pending	BOJ Jun 16 input
+2026-06-09	imminent	WALTER Iran-anchor re-verify boundary	Kuwait strike cadence / narrative-fork	De-escalation confirmed	Cross-read War Escalation hypothesis (6%)	🟡	pending	Iran narrative-fork resolution
+2026-06-10	near	US CPI (May)	Hot = Fed dots higher; soft = cut path	Soft = stagflation-deflation pivot	Cross-read CARL; feeds Jun 17 FOMC	🟠	pending	VIOLET DIET catalyst gate
+2026-06-11	near	Jun stack T-7 backstop wave	Forced cleanup window	—	HYG x8 closure owed; WAL/KRE/APO/ARES/IWM Jun18 cleanup	🟠	pending	Exit-Window Framework backstop
+2026-06-12	near	May CPI / DIET catalyst gate (VIOLET)	Hot CPI fails to widen HY OAS = bifurcation hardens	Soft = managed-decline	VIOLET DIET coiled-spring resolves here or 6/17	🟠	pending	VIX<16 guard resolves around here
+2026-06-16	near	BOJ meeting (Jun 15-16)	Hike to 1.00% = carry-unwind risk; Japan parallel trigger	Hold = SAM deferred, FXY hit	SAM primary; 86.5% mkt / 70% SAM	🔴	pending	Next real bifurcation test (does Japan move US paper?)
+2026-06-17	near	FOMC + SEP dots	Dots confirm no-cut / hike bias = rescue-tail dead	Dovish surprise = rescue reopens (EXIT ALL)	BTFP/cut signal = EXIT ALL	🔴	pending	Post-Waller-pivot dot test; DIET catalyst gate
+2026-06-18	near	WAL Jun puts expire ($85P/$77.5P/$67.5Px2/$65P)	$85P lock-or-hold decision	—	Window-trigger menu + Jun 11 backstop	🟠	pending	RED top position priority
+2026-06-18	near	KRE/HYG/APO/ARES/IWM/FITB/EGBN Jun18 expire	Multi-name cleanup	—	Lock favorable marks; HYG closure owed	🟠	pending	Most positions effectively dead
+2026-06-18	near	AOCI capital rewrite comment period closes	$49.5B aggregate hit across 21 banks (REGINALD)	Comment period extension	Bank capital regulatory trigger	🟡	pending	REGINALD-sourced
+2026-06-24	near	FL UI Wave 1 exhaustion cliff	~4,500 workers hit wall (CARL)	—	CARL primary	🟡	pending	Consumer-stress cliff
+2026-06-30	near	Q2 ends — RED-08/17/18 Brent predictions score	Multiple BRENT v2.0 predictions resolve	—	Per BRENT v2.0 framework	🟡	pending	RED prediction scoring
+2026-06-30	near	IWM/KRE Jun30 puts expire	—	—	KRE Jun30 $67P closer-to-mark	🟡	pending	Cohort cleanup
+2026-07-01	near	SAVE transition ends (7.5M must select)	Student-loan cliff (CARL)	—	CARL primary	🟡	pending	Consumer-stress cliff
+2026-07-17	near	OZK Jul17 $42.5P x2 expire (Thread 3 roll target)	OZK Q2 pre-announce / mid-Jul	—	Window-trigger menu pending Q2 print	🟡	pending	T-roll target
+2026-07-mid	medium	OZK Q2 2026 earnings	NCO >55bps / IQHQ read-through	NCO sustained <=55bps = invalidation -5	OZK NCO falsifier; dress rehearsal for Aug IQHQ	🔴	pending	Q1 was 57bps; on edge
+2026-07-mid	medium	WAL Q2 2026 + Q2 FFIEC MI3 release (re-scoped)	MI3 >=25% = V1 accel +3; 2nd Office walk-away	Beat + clean disclosure = exit both, conf -8	THE binary RED's 4-bin tree was built for	🔴	pending	Bin (a) prior 30->35 (B1 alt-fire)
+2026-07-mid	medium	CHG-RED-027 self-bifurcation 2-of-4 eval	Sub-triggers (a)+(b)+(c) resolve together	—	Self-falsifier evaluation point	🟡	pending	Bifurcation framing test
+2026-08-XX	medium	IQHQ RaDD maturity	$140M weighted EL on $555M funded (OZK)	Refi / extension	OZK 4-scenario tree	🔴	pending	Core OZK thesis catalyst
+2026-08-21	medium	OZK/KRE Aug puts expire	Core IQHQ thesis vehicles	—	OZK Aug $42.5P/$45P; KRE Aug $60P	🟡	pending	IQHQ vehicles
+2026-09-18	medium	WAL Sep $70P/$67.5P expire	V2.2 PT $50-68 midpoint $66 = ITM at $70P	—	HOLD core; timeline-coherent	🟡	pending	Bear-medium horizon vehicle
+2026-09-30	medium	KRE/TLT Sep + XLE expire	Cohort + duration	—	Duration channel vehicle	🟡	pending	TLT duration trade
+2026-10-16	medium	HBAN/TLT Oct expire	DC-corridor + BOJ June outcome / Q4 supply	—	Post-BOJ-June read	🟡	pending	Duration + regional
+2026-12-18	medium	KRE Dec $60P x7 / APO Dec $95P expire	Long-dated structural	—	Long-dated structural core	🟡	pending	Best-surviving structural vehicle
