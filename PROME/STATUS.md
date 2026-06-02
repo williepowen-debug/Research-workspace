@@ -1,13 +1,13 @@
 # PROME STATUS.md
-**Updated:** 2026-06-02 ~10:15 ET (OpenClaw Prome — Phase 1 factual cleanup after SENTRY/WALTER updates)
+**Updated:** 2026-06-02 ~10:55 ET (OpenClaw Prome — closeout after boot-surface + HEARTBEAT rehab)
 
 ## Core State
 
-**Operational priority:** Keep Prome boot-safe after the Jun 2 catch-up. Will explicitly deprioritized trade-position work for this pass. Current work is factual cleanup of Prome surfaces, then handoff, then HEARTBEAT.
+**Operational priority:** Prome is boot-safe again after the Jun 2 catch-up. Will explicitly deprioritized trade-position work for this pass; old trade rails remain verification-required until a separate reconciliation pass.
 
 **Regime:** Public credit and vol remain calm while stress persists in Japan/FX, energy, BDC/private-credit marks, and duration. Current read is **divergence**, not confirmed public-credit/vol transmission.
 
-**Live dashboard anchor, Jun 2 ~09:45 ET:** HY OAS **272bps [FRED 6/1 close]** 🟢, CCC OAS **946bps [FRED 6/1 close]** 🟡, VIX **16.18** 🟢, Brent **~$95** 🟡, USD/JPY **159.79** 🔴, BIZD **~$12.74** 🔴. Do not quote old HEARTBEAT/TODAY levels.
+**Live dashboard anchor, Jun 2 ~10:45 ET:** HY OAS **272bps [FRED 6/1 close]** 🟢, CCC OAS **946bps [FRED 6/1 close]** 🟡, VIX **16.12** 🟢, Brent **$94.90** 🟡, USD/JPY **159.82** 🔴, BIZD **$12.78** 🔴. HEARTBEAT is current as of Jun 2 closeout.
 
 ---
 
@@ -15,11 +15,12 @@
 
 | Item | Status | Note |
 |---|---|---|
-| GitHub sync | ✅ Clean | `master` matches `origin/master` at HEAD `e8e11442` before this Phase 1 cleanup edit pass. |
+| GitHub sync | ✅ Clean | Local `master` matched `origin/master` before closeout edits; verify with `git status` at next boot. |
 | Local stale edits | ✅ Resolved | Will approved discarding stale local generated edits in `AGENTS/PROME/LAST_COMPLETION.md` and `PROME/FLEET_SCAN.md`; pull then fast-forwarded cleanly. |
-| Prome boot-surface rehab | ✅ Pushed | Jun 2 rehab package committed/pushed as `79a66053`. |
-| WALTER Iran-anchor refresh | ✅ Landed | Commit `ddb94d13` refreshed WALTER to narrative-fork + kinetic-acceleration frame. |
-| SENTRY scheduled feed pushes | ✅ Disabled | Commit `e8e11442`; manual `workflow_dispatch` preserved. |
+| Prome boot-surface rehab | ✅ Pushed | Jun 2 rehab package committed/pushed. |
+| WALTER Iran-anchor refresh | ✅ Landed | WALTER refreshed to narrative-fork + kinetic-acceleration frame. |
+| SENTRY scheduled feed pushes | ✅ Disabled | Manual `workflow_dispatch` preserved; twice-daily master churn stopped. |
+| HEARTBEAT refresh | ✅ Pushed | Root heartbeat now reflects Jun 2 regime/levels. |
 | GitHub source-of-truth rule | ✅ Active | Local edits remain subordinate until explicitly committed/pushed. |
 
 ---
@@ -33,7 +34,7 @@
 | `PROME/STATUS.md` | ✅ Current | This file. |
 | `PROME/FLEET_SCAN.md` | ✅ Current | Rewritten Jun 2 from bounded fleet scan. |
 | `PROME/ACTIVE_DECISIONS.md` | ✅ Current safety index | Old trade rails marked verification-required until broker/Will state is verified. |
-| `HEARTBEAT.md` | ⚠️ Stale | Injected but not safe for levels; scenario narrative predates Jun 2 WALTER/SENTRY cleanup and needs a separate Phase 3 refresh. |
+| `HEARTBEAT.md` | ✅ Current | Refreshed Jun 2 with live dashboard, WALTER frame, and SENTRY pointer. Cadence/ownership remains an open design decision. |
 | `PROME/CLAUDE_CODE_HANDOFF.md` | Historical | Useful audit trail, not current boot state. |
 
 ---
@@ -60,12 +61,13 @@
 
 | Action | Pri | Status |
 |---|---:|---|
-| Refresh Prome boot files | ✅ | Jun 2 refresh committed/pushed as `79a66053`. |
-| Disable SENTRY scheduled pushes | ✅ | Completed as `e8e11442`; stops twice-daily master churn. |
-| Integrate WALTER Jun 2 frame | 🟠 | Phase 1 cleanup in progress across Prome surfaces. |
-| Add fresh OpenClaw handoff | 🟠 | Phase 2; needed because `PROME/HANDOFF.md` top block is May 17. |
-| Refresh HEARTBEAT | 🟠 | Phase 3; pull live dashboard first. |
+| Refresh Prome boot files | ✅ | Completed and pushed Jun 2. |
+| Disable SENTRY scheduled pushes | ✅ | Completed; stops twice-daily master churn. |
+| Integrate WALTER Jun 2 frame | ✅ | Prome surfaces now carry narrative-fork + kinetic-acceleration caveat. |
+| Add fresh OpenClaw handoff | ✅ | `PROME/HANDOFF.md` has Jun 2 top block. |
+| Refresh HEARTBEAT | ✅ | Completed with Jun 2 live dashboard. |
 | Reconcile old trade rails / fills | 🟠 | Deferred per Will; mark as verification-required, not actionable. |
+| Decide HEARTBEAT cadence / ownership | 🟠 | Open design decision for next operating pass. |
 
 ---
 
@@ -83,4 +85,4 @@
 
 ## Next Best Action
 
-Finish Phase 1 factual cleanup, verify the diff, then proceed to Phase 2 (`PROME/HANDOFF.md`) before touching HEARTBEAT.
+Close out this session cleanly. Next session should not reopen boot rehab unless a specific stale surface is found; choose a bounded next lane such as HEARTBEAT cadence, Prome inbox triage, position-state reconciliation, or stale domain revive shortlist.

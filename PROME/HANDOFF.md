@@ -1,25 +1,24 @@
 # PROME HANDOFF
 
-## 2026-06-02 ~10:15 ET — OpenClaw Prome boot-surface cleanup
+## 2026-06-02 ~10:55 ET — OpenClaw Prome boot-surface + HEARTBEAT closeout
 
-**Status:** 🟠 Phase 1/2 cleanup in progress; local edits not yet committed. GitHub/source-of-truth was clean at `e8e11442` before this cleanup pass.
+**Status:** ✅ Boot-surface cleanup and HEARTBEAT refresh completed/pushed; this closeout entry records the final state. Verify `git status` at next boot before pulling.
 
 **What changed today:**
-- Prome state rehab package was completed and pushed as `79a66053` (`SCRATCH`, `TODAY`, `STATUS`, `FLEET_SCAN`, `ACTIVE_DECISIONS`).
-- Push required rebasing over WALTER's new commit `ddb94d13`.
-- SENTRY scheduled feed pushes were disabled and pushed as `e8e11442`; manual `workflow_dispatch` remains available.
-- Will then asked to audit Prome boot files for remaining staleness and approved phased cleanup.
+- Prome state rehab package was completed and pushed (`SCRATCH`, `TODAY`, `STATUS`, `FLEET_SCAN`, `ACTIVE_DECISIONS`).
+- WALTER's Jun 2 Iran-anchor refresh landed during rebase; Prome surfaces now carry the corrected frame.
+- SENTRY scheduled feed pushes were disabled; manual `workflow_dispatch` remains available.
+- Phase 1 boot-surface residue cleanup completed.
+- Phase 2 OpenClaw handoff top block added.
+- Phase 3 root `HEARTBEAT.md` refresh completed after live dashboard pull.
 
-**Current cleanup scope:**
-1. Phase 1 — factual residue cleanup in Prome boot surfaces: completed-process rows, old HEAD references, WALTER stale labels, and SENTRY state.
-2. Phase 2 — this fresh OpenClaw handoff block.
-3. Phase 3 — root `HEARTBEAT.md` refresh, separate and not yet started. Pull live dashboard before editing or quoting levels.
+**Current cleanup scope:** complete. Remaining work should be separately scoped, not treated as boot rehab.
 
 **Current regime carry-forward:**
-- Public credit/vol were still calm at the Jun 2 ~09:45 dashboard snapshot: HY OAS **272bps [FRED 6/1 close]**, VIX **16.18**.
+- Public credit/vol were still calm at the Jun 2 ~10:45 dashboard snapshot: HY OAS **272bps [FRED 6/1 close]**, VIX **16.12**.
 - Stress remains concentrated in Japan/FX, energy, duration, and BDC/private-credit marks.
 - WALTER Jun 2 changed Iran framing from simple suspension to **narrative-fork + kinetic-acceleration**: Tasnim/IRGC suspension vs MFA/Trump ongoing/rapid-pace denial; Kuwait strike cadence is load-bearing; Trump rhetoric is tape-not-info in both directions.
-- HEARTBEAT is still stale by date and levels; do not quote it until Phase 3 refresh.
+- HEARTBEAT is current as of Jun 2 closeout; cadence/ownership remains undecided.
 
 **Guardrails:**
 - No trade recommendations or execution during this cleanup.
