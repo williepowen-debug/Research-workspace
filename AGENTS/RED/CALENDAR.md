@@ -2,18 +2,20 @@
 
 *Updated each session. Adversarial perspective: what confirms, what challenges, what kills the thesis.*
 
-**Last Updated:** 2026-05-21 (Thu Session 13 — MI3 binary did not print; B1/B3/V4 fired separately; REGINALD V2.2 ship; Jun stack capitulation; MI3 re-scoped to Q2 print late-July; RED-11→RED-16 RESOLVED CORRECT)
+**Last Updated:** 2026-06-02 (Tue Session 15 — 12-day gap catch-up. Waller hawkish pivot 5/22 kills rescue tail; stagflation substance hardened; paper calmer; GEX-suppression mechanism INVALIDATED by VIOLET; RED-19 falsified; CHG-RED-024 closed)
 
 ---
 
-## IMMINENT (Next 3 Days)
+## IMMINENT (Next ~7 Days)
 
 | Date | Event | Bear Signal | Bull Signal | RED Threshold |
 |------|-------|-------------|-------------|---------------|
-| **May 22** | Tokyo CPI (Fri) / Japan national core CPI cons 1.7% | ≥2.0% locks BOJ June hike → SAM thesis confirms | <1.5% fades hike pricing 74% → 60-65% | SAM primary. Cross-read for FXY positioning |
-| **May 22-23** | Friday close — Jun stack residual cleanup window | Jun positions accelerate theta-bleed into weekend | — | RED recommendation: bulk close on residuals <$0.50 mark |
-| **May 22** | (potential) LIQUID 3-dashboard 5/21 + APO co-trigger detail dispatch | HY OAS sub-280 sustain count + APO triggering | — | Cross-read with RED bifurcation framing (b) sub-trigger day 40 of 60 |
-| **May 23** | TLT May $88P x2 (already cleared per Will 5/15 confirm) | n/a — position cleared | — | Confirmed closed; not in current broker CSV |
+| **Wed Jun 3-4** | EIA WPSR (wk May 29) | Cushing <20M floor; gasoline YoY clean | Build / demand soft | BRENT primary; cross-read stagflation-oil leg (weakest leg) |
+| **Fri Jun 5** | CFTC COT (May 26) | Spec re-accumulation in oil (Trigger #3 re-fire) | Spec dump = deal-priced | BRENT primary; RED-18 oil-bear input |
+| **Fri Jun 5** | SOFI Jun5 $16P / OWL Jun5 $9.5P expire | Near-money put outcome | Theta-kill | Position state stale (5/21 CSV) — verify w/ Will before any read |
+| **Sun Jun 7** | OPEC+ meeting (first into suspended-MOU regime) | Quota discipline / no hike → tighter | Output add → bearish oil | BRENT primary |
+| **Mon Jun 9** | WALTER Iran-anchor re-verify boundary | Kuwait strike cadence / narrative-fork resolution | De-escalation confirmed | Cross-read War Escalation hypothesis (6%) |
+| **Daily** | Iran narrative-fork (Tasnim "suspended" / Araghchi "ongoing" / Trump "rapid pace") | Kinetic escalation; Bab al-Mandab operational | Deal-close tweet (tape-not-info) | Don't price Brent on Trump rhetoric; verify primary |
 
 ---
 

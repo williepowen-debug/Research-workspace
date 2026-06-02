@@ -4,6 +4,45 @@
 
 ---
 
+## 2026-06-02 — Waller Hawkish Pivot Kills Rescue Tail; Stagflation Substance Hardened; Paper Got Calmer; GEX-Suppression Mechanism INVALIDATED; RED-19 Falsified (Session 15, 12-day gap from Session 14)
+
+**Confidence:** 73% → **72%** (−1)
+
+**Competing hypotheses re-balanced — direction flat, composition shifts toward muddle:**
+- Full Stagflation: 37% → **37%** (=) — substance up, snap-conviction down, nets flat
+- Managed Decline: 33% → **38%** (+5) — **now modal**; absorbs dead Policy-Rescue tail
+- Acute Dislocation: 11% → **10%** (−1) — R11 fast-break route dead
+- **Policy Rescue: 13% → 6% (−7)** — Waller pivot; Fed-cut backup dead
+- War Escalation: 5% → **6%** (+1) — kinetic accel, but Brent down + unpriced
+- Soft Landing: 1% → **3%** (+2) — R11 dead / VIX crushed / retail-bullish, capped by stagflation data
+
+Net bear: 53% → **53%** (=) | Net managed/rescue: 46% → **44%** | Soft: 3%.
+
+**What drove the change (12-day catch-up sweep):**
+
+1. **Waller hawkish pivot 5/22** — market repriced ~2-in-3 odds of a 25bp **HIKE by October**; Fed-cut backup dead (<10% 2026). The network ran on a cutting-regime all of 2026 → assumption broken. **Kills the Policy-Rescue tail** (−7pp). Bear-supportive on substance (higher-for-longer pressures CRE/consumer/duration) but does nothing for the paper.
+
+2. **Stagflation substance hardened (CARL):** GDP Q1 2nd est +1.6% (from +2.0%) with Core PCE revised UP to 4.4% = textbook stagflation; Apr Core PCE 3.3% cycle-high; **savings rate collapsed to 2.6% (−100bps)**; real DPI −0.5% (5th negative); income flat 0.0%; Philly Fed Non-Mfg −23.6 (3σ miss, services-side, new vector); Freddie HPI +0.7% cycle-low (housing-deflation setup). Counter: gas pump $4.39 below $4.50 threshold; Klarna profitable; Fannie MF DQ reversed.
+
+3. **Paper got CALMER, not louder:** HY OAS **272** (from 286, moving away from 260 kill); VIX **16.12** (from 17.61, 0.12 from the <16 managed-decline trigger); SPX at ATH; 10Y **−20bps to 4.47%** (duration channel un-firing on spot). Prome house view now literally "divergence not transmission."
+
+4. **⚠️ GEX-suppression mechanism INVALIDATED (VIOLET 6/1).** The gamma-suppression frame RED adopted Session 14 (KB-RED-042, CHG-RED-028) was falsified across a 19-yr sample — the DIET coiled-spring signal fires in pre-record-gamma eras, so gamma cannot be the cause. **R11 vol-spike pathway also confirmed dead.** The bifurcation OBSERVATION survives; the borrowed MECHANISM does not. KB-RED-042 demoted to DISPUTED. **Calibration cycle 1 retro verdict (owed ~5/25, run solo): persistent + mechanism-orphaned; snap-interpretation downgraded; Managed Decline modal.** Methodology lesson (ML-RED-074): don't anchor RED's frame on a peer-agent mechanism the source domain can later falsify — keep the observation, hold the mechanism loosely.
+
+5. **RED-19 FALSIFIED.** US oil rigs 429 May 29 (>415 upper bound; +22 from 407 trough; 7 consec WoW gains). BRENT confirmed 5/31. Was AT-RISK on 5/21; now scored WRONG. Tally → 5W / 2C / 4A. The BRT-04 capex-weakening downgrade RED challenged (CHG-RED-024 ch3) was the correct call.
+
+6. **CHG-RED-024 (BRENT v2.0) CLOSED RESOLVED-CONVERGED** — BRENT confirmed Option 1 (outbox 5/31). Net 3/5 RED-direction (ch1/2/5), 1/5 reverse (ch3/RED-19), 1/5 narrowed (ch4).
+
+7. **Japan/energy live but unpriced:** SAM BOJ Jun 16 hike single-path 70%/88%; USD/JPY 159.82 at the 160 intervention line; carry-unwind +3pp. BRENT/WALTER Iran "narrative-fork + kinetic-acceleration" (Kuwait strike cadence load-bearing, 4 exchanges in 6 days, Israel's deepest Lebanon incursion in 26 years) — yet Brent **$94.90** (down from $107). War premium refuses to price.
+
+**Predictions update:**
+- RED-08 (Brent <$120 Q2, 60%) → ACTIVE-VERY-RIGHT ($94.90)
+- RED-10 (HY OAS <400 by Jun, 45%) → ACTIVE-VERY-RIGHT (272)
+- RED-17 (Dated Brent <$115, 50%) → ACTIVE-RIGHT
+- RED-18 (Brent Dec26 $80-95 over 60d, 65%) → ACTIVE (~day 30 of 60)
+- **RED-19 (US rigs 400-415 through Jun, 65%) → WRONG** (429 May 29)
+
+---
+
 ## 2026-05-21 — MI3 Binary Didn't Print; B1/B3/V4 Fired Separately; REGINALD V2.2 Acceptance; Jun Stack Capitulation; RED-11 RESOLVED CORRECT (Session 13 on Claude Code, 8-day gap from Session 12)
 
 **Confidence:** 75% → **73%** (-2)

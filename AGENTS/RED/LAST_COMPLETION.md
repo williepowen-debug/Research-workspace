@@ -1,41 +1,22 @@
-STATUS: DONE — Session 14 closeout. Three discrete chunks at Will's direction: A) housekeeping pass (workbook ID reconciliation + inbox CSV); B) BRENT CHG-RED-024 response check (no formal response found; substance-converged-silent variant identified); C) quick wins (EGBN catalyst verified no-surprise + LIQUID v2.0 integrated with gamma-suppression mechanism). No substantive thesis changes; confidence 73 stable.
+STATUS: DONE — Session 15 (2026-06-02). 12-day-gap boot + full network catch-up, then clean close-out for Will reboot. Confidence 73 → 72 (−1). Bifurcation hardened on both sides AND went mechanism-orphaned (VIOLET invalidated the gamma-suppression frame RED adopted in Session 14).
 
-CHANGED:
-- inbox/Portfolio_Positions_May-21-2026.csv → moved to inbox/processed/
-- STATUS.md — 19 edits across Chunks A+C. Header bumped to Session 14. Chunk A: 9 prediction-ID references reconciled to workbook IDs (RED-11→16 / RED-12→17 / RED-13→18 / RED-14→19). Chunk C: 10 edits for LIQUID v2.0 integration — gamma-suppression mechanism added to BULL CASE STEELMAN item 10; HY OAS 276→286 reflected across counter-signals + falsification + self-falsifier; sub-trigger (b) FADED (framework strengthens not weakens because paper continues refusing to widen at peak substance prints); CHG-RED-027 ACTIVE-REFRAMED; CHG-RED-028 ACTIVE-GAMMA-MECHANISM-CANDIDATE with 5/25 calibration retro venue; EGBN open-challenge CLOSED with verification narrative.
-- MEMORY.md — workbook hygiene note + methodology bullet updated from "deferred to next session" → "RESOLVED Session 14". NEW methodology bullet on silent-absorption convergence variant (BRENT v2.0 case).
-- workbook/KB.tsv — KB-RED-042 NEW (gamma-suppression mechanism as durable institutional knowledge; promoted from LIQUID v2.0 §5/§9).
-- workbook/ML.tsv — ML-RED-068 Status ACTIVE→RESOLVED (numbering hygiene cleanup done) + 3 new entries: ML-RED-071 (BRENT silent-absorption variant), ML-RED-072 (LIQUID v2.0 integration + sub-trigger b reset + portfolio-channel vindication), ML-RED-073 (EGBN no-surprise verification).
-- workbook/CHALLENGES.tsv — CHG-RED-027 ACTIVE-REFRAMED with sub-trigger (b) fade note + KB-RED-042 link; CHG-RED-028 ACTIVE-GAMMA-MECHANISM-CANDIDATE with calibration retro 5/25 venue + LIQUID-v2.0-5/19 source.
-- workbook/PREDICTIONS.tsv — RED-19 status ACTIVE → AT-RISK (rigs 415 May 15 = upper bound, 3 consec WoW gains per BRENT 5/20).
-- BRENT/inbox/2026-05-21_from-RED_chg-red-024-substance-converged-closure-request.md — NEW (Will-authorized cross-agent write); requests brief confirm/counter/closure on CHG-RED-024 with 4-of-5 substance verdict mapping + honest self-disclosure on RED-19 risk; backstop close ~5/27.
-- archive/handoffs/RED_014_HANDOFF.md — NEW (this session handoff).
-- LAST_COMPLETION.md (this file).
+CHANGED (RED files only):
+- STATUS.md — rewritten to lean Jun 2 state (old → archive/status_snapshots/STATUS_2026-05-21.md). Hypotheses rebalanced: Stagflation 37 / Managed 38 (NOW MODAL, +5) / Acute 10 / Policy Rescue 6 (−7) / War 6 / Soft 3; net bear 53 (=). New counter-signal table, falsification table (VIX <16 nearest at 0.12), self-falsifier sub-trigger (e) "no snap-mechanism survives" added.
+- thesis/CHANGELOG.md — Jun 2 entry with full driver list.
+- CALENDAR.md — Last-Updated + IMMINENT block refreshed to Jun 3-9 catalysts.
+- MEMORY.md — Jun 2 assessment line + 2 methodology bullets (don't anchor on borrowed peer mechanism; refuse to let screaming substance inflate confidence).
+- workbook/PREDICTIONS.tsv — RED-19 scored WRONG (rigs 429, BRENT-confirmed 5/31). Tally 5W/2C/4A.
+- workbook/CHALLENGES.tsv — CHG-RED-024 RESOLVED-CONVERGED (BRENT 5/31); CHG-RED-028 ACTIVE-MECHANISM-ORPHANED.
+- workbook/KB.tsv — KB-RED-042 DISPUTED-DEMOTED (gamma-suppression invalidated by VIOLET 6/1).
+- workbook/ML.tsv — ML-RED-074 (calibration-retro verdict + borrowed-mechanism lesson).
+- archive/handoffs/RED_015_HANDOFF.md — NEW.
 
-COMMITS: 2 RED commits this session, both pushed clean to origin/master.
-- b05c2b10 — Session 14 housekeeping (workbook ID reconciliation + inbox CSV)
-- 87506eb0 — BRENT CHG-RED-024 substance-converged + LIQUID v2.0 integration + EGBN resolved
-- (Final closeout commit pending after this LAST_COMPLETION write.)
+KEY DRIVERS: (1) Waller hawkish pivot 5/22 kills rescue tail. (2) Stagflation substance hardened (GDP 1.6%/Core PCE 4.4%, savings 2.6%, Philly −23.6). (3) Paper calmer (HY 272/VIX 16/SPX ATH/10Y −20bps). (4) GEX-suppression mechanism invalidated; R11 vol-spike dead. (5) RED-19 falsified. (6) CHG-RED-024 closed converged. (7) Japan/energy live but unpriced (Brent $94.90).
 
-RESULT: Session 13 GAPS partial close. ✅ BRENT CHG-RED-024 response check (signal dispatched, ~5/27 backstop). ✅ EGBN $25P -84% catalyst (no surprise; mechanical theta + IV crush + spot drift). ✅ LIQUID 5/19 v2.0 + 5/20 STATUS (gamma-suppression mechanism integrated as candidate explanation for persistent bifurcation; 5th observation 5/21 + LIQUID supplies structural reason). ✅ Workbook numbering reconciliation. ✅ Inbox CSV hygiene. Three findings hardened the bifurcation framework with a candidate mechanism; RED-19 flagged AT-RISK as Challenge 3 of CHG-RED-024 reverses against RED.
+CALIBRATION CYCLE 1 RETRO: run solo (BRENT/REGINALD stale). Verdict: bifurcation persistent + mechanism-orphaned; snap-interpretation downgraded; Managed Decline modal. Owed: re-pair with REGINALD/BRENT/LIQUID.
 
-GAPS (carried into Session 15):
-(1) VIOLET 5/21 STATUS for Stage 2-late verdict + R16 scoring context — still open.
-(2) 4 inbox image-batch signals from 5/9 — partially absorbed (40/60 bear in STATUS counter-signals); could deepen.
-(3) WALTER network_uncertainty_peak second-fire 5/8 — already integrated in ML-RED-070 Session 13.
-(4) HENRY 5/21 NVDA read-through + VIOLET LIAISON output — still open.
-(5) MI3 Q2 publication-cadence verify (FFIEC release schedule) — still open.
-(6) FORGE STATUS deprecation note to PROME — still open.
+WILL_NEEDS (carryover): (1) Position-state reconcile — 5/21 CSV stale; TLT-puts duration trade may have reversed (10Y −20bps); PROME deprioritized rails. (2) HYG closure (Jun 18). (3) Jun 18 expiry cluster.
 
-WILL_NEEDS (carried — Will-held this session):
-(1) Jun stack cleanup decision (~$700 residual).
-(2) WAL Jun $85P decision ($7 mark, T-28, ITM $0.37).
-(3) HYG closure final write-up.
+GIT: RED files committed/pushed at close (see commit). MARCO/STATUS.md was uncommitted outside RED dir all session — left untouched.
 
-SCHEDULED:
-- Calibration cycle 1 retro ~5/25 (4 days) with BRENT/REGINALD — formal scoring venue for: RED-19 rig count; 5 bifurcation observations persistent-vs-resolving verdict; gamma-suppression mechanism adoption as primary frame; CHG-RED-024 silent-absorption closure.
-- CHG-RED-024 backstop close ~5/27 if no BRENT response.
-
-FOLLOW-UP: Next session priorities: (1) Calibration cycle 1 retro prep (4 days out; pair with BRENT + REGINALD). (2) VIOLET 5/21 Stage 2-late verdict + R16 scoring confirmation. (3) MI3 Q2 publication-cadence primary-source verify. (4) HENRY 5/21 NVDA read-through. (5) Jun stack cleanup decision (Will-held; can re-surface on Jun 11 backstop wave T-7 or any window-trigger fire — VIX >20 / WAL <$74 / 2nd Office sponsor walk-away / Q2 pre-announce hot). Calendar cycles: Jun 5 SOFI/OWL T-15 / Jun 11 T-7 backstop wave / Jun 18 Jun-stack expiry / Jul 17 OZK Thread 3 / mid-late Jul Q2 prints.
-
-Clean break per Will direction. No degradation.
+Clean break for Will reboot. No degradation.
