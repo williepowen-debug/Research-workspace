@@ -42,7 +42,7 @@ RED is **not action-primary on any domain data** — the network's adversarial o
 
 All in git, network-readable for grep at dispatch:
 
-- **Predictions RED-NN** → `AGENTS/RED/thesis/PREDICTIONS.tsv` and `AGENTS/RED/STATUS.md`
+- **Predictions RED-NN** → `AGENTS/RED/workbook/PREDICTIONS.tsv` and `AGENTS/RED/STATUS.md` *(canonical as of S16 2026-06-02; the old `thesis/PREDICTIONS.tsv` was retired — see `thesis/PREDICTIONS_README.md`)*
 - **KB-RED-NNN claims** → `AGENTS/RED/workbook/KB.tsv`
 - **VX-RED-NN counter-evidence vectors** → `AGENTS/RED/workbook/VX.tsv`
 - **CHG-RED-NNN formal challenges** → `AGENTS/RED/workbook/CHALLENGES.tsv`

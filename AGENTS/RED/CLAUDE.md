@@ -172,8 +172,9 @@ One paragraph max. Where is the market right and we're wrong? What are we filter
 |------|---------|
 | `thesis/FRAMEWORK.md` | RED's adversarial methodology — how RED thinks |
 | `thesis/CHANGELOG.md` | Assessment evolution log — tracks confidence drift |
-| `thesis/PREDICTIONS.tsv` | RED's falsifiable predictions with probabilities |
 | `thesis/TIMELINE.md` | Network timeline critique + position/expiry mismatch analysis |
+
+> **Predictions live in `workbook/PREDICTIONS.tsv` ONLY** (sole canonical, RED-01…19). The old `thesis/PREDICTIONS.tsv` was an unreconciled fork — retired S16 (see `thesis/PREDICTIONS_README.md`). Do not recreate it.
 
 ### Working Directories
 | Directory | Purpose |
