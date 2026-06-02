@@ -86,5 +86,5 @@
 10. **P3: Delete `otto-backup-pre-rebase-20260415` branch**
 
 ### PENDING PUSH
-- May 22 AM closeout already in tree (commit `c17d108f` upstream).
-- May 22 PM closeout committed (amended) as `3d715270` — **PUSH DEFERRED** at Will's direction (CARL session still working). Includes both P0 sweep (OTTO-31 downgrade + FBG May 20 bracketed) AND B+C prediction tracking (OTTO-04 + OTTO-05). Note: an interim amend pulled CARL files into the commit (likely a `git add -u` upstream) — caught + fixed via reset HEAD~1 + re-stage OTTO-only + clean amend. CARL session's work remains untracked/unstaged in working tree. Ride next clean-state agent's closeout to push.
+- **RESOLVED (Jun 2):** May 22 PM closeout reached origin during the 12-day gap — landed as commit `1d2e4ace` after intervening rebases rewrote the original `3d715270` SHA. No deferred OTTO push outstanding from May. (The May 22 amend-pulled-in-CARL-files issue was caught and cleaned at the time; nothing leaked.)
+- Jun 2 boot/closeout protocol work (Phases 1-3a, CLAUDE.md) committed locally as `e9932373`, **not yet pushed** — riding the push-train (SAM ×2 + REGINALD also local-only ahead of origin).

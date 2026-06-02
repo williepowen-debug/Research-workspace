@@ -50,5 +50,5 @@ Net thesis movement is DOWN on Wilmington: the broader systemic "indenture-trust
 - None this PM — net effect was a downgrade not an escalation; no domain-crossing trigger fired. WALTER not engaged.
 
 ## GIT
-- May 22 AM commit `c17d108f` pushed to origin/master.
-- This PM session's changes (STATUS / ML / PREDICTIONS / MEMORY / LAST_COMPLETION) — not yet committed. Awaiting Will's commit direction.
+- May 22 PM closeout reached origin (commit `1d2e4ace`; original `3d715270` SHA was rewritten by intervening rebases). No deferred May push outstanding.
+- Jun 2 protocol work (Phases 1-3a) committed locally as `e9932373`; not yet pushed (riding push-train).
