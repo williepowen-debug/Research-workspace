@@ -1,37 +1,42 @@
 # MARCO SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-02 ET (session 10 — Jun 1 reconciliation + Apr Banxico pulls; thesis v2.2→v2.3)
+**Last Updated:** 2026-06-02 ET (session 11 — workbook bring-current sweep, same-day after session 10)
 
 ## CHANGES SINCE (what moved while offline)
-- **Jun 1 ICE/CBP reconciliation MISSED the deadline.** Floor vote delayed past Memorial Day; Parliamentarian MacDonough struck core enforcement/screening provisions under Byrd rule (jurisdiction) + $1.8B DOJ fund + $1B ballroom. No floor passage. → "enforcement lock" was premature.
-- **Banxico Apr remittances (released ~Jun 1):** $4.98B, +3.7% YoY (decel from +4.9% Mar); count −1.7% (narrowing from −3.6%); avg +5.5%/$403 (premium compressing from +8.9%). Jan-Apr $19.68B (+2.6%, record period). MoM −9.47% = Easter seasonal.
+- Same-day reboot after session 10 (Jun 1 reconciliation + Apr Banxico). No new market data between sessions except the NTTO release surfaced below.
+- **NTTO overseas arrivals Apr 2026: −14.1% YoY** (2.6M); non-US-citizen air −9.8%; YTD overseas −4.3%. New datapoint (release ~May). Deteriorating on YoY — the non-Canada international channel, an independent leg under the structural-tourism read.
 
-## WHAT I DID (session 10 — boot + 2 pulls + v2.3 thesis bump)
-**Will's task: "Check the Jun 1 reconciliation vote and today's Banxico print."** Then closeout (Will rebooting).
-- **Reconciliation:** 3 web searches confirmed missed deadline + parliamentarian carve-out. **Downgraded ICE/CBP from 🔴 STRUCTURAL "enforcement lock" → 🟠 CONTESTED** across STATUS (dashboard row, situation body, thesis-inflection bullet, composite). Key reframe held throughout: **SDL-01's 2.2M STOCK loss is irreversible regardless — only the funding FLOW accelerator is now uncertain.**
-- **Banxico:** the Mar pull-forward paradox (count −3.6% / $ +4.9%) is FADING/normalizing — no Q2-Q3 air-pocket. Count still negative = SDL-01 senders-decline tell intact. Marked 🟡 NORMALIZING; resolved the paradox open-thread.
-- **Files written:** STATUS (header, inflection block, 2 dashboard rows, 2 situation bodies, composite, UNRESOLVED table). Docket: `CATALYSTS.tsv` (pruned Jun 1 + Jun 2; added reworked-reconciliation ~Jun 30 TBD + Banxico May ~Jul 1) + `CALENDAR.md` (re-anchored to Jun 2, THIS WEEK rewritten with resolved note). `thesis/TIMELINE.md` (+2 resolved rows, reworked-vote forward branch). `thesis/CHANGELOG.md` (**v2.3 entry**). `thesis/THESIS.md` (**v2.2→v2.3** — header, spine paragraph funding-lock caveat, kill-condition). `workbook/KB.tsv` (+KB-ENF-01, +KB-REM-03).
-- **Auto-memory:** `feedback_dont_bank_unpassed_forecast` (transferable: don't log a not-yet-passed bill / forecast as a resolved structural fact).
+## WHAT I DID (session 11 — Will's task: "get MARCO updated to current" = full pass: data + structure + carried debt)
+- **FLOW.tsv** — fixed newline-merge bug (FLOW-IMG-01/FLOW-BDR-01 were one line); added the owed **FLOW-PRD-01** (diesel/freight→produce-CPI transient CONFOUNDER, MARCO↔BRENT, carried 3 sessions); now 12 flows, all 12 cols clean.
+- **VX.tsv** — fixed newline-merge bug (3.04/ELP-01) + a pre-existing 13-col bug (VX-MARCO-3.03 missing Priority → added HIGH). Synced to current: **2.08** (Apr remittances + normalizing), **2.01** (ICE off-farm pivot + funding contested), **1.01** (session-9 structural 2-yr-stack read), **1.02** (NTTO Apr −14.1%, was frozen at Jan "8% below 2019"). All 57 rows now 14 cols.
+- **ML.tsv** — fixed TWO corruptions (line-40 field-join MIG-05/BDR-01; line-50 REM-03 description duplication); parses cleanly (59 rows). Flagged 2 contradicted entries (ML-IVF-02, ML-IVF-05 Canadian magnitudes) with `[DATA STALE]` pointers in Status (KB-safe — Status isn't KB-mapped). Documented in CLAUDE.md FILES table as the **FROZEN founding-research log** (Jan20–Feb4), superseded by KB.tsv.
+- **KB.tsv** — appended KB-MARCO-IVF-NTTO-26 (overseas −14.1%); normalized a 7-col row. 63 lines, all 8 cols.
+- **Banxico Apr RE-VERIFIED vs primary** — data agent flagged a trade-press "$5.69B/+26% Apr" claim conflicting with our $4.98B/+3.7%. Checked Banxico primary + 6 MX outlets: **our figure is CORRECT; the $5.69B/+26% is garbled** (the "+15%/$21.3B cumulative" claim flatly contradicts the Banxico $19.68B primary — likely a May/Mother's-Day mislabel). Inoculation note added to STATUS remittance row. The fleet figure held; the "fresh" number was the bad one.
+- **Structural parity** — verdict: MARCO already at/above fleet (SAM/CARL/BRENT/VIOLET) parity. Has canonical SCRATCH, thesis machinery (THESIS/CHANGELOG/TIMELINE/PREDICTIONS), docket, ROOMS+DEFERRED+COUPLINGS (richer than CARL/SAM), LAST_COMPLETION retired. Gaps (`board/BOARD_LOG.tsv`, `templates/SCRATCH.template.md`) judged cargo-cult for MARCO — no upstream BOARD feed to diff; SCRATCH structure already specified in CLAUDE.md. **No structural builds.**
+- **Found**: `ml_to_kb.py` is now LEGACY/destructive — mode 'w' would wipe hand-added KB rows (sessions 8+). Flagged in CLAUDE.md. KB.tsv is now the hand-maintained living workbook.
 
 ## NEXT SESSION
-1. **Jun 5 BLS May NFP** — FL leisure/hospitality sub-sectors (ES-MARCO-01), not headline. **Jun 10 CPI = ES-MARCO-08** (produce-vs-pump fork — the discriminating test, v2.1).
-2. **Jun 11 StatCan May** — read the 2-yr STACK not headline (does it keep worsening past −30%?). **Jun 13 Air Transat** final US flight. **~Jun 27 WestJet** winter schedule = TOUR-05 last input.
-3. **Reconciliation rework watch** — GOP must strip Byrd-flagged provisions + retry floor vote (~late Jun, TBD). Passage = funding flow restored (delayed/diminished); further slip = brake stays partially on. Now a 🟠 open item, not a done deal.
-4. **Cross-agent re-sends (still deferred to mail-spawn):** NEXUS now carries THREE corrections — v2.1 produce-thermometer demotion, v2.2 tourism-structural, **v2.3 enforcement-lock→contested**. Plus REGINALD (condo tightening), LABOR (ICE off-farms). TOURISM sub-agent has 3 outbound drafted (→MARCO done, →REGINALD winter-$, →CARL substitution).
-5. **Workbook FLOW.tsv lag (STILL deferred):** `workbook/FLOW.tsv` last touched Apr 21 — owes the freight→produce transient-cascade row. (KB.tsv now current as of this session.) **MCO/FLL/NTTO/Broward** data-gap pulls still pending.
+1. **Jun 5 BLS May NFP** — FL leisure/hospitality sub-sectors (ES-MARCO-01), not headline. **Jun 10 CPI = ES-MARCO-08** (produce-vs-pump fork, v2.1; FLOW-PRD-01 now formalizes the confounder).
+2. **Jun 11 StatCan May** — read the 2-yr STACK (does it worsen past −30%?). **Jun 13 Air Transat** final US flight. **~Jun 17 FL Realtors May** (condo: >9.0 = distress re-engaging, <8.5 = absorption). **~Jun 27 WestJet** winter = TOUR-05 last input.
+3. **MCO/FLL April pax** — confirmed NOT a MARCO miss; airports publish 4–6wk lag, April not out yet. Re-pull ~mid/late-Jun (flymco.com/airport-business, broward.org/Airport). MAR-22/MAR-24 stay OPEN until then.
+4. **Reconciliation rework watch** — GOP strip Byrd-flagged provisions + retry floor vote (~late Jun, TBD). 🟠 open, not done.
+5. **Cross-agent re-sends (still deferred per Will — mail-dedicated spawn):** NEXUS carries 3 corrections (v2.1 produce-thermometer, v2.2 tourism-structural, v2.3 enforcement-lock→contested) + REGINALD (condo tightening) + LABOR (ICE off-farms).
 
 ## OPEN THREADS
 | Item | Status |
 |------|--------|
-| ICE/CBP reconciliation rework + floor vote | 🟠 ~late-Jun TBD — was "locked," now contested |
+| ICE/CBP reconciliation rework + floor vote | 🟠 ~late-Jun TBD |
 | ES-MARCO-08 produce-vs-pump test | 🔴 Jun 10 CPI |
 | WestJet winter 2026-27 schedule | 🟠 ~Jun 27 — TOUR-05 last input |
-| Top-level workbook FLOW.tsv lag (Apr 21) | 🟠 carried 3 sessions (KB now current) |
-| Cross-agent correction re-sends (now 3 for NEXUS) | 🟡 deferred — mail-dedicated spawn |
-| Remittance paradox | ✅ RESOLVED 6/2 — normalizing |
-| MCO/FLL/NTTO/Broward data gaps | 🟡 next refresh |
+| MCO/FLL April pax (data not yet published) | 🟡 re-pull ~late-Jun |
+| Cross-agent correction re-sends (3 for NEXUS) | 🟡 deferred — mail-dedicated spawn |
+| Top-level workbook FLOW.tsv lag | ✅ RESOLVED 6/2 — FLOW-PRD-01 added, file repaired |
+| Remittance paradox | ✅ RESOLVED 6/2 (session 10) — normalizing; Apr re-verified session 11 |
 
 ## Mail state
-Inbox + outbox empty. No outbound written this session (cross-agent re-sends still deferred per Will — mail-dedicated spawn).
+Inbox + outbox empty. No outbound written (cross-agent re-sends still deferred per Will).
+
+## ⚠️ PENDING PUSH (session 11)
+Session-11 commit is LOCAL only. Origin diverged (remote +1) and RED + LABOR have uncommitted working-tree changes → per git protocol, did NOT pull/rebase (would risk their work). **Push deferred to next session** once the tree is clean outside MARCO. Local commit is safe.
 
 ## Handoff
-Third thesis correction in the same direction, now logged as v2.3. v2.1 demoted an over-claimed signal (produce), v2.2 re-promoted an under-claimed one (tourism), **v2.3 un-banks a not-yet-true one** — the enforcement-funding "lock" that hadn't actually passed. The robust core each time is the irreversible *stock* fact (2.2M self-deportations); the contaminated layer is the readout or forecast layered on top. The SDL-01 spine is untouched. Remittance paradox resolved toward "normalizing." Will is rebooting — clean handoff, all files current except the carried FLOW.tsv lag + deferred mail.
+Session 11 was a "bring MARCO current" sweep — no thesis change, all confirmatory. Three workbook TSVs (FLOW, VX, ML) had latent structural corruptions (newline-merges, a duplication, a dropped column) now all repaired and column-validated; VX synced to the v2.3 reads; ML documented as the frozen founding log with KB.tsv as the living file. The one substantive new datapoint (NTTO overseas −14.1% YoY Apr) reinforces structural-tourism on an independent non-Canada leg. The Banxico re-verify is the session's quiet win: a "fresher" trade-press number was wrong and our established figure held — primary > aggregator. Thesis spine (SDL-01, v2.3) untouched. Clean handoff; all MARCO files current and structurally valid.

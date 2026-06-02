@@ -214,5 +214,8 @@ After close: move `thread.md` content to `sub_agents/[NAME]/threads/archive/YYYY
 | `domain/sources/` | Research archives, STATUS backups |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
 | `outbox/` | Outbound signals for other agents. One file per signal. HERMES delivers. |
-| `workbook/VX.tsv` | 58 vectors |
+| `workbook/VX.tsv` | 57 vectors — live indicator dashboard (status/levels/thresholds). Sync changed levels here at closeout. |
+| `workbook/KB.tsv` | **Living knowledge base** — new facts/claims go here at closeout (step 7). The current workbook. |
+| `workbook/ML.tsv` | **FROZEN founding-research log** (entries Jan 20–Feb 4 2026). Superseded by `KB.tsv` for new findings; not in the closeout write path. Dated snapshots — treat values as as-of-Created, not current (see VX.tsv/STATUS for live values). `scripts/ml_to_kb.py` is LEGACY — it regenerates KB from ML in mode `'w'` and would WIPE hand-added KB rows (sessions 8+); do not run a full regen. |
+| `workbook/FLOW.tsv` | Transmission/cascade mechanics (12 flows incl. FLOW-PRD-01 freight→produce confounder). |
 | `MARCO_SKELETON.md` | v1.0 thesis (historical artifact — superseded by `thesis/THESIS.md`). |
