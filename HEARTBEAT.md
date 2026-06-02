@@ -1,47 +1,59 @@
 # HEARTBEAT.md
-**Updated:** 2026-05-21 ~19:30 ET (FORGE rehab Blocking row replaced; CC, Will-authorized)
+**Updated:** 2026-06-02 ~10:45 ET (OpenClaw Prome — Phase 3 root heartbeat refresh after Jun 2 boot cleanup)
 
 ## Regime
 
-Substance-side bear convergence hardening — 4-agent alignment on **Stage-2-late** (BROCK 46/60 + REGINALD V2.2 Bear-medium dominant + HENRY macro-structure + VIOLET R11 clock running 5/28-6/02). But tape-side counter-evidence multiplying since 5/17 (NVDA absorbed, 20Y clean, WAL reclaimed $78, SKEW>140 regime terminated, VIX9D sub-15). Iran-cluster partial-thaw + 5/17 Barakah nuclear-infra strike shifted kinetic theater. **Divergence between substance and tape — not transmission — is the live read.** WALTER steelman: "Stage-2-late may be a regime that LASTS, not BREAKS."
+**Substance/tape divergence remains the live read — not broad cascade confirmation.** Public credit and vol are still calm (HY OAS **272bps [FRED 6/1 close]**, VIX **16.12**), while stress remains concentrated in Japan/FX, energy/geopolitical risk, BDC/private-credit marks, and duration.
+
+Key Jun 2 updates:
+- **WALTER / Iran:** frame updated to **narrative-fork + kinetic-acceleration**. Tasnim/IRGC says MOU suspended; MFA/Trump channel says talks/rapid pace continue. Treat channel state as contested. Kuwait strike cadence is load-bearing. Trump rhetoric is tape-not-info in both directions.
+- **BRENT:** energy stress re-armed, but Brent is currently yellow around **$94.90**, not the prior >$100 red state.
+- **SAM:** USD/JPY remains red near **159.82**; BOJ Jun 16 / intervention-zone risk stays live.
+- **VIOLET:** R11 analog is dead / gradual fade won; old R11 clock language should not be used as current timing.
+- **PROME:** Jun 2 boot-surface rehab and handoff cleanup are pushed. SENTRY scheduled feed pushes are disabled; manual runs remain available.
+
+Working model: substance-side stress channels are still active, but the tape is forcing patience. Do not upgrade to transmission/cascade language without public-credit/vol confirmation or a concrete funding/auction/bank trigger.
 
 ## Stress dashboard
 
-HY OAS **280🟢** [5/20] · CCC **940🟡** [5/20] · 10Y **4.57🔴** [5/20] · TLT **$84.22🔴** · VIX **16.76🟡** · Brent **$104.45🔴** · USD/JPY **158.97🔴** · WAL **$78.53🟢** · KRE **$69.21🟢** · APO **$130.90🟢** · BIZD **$12.52🔴** · FXY **$57.77🟡**
+HY OAS **272🟢** [FRED 6/1] · CCC **946🟡** [FRED 6/1] · 10Y **4.45🟡** [5/29] · TLT **$85.72🟡** · VIX **16.12🟢** · Brent **$94.90🟡** · Gas weekly **4.30🔴** [6/1] · USD/JPY **159.82🔴** · WAL **$79.42🟢** · KRE **$69.19🟢** · APO **$127.76🟡** · ARES **$127.36🟡** · BIZD **$12.78🔴** · FXY **$57.44🟡**
 
 ## Thresholds
 
 | Indicator | Green | Yellow | Red | Current |
 |---|---|---|---|---|
-| HY OAS | <300 | 300-320 | >320 | **280🟢** |
-| CCC OAS | <900 | 900-1000 | >1000 | **940🟡** |
-| 10Y Treasury | <4.40 | 4.40-4.75 | >4.75 | **4.57🔴** |
-| TLT | >$88 | $85-88 | <$85 | **$84.22🔴** |
-| Brent | <$85 | $85-100 | >$100 | **$104.45🔴** |
-| USD/JPY | <150 | 150-158 | >158 | **158.97🔴** |
-| VIX | <15 | 15-20 | >20 | **16.76🟡** |
-| SOFR-IORB | <+0.05 | 0.05-0.25 | >0.25 | **-0.15🟢** |
-| KRE | >$69 | $65-69 | <$65 | **$69.21🟢** |
-| APO | <$130 | $130 watch | >$130 x3 sessions | **$130.90🟢/watch** |
-| BIZD | >$13 | $12.50-13 | <$12.50 | **$12.52🔴** |
+| HY OAS | <300 | 300-320 | >320 | **272🟢 [FRED 6/1]** |
+| CCC OAS | <900 | 900-1000 | >1000 | **946🟡 [FRED 6/1]** |
+| 10Y Treasury | <4.40 | 4.40-4.75 | >4.75 | **4.45🟡 [5/29]** |
+| TLT | >$88 | $85-88 | <$85 | **$85.72🟡** |
+| Brent | <$85 | $85-100 | >$100 | **$94.90🟡** |
+| Gas weekly | <$3.75 | $3.75-4.00 | >$4.00 | **4.30🔴 [6/1]** |
+| USD/JPY | <150 | 150-158 | >158 | **159.82🔴** |
+| VIX | <18 | 18-25 | >25 | **16.12🟢** |
+| SOFR-IORB | <+0.05 | 0.05-0.25 | >0.25 | **0.00🟢 [6/1]** |
+| KRE | >$69 | $65-69 | <$65 | **$69.19🟢** |
+| WAL | >$78 | $72-78 | <$72 | **$79.42🟢** |
+| APO | <$125 | $125-130 | >$130 x3 sessions | **$127.76🟡** |
+| BIZD | >$13 | $12.50-13 | <$12.50 | **$12.78🔴** |
 
-## Blocking on Will
+## Blocking / Pending
 
-| Pri | Decision | Reference |
+| Pri | Decision / Work | Reference |
 |---|---|---|
-| 🔴 | **6/18 theta-killer dispositions** — 6 contracts in roll-vs-let-expire limbo (HYG×8 / EGBN / AAL×2 / WAL $65P + $67.5P×2 / KRE $60P×1; all -87% to -94%; 28d to expiry). BROCK LESSONS #16 execution-rails territory. APO + ARES already let-expire (BROCK 5/21). | `FORGE/STATUS.md` §Immediate Actions |
-| 🟠 | **SAM Sep-18 $60C × 5-10 contracts** — pending post-CPI entry window (Tranche 2 already executed 5/21 at $57.66, 5 shares) | `AGENTS/SAM/TRADE.md` v1.4 |
-| 🟠 | **HEARTBEAT refresh cadence** — who writes, how often (in discussion 5/21) | this file |
-| 🔵 | **PROME execution-rails design** — HYG roll Jun→Dec died for lack of mechanism; relevant to 6/18 expiry cluster | BROCK LESSONS #16 |
+| 🔴 | **HEARTBEAT cadence / ownership** — root heartbeat was stale from May 21 until this refresh. Need decide whether this gets updated daily, only after regime changes, or as part of Prome boot cleanup. | this file + `PROME/STATUS.md` |
+| 🟠 | **Old trade rails / 6-18 cluster** — deferred per Will while Prome state is cleaned up. Treat all May 22-26 `BROKER_PENDING` / trigger language as **verification-required**, not actionable, until broker/Will reconciliation. | `PROME/ACTIVE_DECISIONS.md` |
+| 🟠 | **Position-state reconciliation pass** — separate future task if Will asks; do not mix with boot/heartbeat cleanup. | `PROME/ACTIVE_DECISIONS.md` |
+| 🔵 | **PROME execution-rails design** — HYG roll Jun→Dec died for lack of mechanism; keep as design debt, not an immediate trade instruction. | BROCK LESSONS #16 / `PROME/ACTIVE_DECISIONS.md` |
 
 ## Pointers
 
-- Recent activity → `PROME/SCRATCH.md` (CC) / `PROME/HANDOFF.md` (OpenClaw)
-- Catalysts (next 7d) → `PROME/TODAY.md` (⚠️ itself stale 5/17; refresh pending) + `CALENDAR.md` (3/27 stale; has 6/16 FOMC + 6/18 expiry cluster)
-- Action cards → `PROME/action-cards/`
+- Recent OpenClaw continuity → `PROME/HANDOFF.md`
+- Current Prome working state → `PROME/SCRATCH.md`, `PROME/TODAY.md`, `PROME/STATUS.md`, `PROME/FLEET_SCAN.md`
+- Active decisions safety index → `PROME/ACTIVE_DECISIONS.md`
 - Agent state → `AGENTS/<NAME>/STATUS.md`
-- Two-Prome COMM mailbox → `PROME/COMM/`
-- Iran-cluster anchor → `AGENTS/WALTER/anchors/IRAN_WAR.md` (5/21 refresh)
+- WALTER Iran anchor → `AGENTS/WALTER/anchors/IRAN_WAR.md` (refreshed Jun 2)
+- SENTRY feed automation → `.github/workflows/feeds.yml` (scheduled pushes disabled Jun 2; manual dispatch only)
+- News sweep / routing owner → WALTER owns signal/news routing; Prome owns tasking, rails, synthesis
 - BOND matrix v2 deployment (June 9-11) → `AGENTS/BOND/proposals/MATRIX_V2_DRAFT_prome-spawned.md`
 
 ## Skip
