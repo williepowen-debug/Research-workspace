@@ -1,4 +1,33 @@
 # PROME HANDOFF
+
+## 2026-06-02 ~10:15 ET — OpenClaw Prome boot-surface cleanup
+
+**Status:** 🟠 Phase 1/2 cleanup in progress; local edits not yet committed. GitHub/source-of-truth was clean at `e8e11442` before this cleanup pass.
+
+**What changed today:**
+- Prome state rehab package was completed and pushed as `79a66053` (`SCRATCH`, `TODAY`, `STATUS`, `FLEET_SCAN`, `ACTIVE_DECISIONS`).
+- Push required rebasing over WALTER's new commit `ddb94d13`.
+- SENTRY scheduled feed pushes were disabled and pushed as `e8e11442`; manual `workflow_dispatch` remains available.
+- Will then asked to audit Prome boot files for remaining staleness and approved phased cleanup.
+
+**Current cleanup scope:**
+1. Phase 1 — factual residue cleanup in Prome boot surfaces: completed-process rows, old HEAD references, WALTER stale labels, and SENTRY state.
+2. Phase 2 — this fresh OpenClaw handoff block.
+3. Phase 3 — root `HEARTBEAT.md` refresh, separate and not yet started. Pull live dashboard before editing or quoting levels.
+
+**Current regime carry-forward:**
+- Public credit/vol were still calm at the Jun 2 ~09:45 dashboard snapshot: HY OAS **272bps [FRED 6/1 close]**, VIX **16.18**.
+- Stress remains concentrated in Japan/FX, energy, duration, and BDC/private-credit marks.
+- WALTER Jun 2 changed Iran framing from simple suspension to **narrative-fork + kinetic-acceleration**: Tasnim/IRGC suspension vs MFA/Trump ongoing/rapid-pace denial; Kuwait strike cadence is load-bearing; Trump rhetoric is tape-not-info in both directions.
+- HEARTBEAT is still stale by date and levels; do not quote it until Phase 3 refresh.
+
+**Guardrails:**
+- No trade recommendations or execution during this cleanup.
+- Old May trade/action rails remain verification-required until broker/Will reconciliation.
+- Stage explicit files only; never `git add .` / `git add -A`.
+
+---
+
 **Date:** 2026-05-17 10:45 ET
 **Status:** ✅ Fresh after GitHub pull; local Prome/OpenClaw state refreshed from REGINALD + WALTER commits.
 

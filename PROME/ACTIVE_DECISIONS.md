@@ -1,5 +1,5 @@
 # ACTIVE_DECISIONS.md
-**Updated:** 2026-06-02 09:55 ET
+**Updated:** 2026-06-02 ~10:15 ET
 **Owner:** Prome
 **Purpose:** Boot-readable index of non-terminal decisions. Full logic stays in action cards / execution rails.
 
@@ -7,7 +7,7 @@
 
 ## Current Mode — Verification Required
 
-Will has directed this pass toward **getting Prome updated and caught up**, not trade-position optimization. Several rows below originated from May 22-26 rails and may be stale by fill state, market path, or elapsed trigger window.
+Will has directed this pass toward **getting Prome updated and caught up**, not trade-position optimization. The Jun 2 boot-surface rehab was completed/pushed; this file remains a safety index. Several rows below originated from May 22-26 rails and may be stale by fill state, market path, or elapsed trigger window.
 
 **Rule for this boot state:** do not act from any old `BROKER_PENDING` / trigger language without fresh broker/Will reconciliation. This file is currently a safety index, not an execution prompt.
 
