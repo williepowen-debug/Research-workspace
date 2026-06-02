@@ -18,6 +18,29 @@
 
 ---
 
+## FIFA WORLD CUP 2026 — REVERSAL-CATALYST MONITOR (ES-MARCO-09)
+*Added 2026-06-02 | Tournament: Jun 11 → Jul 19, 2026 | Status: 🟡 PARTIAL OFFSET, NOT REVERSAL*
+
+| Indicator | Value | Date | Status |
+|-----------|-------|------|--------|
+| WC international visitors (projected, US) | 1.24M total; 742K incremental (60%) | Tourism Economics / NTTO Spring 2026 | PROJECTION ⚠️ |
+| WC international visitor spend (projected, US) | $6.4B tourist spend | Tourism Economics | PROJECTION ⚠️ |
+| Hotel booking pace — Miami | **~55% of hoteliers AHEAD** of expectations + typical summer | AHLA Hotel Outlook Apr 30 2026 | 🟢 Strongest US host city |
+| Hotel booking pace — Atlanta | ~50% in-line or ahead | AHLA Apr 30 2026 | 🟡 |
+| Hotel booking pace — Dallas / Philadelphia / Seattle / NY / Boston | **~70–80% BELOW** forecast; many call it "non-event" | AHLA Apr 30 2026 | 🔴 |
+| Host-city RevPAR forecast Jun/Jul | +12.7% YoY (ADR-driven, not occupancy) | CoStar / Oxford Economics | PROJECTION ⚠️ |
+| Miami match-night hotel occupancy | **24–31%** (Brazil-Scotland Jun 24 = 31%, highest) | AirDNA/STR via Hotel Online, Apr 2026 | 🟡 LOW-CONF ABS VALUE |
+| Miami hotel ADR Jun (forward-booked) | $194.91 — **flat vs $194.77** (Nov 2025 snapshot) | STR via Hotel Dive | 🟡 No spike |
+| Miami match schedule | **7 matches** (Jun 15 / Jun 21 / Jun 24 / Jun 27 / Jul 3 / Jul 11 QF / Jul 18 Bronze Final) | FIFA / miamifwc26.com | Confirmed primary |
+| WC national NTTO uplift Jun | +10.0% boost to Jun YoY (57 of 78 US matches in Jun) | Tourism Economics / NTTO | PROJECTION ⚠️ |
+| Canadian airline capacity → Miami WC | **Net NEGATIVE** — Air Transat exits Jun 13; no AC Miami adds found | IVF-24; AC IR | 🔴 No WC offset on air channel |
+
+**Miami assessment (Jun–Jul 2026):** WC produces discrete spend-spikes on 7 match days and likely turns MIA pax YoY positive for Jun or Jul. This is a blip against structural decline, not restoration. Canadian air channel to Miami is net-negative (Air Transat exit Jun 13 coincides with WC open). TOUR-06 Broward TDT canary: WC provides temporary hospitality-tax cushion in Q2 2026 — watch Q3/Q4 when WC effect unwinds and snowbird-$ hole approaches.
+
+**ES-MARCO-09 reversal test:** Measurable when NTTO Jun/Jul data posts (~mid-Aug / mid-Sep). See KB-WC-05 for full data-series framework.
+
+---
+
 ## SIGNAL DASHBOARD
 
 | Indicator | Value | Date | Status |

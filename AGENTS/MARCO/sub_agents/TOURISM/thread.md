@@ -10,4 +10,4 @@
 
 ## Active thread
 
-*(none — awaiting MARCO prompt)*
+*(none — awaiting MARCO prompt. Last closed: 2026-06-02 World Cup host-city pull → `threads/archive/2026-06-02_worldcup-host-city.md`)*
