@@ -20,6 +20,8 @@ Dated event spine. Resolved events (mark ✅ with outcome) + forward branch poin
 | 2026-05-31 | MIA flipped negative (Mar −1.76%, Apr −2.02%) — TOUR-04 resolved | 2 | Anchor airport cracking; Apr domestic −3.27% = broader signal |
 | 2026-05-31 | **Thesis v1.0 → v2.0 inflection** (session 6 sweep) | all | Bifurcation recognized; conviction split by channel |
 | 2026-05-31 | **Thesis v2.1 → v2.2** (session 9 TOURISM refresh) | 2 | Canadian travel re-classified structural-not-softened; air/winter vs base-effect-headline split (mirror of v2.1 produce split) |
+| 2026-06-01 | ICE/CBP reconciliation MISSED Jun 1 deadline; parliamentarian (MacDonough) struck core enforcement/screening provisions under Byrd rule | 1 | "Enforcement lock" DOWNGRADED structural→contested — funding flow now uncertain, not locked. Stock loss (2.2M) irreversible; flow accelerator weakened |
+| 2026-06-02 | Banxico Apr remittances $4.98B +3.7% YoY; count −1.7% (narrowing from −3.6%), avg premium compressing | 4 | Pull-forward paradox FADING/normalizing — no Q2-Q3 air-pocket; count still negative = SDL-01 senders-decline intact |
 
 ---
 
@@ -27,7 +29,7 @@ Dated event spine. Resolved events (mark ✅ with outcome) + forward branch poin
 
 | Date / Window | Event | Channel | Branch logic |
 |------|-------|---------|--------------|
-| 2026-06-01 | Trump reconciliation deadline | 1 | Passage confirms enforcement funding lock (base case); slip = mild dovish surprise |
+| ~2026-06-30 | ICE/CBP reconciliation reworked floor vote (TBD post-recess) | 1 | Missed Jun 1; parliamentarian carved core. Reworked passage = flow restored (delayed/diminished); further slip = funding brake stays partially on |
 | 2026-06-13 | Air Transat YUL-FLL final → complete US exit | 2 | Executes summer capacity deletion (TOUR-03/05); feeds winter FL-$ thesis |
 | ~2026-06-27 | WestJet winter 2026-27 schedule | 2 | TOUR-05's last open input; ≥15% FL-bound seat cut = confirm |
 | ~Jun 2026 | Banxico Q1 state-of-origin data | 4 | Tax-pull-forward distortion check on SDL-01 geography |
