@@ -1,5 +1,5 @@
 # MARCO STATUS
-**Last Updated:** 2026-05-31 ET (session 9 — TOURISM full refresh to current + thesis v2.2: Canadian-travel channel re-classified structural-not-softened) | **Status:** 🟠 ELEVATED — **THESIS INFLECTION (refined): structural channels (ag-labor shock, Canadian-travel) persist; truly-cyclical channels (condo, NFP) reversed. TOURISM CORRECTION (session 9): the April Canadian +1.4% YoY "recovery" was BASE-EFFECT — the 2-yr stack vs 2024 WORSENED (−28% Mar → −30% Apr); Nanos May 82% boycott-helpful (no softening); MIA flipped negative; Air Transat completes total US exit Jun 13. Canadian travel moves back from "softened" → STRUCTURAL, split air/winter (structural-intact) vs auto/headline (base-effect noise) — mirror of the produce mechanism-vs-thermometer split. See thesis v2.2 + Canadian Travel situation. PRODUCE (v2.1): labor MECHANISM intact/HIGH, produce CPI THERMOMETER demoted/MEDIUM (multi-causal).**
+**Last Updated:** 2026-06-02 ET (session 10 — Jun 1 reconciliation + Apr Banxico pulls) | **Status:** 🟠 ELEVATED — **6/2 UPDATE: (1) ICE/CBP reconciliation MISSED the Jun 1 deadline — parliamentarian struck core enforcement provisions under Byrd rule; "structural enforcement lock" DOWNGRADED to CONTESTED (intent intact, not law). (2) Banxico Apr remittances +3.7% YoY ($4.98B): pull-forward paradox FADING (count −1.7% narrowing, avg-transfer premium compressing) → normalizing, no Q2-Q3 air-pocket; count still negative = SDL-01 tell intact.** — **THESIS INFLECTION (refined): structural channels (ag-labor shock, Canadian-travel) persist; truly-cyclical channels (condo, NFP) reversed. TOURISM CORRECTION (session 9): the April Canadian +1.4% YoY "recovery" was BASE-EFFECT — the 2-yr stack vs 2024 WORSENED (−28% Mar → −30% Apr); Nanos May 82% boycott-helpful (no softening); MIA flipped negative; Air Transat completes total US exit Jun 13. Canadian travel moves back from "softened" → STRUCTURAL, split air/winter (structural-intact) vs auto/headline (base-effect noise) — mirror of the produce mechanism-vs-thermometer split. See thesis v2.2 + Canadian Travel situation. PRODUCE (v2.1): labor MECHANISM intact/HIGH, produce CPI THERMOMETER demoted/MEDIUM (multi-causal).**
 
 ---
 
@@ -17,7 +17,7 @@ Five weeks of data (Apr 23 → May 31) broke the "10-breached acute-crisis" fram
 
 **HARDENED / STRUCTURAL (durable):**
 - **Produce prices accelerating:** CPI fresh F&V **+6.1% YoY Apr** (was +4.0% Mar); fresh veg **+3.1% MoM**. Prediction #21 flip-condition NOT met → HOLD/UPGRADE.
-- **ICE funding locked:** $71.7B reconciliation text (May 4) — $38B ICE / $26B CBP / $32.5B HSGAC. Enforcement unconstrained through Trump's term.
+- **ICE funding — CONTESTED (downgraded 6/2, was "locked"):** $71.7B reconciliation text (May 4) **missed Trump's Jun 1 deadline**; parliamentarian struck core enforcement provisions under Byrd rule. Intent unchanged (GOP can rework + pass simple-majority) but not yet law — the "unconstrained through term" claim is premature. *The stock loss (2.2M) is the irreversible piece; the funding flow is now uncertain.*
 - **H-2A bottleneck persists:** Red River Valley potato delays; South Africa consular interviews backed to July.
 - Underlying **2.2M self-deportation supply shock** is irreversible — the durable transmission to produce prices.
 - **Canadian travel — STRUCTURAL (re-classified session 9, was "softened"):** 2-yr stack vs 2024 *worsened* −28% Mar → −30% Apr (the +1.4% headline is base-effect); Nanos May 82% boycott-helpful; **air −8 to −11%** (the FL-relevant snowbird channel) while only auto/land recovers; Air Transat completes total US exit Jun 13; AC winter 26-27 zero new FL routes. FL Canadian-$ hole still lands winter 2026-27 ($600M-$1.2B). Split: **air/winter = structural-intact, auto/headline = base-effect noise.**
@@ -31,7 +31,7 @@ Five weeks of data (Apr 23 → May 31) broke the "10-breached acute-crisis" fram
 | Indicator | Value (2026-05-31) | Status |
 |-----------|--------|--------|
 | DHS Shutdown | **ENDED Apr 30** (Trump signed; 76-day record). TSA/FEMA/CG/CISA/SS funded. ICE/CBP carved out → reconciliation. | 🟢 RESOLVED |
-| ICE/CBP Reconciliation | **$71.7B text released May 4** ($38B ICE, $26B CBP, $32.5B HSGAC). Senate cmtes passed. Jun 1 target. Enforcement insulated through term. | 🔴 STRUCTURAL |
+| ICE/CBP Reconciliation | **MISSED Jun 1 deadline (Jun 2 update).** Floor vote delayed past Memorial Day; **parliamentarian MacDonough struck major enforcement/screening provisions under Byrd rule** (jurisdiction) + killed $1.8B DOJ fund & $1B ballroom security. $71.7B text (May 4: $38B ICE/$26B CBP/$32.5B HSGAC) **not yet law, core carved out.** GOP can rework/strip + pass simple-majority, but slipping. | 🟠 CONTESTED (was 🔴) |
 | Produce / CPI F&V | **+6.1% YoY Apr** (↑ from +4.0% Mar); fresh veg **+3.1% MoM**. **DECOMP: multi-causal — labor SECONDARY; FL freeze ($3.17B) + tomato tariff (17%) + diesel are the larger drivers.** | 🟠 MULTI-CAUSAL |
 | ICE Ag Raids | **Eased off farms** — ICE refraining from ag worksite enforcement, pivoted to Democratic cities (harvest-protection). | 🟠 SOFTENED |
 | H-2A Bottleneck | Red River Valley potato delays; South Africa consular interviews → July (past planting). FY26 demand accelerating. | 🔴 LIVE |
@@ -40,12 +40,12 @@ Five weeks of data (Apr 23 → May 31) broke the "10-breached acute-crisis" fram
 | FL Airports (Mar/Apr) | **MIA flipped negative: −1.76% Mar, −2.02% Apr** (Apr domestic −3.27% = new signal). FLL +10.2% Mar = base-effect (vs 2025 −11.7%). MCO record spring break. **All-3-negative (MAR-24) NOT met.** | 🟠 MIA CRACKING |
 | Canadian Airline Capacity | **Air Transat COMPLETE US exit Jun 13**; AC winter 26-27 zero new FL routes; WestJet summer −32% ASM; Cdn carriers −450K seats Q1. | 🔴 DELETING |
 | LAS / NV (Mar/Apr) | LAS pax **−7.1% Apr** (intl −12 to −15%, bleeding) but NV gaming **+5.3% Apr / +11.8% Mar** — bodies down, dollars up (high-end/convention substitution). | 🟠 BODIES↓ $↑ |
-| Mexico Remittances | **Mar +4.9% YoY** ($5.39B record); Q1 +1.4% ($14.45B). BUT transfer **count −3.6%**, avg transfer +8.9% — likely 1% tax pull-forward / FX. | 🟡 $-FLIPPED |
+| Mexico Remittances | **Apr +3.7% YoY** ($4.98B; YoY decel from +4.9% Mar). Count **−1.7%** (narrowing from −3.6%), avg transfer **+5.5%/$403** (premium shrinking from +8.9%). Jan-Apr $19.68B (+2.6%, record period). MoM −9.47% = Easter seasonal. **Pull-forward signature FADING; count still neg = SDL-01 tell intact.** | 🟡 NORMALIZING |
 | NFP Apr 2026 | **+115K** (beat 55K est), UE **4.3%** (↓ from 4.4%), Mar revised +185K. Part-time-for-econ +445K (soft underbelly). | 🟢 REBOUNDED |
 | FL Net Domestic Migration | 22,517 (93% collapse); Miami −2.0% — STALE (annual Census, no new print). | 🟡 STALE |
 | E-Verify | ✅ OPERATIONAL | 🟢 ACTIVE |
 
-**Composite: 4 structural-hardening (ICE funding, H-2A, PRODUCE-mechanism, CANADIAN-TRAVEL) | 3 reversed/softened (condo, NFP, remittance-$) | 2 stale | tourism sub-signals (MIA, capacity, LAS) all confirm the structural read**
+**Composite (rev 6/2): 3 structural-hardening (H-2A, PRODUCE-mechanism, CANADIAN-TRAVEL) | 1 contested (ICE funding — missed Jun 1, parliamentarian carved core) | 4 reversed/softened/normalizing (condo, NFP, remittance-$, remittance-paradox) | 2 stale | tourism sub-signals (MIA, capacity, LAS) all confirm the structural read**
 
 ---
 
@@ -74,10 +74,12 @@ Five weeks of data (Apr 23 → May 31) broke the "10-breached acute-crisis" fram
 - **ICE/CBP deliberately carved out** of the funding bill → routed to partisan reconciliation.
 - TSA: callout ~10.6% post-shutdown (down from 12.4% Mar 27 peak), still above ~2% normal. 1,110+ quit since Feb; new hires need 4-6mo training → lingering capacity drag into summer, but acute crisis over.
 
-### ICE/CBP Reconciliation — STRUCTURAL ENFORCEMENT LOCK (🔴)
+### ICE/CBP Reconciliation — CONTESTED, MISSED DEADLINE (🟠, was 🔴 "STRUCTURAL ENFORCEMENT LOCK" — DOWNGRADED 6/2)
 - **$71.7B text released May 4:** $38B+ ICE, $26B+ CBP (incl. $22.6B Border Patrol personnel, $3.45B border tech), $32.5B HSGAC title ($7.45B to HSI).
-- Senate Judiciary + Homeland Security committees passed. **June 1 self-imposed deadline** (tomorrow). Passes on GOP votes alone, no Democratic support needed.
-- **Implication:** ICE enforcement intensity funded and unconstrained through Trump's term (~2028). This is the durable accelerator for the SDL-01 → produce-price transmission. Funding is no longer a brake.
+- **Jun 2 reality check:** the bill **MISSED Trump's June 1 deadline.** Floor vote was delayed past Memorial Day recess (delayed May 21). **Parliamentarian Elizabeth MacDonough struck major provisions under the Byrd rule** — core ICE/CBP enforcement-and-screening funding ruled to "affect policy outside the Homeland Security committee's jurisdiction." Also killed: $1.8B DOJ "anti-weaponization" fund, $1B White House ballroom-security money.
+- **Correction to prior framing:** I had this as a done deal ("funded and unconstrained through term, funding no longer a brake"). **Premature.** The $71.7B is intent, not law, and the parliamentarian carved out chunks of the enforcement *core*. The funding brake is partially back on.
+- **Direction intact, certainty cut:** GOP can rework/strip the flagged provisions and still pass on simple-majority reconciliation (no Dem votes needed) — the political will is unchanged. But passage is contested and slipping, not locked. Watch for the reworked text + a floor vote-a-rama post-recess.
+- **Implication for SDL-01:** the durable-accelerator claim weakens. The 2.2M *stock* loss is irreversible regardless, but the *flow* of new enforcement funding is now uncertain rather than guaranteed. Re-rate the "enforcement unconstrained through 2028" assumption pending the reworked bill.
 
 ### Produce Price Spike — REAL BUT MULTI-CAUSAL; THERMOMETER DEMOTED (🟠, was 🔴 "PRIMARY LIVE SIGNAL" — DECOMP RESOLVED 5/31, thesis v2.1)
 - CPI Apr 2026: **fresh fruits & vegetables +6.1% YoY** (up from +4.0% Mar); **fresh vegetables +3.1% MoM**; fresh fruit +1.2% MoM. Food-at-home +0.7% MoM / +2.9% YoY. *(Spike is real — not in dispute.)*
@@ -107,10 +109,11 @@ Five weeks of data (Apr 23 → May 31) broke the "10-breached acute-crisis" fram
 - **Asymmetry widening:** US→Canada Apr +7.3% (air +10.8%); Q1 BOP (May 28) — Canada now net travel-services exporter (+$1.3B), US-travel spend declining.
 - **$ stress delayed not absent:** NV shows the pattern early (LAS pax −7%, gaming +5% on high-end/convention substitution). FL Canadian-$ hole lands **winter 2026-27** ($600M-$1.2B) → REGINALD bank/CRE stress Q1-Q2 2027. Detail: `domain/sources/TOUR_REFRESH_2026-05-31.md`.
 
-### Mexico Remittances — DOLLAR-VALUE REVERSAL (🟡, was 🔴)
-- **Banxico Mar 2026:** $5.39B, **+4.9% YoY** — record for March. Q1 2026 $14.45B, **+1.4% YoY** — best Q1 since 2023.
-- **Paradox:** transfer **count −3.6% YoY** while avg transfer +8.9% ($417, record). Fewer, larger transfers.
-- **Working hypothesis:** US 1% cash-remittance tax (effective Jan 1) drove **pull-forward / consolidation** into larger digital transfers + peso/FX effect — NOT a genuine labor-income recovery. If so, expect a Q2-Q3 air-pocket. Full-year 2025 was −4.6%; the count-decline is the structural tell still consistent with SDL-01.
+### Mexico Remittances — PARADOX SOFTENING, NORMALIZING (🟡)
+- **Banxico Apr 2026 (released ~Jun 1):** $4.98B, **+3.7% YoY** — YoY *decelerating* from +4.9% Mar. Jan-Apr cumulative $19.68B, **+2.6% YoY** — record for the period. MoM −9.47% is **Easter seasonal** (fewer working days), not signal.
+- **The paradox is fading, not deepening:** transfer **count −1.7% YoY** (narrowing from −3.6% Mar); avg transfer **+5.5% / $403** (premium compressed from +8.9% / $417 Mar). The "fewer, larger transfers" tax-pull-forward signature is *softening* toward a normal pattern — argues *against* a sharp pull-forward-then-air-pocket.
+- **What survives:** the count is **still negative YoY** — the structural SDL-01 tell (fewer senders in the US) persists even as dollar value and avg-transfer normalize. Full-year 2025 was −4.6%.
+- **Read:** lean "no dramatic Q2-Q3 collapse; pattern reverting toward normal." Not a labor-income *recovery* (count still negative), but not the air-pocket either. Pull-forward hypothesis partially supported (premium shrinking as Jan-tax distortion ages out) but no cliff. Keep watching count YoY as the cleanest SDL-01 readout.
 
 ### Florida Triple Exposure — COOLING (🟡, was UPGRADED)
 - Condo inventory **8.9mo Apr** (fell below 9.0; sales up, inventory tightening). Miami-Dade 12.9mo (↓ from 13.7 YoY), Lee still elevated, PB 8.2mo. The distress-inventory thesis softened — supply is being absorbed, not piling up.
@@ -170,8 +173,8 @@ Prior signals (Apr 21-23) sent under acute-crisis framing now partly stale. Re-s
 
 | Item | Priority |
 |------|----------|
-| Produce-spike attribution decomp (labor vs weather/energy/tariff) | 🔴 |
-| Remittance paradox: count −3.6% vs $ +4.9% — tax pull-forward test | 🟠 |
+| Remittance paradox: count −3.6% vs $ +4.9% — tax pull-forward test | ✅ RESOLVED 6/2 — Apr print: count −1.7% (narrowing), avg premium compressing → pull-forward fading/normalizing, no air-pocket. Count still neg = SDL-01 intact. |
+| ICE/CBP reconciliation: reworked floor vote post-Jun-1-miss | 🟠 NEW — parliamentarian carved core; watch ~late-Jun rework |
 | Cross-agent correction re-sends (REGINALD/LABOR/CARL/NEXUS) | 🟠 |
 | TOURISM sub-agent stalled (no commits since Apr 22) — re-spawn or shelve | 🟡 |
 | VX-MARCO-SDL-01 — FORMALIZED 2026-04-21 (BREACHED, HIGH, 80% conf) | ✅ |

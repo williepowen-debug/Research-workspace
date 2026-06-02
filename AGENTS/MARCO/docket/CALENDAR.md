@@ -1,18 +1,18 @@
 # MARCO CALENDAR
 
-**Last Updated:** 2026-06-01 (session 9 — TOURISM refresh: added Air Transat Jun 13 + WestJet winter; StatCan May reframed to 2-yr stack; FL airport row notes MIA flipped) | **View:** Forward-looking only. Past events pruned to `thesis/TIMELINE.md`. Countdown anchored to 2026-06-01.
+**Last Updated:** 2026-06-02 (session 10 — Jun 1 reconciliation MISSED/contested + Apr Banxico resolved; both pruned to TIMELINE) | **View:** Forward-looking only. Past events pruned to `thesis/TIMELINE.md`. Countdown anchored to 2026-06-02.
 
 **Machine feed:** `docket/CATALYSTS.tsv` (this is its prose/countdown twin). When they disagree, the TSV is source-of-truth for fields; this file owns grouping + narrative.
 
 ---
 
-## THIS WEEK (Jun 1–7) — RECONCILIATION LOCK + DATA CLUSTER
+## THIS WEEK (Jun 2–7) — DATA CLUSTER
+
+**✅ RESOLVED this week (→ TIMELINE):** **Jun 1 ICE/CBP reconciliation MISSED the deadline** — parliamentarian struck core enforcement provisions under Byrd rule; "enforcement lock" downgraded structural→contested (reworked floor vote TBD ~late Jun). **Jun 1 Banxico Apr remittances** +3.7% YoY ($4.98B), count −1.7% (narrowing) — pull-forward paradox fading/normalizing, no air-pocket.
 
 | Δ | Date | Event | Threshold / Signal | Who |
 |---|------|-------|--------------------|-----|
-| **TODAY** 🔴 | Jun 1 (Mon) | **Trump ICE/CBP reconciliation deadline** | Passage = $71.7B enforcement funding locked & unconstrained through term → the structural accelerator under SDL-01. Passes on GOP votes alone. **Watch for passage today.** | MARCO, LABOR, NEXUS, PROME |
-| +2d 🟠 | ~Jun 2 | Banxico Apr 2026 remittances | The **paradox test**: count recovers → Mar was 1% tax pull-forward (expect Q2-Q3 air-pocket); count stays −, $ flips − → SDL-01 labor-income decline confirmed. | MARCO, CARL |
-| +5d 🟡 | Jun 5 (Fri) | BLS May NFP + UR | FL leisure/hospitality sub-sector decline = ES-MARCO-01 appears. Aggregate confirms/relapses the Apr +115K rebound. 8:30 ET. | MARCO, LABOR |
+| +3d 🟡 | Jun 5 (Fri) | BLS May NFP + UR | FL leisure/hospitality sub-sector decline = ES-MARCO-01 appears. Aggregate confirms/relapses the Apr +115K rebound. 8:30 ET. | MARCO, LABOR |
 
 ---
 
@@ -34,6 +34,8 @@
 | **+26d** 🟠 | ~Jun 27 | **WestJet winter 2026-27 schedule** (approx) | TOUR-05's last open input. ≥15% FL-bound seat contraction = TOUR-05 confirms. AC winter already published (zero new FL, dropped YVR-Tampa); WestJet summer −32% ASM → winter = cuts. | MARCO, REGINALD |
 | +29d 🟡 | ~Jun 30 | Banxico Q1 state-of-origin map | Concentrated drop in high-ICE-enforcement states = SDL-01 spatial confirmation. banxico_reverse.py. | MARCO |
 | +29d 🟡 | ~Jun 30 | OFLC H-2A Q3 FY26 disclosure | On-pace for >425K = Pred MAR-11 on track. OFLC = replacement proxy for canceled NASS survey. h2a_pull.py. | MARCO, LABOR |
+| ~+28d 🟠 | ~Jun 30 (TBD) | **ICE/CBP reconciliation — reworked floor vote** | Post-recess retry after missed Jun 1. GOP must strip Byrd-flagged provisions; can pass simple-majority. Passage = funding flow restored (delayed/diminished from $71.7B); further slip = brake stays partially on. Date TBD — watch. | MARCO, LABOR, NEXUS, PROME |
+| ~+29d 🟠 | ~Jul 1 | Banxico May 2026 remittances | Count YoY = cleanest SDL-01 readout. Apr: count −1.7% (narrowing), premium compressing → paradox aging out. Watch for full normalization vs $ flipping negative. banxico_reverse.py. | MARCO, CARL |
 | ~Q3 🟡 | ~Sep 30 | FL airport Q3/summer pax (MIA/MCO/FLL) | **MIA already flipped** (−2.02% Apr → TOUR-04 resolved). All 3 negative = MAR-24 (now 45% — FLL/MCO base-effect protects their headline). OIA negative = MAR-22 (50%). Consider 2-yr-stack reframe. | MARCO, REGINALD, CARL |
 
 ---

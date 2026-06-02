@@ -4,6 +4,28 @@ Version-transition log. Newest first. Each entry: old view → new view, trigger
 
 ---
 
+## v2.2 → v2.3 — 2026-06-02 (session 10) — MINOR — "Enforcement-funding lock is contested, not locked"
+
+**Trigger:** Session-10 pull of the Jun 1 reconciliation outcome + April Banxico print. The reconciliation bill **MISSED Trump's June 1 deadline**; Senate Parliamentarian MacDonough struck core ICE/CBP enforcement-and-screening provisions under the Byrd rule (jurisdiction), plus the $1.8B DOJ fund and $1B ballroom security. No floor passage.
+
+**Old view (v2.0–v2.2):** The $71.7B reconciliation text (May 4) was treated as a near-certain lock — "ICE enforcement funded and unconstrained through Trump's term; funding is no longer a brake." This was filed as Channel 1's *structural accelerator* and as a HARDENED bullet in the thesis inflection.
+
+**New view (v2.3):** The funding **flow** is CONTESTED, not locked. The bill is intent, not law, and the parliamentarian carved out the enforcement core. **The crucial distinction the prior framing blurred: SDL-01's durable driver is the irreversible 2.2M self-deportation *stock* loss — that is untouched.** What just got downgraded is the *flow* accelerator (new enforcement funding feeding fresh removals on top of the stock). Direction unchanged (GOP can rework + pass simple-majority), certainty cut.
+
+**Why MINOR not MAJOR:** the thesis spine (stock-loss → labor supply shock → produce/ag transmission) does not move — the stock loss already happened and is irreversible. Only the *certainty of the flow accelerator* changed. Symmetric to v2.1/v2.2: a conviction-by-component refinement, separating the irreversible stock (intact) from the contested funding flow.
+
+**Conviction deltas:**
+| Item | v2.2 | v2.3 |
+|---|---|---|
+| ICE enforcement-funding lock (flow accelerator) | 🔴 STRUCTURAL / locked | **🟠 CONTESTED ↓** — missed Jun 1, core carved |
+| SDL-01 stock-loss driver (2.2M) | irreversible | **unchanged** — irreversible |
+
+**Companion data point (not a thesis change):** Banxico Apr remittances +3.7% YoY ($4.98B); the Mar pull-forward paradox (count −3.6% / avg +8.9%) is FADING (count −1.7% narrowing, avg premium +5.5% compressing) — normalizing, no Q2-Q3 air-pocket so far. Count still negative = SDL-01 senders-decline tell intact. Resolves the remittance-paradox open thread toward "normalizing." Logged KB-MARCO-REM-03; not a conviction change (consistent with existing structural read).
+
+**Discipline note:** third correction in the same direction — don't bank a forecast (here, a legislative passage) as a *resolved structural fact* before it clears. v2.1 demoted an over-claimed signal (produce), v2.2 re-promoted an under-claimed one (tourism), v2.3 un-banks a not-yet-true one (the funding lock). The robust core each time is the irreversible stock fact; the contaminated layer is the readout/forecast on top.
+
+---
+
 ## v2.1 → v2.2 — 2026-05-31 (session 9) — MINOR — "Canadian travel is structural, not softened"
 
 **Trigger:** Session-9 TOURISM full refresh (sub-agent frozen since Apr 20; top-level dashboard had absorbed only the April headline). 4 parallel research agents pulled current data — and the new StatCan March-full release (May 21) supplied the clean 2-yr stack that v2.0/v2.1 were missing.
