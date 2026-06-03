@@ -1,6 +1,6 @@
 # HENRY STATUS
 
-**Signal Status:** 🟡 **SPLIT-AXIS — cyclical divergence DECAYING toward soft-kill, structural holdout intact. Resolves on 6/10 May CPI.** Honest downgrade from 5/21 trap-clinch-WIDER: substance genuinely softened on two cyclical legs (10Y −20bps from 5/19 peak, Brent −$15 / Hormuz re-spike unwound) — so the divergence is no longer "tape calm / substance uniformly hot." Decomposes into two axes: **(1) cyclical** (rates + energy + index credit) decaying toward calm on BOTH sides = soft-kill-leaning; **(2) structural** (CCC tail not compressing with HY index + BROCK PC/BDC print substance) refusing to fade = holdout. R11 analog **CONFIRMED DEAD** (VIOLET 6/1 — window 5/28-6/02 expired un-fired, 0/7 triggers, VIX trended DOWN). Not a confirmed soft-kill (triad legs unfired); not the clinch-wider of 5/21. **Hinges on 6/10 CPI + 6/16-17 FOMC, NOT on HEN-30.** **Last Updated:** 2026-06-03 ~14:00 ET (data catch-up after 13-day gap; FRED convention adopted).
+**Signal Status:** 🟡 **SPLIT-AXIS — cyclical divergence DECAYING toward soft-kill, structural holdout intact. Resolves on 6/10 May CPI.** Honest downgrade from 5/21 trap-clinch-WIDER: substance genuinely softened on two cyclical legs (10Y −17bps vs 5/21 to 4.50, −20bps from the 5/19 peak; Brent −$9 vs 5/21 to ~$98, −$15 from the Apr 30 Hormuz peak) — so the divergence is no longer "tape calm / substance uniformly hot." Decomposes into two axes: **(1) cyclical** (rates + energy + index credit) decaying toward calm on BOTH sides = soft-kill-leaning; **(2) structural** (CCC tail not compressing with HY index + BROCK PC/BDC print substance) refusing to fade = holdout. R11 analog **CONFIRMED DEAD** (VIOLET 6/1 — window 5/28-6/02 expired un-fired, 0/7 triggers, VIX trended DOWN). Not a confirmed soft-kill (triad legs unfired); not the clinch-wider of 5/21. **Hinges on 6/10 CPI + 6/16-17 FOMC, NOT on HEN-30.** **Last Updated:** 2026-06-03 ~14:00 ET (data catch-up after 13-day gap; FRED convention adopted).
 
 **Revival lineage:** Apr 17 EOD → Prome v3 revival proxy 5/18 → 5/21 integration → 5/22 TLT decision (verdicts logged PROME/TRADE_DECISIONS.md) → 13-day gap → this 6/3 catch-up.
 
@@ -52,8 +52,8 @@
 **The divergence is no longer one-dimensional.** On 5/21 it was "tape calm / substance uniformly hot" (trap-clinch widening). Over the 13-day gap the substance side *split*:
 
 ### Axis 1 — CYCLICAL (rates + energy + index credit): DECAYING toward soft-kill
-- 10Y **−20bps** (4.67 → 4.47, live 4.50) + TIPS −12bps — duration channel un-firing
-- Brent **−$15** to ~$96-98 (Apr Hormuz re-spike fully unwound) — energy stagflation pillar softening (REGINALD's 8th channel, now weakest)
+- 10Y **−17bps vs 5/21 baseline** (4.67 → 4.50 live) + TIPS −12bps — duration channel un-firing. *(Troughed 4.47 on 6/1 = −20bps from the 5/19 peak; now ticking back up +3bps — note the relief may already be reversing.)*
+- Brent **−$9 vs 5/21** to ~$98 (−$15 from the Apr 30 Hormuz re-spike peak $111.50; fully unwound) — energy stagflation pillar softening (REGINALD's 8th channel, now weakest)
 - HY OAS **−14bps** (286 → 272) — index credit complacency
 - Tape calm (VIX 16, VIX9D 13.96, SPX new ATHs) **+ these substance legs cooling = both sides converging on calm.** This axis is soft-kill-leaning.
 
@@ -145,7 +145,7 @@
 
 ## BOTTOM LINE
 
-**Split-axis, hinges on 6/10 CPI.** June 3 ~14:00 ET: SPX 7,565 (new ATH zone, >7,100 invalidation entrenched ~28 sessions); VIX 16.28 / VIX9D 13.96 (deeper complacency but VIOLET flags 27th pctile = not extreme); SKEW spot 143 but **regime 20d-avg 138.99 still <140** (knife-edge, reconcile w/ VIOLET); HY OAS 272 [FRED 6/1] compressing toward kill (cushion 12bps); CCC 946 flat (tail not following index); 10Y 4.50% (−20bps from peak); Brent ~$96-98 (−$15, Hormuz unwound); USD/JPY 160.02 (yellow fired → SAM).
+**Split-axis, hinges on 6/10 CPI.** June 3 ~14:00 ET: SPX 7,565 (new ATH zone, >7,100 invalidation entrenched ~28 sessions); VIX 16.28 / VIX9D 13.96 (deeper complacency but VIOLET flags 27th pctile = not extreme); SKEW spot 143 but **regime 20d-avg 138.99 still <140** (knife-edge, reconcile w/ VIOLET); HY OAS 272 [FRED 6/1] compressing toward kill (cushion 12bps); CCC 946 flat (tail not following index); 10Y 4.50% (−17bps vs 5/21; −20bps from 5/19 peak, now +3bps off trough); Brent ~$98 (−$9 vs 5/21; −$15 from Apr 30 Hormuz peak); USD/JPY 160.02 (yellow fired → SAM).
 
 **Honest downgrade from 5/21.** The substance side genuinely softened on the cyclical axis (rates + energy) — this is NOT the trap-clinch-wider of 5/21, and I won't pretend the framework's preferred read survived contact with the data. But it's also NOT a confirmed soft-kill: triad legs are unfired and the structural axis (CCC tail not compressing + BROCK PC/BDC print substance, Max Bear, Q2-gated late Jul) refuses to fade. **The whole thing resolves on 6/10 May CPI** (consensus core +0.3% MoM, right at the hot line) **and 6/16-17 FOMC** — NOT on HEN-30.
 
