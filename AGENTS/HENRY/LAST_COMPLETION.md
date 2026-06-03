@@ -30,8 +30,16 @@ Caught HENRY up after a 13-day dark window, downgraded the thesis honestly (trap
 - **Stale 4/17 VIOLET outbox file** — overtaken by 5/21 LIAISON; left for messaging-overhaul sweep.
 - **KB.tsv entries** (split-axis, FRED convention, sibling-staleness) — deferred.
 
-## COMMITS
-- This session: 1 commit — "HENRY: 6/3 data catch-up — split-axis thesis + VX boot-hazard fix + mail filing" (AGENTS/HENRY/ only). State = clean, synced to origin after push.
+## COMMITS (all AGENTS/HENRY/ only, clean fast-forwards, synced to origin)
+- 85b55b20 — 6/3 data catch-up: split-axis thesis + VX boot-hazard fix + mail filing
+- 1edff821 — precision fix: label peak- vs gap-referenced 10Y/Brent deltas + git rebase-churn diagnostic
+- 622d917a — flag BROCK STATUS stale (APO trigger un-fired + HY OAS direction flipped)
+- (this) — staleness-as-boot-hazard pilot #1/#2 on STATUS threshold + triad tables
+
+## POST-CLOSEOUT (same session — Will follow-ups)
+- **Pts 1/2 resolved:** 10Y/Brent deltas dual-labeled (−17bps/−$9 vs 5/21; −20bps/−$15 from peaks). "Forced update" traced clean — normal FF push, no force, no lost work (rebase churn from a stale observer ref; verification recipe saved as fleet auto-memory).
+- **Pt 3 — BROCK staleness flagged** (outbox → BROCK): APO trigger un-fired ($125<$130, position-not-thesis), HY OAS direction flipped (now compressing toward kill, was "widening away"). Anyone reading BROCK got a stale input.
+- **Staleness pilot #1/#2 applied to HENRY** (Will-approved): date-stamp every state-claim + STANDING-vs-STATE on triggers, demonstrated in ACTIVE THRESHOLDS + INVALIDATION TRIAD. #3 (trigger-drift script) skipped. HENRY = fleet proof-of-concept; PROME owns any rollout.
 
 ## NEXT SESSION FOLLOW-UP (catalyst dates Will cares about)
 - **🔴 6/10 (Wed) 8:30 — May CPI = THE GATE.** Core MoM >0.3% → add TLT Sep $85P on yield back-up; ≤0.2% → soft-kill cyclical, hold.
