@@ -98,7 +98,8 @@ things in context are what needs doing.
    re-flag as a miss).
 6. **Report** — lead with: where OTTO left off / what intel is now stale / what's
    happened since last boot that needs integrating / what's time-sensitive right now.
-   Punchline-first, tables over prose, per OTTO's voice.
+   Punchline-first, tables over prose, per OTTO's voice. Respect provenance tags while
+   reading — an `[ALLEG]` is not settled (§ Evidence & Hygiene Conventions).
 
 If the task is specific (e.g., "check Carvana news"), go direct after step 1 (load
 STATUS.md) — skip the full sweep.
@@ -151,23 +152,8 @@ ML-log (2) and WALTER routing (7) are write-only outputs with no boot read.
    not write directly into other agents' inboxes.
 8. **Git** *(mirror of boot 0)* — commit/push when asked, per the Git rules below.
 
-**Discipline overlay (applies throughout closeout):**
-- **One source of truth per metric.** Don't write the same value in two docs — own it in the
-  owner doc, reference from the other. (The full doc-ownership table lands in Phase 3; the
-  principle applies now.)
-- **Stale-marked > carried-forward-as-current.** If you can't refresh a value, mark it
-  `[STALE <date>]` rather than presenting it as live. A wrong "current" number is worse than an
-  honestly-stale one. (This is what would have stopped TRADE.md rotting silently for 3.5 months.)
-- **Provenance and freshness are orthogonal — they compose.** Provenance (`[CONF]`/`[PRESS]`/
-  `[ALLEG]`/`[EST]`) = where a claim came from; `[STALE <date>]` = when it was last true. A claim
-  can carry both, e.g. `[CONF][STALE 2026-03]`. `[STALE]` is not a fifth provenance grade.
-- **Evidence-grade every claim — no naked assertions.** Apply going forward, backfilling a row
-  opportunistically whenever you touch it (a full retag of the existing dashboard is the
-  stale-intel review's job, not this switch). Tag each data point / claim:
-  - `[CONF]` — confirmed: SEC filing, court order/docket, corporate statement, rating action (+ source + date)
-  - `[PRESS]` — press / secondary report, not yet primary-sourced
-  - `[ALLEG]` — litigation / plaintiff allegation only → **weight ≤40% pending corporate-side or independent corroboration** (the OTTO-31 / Wilmington lesson)
-  - `[EST]` — OTTO's own estimate, extrapolation, or model-implied figure
+**Discipline:** apply § Evidence & Hygiene Conventions throughout closeout (one-source-of-truth,
+`[STALE]`-marking, evidence-grade tags).
 
 ### Git (when asked to commit/push)
 Follow the **Git Commit Protocol** in root `CLAUDE.md`. Key rules for OTTO:
@@ -176,6 +162,59 @@ Follow the **Git Commit Protocol** in root `CLAUDE.md`. Key rules for OTTO:
 3. Use scoped stash when pulling: `git stash push -- AGENTS/OTTO/`
 4. Never resolve conflicts in other agents' files — flag to PROME
 5. Do not pull when other agents have uncommitted work in their directories — defer push, note pending-push in MEMORY.md FOLLOW-UP
+
+---
+
+## Evidence & Hygiene Conventions
+
+These apply to **all** of OTTO's writing — boot report, STATUS, research, predictions, trade
+notes — not just closeout. Boot **respects** them too: never read an `[ALLEG]`-tagged claim
+as settled.
+
+### Sourcing & freshness
+- **One source of truth per metric.** Don't write the same value in two docs — own it in the
+  owner doc (see Doc Ownership), reference from the other.
+- **Stale-marked > carried-forward-as-current.** If you can't refresh a value, mark it
+  `[STALE <date>]` rather than presenting it as live. A wrong "current" number is worse than
+  an honestly-stale one.
+- **Provenance and freshness are orthogonal — they compose.** Provenance = where a claim came
+  from; `[STALE <date>]` = when it was last true. A claim can carry both, e.g.
+  `[CONF][STALE 2026-03]`. `[STALE]` is not a fifth provenance grade.
+
+### Evidence-grade tags (provenance) — no naked assertions
+Apply going forward; backfill a row opportunistically whenever you touch it (a full retag of
+the existing dashboard is the stale-intel review's job).
+- `[CONF]` — confirmed: SEC filing, court order/docket, corporate statement, rating action (+ source + date)
+- `[PRESS]` — press / secondary report, not yet primary-sourced
+- `[ALLEG]` — litigation / plaintiff allegation only → **weight ≤40% pending corporate-side or independent corroboration** (the OTTO-31 / Wilmington lesson)
+- `[EST]` — OTTO's own estimate, extrapolation, or model-implied figure
+
+### Doc Ownership
+One canonical home per fact-category. Writing a value? It belongs in its owner doc; everywhere
+else references it. *(Finalized via the Phase-3b cross-doc audit, 2026-06-02. Rows flagged
+**⚠ dup/rot** have live remediation pending — see `STALE_PUNCHLIST.md`.)*
+
+| Doc | Owns | Does NOT contain |
+|-----|------|------------------|
+| `STATUS.md` | Live signal dashboard, all current metrics, case statuses, live thesis state, CRITICAL TIMELINE, active vectors, lender watchlist | Cross-session learnings; raw research; the prediction ledger |
+| `workbook/PREDICTIONS.tsv` | The falsifiable-claim ledger (9-col schema) — every OTTO-NN + status | Narrative; dashboard values |
+| `workbook/ML.tsv` | Append-only dated master-log of observations (the event record) | Forward predictions (→ PREDICTIONS); live dashboard state (→ STATUS) |
+| `workbook/VX.tsv` | Tracked-vector **registry** — vector IDs, category, per-vector rungs + status | ⚠ dup/rot: its `Current_Value` column duplicates STATUS + the CLAUDE threshold rules and is Feb-stale; treat STATUS as the live read, VX as the structured registry |
+| `workbook/VX_HISTORY.tsv` | Time-series history of vector values | The current live read (→ STATUS / VX) |
+| `workbook/FLOW.tsv` | Transmission pathways (trigger → transmission → endpoint → agents) | Current metric values |
+| `workbook/KB.tsv` | Structured KB facts with epistemic + `STALE_BY` tagging (the in-house precedent for the evidence tags) | — |
+| `workbook/ABS_ISSUANCE.tsv`, `workbook/EXTENSION_PROXY.tsv` | Script-generated monitoring series (fed by `scripts/`) | Hand-authored narrative |
+| `workbook/CROSS_AGENT_LOG.tsv` | Log of outbound cross-agent signals (record of what was routed) | — |
+| `workbook/CATALYSTS.tsv` | Machine-readable forward-event feed *(Phase 4 — not yet built)* | Narrative |
+| `scripts/` | Monitoring automation (`abs_issuance_tracker.py`, `extension_proxy.py`) | — |
+| `MEMORY.md` | Cross-session feedback, findings, references, Session Notes (CHANGES/LAST/NEXT) | Recaps of STATUS values (reference, don't copy) |
+| `LESSONS.md` | Distilled durable process rules | ⚠ overlaps MEMORY § Feedback + these conventions (consolidation candidate — punch-list) |
+| `LAST_COMPLETION.md` | The per-session hand-off | Durable learnings (→ MEMORY) |
+| `TRADE.md` | Position ideas, entry/anti-triggers, sizing, watchlist | ⚠ Thesis metrics (→ STATUS); prediction tracking; live prices (fetch live, never store) |
+| `RESEARCH_STATUS.md` | Completed-research index + exhausted-sources / research queue | ⚠ Live monitoring snapshots (those duplicate STATUS § CRITICAL TIMELINE) |
+| `EDGAR_8K_MONITOR.md` | The 8-K early-warning monitoring protocol + bank watchlist (method) | ⚠ Bank-loss sizing (REGINALD owns); heavy REGINALD overlap |
+| `OUTBOX.md` | *(Deprecated — legacy HERMES transport buffer; superseded by WALTER inbox routing)* | Anything live |
+| `CLAUDE.md` | Identity, domain scope, boot/closeout protocol, durable thesis framing, threshold *rules*, these conventions | **Any current value or case status** (all live state → STATUS) |
 
 ---
 

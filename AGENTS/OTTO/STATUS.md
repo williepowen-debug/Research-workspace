@@ -1,8 +1,8 @@
 # OTTO STATUS
 
-**Signal Status:** 🔴🔴 CRITICAL — ESCALATING | **Last Updated:** 2026-05-22 PM EDT
+**Signal Status:** 🔴🔴 CRITICAL | **Last Updated:** 2026-06-02 EDT
 
-> **📌 New spawn:** Read `LAST_COMPLETION.md` first. May 21-22 arc: (1) Tricolor outcomes catch-up — Mar 31 was operative deadline, ~3% auction recovery, $113M distribution gridlock. (2) May 22 post-inbox sweep — PSEC cut FALSIFIED on date, CVNA May 5 split passed + chairman-separation defeated 96% + GT ratified, NY Fed Q1 confirms $1.685T total auto + transition flat at 2.97%, Origin Bancorp surfaces as previously-undiscovered Tricolor-exposed bank. (3) **May 22 PM P0 sweep — Wilmington Trust full-exit thesis WEAKENED (corporate-side denial via M&T anonymous source; narrow Tricolor-only resignation is the real event); First Brands May 20 hearing outcome NOT YET in public sources (re-check Mon).**
+> **📌 New spawn:** Read `LAST_COMPLETION.md` first. **Jun 2 session = boot/closeout protocol hardening (CLAUDE.md → v2.1, Phases 1-3b):** new git-pull boot step 0 + past-due-catch calendar scan; closeout rewritten as write-back mirror of boot; new `## Evidence & Hygiene Conventions` (evidence-grade tags `[CONF]`/`[PRESS]`/`[ALLEG]`/`[EST]`, `[STALE]` marking, Doc Ownership table); live-state stripped from CLAUDE.md (STATUS is single source of truth). Cross-doc audit produced **`STALE_PUNCHLIST.md`** (9 items; TRADE.md is headline 3.5-mo rot — remediation DEFERRED). **First Brands sweep resolved the boot-flagged May 20/25/29 catalysts:** May 20 conditional-DS approval DENIED (admin-insolvency grounds, cuts toward thesis); 4 Evolution SPV debtors already Ch.7 (Apr 9); confirmation re-targeted **Jun 17**; OTTO-32 held 85%.
 
 ---
 
@@ -366,13 +366,11 @@ $12B debt (FT). DOJ indicted Patrick James (9 counts, life risk). Asset recovery
 |------|-------|--------|
 | **Mar 31** | Tricolor vehicle-sale deadline (ORIGINAL — operative) | ✅ Auctions ran; 5,857 sold / $39.5M net (data emerged ~May 14) |
 | **Mar 31** | First Brands asset sales (Walbro $50M pending) | ✅ $25M 12-brand sale confirmed |
-| **Apr 9** | First Brands hearing — **ADJOURNED** | ✅ Superseded — eclipsed by Apr 28 PMG plan filing + larger structural events |
-| **Apr 28** | First Brands: PMG files Ch.11 Plan + Disclosure Statement (litigation trust; 111 other debtors → Ch.7) | ✅ |
-| **May 13** | First Brands: US Trustee motion to dismiss-or-convert all FBG cases to Ch.7 | 🔴 IN MOTION |
-| **May 20** | First Brands: Disclosure statement conditional-approval hearing | ⚠️ Held; outcome NOT in public sources as of May 22 PM (Kroll docket auth-gated) |
-| **May 22** | First Brands: Litigation trust sale bid deadline + 10am ET Interim Class Counsel Designation hearing | 🟠 |
-| **May 25** | First Brands: Omnibus hearing | 🟠 |
-| **May 29** | First Brands: Combined disclosure-final-approval + plan-confirmation hearing (debtor-requested) | 🔴 KEY |
+| **Apr 9** | First Brands: **4 Evolution SPV debtors converted to Ch.7** (Lopez order) — first concrete partial conversion | ✅ `[CONF]` (swept Jun 2) |
+| **May 15/18** | First Brands: PMG single-debtor Ch.11 liquidating plan filed (May 15) + Disclosure Statement (May 18); Global Settlement → Litigation Trust; all other debtors → Ch.7 after effective date | ✅ `[CONF]` (operative DS; supersedes earlier "Apr 28 PMG" draft ref) |
+| **May 13** | First Brands: US Trustee motion to dismiss-or-convert all FBG cases to Ch.7 | 🔴 PENDING — contested into Jun 17 hearing `[CONF]` |
+| **May 20** | First Brands: Disclosure statement conditional-approval hearing | ✅ **DENIED** by Judge Lopez — creditor-rights + admin-insolvency grounds (UST argument landed); ordered parties to keep negotiating `[CONF]` (swept Jun 2) |
+| **May 22/25/29** | First Brands: litigation-trust bid deadline / omnibus / debtor-requested combined confirmation hearing | ✅ Superseded — May 20 denial reset timeline; no confirmation occurred; re-targeted to Jun 17 `[CONF]` (swept Jun 2) |
 | **Apr 24** | Trustee Rule 2004 motion vs Tricolor affiliates + Fifth Third supplemental motion (contents opaque) | 🟠 |
 | **May 5** | CVNA stockholder vote: split PASSED (5-for-1, eff. May 7-8); chairman separation FAILED 96%; GT ratified | ✅ |
 | **May 7** | PSEC declares $0.035 monthly div (down from $0.045) — Q3 FY26 earnings | ✅ |
@@ -380,7 +378,7 @@ $12B debt (FT). DOJ indicted Patrick James (9 counts, life risk). Asset recovery
 | **May 14** | Trustee Rule 2004 motion vs ACV Capital LLC | 🟠 fraud surface expansion |
 | Jun 12 | Carvana discovery production 2 | 🟠 |
 | **Jun 17** | Tricolor creditor meeting — trustee distribution plan ETA | ⚠️ AT RISK — $113M ownership dispute gridlocked |
-| June | First Brands trial | 🟠 |
+| **Jun 17** | First Brands: plan-confirmation hearing (compressed schedule per Amended Moore Decl.) + UST dismiss-or-convert contested — **KEY for OTTO-32** | 🔴 KEY (same day as Tricolor creditor mtg) `[CONF]` |
 | **Oct 19** | Tricolor executive trial (Judge Liman, SDNY) | 🟠 |
 
 ---
@@ -406,7 +404,7 @@ $12B debt (FT). DOJ indicted Patrick James (9 counts, life risk). Asset recovery
 | Trigger | Status |
 |---------|--------|
 | Carvana 10-K delayed or GT resigns | ❌ 10-K filed; no GT resignation |
-| First Brands converts to Ch. 7 | 🔴 **IN MOTION** — US Trustee filed dismiss-or-convert motion May 13; PMG Ch.11 plan Apr 28 already proposes Ch.7 for 111 other debtors |
+| First Brands converts to Ch. 7 | 🔴 **PARTIALLY DONE** — 4 Evolution SPV debtors already converted to Ch.7 (Apr 9 `[CONF]`); PMG plan routes all others to Ch.7; May 20 conditional-DS approval DENIED (admin-insolvency); confirmation re-targeted Jun 17; UST dismiss-or-convert still contested |
 
 ---
 
@@ -416,4 +414,4 @@ $12B debt (FT). DOJ indicted Patrick James (9 counts, life risk). Asset recovery
 - research/outputs/ — RP-OTT-1.1–4.1 (15 reports)
 
 *Mar 20 check-ins (FOMC, CVNA, fraud, ABS, CFPB) and prior condensed check-ins archived to `workbook/STATUS_archive_20260325.md`*
-*Next triggers: Mon May 25 First Brands omnibus + May 20 outcome news sweep, May 29 FBG combined disclosure/confirmation hearing (KEY for OTTO-32), Jun 12 Carvana discovery production 2, Jun 17 Tricolor creditor meeting / distribution plan (at risk of slip), Q1/Q2 bank earnings sweep for OTTO-30, Oct 19 Tricolor criminal trial*
+*Next triggers: Jun 12 Carvana discovery production 2; Jun 17 First Brands plan-confirmation hearing (KEY for OTTO-32) + Tricolor creditor meeting/distribution plan (at risk of slip); Jun 30 OTTO-05 (BBB ABS spread) + OTTO-28 (Ally/Carvana) resolve; Q2 bank earnings (Jul) for OTTO-30; Aug 31 OTTO-30 resolve; Sep 30 OTTO-04/29/32 resolve; Oct 19 Tricolor criminal trial*
