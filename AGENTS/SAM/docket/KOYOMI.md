@@ -24,6 +24,8 @@ If you were spawned without that pointer, read both `KOYOMI.md` and `KOYOMI_MEMO
 
 You do maintenance, not analysis. If a task requires a judgment call about the thesis, position, probabilities, or channel weighting — **you do not make it.** You surface it to SAM in your return summary and let SAM decide. Discovering analytical work is fine; *acting* on it is not.
 
+**Escalation-mode discriminator (per [[finding_subagent_escalation_mode_discriminator]]):** low-stakes/reversible structural calls (TSV scope, calendar precedent, schema additions) → apply your sane default-if-undecided + log the rationale + flag for SAM/Will veto on next turn; **don't** round-trip. Money/irreversible calls (none in KOYOMI's scope by design — KOYOMI doesn't touch money fields) → block, never apply default. Use "ESCALATION-LOG" framing for applied defaults; "ESCALATION-BLOCK" framing only when waiting on Will.
+
 ---
 
 ## READ-SET (read these; do not edit them unless listed in WRITE-SET below)
@@ -77,11 +79,34 @@ You do maintenance, not analysis. If a task requires a judgment call about the t
 5. **Write back to `KOYOMI_MEMORY.md`** — append the new `## LAST RUN` entry; adjust `## PENDING` (add new escalations; leave prior ones for SAM to clear when resolved); update `## STANDING MONITORS`; write `## NEXT RUN HINTS`.
 
 ### CATALYSTS.tsv format rules (load-bearing — scripts parse this)
-- Columns, tab-separated: `date  event  what_to_check  threshold_signal  priority  who_cares  notes`
+- Columns, tab-separated: `date  event  what_to_check  threshold_signal  priority  who_cares  notes  type`
 - `date` = strict `YYYY-MM-DD`, one row per dated event. No ranges, no "Ongoing", no prose dates (those live only in CALENDAR.md).
 - Keep file date-sorted.
 - **JGB auction rows must keep "JGB" + "auction" in the event name** (e.g. `JGB 30Y auction`) — `jgb_auctions.py` filters on those tokens to auto-fetch results. (It deliberately skips events containing "liquidity enhancement".)
 - `priority` uses 🔴 / 🟠 / 🟡; `who_cares` is comma-separated agents or `ALL`.
+- **`type` column (added 2026-06-03)** = `external` (default, public release / policy / market event) OR `sam-internal` (SAM-internal mechanical decision gate; see TSV-SCOPE PRECEDENT below). Empty `type` is treated as `external` by `catalyst_countdown.py` for back-compat; new rows should always tag explicitly. SAM-internal rows render with a 🔧 prefix at boot.
+
+### TSV-SCOPE PRECEDENT (Will-decided 2026-06-03; SAM-internal triggers admitted)
+
+**Decision:** SAM-internal mechanical decision gates QUALIFY for CATALYSTS.tsv inclusion (tagged `type=sam-internal`) when they meet BOTH gates below. This is a precedent — KOYOMI applies it without re-escalating to Will.
+
+**Inclusion bar (both required):**
+1. **DATE-SPECIFIC** — fixed calendar date (not "ongoing," not "within N days," not condition-driven).
+2. **ACTION-FORCING decision gate** — the date triggers a specific pre-registered SAM action (mark move, trigger fire, position decision, etc.), not just a passive watch.
+
+**Worked examples (in-scope):**
+- ✅ Jun 9 SAM-21 mechanical trigger re-check (Polymarket BOJ Jun 16 hike vs 90% threshold) — date-specific, action-forcing (+5pp on SAM-21 if gate clears)
+- ✅ Sat Jun 6 CFTC residual-gate re-check (under METHOD) — date-specific, action-forcing (amplifier on/off + residual on/off based on -108K line)
+
+**Out-of-scope (stay in MEMORY / STATUS prose, never in TSV):**
+- ❌ Ongoing monitors ("watch Brent for $100 break," "MOF headline watch") — not date-specific
+- ❌ Standing or conditional triggers without a fixed date (e.g. eval re-baseline, stop-spec re-evaluation, "next session pre-BOJ window") — not date-specific
+- ❌ Forward-looking *risk* flags or *outcome* watches (e.g. "watch for BOJ pre-cabling") — not action-forcing decision gates
+
+**Guardrails:**
+- `jgb_auctions.py` filter (`"jgb" + "auction" in event name`) naturally excludes SAM-internal rows — verified Jun 3 2026.
+- `catalyst_countdown.py` renders SAM-internal rows with 🔧 prefix to distinguish from external — verified Jun 3 2026.
+- Both parsers retested after any schema change.
 
 ### BASELINE AUDIT (per step 2a — universe + execution)
 

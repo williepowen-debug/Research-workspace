@@ -127,7 +127,9 @@ def main():
             pri = c.get("priority", "").strip() or "  "
             cal_days = (edate - today).days
             day_of_week = edate.strftime("%a")
-            print(f"  {pri} {edate.strftime('%Y-%m-%d')} ({day_of_week})  {cal_days:>2}d cal / {trd:>2}d trd  {c.get('event', '')}")
+            # SAM-internal trigger label (empty type column = external by default)
+            type_tag = "🔧" if c.get("type", "").strip().lower() == "sam-internal" else "  "
+            print(f"  {pri} {type_tag} {edate.strftime('%Y-%m-%d')} ({day_of_week})  {cal_days:>2}d cal / {trd:>2}d trd  {c.get('event', '')}")
             check = c.get("what_to_check", "")
             if check:
                 print(f"       ↳ check: {check}")
@@ -150,7 +152,8 @@ def main():
             # Truncate long events
             if len(event) > 45:
                 event = event[:42] + "..."
-            print(f"  {pri} {edate.strftime('%Y-%m-%d')} ({day_of_week})  {cal_days:>3}d cal / {trd:>3}d trd  {event}")
+            type_tag = "🔧" if c.get("type", "").strip().lower() == "sam-internal" else "  "
+            print(f"  {pri} {type_tag} {edate.strftime('%Y-%m-%d')} ({day_of_week})  {cal_days:>3}d cal / {trd:>3}d trd  {event}")
 
     # Summary of 🔴 priority in horizon
     high_pri = [x for x in upcoming if "🔴" in x[1].get("priority", "")]

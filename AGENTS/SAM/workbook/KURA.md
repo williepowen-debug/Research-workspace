@@ -4,7 +4,7 @@
 **Type:** SAM-internal sub-agent. Spawned only by SAM, on command or at closeout. **Not a network peer** — no `AGENTS/KURA/` home, not on PROME's coordination surface, never appears in `AGENTS/SIGNALS.md` or the cross-agent roster.
 **Mandate:** Hold the `workbook/` in context so SAM doesn't have to re-read 119+ rows every session. Harvest durable facts SAM's session work produced, reconcile/archive stale rows, and surface the genuine judgment calls. **Keep the workbook current without SAM paying the context cost.**
 
-**Last harvest:** 2026-06-02 (Run 2; 1 add promoted — KB-183 fxy-proxy-v1 failure mode, Framework)
+**Last harvest:** 2026-06-03 (Run 3; 1 KB add promoted — KB-184 MOF intervention measurement scope (A1, Framework). KB-185 thin-liquidity prediction-market discipline RE-ROUTED to auto-memory `[[finding_thin_liquidity_prediction_market_discipline]]` by Will — transferable cross-agent discipline, not Japan-specific. KB-183 routing precedent narrowed: tool-specific *and* SAM-domain-only → KB; cross-agent transferable rules → auto-memory. + 2 FLOW spot-stale fixes — FLOW-JPN-5.02 + 6.02)
 
 ---
 
@@ -23,6 +23,8 @@ The mode defaults to `propose-only` when unstated.
 If you were spawned without that pointer, read both `KURA.md` and `KURA_MEMORY.md` first anyway — together they are your complete brief.
 
 ---
+
+**Escalation-mode discriminator (per [[finding_subagent_escalation_mode_discriminator]]):** borderline routing calls (Framework KB vs auto-memory, gate-tier scoring, watermark window) are low-stakes/reversible structural — apply your sane default + log the rationale on the proposed row's Notes column + flag for SAM/Will veto. Don't block on every borderline. KURA has no money-field territory by design.
 
 ## THE CORE IDEA
 
@@ -203,3 +205,25 @@ KB-SAM-183	2026-06-02	Framework	LIVE	FXY Vol Proxy (`fxy-proxy-v1`) — Read Sig
 **Rationale:** Jun 2 boot surfaced an apparent data anomaly in the auto-pulled vol feed — ATM IV reading 1.56% (Jun-18) and 0.39% (Sep/Dec) is implausible mid-June BOJ window pricing. SAM is reading sign-only and has flagged level as suspect in MEMORY NEXT SESSION #9 ("vol-proxy recalibration now urgent"). The caveat is durable (it's a methodology fact about `fxy-proxy-v1`, not a single tape print) and reference-grade (next time the proxy prints weird, this row is the lookup). Gate test: Durable ✅ (methodology, not telemetry) / Reference-grade ✅ / Not in KB ✅ (KB-174 covers the LIVE read pointer but not the proxy-failure mode) / Not tsv-territory ✅ (this is interpretation of the tsv, not the tsv data itself) / Thesis-relevant ✅ (vol read feeds 3-of-3 convergence read, position decisions). Conservative grade B2 — proxy methodology not yet primary-source documented.
 
 *(KURA judgment-call note: this is borderline at the "Framework" category since it shades into "process/calibration." Routed it as Framework KB row rather than auto-memory because it's a fact about a specific SAM tool, not a transferable agent-cross-cutting lesson. SAM may prefer to push it to auto-memory or to a `scripts/README.md` instead — flag for SAM call.)*
+
+**[Run-2 RESOLUTION 2026-06-03]:** SAM approved KB-SAM-183 as Framework KB row (landed in KB.tsv row 126). Routing call settled in favor of KB over auto-memory / scripts/README. Pattern: tool-specific methodology caveat earns a KB row when the tool drives thesis-level reads (vol proxy feeds 3-of-3 convergence + position decisions). Logged for SAM CALIBRATION pass.
+
+---
+
+### Run 3 — 2026-06-03 (proposed)
+
+**KB-SAM-184 (Framework)** — MOF intervention measurement scope: lead with monthly aggregate; footnote named-op estimates
+
+```
+KB-SAM-184	2026-06-03	Framework	LIVE	MOF Intervention Measurement Scope — Lead With Monthly Aggregate	MOF official monthly aggregate (released via 為替介入実施状況 monthly report ~3-5 days after month-end) is the AUTHORITATIVE intervention size figure — lead with it. Named-op intraday estimates (Reuters/BofA back-out from BOJ daily settlement-balance discrepancies) carry ±10-15% noise per operation and routinely miss small unflagged smoothing ops. Apr 28–May 27 worked example: official ¥11,734.9B vs two-op named-op sum ¥9.78T (Apr 30 ¥5.48T + May 6 ¥4.3T) = ~¥1.95T residual (~17% gap) classifiable as ~70% back-out slippage / ~30% possible unflagged smoothing op. Per-op breakdown only available in MOF quarterly per-op release.	A1	MOF 為替介入実施状況 May release (2026-05-29) / Reuters & BofA Apr 30 + May 6 BOJ-balance back-outs / SAM verification 2026-06-03	Resolves the Apr 30 + May 6 named-op estimate vs MOF authoritative aggregate question for KB-170. Reaction-function intensity read unchanged — both methods show "largest round since 2022." Cf. KB-170 (named-op #1+#2 estimates). Future intervention measurement: STATUS leads with MOF monthly authoritative; footnotes named-op estimates with provenance.
+```
+
+**Rationale:** Today's PM verification (commit `1122060a`) resolved a real STATUS-vs-Trading-Economics discrepancy between ~¥10T (Reuters/BofA two-op back-out) and ¥11.73T (MOF authoritative). The resolution methodology — lead with the monthly aggregate, footnote the back-out estimates with their ~±10-15% per-op noise — is a durable measurement-discipline fact, not a one-off tape print. Next time SAM (or any consumer of MOF intervention data) faces the same question, this row is the lookup. Gate test: Durable ✅ (methodology, not the figure itself — the figure lives in KB-170 / STATUS) / Reference-grade ✅ (named provenance hierarchy) / Not in KB ✅ (KB-170 documents named-op #1+#2 but no row codifies the source-hierarchy methodology) / Not tsv-territory ✅ (methodology, not an auto-pulled feed) / Thesis-relevant ✅ (Channel 3 is a v1.5 pillar; measurement integrity feeds reaction-function intensity reads). Conservative grade A1 — primary-source documented (MOF release) with cross-method delta quantified. **Gold-standard add per spec — mechanism + durable provenance hierarchy.**
+
+**KB-SAM-185 (Framework)** — Thin-liquidity binary prediction-market read rule: single-print ≠ "holds"; require cross-source
+
+```
+KB-SAM-185	2026-06-03	Framework	LIVE	Thin-Liquidity Prediction-Market Single-Print Discipline	Thin-liquidity binary prediction-market prints (Polymarket BOJ-hike contracts, Kalshi event markets) can move 5-10pp on a single trade in low-volume contracts — a single-print move is NOT a "holds." Operating rule before any mark update from a prediction-market signal: (1) require pricing to hold at the new level on a re-check ≥3 trading days later; (2) cross-verify against an independent source (swap pricing via OIS, dealer-desk read e.g. MUFG, Bloomberg consensus); (3) where prior failures on the same mechanism establish an earned-discount calibration, hold below market until both gates pass. Worked example Jun 3: Polymarket BOJ Jun 16 hike 87.6% → 94.8% (+7pp/24h); SAM-21 HELD 70% — pre-registered mechanical trigger "if Polymarket ≥90% on Jun 9 re-check AND no Takaichi pushback → +5pp to 75%." Earned-discount basis: SAM-08 (90% too-hawkish FAIL) + SAM-20 (60% too-hawkish FAIL) on same Takaichi-ceiling mechanism.	B2	SAM Jun 3 PM session (commit `1122060a` STATUS pre-registered trigger) / SAM-21 honesty caveat (STATUS § BOJ ASSESSMENT) / PREDICTIONS_ARCHIVE SAM-08, SAM-20 lessons	Cf. KB-058 (Stop Discipline conjunction rule — same "both-conditions-required" pattern). Calibration-flavored but anchored to a specific tool-class (binary prediction markets) and stated as an operating rule, so reads as Framework methodology rather than agent-cross-cutting lesson. SAM may prefer routing to auto-memory if the rule generalizes beyond Japan-macro probability marks — flag for SAM call.
+```
+
+**Rationale:** Today's Polymarket +7pp/24h move was correctly NOT chased; the discipline that produced that outcome (single-print isn't a hold; cross-verify; honor earned-discount calibration on prior-failure mechanisms) is reference-grade and SAM has now applied it twice in two sessions (Jun 2 87.6% → didn't move from 70%; Jun 3 94.8% → didn't move from 70% but pre-registered trigger). Gate test: Durable ✅ (methodology, not telemetry) / Reference-grade ✅ (operating rule with three named gates) / Not in KB ✅ / Not tsv-territory ✅ / Thesis-relevant ✅ (Polymarket drives mark updates on SAM-21, SAM-23 routinely). Conservative grade B2 — methodology synthesized from session work, not yet primary-source documented as a published rule. **Borderline placement** (Framework KB vs auto-memory) — this is the same borderline that came up with KB-183 (proxy methodology); since SAM ruled in favor of KB for tool-specific methodology, applying the same routing here. Flag for SAM to re-decide if the rule reads more universal than Japan-macro.

@@ -54,6 +54,8 @@ You hold the diff; SAM holds the judgment.
 
 **The one rule:** you are a diff machine that returns a list. The only file you touch is `METSUKE_MEMORY.md`. If you ever feel the pull to "just fix" a TRADE/STRATEGY cell — stop. That's exactly the failure mode this brief exists to prevent.
 
+**Escalation-mode discriminator (per [[finding_subagent_escalation_mode_discriminator]]):** MONEY-FIELD-ESCALATION flags → BLOCK (never propose a value, Will-confirm only — this is the money/irreversible class). All other categories (STALE-MARK, STALE-FRAMING, DUP-LIVE-SPOT, TRIGGER-STATUS-DRIFT, CAL-DRIFT, ARCHIVE-CANDIDATE, CHANGELOG-GAP) → low-stakes/reversible structural; surface as proposed corrections with quoted source + canonical reference + suggested fix, but SAM applies. METSUKE never blocks on those — they're the propose-fix-flow.
+
 ---
 
 ## READ-SET (read these; do not edit any of them)
