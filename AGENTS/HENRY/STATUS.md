@@ -70,32 +70,36 @@
 
 ---
 
-## INVALIDATION TRIAD — LITERAL STATUS (framing-precision discipline)
+## INVALIDATION TRIAD — STANDING RULE vs STATE (framing-precision discipline)
 
-| Criterion | Literal threshold | Live (6/3) | Literal status |
+*Same pilot convention: STANDING = the literal invalidation rule (fixed); STATE = `[as-of @ level]` so the leg's status is never read stale.*
+
+| Leg | STANDING rule | STATE [as-of @ level] | Literal status |
 |---|---|---|---|
-| HY OAS <260 sustained 5 sess | <260 × 5 | 272 [FRED 6/1] | **Not fired.** Compressing toward kill (−14bps from 5/21); cushion 12bps to kill / 7bps to 265 |
-| VIX <15 single session | <15 | 16.28 (VIX9D 13.96) | **Not fired (spot).** VIX9D sub-15 but VIOLET flags 27th pctile — not structurally extreme |
-| SPX >7,100 5 sessions | >7,100 × 5 | 7,565, ~28 sessions | **Fired and entrenched** |
+| 1 — HY OAS | <260 sustained 5 sess | [FRED 6/1 @ 272] | **NOT FIRED.** Compressing toward kill (−14bps vs 5/21); cushion 12bps to kill / 7bps to 265 |
+| 2 — VIX | <15 single session | [yf 6/3 @ 16.28] | **NOT FIRED (spot).** VIX9D 13.96 sub-15 but VIOLET flags 27th pctile — not structurally extreme |
+| 3 — SPX | >7,100 × 5 sessions | [yf 6/3 @ 7,565; ~28 sess] | **FIRED and entrenched** (~Apr 25) |
 
-**Literal count: 1 fired + 1 compressing + 1 flat.** (Use the literal count, not trajectory framing — per framing-precision overlay.)
+**Literal count: 1 fired + 1 compressing + 1 flat** [as-of 6/3]. (Use the literal count, not trajectory framing — per framing-precision overlay.)
 
 ---
 
 ## ACTIVE THRESHOLDS
 
-| Metric | Current | Yellow | Orange | Red | Cross-Agent Trigger |
-|--------|---------|--------|--------|-----|---------------------|
-| VIX | 16.28 | >23 | >28 | >30 sustained | → ALL (risk-off regime) |
-| SPX | 7,565 | <7,200 | <7,100 | <6,494 (CTA L4) | → CTA layer 4 |
-| KRE | $68.27 | <$65 | <$62 | <$60 | → REGINALD, PROME |
-| 10Y | 4.50% | >4.5% | >4.8% | >5.0% | → LIQUID (term premium) |
-| HY OAS | 272 [6/1] | >320 | >400 | >500 | → credit-equity transmission |
-| CCC OAS | 946 [6/1] | >900 | >1000 | >1100 | → dispersion canary (already >900) |
-| **USD/JPY** | **160.02** | **>160** ✅ | >162 | >165 | → **SAM carry-unwind — YELLOW FIRED 6/3** |
-| HY OAS kill watch | 272 | <290 | <270 | <260 sustained | → invalidation leg 1 |
-| VIX kill watch | 16.28 | <17 | <16 | <15 single sess | → invalidation leg 2 |
-| SPX kill watch | 7,565 | <7,200 | <7,100 | >7,100 × 5 | → leg 3 FIRED |
+*Pilot convention (HENRY, 6/3 — staleness-as-boot-hazard fix #1/#2): every Current value carries `[src M/D]`; Yellow/Orange/Red = the STANDING rule; **State** = where the trigger actually sits + the as-of date & level that determined it. A stale read then self-flags (cf. BROCK's "APO entrenched >$130 [5/21]" reading as live when APO is now $125). FIRED/un-fired is never a bare claim — it's `STATE [date @ level]`.*
+
+| Metric | Current | Yellow | Orange | Red | State [as-of @ level] → Cross-Agent |
+|--------|---------|--------|--------|-----|------------------------------|
+| VIX | 16.28 [yf 6/3] | >23 | >28 | >30 sust | ARMED-quiet [6/3 @ 16.28] · → ALL on red |
+| SPX | 7,565 [yf 6/3] | <7,200 | <7,100 | <6,494 | ARMED-quiet [6/3 @ 7,565] · → CTA L4 on <6,494 |
+| KRE | $68.27 [yf 6/3] | <$65 | <$62 | <$60 | ARMED [6/3 @ 68.27] (3.27 above yellow) · → REGINALD/PROME on <$65 |
+| 10Y | 4.50% [yf 6/3] | >4.5% | >4.8% | >5.0% | AT YELLOW EDGE [6/3 @ 4.50] · → LIQUID on term-prem |
+| HY OAS | 272 [FRED 6/1] | >320 | >400 | >500 | ARMED [6/1 @ 272] (48bps below yellow) · → credit-equity on >320 |
+| CCC OAS | 946 [FRED 6/1] | >900 | >1000 | >1100 | YELLOW [6/1 @ 946] (already >900) · → dispersion canary |
+| **USD/JPY** | **160.02 [yf 6/3]** | **>160** | >162 | >165 | **FIRED-YELLOW [6/3 @ 160.02]** · → SAM carry-unwind |
+| HY OAS kill | 272 [FRED 6/1] | <290 | <270 | <260 sust | WARN [6/1 @ 272] (<290 warn hit; <260 kill NOT fired; cushion 12bps) · leg 1 |
+| VIX kill | 16.28 [yf 6/3] | <17 | <16 | <15 1-sess | WARN [6/3 @ 16.28] (<17 warn hit; <15 kill NOT fired; VIX9D 13.96) · leg 2 |
+| SPX kill | 7,565 [yf 6/3] | <7,200 | <7,100 | >7,100×5 | **FIRED [~Apr 25, entrenched ~28 sess]** · leg 3 |
 
 ---
 
