@@ -1,12 +1,17 @@
 Pred_ID	Date_Made	Prediction	Confidence	Timeframe	Status	Date_Resolved	Outcome	Notes
-LAB-01	2026-02-18	Temp YoY stays <-6%	85%	Q1 2026	OPEN		KELYA -11-13% Q1 guide confirms
-LAB-02	2026-02-18	U-3 reaches 4.7%+	65%	Q2 2026	OPEN		⬇️ from 70% — staffing sequential counter
-LAB-03	2026-02-18	Claims breach 250K	65%	Q2-Q3 2026	OPEN		Shadow payroll gap verdict Mar-Apr
-LAB-04	2026-02-18	FL foreclosures +75%+ YoY	75%	Q2 2026	OPEN		Already +57%, exhaustion wave = accelerant
-LAB-05	2026-02-18	KFRC earnings miss	55%	Q1 2026	OPEN		⬇️ from 70% — sequential growth counter
-LAB-06	2026-02-18	ISM Mfg Employment <50	80%	Through 2026	OPEN		28 months straight
-LAB-07	2026-02-18	DOGE separations >400K	65%	Q3 2026	OPEN		327K already, Schedule Policy/Career Mar 6
-LAB-08	2026-02-18	BLS benchmark revision >500K downward	65%	Q1 2027	OPEN		Phantom job pattern + JOLTS delay
-LAB-09	2026-02-18	Shadow payroll gap closes	60%	Mar-Apr 2026	OPEN		THE critical test — verdict imminent
-LAB-10	2026-02-18	70%+ layoff cohort shows revenue decel	75%	Q3 2026	OPEN		Framework base rate
-LAB-11	2026-02-18	AI narrative shield breaks	55%	Q3-Q4 2026	OPEN		Second post-layoff earnings cycle
+LAB-01	2026-02-18	Temp YoY stays <-6%	85%	Q1 2026	RESOLVED	2026-06-02	FALSIFIED	BLS CES Temp Help Svcs +9.1K/+4.4K/+7.9K Jan/Mar/Apr; ASA +4.9% YoY Apr 19. Industry EXPANDING. Anchor-vs-measure error: prediction tied to company guidance (KELYA), canonical is BLS CES.
+LAB-02	2026-02-18	U-3 reaches 4.7%+	50%	Q2 2026	OPEN			Conf 65%→50% Jun 2. Apr 4.3% flat (BLS May 8). Q2 needs May+Jun; single-print +0.4pp unlikely.
+LAB-03	2026-02-18	Claims breach 250K	25%	Q2-Q3 2026	OPEN			Conf 65%→25% Jun 2. Drift 189K→215K through May; 4-wk MA 209K. No break. Bull falsification path closed.
+LAB-04	2026-02-18	FL foreclosures +75%+ YoY	75%	Q2 2026	OPEN			Already +57%; exhaustion wave = accelerant. Not refreshed Jun 2 session.
+LAB-05	2026-02-18	KFRC earnings miss	55%	Q1 2026	RESOLVED	2026-04-28	FALSIFIED	KFRC Q1 +20% pre-mkt; first annual revenue gain in years; $0.46 EPS beat. Confirms large-cap staffing bottom.
+LAB-06	2026-02-18	ISM Mfg Employment <50	80%	Through 2026	OPEN			Apr 46.4, May 48.6 — both <50. 32 consecutive months in contraction.
+LAB-07	2026-02-18	DOGE separations >400K	65%	Q3 2026	RESOLVED	2026-05	CONFIRMED	403K cumulative federal departures confirmed May (FedNewsNet/OPM). Hit Q3 target in Q2; pace decelerated to ~16K/4mo.
+LAB-08	2026-02-18	BLS benchmark revision >500K downward	65%	Q1 2027	OPEN			Phantom job pattern + JOLTS delay. Not refreshed Jun 2 session.
+LAB-09	2026-02-18	Shadow payroll gap closes	60%	Mar-Apr 2026	RESOLVED	2026-03	CONFIRMED	Confirmed Mar (Feb -92K NFP revision). Shadow gap closed per STATUS Mar 6.
+LAB-10	2026-02-18	70%+ layoff cohort shows revenue decel	75%	Q3 2026	OPEN			Framework base rate. Not refreshed Jun 2 session.
+LAB-11	2026-02-18	AI narrative shield breaks	55%	Q3-Q4 2026	OPEN			Second post-layoff earnings cycle. Not refreshed Jun 2 session.
+LAB-12	2026-05-04	U-3 ≥5.0% Q3-Q4	55%	Q3-Q4 2026	OPEN			Originated May 4 STATUS (earliest verifiable). 60%→55% Jun 2. NFIB poor sales r=0.83 anchor.
+LAB-13	2026-05-04	Healthcare turns net-negative by July NFP	30%	July 2026	OPEN			Originated May 4. Conf 55%→35%→30% Jun 2. Phase 3 finding: aggregate +37K carried by nursing+home health; hospitals/ambulatory only ~11K combined. Hospital-tier net-neg more probable than aggregate.
+LAB-14	2026-05-04	NFP April <100K	45%	May 2026	RESOLVED	2026-05-08	FALSIFIED	+115K printed (cons +55-65K = BEAT). U-3 4.3% flat. Healthcare +37K, federal -9K, mfg -2K. Net revisions Feb/Mar -16K.
+LAB-15	2026-06-02	NFP May <100K	40%	Jun 6 2026	OPEN			NEW Jun 2. ADP weekly Pulse 4-wk ~36K/wk = ~143K equiv; soft bias above 100K. Resolves Jun 6 NFP release.
+LAB-16	2026-06-02	JOLTS hire-rate collapse continues into May	65%	July 2026	OPEN			NEW Jun 2. Apr hires 5.1M multi-yr low while openings 7.6M 24-mo high = "post-don't-hire." Watch JOLTS May (early July release) for persistence vs revision.
