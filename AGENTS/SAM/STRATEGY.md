@@ -56,7 +56,7 @@
 ### When to HOLD (current stance — v1.5 single-path)
 
 - Thesis intact on direction; structure has narrowed from multi-channel convergence to single-path (June BOJ Jun 16)
-- Position sized to survive single-path drawdown (stop $55.05 = 5.6% below $58.32 avg cost; risk-factor table now flags BOJ-delay at 25% as the dominant downside)
+- Position sized to be **event-capped** through Jun 16 (small + defined-risk; $798 total exposure); $55.05 is a post-event thesis-break *level*, not a pre-event mechanical stop — see EXIT rules below. Risk-factor table flags BOJ-delay at 25% as the dominant downside.
 - Let June BOJ do its job — pre-cabling Jun 13-15 is the next decision window
 - **May 31 market repriced June BOJ hike to ~88%** (Polymarket / swap), sustained 9-day move that held straight through both dovish CPI prints (April national, Tokyo May 1.6%) → SAM-21 marked ~50% → **70%**. Market siding with wage/activity mechanism (Apr IP +0.8% / retail +2.1%) + 3-dissent split + SoO "quite possible from next meeting" over the CPI threshold. Remaining near-term reads that can move SAM-21: CFTC weekly (next release Sat Jun 6), US CPI Jun 10 (Fed-side gate — could move dots one week ahead), BOJ pre-cabling (Jun 13-15; pre-meeting blackout starts ~Jun 13, T-2). Note: **no fresh *national* CPI prints before the Jun 16 decision** (national May is Jun 19, post-meeting) — the BOJ call rests on Tokyo (subsidy-biased low) + April national 1.9%.
 
@@ -69,10 +69,16 @@
 **Hold through target if:**
 - FXY hits $61 but ATM IV is still mid-range and the RR proxy hasn't hit an extreme — move may have more to go
 
-**Stop loss:**
-- FXY below $55.05 / USD/JPY above 167
-- Thesis break: no MOF response at 167 AND BOJ turns dovish
-- Either alone is insufficient — both required to exit
+**Stop loss (event-cap mode — Will-decided 2026-06-03):**
+
+| Window | Trigger | Rationale |
+|---|---|---|
+| **Pre-Jun-16** | **No mechanical price stop.** Position is event-capped by sizing ($798 total exposure; share max-loss ~$42 to $55.05, call capped at $40 premium). Ride through pre-event tape regardless of FXY/USDJPY level. | Pre-event price stop optimizes for the worst asymmetric error — knocked out the day before the catalyst that resolves the thesis (Aug 2024 precedent: USDJPY tagged 161.95 pre-BOJ then reversed to 141 over weeks). Position was deliberately sized small + defined-risk to be event-capped. |
+| **Post-Jun-16** | Exit if BOTH conditions met: **(a)** BOJ turned dovish at Jun 16 meeting (held + dovish guidance, OR cut surprise) **AND** **(b)** USDJPY at/above 167 with no MOF response (i.e., MOF #3 didn't fire or failed). $55.05 is the FXY level that typically correlates with USDJPY ~167. | If hike fires and yen still doesn't rip — structural pillars (rate-diff, J-ICS, hedge-ratio, positioning) aren't dominating as the thesis requires. Real thesis-break signal. Single condition (price-only OR BOJ-only) is insufficient — both required. |
+
+**Pre-event acceptance:** under this rule we accept full pre-event drawdown to ~$53-54 if Iran/oil/USD-strength compounds — no exit, no add. The catastrophic tail (USDJPY 175+ scenario) is consciously left unprotected pre-event; if that fires, the call is the only piece with directional response left.
+
+**Post-event re-evaluation:** if BOJ hikes hawkish, the stop becomes irrelevant — position runs to target $60-62. If BOJ holds without dovish guidance, the AND is not met — hold pending forward path read (Jul 31 MPM, US CPI, etc.). Only the explicit AND-both fires the exit.
 
 ---
 

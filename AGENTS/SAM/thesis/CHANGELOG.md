@@ -8,6 +8,24 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-06-03 — STOP-SPEC HARMONIZATION: event-cap pre-Jun-16, AND-condition post-event (Will-decided)
+
+**Author:** SAM (Will-decided)
+**Action:** No version bump. **Doc-harmonization to resolve a real contradiction**, not a thesis change. Three docs (STATUS, THESIS, TRADE) carried "Stop $55.05" as a flat hard level; STRATEGY carried a two-part AND-rule ("no MOF at 167 AND BOJ dovish — both required to exit"). The flat shorthand would have misfired on a pre-Jun-16 USDJPY spike to 167 (would exit before the catalyst that resolves the AND). Will picked **pure event-cap mode (A)** over hard-cap mode (B) or hybrid (A+ with catastrophic floor).
+
+**Operative rule (now consistent across STRATEGY/STATUS/THESIS/TRADE):**
+- **Pre-Jun-16:** no mechanical price stop. Position is event-capped by sizing ($798 total exposure; share max ~$42 to $55.05, call capped at $40 premium). Ride through any drawdown regardless of FXY/USDJPY level.
+- **Post-Jun-16:** exit if BOTH (BOJ dovish at Jun 16) AND (USDJPY 167+/no MOF response). $55.05 is the FXY level correlating with USDJPY ~167, meaningful only post-event. Single condition (price-only OR BOJ-only) is insufficient.
+- **Conscious acceptance:** catastrophic tail (USDJPY 175+ scenario) is left unprotected pre-event. Position size + small call premium are the risk cap.
+
+**Why (A) over (B):** position was deliberately sized small + defined-risk to be event-capped; pre-event price stop optimizes for the worst asymmetric error (knocked out the day before the catalyst that resolves the thesis — Aug 2024 precedent: USDJPY tagged 161.95 pre-BOJ then reversed to 141 over weeks). Stop-mode and sizing-mode now match.
+
+**Files touched:** `STRATEGY.md` (Stop loss section restructured with pre/post-Jun-16 table + rationale); `STATUS.md` (lead line + state-of-play + Sep-call decision footer); `TRADE.md` (entry card stop row + R:R row + risk-factor "oil shock dominates" row); `thesis/THESIS.md` (POSITION VIEW vehicle line + RISK FACTORS oil-shock + intervention-fails rows).
+
+**What's NOT changing:** thesis direction/conviction, position sizing, target ($60-62), call structure, any probability mark.
+
+---
+
 ## 2026-06-03 — MEASUREMENT CORRECTION: carry-unwind decomposition added (CH-004 close)
 
 **Author:** SAM
