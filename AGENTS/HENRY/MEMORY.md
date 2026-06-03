@@ -23,7 +23,7 @@
 - [2026-05-21] **Breakeven decomposition = independent Fed-can't-cut confirmation channel.** Real yields rising + breakeven flat = term-premium/Fed-pinned, not reflation. Triangulates from the bond market vs the PCE print.
 - [2026-06-03] **Split-axis decomposition when a "uniform" divergence meets contradicting new data.** 5/21 thesis was "tape calm / substance uniformly hot." By 6/3 substance split: cyclical (rates/energy/index credit) eased while structural (CCC tail + PC/BDC prints) held. Don't force the old binary — decompose by axis, name which axis each datum belongs to, and identify the resolving catalyst (here 6/10 CPI). Honest downgrade beats defending the framework.
 - [2026-06-03] **Sibling-STATUS staleness cascade — check the sibling's Last-Updated before citing.** Multiple agents frozen at 5/21 (HENRY + BROCK) while tape moved. BROCK's "APO entrenched >$130" was a 5/21 snapshot; live APO $125.44. When pulling cross-agent data, read the sibling's timestamp and flag stale reads rather than propagating them as current. (Per saved memory: verify-state-before-propagating.)
-- [2026-06-03] **Energy-driven yield easing ≠ Fed-pivot yield easing.** 10Y −20bps was Brent −$15 (Hormuz unwind) disinflation relief, not "Fed about to cut." Sticky core (PCE 3.2%, PPI 6.0%) unmoved. Decompose WHAT drove a rate move before reading it as thesis-relevant — the move can be real and directionally adverse to the position while leaving the structural thesis intact.
+- [2026-06-03] **Energy-driven yield easing ≠ Fed-pivot yield easing.** 10Y eased (−17bps vs 5/21 / −20bps from 5/19 peak) on Brent −$9-to-$15 (Hormuz unwind) disinflation relief, not "Fed about to cut." *(Quote deltas with their reference window — peak-referenced overstates the move-since-baseline; per Feedback above.)* Sticky core (PCE 3.2%, PPI 6.0%) unmoved. Decompose WHAT drove a rate move before reading it as thesis-relevant — the move can be real and directionally adverse to the position while leaving the structural thesis intact.
 
 ## References
 
@@ -31,6 +31,7 @@
 - [2026-05-21] Cross-source-tier: vol/SPX/NVDA = yfinance HENRY-primary. Macro/credit/bank-tier (HY OAS, CCC, Brent, USD/JPY) = pull from BROCK/REGINALD/VIOLET STATUS or dashboard (Prome dashboard lacks HENRY-tier vol metrics).
 - [2026-06-03] **FRED convention (adopted):** FRED series publish T+1 — latest = yesterday's close. Date-stamp every FRED row `[FRED M/D]`; yfinance rows are intraday-live. Don't call a FRED number "live/today." Re-run `dashboard.py --compact` at boot. Full: `FORGE/tools/market-data/README.md`.
 - [2026-06-03] Credit-tier current source: REGINALD STATUS (HY/CCC/IG date-stamped) + VIOLET STATUS (vol + credit + 10Y). Both refreshed ~6/1-6/2; faster than waiting on own FRED pull (and FRED was 503'ing per Will).
+- [2026-06-03] **"Forced update" on a stale fetch = expected rebase churn, NOT a force-push.** The fleet's `pull --rebase`-on-shared-branch protocol rewrites local-commit SHAs every rebase; a 2-day-stale observer's origin/master ref then can't fast-forward → git labels it "forced update" even with zero `--force`. Verify benign via: `git rev-parse --is-shallow-repository` (false = merge-base trustworthy), `git merge-base --is-ancestor <old> origin/master` (YES = content preserved), `git fsck --lost-found` (dangling = rebase-orphans w/ same-message twins on main line + stash internals "On master: temp/autostash" — both harmless). Only alarm if fsck shows unique unreachable work. Reflex prompted by Will 6/3.
 
 ---
 
@@ -38,7 +39,7 @@
 
 ### CHANGES SINCE LAST SESSION (5/22 → 6/3, 13-day gap)
 - **R11 analog CONFIRMED DEAD** (VIOLET 6/1) — window 5/28-6/02 expired un-fired, VIX trended DOWN, 0/7 triggers. HEN-31 EXPIRED. The 5/21 "R11 clock running, prior 36%" framing is fully resolved (low-prob outcome hit).
-- **Substance side SPLIT.** Cyclical eased (10Y −20bps to 4.50, Brent −$15 to ~$97 Hormuz-unwind, HY OAS −14bps to 272); structural held (CCC flat 946, BROCK PC/BDC Max Bear print substance, WAL v2.2 Bear-medium). Thesis downgraded trap-clinch-WIDER → SPLIT-AXIS / hinges-on-6/10-CPI.
+- **Substance side SPLIT.** Cyclical eased (10Y −17bps vs 5/21 to 4.50 [−20bps from 5/19 peak, now +3bps off trough]; Brent −$9 vs 5/21 to ~$98 [−$15 from Apr 30 Hormuz peak]; HY OAS −14bps to 272); structural held (CCC flat 946, BROCK PC/BDC Max Bear print substance, WAL v2.2 Bear-medium). Thesis downgraded trap-clinch-WIDER → SPLIT-AXIS / hinges-on-6/10-CPI.
 - **USD/JPY crossed 160** (yellow → SAM carry-unwind fired).
 - **APO fell below $130** ($125.44) — BROCK position-trigger un-fired on tape; BROCK STATUS frozen 5/21 doesn't reflect it.
 - **TLT 5/22 decision executed-on-paper but ticket sat unplaced 11d** (Will salvaging broker side); Jun $85P decayed +92%→−32% as TLT rallied. Will now holds 3× Jun as catalyst bet + 2× Sep 30 $85P.
