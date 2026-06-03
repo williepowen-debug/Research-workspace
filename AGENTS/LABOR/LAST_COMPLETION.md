@@ -1,7 +1,7 @@
-## COMPLETION — LABOR — 2026-04-07
-STATUS: ✅ DONE
-CHANGED: AGENTS/LABOR/LAST_COMPLETION.md
-RESULT: No new labor data since NFP (Apr 3). Claims 202K (wk Mar 28) remains 2-yr low with FL Wave 1 still invisible — shadow adjustment holds at +65K (~267K true). Convergence matrix steady at 56/65. Next critical print: Thu Apr 10 claims (wk Apr 4) = FL Wave 1 lag test. If <215K, shadow upgrades to +70K. No position triggers. Hotel California thesis intact: JOLTS hires at Apr 2020 lows, underemployment U-6 at 8.0% (highest since 2023), duration 25.7wks (4-yr high).
-GAPS: None. All data current through Apr 7 4:15 PM ET.
-WILL_NEEDS: None.
-FOLLOW-UP: Thu Apr 10 8:30 AM ET claims print — spawn LABOR to assess FL Wave 1 lag test outcome.
+## COMPLETION — LABOR — 2026-06-02
+STATUS: ✅ DONE — multi-phase post-29-day gap close + boot protocol upgrade
+CHANGED: AGENTS/LABOR/CLAUDE.md (steps 1.5/1.6/3.5 + [STALE] rule); AGENTS/LABOR/STATUS.md (full Jun 2 refresh + Phase 1/2/3 patches); AGENTS/LABOR/workbook/PREDICTIONS.tsv (5 resolved, 5 added, 11 open); auto-memory feedback_prediction_canonical_measure.md
+RESULT: Hotel California INTENSIFIED — hard data refused to break (NFP Apr +115K BEAT, claims drift 209K MA, JOLTS Apr openings 7.6M anomaly), announcement layer kept worsening (Spirit 14K, Meta wave 2, Bradford CLOSURE 238, Laurel Ridge 648). Phase 3 disaggregation finding: NFP Healthcare +37K hides hospital weakness (hospitals/ambulatory ~11K combined; rest carried by nursing+home health). 5 predictions resolved: LAB-01 ❌ FALSIFIED (anchor-vs-canonical-measure error → auto-memory), LAB-05 ❌, LAB-07 ✅, LAB-09 ✅, LAB-14 ❌. Convergence 51/80 (3 🔴🔴 / 5 🔴 / 5 🟠 / 2 🟡 / 1 ⚪).
+GAPS: KELYA/MAN SEC 10-Q detail (Phase 4 deferred); MS Rule of 70 Jun 6 close; NFP Apr revisions (next print Jun 6); BRENT STATUS dated 6/1 (1-day stale tolerable); ICE monthly aggregate arrest total May 2026 (only operation-level surfaced); BLS A-1/A-12/A-15 still WebFetch-blocked (FRED-fallback used).
+WILL_NEEDS: Coordinated push to GitHub (12 LABOR commits ahead of origin; deferred per session direction). Push timing is Will's call.
+FOLLOW-UP: Fri Jun 6 8:30 ET — NFP May + U-3 + claims w/e Jun 6 = thesis linchpin + LAB-15 resolution. Tomorrow Jun 3: ADP May 8:15 ET + ISM Services May 10:00 ET. Jun 4: claims w/e May 30. Jun 5: Challenger May. Next spawn should boot via new protocol — step 1.5 will catch LAB-15 due Jun 6.
