@@ -34,8 +34,7 @@
 - [2026-05-22] **NY Fed Q1 2026 HDC (May 12 release): total auto $1.685T (+1.08% QoQ, ATH); auto transition-to-90+ 2.97% (flat QoQ, +3bps YoY).** Aggregate consumer-level flow is FLAT — does NOT confirm acceleration narrative at the headline. ABS-level subprime stress (60+ at 32-yr high per Fitch) diverges from consumer-level flow. Divergence is structurally consistent with Invisible Exit (skip bypasses standard DQ chain). Refresh dashboard $1.66T → $1.685T.
 - [2026-05-22] **Origin Bancorp (OBK) — previously-undiscovered Tricolor-exposed bank.** Disclosed Oct 23 2025 (Q3 2025 earnings clarification): $16.2M exec mortgages + $28.4M charge-off + $30.1M commitments = $74.7M total. OTTO never logged it. Sharpens named-banks list to 6 (JPM/5-3/BCS/Regions/MTB/OBK) but doesn't auto-confirm OTTO-30. Q1 2026 sweep otherwise clean — Truist explicitly disclaimed Tricolor (First Brands only).
 - [2026-05-22] **Q1 2026 was first quarter major GSIBs disclosed aggregate NDFI exposure** (BAC, C, GS, JPM, MS, WFC). Aggregate-only, no Tricolor-specific names. Useful REGINALD baseline for bank-NDFI cross-tracking.
-- [2026-05-22] **First Brands Ch.7 conversion IN MOTION — US Trustee driven.** Apr 28 PMG Ch.11 plan proposes 111 of 112 debtors → Ch.7 + PMG litigation trust. May 13 US Trustee Epstein filed dismiss-or-convert motion attacking the Global Settlement as "sleight of hand"; cited $245M advisory fees paid + $223M unpaid admin (administratively insolvent) + no realistic reorg prospect. May 20 disclosure hearing held (outcome pending sweep). May 25 omnibus next. **NEW transmission mechanic: when admin expenses exceed estate value, recoveries fall toward zero regardless of underlying asset quality — UST is weaponizing this framing in First Brands.** OTTO-32 prediction opened at 85%.
-- [2026-05-22 PM] **First Brands May 20 hearing outcome NOT in public sources as of Fri May 22 PM.** News media silent (hearing was Wed); Kroll docket 403-auth-gated. Additional dates surfaced from sub-agent: **May 29 combined disclosure-final-approval + plan-confirmation hearing** debtor-requested; **May 22 (today) bid deadline for litigation trust sale**; **May 5 examiner emergency motion** — De Luca $7M budget exhausted, needs ~90 days + funding. No new Barclays/Apollo/ad hoc objections between May 13-22 in news. Re-check Mon May 25 post-omnibus.
+- [2026-06-02] **First Brands Ch.7 — mechanism ADVANCING (sweep resolved boot-flagged May 20/25/29).** 4 Evolution SPV debtors already converted to Ch.7 (Apr 9 Lopez order) — first concrete partial conversion. PMG single-debtor Ch.11 liquidating plan filed May 15 / DS May 18 (Global Settlement → Litigation Trust; all other debtors → Ch.7 post-effective). May 20 conditional-DS approval **DENIED** by Judge Lopez on creditor-rights + admin-insolvency grounds (= the UST's May 13 dismiss-or-convert basis — denial cuts TOWARD OTTO-32). May 25/29 superseded; plan-confirmation re-targeted **Jun 17 2026**; UST motion still contested. OTTO-32 held 85%. Transmission mechanic intact: admin expenses > estate value → recoveries toward zero regardless of asset quality. Sources: Law360 / CreditSights / Trucks-Parts-Service (Kroll docket still auth-gated; news cleared it).
 - [2026-05-22 PM] **Wilmington Trust full non-mortgage custodial exit DENIED corporate-side.** American Banker (Feb 19-20 2026) reports M&T-side anonymous source on record denied the plaintiff allegation; said unit "is accepting new clients." M&T 10-Q says Wilmington will "vigorously defend itself." Active-business evidence: #2 US ABS/MBS trustee 1H 2025; Outlook 2026 thought-leadership; no non-Tricolor trustee-substitution filings; no rating-agency notes flagging substitutions. OTTO-31 confidence dropped 60% → 30%. Plaintiff allegation = litigation rhetoric not franchise exit.
 - [2026-05-22 PM] **Wilmington Trust Tricolor-specific resignation IS corporate-confirmed (narrow).** 30-day notice given Sep 20 2025 to step down as indenture trustee on Tricolor ABS only. Successor-trustee role being shunned by other major trustees (Auto Finance News). KBRA Oct 2025 commentary on Tricolor servicing transition didn't extend to other Wilmington-administered deals. This is a real cockroach #1 mechanic and a structural signal (successor vacuum) — but narrow, not franchise-level.
 
@@ -50,41 +49,31 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (May 22 AM → May 22 PM, same-day continuation)
-- Same operational arc; re-spawned post-/clear, Will directed P0 work.
-- 2-agent parallel sweep on the two top P0 carryovers: First Brands May 20 hearing outcome + Wilmington Trust corporate-side.
-- One unresolved-but-bracketed (FBG May 20), one materially weakened (Wilmington full exit). OTTO-31 conf 60→30%.
+### CHANGES SINCE LAST SESSION (May 22 PM → Jun 2, 11-day gap)
+- Will-directed boot/closeout **protocol redesign** (not domain work). Multi-phase, collaborative — Will drafted each phase, OTTO refined then applied. Closed with a domain task (First Brands sweep).
+- 12+ commits by other agents during the gap; May 22 PM OTTO work reached origin via push-train (commit `1d2e4ace`).
 
-### LAST SESSION (May 22 PM — P0 sweep)
-- 2-agent parallel sweep: both ran clean with WebSearch + WebFetch (confirmed tooling in prompt per prior session's lesson). Typo on first try killed Wilmington spawn; re-spawned successfully.
-- **First Brands May 20 outcome NOT in public sources** as of Fri PM. News silent (hearing Wed); Kroll auth-gated. Found additional context: May 29 combined disclosure-final + plan-confirmation hearing (debtor-requested) = KEY date; May 22 (today) litigation-trust bid deadline; May 5 examiner emergency motion ($7M budget exhausted). OTTO-32 unchanged at 85%.
-- **Wilmington Trust full-exit DENIED corporate-side.** American Banker (Feb 19-20): M&T-side anon source on record denied the Jan 14 plaintiff allegation; unit "is accepting new clients." Tricolor-specific resignation (Sep 20 2025 30-day notice) IS corporate-confirmed but narrow. Active-business counter-evidence (#2 ABS/MBS trustee 1H 2025; Outlook 2026 piece; no non-Tricolor substitutions). OTTO-31 conf 60% → 30%.
-- STATUS.md: new May 22 PM section + Wilmington dashboard row reframed 🔴🔴 → 🟠 + Wilmington active-vector reframed (narrow Tricolor-only resignation) + new "Successor-Trustee Vacuum" vector carved out + 3 new timeline rows (May 22 bid deadline, May 29 KEY hearing, May 20 outcome flag) + OTTO-31 predictions-table row updated + footer next-triggers refreshed
-- ML.tsv: 4 entries appended (163-166) — covers FBG May 20 unresolved, Wilmington corporate denial, Wilmington narrow Tricolor resignation, Wilmington active-business counter-evidence
-- PREDICTIONS.tsv: OTTO-31 conf 60% → 30%; Notes column rewritten with disconfirming evidence
-- 2 new feedback entries: plaintiff-allegation-only weighting (≤40%); separate-narrow-from-broader-framing pattern
-- 4 new findings (FBG May 20 + 3 Wilmington)
-- No WALTER signal routed this PM — net effect was a downgrade not an escalation; no domain-crossing trigger fired.
-
-### PRIOR SESSION (May 22 AM — Inbox + P0 backlog sweep + First Brands Ch.7 follow-up)
-- 5-agent parallel sweep: PSEC OTTO-26 FALSIFIED on date; CVNA May 5 vote (split passed, chairman separation FAILED 96%, GT ratified); NY Fed Q1 HDC $1.685T + 2.97% flat; Origin Bancorp $74.7M Tricolor exposure surfaced (pre-prediction window); First Brands Ch.7 IN MOTION (retried in-session)
-- STATUS / ML (8 entries 155-162) / PREDICTIONS (OTTO-26 FALSIFIED, OTTO-30 conf 65→45%, OTTO-32 NEW 85%) / MEMORY updated
-- WALTER signal: SIG-OTTO-WALTER-20260522-firstbrands-ch7-in-motion.md (processed by WALTER)
-- Commit `c17d108f` pushed
+### LAST SESSION (Jun 2 — boot/closeout protocol hardening + First Brands sweep)
+- **CLAUDE.md → v2.1 (Phases 1-3b):**
+  - P1 Startup Protocol: git-pull step 0 (+blocked-pull fallback); PREDICTIONS scan flags due-in-7d AND passed-but-OPEN; new calendar past-due-catch (unswept vs acknowledged-pending); report-last.
+  - P2 Closing Protocol = write-back mirror of boot (read→write spine); catalyst-sweep BEFORE prediction-resolve (deliberate cross).
+  - P3a stripped live-state: Current Thesis → framing only; Thresholds drop Current col + labeled single-metric-trigger vs STATUS composite (STATUS operative); Domain Scope drop $9.3B; Invalidation de-dated Carvana + retired spent GT-resigns trigger.
+  - P3b graduated overlay → top-level `## Evidence & Hygiene Conventions` (tags `[CONF]/[PRESS]/[ALLEG]/[EST]`, `[STALE]` composes; Doc Ownership table, audit-finalized 19 rows).
+- **Cross-doc audit → `STALE_PUNCHLIST.md`** (9 items, behavioral-impact ranked). TRADE.md = headline rot (Feb 16, pre-split CVNA prices, dead triggers); VX.tsv = 3rd home for thresholds. **NO content fixed — remediation DEFERRED.**
+- **First Brands sweep** = the new past-due-catch's first live catch (resolved May 20/25/29 — see Finding 2026-06-02). STATUS timeline + signal-trigger + OTTO-32 + ML-171 updated. No WALTER signal (Will: let it ride).
+- Git: `e9932373` (P1-3a) + `4caa2b36` (push-note fix) + this closeout commit — all local, push-deferred (push-train).
 
 ### NEXT SESSION
 
-1. **P0: Mon May 25 news cycle sweep** — First Brands May 20 hearing outcome + omnibus result + any UST motion scheduling
-2. **P0: May 29 FBG combined disclosure-final-approval + plan-confirmation hearing** — KEY catalyst for OTTO-32
-3. **P1: OBK 10-Q Q1 2026** — verify Tricolor exposure quantum vs Oct 23 2025 disclosure ($74.7M)
-4. **P1: M&T Q2 earnings (Jul)** — Wilmington Trust segment language for any further OTTO-31 read
-5. **P1: Watch ABS surveillance / KBRA / S&P for trustee-substitution filings** on non-Tricolor Wilmington-administered deals — hard signal for OTTO-31 lift
-6. **P1: War-transmission row re-check** — Apr 1 STATUS Iran/oil/ABS row stale post-ceasefire
-7. **P2: Review remote-inherited Apr 15 scripts/TSVs** — `abs_issuance_tracker.py`, `extension_proxy.py`, `workbook/{ABS_ISSUANCE,EXTENSION_PROXY,CROSS_AGENT_LOG}.tsv`
-8. **P2: WAL / Jefferies / Point Bonita $715M thread** (carryover)
-9. **P2: Ally Q1 print** for OTTO-28
-10. **P3: Delete `otto-backup-pre-rebase-20260415` branch**
+1. **P1: STALE_PUNCHLIST.md remediation** — content-refresh pass. Behavioral-risk items first: #1 TRADE.md (pre-split prices + dead triggers), #2 RESEARCH_STATUS.md (Feb-stale monitoring), #3 VX.tsv (3-way threshold dup). Items #8-9 (LESSONS/OUTBOX consolidation) need Will-decision before action.
+2. **P1: Phase 4 — build `workbook/CATALYSTS.tsv`** on SAM's schema; backfill from CRITICAL TIMELINE; flip boot step 5 to read it as primary (the boot/closeout redesign's final phase).
+3. **P1: OBK 10-Q Q1 2026** — Tricolor exposure quantum vs $74.7M (Oct 23) disclosure.
+4. **P1: M&T Q2 earnings (Jul)** — Wilmington segment language (OTTO-31 hard-signal watch).
+5. **P2: Jun 17** — First Brands plan-confirmation hearing (KEY OTTO-32) + Tricolor creditor mtg (same day); **Jun 12** Carvana discovery production 2.
+6. **P2: re-run scripts** (`abs_issuance_tracker.py`, `extension_proxy.py` — data Apr-stale).
+7. **P2: War-transmission row re-check** — Apr 1 Iran/oil/ABS row stale post-ceasefire.
+8. **P3: WAL/Jefferies/Point Bonita $715M thread; Ally Q1 for OTTO-28; delete `otto-backup-pre-rebase-20260415` branch.**
 
 ### PENDING PUSH
-- **RESOLVED (Jun 2):** May 22 PM closeout reached origin during the 12-day gap — landed as commit `1d2e4ace` after intervening rebases rewrote the original `3d715270` SHA. No deferred OTTO push outstanding from May. (The May 22 amend-pulled-in-CARL-files issue was caught and cleaned at the time; nothing leaked.)
-- Jun 2 boot/closeout protocol work (Phases 1-3a, CLAUDE.md) committed locally as `e9932373`, **not yet pushed** — riding the push-train (SAM ×2 + REGINALD also local-only ahead of origin).
+- May 22 PM work already on origin (`1d2e4ace`; old `3d715270` SHA rewritten by rebases). No May deferral outstanding.
+- Jun 2 work committed locally, **not yet pushed** (push-train — SAM ×2 + REGINALD also ahead): `e9932373` (P1-3a), `4caa2b36` (push-note fix), + this closeout commit (P3b + First Brands sweep + closeout writes).
