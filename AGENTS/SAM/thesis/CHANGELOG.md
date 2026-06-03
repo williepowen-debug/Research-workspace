@@ -8,6 +8,50 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-06-03 — MEASUREMENT CORRECTION: carry-unwind decomposition added (CH-004 close)
+
+**Author:** SAM
+**Action:** No version bump. **Measurement correction, NOT a view change.** Yen-direction conviction HIGH unchanged. Adds new `## CARRY-UNWIND PROBABILITY METHOD` section to THESIS.md (placed after CORE THESIS, before THREE TRANSMISSION CHANNELS) and refactors STATUS CARRY UNWIND PROBABILITY table to show decomposition + driver weights. Closes RED CH-004 ("the 7/30/60 buckets are conviction levels, not calibrated probabilities, and shouldn't be presented to Will or LIQUID/HENRY as if they were").
+
+**Old method (implicit, pre-Jun-3):** 7d/30d/60d buckets were judgment-calibrated single numbers with one-line driver notes per move. No formula, no reasoning chain, no link to the 8 resolved predictions.
+
+**New method (Jun 3):** decomposed estimate from named priors —
+- Formula: `P(unwind, T) = 1 − ∏(1 − pᵢ(T))` across 5 trigger channels + state-dependent residual
+- `pᵢ = P(catalyst i fires in T) × P(unwind | catalyst i fires) × CFTC_amplifier`
+- Overlap discount (judgment, biggest in joint-escalation tail) applied to bottom-up union
+- CFTC amplifier + residual term explicitly state-dependent (residual ON only when CFTC > 60% of cycle peak; turns OFF when positioning covers)
+
+**Why view-neutral:** No new evidence moved the view. A mismeasurement got fixed. The decomposition surfaced two structural errors in the prior buckets:
+1. **Catalyst → unwind conflation** — SAM-21 (BOJ hike 70%) and SAM-23 (intervention #3 72%) were being transcribed as carry-unwind probabilities. They're not. A delivered fully-priced hike doesn't unwind (only the hawkish-on-size/path tail does); an intervention that spike-reverses same-day doesn't unwind.
+2. **MOF #3 conditional ignored CH-003** — prior implicit anchor ~50% unwind\|fires; CH-003 evidence (Apr 30 + May 6 both spike-reversed same-day, net ~zero on sustained unwind) supports ~0.20 baseline.
+
+**Bucket marks (Jun 1 prior → Jun 3 decomposed):**
+
+| Bucket | Prior | Decomposed | Δ |
+|---|---|---|---|
+| 7d | 15% | **14%** | -1pp (noise) |
+| **30d** | 70% | **37%** | **−33pp** |
+| **60d** | 80% | **49%** | **−31pp** |
+
+7d roughly honest; 30d and 60d inflated by ~33pp via the catalyst-conflation. Bottom-up math: 30d union = `1 − (0.90)(0.82)(0.917)(0.96)(0.932)(0.95) = 0.425`; − 5pp overlap → 37%. 60d analogous.
+
+**Residual (state-dependent):** principled small term (1.5/5/7.5pp at 7/30/60d) for unattributed positioning-cascade unwind base rate when CFTC > 60% of cycle peak. Aug 2024 fit partly — BOJ trigger lit fuse but violence outsized to catalyst. Residual OFF when positioning covers below the gate. **Sized to NOT be a backdoor to claw back toward 70%.**
+
+**What's NOT changing:**
+- Yen-direction conviction (HIGH)
+- All channel-level views (Channel 1 deferred, Channel 2 dominant, Channel 3 reactivated)
+- Position (13 sh + Jun-18 $58C, stop $55.05)
+- SAM-21 70% / SAM-23 72% / SAM-24 85% / SAM-26 ~25% predictions
+- v1.5 single-path structural framing
+
+**Cross-agent disclosure:** LIQUID + HENRY drafted as MEASUREMENT CORRECTION leads — "Methodology correction, not thesis softening. 30d/60d marks were overstated via catalyst→unwind conflation. Yen-direction conviction unchanged. New decomposed marks: 7d 14% / 30d 37% / 60d 49%." Drafts gated on Will review before send.
+
+**Note for future SAM:** the residual is **state-dependent**, conditioned on CFTC > 60% of cycle peak. Do NOT treat the 5pp as a permanent floor — when positioning covers, the residual turns OFF along with the +5pp amplifier. Method section bakes this in as a table; honor it.
+
+**RED CH-004 close:** outbox signal drafted (gated on Will review). Once delivered, RED owns the close in its CHALLENGES log.
+
+---
+
 ## 2026-06-01 — v1.5 intra-version POV pivot (Iran MOU broken; intervention #3 reactivated; Fed-cut backup reads dead)
 
 **Author:** SAM

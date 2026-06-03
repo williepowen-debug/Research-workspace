@@ -16,6 +16,72 @@ Japan is approaching a structural inflection. As of v1.5, the path is **single-c
 
 ---
 
+## CARRY-UNWIND PROBABILITY METHOD
+
+The 7d/30d/60d buckets in `STATUS.md` § CARRY UNWIND PROBABILITY are **decomposed estimates** from ~10 hand-set anchors — value is **auditability** (every move traceable to a named driver), not point-precision. Live anchor states + current bucket values live in STATUS. Method added Jun 3 2026 to close RED CH-004 (prior buckets were judgment-calibrated conviction shipped to LIQUID/HENRY as if probability; methodology correction surfaced a ~33pp catalyst→unwind conflation overstating 30d/60d).
+
+### Formula
+
+```
+P(unwind, T) = 1 − ∏ (1 − pᵢ(T))     over 5 trigger channels + residual term
+where pᵢ(T) = P(catalyst i fires in T) × P(unwind | catalyst i fires) × CFTC_amplifier
+Final = bottom-up union − overlap discount (judgment, joint-escalation tail)
+```
+
+### Trigger anchors
+
+| # | Trigger | Mechanism | Catalyst-P source | Baseline unwind\|fires | T-eligibility |
+|---|---|---|---|---|---|
+| 1 | **BOJ surprise** | hawkish-on-size/path. Hike-as-priced doesn't unwind; only hawkish-tail subset within hike-probability mass triggers. | hike prob × hawkish-tail share | 0.45 | 30d, 60d |
+| 2 | **MOF intervention #3** | USDJPY 160+ → USD sale → positioning fold | SAM-23 | **0.20** (per CH-003 — Apr 30 + May 6 both spike-reversed same-day; pure FX intervention can't fix the rate gap) | all |
+| 3 | **Risk-off shock** | equity/VIX spike → safe-haven yen bid (Aug-2024 precedent) | base ~10%/30d + tape elevation | 0.50 | all |
+| 4 | **Fed-cut surprise** | dovish FOMC/CPI → USD compression | FedWatch + soft-CPI tail | 0.45 | 30d, 60d |
+| 5 | **Oil/MOU escalation** | Brent $120+ / Hormuz close → Phase 2 yen bid via recession risk | escalation prob | 0.40 | 30d, 60d |
+| R | **Residual** | unattributed positioning-cascade base rate (Aug 2024 was partly this — BOJ trigger lit fuse but violence outsized to catalyst) | **STATE-DEPENDENT** — see CFTC gate below | sized 1.5/5/7.5pp (7d/30d/60d) when ACTIVE | all when active |
+
+### CFTC amplifier + residual gate (explicit)
+
+Positioning is the amplifier on P(unwind \| trigger), not a trigger itself. The residual term is **fuel-load-contingent** — it comes OFF when positioning covers. NOT a permanent floor.
+
+| CFTC state (% of cycle peak, -180K Jul-2024 reference) | Amplifier on baseline unwind\|fires | Residual term |
+|---|---|---|
+| < 30% of cycle peak | 0 (baseline applies) | **OFF** |
+| 30-60% | +2-3pp | **OFF** |
+| **> 60% (current: 63.7% / -114K)** | **+5pp** | **ON** |
+| > 85% (Aug-2024 levels) | +8-10pp | ON |
+
+Re-evaluated weekly on the Sat CFTC print. If positioning covers below ~-108K (60% line), the +5pp amplifier drops AND residual turns off — a future SAM should NOT treat 5pp as a permanent floor.
+
+### Overlap discount — judgment, NOT derived
+
+Independent-union formula over-counts where triggers correlate. The joint-escalation tail:
+- **Oil/MOU shock (#5) often IS the risk-off trigger (#3)** — one Iran shock fires both
+- **Oil/MOU pushes USDJPY through 160 → fires intervention (#2)** — chain correlation
+- **BOJ hike + intervention combo explicitly cabled** (Reuters Jun 1) — #1 and #2 correlate at the meeting
+
+**Discount:** −1pp (7d) / −5pp (30d) / **−7pp (60d, biggest)** — more time → more chance for chain-firing. Sized by judgment, not derived from a joint-distribution model.
+
+### Update discipline
+
+- **Bucket shifts >5pp must attribute to a named driver** (anchor change, residual ON/OFF, overlap re-judgment) — no silent moves
+- **Anchors re-state when catalyst-P or unwind\|fires moves >10pp** → log to CHANGELOG
+- **CFTC amplifier + residual ON/OFF re-calibrate weekly** on the Sat CFTC print
+- **Method itself reviews on each version bump**
+
+### Calibration anchors
+
+- **Aug 2024 unwind** (n=1): USDJPY -7y in 3 sessions, dual BOJ hawkish + Fed dovish + CFTC -180K positioning peak. Sized unwind\|fires conditionals + residual against this single precedent.
+- **Base rate ~5-10%/30d unconditional** (judgment; 2-3 major unwinds in 5y across rolling windows).
+- **8 resolved SAM predictions:** failure patterns shade anchors — over-hawkish on Takaichi ceiling 2× (SAM-08, SAM-20) discounts BOJ-surprise hawkish-tail; threshold-vs-mechanism trap 3× (SAM-25, SAM-14, SAM-19) reinforces conservative conditionals; **CH-003** (Apr 30 + May 6 same-day reverses) sets MOF unwind\|fires baseline at 0.20.
+
+### What this method is NOT
+
+- Not a backtest (n=1 modern unwind, insufficient sample for empirical fit)
+- Not authoritative probability — auditable model output from named priors
+- Cross-agent disclosure to LIQUID/HENRY uses "decomposed estimate (37%)," not "true probability (37%)"
+
+---
+
 ## THREE TRANSMISSION CHANNELS
 
 ### Channel 1: Life Insurer Repatriation (SAM → LIQUID) — **v1.5 STATUS: DEFERRED STRUCTURAL BACKSTOP**

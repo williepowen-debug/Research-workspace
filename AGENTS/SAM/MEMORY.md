@@ -28,14 +28,32 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (6/1 evening close-out → 6/2 Tue morning)
+### CHANGES SINCE LAST SESSION (6/2 Tue close-out → 6/3 Wed 09:44 ET)
 
-- **USDJPY +0.28y to 159.92** (Mon 159.64 → Tue mid-session). **0.05% from 160 hard intervention trigger.** Mon intraday already tagged 159.75 high. MOF cabling window LIVE before T-2 blackout ~Jun 13.
-- **Brent +$0.89 to $95.67** (+0.94% Tue, on top of Mon +4.02%). **No Iran walk-back overnight** — MOU break sticking. Tasnim/Hormuz framing intact going into US session.
-- **JGB 10Y +2.5bp to 2.682%** (Jun 1 publication). 30Y +0.4bp to 3.863%, 40Y +1.1bp to 3.800%. Modest back-up across the curve.
-- **10Y JGB auction TODAY (Jun 2) orderly** — BTC 3.53x, tail 0.7bp, avg 2.649%. Confirms domestic long-end is quiet despite oil rebuild; J-ICS mechanism not compounding.
-- **Polymarket BOJ Jun 16 hike: 87.6%** (Tue 16:02 UTC ≈ 12:02 ET) vs Mon 88.5%, May 31 88.2%. Held within noise. MUFG ~80%, swap 77-80% (consistent with Mon read).
-- **FXY ATM IV proxy printed 1.56% Jun 2 (vs 10.52% Jun 1) — calibration glitch, not real vol collapse.** USDJPY is pushing UP with BOJ T-10; vol cannot have crushed 9pp organically. Flagged STATUS table + KURA next-run.
+- **USDJPY essentially flat at 159.94** (Tue 159.92 → Wed 09:44). Still 0.04% from 160 hard trigger; 3rd consecutive day pressing the line. MOF cabling window LIVE before T-2 blackout ~Jun 13.
+- **Brent +$1.48 to $97.15** (+1.20% Wed, 3rd straight up day on top of Mon +4.02% / Tue +0.73%). **MOU break NOT walking back; deepening.** Closing in on $100 psychological level.
+- **Yen STRONGER on crosses** despite USDJPY-flat — EUR/JPY -0.23%, GBP/JPY -0.32%, AUD/JPY -0.53%. Broad yen bid emerging (thesis-side); FXY masked by USD strength on USD/JPY.
+- **JGB curve DROPPED 5-10bp across tenors** (10Y -10bp to 2.577%; 30Y -5bp to 3.810%) — despite oil rebuild. J-ICS mechanism NOT amplifying off the oil leg. Tue 10Y auction orderly result holding.
+- **FXY ATM IV proxy 1.17%** (vs Tue 1.56% vs Mon 10.52%) — confirms the proxy-calibration glitch (KB-183 caveat). Not a real vol collapse with BOJ 9 trd days out.
+- **`127ae123` push-coordination ITEM RESOLVED:** push-train via LABOR/MARCO/RED overnight closeouts pulled SAM commit to origin. Branch clean. No SAM+OTTO+REGINALD coordinated push needed.
+
+### LAST SESSION (6/3 Wed AM — CH-004 close: carry-unwind decomposition methodology, MEASUREMENT CORRECTION)
+
+Clean boot from sync'd origin. boot.py 12.3s, all 9 scripts green. Will picked CH-004 close (option C — decompose with auditable method) from the staleness/cleanups list (4 candidates surfaced; the other 3 deferred to next session).
+
+- **Bottom-up decomposition built, no backsolve.** Per Will's first-principles framing, seeded anchors from judgment (not from a target 70%) and let the formula land where it lands. Result: 30d 37%, 60d 49% — vs prior STATUS marks 70% / 80%. **−33pp / −31pp markdown** on the headline carry-unwind numbers. 7d 14% vs prior 15% (within noise).
+- **Two structural errors surfaced by the decomposition** (both honest mismeasurements, not view changes):
+  1. **Catalyst-prob → unwind-prob conflation** — SAM-21 (BOJ hike 70%) and SAM-23 (intervention #3 72%) were being transcribed as carry-unwind probabilities. A fully-priced hike doesn't unwind (only hawkish-tail subset does); an intervention that spike-reverses same-day doesn't unwind.
+  2. **MOF #3 unwind|fires anchored ~0.50 against CH-003 evidence** — Apr 30 + May 6 both spike-reversed same-day, net ~zero on sustained unwind. Rebased to 0.20. This was the single largest term contribution (0.18 of the 30d union).
+- **Will's two methodology corrections during the bottom-up pass:** (1) drop MOF #3 conditional 50% → 20-25% per CH-003 (caught by Will); (2) add a state-dependent residual (~5pp at 30d, ON only when CFTC > 60% of cycle peak) to symmetrically avoid false precision on the downside — Aug 2024 was partly an unattributed-cascade event. Sized small (1.5/5/7.5pp at 7/30/60d) and gated to NOT codify as a permanent floor.
+- **Deliverables landed (commit pending):**
+  - THESIS § CARRY-UNWIND PROBABILITY METHOD (~65 lines, formula + 5-trigger table + state-dependent residual gate + explicit CFTC amplifier + judgment-labeled overlap discount + update discipline + calibration anchors)
+  - STATUS § CARRY UNWIND PROBABILITY refactored — decomposed bucket + driver weights + live anchor state; framed as "decomposed estimate, not authoritative probability"
+  - CHANGELOG 2026-06-03 entry — MEASUREMENT CORRECTION framing, no version bump, explicit "yen-direction conviction HIGH unchanged" + "what's NOT changing" list to protect against misreading as thesis softening
+  - STRATEGY.md header cross-ref → THESIS METHOD
+  - 3 outbox signals (LIQUID 🟡 channel-scoped + UST-unchanged; HENRY 🟠 with explicit "speed unchanged, only probability down" framing; RED 🟠 CH-004 close)
+- **Will's framing locks (all integrated):** MEASUREMENT CORRECTION not view change; STATUS labeled "decomposed estimate" not "true probability"; LIQUID/HENRY signals lead with "correction not softening"; residual state-dependent (not a permanent floor); overlap discount judgment-labeled (not derived).
+- **Process win:** the decomposition paid for itself in one pass — caught a 33pp inflation in the headline bucket that had been shipping to LIQUID/HENRY across the v1.5 window. Aug 2024 unwind precedent (n=1) was over-anchoring the unwind|fires conditionals; CH-003 evidence was being ignored on MOF #3. RED's CH-004 challenge was right.
 
 ### LAST SESSION (6/2 Tue morning — intraday verification, no thesis-level move)
 
@@ -59,50 +77,36 @@ Same SAM window as the AM verification (long session, likely auto-compaction in 
 - **No thesis/STATUS/PREDICTIONS/CHANGELOG changes** this thread. Spec/process work only.
 - Commit `127ae123` (KOYOMI spec amendment + KOYOMI_MEMORY cleanups + MAINTENANCE log) held for coordinated SAM+OTTO+REGINALD push.
 
-### LAST SESSION (6/1 Monday — full day: boot + Jun-1 POV pivot + KURA inaugural + KOYOMI sync + sub-agent MEMORY architecture)
+### LAST SESSION (6/1 Mon full day — Jun-1 POV pivot + KURA inaugural + KOYOMI sync + sub-agent MEMORY architecture + METSUKE intro + Run 1) — commits `b11cefad`/`063c1d51`/`91d08f00`/`7a7ca395`/`ce22c1f8`/`8b319c7c`/`8a2f830c`/`0414f49a`/`aab9ada2`/`1c5e011d`/`288dae59`
 
-- Clean boot, read phase steps 0-6 + boot.py 26.1s 9/9 green. STATUS market table refreshed.
-- **News sweep — 4 parallel agents (Will-approved):** Brent driver / BOJ pricing / Japan commentary / credit+insurer. Convergent finding: MOU broken + Fed-cut backup dead. High value — caught two material reframes we'd have missed.
-- **Jun-1 POV pivot writeback cascade (commit `b11cefad`):** STATUS + PREDICTIONS (SAM-23 ~55→~72%) + TIMELINE (2 RESOLVED entries) + CHANGELOG (POV pivot) + CALENDAR. Pushed `4528dbc5..b11cefad`.
-- **MEMORY refresh (commit `063c1d51`).**
-- **KURA inaugural run on Opus 4.8 (propose-only):** 7 KB adds (KB-176/177/178/179/180/181/182) all approved + KB-137 archive (pre-existing SUPERSEDED) + KB-064 dedup-merge into KB-063 + KB-065/066 palimpsest collapse + 2 FLOW spot-stale fixes. Watermark → 2026-06-01. Net workbook math: 119 → 124 KB rows; 56 → 58 archive rows. Commit `91d08f00`.
-- **KOYOMI Jun-1 sync (Opus 4.8):** caught me violating TRUTH MODEL (live spot in CALENDAR cells) + stale INTERVENTION WATCH section header. 4-cell cleanup + 1 header fix. Commit `7a7ca395`.
-- **Sub-agent architecture refactor (commit `ce22c1f8`):** added `KURA_MEMORY.md` and `KOYOMI_MEMORY.md` for cross-spawn continuity (RUN LOG, PENDING, STANDING MONITORS, CALIBRATION, NEXT RUN HINTS). Spec files now reference MEMORY files in canonical spawn invocation + read-set + write-set + job sequence. Mirrors SAM's CLAUDE+MEMORY split. Promoted to auto-memory as transferable pattern.
-- **VIOLET pre-staged files caught at commit time** — unstaged before SAM commit (re-validated [[feedback_check_staged_before_commit]] in real-time).
-- **Hedge-ratio data-quality flag** (sub-agent returned <30% claim, conflicts with 44.4% authoritative) — NOT propagated, flagged in KURA_MEMORY PENDING + standing follow-up.
-
-### LAST SESSION — POST-14:56 ADDENDUM (3 commits after the MEMORY closeout pass; power loss hit after the 18:07 push)
-
-- **16:03 `8b319c7c` — CLAUDE.md FILES table:** added KURA_MEMORY + KOYOMI_MEMORY entries; pointed KURA.md / KOYOMI.md rows at the new MEMORY pair-files. Codifies the sub-agent CLAUDE+MEMORY split in the boot-loaded spec.
-- **17:35 `8a2f830c` — TRADE.md Jun 1 refresh:** 2-pass state-sync + thesis-loaded (header, thesis para, live P/L, all 6 Tranche 2 hard-triggers, Carry Unwind table, EWJ + Japan Banks triggers, EWJ MOU anti-trigger flipped inactive, Key Dates pruned + Jun 10 US CPI added, Risk Factors mitigation columns). Plus Position A inline partial-trigger disclosure (#3 partial via wrong leg) + Fed Path softened to multi-month tail. Mini-pass: Decision Card header relabeled + TLT watchlist v1.5 note (Channel 1 deferred → near-term TLT-put not warranted from Japan side). Position 13 sh + Jun-18 $58C unchanged.
-- **18:07 `0414f49a` — THESIS surgical sync (closes NEXT-SESSION item 4):** 7 surgical edits propagating the Jun 1 POV pivot into THESIS body — header banner, Forward catalyst table (MOU watch + Intervention #3 row SAM-23 ~72%), Phase 2 Current state, "Why secondary path now" paragraph, "Timing key" paragraph rewritten from "24h rescue catalyst" → "multi-month tail not Jun-window," tripwires table Jun 1 annotations, RISK FACTORS BOJ-delays mitigation rewritten ("closer to pure downside than v1.5 originally framed"). Probabilities HELD by design (25%/15%/12%); explicit inline notes flag re-rate as separate deliberate decision pending escalation trajectory. No version bump.
-
-### LAST SESSION — JUN 1 EVENING (post-power-loss; 3 SAM commits)
-
-Will lost power after the 18:07 push; came back, asked SAM to verify closeout state and refresh MEMORY. Then proposed developing a 3rd sub-agent for TRADE/STRATEGY. Pushback-then-scope-tightening on the design, then ship + inaugural shakedown run.
-
-- **18:24 `aab9ada2` — MEMORY post-power-loss reconciliation:** confirmed last commit `0414f49a` did close NEXT-SESSION item 4 (THESIS Fed-cut "24h backup" → "multi-month tail" softening landed in 7 surgical edits). Added LAST SESSION POST-14:56 ADDENDUM documenting the 3 commits between the 14:56 MEMORY closeout and the power loss at 18:07. Removed item 4; renumbered NEXT SESSION 5→4 down to 9 items. No mid-flight WIP lost.
-- **19:31 `1c5e011d` — METSUKE introduction (3rd SAM sub-agent):** following KURA/KOYOMI pattern but **propose-only across the board** (no `full` mode equivalent). Mandate: hold TRADE.md + STRATEGY.md against current STATUS / THESIS / PREDICTIONS / CHANGELOG / TIMELINE / docket, return categorized drift report; SAM applies. Forbidden to touch money fields (cost basis, position size, stops, strikes, expiries, premium) — honors `[[feedback_position_cost_basis_not_authoritative]]`. 8-category drift taxonomy (STALE-MARK, STALE-FRAMING, DUP-LIVE-SPOT, TRIGGER-STATUS-DRIFT, CAL-DRIFT, ARCHIVE-CANDIDATE, MONEY-FIELD-ESCALATION, CHANGELOG-GAP). Files: `METSUKE.md` (193 lines spec) + `METSUKE_MEMORY.md` (103 lines state) at SAM root next to TRADE/STRATEGY. CLAUDE.md FILES table + write-back step 12a updated.
-- **22:33 `288dae59` — METSUKE Run 1 inaugural sweep applied:** 19 flags, S/N 94.7%, 18 applied / 1 declined-with-carve-out. TRADE.md: 3 edits (live-spot strips on USDJPY-sub-155 + JGB 30Y trigger rows; Jun 10 JGB 30Y auction added to Key Dates). STRATEGY.md: 15 edits (header + Position/Thesis line + Stage 3 paragraph rewrite + Stage 4 + 4 hard-trigger rows + HOLD section + Jun-18 exit rule #3 vol-crush + Position A re-activation #3 + 2 VOL SIGNALS table rows + Current read flipped 2-of-3 → **3-of-3 directional** + Key Check Dates wholesale + CHANGELOG entry). METSUKE_MEMORY closeout: SAM-applied/declined filled, **CALIBRATION populated** (STALE-MARK 100% / STALE-FRAMING 100% / DUP-LIVE-SPOT 75% with position-card carve-out established / TRIGGER-STATUS-DRIFT 100% / CAL-DRIFT 100% with mechanism-relevance test / money-field discipline held 0/19), PENDING cleared (4/4 Run-1 items resolved this turn).
-- **One decline of note:** TRADE:37 Entry Decision Card Live P/L line (`−1.4% at FXY $57.51`) flagged as DUP-LIVE-SPOT. Will kept it ("keep but unsure"). Carve-out logged: **position-card tracking fields are exempt from the no-dup-spot rule**; the rule applies to forward-trigger / forward-event / threshold-status rows only. METSUKE will not re-flag this pattern.
-- **3-of-3 vol convergence** is the substantive thesis-side finding from Run 1 — ATM IV the prior laggard (~8%) has now turned UP (Jun 1 ~10.5%, +2.5v expansion as market starts pricing the BOJ binary), RR proxy steepened further (−8.11 vs −5.76). All 3 legs corroborating = highest-conviction zone per the convergence table. When hard trigger fires (BOJ Jun 16), act immediately per exit rules.
+- **Jun-1 POV pivot cascade (AM):** 4 parallel news agents caught MOU broken + Fed-cut backup dead. Writeback to STATUS / PREDICTIONS (SAM-23 ~55→~72%) / TIMELINE / CHANGELOG / CALENDAR.
+- **KURA inaugural (PM):** 7 KB adds (KB-176→182), KB-064 dedup, KB-065/066 palimpsest collapse, 2 FLOW fixes. Workbook 119→124 rows.
+- **KOYOMI Jun-1 sync:** TRUTH MODEL violation (live spot in CALENDAR cells) + stale INTERVENTION WATCH header — cleaned.
+- **Sub-agent MEMORY architecture:** added `KURA_MEMORY.md` + `KOYOMI_MEMORY.md` (RUN LOG, PENDING, STANDING MONITORS, CALIBRATION, NEXT RUN HINTS). Mirrors SAM's CLAUDE+MEMORY split. Auto-memory promoted as transferable pattern.
+- **TRADE.md Jun 1 refresh + THESIS surgical sync (7 edits):** Fed-cut "24h backup" → "multi-month tail not Jun-window"; probabilities HELD by design (25/15/12).
+- **METSUKE introduction (3rd sub-agent, propose-only across the board):** 8-category drift taxonomy; forbidden to touch money fields. METSUKE Run 1 inaugural: 19 flags, S/N 94.7%, 18 applied / 1 declined (TRADE position-card carve-out established). 3-of-3 vol convergence flipped UP — highest-conviction zone.
 
 ### NEXT SESSION
 
-1. **🔴 USDJPY 160 watch** — 159.92 at Tue mid-session, 0.05% from hard trigger. Intervention #3 may fire intraday/this week pre T-2 blackout (~Jun 13). Monitor: Reuters/Bloomberg MOF headlines, Bessent/Katayama verbals (cabling window LIVE this week). If 160 prints → SAM-23 resolves (not re-rates).
+1. **🔴 USDJPY 160 watch** — 159.94 at Wed AM, 0.04% from hard trigger; 3rd consecutive day pressing. Intervention #3 may fire this week pre T-2 blackout (~Jun 13). Monitor: Reuters/Bloomberg MOF headlines, Bessent/Katayama verbals (cabling window LIVE this week). If 160 prints → SAM-23 resolves (not re-rates). **Per new METHOD: even if MOF #3 fires, baseline unwind|fires is only 0.20-0.25 — same-day reclaim is the modal outcome per CH-003.**
 2. **🔴🔴 Jun 16 BOJ MPM** — DOMINANT, SAM-21 70% / Polymarket 87.6% (verified Jun 2 intraday). **Re-verify pricing Jun 9-15.** If pricing holds >85% through cabling week with no Takaichi pushback → consider +5pp mark to 75%. National May CPI Jun 19 (post-BOJ). Position unchanged: 13 sh + Jun-18 $58C.
-3. **🔴 Iran/Hormuz MOU watch** — broke Jun 1; SAM-23 ~72%. Brent +0.73% Tue confirms no walk-back overnight. Binary still: walk-back / Trump-Khamenei reset → resign path; further escalation → Brent $100+ / Hormuz close attempt.
-4. **🆕 FXY ATM IV proxy investigation** — Jun 2 reading 1.56 vs Jun 1 10.52 is non-physical (USDJPY rising into BOJ binary; vol should be UP not down). Likely scraper calibration. Check `fxy_options.py` source / consider real OTC pull next session. **Now also durably captured as KB-183** (fxy-proxy-v1 Framework caveat — read sign/trend not absolute).
-5. **Hedge-ratio verification:** primary-source check on 44.4% vs <30% claim (tracked in KURA_MEMORY PENDING).
-6. **🟠 Jun FY2025 Norinchukin** — only near-term Channel 1 reactivation gate; CLO-book reduction language / CEO Kitabayashi. CLO book reportedly ¥8.2T (was ¥9.7T in thesis) — verify. (Tracked in KURA_MEMORY STANDING MONITORS.)
-7. **Eval re-baseline DUE** — standing trigger compounded. Evals carry stale $57.48; RED self-correct $57.48→$58.32 on next boot.
-8. **Position next-touch:** No add/trim under v1.5 single-path. Triggers: (a) USDJPY <156 for 3 sessions → consider add; (b) BOJ pre-cabling Jun 13-15; (c) thesis break (USDJPY >167 + BOJ dovish) = stop $55.05.
-9. **KURA / KOYOMI / METSUKE next runs** — all 3 have populated MEMORY files. Natural cadence: **METSUKE** Jun 9-15 pre-BOJ window OR on next material POV pivot; **KOYOMI + KURA** post-Jun-16 BOJ. Validate architecture by spawning without re-briefing. **KOYOMI BASELINE AUDIT first fires first run of July** (monthly trigger per amended spec) — covers Jul + Aug forward window vs MOF/BOJ/Fed source.
-10. **🆕 Push coordination pending:** commit `127ae123` held for SAM+OTTO+REGINALD coordinated push. Will managing the timing — do not push solo on next boot; check with Will.
-11. **🆕 KOYOMI_MEMORY ## CALIBRATION** — section deliberately NOT scaffolded (propose-to-seed). Seed structure when first declination happens: `### Declined release classes` (date + reason per line) + optional `### Accepted proposals` (pattern-tracking). Placement: between STANDING MONITORS and NEXT RUN HINTS.
-12. **⏸️ DEFERRED (still holds):** Layer B cross-agent signals (BROCK/HANS PC-cascade pull, HENRY carry-numbers); KB cleanup tier-2 macro/flow rows. Do NOT re-flag.
+3. **🔴 Iran/Hormuz MOU watch** — broke Jun 1; SAM-23 ~72%. Brent +1.20% Wed (3rd straight up day), now $97.15 — closing in on $100. Binary still: walk-back / Trump-Khamenei reset → resign path; further escalation → Brent $100+ / Hormuz close attempt.
+4. **🆕 Sat Jun 6 CFTC re-evaluate** — first scheduled CFTC-amplifier/residual re-check under new METHOD. Watch the 60% cycle-peak line (~-108K). If short covers below it: amplifier drops 0 from +5pp, residual turns OFF → 30d marks slip ~5-8pp (37% → 29-32%). If shorts build further: amplifier may bump toward +8pp (85% line ≈ -153K), residual stays ON.
+5. **🆕 FXY ATM IV proxy investigation** — Wed reading 1.17% confirms the proxy is still broken (Tue 1.56 → Wed 1.17, non-physical with BOJ T-9 to T-10). Likely scraper calibration. Check `fxy_options.py` source / consider real OTC pull. Captured as KB-183 (fxy-proxy-v1 Framework caveat — read sign/trend not absolute).
+6. **🟡 Cleanups deferred from this morning's 4-candidate list** (Will picked #1 CH-004 close; the other 3 still live):
+   - **#4 insurer profiles audit (~10 min)** — confirm which of the 7 per-insurer profiles have been refreshed post-v1.5; fix the stale CLAUDE.md FILES table flag ("last refreshed Apr 7-13") — nippon-life.md was updated May 27, so the flag itself may be stale across more files than just one
+   - **#3 Japanese-source pipeline (~10 min)** — zero rows in 5 months; revive-vs-retire decision; lean retire (move to `archive/` with revival pointer)
+   - **#2 SIGNAL_INTAKE (~15 min)** — per [[project_messaging_overhaul]] don't patch infra; minimal-correctness fix (v1.4→v1.5, JGB 10Y current, CFTC threshold current, channel structure current) + hard-frozen banner; OR archive entirely
+7. **🆕 Auto-memory promotion candidate** — the catalyst-prob → unwind-prob conflation pattern + decomposition discipline is a transferable cross-session calibration lesson. Worth promoting as `finding_catalyst_vs_unwind_conflation.md` (or similar) — applies to ANY agent shipping probability-shaped signals derived from catalyst probabilities. Hold for Will's call.
+8. **Hedge-ratio verification:** primary-source check on 44.4% vs <30% claim (tracked in KURA_MEMORY PENDING).
+9. **🟠 Jun FY2025 Norinchukin** — only near-term Channel 1 reactivation gate; CLO-book reduction language / CEO Kitabayashi. CLO book reportedly ¥8.2T (was ¥9.7T in thesis) — verify. (Tracked in KURA_MEMORY STANDING MONITORS.)
+10. **Eval re-baseline DUE** — standing trigger compounded. Evals carry stale $57.48; RED self-correct $57.48→$58.32 on next boot.
+11. **Position next-touch:** No add/trim under v1.5 single-path. Triggers: (a) USDJPY <156 for 3 sessions → consider add; (b) BOJ pre-cabling Jun 13-15; (c) thesis break (USDJPY >167 + BOJ dovish) = stop $55.05.
+12. **KURA / KOYOMI / METSUKE next runs** — natural cadence: **METSUKE** Jun 9-15 pre-BOJ window OR on next material POV pivot (note: today's CH-004 close is methodology, not POV pivot — METSUKE not warranted on this); **KOYOMI + KURA** post-Jun-16 BOJ. KOYOMI BASELINE AUDIT first fires first run of July (monthly trigger per amended spec).
+13. **KOYOMI_MEMORY ## CALIBRATION** — section deliberately NOT scaffolded (propose-to-seed). Seed structure when first declination happens.
+14. **⏸️ DEFERRED (still holds):** Layer B cross-agent signals (BROCK/HANS PC-cascade pull, HENRY carry-numbers); KB cleanup tier-2 macro/flow rows. Do NOT re-flag.
 
-**🟢 RESOLVED THIS SESSION (full Tue, AM + PM):** Polymarket BOJ pricing intraday verification (87.6% — held; from Mon close-out NEXT item 1); KOYOMI Jun-2 10Y backfill + structural 2Y/5Y gap closed; FOMC Jul 28-29 promoted to CATALYSTS.tsv + CALENDAR.md; KB-183 promoted (FXY vol-proxy caveat); KOYOMI spec extended with BASELINE AUDIT (Run-4 PENDING auto-resolves); teams-mode iterative-task pattern validated via SendMessage round-trip (auto-memory promoted).
+**🟢 RESOLVED THIS SESSION (Wed Jun 3 AM):** CH-004 close (carry-unwind decomposition methodology landed in THESIS + STATUS + STRATEGY + CHANGELOG; 3 outbox signals delivered with measurement-correction framing — LIQUID 🟡 channel-scoped, HENRY 🟠 size-implication, RED 🟠 challenge-close); push-coordination item from prior NEXT (commit `127ae123` cleared via push-train overnight).
 
 ### NEXT INFRA SESSION (script build queue — unchanged)
 

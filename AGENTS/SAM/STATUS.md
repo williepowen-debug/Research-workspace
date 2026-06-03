@@ -57,15 +57,19 @@
 
 ---
 
-## CARRY UNWIND PROBABILITY — JUN 1 (Fed-cut backup removed; intervention #3 zone reactivated)
+## CARRY UNWIND PROBABILITY (decomposed estimate — method in `thesis/THESIS.md` § CARRY-UNWIND PROBABILITY METHOD)
 
-| Timeframe | May 28 | May 31 | **Jun 1** | Driver |
-|-----------|--------|--------|-----------|--------|
-| **7d** | 12% | 12% | **15%** | +3pp: intervention #3 zone live + Katayama verbal at 159+ + MOU break could push USDJPY 160 trigger this week. Pre-meeting cabling window. |
-| **30d** | 58% | 70% | **70%** | Unchanged: BOJ pricing held / mild uptick offsets Fed-cut backup removal (the Fed-cut path was never a base-case driver of the 30d, only an asymmetric tail). |
-| **60d** | 77% | 83% | **80%** | -3pp: Fed-cut secondary engine now reads ~dead for 2026 (<10% odds across all FOMC). Trims the 60d tail. June BOJ base case unchanged. |
+**Jun 3 MEASUREMENT CORRECTION (CH-004 close).** Prior 7/30/60 buckets conflated catalyst-prob with unwind-prob (SAM-21 70% / SAM-23 72% were being transcribed as unwind probabilities; MOF #3 unwind\|fires was anchored at 50% in contradiction of CH-003 evidence). Decomposition restores the conditional. **No view change** — yen-direction conviction HIGH unchanged; only the carry-unwind *number* was overstated. See `thesis/CHANGELOG.md` 2026-06-03 entry.
 
-*Jun 1 adjustment: 7d up +3pp on reactivated intervention zone; 30d unchanged; 60d trimmed -3pp on Fed-cut path removal. Net structure: tighter single-path. The BOJ base case is what we own; the Fed-cut backup was thinner than v1.5 framed it.*
+| Timeframe | Jun 1 (prior) | **Jun 3 (decomposed)** | Δ | Top contributors (pᵢ, CFTC-amplified) |
+|-----------|---------------|------------------------|---|------|
+| **7d** | 15% | **14%** | -1pp (within noise) | MOF #3 (0.09) · risk-off (0.028) · oil/MOU (0.023) · residual (0.015). Union 15% − 1pp overlap. |
+| **30d** | 70% | **37%** | **−33pp** | MOF #3 (0.18) · BOJ-surprise (0.10) · risk-off (0.083) · oil/MOU (0.068) · residual (0.050) · Fed-cut (0.040). Union 42% − 5pp overlap. |
+| **60d** | 80% | **49%** | **−31pp** | MOF #3 (0.21) · risk-off (0.14) · oil/MOU (0.135) · Fed-cut (0.10) · BOJ-surprise (0.10) · residual (0.075). Union 56% − 7pp overlap. |
+
+**Live anchor state (Jun 3):** CFTC -114K = 63.7% of cycle peak → **amplifier +5pp ON, residual ON.** Both turn OFF if CFTC covers below ~-108K (60% line). MOF #3 conditional capped at 0.20 baseline per CH-003 (Apr 30 + May 6 both spike-reversed same-day).
+
+*Decomposed estimate, not authoritative probability — model output sensitive to ~10 named anchors. See THESIS METHOD for formula, anchors, calibration sources, update discipline. Future bucket shifts >5pp must attribute to a named driver.*
 
 ---
 
