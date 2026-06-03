@@ -1,5 +1,5 @@
 # LABOR STATUS
-**Last Updated:** 2026-06-02 ~17:00 EDT (post-29-day gap + Phase 1 BLS empsit deep-read: prime-age LFPR, U-4/U-5, duration, U-6 reconfirm, Temp Help CES — LAB-01 falsified)
+**Last Updated:** 2026-06-02 ~18:00 EDT (post-29-day gap + Phase 1 BLS + Phase 2 cross-agent + Phase 3 federal/healthcare deep-reads: DHS structural bleed surfaced, hospital-tier disaggregated, BCBS attribution corrected)
 **Status:** 🟡 BIFURCATED SHARPER — NFP Apr +115K (BEAT cons 55-65K); claims drift 189K→215K; JOLTS Apr openings JUMPED to 7.6M (24-mo high) but hires fell 5.6M→5.1M = "post job, don't hire." Announcement data still worsening (Spirit 14K bankruptcy May 2, Meta +8K May 20, WARN +24%, TrueUp tech +55% vs Apr). FL UR 4.8% (2nd worst YoY move). DHS shutdown ended cleanly — no visible UI suppression. **Hotel California intensified.**
 
 ---
@@ -13,7 +13,7 @@
 - **Meta 8,000** (May 20) — integrity/cybersec/content; AI restructuring; further waves expected Fall
 - **Microsoft 8,750** voluntary retirements — notifications closed Jun 6
 - **Walmart 1,000** corp (May 12, AI reorg under Furner); **Snap 1,000**; **Wix 1,000**; **Disney "up to 1,000"** rolling; CrowdStrike ~500
-- Healthcare cluster continued: HCA, Baptist Fort Smith 86-150, Providence Sacred Heart ~40, St. Christopher's Philly 30-60, Alameda 247
+- Healthcare cluster continued: **Asante (Oregon) 300+ May 6-7**; **Bradford Reg Med Ctr 238 — HOSPITAL CLOSURE May 17**; **Laurel Ridge (UHS San Antonio) 648 — CMS Medicare termination**; Providence Sacred Heart 40 (Jul 14); St. Christopher's Philly 30-60 May 19; Washington Reg (NW AR) 86; Care New England (RI) 30+ leadership; UMass Memorial Healthlink 78; HCA non-direct care. (Earlier: BCBS Michigan buyouts were 2025, not 2026 — misattributed in prior STATUS.)
 - WARN cumulative **2,083 notices / 207,650 workers** (was 1,794 / 169,337 Apr 30 → +289 / +38K)
 - TrueUp tech YTD **355 events / 148,173 workers** (was 249 / 95,878 Apr 30 → +106 / +52K in 5 wks)
 - Challenger Apr **83,387 cuts** (+38% MoM, -21% YoY; YTD 300,749 = -50% YoY on DOGE comp). AI = 26% of cited reasons (2nd month leading). Tech 33,361.
@@ -79,9 +79,9 @@
 | # | Vector | Score | Δ vs May 4 | Key Signal |
 |---|--------|-------|------|------------|
 | 1 | WARN pipeline | **5** 🔴🔴 | flat | 2,083 / 207,650 (+24% from Apr 30) |
-| 2 | DOGE / federal | **3** 🟠 | ↓ | 386-403K cumulative, IRS rehiring, DOGE expires Jul 4 |
+| 2 | DOGE / federal | **3** 🟠 | ↓ | 403K confirmed (May, +16K in 4 mo = pace decelerated). Treasury OFR RIF May 15 (-64%). DOGE expires Jul 4; 3 codification bills pending. 9% workforce gone Mar. **Separate:** DHS shutdown bleed CISA -1,100, TSA -1,110, USCG mariner backlog 1yr (see dashboard). |
 | 3 | Claims / shadow gap | **2** 🟡 | flat | Drift to 215K, 4-wk MA 209K. Hypothesis weakened by clean shutdown end. |
-| 4 | Hormuz hiring freeze | **4** 🔴 | ↓ | Demoted pending BRENT check; verify next session |
+| 4 | Hormuz hiring freeze | **4** 🔴 | ↓ | [CONF BRENT 2026-06-01] Brent $95.13 +4.4% on Iran SUSPENDS US talks Jun 1; "PHASE 1 RE-ARMED" per BRENT (Hormuz re-closure + Bab al-Mandab threats). Macro re-armed but direct labor-transmission evidence not refreshed post-May 4 (Unilever-style freezes). |
 | 5 | Sector cuts | **5** 🔴🔴 | flat | Spirit 14K, Meta 8K wave 2, Microsoft 8.75K confirmed, Walmart 1K, Snap/Wix 1K each |
 | 6 | Long-term unemployed | **3** 🟠 | ↓ | 1.8M Apr (25.3% of unemp) — down from 1.9M Feb |
 | 7 | Temp employment | **1** ⚪ | ↓↓ | BLS CES Apr +7.9K MoM; ASA +4.9% YoY. Broad industry EXPANDING. KELYA/RHI = company-tier lag only. |
@@ -89,14 +89,14 @@
 | 9 | BLS degradation | **3** 🟠 | ↓ | CPS response 66.6% (vs 80% pre-pand) — measurement noise, not suppression |
 | 10 | ISM employment | **4** 🔴 | ↓ | Mfg 48.6 (+2.2), Svs 48.0 (+2.8) — both recovered but still contracting |
 | 11 | Staffing canaries | **2** 🟡 | ↑ | KFRC +20% holds; KELYA LOSS disconfirms uniform bottom |
-| 12 | H-2A pipeline | **4** 🔴 | flat | per MARCO last read; verify next session |
-| 13 | ICE enforcement | **5** 🔴🔴 | flat | Funded through 2028; data gap on May raids |
+| 12 | H-2A pipeline | **4** 🔴 | flat | [CONF MARCO 2026-06-02] Bottleneck PERSISTS 🔴 LIVE. Red River potato delays; SA consular backed to July (past planting); 2.2M ag stock loss; MARCO-11 (>425K FY26) 75%. NASS Farm Labor Survey canceled — permanent data blind spot. |
+| 13 | ICE enforcement | **5** 🔴🔴 | flat | Funded 2028; aggregate intact. **May 29 NON-AG SURGE:** FL 133 construction, Lowell roofing 11, Philly meat market, Denver $8M I-9 fines. **Ag carve-out** confirmed (Stateline Nov 2025; MARCO 6/2). **Lyons resigned May 31** mid-surge. |
 | 14 | Unemployment duration | **3** 🟠 | ↓↓ | Apr 24.4 wks (was Feb 25.7, Mar 25.3). Structural improvement. |
-| 15 | Healthcare cracking | **3** 🟠 | flat | Cluster broadening but NFP Apr healthcare +37K still strong |
+| 15 | Healthcare cracking | **4** 🔴 | ↑ | **NFP Apr +37K hides hospital weakness:** nursing+res care +15K, home health +11K, hospitals+ambulatory+social ~11K combined. Cluster (Asante 300, Bradford 238 CLOSURE, Laurel Ridge 648, St.Christopher's, Care NE, Washington Reg) is hospital-tier; adds are post-acute tier. CMS SDP rule May 20 "triples" HR1 harm per Georgetown. |
 | 16 🆕 | JOLTS hire-rate collapse | **4** 🔴 | NEW | Hires 5.1M (down from 5.6M); openings 7.6M = post-don't-hire pattern |
 
-**Total: 50/80** | 🔴🔴: 3 | 🔴: 4 | 🟠: 6 | 🟡: 2 | ⚪: 1
-**State:** Bifurcated → intensified frozen market. Phase 1 (Jun 2) cooled two vectors: Temp employment (LAB-01 falsified — industry expanding) and Unemployment duration (Apr 24.4 wks improving). Soft data still firing; hard data holding AND temp/duration improving.
+**Total: 51/80** | 🔴🔴: 3 | 🔴: 5 | 🟠: 5 | 🟡: 2 | ⚪: 1
+**State:** Bifurcated → intensified frozen market. Phase 1 cooled Temp + Duration; Phase 3 heated Healthcare (3→4) on hospital-tier disaggregation hidden in +37K aggregate. Net: thesis MORE bifurcated, not less — industry-level data confirms hard-data hold, but hospital-tier and announcement-tier worsen.
 
 ---
 
@@ -128,7 +128,7 @@
 | Claims 4-wk MA | 209K (was 207.5K) | [CONF] DOL May 29 | 🟢 |
 | Continuing Claims | ~1,786K stable | [CONF] DOL May | 🟢 |
 | Insured UR | 1.2% steady | [CONF] DOL May | 🟢 |
-| **JOLTS Openings Apr** | **7.6M (24-mo high)** vs cons 6.8M | [CONF] BLS Jun 2 | 🔴 (anomaly) |
+| **JOLTS Openings Apr** | **7.6M (24-mo high)** vs cons 6.8M | [CONF] BLS Jun 2 — **+700K MoM is largest in 24+ mo; counter-trend (was declining 4 of 5 mo); composition odd (openings ↑↑, hires ↓, quits ↓); watch JOLTS May for revision** | 🔴 (anomaly) |
 | **JOLTS Hires Apr** | **5.1M** (down from 5.6M) | [CONF] BLS Jun 2 | 🔴 |
 | **JOLTS Quits Apr** | 3.0M (down from 3.2M) | [CONF] BLS Jun 2 | 🔴 |
 | JOLTS Layoffs Apr | 1.7M flat | [CONF] BLS Jun 2 | 🟡 |
@@ -159,6 +159,15 @@
 | FL UR Apr | **4.8%** (+0.1pp; +1.1pp YoY = 2nd worst state) | [CONF] BLS May 22 | 🔴 |
 | FL weekly IC wk May 16 | **-1,940 (largest US decrease)** | [CONF] DOL May 22 | 🟢 (counter) |
 | DHS Shutdown | Ended May 1 cleanly; no UI spike visible | [CONF] DHS / DOL May | 🟢 ↓ |
+| **DHS structural bleed (Phase 3)** | **CISA -1,100 (~30%), TSA -1,110 (8% vs 4.6% normal)** | [CONF] Mullin/The Hill/WashExam May | 🔴 |
+| USCG mariner backlog | **Up to 1 year** to clear; CyberCorps internships cancelled | [CONF] gCaptain/Nextgov | 🟠 |
+| Treasury OFR RIF May 15 | Staff ~196 → ~70 (-64%) | [CONF] FedNewsNet/GovExec | 🔴 |
+| **ICE Acting Director Lyons** | Resigned May 31 mid-surge | [CONF] FedNewsNet Apr 16 | 🟠 |
+| **NFP Healthcare Apr sub-detail** | Nursing & res care +15K; home health +11K; hospitals+amb+social ~+11K combined | [CONF] BLS May 8 | 🔴 (hospitals weak) |
+| **Asante (Oregon)** | 300+ (~5-6%) May 6-7 — $16M H1 loss, 75% Medicaid/Medicare | [CONF] OPB/Becker's May 7 | 🔴 |
+| **Bradford Regional Med Ctr** | **238 — HOSPITAL CLOSURE May 17** (inpatient + ED stop) | [CONF] PA Capital-Star | 🔴 |
+| **Laurel Ridge (UHS)** | 648 San Antonio — CMS Medicare termination | [CONF] Becker's BH (Apr 28 WARN, Jun 26 eff) | 🔴 |
+| **CMS SDP proposed rule May 20** | Caps State Directed Payments at Medicare rates — "triples" HR1 provider cut harm | [CONF] AHA/Fed Reg/Georgetown CCF | 🔴 (forward) |
 | CPS response rate Apr | **66.6%** (was >80% pre-pand) | [CONF] Indeed Hiring Lab May 21 | 🟠 |
 | KELYA Q1 | -10.7% YoY, $0.17 LOSS | [CONF] SEC 8-K May 7 | 🔴 (small/mid tier) |
 | KFRC Q1 | First annual gain, +20% tape | [CONF] Apr 28 | 🟢 (large-cap) |
@@ -198,7 +207,7 @@
 | LAB-03 | Claims >250K | 65% → **25%** | STRONG DOWNGRADE — drift 200-215K; 4-wk MA 209K. No break visible. |
 | LAB-09 | Shadow payroll gap closes | — | ✅ CONFIRMED Mar |
 | LAB-12 | U-3 ≥5.0% Q3-Q4 | 60% → **55%** | Holding. NFIB still r=0.83. |
-| LAB-13 | Healthcare turns net-negative by July NFP | 55% → **35%** | DOWNGRADE — Healthcare Apr +37K (still strongly positive). Cluster building but not converting. |
+| LAB-13 | Healthcare turns net-negative by July NFP | 55% → **30%** | TRIMMED — aggregate +37K stays carried by nursing+home health (+15K, +11K). Hospital tier IS contracting (Bradford CLOSURE, Asante 300, Laurel Ridge 648) but post-acute carry likely keeps aggregate ≥0 through July. Re-frame: "hospital-tier" net-negative more probable than aggregate net-negative. |
 | LAB-14 | NFP April <100K | 45% | ❌ **FALSIFIED** — +115K printed May 8 |
 | LAB-15 🆕 | NFP May <100K | 40% | NEW — ADP weekly Pulse 4-wk ~36K/wk = ~143K equiv. Soft >100K bias. |
 | LAB-16 🆕 | JOLTS hire-rate collapse continues into May | 65% | NEW — Apr hires 5.1M is multi-yr low; "post-don't-hire" persists |
