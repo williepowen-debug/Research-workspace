@@ -1,6 +1,6 @@
 # SAM STATUS
 
-**Signal Status:** 🟠 v1.5 — **JUNE HIKE PRICING HELD (Polymarket 87.6%, Jun 2 intraday)** → SAM-21 **70%** | June BOJ CLEAR base case (mkt weighting activity beat + 3-dissent split over soft CPI) | CHANNEL 1 DEFERRED STRUCTURAL BACKSTOP (Big 3 ESR 3-of-3) | **USD/JPY 159.92 (Tue Jun 2 12:15 ET — 0.05% from 160 hard trigger; +0.36% on day)** | FXY **$57.42** (−0.16%) | CFTC **-114,667** (May 26 — +27K new shorts, BROKE -102K cycle peak; 4th build week; next release Sat Jun 6) | JGB 10Y **2.682%** (+2.5bp) | JGB 30Y **3.863%** | **Brent $95.67 (+0.73% on top of Mon +4.02%) — MOU break NOT walked back overnight** | **🆕 10Y JGB auction Jun 2 ORDERLY (BTC 3.53x, tail 0.7bp)** | **Position: 13 shares + 1 Jun-18 $58C — unchanged. Sep $60 calls NOT warranted under v1.5 single-path.** | **Next catalyst: 🔴🔴 BOJ Jun 16 = 10 trd days.** | **Last Updated:** 2026-06-02 ~12:15 ET — Tue boot (intraday verification, no mark changes)
+**Signal Status:** 🟠 v1.5 — **USDJPY TAGGED 160.03 (Wed Jun 3 15:29 ET — FIRST PRINT ABOVE HARD TRIGGER THIS CYCLE)** | **Polymarket BOJ hike 94.8%** (+7pp in 24h) — SAM-21 **HELD 70%** (single-print ≠ "holds"; mechanical +5pp trigger pre-registered for Jun 9 re-check) | CHANNEL 1 DEFERRED | FXY **$57.37** (−0.11%) | EUR/JPY −0.20%, GBP/JPY −0.24%, AUD/JPY −0.55% (**yen STRONGER on crosses — USD strength driving 160 print, not fresh yen weakness**) | CFTC **-114,667** (May 26; next print Sat Jun 6) | JGB 10Y **2.577%** (-10bp vs Mon publication) | JGB 30Y **3.810%** | **Brent $97.70 (+1.77%, 4th straight up day; closing on $100)** | **Position: 13 shares + 1 Jun-18 $58C — unchanged. Stop $55.05.** | **Per CH-003: if MOF #3 fires, same-day reclaim is modal (unwind|fires ~0.20).** | **Next catalyst: 🔴🔴 BOJ Jun 16 = 9 trd days.** | **Last Updated:** 2026-06-03 ~15:29 ET — Wed mid-session (160 break + Polymarket re-pull + SAM-21 mechanical trigger pre-registered)
 
 ---
 
@@ -79,9 +79,10 @@
 
 | Date | Size | USDJPY intraday | Outcome |
 |---|---|---|---|
-| Apr 30 | ~¥5.48T ($35B) | 160.70 → 155.55 | Same-day reclaim |
-| May 6 (Golden Week) | ~¥4.3T ($28B) | 157.89 → 155.05 | Same-day reclaim |
-| **Combined** | **~¥10T ($63.5B)** | — | Largest round since 2022 |
+| Apr 30 | ~¥5.48T ($35B) est. | 160.70 → 155.55 | Same-day reclaim |
+| May 6 (Golden Week) | ~¥4.3T ($28B) est. | 157.89 → 155.05 | Same-day reclaim |
+| **Combined (named-op estimate)** | **~¥10T ($63.5B)** | — | Reuters/BofA back-out from BOJ daily settlement balances |
+| **MOF official aggregate (Apr 28–May 27)** | **¥11,734.9B (¥11.73T)** | — | MOF monthly release 2026-05-29 — authoritative. Delta ~¥1.95T = est. slippage on the two named ops and/or small unflagged smoothing op. No per-op breakdown until quarterly detail release. Net read unchanged: largest round since 2022. |
 
 **Re-engagement watch:** USDJPY back through 159.50 ✅. Brent re-accelerating ✅ ($91.12 → $94.78 today). Bessent-Katayama-Himino alignment cabling hike + intervention combo for Jun 16 (Reuters/Investing.com Jun 1). **SAM-23 marked ~55% → ~72%** — MOU-collapse condition (the explicit re-rate-higher trigger from the May 25 mark-down) is met. Pre-meeting blackout starts ~Jun 13 (T-2); cabling window closes this week. 160 is the hard trigger.
 
@@ -98,9 +99,16 @@
 | May 28 ✅ | **Tokyo May CPI DOVISH MISS — core-core 1.6% (−30bp, breaches 1.9% threshold). SAM-21 marked ~57% → ~50%.** Tokyo-subsidy-bias caveat applies vs national. |
 | May 29 ✅ | **April activity data BEAT — HAWKISH counterweight.** IP +0.8% MoM (vs −0.4% exp, semis/AI capex; May guide +5.1%); retail sales +2.1% YoY (vs +1.4% exp); unemployment steady. Real economy not rolling over with disinflation. |
 | **May 31** ✅ | **🆕 MARKET REPRICED HIKE TO ~88%** — Polymarket 88.2% / swaps ~87.5% (sustained ~60% May 22 → 88%, held through both CPI misses). Market siding with wage/activity mechanism over CPI threshold. **SAM-21 marked ~50% → 70%.** |
-| **Jun 16** 🔴🔴 | **DOMINANT REMAINING CATALYST — now market-confirmed** — base case hike to 1.00% (SAM-21 **70%**; market ~88%) |
+| **Jun 3** ⚠️ | Polymarket BOJ hike **94.8%** (+7pp in 24h vs Tue 87.6%) on USDJPY 160 break + intervention-watch dominance. **SAM-21 HELD 70%** — single-print move, not a "holds" — see trigger below. |
+| **Jun 16** 🔴🔴 | **DOMINANT REMAINING CATALYST — now market-confirmed** — base case hike to 1.00% (SAM-21 **70%**; market ~95%) |
 | Jun 16 🟡 | Sato joins board (hawk→dove swap); medium-term political risk |
 | Jun 16-17 | BOJ interim QT assessment |
+
+**SAM-21 mechanical trigger (pre-registered Jun 3):**
+- **If Polymarket ≥90% on Jun 9 re-check AND no Takaichi/cabinet pushback → mechanical +5pp to 75%.**
+- Do not move on intraday ticks before Jun 9. The 94.8% print today is a single-print move, not "holds" — the +7pp-in-a-day pattern is exactly what we don't chase.
+
+**SAM-21 honesty caveat (for HENRY/LIQUID/decomposition consumers):** The 70% mark is a **deliberate below-market Takaichi-ceiling discount** — SAM failed twice too-hawkish on this exact ceiling (SAM-08 @90%, SAM-20 @60%), so we hold an earned discount vs market pricing. **It is NOT a 30% hold-view.** Direction-of-conviction on the June hike matches the market; the 18pp gap to ~95% Polymarket is calibration, not disagreement. Don't read hike-doubt into the number when wiring it into cross-agent signals or the carry-unwind decomposition (where, per the new METHOD, only the *hawkish-tail subset* of hike probability drives the BOJ-surprise trigger — a fully-priced hike does not unwind).
 
 **Counterweights to dovish CPI:**
 - **April activity data (May 29): IP +0.8% MoM vs −0.4% exp; retail sales +2.1% YoY vs +1.4% exp** — real economy firm; BOJ normalization bias is activity/wage-driven, not spot-CPI driven (Ueda: temporary downward pressure won't prevent hikes)
@@ -180,7 +188,7 @@ Per **STRATEGY.md** + v1.5 position logic:
 
 - **Channel 1 (v1.5 DEFERRED):** Base flow pace $7-10B/mo confirmed by 3-of-3 Big 3 prints. Hedge ratio 44.4% (Mar 2025, 14yr low) = $370-550B unhedged. ESR → UST sale mechanism timing pushed to multi-year. Big 3 mutual ESR window resolved without stress signal — next near-term re-test = H2 FY2026 plans (Oct-Nov 2026) or FY2026 ESR (May 2027). J-ICS lifer long-end abandonment (DOMESTIC) remains intact as JGB 30Y/40Y mechanism.
 - **Channel 2 (v1.5 DOMINANT):** CFTC -114,667 (May 26; **4th build week; broke -102K recent-cycle peak; 63.7% of Jul-2024 -180K peak**; +27K new shorts WoW, longs +6.4K). Aug 2024 unwind speed intact. Single-path to June 16 BOJ — fuel load building, not covering.
-- **Channel 3 (Jun 1 REACTIVATED):** MOF interventions Apr 30 + May 6 totaled ~¥10T ($63.5B) — largest since 2022. Bessent May 11-12 affirmation + Katayama May 29 "decisive action" verbal + Reuters Jun 1 read on Bessent-cabling-the-runway frame the live posture. MOU break Jun 1 reactivates #3 zone; SAM-23 ~72%. Pre-meeting blackout starts ~Jun 13.
+- **Channel 3 (Jun 1 REACTIVATED):** MOF official aggregate Apr 28–May 27 = **¥11.73T** (MOF monthly 2026-05-29, authoritative); two named-op estimates Apr 30 ~¥5.48T + May 6 ~¥4.3T = ~¥9.78T (Reuters/BofA BOJ-balance back-out); ~¥1.95T residual = estimation slippage and/or small unflagged op. Largest round since 2022. Bessent May 11-12 affirmation + Katayama May 29 "decisive action" verbal + Reuters Jun 1 read on Bessent-cabling-the-runway frame the live posture. MOU break Jun 1 reactivates #3 zone; SAM-23 ~72%. Pre-meeting blackout starts ~Jun 13.
 - **BOJ QT:** ¥2.5T/mo purchases, ¥200B/quarter taper. Interim QT assessment flagged Jun 16-17.
 
 *Resolved-event narratives (Big 3 ESR window, April CPI, Brent collapse, Q1 GDP, April trade balance) live in `thesis/timeline/TIMELINE.md`.*
