@@ -1,9 +1,9 @@
 # SAM STRATEGY — FXY Decision Playbook
 
-**Last Updated:** 2026-06-01 (METSUKE Run 1 sync — May 31 market repriced June BOJ → SAM-21 ~50% → 70% / market ~88%; Jun 1 Iran MOU break → Channel 3 REACTIVATED, SAM-23 ~72%; Fed-cut secondary path softened to multi-month tail not Jun-window) | 2026-05-28 prior (Tokyo CPI dovish miss + vol-signal section re-based to FXY-derived proxies)
+**Last Updated:** 2026-06-03 (cross-ref pointer added → THESIS § CARRY-UNWIND PROBABILITY METHOD; carry-unwind buckets restated as decomposed estimate — 30d 70%→37%, 60d 80%→49%, MEASUREMENT CORRECTION not view change, yen-direction conviction HIGH unchanged) | 2026-06-01 prior (METSUKE Run 1 sync — May 31 market repriced June BOJ → SAM-21 ~50% → 70% / market ~88%; Jun 1 Iran MOU break → Channel 3 REACTIVATED, SAM-23 ~72%; Fed-cut secondary path softened to multi-month tail not Jun-window)
 **Position:** FXY long, **13 shares + 1 × Jun-18 $58 call ($40)** | **Thesis:** v1.5 (single-path, market-confirmed June BOJ base case) | **Conviction:** HIGH on direction; MEDIUM on near-term timing
 
-*Live prices, probabilities, and dashboard live in `STATUS.md`. This doc owns decision rules — don't duplicate live data here.*
+*Live prices, probabilities, and dashboard live in `STATUS.md`. This doc owns decision rules — don't duplicate live data here. **Carry-unwind probability method** (the 7/30/60 buckets routed to LIQUID/HENRY): `thesis/THESIS.md` § CARRY-UNWIND PROBABILITY METHOD (formula, trigger anchors, CFTC amplifier + residual gate, overlap discount, calibration). Decomposed estimate, not authoritative probability — read auditability, not precision.*
 
 ---
 
