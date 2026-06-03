@@ -30,10 +30,10 @@
 | **Tranche 1** | ✅ +8 → 8 shares | Executed pre-intervention |
 | **Tranche 2** | ✅ +5 → 13 shares (May 21) | v1.4 authorization; added below original $58 limit |
 | **June $58 call** | ✅ 1 × Jun-18 $58 @ $0.40 ($40) — **ACTIVE** | Event lottery; ATM at execution; pre-CPI entry |
-| **Stop loss (shares)** | FXY ~$55.05 / USD/JPY ~167 | Oil shock full domination + intervention fails (thesis break); 5.6% below avg cost |
+| **Stop loss (shares)** | **Event-capped pre-Jun-16 (no price stop); $55.05 = post-event AND trigger** | Will-decided 2026-06-03. Pre-Jun-16: ride through any drawdown. Post-Jun-16: exit if BOJ dovish AND USDJPY 167+/no MOF. See STRATEGY.md "Stop loss" section for full spec. |
 | **Price target (6-month)** | FXY ~$60–62 / USD/JPY ~148–152 | Post-BOJ hike + carry unwind + oil stabilization |
 | **Avg cost (shares)** | **$58.32** | Will's ground truth 2026-05-28. ⚠️ Prior figure "~$57.48 blend (8 × $57.36 + 5 × $57.66)" was inaccurate — did not reconcile (avg > both stated fills). Per-tranche fills unverified; use $58.32 avg only. |
-| **R:R from avg cost (shares)** | 1:1.13 — risk $3.27/sh (to stop $55.05) vs $3.68/sh upside (to $62); ≈$42.5 risk / $47.8 upside on 13 sh | Plus convex tail via call |
+| **R:R from avg cost (shares)** | Post-event AND-trigger scenario: risk $3.27/sh (to $55.05) vs $3.68/sh upside (to $62) ≈ $42.5 / $47.8 on 13 sh. **Pre-event drawdown is open-ended** (no stop) — accept full ride through to BOJ outcome. | Plus convex tail via call (max loss $40, capped) |
 | **Live P/L (shares)** | **−1.4%** at FXY $57.51 (≈−$10.5); breakeven $58.32, above spot | See STATUS for live mark |
 | **Call max loss** | $40 (sunk if FXY <$58 at June 18 expiry) | 5.3% of share notional |
 | **Call payoff @ $60 (target lower)** | ~$160 = 4x | Triggers if BOJ hikes + small post-event move |
@@ -169,7 +169,7 @@ Private credit cascade (APO, ARES — 9 funds gated; BCRED Q1 redemptions ~7.9%,
 | Risk | Probability | FXY Impact | Mitigation |
 |------|-------------|-----------|-----------|
 | **BOJ delays past June** — oil + political cover extends to Sep+ | **25%** | -3–5% short term | **Single-path elevation** — under v1.5 there's no parallel Channel 1 catalyst to absorb the disappointment. Time = more CFTC fuel; unwind more violent when fires. May TB (Jun 18) gates the oil/cover side; Fed-cut backup off for Jun 17 (multi-month tail only — see Asymmetric Setup §). |
-| **Oil shock dominates** — Kharg struck, Brent $120+; yen stays weak | 15% | FXY to ~$51-53 | Stop at $55.05; position sized to absorb. Brent re-accelerating post Jun 1 MOU break (live Brent in STATUS) — well below Kharg, but direction reversed. |
+| **Oil shock dominates** — Kharg struck, Brent $120+; yen stays weak | 15% | FXY to ~$51-53 | **Pre-Jun-16: no stop fires (event-capped per Will Jun-3 decision); accept full drawdown to ~$51-53 if scenario plays.** Post-Jun-16: $55.05 AND-trigger applies. Position sized small ($798) for this acceptance. Brent re-accelerating post Jun 1 MOU break (live Brent in STATUS) — well below Kharg, but direction reversed. |
 | **Intervention fails** — USDJPY breaks 162+ despite #3, Bessent jawboning empty | 12% | FXY to ~$55–56 before recovery | Hold if fundamentals intact. **12% held under Jun 1 MOU break — #3 zone reactivated and Bessent-Katayama-Himino alignment cabling combo (Reuters Jun 1) supports execution, not jawbone-only.** |
 | **Channel 1 reactivates** (new shock — JGB 30Y to 4.5%+, ESR sub-200% via market stress) | 10% | +3-5pp 60d prob upside (offsetting positive — would expand structure back to multi-channel) | Watch JGB long-end, M&A saturation at Big 3 mutuals |
 | **Takaichi political collision** — 0.75% stated ceiling; next hike to 1.00% triggers friction. Scenario: BOJ wants to hike but blocked via Katayama pressure or BOJ Law revision threats | medium-term | Limits structural appreciation | Aida "tolerate to 0.75%, pause until 2027." Watch Kantei/Aida commentary. June hike math unchanged; risk is 2027+. |
