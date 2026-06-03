@@ -8,6 +8,26 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-06-03 — EIA Jun 3 CATALYST BATON-PASS (Cushing → SPR) + PADD-3 EXPORT-PULL + MD CONTAMINATION DISCIPLINE (intra-version POV pivot; no v-bump)
+
+**Author:** BRENT (with Will, Jun 3 session)
+**Action:** `demand_destruction/data/eia_2026-06-03.md` (new 123-line synthesis); STATUS.md header timestamp + 2 storage clauses + EIA Jun 3 marked FIRED in catalyst calendar + 2 new calendar rows (Jun 10 EIA / Jun 10-12 SPR floor) + Cushing demoted to ~Jul 1 🟠 + LIVE TODOs refreshed; `demand_destruction/TRACKER.md` header + Trigger #2 contamination quarantine + Cushing Tier 2 row + 2 weekly-log rows + Verdict marked [STALE — Apr 27 era]; `workbook/CATALYSTS.tsv` synced.
+
+**What changed:**
+- **Cushing draw DECELERATED HARD** (-2.794M → -0.583M WoW). 20M operational floor pushed from ~Jun 10-14 to ~Jul 1 — ~3 weeks of slack restored. The "early-mid June" floor thesis (which would have been the forced-resolution catalyst absent any deal relief) is OBSOLETE.
+- **SPR takes over as the near-term catalyst:** -7.993M to 357.119M, ~1 wk to ~350M operational floor (likely next print Jun 10). Catalyst baton-passed, not catalyst lost.
+- **Commercial crude -7.974M is the cycle-biggest single-week draw.** PADD 3 -6.657M lead despite crude imports surging +1.2M WoW = the draw is migrating from delivery point to export coast = export-pull signal = mildly Brent-bullish vs WTI (spread widens NEGATIVE toward -$4 to -$6, opposite the standing +$5 US-decoupling threshold).
+- **Demand panel CONTAMINATED by Memorial Day** (May 25 in reporting week, per LESSONS #9). Gasoline +0.6% YoY (was +0.5%) + jet fuel +0.4% (from -6.2% May 1) are exactly the contamination-UP pattern. **BRT-08 (gasoline -5% YoY) and BRT-09 (aviation lead 4-8 wks) held OPEN; resolution event deferred to Jun 10 EIA print** (first clean post-MD read). PREDICTIONS.tsv UNTOUCHED.
+
+**Old view (Jun 1):** Cushing 20M floor early-mid June was the live forced-tightening catalyst; SPR was secondary.
+**New view (Jun 3):** Cushing-floor catalyst pushed ~3 wks; SPR is now the catalyst-of-the-week. Urgency survived the baton-pass.
+
+**Framing correction (Will, Jun 3 PM):** SPR drain-through scenario originally framed as "also bullish, via different mechanism" — that conflated time horizons. Corrected: drain-through is **near-term BEARISH** (incremental supply + admin selling into strength to cap tape) / **medium-term bullish** (finite backstop exhausting faster). Jun 10 is DIRECTIONAL, not "either way bullish." Lesson promoted to auto-memory `[[feedback_two_way_read_directional_clarity]]`: when offering scenario branches, grade direction not just mechanism — "two-way read" framing earns scrutiny on whether the two ways are actually distinct in direction. Same shape as the Cushing-floor falsification earlier the same morning, just hidden under symmetric-sounding header.
+
+**TRACKER hygiene catch (Will, Jun 3 PM):** Verdict row (line 17) said "0/3 core triggers fired" while refreshed header said "PATH B 1/3, Trigger #3 FIRED" — pre-empted miscue by prepending [STALE — Apr 27 era] marker. Per `[[feedback_behavior_language_over_hash_pinning]]` discipline: don't carry-forward-as-current; mark stale.
+
+---
+
 ## 2026-06-01 PM — BRT-15 BARNACLE CHANNEL + CF HOLD CONFIRMED + TRUMP/RUBIO RHETORIC DOWNGRADED (intra-version POV pivot)
 
 ### BRT-15 thesis: 2-channel → 3-channel structure (barnacle/clean-fleet-premium added)
