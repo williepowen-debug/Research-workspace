@@ -9,94 +9,61 @@
 ## Feedback
 
 - [2026-04-17] Always pull fresh EOD levels before closing the week — partial retracements during the session are the tell.
-- [2026-04-17] When a file-system cleanup proposal touches a system-wide convention, present options and recommendation, don't just execute.
-- [2026-05-21] **Literal triad-count framing, not trajectory framing.** Per Will-authorized framing-precision note: when invalidation criteria use a literal threshold ("HY OAS <260 sustained"), the count must use the literal threshold ("not fired"), not the trajectory ("approaching firing"). "2 of 3 firing" invites a RED audit on the third leg. Use "1 fired + 1 compressing + 1 flat." Keep "trap clinching vs soft kill" conceptual distinction verbatim — that's the cleanest mental model on this thesis.
-- [2026-05-21] **Replace bare triad-watch with tape/substance divergence metric** as primary conviction signal. Track tape side (cushion-from-kill across HY OAS/VIX/SPX) vs substance side (CPI/PPI/credit marks/bank tape/duration). Direction of resolution (which side closes the gap) is the actionable read; the triad alone is binary-ish.
+- [2026-04-17] File-system cleanup touching a system-wide convention → present options + recommendation, don't just execute.
+- [2026-05-21] **Literal triad-count framing, not trajectory.** Invalidation criteria with literal thresholds ("HY OAS <260 sustained") must be counted literally ("not fired"), not by trajectory ("approaching"). Use "1 fired + 1 compressing + 1 flat." Keep "trap clinching vs soft kill" as the conceptual mental model.
+- [2026-06-03] **Decompose ratios into numerator vs denominator before assigning weight.** CCC/HY "widened to 3.48x" was mostly the HY denominator compressing (286→272), not CCC blowing out (948→946 flat). State it as levels ("tail didn't follow index tighter"), not a ratio that overstates tail stress. Don't let a ratio carry weight its components don't earn.
+- [2026-06-03] **Verify gate/catalyst dates against source — especially load-bearing ones.** Wrote "6/12 May CPI"; actual is 6/10 (BLS, and my own ECON_CALENDAR had it right). The whole duration gate keys off that date. Check BLS/source, don't trust recall.
+- [2026-06-03] **"Confirm, don't assume" on cross-agent data points.** APO<$130 — verified live ($125.44) AND verified it's a BROCK *position* trigger not a thesis soft-kill (mildly helps APO puts). The check changed the conclusion. Always pull the sibling's actual threshold semantics, not just the headline.
+- [2026-06-03] **Duration-gate discipline: don't push harder either way; wait for confirmation at better levels.** When near-term easing is real but structural thesis intact, "hold core + defer the add until the catalyst confirms" beats forcing a directional call. Will explicitly endorsed this restraint.
 
 ## Findings
 
-- [2026-04-17] When oil shocks reverse on unilateral headlines, regional-bank beta (KRE, APO) gives back most of the AM rally by close — the "conviction" bid is small vs the beta bid.
-- [2026-04-17] SAM's closeout structure (CHANGES SINCE / LAST SESSION / NEXT SESSION in MEMORY.md) is the leanest working pattern in the codebase.
-- [2026-05-21] **Surface decisively fading a "loaded" catalyst is the most consequential vol-structure read.** NVDA 5/20 was the most-watched AI catalyst of the cycle; pre-print SPX call notional record + SOX RSI 1999-high + defensives -2z = max-loaded setup. Outcome: SKEW dropped out of 140+ regime first time in 223+ td (138→132), VIX9D crushed below 15 for first time of regime, VVIX back to Apr 17 level. Three vol-surface tells, all "no catalyst expected, no pre-event hedging." Trap-clinch lens implication: the next regime-shift catalyst is unlikely to come from HENRY-domain calendar in 0-30d. HENRY's job pivots catalyst-anticipation → drift-monitoring.
-- [2026-05-21] **Credit widening on a clean AI beat is a cross-asset tell.** HY OAS +6bps from cycle min 276 to 286 over 5/17-21 window while NVDA print was a clean beat. The bid that should have re-tightened credit on a risk-on catalyst is missing. CCC +13bps over same window confirms quality bifurcation deepening. The credit underlying-substance is firming wider bias regardless of catalyst direction — meaning credit is now contributing to the substance-side acceleration, not the tape-side absorption.
-- [2026-05-21] **HENRY-VIOLET LIAISON resolved same day — R11 clock activates on R12 termination, doesn't deactivate.** Initial HENRY hypothesis after seeing SKEW drop out of 140+ was "R11 weakens post-NVDA." VIOLET first-pass corrected: R12 SKEW>140 regime DID terminate (4/5 closes <140, low 132.31), but **regime termination ACTIVATES R11 analog clock** (window 5/28-6/02, prior 36%) rather than deactivating it. Vol-spike pathway is LIVE not dead — conviction-via-vol-spike RE-CONFIRMED with lower prior. Pattern lesson: regime-end ≠ pathway-end; the analog library may have post-regime-termination forward-looking probability that the HENRY-side first-pass missed.
-- [2026-05-21] **VIOLET methodology correction: metric label was wrong, direction-call was right.** The 5/13 "20d-SKEW-slope SIGN-FLIPPED -1.0" was actually `final_5d_change` (a 5-day delta), not a 20d regression slope. HENRY uses `final_5d_change` terminology going forward. Pattern: cross-agent metric labels need verification before propagation — substantive call survived because direction was right; risk would have been if HENRY had used "20d-slope" Will-facing and a RED audit pulled the metric definition.
-- [2026-05-21] **Revival-proxy framing-precision overlay is a useful artifact.** The Prome-spawned 5/18 revival packet drafted "2 of 3 firing"; Will + Prome reviewed and added a framing-precision overlay correcting the literal count without rewriting the packet. Both layers preserved in inbox/processed/. Pattern is reusable: when a sub-agent or proxy gets the concept right but the literal claim overspecified, the overlay note + processed/ retention is cleaner than re-spawn or silent edit.
-- [2026-05-21] **LIAISON-channel-open within session resolves shared-canary questions fast.** HENRY surfaced VIOLET LIAISON ask ~13:00 ET; VIOLET first-pass back same session ~14:00 ET; integrated into HENRY STATUS by ~14:30 ET. ~90 min cycle for cross-agent canary reconciliation. Pattern: when HENRY surfaces a question dependent on VIOLET's territory (or vice versa), opening LIAISON immediately (not at next session boundary) compresses cycle by an order of magnitude.
-- [2026-05-21] **Breakeven decomposition = independent confirmation channel for Fed-can't-cut.** BOND TIPS 5/21 (commit `724169c3`): real 2.169% + nominal 10Y ~4.60% = breakeven ~2.43% (FRED T10YIE 2.49→2.44 on 5/19→5/20). Real yields rose, breakeven did NOT — duration repricing is term-premium / Fed-pinned driven, not reflation-driven. Pairs with HEN-27 PCE Core 3.20% YoY CONFIRMED as two independent reads: substance hot + bond market pricing Fed-pinned. When surfacing the substance leg of trap thesis, look for the bond-decomposition cross-read — cleanest independent confirmation because it triangulates from a different market.
-- [2026-05-21] **Auction-demand reads soften R11 substance-trigger imminence even when proximity is intact.** BOND 5/21 TIPS: BTC 2.52 = 100th pctile / direct 27.51% = 92nd pctile; with 5/20 nominal 20Y clean = 2 consecutive clean long-end auctions. Verdict: "long end clearing demand at price — expensive, not broken." Lesson: proximity (10Y 8-15bps below 4.75% R11 trigger) vs imminence (real-money absorbing supply) are separable. Track auction-tail dynamics + cover ratios alongside yield level — when real-money cover is at cycle highs, the trigger is harder to fire even when yield level looks close. Cross-domain: BOND owns auction read; HENRY owns regime read; cross-reference before HENRY treats substance-trigger proximity as imminent-firing.
+- [2026-04-17] When oil shocks reverse on unilateral headlines, regional-bank beta (KRE, APO) gives back most of the AM rally by close — conviction bid is small vs beta bid.
+- [2026-05-21] **Surface decisively fading a "loaded" catalyst is the most consequential vol-structure read.** NVDA 5/20 max-loaded; outcome SKEW dropped out of 140+, VIX9D crushed — "no catalyst expected." HENRY's job pivots catalyst-anticipation → drift-monitoring after such an event.
+- [2026-05-21] **Breakeven decomposition = independent Fed-can't-cut confirmation channel.** Real yields rising + breakeven flat = term-premium/Fed-pinned, not reflation. Triangulates from the bond market vs the PCE print.
+- [2026-06-03] **Split-axis decomposition when a "uniform" divergence meets contradicting new data.** 5/21 thesis was "tape calm / substance uniformly hot." By 6/3 substance split: cyclical (rates/energy/index credit) eased while structural (CCC tail + PC/BDC prints) held. Don't force the old binary — decompose by axis, name which axis each datum belongs to, and identify the resolving catalyst (here 6/10 CPI). Honest downgrade beats defending the framework.
+- [2026-06-03] **Sibling-STATUS staleness cascade — check the sibling's Last-Updated before citing.** Multiple agents frozen at 5/21 (HENRY + BROCK) while tape moved. BROCK's "APO entrenched >$130" was a 5/21 snapshot; live APO $125.44. When pulling cross-agent data, read the sibling's timestamp and flag stale reads rather than propagating them as current. (Per saved memory: verify-state-before-propagating.)
+- [2026-06-03] **Energy-driven yield easing ≠ Fed-pivot yield easing.** 10Y −20bps was Brent −$15 (Hormuz unwind) disinflation relief, not "Fed about to cut." Sticky core (PCE 3.2%, PPI 6.0%) unmoved. Decompose WHAT drove a rate move before reading it as thesis-relevant — the move can be real and directionally adverse to the position while leaving the structural thesis intact.
 
 ## References
 
-- [2026-04-17] Live market refresh: `source .venv/bin/activate && python3 FORGE/tools/market-data/fetch.py price ^GSPC ^VIX ^SKEW ^VIX3M KRE JPY=X ^TNX TLT APO HYG LQD BZ=F CL=F`. `SPX`/`VIX` alone fail — use `^GSPC`/`^VIX`.
-- [2026-04-17] HY OAS daily refresh: FRED series `BAMLH0A0HYM2`, 1-day lag.
-- [2026-04-17] `workbook/MARKET_DATA.tsv` is the sparse EOD snapshot log.
-- [2026-05-21] **Cross-source-tier discipline:** for vol/SPX/NVDA-tier metrics, yfinance fetch.py is HENRY-primary. For macro/credit/bank-tier (HY OAS, CCC OAS, Brent, USD/JPY), pull from BROCK/LIQUID STATUS or Prome dashboard (the Prome dashboard does not carry HENRY-tier vol metrics — that's a tier-mismatch the proxy flagged in v2 packet).
+- [2026-04-17] Live refresh: `source .venv/bin/activate && python3 FORGE/tools/market-data/fetch.py price ^GSPC ^VIX ^SKEW ^VIX3M ^VIX9D ^VVIX KRE WAL JPY=X ^TNX TLT APO`. Use `^GSPC`/`^VIX` (SPX/VIX bare fail). **.venv works on this surface** (Will's "no venv" note was a different container 6/3).
+- [2026-05-21] Cross-source-tier: vol/SPX/NVDA = yfinance HENRY-primary. Macro/credit/bank-tier (HY OAS, CCC, Brent, USD/JPY) = pull from BROCK/REGINALD/VIOLET STATUS or dashboard (Prome dashboard lacks HENRY-tier vol metrics).
+- [2026-06-03] **FRED convention (adopted):** FRED series publish T+1 — latest = yesterday's close. Date-stamp every FRED row `[FRED M/D]`; yfinance rows are intraday-live. Don't call a FRED number "live/today." Re-run `dashboard.py --compact` at boot. Full: `FORGE/tools/market-data/README.md`.
+- [2026-06-03] Credit-tier current source: REGINALD STATUS (HY/CCC/IG date-stamped) + VIOLET STATUS (vol + credit + 10Y). Both refreshed ~6/1-6/2; faster than waiting on own FRED pull (and FRED was 503'ing per Will).
 
 ---
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION
-- 34-day dark window Apr 17 → May 21. Three revival-proxy files (5/18) integrated this session.
-- Trap-clinching framing now canonized in BROCK STATUS 5/21 ("Sister revivals integrated by reference: ... HENRY 2026-05-18 — complacency-trap clinching; framing-precision literal-vs-trajectory") — concept propagated cross-agent.
-- LIQUID 5/18 reframe: PLUMBING → DURATION channel migration (active transmission channel shifted from funding stress to term-premium / fiscal repression).
-- REGINALD V2.2 today (5/21): WAL Bear-medium 30% dominant (Bear-fast only 12%), EV $67.98, 14% overvaluation vs current $77.96. $99M life-science office walk-away (10-Q subsequent event, B1 fired) + Curley resignation same week.
-- NVDA 5/20 print: clean beat, no tone-shift catalyst, vol surface decisively faded (SKEW 138→132, VIX9D 16.86→15.02).
-- BROCK Stage 2 APO trigger entrenched (sustained >$130 13+ sessions); broad-thesis HY OAS widening from 260 kill (276 cycle min → 286).
+### CHANGES SINCE LAST SESSION (5/22 → 6/3, 13-day gap)
+- **R11 analog CONFIRMED DEAD** (VIOLET 6/1) — window 5/28-6/02 expired un-fired, VIX trended DOWN, 0/7 triggers. HEN-31 EXPIRED. The 5/21 "R11 clock running, prior 36%" framing is fully resolved (low-prob outcome hit).
+- **Substance side SPLIT.** Cyclical eased (10Y −20bps to 4.50, Brent −$15 to ~$97 Hormuz-unwind, HY OAS −14bps to 272); structural held (CCC flat 946, BROCK PC/BDC Max Bear print substance, WAL v2.2 Bear-medium). Thesis downgraded trap-clinch-WIDER → SPLIT-AXIS / hinges-on-6/10-CPI.
+- **USD/JPY crossed 160** (yellow → SAM carry-unwind fired).
+- **APO fell below $130** ($125.44) — BROCK position-trigger un-fired on tape; BROCK STATUS frozen 5/21 doesn't reflect it.
+- **TLT 5/22 decision executed-on-paper but ticket sat unplaced 11d** (Will salvaging broker side); Jun $85P decayed +92%→−32% as TLT rallied. Will now holds 3× Jun as catalyst bet + 2× Sep 30 $85P.
 
-### LAST SESSION (2026-05-21 Wed mid-day-to-PM — Session 1 of revival; 3-arc continuation)
+### LAST SESSION (2026-06-03 Wed ~13:30-15:00 ET — data catch-up + architecture, Will-driven phased brief)
+**3 phases, all Will-checkpointed:**
+- **Phase 1 (read-only):** credit pull from VIOLET 6/1 + REGINALD 6/2; HEN-30 = NOT fired (272/274/272 oscillating, direction flipped toward kill); HEN-31 = EXPIRED; **duration read** delivered as Will's TLT Sep-leg gate → HOLD 2× Sep 30, DON'T add Sep 19 until 6/10 CPI confirms (energy-driven easing is real but structural thesis intact). Will accepted, said don't push harder.
+- **Phase 2 (writes):** STATUS full rewrite (5/21→6/3, split-axis thesis, FRED convention applied, SKEW spot>140/regime<140 reconciled w/ VIOLET); PREDICTIONS.tsv (HEN-31 EXPIRED, HEN-30 updated, HEN-32 CPI-gate added); PROME outbox flag (TLT ticket superseded).
+- **Phase 3 (cleanup):** VX.tsv "CURRENT (Mar 3-5)" boot-hazard fixed (relabeled LIVE/STALE-SELLOFF/BEIGE-BOOK; regime-inverted gamma/put-wall/DMA rows flagged STALE); MARKET_DATA.tsv 6/3 row appended; 2 inbox SIGs → processed/, TLT reply → delivered/ (git mv).
 
-**Session arc summary (audience: next HENRY):** Single multi-arc continuation session. Three commits, all pushed:
-1. `15f450b1` — Revival + STATUS rewrite + NVDA read-through + VIOLET LIAISON integration
-2. `36a8219b` — Gap-fill (USD/JPY pull + HEN-27 PCE scoring + HEN-28 claims + PREDICTIONS.tsv refresh)
-3. `526d3586` — BOND TIPS integration (R11 imminence softened + breakeven decomp as 3rd Fed-can't-cut confirmation channel)
-
-**Net state at close:** trap-clinching thesis with 3 independent Fed-can't-cut confirmations (PCE Core 3.20% YoY CONFIRMED + LIQUID duration reframe + BOND breakeven decomposition). R11 analog clock running 5/28-6/02 (prior 36%) per VIOLET LIAISON; 10Y substance trigger proximity intact but imminence softened by BOND auction-demand reads. R12 SKEW>140 regime terminated 5/18-5/20.
-
-**Detail (arc 1 — revival + LIAISON):**
-- **Inbox cleared (18 → 0).** Revival packet + draft STATUS + framing-precision note integrated. 15 signal/sweep files moved to processed/ via git mv. 8 LIVE absorbed into STATUS narrative; 7 archived (per revival packet §5 triage — items 11-15 + 8 + 9).
-- **STATUS rewrite.** Apr 17 → May 21. New status header (TRAP CLINCHING), live tape table with Δ vs 5/18 and Apr 17, vol regime block updated (VIX9D <15, SKEW out of 140+), literal triad-status table (1 fired + 1 compressing + 1 flat per framing-precision overlay), tape/substance divergence metric replaces bare triad watch, thesis state with confirmed/counter/counter-evidence/vol-spike-pathway sub-sections, soft-kill vs trap-clinch invalidation reframe, updated thresholds with kill-watch sub-rows, May-Jun catalyst stack, predictions table (HEN-29 scored partial disconfirm), updated cross-agent dependencies (BRENT direction FLIPPED 5/21 — sustained >$100 NOW CONFIRMS, sustained <$85 inverts to soft-kill watch).
-- **NVDA 5/20 read-through one-pager** filed at `research/NVDA_5_20_READ_THROUGH_2026-05-21.md`. Vol structure context + options market signal + broader regime tell + drafted cross-agent sends (VIOLET, LIQUID, PROME).
-- **Position read for Prome:** Macro/structure tape SUPPORTS trap-clinching + REGINALD V2.2 Bear-medium 30%. Push-back surface limited to: (1) WALTER 5/13 bull-counter signals (SIG-006 small/mid-cap discount + SIG-007 retail-puts-at-SPY-ATH) deserve calibration weight; (2) HENRY's "R11 weakens post-NVDA" hypothesis was half-right (corrected in arc 1).
-
-**Detail (arc 2 — VIOLET LIAISON resolution + gap-fill):**
-- **VIOLET LIAISON resolved same session (~90 min cycle).** R12 SKEW>140 regime terminated 5/18-5/20 confirmed; R11 analog clock ACTIVATES on termination (window 5/28-6/02, prior 36%) — HENRY's "R11 weakens" hypothesis was half-right; regime-end ≠ pathway-end. 7-trigger Stage 3 watch list integrated into cross-agent dependency table. Metric label correction: `final_5d_change` not "20d-slope" going forward.
-- **Gap-fill batch (Prome relay):** USD/JPY 159.16 (+0.23 vs 5/18 packet; 0.84 handles from 160 yellow trigger); HEN-27 PCE March CONFIRMED via core YoY +3.20% (>3.0% threshold; MoM +0.293% just under 0.3% but OR-trigger met); HEN-28 labor cliff NOT-FIRING on headline (ICSA 4-wk avg 202.5K, single-week 209K) — shadow-adjusted ~266K firing via WALTER 5/13 BAA series; PREDICTIONS.tsv refreshed HEN-22 through HEN-31.
-
-**Detail (arc 3 — BOND TIPS integration):**
-- **BOND TIPS 5/21 read** (commit `724169c3`) integrated as 3rd Fed-can't-cut confirmation channel.
-- **R11 trigger #6 (10Y) imminence SOFTENED:** BOND live intraday 10Y 4.599-4.635 = 15bps below 4.75% trigger (not 8bps from FRED 5/19 DGS10 print). 2 consecutive clean long-end auctions (5/20 nominal 20Y + 5/21 TIPS BTC 2.52 = 100th pctile / direct 27.51% = 92nd pctile) → "long end clearing demand at price — expensive, not broken." Proximity intact, imminence reduced.
-- **Breakeven decomposition:** TIPS 2.169% real + nominal ~4.60% = breakeven ~2.43% (FRED T10YIE 2.49→2.44 on 5/19→5/20). Real yields rose, breakeven did not. Duration repricing is term-premium / Fed-pinned, NOT reflation-driven. Independent confirmation of HEN-27 PCE-CONFIRMED Fed-can't-cut via bond-decomposition angle.
-
-**Cross-session lessons added to Findings (this MEMORY pass):**
-- R11 clock activates on R12 termination, doesn't deactivate (regime-end ≠ pathway-end)
-- VIOLET metric label correction (`final_5d_change` not "20d-slope")
-- LIAISON-channel-open within session = ~90 min cycle for cross-agent canary reconciliation
-- Breakeven decomposition = independent confirmation channel for Fed-can't-cut framing
-- Auction-demand softens R11 substance-trigger imminence even with proximity intact (proximity vs imminence are separable; cross-reference BOND auction-tail dynamics before treating yield-level proximity as imminent-firing)
+**Will's two corrections this session (both right):** CCC/HY is denominator-driven (state as levels not 3.48x); CPI is 6/10 not 6/12 (verify gate dates). Both folded into Feedback above.
 
 ### NEXT SESSION
-1. **🟠 R11 analog window 5/28-6/02** — 7-trigger Stage 3 watch (VIOLET surface side; HENRY substance side). Current proximity: 10Y closest (8-15bps depending on FRED-vs-live framing), HY 4bps, CCC 52bps. Imminence softened by BOND auction-demand 5/20+5/21 reads — watch auction-tail dynamics alongside yield level for next 20Y/30Y/10Y prints.
-2. **🟢 Daily HY OAS** — watch for sub-265 ×2 sess (HEN-30 leading invalidation tell). Currently 286, moving wrong way.
-3. **🟡 Inbox arrival to process:** `SIG-PROME-HENRY-2026-05-21_fred-citation-convention.md` (Prome FRED citation convention — deferred this session per closeout holds).
-4. **🟡 WAL 10-Q drill closeout** (REGINALD V2.2). Watch KRE/WAL beta into Q2 (late Jul second migration test).
-5. **🟡 BDC tail prints** (GCRED/OTF/BCRED/CTAC late May / early Jun, BROCK-primary; HENRY watches credit-tape reaction).
-6. **🟡 PCE Apr release** when scheduled — Fed framework test.
-7. **🟢 Workbook updates** — KB.tsv entries pending for gamma/momentum-suppression hypothesis + duration regime break + AI capex air-pocket + tape/substance divergence metric + breakeven-decomposition-as-confirmation-channel. (PREDICTIONS.tsv done arc 2.)
+1. **🔴 6/10 May CPI (8:30 ET) = THE GATE (HEN-32).** Consensus core +0.3% MoM. >0.3% → cyclical axis re-arms, 10Y backs up, ADD TLT Sep $85P. ≤0.2% → soft-kill confirms cyclical, only structural axis carries. Drives Will's Sep-leg decision.
+2. **🟠 6/5 NFP (May)** — Will selling 3× Jun $85P into first hot print; HEN-28 labor-cliff (CARL-domain).
+3. **🟠 USD/JPY >160 sustained** — SAM carry-unwind yellow fired 6/3; watch for 162 orange + any vol-catalyst pairing (non-CPI path to cyclical re-fire).
+4. **🟡 SKEW 20d-avg re-establishment ~6/05** (VIOLET — if SKEW holds 144). + VVIX 92+ by 6/05 = leading-indicator activation. Read from VIOLET, don't re-pull.
+5. **🟡 6/16-17 FOMC + SEP/dot plot** — primary vol catalyst; Fed-can't-cut test.
+6. **🟢 Flag BROCK STATUS stale (5/21)** — APO drop + cyclical easing not reflected. Cross-agent note, not HENRY edit.
 
 ### GAPS — PERSISTENT
-- **0DTE SPX share + GEX regime** STATUS PENDING. 4+ sessions deferred. NVDA passed; less urgent now but still a HENRY gap. Manual estimate acceptable.
-- **VX.tsv 11 STALE Jan/Feb rows** — refresh or archive.
-- **KB.tsv** — 5 entries pending from today's session (see NEXT SESSION #7).
+- **0DTE SPX share + GEX regime** STILL PENDING (5+ sessions). VIOLET 6/1 downgraded GEX-as-regime-specific-mechanism but it's still a HENRY market-structure gap. Manual estimate acceptable.
+- **VX.tsv duplicate ID collision** — VX-HEN-19.01-19.06 used twice (Beige Book Mar 4 block AND oil-shock SLOW-MOVING block). Pre-existing; not fixed this session. Renumber on next workbook pass.
+- **Stale 4/17 VIOLET outbox file** undelivered (overtaken by 5/21 LIAISON) — left in place; messaging-overhaul will sweep.
+- **KB.tsv** — split-axis + FRED-convention + sibling-staleness entries pending (deferred this session).
 
-### RESEARCH QUEUE (current priorities — pruned 5/21)
-1. **Historical cascade fired-vs-aborted cases** — NVDA 5/20 added as case study. **Promoted.**
-2. **NVDA post-print transmission tracking** — daily SMH/AVGO/AMD vs NVDA; AI capex air-pocket transmission firing incrementally vs needing fresh catalyst?
-3. **Structural bid decomposition** — gamma/momentum suppression (5/14 signal) framework; quantify $/day mechanical bid.
-4. **Regional bank credit-vs-margin playbook** — sharpens WAL/KRE read post-V2.2.
-5. **Credit-vol decoupling phase tracker** — complements VIOLET LOW_VOL framework.
-6. **GEX wire-up decision doc** — backlog.
-
-### INFRASTRUCTURE CHANGES (persistent)
-- 5/21: Tape/substance divergence metric replaces bare triad watch (Feedback). Revival-proxy framing-precision overlay pattern documented (Findings).
+### INFRASTRUCTURE NOTES
+- 6/3: FRED citation convention adopted (date-stamped rows). VX.tsv boot-hazard relabel pattern (split CURRENT into LIVE/STALE-with-reason headers) — transferable to any agent whose VX has a mislabeled "current" block.

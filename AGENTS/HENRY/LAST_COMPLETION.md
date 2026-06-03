@@ -1,80 +1,50 @@
-# HENRY — Last Completion
+# HENRY — LAST COMPLETION
 
-**Session:** 2026-05-21 Wed ~12:00-13:30 ET — REVIVAL (34d dark) | **Status:** ✅ Complete
+**Session:** 2026-06-03 Wed ~13:30–15:00 ET — Data catch-up after 13-day gap + architecture cleanup (Will-driven phased brief)
+**Status:** 🟡 SPLIT-AXIS thesis — cyclical decaying toward soft-kill, structural holdout intact, resolves on 6/10 CPI. Data current. Inbox clean.
 
 ---
 
-## CHANGED
+## RESULT (one line)
+Caught HENRY up after a 13-day dark window, downgraded the thesis honestly (trap-clinch-wider → split-axis / hinges-on-6/10-CPI), and delivered the TLT Sep-leg duration gate: **hold 2× Sep 30 $85P, don't add Sep 19 until CPI confirms.**
 
-- `AGENTS/HENRY/STATUS.md` — full rewrite Apr 17 → May 21 (trap clinching, literal triad, divergence metric)
-- `AGENTS/HENRY/MEMORY.md` — feedback/findings updated, session notes for revival
-- `AGENTS/HENRY/LAST_COMPLETION.md` — this file
-- `AGENTS/HENRY/research/NVDA_5_20_READ_THROUGH_2026-05-21.md` (NEW)
-- `AGENTS/HENRY/inbox/` → 18 files moved to `processed/` via git mv (3 revival-proxy + 15 signal/sweep)
-
-## RESULT
-
-Macro/structure tape SUPPORTS BROCK trap-clinching + REGINALD V2.2 Bear-medium 30% read. Substance accelerating (10Y 4.67% +42bps, CCC +13bps, FSK Max Bear, WAL B1 fired), tape refusing (VIX 17.38 cycle band, HY OAS widening from 276 cycle min to 286, SKEW out of 140+ regime post-NVDA, VIX9D 15.02 first sub-15 of regime). NVDA 5/20 print was clean beat with no tone-shift catalyst — trap-deepens path per pre-print scenario matrix; HEN-29 partial disconfirm.
+## CHANGED (files)
+- `STATUS.md` — full rewrite 5/21→6/3; split-axis thesis, live tape, FRED convention, SKEW spot/regime reconcile, USD/JPY-160 fired
+- `workbook/PREDICTIONS.tsv` — HEN-31 EXPIRED, HEN-30 updated (direction flipped), HEN-32 CPI-gate added
+- `workbook/VX.tsv` — fixed "CURRENT (Mar 3-5)" boot-hazard → relabeled LIVE / STALE-SELLOFF / BEIGE-BOOK; regime-inverted rows flagged
+- `workbook/MARKET_DATA.tsv` — 6/3 EOD row appended (first since 4/17)
+- `MEMORY.md` — Session Notes rewritten, 4 new Findings/Feedback, NEXT SESSION set
+- `outbox/2026-06-03_to-PROME_tlt-ticket-superseded.md` — NEW (PROME flag)
+- Filed: 2 inbox SIGs → `inbox/processed/`, TLT reply → `outbox/delivered/`
 
 ## Session Work
+- **Phase 1 (read-only):** Pulled credit-tier from VIOLET 6/1 + REGINALD 6/2 (FRED 503'ing, used sibling STATUS per cross-source rule). Walked HY OAS 286→272. Resolved HEN-30 (NOT fired — 272/274/272 oscillating) + HEN-31 (EXPIRED — R11 dead per VIOLET). Delivered duration read.
+- **Phase 2 (writes):** STATUS rewrite + PREDICTIONS + PROME flag.
+- **Phase 3 (cleanup):** VX.tsv boot-hazard, MARKET_DATA append, mail filing.
+- **Two corrections accepted from Will:** CCC/HY is denominator-driven (stated as levels, not 3.48x); CPI is 6/10 not 6/12 (verified vs BLS).
 
-1. **Boot:** read AGENTS/HENRY/CLAUDE.md, STATUS, MEMORY. Identity reconstituted from files.
-2. **Inbox integration:** 3 revival-proxy files (revival packet, draft STATUS, framing-precision note) integrated. Framing-precision overlay applied (literal "1 fired + 1 compressing + 1 flat" not trajectory "2 of 3 firing").
-3. **World-state catch-up:** cross-read BROCK STATUS 5/21 (Stage 2 APO entrenched; HENRY trap-clinching canonized), REGINALD WAL THESIS V2.2 (Bear-medium 30% / Bear-fast 12% / EV $67.98), VIOLET STATUS 5/13 (slope -1.0, R11 analog), WALTER 5/13 dispatches (counter-evidence bull signals SIG-006/007).
-4. **Live tape pull:** fetch.py SPX/VIX/SKEW/VIX3M/VIX9D/VVIX/10Y/KRE/WAL/NVDA/SMH/TLT. SKEW 132.31 = out of 140+ regime post-NVDA (load-bearing surprise).
-5. **STATUS rewrite:** new header, live tape table, vol regime, literal triad, divergence metric, thesis state, thresholds, catalyst stack, predictions, cross-agent deps, bottom line.
-6. **NVDA read-through one-pager** written to research/.
-7. **MEMORY rewrite:** feedback (literal triad, divergence metric), findings (SKEW exit + credit-on-AI-beat + HENRY-VIOLET canary contradicts + revival-proxy overlay pattern), session notes, next-session queue.
-8. **Inbox cleared via git mv.**
-
-## GAPS / Still Pending
-
-- **HENRY-VIOLET LIAISON: RESOLVED same session 5/21.** VIOLET first-pass: R12 SKEW>140 regime terminated 5/18-5/20 (HENRY hypothesis confirmed); R11 analog clock activates on termination (window 5/28-6/02, prior 36%) — HENRY's "R11 weakens" was half-right. 7-trigger Stage 3 watch list integrated into STATUS cross-agent dependency. Metric label correction: `final_5d_change` not "20d-slope" going forward.
-- **0DTE/GEX wire-up** — 4+ sessions deferred, still pending. Manual estimate acceptable post-NVDA.
-- **PREDICTIONS.tsv update** — HEN-22/24/25/26/29 close, HEN-27/28 hold + extend, HEN-30 new. Not done this session.
-- **HEN-27 score** (March PCE actual) — resolution date passed Apr 30; pull data + score next session.
-- **Workbook KB.tsv entries** — gamma/momentum-suppression hypothesis + duration regime break + AI capex air-pocket + tape/substance divergence metric all warrant KB entries.
-- **HEARTBEAT push** — Prome holds; HENRY surfaces findings, doesn't propagate to HEARTBEAT directly per holds.
+## GAPS / Still pending
+- **0DTE SPX share + GEX regime** — still pending (5+ sessions). Manual estimate acceptable.
+- **VX.tsv duplicate ID collision** (VX-HEN-19.01-06 used twice) — pre-existing, not fixed; renumber next workbook pass.
+- **BROCK STATUS stale (5/21)** — doesn't reflect APO<$130 or cyclical easing. Flagged for refresh (cross-agent, not HENRY edit).
+- **Stale 4/17 VIOLET outbox file** — overtaken by 5/21 LIAISON; left for messaging-overhaul sweep.
+- **KB.tsv entries** (split-axis, FRED convention, sibling-staleness) — deferred.
 
 ## COMMITS
+- This session: 1 commit — "HENRY: 6/3 data catch-up — split-axis thesis + VX boot-hazard fix + mail filing" (AGENTS/HENRY/ only). State = clean, synced to origin after push.
 
-None yet. Awaiting Prome / Will guidance on commit timing per session-end protocol.
+## NEXT SESSION FOLLOW-UP (catalyst dates Will cares about)
+- **🔴 6/10 (Wed) 8:30 — May CPI = THE GATE.** Core MoM >0.3% → add TLT Sep $85P on yield back-up; ≤0.2% → soft-kill cyclical, hold.
+- **🟠 6/5 (Fri) 8:30 — NFP (May).** Will selling 3× Jun $85P into first hot print.
+- **🟠 6/11 (Thu) — PPI (May).** Wholesale follow-through.
+- **🟠 6/16-17 — FOMC + SEP/dot plot.** Fed-can't-cut test, primary vol catalyst.
+- **USD/JPY >160 sustained** — SAM carry-unwind live; watch 162.
 
-## NEXT SESSION FOLLOW-UP
-
-- **R11 analog window 5/28-6/02** — 7-trigger Stage 3 watch list (VIOLET surface side; HENRY substance side: HY OAS>2.90, CCC>10.00, 10Y>4.75% — 10Y closest at 8bps).
-- **Daily HY OAS** — HEN-30 leading tell (sub-265 ×2 sess); currently 286 widening.
-- **WAL Q2 print (late Jul)** — second migration test per REGINALD V2.2.
-- **BDC tail 10-Qs** (GCRED/OTF/BCRED/CTAC late May / early Jun) — BROCK-primary.
-- **Next NFP** — labor cliff resolution (HEN-28 extended; shadow-adjusted ~266K already firing).
-- **Apr PCE release** — Fed framework test (HEN-27 score pending).
-
-## THESIS SNAPSHOT (frozen at close 2026-05-21 ~13:00 ET)
-
-**COMPLACENCY TRAP CLINCHING.** Substance accelerating (CPI 3.8%, PPI 6.0% YoY largest MoM since Dec 2022, Brent $107 sustained >$100, 10Y 4.67% / +42bps, CCC 948bps / +13bps, FSK Q1 NAV -9.9%, WAL V2.2 Bear-medium 30%, APO Stage 2 entrenched, NY Fed HHDC student-loan vertical step-up); tape refusing (VIX 17.38, VIX9D 15.02 first sub-15 of regime, HY OAS 286 widening from cycle min 276, SKEW 132 out of 140+ regime first time in 223+td, SPX 7,413 entrenched above 7,100 invalidation 20+ sessions). Active transmission migrated PLUMBING → DURATION per LIQUID 5/18. NVDA 5/20 passed without catalyst-firing — surface decisively faded. Working scenario: trap-deepens-then-asymmetric-break; conviction in regime read intact; next likely transmission nodes are BDC-tail / WAL-Q2 / Stage-3 / labor-cliff — none HENRY-primary. HENRY posture pivot: catalyst-anticipation → drift-monitoring.
+## THESIS SNAPSHOT (frozen at close 6/3 ~15:00 ET)
+SPX 7,565 / VIX 16.28 / VIX9D 13.96 / SKEW spot 143 (regime 20d-avg 138.99 <140) / 10Y 4.50% / HY OAS 272 [FRED 6/1] / CCC 946 flat / Brent ~$98 / USD/JPY 160.02 / APO 125.44.
+**Call:** Honest downgrade. Cyclical axis (rates + energy + index credit) decaying toward soft-kill on both tape and substance; structural axis (CCC tail not compressing + BROCK PC/BDC Max Bear print substance, Q2-gated late Jul) refusing to fade. Not trap-clinch-wider (5/21), not confirmed soft-kill. **Resolves on 6/10 CPI, not HEN-30.** Triad: 1 fired (SPX) + 1 compressing (HY OAS, cushion 12bps) + 1 flat (VIX).
 
 ## WILL_NEEDS
-
-- ~~Decision: open a HENRY-VIOLET LIAISON channel on slope/SKEW post-NVDA reconciliation?~~ **RESOLVED — Will approved, LIAISON opened + closed same session.**
-- Standing decision: counter-evidence weight calibration. SIG-006 small/mid-cap discount + SIG-007 retail-puts-at-SPY-ATH (10/10 analogs) deserve weight — how heavily in cross-agent dependency table? Prome flagged this may route through HENRY this session.
-
----
-
-## COMPLETION (per PROME/COMPLETION_SPEC.md)
-
-**TASK_ID:** HENRY-revival-2026-05-21
-**STATUS:** complete
-**DECISION_DRIVEN:** Macro/structure tape supports BROCK trap-clinching + REGINALD V2.2 Bear-medium 30%. No push-back from May 18-21 tape; calibration notes filed.
-**VERDICT_FIRST:** Tape supports thesis. Substance accelerating, surface refusing, divergence widening. NVDA 5/20 passed without firing the catalyst chain (clean beat / no tone shift / surface decisively faded — trap-deepens path).
-**ARTIFACTS:**
-- AGENTS/HENRY/STATUS.md (full rewrite)
-- AGENTS/HENRY/research/NVDA_5_20_READ_THROUGH_2026-05-21.md (one-pager)
-- AGENTS/HENRY/MEMORY.md (feedback/findings/session)
-- AGENTS/HENRY/LAST_COMPLETION.md (this file)
-- AGENTS/HENRY/inbox/processed/ (18 files moved)
-**HOLDS_HONORED:** No fresh position recs. Surface data + framing only. Commit scope HENRY only. Read-before-edit observed.
-**OPEN_QUESTIONS:**
-1. ~~VIOLET slope post-NVDA read~~ — **RESOLVED same session**; R11 clock running 5/28-6/02 prior 36%; 7-trigger watch list integrated.
-2. Counter-evidence weight calibration (SIG-006/007) — Prome may route through HENRY this session.
-3. Workbook PREDICTIONS.tsv + KB.tsv updates deferred.
-**NEXT_TRIGGER:** R11 7-trigger watch list (window 5/28-6/02) OR daily HY OAS sub-265 ×2 sess (HEN-30) OR BDC-tail 10-Q OR WAL Q2 (late Jul). Substance trigger closest: 10Y 4.67% / 8bps from VIOLET 4.75% threshold.
+1. **Duration gate is yours to action on 6/10:** I recommend hold 2× Sep 30 $85P, add Sep 19 only if CPI core >0.3% and 10Y backs up. No decision needed now — the gate fires 6/10.
+2. **3× Jun $85P** — your catalyst bet into 6/5 NFP / 6/10 CPI; you've said sell into first hot print. (Broker salvage on the 3 unplaced contracts is your side.)
+3. **PROME flag filed** that the 5/22 ticket is superseded — for TRADE_DECISIONS.md reconciliation.
