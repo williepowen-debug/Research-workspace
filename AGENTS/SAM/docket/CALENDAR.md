@@ -1,6 +1,6 @@
 # SAM CALENDAR
 
-**Last Updated:** 2026-06-02 (KOYOMI Run 4 — Jun 2 10Y auction backfilled to RECENTLY RESOLVED; Jun 23 5Y / Jun 30 2Y TSV gaps filled from MOF Jun calendar; Jul auction window seeded from MOF Jul calendar; BOJ Jun-MPM / FOMC Jun-MPM / BOJ Jul-MPM / FOMC Jul-MPM dates verified at source; May 26 ESR row pruned per >1wk rule) | **View:** Forward-looking only. Past events pruned weekly.
+**Last Updated:** 2026-06-03 (KOYOMI Run 5 — CFTC PHASE 2 WATCH row updated with new METHOD amplifier/residual gate framing per THESIS § CARRY-UNWIND PROBABILITY METHOD; Jun 6 CFTC = first scheduled gate. No prunes this run — May 28-31 within 1-week retention. No baseline audit trigger this run — monthly audit fired Run 4 (Jun 2).) | **View:** Forward-looking only. Past events pruned weekly.
 
 ---
 
@@ -8,7 +8,9 @@
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
+| 🟠 🔧 Sat Jun 6 | **CFTC residual-gate re-check (under METHOD)** — SAM-internal | CFTC JPY net short vs -108K (60% cycle-peak amplifier line) | Cover below -108K → amplifier 0 from +5pp, residual OFF → 30d carry-unwind decomposed estimate slips ~5-8pp (37% → 29-32%). Build through -153K (85% line) → amplifier toward +8pp, residual stays ON. **First scheduled gate under new THESIS METHOD.** | SAM |
 | 🟡 Jun 8 (Mon) | Japan Q1 GDP — 2nd/revised estimate | Revision vs +2.1% prelim (May 19 beat) | Downward revision softens BOJ June hawkish case; upward firms it. *(✅ date confirmed at ESRI — 8:50 AM JST = ~7:50 PM ET Jun 7)* | SAM, HENRY |
+| 🔴 🔧 Tue Jun 9 | **SAM-21 mechanical trigger re-check** — SAM-internal | Polymarket BOJ Jun 16 hike probability vs 90% threshold + Takaichi/cabinet posture | If Polymarket ≥90% on re-check AND no Takaichi/cabinet pushback → mechanical +5pp to SAM-21 (70% → 75%). If retraces below 90% → SAM-21 holds 70%. Pre-registered Jun 3 PM per STATUS § BOJ ASSESSMENT. **First real-time application of KB-185 / [[finding_thin_liquidity_prediction_market_discipline]].** | SAM |
 | 🟠 Jun 10 (Wed) | US CPI (May data) — **SECONDARY-PATH READ** | Headline + core MoM/YoY | Hot → Fed dots stay higher → USD firm → carry survives; soft → **Fed-cut secondary path opens** → USDJPY down. Feeds Jun 17 FOMC dots one week ahead. *(Fed-cut path = the v1.5 backup engine if BOJ disappoints — see THESIS INDEPENDENT CATALYST.)* | SAM, HENRY, BROCK |
 | 🟠 Jun 10 (Wed) | **JGB 30Y auction** | BTC ratio, tail | Weak demand (BTC <2.5x / wide tail) = J-ICS lifer long-end abandonment confirmed (SAM-26 mechanism). (See STATUS for live 30Y yield.) | SAM, LIQUID |
 | **🟠 Jun 18 (Thu)** | **May trade balance — PHASE 1 STABILITY LAG-TEST** (per PROME 5/26 forward-question) | Volume recovery vs cost-side: did ME crude flows normalize? did petroleum input costs rise? | **Routing:** (a) deficit re-opens with Brent <$100 → 🟠 Phase 1 mechanism back online (inversion was transient); v1.5 CHANGELOG candidate to relabel inversion as one-month spike. (b) surplus persists with ME volumes recovering → 🟢 inversion is structural; v1.4 finding confirmed durably. (c) surplus persists but ME volumes still depressed → 🟡 inconclusive; defer to June TB (~July 16-17). | SAM, BRENT, HAWK |
@@ -72,16 +74,16 @@
 
 ---
 
-## PHASE 2 WATCH (REFRAMED Jun 1: Phase 2 inception PAUSED on MOU break; Phase 1 oil pressure rebuilds)
+## PHASE 2 WATCH (REFRAMED Jun 3: Phase 2 inception PAUSED; Brent escalating not walking back — Phase 1 oil pressure compounding)
 
 *Live levels (Brent, USDJPY, CFTC net) live in STATUS — this table holds thresholds + significance only.*
 
 | Indicator | Threshold | Significance |
 |---|---|---|
-| Brent | <$90 = "headwind resolved" | 🔴 BREACHED UP Jun 1 on MOU break (one-session +4%). Phase 2 inception paused; Phase 1 oil-pressure dynamics rebuild (with v1.4 supply-destruction caveat — May TB Jun 18 diagnostic). (Live Brent in STATUS.) |
-| Iran/Hormuz MOU framework | Signed text by both sides | 🔴 Effectively broken Jun 1 (Tehran suspended exchange + Hormuz threat). Resign path open if Trump-Khamenei reset; watch for walk-back. |
+| Brent | <$90 = "headwind resolved" | 🔴 BREACHED UP and ESCALATING — Jun 1 +4.02%, Jun 2 +0.73%, Jun 3 +1.77% (4 straight up days; $97.70 closing on $100 psych). MOU walk-back framing now actively contra-indicated; Phase 1 oil pressure compounding (with v1.4 supply-destruction caveat — May TB Jun 18 diagnostic). (Live Brent in STATUS.) |
+| Iran/Hormuz MOU framework | Signed text by both sides | 🔴 Effectively broken Jun 1 (Tehran suspended exchange + Hormuz threat); deepening through Jun 3 (no walk-back overnight, fresh US-Iran clashes near Hormuz). Resign path requires Trump-Khamenei reset — directionally unlikely on current tape but watch. |
 | USDJPY 3-session sub-155 test | hard trigger condition | Not yet met; MOU break delays this scenario. |
-| CFTC short positioning | -75K cover line | Re-loaded (broke -102K cycle peak May 30, 4th build week); cover would signal MOU acceptance. Live net in STATUS. cftc_jpy.py auto-pulls weekly (Fri/Mon). Next release Sat Jun 6. |
+| CFTC short positioning | -75K cover line; -108K = 60% cycle-peak amplifier line | Re-loaded (broke -102K cycle peak May 30, 4th build week); cover would signal MOU acceptance. Live net in STATUS. cftc_jpy.py auto-pulls weekly (Fri/Mon). **Next release Sat Jun 6 — first scheduled amplifier/residual gate under THESIS § CARRY-UNWIND PROBABILITY METHOD** (state-dependent amplifier vs residual check; -108K = 60% cycle-peak line). |
 
 ---
 
