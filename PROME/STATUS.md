@@ -1,13 +1,13 @@
 # PROME STATUS.md
-**Updated:** 2026-06-04 ~17:25 ET (OpenClaw Prome — Jun 3-4 Prome-signal ingestion pass)
+**Updated:** 2026-06-04 ~17:35 ET (OpenClaw Prome — boot surface refresh after Jun 3-4 signal ingestion)
 
 ## Core State
 
-**Operational priority:** Prome is boot-safe after the Jun 2 catch-up. Current pass is narrow Jun 3-4 signal ingestion: (1) HENRY superseded the old TLT 5/22 ticket, and (2) SAM flagged a pathspec-commit migration to reduce shared-repo overwrite risk.
+**Operational priority:** Prome boot surfaces are being refreshed from Jun 2 cleanup mode into Jun 4 operating mode. The two direct Prome signals have been ingested: (1) HENRY superseded the old TLT 5/22 ticket, and (2) SAM flagged a pathspec-commit migration to reduce shared-repo overwrite risk.
 
 **Regime:** Public credit and vol remain calm while stress persists in Japan/FX, energy, BDC/private-credit marks, and duration. Current read is **divergence**, not confirmed public-credit/vol transmission.
 
-**Live dashboard anchor, Jun 2 ~10:45 ET:** HY OAS **272bps [FRED 6/1 close]** 🟢, CCC OAS **946bps [FRED 6/1 close]** 🟡, VIX **16.12** 🟢, Brent **$94.90** 🟡, USD/JPY **159.82** 🔴, BIZD **$12.78** 🔴. HEARTBEAT is current as of Jun 2 closeout.
+**Live dashboard anchor, Jun 4 ~17:30 ET:** HY OAS **275bps [FRED 6/3 close]** 🟢, CCC OAS **947bps [FRED 6/3 close]** 🟡, VIX **15.40** 🟢, Brent **$95.14** 🟡, USD/JPY **160.01** 🔴, BIZD **$12.70** 🔴, TLT **$85.50** 🟡. `HEARTBEAT.md` still carries Jun 2 root levels and should be refreshed separately if injected state needs to be fully current.
 
 ---
 
@@ -29,12 +29,12 @@
 
 | File | Current trust | Note |
 |---|---|---|
-| `PROME/SCRATCH.md` | ✅ Current | Rewritten Jun 2; session handoff for state rehab. |
-| `PROME/TODAY.md` | ✅ Current | Rewritten Jun 2; state-rehab objective and live dashboard. |
+| `PROME/SCRATCH.md` | ✅ Current | Rewritten Jun 4; boot handoff after signal ingestion. |
+| `PROME/TODAY.md` | ✅ Current | Rewritten Jun 4; live dashboard and work queue. |
 | `PROME/STATUS.md` | ✅ Current | This file. |
-| `PROME/FLEET_SCAN.md` | ✅ Current | Rewritten Jun 2 from bounded fleet scan. |
+| `PROME/FLEET_SCAN.md` | ✅ Current | Rewritten Jun 4 as bounded post-pull scan. |
 | `PROME/ACTIVE_DECISIONS.md` | ✅ Current safety index | HENRY Jun 3 TLT supersession ingested; old 5/22 roll ticket no longer actionable. |
-| `HEARTBEAT.md` | ✅ Current | Refreshed Jun 2 with live dashboard, WALTER frame, and SENTRY pointer. Cadence/ownership remains an open design decision. |
+| `HEARTBEAT.md` | 🟡 Stale-ish | Refreshed Jun 2; regime still directionally consistent, but Jun 4 levels/claims/pathspec/TLT updates are not reflected. Refresh next if injected root state matters. |
 | `PROME/CLAUDE_CODE_HANDOFF.md` | Historical | Useful audit trail, not current boot state. |
 
 ---
@@ -43,7 +43,7 @@
 
 | Domain | Freshness | Current state for Prome |
 |---|---|---|
-| **SAM / Japan** | Fresh Jun 1 | BOJ Jun 16 single-path base case; market ~88%, SAM 70%; USD/JPY near 160 intervention zone; v1.5 says Sep $60 calls not warranted. |
+| **SAM / Japan** | Fresh Jun 1 + Jun 4 Prome signal | BOJ Jun 16 single-path base case; USD/JPY now **160.01** live. SAM also flagged pathspec migration; Prome/SAM done, other owner edits pending. |
 | **BRENT / Energy** | Fresh Jun 1 + WALTER Jun 2 correction | Iran/energy stress re-armed, but channel state is contested: Tasnim/IRGC suspension vs MFA/Trump ongoing/rapid-pace denial. Trump rhetoric is tape-not-info in both directions. |
 | **VIOLET / Vol** | Fresh Jun 1 | R11 analog dead / gradual fade won; R12 technically terminated but spot/SKEW watch near re-establishment; timing reset later. |
 | **MARCO / Migration-labor** | Fresh Jun 1 | Acute crisis softened; structural ag-labor and Canadian travel channels remain. |
@@ -51,7 +51,7 @@
 | **WALTER / Routing** | Fresh Jun 2 | Iran anchor reverified: **narrative-fork + kinetic-acceleration**. Kuwait strike cadence load-bearing; Bab al-Mandab rhetorical only; next anchor boundary 2026-06-09. WALTER still owns news/signal routing. |
 | **REGINALD / Banks** | Domain stale May 21 | WAL v2.2 remains last deep state; later commits were housekeeping. Do not refresh until concrete need. |
 | **BROCK / Private credit** | Domain stale May 21 | BIZD remains red; APO now below $130 live. Needs refresh if PC/BDC decision becomes live, not during this catch-up pass. |
-| **HENRY / Market structure** | Domain stale May 21 | R11 window has passed and needs adjudication if used. Do not rely on old clock language. |
+| **HENRY / Market structure** | Jun 3 TLT signal; broader domain partially refreshed | TLT 5/22 ticket superseded. Jun $85P salvage is Will-handled; Sep add deferred to CPI. Do not rely on old R11 clock language without current HENRY. |
 | **LIQUID / Funding-duration** | Stale May 20 | Funding/duration state needs refresh before any duration decision. |
 | **BOND / Auctions** | Stale May 21 | June 9-11 nominal 10Y matrix remains next hard test; refresh closer to auction window. |
 
@@ -68,13 +68,14 @@
 
 | Action | Pri | Status |
 |---|---:|---|
-| Refresh Prome boot files | ✅ | Completed and pushed Jun 2. |
+| Refresh Prome boot files | ✅ | Jun 4 refresh completed after signal ingestion. |
 | Disable SENTRY scheduled pushes | ✅ | Completed; stops twice-daily master churn. |
 | Integrate WALTER Jun 2 frame | ✅ | Prome surfaces now carry narrative-fork + kinetic-acceleration caveat. |
 | Add fresh OpenClaw handoff | ✅ | `PROME/HANDOFF.md` has Jun 2 top block. |
 | Refresh HEARTBEAT | ✅ | Completed with Jun 2 live dashboard. |
 | Ingest HENRY TLT supersession | ✅ | Old 5/22 TLT roll ticket superseded by Jun 3 Will/HENRY handling. |
-| Track pathspec migration | 🟠 | Tracker created; Prome self-fix done; remaining owners pending. |
+| Track pathspec migration | 🟠 | Tracker created; Prome/SAM done; remaining owners pending. |
+| Refresh root HEARTBEAT | 🟠 | Next optional lane; Jun 2 root levels are stale though regime is directionally consistent. |
 | Reconcile old trade rails / fills | 🟠 | Deferred per Will; non-TLT rails remain verification-required, not actionable. |
 | Decide HEARTBEAT cadence / ownership | 🟠 | Open design decision for next operating pass. |
 
@@ -94,4 +95,4 @@
 
 ## Next Best Action
 
-Finish the narrow Jun 3-4 ingestion diff, verify it, then decide whether to refresh broader boot surfaces (`SCRATCH` / `TODAY` / `FLEET_SCAN`) or stop after this safety update.
+Verify and commit the Jun 4 boot-surface refresh. Next recommended lane after that: refresh root `HEARTBEAT.md`, unless Will pivots to position reconciliation.
