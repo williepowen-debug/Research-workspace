@@ -12,6 +12,31 @@ State file for the trade-doc staleness-flagger sub-agent. Spec is in [`METSUKE.m
 
 *Auto-populated by METSUKE at run start: what's moved in STATUS / THESIS / PREDICTIONS / CHANGELOG / TIMELINE / docket since the previous run. Cleared at end-of-run.*
 
+### Run 3 (Jun 3 2026 — evening) — v1.5 → v1.5.1 narrative reconciliation since Run 2 watermark (Jun 3 PM stop-spec close)
+
+State-of-truth movement since Run 2:
+
+**Jun 3 evening — v1.5.1 narrative reconciliation (THESIS + CHANGELOG only; no STATUS/PREDICTIONS/TIMELINE/docket edits):**
+- THESIS bumped v1.5 → **v1.5.1**; header banner extended with v1.5.1 reconciliation annotation.
+- Conviction line decomposed from single "HIGH on direction; MEDIUM on near-term timing" → explicit two-line split:
+  - **Direction / level: HIGH** (structural over-determination via rate-diff/J-ICS/hedge-ratio/positioning; $60-62 target grounded in structural math)
+  - **Near-term timing: MEDIUM** (explicitly cites PREDICTIONS timing-failure cluster: SAM-08/SAM-20/SAM-15/SAM-22/SAM-19; "right but early" = modal failure mode)
+- **NEW SECTION** between CORE THESIS and CARRY-UNWIND METHOD: `## STRUCTURAL PILLARS — why long even if Jun 16 disappoints`. Four pillars enumerated (rate-diff multi-decade extreme; J-ICS lifer long-end abandonment domestic; hedge ratio 14-yr low; CFTC at 63.7% cycle peak). Closes with explicit sizing logic: 13 shares = structural-pillar bet, Jun-18 $58C = catalyst-conditional bet.
+- Channel 2 prose reconciled with CH-004 METHOD:
+  - **Aug-2024-speed demoted from expectation → upside tail.** New explicit framing: *"speed of unwind scales with the catalyst's surprise component, not with the catalyst's existence."* Only hawkish-on-size/path subset triggers; fully-priced hike does NOT unwind.
+  - **Intervention paradox softened — both legs empirically falsified.** MOF acts → ~0.20 unwind|fires per CH-003 (not implicit ~0.50). MOF doesn't act → Channel 1 deferred dissolves the "forced" leg.
+- One-liner refreshed catalyst-first → structure-first framing; stale "Channel 3 dormant" line removed.
+- CHANGELOG: full v1.5.1 entry with what-changed list + why-minor-not-major + what's-NOT-changing list. Explicitly flags: METSUKE Run 3 spawned on the edited surface per the 6/2 PM CALIBRATION lesson.
+
+**No movement this pass:** STATUS / PREDICTIONS / TIMELINE / docket / CALENDAR (all unchanged since Run 2 watermark). Tape didn't move thesis-side; this is prose-coherence only.
+
+**Predicted Run-3 drift profile (highest-yield categories):**
+- TRADE/STRATEGY paragraphs still framing "either path → unwind" as one-liner conclusion (Intervention Paradox section) — STALE-FRAMING against the reconciled Channel 2.
+- TRADE/STRATEGY Aug-2024 references that read as expectation rather than hawkish-tail outcome.
+- Catalyst-first framing in thesis-recap blurbs that bury the structural pillars as footnotes.
+- "Conviction HIGH" monolithic framing without the direction/timing decomposition.
+- Any leftover `v1.5` version stamps in forward-looking framing context (vs v1.5.1).
+
 ### Run 2 (Jun 3 2026) — Two material work passes since Run 1 watermark (2026-06-01 ~18:07 ET)
 
 State-of-truth movement (per SAM-provided context + verified against canonical):
@@ -93,6 +118,23 @@ Context: First post-Run-1 sweep. Two material work passes today touched TRADE/ST
     - Pattern win: the 4+2 "market ~88.5%" cluster was indeed one find/replace conceptually but each instance needed bespoke context preservation ("repriced May 31" historical kept; "Polymarket Jun 3 +7pp/24h on USDJPY 160 break" current added). Batched as single STALE-MARK item in NEXT RUN HINTS per METSUKE's note.
 - **SAM-declined: 0 of 8**
 
+### Run 3 — 2026-06-03 (evening — post v1.5 → v1.5.1 narrative reconciliation pass; THESIS + CHANGELOG only)
+
+Context: First METSUKE run on a pure prose-coherence pass (no STATUS/PREDICTIONS/TIMELINE/docket movement). The reconciliation reframed Channel 2 (Aug-2024-speed → upside tail; intervention paradox → both legs softened) and promoted the structural pillars to thesis backbone. Drift bias falls heavily on the *framing* of three sections where the v1.4 narrative cargo lives in current voice: TRADE "Intervention Paradox" + Aug-2024-Precedent + thesis-recap blurb, and STRATEGY Conviction line + Aug-2024 stage-table-and-options-rationale references + leftover "Channel 3 dormant on Brent collapse" history-as-current-voice line.
+
+- **STALE-MARK: 0 items** (no numeric drift this pass — STATUS / PREDICTIONS marks unchanged; SAM-21/23/24/26 all aligned; carry-unwind decomposed 14/37/49 already applied at Run 2; Polymarket 94.8% already applied at Run 2)
+- **STALE-FRAMING: 7 items** (this is a prose-reconciliation pass — every flag this run is framing drift against the v1.5.1 reconciled THESIS / CHANGELOG; clustered by theme below)
+- **DUP-LIVE-SPOT: 0 items**
+- **TRIGGER-STATUS-DRIFT: 0 items** (BOJ row, MOF #3 row, JGB 30Y row, Bessent row, ESR row all in sync with current STATUS state-of-play)
+- **CAL-DRIFT: 0 items** (TRADE Key Dates unchanged from Run 2; CALENDAR unchanged)
+- **ARCHIVE-CANDIDATE: 0 items**
+- **MONEY-FIELD-ESCALATION: 0 items** (cost basis $58.32, share count 13, call premium $0.40, stop spec $55.05 post-event AND-trigger all internally consistent and unchanged)
+- **CHANGELOG-GAP: 0 items** (v1.5.1 reconciliation fully documented in CHANGELOG with explicit what-changed / why-minor / what-NOT-changing structure)
+- **VERSION-STAMP-DRIFT (sub-category of STALE-FRAMING, batched): 2 locations** (TRADE:138 section header `(v1.5 — Jun 3 decomposed)`; STRATEGY:4 thesis line `v1.5 (single-path...)`) — minor cosmetic per spawn note, but worth catching
+- Sections checked + clean: TRADE Carry Unwind table (matches STATUS + THESIS METHOD); TRADE Risk Factors all 5 rows (still in sync — mitigation columns reference structural setup intact, which the new pillars formalize but don't contradict); TRADE Hard-Trigger Status table (all 6 rows current); TRADE Position A Sep-$60 section (multi-channel-convergence framing still correct as the original-spec basis); TRADE Watchlist (EWJ/TLT/Japan Banks all v1.5 sync'd); STRATEGY Stop loss pre/post-Jun-16 table (already cites "structural pillars (rate-diff, J-ICS, hedge-ratio, positioning)" in post-event rationale — IN SYNC with new STRUCTURAL PILLARS section, no drift); STRATEGY VOL SIGNALS (live Jun-1 reads, table all 3-of-3 directional); STRATEGY Hard-triggers table (Jun-3 stop-spec stamp applied at Run 2, no further drift); STRATEGY Asymmetry table (lines 192-202 — scenario list works under both v1.5 and v1.5.1 framing).
+- **SAM-applied:** [filled by SAM post-run]
+- **SAM-declined:** [filled by SAM post-run]
+
 ### Run template (for the inaugural and subsequent runs)
 
 ```
@@ -139,6 +181,52 @@ Context: First post-Run-1 sweep. Two material work passes today touched TRADE/ST
 
 *(SAM clears these as flags get applied or declined.)*
 
+### Pending from Run 3 (2026-06-03 evening)
+
+*Flags surfaced this run. SAM to apply or decline. METSUKE does not remove these — SAM clears.*
+
+**Cluster A — Intervention Paradox legacy framing (THESIS v1.5.1 explicitly softened both legs):**
+
+1. **STALE-FRAMING — TRADE § The Asymmetric Setup > "Intervention Paradox" (lines 154-157):** The entire 4-line subsection is verbatim v1.4 cargo:
+   > *"MOF intervenes → sells USD/buys yen → accelerates carry unwind → FXY up. MOF doesn't intervene → yen weakens on oil → forces more repatriation selling of UST → carry unwind anyway → FXY up (delayed). **Both paths lead to the same destination.** The only question is speed."*
+
+   Superseded by THESIS v1.5.1 § Channel 2 "intervention paradox" reconciliation note (THESIS lines 157-160) + CHANGELOG 2026-06-03 v1.5.1 entry §3. Both legs explicitly falsified: MOF-acts → ~0.20 unwind|fires per CH-003 (not implicit ~0.50); MOF-doesn't-act → Channel 1 deferred (3-of-3 Big 3 benign) dissolves the "forced repat" leg. **The case for being long is not the paradox; it is the structural pillars + an asymmetric option on Jun 16** (THESIS L160 verbatim). Requires paragraph-level rewrite — this is exactly the v1.4 narrative cargo the SAM-provided spawn note flagged.
+
+**Cluster B — Aug-2024-speed as expectation rather than upside-tail (THESIS v1.5.1 explicitly demoted):**
+
+2. **STALE-FRAMING — TRADE § Historical Context (lines 249-258):** Section titled "Aug 5, 2024 Precedent" — concludes with *"This can happen again. Position sizing must account for gap risk."* Read in v1.5.1 voice: this frames Aug-2024 speed (3%, VIX 65, Nikkei -12%, hours not days) as the expected outcome, not the upside-tail conditional on hawkish-on-size/path. Superseded by THESIS Channel 2 (v1.5.1) L155: *"Speed of unwind scales with the catalyst's surprise component, not with the catalyst's existence."* Needs a one-line qualifier — e.g. *"This is the upside-tail outcome IF the hawkish-on-size/path subset fires AND positioning amplification is at-peak — current setup matches positioning but the hike is largely priced; not a base-case expectation."*
+
+3. **STALE-FRAMING — TRADE § Options Layer "Why options" (line 67):** *"That's wrong if: (a) BOJ actually hikes (realized vol 2-3x current IV), (b) intervention #3 fires, (c) Aug 2024-style unwind (realized vol 50%+)."* Item (a) implicitly conflates "BOJ hike" with realized-vol expansion; per CH-004 METHOD + v1.5.1 reconciliation, a fully-priced hike (94.8% market) doesn't unwind. (a) should read as "BOJ hawkish-on-size/path surprise" not "BOJ actually hikes." (c) "Aug 2024-style unwind" framed as default-case rather than upside tail.
+
+4. **STALE-FRAMING — TRADE § Options "No call spreads" line (129):** *"the asymmetric tail (Aug 2024 redux) IS the point; capping upside throws away the best scenario"* — Aug-2024-as-base-expectation framing again. Minor (the no-spread *decision* is still correct under v1.5.1, just the rationale wording reads as "Aug-2024 is the modal upside" vs the new "Aug-2024 is conditional on hawkish-tail trigger"). Lowest-priority of this cluster — can probably leave or one-word qualifier ("Aug 2024-style tail").
+
+5. **STALE-FRAMING — STRATEGY § "WHERE WE ARE IN THE TRADE" Stage 5 (line 18):** *"Yen strengthens, carry unwind cascades (Aug 2024 speed precedent: hours not days)"* — Aug-2024-speed as expected post-trigger pattern. Same demotion target as TRADE Historical Context. Add a "(if hawkish-on-size/path)" qualifier or pull the parenthetical entirely; stage table can stay vague on speed.
+
+6. **STALE-FRAMING — STRATEGY § Jun-18 $58 call exit rules (line 96):** *"Historical pattern (Aug 2024) is the BIG move plays out 3-15 days POST-event. The call expires before the cascade."* This is the exit-rules rationale built on Aug-2024 as expected pattern; under v1.5.1 the cascade itself is conditional on hawkish-tail. The exit-discipline behavioral conclusion (sell into pops, don't ride past expiry) is still sound — it's the wording that drifts. Acceptable to leave as-is given the conclusion is correct; flagging because the spawn note explicitly asked for Aug-2024 expectation-vs-tail. Borderline.
+
+**Cluster C — Catalyst-first framing burying structural pillars:**
+
+7. **STALE-FRAMING — TRADE § Active Positions "Thesis (v1.5 single-path)" blurb (line 20):** Reads catalyst-first: *"Structural yen appreciation over next 3-6 months driven by BOJ rate hike (Jun 16 at SAM 70% / market ~94.8%...) and carry unwind (CFTC short -114,667...). Channel 1 demoted... Channel 3 REACTIVATED Jun 1... Channel 2 (carry/BOJ) remains the dominant near-term catalyst, now market-confirmed base case."* No mention of the structural pillars (rate-diff/J-ICS/hedge-ratio/positioning) as the backbone; the entire framing reads as catalyst-dependent. Under v1.5.1 THESIS L17 (one-liner) + new STRUCTURAL PILLARS section, the correct framing leads with structural over-determination and treats Jun 16 as the dominant *catalyst* (not the load-bearing driver). Highest-signal STALE-FRAMING this run because this is the doc-prominent thesis recap that any reader (or returning SAM) hits first. **Suggested rewrite anchor:** *"v1.5.1 single-path catalyst, structural over-determination. Direction/level (HIGH) grounded in rate-diff/J-ICS/hedge-ratio/CFTC-positioning (see THESIS § STRUCTURAL PILLARS); near-term timing (MEDIUM) hinges on Channel 2 (June BOJ Jun 16 — SAM 70% / market ~94.8%). Position survives a Jun 16 disappointment via the structural pillars; Jun-18 $58C is the catalyst-conditional bet."*
+
+**Cluster D — Conviction monolithic framing:**
+
+8. **STALE-FRAMING — STRATEGY header line (line 4):** *"**Conviction:** HIGH on direction; MEDIUM on near-term timing"* — text is technically aligned with THESIS v1.5.1 (correct values) but the framing is monolithic single-line; THESIS v1.5.1 explicitly decomposes into two labeled lines with the **PREDICTIONS timing-failure cluster** cited as the basis for the MEDIUM near-term timing read. Per spawn note ("flag if prose treats HIGH as monolithic"). Suggested fix: split into two bullets matching THESIS conviction-decomposed format, citing the failure cluster (SAM-08/SAM-20/SAM-15/SAM-22/SAM-19) as the basis for MEDIUM. Cosmetic but doc-prominent (one-line header).
+
+**Cluster E — Version-stamp drift (low priority — batched per Run-2 cluster-collapse rule):**
+
+9. **STALE-FRAMING — Version stamp drift v1.5 → v1.5.1 (2 locations, batched):**
+   - TRADE:138 section header *"## Carry Unwind Probability (v1.5 — Jun 3 decomposed)"* → should read v1.5.1 since the framing now reflects post-reconciliation hawkish-tail caveat (TRADE:148 *"A fully-priced BOJ hike does NOT unwind; only the hawkish-tail subset…"* — this IS v1.5.1-aligned prose, header version stamp lags).
+   - STRATEGY:4 *"**Thesis:** v1.5 (single-path, market-confirmed June BOJ base case)"* → should read v1.5.1 (the qualifier "single-path, market-confirmed" still holds; just the version stamp lags).
+   - Low priority; spawn note explicitly called this out as *"minor but worth catching."* Per CALIBRATION repeated-phrase-cluster rule, batched as 1 flag.
+
+**Cluster F — Borderline: STRATEGY "Channel 3 dormant on Brent collapse" in current-voice historical context:**
+
+10. **STALE-FRAMING (borderline) — STRATEGY § Position A "Resolution logged 2026-05-27" paragraph (line 110):** *"Post-Sumitomo (3-of-3 Big 3 ESR window resolved benign), Channel 1 is demoted to deferred structural backstop and **Channel 3 is dormant on Brent collapse**. Structure has narrowed to single-path (June BOJ)."* The sentence opens "**Resolution logged 2026-05-27**" framing it as historical, but speaks in present-tense ("is demoted... is dormant"). At Run 1, TRADE was rewritten with a Jun-1 partial-trigger annotation in line 121's parenthetical, but the May-27 framing paragraph itself wasn't touched. Three options for SAM: (a) leave as-is (paragraph IS historical-resolution capture); (b) change to past-tense ("was dormant"); (c) add a footnote ("Channel 3 has since reactivated Jun 1 — see TRADE.md Position A section for the partial-trigger analysis at line 121"). Spawn note didn't specifically flag this, but the v1.5.1 reconciliation made the entire "dormant" framing structurally archived — surfacing for completeness. Borderline because doc-internal carve-out exists at line 121.
+
+*Total Run-3 flags: 8 distinct STALE-FRAMING items + 1 batched version-stamp cluster (2 locations) + 1 borderline = 10 items across 6 clusters.*
+
+*(SAM clears these as flags get applied or declined.)*
+
 ---
 
 ## STANDING MONITORS (surface each run)
@@ -153,6 +241,10 @@ Context: First post-Run-1 sweep. Two material work passes today touched TRADE/ST
 - **TRADE Hard-Trigger status notes** (PENDING / ✅ FIRED / NEAR-MISS / partial-trigger annotations) — drift on intervention zones, channel-status transitions, Big 3 ESR resolutions, etc.
 - **TRADE Key Dates** vs `docket/CALENDAR.md` forward-event set — drifts whenever KOYOMI updates CALENDAR without a follow-up TRADE refresh.
 - **Live-spot duplication in TRADE/STRATEGY forward tables** — anything framed as *current* (vs *historical breach on date X*) that duplicates a STATUS feed.
+- **NEW (post Run 3):** Conviction-decomposition consistency. THESIS v1.5.1 decomposed Conviction into explicit Direction/level (HIGH, structural) vs Near-term timing (MEDIUM, cites PREDICTIONS failure cluster). Watch TRADE/STRATEGY header / thesis-recap blurbs for monolithic "Conviction HIGH" or "HIGH on direction; MEDIUM on near-term timing" single-line framing without the structural-pillars-and-failure-cluster basis. Cosmetic but doc-prominent.
+- **NEW (post Run 3):** Aug-2024-speed framing — expectation vs upside-tail. Any TRADE/STRATEGY reference to Aug 2024 (hours-not-days, VIX 65, 3% one-day, "BIG move plays out 3-15 days POST-event," etc.) framed as base-case expectation rather than upside-tail conditional on hawkish-on-size/path trigger is STALE per THESIS v1.5.1 Channel 2 reconciliation: *"speed of unwind scales with the catalyst's surprise component, not with the catalyst's existence."*
+- **NEW (post Run 3):** Intervention-paradox "either path → unwind / both paths same destination" framing — explicitly falsified in THESIS v1.5.1; both legs softened (MOF acts → ~0.20 unwind|fires per CH-003; MOF doesn't act → Channel 1 deferred dissolves the forced-repat leg). Watch for the legacy one-liner conclusion *"Both paths lead to the same destination. The only question is speed."*
+- **NEW (post Run 3):** Catalyst-first vs structure-first framing in thesis-recap blurbs. Any TRADE/STRATEGY top-of-section thesis recap that frames the position as "driven by BOJ rate hike + carry unwind" without naming the structural pillars (rate-diff / J-ICS / hedge-ratio / CFTC positioning) as the backbone is buried-pillars STALE-FRAMING per THESIS v1.5.1 STRUCTURAL PILLARS section. The new doc-native voice leads with structure and treats Jun 16 as the dominant *catalyst*, not the load-bearing driver.
 
 ---
 
@@ -216,3 +308,13 @@ Context: First post-Run-1 sweep. Two material work passes today touched TRADE/ST
 - **Standing high-watch for Run 3:** (a) the Carry Unwind Probability table refactor in TRADE — flagged this run; once applied, check that STATUS decomposition + THESIS METHOD pointer + TRADE table are all narratively consistent (no "double pointer" or framing drift between the three); (b) if Polymarket re-prints Jun 9 and SAM-21 fires the +5pp mechanical trigger to 75%, the cascade will touch many of the same locations flagged this run — expect a fresh STALE-MARK cluster; (c) US CPI Jun 10 hot/soft binary will likely move the Fed-cut tripwire framing — watch THESIS RISK FACTORS BOJ-delays row + TRADE Asymmetric Setup Independent Fed Path paragraph for cascade.
 - **Carve-out reminder (per CALIBRATION):** position-card P/L lines in TRADE entry card (line 37) are by-design current-mark — do NOT flag as DUP-LIVE-SPOT. This is the one place where the no-same-data-in-two-docs rule has an exemption.
 - **CAL-DRIFT calibration (n=1 baseline):** TRADE Key Dates is curated-subset, not parity. Only flag CAL-DRIFT if a missing CALENDAR row tests a SAM mechanism prediction or live trigger (per Run 1 Will rubric). Generic operational dates (Jun 8 GDP, Jun 19 National CPI, Jun 23/25/30 JGB auctions) failed that test this run — METSUKE correctly did not flag.
+
+### Forward hints for Run 4
+
+- **Watermark for Run 4:** state-of-truth advances after Run 3 are anything in STATUS/THESIS/PREDICTIONS/CHANGELOG/TIMELINE/CALENDAR with a `Last Updated` or dated entry **after 2026-06-03 evening (Run 3 finish, post v1.5.1 reconciliation)**. Earlier was considered Run 1/2/3.
+- **Pattern to watch for Run 4 (Aug-2024-framing cluster):** Run 3 surfaced 4 distinct Aug-2024-as-expectation references (TRADE Historical Context, TRADE Options "Why options" (c), TRADE Options "no spreads" rationale, STRATEGY Stage 5, STRATEGY Jun-18 exit rules rationale) — if SAM applies all by qualifier-insertion ("upside tail IF hawkish-on-size/path"), check Run 4 that no NEW references slipped in if a fresh Aug-2024 outbox to HENRY/LIQUID gets drafted. Standing monitor #9-11 added (Aug-2024 expectation-vs-tail; intervention-paradox legacy; catalyst-first burying pillars).
+- **Spawn Run 4 *after* SAM applies Run 3 flags** — ideal timing: after the Jun 9 SAM-21 mechanical-trigger re-check (which will cascade marks even if Polymarket holds at 94.8%; SAM-21 mark move + structural language refresh likely), OR after US CPI Jun 10 binary (Fed-side gate — soft print opens Fed-cut multi-month tail framing edit), OR before BOJ Jun 16 pre-meeting blackout (~Jun 13 T-2). One-pass Run 4 covering all three is ideal if no major intra-week reframe fires.
+- **Catalyst-conditional framing watch (NEW post Run 3):** If Run 3 cluster C (TRADE thesis-recap) gets applied with the structural-pillars-led rewrite, check Run 4 that the cascade goes downstream — STRATEGY's "When to HOLD" section (line 56-61) and "When to EXIT" section (line 63+) may have the same buried-pillars pattern. Run 3 didn't flag those because the spawn-note targeting was specifically thesis-recap-blurb-level, but if structural-pillars-first becomes the doc-native voice, the HOLD/EXIT prose may need the same refresh.
+- **Version-stamp drift hygiene (NEW post Run 3):** v1.5.1 will likely be followed by v1.5.2, v1.5.3, etc. as POV-pivots accumulate. The 2 locations flagged this run (TRADE:138 header, STRATEGY:4 thesis line) plus the TRADE:3 / STRATEGY:3 `Last Updated:` headers are the standing version-stamp surface — once a version bumps, sweep all four locations as one batch. Add to STANDING MONITORS if pattern recurs at Run 4.
+- **Conviction decomposition cascade:** If SAM applies Cluster D (STRATEGY:4 conviction line split), check Run 4 that any cross-references to "HIGH on direction; MEDIUM on near-term timing" elsewhere in STRATEGY/TRADE pick up the new decomposition basis. Likely candidates: TRADE Position card "Thesis" subsection, TRADE Risk Factors mitigation columns, STRATEGY "When to HOLD" rationale.
+- **Pure-prose-pass pattern (NEW from Run 3 — calibration anchor):** Run 3 was the first METSUKE sweep on a prose-only pass (no STATUS / PREDICTIONS movement). Result: 0 STALE-MARK / 7 STALE-FRAMING / 0 anything-else. Confirms the read that **STALE-FRAMING is the dominant category when the reconciliation is narrative-coherence rather than data-refresh**. Future SAM should expect Run-N reports with this profile to be predominantly STALE-FRAMING when the trigger is a CHANGELOG entry without a STATUS-level cascade.

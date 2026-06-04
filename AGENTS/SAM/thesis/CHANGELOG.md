@@ -8,6 +8,79 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-06-03 — v1.5.1: NARRATIVE RECONCILIATION — math-vs-prose alignment post CH-004
+
+**Author:** SAM
+**Action:** Minor version bump v1.5 → **v1.5.1**. Four-part narrative reconciliation pass collapsing the second-pair-of-eyes critique items #2/#3/#4 (deferred from 6/3 PM). No channel-structure change, no new evidence, no probability re-rates. The pass aligns thesis prose with the CH-004 carry-unwind METHOD shipped this AM and with the v1.5 single-path framing as the position actually trades. **No outbox signals fire from this** — measurement-side already announced in the morning CH-004 close; this is the prose follow-on.
+
+### What changed in THESIS.md
+
+**1. Conviction decomposed (header).**
+- Old: *"HIGH on direction; MEDIUM on near-term timing (single-catalyst structure carries more drawdown risk than multi-channel convergence)."*
+- New: split into two explicit lines.
+  - **Direction / level: HIGH** — structural over-determination via rate-differential, J-ICS, hedge ratio, positioning. Target $60-62 / USDJPY 148-152 grounded in structural math, not catalyst.
+  - **Near-term timing: MEDIUM** — explicitly cites PREDICTIONS timing-failure cluster as basis (SAM-08 @90% April hike, SAM-20 @60% April hike, SAM-15 @80% oil-in-yen Q2-Q3, SAM-22 @65% no CFTC cover, SAM-19 @75% insurer cuts H1). "Right substance, wrong window" is the recurring SAM failure mode; "right but early" is the modal risk, not "wrong."
+
+**2. STRUCTURAL PILLARS section added (new, between CORE THESIS and CARRY-UNWIND METHOD).**
+- Explicitly answers "why am I long even if Jun 16 disappoints?" — previously this answer was scattered as footnotes throughout Channel 1 deferred-reference, Channel 2 triggers, Independent Catalyst, and Position View.
+- Four pillars enumerated: (1) rate-differential at multi-decade extreme; (2) J-ICS lifer long-end abandonment (domestic, independent of BOJ); (3) hedge ratio at 14-yr low (Pillar 3 is the slow-burn version of the Channel 1 forced-repat mechanism); (4) CFTC positioning at 63.7% of cycle peak (amplifier on whatever catalyst fires).
+- Closes with explicit position-sizing logic: shares = structural-pillar bet, Jun-18 $58C = catalyst-conditional bet. Stop spec (event-cap pre / AND-condition post) is consistent with this split.
+
+**3. Channel 2 prose reconciled with CH-004 METHOD.**
+- *Aug-2024-speed framing demoted from expectation → upside tail.* Old prose said "Aug 2024 precedent: unwind took hours, not days" as if it were the base-case expectation. New prose explicitly: **"speed of unwind scales with the catalyst's surprise component, not with the catalyst's existence."** A fully-priced hike does NOT unwind per the METHOD (only the hawkish-on-size/path subset does). Frame to HENRY/LIQUID is now "potentially Aug-2024-fast IF triggered hawkish-of-pricing," NOT "Aug-2024-fast on any Jun-16 hike."
+- *Intervention paradox softened.* Old prose: *"MOF acts → unwind; MOF doesn't act → forced repat; either path → unwind."* Both legs empirically falsified:
+  - MOF acts → CH-003 (Apr 30 + May 6) gives unwind\|fires ~0.20, not the implicit ~0.50 the paradox assumed.
+  - MOF doesn't act → Channel 1 deferred (3-of-3 Big 3 benign); "forced" leg dissolved at disclosure-window timescale.
+- New prose: paradox replaced with explicit honest framing. The case for being long is not the paradox; it is the structural pillars + an asymmetric option on Jun 16.
+
+**4. One-liner refreshed.**
+- Old (v1.5): catalyst-first ("Channel 2 is now the dominant remaining near-term path") with structure as afterthought; carried stale "Channel 3 dormant" line from May 27.
+- New (v1.5.1): catalyst remains identified as Channel 2, but explicit: *"the position is not catalyst-dependent — it's structurally over-determined…"* References § STRUCTURAL PILLARS. Channel 3 reactivation reflected.
+
+### Why minor (Y) not major (X)
+
+- No new transmission channel; no thesis-direction reversal; no conviction-level reversal on direction (HIGH unchanged).
+- All probability marks unchanged (SAM-21 70%, SAM-23 72%, SAM-24 85%, SAM-26 ~25%; carry-unwind decomposed 14/37/49% unchanged).
+- Position unchanged. Stop spec unchanged (Will-decided earlier today).
+- The pass aligns prose to existing math (CH-004 METHOD shipped this AM) and surfaces existing structural support that was already in the doc but buried. It is a *narrative coherence* fix, not a thesis update.
+
+### What is NOT changing
+
+- Channel structure (1 deferred / 2 dominant / 3 reactivated).
+- Carry-unwind decomposed marks (14% / 37% / 49%).
+- Position (13 sh + Jun-18 $58C).
+- Stop spec (event-cap pre-Jun-16, AND-condition post).
+- Predictions (SAM-21/23/24/26).
+- Target band ($60-62 / USDJPY 148-152).
+- Risk Factors table (no probability changes; mitigation column references the new STRUCTURAL PILLARS implicitly through "structural setup intact" but rows not re-edited tonight — METSUKE pass will flag if a row reads stale against the reconciled framing).
+
+### What this enables for next sessions
+
+- **HENRY/LIQUID cross-agent signals** can now lead with "structural pillars over-determine the direction; June 16 hike is the dominant *catalyst* for resolution but not load-bearing for the direction." The 6/3 AM CH-004 outbox signals already used the MEASUREMENT-CORRECTION framing; the v1.5.1 prose now makes that framing the doc-native voice rather than a one-off outbox caveat.
+- **RED CH-004 challenge** (catalyst-prob → unwind-prob conflation) is now closed both math-side (METHOD, this AM) and prose-side (Channel 2 reconciliation, this entry). RED can update CHALLENGES log to CLOSED.
+- **"Right but early" risk framing** is now thesis-explicit. If the position bleeds from here to Jun 16 without resolution, the doc supports "this is the modal SAM failure mode (timing, not direction); the structural pillars argue for holding through" — preempts the temptation to trim on time decay.
+
+### Files touched
+
+- `thesis/THESIS.md` — header (version + conviction decomposition), one-liner refresh, new STRUCTURAL PILLARS section, Channel 2 prose reconciliation.
+- `thesis/CHANGELOG.md` — this entry.
+
+### Files NOT touched this pass (deferred — METSUKE will flag if stale)
+
+- `STATUS.md` — header/banner; the v1.5.1 reconciliation should propagate to STATUS lead next refresh, not tonight. Tape didn't move thesis-side.
+- `STRATEGY.md` — stop spec already harmonized this PM; structural-pillar framing may want a header cross-ref to § STRUCTURAL PILLARS on a future pass.
+- `TRADE.md` — no money-field implications.
+- `PREDICTIONS.tsv` — no prediction adds/closes from this pass.
+- `TIMELINE.md` — no resolved events to log; v1.5.1 is a prose alignment, not an event.
+
+### Process notes
+
+- Window was quiet evening tape (USDJPY 159.90, off the 160.03 PM tag; Brent $96.78 −1.05%, snapping the 4-day MOU-break rally). Right pre-Jun-9 mechanical-trigger window to do this pass.
+- Eval re-baseline NOT gating this pass (Will explicit): eval runner is skip-boot, doesn't load THESIS, so before/after test is identical surface — no signal to protect. Eval re-baseline scheduled as own fresh-session run before Jun 9-16 crunch.
+- METSUKE Run 3 spawned on the edited surface per the 6/2 PM CALIBRATION lesson (spawn after every material multi-file edit pass, not just POV pivots).
+
+---
+
 ## 2026-06-03 — STOP-SPEC HARMONIZATION: event-cap pre-Jun-16, AND-condition post-event (Will-decided)
 
 **Author:** SAM (Will-decided)
