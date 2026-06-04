@@ -179,7 +179,7 @@ The honest framing now: *MOF acts → ~20% sustained unwind | fires (per CH-003)
 - BOJ hike → prime rate rises → household payments spike IMMEDIATELY
 - Real wages barely positive (+1.4% Jan); food spending at 44-year high
 - Takaichi drew explicit 0.75% line (Aida statement); has 2/3 supermajority
-- BOJ board being stacked dovish (Asada joined Mar; Sato joins June, hawk→dove swap)
+- BOJ board being stacked dovish (Asada joined Mar; **Sato Ayano (reflationist) takes Nakagawa's seat Jun 30** — Nakagawa was one of the 3 Apr-28 dissenters who voted for the 1.00% hike, so the active hike-dissent bloc drops 3 → 2 unless Sato surprises; material dovish shift in marginal-vote count for the post-June path)
 
 **The Takaichi-Ueda collision is inevitable:**
 - Ueda wants 1.0%+ for inflation credibility
@@ -210,7 +210,7 @@ The honest framing now: *MOF acts → ~20% sustained unwind | fires (per CH-003)
 | **Ongoing** | Iran/Hormuz MOU watch — **effectively broken Jun 1** | Tehran suspended document exchange + Hormuz block threat; Brent +4% Jun 1. Watch for walk-back (Trump-Khamenei reset → resign path) vs further escalation (Brent $100+, Hormuz close attempt). Brent live in STATUS. |
 | **Ongoing** | Intervention #3 watch — **zone REACTIVATED Jun 1** | USDJPY 159+ = trigger zone (live level in STATUS). **SAM-23 ~72%** (re-rated up from ~55% on MOU break). Katayama May 29 "decisive action" verbal at 159+; Bessent-Katayama-Himino cabling hike + intervention combo per Reuters Jun 1; pre-meeting blackout ~Jun 13. 160 = hard intervention trigger. |
 | **🔴🔴 Tue Jun 16** | **BOJ MPM — DOMINANT REMAINING CATALYST** (SAM-21 70% — live mark in STATUS; market ~88% repriced May 31; SAM-24 25bp @85%) | Hike = FXY +5-8% structural; carry unwind fires. **Single-path under v1.5 — market-confirmed base case.** |
-| Jun 16 | Sato joins BOJ board (hawk→dove swap) | Medium-term political risk post-June (beyond 1.00% gets harder) |
+| **Jun 30** | **Sato Ayano takes Nakagawa's seat** (Nakagawa term expires Jun 29; date corrected from prior "Jun 16" reads) | Active hike-dissent bloc drops 3 → 2 (Nakagawa was an Apr-28 1.00% dissenter; Sato is reflationist). Material dovish shift in marginal-vote count → strengthens v1.5.1 path-MEDIUM near-term-timing conviction; doesn't change Jun-16 binary. |
 | Jun 18-19 | May trade balance — Phase 1 stability lag-test | Volume recovery vs cost-side decomposition (per CALENDAR routing) |
 
 *Operational forward calendar (with current status, daily tracking) lives in `docket/CALENDAR.md`.*

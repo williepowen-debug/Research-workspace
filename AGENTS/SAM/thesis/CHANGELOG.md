@@ -8,6 +8,51 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-06-04 — v1.5.1 follow-on: Jun 3-4 cabling-window news ingestion + OS.1 closure + Sato corrections
+
+**Author:** SAM
+**Action:** No version bump. Three follow-on updates to v1.5.1: (a) ingest the Jun 3-4 pre-blackout cabling-window news into STATUS; (b) close OS.1 (fiscal-dominance counter-frame) as largely-falsified for SAM-21 binary; (c) correct the Sato BOJ-board entry date and framing across THESIS / STATUS / CALENDAR / CATALYSTS. **No view change, no probability re-rates, no position change.**
+
+### (a) Jun 3-4 cabling-window news ingested
+
+News-sweep findings (4 parallel agents Jun 4 AM, primary-source verified):
+
+| Signal | Source | Implication |
+|---|---|---|
+| **Bloomberg sources-leak** Jun 4: "BOJ Is Said to Mull June Rate Hike With Another Possible in 2026" | Bloomberg primary | Substantive pre-blackout leak; not common rumor — officials see scope for additional hikes beyond 1.00% |
+| **Ueda Kisaragi-kai speech** Jun 3 (final scheduled pre-blackout event): "BOJ will continue to raise the policy interest rate at an appropriate pace… upside risks to prices appear to be greater overall and are likely to emerge sooner" | BOJ ko260603a | Explicit hawkish-of-pricing pre-blackout placement |
+| **Takaichi verbal** Jun 3 at USDJPY ~160.07: govt "stands ready to respond to excessive exchange-rate movements when necessary" | Reuters / Yahoo / MarketScreener | **Reads as intervention-permission, NOT Takaichi-ceiling pushback** — affirmatively closes "no Takaichi/cabinet pushback" pre-condition of the Jun-9 mechanical trigger |
+| **Polymarket built 94.8% → 96.9%** | Polymarket Jun 4 | 3rd sequential build (Tue 87.6 → Wed 94.8 → Thu 96.9); swap cross-confirms ~86%, Kalshi ~80%; no print regression |
+| **Brent 2nd down session** −0.86% to ~$96.97 | Trading Economics Jun 4 | Cumulative from Jun-3-baseline ≈ +0.2% (flat). SAM-23 mark-DOWN conjunction direction-leg firing but cumulative <−2% NOT met. |
+| **Israel-Lebanon conditional ceasefire** Jun 4 | Al Jazeera + Haaretz | Removes ONE of Tehran's two stated grievances for message-exchange suspension; walk-back precondition improved but NOT delivered |
+
+**SAM-21 HELD at 70%.** The multi-source corroboration (sources-leak + Ueda + Polymarket build + Takaichi-as-permission) is genuinely stronger than the Polymarket-only Jun-9 condition the trigger spec'd. **But the discipline was deliberately set to NOT chase pre-blackout cabling** — sourced leaks + scheduled speeches are exactly what the cabling window produces. Pre-registration value comes from holding through "but this time is different" pressure. Discretionary fire-early path was offered to Will; Will elected hold per discipline. Discipline credibility preserved.
+
+**SAM-23 HELD at 72%.** Mark-DOWN conjunction partially firing (Brent direction + Israel-Lebanon precondition removal) but full trigger NOT met. Mark-UP conjunction not firing.
+
+### (b) OS.1 (fiscal-dominance counter-frame) CLOSED — largely-falsified for SAM-21 binary
+
+OS.1 was re-homed from a generic NEXT-SESSION bucket to a scoped pre-Jun-9 thesis task (Will-directed Jun 3 PM) because it directly gates the SAM-21 mechanical +5pp trigger. The Jun 3-4 news ingestion directly answered all three of Will's scoped questions:
+
+- **(a) Market repriced UP THROUGH fiscal news?** YES. BOJ officials openly cabling hike-plus-more-hikes WITH Takaichi government's verbal intervention-permission. The Takaichi ¥3T budget (May 25) and fresh-debt 10Y-to-2.8% reports did not stop the repricing.
+- **(b) Inside the 70% or un-priced discount?** Inside. The 70% stays as Takaichi-CEILING calibration discount (SAM-08 @90% + SAM-20 @60% failure pattern); no behavioral evidence the market is missing fiscal-dominance. DECLINED to overlay a separate fiscal-dominance discount.
+- **(c) Live as post-June PATH/CEILING story?** YES, strengthened by the Sato characterization correction below.
+
+Net: OS.1 does NOT justify a SAM-21 discount; mechanical trigger discipline proceeds as-spec'd through Jun 9. Path-MEDIUM half of v1.5.1 conviction decomposition is validated.
+
+### (c) Sato BOJ-board entry corrections
+
+Primary-source verification (BOJ official Nakagawa page + Bloomberg + Japan Times + Nikkei) surfaced two corrections to a framing SAM was carrying in 4 places:
+
+- **Date:** "Sato joins Jun 16" → **"Sato Ayano takes Nakagawa's seat Jun 30"** (Nakagawa term expires Jun 29 per BOJ official; Sato term begins Jun 30). SAM was conflating with the Jun-16 BOJ MPM.
+- **Framing:** "hawk→dove swap" was directionally correct but **understated** — Nakagawa was one of the 3 active Apr-28 dissenters who voted FOR the 1.00% hike (alongside Takata, Tamura). Sato is reflationist (Aoyama Gakuin Univ. law prof, Takaichi appointee). **Apr-28-style hike-dissent bloc drops 3 → 2 unless Sato surprises.** Material dovish shift in marginal-vote count for the post-June PATH/CEILING — strengthens v1.5.1 path-MEDIUM conviction; no Jun-16 binary impact.
+
+**Files touched:** STATUS.md (header banner + STATE OF PLAY + market data table + BOJ ASSESSMENT row + mechanical-trigger note), thesis/THESIS.md (L182 hike-cycle bullet + L213 catalyst-sequence row), docket/CALENDAR.md (L28 row), docket/CATALYSTS.tsv (row 8), MEMORY.md (item #1 OS.1 → CLOSED), this CHANGELOG.
+
+**Not changing:** thesis version (still v1.5.1), channel structure, predictions (SAM-21 70%, SAM-23 72%, SAM-24 85%, SAM-26 ~25%), position (13 sh + Jun-18 $58C), stop spec, target band, carry-unwind decomposed marks.
+
+---
+
 ## 2026-06-03 — v1.5.1: NARRATIVE RECONCILIATION — math-vs-prose alignment post CH-004
 
 **Author:** SAM
