@@ -38,35 +38,28 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (5/22 → 6/3, 13-day gap)
-- **R11 analog CONFIRMED DEAD** (VIOLET 6/1) — window 5/28-6/02 expired un-fired, VIX trended DOWN, 0/7 triggers. HEN-31 EXPIRED. The 5/21 "R11 clock running, prior 36%" framing is fully resolved (low-prob outcome hit).
-- **Substance side SPLIT.** Cyclical eased (10Y −17bps vs 5/21 to 4.50 [−20bps from 5/19 peak, now +3bps off trough]; Brent −$9 vs 5/21 to ~$98 [−$15 from Apr 30 Hormuz peak]; HY OAS −14bps to 272); structural held (CCC flat 946, BROCK PC/BDC Max Bear print substance, WAL v2.2 Bear-medium). Thesis downgraded trap-clinch-WIDER → SPLIT-AXIS / hinges-on-6/10-CPI.
-- **USD/JPY crossed 160** (yellow → SAM carry-unwind fired).
-- **APO fell below $130** ($125.44) — BROCK position-trigger un-fired on tape; BROCK STATUS frozen 5/21 doesn't reflect it.
-- **TLT 5/22 decision executed-on-paper but ticket sat unplaced 11d** (Will salvaging broker side); Jun $85P decayed +92%→−32% as TLT rallied. Will now holds 3× Jun as catalyst bet + 2× Sep 30 $85P.
+### CHANGES SINCE LAST SESSION (6/3 PM — same-day continuation)
+- Markets closed; no market/thesis change. STATUS still accurate as of 6/3 14:00 (split-axis, hinges 6/10 CPI). This session was **internal house-keeping only** (Will redirected: no signals, no positions — "get HENRY's own house in order, match SAM/BRENT structure").
 
-### LAST SESSION (2026-06-03 Wed ~13:30-15:00 ET — data catch-up + architecture, Will-driven phased brief)
-**3 phases, all Will-checkpointed:**
-- **Phase 1 (read-only):** credit pull from VIOLET 6/1 + REGINALD 6/2; HEN-30 = NOT fired (272/274/272 oscillating, direction flipped toward kill); HEN-31 = EXPIRED; **duration read** delivered as Will's TLT Sep-leg gate → HOLD 2× Sep 30, DON'T add Sep 19 until 6/10 CPI confirms (energy-driven easing is real but structural thesis intact). Will accepted, said don't push harder.
-- **Phase 2 (writes):** STATUS full rewrite (5/21→6/3, split-axis thesis, FRED convention applied, SKEW spot>140/regime<140 reconciled w/ VIOLET); PREDICTIONS.tsv (HEN-31 EXPIRED, HEN-30 updated, HEN-32 CPI-gate added); PROME outbox flag (TLT ticket superseded).
-- **Phase 3 (cleanup):** VX.tsv "CURRENT (Mar 3-5)" boot-hazard fixed (relabeled LIVE/STALE-SELLOFF/BEIGE-BOOK; regime-inverted gamma/put-wall/DMA rows flagged STALE); MARKET_DATA.tsv 6/3 row appended; 2 inbox SIGs → processed/, TLT reply → delivered/ (git mv).
-
-**Will's two corrections this session (both right):** CCC/HY is denominator-driven (state as levels not 3.48x); CPI is 6/10 not 6/12 (verify gate dates). Both folded into Feedback above.
+### LAST SESSION (2026-06-03 Wed ~22:00 ET → 6/4 — HENRY self-modernization, Will-directed)
+- **Wrote `MODERNIZATION_PLAN.md`** — 3-phase plan to match SAM/BRENT tree: Phase A stale-refresh / Phase B thesis-layer **full-mirror** (THESIS+CHANGELOG+TIMELINE+PREDICTIONS_ARCHIVE — Will's locked choice) / Phase C docket+MAINTENANCE+CLAUDE-hardening. Diagnosis: live layer fresh, workbook frozen ~4/17; thesis lives inline in STATUS (1 gen behind SAM/BRENT).
+- **KB prune arc launched** — `workbook/KB_AUDIT.md` is the multi-session source of truth (verified reference map). Independently reproduced Prome's map exactly (38 load-bearing/98 leaf); **corrected to 39 — added ML-HEN-032 (LABOR/KB-LAB-005 cross-link Prome's HENRY-only scan missed).** Ref corpus must include LABOR/KB.tsv.
+- **Executed Pass 0 / 1 / 1.5:** KB **136→108 (−28, −21%)**, all to KB_ARCHIVE.tsv (nothing deleted), zero orphaned links. P0=12 status-flagged leaf; P1=14 Jan scaffolding/wrapper/resolved-PIT (kept 17 durable substrate; 021/025 reusable bits salvaged → REFERENCE_TABLES); P1.5=067/132 re-pointed (`[ARCH]` convention) then archived.
+- **Concurrent-commit index race** hit on Pass-0 commit (SAM's parallel commit grabbed my staged files under its message, then pushed — content safe, mislabel permanent). Mitigation: atomic `&&`-chained stage-guard-commit; promoted to auto-memory `[[finding_concurrent_commit_index_race]]`.
 
 ### NEXT SESSION
-1. **🔴 6/10 May CPI (8:30 ET) = THE GATE (HEN-32).** Consensus core +0.3% MoM. >0.3% → cyclical axis re-arms, 10Y backs up, ADD TLT Sep $85P. ≤0.2% → soft-kill confirms cyclical, only structural axis carries. Drives Will's Sep-leg decision.
-2. **🟠 6/5 NFP (May)** — Will selling 3× Jun $85P into first hot print; HEN-28 labor-cliff (CARL-domain).
-3. **🟠 USD/JPY >160 sustained** — SAM carry-unwind yellow fired 6/3; watch for 162 orange + any vol-catalyst pairing (non-CPI path to cyclical re-fire).
-4. **🟡 SKEW 20d-avg re-establishment ~6/05** (VIOLET — if SKEW holds 144). + VVIX 92+ by 6/05 = leading-indicator activation. Read from VIOLET, don't re-pull.
-5. **🟡 6/16-17 FOMC + SEP/dot plot** — primary vol catalyst; Fed-can't-cut test.
-6. **🟢 Flag BROCK STATUS stale (5/21)** — APO drop + cyclical easing not reflected. Cross-agent note, not HENRY edit.
+**Track A — modernization (ACTIVE workstream; see MODERNIZATION_PLAN.md + KB_AUDIT.md):**
+1. **KB prune Pass 2 (Feb, 27 rows)** → 3a/3b (Mar ~60, heaviest archive) → 4 (Apr, 13, lightest) → end-of-arc: 34→~9 **category consolidation** + **027/031 merge** + **stale-numbers refresh** on kept rows.
+2. Then **Phase A remainder** (VX dup-ID fix, FLOW refresh-split, ECON_CALENDAR), **Phase B** (thesis/ full mirror + STATUS slim + boot edit = eval re-baseline flag), **Phase C** (docket/CATALYSTS + MAINTENANCE + CLAUDE hardening + FILES rewrite incl. "88+ entries"→actual).
+
+**Track B — market (STANDING; unchanged):**
+3. **🔴 6/10 May CPI = THE GATE (HEN-32)** — >0.3% core → cyclical re-arms, add TLT Sep $85P; ≤0.2% → soft-kill. 4. **🟠 6/5 NFP** (Will selling 3× Jun $85P into first hot print). 5. **🟠 USD/JPY >160 sustained.** 6. **🟡 6/16-17 FOMC.** 7. **🟢 BROCK STATUS stale (5/21)** flag.
 
 ### GAPS — PERSISTENT
-- **0DTE SPX share + GEX regime** STILL PENDING (5+ sessions). VIOLET 6/1 downgraded GEX-as-regime-specific-mechanism but it's still a HENRY market-structure gap. Manual estimate acceptable.
-- **VX.tsv duplicate ID collision** — VX-HEN-19.01-19.06 used twice (Beige Book Mar 4 block AND oil-shock SLOW-MOVING block). Pre-existing; not fixed this session. Renumber on next workbook pass.
-- **Stale 4/17 VIOLET outbox file** undelivered (overtaken by 5/21 LIAISON) — left in place; messaging-overhaul will sweep.
-- **KB.tsv** — split-axis + FRED-convention + sibling-staleness entries pending (deferred this session).
+- **0DTE SPX share + GEX regime** STILL PENDING (5+ sessions). Manual estimate acceptable.
+- **VX.tsv duplicate ID collision** — VX-HEN-19.01-.06 used twice (Beige Book block + oil-shock block). = modernization Phase A2 (renumber oil-shock block → 21.xx); NOT done yet.
+- **Stale 4/17 VIOLET outbox file** undelivered — messaging-overhaul will sweep.
 
 ### INFRASTRUCTURE NOTES
-- 6/3: FRED citation convention adopted (date-stamped rows). VX.tsv boot-hazard relabel pattern (split CURRENT into LIVE/STALE-with-reason headers) — transferable to any agent whose VX has a mislabeled "current" block.
-- 6/3: **Staleness-as-boot-hazard pilot (#1 date-stamp every state-claim + #2 STANDING-vs-STATE on triggers)** applied to STATUS ACTIVE THRESHOLDS + INVALIDATION TRIAD. HENRY is the fleet proof-of-concept. #3 (automated trigger-drift script over fetch.py) skipped per Will. If Will commissions fleet rollout, route spec to PROME.
+- 6/3: KB prune arc conventions — `KB_AUDIT.md` as multi-session source-of-truth; `[ARCH]` re-point tag for archived load-bearing IDs referenced by live VX/FLOW; reference corpus = KB+VX+FLOW+PRED+**LABOR/KB**. SAM precedent (167→122) is the template.
+- 6/3: FRED citation convention + staleness-as-boot-hazard pilot (#1 date-stamp state-claims + #2 STANDING-vs-STATE triggers) live in STATUS. #3 trigger-drift script skipped per Will; fleet rollout → PROME.
