@@ -17,7 +17,7 @@
 **Entry context (Tranche 2):** Post Apr 30 + May 6 MOF interventions (~¥10T combined), v1.4 thesis bump confirming JGB 30Y at 4.0% via J-ICS lifer abandonment. Better entry than original May 12 $58.00 limit.
 **Entry context (Call):** Sized as event lottery — 1 contract = max loss $40 (~5% of share notional). ATM at execution. IV ~9.3% (underpriced for BOJ event). Entered pre-CPI rather than post-CPI for IV protection (CPI surprise risk both ways).
 
-**Thesis (v1.5 single-path):** Structural yen appreciation over next 3-6 months driven by BOJ rate hike (Jun 16 at **SAM 70% / market ~94.8%** — Polymarket Jun 3, +7pp/24h on USDJPY 160 break; SAM held at 70% per pre-registered Jun 9 mechanical trigger and Takaichi-ceiling earned discount) and carry unwind (CFTC short **-114,667 — broke -102K recent-cycle peak; 4th straight build week, +27K new shorts WoW**). Channel 1 (life insurer repatriation) demoted to deferred structural backstop after 3-of-3 Big 3 mutual ESR window confirmation (Nippon 195% M&A, Meiji 208% manageable, Sumitomo 197% ↑+19pt WITH foreign book growing +¥1.11T). ESR pressure absorbed via capital actions (Resolution Life M&A, Allstate, Dearborn), equity rally, and hedge-cost relief — NOT foreign bond sales. Foreign books in unrealized GAIN at all three. J-ICS domestic-curve mechanism (JGB 30Y) intact but cross-border transmission timing pushed to multi-year. **Channel 3 REACTIVATED Jun 1** — Iran/Hormuz MOU effectively broken (Tehran suspended document exchange + Hormuz block threat; Brent +4% to $94.78, WTI +7%); SAM-23 ~72%; Bessent-Katayama-Himino alignment cabling hike + intervention combo for Jun 16 (Reuters Jun 1); pre-meeting blackout ~Jun 13. Channel 2 (carry/BOJ) remains the dominant near-term catalyst, now market-confirmed base case.
+**Thesis (v1.5.1 single-path, structural backbone):** Yen-strengthening direction is structurally over-determined across 3-6 months by four pillars (THESIS § STRUCTURAL PILLARS): (1) rate-differential at multi-decade extreme (~280-300bp Fed-BOJ gap), (2) J-ICS lifer long-end abandonment as a self-perpetuating domestic JGB driver (independent of BOJ), (3) hedge ratio at 14-yr low (44.4%; ~$370-550B unhedged with vol-wtd entry USD/JPY 135-145), (4) CFTC short at 63.7% of cycle peak (-114,667 May 26; 4th build week, +27K new shorts WoW; broke -102K recent-cycle peak) → +5pp amplifier ON, residual ON per CH-004 METHOD. Target $60-62 / USDJPY 148-152 rests on these pillars, not on any single meeting. **Dominant remaining near-term *catalyst*:** BOJ rate hike Jun 16 (SAM 70% / market ~94.8% — Polymarket Jun 3, +7pp/24h on USDJPY 160 break; SAM held at 70% per pre-registered Jun 9 mechanical trigger and Takaichi-ceiling earned discount). **Channel 1** (life insurer repatriation) demoted to deferred structural backstop after 3-of-3 Big 3 mutual ESR window confirmation (Nippon 195% M&A, Meiji 208% manageable, Sumitomo 197% ↑+19pt WITH foreign book growing +¥1.11T) — ESR pressure absorbed via capital actions (Resolution Life M&A, Allstate, Dearborn) + equity rally + hedge-cost relief, NOT foreign bond sales. Foreign books in unrealized GAIN at all three; cross-border transmission timing pushed to multi-year. **Channel 3 REACTIVATED Jun 1** — Iran/Hormuz MOU effectively broken (Tehran suspended document exchange + Hormuz block threat; Brent +4% to $94.78, WTI +7%); SAM-23 ~72%; Bessent-Katayama-Himino alignment cabling hike + intervention combo for Jun 16 (Reuters Jun 1); pre-meeting blackout ~Jun 13. The position is structurally bid even if Jun 16 disappoints; the call premium is the catalyst-conditional bet.
 
 ---
 
@@ -64,7 +64,7 @@
 
 ### Strategy: Layer convex tail exposure on linear share base
 
-**Why options:** FXY IV is unusually LOW (9-16% across strikes) — market is pricing FXY as quiet through BOJ. That's wrong if: (a) BOJ actually hikes (realized vol 2-3x current IV), (b) intervention #3 fires, (c) Aug 2024-style unwind (realized vol 50%+). Heavy call positioning across the chain (P/C 0.06x; 89% of call OI in $58-65 zone) means institutional money is already there.
+**Why options:** FXY IV is unusually LOW (9-16% across strikes) — market is pricing FXY as quiet through BOJ. That's wrong if: (a) BOJ delivers a *hawkish-of-pricing* surprise (size 50bp, hawkish dot/path, accelerated QT — realized vol 2-3x current IV; per CH-004 METHOD, a fully-priced 25bp hike does NOT unwind, only the hawkish-tail subset does), (b) intervention #3 fires AND sustains beyond the same-day reclaim pattern (CH-003 baseline unwind\|fires ~0.20 — the upside-tail case requires breaking the precedent), (c) **upside-tail Aug-2024-speed unwind** (realized vol 50%+) — conditional on hawkish-of-pricing trigger + positioning amplification at-peak, NOT the base case. Heavy call positioning across the chain (P/C 0.06x; 89% of call OI in $58-65 zone) means institutional money is already there.
 
 ### Position A — September $60 calls — ❌ NOT WARRANTED under v1.5 (resolved May 27, **re-confirmed Jun 1**)
 
@@ -126,7 +126,7 @@
 
 - **No short-dated OTM strikes ($61+ June):** wide spreads, thin OI, premium is mostly noise
 - **No LEAPS ($65+ Jan 2027):** FXY rarely sustains above $65 even in carry unwinds
-- **No call spreads:** the asymmetric tail (Aug 2024 redux) IS the point; capping upside throws away the best scenario
+- **No call spreads:** the asymmetric upside tail (Aug-2024-redux conditional on hawkish-of-pricing trigger + at-peak positioning) IS the point; capping upside throws away the best scenario
 - **No puts/spread sells:** different bet; not the thesis
 
 ### Catalyst Sequence
@@ -135,7 +135,7 @@
 
 ---
 
-## Carry Unwind Probability (v1.5 — Jun 3 decomposed)
+## Carry Unwind Probability (v1.5.1 — Jun 3 decomposed)
 
 *Canonical live numbers in STATUS.md § CARRY UNWIND PROBABILITY. Methodology in THESIS § CARRY-UNWIND PROBABILITY METHOD (5-trigger anchor table + state-dependent residual + CFTC amplifier + overlap discount). Snapshot here for reference; refresh on every thesis-level reframe.*
 
@@ -151,10 +151,13 @@
 
 ## The Asymmetric Setup
 
-### Intervention Paradox
-MOF intervenes → sells USD/buys yen → accelerates carry unwind → FXY up.
-MOF doesn't intervene → yen weakens on oil → forces more repatriation selling of UST → carry unwind anyway → FXY up (delayed).
-**Both paths lead to the same destination.** The only question is speed.
+### Intervention "Paradox" — v1.5.1 reconciliation (legacy framing softened)
+
+The v1.4 framing read *"MOF acts → unwind; MOF doesn't act → forced repat; either path → unwind."* **Both legs have been empirically softened** (THESIS § Channel 2 reconciliation + CHANGELOG 2026-06-03 v1.5.1):
+- *MOF acts:* CH-003 evidence (Apr 30 + May 6) — pure intervention drives 2-5y intraday spike that reclaims same-day. Unwind\|fires ~0.20 baseline, not the implicit ~0.50 the paradox assumed. Sustained-unwind requires breaking the same-day-reclaim pattern (upside tail, not base case).
+- *MOF doesn't act → forced repat:* Channel 1 deferred under v1.5 — 3-of-3 Big 3 mutual ESR window resolved without foreign bond sales; the discrete "forced" leg dissolved at the disclosure-window timescale. The slow-burn version of the mechanism (Pillar 3: hedge ratio at 14-yr low → mechanical selling sub-USDJPY 145) is intact but requires a sustained Fed-side compression, not a Jun-window force.
+
+**Honest framing now:** the case for being long is **not** the paradox — it is the structural pillars (rate-diff, J-ICS, hedge-ratio, positioning) carrying the direction, with the Jun-16 hike as the dominant catalyst for resolution and Channel 3 reactivation as a near-term upside skew.
 
 ### "Bigger Hike" Possibility (low probability under v1.5)
 Mar 30 BOJ Summary of Opinions revealed board members debating not just WHEN to hike but HOW MUCH. Apr 28 produced 3 dissents (Takata, Tamura, Nakagawa) for 1.00% — that's where the dissenters wanted to go in April. SAM-24 @85% on 25bp (to 1.00%) rather than 50bp. 50bp would require either acute crisis (insurer ESR <150%) or full Takaichi-Ueda rupture — neither in v1.5 base case. Path-dependence favors 25bp.
@@ -248,14 +251,15 @@ Private credit cascade (APO, ARES — 9 funds gated; BCRED Q1 redemptions ~7.9%,
 
 ## Historical Context
 
-**Aug 5, 2024 Precedent:**
+**Aug 5, 2024 Precedent (n=1 — speed scales with surprise, not catalyst existence):**
 - Yen strengthened 3%
 - VIX spiked to 65 (from ~15)
 - Nikkei -12% in one day
 - Margin calls cascaded globally
 - **Timeline: HOURS, not days**
+- **Setup:** BOJ hawkish-of-pricing trigger + Fed-dovish + CFTC at -180K cycle peak. **All three required.**
 
-This can happen again. Position sizing must account for gap risk.
+**v1.5.1 reconciliation:** Aug-2024-speed is the **upside-tail outcome** for the position, *conditional on* a hawkish-of-pricing BOJ surprise (size 50bp, hawkish dot/path) AND positioning amplification at-peak. It is NOT the base-case expectation for a fully-priced 25bp delivery — per CH-004 METHOD, a delivered-as-priced hike does NOT unwind (only the hawkish-tail subset does). Current setup matches positioning (CFTC at 63.7% of cycle peak, building) but the hike is largely priced. Position sizing accounts for gap risk on the upside-tail path, not as the modal expectation.
 
 ---
 
