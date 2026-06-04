@@ -1,6 +1,6 @@
 # SAM — Trade Ideas
 
-**Last Updated:** 2026-06-03 (Jun 3 PM — stop-spec harmonization to event-cap mode A pre-Jun-16; Polymarket BOJ hike refreshed to 94.8%; Carry Unwind table refactored to CH-004 decomposition. METSUKE Run 2 sync applied.) | 2026-06-01 prior (Jun 1 sync — Iran MOU effectively broken → intervention #3 zone reactivated, SAM-23 ~72%; May 31 market repriced June hike to ~88% → SAM-21 70%) | 2026-05-27 prior (v1.5 sync — Channel 1 demoted to deferred structural backstop 3-of-3 post-Sumitomo)
+**Last Updated:** 2026-06-04 (Jun 4 AM — METSUKE Run 4 sync: Sato Jun-30 propagation gap closed (KOYOMI primary-source verified); Polymarket cluster converted to STATUS-pointer (8 sites → "market ~85-95% across surfaces, see STATUS"); Jun 3-4 cabling-window news ingested upstream in STATUS. SAM-21 HELD 70% per pre-registered Jun 9 mechanical trigger.) | 2026-06-03 prior (Jun 3 PM — stop-spec harmonization to event-cap mode A pre-Jun-16; Carry Unwind table refactored to CH-004 decomposition. METSUKE Run 2 sync.) | 2026-06-01 prior (Jun 1 sync — Iran MOU effectively broken → intervention #3 zone reactivated, SAM-23 ~72%; May 31 market repriced June hike to ~88% → SAM-21 70%) | 2026-05-27 prior (v1.5 sync — Channel 1 demoted to deferred structural backstop 3-of-3 post-Sumitomo)
 **Domain:** Japan Macro, Yen, JGBs, Carry Trade, BOJ Policy
 
 *Live prices, probabilities, threshold status, and dashboard live in `STATUS.md`. This doc owns position details + decision card — point to STATUS for live data.*
@@ -17,7 +17,7 @@
 **Entry context (Tranche 2):** Post Apr 30 + May 6 MOF interventions (~¥10T combined), v1.4 thesis bump confirming JGB 30Y at 4.0% via J-ICS lifer abandonment. Better entry than original May 12 $58.00 limit.
 **Entry context (Call):** Sized as event lottery — 1 contract = max loss $40 (~5% of share notional). ATM at execution. IV ~9.3% (underpriced for BOJ event). Entered pre-CPI rather than post-CPI for IV protection (CPI surprise risk both ways).
 
-**Thesis (v1.5.1 single-path, structural backbone):** Yen-strengthening direction is structurally over-determined across 3-6 months by four pillars (THESIS § STRUCTURAL PILLARS): (1) rate-differential at multi-decade extreme (~280-300bp Fed-BOJ gap), (2) J-ICS lifer long-end abandonment as a self-perpetuating domestic JGB driver (independent of BOJ), (3) hedge ratio at 14-yr low (44.4%; ~$370-550B unhedged with vol-wtd entry USD/JPY 135-145), (4) CFTC short at 63.7% of cycle peak (-114,667 May 26; 4th build week, +27K new shorts WoW; broke -102K recent-cycle peak) → +5pp amplifier ON, residual ON per CH-004 METHOD. Target $60-62 / USDJPY 148-152 rests on these pillars, not on any single meeting. **Dominant remaining near-term *catalyst*:** BOJ rate hike Jun 16 (SAM 70% / market ~94.8% — Polymarket Jun 3, +7pp/24h on USDJPY 160 break; SAM held at 70% per pre-registered Jun 9 mechanical trigger and Takaichi-ceiling earned discount). **Channel 1** (life insurer repatriation) demoted to deferred structural backstop after 3-of-3 Big 3 mutual ESR window confirmation (Nippon 195% M&A, Meiji 208% manageable, Sumitomo 197% ↑+19pt WITH foreign book growing +¥1.11T) — ESR pressure absorbed via capital actions (Resolution Life M&A, Allstate, Dearborn) + equity rally + hedge-cost relief, NOT foreign bond sales. Foreign books in unrealized GAIN at all three; cross-border transmission timing pushed to multi-year. **Channel 3 REACTIVATED Jun 1** — Iran/Hormuz MOU effectively broken (Tehran suspended document exchange + Hormuz block threat; Brent +4% to $94.78, WTI +7%); SAM-23 ~72%; Bessent-Katayama-Himino alignment cabling hike + intervention combo for Jun 16 (Reuters Jun 1); pre-meeting blackout ~Jun 13. The position is structurally bid even if Jun 16 disappoints; the call premium is the catalyst-conditional bet.
+**Thesis (v1.5.1 single-path, structural backbone):** Yen-strengthening direction is structurally over-determined across 3-6 months by four pillars (THESIS § STRUCTURAL PILLARS): (1) rate-differential at multi-decade extreme (~280-300bp Fed-BOJ gap), (2) J-ICS lifer long-end abandonment as a self-perpetuating domestic JGB driver (independent of BOJ), (3) hedge ratio at 14-yr low (44.4%; ~$370-550B unhedged with vol-wtd entry USD/JPY 135-145), (4) CFTC short at 63.7% of cycle peak (-114,667 May 26; 4th build week, +27K new shorts WoW; broke -102K recent-cycle peak) → +5pp amplifier ON, residual ON per CH-004 METHOD. Target $60-62 / USDJPY 148-152 rests on these pillars, not on any single meeting. **Dominant remaining near-term *catalyst*:** BOJ rate hike Jun 16 (SAM **70%** / market **~85-95%** across surfaces — see STATUS for live Polymarket / swap / Kalshi; SAM held at 70% per pre-registered Jun 9 mechanical trigger and Takaichi-ceiling earned discount). **Channel 1** (life insurer repatriation) demoted to deferred structural backstop after 3-of-3 Big 3 mutual ESR window confirmation (Nippon 195% M&A, Meiji 208% manageable, Sumitomo 197% ↑+19pt WITH foreign book growing +¥1.11T) — ESR pressure absorbed via capital actions (Resolution Life M&A, Allstate, Dearborn) + equity rally + hedge-cost relief, NOT foreign bond sales. Foreign books in unrealized GAIN at all three; cross-border transmission timing pushed to multi-year. **Channel 3 REACTIVATED Jun 1** — Iran/Hormuz MOU effectively broken (Tehran suspended document exchange + Hormuz block threat; Brent +4% to $94.78, WTI +7%); SAM-23 ~72%; Bessent-Katayama-Himino alignment cabling hike + intervention combo for Jun 16 (Reuters Jun 1); pre-meeting blackout ~Jun 13. The position is structurally bid even if Jun 16 disappoints; the call premium is the catalyst-conditional bet.
 
 ---
 
@@ -43,7 +43,7 @@
 
 | Hard Trigger | Status (Jun 1) |
 |---|---|
-| BOJ hike at June meeting | PENDING (Jun 16; **SAM-21 70%; market ~94.8%** — Polymarket Jun 3, +7pp/24h vs Tue 87.6%; SAM-21 held at 70% per pre-registered Jun 9 mechanical trigger). Dominant remaining catalyst, **market-confirmed base case**. |
+| BOJ hike at June meeting | PENDING (Jun 16; **SAM-21 70%; market ~85-95%** across surfaces — see STATUS for live Polymarket/swap/Kalshi; SAM-21 held at 70% per pre-registered Jun 9 mechanical trigger). Dominant remaining catalyst, **market-confirmed base case**. |
 | **MOF intervenes at 160** | ✅ FIRED twice (~¥10T / $63.5B Apr 30 + May 6); **#3 zone REACTIVATED Jun 1** on Iran MOU break — Katayama May 29 "decisive action" verbal at 159+; SAM-23 ~72%; Bessent-Katayama-Himino cabling hike+intervention combo (Reuters Jun 1); pre-meeting blackout ~Jun 13. |
 | USDJPY sub-155 for 3+ sessions WITH oil normalizing | NEAR-MISS (May 6 low 155.05, 1 session); oil re-accelerating post Jun 1 MOU break (live Brent in STATUS); **Phase 2 inception PAUSED — MOU break delays the 3-session test**. |
 | ESR <200% (Big 3 mutuals) | ✅ **RESOLVED 3-of-3 BENIGN** (Nippon 195% M&A; Meiji 208% manageable; Sumitomo 197% ↑+19pt with foreign book growing) — Channel 1 deferred. |
@@ -188,7 +188,7 @@ Private credit cascade (APO, ARES — 9 funds gated; BCRED Q1 redemptions ~7.9%,
 **Thesis:** Japan is in a binary trap. 75% of mortgages are FLOATING RATE (linked to BOJ policy rate). BOJ hikes to 1.00% → immediate household stress → consumption drag → recession risk. BOJ doesn't hike → JGB crisis deepens → yen collapse → forced UST selling.
 
 **Entry Triggers (updated v1.5):**
-- [ ] BOJ hikes to 1.00% (Jun 16 base case — **SAM-21 70%; market ~94.8%** Jun 3 Polymarket) — mortgage transmission begins
+- [ ] BOJ hikes to 1.00% (Jun 16 base case — **SAM-21 70%; market ~85-95%** across surfaces — see STATUS) — mortgage transmission begins
 - [x] ~~Tankan shows consumer weakness (Apr 1)~~ — Tankan BEAT (mfg 17, non-mfg 36). Not a trigger.
 - [x] ~~Q1 2026 GDP contraction~~ — Q1 GDP BEAT +2.1% ann (May 19). Not a trigger.
 - [ ] Mortgage DQ data spikes in Japan
@@ -199,7 +199,7 @@ Private credit cascade (APO, ARES — 9 funds gated; BCRED Q1 redemptions ~7.9%,
 - Real wages sustain positive (Jan was +1.4% — first positive in 13 months)
 - Oil shock resolves (Brent sub-$95, MOU framework hardening) — **❌ NO LONGER ACTIVE; Iran MOU effectively broken Jun 1, Brent +4% re-accelerating to $94.78**
 
-**Status:** ⏳ WATCHING — BOJ hike Jun 16 is the trigger (SAM-21 70% / market ~94.8% Jun 3 Polymarket).
+**Status:** ⏳ WATCHING — BOJ hike Jun 16 is the trigger (SAM-21 70% / market ~85-95% across surfaces — see STATUS).
 
 ---
 
@@ -226,7 +226,7 @@ Private credit cascade (APO, ARES — 9 funds gated; BCRED Q1 redemptions ~7.9%,
 **Candidates:** MUFG, SMFG, MFG (US-listed ADRs)
 
 **Entry Triggers:**
-- [ ] BOJ hikes to 1.00% (Jun 16 base case — **SAM-21 70%; market ~94.8%** Jun 3 Polymarket)
+- [ ] BOJ hikes to 1.00% (Jun 16 base case — **SAM-21 70%; market ~85-95%** across surfaces — see STATUS)
 - [ ] Mortgage DQ spikes in Japan data
 - [ ] Bank earnings show provisioning increase
 
@@ -242,8 +242,8 @@ Private credit cascade (APO, ARES — 9 funds gated; BCRED Q1 redemptions ~7.9%,
 | **🟠 ongoing** | **CFTC JPY weekly** (next release Sat Jun 6) | Currently **-114,667 (May 26 data) — broke -102K cycle peak, 4th build week, +27K new shorts WoW**. Fuel load growing into BOJ. Cover (-75K line) would signal MOU acceptance / dovish-BOJ-priced. |
 | **🟠 Wed Jun 10** | **US CPI (May) — Fed-side gate** | Hot → Fed dots stay higher → USD firm → carry survives; soft → opens Fed-cut tail (currently <10% 2026 cut odds priced). Feeds Jun 17 dots one week ahead. |
 | **🟠 Wed Jun 10** | **JGB 30Y auction** | BTC ratio + tail. Weak demand (BTC <2.5x / wide tail) = J-ICS lifer long-end abandonment confirmed (SAM-26 mechanism — currently tracking FALSE; auction is the next forward read that could re-light it). |
-| **🔴🔴 Tue Jun 16** | **BOJ MPM — DOMINANT REMAINING CATALYST (SAM-21 70%; market ~94.8% Jun 3 Polymarket; SAM-24 25bp @85%)** | FXY +5–8% structural on hike; v1.5 single-path now market-confirmed base case. Re-verify swap pricing at boot Jun 9-15 per pre-registered mechanical trigger. |
-| Jun 16 | Sato joins BOJ board | Hawk→dove swap; post-June political risk |
+| **🔴🔴 Tue Jun 16** | **BOJ MPM — DOMINANT REMAINING CATALYST (SAM-21 70%; market ~85-95% across surfaces — see STATUS; SAM-24 25bp @85%)** | FXY +5–8% structural on hike; v1.5 single-path now market-confirmed base case. Re-verify pricing at boot Jun 9-15 per pre-registered mechanical trigger. |
+| **Tue Jun 30** | **Sato Ayano takes Nakagawa's seat (BOJ board)** *(Nakagawa term expires Jun 29; corrected Jun 4 from prior "Jun 16" which conflated with the MPM. KOYOMI primary-source verified at BOJ official Nakagawa page Jun 4 — reflationist/dove confirmed via Japan Times + Bloomberg + Nikkei + AGU profile.)* | **Joins Jun 30 — does NOT vote Jun 16.** Board tilts dovish from Jun 30: this is a post-June PATH consideration, NOT a Jun-16 factor. Apr-28-style hike-dissent bloc 3 → 2 (Nakagawa was active 1.00% dissenter alongside Takata, Tamura). Ties to v1.5.1 timing-MEDIUM conviction + OS.1 post-June PATH/CEILING story. |
 | Jun 16-17 | BOJ interim QT assessment | Pace adjustment; potential super-long-specific op if JGB stress re-engages |
 | **🔴 Wed Jun 17** | **FOMC decision + dot plot** | Rate-differential other half — lands 24h after BOJ. **Jun 1 reread: >97% no-change priced; <10% 2026 cut odds — hold-confirming, not rescue.** Co-headlines the Jun 16-17 cluster but Fed-side delivers no Jun-window carry catalyst. |
 
