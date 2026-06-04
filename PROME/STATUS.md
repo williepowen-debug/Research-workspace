@@ -1,9 +1,9 @@
 # PROME STATUS.md
-**Updated:** 2026-06-02 ~10:55 ET (OpenClaw Prome — closeout after boot-surface + HEARTBEAT rehab)
+**Updated:** 2026-06-04 ~17:25 ET (OpenClaw Prome — Jun 3-4 Prome-signal ingestion pass)
 
 ## Core State
 
-**Operational priority:** Prome is boot-safe again after the Jun 2 catch-up. Will explicitly deprioritized trade-position work for this pass; old trade rails remain verification-required until a separate reconciliation pass.
+**Operational priority:** Prome is boot-safe after the Jun 2 catch-up. Current pass is narrow Jun 3-4 signal ingestion: (1) HENRY superseded the old TLT 5/22 ticket, and (2) SAM flagged a pathspec-commit migration to reduce shared-repo overwrite risk.
 
 **Regime:** Public credit and vol remain calm while stress persists in Japan/FX, energy, BDC/private-credit marks, and duration. Current read is **divergence**, not confirmed public-credit/vol transmission.
 
@@ -33,7 +33,7 @@
 | `PROME/TODAY.md` | ✅ Current | Rewritten Jun 2; state-rehab objective and live dashboard. |
 | `PROME/STATUS.md` | ✅ Current | This file. |
 | `PROME/FLEET_SCAN.md` | ✅ Current | Rewritten Jun 2 from bounded fleet scan. |
-| `PROME/ACTIVE_DECISIONS.md` | ✅ Current safety index | Old trade rails marked verification-required until broker/Will state is verified. |
+| `PROME/ACTIVE_DECISIONS.md` | ✅ Current safety index | HENRY Jun 3 TLT supersession ingested; old 5/22 roll ticket no longer actionable. |
 | `HEARTBEAT.md` | ✅ Current | Refreshed Jun 2 with live dashboard, WALTER frame, and SENTRY pointer. Cadence/ownership remains an open design decision. |
 | `PROME/CLAUDE_CODE_HANDOFF.md` | Historical | Useful audit trail, not current boot state. |
 
@@ -57,6 +57,13 @@
 
 ---
 
+## Jun 3-4 Prome Signals Ingested
+
+| Signal | Status | Prome handling |
+|---|---|---|
+| HENRY TLT ticket supersession | ✅ Ingested | `PROME/ACTIVE_DECISIONS.md` now marks the old 5/22 TLT roll ticket as superseded. Jun $85P are a Will-handled catalyst salvage bet; Sep add waits for CPI confirmation. |
+| SAM pathspec migration audit | ✅ Tracker created | `PROME/PATHSPEC_MIGRATION_STATUS.md` tracks 8 agents / 9 sites. Prome fixed its own `AGENTS/PROME/CLAUDE.md` protocol; other agents own their own edits at next boot. |
+
 ## Current Work Queue
 
 | Action | Pri | Status |
@@ -66,7 +73,9 @@
 | Integrate WALTER Jun 2 frame | ✅ | Prome surfaces now carry narrative-fork + kinetic-acceleration caveat. |
 | Add fresh OpenClaw handoff | ✅ | `PROME/HANDOFF.md` has Jun 2 top block. |
 | Refresh HEARTBEAT | ✅ | Completed with Jun 2 live dashboard. |
-| Reconcile old trade rails / fills | 🟠 | Deferred per Will; mark as verification-required, not actionable. |
+| Ingest HENRY TLT supersession | ✅ | Old 5/22 TLT roll ticket superseded by Jun 3 Will/HENRY handling. |
+| Track pathspec migration | 🟠 | Tracker created; Prome self-fix done; remaining owners pending. |
+| Reconcile old trade rails / fills | 🟠 | Deferred per Will; non-TLT rails remain verification-required, not actionable. |
 | Decide HEARTBEAT cadence / ownership | 🟠 | Open design decision for next operating pass. |
 
 ---
@@ -78,11 +87,11 @@
 - **No external/public messages without approval.**
 - **Do not spawn persistent agents casually:** CARL, REGINALD, OZK, SAM, RED, BRENT, Claude Code Prome.
 - **WALTER routes signals/news; Prome maintains state, tasking, rails, and Will-facing synthesis.**
-- **Use explicit path staging only; never `git add .` or `git add -A`.**
+- **Use pathspec commits only; never `git add .`, `git add -A`, or broad `git reset HEAD`.** Track migration in `PROME/PATHSPEC_MIGRATION_STATUS.md`.
 - **Read current files before editing; verify after edits.**
 
 ---
 
 ## Next Best Action
 
-Close out this session cleanly. Next session should not reopen boot rehab unless a specific stale surface is found; choose a bounded next lane such as HEARTBEAT cadence, Prome inbox triage, position-state reconciliation, or stale domain revive shortlist.
+Finish the narrow Jun 3-4 ingestion diff, verify it, then decide whether to refresh broader boot surfaces (`SCRATCH` / `TODAY` / `FLEET_SCAN`) or stop after this safety update.
