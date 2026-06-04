@@ -38,7 +38,7 @@
 8. **THESIS.md substantive rewrite** still deferred (v3.0 "Phase 2 PRICING dominant via diplomatic" inverted Jun 1; Jun 3 EIA reinforced Phase 1 but didn't disambiguate Trump/Rubio gate). Re-evaluate after next major policy event (Iran walkback signal OR Rubio "Plan B" activation OR Jun 7 OPEC+).
 9. **BRENT-KOYOMI build for CATALYSTS.tsv** — SAM-pattern catalyst-keeper sub-agent. Spec read + adapt pending fresh-context build (per Path B closeout rationale). Today's manual CATALYSTS.tsv sync would have been a KOYOMI smoke test.
 10. **BRENT-KURA assessment** — workbook KB/VX/FLOW dormant 6+ wks; revive-vs-demote decision still OPEN with Will. Tier 2 carry.
-11. **`refinery_damage/INCIDENTS.tsv`:** Jun 1 Kuwait intercept still NOT logged (LESSONS #1: verify CENTCOM primary source first). Carry forward.
+11. ✅ **`refinery_damage/INCIDENTS.tsv` Kuwait carry-forward — CLOSED Jun 3 PM (out of scope).** Jun 1 Kuwait missile intercept is a kinetic event against US bases with no facility hit — HAWK domain per CLAUDE.md + LESSONS #3, not refinery damage. Added scope header to INCIDENTS.tsv to prevent re-spawn ("facility-damage only; military ops/intercepts → HAWK"). Already referenced in STATUS; no dual-log needed.
 
 ## OPEN THREADS / WATCHES
 - 🔴 **SPR ~350M floor watch (Jun 10 EIA)** — DIRECTIONAL, not symmetric. Don't lock to throttle-as-given.
@@ -48,7 +48,7 @@
 - 🟠 **Trigger #3 re-fire** (Jun 5 COT first post-Fri-drop; Jun 12 COT first post-suspension).
 - 🟠 **BRT-08/09 demand panel CONTAMINATED — re-read Jun 10** (first clean post-MD).
 - 🟠 **BRT-26 shale response** (rigs 429 → 457; Baker Hughes Jun 5 + weekly).
-- 🟠 **Tanker BRT-15 channel-mix-shift** — entry decision STILL OPEN with Will. 3-channel structure (ton-mile dormant, war-risk firing, barnacle durable).
+- 🟠 **Tanker BRT-15 — TABLED Jun 3 PM (Option B / wait-for-kinetic-trigger).** Re-arm watch: fresh kinetic event OR barnacle thesis re-surfacing in FT/Reuters.
 - 🟠 **WTI-Brent spread direction watch** — does PADD-3 export-pull widen Brent premium toward -$4 to -$6? Track daily.
 - 🟡 **HY energy OAS catch-up** — credit dismissed Brent moves; mechanism-vs-threshold note per `[[finding_threshold_vs_mechanism]]`.
 - 🟡 **Crude import 4-wk YoY -4.5%** (deepened from -1.5%) — direction real, cause unconfirmed (supply vs demand/inventory mix).
@@ -56,7 +56,7 @@
 ## POSITION DECISIONS PENDING
 - **CF $130C Jun 18** — HOLD CONFIRMED (Will, Jun 1 PM). 15 trading days to expiry. No re-eval scheduled; let it run unless major Brent move.
 - **XLE $65C Sep 30** — HOLD (live kinetic-gap-up insurance; ~12% OTM; 4 mo to expiry).
-- **Tanker BRT-15** — entry decision STILL OPEN with Will. 3-channel structure (war-risk firing today STNG/DHT both +2.4% on Jun 1; barnacle durable; ton-mile dormant). No urgency until war-risk reprices materially.
+- **Tanker BRT-15 — TABLED Jun 3 PM (Will, Option B).** Wait for kinetic-trigger re-fire per LESSONS #16. Reasoning: war-risk leg has FADED 3 days post-Jun-1 (STNG flat-on-down-Brent today, $75.53 vs $76.33 Jun 1); cheaper mark is a *consequence* of thesis weakening, not a reason to enter. Barnacle leg alone is too narrow to justify equity entry. Re-evaluate on: (a) fresh kinetic event (Bab al-Mandab op, US-Iran direct exchange, Hormuz vessel attack), or (b) barnacle thesis surfacing in FT/Reuters again. Trade idea ALIVE — discipline is the constraint, not conviction.
 
 ## MAIL STATE (one line per signal)
 - **Inbox:** clear (cross-agent intake on hold per `[[project_messaging_overhaul]]`).
@@ -64,10 +64,10 @@
 
 ## WORKBOOK HEALTH
 - **`thesis/PREDICTIONS.tsv`:** green; 28 rows (11 OPEN). No edits this session (BRT-08/09 held OPEN per contamination discipline).
-- **`workbook/CATALYSTS.tsv`:** SYNCED to STATUS calendar this session. 12 rows (added 2, fired 1, revised 1). Green.
+- **`docket/CATALYSTS.tsv`:** MIGRATED Jun 3 PM from `workbook/` → `docket/` + added `date_class` col (confirmed default / modeled for projections). 11 rows (9 confirmed, 2 modeled: SPR 350M floor Jun 10, Cushing 20M floor Jul 1). Maintained by [FASTOW](docket/FASTOW.md) sub-agent (built Jun 3 PM; Run 1 pending smoke test).
 - **`workbook/KB.tsv` / `VX.tsv` / `FLOW.tsv`:** DORMANT 6+ wks. **OPEN DECISION for Will: revive vs demote in CLAUDE.md step 8.** Tier 2 carry.
 - **`thesis/THESIS.md`:** still v3.0 "Phase 2 pricing dominant via diplomatic" — inverted Jun 1, reinforced-Phase-1 Jun 3. Substantive rewrite still deferred pending Trump/Rubio response disambiguation.
-- **`refinery_damage/INCIDENTS.tsv`:** Jun 1 Kuwait intercept still NOT logged. Carry forward (verify CENTCOM primary source first per LESSONS #1).
+- **`refinery_damage/INCIDENTS.tsv`:** 35 rows + scope-header (added Jun 3 PM). Green. Kuwait intercept carry-forward closed as out-of-scope (HAWK domain).
 
 ## GIT STATE
 - **Commits this session (in order):** `c45792e2` (EIA synthesis + STATUS), `f456a27d` (TRACKER), `78b1141f` (directionality fixes), + closeout commit pending.

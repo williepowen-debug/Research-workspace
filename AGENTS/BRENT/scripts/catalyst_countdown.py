@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 BRENT Catalyst Countdown
-Reads workbook/CATALYSTS.tsv and shows trading-day countdown to each event.
+Reads docket/CATALYSTS.tsv and shows trading-day countdown to each event.
 Flags anything within 5 trading days. Highlights 🔴 priority events within horizon.
 
 Usage:
@@ -14,7 +14,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 
 BRENT_DIR = Path(__file__).resolve().parent.parent
-CATALYSTS_TSV = BRENT_DIR / "workbook" / "CATALYSTS.tsv"
+CATALYSTS_TSV = BRENT_DIR / "docket" / "CATALYSTS.tsv"
 
 DEFAULT_HORIZON = 60  # days to look ahead (broader for oil — OPEC+ meetings etc.)
 
@@ -58,6 +58,7 @@ def main():
 
     print(f"\n{'='*72}")
     print(f"  BRENT Catalyst Countdown — {now}  ({horizon}-day horizon)")
+    print(f"  {'~'} prefix = modeled/projected date (not source-confirmed; may revise)")
     print(f"{'='*72}")
 
     catalysts = load_catalysts()
@@ -104,7 +105,8 @@ def main():
             pri = c.get("priority", "").strip() or "  "
             cal_days = (edate - today).days
             day_of_week = edate.strftime("%a")
-            print(f"  {pri} {edate.strftime('%Y-%m-%d')} ({day_of_week})  {cal_days:>2}d cal / {trd:>2}d trd  {c.get('event', '')}")
+            marker = "~" if c.get("date_class", "").strip() == "modeled" else " "
+            print(f"  {pri} {marker}{edate.strftime('%Y-%m-%d')} ({day_of_week})  {cal_days:>2}d cal / {trd:>2}d trd  {c.get('event', '')}")
             check = c.get("what_to_check", "")
             if check:
                 print(f"       ↳ check: {check}")
@@ -125,7 +127,8 @@ def main():
             event = c.get("event", "")
             if len(event) > 48:
                 event = event[:45] + "..."
-            print(f"  {pri} {edate.strftime('%Y-%m-%d')} ({day_of_week})  {cal_days:>3}d cal / {trd:>3}d trd  {event}")
+            marker = "~" if c.get("date_class", "").strip() == "modeled" else " "
+            print(f"  {pri} {marker}{edate.strftime('%Y-%m-%d')} ({day_of_week})  {cal_days:>3}d cal / {trd:>3}d trd  {event}")
 
     high_pri = [x for x in upcoming if "🔴" in x[1].get("priority", "")]
     if high_pri:
