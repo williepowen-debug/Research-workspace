@@ -1,6 +1,6 @@
 # BRENT SCRATCH — [DATE]
 
-**Purpose:** Ephemeral session handoff — the canonical "where are we / what next" file. Read at boot (SPAWN PROTOCOL step 2), rewritten in full at closeout (step 11). Disposable: rewritten every session, not appended to. Persistent learnings live in `MEMORY.md`; dated forward catalysts live in `workbook/CATALYSTS.tsv`; this file is the bridge between sessions.
+**Purpose:** Ephemeral session handoff — the canonical "where are we / what next" file. Read at boot (SPAWN PROTOCOL step 2), rewritten in full at closeout (step 11). Disposable: rewritten every session, not appended to. Persistent learnings live in `MEMORY.md`; dated forward catalysts live in `docket/CATALYSTS.tsv` (maintained by [FASTOW](../docket/FASTOW.md) sub-agent); this file is the bridge between sessions.
 
 **How to use:** copy this block, fill every section, delete any `[...]` prompts. If a section is empty this session, write "none" — don't leave the prompt text.
 

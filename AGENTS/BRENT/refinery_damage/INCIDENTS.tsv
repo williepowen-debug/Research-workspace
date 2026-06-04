@@ -1,3 +1,4 @@
+# SCOPE: facility-damage only (named energy infrastructure: refineries, terminals, LNG, petrochem, gas fields, nuclear). Military ops / intercepts / kinetic-without-facility-hit → HAWK domain (LESSONS #3); do NOT log here even if oil-price-relevant.
 id	date_first	facility	owner	country	region	capacity_bpd	bpd_offline_est	cause	incident_type	status	source_tier	last_verified	source_url	notes
 RF-001	2026-03-02	Ras Tanura	Saudi Aramco	SAU	ME	550000	0	WAR_DRONE	DRONE_STRIKE	RESOLVED	A-1	2026-04-07	insurancejournal.com/news/international/2026/04/07/864740.htm	Minor damage; ops halted temporarily, rerouted
 RF-002	2026-03-13	Kharg Island	NIOC	IRN	ME	1500000	1500000	WAR_AIRSTRIKE	STRIKE_1	ACTIVE	A-1	2026-04-12	en.wikipedia.org/wiki/2026_Kharg_Island_attack	US airstrike Mar 13 spared oil infra; Apr 7 second event hit export capacity — verify Apr 7 as separate event
