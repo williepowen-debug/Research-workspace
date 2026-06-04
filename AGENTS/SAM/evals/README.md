@@ -6,6 +6,8 @@
 
 **Version:** v1.1 (2026-05-27). v1 had a contamination flaw — INPUT + EXPECTED + DO-NOT lived in the same file, and the runner's responses showed near-verbatim phrase echo from the rubric. v1.1 fix: split each case into two files. INPUT is pasteable; RUBRIC is scorer-only and never enters the runner's context.
 
+**Last baseline run:** 2026-05-27 (v1.1 — both cases PASS clean, baseline against v1.4 thesis). **Next re-baseline scheduled:** 2026-06-07/08 (against v1.5.1) — see `REBASELINE_v1.5.1_RUN_PROMPT.md` for the operator packet.
+
 ---
 
 ## Current cases (v1.1)
@@ -66,15 +68,17 @@ If a criterion is borderline ("kind of cites J-ICS but doesn't articulate the me
 
 Re-run **both cases** before promoting any of:
 - Non-trivial CLAUDE.md edit (anything beyond typo/wording)
-- Thesis-version bump (v1.5 → v1.6 etc.)
+- Thesis-version bump — **Y-level** (v1.5 → v1.6 etc.) ALWAYS; **Z-level patch** (v1.5 → v1.5.1) when accompanied by a *substantive prose surface restructure* (new section, channel-prose reconciliation, conviction decomposition). Z-bumps that are pure number-tweaks or single-line refinements do NOT need a re-run.
 - Restructure of MEMORY.md auto-memory references or template
 - Boot-protocol change in CLAUDE.md SPAWN PROTOCOL
+- **Compounded auto-memory drift:** ≥10 new auto-memory entries since last re-baseline (heuristic — the lesson surface has grown enough that the runner has materially different available context). Check `~/.claude/projects/-home-willi-Research-workspace/memory/MEMORY.md` line count delta.
 
 **Do NOT re-run for:**
 - Routine STATUS / CALENDAR / TIMELINE updates
 - Adding a new prediction to PREDICTIONS.tsv
 - MAINTENANCE.md updates
-- Adding a new auto-memory (unless it changes existing lesson surface)
+- Adding a single new auto-memory (unless it changes existing lesson surface)
+- Pointer/version-tag refreshes inside RUBRICs (e.g. updating a `(NEW v1.4 — May 21)` parenthetical to `(kept live in v1.5.x)`). These are citation hygiene, not criterion changes — log in the re-baseline prompt for scorer awareness, but don't trigger a re-run on their own.
 
 Each re-run costs Will ~10 min/case = ~20 min total. If you're not sure whether to re-run, the answer is probably no — evals are for changes to the *prompt surface*, not the data layer.
 
@@ -122,4 +126,4 @@ Both cases logged as `PASS-CAVEATED` in `results.tsv`. Substantive reasoning bey
 
 v1.1 fix: split-file design + assertion-shape (not quote-shape) EXPECTED criteria + contamination self-check at multiple points + post-response contamination signature check.
 
-Baseline artifacts (responses + diagnosis) preserved in `evals/baseline_artifacts/`. Recommend re-baseline against v1.1 in next SAM session.
+Baseline artifacts (responses + diagnosis) preserved in `evals/baseline_artifacts/`. v1.1 baseline established 2026-05-27 (both cases PASS clean, against v1.4 thesis surface). Next re-baseline scheduled 2026-06-07/08 against v1.5.1 — see `REBASELINE_v1.5.1_RUN_PROMPT.md` for the operator packet.

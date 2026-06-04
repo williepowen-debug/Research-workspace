@@ -86,6 +86,14 @@
 
 **Re-engagement watch:** USDJPY back through 159.50 ✅. Brent re-accelerating ✅ ($91.12 → $94.78 today). Bessent-Katayama-Himino alignment cabling hike + intervention combo for Jun 16 (Reuters/Investing.com Jun 1). **SAM-23 marked ~55% → ~72%** — MOU-collapse condition (the explicit re-rate-higher trigger from the May 25 mark-down) is met. Pre-meeting blackout starts ~Jun 13 (T-2); cabling window closes this week. 160 is the hard trigger.
 
+**SAM-23 mechanical trigger discipline (pre-registered Jun 4):**
+
+The Jun 1 mark-UP (~55% → ~72%) was triggered by a 3-event conjunction same-day (Tasnim suspension + Hormuz block threat + Brent +4%). Symmetric discipline both ways — neither direction earns a free ride on a single print. Mirrors the SAM-21 Jun-9 pattern below; gates premature re-rates on single-day catalysts.
+
+- **Mark-DOWN trigger:** if ALL three of (i) Brent confirms down ≥2 consecutive sessions, cumulative ≥−2% from the Jun 3 close ($96.78); (ii) Tehran walk-back signal — formal statement OR resumed document exchange via mediators OR materially cooled rhetoric from named officials; (iii) USDJPY pulls below 159.50 (out of #3 trigger zone) → mechanical **−5 to −8pp** (SAM-23 72% → 64-67%). Sized as the disciplined inverse of the Jun-1 conjunction-driven mark-UP (~+17pp gross, halved for discipline).
+- **Mark-UP trigger:** if ALL three of (i) Brent +>1.5% AND tags $100+; (ii) USDJPY tags 160+ intraday again; (iii) Tehran further escalates (formal MOU withdrawal OR Hormuz close attempt OR direct US-Iran military exchange) → mechanical **+3 to +5pp** (SAM-23 72% → 75-77%). Sized smaller than the mark-DOWN because 72% already reflects substantial escalation pricing; further upward space is limited.
+- **Do NOT move on intraday ticks or single-print signals.** Single legs (e.g., Brent down −1.05% on Jun 3 alone, no walk-back, USDJPY still 159.90) are NOT triggers. The Jun-1 conjunction was the discipline standard — symmetric inverse for any future re-rate.
+
 ---
 
 ## BOJ ASSESSMENT — JUNE 16 PATH (DOMINANT REMAINING CATALYST under v1.5)

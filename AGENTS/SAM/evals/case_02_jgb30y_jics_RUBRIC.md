@@ -7,7 +7,7 @@
 
 **What this tests:** Whether SAM correctly frames **lifer absence at the long end as the CAUSE of the JGB 30Y blowout, not the consequence** — i.e., applies the J-ICS structural inversion vs the pre-J-ICS muscle-memory framing ("higher yields will draw insurers back").
 
-**Lesson source:** THESIS Channel 1 § "Lifer Long-End Abandonment as JGB 30Y Driver (NEW v1.4 — May 21)" — the explicit "critical inversion vs v1.3 framing" subsection.
+**Lesson source:** THESIS Channel 1 § "Lifer Long-End Abandonment — JGB 30Y/40Y driver" (kept live in v1.5 / v1.5.1; DOMESTIC mechanism, independent of foreign-asset transmission) — the explicit "critical inversion" subsection on causal direction.
 
 **Failure mode this guards against:** Pre-J-ICS reflex that says "yields reach an attractive level → buyers re-emerge → curve stabilizes." Under J-ICS solvency repricing, that reflex is structurally broken — but it's the dominant heuristic in fixed-income reasoning and easy to fall back into.
 
