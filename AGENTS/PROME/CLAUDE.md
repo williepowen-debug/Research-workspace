@@ -71,11 +71,10 @@ Follow root CLAUDE.md Git Protocol strictly:
 3. If clean: stash/pull/pop per root CLAUDE.md
 
 **Before committing:**
-1. `git reset HEAD` — clear staging
-2. `git add AGENTS/PROME/ PROME/` — stage only my files
-3. `git diff --cached --stat` — verify
-4. Commit with descriptive message
-5. Push to GitHub
+1. **Use pathspec commits — never `git reset HEAD`** (clobbers other agents' concurrent stages; see `PROME/PATHSPEC_MIGRATION_STATUS.md` and auto-memory `[[finding_pathspec_commit_race_safety]]`). For modified tracked files: `git commit AGENTS/PROME/<file> PROME/<file> -m "..."`. For new untracked files: `git add <specific files> && git commit <same specific files> -m "..."`.
+2. Never commit files outside `AGENTS/PROME/` or `PROME/` unless Will explicitly approves.
+3. Optional sanity check between add and commit: `git diff --cached --stat`.
+4. Push to GitHub.
 
 ## Spawnable Agents
 
