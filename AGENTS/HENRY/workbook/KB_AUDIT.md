@@ -44,7 +44,7 @@ Reference map originally built by Prome/3rd-party LLM; **independently reproduce
 |------|-------|-------|--------|
 | **0** | Status-flagged-non-live AND leaf (safe 12) | 12 | ✅ done 6/3 (KB 136→124) |
 | **1** | Jan 2026 — process/wrapper/resolved-PIT (14 archived, 17 kept) | 31 | ✅ done 6/3 (KB 124→110) |
-| **1.5** | Re-point + archive held 067/132 (deferred from Pass-1; no Jan dependency) | 2 | pending |
+| **1.5** | Re-point + archive held 067/132 | 2 | ✅ done 6/3 (KB 110→108) |
 | **2** | Feb 2026 | 27 | pending |
 | **3a** | Mar 1-12 | ~35 | pending |
 | **3b** | Mar 13-31 | ~25 | pending |
@@ -80,3 +80,10 @@ Session-001 "Loaded Machine" foundational rows. Framing evolved (→split-axis) 
 **Archived (14):** 001 010 011 (process/wrappers) · 016 (superseded by VX) · 017 026 034 (wrappers) · 019 (ZBT played-out) · 022 035 036 (resolved point-in-time) · 021 023 025 (Jan sentiment snapshots).
 **Reusable bits salvaged before archive:** 021 3-pillar sentiment-reversal framework + 025 data-source cadence list → folded into `domain/REFERENCE_TABLES.md` (not pure-dropped).
 **Kept (17):** 002🔒 003🔒 004🔒 005 012 013 014 015 018 024 027 028 029 030 031 032🔒 033 — durable substrate (concentration/0DTE/passive/private-credit/structural-bid/methodology). Some numbers stale → flagged for a later numbers-refresh pass. **031 kept this pass**, pending end-of-arc merge into 027.
+
+## PASS 1.5 — held load-bearing rows re-pointed + archived (done 2026-06-03)
+
+The 2 status-flagged rows held back from Pass-0 (load-bearing, so blind-archive would orphan links). Re-pointed inbound refs FIRST, then archived. KB 110→108.
+- **067** SUPERSEDED (LIQUID HY-OAS 335-355 overestimate; actual 308 — lesson in LESSONS.md). Inbound `VX-HEN-20.01` → re-pointed.
+- **132** RESOLVED (Apr-6 muddle-through squeeze narrative, played out; forward 300/340 framework persists in `FLOW-HEN-027`). Inbound `VX-HEN-16.01` + `FLOW-HEN-027` → re-pointed.
+- **Re-point convention `[ARCH]`:** an archived ID referenced by a live VX/FLOW row is tagged `ML-HEN-NNN[ARCH]` — still findable in KB_ARCHIVE.tsv, flagged not-live. Apply this whenever a future pass archives a load-bearing ID.
