@@ -12,11 +12,34 @@ State file for the docket-steward sub-agent. Spec is in [`KOYOMI.md`](KOYOMI.md)
 
 *Auto-populated by KOYOMI at run start: what's moved in STATUS / THESIS / TIMELINE / CHANGELOG since the previous sync. Cleared at end-of-run.*
 
-*(cleared at end of Run 5 — see LAST RUN below)*
+*(cleared at end of Run 6 — see LAST RUN below)*
 
 ---
 
 ## LAST RUN
+
+### Run 6 — 2026-06-04 (🚨 Sato primary-source verification + TSV chronological re-sort + May 28 prune; Opus 4.7)
+
+**Will-flagged load-bearing task: primary-source verify Sato claims propagated into docket Jun 4 AM (commit `079e46ca`) without source verification. Two-part: (1) DATE — Jun 30 vs Jun 16 (load-bearing — does Sato vote at Jun-16 MPM?); (2) CHARACTERIZATION — 4 sub-claims (name, affiliation, ideology, political alignment).**
+
+**Verification results — ALL CLEAR, no quarantine needed:**
+- ✅ **DATE — BOJ official:** Junko Nakagawa's term stated verbatim at `boj.or.jp/en/about/organization/policyboard/bm_nakagawa.htm` as "from June 30, 2021 to June 29, 2026." Successor takes seat Jun 30 2026. **Jun 30 date stands. Sato does NOT vote at Jun-16 MPM.** This is the load-bearing fact. CATALYSTS row 8 + CALENDAR L28 + STATUS BOJ-ASSESSMENT + THESIS L182/L213 all correct.
+- ✅ **"Ayano Sato"** — full name confirmed in Japan Times (`japantimes.co.jp/business/2026/02/25/economy/new-boj-board-members/`), Nikkei Asia, MarketScreener, Bloomberg.
+- ✅ **"Aoyama Gakuin University law professor"** — confirmed via Aoyama Gakuin official researcher profile (`raweb1.jm.aoyama.ac.jp/aguhp/KgApp/k03/resid/S000855?lang=en`): Faculty of Law, Department of Human Rights, Professor. The Feb-25 Bloomberg/Japan Times nomination piece described her as "professor at Aoyama Gakuin University" without specifying field; the law-faculty specificity is confirmed at the AGU primary source.
+- ✅ **"reflationist"** — explicitly stated in Japan Times Mar 19 piece ("Lower House OKs two reflationists as BOJ policymakers"), Bloomberg ("Takaichi's reflationist picks"), Nippon.com ("2 Reflationists Tapped"). Cross-source primary tier.
+- ✅ **"Takaichi appointee"** — confirmed across all sources; cabinet nomination + Diet confirmation track verified.
+
+**Structural fixes applied (low-risk per autonomy gradient):**
+- **CATALYSTS.tsv chronological re-sort:** Jun-09 SAM-21 row was at row 6 (after Jun-10 rows); Jun-30 Sato row was at row 8 (between Jun-16 BOJ MPM + Jun-16 BOJ QT). Stable sort by date column preserves intra-day pairings (BOJ MPM before BOJ QT, US CPI before JGB 30Y, Sato before JGB 2Y on Jun-30). Spec compliance: "Keep file date-sorted." Verified `catalyst_countdown.py` parses clean post-sort.
+- **CALENDAR.md May 28 prune:** Thu May 28 Tokyo CPI 7d old today (Jun 4), eligible per >1wk rule. Removed from RECENTLY RESOLVED. May 29 (6d) / May 30 (5d) / May 31 (4d) / Jun 2 (2d) retained. Updated pruning note from prior Jun 2 prune to Jun 4 prune.
+- **CALENDAR.md header refresh:** "Last Updated" → 2026-06-04 (Run 6 — verification + sort + prune).
+
+**Side-effect check (Will-flagged Item D — OS.1 closure dependency):** OS.1 close in MEMORY referenced "Sato characterization strengthens v1.5.1 path-MEDIUM conviction." All 4 characterization sub-claims now primary-source verified — OS.1 closure stands without caveat. No escalation to SAM needed on this leg.
+
+**Pruning (>1wk rule):** Pruned May 28 (7d). May 29-31 + Jun 2 retained. Next eligibility: May 29 turns 7d Jun 5.
+**Baseline audit:** No trigger fired this run. Monthly trigger fired Run 4 (Jun 2); next fire = first run of July. Per [[finding_subagent_baseline_audit]].
+**Runway:** 57 days to furthest event (BOJ Jul 31). 6 events in next 14d (Jun 6 CFTC, Jun 8 GDP, Jun 9 SAM-21, Jun 10 US CPI + JGB 30Y, Jun 16 BOJ + QT, Jun 17 FOMC, Jun 18 TB — high-traffic window in 12-13d).
+**Runtime:** ~6 min. catalyst_countdown.py runs clean post-edits.
 
 ### Run 5 — 2026-06-03 (light-touch narrative refresh + 3-candidate triage → SAM apply pass extended scope; Opus 4.7)
 
@@ -72,10 +95,11 @@ State file for the docket-steward sub-agent. Spec is in [`KOYOMI.md`](KOYOMI.md)
 
 ## PENDING (escalations SAM hasn't yet resolved)
 
-- **Phase 2 Watch section reframe** may be needed if MOU walks back this week (Trump-Khamenei reset → Brent collapse → Phase 2 re-engages). Pre-emptive flag from Run 3 escalation #2. SAM-domain trigger. *(Still pending Jun 3; no MOU walk-back observed; Brent up to $97.70 — moving the OTHER direction.)*
+- **Phase 2 Watch section reframe** may be needed if MOU walks back this week (Trump-Khamenei reset → Brent collapse → Phase 2 re-engages). Pre-emptive flag from Run 3 escalation #2. SAM-domain trigger. *(Still pending Jun 4; no MOU walk-back observed through Run 6; per session context Brent had 2nd down session Jun 3-4 but still elevated — not collapse-direction yet. Watch.)*
 - **Jul Tankan Q2 date (Jul 1)** — used cadence rule (1st business day of July; March Tankan released Apr 1 2026); could not find an explicit BOJ Tankan release-schedule page that confirms the date forward. Surface to SAM in case a closer-to-date check finds a different date. Non-blocking — directionally correct.
 - **NEW (Run 5) — SAM-internal mechanical-trigger TSV-scope precedent decision:** SAM-21 pre-registered a Jun-9 Polymarket re-check trigger ("if ≥90% AND no Takaichi pushback → mechanical +5pp to 75%"). This is date-driven and operationally critical (next-session boot must surface it Jun 9), but it's NOT a public release/policy event — it's a SAM-internal review trigger. **KOYOMI declined to auto-add to CATALYSTS.tsv** (would set new precedent: TSV currently holds only public dated catalysts). **SAM decision needed:** (a) add to TSV as new "internal-trigger" category (precedent — would need 1-2 sibling rows for form-consistency, e.g. SAM-26 mechanism re-checks); (b) keep in STATUS only, accept boot-surface risk; (c) add to CALENDAR narrative only (no TSV row, but human-readable surface). If (a), KOYOMI will retroactively pull other SAM-internal triggers from THESIS/STATUS to populate. *Default if undecided by next run: option (c) — KOYOMI adds a CALENDAR narrative row but not a TSV row.*
 - **NEW (Run 5) — MOF quarterly per-op intervention release date verification:** Per SAM PM session, MOF publishes per-op intervention breakdown quarterly at `mof.go.jp/english/policy/international_policy/reference/feio/quarterly/`. Apr-Jun 2026 ops breakdown should land ~early August (resolves ~¥1.95T residual classification — 70/30 slippage-vs-late-May-op prior). **Action next run:** fetch MOF feio/quarterly/ page, confirm convention (typical release day of month), add to TSV as 🟡 row with verified date. Watch-only — not urgent.
+- **NEW (Run 6, INFORMATIONAL — for SAM audit / clearable on next ack) — Sato verification provenance recorded:** All 5 claims (date + 4 characterization sub-claims) primary-source verified Jun 4. Sources: BOJ official Nakagawa page (date); Aoyama Gakuin researcher profile (law professor); Japan Times Feb 25 + Mar 19, Bloomberg Feb 24/25, Nikkei Asia, Nippon.com (reflationist + Takaichi pick). RELEASES.md "Confirmed dates" table NOT extended (RELEASES is recurring-cadence; one-off board-composition events don't fit its schema — flagging for SAM in case a board-composition section would help). No quarantine flags applied. OS.1 closure dependency (Will Item D) — clear, no caveat.
 
 ---
 
@@ -85,15 +109,16 @@ State file for the docket-steward sub-agent. Spec is in [`KOYOMI.md`](KOYOMI.md)
 - **Recurring weekly catalysts** (CFTC release Fri/Mon) — not in TSV (handled by `cftc_jpy.py` auto-pull). Surface if cadence changes. **Jun 6 release: first scheduled amplifier/residual gate under new METHOD framing** — CALENDAR PHASE 2 WATCH note updated Run 5; SAM should watch the gate-test outcome.
 - **Post-meeting catalyst-window refill** — after each major catalyst resolves, the forward horizon thins; pull next-month's events from RELEASES.md cadence rules.
 - **MOF auction calendar alteration page** — `auction/calendar/26MMae.htm` (e.g., 2606ae.htm) records mid-month tenor-band changes. Check at month boundary; current Jun 2026 alteration was a liquidity-enhancement tenor-band tweak (15.5-39 vs 11-39, then back), no date moves.
-- **SAM-internal review triggers (NEW Run 5):** SAM is increasingly pre-registering mechanical re-check triggers (Jun 9 Polymarket; SAM-26 mechanism re-test windows). Currently NONE in TSV; STATUS-only surface. Pending PENDING-item resolution on whether TSV scope extends to this class.
+- **SAM-internal review triggers (Run 5; resolved Jun 3 by Will, scope precedent now in KOYOMI.md):** TSV-scope extended to admit SAM-internal mechanical decision gates (`type=sam-internal`). Currently 2 rows: Jun 6 CFTC residual-gate + Jun 9 SAM-21 Polymarket re-check. Watch for additional candidates as SAM pre-registers more triggers (must meet DATE-SPECIFIC + ACTION-FORCING gates per precedent).
+- **BOJ board composition transitions (Run 6, new):** Sato Jun 30 row is the first board-composition transition in current docket window. Future class: term-expiries of other Policy Board members + corresponding successor seat-dates. RELEASES.md schema currently doesn't cover board-composition events (only recurring-cadence releases). Flag for SAM whether to extend RELEASES.md with a "Board composition transitions" section, or keep ad-hoc-with-verification-on-each-add. Next probable composition event: TBD (other Policy Board terms expire various 2026-2030 — would need separate baseline against BOJ page).
 
 ---
 
 ## NEXT RUN HINTS
 
-- **Jun 4 onward:** May 28 Tokyo-CPI row turns 7d (eligible for prune Jun 4). May 29-31 rows roll into eligibility Jun 5-7. Sequence the prune pass cleanly.
-- **Post-Jun-6 CFTC release:** first amplifier/residual gate-test under new METHOD framing. If CFTC prints stay shorter than -108K → 60% cycle-peak amplifier; if covers materially → residual gate. Update CALENDAR PHASE 2 WATCH outcome (narrative only — CFTC stays out of TSV).
-- **Jun 9 SAM-21 Polymarket mechanical re-check (next session SAM should surface):** if SAM has decided on TSV-scope precedent for internal-trigger rows (see PENDING), apply on this run. Otherwise add CALENDAR narrative note (default-(c) from PENDING) so the trigger has a docket surface.
+- **Jun 5 onward prune cadence:** May 29 (April activity) turns 7d Jun 5; May 30 (CFTC -114K) turns 7d Jun 6; May 31 (mkt-reprice) turns 7d Jun 7; Jun 2 JGB 10Y turns 7d Jun 9. Sequence the prune pass on each run as the wave rolls.
+- **Post-Jun-6 CFTC release:** first amplifier/residual gate-test under new METHOD framing. If CFTC prints stay shorter than -108K → 60% cycle-peak amplifier; if covers materially → residual gate. Update CALENDAR PHASE 2 WATCH outcome (narrative only — CFTC stays out of TSV). Also: Jun 6 CFTC TSV row resolves Sat; backfill to RECENTLY RESOLVED next run.
+- **Jun 9 SAM-21 Polymarket mechanical re-check:** resolves Tue. TSV row in place (sam-internal type); backfill to RECENTLY RESOLVED post-resolve. Outcome should also surface in STATUS BOJ ASSESSMENT.
 - **MOF feio/quarterly/ source check** — verify per-op intervention release date convention (target Apr-Jun 2026 ops breakdown, ~early August). Add as 🟡 TSV row once date pinned. URL: `mof.go.jp/english/policy/international_policy/reference/feio/quarterly/`.
 - **Post-Jun-10 30Y auction:** backfill result to CALENDAR RECENTLY RESOLVED (workbook auto-fetches via `jgb_auctions.py`). Critical row — direct SAM-26 mechanism test.
 - **Post-Jun-16 BOJ + Jun-17 FOMC resolution:** RECENTLY RESOLVED will fill heavily; prune pass + TIMELINE cross-check. Also expect TSV `Sato joins BOJ board` + `BOJ interim QT assessment` rows to resolve same day; mark and prune per >1wk rule.

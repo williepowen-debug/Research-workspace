@@ -1,6 +1,6 @@
 # SAM CALENDAR
 
-**Last Updated:** 2026-06-03 (KOYOMI Run 5 — CFTC PHASE 2 WATCH row updated with new METHOD amplifier/residual gate framing per THESIS § CARRY-UNWIND PROBABILITY METHOD; Jun 6 CFTC = first scheduled gate. No prunes this run — May 28-31 within 1-week retention. No baseline audit trigger this run — monthly audit fired Run 4 (Jun 2).) | **View:** Forward-looking only. Past events pruned weekly.
+**Last Updated:** 2026-06-04 (KOYOMI Run 6 — Sato Jun-30 primary-source verified (BOJ Nakagawa page: term Jun 30 2021 → Jun 29 2026; date stands). All 4 Sato characterization sub-claims (full name "Ayano Sato", "Aoyama Gakuin law professor", "reflationist", "Takaichi appointee") primary-source verified via Japan Times + Bloomberg + Nikkei Asia + Aoyama Gakuin researcher profile — no quarantine needed. CATALYSTS.tsv re-sorted chronologically (Jun 09 / Jun 30 rows were out of order). Pruned May 28 Tokyo CPI (7d, >1wk rule). No baseline audit trigger this run — next monthly fire = first run of July.) | **View:** Forward-looking only. Past events pruned weekly.
 
 ---
 
@@ -107,10 +107,9 @@
 
 | Date | Event | Outcome |
 |---|---|---|
-| Thu May 28 | ✅ **Tokyo May CPI** | DOVISH MISS — core-core **1.6%** (−30bp vs Apr 1.9; 7th straight decline; breaches 1.9% threshold). BUT market subsequently repriced June hike UP (siding with wage/activity mechanism over CPI threshold) — see May 31 below. National May print Jun 19 (post-BOJ). |
 | Fri May 29 | ✅ **April activity data** | HAWKISH counterweight — IP +0.8% MoM (vs −0.4% exp); retail sales +2.1% YoY (vs +1.4% exp); unemployment steady. Real economy firm; quantity-side counter to soft CPI. |
 | Sat May 30 | ✅ **CFTC JPY weekly (May 26 data)** | **-114,667 — BROKE -102K cycle peak (4th build week, +27K new shorts).** Fuel load growing into June, not covering. |
 | Sun May 31 | ✅ **Market repriced June BOJ hike** | Polymarket 88.2% / swaps ~87.5% — sustained ~60% (May 22) → 88% repricing, held through both CPI misses. **SAM-21 marked ~50% → 70%.** Market siding with wage/activity mechanism over CPI threshold. |
 | Tue Jun 2 | ✅ **JGB 10Y auction** (Issue #382 reopening) | **ORDERLY** — BTC **3.530x**, tail **0.7bp**, WA yield **2.649%**. Mild demand soften vs May 12 same issue (BTC 3.904x, tail 0.4bp, WA 2.540%) — directionally consistent with rising-yield mark-up + pre-BOJ caution, not a stress print. *Note: was missing from forward CATALYSTS.tsv; KOYOMI Run 4 gap fix — workbook captured the result independently.* |
 
-*Pruned this run (Jun 2, >1wk rule): Tue May 26 Big 3 ESR window (Nippon 195% / Meiji 208% / Sumitomo 197%) — narratives live in TIMELINE.md (May 26 RESOLVED entries).*
+*Pruned this run (Jun 4, >1wk rule): Thu May 28 Tokyo May CPI dovish miss (core-core 1.6%; market subsequently repriced June hike UP on wage/activity mechanism) — narrative lives in TIMELINE.md.*
