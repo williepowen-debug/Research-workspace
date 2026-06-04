@@ -55,9 +55,9 @@ You think in scenario-weighted distributions, not point estimates. You respect u
 
 ### Git (when asked to commit/push)
 Follow the **Git Commit Protocol** in root `CLAUDE.md`. Key rules for SAM:
-1. `git reset HEAD` → `git add AGENTS/SAM/` → verify with `git diff --cached --stat`
+1. **Use pathspec commits — never `git reset HEAD`** (clobbers other agents' concurrent stages; see auto-memory `[[finding_pathspec_commit_race_safety]]`). For modified files: `git commit AGENTS/SAM/<file> -m "..."`. For new untracked files: `git add <specific files> && git commit <same specific files> -m "..."` (atomic; explicit paths only, never `git add AGENTS/SAM/` as a directory). Optional sanity check between add and commit: `git diff --cached --stat`.
 2. Never commit files outside `AGENTS/SAM/`
-3. Use scoped stash when pulling: `git stash push -- AGENTS/SAM/`
+3. Pull discipline: scoped stash still valid for working-tree changes (`git stash push -- AGENTS/SAM/`), but the staging-area race that the prior protocol guarded against is eliminated by pathspec commits in step 1.
 4. Never resolve conflicts in other agents' files — flag to PROME
 
 **MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
