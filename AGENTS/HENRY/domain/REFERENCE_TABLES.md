@@ -36,3 +36,23 @@ Risk parity deleverages     → T+5 to T+30
 - **LABOR → HENRY:** Claims >300K = fundamental trigger → gamma test of Put Wall
 - **HENRY → CARL:** SPX -10%+ → Reverse Wealth Effect → spending pullback. SBC amplifies to $19-26T wealth destruction.
 - **SAM → HENRY:** Yen appreciation = carry unwind = Aug 2024 playbook
+
+## SENTIMENT REVERSAL FRAMEWORK (3-pillar)
+*Reusable structure from KB ML-HEN-021 (Jan'26); read the pillars, pull live readings — don't cite the archived Jan levels.*
+
+| Pillar | What to read | Reversal-risk signature |
+|--------|--------------|-------------------------|
+| 1. Positioning | AAII / NAAIM allocation | Fully-invested both = exhausted upside |
+| 2. Structural leverage | FINRA margin debt + retail options share | Record margin + high 0DTE/retail = fragile |
+| 3. Smart-money distribution | Insider sell/buy ratio | >3σ from ~2-3:1 norm = distribution phase |
+
+## SENTIMENT / FLOW DATA SOURCES (release cadence)
+*From KB ML-HEN-025 (Jan'26). Where to pull each input.*
+
+| Source | Cadence | Source | Cadence |
+|--------|---------|--------|---------|
+| AAII | Thu | ICI fund flows | Wed |
+| Investors Intelligence | Wed | OCC options | Daily |
+| CNN Fear & Greed | Real-time | Fintel insiders | Daily |
+| NAAIM | Thu | NASDAQ short interest | Bi-monthly |
+| FINRA margin | Monthly | | |

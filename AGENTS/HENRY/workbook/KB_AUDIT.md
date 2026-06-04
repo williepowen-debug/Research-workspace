@@ -42,8 +42,9 @@ Reference map originally built by Prome/3rd-party LLM; **independently reproduce
 
 | Pass | Scope | ~Rows | Status |
 |------|-------|-------|--------|
-| **0** | Status-flagged-non-live AND leaf (safe 12) | 12 | ▶ executing 6/3 |
-| **1** | Jan 2026 (+ held 067/132 re-point) | 36 | pending |
+| **0** | Status-flagged-non-live AND leaf (safe 12) | 12 | ✅ done 6/3 (KB 136→124) |
+| **1** | Jan 2026 — process/wrapper/resolved-PIT (14 archived, 17 kept) | 31 | ✅ done 6/3 (KB 124→110) |
+| **1.5** | Re-point + archive held 067/132 (deferred from Pass-1; no Jan dependency) | 2 | pending |
 | **2** | Feb 2026 | 27 | pending |
 | **3a** | Mar 1-12 | ~35 | pending |
 | **3b** | Mar 13-31 | ~25 | pending |
@@ -71,3 +72,11 @@ All status-flagged-non-live by a prior HENRY AND leaf (0 inbound) AND referenced
 | 061 | DUPLICATE | STRUCTURE | 115+ blowups (dup of 059) |
 | 070 | SUPERSEDED | CREDIT | REGINALD HY OAS 335-355 cross-agent trigger |
 | 076 | RESOLVED | MACRO | ADP/ISM Feb pending (Mar 4 releases) |
+
+## PASS 1 — January (done 2026-06-03)
+
+Session-001 "Loaded Machine" foundational rows. Framing evolved (→split-axis) but structural substrate persists → kept the durable facts, archived scaffolding/wrappers/resolved-point-in-time. All 14 archived = leaf (verified 0 inbound). 4 protected Jan IDs (002/003/004/032) all KEPT.
+
+**Archived (14):** 001 010 011 (process/wrappers) · 016 (superseded by VX) · 017 026 034 (wrappers) · 019 (ZBT played-out) · 022 035 036 (resolved point-in-time) · 021 023 025 (Jan sentiment snapshots).
+**Reusable bits salvaged before archive:** 021 3-pillar sentiment-reversal framework + 025 data-source cadence list → folded into `domain/REFERENCE_TABLES.md` (not pure-dropped).
+**Kept (17):** 002🔒 003🔒 004🔒 005 012 013 014 015 018 024 027 028 029 030 031 032🔒 033 — durable substrate (concentration/0DTE/passive/private-credit/structural-bid/methodology). Some numbers stale → flagged for a later numbers-refresh pass. **031 kept this pass**, pending end-of-arc merge into 027.
