@@ -7,7 +7,7 @@
 
 **Regime:** Public credit and vol remain calm while stress persists in Japan/FX, energy, BDC/private-credit marks, and duration. Current read is **divergence**, not confirmed public-credit/vol transmission.
 
-**Live dashboard anchor, Jun 4 ~17:30 ET:** HY OAS **275bps [FRED 6/3 close]** 🟢, CCC OAS **947bps [FRED 6/3 close]** 🟡, VIX **15.40** 🟢, Brent **$95.14** 🟡, USD/JPY **160.01** 🔴, BIZD **$12.70** 🔴, TLT **$85.50** 🟡. `HEARTBEAT.md` still carries Jun 2 root levels and should be refreshed separately if injected state needs to be fully current.
+**Live dashboard anchor, Jun 4 ~17:45 ET:** HY OAS **275bps [FRED 6/3 close]** 🟢, CCC OAS **947bps [FRED 6/3 close]** 🟡, VIX **15.40** 🟢, Brent **$95.14** 🟡, USD/JPY **160.00** 🔴, BIZD **$12.70** 🔴, TLT **$85.50** 🟡. `HEARTBEAT.md` has been refreshed with this root state.
 
 ---
 
@@ -20,7 +20,7 @@
 | Prome boot-surface rehab | ✅ Pushed | Jun 2 rehab package committed/pushed. |
 | WALTER Iran-anchor refresh | ✅ Landed | WALTER refreshed to narrative-fork + kinetic-acceleration frame. |
 | SENTRY scheduled feed pushes | ✅ Disabled | Manual `workflow_dispatch` preserved; twice-daily master churn stopped. |
-| HEARTBEAT refresh | ✅ Pushed | Root heartbeat now reflects Jun 2 regime/levels. |
+| HEARTBEAT refresh | ✅ Pushed | Root heartbeat now reflects Jun 4 regime/levels. |
 | GitHub source-of-truth rule | ✅ Active | Local edits remain subordinate until explicitly committed/pushed. |
 
 ---
@@ -34,7 +34,7 @@
 | `PROME/STATUS.md` | ✅ Current | This file. |
 | `PROME/FLEET_SCAN.md` | ✅ Current | Rewritten Jun 4 as bounded post-pull scan. |
 | `PROME/ACTIVE_DECISIONS.md` | ✅ Current safety index | HENRY Jun 3 TLT supersession ingested; old 5/22 roll ticket no longer actionable. |
-| `HEARTBEAT.md` | 🟡 Stale-ish | Refreshed Jun 2; regime still directionally consistent, but Jun 4 levels/claims/pathspec/TLT updates are not reflected. Refresh next if injected root state matters. |
+| `HEARTBEAT.md` | ✅ Current | Refreshed Jun 4 with live levels, TLT supersession, pathspec migration, and root pending items. |
 | `PROME/CLAUDE_CODE_HANDOFF.md` | Historical | Useful audit trail, not current boot state. |
 
 ---
@@ -72,10 +72,10 @@
 | Disable SENTRY scheduled pushes | ✅ | Completed; stops twice-daily master churn. |
 | Integrate WALTER Jun 2 frame | ✅ | Prome surfaces now carry narrative-fork + kinetic-acceleration caveat. |
 | Add fresh OpenClaw handoff | ✅ | `PROME/HANDOFF.md` has Jun 2 top block. |
-| Refresh HEARTBEAT | ✅ | Completed with Jun 2 live dashboard. |
+| Refresh HEARTBEAT | ✅ | Refreshed Jun 4 with live dashboard/root state. |
 | Ingest HENRY TLT supersession | ✅ | Old 5/22 TLT roll ticket superseded by Jun 3 Will/HENRY handling. |
 | Track pathspec migration | 🟠 | Tracker created; Prome/SAM done; remaining owners pending. |
-| Refresh root HEARTBEAT | 🟠 | Next optional lane; Jun 2 root levels are stale though regime is directionally consistent. |
+| Refresh root HEARTBEAT | ✅ | Completed Jun 4. |
 | Reconcile old trade rails / fills | 🟠 | Deferred per Will; non-TLT rails remain verification-required, not actionable. |
 | Decide HEARTBEAT cadence / ownership | 🟠 | Open design decision for next operating pass. |
 
@@ -95,4 +95,4 @@
 
 ## Next Best Action
 
-Verify and commit the Jun 4 boot-surface refresh. Next recommended lane after that: refresh root `HEARTBEAT.md`, unless Will pivots to position reconciliation.
+Verify and commit the Jun 4 root HEARTBEAT refresh. Next recommended lane: decide whether to coordinate remaining pathspec owner edits or pause cleanup before position reconciliation.
