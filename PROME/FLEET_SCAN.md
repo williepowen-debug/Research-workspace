@@ -29,7 +29,7 @@ The read remains **substance/tape divergence**. Stress channels are active, but 
 | **Labor** | Initial claims 225k [5/30], shadow-adjusted 280k. | LABOR channel deteriorated to yellow; not headline break yet. |
 | **Duration** | TLT 85.50, 10Y 4.46 [6/2]. | TLT Jun $85P salvage is near-the-money; Sep add still CPI-gated. |
 | **Banks** | WAL/KRE green, OZK yellow. | Bank tape not confirming bear acceleration. |
-| **Root HEARTBEAT** | Still Jun 2. | Should be refreshed separately if injected state must be fully current. |
+| **Root HEARTBEAT** | Refreshed Jun 4. | Injected root state now matches Jun 4 dashboard and Prome signal updates. |
 
 ---
 
@@ -43,7 +43,7 @@ The read remains **substance/tape divergence**. Stress channels are active, but 
 | `PROME/FLEET_SCAN.md` | ✅ Current Jun 4 | This file. |
 | `PROME/ACTIVE_DECISIONS.md` | ✅ Current | TLT supersession ingested; non-TLT old rails still verification-required. |
 | `PROME/PATHSPEC_MIGRATION_STATUS.md` | ✅ Current | Tracks owner migration of risky commit protocols. |
-| `HEARTBEAT.md` | 🟡 Jun 2 | Directionally consistent, but stale levels; refresh next if desired. |
+| `HEARTBEAT.md` | ✅ Jun 4 | Refreshed with live dashboard, TLT supersession, and pathspec migration state. |
 | `PROME/HANDOFF.md` | 🟡 Jun 2 top block | Fine for recent continuity; refresh on closeout or before clear/new. |
 
 ---
@@ -70,14 +70,14 @@ The read remains **substance/tape divergence**. Stress channels are active, but 
 2. **TLT language is now split by expiry.** Jun $85P = salvage catalyst bet; Sep add = CPI-gated. Don't blend them.
 3. **Pathspec migration is operationally load-bearing.** The shared `.git/index` race is real; broad reset/stage patterns are unsafe.
 4. **Owner isolation matters.** Prome tracks other agents' CLAUDE.md migrations but should not bulk-edit their files without Will override.
-5. **HEARTBEAT is the next stale injected surface.** If the goal is fully clean boot context, root `HEARTBEAT.md` should be the next refresh.
+5. **HEARTBEAT is no longer the stale injected surface.** Remaining cleanup should be pathspec-owner coordination or position reconciliation, not root-state refresh.
 
 ---
 
 ## 5. Top 5 Operational Moves
 
 1. ✅ **Finish Prome boot refresh** — update SCRATCH/TODAY/STATUS/FLEET_SCAN and commit.
-2. 🟠 **Refresh root HEARTBEAT** — Jun 2 levels are stale; live regime is similar but USD/JPY/claims/TLT moved.
+2. ✅ **Refresh root HEARTBEAT** — completed Jun 4; injected state is current.
 3. 🟠 **Coordinate pathspec migration** — keep tracker current as agents fix own CLAUDE.md files.
 4. 🟡 **Read current BROCK only if PC/BDC decision becomes live** — Jun 4 updates matter, but don't absorb by default.
 5. 🟡 **Position-state reconciliation** — separate future task; required before old 6/18 non-TLT rails can be used.
@@ -88,7 +88,7 @@ The read remains **substance/tape divergence**. Stress channels are active, but 
 
 - No broker/fill reconciliation performed; intentionally deferred.
 - No deep read of all Jun 3-4 domain commits; this is a boot scan, not a research pass.
-- `HEARTBEAT.md` still needs root-level refresh if Will wants injected state current.
+- `HEARTBEAT.md` is current as of Jun 4; no root-state refresh gap remains.
 
 ---
 
@@ -97,4 +97,4 @@ The read remains **substance/tape divergence**. Stress channels are active, but 
 After this file is written:
 1. Inspect diff for `SCRATCH`, `TODAY`, `STATUS`, `FLEET_SCAN`.
 2. Commit explicit paths only.
-3. Next recommended lane: root `HEARTBEAT.md` refresh, unless Will pivots to positions.
+3. Next recommended lane: pathspec owner coordination, unless Will pivots to positions.

@@ -14,7 +14,7 @@
 | 🔴 | Ingest HENRY TLT supersession | ✅ Done — `PROME/ACTIVE_DECISIONS.md` updated. |
 | 🔴 | Ingest SAM pathspec migration audit | ✅ Done — tracker created; Prome self-fix done. |
 | 🔴 | Refresh stale Jun 2 boot surfaces | In progress — `SCRATCH`, `TODAY`, `STATUS`, `FLEET_SCAN`. |
-| 🟠 | Refresh root `HEARTBEAT.md` | Next optional lane; still Jun 2 injected root state. |
+| 🟠 | Refresh root `HEARTBEAT.md` | ✅ Done — refreshed Jun 4 with live dashboard/root state. |
 | 🟠 | Position-state reconciliation | Deferred; separate pass only. |
 | 🟡 | Per-agent pathspec migrations | Tracker live; owner edits pending for BRENT/HENRY/MARCO/OTTO/OZK/VIOLET/WALTER. |
 
@@ -75,7 +75,6 @@ Dashboard summary remains: elevated but not cascade.
 
 ## Pending After Boot Refresh
 
-1. Verify and commit this boot refresh.
-2. Optional next: refresh root `HEARTBEAT.md` with Jun 4 dashboard and Jun 3-4 operational notes.
-3. Optional next: coordinate pathspec migration owners.
-4. Separate later: position-state reconciliation.
+1. Verify and commit root `HEARTBEAT.md` refresh.
+2. Optional next: coordinate pathspec migration owners.
+3. Separate later: position-state reconciliation.
