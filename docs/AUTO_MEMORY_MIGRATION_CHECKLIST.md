@@ -48,7 +48,7 @@ bash scripts/link_automemory.sh --apply   # backs up first, then links
 
 ## 2. Load-bearing test (desktop only, BEFORE the laptop)
 
-This is the one test that proves Claude itself writes through the symlink.
+This is the one test that proves the harness itself writes through the symlink.
 
 ```bash
 # In a NEW Claude session, say:  "Remember: testing auto-memory symlink on <date>."
@@ -65,7 +65,7 @@ git status memory/auto/
 
 ## 3. Desktop — finalize (only if the test passed)
 
-Let Claude keep curating `MEMORY.md` — no hook, no generator.
+Let the harness keep curating `MEMORY.md` — no hook, no generator.
 
 ```bash
 git add memory/auto
@@ -95,8 +95,9 @@ bash scripts/link_automemory.sh --apply
 ls memory/auto/*.conflict-*.md
 #   For each: diff it against the original, fold any laptop-side additions into the
 #   original (append-don't-rewrite), then delete the .conflict file.
-#   NOTE: MEMORY.md may itself be a collision — if so, keep BOTH machines' index
-#   entries (it's Claude's curated index; don't regenerate it).
+#   NOTE: MEMORY.md may itself be a collision — if so, keep BOTH machines'
+#   entries, then dedup any duplicate pointers to the same topic file. It's the
+#   harness's curated index; don't regenerate it.
 
 git add memory/auto
 git diff --cached --stat                  # VERIFY: only memory/auto/* staged
@@ -110,8 +111,10 @@ git pull --rebase && git push
 
 ```text
 # Read the proposed wording: docs/AUTO_MEMORY.md (last section). Decide:
-#   (a) any Claude session may write?        Recommended: YES
+#   (a) any agent session may write?         Recommended: YES
 #   (b) self-commit vs PROME-gate?           Recommended: SELF-COMMIT
+#   (c) scope-lock: permission applies to memory/auto/ ONLY, not a precedent
+#       for other shared dirs (HEARTBEAT/FORGE keep the flag-to-Prome rule).
 # Add the carve-out paragraph under "Git Protocol" in CLAUDE.md (or route via PROME).
 # Commit: "carve-out: memory/auto/ shared-zone permission"
 ```
