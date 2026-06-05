@@ -42,11 +42,15 @@ HY OAS **275🟢** [FRED 6/3] · CCC **947🟡** [FRED 6/3] · 10Y **4.46🟡** 
 | Initial claims | <220k | 220-245k | >245k | **225k🟡 [5/30]**; shadow est **280k** |
 | Continuing claims | <1.80M | 1.80-1.90M | >1.90M | **1.777M🟢 [5/23]** |
 
+## HEARTBEAT Cadence / Ownership
+
+**Approved Jun 4:** Prome owns `HEARTBEAT.md`. Update it after Prome boot-surface refreshes, regime-level changes, major decision-rail changes, or when it is >48h stale during the market week. Do **not** update daily by default just for hygiene.
+
 ## Blocking / Pending
 
 | Pri | Decision / Work | Reference |
 |---|---|---|
-| 🔴 | **HEARTBEAT cadence / ownership** — root heartbeat is current as of Jun 4, but cadence is still undecided: daily, regime-change only, or after Prome boot refreshes. | this file + `PROME/STATUS.md` |
+| ✅ | **HEARTBEAT cadence / ownership** — approved Jun 4. Prome owns updates after boot refreshes, regime changes, major decision-rail changes, or >48h stale during market week; not daily by default. | this file + `PROME/STATUS.md` |
 | 🟠 | **Pathspec migration** — shared-repo race risk is real. Prome/SAM fixed; BRENT/HENRY/MARCO/OTTO/OZK/VIOLET/WALTER owner edits remain pending. | `PROME/PATHSPEC_MIGRATION_STATUS.md` |
 | 🟠 | **TLT supersession / CPI gate** — May 22 TLT roll ticket is superseded. Jun $85P are Will-handled catalyst salvage; Sep add waits for CPI confirmation. | `PROME/ACTIVE_DECISIONS.md` + `AGENTS/HENRY/outbox/2026-06-03_to-PROME_tlt-ticket-superseded.md` |
 | 🟠 | **Old trade rails / non-TLT 6-18 cluster** — remaining May 22-26 `BROKER_PENDING` / trigger language is **verification-required**, not actionable, until broker/Will reconciliation. | `PROME/ACTIVE_DECISIONS.md` |
