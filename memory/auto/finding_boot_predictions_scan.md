@@ -1,0 +1,18 @@
+---
+name: finding_boot_predictions_scan
+description: A cheap boot-time PREDICTIONS due/stale scan catches silently-stale OPEN predictions; caught a 24d-stale MISS on first run. Transferable to any agent with a predictions TSV.
+metadata: 
+  node_type: memory
+  type: finding
+  originSessionId: 174a243e-dc85-4d83-9d85-8b4c005482cf
+---
+
+Adding a boot-time "PREDICTIONS due/stale check" step catches the silent failure where reality resolved a prediction weeks ago but the TSV still says OPEN. Added to CARL SPAWN PROTOCOL as step 7 (2026-05-29), borrowed as the cheap half of SAM's boot calibration discipline — no script, just a one-liner + human eyeball.
+
+**The step:** list OPEN predictions + their timeframe, eyeball each timeframe against today, resolve/re-arm/push-with-reason anything whose window has passed. Helper: `awk -F'\t' 'NR>1 && $6=="OPEN"{print $1"\t"$5"\t"$4}' thesis/PREDICTIONS.tsv` (ID / Timeframe / Confidence). Timeframes are free-text ("Q2 2026", "FY27") so the date call is a human eyeball, not automated. Self-suppresses when nothing's due.
+
+**Why it matters:** on its very first run it caught CARL CRL-09 sitting OPEN-stale 24 days — JOLTS Mar ratio came in 0.95 vs predicted <0.88 (a MISS, direction-wrong, released May 5). Without the scan, the win (CRL-18 CONFIRMED same session) gets logged but the loss silently rots → calibration record skews optimistic. Logging misses the same session as confirms is the whole point.
+
+**How to apply:** any agent with a predictions/forecast TSV (REGINALD, BROCK, HENRY, SAM has it already) should run a due/stale scan at boot. Pairs with [[finding_threshold_vs_mechanism]] — when resolving, separate "threshold stuck/breached" from "mechanism intact" (CRL-08 re-armed not MISS; CRL-09 was a true threshold miss but V16 mechanism held via other legs). Don't build the full calibration-scoreboard preamble unless prediction volume/error-rate justifies it — the cheap scan is most of the value.
+
+**Bigger sibling — the catalyst docket (built for CARL 2026-05-29).** The deeper boot weakness was forward CATALYST drift: dated events hand-maintained across 4 surfaces (ROADMAP awaiting-data, STATUS danger-window, STATUS exit-rules line, EARNINGS_WATCH) that silently decay — caused a confident-wrong ("Apr PCE ~May 30" when it had printed 5/28). Fix = adopt SAM's docket pattern: one machine-readable `docket/CATALYSTS.tsv` (SAM's 7-col: date/event/what_to_check/threshold_signal/priority/who_cares/notes) as SINGLE SOURCE OF TRUTH + `docket/CALENDAR.md` human twin + `scripts/docket_countdown.py` (calendar-day countdown that ALSO flags past-dated-still-present rows as "released, integrate & prune" — the silent-miss catch). Boot reads it (step 7a); write-back prunes fired rows. **The make-or-break rule: it must CONSOLIDATE, not add a 5th list** — migrate the scattered date-lists into the docket and replace them with pointers, else drift gets worse. Adapt to domain: CARL counts down to known dates only (no auto-fetch like SAM's boot.py — CARL's BLS/BEA/Census/court/earnings sources don't generalize). Transferable to REGINALD/BROCK/HENRY (same prose-catalyst-drift). Don't add a KOYOMI-style steward sub-agent unless catalyst churn is high (SAM needs it for JGB auctions; CARL's monthly cadence doesn't).
