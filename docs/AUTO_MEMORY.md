@@ -29,19 +29,34 @@ documented, supported pattern — not a hack.
 > directory itself* is symlinked) does **not** apply here: the repo cwd is a
 > real directory; only the `memory/` subdir is symlinked.
 
+## Before you start — pre-flight
+
+1. **Close all Claude sessions on both machines.** The migration moves and
+   re-links the memory dir; a live session writing mid-migration can race it.
+   (`link_automemory.sh` refuses to `--apply` if it sees a running `claude`
+   process; `--force` overrides.)
+2. **Count files on each machine** so you know the divergence you're merging:
+   ```bash
+   ls ~/.claude/projects/<slug>/memory/*.md | wc -l
+   ```
+   If desktop = 80 and laptop = 60, expect ~20 laptop-only files to capture plus
+   possibly some files edited on both. **Budget ~30 min for the second-machine
+   reconciliation** — that's the highest-friction step.
+
 ## One-time setup, per machine
 
-Run on the **desktop first**, then the **laptop**. The script is dry-run by
-default and changes nothing until you pass `--apply`.
+Run on the **desktop first**, then the **laptop**. Dry-run by default; nothing
+changes until `--apply`.
 
 ```bash
-# 1. From inside the repo, preview what will happen:
+# 1. Preview (safe, changes nothing):
 bash scripts/link_automemory.sh
 
-# 2. If the plan looks right, apply it:
+# 2. Apply (backs up first, then re-links):
 bash scripts/link_automemory.sh --apply
 
-# 3. Refresh the lean index and commit the captured memory:
+# 3. Install the index-regen hook, refresh the index, commit:
+bash scripts/install_automemory_hook.sh
 python3 scripts/gen_automemory_index.py
 git add memory/auto
 git commit -m "auto-memory: capture from <machine>"
@@ -49,82 +64,133 @@ git pull --rebase && git push
 ```
 
 On the **second machine**, `git pull` first so the store already holds the first
-machine's memories; the script then folds in the second machine's local
-memories on top.
+machine's memories; the script then folds in this machine's local memories on
+top, copying any genuinely-different same-named file aside as
+`*.conflict-<host>-<ts>.md` for you to merge by hand.
 
 What `--apply` does, safely:
 - **Backs up** the existing harness dir to
   `~/.claude/automemory-migration-backup-<host>-<ts>/` before touching anything.
 - **Captures** every local memory file not already in the store.
 - **Never overwrites**: a same-named file whose contents differ is copied aside
-  as `*.conflict-<host>-<ts>.md` and reported, so you merge it by hand.
-- Replaces the dir with the symlink and verifies it reads through.
+  and reported.
+- Replaces the dir with the symlink, then verifies both a **read** and a
+  filesystem-level **write** through the link.
+
+### Verifying the write path (the load-bearing assumption)
+
+The script's write check only proves the *OS* follows the symlink — not that
+*Claude Code* writes through it. Do the real test once after the first
+`--apply`:
+
+> Start a Claude session, have it save a test memory, then run `git status`.
+> The new file should appear under `memory/auto/`. If it does, the write path
+> works end-to-end. If not, switch to the fallback below.
 
 ### Verifying the slug
 
 The `<slug>` is the repo's absolute path with `/` → `-` (so
 `/home/willi/Research-workspace` → `-home-willi-Research-workspace`). The script
-derives it automatically, but if the printed `harness:` path doesn't match a dir
-that already exists, run `ls ~/.claude/projects/` to confirm the exact slug for
-that machine (usernames/paths can differ between desktop and laptop).
+derives it automatically; if the printed `harness:` path doesn't match an
+existing dir, run `ls ~/.claude/projects/` to confirm the exact slug (usernames
+/ paths can differ between machines).
 
 ## Working with two machines simultaneously
 
-You said agents sometimes run on both machines at once, so the rules are built to
-make conflicts rare and trivial to resolve:
+You sometimes run agents on both machines at once, so the rules keep conflicts
+rare and trivial:
 
-1. **New memory = new file.** A new `feedback_*/finding_*/project_*.md` with a
-   stable, semantic name. Two machines almost never create the *same* new
-   filename at the same instant; if they do, it's an ordinary git conflict.
+1. **New memory = new file** with a stable, semantic name. Two machines almost
+   never create the *same* new filename at the same instant; if they do, it's an
+   ordinary git conflict.
 2. **Editing an existing memory = append, don't rewrite.** Add a dated bullet
    (e.g. "**+ 2026-06-05 (BRENT):** new corroborating case …") rather than
-   reflowing the file. Appends at different points auto-merge; only same-line
-   rewrites conflict.
-3. **Never hand-edit `MEMORY.md`.** It is generated. If git ever flags a
-   conflict on it, take either side and just re-run
-   `python3 scripts/gen_automemory_index.py` — the output is deterministic from
-   the topic files present.
-4. **Standard git discipline still applies:** `git pull --rebase` before push
-   (already the repo protocol). Memory additions are append-only by design, so
-   rebases land cleanly in the common case.
+   reflowing the file. Appends at different points auto-merge.
+3. **Never hand-edit `MEMORY.md`.** It is generated. On any conflict, take
+   either side and re-run `python3 scripts/gen_automemory_index.py` — output is
+   deterministic from the topic files present.
+4. **`git pull --rebase` before push** (already the repo protocol).
 
-## Why the index is generated and must stay lean
+**Failure mode to know:** if both machines edit the **same memory file body**
+before either pushes (rare — e.g. you start on desktop, move to laptop, both
+touch the same file), git will flag a normal merge conflict *inside that file*
+on push. Resolution is manual: open the file, resolve the `<<<<<<<` markers,
+re-commit. The append-don't-rewrite rule (#2) makes this nearly never happen.
 
-Claude Code loads only the **first ~200 lines / 25 KB of `MEMORY.md`** at boot;
-topic files are read on demand. So `MEMORY.md` is a terse one-line-per-entry
-index produced by `scripts/gen_automemory_index.py`. The generator warns if the
-index approaches the load cap — that's your signal to consolidate or retire
-low-value entries.
+## Keeping the index in sync (don't let drift sneak back)
+
+`MEMORY.md` is the lean, **always-loaded** index — Claude loads only the first
+~200 lines / 25 KB at boot; topic files load on demand. It is **generated** by
+`scripts/gen_automemory_index.py`, which prefers a YAML frontmatter
+`description:` field per memory and falls back to the file's first line:
+
+```markdown
+---
+description: Watch the transmission channel, not the standalone CCC threshold.
+---
+# finding_threshold_vs_mechanism
+...
+```
+
+To stop the index drifting from the topic files, `install_automemory_hook.sh`
+installs a **pre-commit hook** that regenerates and re-stages `MEMORY.md`
+whenever a `feedback_*/finding_*/project_*` file is part of the commit. Run the
+installer once per machine (hooks live in `.git/hooks`, which isn't version
+controlled). The generator also **warns** when the index nears the load cap —
+your cue to consolidate or retire low-value entries.
 
 ## Existing references keep working
 
-~30 agent docs cite memories via the harness path
-`~/.claude/projects/-home-willi-Research-workspace/memory/` and via `[[wikilink]]`
+~30 agent docs cite memories via the harness path and via `[[wikilink]]`
 markers. After symlinking, that path still resolves (it's now the symlink) and
 the wikilinks still name real files, so **no agent docs need editing**.
 
-## Troubleshooting / fallback
+## Fallback (designed and ready, not deployed)
 
-- **Harness recreates a real `memory/` dir over the symlink on boot.** If a
-  future Claude Code version does this (it currently doesn't), switch to the
-  hook-based variant: a `SessionStart` hook copies `memory/auto/` → harness path,
-  a `Stop` hook copies back and commits. Same git-sync outcome without a symlink.
-- **A configurable memory location** is an open Claude Code feature request
-  (anthropics/claude-code#28276). If it ships, point it straight at
-  `<repo>/memory/auto` and drop the symlink.
+If a future Claude Code version stops following the symlinked memory dir, switch
+to hook-based sync — **do not run it alongside the symlink; pick one.** Scripts
+are in `scripts/fallback/`:
 
-## Proposed root `CLAUDE.md` amendment (needs Will's review)
+- `session_start_sync.sh` — SessionStart hook: pull, then mirror repo → harness.
+- `stop_sync.sh` — Stop hook: mirror harness → repo, regen index, commit & push.
+
+Wire them in `.claude/settings.json`:
+
+```json
+{
+  "hooks": {
+    "SessionStart": [{ "hooks": [{ "type": "command", "command": "bash scripts/fallback/session_start_sync.sh" }] }],
+    "Stop":         [{ "hooks": [{ "type": "command", "command": "bash scripts/fallback/stop_sync.sh" }] }]
+  }
+}
+```
+
+A configurable memory location is also an open Claude Code feature request
+(anthropics/claude-code#28276). If it ships, point it at `<repo>/memory/auto`
+and drop the symlink.
+
+## Proposed root `CLAUDE.md` amendment (needs Will / Prome review)
 
 The root git protocol says agents `git add` only their own `AGENTS/<NAME>/` dir
 and flag shared files to Prome. `memory/auto/` is a new shared, **append-only**
-zone, so it needs an explicit carve-out. Suggested wording to add under "Git
-Protocol":
+zone, so it needs an explicit carve-out. Two sub-decisions for the wording:
+
+- **Who writes?** Auto-memory is harness-level, not agent-scoped, so **any
+  Claude Code session** should be allowed to add memory files — not just one
+  agent.
+- **Self-commit vs flag-to-Prome?** Recommend **self-commit-permitted**:
+  routing every memory write through a Prome approval-gate would defeat the
+  point of auto-memory. (Prome can stay aware via the heartbeat.)
+
+Suggested wording to add under "Git Protocol":
 
 > **Auto-memory (`memory/auto/`)** is a shared, append-only zone, git-synced via
-> a per-machine symlink (see `docs/AUTO_MEMORY.md`). Any agent may `git add`
-> auto-memory files **it created or appended to**. Never hand-edit `MEMORY.md`
-> (generated — re-run `scripts/gen_automemory_index.py`). Prefer new files over
-> rewrites; append dated bullets when adding to an existing memory.
+> a per-machine symlink (see `docs/AUTO_MEMORY.md`). **Any** Claude Code session
+> may `git add` and self-commit auto-memory files it created or appended to — no
+> Prome approval-gate. Never hand-edit `MEMORY.md` (generated — re-run
+> `scripts/gen_automemory_index.py`, which the pre-commit hook does for you).
+> Prefer new files over rewrites; append dated bullets when adding to an
+> existing memory.
 
 I did not edit `CLAUDE.md` myself — it's the governing shared doc, so it's left
 for you (or Prome) to apply.

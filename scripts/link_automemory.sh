@@ -17,7 +17,14 @@
 set -euo pipefail
 
 APPLY=0
-[[ "${1:-}" == "--apply" ]] && APPLY=1
+FORCE=0
+for a in "$@"; do
+  case "$a" in
+    --apply) APPLY=1 ;;
+    --force) FORCE=1 ;;
+    *) echo "unknown arg: $a (use --apply and/or --force)"; exit 2 ;;
+  esac
+done
 
 canon() { ( cd "$1" 2>/dev/null && pwd -P ); }
 
@@ -38,6 +45,17 @@ echo
 echo "NOTE: if 'harness' above doesn't match an existing dir, list ~/.claude/projects/"
 echo "      to confirm the exact slug for this machine, then re-run."
 echo
+
+# Refuse to migrate while a Claude session may be writing memory (avoids a race
+# between this script's move+symlink and an in-flight memory write).
+if command -v pgrep >/dev/null 2>&1 && pgrep -fi '[c]laude' >/dev/null 2>&1; then
+  echo "WARNING: a 'claude' process appears to be running on this machine."
+  echo "         Migrating now can race a mid-session memory write."
+  if [[ $APPLY -eq 1 && $FORCE -eq 0 ]]; then
+    echo "         Close all Claude sessions and re-run, or pass --force to override."
+    exit 1
+  fi
+fi
 
 mkdir -p "$TARGET"
 
@@ -85,10 +103,21 @@ if [[ $APPLY -eq 1 ]]; then
   ln -s "$TARGET" "$HARNESS"
   echo "Linked: $HARNESS -> $TARGET"
   if [[ -d "$HARNESS" && -r "$HARNESS" ]]; then
-    echo "Verify OK: harness path reads through to the repo store."
+    echo "Verify OK (read): harness path reads through to the repo store."
   else
     echo "Verify FAILED: harness path is not readable. Investigate before trusting it."
     exit 1
+  fi
+  # Filesystem-level write-through check. NOTE: this only proves the OS follows
+  # the symlink — it does NOT prove Claude Code writes through it. Do the real
+  # test next (see the script's closing notes).
+  tw="$HARNESS/.write-test-$HOST-$TS"
+  if echo ok > "$tw" 2>/dev/null && [[ -f "$TARGET/$(basename "$tw")" ]]; then
+    rm -f "$tw"
+    echo "Verify OK (write): filesystem write-through confirmed."
+  else
+    rm -f "$tw" 2>/dev/null || true
+    echo "WARNING: filesystem write-through test failed — investigate before trusting it."
   fi
 else
   echo
@@ -106,7 +135,13 @@ fi
 echo
 echo "Next:"
 echo "  cd \"$REPO_ROOT\""
-echo "  python3 scripts/gen_automemory_index.py        # refresh the lean index"
+echo "  bash scripts/install_automemory_hook.sh         # auto-regen index on commit"
+echo "  python3 scripts/gen_automemory_index.py          # refresh the lean index"
 echo "  git add memory/auto"
 echo "  git commit -m 'auto-memory: capture from $HOST'"
 echo "  git pull --rebase && git push"
+echo
+echo "REAL write test (the load-bearing one): start a Claude session, have it save"
+echo "a test memory, then 'git status' — the new file should appear under memory/auto/."
+echo "If it does, the symlink write path works end-to-end. If not, use the hook-based"
+echo "fallback in docs/AUTO_MEMORY.md."
