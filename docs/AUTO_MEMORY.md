@@ -59,10 +59,9 @@ bash scripts/link_automemory.sh
 # 2. Apply (backs up first, then re-links):
 bash scripts/link_automemory.sh --apply
 
-# 3. Install the index-regen hook, refresh the index, commit:
-bash scripts/install_automemory_hook.sh
-python3 scripts/gen_automemory_index.py
+# 3. Commit the captured memories (let Claude keep curating MEMORY.md):
 git add memory/auto
+git diff --cached --stat        # verify: ONLY memory/auto/* staged
 git commit -m "auto-memory: capture from <machine>"
 git pull --rebase && git push
 ```
@@ -110,9 +109,10 @@ rare and trivial:
 2. **Editing an existing memory = append, don't rewrite.** Add a dated bullet
    (e.g. "**+ 2026-06-05 (BRENT):** new corroborating case …") rather than
    reflowing the file. Appends at different points auto-merge.
-3. **Never hand-edit `MEMORY.md`.** It is generated. On any conflict, take
-   either side and re-run `python3 scripts/gen_automemory_index.py` — output is
-   deterministic from the topic files present.
+3. **Let Claude own `MEMORY.md`.** Claude Code maintains this index itself,
+   adding a curated one-line entry when it saves a memory. Don't auto-regenerate
+   it. If a cross-machine merge ever conflicts on `MEMORY.md`, resolve by hand —
+   **keep both sides' entries** (it's just an index; the merge is small).
 4. **`git pull --rebase` before push** (already the repo protocol).
 
 **Failure mode to know:** if both machines edit the **same memory file body**
@@ -121,27 +121,22 @@ touch the same file), git will flag a normal merge conflict *inside that file*
 on push. Resolution is manual: open the file, resolve the `<<<<<<<` markers,
 re-commit. The append-don't-rewrite rule (#2) makes this nearly never happen.
 
-## Keeping the index in sync (don't let drift sneak back)
+## The index (`MEMORY.md`) — Claude owns it
 
 `MEMORY.md` is the lean, **always-loaded** index — Claude loads only the first
-~200 lines / 25 KB at boot; topic files load on demand. It is **generated** by
-`scripts/gen_automemory_index.py`, which prefers a YAML frontmatter
-`description:` field per memory and falls back to the file's first line:
+~200 lines / 25 KB at boot; topic files load on demand. **Claude Code maintains
+this file itself**: when it saves a memory it also writes a curated one-line
+entry into `MEMORY.md`. We confirmed this live during migration (a test memory
+produced both a new `project_*.md` file *and* an updated `MEMORY.md`).
 
-```markdown
----
-description: Watch the transmission channel, not the standalone CCC threshold.
----
-# finding_threshold_vs_mechanism
-...
-```
+So we deliberately **do not auto-generate or auto-regenerate the index** — doing
+so would strip Claude's curated entries on every commit, and Claude would just
+re-add them next session (the two would fight each other). Let Claude curate it.
 
-To stop the index drifting from the topic files, `install_automemory_hook.sh`
-installs a **pre-commit hook** that regenerates and re-stages `MEMORY.md`
-whenever a `feedback_*/finding_*/project_*` file is part of the commit. Run the
-installer once per machine (hooks live in `.git/hooks`, which isn't version
-controlled). The generator also **warns** when the index nears the load cap —
-your cue to consolidate or retire low-value entries.
+`scripts/gen_automemory_index.py` is kept **only as a manual repair tool** — for
+the rare case where `MEMORY.md` gets badly mangled (e.g. an ugly merge conflict)
+and you'd rather rebuild a mechanical index from the topic files than hand-fix
+it. It is **not** part of the normal flow and there is **no pre-commit hook**.
 
 ## Existing references keep working
 
@@ -156,7 +151,7 @@ to hook-based sync — **do not run it alongside the symlink; pick one.** Script
 are in `scripts/fallback/`:
 
 - `session_start_sync.sh` — SessionStart hook: pull, then mirror repo → harness.
-- `stop_sync.sh` — Stop hook: mirror harness → repo, regen index, commit & push.
+- `stop_sync.sh` — Stop hook: mirror harness → repo, commit & push (no index regen).
 
 Wire them in `.claude/settings.json`:
 
@@ -191,10 +186,9 @@ Suggested wording to add under "Git Protocol":
 > **Auto-memory (`memory/auto/`)** is a shared, append-only zone, git-synced via
 > a per-machine symlink (see `docs/AUTO_MEMORY.md`). **Any** Claude Code session
 > may `git add` and self-commit auto-memory files it created or appended to — no
-> Prome approval-gate. Never hand-edit `MEMORY.md` (generated — re-run
-> `scripts/gen_automemory_index.py`, which the pre-commit hook does for you).
-> Prefer new files over rewrites; append dated bullets when adding to an
-> existing memory.
+> Prome approval-gate. `MEMORY.md` is Claude's own curated index — don't
+> regenerate it; on a cross-machine conflict, keep both sides' entries. Prefer
+> new files over rewrites; append dated bullets when adding to an existing memory.
 
 I did not edit `CLAUDE.md` myself — it's the governing shared doc, so it's left
 for you (or Prome) to apply.

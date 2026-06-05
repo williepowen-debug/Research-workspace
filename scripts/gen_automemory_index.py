@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
-"""Regenerate memory/auto/MEMORY.md — the lean, always-loaded auto-memory index.
+"""MANUAL REPAIR TOOL — rebuild memory/auto/MEMORY.md from the topic files.
 
-Claude Code loads only the first ~200 lines / 25 KB of MEMORY.md at boot; topic
-files (feedback_*, finding_*, project_*) are read on demand. So the index must
-stay terse: one line per memory.
+NOT part of the normal flow. Claude Code curates MEMORY.md itself (it writes a
+one-line index entry when it saves a memory), so we do NOT auto-regenerate it —
+doing so would strip Claude's curated entries every commit. See docs/AUTO_MEMORY.md.
 
-This index is DERIVED from the topic files, not hand-maintained. That kills the
-main simultaneous-write conflict point: if two machines both touch MEMORY.md,
-the resolution is simply to re-run this script after the merge — the output is
-deterministic given the set of topic files present.
+Use this only to rebuild a mechanical index when MEMORY.md gets badly mangled
+(e.g. an unresolvable merge conflict) and you'd rather regenerate than hand-fix.
+The output is deterministic given the set of topic files present.
 
 Usage:
     python3 scripts/gen_automemory_index.py [store_dir]

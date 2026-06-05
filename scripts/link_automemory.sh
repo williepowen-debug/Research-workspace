@@ -135,13 +135,13 @@ if [[ ${#collisions[@]} -gt 0 ]]; then
 fi
 
 echo
-echo "Next:"
+echo "Next (after the write test below passes):"
 echo "  cd \"$REPO_ROOT\""
-echo "  bash scripts/install_automemory_hook.sh         # auto-regen index on commit"
-echo "  python3 scripts/gen_automemory_index.py          # refresh the lean index"
 echo "  git add memory/auto"
+echo "  git diff --cached --stat                         # verify only memory/auto/* staged"
 echo "  git commit -m 'auto-memory: capture from $HOST'"
 echo "  git pull --rebase && git push"
+echo "  # (Claude curates MEMORY.md itself — no hook, no index regen.)"
 echo
 echo "REAL write test (the load-bearing one): start a Claude session, have it save"
 echo "a test memory, then 'git status' — the new file should appear under memory/auto/."
