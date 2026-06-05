@@ -31,6 +31,10 @@ documented, supported pattern — not a hack.
 
 ## Before you start — pre-flight
 
+> **Running the migration?** Use the step-by-step
+> [`AUTO_MEMORY_MIGRATION_CHECKLIST.md`](AUTO_MEMORY_MIGRATION_CHECKLIST.md) —
+> keep it next to the terminal. The sections below are the reference background.
+
 1. **Close all Claude sessions on both machines.** The migration moves and
    re-links the memory dir; a live session writing mid-migration can race it.
    (`link_automemory.sh` refuses to `--apply` if it sees a running `claude`
