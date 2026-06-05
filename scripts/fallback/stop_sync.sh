@@ -14,8 +14,7 @@ harness="$HOME/.claude/projects/$slug/memory"
 
 [[ -d "$harness" ]] || exit 0
 rsync -a "$harness/" "$root/memory/auto/"
-python3 "$root/scripts/gen_automemory_index.py" >/dev/null || \
-  echo "stop_sync: index regen failed — MEMORY.md may be stale." >&2
+# No index regeneration — Claude Code curates MEMORY.md itself (see docs/AUTO_MEMORY.md).
 
 cd "$root"
 git add memory/auto

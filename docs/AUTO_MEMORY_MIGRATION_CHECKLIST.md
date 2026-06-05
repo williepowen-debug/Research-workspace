@@ -65,17 +65,13 @@ git status memory/auto/
 
 ## 3. Desktop — finalize (only if the test passed)
 
+Let Claude keep curating `MEMORY.md` — no hook, no generator.
+
 ```bash
-bash scripts/install_automemory_hook.sh
-ls -la .git/hooks/pre-commit              # VERIFY: symlink -> ../../scripts/hooks/pre-commit
-
-python3 scripts/gen_automemory_index.py   # VERIFY: "Wrote .../MEMORY.md: N entries, M lines"
-                                          # If M > 180, note it (prune later — not blocking).
-
 git add memory/auto
 git diff --cached --stat                  # VERIFY: ONLY memory/auto/* staged.
                                           # If anything else: git restore --staged <file>
-git commit -m "auto-memory: capture from desktop"
+git commit -m "auto-memory: capture from desktop (git-synced via symlink)"
 git pull --rebase && git push
 ```
 
@@ -99,10 +95,9 @@ bash scripts/link_automemory.sh --apply
 ls memory/auto/*.conflict-*.md
 #   For each: diff it against the original, fold any laptop-side additions into the
 #   original (append-don't-rewrite), then delete the .conflict file.
+#   NOTE: MEMORY.md may itself be a collision — if so, keep BOTH machines' index
+#   entries (it's Claude's curated index; don't regenerate it).
 
-bash scripts/install_automemory_hook.sh
-ls -la .git/hooks/pre-commit              # VERIFY symlink
-python3 scripts/gen_automemory_index.py
 git add memory/auto
 git diff --cached --stat                  # VERIFY: only memory/auto/* staged
 git commit -m "auto-memory: merge from laptop"
