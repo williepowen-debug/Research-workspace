@@ -34,15 +34,31 @@ TITLES = {
 
 
 def summary(path):
-    """First non-empty line, stripped of markdown heading marks, truncated."""
+    """Prefer a YAML frontmatter `description:` field; otherwise fall back to the
+    first non-empty line with markdown heading marks stripped. Truncated to keep
+    the always-loaded index lean."""
     try:
         with open(path, encoding="utf-8") as fh:
-            for line in fh:
-                s = line.strip()
-                if s:
-                    return re.sub(r"^#+\s*", "", s)[:120]
+            lines = fh.read().splitlines()
     except OSError:
-        pass
+        return "(unreadable)"
+
+    body_start = 0
+    # YAML frontmatter is a leading '---' ... '---' block.
+    if lines and lines[0].strip() == "---":
+        body_start = len(lines)  # if there's no closing fence, treat all as frontmatter
+        for i in range(1, len(lines)):
+            if lines[i].strip() == "---":
+                body_start = i + 1
+                break
+            m = re.match(r"\s*description\s*:\s*(.+?)\s*$", lines[i])
+            if m:
+                return m.group(1).strip().strip("\"'")[:120]
+
+    for line in lines[body_start:]:
+        s = line.strip()
+        if s:
+            return re.sub(r"^#+\s*", "", s)[:120]
     return "(empty)"
 
 

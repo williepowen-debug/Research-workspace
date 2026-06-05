@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Auto-memory pre-commit hook: keep the generated index in sync.
+#
+# If this commit stages any auto-memory topic file, regenerate memory/auto/MEMORY.md
+# and stage it too, so the always-loaded index never drifts from the topic files.
+# Installed (per machine) by scripts/install_automemory_hook.sh.
+set -euo pipefail
+
+root="$(git rev-parse --show-toplevel)"
+
+if git diff --cached --name-only \
+     | grep -qE '^memory/auto/(feedback_|finding_|project_|other_).*\.md$'; then
+  if command -v python3 >/dev/null 2>&1; then
+    python3 "$root/scripts/gen_automemory_index.py" >/dev/null
+    git add "$root/memory/auto/MEMORY.md"
+  else
+    echo "pre-commit: python3 not found — skipping auto-memory index regen." >&2
+  fi
+fi
