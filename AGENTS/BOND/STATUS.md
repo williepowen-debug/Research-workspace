@@ -14,7 +14,7 @@
 
 **Credit and vol never participated — and still aren't.** HY OAS *tightened* through the entire duration episode (286→**274**), IG OAS held tight (76→**74**), CCC drifted flat (948→**946**), and VIX collapsed to **15.4**. The cash-credit/duration decoupling that defined this whole period is fully intact: the long-end move never transmitted to spreads or equity vol. **BND-06 resolved TRUE** (HY OAS never closed above 300 in May).
 
-**Late-May auctions were healthy-to-soft, no stress.** 5/26 2Y BTC 2.64 (solid), 5/27 5Y BTC 2.34 (soft but in-pattern with Apr-27's 2.33), 5/28 7Y BTC 2.52 (decent, indirect 78% of competitive). Demand held at price across the belly — corroborates "expensive, not broken."
+**Late-May auctions were soft-but-orderly — below-median demand, no stress.** Against the empirical distribution (PROME dataset, 369 rows since 2023), 5/26 2Y BTC 2.64 = **28th pctile**, 5/27 5Y BTC 2.34 = **24th pctile**, 5/28 7Y BTC 2.52 = **50th pctile** — softer than the headline BTCs look, but all cleared orderly with strong indirect and no tails. Read: **persistent duration fatigue / demand-at-a-discount, not dysfunction** — consistent with "expensive, not broken."
 
 **Correction — the 5/21 "10Y reopening" was a 10Y TIPS reopening, not a nominal 10Y.** CUSIP 91282CPU9, real high yield 2.169%, 9Y8M, reopening. BTC 2.52 / indirect ~61% of offering — no stress. My prior STATUS framed it as the nominal-10Y "Leg 2" demand gate for the TLT-put conditional-add; that was a TIPS-vs-nominal conflation. Different instrument, different (real-money/inflation) buyer base — it does not speak to nominal-10Y sponsorship. The conditional-add gate keyed to it was therefore mis-specified; moot anyway because yields rallied and no add was ever warranted. The last nominal 10Y was 5/12; the next is 6/10.
 
@@ -71,15 +71,15 @@
 
 | Vector | Score | Status | Evidence | Upgrade Trigger |
 |---|---:|---|---|---|
-| Treasury auction health | 2 | 🟡 | Late-May coupons healthy-to-soft, no stress (2Y 2.64, 5Y 2.34, 7Y 2.52). 20Y clean. June refunding 6/9-6/11 is next gate. | 2+ weak coupon auctions same tenor OR a >2bp tail at June refunding. |
+| Treasury auction health | 2 | 🟡 | Late-May coupons below-median but orderly (2Y 28th, 5Y 24th, 7Y 50th pctile since 2023). 20Y clean. June refunding 6/9-6/11 is next gate. | 2+ weak coupon auctions same tenor OR a >2bp tail at June refunding. |
 | HY market function | 1 | 🟢 | HY OAS 274 (tightening); issuance strong through Apr. | HY OAS >300 watch; >350 + pulled deals = red. |
 | IG market function | 1 | 🟢 | IG OAS 74 (tight); no freeze evidence. | IG OAS +20bps/week or clustered pulled IG deals. |
 | Dealer absorption | 2 | 🟡 | Late-May dealer takes contained (2Y 12.3%, 5Y 12.8%, 7Y 10.4% of comp). | Forced inventory decline in a selloff OR dealer spike + repo pressure. |
 | Long-end/duration | **2** | 🟡 | **Downgraded 4→2.** 10Y 4.47 (<4.5), 30Y 4.97 (<5.0) — thresholds no longer breached. Episode confirmed (BND-07 TRUE) then mean-reverted. Absolute levels still elevated. | 10Y back >4.5 OR 30Y back >5.0 for 5 sessions WITH a weak June auction or SOFR-IORB lift = re-escalate. |
-| CDX-cash basis | 2 | 🟡 | Direct CDX still not wired; March divergence not refreshed. | CDX widens while HY cash stays tight for 2+ weeks. |
+| CDX-cash basis | 1 | 🟢 | Free proxy now wired (`monitors/cdx_proxy.py`): HYG/IEF 91st pctile of 3mo, no divergence — corroborates cash calm. Synthetic/options leg handed to VIOLET. | Proxy z20 < -1.5 while HY OAS tight, OR VIOLET reports HYG put-skew steepening vs flat cash. |
 | Credit-equity lead | 1 | 🟢 | HY OAS 274, VIX 15.4; credit hasn't led, vol collapsed. | HY OAS +75-100bps from trough while VIX stays <20. |
 
-**Composite: 11/35 — watch, long-end leg relaxed, no active escalation.** Down from 13/35 (5/20) as long-end/duration moved 4→2 on the mean-reversion and breakeven/anchoring vectors relaxed. The June refunding (6/9-6/11) is the next live gate; absent a weak nominal 10Y/30Y print, the duration thesis stays in confirmed-but-dormant territory.
+**Composite: 10/35 — watch, long-end leg relaxed, no active escalation.** Down from 13/35 (5/20): long-end/duration moved 4→2 on the mean-reversion, and CDX-basis moved 2→1 as the vector went from multi-week data gap to a live proxy reading no-divergence. The June refunding (6/9-6/11) is the next live gate; absent a weak nominal 10Y/30Y print, the duration thesis stays in confirmed-but-dormant territory.
 
 ---
 

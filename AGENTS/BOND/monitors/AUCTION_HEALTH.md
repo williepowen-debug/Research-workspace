@@ -32,9 +32,11 @@
 | 2026-05-19 | 6W Bill | — | 3.01 | — | — | — | — | 🟢 | TreasuryDirect | Clean. |
 | 2026-05-20 | **20Y Bond (new issue)** | $16B | **2.55** | **5.122%** (tail **0bp**, ZH) | **67.7** | **22.9** | **9.4** | 🟢/🟡 | FiscalData CUSIP 912810UV8 + ZH 5/20 ~1:30pm ET (single-source) | **Tail 0bp — stopped on the screws.** New issue (NOT reopen — coupon 5.000%, dated 5/15) vs 4/22 reopen $13B. Indirect rose vs 4/22 (67.7 vs 59.6); dealer near baseline (9.4 vs 8.6). BTC 2.55 below 2.60 clean threshold but above 2.30 stress floor. WI 5.122% at 1pm ET matched high yield exactly (ZH recap). DGS20 5/18 was 5.14% → today priced ~2bp THROUGH prior CMT (demand below the screen). Broke an 11-of-12 stop-through streak but did NOT tail. **No orange trigger fired.** ZH headline mislabeled "7Y"; body is unambiguously 20Y. URL: https://www.zerohedge.com/markets/solid-7y-auction-prices-screws-solid-foreign-demand |
 | 2026-05-21 | **10Y TIPS reopen** (9Y8M) | $19B | 2.52 | **2.169% (real)** | 61.4 | 27.5 | 11.1 | 🟢 | FiscalData CUSIP 91282CPU9 | **CORRECTION: this was a 10Y TIPS reopening, NOT a nominal 10Y.** Real HY 2.169%. No stress. Prior STATUS mislabeled it the nominal "Leg 2" demand gate (TIPS-vs-nominal conflation). |
-| 2026-05-26 | 2Y | $69B | 2.64 | 4.071% | 57.6 | 30.1 | 12.3 | 🟢 | FiscalData | Solid. |
-| 2026-05-27 | 5Y | $70B | 2.34 | 4.182% | 74.9 | 12.3 | 12.8 | 🟡 | FiscalData | Soft BTC but in-pattern (≈Apr-27's 2.33); strong indirect. |
-| 2026-05-28 | 7Y | $44B | 2.52 | 4.290% | 78.4 | 11.2 | 10.4 | 🟢 | FiscalData | Decent; foreign sponsorship solid. |
+| 2026-05-26 | 2Y | $69B | 2.64 | 4.071% | 57.6 | 30.1 | 12.3 | 🟡 | FiscalData | BTC 28th-pctile of 81 2Y since 2023 — below-median, not "solid." Cleared orderly. |
+| 2026-05-27 | 5Y | $70B | 2.34 | 4.182% | 74.9 | 12.3 | 12.8 | 🟡 | FiscalData | BTC 24th-pctile of 54 5Y — soft, in-pattern (≈Apr-27's 2.33); strong indirect offsets. |
+| 2026-05-28 | 7Y | $44B | 2.52 | 4.290% | 78.4 | 11.2 | 10.4 | 🟢 | FiscalData | BTC 50th-pctile (median); foreign sponsorship solid. |
+
+**Percentile context (PROME dataset v2, 369 rows 2023→5/28, refreshed 6/5):** late-May nominal coupons were **below-median to median on bid-to-cover** (2Y 28th, 5Y 24th, 7Y 50th pctile) — softer than the headline BTCs "look." But all cleared orderly with no tails/dysfunction and strong indirect. Read: **persistent duration fatigue / demand-at-a-discount, not dysfunction.** Note: the dataset's `tail_vs_cmt_bps` is a noisy prior-day-CMT proxy (e.g. -240bp for the 5/21 TIPS vs a nominal CMT is meaningless); rely on BTC percentiles + indirect mix, not that column.
 
 ## Open Questions
 
