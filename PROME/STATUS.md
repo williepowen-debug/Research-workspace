@@ -77,7 +77,7 @@
 | Track pathspec migration | 🟠 | Tracker created; Prome/SAM done; remaining owners pending. |
 | Refresh root HEARTBEAT | ✅ | Completed Jun 4. |
 | Reconcile old trade rails / fills | 🟠 | Deferred per Will; non-TLT rails remain verification-required, not actionable. |
-| Decide HEARTBEAT cadence / ownership | 🟠 | Open design decision for next operating pass. |
+| Decide HEARTBEAT cadence / ownership | ✅ | Approved Jun 4: Prome owns updates after boot refreshes, regime changes, major decision-rail changes, or >48h stale during market week; not daily by default. |
 
 ---
 
@@ -95,4 +95,4 @@
 
 ## Next Best Action
 
-Verify and commit the Jun 4 root HEARTBEAT refresh. Next recommended lane: decide whether to coordinate remaining pathspec owner edits or pause cleanup before position reconciliation.
+Next recommended lane: coordinate remaining pathspec owner edits, unless Will pivots to position reconciliation.
