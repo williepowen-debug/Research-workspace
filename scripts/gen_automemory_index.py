@@ -44,16 +44,22 @@ def summary(path):
         return "(unreadable)"
 
     body_start = 0
-    # YAML frontmatter is a leading '---' ... '---' block.
+    # YAML frontmatter is a leading '---' ... '---' block. We parse only simple
+    # `description: <text>` lines; block scalars (| or >) and other multi-line
+    # YAML are intentionally skipped in favor of the first-line fallback.
     if lines and lines[0].strip() == "---":
         body_start = len(lines)  # if there's no closing fence, treat all as frontmatter
+        desc = None
         for i in range(1, len(lines)):
             if lines[i].strip() == "---":
                 body_start = i + 1
                 break
-            m = re.match(r"\s*description\s*:\s*(.+?)\s*$", lines[i])
-            if m:
-                return m.group(1).strip().strip("\"'")[:120]
+            if desc is None:
+                m = re.match(r"\s*description\s*:\s*(.*\S)\s*$", lines[i])
+                if m and m.group(1).strip()[0] not in "|>":
+                    desc = m.group(1).strip().strip("\"'")[:120]
+        if desc:
+            return desc
 
     for line in lines[body_start:]:
         s = line.strip()
