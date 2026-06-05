@@ -46,8 +46,10 @@ echo "NOTE: if 'harness' above doesn't match an existing dir, list ~/.claude/pro
 echo "      to confirm the exact slug for this machine, then re-run."
 echo
 
-# Refuse to migrate while a Claude session may be writing memory (avoids a race
-# between this script's move+symlink and an in-flight memory write).
+# Best-effort guard: refuse to migrate while a Claude session may be writing
+# memory (avoids racing the move+symlink against an in-flight write). NOTE: this
+# is best-effort only — Claude Code may run under node/electron and not match
+# 'claude', so ALWAYS confirm sessions are closed manually too.
 if command -v pgrep >/dev/null 2>&1 && pgrep -fi '[c]laude' >/dev/null 2>&1; then
   echo "WARNING: a 'claude' process appears to be running on this machine."
   echo "         Migrating now can race a mid-session memory write."
