@@ -144,7 +144,8 @@ it. It is **not** part of the normal flow and there is **no pre-commit hook**.
 
 Because only the first ~200 lines / 25 KB load at boot, an index that grows past
 that **silently drops its tail** — those entries stop loading, with no warning.
-At ~99 entries today, the index is approaching that cliff. Guard against it:
+Today the index has comfortable headroom (~81 lines), but it accumulates over
+time, so catch drift early rather than at the cliff:
 
 ```bash
 scripts/check_memory_length.sh        # warns at 180 lines, critical at 200
