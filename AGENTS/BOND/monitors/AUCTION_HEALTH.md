@@ -1,7 +1,7 @@
 # BOND Monitor — Treasury Auction Health
 
 **Owner:** BOND
-**Last Updated:** 2026-05-19 by BOND
+**Last Updated:** 2026-06-05 by BOND
 **Purpose:** Track whether Treasury market absorption is improving, mechanically supported, or deteriorating.
 
 ## Classification Rules
@@ -31,13 +31,20 @@
 | 2026-05-18 | 26W Bill | — | 3.07 | — | — | — | — | 🟢 | TreasuryDirect | Clean. |
 | 2026-05-19 | 6W Bill | — | 3.01 | — | — | — | — | 🟢 | TreasuryDirect | Clean. |
 | 2026-05-20 | **20Y Bond (new issue)** | $16B | **2.55** | **5.122%** (tail **0bp**, ZH) | **67.7** | **22.9** | **9.4** | 🟢/🟡 | FiscalData CUSIP 912810UV8 + ZH 5/20 ~1:30pm ET (single-source) | **Tail 0bp — stopped on the screws.** New issue (NOT reopen — coupon 5.000%, dated 5/15) vs 4/22 reopen $13B. Indirect rose vs 4/22 (67.7 vs 59.6); dealer near baseline (9.4 vs 8.6). BTC 2.55 below 2.60 clean threshold but above 2.30 stress floor. WI 5.122% at 1pm ET matched high yield exactly (ZH recap). DGS20 5/18 was 5.14% → today priced ~2bp THROUGH prior CMT (demand below the screen). Broke an 11-of-12 stop-through streak but did NOT tail. **No orange trigger fired.** ZH headline mislabeled "7Y"; body is unambiguously 20Y. URL: https://www.zerohedge.com/markets/solid-7y-auction-prices-screws-solid-foreign-demand |
-| 2026-05-21 | 9Y 8M (10Y reopen) | — | — | — | — | — | — | PENDING | TreasuryDirect | 4th consecutive 10Y tail context — pressure on this one. |
+| 2026-05-21 | **10Y TIPS reopen** (9Y8M) | $19B | 2.52 | **2.169% (real)** | 61.4 | 27.5 | 11.1 | 🟢 | FiscalData CUSIP 91282CPU9 | **CORRECTION: this was a 10Y TIPS reopening, NOT a nominal 10Y.** Real HY 2.169%. No stress. Prior STATUS mislabeled it the nominal "Leg 2" demand gate (TIPS-vs-nominal conflation). |
+| 2026-05-26 | 2Y | $69B | 2.64 | 4.071% | 57.6 | 30.1 | 12.3 | 🟢 | FiscalData | Solid. |
+| 2026-05-27 | 5Y | $70B | 2.34 | 4.182% | 74.9 | 12.3 | 12.8 | 🟡 | FiscalData | Soft BTC but in-pattern (≈Apr-27's 2.33); strong indirect. |
+| 2026-05-28 | 7Y | $44B | 2.52 | 4.290% | 78.4 | 11.2 | 10.4 | 🟢 | FiscalData | Decent; foreign sponsorship solid. |
 
 ## Open Questions
 
-- Does 10Y >4.5 / 30Y >5 persist for multiple sessions or fade after refunding supply clears?
-- Does weak-but-not-failed auction demand begin funding through LIQUID plumbing (SOFR-IORB positive, repo pressure)?
-- Does ZHAO see TIC / foreign official demand deterioration that would confirm the auction-level softness?
+- ✅ **RESOLVED:** Does 10Y >4.5 / 30Y >5 persist for multiple sessions? **YES** — 30Y >5.0 for ~9 sessions (5/14-5/27), 10Y >4.5 for 6 (5/15-5/22). BND-07 TRUE. But both have since mean-reverted (10Y 4.47, 30Y 4.97 by 6/4) — durable episode, not a one-way break.
+- Does weak-but-not-failed auction demand begin funding through LIQUID plumbing (SOFR-IORB positive, repo pressure)? **No evidence yet** — SOFR-IORB last -12bps; refresh next session.
+- Does ZHAO see TIC / foreign official demand deterioration confirming auction-level softness? **Still open** — late-May indirects were strong (5Y 74.9%, 7Y 78.4% of comp), arguing against a foreign demand hole.
+
+## June Refunding Preview (6/9-6/11)
+
+Next live gate for nominal long-end demand. Announced: **6/9 3Y · 6/10 10Y (nominal, 9Y11M new issue) · 6/11 30Y (nominal, 29Y11M new issue).** The 6/10 10Y is the first true nominal-10Y demand test since 5/12 (which was the 4th consecutive 10Y tail, 7th-pctile indirect). Watch for: tail >1.5bp + weak indirect → re-arm TLT conditional-add and signal LIQUID/ZHAO. The 5/13 30Y was an 11th-percentile BTC outlier — watch 6/11 for a repeat.
 
 ## May 2026 Refunding Read
 
