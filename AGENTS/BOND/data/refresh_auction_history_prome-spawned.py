@@ -24,6 +24,19 @@ How to run (from repo root, with .venv active):
 
 Dependencies: pandas, requests (already in .venv).
 
+GOTCHAS (BOND 2026-06-05):
+  1. FiscalData `auctions_query` returns HTTP 200 with ZERO rows — no error — if
+     ANY name in the `fields=` projection is invalid. A hand-rolled query that
+     asks for e.g. `competitive_accepted` or `high_investment_rate` (neither
+     exists) silently yields []. Always validate field names against this
+     script's API_FIELDS, or omit `fields` and filter in pandas. Don't trust an
+     empty result as "no auctions happened."
+  2. Use api.stlouisfed.org (keyed JSON), NOT fred.stlouisfed.org/graph (keyless
+     CSV) — the graph host hangs in this sandbox. See fetch_fred().
+  3. TIPS discriminator: use the `is_tips` column (from `inflation_index_security`),
+     NOT the term label. A "10-Year" / "9Y8M" can be a TIPS reopening with a real
+     high_yield (~2%) that looks nothing like the nominal (~4.5%).
+
 Versions:
     v1 (2026-05-20 AM): auctions + allocation pcts (of offering_amt).
     v2 (2026-05-20 PM): + cmt_close_prior_day, tail_vs_cmt_bps,
@@ -206,12 +219,23 @@ def transform(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def fetch_fred(series_id: str) -> pd.Series:
-    """Download a FRED daily series via the public CSV endpoint.
-    No API key required. Retries on 429 with exponential backoff."""
-    url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={series_id}"
+    """Download a FRED daily series via the FRED API (api.stlouisfed.org).
+
+    NOTE (BOND 2026-06-05): switched from the keyless graph CSV endpoint
+    (fred.stlouisfed.org/graph/fredgraph.csv) to the keyed JSON API because the
+    graph-CSV host hangs/blocks in this sandbox — it stalled the whole v2
+    enrichment. Key mirrors FORGE/tools/market-data/fetch.py. Retries on 429."""
+    key = os.environ.get("FRED_API_KEY", "8ce3f08db56f151f54221a0dd12b63de")
+    url = "https://api.stlouisfed.org/fred/series/observations"
+    params = {
+        "series_id": series_id,
+        "api_key": key,
+        "file_type": "json",
+        "observation_start": "2022-06-01",
+    }
     for attempt in range(4):
         try:
-            r = requests.get(url, timeout=60)
+            r = requests.get(url, params=params, timeout=60)
             if r.status_code == 429:
                 wait = 2 ** attempt
                 print(f"[fred] 429 on {series_id}, backoff {wait}s")
@@ -224,8 +248,8 @@ def fetch_fred(series_id: str) -> pd.Series:
                 raise
             print(f"[fred] retry {series_id}: {e}")
             time.sleep(2 ** attempt)
-    df = pd.read_csv(io.StringIO(r.text))
-    df.columns = ["date", "yld"]
+    obs = r.json().get("observations", [])
+    df = pd.DataFrame([(o["date"], o["value"]) for o in obs], columns=["date", "yld"])
     df["date"] = pd.to_datetime(df["date"]).dt.date
     df["yld"] = pd.to_numeric(df["yld"], errors="coerce")
     df = df.dropna(subset=["yld"]).sort_values("date")
