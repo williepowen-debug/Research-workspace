@@ -20,7 +20,7 @@ The harness path becomes a **symlink** to an in-repo store:
 ~/.claude/projects/<slug>/memory   ->   <repo>/memory/auto
 ```
 
-Claude keeps reading/writing at the same harness path; the bytes live in
+Agent sessions keep reading/writing at the same harness path; the bytes live in
 `memory/auto/`, so every change is versioned and reconciled through git like any
 other file. Claude Code follows symlinks for memory transparently, so this is a
 documented, supported pattern — not a hack.
@@ -59,7 +59,7 @@ bash scripts/link_automemory.sh
 # 2. Apply (backs up first, then re-links):
 bash scripts/link_automemory.sh --apply
 
-# 3. Commit the captured memories (let Claude keep curating MEMORY.md):
+# 3. Commit the captured memories (let the harness keep curating MEMORY.md):
 git add memory/auto
 git diff --cached --stat        # verify: ONLY memory/auto/* staged
 git commit -m "auto-memory: capture from <machine>"
@@ -86,7 +86,7 @@ The script's write check only proves the *OS* follows the symlink — not that
 *Claude Code* writes through it. Do the real test once after the first
 `--apply`:
 
-> Start a Claude session, have it save a test memory, then run `git status`.
+> Start an agent session, have it save a test memory, then run `git status`.
 > The new file should appear under `memory/auto/`. If it does, the write path
 > works end-to-end. If not, switch to the fallback below.
 
@@ -109,10 +109,11 @@ rare and trivial:
 2. **Editing an existing memory = append, don't rewrite.** Add a dated bullet
    (e.g. "**+ 2026-06-05 (BRENT):** new corroborating case …") rather than
    reflowing the file. Appends at different points auto-merge.
-3. **Let Claude own `MEMORY.md`.** Claude Code maintains this index itself,
-   adding a curated one-line entry when it saves a memory. Don't auto-regenerate
-   it. If a cross-machine merge ever conflicts on `MEMORY.md`, resolve by hand —
-   **keep both sides' entries** (it's just an index; the merge is small).
+3. **Let the harness own `MEMORY.md`.** The Claude Code harness maintains this
+   index itself, adding a curated one-line entry when an agent saves a memory.
+   Don't auto-regenerate it. If a cross-machine merge conflicts on `MEMORY.md`,
+   resolve by hand: **keep both sides' entries, then dedup** — if both machines
+   added a pointer to the *same* `[[topic-file]]`, collapse it to one line.
 4. **`git pull --rebase` before push** (already the repo protocol).
 
 **Failure mode to know:** if both machines edit the **same memory file body**
@@ -121,28 +122,57 @@ touch the same file), git will flag a normal merge conflict *inside that file*
 on push. Resolution is manual: open the file, resolve the `<<<<<<<` markers,
 re-commit. The append-don't-rewrite rule (#2) makes this nearly never happen.
 
-## The index (`MEMORY.md`) — Claude owns it
+## The index (`MEMORY.md`) — the harness owns it
 
-`MEMORY.md` is the lean, **always-loaded** index — Claude loads only the first
-~200 lines / 25 KB at boot; topic files load on demand. **Claude Code maintains
-this file itself**: when it saves a memory it also writes a curated one-line
-entry into `MEMORY.md`. We confirmed this live during migration (a test memory
-produced both a new `project_*.md` file *and* an updated `MEMORY.md`).
+`MEMORY.md` is the lean, **always-loaded** index — the harness loads only the
+first ~200 lines / 25 KB at boot; topic files load on demand. **The Claude Code
+harness maintains this file itself**: when an agent saves a memory it also writes
+a curated one-line entry into `MEMORY.md`. We confirmed this live during
+migration (a test memory produced both a new `project_*.md` file *and* an updated
+`MEMORY.md`).
 
 So we deliberately **do not auto-generate or auto-regenerate the index** — doing
-so would strip Claude's curated entries on every commit, and Claude would just
-re-add them next session (the two would fight each other). Let Claude curate it.
+so would strip the harness's curated entries on every commit, and they'd just be
+re-added next session (the two would fight each other). Let the harness curate it.
 
 `scripts/gen_automemory_index.py` is kept **only as a manual repair tool** — for
 the rare case where `MEMORY.md` gets badly mangled (e.g. an ugly merge conflict)
 and you'd rather rebuild a mechanical index from the topic files than hand-fix
 it. It is **not** part of the normal flow and there is **no pre-commit hook**.
 
+### Watch the boot-load cap (silent-truncation risk)
+
+Because only the first ~200 lines / 25 KB load at boot, an index that grows past
+that **silently drops its tail** — those entries stop loading, with no warning.
+At ~99 entries today, the index is approaching that cliff. Guard against it:
+
+```bash
+scripts/check_memory_length.sh        # warns at 180 lines, critical at 200
+```
+
+Run it at session end, or wire it as a periodic Prome chore. When it warns,
+consolidate or retire low-value memories (or split a topic into its own file).
+
 ## Existing references keep working
 
 ~30 agent docs cite memories via the harness path and via `[[wikilink]]`
 markers. After symlinking, that path still resolves (it's now the symlink) and
 the wikilinks still name real files, so **no agent docs need editing**.
+
+## Security — what must never go in auto-memory
+
+Auto-memory now lives in **git history, which is permanent**. The repo is
+**private** (confirmed June 2026 — `visibility: private`), so this is not public
+exposure — but treat every memory file as readable by anyone with repo access,
+forever, and uneraseable from history.
+
+**Never write into a memory:** API keys, tokens (Telegram / broker / etc.),
+passwords or logins, live account or position dollar amounts, or personal data.
+Memories are process/workflow lessons — *how to work* — not a place for secrets
+or live numbers. Reinforce **"no secrets / no live PII in memories"** in agent
+prompts. Note: `.gitignore` blocks `*secret*`, `*token*`, `*.key`, `.env`, but a
+normal memory file won't match those patterns — so this guardrail is **discipline,
+not the filter.**
 
 ## Fallback (designed and ready, not deployed)
 
@@ -174,9 +204,8 @@ The root git protocol says agents `git add` only their own `AGENTS/<NAME>/` dir
 and flag shared files to Prome. `memory/auto/` is a new shared, **append-only**
 zone, so it needs an explicit carve-out. Two sub-decisions for the wording:
 
-- **Who writes?** Auto-memory is harness-level, not agent-scoped, so **any
-  Claude Code session** should be allowed to add memory files — not just one
-  agent.
+- **Who writes?** Auto-memory is harness-level, not agent-scoped, so **any agent
+  session** should be allowed to add memory files — not just one agent.
 - **Self-commit vs flag-to-Prome?** Recommend **self-commit-permitted**:
   routing every memory write through a Prome approval-gate would defeat the
   point of auto-memory. (Prome can stay aware via the heartbeat.)
@@ -184,11 +213,15 @@ zone, so it needs an explicit carve-out. Two sub-decisions for the wording:
 Suggested wording to add under "Git Protocol":
 
 > **Auto-memory (`memory/auto/`)** is a shared, append-only zone, git-synced via
-> a per-machine symlink (see `docs/AUTO_MEMORY.md`). **Any** Claude Code session
-> may `git add` and self-commit auto-memory files it created or appended to — no
-> Prome approval-gate. `MEMORY.md` is Claude's own curated index — don't
-> regenerate it; on a cross-machine conflict, keep both sides' entries. Prefer
-> new files over rewrites; append dated bullets when adding to an existing memory.
+> a per-machine symlink (see `docs/AUTO_MEMORY.md`). **Any** agent session may
+> `git add` and self-commit files **inside `memory/auto/`** that it created or
+> appended to — no Prome approval-gate. **This permission is scoped to
+> `memory/auto/` ONLY and must not be cited as precedent for any other shared
+> directory** — HEARTBEAT, FORGE, and all other shared files still follow the
+> flag-to-Prome rule. `MEMORY.md` is the harness's curated index — don't
+> regenerate it; on a cross-machine conflict, keep both entries and dedup by
+> topic-file slug. Prefer new files over rewrites; append dated bullets when
+> adding to an existing memory.
 
 I did not edit `CLAUDE.md` myself — it's the governing shared doc, so it's left
 for you (or Prome) to apply.
