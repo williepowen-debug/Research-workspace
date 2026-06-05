@@ -1,0 +1,31 @@
+---
+name: Verify State Before Propagating
+description: When stating any count, scope, absence, or staleness across files/commits, verify against ground truth before propagating — don't restate from prior surface text
+type: feedback
+originSessionId: 89e805e3-af99-4b7a-9500-a2e858817066
+---
+When making a state-claim ("4 wrong predictions," "WALTER mostly absent from BOARD," "only §4.3 + §4.4 approved," "this metric STALE >14d"), verify it against the source-of-truth — TSV/JSON registry, full-tree grep, broader git log + commit message bodies — BEFORE writing or propagating it. Do NOT restate from memory, from one written instance to another, or from the most-recent commit's title language — the second restate becomes "what the file says" without ever being checked.
+
+**Why:** Three same-family failures across recent sessions, all caught by Will:
+
+1. **Counts (5/5/26 RED Session 8):** RED claimed "6 wrong predictions in a row" in CHANGELOG, propagated verbatim to ML.tsv, handoff, LAST_COMPLETION, STATUS. Actual count was 4 wrong / 1 correct / 9 active. Sloppy at first restatement, canonical by repetition.
+
+2. **Absence (5/6 RED LIAISON Turn 2):** RED Turn 1 framed "WALTER (BOARD): Mostly absent — see retrospective" with only 1 direct-route in retrospective. Empirical grep across 110 BOARD signals showed RED in `to:` or `info:` on 107/110 (97%) — universal routing target. The gap was RED-side consumption, not WALTER-side dispatch. A "more push" architecture would have been the wrong fix entirely.
+
+3. **Approval scope (5/6 PM WALTER misread):** RED commit `b1ed0420` titled "Closes the RED-side half of the 5-item Will sign-off batch." WALTER propagated the "RED-side half" framing as "only §4.3 + §4.4 approved, §2/§3/§5 still pending." Will pushed back: "I thought I had already signed off on the RED+WALTER items?" Pulling RED's Session 9 closeout `254f6e40` body confirmed "5-item Will sign-off batch all APPROVED end-to-end" — RED's "half" was about who was at the keyboard for which commit, not scope of approval.
+
+4. **Staleness inheritance (5/21 PM CC-Prome):** Two same-session failures of this exact rule, after the rule was already in memory. First: claimed "HEARTBEAT 4 days stale, 3 categories of posterior shifts owed" without ever opening HEARTBEAT.md — propagated from PROME/SCRATCH/STATUS/HANDOFF inherited surface text across multiple sessions. Will caught it: "you havent been reading the heartbeat normally anyway right?" Second (same session, after the lesson had been saved to root MEMORY.md): wrote HEARTBEAT row "SAM FXY Tranche 2 — Will-direction owed" from inherited PROME state — SAM had actually executed Tranche 2 at 12:46 ET, 3 hours before CC-Prome boot, but his commit wasn't reflected in PROME's session state files. The row was wrong from the moment written.
+
+**How to apply:**
+1. Before stating a count: open the source TSV/JSON, grep/awk count rows yourself.
+2. Before stating an absence ("X is missing / agent absent / signal not on BOARD"): run the empirical grep against the canonical archive, not just the chronological tail.
+3. Before stating a scope ("only §X approved" / "§Y still pending"): read full commit message bodies + cross-agent closeout records spanning the approval arc, not just the most-recent commit's title.
+4. Before stating staleness ("Updated >14d ago"): check the Updated column in REGISTRY, not memory of last-known-state.
+5. Once written, treat that first instance as the single source of truth for the session — quote verbatim in subsequent files (don't paraphrase, which drifts).
+6. Especially careful when the state carries narrative weight: counts ("6 in a row" reads as methodology indictment vs 4/1/9 mixed calibration), absence ("WALTER absent" reframes architectural fix toward push vs RED-consumption), scope ("only §4.3+§4.4 approved" reframes session-plan toward await vs ship-the-rest).
+
+This is the same single-source-circular-reinforcement failure mode RED is supposed to flag in other agents — verifies in both directions: when checking other agents' claims AND when stating your own.
+
+**Structural addendum (5/21):** The 5/21 examples (#4 above) re-violated this rule **within the same session it was reinforced in root MEMORY.md.** That argues the failure mode is **structural, not behavioral** — inherited state files (SCRATCH/STATUS/HANDOFF) reload into the next session's surface text faster than mental discipline can re-verify each claim. The behavioral fix ("remember to verify") is necessary but insufficient. The structural fix is **automated boot-time cross-verification**: scan agent outboxes for fresh signals (see [[scan-agent-outboxes-at-boot]]), cross-check inherited state-claims against git activity since last-known-fresh timestamp, prefer behavior-language ("clean, synced to origin") over inherited hash references in state files. Treat the boot procedure as the structural enforcement layer for this rule.
+
+**Refinement (6/4 — BRENT INCIDENTS Kuwait):** The rule applies to **every factual claim, including ones that feel like throwaway reinforcement of an argument already won on other grounds.** Failure case: arguing for "Option A close-as-out-of-scope" on solid domain + schema reasoning, and adding "and the May 31 pass already excluded Kuwait events" as a third decorative reason — that third claim was fabricated (the May 31 pass excluded Borouge/EGA, not Kuwait; Kuwait facility strikes RF-007/RF-014 were and are logged). Will caught it because the false precedent would have created a future miscue against real Kuwait facility events. The self-check trigger fires on "I am about to state a load-bearing fact" but NOT on "I am about to add a third reason that reinforces a case I'm already making." Decoration-mode lets fabrications slide. **Apply trigger to every factual claim regardless of where it sits in an argument's load-bearing structure.** Especially watch for false-precedent claims (X already happened / Y was already decided) — these create downstream miscue when restated in the future as if they were established facts.

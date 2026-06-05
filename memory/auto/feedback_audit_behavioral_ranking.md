@@ -1,0 +1,14 @@
+---
+name: audit-behavioral-ranking
+description: "When auditing docs for cleanup, rank findings by behavioral impact (does this change what the agent DOES?) before line-count impact; line savings are cosmetic when context windows are large, but a single behavior-changing fix can compound across sessions"
+metadata: 
+  node_type: memory
+  type: feedback
+  originSessionId: daa31902-e370-4371-ae3b-ae1989ba7228
+---
+
+When a doc-hygiene audit produces a multi-item candidate list, rank cuts by **behavioral impact first**, line-count impact second. For each item ask: "If I execute this, what does the agent DO differently next session?" Items that change behavior (calibration discipline, alert routing, mechanism-discrimination language, removal of actively-misleading guidance) compound across sessions. Items that only reduce line count are cosmetic — Claude's context window is large enough that 200 vs 800 lines rarely matters for orientation cost. Execute the top 1-2 behavioral-impact cuts; defer the rest unless you're already in a cleanup pass with budgeted time.
+
+**Why:** SAM 2026-05-26 boot-doc maintenance pass executed 6 candidates, cut boot context 1,230 → 815 lines (-34%). Honest retro: only ~30% had genuine behavioral impact (PREDICTIONS calibration scoreboard changes how future predictions get written; co-located archive convention transfers across agents). The other ~70% was cosmetic — line count savings the agent never actually noticed. ~3hrs spent could have been 30min focused on the 1-2 behavior-changers. Will's pushback that session ("preserve the calibration record, don't archive it") was the single highest-leverage decision — was about to archive the calibration gold, which would have *worsened* prediction-writing behavior. The lesson generalizes: cleanup energy is a finite budget; spending it on cosmetics starves the actually-load-bearing cuts.
+
+**How to apply:** Before executing a doc cleanup, write the candidate list with a "behavioral impact" column. Mark each HIGH/MED/LOW: HIGH = "changes a decision rule, removes misleading guidance, fixes a calibration trap, transfers a pattern to other agents"; MED = "improves scan-ability of a doc read at boot, enforces template fidelity that has sustainability value"; LOW = "line count, ordering, cosmetic consistency." Execute HIGH first; do MED if time remains; defer LOW unless the user explicitly opted into a full sweep. When uncertain, ask the user before executing rather than after — the user's pushback ("don't archive that") catches misranked items the agent can't catch alone. Transferable to any agent's doc-hygiene audit (STATUS sprawl, MEMORY drift, knowledge-base pruning, archive decisions). Related: [[finding_followup_audit_pass]] — after executing a scoped ask, audit again for adjacent items that may outrank original-scope items.
