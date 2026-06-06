@@ -1,77 +1,85 @@
 # CARL SCRATCH
-> ✅ Clean & synced to origin after this session's push (boot-doc audit pass-1 + SAM integrations).
+> ✅ Local writes clean — push deferred (Will coordinating SAM + VIOLET separately).
 
-**Last session:** 2026-05-31 ~17:00 UTC (Sun evening, PM2 — first CLAUDE.md audit since 5/3 Pass-1+2)
-**Type:** Boot-doc audit pass-1 — CLAUDE.md trim + TEAM.md trim + 3 protocol integrations from SAM cross-agent comparison
+**Last session:** 2026-06-05 ~22:00 UTC (Fri PM2, same-day cont. from PM data-wall)
+**Type:** Prome-directed 4-bucket news sweep (5/31 PM2 → 6/5) + integrations + CRL-11 PREDICTIONS note
 
-**PRIORITY-1:** **Run boot scans then handle Jun 1 ISM Mfg PMI (tomorrow AM).** New step 7c failure-pattern preamble is now part of boot — before resolving/writing predictions, read MISSED Notes (CRL-01 magnitude-tail, CRL-09 LFPR-denominator, CRL-19 magnitude-light). New SCRATCH template includes CHANGES SINCE LAST SESSION section — populate it at boot from STATUS mtime delta. SCRATCH template location moved to `templates/SCRATCH.template.md` (CLAUDE.md step 14 now points there).
+**PRIORITY-1:** **Boot scans + Jun 10 CPI May (in 5 days, 🔴).** First inflation print post-NFP-beat / post-ISM-services-Prices-Paid-Aug-2022-high. CRL-10 food (Apr Food-at-Home +0.7% MoM = pulling forward) + Iran+tariff 2nd-month watch.
 
 ---
 
 ## CHANGES SINCE LAST SESSION
-*(Back-to-back same-day sessions — first session this morning 12:33 PM ET, this is the closeout of the audit work that ran ~3:00-5:00 PM ET. No market data fired between. Sunday afternoon, markets closed.)*
+*(Same-day continuation; SCRATCH PM2 builds on PM data-wall integration.)*
+- **HY OAS 272bps Jun 1** (down -22bps from Apr 10 294bps over 7wk) = load-bearing counter-signal to masking thesis, closes 56d stale gap
+- **Carvana PRIME ABS S&P downgrade Apr 2026** — 6 classes, "first in 16 years" — caught belatedly in sweep (~6-8wk gap); v2.5.1 mechanism extending up quality stack
+- **CMBS Trepp Apr** confirmed STATUS had date error (Mar→Apr) + added Office 11.71% + Lodging +137bps
+- **Sub-V May 281 +36% YoY** released today (Jun 5 ABI) — decel trajectory 91→67→36% over 4mo
+- **CRL-08 reversion HELD:** gas $4.26 6/3 (-13.1¢ in 5d), Brent ~$93 (-19% from May 4 peak), diesel $5.45 6/1 (-21¢ over 27d). No fresh kinetic re-spike despite late-May UAE missile / Iran retaliate-vow flares.
 
 ## WHAT HAPPENED
-1. **Boot** (Sun 5/31 ~12:33 PM ET) — clean & synced; docket countdown showed Jun 1 ISM as first fire; 17 OPEN preds all forward-dated, none stale.
-2. **CLAUDE.md audit pass-1** — first re-audit since 5/3 Pass-1+2 (28 days). 4 sub-passes committed sequentially:
-   - **Target B `9d329bf5`** — CONVERGENCE MATRIX section 14→3 lines (duplicate of THESIS.md removed).
-   - **Target C `e5eaa7f3`** — FILES table 7 verbose rows char-density trim (~985 chars).
-   - **§13 bonus `6a7a6841`** — 5/3-dated kill-rule open-question warning dropped (now ROADMAP-only).
-   - **Target A `eba399b0`** — 67-line SCRATCH template extracted to `templates/SCRATCH.template.md` (NEW dir).
-3. **TEAM.md audit `d2ef5f3c`** — drop "Next Catalyst" column (all past-fired, self-contradicting 5/29 banner) + delete BUILDOUT STATUS section (history already in ROSTER Status col). 57→41 lines.
-4. **SAM cross-agent closeout comparison** — surfaced 3 high-value adoptions: A (CHANGES SINCE), B (promotion paths), E (failure-pattern preamble).
-5. **A+B+E integrations `c093bd73`** — CHANGES SINCE section added to SCRATCH template + promotion paths codified at CLAUDE.md step 14 + new step 7c failure-pattern preamble.
+1. **Boot + data-wall integration (PM)** — 5 prints (NFP May / JOLTS Apr / ISM Mfg May / ISM Svc May / DG Q1) folded into STATUS + KB-283 through KB-287 + VX 6 rows updated + docket pruned 35→30 + ROADMAP + SCRATCH. See prior SCRATCH archive in commit log.
+2. **News sweep (PM2)** — Prome-directed 4-bucket scope: (1) Iran/Brent/gas, (2) Bank/ABS/CMBS, (3) HY OAS, (4) Q1 stragglers. 6 web searches across the 4 buckets.
+3. **Bucket findings:**
+   - B1 Energy: CRL-08 stays re-armed OPEN, no re-trigger. Gas/Brent/diesel rows updated.
+   - B2 ABS/CMBS: Carvana prime ABS (Apr) integrated → STATUS row + KB-288. CMBS Trepp Apr re-dated + Office/Lodging cells added. No fresh EART/AMCAR/SDART rating actions (informative non-news, Q2-Q3 wave still pre-action).
+   - B3 HY OAS: 272bps cross-source verified (GuruFocus + TradingEconomics + FRED) → STATUS row + KB-290 + VX-CARL-MACRO-02 refresh; counter-signal framing established.
+   - B4 SubV: KB-289 added; POP-domain primarily.
+4. **PREDICTIONS CRL-11** — Apr hires 3.2% AT THRESHOLD first-confirmation-point Notes added; NOT resolved per single-month-skepticism rule; May JOLTS ~Jul 1 needed for sustained ≤3.2%.
+5. **ROADMAP RECENTLY RESOLVED row Jun 5 PM2** added + timestamp bumped.
+6. **STATUS top-line updated v2** for sweep findings.
 
 ## STATUS CHANGES
 | Item | Change |
 |------|--------|
-| CLAUDE.md | 304 → 242 lines (-62, -20%) |
-| TEAM.md | 57 → 41 lines (-16, -28%) |
-| templates/ | NEW dir + `SCRATCH.template.md` (74 lines, w/ CHANGES SINCE section) |
-| CLAUDE.md step 7 | +7c failure-pattern preamble |
-| CLAUDE.md step 14 | +promotion-paths block (4-route routing) |
-| CLAUDE.md CONVERGENCE MATRIX | 14 → 3 lines (pointer-only) |
-| CLAUDE.md FILES table | 7 rows compressed (char-density) |
-| CLAUDE.md §13 | open-question warning → ROADMAP pointer |
-| TEAM.md ROSTER | drop "Next Catalyst" col (6 cols → 5) |
-| TEAM.md §3 BUILDOUT STATUS | deleted (13 lines, redundant with ROSTER Status) |
-| ROADMAP.md | timestamp bump PM → PM2 + RECENTLY RESOLVED row added |
+| STATUS.md top-line | Jun 5 PM → Jun 5 PM2 (sweep additions) |
+| Gas Pump row | $4.391 5/29 → $4.26 6/3; status 🔴→🟠 |
+| Diesel row | $5.659 5/5 → $5.45 6/1 (refreshed) |
+| Brent row | ~$108.76 5/21 → ~$93 6/5; status 🔴→🟠 |
+| HY OAS row | 294bps STALE/PENDING → 272bps Jun 1 LIVE / counter-signal framing; status 🟡 PENDING → 🟢 thresholds / 🔴 complacency |
+| ABS Structural row | sweep-non-news flagged (Q2-Q3 wave still pre-action) |
+| Carvana Prime ABS row | NEW row added (Apr 2026 S&P 6-class downgrade) |
+| CMBS DQ row | Mar 2026 single-cell → Apr 2026 multi-property breakdown |
+| Recently fired (5/29→6/5) | extended with HY OAS / Carvana / CMBS / Sub-V / gas-pump-reversion lines |
+| KB.tsv | 284 → 287 (+3: KB-288 Carvana / KB-289 SubV / KB-290 HY OAS) |
+| VX.tsv | MACRO-02 HY OAS refresh + counter-signal framing |
+| PREDICTIONS.tsv | CRL-11 Notes appended (Mar 3.5% → Apr 3.2% AT threshold first-confirmation-point) |
+| ROADMAP.md | +RECENTLY RESOLVED row PM2 + timestamp |
 
-No data mutations. Pure protocol architecture session.
+**No score changes** — per Prome scope, V12 review held for Jun 16-17 SEP.
 
 ---
 
 ## NEXT SESSION SHOULD
 
 ### IMMEDIATE (boot + 24h)
-1. **Run boot scans 7a/7b/7c** — docket countdown + PREDICTIONS due/stale + **new 7c failure-pattern preamble** (first run of new step).
-2. **Jun 1 ISM Mfg PMI** — first early-June print, watch Prices Paid (Apr 84.6) + New Orders (Apr 53.5 / from 60.6 — stagflation sub-component anchor). Then JOLTS Jun 2 / DG Q1 Jun 2 / ISM Svc Jun 3 / NFP Jun 5. Integrate + prune docket rows.
-3. **Populate CHANGES SINCE section** at boot — new template slot needs to be exercised; STATUS is dated 5/29, so anything Jun 1 morning is genuine "what moved while CARL was offline" content.
+1. **Run boot scans 7a/7b/7c** — docket clean of past-due (Jun 1-5 pruned PM); 17 OPEN preds forward-dated.
+2. **Push deferred** — Will coordinating SAM + VIOLET separately. Push CARL when authorized.
 
-### THIS WEEK / NEXT 2 WEEKS
-4. **Jun 10** CPI May · **Jun 12** UMich prelim · **Jun 16** Retail Sales + NAHB + LEN FQ2 · **Jun 16-17 FOMC + SEP** (V12 decisive).
-5. **V12 thesis pass + score-upgrade review** (V1/V8/V12) — Waller 5/22 + GDP Q1 2nd-est 5/28 + Apr Core PCE 3.3% 5/28 = 3 hardening datapoints. Formal V12 call held for Jun 16-17 SEP but pre-SEP review warranted.
+### UPCOMING (this week)
+3. **Jun 10 BLS May CPI** 🔴 — first inflation print post-NFP-beat + post-ISM-Svc-Prices-Paid-71.3-Aug-2022-high. CRL-10 food (pulling forward). V12 transmission read.
+4. **Jun 11 BLS May PPI** 🟠 — goods-vs-services stagflation split follow-up.
+5. **Jun 12 UMich prelim (June)** 🔴 — V12 5-10Y red line (3.5% Apr Final); May ~44 record-low context.
 
-### WATCH / CONDITIONAL
-6. **CRL-03 invalidation watch** — May Fannie (~Jun 26) = month 2 of <0.65% test.
-7. **CRL-08 AAA pump** — dormant unless Brent re-spikes on Iran-kinetic.
-
-### WORKBOOK / DOMAIN
-8. **Workbook session** — ~16 KB candidates pending (GDP 2nd-est / Apr PCE Core 3.3% / savings 2.6% / CRL-08 5d-breach + 12 carried); VX 26d stale (FOMC/GAS/HSG/K-shape-WAGE); SAV-vector update for 2.6%.
-9. **LIAISON cycle 1** — OVERDUE ~25d (since May 6); next architecture-adjacent item.
-10. **Sub-agent staleness** — all 7 now 44+ days. **DOC spawn candidate** (healthcare-services GDP drag).
-11. **5/6-5/13 BOARD backlog** (~70 sigs) — mechanical ledger sync.
-
-### ARCHITECTURE BACKLOG (residual from weekend survey + new SAM-comparison items)
-Closed this weekend: items 1 (User Input), 2 (handoff_RED stale README), 4 (TRADE.md stub), 5 (SPAWN_PROTOCOL + SIGNAL_INTAKE), 3 (workbook transitionals), + boot-doc audit pass-1, + A/B/E protocol adoptions.
-Still open: 6 (LIAISON), 7 (workbook TSV refresh). NEW (from SAM-cross-agent audit): (C) Doc Ownership table (anti-duplication, would solve STATUS-Danger-Window-vs-ROADMAP overlap); (D) POV pivots in CHANGELOG per [[finding_pov_changelog_pattern]] (already validated transferable); (G) eval suite for boot-doc changes (high-value, high-cost — deferred).
+### UPCOMING (next 2 weeks)
+6. **Jun 16** — Retail Sales May / NAHB HMI June / LEN FQ2 (CRL-23 builder GM baseline).
+7. **Jun 16-17 FOMC + SEP** 🔴🔴 — first dot-plot post-Waller; ~2-in-3 Oct hike pricing vs Fed dots. **V12 decisive + formal V12 score-upgrade review trigger.**
+8. **Jun 24** — FL Wave 1 UI exhaustion cliff (CRL-07).
+9. **Jun 25 May PCE** — V12 monthly bridge; savings rate (Apr 2.6% trough).
+10. **Jun 26 Fannie MF DQ May** 🔴 — **CRL-03 invalidation watch month 2** (Apr 0.64% reversed from Mar 0.78% near-breach; need 2 consec <0.65% to invalidate).
 
 ### BACKLOG (no deadline)
-12. HY OAS refresh (~51d). Workbook Item #3 (validator) + #6 (INDEX). v2.5.1 8 PENDING_VERIFY. ABS_BASELINE Mar 10-Ds. POLLY/MARCO refresh. 6 Apr-17 outbox signals (deferred per messaging-overhaul). `inbox/processed/` rollup (59 files Feb-Mar) — cosmetic.
+11. **V12 thesis-pass + score-upgrade review** — 5 hardening datapoints now stacked (Waller 5/22 + GDP 2nd-est 5/28 + Apr Core PCE 3.3% 5/28 + today's ISM Svc Prices Paid Aug-2022-high + HY OAS 272bps complacency tell). Formal call Jun 16-17 SEP.
+12. **HY OAS monthly cadence** — established this session as permanent monthly minimum per Prome scope.
+13. **LIAISON cycle 1** — OVERDUE ~30d.
+14. **Sub-agent staleness** — all 7 at 49+ days. DOC priority spawn.
+15. **Workbook full refresh** — FLOW/STATE_DIFFUSION/BNPL_STRESS/ABS_BASELINE/TRENDS all 49+ days.
+16. **6 Apr-17 outbox signals** (deferred per messaging-overhaul).
+17. **`inbox/processed/` rollup** (59 files Feb-Mar; cosmetic).
+18. **CHANGELOG backfill** — V12 / K-shape-wage / CRL-11 at-threshold note (last item ready to write now).
 
 ---
 
-## OUTBOX (6 Apr 17 signals deferred per messaging-overhaul; unchanged)
+## OUTBOX (6 signals, deferred per messaging-overhaul; unchanged)
 | File | To | Summary |
 |------|----|---------|
 | SIG-CARL-REGINALD-20260417-auto-lender-reclassification-translation.md | REGINALD | 7-lever auto-lender translation |
@@ -83,41 +91,42 @@ Still open: 6 (LIAISON), 7 (workbook TSV refresh). NEW (from SAM-cross-agent aud
 
 ## INBOX (0 items, clean)
 ## HANDOFF_RED (4 files + README, unchanged)
-## HANDOFF_WALTER — LIAISON cycle 1 OVERDUE ~25d (last touched May 6) — next architecture-adjacent item
+## HANDOFF_WALTER — LIAISON cycle 1 OVERDUE ~30d (last touched May 6)
 
 ---
 
 ## WORKBOOK HEALTH
 | TSV / file | Rows | Last Mod | Note |
 |-----|------|----------|------|
-| **docket/CATALYSTS.tsv** | 34 | May 29 | run countdown at boot |
-| PREDICTIONS | 24 | May 29 | 17 OPEN, scan clean today |
-| CHANGELOG.md | — | May 29 | still owes V12/K-shape-wage backfill |
-| STATUS.md | 250 | May 29 | at target |
-| ROADMAP.md | — | **May 31 PM2** | timestamp bumped this session |
-| KB | 279 | May 5 | 26d — ~16 candidates pending |
-| VX | 117 | May 5 | 26d — FOMC/GAS/HSG/K-shape-WAGE pending |
-| BOARD_LOG | 193 | May 27 | INDEX unmoved — no diff owed |
-| LIAISON.md | 7 turns | May 6 | cycle 1 OVERDUE ~25d |
-| FLOW / STATE_DIFFUSION / BNPL_STRESS | 24/62/59 | Apr 17 | **44d** |
-| ABS_BASELINE | 72 | Apr 16 | **45d** |
-| TRENDS | 39 | Apr 6 | **55d** |
-| **workbook/** | 8 TSVs flat | May 31 | clean |
-| **CLAUDE.md** | **242** | **May 31 PM2** | post-audit |
-| **TEAM.md** | **41** | **May 31 PM2** | post-audit |
-| **templates/SCRATCH.template.md** | **74** | **May 31 PM2** | NEW |
+| **STATUS.md** | ~260 | **Jun 5 PM2** | post-sweep + data-wall |
+| **KB.tsv** | **287** | **Jun 5 PM2** | +3 sweep (288-290); +5 data-wall (283-287); 8 today total |
+| **VX.tsv** | 117 | **Jun 5 PM2** | 7 rows refreshed today (HY OAS + 6 data-wall) |
+| **PREDICTIONS.tsv** | 24 | **Jun 5 PM2** | CRL-11 first-confirmation-point Notes added |
+| **CATALYSTS.tsv** | 30 | **Jun 5** | Jun 1-5 pruned; next Jun 10 CPI |
+| **CALENDAR.md** | — | **Jun 5** | Jun 1-5 fired-marker |
+| **ROADMAP.md** | — | **Jun 5 PM2** | RECENTLY RESOLVED row PM2 + timestamp |
+| CHANGELOG.md | — | May 29 | owes V12 / K-shape-wage / CRL-11-at-threshold backfill |
+| FLOW.tsv | 25 | Apr 17 | 49d |
+| STATE_DIFFUSION.tsv | 63 | Apr 17 | 49d |
+| BNPL_STRESS.tsv | 60 | Apr 17 | 49d |
+| ABS_BASELINE.tsv | 73 | Apr 16 | 50d |
+| TRENDS.tsv | 40 | Apr 6 | 60d |
+| LIAISON.md | 7 turns | May 5 | cycle 1 OVERDUE ~30d |
 | TRADE.md | 42 | May 30 | stub |
-| SIGNAL_INTAKE.md | 161 | May 31 | trimmed |
-| SPAWN_PROTOCOL.md | 209 | May 31 | updated |
 
 ---
 
 ## URGENT
-- Early-June data wall starts **TOMORROW (Jun 1, ISM Mfg)** — boot with docket countdown + NEW step 7c failure-pattern preamble.
-- **CRL-03 May Fannie (~Jun 26)** = invalidation decider (month 2 of <0.65%).
-- **Jun 16-17 FOMC + SEP** = V12 decisive catalyst.
+- **Jun 10 CPI May** (T+5d) — V12 transmission test; CRL-10 food; first inflation post-NFP-beat.
+- **Jun 16-17 FOMC + SEP** (T+11d) — V12 decisive + formal V12 score-upgrade review.
+- **Jun 26 Fannie MF DQ May** (T+21d) — CRL-03 invalidation month 2.
 
-## SESSION FINDINGS WORTH CARRYING
-- **Cross-agent closeout comparison is a powerful audit lens.** Reading SAM's CLAUDE.md side-by-side surfaced 3 real protocol gaps in CARL that weren't visible from within CARL's own framing: A (no CHANGES SINCE slot for delta-between-sessions), B (no promotion-path documentation despite auto-memory's 50+ entries showing the value), E (no failure-pattern preamble despite 3 MISSED predictions whose Notes already carry the lessons). Worth repeating against REGINALD/HENRY/BROCK next time their boot docs get audited — same gaps likely present.
-- **Boot-doc audit pass-1 net effect:** CLAUDE.md dropped 20% in line count while gaining 3 new behavioral rules. The "trim AND strengthen" outcome is the right shape — bloat-cuts that don't sacrifice protocol density. Worth memorializing as a directional principle for future audit passes: line-count reduction is a means, not the goal; behavioral protocol density is the goal.
-- **`templates/` directory convention now established.** Future templates (REPORT.md template for cross-agent reports, REVIEW.md template, sub-agent boot template, etc.) have a home. Matches the convention `scripts/` and `docket/` already follow (purpose-grouped subdirs at agent root, single-purpose contents).
+## SESSION FINDINGS WORTH CARRYING (PM + PM2 combined)
+- **Prome's 4-bucket sweep scope is tighter than mine and more thesis-load-bearing.** My PM2 sweep used 6 consumer-domain queries (credit/housing/BNPL/auto-ABS/student-loans/insurance); Prome added Iran/Brent + HY OAS as load-bearing and was right — HY OAS was the highest-value find of the entire session (272bps counter-signal to masking thesis). **Keep Prome's 4-bucket framing for future sweeps:** energy-substance + bank/ABS/CMBS-specific + credit-spread-load-bearing + Q1-stragglers. Worth memorializing.
+- **Single-month sub-component skepticism rule applied throughout sweep:** Lodging CMBS +137bps single-month flagged needs-2nd-print; Sub-V May +36% YoY flagged base-effect-vs-absorption distinction needs Jun/Jul; CRL-11 Apr hires 3.2% AT threshold logged as first-confirmation-point NOT resolution. Rule held under pressure to over-conclude.
+- **HY OAS is now a permanent monthly cadence row** — masking-thesis-confronter; not optional. Set up monthly fetch reminder.
+- **Carvana prime ABS = April release caught belatedly in sweep ~6-8wk gap.** ABS rating actions sweep cadence needs tightening — currently no automated path; depends on news sweeps. Consider quarterly EDGAR pull for Carvana/Ally/COF/SYF deal-level data alongside ABS_BASELINE refresh.
+- **Net thesis-picture verdict (Prome's one-liner ask): YES, picture moved.** HY OAS counter-signal (public HY says "contained") + Carvana prime ABS confirmation (structured credit says "extending up quality stack") = the thesis bet is now more concretely structured-credit-leads-public-HY-follows. CRL-21 Q3 2026 is the decider for whether mechanism completes the loop. Mechanism-confirming evidence accumulating, conviction-confirming evidence weakening from market verdict.
+- **Single-month sub-component reversal lesson (carry from PM):** ISM Svc Apr New Orders -7.1pp I had treated as load-bearing fully reversed in 1 month. Rule for future: flag "needs 2nd-print" before treating single-month sub-component move as thesis evidence.
+- **Revision-vs-print framing discipline (carry from PM):** May NFP 3-mo flip 48K→188K is dominantly revision-driven. Distinguish "past changed" from "present is strong."
+- **CRL-08 mechanism transmitted to ISM Svc (carry from PM):** Services Prices Paid Aug-2022 high w/ diesel/gas/oil cited = Iran-cluster residual on services cost side, not just pump pass-through.

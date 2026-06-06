@@ -9,15 +9,8 @@ Human-readable twin of `docket/CATALYSTS.tsv`. **The two must not diverge** — 
 
 ---
 
-## This week (≤ Jun 5)
-| Date | Event | Test | Pri |
-|------|-------|------|-----|
-| Jun 1 | ISM Mfg PMI (May) | V12 Prices Paid stagflation (Apr 84.6) | 🔴 |
-| Jun 1 | FL hurricane season begins | POLLY/HOMER P&C; Q3 = true test | 🟡 |
-| Jun 2 | **JOLTS (Apr)** | CRL-09 (Mar missed 0.95) / CRL-11 hires | 🔴 |
-| Jun 2 | Dollar General (DG) Q1 | K-shape bottom-quintile canary | 🟠 |
-| Jun 3 | ISM Services (May) | V12 New Orders + Prices Paid | 🔴 |
-| Jun 5 | **BLS May NFP + UR + AHE** *(verified)* | V16 second realized print | 🔴 |
+## This week (≤ Jun 5) — ALL FIRED & INTEGRATED Jun 5
+*(Pruned Jun 5 PM: ISM Mfg May / FL hurricane season open / JOLTS Apr / DG Q1 / ISM Svc May / NFP May — see STATUS Recently fired Jun 5 row + KB-CARL-283 through KB-CARL-287.)*
 
 ## Jun 6–17
 | Date | Event | Test | Pri |

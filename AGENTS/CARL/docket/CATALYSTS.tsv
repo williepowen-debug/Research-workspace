@@ -1,9 +1,4 @@
 date	event	what_to_check	threshold_signal	priority	who_cares	notes
-2026-06-01	ISM Mfg PMI (May)	Headline + Prices Paid + Employment	V12 stagflation — Prices Paid (Apr 84.6 highest since 2022)	🔴	CARL	1st business day. Sub-component stagflation; headline often mirage.
-2026-06-01	FL hurricane season begins	Season open	POLLY/HOMER P&C cost monitor; Q3 = true test	🟡	CARL,POLLY,HOMER	Q3 hurricane = true P&C test (ALL/PGR/TRV cat-light Q1).
-2026-06-02	JOLTS (Apr)	Openings/unemployed ratio; hires rate	CRL-09 (Mar missed 0.95) / CRL-11 hires <=3.2%	🔴	CARL,LABOR	Ratio lumpy on LFPR denominator. Hires 3.1% COVID-low.
-2026-06-02	Dollar General (DG) Q1	Comp traffic vs ticket; core-customer pressure; SNAP/EBT mix	K-shape bottom-quintile canary	🟠	CARL	DG candid on bottom quintile. Templates in archive/EARNINGS_WATCH_Q1.md.
-2026-06-03	ISM Services (May)	New Orders + Prices Paid	V12 — Apr New Orders 53.5 (-7.1pp decel); Prices Paid 70.7	🔴	CARL	3rd business day. Services-side stagflation read.
 2026-06-05	BLS May NFP + UR + AHE	Headline vs revisions; 3-mo avg	V16 second realized print — Apr +115K noise or stabilization?	🔴	CARL,LABOR	8:30 ET (verified). Feb re-revised -156K; 3-mo avg ~48K.
 2026-06-10	BLS May CPI	Headline+core MoM/YoY; Food at Home	Iran+tariff 2nd month; CRL-10 food decomposition	🔴	CARL	8:30 ET (verified). Apr 3.8% reaccel; feeds FOMC one week ahead.
 2026-06-11	BLS May PPI	Headline + core + core-core	Stagflation goods vs services breadth	🟠	CARL	~day after CPI. Pipeline to CPI/PCE.
