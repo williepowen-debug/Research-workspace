@@ -22,6 +22,51 @@ Current best label: **C) unresolved divergence**. Substance evidence has hardene
 
 ---
 
+## PRIORITY SYNTHESIS NODE — E-SPINE (pre-registered 2026-06-06)
+
+**The question:** Is energy deflation real, and does it un-trap the Fed?
+
+**Source:** **2 independent analytical reads** converged on this as the load-bearing question for E — NEXUS C-ID sweep (6/6 self-audit) flagged C-19 mechanism at risk via SIG-26060601/02; external advisor/orchestrator flagged M-06 → M-03 knock-on and C-19 → TLT chain. **Not logged as M-NEW** — advisor+orchestrator are same root analyst across modes; my own independence test counts that as 1 external read, not 2. This is a high-priority watch node, not a market convergence row.
+
+**The chain:** C-19 (Stagflation Trap, Trophy) = Fed can't cut → long end stays stressed → bearish duration pays. If energy deflates → inflation softens → Fed unblocked → duration rallies → bearish duration decays. Energy is the hinge.
+
+**Position dependency flag (IF-THEN — no trade rail):**
+
+> IF energy deflation confirms AND inflation pass-through is real → M-03 duration thesis rotates → bearish duration expression (TLT) becomes take-profit / roll candidate. Verify live price + P&L before any action. Per `[[feedback_position_cost_basis_not_authoritative]]` — do not cite historical P&L as load-bearing.
+
+### E-spine execution order (sequence — gate at each step)
+
+1. Verify SIG-01/02 via fresh BRENT + HAWK headers + live Brent price (stale-signal skepticism gate).
+2. Apply catalyst-vs-consequence: energy deflating ≠ inflation falling ≠ Fed cutting. Three separate conditional links.
+3. Propagate: M-06 → M-03 reassessment → C-19 TRUE-in-letter / FALSE-in-spirit decision.
+4. Re-grade Break / Grind / Divergence probability split.
+5. Live-verify thresholds — 10Y / TLT priority pre-2026-06-09 auctions.
+
+### Pre-registered verification rubrics
+
+Full rubrics + standing-discipline additions + anti-anchoring rules: **`recon/2026-06-06_e_phase_pre_registration.md`** (committed before any data fetched — locked, do not retro-edit).
+
+- **SIG-01 (BRENT):** VERIFIED / NOISE / AMBIGUOUS thresholds; curve structure = tiebreaker; supply-vs-demand decomposition required; crack spreads + regional differentials + war-premium as tape co-signals.
+- **SIG-02 (HAWK):** VERIFIED / REVERTED head-fake / AMBIGUOUS-grind; tape co-signals = Lloyd's war-premium + time-since-last-kinetic + Chinese tanker transit.
+- **Inflation conditional:** PASS-THROUGH / NO PASS-THROUGH / TOO EARLY; lag-awareness gate; goods-vs-services + wage trajectory + median PCE required decomposition.
+- **4 standing disciplines** adopted for E (war-premium tape signal, crack spreads, causal-lag awareness, supply-vs-demand decomposition); CLAUDE.md codification post-E.
+
+### E-spine outputs (BLANKS — pre-registration; do not fill until data arrives)
+
+| Output | Verdict / Value | Filled when |
+|---|---|---|
+| SIG-01 verdict (BRENT) | `[PENDING — apply rubric]` | After fresh BRENT header + live Brent price + CFTC print |
+| SIG-02 verdict (HAWK) | `[PENDING — apply rubric]` | After fresh HAWK header + kinetic-event scan + insurance proxies |
+| Inflation conditional verdict | `[PENDING — apply rubric, may be TOO EARLY]` | After latest CPI / breakeven / wage reads |
+| M-06 new Conf% / Δ | `[PENDING]` | After SIG-01/02 verdicts |
+| M-03 new Conf% / Δ | `[PENDING]` | After inflation conditional verdict |
+| C-19 status (Trophy / TRUE-in-letter / FALSE-in-spirit) | `[PENDING]` | After all three verdicts above |
+| Probability split re-grade (Break / Grind / Divergence) | `[PENDING — currently 25/35/40]` | After M-03 + M-06 propagation |
+| Threshold marks: 10Y, TLT, Brent live | `[PENDING — pre-6/9 priority]` | After FORGE market-data fetch |
+| Position dependency flag fires? | `[PENDING — IF-THEN gate]` | After all of the above |
+
+---
+
 ## ACTIVE CONVERGENCE MATRIX (5/21 anchor; Δ/timestamps populate in E)
 
 | ID | Convergence | Inputs | Independence | Conf % | Δ since last | Last updated | Status / Action |
