@@ -1,43 +1,37 @@
-# NEXUS SIGNALS — Active Cross-Agent Signal Tracker
-**Last Updated:** 2026-05-21 ~20:30 ET | **Mode:** May 21 reset aligned to `STATUS.md`
-**Purpose:** Live, unresolved cross-agent signals only. Old March/April tracker archived at `AGENTS/NEXUS/signals_archive/SIGNALS_PRE_MAY21_RESET_20260521.md`.
+# NEXUS SIGNALS — Live Unresolved Cross-Agent Signals
+
+**Last reset:** 2026-06-06 (self-audit Phase B). Old 5/21 reset cleared — its SIG-M01..M08 were 1:1 mirrors of STATUS matrix and violated the "SIGNALS is not a copy of STATUS" rule.
+**Purpose:** Routed signals that have **not yet** been absorbed into STATUS convergences. If a signal is already in STATUS matrix → it belongs in STATUS, not here. SIGNALS is a queue, not a copy.
 
 ---
 
 ## Lifecycle
 
-1. Signal arrives via inbox, agent outbox, PROME route, or COMM.
-2. NEXUS evaluates: new convergence, upgrade/downgrade, contradiction, or stale/noise.
-3. If absorbed into `STATUS.md`, keep only a short reference here until next pass.
-4. If resolved/superseded, archive with outcome.
-5. If still developing, keep active with next evidence.
+1. Signal arrives via `inbox/`, `AGENTS/SIGNALS.md`, or routed delivery.
+2. NEXUS evaluates: new convergence, upgrade/downgrade existing, contradiction, or stale/noise.
+3. If absorbed into STATUS → archive to `signals_archive/` with C/M-XX mapping; remove from this file.
+4. If resolved/superseded → archive with outcome.
+5. If still developing → stays here with next evidence.
 
 ---
 
-## Active May 21 Signals
+## Active (awaiting integration in E-phase worldview pass, pre-2026-06-09)
 
-| SIG-ID | Date | Source | Signal | Mapping | Status | Priority |
+| SIG-ID | Date | Source | Signal | Maps to | Status | Priority |
 |---|---|---|---|---|---|---|
-| **SIG-M01** | 2026-05-21 | HEARTBEAT / BROCK / REGINALD / HENRY / VIOLET / WALTER / RED | **Stage-2-late divergence** — substance-side bear convergence hardening while HY/VIX/tape do not confirm transmission. | M-01 / T-01 | Active core regime; governs all synthesis. | 🔴 |
-| **SIG-M02** | 2026-05-21 | BROCK / RED / REGINALD / WALTER | **BDC/private-credit Stage 2 persists** — FSK strong bear, gates/marks stress, but no HY OAS Stage 3. | M-02 / T-05 | Active; wait for BIZD sustain, arms-length marks, Q2 BDC/bank prints. | 🔴 |
-| **SIG-M03** | 2026-05-21 | LIQUID / HENRY / BOND / HEARTBEAT | **Duration channel replacing plumbing channel** — TLT/10Y stress live; SOFR/plumbing clean; auctions clear at price. | M-03 / T-02 | Active; June 9–11 nominal auctions are next clean test. | 🔴 |
-| **SIG-M04** | 2026-05-21 | VIOLET / HENRY / WALTER gamma signal / RED | **Vol/gamma suppression** — VIX <20, VIX9D near/sub-15, contango, SKEW regime ended without spike. | M-04 / T-03 | Active tension; R11 5/28–6/02 trigger window pending. | 🟠 |
-| **SIG-M05** | 2026-05-21 | REGINALD / RED / BROCK | **WAL/CRE bear-medium vs tape recovery** — WAL V2.2 accepted, B1 fired; WAL reclaimed/contests $78. | M-05 / T-04 | Active contradiction; Q2 print + second migration decide. | 🔴 |
-| **SIG-M06** | 2026-05-21 | WALTER / HENRY / HEARTBEAT | **Energy/stagflation pressure, war path softened** — Brent >100 and hot prints, but Iran old binary escalation downweighted. | M-06 / T-06 | Active but needs BRENT refresh before hard-weighting. | 🟠 |
-| **SIG-M07** | 2026-05-21 | WALTER / BOND / VIOLET / RED / HEARTBEAT | **Bull-counter tape cluster** — clean auction, NVDA absorbed, WAL/KRE bounce, SKEW termination without vol spike, HY <300. | M-07 / T-01 | Active constraint against near-dated bearish overreach. | 🔴 |
-| **SIG-M08** | 2026-05-21 | PROME / FORGE rehab | **Position truth not clean enough for NEXUS trade rails** — FORGE rehab in progress; 6/18 theta cluster now blocking item. | STATUS constraint | Active guardrail; NEXUS synthesis allowed, trade routing deferred. | 🔴 |
+| **SIG-26060601** | 2026-05-15 | BRENT → `AGENTS/SIGNALS.md` | **Path B Trigger #3 fired** — CFTC MM net longs 70,791 (May 5), down 29K from 99,887 peak over 2 wks at Brent $106–111 = distribution. 1/3 Path B triggers fired. Phase 2 watch active. | **M-06 candidate downgrade** ("energy premium deflating" leg) | Awaiting E integration. Pending fresh BRENT header verify (signal is 3 wks old). | 🔴 |
+| **SIG-26060602** | 2026-05-22 | HAWK → `inbox/` | **Iran/Hormuz reframed** from one-way escalation to bifurcated partial-thaw/grind: C 55% / D 35% / B 10%. Barakah adds nuclear-infra target class; Chinese tanker egress + Trump attack call-off add thaw/carve-out class. May 25-29 next classification window (now passed). | **M-06 candidate downgrade** ("war path softened" leg) | Awaiting E integration. Pending fresh HAWK header verify (signal is 2 wks old + 5/25-29 window passed). | 🟠 |
+| **SIG-26060603** | 2026-05-14 | Will screenshots → `inbox/` | **Gamma/momentum calm may be mechanical** — gamma surged near-record low → near-record high in weeks (fastest on record); 0DTE cited as amplifier; momentum dominant equity factor. MacroScope late-2021 analog: 1-2mo countdown to top. | **M-04 reinforcement** (vol/gamma suppression as mechanical) | Partially aligned with M-04 but never logged. Integrate in E. Countdown clock ~5/14 + 1-2mo → fires mid-June to mid-July window. | 🟠 |
 
 ---
 
-## Pending Refresh Inputs
+## Convergence note (advisor-flagged 2026-06-06)
 
-| Input | Why needed | Owner / path |
-|---|---|---|
-| BRENT current status | Energy remains active but old Hormuz/dual-chokepoint frame is stale. | `AGENTS/BRENT/STATUS.md` / WALTER anchor |
-| SAM current Japan/FX read | USDJPY near 160; FXY/SAM trade state changed during FORGE rehab. | `AGENTS/SAM/STATUS.md`, `AGENTS/SAM/TRADE.md` |
-| LABOR / CARL current read | Old Hotel California / FL UI wave should not be active-weighted without refresh. | `AGENTS/LABOR/STATUS.md`, `AGENTS/CARL/STATUS.md` |
-| BOND post-TIPS correction canonical state | BOND `STATUS.md` may lag; use LAST_COMPLETION until STATUS refresh. | `AGENTS/BOND/LAST_COMPLETION.md` |
-| FORGE rehab final state | Needed before any NEXUS outbox proposes action rails. | `FORGE/STATUS.md` |
+**SIG-26060601 + SIG-26060602 are independent roots pointing same direction (energy risk premium deflating):**
+- CFTC positioning unwind (paper longs leaving while price holds at $106-111)
+- Geopolitical de-escalation (Trump call-off + Chinese tanker egress + thaw-class weight rising)
+
+Both hit M-06 ("Energy/stagflation pressure persists, war path softened, 55%"). Likely E-phase action: **M-06 downgrade toward "Energy premium deflating / stagflation channel weakening"** with knock-on prior on M-03 (duration channel) and the broader stagflation-trap framing. Pending fresh BRENT + HAWK header verify before locking — both signals are 2-3 wks old.
 
 ---
 
@@ -45,17 +39,14 @@
 
 | Old signal | Action | Reason |
 |---|---|---|
-| SIG-015 Meta layoffs | Archived as stale | No current LABOR/CARL refresh in May 21 pass. |
-| SIG-017 ceasefire rally pattern | Superseded | WALTER now frames Iran as partial-thaw + infrastructure-theater shift. |
-| SIG-019 fertilizer collapse | Monitor only | No fresh HAWK/BRENT/MARCO evidence in May 21 pass. |
-| SIG-020 Caspian route strike | Superseded / stale | Old war-theater expansion frame not current enough. |
-| SIG-031 FL UI Wave 2 Apr 26 | Retired | Date passed; needs LABOR/CARL verification before reactivation. |
+| SIG-M01..M08 (5/21) | Cleared 2026-06-06 | Were 1:1 mirrors of STATUS matrix M-01..M-07 + FORGE no-trade-rails guardrail. STATUS is canonical for absorbed convergences; SIGNALS reserved for unresolved queue. |
 
 ---
 
 ## Next NEXUS Pass
 
-Trigger a fuller NEXUS pass when either:
-
-1. FORGE rehab is complete and Prome wants a Will-facing synthesis, or
-2. one of the release mechanisms fires: HY >300, VIX/VVIX trigger cluster, weak June nominal auction, WAL second migration, BIZD sustained <12.50, or Q2 BDC/bank print confirms arms-length marks.
+E-phase worldview refresh, pre-2026-06-09 (June 9-11 nominal auctions). Priority:
+1. BRENT + HAWK headers — validate SIG-01/02 still current.
+2. Integrate energy convergence into M-06 with new Conf % + Δ.
+3. Process SIG-03 gamma signal into M-04.
+4. Move all three to `signals_archive/` with C/M mapping after integration.
