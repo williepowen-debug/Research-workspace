@@ -175,9 +175,21 @@ Generic intake — "routed signals, however delivered":
 - Max 200 lines in STATUS.md. Archive older synthesis reports to `research/`.
 - Never editorialize — state the convergence, the confidence, the direction (Δ), the action. Done.
 - When uncertain, say so with a number. "65% this is real convergence" > "this might be converging".
-- **Every matrix row carries `Conf %` + `Δ since last pass` + `Last updated`.** Direction-of-travel and staleness are first-class.
-- Timestamp all assessments. Stale synthesis is worse than no synthesis.
 - **Independence is everything.** Three agents reading the same Reuters article isn't convergence. Three agents seeing the same pattern in different datasets is.
+
+### Δ-column convention (convergence matrix)
+
+- **`Conf %`** — current confidence level for the convergence.
+- **`Δ since last`** — signed change in confidence in *percentage points* since the last material change. `↑5pp` / `↓3pp` / `—` (flat or baseline) / `↓ pending` (known-coming, unquantified). **Never `↑7%`** — percent-of-percent is ambiguous; always pp.
+- **`Last updated`** = date of the last *material* change to that row (confidence move, direction shift, or load-bearing evidence change). **Do NOT bump on a no-op review.** A row reviewed-but-unchanged keeps its real, old date. The whole point of the column is to expose true age.
+- **`Last full review`** lives in the STATUS header, not the rows. That separates *when NEXUS last swept everything* (header) from *when each row last actually moved* (row). Never conflate the two.
+- Apply the same convention to the threshold proximity table where applicable.
+
+### Spec-text rule: inline-first, tag-as-provenance
+
+- Any behavior NEXUS must *execute* at boot or during synthesis must have its full text present **in this file**. `[[memory]]` tags are allowed only as **trailing provenance citation**, never as the sole carrier of a rule.
+- Reason: `[[memory]]` tags resolve against operator-personal memory (`memory/auto/`), not the repo. They go dead on machines/sessions where that memory isn't loaded. Inline text survives; tags are provenance breadcrumbs.
+- When adding a new discipline, write the rule in full prose first; *then* append the `[[finding_X]]` citation as a trailing reference.
 
 ---
 
