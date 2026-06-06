@@ -78,7 +78,13 @@ def backfill_spot(days: int, rows: dict[str, dict]) -> int:
         if df.empty:
             print(f"    ⚠ {sym}: empty history")
             continue
-        hist[key] = df["Close"]
+        # Normalize each Series's index to plain date BEFORE concat — tz-aware
+        # DatetimeIndex types can differ subtly between tickers, which causes
+        # pd.concat(axis=1) to emit two rows per date (one per ticker) instead
+        # of one merged row. .date() before concat collapses them correctly.
+        s = df["Close"]
+        s.index = [d.date() if hasattr(d, "date") else d for d in s.index]
+        hist[key] = s
 
     if "vix" not in hist:
         print("  ✗ cannot backfill: no VIX history")
@@ -91,8 +97,6 @@ def backfill_spot(days: int, rows: dict[str, dict]) -> int:
     # corroboration; an orphan ^VIX row is treated as a phantom and dropped.
     if "vix3m" in df.columns:
         df = df[df["vix3m"].notna()]
-    # Pandas gave us datetime index in ET or UTC — normalize to date
-    df.index = [d.date() if hasattr(d, "date") else d for d in df.index]
 
     touched = 0
     for d, series in df.iterrows():

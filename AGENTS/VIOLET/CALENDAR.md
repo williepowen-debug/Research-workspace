@@ -51,13 +51,14 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 
 | Date | Event | VIX Implication | VIOLET Checkpoint |
 |------|-------|-----------------|-------------------|
-| **Jun 05** | **R12 regime re-establishment knife-edge (5td path)** | If SKEW holds 144 daily, 20d-avg crosses 140; regime re-establishes | 🟡 Daily refresh through 6/10. KB-VIO-061. |
-| **Jun 09-10** | **R12 re-establishment knife-edge (8td path)** | Latest realistic re-establishment timing before catalyst gate | 🟡 Knife-edge binary resolved by this date. |
-| **Jun 12** | **May CPI release** | First named macro test post-R11-window. Hot print = potential vol catalyst. | 🟠 Pre-mortem due 6/08-6/10. |
-| Jun 15 | VIOLET SKEW scenario full checkpoint | 60-day window closes on Apr 13 SKEW divergence | 🟡 Scenario A/B/C resolution per KB-VIO-031 |
+| **Jun 12** | **May CPI release** | First named macro test post-NFP-shock. CPI tail = compounds NFP rate-shock + AI unwind; clean print = fade-leg #1 deflates. | 🔴 Position gate before any short-vol expression. Pre-mortem due 6/08-6/10. |
 | **Jun 17** | **FOMC + Powell + SEP + VIX June quarterly expiration** | **Primary vol catalyst gate convergence — 4 events same day** | 🔴 Highest-priority forward gate. |
 | Jul 15 | VIX July expiration | — | — |
 | Jul 29 | FOMC (no SEP) | — | — |
+
+**Resolved (6/6):**
+- **6/05 R12 knife-edge (5td & 8td paths):** RE-ESTABLISHED 6/05 via 20d-avg = 140.16. Concurrent with VIX +40% NFP-shock (KB-VIO-067 L1 fired forward simultaneously). See KB-VIO-072.
+- **6/15 KB-VIO-031 60d-window checkpoint:** RESOLVED HIT via 6/05 VIX +39.7% (Scenario B confirmed at td-58 of the 60d window).
 
 ---
 
@@ -93,4 +94,4 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 ---
 
 *Created: 2026-04-12*
-*Last Updated: 2026-06-01 (catch-up session closeout — calendar reconciled with workbook/CATALYSTS.tsv; June 17 FOMC+SEP+VIX quarterly convergence flagged as highest forward gate; knife-edge dates 6/05-6/10 added. Intra-day pass 3: VX_DAILY backfilled 5/14 → 6/1.)*
+*Last Updated: 2026-06-06 (Saturday org session — knife-edge resolved 6/05 (KB-VIO-072), KB-VIO-031 60d window HIT, both pruned from active catalysts. 6/12 CPI now primary forward gate.)*
