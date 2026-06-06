@@ -72,44 +72,48 @@ You maintain:
 12. **Update `STATUS.md`** — (a) refresh the lead-paragraph live-state header (BOARD count / today's dispatches+kills+verify-spawns / push state / current cluster updates / routing pressure / **today's bifurcation-signal count** — count of dispatched signals carrying `cluster_mediating: true` post-v0.8 OR prose-tagged paper-vs-structural / tape-vs-substance / bifurcation / divergence interim; auto-flag `network_uncertainty_peak` when ≥5 in single calendar day per JOINT_PROPOSAL_2026-05-06_red_walter §5.5b — surface in lead paragraph + Will Telegram-ping at closeout if firing; near-trigger watch from FALSIFICATION step 6b/Phase 2 step 7 also surfaces here); (b) **regenerate** the NETWORK AWARENESS "Today's routing + stale agents" subsection from the just-refreshed REGISTRY.tsv (Pass 4 design — option A: regenerate at closeout, do NOT carry forward stale agent rows; previous embedded table dropped 2026-05-05); (c) refresh FILTER POSTURE only if posture changed (otherwise leave) including the standing flags block (COP-paused, etc.); (d) prepend a SESSION LOG entry for today's session (older entries roll into `SESSION_LOG.md` per Pass 1).
 13. **Update `REGISTRY.tsv`** — final refresh of Status/Updated/Focus from any STATUS files read during session. **REGISTRY.tsv must be refreshed BEFORE step 12(b) — the regenerated NETWORK AWARENESS subsection reads from it.**
 14. **Update `MEMORY.md`** — rewrite CHANGES SINCE / NEXT SESSION blocks. Add any new Feedback or Findings (only durable items — not per-session state). Prune if over 100 lines.
+
+   **Promotion paths** (cross-session findings should live in the highest-leverage layer they apply to, not all three):
+   - **Domain-process findings** (filter rules, dispatch discipline, signal-format conventions, routing-table extensions, cluster-taxonomy decisions) → promote to the relevant `design/` spec (FILTER_SPEC / FORMAT_SPEC / CHECKLIST / ROUTING_TABLE / CLUSTER_TAXONOMY) per the canonical-source lookup table. Bump spec version on promotion.
+   - **Cross-session workflow / process / calibration lessons transferable to other agents** (git-commit-race safety, parallel-spawn discipline, LIAISON-convergence accelerators, sub-agent prompt rubrics, Telegram reply discipline, etc.) → promote to **auto-memory** at `~/.claude/projects/-home-willi-Research-workspace/memory/` with one-line index entry in that dir's `MEMORY.md`. Auto-memory loads at every boot via the harness, so promoted findings reach future WALTER sessions AND other agents from their first turn. Reference promoted auto-memories from inline notes via `[[name]]` syntax (e.g. `[[finding_pathspec_commit_race_safety]]`).
+   - **Remove from local `MEMORY.md` after promotion** — the promotion is canonical; keeping a duplicate in local MEMORY.md just means two-places-to-keep-in-sync and silent drift. Local MEMORY.md holds only what hasn't yet earned promotion.
 15. **Write `LAST_COMPLETION.md`** — structured closeout record. STATUS / CHANGED / RESULT / GAPS / WILL_NEEDS / FOLLOW-UP. Overwrite each session, not append.
-16. **Git commit and push** — strict numbered sequence below. **Never skip steps 16a–16c.** These steps exist because prior sessions leaked other agents' work into our commits (e.g., 80 CARL file deletions swept into a SAM commit Mar-Apr 2026).
+16. **Git commit and push — pathspec commits, never `git reset HEAD`.** Follow root `CLAUDE.md` Git Commit Protocol. **The pathspec-commit pattern replaces the prior `git reset HEAD → git add AGENTS/WALTER/` flow** per auto-memory `[[finding_pathspec_commit_race_safety]]` + `[[finding_concurrent_commit_index_race]]`: the shared `.git/index` makes `git reset HEAD` a global op that can clobber concurrent agents' staged work, and the gap between `git add` and `git commit` can let a concurrent agent commit YOUR staged files under THEIR message. Pathspec commits close both windows.
 
-   **16a. Clear the staging area first**
+   **16a. Commit modified files directly via pathspec — no staging step.**
+   For files that already exist in git and are just modified this session:
    ```
-   git reset HEAD
+   git commit AGENTS/WALTER/<file1> AGENTS/WALTER/<file2> [COP.md] [BOARD/<files>] -m "..."
    ```
-   Clears anything another session left pre-staged. Without this, `git add` accumulates on top of stale staging.
+   `git commit <pathspec>` picks up modified files in the working tree and stages + commits them atomically. No `git reset`, no pre-stage `git add`, no race window. The pathspec list IS the scope-enforcement — only paths inside `AGENTS/WALTER/`, `COP.md`, `BOARD/`, or LIAISON shared-write zones (`AGENTS/{TARGET}/handoff_WALTER/LIAISON.md`) are valid. Never `git add .` or `git add -A`. Never pass an unscoped directory like `AGENTS/` or a parent path.
 
-   **16b. Stage ONLY WALTER's files (and COP.md, BOARD/ contents)**
+   **16b. New untracked files: `git add <files> && git commit <same files>` atomically chained.**
+   For net-new files (new signal files in `BOARD/`, new design docs, new outbox items), pathspec commit alone doesn't pick them up — they need to be staged first. Use:
    ```
-   git add AGENTS/WALTER/
-   git add COP.md        # only if COP.md changed this session
-   git add BOARD/        # only if BOARD signals/INDEX changed this session
+   git add AGENTS/WALTER/<new-file> BOARD/<new-signal> && git commit AGENTS/WALTER/<new-file> BOARD/<new-signal> -m "..."
    ```
-   `/COP.md` and `/BOARD/` live at repo root but WALTER owns both — must be staged explicitly. Never `git add .` or `git add -A`.
+   `&&`-chained in one shell call so the add-to-commit window is microseconds. Always pass the **same explicit paths** to `add` and `commit` — never a directory. Optional sanity check between add and commit: `git diff --cached --stat`.
 
-   **16c. Verify scope before committing**
-   ```
-   git diff --cached --stat
-   ```
-   Must show ONLY `AGENTS/WALTER/…`, `COP.md`, and/or `BOARD/…`. If anything else appears (other agents' directories, shared files), run `git restore --staged <file>` to unstage it, then re-verify. **This check is mandatory. A failed verification does not auto-recover — rerun 16a.**
+   **16c. Sanity check (optional but cheap).**
+   Before the commit step, `git diff --stat AGENTS/WALTER/ BOARD/ COP.md` (or whatever pathspecs you're about to commit) shows what's in scope. If anything unexpected appears, investigate before committing — don't unilaterally `git restore --staged` or `git reset` (both can touch the shared index). If you spot pre-staged work from another agent (rare but possible), flag to Will rather than auto-clearing.
 
-   **16d. Commit with descriptive message**
-   Follow commit message style in root CLAUDE.md (HEREDOC, Co-Authored-By trailer).
+   **16d. Commit message style.**
+   HEREDOC + `Co-Authored-By: Claude Opus 4.7 <noreply@anthropic.com>` trailer per root CLAUDE.md.
 
-   **16e. Pull before push if origin diverged**
+   **16e. Pull before push if origin diverged.**
    If `git push` says the branch is behind:
    ```
    git pull --rebase --autostash
    ```
-   The `--autostash` flag (SAM pioneered Apr 11) stashes ONLY tracked changes and pops automatically after rebase. Untracked files (other agents' new work) are never at risk. If the rebase conflicts, resolve only within `AGENTS/WALTER/` — never touch other agents' files. If an other-agent file conflicts, abort and flag to Will.
+   The `--autostash` flag stashes ONLY tracked changes and pops automatically after rebase. Untracked files (other agents' new work) are never at risk. If the rebase conflicts, resolve only within `AGENTS/WALTER/`, `BOARD/`, or the LIAISON shared-write zones you committed — never touch other agents' files. If an other-agent file conflicts, abort and flag to Will.
 
-   **16f. Push**
+   **16f. Push.**
    ```
    git push
    ```
-   If push fails for a reason other than divergence (auth, network), note the pending push in LAST_COMPLETION.md GAPS and retry next session.
+   If push fails for a reason other than divergence (auth, network), note the pending push in LAST_COMPLETION.md GAPS and retry next session. **Defer push entirely** if you observed concurrent agents with uncommitted work in the working tree at boot OR during the session — commit locally, note the deferred push in LAST_COMPLETION.md, and let the next clean-tree session push the train. Per auto-memory `[[feedback_defer_push_coordinate]]`.
+
+   **Cross-agent file commits** (LIAISON shared-write zones at `AGENTS/{TARGET}/handoff_WALTER/LIAISON.md`): these CAN be included in WALTER's commit pathspec list when WALTER is writing the WALTER-side of a turn or closing the LIAISON — that's the architectural intent of the handoff zone. Verify the target agent is not currently active in the working tree before committing into their handoff_WALTER subtree (per auto-memory `[[feedback_agent_git_isolation]]`).
 
 ---
 
