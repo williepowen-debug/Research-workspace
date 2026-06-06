@@ -64,8 +64,14 @@ E-phase shipped. **Energy "deflation un-traps Fed" hypothesis CLOSED** — chain
 - **Saturday-markets-closed discipline** — all marks labeled "Fri 6/5 close," never "live."
 - **Anti-anchoring** — rubrics applied before viewing data; no rubric-edits mid-pass.
 
-## Cross-signal lesson logged
-Advisor-flagged 6/6 framing that SIG-01 + SIG-02 were "independent roots pointing same direction (energy premium deflating)" did NOT hold — both were derivatives of an Iran-thaw assumption that broke 6/1. **Future independence test:** verify the *shared antecedent assumption* hasn't broken since signals were generated.
+## Cross-signal lesson logged → codified as Discipline F
+Advisor-flagged 6/6 framing that SIG-01 + SIG-02 were "independent roots pointing same direction (energy premium deflating)" did NOT hold — both were derivatives of an Iran-thaw assumption that broke 6/1. **Codified post-orchestrator-review as Synthesis Discipline F (shared-antecedent independence re-test):** independence is now a *two-pass* test (at signal-creation AND at integration). Also written to auto-memory as `[[finding_shared_antecedent_independence_test]]` — transferable beyond NEXUS (any cross-signal synthesis: CARL multi-channel, PROME orchestral, BROCK multi-name aggregation).
+
+## Orchestrator-review refinements (post-initial-pass)
+Three refinements applied per orchestrator read:
+1. **M-06 row carries explicit conditional flag** — "↑5pp upgrade rests on re-escalation holding past 6/8 Trump/Rubio response" — same shared-antecedent risk that killed SIG-01/02, applied in reverse.
+2. **Probability split tagged PROVISIONAL pending 6/12 CPI** — Discipline B says don't bank the 6/5 vol break until digestion through May CPI. If CPI fades vol, revert toward 25/35/40.
+3. **Discipline F codified in CLAUDE.md** — independence test extended to two-pass + new Discipline F prose + memory tag. Convergence Detection framework #1 updated.
 
 ## Blockers / Gaps for next pass
 1. **6/8 Mon Trump/Rubio Iran response** — SIG-02 durability gate; live-event override if hard move either way.

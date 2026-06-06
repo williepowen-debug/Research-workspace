@@ -3,7 +3,7 @@
 **Last full matrix review:** 2026-06-06 (Fri 6/5 close anchor)
 **Mode:** E-phase shipped. Energy "deflation un-traps Fed" hypothesis CLOSED — chain failed at step 1 (Iran SUSPENDED MOU 6/1). Vol regime partially cracked on 6/5 NFP, credit still anchored.
 **Regime (6/5 close anchor):** **Stage-2-late divergence — vol leg cracking, credit leg holding.** VIX 21.51 +40% on NFP / SKEW 152 breached / VVIX 102 sustained / HY OAS 274 flat / KRE +0.27% on SPX −2.64% day.
-**Probability split, 2–6wk (6/5 anchor):** Break **30%** (↑5pp) / Grind-lasts **30%** (↓5pp) / Unresolved divergence **40%** (—).
+**Probability split, 2–6wk (6/5 anchor — PROVISIONAL pending 6/12 CPI):** Break **30%** (↑5pp) / Grind-lasts **30%** (↓5pp) / Unresolved divergence **40%** (—). *Tilt toward Break leans on 6/5 vol crack — Discipline B (single-print skepticism) says don't bank vol break until 6/12 CPI digestion. If CPI fades vol, revert toward 25/35/40.*
 **Trading constraint:** No trade rails from NEXUS until FORGE rehab / position truth is clean.
 
 > **Δ-column convention:** `Conf %` = current level; `Δ since last` = signed pp change since last *material* update (`↑5pp`, `↓3pp`, `—` flat/baseline, `↓ pending` known-coming); `Last updated` bumps **only** on material change (confidence move, direction shift, or load-bearing evidence change) — *never* on a no-op review. Header "Last full matrix review" = when the sweep happened, regardless of whether rows moved.
@@ -82,7 +82,7 @@ Full rubrics + standing-discipline additions + anti-anchoring rules: **`recon/20
 | **M-03** | Duration channel replaces plumbing channel | LIQUID, HENRY, BOND, HEARTBEAT | High | **70%** | — | 2026-05-21 | 10Y 4.54% @ [Fri 6/5 close, fetch.py ^TNX] +6bps on NFP; TLT $85.06 @ [Fri 6/5 close, fetch.py TLT]. 6/9-11 auctions still the test. |
 | **M-04** | Vol/gamma suppression explains non-transmission | VIOLET, HENRY, WALTER gamma, RED | Medium | **45%** | **↓15pp** | 2026-06-06 | VIX +40% to 21.51 on 6/5 NFP, SKEW 152, VVIX 102 sustained → vol DID transmit. Mechanism wounded. Gamma countdown window (SIG-26060603, 1-2mo from 5/14) now firing. |
 | **M-05** | WAL/CRE bear-medium, not sector cascade | REGINALD, RED, BROCK | Medium | **65%** | — | 2026-05-21 | WAL $80.15 @ [Fri 6/5 close, fetch.py WAL] holding above $78. Q2 print decides. |
-| **M-06** | Energy/stagflation pressure persists, **war path RE-ARMED** | HEARTBEAT, HENRY, WALTER, BRENT, HAWK | Med | **60%** | **↑5pp** | 2026-06-06 | Iran SUSPENDED MOU 6/1 + Kuwait kinetic. Brent $93.09 @ [Fri 6/5 close, fetch.py BZ=F] paper-soft but physical tight. Durability gate = Trump/Rubio Mon 6/8 response. |
+| **M-06** | Energy/stagflation pressure persists, **war path RE-ARMED** *(CONDITIONAL: re-escalation holds past 6/8)* | HEARTBEAT, HENRY, WALTER, BRENT, HAWK | Med | **60%** | **↑5pp** | 2026-06-06 | Iran SUSPENDED MOU 6/1 + Kuwait kinetic. Brent $93.09 @ [Fri 6/5 close, fetch.py BZ=F] paper-soft but physical tight. **Per Discipline F (shared-antecedent re-test): the ↑5pp upgrade rests on re-escalation holding past 6/8 Trump/Rubio response — same shared-antecedent risk that just killed SIG-01/02 in reverse. If Trump re-engages quickly, retrace upgrade.** |
 | **M-07** | Bull-counter tape cluster | WALTER, BOND, VIOLET, RED, HEARTBEAT | High | **60%** | **↓10pp** | 2026-06-06 | Vol-crushed leg broke (VIX +40%). Other legs intact: HY 274 flat, KRE +0.27% on SPX −2.64% day, WAL above $78. Cluster wounded not dead. |
 
 ---
