@@ -1,11 +1,32 @@
 # SAM TIMELINE
 
-**Last Updated:** 2026-06-01 (Iran MOU effectively broken; intervention #3 zone reactivated; Fed-cut backup engine reads dead for Jun)
+**Last Updated:** 2026-06-06 (NFP-shock USDJPY 160 tag via USD-side; cross-pair vindicates yen-strength direction; CFTC build #5 → METHOD gate resolved against cover)
 **View:** Base case progression with branch points marked
 
 This document maps our forward-looking expectations — what's coming, what we think happens, and where the path could diverge. Updated as events resolve or views change.
 
 *Pre-2026-05-11 entries archived to [ARCHIVE.md](ARCHIVE.md).*
+
+---
+
+## RESOLVED — Jun 5-6 (NFP SHOCK ROUTES USDJPY THROUGH #3 TRIGGER VIA USD-SIDE; CROSS-PAIR VINDICATES YEN-STRENGTH)
+
+### Fri Jun 5 — MAY NFP +172K vs 85K CONSENSUS → USDJPY 160.20 INTRADAY (first sustained hard #3 trigger print this cycle)
+
+- **Event:** US May NFP printed +172K (vs 85K consensus, prior 179K revised up); unemployment 4.3% steady; AHE +0.3% MoM / +3.4% YoY. Hot payrolls + resilient labor crushed Fed-cut bets. DXY +0.66% to 100.07; 2Y closed 4.17% (highest since Feb 2025), 10Y 4.55%. USDJPY tagged **160.20 intraday** — first sustained print above MOF #3 hard trigger this cycle. Brent collapsed to $92.94 (-2.20% Fri, 3rd consecutive down session, cumulative -4% from $96.78 Jun-3 baseline) on **separate driver**: China crude imports lowest in 10 years + Trump-Iran walk-back rumors.
+- **Cross-pair divergence — the diagnostic read:** EURJPY -0.63%, GBPJPY -0.48%, AUDJPY -1.13% — yen STRENGTHENED vs everything EXCEPT USD. FXY -0.07% flat on day despite USDJPY higher (priced via cross-pair signal, not USDJPY tick). **This vindicates the carry-unwind direction thesis:** real yen demand is intact; the USDJPY level is masking it via a USD-side macro shock independent of the Japan story.
+- **SAM-23 (intervention #3) HELD 72%:** Pre-registered conjunction triggers (Jun 4) — neither met cleanly. Mark-DOWN required Brent-down + Tehran walk-back + USDJPY<159.50; (i)+(ii) substantially met but (iii) INVERTED (160.20 up, not 159.50 down). Mark-UP required Brent-up + USDJPY 160+ + Tehran escalation; (ii) met but (i) INVERTED and (iii) missing. **Discipline held the mark.** Analytical note logged: the framework's path-dependency (MOU break → oil → yen-weak → USDJPY) has decoupled — USDJPY can hit hard trigger via independent USD drivers. Re-anchoring candidate for next CHANGELOG.
+- **SAM-21 (June BOJ hike) HELD 70%:** Polymarket 96.3% (Fri close, -0.6pp from Thu 96.9%, within noise). **No dovish capitulation from BOJ market despite Fed-cut path locking dead** — the BOJ-vs-Fed bilateral pricing held up. Per Jun-9 mechanical-trigger discipline, fire-condition (Polymarket ≥90% + no Takaichi pushback) overdetermined; default path is wait for Jun 9 re-check.
+- **Fed-cut secondary path locked dead:** Fed Funds futures now price 93%+ no-change at Jun 17 (was >97%); 2026 cut odds approaching ~0% (was <10%). The "BOJ delays = pure downside" risk-factor framing in THESIS hardens — no Jun-window backup catalyst.
+- **What's NOT changing:** Position structure (13 shares + Jun-18 $58C). Stop spec event-capped pre-Jun-16. v1.5 single-path framing holds — June BOJ remains dominant remaining catalyst. Direction-of-conviction (HIGH) reinforced by cross-pair read.
+- **Net:** Thesis-side vindication via the divergence. Risk side: intervention probability genuinely elevated at hard #3 trigger (Bessent-Katayama posture intact); per CH-003, if #3 fires the unwind|fires baseline is ~0.20 (same-day reclaim modal).
+
+### Sat Jun 6 — CFTC Jun 2 PRINT → METHOD RESIDUAL-GATE TEST RESOLVED AGAINST COVER
+
+- **Event:** CFTC JPY COT (Jun 2 data) released Sat Jun 6 AM: net **-129,567** (vs -114,667 May 26). Shorts +16,756; longs +1,856; net WoW -14,900. **72.0% of Jul-2024 cycle peak -180K** (vs 63.7% prior). 5th consecutive build week.
+- **METHOD gate outcome:** First scheduled CFTC amplifier/residual-gate test under the CH-004 THESIS METHOD. Pre-condition for amplifier+residual to flip OFF was net cover below ~-108K (60% line). **Outcome: positioning built FURTHER into the line, not toward it.** Amplifier STAYS +5pp ON; residual STAYS ON. Approaching 85%/-153K danger zone where amplifier escalates to +8-10pp.
+- **What this means:** Fuel load growing INTO the Jun 16 catalyst, not covering. Aug-2024 violence-conditional remains live: an unwind catalyst within eligibility (BOJ hawkish-of-pricing OR USD reversal OR risk-off shock) lands on bigger fuel load than week prior. Carry-unwind decomposed estimate (7/30/60 buckets) held Jun 3 marks — CFTC build is within the +5pp band, no anchor shift triggered.
+- **Position implication:** Channel 2 fuel-load growing through the most predictable cabling window (pre-blackout Jun 13). No position change warranted on positioning data alone; the catalyst-side read (Jun 16 BOJ) still drives.
 
 ---
 
