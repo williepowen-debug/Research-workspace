@@ -1,100 +1,64 @@
-# VIOLET SCRATCH — June 1, 2026 (evening session)
+# VIOLET SCRATCH — June 5, 2026 (NFP-shock session)
 
-**Purpose:** Ephemeral session handoff — canonical "where are we / what next." Read at boot, rewritten at closeout. Persistent learnings → `MEMORY.md`; dated catalysts → `CALENDAR.md`.
-
----
-
-## EVENING SESSION (6/1 ~18:00-20:00 ET — post-power-loss recovery)
-
-**Will lost power mid pass-4 closeout; verified all 5446b64e commits pushed to origin — no work lost.**
-
-- **Fresh boot via boot.py:** VIX 16.05 (+0.12 since EOD), VVIX 91.6 (flat), SKEW 142.46 (-1.72 from 144.18). Knife-edge math unchanged (~5td to resolve). COT no change (next refresh 6/05).
-- **KB-VIO-066 added:** Deep-tail call OI concentration (65-strike) ranks #3 on 6/17 (176,503) and #2 on 7/22 (254,923). CALIBRATION CHECK: 4/17 baseline already had 70-strike at 281,828 OI ranked #3 → deep-tail call concentration is PERSISTENT not a fresh surge. What IS notable: tail concentration spans BOTH sides of 6/17 quad-event = hedgers carrying through July, not unwinding after. Corroborates KB-VIO-062 (SKEW rebid + tail-bid) and KB-VIO-064 (M2 IV event-hedger support) from positioning angle. Mid-session framing-precision correction filed: boot output "(+X%)" is %OTM-vs-spot NOT growth metric.
-- **KB-VIO-067 added — DIET COILED-SPRING BACKTEST (Priority 1 piece b closure):** Built `scripts/diet_coiled_spring.py` (re-runnable), scanned 2007-01 to 2026-06 daily ^VIX/^VVIX/^SKEW (4811 obs). STRICT signature exactly reproduced (46 days/17 episodes including open 4/13/26). DIET signature (ΔSKEW≥+10, ΔVIX≤-2, ΔVVIX≤-10, 20d, NOT also STRICT) yields 37 fires/25 episodes — comparable forward returns to STRICT (fwd60 peak>+50% hit-rate: DIET 65% vs STRICT 62% vs NEITHER 38%). **Era split shows NO GEX-suppression specificity** — DIET fires 2024-25 perform similarly to DIET fires 2012-20. KB-VIO-062 GEX-mechanism claim PARTIALLY SUPERSEDED → STATUS Call-notional/GEX vector downgraded 🟡→⚪.
-- **KB-VIO-068 added — FEB 2018 VOLMAGEDDON M1:M2 ANALOG (Priority 1 piece c closure):** Built `scripts/feb2018_m1m2.py` (re-runnable), discovered CBOE archive URL pattern `cdn.cboe.com/resources/futures/archive/volume-and-price/CFE_<CODE>_VX.csv`, fetched F18/G18/H18/J18 per-contract settles, computed M1:M2 contango Jan 2 → Feb 23 2018. **KEY FINDING: KB-VIO-064 framing partially supported but materially refined.** Yes — +11.93% contango occurred Jan 5 2018 (F18 dte=12) nearly matching today's +12.93% (VX/M6 dte=12). BUT the immediate pre-spike contango was +1% to -4%, NOT +13%. Volmageddon trajectory: contango COMPRESSED from +12 → +5 → +1 → -4 over 22td while VIX ROSE from 9.22 → 17.31. **Current setup is the OPPOSITE direction-of-travel** — contango EXPANDED (5.66→12.93) while VIX FELL (17.39→16.05). Refined KB-VIO-064 trigger: compression direction × VIX direction is the disambiguating matrix, not compression alone. STATUS Volmageddon-shape vector downgraded 🟠→🟡. Convergence score 11/50 → 8/50.
-- **KB-VIO-069 added — EPISODE-17 POST-MORTEM SYNTHESIS (Priority 1 piece a closure — TRIPLE-PACKAGE COMPLETE):** Synthesized 5/3 prior post-mortem with new KB-VIO-067 + KB-VIO-068 frameworks. Episode-17 was a textbook-clean STRICT fire (ΔSKEW +19.17, ΔVIX -8.07, ΔVVIX -28.42 — all legs 1.6-1.9x threshold) that landed in the 38% failure bucket. Failure mode = **absorbed-trap regime**, NOT weak signature. KB-VIO-068 direction-matrix retroactively places Episode-17 in (M1:M2 expansion × VIX falling) quadrant from T+4 (4/17) onward. 5 prior modern-era STRICT failures (2018, 2020 cluster, 2023, 2025, 2026) share 3 common markers detectable within 4td of fire: (1) prior-4-week VIX trajectory was DOWNWARD, (2) post-fire SKEW broke pre-fire average within 2-3td, (3) credit COMPRESSED through fire-window. Discriminating feature is REGIME-CONTEXT-AT-FIRE, not signature-strength. Introduces 4-LAYER SIGNAL STACK: (1) population KB-VIO-067, (2) regime-context KB-VIO-069, (3) direction-matrix KB-VIO-068, (4) compound-confirmation KB-VIO-064 refined. Current 6/1 setup has SAME Layer 1-3 reading Episode-17 had at T+4 — internal triangulation across KB-VIO-067+068+069 confirms regime classification.
-- **Position implication:** future STRICT/DIET fires require Layer 2 (regime-context at fire) + Layer 3 (direction-matrix within 5td) BEFORE sizing on signature alone. Episode-17 was sized at Layer 1 only and would have been flagged for exit/downsize at T+4 (4/17) under the new framework. Current setup is in same absorbed-trap quadrant — Layer 4 unresolved pending 6/05 COT / 6/12 CPI / 6/17 FOMC.
-- **Commits (evening):** `f27dfd0e` (KB-VIO-066) pushed; `d8d801eb` (KB-VIO-067 + backtest) pushed; `12728e36` (KB-VIO-068 + Feb 2018 analog) pushed; KB-VIO-069 + Episode-17 post-mortem + STATUS refinements pending this closeout commit.
+**Purpose:** Ephemeral session handoff. Read at boot, rewritten at write-back. Persistent learnings → `MEMORY.md`; dated catalysts → `CALENDAR.md`.
 
 ---
 
-## CHANGES SINCE LAST SESSION (5/21 → 6/1, 8 td)
+## CHANGES SINCE LAST SESSION (6/1 → 6/5, 4 td)
 
-- **VIX crushed further:** 17.39 → 15.93 (low 15.32 on 5/29). VVIX eased 94 → 89. VIX9D 13.62, deeper contango.
-- **SKEW rebid hard:** 132.31 (5/20 low) → 144.18 (5/29). **+11.87 pts in 7 td.** Tail risk being repriced UP while everything else relaxes.
-- **R12 SKEW regime TECHNICALLY TERMINATED 5/12** (20d-avg 139.917). 5/21 framing said "5/18-5/20" — off by 6 td. Currently 20d-avg 138.985 = **knife-edge**, -1.015 below threshold.
-- **R11 analog DEAD.** 8 td post-termination window (5/28-6/02) expired today; VIX trended DOWN, zero of 7 watch-list triggers fired. GRADUAL_FADE / POST_EVENT_PERSIST is the realized path.
-- **Credit substance EASED across all tiers.** HY -12bps, CCC -7bps (re-firmed +3bps last 2td), IG flat, 10Y -20bps. Stage-3 substance triggers (HY>2.90 / CCC>10.00) all FARTHER away.
+- **6/5 NFP SHOCK.** May NFP 172k vs 88k consensus (+95% beat, +84k absolute = ~1.2σ). March/April revisions +93k combined. Dec hike odds 26% → 43% in one day.
+- **VIX +40% to 21.51.** Worst SPX day since October (-2.64%), Nasdaq -4.1%, NVDA -6%, memory chip ETF -15%. VVIX 85.75 → 102.04 (+19%). VIX9D 12.65 → 23.92 (+89%, inverted above spot). MOVE +5.68% to 75.20.
+- **Curve expanded NOT compressed.** M1:M2 12.93% → 15.71%. M1 (Jun) caught spot at ~21.5; M2 (Jul) ran ahead to ~24.9 = FOMC event-premium hump on the back-end.
+- **Credit DID NOT crack.** HY OAS 2.74 flat through 6/1→6/4. CCC +5bps but Stage-3 gates (HY>2.85, CCC>9.55+) all intact. Gold crashed -3.65%, dollar up — rate-shock signature, NOT flight-to-safety.
+- **COT 6/2 release:** Lev Money NET -33,033 / pct3y 43.6 — covered ~16k shorts since 5/26. KB-VIO-065 disambiguator resolved: event-hedger-bid confirmed, NOT speculator crowding.
 
 ## WHAT I DID THIS SESSION
 
-**Pass 1 — Catch-up (4 phases):**
-- Phased catch-up plan (Will-approved): data refresh → analytical pass → KB hygiene → STATUS rewrite. Cross-agent routing skipped per Will direction (fleet in architecture transition).
-- Filed **3 calibration corrections** (5/21 directional reads were right, precision was off): termination date (off by 6td), VIX9D not "structurally extreme" (27th pct of 10y), VRP not "compressed" (67th pct = above-median).
-- Discovered **diet coiled-spring pattern** 5/20→5/29: directional KB-VIO-036 signature (SKEW +11.87 / VIX -2.54 / VVIX -10.39) **without formal magnitude** — tested 5/10/15/20/25/30d windows, zero formal fires.
-- Filed **working hypothesis** (KB-VIO-062, ASSUMPTION): record GEX mechanically pins VIX/VVIX legs while SKEW reprices tail. Empirically supported by SPX 5d realized 3.98%, VRP +5.68 (67th pct). Implies KB-VIO-036's 94% hit rate may have lower effective magnitude floor in current regime — UNBACKTESTED. Do not size positions on it yet.
-- KB.tsv: +3 (KB-VIO-061 regime termination + knife-edge sensitivity, KB-VIO-062 diet coiled-spring + GEX hypothesis, KB-VIO-063 VRP measurement); KB-VIO-058 marked STALE with closing disposition.
-- STATUS.md full refresh (130 lines, under cap). Convergence Score 8/40 → 7/45.
+**1. Boot + meta-fix to VIOLET CLAUDE.md.** Will caught a structural framing issue — protocol pulled hard toward CLOSEOUT immediately after boot, even mid-event. Compared to SAM (which uses neutral "Write-back" framing, no "not optional / session end" emphasis). Edited VIOLET CLAUDE.md:
+- Dropped the "Boot and closeout are one symmetric sequence... not optional" preamble
+- Renamed `CLOSEOUT` → `Write-back` (section header + discipline overlay)
+- Added live-event override to step 6 EXECUTE: "If boot reveals a live regime-moving print or active catalyst window, EXECUTE stays open... The session is not over because boot is over."
+- BRENT has same wording but Will declined to update BRENT (do not propagate)
 
-**Pass 2 — Closeout codification:**
-- Created `SCRATCH.md` (this file) — canonical session handoff mirroring SAM/CARL/BRENT fleet pattern.
-- Rewrote `CLAUDE.md` SPAWN PROTOCOL as symmetric BOOT/EXECUTE/CLOSEOUT sequence adapted from BRENT (write-back tail; auto-load is decisive). Discipline overlay added.
-- Created `thesis/CHANGELOG.md` with backfilled v3.1 entry.
-- Retired `LAST_COMPLETION.md` → `archive/2026-06-01_LAST_COMPLETION_final.md`. SCRATCH is canonical handoff.
-- Reconciled `workbook/CATALYSTS.tsv` (pruned 8 fired rows; added 6/05/6/09/6/12/6/17 forward catalysts) + `CALENDAR.md` (reconciled to CATALYSTS as source of truth; flagged Jun 17 FOMC+SEP+VIX-quarterly convergence as highest forward gate).
+**2. Pre-commit decision tree on fade vs sustain.** Default FADE (credit flat, NFP one-shot, gold-down=rate-shock-cosmetics). Shift to NEUTRAL/SUSTAIN if ≥2 of: MOVE +10% / gamma flipped short / M1:M2 compressing / HY through 2.80 Mon. Strong SUSTAIN if ≥3 + credit cross-tier widening Mon AM.
 
-**Pass 3 — VX_DAILY backfill + analytical re-read (intra-day, 16:20-16:30 ET):**
-- Ran `scripts/backfill.py` (default 90d spot, 30d M1:M2). 115 → 132 rows; 5/14 → 6/1 EOD now present with VIX/VIX3M/VIX6M/VVIX/SKEW + M1:M2 steepness.
-- **Caught yfinance ^VIX phantom-print on Memorial Day (5/25).** yfinance returned a ^VIX close of 16.59 on a US holiday; all four companion tickers correctly skipped. Removed the orphan 5/25 row.
-- **Patched `scripts/backfill.py`** with a holiday guard: drop rows where ^VIX3M is missing (orphan ^VIX = phantom). Re-ran spot-only and confirmed 5/25 stays out. Logged in MEMORY DATA SOURCES caveats.
-- CALENDAR.md `VX_DAILY.tsv time series` row updated 5/13 → 6/1.
-- 6/1 SKEW EOD still empty (CBOE T+1 publication lag — next-boot refresh).
+**3. Verification before building on data.** Will caught two over-claims I made:
+- "6/17 25C 254k / 7/22 65C 259k" — actually clean, no cross-wire. Fresh vix_options.py confirmed: 6/17 25C 253,757 + 65C 176,444 + 22C 173,295; 7/22 65C 258,502. The "+202%" suffix is %OTM not OI Δ.
+- M1:M2 +15.71% is REAL not stale-artifact. Decomposed: M1 caught spot, M2 ran ahead = curve calls today event-driven not regime-shift. **This is a strong fade-tell.**
 
-**Pass 4 — CFTC COT VIX futures pipeline build (17:00 ET):**
-- Built `scripts/cftc_cot.py` (~350 lines) — fetches CFTC TFF (Traders in Financial Futures) weekly VIX positioning. URL pattern confirmed: `https://www.cftc.gov/dea/newcot/FinFutWk.txt` (latest, no header) + `https://www.cftc.gov/files/dea/history/fut_fin_txt_YYYY.zip` (historical zips, with header). VIX contract = "VIX FUTURES - CBOE FUTURES EXCHANGE" / code 1170E1.
-- Schema (`workbook/COT_VIX.tsv`): report_date + open_interest + L/S/Net for dealer/asset_mgr/lev_money/other/nonrept + 3yr rolling percentiles for lev_money/dealer/asset_mgr NETs + flag (EXTREME_SHORT/ELEVATED_SHORT/NORMAL/ELEVATED_LONG/EXTREME_LONG).
-- CLI: default `cftc_cot.py` (fetch latest), `--backfill` (full 2023-current rebuild), `--summary` (no fetch), `--boot` (freshness-gated for boot.py integration).
-- Backfilled **178 weekly observations 2023-current** (52 + 53 + 52 + 21).
-- Wired `boot.py` with `--boot` freshness gate: 0.1s overhead vs prior, only hits network when local data older than expected latest-available Tuesday.
-- **Latest reading (Tue 5/26 / Fri 5/29 release):** Open Interest 384,562 | Lev Money NET -49,336 (long 65,926 / short 115,262) | **pct3y 17.9 = ELEVATED_SHORT** | Dealer NET +51,650 (76.9 pct) taking other side | Asset Mgr near-flat.
-- **KEY CALIBRATION FINDING (KB-VIO-065):** Current Lev Money positioning is directionally short-vol-piled-up but ~half the depth of historical pre-spike crowding. Aug-Oct 2025 peak = pct 0-1.4 / -90 to -106k contracts (long elevated-SKEW regime grind). Mar 2026 pre-spike = pct ~13 / -64k contracts. Today = pct 17.9 / -49k. **M1:M2 price evidence (13% contango, KB-VIO-064) currently MORE extreme than COT positioning evidence (pct ~18, mid-elevated).** Two interpretations: (a) NEW shorts not yet in 5/26 COT — 6/05 release for 6/02 positions disambiguates; (b) M1:M2 partly M2-event-hedger-bid-driven not pure M1-crushing (consistent with KB-VIO-062 conjecture).
-- **Disambiguation event scheduled: Fri 6/05 3:30 PM ET COT release** for Tue 6/02 positions. If Lev Money pct3y breaks <10 = EXTREME_SHORT confirmed → M1:M2 driver = pure speculator crowding → upgrade Volmageddon-shape. If stays >15 = driver = M2-event-hedger-bid → mechanism differs, asymmetry less extreme.
-- KB-VIO-065 added. STATUS dashboard new row "COT Lev Money NET (VIX futures)". MEMORY DATA SOURCES table + Known caveats updated. CALENDAR data-refresh schedule updated (CFTC row now wired). CLAUDE.md FILES table adds COT_VIX.tsv.
+**4. Cross-asset rate-shock check (#3 from menu).** MOVE +5.68% to 75.20 (1d), +7.09% 5d. **Below +10% threshold but materially up — soft cross-asset confirm.** Same logic now applies to CPI not FOMC (CPI inside 9-day window, FOMC outside).
 
-**Pass 3 analytical findings (Will-asked walkthrough):**
-- **Front-curve contango M1:M2 EXPLOSION** — biggest finding. 5.66% (5/15) → 12.93% (6/1), peaked 13.40% on 5/29. Front (Jun, pre-FOMC) crushed; M2 (Jul, post-FOMC) refuses to compress. Volmageddon 2018 setup shape. Asymmetric short-vol pile-up specifically refusing to price through 6/17 quad-event (FOMC + SEP + VIX Jun quarterly). **VIX3M/VIX ratio only moved 1.159 → 1.218 (+5%) over same window — M1:M2 is ~27x more pronounced than the 3M/spot ratio.** STATUS framing materially under-weighted the asymmetry-size. KB-VIO-064 added; KB-VIO-062 amended with M1:M2 as 5th leg.
-- **SKEW shape was spike-crash-rebid, not clean rebid** — 5/15 145.77 ceiling (delayed PPI reaction, 2 td post-print) → 5/20 132.31 low (NVDA-IV-crush) → 5/29 144.18. **Current rebid still BELOW 5/15 ceiling**, sitting in upper half of 12-pt range. Knife-edge re-establishment requires holding upper-third against mid-range gravity (20d-avg 138.985 = midpoint).
-- **VVIX EOD bid** — STATUS 14:30 intraday showed 89.25; EOD 91.61 = +2.36 late-session move. +5.58 over 2 sessions from 5/28 low 86.03. **First 2-day VVIX bid >5pts since early May** — earliest stir of vol-of-vol leading-indicator. If 92+ by 6/05, the "no VVIX leg" piece of KB-VIO-062 weakens.
-- **Convergence Score:** 7/45 → 11/50. Divergence vector renamed SKEW-VIX-VVIX-M1M2 and upgraded 🟡→🟠. New "front-curve contango / Volmageddon-shape" vector at 🟠. VVIX upgraded ⚪→🟡.
-- **Action call (Will-asked): watch-flag, NOT trade-trigger.** VIOLET discipline = catalyst-then-position. Best entry condition (compound): CCC >9.50 OR HY >2.85 WITH M1:M2 still >10% = confirmation + asymmetric setup intact. Do NOT pre-position June VIX calls; they're cheap precisely because M1 is being smashed and expire 6/17 (pure theta-killer on timing). KB-VIO-064 carries the falsifiable trigger: M1:M2 ≤8% by 6/10 = trap releasing without event → downgrade; ≥10% = pile-up intensifies → upgrade asymmetry-weighted snap impact.
+**5. Gamma proxy via 5-min SPX tape (#2 refined).** Steady-grind into close: Q1 -0.38% / Q2 -0.85% / Q3 -0.25% / Q4 -0.56%. Close within 0.21% of intraday low. Max 5m up bar +0.21% — no relief bars. Will downgrade-corrected: short-gamma over-determined (vol-target degrossing + fundamental selling + dealer hedging all leave same footprint), AND no acceleration into close (Q2 was worst, not Q4) — **consistent with short-gamma but NOT cascade-loaded. Hot-CPI cascade = tail risk, not live risk.** Also Will-correction: "GEX broke today" frame re-animates dead hypothesis (KB-VIO-067 era-split retired it 6/1). Better framing: **VVIX fired normally on first real catalyst — there was never special suppression.**
 
-**Commits (all pushed to origin):** `80a10ed5` (catch-up), `ac376e9f` (SCRATCH creation), `7d8f8fb2` (closeout codification + CHANGELOG + LAST_COMPLETION archive), `fca7e6c8` (pass-2 reconciliation), `e6d02ccd` (pass-3 VX_DAILY backfill + yfinance holiday guard).
+**6. NFP-shock analog backtest (#1 with Will-refined criteria).** Filter: DGS2 ≥+8bp on first-Friday NFP releases 2010-2026. N=20 candidates. **HEADLINE FINDING: 16 of 20 had VIX FALL OR FLAT on print day. Median same-day VIX move -2.7%.** Hot-NFP + rate-shock days **DEPRESS** equity vol historically, don't spike it. Refined subset (NFP surprise ≥+75k vs trailing-6m proxy AND DGS2 +8bp): N=4 (2016-08-05, 2022-08-05, 2023-02-03, 2024-10-04). **ALL FOUR HAD VIX FALL OR STAY FLAT.** Today (+40%) is OUTLIER not analog. Implication: **the real driver isn't NFP — it's AI/factor concentration unwind layered on rate-shock.** Need different analog universe ("VIX +30% single-day from low base with concentrated tech selling" — Aug 2024 yen, Nov 2018 FANG, Feb 2018 Volmageddon, Mar 2020).
 
-## NEXT SESSION (priority-ordered — TRIPLE-PACKAGE COMPLETE, queue refreshed)
+**7. Refined fade decision tree (2-leg pathway):**
+- 6/12 CPI non-tail + NVDA/tech bid back → clean fade
+- 6/12 CPI non-tail + tech continues lower → fade trapped by AI cascade (macro right, vehicle wrong — same KB-VIO-014 put-vs-duration trap)
+- 6/12 CPI hot → rate-shock + AI unwind compound, fade thesis breaks
 
-1. **🟠 6/05 COT release disambiguation** (auto-pulled by `boot.py` on next-boot after Fri 6/05 3:30 PM ET) — KB-VIO-065 watch threshold. Cleanest near-term thesis-discriminating data point. Connects to KB-VIO-068 + KB-VIO-069 layer-4: COT-confirmed speculator crowding + VIX rising during compression = pre-spike framework activates.
-2. **🟠 M1:M2 + VIX direction monitor through 6/17** (~2 min/boot) — KB-VIO-068 refined matrix. Watch (M1:M2 direction) × (VIX direction) jointly. Compression + VIX rising = analog activates (upgrade). Compression + VIX falling = trap-releasing.
-3. **🟡 Daily knife-edge monitor through 6/10** (~3 min/boot) — recompute 20d_avg + project re-establishment date.
-4. **🟡 6/12-6/17 catalyst pre-mortem** — Best built 6/08-6/10 once knife-edge + M1:M2 trajectory + COT result resolve. With KB-VIO-069 framework now active, frame: does each catalyst flip Layer 4 (compound-confirmation)?
-5. **🟡 Regime-conditional KB-VIO-067 backtest** (KB-VIO-069 follow-on) — split STRICT fires by prior-4-week VIX trajectory (rising vs falling). Tests whether Layer 2 (regime-context) is empirically discriminating as predicted.
-6. **🟡 KB-VIO-068 matrix backtest across 17 STRICT episodes** — test direction-matrix discrimination across full STRICT episode roll. N=1 framework currently.
-7. **🟡 Diet multi-window + threshold-grid sensitivity** (KB-VIO-067 follow-on).
-8. **🟡 Other M1:M2 pile-up windows control set** (KB-VIO-068 follow-on).
-9. **🟡 Layer 2 formalization** — define "decay regime" precisely (4-week trailing VIX delta threshold? 20d MA slope?). Currently informal narrative.
-10. **🟡 Cross-agent re-engagement** once fleet architecture work settles.
+**Position-discipline call:** NO short-vol before 6/12 CPI. Fade has to clear CPI first.
 
-## CARRY-FORWARD (lower priority)
+## NEXT SESSION (priority-ordered)
 
-- KB-VIO-042 within-cycle bounce rule revision — needs amendment for very-long regimes
-- Inbox 5/14 gamma signal formal disposition — content absorbed into KB-VIO-062, admin step pending
-- 6/1 SKEW EOD + 6/1 FRED OAS refresh — T+1 publication lags; refresh next boot
-- **vix_options.py snapshot** — last 4/17, overdue. Would inform C/P-OI shifts pre Jun 17 FOMC.
+1. **🟠 VIX +30% single-day from low base scan** — right analog class for today's actual driver (concentration unwind). Aug 2024 yen, Nov 2018 FANG, Feb 2018, Mar 2020. Small N; cases not stats per Will's small-N discipline.
+2. **🟠 6/12 May CPI pre-mortem** — 5 td away. Build 6/08-6/09. Tail/non-tail bracket + position-discipline contingencies for each.
+3. **🟡 KB-VIO-068 Q3 quadrant base-rate scan** — pre-FOMC-week historical scan (deferred #6). Resolve PROVISIONAL → base-rate or kill stub.
+4. **🟡 L2 consensus-miss carve-out formalization** — KB-VIO-069 framework patch. Define "consensus-miss catalyst" precisely.
+5. **🟡 KB-VIO-067 DIET re-split by trigger type** (deferred #5 from menu) — did historical fires concentrate around macro-shock vs technical? Tests L1 mechanism-agnostic claim.
+6. **🟡 L1-L4 stack post-mortem write-up** — research/ file. Today was clean live test of the 4-layer framework filed 6/1 evening.
+7. **🟡 Boot fresh — refresh VRP, FRED OAS T+1, SKEW EOD, COT next-release.**
+
+## CARRY-FORWARD (KB candidates not yet formalized)
+
+- **KB-VIO-070 candidate:** 6/5 NFP shock — L1 (KB-VIO-067 DIET) paid forward as advertised; L2 (KB-VIO-069 absorbed-trap) wrong-mechanism; L3 N=1 PROVISIONAL Q3 stub; L4 (KB-VIO-065 COT) answered wrong question. Population layer is real-money; regime/direction/compound layers need recalibration. Formalize next session.
+- **KB-VIO-071 candidate:** Hot-NFP-rate-shock historical universe deflates VIX not spikes it (16/20 fell or flat 2010-2026; 4/4 in refined surprise+rate-shock subset). Today is OUTLIER. Rate-shock alone insufficient to move VIX +40% — needs amplifier (concentration unwind, leverage cascade, vol-target degrossing). Formalize after #1 scan to ground "amplifier" with empirical analogs.
 
 ## OPEN HYPOTHESES (flagged, NOT actionable until backtested)
 
-- **GEX-suppression specificity** (KB-VIO-062): record GEX mechanically suppresses VIX/VVIX legs of divergence pattern. **STATUS: PARTIALLY SUPERSEDED by KB-VIO-067 era-split.** DIET signature worked across full 19yr sample including pre-record-GEX eras → not regime-specific. Standalone GEX-conditional efficacy test still open (would need multi-year SPX gamma series; Spotgamma/SqueezeMetrics archive candidates).
-- **Event-hedger-bid mechanism** (post-KB-VIO-067 working hypothesis): the better explanation for current M1:M2 + tail-call + DIET-but-not-STRICT signature is that hedgers are SPECIFICALLY supporting M2/Jun-quad-event/7/22 pricing while M1 is being smashed by short-vol carry. NOT a generic suppression. **Test:** 6/05 COT release — if Lev Money pct3y stays >15 = event-hedger-bid confirmed; if breaks <10 = pure-speculator-crowding.
+- **AI/factor concentration unwind has its own half-life decoupled from macro.** Today's driver is NFP-trigger + AI-amplification. Macro fades; AI unwind may persist. The fade thesis requires BOTH to deflate, not just rate-shock. Tests: NVDA/SMH price action Mon-Wed (do they bounce or extend), single-stock vol surface (NVDA IV vs spot move), 0DTE flow concentration.
+- **L2 consensus-miss carve-out:** absorbed-trap framework holds for consensus-aligned catalysts; breaks on N-sigma consensus-miss prints. Define precisely + backtest.
 
 ---
 
-*Last rewritten: 2026-06-01 22:30 ET (extended evening session — PRIORITY 1 TRIPLE-PACKAGE COMPLETE. KB-VIO-066 (tail-call OI) + KB-VIO-067 (diet coiled-spring backtest, piece b) + KB-VIO-068 (Feb 2018 Volmageddon M1:M2 analog, piece c) + KB-VIO-069 (Episode-17 post-mortem synthesis, piece a) all filed. Headline product of session: the three pieces triangulate into an integrated **4-layer signal stack** — (1) population KB-VIO-067, (2) regime-context KB-VIO-069, (3) direction-matrix KB-VIO-068, (4) compound-confirmation KB-VIO-064 refined. Current 6/1 setup has same Layer 1-3 reading Episode-17 had at T+4 = absorbed-trap quadrant. Layer 4 unresolved pending 6/05 COT / 6/12 CPI / 6/17 FOMC. Convergence score 11/50 → 8/50, but mechanism-confidence is materially higher than before because the regime classification is now triangulated rather than asserted.)*
+*Last rewritten: 2026-06-05 EOD (NFP-shock session — protocol fix to CLAUDE.md applied immediately and validated by today's live work; pre-commit decision tree on fade vs sustain; verification pass on M1:M2 + gamma proxy + MOVE; NFP analog backtest finding today is OUTLIER; KB-VIO-070 + 071 carry-forward. Position call: no short-vol before 6/12 CPI. Will shutting down — committed under push-train protocol.)*

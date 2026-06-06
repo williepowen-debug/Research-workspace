@@ -15,7 +15,7 @@ You are part of a multi-agent research network tracking systemic financial risk.
 
 ## SPAWN PROTOCOL
 
-**Boot and closeout are one symmetric sequence: what you READ at boot, you WRITE BACK at closeout.** The CLOSEOUT phase (steps 7-13) is the write-back tail — run it at **EVERY session end, not just end-of-day** (per auto-memory `[[feedback_intra_day_closeout_discipline]]`). It is not optional; it is the back half of this protocol. Read→write pairings: STATUS (read 1 → write 7), SCRATCH (read 2 → write 11), thesis (surfaced via STATUS → written 9).
+Read→write pairings: STATUS (read 1 → write 7), SCRATCH (read 2 → write 11), thesis (surfaced via STATUS → written 9). When EXECUTE produces something durable — new data, findings, position views, calibration — write it back via the Write-back steps before stopping. Intra-day discipline (run write-back at session end, not just end-of-day) is covered by auto-memory `[[feedback_intra_day_closeout_discipline]]`.
 
 ### BOOT (read phase)
 0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
@@ -30,9 +30,9 @@ You are part of a multi-agent research network tracking systemic financial risk.
    Use `--verbose` for full output. Web-search only for narrative/headline catalysts the boot kit doesn't cover.
 
 ### EXECUTE
-6. **Execute the task.**
+6. **Execute the task.** If boot reveals a live regime-moving print or active catalyst window (e.g., VIX +30% intraday, FOMC week with vol bidding, credit gap), EXECUTE stays open — snapshot STATUS as a working dashboard and stay engaged. Don't trigger the full Write-back sequence until the event stabilizes, the task completes, or Will signals stop. The session is not over because boot is over.
 
-### CLOSEOUT (write-back — run at EVERY session end)
+### Write-back (run when EXECUTE produces something durable, before stopping)
 7. **`STATUS.md`** — write the dashboard back: VIX complex, SKEW + 20d-avg, VVIX, credit (HY/CCC/IG OAS), 10Y, convergence matrix, drift assessment, regime status, positions. Threshold breaches + active situations go to the top. Keep under 250 lines (archive overflow to `research/` or `archive/`). *(Mirror of boot step 1.)*
 8. **Workbook / ledgers** — log new facts/claims → `workbook/KB.tsv` (validate enums against `workbook/SCHEMA.tsv`; use NETWORK_GROUPS/CANONICAL_ENTITIES/SOURCE_TAGS from `AGENTS/VOCABULARIES.tsv`); changed vol-surface levels → `workbook/VX.tsv` or `VX_DAILY.tsv`; transmission/cascade mechanics → `workbook/FLOW.tsv`; VIX options snapshots → `workbook/VIX_OPTIONS.tsv`. Mark superseded entries STALE with closing disposition rather than deleting. Separate "mechanism intact" from "threshold stuck/breached" (auto-memory `[[finding_threshold_vs_mechanism]]`).
 9. **Thesis-level change → `thesis/VIX_THESIS.md` + `thesis/CHANGELOG.md`.** Trigger: new transmission channel, conviction shift, phase transition, regime classification change, formal-trigger calibration update, prediction resolution. Version bump — major (X) = structural change / conviction reversal / phase transition; minor (Y) = refinement. Always log old view → new view in CHANGELOG.
@@ -41,7 +41,7 @@ You are part of a multi-agent research network tracking systemic financial risk.
 12. **Promotion scan** — if this session produced something bigger than SCRATCH: thesis-level finding → `thesis/VIX_THESIS.md` + CHANGELOG; transferable cross-agent lesson → auto-memory (`~/.claude/projects/-home-willi-Research-workspace/memory/` + one-line index in its `MEMORY.md`); VIOLET-specific durable learning → local `MEMORY.md`. Cross-agent signals → `outbox/` per the Outbox Protocol below (messaging degraded — see that section).
 13. **Git** — per root CLAUDE.md: `git reset HEAD` → `git add AGENTS/VIOLET/` → `git diff --cached --stat` (verify nothing outside your dir) → commit → push (pull-rebase first if origin diverged). If blocked by other agents' uncommitted work, **note the pending push in `SCRATCH.md`** and defer (push-train pattern often resolves it on the next clean-closing agent).
 
-**Discipline overlay (applies throughout closeout):** one source of truth per metric — don't write the same value in two docs (own it in the owner doc, reference from the other). Stale-marked > carried-forward-as-current — if you can't refresh a value, mark it `[STALE]` with the date, don't present it as live. **Don't let prior-session narrative substitute for fresh measurement** — VIOLET-specific (3 framing errors caught 6/1: termination date, VIX9D percentile, VRP percentile; all directional-right, precision-wrong).
+**Discipline overlay (applies throughout write-back):** one source of truth per metric — don't write the same value in two docs (own it in the owner doc, reference from the other). Stale-marked > carried-forward-as-current — if you can't refresh a value, mark it `[STALE]` with the date, don't present it as live. **Don't let prior-session narrative substitute for fresh measurement** — VIOLET-specific (3 framing errors caught 6/1: termination date, VIX9D percentile, VRP percentile; all directional-right, precision-wrong).
 
 **MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it. (Per auto-memory `[[project_messaging_overhaul]]` — file-based mail is being overhauled; HERMES delivery unreliable; don't invest in inbox/outbox infrastructure.)
 
