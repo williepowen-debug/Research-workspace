@@ -1,8 +1,8 @@
 # VIOLET STATUS
 
-**Signal Status:** 🟠 **6/5 NFP-SHOCK SESSION. VIX +40% to 21.51 on hot NFP (172k vs 88k cons). Tape = rate-shock + AI/factor concentration unwind. Credit didn't crack (HY 2.74 flat through window). KB-VIO-067 DIET signature (5/20-5/29) PAID FORWARD as advertised at td-4 (+40%). KB-VIO-069 absorbed-trap framing WAS WRONG (consensus-miss carve-out needed). FADE-LEANING with two-leg pathway (rate-shock + AI unwind). No short-vol before 6/12 May CPI — fade has to clear CPI first (CPI inside VIX9D window; FOMC outside). 6/12 CPI is the gate.**
+**Signal Status:** 🟠 **6/5 NFP-SHOCK SESSION (with 6/6 T+1 SKEW correction). VIX +40% to 21.51 on hot NFP (172k vs 88k cons). Tape = rate-shock + AI/factor concentration unwind. Credit didn't crack (HY 2.74 flat through window). KB-VIO-067 DIET signature (5/20-5/29) PAID FORWARD as advertised at td-4 (+40%). KB-VIO-069 absorbed-trap framing WAS WRONG (consensus-miss carve-out needed). FADE-LEANING with two-leg pathway (rate-shock + AI unwind). No short-vol before 6/12 May CPI — fade has to clear CPI first (CPI inside VIX9D window; FOMC outside). 6/12 CPI is the gate.** *(6/6 T+1 update: SKEW 6/5 EOD = 152.25 not 142.15; R12 regime RE-ESTABLISHED 6/05 at 20d-avg 140.16 — knife-edge resolved. KB-VIO-031 60d window RESOLVED HIT via VIX +39.7%. See KB-VIO-072.)*
 
-**Live (6/05 EOD):** VIX **21.51** (+40%) | VIX9D **23.92** (+89% — ABOVE spot; FOMC outside 9-day window so this prices CPI + spot panic, NOT FOMC) | VIX3M **21.82** (+13.5%) | VIX6M **23.44** | VIX3M/VIX **1.014** (front flat, not inverted past 3M) | VVIX **102.04** (+19% — first sustained bid above 100 in 2026) | SKEW **142.15** (-2 from 5/29 144.18) | **M1:M2 contango +15.71%** (M1 caught spot ~21.5, M2 ran ahead ~24.9 — FOMC event-premium hump on M2/Jul → fade-tell on regime; KB-VIO-068 Q3 stub) | **MOVE 75.20 (+5.68% 1d, +7.09% 5d)** — soft cross-asset rate-shock confirm | HY OAS **2.74** (flat 6/1→6/4) | CCC OAS **9.46** (+5bps 6/1→6/4) | IG OAS **0.74** flat | 10Y **4.54%** (+6bps) | 2Y **4.05** | SPX **7384.67** (-2.64%) | Gold **-3.65%** (crashed — rate-shock not flight-to-safety) | UUP +0.65% | KRE +0.27% (regional banks UP) | **Last Updated:** 2026-06-05 EOD (Will-asked session)
+**Live (6/05 EOD, T+1 SKEW backfilled 6/6):** VIX **21.51** (+40%) | VIX9D **23.92** (+89% — ABOVE spot; FOMC outside 9-day window so this prices CPI + spot panic, NOT FOMC) | VIX3M **21.82** (+13.5%) | VIX6M **23.49** | VIX3M/VIX **1.014** (front flat, not inverted past 3M) | VVIX **102.04** (+19% — first sustained bid above 100 in 2026) | SKEW **152.25** (**+8.07 from 5/29 144.18; +10.10 1d on NFP**) | **M1:M2 contango +15.71% (strict)** (M1 caught spot ~21.5, M2 ran ahead ~24.9 — FOMC event-premium hump on M2/Jul → fade-tell on regime; KB-VIO-068 Q3 stub) | **MOVE 75.20 (+5.68% 1d, +7.09% 5d)** — soft cross-asset rate-shock confirm | HY OAS **2.74** (flat 6/1→6/4) | CCC OAS **9.46** (+5bps 6/1→6/4) | IG OAS **0.74** flat | 10Y **4.54%** (+6bps) | 2Y **4.05** | SPX **7384.67** (-2.64%) | Gold **-3.65%** (crashed — rate-shock not flight-to-safety) | UUP +0.65% | KRE +0.27% (regional banks UP) | **Last Updated:** 2026-06-06 (Saturday org session — T+1 SKEW backfill + R12 knife-edge resolution)
 
 ---
 
@@ -13,10 +13,10 @@
 | VIX Spot | **21.51** | 6/5 EOD | 🟠 | [CONF] yf ^VIX — +40% 1d, +40% 5d |
 | VIX9D | **23.92** | 6/5 EOD | 🟠 | [CONF] yf — **ABOVE spot. 9-day window contains 6/12 CPI (7 cal days), NOT 6/17 FOMC (12 cal). Front bid prices CPI + spot panic.** |
 | VIX3M | **21.82** | 6/5 EOD | 🟠 | [CONF] yf |
-| VIX6M | **23.44** | 6/5 EOD | 🟡 | [CONF] yf |
+| VIX6M | **23.49** | 6/5 EOD | 🟡 | [CONF] yf |
 | VVIX | **102.04** | 6/5 EOD | 🟠 | [CONF] yf — **+19% 1d, first sustained >100 in 2026**. Mean-reverts normally; level matters less than half-life |
-| SKEW | **142.15** | 6/5 EOD | 🟠 | [CONF] yf — slightly off 5/29 144.18 |
-| 20d SKEW avg | **~140 knife-edge** | 6/5 | 🟡 | **Moot vs catalyst regime. Knife-edge math overtaken by event.** Re-eval after 6/12 |
+| SKEW | **152.25** | 6/5 EOD | 🔴 | [CONF] CBOE T+1 (yf 6/6 pull) — **+10.10pt 1d on NFP, +8.07 vs 5/29 144.18, ABOVE 150 high-severity cohort threshold (KB-VIO-031)**. Rebid is STRONGER post-spike, not exhausted. |
+| 20d SKEW avg | **140.16** | 6/5 EOD | 🔴 | **REGIME RE-ESTABLISHED 6/05** per KB-VIO-072. Crossed 140 threshold +0.16; 6/05 single-day +10.10pt SKEW push did the work. Knife-edge resolved (5td & 8td paths pruned from CATALYSTS.tsv). |
 | VIX3M/VIX | **1.014** | 6/5 EOD | 🟠 | [CONF] Calculated — flattened from 1.213 (6/1) but NOT inverted past 3M |
 | **M1:M2 contango (Jun/Jul)** | **+15.71%** | 6/5 EOD | **🔴** | **[CONF] boot.py CBOE settle — EXPANDED from 12.93% (6/1). M1 caught spot, M2 bid ahead. Curve calls today event-driven not regime-shift. NEW QUADRANT (M1:M2 expansion + VIX rising). KB-VIO-068 Q3 PROVISIONAL stub — pre-FOMC-week base rate not established (deferred research).** |
 | COT Lev Money NET | **-33,033 / pct3y 43.6** | Tue 6/2 (Fri 6/5 release) | 🟢 | [CONF] CFTC — **covered ~16k shorts since 5/26 (-49k → -33k). KB-VIO-065 resolved: event-hedger-bid confirmed, NOT speculator crowding. Speculator side actually DE-RISKED into the spike.** |
@@ -38,18 +38,21 @@
 | Spot VIX elevation | 🟠 | 21.51 — crossed key 20 level today; +40% from 15.40 yesterday | 2026-06-05 |
 | Term structure inversion | 🟡 | VIX9D ABOVE spot (23.92 v 21.51) front-end inverted; past 3M still contango 1.014 | 2026-06-05 |
 | VVIX stress | 🟠 | 102.04 — first sustained >100 in 2026. +19% 1d. Half-life matters more than level | 2026-06-05 |
-| SKEW-VIX-VVIX-M1M2 divergence | 🟢 | DOWNGRADED 🟠→🟢: **divergence pattern RESOLVED via the spike**. KB-VIO-067 L1 paid forward. SKEW now lags VIX. Pattern closed. | 2026-06-05 |
-| Front-curve contango / event-shape | 🔴 | 15.71% M1:M2 — M2 event-premium hump on Jul/post-FOMC. Curve says event-driven not regime. **FADE-TELL on duration but NOT magnitude.** | 2026-06-05 |
+| SKEW divergence resolved + NEW rebid | 🟠 | UPGRADED 🟢→🟠 on T+1 SKEW correction: pre-spike divergence (KB-VIO-067 L1) paid forward, AND post-spike SKEW kept rising to 152.25 (high-severity cohort). New SKEW rebid concurrent with VIX +40%, not lagging. R12 regime RE-ESTABLISHED (20d-avg 140.16) per KB-VIO-072 — interrupted-and-resumed, not historically equivalent to original 222-td uninterrupted run. | 2026-06-06 |
+| Front-curve contango / event-shape | 🔴 | 15.71% M1:M2 strict — M2 event-premium hump on Jul/post-FOMC. Curve says event-driven not regime. **FADE-TELL on duration but NOT magnitude.** | 2026-06-05 |
 | Credit-to-vol transmission | 🟡 | HELD: Credit DID NOT CRACK with VIX +40%. HY 2.74 flat, CCC +5bps. Stage-3 substance gates (HY>2.85, CCC>9.55, more) unchanged. **This is the cleanest fade tell from credit side.** | 2026-06-05 |
 | Index concentration / breadth | 🔴 | NVDA -6%, memory chip ETF -15%, Nasdaq -4.1%. **AI/factor concentration unwind is the actual VIX driver, not NFP.** WALTER KB-VIO-056 breadth signal validated. | 2026-06-05 |
 | VRP / vol risk premium | 🟡 | VIX 21.5 vs SPX realized still catching up. Was +5.68 (67th pct) on 6/1. Now likely higher post-spike. Refresh on next boot. | 2026-06-05 |
 
-**Convergence Score:** 18/45 (40%) — score JUMPED from 8/50 (16%) on 6/1 because the SKEW-VIX-VVIX divergence pattern resolved into the spike (KB-VIO-067 L1 fire-forward), and concentration unwind activated 🟡→🔴. But this is a SPIKE-CONFIRMATION score, not a regime-shift score. The fade case dominates because: (1) credit didn't crack, (2) curve calls it event-driven (M2 hump), (3) hot-NFP-rate-shock historical universe deflates VIX not spikes it (KB-VIO-070).
+**Convergence Score:** 21/45 (47%) — re-scored 6/6 after T+1 SKEW correction: SKEW vector RE-UPGRADED 🟢→🟠 because the post-spike rebid to 152.25 puts us in the high-severity cohort *concurrent* with regime re-establishment. This is NOT a simple "pattern resolved" — it's "pattern resolved + new rebid started." Fade case still dominates substance-side (credit didn't crack, curve event-shaped, NFP-rate-shock historical universe deflates VIX per KB-VIO-071), but SKEW vector now signals there's a SECOND rebid forming on top of the spike, not exhaustion of the first.
 
 ---
 
-## DRIFT ASSESSMENT (6/1 → 6/5, 4 td — UNDER LIVE EVENT)
+## DRIFT ASSESSMENT (6/1 → 6/6, 4 td + 6/6 T+1 corrections)
 
+- 🟠 **6/6 T+1 SKEW correction (Saturday org session).** Boot kit returned CBOE EOD SKEW 6/5 close = 152.25 (yesterday's same-day yf pull was 142.15 — that was actually 6/4's close, T+1 lag). Real 6/5 close +10.10pt 1d. **SKEW didn't fade through the spike — it expanded with it.** Moves the post-spike pattern into the high-severity cohort (>150) per KB-VIO-031. **New SKEW rebid post-spike** is the analytical tell of this correction.
+- 🟠 **6/05 R12 regime RE-ESTABLISHED.** 20d-avg = 140.16 through 6/05, +0.16 above threshold. 6/01 working hypothesis (KB-VIO-062 "DIET coiled-spring under GEX-suppression") was that R12 would re-establish in calm. Reality: re-established CONCURRENT with VIX +40% spike. New regime classification per KB-VIO-072: "elevated SKEW under live vol event," not "fragility bid in calm." Sequence (terminate 5/12 → vol event fires 6/05 → regime resumes 6/05) doesn't match any KB-VIO-044 historical pattern.
+- 🟢 **KB-VIO-031 60d window RESOLVED HIT.** 4/15 fire → 6/14 close window saw VIX +39.7% at td-58 (6/05). Scenario B confirmed (>+30% any point through 6/15). Population L1 paid forward right at the deadline — clean validation.
 - 🔴 **6/5 NFP SHOCK.** 172k vs 88k cons, March/April revisions +93k, Dec hike odds 26% → 43%. SPX -2.64% (worst day since Oct), Nasdaq -4.1%, NVDA -6%, memory chips -15%. VIX +40%, VVIX +19%.
 - 🔴 **KB-VIO-067 L1 (DIET coiled-spring) PAID FORWARD as advertised.** DIET signature fired 5/20-5/29; +40% spike at td-4 cleanly tracks the >+50%@fwd60 base rate. Population framework validated under live test.
 - 🟢 **KB-VIO-069 L2 (absorbed-trap regime) was WRONG.** Framework assumed catalyst surprises stay consensus-aligned. NFP was 2x miss; consensus-miss carve-out needed. Layer 2 calibration update pending.
@@ -66,7 +69,7 @@
 
 ## REGIME STATUS
 
-**Current regime:** RISING_VOL classifier per boot.py. VIX 21.51 in 20-25 zone. Front inverted above spot, past 3M still contango. R12 knife-edge math (5/12 termination, 6/05 re-establishment) **MOOT vs the live catalyst event** — re-evaluate after 6/12 CPI passes. Fade-leaning with **two-leg pathway:**
+**Current regime:** RISING_VOL classifier per boot.py. VIX 21.51 in 20-25 zone. Front inverted above spot, past 3M still contango. **R12 elevated-SKEW regime RE-ESTABLISHED 6/05 (KB-VIO-072)** at 20d-avg 140.16 — interrupted-and-resumed structure rather than the original 222-td uninterrupted run; SKEW now in high-severity cohort (>150) concurrent with the spike. Fade-leaning with **two-leg pathway:**
 - **Rate-shock leg:** historical base rate strongly favors fade (16/20 hot-NFP-DGS2+8bp days didn't spike VIX to begin with). Deflates by Mon-Tue if CPI passes non-tail.
 - **AI factor unwind leg:** not captured in NFP analog class. Has its own half-life. Can extend independent of macro. **The open question.**
 
@@ -114,10 +117,13 @@ Per Will direction: fleet in architecture transition; focus VIOLET on own domain
 **Forward gates:**
 - **6/12 May CPI** — primary catalyst gate. Inside VIX9D window. Fade thesis must clear.
 - **6/17 FOMC + SEP** — FOMC outside VIX9D, priced in M2/Jul futures. SEP dot-plot is the secondary read.
-- **6/15 KB-VIO-031** — 60-day-window expiry on Episode-17 cohort base rate (now moot vs L1 live validation).
+
+**Recently resolved (6/6):**
+- **KB-VIO-031 60d window** — RESOLVED HIT via VIX +39.7% on 6/05 at td-58. Population L1 paid forward.
+- **KB-VIO-061 knife-edge** — RESOLVED RE-ESTABLISHED 6/05 via 20d-avg 140.16. See KB-VIO-072.
 
 *Core hypothesis, transmission chain: `thesis/VIX_THESIS.md`.*
 
 ---
 
-*Last updated: 2026-06-05 EOD (Will-asked session — NFP shock day; protocol fix to CLAUDE.md; pre-commit decision tree + verification (M1:M2 real, MOVE +5.68%, tape consistent-with-not-cascade-loaded); NFP analog backtest finding today is OUTLIER not analog; KB-VIO-070 + KB-VIO-071 candidates drafted. Position discipline: no short-vol before 6/12 CPI.)*
+*Last updated: 2026-06-06 (Saturday org session — T+1 SKEW correction 142.15 → 152.25 reframes post-spike pattern into high-severity cohort with new rebid; R12 regime re-established 6/05 via 20d-avg 140.16 (KB-VIO-072); KB-VIO-031 60d window RESOLVED HIT; catalysts pruned; backfill.py concat-alignment bug fixed; thresholds.py weekend guard added.)*

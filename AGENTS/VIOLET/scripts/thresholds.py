@@ -102,9 +102,18 @@ def determine_regime(vix: float | None) -> str:
 
 
 def append_daily_log(row: dict) -> bool:
-    """Append one row keyed by date. Skip if date already present."""
+    """Append one row keyed by date. Skip if date already present.
+    Skip on weekends — markets closed, the row would just carry forward
+    Friday's quote (caught 2026-06-06 Saturday phantom).
+    """
     if not DAILY_LOG.exists():
         return False
+    try:
+        d = datetime.fromisoformat(row["date"]).date()
+        if d.weekday() >= 5:  # Sat=5, Sun=6
+            return False
+    except (KeyError, ValueError):
+        pass
     existing_dates = set()
     with open(DAILY_LOG) as f:
         header = f.readline().strip().split("\t")
