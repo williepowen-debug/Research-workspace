@@ -1,4 +1,4 @@
-# VIX THESIS (v3.3 — 6/5 NFP-shock live test integration, 2026-06-06)
+# VIX THESIS (v3.4 — Regime Shift Trade refinement, 2026-06-06)
 
 VIOLET's core framework: Credit-vol relationship is **regime-dependent, crisis-type-dependent, and directionally asymmetric**. Operational signal stack runs L1 (population framework, real-money) over L2-L4 calibration filters. Two transmission paths now formal: standard credit-led, and concentration-unwind parallel.
 
@@ -7,6 +7,13 @@ VIOLET's core framework: Credit-vol relationship is **regime-dependent, crisis-t
 ## CHANGELOG
 
 > Canonical "old view → new view" per-bump log lives in `thesis/CHANGELOG.md`. This section is the in-body version history.
+
+**v3.4 (2026-06-06) — Regime Shift Trade refinement (Path A tagging + DIET disambiguation)**
+- Regime Shift Trade tagged as Path A specialization (credit-confirmation required); for Path B analog setups use DIET Coiled-Spring Trade or wait for Path B backtest.
+- Added explicit "vs. DIET Coiled-Spring Trade" note clarifying both are separate setups (DIET = single-signal divergence; Regime Shift = compound Path A with HY OAS >4 gate).
+- Added rare-trigger caveat: VVIX>120 historically uncommon, especially in current GEX-suppression era. Don't size watchlist as if this fires monthly.
+- Style cleanup: removed inline `~~Term structure flattening~~` strikethrough residue (falsification record lives in Predictions #2); dropped `not KB-VIO-023` negative cross-reference noise.
+- No substantive change to trade setup, entry, target, stop, or sizing.
 
 **v3.3 (2026-06-06) — 6/5 NFP-shock live test integration**
 - L1-L4 operational stack discipline codified: L1 PROMOTED to real-money; L2 wrong-mechanism (consensus-miss carve-out pending); L3 N=1 PROVISIONAL; L4 demoted to descriptive. KB-VIO-070.
@@ -272,18 +279,23 @@ Portfolio P&L (no credit-side firing required)
 **Stop:** HY OAS reverses, or VIX spikes >30
 **Sizing:** 1% account (lowered from 2% — thesis less certain)
 
-### The Regime Shift Trade (revised v3.1)
+### The Regime Shift Trade (revised v3.1; Path A tagged v3.4)
+
+**Path classification (v3.4):** Path A only — credit-confirmation required. For Path B analog setups (concentration-unwind without credit), use the DIET Coiled-Spring Trade or wait for Path B backtest (Phase 4 research agenda).
 
 **Setup:**
 - COMPLACENCY / LOW_VOL regime persistent (VIX < 20 for >3 months)
-- Credit stress emerging (HY OAS >4)
-- VVIX > 120 **while VIX < 20** (divergence — per KB-VIO-027, not KB-VIO-023)
-- ~~Term structure flattening (VIX3M/VIX < 1.2)~~ **REMOVED v3.1 — empirical data shows inversion is a PEAK signal, not entry signal. See KB-VIO-034.**
+- Credit stress emerging (HY OAS > 4)
+- VVIX > 120 while VIX < 20 (divergence — KB-VIO-027 Pattern A)
 
 **Entry:** VIX calls 60-90 DTE
 **Target:** Regime shift to rising vol (VIX 25-30)
 **Stop:** VIX breaks below 15, credit stress resolves, or 7-day sustained contango re-steepening
 **Sizing:** 1.5% account
+
+**Rare-trigger caveat (v3.4):** VVIX>120 historically uncommon, especially in the current GEX-suppression era (first sustained VVIX>100 of 2026 hit 6/5; 120 still not breached). Don't size the watchlist as if this fires monthly.
+
+**Vs. DIET Coiled-Spring Trade (v3.4):** DIET fires on divergence signature alone (mechanism-agnostic, can fire in any regime). Regime Shift Trade fires on persistent-calm + credit-emergence + divergence (compound Path A condition). Not interchangeable — DIET is the single-signal trade; Regime Shift Trade is the slow-build setup that confirms across three independent signals.
 
 ### The DIET Coiled-Spring Trade (added v3.3)
 

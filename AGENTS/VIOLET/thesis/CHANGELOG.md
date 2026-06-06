@@ -6,6 +6,18 @@ Trigger to log here: any closeout that updates `thesis/VIX_THESIS.md`.
 
 ---
 
+## v3.4 — 2026-06-06 (Regime Shift Trade refinement — Path A tagging + DIET disambiguation)
+
+- **Bumped from:** v3.3 (2026-06-06 same-day — 6/5 NFP-shock live test integration; L1-L4 stack discipline; Path A / Path B transmission split; DIET Coiled-Spring Trade added as 3rd pattern).
+- **What changed:** Regime Shift Trade entry (lines 275-296 of VIX_THESIS.md) refined to align with v3.3's Path A / Path B framing. (1) Tagged as **Path A specialization** — credit-confirmation required, not a generic regime-shift entry. (2) Added explicit **"vs. DIET Coiled-Spring Trade"** disambiguation note: DIET is the single-signal divergence trade (mechanism-agnostic); Regime Shift Trade is the compound Path A setup (persistent calm + emerging credit + divergence). (3) Added **rare-trigger caveat** — VVIX>120 historically uncommon and especially scarce in the current GEX-suppression era. (4) **Style cleanup:** removed inline strikethrough residue of term-structure-flattening falsification (record lives in Predictions #2); dropped `not KB-VIO-023` negative cross-reference noise.
+- **Why:** v3.3 introduced Path A / Path B without retroactively tagging the pre-existing trade entries. Reader scanning the Regime Shift Trade after the v3.3 read couldn't tell which path it belonged to or how it related to the new DIET trade. Tier-3 flag from the v3.3 tightening pass surfaced this; Will-approved revision.
+- **Old view:** Regime Shift Trade as a standalone three-condition entry (long calm + credit emergence + VVIX>120 divergence), implicitly Path A but unmarked, with no explicit relationship to the new DIET trade.
+- **New view:** Regime Shift Trade explicitly tagged Path A specialization. DIET Coiled-Spring Trade is the single-signal companion; both can be in the watchlist simultaneously but they're not interchangeable. Rare-trigger nature explicitly noted so the watchlist isn't sized as if it fires monthly.
+- **Predictions touched:** None (Prediction #3 was already closed INCONCLUSIVE in v3.3; this revision clarifies that the Regime Shift Trade entry condition is structurally different from Prediction #3's standalone threshold).
+- **No substantive change** to trade setup, entry, target, stop, or sizing — refinement and documentation only.
+
+---
+
 ## v3.3 — 2026-06-06 (6/5 NFP-shock live test integration)
 
 - **Bumped from:** v3.2 (2026-06-01 — DIET coiled-spring + GEX-suppression working hypothesis as live analytical product; R11 dead; imminence read materially weaker than 5/13 / 5/21).
@@ -32,3 +44,4 @@ Trigger to log here: any closeout that updates `thesis/VIX_THESIS.md`.
 
 *Created: 2026-06-01 (first changelog entry; backfilled current state. Pre-v3.2 history lives in `VIX_THESIS.md` in-body changelog + research/ + KB.tsv.)*
 *v3.3 added: 2026-06-06 (Saturday org session — 6/5 NFP-shock live test integration; mislabel correction on the 6/01 entry from v3.1 → v3.2.)*
+*v3.4 added: 2026-06-06 same-day (Regime Shift Trade refinement — Path A tagging + DIET disambiguation + rare-trigger caveat + style cleanup. No substantive trade change.)*
