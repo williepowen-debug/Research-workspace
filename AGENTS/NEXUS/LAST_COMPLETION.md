@@ -70,10 +70,20 @@ NEXUS machinery rebuilt across spawn protocol, lifecycle, frameworks, and docume
 5. Re-grade Break/Grind/Divergence split given energy-deflation hypothesis.
 6. PROME state — if PROME revives, deliver outbox; if not, document delivery semantics in next pass.
 
+## Post-execution operator conventions (advisor-set 2026-06-06)
+
+After A-D shipped, operator delivered three conventions and one principle. Now codified:
+
+1. **Δ-column convention** — `Last updated` bumps only on *material* change (confidence move, direction shift, or load-bearing evidence change), never on a no-op review; `Δ` = signed percentage points; header carries "Last full matrix review." Inlined in CLAUDE.md OUTPUT RULES and STATUS.md header note.
+2. **Spec-text rule** — `[[memory]]` tags are provenance-only; behavioral rules must be inlined in CLAUDE.md. Verified: all 5 tag references in CLAUDE.md are paired with inlined prose. No bare-tag rules.
+3. **C-ID reconciliation punt** — bounded backlog produced (`recon/2026-06-06_c_id_index.md`), reconciliation task scheduled post-E (post-6/9 auctions). Forward promote-rule already in spawn protocol so debt stops growing.
+
+**Principle:** operator sets conventions, agent executes them. Bring open conventions to operator **in real-time during execution**, not batched at closeout. Per `[[feedback_flag_friction_realtime]]`.
+
 ## Next Step
 
 **E-phase worldview refresh, time-boxed pre-2026-06-09.** Minimum viable scope:
-1. BRENT + HAWK header verify → integrate SIG-01/02 → M-06 downgrade + Δ.
+1. BRENT + HAWK header verify → integrate SIG-01/02 → M-06 downgrade + Δ (now in `↑/↓Xpp` form).
 2. Populate Transmission Chain row (3 links) from CARL + REGINALD + tape.
 3. Resolve R11 window via VIOLET.
 4. Integrate 6/5 NFP via VIOLET v3.3.
@@ -81,3 +91,5 @@ NEXUS machinery rebuilt across spawn protocol, lifecycle, frameworks, and docume
 6. Re-grade probability split.
 
 Full 11-agent sweep can slip past 6/9 if needed; M-06 + Transmission row + threshold marks cannot.
+
+E-phase will be the first test of the Δ-column discipline — first real `Last updated` bumps and first non-`—` Δ values.

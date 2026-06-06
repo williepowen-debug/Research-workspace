@@ -1,9 +1,12 @@
 # NEXUS STATUS
-**Updated:** 2026-06-06 (Phase C structural cleanup; matrix content still anchored 5/21 — refresh due in E pre-2026-06-09)
+**Updated:** 2026-06-06 (Phase C structural cleanup + convention finalized)
+**Last full matrix review:** 2026-05-21 (E-phase refresh due pre-2026-06-09)
 **Mode:** Machinery rebuilt (A-D shipped). Worldview refresh (E) pending.
 **Regime (5/21 anchor):** **Stage-2-late divergence** — substance-side bear convergence hardening, public tape non-confirming.
 **Probability split, 2–6wk (5/21 anchor):** Break **25%** / Grind-lasts **35%** / Unresolved divergence **40%**.
 **Trading constraint:** No trade rails from NEXUS until FORGE rehab / position truth is clean.
+
+> **Δ-column convention:** `Conf %` = current level; `Δ since last` = signed pp change since last *material* update (`↑5pp`, `↓3pp`, `—` flat/baseline, `↓ pending` known-coming); `Last updated` bumps **only** on material change (confidence move, direction shift, or load-bearing evidence change) — *never* on a no-op review. Header "Last full matrix review" = when the sweep happened, regardless of whether rows moved.
 
 ---
 
