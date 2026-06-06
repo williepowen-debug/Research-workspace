@@ -8,6 +8,33 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-06-06 — Jun 1-5 data wall: V16 4→3 EXECUTED (v2.5.2, Will-approved), V12 hardened
+
+### THESIS v2.5.1 → v2.5.2 (minor refinement — vector downgrade, mechanism intact)
+**Author:** CARL (Will-approved same session). **Score: 53/70 → 52/70 (74%). Still 🔴🔴 CRITICAL.**
+- **V16 Employment Structural Rot 4 → 3, re-anchored.** Acute legs reversed on Jun 1-5 wall (JOLTS 0.91→1.03 inversion gone; 3-mo NFP avg 48K→188K on +93K revisions; UR 4.3% held) — those were *acute-break* anchors that never belonged in a "rot not break" vector. Structural-freeze legs survived + got cleanest confirmation (hires fell 5.1M as openings jumped +731K; ISM Svc Emp 47.9 contracting 3rd mo; duration 25.7wk / LFPR 61.9%). Mechanism intact, escalation path receded → "watching, elevated" not "firing w/ room to escalate." **Re-arm to 4** if next JOLTS re-inverts OR next NFP negative w/ down-revisions; drop to 2 if hires >3.8% + ISM Svc Emp >50 + duration <22wk.
+- **Offset:** V12 (Stagflation/Fed-Locked) hardened same week (Waller + sticky ISM Prices Paid 82.1/71.3 + AHE 3.4%<CPI 3.8% + "no Fed cut") = active v2.6 upgrade candidate. **Net conviction ~flat — rebalancing, not weakening.**
+- **⚠️ CONTEMPORANEOUS COUNTER-VIEW (recorded for honesty, surfaced during the Jun-6 cross-machine fork reconciliation):** an *independent* CARL pass (laptop, commit `5f8e975b`, Jun 5) integrated the **identical 5 prints** and reached the OPPOSITE conclusion — *"structural rot not acute break exactly fits the print shape → V16 reinforced, HOLD at 4. Score impact: none net."* Both passes agree the structural-freeze/internals legs survive; they split on whether the strengthening headline = **step down** (acute escalation path receded — this v2.5.2 view, Will-approved) vs **hold** (mechanism intact — Jun-5 view). Kept 4→3 per Will (Jun 6); **flagged for re-examination at the Jun 16-17 FOMC/SEP convergence review**, where the V12/score pass is already scheduled. Two independent passes disagreeing on this vector by 1 point is itself a calibration signal — neither side is clearly wrong.
+- **Files:** THESIS.md (header v2.5.2 + matrix row + histogram 53→52 + vector #5 prose re-anchor + version-history v2.5.1/v2.5.2 entries + load-bearing commentary), STATUS.md (matrix mirror + histogram + total + overall line). PREDICTIONS.tsv: CRL-11 supportive note (prior). CRL-09 stays MISSED.
+
+### Original integration note (Jun 1-5 data wall, V12 hardened)
+**Author:** CARL (Will-directed data-gap integration; STATUS was 8d stale, boot docket caught 6 unintegrated catalysts).
+**Trigger:** ISM Mfg May (Jun 1), JOLTS Apr (Jun 2), DG Q1 (Jun 2), ISM Svc May (Jun 3), BLS May NFP (Jun 5).
+
+**What moved — V16 (Employment Structural Rot, scored 4):**
+- **Old view:** acute labor deterioration tracked via JOLTS inversion (0.91→0.95→~0.98), persistent downward NFP revisions, 3-mo avg ~48K.
+- **New data:** JOLTS Apr openings 7.6M / **ratio 1.03 = inversion BROKEN** (highest since Jan 2024); May NFP +172K with **Mar/Apr revised +93K UP** (214K/179K) → 3-mo avg ~188K. The downward-revision pattern REVERSED.
+- **Disposition:** V16 anchors broke → **DOWNGRADE REVIEW 4→likely 3**, NOT executed unilaterally (vector-score change moves convergence total 53/70; thesis-level → Will weighs in). Flagged in STATUS matrix + DANGER WINDOW. **Surviving V16 legs:** JOLTS hires FELL to 5.1M (openings-up/hires-down divergence = structural-freeze signal, CRL-11 SUPPORTIVE), ISM Svc Employment 47.9 (contracting 3rd mo), duration/LTU.
+
+**What hardened — V12 (Stagflation Trap / Fed Locked, scored 4):**
+- ISM Mfg Prices Paid 82.1 + **ISM Svc Prices Paid 71.3 (highest since Aug 2022, oil/diesel-driven)** = cost-side broadening. AHE +3.4% YoY < CPI ~3.8% = real-wage decline continues. Strong labor + sticky prices "crushes Fed-cut hopes" → Waller-pivot / Oct-hike modal reinforced.
+
+**Mechanism note:** v2.5.1 mechanism is *cost squeeze, NOT employment detonator* — so strong-labor data does NOT falsify the core thesis; it reinforces V12 (Fed can't cut → squeeze prolonged). The casualty is the V16 acute-rot leg. **Counter-case honesty:** the soft-landing / CONTAINMENT alt-hypothesis gains genuine support on acute-employment legs → staged for RED (handoff_RED).
+
+**PREDICTIONS.tsv:** CRL-11 note updated (SUPPORTIVE, 83% held). CRL-09 stays MISSED (now confirmed harder — inversion anchor gone). No other mutations.
+
+---
+
 ## 2026-05-29 — CRL-18 CONFIRMED (GDP Q1 2nd est) + CRL-08 re-armed OPEN (gas un-sustained)
 
 ### PREDICTIONS.tsv — 2 rows, no THESIS version bump
