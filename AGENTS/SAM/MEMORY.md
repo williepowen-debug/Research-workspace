@@ -27,58 +27,57 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (6/3 ~21:30 ET close → 6/4 AM)
+### CHANGES SINCE LAST SESSION (Thu Jun 4 close → Sat Jun 6 AM)
 
-- **USDJPY 159.92** (flat vs Wed close 159.90; Wed PM tagged 160.03 intraday then pulled back).
-- **Brent 2nd consecutive down session** to ~$96.97 (−0.86% from Wed $97.81); cumulative from Jun-3 baseline ≈ flat. 4-day MOU-break rally snapped.
-- **🔴 BOJ pre-blackout cabling intensified:** Bloomberg sources-leak Jun 4 ("BOJ Is Said to Mull June Rate Hike With Another Possible in 2026") + Ueda Kisaragi-kai Jun 3 ("raise at appropriate pace, upside risks sooner") + Takaichi Jun 3 verbal at 160 (intervention-permission, not pushback) + Polymarket 94.8% → 96.9% (3rd sequential build).
-- **Israel-Lebanon conditional ceasefire Jun 4** removes ONE of Tehran's two stated grievances for message-suspension; walk-back precondition improved but NOT delivered.
-- **JGB 30Y +3bp to 3.85%** Jun 4 — curve steepening on hike anticipation.
+- **🔴 Fri Jun 5 NFP +172K vs 85K cons** (BLS). 4.3% U/E steady; AHE +3.4% YoY. Hot — Fed-cut bets crushed. DXY +0.66% to 100.07; 2Y closed 4.17% (highest since Feb 2025); 10Y 4.55%.
+- **🔴 USDJPY tagged 160.20 intraday Fri** — first sustained MOF #3 hard-trigger print this cycle. Driver = USD-side NFP, NOT yen-side flow.
+- **🆕 Cross-pair divergence:** yen STRENGTHENED vs EUR (−0.63%), GBP (−0.48%), AUD (−1.13%) while WEAKENING vs USD. Real yen demand intact; USDJPY level masked by USD strength. **Vindicates carry-unwind direction read.**
+- **🔴 Brent collapsed to $92.94** (-2.20% Fri, 3rd consecutive down session, -4% cumulative from $96.78 Jun-3 baseline). Driver: China demand weakness + Trump-Iran walk-back rumors — SEPARATE from USDJPY direction.
+- **🟢 Polymarket BOJ Jun 16 held 96.3% Fri** despite USD-rally + Fed-cut path locking dead — no dovish capitulation. SAM-21 mechanical-trigger Jun-9 condition overdetermined.
+- **🔴 CFTC Jun 2 (released Sat Jun 6 AM): net -129,567** = **72.0% of cycle peak** (was 63.7%). Shorts +16,756, longs +1,856, net WoW -14,900. 5th build week. **METHOD residual-gate test resolved AGAINST cover** — amplifier +5pp ON, residual ON. Approaching 85%/-153K danger zone.
+- **🟢 Fri's prior session (cut short ~4:30 PM ET):** updated STATUS banner + MARKET DATA + FXY ATM IV proxy (11.08% restored from broken 1.17% Wed read) but session ended before news-cause identification, STATUS internal cleanup, TIMELINE, MEMORY closeout. Picked up this session.
 
-### LAST SESSION (Thu Jun 4 — eval scoping + v1.5.1 reconciliation + propagation + news ingest + Sato corrections + subagent-trio apply queue)
+### LAST SESSION (Sat Jun 6 — Fri cut-short cleanup: news-cause + CFTC + STATUS propagation + TIMELINE + closeout)
 
-Long multi-pass session — 6 commits landed.
+Sequential mechanical pass to finish Fri Jun 5's cut-short session.
 
-- **v1.5.1 narrative reconciliation** (commit `39639b06`): 4-part pass — conviction decomposed direction-HIGH/timing-MEDIUM, new STRUCTURAL PILLARS section in THESIS, Channel 2 prose reconciled with CH-004 METHOD (Aug-2024 demoted from expectation → hawkish-of-pricing-conditional upside tail), intervention paradox softened. METSUKE Run 3 fired immediately after (7 STALE-FRAMING / 100% apply).
-- **v1.5.1 propagation completion** (commit `693f4e65`): 3-line gap fix — THESIS L318 (HENRY) + STATUS L198 (Channel 2 ref) + STATUS v1.5→v1.5.1 stamps. Will caught the propagation gap.
-- **Open Flags rail Phase A + B** (commit `72220937`): eval re-baseline scoped & scheduled Jun 7-8 with full operator packet (`evals/REBASELINE_v1.5.1_RUN_PROMPT.md`); SAM-23 conjunction-based mark-DOWN/UP triggers pre-registered (mirrors SAM-21 Jun-9 pattern); OS.1 re-homed from generic NEXT-SESSION bucket to scoped pre-Jun-9 thesis task.
-- **News-sweep + OS.1 closure + Sato corrections** (commit `079e46ca`): 4 parallel news agents surfaced Bloomberg leak + Ueda speech + Takaichi verbal + Polymarket build. OS.1 closed largely-falsified-for-binary in MEMORY + CHANGELOG. Sato date corrected Jun 16 → Jun 30 across 4 docs (verify agent's primary source).
-- **Subagent-trio habit run** (commit `01e0fc93`): first parallel-spawn METSUKE+KOYOMI+KURA in teams-mode. METSUKE caught TRADE:246 Sato propagation gap. KOYOMI primary-source verified Sato (BOJ Nakagawa page: "from June 30, 2021 to June 29, 2026"; all 4 sub-claims confirmed — no quarantine). KURA promoted KB-185 (Sato A1). Polymarket cluster D1=(b) structural fix applied — 8 sites converted to STATUS-pointer.
-- **Process win:** the "spawn subagents after every material multi-file edit pass" habit (Will-directed) is now validated end-to-end. METSUKE/KOYOMI/KURA dependency graph emerged organically (KURA PENDING_KOYOMI hand-off cleared by KOYOMI verify); cross-agent coordination via SendMessage didn't fire this run but is available.
-- **SAM-21 HELD 70%** through multi-source corroboration that genuinely strengthened the case (Bloomberg leak + Ueda + Polymarket + Takaichi). Pre-registration discipline credibility preserved.
+- **Parallel intake (Plan a):** news-sweep via Explore agent identified May NFP +172K as USDJPY 160.20 driver (cross-pair divergence vindicates yen-strength); CFTC pull via cftc_jpy.py returned Jun 2 data (-129,567 = 72% of peak, METHOD gate against cover).
+- **STATUS propagation (Plan b):** updated STATE OF PLAY (Jun 5-6 NFP shock + cross-pair + CFTC build); MARKET DATA (CFTC row Jun 2, DXY/2Y/NFP rows added, Polymarket Fri 96.3%); CARRY UNWIND ANCHOR (CFTC 72%, amplifier+residual ON); INTERVENTION STATUS (USDJPY 160.20 tag + SAM-23 Sat Jun 6 evaluation — HELD 72%, both conjunctions blocked by inverted legs; catalyst-path-decoupling analytical note); SECONDARY PATH (NFP locks Fed-cut dead through 2026); KEY THRESHOLDS (refreshed Jun 5-6 status, added CFTC + DXY rows); WHAT TO WATCH (NFP + CFTC RESOLVED rows); REFERENCE DATA Channel 2 (CFTC + cross-pair vindication line).
+- **TIMELINE entry:** new ## RESOLVED — Jun 5-6 section with two ### sub-events (Fri Jun 5 NFP shock; Sat Jun 6 CFTC METHOD gate). Last Updated bumped to 2026-06-06.
+- **SAM-21 HELD 70%, SAM-23 HELD 72%** — neither pre-registered conjunction trigger cleanly met (SAM-23 inverted leg on each direction; SAM-21 Jun-9 default-path mechanical fire still pending). Pre-registration discipline preserved through 2 more days of cabling.
+- **Catalyst-path-decoupling note logged** — Fri's USDJPY 160 print routed via USD-side NFP, NOT yen-side MOU/oil. The SAM-23 framework's path-dependency assumption (MOU break → oil → yen-weak → USDJPY upside → MOF) has decoupled. Re-anchoring is a candidate for the next thesis CHANGELOG entry — flagged for the Jun 9 SAM-21 re-check session.
 
 ### NEXT SESSION
 
-**Carry-forward items with deadlines (Will-flagged Jun 4):**
+**Carry-forward items with deadlines:**
 
-1. **🔴 OS.1 fiscal-dominance close — DUE BEFORE JUN 9.** Evidence is in (largely-falsified-for-binary per Jun-4 news-sweep), CHANGELOG documents the closure, MEMORY captures the 3-question resolution. **Pending:** decide if a tighter THESIS-side "short note" is wanted (vs current CHANGELOG-only documentation), and write it if yes. Will likely just needs the verification + final ratification.
+1. **🔴🔴 SAM-21 Jun-9 mechanical re-check.** Currently 70% / market ~85-95%. Pre-registered trigger: *if Polymarket ≥90% on Jun 9 re-check AND no Takaichi/cabinet pushback → mechanical +5pp to 75%*. Polymarket leg ≥90% across 4 sequential reads (Tue 87.6 → Wed 94.8 → Thu 96.9 → Fri 96.3); Takaichi-pushback leg affirmatively CLOSED Jun 3 + intact through Fri NFP-locks-Fed event. Both conditions overdetermined; **Jun 9 fires +5pp absent regression.**
 
-2. **🔴🔴 SAM-21 Jun-9 mechanical re-check.** Currently 70% / market ~85-95% across surfaces. Pre-registered trigger: *if Polymarket ≥90% on Jun 9 re-check AND no Takaichi/cabinet pushback → mechanical +5pp to 75%*. Polymarket leg ≥90% across 3 sequential reads (Tue 87.6 → Wed 94.8 → Thu 96.9); Takaichi-pushback leg affirmatively CLOSED Jun 3 (verbal as intervention-permission). Both conditions overdetermined; Jun 9 fires +5pp absent regression.
+2. **🔴 OS.1 fiscal-dominance close — DUE BEFORE JUN 9.** Evidence in (largely-falsified-for-binary per Jun-4 news-sweep); CHANGELOG documents closure; MEMORY captures the 3-question resolution. **Pending:** decide if a tighter THESIS-side "short note" is wanted vs current CHANGELOG-only documentation. Carried forward from Jun 4.
 
-3. **🔴 SAM-23 ARMED at 72%.** Symmetric conjunction triggers pre-registered Jun 4 in STATUS § INTERVENTION STATUS. Mark-DOWN: Brent ≥2 down sessions / cumulative ≥−2% from $96.78 + Tehran walk-back + USDJPY <159.50. Mark-UP: Brent +>1.5% / $100+ tag + USDJPY 160+ + Tehran further escalation. Current state: 1st direction-leg of mark-DOWN firing (2nd down session); cumulative not met; no walk-back. Hold.
+3. **🔧 Eval re-baseline — fire-date Jun 7-8.** Operator packet at `evals/REBASELINE_v1.5.1_RUN_PROMPT.md`. Fresh skip-boot Claude Code session per `README.md` § Runner protocol. ~20 min total. Two new rows to results.tsv + new `baseline_artifacts/2026-06-XX_v1.5.1_responses.md` artifact.
 
-4. **🆕 CFTC residual-gate test — Sat Jun 6.** First scheduled gate under CH-004 METHOD. Watch -108K (60% cycle-peak amplifier line). Cover below → amplifier 0 from +5pp, residual OFF → 30d marks slip ~5-8pp (37% → 29-32%). Build past -153K (85% line) → amplifier toward +8pp, residual stays ON.
+4. **🆕 SAM-23 framework re-anchoring (CHANGELOG candidate).** Fri's USDJPY 160 print via USD-side NFP — not the MOU-driven oil → yen-weak path the conjunction triggers assumed. The framework's path-dependency assumption is empirically decoupled. Decision: add USD-side independent driver to SAM-23 trigger spec, or accept that the level-trigger (160) is itself sufficient for intervention probability regardless of upstream driver. Logged in STATUS § INTERVENTION STATUS Sat Jun 6 note. Bring up Jun 9 session.
 
-5. **🔧 Eval re-baseline — fire-date Jun 7-8.** Operator packet at `evals/REBASELINE_v1.5.1_RUN_PROMPT.md`. Fresh skip-boot Claude Code session per `README.md` § Runner protocol. ~20 min total. Two new rows to results.tsv + new `baseline_artifacts/2026-06-XX_v1.5.1_responses.md` artifact.
+5. **🟠 Sat Jun 13 CFTC next print (Jun 9 data) — last pre-blackout read.** Watch -153K (85% line) — METHOD amplifier escalates to +8-10pp at that level; build past it → 30d marks bump up ~3-5pp. Cover ↓ to -108K would flip amplifier+residual OFF.
 
-6. **🆕 Auto-memory promotion candidates — flag next session for Will's call:**
-   - `finding_pre_registration_discipline_through_corroboration` — SAM held the Jun-9 trigger despite multi-source corroboration; pre-registration value comes from holding through "this time is different" pressure.
-   - `finding_counter_frame_3_question_disposition` — Will's OS.1 closure rubric: (a) did market reprice THROUGH the counter-frame's evidence? (b) inside the existing discount or un-priced additional? (c) discrete binary or post-binary path/ceiling?
-   - CH-004 catalyst→consequence conflation candidate `finding_catalyst_vs_consequence_conflation` — already in auto-memory per `[[finding_catalyst_vs_consequence_conflation]]` (auto-memory MEMORY.md line 96 referenced this).
+6. **🆕 Auto-memory promotion candidates — flag for Will's call:**
+   - `finding_catalyst_path_decoupling` — when a framework anchors its mark-up/down conjunction on an assumed catalyst path (MOU → oil → yen), a different path (NFP → USD → USDJPY) hitting the same level invalidates the path-dependency but not the level read. Discriminate level-driven vs path-driven triggers.
+   - `finding_pre_registration_discipline_through_corroboration` — held SAM-23 through both legs inverting + SAM-21 through 4 sequential Polymarket reads of 90%+; the value compounds across multiple holds.
+   - `finding_counter_frame_3_question_disposition` — Will's OS.1 closure rubric (carried forward from Jun 4).
 
 **Other live items (not Jun-9-gated):**
 
-7. **Position next-touch:** No add/trim under v1.5.1 single-path. Triggers: (a) USDJPY <156 for 3 sessions → consider add; (b) BOJ pre-cabling Jun 13-15; (c) post-Jun-16 ONLY: thesis break if BOTH BOJ dovish AND USDJPY 167+/no MOF (per Jun-3 stop-spec).
-8. **🟡 Cleanups deferred (3 items still live):** insurer profiles audit (~10 min); Japanese-source pipeline retire-vs-revive decision (lean retire); SIGNAL_INTAKE minimal fix vs archive.
-9. **🟠 Jun FY2025 Norinchukin** — only near-term Channel 1 reactivation gate; CLO book reportedly ¥8.2T (was ¥9.7T in thesis) — verify. (KURA_MEMORY STANDING MONITORS.)
-10. **Hedge-ratio verification:** primary-source check on 44.4% vs <30% claim (KURA_MEMORY PENDING).
-11. **🆕 KOYOMI Run 6 escalations (informational, Will-decision pending):** (a) RELEASES.md schema gap for board-composition transitions; (b) MOU walk-back direction inverted — Phase 2 Watch pre-emptive reframe (hold pending Brent Jun 5-6); (c) MOF quarterly per-op release watch (~Aug).
-12. **🆕 FXY ATM IV proxy investigation** — calibration glitch (KB-183). Check `fxy_options.py` source / consider real OTC pull.
-13. **Subagent cadence:** next METSUKE = after any material multi-file edit pass; KOYOMI + KURA post-Jun-16 BOJ. KOYOMI BASELINE AUDIT first fires first run of July.
+7. **Position next-touch:** No add/trim under v1.5.1 single-path. Triggers: (a) USDJPY <156 for 3 sessions → consider add; (b) BOJ pre-cabling Jun 13-15; (c) post-Jun-16 ONLY: thesis break if BOTH BOJ dovish AND USDJPY 167+/no MOF (per Jun-3 stop-spec). **Intervention #3 fire would be yen-bullish but same-day reclaim modal (CH-003 baseline ~0.20 sustained unwind|fires).**
+8. **🟡 KB-183 (FXY ATM IV proxy)** — Fri restored 11.08% suggests the Wed 1.17% was the broken read, not the calibration. KURA closure pending re-verify across 2-3 more boot.py runs.
+9. **🟡 Cleanups deferred:** insurer profiles audit (~10 min); Japanese-source pipeline retire-vs-revive (lean retire); SIGNAL_INTAKE minimal fix vs archive.
+10. **🟠 Jun FY2025 Norinchukin** — only near-term Channel 1 reactivation gate; CLO book reportedly ¥8.2T (was ¥9.7T in thesis) — verify.
+11. **🆕 KOYOMI Run 6 escalations (informational, Will-decision pending):** (a) RELEASES.md schema gap for board-composition transitions; (b) MOU walk-back direction inverted — Phase 2 Watch pre-emptive reframe; (c) MOF quarterly per-op release watch (~Aug).
+12. **Subagent cadence:** post-Jun-16 BOJ = METSUKE+KOYOMI+KURA trio. KOYOMI BASELINE AUDIT first fires first run of July. **Skipped this session** — no material new analysis, only propagation of Fri close + CFTC data + news sweep into existing structure.
 
-**⏸️ DEFERRED (still holds):** Layer B cross-agent signals (BROCK/HANS PC-cascade pull, HENRY carry-numbers); KB cleanup tier-2 macro/flow rows.
+**⏸️ DEFERRED (still holds):** Layer B cross-agent signals (BROCK/HANS PC-cascade pull, HENRY carry-numbers — cross-pair vindication is signal-worthy though; could trigger HENRY ping); KB cleanup tier-2.
 
-**🟢 RESOLVED THU JUN 4:** v1.5.1 narrative reconciliation (4-part: conviction decomposed, STRUCTURAL PILLARS promoted, Channel 2 prose reconciled, intervention paradox softened); v1.5.1 propagation completion (3-line HENRY + STATUS gap); Open Flags Phase A (eval scoping + operator packet) + Phase B (SAM-23 conjunction triggers); Jun 3-4 cabling-window news ingest; OS.1 fiscal-dominance counter-frame closed largely-falsified-for-SAM-21-binary; Sato corrections (date + characterization, KOYOMI primary-source verified); subagent-trio first parallel-spawn habit run (METSUKE Run 4 + KOYOMI Run 6 + KURA Run 4 — KB-185 promoted). Commits: `39639b06` `693f4e65` `72220937` `079e46ca` `01e0fc93` (+ this MEMORY closeout). Branch clean, pushed to origin.
+**🟢 RESOLVED SAT JUN 6:** Fri Jun 5 cut-short session cleanup — news-cause identification (NFP shock vindicates cross-pair); CFTC Jun 2 pull (METHOD gate test); STATUS internal propagation (8 sections); TIMELINE Jun 5-6 entry; MEMORY closeout. SAM-21 HELD 70%, SAM-23 HELD 72% per discipline.
 
 ### NEXT INFRA SESSION (script build queue — unchanged)
 
