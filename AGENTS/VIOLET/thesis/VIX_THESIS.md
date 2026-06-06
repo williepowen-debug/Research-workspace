@@ -24,14 +24,7 @@ VIOLET's core framework: Credit-vol relationship is **regime-dependent, crisis-t
 - Stage-2 trap framing intact; imminence read materially weaker than 5/13 / 5/21.
 - (Originally filed as v3.1 in thesis/CHANGELOG.md on 6/01; mislabel corrected to v3.2 on 6/06 per v3.3 changelog entry.)
 
-**v3.1 (2026-04-15) — First empirical audit against 20y VIX/VIX3M history (4,968 days)**
-- ✅ Regime distributions confirmed within noise (VIX<20 = 64.5% vs thesis 63%)
-- ✅ Added COMPLACENCY (VIX<15) as distinct regime — 33% of days, not to be bucketed with LOW_VOL
-- ❌ **Prediction #2 (term-structure inversion → VIX spike) FALSIFIED.** 553 historical inversion events produced 2.2% hit rate for >50% VIX spike in next 5 days; mean forward VIX move was -5.1%. Inversion MARKS PEAK, does not lead. See KB-VIO-034.
-- ⚠️ KB-VIO-023 "gold standard" framing corrected — article cherry-picked 2008/2020; base rate is opposite.
-- Added local crisis analog: Mar 18–Apr 8 2026 stress episode (KB-VIO-030).
-- Marked inherited hit rates (70% / 25-30% FP) as four-model-synthesis-derived, not VIOLET-validated.
-- Regime-shift trade entry signal revised: flattening contango is NOT an entry for VIX calls.
+**v3.1 (2026-04-15)** — First empirical audit against 20y VIX/VIX3M history (4,968 days). Regime distributions confirmed; COMPLACENCY (VIX<15) added as distinct bucket; Prediction #2 FALSIFIED (KB-VIO-034); inherited hit rates flagged as four-model-derived not VIOLET-validated; Mar 18-Apr 8 2026 episode added (KB-VIO-030).
 
 **v3.0 (2026-04-12)** — Four-model synthesis (Gemini, Perplexity, Claude, Grok).
 
@@ -96,7 +89,7 @@ Live signals are organized into four layers; only L1 is the real-money signal as
 | Term structure | Steep contango |
 | Signal quality | **Highest** — greatest window for positioning |
 
-**Implication:** This is the *pre-stress* regime — the volatility paradox zone where complacency builds up structural risk. Most actionable for strategic credit-vol lag positioning. Our Mar 27 episode started from ~20, so we haven't recently been here.
+**Implication:** This is the *pre-stress* regime — the volatility paradox zone where complacency builds up structural risk. Most actionable for strategic credit-vol lag positioning.
 
 ### Low Vol Regime (VIX 15-20)
 | Characteristic | Value |
@@ -107,7 +100,7 @@ Live signals are organized into four layers; only L1 is the real-money signal as
 | Term structure | Contango |
 | Signal quality | **High** — actionable lag window |
 
-**Implication:** Active monitoring zone. Credit stress starts becoming predictive. **Current regime as of Apr 15 (VIX 18.09).**
+**Implication:** Active monitoring zone. Credit stress starts becoming predictive.
 
 ### Rising Vol Regime (VIX 20-30)
 | Characteristic | Value |
@@ -348,15 +341,7 @@ Portfolio P&L (no credit-side firing required)
 
 ## RESEARCH AGENDA
 
-**Phase 1: Historical Analysis** ✅ COMPLETE
-- ✅ Download VIX and HY OAS data (2018-present)
-- ✅ Calculate correlation and lead-lag
-- ✅ Identify regime-dependent behavior
-
-**Phase 2: Crisis Analogs** ✅ COMPLETE
-- ✅ Mar 2020: VIX led credit by 21 days
-- ✅ Feb 2018: Credit didn't lead (technical spike)
-- ✅ Feb 2021: Equity-specific vol
+**Phases 1-2 complete** — historical analysis (VIX/HY OAS correlation, regime-dependent behavior) and crisis-analog catalog (Mar 2020, Feb 2018, Feb 2021). See `research/` for backtest + analog files.
 
 **Phase 3: Live Testing** *(in progress)*
 - [x] Track credit-vol divergence in real-time (ongoing)
@@ -397,7 +382,7 @@ System thesis (Scenario D 82%): Credit stress → bank stress → equity crash.
 3. **VVIX > 120 while VIX < 20** (divergence form — KB-VIO-027 Pattern A)
 
 ### The Path B window opens when:
-1. HENRY-side concentration concentration metric > historical threshold (NVDA + top-10 weighting in SPX > N%)
+1. HENRY-side concentration metric > historical threshold (NVDA + top-10 weighting in SPX > N%)
 2. Macro trigger imminent (data, FOMC, geopolitical)
 3. **L1 DIET signature has fired or is actively firing**
 
@@ -410,8 +395,5 @@ Until then: 6/12 CPI is the gate.
 
 ---
 
-*Created: 2026-04-12 (v3.0)*
-*Empirical audit: 2026-04-15 (v3.1)*
-*DIET hypothesis + R11 closed: 2026-06-01 (v3.2)*
-*6/5 NFP-shock live test integration: 2026-06-06 (v3.3)*
-*Status: ACTIVE — Phase 4 stack calibration in progress*
+*Version history: `thesis/CHANGELOG.md`. v3.0 → v3.3 (2026-04-12 → 2026-06-06).*
+*Status: ACTIVE — Phase 4 stack calibration in progress.*
