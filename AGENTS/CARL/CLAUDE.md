@@ -58,6 +58,9 @@ When new consumer data arrives, always disaggregate:
 
 ## SPAWN PROTOCOL
 
+**Boot and closeout are one symmetric sequence: what you READ at boot, you WRITE BACK at closeout.** The CLOSEOUT phase (write-back tail) is **not optional** — run it at **EVERY session end, not just end-of-day** (`[[feedback_intra_day_closeout_discipline]]`). Read→write pairings: STATUS (read 2 → write 9), SCRATCH (read 1 → rewrite 14), predictions (surface 7b → resolve 10), docket (read 7a → prune 13), ROADMAP (read 6 → update 13), TEAM (read 4 → update 13).
+
+### BOOT (read phase)
 0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
 1. **Read `SCRATCH.md`** — ephemeral handoff from last session (what happened, what to do next, urgent items)
 2. **Read `STATUS.md`** — signal dashboard, K-shape evidence, danger window
@@ -69,7 +72,11 @@ When new consumer data arrives, always disaggregate:
    - **7a. Docket countdown.** Run `.venv/bin/python3 AGENTS/CARL/scripts/docket_countdown.py` — reads `docket/CATALYSTS.tsv` and prints upcoming catalysts + flags any PAST-dated row still present as "released, integrate & prune" (the silent-miss catch: a lingering past row = a catalyst whose data was never folded into STATUS/ROADMAP). The docket is the **single source of truth** for forward catalysts — it replaces the old scattered date-lists in ROADMAP AWAITING DATA / STATUS EXIT-RULES line / EARNINGS_WATCH. `docket/CALENDAR.md` is the human twin (must not diverge from the TSV).
    - **7b. PREDICTIONS due/stale.** List OPEN predictions and eyeball each Timeframe against today — anything whose window has passed is DUE: resolve / re-arm with a reason / push the date with a reason. **Don't let a prediction sit OPEN-but-stale.** Helper: `awk -F'\t' 'NR>1 && $6=="OPEN"{print $1"\t"$5"\t"$4}' thesis/PREDICTIONS.tsv` → ID / Timeframe / Confidence (free-text timeframes → human eyeball). Load `[[finding_threshold_vs_mechanism]]` before resolving: separate "mechanism intact" from "threshold stuck/breached" (a threshold can retrace while the mechanism holds → re-arm, not MISS).
    - **7c. Failure-pattern preamble (before resolving OR writing a new prediction).** Read the Notes column for MISSED/MIXED rows: `awk -F'\t' '$6~/MISSED|MIXED/{print $1"\t"$6"\t"$NF}' thesis/PREDICTIONS.tsv`. Failure patterns to calibrate against: CRL-01 ("direction right, magnitude wrong" — gas pump peak), CRL-09 ("denominator shrank on LFPR effects — pre-flagged risk realized" — JOLTS ratio), CRL-19 ("direction correct, magnitude light" — Core PCE acceleration). Don't repeat the same failure mode in a new threshold/timeframe.
+
+### EXECUTE
 8. **Execute the task** (if sub-agents were spawned, read their outputs before synthesis)
+
+### CLOSEOUT (write-back — run at EVERY session end, not just end-of-day)
 9. **Write results back to `STATUS.md`** — update dashboard values, predictions, findings
 10. **Log to workbook TSVs:**
    - New facts/claims → `workbook/KB.tsv` (one row per atomic claim)
@@ -77,29 +84,23 @@ When new consumer data arrives, always disaggregate:
    - Transmission/cascade mechanics → `workbook/FLOW.tsv`
    - New predictions → `thesis/PREDICTIONS.tsv` (with Invalidation criteria)
    - Prediction changes (resolve / re-arm / new) → log in `thesis/CHANGELOG.md`
-11. **Research detail → `domain/sources/`** — STATUS.md gets a summary, detail lives here
+11. **Research detail → `domain/sources/`**
 12. **Cross-agent signals → `outbox/`** (HERMES degraded — see Messaging rules)
-13. **Update the docket + `ROADMAP.md` (forward-state maintenance).**
-   - **Docket:** for any catalyst whose data you integrated this session, **prune its row** from `docket/CATALYSTS.tsv` AND `docket/CALENDAR.md` (its record now lives in STATUS "recently fired" + ROADMAP RECENTLY RESOLVED + CHANGELOG). Add any newly-discovered forward catalysts as dated rows. Keep the TSV and CALENDAR.md in sync. The docket — not ROADMAP — now holds the dated-event feed (the old AWAITING DATA table is retired).
+13. **Update the docket + `ROADMAP.md` + `TEAM.md` (forward-state maintenance).**
+   - **Docket:** for any catalyst whose data you integrated this session, **prune its row** from `docket/CATALYSTS.tsv` AND `docket/CALENDAR.md` (its record now lives in STATUS "recently fired" + ROADMAP RECENTLY RESOLVED + CHANGELOG). Add any newly-discovered forward catalysts as dated rows. Keep the TSV and CALENDAR.md in sync.
    - **ROADMAP:** move resolved threads to RECENTLY RESOLVED, add new OPEN THREADS, log new OPEN QUESTIONS, append "should investigate X" ideas to INVESTIGATIONS BACKLOG. Persistent "where are we" state — update timestamp at top.
+   - **TEAM.md:** if you spawned or refreshed a sub-agent this session, update its Last-Refresh date + staleness in the ROSTER (boot reads TEAM for spawn decisions — this is its closeout mirror).
 14. **Rewrite `SCRATCH.md`** using `templates/SCRATCH.template.md`. **Before finishing, scan for promotion candidates** — see promotion paths below.
+15. **Consistency check (if you mutated a mirrored doc this session) — verify before commit.** Confirm the canonical→mirror pairs in **Doc Ownership** (OUTPUT RULES) agree: (a) convergence score/matrix — `thesis/THESIS.md` == STATUS matrix section; (b) OPEN prediction IDs — `thesis/PREDICTIONS.tsv` == STATUS PREDICTIONS table; (c) catalyst event set — `docket/CATALYSTS.tsv` == `docket/CALENDAR.md`. Mismatch → fix the mirror (canonical wins) before git. *(Boot-side auto-scan of these pairs = the Phase-3 `scripts/consistency_check.py` enhancement.)*
+16. **Git** — commit + push. **Use pathspec commits, never `git reset HEAD`** (`[[finding_pathspec_commit_race_safety]]`): modified files → `git commit AGENTS/CARL/<file> -m "..."`; new files → `git add <specific files> && git commit <same files> -m "..."` (atomic, explicit paths — never `git add AGENTS/CARL/`). Pull-rebase first if origin diverged. If blocked by another agent's uncommitted work outside `AGENTS/CARL/`, **note the pending push in SCRATCH.md and defer** — never stash/clobber other agents (`[[feedback_agent_git_isolation]]`).
+
+**Discipline overlay (throughout closeout):** one source of truth per metric — own it in the owner doc (see **Doc Ownership**, OUTPUT RULES), reference (don't duplicate) from others. Stale-marked > carried-forward-as-current — if you can't refresh a value, mark it `[STALE]` with a date, never present it as live.
 
 ### SCRATCH.md rewrite (step 14)
-
-Every session rewrites SCRATCH.md using the template at **`templates/SCRATCH.template.md`** (copy the fenced block, fill in). Enforcement rules:
-- **PRIORITY-1 must be future-verifiable** — never carry forward event references without checking the date is still in the future.
-- **IMMEDIATE items must have dates.** If a date has passed, remove or reclassify.
-- **Outbox/inbox summaries: one line per signal** so next session can triage without reading files.
-- **Workbook health:** run `wc -l` and `stat` on TSVs to populate.
-- **CHANGES SINCE LAST SESSION:** if data/market/news moved while CARL was offline (look at STATUS.md mtime vs today + any boot-step-7a integrate-and-prune flags), capture it in the template's CHANGES SINCE section. This is the "what's new in the world" delta — not duplicative with WHAT HAPPENED (what CARL did this session).
+Rewrite from **`templates/SCRATCH.template.md`**. Rules: PRIORITY-1 future-verifiable (date still ahead); IMMEDIATE items dated (passed → remove/reclassify); outbox/inbox one line per signal; workbook health via `wc -l` + `stat`; **CHANGES SINCE LAST SESSION** = what moved while offline (STATUS mtime vs today + boot-7a integrate-and-prune flags), distinct from WHAT HAPPENED (what CARL did this session).
 
 ### Promotion paths (apply at step 14)
-
-If this session produced a finding/feedback that's bigger than SCRATCH:
-- **Thesis-level finding** (new mechanism, threshold breach, framework shift) → `thesis/THESIS.md` + log to `thesis/CHANGELOG.md` with old → new view and version bump (major = structural, minor = refinement).
-- **Cross-session calibration / process / workflow lesson** (transferable to other agents) → auto-memory at `~/.claude/projects/-home-willi-Research-workspace/memory/` as a new `feedback_*.md` / `finding_*.md` file + one-line entry in that dir's `MEMORY.md`. Auto-memory loads at every boot via the harness — anything you write there is read on next CARL spawn AND available to all agents on this machine.
-- **Architectural/structural change to CARL's docs/folders/scripts** → ROADMAP RECENTLY RESOLVED row (already standard) — the audit trail.
-- **Domain-specific learning** (consumer-stress-only, not transferable) → SCRATCH SESSION FINDINGS WORTH CARRYING section, then prune next session if not load-bearing.
+Finding bigger than SCRATCH → route by type: **thesis-level** (mechanism/threshold/framework) → `thesis/THESIS.md` + CHANGELOG (old→new + version bump: major=structural, minor=refinement); **transferable lesson** (calibration/process/workflow) → auto-memory `~/.claude/projects/-home-willi-Research-workspace/memory/` (`feedback_*`/`finding_*` + one-line index in its `MEMORY.md`; loads every boot, all agents); **architectural change** (CARL docs/folders/scripts) → ROADMAP RECENTLY RESOLVED (audit trail); **domain-only learning** (not transferable) → SCRATCH SESSION FINDINGS, prune next session if not load-bearing.
 
 ---
 
@@ -129,6 +130,23 @@ If this session produced a finding/feedback that's bigger than SCRATCH:
 - **Source-tag all data:** `[Source, Date]` on every claim. No unsourced numbers.
 - When data shows improvement in aggregate, check: is it K-shape (bottom still deteriorating)?
 - Separate SIGNAL (what happened) from INTERPRETATION (what it means).
+
+### Doc Ownership (one source of truth — no duplication)
+
+**Boundary: STATUS = what the market/data is doing *now* (snapshot). ROADMAP = what CARL is *doing about it* across sessions (process).**
+
+| Doc | Owns | Does NOT contain |
+|-----|------|------------------|
+| **STATUS.md** | Current dashboard values; K-shape snapshot; convergence score/matrix *mirror*; DANGER WINDOW synthesis (NOW read + thesis-window triggers + recently-fired digest) | Multi-session process / what-CARL-shipped → ROADMAP. Canonical thesis/scores → THESIS. |
+| **ROADMAP.md** | Cross-session process: open threads, open questions, investigations backlog, RECENTLY RESOLVED audit trail | Market/data snapshots → STATUS. Dated forward catalysts → docket. |
+| **SCRATCH.md** | Next-session handoff (PRIORITY-1, CHANGES SINCE, immediate items, workbook health) | Persistent state → ROADMAP. Canonical claims → THESIS/workbook. |
+
+**Canonical sources** (own the truth; STATUS/ROADMAP/SCRATCH reference, never restate): `thesis/THESIS.md` (thesis/vectors/matrix/score/exit rules) · `thesis/PREDICTIONS.tsv` (prediction ledger) · `docket/CATALYSTS.tsv` (forward catalysts) · `workbook/*.tsv` (KB facts / VX levels / FLOW mechanics; narrative → STATUS or `domain/sources/`).
+
+**Mirror pairs (canonical → mirror; closeout + boot consistency check verifies these agree):**
+- THESIS matrix/score → STATUS matrix section
+- PREDICTIONS.tsv OPEN IDs → STATUS PREDICTIONS table
+- CATALYSTS.tsv → CALENDAR.md (event set)
 
 ---
 
@@ -209,12 +227,12 @@ These rules govern *how to reason about workbook mutations* — distinct from ou
 | `SCRATCH.md` | Ephemeral handoff. Rewritten every session. **Read FIRST at boot.** Uses template (see Spawn Protocol). |
 | `STATUS.md` | Live state — dashboard, K-shape, convergence mirror. **Primary memory.** ≤250 lines. |
 | `TEAM.md` | **Read at boot.** Sub-agent roster — status, last refresh, upcoming catalysts, staleness. Drives spawn decisions. |
-| `ROADMAP.md` | **State-of-CARL tracker.** Open threads / open questions / investigations backlog / recently resolved. *(Dated forward catalysts moved to `docket/` — May 29 2026.)* Read at boot (step 6) for context recall. Update at session end (step 13) before SCRATCH rewrite. SCRATCH = next session focus; ROADMAP = persistent state across sessions. |
+| `ROADMAP.md` | **State-of-CARL tracker.** Open threads / open questions / investigations backlog / recently resolved. *(Dated forward catalysts moved to `docket/` — May 29 2026.)* Read at boot for context recall. Update at closeout (forward-state maintenance) before the SCRATCH rewrite. SCRATCH = next session focus; ROADMAP = persistent state across sessions. |
 | `SPAWN_PROTOCOL.md` | How to spawn sub-agents: spawn types, prompt templates, synthesis workflow, cost model. Reference when spawning. |
 | `TRADE.md` | **Stub.** Mar-10 v2.1 archived (`archive/TRADE_2026-03-10.md`) — misaligned to v2.5.1 mechanism. Refresh = dedicated trade-spawn session; do not cite triggers/conviction from either file on live trade decisions. |
 | `archive/EARNINGS_WATCH_Q1.md` | Archived (Q1 fired; calendar → `docket/`). Per-company watch-metric templates (SYF/COF/ALLY/AXP/WMT/DLTR/DG) reusable for Q2+ earnings prep. |
 | `SIGNAL_INTAKE.md` | Inbound signal intake protocol / format. Reference if questioned about inbox conventions. |
-| `docket/` | **Single source of truth for forward catalysts.** `CATALYSTS.tsv` (machine feed, read by countdown at boot step 7a) + `CALENDAR.md` (human twin — must not diverge). Prune fired catalysts at write-back (step 13). |
+| `docket/` | **Single source of truth for forward catalysts.** `CATALYSTS.tsv` (machine feed, read by countdown at boot scan 7a) + `CALENDAR.md` (human twin — must not diverge). Prune fired catalysts at closeout (forward-state maintenance). |
 | `scripts/` | CARL utility scripts. `docket_countdown.py` — boot countdown over `docket/CATALYSTS.tsv` (upcoming + past-due "integrate & prune" flag). Run via `.venv/bin/python3 AGENTS/CARL/scripts/docket_countdown.py`. |
 | `board/` | BOARD-related artifacts. Contains `BOARD_LOG.tsv` — CARL's disposition ledger for `/BOARD/INDEX.md` network signals. Diff against INDEX at boot; schema in TSV header. |
 | `inbox/` | Inbound signals. Process when spawned for it. |
@@ -225,7 +243,7 @@ These rules govern *how to reason about workbook mutations* — distinct from ou
 | `thesis/PREDICTIONS.tsv` | Trackable predictions with resolution dates + invalidation criteria. |
 | `thesis/CHANGELOG.md` | Audit trail of thesis evolution — every version bump, prediction change, structural shift logged with what/why/old→new. |
 | `workbook/SCHEMA.tsv` | **Read at boot.** Column definitions for all TSVs below. |
-| `templates/` | Reusable file templates. `SCRATCH.template.md` — used at session end (step 14) to rewrite SCRATCH.md. |
+| `templates/` | Reusable file templates. `SCRATCH.template.md` — used at closeout to rewrite SCRATCH.md. |
 | `archive/workbook_hardening/` | May 2-3 hardening sequence (AUDIT + ITEM_2.5 plan/dispositions). Methodology rule already extracted to WORKBOOK DISCIPLINE above — consult archive only to research specific dispositions or extend Item #3 validator. |
 | `workbook/KB.tsv` | Knowledge base — 15-column schema (ID/Date/Group/Entity/Fact/Source/Conf/Epistemic/Status/Stale_By/DerivedFrom/Vectors/Notes/Last_Refreshed/Delegated_To). ID format KB-CARL-NNN. |
 | `workbook/VX.tsv` | Indicator vectors — threshold tracking with Y/O/R status colors. See stale data rules. |

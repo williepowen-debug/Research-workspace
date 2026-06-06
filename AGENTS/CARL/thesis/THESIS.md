@@ -1,5 +1,5 @@
 # CARL THESIS: "Beneath the Ice"
-**Version:** 2.5 | **Updated:** 2026-05-01 | **Status:** ACTIVE — convergence 53/70 (76%, recalibrated and architecturally aligned), Path C ACTIVE-RED (provisional pending counterfactual), cross-industry data masking confirmed
+**Version:** 2.5.2 | **Updated:** 2026-06-06 | **Status:** ACTIVE — convergence **52/70 (74%)**, Path C ACTIVE-RED (provisional pending counterfactual), cross-industry data masking confirmed. *(v2.5.2 Jun 6: V16 Employment Structural Rot 4→3, re-anchored after Jun 1-5 labor wall reversed its acute legs; mechanism intact. v2.5.1 May 3: masking narrowed 6→4 + CRL-22/23.)*
 
 ---
 
@@ -92,9 +92,9 @@ Triple nitrogen seizure (Gulf urea + China N+K + Russia AN). USDA wheat acres lo
 FL Wave 1 fired Mar 24. Wave 2 Apr 26 — surface initial claims declining (counter-thesis on surface), but exhaustion mechanism is invisible in initial claims. National peak July ($800-930M/mo).
 **Kill condition:** Congress passes UI extension OR continuing claims drop AND no DQ/spending exhaustion signal Jun-Aug 2026.
 
-### 5. Employment (STRUCTURAL ROT, scored as V16 in matrix)
-NFP Mar +178K headline / Feb revised -133K / 3-mo avg ~68K. LFPR collapsed to 61.9%. JOLTS 0.91 inverted. Duration 25.7wk. Hires 3.1%.
-**Kill condition:** Claims sustained <200K for 8+ weeks AND continuing claims drop below 1,750K AND JOLTS ratio recovers above 1.1 AND LFPR recovers above 62.5%.
+### 5. Employment (STRUCTURAL ROT, scored as V16 in matrix — **downgraded 4→3 Jun 6, re-anchored**)
+**Re-anchored Jun 6 2026 (v2.5.2):** the acute-deterioration anchors REVERSED on the Jun 1-5 data wall — JOLTS ratio 0.91→**1.03** (inversion gone), 3-mo NFP avg ~48K→**~188K** (Mar/Apr revised +93K UP), UR held 4.3% 5th mo. Those legs were really *acute-break* evidence, which never belonged in a "rot, **not** break" vector. **The structural-freeze legs SURVIVED and got their cleanest confirmation:** JOLTS Apr hires FELL to 5.1M even as openings jumped +731K to 7.6M (openings-up/hires-down = frozen churn — demand on paper, not converting to hires); ISM Services employment 47.9 contracting 3rd consec month (hiring freezes / no-backfill); duration 25.7wk + LFPR 61.9% depressed. **Net: mechanism intact (arguably strengthened), but the acute escalation path receded → "watching, elevated" (3), not "firing with room to escalate" (4).** Re-arm to 4 if next JOLTS re-inverts OR next NFP prints negative w/ downward revisions.
+**Kill condition:** Claims sustained <200K for 8+ weeks AND continuing claims drop below 1,750K AND JOLTS ratio recovers above 1.1 AND LFPR recovers above 62.5% AND hires rate recovers above pre-COVID 3.8%.
 
 ---
 
@@ -239,7 +239,7 @@ Standing list of observations the thesis predicts should be visible but aren't, 
 
 ---
 
-## Convergence Score: 53/70 *(rescaled, expanded, architecturally aligned v2.5; canonical — STATUS.md mirrors)*
+## Convergence Score: 52/70 *(rescaled, expanded, architecturally aligned v2.5; V16 4→3 v2.5.2 Jun 6; canonical — STATUS.md mirrors)*
 
 **Score definition (v2.5):**
 - **5 = Fully fired, no further upside in mechanism.** Reserved for vectors at terminal state across all relevant entities. **Currently 0 vectors at 5.**
@@ -264,20 +264,20 @@ Standing list of observations the thesis predicts should be visible but aren't, 
 | 12 | Stagflation Trap / Fed Locked | 5 | **4** ⬇️ | Rescaled — un-anchored expectations + 1 quarter NIPA, but TTM not crossed; UMich triangulation pending | UMich 5-10Y exp re-anchors below 3.0% for 3 consecutive readings AND Fed credibly cuts AND TIPS 5y5y stays below 2.5% |
 | 13 | **Federal Fiscal Capacity Stress** *(NEW v2.5)* | — | **3** | Watching — TGA dynamics, debt ceiling status, term-premium pressure; restrained but not at crisis | TGA stable AND debt ceiling extended without drama AND term premium <50bps |
 | 14 | **Upper-Decile Wealth Stress** *(NEW v2.5)* | — | **3** | Watching — RV crash + retail-investor pullback are early signals; SPX still near highs | Dollar Tree HH growth from >$100K reverses AND retail investor flows recover AND RV market reflates AND SPX makes ATH |
-| 16 | **Employment Structural Rot** *(NEW v2.5)* | — | **4** | Was load-bearing claim but missing from scored matrix; now explicit. JOLTS 0.91 inverted, LFPR 61.9%, 3-mo NFP avg 68K, hires 3.1%, duration 25.7wk. | Claims sustained <200K AND continuing claims drop below 1,750K AND JOLTS ratio recovers above 1.1 AND LFPR recovers above 62.5% |
+| 16 | **Employment Structural Rot** *(NEW v2.5)* | — | **3** ⬇️ *(4→3 Jun 6, v2.5.2)* | **Re-anchored:** acute legs reversed on Jun 1-5 wall (JOLTS 0.91→1.03 inversion gone; 3-mo NFP avg 48K→188K, +93K revisions; UR 4.3% held). Structural-freeze legs survived + confirmed: hires fell 5.1M as openings jumped +731K (frozen churn); ISM Svc Emp 47.9 (3rd mo contraction); duration 25.7wk; LFPR 61.9%. Mechanism intact but escalation path receded → "watching, elevated." | Re-arm to 4: next JOLTS re-inverts OR NFP prints negative w/ downward revisions. Drop to 2: hires rate recovers >3.8% AND ISM Svc Emp back >50 AND duration falls <22wk |
 
 ### Score histogram (clean — distribution test)
 
 | Score | Vectors | Count | Sum |
 |-------|---------|-------|-----|
 | 5 | (none) | 0 | 0 |
-| 4 | V1, V2, V3, V4, V5, V6, V7, V8, V10, V12, V16 | 11 | 44 |
-| 3 | V11, V13, V14 | 3 | 9 |
+| 4 | V1, V2, V3, V4, V5, V6, V7, V8, V10, V12 | 10 | 40 |
+| 3 | V11, V13, V14, V16 | 4 | 12 |
 | 2 | (none) | 0 | 0 |
 | 1 | (none) | 0 | 0 |
-| **Total** | **14 vectors** | **14** | **53/70** |
+| **Total** | **14 vectors** | **14** | **52/70** |
 
-Critical vectors (1-12 + 16): avg 3.9. Supporting vectors (13-14): avg 3.0. Spread: 0.9. The score now actually discriminates.
+Critical vectors (1-12 + 16): avg 3.8. Supporting vectors (13-14): avg 3.0. Spread: 0.8. The score now actually discriminates. *(V16 4→3 Jun 6 v2.5.2 — see vector #5 prose; offset by V12 hardening, an active v2.6 upgrade candidate.)*
 
 ### Honest commentary on score change (the conviction question)
 
@@ -288,7 +288,7 @@ v2.5 took the score from prior 58/60 (97%) → 53/70 (76%). Decomposing the chan
 
 Honest framing: prior 58/60 was probably overconfident. V6, V8, V12 were never really at 5 on the evidence base. 53/70 (76%) is closer to true conviction we should have had all along. This is both better calibration AND recognition of prior overconfidence.
 
-The thesis is still CRITICAL. Every load-bearing vector (1-12 + 16) is at 4. No vector at 3 or below in the bear-thesis core. But conviction should sit at ~76%, not ~95%.
+The thesis is still CRITICAL. Core credit/housing/stagflation vectors (1-10, 12) sit at 4; V11 (SB) and V16 (employment, downgraded Jun 6) sit at 3 — elevated, mechanism intact, but not firing-with-escalation-room. Conviction ~74% (was 76% pre-V16-downgrade). The V16 step-down is offset by V12 hardening (Waller pivot + sticky ISM prices + no-Fed-cut read) — a v2.6 upgrade candidate — so net thesis conviction is roughly flat: rebalancing, not weakening.
 
 ### Upgrade path (v2.6 candidates)
 
@@ -327,6 +327,8 @@ The thesis is still CRITICAL. Every load-bearing vector (1-12 + 16) is at 4. No 
 - **v2.4 (Apr 17 AM):** Vector #10 upgraded 4→5. Path C ACTIVATING.
 - **v2.4.1 (Apr 17 PM):** ALLY composition-masking framework. Payment hierarchy timeline pushed.
 - **v2.5 (May 1 2026):** Path C ACTIVATING-RED → ACTIVE-RED (provisional). Cross-industry data masking promoted from KB-225 to thesis-level methodology with intermediate Q3 2026 + outer Q1 2027 falsification windows. Convergence matrix expanded 12→14 vectors (V8+V9 merged; V13/V14 added; V15 Refi-Window dropped as RED domain; V16 Employment added). 5-definition tightened. Score 58/60 → 53/70 (76%) — ~60% calibration + ~40% legitimate conviction reduction; prior was probably overconfident. Counter-Evidence section stripped, staged for RED. Puzzles trimmed to thesis-internal mechanism only. Trade Duration Implications section added.
+- **v2.5.1 (May 3 2026):** Masking framework narrowed 6→4 issuers (UNH/ELV + DHI/PHM relocated to K-shape Selection + Tariff Transmission section); CRL-22 + CRL-23 added. Score unchanged 53/70.
+- **v2.5.2 (Jun 6 2026):** **V16 Employment Structural Rot 4→3, re-anchored.** Jun 1-5 labor wall reversed the acute legs (JOLTS 0.91→1.03 inversion gone; 3-mo NFP avg 48K→188K on +93K revisions; UR 4.3% held) — but the structural-freeze legs survived + got cleanest confirmation (hires fell 5.1M as openings jumped +731K; ISM Svc Emp 47.9 3rd-mo contraction). Mechanism intact; escalation path receded. Score 53/70 → **52/70 (74%)**. Offset by V12 hardening (v2.6 upgrade candidate). Net conviction ~flat — rebalancing, not weakening. Still 🔴🔴 CRITICAL.
 
 **Current mechanism:** Cost squeeze + UI exhaustion + housing pipeline converting + Fed lock + cross-industry data masking + employment structural rot. Fed locked by un-anchored expectations + one-quarter realized NIPA (TTM not yet crossed). HY complacency gap CONFIRMING masking thesis. Issuer-level P&L will lag underlying credit by 12-24mo across multiple industries via different mechanisms. Timing: Q2-Q3 stress at macro and pipeline level; Q3 2026 intermediate test; Q1 2027 outer falsification window for masking thesis.
 
