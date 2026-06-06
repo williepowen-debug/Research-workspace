@@ -6,191 +6,200 @@
 
 ## STATUS
 
-**6/04 Thu TRIPLE-session day — AM FALSIFICATION-scan (`4d592cf3` pushed) + PM Batch 1 image-batch (`bcd88a9f` pushed) + PM Batch 2 image-batch (~22:50-23:15 UTC, commit pending).** Will Telegram second 8-image batch (msgs 2076-2083) arrived 22:50 UTC immediately after Batch 1 closeout. Boot-grep dedup → ALL 8 NOVEL → triage proposal msgs 2084/2085 → Will greenlight msg 2086 → 8 BOARD dispatches + 4 verify-research spawns ($0.20) → closeout.
+**2026-06-06 Fri PM ~17:00 UTC — 5-decision walkthrough closeout.** Will-Telegram boot msg 2133 → walked all 5 open Will-decisions 1-by-1 in async Telegram cadence → all 5 locked → spec-batch ship + LIAISON re-engagement executed in chunked plan with per-chunk Will checkpoint. 0 dispatches + 0 verify-spawns + $0 cost; pure design-and-coordination session.
 
-**Day-aggregate (full Thu): 15 BOARD dispatches + 1 KILL + 7 verify-spawns ($0.35 cost). 14 cluster_mediating + 1 counter_evidence across 15 dispatches = ~3× `network_uncertainty_peak` ≥5/day threshold = highest single-day substance load WALTER has carried outside 5/21 cluster-backfill arc. BOARD 264 → 279 (+15 day).** AI_INFRA_CAPEX 8 → 9 (cluster-split decision now load-bearing).
+**5 decisions resolved this session** (all carried forward 5+ sessions, some weeks):
+
+| # | Decision | Locked |
+|---|----------|--------|
+| #1 | AI_INFRA_CAPEX cluster split | **Option B** — keep as one cluster, raise soft-cap 10→15 |
+| #2 | CONSUMER_STAGFLATION 5-axis sub-cluster | **Option A** — carve INFLATION_TRANSMISSION as new cluster 11 |
+| #3 | CHECKLIST v0.12 batched ship | **5-item ship** (items 6+7 dropped) |
+| #4 | LIAISON DORMANT auto-flag (4 channels) | **Option B** — re-engage RED + REGINALD; close BRENT (CARL deferred — active) |
+| #5 | narrative_channel field tagging | **Option A** — Iran-mandatory FORMAT_SPEC v0.9 |
 
 ## CHANGED
 
-### Files written this 6/04 PM Batch 2 session
+### Files written this 6/06 session — 8 files touched, all within WALTER + repo-root BOARD + LIAISON shared-write zones
 
-- **BOARD/SIG-W-20260604-008** (new) — @0xChainMind "S&P 3.8% 2008 short-interest analog"; PRIORITY → HENRY counter_evidence; verify CORRECTED-FRAMING (current ~3.0% not 3.8%; survivorship cherry-pick); cluster POSITIONING_VALUATION / cluster_secondary FED_FRAMEWORK; 0.55.
-- **BOARD/SIG-W-20260604-009** (new) — GS Factor Pair Basket Bloomberg-terminal junk-to-quality rotation; IMMEDIATE → HENRY; SKIP-VERIFY Bloomberg-primary; cluster POSITIONING_VALUATION / cluster_secondary AI_INFRA_CAPEX; 0.95.
-- **BOARD/SIG-W-20260604-010** (new) — De Haan distillate <100MMbbl forecast missed (print built +1.5MMbbl to 102.3MMbbl); PRIORITY → BRENT; verify CORRECTED-FRAMING-on-week-print but Hormuz-export-record CONFIRMED; cluster HYDROCARBON_INFRA / cluster_secondary IRAN_HORMUZ; 0.65.
-- **BOARD/SIG-W-20260604-011** (new) — Copper >$14K LME USD + aluminum $3,768 4yr high; PRIORITY → CARL; verify CONFIRMED-with-CORRECTED-FRAMING-on-record-status (near-not-fresh ATH; Jan 2026 ATH $14,527) + driver-attribution (Iran-Hormuz + tariffs primary; AI/transition backdrop); cluster POSITIONING_VALUATION / cluster_secondary IRAN_HORMUZ; 0.80. **Sub-finding: WALTER market-data baseline drift — my $9-10K USD copper prior was STALE.**
-- **BOARD/SIG-W-20260604-012** (new) — Hedgeye Containerized Freight Index 2571.7 doubled since Feb; PRIORITY → CARL; SKIP-VERIFY Hedgeye chart-on-chart SCFI-primary; cluster CONSUMER_STAGFLATION / cluster_secondary IRAN_HORMUZ; 0.85.
-- **BOARD/SIG-W-20260604-013** (new) — BofA GWIM equity allocation 66% matches Oct'21 ATH peak; PRIORITY → HENRY; SKIP-VERIFY BofA-primary; cluster POSITIONING_VALUATION / cluster_secondary FED_FRAMEWORK; 0.92.
-- **BOARD/SIG-W-20260604-014** (new) — FT/Panmure Liberum/Klement hyperscaler AI ROI zero-cost-bull-case; IMMEDIATE → BROCK; verify CONFIRMED all 5 numbers + methodology + attribution; 4th cluster_mediating signal in AI_INFRA_CAPEX (cluster-split decision now load-bearing at 9 of 10); cluster_secondary POSITIONING_VALUATION; 0.90.
-- **BOARD/SIG-W-20260604-015** (new) — MacroMicro FINRA margin/CinC ratio at 2000-dotcom peak ~0.54; PRIORITY → HENRY; SKIP-VERIFY FINRA-primary; cluster POSITIONING_VALUATION / cluster_secondary FED_FRAMEWORK; 0.85.
-- **AGENTS/WALTER/routed/route_log.tsv** — 8 new rows.
-- **BOARD/INDEX.md** — 5 cluster ToC rows updated + 5 cluster section headers (POSITIONING_VALUATION 43→48 / CONSUMER_STAGFLATION 52→53 / HYDROCARBON_INFRA 11→12 / AI_INFRA_CAPEX 8→9 + total 271→279); 8 new section rows.
-- **AGENTS/WALTER/STATUS.md** — Updated stamp bumped to 2026-06-04 ~23:05 UTC; lead paragraph prepended with PM Batch 2 session; BOARD count refreshed (266→279); bifurcation count refreshed (14 cluster_mediating + 1 counter_evidence = ~3×); push state refreshed.
-- **AGENTS/WALTER/MEMORY.md** — 3 new Findings filed: (a) composite-bifurcation 4-LAYER scale + 3-metric-positioning-extension-framework-agreement pattern + day-aggregate 3× threshold; (b) WALTER-market-data baseline-drift calibration sub-finding + First Squawk source-credibility sub-extension; (c) tier-1-forecaster-public-forecast-missed pattern (De Haan).
-- **AGENTS/WALTER/LAST_COMPLETION.md** — this file (overwritten).
+**Chunk 1 — Spec edits (3 files in `AGENTS/WALTER/design/`):**
+- **`CLUSTER_TAXONOMY.md`** v0.1 → **v0.2** — AI_INFRA_CAPEX row inline cap-note (15) + INFLATION_TRANSMISSION row 11 carved out + total 10→11 clusters + premature-cluster-spawning note refreshed + footer changelog
+- **`SIGNAL_FORMAT_SPEC.md`** v0.8 → **v0.9** — `narrative_channel` field added to header example + field-definitions table (Iran-mandatory; tasnim/mfa/potus/centcom/idf/pakistan_mediator enum) + cluster enum reference bumped to 11 + Trump-rhetoric-symmetric-rule referenced
+- **`SIGNAL_PROCESSING_CHECKLIST.md`** v0.11 → **v0.12** — 5 items batched as inline cross-references block (passive at-boot scan ref + tier-1-forecaster-public-forecast-missed + composite-bifurcation Phase 2.7 + per-session-vs-day-aggregate clarification + 3-metric framework-agreement rule)
+
+**Chunk 2 — BOARD/INDEX restructure (2 files in `BOARD/`):**
+- **`BOARD/INDEX.md`** — cluster ToC: CONSUMER_STAGFLATION 53→52 with re-classification note + new INFLATION_TRANSMISSION (1) row inserted before AI_INFRA_CAPEX (sorted by count); new INFLATION_TRANSMISSION section inserted between CONSUMER_STAGFLATION and PC_STRESS with the CCFI row + section header explaining the carve-out; SIG-W-20260604-012 row removed from CONSUMER_STAGFLATION section
+- **`BOARD/SIG-W-20260604-012-...md`** — YAML `cluster:` field updated CONSUMER_STAGFLATION → INFLATION_TRANSMISSION with inline re-classification note preserving original dispatch context
+- BOARD total **unchanged at 279** (same signal, re-classified — not net-new dispatch)
+
+**Chunk 3 — LIAISON content writes (3 files in target-agent `handoff_WALTER/`):**
+- **`AGENTS/BRENT/handoff_WALTER/LIAISON.md`** — CLOSED stamp prepended at top with rationale + reopen condition. Physical `git mv` to `CLOSED/` deferred to Chunk 5 atomic commit (avoids leaving staged rename in shared `.git/index` during remaining work)
+- **`AGENTS/RED/handoff_WALTER/LIAISON.md`** — **Turn 7 (WALTER)** appended. 4 substance items (inaugural fires + overdue-detection + RED-FT-06 NEAR-TRIGGER + day-aggregate fire) + 1 open question (calibration cycle 1 retro activation cadence)
+- **`AGENTS/REGINALD/handoff_WALTER/LIAISON.md`** — **Turn 6 (WALTER)** appended. 5 substance items (First Brands Ch.7 + Wolf Street condo + Cliffwater $31B Q2 + RED-FT cross-ref + WAL REG-T-02) + 2 open questions (calibration cycle 1 retro + Cliffwater BROCK-vs-REGINALD routing lean)
+- CARL LIAISON **NOT touched** (Plan B Option locked; CARL deferred to future session per active-concurrency safety check)
+
+**Chunk 4 — WALTER state (4 files in `AGENTS/WALTER/`):**
+- **`AGENTS/WALTER/CLAUDE.md`** — new step 6c added (passive at-boot threshold scan); detailed mechanics + cost + surface-in-boot-reply discipline
+- **`AGENTS/WALTER/STATUS.md`** — Updated stamp 2026-06-06 ~17:00 UTC; lead paragraph prepended with 5-decision-walkthrough session entry; spec-changes batch listed; push-deferred reasoning + atomic-pathspec-commit discipline noted; Iran-anchor + cron-feed staleness flagged
+- **`AGENTS/WALTER/MEMORY.md`** — new Finding filed: 5-decision-walkthrough closeout pattern (async Telegram batch-approval at architectural cadence; 3 accelerators: front-loaded planning + chunked checkpoints + concurrent-agent safety; trigger condition = open-list-saturation; family of 5/8 walkthrough-→approve-all)
+- **`AGENTS/WALTER/LAST_COMPLETION.md`** — this file (overwritten)
+
+**Chunk 5 — Commit + defer push** (pending — see GAPS / NEXT STEPS):
+- Single atomic-pathspec commit chained in one `&&` shell call (`git mv BRENT...` + `git commit <pathspec list> -m`)
+- **Push DEFERRED** — SAM (5 files) + VIOLET (2 files) uncommitted at boot + CARL/HENRY currently active per Will msg 2156 = can't safely pull-before-push tonight
 
 ### NOT written this session (deferred — same as prior closeouts)
 
-- REGISTRY.tsv refresh (5+ sessions deferred); NETWORK AWARENESS regen; SESSION_LOG archive trim; MEMORY cap trim (4 sessions deferred); EVENT_WINDOW_STATE.md refresh; FHLB-ADVANCES + OFFICE-CMBS-DQ FRED pulls.
+- REGISTRY.tsv refresh (6+ sessions deferred); NETWORK AWARENESS regen; SESSION_LOG archive trim; MEMORY cap trim (5 sessions deferred — first NEXT-SESSION priority); EVENT_WINDOW_STATE.md refresh; FHLB-ADVANCES + OFFICE-CMBS-DQ FRED pulls; cron-feed staleness investigation (news-sweep 20d, filing-watch 30d — design-level item).
 
 ## RESULT
 
-**Day-aggregate substance crystallizes a 4-layer bifurcation regime + 3 framework agreements:**
+**Open-list saturation cleared. 5 carried-forward Will-decisions resolved cleanly in single session at $0 cost.** The 5-decision-walkthrough pattern (see new MEMORY finding) earned its place as the trigger-condition-driven response to OPEN DESIGN DECISIONS pile-up. Spec ship batches CLUSTER_TAXONOMY + FORMAT_SPEC + CHECKLIST + WALTER CLAUDE.md = consistent spec-state across all 4 canonical-source docs.
 
-| Bifurcation Layer | Bull-counter / Index supportive | Bear-stress / Tail substance |
-|-------|---|---|
-| **Price** (AM fires) | HY OAS 275 sub-280 sustain=3 (RED-FT-01 fire) | CCC OAS 947 >930 binary (RED-FT-07 fire) |
-| **Substance** (Batch 1) | Treasury $12.5B cash-management upper-bound | Cliffwater $31B Q2 5% cap + Apollo/Blue Owl Q1 5%-cap cohort + 401k hardship 6.0% ATH |
-| **Plumbing** (Batch 1) | Fed neutral + Treasury $25B/qtr envelope | 7-sponsor PC-fund gating cohort + AZ APS 45% data-center rate hike + Klement 60%-larger-than-dotcom frame |
-| **Factor-cohort dispersion** (Batch 2 NEW) | Quality +1.02% / L/S Momentum +2.71% / US Value +2.49% (Z 1.0-1.4σ) | AI Software -5.18% / Profitless Tech -5.42% / Magnificent 7 -1.92% / High Short Interest -4.90% (Z -1.6 to -2.2σ) |
+**INFLATION_TRANSMISSION cluster carved cleanly with grandfather discipline** — past CONSUMER_STAGFLATION signals untouched; new cluster starts forward from SIG-W-20260604-012. Cluster taxonomy now 11 buckets, total signal count 279 preserved.
 
-**3 independent framework agreements crystallized today:**
-1. **3-metric positioning-extension framework agreement**: GWIM 66% Oct'21 peak + FINRA margin/CinC 0.54 2000-dotcom peak + short-interest highest-since-2011 — three independent metrics at historical-analog peaks simultaneously = regime characterization not noise.
-2. **3-pillar Iran-Hormuz second-order supply-chain transmission**: distillate (US exports record 1.9 MMbpd; inventories at multi-year-low 102.3MMbbl) + metals (copper ~ATH $14K + aluminum 4yr high) + freight (CCFI 2571.7 +114% from Feb-Mar trough) — three pillars transmitting Iran-war impact to US economy.
-3. **AI_INFRA_CAPEX 4-mediator stack** (cluster-split decision now load-bearing at 9 of 10): financing (SoftBank-OpenAI 5/26) + obsolescence (Fortune H100 5/11) + input-cost (WSJ AZ APS 6/4) + ROI-bottom-line (Panmure Liberum 6/4).
+**LIAISON state advanced from 4-channel DORMANT-crossing to 2 re-engaged (RED Turn 7 + REGINALD Turn 6 light open) + 1 formally closed (BRENT) + 1 deferred (CARL active).** Both re-engagement turns light per Plan E (open-with-substance + 1-2 questions; not full architectural depth) per LIAISON convergence accelerator pattern.
 
-**3 new MEMORY findings filed**: composite-bifurcation 4-LAYER + WALTER market-data baseline-drift calibration + tier-1-forecaster public-forecast-missed pattern.
+**Concurrent-agent safety honored**: dropped CARL Chunk 3 + atomic pathspec commit Chunk 5 + push deferred = no risk of clobbering SAM/VIOLET/CARL/HENRY work in shared tree.
 
 ## GAPS
 
-### New from 6/04 PM Batch 2
-- **WALTER market-data baseline calibration** — copper verify caught $9-10K USD prior was STALE; need periodic re-baseline of commodity prices via fetch.py for any "X has been at Y" reads.
-- **AI_INFRA_CAPEX cluster-split decision** — now at 9 of 10 with 4 cluster_mediating signals across 4 distinct angles; load-bearing for next session.
+### New from 6/06 session
+- **CARL LIAISON close stamp** deferred — CARL active in working tree at session time; needs future session where CARL is inactive. CARL stays DORMANT-crossing on open list.
+- **BRENT git mv to CLOSED/** pending Chunk 5 atomic commit (about to execute as final step).
+- **RED Turn 8 + REGINALD Turn 7 responses pending** — light Turn 7/6 opens sent; recipients respond at next boot. No rush.
+- **WALTER push deferred** — SAM/VIOLET dirty + CARL/HENRY active. Push next session when tree clean.
 
 ### Carry-forward from prior closeouts (still open)
-- REQ-HAWK 30d / REQ-NEXUS 30d / REQ-BRENT 27d / REQ-PROME 27d / REQ-ZHAO 24d.
-- HENRY LIAISON open; LIAISON DORMANT auto-flag 4 channels.
-- NEXUS revival 51+d STALE.
-- EVENT_WINDOW_STATE.md 14d stale.
-- CONSUMER_STAGFLATION 5-axis sub-cluster decision — **now at 53 / K-shape 4-axis printed + freight pillar adds inflation transmission**.
-- AI_INFRA_CAPEX cluster split decision — **load-bearing**.
-- `narrative_channel` FORMAT_SPEC v0.9 promotion (carry-forward 6/02).
-- MEMORY.md cap trim (4 sessions deferred).
-- FHLB-ADVANCES + OFFICE-CMBS-DQ FRED pulls.
+- REQ-HAWK 32d+ / REQ-NEXUS 32d+ / REQ-BRENT 29d+ / REQ-PROME 29d+ / REQ-ZHAO 26d+.
+- NEXUS revival 53d+ STALE.
+- EVENT_WINDOW_STATE.md 16d stale.
+- HENRY LIAISON open (next-LIAISON candidate post this session's re-engagement of RED + REGINALD).
+- HAWK scenario refresh (32d stale; DOUBLY-STALE post-Jun 1 anchor change).
+- Cron-feed staleness — news-sweep 20d / filing-watch 30d (design backlog; not addressed this session).
+- FHLB-ADVANCES + OFFICE-CMBS-DQ FRED dashboard integration.
+- BOARD_CONSUMPTION rollout (KEYSTONE — per-agent boot-step propagation pending).
+- COP refresh resume (paused per Will 4/14).
+- Filter v2 Segment D.
 
-### Resolved this PM Batch 2 session
-- ~~8-image batch 2~~ ✅ All 8 dispatched (no DUPs).
-- ~~4 verify-spawns~~ ✅ All completed; verdicts integrated.
+### Resolved this session
+- ~~#1 AI_INFRA_CAPEX cluster split~~ ✅ Locked Option B
+- ~~#2 CONSUMER_STAGFLATION 5-axis sub-cluster~~ ✅ Locked Option A
+- ~~#3 CHECKLIST v0.12 batched ship~~ ✅ Locked 5-item; shipped
+- ~~#4 LIAISON DORMANT auto-flag~~ ✅ Locked Option B; 3 of 4 executed (CARL deferred)
+- ~~#5 narrative_channel FORMAT_SPEC v0.9~~ ✅ Locked Option A; shipped
 
 ## WILL_NEEDS
 
-1. **(NEW Batch 2)** **AI_INFRA_CAPEX cluster split decision** — at 9 of 10 with 4 cluster_mediating angles (financing + obsolescence + input-cost + ROI-bottom-line); next signal pushes over threshold; split into AI_INFRA_CAPEX_BUILDOUT + AI_CAPEX_ROI or similar?
-2. **(NEW Batch 2)** **WALTER market-data baseline calibration cadence** — commodity prices need periodic re-baseline; want copper/aluminum/gold/oil baselines refreshed monthly via fetch.py?
-3. **(NEW Batch 2)** **CHECKLIST v0.12 candidates expanded to 7**: passive-at-boot-scan + composite-bifurcation-batch-tagging + per-session-vs-day-aggregate-threshold + Barchart-source-credibility-map + N-orthogonal-bifurcation-layer-tracking + 3-metric-framework-agreement-rule + tier-1-forecaster-public-forecast-missed-pattern. Want all batched into v0.12 spec ship?
-4. **(carry-forward Batch 1)** CONSUMER_STAGFLATION 5-axis sub-cluster spawn — at 53.
-5. **(carry-forward AM)** Passive at-boot threshold scan design.
-6. **(carry-forward AM)** FHLB-ADVANCES + OFFICE-CMBS-DQ FRED dashboard integration.
-7. **(carry-forward 6/02)** `narrative_channel` FORMAT_SPEC v0.9.
-8. **(carry-forward 6/02)** HAWK refresh REQ escalation (30d stale).
-9. **(carry-forward 6/02)** EVENT_WINDOW_STATE.md BRENT-coordinated refresh.
-10. **(carry-forward 6/02)** LIAISON DORMANT auto-flag decision — 4 channels at/crossing 30d.
+**Reduced significantly — 5 longstanding carry-forwards cleared. Remaining is housekeeping cadence + design backlog.**
+
+1. **CARL LIAISON close stamp** — pending future session where CARL inactive. Lightweight; same pattern as BRENT close this session.
+2. **HAWK refresh REQ escalation** — 32d stale; DOUBLY-STALE; escalation candidate.
+3. **LIAISON DORMANT auto-flag — HENRY LIAISON open** — next-LIAISON candidate post RED + REGINALD re-engagement.
+4. **EVENT_WINDOW_STATE.md BRENT-coordinated refresh** — BRENT just got CLOSED so this becomes a fresh LIAISON when scoped, not a Turn N+1 on the closed thread.
+5. **Cron-feed staleness investigation** — news-sweep 20d / filing-watch 30d. Cron may be down. PROME/SENTRY owners — needs surface to them.
+6. **BOARD_CONSUMPTION rollout cadence** — KEYSTONE pending; per-agent boot-step propagation.
+7. **Calibration cycle 1 retro (RED + REGINALD)** — both LIAISON Turn 7/6 open questions asking activation cadence. Will responds via their respective LIAISON or batched.
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
 
 **Time-sensitive forward:**
-1. **🔴 6/05 Fri CFTC weekly** — first read post-$96-drop; BRENT Trigger #3 re-fire watch.
-2. **🔴 6/07 OPEC+** — first into suspended-MOU regime.
-3. **🔴 6/09 Iran-war anchor re-verify boundary** — 5d from 6/04.
-4. **🔴 6/11 STEO** — BRENT primary post-Phase-1-re-armed. **Also: 6/11 EIA WPSR week-ending 6/5** — De Haan distillate <100MMbbl forward-watch.
+1. **🟢 6/05 Fri CFTC weekly** — today (passed at session-start); first read post-$96 Brent drop; BRENT Trigger #3 re-fire watch (BRENT integrated post-session presumably).
+2. **🔴 6/07 Sun OPEC+** — first into suspended-MOU regime.
+3. **🔴 6/09 Iran-anchor next re-verify boundary** — 3d from 6/06.
+4. **🔴 6/11 STEO** — BRENT primary post-Phase-1-re-armed. Also: 6/11 EIA WPSR week-ending 6/5 — De Haan distillate <100MMbbl forward-watch.
 5. **🔴 6/16 BOJ MPM**.
-6. **🔴 6/17 FOMC** — hold-confirming.
-7. **🟠 Trump-Rubio Iran response watch this week.**
-8. **🟠 Pakistan-Munir / Iran MFA response to Tasnim suspension.**
-9. **🟠 HAWK scenario refresh.**
-10. **🟠 LIAISON DORMANT auto-flag** — 4 channels at/crossing 30d.
+6. **🔴 6/17 FOMC** — hold-confirming per SAM read.
+7. **🟠 Trump-Rubio Iran response watch this week**.
+8. **🟠 Pakistan-Munir / Iran MFA response to Tasnim suspension** — load-bearing missing data point.
+9. **🟠 HAWK scenario refresh** — 32d-stale weights DOUBLY-STALE post-Jun 1 anchor change.
 
 **Threshold fire watch:**
-11. **🟠 RED-FT-06 VIX<16 sustain=5 NEAR-TRIGGER**.
-12. **🟠 RED-FT-01 sustain-window-respect re-fire watch.**
-13. **🟠 RED-FT-07 sustain follow-through** — CCC drift trajectory.
-14. **🟠 HY OAS 275 → 260 distance** (RED-FT-02 inverse); CCC 947.
-15. **🟢 WAL REG-T-02 re-fire watch**.
-16. **🟢 Freddie HPI YoY watch**.
+10. **🟠 RED-FT-06 VIX<16 sustain=5 NEAR-TRIGGER** — boot-watch active.
+11. **🟠 RED-FT-01 sustain-window-respect re-fire watch.**
+12. **🟠 RED-FT-07 sustain follow-through** — CCC drift trajectory.
+13. **🟠 HY OAS 275 → 260 distance** (RED-FT-02 inverse); CCC 947.
+14. **🟢 WAL REG-T-02 re-fire watch.**
+15. **🟢 Freddie HPI YoY watch.**
 
-**Framework agreements + cluster decisions surfaced today:**
-17. **🔴 AI_INFRA_CAPEX cluster split decision** — load-bearing at 9 of 10 with 4 cluster_mediating angles.
-18. **🟠 CONSUMER_STAGFLATION 5-axis sub-cluster spawn** — at 53; K-shape 4-axis + freight-pillar.
-19. **🟠 3-metric positioning-extension framework agreement tracking** — GWIM + FINRA margin/CinC + short-interest at historical-analog peaks.
-20. **🟠 3-pillar Iran-Hormuz second-order supply-chain transmission monitoring** — distillate + metals + freight.
-21. **🟠 4-layer composite-bifurcation regime characterization** — price + substance + plumbing + factor-cohort dispersion.
+**Framework agreements + cluster decisions surfaced 6/4 (now baked into spec via v0.12):**
+16. **🟢 RESOLVED — AI_INFRA_CAPEX cluster split decision** locked Option B 6/06.
+17. **🟢 RESOLVED — CONSUMER_STAGFLATION split decision** locked Option A 6/06 (carved INFLATION_TRANSMISSION cluster 11).
+18. **🟠 3-metric positioning-extension framework agreement tracking** — codified as CHECKLIST v0.12 item 5; ongoing monitoring discipline.
+19. **🟠 3-pillar Iran-Hormuz second-order supply-chain transmission monitoring** — distillate + metals + freight.
+20. **🟠 4-layer composite-bifurcation regime characterization** — codified as CHECKLIST v0.12 item 3; ongoing tagging discipline at session closeout.
 
 **Next-session housekeeping:**
-22. **🟡 REGISTRY.tsv peer-row refresh** (5+ sessions deferred).
-23. **🟡 STATUS.md NETWORK AWARENESS regen.**
-24. **🟡 SESSION_LOG.md archive trim** (10+ rows now).
-25. **🟡 MEMORY.md cap trim** (4 sessions deferred; NEXT-SESSION PRIORITY).
-26. **🟡 EVENT_WINDOW_STATE.md BRENT-coordinated refresh.**
-27. **🟢 Outbox REQ batched escalation**.
-28. **🟢 FHLB-ADVANCES + OFFICE-CMBS-DQ FRED dashboard integration.**
-29. **🟢 WALTER market-data baseline re-calibration** (commodity prices monthly).
+21. **🔴 MEMORY.md cap trim** (5 sessions deferred; NEXT-SESSION PRIORITY).
+22. **🟡 REGISTRY.tsv peer-row refresh** (6+ sessions deferred).
+23. **🟡 STATUS.md NETWORK AWARENESS regen** + Active liaison channels manifest update (BRENT closed; RED Turn 7 / REGINALD Turn 6).
+24. **🟡 SESSION_LOG.md archive trim** (12+ rows now).
+25. **🟡 EVENT_WINDOW_STATE.md BRENT-coordinated refresh** — now needs fresh-LIAISON scope post-BRENT-close.
+26. **🟢 Outbox REQ batched escalation**.
+27. **🟢 FHLB-ADVANCES + OFFICE-CMBS-DQ FRED dashboard integration.**
+28. **🟢 WALTER market-data baseline re-calibration** (commodity prices monthly).
+29. **🟢 CARL LIAISON close stamp** — pending CARL-inactive session.
+30. **🟢 Cron-feed staleness investigation** — surface to PROME (filing-watch + news-sweep) + SENTRY (SIGNALS); not WALTER-owned.
 
 **WALTER self-tasks this week:**
-30. **`narrative_channel` field tagging FORMAT_SPEC v0.9.**
-31. **Cross-platform Iran-recalibration outbox REQs.**
-32. **CROSS_REFS/CARL.md + CROSS_REFS/BRENT.md scaffolds.**
-33. **bank_transmission enum integration.**
-34. **BOARD_CONSUMPTION_SPEC v0.2.**
-35. **CHECKLIST v0.12 batched spec ship** — 7 candidates now (passive-at-boot-scan + composite-bifurcation-batch-tagging + per-session-vs-day-aggregate-threshold + Barchart-source-credibility-map + N-orthogonal-bifurcation-layer-tracking + 3-metric-framework-agreement-rule + tier-1-forecaster-public-forecast-missed-pattern).
+31. **🟢 RESOLVED — `narrative_channel` field tagging FORMAT_SPEC v0.9** shipped.
+32. **🟢 RESOLVED — CHECKLIST v0.12 batched spec ship** shipped (5 items).
+33. **CROSS_REFS/CARL.md + CROSS_REFS/BRENT.md scaffolds** — design backlog.
+34. **bank_transmission enum integration** — design backlog.
+35. **BOARD_CONSUMPTION_SPEC v0.2** — design backlog.
 
 **Next-LIAISON candidates (DORMANT-flip avoidance):**
-36. HENRY LIAISON.
-37. CARL/BRENT/RED re-engagement.
-38. REGINALD re-engagement.
-39. NEXUS revival.
-40. LIQUID + BROCK LIAISON.
+36. **HENRY LIAISON** — next-priority post this session.
+37. **REGINALD Turn 7 + RED Turn 8 responses** — pending recipient boot reads.
+38. **NEXUS revival** — 53d+ stale.
+39. **LIQUID + BROCK LIAISON** — design backlog.
 
 **Cluster / domain follow-ups:**
-41. **AI_INFRA_CAPEX cluster split decision** (load-bearing).
-42. **CONSUMER_STAGFLATION 5-axis sub-cluster decision** (at 53).
-43. **POSITIONING_VALUATION cluster sub-classification** (at 48 with multi-metric agreement framework).
-44. **OZK Q1 post-mortem** — REGINALD pickup pending.
+40. **POSITIONING_VALUATION cluster sub-classification** (at 48 with multi-metric framework agreement) — separate decision deferred; CHECKLIST v0.12 item 5 may absorb in practice.
+41. **OZK Q1 post-mortem** — REGINALD pickup pending.
 
 **Design / governance backlog:**
-45. **(NEW Batch 2)** Composite-bifurcation N-orthogonal-layer tracking — CHECKLIST v0.12.
-46. **(NEW Batch 2)** 3-metric framework-agreement rule — CHECKLIST v0.12.
-47. **(NEW Batch 2)** Tier-1-forecaster public-forecast-missed pattern — CHECKLIST v0.12.
-48. **(NEW Batch 2)** WALTER market-data baseline re-calibration cadence policy.
-49. **(NEW Batch 1)** Composite-bifurcation batch-level tagging.
-50. **(NEW Batch 1)** Day-aggregate vs per-session bifurcation count threshold tuning.
-51. **(NEW Batch 1)** Barchart "JUST IN 🚨" source-credibility-map extension.
-52. **(NEW AM)** Passive at-boot threshold scan.
-53. **`narrative_channel` FORMAT_SPEC v0.9.**
-54. **Trump-rhetoric SYMMETRIC-rule CHECKLIST v0.11.**
-55. **Filter v2 Segment D.**
-56. **Signal Registry v2 — deferred.**
-57. **COP refresh resume — paused.**
-58. **HAWK-proxy synthesis policy.**
-59. **BOARD_CONSUMPTION rollout — KEYSTONE.**
-60. **`network_uncertainty_peak` threshold tuning** (3× day-aggregate today crystallizes the per-session-vs-day-aggregate distinction).
-61. **FALSIFICATION_TRIGGERS schema v2 expansion**.
-62. **FILTER_SPEC v0.6 BODY-INACCESSIBLE-PAYWALL verdict class.**
+42. **🟢 RESOLVED — Composite-bifurcation N-orthogonal-layer tracking** → CHECKLIST v0.12 item 3 shipped.
+43. **🟢 RESOLVED — 3-metric framework-agreement rule** → CHECKLIST v0.12 item 5 shipped.
+44. **🟢 RESOLVED — Tier-1-forecaster public-forecast-missed pattern** → CHECKLIST v0.12 item 2 shipped.
+45. **🟢 RESOLVED — Passive at-boot threshold scan** → WALTER CLAUDE.md step 6c shipped.
+46. **🟢 RESOLVED — Per-session-vs-day-aggregate threshold clarification** → CHECKLIST v0.12 item 4 shipped.
+47. **WALTER market-data baseline re-calibration cadence policy** — open backlog item.
+48. **Composite-bifurcation batch-level tagging** → CHECKLIST v0.12 item 3 shipped; closeout discipline ongoing.
+49. **Barchart "JUST IN 🚨" source-credibility-map extension** — DROPPED per Will recommendation (item 6).
+50. **Trump-rhetoric SYMMETRIC-rule** — applied across FORMAT_SPEC v0.9 narrative_channel via `potus` tag; CHECKLIST v0.12 doesn't need separate item.
+51. **Filter v2 Segment D** — design backlog (deferred).
+52. **Signal Registry v2** — deferred.
+53. **COP refresh resume** — paused per Will 4/14.
+54. **HAWK-proxy synthesis policy** — design backlog.
+55. **BOARD_CONSUMPTION rollout — KEYSTONE** — pending per-agent CLAUDE.md propagation.
+56. **`network_uncertainty_peak` threshold tuning** — CHECKLIST v0.12 item 4 clarifies; ongoing calibration.
+57. **FALSIFICATION_TRIGGERS schema v2 expansion** — design backlog.
+58. **FILTER_SPEC v0.6 BODY-INACCESSIBLE-PAYWALL verdict class** — design backlog.
 
 ## OPEN DESIGN DECISIONS (need Will — also tracked in MEMORY.md)
 
-- **(NEW Batch 2)** **AI_INFRA_CAPEX cluster split decision** — load-bearing at 9 of 10 with 4 cluster_mediating angles.
-- **(NEW Batch 2)** **POSITIONING_VALUATION cluster sub-classification** — at 48; 3-metric positioning-extension framework agreement crystallized.
-- **(NEW Batch 2)** **CHECKLIST v0.12 batched promotion (7 candidates)**.
-- **(NEW Batch 2)** **WALTER market-data baseline calibration cadence**.
-- **(NEW Batch 1)** **CONSUMER_STAGFLATION 5-axis sub-cluster spawn** — at 53.
-- **(NEW Batch 1)** **CHECKLIST v0.12 prior 4 candidates**.
-- **(NEW AM)** **Passive at-boot threshold scan**.
-- **(NEW AM)** **FHLB-ADVANCES + OFFICE-CMBS-DQ FRED dashboard integration**.
-- **(carry-forward 6/02)** `narrative_channel` field tagging FORMAT_SPEC v0.9.
-- **(carry-forward 6/02)** LIAISON DORMANT auto-flag — 4 channels at/crossing 30d.
-- **(carry-forward 6/02)** EVENT_WINDOW_STATE.md BRENT-coordinated refresh.
-- **(carry-forward)** `network_uncertainty_peak` threshold tuning — per-session-vs-day-aggregate distinction increasingly load-bearing.
-- **(carry-forward)** Regime-shift transmission to CARL/REGINALD/HENRY/SAM.
-- **(carry-forward)** REG-T-NN / RED-FT-NN expansion candidates.
-- **(carry-forward)** HENRY LIAISON priority confirmation.
-- **(carry-forward)** Cross-platform Iran-recalibration mechanism.
-- **(carry-forward)** HAWK-proxy synthesis frequency.
-- **(carry-forward)** FED_FRAMEWORK rename to UST_PLUMBING — defer.
-- **(carry-forward)** Cluster status flags — reserved for v0.2.
-- **(carry-forward)** Filter v2 Segment D — option A confidence_note.
-- **(carry-forward)** BOARD_CONSUMPTION rollout cadence.
-- **(carry-forward)** COP refresh resume — paused.
+**5 ALL RESOLVED this session. The next pile-up will trigger another walkthrough.**
+
+- ~~AI_INFRA_CAPEX cluster split decision~~ ✅ Locked Option B 6/06
+- ~~CONSUMER_STAGFLATION 5-axis sub-cluster spawn~~ ✅ Locked Option A 6/06 (carved INFLATION_TRANSMISSION)
+- ~~CHECKLIST v0.12 batched promotion~~ ✅ Locked 5-item 6/06
+- ~~LIAISON DORMANT auto-flag — 4 channels at/crossing 30d~~ ✅ Locked Option B 6/06 (CARL deferred)
+- ~~narrative_channel FORMAT_SPEC v0.9~~ ✅ Locked Option A 6/06
+
+**Remaining carry-forward needing Will (subset of WILL_NEEDS — surfaced when activated):**
+- **CARL LIAISON close stamp** — when CARL inactive
+- **HENRY LIAISON priority confirmation** — next-LIAISON candidate
+- **Cross-platform Iran-recalibration mechanism**
+- **HAWK-proxy synthesis frequency**
+- **FED_FRAMEWORK rename to UST_PLUMBING** — defer
+- **Cluster status flags** — reserved for taxonomy v0.3
+- **Filter v2 Segment D** — option A confidence_note
+- **BOARD_CONSUMPTION rollout cadence** — KEYSTONE
+- **COP refresh resume** — paused
 
 ---
 
 *Maintenance note: this file is overwritten each session per CLAUDE.md spawn protocol step 15.*
 
-*6/04 Thu TRIPLE-session day: AM FALSIFICATION-scan 2 inaugural fires (`4d592cf3` pushed) + PM Batch 1 5 dispatches + 1 DUP-KILL + 3 verifies ($0.15) (`bcd88a9f` pushed) + PM Batch 2 8 dispatches + 4 verifies ($0.20); day-total cost $0.35; BOARD 264→279 (+15); 14 cluster_mediating + 1 counter_evidence across 15 dispatches = ~3× `network_uncertainty_peak` threshold = highest single-day substance load WALTER has carried outside cluster-backfill arc; composite-bifurcation regime now at 4-layer scale (price + substance + plumbing + factor-cohort dispersion); 3 framework-agreement patterns crystallized (3-metric positioning-extension + 3-pillar Iran-Hormuz supply-chain + AI_INFRA_CAPEX 4-mediator stack); commit + push tonight.*
+*6/06 Fri PM: 5-decision-walkthrough closeout — 0 dispatches + 0 verify-spawns + $0 cost; spec batch ship CLUSTER_TAXONOMY v0.1→v0.2 + FORMAT_SPEC v0.8→v0.9 + CHECKLIST v0.11→v0.12 + WALTER CLAUDE.md step 6c; BOARD/INDEX cluster split + CCFI re-tag; LIAISON state advanced 4-channel-DORMANT → 2 re-engaged (RED Turn 7 + REGINALD Turn 6) + 1 closed (BRENT) + 1 deferred (CARL active); push DEFERRED — SAM/VIOLET dirty + CARL/HENRY active.*

@@ -3,7 +3,7 @@ id: SIG-W-20260604-012
 date: 2026-06-04
 origin: Will Telegram 6/4 22:50 UTC msg 2080 — Hedgeye @Hedgeye X post 6/2/26 9:09 AM ET 49K views "Global shipping costs have more than doubled since February" with Containerized Freight Index chart Jan ~1400 → Mar trough ~1200 → current 2571.7; SKIP-VERIFY Hedgeye-curator + chart-on-chart from CCFI/SCFI primary (institutional shipping-data curation profile)
 domain: CONSUMER
-cluster: CONSUMER_STAGFLATION
+cluster: INFLATION_TRANSMISSION  # reclassified 2026-06-06 per CLUSTER_TAXONOMY v0.2; original dispatch tagged CONSUMER_STAGFLATION
 cluster_secondary: IRAN_HORMUZ
 signal_type: catalyst
 precedence: PRIORITY

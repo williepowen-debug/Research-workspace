@@ -1,6 +1,8 @@
 # WALTER Cluster Taxonomy
 
-**Version:** v0.1 (draft) | **Date:** 2026-05-05 (Pass 1 of BOARD INDEX cluster-organization refactor)
+**Version:** v0.2 | **Date:** 2026-06-06 (CONSUMER_STAGFLATION split — INFLATION_TRANSMISSION carved out; AI_INFRA_CAPEX soft-cap raised to 15)
+
+**Prior:** v0.1 (2026-05-05) — 10-bucket taxonomy locked.
 
 **Purpose:** Canonical source for cluster names used to categorize dispatched signals in `/BOARD/INDEX.md`. Cluster names also appear (and previously drifted) in `STATUS.md`, signal bodies, and MEMORY.md `Findings`. This file is the single source of truth — other docs reference these names, never invent.
 
@@ -18,7 +20,7 @@ Sectioning the INDEX by cluster makes themes first-class. It also gives WALTER a
 
 ---
 
-## The 10 clusters (v0.1)
+## The 11 clusters (v0.2)
 
 Cluster names use `UPPER_SNAKE_CASE`, kept short for INDEX section headings.
 
@@ -27,15 +29,16 @@ Cluster names use `UPPER_SNAKE_CASE`, kept short for INDEX section headings.
 | 1 | **IRAN_HORMUZ** | Iran war / Hormuz chokepoint / GEOPOL_ENERGY supply disruption / sanctions enforcement / state-response. Includes oil-supply observations downstream of Iran-driven disruption. | 22 | 419-006, 419-014, 424-002 (Hengli), 426-007 (Pinckney), 429-001 (Brent $115), 429-003 (rial) |
 | 2 | **POSITIONING_VALUATION** | Equity positioning extremes, valuation indicators, vol regime, breadth, fund flows, MMF-rolldown, short-cover, options skew, call/put extremity. Counter-evidence within cluster lives here too. | 21 | 419-005 (Buffett 232%), 419-002 (SKEW divergence), 419-018 ($93B short cover), 424-004 (Kobeissi $9.7B Nasdaq) |
 | 3 | **BANK_COLLATERAL** | Bank-collateral-compression — distressed CRE, residential housing weakening, office vacancy, multi-family stress, individual-property credit-bid markdowns, regulatory shocks affecting bank collateral pools (ROAD Act). | 14 | 419-001 (Tricolor MTB), 420-008 (distressed office $5B), 426-002 (residential weakening), 428-004 (Phoenix BTR ROAD Act) |
-| 4 | **CONSUMER_STAGFLATION** | Consumer-stagflation-stack — sentiment, inflation expectations, CC delinquency, labor weakness, ag/farm bankruptcies, jet-fuel/airfare demand-destruction, GS oil-shock-jobs framework. Stagflation-Fed-reaction-function lens. | 12 | 410-001 (CPI+UMich), 424-007 (CC delinq 12.7%), 426-008 (UMich 49.8 final), 426-005 (farm bankruptcies +46%) |
+| 4 | **CONSUMER_STAGFLATION** | Consumer-stagflation K-shape stack — sentiment, CC delinquency, labor weakness, retirement-savings stress, tier-stratification (top/bottom divergence) across consumer/wage/housing-segment/401k axes. Stagflation-Fed-reaction-function lens. **Does NOT include forward inflation transmission** (supply-chain cost-push) — that's INFLATION_TRANSMISSION (cluster 11). | 12 | 410-001 (CPI+UMich), 424-007 (CC delinq 12.7%), 426-008 (UMich 49.8 final), 426-005 (farm bankruptcies +46%) |
 | 5 | **PC_STRESS** | Private-credit / BDC / asset-manager stress — fund redemption gates, founder/exec leverage unwinds, single-client AUM pulls, regulatory inquiries (Fed-PC), retail BDC Q1 redemption surges, mark-to-model fiction. | 8 | 414-002 (TCW Red Lobster 98%), 420-004 (Blue Owl founders unwind), 426-012 (Fed-PC inquiry), 429-002 (OCIC/OTIC) |
 | 6 | **HYDROCARBON_INFRA** | Hydrocarbon-infrastructure stress meta-cluster — refinery fires, pipeline explosions, drone strikes on oil/petrochem assets globally (non-ME), water-emergency curtailment risk. | 8 | 416-002 (Geelong), 420-001 (Tuapse), 420-003 (11-event aggregation), 426-003 (LA pipeline) |
 | 7 | **MISC** | Singletons + market-structure + adversarial-meta + counter-evidence-without-cluster-home. New cluster spawned only when ≥3 signals in a coherent new theme. | 5 | 411-001 (RED falsification), 414-003 (SEC PDT), 414-012 (KRE-XLF gap), 428-007 (INTC CAO) |
-| 8 | **AI_INFRA_CAPEX** | AI infrastructure capex sustainability — hyperscaler capex guidance, OpenAI/Stargate financing, leveraged equity collateral on AI names, chip-side capex revisions, data-center spending. | 3 | 424-012 (SoftBank $10B OpenAI), 428-002 (OpenAI/Friar), 429-004 (META/MSFT capex advisory) |
+| 8 | **AI_INFRA_CAPEX** | AI infrastructure capex sustainability — hyperscaler capex guidance, OpenAI/Stargate financing, leveraged equity collateral on AI names, chip-side capex revisions, data-center spending. *(soft-cap raised to 15 per 2026-06-06 decision — 4-angle agreement [financing + obsolescence + input-cost + ROI] is load-bearing; revisit only if angles fragment beyond 4 distinct axes.)* | 3 | 424-012 (SoftBank $10B OpenAI), 428-002 (OpenAI/Friar), 429-004 (META/MSFT capex advisory) |
 | 9 | **ASIA_CHINA** | China / HK / EM-Asia contagion — China trade-surplus dynamics, export controls, residential property collapse, peg fragility, JGB unwind, supply-chain coercion. | 3 | 414-010 (FT China Shock 2.0), 414-011 (export controls tripled), 428-001 (China FRED residential) |
 | 10 | **FED_FRAMEWORK** | Fed operating-framework regime shift / UST-foreign holder composition. Beckworth Mercatus / Apollo private-vs-CB / Fed-balance-sheet-reduction policy. | 2 | 426-001 (Beckworth framework), 426-010 (Apollo private-vs-CB) |
+| 11 | **INFLATION_TRANSMISSION** | Forward goods-CPI / supply-chain cost-push transmission — freight indices, port congestion, pump-pass-through, tariff front-loading, supply-chain disruption with 3-6 month CPI lag. *Distinct from CONSUMER_STAGFLATION (which is regime-stratification, tier-divergence) — INFLATION_TRANSMISSION is mechanism (cost-push pipeline). Carved out 2026-06-06 from CONSUMER_STAGFLATION as freight axis [SIG-W-20260604-012 CCFI +114%] introduced distinct cost-push mechanism. New cluster starts forward — pre-2026-06-06 CONSUMER_STAGFLATION signals grandfathered (see Maintenance rules).* | 1 | 604-012 (Hedgeye CCFI +114%) |
 
-**Total:** 98 signals (matches BOARD count).
+**Total:** ~99 signals (matches BOARD count post-CCFI re-tag).
 
 ---
 
@@ -68,7 +71,7 @@ Singletons go to MISC. A new cluster only spawns when:
 2. The theme has expected forward-momentum (will likely add more signals in coming weeks), AND
 3. Will signs off on the new cluster name (per CLAUDE.md spec-ownership rule — adding a cluster is a structural change).
 
-Avoid premature cluster-spawning. Two clusters under 5 signals already exist (AI_INFRA_CAPEX at 3, FED_FRAMEWORK at 2) and are flagged for consolidation review if they don't grow.
+Avoid premature cluster-spawning. *(2026-06-06 update: AI_INFRA_CAPEX has grown to 9 with 4 distinct mediating angles — split decision considered, locked Option B [keep as one cluster, raise soft-cap to 15]. FED_FRAMEWORK still at low count but FED-framework regime is the live operative thesis — consolidation deferred.)*
 
 ### Re-categorization
 
@@ -107,4 +110,6 @@ v0.1 ships without status flags. Add in v0.2 once cluster sections are live and 
 
 ---
 
-*v0.1 — 2026-05-05 (Pass 1 BOARD INDEX cluster-organization refactor — 10-bucket taxonomy locked, draft awaits Will sign-off before Pass 2 INDEX rewrite)*
+*v0.2 — 2026-06-06 (CONSUMER_STAGFLATION → INFLATION_TRANSMISSION carved out; AI_INFRA_CAPEX cap raised to 15; cluster count 10 → 11). Decisions logged in `LAST_COMPLETION.md` (5-decision walkthrough closeout).*
+
+*v0.1 — 2026-05-05 (Pass 1 BOARD INDEX cluster-organization refactor — 10-bucket taxonomy locked)*
