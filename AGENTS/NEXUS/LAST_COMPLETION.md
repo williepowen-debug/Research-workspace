@@ -1,95 +1,86 @@
 # NEXUS LAST COMPLETION
-**Pass:** 2026-06-06 Self-Audit Execution (Phases A-D)
+**Pass:** 2026-06-06 PM — E-phase execution (worldview refresh, Fri 6/5 close anchor)
 **Date:** 2026-06-06
-**Mode:** Machinery rebuild based on `recon/2026-06-06_self_audit.md` + external advisor review (pasted in conversation). Worldview refresh (E) deferred to next pass, time-boxed pre-2026-06-09.
+**Mode:** Boot recovery after prior-session kill (state was clean — work committed pre-crash). Pre-registered rubrics in `recon/2026-06-06_e_phase_pre_registration.md` applied blind to fresh data.
 
 ## Result
 
-NEXUS machinery rebuilt across spawn protocol, lifecycle, frameworks, and document structure. Worldview (matrix content) remains 5/21-anchored awaiting E-phase refresh.
+E-phase shipped. **Energy "deflation un-traps Fed" hypothesis CLOSED** — chain failed at step 1 (Iran SUSPENDED MOU 6/1, kinetic re-armed). Vol regime partially cracked on 6/5 NFP (VIX +40%, SKEW 152, VVIX 102 sustained), credit still anchored (HY OAS 274 flat). C-19 Stagflation Trap intact. Probability split 25/35/40 → 30/30/40 (Break ↑5pp on vol-cracking, Grind ↓5pp).
 
-### Phase A+D — CLAUDE.md rewrite
-- Spawn protocol restructured: BOOT (6 steps) + LIVE-EVENT OVERRIDE clause + EXECUTE (2 steps) + CLOSEOUT write-back tail (5 steps).
-- Added predictions-resolve at boot (step 3) with promote-to-CONFIRMED rule.
-- Fixed file-path drift: `OUTBOX.md` → `outbox/`, `INBOX.md` → `inbox/`, `PROME/PREDICTIONS_MONITOR.md` → `PREDICTIONS_MONITOR.md`.
-- Replaced HERMES-dependency language with generic intake ("routed signals, however delivered").
-- Added 5 Synthesis Disciplines: threshold-vs-mechanism, single-month skepticism, catalyst-vs-consequence conditional, market-verdict counter-signal, single-print prediction-market skepticism. All cite memory.
-- Deleted unused CONVERGENCE/CONTRADICTION prose templates; folded fields into matrix column definitions.
-- WHEN TO RUN rewritten: 3 triggers + live-event override + catalyst docket pointer. PROME-daily cadence removed.
-- Anti-pattern list extended: no SIGNALS-as-STATUS-copy, no Conf-without-Δ, no narrative-gap-without-counter-signal.
+### Verdicts applied (rubric-blind)
+- **SIG-01 (BRENT CFTC distribution): AMBIGUOUS** — Brent $93.09 @ [Fri 6/5 close, fetch.py BZ=F] below $98-100 trigger, but curve still backwardated (physical tight: Cushing 22.4M, SPR <360M); fresh 6/5 CFTC (Tue 6/2 positions): MM longs −2,160 (decelerating); MM shorts −16,603 (specs covering bearish bets into kinetic gap-up); decomposition failed (paper-driven softening, not demand-driven). Tiebreaker rule applied.
+- **SIG-02 (HAWK partial-thaw): REVERTED head-fake** — Iran SUSPENDED indirect talks 6/1, CENTCOM intercepted Kuwait missiles 5/31, Bab al-Mandab vector new. Multiple kinetic events since 5/22.
+- **Inflation conditional: TOO EARLY + leaning NO PASS-THROUGH** — energy never sustained deflation; Core PCE 3.3% cycle-HIGH per CARL 5/29.
 
-### Phase B1 — SIGNALS.md repopulation
-- Cleared 8 duplicate SIG-M01..M08 rows that were 1:1 mirrors of STATUS M-01..M-07 + FORGE guardrail.
-- Listed 3 actually-unintegrated signals: SIG-26060601 (BRENT 5/15 CFTC distribution), SIG-26060602 (HAWK 5/22 partial-thaw), SIG-26060603 (5/14 gamma surge).
-- Added advisor-flagged convergence note: SIG-01 + SIG-02 are independent roots pointing same direction (energy premium deflating) → M-06 candidate downgrade.
-- All three pending E-phase integration; not yet moved to `inbox/processed/` (advisor-amended: list in B, integrate in E).
+### Matrix moves (with Δ-column discipline)
+- M-04 60% → 45% (↓15pp, 2026-06-06) — vol transmitted on 6/5 NFP, mechanism wounded
+- M-06 55% → 60% (↑5pp, 2026-06-06) — war path re-armed, pending-downgrade cancelled
+- M-07 70% → 60% (↓10pp, 2026-06-06) — vol-crushed leg of bull-counter broke
+- M-01/M-02/M-03/M-05 unchanged this pass (timestamps preserved per no-op-no-bump rule)
 
-### Phase B2 — PREDICTIONS_MONITOR.md restructure
-- Added discipline rubric at top (4 disciplines + status taxonomy).
-- Preserved 13 confirmed (PRED-01..PRED-13).
-- Restructured active/pending into 3 sections: Active forward-looking (12 entries), Past-trigger unverified (15 entries), Falsified preserved (3 entries — falsification log = discipline asset).
-- Applied threshold-vs-mechanism + catalyst-vs-consequence flags to PRED-25, PRED-29, PRED-39, PRED-43.
-- Identified 2 likely-FALSIFIED items (PRED-33, PRED-47) pending HAWK confirm.
-- Identified 2 promotion candidates to CONFIRMED.md (PRED-13, PRED-25 — both pending C-ID assignment).
-- Listed 5 E-phase resolution priorities at file foot.
+### Threshold proximity (Fri 6/5 close anchor)
+- **BREACHED expanded 3 → 8**: TLT $85.06 on line; CCC 946; VIX 21.51 (+40%); SKEW 152.25; VVIX 102.04 sustained; VIX9D 23.92 > spot; USDJPY 160.29; BIZD $12.49 (single-day, sustain test).
+- **HY OAS 274bps flat through VIX +40%** = the load-bearing counter-signal of the day.
+- **KRE +0.27% on SPX −2.64%** = bank cohort actively diverging from broad equity stress.
 
-### Phase C — STATUS.md structural cleanup
-- Dropped 3 dead sections: STALE/RETIRED APR 4 (12L), DATA GAPS (5L), LAST RUN OUTPUT (6L → replaced with pointer).
-- Added Δ-since-last-pass + Last-updated columns to convergence matrix.
-- Added Transmission Chain scaffold row (LABOR→CARL→REGINALD→repricing) with "POPULATE IN E" placeholders per link.
-- Added Catalyst Docket section (7 rows: R11 window FIRED, NFP 6/5 FIRED, June auctions/CPI/FOMC upcoming, Q2 prints rolling, gamma countdown window).
-- Split Threshold Proximity into BREACHED / PROXIMATE / NOT CONFIRMING groupings.
-- Added Market-Verdict Counter-Signal as required row in Narrative Gap (HY OAS sub-300 identified as cleanest counter-signal).
-- Tagged tensions T-01..T-07 with type S/R/T per Contradiction Scoring framework.
-- File size 137 → 133 lines (under 200 cap).
+### Transmission chain populated
+- LABOR → CARL: link holding with K-shape split (NFP headline counter-signal, internals retain rot, CC DQ 13.1% 15yr high)
+- CARL → REGINALD: firing in ABS (Carvana PRIME downgrade — first in 16yr), not yet in bank-reported credit
+- REGINALD → repricing: NOT confirming at tape (KRE/WAL/BIZD-on-line)
+- **Chain break sits between midstream ABS / bank balance sheet and public tape.**
+
+### Position dependency flag — did NOT fire
+- IF-leg failed (energy didn't deflate durably + inflation conditional TOO EARLY) → TLT bearish duration thesis is NOT at take-profit trigger via this rail. Defers to 6/9-11 auctions for M-03 reassessment.
 
 ## Files Read
-- `AGENTS/NEXUS/{STATUS,CONFIRMED,SIGNALS,PREDICTIONS_MONITOR,LAST_COMPLETION,CLAUDE}.md`
-- `AGENTS/NEXUS/{inbox/*, outbox/*}` (2 unprocessed, 1 undelivered)
-- `AGENTS/NEXUS/recon/2026-05-21_revival_audit_draft.md`
-- `AGENTS/SIGNALS.md`
-- `recon/2026-06-06_self_audit.md` (written this pass)
+- `AGENTS/NEXUS/{STATUS, SIGNALS, LAST_COMPLETION, CLAUDE}.md`
+- `AGENTS/NEXUS/recon/2026-06-06_e_phase_pre_registration.md`
+- `AGENTS/NEXUS/inbox/{HAWK_ROUTING_2026-05-22, signal_2026-05-14_gamma_momentum_factor_squeeze}.md`
+- `AGENTS/{BRENT, HAWK, CARL, REGINALD, VIOLET}/STATUS.md` (headers, ~30-50 lines each)
+- Live data: `FORGE/tools/market-data/fetch.py price` for BZ=F, CL=F, TLT, ^TNX, KRE, WAL, BIZD, USDJPY=X, ^VIX
+- Fresh 6/5 CFTC COT: cftc.gov disaggregated NYMEX/ICE report (rel Fri 6/5, positions Tue 6/2)
 
 ## Files Changed
-- `AGENTS/NEXUS/CLAUDE.md` — rewrite (A+D)
-- `AGENTS/NEXUS/SIGNALS.md` — rewrite (B1)
-- `AGENTS/NEXUS/PREDICTIONS_MONITOR.md` — rewrite (B2)
-- `AGENTS/NEXUS/STATUS.md` — rewrite (C)
+- `AGENTS/NEXUS/STATUS.md` — full E-phase integration (190 lines, under 200 cap)
+- `AGENTS/NEXUS/SIGNALS.md` — cleared (queue empty post-absorption)
+- `AGENTS/NEXUS/signals_archive/SIGNALS_E_PHASE_RESOLVED_20260606.md` — new (C/M mapping for SIG-26060601/02/03)
+- `AGENTS/NEXUS/inbox/processed/HAWK_ROUTING_2026-05-22.md` — moved
+- `AGENTS/NEXUS/inbox/processed/signal_2026-05-14_gamma_momentum_factor_squeeze.md` — moved
 - `AGENTS/NEXUS/LAST_COMPLETION.md` — this file
-- `AGENTS/NEXUS/recon/2026-06-06_self_audit.md` — new (audit doc)
 
 ## Files NOT Changed (intentional)
-- `AGENTS/NEXUS/CONFIRMED.md` — promotions deferred to per-pass operation (spawn protocol step 3 enforces it going forward); doing the existing C-ID reconciliation is a separate audit not in A-D scope.
-- `inbox/` items — NOT moved to `processed/`; advisor amendment: integrate-into-matrix is E-phase work, hygiene move follows integration.
-- `outbox/2026-05-21_to-PROME_stage2late_divergence_reset.md` — NOT moved to `delivered/`; PROME is degraded (`[[project_openclaw_prome_degraded]]`), "delivered" semantics ambiguous until messaging overhaul lands.
+- `AGENTS/NEXUS/CONFIRMED.md` — no new promotions this pass. PRED-13 (Iran rally bull-trap) and PRED-25 (HAWK Scenario D) deferred — D scenario now active not yet "confirmed."
+- `outbox/2026-05-21_to-PROME_stage2late_divergence_reset.md` — PROME degraded; held per `[[project_openclaw_prome_degraded]]`.
+- `AGENTS/NEXUS/PREDICTIONS_MONITOR.md` — no resolution moves this pass (boot prediction sweep clean per `[[finding_boot_predictions_scan]]` — no new past-trigger items in 24h window).
+- `AGENTS/NEXUS/CLAUDE.md` — 4 standing disciplines from pre-registration (war-premium tape, crack spreads, causal-lag, supply-vs-demand) still pending codification post-E-validation cycle. Defer to next structural pass.
 
-## Blockers / Gaps for E
-1. Fresh BRENT + HAWK + SAM + LABOR + CARL + RED + REGINALD + BROCK + HENRY + VIOLET + BOND headers — 11-agent worldview sweep.
-2. Live HY OAS / VIX / VIX9D / VVIX / 10Y / TLT / USDJPY / WAL / KRE / BIZD reads for threshold table refresh.
-3. R11 5/28-6/02 window resolution (VIOLET should have a verdict).
-4. 6/5 NFP print details (VIOLET v3.3 logged at boot — needs full integration).
-5. Re-grade Break/Grind/Divergence split given energy-deflation hypothesis.
-6. PROME state — if PROME revives, deliver outbox; if not, document delivery semantics in next pass.
+## Disciplines applied this pass
+- **Δ-column convention** — `Last updated` bumped ONLY on material moves (M-04/M-06/M-07); M-01/M-02/M-03/M-05 timestamps preserved at 2026-05-21.
+- **Single-print skepticism (Discipline B)** — flagged BIZD $12.49 single-day breach as sustain-test; flagged 6/5 vol break as not-yet-confirmed (wait for 6/12 CPI digestion).
+- **Catalyst-vs-consequence (Discipline C)** — P(C-19 falsification) = P(energy deflates durably) × P(inflation passes through | deflation) × P(Fed cuts | inflation falls); step 1 broke, downstream conditionals don't fire.
+- **Market-verdict counter-signal (Discipline D)** — HY OAS 274 flat through VIX +40% named as required counter-signal.
+- **Single-print prediction-market skepticism (Discipline E)** — not invoked this pass.
+- **Price-citation format** — all marks tagged `value @ [Fri 6/5 close, source]` per operator convention.
+- **Saturday-markets-closed discipline** — all marks labeled "Fri 6/5 close," never "live."
+- **Anti-anchoring** — rubrics applied before viewing data; no rubric-edits mid-pass.
 
-## Post-execution operator conventions (advisor-set 2026-06-06)
+## Cross-signal lesson logged
+Advisor-flagged 6/6 framing that SIG-01 + SIG-02 were "independent roots pointing same direction (energy premium deflating)" did NOT hold — both were derivatives of an Iran-thaw assumption that broke 6/1. **Future independence test:** verify the *shared antecedent assumption* hasn't broken since signals were generated.
 
-After A-D shipped, operator delivered three conventions and one principle. Now codified:
-
-1. **Δ-column convention** — `Last updated` bumps only on *material* change (confidence move, direction shift, or load-bearing evidence change), never on a no-op review; `Δ` = signed percentage points; header carries "Last full matrix review." Inlined in CLAUDE.md OUTPUT RULES and STATUS.md header note.
-2. **Spec-text rule** — `[[memory]]` tags are provenance-only; behavioral rules must be inlined in CLAUDE.md. Verified: all 5 tag references in CLAUDE.md are paired with inlined prose. No bare-tag rules.
-3. **C-ID reconciliation punt** — bounded backlog produced (`recon/2026-06-06_c_id_index.md`), reconciliation task scheduled post-E (post-6/9 auctions). Forward promote-rule already in spawn protocol so debt stops growing.
-
-**Principle:** operator sets conventions, agent executes them. Bring open conventions to operator **in real-time during execution**, not batched at closeout. Per `[[feedback_flag_friction_realtime]]`.
+## Blockers / Gaps for next pass
+1. **6/8 Mon Trump/Rubio Iran response** — SIG-02 durability gate; live-event override if hard move either way.
+2. **6/9-11 auctions** — M-03 / T-02 / TLT take-profit gate.
+3. **6/12 May CPI** — vol-fade gate (inside VIX9D window per VIOLET).
+4. **VIOLET R11 window resolution** — HIT per KB-VIO-031 60d window (VIX +39.7%) — confirmed integrated this pass.
+5. **HAWK STATUS refresh** — still anchored 5/22; needs Will-prompted refresh to align with BRENT 6/3 escalation events.
+6. **PROME degradation** — outbox semantics unresolved; messaging overhaul still in progress.
 
 ## Next Step
 
-**E-phase worldview refresh, time-boxed pre-2026-06-09.** Minimum viable scope:
-1. BRENT + HAWK header verify → integrate SIG-01/02 → M-06 downgrade + Δ (now in `↑/↓Xpp` form).
-2. Populate Transmission Chain row (3 links) from CARL + REGINALD + tape.
-3. Resolve R11 window via VIOLET.
-4. Integrate 6/5 NFP via VIOLET v3.3.
-5. Refresh threshold proximity table marks.
-6. Re-grade probability split.
+Next NEXUS pass triggers (any one):
+- 6/8 Trump/Rubio Iran response (likely live-event override territory).
+- 6/9-11 auction tail.
+- 6/12 May CPI.
+- Tier-1 inbox arrival.
 
-Full 11-agent sweep can slip past 6/9 if needed; M-06 + Transmission row + threshold marks cannot.
-
-E-phase will be the first test of the Δ-column discipline — first real `Last updated` bumps and first non-`—` Δ values.
+Git: 3 commits ahead of origin/master now expected (2 prior + 1 E-phase). Push deferred per `[[feedback_defer_push_coordinate]]`.
