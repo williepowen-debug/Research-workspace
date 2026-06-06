@@ -49,7 +49,9 @@ If a tier-1 macro event is firing during boot (NFP / CPI / FOMC / tier-1 auction
 - **4 agents:** Strong (alert PROME)
 - **5+ agents:** Critical (immediate alert, propose action)
 
-Independence test: shared root cause? ("war causes X" across 4 agents = 1 shock with 4 transmission paths, not 4 independent signals.)
+Independence test, two-pass:
+1. **At signal-creation:** shared root cause? ("war causes X" across 4 agents = 1 shock with 4 transmission paths, not 4 independent signals.)
+2. **At integration:** does the *shared antecedent assumption* still hold since the signals were generated? Two signals that looked independent at generation can collapse into one if both rested on a latent assumption that has since broken. (Validated 2026-06-06 E-phase: SIG-26060601 + SIG-26060602 looked independent (CFTC positioning vs geopolitics) but both rested on Iran-thaw assumption that broke 6/1.) See Discipline F.
 
 ### 2. Contradiction Scoring
 - **Surface contradiction:** Different metrics, same underlying trend → identify lead indicator.
@@ -100,6 +102,13 @@ Every pass must surface at least one tape-side signal that contradicts the agent
 
 ### E. Single-print prediction-market skepticism (`[[finding_thin_liquidity_prediction_market_discipline]]`)
 Single Polymarket/Kalshi prints are not "holds"; require ≥3-day re-check + cross-source verify before integrating.
+
+### F. Shared-antecedent independence re-test
+When integrating two or more signals as "independent convergence," verify the *latent antecedent assumption* both rested on at signal-creation has not broken between then and now. Signals that looked independent at creation (different datasets, different agents) can collapse into a single root if a shared assumption underneath them flips state.
+
+- **Mechanism:** SIG-A (e.g., CFTC positioning showing paper-long unwind) and SIG-B (e.g., HAWK partial-thaw scenario weights) appear independent. Both quietly assume *Iran-thaw on track*. Iran walks the MOU. Both signals' load-bearing premise just died — the convergence evaporates at once.
+- **Rule:** before treating N signals as "N independent roots pointing same direction," list each signal's antecedent assumptions and check freshness. If a shared antecedent has changed state since signal generation, treat as 1 root not N.
+- **Validation:** caught 2026-06-06 E-phase post-hoc (SIG-26060601 + SIG-26060602). Codified so it fires *before* integration next time.
 
 ---
 
