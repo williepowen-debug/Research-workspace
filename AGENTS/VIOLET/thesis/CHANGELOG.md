@@ -6,6 +6,19 @@ Trigger to log here: any closeout that updates `thesis/VIX_THESIS.md`.
 
 ---
 
+## v3.5 — 2026-06-06 (Tier-3 follow-up refinements)
+
+- **Bumped from:** v3.4 (2026-06-06 same-day — Regime Shift Trade Path A tagging + DIET disambiguation).
+- **What changed:** Three discrete refinements, all clarity/discipline cleanup, no substantive thesis change. (1) **System thesis "Scenario D 82%" de-attributed** — Apr-era stale-copy of another agent's metric removed; replaced with explicit reference to CARL/PROME as owners. (2) **Path A description gains 1-line trade cross-reference** — Lag Trade and Regime Shift Trade named as the operational expressions within the Path A framework, so readers can connect framework → trades without scanning. (3) **Current Status section "VIX lag window opens when (Path A)" renamed to "Regime Shift Trade status check (Path A)"** — the three conditions listed there are Regime Shift Trade entry conditions specifically, not a generic Path A signal checklist (and definitely not Lag Trade conditions, which involve VIX 20-30 + fast HY widening, not these). Mislabeling was a v3.3 carryover; v3.5 fixes the label and adds a sub-bullet clarifying the section's scope.
+- **Why:** Tier-3 flags from the v3.3 tightening pass needed individual review. Two were confirmed and applied. Third (Lag Trade vs Path A "overlap") was walked back on re-read — they're NOT redundant; Path A is the framework, Lag Trade is a tactical entry within it, different regimes and signals. Walking back the false flag is itself part of v3.5's discipline.
+- **Old view:** System thesis carried a stale-Apr Scenario-D 82% number that VIOLET was propagating without verification. Path A framework described in transmission-chain section without naming the trades that operationalize it. Current Status section's "VIX lag window" check listed conditions that were neither a complete Path A check nor matched the Lag Trade — they were Regime Shift Trade conditions under a misleading label.
+- **New view:** System thesis attributed to its owner (CARL/PROME). Path A description names its operational expressions inline. Current Status section's status check correctly identified as the Regime Shift Trade entry check, with explicit note that it's not a generic Path A or Lag Trade check.
+- **Predictions touched:** None.
+- **Walked-back flag (documented for trail):** v3.3 tightening pass flagged "Lag Trade vs Path A overlap" as Tier 3. On re-read, these are not redundant — Path A is the framework (regime + conditions for the lead-lag relationship to exist), Lag Trade is a tactical entry within Rising Vol regime when HY widens >50bps/wk and VIX hasn't caught up yet. Different regimes, different signals, different time horizons. No prune needed; flag retracted.
+- **No substantive change** to thesis, trade setups, predictions, or research agenda — clarity and discipline refinement only.
+
+---
+
 ## v3.4 — 2026-06-06 (Regime Shift Trade refinement — Path A tagging + DIET disambiguation)
 
 - **Bumped from:** v3.3 (2026-06-06 same-day — 6/5 NFP-shock live test integration; L1-L4 stack discipline; Path A / Path B transmission split; DIET Coiled-Spring Trade added as 3rd pattern).
@@ -45,3 +58,4 @@ Trigger to log here: any closeout that updates `thesis/VIX_THESIS.md`.
 *Created: 2026-06-01 (first changelog entry; backfilled current state. Pre-v3.2 history lives in `VIX_THESIS.md` in-body changelog + research/ + KB.tsv.)*
 *v3.3 added: 2026-06-06 (Saturday org session — 6/5 NFP-shock live test integration; mislabel correction on the 6/01 entry from v3.1 → v3.2.)*
 *v3.4 added: 2026-06-06 same-day (Regime Shift Trade refinement — Path A tagging + DIET disambiguation + rare-trigger caveat + style cleanup. No substantive trade change.)*
+*v3.5 added: 2026-06-06 same-day (Tier-3 follow-up — de-attribute stale Scenario D metric, cross-ref trades from Path A, fix mislabeled current-status check, walk back false Lag-Trade-vs-Path-A flag. No substantive change.)*

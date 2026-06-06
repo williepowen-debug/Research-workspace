@@ -1,4 +1,4 @@
-# VIX THESIS (v3.4 — Regime Shift Trade refinement, 2026-06-06)
+# VIX THESIS (v3.5 — Tier-3 follow-up refinements, 2026-06-06)
 
 VIOLET's core framework: Credit-vol relationship is **regime-dependent, crisis-type-dependent, and directionally asymmetric**. Operational signal stack runs L1 (population framework, real-money) over L2-L4 calibration filters. Two transmission paths now formal: standard credit-led, and concentration-unwind parallel.
 
@@ -7,6 +7,11 @@ VIOLET's core framework: Credit-vol relationship is **regime-dependent, crisis-t
 ## CHANGELOG
 
 > Canonical "old view → new view" per-bump log lives in `thesis/CHANGELOG.md`. This section is the in-body version history.
+
+**v3.5 (2026-06-06) — Tier-3 follow-up refinements (de-attribute stale system-thesis metric, cross-ref trades from Path A, fix mislabeled current-status check)**
+- **System thesis metric de-attributed** — "Scenario D 82%" Apr-era number removed; replaced with reference to CARL/PROME as owners. Per stale-copy-of-another-agent's-metric discipline (CLAUDE.md). No substantive change to VIOLET's role.
+- **Path A description gains trade cross-reference** — Lag Trade and Regime Shift Trade now named as the operational expressions within the Path A framework (1-line cross-ref).
+- **Current Status section: "VIX lag window opens when (Path A)" renamed to "Regime Shift Trade status check"** — the three conditions listed there were Regime Shift Trade entry conditions, NOT generic Path A signals or Lag Trade conditions. Mislabeled. Renaming clarifies; section still serves operational purpose (current values vs. thresholds).
 
 **v3.4 (2026-06-06) — Regime Shift Trade refinement (Path A tagging + DIET disambiguation)**
 - Regime Shift Trade tagged as Path A specialization (credit-confirmation required); for Path B analog setups use DIET Coiled-Spring Trade or wait for Path B backtest.
@@ -168,7 +173,7 @@ HENRY (Equity market impact)
 Portfolio P&L
 ```
 
-**Path A fires when:** four conditions hold (VIX<20 at onset, credit-originated shock, cross-sector widening, no curve inversion). Credit leads by 2-6 weeks tactical / ~7 months cyclical. **This remains the high-confidence path.**
+**Path A fires when:** four conditions hold (VIX<20 at onset, credit-originated shock, cross-sector widening, no curve inversion). Credit leads by 2-6 weeks tactical / ~7 months cyclical. **This remains the high-confidence path.** Operational expressions: **Lag Trade** (mid-flight tactical entry in Rising Vol regime) and **Regime Shift Trade** (slow-build strategic entry in persistent Low Vol regime) — both in Trade Implications below.
 
 ### Path B — Concentration-unwind parallel (added v3.3, KB-VIO-070/071)
 
@@ -372,7 +377,7 @@ Portfolio P&L (no credit-side firing required)
 
 ## CONNECTION TO SYSTEM THESIS
 
-System thesis (Scenario D 82%): Credit stress → bank stress → equity crash.
+System thesis: Credit stress → bank stress → equity crash. *(Scenario weighting maintained by CARL/PROME — see their STATUS for current attribution.)*
 
 **VIOLET's role:** Time the equity vol leg and detect regime shifts.
 
@@ -388,7 +393,8 @@ System thesis (Scenario D 82%): Credit stress → bank stress → equity crash.
 - AI/factor concentration unwind leg has its own half-life decoupled from macro — open question.
 - **Position discipline: NO short-vol before 6/12 May CPI.** Fade must clear CPI first.
 
-### The VIX lag window opens when (Path A):
+### Regime Shift Trade status check (Path A):
+*(These are the Regime Shift Trade entry conditions from Trade Implications, checked against current values. Not a generic Path A or Lag Trade checklist.)*
 1. HY OAS breaks above 4.0 (currently 2.74, distant)
 2. VIX stays below 25 (currently 21.51 ✓)
 3. **VVIX > 120 while VIX < 20** (divergence form — KB-VIO-027 Pattern A)
