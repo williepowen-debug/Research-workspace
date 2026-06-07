@@ -1,13 +1,13 @@
 # PROME STATUS.md
-**Updated:** 2026-06-04 ~17:35 ET (OpenClaw Prome — boot surface refresh after Jun 3-4 signal ingestion)
+**Updated:** 2026-06-07 ~17:55 ET (Claude Code Prome — Sun-evening week-prep refresh for Mon 6/8 open)
 
 ## Core State
 
-**Operational priority:** Prome boot surfaces are being refreshed from Jun 2 cleanup mode into Jun 4 operating mode. The two direct Prome signals have been ingested: (1) HENRY superseded the old TLT 5/22 ticket, and (2) SAM flagged a pathspec-commit migration to reduce shared-repo overwrite risk.
+**Operational priority:** Boot surfaces refreshed from Jun 4 operating mode → Jun 7 PM week-prep mode. Three signals ingested (BOND 6/5 / CARL 6/6 / HENRY 6/6); week-ahead catalyst card shipped at `PROME/action-cards/WEEK_2026-06-08.md`; HEARTBEAT current.
 
-**Regime:** Public credit and vol remain calm while stress persists in Japan/FX, energy, BDC/private-credit marks, and duration. Current read is **divergence**, not confirmed public-credit/vol transmission.
+**Regime:** Substance/tape divergence is *narrowing*. Vol confirmed on Fri NFP (VIX 15.40→21.51). **HY OAS 274🟢 is now the SOLE remaining "tape refuses cascade" signal.** Wed CPI + Treasury refunding triplet (6/9/6/10/6/11) are the binary HY-OAS tests; FOMC 6/16-17 is the bigger gate.
 
-**Live dashboard anchor, Jun 4 ~17:45 ET:** HY OAS **275bps [FRED 6/3 close]** 🟢, CCC OAS **947bps [FRED 6/3 close]** 🟡, VIX **15.40** 🟢, Brent **$95.14** 🟡, USD/JPY **160.00** 🔴, BIZD **$12.70** 🔴, TLT **$85.50** 🟡. `HEARTBEAT.md` has been refreshed with this root state.
+**Live dashboard anchor, Sun Jun 7 ~17:30 ET:** HY OAS **274bps [FRED 6/4]** 🟢, CCC **946bps [FRED 6/4]** 🟡, **VIX 21.51** 🟡 *(was 15.40)*, Brent **$93.09** 🟡, USD/JPY **160.19** 🔴, BIZD **$12.49** 🔴 *(under)*, TLT **$85.06** 🟡, ARES **$125.65** 🟡 *(at green-line)*.
 
 ---
 
@@ -15,13 +15,12 @@
 
 | Item | Status | Note |
 |---|---|---|
-| GitHub sync | ✅ Clean | Local `master` matched `origin/master` before closeout edits; verify with `git status` at next boot. |
-| Local stale edits | ✅ Resolved | Will approved discarding stale local generated edits in `AGENTS/PROME/LAST_COMPLETION.md` and `PROME/FLEET_SCAN.md`; pull then fast-forwarded cleanly. |
-| Prome boot-surface rehab | ✅ Pushed | Jun 2 rehab package committed/pushed. |
-| WALTER Iran-anchor refresh | ✅ Landed | WALTER refreshed to narrative-fork + kinetic-acceleration frame. |
-| SENTRY scheduled feed pushes | ✅ Disabled | Manual `workflow_dispatch` preserved; twice-daily master churn stopped. |
-| HEARTBEAT refresh | ✅ Pushed | Root heartbeat now reflects Jun 4 regime/levels. |
-| GitHub source-of-truth rule | ✅ Active | Local edits remain subordinate until explicitly committed/pushed. |
+| GitHub sync | ✅ Clean | Local `master` = origin/master at `936514c0` (WALTER 6/06 PM-3). |
+| Local stale edits | 🟡 Two SAM dirty files (FXY_OPTIONS.tsv + USDJPY.tsv) | SAM's domain, untouched. |
+| Jun 4 surface rehab | ✅ Pushed | Boot surfaces were current at Jun 4 ~17:35; refreshed today. |
+| HEARTBEAT refresh | ✅ Done (this session) | Now reflects Jun 7 PM regime delta. |
+| GitHub source-of-truth rule | ✅ Active | |
+| SENTRY scheduled feed pushes | ✅ Disabled (Jun 2) | Manual `workflow_dispatch` preserved. |
 
 ---
 
@@ -29,70 +28,75 @@
 
 | File | Current trust | Note |
 |---|---|---|
-| `PROME/SCRATCH.md` | ✅ Current | Rewritten Jun 4; boot handoff after signal ingestion. |
-| `PROME/TODAY.md` | ✅ Current | Rewritten Jun 4; live dashboard and work queue. |
-| `PROME/STATUS.md` | ✅ Current | This file. |
-| `PROME/FLEET_SCAN.md` | ✅ Current | Rewritten Jun 4 as bounded post-pull scan. |
-| `PROME/ACTIVE_DECISIONS.md` | ✅ Current safety index | HENRY Jun 3 TLT supersession ingested; old 5/22 roll ticket no longer actionable. |
-| `HEARTBEAT.md` | ✅ Current | Refreshed Jun 4 with live levels, TLT supersession, pathspec migration, and root pending items. |
-| `PROME/CLAUDE_CODE_HANDOFF.md` | Historical | Useful audit trail, not current boot state. |
+| `PROME/SCRATCH.md` | ✅ Current Jun 7 PM | Rewritten this session. |
+| `PROME/TODAY.md` | ✅ Current Jun 7 PM | Rewritten for Mon 6/8. |
+| `PROME/STATUS.md` | ✅ Current Jun 7 PM | This file. |
+| `PROME/FLEET_SCAN.md` | ✅ Current Jun 7 PM | Bounded week-prep scan (next). |
+| `PROME/ACTIVE_DECISIONS.md` | ✅ Current — 3 signals ingested | TLT Sep gate narrowed; separate-clones row added with M3 slate. |
+| `PROME/action-cards/WEEK_2026-06-08.md` | ✅ NEW | Single-source week card. |
+| `HEARTBEAT.md` | ✅ Current Jun 7 PM | Regime delta + thresholds + week pointer. |
+| `PROME/HANDOFF.md` | 🟡 Jun 2 top block | Fine for continuity; refresh on closeout if needed. |
+| `PROME/PATHSPEC_MIGRATION_STATUS.md` | 🟡 Unchanged | Owner edits still pending. |
 
 ---
 
-## Agent / Domain State Since Prome Went Stale
+## Agent / Domain State
 
 | Domain | Freshness | Current state for Prome |
 |---|---|---|
-| **SAM / Japan** | Fresh Jun 1 + Jun 4 Prome signal | BOJ Jun 16 single-path base case; USD/JPY now **160.01** live. SAM also flagged pathspec migration; Prome/SAM done, other owner edits pending. |
-| **BRENT / Energy** | Fresh Jun 1 + WALTER Jun 2 correction | Iran/energy stress re-armed, but channel state is contested: Tasnim/IRGC suspension vs MFA/Trump ongoing/rapid-pace denial. Trump rhetoric is tape-not-info in both directions. |
-| **VIOLET / Vol** | Fresh Jun 1 | R11 analog dead / gradual fade won; R12 technically terminated but spot/SKEW watch near re-establishment; timing reset later. |
-| **MARCO / Migration-labor** | Fresh Jun 1 | Acute crisis softened; structural ag-labor and Canadian travel channels remain. |
-| **CARL / Consumer** | Fresh enough May 31 | Consumer/stagflation hardened via GDP/PCE; important but not state-rehab blocker. |
-| **WALTER / Routing** | Fresh Jun 2 | Iran anchor reverified: **narrative-fork + kinetic-acceleration**. Kuwait strike cadence load-bearing; Bab al-Mandab rhetorical only; next anchor boundary 2026-06-09. WALTER still owns news/signal routing. |
-| **REGINALD / Banks** | Domain stale May 21 | WAL v2.2 remains last deep state; later commits were housekeeping. Do not refresh until concrete need. |
-| **BROCK / Private credit** | Domain stale May 21 | BIZD remains red; APO now below $130 live. Needs refresh if PC/BDC decision becomes live, not during this catch-up pass. |
-| **HENRY / Market structure** | Jun 3 TLT signal; broader domain partially refreshed | TLT 5/22 ticket superseded. Jun $85P salvage is Will-handled; Sep add deferred to CPI. Do not rely on old R11 clock language without current HENRY. |
-| **LIQUID / Funding-duration** | Stale May 20 | Funding/duration state needs refresh before any duration decision. |
-| **BOND / Auctions** | Stale May 21 | June 9-11 nominal 10Y matrix remains next hard test; refresh closer to auction window. |
+| **BOND / Auctions** | ✅ Fresh Jun 5 | **Long-end leg relaxed.** 10Y 4.47, 30Y 4.97 — both back inside bands. TLT puts HOLD-no-add until June refunding triplet. Two May corrections logged. Matrix v2 ready for Wed 6/10 10Y deployment. |
+| **HENRY / Market structure** | ✅ Fresh Jun 6 | NFP catch-up + vol-broadcast scope → VIOLET + pathspec interim + auto-mem proposal. TLT 5/22 ticket superseded; Sep add now BOND-narrowed. |
+| **VIOLET / Vol** | ✅ Fresh Sat 6/6 | Thesis v3.5; R12 re-established after NFP-shock live test (3 thesis bumps Fri-Sat). 4/15 60d window closes 6/12. |
+| **SAM / Japan** | ✅ Fresh Jun 6 | CFTC METHOD-gate test landed; NEXUS_BRIEF schema pending E-phase ratification. USD/JPY 160.19 live. Owns separate-clones architecture. |
+| **CARL / Consumer** | ✅ Fresh Jun 5-6 | Fri 6/5 data wall + Prome-directed news sweep; Sat 6/6 separate-clones readiness registered. Consumer/stagflation hardening. |
+| **BROCK / Private credit** | 🟡 Stale May 21 + Jun 4 sweep | BIZD broke under $12.50 to red. ARES at $125 green-line. Read current BROCK if any PC action becomes live. |
+| **BRENT / Energy** | ✅ Fresh Jun 5 closeout | Brent $93 yellow; gas red. COT + rigs + airlines data Jun 5. |
+| **REGINALD / Banks** | 🟡 Stale May 21 | WAL/KRE green; OZK $49.60 yellow. Refresh only if Q2 decision emerges. |
+| **LABOR** | ✅ Fresh via CARL/HENRY | Claims 225k 🟡 + shadow-adjusted 280k. Yellow deterioration; not headline break. |
+| **LIQUID / Funding** | 🟡 Stale May 20 | Refresh before any duration/funding decision. |
+| **WALTER / Routing** | ✅ Fresh Jun 6 PM | 4 BOARD dispatches Sat PM (CB gold / UST rollover / El Niño-fertilizer / UKMTO Hormuz). Iran anchor still Jun 2 frame; next boundary 2026-06-09. |
+| **NEXUS** | ✅ Fresh Jun 6 | Discipline F (shared-antecedent independence test), conditional flags, SIG-01/02 verdicts, Fri 6/5 close anchor, E-phase scaffold. |
+| **MARCO / Migration-labor** | 🟡 Stale Jun 1 | Acute crisis softened; structural channels remain. |
+| **RED / Adversarial** | 🟡 Jun 3-4 updates | Use for adversarial pass on active thesis only. |
+| **OTTO / Auto-DQ** | ✅ Jun 4 BROCK Medallia signal landed | Not immediate boot blocker. |
 
 ---
 
-## Jun 3-4 Prome Signals Ingested
+## Jun 5-7 Prome Signals Ingested
 
 | Signal | Status | Prome handling |
 |---|---|---|
-| HENRY TLT ticket supersession | ✅ Ingested | `PROME/ACTIVE_DECISIONS.md` now marks the old 5/22 TLT roll ticket as superseded. Jun $85P are a Will-handled catalyst salvage bet; Sep add waits for CPI confirmation. |
-| SAM pathspec migration audit | ✅ Tracker created | `PROME/PATHSPEC_MIGRATION_STATUS.md` tracks 8 agents / 9 sites. Prome fixed its own `AGENTS/PROME/CLAUDE.md` protocol; other agents own their own edits at next boot. |
+| BOND 6/5 long-end relaxation | ✅ Ingested | `ACTIVE_DECISIONS` — TLT Sep add gate narrowed (CPI hot *or* refunding tail, not CPI alone). Logged in week card. |
+| CARL 6/6 separate-clones readiness | ✅ Ingested | `ACTIVE_DECISIONS` new row — M3 slate now SAM/HENRY/REGINALD/OZK/CARL. P1/P2/P4 pre-flight inputs queued for migration packet. |
+| HENRY 6/6 auto-memory collision proposal | ✅ Ingested | `ACTIVE_DECISIONS` — bundled with separate-clones decision post-Jun-16. Interim "regenerate index" fix available if needed sooner. |
 
 ## Current Work Queue
 
 | Action | Pri | Status |
 |---|---:|---|
-| Refresh Prome boot files | ✅ | Jun 4 refresh completed after signal ingestion. |
-| Disable SENTRY scheduled pushes | ✅ | Completed; stops twice-daily master churn. |
-| Integrate WALTER Jun 2 frame | ✅ | Prome surfaces now carry narrative-fork + kinetic-acceleration caveat. |
-| Add fresh OpenClaw handoff | ✅ | `PROME/HANDOFF.md` has Jun 2 top block. |
-| Refresh HEARTBEAT | ✅ | Refreshed Jun 4 with live dashboard/root state. |
-| Ingest HENRY TLT supersession | ✅ | Old 5/22 TLT roll ticket superseded by Jun 3 Will/HENRY handling. |
-| Track pathspec migration | 🟠 | Tracker created; Prome/SAM done; remaining owners pending. |
-| Refresh root HEARTBEAT | ✅ | Completed Jun 4. |
-| Reconcile old trade rails / fills | 🟠 | Deferred per Will; non-TLT rails remain verification-required, not actionable. |
-| Decide HEARTBEAT cadence / ownership | ✅ | Approved Jun 4: Prome owns updates after boot refreshes, regime changes, major decision-rail changes, or >48h stale during market week; not daily by default. |
+| Sun-evening week-prep refresh | ✅ | Boot surfaces + week card + HEARTBEAT current Jun 7 PM. |
+| Ingest BOND/CARL/HENRY signals | ✅ | All 3 logged in ACTIVE_DECISIONS. |
+| Build week-ahead catalyst card | ✅ | `PROME/action-cards/WEEK_2026-06-08.md`. |
+| Refresh HEARTBEAT | ✅ | Regime delta + thresholds + week pointer. |
+| Track pathspec migration | 🟠 | Tracker unchanged; owner edits still pending. Bundle with M3 cutover. |
+| Reconcile old trade rails / fills | 🟠 | Deferred per Will; non-TLT 6/18 legs verification-required, 11 days to expiry. |
+| Tue evening Wed-CPI prep | 🟠 | Pending — surface TLT Sep-add packet scaffold only if conditions look likely to fire. |
+| BOND matrix v2 spawn pre-Wed 1pm 10Y auction | 🟠 | Pending — ensure BOND ready. |
 
 ---
 
 ## Rules of Engagement
 
 - **No trade execution without Will approval.**
-- **No trade recommendations in the state-rehab pass unless explicitly requested.**
+- **No trade recommendations unless explicitly requested.**
 - **No external/public messages without approval.**
 - **Do not spawn persistent agents casually:** CARL, REGINALD, OZK, SAM, RED, BRENT, Claude Code Prome.
 - **WALTER routes signals/news; Prome maintains state, tasking, rails, and Will-facing synthesis.**
-- **Use pathspec commits only; never `git add .`, `git add -A`, or broad `git reset HEAD`.** Track migration in `PROME/PATHSPEC_MIGRATION_STATUS.md`.
+- **Pathspec commits only;** never `git add .`, `git add -A`, or broad `git reset HEAD`. SAM dirty workbook files untouched.
 - **Read current files before editing; verify after edits.**
 
 ---
 
 ## Next Best Action
 
-Next recommended lane: coordinate remaining pathspec owner edits, unless Will pivots to position reconciliation.
+Mon 6/8 AM: open with `PROME/action-cards/WEEK_2026-06-08.md`. Mon-open dashboard pull to read whether Fri VIX-shock holds or fades; HY OAS line is the binary signal. If Wed CPI conditions look likely to fire by Tue PM, scaffold a TLT Sep-add Will-decision packet (only then).
