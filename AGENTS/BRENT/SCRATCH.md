@@ -79,7 +79,7 @@
 
 - **`thesis/PREDICTIONS.tsv`:** green; 28 rows (10 OPEN active + BRT-15 tabled). Updated 4 rows this session (BRT-16/26/27/28). All OPEN rows have future timeframes; no DUE-stale rows.
 - **`docket/CATALYSTS.tsv`:** green; refreshed Jun 7 (pruned Jun 3+Jun 5 FIRED per 1-wk rule; added Jun 12 COT/BH, Jun 15 BRT-27, Jul 1 BRT-28). 12 rows (10 confirmed, 2 modeled). Maintained by [FASTOW](docket/FASTOW.md).
-- **`docket/FASTOW.md` + `docket/FASTOW_MEMORY.md`:** Run 1 still pending Will cue.
+- **`docket/FASTOW.md` + `docket/FASTOW_MEMORY.md`:** **Run 1 EXECUTED Sun Jun 7 ~17:40 ET.** Clean run (~9 min, within budget). Caught real bug: EIA STEO date was wrong Jun 11 → corrected to Jun 9 in BOTH TSV + STATUS (FASTOW verified vs eia.gov source-of-truth; I had propagated my own error into STATUS earlier in session without source-check). Baseline audit proposed 28 candidates; BRENT applied 12-row light-convention delta (5 monthly + 6 weekly rolling + CPI Jul 15) + CALIBRATION decline entry for "weekly forward expansion past rolling next-2." TSV now 24 rows. PENDING cleared. Run 2 cost expected 3-5 min (monthly trigger doesn't fire until Jul 1).
 - **`workbook/KB.tsv` / `VX.tsv` / `FLOW.tsv`:** DORMANT 6+ wks. **OPEN DECISION for Will: revive vs demote.** Tier 2 carry.
 - **`thesis/THESIS.md`:** still v3.0. **Recommend v3.1 bump candidate** after Jun 7+Jun 10+Jun 11 catalyst suite — macro-transmission engagement Jun 5 is thesis-level.
 - **`refinery_damage/INCIDENTS.tsv`:** 35 rows + scope-header. Green. No new facility-damage events Wed-Fri (kinetic was all intercepts, no facility hits).
