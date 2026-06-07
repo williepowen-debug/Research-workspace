@@ -1,6 +1,6 @@
 # NEXUS STATUS
-**Updated:** 2026-06-06 PM (E-phase executed — SIG-01/02 verdicts + Fri 6/5 close marks integrated)
-**Last full matrix review:** 2026-06-06 (Fri 6/5 close anchor)
+**Updated:** 2026-06-07 Sun PM (boot integration of 4 WALTER BOARD dispatches dated 6/6 PM — M-06 evidence hardened, forward-CPI rail logged in SIGNALS)
+**Last full matrix review:** 2026-06-06 (Fri 6/5 close anchor — no new market data, weekend)
 **Mode:** E-phase shipped. Energy "deflation un-traps Fed" hypothesis CLOSED — chain failed at step 1 (Iran SUSPENDED MOU 6/1). Vol regime partially cracked on 6/5 NFP, credit still anchored.
 **Regime (6/5 close anchor):** **Stage-2-late divergence — vol leg cracking, credit leg holding.** VIX 21.51 +40% on NFP / SKEW 152 breached / VVIX 102 sustained / HY OAS 274 flat / KRE +0.27% on SPX −2.64% day.
 **Probability split, 2–6wk (6/5 anchor — PROVISIONAL pending 6/12 CPI):** Break **30%** (↑5pp) / Grind-lasts **30%** (↓5pp) / Unresolved divergence **40%** (—). *Tilt toward Break leans on 6/5 vol crack — Discipline B (single-print skepticism) says don't bank vol break until 6/12 CPI digestion. If CPI fades vol, revert toward 25/35/40.*
@@ -82,7 +82,7 @@ Full rubrics + standing-discipline additions + anti-anchoring rules: **`recon/20
 | **M-03** | Duration channel replaces plumbing channel | LIQUID, HENRY, BOND, HEARTBEAT | High | **70%** | — | 2026-05-21 | 10Y 4.54% @ [Fri 6/5 close, fetch.py ^TNX] +6bps on NFP; TLT $85.06 @ [Fri 6/5 close, fetch.py TLT]. 6/9-11 auctions still the test. |
 | **M-04** | Vol/gamma suppression explains non-transmission | VIOLET, HENRY, WALTER gamma, RED | Medium | **45%** | **↓15pp** | 2026-06-06 | VIX +40% to 21.51 on 6/5 NFP, SKEW 152, VVIX 102 sustained → vol DID transmit. Mechanism wounded. Gamma countdown window (SIG-26060603, 1-2mo from 5/14) now firing. |
 | **M-05** | WAL/CRE bear-medium, not sector cascade | REGINALD, RED, BROCK | Medium | **65%** | — | 2026-05-21 | WAL $80.15 @ [Fri 6/5 close, fetch.py WAL] holding above $78. Q2 print decides. |
-| **M-06** | Energy/stagflation pressure persists, **war path RE-ARMED** *(CONDITIONAL: re-escalation holds past 6/8)* | HEARTBEAT, HENRY, WALTER, BRENT, HAWK | Med | **60%** | **↑5pp** | 2026-06-06 | Iran SUSPENDED MOU 6/1 + Kuwait kinetic. Brent $93.09 @ [Fri 6/5 close, fetch.py BZ=F] paper-soft but physical tight. **Per Discipline F (shared-antecedent re-test): the ↑5pp upgrade rests on re-escalation holding past 6/8 Trump/Rubio response — same shared-antecedent risk that just killed SIG-01/02 in reverse. If Trump re-engages quickly, retrace upgrade.** |
+| **M-06** | Energy/stagflation pressure persists, **war path RE-ARMED** *(CONDITIONAL: re-escalation holds past 6/8)* | HEARTBEAT, HENRY, WALTER, BRENT, HAWK | Med | **60%** | — | 2026-06-07 | Iran SUSPENDED MOU 6/1 + Kuwait kinetic. Brent $93.09 @ [Fri 6/5 close, fetch.py BZ=F] paper-soft but physical tight. **NEW 6/7 — UKMTO Hormuz tanker 7-day avg 1.1/day week-ending 6/3 (-97.8% vs pre-war 49); trajectory April 3.9 → May 2.8 → 6/3 1.1 = blockade enforcement *tightening through May* despite Trump rhetoric** [SIG-W-20260606-004, UKMTO primary, conf 0.90]. Quantitative anchor replaces prior handwave "low volumes." Evidence-grade upgrade; Conf% held at 60% pending 6/8 Trump/Rubio durability gate (Discipline F). |
 | **M-07** | Bull-counter tape cluster | WALTER, BOND, VIOLET, RED, HEARTBEAT | High | **60%** | **↓10pp** | 2026-06-06 | Vol-crushed leg broke (VIX +40%). Other legs intact: HY 274 flat, KRE +0.27% on SPX −2.64% day, WAL above $78. Cluster wounded not dead. |
 
 ---
@@ -160,6 +160,8 @@ Full rubrics + standing-discipline additions + anti-anchoring rules: **`recon/20
 | 2026-06-17 | June FOMC (outside VIX9D window) | UPCOMING | Fed paralysis / cut path | M-01, M-03 |
 | 2026-Q2 rolling | Bank/BDC earnings prints | ROLLING | M-02, M-05 release mechanism | M-02, M-05 |
 | ~2026-06-14 to 07-14 | Gamma countdown clock (SIG-26060603, 1-2mo from 5/14) | **WINDOW OPEN 6/14 — 6/5 NFP shock may be leading edge** | M-04 mechanical-calm flip | M-04 already ↓15pp; further wear-through monitors |
+| ~2026-06-12 / 07-11 | USDA WASDE June/July prints | UPCOMING | El-Niño-impact officialization — fertilizer + crop transmission | Forward-CPI rail (SIG-26060603 follow-on, multi-quarter); see SIGNALS S-26060701 |
+| Q4 2026 (Oct-Nov) | ECMWF NINO3.4 forecast peak ~+3°C / +3.3°C upper tail | FORWARD | Super-El-Niño peak window; 2026/27 crop year impact | Multi-quarter forward-CPI watch; not in 2-6wk probability split |
 
 **Live-event override applies:** any tier-1 row firing → mandatory pass within 24h.
 
@@ -176,6 +178,8 @@ Full rubrics + standing-discipline additions + anti-anchoring rules: **`recon/20
 | **Closing catalysts** | 6/8 Trump/Rubio Iran response (SIG-02 durability) → 6/9-11 nominal auctions (M-03) → 6/12 May CPI (inside VIX9D window per VIOLET — vol-fade gate) → 6/14 gamma countdown opens → 6/17 FOMC. Density unmatched since 4/30 cluster. |
 
 **Edge question (refined):** **Did 6/5 mark the start of the vol-side release, or is it a single-print event-shock that fades through 6/12 CPI?** Working hypothesis: the 6/5 NFP vol-spike was the gamma-countdown leading edge (SIG-26060603 window opens 6/14) — single-print skepticism still applies, but the SKEW 152 / VVIX 102 *sustained* picture is harder to fade than a 1-day VIX pop. Per Discipline E: don't bank the vol break as confirmed until 6/12 CPI digestion + 6/14+ window confirms.
+
+**Forward-rail addendum (6/7 boot-integration of WALTER 6/6 PM dispatches):** El-Niño + fertilizer convergence (SIG-W-20260606-003, CORRECTED-FRAMING conf 0.60) re-arms the inflation-pass-through conditional that E-phase verdict marked TOO EARLY — but on a *multi-quarter* horizon (Oct-Nov 2026 ENSO peak, 2026/27 crop year). NOT a 2-6wk probability-split mover. **Discipline F:** El-Niño + Hormuz-fertilizer share Iran-blockade root (Qatar urea / Iran ammonia shutdown) — treat as 1 root with 2 transmission paths, not 2 independent forward-CPI signals. **Discipline C:** P(food CPI hot 2026/27) = P(ECMWF peak holds) × P(fertilizer-cost transmits to producer) × P(USDA WASDE June/July officializes) — three sequential conditional links, none yet fired. Forward watch logged in SIGNALS S-26060701.
 
 ---
 
