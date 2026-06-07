@@ -384,6 +384,88 @@ Open with Will at next-session start:
 
 ---
 
+## Current Session — 2026-06-07 PM (Sun-evening week-prep refresh for Mon 6/8 open)
+
+**Run type:** Will-directed Sun-evening CC-Prome session. "Get all our ducks in a row for market open this week." ~10 turns, no agent spawns, file-based work only.
+
+### What landed
+
+- **Boot:** standard sequence. Git clean at `936514c0` (origin/master) — only dirty items are 2 SAM workbook files (untouched, his domain). Three unprocessed PROME-routed signals identified: BOND 6/5 (long-end relaxed), CARL 6/6 (separate-clones readiness), HENRY 6/6 (auto-memory collision proposal).
+- **Scope-check with Will** via AskUserQuestion → picked refresh + week-card + signal-ingestion (skipped position rail audit).
+- **Live dashboard pull:** yfinance install + retry; anchored at Sun ~17:30 ET. Key delta: **VIX 15.40→21.51** on Fri NFP shock.
+- **3 signals ingested into `PROME/ACTIVE_DECISIONS.md`:** TLT Sep-add gate narrowed per BOND (CPI hot *or* refunding tail, not CPI alone); new separate-clones row with M3 slate (SAM/HENRY/REGINALD/OZK/CARL).
+- **NEW: `PROME/action-cards/WEEK_2026-06-08.md`** — single-source week card. Catalyst slate 6/8-6/12, decision implications per rail, near-horizon (BOJ/FOMC/6-18 cluster), owner read order.
+- **HEARTBEAT refreshed:** regime delta integrated (VIX yellow now; HY OAS sole "refuses" signal); thresholds table refreshed; week-card pointer added.
+- **SCRATCH/TODAY/STATUS/FLEET_SCAN** all refreshed Jun 4 → Jun 7 PM with live dashboard + Fri NFP + Sat session integration.
+- **Closeout** (this entry + memory daily log).
+
+### Files edited (within autonomous scope)
+
+| File | Action |
+|---|---|
+| `HEARTBEAT.md` | Refreshed Jun 7 PM (PROME-owned) |
+| `PROME/ACTIVE_DECISIONS.md` | Surgical: header + TLT row narrowed per BOND + new separate-clones M3 row |
+| `PROME/SCRATCH.md` | Full rewrite per ephemeral cadence |
+| `PROME/TODAY.md` | Full rewrite for Mon 6/8 framing |
+| `PROME/STATUS.md` | Full rewrite — 3 signals ingested + boot-surface trust + agent state + work queue |
+| `PROME/FLEET_SCAN.md` | Full rewrite — bounded Sun-evening week-prep scan |
+| `PROME/action-cards/WEEK_2026-06-08.md` | NEW — single-source week card |
+| `PROME/CLAUDE_CODE_HANDOFF.md` | This entry appended |
+| `memory/2026-06-07.md` | NEW (daily session log) |
+
+### Files NOT touched (other agents' scope)
+
+- `AGENTS/SAM/workbook/FXY_OPTIONS.tsv` + `USDJPY.tsv` (SAM's dirty workbook; not mine)
+
+### Decisions Will made this session
+
+- AskUserQuestion: 3-of-4 scope picks (refresh + week-card + ingestion; skipped position rail audit) ✅
+- Closeout standard ✅
+
+### Decisions needed from Will (forward-looking)
+
+- **Commit + push approval** — 7 PROME-scope files staged for closeout.
+- **Wed 6/10 CPI prep:** Tue PM, surface TLT Sep-add Will-decision packet *only* if conditions look likely to fire. Note BOND-narrowed gate (CPI hot *or* refunding tail, not CPI alone).
+- **Pre-Wed 1pm:** BOND matrix v2 spawn for 10Y auction.
+- **Fri 6/12:** VIOLET 4/15 60d window close — adjudication.
+- **Live carries unchanged:** TLT Jun $85P (Will-handled), SAM Sep $60C (not warranted per v1.5), FXY $58C, TLT $88P May 15, VIOLET 4/15, APD tag, position reconciliation.
+
+### Risks / Blockers
+
+- **None blocking** closeout.
+- **Soft:** VIX 21.51 is a meaningful regime delta; if Mon-open it holds, the "tape refuses cascade" frame degrades to "HY OAS is the binary line." If it fades back to <18, the divergence frame reasserts. Mon AM read is decisive.
+- **Soft:** Iran anchor (WALTER) still Jun 2; next boundary 6/9. Re-check if Iran tape becomes decision-relevant.
+- **Soft:** Separate-clones decision is post-Jun-16 — don't pre-stage during heavy catalyst week.
+
+### v_next design inputs returned this session
+
+1. **Single-source week card as boot-anchor.** First instance of pre-week catalyst card (`WEEK_2026-06-08.md`). If this works through Friday, codify as recurring Sun-evening artifact.
+2. **Regime-delta surfacing as first synthesis output.** Pulled live dashboard *before* refreshing surfaces; VIX 15.40→21.51 became the headline framing of the entire refresh pass. Pattern: dashboard pull first, then surface refresh, not the reverse.
+3. **3-signal triage compressed into single ACTIVE_DECISIONS surgical edit + week card.** No need for 3 separate processing passes when signals converge on existing rails.
+
+### Next Suggested Work
+
+Open with Will at next-session start (Mon 6/8 AM):
+- **Open with `PROME/action-cards/WEEK_2026-06-08.md`** — single-source week card.
+- **Mon-open dashboard pull** — read whether Fri VIX-shock holds or fades; HY OAS line read.
+- If conditions look likely to fire by Tue PM: TLT Sep-add packet scaffold.
+- Pre-Wed 1pm: BOND matrix v2 spawn.
+
+### Rules I Held To
+
+- No commits outside `PROME/` and PROME-owned `HEARTBEAT.md`.
+- No `git add -A` or `git add .`. Closeout commit will use explicit pathspec staging.
+- No edits to other agents' files. SAM workbook dirty throughout; untouched.
+- No persistent-agent spawns. No teams-mode. No trades. No external messages.
+- Read-before-edit honored.
+- Behavior-language in state files; hashes as audit anchors only.
+- Sequenced multi-file updates (signals → week card → HEARTBEAT → SCRATCH → TODAY → STATUS → FLEET_SCAN → closeout).
+- Show-diff-then-approve will be honored on commit.
+- AskUserQuestion used once for scope-decisions, not for confirmation of decided plans.
+- Surfaced VIX regime delta proactively rather than burying it in surfaces.
+
+---
+
 ## Current Session — 2026-05-26 evening → 5/27 (v0.2 approval landing + Wed 5/27 pre-cabling)
 
 **Run type:** Will-directed re-engage after the 5/26 PM closeout. ~40 turns across the evening; 3 separate commits pushed (`dce20394`, `eee1fd76`, `9677b944`); session straddled midnight into 5/27. Closeout this entry.
