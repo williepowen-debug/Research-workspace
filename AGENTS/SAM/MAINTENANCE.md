@@ -8,6 +8,35 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
+## 2026-06-07 (PM) — NEXUS_BRIEF pilot live at canonical path + R3 schema amendments + fleet template draft
+
+**Trigger:** NEXUS post-E (E-phase shipped Sat 6/6 PM); SAM proposal/2026-06-06_nexus_brief_schema.md was waiting on ratification. Will signaled rollout for fleet; NEXUS reviewed and proposed 6 amendments + 1 scope clarification. Will accepted all amendments, rejected the SENDING-table drop-rule (kept single-table-per-Will convention), and tasked SAM with drafting both the canonical SAM brief and a fleet template.
+
+**Amendments applied (NEXUS R3):**
+1. `Recent thesis pivot:` required single line (named what + why) — captures the leading-edge-of-convergence signal NEXUS wanted at boot.
+2. `Cross-agent tensions known to me:` required (was optional) — "None active this cycle" forced bullet prevents silent decay of the asymmetric-info channel.
+3. `WATCH` renamed `FORWARD CATALYSTS`; `NEXT DECISION POINT` carved out as the agent-actioned subset that triggers a brief refresh — disambiguates monitoring-list from action-trigger.
+4. Status emoji semantics locked to CLAUDE.md key (🟢 none / 🟡 monitoring / 🟠 elevated / 🔴 active/critical) — fleet-wide comparability.
+5. Conviction decomposition made optional per agent (direction/timing/level where domain has clean math; single-letter conviction otherwise) — avoids fake decomposition for HAWK/BROCK-style domains.
+6. Scope clarified: Tier-1 agents only (CARL, REGINALD, OZK, SAM, RED, BROCK, LIQUID, HENRY, HAWK, BRENT, VIOLET, WALTER + NEXUS itself). Tier-2 spawn-as-needed agents skip the brief; NEXUS reads their STATUS directly when active.
+7. Single SENDING table (per Will, against NEXUS's drop-row suggestion) — refresh discipline at session closeout per SPAWN PROTOCOL; agent owns the freshness.
+
+**Files touched:**
+- `AGENTS/SAM/NEXUS_BRIEF.md` — pilot brief promoted to canonical schema path; 75 lines; Type B convergence candidate flagged (catalyst-path decoupling — Jun 5 USDJPY 160 via USD-side NFP rather than MOU/oil path).
+- `AGENTS/SAM/proposals/2026-06-07_nexus_brief_template.md` — fleet template draft with inline rubric comments; pending promotion to `AGENTS/NEXUS/templates/NEXUS_BRIEF_TEMPLATE.md` (SAM doesn't write outside its dir).
+- `AGENTS/SAM/proposals/2026-06-06_nexus_brief_schema.md` — schema spec unchanged this pass; long-term home should move to NEXUS-owned dir once Will/NEXUS coordinate.
+
+**Boot-impact:**
+- **Pending CLAUDE.md SPAWN PROTOCOL amendment** — brief write-back step needs to be added to closeout (likely as step 13a between docket/THESIS updates and MEMORY). Deferred this session; Will to authorize before SAM CLAUDE.md edit. Until then, brief refresh is manual / per-session-judgment.
+- No other SAM boot doc changes.
+
+**Calibration / process lessons (transferable, candidates for auto-memory):**
+- **PROME-pair → NEXUS-ratify → Will-arbitrate is a healthy schema-iteration org template.** Two PROME review rounds caught the Type A/Type B distinction (the load-bearing reframe); NEXUS-as-consumer added 6 implementation-level amendments PROME couldn't generate without the consumption perspective; Will resolved the one substantive disagreement (drop-rule) decisively. Each tier added value the others couldn't.
+- **"Reference, don't restate" is the anti-drift rule that lets distributed docs scale.** Brief format mandates anchor-references to PREDICTIONS.tsv preamble + red/ + THESIS for failure patterns / counter-frames / structural pillars rather than restating content. Restated content silently forks from canonical; references keep single-source-of-truth intact.
+- **Single SENDING table without drop-rule is a discipline bet, not a structural fix.** NEXUS's drop-row concern was real (stale archive within 4-6 sessions). Will's call (single table + closeout discipline) puts the freshness load on the agent. If SAM brief shows stale SENDING rows over the next 3-4 sessions, the drop-rule pushback comes back — instrument informally.
+
+---
+
 ## 2026-06-02 (AM) — KOYOMI spec amended: BASELINE AUDIT (step 2a) + CALIBRATION decline-memory
 
 **Trigger:** Run-4 surfaced ~months-old structural exclusion in CATALYSTS.tsv — prior runs had cherry-picked super-long JGB auctions (30Y/20Y/40Y) and silently dropped 2Y/5Y belly/front. Gap only caught because Will + SAM directed KOYOMI to *investigate* the Jun 2 10Y miss vs just backfill it. Root cause: spec's add-upcoming rubric biased toward extending-from-precedent rather than re-baselining-against-source.
