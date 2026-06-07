@@ -17,7 +17,10 @@
 
 ## Active
 
-*(Empty as of 2026-06-06 PM E-phase close — queue clean. New signals will be logged here as `inbox/` populates or `AGENTS/SIGNALS.md` updates.)*
+| ID | Logged | Source | Signal | Status |
+|---|---|---|---|---|
+| **S-26060701** | 2026-06-07 | WALTER SIG-W-20260606-003 (El-Niño + fertilizer, CORRECTED-FRAMING conf 0.60) + SIG-W-20260606-004 (UKMTO Hormuz 1.1/day) | **Forward-CPI rail re-arming.** ECMWF NINO3.4 peak ~+3°C Oct-Nov 2026 (faster strengthening than 1997-98 / 2015-16) + fertilizer +30-80% YTD (urea $850/t 4yr high) + Hormuz blockade tightening through May (1.1/day -97.8% pre-war). Hormuz-fertilizer is **Phase-2 oil-thesis SECOND-ORDER** (same channel, not independent). Multi-quarter lag → 2026/27 crop year transmission. | **Watch — not 2-6wk matrix-mover.** Resolves to STATUS only if (a) USDA WASDE June/July officializes El-Niño-crop impact OR (b) headline goods CPI shows fertilizer pass-through. Next evidence gates: USDA WASDE June print, Q3 forward-CPI components, ECMWF mid-2026 plume updates. |
+| **S-26060702** | 2026-06-07 | WALTER SIG-W-20260606-001 (WGC CB gold Apr +17t, China 18 consec months) + SIG-W-20260606-002 (FT/Kobeissi UST $8.3T <1yr privately-held, foreign-CB share declining) | **Foreign-CB UST/gold composition shift — substrate, not catalyst.** Both signals share foreign-CB composition-shift antecedent (Discipline F: 1 root, 2 transmission paths). Pairs with existing C-34 (Gulf surplus recycling collapse) substrate + M-03 (duration channel). WALTER's own framing: "recirculation flag" / "signal_role:cluster_mediating not threshold-cross." | **Watch — substrate reinforcement, not new convergence.** Resolves to STATUS only if M-03 fires on auction tail (6/9-11) AND foreign-CB withdrawal is named driver. Otherwise stays substrate. |
 
 ---
 
