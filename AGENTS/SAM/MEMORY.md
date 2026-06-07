@@ -27,7 +27,28 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (Thu Jun 4 close → Sat Jun 6 AM)
+### CHANGES SINCE LAST SESSION (Sat Jun 6 close → Sun Jun 7 PM)
+
+- **Weekend lull** — markets closed; no live tape moves. Sun PM boot.py spot reads roughly equal to Fri close (USDJPY 160.17, Brent $93.09, cross-pairs marginally bigger yen-strength on rolling reads).
+- **NEXUS E-phase shipped Sat 6/6 PM** — energy "deflation un-traps Fed" hypothesis CLOSED at step 1 (Iran SUSPENDED MOU 6/1, kinetic re-armed); C-19 Stagflation Trap INTACT; probability split 30/30/40. NEXUS was waiting on E-phase to ratify the NEXUS_BRIEF schema — now ready.
+
+### LAST SESSION (Sun Jun 7 PM — NEXUS_BRIEF rollout + Monday prep)
+
+Multi-track session — NEXUS_BRIEF schema ratification → SAM pilot brief at canonical path → fleet template → STATUS Monday prep.
+
+- **NEXUS R3 ratification of NEXUS_BRIEF schema:** NEXUS proposed 6 amendments + 1 scope clarification + 1 SENDING-table drop-rule. Will accepted the 6 amendments + scope clarification; rejected the drop-rule (kept single-table-per-Will). Amendments: (1) Recent thesis pivot required; (2) Cross-agent tensions required; (3) WATCH→FORWARD CATALYSTS rename + NEXT DECISION carve-out; (4) emoji semantics locked to CLAUDE.md key; (5) conviction decomposition optional per agent; (6) Tier-1 agents only.
+- **SAM NEXUS_BRIEF pilot drafted → redlined → finalized at canonical path:** `AGENTS/SAM/NEXUS_BRIEF.md` (75 lines). 5 redline fixes applied: status banner trimmed to ≤120 char cap; As-Of tagged with STATUS-data freshness; Recent thesis pivot compressed; NEXUS SENDING row moved to CALIBRATION as Type B convergence-candidate flag; HAWK WAITING FOR row self-contained. Type B candidate I'm flagging: catalyst-path decoupling (Jun 5 USDJPY 160 via USD-side NFP rather than MOU/oil path SAM-23 assumes).
+- **Fleet template drafted:** `AGENTS/SAM/proposals/2026-06-07_nexus_brief_template.md` — skeleton + inline rubric comments, R3 amendments baked in. Pending promotion by Will/NEXUS to `AGENTS/NEXUS/templates/NEXUS_BRIEF_TEMPLATE.md` (SAM doesn't commit outside its dir).
+- **MAINTENANCE.md entry logged** — structural docs change documented with calibration lessons (PROME-pair → NEXUS-ratify → Will-arbitrate is healthy iteration org template; "reference don't restate" is the anti-drift rule that lets distributed docs scale; single-SENDING-table + closeout-discipline is a discipline bet not a structural fix — instrument informally).
+- **SAM-21 Jun-9 trigger spec freshness update** — STATUS § BOJ ASSESSMENT bumped from "status Jun 4 / 3 sequential reads" to "status Sun Jun 7 / 4 sequential Polymarket ≥90% reads, NFP-locks-Fed stress-tested, CFTC build #5 confirms"; explicit "Default Tue Jun 9 action: trigger fires +5pp" line added so Tue boot executes mechanically without reconstruction.
+- **Position unchanged.** No marks moved this session. No new analytical work (SAM-21 still 70%, SAM-23 still 72%).
+- **Commits:** `b88198c2` (NEXUS_BRIEF pilot + template + boot.py workbook refresh) — pushed clean, train pulled BRENT's 6/07 PM-2 along with it.
+
+### ARCHIVED LAST-SESSION (Sat Jun 6 — Fri cut-short cleanup)
+
+For reference (will prune next session):
+
+### CHANGES SINCE PRIOR SESSION (Thu Jun 4 close → Sat Jun 6 AM)
 
 - **🔴 Fri Jun 5 NFP +172K vs 85K cons** (BLS). 4.3% U/E steady; AHE +3.4% YoY. Hot — Fed-cut bets crushed. DXY +0.66% to 100.07; 2Y closed 4.17% (highest since Feb 2025); 10Y 4.55%.
 - **🔴 USDJPY tagged 160.20 intraday Fri** — first sustained MOF #3 hard-trigger print this cycle. Driver = USD-side NFP, NOT yen-side flow.
@@ -51,7 +72,19 @@ Sequential mechanical pass to finish Fri Jun 5's cut-short session.
 
 **Carry-forward items with deadlines:**
 
-1. **🔴🔴 SAM-21 Jun-9 mechanical re-check.** Currently 70% / market ~85-95%. Pre-registered trigger: *if Polymarket ≥90% on Jun 9 re-check AND no Takaichi/cabinet pushback → mechanical +5pp to 75%*. Polymarket leg ≥90% across 4 sequential reads (Tue 87.6 → Wed 94.8 → Thu 96.9 → Fri 96.3); Takaichi-pushback leg affirmatively CLOSED Jun 3 + intact through Fri NFP-locks-Fed event. Both conditions overdetermined; **Jun 9 fires +5pp absent regression.**
+1. **🔴🔴 SAM-21 Jun-9 mechanical re-check — DEFAULT FIRES.** Pre-registered trigger: Polymarket ≥90% + no Takaichi pushback → +5pp to 75%. Both conditions overdetermined; STATUS § BOJ ASSESSMENT pre-positioned with explicit default-fire instruction. Tue boot executes mechanically absent regression. **What would change the hold:** Takaichi cabinet pushback materializing, Polymarket regression below 90% across 3 sequential reads, OR JGB long-end disorderly move re-opening fiscal-dominance via mechanics.
+
+1b. **🟡 Japan Q1 GDP revised — tonight ~7:50 PM ET Sun (8:50 AM JST Mon).** Downward revision softens BOJ hawkish case; upward firms it. Unlikely to cross SAM-21 regression threshold on its own (Mon boot will integrate cleanly).
+
+1c. **🆕 NEXUS_BRIEF rollout — Will-action items:**
+   - Promote template from `AGENTS/SAM/proposals/2026-06-07_nexus_brief_template.md` → `AGENTS/NEXUS/templates/NEXUS_BRIEF_TEMPLATE.md`.
+   - Possibly relocate schema spec from `AGENTS/SAM/proposals/2026-06-06_nexus_brief_schema.md` → `AGENTS/NEXUS/` (long-term home for NEXUS-owned interface).
+   - Spawn other Tier-1 agents (CARL, REGINALD, OZK, RED, BROCK, LIQUID, HENRY, HAWK, BRENT, VIOLET, WALTER) with rollout prompt.
+   - **SPAWN PROTOCOL closeout amendment** to add brief write-back step (per-agent CLAUDE.md). For SAM: likely step 13a between docket updates and MEMORY. Awaiting Will sign-off before SAM CLAUDE.md edit.
+
+1d. **🆕 Auto-memory promotion candidate added this session:** `finding_schema_iteration_three_tier_pattern` — PROME-pair → NEXUS-ratify → Will-arbitrate as healthy fleet-schema iteration template; each tier added value the others couldn't (rationale logged in MAINTENANCE.md Jun 7 entry).
+
+**Carried forward from prior session:**
 
 2. **🔴 OS.1 fiscal-dominance close — DUE BEFORE JUN 9.** Evidence in (largely-falsified-for-binary per Jun-4 news-sweep); CHANGELOG documents closure; MEMORY captures the 3-question resolution. **Pending:** decide if a tighter THESIS-side "short note" is wanted vs current CHANGELOG-only documentation. Carried forward from Jun 4.
 
