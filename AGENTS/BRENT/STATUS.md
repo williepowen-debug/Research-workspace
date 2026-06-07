@@ -207,7 +207,7 @@ Brent $94.66 is closer to the suspended-MOU lower bound than the kinetic-tail up
 | **Daily** | Trump/Rubio MOU rhetoric (tape-only); kinetic escalation watch; Iran walkback signal | 🔴 |
 | **Wed Jun 10** | **EIA WPSR (week Jun 5)** — SPR ~350M floor-touch (DIRECTIONAL throttle vs drain-through); first clean post-MD demand read (BRT-08/09) | 🔴 |
 | **~Jun 10** | SPR ~350M operational floor (modeled) | 🔴 |
-| **Thu Jun 11** | **EIA STEO June** — first post-suspension edition; Q2 peak revision watch | 🔴 |
+| **Tue Jun 9** | **EIA STEO June** — first post-suspension edition; Q2 peak revision watch *(corrected from Jun 11 per FASTOW Run 1 audit against eia.gov/outlooks/steo/)* | 🔴 |
 | **Fri Jun 12** | **CFTC COT (Jun 2 week)** — first post-suspension; Trigger #3 re-fire test | 🟠 |
 | **Fri Jun 12** | Baker Hughes (BRT-26 vs 457; 431 last) | 🟠 |
 | **Sun Jun 15** | **BRT-27 walkback deadline** | 🟠 |
