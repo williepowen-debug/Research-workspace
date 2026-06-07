@@ -15,6 +15,7 @@
 - [2026-06-03] **Verify gate/catalyst dates against source — especially load-bearing ones.** Wrote "6/12 May CPI"; actual is 6/10 (BLS, and my own ECON_CALENDAR had it right). The whole duration gate keys off that date. Check BLS/source, don't trust recall.
 - [2026-06-03] **"Confirm, don't assume" on cross-agent data points.** APO<$130 — verified live ($125.44) AND verified it's a BROCK *position* trigger not a thesis soft-kill (mildly helps APO puts). The check changed the conclusion. Always pull the sibling's actual threshold semantics, not just the headline.
 - [2026-06-03] **Duration-gate discipline: don't push harder either way; wait for confirmation at better levels.** When near-term easing is real but structural thesis intact, "hold core + defer the add until the catalyst confirms" beats forcing a directional call. Will explicitly endorsed this restraint.
+- [2026-06-06] **HENRY drops VOL-BROADCAST responsibility → VIOLET owns it.** VIX/vol stays a load-bearing HENRY *input* (cascade, 0DTE/GEX, soft-kill arm/de-arm) — keep using it — but HENRY does NOT alert the network on vol-regime events. VIX>30→ALL row removed from CLAUDE.md, reassigned to VIOLET. HENRY retains gamma/0DTE/put-wall broadcast. Saved auto-mem `[[feedback_henry_vol_broadcast_to_violet]]`.
 
 ## Findings
 
@@ -24,6 +25,8 @@
 - [2026-06-03] **Split-axis decomposition when a "uniform" divergence meets contradicting new data.** 5/21 thesis was "tape calm / substance uniformly hot." By 6/3 substance split: cyclical (rates/energy/index credit) eased while structural (CCC tail + PC/BDC prints) held. Don't force the old binary — decompose by axis, name which axis each datum belongs to, and identify the resolving catalyst (here 6/10 CPI). Honest downgrade beats defending the framework.
 - [2026-06-03] **Sibling-STATUS staleness cascade — check the sibling's Last-Updated before citing.** Multiple agents frozen at 5/21 (HENRY + BROCK) while tape moved. BROCK's "APO entrenched >$130" was a 5/21 snapshot; live APO $125.44. When pulling cross-agent data, read the sibling's timestamp and flag stale reads rather than propagating them as current. (Per saved memory: verify-state-before-propagating.)
 - [2026-06-03] **Energy-driven yield easing ≠ Fed-pivot yield easing.** 10Y eased (−17bps vs 5/21 / −20bps from 5/19 peak) on Brent −$9-to-$15 (Hormuz unwind) disinflation relief, not "Fed about to cut." *(Quote deltas with their reference window — peak-referenced overstates the move-since-baseline; per Feedback above.)* Sticky core (PCE 3.2%, PPI 6.0%) unmoved. Decompose WHAT drove a rate move before reading it as thesis-relevant — the move can be real and directionally adverse to the position while leaving the structural thesis intact.
+- [2026-06-06] **Good-news-is-bad-news: KRE direction is the rate-vs-credit discriminator.** Hot May NFP (+172K, ≈2× beat) → SPX −2.64% / VIX +40% (good news bad news, Fed-can't-cut). But KRE/WAL/APO **ROSE** — higher-for-longer = NIM tailwind. So it was a *rate-repricing* selloff, NOT a credit cascade (a credit cascade gaps KRE DOWN). When risk-off hits, check KRE direction first: up = rate/duration story (margin trade), down = credit story. Confirms H4 — equity can't confirm a trap-snap until credit moves; needed Mon FRED (no Fri print).
+- [2026-06-06] **Two-machine concurrency: local `git status` is BLIND to the other machine's uncommitted work.** Two computers now run agents against one origin. My filesystem can't see the desktop's working tree — only pushed commits. So "check local status before pull" is necessary-but-insufficient; **origin is the only shared truth.** Git still prevents overwrite (non-ff reject → pull-rebase-retry, never force). Residual risk = same-file edits across machines. Fix = SAM's separate-clones (`AGENTS/SAM/proposals/2026-06-04_separate_clones_*`); two machines STRENGTHEN that case. Add cross-machine rule: one agent = one live clone at a time.
 
 ## References
 
@@ -38,28 +41,28 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (6/3 PM — same-day continuation)
-- Markets closed; no market/thesis change. STATUS still accurate as of 6/3 14:00 (split-axis, hinges 6/10 CPI). This session was **internal house-keeping only** (Will redirected: no signals, no positions — "get HENRY's own house in order, match SAM/BRENT structure").
-
-### LAST SESSION (2026-06-03 Wed ~22:00 ET → 6/4 — HENRY self-modernization, Will-directed)
-- **Wrote `MODERNIZATION_PLAN.md`** — 3-phase plan to match SAM/BRENT tree: Phase A stale-refresh / Phase B thesis-layer **full-mirror** (THESIS+CHANGELOG+TIMELINE+PREDICTIONS_ARCHIVE — Will's locked choice) / Phase C docket+MAINTENANCE+CLAUDE-hardening. Diagnosis: live layer fresh, workbook frozen ~4/17; thesis lives inline in STATUS (1 gen behind SAM/BRENT).
-- **KB prune arc launched** — `workbook/KB_AUDIT.md` is the multi-session source of truth (verified reference map). Independently reproduced Prome's map exactly (38 load-bearing/98 leaf); **corrected to 39 — added ML-HEN-032 (LABOR/KB-LAB-005 cross-link Prome's HENRY-only scan missed).** Ref corpus must include LABOR/KB.tsv.
-- **Executed Pass 0 / 1 / 1.5:** KB **136→108 (−28, −21%)**, all to KB_ARCHIVE.tsv (nothing deleted), zero orphaned links. P0=12 status-flagged leaf; P1=14 Jan scaffolding/wrapper/resolved-PIT (kept 17 durable substrate; 021/025 reusable bits salvaged → REFERENCE_TABLES); P1.5=067/132 re-pointed (`[ARCH]` convention) then archived.
-- **Concurrent-commit index race** hit on Pass-0 commit (SAM's parallel commit grabbed my staged files under its message, then pushed — content safe, mislabel permanent). Mitigation: atomic `&&`-chained stage-guard-commit; promoted to auto-memory `[[finding_concurrent_commit_index_race]]`.
+### CHANGES SINCE LAST SESSION (2026-06-06 Sat — Will-directed)
+- **Friday 6/5 NFP catch-up + EOD tape.** STATUS rewritten 6/3→6/5. Signal 🟡→🟠. **May NFP +172K (≈2× ~85K consensus), unemp 4.3%, Mar/Apr revised UP** → good-news-is-bad-news risk-off: SPX −2.64% / VIX +39.7% to 21.51 / VIX9D 23.92 (front-end backwardation). **HEN-28 labor-cliff RESOLVED MISS** (labor hot, not breaking). **KRE/WAL/APO ROSE** = rate-repricing selloff, NOT credit cascade. NFP re-armed cyclical axis from LABOR leg before 6/10 CPI; pulls read back toward 5/21 trap-clinch.
+- **Scope correction (Will):** HENRY drops vol-broadcast → VIOLET (CLAUDE.md + auto-mem updated). VIX = input, not HENRY signal.
+- **Git hardening:** HENRY CLAUDE.md Git section moved to pathspec interim (no `git reset HEAD`), per SAM 6/4. Two-machine concurrency understood (see Findings).
+- **Auto-mem proposal written + routed to PROME** — `proposals/2026-06-06_automem_proposal_folder.md` (per-agent proposed/ folders; fixes the memory/auto shared-index race). Outbox → PROME.
+- **✅ PUSHED via worktree-off-origin** (CARL's technique). The shared main tree couldn't push (diverged: 9 CARL + 2 HENRY local, CARL files conflict on rebase = CARL/PROME job). HENRY files are isolated → a fresh worktree off origin/master + clean fast-forward push landed the session without touching CARL's tree. **Reusable HENRY pattern when the main tree is jammed but your files are isolated.** Local main-tree `bac3f03f`/`f4df2a3f` dedupe on eventual reconciliation; `memory/auto` still owed to the sweep. Live demo + workaround for the two-machine concurrency problem.
 
 ### NEXT SESSION
-**Track A — modernization (ACTIVE workstream; see MODERNIZATION_PLAN.md + KB_AUDIT.md):**
-1. **KB prune Pass 2 (Feb, 27 rows)** → 3a/3b (Mar ~60, heaviest archive) → 4 (Apr, 13, lightest) → end-of-arc: 34→~9 **category consolidation** + **027/031 merge** + **stale-numbers refresh** on kept rows.
-2. Then **Phase A remainder** (VX dup-ID fix, FLOW refresh-split, ECON_CALENDAR), **Phase B** (thesis/ full mirror + STATUS slim + boot edit = eval re-baseline flag), **Phase C** (docket/CATALYSTS + MAINTENANCE + CLAUDE hardening + FILES rewrite incl. "88+ entries"→actual).
+**Track B — market (🔴 PRIORITY this week):**
+1. **🔴 MON 6/8 — HY/CCC FRED print = THE decision variable.** No Fri credit print. If HY gapped wider with equity → trap-snap (structural axis joins labor re-arm). If still compressed near 260 kill → equity-only positioning unwind, soft-kill alive. KRE rising Fri leans "unwind."
+2. **TLT Jun $85P (3×)** — Will to give the mark Mon; NFP triggered his "sell into first hot print" rule BUT TLT payoff weak (−0.51%; flight-to-safety capped 10Y). Lay out sell-into-vol vs hold-through-CPI.
+3. **🔴 WED 6/10 May CPI = THE GATE (HEN-32)** — core >0.3% → cyclical fully re-arms (2 legs), add TLT Sep $85P; ≤0.2% → labor/inflation diverge.
+4. **🟡 6/16-17 FOMC.** 5. **🟠 USD/JPY >160 sustained (SAM; BOJ 6/16 hike ~97%).** 6. BROCK 🔴 (6/4) HY near 260 kill.
 
-**Track B — market (STANDING; unchanged):**
-3. **🔴 6/10 May CPI = THE GATE (HEN-32)** — >0.3% core → cyclical re-arms, add TLT Sep $85P; ≤0.2% → soft-kill. 4. **🟠 6/5 NFP** (Will selling 3× Jun $85P into first hot print). 5. **🟠 USD/JPY >160 sustained.** 6. **🟡 6/16-17 FOMC.** 7. **🟢 BROCK STATUS stale (5/21)** flag.
+**Track A — modernization (BACKLOG; see MODERNIZATION_PLAN.md + KB_AUDIT.md):** KB prune Pass 2 (Feb 27 rows) → Mar/Apr → category consolidation; then Phase A (VX dup-ID fix, FLOW, ECON_CAL), Phase B (thesis/ mirror + STATUS slim), Phase C (docket/MAINTENANCE/CLAUDE/FILES). KB at 108 (was 136). Paused for market work.
 
 ### GAPS — PERSISTENT
-- **0DTE SPX share + GEX regime** STILL PENDING (5+ sessions). Manual estimate acceptable.
-- **VX.tsv duplicate ID collision** — VX-HEN-19.01-.06 used twice (Beige Book block + oil-shock block). = modernization Phase A2 (renumber oil-shock block → 21.xx); NOT done yet.
-- **Stale 4/17 VIOLET outbox file** undelivered — messaging-overhaul will sweep.
+- **0DTE SPX share + GEX regime** STILL PENDING (6+ sessions). Manual estimate acceptable.
+- **VX.tsv duplicate ID collision** — VX-HEN-19.01-.06 used twice. = modernization Phase A2; NOT done.
+- **VIOLET domain stale to 6/1** — M1:M2 post-NFP + 20d-SKEW regime read await her next boot (can't compute w/o her tooling + 6/2-6/5 gap days).
 
 ### INFRASTRUCTURE NOTES
-- 6/3: KB prune arc conventions — `KB_AUDIT.md` as multi-session source-of-truth; `[ARCH]` re-point tag for archived load-bearing IDs referenced by live VX/FLOW; reference corpus = KB+VX+FLOW+PRED+**LABOR/KB**. SAM precedent (167→122) is the template.
-- 6/3: FRED citation convention + staleness-as-boot-hazard pilot (#1 date-stamp state-claims + #2 STANDING-vs-STATE triggers) live in STATUS. #3 trigger-drift script skipped per Will; fleet rollout → PROME.
+- 6/6: **Auto-mem symlink CONFIRMED WORKING** — `~/.claude/.../memory` → symlink → repo `memory/auto/` (git-tracked, 91 files). My memory writes land there + git sees them. **memory/auto is OUTSIDE AGENTS/HENRY/ — don't commit it yourself; leave for the sweep** ("capture from laptop" pattern). The shared `MEMORY.md` index is the collision point (proposal addresses it).
+- 6/6: **Pathspec commits now (no `git reset HEAD`)** — shared `.git/index` makes reset a global clobber. Modified: `git commit <path>`; new: `git add <files> && git commit <same files>`. Full fix = separate-clones (post-Jun-16, PROME-owned).
+- 6/3: KB_AUDIT.md = multi-session source-of-truth; `[ARCH]` re-point tag; ref corpus = KB+VX+FLOW+PRED+LABOR/KB. FRED convention + staleness-pilot live in STATUS.
