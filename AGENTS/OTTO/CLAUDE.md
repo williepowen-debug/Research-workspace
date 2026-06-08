@@ -1,6 +1,6 @@
 # OTTO — Agent Instructions
 
-**Version:** 2.4 | **Updated:** 2026-06-08
+**Version:** 2.5 | **Updated:** 2026-06-08
 
 ---
 
@@ -134,9 +134,9 @@ predictions (boot 4 → close 4), MEMORY (boot 3 → close 5), LAST_COMPLETION (
 git (boot 0 → close 8). Catalysts are swept (close 3) BEFORE predictions are resolved (close 4)
 because catalyst outcomes feed prediction resolution — e.g. the First Brands hearing outcome
 resolves OTTO-32. Do not re-order to match the boot numbering; the cross is deliberate. The
-CHANGELOG (1a), ML-log (2), WALTER routing (7), and NEXUS_BRIEF (7a) are write-only outputs with
-no boot read (CHANGELOG is reference-only when reconstructing a view's evolution; NEXUS_BRIEF is
-read by NEXUS, not OTTO).
+CHANGELOG (1a), MAINTENANCE (1b), ML-log (2), WALTER routing (7), and NEXUS_BRIEF (7a) are
+write-only outputs with no boot read (CHANGELOG/MAINTENANCE are reference-only — consulted when
+reconstructing how a view, or the architecture, evolved; NEXUS_BRIEF is read by NEXUS, not OTTO).
 
 1. **Update `STATUS.md`** *(mirror of boot 1)* — signal dashboard, status changes, watchlist,
    and any thesis-level movement (STATUS owns the thesis block until Phase 3). Keep the
@@ -149,7 +149,13 @@ read by NEXUS, not OTTO).
    shift, mechanism reframe, case-status escalation, notable prediction-confidence move,
    new transmission row), add a dated **Was → Is + Trigger + Touches** entry. This is the
    trajectory record STATUS-pruning destroys. Routine dashboard refreshes do NOT belong
-   here — analytical changes only. Skip if nothing thesis-level moved.
+   here — **analytical** changes only. Skip if nothing thesis-level moved.
+1b. **Log structural changes to `MAINTENANCE.md`** — if this session changed OTTO's
+   **infrastructure** (docs/folders/scripts created or restructured, SPAWN/closeout protocol
+   edits, version bump, a new doc adopted), add a dated entry: **Trigger / What changed /
+   Files touched / Boot-impact / Lessons**. This is the "why is OTTO organized this way?"
+   record. Structural ≠ analytical (→ 1a CHANGELOG). Skip if no structural change — most
+   domain sessions skip both 1a and 1b.
 2. **Log to `workbook/ML.tsv`** — significant observations (date, vector, observation).
 3. **Sweep past-due catalysts** *(mirror of boot 5)* — for each dated event the boot flagged
    passed-but-unswept, update `docket/CATALYSTS.tsv` (source of truth) **and** the CRITICAL
@@ -245,7 +251,8 @@ else references it. *(Finalized via the Phase-3b cross-doc audit, 2026-06-02. Ro
 | Doc | Owns | Does NOT contain |
 |-----|------|------------------|
 | `STATUS.md` | Live signal dashboard, all current metrics, case statuses, live thesis state, CRITICAL TIMELINE, active vectors, lender watchlist. **Cap ~250 lines — archive dated check-in blocks to `workbook/STATUS_archive_YYYYMMDD.md`** | Cross-session learnings; raw research; the prediction ledger; thesis-pivot history (→ CHANGELOG) |
-| `CHANGELOG.md` | Thesis/POV-pivot audit trail — dated Was→Is + Trigger + Touches for every material view change. The trajectory record STATUS-pruning destroys | Routine dashboard refreshes (→ STATUS); structural doc changes; live state |
+| `CHANGELOG.md` | Thesis/POV-pivot audit trail (**analytical**) — dated Was→Is + Trigger + Touches for every material view change. The trajectory record STATUS-pruning destroys | Routine dashboard refreshes (→ STATUS); structural changes (→ MAINTENANCE); live state |
+| `MAINTENANCE.md` | **Structural** change-log — docs/folders/scripts/protocol changes (Trigger/What/Files/Boot-impact/Lessons). "Why is OTTO organized this way?" | Analytical/thesis changes (→ CHANGELOG); forward to-do (→ STALE_PUNCHLIST); live state |
 | `NEXUS_BRIEF.md` | Cross-agent synthesis brief (locked schema; OTTO=Tier-2 opt-in). VIEW/CALIBRATION/CROSS-DOMAIN/NEXT-DECISION/FORWARD-CATALYSTS. Refreshed every closeout (step 7a) | Restated canonical content (references PREDICTIONS/CHANGELOG/CATALYSTS); P/L or marks |
 | `workbook/PREDICTIONS.tsv` | The falsifiable-claim ledger (9-col schema) — every OTTO-NN + status | Narrative; dashboard values |
 | `workbook/ML.tsv` | Append-only dated master-log of observations (the event record) | Forward predictions (→ PREDICTIONS); live dashboard state (→ STATUS) |
@@ -461,7 +468,8 @@ same-data-in-two-docs).
 AGENTS/OTTO/
 ├── CLAUDE.md           # This file — instructions + domain
 ├── STATUS.md           # Live dashboard — signals, watchlists, timeline (cap ~250 lines)
-├── CHANGELOG.md        # Thesis/POV-pivot audit trail (Was→Is + Trigger + Touches)
+├── CHANGELOG.md        # Thesis/POV-pivot audit trail — analytical (Was→Is + Trigger + Touches)
+├── MAINTENANCE.md      # Structural change-log — docs/scripts/protocol (why it's built this way)
 ├── NEXUS_BRIEF.md      # Cross-agent synthesis brief (Tier-2 opt-in; refreshed every closeout)
 ├── MEMORY.md           # Cross-session memory (feedback/findings/references)
 ├── LAST_COMPLETION.md  # Prior session hand-off
@@ -504,7 +512,4 @@ AGENTS/OTTO/
 
 ---
 
-*OTTO CLAUDE.md v2.4 — NEXUS_BRIEF added (Tier-2 opt-in; closeout step 7a, mandatory write-back) | 2026-06-08*
-*v2.3 — Closeout matured toward SAM/BRENT: STATUS line-cap + archive (step 1), thesis CHANGELOG (step 1a), promotion-scan w/ auto-memory + remove-local (step 5); Git section fixed to pathspec + Will-coordinated push | 2026-06-08*
-*v2.2 — Boot automation added (scripts/boot.py kit + docket/CATALYSTS.tsv); boot steps 4-5 now script-driven; Phase 4 closed | 2026-06-08*
-*v2.1 — Merged instructions + domain; boot/closeout loop hardened | 2026-06-02*
+*OTTO CLAUDE.md **v2.5** | 2026-06-08 — MAINTENANCE.md added (structural change-log; closeout step 1b). **Full version/structural history → `MAINTENANCE.md`** (v2.1→v2.5 detail lives there, not inline here).*
