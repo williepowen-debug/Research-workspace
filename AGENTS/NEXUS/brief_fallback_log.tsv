@@ -1,0 +1,9 @@
+# Fallback-rate instrumentation added 2026-06-07 via BRENT-orchestrated proxy at Will's direction; spec at AGENTS/BRENT/outbox/2026-06-07_to-NEXUS_fallback_rate_instrumentation.md — live NEXUS: review/adjust on next boot.
+# Append-only. One row per brief→STATUS fallback event per boot pass.
+# cause ∈ {stale, convergence, uncertainty, brief-gap}
+#   stale       = trigger (a): brief hash >1 commit behind STATUS HEAD (freshness, agent didn't refresh)
+#   convergence = trigger (b): drilled raw STATUS to chase a thread two+ briefs hint at (healthy synthesis)
+#   uncertainty = trigger (c): a CALIBRATION "uncertain about X" named another domain → drilled there (healthy hand-off)
+#   brief-gap   = NEW: brief was fresh AND not a (b)/(c) cross-agent chase — should have carried this and didn't (THE quality signal)
+date	agent	cause	note
+2026-06-08	EXAMPLE	brief-gap	one-line: what the brief should have carried but didn't
