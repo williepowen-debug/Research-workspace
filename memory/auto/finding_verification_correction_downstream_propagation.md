@@ -1,0 +1,34 @@
+---
+name: finding_verification_correction_downstream_propagation
+description: "After a load-bearing figure-correction commit (e.g., \"fix -70% to -40%\"), audit ALL derivative sections (header, regime block, footer, session log, downstream files) for residual references. A surface-level commit can miss 30%+ of mentions. Validated BROCK 6/8."
+metadata: 
+  node_type: memory
+  type: finding
+  originSessionId: 3faae05c-72ff-410f-8b73-7af58951de94
+---
+
+When a load-bearing figure is corrected mid-session (typo, source-tag error, arithmetic mistake), the commit applying the correction frequently misses ~30%+ of downstream references. The corrected figure lives in many places: dashboard rows, headline summary, REGIME BLOCK, narrative sections, follow-up lists, session log narrative, footer counts, outbox files. A single targeted Edit catches the most-visible spot; the rest rot until someone audits against the source-of-truth.
+
+**The discipline: after any verification-correction commit, run an explicit grep-and-audit of derivative sections before declaring the fix done.** Specifically:
+
+1. List the load-bearing figures changed in the commit
+2. For each, grep the file (and downstream files) for residual references — old number, old source tag, old framing
+3. Check derivative-of-derivative sections explicitly: SESSION LOG narrative, footer summary lines, BOTTOM LINE / take sections often carry summaries that repeat the figure
+4. If outbox signals reference the corrected figure, those are durable artifacts even if "undelivered" — audit them
+
+**Why:** The original write put the figure in many places because it was important. The correction touches the spots the author remembered; the rest stay stale. The reader downstream cites the stale spots (because they're often the headline/summary the reader sees first), not the corrected dashboard rows. The verification-correction discipline is incomplete without the propagation audit.
+
+**How to apply:**
+- After any commit message starting with "fix" / "correct" / "verify" / "retag" on a numeric or sourced figure
+- Run grep across the file + related files
+- Specifically check: header / REGIME BLOCK / footer / SESSION LOG / outbox files / cross-references in MEMORY-style indexes
+
+**Provenance — BROCK 6/8:**
+- Commit `d229b2c5` "verification fixes" corrected dashboard rows for PG -17%→range, default Reuters→Fitch, issuance -70%→-40%, arithmetic 57→59
+- But MISSED: header headline line (still said -17%), LESSONS #15 reframe (still said -70%), REGIME BLOCK item 5 (still said -70%), SESSION LOG narrative (still said 57)
+- 4 spots stale post-"fix" commit, not caught until Prome verification round flagged "before resolving predictions against STATUS, verify the corrections actually landed"
+- Required a second hygiene-pass commit (`81829e39` Phase 1B) to clean
+
+**Pattern generalizes beyond BROCK:** any agent shipping a numeric/source correction should run this audit. Cheap (1-2 grep + visual scan), prevents downstream agents/sessions citing stale-as-fresh.
+
+Related: [[LESSONS#18]] echo (stale copies drift) applied at intra-file scope rather than cross-file scope; [[finding_doc_mirror_consistency_check]] (canonical→mirror direction); [[feedback_verify_counts_before_propagating]] (cross-agent version of same discipline).
