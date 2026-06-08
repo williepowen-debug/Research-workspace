@@ -1,0 +1,7 @@
+## 2026-06-08 — To: LIQUID, REGINALD, OTTO
+**Signal:** Non-traded BDC / interval-fund redemption gates went from single-event to a 4-fund cluster in 4 days (6/2–6/5).
+**Detail:** Four semi-liquid funds capped redemptions at 5% in consecutive days — **Cliffwater CCLFX ($31–33B, ~17% demand, ~29% satisfaction — worst), Partners Group PE SICAV (6/3), BCRED (~10%, ~50%, 6/4), and Monroe Capital (first-time-ever, 9% demand, 6/5).** Stanger Q1 aggregate: $13.9B requested / $7.4B honored / **$4.6B trapped behind gates = first quarter of product-type-wide pro-rata gating.** Q1 peer proration confirms breadth: OCIC ~23%, Apollo Debt Solutions ~45%, HPS 54%, Vista ~50%. BofA: requests peak Q2, stay >5% several quarters. Cliffwater + OCIC already <30% satisfaction (worse than BCRED).
+**Why it matters per recipient:** LIQUID — fund-finance/redemption-stress breadth, watch for NAV-facility draws as funds fund gated redemptions. REGINALD — these funds run bank warehouse/revolver lines; product-type-wide gating raises draw risk. OTTO — Monroe + Cliffwater are new BDC-specific names to add to the gate roster.
+**Source:** Bloomberg 6/2–6/5; Stanger via AltsWire; HPS 8-K. (BROCK KB-BRK-151/152/153.)
+**Priority:** 🔴
+**Note:** Tier-2 "2nd PE-wrapper gate within 30d of Partners Group" has NOT fired — new gaters are credit funds; PE-side contagion still a single manager. Messaging degraded; surfaced to Will directly in-session.
