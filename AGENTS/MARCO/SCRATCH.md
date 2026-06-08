@@ -16,6 +16,14 @@
 - **A4 TX border revenue** → GROWING (El Paso Co +2%, RGV growth). **ES-04 counter-signal → DID_NOT_APPEAR.** Cross-border erosion is slow-structural (Dallas Fed swe2602), not acute cliff.
 - **Integrated everywhere:** VX (NV-01, TX-03), KB (+3 rows: WFD-NFP-01, NV-02, TX-04), EXPECTED_SIGNALS (ES-01/04/07), STATUS (header/NFP row/LAS row/composite), docket (NFP re-dated to ~Jul 2; CALENDAR re-anchored to 6/8), outbox (WC dual-mask → NEXUS+CARL).
 
+## WHAT I DID (session 12 — block 2: boot.py automation build)
+Will flagged a maturity-gap question (MARCO boot vs SAM/BRENT). Compared: MARCO has the *document* shape (thesis/docket/workbook/symmetric protocol) but lagged on automation. Three gaps found: (1) no `boot.py`, (2) no `NEXUS_BRIEF.md`, (3) no PREDICTIONS_ARCHIVE/calibration-scoreboard. Ahead on EXPECTED_SIGNALS + ROOMS. **Built the boot.py kit** (commit `e5f721ef`):
+- `scripts/catalyst_countdown.py` (docket countdown), `scripts/predictions_due.py` (free-text Timeframe parser, fails-loud — unit test caught + fixed a year-digit-as-day regex bug), `scripts/staleness.py` (STATUS/VX drift), `scripts/boot.py` (orchestrator).
+- **Design locked per Will:** adopted SAM's run-at-boot-defensively pattern (timeout + non-fatal) + **mtime cadence-skip** on the 3 domain fetchers (monthly series not re-pulled every boot) — rejected my initial read-only/`--pull` split as a deviation from the mature pattern.
+- Validated end-to-end: Jun 10 CPI flagged 2d-out, MAR-01/18/26 due Jun 30, banxico/h2a skip on cadence, live slaughter fetch through the wrap (refreshed baselines through Jun 6). Wired into CLAUDE.md boot step 3 + FILES table.
+- **⚠️ ACTION NEEDED (Will):** `openpyxl` missing from `.venv` → `h2a_pull.py` will FAIL until `.venv/bin/pip install openpyxl` (non-fatal — boot continues, shows ❌). I did NOT install it (shared-venv change).
+- **Remaining maturity gap (deferred):** `NEXUS_BRIEF.md` — MARCO is on the rollout list, not built. Separate task.
+
 ## KEY READ (session 12)
 **3 of MARCO's acute regional-consumer-stress expected-signals are NOT firing at their Q2 deadlines** — ES-01 (hospitality, World-Cup-masked), ES-04 (TX border revenue, growing), ES-07 (Vegas, −1.8%). This is NOT thesis-breaking: the two **durable** channels (ag-labor 2.2M stock shock + Canadian air/snowbird) are untouched. It confirms the v2.x **slow-structural-squeeze** reframe over the old acute-multi-front-crisis framing. Separates mechanism (intact) from threshold (not breached) — same discipline as the Canadian-headline and produce calls.
 
@@ -46,7 +54,7 @@
 Inbox empty. **Outbox: 1 written 6/8** — `2026-06-08_to-NEXUS-CARL_worldcup-dual-mask.md` (awaiting HERMES sweep). Old acute-crisis cross-agent corrections still deferred per Will.
 
 ## ⚠️ PENDING PUSH — LOCAL ONLY (standing instruction)
-**Will coordinates the GitHub push himself** (many agents concurrent). At boot the tree was clean + synced; session-12 commit(s) are LOCAL — do NOT push until Will directs. Do NOT pull/rebase while other agents have uncommitted work. (Memory: [[feedback_defer_push_coordinate]].)
+**Will coordinates the GitHub push himself** (many agents concurrent). At boot the tree was clean + synced; **session-12 commits (LOCAL, 2): `ceffbb4a` (Pull Session 1 integration) + `e5f721ef` (boot.py build)** — do NOT push until Will directs. Do NOT pull/rebase while other agents have uncommitted work. (Memory: [[feedback_defer_push_coordinate]].)
 
 ## Handoff
 Productive, well-scoped session. Will asked to get organized before pulling, so I built the A–E pull plan first, then executed the "catch-up" tranche (Pull Session 1) and integrated it cleanly. The substantive finding: the acute regional-consumer-stress layer (hospitality jobs, border revenue, Vegas) is NOT producing the expected Q2 stress signals — one masked by the World Cup, two genuinely absent — which reinforces the slow-structural-squeeze reframe without touching the durable channels. The reusable catch: the World Cup is a dual-surface mask (pax + jobs); flagged to NEXUS/CARL. Pull Session 2 is staged and waiting on Wed's CPI (the 🔴 ES-MARCO-08 produce-vs-pump fork). All files current + column-validated; outbox queued; push deferred per standing instruction.
