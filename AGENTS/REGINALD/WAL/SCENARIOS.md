@@ -37,7 +37,7 @@
 
 ### What v2.2.1 does NOT do
 
-- Does NOT reweight on cohort framing (SIG-030 5/10-NPA-improving signal AMBIGUOUS pending NCO decomposition on ZION/CFG/MTB/FITB — see THESIS COHORT CONTEXT section). If Hypothesis B (cosmetic resolution via NCO acceleration) holds, the cohort-fade-tailwind reverses partially and Bear-medium may revert toward 30%.
+- Does NOT reweight on cohort framing. **Cohort NCO decomposition RESOLVED 6/8 PM → Hypothesis A (genuine cohort improvement)** — ZION/CFG/MTB GENUINE, FITB confounded-excluded, EGBN cosmetic-outlier (see THESIS COHORT CONTEXT + `../research/COHORT_NCO_DECOMP_2026-06-08.md`). Bear-medium **stays 25, NO revert toward 30** (the revert was the Hyp B path, now closed); WAL bear narrows to idiosyncratic, "sharpen to WAL-specific" framing EARNED. Re-openable at Q2 (maturity wall).
 - Does NOT change REG-24 (70%) or REG-25 (75%) confidence — single-credit mechanical math doesn't depend on NIM.
 - Does NOT change position posture. Sep core (Sep $77.5P / Sep $70P) still positioned for Q2 print. Jun 18 cluster still requires its own decision (decision window ~6/11 — substance owed to PROME reply rests on this v2.2.1 framing).
 
@@ -67,7 +67,7 @@
 | Tail | 7% | 7% | **7%** | $35-45 | $35-45 | $40.00 | $2.80 |
 | **Expected Value** | | | **100%** | | | | **$67.98** |
 
-**Current $77.63 → implied ~14% overvaluation vs EV of $67.98** (v2.1 was $70.50 / 13% over at $81.90; v2.0 was $72.32 / 11% over). Drawdown -5.2% from v2.1 base offset by EV drift -$2.50 (Bear-medium reweight) — overvaluation% similar but bear scenarios more probable.
+**At v2.2 ship (spot $77.63) → ~14% over vs v2.2 EV $67.98** — *superseded; live v2.2.1 figure is spot $80.15 / EV $68.93 / 16.3% over, see top of file* (v2.1 was $70.50 / 13% over at $81.90; v2.0 was $72.32 / 11% over). Drawdown -5.2% from v2.1 base offset by EV drift -$2.50 (Bear-medium reweight) — overvaluation% similar but bear scenarios more probable.
 
 ### Re-weight rationale (v2.1 → v2.2)
 
