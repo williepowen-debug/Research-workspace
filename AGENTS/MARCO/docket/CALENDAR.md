@@ -1,18 +1,16 @@
 # MARCO CALENDAR
 
-**Last Updated:** 2026-06-02 (session 10 — Jun 1 reconciliation MISSED/contested + Apr Banxico resolved; both pruned to TIMELINE) | **View:** Forward-looking only. Past events pruned to `thesis/TIMELINE.md`. Countdown anchored to 2026-06-02.
+**Last Updated:** 2026-06-08 (session 12 — Jun 5 NFP resolved: +172K, L&H +70K = WC hiring mask; re-dated to ~Jul 2) | **View:** Forward-looking only. Past events pruned to `thesis/TIMELINE.md`. Countdown anchored to 2026-06-08.
 
 **Machine feed:** `docket/CATALYSTS.tsv` (this is its prose/countdown twin). When they disagree, the TSV is source-of-truth for fields; this file owns grouping + narrative.
 
 ---
 
-## THIS WEEK (Jun 2–7) — DATA CLUSTER
+## RECENTLY RESOLVED (→ TIMELINE)
 
-**✅ RESOLVED this week (→ TIMELINE):** **Jun 1 ICE/CBP reconciliation MISSED the deadline** — parliamentarian struck core enforcement provisions under Byrd rule; "enforcement lock" downgraded structural→contested (reworked floor vote TBD ~late Jun). **Jun 1 Banxico Apr remittances** +3.7% YoY ($4.98B), count −1.7% (narrowing) — pull-forward paradox fading/normalizing, no air-pocket.
+**✅ Jun 5 May NFP** — +172K, UR 4.3% held, Apr revised up to +179K. **L&H +70K = World Cup hiring mask** (BLS-attributed) → ES-MARCO-01 MASKED not resolved (tell is post-Jul-19); discount Jun/Jul hospitality beats. Re-dated to ~Jul 2 (June print). **✅ Jun 1 ICE/CBP reconciliation MISSED the deadline** — parliamentarian struck core enforcement provisions under Byrd rule; "enforcement lock" downgraded structural→contested (reworked floor vote TBD ~late Jun). **✅ Jun 1 Banxico Apr remittances** +3.7% YoY ($4.98B), count −1.7% (narrowing) — pull-forward paradox fading/normalizing, no air-pocket.
 
-| Δ | Date | Event | Threshold / Signal | Who |
-|---|------|-------|--------------------|-----|
-| +3d 🟡 | Jun 5 (Fri) | BLS May NFP + UR | FL leisure/hospitality sub-sector decline = ES-MARCO-01 appears. Aggregate confirms/relapses the Apr +115K rebound. 8:30 ET. | MARCO, LABOR |
+**✅ Pull Session 1 (6/8) — passed/pullable catch-up:** Vegas (LVCVA Apr −1.8% visitors / conv +3.2% → ES-07 not breached) + TX border (sales-tax revenue growing → ES-04 counter-signal) resolved toward DID_NOT_APPEAR; formal resolution at Jun-30 Q2 close. MCO/FLL Apr pax deferred (~mid/late-Jun, PDF-blocked).
 
 ---
 
