@@ -262,6 +262,7 @@ else references it. *(Finalized via the Phase-3b cross-doc audit, 2026-06-02. Ro
 | `LAST_COMPLETION.md` | The per-session hand-off | Durable learnings (→ MEMORY) |
 | `TRADE.md` | Position ideas, entry/anti-triggers, sizing, watchlist | ⚠ Thesis metrics (→ STATUS); prediction tracking; live prices (fetch live, never store) |
 | `RESEARCH_STATUS.md` | Completed-research index + exhausted-sources / research queue | ⚠ Live monitoring snapshots (those duplicate STATUS § CRITICAL TIMELINE) |
+| `STALE_PUNCHLIST.md` | Standing stale-doc inventory + priority-ordered refresh plan; re-audit each major session. The "what needs work next" list — check it when planning a maintenance/refresh pass | Live state; the actual refreshed content (this is the to-do, not the fix) |
 | `EDGAR_8K_MONITOR.md` | The 8-K early-warning monitoring protocol + bank watchlist (method) | ⚠ Bank-loss sizing (REGINALD owns); heavy REGINALD overlap |
 | `OUTBOX.md` | *(Deprecated — legacy HERMES transport buffer; superseded by WALTER inbox routing)* | Anything live |
 | `CLAUDE.md` | Identity, domain scope, boot/closeout protocol, durable thesis framing, threshold *rules*, these conventions | **Any current value or case status** (all live state → STATUS) |
@@ -466,6 +467,7 @@ AGENTS/OTTO/
 ├── LAST_COMPLETION.md  # Prior session hand-off
 ├── TRADE.md            # Position ideas
 ├── RESEARCH_STATUS.md  # What's been researched
+├── STALE_PUNCHLIST.md  # Standing stale-doc inventory + ordered refresh plan (re-audit each major session)
 ├── scripts/
 │   ├── boot.py             # Boot orchestrator — price + predictions + catalysts (~2s)
 │   ├── predictions_due.py  # Boot step 4 — OVERDUE/DUE-SOON scan of PREDICTIONS.tsv
