@@ -25,6 +25,7 @@ Geopolitical risk is binary in ways domestic stress isn't. Wars start on specifi
 
 When spawned with a task:
 
+0. **`git pull`** — sync from GitHub before reading anything (follow the pull protocol in root `CLAUDE.md`); GitHub is the source of truth.
 1. **Check `inbox/`** — process any pending signals (INTEGRATE, LOG, or DISCARD). **For each signal, log a one-line entry to KB.tsv** using the 13-column schema. Move processed signals to `inbox/processed/`.
 2. **Read `STATUS.md`** — situation tiers, scenario framework, transmission paths
 2b. **BOARD signal intake** — scan BOARD for signals new to you:
@@ -34,23 +35,27 @@ When spawned with a task:
    - For each INDEX row naming HAWK NOT yet in your log: read `/BOARD/<signal_id>-<slug>.md`, decide disposition (`acted`/`noted`/`deferred`/`info-only`/`skipped`), append one row
    - Let `acted` signals inform this session's work
    - Spec: `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` v0.1
+2c. **Scan `workbook/PREDICTIONS.tsv` for due/stale predictions** — flag any whose Timeframe has passed or whose Status can now be resolved; resolve them in write-back step 7a. Separate mechanism-intact from threshold-stuck/breached per `[[finding_threshold_vs_mechanism]]`. Don't leave a prediction OPEN-but-stale. (Full resolution protocol in OUTPUT RULES.)
 3. **Before writing to KB.tsv, read `workbook/SCHEMA.tsv`** — validate all enum fields (Conf, Epistemic, Status) against `allowed_values`. Use `default` values when unsure.
 3b. **Read `AGENTS/VOCABULARIES.tsv`** — use NETWORK_GROUPS for Group field, CANONICAL_ENTITIES for Entity field, SOURCE_TAGS for Source field. If no match exists, use closest term and note the gap.
 4. **Read `LESSONS.md`** if it exists — mistake patterns to avoid
 5. **Use `web_search` for latest developments** — your domain moves fast. Never rely solely on the task prompt for current events. Search before updating.
 6. **Execute the task**
 7. **Write results back to `STATUS.md`** — update scenario probabilities, situation tiers, cross-agent flags
+7a. **Resolve predictions flagged due at boot (step 2c)** in `workbook/PREDICTIONS.tsv` — set Status (CONFIRMED/FAILED/PARTIALLY/EXPIRED), fill Date_Resolved + Outcome, log the resolution to KB.tsv. Never leave OPEN-but-stale.
 8. **Log significant findings to workbook TSV files** — KB.tsv for facts, VX.tsv for vector state changes, FLOW.tsv for transmission pathway updates. STATUS gets rewritten; workbook entries are permanent.
 9. **Research detail → `domain/sources/` (external source material) or `research/` (deep dives)**
-10. **Cross-agent signals → `outbox/`** (HERMES delivers)
+10. **Cross-agent signals → `outbox/`** — see the ⚠️ messaging-overhaul note under MAIL (HERMES is unreliable).
 
 **MAIL:** Do NOT process inbox on normal spawns unless Step 1 finds pending signals. Full inbox processing is a separate task — wait to be spawned specifically for it.
 
-All mail lives in removed:
-- **Inbox:** `inbox/` — inbound signals from other agents (delivered by HERMES)
+**⚠️ Messaging system status:** File-based mail is being overhauled (auto-memory `[[project_messaging_overhaul]]`). HERMES delivery is unreliable — outbox writes may sit undelivered (confirmed Jun 8 2026: HERMES had not swept since March). Don't invest in inbox/outbox hygiene infrastructure. For time-sensitive cross-agent signals, prefer **Convention B** (own-outbox routing, scanned by PROME at boot), direct-drop into the target inbox **with Will's explicit authorization** (per `[[feedback_cross_agent_inbox_writes]]`), or surface to Will directly. *HAWK has no `NEXUS_BRIEF.md` yet — creating one is a Tier 2 upgrade item (SAM/BRENT route cross-agent synthesis through it).*
+
+All mail lives under `AGENTS/HAWK/`:
+- **Inbox:** `inbox/` — inbound signals from other agents (historically delivered by HERMES)
 - **Outbox:** `outbox/` — outbound signals you write for other agents
 - **Processed:** `inbox/processed/` — signals you've integrated
-- **Delivered:** `outbox/delivered/` — signals HERMES has delivered
+- **Delivered:** `outbox/delivered/` — signals marked delivered (by HERMES, or manually when proxying)
 
 ### Inbox Processing Protocol
 When spawned for inbox processing: **check inbox/ for pending signals and process them.** It contains the full processing steps, outbox format, and receipt template.
@@ -66,8 +71,7 @@ Write a single `.md` file to `outbox/` per signal:
 **Source:** [data release / own analysis]
 **Priority:** 🔴/🟠/🟡
 ```
-- HERMES sweeps outboxes and delivers to target agents' inboxes
-- After delivery, HERMES moves to `outbox/delivered/`
+- HERMES is meant to sweep outboxes and deliver to target inboxes, then move the file to `outbox/delivered/` — **but HERMES is currently unreliable** (see ⚠️ note above). With Will's authorization, deliver manually: copy to the target `inbox/` (rename `to-X` → `from-HAWK`), then move your copy to `outbox/delivered/`.
 - **Write a signal when:** a threshold fires, a prediction resolves, or analysis produces an actionable insight
 - **Do NOT write for:** routine STATUS updates or data that only affects your own vectors
 
@@ -75,6 +79,14 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 ```
 | DATE | HAWK | TARGET | 🔴/🟠 | Description |
 ```
+
+### Git (when asked to commit/push)
+
+Follow the **Git Protocol** in root `CLAUDE.md`, with these HAWK overrides per auto-memory `[[finding_pathspec_commit_race_safety]]`:
+1. **Use pathspec commits — never `git reset HEAD`.** A shared `.git/index` makes `reset` a global op that clobbers other agents' staged work. For modified files: `git commit AGENTS/HAWK/<file> -m "..."`. For new untracked files: atomic `git add <specific files> && git commit <same specific files> -m "..."` — explicit paths only, **never `git add AGENTS/HAWK/` as a directory** (sweeps in unintended files). Optional sanity check between add and commit: `git diff --cached --stat`.
+2. **Never commit files outside `AGENTS/HAWK/`.** Signals you deliver into another agent's inbox stay untracked — flag them to Will rather than committing them yourself.
+3. **Pull discipline:** scoped stash for working-tree changes (`git stash push -- AGENTS/HAWK/`); the staging-area race is eliminated by pathspec commits above.
+4. **Commit locally, defer push** unless Will coordinates the push (concurrent agents) — note any pending push in `MEMORY.md`. Never resolve conflicts in another agent's files — flag to PROME.
 
 ---
 
