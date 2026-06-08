@@ -52,7 +52,11 @@
 
 ### IMMEDIATE (this session / 24h)
 1. **Wed Jun 10 CPI (May, 8:30 ET)** — load failure-pattern preamble (CRL-19 magnitude-light) + DOC's hospital-services-MoM 2nd-print watch + CRL-10 Food at Home pull-forward confirmation. Multi-domain print.
-2. **HOMER Open data gaps to close:** Fannie Q1 10-Q MF mod/forbearance exhibits (paywalled, needs direct EDGAR pull); Fannie MF REO completions monthly; Trepp special-servicing transfer rate baseline pull for VX-CARL-MF-04. Could be a 20-min targeted HOMER side-spawn pre-FOMC.
+2. **CPI pre-grade sheet (~10 min, do FIRST at boot, before CPI fires)** — build 5-row "if X prints, then Y" decision sheet in SCRATCH PRE-GRADE section. Pre-grade headline +0.5% MoM (V12 hardens), Core +0.4% MoM (Fed-no-cut locks), Food at Home +0.5% 2nd consec (CRL-10 75→85%), Medical Care hospital MoM ≤0 (DOC care-avoidance confirmed), Energy MoM small-pos (CRL-08 intact). Build so Wed grading is 30 sec, not 20 min.
+3. **handoff_RED V16 counter-case staging (~20 min)** — acute-employment-strength legs (JOLTS 1.03 un-inverted, 3-mo NFP avg +93K revisions, AHE decel) staged for RED. Overdue since Jun 6; needed before Jun 16-17 V16 4-vs-3 review. CARL stages, RED maintains.
+4. **V14 unified upgrade proposal (~15 min)** — bundle DOC's Mercer +6.7% benefits-cost (top-40% employer crowd-out) + HOMER's housing-deflation leading-edge (-2.4% YoY list price = top-40% asset deflation incoming) into a single V14 3→4 upgrade proposal at `thesis/proposals/2026-06-08_V14_upgrade_proposal.md`. Pre-stages Jun 16-17 FOMC decision packet.
+5. **SPAWN_PROTOCOL year-verification rule (~2 min)** — bake HOMER's Jun-8 calibration rule into `SPAWN_PROTOCOL.md` as a sub-agent spawn-prompt discipline item so future POLLY/STUE/GIG/PHAN/POP refreshes inherit it automatically.
+6. **HOMER open data gaps (pre-FOMC, ~20 min HOMER side-spawn):** Fannie Q1 10-Q MF mod/forbearance exhibits (paywalled, needs EDGAR pull); Fannie MF REO completions monthly Apr-May; Trepp special-servicing transfer rate baseline pull for VX-CARL-MF-04.
 
 ### THIS WEEK
 3. **Thu Jun 11** LEN FQ2 4:00 PM ET + BLS PPI + **Census QSS Q1 release** (DOC drilling NIPA segments) · **Fri Jun 12** UMich prelim (5-10Y >3.5% red line).
@@ -100,6 +104,9 @@
 - **Wed Jun 10 CPI** = next fire. Multi-domain: V12 + CRL-10 food + DOC hospital-services MoM 2nd-print watch.
 - **Jun 11 LEN FQ2 4:00 PM ET** — CRL-23 builder GM compression baseline; FY27 tariff guidance is the load-bearing language.
 - **Jun 16-17 FOMC + SEP** = V12 decisive + V14 Mercer-reinforcement decision + V16 4-vs-3 review.
+
+## WILL-ACTION ITEMS (not CARL work; for Will's queue)
+- **Ping BRENT** — Iran-Israel Jun 7 escalation is in BRENT's Monday data file but not propagated to STATUS or outbox. Ask BRENT to update STATUS + flag CARL if downstream pump pass-through changes materially.
 - **HENRY 2 commits + shared `memory/auto/`** from Jun 6 still pending separate reconciliation (blocks 2 auto-memory promotions).
 
 ## SESSION FINDINGS WORTH CARRYING
