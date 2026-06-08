@@ -1,10 +1,11 @@
-# NEXUS Brief Schema — PROPOSAL (pending NEXUS ratification)
+# NEXUS Brief Schema — LOCKED (R3 + amendment 7)
 
-**Status:** Draft — pending NEXUS ratification post-E (target: post Mon 6/9)
-**Author:** SAM
-**Reviewers:** PROME (round 1+2 — green-lighted, see review history below)
-**Pilot agent:** SAM (this proposal pairs with `AGENTS/SAM/proposals/2026-06-06_sam_nexus_brief_pilot.md`)
-**Once ratified:** move final schema to NEXUS-owned location; canonical brief path becomes `AGENTS/<NAME>/NEXUS_BRIEF.md`
+**Status:** Locked 2026-06-07 — schema R3 + amendment 7 (Expected by column). Iterations beyond this route through NEXUS as the canonical owner.
+**Canonical location:** `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md` (this file) + `NEXUS_BRIEF_TEMPLATE.md` (fleet-rollout template)
+**Canonical brief path:** `AGENTS/<NAME>/NEXUS_BRIEF.md` (agent-owned)
+**Author / pilot:** SAM (schema R1-R3 + iter-2 pilot at `AGENTS/SAM/NEXUS_BRIEF.md` — proves cap-as-measurement works for heaviest real domain)
+**Reviewers:** PROME (R1+R2 green-lit) → NEXUS (R3 consumer review — 6 amendments converged independently with SAM; amendment 7 added Expected-by column)
+**Scope:** required for Tier-1 active agents (CARL, REGINALD, OZK, SAM, RED, BROCK, LIQUID, HENRY, HAWK, BRENT, VIOLET, WALTER). Tier-2 spawn-as-needed agents (LABOR, HERMES, DARWIN, ZHAO, etc.) skip; NEXUS reads their STATUS directly when active.
 
 ---
 
