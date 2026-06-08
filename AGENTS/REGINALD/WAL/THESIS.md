@@ -361,6 +361,6 @@ Current: $85P / $77.5P / $70P / $65P Jun/Sep — see `../POSITIONS.md` for contr
 
 ---
 
-*v2.2.1 (Jun 8, 2026) is a refinement of v2.2 — NO structural vector change. Adds MACRO-NIM TAILWIND SOFTENING (loss-absorption channel only) + COHORT CONTEXT (ambiguous, NCO decomposition pending) + Life-Sci Sector Signal N=1 distinction. Probability reweight Bear-medium 30→25, Base 33→35, Bull 18→21. EV $67.98 → $68.93. Overvaluation 14.2% → 16.3% (÷EV convention pinned). PT range $50-68 UNCHANGED. Change rationale in `CHANGELOG.md`.*
+*v2.2.1 (Jun 8, 2026) is a refinement of v2.2 — NO structural vector change. Adds MACRO-NIM TAILWIND SOFTENING (loss-absorption channel only) + COHORT CONTEXT (RESOLVED 6/8 PM → Hyp A genuine cohort improvement; "sharpen to WAL-specific" earned, no weight change) + Life-Sci Sector Signal N=1 distinction. Probability reweight Bear-medium 30→25, Base 33→35, Bull 18→21. EV $67.98 → $68.93. Overvaluation 14.2% → 16.3% (÷EV convention pinned). PT range $50-68 UNCHANGED. Change rationale in `CHANGELOG.md`.*
 
 *v2.2 supersedes v2.1 (May 11, 2026) following 10-Q drill (May 21). B1 fired via $99M life-science subsequent event + Curley resignation + market reaction. Detailed findings in `research/WAL_10Q_DRILL_2026-05-21.md`. Change rationale and old-vs-new view documented in `CHANGELOG.md` (this directory) and `../thesis/CHANGELOG.md`.*
