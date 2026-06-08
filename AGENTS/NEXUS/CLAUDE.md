@@ -39,11 +39,32 @@ If a tier-1 macro event is firing during boot (NFP / CPI / FOMC / tier-1 auction
 8. **Write findings to `STATUS.md`** — update convergence matrix (Conf %, Δ, last-updated), tensions, thresholds, transmission chain, catalyst docket, narrative gap.
 
 ### CLOSEOUT (write-back tail)
-9. **Move processed inbox items** → `inbox/processed/` once integrated into STATUS (or explicitly deferred with reason).
-10. **Move delivered outbox items** → `outbox/delivered/` once acknowledged (or recipient is confirmed-defunct).
-11. **Archive consumed signals** → `signals_archive/` with C/M-XX mapping when fully absorbed.
-12. **Update `LAST_COMPLETION.md`** — pass label, files read, files changed, blockers, next step.
-13. **Commit only `AGENTS/NEXUS/`** per `Research-workspace/CLAUDE.md` git protocol.
+
+**Framing (per BRENT pattern):** Boot and closeout are one symmetric sequence — what you READ at boot, you WRITE BACK at closeout. Read→write pairings: STATUS (BOOT 1 → CLOSEOUT 9) · PREDICTIONS (BOOT 3 → CLOSEOUT 10) · inbox (BOOT 4 → CLOSEOUT 11). **Run at EVERY session end, not just end-of-day** (per `[[feedback_intra_day_closeout_discipline]]`) — multi-session days still get a write-back at each break.
+
+9. **STATUS sanity check** *(mirror of BOOT step 1)* — final-pass verify before commit, distinct from EXECUTE step 8 mid-synthesis writes:
+   - Line count <200 (archive overflow to `research/` if breached).
+   - Δ-column convention: `Conf %` + `Δ since last` + `Last updated` consistent per row; no-op reviews did NOT bump `Last updated`.
+   - Catalyst docket pruned (fired rows past 1-week retention removed) and refreshed (new dated catalysts added).
+   - Threshold proximity table sorted BREACHED → PROXIMATE → NOT CONFIRMING.
+10. **PREDICTIONS sanity check** *(mirror of BOOT step 3)* — scan `PREDICTIONS_MONITOR.md` for items that moved into past-trigger **during this session** (event-mid-session pattern; most common when a tier-1 print fires while NEXUS is running). For each: resolve HIT / MISS / TRUE-in-letter-FALSE-in-spirit / FALSIFIED, OR defer with explicit reason + new trigger. **Apply threshold-vs-mechanism discipline** (per `[[finding_threshold_vs_mechanism]]`) — separately verify the number fired AND that the mechanism claimed was actually the cause. Never leave a past-trigger item OPEN-but-stale.
+11. **Move processed inbox items** → `inbox/processed/` once integrated into STATUS (or explicitly deferred with reason).
+12. **Move delivered outbox items** → `outbox/delivered/` once acknowledged (or recipient is confirmed-defunct).
+13. **Archive consumed signals** → `signals_archive/` with C/M-XX mapping when fully absorbed.
+14. **Promotion scan** — scan this session for new findings / disciplines / patterns worth promoting beyond LAST_COMPLETION:
+    - **NEXUS-specific durable** (new Synthesis Discipline, framework refinement, anti-pattern) → write inline into `CLAUDE.md` per spec-text rule (inline-first, tag-as-provenance); never leave a behavior-rule living only in `[[memory]]` tags.
+    - **Cross-agent transferable** (process pattern, calibration lesson, workflow insight other agents could use) → write to auto-memory at `memory/auto/<type>_<kebab-slug>.md` with full frontmatter; add one-line index entry to `memory/MEMORY.md`.
+    - **Remove from local after auto-memory promotion** — auto-memory loads at every boot via the harness, so duplication just bloats local files and creates drift risk.
+    - If nothing to promote: explicit `none this pass` note in LAST_COMPLETION (forces the scan to actually happen).
+15. **Update `LAST_COMPLETION.md`** — pass label, files read, files changed, blockers, next step. For multi-unit sessions: document every logical work unit, not just the first.
+16. **Git — pathspec discipline** per `[[finding_pathspec_commit_race_safety]]`:
+    - **Modified files:** `git commit AGENTS/NEXUS/<file> -m "..."` (path-scoped commit, never `git reset HEAD` — clobbers other agents' concurrent stages on the shared index).
+    - **New files:** atomic `git add <specific files> && git commit <same specific files> -m "..."` — explicit paths only, never `git add AGENTS/NEXUS/` as a directory (sweeps unintended files).
+    - **Optional sanity check** between add and commit: `git diff --cached --stat`.
+    - **Never commit files outside `AGENTS/NEXUS/`** unless Will explicitly authorizes a cross-agent move (e.g. the 2026-06-07 schema relocation to `templates/`).
+    - **Push deferred by default** per `[[feedback_defer_push_coordinate]]` — commit locally, Will coordinates the push. Push-train pattern (`[[finding_push_train_pattern]]`) often resolves pending pushes on the next clean-closing agent.
+
+**Discipline overlay (applies throughout closeout):** *Stale-marked beats carried-forward-as-current.* If a STATUS value, threshold mark, or prediction can't be refreshed this session, mark it `[STALE YYYY-MM-DD]` rather than presenting it as live. The Δ-column convention covers most of this for matrix rows; the overlay catches one-off marks (threshold table, transmission chain timestamps) that don't have a Δ column.
 
 ---
 
