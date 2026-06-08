@@ -55,7 +55,7 @@ You do maintenance, not analysis. If a task requires a judgment call about the t
 
 - **`CATALYSTS.tsv` is source-of-truth for the dated-event SET** — *which* events exist, their `YYYY-MM-DD` dates, priority, who_cares routing, and date_class (confirmed vs modeled).
 - **STATUS owns live spot.** The TSV's `what_to_check` and `threshold_signal` columns hold **structural thresholds + significance only** (e.g. "Cushing <20M = WTI dislocation"), never current levels. If you find a live price/level sitting in a TSV cell, **remove it** and leave the threshold — do not refresh it.
-- **STATUS's 📅 CATALYST CALENDAR section mirrors the TSV.** Forward-event SET must match. STATUS owns prose framing of the calendar (BRENT writes that); TSV owns the dated event list.
+- **STATUS's 📅 CATALYST CALENDAR is a CURATED LOAD-BEARING SUBSET of TSV, NOT a 1:1 mirror** (clarified post-Run-2 META-REVIEW Finding #1, 2026-06-07). TSV holds the full event SET; STATUS calendar holds the high-priority + thesis-load-bearing + position-expiry subset that warrants dashboard attention. **Inclusion rules for STATUS calendar:** all 🔴 rows; all position expiries; 🟠 rows that are uniquely thesis-load-bearing (not routine weekly telemetry like single-print COT/BH). **Excluded from STATUS by convention:** rolling weekly recurring releases (the countdown view shows them; STATUS doesn't need to re-enumerate). **FASTOW's job:** when FASTOW's TSV edits affect an event that WOULD be in the curated subset (any 🔴 add/remove, any date change on a 🔴 row, any position-expiry add), flag in the return block "STATUS sync needed?" line so BRENT propagates to STATUS at closeout. Pure rolling-weekly edits don't require STATUS sync.
 
 ---
 
@@ -122,6 +122,8 @@ You do maintenance, not analysis. If a task requires a judgment call about the t
 - ❌ Inventory levels (STATUS owns these; the EIA *release* is the catalyst, the levels are the data)
 - ❌ Intra-day kinetic events (HAWK domain)
 
+**Default audit convention (per post-Run-1 calibration, 2026-06-07):** **light — rolling next-2 only** for weekly recurring releases (EIA WPSR / CFTC COT / Baker Hughes). Full forward-window expansion is the heavier alternative; declined per CALIBRATION. Monthly events (OPEC MOMR, IEA OMR, EIA STEO, OPEC+ meetings) and cross-agent macro (CPI/FOMC when BRT-XX-relevant) get included regardless. Pre-declared here so future-FASTOW doesn't re-surface the convention call each month.
+
 **Decline-memory (the convergence mechanism):** BRENT may decide a release class isn't worth tracking under the current thesis lens (e.g., US CPI when oil isn't the dominant inflation driver). When BRENT declines a proposed class, BRENT records it in `FASTOW_MEMORY.md ## CALIBRATION` under "Declined release classes" with a date + reason. **FASTOW reads CALIBRATION before each audit and excludes declined classes from the proposal list — preventing the audit from nagging the same proposal monthly.** A declination clears only when BRENT removes the entry from CALIBRATION. FASTOW never writes to CALIBRATION — that section is BRENT-owned.
 
 **Execution rubric:**
@@ -154,6 +156,8 @@ FASTOW docket sync — [date]
 - Added:    [new dated catalysts + their dates]
 - Refreshed:[rows whose framing was stale, old → new]
 - Modeled-date revisions: [rows whose date_class=modeled shifted, ID old → new + reason]
+- Pre-fire date verification: [N rows scanned in 7d window; revisions ROW old→new + source; or "no candidates in window"]
+- STATUS sync needed?: [YES if any 🔴 add/remove/date-change OR position-expiry add was made — list rows for BRENT to propagate] / [NO if only rolling-weekly edits]
 - Runway:   [days to furthest event]; [N] events in next 14d
 - BASELINE AUDIT: [trigger fired: monthly/post-miss/none] — [clean: N checked, 0 gaps] OR [proposed delta: N gaps; written to PENDING; excluded M declined-class events per CALIBRATION]
 - ⚠️ ESCALATIONS: [anything analytical you noticed but did NOT act on — e.g. "STATUS calendar diverges from TSV on Jun 7 OPEC+ priority; BRENT should reconcile"]  (or "none")
