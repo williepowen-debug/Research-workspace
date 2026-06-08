@@ -1,53 +1,52 @@
 # MARCO SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-02 ET (session 11 — long session: workbook sweep → TOURISM assessment → thesis v2.4 → World Cup host-city pull)
+**Last Updated:** 2026-06-08 ET (session 12 — boot + organized info-pull plan + Pull Session 1 catch-up + integration)
 
-## CHANGES SINCE (what moved while offline)
-- Same-day continuation after session 10 (Jun 1 reconciliation + Apr Banxico). No new *market* data between sessions; everything below is reconciliation + research, not new prints.
-- Next data: **Jun 5 NFP, Jun 10 CPI, Jun 11 StatCan May, Jun 13 Air Transat exit.** FIFA World Cup opens **Jun 11**.
+## CHANGES SINCE (what moved while offline, session 11 → 12)
+- **Jun 5 May NFP printed** (was un-integrated at boot): +172K, UR 4.3% held, Apr revised UP to +179K (from +115K). **L&H +70K = World Cup hiring mask** (BLS-attributed).
+- No other new *market* prints between sessions. Git was already clean + synced to origin at boot (session-11 deferred push had landed via a "laptop:" commit).
+- Next data: **Jun 10 CPI (🔴 ES-MARCO-08), Jun 11 StatCan May + World Cup opens, Jun 13 Air Transat exit.**
 
-## WHAT I DID (session 11 — four blocks)
-**1. Workbook bring-current sweep (Will: "get MARCO updated to current"):**
-- FLOW.tsv: fixed newline-merge bug; added owed **FLOW-PRD-01** (freight→produce transient confounder, MARCO↔BRENT). VX.tsv: fixed 2 structural bugs (3.04/ELP-01 merge, 3.03 dropped Priority); synced 2.08/2.01/1.01/1.02 to current reads. ML.tsv: fixed 2 corruptions (field-join, REM-03 dup); flagged 2 stale-data entries; documented as FROZEN founding log (CLAUDE.md FILES). KB.tsv: hand-maintained now; flagged ml_to_kb.py legacy/destructive. All TSVs column-validated.
-- **Banxico Apr re-verified vs primary:** trade-press "$5.69B/+26%" was GARBLED; our $4.98B/+3.7% held (Banxico primary + 6 MX outlets). Inoculation note in STATUS.
+## WHAT I DID (session 12)
+**1. Built the organized info-pull plan** (Will: "list what's stale/passed, get organized"). Swept docket/EXPECTED_SIGNALS/PREDICTIONS/dashboard vs today. Grouped A (passed/pullable now) / B (imminent this week) / C (late-June calendar) / D (stale values) / E (Q2-close resolutions). Task list #1–4 tracks the A-items.
 
-**2. TOURISM assessment (Will: "look at Tourism"):**
-- Not stalled — content current (refreshed session 9). Fixed stale KEY PREDICTIONS table in TOURISM CLAUDE.md → pointer. Caught my own session-11 error: NTTO Apr −14.1% is Easter/Iran-distorted (per IVF-26) — folded the caveat into STATUS/VX/KB.
+**2. Ran Pull Session 1 (the "catch-up" tranche) + integrated:**
+- **A1 May NFP** → L&H +70K = **World Cup labor-side event-mask** (same trap as MIA pax — WC now masks on TWO surfaces). ES-01 MASKED not resolved.
+- **A2 MCO/FLL Apr pax** → BLOCKED (April YoY locked in non-extractable airport PDFs; search only surfaces operational-disruption news). Gained: FLL 2025 −8.5%, Spirit-bankruptcy shrinking FLL capacity. **Deferred ~mid/late-Jun.** MAR-22/MAR-24 stay OPEN.
+- **A3 LVCVA Vegas Apr** → visitors −1.8% / conv +3.2% / ADR record. **ES-07 NOT breached** (−1.8% « >5%).
+- **A4 TX border revenue** → GROWING (El Paso Co +2%, RGV growth). **ES-04 counter-signal → DID_NOT_APPEAR.** Cross-border erosion is slow-structural (Dallas Fed swe2602), not acute cliff.
+- **Integrated everywhere:** VX (NV-01, TX-03), KB (+3 rows: WFD-NFP-01, NV-02, TX-04), EXPECTED_SIGNALS (ES-01/04/07), STATUS (header/NFP row/LAS row/composite), docket (NFP re-dated to ~Jul 2; CALENDAR re-anchored to 6/8), outbox (WC dual-mask → NEXUS+CARL).
 
-**3. Thesis v2.3 → v2.4 (Will approved minor bump):**
-- Integrated **"CY2025 = first US inbound decline in 20yr (−5.5%, 68.3M)"** — the Canadian boycott is the sharp edge of a structural inbound contraction, not a Canada-only story. Full placement: THESIS (Channel-2 frame + CONFIRMED row + bump), CHANGELOG, TIMELINE (CY2025 anchor + World Cup branch), docket, KB-MARCO-IVF-27, **ES-MARCO-09**, STATUS, VX-1.03. **Surfaced a live catalyst gap: FIFA World Cup was absent from the docket entirely.**
+## KEY READ (session 12)
+**3 of MARCO's acute regional-consumer-stress expected-signals are NOT firing at their Q2 deadlines** — ES-01 (hospitality, World-Cup-masked), ES-04 (TX border revenue, growing), ES-07 (Vegas, −1.8%). This is NOT thesis-breaking: the two **durable** channels (ag-labor 2.2M stock shock + Canadian air/snowbird) are untouched. It confirms the v2.x **slow-structural-squeeze** reframe over the old acute-multi-front-crisis framing. Separates mechanism (intact) from threshold (not breached) — same discipline as the Canadian-headline and produce calls.
 
-**4. TOURISM World Cup host-city pull (Will: spawn TOURISM):**
-- Spawned TOURISM via thread (ROOMS protocol). Pulled 11 US host cities, Miami 7 matches (Bronze Final Jul 18). **Read: PARTIAL OFFSET, NOT REVERSAL (75%).** AHLA Apr 30: 80% of host-city hoteliers BELOW WC forecasts (Miami/Atlanta only exceptions; Miami match-night occ 24–31%, ADR flat). 7 KB-WC entries + STATUS WC monitor written by sub-agent.
-- **Closed + archived thread** (`threads/archive/2026-06-02_worldcup-host-city.md`); INDEX + DEFERRED updated (REGINALD Miami-$, CARL match-week spend). Propagated to MARCO: ES-MARCO-09 concrete thresholds, MIA-event-mask caveat, docket Aug-15 row, THESIS confirming clause.
+## KEY OPERATIONAL CAVEAT (carry forward)
+**World Cup now masks on TWO surfaces: MIA pax AND hospitality jobs.** A Jun/Jul beat in either is event-driven, NOT recovery. Tell = no *sustained* strength after Jul 19 (ES-MARCO-09 NTTO read ~mid-Aug). Sent to NEXUS/CARL via outbox.
 
-## KEY OPERATIONAL CAVEAT (carry forward — easy to misread)
-**MIA pax may print +YoY in Jun/Jul 2026 purely on the 7 World Cup matches.** That is an EVENT-MASK, structurally identical to the base-effect trap — NOT recovery. The tell is the absence of a *sustained* MIA recovery after Jul 19. Same logic as the Canadian-headline base-effect. (In STATUS FL-airports row + THESIS Channel-2 + ES-MARCO-09.)
-
-## NEXT SESSION
-1. **Jun 5 BLS May NFP** — FL leisure/hospitality (ES-MARCO-01). **Jun 10 CPI = ES-MARCO-08** (produce-vs-pump fork).
-2. **Jun 11 StatCan May** — read the 2-yr STACK (worsen past −30%?). **Jun 13 Air Transat** final US flight. **~Jun 17 FL Realtors May.** **~Jun 27 WestJet** winter = TOUR-05 last input.
-3. **World Cup live (Jun 11–Jul 19)** — no measurable data until NTTO June print ~**mid-Aug** (ES-MARCO-09: ≥5.5M & ≥−10% vs 2019 = weakens; ≥−20% = hardens). Don't expect a read before then; watch host-metro hotel/air anecdotally. The Aug pull needs MIA/host-city granularity (framework in KB-WC-05).
-4. **Reconciliation rework watch** — GOP retry floor vote ~late Jun (🟠 contested, not done).
-5. **MCO/FLL April pax** — data publishes 4–6wk lag; re-pull ~mid/late-Jun. MAR-22/MAR-24 OPEN until then.
-6. **Cross-agent re-sends (deferred per Will — mail-dedicated spawn):** NEXUS carries 3 corrections (v2.1/v2.2/v2.3) + now v2.4 frame; REGINALD (condo tightening), LABOR (ICE off-farms). DEFERRED: REGINALD 2 open, CARL 1, HOUSING 1 (room earned at 3).
+## NEXT SESSION — Pull Session 2 (STAGED for Wed Jun 10 CPI)
+1. **🔴 Jun 10 (Wed) BLS May CPI fresh F&V = ES-MARCO-08** — the produce-vs-pump fork. F&V holds ≳5% YoY *while pump prices fall* → transient freight driver exiting, labor re-weights UP (MAR-14 hold/upgrade); F&V softens in step with diesel → freight carried more of the spike. Apr was +6.1% YoY / veg +3.1% MoM. Cross-read vs BRENT pump data.
+2. **Jun 11 StatCan May travel** — read the 2-yr STACK (worse than −30%?), air <−8%; headline YoY is base-effect.
+3. **Jun 11 World Cup opens** — no data until mid-Aug NTTO; anecdotal host-metro watch only.
+4. **Jun 13 Air Transat YUL-FLL final flight** — confirm executed → complete US exit.
+5. **Pull Session 3 (~Jun 27–30, Q2 close):** WestJet winter, ICE reconciliation rework, Banxico state-of-origin + OFLC H-2A; **RESOLVE at Jun-30:** MAR-01/MAR-18/MAR-26 + formally close ES-04/ES-07 as DID_NOT_APPEAR.
+6. **Re-pull MCO/FLL Apr pax** (~mid/late-Jun) — was PDF-blocked this session.
 
 ## OPEN THREADS
 | Item | Status |
 |------|--------|
-| ES-MARCO-09 World Cup reversal test | 🟠 NTTO June print ~mid-Aug (thresholds locked) |
-| ES-MARCO-08 produce-vs-pump test | 🔴 Jun 10 CPI |
+| ES-MARCO-08 produce-vs-pump test | 🔴 Jun 10 CPI (Pull Session 2) |
+| ES-MARCO-09 World Cup reversal test | 🟠 NTTO June print ~mid-Aug |
+| ES-MARCO-04 (TX border) / ES-07 (Vegas) | 🟡 counter-signal → formal DID_NOT_APPEAR at Jun-30 |
+| ES-MARCO-01 (FL hospitality) | ⚠️ World-Cup-masked; re-read post-Jul-19 |
+| MCO/FLL April pax | 🟡 re-pull ~mid/late-Jun (PDF-blocked) |
 | ICE/CBP reconciliation rework + floor vote | 🟠 ~late-Jun TBD |
 | WestJet winter 2026-27 schedule | 🟠 ~Jun 27 — TOUR-05 last input |
-| MCO/FLL April pax (not yet published) | 🟡 re-pull ~late-Jun |
-| Cross-agent re-sends (4 for NEXUS + REGINALD/LABOR) | 🟡 deferred — mail-dedicated spawn |
-| DEFERRED: REGINALD Miami-$ / bank-CRE, CARL FL match-week spend | 🟡 from World Cup thread |
-| Workbook FLOW.tsv lag / remittance paradox | ✅ RESOLVED 6/2 |
+| Cross-agent re-sends (4 for NEXUS + REGINALD/LABOR) | 🟡 still deferred — mail-dedicated spawn (NEW: WC dual-mask outbox written 6/8) |
 
 ## Mail state
-Inbox + outbox empty. No outbound written (cross-agent re-sends still deferred per Will).
+Inbox empty. **Outbox: 1 written 6/8** — `2026-06-08_to-NEXUS-CARL_worldcup-dual-mask.md` (awaiting HERMES sweep). Old acute-crisis cross-agent corrections still deferred per Will.
 
 ## ⚠️ PENDING PUSH — LOCAL ONLY (standing instruction)
-**Will coordinates the GitHub push himself** (many agents concurrent — he organizes to avoid problems). All session-11 commits are LOCAL only; do NOT push until he directs. Local branch is several commits ahead of origin (MARCO session-11 + RED session 16 interleaved). Do NOT pull/rebase while other agents have uncommitted work. (Memory: [[feedback_defer_push_coordinate]].)
+**Will coordinates the GitHub push himself** (many agents concurrent). At boot the tree was clean + synced; session-12 commit(s) are LOCAL — do NOT push until Will directs. Do NOT pull/rebase while other agents have uncommitted work. (Memory: [[feedback_defer_push_coordinate]].)
 
 ## Handoff
-Long session, started as "bring current," became three escalating layers: workbook repair → TOURISM assessment → a thesis bump (v2.4) → a live sub-agent pull. The through-line was a **propagation gap** — TOURISM had been carrying thesis-grade facts (NTTO −14.1%, the first-20yr-inbound-decline, the World Cup catalyst) that never rose to MARCO. Caught and integrated; logged the lesson as auto-memory [[feedback_subagent_propagation_gap]]. v2.4 reframes Channel 2 (boycott = sharp edge of a structural inbound contraction) and makes the World Cup a falsifiable test (ES-MARCO-09). No spine change — SDL-01 untouched. The one trap for next session: a positive MIA Jun/Jul print is a World Cup event-mask, not recovery. All MARCO files current + column-validated; thread closed; everything committed locally, push deferred.
+Productive, well-scoped session. Will asked to get organized before pulling, so I built the A–E pull plan first, then executed the "catch-up" tranche (Pull Session 1) and integrated it cleanly. The substantive finding: the acute regional-consumer-stress layer (hospitality jobs, border revenue, Vegas) is NOT producing the expected Q2 stress signals — one masked by the World Cup, two genuinely absent — which reinforces the slow-structural-squeeze reframe without touching the durable channels. The reusable catch: the World Cup is a dual-surface mask (pax + jobs); flagged to NEXUS/CARL. Pull Session 2 is staged and waiting on Wed's CPI (the 🔴 ES-MARCO-08 produce-vs-pump fork). All files current + column-validated; outbox queued; push deferred per standing instruction.
