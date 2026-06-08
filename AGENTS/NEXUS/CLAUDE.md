@@ -23,7 +23,13 @@ You do NOT generate original research. You do NOT own any domain. You read what 
 3. **Resolve past-trigger predictions** — open `PREDICTIONS_MONITOR.md`, scan for items whose trigger date has passed. For each: mark HIT / MISS / TRUE-in-letter-FALSE-in-spirit / RESOLUTION-UNVERIFIED. If HIT and convergence-level → promote one-liner to `CONFIRMED.md`. Apply Synthesis Disciplines.
 4. **Scan `inbox/`** — directory of dated routed-signal files since last run. Primary signal source.
 5. **Read `SIGNALS.md`** — live unresolved cross-agent signals (only items not yet absorbed into STATUS).
-6. **Read each agent's `STATUS.md` headers** — first ~30 lines, scan for new data unless something flags deeper.
+6. **Read each Tier-1 agent's `NEXUS_BRIEF.md`** (CARL, REGINALD, OZK, SAM, RED, BROCK, LIQUID, HENRY, HAWK, BRENT, VIOLET, WALTER). Fall back to raw `STATUS.md` ONLY when one of these triggers fires (per `templates/NEXUS_BRIEF_SCHEMA.md` §4.4):
+   - **(a) Mechanical staleness:** brief's STATUS-commit hash is >1 commit behind current STATUS HEAD for that agent's directory.
+   - **(b) Convergence drill-down:** two or more briefs hint at a thread neither explicitly names — read both raw STATUSes to chase the connection.
+   - **(c) Cross-domain uncertainty:** a brief's CALIBRATION "uncertain about" names something in another agent's domain → read that other agent's STATUS to see if the uncertainty resolves there.
+   - Trigger (a) is mechanical / always fires. (b) and (c) require NEXUS-side judgment — exactly the Type B work this layer is for.
+   - **Drill-down is for chasing cross-agent threads, NOT for auditing within-domain work.** Reading raw STATUS to second-guess CARL's US-macro detail is the anti-pattern; reading it to chase a convergence neither CARL nor BRENT named is correct.
+   - **Tier-2 agents** (LABOR, HERMES, DARWIN, ZHAO, etc.) — no brief required; read STATUS directly when they're active in a pass.
 
 ### LIVE-EVENT OVERRIDE
 If a tier-1 macro event is firing during boot (NFP / CPI / FOMC / tier-1 auction tail / fired break-trigger from STATUS catalyst docket), short-circuit BOOT steps 2-6: do minimum-viable synthesis on the live event, write a single Δ to STATUS + outbox note to PROME, then return to full BOOT on next pass. Do not skip step 1.
@@ -120,12 +126,13 @@ Generic intake — "routed signals, however delivered":
 |--------|-------------|-------|
 | `inbox/` (NEXUS) | Routed-signal files (dated) | Full — primary signal source |
 | `AGENTS/SIGNALS.md` | Supplementary cross-agent log | Scan for new entries |
-| `AGENTS/*/STATUS.md` | Dashboard/header section | Headers only (first 30 lines) unless flagged |
+| `AGENTS/<TIER-1>/NEXUS_BRIEF.md` | Per-agent NEXUS-targeted brief (VIEW / CALIBRATION / CROSS-DOMAIN / NEXT / FORWARD CATALYSTS) | **Primary cross-agent intake** — read all Tier-1 briefs per BOOT step 6 |
+| `AGENTS/*/STATUS.md` | Raw state file | **Fallback only** — read when trigger (a)(b)(c) fires per BOOT step 6 |
 | `memory/auto/` (recent) | Recent findings/feedback that may change framework | Scan since last NEXUS run |
 | `PROME/STATUS.md` (if present) | Active positions, priorities | Positions + watchlist |
 | `PREDICTIONS_MONITOR.md` (NEXUS) | Prediction confidence + past-trigger items | Full at boot (per BOOT step 3) |
 
-**Do NOT read full STATUS files unless a specific signal warrants it.** Stay lean.
+**Default-read briefs, fallback to STATUS.** The brief is the standard Type B input (comparison across 13 standardized files); raw STATUS is for chasing threads briefs can't name.
 
 ---
 
@@ -142,6 +149,7 @@ Generic intake — "routed signals, however delivered":
 | `signals_archive/` | Consumed/resolved signals with mapping to convergences. |
 | `archive/` | Old STATUS snapshots, structural artifacts. |
 | `inbox/` (+ `processed/`) | Incoming routed signals. |
+| `templates/` | Canonical specs NEXUS owns for fleet use — `NEXUS_BRIEF_SCHEMA.md` (locked R3+amendment 7) + `NEXUS_BRIEF_TEMPLATE.md` (fleet rollout template). Schema iterations route through NEXUS. |
 | `outbox/` (+ `delivered/`) | Outgoing signals to other agents. |
 | `recon/` | Reconnaissance / audit reports. |
 
