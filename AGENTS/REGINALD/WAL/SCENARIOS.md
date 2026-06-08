@@ -1,12 +1,12 @@
 # WAL — Scenario Analysis & Target Prices
-**Created:** 2026-03-25 (v1.0) | **Last Updated:** 2026-06-08 (v2.2.1 — macro-NIM tailwind softening + cohort context ambiguous)
+**Created:** 2026-03-25 (v1.0) | **Last Updated:** 2026-06-08 PM (v2.2.1 — macro-NIM tailwind softening + cohort context RESOLVED → Hyp A genuine improvement)
 **Current Price:** **$80.15** (Fri 6/5 close per yfinance) | **TBV:** $61.14 | **P/TBV:** 1.31x | **CET1:** 11.0%
 **Short Interest:** 3.54% float / 2.71 days (Mar 25 — REFRESH PENDING)
 **Q1 2026 EPS:** $1.65 GAAP / $2.22 adjusted | **FY2025 NI:** $991M
 
 > **📐 OVERVALUATION CONVENTION (pinned 2026-06-08 v2.2.1):** Overvaluation = **(Price − EV) / EV**. All historical figures herein normalized to this denominator. Prior sessions used inconsistent denominators (sometimes ÷EV, sometimes ÷Price) — corrected below.
 
-> **v2.2.1 thesis framing** (per `THESIS.md` v2.2.1, refinement): v2.2 structural vectors UNCHANGED. v2.2.1 adds macro-NIM-tailwind softening (20Y auction clean + Waller pivot) trimming Bear-medium 30%→25% on **loss-absorption channel only** (timing handled by Sep tenor), and cohort-signal context (SIG-030 NPA improvement at 5/10 names ambiguous pending NCO decomposition — held open).
+> **v2.2.1 thesis framing** (per `THESIS.md` v2.2.1, refinement): v2.2 structural vectors UNCHANGED. v2.2.1 adds macro-NIM-tailwind softening (20Y auction clean + Waller pivot) trimming Bear-medium 30%→25% on **loss-absorption channel only** (timing handled by Sep tenor), and cohort-signal context (SIG-030 NPA improvement at 5/10 names — **RESOLVED 6/8 PM → Hyp A genuine cohort improvement**; WAL bear idiosyncratic, "sharpen to WAL-specific" earned, Bear-medium stays 25 / no revert).
 
 > **v2.2 thesis framing** (per `THESIS.md` v2.2, post 10-Q drill): WAL's concentrated CRE tail risk is **actualizing on Q2 timeline** — one quarter earlier than v2.1's bear-slow case priced. 10-Q subsequent-event note disclosed **$99M life-science office sponsor walk-away** (Bucket B1 fired); Chief Banking Officer Curley resigned same week; market reacted ~10% on combined news. **Bear-slow → Bear-medium speed.** V2 inventory test came back clean (no new Leucadia-era credits); V3 NDFI cohort-median confirmed via 10-Q breakout. V1 MI3 primary falsifier still hasn't run (FFIEC PDD pending). Short thesis is now *partially realizing*; Q2 print (late July) is the critical second-data-point test.
 
@@ -65,7 +65,7 @@
 | Base | 38% | 35% | **33%** | $70-78 | $70-77 | $73.50 | $24.26 |
 | Bull | 25% | 23% | **18%** | $84-92 | $82-90 | $86.00 | $15.48 |
 | Tail | 7% | 7% | **7%** | $35-45 | $35-45 | $40.00 | $2.80 |
-| **Expected Value** | | | **100%** | | | | **$67.98** |
+| **v2.2 Expected Value** | | | **100%** | | | | **$67.98** |
 
 **At v2.2 ship (spot $77.63) → ~14% over vs v2.2 EV $67.98** — *superseded; live v2.2.1 figure is spot $80.15 / EV $68.93 / 16.3% over, see top of file* (v2.1 was $70.50 / 13% over at $81.90; v2.0 was $72.32 / 11% over). Drawdown -5.2% from v2.1 base offset by EV drift -$2.50 (Bear-medium reweight) — overvaluation% similar but bear scenarios more probable.
 
@@ -428,4 +428,4 @@ The remaining mispricing is **structural CRE tail-risk concentration**, not **fa
 
 ---
 
-*KB evidence: 105 rows | Master thesis: `THESIS.md` v2.2 | Changelog: `CHANGELOG.md` | Weaknesses: `WEAKNESSES.md` | Q1 analysis: `Q1_2026_ANALYSIS.md` | Round 2 deck/press detail: `sources/q1_2026/` | 10-Q drill: `../research/WAL_10Q_DRILL_2026-05-21.md`*
+*KB evidence: 105 rows | Master thesis: `THESIS.md` v2.2.1 | Changelog: `CHANGELOG.md` | Weaknesses: `WEAKNESSES.md` | Q1 analysis: `Q1_2026_ANALYSIS.md` | Round 2 deck/press detail: `sources/q1_2026/` | 10-Q drill: `../research/WAL_10Q_DRILL_2026-05-21.md`*
