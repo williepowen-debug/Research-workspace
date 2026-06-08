@@ -8,6 +8,22 @@ Tracks all changes to `WAL/THESIS.md`. Reverse chronological. Mirrors format of 
 
 ---
 
+## 2026-06-08 (PM) — v2.2.1 intra-version: COHORT SIGNAL RESOLVED → HYPOTHESIS A (NCO decomposition)
+
+**Author:** REGINALD (Will-directed, Orchestrator-reviewed) | **No version bump** — evidence resolution of the open question v2.2.1 (AM) explicitly held open; no weight/EV/PT/prediction change.
+
+**Trigger:** Executed the queued ZION/CFG/MTB/FITB Q1 NCO decomposition (full record `research/COHORT_NCO_DECOMP_2026-06-08.md`). 5 parallel EDGAR pulls; decisive NCO ratios + all 5 NPA deltas re-verified by REGINALD self-curl.
+
+**Old view (AM v2.2.1):** Cohort signal AMBIGUOUS — 3 hypotheses (A genuine / B cosmetic / C mixed) all consistent with NPA-only data; "sharpen to WAL-specific" framing held OPEN as unforced narrowing; master STATUS "12/12 cohort fade intact" QUALIFIED.
+
+**New view (PM):** **Hypothesis A — genuine cohort improvement.** ZION/CFG/MTB all GENUINE (NPA ↓ AND NCO flat-to-falling, reserve builds/credit-healing release); FITB CONFOUNDED-excluded (−24bp NPA is Comerica-acquisition denominator artifact, NPA $ flat, NCO flat YoY; the $178M "asset-backed finance"/Tricolor charge-off was Q3'25 not Q1'26); EGBN COSMETIC-outlier (NCO doubled +89bp, confirmed exact). Tally: 3 genuine + 1 confounded + 1 cosmetic-outlier. The "cohort doing the EGBN trick" worry is REFUTED.
+
+**What it changes:** (1) "sharpen to WAL-specific" framing now **EARNED by data** — WAL bear stands on idiosyncratic legs (Office/B1/MI3/Curley), loses broad-cohort tailwind; (2) Bear-medium **stays 25, NO revert toward 30** (revert was the Hyp B path; Hyp A confirms the trim); (3) "12/12 cohort fade intact" **RETIRED** (contradicted on NCO line). **UNCHANGED:** EV $68.93, PT $50-68, REG-24 70% / REG-25 75%, all positions. Pre-registration note: the classification rule was fixed before data and the result *inverted* the working prior (Hyp B) — discipline check passed.
+
+**Steelman carried:** Q1 snapshot, $875B 2026 maturity wall ahead (re-openable Q2/Q3); MTB releasing CRE reserves hard into the wall; decomposes NCO/NPA not leading buckets; crowded-short-unwind risk ticks up if WAL bear is purely idiosyncratic (print-day flag).
+
+---
+
 ## 2026-06-08 — v2.2.1: NIM-TAILWIND DOUBLE-STACK SOFTENING + COHORT CONTEXT AMBIGUOUS (BOARD-batch audit + Orchestrator review)
 
 ### THESIS Updated → v2.2.1
