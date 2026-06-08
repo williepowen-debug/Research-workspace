@@ -17,7 +17,7 @@ Three domains: (1) International Visitor Flows (Canadian collapse -28%), (2) Wor
 
 ## SPAWN PROTOCOL
 
-**Boot and closeout are one symmetric sequence: what you READ at boot, you WRITE BACK at closeout.** The CLOSEOUT phase runs at **EVERY session end, not just end-of-day** — it is the back half of this protocol, not optional. Read→write pairings: STATUS (read 1 → write 5), SCRATCH (read 2 → write 9), predictions-due (surface 3 → resolve 6).
+**Boot and closeout are one symmetric sequence: what you READ at boot, you WRITE BACK at closeout.** The CLOSEOUT phase runs at **EVERY session end, not just end-of-day** — it is the back half of this protocol, not optional. Read→write pairings: STATUS (read 1 → write 5), SCRATCH (read 2 → write 9), predictions-due (surface 3 → resolve 6). `NEXUS_BRIEF.md` is a write-only cross-agent twin of SCRATCH (write 10, mandatory every session — no boot-read pairing).
 
 ### Boot (read phase)
 1. **Read `STATUS.md`** — active situations, signal dashboard, confirmed findings, thesis-inflection block.
@@ -33,13 +33,14 @@ Three domains: (1) International Visitor Flows (Canadian collapse -28%), (2) Wor
 7. **Workbook updates** — new facts/claims → `workbook/KB.tsv`; changed indicator levels/status → `workbook/VX.tsv`; transmission/cascade mechanics → `workbook/FLOW.tsv`.
 8. **ROOMS + forward-state maintenance** — archive any closed `thread.md` → `sub_agents/[NAME]/threads/archive/` + one-line in `threads/INDEX.md`; log sub-agent "Requires cross-agent input" items → `DEFERRED.md`; update `COUPLINGS.md` if edges changed; refresh the docket — `docket/CATALYSTS.tsv` (machine feed, source-of-truth) + `docket/CALENDAR.md` (countdown twin): re-date passed rows, prune resolved ones to `thesis/TIMELINE.md`, re-date the recurring monthly anchors. STATUS `KEY DATES` is now a pointer to the docket, not a parallel list.
 9. **Rewrite `SCRATCH.md`** as the canonical session handoff: CHANGES SINCE (what moved while offline) / WHAT I DID / NEXT SESSION (dated, future-verifiable) / OPEN THREADS / one-line mail state. *(Mirror of boot 2. `LAST_COMPLETION.md` is legacy — SCRATCH supersedes it.)*
-10. **Promotion scan** — thesis-level finding (new channel, conviction shift, threshold breach, prediction resolution) → `thesis/THESIS.md` + log old→new view in `thesis/CHANGELOG.md` with version bump (major = structural/conviction reversal, minor = refinement); update `thesis/TIMELINE.md` if a tracked event resolved. Transferable cross-agent lesson → auto-memory (`~/.claude/projects/-home-willi-Research-workspace/memory/` + one-line index in its `MEMORY.md`); cross-agent signals → `outbox/` per Outbox Protocol.
-11. **Git** — per root CLAUDE.md: `git reset HEAD` → `git add AGENTS/MARCO/` → `git diff --cached --stat` (verify nothing outside your dir) → commit → push (pull-rebase first if origin diverged). If blocked by other agents' uncommitted work, **note the pending push in `SCRATCH.md`** and defer.
-12. **Research detail → `domain/sources/` or `baselines/`.**
+10. **`NEXUS_BRIEF.md` write-back (MANDATORY every session, even no-change)** — the cross-agent synthesis twin of SCRATCH; schema `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md`. Minimum each session = refresh the `As of:` stamp + `STATUS commit:` hash so staleness self-corrects; material STATUS change → brief content updates same session. **Protect CROSS-DOMAIN + CALIBRATION-divergence under length pressure; compress upward from FORWARD CATALYSTS** (100-line cap, MARCO lands ~78). **Reference canonical sources, never restate** (PREDICTIONS scoreboard, full THESIS, CATALYSTS). Cross-agent-tensions line REQUIRED (`None active this cycle` if empty). No position P/L — MARCO carries none anyway. *(NEXUS reads this at its boot in place of raw STATUS; raw-STATUS fallback only on its triggers a/b/c.)*
+11. **Promotion scan** — thesis-level finding (new channel, conviction shift, threshold breach, prediction resolution) → `thesis/THESIS.md` + log old→new view in `thesis/CHANGELOG.md` with version bump (major = structural/conviction reversal, minor = refinement); update `thesis/TIMELINE.md` if a tracked event resolved. Transferable cross-agent lesson → auto-memory (`~/.claude/projects/-home-willi-Research-workspace/memory/` + one-line index in its `MEMORY.md`); cross-agent signals → `outbox/` per Outbox Protocol.
+12. **Git — pathspec commits, never `git reset HEAD`** (shared `.git/index` makes reset a global op that clobbers other agents' stages; see auto-memory `[[finding_pathspec_commit_race_safety]]`). Modified files: `git commit AGENTS/MARCO/<file> -m "…"`. New untracked files: atomic `git add <specific files> && git commit <same files> -m "…"` — explicit paths only, never `git add AGENTS/MARCO/` as a directory. Push only when Will coordinates (`[[feedback_defer_push_coordinate]]`); if blocked, **note the pending push in `SCRATCH.md`** and defer.
+13. **Research detail → `domain/sources/` or `baselines/`.**
 
 **Discipline overlay (throughout closeout):** one source of truth per metric — own it in the owner doc, reference from others; never write the same value twice. Stale-marked > carried-forward-as-current — if you can't refresh a value, mark it `[STALE]` with the date.
 
-**Infrastructure (built — maintain in closeout):** `docket/` (machine-feed forward-state, step 8) and `thesis/` (versioned thesis machinery, step 10) are both built — MARCO now mirrors the full SAM/CARL/BRENT shape. Forward-state lives in `docket/CATALYSTS.tsv` + `docket/CALENDAR.md`; thesis-level branch points in `thesis/TIMELINE.md`. No remaining deferred builds.
+**Infrastructure (built — maintain in closeout):** `docket/` (machine-feed forward-state, step 8), `thesis/` (versioned thesis machinery, step 11), `scripts/boot.py` (automated boot sweep, boot step 3), and `NEXUS_BRIEF.md` (cross-agent brief, closeout step 10) are all built — MARCO now mirrors the full SAM/BRENT shape including the automation + cross-agent-brief layers. No remaining deferred builds.
 
 **MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
 
@@ -208,6 +209,7 @@ After close: move `thread.md` content to `sub_agents/[NAME]/threads/archive/YYYY
 | `docket/CATALYSTS.tsv` | **Forward-state machine feed** (built 2026-05-31) — dated catalysts, threshold-signals, cross-agent routing. Source-of-truth for forward dates. |
 | `docket/CALENDAR.md` | Countdown twin of the docket — forward catalysts grouped by window, day-counts. Prose/narrative; TSV owns fields. |
 | `EXPECTED_SIGNALS.md` | "Absence-is-information" tracker — signals that should appear if thesis holds. Complements PREDICTIONS.tsv. |
+| `NEXUS_BRIEF.md` | **Cross-agent synthesis brief** (schema R3+amd7) — NEXUS reads this at its boot in place of raw STATUS. Write-back MANDATORY every session (closeout step 10). Twin of SCRATCH for the cross-agent surface. |
 | `TRADE.md` | Position ideas |
 | `RESEARCH_STATUS.md` | Research tracking (check before starting new research) |
 | `baselines/` | Airport data, tourism baselines + domain-fetcher outputs (`slaughter_weekly.tsv`, `h2a_latest.tsv`, `banxico_*.tsv`). |
