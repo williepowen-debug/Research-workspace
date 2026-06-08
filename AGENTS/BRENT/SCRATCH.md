@@ -1,95 +1,97 @@
-# BRENT SCRATCH — Sun Jun 7, 2026 (5:38 PM ET — pre-Mon-open data catch-up session)
+# BRENT SCRATCH — Sun Jun 7, 2026 (night — OPEC integration + NEXUS_Brief build session)
 
-**Purpose:** Ephemeral session handoff — the canonical "where are we / what next" file. Read at boot (SPAWN PROTOCOL step 2), rewritten in full at closeout (step 11). Disposable; rewritten every session, not appended to. Persistent learnings live in `MEMORY.md`; dated forward catalysts live in `docket/CATALYSTS.tsv` (maintained by [FASTOW](docket/FASTOW.md) sub-agent); this file is the bridge between sessions.
+**Purpose:** Ephemeral session handoff — the canonical "where are we / what next" file. Read at boot (SPAWN PROTOCOL step 2), rewritten in full at closeout (step 11). Disposable; rewritten every session. Persistent learnings live in `MEMORY.md`; dated forward catalysts live in `docket/CATALYSTS.tsv` (FASTOW); cross-agent synthesis lives in `NEXUS_BRIEF.md` (now the primary cross-agent channel).
 
 ---
 
-## CHANGES SINCE LAST SESSION (Jun 4-5 → Jun 7)
+## CHANGES SINCE LAST SESSION (Jun 7 5:38 PM → Jun 7 night)
 
-- **Brent FADED across the week.** Mon Jun 1 close $95.13 → Fri Jun 5 close **$94.66** (-0.5% week). Tasnim-suspension premium has fully bled out. Boot.py futures live $93.09 pre-Globex (Sun 5:38 PM ET).
-- **Iran kinetic ESCALATED but contained.** Jun 5: 7 ballistic missiles at Kuwait + Bahrain (vs Jun 1's 2 at Kuwait — escalation in volume + scope; new Bahrain target). 4 Iranian drones launched at Hormuz, all shot down by CENTCOM. Another 2 drones in 24hr to Jun 7, both downed. Iran fired missiles at Israel first time in 2 months (Day 100). Israel struck Beirut Sunday defying US stand-down request. **Every Iran projectile in published feed intercepted; no facility damage.**
-- **Trump+Rubio responded Jun 2 — DENIED suspension.** Both publicly said talks continue. Trump (ABC News Mon eve): deal reachable "next week." Rubio specified 4 reopen terms (declare strait open, no toll, help remove mines, no fire on commercial vessels). MOU on-ice, not dead. Iran-walked thesis MITIGATED.
-- **🔴 NEW: Macro transmission channel firing — biggest read of the week.** Jun 5 NFP **172K vs 80K consensus** (>2x beat); Fed futures now price year-end rate HIKE; **VIX +39.68% Fri to 21.51**; Nasdaq -4.18%; Broadcom AI-miss + tech wreck wiped ~$1T mcap. CNN narrative explicitly tied to "inflation heating up because of the oil spike from the war with Iran." **BRT-16 sequential-macro-damage chain firing visibly for first time at market scale.** CARL/HENRY/LIQUID/REGINALD now downstream of BRENT.
-- **Baker Hughes Jun 5: 431 oil (+2 WoW)** — pace decelerated from +4/wk. 26 to 457 threshold.
-- **BRT-15 war-risk leg fully UNWOUND across the week** despite Iran 7-missile salvo. STNG/DHT tracked DOWN on missile-launch days. Market has decided escalation-without-damage is the regime. Will's Jun 4 Option-B (wait for kinetic-trigger re-fire) validated.
-- **Bab al-Mandab (BRT-28):** Houthi quiet — no commercial vessel attacks in 2026. Rhetorical state holding; conf revised down 45% → ~35%.
-- **OPEC+ Jun 7 Vienna — ✅ FIRED & INTEGRATED (Sun night follow-up session).** 7-member group +188K bpd for July (4th straight hike, gradual unwind continues = base case); full OPEC+ no change to group policy through end-2026; UAE orphan-baseline NOT reallocated, deferred to 2027 capacity review (defense posture). 188K is paper + small + trapped behind Hormuz (LESSONS #10) → optically mildly bearish, functionally neutral. No matrix/thesis/position change. [CONF CNBC/AA/TradeArabia Jun 7]. CATALYSTS row → FIRED, STATUS updated.
+- **OPEC+ Jun 7 Vienna FIRED & integrated.** 7-member group **+188K bpd for July** (4th straight hike, gradual unwind continues = base case); full OPEC+ no change to group policy through end-2026; **UAE orphan-baseline NOT reallocated — deferred to 2027 capacity review** (defense posture). 188K is paper + small + trapped behind Hormuz (LESSONS #10) → optically mildly bearish, functionally neutral. No matrix/thesis/position change. [CONF CNBC/AA/TradeArabia Jun 7]
+- Otherwise no new market data (weekend; Globex Sun 6 PM ET, first real read Mon AM).
 
 ## NEW THIS SESSION
 
-- **STATUS.md** full refresh — new convergence-matrix row (Macro transmission, 🟠3 firing); Brent + Tanker downgraded 🟠4→🟠3 on market decoupling; Kinetic 🔴5 reinforced; full Wed-Fri news catch-up with Jun 5 NFP / VIX spike narrative integrated.
-- **`docket/CATALYSTS.tsv`** updated — pruned Jun 3 + Jun 5 FIRED rows per 1-wk rule; refreshed Jun 7 OPEC+ row to TODAY status; added Jun 12 CFTC COT (post-suspension) + Jun 15 BRT-27 + Jul 1 BRT-28 rows. 12 rows (10 confirmed, 2 modeled).
-- **`thesis/PREDICTIONS.tsv`** touched 4 rows: BRT-16 (NOW FIRING VISIBLY — macro transmission engaged), BRT-26 (431 +2 WoW, decelerated, 52-55% conf), BRT-27 (trending partial-confirm, conf 55→65%), BRT-28 (rhetorical state holding, conf 45→35%).
-- No new auto-memories this session — pattern observed (kinetic-decoupling from oil tape, macro-transmission firing) is thesis-tracking, not transferable architecture.
+- **OPEC integration** → CATALYSTS Jun 7 row → FIRED; STATUS header/LIVE-TODOs/matrix/open-items/calendar all updated; SCRATCH. Commit `7c178f1c`.
+- **STEO drift fix** — caught 4 stale STATUS refs putting STEO at Jun 11; corrected to **Tue Jun 9** (canonical CATALYSTS + boot.py confirm; OPEC MOMR is the Jun 11 event). Same commit.
+- **🆕 NEXUS_BRIEF.md built** (`AGENTS/BRENT/NEXUS_BRIEF.md`, 81 lines, under 100 cap) — pilot-2, heavy-cross-domain. Commit `b41ab19a`.
+- **CLAUDE.md** — wired brief write-back as CLOSEOUT **step 12** (twin of SCRATCH; renumbered promotion→13, git→14); encoded Will's decision that **NEXUS_BRIEF CROSS-DOMAIN tables = BRENT's PRIMARY cross-agent channel** (outbox now 🔴 acute-only). Commits `b41ab19a` + `6bce5a58`.
+- **Pilot-2 consumer review** (spawned NEXUS-proxy) → `inbox/2026-06-07_from-NEXUS_brief_pilot2_review.md`. Verdict: **RATIFY at heavy end**; load-bearing PARTIAL→clean-YES after fixing one defect (missing REGINALD SENDING edge). Applied 4 edits. Commit `6bce5a58`.
+- **Fallback-rate instrumentation** — spec authored (`outbox/2026-06-07_to-NEXUS_fallback_rate_instrumentation.md`, commit `b9764789`) then **APPLIED LIVE to NEXUS via proxy** (commit `59bbc407`, within AGENTS/NEXUS/): new `brief_fallback_log.tsv` + BOOT-step-6 addendum + CLOSEOUT step 9a. Key design: classify fallbacks `stale`/`convergence`/`uncertainty`/**`brief-gap`** — only `brief-gap` rate is the quality signal (total fallback rate would mispenalize Type-B-rich agents like BRENT). Provenance noted for live-NEXUS to review on next boot.
 
 ## WHAT I DID THIS SESSION
 
-- Boot sequence per SPAWN PROTOCOL: STATUS + SCRATCH + LESSONS read; boot.py ran (8.7s) — surfaced VIX +39.68% as the big anomaly.
-- Parallel news sweep — 6 web searches in one message, then 4 follow-ups (per `[[feedback_parallel_spawn_independent_agents]]`). Got: OPEC+ context (meeting TODAY, no outcome yet in search), VIX-spike catalyst (NFP+tech), CFTC partial (ICE Europe only, not clean NYMEX), Baker Hughes (431), Iran weekend (Jun 5 7-missile salvo; Trump-Rubio Jun 2 denial), Bab al-Mandab (Houthi quiet), Brent close/structure (Fri $94.66, backwardation $94.22→$85.79), May NFP (172K beat).
-- Tasks tracked: 6 tasks created Jun 7 spawn; all 5 research tasks completed; STATUS+SCRATCH+TSVs the 6th (in-progress).
-- Write-back per closeout protocol: STATUS (full) → CATALYSTS (refresh) → PREDICTIONS (4 row updates) → SCRATCH (this).
+- Boot per SPAWN PROTOCOL (git pull clean, STATUS/SCRATCH/LESSONS read, boot.py 10s, predictions scanned — none DUE).
+- Pulled the OPEC+ Jun 7 outcome (it was PENDING at the 5:38 PM session, deferred to Mon — Will asked, so I pulled it tonight) + integrated.
+- Scouted the NEXUS_Brief system (NEXUS schema R3+am7, SAM pilot + reviews, NEXUS boot integration), built BRENT's brief, ran proxy consumer-review, wired closeout, applied instrumentation live.
+- Gave Will an honest systems-assessment of the brief concept (works in proportion to maintenance discipline + NEXUS cadence; failure modes = quality-decay-behind-freshness + single-point-of-failure on NEXUS).
 
 ## NEXT SESSION (dated, future-verifiable)
 
-1. ✅ **DONE (Sun night)** — OPEC+ Jun 7 integrated (+188K July, base case, no thesis change). Mon AM: just check Brent *open reaction* to the decision (likely muted — base case, paper add).
-2. **Mon Jun 8 AM** — **CF $130C mark** + first intraday move vs USO (chain-decoupling check). HOLD-confirmed Will Jun 1 PM; revisit if Mon shows continued decoupling.
-3. **Wed Jun 10** — **EIA WPSR (week Jun 5) = THE BIG PRINT.** SPR ~350M floor-touch (DIRECTIONAL — throttle bullish, drain-through near-term bearish + medium-term bullish, **NOT symmetric**). First clean post-Memorial-Day demand read (BRT-08/09 resolution candidate).
-4. **Thu Jun 11** — EIA STEO June (first post-suspension; Q2 Brent peak ($115 Apr) likely revised UP).
-5. **Fri Jun 12** — CFTC COT (Jun 2 week, post-suspension) = the real Trigger #3 re-fire test. Baker Hughes (BRT-26 vs 457; 431 last; pace +2).
-6. **Sun Jun 15** — BRT-27 walkback deadline (now trending partial-confirm per Trump/Rubio Jun 2 channel-open posture).
-7. **Wed Jun 18** — CF $130C expiry (now 11 trading days).
-8. **~Jul 1** — Cushing 20M floor (modeled); BRT-28 Bab al-Mandab 30-day window closes (rhetorical state holding through Jun 7).
+1. **Mon Jun 8 AM** — Brent **open reaction to OPEC+** (expect muted — base case, paper add) + **CF $130C mark** + first intraday move vs USO (chain-decoupling check; HOLD-confirmed Will Jun 1, revisit if continued decoupling). ~8 trading days to CF expiry.
+2. **Tue Jun 9** — **EIA STEO (June)** — first post-suspension; Q2 Brent peak ($115 Apr) likely revised UP.
+3. **Wed Jun 10** — **EIA WPSR (week Jun 5) = THE BIG PRINT.** SPR ~350M floor-touch (DIRECTIONAL — throttle bullish / drain-through near-term bearish + medium-term bullish, NOT symmetric). First clean post-MD demand read (BRT-08/09 candidate).
+4. **Thu Jun 11** — OPEC MOMR (June), first post-Vienna.
+5. **Fri Jun 12** — CFTC COT (Jun 2 wk, post-suspension) = real Trigger #3 re-fire test; Baker Hughes (431 last, +2 WoW, vs 457).
+6. **Sun Jun 15** — BRT-27 walkback deadline (trending partial-confirm).
+7. **Thu Jun 18** — CF $130C expiry.
+8. **~Jul 1** — Cushing 20M floor (modeled); BRT-28 Bab al-Mandab window closes.
+9. **Every closeout now** — refresh `NEXUS_BRIEF.md` (step 12). Keep SENDING/WAITING-FOR fresh — that IS BRENT's cross-agent comms now.
 
-## NEXT SESSION (Tier 2 — architecture priorities carried forward)
+## NEXT SESSION (Tier 2 — carried forward)
 
-9. **FASTOW Run 1 smoke test** — first real spawn against the spec built Jun 4-5. Will: "We will run the test for FASTOW in a future session - I wont forget." Will-driven; do not initiate without his cue.
-10. **BRENT-KURA-analog (workbook keeper)** — workbook KB/VX/FLOW dormant 6+ wks. Revive-vs-demote decision still OPEN with Will. Tier 2 carry.
-11. **THESIS.md v3.1 bump candidate** — macro-transmission engagement Jun 5 is the kind of evidence that warrants a version bump (BRT-16 firing visibly is a thesis-level event). Recommend rewrite after Jun 7 OPEC+ + Jun 10 EIA + Jun 11 STEO are all in (the right time to refresh).
-12. **Crack-spread refresh** (last Mar 27 $42 3:2:1) — should compress on faded Brent + summer util ramp; BRT-12 channel test setup.
-13. **Dated Brent Platts** — terminal-only; last $144.42 Apr 11. STALE.
+10. **THESIS.md v3.1 bump candidate** — macro-transmission engagement Jun 5 is thesis-level; right time = after Jun 9 STEO + Jun 10 EIA are in.
+11. **FASTOW Run 2** — cheap (~3-5 min; monthly trigger doesn't fire until Jul 1).
+12. **Workbook KB/VX/FLOW** — dormant 6+ wks; revive-vs-demote decision still OPEN with Will.
+13. **Crack-spread refresh** (last Mar 27 $42 3:2:1) — BRT-12 channel test setup.
 
 ## OPEN THREADS / WATCHES
 
-- ✅ **OPEC+ Jun 7 — RESOLVED** (+188K July, gradual unwind, baseline deferred to 2027 review). Only residual: watch Brent Mon open reaction (expect muted).
-- 🔴 **SPR ~350M floor watch (Jun 10 EIA)** — DIRECTIONAL, not symmetric. Don't lock to throttle-as-given.
-- 🔴 **Macro transmission propagation** — Fri NFP+VIX spike is the start; watch whether HY OAS catches up this week (LIQUID primary), whether Treasury sells continue, whether tech-wreck spreads to broader cyclicals. CARL/HENRY/LIQUID/REGINALD now downstream of BRENT thesis.
-- 🔴 **MOU stalemate durability** — Iran walked, US kept channel open, no progress Jun 7. Watch for Iran public re-engagement signal in next 8 days (BRT-27 by Jun 15).
-- 🟠 **Bab al-Mandab credibility (BRT-28)** — rhetorical state holding; conf reduced 45→35%. Watch Houthi tempo / Bab vessel-traffic.
-- 🟠 **BRT-15 re-arm watch** — fresh kinetic-with-facility-damage, US-Iran direct exchange, Hormuz vessel attack, or barnacle re-surfacing.
-- 🟠 **CF chain-decoupling** — 2-day pattern (Jun 1 up-with-up, Jun 4 up-with-down). Mon AM mark + first move vs USO will tell. If decoupling persists, near-write-off odds tighten ahead of Jun 18.
-- 🟠 **CFTC COT Jun 12 (Jun 2 week)** — first post-suspension; Trigger #3 re-fire test.
-- 🟠 **BRT-26 shale response** — 431 (+2); 26 to 457; pace decelerated +4→+2; razor-thin path to expiry.
-- 🟠 **Trigger #1 (M1-M3 ≤$3)** — Fri Brent curve $94.22→Dec26 $85.79 suggests M1-M3 re-steepened FAR from $3 threshold on suspension week. ICE CONF still pending.
-- 🟠 **WTI-Brent spread** — narrowed to -$2.01 Fri (from Mon -$3.27). Tracking together; no decoupling.
-- 🟡 **HY energy OAS catch-up** — credit dismissed Brent moves through April; macro-vol spike Fri may force catch-up this week.
-- 🟡 **Crude import 4-wk YoY -4.5%** — direction real, cause unconfirmed (supply vs demand vs inventory mix).
+- 🔴 **Macro transmission propagation** — watch whether HY OAS catches up to Fri's VIX +40% (LIQUID primary); whether the BRT-16 cascade is one root or independent moves (the Type-B candidate I handed NEXUS).
+- 🔴 **SPR ~350M floor (Jun 10)** — directional, not symmetric.
+- 🟠 **CF chain-decoupling** — Mon AM mark gates re-eval.
+- 🟠 **BRT-15 re-arm** — fresh kinetic-with-facility-damage / US-Iran direct exchange / Hormuz vessel attack / barnacle re-surfacing.
+- 🟠 **Trigger #1 (M1-M3 ≤$3)** — likely re-steepened FAR from threshold; ICE CONF pending.
+- 🟡 **HY energy OAS catch-up**, crack refresh, dated-Brent-Platts (terminal-only).
+
+### NEXUS_Brief thread — queued for LIVE NEXUS (its calls, not BRENT's)
+- **Amendment-9 (CASCADE sub-block)** — real heavy-domain gap; structured home for multi-hop chains (ties to Discipline F). Raised in pilot-2 review + brief footer.
+- **Amendment-10 (acute-vs-steady marker)** — soft; now that brief is primary channel.
+- **Light-end pilot still un-run** — HAWK is the nominated single-channel candidate (Will refreshing HAWK tomorrow = natural moment).
+- **Cap** — BRENT (81) is a co-anchor with SAM (75) for "heaviest real domain"; provisional 100 holds.
+- **Fallback instrumentation now LIVE in NEXUS** — awaiting live-NEXUS review on its next boot (proxy-applied, provenance noted).
 
 ## POSITION DECISIONS PENDING
 
-- **CF $130C Jun 18** — HOLD CONFIRMED (Will, Jun 1 PM). **11 trading days to expiry.** CAVEAT: 2-day chain-decoupling pattern. **Flag for revisit if Mon AM mark + first intraday move vs USO shows continued decoupling.** No active re-eval scheduled per Jun 1 Will call.
-- **XLE $65C Sep 30** — HOLD. XLE $57.67 Fri close, strike $7.33 OTM (~12.7%, basically flat to Mon's $7.75). Kinetic-tail insurance NOT being paid on escalation-without-damage. 4 months runway is the asset; strike comes into reach on damage event, sustained $95-105 grind, or Plan B activation.
-- **Tanker BRT-15** — TABLED Jun 4 (Option B). War-risk leg fully unwound through Wed-Fri. Re-arm watch in Open Threads.
+- **CF $130C Jun 18** — HOLD CONFIRMED (Will, Jun 1 PM). ~8 trading days. CAVEAT: chain-decoupling pattern. Revisit if Mon AM mark + first move vs USO shows continued decoupling.
+- **XLE $65C Sep 30** — HOLD. XLE $57.67 Fri, strike $7.33 OTM. Kinetic-tail insurance NOT being paid on escalation-without-damage. 4mo runway is the asset.
+- **Tanker BRT-15** — TABLED Jun 4 (Option B). War-risk leg fully unwound. Re-arm watch above.
 
 ## MAIL STATE (one line per signal)
 
-- **Inbox:** clear (cross-agent intake on hold per `[[project_messaging_overhaul]]`).
-- **Outbox:** clear (cross-agent signals deferred per same direction).
+- **Inbox:** 1 item — `2026-06-07_from-NEXUS_brief_pilot2_review.md` (the proxy consumer-review; integrated, edits applied; keep as pilot-2 reference, do NOT process-move yet — it's a live artifact).
+- **Outbox:** 1 item — `2026-06-07_to-NEXUS_fallback_rate_instrumentation.md` (spec; already applied live to NEXUS, so this is now a record/reference — HERMES delivery moot).
 
 ## WORKBOOK HEALTH
 
-- **`thesis/PREDICTIONS.tsv`:** green; 28 rows (10 OPEN active + BRT-15 tabled). Updated 4 rows this session (BRT-16/26/27/28). All OPEN rows have future timeframes; no DUE-stale rows.
-- **`docket/CATALYSTS.tsv`:** green; refreshed Jun 7 (pruned Jun 3+Jun 5 FIRED per 1-wk rule; added Jun 12 COT/BH, Jun 15 BRT-27, Jul 1 BRT-28). 12 rows (10 confirmed, 2 modeled). Maintained by [FASTOW](docket/FASTOW.md).
-- **`docket/FASTOW.md` + `docket/FASTOW_MEMORY.md`:** **Run 1 EXECUTED Sun Jun 7 ~17:40 ET.** Clean run (~9 min, within budget). Caught real bug: EIA STEO date was wrong Jun 11 → corrected to Jun 9 in BOTH TSV + STATUS (FASTOW verified vs eia.gov source-of-truth; I had propagated my own error into STATUS earlier in session without source-check). Baseline audit proposed 28 candidates; BRENT applied 12-row light-convention delta (5 monthly + 6 weekly rolling + CPI Jul 15) + CALIBRATION decline entry for "weekly forward expansion past rolling next-2." TSV now 24 rows. PENDING cleared. Run 2 cost expected 3-5 min (monthly trigger doesn't fire until Jul 1).
-- **`workbook/KB.tsv` / `VX.tsv` / `FLOW.tsv`:** DORMANT 6+ wks. **OPEN DECISION for Will: revive vs demote.** Tier 2 carry.
-- **`thesis/THESIS.md`:** still v3.0. **Recommend v3.1 bump candidate** after Jun 7+Jun 10+Jun 11 catalyst suite — macro-transmission engagement Jun 5 is thesis-level.
-- **`refinery_damage/INCIDENTS.tsv`:** 35 rows + scope-header. Green. No new facility-damage events Wed-Fri (kinetic was all intercepts, no facility hits).
+- **`NEXUS_BRIEF.md`:** 🆕 LIVE, 81 lines, rev-2. Hash 7c178f1c = current STATUS HEAD (NEXUS mechanical stale-check won't false-fire). Refresh every closeout (step 12).
+- **`thesis/PREDICTIONS.tsv`:** green; no DUE-stale rows. No changes this session (BRT-07/11 unaffected by OPEC base-case outcome).
+- **`docket/CATALYSTS.tsv`:** green; Jun 7 OPEC row → FIRED. FASTOW-maintained.
+- **`workbook/KB/VX/FLOW.tsv`:** DORMANT 6+ wks — Tier-2 revive/demote decision open.
+- **`thesis/THESIS.md`:** v3.0; v3.1 bump candidate post Jun-9/Jun-10 catalysts.
+- **`refinery_damage/INCIDENTS.tsv`:** 35 rows; green; no new facility-damage (kinetic all intercepts).
 
 ## GIT STATE
 
-- **Session start state:** SAM had 2 uncommitted files in workbook/ (FXY_OPTIONS.tsv, USDJPY.tsv). Per `[[feedback_agent_git_isolation]]` left untouched. Local was at origin/master so no pull needed.
-- **Commits this session:** pending closeout commit (STATUS + CATALYSTS + PREDICTIONS + SCRATCH).
-- **Push:** per `[[feedback_defer_push_coordinate]]` — commit locally, defer push for Will to coordinate. Note in this SCRATCH that BRENT has 1 pending commit at Sun Jun 7 closeout.
+- **Commits this session (all within AGENTS/BRENT/ except the proxy's NEXUS commit):**
+  - `7c178f1c` STATUS/CATALYSTS/SCRATCH — OPEC integration + STEO fix
+  - `b41ab19a` NEXUS_BRIEF.md + CLAUDE.md closeout wiring
+  - `6bce5a58` pilot-2 review + brief edits + channel decision
+  - `b9764789` fallback instrumentation spec (outbox→NEXUS)
+  - `59bbc407` **NEXUS** files (proxy-applied instrumentation; within AGENTS/NEXUS/)
+  - + this closeout commit (SCRATCH + brief stamp)
+- **VIOLET** has 2 uncommitted workbook files (VIX_OPTIONS.tsv, VX_DAILY.tsv) — left untouched per `[[feedback_agent_git_isolation]]`. They do NOT block a push (push only sends commits).
+- **Push:** Will authorized "push if safe." Pushed this session IF remote not diverged (no pull needed). If remote diverged, deferred (can't safely pull --rebase with VIOLET's uncommitted files present per pull protocol).
 
 ## NEW AUTO-MEMORY THIS SESSION
 
-None. The kinetic-decoupling-from-tape pattern and macro-transmission-engagement are thesis-tracking observations, not transferable architectural lessons. Both are captured in STATUS Jun 7 + PREDICTIONS BRT-15/BRT-16 update text.
+- **Candidate (not yet written, flagged for Will):** *"Fallback/escalation instruments should measure the actionable category, not the gross rate — a Type-B-rich (highly-connected) node legitimately generates high healthy-drill-down volume, so total-rate mispenalizes the best nodes; isolate the one category that means 'this node is failing.'"* Transferable beyond NEXUS. Also a meta-lesson: a cross-agent synthesis schema must be stress-tested on BOTH heavy axes (single-deep-catalyst AND many-shallow-edges) — they surface different gaps (BRENT's cascade gap was invisible to SAM's pilot). Holding pending Will's call since it's NEXUS-system territory.

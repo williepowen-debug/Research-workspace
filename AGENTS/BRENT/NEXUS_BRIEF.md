@@ -5,7 +5,7 @@
 **Thesis version:** v3.0
 **Recent thesis pivot:** Jun 5 view shift (v3.1 pending): kinetic→price DECOUPLED + BRT-16 macro-transmission now firing visibly. Bump gated on Jun-9 STEO / Jun-10 EIA.
 **Position:** XLE $65C Sep-30 (kinetic-tail insurance, OTM); CF $130C Jun-18 (decoupling-from-crude watch) — structural only; marks in STATUS/FORGE, no P/L here
-**As of:** 2026-06-07 ~PM ET (STATUS data through Fri 6/5 close + OPEC+ Jun-7 outcome) | STATUS commit: 7c178f1c
+**As of:** 2026-06-07 Sun night ET (rev-2: pilot-2 review edits applied; STATUS data through Fri 6/5 close + OPEC+ Jun-7 outcome) | STATUS commit: 7c178f1c
 
 ---
 
