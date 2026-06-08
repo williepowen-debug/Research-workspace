@@ -8,6 +8,43 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-06-08 PM — DOC + HOMER sub-agent refresh integrated; CRL-03 mechanism reframed (extend-and-pretend); 4 new VX rows; no thesis version bump
+
+### PREDICTIONS.tsv — no changes; CRL-03 confidence HELD 72%
+**Author:** CARL (Will-directed sub-agent refresh; 3 spawn rounds incl. error-correction round).
+
+**Workflow notes:**
+- **DOC spawned (round 1)** to refresh healthcare-cost-stress dashboard ahead of Wed Jun 10 CPI + Jun 16-17 FOMC. Returned 3 SVs + STATUS refresh.
+- **HOMER spawned (round 1)** to refresh housing-stress dashboard for Jun 16-30 cluster. Returned with CRL-03 invalidation lean (72% → 30%) citing Trepp CMBS MF May "6.57% (-46bps reversal)" as cross-confirmation of Fannie Apr -14bps direction.
+- **HOMER round 2 (disambiguator)** sent to test extend-and-pretend hypothesis (REO completions + mod activity + MF FC pipeline). **HOMER self-caught a year-misread**: the Trepp "-46bps reversal" was **May 2025**, not 2026. Actual Trepp CMBS MF Apr 2026 = **7.71% NEW ATH (+56bps MoM)**. Series did NOT cross-confirm — they diverged. Round 1's invalidation argument collapsed.
+- **HOMER round 3 (cleanup)** sent to purge round-1 framing from HOMER's files + codify year-verification discipline. SV-01 moved to `corrected/` with corrected-header; STATUS audited end-to-end (5 additional contamination sites fixed beyond the masthead); calibration rule added: *"Before citing any web-pulled metric as load-bearing, confirm the year explicitly from the primary source — relative phrasing ('May print') is INSUFFICIENT. If primary source isn't fetchable, the metric stays in OPEN QUESTIONS until verified."*
+- **The disambiguator pass earned its keep.** Round 2 wasn't sent to catch an error — it was sent to test a hypothesis. Agent self-corrected by going to fresh sources. Auto-memory promotion candidate: **sub-agent year-verification discipline** (transferable to BRENT/SAM/REGINALD/HENRY web-pulling sub-agents). Deferred per `memory/auto/` flux.
+
+**CRL-03 analytical state:**
+- **Held at 72%** (no change). Mechanism intact; "extend-and-pretend" regime now Trepp-documented (Feb 2026 CMBS DQ drop was driven by mods on 5 office + 4 mall loans, 1mo-3yr extensions). Fannie Apr -14bps best explained by mod/extension activity, not borrower resolution.
+- **Threshold rule NOT redefined** (Will decision — clean falsifiability > mid-flight rule changes). Instead, added 2 shadow-tracker VX rows to catch what the headline misses.
+
+**Workbook mutations:**
+- VX.tsv +4 rows: VX-CARL-MF-03 (Trepp MF watchlist share — extend-and-pretend shadow), VX-CARL-MF-04 (CMBS MF special-servicing transfer rate — extend-and-pretend shadow), VX-CARL-HSG-03 (Realtor.com median list price YoY — housing-deflation leading edge, -2.4% YoY May = steepest since 2017), VX-CARL-HC-01 (Mercer employer benefits cost +6.7% 2026 = 15-yr high, top-40% transmission channel).
+
+**STATUS.md mutations:**
+- Multifamily section reframed (Fannie MF + CMBS DQ rows): mechanism INTACT via extend-and-pretend; status color split 🟠 headline / 🔴 mechanism.
+- Housing additions (HOMER): 30Y mortgage refreshed Apr 30 6.30% → Jun 4 6.48%; NAHB HMI Apr 34 → May 37 (bounce not recovery, 25th consec <50); +Realtor.com list price -2.4% YoY (leading edge); +ICE Active FC 276K +32% YoY (above Mar 2020 pre-pandemic for 2nd consec mo); +MBA Q1 NDS 4.44% (FHA + VA FC inventory at decade-plus highs); +Redfin 47% sellers/buyers gap Apr (narrowing from 49% end-2025 peak — softens "demand fading" framing).
+- Healthcare additions (DOC): +Mercer +6.7% benefits row (V14 candidate); +ACA mid-year attrition realizing (effectuated -17% nat'l / -21% federal-marketplace Feb→Apr 2026; avg premium $113 → $178); +Medical Care CPI Apr 2.5% YoY (hospital MoM -0.3% sign flip = Wed Jun 10 watch anchor); +NIPA care-avoidance row (Q1 GDP largest single contributor to consumer-services downward revision).
+- Trims to stay at 250 cap: WTI / Russia AN / Initial Claims wk-5/16 / Avg Weekly Hours / EPOP / FL Condo Inventory / Auto Insurance CPI / Tariff Burden — all either stale, low-signal, or absorbed into successor rows.
+
+**Docket mutation:**
+- **LEN FQ2 date corrected Jun 16 → Jun 11** (4:00 PM ET, verified). HOMER round-2 catch; CATALYSTS.tsv + CALENDAR.md updated.
+
+**Net thesis impact:** zero score moves. v2.5.2 holds. V14 reinforcement candidate (Mercer benefits-cost as top-40% transmission) staged for Jun 16-17 FOMC score-decision packet, NOT moved today on single primary-via-aggregator signal.
+
+**Lessons:**
+1. **Sub-agent year-verification discipline gap** — needs codification at the network level (HOMER own-spec now has it; not yet promoted to siblings).
+2. **Disambiguator pass earned its keep** — iterative SendMessage > single-shot spawn for load-bearing claims. Already validated in auto-memory `finding_teams_mode_iterative_tasks`; this is another datapoint.
+3. **HOMER's "extend-and-pretend" framing** is the right way to read Trepp's regime commentary going forward — preserved in CMBS row Notes.
+
+---
+
 ## 2026-06-08 — Consistency pass: STATUS↔PREDICTIONS drift reconciled (7 rows)
 
 ### PREDICTIONS.tsv — 2 rows updated; STATUS.md — 5 rows updated; no THESIS version bump

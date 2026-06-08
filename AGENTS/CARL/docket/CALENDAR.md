@@ -17,10 +17,10 @@ Human-readable twin of `docket/CATALYSTS.tsv`. **The two must not diverge** — 
 |------|-------|------|-----|
 | Jun 10 | **BLS May CPI** *(verified)* | Iran+tariff 2nd month; CRL-10 food | 🔴 |
 | Jun 11 | BLS May PPI | Stagflation goods vs services | 🟠 |
+| **Jun 11** | **Lennar (LEN) FQ2 earnings** (4:00 PM ET, verified) | CRL-23 builder GM baseline; FY27 tariff guidance | 🟠 |
 | Jun 12 | UMich sentiment prelim (June) | V12 5-10Y >3.5% red line; sentiment | 🔴 |
 | Jun 16 | Retail Sales (May) | Consumer spending; forced-consumption | 🟠 |
-| Jun 16 | NAHB HMI (June) | Builder <40 (Apr 34) | 🟠 |
-| Jun 16 | Lennar (LEN) FQ2 earnings | CRL-23 builder GM baseline | 🟠 |
+| Jun 16 | NAHB HMI (June) | Builder <40 (May 37) | 🟠 |
 | **Jun 16-17** | **FOMC + SEP dot-plot** | **V12 REGIME — first dots post-Waller vs ~2-in-3 Oct hike** | 🔴 |
 
 ## Jun 18–30
