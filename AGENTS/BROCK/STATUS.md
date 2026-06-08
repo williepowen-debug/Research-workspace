@@ -35,12 +35,12 @@
 **Tape read — REGIME PIVOT in 1 trading day:** Thu 6/4 the BX +7.2% spike on BCRED filing day looked like "designed plumbing" validation. Fri 6/5 Partners Group spillover sold the entire alt-mgr complex 2-4% with VIX +3.3pts. **The equity channel finally tracked the substance.** HY OAS is the lone hold-out at 274 — the LESSONS #15 divergence has narrowed by half (equity converging) but not closed (HY still flat). If HY follows next week, thesis-kill cushion tightens fast.
 
 **Substance read (4d window since 6/4):**
-- **Partners Group Global Value SICAV (€8.6B)** capped redemptions at 5%/Q after Q2 demand hit 9.8%. **+3 evergreen funds ($9.7B agg) flagged for 3.5-5% Q2 redemptions.** Delaware US PE vehicle expecting ~6%. Mgmt: "spike spreading from private credit into private equity." Stock -17% single day [CONF CNBC/Bloomberg 6/3-4]
+- **Partners Group Global Value SICAV (€8.6B)** capped redemptions at 5%/Q after Q2 demand hit 9.8%. **Additional evergreens flagged for Q2 redemption pressure** (specific count/AUM not in primary docs — secondary source elaboration). US fund confirmed under pressure [InvestmentNews]. Mgmt: "spike spreading from private credit into private equity." Stock **-13% to -18% across sources** single day (range; -17% was high end) [CONF Bloomberg/CNBC/swissinfo 6/3-4]
 - **OBDC public-BDC div cut $0.37→$0.31 (-16.2%) on 5/7** — was the OBDC 10-Q line we tagged "MIXED no forced-mark cascade" 5/21; **the div-cut framing was missed.** NAV $14.81→$14.41 (5th consec decline). Adj NII $0.31 missed $0.35 cons. Rev $397M vs $426M cons (-7%). Mark-to-market from spread widening [CONF SEC 8-K + Investing.com 5/7]
 - **MFIC public-BDC div cut $0.38→$0.31 (-18.4%) on 5/5** — same 5/21 omission [CONF SEC 8-K 5/5]
 - **3-cluster public-BDC div cuts in 3 days (5/5 MFIC + 5/7 OCSL + 5/7 OBDC)** — narrative-phase tell that was missed in 5/21 framing (only OCSL highlighted)
-- **US PC default rate hit RECORD 6.0% April 2026** (vs Fitch PCDR 5.8% trailing prior peak; vs 2-2.5% historical) [CONF cryptobriefing/Reuters]
-- **PC issuance Q2 -40% from Q1** ($44.76B vs $74.56B); May -35% MoM; **Q2-to-date -70% vs Q1 avg** [CONF Reuters]
+- **US PC default rate hit RECORD 6.0% April 2026 — Fitch print** (vs 2-2.5% historical). **99 defaults, 81 first-time defaulters; >50% driven by PIK / payment-deferral conversion; consumer products 11.1%.** [CONF Fitch via Bloomberg Tax / Reuters 4/30]
+- **PC issuance $44.76B in 3mo ended May = -40% vs Q1 $74.56B** (PitchBook). May -35% MoM standalone. (Earlier "-70% Q2-to-date flows" claim downgraded — issuance level is the verified figure.) [CONF PitchBook via Reuters]
 - **APO** scheduled Annual Stockholders Meeting **today Mon 6/8**; Athene running off CLO book peak $40B+, plowing into new AMAPS vehicle ($11B in, doubling). NAIC flagged 2026 capital-charge rule increase risk for Athene PC holdings [CONF Apollo IR + Sidley]
 - **OTF** $2.3B cash+credit capacity for **June 2026 note maturity** disclosed Q1; software-exit guide stands [CONF transcript 5/7]
 
@@ -49,7 +49,7 @@
 ---
 
 ## REGIME BLOCK (5-line)
-1. **Default rate trend** — **US PC default 6.0% April = RECORD** (vs Fitch 5.8% trailing prior peak; 2-2.5% historical). Reuters 51-BDC Q1 -2.35% NAV worst since Q2'22. BCRED NA 4×. **Accelerating.**
+1. **Default rate trend** — **Fitch: US PC default 6.0% April = RECORD** (vs 2-2.5% historical). 99 defaults, 81 first-time, **>50% PIK/payment-deferral driven** — direct PIK-masking confirmation. Consumer products 11.1%. Reuters 51-BDC Q1 -2.35% NAV worst since Q2'22. BCRED NA 4×. **Accelerating.**
 2. **Gate cascade** — **CROSS-ASSET-CLASS contagion lit 6/3-4 via Partners Group PE gate** (€8.6B Global Value SICAV 5%/Q cap, 9.8% demand, +3 evergreens flagged $9.7B). OCIC 5% binding Q1 (23% sat, first net outflow 18Q). BCRED Q2 cap mechanic August disclosure. 13+ funds gated. **First explicit PC→PE wrapper-stress spillover.**
 3. **PIK trend** — Aggregate $477M (denominator effect — NA migration off PIK base, not real improvement). BCRED 7.0% (-0.8 QoQ). OTF 13% combined. **Levels still elevated.**
 4. **BDC NAV discount** — OBDC $14.81→$14.41 = **5th consecutive decline**. OTF -4.85% Q1. BCRED -2.4%. Aggregate -2.35%. FSK 41%. Median ~25% (78d stale). **Widening confirmed at publicly-traded level too, not just non-traded.**
@@ -84,14 +84,14 @@ All Tier-1 Q1 10-Qs filed pre-5/21 (LESSONS #17 caught the "TBD pending" mislabe
 | **HY OAS** | **274bps** — 14bps cushion to 260 kill | 🟢 still divergent vs equity sell-off | [CONF dashboard 6/5] |
 | 10Y / CCC OAS | 4.47 (flat) / 946 (-1) | 🟡 / 🟡 | [CONF 6/5] |
 | **VIX** | **18.80 (+3.27 in 1d)** | 🟡 first material spike in 2wks | [CONF dashboard 6/5] |
-| **Partners Group PE gate (NEW)** | €8.6B Global Value SICAV 5%/Q cap, 9.8% Q2 demand; +3 evergreens $9.7B flagged; Delaware US PE ~6%. Stock -17% single day (worst since '06 IPO) | 🔴🔴 **first PC→PE wrapper contagion** | [CONF CNBC/Bloomberg 6/3-4] |
+| **Partners Group PE gate (NEW)** | €8.6B Global Value SICAV 5%/Q cap, 9.8% Q2 demand; additional evergreens + US fund flagged for Q2 redemption pressure (specific count/AUM not in primary). Stock -13% to -18% range across sources single day | 🔴🔴 **first PC→PE wrapper contagion** | [CONF Bloomberg/CNBC/swissinfo 6/3-4] |
 | **Alt-mgr complex 6/5 sell-off** | BX -2.7%, OWL -3.8%, KKR -2.2%, MFIC -3.1%, FSK -2.5%, ARES -3.8%, BIZD -1.3% in 1d | 🔴 equity channel cracked | [CONF dashboard 6/5] |
 | APO 6/5 | **$128.03 (un-fired $130 held)**; Annual Mtg today 6/8 | 🟡 watch annual mtg | [CONF dashboard 6/5] |
 | **OBDC div cut (REFRAMED)** | $0.37→$0.31 (-16.2%) 5/7; NAV $14.81→$14.41 5th decline; NII miss | 🔴 2nd public-BDC cut — missed in 5/21 | [CONF SEC 8-K 5/7] |
 | **MFIC div cut (REFRAMED)** | $0.38→$0.31 (-18.4%) 5/5 | 🔴 3rd public-BDC cut in 3 days — missed in 5/21 | [CONF SEC 8-K 5/5] |
 | **OCSL div cut** | $0.40→$0.34 (-15%) 5/7; 26% AI-exposed; software loans -3% | 🔴 first noted; now part of 3-cluster | [CONF Bloomberg 5/5] |
-| **US PC default rate (NEW)** | **6.0% April 2026 — RECORD** (vs Fitch 5.8% trailing prior peak; 2-2.5% historical) | 🔴🔴 print-level escalation | [CONF cryptobriefing/Reuters] |
-| **PC issuance Q2 (NEW)** | $44.76B (3mo to May) = **-40% vs Q1 $74.56B**; May -35% MoM; **Q2-to-date -70% vs Q1 avg** | 🔴🔴 plumbing slowing fast | [CONF Reuters] |
+| **US PC default rate (NEW)** | **Fitch: 6.0% April = RECORD** (vs 2-2.5% hist); 99 defaults, 81 first-time, **>50% PIK/deferral-driven**, consumer products 11.1% | 🔴🔴 print-level escalation + PIK-masking confirmed | [CONF Fitch via Bloomberg Tax/Reuters 4/30] |
+| **PC issuance Q2 (NEW)** | PitchBook: **$44.76B in 3mo to May = -40% vs Q1 $74.56B**. May -35% MoM standalone. | 🔴🔴 plumbing slowing fast | [CONF PitchBook via Reuters] |
 | **Aggregate 51-BDC Q1 NAV** | -2.35% worst since Q2'22; PIK $477M (denominator effect) | 🔴 | [CONF Reuters 5/29] |
 | BofA junk-flag | 3 largest non-traded BDCs ≤2Q to junk if 5% sustained; names withheld | 🔴 | [CONF Bloomberg 5/29] |
 | OTF Q1 | NAV -4.85%; $494M unreal; LTV 34→40; mgmt software-exit; $2.3B liquidity for June note maturity | 🔴 | [CONF transcript 5/7] |
@@ -126,9 +126,9 @@ All Tier-1 Q1 10-Qs filed pre-5/21 (LESSONS #17 caught the "TBD pending" mislabe
 | Sponsor-bifurcation diagnostic | 🔴(4) | **🔴🔴(5)** | ↑ | **5 patterns now: KKR FSK, Apollo MFIC, BX BCRED, BlackRock TCP, + Partners Group PE-side cap**. Cross-sponsor + cross-asset-class | 3rd sponsor enters with new pattern | 6/8 |
 | Duration-channel NAV pressure | 🟠(3) | 🟠(3) | — | 10Y 4.47 flat. Duration channel still relieved | 10Y >4.75 OR isolated mark-down | 6/8 |
 | **Tape-substance divergence** | 🔴(4) | **🟠(3)** | ↓ | **Equity channel cracked Fri 6/5 (-2 to -4% across alt-mgr/BDC complex, VIX +3.3pts).** HY OAS still divergent at 274. Asymmetry narrowed; equity converged, HY didn't | HY OAS <260 firing OR HY rolls 280-285 next | 6/8 |
-| **NEW: Cross-asset-class wrapper contagion** | — | **🔴🔴(5)** | + | **Partners Group €8.6B SICAV 5%/Q cap on 9.8% demand + 3 evergreens $9.7B flagged + Delaware US PE ~6%. Mgmt: "spreading from PC to PE." Stock -17%.** First explicit PC→PE spillover via evergreen-wrapper mechanic. Same mechanic that gated BCRED/OCIC now in PE. | 2nd alt-mgr PE-wrapper gate within 30 days | 6/8 |
+| **NEW: Cross-asset-class wrapper contagion** | — | **🔴🔴(5)** | + | **Partners Group €8.6B SICAV 5%/Q cap on 9.8% demand; additional evergreens + US fund flagged Q2 (specifics not in primary); mgmt: "spreading from PC to PE"; stock -13 to -18%.** First explicit PC→PE spillover via evergreen-wrapper mechanic. Same mechanic that gated BCRED/OCIC now in PE. | 2nd alt-mgr PE-wrapper gate within 30 days | 6/8 |
 
-**Convergence: ~57/70 🔴🔴** (was 55/65 6/4). Net: 3 ↑ (default record, sponsor-bifurcation +1, NEW wrapper contagion), 2 ↓ (regulatory reframe, tape divergence narrowed), 1 new vector. **Default upgrade + cross-asset-class contagion are the structural acceleration; regulatory downgrade is a real reframe (Form PF was misread).**
+**Convergence: 59/70 🔴🔴** (was 55/65 6/4 — vector sum: 4+5+4+4+5+3+5+5+3+5+5+3+3+5=59). Net: 3 ↑ (default record, sponsor-bifurcation +1, NEW wrapper contagion +5), 2 ↓ (regulatory reframe -2, tape divergence narrowed -1), 1 new vector. **Default upgrade + cross-asset-class contagion are the structural acceleration; regulatory downgrade is a real reframe (Form PF was misread).**
 
 ---
 
@@ -189,7 +189,7 @@ All Tier-1 Q1 10-Qs filed pre-5/21 (LESSONS #17 caught the "TBD pending" mislabe
 
 ## BOTTOM LINE
 
-**Stage 2→3 pivot fired this week via a route not in our prior decision tree: Partners Group's 6/3-4 PE-evergreen gate is the first explicit private-credit-to-private-equity wrapper contagion.** Same gating mechanic that hit BCRED/OCIC is now firing on the PE-side. Partners Group stock -17% worst single day since '06 IPO; 4 more evergreens ($9.7B+US Delaware) flagged. The narrative-phase recognition no longer requires HY OAS to break — wrapper-stress spillover is doing the work.
+**Stage 2→3 pivot fired this week via a route not in our prior decision tree: Partners Group's 6/3-4 PE-evergreen gate is the first explicit private-credit-to-private-equity wrapper contagion.** Same gating mechanic that hit BCRED/OCIC is now firing on the PE-side. Partners Group stock -13 to -18% across sources (worst single day since '06 IPO); additional evergreens + US fund flagged for Q2 redemption pressure (primary-source specifics not yet pulled). The narrative-phase recognition no longer requires HY OAS to break — wrapper-stress spillover is doing the work.
 
 **The Fri 6/5 alt-mgr complex sell-off (BX -2.7%, OWL -3.8%, KKR -2.2%, MFIC -3.1%, ARES -3.8%, FSK -2.5%, BIZD -1.3%, VIX +3.3pts) is the equity channel finally tracking substance.** Reverses the 6/4 "designed plumbing" BX +7.2% read in 1 trading day. **HY OAS is now the lone hold-out at 274** — the LESSONS #15 divergence narrowed by half (equity converged) but didn't close (HY didn't follow). Next test: does HY tape gap-tighten this week or hold flat?
 
@@ -197,9 +197,9 @@ All Tier-1 Q1 10-Qs filed pre-5/21 (LESSONS #17 caught the "TBD pending" mislabe
 
 **Regulatory reframe: Form PF 6/23 comment-close is LARGELY DEREGULATORY** (raises filer thresholds $150M→$1B; LHF $1.5B→$10B). The PC-reporting addition is "solicited for comment" not proposed. Reg vector downgraded 🔴🔴→🟠. **Athene NAIC 2026 capital-charge rule is the genuine reg-pressure surfacing** (not Form PF). APO Annual Meeting today 6/8 = catalyst window for any Athene commentary.
 
-**US PC default rate hit RECORD 6.0% in April 2026** (vs Fitch trailing 5.8% prior peak; 2-2.5% historical). Default vector upgraded 🔴→🔴🔴. PC issuance Q2 -40% from Q1; **Q2-to-date -70% vs Q1 average** — plumbing slowing fast.
+**Fitch: US PC default rate hit RECORD 6.0% in April 2026** (vs 2-2.5% historical). **99 defaults, 81 first-time, >50% PIK/deferral-driven** — direct confirmation of BROCK PIK-masking core thesis. Default vector upgraded 🔴→🔴🔴. PC issuance $44.76B in 3mo to May = **-40% vs Q1** (PitchBook). Plumbing slowing fast.
 
-**Convergence: 57/70 🔴🔴** (was 55/65 6/4). Net 3↑ 2↓ 1 new vector. Structural acceleration on default, sponsor-bifurcation, cross-asset-class contagion; reframes on regulatory and tape-substance divergence.
+**Convergence: 59/70 🔴🔴** (was 55/65 6/4 — vector sum verified). Net 3↑ 2↓ 1 new vector. Structural acceleration on default, sponsor-bifurcation, cross-asset-class contagion; reframes on regulatory and tape-substance divergence.
 
 **Watch order for next session:**
 1. **HY OAS daily** — does it gap-tighten following equity 6/5 sell-off, or hold flat 274 and keep diverging
