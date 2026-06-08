@@ -1,52 +1,35 @@
-# OTTO COMPLETION — 2026-06-02
+# OTTO COMPLETION — 2026-06-08
 
 ## STATUS
-✅ Boot/closeout protocol redesign (CLAUDE.md → v2.1, Phases 1-3b) + First Brands sweep. Will-directed, collaborative, multi-phase. Signal state 🔴🔴 unchanged. OTTO-32 held 85%.
+✅ Infra-maturation session (boot+closeout to SAM/BRENT parity) + domain data refresh. Will-directed, multi-part. CLAUDE.md v2.1 → v2.4. Signal state 🔴🔴 unchanged. Committed local only (no push, Will-directed).
 
 ## CHANGED
-- **CLAUDE.md (v2.0 → v2.1):**
-  - Startup Protocol rewritten — git-pull step 0 (+blocked-pull fallback); PREDICTIONS scan flags due-in-7d AND passed-but-OPEN; new calendar past-due-catch (unswept vs acknowledged-pending); report-last ordering; tag-respect line.
-  - Closing Protocol = write-back mirror of boot (read→write spine); catalyst-sweep BEFORE prediction-resolve; git step 8.
-  - Live-state stripped (P3a): Current Thesis → framing only; Thresholds drop Current col + label single-metric-trigger vs STATUS composite; Domain Scope drop $9.3B; Invalidation de-date Carvana + retire spent GT-resigns trigger.
-  - New `## Evidence & Hygiene Conventions` (P3b): evidence-grade tags + `[STALE]` + audit-finalized 19-row Doc Ownership table.
-- **STALE_PUNCHLIST.md** (NEW) — 9-item cross-doc rot inventory, behavioral-impact ranked.
-- **STATUS.md** — First Brands timeline cluster resolved (May 20 DENIED / May 25-29 superseded / Apr 9 Evolution SPV / Jun 17 confirmation); signal-trigger → PARTIALLY DONE; boot-pointer + footer refreshed.
-- **PREDICTIONS.tsv** — OTTO-32 Notes updated (held 85%).
-- **ML.tsv** — ML-OTTO-171 (First Brands sweep).
-- **MEMORY.md** — Session Notes rewritten; First Brands findings consolidated; 79 lines.
+- **CLAUDE.md v2.1→v2.4:** boot kit wired into steps 4-5 (v2.2); STATUS line-cap + CHANGELOG step 1a + promotion-scan step 5 + Git pathspec fix (v2.3); NEXUS_BRIEF closeout step 7a (v2.4). Doc Ownership + File Structure updated throughout.
+- **New files:** `scripts/boot.py` + `predictions_due.py` + `catalyst_countdown.py`; `docket/CATALYSTS.tsv` (10→11 rows); `CHANGELOG.md`; `NEXUS_BRIEF.md`; `PEER_PARITY_ROADMAP.md`; `workbook/STATUS_archive_20260608.md`; 4 auto-memory files (outside OTTO dir).
+- **STATUS.md:** 417→163 lines (archived Mar-May check-ins); boot-pointer refreshed; spread rows corrected (EART 2026-2); CRITICAL TIMELINE Jun 12 added; Carvana ~$64; OTTO-05 summary 62→48%.
+- **PREDICTIONS.tsv:** OTTO-05 62→48% + structural-claim falsification; OTTO-32 Jun 12 resolver; OTTO-29 slip confirmed.
+- **ML.tsv:** +172/173/174. **MEMORY.md:** Session Notes rewritten + 4 lessons drained to auto-memory.
 
 ## RESULT
-The boot/closeout loop is now self-closing: boot flags overdue predictions + past-due catalysts; closeout must resolve or re-arm them. Dogfooded immediately — the new past-due-catch caught the 3 unswept First Brands hearings, and the closeout sweep resolved them. First Brands Ch.7 mechanism is ADVANCING (4 Evolution SPV debtors already converted; May 20 denial cuts toward thesis; confirmation Jun 17). CLAUDE.md no longer carries live values — STATUS is single source of truth.
+OTTO's boot+closeout infra now at/above peer parity. Boot runs ~2s (price + predictions + catalysts). Data refresh produced the session's key catch: **First Brands OTTO-32 resolver is Jun 12 (UST convert-or-dismiss hearing), not Jun 17** — OTTO would have walked into the wrong date. Also falsified own "IG-only ABS" claim (below-IG clearing) and recalibrated OTTO-05 down.
 
 ## GAPS
-- **STALE_PUNCHLIST remediation not started** — by design (Part 2 inventory only). Items 1-3 carry real behavioral risk.
-- **Phase 4 (CATALYSTS.tsv) not built** — the redesign's final phase; boot step 5 still reads CRITICAL TIMELINE only.
-- May 25 omnibus: no distinct material outcome surfaced (procedural; superseded by May 20 denial reset).
+- **TRADE.md still stale** (roadmap #3, STALE_PUNCHLIST #1) — pre-split CVNA prices, dead triggers. Untouched.
+- **No PREDICTIONS_ARCHIVE / calibration scoreboard** (roadmap #4-5).
+- **DQ-series reconciliation open** — OTTO's 7.1% (TransUnion?) vs Fitch ABS 6.90%; dashboard series ambiguous.
+- **OTTO-29 (Tricolor distribution)** likely slipping — verify docket next session.
 
 ## WILL_NEEDS
-- **Decision pending:** LESSONS.md + OUTBOX.md consolidation (punch-list #8-9) — structural calls, not value-refreshes.
-- **OTTO-32 held 85%** — June 17 confirmation hearing is the resolver; 3.5mo buffer to Sep 30.
-- Version stamp left at v2.1 (header + footer) — Will said reconcile at full content refresh.
+- **Jun 12 is the live catalyst** (First Brands UST hearing + Carvana discovery) — verify outcome next boot; OTTO-32 (85%) resolves there.
+- **NEXUS may rule** on whether OTTO's opt-in brief gets formal scope (WALTER signal dropped).
+- Push deferred per your instruction — committed local only.
 
-## FOLLOW-UP (priority queue for next spawn)
-
-**P1:**
-- STALE_PUNCHLIST.md remediation (TRADE.md / RESEARCH_STATUS.md / VX.tsv first)
-- Phase 4: build `workbook/CATALYSTS.tsv` (SAM schema) + flip boot step 5
-- OBK 10-Q Q1 2026 (Tricolor quantum vs $74.7M)
-- M&T Q2 earnings (Jul) — Wilmington segment (OTTO-31)
-
-**P2:**
-- Jun 17 First Brands confirmation + Tricolor creditor mtg; Jun 12 Carvana discovery prod 2
-- Re-run `abs_issuance_tracker.py` / `extension_proxy.py` (Apr-stale)
-- War-transmission row re-check (post-ceasefire)
-
-**P3:**
-- WAL/Jefferies/Point Bonita $715M thread; Ally Q1 (OTTO-28); delete `otto-backup-pre-rebase-20260415` branch
-
-## SIGNALS ROUTED
-- None. First Brands admin-insolvency denial is BROCK-relevant (lower recoveries) but Will directed "let it ride" — no new threshold crossed. Candidate for a brief WALTER → BROCK update if it escalates.
+## FOLLOW-UP (priority queue)
+**P1:** Verify Jun 12 First Brands + Carvana outcomes; TRADE.md rehab; OTTO-29 docket check.
+**P2:** PREDICTIONS_ARCHIVE + calibration scoreboard; DQ-series reconciliation; OBK 10-Q + M&T Q2 (Jul 16).
+**P3:** War-transmission row re-check; STALE_PUNCHLIST #2-3 (RESEARCH_STATUS/VX); LESSONS/OUTBOX consolidation (needs Will-decision).
 
 ## GIT
-- May 22 PM work already on origin (`1d2e4ace`). No May deferral outstanding.
-- Local commits this session (push-deferred, push-train): `e9932373` (P1-3a), `4caa2b36` (push-note fix), + this closeout commit. Local ahead of origin (SAM ×2 + REGINALD + OTTO).
+- Jun 8 work committed **local only** (Will-directed: no push). Push is Will-coordinated (root protocol change). Jun 2 work also still local. Both ride next coordinated push window.
+- WALTER inbox signal (`SIG-OTTO-WALTER-20260608-nexus-brief-optin.md`) left untracked — WALTER commits it.
+- Incidental: `workbook/ABS_ISSUANCE.tsv` carries a stub-run append from early-session script test (harmless, OTTO-owned).
