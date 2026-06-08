@@ -1,6 +1,6 @@
 # CARL SCRATCH
-**Last session:** 2026-06-08 ~17:00 UTC (Mon PM, pre-CPI)
-**Type:** AM boot cleanup + PM DOC + HOMER sub-agent integration (3 spawn rounds incl. error-correction). Single analytical-day across two sessions.
+**Last session:** 2026-06-08 ~18:00 UTC (Mon EOD, pre-CPI)
+**Type:** AM boot cleanup + PM DOC + HOMER sub-agent integration (3 spawn rounds incl. error-correction) + EOD MEMORY.md infrastructure build (CARL caught up to sibling agents' pattern).
 
 **PRIORITY-1:** **Wed Jun 10 CPI (May) 8:30 ET** — V12 + CRL-10 food. New specific watch from DOC: **hospital services MoM** (Apr -0.3% sign flip from Mar +0.4%) — if May prints negative/flat = 2nd-print care-avoidance pricing through. Highest-signal Medical Care line.
 
@@ -20,6 +20,12 @@
 6. **CRL-03 holds 72%** (Will decision). Mechanism intact via Trepp-documented extend-and-pretend. Threshold rule NOT redefined; instead added 2 shadow-tracker VX rows.
 7. **STATUS integration:** Multifamily reframed (Fannie + CMBS rows now 🟠 headline / 🔴 mechanism); 8 new rows (Mercer + ACA + Medical CPI + NIPA + ICE FC + MBA Q1 NDS + Realtor.com list price + Redfin gap); 8 trims to stay at 250.
 8. **LEN FQ2 date corrected Jun 16 → Jun 11** (4:00 PM ET). Docket fixed.
+
+## WHAT HAPPENED — EOD (architectural)
+9. **MEMORY.md infrastructure built** — CARL was missing the per-agent MEMORY.md pattern that SAM/BRENT/HENRY/REGINALD/VIOLET already have. Now exists as the persistent Feedback (Will-given) + Findings (CARL-discovered, not yet promoted) + References layer. Distinct role from SCRATCH (handoff) / ROADMAP (process) / STATUS (data).
+10. **CLAUDE.md updated** — added MEMORY.md read at BOOT step 1b + update at CLOSEOUT step 13b + FILES table entry.
+11. **3 today's lessons landed in MEMORY.md** as Findings (sub-agent year-verification + row-by-row consistency check + disambiguator-round on load-bearing claims). All marked promotion candidates for global auto-mem when validated next session.
+12. **Will-feedback landed** — domain discipline rule (CARL stays consumer-stress, doesn't synthesize upstream). Codified as the first MEMORY.md Feedback entry so future sessions don't repeat the Iran-STATUS-update scope creep.
 
 ## STATUS CHANGES
 | Item | Change |
