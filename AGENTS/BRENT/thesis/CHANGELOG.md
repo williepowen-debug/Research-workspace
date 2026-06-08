@@ -8,6 +8,17 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-06-08 — BRT-27 / BRT-28 SCOPE-NARROW: event-shaped → price-consequence conditionals on HAW-09 / HAW-10 (prediction-scope refinement; no v-bump)
+
+**Author:** BRENT (Will-gated, in response to HAWK Jun 8 scope-clarification ask)
+**Action:** `thesis/PREDICTIONS.tsv` rows BRT-27 and BRT-28 restructured from event-shaped (Iran walkback / Bab al-Mandab kinetic action) to price-consequence conditionals cross-referencing HAW-09 (HAWK Iran-talks event call, conf 35%) and HAW-10 (HAWK Bab kinetic event call, conf 25%). STATUS.md predictions table rows + OPEN-ITEMS #6/#7 updated to match. Pre-Jun-8 event-shaped history retained as archive pointer in PREDICTIONS notes.
+
+**Old view (Jun 1 origin):** BRT-27/28 were event-shaped predictions: "Iran re-engages talks by Jun 15" (conf 55→65% post-Trump-rhetoric) and "Houthi/Iranian-proxy Bab action OR vessel-traffic >25% by Jul 1" (conf 45→35%). These duplicated HAWK's geopolitical-event domain — HAWK was the canonical owner of Iran-engagement and Bab-kinetic substance.
+
+**New view:** "One source of truth per metric" — HAWK owns event substance (HAW-09 conf 35%, HAW-10 conf 25%); BRENT owns price-side conditional on HAWK's event resolving. BRT-27 = "Brent <$92 within 5td if HAW-09 confirms; $94-100 hold if HAW-09 falsifies" (cond conf 55%). BRT-28 = "Brent gap ≥$5 + curve steepens ≥$12/6mo within 3td if HAW-10 fires; range hold + war-risk leg stays unwound if expires" (cond conf 70%). Calibration delta resolved: BRENT's prior 65% on Iran-walkback was Trump-rhetoric-overweighted (`[[feedback_trump_rhetoric_tape_not_info]]`); deferred event-prob to HAW-09's 35%. Vessel-traffic-only path in original BRT-28 retired to HAWK (KB-HAWK-159 owns UKMTO 1.1/day baseline). Cross-ref: HAW-09, HAW-10, FLOW-HAWK-19 (decoupling regime canonical). No THESIS.md v-bump — prediction-scope refinement, not structural thesis change (v3.1 still gated on Jun 9 STEO + Jun 10 EIA + Jun 12 CPI batch).
+
+---
+
 ## 2026-06-03 — EIA Jun 3 CATALYST BATON-PASS (Cushing → SPR) + PADD-3 EXPORT-PULL + MD CONTAMINATION DISCIPLINE (intra-version POV pivot; no v-bump)
 
 **Author:** BRENT (with Will, Jun 3 session)

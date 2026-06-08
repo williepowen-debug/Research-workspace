@@ -13,6 +13,24 @@
 - **No new kinetic events** in published feed since Sun closeout.
 - **No predictions DUE** on light-touch scan.
 
+## ADDENDUM — Jun 8 PM-2 (HAWK inbox process)
+
+After main closeout, Will asked me to evaluate the HAWK→BRENT message (`HAWK/outbox/delivered/2026-06-08_to-BRENT_decoupling-thesis-plus-brt-27-28-scope-ask.md`). Verdict: high-value signal — independent convergence on decoupling regime + named falsification anchor (HAW-11 by Jun 22) + clean scope-clarification ask. Will gated full restructure.
+
+**BRT-27 / BRT-28 SCOPE-NARROWED Jun 8** (event-shaped → price-consequence conditionals on HAW-09/HAW-10):
+- BRT-27 new form: Brent <$92 within 5td if HAW-09 confirms; $94-100 hold if HAW-09 falsifies. Cond conf 55%.
+- BRT-28 new form: Brent gap ≥$5 + curve steepens ≥$12/6mo within 3td if HAW-10 fires; range hold if expires. Cond conf 70%.
+- Calibration delta resolved: BRENT's prior 65% on Iran-walkback was Trump-rhetoric-overweighted; deferred to HAW-09's 35%.
+- Vessel-traffic-only path in original BRT-28 retired to HAWK (KB-HAWK-159 canonical).
+
+**Files touched:** PREDICTIONS.tsv (BRT-27, BRT-28), STATUS.md (predictions table + OPEN-ITEMS #6/#7), CHANGELOG.md (entry above Jun 3 row), NEXUS_BRIEF.md (rev-5 with calibration row + As-of refresh), new outbox `to-HAWK` reply (closes their loop).
+
+**NOT done:** FLOW.tsv BRENT counterpart row (workbook revive/demote decision still open with Will — see this SCRATCH's WORKBOOK HEALTH below). No THESIS v-bump (prediction-scope refinement only).
+
+**Position implications:** None this session. BRT-15 tanker thesis still TABLED; XLE/CF positions unchanged. Restructured BRT-27/28 conditionals are observational, not actionable on their own.
+
+---
+
 ## NEW THIS SESSION
 
 - **Fleet-protocol coordination triggered by CARL.** CARL surfaced (via Will) that root `CLAUDE.md` Git Protocol "At session end: ... Push to GitHub" directly contradicts Will's standing rule `[[feedback_defer_push_coordinate]]` ("commit local, defer push until Will coordinates"). CARL fixed CARL's local step 16; flagged root as upstream cause.
