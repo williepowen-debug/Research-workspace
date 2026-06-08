@@ -1,0 +1,40 @@
+# CARL MEMORY
+
+*Curated cross-session memory. Read at boot, write before finishing. **Cap at 100 lines** — promote to thesis or auto-memory, never just accumulate.*
+
+**Role split:**
+- **MEMORY.md** (this file) = persistent Feedback / Findings / References — what Will has told CARL, what CARL has learned that's not yet in global auto-mem.
+- **SCRATCH.md** = ephemeral session handoff (PRIORITY-1, CHANGES SINCE, NEXT SESSION). Rewritten every session.
+- **ROADMAP.md** = persistent process state (OPEN THREADS, OPEN QUESTIONS, INVESTIGATIONS BACKLOG, RECENTLY RESOLVED).
+- **STATUS.md** = live data dashboard.
+- **thesis/CHANGELOG.md** = thesis-evolution audit trail.
+
+Don't restate what these other files already own. Reference, don't duplicate.
+
+---
+
+## Feedback (Will-given guidance specific to CARL)
+
+- [2026-06-08] **Domain discipline — CARL focuses strictly on consumer stress.** Don't synthesize upstream (Iran kinetics, OPEC+ mechanics, Brent forward curve) when downstream agents (HAWK/BRENT) own it. CARL's interest in upstream events is only the consumer transmission (gas pump pass-through 17-18d, food/energy CPI, real DPI). The point of domains is so each agent's context window doesn't blow up trying to synthesize the entire world. Read the data file if needed for context; do NOT add Iran-specific rows to STATUS.
+- [2026-06-08] **CARL KB should stay lean (thesis-level).** Domain-specific data pushes down to sub-agent KBs (HOMER, DOC, POLLY, etc.) — not in CARL's main KB. See `feedback_carl_kb_architecture` in auto-mem.
+
+## Findings (CARL-discovered lessons not yet promoted to global)
+
+- [2026-06-08] **Sub-agent year-verification discipline.** Web-pulled metrics cited without year-stamp verification = load-bearing error vector. HOMER round 1 cited "Trepp May 6.57% -46bps reversal" pulled from an aggregator article that was actually referencing May 2025, not 2026; this drove a CRL-03 invalidation argument that was wrong. Round 2 disambiguator caught it via fresh searches; round 3 codified rule in HOMER's spec. **Rule:** before citing any web-pulled metric as load-bearing, confirm the year explicitly from the primary source — publication date OR explicit year-stamp on the cited number. Relative phrasing ("May print", "latest data") is INSUFFICIENT. If primary source isn't fetchable, the metric stays in OPEN QUESTIONS until verified. Transferable to BRENT/SAM/REGINALD/HENRY web-pulling sub-agents. **Promotion candidate** when validated next session.
+- [2026-06-08] **Row-by-row consistency check coverage.** Manual step-15 mirror checks only test rows being actively modified that session — pre-existing drift from prior sessions stays invisible. Jun-6 closeout reported step-15 CLEAN; Jun-8 boot found 7 row-deltas STATUS↔PREDICTIONS that had accumulated silently. **Rule:** Phase 3 `scripts/consistency_check.py` needs row-by-row diff per Pred_ID (not text-grep), full coverage at every closeout. Transferable to BRENT/SAM/REGINALD/HENRY mirror-direction agents. **Promotion candidate** when Phase 3 ships.
+- [2026-06-08] **Disambiguator round earns its keep on load-bearing claims.** When a sub-agent surfaces a multi-source claim that would drive a real conviction change (CRL-03 72%→30% on "two-thermometer cooling"), spawn a disambiguator round that tests the mechanism, not just asks for confirmation. HOMER round 2 wasn't sent to catch an error — it was sent to test extend-and-pretend hypothesis. Agent self-corrected by going to fresh sources. Validates `finding_teams_mode_iterative_tasks` with a second datapoint. **Promotion candidate.**
+
+*Global calibration / process lessons live in auto-memory: see [[finding_single_month_subcomponent_skepticism]], [[finding_threshold_vs_mechanism]], [[finding_pov_changelog_pattern]], [[finding_boot_predictions_scan]], [[finding_subagent_baseline_audit]], [[finding_teams_mode_iterative_tasks]], [[feedback_subagent_propagation_gap]], [[finding_thesis_loadbearing_sweep_scope]], [[feedback_carl_kb_architecture]], [[feedback_break_multifile_updates]], [[feedback_parallel_spawn_independent_agents]], [[feedback_subagent_prompt_discipline]], [[feedback_agent_git_isolation]], [[finding_pathspec_commit_race_safety]].*
+
+## References (CARL-specific pointers)
+
+- **Boot scans (canonical):** see CLAUDE.md step 7. Run `.venv/bin/python3 AGENTS/CARL/scripts/docket_countdown.py` for forward catalysts; `awk` one-liners in spec for PREDICTIONS due/stale + failure-pattern preamble.
+- **Sub-agent state vectors land here:** `sub_agents/<NAME>/state_vectors/SV-<NAME>-<DATE>-NN.md` (per their CLAUDE.md). Read on integration days; SV-01 / SV-02 / etc. are typically the highest-load-bearing.
+- **Sub-agent workbook TSVs are independent** of CARL workbook — DOC/HOMER/etc. maintain their own VX/FLOW/PREDICTIONS. CARL workbook holds thesis-level rows + cross-domain composites only.
+- **Cross-agent receives:** LABOR (employment), HAWK/BRENT (oil/Brent → gas-pump downstream), HENRY (SPX wealth effect), REGINALD (bank-side propagation), MARCO (FL/TX outflow), WALTER/BOARD (network signals via `BOARD/INDEX.md`).
+- **handoff_RED:** counter-evidence staged for RED transfer (CARL does NOT maintain — RED owns counter-thesis work at system level).
+- **handoff_WALTER:** CARL↔WALTER routing-rules liaison; LIAISON.md append-only.
+
+## Session handoff
+
+*Daily session handoff lives in `SCRATCH.md` (PRIORITY-1, CHANGES SINCE, NEXT SESSION). MEMORY.md is the persistent feedback/findings layer, not the per-session log. If you find yourself wanting to write "this session I…" here, it belongs in SCRATCH or ROADMAP RECENTLY RESOLVED, not here.*

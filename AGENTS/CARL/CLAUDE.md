@@ -63,6 +63,7 @@ When new consumer data arrives, always disaggregate:
 ### BOOT (read phase)
 0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
 1. **Read `SCRATCH.md`** — ephemeral handoff from last session (what happened, what to do next, urgent items)
+1b. **Read `MEMORY.md`** — persistent feedback / findings / references. Will-given guidance + CARL-discovered lessons not yet promoted to global auto-mem. Load-bearing context for how to behave this session; not session-specific handoff (SCRATCH owns that).
 2. **Read `STATUS.md`** — signal dashboard, K-shape evidence, danger window
 3. **Read `workbook/SCHEMA.tsv`** — column definitions for all TSVs (KB, VX, FLOW, PREDICTIONS)
 4. **Read `TEAM.md`** — sub-agent roster, staleness, upcoming catalysts. Spawn stale agents per `SPAWN_PROTOCOL.md`.
@@ -90,6 +91,7 @@ When new consumer data arrives, always disaggregate:
    - **Docket:** for any catalyst whose data you integrated this session, **prune its row** from `docket/CATALYSTS.tsv` AND `docket/CALENDAR.md` (its record now lives in STATUS "recently fired" + ROADMAP RECENTLY RESOLVED + CHANGELOG). Add any newly-discovered forward catalysts as dated rows. Keep the TSV and CALENDAR.md in sync.
    - **ROADMAP:** move resolved threads to RECENTLY RESOLVED, add new OPEN THREADS, log new OPEN QUESTIONS, append "should investigate X" ideas to INVESTIGATIONS BACKLOG. Persistent "where are we" state — update timestamp at top.
    - **TEAM.md:** if you spawned or refreshed a sub-agent this session, update its Last-Refresh date + staleness in the ROSTER (boot reads TEAM for spawn decisions — this is its closeout mirror).
+13b. **Update `MEMORY.md`** — add any new Feedback (Will-given guidance) or Findings (CARL-discovered transferable lessons) from this session. Prune stale entries. **Cap 100 lines** — when over cap, promote to thesis (load-bearing) or auto-memory (transferable lesson) and remove from local MEMORY.md after promotion. Per-session work goes to SCRATCH/ROADMAP, NOT MEMORY (see role split at MEMORY.md top).
 14. **Rewrite `SCRATCH.md`** using `templates/SCRATCH.template.md`. **Before finishing, scan for promotion candidates** — see promotion paths below.
 15. **Consistency check (if you mutated a mirrored doc this session) — verify before commit.** Confirm the canonical→mirror pairs in **Doc Ownership** (OUTPUT RULES) agree: (a) convergence score/matrix — `thesis/THESIS.md` == STATUS matrix section; (b) OPEN prediction IDs — `thesis/PREDICTIONS.tsv` == STATUS PREDICTIONS table; (c) catalyst event set — `docket/CATALYSTS.tsv` == `docket/CALENDAR.md`. Mismatch → fix the mirror (canonical wins) before git. *(Boot-side auto-scan of these pairs = the Phase-3 `scripts/consistency_check.py` enhancement.)*
 16. **Git** — commit + push. **Use pathspec commits, never `git reset HEAD`** (`[[finding_pathspec_commit_race_safety]]`): modified files → `git commit AGENTS/CARL/<file> -m "..."`; new files → `git add <specific files> && git commit <same files> -m "..."` (atomic, explicit paths — never `git add AGENTS/CARL/`). Pull-rebase first if origin diverged. If blocked by another agent's uncommitted work outside `AGENTS/CARL/`, **note the pending push in SCRATCH.md and defer** — never stash/clobber other agents (`[[feedback_agent_git_isolation]]`).
@@ -225,6 +227,7 @@ These rules govern *how to reason about workbook mutations* — distinct from ou
 | File | Purpose |
 |------|---------|
 | `SCRATCH.md` | Ephemeral handoff. Rewritten every session. **Read FIRST at boot.** Uses template (see Spawn Protocol). |
+| `MEMORY.md` | Persistent Feedback (Will-given) + Findings (CARL-discovered transferable lessons not yet promoted) + References. **Read at boot step 1b.** Cap 100 lines — promote or prune. Role distinct from SCRATCH (handoff) / ROADMAP (process state) / STATUS (data). |
 | `STATUS.md` | Live state — dashboard, K-shape, convergence mirror. **Primary memory.** ≤250 lines. |
 | `TEAM.md` | **Read at boot.** Sub-agent roster — status, last refresh, upcoming catalysts, staleness. Drives spawn decisions. |
 | `ROADMAP.md` | **State-of-CARL tracker.** Open threads / open questions / investigations backlog / recently resolved. *(Dated forward catalysts moved to `docket/` — May 29 2026.)* Read at boot for context recall. Update at closeout (forward-state maintenance) before the SCRATCH rewrite. SCRATCH = next session focus; ROADMAP = persistent state across sessions. |
