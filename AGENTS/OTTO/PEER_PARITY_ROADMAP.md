@@ -10,13 +10,16 @@
 
 ---
 
-## ✅ Done (2026-06-08, CLAUDE.md v2.1 → v2.3)
+## ✅ Done (2026-06-08, CLAUDE.md v2.1 → v2.5)
 - Boot kit: `scripts/boot.py` + `predictions_due.py` + `catalyst_countdown.py` (boot steps 4-5 script-driven, ~2s)
 - `docket/CATALYSTS.tsv` (8-col machine feed) — OTTO's deferred "Phase 4" closed
-- STATUS line-cap + archive (417→162 lines; `workbook/STATUS_archive_20260608.md`)
-- `CHANGELOG.md` thesis-pivot log + closeout step 1a
+- STATUS line-cap + archive (417→163 lines; `workbook/STATUS_archive_20260608.md`)
+- `CHANGELOG.md` thesis-pivot log (analytical) + closeout step 1a
 - Promotion-scan closeout step + first drain (4 calibration/workflow lessons → auto-memory)
 - Git section fixed (pathspec + Will-coordinated push)
+- `NEXUS_BRIEF.md` cross-agent synthesis brief (Tier-2 opt-in) + closeout step 7a *(P1 #2)*
+- **`MAINTENANCE.md` structural change-log + closeout step 1b** — completes the 3-log taxonomy (CHANGELOG=analytical / MAINTENANCE=structural / STALE_PUNCHLIST=forward to-do); CLAUDE.md version footer trimmed to point at it
+- `STALE_PUNCHLIST.md` re-audited (9+2 items, priority-ordered) + registered in CLAUDE.md
 
 ---
 
