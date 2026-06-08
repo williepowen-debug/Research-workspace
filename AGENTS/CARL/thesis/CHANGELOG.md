@@ -8,6 +8,29 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-06-08 — Consistency pass: STATUS↔PREDICTIONS drift reconciled (7 rows)
+
+### PREDICTIONS.tsv — 2 rows updated; STATUS.md — 5 rows updated; no THESIS version bump
+**Author:** CARL (Will-directed boot cleanup; surfaced by Jun-8 boot-side consistency check — first time the new step-15 mirror check ran retroactively).
+**Trigger:** Boot scan compared STATUS PREDICTIONS table vs `thesis/PREDICTIONS.tsv` and found 7 drift cases. SCRATCH (Jun 6) had reported step-15 CLEAN, but only verified the CRL-15/16/17 drift it was actively closing — pre-existing drift on other rows went unchecked. Mirror-direction rule: canonical (TSV) wins where canonical is current; where STATUS holds a newer analytical update that never propagated back to TSV, update TSV + log here.
+
+**TSV-canonical-wins → STATUS updated to match (no analytical change):**
+- **CRL-04** confidence 95% → **98%** (Apr 17 reprice on FICO Spring data was never mirrored to STATUS).
+- **CRL-06** confidence 70% → **78%** (Apr 17 reprice on Q1 ATTOM 82,631 FC starts was never mirrored).
+- **CRL-11** confidence 85% → **83%** (Mar 31 minor reprice was never mirrored).
+- **CRL-13** confidence 70% → **75%** (Apr empirical-baseline validation reprice was never mirrored).
+- **CRL-22** timeframe "FY27 (early 2027)" → **"Q4 2026 / Q1 2027"** (TSV specificity was never mirrored).
+
+**STATUS-newer → TSV updated to match + logged here (analytical work recovered):**
+- **CRL-05** confidence 82% → **85%** (5/22 PM reprice on Q1 2026 NY Fed HHDC: CC 90+ DQ printed 13.1% = 15-yr HIGH, gap collapsed 1.04pp → 0.64pp, NY Fed researchers cite subprime-driven K-shape converging downward = direct mechanism confirmation in primary data). This reprice was applied to STATUS at the time but never propagated to PREDICTIONS.tsv or CHANGELOG. Now canonical.
+- **CRL-10** confidence 70% → **75%** + timeframe "Q4 2026" → **"Q4 2026 (possibly pulling forward to Q3)"** (5/12 reprice on Apr CPI Food at Home +0.7% MoM — pulling forward vs baseline; wheat 107yr low + urea + tariff transmission now visible on shelves earlier than expected). Same propagation gap — STATUS-only at the time. Now canonical. Single-month skepticism caveat added — needs May CPI (Jun 10) Food at Home confirmation before treating as load-bearing pull-forward.
+
+**No score / thesis impact.** Net analytical-state change: zero (this reconciles the books, doesn't move the books). Mechanism: drift accumulated because the May 22 and May 12 in-session updates to STATUS predictions table didn't flow back to TSV/CHANGELOG (closeout discipline gap pre-dating the Jun-6 Phase-1+2 hardening).
+
+**Lesson (auto-mem candidate):** the new step-15 consistency check needs to run on FULL row coverage at every closeout, not only on rows actively being modified that session — otherwise drift accumulated from prior sessions stays invisible. Add to Phase-3 `scripts/consistency_check.py` as a row-by-row diff vs. text-grep approach. *(Filed against closeout-hardening Phase 3 thread in ROADMAP.)*
+
+---
+
 ## 2026-06-06 — Jun 1-5 data wall: V16 4→3 EXECUTED (v2.5.2, Will-approved), V12 hardened
 
 ### THESIS v2.5.1 → v2.5.2 (minor refinement — vector downgrade, mechanism intact)
