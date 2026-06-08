@@ -51,7 +51,7 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 
 | Date | Event | VIX Implication | VIOLET Checkpoint |
 |------|-------|-----------------|-------------------|
-| **Jun 12** | **May CPI release** | First named macro test post-NFP-shock. CPI tail = compounds NFP rate-shock + AI unwind; clean print = fade-leg #1 deflates. | 🔴 Position gate before any short-vol expression. Pre-mortem due 6/08-6/10. |
+| **Jun 10** | **May CPI release (8:30 ET)** | First named macro test post-NFP-shock. CPI tail = compounds NFP rate-shock + AI unwind; clean print = fade-leg #1 deflates. | 🔴 Position gate before any short-vol expression. Pre-mortem due 6/08-6/09. |
 | **Jun 17** | **FOMC + Powell + SEP + VIX June quarterly expiration** | **Primary vol catalyst gate convergence — 4 events same day** | 🔴 Highest-priority forward gate. |
 | Jul 15 | VIX July expiration | — | — |
 | Jul 29 | FOMC (no SEP) | — | — |
@@ -94,4 +94,4 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 ---
 
 *Created: 2026-04-12*
-*Last Updated: 2026-06-06 (Saturday org session — knife-edge resolved 6/05 (KB-VIO-072), KB-VIO-031 60d window HIT, both pruned from active catalysts. 6/12 CPI now primary forward gate.)*
+*Last Updated: 2026-06-06 (Saturday org session — knife-edge resolved 6/05 (KB-VIO-072), KB-VIO-031 60d window HIT, both pruned from active catalysts. 6/10 CPI now primary forward gate.)* *(6/7: CPI date corrected 6/12→6/10 per BLS schedule — fleet drift catch, aligned to SAM/BRENT.)*

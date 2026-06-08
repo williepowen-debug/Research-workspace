@@ -1,6 +1,6 @@
 # VIOLET — NEXUS Brief
 
-**Status:** 🟠 v3.5 — Fri VIX +40% spike is fade-leaning (credit intact, curve event-shaped) but gated on 6/12 CPI; SKEW 152 = 2nd rebid forming, not exhaustion
+**Status:** 🟠 v3.5 — Fri VIX +40% spike is fade-leaning into the Wed 6/10 CPI gate — credit didn't crack, curve event-shaped
 **Domain:** VIX / vol term structure / SKEW / VVIX / credit-to-vol transmission timing; broadcasts vol-regime to HENRY/LIQUID/RED; receives from BROCK/HENRY/HAWK/LIQUID
 **Thesis version:** v3.5
 **Recent thesis pivot:** v3.2 → v3.5 (6/6) — NFP-shock validated DIET coiled-spring (L1 population framework) but refuted absorbed-trap regime (L2 needs consensus-miss carve-out); fade-leaning two-leg pathway (rate-shock + AI-unwind)
@@ -11,7 +11,7 @@
 ## VIEW
 
 - **Fri VIX +40% to 21.51 was a two-leg move — rate-shock (2x-hot NFP, 172k vs 88k) + AI/factor concentration unwind (NVDA -6%, memory chips -15%) — NOT a credit event.** HY OAS 2.74 flat through the spike. The AI-unwind leg, not NFP, is the actual vol driver.
-- **Fade-leaning on substance, but the fade must clear 6/12 CPI first.** Curve is event-shaped (M1:M2 +15.7% contango, M2/Jul carries the FOMC hump), credit didn't confirm, and the hot-NFP historical universe (16/20 analogs) didn't spike VIX to begin with — today is the outlier. No short-vol before CPI.
+- **Fade-leaning on substance, but the fade must clear Wed 6/10 CPI first.** Curve is event-shaped (M1:M2 +15.7% contango, M2/Jul carries the FOMC hump), credit didn't confirm, and the hot-NFP historical universe (16/20 analogs) didn't spike VIX to begin with — today is the outlier. No short-vol before CPI.
 - **SKEW 152.25 (+10pt 1d) expanded INTO the spike, not after it — high-severity >150 cohort.** This is the one non-fade tell: it signals a *second* rebid forming concurrent with the spike, not exhaustion of the first. Resolution = does SKEW hold >150 sustained 4+td (Prediction #6).
 - **R12 elevated-SKEW regime re-established 6/05** (20d-avg 140.16) concurrent with the spike — interrupted-and-resumed structure (terminated 5/12, resumed 6/05), no historical analog in the 19-yr sample.
 - **The AI/factor concentration-unwind leg has its own half-life, decoupled from macro** — the open question. NVDA/SMH action Mon-Wed is the read: bounce = leg done; extend = vol has its own driver independent of the CPI gate.
@@ -45,7 +45,7 @@
 
 | From | Input | Expected by | Why it matters | How it changes my view |
 |------|-------|-------------|----------------|------------------------|
-| CARL / HENRY | May CPI read (tail vs non-tail) | Fri Jun 12 | Primary fade gate; CPI sits inside the VIX9D window | Non-tail → fade-leg-1 deflates, M1/Jun collapses, short-vol opens; tail → rate-shock + AI-unwind compound, fade breaks |
+| CARL / HENRY | May CPI read (tail vs non-tail) | Wed Jun 10 | Primary fade gate; CPI (3 td out) sits inside the VIX9D window | Non-tail → fade-leg-1 deflates, M1/Jun collapses, short-vol opens; tail → rate-shock + AI-unwind compound, fade breaks |
 | LIQUID | HY / CCC OAS post-spike refresh | Wed Jun 10-12 (FRED T+1) | Tests whether credit confirms the vol move | OAS catch-up (HY>2.85 / CCC>9.55) → decoupling ends, fade → sustain flip |
 | HENRY | Breadth / gamma read on the AI-concentration unwind | Mon-Wed Jun 8-10 | The AI-unwind leg is unmodeled in my NFP analog class | NVDA/SMH bounce → unwind leg done, fade clean; extend → vol has its own driver, fade only partial |
 | BROCK | PC stress / gating signal | Open — watch BCRED / Ares marks | Credit-origination stress could re-arm credit-LED vol | PC cascade → credit-led vol path re-activates (currently dormant) |
@@ -55,7 +55,7 @@
 ## NEXT DECISION POINT
 
 - **What:** First short-vol expression decision — fade the M1/Jun or M2/Jul event-premium. Current posture: NO short-vol before CPI. No open positions.
-- **When:** 6/12 May CPI print (Fri).
+- **When:** Wed 6/10 May CPI print.
 - **What would falsify the trigger:** CPI tails (compounds rate-shock + AI-unwind), OR SKEW holds >150 sustained 4+td (signals a true 2nd rebid), OR credit starts confirming (HY/CCC catch up to vol) — any one keeps the fade off.
 
 ---
@@ -64,7 +64,7 @@
 
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
-| 🔴 Fri Jun 12 | May CPI release | Position gate — see NEXT DECISION; tail compounds the two legs, non-tail deflates fade-leg-1 |
+| 🔴 Wed Jun 10 | May CPI release (8:30 ET) | Position gate — see NEXT DECISION; tail compounds the two legs, non-tail deflates fade-leg-1 |
 | 🔴 Wed Jun 17 | FOMC + SEP + VIX June quarterly expiration | 4-event convergence; M2/Jul carries the FOMC premium (outside VIX9D window); dot-plot is the secondary read |
 | 🟡 Mon-Thu Jun 8-11 | Daily SKEW sustainment watch | Prediction #6: SKEW >150 sustained 4+td = 2nd-rebid confirms vs same-trade-repeating |
 | 🟡 Wed Jul 15 | VIX July expiration | — |
