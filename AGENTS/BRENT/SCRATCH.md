@@ -16,7 +16,8 @@
 - **🆕 NEXUS_BRIEF.md built** (`AGENTS/BRENT/NEXUS_BRIEF.md`, 81 lines, under 100 cap) — pilot-2, heavy-cross-domain. Commit `b41ab19a`.
 - **CLAUDE.md** — wired brief write-back as CLOSEOUT **step 12** (twin of SCRATCH; renumbered promotion→13, git→14); encoded Will's decision that **NEXUS_BRIEF CROSS-DOMAIN tables = BRENT's PRIMARY cross-agent channel** (outbox now 🔴 acute-only). Commits `b41ab19a` + `6bce5a58`.
 - **Pilot-2 consumer review** (spawned NEXUS-proxy) → `inbox/2026-06-07_from-NEXUS_brief_pilot2_review.md`. Verdict: **RATIFY at heavy end**; load-bearing PARTIAL→clean-YES after fixing one defect (missing REGINALD SENDING edge). Applied 4 edits. Commit `6bce5a58`.
-- **Fallback-rate instrumentation** — spec authored (`outbox/2026-06-07_to-NEXUS_fallback_rate_instrumentation.md`, commit `b9764789`) then **APPLIED LIVE to NEXUS via proxy** (commit `59bbc407`, within AGENTS/NEXUS/): new `brief_fallback_log.tsv` + BOOT-step-6 addendum + CLOSEOUT step 9a. Key design: classify fallbacks `stale`/`convergence`/`uncertainty`/**`brief-gap`** — only `brief-gap` rate is the quality signal (total fallback rate would mispenalize Type-B-rich agents like BRENT). Provenance noted for live-NEXUS to review on next boot.
+- **Fallback-rate instrumentation** — spec authored (`outbox/2026-06-07_to-NEXUS_fallback_rate_instrumentation.md`, commit `b9764789`) then **APPLIED LIVE to NEXUS via proxy** (commit `59bbc407`, within AGENTS/NEXUS/): new `brief_fallback_log.tsv` + BOOT-step-6 addendum + CLOSEOUT step 9a. Key design: classify fallbacks `stale`/`convergence`/`uncertainty`/**`brief-gap`** — only `brief-gap` rate is the quality signal (total fallback rate would mispenalize Type-B-rich agents like BRENT). Provenance noted for live-NEXUS to review on next boot. **Promoted to auto-memory** `finding_measure_actionable_not_gross_rate` (Will-approved).
+- **VIOLET-reconciliation (Jun 7 late):** read VIOLET's committed NEXUS_BRIEF; she flagged a BRENT tension — same Fri VIX +40%, two antecedent claims (my single-root oil cascade vs her NFP+AI-unwind). Assessed honestly: she's right, I overclaimed. Conceded to MULTI-ROOT across STATUS + brief + this SCRATCH. The brief system working as designed — two agents, same node, opposite roots → textbook Type-B for NEXUS, now pre-converged toward multi-root.
 
 ## WHAT I DID THIS SESSION
 
@@ -46,7 +47,7 @@
 
 ## OPEN THREADS / WATCHES
 
-- 🔴 **Macro transmission propagation** — watch whether HY OAS catches up to Fri's VIX +40% (LIQUID primary); whether the BRT-16 cascade is one root or independent moves (the Type-B candidate I handed NEXUS).
+- 🔴 **Macro transmission — REFRAMED Jun 7 PM (post-VIOLET).** Conceded: Fri VIX +40% is MULTI-ROOT (NFP rate-shock + AI/factor-unwind, oil a background input), NOT a BRT-16 terminus. VIOLET (vol-node owner) and BRENT now CONVERGE on multi-root; my earlier "firing at market scale" overclaimed (correlation≠causation, `[[finding_catalyst_vs_consequence_conflation]]`). What survives: standing oil→CPI→Fed leg, intact but UNTESTED by Friday — **clean separable test = Jun-12 CPI energy component.** STATUS + brief both synced to this read. Still watch HY OAS catch-up (LIQUID primary).
 - 🔴 **SPR ~350M floor (Jun 10)** — directional, not symmetric.
 - 🟠 **CF chain-decoupling** — Mon AM mark gates re-eval.
 - 🟠 **BRT-15 re-arm** — fresh kinetic-with-facility-damage / US-Iran direct exchange / Hormuz vessel attack / barnacle re-surfacing.
