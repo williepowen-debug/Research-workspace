@@ -58,8 +58,9 @@
 - **Roadmap:** `PEER_PARITY_ROADMAP.md` created — P1 #1+#2 done; P2/P3 remain.
 
 ### NEXT SESSION
+> **Full stale-doc audit + ordered refresh plan: `STALE_PUNCHLIST.md` (re-audited 2026-06-08)** — 9 original + 2 new items, priority-ordered. Items below are the top of that list.
 1. **Verify Jun 12 First Brands UST convert-or-dismiss outcome** — the OPERATIVE OTTO-32 resolver (not Jun 17). Also Jun 12 Carvana discovery prod 2.
-2. **Roadmap #3: TRADE.md rehab** — worst single stale doc (pre-split CVNA prices, dead GT-resigns trigger). STALE_PUNCHLIST #1.
+2. **TRADE.md rehab (punch-list #1, roadmap #3)** — worst stale doc: pre-split CVNA ~$343 vs confirmed ~$64 (strikes off 5×), dead Feb-18 triggers, broken cross-refs. Highest behavioral risk.
 3. **Roadmap #4-5: PREDICTIONS_ARCHIVE.md + calibration scoreboard preamble** (condense closed-row Notes).
 4. **OTTO-29 docket check** — Tricolor Jun 17 distribution likely slipped ($113M dispute); resolve/re-arm at closeout.
 5. **DQ-series reconciliation** — OTTO's "60+ DQ 7.1%" (TransUnion?) vs Fitch ABS 6.90%; confirm which series the dashboard tracks.
