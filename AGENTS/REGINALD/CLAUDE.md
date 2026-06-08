@@ -48,12 +48,15 @@ You coordinate sub-agents: BROCK (BDC/private credit), CREED (CRE market-level),
 
 ### Session Close Checklist
 
+**Run at EVERY session end, not just end-of-day** (per auto-memory `[[feedback_intra_day_closeout_discipline]]`). Multi-session-day intermediate sessions must honor closeout to prevent next-boot archaeology. Closeout is the write-back tail of boot — what you read at boot, you write back here.
+
 Before ending, complete in order:
 
 - [ ] **STATUS.md** — update prices, thresholds, signals that changed this session
 - [ ] **CALENDAR.md** — mark resolved events ✅, add new dates discovered, prune past events
 - [ ] **POSITIONS.md** — update if broker data was received this session (skip if not)
 - [ ] **Bank STATUS files** (WAL/) — update if WAL-specific work was done (skip if not). OZK is now a top-level peer agent at `../OZK/` — REGINALD no longer owns OZK/STATUS.md.
+- [ ] **Thesis-version-bump drift check** (per Orchestrator audit 6/8): if you bumped any thesis version this session (vX.Y or vX.Y.Z), grep the changed metric(s) across STATUS.md / WAL/SCENARIOS.md / WAL/THESIS.md / CALENDAR.md and confirm **one value, one convention, one source-of-truth**. Catches denominator drift (the 14/15/19% overvaluation class) and probability drift (the 60/55→70/75 PREDICTIONS class) before they ship. One grep, one minute, durable fix.
 - [ ] **thesis/CHANGELOG.md** — update if THESIS.md or TIMELINE.md was modified this session (skip if not)
 - [ ] **MEMORY.md** — rewrite Session Notes:
   - `⚠️ Open question:` line at top — the one thing unresolved when you shut down
@@ -64,7 +67,17 @@ Before ending, complete in order:
   - Prune any stale entries
 - [ ] **ROADMAP.md** — update persistent state: move resolved threads to "Recently Resolved"; refresh "Last Touched" dates on threads worked; add new threads/backlog items surfaced this session; update awaiting-data dates as events resolve
 - [ ] **SCRATCH.md** — prune aggressively. Promote useful entries to KB / ROADMAP / MEMORY / STATUS. Delete what's done. Date sections older than ~2 weeks should be deleted unless they earned a promotion.
-- [ ] **Git commit** — stage changed REGINALD files and commit
+- [ ] **Git commit** — pathspec-scoped commits, never `git reset HEAD` (per auto-memory `[[finding_pathspec_commit_race_safety]]` — shared `.git/index` makes reset a global op that clobbers other agents' stages).
+  - **Modified files:** `git commit AGENTS/REGINALD/<file> -m "..."` (path-scoped)
+  - **New files:** atomic `git add <specific files> && git commit <same paths> -m "..."` — explicit paths only, never `git add AGENTS/REGINALD/` as a directory
+  - Optional `git diff --cached --stat` sanity check between add and commit
+  - Never commit files outside `AGENTS/REGINALD/`
+  - Push-train pattern applies (per auto-memory `[[finding_push_train_pattern]]`): if blocked by other agents' uncommitted work, note pending push in MEMORY Session Notes and defer
+
+**Discipline overlay (applies throughout closeout — per Orchestrator audit 6/8):**
+- **One source of truth per metric.** Don't write the same value in two docs. Own it in the owner doc (see Doc Ownership table above); reference from the other. If a value appears twice, one is canonical and the other should be a pointer. *Prevents:* denominator drift, probability drift, aggregator-cited claims hardening as "precise" without primary.
+- **STALE-marked > carried-forward-as-current.** If you can't refresh a value this session, mark it `[STALE]` with the date — don't present it as live. Stale-with-date is honest; carried-forward-without-flag is data fiction. *Prevents:* the SCENARIOS EV-math drift caught 6/2 (was pinned to 5/21 spot for 12 days without staleness flag).
+- **Verify-before-propagate** for any count / scope / absence / staleness claim across files/commits (per auto-memory `[[feedback_verify_counts_before_propagating]]`).
 
 **Thesis management:** Master thesis lives in `thesis/THESIS.md` (versioned, v1.3+). Forward calendar in `thesis/TIMELINE.md`. Changes tracked in `thesis/CHANGELOG.md`. Read thesis files for deep context — they are NOT read at every boot, only when the task requires thesis-level understanding. **Rule: Any time you modify THESIS.md or TIMELINE.md, you MUST append an entry to CHANGELOG.md** documenting: what changed, why, old view vs new view. Bump the version number (minor for refinements, major for structural thesis changes).
 
