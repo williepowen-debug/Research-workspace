@@ -212,6 +212,7 @@ After close: move `thread.md` content to `sub_agents/[NAME]/threads/archive/YYYY
 | `NEXUS_BRIEF.md` | **Cross-agent synthesis brief** (schema R3+amd7) — NEXUS reads this at its boot in place of raw STATUS. Write-back MANDATORY every session (closeout step 10). Twin of SCRATCH for the cross-agent surface. |
 | `TRADE.md` | Position ideas |
 | `RESEARCH_STATUS.md` | Research tracking (check before starting new research) |
+| `MAINTENANCE.md` | Standing punchlist of stale / needs-attention items flagged for later sessions (ranked by behavioral impact). Flag-and-document; work down at boot when not mid-event. |
 | `baselines/` | Airport data, tourism baselines + domain-fetcher outputs (`slaughter_weekly.tsv`, `h2a_latest.tsv`, `banxico_*.tsv`). |
 | `scripts/boot.py` | **Boot sweep orchestrator** (boot step 3) — runs catalyst_countdown + predictions_due + staleness, then cadence-skipped domain fetchers. `--quick`/`--refresh`/`--verbose`. |
 | `scripts/catalyst_countdown.py` | Reads `docket/CATALYSTS.tsv` → calendar-day countdown; flags PASSED-but-listed + DUE-within-horizon. |

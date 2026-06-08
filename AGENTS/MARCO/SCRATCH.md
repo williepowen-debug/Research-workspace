@@ -41,6 +41,7 @@ Will flagged a maturity-gap question (MARCO boot vs SAM/BRENT). Compared: MARCO 
 ## OPEN THREADS
 | Item | Status |
 |------|--------|
+| **`MAINTENANCE.md` punchlist (NEW 6/8)** | 🟡 flag-and-document sweep done; 9 items ranked by behavioral impact. Work down next session (T1 first: FINDINGS v2.0→v2.4 + stale live-block; NOTES 2.2M data-quality tension; MAR-11 certified-vs-requested). NOT yet fixed. |
 | ES-MARCO-08 produce-vs-pump test | 🔴 Jun 10 CPI (Pull Session 2) |
 | ES-MARCO-09 World Cup reversal test | 🟠 NTTO June print ~mid-Aug |
 | ES-MARCO-04 (TX border) / ES-07 (Vegas) | 🟡 counter-signal → formal DID_NOT_APPEAR at Jun-30 |
