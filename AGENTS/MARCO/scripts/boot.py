@@ -1,0 +1,149 @@
+#!/usr/bin/env python3
+"""
+MARCO Boot Sequence — Master Orchestrator
+
+One command for the MARCO boot situational-awareness sweep. Replaces the manual
+"surface predictions-due + eyeball KEY DATES" steps with an automated pass.
+
+Two layers:
+  1. READ-ONLY AWARENESS (always run, fast, offline-safe) —
+       catalyst_countdown.py   what's due / passed-but-still-listed
+       predictions_due.py      OPEN predictions + expected-signals past/near window
+       staleness.py            STATUS / VX dashboard drift
+  2. DATA FETCHERS (run when their output is stale; skip when current) —
+       banxico_reverse.py · h2a_pull.py · slaughter_pull.py
+     Each is wrapped defensively (SAM pattern): per-fetcher timeout, non-fatal on
+     failure, and a CADENCE-SKIP keyed on the output file's mtime — so a monthly
+     series isn't re-pulled every boot, only when a new print is actually due.
+     Running them at boot also keeps them exercised — breakage shows as ❌ FAIL
+     instead of rotting unnoticed.
+
+Usage:
+  .venv/bin/python3 AGENTS/MARCO/scripts/boot.py
+  .venv/bin/python3 AGENTS/MARCO/scripts/boot.py --quick     # awareness only, skip all fetchers
+  .venv/bin/python3 AGENTS/MARCO/scripts/boot.py --refresh   # force fetchers, ignore cadence-skip
+  .venv/bin/python3 AGENTS/MARCO/scripts/boot.py --verbose   # full output for every step
+"""
+
+import subprocess
+import sys
+import time
+from datetime import datetime
+from pathlib import Path
+
+SCRIPTS_DIR = Path(__file__).resolve().parent
+MARCO_DIR = SCRIPTS_DIR.parent
+WORKSPACE = MARCO_DIR.parent.parent
+VENV_PY = WORKSPACE / ".venv" / "bin" / "python3"
+BASELINES = MARCO_DIR / "baselines"
+TOOLS = MARCO_DIR / "tools"
+
+# Read-only awareness scripts — always run, shown in full (they ARE the brief).
+AWARENESS = [
+    ("Catalyst Countdown",   SCRIPTS_DIR / "catalyst_countdown.py"),
+    ("Predictions Due Scan", SCRIPTS_DIR / "predictions_due.py"),
+    ("Staleness Check",      SCRIPTS_DIR / "staleness.py"),
+]
+
+# Data fetchers: (label, script, output_file_for_mtime, cadence_days, timeout_s)
+# cadence_days = skip the fetch if the output file was refreshed within this window.
+FETCHERS = [
+    ("Banxico remittances", TOOLS / "banxico_reverse.py",
+     BASELINES / "banxico_destination_states.tsv", 85, 120),
+    ("H-2A disclosure",     TOOLS / "h2a_pull.py",
+     BASELINES / "h2a_latest.tsv",                 85, 300),
+    ("Slaughter weekly",    TOOLS / "slaughter_pull.py",
+     BASELINES / "slaughter_weekly.tsv",            6, 90),
+]
+
+
+def file_age_days(path):
+    if not path.exists():
+        return None
+    return (time.time() - path.stat().st_mtime) / 86400.0
+
+
+def run_script(path, timeout):
+    if not path.exists():
+        return "MISSING", f"  SKIP: {path.name} not found", 0.0
+    start = time.time()
+    try:
+        r = subprocess.run([str(VENV_PY), str(path)], capture_output=True,
+                           text=True, timeout=timeout, cwd=str(WORKSPACE))
+        out = r.stdout
+        if r.returncode != 0 and r.stderr:
+            out += f"\n  STDERR: {r.stderr[-400:]}"
+        return ("OK" if r.returncode == 0 else "FAIL"), out, time.time() - start
+    except subprocess.TimeoutExpired:
+        return "FAIL", f"  TIMEOUT after {timeout}s", time.time() - start
+    except Exception as e:
+        return "FAIL", f"  ERROR: {e}", time.time() - start
+
+
+def collapse(output):
+    """Show only alert/marker lines from a fetcher's output."""
+    markers = ("🔴", "🟠", "⚠️", "❌", "FAIL", "ERROR", "TIMEOUT", "wrote", "Wrote",
+               "Source:", "Total", "range:")
+    lines = [ln for ln in output.splitlines() if any(m in ln for m in markers)]
+    return lines[-4:] if lines else ["    ✓ ran cleanly"]
+
+
+def main():
+    quick = "--quick" in sys.argv
+    refresh = "--refresh" in sys.argv
+    verbose = "--verbose" in sys.argv
+    now = datetime.now()
+
+    print(f"\n{'#'*72}")
+    print(f"#{'MARCO BOOT SEQUENCE':^70}#")
+    print(f"#{now.strftime('%A, %B %d, %Y  %H:%M'):^70}#")
+    print(f"{'#'*72}")
+
+    t0 = time.time()
+    results = []
+
+    # ---- Layer 1: read-only awareness ----
+    for label, path in AWARENESS:
+        print(f"\n  ⏳ {label}…", flush=True)
+        status, out, el = run_script(path, 60)
+        if out.strip():
+            print(out if (verbose or True) else "")  # awareness always shown full
+        results.append((label, status, el))
+
+    # ---- Layer 2: data fetchers ----
+    if quick:
+        print(f"\n  ⏩ Fetchers skipped (--quick)")
+    else:
+        print(f"\n{'='*72}\n  DATA FETCHERS (cadence-skip on output mtime)\n{'='*72}")
+        for label, script, out_file, cadence, timeout in FETCHERS:
+            age = file_age_days(out_file)
+            if not refresh and age is not None and age < cadence:
+                print(f"\n  ⏩ {label} — current ({age:.0f}d < {cadence}d cadence), skip")
+                results.append((label, "SKIP", 0.0))
+                continue
+            age_str = "missing" if age is None else f"{age:.0f}d old ≥ {cadence}d"
+            print(f"\n  ⏳ {label} — {age_str}, fetching (timeout {timeout}s)…", flush=True)
+            status, out, el = run_script(script, timeout)
+            for ln in (out.splitlines() if verbose else collapse(out)):
+                print(f"    {ln}" if not ln.startswith("    ") else ln)
+            results.append((label, status, el))
+
+    # ---- Summary ----
+    print(f"\n{'='*72}\n  BOOT SUMMARY\n{'='*72}")
+    print(f"\n  {'Step':<26}{'Status':>8}{'Time':>8}")
+    print(f"  {'-'*42}")
+    for label, status, el in results:
+        icon = {"OK": "✅", "SKIP": "⏩", "MISSING": "❓"}.get(status, "❌")
+        print(f"  {icon} {label:<24}{status:>6}{el:>7.1f}s")
+    print(f"\n  Total boot: {time.time()-t0:.1f}s  |  {now:%Y-%m-%d}")
+
+    fails = [r for r in results if r[1] == "FAIL"]
+    if fails:
+        print(f"\n  ⚠️  {len(fails)} step(s) failed — rerun with --verbose for detail.")
+        return 1
+    print(f"\n  ✅ Boot sweep complete.")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

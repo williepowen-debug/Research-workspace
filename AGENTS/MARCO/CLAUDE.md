@@ -22,7 +22,7 @@ Three domains: (1) International Visitor Flows (Canadian collapse -28%), (2) Wor
 ### Boot (read phase)
 1. **Read `STATUS.md`** — active situations, signal dashboard, confirmed findings, thesis-inflection block.
 2. **Read `SCRATCH.md`** — last session's canonical handoff: open threads, NEXT SESSION items, pending decisions.
-3. **Surface predictions-due** — eyeball OPEN rows in `thesis/PREDICTIONS.tsv` whose Timeframe has passed; flag any DUE for resolution at closeout (don't let a prediction sit OPEN-but-stale).
+3. **Run the boot sweep** — `.venv/bin/python3 AGENTS/MARCO/scripts/boot.py` (~5s read-only; full run pulls stale domain data). One command for the awareness layer that step 3 used to be done by eye: catalyst countdown (what's due / passed-but-still-listed), predictions/expected-signals due-scan (OPEN rows past or near their Timeframe window — the free-text parser resolves Q/H/FY/month-range), and STATUS/VX staleness. Flag anything it surfaces for resolution at closeout. *(Layer-2 fetchers — Banxico/H-2A/slaughter — run only when their `baselines/` output is stale, cadence-skipped on mtime; `--quick` = awareness only, `--refresh` = force fetch, `--verbose` = full output.)*
 
 ### Execute
 4. **Execute the task.**
@@ -210,7 +210,11 @@ After close: move `thread.md` content to `sub_agents/[NAME]/threads/archive/YYYY
 | `EXPECTED_SIGNALS.md` | "Absence-is-information" tracker — signals that should appear if thesis holds. Complements PREDICTIONS.tsv. |
 | `TRADE.md` | Position ideas |
 | `RESEARCH_STATUS.md` | Research tracking (check before starting new research) |
-| `baselines/` | Airport data, tourism baselines |
+| `baselines/` | Airport data, tourism baselines + domain-fetcher outputs (`slaughter_weekly.tsv`, `h2a_latest.tsv`, `banxico_*.tsv`). |
+| `scripts/boot.py` | **Boot sweep orchestrator** (boot step 3) — runs catalyst_countdown + predictions_due + staleness, then cadence-skipped domain fetchers. `--quick`/`--refresh`/`--verbose`. |
+| `scripts/catalyst_countdown.py` | Reads `docket/CATALYSTS.tsv` → calendar-day countdown; flags PASSED-but-listed + DUE-within-horizon. |
+| `scripts/predictions_due.py` | Free-text Timeframe/Expected-By parser (Q/H/FY/month-range) → flags OPEN predictions + active expected-signals past/near window. Fails LOUD on unparseable. |
+| `scripts/staleness.py` | STATUS header-date + VX.tsv per-row `Last Updated` drift check. |
 | `domain/sources/` | Research archives, STATUS backups |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
 | `outbox/` | Outbound signals for other agents. One file per signal. HERMES delivers. |
