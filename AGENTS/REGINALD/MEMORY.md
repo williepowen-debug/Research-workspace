@@ -56,7 +56,9 @@
 
 ⚠️ **Open question:** Cohort NCO question is RESOLVED (Hyp A — genuine improvement). The forward uncertainty it leaves: **does genuine cohort improvement survive Q2 (the $875B 2026 CRE maturity wall), or was Q1 a head-fake?** Watch tell: MTB released CRE reserves hard (−31% CRE ACL vs −10% CRE loans) into that wall — if the cohort re-stresses at Q2/Q3, MTB's optimism is where it shows first. WAL bear is now explicitly idiosyncratic, so the v2.2 second-data-point (WAL Q2 print ~Jul 30) carries more of the thesis weight (less cohort cover).
 
-**Pending Will calls:** None. Cohort decomposition resolved to "v2.2.1 holds as-is, framing now earned" — no reweight, no position change (recommendation-not-auto-apply honored). Bear-medium-revert-to-30 is OFF the table (was the Hyp B path).
+**Pending Will calls:** None substantive. Cohort decomposition resolved to "v2.2.1 holds as-is, framing now earned" — no reweight, no position change (recommendation-not-auto-apply honored). Bear-medium-revert-to-30 is OFF the table (was the Hyp B path).
+
+**⏳ PENDING PUSH:** Commit `a61e4ce3` (cohort decomposition, 6 REGINALD files) is LOCAL-ONLY. Push deferred per standing defer-push instruction ([[feedback_defer_push_coordinate]], reinforced by CARL 6/8 commits `66c6be00`/`84fe7023` formalizing fleet defer-push-to-Will-coordination). My commit rides on top of ~6 other-agent local commits (CARL/HAWK/BROCK 6/8 PM) also not yet on origin (origin at `dc6093fb`). Will coordinates the GitHub push. If pushed by a later agent's push-train, this commit goes with it (fast-forward clean).
 
 ### CHANGES SINCE LAST SESSION
 (leave blank — next-boot market.py + drift-grep populates)
