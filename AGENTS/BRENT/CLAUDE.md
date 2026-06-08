@@ -73,7 +73,10 @@ All mail lives in removed:
 6. **Mark processed** — move signal file to `inbox/processed/`
 
 ### Outbox Protocol
-Write a single `.md` file to `outbox/` per signal:
+
+**Primary cross-agent surface = `NEXUS_BRIEF.md` CROSS-DOMAIN tables** (Will, Jun 7). NEXUS reads BRENT's brief at its boot (its BOOT step 6) and does the routing/synthesis — this works around degraded HERMES. **Outbox is reserved for 🔴 acute, time-sensitive signals only**; steady-state cross-agent signal flows through the brief's SENDING/WAITING-FOR tables, not per-signal outbox files. Keep those tables fresh at closeout (step 12) — that IS the cross-agent comms now.
+
+Write a single `.md` file to `outbox/` per signal (acute 🔴 only, per above):
 - **Filename:** `YYYY-MM-DD_to-[target]_[short_description].md`
 - **Format:**
 ```

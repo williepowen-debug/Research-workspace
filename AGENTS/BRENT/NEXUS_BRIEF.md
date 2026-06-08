@@ -1,9 +1,9 @@
 # BRENT — NEXUS Brief
 
-**Status:** 🟠 v3.0 — BRT-16 macro-transmission (oil→CPI→Fed→vol) now firing into CARL/HENRY/LIQUID for the first time at market scale
+**Status:** 🟠 v3.0 — BRT-16 macro-transmission (oil→CPI→Fed→vol) firing across the macro stack (HENRY/LIQUID/REGINALD) for the first time at market scale
 **Domain:** Oil & energy — Brent/WTI, OPEC+, storage (Cushing/SPR), tankers, energy credit; transmission to CARL (gas/consumer), HENRY (energy CPI/PPI), LIQUID (energy HY OAS), SAM (Japan LNG), HAWK (oil↔scenarios), REGINALD (energy loans)
 **Thesis version:** v3.0
-**Recent thesis pivot:** v3.0 held; material view shift Jun 5 — kinetic→price decoupling confirmed + BRT-16 macro-transmission firing visibly (v3.1 bump pending post Jun-9 STEO / Jun-10 EIA)
+**Recent thesis pivot:** Jun 5 view shift (v3.1 pending): kinetic→price DECOUPLED + BRT-16 macro-transmission now firing visibly. Bump gated on Jun-9 STEO / Jun-10 EIA.
 **Position:** XLE $65C Sep-30 (kinetic-tail insurance, OTM); CF $130C Jun-18 (decoupling-from-crude watch) — structural only; marks in STATUS/FORGE, no P/L here
 **As of:** 2026-06-07 ~PM ET (STATUS data through Fri 6/5 close + OPEC+ Jun-7 outcome) | STATUS commit: 7c178f1c
 
@@ -11,7 +11,7 @@
 
 ## VIEW
 
-- **Brent faded THROUGH escalation** — $94.66 Fri close, off Mon $95.13 despite Iran's 7-missile salvo at Kuwait+Bahrain Jun 5. Market has priced kinetic-without-damage as the regime; war-risk premium fully unwound (STNG/DHT down on missile days).
+- **Market has priced kinetic-without-damage as the regime** — war-risk premium fully unwound (STNG/DHT down even on missile days); Brent faded THROUGH escalation to $94.66 Fri close (off Mon $95.13) despite Iran's 7-missile salvo at Kuwait+Bahrain Jun 5.
 - **The week's real move was MACRO, not crude** — NFP 172K vs 80K → Fed pricing year-end HIKE → VIX +40% to 21.51 → Nasdaq -4.18%; CNN tied it explicitly to "oil-spike inflation." BRT-16 sequential-transmission firing for the first time at market scale.
 - **OPEC+ Jun 7 = base case** — +188K bpd July (paper unwind), UAE baseline deferred to 2027 review (defense posture). 188K is trapped behind Hormuz → no real supply, no thesis change.
 - **Storage is the truest Phase-1 read now** — Cushing 22.4M (decel, 20M floor ~Jul 1); SPR 357.1M (~350M floor Jun 10 = directional binary: throttle bullish / drain-through near-term bearish + medium-term bullish).
@@ -39,6 +39,7 @@
 |----|--------|----------|---------------------------------------------|
 | HENRY | Oil→CPI transmission live: Brent $90+ through Q2 feeding energy-CPI; Fed now pricing year-end HIKE on NFP + oil-inflation narrative | 🔴 | Confirms inflation re-accel; Fed-hike repricing IS the macro-damage channel firing — weight oil as the inflation driver |
 | LIQUID | HY energy OAS stale (Apr-28 ~285bps) dismissing kinetic; macro-vol spike Fri (VIX +40%) may force credit re-rate | 🟠 | Energy-credit catch-up risk → watch HY energy OAS >400bps for stress emergence; credit currently lags the vol move |
+| REGINALD | Fed-hike repricing (oil-CPI driven) → duration/AFS-mark stress at regional banks; energy-loan book exposure if HY energy OAS re-rates | 🟠 | Duration/AFS-marks pressure + energy-credit exposure = the regional-bank terminus of the BRT-16 cascade (the 1986-analog tail, LESSONS #14) |
 | HAWK | Brent $94.66 / backwardation ~$8.43 6mo / no facility damage priced | 🔴 | Oil-price input for scenario framework; flat-price says market is pricing Scenario-B (contained) not Scenario-C (>$100) |
 | CARL | Retail gas $4.459/gal (May 27, plateaued); Brent −$3 retrace → mid-June pump relief incoming | 🟠 | Consumer energy burden eases at the margin → softens discretionary-squeeze timing |
 | SAM | LNG spot (Cheniere $238.82); Brent <$100 → Japan energy-import cost relief (lag) | 🟠 | Japan trade-balance / energy-cost input; Brent fade eases JPY energy drag |
@@ -75,4 +76,6 @@
 
 ---
 
-*Brief format follows the NEXUS_BRIEF schema (R3 + amendment 7). BRENT is the schema's designated Pilot-2 stress-test — but note BRENT is NOT a "light/single-channel" domain as the rollout plan assumed: it carries 5-6 live cross-agent edges and is the originator of this week's macro-transmission cascade, so this brief stress-tests the heavy-CROSS-DOMAIN end. Updated at every BRENT session closeout per SPAWN PROTOCOL discipline.*
+*Brief format follows the NEXUS_BRIEF schema (R3 + amendment 7). BRENT is a HEAVY cross-domain channel (5-6 live edges + originator of the macro-transmission cascade) — NOT the "light/single-channel" pilot the rollout plan (§5.3 step 3) assumed; a genuinely single-channel agent (HAWK candidate) should fill the light-end slot. Updated at every BRENT session closeout per SPAWN PROTOCOL discipline.*
+
+*Pilot-2 consumer review (`inbox/2026-06-07_from-NEXUS_brief_pilot2_review.md`): **RATIFIED** at the heavy-cross-domain end. Open for LIVE-NEXUS adoption — **amendment-9** (optional CASCADE sub-block: Chain / Shared-antecedent / Independence-flag / Falsifier — gives multi-hop chains a structured home so they're machine-scannable for Discipline F instead of narrated in prose) + soft **amendment-10** (acute-vs-steady inline marker, now that the brief is BRENT's primary cross-agent channel). Cascade currently carried in CALIBRATION prose pending adoption.*
