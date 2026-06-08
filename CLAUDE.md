@@ -54,7 +54,7 @@ Agent state lives at `AGENTS/<NAME>/STATUS.md`. Trade execution at `FORGE/STATUS
 
 ## Git Protocol
 
-Agents share one working directory and branch. **GitHub is the single source of truth.** All agents must pull at session start and commit + push at session end. This ensures every agent works from the latest state and every agent's work is available to others.
+Agents share one working directory and branch. **GitHub is the single source of truth.** All agents pull at session start and **commit locally** at session end. **Pushing is Will-coordinated — not an automatic session-end step:** the shared branch means a per-agent closeout push races other agents' unpushed commits and dirty trees. Commit your work locally so it's preserved; it goes to origin when Will opens a coordinated push window.
 
 > **`git add` ONLY files inside your own `AGENTS/<NAME>/` directory.** Never `git add .` or `git add -A`. If you need to commit a shared file (HEARTBEAT, FORGE, etc.), flag it to Prome — don't commit it yourself.
 
@@ -63,9 +63,9 @@ Agents share one working directory and branch. **GitHub is the single source of 
 2. Then proceed with your normal boot sequence
 
 **At session end:**
-1. Commit your files (follow "Before committing" below)
-2. Push to GitHub (follow "Before pulling" first if remote has diverged)
-3. If you cannot push (other agents have uncommitted work), note the pending push in your MEMORY.md session notes
+1. Commit your files locally (follow "Before committing" below).
+2. **Do NOT push by default.** Pushing is Will-coordinated — push only inside a window Will has opened. A session-end push races other agents' unpushed commits / dirty trees on the shared branch. (When Will opens a push, one agent's push sweeps everyone's committed-but-unpushed work — see auto-memory `finding_push_train_pattern`.)
+3. Note any pending push in your session notes so the next coordinated push window sweeps it.
 
 **Before committing:** (pathspec pattern — avoids the shared-`.git/index` race; see auto-memory `finding_pathspec_commit_race_safety`, incident `8ac5bf71` Jun 4 2026)
 1. **For modified files:** `git commit AGENTS/<YOUR_NAME>/<file> -m "..."` — path-scoped commit, no separate staging step.

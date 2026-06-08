@@ -1,11 +1,13 @@
 ---
 name: finding-push-train-pattern
-description: "When multiple agents have pending local commits and one closes out cleanly, that agent's standard push pulls all the others up to origin; no coordination needed beyond protocol compliance"
+description: "Inside a Will-opened push window, one agent's push (no refspec) ships ALL agents' committed-but-unpushed commits to origin via pull/rebase — only one agent need push. QUALIFIED 6/8: under the standing 'push is Will-coordinated, not a closeout step' rule, this fires inside a coordinated window, NOT automatically at closeout."
 metadata: 
   node_type: memory
   type: finding
   originSessionId: 6aefca3b-c324-4c82-8d52-f261b8995394
 ---
+
+> **⚠️ Qualified 2026-06-08:** The *mechanic* below is still true; its *trigger* changed. Root CLAUDE.md no longer tells agents to push at session end — **pushing is Will-coordinated** (commit local, defer push). So the push-train no longer fires automatically when "the first agent closes out cleanly"; it fires when **Will opens a push window** and one agent pushes, sweeping everyone's committed-but-unpushed work up together. Do **not** read this memory as license to push at closeout. See root `CLAUDE.md` Git Protocol + `[[feedback_defer_push_coordinate]]`. The original framing below assumed routine closeout pushes, which no longer happen.
 
 When multiple agents share the repo and have pending local commits (each blocked from pushing because another agent is mid-session with uncommitted work), the first agent to close out cleanly will push *everyone's* pending commits up to origin via their standard `git push` — which doesn't filter by author.
 
