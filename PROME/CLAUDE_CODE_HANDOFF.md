@@ -12,6 +12,52 @@
 
 ---
 
+## Current Session — 2026-06-08 (Heavy: git-discipline + boot/closeout hardening + first full two-machine merge)
+
+**Run type:** Will-directed Mon-open session that pivoted from week-prep to infrastructure/coordination. ~14 turns, no agent spawns, ended with the first full cross-machine (desktop↔laptop) merge + push.
+
+### What landed (chronological)
+1. **Mon-open dashboard** — VIX faded 21.51→18.40 (divergence reasserts); HY OAS 276 sole binary line. No trade rails moved.
+2. **2 BROCK signals processed** → root `CLAUDE.md` "Before committing" migrated to pathspec (`aba61b5f`); 6/18 trigger set → v0.2.1 (BROCK validated R2/R4, added R2.5 monitoring-only watch-flag; `ec7205e3`).
+3. **PROME boot/closeout hardening** (`49c58dd0`) — pathspec git in BOOT/CLOSEOUT, boot outbox-scan (step 9), boot↔closeout symmetry table (closed ACTIVE_DECISIONS write-back gap + TODAY mismatch). Benchmarked vs SAM/BRENT.
+4. **Root push-coordination fix** (`e2f8e2f9`) — both root spots ("commit + push at session end") reframed to *push is Will-coordinated*; `finding_push_train_pattern` qualified (mechanic kept, trigger gated to Will-opened window). Co-flagged by CARL+BRENT on desktop in parallel.
+5. **openpyxl** installed into shared `.venv` (MARCO flag) — unblocks H-2A fetcher; `.venv` gitignored.
+6. **Fleet git-update list generated** — MARCO/OTTO/OZK on deprecated reset-HEAD + HENRY pointer + SAM/BRENT/REGINALD/BROCK "aligned" swap. **No action** (Will: "just the list"); propagation mechanism deferred.
+7. **Rescued cross-agent `memory/auto/` promotions** (`e2a63cc2`) — OTTO's 4 lessons (local copies already deleted) + MARCO/LABOR boot.py findings + MEMORY.md index. OTTO correctly flagged-to-PROME rather than cross-dir commit.
+8. **First full two-machine merge + push** — fetched origin (23 desktop commits), confirmed disjoint via `comm` (zero shared files), rebased 21 local onto 23, fast-forward push → `f0082b38`. Synced 0/0.
+
+### Files edited (within autonomous scope)
+- Root `CLAUDE.md` — pathspec "Before committing" + push-is-Will-coordinated (2 spots). *Shared file; Will-approved both edits.*
+- `FORGE/trigger-sets/JUN18_CLUSTER_2026-06-18.md` — v0.2.1 (R2.5 + calibration tracking + changelog).
+- `PROME/BOOT.md`, `PROME/CLOSEOUT.md` — hardening.
+- `memory/auto/` — `finding_push_train_pattern` qualified + MEMORY.md index; rescued 5 cross-agent promotions; +3 new findings (see below).
+- Closeout: `PROME/SCRATCH.md` (rewrite), `PROME/STATUS.md` (surgical), `PROME/ACTIVE_DECISIONS.md` (6/18 v0.2.1 row), this entry, `memory/2026-06-08.md`.
+- `.venv` — openpyxl install (gitignored, not a tree change).
+
+### Decisions Will made this session
+Process 2 BROCK signals → approve R2.5 monitor + explicit-form root pathspec edit · local commits OK this session, **push is Will's call** · update PROME boot/closeout #1/#2/#3 (not #4-5) · fleet git list "just the list, stop here" · fix the 2 BRENT-assigned items (root push-default + push-train memory) himself-via-me · install openpyxl · let MARCO/OTTO/LABOR finish then wind down · **go ahead and push (safely)** · do the closeout.
+
+### Decisions needed from Will (forward-looking)
+- **Fleet git-update propagation mechanism** (route-SIGs vs fleet-note) — when ready; MARCO/OTTO/OZK still on old pattern.
+- Live carries unchanged (Wed CPI TLT-add gate, BOND matrix v2 pre-Wed, VIOLET 4/15 6/12, separate-clones post-6/16).
+
+### Risks / Blockers
+- **None blocking.** Tree clean + synced.
+- **Soft:** WALTER inbox SIG sits untracked locally (for WALTER boot; not pushed). Desktop `96a588e6` "overrides root doc" note now stale post-root-fix (minor tidy). Separate-clones remains the real fix for shared-tree friction (post-6/16).
+
+### v_next design inputs returned (→ auto-memory)
+1. **Two-machine partition operating model** — disjoint dirs → cross-machine merges clean (validated first full merge); partition agents by machine, never double-run, sync in batches. `finding_two_machine_partition_clean_merge`.
+2. **Just-read-artifact frame contamination** — a freshly-processed artifact about agent Y biases situational reads toward "its topic is happening with Y" (my BROCK-vs-MARCO confusion). `finding_just_read_artifact_frame_contamination`.
+3. **Governance-doc stale-default drift** — root accumulated stale defaults (reset-HEAD AND push-at-closeout) that fleet papered over via local docs + memory; fix is reconcile the doc, not keep overriding. `finding_governance_doc_stale_default_drift`.
+
+### Next suggested work
+Tue 6/9 PM Wed-CPI prep (conditional) · pre-Wed 1pm BOND matrix v2 · fleet git propagation when Will picks mechanism. Pointer: `PROME/SCRATCH.md`.
+
+### Rules held to
+Pathspec commits throughout (dogfooded under live MARCO/OTTO concurrency) · no push without Will's explicit call · shared-file edits (root CLAUDE.md, memory/auto/) Will-authorized · no cross-agent dir edits (OTTO flagged memory/auto to me; I committed it as shared-infra owner) · read-before-edit · verify-before-propagate (forensic reflog on the MARCO-commit-under-me; `comm` disjoint-check before rebase) · staged merge with verification gates before the irreversible push.
+
+---
+
 
 ## Current Session — 2026-05-22 (6/18 trigger set v0.1 + 3 calibration SIGs)
 

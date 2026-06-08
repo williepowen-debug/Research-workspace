@@ -1,9 +1,9 @@
 # PROME STATUS.md
-**Updated:** 2026-06-07 ~17:55 ET (Claude Code Prome — Sun-evening week-prep refresh for Mon 6/8 open)
+**Updated:** 2026-06-08 PM ET (Claude Code Prome — Mon infra/coordination: git-discipline + boot/closeout hardening + first full two-machine merge)
 
 ## Core State
 
-**Operational priority:** Boot surfaces refreshed from Jun 4 operating mode → Jun 7 PM week-prep mode. Three signals ingested (BOND 6/5 / CARL 6/6 / HENRY 6/6); week-ahead catalyst card shipped at `PROME/action-cards/WEEK_2026-06-08.md`; HEARTBEAT current.
+**Operational priority:** Jun 8 was an **infrastructure/coordination session**, not market work — root git-discipline reconciled (pathspec + *push-is-Will-coordinated*), PROME boot/closeout hardened vs SAM/BRENT, and the **first full two-machine merge executed clean** (desktop 23 + laptop 21, disjoint, conflict-free, pushed). Market posture unchanged from Jun 7 PM week-prep; the week card at `PROME/action-cards/WEEK_2026-06-08.md` still governs. Wed CPI + auction triplet (6/9/6/10/6/11) remain the HY-OAS gates.
 
 **Regime:** Substance/tape divergence is *narrowing*. Vol confirmed on Fri NFP (VIX 15.40→21.51). **HY OAS 274🟢 is now the SOLE remaining "tape refuses cascade" signal.** Wed CPI + Treasury refunding triplet (6/9/6/10/6/11) are the binary HY-OAS tests; FOMC 6/16-17 is the bigger gate.
 
@@ -15,8 +15,9 @@
 
 | Item | Status | Note |
 |---|---|---|
-| GitHub sync | ✅ Clean | Local `master` = origin/master at `936514c0` (WALTER 6/06 PM-3). |
-| Local stale edits | 🟡 Two SAM dirty files (FXY_OPTIONS.tsv + USDJPY.tsv) | SAM's domain, untouched. |
+| GitHub sync | ✅ Clean, synced | First full two-machine merge landed clean (desktop 23 + laptop 21, disjoint, conflict-free) + pushed Jun 8. Both machines resume from current synced state. |
+| Local working tree | 🟡 1 untracked WALTER inbox SIG | `SIG-OTTO-WALTER-20260608-nexus-brief-optin.md` — by design, WALTER commits own inbox on next boot; not pushed. |
+| Push discipline | ✅ Will-coordinated | Root reconciled Jun 8: commit locally, push only on Will's explicit call (was "push at session end"). |
 | Jun 4 surface rehab | ✅ Pushed | Boot surfaces were current at Jun 4 ~17:35; refreshed today. |
 | HEARTBEAT refresh | ✅ Done (this session) | Now reflects Jun 7 PM regime delta. |
 | GitHub source-of-truth rule | ✅ Active | |
@@ -28,9 +29,9 @@
 
 | File | Current trust | Note |
 |---|---|---|
-| `PROME/SCRATCH.md` | ✅ Current Jun 7 PM | Rewritten this session. |
-| `PROME/TODAY.md` | ✅ Current Jun 7 PM | Rewritten for Mon 6/8. |
-| `PROME/STATUS.md` | ✅ Current Jun 7 PM | This file. |
+| `PROME/SCRATCH.md` | ✅ Current Jun 8 PM | Full rewrite — infra session. |
+| `PROME/TODAY.md` | 🟡 Jun 7 PM (date still Mon 6/8) | Still current today; refresh Tue for 6/9. |
+| `PROME/STATUS.md` | ✅ Current Jun 8 PM | This file. |
 | `PROME/FLEET_SCAN.md` | ✅ Current Jun 7 PM | Bounded week-prep scan (next). |
 | `PROME/ACTIVE_DECISIONS.md` | ✅ Current — 3 signals ingested | TLT Sep gate narrowed; separate-clones row added with M3 slate. |
 | `PROME/action-cards/WEEK_2026-06-08.md` | ✅ NEW | Single-source week card. |
@@ -74,6 +75,12 @@
 
 | Action | Pri | Status |
 |---|---:|---|
+| **Jun 8: root git-discipline reconcile** | ✅ | Pathspec migration + push-is-Will-coordinated (both root spots) + push-train memory qualified. |
+| **Jun 8: PROME boot/closeout hardening** | ✅ | Pathspec git + boot outbox-scan + boot↔closeout symmetry table (BOOT.md + CLOSEOUT.md). |
+| **Jun 8: 6/18 trigger set v0.2.1** | ✅ | BROCK calibration — R2/R4 validated + R2.5 monitoring-only watch-flag added. |
+| **Jun 8: first two-machine merge + push** | ✅ | Desktop 23 + laptop 21 merged clean; cross-agent auto-memories rescued; synced. |
+| **Jun 8: openpyxl install (shared .venv)** | ✅ | Unblocks MARCO H-2A fetcher before ~Jun-30 window; .venv gitignored. |
+| Fleet git-update list | 🟠 | Generated (MARCO/OTTO/OZK still on old pattern + 5 touch-ups); no action — Will to pick propagation mechanism. |
 | Sun-evening week-prep refresh | ✅ | Boot surfaces + week card + HEARTBEAT current Jun 7 PM. |
 | Ingest BOND/CARL/HENRY signals | ✅ | All 3 logged in ACTIVE_DECISIONS. |
 | Build week-ahead catalyst card | ✅ | `PROME/action-cards/WEEK_2026-06-08.md`. |
@@ -92,11 +99,11 @@
 - **No external/public messages without approval.**
 - **Do not spawn persistent agents casually:** CARL, REGINALD, OZK, SAM, RED, BRENT, Claude Code Prome.
 - **WALTER routes signals/news; Prome maintains state, tasking, rails, and Will-facing synthesis.**
-- **Pathspec commits only;** never `git add .`, `git add -A`, or broad `git reset HEAD`. SAM dirty workbook files untouched.
+- **Pathspec commits only;** never `git add .`, `git add -A`, or `git reset HEAD`. **Push is Will-coordinated** — commit locally, push only on Will's explicit call.
 - **Read current files before editing; verify after edits.**
 
 ---
 
 ## Next Best Action
 
-Mon 6/8 AM: open with `PROME/action-cards/WEEK_2026-06-08.md`. Mon-open dashboard pull to read whether Fri VIX-shock holds or fades; HY OAS line is the binary signal. If Wed CPI conditions look likely to fire by Tue PM, scaffold a TLT Sep-add Will-decision packet (only then).
+**Tue 6/9 PM — Wed CPI prep:** scaffold a TLT Sep-add Will-decision packet *only if* conditions look likely to fire (BOND-narrowed gate: CPI hot *or* refunding tail). **Pre-Wed 1pm:** spawn BOND matrix v2 for the nominal 10Y auction. Mon-open VIX faded 21.51→18.40 (divergence reasserts); **HY OAS 276 🟢 is the binary line**. Week card `PROME/action-cards/WEEK_2026-06-08.md` still governs the slate.
