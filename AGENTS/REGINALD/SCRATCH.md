@@ -31,31 +31,20 @@
 
 ---
 
-## 2026-05-21 — 10-Q drill + V2.2 ship [PRUNED at closeout; durable bits in MEMORY LAST SESSION + WAL/CHANGELOG]
+## 2026-06-08 — BOARD backlog drain + v2.2.1 ship + Orchestrator audit + closeout hardening
 
-**Things noticed but didn't dig into:**
-- WAL 10-Q does NOT contain the Investor Day Slide 89 NDFI peer chart referenced in 5/15 SCRATCH — that was a deck-specific comparator and doesn't surface in 10-Q narrative. Slide 89 ground-truth still requires PDF deck read.
-- $13M non-performing senior lien loan purchased in Q1 + "plans to acquire additional non-performing senior lien loans as appropriate" — WAL is making a deliberate strategy of senior-lien acquisition to defend LAM collateral. Worth tracking as a sub-vector of V2 recovery — if WAL keeps buying senior liens, it's defensive (good for net recovery) AND signals they're not confident in standard workout. KB candidate.
-- $60M LOI subsequent event (different substandard credit at carrying value) — positive but isolated; suggests not all problem credits will need to be written down at distressed marks. Worth Q2 print reconciliation: did the LOI close? At what price relative to carrying value?
-- Active litigation against **Jefferies Financial Group** (parent) in NY Supreme Court Mar 2026 — material escalation from "complaint against LAM subsidiary." Discovery process could surface NEW Leucadia-platform info; worth periodic docket checks. **NY Sup Ct PACER-equivalent search would be a useful one-off.**
+**Things noticed during the session:**
+- WAL 10-Q drill recipe (curl + XBRL strip) preserved as one-liner — moved to MEMORY Findings rather than SCRATCH on this closeout (durable enough to deserve persistent home).
+- Convergence Matrix WAL row in STATUS was caught by the drift-grep step IMMEDIATELY after I added the rule — pinned to v2.2's EV $67.98 / "Bear-medium speed" language while THESIS + SCENARIOS were on v2.2.1. **Dogfooded the rule on its first run** — concrete win for the new control.
+- Director/Orchestrator audit caught 4 distinct error-classes in one session (denominator drift, secondary-source-precision, cohort-decomp half-done, over-meta-process-design). The "who reads it?" test is a transferable inversion of the build-it-first intuition. Promoted to MEMORY Feedback.
 
-**One-liners cached:**
-
-```bash
-# WAL 10-Q drill recipe (verified 5/21):
-curl -s -A "REGINALD research willie@research.local" -o wal-20260331.htm "https://www.sec.gov/Archives/edgar/data/1212545/000162828026033054/wal-20260331.htm"
-.venv/bin/python3 -c "import re; t=re.sub(r'<[^>]+>',' ',open('wal-20260331.htm').read()); t=re.sub(r'\s+',' ',t); open('wal-20260331_text.txt','w').write(t)"
-# Result: 5.3MB raw → 339KB stripped — consistent with MEMORY findings 10x XBRL inflation
-
-# Search patterns that worked:
-grep -oiE "(Schedule O|Table 16|large credit)" wal-20260331_text.txt   # 0 hits — not 10-Q items
-grep -oiE "(Leucadia|Jefferies|Cantor)" wal-20260331_text.txt          # 3+9+9 hits — V2 inventory CLEAN
-.venv/bin/python3 -c "import re; text=open('wal-20260331_text.txt').read(); [print(text[max(0,m.start()-100):m.end()+300]) for m in re.finditer(r'days past due', text, re.IGNORECASE)]"
-```
-
-**Open externality:**
-- WAL Investor Day Q&A transcript still not located (downgraded priority post-v2.2; 10-Q B1 fire is the bigger trigger). Could escalate v2.2 → v2.3 if B1-from-Q&A surfaces.
-- Cross-bank life-science pattern: WAL $99M + OZK IQHQ. Watching for #3.
+**Open threads carried (still ROADMAP-tracked):**
+- Juris banking research (from 5/1 transcript).
+- Investor Day Slide 113 stress test (5.3% loss / 9.0% CET1 stressed exceeds v2.2 Bear-fast).
+- Investor Day Slide 89 NDFI peer chart (deck PDF needed).
+- WAL Investor Day Q&A transcript hunt (downgraded priority post-v2.2.1; B1 already fired).
+- Cross-bank life-science pattern (WAL $99M + OZK IQHQ; KREF distinct mechanism; watching for #3 with pass-grade-bank-walk mechanic specifically).
+- Cohort NCO decomposition for ZION/CFG/MTB/FITB (v2.2.1 cohort framing held open pending; Hypothesis B could reverse the 30→25 Bear-medium trim).
 
 ---
 

@@ -53,47 +53,45 @@
 
 ## Session Notes
 
-⚠️ **Open question:** Does the full 12-day tape retrace (WAL reclaimed $78; all 4 stress signals faded) weaken the WAL bear-medium read, or is it just risk-on beta with the thesis intact pending the late-Jul Q2 print? My logged call: **print-dependent, not invalidated** — and the credit bifurcation (CCC widening to 946 / HY 272, ratio 3.48x) is the one signal that DIDN'T fade, mildly thesis-supportive. The binary that resolves it stays the same: Q2 print shows ONE Office walk-away ($99M only → v2.2 may overstate) or 2+ (→ v2.5/v3).
+⚠️ **Open question:** Will the ZION/CFG/MTB/FITB Q1 NCO data come in genuine-improvement (Hypothesis A — bear case sharpens to WAL-specific) or cosmetic-resolution via NCO acceleration (Hypothesis B — cohort fade INTACT via NCO line, would partially reverse the v2.2.1 Bear-medium 30→25 trim)? The answer determines whether v2.2.1's "loss-absorption-only" trim is the right size or whether it should drift back toward v2.2's 30%.
 
-**Pending Will calls:** None — analysis + messaging deferred by session scope (Will fenced this session to REGINALD files only).
+**Pending Will calls:** None. PROME reply shipped; v2.2.1 shipped; closeout hardening shipped.
 
-### CHANGES SINCE LAST SESSION (5/21 → 6/2, 12-day gap)
-Tape fully retraced the 5/15-5/21 stress regime: WAL $77.63→**$80.20** (reclaimed $78), Brent $106.93→**$95.91** (−$15, Hormuz re-spike unwound), 10Y 4.62%→**4.46%** (−16bps), VIX 17.61→**15.73** — 4-for-4 risk-on. FRED: HY OAS 282→**272** [6/1], CCC 909→**946** [6/1] (ratio 3.22x→**3.48x** — bifurcation widening, the lone non-fading signal), claims 189K→**215K** [5/23], SOFR-IORB −2→**0bps**. v2.2 weights/positions untouched.
+### CHANGES SINCE LAST SESSION
+(leave blank — next-boot market.py + drift-grep populates)
 
-### LAST SESSION (6/2 — boot + file-tree catch-up after 12-day gap)
+### LAST SESSION (6/8 — BOARD drain + v2.2.1 ship + audit + closeout hardening)
 
-**Scope:** Will fenced the session to REGINALD files only — no messaging/outbox, no position decisions/analysis. Pure factual hygiene + close write-backs. Ran as 7 phases with a checkpoint between each.
+A high-yield session with three discrete delivered units plus one protocol hardening:
 
-1. **STATUS.md** — Signal Dashboard + Cross-Agent Triggers + THRESHOLD table refreshed to 6/2 tape + 6/1 FRED; adopted PROME's date-stamp convention; WAL note flipped 🔴 breached → 🟢 reclaimed $78; macro-read rewritten as factual 6/2 observation; Brent THESIS-channel price refreshed with status re-rate deferred; **caught + fixed STATUS PREDICTIONS section stale at 60/55** (canonical PREDICTIONS.tsv was already 70/75 from v2.2). 182 lines.
-2. **CALENDAR.md** — deleted the fully-past MAY section (all tracked in ROADMAP); JUNE now leads with Jun 18 cluster + AOCI close prominent; added LATER section (Aug/Oct OZK catalysts); pruned resolved prediction checkpoints; synced REG-24/25 to 70/75.
-3. **SCRATCH.md** — pruned 4 sections >2wk (5/1, 5/8, 5/10-11, 5/11); rescued 3 orphaned research threads (Juris banking, Slide 113 stress test, Slide 89) before deleting their sections.
-4. **WAL/ FRED hygiene** — grep confirmed ZERO FRED cites in THESIS/SCENARIOS (correct by design — bank-fundamental files; macro → STATUS). Added one staleness flag to SCENARIOS header ($77.63 → 6/2 $80.20; EV math NOT recomputed).
-5. **ROADMAP.md** — +2 threads (Jun 18 cluster reply owed; SCENARIOS EV refresh deferred); rebuilt Awaiting Data forward-from-6/2 with a "fired during gap — unverified" block; +3 rescued investigations; +6/2 resolved entry; pruned 5/01-and-earlier resolved block.
-6. **MEMORY.md** — this rewrite (also de-bloated Session Notes 225→~130 lines; killed the fake "pruned to 1 line" May 8 block + stale recaps).
-7. **Git** — closeout commit (pending).
+**1. BOARD backlog drain (commit `c8892f41`)** — 108 disposition rows appended (BOARD_LOG.tsv 32→140) covering 5/11-6/6 inflow. 3-tier filter applied: 28 tier-(a) ACTION deep-read / 69 tier-(b) cluster_mediating / 11 tier-(c) primary-cluster info-cc. **Phase B 2nd-pass audit** (in response to director-level pushback that headline-only INFO_ONLY = real risk surface) caught 3 misclassifications: 5/11-030 cohort counter-evidence + 5/21-010 20Y clean auction + 5/22-005 Waller pivot — all promoted to WOULD-INTEGRATE. Sample rate ~20% misclassified in the headline-only stratum — matched director's extrapolation. STATUS dashboard refreshed with 4 highest-impact integrations (Multifamily CMBS +56bps NEW vector, Tricolor+Wilmington custodial-exit, mREIT distress KREF cluster, JPM $4B NAV-loan SRT). Plus external verification stream confirmed PC default 5.8%→6.0% Fitch Apr + Partners Group SICAV 6/3 gating added.
 
-**Read but NOT actioned (held per scope):** 2 PROME inbox signals — FRED convention (5/21, adopted) + Jun 18 cluster bank-trigger calibration (5/22, reply drafted in-conversation but not written to outbox). Key calibration insight surfaced: Q2-print catalyst is post-Jun-18-expiry, so the bank puts are timeline-orphaned — any roll must be Sep, not Jul; EGBN $25P is the only roll candidate (closest to money); else default let-expire / regime-break only.
+**2. WAL v2.2.1 ship (commit `c1f5c796`)** — refinement, not structural. Bear-medium 30→25 on **loss-absorption channel ONLY** (recognition-delay timing handled by Sep tenor, NOT in weight — including timing in weight when handled by tenor double-counts delay). Base 33→35, Bull 18→21. EV $67.98→$68.93. PT range $50-68 UNCHANGED. REG-24/REG-25 confidence UNCHANGED. Three new sections in THESIS: MACRO-NIM TAILWIND DOUBLE-STACK (20Y + Waller), COHORT CONTEXT AMBIGUOUS (3 hypotheses A/B/C held open pending NCO decomp), Life-Sci Sector Signal N=1 (KREF mREIT-REO mechanism distinct from WAL B1 pass-grade-bank-walk).
 
-**Will conversation moments:** model switched mid-session (Opus 4.7 → 4.8); Will asked for the credit-bifurcation signal to be explained (kept in STATUS, no separate tripwire); Will asked whether zero FRED cites in WAL meant it was "built wrong" — explained it's correct doc-ownership architecture, the real WAL staleness is the SCENARIOS EV math (deferred). Will checkpointed after each phase.
+  **Orchestrator audit fixes incorporated:** (a) overvaluation denominator inconsistency — ÷EV convention pinned, gap WIDENED 14.2%→16.3% (was reported as "similar"); (b) cohort piece held open ambiguous (was prematurely "sharpen to WAL-specific" in initial draft); (c) 5pp Bear-medium cut rests on loss-absorption channel ONLY; (d) master STATUS "12/12 cohort fade intact" QUALIFIED.
 
-### NEXT SESSION — messaging + analysis backlog (both deferred this session)
+**3. Jun 18 cluster PROME reply (commit `c78c25a8`)** — `outbox/REPLY-PROME-2026-05-22-bank-trigger-calibration.md`. Substance is v2.2.1 loss-absorption-vs-tenor framing translated to: KRE two-tier ($66 / $63 / $60); WAL break-zones ($78 binary REG-T-02 / $73 qualitative / $70 pre-bear-medium — explicitly framed as reading levels NOT new triggers); roll-to-Sep candidates EGBN $25P primary + SSB $90P secondary conditional on tape; let-expire defaults for OTM (KRE $60P / WAL $65P / IWM $250P / HYG $75P); **late-MI3 hard-trigger DROPPED** for Jun-18 calibration; **no interim REGINALD-domain scheduled trigger before 6/18**. Sep-not-Jul mechanical (date arithmetic: Q2 print ~Jul 30 > Jul-17 expiry by ~13d).
 
-1. **Boot normally** — git pull, boot docs, market.py, inbox scan, **BOARD diff scan Step 9b** (fixed grep `signal_role: cluster_mediating`) — now 12+ days of unread BOARD inflow.
-2. 🟠 **Jun 18 cluster calibration reply to PROME** — write `outbox/REPLY-PROME-2026-05-22-bank-trigger-calibration.md`. Deadline (5/24) lapsed so draft levels stand, but cluster live (decision window ~Jun 11). My slice: KRE two-tier $66 caution / $63 arm; WAL $73 + qualitative C-suite/2nd-walkaway arm; **rolls Sep not Jul**; EGBN only roll candidate; drop late-MI3 hard trigger; no interim trigger before 6/16 (print is post-expiry).
-3. 🟠 **MI3 / FFIEC PDD status check** — now 2.5wk+ overdue; if available run v2.2 calibration table.
-4. 🟠 **WAL SCENARIOS EV-math refresh** — recompute overvaluation at $80.20 (~14%→~19% vs EV $67.98), weeks-to-expiry, position-rec column. The deferred analysis task.
-5. 🟠 **APO Q1 post-print integration** (now ~4wk stale) — Atlas SP segment, warehouse book, non-bank servicer counterparty.
-6. 🟠 **OZK 10-Q recheck** (OZK peer primary; REGINALD cohort-fade info pickup).
-7. 🔴 **BOARD action-signal backlog** — 13 ACTION signals on 5/11 + 12 days new inflow; no disposition rows written.
-8. 🟡 **PROME ZION scaffold-fill** (inbox, now 3wk+) — substantive new work, dedicated session.
-9. 🟡 **CARL handover signal** (inbox, now ~1mo). Lower urgency.
-10. 🟡 **WALTER LIAISON calibration cycle 1** (trigger 5/25 passed).
-11. 🟡 **Q&A transcript hunt** + **cross-bank life-science #3 watch** + investigations (Juris banking / Slide 113 / Slide 89).
+**4. Closeout procedure hardening (commit `099234fe`)** — Phase 1 per Orchestrator scoping. Conservative edit preserves existing bullet structure, adds 4 substantive items: (a) cadence "EVERY session end, not just end-of-day"; (b) **thesis-version-bump drift-grep step** — after vX.Y bump, grep changed metric across STATUS/SCENARIOS/THESIS/CALENDAR to confirm one value/convention/source-of-truth; (c) pathspec commit guidance with [[finding_pathspec_commit_race_safety]] reference; (d) discipline overlay (one-source-of-truth + STALE-marked > carried-forward + verify-before-propagate). **Deferred per "who reads it?" test:** CATALYSTS.tsv twin, NEXUS_BRIEF mandatory. **Skipped per cosmetic-symmetry test:** MEMORY/SCRATCH rename and step renumbering.
 
-**Git: closeout commit pending.**
+**Will/Orchestrator conversation moments:** Director catch on headline-only INFO_ONLY risk surface → I sampled 9 random+directed, found 2/9 misclassified (validated concern). Director catch on secondary-source-precision class (level-vs-delta, $9.7B specificity, source-authority tag) → applied to my Tricolor "precise" claim. Orchestrator catch on overvaluation denominator inconsistency (14.2 vs 14 = ÷EV vs ÷Price) → pinned convention, acknowledged gap WIDENED. Orchestrator catch on cohort decomp half-done → held v2.2.1 cohort framing open as 3 hypotheses. Orchestrator catch on NIM-cut conflating loss-absorption with recognition-delay → reframed cut to loss-absorption only. Will-catch on "process yak-shaving rabbit hole" → applied Phase 1 conservative edit and shipped immediately, stopped over-meta.
+
+**Drift-grep dogfooded on first run:** post-v2.2.1 ship + closeout edit, ran the new Step 5 drift-grep — caught STATUS Convergence Matrix WAL row still pinned to v2.2 ($67.98 EV / "Bear-medium speed" language). Fixed inline. Concrete win for the new control on its very first deployment.
+
+### NEXT SESSION
+
+1. **Boot normally** — git pull, boot docs, market.py, inbox scan, BOARD diff scan Step 9b.
+2. 🟠 **Monitor 6/8 → 6/11 tape for Jun cluster decision triggers** — WAL <$78 close / KRE <$66 / HY OAS >320 / VIX >25. Decision window opens ~6/11; default posture per PROME reply is let-expire for OTM, EGBN $25P primary roll candidate.
+3. 🔴 **ZION/CFG/MTB/FITB cohort NCO decomposition research** — resolves v2.2.1 Hypothesis A/B/C. May partially reverse the Bear-medium 30→25 trim under B. Dedicated session (~30-40 min for 4-bank Q1 8-K/10-Q drill).
+4. 🟠 **MI3 / FFIEC PDD status check** — still pending; if available run v2.1 calibration table (preserved in WAL/THESIS.md). Not a Jun-18 calibration input per PROME reply.
+5. 🟠 **APO Q1 post-print integration** (now ~5wk stale) — Atlas SP segment, warehouse book, non-bank servicer counterparty.
+6. 🟠 **OZK 10-Q recheck** (peer primary; cohort-fade info pickup for REGINALD).
+7. 🟡 **PROME ZION scaffold-fill** (inbox, now 4wk+) — substantive new work, dedicated session.
+8. 🟡 **CARL handover signal** (inbox, now ~5wk). Lower urgency.
+9. 🟡 **Q&A transcript hunt** + **cross-bank life-sci #3 watch** (pass-grade-bank-walk mechanic specifically — KREF doesn't count) + investigations (Juris banking / Slide 113 / Slide 89).
+
+### LAST SESSION (6/2 — boot + 12-day catch-up) [1-line recap]
+Factual hygiene only (Will-fenced no messaging/analysis): tape fully retraced 5/15-5/21 stress regime (WAL reclaimed $78, Brent −$15, 10Y −16bps, VIX off spike); credit bifurcation lone non-fader (CCC 909→946 / HY 282→272, ratio widened 3.22→3.48x); FRED date-stamp convention adopted; STATUS PREDICTIONS section stale at 60/55 caught and synced to 70/75. Held PROME Jun-18 calibration reply for next session (delivered 6/8 in `c78c25a8`).
 
 ### LAST SESSION (5/21 — 10-Q drill + V2.2 ship) [1-line recap]
 WAL Q1 10-Q drilled (`research/WAL_10Q_DRILL_2026-05-21.md`); V2 inventory CLEAN; 🔴 B1 fired via $99M life-science office walk-away (10-Q subsequent event) + V4 Curley resignation; v2.1→v2.2 shipped (Bear-medium 30%, EV $67.98, REG-24 70%/REG-25 75%); STATUS hygiene 309→182; May 15 cluster cleared. Files: THESIS/SCENARIOS/2x CHANGELOG/PREDICTIONS/STATUS/CALENDAR/POSITIONS.
-
-### LAST SESSION (5/15-17 — Investor Day FINDINGS + clean closeout) [1-line recap]
-`WAL/INVESTOR_DAY_FINDINGS_2026-05-12.md` shipped T+3; Bucket scoring A=U1 B/C/D=U2 **E=B3 FIRED** (mgmt held 25-35bps NCO despite Q1 39bps); recommended v2.1.1 (superseded by 5/21 v2.2). SSB $95P expiry-day ladder. Commit `6a20710a`, pushed by WALTER `1b37fccc`.
