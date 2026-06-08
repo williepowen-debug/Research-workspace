@@ -5,7 +5,7 @@
 **Thesis version:** v3.0
 **Recent thesis pivot:** Jun 5: kinetic→price DECOUPLED. BRT-16 reframed Jun-7 PM (post-VIOLET): Fri VIX spike is multi-root (NFP+AI-unwind), oil a background input — NOT an oil terminus; oil's real channel is the standing CPI/Fed leg. v3.1 gated on Jun-9 STEO / Jun-10 EIA / Jun-12 CPI.
 **Position:** XLE $65C Sep-30 (kinetic-tail insurance, OTM); CF $130C Jun-18 (decoupling-from-crude watch) — structural only; marks in STATUS/FORGE, no P/L here
-**As of:** 2026-06-07 Sun night ET (rev-3: macro-transmission reframed MULTI-ROOT post-VIOLET reconciliation; STATUS data through Fri 6/5 close + OPEC+ Jun-7) | STATUS commit: ce65758f
+**As of:** 2026-06-08 Mon PM ET (rev-4: stamp-refresh only — no material STATUS change this session; Mon AM open muted post-OPEC+, base case holding) | STATUS commit: ce65758f
 
 ---
 
