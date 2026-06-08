@@ -4,6 +4,91 @@ Tracks all changes to `WAL/THESIS.md`. Reverse chronological. Mirrors format of 
 
 **Versioning convention:**
 - `vX.Y` — major (X) = structural thesis change (vector resolved / disconfirmed / added, framing change, conviction reversal). Minor (Y) = refinement (updated probability, new evidence for existing view, threshold adjustment).
+- `vX.Y.Z` — intra-version POV pivot (per [[finding_pov_changelog_pattern]]) — substantive context update that doesn't shift structural vectors but reweights probability or adds material framing.
+
+---
+
+## 2026-06-08 — v2.2.1: NIM-TAILWIND DOUBLE-STACK SOFTENING + COHORT CONTEXT AMBIGUOUS (BOARD-batch audit + Orchestrator review)
+
+### THESIS Updated → v2.2.1
+**Author:** REGINALD (with Will approval, Orchestrator-reviewed)
+**Trigger:** BOARD backlog drain 5/11-6/6 (108 disposition rows appended) + director-level audit catching 3 misclassifications + Orchestrator review catching 2 errors and 2 sharpens in initial draft. Three BOARD signals promoted INFO_ONLY → WOULD-INTEGRATE on 2nd-pass audit (Phase B): SIG-W-20260521-010 (20Y auction clean), SIG-W-20260522-005 (Waller pivot), SIG-W-20260511-030 (cohort counter-evidence). Plus one signal that does NOT trigger promotion: SIG-W-20260511-025 (KREF Boston life-sci REO — mechanism distinct from WAL B1 pass-grade-bank-walk).
+
+**Why v2.2.1 not v2.3:** refinement only. NO structural vector change. B1 fire / V4 Curley / V1 MI3 pending / leading-bucket migration / V2 inventory CLEAN / V3 cohort-median CONFIRMED — all stand. PT range $50-68 UNCHANGED. REG-24 (70%) / REG-25 (75%) UNCHANGED.
+
+**Why v2.2.1 not v2.2 minor edit:** Per [[finding_pov_changelog_pattern]] intra-version POV pivots get logged as dated x.y.z. Macro-tailwind reweight + cohort sharpening attempt + life-sci mechanism distinction = three substantive POV updates worth versioning.
+
+### What changed
+
+**MACRO-NIM TAILWIND — DOUBLE-STACK SOFTENING (NEW section in THESIS.md):**
+- 5/20 20Y Treasury auction PRINTED CLEAN (0bp tail / BTC 2.55 / Indirect 67.7% per SIG-W-20260521-010) — foreign UST demand robust at price; BOND demand-hole thesis materially weakened.
+- 5/22 Waller "easing bias removal" pivot at German economic forum (SIG-W-20260522-005, REGIME-SHIFT ANCHOR) — futures repriced ~2-in-3 hike by October FOMC, modal flip from cut-by-year-end. Direct quote: "Inflation not headed in the right direction."
+- Combined: bank NIM compression mechanism materially softer than v2.2-ship assumed.
+
+**5pp Bear-medium trim rests on LOSS-ABSORPTION CHANNEL ONLY** (per Orchestrator sharpen, accepted in full):
+- Loss-absorption (TERMINAL effect, INCLUDED in weight cut): higher PPE buffer raises credit-event magnitude required to cross Bear-medium $58-66 range.
+- Recognition-delay (TIMING effect, NOT included in weight cut): already handled by existing Sep-dated positions (Sep $77.5P / Sep $70P) spanning late-July Q2 print. Including timing in weight when handled by tenor = double-counting delay against positions already paid for the window.
+- This framing is the substance owed to PROME for Jun 18 cluster bank-trigger calibration reply.
+
+**COHORT CONTEXT — AMBIGUOUS PENDING NCO DECOMPOSITION (NEW section in THESIS.md):**
+- SIG-W-20260511-030 reports 5/10 peer banks NPA-improving Q1 YoY (ZION -3 / CFG -11 / MTB -25 / FITB -24 / EGBN -48bp).
+- EGBN has explicit NCO data: NCO +89bp YoY despite NPA improvement = COSMETIC (resolution-via-charge-off, not credit healing).
+- ZION / CFG / MTB / FITB have NPA-only data in signal. **Three hypotheses (A: genuine improvement / B: cosmetic resolution / C: mixed) all currently consistent with available data.**
+- v2.2.1 does NOT lock "sharpen to WAL-specific" framing — would be unforced narrowing without NCO decomposition.
+- 5pp Bear-medium cut does NOT rest on cohort framing (rests on loss-absorption only).
+- Research queued: pull Q1 NCO data for ZION/CFG/MTB/FITB to resolve hypothesis.
+- Master STATUS "cohort fade pattern 12/12 intact" claim QUALIFIED 6/8 — do not propagate without ambiguity note.
+
+**LIFE-SCI SECTOR SIGNAL — PASS-GRADE-BANK-WALK PATTERN STILL N=1 (V1 addendum in THESIS.md):**
+- 3 life-sci distress events in 6mo across cohorts: WAL $99M (bank loan / strategic walk on PASS-graded) + KREF Boston (mREIT TAKING REO on known-impaired) + OZK IQHQ (forward maturity test).
+- **KREF Boston is NOT a 3rd instance of WAL B1 mechanism.** Different position in capital stack, different recognition mechanism.
+- Sector signal real (life-sci collateral impairing across cohorts) but WAL B1 pass-grade-bank-walk pattern remains **N=1**.
+- v2.5/v3 promotion requires: (a) another BANK loan with previously-pass-graded sponsor walking, OR (b) same-mechanic event at OZK (IQHQ Aug if pre-maturity walk) or EGBN.
+
+**Probability re-weight (v2.2 → v2.2.1):**
+- Bear-fast: 12% → **12%** (unchanged)
+- Bear-medium: 30% → **25%** (-5pp, loss-absorption channel only)
+- Base: 33% → **35%** (+2pp, NII tailwind benefit)
+- Bull: 18% → **21%** (+3pp, Waller no-cut implication)
+- Tail: 7% → **7%** (unchanged)
+
+**EV: $67.98 → $68.93** (+$0.95, modest bullish drift).
+
+### Overvaluation convention — PINNED 2026-06-08 (per Orchestrator catch)
+
+Hard error caught by Orchestrator: prior drafts mixed ÷EV and ÷Price denominators. v2.2 was reported "~15% over" using ÷EV; v2.2.1 initial draft reported "~14% over" using ÷Price — concealing a directional move.
+
+**Convention pinned: Overvaluation = (Price − EV) / EV.** All historical and forward figures normalized to this denominator.
+
+| Version | Price | EV | Overvaluation (÷EV) |
+|---------|-------|-----|----------------------|
+| v2.2 (5/21) | $77.63 | $67.98 | **14.2%** |
+| v2.2.1 (6/8) | $80.15 | $68.93 | **16.3%** |
+
+**Gap WIDENED ~2pp** (price rose $2.52 / +3.2% vs EV rose $0.95 / +1.4%). Directionally **bear-supportive** — more room to fall, even after Bear-medium trim. Notable because it cuts against the net-trim narrative of v2.2.1; honest accounting requires acknowledging.
+
+### Old view vs new view
+
+| Element | v2.2 | v2.2.1 |
+|---|---|---|
+| Macro-NIM tailwind | implicit (BOND demand-hole + Fed-cut assumed) | EXPLICITLY softened (20Y clean + Waller pivot) |
+| Bear-medium prob | 30% | **25%** (loss-absorption channel only) |
+| Recognition-delay handling | implicit in weight | EXPLICITLY excluded from weight (handled by Sep tenor) |
+| Cohort framing | implicit "regional bank cohort stress" | **AMBIGUOUS** — held open pending NCO decomp; 3 hypotheses |
+| Life-sci pattern | "two Class-A walk-aways = sector signal" | "Sector signal yes; pass-grade-bank-walk N=1; KREF mREIT-REO distinct" |
+| EV | $67.98 | $68.93 |
+| Overvaluation (÷EV) | 14.2% | **16.3% — WIDENED ~2pp** |
+| Master STATUS 12/12 | propagated | QUALIFIED 6/8 |
+
+### Position implications
+
+**UNCHANGED.** Sep core (Sep $77.5P / Sep $70P) still positioned for late-July Q2 print. Jun 18 cluster still requires its own decision window (~6/11). No new position adds/cuts triggered by v2.2.1. The substance of the PROME reply on Jun 18 cluster IS the loss-absorption-vs-tenor framing established here.
+
+### Open research from v2.2.1
+
+1. **ZION / CFG / MTB / FITB Q1 NCO decomposition** — resolves cohort hypothesis A/B/C. Until resolved, do NOT propagate "cohort fade refuted" or "broad regional cohort stress" without explicit ambiguity note.
+2. **OZK IQHQ Aug maturity** — next discrete event window for confirmation/denial of pass-grade-bank-walk pattern. Pre-maturity sponsor walk = hard 2nd instance.
+3. **FFIEC PDD MI3 bulk integration** — V1 primary falsifier still pending; calibration table preserved from v2.1.
 
 ---
 

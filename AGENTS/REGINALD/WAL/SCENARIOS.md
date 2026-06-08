@@ -1,14 +1,62 @@
 # WAL — Scenario Analysis & Target Prices
-**Created:** 2026-03-25 (v1.0) | **Last Updated:** 2026-05-21 (v2.2 — post 10-Q drill; B1 fired)
-**Current Price:** ~$77.63 (May 21 intraday) — ⚠️ STALE: 6/2 spot **$80.20** (reclaimed $78); EV/overvaluation math below NOT recomputed (analysis deferred — see ROADMAP) | **TBV:** $61.14 | **P/TBV:** 1.27x | **CET1:** 11.0%
+**Created:** 2026-03-25 (v1.0) | **Last Updated:** 2026-06-08 (v2.2.1 — macro-NIM tailwind softening + cohort context ambiguous)
+**Current Price:** **$80.15** (Fri 6/5 close per yfinance) | **TBV:** $61.14 | **P/TBV:** 1.31x | **CET1:** 11.0%
 **Short Interest:** 3.54% float / 2.71 days (Mar 25 — REFRESH PENDING)
 **Q1 2026 EPS:** $1.65 GAAP / $2.22 adjusted | **FY2025 NI:** $991M
+
+> **📐 OVERVALUATION CONVENTION (pinned 2026-06-08 v2.2.1):** Overvaluation = **(Price − EV) / EV**. All historical figures herein normalized to this denominator. Prior sessions used inconsistent denominators (sometimes ÷EV, sometimes ÷Price) — corrected below.
+
+> **v2.2.1 thesis framing** (per `THESIS.md` v2.2.1, refinement): v2.2 structural vectors UNCHANGED. v2.2.1 adds macro-NIM-tailwind softening (20Y auction clean + Waller pivot) trimming Bear-medium 30%→25% on **loss-absorption channel only** (timing handled by Sep tenor), and cohort-signal context (SIG-030 NPA improvement at 5/10 names ambiguous pending NCO decomposition — held open).
 
 > **v2.2 thesis framing** (per `THESIS.md` v2.2, post 10-Q drill): WAL's concentrated CRE tail risk is **actualizing on Q2 timeline** — one quarter earlier than v2.1's bear-slow case priced. 10-Q subsequent-event note disclosed **$99M life-science office sponsor walk-away** (Bucket B1 fired); Chief Banking Officer Curley resigned same week; market reacted ~10% on combined news. **Bear-slow → Bear-medium speed.** V2 inventory test came back clean (no new Leucadia-era credits); V3 NDFI cohort-median confirmed via 10-Q breakout. V1 MI3 primary falsifier still hasn't run (FFIEC PDD pending). Short thesis is now *partially realizing*; Q2 print (late July) is the critical second-data-point test.
 
 ---
 
-## EXPECTED VALUE SUMMARY (v2.2 — multi-quarter unconditional)
+## EXPECTED VALUE SUMMARY (v2.2.1 — multi-quarter unconditional)
+
+| Scenario | v2.1 Prob | v2.2 Prob | **v2.2.1 Prob** | v2.2 Range | **v2.2.1 Range** | Midpoint | Weighted |
+|----------|-----------|-----------|------------------|------------|------------------|----------|----------|
+| Bear-fast (V1 MI3 ≥25 trigger) | 12% | 12% | **12%** | $52-62 | $52-62 | $57.00 | $6.84 |
+| Bear-medium (V1 Office migration) | 23% | 30% | **25%** | $58-66 | $58-66 | $62.00 | $15.50 |
+| Base | 35% | 33% | **35%** | $70-77 | $70-77 | $73.50 | $25.73 |
+| Bull | 23% | 18% | **21%** | $82-90 | $82-90 | $86.00 | $18.06 |
+| Tail | 7% | 7% | **7%** | $35-45 | $35-45 | $40.00 | $2.80 |
+| **Expected Value** | | | **100%** | | | | **$68.93** |
+
+**Overvaluation (÷EV convention): (80.15 − 68.93) / 68.93 = 16.3%.** v2.2 at $77.63 to EV $67.98 was **14.2%** on the same convention. **Gap WIDENED ~2pp** because price rose $2.52 (+3.2%) while EV only rose $0.95 (+1.4%). Directionally **bear-supportive** (more room to fall, even after Bear-medium trim).
+
+### Re-weight rationale (v2.2 → v2.2.1)
+
+| Shift | Driver |
+|---|---|
+| Bear-medium 30% → 25% | Macro-NIM-tailwind double-stack (5/20 20Y clean auction + 5/22 Waller pivot) softens loss-absorption channel — higher PPE absorbs same B1-class losses without stock-breaking event. **Cut rests on loss-absorption ONLY**; recognition-delay timing channel handled by existing Sep-dated tenor (Sep $77.5P / Sep $70P span late-July Q2 print) — including timing in weight would double-count delay against positions already paid for the window. |
+| Base 33% → 35% | Modest +2pp absorbing NII tailwind ("higher for longer" benefits variable-rate book) |
+| Bull 18% → 21% | Compounder narrative modestly strengthens on Waller no-cut implication |
+| Bear-fast / Tail unchanged | V1 MI3 mechanism + tail mechanics not affected by macro-NIM softening |
+| **All ranges UNCHANGED** | No structural vector change drives range edits; B1 / V4 / V1 MI3 pending / leading-bucket migration all stand |
+
+### What v2.2.1 does NOT do
+
+- Does NOT reweight on cohort framing (SIG-030 5/10-NPA-improving signal AMBIGUOUS pending NCO decomposition on ZION/CFG/MTB/FITB — see THESIS COHORT CONTEXT section). If Hypothesis B (cosmetic resolution via NCO acceleration) holds, the cohort-fade-tailwind reverses partially and Bear-medium may revert toward 30%.
+- Does NOT change REG-24 (70%) or REG-25 (75%) confidence — single-credit mechanical math doesn't depend on NIM.
+- Does NOT change position posture. Sep core (Sep $77.5P / Sep $70P) still positioned for Q2 print. Jun 18 cluster still requires its own decision (decision window ~6/11 — substance owed to PROME reply rests on this v2.2.1 framing).
+
+### v2.2 unconditional table preserved as reference
+
+| Scenario | v2.2 Prob | v2.2 Range | Midpoint | Weighted |
+|----------|-----------|------------|----------|----------|
+| Bear-fast (V1 MI3) | 12% | $52-62 | $57.00 | $6.84 |
+| Bear-medium (V1 Office) | 30% | $58-66 | $62.00 | $18.60 |
+| Base | 33% | $70-77 | $73.50 | $24.26 |
+| Bull | 18% | $82-90 | $86.00 | $15.48 |
+| Tail | 7% | $35-45 | $40.00 | $2.80 |
+| **v2.2 EV** | | | | **$67.98** |
+
+**At v2.2 spot $77.63 → 14.2% over** (÷EV convention; reported inconsistently as ~14% in 5/21 ship docs).
+
+---
+
+## EXPECTED VALUE SUMMARY (v2.2 — multi-quarter unconditional, superseded)
 
 | Scenario | v2.0 Prob | v2.1 Prob | **v2.2 Prob** | v2.1 Range | **v2.2 Range** | Midpoint | Weighted |
 |----------|-----------|-----------|---------------|------------|----------------|----------|----------|
