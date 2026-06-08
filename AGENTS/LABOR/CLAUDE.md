@@ -19,26 +19,36 @@ Key tension you must hold: staffing canaries (RHI/KFRC) are bottoming while WARN
 
 ## SPAWN PROTOCOL
 
-0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
-1. **Read `STATUS.md`** — current dashboard, core tension, danger window
-1.4. **Run `boot.py` — automated data refresh BEFORE analysis** (parity with SAM/BRENT):
+**Boot and closeout are one symmetric sequence: what you READ at boot, you WRITE BACK at closeout.** The CLOSEOUT phase (C1–C6) is the write-back tail — run it at **EVERY session end, not just end-of-day**. It is not optional; it is the back half of this protocol. Read→write pairings: STATUS (read B1 → write C1), data refresh via `boot.py` (B2 → refreshed values land in STATUS at C1), LESSONS (read B3 → write C5), predictions (flag B4 → resolve C2), catalysts (reconcile B5 → sync docket C2). Workbook ledgers (C3) and promotion scan (C5) are closeout-only.
+
+### BOOT (read phase)
+B0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
+B1. **Read `STATUS.md`** — current dashboard, core tension, danger window.
+B2. **Run `boot.py` — automated data refresh BEFORE analysis** (parity with SAM/BRENT):
    ```
    .venv/bin/python3 AGENTS/LABOR/scripts/boot.py
    ```
-   ~5s. Runs three sub-scripts and feeds steps 1.5/1.6 directly: **(a) `labor_data.py`** — live FRED sweep (claims, NFP, U-3/6, JOLTS, temp help) with threshold flags wired to KEY THRESHOLDS; **(b) `catalyst_countdown.py`** — `docket/CATALYSTS.tsv` countdown; **(c) `predictions_due.py`** — flags OPEN predictions past/near due-by. Use `--verbose` for full output. **Report refreshed levels to Will.** (Sub-scripts are individually runnable for one-off pulls.)
-1.5. **Predictions resolution sweep.** The `predictions_due.py` scan in 1.4 auto-flags OPEN rows whose timeframe ≤ today (best-effort parse — eyeball `workbook/PREDICTIONS.tsv` + STATUS PREDICTIONS table for any it couldn't parse). Flag each for resolution; don't let a prediction sit OPEN-but-stale. Resolution happens at step 3.5. **Before writing any NEW prediction, load the calibration context:** separate "mechanism intact" from "threshold sticks/breaches" — thresholds can fire on the wrong mechanism (TRUE-in-letter, FALSE-in-spirit) or retrace while the mechanism holds (auto-memory `[[finding_threshold_vs_mechanism]]`).
-1.6. **Catalyst calendar reconciliation.** Source of truth is **`docket/CATALYSTS.tsv`** (the `catalyst_countdown.py` output from 1.4); the STATUS MONITORING CALENDAR is its human twin and must not diverge in event set. For every catalyst dated ≤ today and not yet resolved: verify outcome. Modeled dates (`~`) within ~1wk should be re-verified against the source schedule before relying on them (auto-memory `[[finding_subagent_prefire_date_verification]]`).
+   ~5s. Runs three sub-scripts and feeds B4/B5 directly: **(a) `labor_data.py`** — live FRED sweep (claims, NFP, U-3/6, JOLTS, temp help) with threshold flags wired to KEY THRESHOLDS; **(b) `catalyst_countdown.py`** — `docket/CATALYSTS.tsv` countdown; **(c) `predictions_due.py`** — flags OPEN predictions past/near due-by. Use `--verbose` for full output. **Report refreshed levels to Will.** (Sub-scripts are individually runnable for one-off pulls.)
+B3. **Read `LESSONS.md`** — LABOR-specific mistake-patterns to avoid before repeating them this session.
+B4. **Predictions resolution sweep.** The `predictions_due.py` scan in B2 auto-flags OPEN rows whose timeframe ≤ today (best-effort parse — eyeball `workbook/PREDICTIONS.tsv` + STATUS PREDICTIONS table for any it couldn't parse). Flag each for resolution; don't let a prediction sit OPEN-but-stale. Resolution happens at C2. **Before writing any NEW prediction, load the calibration context:** separate "mechanism intact" from "threshold sticks/breaches" — thresholds can fire on the wrong mechanism (TRUE-in-letter, FALSE-in-spirit) or retrace while the mechanism holds (auto-memory `[[finding_threshold_vs_mechanism]]`).
+B5. **Catalyst calendar reconciliation.** Source of truth is **`docket/CATALYSTS.tsv`** (the `catalyst_countdown.py` output from B2); the STATUS MONITORING CALENDAR is its human twin and must not diverge in event set. For every catalyst dated ≤ today and not yet resolved: verify outcome. Modeled dates (`~`) within ~1wk should be re-verified against the source schedule before relying on them (auto-memory `[[finding_subagent_prefire_date_verification]]`).
 
-   **Before executing step 2, raise both lists to Will as a tight report:**
+   **Before EXECUTE, raise both lists to Will as a tight report:**
    - Predictions due since last update (ID, due-date, days overdue)
    - Calendar items past date, unverified
 
    If the user's task already targets these, proceed. Otherwise incorporate them into the session plan. If 10+ items flag, summarize ("N items overdue, longest X days; top 5: …") rather than pasting the full table.
 
-2. **Execute the task**
-3. **Write results back to `STATUS.md`** — update signal dashboard values, adjust predictions, add new findings
-3.5. **Closeout resolution.** Resolve every prediction flagged at 1.5 — resolve (✅/❌), re-arm-with-reason, or push-date-with-reason. Mark calendar items ✅ that fired this session, with outcome, AND **keep `docket/CATALYSTS.tsv` in sync** (prune fired rows, add newly-discovered dated catalysts, revise modeled-date rows if the projection shifted) — the STATUS calendar is its human twin and must not diverge in event set. This is the closeout half of the boot↔closeout symmetry; never leave items raised at boot unresolved at session end.
-4. **If research produced, save detail to `domain/sources/`** — STATUS.md gets a summary row, not the full report
+### EXECUTE
+B6. **Execute the task.** **Live-event override:** if a market/data event is actively unfolding, prioritize it over a full closeout — you may abbreviate CLOSEOUT to C1 (STATUS) + C2 (predictions/catalysts), deferring workbook/promotion, as long as you note the deferral in STATUS § NEXT SESSION PICKUP.
+
+### CLOSEOUT (write-back — run at EVERY session end)
+C1. **`STATUS.md` write-back** — update the signal dashboard (incl. refreshed `boot.py` values), convergence matrix, predictions table, DANGER WINDOW, **and the handoff: NEXT SESSION PICKUP + BOTTOM LINE**. Keep STATUS under 250 lines — archive overflow to `domain/sources/`. *(Mirror of B1+B2.)*
+C2. **Resolve predictions + sync catalysts.** Resolve every prediction flagged at B4 — resolve (✅/❌), re-arm-with-reason, or push-date-with-reason (separate "mechanism intact" from "threshold stuck/breached"). Mark calendar items ✅ that fired this session, with outcome, AND **keep `docket/CATALYSTS.tsv` in sync** (prune fired rows, add newly-discovered dated catalysts, revise modeled-date rows if the projection shifted) — the STATUS calendar is its human twin and must not diverge in event set. Never leave items raised at boot unresolved at session end. *(Mirror of B4+B5.)*
+C3. **Workbook write-back.** Log new evidence/claims → `workbook/KB.tsv`; changed indicator levels → `workbook/VX.tsv`; transmission/cascade mechanics → `workbook/FLOW.tsv` (predictions handled at C2). **One source of truth per metric** — don't write the same value in two docs; own it in the owner doc, reference from the other. **Stale-marked > carried-forward-as-current** — if you couldn't refresh a value, mark it `[STALE YYYY-MM-DD]` rather than presenting it as live.
+C4. **Research detail → `domain/sources/`** — STATUS.md gets a summary row, not the full report.
+C5. **Promotion scan.** Transferable cross-agent lesson → auto-memory (`~/.claude/projects/-home-willi-Research-workspace/memory/` + one-line index in its `MEMORY.md`); LABOR-specific durable learning → `LESSONS.md` (read back at B3); cross-agent signal → `outbox/` per the Outbox Protocol below. *(Mirror of B3.)*
+C6. **Git — pathspec commits, never `git reset HEAD`** (clobbers other agents' concurrent stages; auto-memory `[[finding_pathspec_commit_race_safety]]`). Modified files: `git commit AGENTS/LABOR/<file> -m "..."`. New untracked files: atomic `git add <files> && git commit <same files> -m "..."` (explicit paths only). **Commit locally; push is Will-coordinated** — don't push at session end (auto-memory `[[feedback_defer_push_coordinate]]`); note any pending push in STATUS § NEXT SESSION PICKUP.
 
 
 
@@ -217,11 +227,12 @@ When analyzing a new layoff event, apply these frameworks rather than reasoning 
 | File | Purpose |
 |------|---------|
 | `STATUS.md` | Live state — dashboard, tensions, predictions. **Primary memory.** |
+| `LESSONS.md` | LABOR-specific mistake-patterns. Read at boot (B3), written at closeout (C5). |
 | `TRADE.md` | Position ideas (KELYA puts) |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
 | `outbox/` | Outbound signals for other agents. HERMES delivers. |
 | `domain/sources/` | Research archives, deep dives |
-| `scripts/boot.py` | **Boot orchestrator** — runs the three sweeps below in ~5s. Step 1.4. |
+| `scripts/boot.py` | **Boot orchestrator** — runs the three sweeps below in ~5s. Step B2. |
 | `scripts/labor_data.py` | Live FRED domain sweep (claims, NFP, U-3/6, JOLTS, temp) + threshold flags |
 | `scripts/catalyst_countdown.py` | Trading-day countdown over `docket/CATALYSTS.tsv` |
 | `scripts/predictions_due.py` | Flags OPEN predictions past/near due-by (PREDICTIONS.tsv) |
