@@ -268,9 +268,14 @@
 | ✅ Jun 6 | **NFP May +172K; U-3 4.3%; +93K revisions** | Hard data strengthened; LAB-15 ❌ falsified |
 | **Jun 11** | **Claims w/e Jun 6** | Watch >225K = drift accelerating |
 | Jun 23 | BLS State Emp May (FL May UR) | Track FL trajectory |
-| Jul 2 | NFP June + U-3 | LAB-02 effective resolution |
-| Early Jul | JOLTS May | LAB-16 resolution |
+| **Jun 30** | **JOLTS May** | LAB-16 resolution (was mis-dated "early Jul") |
+| Jul 1 | ADP + ISM Mfg + Challenger June | Triple release |
+| **Jul 2** | **NFP June + U-3** (pulled to Thu, Jul 3 holiday) | LAB-02 resolution; Kill A check #2 |
+| ~Jul 6 | ISM Services June (modeled) | Svs emp <47 = next leg |
+| ~Aug 7 | NFP July (modeled) | Kill A check #3 (3rd ≥200K = trigger) |
 | Aug 21 | KELYA expiry (TRADE.md scope) | — |
+
+> **Source of truth: `docket/CATALYSTS.tsv`** (run `scripts/catalyst_countdown.py`). This table is the human twin — must not diverge in event set; `~` = modeled date, verify ~1wk prior.
 
 ---
 
@@ -281,8 +286,8 @@
 **Catalyst stack next reads:**
 1. **Thu Jun 11:** Claims w/e Jun 6. >225K = drift accelerating → upgrade Claims/shadow vector; back to 210-215 = drift stalling.
 2. **Mon Jun 23:** BLS State Emp May — FL May UR (was 4.8%, 4th consecutive ↑). Track trajectory.
-3. **Early Jul:** JOLTS May — LAB-16 resolution (does hire-rate collapse persist, or did Apr openings 7.6M revise down?).
-4. **Thu Jul 2:** NFP June + U-3 — LAB-02 effective resolution; 3rd consecutive ≥200K check for Kill A.
+3. **Tue Jun 30:** JOLTS May — LAB-16 resolution (does hire-rate collapse persist, or did Apr openings 7.6M revise down?).
+4. **Thu Jul 2:** NFP June + U-3 — LAB-02 effective resolution; 2nd consecutive ≥200K check for Kill A (Mar rev 214K = #1).
 
 **Data gaps / deferred (next session):**
 - **Full 16-vector convergence rescore** — Jun 8 carried Jun 2 scores; new data warrants a proper rerun (consider dedicated AI-displacement vector).
