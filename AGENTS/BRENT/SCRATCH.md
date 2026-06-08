@@ -13,7 +13,7 @@
 - **Baker Hughes Jun 5: 431 oil (+2 WoW)** — pace decelerated from +4/wk. 26 to 457 threshold.
 - **BRT-15 war-risk leg fully UNWOUND across the week** despite Iran 7-missile salvo. STNG/DHT tracked DOWN on missile-launch days. Market has decided escalation-without-damage is the regime. Will's Jun 4 Option-B (wait for kinetic-trigger re-fire) validated.
 - **Bab al-Mandab (BRT-28):** Houthi quiet — no commercial vessel attacks in 2026. Rhetorical state holding; conf revised down 45% → ~35%.
-- **OPEC+ Jun 7 Vienna meeting TODAY — outcome PENDING.** First sans UAE; orphan-baseline reallocation is the key structural q. Defense posture on pricing likely given suspended-MOU + Brent-off-the-peak. Integrate Mon AM.
+- **OPEC+ Jun 7 Vienna — ✅ FIRED & INTEGRATED (Sun night follow-up session).** 7-member group +188K bpd for July (4th straight hike, gradual unwind continues = base case); full OPEC+ no change to group policy through end-2026; UAE orphan-baseline NOT reallocated, deferred to 2027 capacity review (defense posture). 188K is paper + small + trapped behind Hormuz (LESSONS #10) → optically mildly bearish, functionally neutral. No matrix/thesis/position change. [CONF CNBC/AA/TradeArabia Jun 7]. CATALYSTS row → FIRED, STATUS updated.
 
 ## NEW THIS SESSION
 
@@ -31,7 +31,7 @@
 
 ## NEXT SESSION (dated, future-verifiable)
 
-1. **Mon Jun 8 AM** — **OPEC+ Jun 7 outcome integration** (Vienna meeting decided last night; first sans UAE; orphan-baseline reallocation key). Read decision, update CATALYSTS Jun 7 row to FIRED with outcome, refresh STATUS Production-policy section, assess Brent open reaction.
+1. ✅ **DONE (Sun night)** — OPEC+ Jun 7 integrated (+188K July, base case, no thesis change). Mon AM: just check Brent *open reaction* to the decision (likely muted — base case, paper add).
 2. **Mon Jun 8 AM** — **CF $130C mark** + first intraday move vs USO (chain-decoupling check). HOLD-confirmed Will Jun 1 PM; revisit if Mon shows continued decoupling.
 3. **Wed Jun 10** — **EIA WPSR (week Jun 5) = THE BIG PRINT.** SPR ~350M floor-touch (DIRECTIONAL — throttle bullish, drain-through near-term bearish + medium-term bullish, **NOT symmetric**). First clean post-Memorial-Day demand read (BRT-08/09 resolution candidate).
 4. **Thu Jun 11** — EIA STEO June (first post-suspension; Q2 Brent peak ($115 Apr) likely revised UP).
@@ -50,7 +50,7 @@
 
 ## OPEN THREADS / WATCHES
 
-- 🔴 **OPEC+ Jun 7 outcome** — integrate Mon AM. Defense-posture-on-pricing most likely; surprise unwind would be the lower-tail risk.
+- ✅ **OPEC+ Jun 7 — RESOLVED** (+188K July, gradual unwind, baseline deferred to 2027 review). Only residual: watch Brent Mon open reaction (expect muted).
 - 🔴 **SPR ~350M floor watch (Jun 10 EIA)** — DIRECTIONAL, not symmetric. Don't lock to throttle-as-given.
 - 🔴 **Macro transmission propagation** — Fri NFP+VIX spike is the start; watch whether HY OAS catches up this week (LIQUID primary), whether Treasury sells continue, whether tech-wreck spreads to broader cyclicals. CARL/HENRY/LIQUID/REGINALD now downstream of BRENT thesis.
 - 🔴 **MOU stalemate durability** — Iran walked, US kept channel open, no progress Jun 7. Watch for Iran public re-engagement signal in next 8 days (BRT-27 by Jun 15).
