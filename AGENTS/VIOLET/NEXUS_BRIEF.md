@@ -4,7 +4,7 @@
 **Domain:** VIX / vol term structure / SKEW / VVIX / credit-to-vol transmission timing; broadcasts vol-regime to HENRY/LIQUID/RED; receives from BROCK/HENRY/HAWK/LIQUID
 **Thesis version:** v3.5
 **Recent thesis pivot:** v3.2 → v3.5 (6/6) — NFP-shock validated DIET coiled-spring (L1 population framework) but refuted absorbed-trap regime (L2 needs consensus-miss carve-out); fade-leaning two-leg pathway (rate-shock + AI-unwind)
-**As of:** 2026-06-07 ~11:30 PM ET (STATUS data through Fri 6/5 close — markets closed Sun) | STATUS commit: fe9b0e5c
+**As of:** 2026-06-08 (STATUS data through Fri 6/5 close — markets closed since) | STATUS commit: 725f1ffb
 
 ---
 
