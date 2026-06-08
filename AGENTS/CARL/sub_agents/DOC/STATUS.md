@@ -1,23 +1,29 @@
 # DOC STATUS
-**Last Updated:** 2026-04-17 | **Status:** 🔴 ELEVATED — ACA subsidy cliff accelerating coverage loss; care deferral at record; GLP-1 cost shock loading; OBBBA Medicaid wave H2 2026+
-**Thesis Confidence:** 82% | **Phase:** Phase 2-3 (Straining → Deferring)
+**Last Updated:** 2026-06-08 | **Status:** 🔴 ELEVATED — ACA mid-year attrition accelerating (-17 to -21% Feb-Apr); Mercer 2026 cost guide 6.7% (15-yr high) w/ Rx +9.4% large-emp + GLP-1 ~20% of Rx spend; Med-Care CPI moderating headline (2.5% YoY Apr) masks services 3.2% still elevated; Q1 GDP 2nd-est confirms healthcare-services downward revision = care-avoidance visible in NIPA.
+**Thesis Confidence:** 84% | **Phase:** Phase 2-3 (Straining → Deferring) — Phase-3 acceleration via ACA mid-year cliff
 
 ---
 
 ## THESIS
 
-Healthcare costs are a non-discretionary stress MULTIPLIER on CARL's consumer thesis. The mechanism: unavoidable costs + unpredictable magnitude + inadequate coverage = structural fragility. Three transmission channels are active: (1) spending displacement — 66% say healthcare is #1 financial worry; (2) debt accumulation — $88B in collections, CFPB protection vacated; (3) deferred care time bomb — 36% deferring, 18% already worse health, 20% skipping meds. The 2026 ACA subsidy cliff adds a new acute trigger: 4.8M newly uninsured, premiums doubled for those who stayed. OBBBA Medicaid redetermination is a H2 2026+/H1 2027 wave — not an active 2026 H1 trigger.
+Healthcare costs are a non-discretionary stress MULTIPLIER on CARL's consumer thesis. Three transmission channels active: (1) spending displacement — 66% say healthcare is #1 financial worry, now visible in Q1 NIPA as healthcare-services downward revision; (2) debt accumulation — $88B in collections, CFPB rule vacated July 2025; (3) deferred care time bomb — 36% deferring, 18% already worse health. **2026 thesis update:** ACA subsidy cliff transitioned from "loading Q2-Q3 2026" to **ACTIVE** — Wakely/KFF data show 17-26% effectuated enrollment decline by mid-year; new uninsured cohort materializing 6 months earlier than baseline expectation. **Mercer 2026 (released this week):** employer cost +6.7% (15-yr high) w/ Rx +9.4%, GLP-1 = ~20% of Rx spend, total GLP-1 spend +50% in 2025 — pay-side stress confirmed for top 40%, transmits to worker OOP and wage-vs-benefits trade-off. **OBBBA Medicaid still H1 2027 wave.**
 
 ---
 
-## ⚠️ CORRECTIONS (2026-04-17)
+## ⚠️ CHANGES SINCE LAST UPDATE (2026-04-17 → 2026-06-08)
 
-| Item | Old | Corrected | Source |
-|------|-----|-----------|--------|
-| OBBBA Medicaid redetermination start | "H1 2026 active" | Dec 31, 2026 — biannual reviews then begin. Coverage losses materialize Q1-Q2 2027. | OBBBA §44108; CAP Implementation Timeline |
-| OBBBA work requirements | Not previously tracked | Dec 31, 2026 start (80 hrs/mo community engagement, ages 19-64) | OBBBA |
-| OBBBA refugee/asylee Medicaid loss | Not previously tracked | Oct 1, 2026 | OBBBA |
-| Medical Care CPI Mar 2026 | 3.4% (Feb) — not yet integrated | 3.1% YoY Mar 2026 (services 3.7%, commodities 0.3%) — integrated today | BLS Apr 10, 2026 |
+| Item | Apr 17 | Jun 8 | Source / Date |
+|------|--------|-------|---------------|
+| Medical Care CPI YoY | 3.1% Mar | **2.5% Apr ↓** (services 3.2%, commodities -0.5%) | BLS rel May 12 |
+| Medical Care Services CPI YoY | 3.7% Mar | **3.2% Apr ↓** | BLS rel May 12 |
+| Hospital services CPI MoM | +0.4% Mar | **-0.3% Apr ↓** (sign flip) | BLS rel May 12 |
+| Physicians' services CPI MoM | — | **+0.6% Apr** | BLS rel May 12 |
+| Q1 2026 GDP healthcare services | not yet integrated | **DOWNWARD REVISION** — healthcare was largest single contributor to consumer-services downward revision (outpatient + hospital + nursing home). Real GDP revised 2.0%→1.6%, -0.4pp. | BEA 2nd est, rel May 28 |
+| ACA mid-year attrition | "750K-2M projected dropouts" | **17% nat'l / 21% federal-marketplace Feb→Apr decline already in tape** — running ~9pp above 2025 attrition rate | KFF / Spotlight PA / Modernhealthcare May 2026 |
+| Mercer 2026 employer cost trend | "11-12% Rx projection 2026" | **Total +6.7% (highest in 15 years); Rx +9.4% large employers; GLP-1 +50% 2025, =~20% of Rx spend; plans w/ open GLP-1 coverage +40-70% pharmacy line YoY** | Mercer (rel Jun 2026 cycle, via CFO Dive / Fierce) |
+| GLP-1 employer coverage trajectory | 49% large firms; trend ↑ | **49% (2025 update — UP from 44% in 2024); 2026 may stall/reverse as cost crunch hits** | Mercer survey |
+| KFF April 2026 wave key numbers | Jan 2026 print | **36% care deferral / 41% medical debt / 18% health worsened / 43% Rx cost-avoidance composite — REPRINTED stable** | KFF Health Tracking Poll Apr 14-19 2026 |
+| Uninsured worry (sub-65) | not tracked | **85% uninsured worried about costs; 58% report Rx non-adherence due to cost** (vs 43% insured) | KFF Apr 2026 |
 
 ---
 
@@ -25,20 +31,28 @@ Healthcare costs are a non-discretionary stress MULTIPLIER on CARL's consumer th
 
 | Vector | Current | Threshold | Status | Trend |
 |--------|---------|-----------|--------|-------|
-| Medical Care CPI YoY | 3.1% (Mar 2026) ↓ from 3.4% Feb | >4% elevated | 🟡 WATCH | MODERATING ↓ |
-| Medical Care Services CPI YoY | 3.7% (Mar 2026) | >4% elevated | 🟡 WATCH | RISING ↑ |
-| Medical Care Commodities CPI YoY | 0.3% (Mar 2026) | — | 🟢 | FALLING ↓ |
-| Employer Rx Cost Trend | 11-12% (2026 proj) | >8% elevated | 🟠 ORANGE | ACCELERATING |
-| Avg Single Deductible | $1,886 / $2,631 small | >$2,000 elevated | 🟡 WATCH | RISING ↑ |
-| Underinsured Rate | 23% insured | >25% elevated | 🟡 WATCH | STABLE |
-| Medical Debt Prevalence | 41% (KFF broad) | >35% elevated | 🟠 ORANGE | STABLE |
-| Care Deferral Rate | 36% (Jan 2026) [STALE-2026-04-17] | >30% elevated | 🟠 ORANGE | RISING ↑ |
-| Medication Non-Adherence | 20.2% (2022) [STALE-2026-04-17] | >20% elevated | 🟠 ORANGE | STABLE |
-| Uninsured Rate | 8.2% (2024) [STALE-2026-04-17] | >9% elevated | 🟡 WATCH | RISING ↑ |
-| ACA Enrollment | 23.1M (-4.9%) | -3% decline | 🟠 ORANGE | DECLINING |
-| Rural Hospitals in Red | 46% neg margin (Chartis 2025) [STALE-2026-04-17] | >40% elevated | 🟠 ORANGE | WORSENING |
-| Hospital Median Margin | 1.3% YTD 2025 (Feb 2026 report) | <2% watch | 🟡 WATCH | "NEW NORMAL" |
-| Healthcare Cost Anxiety | 66% worried (Jan 2026 KFF) | >50% elevated | 🔴 RED | RECORD HIGH |
+| Medical Care CPI YoY | **2.5% (Apr 2026)** ↓ from 3.1% Mar | >4% elevated | 🟢 (was 🟡) | MODERATING ↓ |
+| Medical Care Services CPI YoY | **3.2% (Apr 2026)** ↓ from 3.7% Mar | >4% elevated | 🟡 WATCH | EASING ↓ |
+| Medical Care Commodities CPI YoY | **-0.5% (Apr 2026)** ↓ from 0.3% Mar | — | 🟢 | FALLING ↓ |
+| Hospital Services CPI MoM | **-0.3% (Apr 2026)** sign flip from +0.4% Mar | — | 🟢 | EASING |
+| Physicians' Services CPI MoM | **+0.6% (Apr 2026)** | — | 🟡 | RISING ↑ |
+| Employer Total Cost Trend 2026 | **+6.7% (Mercer)** — 15-YR HIGH | >6% elevated | 🟠 ORANGE | ACCELERATING |
+| Employer Rx Cost Trend (large) | **+9.4% (Mercer, 500+ EE)** | >8% elevated | 🟠 ORANGE | ACCELERATING |
+| GLP-1 share of Rx spend | **~20%** (Mercer/Aon) | >15% notable | 🔴 RED | STRUCTURAL |
+| GLP-1 total spend 2025 | **+50% YoY** (Aon) | — | 🔴 | ACCELERATING |
+| Avg Single Deductible | $1,886 / $2,631 small [STALE-Apr] | >$2,000 elevated | 🟡 WATCH | ↑ (KFF Sep print) |
+| Underinsured Rate | 23% insured [STALE-Apr — Commonwealth biennial] | >25% elevated | 🟡 WATCH | STABLE |
+| Medical Debt Prevalence | **41% (KFF Apr 2026 reprint)** | >35% elevated | 🟠 ORANGE | STABLE |
+| Care Deferral Rate | **36% (KFF Apr 2026 reprint)** | >30% elevated | 🟠 ORANGE | STABLE-HIGH |
+| Rx Non-Adherence (composite) | **43% any cost-avoidance / 27% didn't fill / 19% cut doses** (KFF Apr 2026) | >40% elevated | 🔴 RED | RECORD-MAGNITUDE |
+| Uninsured Rate | 8.2% (2024) [STALE — Census Sep] | >9% elevated | 🟡 WATCH | RISING ↑ |
+| ACA Enrollment (open) | 23.1M (-4.9%) Jan baseline | -3% decline | 🟠 ORANGE | DECLINING |
+| **ACA Mid-Year Effectuated** | **-17% national / -21% federal-marketplace Feb→Apr 2026** (~9pp worse than 2025 pace); Wakely projects -17 to -26% full year | -10% RED | 🔴🔴 | ACCELERATING — PHASE 3 |
+| ACA Premium Payments | **+58% avg (avg $113→$178/mo)** post-subsidy lapse | — | 🔴 | DOUBLED |
+| Rural Hospitals in Red | 46% neg margin (Chartis 2025) [STALE-Apr — Chartis annual] | >40% elevated | 🟠 ORANGE | WORSENING |
+| Hospital Median Margin | 2.1% Feb 2026; CYTD 1.9% (Kaufman Hall) | <2% watch | 🟡 WATCH | "NEW NORMAL" |
+| Healthcare Cost Anxiety | 66% worried Jan / **85% uninsured** Apr 2026 | >50% elevated | 🔴 RED | RECORD HIGH |
+| Q1 2026 NIPA Healthcare Services | **DOWNWARD REVISION (BEA 2nd est)** — outpatient, hospital, nursing home all softer than advance estimate | — | 🔴 | CARE-AVOIDANCE VISIBLE IN NIPA |
 
 ---
 
@@ -46,38 +60,26 @@ Healthcare costs are a non-discretionary stress MULTIPLIER on CARL's consumer th
 
 | Finding | Value | Source | Date |
 |---------|-------|--------|------|
-| **[NEW]** Medical Care CPI Mar 2026 | 3.1% YoY (down from 3.4% Feb) | BLS | Apr 10, 2026 |
-| **[NEW]** Medical Care Services CPI Mar 2026 | 3.7% YoY | BLS | Apr 10, 2026 |
-| **[NEW]** Medical Care Commodities CPI Mar 2026 | 0.3% YoY (Rx drugs down 1.5% MoM) | BLS | Apr 10, 2026 |
-| **[NEW]** Hospital services CPI Mar 2026 | +0.4% MoM | BLS | Apr 10, 2026 |
-| **[CORRECTED]** OBBBA Medicaid redetermination | Starts Dec 31, 2026 — NOT H1 2026 | OBBBA §44108 / CAP | Apr 2026 |
-| **[CORRECTED]** OBBBA work requirements | Dec 31, 2026 (80 hrs/mo community engagement) | OBBBA / CAP | Apr 2026 |
-| **[CORRECTED]** OBBBA refugee/asylee Medicaid loss | Oct 1, 2026 | OBBBA / CAP | Apr 2026 |
-| **[NEW]** Medicare GLP-1 Bridge Jul-Dec 2026 | $50/mo copay for Wegovy/Zepbound; outside Part D benefit | CMS | 2026 |
-| **[NEW]** UNH Q1 2026 (Apr 21) MA MLR outlook | MLR target low-mid 85%; full-year 88.8% proj; MA cost trend ~10% | IndexBox/UNH | Apr 2026 |
-| **[NEW]** UNH MA membership loss 2026 | 1.3-1.4M members expected to exit MA | Fierce Healthcare | Jan 2026 |
-| **[NEW]** Hospitals at risk of closure | 734 rural hospitals (1-in-3 nationwide); 309 at immediate risk | CHQPR | 2026 |
-| **[NEW]** Hospital closures in 2026 YTD | 4 U.S. hospital closures to date (incl. Heights Univ, NJ) | Becker's | Apr 2026 |
-| **[NEW]** Hospital "new normal" 2026 | Rising expenses + bad debt; labor 84.4% of costs; phys. subsidy $315K | Kaufman Hall | Feb 2026 |
-| **[NEW]** CFPB enforcement posture 2026 | 6 FCRA/Reg V enforcement actions DISMISSED; no new medical debt rules expected | CFPB/Healpay | 2026 |
-| **[NEW]** GLP-1 employer coverage (2025 update) | 49% of 500+ employee plans cover for weight loss; 66% of 20K+ firms | Mercer 2025 survey | 2026 |
-| ACA enrollees now uninsured (subsidy lapse) | 9% of prior enrollees; addl 750K-2M may drop mid-year | CNBC/KFF/CMS | Mar 2026 |
-| ACA premiums increased for avg enrollee | +114% (avg, subsidized) | KFF | Jan 2026 |
-| ACA marketplace enrollment decline | -1.2M (-4.9%) to 23.1M | CMS | Jan 2026 |
-| Healthcare = top financial worry | 66% somewhat worried; 32% "very worried" | KFF poll | Jan 2026 |
-| Adults deferring care due to cost | 36% (KFF Jan 2026); 33% (Gallup Nov 2025) | KFF/Gallup | Jan 2026 |
-| Health worsened from deferral | 18% of deferrers | KFF | 2025 |
-| Medical debt in collections | $88B, 20% of adults | CFPB | 2025 |
-| CFPB medical debt rule vacated | Debt stays on reports (Jul 2025 court ruling) | Court/CFPB | Jul 2025 |
-| States with debt protection laws | 15 states now | NCLC | 2026 |
-| Avg deductible single | $1,886 (+17% since 2020) | KFF | 2025 |
-| Underinsured (employer coverage) | 66% of underinsured have employer plan | Commonwealth | 2024 |
-| GLP-1 employer cost impact | 30% increase; 64% large employers "significant" | KFF/Mercer | 2025 |
-| Prescription drug trend 2026 | 11-12% employer projection | Segal/PwC | 2025 |
-| Medication non-adherence | 20.2% due to cost; 100K preventable deaths | Studies | 2022 |
-| Rural hospitals negative margin | 46%; 432 at risk per Chartis | Chartis | 2025 |
-| Rural hospital closures since 2010 | 182 total (Chartis); 734 now at-risk (CHQPR) | Chartis/CHQPR | 2025/2026 |
-| Uninsured rate (2024) | 8.2% = 27.2M Americans | Census | Sep 2025 |
+| **[NEW]** BEA Q1 2026 GDP 2nd est | Healthcare = largest single contributor to services downward revision; outpatient + hospital + nursing home all weaker | BEA, rel May 28 | May 28, 2026 |
+| **[NEW]** ACA mid-year drop nationwide | -17% nat'l / -21% federal-marketplace Feb→Apr; 27% of drop concentrated in 400-500% FPL "subsidy cliff" cohort (44% drop in that band) | KFF / Wakely / Modernhealthcare | May 2026 |
+| **[NEW]** ACA premium increase realized | Avg enrollee monthly premium $113→$178 (+58%) post-lapse | KFF / Wakely | May 2026 |
+| **[NEW]** Mercer 2026 employer cost guide | +6.7% (15-yr high); >$18,500/EE expected; Rx +9.4% large; GLP-1 = ~20% Rx spend; +50% GLP-1 total spend 2025 (Aon); plans w/ open GLP-1 +40-70% pharmacy line YoY | Mercer / Aon | Spring 2026 |
+| **[NEW]** Medical Care CPI Apr 2026 | 2.5% YoY (down 60bps from 3.1% Mar) — services 3.2%, commodities -0.5%, hospital MoM -0.3% | BLS rel May 12 | Apr 2026 |
+| **[NEW]** KFF Apr 14-19 2026 wave | 36% care deferral / 41% medical debt / 18% health worsened / 43% Rx cost-avoidance — Jan baseline holds; UNINSURED sub-65 85% worried / 58% Rx non-adherence (2x insured) | KFF Apr 2026 | Apr 2026 |
+| **[NEW]** PBM GLP-1 strategy 2026 | Express Scripts launches Evernorth EnReachRx GLP-1-specific network; PBMs shifting toward cost-plus contracting — supply constraints resolved, pricing fight begins | Mercer / Cigna Q1 26 10-Q | Q1 2026 |
+| **[NEW]** Cigna pharmacy & service cost Q1 | $48.4B Q1 25 → $54.1B Q1 26 (+11.8% YoY) | Cigna 10-Q | Apr 2026 |
+| **[NEW]** Kaufman Hall Feb 2026 margin | 2.1% (up from 1% Jan); CYTD 1.9% — well below 3.7% 2025 close; bad debt + expense pressure intact | Kaufman Hall Mar release | Mar 2026 |
+| ACA enrollment (open enrollment) | 23.1M (-4.9% YoY) — January baseline | CMS | Jan 2026 |
+| OBBBA Medicaid redetermination start | Dec 31, 2026 — losses materialize Q1-Q2 2027 | OBBBA §44108 / CAP | Apr 2026 |
+| OBBBA refugee/asylee Medicaid loss | Oct 1, 2026 | OBBBA | Apr 2026 |
+| Medicare GLP-1 Bridge Jul-Dec 2026 | $50/mo copay Wegovy/Zepbound | CMS | 2026 |
+| Healthcare = top financial worry | 66% (overall) / 85% (uninsured sub-65) | KFF | Jan/Apr 2026 |
+| Medical debt in collections | $88B, 20% adults (CFPB) [STALE — CFPB enforcement neutered, no refresh] | CFPB | 2021 baseline; rule vacated Jul 2025 |
+| CFPB enforcement posture 2026 | 6 FCRA/Reg V actions DISMISSED 2026; no new federal medical-debt rules expected | CFPB | 2026 |
+| Avg deductible single | $1,886 [STALE — KFF EHBS Sep refresh] | KFF | 2025 |
+| Hospital closures 2026 YTD | 4 U.S. closures (incl. Heights Univ NJ) | Becker's | Apr 2026 |
+| Rural hospitals at risk | 734 (1-in-3); 309 immediate (CHQPR) | CHQPR | 2026 |
+| Uninsured rate (2024) | 8.2% = 27.2M [STALE — Census Sep refresh] | Census | Sep 2025 |
 
 ---
 
@@ -85,48 +87,45 @@ Healthcare costs are a non-discretionary stress MULTIPLIER on CARL's consumer th
 
 | Driver | Status | Trend | CARL Impact |
 |--------|--------|-------|-------------|
-| GLP-1 drugs (Ozempic, Wegovy, Zepbound) | 🔴 Accelerating — 11-12% Rx trend | Employer costs +30% | Premium pass-through → worker OOP ↑ |
-| Hospital consolidation / pricing power | 🟠 Structural — limited competition | Facility fees rising | No competition = no relief |
-| Specialty drugs (oncology, rare disease) | 🟠 Persistent — $1,500-$50K/mo | Growing pipeline | Non-adherence → worse outcomes |
-| Labor (nurses, clinical staff) | 🟡 Moderating from 2022-23 peak | Stabilizing | Hospital margin squeeze passing to patients |
-| Deductible inflation (+43% in decade) | 🔴 Structural shift | HDHPs dominant (57% of workers) | First-dollar costs = access barrier |
-| ACA subsidy expiration | 🔴 Acute 2026 trigger | Premiums doubled; enrollment falling | New uninsured cohort = deferred debt |
+| **GLP-1 drugs** (Ozempic, Wegovy, Zepbound) | 🔴 ~20% of Rx spend; +50% 2025; +40-70% plan-line YoY where unmanaged | Employer pricing fight 2026; possible coverage retrenchment Q3-Q4 plan-design | Premium pass-through → worker OOP ↑ AND employer wage-vs-benefits crowd-out |
+| **Hospital consolidation / pricing power** | 🟠 Structural | Facility fees rising; Apr CPI MoM softening masks structural pricing power | No competition = no relief |
+| **Specialty drugs** (oncology, rare disease) | 🟠 Persistent | Growing pipeline | Non-adherence → worse outcomes |
+| **Labor** (nurses, clinical staff) | 🟡 Moderating | 84.4% of hospital costs | Margin squeeze passing to patients |
+| **Deductible inflation** | 🔴 Structural | HDHPs dominant (57% of workers) | First-dollar costs = access barrier |
+| **ACA subsidy expiration — REALIZED** | 🔴🔴 ACUTE NOW | -17 to -21% Feb→Apr attrition; -58% premium hike for those who stayed | New uninsured cohort = deferred debt loading 6 months earlier than projected |
+| **Mercer 2026 total trend +6.7%** | 🟠 15-YR HIGH | $18,500/EE; renewal-cycle pressure into Q3-Q4 plan design | Top-40% squeeze: premium passthrough, deductible↑, GLP-1 exclusions, OR wage stagnation via benefits cost |
 
 ---
 
 ## K-SHAPE NOTE
 
-Healthcare cost burden is deeply asymmetric — this directly reinforces CARL's K-shape thesis:
+Bottom 60% (subprime/stressed):
+- Highest care deferral; HDHP = functionally uninsured; no HSA buffer
+- ACA mid-year attrition disproportionately bottom — 27% of drop in $/FPL 400-500% bracket = lower-middle squeezed first
+- 85% of uninsured sub-65 worried about costs; 58% Rx non-adherence
+- Medical debt in collections cohort
 
-**Bottom 60% (subprime/stressed):**
-- Highest care deferral rates (TX 41%, AK 43%, MT 43%)
-- HDHP plans = functionally uninsured; can't meet deductible
-- No HSA savings buffer; medical event = immediate debt
-- Medical debt in collections disproportionately in this cohort
-- Medicaid unwinding hit this group hardest (25M removed)
+Top 40% (prime/near-prime) — NOW ENTERING STRESS — accelerating:
+- Mercer 2026 +6.7% (15-yr high) hits employer premium → worker share
+- Rx +9.4% large-employer trend = direct OOP impact on prime workforce
+- GLP-1 exclusion crystallization Q3-Q4 plan design = access cliff for upper-middle who started Wegovy in 2024-25
+- 23% underinsured rate (Commonwealth) — 66% of underinsured have employer coverage
 
-**Top 40% (prime/near-prime) — NOW ENTERING STRESS:**
-- GLP-1 costs pushing employer premiums up even for good plans
-- Large-employer deductibles rising — $1,886 avg affects all workers
-- ACA subsidy loss hitting self-employed and early retirees
-- Medical debt exposure even with "good" insurance (23% underinsured)
-- 66% of underinsured have employer coverage — not just the poor
-
-The K-shape is CONVERGING DOWNWARD in this domain: GLP-1 premium shocks, rising deductibles, and ACA subsidy expiration are now squeezing the top cohort that previously had adequate coverage buffers.
+**K-SHAPE CONVERGING DOWNWARD CONFIRMED.** Both ends now structurally stressed. Mercer 6.7% is the first time the top 40% gets a measurable employer-cost shock in years. ACA cliff hitting bottom in real-time.
 
 ---
 
 ## TRANSMISSION TO CARL
 
-Three active channels feeding CARL's consumer stress vectors:
+Three active channels:
 
-| Channel | Lag | Mechanism | Vector Affected |
-|---------|-----|-----------|----------------|
-| Spending displacement | Immediate | Healthcare crowds out discretionary spending (66% worried = behavioral change now) | Consumer spending decline |
-| Debt accumulation | 0-180 days | Medical event → bill → payment plan or collections → credit damage | CC utilization, medical debt on reports |
-| Deferred care event | Months to years | Skipped care → condition worsens → acute event → $10K-$100K bill | Sudden credit spike, bankruptcy |
-
-**ACA subsidy cliff (2026 specific):** 4.8M newly uninsured + premium doubling for those who stayed = new acute transmission trigger loading in Q2-Q3 2026.
+| Channel | Lag | Mechanism | CARL Vector Affected |
+|---------|-----|-----------|----------------------|
+| Spending displacement | Immediate | Healthcare crowds out discretionary; **NEW: Q1 NIPA reveals services-side care-avoidance** | Consumer spending decline (BEA NIPA confirmation) |
+| Debt accumulation | 0-180 days | Medical event → bill → payment plan / collections → credit damage | CC utilization, medical debt on reports (CFPB vacated → unmasking) |
+| Deferred care event | Months-years | Skipped care → condition worsens → acute event → $10K-$100K bill | Sudden credit spike, bankruptcy |
+| **NEW: Employer-cost-to-wage crowd-out** | 6-18 months | Mercer +6.7%/Rx +9.4% → renewal → worker premium share ↑ OR wage stagnation OR coverage degrade | Real wage K-shape (CARL Apr Atlanta Fed bottom tercile -2.3pp real already) |
+| **ACA cliff acceleration** | NOW (Q2 2026) | -17 to -21% Feb→Apr already realized; full-year -17 to -26% Wakely; new uninsured cohort = deferred debt loader | Uninsured surge, medical debt H2 2026 (DOC-P06 pulled forward) |
 
 ---
 
@@ -134,37 +133,53 @@ Three active channels feeding CARL's consumer stress vectors:
 
 | Pred_ID | Prediction | Confidence | Timeframe | Status | Notes |
 |---------|-----------|-----------|-----------|--------|-------|
-| DOC-P01 | ACA enrollment -5%+ full year 2026; 3-5M uninsured from subsidy lapse | 70% | 2026 full year (CMS Jan 2027) | TRACKING | CMS itself projects 750K-2M mid-year droppers; Urban Inst 4.8M total. Slight conf. trim: 75%→70% |
-| DOC-P02 | Employer healthcare costs +10% in 2026 confirmed by KFF Sept survey | 80% | KFF Sept 2026 | TRACKING | No change; GLP-1 + MA repricing supports |
-| DOC-P03 | Medical care CPI crosses 4% threshold in 2026 (GLP-1 + deferred care backlog) | 55% | Q3-Q4 2026 | TRACKING | CONF. TRIMMED 60%→55%. Mar print came in at 3.1% (DOWN from 3.4%) — commodities/Rx drag. Services at 3.7% still elevated. Path to 4% requires acceleration in services side. |
-| DOC-P04 | Rural hospital closures exceed 200 total since 2010 by end 2026 | 70% | Dec 2026 | TRACKING | 4 hospital closures YTD 2026; CHQPR now counts 734 at-risk (up from 432). On track. |
-| DOC-P05 | Care deferral rate approaches 40% (CRITICAL threshold) given economic stress + ACA lapse | 65% | Q2-Q3 2026 | TRACKING | Unchanged. ACA mid-year dropouts add pressure. Economic anxiety from tariffs/uncertainty compounds. |
-| DOC-P06 | Medical debt in collections rise visible in H2 2026-2027 | 65% | H2 2026-H1 2027 | TRACKING | CFPB enforcement neutered — 6 actions dismissed 2026. No federal protection. Debt will appear on reports. |
-| DOC-P07 | Mid-size employer GLP-1 exclusions crystallize in 2026 plan design | 70% | Q3-Q4 2026 | TRACKING | Mercer 2025: 49% of 500+ firms covering weight-loss GLP-1 (up from 43%). Pressure building. |
-| DOC-P08 | Healthcare remains #1 consumer financial worry through Nov 2026 elections | 80% | Nov 2026 | TRACKING | Unchanged; structural driver |
-| **[NEW]** DOC-P09 | OBBBA Medicaid redetermination (biannual) triggers 2-5M additional coverage losses in H1 2027 | 70% | H1 2027 (first biannual redetermination cycle) | TRACKING | Dec 31, 2026 start → first biannual reviews run Q1-Q2 2027. Procedural disenrollments of eligible enrollees expected (same pattern as 2023-25 unwinding). Work requirements also begin Dec 2026. |
+| DOC-P01 | ACA enrollment -5%+ full year 2026; 3-5M uninsured from subsidy lapse | **85% ↑** (was 70%) | 2026 full year (CMS Jan 2027) | **STRENGTHENING** | Wakely range -17 to -26%; KFF/Modernhealth confirm -17 nat'l / -21 federal Feb-Apr already realized. 5M dropping plausible. CONF +15pp. |
+| DOC-P02 | Employer healthcare costs +10% in 2026 confirmed by KFF Sept survey | **75%** (was 80%) | KFF Sept 2026 | TRACKING | Mercer +6.7% trend below 10% threshold; magnitude bias DOWN. KFF EHBS uses different denominator; could come in higher. CONF -5pp. |
+| DOC-P03 | Medical care CPI crosses 4% threshold in 2026 (GLP-1 + deferred care backlog) | **35% ↓** (was 55%) | Q3-Q4 2026 | **WEAKENING** | Apr 2.5% YoY = AWAY from threshold (Mar 3.1% → Apr 2.5%). Services moderating 3.7→3.2%. Path to 4% requires sharp services reacceleration AND commodities recovery. CONF -20pp. |
+| DOC-P04 | Rural hospital closures exceed 200 total since 2010 by end 2026 | 70% | Dec 2026 | TRACKING | 4 YTD; 734 at-risk; on track |
+| DOC-P05 | Care deferral rate approaches 40% (CRITICAL threshold) | **60%** (was 65%) | Q2-Q3 2026 | TRACKING | KFF Apr reprint at 36% (stable, not rising) — slight conf trim. ACA cliff acceleration still adds pressure H2. |
+| DOC-P06 | Medical debt in collections rise visible in H2 2026-2027 | **75% ↑** (was 65%) | H2 2026-H1 2027 | **STRENGTHENING** | CFPB enforcement neutered (6 actions dismissed); ACA cliff accelerating new uninsured 6mo early. CONF +10pp. |
+| DOC-P07 | Mid-size employer GLP-1 exclusions crystallize in 2026 plan design | **80% ↑** (was 70%) | Q3-Q4 2026 | **STRENGTHENING** | Mercer: 2026 employer cost +6.7% (15-yr high) + GLP-1 = 20% Rx spend + +40-70% plan-line YoY where unmanaged = forcing function for plan-design retrenchment. CONF +10pp. |
+| DOC-P08 | Healthcare remains #1 consumer financial worry through Nov 2026 elections | 80% | Nov 2026 | TRACKING | KFF 66% worried Jan / 85% uninsured Apr |
+| DOC-P09 | OBBBA Medicaid redetermination triggers 2-5M coverage losses H1 2027 | 70% | H1 2027 | TRACKING | Dec 31, 2026 start → biannual reviews Q1-Q2 2027 |
+| **[NEW]** DOC-P10 | Q2-Q3 2026 NIPA continues to show healthcare-services as drag on consumer-services growth (care-avoidance visible in macro data) | 65% | Q3 advance est (Oct 30) | NEW | Q1 2nd-est established the signal — care-avoidance now NIPA-visible, not just survey. |
 
 ---
 
 ## UPCOMING CATALYSTS
 
-| Date | Event | Vectors Affected |
-|------|-------|-----------------|
-| **2026-04-21** | **UNH Q1 2026 earnings (premarket)** — MLR stabilization? MA cost trend 10%? | VX-DOC-1.02, employer cost trend |
-| 2026-05-12 | BLS CPI April 2026 release | VX-DOC-1.01 |
-| 2026-Q2 | ACA mid-year coverage dropouts (750K-2M projected by CMS) | COV-DOC-02, VX-DOC-5.03 |
-| 2026-Q2 | KFF Health Tracking Poll (ongoing) — watch care deferral trend vs 36% Jan baseline | VX-DOC-4.01 |
-| **2026-07-01** | **Medicare GLP-1 Bridge begins** — $50/mo copay Wegovy/Zepbound; signals policy direction | VX-DOC-1.03, CD-DOC-01 |
-| **2026-10-01** | **OBBBA: Medicaid eligibility ends for refugees/asylees** | COV-DOC-03, uninsured VX |
-| 2026-09 | KFF Employer Health Benefits Survey 2026 | VX-DOC-1.03, 2.02 |
-| 2026-09 | Census uninsured rate 2025 full year | Uninsured VX |
-| 2026-Q3 | Gallup annual care deferral tracking | VX-DOC-4.01 |
-| 2026-Q3-Q4 | GLP-1 cost crystallization in employer plans / 2027 plan design decisions | VX-DOC-1.03, CD-DOC-01 |
-| **2026-12-31** | **OBBBA: Biannual Medicaid redeterminations begin + work requirements start** | COV-DOC-03, DOC-P09 |
-| 2027-01-01 | OBBBA: Retroactive coverage window shortens 90 days → 1 month | COV-DOC-03 |
-| 2027-Q1 | BALANCE Model for GLP-1s in Medicare Part D begins | VX-DOC-1.03 |
+| Date | Event | DOC Watch |
+|------|-------|-----------|
+| **2026-06-10** | **BLS CPI May 2026 release** (Wed) | Medical Care YoY (Apr was 2.5%); services 3.2% — watch for second monthly leg of moderation OR reacceleration; hospital MoM (Apr -0.3% sign flip) is the key tell |
+| 2026-06-11 | Census QSS Q1 2026 full release | Healthcare-services sub-component drill-down; cross-check BEA narrative |
+| 2026-06-16-17 | FOMC | Rate path implications for ACA premium / employer cost (indirect) |
+| 2026-Q2 ongoing | ACA mid-year coverage dropouts | Wakely -17 to -26% trajectory; KFF tracker |
+| **2026-07-01** | Medicare GLP-1 Bridge begins | $50/mo Wegovy/Zepbound |
+| 2026-09 | KFF Employer Health Benefits Survey 2026 | Validates Mercer +6.7% / Rx +9.4% / GLP-1 coverage trajectory |
+| 2026-09 | Census uninsured rate 2025 | Validates -17 to -21% mid-year |
+| **2026-10-01** | OBBBA refugee/asylee Medicaid ends | Coverage loss |
+| 2026-Q3-Q4 | 2027 plan-design decisions (GLP-1 exclusions) | DOC-P07 resolution |
+| **2026-12-31** | OBBBA biannual Medicaid redeterminations + work requirements start | H1 2027 wave loader |
+
+---
+
+## STATE VECTORS WRITTEN THIS SESSION
+
+- **SV-DOC-2026-06-08-01** — ACA mid-year attrition realized (-17 to -21% Feb→Apr); cohort uninsured-loading 6mo ahead of baseline → CARL CRL-05 / medical-debt / DOC-P01 strengthening.
+- **SV-DOC-2026-06-08-02** — Mercer 2026 employer cost +6.7% (15-yr high) + Rx +9.4% + GLP-1 = 20% Rx spend → top-40% benefits-cost shock; transmits to CARL real-wage K-shape and DOC-P07 GLP-1 exclusion crystallization.
+- **SV-DOC-2026-06-08-03** — BEA Q1 2026 GDP 2nd estimate: healthcare-services = largest single contributor to consumer-services downward revision → care-avoidance signal now visible in NIPA macro data, not just KFF/Gallup surveys.
+
+---
+
+## DATA GAPS — UNRESOLVED
+
+- **QSS Q1 2026 full release** (Jun 11) — sub-component drill-down (outpatient vs hospital vs physician) not yet quantified; will refine BEA NIPA signal
+- **Kaufman Hall Apr/May 2026 flash reports** — search returned through Feb 2026 only; may not yet be public or paywalled. Need direct kaufmanhall.com check next session.
+- **PBM Q1 2026 earnings detail** — Cigna pharmacy cost +11.8% YoY captured; CVS/Caremark commentary not pulled in this pass
+- **Underinsured rate refresh** — Commonwealth biennial; next print likely Sept-Oct 2026
+- **CFPB medical debt $88B figure** — frozen at 2021 baseline; CFPB enforcement neutered means no new federal data series; state-level (15 states) data is fragmented
+- **GLP-1 coverage trajectory in mid-size employers** (200-499 EE band) — Mercer data is large-employer-heavy; mid-market under-measured
 
 ---
 
 *See workbook/ for full vector registry, master log, and transmission flows.*
-*See sources/ for research deep dives.*
