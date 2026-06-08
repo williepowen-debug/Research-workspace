@@ -22,7 +22,7 @@ The session ran in **four phases**:
 - Filed **KB-VIO-072**: R12 regime re-establishment on 6/05 (20d-avg 140.16) — interrupted-and-resumed structure, no historical analog in KB-VIO-044 catalogue. Also resolves KB-VIO-031 (HIT, Scenario B at td-58).
 - **KB-VIO-058 STALE → ARCHIVED** with updated note: PRE_EVENT_FADE was wrong framework not direction; spike fired at td-18 (vs R11's td-8).
 - STATUS refreshed (SKEW correction, R12 resolution, convergence 18/45 → 21/45).
-- CATALYSTS.tsv + CALENDAR.md pruned (knife-edges + 6/15 KB-VIO-031 checkpoint resolved); 6/12 May CPI now primary forward gate.
+- CATALYSTS.tsv + CALENDAR.md pruned (knife-edges + 6/15 KB-VIO-031 checkpoint resolved); 6/10 May CPI now primary forward gate.
 - Inbox 5/14 gamma signal — formal absorption disposition filed, git mv'd to processed/.
 
 ### Phase 2 — Thesis v3.3 substantive bump (commit `da63faf1`, then `9e8ebef7` tightening)
@@ -49,7 +49,7 @@ The session ran in **four phases**:
 
 ## NEXT SESSION (priority-ordered)
 
-1. **🔴 6/12 May CPI pre-mortem** — 4td from Monday boot. Tail/non-tail bracket + position-discipline contingencies. Primary forward gate now.
+1. **🔴 6/10 May CPI pre-mortem** (date corrected 6/12→6/10 per BLS, 6/7) — 2td from Monday boot. Tail/non-tail bracket + position-discipline contingencies. Primary forward gate now.
 2. **🟠 Post-spike SKEW sustainment watch (Prediction #6)** — need SKEW >150 sustained 4+ td for the back-to-back-cluster prediction to fire. 6/5 was 152.25; checkpoint each daily SKEW close 6/8-6/11.
 3. **🟠 VIX +30% single-day from low base scan** — right analog class for Path B (concentration unwind). Aug 2024 yen carry, Nov 2018 FANG, Feb 2018 Volmageddon, Mar 2020. Small N; cases not stats per Will's small-N discipline. Part of Phase 4 research agenda.
 4. **🟡 Episode-17 post-mortem disposition** — now triply-deferred (5/21 + 6/1 + 6/5). Either fold into KB-VIO-070 as superseded or write a stand-alone `research/` file. Pick — don't carry forward indefinitely.

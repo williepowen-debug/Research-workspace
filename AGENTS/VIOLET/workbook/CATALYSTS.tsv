@@ -1,5 +1,5 @@
 date	event	type	agent_domain	expected_vol_impact	source	notes
-2026-06-12	May CPI release	DATA	CARL/HENRY	HIGH	BLS	First named macro test post-NFP-shock. CPI tail = compounds NFP rate-shock + AI unwind; clean print = fade-leg #1 deflates. Position gate before any short-vol expression.
+2026-06-10	May CPI release	DATA	CARL/HENRY	HIGH	BLS	First named macro test post-NFP-shock. CPI tail = compounds NFP rate-shock + AI unwind; clean print = fade-leg #1 deflates. Position gate before any short-vol expression.
 2026-06-17	VIX June expiration (quarterly)	OPEX	VIOLET/HENRY	MEDIUM	option cycle	Quarterly — high volume. Pin risk on dealer gamma.
 2026-06-17	FOMC Rate Decision + Powell	FOMC	VIOLET/HENRY	HIGH	FOMC schedule	Primary vol catalyst gate. Current FedWatch ~80% hold (refresh at boot). First post-Apr-dissent meeting.
 2026-06-17	FOMC SEP (Summary of Economic Projections)	FOMC	VIOLET/HENRY/CARL	HIGH	FOMC schedule	First dot-plot since Apr 4-dissent split. Dot-plot reset = potential vol catalyst.
