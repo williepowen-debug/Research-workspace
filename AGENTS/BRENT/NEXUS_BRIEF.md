@@ -1,18 +1,18 @@
 # BRENT — NEXUS Brief
 
-**Status:** 🟠 v3.0 — BRT-16 macro-transmission (oil→CPI→Fed→vol) firing across the macro stack (HENRY/LIQUID/REGINALD) for the first time at market scale
+**Status:** 🟠 v3.0 — Fri VIX spike is multi-root (NFP+AI-unwind per VIOLET), NOT a BRT-16 terminus; oil's channel = standing oil→CPI→Fed leg, tested at Jun-12 CPI
 **Domain:** Oil & energy — Brent/WTI, OPEC+, storage (Cushing/SPR), tankers, energy credit; transmission to CARL (gas/consumer), HENRY (energy CPI/PPI), LIQUID (energy HY OAS), SAM (Japan LNG), HAWK (oil↔scenarios), REGINALD (energy loans)
 **Thesis version:** v3.0
-**Recent thesis pivot:** Jun 5 view shift (v3.1 pending): kinetic→price DECOUPLED + BRT-16 macro-transmission now firing visibly. Bump gated on Jun-9 STEO / Jun-10 EIA.
+**Recent thesis pivot:** Jun 5: kinetic→price DECOUPLED. BRT-16 reframed Jun-7 PM (post-VIOLET): Fri VIX spike is multi-root (NFP+AI-unwind), oil a background input — NOT an oil terminus; oil's real channel is the standing CPI/Fed leg. v3.1 gated on Jun-9 STEO / Jun-10 EIA / Jun-12 CPI.
 **Position:** XLE $65C Sep-30 (kinetic-tail insurance, OTM); CF $130C Jun-18 (decoupling-from-crude watch) — structural only; marks in STATUS/FORGE, no P/L here
-**As of:** 2026-06-07 Sun night ET (rev-2: pilot-2 review edits applied; STATUS data through Fri 6/5 close + OPEC+ Jun-7 outcome) | STATUS commit: 7c178f1c
+**As of:** 2026-06-07 Sun night ET (rev-3: macro-transmission reframed MULTI-ROOT post-VIOLET reconciliation; STATUS data through Fri 6/5 close + OPEC+ Jun-7) | STATUS commit: ce65758f
 
 ---
 
 ## VIEW
 
 - **Market has priced kinetic-without-damage as the regime** — war-risk premium fully unwound (STNG/DHT down even on missile days); Brent faded THROUGH escalation to $94.66 Fri close (off Mon $95.13) despite Iran's 7-missile salvo at Kuwait+Bahrain Jun 5.
-- **The week's real move was MACRO, not crude** — NFP 172K vs 80K → Fed pricing year-end HIKE → VIX +40% to 21.51 → Nasdaq -4.18%; CNN tied it explicitly to "oil-spike inflation." BRT-16 sequential-transmission firing for the first time at market scale.
+- **Fri VIX +40% is multi-root — NFP rate-shock (172K, >2x consensus) + AI/factor-concentration unwind (NVDA -6%, memory -15%, Broadcom AI-miss), oil only a background input** [per VIOLET, the vol-node owner; credit didn't confirm — HY OAS flat 2.74]. NOT a BRT-16 terminus (my earlier "firing at market scale" read conflated same-day correlation with causation). Oil's genuine macro channel is the standing oil→CPI→Fed leg — tested cleanly at the Jun-12 CPI energy component, separable from the AI-unwind noise.
 - **OPEC+ Jun 7 = base case** — +188K bpd July (paper unwind), UAE baseline deferred to 2027 review (defense posture). 188K is trapped behind Hormuz → no real supply, no thesis change.
 - **Storage is the truest Phase-1 read now** — Cushing 22.4M (decel, 20M floor ~Jul 1); SPR 357.1M (~350M floor Jun 10 = directional binary: throttle bullish / drain-through near-term bearish + medium-term bullish).
 - **MOU on-ice, not dead** — Iran walked Jun 1, US kept channel open Jun 2 (Trump "deal next week"). Tape pricing neither tail aggressively; Brent ~$94 sits at suspended-MOU lower bound.
@@ -22,12 +22,12 @@
 ## CALIBRATION
 
 - **Conviction (decomposed):** direction-MEDIUM (Phase-1 intact but pricing-channel matured) · timing-LOW (deal-vs-escalation binary unresolved) · level-MEDIUM (Brent $90-100 range absent a facility-damage event).
-- **Diverge from market by:** Market prices Brent ~$94 (suspended-MOU lower bound), dismissing the kinetic tail AND the second-order macro transmission. BRENT **agrees on near-term flat-price** (kinetic-without-damage regime is real) but holds that **BRT-16 (oil→CPI→Fed-hike→vol) is the under-priced channel** — the thesis is propagating through rates/equity-vol even with crude flat. The gap is on *second-order transmission*, not flat-price direction.
+- **Diverge from market by:** Market prices Brent ~$94 (suspended-MOU lower bound), dismissing the kinetic tail AND the second-order oil→CPI→Fed channel. BRENT **agrees on near-term flat-price** (kinetic-without-damage regime is real) but holds the **standing oil→CPI→Fed leg (BRT-16) is the under-priced channel**. The gap is on *that second-order leg* (tested at Jun-12 CPI energy) — NOT Friday's vol spike, which is mostly NFP+AI-unwind (per VIOLET) and not mine to claim.
 - **Cross-agent tensions known to me:** Inbox on hold per `[[project_messaging_overhaul]]`, so signals unconfirmed. Forming tension with **LIQUID**: HY energy OAS (Apr-28 stale ~285bps) is still dismissing kinetic while macro-vol spiked Fri — if LIQUID isn't weighting the credit-catch-up risk yet, that's a divergence I'm flagging. Aligned (not tense) with SAM + HAWK on MOU framing.
 - **Uncertain about:** (1) SPR drains-through 350M vs DOE throttle Jun 10 — *my data*; (2) whether HY energy OAS catches up to macro-vol — *LIQUID owns*; (3) whether USD-strength-on-Fed-hike caps the $95-100 grind — *CARL/HENRY own the USD/Fed read*.
 - **Failure patterns:** wrong-mechanism/policy-confound · mitigation-channel-underweighted · threshold-vs-mechanism — see `thesis/PREDICTIONS.tsv` preamble.
 - **RED counter-frame:** No BRENT-specific red/ log. Strongest standing counter = **deal-snapback** (Trump "deal next week" → Hormuz reopen *announcement* → Brent −15-20% on the announcement, per LESSONS #11/#18). My response: require *operational* not rhetorical confirmation (Platts Dated convergence / Lloyd's transit recovery / P&I resumption / STNG repricing DOWN) before treating as Phase 2.
-- **Type B convergence candidate I'm flagging:** **The macro-transmission cascade.** BRENT (oil-CPI input) → HENRY (CPI/Fed) → LIQUID (HY OAS/credit) → REGINALD (duration/regional-bank) are now sequentially linked by the Jun 5 NFP→Fed-hike→VIX move. Oil shock propagating through the macro stack on schedule (LESSONS #13). **NEXUS: is this one cascade or independent moves?** Test whether the four domains share the one antecedent (Fed-hike repricing). Surface now.
+- **Type B convergence candidate I'm flagging (RESOLVED toward MULTI-ROOT):** BRENT and **VIOLET (the vol-node owner) now CONVERGE** that Fri's VIX +40% is **NOT a single-root oil cascade** — it's NFP-rate-shock + AI/factor-unwind (her legs), with oil only a standing background input (mine). My earlier single-root framing was wrong; credit didn't confirm (HY OAS flat 2.74) and the AI/semis leg is exogenous to oil. The genuine BRT-16 chain is oil→CPI→Fed→(HENRY/LIQUID/REGINALD credit+duration), separable and tested at **Jun-12 CPI energy** — NOT the Fri vol spike. **NEXUS: both briefs now agree multi-root; live open question is whether the Jun-12 CPI energy print activates the oil-leg cleanly (Discipline F — two independent reads converged from opposite ends).**
 
 ---
 
@@ -37,7 +37,7 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
-| HENRY | Oil→CPI transmission live: Brent $90+ through Q2 feeding energy-CPI; Fed now pricing year-end HIKE on NFP + oil-inflation narrative | 🔴 | Confirms inflation re-accel; Fed-hike repricing IS the macro-damage channel firing — weight oil as the inflation driver |
+| HENRY | Oil→CPI: Brent $90+ through Q2 feeding energy-CPI; oil is a STANDING input to the Fed-hike leg (NOT the driver of Fri's NFP+AI-unwind vol spike) | 🟠 | Weight oil as one inflation input; the clean read is the Jun-12 CPI energy component — separable from the NFP+AI-unwind noise |
 | LIQUID | HY energy OAS stale (Apr-28 ~285bps) dismissing kinetic; macro-vol spike Fri (VIX +40%) may force credit re-rate | 🟠 | Energy-credit catch-up risk → watch HY energy OAS >400bps for stress emergence; credit currently lags the vol move |
 | REGINALD | Fed-hike repricing (oil-CPI driven) → duration/AFS-mark stress at regional banks; energy-loan book exposure if HY energy OAS re-rates | 🟠 | Duration/AFS-marks pressure + energy-credit exposure = the regional-bank terminus of the BRT-16 cascade (the 1986-analog tail, LESSONS #14) |
 | HAWK | Brent $94.66 / backwardation ~$8.43 6mo / no facility damage priced | 🔴 | Oil-price input for scenario framework; flat-price says market is pricing Scenario-B (contained) not Scenario-C (>$100) |
