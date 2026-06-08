@@ -92,7 +92,7 @@
 
 | Vector | Score | State | Promotion threshold |
 |---|---:|---|---|
-| Bab al-Mandab activation | 2 | Iran rhetorical Jun 1 ("activate" threat); Houthi quiet — no 2026 commercial-vessel attacks per WashInst/MARAD | First Houthi commercial hit = promote to core (HAW-10) |
+| Bab al-Mandab activation | 3 ↑ | **Houthi NOT quiet** — fired missiles at Israel Jun 8 (Tel Aviv sirens; active vs Israel since Mar 28); Israeli-linked ships banned from Red Sea; traffic "sharply reduced"/effective-shutdown **via avoidance**. BUT **zero kinetic commercial-vessel attacks in 2026** (MARAD/GSR confirm none since pre-Oct-2025 ceasefire) — Houthis avoiding multi-front Yemen commitment. Strait economically impaired w/o kinetic trigger. | First Houthi **kinetic** commercial-vessel hit = promote to core + fires HAW-10. (Ban/rerouting alone ≠ HAW-10 threshold.) |
 | Gulf-state direct targeting | 3 | Kuwait hit Jun 1 (2 missiles); Kuwait + Bahrain Jun 5 (7 missiles, Bahrain new); defenses holding | Successful hit on Gulf-state energy infra / US base = promote + drives D |
 
 ---
