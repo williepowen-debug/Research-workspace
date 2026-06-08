@@ -36,6 +36,7 @@
 - [2026-05-08] **Gitignore directory-exclude breaks negation** — `dir/` + `!dir/*.md` does NOT work (git won't traverse into ignored dirs). Fix: `dir/*` + `!dir/*.md`. Verify with `git check-ignore -v`.
 - [2026-05-08] **10-Q SEC EDGAR fetch is XBRL-heavy** — typical bank 10-Q 3-4MB raw HTML, ~350KB stripped. Strip with `re.sub(r'<[^>]+>',' ',html)` then `re.sub(r'\s+',' ',text)`. Standard terms (NDFI, "fund finance") often DON'T match — banks categorize differently (CFG: "Capital call facilities" / "Secured private credit finance"). Search broad first, then narrow.
 - [2026-05-08] **Phantom-detection heuristic** — When a position is referenced in dashboard files but NOT in POSITIONS.md AND NOT in FORGE/STATUS.md, it's stale-tracking. Closed positions need a propagation step to dependent docs. Grep ground-truth (POSITIONS / FORGE) before recommending action on any "decide what to do with X" task.
+- [2026-06-08] **Multi-bank quantitative drill pattern (validated, 5 banks ~15 min):** spawn N parallel Sonnet subagents (one per bank), each fetches primary EDGAR (8-K EX-99 financial supplement = best source — 5-quarter NCO/NPA/ACL trend tables; 10-Q for segment detail) and returns verbatim quotes + accession + URL, marking gaps "NOT DISCLOSED" not estimating. **Then self-curl ONLY the decisive ratios** (`curl -s -H 'User-Agent: …' <archive-url> | sed 's/<[^>]*>/ /g' | tr -s ' \t\n' ' ' | grep -oiE '<row label>[ 0-9.%()-]{0,N}'`) — satisfies Rule #3 without re-pulling everything. The contested/classification-turning name gets self-verified regardless of subagent confidence (FITB caught the "$444M tripled" claim was a misread; actual $144M flat). Pre-register the classification rule before reading data — it inverted the working prior here, which is the tell it wasn't motivated reasoning.
 
 ## References
 - [2026-05-10/11] **LIAISON channel WALTER ↔ REGINALD — Turns 1-5 CLOSE-CONVERGED in <13 hr UTC** — Path: `AGENTS/REGINALD/handoff_WALTER/{README.md, LIAISON.md}`. All 8 Qs LOCKED both sides; 5 instantiated files. REGINALD-side: `registry/THRESHOLDS.tsv` 8-row REG-T-NN + `board/BOARD_LOG.tsv` 11-col (32-row backfill stub) + `CLAUDE.md` Boot Step 9b 3-tier BOARD diff scan. **Boot 9b grep schema: `signal_role: cluster_mediating` NOT `cluster_mediating: true`.** `bank_transmission` enum 8-val pre-cosigned for V0_9_STACK.md. Calibration cycle 1 trigger 2026-05-25 (passed — not run) OR N=15 forward BOARD dispositions. Channel state: POST-WRAP CALIBRATION-PENDING.
@@ -53,14 +54,18 @@
 
 ## Session Notes
 
-⚠️ **Open question:** Will the ZION/CFG/MTB/FITB Q1 NCO data come in genuine-improvement (Hypothesis A — bear case sharpens to WAL-specific) or cosmetic-resolution via NCO acceleration (Hypothesis B — cohort fade INTACT via NCO line, would partially reverse the v2.2.1 Bear-medium 30→25 trim)? The answer determines whether v2.2.1's "loss-absorption-only" trim is the right size or whether it should drift back toward v2.2's 30%.
+⚠️ **Open question:** Cohort NCO question is RESOLVED (Hyp A — genuine improvement). The forward uncertainty it leaves: **does genuine cohort improvement survive Q2 (the $875B 2026 CRE maturity wall), or was Q1 a head-fake?** Watch tell: MTB released CRE reserves hard (−31% CRE ACL vs −10% CRE loans) into that wall — if the cohort re-stresses at Q2/Q3, MTB's optimism is where it shows first. WAL bear is now explicitly idiosyncratic, so the v2.2 second-data-point (WAL Q2 print ~Jul 30) carries more of the thesis weight (less cohort cover).
 
-**Pending Will calls:** None. PROME reply shipped; v2.2.1 shipped; closeout hardening shipped.
+**Pending Will calls:** None. Cohort decomposition resolved to "v2.2.1 holds as-is, framing now earned" — no reweight, no position change (recommendation-not-auto-apply honored). Bear-medium-revert-to-30 is OFF the table (was the Hyp B path).
 
 ### CHANGES SINCE LAST SESSION
 (leave blank — next-boot market.py + drift-grep populates)
 
-### LAST SESSION (6/8 — BOARD drain + v2.2.1 ship + audit + closeout hardening)
+### LAST SESSION (6/8 PM — cohort NCO decomposition → Hyp A)
+
+Executed the queued ZION/CFG/MTB/FITB Q1 NCO decomposition (was NEXT-SESSION item #3). **Pre-registered the classification rule before touching data** (flow test primary: NCO-$ vs ΔNPA-$; bp-change corroboration per-bank baseline) — and the result *inverted* the working prior (the worry was Hyp B, cohort cosmetically resolving like EGBN). Method/result: 5 parallel EDGAR subagents (Sonnet) fetched + extracted with quotes/accession/URL; **I re-verified every decisive ratio + all 5 NPA deltas by own curl** before classifying (Rule #3). Verdict **Hypothesis A — genuine cohort improvement:** ZION/CFG/MTB GENUINE (NPA ↓ AND NCO flat-to-falling, reserve builds / credit-healing release), FITB CONFOUNDED-excluded (−24bp NPA = Comerica-acquisition denominator artifact; NPA $ flat; $178M Tricolor charge-off pinned to **Q3'25 C&I** "asset-backed finance commercial loan", not Q1'26 — resolves the STATUS "verify pending" flag), EGBN COSMETIC-outlier confirmed exact (+89bp NCO doubled). 3 genuine + 1 confounded + 1 outlier → "cohort doing the EGBN trick" REFUTED. **Framing-only effect, no weight change:** "sharpen to WAL-specific" now EARNED by data; "12/12 cohort fade intact" RETIRED; Bear-medium stays 25; EV/PT/predictions/positions UNCHANGED. Files: new `research/COHORT_NCO_DECOMP_2026-06-08.md` + WAL/THESIS COHORT CONTEXT (resolved) + WAL/CHANGELOG (dated intra-v2.2.1, no version bump) + STATUS (header/qualifier/cohort-section/FITB-row) + ROADMAP (thread→resolved). **Orchestral catches honored:** FITB→MIXED not GENUINE; self-verify FITB figures (caught that the cited "$444M tripled" was a misread — actual $144M≈$136M flat); report as "3 clean + 1 confounded + 1 outlier" not "four banks flat-to-falling." **Finding worth keeping:** the parallel-subagent-fetch + self-curl-verify-decisive-numbers pattern worked cleanly for a multi-bank EDGAR drill (5 banks, ~15 min, all load-bearing numbers primary-pinned).
+
+### LAST SESSION (6/8 AM — BOARD drain + v2.2.1 ship + audit + closeout hardening)
 
 A high-yield session with three discrete delivered units plus one protocol hardening:
 
@@ -82,7 +87,7 @@ A high-yield session with three discrete delivered units plus one protocol harde
 
 1. **Boot normally** — git pull, boot docs, market.py, inbox scan, BOARD diff scan Step 9b.
 2. 🟠 **Monitor 6/8 → 6/11 tape for Jun cluster decision triggers** — WAL <$78 close / KRE <$66 / HY OAS >320 / VIX >25. Decision window opens ~6/11; default posture per PROME reply is let-expire for OTM, EGBN $25P primary roll candidate.
-3. 🔴 **ZION/CFG/MTB/FITB cohort NCO decomposition research** — resolves v2.2.1 Hypothesis A/B/C. May partially reverse the Bear-medium 30→25 trim under B. Dedicated session (~30-40 min for 4-bank Q1 8-K/10-Q drill).
+3. ✅ ~~Cohort NCO decomposition~~ — DONE 6/8 PM → Hyp A (genuine improvement). Forward residue: 🟡 **Q2 cohort re-open watch (~Jul 30)** — does genuine improvement survive the maturity wall? MTB CRE-reserve-release (−31% ACL vs −10% loans) is the optimism tell. Pairs with WAL Q2 print as the v2.2 second-data-point.
 4. 🟠 **MI3 / FFIEC PDD status check** — still pending; if available run v2.1 calibration table (preserved in WAL/THESIS.md). Not a Jun-18 calibration input per PROME reply.
 5. 🟠 **APO Q1 post-print integration** (now ~5wk stale) — Atlas SP segment, warehouse book, non-bank servicer counterparty.
 6. 🟠 **OZK 10-Q recheck** (peer primary; cohort-fade info pickup for REGINALD).
