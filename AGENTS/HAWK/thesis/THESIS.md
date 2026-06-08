@@ -1,3 +1,7 @@
+> ⚠️ **SUPERSEDED Apr 20** → see `STATUS.md` / `audits/HAWK_SYNTHESIS_2026-05-22.md` + Jun 8 refresh for current regime (B 12% / C 53% / D 35%, Damage-vs-Salvo decoupling thesis canonical at `workbook/FLOW.tsv` FLOW-HAWK-19). **THESIS rewrite to current regime is #1 next-session item (HAWK MEMORY.md Jun 8 entry).** Do not action from this file until rewritten.
+
+---
+
 # HAWK THESIS — v1.2
 
 **Version:** 1.2
