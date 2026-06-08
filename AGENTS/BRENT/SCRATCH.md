@@ -56,9 +56,9 @@ After main closeout, Will asked me to evaluate the HAWK→BRENT message (`HAWK/o
 3. **Thu Jun 11** — OPEC MOMR (June), first post-Vienna.
 4. **Thu Jun 12** — US CPI **(energy component = the clean separable test for the oil→CPI→Fed leg, isolable from AI-unwind noise per Jun-7 PM reframe).**
 5. **Fri Jun 12** — CFTC COT (Jun 2 wk, post-suspension) = real Trigger #3 re-fire test; Baker Hughes (431 last, +2 WoW, vs 457).
-6. **Sun Jun 15** — BRT-27 walkback deadline (trending partial-confirm).
+6. **Wed Jun 17** — BRT-27 (restructured Jun 8) resolution = 2 trading days after HAW-09 Jun 15 deadline. Price path: Brent <$92 within 5td if HAW-09 confirms; $94-100 hold if HAW-09 falsifies.
 7. **Thu Jun 18** — CF $130C expiry (~8 trading days from Mon close).
-8. **~Jul 1** — Cushing 20M floor (modeled); BRT-28 Bab al-Mandab window closes.
+8. **~Jul 1 / Jul 3** — Cushing 20M floor (modeled); BRT-28 (restructured Jun 8) resolution = 3td after HAW-10 fires, or Jul 1 if expires. Price path: Brent gap ≥$5 + curve steepens ≥$12/6mo within 3td if HAW-10 fires; range hold + war-risk leg stays unwound if expires.
 9. **Every closeout** — refresh `NEXUS_BRIEF.md` (step 12). Keep SENDING/WAITING-FOR fresh — that IS BRENT's cross-agent comms now.
 
 ## NEXT SESSION (Tier 2 — carried forward)
@@ -98,14 +98,15 @@ After main closeout, Will asked me to evaluate the HAWK→BRENT message (`HAWK/o
 ## MAIL STATE (one line per signal)
 
 - **Inbox:** 1 item — `2026-06-07_from-NEXUS_brief_pilot2_review.md` (pilot-2 reference artifact; not processed-moved per Sun PM note).
-- **Outbox:** 2 items —
+- **Outbox:** 3 items —
   - `2026-06-07_to-NEXUS_fallback_rate_instrumentation.md` (spec; already applied live to NEXUS, record-only — HERMES delivery moot)
-  - **🆕 `2026-06-08_to-PROME_root-claudemd-push-protocol-conflict.md`** (this session — durable record of root CLAUDE.md push-protocol contradiction + BRENT's independent corroboration + local fix + upstream asks)
+  - `2026-06-08_to-PROME_root-claudemd-push-protocol-conflict.md` (durable record of root CLAUDE.md push-protocol contradiction + BRENT corroboration + local fix + upstream asks)
+  - **🆕 `2026-06-08_to-HAWK_brt-27-28-restructure-adopted.md`** (PM-2 — closes HAWK's Jun 8 scope-clarification loop; confirms BRT-27/28 restructured per HAWK ask + adopts calibration delta to HAW-09)
 
 ## WORKBOOK HEALTH
 
-- **`NEXUS_BRIEF.md`:** LIVE, rev-4 stamp-refresh this session (no content change — no material STATUS change to propagate). 81 lines, hash points to `ce65758f` (Sun PM macro-reframe commit, current canonical STATUS state).
-- **`thesis/PREDICTIONS.tsv`:** green; no DUE-stale rows. No changes this session.
+- **`NEXUS_BRIEF.md`:** LIVE, **rev-5** (PM-2: BRT-27/28 scope-narrow noted in CALIBRATION + As-of refresh). Hash still points to `ce65758f` (STATUS PM-2 change is small enough that the rev-5 brief still references the Sun PM canonical state).
+- **`thesis/PREDICTIONS.tsv`:** green; no DUE-stale rows. **PM-2 changes: BRT-27 and BRT-28 rewritten** (event-shaped → price-consequence on HAW-09/HAW-10); date_made bumped Jun 8; pre-Jun-8 history pointed at PREDICTIONS_ARCHIVE.
 - **`docket/CATALYSTS.tsv`:** green; FASTOW-maintained; next FASTOW run not due until ~Jul 1.
 - **`workbook/KB/VX/FLOW.tsv`:** DORMANT 6+ wks — Tier-2 revive/demote decision open.
 - **`thesis/THESIS.md`:** v3.0; v3.1 bump candidate gated on Jun 9 STEO + Jun 10 EIA + Jun 12 CPI batch.
@@ -114,8 +115,10 @@ After main closeout, Will asked me to evaluate the HAWK→BRENT message (`HAWK/o
 ## GIT STATE
 
 - **Commits this session (all within AGENTS/BRENT/):**
-  - **A** (this closeout — protocol fix): CLAUDE.md step 14 explicit push-discipline + new `outbox/2026-06-08_to-PROME_*` flag
-  - **B** (this closeout — light refresh): STATUS.md (Mon AM stamp + tape line) + SCRATCH.md (rewrite) + NEXUS_BRIEF.md (rev-4 stamp)
+  - **A** `e2ef1936` (PM closeout — protocol fix): CLAUDE.md step 14 explicit push-discipline + new `outbox/2026-06-08_to-PROME_*` flag
+  - **B** `32eacf2f` (PM closeout — light refresh): STATUS.md (Mon AM stamp + tape line) + SCRATCH.md (rewrite) + NEXUS_BRIEF.md (rev-4 stamp)
+  - **C** `3ffba885` (PM-2 — BRT-27/28 restructure): PREDICTIONS.tsv (BRT-27/28) + STATUS.md (predictions table + OPEN-ITEMS) + CHANGELOG.md + NEXUS_BRIEF.md (rev-5) + SCRATCH.md (addendum) + new outbox `to-HAWK` reply
+  - **D** (this cleanup commit — SCRATCH staleness): NEXT-SESSION items #6/#8 framing updated to restructured BRT-27/28; MAIL/WORKBOOK/GIT states refreshed for PM-2
 - **HAWK** has 3 uncommitted files (STATUS.md, board_log.tsv, workbook/KB.tsv) — left untouched per `[[feedback_agent_git_isolation]]`. They do NOT block these path-scoped commits.
 - **Push: NO** (per Will's standing `[[feedback_defer_push_coordinate]]` + newly-written BRENT step 14 default). Will coordinating the push window. Queue: CARL `66c6be00` + BROCK `ca854ccf` + BRENT A + BRENT B (4 commits) will ride together when Will opens the window.
 
