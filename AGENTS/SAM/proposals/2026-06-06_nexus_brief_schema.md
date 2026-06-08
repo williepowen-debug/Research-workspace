@@ -70,8 +70,8 @@ not where synthesis happens. Compressible under cap pressure.>
 |----|--------|----------|---------------------------------------------|
 
 **WAITING FOR:**
-| From | Input | Why it matters | How it changes my view |
-|------|-------|----------------|------------------------|
+| From | Input | Expected by | Why it matters | How it changes my view |
+|------|-------|-------------|----------------|------------------------|
 
 ---
 
@@ -115,7 +115,7 @@ not where synthesis happens. Compressible under cap pressure.>
 **This is the single most important section.** NEXUS's connective-tissue detection works by reading these edges across all agents and finding the graph.
 
 - **SENDING table — the 4th column is critical.** "Mechanism it triggers in recipient's domain" forces the agent to think about what the signal DOES, not just what it IS. "SAM → LIQUID: net selling >¥1T/month" is a data point. "SAM → LIQUID: net selling >¥1T/month → reduces UST demand → puts upward pressure on 10Y / steepens curve in LIQUID's domain" is a connective-tissue claim NEXUS can use.
-- **WAITING FOR table — the 3rd and 4th columns are critical.** "Why it matters" + "How it changes my view" tell NEXUS what edge to weight when it sees the upstream agent's brief.
+- **WAITING FOR table — the 3rd column ("Expected by") + 4th and 5th columns are critical.** "Expected by" gives NEXUS a date/trigger to detect waiting-on-waiting deadlock when scanning the fleet (e.g. if CARL hasn't surfaced an awaited input by its Expected-by date, that's a chain-break worth flagging). "Why it matters" + "How it changes my view" tell NEXUS what edge to weight when it sees the upstream agent's brief. Use date format (`Wed Jun 10`) for hard dates, condition format (`Open — watch X signal`) for open-ended waits.
 - **Tables can be empty.** If SAM has nothing waiting from HAWK this week, leave WAITING FOR's HAWK row out. Better than placeholder noise.
 - **No P/L, no money figures, no position $ amounts.** Per `[[feedback_position_cost_basis_not_authoritative]]` — references position structurally (e.g., "long FXY 13sh + Jun-18 $58C") but never marks/P&L.
 
@@ -231,16 +231,26 @@ NEXUS is mid-E-phase with a Mon 6/9 deadline. **Do not interrupt E.** Ratificati
 | 8 | Section priority under cap pressure | CROSS-DOMAIN > CALIBRATION-divergence > VIEW > NEXT DECISION > WATCH |
 | 9 | Cap is measurement, not aspiration | Pilot SAM brief sets the cap; cap calibrates to heaviest real domain |
 | 10 | Cap-burst on settled agent = fragmentation hypothesis | Investigative signal for sub-agent spinout, not auto-trigger |
+| 11 | RECENT THESIS PIVOTS: required single-line in header | NEXUS R3 amendment 1. Pivot timing is often the leading edge of a convergence; version stamp alone insufficient. |
+| 12 | Cross-agent tensions known to me: REQUIRED (not optional) | NEXUS R3 amendment 2. Optional fields decay silently; "None active this cycle" forces look each pass. |
+| 13 | WATCH → FORWARD CATALYSTS rename; NEXT DECISION POINT carved as action-trigger subset | NEXUS R3 amendment 3. Disambiguates monitoring-list from agent-actioned move. |
+| 14 | Status emoji semantics LOCKED to CLAUDE.md key | NEXUS R3 amendment 5. Fleet-wide comparability requires shared semantics. |
+| 15 | Conviction decomposition OPTIONAL per agent | NEXUS R3 amendment 6. Forcing direction/timing/level creates fake decomposition for HAWK/BROCK-style domains. |
+| 16 | Scope: Tier-1 agents only | NEXUS R3 amendment 8. Tier-2 spawn-as-needed agents skip the brief; NEXUS reads their STATUS directly when active. |
+| 17 | Single SENDING table (no STANDING/THIS-CYCLE split, no drop-rule) | Will arbitration (against NEXUS amendment 4 drop-rule). Refresh discipline at session closeout owns freshness load. Instrument informally — revisit if SAM brief shows stale SENDING rows over 3-4 sessions. |
+| 18 | **CROSS-DOMAIN WAITING FOR: "Expected by" column required** | **NEXUS R3 amendment 7** (raised post-pilot consumer review Sun Jun 7 PM). Lets NEXUS catch waiting-on-waiting deadlock at fleet level. Use date format for hard dates, condition format for open-ended waits. |
 
 ---
 
-## 7. REVIEW HISTORY (Will → PROME → SAM iterations)
+## 7. REVIEW HISTORY (Will → PROME → NEXUS → SAM iterations)
 
 | Round | Reviewer | Key correction |
 |-------|----------|----------------|
 | R1 | PROME (initial) | Reframe: motivation isn't token reduction — it's compression-to-edge. Cap should be tighter. Reference, don't restate. Hash-fallback mandatory. Pilot before fleet. |
 | R2 (this round, after Will pushback) | PROME (final) | **Type A vs Type B distinction is the resolver.** Within-domain misses NOT NEXUS's job; cross-agent connective tissue IS. Brief is *better* input than raw STATUS for Type B because comparison is easier in standard schema. CROSS-DOMAIN + CALIBRATION-divergence are load-bearing; protect under cap pressure. SAM-proposes / NEXUS-ratifies / Will-arbitrates is healthy org template. |
 | R2 SAM corrections accepted | | (a) Q7 widened to triggers (a)(b)(c) per § 4.4; (b) connective-tissue-first design intent baked in; (c) explicit section priority; (d) CROSS-DOMAIN mechanism framing in SENDING table column; (e) optional cross-agent-tensions sub-bullet in CALIBRATION; (f) cap is measurement not aspiration |
+| **R3 (Sun Jun 7 PM, post-NEXUS E-phase)** | **NEXUS (consumer)** | **6 amendments + 1 scope clarification:** Recent Thesis Pivots required; Cross-agent tensions required; WATCH→FORWARD CATALYSTS rename + NEXT DECISION carve-out; emoji semantics locked; conviction decomp optional; Tier-1 scope only. Will arbitrated to reject the proposed SENDING drop-rule (kept single table); applied 6 amendments + scope to schema. SAM drafted pilot brief at canonical path. |
+| **R3 amendment 7 (Sun Jun 7 PM, post-pilot consumer review)** | **NEXUS (consumer review of pilot)** | **Pilot brief load-bearing test passed** ("would do Type-B synthesis pass without raw STATUS fallback"). 5 brief polish edits surfaced + 1 schema escalation: WAITING FOR "Expected by" column raised from brief-edit to schema amendment given fleet-wide cross-agent value. Brief edits applied: status one-liner trim to single claim; position info moved from VIEW to header; VIEW bullet 3 lead-with-synthesis rewrite; failure-pattern counts+IDs stripped for NEXUS consumption; 🔴🔴 → single 🔴+bold. |
 
 ---
 

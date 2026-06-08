@@ -5,13 +5,14 @@ Schema spec (full rationale): AGENTS/SAM/proposals/2026-06-06_nexus_brief_schema
 Worked example (heaviest domain — Japan macro, 4 channels, 5 cross-agent edges):
   AGENTS/SAM/NEXUS_BRIEF.md
 
-Amendments applied (NEXUS R3, 2026-06-07):
+Amendments applied (NEXUS R3 + amendment 7, 2026-06-07):
   1. Recent thesis pivot: REQUIRED single line (named what + why)
   2. Cross-agent tensions: REQUIRED (write "None active this cycle" if empty — do not delete the bullet)
   3. WATCH renamed FORWARD CATALYSTS; NEXT DECISION POINT carved out as the agent-actioned subset
   4. SENDING: single table (no STANDING/THIS-CYCLE split, no drop rule). Refresh discipline at session closeout.
   5. Status emoji: per CLAUDE.md key only — 🟢 none / 🟡 monitoring / 🟠 elevated / 🔴 active/critical
   6. Conviction decomposition: OPTIONAL per agent (direction/timing/level if your domain has clean math; single-letter conviction otherwise)
+  7. WAITING FOR: "Expected by" column REQUIRED (date for hard dates, condition format for open-ended waits) — lets NEXUS detect waiting-on-waiting deadlock at fleet level
   Scope: Tier-1 agents only (CARL, REGINALD, OZK, SAM, RED, BROCK, LIQUID, HENRY, HAWK, BRENT, VIOLET, WALTER + NEXUS). Tier-2 spawn-as-needed agents skip the brief.
 
 Maintenance:
@@ -146,17 +147,21 @@ No P/L, no money figures, no position $ amounts. Reference position structurally
 | <agent> | <signal content> | 🟢/🟡/🟠/🔴 | <mechanism in recipient's domain> |
 
 <!--
-WAITING FOR — the 3rd and 4th columns are critical. "Why it matters" + "How it changes my view"
-tell NEXUS what edge to weight when it sees the upstream agent's brief.
+WAITING FOR — the 3rd column ("Expected by") + 4th and 5th columns are critical.
+"Expected by" gives NEXUS a date/trigger to detect waiting-on-waiting deadlock when scanning
+the fleet. Use date format (`Wed Jun 10`) for hard dates, condition format
+(`Open — watch X signal`) for open-ended waits.
+"Why it matters" + "How it changes my view" tell NEXUS what edge to weight when it sees
+the upstream agent's brief.
 Empty tables are fine — don't add placeholder rows.
 -->
 
 **WAITING FOR:**
 
-| From | Input | Why it matters | How it changes my view |
-|------|-------|----------------|------------------------|
-| <agent> | <input I need> | <why it matters to my view> | <how it changes my mark/conviction> |
-| <agent> | <input I need> | <why it matters> | <how it changes my view> |
+| From | Input | Expected by | Why it matters | How it changes my view |
+|------|-------|-------------|----------------|------------------------|
+| <agent> | <input I need> | <date OR open-ended condition> | <why it matters to my view> | <how it changes my mark/conviction> |
+| <agent> | <input I need> | <date OR open-ended condition> | <why it matters> | <how it changes my view> |
 
 ---
 
@@ -199,4 +204,4 @@ Footer: optional. Use for schema-version stamp + any agent-specific notes.
 Remove if not useful.
 -->
 
-*Brief format follows NEXUS_BRIEF schema (R3 amendments). Updated at every session closeout per SPAWN PROTOCOL discipline.*
+*Brief format follows NEXUS_BRIEF schema (R3 + amendment 7). Updated at every session closeout per SPAWN PROTOCOL discipline.*
