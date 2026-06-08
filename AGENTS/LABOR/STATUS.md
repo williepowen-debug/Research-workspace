@@ -230,13 +230,15 @@
 3. **Tue Jun 30:** JOLTS May — LAB-16 resolution (does hire-rate collapse persist, or did Apr openings 7.6M revise down?).
 4. **Thu Jul 2:** NFP June + U-3 — LAB-02 effective resolution; 2nd consecutive ≥200K check for Kill A (Mar rev 214K = #1).
 
+**Session infra built (Jun 8) — boot/closeout now at SAM/BRENT parity:**
+- `scripts/boot.py` (B2 orchestrator) + `labor_data.py` (FRED sweep) + `catalyst_countdown.py` + `predictions_due.py`; `docket/CATALYSTS.tsv` (catalyst source of truth); `LESSONS.md` (seeded). SPAWN PROTOCOL restructured into BOOT/EXECUTE/CLOSEOUT with read↔write symmetry. **Boot with `.venv/bin/python3 AGENTS/LABOR/scripts/boot.py` from now on.**
+- **Pending push (Will/Prome-coordinated):** 6 local LABOR commits unpushed — `a469db87` (un-stale+Phase1), `e6372acc` (Phase2 docket), `f5d8af1e` (Phase3 boot.py), `4e3c5ac6` (STATUS trim+rescore), `a8be94e8` (closeout hardening), + this closeout commit. All under `AGENTS/LABOR/`; none pushed. Legacy `LAST_COMPLETION.md` looks superseded by this section — flagged, not cleaned.
+
 **Data gaps / deferred (next session):**
-- Temp Help Svcs May (TEMPHELPS FRED shows 2,490.0 May vs 2,488.6 Apr ≈ +1.4K — confirm vs BLS CES B-1; weakening gain rate)
-- Carried/un-refreshed convergence vectors (4 Hormuz, 6 LT-unemp, 11 staffing, 12 H-2A, 13 ICE, 14 duration) — re-verify against cross-agent/monthly sources
-- Hormuz hiring freeze status — verify against BRENT/CARL latest
-- Sister-agent STATUS for HENRY, MARCO, FORGE — staleness unverified this session
-- **Workbook:** VX.tsv / KB.tsv / FLOW.tsv reflect pre-Jun-8 state; only PREDICTIONS.tsv updated this session (LAB-15 resolved, LAB-02 downgraded).
-- **Cross-agent signals not yet sent:** NFP-beat + AI-displacement-record could route to CARL (consumer resilience holds) and PROME — deferred per session scope (build-focused).
+- **Workbook sync (C3) deferred:** VX.tsv / KB.tsv / FLOW.tsv still reflect pre-Jun-8 state — Jun 3-6 prints + Jun 8 rescore captured in STATUS but not yet logged to ledgers (session was infra-focused). First real backfill under the new C3 step.
+- Temp Help Svcs May (TEMPHELPS FRED 2,490.0 May vs 2,488.6 Apr ≈ +1.4K — confirm vs BLS CES B-1; gain rate slowing)
+- Re-verify next session: carried convergence vectors (4 Hormuz / 6 LT-unemp / 11 staffing / 12 H-2A / 13 ICE / 14 duration) + sister-agent STATUS (HENRY/MARCO/FORGE), all un-refreshed this session
+- **Cross-agent signals not yet sent:** NFP-beat + AI-displacement-record → CARL/PROME — deferred (messaging degraded; not session scope)
 
 ---
 
@@ -244,5 +246,4 @@
 
 The bifurcation tilted toward **hard data** this print. NFP May **+172K** crushed the ~80-85K consensus, and — more important — March/April were revised **up by a net +93K** (April from +115K to **+179K**). U-3 held 4.3% for a 5th straight month. The bearish "frozen weak realization layer" read took a real hit: the hard data isn't hiding softness, it's revising *stronger*. The 10Y jumped above 4.53% as markets priced out near-term Fed cuts. **But the announcement layer hit cycle records and changed character:** Challenger May 97,006 (highest May since 2020), with **AI cited in 40% of cuts — an all-time record and the first time AI led all reasons.** Tech cuts (38,242) were the worst since Aug 2024. So the fear is real but increasingly *AI-displacement-driven*, not broad macro weakness. Claims keep drifting (225K w/e May 30, 4-wk MA 214.75K) but remain far below the 250K trigger; ISM Services employment contracted a 3rd straight month (47.9) even as the headline expanded. **Net: Hotel California persists in STRUCTURE (hiring frozen, AI displacement accelerating), but the realization-weakness thesis is on the back foot.** The live threat to the bearish view is the upward-revision pattern — Kill A now has March (revised 214K) above the 200K line; two more ≥200K prints (June Jul 2, July) would trigger. **LAB-15 ❌ FALSIFIED** (NFP <100K → +172K). **LAB-02 downgraded to 10%** (U-3 ≥4.7% Q2 near-dead — only June left). Next read: claims Jun 11, then JOLTS May + NFP June in early July.
 
-*Prior STATUS (May 4 refresh) preserved at `domain/sources/STATUS_archive_20260504.md`.*
-*Next refresh: claims w/e Jun 6 (Jun 11) or NFP June (Jul 2). Deferred: workbook VX/KB/FLOW sync.*
+*Prior STATUS: May 4 → `domain/sources/STATUS_archive_20260504.md`; Jun 2 → `…_20260602.md`. Next refresh: claims Jun 11 or NFP Jun (Jul 2). Deferred: workbook VX/KB/FLOW sync (C3).*
