@@ -49,8 +49,11 @@
 
 ---
 
-## OUTBOX (7 signals, awaiting HERMES — unchanged: 1 Jun 6 to-PROME + 6 Apr 17 deferred)
-*No new outbox this session — V14/V16 handoffs are staged files (proposals/ + handoff_RED/), not outbox signals.*
+## OUTBOX (8 signals — +1 new this session)
+*NEW: `2026-06-08_to-PROME_git-protocol-conflict.md` — root CLAUDE.md "push at session end" contradicts defer-push standing instruction; PROME to reconcile root + audit fleet. Co-diagnosed w/ BRENT. Prior 7: 1 Jun-6 to-PROME + 6 Apr-17 deferred. V14/V16 handoffs are staged files (proposals/ + handoff_RED/), not outbox.*
+
+## ⚠️ PENDING PUSH (Will-coordinated — do NOT push)
+*Local-only commits queued on shared master awaiting Will's push window: CARL `66c6be00` (step-16 fix: commit-local-defer-push) + CARL `84fe7023` (to-PROME outbox) + BROCK/HAWK commits. **Step 16 amended this session — push is now Will-coordinated, not closeout-default.** Next boot: do not re-push dc6093fb (already on origin); do not push the queue without explicit Will go. Auto-memory `[[feedback_defer_push_coordinate]]` strengthened (overrides root doc).*
 
 ## INBOX (0 items, clean)
 
