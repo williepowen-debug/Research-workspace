@@ -1,24 +1,38 @@
 State	Metric	Loan_Type	Value	Prior	Change	As_Of	Source	Status	Notes
-NATIONAL	90+/FC Pipeline	ALL	878K	703K	+175K/+25% in 4mo	2026-02	MBA	R	Cure rates -40%. Pipeline growing.
-NATIONAL	Foreclosures (Qtr)	ALL	58,140		+41% YoY	2025-Q4	ATTOM	O	Target: 70K/qtr Q2 (CRL-06)
-NATIONAL	New DQ Inflow (Monthly)	ALL	609K		Largest since May 2020	2025-11	ICE/BK	R	Single-month record post-COVID. See KB-CARL-013.
-NATIONAL	FHA DQ Rate	FHA	11.52%		vs Conv 2.89% (8.63pp spread)	2025-Q4	MBA	R	Approaching GFC peak ~14-15%. K-shape proxy.
-NATIONAL	Conventional DQ Rate	CONV	2.89%			2025-Q4	MBA	G	Stable — top-40% resilience.
-NATIONAL	VA DQ Rate	VA	4.60%			2025-Q4	MBA	O
-NATIONAL	All Loans DQ	ALL	4.26%			2025-Q4	MBA	O
-NATIONAL	Cure Rate Change	ALL	-40%			2026-02	MBA/ICE	R	Fewer cures = pipeline grows. Critical leading indicator.
-NATIONAL	HUD Partial Claims	FHA	ENDED			2025-10-01	HUD	R	No more repeat deferrals. COVID runway exhausted. See KB-CARL-014.
-NATIONAL	Help with Mortgage Search	ALL	ATH			2026-03	Google Trends	R	All-time high search volume.
-FL	Foreclosures YoY	ALL	+190%			2025-Q4	ATTOM	R	Canary state. See KB-CARL-066.
-FL	FC Starts (Monthly)	ALL	3,250	3,523	-273 MoM; #2 nationally (TX now leads)	2026-02	ATTOM	R	FC rate: 1 in 2,277 HU. Lakeland worst nationally (1 in 1,075). Punta Gorda 2nd.
-TX	Foreclosures YoY	ALL	+45%			2025-Q4	ATTOM	O	SSB 19% exposure. See KB-CARL-031.
-TX	FC Starts (Monthly)	ALL	3,390	3,116	+274 MoM; NOW LEADS NATION	2026-02	ATTOM	R	Surpassed FL in Feb. Accelerating.
-IN	FC Rate	ALL	Worst in nation			2026-02	ATTOM	R	Indiana leads nation in FC rate Feb 2026.
-SC	FC Rate	ALL	Top 3 nationally			2026-02	ATTOM	O	South Carolina among worst FC rates.
-NATIONAL	FC Filings (Monthly)	ALL	38,840	40,534	-4% MoM, +20% YoY	2026-02	ATTOM	O	12th consecutive month of YoY increases.
-NATIONAL	FC Starts (Monthly)	ALL	25,928		+14% YoY	2026-02	ATTOM	O	FL, TX, CA, GA, NY lead.
-NATIONAL	REO Completions (Monthly)	ALL	4,077		+35% YoY	2026-02	ATTOM	O	TX, CA, FL, PA, IL lead.
-NATIONAL	Properties in FC Process	ALL	230,401		1.4M vacant homes	2026-Q1	ATTOM	O	Q1 2026 vacancy/zombie report.
-NATIONAL	Fannie SF Serious DQ	CONV	0.60%	0.59%	+1bps MoM, +3bps YoY	2026-02	Fannie Mae	G	Below pre-pandemic low of 0.65%. Recent vintage 0.55%.
-NATIONAL	GNMA Serious DQ	FHA	4.68%	4.20%	+48bps in 1mo (Nov->Dec)	2025-12	Wright/GNMA	R	See KB-CARL-007. Trajectory confirms Q2 foreclosure wave.
-NATIONAL	FHA DQ Headline	FHA	12.11%	10.81%	+130bps in 1mo (Oct->Nov)	2025-11	Wright	R	See KB-CARL-016. Stress accelerating.
+NATIONAL	MBA Q1 NDS All Loans DQ	ALL	4.44%	4.26% (Q4'25)	+18bps QoQ, +40bps YoY	2026-Q1	MBA (rel 2026-05-14)	O	Q1 2026 release. FHA + VA FC inventory at multi-year highs. FC starts +4bps to 0.24%. Pandemic FHA relief expiration (Sep 2025) + trial-payment-plan mechanics contributing.
+NATIONAL	MBA Q1 FC Starts	ALL	0.24%	0.20%	+4bps QoQ	2026-Q1	MBA (rel 2026-05-14)	R	Q1 NDS release.
+NATIONAL	MBA Q1 FHA FC Inventory	FHA	Highest since Q4 2018	n/a	multi-yr high	2026-Q1	MBA (rel 2026-05-14)	R	Pandemic-relief expiration + HUD partial-claims end Oct 2025 finally catching up.
+NATIONAL	MBA Q1 VA FC Inventory	VA	Highest since Q2 2017	n/a	multi-yr high	2026-Q1	MBA (rel 2026-05-14)	R	Parallel to FHA — gov-backed loans absorbing K-shape stress.
+NATIONAL	90+/FC Pipeline	ALL	878K	703K	+175K/+25% in 4mo	2026-02	MBA	R	[STALE — Feb data; Q1 NDS now superseding partially] Cure rates -40%. Pipeline growing.
+NATIONAL	Foreclosures (Qtr)	ALL	118,727	58,140 (Q4'25)	+6% QoQ, +26% YoY	2026-Q1	ATTOM	R	Q1 2026 ATTOM release. CRL-06 target: 70K/qtr Q2 — already breached on filings basis. Caveat: 2025 base partially pandemic-suppressed.
+NATIONAL	Foreclosure Filings (Monthly)	ALL	42,430	45,921 (Mar)	-8% MoM, +18% YoY	2026-04	ATTOM (rel 2026-05-14)	R	April monthly release. 18% YoY increase sustained.
+NATIONAL	FC Starts (Monthly)	ALL	28,414	n/a	+12% YoY	2026-04	ATTOM (rel 2026-05-14)	R	April monthly release.
+NATIONAL	REO Completions (Monthly)	ALL	5,098	n/a	+42% YoY	2026-04	ATTOM (rel 2026-05-14)	R	April monthly release. +42% YoY = pipeline converting to REO.
+NATIONAL	REO Completions (Qtr)	ALL	14,020	n/a	+45% YoY	2026-Q1	ATTOM	R	Q1 2026. Pipeline converting accelerating.
+NATIONAL	National FC Rate (Apr)	ALL	1 in 3,388 HU	n/a	n/a	2026-04	ATTOM (rel 2026-05-14)	O	National baseline; state leaders DE/SC/FL/IN.
+NATIONAL	ICE DQ Rate	ALL	3.35%	3.35% (Mar)	Flat MoM	2026-04	ICE/BK Mortgage Monitor 2026	O	April 2026 hold. National DQ rate stable but pipeline still building beneath.
+NATIONAL	ICE FC Starts (Monthly)	ALL	37,000	~39,100 (Mar)	-5.4% MoM, +26% YoY	2026-04	ICE/BK 2026	R	April ICE data. +26% YoY consistent with ATTOM direction.
+NATIONAL	ICE Active FC Inventory	ALL	276K	273K (Mar)	+3K MoM, +32% YoY	2026-04	ICE/BK 2026	R	Above March-2020 pre-pandemic 271K for 2nd consecutive month. Pipeline accumulation intact even as flow stabilizes.
+NATIONAL	ICE Cure Activity	ALL	62K+/mo (Mar-Apr)	n/a	~20% below YoY pace	2026-04	ICE/BK 2026	O	Cures recovered from Nov-Feb collapse but still well below YoY. Pipeline drain insufficient.
+NATIONAL	New DQ Inflow (Monthly)	ALL	609K	n/a	Largest since May 2020	2025-11	ICE/BK	R	[STALE — Nov 2025 data] Single-month record post-COVID. See KB-CARL-013.
+NATIONAL	FHA DQ Rate	FHA	11.52%	n/a	vs Conv 2.89% (8.63pp spread)	2025-Q4	MBA	R	[STALE — Q4'25; Q1'26 MBA NDS released May 14 has updated FHA FC inv at decade high — need primary-source pull for headline DQ rate]
+NATIONAL	Conventional DQ Rate	CONV	2.89%	n/a	n/a	2025-Q4	MBA	G	[STALE — Q4'25] Stable — top-40% resilience.
+NATIONAL	VA DQ Rate	VA	4.60%	n/a	n/a	2025-Q4	MBA	O	[STALE — Q4'25; Q1'26 update needed]
+NATIONAL	All Loans DQ	ALL	4.44%	4.26% (Q4'25)	+18bps QoQ	2026-Q1	MBA (rel 2026-05-14)	O	Q1 2026 NDS. SUPERSEDES prior Q4 4.26% row.
+NATIONAL	Cure Rate Change	ALL	-40%	n/a	n/a	2026-02	MBA/ICE	R	[STALE — Feb; Apr ICE cure-activity row above provides updated direction] Fewer cures = pipeline grows.
+NATIONAL	HUD Partial Claims	FHA	ENDED	n/a	n/a	2025-10-01	HUD	R	No more repeat deferrals. COVID runway exhausted. See KB-CARL-014.
+NATIONAL	Help with Mortgage Search	ALL	ATH	n/a	n/a	2026-03	Google Trends	R	[STALE — Mar; persistent ATH likely but unverified]
+FL	Q1 FC Filings (tri-county)	ALL	3,168 (1 in 846 HU)	n/a	+9.4% QoQ, +16.6% YoY	2026-Q1	ATTOM (rel 2026-05-14)	R	Palm Beach + Broward + Miami-Dade tri-county. Pipeline from late-24/early-25 hits market mid-late 2026 (608-day avg FC timeline).
+FL	Apr FC Rate	ALL	1 in 2,092 HU	1 in 750 (Q1)	#3 nationally	2026-04	ATTOM (rel 2026-05-14)	R	Slipped from Q1 #1 position; DE leapfrogged FL.
+FL	Q1 FC Starts	ALL	10,099	n/a	#2 nationally	2026-Q1	ATTOM	R	TX leads 10,617; FL second.
+FL	Q1 REO	ALL	1,014	487 (Q1'25)	+108% YoY	2026-Q1	ATTOM	R	GREATEST % RISE NATIONALLY. Active completion wave.
+FL	Foreclosures YoY	ALL	+190%	n/a	n/a	2025-Q4	ATTOM	R	[STALE — Q4'25 carryover; Q1'26 ATTOM superseding for fresh metrics]
+FL	FC Starts (Monthly carryover)	ALL	3,250	3,523	-273 MoM	2026-02	ATTOM	R	[STALE — Feb; superseded by Q1 + Apr rows above]
+TX	Foreclosures YoY	ALL	+45%	n/a	n/a	2025-Q4	ATTOM	O	SSB 19% exposure.
+TX	Q1 FC Starts	ALL	10,617	n/a	#1 nationally	2026-Q1	ATTOM	R	Leads nation Q1 2026. Surpassed FL.
+DE	Apr FC Rate	ALL	1 in 1,739 HU	n/a	#1 nationally	2026-04	ATTOM (rel 2026-05-14)	R	NEW LEADER on rate basis Apr 2026.
+SC	Apr FC Rate	ALL	1 in 1,745 HU	n/a	#2 nationally	2026-04	ATTOM (rel 2026-05-14)	R	South Carolina close 2nd to DE.
+IN	Apr FC Rate	ALL	1 in 2,129 HU	#1 (Feb)	#4 nationally Apr	2026-04	ATTOM (rel 2026-05-14)	O	Slipped from Feb #1 to Apr #4.
+NATIONAL	Fannie SF Serious DQ	CONV	0.57%	0.58% (Mar)	-1bp MoM	2026-04	Fannie Mae	G	[FLAG: see MULTIFAMILY.tsv note — needs primary-source year verification] Below pre-pandemic low of 0.65%.
+NATIONAL	GNMA Serious DQ	FHA	4.68%	4.20%	+48bps in 1mo (Nov->Dec)	2025-12	Wright/GNMA	R	[STALE — Dec 2025 data] See KB-CARL-007.
+NATIONAL	FHA DQ Headline	FHA	12.11%	10.81%	+130bps in 1mo (Oct->Nov)	2025-11	Wright	R	[STALE — Nov 2025] See KB-CARL-016.
