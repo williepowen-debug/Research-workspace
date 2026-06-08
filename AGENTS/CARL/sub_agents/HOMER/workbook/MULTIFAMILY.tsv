@@ -1,15 +1,27 @@
 Entity	Metric	Value	Prior	GFC_Peak	As_Of	Source	Status	Notes
-Fannie	Serious DQ	0.74%	0.68%	0.80%	2026-02	Fannie Mae	O	6bps from GFC peak. CRL-03: >0.80% at 90% conf Q2. See KB-CARL-026.
-Freddie	Serious DQ	0.44%	0.51% (Q3)	n/a	2025-Q4	Freddie Mac	O	Down from Q3 0.51% but up from 0.40% YoY. Q1:0.46 Q2:0.47 Q3:0.51 Q4:0.44.
-CMBS	MF DQ	7.15%	6.85%	n/a	2026-03	Trepp	R	NEW ATH. +30bps MoM, +171bps YoY (was 5.44% Mar 2025). Exceeded Oct 2025 prior peak by 3bps.
-CMBS	Overall DQ	7.55%		n/a	2026-03	Trepp	R	+41bps MoM. Office 11.71%, Retail 6.62%, Lodging 7.31% (+137bps), Industrial 0.65%.
-CMBS	Office DQ	11.71%		n/a	2026-03	Trepp	R	+51bps MoM. Below Jan high of 12.34%.
-CMBS	Lodging DQ	7.31%		n/a	2026-03	Trepp	R	+137bps MoM. First time >7% in ~1yr. Biggest MoM jump of any sector.
-INDUSTRY	Maturity Wall	$270B+		n/a	2026	Industry	R	2026-2027 maturities. Refi impossible at current cap rates for many.
-INDUSTRY	Rent Growth National YoY (Zillow/ZORI)	+1.9%		n/a	2026-02	Zillow	O	Slowest since Dec 2020. Typical asking rent $1,895. SF rents +2.6% YoY (slowest on record).
-INDUSTRY	Rent Growth MoM (Apartment List)	+0.4%		n/a	2026-03	Apartment List	O	2nd consecutive monthly increase. National median $1,363. Seasonal rebound.
-INDUSTRY	Rent Growth Negative (Cities)	56%		n/a	2026-01	Apollo/Slok	O	56% of top 100 cities (Jan data). Austin -2.4%, San Antonio -1.6%, Tampa -1.4%, Denver -1.0%. NYC/Chicago/SF positive.
-INDUSTRY	Rent Growth Positive (Cities)	NE + Midwest		n/a	2026-01	Industry	G	NYC, Chicago, Columbus, Philly strongest. Supply constraints + jobs.
-INDUSTRY	Rent Late Rate	11.7%		n/a	2025	Industry	G	No fresh 2026 data. NMHC tracker inactive. Next check: Q2 earnings.
-INDUSTRY	2026 Rent Growth Forecast	1.2-2.0%		n/a	2026	NAA/Industry	G	Supply tapering in 2026 expected to stabilize. Sun Belt still pressured.
-Fannie/Freddie	MBS Re-entry	$200B runway		n/a	2025-12	Bloomberg	O	F&F back in MBS market. See KB-CARL-017.
+Fannie	Serious DQ	0.64%	0.78% (Mar)	0.80%	2026-04	Fannie Mae (rel 2026-05-27)	O	Apr 2026: -14bps MoM from Mar 0.78% (closest approach to GFC peak). Headline below 0.65% but drop best explained by mod/extension activity (extend-and-pretend), NOT borrower resolution. Trepp parallel series +56bps same month refutes "reversal" framing. CRL-03 mechanism intact at 65-70% confidence; threshold rule (>0.80% headline) may need redefinition. May print due ~Jun 26.
+Fannie	Serious DQ Trajectory	0.74→0.78→0.64	0.68→0.74 (Jan→Feb)	0.80%	2026-04	Fannie Mae	O	Feb 0.74% → Mar 0.78% (2bps from GFC peak, closest approach yet) → Apr 0.64% (-14bps reversal). Mar was record-near-breach.
+Fannie	SF Serious DQ	0.57%	0.58% (Mar)	n/a	2026-04	Fannie Mae (rel 2026-05-27)	G	-1bp MoM. Single-family book stable. [FLAG: verify year on -1bp prior from CR snippet next session — possible aggregator year-conflation risk per Spawn 6 calibration]
+Freddie	Serious DQ	0.44%	0.51% (Q3)	n/a	2025-Q4	Freddie Mac	O	[STALE — needs refresh] Down from Q3 0.51% but up from 0.40% YoY. Q1:0.46 Q2:0.47 Q3:0.51 Q4:0.44.
+CMBS	MF DQ	7.71%	7.15% (Mar)	n/a	2026-04	Trepp via Multifamily Dive 2026	R	NEW ATH +56bps MoM Apr 2026. Driven by large NYC + SF loans hitting hard maturity. Refutes "two-source reversal" framing (Trepp accelerating same month Fannie eased = divergence, not confirmation). May 2026 release pending (~mid-Jun).
+CMBS	MF DQ Trajectory	7.12→7.15→7.71	n/a	n/a	2026-04	Trepp	R	Feb 7.12% → Mar 7.15% → Apr 7.71% NEW ATH. Stress accelerating in CMBS even as Fannie reported headline eased.
+CMBS	Overall DQ	7.55%	7.14% (Feb)	n/a	2026-03	Trepp	R	[STALE — needs Apr 2026 refresh] +41bps MoM. Office 11.71%, Retail 6.62%, Lodging 7.31% (+137bps), Industrial 0.65%.
+CMBS	Office DQ	11.71%	11.20% (Feb)	n/a	2026-03	Trepp	R	[STALE — needs Apr 2026 refresh] +51bps MoM. Below Jan high of 12.34%.
+CMBS	Lodging DQ	7.31%	5.94% (Feb)	n/a	2026-03	Trepp	R	[STALE — needs Apr 2026 refresh] +137bps MoM single-month surge — apply single-month-sub-component skepticism (per CARL memory); need 2nd-print confirmation.
+CMBS	MF Hard Maturities Apr	$35.6M	n/a	n/a	2026-04	Trepp via Multifamily Dive 2026	R	Loans with no remaining contractual extension options reaching hard maturity in Apr alone. Extension runway compressing.
+CMBS	CRE Hard Maturities May	$2.57B	n/a	n/a	2026-05	Trepp via Multifamily Dive 2026	R	Across all CRE; multifamily share growing. Hard maturity = no extension options left.
+CMBS	MF Special Servicing Rate	8.42%	8.59%	n/a	2025-05	Trepp via Multifamily Dive (2025 article)	R	[STALE — last seen May 2025 per aggregator; needs 2026 primary-source pull] Year-stamp verified: May 2025 article (Jun 16 2025 publication). Caused Spawn 5 year-misread error — preserved here as documented lagging baseline only.
+Trepp	Mod/Extension Pattern Feb 2026	5 office + 4 mall loans modded	n/a	n/a	2026-02	Trepp via Multifamily Dive 2026	R	Feb 2026 CMBS DQ DROP driven by mods on 5 large office + 4 mall loans; extensions 1mo to ~3yrs. Trepp commentary: "path-dependent sorting — stronger borrowers extending, weaker forced into recapitalization/distressed sale/foreclosure." DOCUMENTED EXTEND-AND-PRETEND MECHANISM — applies to Apr Fannie -14bps interpretation.
+Trepp	MF Low-Debt-Yield Watchlist Share	Growing (size pending)	n/a	n/a	2026-Q1	Trepp via CRE Daily / Multi-Housing News	O	[DATA GAP: needs primary-source pull for actual % of watchlist] Trepp commentary: "Multifamily growing presence in low-debt-yield watchlist, highlighting growing pressure in asset class until recently viewed as relatively insulated." Pre-delinquency leading indicator.
+INDUSTRY	2026 MF Maturity Wall	$160B+	n/a	n/a	2026	Trepp / CRE Daily 2026	R	2026 MF CMBS maturities +50% YoY. Sponsors running out of extension runway. Source for extend-and-pretend regime collapse window 2H26-2027.
+INDUSTRY	Maturity Wall (2026-2027 total)	$270B+	n/a	n/a	2026	Industry (carryover)	R	Multi-year total. 2026 share = $160B+ per Trepp.
+INDUSTRY	Rent Growth National YoY (Zillow/ZORI)	+1.9%	n/a	n/a	2026-02	Zillow	O	[STALE — Feb data] Slowest since Dec 2020. Typical asking rent $1,895.
+INDUSTRY	Rent Growth MoM (Apartment List)	+0.4%	n/a	n/a	2026-03	Apartment List	O	[STALE — Mar data] 2nd consecutive monthly increase. National median $1,363. Seasonal rebound.
+INDUSTRY	Rent Growth Negative (Cities)	56%	n/a	n/a	2026-01	Apollo/Slok	O	[STALE — Jan data] 56% of top 100 cities. Austin -2.4%, San Antonio -1.6%, Tampa -1.4%, Denver -1.0%.
+INDUSTRY	Rent Growth Positive (Cities)	NE + Midwest	n/a	n/a	2026-01	Industry	G	NYC, Chicago, Columbus, Philly strongest. Supply constraints + jobs.
+INDUSTRY	Rent Late Rate	11.7%	n/a	n/a	2025	Industry	G	[STALE — 2025 data; NMHC tracker inactive] Next check: Q2 earnings.
+INDUSTRY	2026 Rent Growth Forecast	1.2-2.0%	n/a	n/a	2026	NAA/Industry	G	Supply tapering in 2026 expected to stabilize. Sun Belt still pressured.
+Fannie/Freddie	MBS Re-entry	$200B runway	n/a	n/a	2025-12	Bloomberg	O	[STALE] F&F back in MBS market. See KB-CARL-017.
+FL	Miami-Dade Condo Median	<$400K	~$444K (May 2025)	n/a	2026-05	RESF / Listings Team May 2026	R	-10% YoY. First time below $400K in 3 years. Condo K-shape transmission.
+FL	Broward Condo Median	-8% YoY	n/a	n/a	2026-05	RESF May 2026	R	Tracks Miami-Dade direction.
+FL	Condo Inventory	12.9 mo (SFH 5.4mo)	13.2mo (Q1)	n/a	2026-05	Steadily / RESF May 2026	R	Slight ease from Q1 13.2mo but still ~2.4x SFH. Triple Squeeze active.

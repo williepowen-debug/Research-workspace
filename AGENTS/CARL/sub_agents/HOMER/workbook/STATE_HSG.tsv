@@ -1,19 +1,49 @@
 State	Metric	Value	Prior	CARL_Priority	Overlap_Vectors	As_Of	Source	Status	Notes
-FL	Foreclosures YoY	+190%		Yes	Energy, HOA/SIRS, Insurance, UI Exhaustion	2025-Q4	ATTOM	R	Canary state. Triple squeeze. See KB-CARL-066.
-FL	Condo Inventory	13.2mo	8.8mo	Yes	Insurance, HOA/SIRS	2026-Q1	MLS/Industry	R	Was 8.8mo, now 13.2mo statewide. SFH 5.6mo. Deep buyer's market.
-FL	Condo Prices YoY	-6.1%	-4.7%	Yes	Insurance, HOA/SIRS, Inventory	2026-Q1	Industry	R	92% of major condo markets declining. Median condo $310K end 2025.
-FL	HOA/SIRS Assessments	$10K-$100K+		Yes	Insurance	2026-01	FL DBPR	Y	SIRS full-funding mandatory Jan 1 2026. HB 913 extends some deadlines.
-FL	Insurance Crisis	181% above national avg		Yes	Energy, HOA	2026	Industry	R	See KB-CARL-066. Updated: 181% above natl avg.
-FL	Migration	-93% inflow		Yes	Immigration (MARCO)	2026-Q1	MARCO	R	No demand buffer.
-FL	FC Starts (Jan)	3,523		Yes	Insurance, HOA, Energy	2026-01	ATTOM	R	Leads nation in FC starts Jan 2026.
-TX	Foreclosures YoY	+45%		Yes	Energy, SSB exposure	2025-Q4	ATTOM	O	SSB 19% exposure. #2 in state diffusion model.
-TX	FC Starts (Jan)	3,116		Yes	Energy, SSB	2026-01	ATTOM	O	#2 nationally. Also among top REO states.
-TX	CC 90+ DQ	3.2%		Yes	Auto 5.8%	2025	NY Fed	O	See KB-CARL-031.
-IN	FC Rate	Worst in nation		No	Employment	2026-02	ATTOM	R	Indiana leads nation in foreclosure rate Feb 2026.
-SC	FC Rate	Top 3 nationally		No		2026-02	ATTOM	O	Among worst FC rates Feb 2026.
-NV	Sale Fallthrough	19%		No	CC 14.53%	2025	LV Review-Journal	O	Las Vegas. One of biggest YoY jumps. See KB-CARL-039.
-CA	Fire/Uninsured	150K+ HH		No	Insurance	2025	Industry	O	Single event could trigger cascade. See FLOW-CARL-3.02.
-Midwest	Price YoY	First negative		No	Employment	2025-12	Wright	O	Indianapolis, KC, Chicago, Minneapolis all negative. See KB-CARL-011/015.
-NE	Price Decel	Westchester -1.60% YoY		No		2025-12	Wright	O	Last holdout cracking. See KB-CARL-019.
-South	Sales Share	~40%, negative		No	Energy, Insurance	2025-12	Wright	R	See KB-CARL-023.
-West	Sales Share	~22%, negative		No	Fire, Water	2025-12	Wright	O	CA: SD, LA, SF all negative YoY.
+FL	Q1 FC Filings (tri-county)	3,168 (1 in 846 HU)	n/a	Yes	Energy, HOA/SIRS, Insurance, UI Exhaustion	2026-Q1	ATTOM (rel 2026-05-14)	R	Palm Beach + Broward + Miami-Dade. +9.4% QoQ, +16.6% YoY. 608-day avg FC timeline = pipeline from late-24/early-25 hits mid-late 2026.
+FL	Apr FC Rate	1 in 2,092 HU	1 in 750 (Q1)	Yes	Insurance, HOA	2026-04	ATTOM (rel 2026-05-14)	R	#3 nationally Apr (was #1 Q1). DE leapfrogged FL.
+FL	Q1 FC Starts	10,099	n/a	Yes	Energy, Insurance	2026-Q1	ATTOM	R	#2 nationally (TX leads 10,617).
+FL	Q1 REO	1,014	487 (Q1'25)	Yes	Insurance, HOA	2026-Q1	ATTOM	R	+108% YoY. GREATEST % RISE NATIONALLY. Pipeline converting.
+FL	Foreclosures YoY (carryover)	+190%	n/a	Yes	Energy, HOA/SIRS, Insurance, UI Exhaustion	2025-Q4	ATTOM	R	[STALE — Q4'25; Q1 2026 ATTOM data above superseding partially]
+FL	Miami-Dade Condo Median	<$400K	~$444K (May 2025 implied)	Yes	Insurance, HOA/SIRS	2026-05	RESF / Listings Team (rel 2026-06-02)	R	-10% YoY. First time below $400K in 3 years. Condo K-shape transmission.
+FL	Broward Condo Median	-8% YoY	n/a	Yes	Insurance, HOA/SIRS	2026-05	RESF (rel 2026-06-02)	R	Tracks Miami-Dade direction.
+FL	Condo Inventory	12.9 mo (SFH 5.4mo)	13.2mo (Q1)	Yes	Insurance, HOA/SIRS, Inventory	2026-05	Steadily / RESF May 2026	R	Slight ease from Q1 13.2mo. SFH 5.4mo. Still ~2.4x SFH = condo K-shape persists.
+FL	Condo Prices YoY (statewide)	-6.1%	-4.7%	Yes	Insurance, HOA/SIRS	2026-Q1	Industry	R	[STALE Q1 — Miami-Dade -10% YoY May above is fresher cut] 92% of major condo markets declining.
+FL	HOA/SIRS Assessments	$10K-$100K+	n/a	Yes	Insurance	2026-01	FL DBPR	Y	SIRS full-funding mandatory Jan 1 2026. HB 913 extends some deadlines.
+FL	Insurance Crisis	181% above national avg	n/a	Yes	Energy, HOA	2026	Industry	R	See KB-CARL-066.
+FL	Migration	-93% inflow	n/a	Yes	Immigration (MARCO)	2026-Q1	MARCO	R	No demand buffer.
+FL	North Port-Sarasota Price Cuts	~50% of listings	n/a	Yes	Insurance, HOA	2026	HousingWire 2026	R	Sun Belt loosening cluster. New supply/demand stress signal.
+FL	Tampa Price Cuts	~50% of listings	n/a	Yes	Insurance, HOA	2026	HousingWire 2026	R	Cross-confirms North Port-Sarasota; Sun Belt cohort.
+FL	Tampa CS YoY (Mar)	-1.9%	-2.1% (Feb)	Yes	Insurance, HOA	2026-03	S&P/CS (rel 2026-04-28)	R	Among worst CS-20 cities Mar 2026.
+TX	Foreclosures YoY	+45%	n/a	Yes	Energy, SSB exposure	2025-Q4	ATTOM	O	[STALE Q4'25; Q1 update needed via primary pull]
+TX	Q1 FC Starts	10,617	n/a	Yes	Energy, SSB	2026-Q1	ATTOM	R	#1 NATIONALLY Q1 2026. Surpassed FL.
+TX	CC 90+ DQ	3.2%	n/a	Yes	Auto 5.8%	2025	NY Fed	O	[STALE]
+TX	San Antonio DOM	88 days	72 days (YoY)	Yes	Energy	2026-04	Redfin Apr 2026	R	+16 days YoY — biggest increase among Redfin-tracked metros. Demand deterioration sharp.
+TX	Dallas CS YoY (Mar)	-1.7%	n/a	Yes	Energy	2026-03	S&P/CS (rel 2026-04-28)	R	Among worst CS-20 Mar 2026.
+DE	Apr FC Rate	1 in 1,739 HU	n/a	No	—	2026-04	ATTOM (rel 2026-05-14)	R	NEW NATIONAL LEADER on rate basis Apr 2026.
+SC	Apr FC Rate	1 in 1,745 HU	Top 3 (Feb)	No	—	2026-04	ATTOM (rel 2026-05-14)	R	#2 nationally Apr 2026.
+IN	Apr FC Rate	1 in 2,129 HU	Worst in nation (Feb)	No	Employment	2026-04	ATTOM (rel 2026-05-14)	O	Slipped from Feb #1 to Apr #4.
+AZ	Phoenix Price Cuts	>48% of listings	n/a	No	—	2026	HousingWire 2026	R	Sun Belt loosening cluster. Aggregator-sourced — flag for primary verify per Spawn 6 calibration.
+AZ	Phoenix CS YoY (Mar)	-1.6%	n/a	No	—	2026-03	S&P/CS (rel 2026-04-28)	O	Among worst CS-20 Mar 2026.
+WA	Seattle CS YoY (Mar)	-2.5%	n/a	No	Tech employment	2026-03	S&P/CS (rel 2026-04-28)	R	WORST OF CS-20 CITIES Mar 2026.
+CO	Denver CS YoY (Mar)	-2.0%	n/a	No	—	2026-03	S&P/CS (rel 2026-04-28)	R	Among worst CS-20 Mar 2026.
+NV	Sale Fallthrough	19%	n/a	No	CC 14.53%	2025	LV Review-Journal	O	[STALE 2025] Las Vegas.
+CA	Fire/Uninsured	150K+ HH	n/a	No	Insurance	2025	Industry	O	[STALE 2025] Single event could trigger cascade.
+IL	Chicago Buyer-Seller Gap	+0.5% buyers	n/a	No	—	2026-05	Redfin May 2026	G	Tightening market — slight buyer-tilt. Counter-direction to Sun Belt.
+IL	Chicago CS YoY (Mar)	+6.1%	n/a	No	—	2026-03	S&P/CS (rel 2026-04-28)	G	LEADING annual price gain CS-20 Mar 2026.
+NY	NYC CS YoY (Mar)	+4.0%	n/a	No	—	2026-03	S&P/CS (rel 2026-04-28)	G	#2 CS-20 Mar 2026.
+NY	Buffalo Active Listings YoY	+19.9%	n/a	No	—	2026-05	Realtor.com May 2026	O	Highest YoY active listings growth nationally — supply unlock but demand absorbing.
+OH	Cleveland CS YoY (Mar)	+3.0%	n/a	No	—	2026-03	S&P/CS (rel 2026-04-28)	G	#3 CS-20 Mar 2026.
+RI	Providence Active Listings YoY	+18.1%	n/a	No	—	2026-05	Realtor.com May 2026	O	#2 nationally for active listing growth.
+VA	Richmond Active Listings YoY	+17.5%	n/a	No	—	2026-05	Realtor.com May 2026	O	#3 nationally for active listing growth.
+NATIONAL	Redfin Sellers-Buyers Gap	+47% (more sellers)	+48% (Mar), +49% (end-2025 peak)	—	—	2026-04	Redfin (cited in May Chicago report)	R	Apr 2026 measurement. Gap NARROWING from 49% end-2025 peak; nationally still seller-heavy. Year-stamp verified via Redfin Apr 2026 article.
+NATIONAL	Realtor.com May Active Listings	474,976 (+2.1% YoY)	n/a	—	—	2026-05	Realtor.com (rel 2026-06)	O	Highest May since 2022.
+NATIONAL	Realtor.com Median List Price YoY	-2.4%	n/a	—	—	2026-05	Realtor.com (rel 2026-06)	R	STEEPEST DECLINE SINCE 2017. Leading-edge price signal — closing prices likely roll over Jul-Aug.
+NATIONAL	Realtor.com New Listings — NE	+8.6% YoY	n/a	—	—	2026-05	Realtor.com	O	Northeast supply unlock.
+NATIONAL	Realtor.com New Listings — MW	+4.7% YoY	n/a	—	—	2026-05	Realtor.com	O	Midwest supply unlock.
+NATIONAL	Realtor.com New Listings — S/W	STALLED + rising DOM	n/a	—	—	2026-05	Realtor.com	R	South/West stalled growth — "macro headwinds landing with real force."
+NATIONAL	Active Inventory YoY (decel)	+2.2%	+31.5% (yr prior)	—	—	2026-05	ResiClub	Y	Decelerating sharply. 90 of top 200 metros at "normal" inventory (was 41 in Jan 2025).
+NATIONAL	Redfin US DOM	49 days	50 (Mar)	—	—	2026-04	Redfin Apr 2026	Y	1 day faster MoM.
+Midwest	Price YoY	First negative	n/a	No	Employment	2025-12	Wright	O	[STALE — Dec 2025; Chicago +6.1% CS Mar contradicts at Chicago level]
+NE	Price Decel (Westchester)	-1.60% YoY	n/a	No	—	2025-12	Wright	O	[STALE Dec 2025]
+South	Sales Share	~40%, negative	n/a	No	Energy, Insurance	2025-12	Wright	R	[STALE Dec 2025]
+West	Sales Share	~22%, negative	n/a	No	Fire, Water	2025-12	Wright	O	[STALE Dec 2025]
