@@ -47,6 +47,8 @@
 
 ## Boot Sequence
 
+> **Boot ↔ closeout are mirror halves:** most surfaces read here have a write-back pair in `CLOSEOUT.md` (SCRATCH, TODAY, STATUS, ACTIVE_DECISIONS, CLAUDE_CODE_HANDOFF). Pairing table lives in `CLOSEOUT.md` § Boot↔Closeout symmetry — it also names the intentionally one-way surfaces (FLEET_SCAN refresh-on-demand; COMM/inbox ACK-inline).
+
 0. **`git pull --rebase`** — sync Claude Code agent changes before reading anything. If blocked by dirty/untracked files, **stop and read handoff/status first; do not stash, commit, reset, or force without Will approval.**
 1. **Read `PROME/SCRATCH.md`** — session handoff from last Prome. What's hot, what's unfinished.
 2. **Read `PROME/TODAY.md`** — today's catalysts, levels, task checklist.
@@ -56,7 +58,7 @@
 6. **If working on Claude Code Prome, read `PROME/CLAUDE.md`, `PROME/CLAUDE_CODE_PROME.md`, `PROME/CLAUDE_CODE_PROME_PLAN.md`, and `PROME/CLAUDE_CODE_PROME_TASKS.md` before editing.** The task ladder is the restart-safe implementation source of truth.
 7. **Read `PROME/CLAUDE_CODE_HANDOFF.md` after clears or after any Claude Code Prome session.** Claude Code Prome must update that file at session end. Normal Telegram/OpenClaw sessions still use this boot sequence and remain Will-facing.
 8. **Check `PROME/COMM/TO_CLAUDE_CODE/`** — Prome-to-Prome mailbox from OpenClaw/Telegram Prome. Read any message not yet matched by an ACK in `PROME/COMM/ACKS/`. Prioritize `urgent` / `high`. Write an ACK (new file in `PROME/COMM/ACKS/`, do **not** edit the source message) with status `acknowledged` / `completed` / `blocked`. Protocol: `PROME/COMM/PROTOCOL.md`. Cold-boot guide: `PROME/COMM/README.md`.
-9. **Triage Prome inbox** — `AGENTS/PROME/inbox/`. Scan for signals that change priorities.
+9. **Scan inbound signals — two surfaces:** (a) `AGENTS/PROME/inbox/` (direct inbox), and (b) **`AGENTS/*/outbox/*to-PROME*`** — domain agents route via their own outbox (Convention B) to sidestep the cross-agent-inbox-write gate, so PROME must *actively scan* these; they will not arrive in the inbox (per auto-memory `[[feedback_scan_agent_outboxes_at_boot]]`). Flag anything that changes priorities.
 10. **Score and rank** — use the ranking rubric in `PROME/ORCHESTRAL_LAYER_DESIGN.md` (Position Proximity ×2, Time Pressure ×1.5, Blindness Risk, Convergence, Decay Rate, System Freshness). Apply to candidate moves; honor the four anti-patterns (busywork, loudness, completionism, recency bias). Internal — don't show Will the math.
 11. **Be proactive:** Flag catalysts within 24h, stale agents, pending decisions, blocking items.
 12. **Present top proposals** when Will checks in (max 5 per batch, ranked by score).
@@ -145,15 +147,16 @@ Outputs: Convergence reports, contradiction flags, threshold proximity matrix
 
 ## Git Protocol
 
-**Never `git add -A` or `git add .`.** Claude Code agents (CARL, REGINALD, SAM, RED) share this repo and only stage their own `AGENTS/<NAME>/` dirs. If Prome does `git add -A`, it sweeps up their uncommitted work.
+**Never `git add -A` or `git add .`.** Claude Code agents share this repo and only stage their own `AGENTS/<NAME>/` dirs; a blanket add sweeps up their uncommitted work. **Never `git reset HEAD`** — the shared `.git/index` makes it a *global* unstage that races concurrent agents' staged work (auto-memory `[[finding_pathspec_commit_race_safety]]`, incident `8ac5bf71`). Matches root `CLAUDE.md` "Before committing".
 
-**Prome scoped commits:**
+**Prome pathspec commits (no staging step for modified files):**
 ```bash
-git add MEMORY.md AGENTS.md HEARTBEAT.md PROME/ TOOLS.md  # only what you changed
-git commit -m "..."
-git push
+# modified files — path-scoped commit:
+git commit PROME/SCRATCH.md PROME/STATUS.md -m "PROME: ..."
+# new untracked files — atomic add+commit of EXPLICIT paths (never `git add PROME/` as a directory):
+git add PROME/<newfile> && git commit PROME/<newfile> -m "PROME: ..."
 ```
-Add other specific files as needed (FORGE/, memory/, etc.) but never blanket-add.
+Stage only the specific files you changed. Shared files (root `CLAUDE.md`, `HEARTBEAT.md`, `FORGE/`, `MEMORY.md`) only with Will approval. Never blanket-add, never directory-add, never `reset HEAD`.
 
 ---
 

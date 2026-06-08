@@ -38,6 +38,25 @@ End-of-day always runs at least Standard so the audit trail catches up. 10 Bounc
 
 ---
 
+## Boot↔Closeout symmetry
+
+Closeout is the **write-back tail** of boot (auto-memory `[[finding_closeout_as_writeback_tail]]`). What `BOOT.md` reads, this procedure writes back. Each pairing should round-trip on a Standard closeout; a boot-read surface with no closeout write goes stale silently.
+
+| Surface | Boot (read) | Closeout (write-back) |
+|---|---|---|
+| `SCRATCH.md` | step 1 | Chunk 1 — full rewrite |
+| `TODAY.md` | step 2 | Chunk 1 — surgical if date/catalysts moved (Standard+) |
+| `STATUS.md` | step 3 | Chunk 1 — surgical |
+| `ACTIVE_DECISIONS.md` | step 5 | Chunk 1 — surgical if a decision moved |
+| `CLAUDE_CODE_HANDOFF.md` | step 7 | Chunk 1 — append entry |
+| `memory/YYYY-MM-DD.md` | on-demand | Chunk 2 — create/append |
+
+**Intentionally one-way (no closeout write-back, by design):**
+- `FLEET_SCAN.md` — read at boot step 4; refreshed *on demand* by the fleet-scanner subagent, never at closeout.
+- COMM mailbox (step 8) + inbox / agent-outbox scan (step 9) — ACKed / routed *inline during the session*, not deferred to closeout.
+
+---
+
 ## Chunk 1 — State files (Light / Standard / Heavy; Bounce skips except SCRATCH addendum)
 
 ### `PROME/SCRATCH.md` — full rewrite
@@ -53,6 +72,10 @@ End-of-day always runs at least Standard so the audit trail catches up. 10 Bounc
 - Adjust `Pending Work` table — mark completed, add new, update priorities
 - Update `Active Decision Layer` table (✅ / ⚠️ / ❌)
 - Update `Next Best Action` — one concrete move
+
+### `PROME/ACTIVE_DECISIONS.md` — surgical update (only if a decision moved)
+
+Boot-readable decision index (**paired with boot step 5**). Update a row whenever a non-terminal decision changed this session — new decision, state transition (DRAFT→PROPOSED→WILL_APPROVED), owner change, backstop met, executed/closed. Skip if no decision moved. Without this write-back the index silently goes stale — boot reads it but nothing refreshes it.
 
 ### `PROME/CLAUDE_CODE_HANDOFF.md` — append session entry (Standard / Heavy only)
 
@@ -121,16 +144,18 @@ If none triggered, skip.
 ### Git sequence
 
 ```
-git status --short                  # check scope
-git reset HEAD                      # clear pre-staged
-git add PROME/<specific-files>      # explicit paths only, never -A or .
-git diff --cached --stat            # sanity check
-git commit -m "PROME: <subject>"    # subject line + body if needed
-git pull --rebase                   # only if push rejected
-git push
+git status --short                                       # check scope
+# modified files — path-scoped commit, NO staging step (never `git reset HEAD`):
+git commit PROME/<file> PROME/<file> -m "PROME: <subject>"
+# new untracked files — atomic add+commit of EXPLICIT paths (never `git add PROME/` as a directory):
+git add PROME/<newfile> && git commit PROME/<newfile> -m "PROME: <subject>"
+git pull --rebase                                        # only if push rejected
+git push                                                 # only on Will's explicit push call
 ```
 
-Commit message style (per recent history): subject = `PROME: <short one-liner>`; body explains WHY not WHAT; include `Co-Authored-By: Claude Opus 4.7 <noreply@anthropic.com>` trailer.
+**Never `git reset HEAD`** — shared `.git/index` makes it a global unstage that races concurrent agents (auto-memory `[[finding_pathspec_commit_race_safety]]`, incident `8ac5bf71`). Matches root `CLAUDE.md` "Before committing". **Pushing is a separate gate** — commit locally freely, but push only when Will coordinates it (concurrent agents may have unpushed local commits; `[[feedback_defer_push_coordinate]]`).
+
+Commit message style: subject = `PROME: <short one-liner>`; body explains WHY not WHAT; include `Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>` trailer.
 
 If working tree outside `PROME/` is dirty (other agents' uncommitted work): commit your work, defer push, note pending push in `memory/YYYY-MM-DD.md` per root CLAUDE.md.
 
@@ -145,7 +170,7 @@ One short message:
 
 ## Skip rules
 
-- **`PROME/TODAY.md`** — usually skip; STATUS designates `FLEET_SCAN.md` as its replacement surface for CC-Prome
+- **`PROME/TODAY.md`** — **paired with boot step 2.** Surgical update if the date rolled or catalysts/levels changed (Standard+); skip on Bounce/Light. (Earlier guidance treated `FLEET_SCAN.md` as a CC replacement surface, but TODAY is still read at boot and drives day/week framing — keep it current.)
 - **`PROME/HANDOFF.md`** — Telegram-Prome handoff. Only update if this session's changes affect Telegram-Prome continuity (rare for pure CC work)
 - **`AGENTS/<other>/` files** — never. Other agents own their state. Route via inbox if needed (and only with explicit per-instance authorization per the cross-agent-inbox-writes rule)
 - **Root `CLAUDE.md` / shared files** — flag to Will, don't auto-edit. Will-approval gates the change.
@@ -167,6 +192,7 @@ One short message:
 |---|---|
 | `PROME/SCRATCH.md` | Full rewrite |
 | `PROME/STATUS.md` | Surgical update |
+| `PROME/ACTIVE_DECISIONS.md` | Surgical if a decision moved (boot step 5 pair) |
 | `PROME/CLAUDE_CODE_HANDOFF.md` | Append entry |
 | `memory/YYYY-MM-DD.md` | Create or append |
 | `~/.claude/.../memory/` (auto-memory) | Selective add only |
