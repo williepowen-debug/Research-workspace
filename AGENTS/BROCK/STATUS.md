@@ -4,12 +4,13 @@
 **Previous:** 2026-06-04 (preserved in git pre-this-commit).
 **Session memos:** `domain/sources/OTF_Q1_READ_JUN04.md`, `domain/sources/BCRED_OCIC_Q1_READ_JUN04.md`.
 **Recent outbox:** `outbox/2026-06-04_to-OTTO_medallia-cross-fund-exposure.md` (🔴).
+**Length waiver:** ≤250-line target (CLAUDE.md SPAWN PROTOCOL closeout step 6) waived to 265 pending Phase 3 SCRATCH split — [6/8]. Documented divergence, not violation.
 
 ---
 
 ## 🔴🔴 LIVE TAPE — 6/5 close (markets shut 6/6-7) — EQUITY CHANNEL CRACKED, HY STILL HOLDING
 
-**Headline:** Partners Group (Swiss alt-mgr, $8.6B Global Value SICAV) capped redemptions to 5%/Q after 9.8% Q2 demand on 6/3-4 → stock -17% (worst day since 2006 IPO), spillover sold full alt-mgr/BDC complex Fri 6/5. First explicit **PC→PE wrapper contagion** [CONF CNBC/Bloomberg/Sherwood 6/3-4]. Markets closed Sat/Sun; APO Annual Meeting today 6/8.
+**Headline:** Partners Group (Swiss alt-mgr, $8.6B Global Value SICAV) capped redemptions to 5%/Q after 9.8% Q2 demand on 6/3-4 → stock **-13% to -18% across sources** (worst day since 2006 IPO; range, not flat -17%), spillover sold full alt-mgr/BDC complex Fri 6/5. First explicit **PC→PE wrapper contagion** [CONF Bloomberg/CNBC/swissinfo 6/3-4]. Markets closed Sat/Sun; APO Annual Meeting today 6/8.
 
 | Ticker | 6/4 | **6/5 close** | 1d Δ | Read |
 |--------|-----|---------------|------|------|
@@ -44,7 +45,7 @@
 - **APO** scheduled Annual Stockholders Meeting **today Mon 6/8**; Athene running off CLO book peak $40B+, plowing into new AMAPS vehicle ($11B in, doubling). NAIC flagged 2026 capital-charge rule increase risk for Athene PC holdings [CONF Apollo IR + Sidley]
 - **OTF** $2.3B cash+credit capacity for **June 2026 note maturity** disclosed Q1; software-exit guide stands [CONF transcript 5/7]
 
-**Reframe of LESSONS #15 dynamic:** Substance side hardened further (Partners Group PE-contagion = NEW vector; record 6% default; -70% Q2 issuance; 3 public-BDC cuts not 1). Tape side BIFURCATED: equity finally tracked, HY still didn't. The asymmetry is now equity-vs-HY, not substance-vs-tape.
+**Reframe of LESSONS #15 dynamic:** Substance side hardened further (Partners Group PE-contagion = NEW vector; record 6% default; PC issuance -40% Q2 vs Q1; 3 public-BDC cuts not 1). Tape side BIFURCATED: equity finally tracked, HY still didn't. The asymmetry is now equity-vs-HY, not substance-vs-tape.
 
 ---
 
@@ -53,7 +54,7 @@
 2. **Gate cascade** — **CROSS-ASSET-CLASS contagion lit 6/3-4 via Partners Group PE gate** (€8.6B Global Value SICAV 5%/Q cap, 9.8% demand, +3 evergreens flagged $9.7B). OCIC 5% binding Q1 (23% sat, first net outflow 18Q). BCRED Q2 cap mechanic August disclosure. 13+ funds gated. **First explicit PC→PE wrapper-stress spillover.**
 3. **PIK trend** — Aggregate $477M (denominator effect — NA migration off PIK base, not real improvement). BCRED 7.0% (-0.8 QoQ). OTF 13% combined. **Levels still elevated.**
 4. **BDC NAV discount** — OBDC $14.81→$14.41 = **5th consecutive decline**. OTF -4.85% Q1. BCRED -2.4%. Aggregate -2.35%. FSK 41%. Median ~25% (78d stale). **Widening confirmed at publicly-traded level too, not just non-traded.**
-5. **Narrative phase** — **STAGE 2→3 PIVOT.** 3 public-BDC div cuts in 3 days (MFIC -18.4% 5/5 + OCSL -15% 5/7 + OBDC -16.2% 5/7) + Partners Group asset-class spillover (6/3-4) + record 6% default + PC issuance -70% Q2-to-date + Bloomberg "Unthinkable Becomes Reality" (secondary loan trading, 5/21). Tape: equity finally cracked 6/5 (-2 to -4%); HY OAS still divergent at 274. **Stage 3 is firing on PE-asset-class contagion before HY OAS broke.**
+5. **Narrative phase** — **STAGE 2→3 PIVOT.** 3 public-BDC div cuts in 3 days (MFIC -18.4% 5/5 + OCSL -15% 5/7 + OBDC -16.2% 5/7) + Partners Group asset-class spillover (6/3-4) + record 6% default + PC issuance -40% Q2 vs Q1 (PitchBook) + Bloomberg "Unthinkable Becomes Reality" (secondary loan trading, 5/21). Tape: equity finally cracked 6/5 (-2 to -4%); HY OAS still divergent at 274. **Stage 3 is firing on PE-asset-class contagion before HY OAS broke.**
 
 ---
 
@@ -219,13 +220,16 @@ All Tier-1 Q1 10-Qs filed pre-5/21 (LESSONS #17 caught the "TBD pending" mislabe
 1. **APO Annual Mtg 6/8 readout** — Athene PC commentary, NAIC capital-charge response, any defensive guidance
 2. **HY OAS daily proximity check** — has flat-divergence pattern persisted or finally tracked equity?
 3. **Partners Group follow-through** — 2nd alt-mgr PE-wrapper gate would be TIER-2 fire (cross-asset-class trigger). Check GS/Apollo/KKR PE-evergreen funds for redemption commentary
-4. **Concentration-figure refresh sweep** (LESSONS #18): GCRED 24.2%, MS BCI 19.73%, CUBI 33%
-5. **BCRED "promissory + 2%" mechanic verification** — primary-source exhibit search
-6. **Cliffwater CDLI Q1 release** (~late June)
-7. **CDR NDFI 5-cat coordination** — outbox to WALTER+REGINALD
-8. **Predictions audit** — 28 preds, still pending from 5/21
-9. **OTF software-exit reflexivity research thread**
-10. **Inbox sweep** — 6+ items deferred
+4. **NEW PRED CANDIDATE — BRK-29 PE-wrapper 2nd-gate:** "≥1 additional alt-mgr (Apollo/KKR/BX/Carlyle/GS-AM PE-evergreen) caps redemptions within 30d of Partners Group (by 7/4/2026)" — write the formal pred row next session. Defer-with-capture per Prome 6/8 D3, NOT defer-and-pray.
+5. **BRK-14 Big-Tech Q1 capex verification** — strict-DUE pred pushed to 8/31 in 6/8 audit; verify MSFT/GOOG/META/AMZN/NVDA Q1 capex guides before next audit
+6. **BRK-09 HRZN merger close verification** — pushed to 9/30 in 6/8 audit; primary-source pull needed
+7. **Concentration-figure refresh sweep** (LESSONS #18): GCRED 24.2%, MS BCI 19.73%, CUBI 33%
+8. **BCRED "promissory + 2%" mechanic verification** — primary-source exhibit search
+9. **Cliffwater CDLI Q1 release** (~late June)
+10. **CDR NDFI 5-cat coordination** — outbox to WALTER+REGINALD
+11. **OTF software-exit reflexivity research thread**
+12. **Inbox sweep** — done 6/8 (5 items processed → outbox to PROME on JUN18 calibration)
+13. ~~**Predictions audit**~~ — ✅ DONE 6/8 (17 OPEN reviewed; 1 PARTIAL resolution BRK-27; 2 PUSH-DATE BRK-14/BRK-09; 5 confidence changes; all carry [6/8 audit:] trace in Notes)
 
 **Tier 2 — Adaptive priority shifters (drop everything if any fires):**
 - **HY OAS <270 sustained 2+ sessions OR <260 intraday once → execute Thesis-Kill Decision Tree** (note: substance has hardened, override-via-substance is harder now)
@@ -240,7 +244,7 @@ All Tier-1 Q1 10-Qs filed pre-5/21 (LESSONS #17 caught the "TBD pending" mislabe
 
 **Tier 3 — Slow refreshes:**
 - VX-BRK-010 BDC NAV discount (78d stale)
-- HRZN merger close verification
+- ~~HRZN merger close verification~~ — promoted to Tier-1 #6 (BRK-09 push-date trigger)
 - Per-entity concentration profile refresh per LESSONS #18
 - PROME revival status check
 - WALTER REQ closure (NDFI scope correction)
@@ -251,7 +255,7 @@ All Tier-1 Q1 10-Qs filed pre-5/21 (LESSONS #17 caught the "TBD pending" mislabe
 
 ## SESSION LOG
 
-**2026-06-08 pre-open Mon sweep (4d post-6/4):** Live tape 6/5 close via dashboard. News sweep — 7 thesis-load-bearing queries. Captured: Partners Group PE gate (NEW asset-class contagion vector); OBDC + MFIC public-BDC div cuts (missed in 5/21 framing → LESSONS #20); record 6% April US PC default; PC issuance -40% Q2 / -70% Q2-to-date; Form PF reframe (largely deregulatory); APO Annual Mtg today; Athene NAIC capital-charge surfacing. Convergence 55/65→57/70 with 3↑ 2↓ +1 new vector.
+**2026-06-08 pre-open Mon sweep (4d post-6/4):** Live tape 6/5 close via dashboard. News sweep — 7 thesis-load-bearing queries. Captured: Partners Group PE gate (NEW asset-class contagion vector); OBDC + MFIC public-BDC div cuts (missed in 5/21 framing → LESSONS #20); record 6% April US PC default (Fitch); PC issuance $44.76B 3mo to May = -40% vs Q1 (PitchBook); Form PF reframe (largely deregulatory); APO Annual Mtg today; Athene NAIC capital-charge surfacing. Convergence 55/65→59/70 with 3↑ 2↓ +1 new vector. **Then Prome cloud verification 6/8** caught -70%/-40% conflation, Reuters→Fitch source retag, PG -17%→range, +3-evergreens specifics softened, 57→59 arithmetic — fixes committed (d229b2c5). **Then BROCK Phase 1A** SPAWN PROTOCOL rewrite (b7d14aa3): symmetric boot↔closeout + tiered ALWAYS/SCALED + predictions discipline + Doc Ownership + git pathspec divergence documented. **Then BROCK Phase 1B** STATUS hygiene + 17-pred audit (this commit).
 
 **2026-06-04 sweep:** BX +7.2% on BCRED filing day; OTF Q1 + BCRED+OCIC memos; LESSONS #17/18/19 added; Tape-substance-divergence vector created; Thesis-Kill Decision Tree codified.
 
@@ -259,4 +263,4 @@ All Tier-1 Q1 10-Qs filed pre-5/21 (LESSONS #17 caught the "TBD pending" mislabe
 
 ---
 
-*Memos: `OTF_Q1_READ_JUN04.md`, `BCRED_OCIC_Q1_READ_JUN04.md`, `FSK_Q1_READ_MAY21.md`, `NDFI_FRAMEWORK_MAY21.md` | KB: 125+ | VX: 18 | FLOW: 21 | Predictions: 28 (audit pending) | Live tape: `.venv/bin/python FORGE/tools/market-data/dashboard.py --compact`*
+*Memos: `OTF_Q1_READ_JUN04.md`, `BCRED_OCIC_Q1_READ_JUN04.md`, `FSK_Q1_READ_MAY21.md`, `NDFI_FRAMEWORK_MAY21.md` | KB: 134 (BRK-001 to BRK-150 ex tombstones) | VX: 18 | FLOW: 21 | Predictions: 29 rows / 17 OPEN ([6/8 audit complete]) | Live tape: `.venv/bin/python FORGE/tools/market-data/dashboard.py --compact`*
