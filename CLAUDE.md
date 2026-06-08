@@ -67,11 +67,11 @@ Agents share one working directory and branch. **GitHub is the single source of 
 2. Push to GitHub (follow "Before pulling" first if remote has diverged)
 3. If you cannot push (other agents have uncommitted work), note the pending push in your MEMORY.md session notes
 
-**Before committing:**
-1. `git reset HEAD` — clear staging area
-2. `git add AGENTS/<YOUR_NAME>/` — stage only your files
-3. `git diff --cached --stat` — verify nothing unexpected
-4. If unexpected files: `git restore --staged <file>`
+**Before committing:** (pathspec pattern — avoids the shared-`.git/index` race; see auto-memory `finding_pathspec_commit_race_safety`, incident `8ac5bf71` Jun 4 2026)
+1. **For modified files:** `git commit AGENTS/<YOUR_NAME>/<file> -m "..."` — path-scoped commit, no separate staging step.
+2. **For new untracked files:** atomic `git add <specific files> && git commit <same specific files> -m "..."` — explicit paths only, **never `git add AGENTS/<YOUR_NAME>/` as a directory** (sweeps in unintended files).
+3. **Optional sanity check** between add and commit on new-file flows: `git diff --cached --stat`.
+4. **Never `git reset HEAD`** — shared `.git/index` makes it a global unstage that races against other agents' concurrent stages.
 
 **Before pulling:**
 1. `git status` — check for uncommitted changes **OUTSIDE** your directory
