@@ -1,10 +1,18 @@
 # WAL — Concentrated CRE Tail Risk Actualizing on Q2 Timeline
 
-**Last Updated:** 2026-05-21 | **Version:** v2.2 | **Prior:** v2.1 (May 11) | v2.0 (May 1) | v1.0 (Mar 25)
+**Last Updated:** 2026-06-08 | **Version:** v2.2.1 | **Prior:** v2.2 (May 21) | v2.1 (May 11) | v2.0 (May 1) | v1.0 (Mar 25)
 
 ---
 
-## CORE THESIS (v2.2)
+## CORE THESIS (v2.2.1 — refinement)
+
+v2.2 structural vectors UNCHANGED. v2.2.1 adds **macro-tailwind context** (NIM-compression mechanism softened by 5/20 20Y auction clean print + 5/22 Waller easing-bias-removal pivot) and **cohort-signal context** (SIG-030 NPA improvement at 5/10 names ambiguous pending NCO decomposition — held open, NOT a "sharpen to WAL-specific" lock). Bear-medium probability trimmed 30% → 25% on **loss-absorption channel only** (terminal effect: higher PPE buffer absorbs same credit losses without stock-breaking event). Recognition-delay (timing) channel handled by existing Sep tenor — NOT included in weight cut, to avoid double-counting. Base 33% → 35%, Bull 18% → 21%. EV $67.98 → $68.93. **Overvaluation (÷EV convention pinned 6/8): 16.3% — WIDENED ~2pp from v2.2's 14.2%** (price rose $2.52 vs EV $0.95; directionally bear-supportive). PT range $50-68 UNCHANGED. REG-24/REG-25 confidence UNCHANGED. Position implications: UNCHANGED — Sep core (Sep $77.5P / Sep $70P) still positioned for late-July Q2 print.
+
+**Why v2.2.1 not v2.3:** refinement only. NO structural vector change. B1 fire / V4 Curley / V1 MI3 pending / leading-bucket migration / V2 inventory CLEAN / V3 cohort-median CONFIRMED — all stand.
+
+---
+
+## CORE THESIS (v2.2 — preserved for reference)
 
 WAL's concentrated CRE tail risk is actualizing one quarter earlier than v2.1's bear-slow case priced. The Q1 2026 10-Q (filed 5/11) disclosed a **subsequent event** that fires Bucket B1: a **$99M life-science office sponsor walk-away** (late April 2026) on a loan previously graded **pass**. Same week, **Chief Banking Officer Stephen Curley** (head of National Business Lines, the org where Office/CRE concentration sits) resigned effective immediately. Market reacted ~10% on the combined news. Bear-slow → Bear-medium speed.
 
@@ -27,6 +35,61 @@ WAL's concentrated CRE tail risk is actualizing one quarter earlier than v2.1's 
 3. **V1-slow trigger** (REG-24 Office classified >$500M by Q3 confidence now 70%): mechanical given $377M Q1 classified + $99M moving = $476M start of Q2; one more $50M migration crosses threshold.
 
 **Price target range: $50-68** (v2.2 compressed from v2.1 $52-70 — market priced ~10% on 5/11-5/15 drawdown; upside narrows because relief-rally risk is real; downside floor moved fractionally lower because bear-medium speed materializing).
+
+---
+
+## MACRO-NIM TAILWIND — DOUBLE-STACK SOFTENING (v2.2.1)
+
+v2.2 implicitly assumed two macro-tailwinds contributing to Bear-medium probability via the NIM-compression channel on WAL's variable-rate book: (a) the BOND long-end-yield-supply-gap thesis, and (b) Fed cut-by-year-end forward bias. Two May-late signals (audit-elevated 6/8 from BOARD batch 5/11-6/6) materially soften both:
+
+1. **5/20 20Y Treasury auction PRINTED CLEAN** — 0bp tail / BTC 2.55 / Indirect 67.7% (SIG-W-20260521-010). Foreign UST demand showed up robust at price; BOND demand-hole thesis materially weakened; "two-track frame intact but softer" per BOND 5/21.
+2. **5/22 Waller "easing bias removal" pivot** at German economic forum (SIG-W-20260522-005, REGIME-SHIFT ANCHOR). Futures repriced ~2-in-3 hike by October FOMC — modal flip from cut-by-year-end. Direct quote: "Inflation not headed in the right direction."
+
+Combined: bank NIM compression mechanism is materially softer than v2.2-ship assumed. Variable-rate book benefits from "higher for longer"; long-end yield supply is showing up at price.
+
+### The 5pp Bear-medium trim rests on LOSS-ABSORPTION ONLY
+
+The 5pp Bear-medium cut (30% → 25%) is justified by the **terminal effect**, not the timing effect:
+
+- **Loss-absorption channel (TERMINAL — included in weight cut):** Higher pre-provision earnings from NII tailwind (no-cut + steady NIM on variable-rate book) increases WAL's capacity to absorb the same B1-class credit losses without producing a stock-breaking event. The Bear-medium scenario range $58-66 is conditional on a stock-breaking recognition event during Q2-Q3; a stronger loss-absorption buffer raises the credit-event magnitude required to cross that range. **Legitimately trims bear-medium weight.**
+
+- **Recognition-delay channel (TIMING — NOT included in weight cut):** Cheaper funding → easier extend-and-pretend → credit event lands later. This is a tenor effect, already handled by existing Sep-dated positions (Sep $77.5P / Sep $70P) which span the late-July Q2 print. Including timing in WEIGHT when it's already handled by TENOR would **double-count the delay** against positions already paid for the window.
+
+**Structural vectors UNCHANGED by macro tailwind softening:**
+- B1 fire ($99M life-sci pass-grade walk-away) — still loaded for Q2 print
+- V4 Curley resignation — still flagged
+- V1 MI3 falsifier — still pending FFIEC PDD integration
+- Leading-bucket migration (Other CRE-NOO nonaccrual +15.4% QoQ) — still firing
+
+This loss-absorption-vs-tenor framing is the substance owed to PROME for the Jun 18 cluster bank-trigger calibration reply (decision window ~6/11).
+
+---
+
+## COHORT CONTEXT — AMBIGUOUS PENDING NCO DECOMPOSITION (v2.2.1)
+
+SIG-W-20260511-030 (WALTER cohort-scan, audit-elevated 6/8) reports 5 of 10 peer regional banks IMPROVING NPA Q1 YoY: ZION -3bp / CFG -11bp / MTB -25bp / FITB -24bp / EGBN -48bp. VLY mixed (NPA +14bp / NCO -20bp).
+
+**EGBN has explicit NCO data:** NCO +89bp Q1 YoY despite NPA improvement — the improvement is **COSMETIC**, generated by resolving credits via charge-off rather than genuine credit healing (NCO accelerating, NPA declining because problem credits are being moved off the balance sheet via write-off, not cured).
+
+**ZION / CFG / MTB / FITB have NPA data only in the signal.** Their NCO trajectories are not yet verified. IF those names share EGBN's cosmetic-resolution pattern (NPA improving via NCO acceleration), then the "5/10 improving" headline does NOT refute cohort fade — cohort fade is substantially intact, just expressed through the NCO line instead of the NPA line.
+
+### Three hypotheses, all currently consistent with available data
+
+| Hypothesis | Mechanism | Implication for v2.2 cohort framing |
+|-----------|-----------|--------------------------------------|
+| **A: Genuine improvement** | 5/10 names NPA-down AND NCO-down | Cohort fade thesis weakens. Bear case sharpens to WAL-specific concentration (Office single-point / life-sci gateway / Mortgage Warehouse 30× peer / MI3 trajectory). v2.2 broad cohort framing requires narrowing. |
+| **B: Cosmetic resolution** | 3+ of 5 names NPA-improving via NCO acceleration (EGBN-pattern) | Cohort fade thesis SUBSTANTIALLY INTACT via NCO line. v2.2 broad cohort framing largely holds. "Sharpen to WAL-specific" framing is premature narrowing. |
+| **C: Mixed** | Some genuine (NCO-down), some cosmetic (NCO-up) | Cohort fade thesis intact at reduced strength. Bear case adds WAL-specific premium on top of partial cohort fade. |
+
+### What v2.2.1 does NOT do
+
+v2.2.1 does **NOT** lock the "sharpen to WAL-specific" framing — that would be unforced narrowing without NCO decomposition. The cohort signal exists, direction is contested, and the 5pp Bear-medium trim **does NOT** rest partially on cohort framing (rests on loss-absorption only — see prior section). The cohort piece is held open pending research.
+
+**Research queued:** Q1 8-K/10-Q NCO data for ZION / CFG / MTB / FITB to resolve. Until then, forward thesis communication must NOT propagate either "cohort fade refuted" (premature given B/C plausible) or "broad regional bank cohort stress" (premature given A plausible) — must hold ambiguity explicitly.
+
+### Master STATUS qualification
+
+The carried master STATUS header text asserts "cohort fade pattern 12/12 intact" — based on cohort-wide NCO trajectory through prior data. SIG-030's NPA-line data introduces ambiguity but does not yet refute. **The 12/12 claim is QUALIFIED 6/8 — do not propagate in forward thesis communication without acknowledging this qualification** (a one-line note added to STATUS).
 
 ---
 
@@ -99,6 +162,26 @@ Vecchione's "stable asset quality" narrative skips both the all-loans leading bu
 - **Same mechanic as IQHQ (OZK Aug 2026 maturity).** Two Class-A life-science strategic defaults across watchlist in 6 months = sector signal.
 - At 60% LGD, ~$60M Q2 charge-off = ~10bps annualized incremental on $58.2B avg loans. Q1 was 39bps; Q2 crosses 40bps before normal Q2 activity. **REG-25 near-locked.**
 - Small offset: $60M LOI early-May on different substandard at carrying value.
+
+### Life-Sci Sector Signal — Pass-Grade-Bank-Walk Pattern Still N=1 (v2.2.1)
+
+Three life-science distress events across cohorts in 6 months were captured in the BOARD 5/11-6/6 batch:
+
+| Instance | Date | Entity Type | Mechanism | Mark |
+|----------|------|-------------|-----------|------|
+| **WAL $99M** | Apr 2026 | bank loan | strategic walk-away on **PASS-graded** sponsor | V1 thesis-direct fire |
+| **KREF Boston** | Q1 2026 | mortgage REIT | **TAKING REO** on known-impaired credit (write-down) | ~$37M expected loss |
+| **OZK IQHQ** | Aug 2026 (forward) | bank loan | sponsor support test at MATURITY | weighted EL ~$140M |
+
+**KREF Boston is NOT a 3rd instance of the WAL B1 mechanism.** KREF is a mortgage REIT recognizing a previously-known impaired credit by taking REO — different position in capital stack, different recognition mechanism (mark-to-loss on collateral seized vs strategic-walk on previously-PASS-graded loan).
+
+**Sector signal is real** (life-science CRE collateral impairing across multiple cohorts — banks + mREITs). **WAL B1 pass-grade-bank-walk pattern remains N=1.**
+
+**v2.5/v3 promotion requires** either:
+- (a) Another BANK loan with previously-pass-graded sponsor walking strategically, OR
+- (b) Same-mechanic event at OZK (IQHQ Aug 2026 maturity if sponsor walks pre-maturity) or EGBN (Office concentration shares profile)
+
+OZK IQHQ Aug maturity is the next discrete event window for confirmation/denial. Pre-maturity sponsor walk on IQHQ = both (a) and (b) combined — would be a hard 2nd instance.
 
 ### 🟠 V2.2 SECOND EVIDENCE — Curley Resignation
 
@@ -277,5 +360,7 @@ Current: $85P / $77.5P / $70P / $65P Jun/Sep — see `../POSITIONS.md` for contr
 6. Lender Finance fund-level concentration — top 10 fund exposures, default rates (resolves remaining V3 quality-of-names question)
 
 ---
+
+*v2.2.1 (Jun 8, 2026) is a refinement of v2.2 — NO structural vector change. Adds MACRO-NIM TAILWIND SOFTENING (loss-absorption channel only) + COHORT CONTEXT (ambiguous, NCO decomposition pending) + Life-Sci Sector Signal N=1 distinction. Probability reweight Bear-medium 30→25, Base 33→35, Bull 18→21. EV $67.98 → $68.93. Overvaluation 14.2% → 16.3% (÷EV convention pinned). PT range $50-68 UNCHANGED. Change rationale in `CHANGELOG.md`.*
 
 *v2.2 supersedes v2.1 (May 11, 2026) following 10-Q drill (May 21). B1 fired via $99M life-science subsequent event + Curley resignation + market reaction. Detailed findings in `research/WAL_10Q_DRILL_2026-05-21.md`. Change rationale and old-vs-new view documented in `CHANGELOG.md` (this directory) and `../thesis/CHANGELOG.md`.*
