@@ -21,8 +21,13 @@ Key tension you must hold: staffing canaries (RHI/KFRC) are bottoming while WARN
 
 0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
 1. **Read `STATUS.md`** — current dashboard, core tension, danger window
-1.5. **Predictions resolution sweep.** Open `workbook/PREDICTIONS.tsv` AND the PREDICTIONS table in STATUS.md. For every row whose status is open/pending AND timeframe ≤ today: flag for resolution. Don't let a prediction sit OPEN-but-stale. The resolution itself happens at step 3.5; this step is just the flag.
-1.6. **Catalyst calendar reconciliation.** Walk the MONITORING CALENDAR in STATUS.md. For every row dated ≤ today and not marked ✅: verify outcome. If unverifiable from current STATUS dashboard, queue for the session's research.
+1.4. **Run `boot.py` — automated data refresh BEFORE analysis** (parity with SAM/BRENT):
+   ```
+   .venv/bin/python3 AGENTS/LABOR/scripts/boot.py
+   ```
+   ~5s. Runs three sub-scripts and feeds steps 1.5/1.6 directly: **(a) `labor_data.py`** — live FRED sweep (claims, NFP, U-3/6, JOLTS, temp help) with threshold flags wired to KEY THRESHOLDS; **(b) `catalyst_countdown.py`** — `docket/CATALYSTS.tsv` countdown; **(c) `predictions_due.py`** — flags OPEN predictions past/near due-by. Use `--verbose` for full output. **Report refreshed levels to Will.** (Sub-scripts are individually runnable for one-off pulls.)
+1.5. **Predictions resolution sweep.** The `predictions_due.py` scan in 1.4 auto-flags OPEN rows whose timeframe ≤ today (best-effort parse — eyeball `workbook/PREDICTIONS.tsv` + STATUS PREDICTIONS table for any it couldn't parse). Flag each for resolution; don't let a prediction sit OPEN-but-stale. Resolution happens at step 3.5. **Before writing any NEW prediction, load the calibration context:** separate "mechanism intact" from "threshold sticks/breaches" — thresholds can fire on the wrong mechanism (TRUE-in-letter, FALSE-in-spirit) or retrace while the mechanism holds (auto-memory `[[finding_threshold_vs_mechanism]]`).
+1.6. **Catalyst calendar reconciliation.** Source of truth is **`docket/CATALYSTS.tsv`** (the `catalyst_countdown.py` output from 1.4); the STATUS MONITORING CALENDAR is its human twin and must not diverge in event set. For every catalyst dated ≤ today and not yet resolved: verify outcome. Modeled dates (`~`) within ~1wk should be re-verified against the source schedule before relying on them (auto-memory `[[finding_subagent_prefire_date_verification]]`).
 
    **Before executing step 2, raise both lists to Will as a tight report:**
    - Predictions due since last update (ID, due-date, days overdue)
@@ -32,7 +37,7 @@ Key tension you must hold: staffing canaries (RHI/KFRC) are bottoming while WARN
 
 2. **Execute the task**
 3. **Write results back to `STATUS.md`** — update signal dashboard values, adjust predictions, add new findings
-3.5. **Closeout resolution.** Resolve every prediction flagged at 1.5 — resolve (✅/❌), re-arm-with-reason, or push-date-with-reason. Mark calendar items ✅ that fired this session, with outcome. This is the closeout half of the boot↔closeout symmetry; never leave items raised at boot unresolved at session end.
+3.5. **Closeout resolution.** Resolve every prediction flagged at 1.5 — resolve (✅/❌), re-arm-with-reason, or push-date-with-reason. Mark calendar items ✅ that fired this session, with outcome, AND **keep `docket/CATALYSTS.tsv` in sync** (prune fired rows, add newly-discovered dated catalysts, revise modeled-date rows if the projection shifted) — the STATUS calendar is its human twin and must not diverge in event set. This is the closeout half of the boot↔closeout symmetry; never leave items raised at boot unresolved at session end.
 4. **If research produced, save detail to `domain/sources/`** — STATUS.md gets a summary row, not the full report
 
 
@@ -216,6 +221,11 @@ When analyzing a new layoff event, apply these frameworks rather than reasoning 
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
 | `outbox/` | Outbound signals for other agents. HERMES delivers. |
 | `domain/sources/` | Research archives, deep dives |
+| `scripts/boot.py` | **Boot orchestrator** — runs the three sweeps below in ~5s. Step 1.4. |
+| `scripts/labor_data.py` | Live FRED domain sweep (claims, NFP, U-3/6, JOLTS, temp) + threshold flags |
+| `scripts/catalyst_countdown.py` | Trading-day countdown over `docket/CATALYSTS.tsv` |
+| `scripts/predictions_due.py` | Flags OPEN predictions past/near due-by (PREDICTIONS.tsv) |
+| `docket/CATALYSTS.tsv` | **Catalyst source of truth** (8-col). STATUS calendar is its human twin. |
 | `scripts/warn_texas.py` | Texas WARN API (cron Wed 8AM ET) |
 | `workbook/VX.tsv` | Vectors — tracked risk indicators with thresholds and state |
 | `workbook/KB.tsv` | Knowledge base — timestamped evidence with sources, cross-links, confidence levels |
