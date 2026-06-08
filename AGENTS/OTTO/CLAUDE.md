@@ -1,6 +1,6 @@
 # OTTO — Agent Instructions
 
-**Version:** 2.1 | **Updated:** 2026-06-02
+**Version:** 2.4 | **Updated:** 2026-06-08
 
 ---
 
@@ -85,17 +85,25 @@ things in context are what needs doing.
    follow-up queue.
 3. **Read `MEMORY.md`** — cross-session feedback, findings, references, and Session
    Notes (ends on NEXT SESSION action items).
-4. **Scan `workbook/PREDICTIONS.tsv`** — working from today's date, flag (a) predictions
-   resolving in the next 7 days, and (b) any prediction whose Resolve_Date has already
-   passed but is still OPEN. **Never leave a prediction OPEN-but-stale** — note overdue
+4. **Scan `workbook/PREDICTIONS.tsv`** — **automated by the boot kit.** Run it once,
+   covers this step + step 5 + a price snapshot (~2s):
+   ```
+   .venv/bin/python3 AGENTS/OTTO/scripts/boot.py
+   ```
+   (`--verbose` for full ledger; `--no-price` to skip the network call.) The predictions
+   scan flags (a) 🟠 DUE SOON (Resolve_Date within 14 days) and (b) 🔴 OVERDUE (Resolve_Date
+   passed but Status still OPEN). **Never leave a prediction OPEN-but-stale** — note overdue
    ones for resolution at closeout (resolve / re-arm-with-reason / push-date-with-reason).
-5. **Calendar scan — past-due catch.** Scan the CRITICAL TIMELINE in `STATUS.md` (and
-   `workbook/CATALYSTS.tsv` once it exists) for any dated event now in the past that
-   hasn't been swept. Note days-since for each. Distinguish *passed-but-unswept* (no
-   annotation since the date passed — highest priority, this is how a high-confidence
-   call goes unresolved) from *passed-and-acknowledged-pending* (already annotated with a
-   reason and a next-check, awaiting external resolution — note days-since but don't
-   re-flag as a miss).
+   *(Manual fallback if boot.py is broken: read the TSV, work from today's date.)*
+5. **Calendar scan — past-due catch.** Comes from the same boot kit — the **catalyst
+   countdown** reads `docket/CATALYSTS.tsv` (the machine-readable forward-event feed,
+   source of truth) and surfaces RECENTLY FIRED rows (last 10 days) plus the upcoming
+   docket with calendar/trading-day countdowns. The CRITICAL TIMELINE in `STATUS.md` is
+   the human-readable narrative twin — they must not diverge in event SET. For each fired
+   row, distinguish *passed-but-unswept* (no annotation since the date passed — highest
+   priority, this is how a high-confidence call goes unresolved) from
+   *passed-and-acknowledged-pending* (already annotated with a reason and a next-check,
+   awaiting external resolution — note days-since but don't re-flag as a miss).
 6. **Report** — lead with: where OTTO left off / what intel is now stale / what's
    happened since last boot that needs integrating / what's time-sensitive right now.
    Punchline-first, tables over prose, per OTTO's voice. Respect provenance tags while
@@ -126,15 +134,28 @@ predictions (boot 4 → close 4), MEMORY (boot 3 → close 5), LAST_COMPLETION (
 git (boot 0 → close 8). Catalysts are swept (close 3) BEFORE predictions are resolved (close 4)
 because catalyst outcomes feed prediction resolution — e.g. the First Brands hearing outcome
 resolves OTTO-32. Do not re-order to match the boot numbering; the cross is deliberate. The
-ML-log (2) and WALTER routing (7) are write-only outputs with no boot read.
+CHANGELOG (1a), ML-log (2), WALTER routing (7), and NEXUS_BRIEF (7a) are write-only outputs with
+no boot read (CHANGELOG is reference-only when reconstructing a view's evolution; NEXUS_BRIEF is
+read by NEXUS, not OTTO).
 
 1. **Update `STATUS.md`** *(mirror of boot 1)* — signal dashboard, status changes, watchlist,
    and any thesis-level movement (STATUS owns the thesis block until Phase 3). Keep the
    boot-pointer at top current — it's the first thing next boot orients on.
+   **Line-cap: keep STATUS under ~250 lines.** When dated check-in blocks accumulate past
+   that, archive the oldest to `workbook/STATUS_archive_YYYYMMDD.md` (the established
+   pattern — see the existing `STATUS_archive_20260325.md`) and keep only the live
+   dashboard + current-cycle narrative. A 400-line STATUS is rot, not thoroughness.
+1a. **Log thesis pivots to `CHANGELOG.md`** — if OTTO's view moved this session (conviction
+   shift, mechanism reframe, case-status escalation, notable prediction-confidence move,
+   new transmission row), add a dated **Was → Is + Trigger + Touches** entry. This is the
+   trajectory record STATUS-pruning destroys. Routine dashboard refreshes do NOT belong
+   here — analytical changes only. Skip if nothing thesis-level moved.
 2. **Log to `workbook/ML.tsv`** — significant observations (date, vector, observation).
 3. **Sweep past-due catalysts** *(mirror of boot 5)* — for each dated event the boot flagged
-   passed-but-unswept, update the CRITICAL TIMELINE in `STATUS.md` (and `workbook/CATALYSTS.tsv`
-   once it exists): mark ✅ resolved with outcome, or push/annotate with reason. A past-due item
+   passed-but-unswept, update `docket/CATALYSTS.tsv` (source of truth) **and** the CRITICAL
+   TIMELINE narrative in `STATUS.md`: mark resolved with outcome, or push/annotate with reason.
+   Also **add newly-discovered dated catalysts** to the tsv and revise any `modeled`-class row
+   whose projected date shifted. The two docs must not diverge in event SET. A past-due item
    must not survive to re-flag identically next boot. **Do this before step 4 — swept outcomes
    feed prediction resolution.**
 4. **Update `workbook/PREDICTIONS.tsv`** *(mirror of boot 4)* — using the catalyst outcomes
@@ -142,26 +163,53 @@ ML-log (2) and WALTER routing (7) are write-only outputs with no boot read.
    re-arm-with-reason / push-date-with-reason — never leave OPEN-but-stale.** Mark
    confirmed/falsified; retire passed Resolve_Dates; add new claims.
 5. **Update `MEMORY.md`** *(mirror of boot 3)* — rewrite Session Notes (CHANGES SINCE / LAST
-   SESSION / NEXT SESSION). Add new Feedback/Findings. Prune stale entries. Cap ~100 lines —
-   promote thesis-level items to STATUS and delete from memory.
+   SESSION / NEXT SESSION). Add new Feedback/Findings. Prune stale entries. Cap ~100 lines.
+   **Promotion scan (do this before pruning):** route each durable item to its right home —
+   - **thesis-level** finding → STATUS (thesis block) and/or `CHANGELOG.md`;
+   - **transferable cross-agent lesson** (process/calibration/workflow that another agent
+     could use) → **auto-memory** at `~/.claude/projects/-home-willi-Research-workspace/memory/`
+     with a one-line index entry in that dir's `MEMORY.md`;
+   - **OTTO-specific durable learning** → stays in local `MEMORY.md`.
+   **After promoting to auto-memory, DELETE the local copy** — auto-memory loads at every boot
+   via the harness, so keeping both just bloats MEMORY and creates drift. (OTTO's local
+   Feedback/Findings backlog has several auto-memory-grade entries — drain them as you touch them.)
 6. **Update `LAST_COMPLETION.md`** *(mirror of boot 2)* — STATUS / CHANGED / RESULT / GAPS /
    WILL_NEEDS / FOLLOW-UP (terse, one line per field). This is the hand-off the next boot reads
    right after STATUS.
 7. **Route cross-agent signals via WALTER** — drop `SIG-OTTO-WALTER-YYYYMMDD-[topic].md` into
    `AGENTS/WALTER/inbox/` with proper frontmatter (`to: WALTER (ACTION)`, `info: [target]`). Do
    not write directly into other agents' inboxes.
-8. **Git** *(mirror of boot 0)* — commit/push when asked, per the Git rules below.
+7a. **Write-back `NEXUS_BRIEF.md`** — the cross-agent synthesis brief (schema:
+   `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md`). **Mandatory every session, even no-change** —
+   minimum is refreshing the `As of:` stamp + `STATUS commit:` hash so staleness self-corrects.
+   Material STATUS change → brief content updates same session. **Protect CROSS-DOMAIN +
+   CALIBRATION under any length pressure; compress upward from FORWARD CATALYSTS/VIEW** (~100-line
+   cap). **Reference canonical sources, never restate** (PREDICTIONS, CHANGELOG, CATALYSTS). Keep
+   the `Recent thesis pivots` header line + `Cross-agent tensions` line current (`None active this
+   cycle` if empty). No P/L or marks. *(OTTO is a **Tier-2 opt-in** — out of the locked-schema
+   Tier-1 scope; NEXUS reads it for awareness but may also read STATUS directly.)*
+8. **Git** *(mirror of boot 0)* — commit your files locally per the Git rules below; **push is
+   Will-coordinated, not an automatic closeout step.** Note any pending push in MEMORY.md FOLLOW-UP.
 
 **Discipline:** apply § Evidence & Hygiene Conventions throughout closeout (one-source-of-truth,
 `[STALE]`-marking, evidence-grade tags).
 
-### Git (when asked to commit/push)
-Follow the **Git Commit Protocol** in root `CLAUDE.md`. Key rules for OTTO:
-1. `git reset HEAD` → `git add AGENTS/OTTO/` → verify with `git diff --cached --stat`
-2. Never commit files outside `AGENTS/OTTO/` (the WALTER inbox signal drop stays untracked — WALTER processes + commits it himself)
-3. Use scoped stash when pulling: `git stash push -- AGENTS/OTTO/`
-4. Never resolve conflicts in other agents' files — flag to PROME
-5. Do not pull when other agents have uncommitted work in their directories — defer push, note pending-push in MEMORY.md FOLLOW-UP
+### Git (commit local at session end; push is Will-coordinated)
+Follow the **Git Commit Protocol** in root `CLAUDE.md`. **Pathspec commits — never `git reset
+HEAD` / never `git add AGENTS/OTTO/` as a directory** (shared `.git/index` makes both global
+ops that clobber other agents' concurrent stages; see auto-memory
+`[[finding_pathspec_commit_race_safety]]`). Key rules for OTTO:
+1. **Modified files:** `git commit AGENTS/OTTO/<file> -m "..."` — path-scoped, no separate stage.
+2. **New untracked files:** atomic `git add <specific files> && git commit <same files> -m "..."`
+   — explicit paths only. Optional `git diff --cached --stat` between add and commit.
+3. **Commit locally at session end; do NOT push by default** — pushing is Will-coordinated
+   (a session-end push races other agents' unpushed commits / dirty trees on the shared branch).
+   Note any pending push in MEMORY.md FOLLOW-UP so the next coordinated window sweeps it
+   (`[[finding_push_train_pattern]]`).
+4. Never commit files outside `AGENTS/OTTO/` (the WALTER inbox signal drop stays untracked —
+   WALTER processes + commits it himself).
+5. Scoped stash when pulling: `git stash push -- AGENTS/OTTO/`. Never resolve conflicts in
+   other agents' files — flag to PROME. Do not pull when other agents have uncommitted work.
 
 ---
 
@@ -196,7 +244,9 @@ else references it. *(Finalized via the Phase-3b cross-doc audit, 2026-06-02. Ro
 
 | Doc | Owns | Does NOT contain |
 |-----|------|------------------|
-| `STATUS.md` | Live signal dashboard, all current metrics, case statuses, live thesis state, CRITICAL TIMELINE, active vectors, lender watchlist | Cross-session learnings; raw research; the prediction ledger |
+| `STATUS.md` | Live signal dashboard, all current metrics, case statuses, live thesis state, CRITICAL TIMELINE, active vectors, lender watchlist. **Cap ~250 lines — archive dated check-in blocks to `workbook/STATUS_archive_YYYYMMDD.md`** | Cross-session learnings; raw research; the prediction ledger; thesis-pivot history (→ CHANGELOG) |
+| `CHANGELOG.md` | Thesis/POV-pivot audit trail — dated Was→Is + Trigger + Touches for every material view change. The trajectory record STATUS-pruning destroys | Routine dashboard refreshes (→ STATUS); structural doc changes; live state |
+| `NEXUS_BRIEF.md` | Cross-agent synthesis brief (locked schema; OTTO=Tier-2 opt-in). VIEW/CALIBRATION/CROSS-DOMAIN/NEXT-DECISION/FORWARD-CATALYSTS. Refreshed every closeout (step 7a) | Restated canonical content (references PREDICTIONS/CHANGELOG/CATALYSTS); P/L or marks |
 | `workbook/PREDICTIONS.tsv` | The falsifiable-claim ledger (9-col schema) — every OTTO-NN + status | Narrative; dashboard values |
 | `workbook/ML.tsv` | Append-only dated master-log of observations (the event record) | Forward predictions (→ PREDICTIONS); live dashboard state (→ STATUS) |
 | `workbook/VX.tsv` | Tracked-vector **registry** — vector IDs, category, per-vector rungs + status | ⚠ dup/rot: its `Current_Value` column duplicates STATUS + the CLAUDE threshold rules and is Feb-stale; treat STATUS as the live read, VX as the structured registry |
@@ -205,8 +255,8 @@ else references it. *(Finalized via the Phase-3b cross-doc audit, 2026-06-02. Ro
 | `workbook/KB.tsv` | Structured KB facts with epistemic + `STALE_BY` tagging (the in-house precedent for the evidence tags) | — |
 | `workbook/ABS_ISSUANCE.tsv`, `workbook/EXTENSION_PROXY.tsv` | Script-generated monitoring series (fed by `scripts/`) | Hand-authored narrative |
 | `workbook/CROSS_AGENT_LOG.tsv` | Log of outbound cross-agent signals (record of what was routed) | — |
-| `workbook/CATALYSTS.tsv` | Machine-readable forward-event feed *(Phase 4 — not yet built)* | Narrative |
-| `scripts/` | Monitoring automation (`abs_issuance_tracker.py`, `extension_proxy.py`) | — |
+| `scripts/` | Boot automation (`boot.py` orchestrator → `predictions_due.py` + `catalyst_countdown.py` + price snapshot) and monitoring stubs (`abs_issuance_tracker.py`, `extension_proxy.py` — manual-check placeholders, not live feeds) | — |
+| `docket/CATALYSTS.tsv` | Machine-readable forward-event feed (8-col: date/event/what_to_check/threshold_signal/priority/who_cares/notes/date_class). Read by `catalyst_countdown.py` at boot. Source of truth for dated events | Narrative (→ STATUS CRITICAL TIMELINE, the human twin); the prediction ledger (→ PREDICTIONS.tsv) |
 | `MEMORY.md` | Cross-session feedback, findings, references, Session Notes (CHANGES/LAST/NEXT) | Recaps of STATUS values (reference, don't copy) |
 | `LESSONS.md` | Distilled durable process rules | ⚠ overlaps MEMORY § Feedback + these conventions (consolidation candidate — punch-list) |
 | `LAST_COMPLETION.md` | The per-session hand-off | Durable learnings (→ MEMORY) |
@@ -409,11 +459,21 @@ same-data-in-two-docs).
 ```
 AGENTS/OTTO/
 ├── CLAUDE.md           # This file — instructions + domain
-├── STATUS.md           # Live dashboard — signals, watchlists, timeline
+├── STATUS.md           # Live dashboard — signals, watchlists, timeline (cap ~250 lines)
+├── CHANGELOG.md        # Thesis/POV-pivot audit trail (Was→Is + Trigger + Touches)
+├── NEXUS_BRIEF.md      # Cross-agent synthesis brief (Tier-2 opt-in; refreshed every closeout)
 ├── MEMORY.md           # Cross-session memory (feedback/findings/references)
 ├── LAST_COMPLETION.md  # Prior session hand-off
 ├── TRADE.md            # Position ideas
 ├── RESEARCH_STATUS.md  # What's been researched
+├── scripts/
+│   ├── boot.py             # Boot orchestrator — price + predictions + catalysts (~2s)
+│   ├── predictions_due.py  # Boot step 4 — OVERDUE/DUE-SOON scan of PREDICTIONS.tsv
+│   ├── catalyst_countdown.py # Boot step 5 — countdown off docket/CATALYSTS.tsv
+│   ├── abs_issuance_tracker.py # Monitoring stub (manual-check placeholder)
+│   └── extension_proxy.py      # Monitoring stub (manual-check placeholder)
+├── docket/
+│   └── CATALYSTS.tsv    # Machine-readable forward-event feed (8-col) — boot step 5 source
 ├── research/
 │   └── outputs/        # RP-OTT-x.x research packages
 ├── workbook/
@@ -442,4 +502,7 @@ AGENTS/OTTO/
 
 ---
 
-*OTTO CLAUDE.md v2.1 — Merged instructions + domain; boot/closeout loop hardened | 2026-06-02*
+*OTTO CLAUDE.md v2.4 — NEXUS_BRIEF added (Tier-2 opt-in; closeout step 7a, mandatory write-back) | 2026-06-08*
+*v2.3 — Closeout matured toward SAM/BRENT: STATUS line-cap + archive (step 1), thesis CHANGELOG (step 1a), promotion-scan w/ auto-memory + remove-local (step 5); Git section fixed to pathspec + Will-coordinated push | 2026-06-08*
+*v2.2 — Boot automation added (scripts/boot.py kit + docket/CATALYSTS.tsv); boot steps 4-5 now script-driven; Phase 4 closed | 2026-06-08*
+*v2.1 — Merged instructions + domain; boot/closeout loop hardened | 2026-06-02*

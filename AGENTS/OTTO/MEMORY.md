@@ -11,11 +11,8 @@
 - [2026-04-15] **Plain-English punchline first, then structure.** Especially when reframing a question mid-session (e.g., Apr 15 Tricolor recovery question turned out to be the wrong question — Will wanted that said directly before the data table).
 - [2026-05-21] **When a prior recalibration turns out wrong, say so plainly and supersede the ML/STATUS entries** rather than layering corrections. Apr 15 OTTO said real Tricolor deadline was Apr 30; May 21 sourced docket shows Mar 31 was operative. ML-OTTO-145 explicitly supersedes ML-OTTO-140's deadline assertion. Don't soft-pedal "may have been incorrect" — be definite when sources support it.
 - [2026-05-21] **Verita docket has cert-verification failure** — WebFetch fails on `veritaglobal.net/tricolor/document/*` URLs. Search surfaces titles but not contents. PACER would be the right channel; OTTO doesn't have access. Flag as tooling gap when blocking; don't churn on workarounds.
-- [2026-05-22] **Date-specific predictions at low confidence (≤40%) — date is the weakest link.** OTTO-26 (PSEC Feb 20 cut, 40% conf) falsified on date though directionally correct ($0.045→$0.035 cut DID happen, but May 7 Q3 FY26 not Feb 20). When making date-specific predictions on event-driven outcomes, either raise the resolve window or lower the date specificity — don't pin both tight when conf is <50%.
-- [2026-05-22] **Forward-discovery prediction spirit vs literal reading.** When a prediction's literal text would be satisfied by pre-existing public data the agent didn't know about (Origin Bancorp Oct 23 2025 Tricolor disclosure for OTTO-30), default to forward-discovery spirit, not retroactive confirmation. Logged the data, kept prediction OPEN, dropped confidence.
-- [2026-05-22] **General-purpose sub-agents may not auto-load WebSearch/WebFetch.** First Brands docket lookup returned no data because tools weren't loaded. When a sub-agent task requires web work, either confirm tooling presence in prompt or do the lookup in-session.
-- [2026-05-22 PM] **Plaintiff-allegation-only signals should be weighted ≤40% confidence pending corporate-side or independent corroboration.** OTTO-31 (Wilmington full non-mortgage custodial exit) was opened 5/21 at 60% on a Jan 14 noteholder complaint allegation. 5/22 PM research surfaced a direct M&T-side denial (American Banker, anon source, on the record) + active-business counter-evidence (#2 ABS/MBS trustee 1H 2025; Outlook 2026 thought-leadership). Confidence dropped to 30%. Pattern: litigation rhetoric routinely over-claims the strategic implication of operational facts. Apply this prior at prediction-open time, not only on rework.
-- [2026-05-22 PM] **Separate the narrow corporate-confirmed event from the broader litigation framing in STATUS active vectors.** When a plaintiff allegation includes both a real narrow fact (Wilmington Tricolor resignation Sep 20 2025) and an expansive broader claim (full non-mortgage custodial exit), structure the vector around the corroborated narrow fact and add the broader framing only when corporate-side evidence supports it. Saves later rework and avoids overweighting a single transmission row.
+- [2026-06-08] *Promoted to auto-memory (transferable, cross-agent) — removed from local:* date-specificity-weakest-link, forward-discovery-prediction-spirit, subagent-web-tools-not-autoloaded, litigation-allegation-weighting. These load at every boot via the harness; don't re-add locally.
+- [2026-05-22 PM] **Separate the narrow corporate-confirmed event from the broader litigation framing in STATUS active vectors** (OTTO-structural application of auto-memory `litigation-allegation-weighting`). When a plaintiff allegation includes both a real narrow fact (Wilmington Tricolor resignation Sep 20 2025) and an expansive broader claim (full non-mortgage custodial exit), structure the vector around the corroborated narrow fact and add the broader framing only when corporate-side evidence supports it. Saves later rework and avoids overweighting a single transmission row.
 
 ## Findings
 - [2026-05-21] **Tricolor Vehicle Sales Deadline was Mar 31, NOT Apr 30** (corrects Apr 15 OTTO recalibration). No formal extension motion in public records. Auctions ran on the original schedule; proceeds data lagged into May.
@@ -49,31 +46,25 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (May 22 PM → Jun 2, 11-day gap)
-- Will-directed boot/closeout **protocol redesign** (not domain work). Multi-phase, collaborative — Will drafted each phase, OTTO refined then applied. Closed with a domain task (First Brands sweep).
-- 12+ commits by other agents during the gap; May 22 PM OTTO work reached origin via push-train (commit `1d2e4ace`).
+### CHANGES SINCE LAST SESSION (Jun 2 → Jun 8, 6-day gap)
+- No domain-event gap of note; this was a Will-directed **infra-maturation session** (boot+closeout to peer parity), capped with a domain data-refresh.
+- Other agents committed during the gap; OTTO's Jun 2 work still local (push-deferred — now Will-coordinated, see git protocol change).
 
-### LAST SESSION (Jun 2 — boot/closeout protocol hardening + First Brands sweep)
-- **CLAUDE.md → v2.1 (Phases 1-3b):**
-  - P1 Startup Protocol: git-pull step 0 (+blocked-pull fallback); PREDICTIONS scan flags due-in-7d AND passed-but-OPEN; new calendar past-due-catch (unswept vs acknowledged-pending); report-last.
-  - P2 Closing Protocol = write-back mirror of boot (read→write spine); catalyst-sweep BEFORE prediction-resolve (deliberate cross).
-  - P3a stripped live-state: Current Thesis → framing only; Thresholds drop Current col + labeled single-metric-trigger vs STATUS composite (STATUS operative); Domain Scope drop $9.3B; Invalidation de-dated Carvana + retired spent GT-resigns trigger.
-  - P3b graduated overlay → top-level `## Evidence & Hygiene Conventions` (tags `[CONF]/[PRESS]/[ALLEG]/[EST]`, `[STALE]` composes; Doc Ownership table, audit-finalized 19 rows).
-- **Cross-doc audit → `STALE_PUNCHLIST.md`** (9 items, behavioral-impact ranked). TRADE.md = headline rot (Feb 16, pre-split CVNA prices, dead triggers); VX.tsv = 3rd home for thresholds. **NO content fixed — remediation DEFERRED.**
-- **First Brands sweep** = the new past-due-catch's first live catch (resolved May 20/25/29 — see Finding 2026-06-02). STATUS timeline + signal-trigger + OTTO-32 + ML-171 updated. No WALTER signal (Will: let it ride).
-- Git: `e9932373` (P1-3a) + `4caa2b36` (push-note fix) + this closeout commit — all local, push-deferred (push-train).
+### LAST SESSION (Jun 8 — boot+closeout infra maturation + data refresh; CLAUDE.md v2.1 → v2.4)
+- **Boot automation (v2.2):** built `scripts/boot.py` kit (`predictions_due.py` + `catalyst_countdown.py` + price snapshot, ~2s) + `docket/CATALYSTS.tsv` (8-col machine feed). Boot steps 4-5 now script-driven. OTTO's deferred "Phase 4" closed.
+- **Closeout maturation (v2.3):** STATUS line-cap + archive (417→163; `workbook/STATUS_archive_20260608.md`); new `CHANGELOG.md` thesis-pivot log (step 1a); promotion-scan step (step 5) + first drain — 4 calibration/workflow lessons → auto-memory (date-specificity, forward-discovery, subagent-web-tools, litigation-allegation); Git section fixed to pathspec + Will-coordinated push.
+- **NEXUS_BRIEF (v2.4):** built `NEXUS_BRIEF.md` as Tier-2 **opt-in** (Will-approved; locked schema is Tier-1-only — OTTO normally brief-exempt). Closeout step 7a (mandatory write-back). WALTER→NEXUS awareness signal dropped asking NEXUS to rule on formal scope.
+- **Data refresh (domain):** EART 2026-2 SEC FWP → corrected spread rows; **"IG-only ABS" claim FALSIFIED** (below-IG clearing); **First Brands OTTO-32 resolver moved Jun 17→Jun 12** (UST convert-or-dismiss hearing); OTTO-05 62→48%; CVNA ~$64 (CFO insider selling); DQ/recovery/ANL confirmed current (Fitch Jan-2026 index — calendar-drift, not stale). 2 CHANGELOG pivots, ML-172/173/174.
+- **Roadmap:** `PEER_PARITY_ROADMAP.md` created — P1 #1+#2 done; P2/P3 remain.
 
 ### NEXT SESSION
-
-1. **P1: STALE_PUNCHLIST.md remediation** — content-refresh pass. Behavioral-risk items first: #1 TRADE.md (pre-split prices + dead triggers), #2 RESEARCH_STATUS.md (Feb-stale monitoring), #3 VX.tsv (3-way threshold dup). Items #8-9 (LESSONS/OUTBOX consolidation) need Will-decision before action.
-2. **P1: Phase 4 — build `workbook/CATALYSTS.tsv`** on SAM's schema; backfill from CRITICAL TIMELINE; flip boot step 5 to read it as primary (the boot/closeout redesign's final phase).
-3. **P1: OBK 10-Q Q1 2026** — Tricolor exposure quantum vs $74.7M (Oct 23) disclosure.
-4. **P1: M&T Q2 earnings (Jul)** — Wilmington segment language (OTTO-31 hard-signal watch).
-5. **P2: Jun 17** — First Brands plan-confirmation hearing (KEY OTTO-32) + Tricolor creditor mtg (same day); **Jun 12** Carvana discovery production 2.
-6. **P2: re-run scripts** (`abs_issuance_tracker.py`, `extension_proxy.py` — data Apr-stale).
-7. **P2: War-transmission row re-check** — Apr 1 Iran/oil/ABS row stale post-ceasefire.
-8. **P3: WAL/Jefferies/Point Bonita $715M thread; Ally Q1 for OTTO-28; delete `otto-backup-pre-rebase-20260415` branch.**
+1. **Verify Jun 12 First Brands UST convert-or-dismiss outcome** — the OPERATIVE OTTO-32 resolver (not Jun 17). Also Jun 12 Carvana discovery prod 2.
+2. **Roadmap #3: TRADE.md rehab** — worst single stale doc (pre-split CVNA prices, dead GT-resigns trigger). STALE_PUNCHLIST #1.
+3. **Roadmap #4-5: PREDICTIONS_ARCHIVE.md + calibration scoreboard preamble** (condense closed-row Notes).
+4. **OTTO-29 docket check** — Tricolor Jun 17 distribution likely slipped ($113M dispute); resolve/re-arm at closeout.
+5. **DQ-series reconciliation** — OTTO's "60+ DQ 7.1%" (TransUnion?) vs Fitch ABS 6.90%; confirm which series the dashboard tracks.
+6. **OBK 10-Q + M&T Q2 (Jul 16, in CATALYSTS)** — OTTO-30/31 watches. War-transmission row re-check (stale post-ceasefire).
 
 ### PENDING PUSH
-- May 22 PM work already on origin (`1d2e4ace`; old `3d715270` SHA rewritten by rebases). No May deferral outstanding.
-- Jun 2 work committed locally, **not yet pushed** (push-train — SAM ×2 + REGINALD also ahead): `e9932373` (P1-3a), `4caa2b36` (push-note fix), + this closeout commit (P3b + First Brands sweep + closeout writes).
+- **Jun 8 closeout committed LOCAL only (Will-directed: no push this session).** Push is now Will-coordinated per root CLAUDE.md git-protocol change — next coordinated window sweeps it (push-train).
+- Jun 2 work also still local (not pushed). Both ride the next push window.
