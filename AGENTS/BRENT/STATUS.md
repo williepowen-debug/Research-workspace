@@ -178,8 +178,8 @@ Brent $94.66 is closer to the suspended-MOU lower bound than the kinetic-tail up
 | BRT-17 | OPEN — TIMER NOT STARTED | Same as BRT-07. |
 | BRT-21 | OPEN | 1/3 area still; Trigger #1 likely moved AWAY this week. |
 | BRT-26 | OPEN — tracking | 431 (+2 WoW); pace decelerated; 26 to 457; conf ~50%. |
-| BRT-27 | OPEN — **trending partial-confirm** | Iran walked Jun 1 but Trump+Rubio kept channel open Jun 2 → walkback signal partly in already. Resolution by Jun 15. |
-| BRT-28 | OPEN — **rhetorical state holding** | Houthi quiet; no Bab strikes; Iran direct capability limited. Resolution by Jul 1. |
+| BRT-27 | OPEN — **SCOPE-NARROWED Jun 8** | Restructured to PRICE-CONSEQUENCE conditional on HAW-09 (HAWK canonical event call, conf 35%). BRENT now owns the price-side: Brent <$92 within 5 trading days if HAW-09 confirms; $94-100 range hold through Jun 17 if HAW-09 falsifies. Calibration delta resolved (deferred event-prob to HAW-09). Resolution Jun 17. Per HAWK Jun 8 scope-clarification ask. |
+| BRT-28 | OPEN — **SCOPE-NARROWED Jun 8** | Restructured to PRICE-CONSEQUENCE conditional on HAW-10 (HAWK canonical event call, conf 25%). BRENT now owns: Brent gap ≥$5 + curve steepens ≥$12/6mo within 3 trading days if HAW-10 fires; range hold + war-risk leg stays unwound if window expires. Vessel-traffic-only path retired to HAWK (KB-HAWK-159 owns UKMTO baseline). Resolution Jul 3 (or Jul 1 if expires). |
 
 ---
 
@@ -190,8 +190,8 @@ Brent $94.66 is closer to the suspended-MOU lower bound than the kinetic-tail up
 3. 🔴 **EIA STEO Tue Jun 9** — first post-suspension; Q2 Brent peak ($115 Apr) likely revised UP not down. (OPEC MOMR Jun 11 separate.)
 4. 🟠 **CF $130C Jun 18** — 11 trading days. **Mon AM mark** + first move vs USO is the gating data; HOLD-confirmed by Will Jun 1, but flag for revisit if Mon shows continued chain-decoupling.
 5. 🟠 **CFTC COT Jun 12** (Jun 2 week, post-suspension) — Trigger #3 re-fire test. May 26 COT (Jun 5 release) was pre-Fri-drop, less informative.
-6. 🟠 **BRT-27 Iran walkback** — by Jun 15. Trending partial-confirm given Trump/Rubio Jun 2 denial. Watch for Iran public re-engagement signal in next 8 days.
-7. 🟠 **BRT-28 Bab al-Mandab** — by Jul 1. Houthi quiet; rhetorical state holding. Watch for any Houthi/IRGC vessel-traffic data shift.
+6. 🟠 **BRT-27 PRICE-CONSEQUENCE on HAW-09** — restructured Jun 8. Resolution Jun 17 (2 trading days after HAW-09 Jun 15 deadline). Path: Brent <$92 within 5 trading days if HAW-09 confirms; $94-100 hold if HAW-09 falsifies. Event substance owned by HAWK; BRENT watches price.
+7. 🟠 **BRT-28 PRICE-CONSEQUENCE on HAW-10** — restructured Jun 8. Resolution Jul 3 (or Jul 1 if HAW-10 window expires unfired). Path: Brent gap ≥$5 + curve steepens ≥$12/6mo within 3 trading days if HAW-10 fires; range hold + war-risk leg stays unwound if expires. Event substance owned by HAWK.
 8. 🟠 **HY energy OAS catch-up watch** — macro-vol spike Fri may force the catch-up that didn't fire on Brent moves. LIQUID primary.
 9. 🟠 **BRT-15 re-arm** — fresh kinetic-with-facility-damage, US-Iran direct exchange, Hormuz vessel attack, or fresh barnacle reporting.
 10. 🟡 **Trump/Rubio Mon AM rhetoric** — tape-tactical only per `[[feedback_trump_rhetoric_tape_not_info]]`; can move short-dated marks but not substance-probability.
