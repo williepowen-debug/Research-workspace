@@ -12,11 +12,38 @@ State file for the docket-steward sub-agent. Spec is in [`KOYOMI.md`](KOYOMI.md)
 
 *Auto-populated by KOYOMI at run start: what's moved in STATUS / THESIS / TIMELINE / CHANGELOG since the previous sync. Cleared at end-of-run.*
 
-*(cleared at end of Run 6 — see LAST RUN below)*
+*(cleared at end of Run 7 — see LAST RUN below)*
 
 ---
 
 ## LAST RUN
+
+### Run 7 — 2026-06-09 (SAM-21 mechanical trigger fire-day sync + 3 resolved-row migrations + 3-row >1wk prune; Opus 4.7)
+
+**Triggering context:** SAM-21 mechanical trigger pre-registered Jun 3 fired today (Tue Jun 9). Polymarket BOJ Jun 16 hike 98.2% (5th sequential ≥90% read; volume $403K up from $304K), no Takaichi pushback (Reuters explicitly noted), Q1 GDP revised +1.8% headline-soft / composition hike-tolerant. SAM-21 marked 70 → 75. STATUS, PREDICTIONS, TIMELINE all updated upstream. Brent breached $90 line 4th down session ($90.16 −4.34%). USDJPY 4th day above MOF #3 hard trigger (160.37).
+
+**CHANGES SINCE LAST RUN (Jun 4 → Jun 9):** Polymarket 96.9 → 98.2 (continued grind, no retrace). USDJPY 159.92 → 160.37 (4th day above hard trigger; no MOF strike yet). Brent $96.78 → $90.16 (4th down session, −7% cum; broke $90 line). CFTC -114,667 → -129,567 (5th build week; METHOD residual-gate resolved AGAINST cover). Q1 GDP revised +1.8% from +2.1% prelim. Sato characterization expanded in TIMELINE (Apr-28 dissent bloc 3→2 framing strengthened).
+
+**Structural housekeeping applied (low-stakes per [[finding_subagent_escalation_mode_discriminator]]):**
+- **CATALYSTS.tsv:** Removed 3 resolved rows: Jun 6 CFTC residual-gate (sam-internal), Jun 8 Q1 GDP, Jun 9 SAM-21 mechanical trigger (sam-internal). Per spec § 1 — forward views shed events as date passes. catalyst_countdown.py runs clean post-edit (verified — Jun 10 US CPI now leads imminent).
+- **CALENDAR.md EARLY-MID JUNE table:** Removed same 3 rows (Jun 6 / Jun 8 / Jun 9). First forward row is now Jun 10 US CPI.
+- **CALENDAR.md ✅ RECENTLY RESOLVED:** Added Jun 6 CFTC outcome (gate against cover; 5th build week; amplifier+residual stay ON), Jun 8 GDP outcome (+1.8% headline-soft / composition hike-tolerant), Jun 9 SAM-21 outcome (70→75 mechanical fire; Polymarket 98.2%; no Takaichi pushback; first real-time KB-185 application).
+- **CALENDAR.md prune (>1wk rule):** Removed Fri May 29 April activity data (11d), Sat May 30 CFTC -114,667 (10d), Sun May 31 market reprice (9d). All narrative lives in TIMELINE. Jun 2 retained (7d edge — keep one more run to give Jun 16 retrospective).
+- **CALENDAR header:** Last Updated → 2026-06-09 Run 7 with summary.
+
+**Pre-fire-week cadence-derived date verification (per [[finding_subagent_pre_fire_date_verification]]):**
+- ✅ **Jun 10 JGB 30Y auction** — RELEASES.md "Confirmed dates" CONFIRMED at MOF Jun calendar Jun 2 2026. No change.
+- ✅ **Jun 16 BOJ MPM** — RELEASES.md CONFIRMED at BOJ schedule Jun 2 2026. No change.
+- ⚠️ **Jun 10 US CPI** — NOT in RELEASES.md "Confirmed dates" table. Cadence rule says monthly mid-month BLS; STATUS treats Jun 10 as consensus. WebFetch BLS schedule page returned 403 Forbidden — primary-source verification not achievable this run. Date directionally consistent with cadence (mid-month Wed BLS) + universally-cited in financial press. **No change applied. Logged to NEXT RUN HINTS for manual BLS verify.**
+- ✅ **Sat Jun 13 CFTC** — weekly Friday cadence; CFTC standing monitor. No TSV row (excluded class per spec); STATUS/CALENDAR PHASE 2 WATCH carries narrative.
+
+**Baseline audit:** No trigger fired this run. Monthly trigger fired Run 4 (Jun 2, first run of June); next monthly fire = first run of July (~Jul 1). Post-miss: none flagged.
+
+**RELEASES.md ✏️ no additions** — no source-fetched dates this run (Jun 10 US CPI WebFetch blocked; rows would have been added had it returned). Schema didn't need extension (Sato Jun 30 board-composition addition flagged in Run 6 PENDING remains SAM-judgment).
+
+**Runway:** 52 days to furthest event (BOJ Jul 31). 11 events in next 14d (Jun 10 US CPI + JGB 30Y → Jun 16 BOJ + QT → Jun 17 FOMC → Jun 18 May TB → Jun 19 National CPI → Jun 23 JGB 5Y → Jun 25 JGB 20Y → Jun 26 Tokyo CPI → Jun 30 Sato + JGB 2Y). High-traffic 7-9d window.
+
+**Runtime:** ~5 min. catalyst_countdown.py runs clean post-edits.
 
 ### Run 6 — 2026-06-04 (🚨 Sato primary-source verification + TSV chronological re-sort + May 28 prune; Opus 4.7)
 
@@ -100,32 +127,34 @@ State file for the docket-steward sub-agent. Spec is in [`KOYOMI.md`](KOYOMI.md)
 - **NEW (Run 5) — SAM-internal mechanical-trigger TSV-scope precedent decision:** SAM-21 pre-registered a Jun-9 Polymarket re-check trigger ("if ≥90% AND no Takaichi pushback → mechanical +5pp to 75%"). This is date-driven and operationally critical (next-session boot must surface it Jun 9), but it's NOT a public release/policy event — it's a SAM-internal review trigger. **KOYOMI declined to auto-add to CATALYSTS.tsv** (would set new precedent: TSV currently holds only public dated catalysts). **SAM decision needed:** (a) add to TSV as new "internal-trigger" category (precedent — would need 1-2 sibling rows for form-consistency, e.g. SAM-26 mechanism re-checks); (b) keep in STATUS only, accept boot-surface risk; (c) add to CALENDAR narrative only (no TSV row, but human-readable surface). If (a), KOYOMI will retroactively pull other SAM-internal triggers from THESIS/STATUS to populate. *Default if undecided by next run: option (c) — KOYOMI adds a CALENDAR narrative row but not a TSV row.*
 - **NEW (Run 5) — MOF quarterly per-op intervention release date verification:** Per SAM PM session, MOF publishes per-op intervention breakdown quarterly at `mof.go.jp/english/policy/international_policy/reference/feio/quarterly/`. Apr-Jun 2026 ops breakdown should land ~early August (resolves ~¥1.95T residual classification — 70/30 slippage-vs-late-May-op prior). **Action next run:** fetch MOF feio/quarterly/ page, confirm convention (typical release day of month), add to TSV as 🟡 row with verified date. Watch-only — not urgent.
 - **NEW (Run 6, INFORMATIONAL — for SAM audit / clearable on next ack) — Sato verification provenance recorded:** All 5 claims (date + 4 characterization sub-claims) primary-source verified Jun 4. Sources: BOJ official Nakagawa page (date); Aoyama Gakuin researcher profile (law professor); Japan Times Feb 25 + Mar 19, Bloomberg Feb 24/25, Nikkei Asia, Nippon.com (reflationist + Takaichi pick). RELEASES.md "Confirmed dates" table NOT extended (RELEASES is recurring-cadence; one-off board-composition events don't fit its schema — flagging for SAM in case a board-composition section would help). No quarantine flags applied. OS.1 closure dependency (Will Item D) — clear, no caveat.
+- **NEW (Run 7) — Jun 10 US CPI primary-source verification PENDING:** Per [[finding_subagent_pre_fire_date_verification]] cadence-derived rows within 7d of fire should be source-verified. Jun 10 fire date is +1d. BLS schedule page (`bls.gov/schedule/news_release/cpi.htm`) returned HTTP 403 to WebFetch this run. Date directionally consistent with monthly mid-month BLS cadence + universally cited in financial press; high confidence but not primary-source confirmed. **Action next run:** retry BLS fetch (try with WebSearch alternative, or check BLS archive) once date is in past, append to RELEASES.md "Confirmed dates" as RETROSPECTIVE-CONFIRMED. Low risk — date almost certain — but adds a gap to verification provenance.
 
 ---
 
 ## STANDING MONITORS (surface each run)
 
 - **BOJ pre-meeting blackout windows** (T-2 of each MPM) — currently kept as narrative in CALENDAR, not in TSV per form-consistency call from Jun 1. Revisit if SAM wants regime-boundary dates in TSV going forward (would need 1-2 other boundary rows added for consistency). *Jun-MPM blackout starts ~Jun 14 (T-2 of Jun 16).*
-- **Recurring weekly catalysts** (CFTC release Fri/Mon) — not in TSV (handled by `cftc_jpy.py` auto-pull). Surface if cadence changes. **Jun 6 release: first scheduled amplifier/residual gate under new METHOD framing** — CALENDAR PHASE 2 WATCH note updated Run 5; SAM should watch the gate-test outcome.
+- **Recurring weekly catalysts** (CFTC release Fri/Mon) — not in TSV (handled by `cftc_jpy.py` auto-pull). Surface if cadence changes. **Jun 6 release resolved AGAINST cover** (5th build week, -129,567 = 72.0% cycle peak; METHOD amplifier+residual stay ON; per Run 7 RECENTLY RESOLVED). **Next release Sat Jun 13** — LAST pre-blackout CFTC read (Jun 16 BOJ T-2 blackout starts ~Jun 14). Watch for: (a) cover below -108K → amplifier OFF (low prob given 5-week trajectory); (b) build through -153K (85% line) → amplifier escalates to +8-10pp.
 - **Post-meeting catalyst-window refill** — after each major catalyst resolves, the forward horizon thins; pull next-month's events from RELEASES.md cadence rules.
 - **MOF auction calendar alteration page** — `auction/calendar/26MMae.htm` (e.g., 2606ae.htm) records mid-month tenor-band changes. Check at month boundary; current Jun 2026 alteration was a liquidity-enhancement tenor-band tweak (15.5-39 vs 11-39, then back), no date moves.
-- **SAM-internal review triggers (Run 5; resolved Jun 3 by Will, scope precedent now in KOYOMI.md):** TSV-scope extended to admit SAM-internal mechanical decision gates (`type=sam-internal`). Currently 2 rows: Jun 6 CFTC residual-gate + Jun 9 SAM-21 Polymarket re-check. Watch for additional candidates as SAM pre-registers more triggers (must meet DATE-SPECIFIC + ACTION-FORCING gates per precedent).
+- **SAM-internal review triggers (Run 5; resolved Jun 3 by Will, scope precedent now in KOYOMI.md):** TSV-scope extended to admit SAM-internal mechanical decision gates (`type=sam-internal`). **Both inaugural rows resolved Run 7 (Jun 6 CFTC + Jun 9 SAM-21 Polymarket); zero sam-internal rows currently in forward TSV.** Watch for additional candidates as SAM pre-registers more triggers (must meet DATE-SPECIFIC + ACTION-FORCING gates per precedent). Likely next candidate: post-BOJ Jun 16 SAM-21/SAM-23 re-evaluation cadence, if SAM pre-registers a dated mechanical gate.
 - **BOJ board composition transitions (Run 6, new):** Sato Jun 30 row is the first board-composition transition in current docket window. Future class: term-expiries of other Policy Board members + corresponding successor seat-dates. RELEASES.md schema currently doesn't cover board-composition events (only recurring-cadence releases). Flag for SAM whether to extend RELEASES.md with a "Board composition transitions" section, or keep ad-hoc-with-verification-on-each-add. Next probable composition event: TBD (other Policy Board terms expire various 2026-2030 — would need separate baseline against BOJ page).
 
 ---
 
 ## NEXT RUN HINTS
 
-- **Jun 5 onward prune cadence:** May 29 (April activity) turns 7d Jun 5; May 30 (CFTC -114K) turns 7d Jun 6; May 31 (mkt-reprice) turns 7d Jun 7; Jun 2 JGB 10Y turns 7d Jun 9. Sequence the prune pass on each run as the wave rolls.
-- **Post-Jun-6 CFTC release:** first amplifier/residual gate-test under new METHOD framing. If CFTC prints stay shorter than -108K → 60% cycle-peak amplifier; if covers materially → residual gate. Update CALENDAR PHASE 2 WATCH outcome (narrative only — CFTC stays out of TSV). Also: Jun 6 CFTC TSV row resolves Sat; backfill to RECENTLY RESOLVED next run.
-- **Jun 9 SAM-21 Polymarket mechanical re-check:** resolves Tue. TSV row in place (sam-internal type); backfill to RECENTLY RESOLVED post-resolve. Outcome should also surface in STATUS BOJ ASSESSMENT.
-- **MOF feio/quarterly/ source check** — verify per-op intervention release date convention (target Apr-Jun 2026 ops breakdown, ~early August). Add as 🟡 TSV row once date pinned. URL: `mof.go.jp/english/policy/international_policy/reference/feio/quarterly/`.
+- **Jun 10 onward prune cadence:** Jun 2 JGB 10Y turns 7d Jun 9 (kept this run — single edge row, retrospective use for Jun 16 imminent); turns 8d Jun 10 → pruneable next run. Jun 6 CFTC turns 7d Jun 13. Jun 8 GDP turns 7d Jun 15. Jun 9 SAM-21 turns 7d Jun 16 (BOJ-day — likely batched-prune with BOJ outcome row).
+- **Sat Jun 13 CFTC release** — LAST pre-blackout read. cftc_jpy.py auto-pulls Sat AM. Update CALENDAR PHASE 2 WATCH narrative outcome. NOT a TSV row (excluded class); STATUS owns the live read.
+- **Wed Jun 10 US CPI primary-source verify** — retry once date is in past (BLS schedule page returned 403 this run). Append to RELEASES.md "Confirmed dates" as RETROSPECTIVE-CONFIRMED with BLS source URL once accessible.
 - **Post-Jun-10 30Y auction:** backfill result to CALENDAR RECENTLY RESOLVED (workbook auto-fetches via `jgb_auctions.py`). Critical row — direct SAM-26 mechanism test.
-- **Post-Jun-16 BOJ + Jun-17 FOMC resolution:** RECENTLY RESOLVED will fill heavily; prune pass + TIMELINE cross-check. Also expect TSV `Sato joins BOJ board` + `BOJ interim QT assessment` rows to resolve same day; mark and prune per >1wk rule.
+- **Post-Jun-16 BOJ + Jun-17 FOMC resolution:** RECENTLY RESOLVED will fill heavily; prune pass + TIMELINE cross-check. Also expect Jun 16 BOJ interim QT assessment + Jun 30 Sato seat-take rows to resolve in sequence; mark and prune per >1wk rule.
+- **MOF feio/quarterly/ source check** — verify per-op intervention release date convention (target Apr-Jun 2026 ops breakdown, ~early August). Add as 🟡 TSV row once date pinned. URL: `mof.go.jp/english/policy/international_policy/reference/feio/quarterly/`.
 - **Pull Aug auctions from MOF Aug calendar (auction/calendar/2608e.htm)** post-Jul-MPM to keep runway >30d. Also Shunto interim data (Aug, no firm date yet — RENGO cadence).
 - **Pull MOF Aug alteration page** (`2608ae.htm` if it exists) to catch any post-budget tenor-band shifts.
 - **Verify Tankan Q2 Jul 1 date** at BOJ Tankan release page once schedule posts (currently using cadence rule + March-2026 precedent).
-- **If MOU walks back:** refresh INTERVENTION WATCH + Phase 2 Watch + GEOPOLITICAL WATCH tables; trigger likely auto-detected via STATUS Brent move. *(Brent now $97.70 — moving toward $100 trigger, not collapsing; MOU walk-back direction is opposite of expected.)*
+- **If MOU walks back / Brent re-rallies:** refresh INTERVENTION WATCH + Phase 2 Watch + GEOPOLITICAL WATCH tables; trigger auto-detected via STATUS Brent move. *(Brent now $90.16 — breached $90 line on 4th down session, not collapse-rally; direction is toward collapse not break-back-up.)*
 - **PENDING coverage-policy decision:** if SAM has not weighed in on the "full MOF schedule vs cherry-pick" question, default to full schedule for Aug onwards (Run 4 set this default).
 - **National May CPI Jun 19 (post-BOJ)** — high-information row; once resolved, weight National vs Tokyo in the prune note.
-- **Baseline audit (BASELINE AUDIT in spec § 2a):** No fire this run (monthly trigger fired Run 4 Jun 2; next fire = first run of July).
+- **Watch for new sam-internal trigger pre-registrations** — both inaugural sam-internal rows resolved Run 7. Forward TSV currently has 0 sam-internal rows. Next likely candidate: post-BOJ Jun 16 SAM-21/SAM-23 re-evaluation cadence, if SAM pre-registers a dated mechanical gate. Apply TSV-SCOPE PRECEDENT inclusion bar (DATE-SPECIFIC + ACTION-FORCING) without re-escalating.
+- **Baseline audit (BASELINE AUDIT in spec § 2a):** No fire this run (monthly trigger fired Run 4 Jun 2; next fire = first run of July, ~Jul 1).

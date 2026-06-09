@@ -1,11 +1,42 @@
 # SAM TIMELINE
 
-**Last Updated:** 2026-06-06 (NFP-shock USDJPY 160 tag via USD-side; cross-pair vindicates yen-strength direction; CFTC build #5 → METHOD gate resolved against cover)
+**Last Updated:** 2026-06-09 (SAM-21 mechanical trigger fires 70→75 on Polymarket 98.2% + no Takaichi pushback + Q1 GDP hike-tolerant composition; Brent breaches $90 line on 4th down session)
 **View:** Base case progression with branch points marked
 
 This document maps our forward-looking expectations — what's coming, what we think happens, and where the path could diverge. Updated as events resolve or views change.
 
 *Pre-2026-05-11 entries archived to [ARCHIVE.md](ARCHIVE.md).*
+
+---
+
+## RESOLVED — Jun 8-9 (SAM-21 MECHANICAL TRIGGER FIRES 70→75; Q1 GDP HIKE-TOLERANT; BRENT BREACHES $90)
+
+### Tue Jun 9 — SAM-21 MECHANICAL TRIGGER FIRES → 70% → 75%
+
+- **Event:** Pre-registered Jun 3 SAM-21 mechanical trigger (Polymarket BOJ Jun 16 hike ≥90% on Jun 9 re-check AND no Takaichi/cabinet pushback) cleanly fires today. Polymarket pulled at ~12:31 PM ET reads **98.2%** (+1.9pp vs Fri close 96.3%; volume $403K vs $304K Fri — continued grind, no retrace). 5th sequential ≥90% read (Tue 87.6 → Wed 94.8 → Thu 96.9 → Fri 96.3 → Tue Jun 9 98.2%). Takaichi-pushback leg: NONE — Reuters explicitly notes she "refrained from vocally pushing back"; Jun 8 Takaichi remarks were FX-side (yen confidence, supply chains) and reinforce her Jun 3 intervention-permission framing rather than walking it back. Pre-fire stress tests passed: Q1 GDP composition hike-tolerant (see next event); CFTC build #5 METHOD residual-gate resolved AGAINST cover.
+- **Mark:** SAM-21 **70% → 75%** per pre-registered spec. Direction-of-conviction matches market; the **23pp gap to Polymarket 98.2%** is the failed-twice Takaichi-ceiling earned discount (SAM-08 @90%, SAM-20 @60%), retained for the ~25% tail (political surprise / late dovish capitulation / secret YCC-style cap). Not directional disagreement.
+- **Method anchor impact:** BOJ-surprise catalyst-P move (+5pp) shifts carry-unwind decomposed contributor up ~2pp (0.05 × 0.45 unwind|fires × amplifier). Within the +5pp discipline band per THESIS METHOD — no bucket anchor re-set triggered. Full bucket re-mark deferred to Sat Jun 13 CFTC print (last pre-blackout read).
+- **Discipline note (auto-memory promotion candidate):** This is the first real-time fire of the SAM-21 mechanical trigger spec. Holding 70% across Jun 3 (Polymarket 87.6 first ≥90% threshold tag) → Jun 5 (NFP USD-rally stress test, no dovish capitulation) → Jun 7 (Sun PM 4-sequential confirm) → Jun 9 (fire) preserved the pre-registered structure across multi-day cabling. Discretionary fire-early on Jun 4 (Bloomberg sources leak + Ueda hawkish speech) would have shipped a +5pp move ~5 days before the structural trigger date — the discipline cost ~5 days of mark, the discipline benefit was a clean spec test the next time.
+- **Position-side:** No change. 13 shares + Jun-18 $58C unchanged; stop spec event-capped pre-Jun-16; Sep $60 NOT warranted (higher near-term hike prob cuts further against deferred Sep optionality). Channel 2 single-path tighter; the carry unwind asymmetric setup intact.
+
+### Mon Jun 8 JST — Q1 GDP REVISED +1.8% (HIKE-TOLERANT COMPOSITION)
+
+- **Event:** Cabinet Office / ESRI released Q1 GDP 2nd estimate at 8:50 AM JST Mon (= ~7:50 PM ET Sun Jun 7). Headline revised to **+1.8% annualized** from +2.1% preliminary (May 19) — a −0.3pp downward revision. QoQ 0.45% vs 0.51% prelim.
+- **Composition matters:** Private consumption revised **UP** to 0.35% vs 0.27% prelim. Capex revised **DOWN** to −0.7% vs +0.3% prelim (driver: software/machinery weak). Net read: headline soft, mechanism firm — the BOJ-relevant lever (consumption strength supporting wage/activity story) firmed; the BOJ-less-sensitive lever (corporate capex) softened.
+- **Market reaction:** None material. USDJPY held ~160.1 through the print; carry-pricing didn't shift; Polymarket BOJ Jun 16 didn't retrace.
+- **SAM-21 implication:** Non-blocking for the Jun-9 mechanical trigger. Pre-registered SAM-21 spec called Q1 GDP a "soft pre-test: a downward revision could shade pricing but is unlikely to cross the regression threshold on its own." Played out exactly to spec — headline down, mechanism up, market no-react, hike pricing intact.
+
+### Tue Jun 9 — BRENT BREACHES $90 LINE (4th DOWN SESSION; CUMULATIVE −7%)
+
+- **Event:** Tue Jun 9 ~12:33 PM ET: Brent **$90.16, −4.34%** intraday — 4th consecutive down session. Cumulative from $96.78 (Jun-3 baseline) = ~−7%. **Breached the STATUS Key Threshold "$90 = headwind resolved" line** for the first time this cycle.
+- **Driver:** Same as Fri's collapse — China demand weakness (crude imports lowest in 10 years) + Trump-Iran walk-back rumors (still rumor-tier, not primary-source Tehran statement).
+- **SAM-23 path-evaluation (held 72%):** Mark-DOWN conjunction now has 2-of-3 deeply met legs but USDJPY-leg STILL INVERTED:
+  - (i) Brent confirms down ≥2 consecutive sessions / cum ≥−2% from $96.78 — **deeply ✅** (4 sessions, −7% cum)
+  - (ii) Tehran walk-back signal — still 🟡 PARTIAL (rumor-tier, no primary-source statement)
+  - (iii) USDJPY pulls below 159.50 — **❌ INVERTED** at 160.37 (re-tagged hard #3 trigger after Mon dip — 2nd 160+ touch in 5 trd days, no continuous breach)
+  - **Per discipline: no mark-down.** USDJPY-leg is the load-bearing inversion — intervention probability remains structurally HIGH at 160+ regardless of oil direction.
+- **Catalyst-path-decoupling reinforced:** The Sat Jun 6 analytical note (USDJPY 160 via USD-side NFP, not yen-side MOU/oil) now compounds with Brent breaching the headwind-resolved line WHILE USDJPY *holds* above 160. The SAM-23 framework's MOU-break → oil → yen-weak → USDJPY-up path-dependency assumption has decoupled empirically across two distinct micro-windows. This is becoming a load-bearing thesis-side re-anchoring candidate (CHANGELOG entry warranted post-Jun-16 settle).
+- **Position-side:** No change. SAM-23 conjunction-discipline preserved through inverting leg; intervention probability case is level-and-posture-driven, not path-driven.
 
 ---
 
