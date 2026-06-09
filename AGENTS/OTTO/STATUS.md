@@ -126,8 +126,9 @@ $12B debt (FT). DOJ indicted Patrick James (9 counts, life risk). Asset recovery
 | **May 14** | Trustee Rule 2004 motion vs ACV Capital LLC | 🟠 fraud surface expansion |
 | **Jun 12** | Carvana discovery production 2 | 🟠 T-4, on track |
 | **Jun 12** | First Brands: **UST convert-or-dismiss hearing (Judge Lopez, 10am CT, §1112(b))** — the OPERATIVE OTTO-32 resolver (corrected from Jun 17 per Jun 8 refresh) | 🔴 KEY `[CONF Law360/Octus]` — grant/convert = OTTO-32 confirmed early |
-| **Jun 17** | Tricolor creditor meeting — trustee distribution plan ETA | ⚠️ AT RISK / likely SLIP — $113M dispute still gridlocked, no plan found May–Jun (Jun 8 refresh) |
+| **Jun 17** | Tricolor §341 creditor meeting (continued) — trustee distribution-plan watch | 🔴 [CONF Verita Jun 9 via WINTERKORN]: §341 IS scheduled Jun 17 10am CT but **already noticed CONTINUED to Nov 11 2026** — meeting happens, distribution-plan filing slipping past it. $113M Wilmington/JPM/5-3/trustee gridlock unresolved. **OTTO-29 resolution-slip past Sep 30 now concrete** (was modeled-likely-slip) |
 | **Jun 17** | First Brands: plan-confirmation hearing — **CONTINGENT** on surviving the Jun 12 convert/dismiss hearing + a reset disclosure schedule (May 20 DS denied) | 🟠 contingent `[CONF]` |
+| **Nov 11** | Tricolor §341 (continued) — next-canonical observation point after Jun 17 continuance | 🟠 [CONF Verita Jun 9 via WINTERKORN] — next forward-window check on distribution-plan / $113M dispute |
 | **Oct 19** | Tricolor executive trial (Judge Liman, SDNY) | 🟠 |
 
 ---
