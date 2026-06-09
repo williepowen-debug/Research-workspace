@@ -19,6 +19,18 @@ docs/predictions moved).
 
 ---
 
+### 2026-06-09 — Carvana carved out as separate-conviction sub-thesis (v1.0 THESIS introduction)
+- **Was:** Carvana bundled in the Primary Cockroach case table at equal weight to the 4 confirmed cases (Tricolor / First Brands / MFS / PrimaLend). STATUS § THESIS showed all 5 rows in one table; conviction implied uniform on the pattern.
+- **Is:** Carvana is a **separate sub-thesis with explicit LOWER conviction.** Reasons: (a) allegation-only — no DOJ indictment, no SEC action, no auditor resignation; (b) GT ratified May 5 (disconfirms the "GT resigns" red-line trigger); (c) governance vote 96% against separation = thesis-confirming on related-party concern but not the Cockroach archetype; (d) insider signal mixed (CFO selling vs RSU withholding); (e) William Blair June conviction list = bull offset; (f) no short-seller activity Mar 15–Jun 8 (Gotham/Hindenburg/MW silent — mild evidence the thesis isn't ripening). **Cockroach case count is now 4 confirmed, not 5.** Carvana re-enters the Primary table only if Jun 12+ discovery surfaces specific manipulation evidence.
+- **Trigger:** thesis/THESIS.md v1.0 introduction (Jun 9) forced the bundling question. Carving out is the substantive change; the folder consolidation is the structural one.
+- **Touches:** thesis/THESIS.md v1.0 dedicated CARVANA SUB-THESIS section + decomposed-conviction footer ("Carvana sub-thesis: LOWER"); STATUS § THESIS reframed (4 confirmed + 1 alleged carve-out). No prediction-confidence move on the existing OTTO-NN rows.
+
+### 2026-06-09 — Tricolor §341 resolution-slip past Sep 30: modeled-likely → concrete
+- **Was:** OTTO-29 Tricolor distribution-plan resolution-slip past Sep 30 was *modeled likely-slip* (no plan filed May–Jun per STATUS).
+- **Is:** **Concrete.** WINTERKORN inaugural pre-fire verification (Jun 9) caught a Verita-noticed §341 continuance to **Nov 11 2026**. The Jun 17 §341 meeting itself happens but is already noticed-continued; distribution-plan filing slips past the Sep 30 OTTO-29 resolve by docket-confirmed action, not projection. Substance call unchanged (Tricolor recovery near-zero); only the resolution-window assertion firmed.
+- **Trigger:** WINTERKORN sub-agent inaugural run (Jun 9, T-3 pre-hearing verification) caught it. The catch is exactly the value-prop the sub-agent was built to deliver (the canonical Jun 17→Jun 12 failure mode, made cadence-driven).
+- **Touches:** STATUS CRITICAL TIMELINE (Jun 17 row reframed; new Nov 11 row added); CATALYSTS.tsv (Jun 17 Tricolor row date_class modeled→confirmed + Nov 11 row added); OTTO-29 substance sharpened (Notes-column refresh pending — date stays Sep 30).
+
 ### 2026-06-08 — ABS structural claim falsified + OTTO-05 recalibrated (data refresh)
 - **Was:** Subprime ABS market "IG-only — BB/single-B tranches not clearing" (structural 🟠); BBB spread extrapolated ~200-235bps; OTTO-05 (BBB >250 by Jun 30) at 62%.
 - **Is:** **Below-IG IS clearing** — Exeter EART 2026-2 placed BB- (+380) and single-B (+320) tranches publicly (Mar 20, SEC FWP). Direct BBB print **+190bps** (EART Class D) sits *below* the extrapolation. OTTO-05 dropped 62 → 48% (needs +60bps in 3wk absent a fresh catalyst). "IG-only" claim retired.

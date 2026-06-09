@@ -34,6 +34,8 @@
 - [2026-06-02] **First Brands Ch.7 — mechanism ADVANCING (sweep resolved boot-flagged May 20/25/29).** 4 Evolution SPV debtors already converted to Ch.7 (Apr 9 Lopez order) — first concrete partial conversion. PMG single-debtor Ch.11 liquidating plan filed May 15 / DS May 18 (Global Settlement → Litigation Trust; all other debtors → Ch.7 post-effective). May 20 conditional-DS approval **DENIED** by Judge Lopez on creditor-rights + admin-insolvency grounds (= the UST's May 13 dismiss-or-convert basis — denial cuts TOWARD OTTO-32). May 25/29 superseded; plan-confirmation re-targeted **Jun 17 2026**; UST motion still contested. OTTO-32 held 85%. Transmission mechanic intact: admin expenses > estate value → recoveries toward zero regardless of asset quality. Sources: Law360 / CreditSights / Trucks-Parts-Service (Kroll docket still auth-gated; news cleared it).
 - [2026-05-22 PM] **Wilmington Trust full non-mortgage custodial exit DENIED corporate-side.** American Banker (Feb 19-20 2026) reports M&T-side anonymous source on record denied the plaintiff allegation; said unit "is accepting new clients." M&T 10-Q says Wilmington will "vigorously defend itself." Active-business evidence: #2 US ABS/MBS trustee 1H 2025; Outlook 2026 thought-leadership; no non-Tricolor trustee-substitution filings; no rating-agency notes flagging substitutions. OTTO-31 confidence dropped 60% → 30%. Plaintiff allegation = litigation rhetoric not franchise exit.
 - [2026-05-22 PM] **Wilmington Trust Tricolor-specific resignation IS corporate-confirmed (narrow).** 30-day notice given Sep 20 2025 to step down as indenture trustee on Tricolor ABS only. Successor-trustee role being shunned by other major trustees (Auto Finance News). KBRA Oct 2025 commentary on Tricolor servicing transition didn't extend to other Wilmington-administered deals. This is a real cockroach #1 mechanic and a structural signal (successor vacuum) — but narrow, not franchise-level.
+- [2026-06-09] **Substantive change buried in structural reorg.** thesis/ consolidation forced the Carvana-bundling question that hadn't surfaced under the flat STATUS table. Without the structural pass, the carve-out wouldn't have happened. *Promotion candidate next session — does this generalize?*
+- [2026-06-09] **Inaugural sub-agent CALIBRATION seeding.** A propose-only sub-agent with empty CALIBRATION on first run will repeatedly re-propose the same items. Seed CALIBRATION explicitly at end of inaugural run with accept/decline patterns + date-classification guidance — observed first-run on WINTERKORN (4 accepted, 1 deferred with re-propose conditions). *Promotion candidate — pair with `[[finding_subagent_baseline_audit]]`.*
 
 ## References
 - [2026-04-15] Verita Global — Tricolor Ch.7 docket: https://veritaglobal.net/tricolor (WebFetch fails on cert verification; titles surface via WebSearch but contents blocked)
@@ -46,26 +48,24 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (Jun 2 → Jun 8, 6-day gap)
-- No domain-event gap of note; this was a Will-directed **infra-maturation session** (boot+closeout to peer parity), capped with a domain data-refresh.
-- Other agents committed during the gap; OTTO's Jun 2 work still local (push-deferred — now Will-coordinated, see git protocol change).
+### CHANGES SINCE LAST SESSION (Jun 8 → Jun 9, 1-day gap)
+- No domain-event gap. Same-day continuation of Jun 8 infra work via Will-directed peer-parity audit.
 
-### LAST SESSION (Jun 8 — boot+closeout infra maturation + data refresh; CLAUDE.md v2.1 → v2.4)
-- **Boot automation (v2.2):** built `scripts/boot.py` kit (`predictions_due.py` + `catalyst_countdown.py` + price snapshot, ~2s) + `docket/CATALYSTS.tsv` (8-col machine feed). Boot steps 4-5 now script-driven. OTTO's deferred "Phase 4" closed.
-- **Closeout maturation (v2.3):** STATUS line-cap + archive (417→163; `workbook/STATUS_archive_20260608.md`); new `CHANGELOG.md` thesis-pivot log (step 1a); promotion-scan step (step 5) + first drain — 4 calibration/workflow lessons → auto-memory (date-specificity, forward-discovery, subagent-web-tools, litigation-allegation); Git section fixed to pathspec + Will-coordinated push.
-- **NEXUS_BRIEF (v2.4):** built `NEXUS_BRIEF.md` as Tier-2 **opt-in** (Will-approved; locked schema is Tier-1-only — OTTO normally brief-exempt). Closeout step 7a (mandatory write-back). WALTER→NEXUS awareness signal dropped asking NEXUS to rule on formal scope.
-- **Data refresh (domain):** EART 2026-2 SEC FWP → corrected spread rows; **"IG-only ABS" claim FALSIFIED** (below-IG clearing); **First Brands OTTO-32 resolver moved Jun 17→Jun 12** (UST convert-or-dismiss hearing); OTTO-05 62→48%; CVNA ~$64 (CFO insider selling); DQ/recovery/ANL confirmed current (Fitch Jan-2026 index — calendar-drift, not stale). 2 CHANGELOG pivots, ML-172/173/174.
-- **Roadmap:** `PEER_PARITY_ROADMAP.md` created — P1 #1+#2 done; P2/P3 remain.
+### LAST SESSION (Jun 9 — thesis/ consolidation + WINTERKORN sub-agent + WINTERKORN inaugural integration; CLAUDE.md v2.5 → v2.7)
+- **thesis/ consolidation (v2.6):** new `thesis/THESIS.md` v1.0 (12-section canonical thesis — Primary Cockroach + Secondary Invisible Exit + Carvana sub-thesis CARVED OUT + 7-stage transmission chain + why-now timing + decomposed conviction + expanded risk matrix); CHANGELOG + PREDICTIONS.tsv moved into thesis/; new `thesis/PREDICTIONS_ARCHIVE.md` (5 post-mortems + calibration scoreboard 5/5 substance, 4/5 substance+window); STATUS § THESIS now mirror-only. **Substantive thesis change: Carvana cockroach count = 4, not 5** (separate sub-thesis with LOWER conviction).
+- **WINTERKORN sub-agent (v2.7):** FASTOW-pattern docket steward at `docket/WINTERKORN.md` (spec) + `docket/WINTERKORN_MEMORY.md` (seeded). Auto-domain VW Dieselgate identity reference. Scoped owner of CATALYSTS.tsv + verifies forward dates against bankruptcy dockets / SEC EDGAR / rating agencies. Weekly Tue + T-3 pre-hearing cadence.
+- **WINTERKORN inaugural run (T-3 pre-Jun-12):** Pre-fire verification rule fired exactly as designed. **Caught Verita-noticed Tricolor §341 continuance to Nov 11 2026** — OTTO did not have it. OTTO-29 resolution-slip past Sep 30 escalated modeled-likely → concrete. 4 of 5 baseline-audit proposals accepted (Fitch ABS May/Jun, NY Fed Q2 HDC, Tricolor Nov 11); 1 deferred (rating-agency direct surveillance — Auto Finance News mirror covers). STATUS § CRITICAL TIMELINE + CATALYSTS.tsv updated. CALIBRATION seeded.
+- **3 CHANGELOG entries:** Carvana carve-out, Tricolor slip-concrete, WINTERKORN catch. **3 ML.tsv rows:** ML-175 (thesis/ build), ML-176 (WINTERKORN inaugural).
+- **Roadmap:** P2 #4-5 done (PREDICTIONS_ARCHIVE + calibration scoreboard); P3 #9 done (versioned THESIS); P3 #11 done (WINTERKORN sub-agent).
 
 ### NEXT SESSION
-> **Full stale-doc audit + ordered refresh plan: `STALE_PUNCHLIST.md` (re-audited 2026-06-08)** — 9 original + 2 new items, priority-ordered. Items below are the top of that list.
-1. **Verify Jun 12 First Brands UST convert-or-dismiss outcome** — the OPERATIVE OTTO-32 resolver (not Jun 17). Also Jun 12 Carvana discovery prod 2.
-2. **TRADE.md rehab (punch-list #1, roadmap #3)** — worst stale doc: pre-split CVNA ~$343 vs confirmed ~$64 (strikes off 5×), dead Feb-18 triggers, broken cross-refs. Highest behavioral risk.
-3. **Roadmap #4-5: PREDICTIONS_ARCHIVE.md + calibration scoreboard preamble** (condense closed-row Notes).
-4. **OTTO-29 docket check** — Tricolor Jun 17 distribution likely slipped ($113M dispute); resolve/re-arm at closeout.
-5. **DQ-series reconciliation** — OTTO's "60+ DQ 7.1%" (TransUnion?) vs Fitch ABS 6.90%; confirm which series the dashboard tracks.
-6. **OBK 10-Q + M&T Q2 (Jul 16, in CATALYSTS)** — OTTO-30/31 watches. War-transmission row re-check (stale post-ceasefire).
+> Top of `STALE_PUNCHLIST.md`. Two roadmap items knocked this session; remaining priorities:
+1. **Sweep Jun 12 outcomes** — First Brands UST §1112(b) (operative OTTO-32 resolver) AND second-chance DS vote (dual-headed per WINTERKORN finding); Carvana discovery production 2 (WINTERKORN-flagged PENDING: couldn't independently verify the date).
+2. **Spawn WINTERKORN post-Jun-12** — outcome sweep + prune Jun 12 rows + verify Jun 17 First Brands plan-confirmation contingency state. Re-verify Jun 17 Tricolor §341 actually held (vs further continued).
+3. **TRADE.md rehab (STALE_PUNCHLIST #1, roadmap #3)** — worst stale doc; pre-split CVNA strikes off 5×.
+4. **METSUKE-equivalent stale-doc flagger** — second sub-agent (future session). Closes TRADE.md / VX.tsv / RESEARCH_STATUS.md staleness loop.
+5. **DQ-series reconciliation** — OTTO's 7.1% vs Fitch 6.90% vs VX 6.80%; canonical series unclear.
+6. **OBK 10-Q + M&T Q2** (Jul 16, in CATALYSTS) — OTTO-30/31 watches.
 
 ### PENDING PUSH
-- **Jun 8 closeout committed LOCAL only (Will-directed: no push this session).** Push is now Will-coordinated per root CLAUDE.md git-protocol change — next coordinated window sweeps it (push-train).
-- Jun 2 work also still local (not pushed). Both ride the next push window.
+- **Jun 9 work (3 commits across thesis/ v2.6 + WINTERKORN v2.7 + WINTERKORN inaugural + this closeout) committed LOCAL only.** Push is Will-coordinated; next window sweeps Jun 2 + Jun 8 + Jun 9 work (push-train pattern).
