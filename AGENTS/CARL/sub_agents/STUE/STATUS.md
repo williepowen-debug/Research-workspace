@@ -1,29 +1,38 @@
 # STUE STATUS
-**Last Updated:** 2026-04-17 | **Status:** 🔴🔴 CRITICAL — **9.2M in default** (Mar 2026, +1.5M from Dec), 25% DQ rate, SAVE **REPEALED BY LAW + JUDICIALLY CONFIRMED**, national avg FICO down to 714 (90+ DQ rate now ~9.8%), **Sweet Apr 15 deadline MISSED → auto relief for ~170K+ non-Exhibit C borrowers TRIGGERED**, AFT/MOHELA in discovery (May 28 conf)
+**Last Updated:** 2026-06-09 | **Status:** 🔴🔴 CRITICAL — **CRL-04 BREACHED** (NY Fed Q1 2026 90+ DQ **10.3%**, up from 9.6% Q4 2025, >10% threshold); +2.6M defaults flow Q1 2026 (Liberty Street Economics May 12); SAVE→RAP Jul 1 wave imminent (round-2 ED "courtesy" emails sent late May/early Jun); Sweet Jun 15 notice deadline pending (no public confirmation notices have been sent); AFT/MOHELA May 28 status conference held — discovery continues, no public ruling.
 
 ---
 
-## ⚠️ NEW SINCE APR 15 — READ FIRST
+## ⚠️ NEW SINCE APR 17 → JUN 9 (53 days)
 
 | Finding | Detail | Impact |
 |---------|--------|--------|
-| **🔴🔴 Sweet Apr 15 MISSED** | DOE missed the non-Exhibit C post-class deadline. **Auto Full Settlement Relief TRIGGERED** for ~170K+ borrowers (discharge + refunds + credit deletion). DOE must send notices by Jun 15, 2026. [PPSL Apr 17] | 🔴🔴 Second consecutive missed deadline. ~271K+ total Sweet relief pipeline now activated. NOT thesis invalidation — court-compelled, bounded cohort. |
-| **SAVE judicially eliminated (Mar 10)** | Eighth Circuit reversed lower court dismissal, entered final judgment — SAVE is now both legislatively AND judicially dead. No path to reinstate. [8th Cir. Mar 10, 2026] | 🔴🔴 Confirms Jul 1 transition is locked in. |
-| **90+ DQ rate updated: ~9.8%** | FICO Spring 2026: rate increased 25% from Apr 2025 rate of 7.9%. 6.1M consumers had DQ reported Feb–Apr. Avg score drop now -69 pts (updated from -62). 25% of affected cohort saw -100pt+ drop. | 🔴🔴 Approaching 10% threshold (CRL-04). |
-| **Default count: 9.2M** (Mar 2026) | Up from 7.7M in Dec 2025 — **+1.5M in ~90 days** | 🔴🔴 Ahead of 13M EOY pace |
-| **2.4M in late-stage DQ** (Mar 2026) | On top of 9.2M in default | 🔴🔴 Imminent default wave |
-| **Avg FICO dropped to 714** | From 716 in 2024; student loan DQ primary driver | 🔴 Systemic signal |
-| **Credit score: -69 pts avg for DQ borrowers** | 6.1M had new DQ reported Feb–Apr; 2M near-prime dropped 680→580 | 🔴🔴 Confirmed cascade, accelerating |
-| **Gen Z age 18-29 leading decline** | 14.4% saw -50pt+ score drop; triple prior rate | 🔴🔴 Future cohort destroyed |
-| **Lifetime cost per borrower**: $64K mortgage + $8,800 auto | From 680→580 score destruction | 🔴 Transmission confirmed |
-| **AFT/MOHELA**: Discovery phase | Next status conference May 28, 2026. Three concurrent class actions active. No settlement. | 🟠 |
-| **RAP auto-transition confirmed**: Non-selectors → Standard or Tiered Standard (NOT default) | Per ED guidance | Reduces but doesn't eliminate payment shock |
+| **🔴🔴 CRL-04 THRESHOLD BREACHED — CLEAN** | NY Fed Q1 2026 QHDC (released May 12 2026): student loan 90+ DQ **10.3%**, up from 9.6% Q4 2025 [NY Fed HHDC Q1 2026; Liberty St May 12 2026; Wolf Street May 12 2026]. **Methodology asterisk REMOVED (Jun 9 PM follow-up):** VantageScore 4.0 transition affects credit-score-band charts (pages 6-9 of report) only; 90+ DQ is a BALANCE-based metric (delinquent $ ÷ total $), independent of scoring methodology. 9.6% → 10.3% is apples-to-apples. Liberty Street Economics confirms scoring shift applies only to "figures and analysis that depend on credit scores." | **🔴🔴 CRL-04 → MET, clean.** |
+| **+2.6M defaults Q1 2026 (flow)** | Liberty Street Economics May 12 2026: ~1M defaulted Q4 2025 + 2.6M Q1 2026 (>120 DPD loans transferred to ED Default Resolution Group). Avg defaulter age 38.9 (vs 36.4 pre-pandemic). **Flow distinct from prior 9.2M stock figure** — NY Fed reports new DRG transfers, not portfolio stock. Reconciliation with ED Mar 9.2M still open (likely 9.2M was point-in-time stock incl pre-pandemic legacy default). | 🔴🔴 |
+| **17%+ borrowers 90+ DPD at least once** | Liberty Street: ">17 percent of borrowers have fallen at least 90 days past due at least once since repayment resumed." | 🔴 cumulative exposure |
+| **Past-due share ~10%** | Liberty Street: "share of student loan balances past due increased, nearing pre-pandemic levels at just over 10 percent." | 🔴 |
+| **Transition rate INTO serious DQ DOWN** | NY Fed Q1 transition-to-90+ rate (4Q moving sum): **10.9%** vs 16.2% Q4 2025. Pace of NEW DQ flow slowed. **Read carefully:** stock-of-DQ keeps rising (mechanism intact); flow-of-new-DQ slowed. Could be (a) on-ramp policy slack reasserting, (b) seasonal, (c) genuine cohort exhaustion (already-stressed already in DQ). Single-print, needs 2nd-print to interpret. | 🟠 mechanism intact / mixed signal |
+| **SAVE "courtesy" Round-2 emails sent (May/early Jun)** | College Investor, Jun 2026: ED sent a SECOND round of preliminary "courtesy" emails to ~7M SAVE borrowers ahead of Jul 1 formal wave start. Borrowers with stale servicer-contact info "risk missing the personalized deadline entirely." | 🟠 IMMINENT — confirms Jul 1 schedule is GO |
+| **Jul 1 wave structure CONFIRMED on track** | ED announcement reiterates: starting Jul 1, servicers issue 90-day notices in waves every 2 wks; non-selectors auto-enrolled in Standard or Tiered Standard. ~7M SAVE borrowers in queue. "Most borrowers expected to be back in active repayment by end of September 2026." | 🔴 |
+| **Sweet v. McMahon Jun 15 notice deadline — STATUS PENDING** | PPSL case page (June 2026): notices due by Jun 15. No public confirmation as of Jun 9 that notices have been mailed. Ninth Circuit appeal (26-1136): DOE opening brief Apr 9, PPSL opposition Apr 23, DOE reply May 7. **Briefing complete, no oral argument scheduled.** Existing relief deadlines remain in effect. PPSL cumulative relief figure cited "over 271K relieved as of May 2025" — confirms ~271K total pipeline scale (Exhibit C + non-Exhibit C). | 🔴 Jun 15 (6d) — watch for missed deadline = same auto-relief mechanism continues |
+| **AFT v. MOHELA May 28 status conference — HELD, no public ruling** | Conference held 5/28/26 9:30am ET via teleconference per scheduling order. **No public outcome / no discovery ruling found in available sources.** Case remains in discovery; 3 concurrent class actions still active; class certification not yet granted in any. Next-hearing date NOT in public record as of Jun 9. | 🟠 OPEN QUESTION — needs court-docket pull |
+| **Treasury Phase 1 — refined scope** | New framing (March-April press): Phase 1 launches with **~500K defaulted accounts** managed by Treasury "this summer" / July 2026 — NOT the full 9.2M-defaulted-borrower portfolio in one go. **Material refinement** vs STATUS's prior Mar 19 framing of "~9.2M defaulted borrowers transferred." This is a phased Phase 1 rollout. | 🟠 SCOPE REFINEMENT — earlier STATUS overstated initial transfer size |
+| **NY Fed Q1 2026 RELEASED May 12** | Total HH debt $18.8T (+0.1% QoQ). Student loan balances $1.66T (+1.7% YoY). | 🔴 |
+| **FICO Spring 2026 retro check** | FICO Spring 2026 (released Mar 24 2026, prior STATUS captured): avg FICO 714, -62pt avg DQ score drop, severe DQ at 11.0% as of Oct 2025 reading. **STATUS prior cited 9.8% as "FICO Spring 2026" — that was a derivative cite; primary FICO doc reads 11% Oct 2025. STATUS prior overstated freshness.** Will not re-cite 9.8%; NY Fed 10.3% Q1 2026 is the operative number. | 🔧 Data hygiene correction |
 
 ---
 
 ## THESIS
 
-Federal student loan stress is a mass credit destruction event, not a slow burn. Four years of forbearance masked $1.61-1.7T in structural fragility. **SAVE was REPEALED by the Working Families Tax Cuts Act (Jul 2025)** — this is legislative, not administrative. No legal path to reinstate. ED issued final transition guidance Mar 31, 2026. The SAVE-to-RAP transition (July 1) will force 7.5M borrowers into repayment — many into plans with much higher payments — while servicers (MOHELA) are failing operationally and the portfolio is being transferred to Treasury mid-crisis. Default projection: 13M by EOY 2026. **CASCADE FINDING (Apr 13, CONFIRMED):** Student loan DQ is not just a standalone vector — it AMPLIFIES CC, auto, and mortgage DQ through credit score destruction. FICO Spring 2026: -62 pts avg for DQ borrowers; -100 pts for 2M near-prime borrowers (680→580). National avg FICO already at 714. Estimated +0.5-1.0pp to CC 90+ DQ rate. Cascade is NOW EXECUTING.
+Federal student loan stress is a mass credit destruction event in active execution. **CRL-04 (90+ DQ >10%) has now BREACHED** at NY Fed Q1 2026 = 10.3% — first official primary-source >10% print, though scoring-methodology change (Equifax Risk Score 3.0 → VantageScore 4.0) introduces a 2nd-print verification need on absolute level. Mechanism unambiguously intact: 2.6M Q1 + 1M Q4 2025 DRG transfers; 17%+ of borrowers 90+ DPD at least once since repayment resumed; older-defaulter shift (avg 38.9y) confirms this is not a "new-borrower" effect but a structural payment-resumption stress wave.
+
+**Forward catalyst stack still firing:**
+1. **Jun 15 (6d)** — Sweet non-Exhibit C notice deadline. ~170K-271K borrowers in pipeline.
+2. **Jul 1 (22d)** — SAVE→RAP formal wave start. ~7M borrowers, 90-day windows, non-selectors → Standard/Tiered Standard Oct 1. Round-2 ED courtesy emails ALREADY OUT — operational confirmation Jul 1 is real.
+3. **Jul (TBD)** — Involuntary collections restart + Treasury Phase 1 ~500K defaulted accounts.
+4. **Q3-Q4** — Post-transition DQ wave (CRL-14 window — MOHELA capacity test).
+
+National FICO 714 + -62-pt avg DQ-borrower score drop unchanged. Cascade to CC/auto/mortgage still operative. **v2.5.1 thesis fully intact; CRL-04 graduates to MET pending 2nd-print confirmation.**
 
 ---
 
@@ -32,135 +41,100 @@ Federal student loan stress is a mass credit destruction event, not a slow burn.
 ### Delinquency / Default
 | Metric | Value | As Of | Source | Status |
 |--------|-------|-------|--------|--------|
-| 30+ DQ Rate | **16.3% WORST EVER** | Q4 2025 | NY Fed | 🔴 |
-| 90+ DQ Rate | **9.6%** (NY Fed Q4 2025) / **~9.8%** (FICO Spring 2026, Feb-Apr window, +25% from Apr 2025 7.9%) | Q4 2025 / Spring 2026 | NY Fed / FICO | 🔴🔴 Approaching 10% threshold |
-| Borrowers w/ Payment Due Behind | **~25%** | Feb 2026 | Protect Borrowers/TCF | 🔴 |
-| Borrowers in Default | **9.2M / $180B** ← **UPDATED Mar 2026** | Early Mar 2026 | ED/FSA (via press) | 🔴🔴 |
-| Late-Stage DQ (not yet default) | **2.4M additional** | Early Mar 2026 | ED (Treasury transfer announcement) | 🔴🔴 |
-| Default Increase (Dec→Mar) | **+1.5M in ~90 days** | Dec 2025→Mar 2026 | FSA | 🔴🔴 |
-| Active Repayment 31+ DQ (by $) | **18.6%** (vs 12.7% Dec 2019) | Dec 2025 | FSA | 🔴 |
-| Borrowers in Repayment | **<40%** of portfolio | Dec 2025 | FSA/ED | 🔴 |
-| Total Portfolio | **$1.7T** / 40.9M recipients | Dec 2025 | FSA | — |
-| All Borrowers Delinquent | **~25%** (nearly 3x pre-pandemic 9.2%) | Feb 2026 | TCF/Protect Borrowers | 🔴🔴 |
-| Borrowers in Forbearance | **8.8M** (6.5M SAVE-specific) | Dec 2025 | FSA | 🔴 |
-| Colleges >25% Non-Repayment | **1,800+** institutions flagged by ED | Feb 2026 | Inside Higher Ed | 🟠 |
-| Entered Delinquency 2025 | **7M+** new delinquencies reported | 2025 | FICO Credit Insights Spring 2026 | 🔴 |
-| Projected Default EOY 2026 | **13M** | Projection | TCF | 🔴🔴 |
-
-### Age Cohort DQ (90+, NY Fed Q4 2025)
-| Cohort | 90+ DQ | Trend | Status |
-|--------|--------|-------|--------|
-| 18-29 | **~21%** | Vertical spike | 🔴🔴 |
-| 30-39 | **~15%** | Spiking | 🔴 |
-| 40-49 | **~12%** | Spiking | 🔴 |
-| 50+ | **~9%** | Rising | 🟠 |
+| **Student Loan 90+ DQ** | **10.3% — BREACHED >10% threshold (CRL-04)** | Q1 2026, rel May 12 | NY Fed HHDC Q1 2026 | 🔴🔴 |
+| Student Loan 30+ DQ | 16.3% (Q4 2025 prior) → Q1 2026 figure not separately broken out in NY Fed release | Q4 2025 | NY Fed | 🔴 |
+| Borrowers 90+ DPD since resumption (cumulative) | >17% | Q1 2026 | Liberty St Econ May 12 2026 | 🔴🔴 |
+| New defaults Q1 2026 (DRG transfers, flow) | **2.6M** | Q1 2026 | NY Fed / Liberty St | 🔴🔴 |
+| New defaults Q4 2025 (flow) | ~1M | Q4 2025 | NY Fed / Liberty St | 🔴 |
+| Borrowers in default (stock, ED point-in-time) | 9.2M / $180B (Mar 2026 ED press, prior STATUS) — reconciliation w/ NY Fed flow framing pending | Mar 2026 | ED/FSA via press | 🔴🔴 |
+| Avg age of new defaulters | **38.9** (vs 36.4 pre-pandemic) — shift toward older | Q1 2026 | Liberty St | 🔴 |
+| Transition rate INTO 90+ DQ (4Q moving sum) | **10.9% (down from 16.2% Q4 2025)** | Q1 2026 | NY Fed | 🟠 mixed |
+| Total Student Loan Balance | $1.66T (+1.7% YoY) | Q1 2026 | NY Fed | — |
+| Active Repayment 31+ DQ (by $) | 18.6% (Dec 2025, no Q1 update) | Dec 2025 | FSA | 🔴 |
+| Borrowers in Repayment | <40% of portfolio | Dec 2025 | FSA/ED | 🔴 |
+| Total Portfolio | $1.7T / 40.9M recipients | Dec 2025 | FSA | — |
+| Projected Default EOY 2026 | 13M (TCF projection) | Projection | TCF | 🔴🔴 |
+| Avg FICO score drop, DQ borrowers | -62 pts (FICO Spring 2026 primary; -69 in some Spring-2026-Mar update derivative cite) | H2 2025 / Spring 2026 | FICO | 🔴🔴 |
+| National avg FICO | 714 | H2 2025 | FICO Spring 2026 (rel Mar 24 2026) | 🔴 |
 
 ### SAVE / RAP Transition
 | Metric | Value | Status |
 |--------|-------|--------|
-| SAVE Status | **REPEALED BY LAW** (Working Families Tax Cuts Act, Jul 2025) | 🔴🔴 |
-| SAVE Enrollees | **7.5M** (6.5M in SAVE-specific forbearance of 8.8M total) | 🔴 |
-| ED Final Guidance | **Issued Mar 31, 2026** — official transition framework | 🔴 |
-| Servicer Notices | **Begin July 1, 2026** in WAVES (new group every 2 weeks) | 🟠 IMMINENT |
-| Selection Window | **90 days (Jul 1 → Sep 30)** | — |
-| **SAVE Effective End Date** | **September 30, 2026** (90 days from Jul 1 wave start) | 🔴🔴 |
-| Auto-Transition (non-selectors) | **Standard Repayment from Oct 1, 2026** | 🔴 |
-| Est. Non-Selection Rate | **30-45%** (2.25-3.375M borrowers) — based on Oct 2023 precedent + MOHELA failures | 🔴🔴 |
-| Payment Shock | **$0-70/mo → $407/mo** (avg $37K balance on standard plan) | 🔴🔴 |
-| RAP Launch | **July 1, 2026** (1-10% AGI, **$50/mo per-dependent deduction**, no neg amortization) | — |
-| RAP Forgiveness | **30 years** | — |
-| Spending Destruction | **$1.5-2.0B/month** redirected from consumption starting Jul 1 | 🔴🔴 |
+| SAVE Status | REPEALED BY LAW (WFTCA Jul 2025) + judicially eliminated (8th Cir Mar 10 2026) | 🔴🔴 |
+| SAVE Enrollees | ~7M (College Investor Jun 2026 framing; prior STATUS: 7.5M; small reconciliation) | 🔴 |
+| ED Final Guidance | Issued Mar 31 2026 | — |
+| ED "Courtesy" Email Round 1 | Earlier — pre-May | — |
+| **ED "Courtesy" Email Round 2** | **Late May / early Jun 2026** (College Investor reporting) — pre-formal warning | 🟠 IMMINENT |
+| Servicer Formal Notices | **Begin Jul 1 2026** in waves every 2 weeks | 🔴 IMMINENT |
+| Selection Window | 90 days from receipt of personalized notice | — |
+| Auto-Transition (non-selectors) | Standard or Tiered Standard | 🔴 |
+| Est. Non-Selection Rate | 30-45% (CARL CRL-13 baseline; empirically anchored 30-47% GAO/CFPB/Embold) | 🔴 |
+| Payment Shock | $0-70/mo → $407/mo (avg $37K balance, Standard) | 🔴🔴 |
+| RAP Launch | Jul 1 2026 (1-10% AGI, $50/mo per-dependent, no neg-am, 30-yr forgive) | — |
+| Spending Destruction Est. | $1.5-2.0B/month redirected from consumption starting Jul 1 | 🔴🔴 |
 
 ### Servicer Performance
 | Metric | Value | Status |
 |--------|-------|--------|
-| MOHELA Missed Bills | **2.5M borrowers** → 800K delinquent | 🔴 |
-| DOE Penalty | **$7.2M withheld** | 🟠 |
-| MOHELA Wait Times | **7x ED Financial, 50x Aidvantage/Nelnet** | 🔴 |
-| Credit Report Errors | **Balances doubled** (class action Feb 18, 2026) | 🔴 |
-| State AG Investigations | **Multiple states** targeting MOHELA | 🟠 |
-| **Maldonado Ruling (Mar 2026)** | **MOHELA VIOLATED CA Student Borrower Bill of Rights + Unfair Competition Law** | 🔴🔴 |
-| AFT Amended Complaint (Jan 2026) | Added post-filing violations — MOHELA not remediating | 🔴 |
-| **AFT Case Status (Apr 2026)** | **DISCOVERY PHASE** — next status conference May 28, 2026. No settlement. | 🔴 |
-| MOHELA Abandon Rate | **14%+** — no other servicer exceeds 5% | 🔴 |
-| Litigation Load | 5+ concurrent: Maldonado, AFT, class action, state AGs, CFPB | 🔴 |
+| MOHELA Missed Bills | 2.5M → 800K DQ (cumulative, prior STATUS) | 🔴 |
+| MOHELA Abandon Rate | 14%+ (vs <5% peers) | 🔴 |
+| **AFT v MOHELA May 28 conference** | **HELD; no public ruling/outcome located.** Case continues in discovery. | 🟠 OPEN QUESTION |
+| AFT v MOHELA next hearing | NOT in public record as of Jun 9 — court-docket pull needed | 🟠 |
+| Concurrent class actions | 3 active (AFT consumer protection, balance duplication, PSLF obstruction) | 🔴 |
+| Class certification | NOT YET granted in any | 🟠 |
+| Maldonado v MOHELA ruling | Mar 2026 — violated CA Student Borrower BoR + UCL | 🔴🔴 |
+| Settlement | NONE | — |
 
 ### Treasury Transfer
 | Metric | Value | Status |
 |--------|-------|--------|
-| Phase 1 (Defaulted) | **Active — Mar 19, 2026** (~9.2M defaulted borrowers transferred) | 🔴 |
-| Phase 1 Mechanism | Treasury assumes FSA's Default Resolution Group + Default Management and Collections System | — |
-| Phase 1 Operational | Borrowers continue same servicer; Treasury uses "private default resolution agencies" for rehabilitation | 🟠 |
-| Phase 2 (Non-Defaulted) | **Planned** — after Treasury assesses portfolio; servicing non-defaulted "to extent practicable" | 🟠 |
-| Phase 3 (Full + FAFSA) | **Planned** — Treasury takes over FAFSA administration | 🟡 |
-| Legal Authority | **Disputed** — 5 Senate committee ranking members demand rescission | 🔴 |
-| Operational contradiction | Treasury Transfer Phase 1 ACTIVE (Mar 19) but ED paused collections (Jan 16) that Treasury would run | 🔴 |
-| **Default at Transfer** | **9.2M borrowers / $180B** (11% of $1.7T portfolio) | 🔴🔴 |
+| Phase 1 Announcement | Mar 19 2026 | — |
+| **Phase 1 Initial Cohort (REFINED)** | **~500K defaulted accounts, Jul 2026 launch** (NOT 9.2M in one go — STATUS prior wording overstated). **Jun 9 PM follow-up:** CRS report R48962 confirms Phase 1 ramps "gradually through the Fiscal Service's CSP" — 500K is the launch wave, NOT entire Phase 1. Cadence: internal ED discussion of "starting with fewer borrowers and ramping up more gradually rather than 'turning the floodgates on'" — no public quarterly numbers. Treat as: 500K Jul-Sep, scale TBD, full ~9M defaulted likely 2027+ rollout. | 🟠 SCOPE CORRECTION |
+| Phase 2 (Non-Defaulted) | Planned, no public date | 🟠 |
+| Phase 3 (FAFSA + full takeover) | Planned, no public date | 🟡 |
+| Legal Authority | Disputed (Senate Dems opposition) | 🔴 |
 
 ### Borrower Defense (Sweet v. McMahon)
 | Metric | Value | Status |
 |--------|-------|--------|
-| Exhibit C Deadline (Jan 28) | **MISSED by DOE** | 🔴 |
-| Exhibit C Notices | **DOE sent Full Relief notices ~Mar 30, 2026** (discharge + refunds + credit corrections) | 🟢 |
-| **Non-Exhibit C Deadline (Apr 15)** | **MISSED by DOE** — confirmed Apr 17 via PPSL case page | 🔴🔴 CONFIRMED |
-| **Auto Relief Triggered** | **~170K+ non-Exhibit C borrowers entitled to Full Settlement Relief** | 🔴🔴 ACTIVE |
-| Non-Exhibit C Notice Deadline | **DOE must send notices by Jun 15, 2026** | 🔴 IMMINENT |
-| Relief Delivery | Within 1 year of Jun 15 notice (by ~Jun 15, 2027) | — |
-| Total Sweet Relief Pipeline | **~271K+ borrowers** (Exhibit C + non-Exhibit C combined) | 🔴 FIRING |
-| Ninth Circuit Merits Appeal | **Ongoing** (26-1136) — DOE brief Apr 9; PPSL response Apr 23; DOE reply May 7 | 🟠 No stay — relief self-executing regardless |
-| CARL Implication | NOT thesis invalidation — court-compelled, bounded cohort, not policy relief | — |
-| Flagged Schools | **151 Exhibit C + 150+ additional** | — |
-| Total Claims Filed | **750K+** since 2015 | — |
+| Exhibit C Deadline (Jan 28) | MISSED → auto relief triggered | 🔴 |
+| Exhibit C Full Relief Notices | DOE sent ~Mar 30 2026 (per prior STATUS / PPSL) | 🟢 |
+| Non-Exhibit C Deadline (Apr 15) | MISSED → auto relief triggered | 🔴🔴 |
+| **Non-Exhibit C Notice Deadline (Jun 15)** | **PENDING — 6 days from today. No public confirmation of notice mailing as of Jun 9.** | 🔴 IMMINENT |
+| Total Sweet Relief Pipeline (PPSL cite) | "Over 271K relieved as of May 2025" — confirms ~271K scale | 🔴 FIRING |
+| Ninth Circuit Appeal (26-1136) | Briefing complete (DOE Apr 9, PPSL Apr 23, DOE reply May 7). NO oral argument scheduled. Relief self-executing; no stay. | 🟠 |
+| Relief delivery window | Within 1 year of notice | — |
 
-### Collections Status (NEW SECTION)
+### Collections Status
 | Metric | Value | Status |
 |--------|-------|--------|
-| Involuntary Collections | **PAUSED** (Jan 16, 2026) | 🟡 |
-| Collections Paused Includes | AWG (Administrative Wage Garnishment) + Treasury Offset Program | — |
-| First Wave of Notices Sent | **~1,000 borrowers** (week of Jan 7) | FIRED |
-| Pause Reason (DOE stated) | Working Families Tax Cuts Act reforms, OBBBA rollout | — |
-| Expected Restart | **July 2026** (per ED guidance) | 🔴 IMMINENT |
-| Borrowers Exposed | **5M+ in default** at pause time | 🔴 |
-| Treasury Offset Status | Reactivated May 2025; paused again Jan 2026 | 🟡 |
-| Operational Contradiction | Treasury Transfer Phase 1 ACTIVE (Mar 19) but ED paused collections Treasury would run | 🔴 |
+| Involuntary Collections | PAUSED (Jan 16 2026) | 🟡 |
+| First Wave Notices | ~1,000 borrowers (week of Jan 7) | FIRED |
+| **Expected Restart** | **Jul 2026** (per ED guidance) | 🔴 IMMINENT |
+| Borrowers Exposed | 5M+ in default at pause time | 🔴 |
 
 ---
 
 ## CREDIT SCORE DESTRUCTION PATHWAY
 
-**UPDATED Apr 13 — New quantitative data from FICO Spring 2026 Credit Insights + TCF/Protect Borrowers Feb 2026**
+(Unchanged from Apr 17 STATUS substance; load-bearing metrics retained.)
 
 | Metric | Value | Source |
 |--------|-------|--------|
-| National avg FICO | **714** (H2 2025) | FICO Spring 2026 Credit Insights |
-| Prior avg FICO | 716 (2024) | FICO |
-| Avg score drop for DQ borrowers | **-62 pts** | FICO Spring 2026 |
-| Near-prime (680+) score drop | **-100 pts** (680→580) for 2M borrowers | TCF/Protect Borrowers Feb 2026 |
-| New DQ reported 2025 | **7M+ borrowers** | FICO |
-| Gen Z (18-29) -50pt+ drop | **14.4%** of cohort | FICO Spring 2026 |
-| Lifetime mortgage cost increase | **+$64,000** (from 680→580 repricing) | TCF |
-| Lifetime auto cost increase | **+$8,800** (from 680→580 repricing) | TCF |
+| National avg FICO | 714 (H2 2025) | FICO Spring 2026 (rel Mar 24 2026) |
+| Avg DQ-borrower score drop | -62 pts (primary FICO whitepaper); -69 pts in some derivative cites | FICO Spring 2026 |
+| Near-prime (680+) score drop | -100 pts (680→580) for ~2M | TCF/Protect Borrowers Feb 2026 |
+| Gen Z (18-29) -50pt+ drop | 14.4% of cohort | FICO Spring 2026 |
+| Lifetime mortgage cost increase | +$64K (680→580) | TCF |
+| Lifetime auto cost increase | +$8,800 (680→580) | TCF |
 
-**Cascade pathway:**
-1. **Forbearance ends** → 7.5M SAVE borrowers enter repayment (July 1)
-2. **Servicer failures** → MOHELA misses bills → borrowers delinquent without knowing
-3. **Credit report errors** → doubled balances tank scores further
-4. **Payment shock** → non-selectors auto-transition to Standard or Tiered Standard (much higher payments)
-5. **Score destruction** → -62 pts avg; near-prime cohort -100 pts (2M borrowers)
-6. **Cascade** → damaged scores → mortgage/auto/CC denial or repricing → consumer stress amplifies
-
-**Population at risk:** 9.2M in default + 2.4M late-stage DQ + 7.5M SAVE transition = overlapping waves. National avg FICO already dropping, with student loans the primary driver per FICO. 13M projected default by EOY 2026 would extend destruction further.
+**Cascade pathway (unchanged):** Forbearance ends → 7M SAVE borrowers enter repayment Jul 1 → servicer failures (MOHELA) → credit report errors → payment shock → score destruction → CC/auto/mortgage denial or repricing → consumer stress amplifies.
 
 ---
 
 ## TRANSMISSION TO CARL
 
-Student loan stress transmits to CARL's consumer thesis via:
-- **Direct:** DQ/default → credit score destruction → reduced access to credit
-- **Payment hierarchy:** Student loan stress → CC DQ (last to miss) → auto DQ (first priority)
-- **Housing:** Score damage → mortgage denial/repricing → housing demand suppression
-- **Spending:** Repayment resumption → $200-500/mo redirected from consumption
-- **Demographic concentration:** Young (18-29 at 21% DQ), Black borrowers ($25K more), women (2/3 of debt), South (highest DQ rates) — overlaps with subprime consumer stress geography
+Unchanged from Apr 17 in substance. Direct (DQ→score destruction), payment hierarchy (Auto>Mortgage>Student>CC), housing (denial/repricing), spending ($200-500/mo redirected), demographic concentration (young/Black/women/Southern) — overlaps with subprime consumer stress geography.
 
 ---
 
@@ -168,35 +142,29 @@ Student loan stress transmits to CARL's consumer thesis via:
 
 | Date | Event | Impact |
 |------|-------|--------|
-| **Apr 15 — FIRED** | Sweet v. McMahon non-Exhibit C deadline **MISSED** | Auto Full Settlement Relief triggered for ~170K+ borrowers. DOE must send notices by Jun 15, 2026. [PPSL Apr 17] |
-| **Apr 23** | PPSL files opposition to DOE Ninth Circuit merits appeal (26-1136) | Could shape whether merits ruling attempts to unwind auto-relief — watch for Ninth Circuit response |
-| **May 7** | DOE reply brief due in Ninth Circuit | |
-| **May 28** | AFT/MOHELA status conference | Discovery update; any preliminary findings could accelerate regulatory action |
-| **Jun 15** | Sweet non-Exhibit C notice deadline | DOE must send Full Settlement Relief eligibility notices to ~170K+ borrowers |
-| **~May-Jun** | NY Fed Q1 2026 QHDC release | First post-collections-resume DQ data. Test for 90+ DQ crossing 10% threshold |
-| **~Jun** | FSA Data Center Q1 2026 update | Watch for 10M+ default (9.2M already in Mar) |
-| **Jul 1** | SAVE transition notices begin (waves every 2 weeks) + RAP launches | 7.5M forced to choose — CRITICAL. $1.5-2.0B/mo spending destruction begins |
-| **Jul** | Involuntary collections scheduled restart | 5M+ defaulted borrowers face AWG + Treasury Offset. Simultaneous with SAVE transition = compound stress |
-| **Sep 30** | SAVE forbearance effective end | 90-day selection window closes |
-| **Oct 1** | Standard/Tiered Standard resumes for non-selectors | 2.25-3.375M face $0→ elevated payment cliff |
-| **Q3-Q4** | Post-transition DQ wave | New defaults from payment shock + servicer failures + credit reporting cascade |
-
-### RECENT UPDATES (Apr 17)
-- **Sweet v. McMahon Apr 15 MISSED (CONFIRMED):** DOE missed the non-Exhibit C post-class deadline. Automatic Full Settlement Relief triggered for ~170,000+ borrowers (discharge + refunds + credit tradeline deletion). DOE must send eligibility notices by Jun 15, 2026; delivery within 1 year of notice. Confirmed via PPSL live case page accessed Apr 17. Ninth Circuit merits appeal (26-1136) ongoing — PPSL brief due Apr 23, DOE reply May 7. No stay in effect. This is the second consecutive missed Sweet deadline (Jan 28 Exhibit C also missed). [PPSL Apr 17; tateesq.com Apr 6; getoutofdebt.org Apr 9]
-- **SAVE judicially eliminated (Mar 10, 2026):** Eighth Circuit reversed lower court dismissal and entered final judgment in Missouri v. DOE. SAVE is now eliminated both legislatively (WFTCA Jul 2025) and judicially. No path to reinstate. [studentloanplanner.com; NerdWallet Apr 2026]
-- **FICO 90+ DQ rate updated: ~9.8% (FICO Spring 2026, Feb-Apr):** Rate increased 25% from April 2025 rate of 7.9%. 6.1M consumers had a student loan DQ put on credit reports Feb–Apr 2026. Average score drop now -69 pts (updated from -62 pts). 25% of affected borrowers saw -100pt+ drop. [FICO Spring 2026 Credit Insights]
-- **SAVE-to-RAP wave structure confirmed:** Servicers begin issuing transition notices July 1 in waves (new group every 2 weeks). 90-day selection window Jul 1 – ~Sep 30. Non-selectors auto-enrolled in Standard or new Tiered Standard Plan Oct 1. Parent PLUS consolidation deadline was Apr 1 (passed). [ED press release; NerdWallet Apr 2026]
-- **AFT/MOHELA litigation:** Three concurrent class actions active as of Mar 2026 (AFT consumer protection, balance duplication, PSLF obstruction). Discovery continues. Next status conference May 28. No settlement. [NCLC; AFT; HigherEdDive]
-
-### PRIOR UPDATES (Apr 13)
-- **Default count: 9.2M (Mar 2026):** Senior ED official confirmed 9.2M in default as of early March 2026 (up from 7.7M Dec 2025, +1.5M in ~90 days). Additional 2.4M in late-stage DQ. This was the basis for Treasury Transfer Phase 1 on Mar 19. [ED press announcement, Inside Higher Ed, CNBC, Mar 2026]
-- **FICO avg score: 714 (H2 2025):** National average dropped from 716. Student loan delinquencies primary driver. 7M+ new DQ reports in 2025. Near-prime borrowers (680+) dropped 100 pts average. Gen Z 14.4% saw -50pt+ drop. [FICO Spring 2026 Credit Insights, released Mar/Apr 2026]
-- **AFT/MOHELA: Discovery phase.** Next status conference May 28, 2026. No settlement. Case includes new data: MOHELA abandon rate >14% vs 5% max for any other servicer. [AFT/Protect Borrowers, court docket]
-- **Sweet v. McMahon: New judge assigned.** Judge Alsup retired; new judge handling Apr 15 non-Exhibit C deadline compliance. No public record of DOE issuing notices as of Apr 13. If DOE misses → auto full relief for non-Exhibit C cohort (repeating Jan 28 pattern). [PPSL, tateesq.com, Apr 2026]
-- **RAP clarification (Mar 31 ED guidance):** Non-selectors after 90-day window auto-transition to Standard Repayment OR new Tiered Standard Plan (NOT direct default). Reduces immediate default cliff but does not eliminate payment shock ($0→$407+ vs $0→potentially lower on Tiered Standard). Full payment shock materializes for those who miss transition entirely.
-- **Maldonado v. MOHELA ruling (Mar 2026):** Court confirmed MOHELA violated CA Student Borrower Bill of Rights + Unfair Competition Law. Creates legal precedent for other states.
-- **Collections pause (Jan 16 2026):** DOE paused all involuntary collections (AWG + Treasury Offset) after sending first garnishment wave Jan 7. Expected restart July 2026.
+| **Jun 15 (6d)** | **Sweet v McMahon non-Exhibit C notice deadline** | DOE must mail Full Settlement Relief eligibility notices to ~170K+ borrowers. Watch for confirmation OR missed-deadline (same auto-relief mechanism continues if missed). |
+| **Jun 16-17** | **FOMC meeting** | Student loan stress is a real-economy stress catalyst — CRL-04 breach worth surfacing to packet |
+| **~Jun-Jul** | NY Fed Q1 2026 follow-up commentary; FSA Q1 2026 portfolio update (if released) | 2nd-print on 10.3% 90+ DQ; FSA stock-vs-flow reconciliation |
+| **Jul 1 (22d)** | **SAVE→RAP transition formal waves begin** | ~7M borrowers begin receiving personalized 90-day notices; $1.5-2.0B/mo spending destruction begins; RAP plan goes live |
+| **Jul (TBD)** | Involuntary collections restart | 5M+ defaulted face AWG + Treasury Offset |
+| **Jul (TBD)** | Treasury Phase 1 launches with ~500K defaulted accounts (refined scope) | Operational handoff begins; bigger Phase 1 cohort to follow |
+| **Q3-Q4 2026** | MOHELA-caused default wave + post-transition DQ acceleration (CRL-14 test window) | Q3-Q4 realization of CRL-13 (non-selection >35%) + CRL-14 (MOHELA-caused defaults >500K) |
+| **Sep 30** | First-cohort 90-day windows start closing | Non-selectors begin auto-transition Oct 1 |
+| **TBD** | AFT v MOHELA next status conference (not in public record) | OPEN QUESTION — court-docket pull needed |
+| **TBD** | Ninth Circuit Sweet appeal — oral argument | Briefing complete; argument unscheduled |
 
 ---
 
-*Sub-agent of CARL. See CARL STATUS.md for consumer stress context.*
+## OPEN QUESTIONS (this session)
+
+1. AFT v MOHELA — what was filed at/around May 28? What discovery has been produced? Next-hearing date? (Court-docket pull required.)
+2. Has Sweet Jun 15 notice mailing begun? (PPSL has not publicly confirmed as of Jun 9.)
+3. NY Fed 10.3% Q1 90+ DQ — does the 2nd print (Q2 2026 release ~Aug) sustain after scoring-methodology change settles?
+4. NY Fed flow (2.6M Q1 DRG transfers) vs ED stock (9.2M Mar 2026 in-default) — full reconciliation. Need FSA Q1 data when released.
+5. Treasury Phase 1 — is the 500K July cohort the entire Phase 1, or just the launch wave?
+
+See `OPEN_QUESTIONS_2026-06-09.md` for fuller framing.
+
+---
+
+*Sub-agent of CARL. See CARL STATUS.md for consumer stress context. State vectors written this session: SV-STUE-2026-06-09-01 (CRL-04 breach), SV-STUE-2026-06-09-02 (SAVE Jul 1 confirmation).*
