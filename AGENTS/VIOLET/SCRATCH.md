@@ -25,7 +25,7 @@
 ## NEXT SESSION (priority-ordered)
 
 1. **🔴 Post-CPI vol-surface read (6/10 print lands 8:30 ET).** This is VIOLET's legit CPI role — REACTIVE, not pre-mortem. Read the surface response: does the front collapse (fade confirms) or does VIX extend (fade breaks)? Pull CPI **energy sub-index** = the BRENT-agreed discriminator isolating oil→Fed from AI-unwind (KB-VIO-071/073). HENRY/CARL own the print itself.
-2. **🟠 Refresh the rows I stale-tagged** — VIX9D (front-end un-inversion?), 20d-SKEW-avg recompute (does regime still hold ≥140 with SKEW easing to ~145?), MOVE.
+2. ✅ **DONE 6/9 — stale rows refreshed.** VIX9D 22.30 (still > spot 1.089, inversion easing); **20d-SKEW-avg = 140.50 → R12 regime HOLDS ≥140 but THIN (+0.50), propped by 6/5 152.25 in the rolling window — will drift toward 140 as that rolls off unless SKEW re-firms (watch daily);** MOVE 76.98 (+2.4% 1d, not stressed). Also: **spot VIX eased further intraday to 20.48** (back below 21) = fade continuing pre-CPI. → carry: the regime-margin watch is the new thing to track daily.
 3. **🟡 Deep-tail OI monitor (not a fresh signal — watch for CHANGE).** 65-strike is a standing structure (KB-VIO-066), flat since 6/1. The actionable signal would be a genuine day-over-day BUILD in 65C OI (use vix_options.py `detect_dod_changes` >20% flag), not its level. Don't re-flag the standing level as new.
 4. **🟠 Pred #6 SKEW sustainment** — needs >150 sustained 4+td; 6/8 close ~145 = leaning UNCONFIRMED. Checkpoint daily close.
 5. **🟡 L2 consensus-miss carve-out backtest** (KB-VIO-069/074 follow-on) — define σ threshold, backtest vs the 5-failure modern set.
