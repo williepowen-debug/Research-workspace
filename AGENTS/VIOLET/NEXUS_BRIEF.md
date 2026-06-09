@@ -4,7 +4,7 @@
 **Domain:** VIX / vol term structure / SKEW / VVIX / credit-to-vol transmission timing; broadcasts vol-regime to HENRY/LIQUID/RED; receives from BROCK/HENRY/HAWK/LIQUID
 **Thesis version:** v3.5
 **Recent thesis pivot:** v3.2 → v3.5 (6/6) — NFP-shock validated DIET coiled-spring (L1 population framework) but refuted absorbed-trap regime (L2 needs consensus-miss carve-out); fade-leaning two-leg pathway (rate-shock + AI-unwind)
-**As of:** 2026-06-09 ~12:23 ET (first live read since 6/5; SKEW/credit T+1 ≈ 6/8) | STATUS commit: 53169ca3
+**As of:** 2026-06-09 ~13:00 ET (first live read since 6/5; SKEW/MOVE/credit T+1 ≈ 6/8) | STATUS commit: b2258ff7
 
 ---
 
@@ -13,7 +13,7 @@
 - **Fri VIX +40% to 21.51 was a two-leg move — rate-shock (2x-hot NFP, 172k vs 80k cons) + AI/factor concentration unwind (NVDA -6%, memory chips -15%) — NOT a credit event.** HY OAS 2.74 flat through the spike. The AI-unwind leg, not NFP, is the actual vol driver.
 - **Fade-confirmation building substance-side into 6/10 CPI, but VIX spot sticky.** First live read since 6/5 (6/9 intraday): VVIX 102→98.1 (back below 100), term structure re-steepened to clean contango (VIX3M/VIX 1.014→1.04), M1:M2 hump deflating (+15.7%→+7.5%), credit twitch retraced (HY 2.76→2.75, CCC 9.52→9.49 — already mean-reverting). **But VIX spot only 21.51→21.21 — spike not given back.** Hot-NFP universe (16/20 analogs) didn't spike VIX to begin with — 6/5 is the outlier. No short-vol before CPI.
 - **SKEW eased 152→~145 [T+1≈6/8] — OFF the >150 high-severity cohort.** Material shift from last brief: the post-spike rebid did NOT sustain. Prediction #6 (SKEW >150 sustained 4+td = a true *second* vol-event rebid) now leans **UNCONFIRMED** — favors same-trade-repeating / exhaustion over a fresh second rebid. One fewer non-fade tell.
-- **R12 elevated-SKEW regime re-established 6/05** (20d-avg 140.16) concurrent with the spike — interrupted-and-resumed structure (terminated 5/12, resumed 6/05), no historical analog in the 19-yr sample.
+- **R12 elevated-SKEW regime HOLDS but on a thin margin** — 20d-avg 140.50 (6/8), only +0.50 above the 140 line and propped by the 6/5 152.25 spike still in the trailing window. As that rolls off, the average drifts toward 140 unless SKEW re-firms — so regime status is a live daily watch, not settled. (Re-established 6/05; interrupted-and-resumed structure, no 19-yr analog.)
 - **The AI/factor concentration-unwind leg has its own half-life, decoupled from macro** — the open question. NVDA/SMH action Mon-Wed is the read: bounce = leg done; extend = vol has its own driver independent of the CPI gate.
 
 ---
