@@ -1,54 +1,52 @@
-# VIOLET SCRATCH — June 7-8, 2026 (Sun eve → Mon — NEXUS_BRIEF standup + corrections)
+# VIOLET SCRATCH — June 9, 2026 (Tue ~12:23 ET — boot + L1-L4 stack post-mortem)
 
 **Purpose:** Ephemeral session handoff. Read at boot, rewritten at write-back. Persistent learnings → `MEMORY.md` / auto-memory; dated catalysts → `CALENDAR.md`/`CATALYSTS.tsv`.
 
 ---
 
-## CHANGES SINCE LAST SESSION (6/6 → 6/7-8, market closed all session)
+## CHANGES SINCE LAST SESSION (6/8 → 6/9, first live-market read since 6/5)
 
-- **No new market data.** Markets closed Sun; all dashboard levels still 6/5 EOD (VIX 21.51, SKEW 152.25, VVIX 102.04, M1:M2 +15.71%, HY 2.74). Boot.py confirmed unchanged.
-- **Two factual corrections caught this session** (see WHAT I DID): May CPI date was wrong (6/12 → **6/10**, BLS-verified); NFP consensus was wrong (88k → **80k** Dow Jones).
-- **NEXUS_BRIEF system reached VIOLET** — fleet rollout (schema locked R3+amd7; SAM + BRENT pilots ratified). VIOLET is one of the 11 remaining Tier-1 agents to draft a brief.
+- **Fade-confirmation building substance-side, VIX sticky.** First live tape since the 6/5 NFP spike. The spike is bleeding off into the CPI gate exactly as the fade pathway predicted: VVIX **102→98.1** (back below 100), SKEW **152→~145** [T+1≈6/8] (off the >150 high-severity cohort), VIX3M/VIX **1.014→1.0405** (re-steepened to clean contango), M1:M2 **+15.71%→+7.50%** (event-premium hump deflating). **BUT VIX spot 21.51→21.21** — only −0.30, spike not given back. All resolves on 6/10 CPI.
+- **Credit twitch retraced.** FRED direct (boot's fred_fetch credit block returns silently on cache hit — see fix below): HY 2.76 (NFP day) → **2.75** (6/8); CCC 9.52 → **9.49**; IG 0.75. The 2-6bp NFP-day wiggle is already mean-reverting. "Credit didn't crack" now has clean post-spike confirmation. All Stage-3 gates untouched, no closer than 6/5.
+- **NEW: far-OTM VIX call tail-hedge bid.** boot vix_options: 7/22 65C OI **+206%**, 45C +112%, 35C +65%; 6/17 65C +206%. Someone laying cheap far-OTM VIX call tails for the FOMC-and-beyond window — a tail-bid that **contradicts a clean fade.** Track who/scale next session.
 
 ## WHAT I DID THIS SESSION
 
-**Primary task (Will): stand up VIOLET's NEXUS_BRIEF.**
+**Primary task (Will-chosen from menu): L1-L4 stack post-mortem.** Dropped CPI prep — Will flagged (correctly) that macro-print forecasting is HENRY/CARL domain, not VIOLET's; VIOLET's only legit CPI interest is the reactive post-print vol-surface read.
 
-1. **Built `NEXUS_BRIEF.md`** (77 lines, within SAM's ~76 cap) against the locked schema. Modeled rigor on SAM (diverge-line framing, conviction decomp) + BRENT (cross-domain mechanism columns). Commits `e5b1d967` (initial) → `e5fdde30` → `167c91e8`.
-2. **Wired write-back into `CLAUDE.md`** closeout as **step 12** (mandatory every session, min = As-of + STATUS-hash refresh); promotion-scan→13, git→14. Updated read-write pairings line + FILES YOU MAINTAIN table. Noted brief = primary cross-agent surface (outbox = 🔴 acute only).
-3. **Self-review caught the CPI date error** (Will asked me to look over the work): verified via BLS that May CPI = **Wed 6/10**, not 6/12. VIOLET was 2d off; SAM/BRENT already had 6/10. Propagated 6/10 + recomputed day-counts (5td→3td, 7cal→5cal) across brief + STATUS (7 refs) + CALENDAR + CATALYSTS.tsv (source of truth) + SCRATCH. Also trimmed brief status banner (was 2 fused claims + >120 chars — the exact pilot-review ding on BRENT). Commit `b9616991`.
-4. **BRENT read the brief + conceded the cascade tension** (relayed via Will). My Type-B flag (BRENT claims 6/5 VIX +40% as his single-root oil→Fed cascade terminus; VIOLET says multi-root NFP + AI-unwind) **RESOLVED to multi-root** — BRENT steelmanned my read and downgraded his claim. Updated brief CALIBRATION (tension RAISED+RESOLVED; Type-B flipped from open question to resolved Discipline-F case). Filed **KB-VIO-073**. Also fixed **NFP consensus 88k→80k** (BRENT was right; verified CNBC). Commit `e5fdde30`.
-5. **Integrated SAM's brief properly** (Will prompt — I'd under-used it): added **SAM WAITING-FOR edge** (BOJ 6/16 hawkish-of-pricing + at-peak carry = Aug-2024-style carry-unwind VIX spike — the analog already in my Path-B queue), **BOJ 6/16 to FORWARD CATALYSTS + CATALYSTS.tsv + CALENDAR**, and a **2nd Type-B flag** (mid-June positioning-unwind cluster: AI-unwind + yen-carry + FOMC + VIX expiration same week — shared de-risking root or independent?). Commit `167c91e8`.
-6. **Closeout write-back:** KB-VIO-073, STATUS timestamp+correction log, BOJ catalyst added to docket, this SCRATCH, brief As-of+hash refresh, auto-memory promotion.
+1. **Wrote `research/2026-06-09_l1_l4_stack_postmortem.md`.** The 6/5 NFP shock was the stack's first clean live test. **Finding:** the one mechanism-AGNOSTIC layer (L1 population/base-rate) paid forward exactly (+40% at td-4, inside its 65% base rate); all three mechanism-DISCRIMINATOR layers (L2 absorbed-trap, L3 Volmageddon-matrix, L4 COT-crowding) failed because the actual driver (consensus-miss labor shock + AI/factor unwind) was in none of their enumerated mechanism sets. **Clincher:** same L2-L4 filters were RIGHT on Episode-17 (vetoed a loser) and WRONG on 6/5 (would have vetoed a +40% winner) — same reading, opposite correct outcomes. **Fix:** anchor sizing on L1; give every discriminator a "mechanism-not-recognized → abstain/null" output so it defers to the base rate instead of emitting a confident wrong "inactive" veto.
+2. **Logged KB-VIO-074** (13-col, validated vs SCHEMA). DerivedFrom 067/068/069/070; Vectors →CARL,→BROCK,→HENRY.
+3. **Promoted to auto-memory** `base-rate-vs-mechanism-discriminator.md` + MEMORY.md index line (transferable: any agent stacking a base-rate signal with mechanism filters).
+4. **Fixed `scripts/fred_fetch.py`** — credit block looked like it was failing (returned empty) but was actually a *silent cache hit* (line 26-27 returned without printing). Added a `(cached)` print so cache-hits are visible. Verified. **No real bug — the original timeout was just slow network on the rates half.** (Lesson was mine: check cache before declaring a bug.)
+5. **STATUS write-back** — full dashboard refresh to 6/9 intraday + stale-tagged the rows I couldn't refresh (VIX9D, 20d-avg, MOVE, SPX); convergence VVIX 🟠→🟡; research-queue post-mortem marked DONE.
 
-**Thesis NOT bumped** — the multi-root resolution CONFIRMS existing v3.5 Path-B classification of 6/5; it doesn't change the view, so no version bump / CHANGELOG entry (trigger is "closeout that updates the thesis").
+**Thesis NOT bumped** — post-mortem is methodology/calibration, not a view change. Fade-leaning two-leg framing (v3.5) intact and strengthening substance-side.
 
 ## NEXT SESSION (priority-ordered)
 
-1. **🔴 6/10 May CPI pre-mortem** (2 td from Mon boot) — tail/non-tail bracket + position-discipline contingencies. **Primary fade gate.** Also: CPI energy component is the agreed-with-BRENT discriminator isolating his oil→Fed signal from my AI-unwind read — pull the energy sub-index, not just headline.
-2. **🟠 Post-spike SKEW sustainment watch (Prediction #6)** — need SKEW >150 sustained 4+td for the back-to-back-cluster prediction. 6/5 was 152.25; checkpoint each daily close 6/8-6/11. (Note: only 3 td before CPI now that gate is 6/10.)
-3. **🟠 BOJ 6/16 carry-unwind vol watch (NEW)** — track SAM's CFTC fuel-load (last pre-blackout read Sat 6/13). Hawkish-of-pricing + at-peak = Aug-2024 analog lands on elevated front-end. As-priced hike = non-event.
-4. **🟠 VIX +30% single-day-from-low-base scan** — right analog class for Path B (Aug 2024 yen carry, Nov 2018 FANG, Feb 2018, Mar 2020). Small N; cases not stats. Port `/tmp/nfp_analog_backtest.py` → `scripts/` first.
-5. **🟡 Episode-17 post-mortem disposition** — now quadruply-deferred (5/21+6/1+6/5+6/7). Fold into KB-VIO-070/073 as superseded OR write stand-alone `research/` file. Pick — stop carrying.
-6. **🟡 L2 consensus-miss carve-out formalization** (KB-VIO-069 patch) — define σ threshold + backtest.
-7. **🟡 KB-VIO-068 Q3 quadrant base-rate scan** — pre-FOMC-week historical scan; resolve PROVISIONAL before 6/17.
-8. **🟢 Boot fresh Mon AM** — refresh VRP, FRED OAS T+1 (6/5 EOD prints land), confirm SKEW daily close.
+1. **🔴 Post-CPI vol-surface read (6/10 print lands 8:30 ET).** This is VIOLET's legit CPI role — REACTIVE, not pre-mortem. Read the surface response: does the front collapse (fade confirms) or does VIX extend (fade breaks)? Pull CPI **energy sub-index** = the BRENT-agreed discriminator isolating oil→Fed from AI-unwind (KB-VIO-071/073). HENRY/CARL own the print itself.
+2. **🟠 Refresh the rows I stale-tagged** — VIX9D (front-end un-inversion?), 20d-SKEW-avg recompute (does regime still hold ≥140 with SKEW easing to ~145?), MOVE.
+3. **🟠 Tail-hedge bid investigation** — 7/22 65C +206% etc. Pure VIOLET-domain flow; a tail-bid contradicting the fade. Who/scale/why.
+4. **🟠 Pred #6 SKEW sustainment** — needs >150 sustained 4+td; 6/8 close ~145 = leaning UNCONFIRMED. Checkpoint daily close.
+5. **🟡 L2 consensus-miss carve-out backtest** (KB-VIO-069/074 follow-on) — define σ threshold, backtest vs the 5-failure modern set.
+6. **🟡 L3 Q3 base-rate scan** — pre-FOMC-week M1:M2-expansion-with-VIX-rising cases. Resolve PROVISIONAL **before 6/17**.
+7. **🟠 Factor-concentration-unwind analog scan** — the missing discriminator the post-mortem exposed (Aug-2024 carry, Nov-2018 FANG, Feb-2018, Mar-2020). Port `/tmp/nfp_analog_backtest.py` → `scripts/` first.
+8. **🟡 BOJ 6/16 carry-unwind watch** (SAM edge) — track CFTC fuel-load (last pre-blackout Sat 6/13).
 
 ## CARRY-FORWARD
 
-- **Brief As-of/hash discipline:** NEXUS reads the brief's `STATUS commit:` hash for mechanical stale-check. Refresh it every closeout after the STATUS commit — this session set it to the closeout STATUS commit.
-- **Asymmetric edges to flag (parallel to BRENT note):** VIOLET now has WAITING-FOR edges on SAM (carry-unwind) and BRENT (resolved), but neither SAM's nor BRENT's brief sends *to* VIOLET. NEXUS catches it from my side regardless; if relaying, SAM could add a VIOLET-facing carry-unwind→vol SENDING row for symmetry. Not blocking.
-- **NFP analog backtest script** (`/tmp/nfp_analog_backtest.py`) — still needs porting to `scripts/` for repeatability (carried from 6/5).
-- **R12 interrupted-and-resumed regime status** — open analytical question (24-td gap = reset or interruption?). KB-VIO-072 deferred research.
-- **CATALYSTS.tsv BOJ row uses type=MACRO** — first non-DATA/OPEX/FOMC type in the docket; verify catalyst_countdown.py renders it fine at next boot (it sorts/displays by date, should be fine).
+- **Push parked.** Committed locally this session per Will ("commit locally, I'll coordinate the push later"). Working tree also has uncommitted HENRY + LIQUID changes (other agents) — did NOT pull, did NOT touch their files.
+- **Brief As-of/hash discipline** — refreshed this closeout to the new STATUS commit.
+- **NFP analog backtest script** (`/tmp/nfp_analog_backtest.py`) — still needs porting to `scripts/` (carried from 6/5).
+- **fred_fetch rates lag** — DGS10/DGS2 cache ends 6/5 even on a 6/9 fetch; latest available 10Y 4.55 / 2Y 4.17. Treasury series may lag more than expected; re-check.
 
 ## OPEN HYPOTHESES (flagged, NOT actionable until backtested)
 
-- **Mid-June positioning-unwind cluster (NEW 6/7):** AI/factor unwind (Path B) + yen-carry unwind into BOJ 6/16 (SAM) + FOMC 6/17 + VIX June expiration all land the same week. Shared "global de-risking" antecedent, or independent convergences? If shared, mid-June vol risk underpriced vs single-leg fade. 2nd Type-B candidate handed to NEXUS. Test: do AI-unwind (NVDA/SMH) and carry (CFTC/USDJPY) co-move 6/8-6/16, or move on separate logic?
-- **AI/factor concentration unwind has its own half-life decoupled from macro.** Carried from 6/5-6/6. Test: NVDA/SMH price action Mon-Wed (bounce = leg done; extend = own driver).
-- **Post-spike SKEW rebid signature:** SKEW 142→152 *into* the spike (high-severity cohort) — informational about NEXT vol event (Pred #6), or same trade structurally repeating? Test: SKEW >150 through 6/10 CPI.
-- **L2 consensus-miss carve-out:** absorbed-trap holds for consensus-aligned catalysts, breaks on N-σ misses. Define precisely + backtest.
+- **Tail-hedge bid vs fade tension:** far-OTM VIX call OI building (7/22 65C +206%) while the front fades. Smart tail-hedging into FOMC, or early positioning for a leg the surface isn't pricing? Test: does the bid persist/grow through CPI, and does it concentrate in any single expiry/strike?
+- **Mid-June positioning-unwind cluster (from 6/7):** AI-unwind + yen-carry-into-BOJ-6/16 + FOMC-6/17 + VIX-June-expiration all same week. Shared de-risking root or independent convergences? Test: do NVDA/SMH and CFTC/USDJPY co-move 6/9-6/16?
+- **AI/factor unwind has own half-life decoupled from macro.** Test: NVDA/SMH action — bounce = leg done; extend = own driver.
+- **L2 consensus-miss carve-out:** absorbed-trap holds for consensus-aligned catalysts, breaks on N-σ misses (6/5 was 2.15×). Define σ + backtest.
 
 ---
 
-*Last rewritten: 2026-06-08 (NEXUS_BRIEF standup session. Built brief + wired closeout write-back; caught + propagated CPI date 6/12→6/10 and NFP consensus 88k→80k; BRENT cascade-tension resolved to multi-root [KB-VIO-073]; SAM carry-unwind edge + BOJ 6/16 catalyst + 2nd Type-B cluster added. 5 commits pushed-pending [push parked at +8 over origin per Will's defer-push direction: 4 BRENT + 4 VIOLET, now +closeout]. Brief surfaced its value immediately — caught a peer-vs-peer date drift and resolved a live cross-agent attribution error within one evening.)*
+*Last rewritten: 2026-06-09 ~12:23 ET (boot + L1-L4 post-mortem session. Wrote post-mortem research file + KB-VIO-074 + auto-memory; fixed fred_fetch cache-print; full STATUS refresh to 6/9 intraday — fade-confirmation building substance-side, VIX sticky into 6/10 CPI. Committed locally, push parked for Will-coordinated window. Dropped CPI pre-mortem per Will [HENRY/CARL domain]; VIOLET CPI role is the reactive post-print surface read.)*

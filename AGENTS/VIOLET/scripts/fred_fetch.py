@@ -24,7 +24,9 @@ def fetch_series(
     cache_file = CACHE_DIR / f"{series_id}_{start}_{end}.csv"
 
     if cache_file.exists() and not force:
-        return pd.read_csv(cache_file, parse_dates=["DATE"], index_col="DATE")
+        df = pd.read_csv(cache_file, parse_dates=["DATE"], index_col="DATE")
+        print(f"[FRED] {series_id}: {len(df)} rows (cached)")
+        return df
 
     url = (
         f"https://fred.stlouisfed.org/graph/fredgraph.csv"
