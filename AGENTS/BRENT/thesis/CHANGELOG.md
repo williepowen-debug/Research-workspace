@@ -8,6 +8,24 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-06-09 — IRAN-ISRAEL MUTUAL HALT + CHINA-IMPORT SUBSTRATE = thesis under genuine pressure, not pricing fatigue (intra-version POV pivot; no v-bump — gated on Thu CPI batch)
+
+**Author:** BRENT (with Will, Jun 9 PM session)
+**Trigger:** Brent $90.15 (-4.35%) intraday Tue → news cross-check identified Iran-Israel mutual halt Mon Jun 8 PM + China crude imports 8-yr low (~7.8M bpd May, -4M bpd vs 2025 avg) as the drivers.
+**Action:** STATUS.md material reframe end-to-end — header/Overall Status/LIVE TODOs/STATE/Diplomatic+Kinetic+Macro subsections/Path A-B/Price dashboard/Positions/Convergence matrix/Two-phase thesis/Predictions table/Open items/Catalyst calendar/Summary for Will. CF $130C disposition formalized as lottery-ticket (soft trigger +10% sell, hard backstop expire Jun 18). Catalyst calendar pruned to forward-only.
+
+**Old view (Sun Jun 7 PM closeout):** "Phase 1 INTACT BUT KINETIC-MARKET DECOUPLING" — week's bleed read as "market dismissing kinetic / positioning bleed"; tape no longer pricing either tail aggressively. BRT-27 walkback tracking toward partial-confirm by Jun 15. STEO Tue Jun 9 expected to revise Q2 Brent peak UP. XLE 4-month runway "still the asset"; CF chain-decoupling watch. Macro reframe (Jun 7 PM, post-VIOLET) held Fri VIX +40% as multi-root (NFP+AI-unwind), not BRT-16 firing.
+
+**New view (Tue Jun 9 ~13:00 ET):** Sun PM read was directionally close on tape, wrong on driver — the week's bleed was **forward-pricing of a de-escalation arc that materialized Mon Jun 8 PM**. Iran-Israel mutual halt (Iran announced halt conditional on no Israeli Lebanon strikes; Netanyahu confirmed Israel halt; IDF refraining at Trump's request; school/workplace restrictions lifted Tue 6 AM local) is the first major step-down since April ceasefire collapsed. **Phase 1 diplomatic leg IMPROVED; physical leg INTACT; pricing channel UNDER PRESSURE.** Hormuz-MOU remains a separate negotiating track (tankers FLAT Mon close confirms market correctly distinguishing). China-import substrate (~7.8M bpd May, -4M bpd vs 2025 avg) firms the move down. BRT-27 price-side conditional (Brent <$92 within 5td if HAW-09 confirms) **already met intraday Tue at $90.15** — could fire EARLY ahead of Jun 15 deadline. XLE $65C premise (sustained $90+ Brent floor) **actively tested at the line**. BRT-15 tanker thesis now **actively going against** (re-arm progressively less likely if halt holds). Macro directional test FLIPPED: instead of "spike drives hike," now "retrace removes hike pressure" → potential USD soften → crude floor support (inverse-feedback dynamic to track). STEO TODAY Q2 Brent peak now likely revised DOWN, not up. **v3.1 bump candidate** gated on Thu Jun 12 CPI energy batch (STEO/EIA/CPI converging evidence).
+
+**Calibration shifts:**
+- BRENT prior on Iran-walkback (Jun 8 adopted HAW-09's 35%) now warrants upward revision after Mon halt — directional intuition was right, magnitude was muted. HAWK owns formal HAW-09 update.
+- "Market dismissing kinetic" → reframed as "market forward-pricing de-escalation arc." Same tape, different mechanism — the kinetic-without-damage pattern broke not by going further but by **stopping**, which was the harder-to-predict path.
+- Auto-memory `[[finding_catalyst_vs_consequence_conflation]]` re-validated: I had conflated same-day correlation with causation again on Sun PM's bleed read.
+- New auto-memory: `[[feedback_outbox_restraint_for_push_friction]]` — only write cross-agent outboxes for 🔴 critical signals (each file adds push/merge friction Will absorbs). Validated by Will declining today's proposed HAW-09 corroboration outbox.
+
+---
+
 ## 2026-06-08 — BRT-27 / BRT-28 SCOPE-NARROW: event-shaped → price-consequence conditionals on HAW-09 / HAW-10 (prediction-scope refinement; no v-bump)
 
 **Author:** BRENT (Will-gated, in response to HAWK Jun 8 scope-clarification ask)
