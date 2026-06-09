@@ -8,7 +8,7 @@
 
 - **Fade-confirmation building substance-side, VIX sticky.** First live tape since the 6/5 NFP spike. The spike is bleeding off into the CPI gate exactly as the fade pathway predicted: VVIX **102→98.1** (back below 100), SKEW **152→~145** [T+1≈6/8] (off the >150 high-severity cohort), VIX3M/VIX **1.014→1.0405** (re-steepened to clean contango), M1:M2 **+15.71%→+7.50%** (event-premium hump deflating). **BUT VIX spot 21.51→21.21** — only −0.30, spike not given back. All resolves on 6/10 CPI.
 - **Credit twitch retraced.** FRED direct (boot's fred_fetch credit block returns silently on cache hit — see fix below): HY 2.76 (NFP day) → **2.75** (6/8); CCC 9.52 → **9.49**; IG 0.75. The 2-6bp NFP-day wiggle is already mean-reverting. "Credit didn't crack" now has clean post-spike confirmation. All Stage-3 gates untouched, no closer than 6/5.
-- **NEW: far-OTM VIX call tail-hedge bid.** boot vix_options: 7/22 65C OI **+206%**, 45C +112%, 35C +65%; 6/17 65C +206%. Someone laying cheap far-OTM VIX call tails for the FOMC-and-beyond window — a tail-bid that **contradicts a clean fade.** Track who/scale next session.
+- **Deep-tail VIX 65C OI = STANDING, not a fresh bid (corrected — KB-VIO-075).** Initial boot read of "tail-hedge bid building +206%" was a misread: the +206% is **moneyness** (65/21.24−1), not OI growth. Actual 65-strike OI is flat since 6/1 (7/22 65C 254,923→261,158 = +2.4%; 6/17 65C 176,503→176,362 = −0.08%) — already logged KB-VIO-066. Recent moderate-strike flow (7/22 25C) softened −9.8% 6/5→6/9. Net: standing crash-hedge structure, static, **neutral to the fade** (not a counter-tell). Only looks "closer to the money" because spot rose 16→21.
 
 ## WHAT I DID THIS SESSION
 
@@ -26,7 +26,7 @@
 
 1. **🔴 Post-CPI vol-surface read (6/10 print lands 8:30 ET).** This is VIOLET's legit CPI role — REACTIVE, not pre-mortem. Read the surface response: does the front collapse (fade confirms) or does VIX extend (fade breaks)? Pull CPI **energy sub-index** = the BRENT-agreed discriminator isolating oil→Fed from AI-unwind (KB-VIO-071/073). HENRY/CARL own the print itself.
 2. **🟠 Refresh the rows I stale-tagged** — VIX9D (front-end un-inversion?), 20d-SKEW-avg recompute (does regime still hold ≥140 with SKEW easing to ~145?), MOVE.
-3. **🟠 Tail-hedge bid investigation** — 7/22 65C +206% etc. Pure VIOLET-domain flow; a tail-bid contradicting the fade. Who/scale/why.
+3. **🟡 Deep-tail OI monitor (not a fresh signal — watch for CHANGE).** 65-strike is a standing structure (KB-VIO-066), flat since 6/1. The actionable signal would be a genuine day-over-day BUILD in 65C OI (use vix_options.py `detect_dod_changes` >20% flag), not its level. Don't re-flag the standing level as new.
 4. **🟠 Pred #6 SKEW sustainment** — needs >150 sustained 4+td; 6/8 close ~145 = leaning UNCONFIRMED. Checkpoint daily close.
 5. **🟡 L2 consensus-miss carve-out backtest** (KB-VIO-069/074 follow-on) — define σ threshold, backtest vs the 5-failure modern set.
 6. **🟡 L3 Q3 base-rate scan** — pre-FOMC-week M1:M2-expansion-with-VIX-rising cases. Resolve PROVISIONAL **before 6/17**.
@@ -42,7 +42,7 @@
 
 ## OPEN HYPOTHESES (flagged, NOT actionable until backtested)
 
-- **Tail-hedge bid vs fade tension:** far-OTM VIX call OI building (7/22 65C +206%) while the front fades. Smart tail-hedging into FOMC, or early positioning for a leg the surface isn't pricing? Test: does the bid persist/grow through CPI, and does it concentrate in any single expiry/strike?
+- **Deep-tail structure half-life:** there's a large standing 65-strike call position (~261k 7/22, ~176k 6/17) held flat since at least 6/1. Static = no signal. Hypothesis to watch: if it starts UNWINDING (OI falling) as the fade plays, that's tail-hedge monetization = confirms fade; if it BUILDS day-over-day, someone's pricing a leg the front isn't. Either direction is the signal; the level is not.
 - **Mid-June positioning-unwind cluster (from 6/7):** AI-unwind + yen-carry-into-BOJ-6/16 + FOMC-6/17 + VIX-June-expiration all same week. Shared de-risking root or independent convergences? Test: do NVDA/SMH and CFTC/USDJPY co-move 6/9-6/16?
 - **AI/factor unwind has own half-life decoupled from macro.** Test: NVDA/SMH action — bounce = leg done; extend = own driver.
 - **L2 consensus-miss carve-out:** absorbed-trap holds for consensus-aligned catalysts, breaks on N-σ misses (6/5 was 2.15×). Define σ + backtest.
