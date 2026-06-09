@@ -14,6 +14,43 @@ routine content edits. Archive to `archive/` if it grows past ~300 lines (SAM ca
 
 ---
 
+## 2026-06-09 (PM) — WINTERKORN docket-steward sub-agent (v2.6 → v2.7)
+
+**Trigger:** Same-session follow-on to thesis/ consolidation (v2.6). Will-directed TIER-1 audit identified the docket-keeper sub-agent as the highest-leverage next move — the Jun-8 First Brands `Jun 17 → Jun 12` catch was precisely the failure mode FASTOW's `[[finding_subagent_pre_fire_date_verification]]` was built to prevent. Planned-before-built: spec sub-agent identity, scope, autonomy gradient, recurring-release universe, spawn cadence, 7 open scope questions answered by Will before any file written.
+
+**What changed:**
+- **New `docket/WINTERKORN.md` (spec, ~250 lines).** FASTOW-pattern scoped owner. Mandate: maintain `docket/CATALYSTS.tsv` + verify forward dates against bankruptcy dockets, SEC EDGAR, rating-agency calendars, ABS pricing windows. Busy-work only — no analytical judgment. Owns write to CATALYSTS.tsv + WINTERKORN_MEMORY.md only; never touches STATUS / THESIS / CHANGELOG / PREDICTIONS / workbook / scripts. Pre-fire date verification within 7d window is the load-bearing job step (Jun-17→Jun-12 catch made cadence). Monthly baseline audit + post-miss audit with decline-memory (CALIBRATION is OTTO-owned; WINTERKORN reads but never writes).
+- **New `docket/WINTERKORN_MEMORY.md` (state, ~120 lines, seeded blank).** Inaugural — no LAST RUN history. STANDING MONITORS seeded with per-case watches (First Brands highest activity; Tricolor Ch.7 cert-blocked source pattern; SDNY criminal selective; Carvana derivative) + recurring releases (Fitch ABS Index monthly, NY Fed HDC quarterly, S&P/KBRA/Moody's surveillance) + bank-earnings cycle (named-banks subset) + ABS pricing windows (modeled). NEXT RUN HINTS includes bootstrap-specific guidance for the imminent Jun 12 First Brands UST hearing.
+- **CLAUDE.md Doc Ownership** — added 2 new rows for WINTERKORN.md + WINTERKORN_MEMORY.md; refactored `docket/CATALYSTS.tsv` row to flag WINTERKORN as maintainer (OTTO doesn't normally edit during session — applies WINTERKORN escalations).
+- **CLAUDE.md Coordination** — new `### Sub-Agents` subsection codifying the sub-agent pattern + WINTERKORN row (pattern / owns / cadence) + spawn protocol pointer. References `[[finding_subagent_naming_identity_over_functional]]` for future sub-agent naming convention.
+- **CLAUDE.md File Structure tree** — docket/ subtree expanded from 1 entry to 3 (CATALYSTS.tsv + WINTERKORN.md + WINTERKORN_MEMORY.md).
+
+**Will-decided scope decisions (locked in spec):**
+- **Naming = WINTERKORN.** Auto-domain reference (VW Dieselgate executive-knew-and-didn't-disclose archetype) matching OTTO's cockroach pattern. SAM (METSUKE — Tokugawa inspector) + BRENT (FASTOW — Enron CFO) precedent of identity-named people sub-agents preserved.
+- **SDNY criminal track = SELECTIVE.** Trial date + cooperator-witness motions only. Routine motion practice excluded (would inflate TSV without driving OTTO action).
+- **Bank earnings = NAMED-BANKS SUBSET ONLY.** JPM/5-3/BCS/Regions/MTB/OBK. REGINALD owns sizing; OTTO tracks disclosure escalation (different signal).
+- **Spawn cadence = WEEKLY TUE + ON-DEMAND T-3 PRE-HEARING.** Outside that cadence, spawn cost > value.
+- **ABS pricing rows = MODELED.** Issuer cadence projectable; revise within 7d via SEC EDGAR FWP search. Without this, OTTO walks into Jun 30 OTTO-05 resolve cold.
+- **STATUS divergence rules = FASTOW PATTERN.** STATUS CRITICAL TIMELINE is a curated load-bearing subset of TSV (all 🔴 + position expiries + tracked-case hearings + OTTO-NN prediction resolves). Rolling monthly recurring releases live in countdown only, not in STATUS.
+- **Build order = SPEC FIRST, MEMORY SEEDED BLANK.** Spec is the durable contract; first run populates MEMORY organically.
+
+**Files touched:**
+- New: `docket/WINTERKORN.md`, `docket/WINTERKORN_MEMORY.md`
+- Edits: `CLAUDE.md` (Doc Ownership table + File Structure tree + new Sub-Agents subsection + version footer), `MAINTENANCE.md` (this entry), `STATUS.md` (boot-pointer refresh)
+
+**Boot-impact:**
+- No boot script changes — WINTERKORN spawns on demand via Agent tool, not via `scripts/boot.py`.
+- OTTO's `scripts/catalyst_countdown.py` still reads `docket/CATALYSTS.tsv` directly; WINTERKORN edits flow through that pipeline unchanged.
+- First WINTERKORN spawn is the validation test. Bootstrap NEXT RUN HINTS in MEMORY flag the Jun 12 First Brands UST hearing as the T-3 pre-hearing canonical first-run trigger.
+
+**Lessons:**
+- **Pre-fire date verification is the load-bearing argument for a docket-keeper sub-agent.** Not the "save context" framing — that's secondary. The Jun-17→Jun-12 catch costs OTTO real signal credibility when missed; making the verification cadence-driven (every run, every 7d-window row) is the value.
+- **Selective scope on adjacent domains (SDNY criminal, bank earnings) prevents TSV inflation.** Without explicit scope decisions, baseline audits would over-propose. Recording Will's scope decisions in the spec (not just in CALIBRATION) makes them durable across future-WINTERKORN spawns who haven't seen the conversation.
+- **FASTOW's decline-memory pattern (CALIBRATION as OTTO-owned, sub-agent reads but never writes) prevents the "audit nags monthly" failure mode.** Critical for a propose-only sub-agent that runs on cadence.
+- **Inaugural MEMORY seeding is a real design step, not boilerplate.** A blank-MEMORY first run would have no STANDING MONITORS to anchor against; seeding with current OTTO domain state (per-case watches + known cert-blocked sources + bootstrap T-3 flag) gives the first run productive footing without ambiguity. Otherwise first-run quality is poor.
+
+---
+
 ## 2026-06-09 — thesis/ subdir + canonical THESIS.md v1.0 (v2.5 → v2.6)
 
 **Trigger:** Will-directed peer-parity audit (post-v2.5) surfaced thesis content scattered across 7 docs (STATUS § THESIS, CLAUDE.md "Current Thesis", top-level CHANGELOG, workbook/PREDICTIONS, MEMORY § Findings, ML.tsv, research/outputs/) with no canonical home. SAM model (`thesis/THESIS.md` + `thesis/CHANGELOG.md` + `thesis/PREDICTIONS.tsv` + `thesis/PREDICTIONS_ARCHIVE.md`) chosen as target. Planned-before-built: thesis content was articulated explicitly (Primary Cockroach + Secondary Invisible Exit + Carvana sub-thesis carve-out + transmission chain + why-now timing) before the folder was created — moving scattered artifacts into a new folder without nailing what the thesis IS would have just relocated the sprawl.

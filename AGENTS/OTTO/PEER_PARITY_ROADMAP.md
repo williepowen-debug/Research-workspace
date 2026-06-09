@@ -47,7 +47,7 @@
 |---|-----|------|------|--------|------|
 | 9 | ✅ **DONE Jun 9** — Versioned `thesis/THESIS.md` v1.0 (12-section canonical thesis). CHANGELOG + PREDICTIONS moved into thesis/. STATUS § THESIS now mirror-only. Carvana sub-thesis carved out. | infra | SAM, BRENT | Med-High | Promoted from P3 + executed same session |
 | 10 | `TIMELINE.md` (narrative event progression vs STATUS CRITICAL TIMELINE) | infra | SAM, BRENT | Med | Lower value |
-| 11 | Sub-agent steward (docket/trade-doc, à la KOYOMI/FASTOW/METSUKE) | infra | SAM ×3, BRENT ×1 | Med | Now viable; premature until P1 lands |
+| 11 | ✅ **DONE Jun 9 (PM)** — WINTERKORN docket steward (FASTOW-pattern; spec + seeded MEMORY in `docket/`). Weekly Tue + T-3 pre-hearing cadence. METSUKE-equivalent stale-doc flagger remains as future sub-agent #2 (closes TRADE.md / VX.tsv / RESEARCH_STATUS.md staleness loop). | infra | SAM ×3, BRENT ×1 | Med | Promoted from P3 + executed same session as #9 |
 | 12 | Live domain-data feeds (real EDGAR 8-K puller) OR retire the 2 `scripts/*.py` stubs | infra | SAM/BRENT real feeds | Med | OTTO domain (PACER/EDGAR/news) has no clean API |
 | 13 | LESSONS.md + OUTBOX.md consolidation (STALE_PUNCHLIST #8–9) | infra | — | Low | Needs Will call |
 | 14 | SCRATCH-vs-LAST_COMPLETION rename | infra | BRENT | Low | Cosmetic; skip unless standardizing fleet |
