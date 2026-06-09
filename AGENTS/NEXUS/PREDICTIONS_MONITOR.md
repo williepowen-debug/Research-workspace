@@ -43,7 +43,7 @@ Apply when entering, updating, or resolving any prediction. Came from real misse
 | PRED-10 | ~Mar 2026 | NEXUS | "Help with mortgage" ATH surpassing GFC | Consumer stress metric | ✅ HIT | C-24. |
 | PRED-11 | Mar 2026 | NEXUS | UST demand destruction / petrodollar collapse | Gulf surplus breakdown | ✅ HIT | C-07/C-15 (now merged into C-34). Campbell "Strip vs Strait". |
 | PRED-12 | ~Mar 2026 | NEXUS | BOJ/FOMC dual catalyst | Shunto + BOJ signal | ✅ HIT | C-23. Shunto 5.26%. |
-| PRED-13 | Mar 2026 | HENRY | Iran "talks" rally = bull trap | Iran denial + combat resume | ✅P PARTIAL | HEN-11. Pattern repeating. Promote candidate → CONFIRMED.md (pending C-ID assignment). |
+| PRED-13 | Mar 2026 | HENRY | Iran "talks" rally = bull trap | Iran denial + combat resume | ✅ HIT — PROMOTED 2026-06-08 → CONFIRMED.md C-35 | HEN-11. Pattern repeated: March (Iran denial + combat resume) → 5/22 HAWK partial-thaw → 6/1 MOU SUSPENDED + Kuwait kinetic = second cycle. Bull-trap mechanism validated twice. |
 
 ---
 
@@ -76,7 +76,7 @@ These items have passed their trigger date but were not formally resolved during
 | PRED-21 | Mar 2026 | NEXUS/CARL | FL UI Wave 1 → CC DQ spike ~May | ~May 2026 | UNVERIFIED — CC DQ data needed | CARL header refresh |
 | PRED-22 | Mar 2026 | SAM | BOJ hike May 1 | BOJ meeting May 1 | LIKELY MISS — no May 1 hike referenced in 5/21 state | SAM header / Japan rates |
 | PRED-23 | Mar 2026 | HENRY/NEXUS | Q1 quarter-end SOFR spike Mar 27-28 | Q1 close Mar 31 | ✅P PARTIAL (already marked) — spiked then normalized | LIQUID confirmation |
-| PRED-25 | Mar 2026 | HAWK/NEXUS | HAWK Scenario D ≥80% | War escalation threshold | ✅ HIT (already marked 92% on 4/1) — **SUPERSEDED** by HAWK 5/22 reframe (SIG-26060602: D now 35%) → mechanism shifted | Promote HIT → CONFIRMED; flag mechanism-shift to RED |
+| PRED-25 | Mar 2026 | HAWK/NEXUS | HAWK Scenario D ≥80% | War escalation threshold | ✅L **TRUE-in-letter** (resolved 2026-06-08) | Outcome fired: war escalation re-armed post-reframe (5/25-26 US strikes Iranian air defenses · 5/31 CENTCOM Kuwait intercept · 6/1 Iran SUSPENDED MOU · Bab al-Mandab vector NEW). Mechanism: SUPERSEDED by HAWK 5/22 reframe (D downgraded 92% → 35%). Threshold met via different path. Per Discipline A: TRUE-in-letter, FALSE-in-spirit. No CONFIRMED promotion (mechanism integrity failed). Flag mechanism-shift to RED. |
 | PRED-26 | Mar 2026 | RED | RED bear confidence ≥85% | Thesis integrity | UNVERIFIED — 6+ wks unmarked | RED header refresh |
 | PRED-27 | Mar 2026 | NEXUS | BDC rating contagion: ARCC/OBDC/GBDC downgrades | Moody's post-FSK Ba1 | UNVERIFIED — outcome of 48-72hr catalyst (4/4) | BROCK / Moody's check |
 | PRED-28 | Mar 2026 | HENRY | PCE Mar 28 hot (≥2.7% headline) | Mar 28 print | UNVERIFIED | HENRY header / PCE print |
