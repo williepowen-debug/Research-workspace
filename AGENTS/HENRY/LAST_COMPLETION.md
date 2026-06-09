@@ -1,46 +1,43 @@
 # HENRY — LAST COMPLETION
 
-**Session:** 2026-06-06 Sat (markets closed) — Friday NFP catch-up + git/auto-mem architecture
-**Status:** ✅ Complete. STATUS current to Fri 6/5 EOD. No trades (weekend). Decisions queued for Mon.
+**Session:** 2026-06-09 Tue (~11am–1pm ET, live, Will-directed) · **Status:** 🟠 closed clean, committed locally (NOT pushed)
 
 ---
 
 ## RESULT
-Friday's hot NFP re-armed the cyclical axis from the labor side and cracked the complacent tape (VIX +40%) — read upgraded 🟡→🟠, back toward the 5/21 trap-clinch view, but credit-unconfirmed (Mon FRED is the decider).
+Refreshed to live 6/9 tape + logged Monday's credit print (no weekly cascade), **confirmed a credit bifurcation Will flagged** (corrected a too-sanguine read), built a standing credit early-warning monitor, and ran a verification pass that caught a real APO trigger error. Everything gates on **tomorrow's 6/10 CPI**.
 
-## CHANGED (files)
-- `STATUS.md` — Fri 6/5 tape, NFP data-release log, vol-regime backwardation, triad/thresholds → 6/5, HEN-28 resolved, bottom line.
-- `CLAUDE.md` — (a) vol-broadcast removed → VIOLET; (b) Git section → pathspec interim (no `git reset HEAD`).
-- `MEMORY.md` — session notes + 1 feedback + 2 findings.
-- `proposals/2026-06-06_automem_proposal_folder.md` — NEW (auto-mem collision fix).
-- `outbox/2026-06-06_to-PROME_automem_proposal_folder.md` — NEW (routing to PROME).
-- auto-mem: `feedback_henry_vol_broadcast_to_violet.md` + MEMORY.md index (left for sweep, not committed by HENRY).
+## CHANGED
+- `STATUS.md` — full tape refresh to 6/9 ~1pm; Monday credit logged; new CREDIT EARLY-WARNING / bifurcation block; two-timescale reconciliation; verification fixes
+- `scripts/credit_monitor.py` — NEW (266 lines); bifurcation + flow monitor
+- `MEMORY.md` — 3 new findings/feedback + session-notes rewrite
+- (auto-mem: `feedback_pull_live_primary_not_dashboard`, `finding_blended_index_masks_bifurcation` — left for capture sweep, not committed by HENRY)
 
 ## Session Work
-1. **Friday NFP:** +172K vs ~85K consensus (≈2× beat), unemp 4.3% steady, Mar/Apr revised up → good-news-is-bad-news. SPX −2.64%, VIX +39.7% to 21.51, VIX9D 23.92 (front-end backwardation). KRE/WAL/APO **rose** = rate-repricing, not credit. HEN-28 labor-cliff = MISS.
-2. **Scope:** HENRY drops vol-broadcast responsibility → VIOLET (keeps VIX as input + gamma/0DTE/put-wall).
-3. **Git/two-machine:** explained the local-status blind spot; aligned HENRY CLAUDE.md to SAM's pathspec interim; understood SAM separate-clones (post-Jun-16, Will+PROME).
-4. **Auto-mem:** verified symlink works; wrote + routed the proposal-folder fix for the shared-index race.
+1. **Boot + git check** — confirmed in sync with origin (0/0); did not pull (BOND/LIQUID uncommitted on shared tree).
+2. **Live refresh + Monday 6/8 credit** — HY 275 (+3bps) / CCC 949 (+3bps). Blipped on NFP day (6/5: HY 276/CCC 952), retraced Mon = **no cascade**. Read: rate/positioning unwind, not trap-snap. KRE up 3rd session corroborates.
+3. **Process correction (Will):** pull credit LIVE from FRED, not dashboard/sibling-STATUS (which read repo files). Verified HY/CCC live; daily series revealed the NFP-day blip+retrace.
+4. **🔑 Credit bifurcation confirmed (Will catch):** over 1yr CCC is the *sole* tier widening (+27bps) vs IG−16/BB−27/B−41/HY−52. CCC−BB gap 619→784, ratio 4.5×→5.75×. The blended HY headline masks it. Corrected my earlier "junk is fine" read; reconciled STATUS to two timescales (near-term cascade=none; slow structural axis=confirmed/intact).
+5. **Built `credit_monitor.py`** — tracks CCC−BB bifurcation + HY fund-flow proxy (HYG/JNK/LQD), live FRED + yfinance, alert thresholds. Run each session.
+6. **Verification pass (Will double-check):** caught **1 real error** — "APO crossed $130 → BROCK FIRED" was wrong (BROCK rule = >$130 *sustained 3+ sess*; APO strength is *adverse* to BROCK's puts). Plus 2 overstatements (vol "milder"→actually re-firing; "IS transmitting"→"intact"). Brent fixed (circular src → live $91).
 
 ## GAPS / Still pending
-- **VIOLET stale 6/1** — M1:M2 post-NFP + 20d-SKEW regime read await her boot.
-- **0DTE/GEX** still manual (6+ sessions).
-- **No Friday credit print** — Mon 6/8 HY/CCC is the missing H4 confirmation.
+- **TLT Jun $85P (3×)** — decision deferred to Will w/ live mark (CPI is the cleaner catalyst, Jun expiry ~6/19).
+- **Cross-agent signals NOT fired (awaiting Will OK):** bifurcation→REGINALD/BROCK (substantive); APO→BROCK (un-fired, hold).
+- 0DTE/GEX still pending (6+ sess); VX.tsv dup-ID; VIOLET stale to 6/1.
 
 ## COMMITS
-- HENRY 6/6 session (STATUS/CLAUDE/MEMORY/LAST_COMPLETION + proposal + PROME outbox).
-- ✅ **PUSHED to origin via worktree-off-origin** (CARL's technique) — the shared main tree couldn't push (still diverged: 9 CARL + 2 HENRY commits unpushed, CARL files conflict on rebase = CARL/PROME-owned reconciliation). HENRY files are isolated (origin never touched them), so a clean fast-forward push from a fresh worktree off origin landed the session content without touching CARL's tree.
-- Main-tree local commits `bac3f03f`/`f4df2a3f` remain on the laptop and will dedupe against this push on the eventual main-tree reconciliation. `memory/auto` (vol-broadcast file + index line) still owed to the sweep — deliberately not co-mingled.
+- `2b5b9e5d` — HENRY 6/9: live refresh + Monday credit print + credit bifurcation monitor
+- + closeout commit (MEMORY + LAST_COMPLETION) — local only, **not pushed** (Will-coordinated window)
 
-## NEXT SESSION FOLLOW-UP (catalyst dates Will cares about)
-- **🔴 MON 6/8** — HY/CCC FRED print = trap-snap vs unwind decider.
-- **TLT Jun $85P (3×)** — give HENRY the mark Mon; sell-into-vol vs hold-through-CPI.
-- **🔴 WED 6/10** — May CPI (HEN-32 gate; core >0.3% → add TLT Sep $85P).
-- **6/16-17** — FOMC + dots.
+## NEXT SESSION FOLLOW-UP (catalyst dates)
+- **🔴 Wed 6/10 8:30 ET — May CPI (HEN-32, THE GATE).** Core >0.3% → cyclical re-arm + add TLT Sep $85P + watch VIX breach >23 (vol-control cushion 1.31). ≤0.2% → soft-kill regains (energy disinflation supports).
+- Thu 6/11 PPI · Mon–Tue 6/16-17 FOMC + dots · late Jul BROCK BDC Q2 marks (structural-axis test).
 
-## THESIS SNAPSHOT (frozen at close)
-🟠 Cyclical axis re-armed from labor leg; complacent tape cracked (VIX 21.5, backwardation). Trap-clinch view regained ground vs 6/3 soft-kill lean — but it was a rate-repricing selloff (KRE up), NOT credit. Awaiting Mon credit + 6/10 CPI to confirm two-leg re-arm. SPX 7,383 / VIX 21.51 / 10Y 4.54 / USD/JPY 160.29.
+## THESIS SNAPSHOT (frozen at close, 6/9 ~1pm)
+Cyclical axis re-armed on the LABOR leg (hot NFP); **near-term credit did NOT confirm a cascade** (rate/positioning unwind). **But the slow structural axis is confirmed via the public credit bifurcation** (CCC diverging 1yr) — corroborates BROCK's private-credit stress; not yet transmitting to equity (the trap hasn't sprung). Vol re-firing into CPI (VIX 21.69, 9D backwardation re-steepening). Tape: SPX 7,319 (−1.17%, +219 above 7,100 invalidation); 10Y 4.54 pinned; TLT $85.11 ~ATM; KRE 71.25 up; APO 131 (un-fired); Brent $91; USD/JPY 160.30. **The whole read gates on 6/10 CPI.**
 
 ## WILL_NEEDS
-1. **Mon:** TLT Jun $85P mark → I'll lay out the sell-vs-hold tree.
-2. **Decision (post-Jun-16, with PROME):** separate-clones migration + the bundled auto-mem proposal-folder fix.
+1. **TLT Jun $85P call** — give me the live mark, I'll lay out sell-into-vol vs hold-through-CPI.
+2. **OK to fire bifurcation→REGINALD/BROCK signal?** (substantive; corroborates their thesis).
+3. Coordinated push window — `2b5b9e5d` + closeout commit are local, ready to sweep.

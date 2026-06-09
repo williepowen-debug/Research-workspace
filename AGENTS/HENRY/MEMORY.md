@@ -44,28 +44,32 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (2026-06-06 Sat — Will-directed)
-- **Friday 6/5 NFP catch-up + EOD tape.** STATUS rewritten 6/3→6/5. Signal 🟡→🟠. **May NFP +172K (≈2× ~85K consensus), unemp 4.3%, Mar/Apr revised UP** → good-news-is-bad-news risk-off: SPX −2.64% / VIX +39.7% to 21.51 / VIX9D 23.92 (front-end backwardation). **HEN-28 labor-cliff RESOLVED MISS** (labor hot, not breaking). **KRE/WAL/APO ROSE** = rate-repricing selloff, NOT credit cascade. NFP re-armed cyclical axis from LABOR leg before 6/10 CPI; pulls read back toward 5/21 trap-clinch.
-- **Scope correction (Will):** HENRY drops vol-broadcast → VIOLET (CLAUDE.md + auto-mem updated). VIX = input, not HENRY signal.
-- **Git hardening:** HENRY CLAUDE.md Git section moved to pathspec interim (no `git reset HEAD`), per SAM 6/4. Two-machine concurrency understood (see Findings).
-- **Auto-mem proposal written + routed to PROME** — `proposals/2026-06-06_automem_proposal_folder.md` (per-agent proposed/ folders; fixes the memory/auto shared-index race). Outbox → PROME.
-- **✅ PUSHED via worktree-off-origin** (CARL's technique). The shared main tree couldn't push (diverged: 9 CARL + 2 HENRY local, CARL files conflict on rebase = CARL/PROME job). HENRY files are isolated → a fresh worktree off origin/master + clean fast-forward push landed the session without touching CARL's tree. **Reusable HENRY pattern when the main tree is jammed but your files are isolated.** Local main-tree `bac3f03f`/`f4df2a3f` dedupe on eventual reconciliation; `memory/auto` still owed to the sweep. Live demo + workaround for the two-machine concurrency problem.
+### CHANGES SINCE LAST SESSION (2026-06-09 Tue ~1pm — Will-directed live session)
+- **Live refresh to 6/9 ~1pm + Monday 6/8 FRED credit logged.** Decision var RESOLVED: **no weekly cascade** — HY 275 (+3bps) / CCC 949 (+3bps); blipped on NFP day 6/5 (HY 276/CCC 952), retraced Mon. Read = rate/positioning unwind, not trap-snap; KRE up 3rd sess corroborates. **Vol RE-FIRING into CPI this PM** (VIX 21.69, VIX9D 24.41 backwardation re-steepening, VVIX 102) — the AM "milder" read reversed.
+- **🔑 Credit BIFURCATION CONFIRMED (Will catch — I'd called junk "in good shape," too sanguine).** 1yr: CCC the sole tier WIDENING (+27bps) vs IG−16/BB−27/B−41/HY−52. CCC−BB gap 619(Sep'25)→784(now), ratio 4.5×→5.75×. Blended HY masks it (BB/B weight). Reconciled STATUS to two-timescale framing (near-term cascade=none; slow structural axis=confirmed/intact, NOT a holdout). → Findings + auto-mem.
+- **Built `scripts/credit_monitor.py`** — credit bifurcation (CCC−BB, clean gauge) + HY fund-flow proxy (HYG/JNK/LQD price·vol·relative); live FRED via curl + yfinance, `--json`. Run each session; readout block in STATUS.
+- **Verification pass (Will double-check) caught 1 real error + 2 overstatements.** APO: intraday $130 touch ≠ FIRED (BROCK rule = >$130 *sustained 3+ sess*; APO strength is *adverse* to BROCK's Dec $95P, not a bear signal) — corrected across 6 spots. Brent circular `[dashboard]` src → live yf $91. "IS transmitting" → "intact/confirmed (present, not yet transmitting to equity)."
+- Commit `2b5b9e5d` (refresh+monitor+bifurcation) + this closeout commit. **NOT pushed** (Will-coordinated; BOND/LIQUID have uncommitted work on shared tree).
 
 ### NEXT SESSION
-**Track B — market (🔴 PRIORITY this week):**
-1. **🔴 MON 6/8 — HY/CCC FRED print = THE decision variable.** No Fri credit print. If HY gapped wider with equity → trap-snap (structural axis joins labor re-arm). If still compressed near 260 kill → equity-only positioning unwind, soft-kill alive. KRE rising Fri leans "unwind."
-2. **TLT Jun $85P (3×)** — Will to give the mark Mon; NFP triggered his "sell into first hot print" rule BUT TLT payoff weak (−0.51%; flight-to-safety capped 10Y). Lay out sell-into-vol vs hold-through-CPI.
-3. **🔴 WED 6/10 May CPI = THE GATE (HEN-32)** — core >0.3% → cyclical fully re-arms (2 legs), add TLT Sep $85P; ≤0.2% → labor/inflation diverge.
-4. **🟡 6/16-17 FOMC.** 5. **🟠 USD/JPY >160 sustained (SAM; BOJ 6/16 hike ~97%).** 6. BROCK 🔴 (6/4) HY near 260 kill.
+**🔴 PRIORITY — post-CPI (Wed 6/10 8:30 ET = THE GATE, HEN-32):**
+1. **Log CPI immediately** — core vs +0.3% consensus. **>0.3%** → cyclical re-arms on inflation leg (2 legs), add TLT Sep $85P, watch VIX breach >23 (vol-control cushion only 1.31). **≤0.2%** → labor/inflation diverge, soft-kill regains; energy disinflation (Brent −3.4% 6/9) supports this branch.
+2. **TLT Jun $85P (3×)** — STILL pending Will's mark. CPI = cleaner duration catalyst (Jun expiry ~6/19). Lay out sell-into-vol vs hold; deferred to Will w/ mark (don't auto-recommend — mark-context lesson).
+3. **Run `credit_monitor.py`** — does CPI start pulling CCC−BB wider / flows reversing? First flow flag = income bid breaking.
+4. **APO** — does it *sustain* >$130 (3+ sess = BROCK put re-arm)? Currently 1 intraday touch = un-fired.
+5. FOMC 6/16-17; USD/JPY >160 (SAM, BOJ 6/16 ~97%); BROCK BDC Q2 marks late Jul (structural-axis test).
 
-**Track A — modernization (BACKLOG; see MODERNIZATION_PLAN.md + KB_AUDIT.md):** KB prune Pass 2 (Feb 27 rows) → Mar/Apr → category consolidation; then Phase A (VX dup-ID fix, FLOW, ECON_CAL), Phase B (thesis/ mirror + STATUS slim), Phase C (docket/MAINTENANCE/CLAUDE/FILES). KB at 108 (was 136). Paused for market work.
+**Pending Will decisions (don't fire without OK):** (a) bifurcation→REGINALD/BROCK signal (substantive — corroborates their private-credit thesis); (b) APO→BROCK (HOLD, un-fired); (c) TLT Jun $85P call.
+
+**Track A — modernization (BACKLOG):** KB prune Pass 2 → Phase A (VX dup-ID) → B (thesis mirror) → C. Paused for market work.
 
 ### GAPS — PERSISTENT
 - **0DTE SPX share + GEX regime** STILL PENDING (6+ sessions). Manual estimate acceptable.
-- **VX.tsv duplicate ID collision** — VX-HEN-19.01-.06 used twice. = modernization Phase A2; NOT done.
-- **VIOLET domain stale to 6/1** — M1:M2 post-NFP + 20d-SKEW regime read await her next boot (can't compute w/o her tooling + 6/2-6/5 gap days).
+- **VX.tsv duplicate ID collision** — VX-HEN-19.01-.06 used twice (modernization Phase A2; NOT done).
+- **VIOLET domain stale to 6/1** — M1:M2 post-NFP + 20d-SKEW regime read await her next boot. VVIX 92+ now MET (101.8).
 
 ### INFRASTRUCTURE NOTES
-- 6/6: **Auto-mem symlink CONFIRMED WORKING** — `~/.claude/.../memory` → symlink → repo `memory/auto/` (git-tracked, 91 files). My memory writes land there + git sees them. **memory/auto is OUTSIDE AGENTS/HENRY/ — don't commit it yourself; leave for the sweep** ("capture from laptop" pattern). The shared `MEMORY.md` index is the collision point (proposal addresses it).
-- 6/6: **Pathspec commits now (no `git reset HEAD`)** — shared `.git/index` makes reset a global clobber. Modified: `git commit <path>`; new: `git add <files> && git commit <same files>`. Full fix = separate-clones (post-Jun-16, PROME-owned).
-- 6/3: KB_AUDIT.md = multi-session source-of-truth; `[ARCH]` re-point tag; ref corpus = KB+VX+FLOW+PRED+LABOR/KB. FRED convention + staleness-pilot live in STATUS.
+- 6/9: **Credit monitor live** — `python3 AGENTS/HENRY/scripts/credit_monitor.py`. FRED via curl (urllib times out in this env). Use **CCC−BB** not CCC−HY (HY contains CCC → diluted). Multi-month window (5d misses the bifurcation).
+- 6/9: **Pull credit LIVE from FRED on refreshes** — dashboard.py reads sibling-STATUS repo files (feel live, stale). FRED 503's (6/3) cleared.
+- 6/6: **Auto-mem symlink** — writes land in `memory/auto/` (git-tracked). **Don't commit memory/auto yourself; leave for the sweep.** Pathspec commits only (no `git reset HEAD`).
+- 6/3: KB_AUDIT.md = source-of-truth; staleness-pilot + state-claim convention live in STATUS (maintain every refresh).
