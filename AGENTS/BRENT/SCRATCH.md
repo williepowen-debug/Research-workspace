@@ -1,127 +1,96 @@
-# BRENT SCRATCH — Mon Jun 8, 2026 (PM — protocol-coordination session)
+# BRENT SCRATCH — Tue Jun 9, 2026 (~13:00 ET — Iran-Israel halt integration session)
 
-**Purpose:** Ephemeral session handoff — the canonical "where are we / what next" file. Read at boot (SPAWN PROTOCOL step 2), rewritten in full at closeout (step 11). Disposable; rewritten every session. Persistent learnings live in `MEMORY.md`; dated forward catalysts live in `docket/CATALYSTS.tsv` (FASTOW); cross-agent synthesis lives in `NEXUS_BRIEF.md` (now the primary cross-agent channel).
-
----
-
-## CHANGES SINCE LAST SESSION (Sun Jun 7 night → Mon Jun 8 PM)
-
-- **Mon Jun 8 AM live tape:** Brent **$94.38 +1.39%**, WTI **$91.37 +0.92%** [CONF boot.py]. Modest bid post-OPEC+ Vienna Sun outcome (base case +188K July landed as expected — "paper + trapped behind Hormuz" → muted reaction). Consistent with my Sun PM "optically mildly bearish, functionally neutral" read.
-- **Tanker complex still bid down:** STNG $75.74 (-0.29%), DHT $16.44 (-1.26%), FRO $34.92 (-0.71%). War-risk leg of BRT-15 staying unwound; no Mon AM regime change in tanker pricing.
-- **VIX, energy services, equity — no boot.py refresh this session** (didn't run --verbose).
-- **No catalysts fired** (next: EIA STEO Tue Jun 9).
-- **No new kinetic events** in published feed since Sun closeout.
-- **No predictions DUE** on light-touch scan.
-
-## ADDENDUM — Jun 8 PM-2 (HAWK inbox process)
-
-After main closeout, Will asked me to evaluate the HAWK→BRENT message (`HAWK/outbox/delivered/2026-06-08_to-BRENT_decoupling-thesis-plus-brt-27-28-scope-ask.md`). Verdict: high-value signal — independent convergence on decoupling regime + named falsification anchor (HAW-11 by Jun 22) + clean scope-clarification ask. Will gated full restructure.
-
-**BRT-27 / BRT-28 SCOPE-NARROWED Jun 8** (event-shaped → price-consequence conditionals on HAW-09/HAW-10):
-- BRT-27 new form: Brent <$92 within 5td if HAW-09 confirms; $94-100 hold if HAW-09 falsifies. Cond conf 55%.
-- BRT-28 new form: Brent gap ≥$5 + curve steepens ≥$12/6mo within 3td if HAW-10 fires; range hold if expires. Cond conf 70%.
-- Calibration delta resolved: BRENT's prior 65% on Iran-walkback was Trump-rhetoric-overweighted; deferred to HAW-09's 35%.
-- Vessel-traffic-only path in original BRT-28 retired to HAWK (KB-HAWK-159 canonical).
-
-**Files touched:** PREDICTIONS.tsv (BRT-27, BRT-28), STATUS.md (predictions table + OPEN-ITEMS #6/#7), CHANGELOG.md (entry above Jun 3 row), NEXUS_BRIEF.md (rev-5 with calibration row + As-of refresh), new outbox `to-HAWK` reply (closes their loop).
-
-**NOT done:** FLOW.tsv BRENT counterpart row (workbook revive/demote decision still open with Will — see this SCRATCH's WORKBOOK HEALTH below). No THESIS v-bump (prediction-scope refinement only).
-
-**Position implications:** None this session. BRT-15 tanker thesis still TABLED; XLE/CF positions unchanged. Restructured BRT-27/28 conditionals are observational, not actionable on their own.
+**Purpose:** Ephemeral session handoff. Read at boot (SPAWN PROTOCOL step 2), rewritten in full at closeout (step 11). Disposable; persistent learnings live in `MEMORY.md`; dated forward catalysts live in `docket/CATALYSTS.tsv` (FASTOW); cross-agent synthesis lives in `NEXUS_BRIEF.md`.
 
 ---
 
-## NEW THIS SESSION
+## CHANGES SINCE LAST SESSION (Mon Jun 8 PM → Tue Jun 9 PM)
 
-- **Fleet-protocol coordination triggered by CARL.** CARL surfaced (via Will) that root `CLAUDE.md` Git Protocol "At session end: ... Push to GitHub" directly contradicts Will's standing rule `[[feedback_defer_push_coordinate]]` ("commit local, defer push until Will coordinates"). CARL fixed CARL's local step 16; flagged root as upstream cause.
-- **BRENT independent corroboration:** I deferred my own pull at boot today because HAWK had 3 uncommitted files outside my dir — the existing "if blocked, defer" branch fired correctly. But absent that block, BRENT's closeout would default to push. Same latent bug, inherited from root.
-- **Local fix (commit A):** added explicit line to **BRENT/CLAUDE.md step 14**:
-  > "Default: commit locally only. Push only when Will has explicitly opened a push window. Push-train pattern applies only inside an authorized push window — outside it, commit and wait."
-  Belt-and-suspenders so BRENT's local doc is unambiguous regardless of root state.
-- **PROME outbox flag (commit A):** wrote `outbox/2026-06-08_to-PROME_root-claudemd-push-protocol-conflict.md` — durable record from BRENT (independent of CARL's parallel flag) covering: the contradiction, both agents' corroborating observations, what's been fixed locally, what remains upstream (root reconcile + retire/qualify `[[finding_push_train_pattern]]` + propagate SAM's gating). Note: telegram-nudge route for HAWK noted as N/A (only WALTER and PROME have telegram).
-- **CARL's flag — gave Will my independent assessment:** agreed CARL is right on substance; refined that BRENT's local CLAUDE.md is more defensible than CARL implied (doesn't explicitly say "push" — inherits from root); flagged that the `[[finding_push_train_pattern]]` auto-memory itself may be outdated under the standing rule.
+- **🔴 Iran-Israel mutual halt declared Mon Jun 8 PM** — first major step-down since April ceasefire collapsed. Iran announced halt afternoon (conditional: resumes if Israel hits Lebanon further); Netanyahu confirmed Israel halt (stopped short of "ceasefire"); IDF refraining from Iran strikes at Trump's request; Israel lifting school/workplace restrictions Tue 6 AM local. [CONF Al Jazeera/NPR/CNN/ToI/MS Now Jun 8-9]
+- **🔴 Brent $90.15 (-4.35%) Tue 12:32 ET live** — regime-shift speed move; off Fri $94.66 (-4.8%), off Mon $94.38 AM (-4.5%). WTI $86.50 (-5.26%) leading down (US-demand/Cushing-build concern).
+- **🔴 China crude imports May ~7.8M bpd = 8-yr low, -4M bpd vs 2025 avg** [CONF EnergyConnects/Bloomberg]. Structural demand substrate under the move.
+- **🟠 VIX 21.79 (+15.17%) on a crude-DOWN day** = risk-off-into-prints (STEO today, EIA Wed, CPI Thu), NOT BRT-16 firing. Multi-root reframe holds.
+- **🟠 Gas $4.146 broke BRT-13 $4.00 threshold** [CONF FRED GASREGW 2026-06-08] — late pump pass-through. Mid-June relief incoming as today's $90 retrace flows through.
+- **🟠 Tankers FLAT-to-down Mon close** despite Israel-halt news (STNG -0.25%, DHT -1.26%, FRO -0.71%) — market correctly distinguishing Iran-Israel from Hormuz-MOU as separate negotiating tracks.
+- **No predictions DUE** on light-touch scan. BRT-27 price-side conditional (Brent <$92 within 5td if HAW-09 confirms) **already met intraday Tue** — may fire EARLY ahead of Jun 15 deadline.
 
 ## WHAT I DID THIS SESSION
 
-- Boot per SPAWN PROTOCOL (deferred pull due to HAWK uncommitted files outside dir; STATUS/SCRATCH/LESSONS read; boot.py 9.3s; predictions scanned — none DUE).
-- Responded to Will's CARL-relay with ranked recommendations.
-- Executed #3 (BRENT/CLAUDE.md step 14 explicit push-discipline line) and #4 (PROME outbox flag).
-- Light-touch STATUS refresh (Mon AM tape line + stamp); NEXUS_BRIEF rev-4 stamp-only refresh.
-- Closeout commits (A: protocol fix; B: closeout batch). NO PUSH per standing rule.
+- Boot per SPAWN PROTOCOL (git clean; STATUS/SCRATCH/LESSONS read; boot.py 7.7s — caught Brent -4.35%, gas $4.146 threshold break; predictions scanned — none DUE).
+- Will pushed on whether the Brent down move was "kind of surprising" → I framed three drivers + cross-section indicators (tankers flat, VIX up with crude down, WTI leading) → recommended news cross-check as foundational.
+- **News cross-check** (4 parallel WebSearches) → identified Iran-Israel mutual halt Mon PM as substantive driver; China-import data as demand substrate; OPEC+ +188K Sun digestion as third factor. Verdict: **(B) substantive softening**, not (A) positioning unwind.
+- Walked Will through CF position re-eval; he correctly pushed back that $800 absolute value is low enough that operational friction is comparable to ~$650 sell EV → **CF disposition settled as lottery-ticket (soft trigger +10% sell, hard backstop expire Jun 18)**.
+- Will declined HAWK outbox flag → **saved auto-memory `feedback_outbox_restraint_for_push_friction`** (cross-agent outboxes for 🔴 critical only — each file adds push/merge friction).
+- **STATUS.md material reframe end-to-end** (262 lines, 12 over ceiling — justified by reframe scope): header/Overall Status/LIVE TODOs/STATE/Diplomatic+Kinetic+Macro subsections/Path A-B/Price dashboard/Positions/Convergence matrix/Two-phase thesis/Predictions table/Open items/Catalyst calendar/Summary for Will.
+- **CHANGELOG entry** (Jun 9 row above Jun 8 row) covering old view → new view + calibration shifts.
+- **NEXUS_BRIEF rev-6 refresh** — header/VIEW/CALIBRATION/CROSS-DOMAIN SENDING+WAITING/NEXT DECISION/FORWARD CATALYSTS all integrated.
+- **CATALYSTS.tsv** Jun 9 STEO note updated (DOWN-revision reframe).
+- Closeout commit local (no push per `[[feedback_defer_push_coordinate]]`).
 
 ## NEXT SESSION (dated, future-verifiable)
 
-1. **Tue Jun 9** — **EIA STEO (June)** — first post-suspension; Q2 Brent peak ($115 Apr) likely revised UP.
-2. **Wed Jun 10** — **EIA WPSR (week Jun 5) = THE BIG PRINT.** SPR ~350M floor-touch (DIRECTIONAL — throttle bullish / drain-through near-term bearish + medium-term bullish, NOT symmetric). First clean post-MD demand read (BRT-08/09 candidate).
+1. **Today/Tonight Tue Jun 9** — **EIA STEO June** reaction. Watch Q2 Brent peak revision direction (reframe = DOWN now). Integrate into NEXUS_BRIEF on next boot.
+2. **Wed Jun 10** — **EIA WPSR (week Jun 5) = THE BIG PRINT.** SPR ~350M floor-touch (DIRECTIONAL); first clean post-MD demand read (BRT-08/09 candidate); first datapoint where China softness may bleed into US gasoline.
 3. **Thu Jun 11** — OPEC MOMR (June), first post-Vienna.
-4. **Thu Jun 12** — US CPI **(energy component = the clean separable test for the oil→CPI→Fed leg, isolable from AI-unwind noise per Jun-7 PM reframe).**
-5. **Fri Jun 12** — CFTC COT (Jun 2 wk, post-suspension) = real Trigger #3 re-fire test; Baker Hughes (431 last, +2 WoW, vs 457).
-6. **Wed Jun 17** — BRT-27 (restructured Jun 8) resolution = 2 trading days after HAW-09 Jun 15 deadline. Price path: Brent <$92 within 5td if HAW-09 confirms; $94-100 hold if HAW-09 falsifies.
-7. **Thu Jun 18** — CF $130C expiry (~8 trading days from Mon close).
-8. **~Jul 1 / Jul 3** — Cushing 20M floor (modeled); BRT-28 (restructured Jun 8) resolution = 3td after HAW-10 fires, or Jul 1 if expires. Price path: Brent gap ≥$5 + curve steepens ≥$12/6mo within 3td if HAW-10 fires; range hold + war-risk leg stays unwound if expires.
-9. **Every closeout** — refresh `NEXUS_BRIEF.md` (step 12). Keep SENDING/WAITING-FOR fresh — that IS BRENT's cross-agent comms now.
+4. **Thu Jun 12** — **US CPI** = clean separable test for oil→CPI→Fed leg. Directional test FLIPPED — soft energy print = inverse-feedback floor support for crude.
+5. **Fri Jun 12** — CFTC COT (Jun 2 wk, post-suspension); Baker Hughes.
+6. **Sun Jun 15** — HAW-09 deadline (BRT-27 price-side may have resolved EARLIER if Brent closed <$92 today).
+7. **Wed Jun 17** — BRT-27 formal resolution (2td after HAW-09).
+8. **Thu Jun 18** — CF $130C expiry (lottery-ticket frame; soft trigger +10% bounce sell).
+9. **Every closeout** — refresh `NEXUS_BRIEF.md` (step 12). Keep SENDING/WAITING-FOR fresh.
 
 ## NEXT SESSION (Tier 2 — carried forward)
 
-10. **THESIS.md v3.1 bump candidate** — gate on Jun 9 STEO + Jun 10 EIA + Jun 12 CPI as the converging evidence batch.
-11. **FASTOW Run 2** — cheap (~3-5 min; monthly trigger doesn't fire until Jul 1).
-12. **Workbook KB/VX/FLOW** — dormant 6+ wks; revive-vs-demote decision still OPEN with Will.
-13. **Crack-spread refresh** (last Mar 27 $42 3:2:1) — BRT-12 channel test setup.
+10. **THESIS.md v3.1 bump** — gate on Thu Jun 12 CPI batch (STEO/EIA/CPI converging evidence). Iran-Israel halt + China substrate + macro inverse-feedback dynamic together is the structural set warranting the bump.
+11. **STATUS.md trim** — currently 262 lines (12 over 250 ceiling). Tighten at next closeout once prints are integrated.
+12. **M1-M3 ICE term-structure pull** — front-led -4.35% should compress curve toward $3 Trigger #1 threshold for first time since suspension. Need ICE CONF for Path B trigger update.
+13. **Workbook KB/VX/FLOW** — dormant 7+ wks; revive-vs-demote decision still OPEN with Will.
+14. **Crack-spread refresh** (last Mar 27 $42 3:2:1) — BRT-12 channel test setup.
+15. **FASTOW Run 2** — monthly trigger doesn't fire until ~Jul 1.
 
 ## OPEN THREADS / WATCHES
 
-- 🔴 **Macro transmission** — multi-root reframe holds. Standing oil→CPI→Fed leg untested by Fri; clean separable test = **Jun-12 CPI energy component**. Watch HY OAS catch-up (LIQUID primary).
-- 🔴 **SPR ~350M floor (Wed Jun 10)** — directional, not symmetric.
-- 🟠 **CF chain-decoupling** — Mon AM mark check deferred (no boot.py CF row this session); revisit at next boot.
-- 🟠 **BRT-15 re-arm** — fresh kinetic-with-facility-damage / US-Iran direct exchange / Hormuz vessel attack / barnacle re-surfacing.
-- 🟠 **Trigger #1 (M1-M3 ≤$3)** — likely re-steepened FAR from threshold; ICE CONF pending.
-- 🟡 **HY energy OAS catch-up**, crack refresh, dated-Brent-Platts (terminal-only).
-
-### Fleet-protocol thread — queued for Will / PROME
-- **PROME outbox flag dropped this session** (`2026-06-08_to-PROME_root-claudemd-push-protocol-conflict.md`). Will to coordinate root CLAUDE.md reconcile + retire/qualify `[[finding_push_train_pattern]]` + propagate SAM's gating pattern. Until then, BRENT's local fix holds.
-- **Push queue** — shared `master` has 2 unpushed local commits (`66c6be00` CARL + `ca854ccf` BROCK); BRENT's two closeout commits will join the queue. Will to coordinate the push window. No agent pushes until then.
-- **HAWK uncommitted** — 3 files (STATUS.md, board_log.tsv, workbook/KB.tsv) still in shared tree. Will to nudge (telegram is WALTER/PROME-only per Will's Jun 8 clarification).
-
-### NEXUS_Brief thread — queued for LIVE NEXUS (its calls, not BRENT's)
-- **Amendment-9 (CASCADE sub-block)** — real heavy-domain gap; raised in pilot-2 review.
-- **Amendment-10 (acute-vs-steady marker)** — soft; brief is primary channel now.
-- **Light-end pilot still un-run** — HAWK nominated.
-- **Cap** — BRENT (81) co-anchors with SAM (75) for "heaviest real domain"; provisional 100 holds.
-- **Fallback instrumentation LIVE in NEXUS** (proxy-applied Jun 7) — awaiting live-NEXUS review on its next boot.
+- 🔴 **Iran-Israel halt durability** — conditional on Israel not striking Lebanon further. Daily watch on Israel/Lebanon strike pattern + Iran rhetoric. Tape behavior on tankers is the early tell (lift = halt-collapse pricing in).
+- 🔴 **Hormuz-MOU track** — separate from Iran-Israel. Tankers FLAT confirms market correctly distinguishing. Watch Trump/Rubio rhetoric for any movement on Rubio's 4 reopen terms (declare open, no toll, help remove mines, no fire on commercial vessels).
+- 🔴 **STEO/EIA/CPI print stack this week** — three bearish-side-leaning prints into expanding de-escalation. Each reaction is data.
+- 🟠 **BRT-27 close-EARLY watch** — if Brent closes <$92 today, resolves ahead of Jun 15.
+- 🟠 **Inverse-feedback dynamic on BRT-16** — if CPI energy prints soft Thu, Fed-hike pricing unwinds → USD soften → crude floor support. New wrinkle to track.
+- 🟠 **XLE $65C premise tested at $90 line** — 4mo runway is the asset.
+- 🟠 **BRT-15 re-arm gating** — fresh kinetic-with-facility-damage / US-Iran direct exchange / Hormuz vessel attack / barnacle re-surfacing. Halt-holding makes re-arm progressively less likely.
+- 🟡 **HY energy OAS catch-up** — now LESS likely if de-escalation holds (inverted from Sun PM framing). LIQUID primary.
 
 ## POSITION DECISIONS PENDING
 
-- **CF $130C Jun 18** — HOLD CONFIRMED (Will, Jun 1 PM). ~8 trading days. CAVEAT: chain-decoupling pattern. Revisit if Mon AM mark + first move vs USO shows continued decoupling. **Mon AM mark not pulled this session** — revisit at next boot.
-- **XLE $65C Sep 30** — HOLD. XLE not refreshed this session (no boot.py --verbose); Fri close was $57.67, strike $7.33 OTM. Kinetic-tail insurance NOT being paid on escalation-without-damage. 4mo runway is the asset.
-- **Tanker BRT-15** — TABLED Jun 4 (Option B). War-risk leg fully unwound; Mon AM tape confirms (STNG/DHT still bid down). Re-arm watch above.
+- **CF $130C Jun 18** — **HOLD as lottery ticket** (Will-confirmed Jun 9). 7 trading days. Mark ~$8 ≈ $800. Soft trigger: sell into ≥+10% bounce on STEO/EIA reaction. Hard backstop: let expire Jun 18. Path-to-pay (oil/natgas spike → fertilizer feedstock) cut by halt + flat natgas $3.15.
+- **XLE $65C Sep 30** — HOLD; PREMISE TESTED. XLE $57.05 (-2.20%), strike $7.95 OTM. Brent on the $90 structural-premise line. Re-eval if Brent closes sub-$88 sustained by Thu Jun 12 CPI.
+- **BRT-15 tanker thesis** — TABLED Jun 4, now ACTIVELY GOING AGAINST. Re-arm progressively less likely if halt holds.
 
 ## MAIL STATE (one line per signal)
 
-- **Inbox:** 1 item — `2026-06-07_from-NEXUS_brief_pilot2_review.md` (pilot-2 reference artifact; not processed-moved per Sun PM note).
-- **Outbox:** 3 items —
-  - `2026-06-07_to-NEXUS_fallback_rate_instrumentation.md` (spec; already applied live to NEXUS, record-only — HERMES delivery moot)
-  - `2026-06-08_to-PROME_root-claudemd-push-protocol-conflict.md` (durable record of root CLAUDE.md push-protocol contradiction + BRENT corroboration + local fix + upstream asks)
-  - **🆕 `2026-06-08_to-HAWK_brt-27-28-restructure-adopted.md`** (PM-2 — closes HAWK's Jun 8 scope-clarification loop; confirms BRT-27/28 restructured per HAWK ask + adopts calibration delta to HAW-09)
+- **Inbox:** 1 item (unchanged) — `2026-06-07_from-NEXUS_brief_pilot2_review.md` (pilot-2 reference artifact).
+- **Outbox:** 3 items (unchanged) —
+  - `2026-06-07_to-NEXUS_fallback_rate_instrumentation.md` (record-only; HERMES delivery moot)
+  - `2026-06-08_to-PROME_root-claudemd-push-protocol-conflict.md`
+  - `2026-06-08_to-HAWK_brt-27-28-restructure-adopted.md`
+- **NOT WRITTEN this session:** HAWK outbox flagging Iran-Israel halt → HAW-09 upward revision (Will declined; HAWK will derive same conclusion from own monitoring per new `[[feedback_outbox_restraint_for_push_friction]]`).
 
 ## WORKBOOK HEALTH
 
-- **`NEXUS_BRIEF.md`:** LIVE, **rev-5** (PM-2: BRT-27/28 scope-narrow noted in CALIBRATION + As-of refresh). Hash still points to `ce65758f` (STATUS PM-2 change is small enough that the rev-5 brief still references the Sun PM canonical state).
-- **`thesis/PREDICTIONS.tsv`:** green; no DUE-stale rows. **PM-2 changes: BRT-27 and BRT-28 rewritten** (event-shaped → price-consequence on HAW-09/HAW-10); date_made bumped Jun 8; pre-Jun-8 history pointed at PREDICTIONS_ARCHIVE.
-- **`docket/CATALYSTS.tsv`:** green; FASTOW-maintained; next FASTOW run not due until ~Jul 1.
-- **`workbook/KB/VX/FLOW.tsv`:** DORMANT 6+ wks — Tier-2 revive/demote decision open.
-- **`thesis/THESIS.md`:** v3.0; v3.1 bump candidate gated on Jun 9 STEO + Jun 10 EIA + Jun 12 CPI batch.
-- **`refinery_damage/INCIDENTS.tsv`:** 35 rows; green; no new facility-damage (kinetic all intercepts).
+- **`NEXUS_BRIEF.md`:** LIVE, **rev-6** (Iran-Israel halt + STATUS material reframe end-to-end integrated). STATUS commit hash pending closeout.
+- **`thesis/PREDICTIONS.tsv`:** green; no DUE-stale rows; BRT-27 price-side may fire EARLY today (Brent <$92 met intraday).
+- **`thesis/CHANGELOG.md`:** Jun 9 entry written (Iran-Israel halt + China substrate intra-version POV pivot).
+- **`docket/CATALYSTS.tsv`:** STEO Jun 9 note updated for DOWN-revision reframe. Next FASTOW run not due until ~Jul 1.
+- **`workbook/KB/VX/FLOW.tsv`:** DORMANT 7+ wks — Tier-2 revive/demote decision open.
+- **`thesis/THESIS.md`:** v3.0; v3.1 bump candidate gated on Thu Jun 12 CPI batch.
+- **`refinery_damage/INCIDENTS.tsv`:** 35 rows; green; no new facility-damage (halt holding).
 
 ## GIT STATE
 
 - **Commits this session (all within AGENTS/BRENT/):**
-  - **A** `e2ef1936` (PM closeout — protocol fix): CLAUDE.md step 14 explicit push-discipline + new `outbox/2026-06-08_to-PROME_*` flag
-  - **B** `32eacf2f` (PM closeout — light refresh): STATUS.md (Mon AM stamp + tape line) + SCRATCH.md (rewrite) + NEXUS_BRIEF.md (rev-4 stamp)
-  - **C** `3ffba885` (PM-2 — BRT-27/28 restructure): PREDICTIONS.tsv (BRT-27/28) + STATUS.md (predictions table + OPEN-ITEMS) + CHANGELOG.md + NEXUS_BRIEF.md (rev-5) + SCRATCH.md (addendum) + new outbox `to-HAWK` reply
-  - **D** (this cleanup commit — SCRATCH staleness): NEXT-SESSION items #6/#8 framing updated to restructured BRT-27/28; MAIL/WORKBOOK/GIT states refreshed for PM-2
-- **HAWK** has 3 uncommitted files (STATUS.md, board_log.tsv, workbook/KB.tsv) — left untouched per `[[feedback_agent_git_isolation]]`. They do NOT block these path-scoped commits.
-- **Push: NO** (per Will's standing `[[feedback_defer_push_coordinate]]` + newly-written BRENT step 14 default). Will coordinating the push window. Queue: CARL `66c6be00` + BROCK `ca854ccf` + BRENT A + BRENT B (4 commits) will ride together when Will opens the window.
+  - **A** (closeout commit): STATUS.md (material reframe) + thesis/CHANGELOG.md (Jun 9 entry) + NEXUS_BRIEF.md (rev-6) + docket/CATALYSTS.tsv (STEO note) + SCRATCH.md (rewrite) + auto-memory `feedback_outbox_restraint_for_push_friction.md` + MEMORY.md index entry
+- **Other agents' uncommitted work:** check at session start (HAWK had 3 files yesterday — flag if still pending).
+- **Push: NO** (per Will's standing `[[feedback_defer_push_coordinate]]` + Jun 9 explicit "commit local only" instruction). Push queue accumulates for Will-coordinated window.
 
 ## NEW AUTO-MEMORY THIS SESSION
 
-- **No new promotions this session.** The protocol-bug-finding is well-captured in the PROME outbox file + BRENT's local CLAUDE.md edit; it's operational-fleet-coordination work rather than a transferable thesis-level lesson. The pre-existing auto-memories that fired and held the line are: `[[feedback_defer_push_coordinate]]`, `[[feedback_agent_git_isolation]]`, `[[feedback_cross_agent_inbox_writes]]`, `[[project_openclaw_prome_degraded]]`. The candidate-for-retirement is `[[finding_push_train_pattern]]` (flagged in PROME outbox; Will-scope decision).
+- **`feedback_outbox_restraint_for_push_friction`** — Only write cross-agent outbox files for 🔴 critical signals; each file adds push/merge friction Will absorbs. Default to NEXUS_BRIEF tables for steady-state; outbox = acute only. Validated Jun 9 (HAW-09 corroboration declined). Indexed in MEMORY.md.
