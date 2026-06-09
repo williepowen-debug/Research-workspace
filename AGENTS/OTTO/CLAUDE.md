@@ -52,19 +52,16 @@
 
 ## Current Thesis
 
-OTTO runs two standing theses. **The live case table, case statuses, and all current
-metrics live in `STATUS.md` (§ THESIS + § SIGNAL DASHBOARD) — the single source of truth.
-This section holds only the durable framing.**
+**Canonical thesis lives in [`thesis/THESIS.md`](thesis/THESIS.md) (v1.0+) — durable framing,
+mechanism, conviction decomposition, transmission chain, why-now timing claim, risk matrix,
+cross-agent links.** Live case-status mirror in `STATUS.md` § THESIS; current metrics in
+`STATUS.md` § SIGNAL DASHBOARD. This section is now a one-line pointer — *do not duplicate
+the canonical thesis here.*
 
-### Primary: "The Cockroach" — when you find one, there are more.
-Multiple fraud types keep surfacing across the auto ecosystem — different mechanisms, same
-pattern: stress hidden until collapse, insiders extract value before discovery. Confirmed
-cases, scale, and current status → STATUS.md § THESIS.
+- **Primary — "The Cockroach":** pattern fraud-discovery across the auto ecosystem; 4 confirmed cases + 1 alleged carve-out (Carvana).
+- **Secondary — "The Invisible Exit":** immigrant subprime cohort skip-defaults bypassing standard 30→60→90 DQ chain — explains why fraud lender books look clean until collapse.
 
-### Secondary: "The Invisible Exit" — immigration-auto transmission.
-Immigrant subprime borrowers don't default through the normal 30→60→90 chain — they
-disappear. Loan goes current → "skip" with no recovery, which breaks roll-rate models.
-Current recovery-ratio / DQ / employment readings → STATUS.md § SIGNAL DASHBOARD.
+→ `thesis/THESIS.md` for everything else.
 
 ---
 
@@ -85,7 +82,7 @@ things in context are what needs doing.
    follow-up queue.
 3. **Read `MEMORY.md`** — cross-session feedback, findings, references, and Session
    Notes (ends on NEXT SESSION action items).
-4. **Scan `workbook/PREDICTIONS.tsv`** — **automated by the boot kit.** Run it once,
+4. **Scan `thesis/PREDICTIONS.tsv`** — **automated by the boot kit.** Run it once,
    covers this step + step 5 + a price snapshot (~2s):
    ```
    .venv/bin/python3 AGENTS/OTTO/scripts/boot.py
@@ -116,7 +113,7 @@ STATUS.md) — skip the full sweep.
 
 ### INBOX Processing Protocol (when spawned for it)
 1. **Read each signal** — who sent it, what's the data, what priority (🔴/🟠)?
-2. **Cross-reference workbook** — check your workbook files (VX.tsv, ML.tsv, FLOW.tsv, PREDICTIONS.tsv) for related vectors, prior research, or transmission mechanics. Does this signal connect to something you already track?
+2. **Cross-reference workbook + thesis** — check VX.tsv, ML.tsv, FLOW.tsv (workbook) + PREDICTIONS.tsv (thesis) for related vectors, prior research, or transmission mechanics. Does this signal connect to something you already track?
 3. **Assess thesis impact** — does this change any prediction, threshold, or position view?
 4. **Update STATUS.md** if warranted (new data, changed levels, adjusted confidence)
 5. **Reply via OUTBOX.md** only if: (a) you have new information the sender doesn't have, (b) their signal contains an error you can correct, or (c) it triggers a cross-agent threshold. Do NOT reply just to acknowledge — silence means "received and integrated."
@@ -164,7 +161,7 @@ reconstructing how a view, or the architecture, evolved; NEXUS_BRIEF is read by 
    whose projected date shifted. The two docs must not diverge in event SET. A past-due item
    must not survive to re-flag identically next boot. **Do this before step 4 — swept outcomes
    feed prediction resolution.**
-4. **Update `workbook/PREDICTIONS.tsv`** *(mirror of boot 4)* — using the catalyst outcomes
+4. **Update `thesis/PREDICTIONS.tsv`** *(mirror of boot 4)* — using the catalyst outcomes
    swept in step 3, resolve every prediction the boot flagged overdue or due: **resolve /
    re-arm-with-reason / push-date-with-reason — never leave OPEN-but-stale.** Mark
    confirmed/falsified; retire passed Resolve_Dates; add new claims.
@@ -250,11 +247,13 @@ else references it. *(Finalized via the Phase-3b cross-doc audit, 2026-06-02. Ro
 
 | Doc | Owns | Does NOT contain |
 |-----|------|------------------|
-| `STATUS.md` | Live signal dashboard, all current metrics, case statuses, live thesis state, CRITICAL TIMELINE, active vectors, lender watchlist. **Cap ~250 lines — archive dated check-in blocks to `workbook/STATUS_archive_YYYYMMDD.md`** | Cross-session learnings; raw research; the prediction ledger; thesis-pivot history (→ CHANGELOG) |
-| `CHANGELOG.md` | Thesis/POV-pivot audit trail (**analytical**) — dated Was→Is + Trigger + Touches for every material view change. The trajectory record STATUS-pruning destroys | Routine dashboard refreshes (→ STATUS); structural changes (→ MAINTENANCE); live state |
+| `thesis/THESIS.md` | **Canonical versioned thesis (v1.0+).** Primary Cockroach, Secondary Invisible Exit, Carvana sub-thesis carve-out, transmission chain, why-now timing claim, conviction decomposition, risk matrix, predictions pointer, cross-agent links. STATUS § THESIS is a live-state *mirror* — canonical wins on disagreement | Live dashboard metrics (→ STATUS); transient case-status updates (→ STATUS) |
+| `STATUS.md` | Live signal dashboard, all current metrics, case statuses, **live thesis-state mirror** (3-line summary + case-status table; canonical narrative → `thesis/THESIS.md`), CRITICAL TIMELINE, active vectors, lender watchlist. **Cap ~250 lines — archive dated check-in blocks to `workbook/STATUS_archive_YYYYMMDD.md`** | Cross-session learnings; raw research; the prediction ledger; thesis-pivot history (→ thesis/CHANGELOG); the durable thesis narrative (→ thesis/THESIS) |
+| `thesis/CHANGELOG.md` | Thesis/POV-pivot audit trail (**analytical**) — dated Was→Is + Trigger + Touches for every material view change. The trajectory record STATUS-pruning destroys. *Moved from top-level → thesis/ on 2026-06-09 with thesis/THESIS.md introduction* | Routine dashboard refreshes (→ STATUS); structural changes (→ MAINTENANCE); live state |
 | `MAINTENANCE.md` | **Structural** change-log — docs/folders/scripts/protocol changes (Trigger/What/Files/Boot-impact/Lessons). "Why is OTTO organized this way?" | Analytical/thesis changes (→ CHANGELOG); forward to-do (→ STALE_PUNCHLIST); live state |
 | `NEXUS_BRIEF.md` | Cross-agent synthesis brief (locked schema; OTTO=Tier-2 opt-in). VIEW/CALIBRATION/CROSS-DOMAIN/NEXT-DECISION/FORWARD-CATALYSTS. Refreshed every closeout (step 7a) | Restated canonical content (references PREDICTIONS/CHANGELOG/CATALYSTS); P/L or marks |
-| `workbook/PREDICTIONS.tsv` | The falsifiable-claim ledger (9-col schema) — every OTTO-NN + status | Narrative; dashboard values |
+| `thesis/PREDICTIONS.tsv` | The falsifiable-claim ledger (9-col schema) — every OTTO-NN + status. *Moved from `workbook/` → `thesis/` on 2026-06-09; boot scripts updated.* | Narrative; dashboard values; resolved-row post-mortems (→ PREDICTIONS_ARCHIVE) |
+| `thesis/PREDICTIONS_ARCHIVE.md` | Post-mortems for resolved PREDICTIONS rows: substance vs window outcome, calibration lesson. Calibration scoreboard at top. Read at calibration-review pass, not at boot | The active TSV rows (those stay in `PREDICTIONS.tsv` with status); failure-pattern *rules* (those live in THESIS § Predictions) |
 | `workbook/ML.tsv` | Append-only dated master-log of observations (the event record) | Forward predictions (→ PREDICTIONS); live dashboard state (→ STATUS) |
 | `workbook/VX.tsv` | Tracked-vector **registry** — vector IDs, category, per-vector rungs + status | ⚠ dup/rot: its `Current_Value` column duplicates STATUS + the CLAUDE threshold rules and is Feb-stale; treat STATUS as the live read, VX as the structured registry |
 | `workbook/VX_HISTORY.tsv` | Time-series history of vector values | The current live read (→ STATUS / VX) |
@@ -263,7 +262,7 @@ else references it. *(Finalized via the Phase-3b cross-doc audit, 2026-06-02. Ro
 | `workbook/ABS_ISSUANCE.tsv`, `workbook/EXTENSION_PROXY.tsv` | Script-generated monitoring series (fed by `scripts/`) | Hand-authored narrative |
 | `workbook/CROSS_AGENT_LOG.tsv` | Log of outbound cross-agent signals (record of what was routed) | — |
 | `scripts/` | Boot automation (`boot.py` orchestrator → `predictions_due.py` + `catalyst_countdown.py` + price snapshot) and monitoring stubs (`abs_issuance_tracker.py`, `extension_proxy.py` — manual-check placeholders, not live feeds) | — |
-| `docket/CATALYSTS.tsv` | Machine-readable forward-event feed (8-col: date/event/what_to_check/threshold_signal/priority/who_cares/notes/date_class). Read by `catalyst_countdown.py` at boot. Source of truth for dated events | Narrative (→ STATUS CRITICAL TIMELINE, the human twin); the prediction ledger (→ PREDICTIONS.tsv) |
+| `docket/CATALYSTS.tsv` | Machine-readable forward-event feed (8-col: date/event/what_to_check/threshold_signal/priority/who_cares/notes/date_class). Read by `catalyst_countdown.py` at boot. Source of truth for dated events | Narrative (→ STATUS CRITICAL TIMELINE, the human twin); the prediction ledger (→ thesis/PREDICTIONS.tsv) |
 | `MEMORY.md` | Cross-session feedback, findings, references, Session Notes (CHANGES/LAST/NEXT) | Recaps of STATUS values (reference, don't copy) |
 | `LESSONS.md` | Distilled durable process rules | ⚠ overlaps MEMORY § Feedback + these conventions (consolidation candidate — punch-list) |
 | `LAST_COMPLETION.md` | The per-session hand-off | Durable learnings (→ MEMORY) |
@@ -272,7 +271,7 @@ else references it. *(Finalized via the Phase-3b cross-doc audit, 2026-06-02. Ro
 | `STALE_PUNCHLIST.md` | Standing stale-doc inventory + priority-ordered refresh plan; re-audit each major session. The "what needs work next" list — check it when planning a maintenance/refresh pass | Live state; the actual refreshed content (this is the to-do, not the fix) |
 | `EDGAR_8K_MONITOR.md` | The 8-K early-warning monitoring protocol + bank watchlist (method) | ⚠ Bank-loss sizing (REGINALD owns); heavy REGINALD overlap |
 | `OUTBOX.md` | *(Deprecated — legacy HERMES transport buffer; superseded by WALTER inbox routing)* | Anything live |
-| `CLAUDE.md` | Identity, domain scope, boot/closeout protocol, durable thesis framing, threshold *rules*, these conventions | **Any current value or case status** (all live state → STATUS) |
+| `CLAUDE.md` | Identity, domain scope, boot/closeout protocol, threshold *rules*, these conventions, one-line pointer to canonical thesis | **The canonical thesis** (→ thesis/THESIS.md); **any current value or case status** (all live state → STATUS) |
 
 ---
 
@@ -332,7 +331,7 @@ Check `RESEARCH_STATUS.md` for exhausted topics. Don't duplicate work.
 
 ## Prediction Convention
 
-All predictions go in `workbook/PREDICTIONS.tsv` with 9-col schema (matches BROCK/HENRY/REGINALD convention):
+All predictions go in `thesis/PREDICTIONS.tsv` with 9-col schema (matches BROCK/HENRY/REGINALD convention). Resolved-row post-mortems → `thesis/PREDICTIONS_ARCHIVE.md` (calibration scoreboard + lesson per row). Failure-pattern *rules* (the ones that gate writing the next prediction) live in `thesis/THESIS.md` § Predictions:
 `ID | Prediction | Confidence | Made_Date | Resolve_Date | Status | Result | Invalidation | Notes`
 
 - **ID:** OTTO-NN
@@ -351,7 +350,7 @@ Review predictions weekly. Update on new data.
 ```
 OTTO research insight
     ↓
-workbook/PREDICTIONS.tsv (if predictive)
+thesis/PREDICTIONS.tsv (if predictive)
     ↓
 TRADE.md (position ideas)
     ↓
@@ -467,8 +466,7 @@ same-data-in-two-docs).
 ```
 AGENTS/OTTO/
 ├── CLAUDE.md           # This file — instructions + domain
-├── STATUS.md           # Live dashboard — signals, watchlists, timeline (cap ~250 lines)
-├── CHANGELOG.md        # Thesis/POV-pivot audit trail — analytical (Was→Is + Trigger + Touches)
+├── STATUS.md           # Live dashboard — signals, watchlists, timeline, thesis-state MIRROR (cap ~250 lines)
 ├── MAINTENANCE.md      # Structural change-log — docs/scripts/protocol (why it's built this way)
 ├── NEXUS_BRIEF.md      # Cross-agent synthesis brief (Tier-2 opt-in; refreshed every closeout)
 ├── MEMORY.md           # Cross-session memory (feedback/findings/references)
@@ -476,9 +474,14 @@ AGENTS/OTTO/
 ├── TRADE.md            # Position ideas
 ├── RESEARCH_STATUS.md  # What's been researched
 ├── STALE_PUNCHLIST.md  # Standing stale-doc inventory + ordered refresh plan (re-audit each major session)
+├── thesis/
+│   ├── THESIS.md           # Canonical versioned thesis (v1.0+) — Primary/Secondary/Carvana sub-thesis/transmission/why-now/conviction/risk
+│   ├── CHANGELOG.md        # Thesis/POV-pivot audit trail (analytical Was→Is + Trigger + Touches)
+│   ├── PREDICTIONS.tsv     # Falsifiable claims (9-col standard schema)
+│   └── PREDICTIONS_ARCHIVE.md  # Resolved-row post-mortems + calibration scoreboard
 ├── scripts/
 │   ├── boot.py             # Boot orchestrator — price + predictions + catalysts (~2s)
-│   ├── predictions_due.py  # Boot step 4 — OVERDUE/DUE-SOON scan of PREDICTIONS.tsv
+│   ├── predictions_due.py  # Boot step 4 — OVERDUE/DUE-SOON scan of thesis/PREDICTIONS.tsv
 │   ├── catalyst_countdown.py # Boot step 5 — countdown off docket/CATALYSTS.tsv
 │   ├── abs_issuance_tracker.py # Monitoring stub (manual-check placeholder)
 │   └── extension_proxy.py      # Monitoring stub (manual-check placeholder)
@@ -489,7 +492,6 @@ AGENTS/OTTO/
 ├── workbook/
 │   ├── VX.tsv          # Vectors (indicators tracked)
 │   ├── ML.tsv          # Master Log (observations)
-│   ├── PREDICTIONS.tsv # Falsifiable claims (9-col standard schema)
 │   └── FLOW.tsv        # Transmission pathways
 ├── sources/            # Raw materials
 └── briefings/          # Audio briefings
@@ -512,4 +514,4 @@ AGENTS/OTTO/
 
 ---
 
-*OTTO CLAUDE.md **v2.5** | 2026-06-08 — MAINTENANCE.md added (structural change-log; closeout step 1b). **Full version/structural history → `MAINTENANCE.md`** (v2.1→v2.5 detail lives there, not inline here).*
+*OTTO CLAUDE.md **v2.6** | 2026-06-09 — `thesis/` subdir introduced: canonical THESIS.md v1.0; CHANGELOG.md + PREDICTIONS.tsv moved in; new PREDICTIONS_ARCHIVE.md. STATUS § THESIS now a live-state mirror only. **Full version/structural history → `MAINTENANCE.md`** (v2.1→v2.6 detail lives there, not inline here).*

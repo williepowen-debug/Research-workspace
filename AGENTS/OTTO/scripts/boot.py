@@ -8,7 +8,7 @@ pressure (which is how OTTO's dashboard goes stale).
 
 What it runs:
   1. Price snapshot — OTTO's tradeable watchlist (CVNA, ALLY) via FORGE fetch.py
-  2. Predictions-due scan — workbook/PREDICTIONS.tsv (boot step 4)
+  2. Predictions-due scan — thesis/PREDICTIONS.tsv (boot step 4)
   3. Catalyst countdown — docket/CATALYSTS.tsv (boot step 5)
 
 What it does NOT do: OTTO's domain data (fraud filings, ABS surveillance, bank

@@ -35,8 +35,8 @@
 
 | # | Gap | Type | Peer | Effort |
 |---|-----|------|------|--------|
-| 4 | `PREDICTIONS_ARCHIVE.md` + condense closed-row Notes to one-line lesson | infra | SAM, BRENT | Low-Med |
-| 5 | Calibration scoreboard preamble in PREDICTIONS.tsv (CONFIRMED/FAILED-with-lessons/failure-pattern synthesis) | infra | SAM (gold std) | Med |
+| 4 | ✅ **DONE Jun 9** — `thesis/PREDICTIONS_ARCHIVE.md` with 5 resolved-row post-mortems | infra | SAM, BRENT | Low-Med |
+| 5 | ✅ **DONE Jun 9** — Calibration scoreboard at top of ARCHIVE.md (5/5 substance, 4/5 substance+window) + failure-pattern synthesis | infra | SAM (gold std) | Med |
 | 6 | STALE_PUNCHLIST #2–3 — RESEARCH_STATUS.md (Feb-stale snapshots) + VX.tsv (3-way threshold dup) | content | — | Low |
 | 7 | War-transmission row (Apr 1 Iran/oil/ABS) — re-check or retire post-ceasefire | content | n/a | Low |
 | 8 | OBK 10-Q + M&T Q2 lookups (OTTO-30/31 hard-signal watches; M&T now in CATALYSTS Jul 16) | content | n/a | Low |
@@ -45,7 +45,7 @@
 
 | # | Gap | Type | Peer | Effort | Note |
 |---|-----|------|------|--------|------|
-| 9 | Versioned `thesis/THESIS.md` (thesis graduates out of STATUS) | infra | SAM, BRENT | Med-High | Structural call; CHANGELOG already seeded for the move |
+| 9 | ✅ **DONE Jun 9** — Versioned `thesis/THESIS.md` v1.0 (12-section canonical thesis). CHANGELOG + PREDICTIONS moved into thesis/. STATUS § THESIS now mirror-only. Carvana sub-thesis carved out. | infra | SAM, BRENT | Med-High | Promoted from P3 + executed same session |
 | 10 | `TIMELINE.md` (narrative event progression vs STATUS CRITICAL TIMELINE) | infra | SAM, BRENT | Med | Lower value |
 | 11 | Sub-agent steward (docket/trade-doc, à la KOYOMI/FASTOW/METSUKE) | infra | SAM ×3, BRENT ×1 | Med | Now viable; premature until P1 lands |
 | 12 | Live domain-data feeds (real EDGAR 8-K puller) OR retire the 2 `scripts/*.py` stubs | infra | SAM/BRENT real feeds | Med | OTTO domain (PACER/EDGAR/news) has no clean API |
