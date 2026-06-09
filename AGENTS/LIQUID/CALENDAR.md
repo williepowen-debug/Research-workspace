@@ -1,41 +1,37 @@
 # LIQUID — Calendar & Data Releases
 
-**Last Updated:** 2026-05-20 (VERIFY-pass complete — dates web-verified vs Treasury / BLS / BEA / Fed schedules)
+**Last Updated:** 2026-06-08 (rolled forward from 5/20; past windows moved to Resolved — auction/PCE/NFP outcomes ⚠️ pending data pull, not fabricated)
 
 ---
 
-## This Week (May 19–23, 2026)
+## This Week (Jun 8–12, 2026)
 
 | Date | Event | Signal Threshold | Who Cares |
 |------|-------|-----------------|-----------|
-| **Wed May 20 (TODAY)** | **20Y Treasury auction** ($16B reopening; announce 5/14, settle 6/1) | Indirect <55% OR tail >2bps → 🟠 to ALL | LIQUID |
-| Thu May 21 | Initial jobless claims | >250k = labor weakening; >300k = recession-signal | CARL, LIQUID |
-| Various | **BDC Q1 earnings continuation** (OBDC, ARCC, BXSL, MAIN to report) | FV/Cost ratios, non-accrual, PIK %, NAV — see `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` | LIQUID, BROCK |
-| Daily | SOFR / SOFR-IORB | SOFR >3.70 OR SOFR-IORB sustained >0 → re-open KB-LIQ-051 question | LIQUID |
-| Daily | **HY OAS proximity to 260 kill** | <270 = pre-trigger; <265 = trigger A; <260 intraday = trigger B (see `workbook/KILL_MEMO_HY_OAS_260.md`) | LIQUID |
+| **Wed Jun 10 8:30am** | **May CPI** | Energy passthrough now COOLING (Brent sub-$90) — does core stay sticky? | CARL, LIQUID |
+| Thu Jun 11 | Initial jobless claims | >250k = labor weakening; >300k = recession-signal (last 225k 5/30; shadow-adj ~280k) | CARL, LIQUID |
+| Various | **BDC Q1 wrap / gate-cluster follow-through** (Cliffwater CDLI late-June; Partners Group 2nd-PE-gate watch) | div cuts, gate caps, NAV — BROCK-led; see `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` | LIQUID, BROCK |
+| Daily | SOFR / SOFR-IORB | SOFR >3.70 OR SOFR-IORB sustained >0 → re-open KB-LIQ-051 question (current -2bps) | LIQUID |
+| Daily | **HY OAS proximity to 260 kill** | <270 = pre-trigger; <265 = trigger A; <260 intraday = trigger B (current 276, 16bps cushion; see `workbook/KILL_MEMO_HY_OAS_260.md`) | LIQUID |
+| Daily | **APO $130 reassess-line + USD/JPY post-160** | APO re-cross >$130 ×3 → Trigger C re-arms (current $129.93); JPY follow-through past 160.40 | LIQUID, SAM |
 
-## Next Week (May 26–30, 2026)
-
-| Date | Event | Signal Threshold | Who Cares |
-|------|-------|-----------------|-----------|
-| Mon May 25 | **Memorial Day — US markets closed** | — | — |
-| Tue May 26 | **2Y note auction** | Indirect bid, tail, BTC | LIQUID |
-| Wed May 27 | **5Y note auction + 2Y FRN reopening** | Indirect bid, tail, BTC | LIQUID |
-| Thu May 28 | **7Y note auction** | Indirect bid, tail, BTC | LIQUID |
-| **Thu May 28 8:30am** | **April PCE (Personal Income & Outlays)** | Core PCE direction vs CPI; Fed reaction function input | CARL, LIQUID |
-| Fri May 30 (VERIFY) | Q1 GDP second revision | Headline trajectory; deflator | CARL |
-| Various | FOMC May minutes (VERIFY — ~3 weeks post-meeting) | SRF/IORB language, QT trajectory, dot plot color | LIQUID, HENRY |
-
-## Month Ahead (June 2026)
+## Next Week (Jun 15–19, 2026)
 
 | Date | Event | Signal Threshold | Who Cares |
 |------|-------|-----------------|-----------|
-| **Fri Jun 5 8:30am** | **May NFP (Employment Situation)** | <100k = labor-break confirmation; downward revisions weight | CARL, LIQUID |
-| **Wed Jun 10 8:30am** | **May CPI** | Energy passthrough from Brent $110+ reignite; core sticky? | CARL, LIQUID |
-| **Wed Jun 17–Thu Jun 18** | **June FOMC (decision Wed Jun 17, presser, SEP/dot plot)** | Dot plot revision, Warsh succession color, liquidity-facility language | LIQUID, HENRY, ALL |
-| **Thu Jun 18** | **May TIC data (April flows)** | Japan net, China (Belgium proxy), FOI demand hole | LIQUID, SAM |
-| Various | June Treasury auction cycle | BTC, indirect trends; 30Y tagged 5.168% on May 19 (cycle high) — next 30Y auction is the live tell | LIQUID |
-| Throughout | BDC Q1 cycle wraps; BCRED Q2 redemption window | Hard gate? >7% cap test | BROCK, LIQUID |
+| **Wed Jun 17** | **June FOMC — decision day** (presser, SEP/dot plot) | Dot plot revision, Warsh succession color, liquidity-facility language | LIQUID, HENRY, ALL |
+| **Thu Jun 18** | **May TIC data (April flows)** | Japan net, China (Belgium proxy), FOI demand hole — KB-LIQ-055 framework | LIQUID, SAM |
+| **Fri Jun 19** | **June monthly opex** | HYG / TEN June expiry roll off | LIQUID |
+| Various | June Treasury auction cycle | BTC, indirect; 30Y the live tell (at 5.01, off 5.168 peak) | LIQUID |
+
+## Later June / July (2026)
+
+| Date | Event | Signal Threshold | Who Cares |
+|------|-------|-----------------|-----------|
+| ~Late June | **Cliffwater CDLI Q1 release** | NAV/satisfaction; gate-cluster follow-through (BROCK-led) | BROCK, LIQUID |
+| Throughout late June | **BCRED Q2 redemption window** | Hard gate? >5% cap / pro-rata satisfaction (final Aug) | BROCK, LIQUID |
+| 30d window from 6/3 | **2nd alt-mgr PE-wrapper gate watch** (post-Partners Group) | Cross-asset-class contagion confirmation | BROCK, LIQUID |
+| Late Jul / Aug | **Q2 10-Q cycle** (FSK, OBDC, BDC marks) | NA reversal vs compounding; div-cut cascade | BROCK, LIQUID |
 | Throughout | Powell → Warsh transition | Policy continuity vs hawkish shift; intervention willingness | ALL |
 
 ---
@@ -44,6 +40,13 @@
 
 | Date | Event | Outcome |
 |------|-------|---------|
+| Jun 5 | May NFP (Employment Situation) | ⚠️ **Pending data pull** — not yet integrated (init claims 225k 5/30 / shadow-adj ~280k is the only labor read I have) |
+| May 28 | April PCE | ⚠️ **Pending data pull** |
+| May 28 | 7Y note auction | ⚠️ **Pending data pull** (BTC/indirect/tail) |
+| May 27 | 5Y note auction | ⚠️ **Pending data pull** |
+| May 26 | 2Y note auction | ⚠️ **Pending data pull** |
+| May 21 | 10Y reopening (Leg 2 — KB-LIQ-057 corroboration gate) | ⚠️ **Pending data pull** — the term-premium-vs-mechanism corroboration test was never integrated |
+| May 20 | 20Y auction ($16B reopening) | **Soft-but-functional, no orange:** BTC 2.55 / indirect 67.7% STRONG / tail 0bp / dealer 9.4% → KB-LIQ-057 (term-premium digestion, not broken mechanism) |
 | May 17 | HY OAS tightest of cycle: 276 (16bps cushion above 260 kill) | Did not breach; +4bps on 5/18 |
 | May 16 | WALTER sweep: 2nd US bank failure 2026 (Georgia), Barr "PC could trigger larger credit issues" | Stage 3 convergent-narrative recognition continues (KB-LIQ-040 trajectory) |
 | May 14 | Will/Prome signals: gamma momentum factor squeeze; 30Y tagged 5.046% (first since 2007) | Gamma suppression hypothesis live; duration regime break confirmed |

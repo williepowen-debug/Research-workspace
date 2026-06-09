@@ -2,7 +2,24 @@
 
 ## Session Notes
 
-### CURRENT SESSION (2026-05-20 — file-tree audit + 20Y auction + STATUS restructure)
+### CURRENT SESSION (2026-06-08 — boot from 18d-stale + NEXUS blocker + full Tier-1 catch-up)
+
+**Context:** Will booted LIQUID after ~18d dormancy (STATUS frozen 5/20). Two goals: (1) clear NEXUS's reactivate-before-6/10 blocker, (2) bring all boot docs current via a phased Tier-1 cleanup. Long multi-phase session.
+
+**Delivered:**
+- **Boot + live-tape catch-up:** STATUS refreshed 5/20→6/8 (3 dashboards). Big moves: APO co-trigger self-resolved then **RE-ARMED** (re-crossed $130 on 6/8 bounce, ~$131.5); Brent reversed $110→~$91; USD/JPY crossed 160; 30Y eased to 5.01 (still >5%); HY OAS 276 (16bps to kill, narrowing).
+- **NEXUS blocker cleared (C3 + T-08):** reads → NEXUS outbox + PROME (Will-decision Option A executed). C3: macro HY 276 counter-signal partially artificially strong — CCC +17 vs macro -10 (~24bps bifurcation); energy HY (285 stale) the primed corner. T-08: credit-pin intact-and-primed + caveat that a leakage event may widen HY *without* a safe-haven UST cushion (30Y>5%, foreign exit, JPY 160). New durable finding **KB-LIQ-058** (aggregate HY masks sector bifurcation).
+- **Tier-1 boot-doc cleanup (5 phases):** CLAUDE.md thresholds / CALENDAR (rolled fwd, past events→Resolved w/ pending markers) / IDENTITY Current Focus / STRATEGY (+false-kill guard) / USER. All restamped 6/8 from corrected STATUS. `CATCHUP_PUNCHLIST.md` created (tracks Tier 0-5).
+- **Live-primary catch:** double-checking Phase-3 figures caught dashboard.py staleness on yfinance rows — APO $129.93→$131.55 (re-crossing $130), BIZD $12.56 (back above trigger), not stale dashboard values. FRED rows (HY/CCC/rates) confirmed reliable. The FRED-reliable / yfinance-laggy split is the sharpened rule.
+- **BROCK read (for APO question):** we already hold **APO Dec $95P** (deep-OTM tail-hedge — correct size, since APO mega-cap is last domino to crack via fee/Athene insulation). BROCK PC thesis ACCELERATING (Stage 2→3 pivot, 4-fund gate cluster, record 6% default). Folded into IDENTITY #3.
+
+**Open follow-ups (carried):**
+- **APO re-cross watch — Day 1 of 3.** If it holds >$130 next 2 sessions → Trigger C re-arms → BROCK/PROME signal candidate.
+- **Catch-up NOT finished:** Tier 2 (thesis), Tier 3 (workbook — incl. KILL_MEMO false-kill detail deferred from Phase 4, + likely-stale BDC monitor + PREDICTIONS scan), Tier 4 (reference/inbox), Tier 5 (external data). See `CATCHUP_PUNCHLIST.md`.
+- **HYG put decision** still open (recommend close/expire; HYG $79.54 deep OTM, June expiry).
+- **Pending push:** committed locally 6/8; NOT pushed (Will-coordinated). Next window sweeps it.
+
+### PRIOR SESSION (2026-05-20 — file-tree audit + 20Y auction + STATUS restructure)
 
 **Context:** Will requested file-tree audit at boot. Session evolved through 4 distinct phases: hygiene → 20Y signal pickup → STATUS prune → POV-preservation + dashboard restructure.
 
@@ -131,15 +148,12 @@ MEMORY.md    STATUS.md  STRATEGY.md           USER.md
 
 ### NEXT SESSION
 
-1. **Boot from STATUS 3-dashboard structure** (151 lines, well under ceiling). Credit / Domestic Plumbing / Foreign Official tables — each dashboard is single-category. APO Day count pinned (manual increment per session).
-2. **5/21 10Y reopening today 1pm ET is the gate.** BOND-led Leg 2. Two questions resolve on this print:
-   - **KB-LIQ-057 corroboration:** clean print → term-premium-digestion pole confirmed; tail → mechanism-failure pole partially reopens for 10Y buyer mix.
-   - **APO co-trigger reassessment (Day 10+):** carrying for 10 days; HEARTBEAT line 80 overdue. Use 10Y print + 5/21 HY OAS read as inputs. **Do NOT defer another session without stated reason** (per STATUS Thesis-Kill callout).
-3. **HYG $75P Jun x10 cut/hold decision** — gated on (2). June expiry = theta-killer; cushion to 260 kill is widening, not narrowing.
-4. **Cross-agent outboxes** post-reassessment: BROCK on APO Day 10+ (especially if FSK NAV -9.9% + bull-recovery divergence remains loud), HENRY on duration if 10Y prints weak.
-5. **BDC Q1 continuation** if any prints land (OBDC/ARCC/BXSL/MAIN) → `workbook/BDC_MARK_CONVERGENCE_MONITOR.md`.
-6. **Initial claims Thu 5/21** — sanity check on labor (>250k = labor weakening; >300k = recession-signal).
-7. **HERMES sweep** likely happens between sessions — my 5/20 BOND outbox should land in BOND's inbox.
+1. **Continue catch-up from `CATCHUP_PUNCHLIST.md`.** Tier 0+1 DONE. Resume at **Tier 2** (thesis layer: THESIS/TIMELINE/CHANGELOG roll-forward — TIMELINE's May windows are past), then **Tier 3** (workbook: KILL_MEMO false-kill detail [deferred from Phase 4], BDC monitor refresh [Q1 cycle wrapped — likely big stale gap], PREDICTIONS due/overdue scan), **Tier 4** (CREDIT_THRESHOLDS check, inbox), **Tier 5** (external data).
+2. **APO $130 re-cross — check the count.** Day 1 was 6/8 (~$131.5). If sustained ≥3 sessions → Trigger C re-arms → BROCK/PROME signal. BROCK tracks same $130 line; holds APO Dec $95P.
+3. **May CPI 6/10** — Brent reversal (~$91) eases energy passthrough; is core sticky?
+4. **Tier 5 data pull** — 5/21-5/28 auction internals, **live energy HY OAS (route BRENT/data-fetch — KB-LIQ-058)**, 5/28 PCE, 6/5 NFP, SRF/reserves. Fills the ⚠️ pending markers in CALENDAR.
+5. **Inbox (2 pending, process on inbox-spawn)** — HAWK OFAC toll-risk 5/22; PROME FRED-citation-convention 5/21.
+6. **Push** committed-but-unpushed 6/8 work when Will opens a coordinated window.
 
 ### PRIOR SESSION (2026-05-19 morning)
 
