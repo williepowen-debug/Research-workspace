@@ -52,22 +52,28 @@ Current best label: **C) unresolved divergence — vol leg now cracking.** 6/5 N
 
 ## ANTECEDENT MAP (6/8 Type-B synthesis)
 
-Tagging matrix/signal rows to their *root* antecedents — convergence only counts across DIFFERENT roots (Discipline F, applied prophylactically not just at integration).
+Tagging matrix/signal rows to their *root* antecedents — convergence only counts across DIFFERENT roots (Discipline F, applied prophylactically not just at integration). **Re-test each pass — don't inherit. A map inherited rather than re-run rots into false confidence faster than a stale matrix row (looks like rigor).** Multi-root tags are explicit; mono-tagging genuinely multi-root rows is the mirror error of over-counting (hides real fragility).
 
 | Root | Brief description | Observations resting on it |
 |---|---|---|
-| **R1 USD/Fed repricing** | Higher-for-longer USD strength, NFP rate-shock, FOMC paralysis | M-03 (10Y/TLT), M-04 rate-shock leg of 6/5, USDJPY 160 (USD-side per SAM), Brent paper-soft (partial), 10Y proximate, TB-2 FOMC 6/17 concentrator |
-| **R2 Hormuz/oil substance** | Kinetic + blockade + curve structure | M-06, T-06, T-08 HAW-11 leakage |
+| **R1 USD/Fed repricing** | Higher-for-longer USD strength, NFP rate-shock, FOMC paralysis | M-03 {R1+R7}, M-04 rate-shock leg of 6/5, USDJPY 160 (USD-side per SAM), Brent paper-soft {R1+R2}, 10Y proximate {R1+R7}, TB-2 FOMC 6/17 concentrator |
+| **R2 Hormuz/oil substance** | Kinetic + blockade + curve structure (paper soft, **physical tight**) | M-06, T-06, T-08 HAW-11 leakage, Brent paper-soft {R1+R2} |
 | **R3 Credit fundamental** | LABOR→CARL→REGINALD bear-stress transmission | M-01, M-02 BDC, M-05 WAL/CRE, HY OAS 274, KRE not confirming |
 | **R4 AI/factor positioning** | Concentration unwind | M-04 6/5 AI-unwind leg, TB-2 AI-unwind driver |
 | **R5 Energy→CPI→Fed (2nd-order)** | Inflation pass-through | M-06 stagflation, 6/10 CPI discriminator, BRT-16 standing channel |
 | **R6 Japan/BOJ structural** | JGB term-premium, yen-carry, BOJ path | TB-2 yen-carry driver, S-26060702 (Japan-lifer leg deferred multi-year per SAM) |
+| **R7 UST-supply / auction-function** | Treasury supply-demand, auction indigestion, foreign-CB composition | M-03 {R1+R7}, 10Y proximate {R1+R7}, T-02 auction-function tension, 6/9-11 auctions, S-26060702 substrate (foreign-CB composition shift) |
 
-**C1 NEXUS-only finding — R1 dual implication.** R1 (USD/Fed) sits under **6 distinct observations**. Per Discipline F, those are NOT 6 independent rails but **one root in 6 costumes**.
-- **DEFLATES convergence:** convergence count across M-03 / M-04-rate-leg / USDJPY / Brent-paper / 10Y collapses toward 1 root, not 5. Don't treat "5 rails point same way" as 5-agent convergence.
-- **AMPLIFIES fragility:** one repricing event (6/10 CPI, 6/17 FOMC) moves all 6 observations together. T-08 + S-26060801 (TB-2) are pointing at exactly this — correlated-failure concentrated on R1's gate days.
+**Multi-root annotations (caught in advisor QC):**
+- **Brent paper-soft** = {R1, R2}. Paper-soft side is USD-strength + kinetic-without-damage; physical-tight side (Cushing 22.4M, SPR <360M, backwardation, UKMTO 1.1/day) is R2 — separate fragility root that makes T-08/Hormuz a distinct hazard. Mono-tagging to R1 would erase the very thing C4's cross-edge depends on.
+- **M-03 / 10Y proximate** = {R1, R7}. USD/Fed repricing dominates the *direction*; UST-supply/auction-function is what 6/9-11 auction-tail tail-risk is actually testing. T-02 lives on R7. Don't conflate.
 
-**Same antecedent that weakens the convergence makes the book more fragile.** Holds them in mind together, not as opposites.
+**C1 NEXUS-only finding — R1 dual implication.** R1 (USD/Fed) sits under **4-6 observations** (depending on multi-root accounting). Per Discipline F, those are NOT independent rails on the R1 dimension — but multi-root observations carry independent fragility on their *other* roots.
+- **DEFLATES convergence on R1 alone:** the R1-only count (USDJPY 160 USD-side, M-04 rate-shock leg, TB-2 FOMC concentrator) is 3 — these collapse cleanly to one root. Don't treat as 3-agent convergence on bear thesis.
+- **DOES NOT collapse the multi-root observations:** Brent and M-03 retain independent R2 and R7 fragility respectively. R1 firing on 6/10 CPI doesn't auto-mean their other roots also activate; conversely R2 (HAW-11) or R7 (auction tail) firing doesn't require R1 to move.
+- **AMPLIFIES fragility on R1's gate days:** one R1 repricing event (6/10 CPI, 6/17 FOMC) moves the 3+ pure-R1 observations together, AND lights one side of the multi-root rows. T-08 + S-26060801 (TB-2) are pointing at exactly this — correlated-failure concentrated on R1's gate days.
+
+**Same antecedent that weakens the convergence on R1 alone makes the book more fragile on R1's gate days, while multi-root rows preserve independent fragility on their other roots.** Honest accounting in both directions.
 
 **C2 — 6/10 CPI is a shared resolution node, not just M-04/M-06.** One print resolves ~5 rails: oil→Fed discriminator (M-06, R5) · vol-fade inside VIX9D (M-04, R4) · mid-auction inflation (M-03, R1) · SAM USD-persistence carry/FXY (R1+R6) · TB-2 trigger window. **Pre-registered branches** (hot vs in-line vs soft) — `research/2026-06-08_cpi_pre_registration.md`. Pre-reg locks branches before data biases the read.
 

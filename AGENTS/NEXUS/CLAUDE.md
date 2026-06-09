@@ -134,6 +134,8 @@ P(consequence) = P(catalyst fires) × P(consequence | catalyst fires). Never tra
 ### D. Market-verdict counter-signal (`[[finding_thesis_loadbearing_sweep_scope]]`)
 Every pass must surface at least one tape-side signal that contradicts the agent-data narrative. If you can't find one, the synthesis is incomplete — you're confirmation-biasing.
 
+**Citation-count vs observation-count check:** when the same counter-signal appears in multiple STATUS rows (e.g., HY OAS 274 in M-01 + M-04 + M-07 + narrative gap), it's still ONE observation viewed N times — not N independent counter-signals. Check that the citations represent distinct measurements before treating as multi-rail confirmation. **Staleness in the corner most exposed:** for a load-bearing counter-signal, check whether the data is fresh *in the corner most exposed to live substance* (e.g., HY *energy* OAS Apr-28 stale ~285bps while Hormuz blockade is live = macro HY counter-signal artificially strong). Validated NEXUS 6/8.
+
 ### E. Single-print prediction-market skepticism (`[[finding_thin_liquidity_prediction_market_discipline]]`)
 Single Polymarket/Kalshi prints are not "holds"; require ≥3-day re-check + cross-source verify before integrating.
 
@@ -143,6 +145,8 @@ When integrating two or more signals as "independent convergence," verify the *l
 - **Mechanism:** SIG-A (e.g., CFTC positioning showing paper-long unwind) and SIG-B (e.g., HAWK partial-thaw scenario weights) appear independent. Both quietly assume *Iran-thaw on track*. Iran walks the MOU. Both signals' load-bearing premise just died — the convergence evaporates at once.
 - **Rule:** before treating N signals as "N independent roots pointing same direction," list each signal's antecedent assumptions and check freshness. If a shared antecedent has changed state since signal generation, treat as 1 root not N.
 - **Validation:** caught 2026-06-06 E-phase post-hoc (SIG-26060601 + SIG-26060602). Codified so it fires *before* integration next time.
+
+**Prophylactic application (added 2026-06-08, Type-B synthesis pass):** Don't only test shared antecedents at integration — build an explicit **root-map** at each Type-B pass. Tag every matrix row + brief signal to which root(s) it rests on (e.g., R1 USD/Fed, R2 Hormuz/oil, R3 credit fundamental, R4 AI-positioning, R5 energy→CPI→Fed, R6 Japan/BOJ). Convergence ONLY counts across DIFFERENT roots. This catches over-counting before it bakes into the matrix, not after. Validated 6/8: 6 STATUS observations (M-03 / M-04 rate-leg / USDJPY / Brent paper-soft / 10Y / TB-2 FOMC concentrator) collapsed to R1 (USD/Fed) — one root in 6 costumes. **Dual implication:** same antecedent both *deflates* convergence count AND *amplifies* fragility (one repricing event moves all observations together). Hold both in mind, not as opposites.
 
 ---
 

@@ -61,6 +61,14 @@ Advisor QC against synthesis pass surfaced 4 items + the two-machine sync flag:
   - TB-2 yen-carry driver substance: CFTC -129,567 (72% of cycle peak), 5th build week, danger zone 85%/-153K. Last pre-blackout CFTC Sat 6/13.
   - **Connective-tissue dispatch to SAM**: HAWK's 6/8 brief explicitly answered SAM's open Tehran-walk-back question (HAWK: "Brent fade is damage-regime-exit pricing, not deal-substance. Don't mark SAM-23 on rumor-tier"). SAM didn't have visibility; outbox dispatched.
 
+## WU6 — Closeout (Step 14 promotion scan)
+
+- **Cross-agent transferable PROMOTED:** `finding_circular_corroboration_via_state_file.md` written to auto-memory + indexed in MEMORY.md. Captures the CPI 6/12→6/10 catch as a generalizable lesson — majority-agreement on derived facts is circular when agents likely read from shared state. Independence discipline applies to your own state, not just news sources. Distinct from `[[finding_shared_antecedent_independence_test]]` (causal antecedent) and `[[feedback_verify_existence_external_primaries]]` (opposite direction: fleet silence ≠ event didn't happen).
+- **NEXUS-specific durable INLINED in CLAUDE.md:**
+  - **Discipline F prophylactic addition** — build explicit root-map at each Type-B pass (R1...Rn), tag every row to root(s), convergence only counts across different roots. Dual-implication note (deflates + amplifies). Validated 6/8 antecedent map.
+  - **Discipline D refinement** — citation-count vs observation-count check (HY OAS cited 4 ways is 1 observation, not 4 rails) + staleness-in-the-corner-most-exposed check (HY *energy* OAS Apr-28 stale while Hormuz live).
+- **Deferred:** pre-registration technique (already covered by Discipline E); cross-edge mining (implicit in synthesis frameworks); fallback-rate rollup (need ≥6 data points, log has 0 real events yet).
+
 ## WU5 — Type-B synthesis pass (advisor directive: read briefs sideways, not top-down)
 
 Method: antecedent map → walk uncertainties → diff cross-domain edges. Four threads C1-C4 landed.
@@ -79,7 +87,7 @@ STATUS now 188 lines (cap 200). 12-line headroom.
 1. **Two-machine sync flag for Will** — advisor's clone (branch `claude/tender-brown-1jif87`, HEAD `3da8255`) cannot see today's NEXUS commits (`ade2fca1` / `d6dbb5d9` / `6fcd606f`). Locally safe (all committed on this clone's `master`); `AGENTS/NEXUS/STATUS.md` only ever touched by NEXUS so no cross-clone NEXUS-file collision risk. Flag carried for next coordinated push window.
 2. **6/8 market-close data refresh** — `fetch.py` sweep across matrix anchors (^VIX, ^TNX, TLT, KRE, WAL, BIZD, BZ=F, USDJPY=X) + CCC OAS + HY OAS T+1 6/5 print + HY energy OAS (BRENT flag). Anchor roll Fri 6/5 → Mon 6/8 close, re-grade thresholds, refresh narrative gap. **Separate deliberate pass.**
 3. **Live catalyst cluster fires Tue-Wed:** 6/9 SAM-21 mechanical re-check + 10Y nominal auction → **6/10 May CPI (INSIDE auction window)** + JGB 30Y auction → 6/11 long-end auction. NEXUS pass mandatory after 6/10.
-4. **Auto-memory promotion candidate (sharper version of the calendar-camps lesson):** Surface finding = **"circular corroboration via own state file."** NEXUS's STATUS said 6/12; HAWK + BRENT also said 6/12; that 2/3-majority felt like corroboration but wasn't independent — HAWK and BRENT likely ingested 6/12 from upstream STATUS. My own *independence discipline* ("3 agents reading one Reuters article ≠ convergence") applied here means state-file errors propagate as fake-majority convergence on derived facts. Lesson generalizes beyond dates: any time an agent-set "agrees" on something derivable from a shared state file, check whether each agent independently sourced it or read it from the shared state. **Worth promoting as `finding_circular_corroboration_via_state_file.md` at next closeout.** Per `[[feedback_verify_existence_external_primaries]]` adjacent — same logic, different surface.
+4. **Auto-memory promoted this session** → `finding_circular_corroboration_via_state_file.md` (done in WU6).
 5. **E-phase 4 standing disciplines — codify TODO (triage first):**
    - **war-premium tape signal** → KEEP, codify as NEXUS synthesis co-signal (used for SIG-02).
    - **causal-lag awareness** → FOLD into existing Discipline C (catalyst vs consequence). Don't duplicate.
