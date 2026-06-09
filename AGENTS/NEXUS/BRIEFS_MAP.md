@@ -63,20 +63,22 @@
 
 ---
 
-## Fleet rollout priority (NEXUS-side recommendation)
+## Fleet rollout priority (empirically re-driven by 6/8 cross-domain edge-diff)
 
-Eight Tier-1 briefs missing. Suggested priority order based on convergence-matrix load-bearing-ness:
+Eight Tier-1 briefs missing. **Priority order re-driven by SENDING-vs-WAITING diff across the 4 fresh briefs** — not by convergence-matrix load-bearing alone. Empirical gap evidence reorders the original list:
 
-1. **CARL** — touches M-01, M-06, transmission chain upstream; highest read-frequency at boot.
-2. **REGINALD** — owns M-02, M-05; transmission chain midstream; tape-not-confirming counter-signal lives here.
-3. **BROCK** — owns M-02 substance, PRED-36/37/38/40 prediction load.
-4. **HENRY** — owns M-04 (partially), M-07; vol/tape co-signals are critical for narrative gap.
-5. **WALTER** — primary signal routing source; brief would compress BOARD-dispatch density.
-6. **RED** — adversarial; brief carries forced counter-case (load-bearing per Discipline D narrative-gap requirement).
-7. **OZK** — STATUS dormant since 4/24; confirm activity first; if active, brief on WAL/OZK substance.
-8. **LIQUID** — STATUS 5/21 dormant; same — confirm activity before pressing.
+1. **CARL** ⚠️ — **3 of 4 briefs explicitly waiting on him** (USD/USD-persistence, May CPI tail, post-NFP read). Touches M-01, M-06, transmission chain upstream. Highest empirical demand.
+2. **HENRY** ⚠️ — **3 of 4 briefs waiting** (vol regime, breadth/gamma on AI-unwind, energy-CPI digestion). Owns M-04 (partially), M-07. (Was originally #4; promoted by gap data.)
+3. **LIQUID** 🚨 — **2 of 4 briefs waiting + DORMANT 5/21 + BLOCKING C3 energy-HY refresh AND T-08 credit-pin verification.** This is no longer rollout-priority — it's a **Will-decision** (see LAST_COMPLETION blocker #X: reactivate or accept blind spot in credit corner most exposed to live Hormuz). Promoted from "last" to "needs explicit Will-decision."
+4. **BROCK** — owns M-02 substance, PRED-36/37/38/40 prediction load. SAM + VIOLET also waiting on PC-cascade signal.
+5. **REGINALD** — owns M-02, M-05; transmission chain midstream; tape-not-confirming counter-signal lives here.
+6. **WALTER** — primary signal routing source; brief would compress BOARD-dispatch density.
+7. **RED** — adversarial; brief carries forced counter-case (load-bearing per Discipline D narrative-gap requirement).
+8. **OZK** — STATUS dormant since 4/24; confirm activity first.
 
-Distribution mechanism TBD per LAST_COMPLETION blocker. Open question: broadcast (1 outbox dispatch fleet-wide) vs phased per SAM's pilot-1/pilot-2 plan.
+**Reorder rationale:** original order was load-bearing-ness only. Empirical gaps say CARL + HENRY + LIQUID dissolve most of the open uncertainty across the 4 briefs already read. Let the data drive the queue.
+
+Distribution mechanism TBD. **DEFERRED until after 6/9-12 catalyst cluster clears** per advisor (focus protection + two-machine sync surface).
 
 ---
 
