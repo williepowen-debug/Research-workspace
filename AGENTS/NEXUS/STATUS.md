@@ -50,6 +50,36 @@ Current best label: **C) unresolved divergence — vol leg now cracking.** 6/5 N
 
 ---
 
+## ANTECEDENT MAP (6/8 Type-B synthesis)
+
+Tagging matrix/signal rows to their *root* antecedents — convergence only counts across DIFFERENT roots (Discipline F, applied prophylactically not just at integration).
+
+| Root | Brief description | Observations resting on it |
+|---|---|---|
+| **R1 USD/Fed repricing** | Higher-for-longer USD strength, NFP rate-shock, FOMC paralysis | M-03 (10Y/TLT), M-04 rate-shock leg of 6/5, USDJPY 160 (USD-side per SAM), Brent paper-soft (partial), 10Y proximate, TB-2 FOMC 6/17 concentrator |
+| **R2 Hormuz/oil substance** | Kinetic + blockade + curve structure | M-06, T-06, T-08 HAW-11 leakage |
+| **R3 Credit fundamental** | LABOR→CARL→REGINALD bear-stress transmission | M-01, M-02 BDC, M-05 WAL/CRE, HY OAS 274, KRE not confirming |
+| **R4 AI/factor positioning** | Concentration unwind | M-04 6/5 AI-unwind leg, TB-2 AI-unwind driver |
+| **R5 Energy→CPI→Fed (2nd-order)** | Inflation pass-through | M-06 stagflation, 6/10 CPI discriminator, BRT-16 standing channel |
+| **R6 Japan/BOJ structural** | JGB term-premium, yen-carry, BOJ path | TB-2 yen-carry driver, S-26060702 (Japan-lifer leg deferred multi-year per SAM) |
+
+**C1 NEXUS-only finding — R1 dual implication.** R1 (USD/Fed) sits under **6 distinct observations**. Per Discipline F, those are NOT 6 independent rails but **one root in 6 costumes**.
+- **DEFLATES convergence:** convergence count across M-03 / M-04-rate-leg / USDJPY / Brent-paper / 10Y collapses toward 1 root, not 5. Don't treat "5 rails point same way" as 5-agent convergence.
+- **AMPLIFIES fragility:** one repricing event (6/10 CPI, 6/17 FOMC) moves all 6 observations together. T-08 + S-26060801 (TB-2) are pointing at exactly this — correlated-failure concentrated on R1's gate days.
+
+**Same antecedent that weakens the convergence makes the book more fragile.** Holds them in mind together, not as opposites.
+
+**C2 — 6/10 CPI is a shared resolution node, not just M-04/M-06.** One print resolves ~5 rails: oil→Fed discriminator (M-06, R5) · vol-fade inside VIX9D (M-04, R4) · mid-auction inflation (M-03, R1) · SAM USD-persistence carry/FXY (R1+R6) · TB-2 trigger window. **Pre-registered branches** (hot vs in-line vs soft) — `research/2026-06-08_cpi_pre_registration.md`. Pre-reg locks branches before data biases the read.
+
+**C3 — Counter-signal staleness in energy corner.** HY OAS 274 flat is cited in M-01 / M-04 / M-07 / narrative gap — that's **ONE observation viewed four ways, NOT 4 independent counter-signals** (Discipline D refinement). AND: BRENT flags **HY energy OAS Apr-28 stale ~285bps** — the corner most exposed to live Hormuz risk has 40-day-old data. If energy HY widened since (substance suggests it should: Brent paper-soft + UKMTO 1.1/day blockade), macro HY counter-signal is artificially supporting M-07 + narrative gap. **Refresh-HY-energy-OAS priority — LIQUID dormant, route via WALTER or PROME.**
+
+**C4 — T-08 ↔ S-26060801 (TB-2) bidirectional cross-edge.** Neither HAWK nor VIOLET saw it (each stops at their domain edge).
+- HAW-11 leakage 6/8-22 → risk-off → accelerates yen-carry unwind (JPY flight-to-safety) + AI de-gross (positioning unwind). T-08 fires → pulls TB-2 forward as the trigger.
+- BOJ/FOMC hawkish surprise 6/16-17 → risk-off → flight-to-safety raises oil-stress sensitivity → war-premium re-enters Brent. TB-2 fires → amplifies T-08.
+- Each can light the other. Bidirectional, not a one-way switch. R2 ↔ R1+R4+R6 cross-root linkage.
+
+---
+
 ## TRANSMISSION CHAIN (6/5 close anchor)
 
 **Core chain:** LABOR → CARL → REGINALD → repricing
@@ -74,7 +104,7 @@ Current best label: **C) unresolved divergence — vol leg now cracking.** 6/5 N
 | **T-05** | T | BDC substance vs APO public equity | FSK/BDC stress, gates, marks | APO >$130; parent bid persists | Parent fee/insurance/flow premium may decouple longer than thesis timing. |
 | **T-06** | R | Iran kinetic risk vs diplomatic thaw | Iran SUSPENDED MOU 6/1; Kuwait missile intercept 5/31; Bab al-Mandab vector NEW | Brent paper-soft $93.09 @ [Fri 6/5 close]; MM-short cover into gap-up | **E-resolved toward escalation, not thaw** — SIG-02 REVERTED head-fake. Substance gates: UKMTO weekly print trajectory · Brent curve structure · CENTCOM kinetic tempo. |
 | **T-07** | T | Bear analogs vs bull analogs | 1929/1973/1999 breadth/call-notional | Carson/SentimentTrader retail-put/8-streak bullish | Positioning markers, not timing tools. |
-| **T-08** | R | **HAW-11 leakage tail = correlated-fragility node** (HAWK 6/8 brief) | Decoupling regime is load-bearing across multiple agents simultaneously; one HAWK-owned switch (intercept failure / Gulf energy-infra hit, Jun 8-22 window, 20%) could reprice several books at once | **Verified wiring (NEXUS-side, not just HAWK's assertion):** 1 hard pin = BRENT (XLE $65C kinetic-tail + BRT-15 standing watch directly conditioned); 2 soft = HENRY (vol persistence multi-causal, leakage is one of several catalysts) + SAM (multi-step via energy-import-cost into JGB/BOJ); 1 dormant = LIQUID (STATUS 5/21 — wiring unverified). NOT 4-hard-pins as HAWK framed. | **NOT a trade rail** (line 7 constraint). Fragility note + residual-hedge flag to FORGE/PROME via outbox. Resolves on either HAW-11 firing (D 35→50%+) OR window 6/22 closing without leakage (de-rate to nuisance). |
+| **T-08** | R | **HAW-11 leakage tail = correlated-fragility node** (HAWK 6/8 brief) — **bidirectional with S-26060801 (TB-2)** per C4 cross-edge | Decoupling regime is load-bearing across multiple agents simultaneously; one HAWK-owned switch (intercept failure / Gulf energy-infra hit, Jun 8-22 window, 20%) could reprice several books at once | **Verified wiring:** 1 hard pin = BRENT (XLE $65C kinetic-tail + BRT-15 standing watch directly conditioned); 2 soft = HENRY (vol persistence multi-causal) + SAM (multi-step via energy-import-cost). 1 dormant = LIQUID. NOT 4-hard-pins as HAWK framed. | **NOT a trade rail** (line 7). Fragility note. Resolves on either HAW-11 firing (D 35→50%+, pulls TB-2 forward) OR window 6/22 closing without leakage (de-rate to nuisance). **Cross-edge:** TB-2 firing on its own roots (R1/R4/R6) can amplify T-08 via risk-off → war-premium re-entering Brent. |
 
 *Type key: S=surface, R=real, T=temporal*
 
@@ -118,7 +148,7 @@ Current best label: **C) unresolved divergence — vol leg now cracking.** 6/5 N
 | 2026-05-28 → 06-02 | VIOLET R11 analog window | **RESOLVED HIT 6/5 — VIX +39.7% per VIOLET KB-VIO-031 60d window** | M-04 vol/gamma trigger cluster | M-04 ↓15pp absorbed analog firing (T-03 retired 6/8) |
 | 2026-06-05 | NFP | **FIRED — integrated this pass** | LABOR-tier upstream | +172K beat, internals retain rot (K-shape intact), AHE 3.4% decel; vol +40%, credit flat |
 | 2026-06-09 | 10Y nominal auction (auction window open) | UPCOMING | M-03 duration channel — clean clearing vs tail | M-03, T-02 |
-| **2026-06-10** | **May CPI (BLS 8:30 ET) — INSIDE auction window** | UPCOMING — **HIGH-DENSITY GATE** | **3-agent oil→Fed discriminator** (VIOLET-originated frame, BRENT-corroborated as BRT-16 test, HAWK-conditioned on leakage-before-or-after); also vol-fade gate inside VIOLET's VIX9D window; M-06 stagflation prior | M-01, M-04, M-06 |
+| **2026-06-10** | **May CPI (BLS 8:30 ET) — INSIDE auction window** | UPCOMING — **HIGH-DENSITY GATE — pre-registered branches locked** | **Shared resolution node (C2)** — VIOLET-originated discriminator frame, BRENT-corroborated as BRT-16 test, HAWK-conditioned on leakage timing. **5-rail simultaneous read:** M-04 mechanism test · M-06 BRT-16 activation · M-03 R1 repricing · SAM USD-persistence · TB-2 driver acceleration. Pre-reg: `research/2026-06-08_cpi_pre_registration.md` | M-01, M-03, M-04, M-06, TB-2 |
 | 2026-06-11 | Long-end nominal auction (auction window close) | UPCOMING | M-03 duration channel — does CPI digestion tail the auction | M-03, T-02 |
 | ~2026-06-14 to 07-14 | Gamma countdown clock (SIG-26060603, 1-2mo from 5/14) | **WINDOW OPEN 6/14** | M-04 mechanical-calm flip | M-04 partial-give-back booked; further wear-through monitors |
 | **2026-06-16** | **BOJ MPM + carry-positioning peak** (SAM brief — fuel-load 72%→85% danger zone) | UPCOMING — TB-2 stacking input | As-priced 1.00% hike = non-event; hawkish-of-pricing → Aug-2024-style carry-unwind vol | TB-2 mid-June de-grossing cluster (see SIGNALS S-26060801) |
@@ -137,7 +167,7 @@ Current best label: **C) unresolved divergence — vol leg now cracking.** 6/5 N
 |---|---|
 | **Consensus / tape story** | Mixed for first time since 5/21. Vol cracked on NFP print (VIX +40%, SPX worst day since October), but credit didn't follow, bank cohort didn't follow, auction-function calm holds. Consensus tilts: "vol panic on a single hot print, fade it, structural absorption intact." |
 | **Agent-data story** | Substance hardening across rails: BIZD breached $12.50, USD/JPY breached 160, Carvana PRIME ABS downgrade first in 16yr, CC DQ 13.1% 15yr high, BRENT MOU SUSPENDED 6/1 + kinetic re-arming, vol cluster (VIX/SKEW/VVIX) simultaneous breach. Substance now extending past private credit into structured credit, FX, and vol. |
-| **Market-verdict counter-signal** *(required per Discipline D)* | **HY OAS 274bps flat through VIX +40% is THE counter-signal of the day — now EVEN cleaner per C-A logic correction:** the 6/5 vol crack was exogenous (NFP rate-shock + AI/factor concentration unwind, not bear-stress transmission), so HY-flat through that day means bear-stress channel *didn't even get tested at the tape* on 6/5. **Secondary counter:** KRE +0.27% on SPX −2.64% day = bank cohort actively diverging from broad equity stress. If HY breaks 300 + KRE breaks 65 → gap closes toward agent-data. If HY sustains <290 through 6/10 CPI + 6/17 FOMC → gap closes toward consensus. |
+| **Market-verdict counter-signal** *(required per Discipline D)* | **HY OAS 274bps flat through VIX +40% is the load-bearing counter — but ONE observation, not multiple** (cited in M-01/M-04/M-07 + here = one fact viewed 4 ways, NOT 4-rail convergence per C3). Bear-stress channel didn't get tested at the tape on 6/5 (vol crack was exogenous), so HY-flat is doing real work — but **the macro print has a stale-data crack in the energy corner** (BRENT: HY energy OAS Apr-28 ~285bps, 40 days old, in the corner most exposed to live Hormuz substance). If energy HY widened since (Brent paper-soft + UKMTO 1.1/day suggests it should), the counter-signal is artificially strong. **Secondary counter:** KRE +0.27% on SPX −2.64% day = bank cohort diverging. If HY breaks 300 + KRE breaks 65 → gap closes toward agent-data. If HY sustains <290 through 6/10 CPI + 6/17 FOMC → consensus. **Action:** refresh HY energy OAS priority — LIQUID dormant, route via WALTER or PROME. |
 | **Gap size + direction** | **Widening on substance side; vol leg moved exogenously not transmission-side.** Original 6/5 read framed vol "transmitting on events" — refined: vol moved exogenously (NFP+AI-unwind), not via bear-stress transmission chain. Credit/bank legs still firmly anchored. Substance gap stays wide. |
 | **Closing catalysts** | **6/9 10Y auction → 6/10 May CPI (INSIDE auction window, 3-agent oil→Fed discriminator) → 6/11 long-end auction → 6/14 gamma countdown opens → 6/16 BOJ + carry peak → 6/17 FOMC + VIX June quarterly expiration.** Density unmatched since 4/30 cluster. **TB-2 mid-June stacking risk** — three partially-independent de-grossing channels (AI/factor unwind, yen-carry unwind, FOMC repricing) land same week per VIOLET+SAM; not collapsed via Discipline F (partial-share, not one-root). M-06 durability watched on substance gates (UKMTO weekly · Brent curve · CENTCOM kinetic), not rhetoric. |
 

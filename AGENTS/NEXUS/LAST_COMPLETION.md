@@ -61,6 +61,19 @@ Advisor QC against synthesis pass surfaced 4 items + the two-machine sync flag:
   - TB-2 yen-carry driver substance: CFTC -129,567 (72% of cycle peak), 5th build week, danger zone 85%/-153K. Last pre-blackout CFTC Sat 6/13.
   - **Connective-tissue dispatch to SAM**: HAWK's 6/8 brief explicitly answered SAM's open Tehran-walk-back question (HAWK: "Brent fade is damage-regime-exit pricing, not deal-substance. Don't mark SAM-23 on rumor-tier"). SAM didn't have visibility; outbox dispatched.
 
+## WU5 — Type-B synthesis pass (advisor directive: read briefs sideways, not top-down)
+
+Method: antecedent map → walk uncertainties → diff cross-domain edges. Four threads C1-C4 landed.
+
+- **Antecedent map** added to STATUS. 6 roots tagged (R1 USD/Fed, R2 Hormuz/oil, R3 credit fundamental, R4 AI-positioning, R5 energy→CPI→Fed, R6 Japan/BOJ). Discipline F applied prophylactically — convergence only counts across DIFFERENT roots.
+- **C1 — R1 dual implication.** USD/Fed root sits under 6 distinct observations (M-03 / M-04 rate-leg / USDJPY / Brent-paper / 10Y / TB-2 FOMC concentrator). NOT 6 independent rails = 1 root in 6 costumes. DEFLATES convergence count AND AMPLIFIES fragility (one event moves all 6 together; T-08 + TB-2 circling this). Same antecedent does both.
+- **C2 — 6/10 CPI pre-registration.** `research/2026-06-08_cpi_pre_registration.md` — locked branches for HOT/IN-LINE/SOFT × 6 rails (M-04 / M-06 / M-03 / M-01 / SAM rails / TB-2) + probability-split direction-of-tilt + anti-anchoring rules. Pre-reg before data prevents retro-rationalization. STATUS catalyst docket 6/10 row points at the pre-reg file.
+- **C3 — Counter-signal staleness.** HY OAS 274 cited 4 ways in STATUS = ONE observation viewed 4 times, NOT 4-rail convergence (Discipline D refinement). AND BRENT flag: HY energy OAS Apr-28 stale ~285bps — corner most exposed to live Hormuz risk has 40-day-old data. Refresh HY energy OAS priority. Action: LIQUID dormant, route via WALTER or PROME.
+- **C4 — T-08 ↔ TB-2 bidirectional cross-edge.** Neither HAWK nor VIOLET saw it. HAW-11 leakage → risk-off pulls TB-2 forward (yen flight + AI de-gross). TB-2 firing → risk-off amplifies T-08 (war-premium re-enters Brent). Cross-root R2 ↔ R1+R4+R6 linkage. Added to T-08 + S-26060801 rows.
+- **Coverage gaps named via cross-domain SENDING-vs-WAITING diff:** CARL (3 of 4 briefs waiting on USD/USD-persistence), HENRY (3 of 4 waiting on vol regime / breadth-gamma), LIQUID (2 of 4 waiting + dormant on HY OAS / credit confirm). These match BRIEFS_MAP rollout priority.
+
+STATUS now 188 lines (cap 200). 12-line headroom.
+
 ## Blockers / Carry-forward for next pass
 
 1. **Two-machine sync flag for Will** — advisor's clone (branch `claude/tender-brown-1jif87`, HEAD `3da8255`) cannot see today's NEXUS commits (`ade2fca1` / `d6dbb5d9` / `6fcd606f`). Locally safe (all committed on this clone's `master`); `AGENTS/NEXUS/STATUS.md` only ever touched by NEXUS so no cross-clone NEXUS-file collision risk. Flag carried for next coordinated push window.
