@@ -1,35 +1,39 @@
-# OTTO COMPLETION — 2026-06-08
+# OTTO COMPLETION — 2026-06-09
 
 ## STATUS
-✅ Infra-maturation session (boot+closeout to SAM/BRENT parity) + domain data refresh. Will-directed, multi-part. CLAUDE.md v2.1 → v2.4. Signal state 🔴🔴 unchanged. Committed local only (no push, Will-directed).
+✅ Will-directed peer-parity build, multi-part: thesis/ consolidation (v2.6) + WINTERKORN docket-steward sub-agent (v2.7) + WINTERKORN inaugural T-3 pre-hearing run + integration. CLAUDE.md v2.5 → v2.7. **8 commits local** (no push — Will-coordinated). Signal state 🔴🔴 unchanged.
 
 ## CHANGED
-- **CLAUDE.md v2.1→v2.4:** boot kit wired into steps 4-5 (v2.2); STATUS line-cap + CHANGELOG step 1a + promotion-scan step 5 + Git pathspec fix (v2.3); NEXUS_BRIEF closeout step 7a (v2.4). Doc Ownership + File Structure updated throughout.
-- **New files:** `scripts/boot.py` + `predictions_due.py` + `catalyst_countdown.py`; `docket/CATALYSTS.tsv` (10→11 rows); `CHANGELOG.md`; `NEXUS_BRIEF.md`; `PEER_PARITY_ROADMAP.md`; `workbook/STATUS_archive_20260608.md`; 4 auto-memory files (outside OTTO dir).
-- **STATUS.md:** 417→163 lines (archived Mar-May check-ins); boot-pointer refreshed; spread rows corrected (EART 2026-2); CRITICAL TIMELINE Jun 12 added; Carvana ~$64; OTTO-05 summary 62→48%.
-- **PREDICTIONS.tsv:** OTTO-05 62→48% + structural-claim falsification; OTTO-32 Jun 12 resolver; OTTO-29 slip confirmed.
-- **ML.tsv:** +172/173/174. **MEMORY.md:** Session Notes rewritten + 4 lessons drained to auto-memory.
+- **CLAUDE.md v2.5→v2.7:** Current Thesis section collapsed to one-line pointer (canonical → thesis/THESIS.md); Doc Ownership expanded (+4 rows for thesis/ + WINTERKORN); File Structure expanded (thesis/ subtree + docket/ subtree); new `### Sub-Agents` subsection codifying spawn pattern + naming convention.
+- **New thesis/ subdir (v2.6):** `thesis/THESIS.md` v1.0 (12-section canonical thesis — Primary Cockroach + Secondary Invisible Exit + **Carvana sub-thesis CARVED OUT** + 7-stage transmission chain + why-now timing claim + decomposed conviction Pattern HIGH / Magnitude HIGH / Timing VARIABLE / Carvana LOWER + expanded 6-row risk matrix); `thesis/PREDICTIONS_ARCHIVE.md` (5 post-mortems + calibration scoreboard 5/5 substance, 4/5 substance+window). CHANGELOG + PREDICTIONS git-mv'd into thesis/.
+- **New WINTERKORN sub-agent (v2.7):** `docket/WINTERKORN.md` spec (FASTOW-pattern, ~250 lines) + `docket/WINTERKORN_MEMORY.md` (seeded, ~150 lines after inaugural). Identity-named auto-domain reference (VW Dieselgate). Scoped owner of CATALYSTS.tsv + verifies forward dates against bankruptcy dockets / SEC EDGAR / rating agencies. Weekly Tue + T-3 pre-hearing cadence.
+- **WINTERKORN inaugural integration:** STATUS § CRITICAL TIMELINE Jun 17 Tricolor row reframed (§341 continued Nov 11 cited); new Nov 11 row added. CATALYSTS.tsv +4 baseline-audit rows (Fitch ABS May/Jun, NY Fed Q2 HDC, Tricolor Nov 11). WINTERKORN_MEMORY CALIBRATION seeded with accept/decline patterns + date-classification guidance.
+- **thesis/CHANGELOG.md:** 3 new entries (Carvana carve-out, Tricolor slip-concrete, WINTERKORN catch).
+- **thesis/PREDICTIONS.tsv:** OTTO-29 Notes refreshed (resolution-slip now concrete via WINTERKORN catch; expect FALSIFIED-on-window CONFIRMED-on-substance outcome).
+- **workbook/ML.tsv:** +ML-175 (thesis/ build), +ML-176 (WINTERKORN inaugural catch).
+- **PEER_PARITY_ROADMAP.md:** P2 #4-5 done (PREDICTIONS_ARCHIVE + calibration); P3 #9 done (versioned THESIS); P3 #11 done (WINTERKORN sub-agent).
+- **MAINTENANCE.md:** 2 dated structural entries (v2.6 thesis/, v2.7 WINTERKORN). MEMORY Session Notes rewritten + 2 promotion candidates flagged.
 
 ## RESULT
-OTTO's boot+closeout infra now at/above peer parity. Boot runs ~2s (price + predictions + catalysts). Data refresh produced the session's key catch: **First Brands OTTO-32 resolver is Jun 12 (UST convert-or-dismiss hearing), not Jun 17** — OTTO would have walked into the wrong date. Also falsified own "IG-only ABS" claim (below-IG clearing) and recalibrated OTTO-05 down.
+**Two TIER-1 architecture items knocked in one session.** thesis/ build forced the substantive Carvana carve-out (cockroach count = 4, not 5). WINTERKORN inaugural delivered on first run: pre-fire verification rule caught a Verita-noticed Tricolor §341 continuance to Nov 11 2026 that OTTO did not have — OTTO-29 resolution-slip past Sep 30 escalated modeled-likely → concrete. Sub-agent design pattern (FASTOW-style scoped owner + CALIBRATION decline-memory + halt-on-ambiguity) validates immediately when scoped correctly.
 
 ## GAPS
-- **TRADE.md still stale** (roadmap #3, STALE_PUNCHLIST #1) — pre-split CVNA prices, dead triggers. Untouched.
-- **No PREDICTIONS_ARCHIVE / calibration scoreboard** (roadmap #4-5).
-- **DQ-series reconciliation open** — OTTO's 7.1% (TransUnion?) vs Fitch ABS 6.90%; dashboard series ambiguous.
-- **OTTO-29 (Tricolor distribution)** likely slipping — verify docket next session.
+- **TRADE.md still stale** (STALE_PUNCHLIST #1, roadmap #3) — pre-split CVNA strikes off 5×. Untouched again this session.
+- **Carvana Jun 12 Discovery Production 2 date unverified** from public sources (WINTERKORN halt-on-ambiguity logged). STATUS is operative read per truth model — OTTO needs direct Chancery verification pre-Jun-12.
+- **DQ-series reconciliation open.**
+- **METSUKE-equivalent stale-doc flagger** not built — second sub-agent for future session (closes TRADE.md / VX.tsv / RESEARCH_STATUS.md staleness loop).
 
 ## WILL_NEEDS
-- **Jun 12 is the live catalyst** (First Brands UST hearing + Carvana discovery) — verify outcome next boot; OTTO-32 (85%) resolves there.
-- **NEXUS may rule** on whether OTTO's opt-in brief gets formal scope (WALTER signal dropped).
-- Push deferred per your instruction — committed local only.
+- **Jun 12 is T-3 — operative resolver for OTTO-32 (85% conviction) + dual-headed (UST conversion AND second-chance DS vote, per WINTERKORN finding).**
+- WINTERKORN re-spawn post-Jun-12 to sweep outcomes + prune Jun 12 rows + verify Jun 17 contingency state.
+- Push deferred per your instruction — 8 Jun 9 commits ride next coordinated window alongside Jun 2 + Jun 8 work.
 
 ## FOLLOW-UP (priority queue)
-**P1:** Verify Jun 12 First Brands + Carvana outcomes; TRADE.md rehab; OTTO-29 docket check.
-**P2:** PREDICTIONS_ARCHIVE + calibration scoreboard; DQ-series reconciliation; OBK 10-Q + M&T Q2 (Jul 16).
-**P3:** War-transmission row re-check; STALE_PUNCHLIST #2-3 (RESEARCH_STATUS/VX); LESSONS/OUTBOX consolidation (needs Will-decision).
+**P1:** Sweep Jun 12 First Brands UST + DS vote outcomes; verify Carvana Jun 12 production via direct Chancery; spawn WINTERKORN post-Jun-12 for outcome sweep.
+**P2:** TRADE.md rehab; METSUKE-equivalent stale-doc flagger (second sub-agent); DQ-series reconciliation.
+**P3:** OBK 10-Q + M&T Q2 (Jul 16, in CATALYSTS); War-transmission row re-check; LESSONS/OUTBOX consolidation (needs Will-decision).
 
 ## GIT
-- Jun 8 work committed **local only** (Will-directed: no push). Push is Will-coordinated (root protocol change). Jun 2 work also still local. Both ride next coordinated push window.
-- WALTER inbox signal (`SIG-OTTO-WALTER-20260608-nexus-brief-optin.md`) left untracked — WALTER commits it.
-- Incidental: `workbook/ABS_ISSUANCE.tsv` carries a stub-run append from early-session script test (harmless, OTTO-owned).
+- **Jun 9 work** = 8 commits local (thesis/ consolidation + thesis/ rename completion + WINTERKORN build + WINTERKORN inaugural integration + this closeout). Push deferred (Will-coordinated).
+- Jun 2 + Jun 8 work also still local. All ride next push window (push-train pattern).
+- **No cross-agent inbox drops this session.** WINTERKORN-derived Tricolor Nov 11 continuance is a status-update-class signal (not a 🔴 trigger); routine STATUS update suffices. NEXUS Tier-2 brief refresh handles cross-agent awareness.
