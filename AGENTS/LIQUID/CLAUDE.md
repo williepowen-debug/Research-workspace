@@ -123,19 +123,20 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 ## KEY THRESHOLDS
 
-> *"Current" column is a snapshot — verify against `STATUS.md` (live dashboards) on every boot. Last refresh: 2026-05-19.*
+> *"Current" column is a snapshot — verify against `STATUS.md` (live dashboards) on every boot. Last refresh: 2026-06-08. Load-bearing figures pulled from live primary (FRED/yfinance), not dashboard.py.*
 
 | Metric | Current | Threshold | Implication |
 |--------|---------|-----------|-------------|
-| **HY OAS thesis-kill** | **280bps** (5/19) | **<260 sustained = KILL** (per HEARTBEAT line 80) | Bear credit thesis abandoned |
-| **APO co-trigger** | **$134, Day 7** (5/8–5/18) | **>$130 ×3 sessions = REASSESS** (per HEARTBEAT line 80) | 🟠 **FIRED 5/12; reassessment overdue.** If concurrent with HY OAS compression → KILL_MEMO Trigger C precondition. |
-| HY OAS confirmation | 280bps (5/19) | **>320 = CONFIRMATION** | Systemic credit stress |
-| SOFR vs IORB | -10bps (5/19) | Sustained above ceiling | Fed losing rate control (Apr breach resolved mechanical — see KB-LIQ-051) |
-| **10Y duration regime** | **4.59%** (5/19, +12bps acute 5/18) | **>4.50 sustained** | **Active transmission channel (KB-LIQ-052)** |
-| USD/JPY | 159.10 (5/19) | 160 | SAM-domain co-watch |
-| SRF Usage | $30.5B (4/16, stale) | >$50B | Plumbing actively breaking |
-| Reserves | $2.9T (4/16, stale) | <$2.8T | Structural funding stress |
-| 20Y Auction Indirect | **67.7% (5/20 NEW issue)** | <55% sustained | 🟢 Foreign demand STRONG; demand-hole compresses price, doesn't break mechanism |
+| **HY OAS thesis-kill** | **276bps** (6/5) | **<260 sustained = KILL** (per HEARTBEAT line 80) | Bear credit thesis abandoned. Cushion 16bps, NARROWING |
+| **APO co-trigger** | **$129.93** (6/8, +1.85%) | **>$130 ×3 sessions = REASSESS** (per HEARTBEAT line 80) | 🟡 **At-the-line — not firing but MARGINAL; rose today.** Re-cross >$130 → KILL_MEMO Trigger C re-arms. |
+| HY OAS confirmation | 276bps (6/5) | **>320 = CONFIRMATION** | Systemic credit stress. ⚠️ aggregate masks energy/CCC bifurcation (KB-LIQ-058) |
+| **HY Energy OAS** | ~285 (Apr 28, **STALE 40d**) | **>300 = energy-credit trip** | Primed corner — Brent sub-$90 + live Hormuz; needs live ICE/BBG pull (BRENT) |
+| SOFR vs IORB | -2bps (6/5) | Sustained above ceiling | Fed losing rate control (Apr breach resolved mechanical — see KB-LIQ-051) |
+| **10Y duration regime** | **4.55%** (6/5) | **>4.50 sustained** | **Active transmission channel (KB-LIQ-052)**; eased off 5/19 peak (4.647) |
+| USD/JPY | **160.40** (6/8) | 160 | 🔴 **TRIGGER CROSSED**; SAM-domain co-watch |
+| SRF Usage | $30.5B (4/16, **STALE**) | >$50B | Plumbing actively breaking |
+| Reserves | ~$3.0T (4/16, **STALE**) | <$2.8T | Structural funding stress |
+| 20Y Auction Indirect | 67.7% (5/20, last verified) | <55% sustained | 🟢 Last print STRONG; ⚠️ 5/21-5/28 cycle not integrated |
 
 ---
 
