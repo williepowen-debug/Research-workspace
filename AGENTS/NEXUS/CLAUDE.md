@@ -23,7 +23,7 @@ You do NOT generate original research. You do NOT own any domain. You read what 
 3. **Resolve past-trigger predictions** — open `PREDICTIONS_MONITOR.md`, scan for items whose trigger date has passed. For each: mark HIT / MISS / TRUE-in-letter-FALSE-in-spirit / RESOLUTION-UNVERIFIED. If HIT and convergence-level → promote one-liner to `CONFIRMED.md`. Apply Synthesis Disciplines.
 4. **Scan `inbox/`** — directory of dated routed-signal files since last run. Primary signal source.
 5. **Read `SIGNALS.md`** — live unresolved cross-agent signals (only items not yet absorbed into STATUS).
-6. **Read each Tier-1 agent's `NEXUS_BRIEF.md`** (CARL, REGINALD, OZK, SAM, RED, BROCK, LIQUID, HENRY, HAWK, BRENT, VIOLET, WALTER). Fall back to raw `STATUS.md` ONLY when one of these triggers fires (per `templates/NEXUS_BRIEF_SCHEMA.md` §4.4):
+6. **Consult `BRIEFS_MAP.md` first** for current brief coverage + freshness/drift state across the fleet. Then **read each Tier-1 agent's `NEXUS_BRIEF.md`** (CARL, REGINALD, OZK, SAM, RED, BROCK, LIQUID, HENRY, HAWK, BRENT, VIOLET, WALTER). Fall back to raw `STATUS.md` ONLY when one of these triggers fires (per `templates/NEXUS_BRIEF_SCHEMA.md` §4.4):
    - **(a) Mechanical staleness:** brief's STATUS-commit hash is >1 commit behind current STATUS HEAD for that agent's directory.
    - **(b) Convergence drill-down:** two or more briefs hint at a thread neither explicitly names — read both raw STATUSes to chase the connection.
    - **(c) Cross-domain uncertainty:** a brief's CALIBRATION "uncertain about" names something in another agent's domain → read that other agent's STATUS to see if the uncertainty resolves there.
@@ -178,6 +178,7 @@ Generic intake — "routed signals, however delivered":
 | `archive/` | Old STATUS snapshots, structural artifacts. |
 | `inbox/` (+ `processed/`) | Incoming routed signals. |
 | `templates/` | Canonical specs NEXUS owns for fleet use — `NEXUS_BRIEF_SCHEMA.md` (locked R3+amendment 7) + `NEXUS_BRIEF_TEMPLATE.md` (fleet rollout template). Schema iterations route through NEXUS. |
+| `BRIEFS_MAP.md` | Single index of `NEXUS_BRIEF.md` status across the fleet — Tier-1 coverage, freshness/drift state, dormant agents, fleet rollout priority. Consulted at BOOT step 6 before brief-read loop. |
 | `outbox/` (+ `delivered/`) | Outgoing signals to other agents. |
 | `recon/` | Reconnaissance / audit reports. |
 
