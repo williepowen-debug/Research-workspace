@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 OTTO Predictions-Due Scanner
-Automates boot step 4: scan workbook/PREDICTIONS.tsv and flag
+Automates boot step 4: scan thesis/PREDICTIONS.tsv and flag
   (a) OVERDUE — Status OPEN but Resolve_Date already passed (never leave OPEN-but-stale)
   (b) DUE SOON — Resolve_Date within the next N days (default 14)
   (c) the remaining OPEN ledger, sorted by resolve date.
@@ -20,7 +20,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 
 OTTO_DIR = Path(__file__).resolve().parent.parent
-PRED_TSV = OTTO_DIR / "workbook" / "PREDICTIONS.tsv"
+PRED_TSV = OTTO_DIR / "thesis" / "PREDICTIONS.tsv"
 
 DEFAULT_SOON = 14  # days
 

@@ -2,7 +2,7 @@
 
 **Signal Status:** 🔴🔴 CRITICAL | **Last Updated:** 2026-06-08 EDT
 
-> **📌 New spawn:** Read `LAST_COMPLETION.md` first. **Jun 8 session = boot+closeout infra maturation (CLAUDE.md → v2.3):** boot kit added (`scripts/boot.py` + `docket/CATALYSTS.tsv` — boot steps 4-5 now script-driven, ~2s); closeout matured toward SAM/BRENT — STATUS line-cap+archive (this file 417→162 lines, Mar-May check-ins → `workbook/STATUS_archive_20260608.md`), new `CHANGELOG.md` thesis-pivot log, promotion-scan step, Git section fixed to pathspec. **No domain-data refresh this session — dashboard metrics still Feb-Apr stamped (stale; flagged for next session).** Prior context — **Jun 2 = protocol hardening (v2.1, Phases 1-3b):** new git-pull boot step 0 + past-due-catch calendar scan; closeout rewritten as write-back mirror of boot; new `## Evidence & Hygiene Conventions` (evidence-grade tags `[CONF]`/`[PRESS]`/`[ALLEG]`/`[EST]`, `[STALE]` marking, Doc Ownership table); live-state stripped from CLAUDE.md (STATUS is single source of truth). Cross-doc audit produced **`STALE_PUNCHLIST.md`** (9 items; TRADE.md is headline 3.5-mo rot — remediation DEFERRED). **First Brands sweep resolved the boot-flagged May 20/25/29 catalysts:** May 20 conditional-DS approval DENIED (admin-insolvency grounds, cuts toward thesis); 4 Evolution SPV debtors already Ch.7 (Apr 9); confirmation re-targeted **Jun 17**; OTTO-32 held 85%.
+> **📌 New spawn:** Read `LAST_COMPLETION.md` first. **Jun 9 session = thesis/ consolidation (CLAUDE.md → v2.6):** built `thesis/` subdir; new `thesis/THESIS.md` v1.0 (12-section canonical thesis — Primary Cockroach, Secondary Invisible Exit, Carvana sub-thesis carve-out, transmission chain, why-now timing claim, conviction decomposition, expanded risk matrix); moved `CHANGELOG.md` → `thesis/CHANGELOG.md` + `workbook/PREDICTIONS.tsv` → `thesis/PREDICTIONS.tsv` (scripts updated); new `thesis/PREDICTIONS_ARCHIVE.md` (5 resolved-row post-mortems + calibration scoreboard — knocks STALE_PUNCHLIST #4-5). STATUS § THESIS block now mirror-only (canonical → `thesis/THESIS.md`). **No domain-data refresh — dashboard metrics unchanged from Jun 8 sweep.** Prior context — **Jun 8 = boot+closeout infra maturation (v2.3):** boot kit added (`scripts/boot.py` + `docket/CATALYSTS.tsv` — boot steps 4-5 now script-driven, ~2s); closeout matured toward SAM/BRENT — STATUS line-cap+archive (this file 417→162 lines, Mar-May check-ins → `workbook/STATUS_archive_20260608.md`), new `CHANGELOG.md` thesis-pivot log, promotion-scan step, Git section fixed to pathspec. **No domain-data refresh this session — dashboard metrics still Feb-Apr stamped (stale; flagged for next session).** Prior context — **Jun 2 = protocol hardening (v2.1, Phases 1-3b):** new git-pull boot step 0 + past-due-catch calendar scan; closeout rewritten as write-back mirror of boot; new `## Evidence & Hygiene Conventions` (evidence-grade tags `[CONF]`/`[PRESS]`/`[ALLEG]`/`[EST]`, `[STALE]` marking, Doc Ownership table); live-state stripped from CLAUDE.md (STATUS is single source of truth). Cross-doc audit produced **`STALE_PUNCHLIST.md`** (9 items; TRADE.md is headline 3.5-mo rot — remediation DEFERRED). **First Brands sweep resolved the boot-flagged May 20/25/29 catalysts:** May 20 conditional-DS approval DENIED (admin-insolvency grounds, cuts toward thesis); 4 Evolution SPV debtors already Ch.7 (Apr 9); confirmation re-targeted **Jun 17**; OTTO-32 held 85%.
 
 ---
 
@@ -22,18 +22,21 @@
 
 ## THESIS
 
-### Primary: "The Cockroach" — When you find one, there are more.
+> **Canonical thesis lives in [`thesis/THESIS.md`](thesis/THESIS.md) (v1.0).** This block is a live-state mirror — case-status and validation tags only; durable framing + mechanism + conviction decomposition + risk matrix in the canonical doc.
 
-| Case | Type | Scale | Status |
-|------|------|-------|--------|
-| Tricolor | Double-pledging + abandonment | $2B debt, $800M pledge gap, **~30K vehicles missing up to $1.1B** | Auctions ran; **~3% recovery projected**; $113M distribution gridlocked; Wilmington Trust exiting custody; Chu trial **Oct 19 2026** (SDNY, Liman) |
-| First Brands | Invoice fabrication, Ponzi | $12B debt | Indicted; Ch. 7 risk. JEF zero. Barclays/Apollo/WAL hold paper. |
-| PrimaLend | BVY2 fraud | $286M debt | Plan confirmation Feb 2026 |
-| **MFS (UK)** | **Double-pledging** | **£2B+ ($2.7B)** | **CONFIRMED Feb 26** |
-| Carvana | Related-party (alleged) | $70B+ mkt cap | Discovery ongoing |
+**Primary — "The Cockroach":** when you find one fraud, there are more. **4 confirmed cases** (Tricolor / First Brands / MFS / PrimaLend) + 1 alleged carve-out (Carvana). 🔴 **HIGH conviction** on pattern + magnitude.
 
-### Secondary: "The Invisible Exit" — Immigration-Auto Transmission
-**Industrially validated May 21:** Tricolor's 30K missing vehicles ($1.1B) + Vervent "Fresh Start" mod program (institutional concession this cohort can't be pursued) = the thesis at scale. Adjacent data: Recovery ratio 30.58% vs 41% benchmark; Construction -92.7% YoY; S&P CreditWatch Lendbuzz/SAFCO.
+**Secondary — "The Invisible Exit":** immigrant subprime cohort skip-defaults bypassing 30→60→90 DQ chain. 🔴 **Industrially validated May 21** (Tricolor 30K missing vehicles / Vervent Fresh Start). MEDIUM-HIGH conviction structurally; slow transmission to broad market via CNL not DQ.
+
+**Carvana sub-thesis (carved out):** related-party manipulation allegation. LOWER conviction — allegation-only, GT retained May 5 (disconfirms red-line), no DOJ action. Tracked separately from confirmed-case count.
+
+| Case | Type | Live status |
+|------|------|------|
+| Tricolor | Double-pledging + skip | ~3% recovery; $113M gridlock; **Oct 19 trial** |
+| First Brands | Invoice fab + Ponzi | 4 Evolution SPV → Ch.7 (Apr 9); **Jun 12 UST hearing = OTTO-32 resolver** |
+| MFS (UK) | Double-pledging | CONFIRMED Feb 26 — Barclays + Atlas SP/Apollo £2B+ |
+| PrimaLend | BVY2 fraud | Plan confirmed Feb 2026 |
+| *Carvana (alleged)* | Related-party | **Jun 12 discovery prod 2**; CFO selling $19.5M/3mo |
 
 ---
 

@@ -14,6 +14,44 @@ routine content edits. Archive to `archive/` if it grows past ~300 lines (SAM ca
 
 ---
 
+## 2026-06-09 — thesis/ subdir + canonical THESIS.md v1.0 (v2.5 → v2.6)
+
+**Trigger:** Will-directed peer-parity audit (post-v2.5) surfaced thesis content scattered across 7 docs (STATUS § THESIS, CLAUDE.md "Current Thesis", top-level CHANGELOG, workbook/PREDICTIONS, MEMORY § Findings, ML.tsv, research/outputs/) with no canonical home. SAM model (`thesis/THESIS.md` + `thesis/CHANGELOG.md` + `thesis/PREDICTIONS.tsv` + `thesis/PREDICTIONS_ARCHIVE.md`) chosen as target. Planned-before-built: thesis content was articulated explicitly (Primary Cockroach + Secondary Invisible Exit + Carvana sub-thesis carve-out + transmission chain + why-now timing) before the folder was created — moving scattered artifacts into a new folder without nailing what the thesis IS would have just relocated the sprawl.
+
+**What changed:**
+- **New `thesis/` subdir** with 4 files:
+  - **`thesis/THESIS.md` v1.0** — 12-section canonical thesis: header w/ decomposed conviction (Pattern HIGH / Magnitude HIGH / Near-term timing VARIABLE / Carvana LOWER), one-liner, Primary Cockroach (mechanism + 4-case table + falsification), Secondary Invisible Exit (mechanism + Tricolor industrial validation + falsification), **Carvana sub-thesis carved out** (was bundled at equal weight to 4 confirmed → now separate-conviction layer), transmission chain (7-stage end-to-end with current state), why-now timing claim (2022 vintage / Fed-pause / auditor cycle — defensible against "noise" alternative), expanded risk matrix (prob/impact/mitigation per row, was 4-row sketch in CLAUDE.md), position view (acknowledges TRADE.md stale), predictions w/ failure-pattern synthesis, cross-agent links.
+  - **`thesis/CHANGELOG.md`** — moved from top-level (`git mv`); anticipated by header note in v2.5.
+  - **`thesis/PREDICTIONS.tsv`** — moved from `workbook/` (`git mv`); 9-col schema unchanged.
+  - **`thesis/PREDICTIONS_ARCHIVE.md`** *(NEW)* — 5 resolved-row post-mortems (OTTO-01/08/09/26/27) + calibration scoreboard (5/5 substance, 4/5 substance+window) + failure-pattern rules. Knocks STALE_PUNCHLIST items #4-5 (PREDICTIONS_ARCHIVE + calibration scoreboard preamble).
+- **STATUS.md § THESIS block** — replaced 5-row case table + 2 prose paragraphs with **3-line summary + case-status mirror table + pointer to `thesis/THESIS.md`**. STATUS retains live case-status visibility (so dashboard remains self-contained for spawns) but the canonical narrative is single-sourced. Mirror-consistency direction: thesis/ canonical, STATUS mirrors live-state only.
+- **CLAUDE.md Current Thesis section** — collapsed two ~4-line case mechanism paragraphs to a one-line bullet pointer. Was a "durable framing" home; canonical thesis now owns that. CLAUDE.md still names the two theses for SPAWN-time keyword orientation, then routes to thesis/THESIS.md.
+- **CLAUDE.md Doc Ownership table** — added 2 new rows (`thesis/THESIS.md`, `thesis/PREDICTIONS_ARCHIVE.md`); refactored `STATUS.md` row to specify "live thesis-state *mirror*" not owner; refactored `thesis/CHANGELOG.md` and `thesis/PREDICTIONS.tsv` rows for the move; refactored `CLAUDE.md` self-row to drop "durable thesis framing" claim (now thesis/ owns).
+- **CLAUDE.md File Structure tree** — top-level CHANGELOG.md removed; new `thesis/` subtree added; `workbook/` lost PREDICTIONS.tsv row.
+- **CLAUDE.md Prediction Convention** — path updated `workbook/` → `thesis/`; added pointer to ARCHIVE for post-mortems; failure-pattern *rules* now home in THESIS.md § Predictions.
+- **CLAUDE.md INBOX Processing + Closing Protocol** — path updates for PREDICTIONS.tsv (`workbook/` → `thesis/`).
+- **CLAUDE.md Trade Flow** — path update for PREDICTIONS.tsv.
+- **Scripts** — `scripts/predictions_due.py` PRED_TSV path updated (`workbook/PREDICTIONS.tsv` → `thesis/PREDICTIONS.tsv`); docstring + `scripts/boot.py` header text updated. **Important silent-pass bug found and fixed**: script silently returned "ran cleanly, no alerts" on file-not-found rather than erroring; first edit on the in-flight file-rename caught this. Now verified to read the new path.
+- **STATUS boot-pointer** refreshed to summarize the Jun 9 session.
+
+**Files touched:**
+- New: `thesis/THESIS.md`, `thesis/PREDICTIONS_ARCHIVE.md`, `thesis/CHANGELOG.md` (via git-mv), `thesis/PREDICTIONS.tsv` (via git-mv)
+- Edits: `CLAUDE.md`, `STATUS.md`, `scripts/predictions_due.py`, `scripts/boot.py`, `MAINTENANCE.md` (this entry)
+- Deleted: `CHANGELOG.md` (top-level → moved), `workbook/PREDICTIONS.tsv` (→ moved)
+
+**Boot-impact:**
+- Boot step 4 (`predictions_due.py`) now reads `thesis/PREDICTIONS.tsv`. Verified clean: 12 OPEN ledger renders correctly.
+- Future boot will hit the new layout naturally — boot step 1 (read STATUS) still works; if a spawn reads CLAUDE.md "Current Thesis" they'll be routed to thesis/THESIS.md within 3 lines.
+- One-time call: if a spawn pattern-matches the old top-level CHANGELOG.md path, it should auto-recover via the SAM-style `thesis/CHANGELOG.md` find.
+
+**Lessons:**
+- **Plan the substance before the folder.** The structural move is the cheap part (5 min of git-mv + Edit). The hard part is articulating what the thesis IS in the form that the canonical doc needs (12 sections worth of synthesis). Doing the planning pass first surfaced the Carvana carve-out as the most important substantive change — without that, this would have been a relocate-and-rename exercise.
+- **Silent-pass bugs hide in path-rename edits.** `predictions_due.py` returned "ran cleanly, no alerts" when the TSV file didn't exist — a wrong path produced false success. Caught only because I re-ran the script after the path edit and noticed it claimed clean against a file that no longer existed at that path. Path-renames should always be followed by an end-to-end verify, not just "edit succeeded."
+- **STATUS-as-mirror requires explicit direction encoding.** New ownership rows had to specify "live thesis-state MIRROR" not "live thesis state" to signal the canonical-wins direction. Auto-memory `[[finding_doc_mirror_consistency_check]]` pattern applies: encode the direction, then a closeout/boot check can verify the mirror agrees.
+- **OTTO's thesis was meaningfully more mature than its STATUS block suggested.** The 5-row case table in STATUS gave a flat view; the actual thesis — once articulated — has structural depth (4 mechanism features, 2 interlocked theses with explicit explanatory link, 7-stage transmission chain, why-now timing claim, decomposed conviction). The lesson: when an agent has been doing the thinking but storing the conclusions in a flat dashboard, the thesis already exists — it just hasn't been written down.
+
+---
+
 ## 2026-06-08 — Peer-parity push: boot automation + closeout maturation + MAINTENANCE.md (v2.1 → v2.5)
 
 **Trigger:** Will-directed comparison to the mature agents (SAM, BRENT) across boot, then closeout, then structural logging. Capped with a domain data-refresh. Multi-part, collaborative — Will chose scope at each fork.
