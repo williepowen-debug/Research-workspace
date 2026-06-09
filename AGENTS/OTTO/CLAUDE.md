@@ -262,7 +262,9 @@ else references it. *(Finalized via the Phase-3b cross-doc audit, 2026-06-02. Ro
 | `workbook/ABS_ISSUANCE.tsv`, `workbook/EXTENSION_PROXY.tsv` | Script-generated monitoring series (fed by `scripts/`) | Hand-authored narrative |
 | `workbook/CROSS_AGENT_LOG.tsv` | Log of outbound cross-agent signals (record of what was routed) | — |
 | `scripts/` | Boot automation (`boot.py` orchestrator → `predictions_due.py` + `catalyst_countdown.py` + price snapshot) and monitoring stubs (`abs_issuance_tracker.py`, `extension_proxy.py` — manual-check placeholders, not live feeds) | — |
-| `docket/CATALYSTS.tsv` | Machine-readable forward-event feed (8-col: date/event/what_to_check/threshold_signal/priority/who_cares/notes/date_class). Read by `catalyst_countdown.py` at boot. Source of truth for dated events | Narrative (→ STATUS CRITICAL TIMELINE, the human twin); the prediction ledger (→ thesis/PREDICTIONS.tsv) |
+| `docket/CATALYSTS.tsv` | Machine-readable forward-event feed (8-col: date/event/what_to_check/threshold_signal/priority/who_cares/notes/date_class). Read by `catalyst_countdown.py` at boot. Source of truth for dated events. **Maintained by WINTERKORN sub-agent** (not edited by OTTO directly during normal sessions; OTTO applies WINTERKORN's flagged-for-OTTO escalations) | Narrative (→ STATUS CRITICAL TIMELINE, the human twin); the prediction ledger (→ thesis/PREDICTIONS.tsv); live dashboard values |
+| `docket/WINTERKORN.md` | **Sub-agent spec** (mandate, autonomy gradient, read/write-set, truth model, the job, return format). OTTO-internal docket steward — spawned weekly Tue + T-3 pre-hearing. Not a network peer. Auto-domain reference (VW Dieselgate executive-knew archetype). | Live state (→ WINTERKORN_MEMORY); analytical judgment (→ THESIS); anything outside docket/ scope |
+| `docket/WINTERKORN_MEMORY.md` | **Sub-agent state** — LAST RUN (history), PENDING (OTTO-side decisions queued), STANDING MONITORS (recurring watches), CALIBRATION (OTTO-owned accept/decline log; WINTERKORN reads but never writes), NEXT RUN HINTS | The durable spec (→ WINTERKORN.md); CATALYSTS data itself |
 | `MEMORY.md` | Cross-session feedback, findings, references, Session Notes (CHANGES/LAST/NEXT) | Recaps of STATUS values (reference, don't copy) |
 | `LESSONS.md` | Distilled durable process rules | ⚠ overlaps MEMORY § Feedback + these conventions (consolidation candidate — punch-list) |
 | `LAST_COMPLETION.md` | The per-session hand-off | Durable learnings (→ MEMORY) |
@@ -306,6 +308,16 @@ Append to `AGENTS/SIGNALS.md`:
 ```markdown
 | 2026-02-15 | OTTO | REGINALD | 🔴 | [Description of signal] |
 ```
+
+### Sub-Agents (OTTO-internal — not network peers)
+
+| Name | Pattern | Owns | Spawn cadence |
+|------|---------|------|---------------|
+| **WINTERKORN** | FASTOW-style scoped owner (busy-work, no judgment) | `docket/CATALYSTS.tsv` + `docket/WINTERKORN_MEMORY.md`. Verifies forward dates against bankruptcy dockets (First Brands S.D. Tex; Tricolor Ch.7; Tricolor SDNY criminal — selective; Carvana DE Chancery), SEC EDGAR / IR calendars (named-banks Q-earnings subset), rating agencies (Fitch/S&P/KBRA/Moody's ABS surveillance), ABS pricing windows (modeled). | Weekly Tue + on-demand T-3 pre-hearing |
+
+Spawn pattern: Agent tool with prompt pointing to `AGENTS/OTTO/docket/WINTERKORN.md` (spec) then `AGENTS/OTTO/docket/WINTERKORN_MEMORY.md` (state). Sub-agent returns categorized summary block; OTTO applies any flagged-for-OTTO escalations (STATUS sync / PREDICTIONS sync / docket ambiguities). Sub-agents never commit or push.
+
+**Naming convention:** identity-named (auto-domain reference per `[[finding_subagent_naming_identity_over_functional]]`). Future sub-agents follow the same convention.
 
 ---
 
@@ -486,7 +498,9 @@ AGENTS/OTTO/
 │   ├── abs_issuance_tracker.py # Monitoring stub (manual-check placeholder)
 │   └── extension_proxy.py      # Monitoring stub (manual-check placeholder)
 ├── docket/
-│   └── CATALYSTS.tsv    # Machine-readable forward-event feed (8-col) — boot step 5 source
+│   ├── CATALYSTS.tsv         # Machine-readable forward-event feed (8-col) — boot step 5 source; WINTERKORN-maintained
+│   ├── WINTERKORN.md         # Sub-agent spec — docket steward (weekly Tue + T-3 pre-hearing)
+│   └── WINTERKORN_MEMORY.md  # Sub-agent state — LAST RUN / PENDING / STANDING MONITORS / CALIBRATION / NEXT RUN HINTS
 ├── research/
 │   └── outputs/        # RP-OTT-x.x research packages
 ├── workbook/
@@ -514,4 +528,4 @@ AGENTS/OTTO/
 
 ---
 
-*OTTO CLAUDE.md **v2.6** | 2026-06-09 — `thesis/` subdir introduced: canonical THESIS.md v1.0; CHANGELOG.md + PREDICTIONS.tsv moved in; new PREDICTIONS_ARCHIVE.md. STATUS § THESIS now a live-state mirror only. **Full version/structural history → `MAINTENANCE.md`** (v2.1→v2.6 detail lives there, not inline here).*
+*OTTO CLAUDE.md **v2.7** | 2026-06-09 — WINTERKORN docket-steward sub-agent introduced (`docket/WINTERKORN.md` spec + `docket/WINTERKORN_MEMORY.md` seeded). FASTOW-pattern scoped owner of `docket/CATALYSTS.tsv`; weekly Tue + T-3 pre-hearing cadence. Closes the Jun-17 → Jun-12 First Brands date-keeping failure mode on cadence. **Full version/structural history → `MAINTENANCE.md`** (v2.1→v2.7 detail lives there, not inline here).*
