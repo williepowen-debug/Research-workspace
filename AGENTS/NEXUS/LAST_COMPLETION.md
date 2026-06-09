@@ -96,7 +96,12 @@ STATUS now 188 lines (cap 200). 12-line headroom.
    - *Not for hygiene pass — real codify-work is 2 keepers, 1 fold, 2 routes. Punt.*
 6. **Tier-1 briefs read this session:** SAM (6/7, pilot), HAWK (6/8), BRENT (6/8), VIOLET (6/8). **8 still missing** — CARL, REGINALD, BROCK, HENRY, WALTER, RED (active) + OZK, LIQUID (dormant — confirm first). MARCO (Tier-2) 6/8 brief unread.
 7. **Rollout broadcast DEFERRED.** Per advisor: 1 day to 6/9 auction, 2 days to 6/10 CPI; starting rollout splits focus during live catalyst week AND compounds the two-machine sync surface (6 more agents editing on two clones). **Wait until after 6/9-12 cluster clears.**
-8. **2 fleet-routed signals to NEXUS still unprocessed:**
+8. 🚨 **LIQUID Will-decision required (NOT a rollout footnote).** LIQUID dormancy (STATUS 5/21, 18 days stale) is BLOCKING two load-bearing items:
+   - **C3 — counter-signal refresh.** HY energy OAS Apr-28 stale ~285bps in the corner most exposed to live Hormuz substance. Macro HY OAS 274 flat is doing real counter-signal work but has a stale-data crack in the corner that matters. LIQUID owns this; route-around via WALTER or PROME is a workaround, not a fix.
+   - **T-08 — credit pin verification.** HAW-11 leakage tail wiring has 1 hard pin (BRENT) + 2 soft (HENRY, SAM) + 1 dormant (LIQUID). LIQUID's credit-stress channel framing is unverified because it can't be cross-checked.
+   - **Decision needed from Will:** (a) reactivate LIQUID (assign a session) and refresh both items before 6/10 CPI, OR (b) explicitly accept blind spot — credit-corner-most-exposed-to-live-Hormuz operates without LIQUID coverage through the 6/9-12 cluster. Outbox dispatched to PROME with this framing. Either decision unblocks NEXUS; "wait for rollout broadcast" does not.
+
+9. **2 fleet-routed signals to NEXUS still unprocessed:**
    - `MARCO 2026-06-08 worldcup-dual-mask` (→NEXUS+CARL)
    - `BRENT 2026-06-07 fallback_rate_instrumentation` (CLAUDE.md instrumentation rows partially absorbed; live-NEXUS review/adjust still owed)
 

@@ -56,24 +56,24 @@ Tagging matrix/signal rows to their *root* antecedents — convergence only coun
 
 | Root | Brief description | Observations resting on it |
 |---|---|---|
-| **R1 USD/Fed repricing** | Higher-for-longer USD strength, NFP rate-shock, FOMC paralysis | M-03 {R1+R7}, M-04 rate-shock leg of 6/5, USDJPY 160 (USD-side per SAM), Brent paper-soft {R1+R2}, 10Y proximate {R1+R7}, TB-2 FOMC 6/17 concentrator |
+| **R1 USD/Fed repricing** | Higher-for-longer USD strength, NFP rate-shock, FOMC paralysis | M-03/10Y {R1+R7}, M-04 rate-shock leg of 6/5, USDJPY 160 (USD-side per SAM), Brent paper-soft {R1+R2}, TB-2 FOMC 6/17 concentrator |
 | **R2 Hormuz/oil substance** | Kinetic + blockade + curve structure (paper soft, **physical tight**) | M-06, T-06, T-08 HAW-11 leakage, Brent paper-soft {R1+R2} |
 | **R3 Credit fundamental** | LABOR→CARL→REGINALD bear-stress transmission | M-01, M-02 BDC, M-05 WAL/CRE, HY OAS 274, KRE not confirming |
 | **R4 AI/factor positioning** | Concentration unwind | M-04 6/5 AI-unwind leg, TB-2 AI-unwind driver |
 | **R5 Energy→CPI→Fed (2nd-order)** | Inflation pass-through | M-06 stagflation, 6/10 CPI discriminator, BRT-16 standing channel |
 | **R6 Japan/BOJ structural** | JGB term-premium, yen-carry, BOJ path | TB-2 yen-carry driver, S-26060702 (Japan-lifer leg deferred multi-year per SAM) |
-| **R7 UST-supply / auction-function** | Treasury supply-demand, auction indigestion, foreign-CB composition | M-03 {R1+R7}, 10Y proximate {R1+R7}, T-02 auction-function tension, 6/9-11 auctions, S-26060702 substrate (foreign-CB composition shift) |
+| **R7 UST-supply / auction-function** | Treasury supply-demand, auction indigestion, foreign-CB composition | M-03/10Y {R1+R7}, T-02 auction-function tension, 6/9-11 auctions, S-26060702 substrate (foreign-CB composition shift) |
 
 **Multi-root annotations (caught in advisor QC):**
-- **Brent paper-soft** = {R1, R2}. Paper-soft side is USD-strength + kinetic-without-damage; physical-tight side (Cushing 22.4M, SPR <360M, backwardation, UKMTO 1.1/day) is R2 — separate fragility root that makes T-08/Hormuz a distinct hazard. Mono-tagging to R1 would erase the very thing C4's cross-edge depends on.
-- **M-03 / 10Y proximate** = {R1, R7}. USD/Fed repricing dominates the *direction*; UST-supply/auction-function is what 6/9-11 auction-tail tail-risk is actually testing. T-02 lives on R7. Don't conflate.
+- **Brent paper-soft** = {R1, R2}. Paper-soft = USD-strength + kinetic-without-damage; physical-tight (Cushing 22.4M, SPR <360M, backwardation, UKMTO 1.1/day) = R2 — separate fragility root that makes T-08/Hormuz a distinct hazard.
+- **M-03 / 10Y** = {R1, R7}. USD/Fed repricing dominates *direction*; UST-supply/auction-function is what 6/9-11 auction-tail risk is actually testing. T-02 lives on R7. Don't conflate. (10Y proximate threshold row and M-03 matrix row reference the same instrument — counted once.)
 
-**C1 NEXUS-only finding — R1 dual implication.** R1 (USD/Fed) sits under **4-6 observations** (depending on multi-root accounting). Per Discipline F, those are NOT independent rails on the R1 dimension — but multi-root observations carry independent fragility on their *other* roots.
-- **DEFLATES convergence on R1 alone:** the R1-only count (USDJPY 160 USD-side, M-04 rate-shock leg, TB-2 FOMC concentrator) is 3 — these collapse cleanly to one root. Don't treat as 3-agent convergence on bear thesis.
-- **DOES NOT collapse the multi-root observations:** Brent and M-03 retain independent R2 and R7 fragility respectively. R1 firing on 6/10 CPI doesn't auto-mean their other roots also activate; conversely R2 (HAW-11) or R7 (auction tail) firing doesn't require R1 to move.
-- **AMPLIFIES fragility on R1's gate days:** one R1 repricing event (6/10 CPI, 6/17 FOMC) moves the 3+ pure-R1 observations together, AND lights one side of the multi-root rows. T-08 + S-26060801 (TB-2) are pointing at exactly this — correlated-failure concentrated on R1's gate days.
+**C1 NEXUS-only finding — R1 dual implication.** R1 (USD/Fed) sits under **5 unique observations** (3 pure-R1 + 2 multi-root with R1 as one leg). Per Discipline F, the pure-R1 set is NOT 3 independent rails on the R1 dimension — they collapse to one root.
+- **DEFLATES convergence on R1 alone:** pure-R1 count = 3 (USDJPY 160 USD-side, M-04 rate-shock leg, TB-2 FOMC concentrator). These collapse cleanly to one root. Don't treat as 3-agent convergence on bear thesis.
+- **DOES NOT collapse the multi-root observations:** Brent paper-soft (R1+R2) and M-03/10Y (R1+R7) retain independent fragility on R2 and R7 respectively. R1 firing on 6/10 CPI doesn't auto-light their other roots; conversely R2 (HAW-11) or R7 (auction tail) firing doesn't require R1 to move.
+- **AMPLIFIES fragility on R1's gate days:** one R1 repricing event (6/10 CPI, 6/17 FOMC) moves the 3 pure-R1 observations together AND lights one leg of the 2 multi-root rows. T-08 + S-26060801 (TB-2) are pointing at exactly this — correlated-failure concentrated on R1's gate days.
 
-**Same antecedent that weakens the convergence on R1 alone makes the book more fragile on R1's gate days, while multi-root rows preserve independent fragility on their other roots.** Honest accounting in both directions.
+**Same antecedent weakens convergence on R1 alone AND makes the book more fragile on R1's gate days; multi-root rows preserve independent fragility on their other roots.** Honest accounting in both directions.
 
 **C2 — 6/10 CPI is a shared resolution node, not just M-04/M-06.** One print resolves ~5 rails: oil→Fed discriminator (M-06, R5) · vol-fade inside VIX9D (M-04, R4) · mid-auction inflation (M-03, R1) · SAM USD-persistence carry/FXY (R1+R6) · TB-2 trigger window. **Pre-registered branches** (hot vs in-line vs soft) — `research/2026-06-08_cpi_pre_registration.md`. Pre-reg locks branches before data biases the read.
 
@@ -110,7 +110,7 @@ Tagging matrix/signal rows to their *root* antecedents — convergence only coun
 | **T-05** | T | BDC substance vs APO public equity | FSK/BDC stress, gates, marks | APO >$130; parent bid persists | Parent fee/insurance/flow premium may decouple longer than thesis timing. |
 | **T-06** | R | Iran kinetic risk vs diplomatic thaw | Iran SUSPENDED MOU 6/1; Kuwait missile intercept 5/31; Bab al-Mandab vector NEW | Brent paper-soft $93.09 @ [Fri 6/5 close]; MM-short cover into gap-up | **E-resolved toward escalation, not thaw** — SIG-02 REVERTED head-fake. Substance gates: UKMTO weekly print trajectory · Brent curve structure · CENTCOM kinetic tempo. |
 | **T-07** | T | Bear analogs vs bull analogs | 1929/1973/1999 breadth/call-notional | Carson/SentimentTrader retail-put/8-streak bullish | Positioning markers, not timing tools. |
-| **T-08** | R | **HAW-11 leakage tail = correlated-fragility node** (HAWK 6/8 brief) — **bidirectional with S-26060801 (TB-2)** per C4 cross-edge | Decoupling regime is load-bearing across multiple agents simultaneously; one HAWK-owned switch (intercept failure / Gulf energy-infra hit, Jun 8-22 window, 20%) could reprice several books at once | **Verified wiring:** 1 hard pin = BRENT (XLE $65C kinetic-tail + BRT-15 standing watch directly conditioned); 2 soft = HENRY (vol persistence multi-causal) + SAM (multi-step via energy-import-cost). 1 dormant = LIQUID. NOT 4-hard-pins as HAWK framed. | **NOT a trade rail** (line 7). Fragility note. Resolves on either HAW-11 firing (D 35→50%+, pulls TB-2 forward) OR window 6/22 closing without leakage (de-rate to nuisance). **Cross-edge:** TB-2 firing on its own roots (R1/R4/R6) can amplify T-08 via risk-off → war-premium re-entering Brent. |
+| **T-08** | R | **HAW-11 leakage tail = correlated-fragility node** (HAWK 6/8 brief). **Bidirectional with S-26060801 (TB-2) — see C4 in antecedent map for full logic.** | Decoupling regime is load-bearing across multiple agents simultaneously; one HAWK-owned switch (intercept failure / Gulf energy-infra hit, Jun 8-22 window, 20%) could reprice several books at once | **Verified wiring:** 1 hard pin = BRENT (XLE $65C kinetic-tail + BRT-15 standing watch directly conditioned); 2 soft = HENRY (vol persistence multi-causal) + SAM (multi-step via energy-import-cost). **1 dormant = LIQUID → BLOCKING credit-pin verification (Will-decision pending: reactivate or accept blind spot — see LAST_COMPLETION blockers).** NOT 4-hard-pins as HAWK framed. | **NOT a trade rail** (line 7). Fragility note. Resolves on either HAW-11 firing (D 35→50%+) OR window 6/22 closing without leakage (de-rate). |
 
 *Type key: S=surface, R=real, T=temporal*
 
