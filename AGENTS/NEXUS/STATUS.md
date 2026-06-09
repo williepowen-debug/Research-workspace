@@ -1,6 +1,6 @@
 # NEXUS STATUS
-**Updated:** 2026-06-07 Sun PM (boot integration of 4 WALTER BOARD dispatches dated 6/6 PM — M-06 evidence hardened, forward-CPI rail logged in SIGNALS)
-**Last full matrix review:** 2026-06-06 (Fri 6/5 close anchor — no new market data, weekend)
+**Updated:** 2026-06-08 Mon PM (hygiene pass — strip Trump/Rubio noise gates per `[[feedback_trump_rhetoric_tape_not_info]]`, retire T-03, archive closed E-phase block to research/, bookkeeping. Anchor stays Fri 6/5 close — 6/8 market-data refresh deferred to deliberate sweep.)
+**Last full matrix review:** 2026-06-06 (Fri 6/5 close anchor — 6/8 Mon close data NOT YET INTEGRATED, separate sweep)
 **Mode:** E-phase shipped. Energy "deflation un-traps Fed" hypothesis CLOSED — chain failed at step 1 (Iran SUSPENDED MOU 6/1). Vol regime partially cracked on 6/5 NFP, credit still anchored.
 **Regime (6/5 close anchor):** **Stage-2-late divergence — vol leg cracking, credit leg holding.** VIX 21.51 +40% on NFP / SKEW 152 breached / VVIX 102 sustained / HY OAS 274 flat / KRE +0.27% on SPX −2.64% day.
 **Probability split, 2–6wk (6/5 anchor — PROVISIONAL pending 6/12 CPI):** Break **30%** (↑5pp) / Grind-lasts **30%** (↓5pp) / Unresolved divergence **40%** (—). *Tilt toward Break leans on 6/5 vol crack — Discipline B (single-print skepticism) says don't bank vol break until 6/12 CPI digestion. If CPI fades vol, revert toward 25/35/40.*
@@ -26,50 +26,13 @@ Current best label: **C) unresolved divergence — vol leg now cracking.** 6/5 N
 
 ---
 
-## PRIORITY SYNTHESIS NODE — E-SPINE (pre-registered 2026-06-06)
+## E-PHASE POINTER (closed 2026-06-06; archived 2026-06-08)
 
-**The question:** Is energy deflation real, and does it un-trap the Fed?
-
-**Source:** **2 independent analytical reads** converged on this as the load-bearing question for E — NEXUS C-ID sweep (6/6 self-audit) flagged C-19 mechanism at risk via SIG-26060601/02; external advisor/orchestrator flagged M-06 → M-03 knock-on and C-19 → TLT chain. **Not logged as M-NEW** — advisor+orchestrator are same root analyst across modes; my own independence test counts that as 1 external read, not 2. This is a high-priority watch node, not a market convergence row.
-
-**The chain:** C-19 (Stagflation Trap, Trophy) = Fed can't cut → long end stays stressed → bearish duration pays. If energy deflates → inflation softens → Fed unblocked → duration rallies → bearish duration decays. Energy is the hinge.
-
-**Position dependency flag (IF-THEN — no trade rail):**
-
-> IF energy deflation confirms AND inflation pass-through is real → M-03 duration thesis rotates → bearish duration expression (TLT) becomes take-profit / roll candidate. Verify live price + P&L before any action. Per `[[feedback_position_cost_basis_not_authoritative]]` — do not cite historical P&L as load-bearing.
-
-### E-spine execution order (sequence — gate at each step)
-
-1. Verify SIG-01/02 via fresh BRENT + HAWK headers + live Brent price (stale-signal skepticism gate).
-2. Apply catalyst-vs-consequence: energy deflating ≠ inflation falling ≠ Fed cutting. Three separate conditional links.
-3. Propagate: M-06 → M-03 reassessment → C-19 TRUE-in-letter / FALSE-in-spirit decision.
-4. Re-grade Break / Grind / Divergence probability split.
-5. Live-verify thresholds — 10Y / TLT priority pre-2026-06-09 auctions.
-
-### Pre-registered verification rubrics
-
-Full rubrics + standing-discipline additions + anti-anchoring rules: **`recon/2026-06-06_e_phase_pre_registration.md`** (committed before any data fetched — locked, do not retro-edit).
-
-- **SIG-01 (BRENT):** VERIFIED / NOISE / AMBIGUOUS thresholds; curve structure = tiebreaker; supply-vs-demand decomposition required; crack spreads + regional differentials + war-premium as tape co-signals.
-- **SIG-02 (HAWK):** VERIFIED / REVERTED head-fake / AMBIGUOUS-grind; tape co-signals = Lloyd's war-premium + time-since-last-kinetic + Chinese tanker transit.
-- **Inflation conditional:** PASS-THROUGH / NO PASS-THROUGH / TOO EARLY; lag-awareness gate; goods-vs-services + wage trajectory + median PCE required decomposition.
-- **4 standing disciplines** adopted for E (war-premium tape signal, crack spreads, causal-lag awareness, supply-vs-demand decomposition); CLAUDE.md codification post-E.
-
-### E-spine outputs (FILLED — 2026-06-06 PM)
-
-| Output | Verdict / Value | Evidence |
-|---|---|---|
-| SIG-01 verdict (BRENT) | **AMBIGUOUS** — paper soft, physical tight | Brent $93.09 @ [Fri 6/5 close, fetch.py BZ=F] < $98-100; MM-long −2,160 (decel) but MM-short −16,603 (cover into gap-up) @ [Tue 6/2 positions, CFTC ICE Brent Last Day]; curve still backwardated per BRENT 6/3 (Cushing 22.4M, SPR <360M) |
-| SIG-02 verdict (HAWK) | **REVERTED head-fake** | Iran SUSPENDED indirect talks 6/1 [Tasnim/Bloomberg]; CENTCOM intercepted 2 Iranian missiles at Kuwait 5/31 11pm ET [CENTCOM/CNBC]; US strikes Iranian air defenses 5/25-26; Bab al-Mandab vector new |
-| Inflation conditional verdict | **TOO EARLY + leaning NO PASS-THROUGH** | Energy never sustained deflation; Core PCE 3.3% cycle-HIGH @ [Apr 2026 print, BEA rel 5/28]; AHE 3.4% YoY decel from 3.6% but services sticky |
-| M-06 Conf% / Δ | **55% → 60%** (↑5pp) — downgrade cancelled + modest re-arm | War path re-armed 6/1; durability gate = Trump/Rubio Mon 6/8 response |
-| M-04 Conf% / Δ | **60% → 45%** (↓15pp) — vol transmitted on 6/5 NFP | VIX +40% @ [Fri 6/5 close, fetch.py ^VIX 21.51]; SKEW 152.25 breached 150 [VIOLET 6/5 CONF]; VVIX 102 sustained [VIOLET 6/5 CONF] |
-| M-07 Conf% / Δ | **70% → 60%** (↓10pp) — vol-crushed leg of bull-counter broke | KRE/HY held on 6/5 but vol component cracked |
-| M-03 Conf% / Δ | **70% (—)** — no material change | 10Y 4.54% @ [Fri 6/5 close, fetch.py ^TNX] +6bps on NFP; TLT $85.06 @ [Fri 6/5 close, fetch.py TLT]; 6/9-11 auctions still the test |
-| C-19 status | **Trophy INTACT** — energy hinge held; Fed still trapped | Energy deflation premise failed at step 1 (MOU suspended); stagflation framing survives |
-| Probability split re-grade | **30 / 30 / 40** (Break ↑5, Grind ↓5, Divergence flat) | Vol-cracking on prints tilts Break leg; Grind harder if vol re-prices events |
-| Threshold marks (Fri 6/5 close) | See refreshed Proximity table below | All marks source-tagged `value @ [Fri 6/5 close, source]` |
-| Position dependency flag | **DID NOT FIRE** — IF-leg failed (energy didn't deflate durably + inflation conditional TOO EARLY) | TLT bearish duration thesis is NOT at take-profit trigger via this rail; M-03 reassessment defers to 6/9-11 auctions |
+- **Question:** Is energy deflation real, and does it un-trap the Fed? **Verdict:** Chain failed at step 1 — energy never deflated durably; Iran SUSPENDED MOU 6/1.
+- **C-19 (Stagflation Trap, Trophy) INTACT.** Per-row impact carried in matrix below: M-06 ↑5pp, M-04 ↓15pp, M-07 ↓10pp, M-03 unchanged.
+- **Position-dependency conditional (STANDING — survives archive):** IF energy deflation confirms AND inflation pass-through is real → M-03 duration thesis rotates → TLT becomes take-profit / roll candidate. Verify live price + P&L before any action. **Currently DID NOT FIRE** — re-arm watch only if energy thesis flips.
+- **Full pre-registration + filled outputs:** `research/2026-06-06_e_phase_outputs.md`. Pre-reg rubrics: `recon/2026-06-06_e_phase_pre_registration.md` (locked).
+- **TODO carried in LAST_COMPLETION:** triage + codify 4 E-phase standing disciplines (war-premium → keep, causal-lag → fold into Discipline C, crack spreads + supply-vs-demand → route to BRENT).
 
 ---
 
@@ -82,7 +45,7 @@ Full rubrics + standing-discipline additions + anti-anchoring rules: **`recon/20
 | **M-03** | Duration channel replaces plumbing channel | LIQUID, HENRY, BOND, HEARTBEAT | High | **70%** | — | 2026-05-21 | 10Y 4.54% @ [Fri 6/5 close, fetch.py ^TNX] +6bps on NFP; TLT $85.06 @ [Fri 6/5 close, fetch.py TLT]. 6/9-11 auctions still the test. |
 | **M-04** | Vol/gamma suppression explains non-transmission | VIOLET, HENRY, WALTER gamma, RED | Medium | **45%** | **↓15pp** | 2026-06-06 | VIX +40% to 21.51 on 6/5 NFP, SKEW 152, VVIX 102 sustained → vol DID transmit. Mechanism wounded. Gamma countdown window (SIG-26060603, 1-2mo from 5/14) now firing. |
 | **M-05** | WAL/CRE bear-medium, not sector cascade | REGINALD, RED, BROCK | Medium | **65%** | — | 2026-05-21 | WAL $80.15 @ [Fri 6/5 close, fetch.py WAL] holding above $78. Q2 print decides. |
-| **M-06** | Energy/stagflation pressure persists, **war path RE-ARMED** *(CONDITIONAL: re-escalation holds past 6/8)* | HEARTBEAT, HENRY, WALTER, BRENT, HAWK | Med | **60%** | — | 2026-06-07 | Iran SUSPENDED MOU 6/1 + Kuwait kinetic. Brent $93.09 @ [Fri 6/5 close, fetch.py BZ=F] paper-soft but physical tight. **NEW 6/7 — UKMTO Hormuz tanker 7-day avg 1.1/day week-ending 6/3 (-97.8% vs pre-war 49); trajectory April 3.9 → May 2.8 → 6/3 1.1 = blockade enforcement *tightening through May* despite Trump rhetoric** [SIG-W-20260606-004, UKMTO primary, conf 0.90]. Quantitative anchor replaces prior handwave "low volumes." Evidence-grade upgrade; Conf% held at 60% pending 6/8 Trump/Rubio durability gate (Discipline F). |
+| **M-06** | Energy/stagflation pressure persists, **war path RE-ARMED** *(CONDITIONAL: re-escalation durability on substance gates)* | HEARTBEAT, HENRY, WALTER, BRENT, HAWK | Med | **60%** | — | 2026-06-07 | Iran SUSPENDED MOU 6/1 + Kuwait kinetic. Brent $93.09 @ [Fri 6/5 close, fetch.py BZ=F] paper-soft but physical tight. UKMTO Hormuz tanker 7-day avg 1.1/day week-ending 6/3 (-97.8% vs pre-war 49); trajectory April 3.9 → May 2.8 → 6/3 1.1 = blockade enforcement *tightening through May* [SIG-W-20260606-004, UKMTO primary, conf 0.90]. **Durability gates (substance, not rhetoric per `[[feedback_trump_rhetoric_tape_not_info]]`):** next UKMTO weekly print (volume trajectory holds <2/day) · Brent curve structure (backwardation persists) · CENTCOM kinetic tempo (new intercepts or strike cadence). |
 | **M-07** | Bull-counter tape cluster | WALTER, BOND, VIOLET, RED, HEARTBEAT | High | **60%** | **↓10pp** | 2026-06-06 | Vol-crushed leg broke (VIX +40%). Other legs intact: HY 274 flat, KRE +0.27% on SPX −2.64% day, WAL above $78. Cluster wounded not dead. |
 
 ---
@@ -95,7 +58,7 @@ Full rubrics + standing-discipline additions + anti-anchoring rules: **`recon/20
 |---|---|---|---|---|
 | LABOR → CARL (WARN/UI → CC DQ) | FL UI Wave 1 fired 3/24; **6/5 NFP +172K beat / 3-mo avg 188K** (CARL 6/5) | 6-8 wk expected → upstream NOT softening on headline; **internals retain rot** (LFPR −10bps, Long-term UE 27.5%, Part-time-econ 4.8M, Fin Activities −107K YoY) | 🟡 **LINK HOLDING WITH K-SHAPE SPLIT** — headline counter-signal, cohort signal consistent. AHE 3.4% YoY decel. | 2026-06-05 (CARL) |
 | CARL → REGINALD (CC DQ → bank credit migration) | CC 90+ DQ 13.1% Q1 = 15yr high; Carvana PRIME ABS downgrade Apr (first in 16yr) extends V2 up quality stack; EART 2024-2 Class E CE breached | TBD | 🟠 **LINK FIRING IN ABS, NOT YET IN BANK MARKS** — structured credit cracking ahead of bank reported credit. | 2026-06-05 (CARL) |
-| REGINALD → repricing (bank credit → KRE/WAL/BIZD) | WAL B1 fired ($99M life-science walkaway); WAL v2.2 EV $67.98 | Q2 print ~8wk out | 🟡 **TAPE NOT CONFIRMING** — KRE $70.17 / WAL $80.15 @ [Fri 6/5 close, fetch.py], cohort risk-on. BIZD $12.49 single-day breach of $12.50 — sustain test. | 2026-06-05 (REGINALD 6/2 + tape 6/5) |
+| REGINALD → repricing (bank credit → KRE/WAL/BIZD) | WAL B1 fired ($99M life-science walkaway); WAL v2.2 EV $67.98 | Q2 print ~5wk out (Q2 ends 6/30, bank prints mid-July) | 🟡 **TAPE NOT CONFIRMING** — KRE $70.17 / WAL $80.15 @ [Fri 6/5 close, fetch.py], cohort risk-on. BIZD $12.49 single-day breach of $12.50 — sustain test. | 2026-06-05 (REGINALD 6/2 + tape 6/5) |
 
 **Synthesis verdict:** Chain is firing UPSTREAM (LABOR rot in cohort despite headline, CC DQ 15yr high) and MIDSTREAM (ABS cracking, prime auto downgraded for first time in 16yr), but **DOWNSTREAM repricing is NOT happening** at bank-equity tape. Where the chain breaks: between **midstream ABS / bank balance sheet** and **public tape**. This is the heart of M-01 divergence. The 6/5 vol crack is the first public signal that the suppression may be losing.
 
@@ -107,10 +70,9 @@ Full rubrics + standing-discipline additions + anti-anchoring rules: **`recon/20
 |---|---|---|---|---|---|
 | **T-01** | R | Substance vs tape | BROCK/REGINALD/HENRY/RED: private credit, WAL, hot prints, duration stress | HY OAS <300, VIX <20, WAL/KRE bounce | Core unresolved divergence. June catalysts decide. |
 | **T-02** | T | Duration stress vs auction function | 10Y 4.6+, TLT <$85 | 20Y clean; 5/21 TIPS strong | "Expensive, not broken" unless June nominal auctions tail. |
-| **T-03** | S | VIOLET R11 clock vs vol surface calm | R11 analog window 5/28–6/02 | VVIX ~94, contango | R11 window PASSED — needs VIOLET resolution (catalyst-docket update). |
 | **T-04** | R | WAL thesis strengthened vs WAL tape recovered | REGINALD V2.2, B1 fired, EV ~$68 | WAL reclaimed/contests $78 | Q2 print + second migration decide. |
 | **T-05** | T | BDC substance vs APO public equity | FSK/BDC stress, gates, marks | APO >$130; parent bid persists | Parent fee/insurance/flow premium may decouple longer than thesis timing. |
-| **T-06** | R | Iran kinetic risk vs diplomatic thaw | Iran SUSPENDED MOU 6/1; Kuwait missile intercept 5/31; Bab al-Mandab vector NEW | Brent paper-soft $93.09 @ [Fri 6/5 close]; MM-short cover into gap-up | **E-resolved toward escalation, not thaw** — SIG-02 REVERTED head-fake. Monitor Trump/Rubio Mon 6/8 response for re-engagement signal. |
+| **T-06** | R | Iran kinetic risk vs diplomatic thaw | Iran SUSPENDED MOU 6/1; Kuwait missile intercept 5/31; Bab al-Mandab vector NEW | Brent paper-soft $93.09 @ [Fri 6/5 close]; MM-short cover into gap-up | **E-resolved toward escalation, not thaw** — SIG-02 REVERTED head-fake. Substance gates: UKMTO weekly print trajectory · Brent curve structure · CENTCOM kinetic tempo. |
 | **T-07** | T | Bear analogs vs bull analogs | 1929/1973/1999 breadth/call-notional | Carson/SentimentTrader retail-put/8-streak bullish | Positioning markers, not timing tools. |
 
 *Type key: S=surface, R=real, T=temporal*
@@ -123,7 +85,7 @@ Full rubrics + standing-discipline additions + anti-anchoring rules: **`recon/20
 | Threshold | Mark | Source | Read |
 |---|---:|---|---|
 | **TLT <$85** | $85.06 | [Fri 6/5 close, fetch.py TLT] | On the line; closed just above. Duration stress live. |
-| **CCC OAS >900** (sub-1000 trigger) | 946bps | [T+1 6/4, FRED via VIOLET] | +5bps over 4td; distressed tail intact. CCC/HY ratio 3.48x = bifurcation widening (REGINALD 6/2). |
+| **CCC OAS >900** (sub-1000 trigger) | 946bps | [T+1 6/4, FRED via VIOLET — **STALE 6/4**, refresh in 6/8-data sweep] | +5bps over 4td; distressed tail intact. CCC/HY ratio 3.48x = bifurcation widening (REGINALD 6/2). |
 | **VIX >20** | 21.51 | [Fri 6/5 close, fetch.py ^VIX] | **+40% on 6/5 NFP — first sustained breach since regime change.** |
 | **SKEW >150** | 152.25 | [Fri 6/5 EOD, CBOE T+1 via VIOLET] | **+10.10pt 1d on NFP, breached high-severity threshold (KB-VIO-031).** |
 | **VVIX sustained >100** | 102.04 | [Fri 6/5 EOD, fetch.py via VIOLET] | **First sustained >100 in 2026** (was 94 5/21). Vol-of-vol stress live. |
@@ -152,9 +114,8 @@ Full rubrics + standing-discipline additions + anti-anchoring rules: **`recon/20
 
 | Date | Event | Status | What it tests | Resolves to STATUS update |
 |---|---|---|---|---|
-| 2026-05-28 → 06-02 | VIOLET R11 analog window | **RESOLVED HIT 6/5 — VIX +39.7% per VIOLET KB-VIO-031 60d window** | M-04 vol/gamma trigger cluster | M-04 ↓15pp, T-03 resolved toward analog firing |
+| 2026-05-28 → 06-02 | VIOLET R11 analog window | **RESOLVED HIT 6/5 — VIX +39.7% per VIOLET KB-VIO-031 60d window** | M-04 vol/gamma trigger cluster | M-04 ↓15pp absorbed analog firing (T-03 retired 6/8) |
 | 2026-06-05 | NFP | **FIRED — integrated this pass** | LABOR-tier upstream | +172K beat, internals retain rot (K-shape intact), AHE 3.4% decel; vol +40%, credit flat |
-| 2026-06-08 (Mon) | **Trump/Rubio response to Iran MOU walk-out** | **PENDING — gates SIG-02 durability** | M-06 war-path-re-armed durability | If re-engagement → modest M-06 retrace; if escalation → M-06 hardens further |
 | 2026-06-09 → 06-11 | Nominal 10Y / long-end auctions | UPCOMING | M-03 duration channel — clean clearing vs tail | M-03, T-02 |
 | 2026-06-12 | May CPI (inside VIX9D window per VIOLET) | UPCOMING | Stagflation prior + M-06 + vol-fade gate | M-01, M-06, M-04 |
 | 2026-06-17 | June FOMC (outside VIX9D window) | UPCOMING | Fed paralysis / cut path | M-01, M-03 |
@@ -175,7 +136,7 @@ Full rubrics + standing-discipline additions + anti-anchoring rules: **`recon/20
 | **Agent-data story** | Substance hardening across rails: BIZD breached $12.50, USD/JPY breached 160, Carvana PRIME ABS downgrade first in 16yr, CC DQ 13.1% 15yr high, BRENT MOU SUSPENDED 6/1 + kinetic re-arming, vol cluster (VIX/SKEW/VVIX) simultaneous breach. Substance now extending past private credit into structured credit, FX, and vol. |
 | **Market-verdict counter-signal** *(required per Discipline D)* | **HY OAS 274bps flat through VIX +40% is THE counter-signal of the day** and the cleanest still-load-bearing tape disagreement. Credit refused to crack even as vol cracked. **Secondary counter:** KRE +0.27% on SPX −2.64% day = bank cohort actively diverging from broad equity stress. If HY breaks 300 + KRE breaks 65 → gap closes toward agent-data. If HY sustains <290 through 6/12 CPI + 6/17 FOMC → gap closes toward consensus. |
 | **Gap size + direction** | **Widening on substance side; partially closing on vol side; still wide net.** First material gap-direction shift since 5/21 anchor — vol leg moved from "suppressed" to "transmitting on events." Credit/bank legs still firmly anchored. |
-| **Closing catalysts** | 6/8 Trump/Rubio Iran response (SIG-02 durability) → 6/9-11 nominal auctions (M-03) → 6/12 May CPI (inside VIX9D window per VIOLET — vol-fade gate) → 6/14 gamma countdown opens → 6/17 FOMC. Density unmatched since 4/30 cluster. |
+| **Closing catalysts** | 6/9-11 nominal auctions (M-03) → 6/12 May CPI (inside VIX9D window per VIOLET — vol-fade gate) → 6/14 gamma countdown opens → 6/17 FOMC. Density unmatched since 4/30 cluster. M-06 durability watched on substance gates (UKMTO weekly · Brent curve · CENTCOM kinetic), not rhetoric. |
 
 **Edge question (refined):** **Did 6/5 mark the start of the vol-side release, or is it a single-print event-shock that fades through 6/12 CPI?** Working hypothesis: the 6/5 NFP vol-spike was the gamma-countdown leading edge (SIG-26060603 window opens 6/14) — single-print skepticism still applies, but the SKEW 152 / VVIX 102 *sustained* picture is harder to fade than a 1-day VIX pop. Per Discipline E: don't bank the vol break as confirmed until 6/12 CPI digestion + 6/14+ window confirms.
 
@@ -185,10 +146,10 @@ Full rubrics + standing-discipline additions + anti-anchoring rules: **`recon/20
 
 ## CONFIRMED — pointer
 
-Historical confirmed convergences in `CONFIRMED.md`. Pending E-phase promotion: PRED-13 (Iran rally bull-trap), PRED-25 (HAWK Scenario D 92%, now SUPERSEDED by 5/22 reframe — mechanism shifted).
+Historical confirmed convergences in `CONFIRMED.md`. Latest: **C-35** (Iran rally bull-trap pattern, promoted 2026-06-08 from PRED-13).
 
 ---
 
 ## LAST RUN
 
-See `LAST_COMPLETION.md`. Last write 2026-06-06 PM (E-phase execution — SIG-01/02 verdicts + Fri 6/5 close anchor).
+See `LAST_COMPLETION.md`. Last write 2026-06-08 PM (STATUS hygiene pass).

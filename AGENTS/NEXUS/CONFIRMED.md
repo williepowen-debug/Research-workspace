@@ -13,6 +13,7 @@
 | C-23 | FOMC+BOJ Dual-Catalyst | 2026-03-19 | Shunto 5.26% + FOMC hold | 95% |
 | C-24 | Consumer Demand Destruction | 2026-03-20 | "Help with mortgage" ATH, student default $181B record, gas $4 | 99% |
 | C-28 | Gas $4 Consumer Break | 2026-03-26 | Behavioral breakpoint confirmed at $4/gal | 99% |
+| C-35 | Iran "talks" rally = bull-trap pattern | 2026-06-08 | PRED-13/HEN-11. Promoted after second cycle: March (Iran denial + combat resume) → 5/22 HAWK partial-thaw → 6/1 MOU SUSPENDED + Kuwait kinetic. Bull-trap mechanism validated twice. | 90% |
 
 ---
 
