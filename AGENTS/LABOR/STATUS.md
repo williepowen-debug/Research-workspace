@@ -234,6 +234,11 @@
 - `scripts/boot.py` (B2 orchestrator) + `labor_data.py` (FRED sweep) + `catalyst_countdown.py` + `predictions_due.py`; `docket/CATALYSTS.tsv` (catalyst source of truth); `LESSONS.md` (seeded). SPAWN PROTOCOL restructured into BOOT/EXECUTE/CLOSEOUT with read↔write symmetry. **Boot with `.venv/bin/python3 AGENTS/LABOR/scripts/boot.py` from now on.**
 - **Pending push (Will/Prome-coordinated):** 6 local LABOR commits unpushed — `a469db87` (un-stale+Phase1), `e6372acc` (Phase2 docket), `f5d8af1e` (Phase3 boot.py), `4e3c5ac6` (STATUS trim+rescore), `a8be94e8` (closeout hardening), + this closeout commit. All under `AGENTS/LABOR/`; none pushed. Legacy `LAST_COMPLETION.md` looks superseded by this section — flagged, not cleaned.
 
+**Jun 9 session — TRADE.md rebuild (`4fec3d2b`):**
+- Mar 7 original archived → `domain/sources/TRADE_archive_20260307.md` (carried VLY $10P Mar 20 as live; NFP-Feb-era thesis). New TRADE.md scoped: (1) Transmission Signal Index T-01..T-14 (LABOR vectors → target agents), (2) KELYA position decision logic (Q1 integrated, LAB-01 falsification honest, post-mortem framing), (3) Forward Catalyst Playbook (Jun 11 / Jun 30 / Jul 2 / Aug 7 / Aug 21 scenario tables).
+- **KELYA live state Jun 9:** spot $11.65, $7.5P Aug 21 = $4.15 OTM, ~73 DTE — deep theta-burn, functionally dead absent structural realization break. Position state intentionally NOT duplicated in TRADE.md (FORGE owns per `[[feedback_position_cost_basis_not_authoritative]]`).
+- **File-tree audit remaining (lower priority):** delete `LAST_COMPLETION.md` (superseded); retire root `INBOX.md` / `OUTBOX.md` (broken template + directory-canonical); move root recon/audit artifacts → `archive/`; delete `domain/SHADOW_ADJUSTMENT_NOTE.md` (LAB-09 ✅ resolved, thesis invalidated); inbox/ triage (9 unprocessed Apr-May signals); consolidate `sources/` vs `domain/sources/`. Then workbook C3 backfill.
+
 **Data gaps / deferred (next session):**
 - **Workbook sync (C3) deferred:** VX.tsv / KB.tsv / FLOW.tsv still reflect pre-Jun-8 state — Jun 3-6 prints + Jun 8 rescore captured in STATUS but not yet logged to ledgers (session was infra-focused). First real backfill under the new C3 step.
 - Temp Help Svcs May (TEMPHELPS FRED 2,490.0 May vs 2,488.6 Apr ≈ +1.4K — confirm vs BLS CES B-1; gain rate slowing)
