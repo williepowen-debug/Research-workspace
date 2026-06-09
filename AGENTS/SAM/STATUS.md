@@ -1,6 +1,6 @@
 # SAM STATUS
 
-**Signal Status:** 🟠 v1.5.1 — **🔴 USDJPY TAGGED 160.20 INTRADAY (Fri Jun 5 ~4:30 PM ET) — first sustained print above MOF #3 hard trigger this cycle, with pre-meeting blackout starting ~Jun 13 (T-2). Brent collapsed -4% cumulative from $96.78 (Jun-3 baseline) to $92.94 — SAM-23 mark-DOWN direction-leg fully met (≥2 sessions, ≥-2% cum) BUT USDJPY pushed UP not DOWN → mark-DOWN conjunction NOT triggered (held 72%).** | **CROSS-PAIR DIVERGENCE: EURJPY −0.63%, GBPJPY −0.48%, AUDJPY −1.13% all DOWN while USDJPY UP — yen STRENGTHENING vs everything except USD; signals USD-side strength dominating pair, not yen weakness.** | Polymarket BOJ hike 96.9% (Jun 4 last read); SAM-21 **HELD 70%** per Jun-9 discipline | CHANNEL 1 DEFERRED | USDJPY **160.20** | FXY **$57.31** (−0.07%) | CFTC **-114,667** (May 26 data; **🔴 NEXT RELEASE TONIGHT/TOMORROW MORNING — first scheduled METHOD amplifier/residual gate**) | JGB 10Y **2.671%** (+2.6bp Jun 5) | JGB 30Y **3.833%** (−1.7bp Jun 5; not amplifying off the oil leg) | **Brent $92.94 (−2.20% Fri, 3rd consecutive down session)** | **🆕 FXY ATM IV proxy RESTORED 11.08%** (Wed 1.17% was broken — KB-183 closed pending re-verify); **25d RR −14.53 = FXY calls bid = thesis-side yen-strength demand** | **Position: 13 shares + 1 Jun-18 $58C — unchanged. Stop: event-capped pre-Jun-16; $55.05 = post-event AND-trigger.** | **Per CH-003: if MOF #3 fires, same-day reclaim is modal (unwind|fires ~0.20).** | **Next catalyst: 🔴🔴 BOJ Jun 16 = 7 trd days.** | **Last Updated:** 2026-06-07 ~5:34 PM ET (Sun pre-Mon-open; market data anchored Fri 6/5 close + Sat 6/6 CFTC). **Sun PM additions:** NEXUS_BRIEF pilot live at canonical path (`AGENTS/SAM/NEXUS_BRIEF.md`) post R3 ratification; SAM-21 Jun-9 mechanical-trigger spec refreshed (4 sequential Polymarket ≥90% reads, NFP-locks-Fed stress-tested, CFTC build #5 confirms — default-fires Tue absent regression); **Japan Q1 GDP revised due tonight ~7:50 PM ET** (8:50 AM JST Mon).
+**Signal Status:** 🟠 v1.5.1 — **🔴 SAM-21 MECHANICAL TRIGGER FIRED Tue Jun 9 → 70% → 75%.** Polymarket 98.2% (+1.9pp vs Fri; 5th sequential ≥90% read; volume $403K up from $304K — continued grind not retrace); Takaichi/cabinet pushback NONE (Reuters: "refrained from vocally pushing back"; Jun 8 remarks FX-side, reinforce Jun 3 intervention-permission); Q1 GDP revised +1.8% headline-soft but composition hike-tolerant (consumption UP, capex DOWN, no USDJPY reaction). Earned-discount discipline preserved (23pp gap to market). | **🔴 USDJPY tagged 160+ twice within 5 trd days (Fri Jun 5 160.20 + Tue Jun 9 160.37, Mon dip in between)** — no 3rd MOF strike despite hard #3 trigger touch. | **🔴 Brent BREACHED $90 (Tue $90.16, −4.34%; 4th consecutive down session, −7% cum from $96.78 Jun-3 baseline)** — Phase 1 oil pressure resolving direction; SAM-23 mark-DOWN catalyst-path direction+cum legs MET but USDJPY-leg STILL INVERTED (160.37 not <159.50) → held 72%. | Cross-pairs MIXED Tue (EURJPY +0.26 / GBPJPY +0.43 / AUDJPY −0.21) — Fri's uniform yen-strength faded. | CHANNEL 1 DEFERRED | FXY **$57.23** (−0.09% Tue intraday) | CFTC **-129,567** (Jun 2 data; **5th build week — METHOD amplifier +5pp + residual ON**; next print Sat Jun 13) | JGB 10Y **2.715%** (+5bp Mon vs Fri 2.671%) | JGB 30Y **3.876%** (+4bp recovery off Fri −1.7bp) | **FXY ATM IV proxy 9.64%** (vs Fri 11.08% — earlier expiry rolled; 25d RR −3.34 = yen-strength bid) | **Position: 13 shares + 1 Jun-18 $58C — unchanged. Stop: event-capped pre-Jun-16; $55.05 = post-event AND-trigger.** | **Per CH-003: if MOF #3 fires, same-day reclaim is modal (unwind|fires ~0.20).** | **Next catalyst: 🔴🔴 BOJ Jun 16 = 5 trd days.** | **Last Updated:** 2026-06-09 ~12:35 PM ET (Tue boot; market data anchored intraday + Sat 6/6 CFTC carry). **Tue updates:** SAM-21 mechanical fire 70%→75% (PREDICTIONS, TIMELINE, BOJ ASSESSMENT updated); Polymarket 98.2% (Tue Jun 9 mid-day); Q1 GDP revised +1.8% verified (composition hike-tolerant); Brent breached $90 line; carry-unwind anchor table shifted within band, no anchor re-set.
 
 ---
 
@@ -40,41 +40,42 @@
 
 ---
 
-## MARKET DATA — FRI JUN 5 ~4:30 PM ET (US close)
+## MARKET DATA — TUE JUN 9 ~12:33 PM ET (intraday boot)
 
 | Metric | Value | Source | Status |
 |--------|-------|---------|--------|
-| USD/JPY | **160.20** | Fri Jun 5 boot.py | 🔴🔴 **TAGGED HARD #3 TRIGGER (160.00 line). +0.28y vs Thu 159.92. 1d since 160 touch (today), 30d since 155 touch.** Cabling window closing (blackout ~Jun 13). MOF live posture per Katayama "decisive action." |
-| EURJPY | 184.61 | Fri Jun 5 | 🟢 −0.63% — yen STRENGTHENING vs EUR despite USDJPY higher |
-| GBPJPY | 213.68 | Fri Jun 5 | 🟢 −0.48% — yen STRENGTHENING vs GBP |
-| AUDJPY | 112.81 | Fri Jun 5 | 🟢 **−1.13% — biggest cross-pair JPY strength**. Risk-off-adjacent (AUD risk-proxy). |
-| FXY | **$57.31** | Fri Jun 5 close | 🟢 position **−1.7% vs $58.32 avg cost** (13 sh, ≈−$13 unrealized). Flat on day (−0.07%) despite USDJPY higher → priced via the yen-strength cross-pair signal more than USDJPY tick. |
-| JGB 10Y | **2.671%** | MOF Jun 4 pub | 🔴 +2.6bp from Thu 2.645%; well above 2.40% stress threshold |
-| JGB 30Y | **3.833%** | MOF Jun 4 pub | 🟠 **−1.7bp from Thu 3.85% — pulling back slightly, not amplifying off oil leg or pre-meeting cabling.** 17bp below 4.000% breach; SAM-26 tracking FALSE. |
-| 🆕 Brent | **$92.94** | Fri Jun 5 | 🔴 **−2.20% Fri. Cumulative from $96.78 (Jun-3 baseline) = −4.0% (3rd consecutive down session). SAM-23 mark-DOWN direction+cum legs MET, but USDJPY-leg INVERTED (160.20 vs <159.50 needed). NEWS CAUSE TBD (intraday research not yet run).** |
-| Polymarket BOJ Jun 16 hike | **96.3%** (Fri Jun 5) | Polymarket Jun 5 | 🟢 -0.6pp from Thu within noise; held through Fri NFP USD-rally — no dovish capitulation |
-| Swap-implied BOJ Jun 16 | ~86% (Jun 4) | OIS Jun 4 | 🟢 cross-confirms; Fri refresh pending |
-| 🆕 DXY | **100.07** | Fri Jun 5 | 🔴 +0.66% on NFP. USD-side driver of USDJPY 160.20 print; cross-pair vindication |
-| 🆕 US 2Y / 10Y | **4.17% / 4.55%** | Fri Jun 5 | 🔴 2Y highest since Feb 2025; locks Fed-cut path dead for 2026 |
-| 🆕 May NFP | **+172K vs 85K cons / 4.3% U/E / +3.4% AHE YoY** | BLS Fri Jun 5 | 🔴 hot — Fed-cut secondary path locked dead through 2026 |
-| CFTC JPY net | **-129,567** (Jun 2 data) | CFTC Sat Jun 6 release | 🔴🔴 **5th build week — shorts +16,756 / longs +1,856 / net -14,900 WoW. 72.0% of -180K cycle peak (was 63.7%). METHOD amplifier STAYS +5pp ON, residual STAYS ON.** Cover line -108K untouched; approaching 85%/-153K danger zone (+8-10pp amplifier escalation). |
+| USD/JPY | **160.37** | Tue Jun 9 boot.py | 🔴🔴 **Tagged 160+ twice in 5 trd days (Fri Jun 5 160.20 + Tue Jun 9 160.37; Mon dip below 160 between). +0.17y vs Fri close. 5d range +1.0y; intraday range normal (latest 0.48y).** Script "Days since touch: 160 → 1d" = last touch was 1d ago, not continuous breach. No 3rd MOF strike. Cabling window closing (blackout ~Jun 13). |
+| EURJPY | 185.15 | Tue Jun 9 | 🟡 +0.26% — Fri's uniform yen-strength faded; yen weaker vs EUR today |
+| GBPJPY | 214.53 | Tue Jun 9 | 🟡 +0.43% — yen weaker vs GBP |
+| AUDJPY | 112.57 | Tue Jun 9 | 🟢 −0.21% — still some risk-off-adjacent yen bid (AUD risk-proxy) |
+| FXY | **$57.23** | Tue Jun 9 mid-day | 🟢 position **−1.9% vs $58.32 avg cost** (13 sh, ≈−$14 unrealized). −0.09% on day. |
+| JGB 10Y | **2.715%** | MOF Jun 8 pub | 🔴 **+5bp vs Fri 2.671%**; well above 2.40% stress threshold |
+| JGB 30Y | **3.876%** | MOF Jun 8 pub | 🟠 **+4bp recovery vs Fri 3.833%** — partially reverses Fri's −1.7bp. 12bp below 4.000% breach; SAM-26 tracking FALSE. |
+| 🆕 Brent | **$90.16** | Tue Jun 9 | 🔴 **−4.34% Tue. 4th consecutive down session; cumulative from $96.78 (Jun-3 baseline) = −7%. BREACHED $90 "headwind resolved" line.** Driver: China demand weakness + Trump-Iran walk-back rumors (still rumor-tier). |
+| Polymarket BOJ Jun 16 hike | **98.2%** (Tue Jun 9 mid-day) | Polymarket Jun 9 | 🟢🟢 **+1.9pp vs Fri 96.3%; 5th sequential ≥90%; volume $403K up from $304K — continued grind no retrace. SAM-21 mechanical trigger leg ✅.** |
+| Swap-implied BOJ Jun 16 | ~86% (Jun 4 last hard read) | OIS Jun 4 | 🟢 cross-confirms; refresh due |
+| DXY | 100.07 (Fri last hard read) | Fri Jun 5 | 🔴 +0.66% on NFP. USD-side driver of USDJPY 160 path; Tue refresh pending. |
+| US 2Y / 10Y | 4.17% / 4.55% (Fri close) | Fri Jun 5 | 🔴 2Y highest since Feb 2025; Fed-cut path locked dead 2026 |
+| 🆕 Q1 GDP revised | **+1.8% ann (vs +2.1% prelim, −0.3pp)** | Cabinet Office Mon Jun 8 JST | 🟡 Composition hike-tolerant — consumption UP (0.35% vs 0.27%), capex DOWN (−0.7% vs +0.3%). Headline-soft mechanism-firm; no USDJPY reaction. |
+| CFTC JPY net | -129,567 (Jun 2 data) | CFTC Sat Jun 6 | 🔴🔴 5th build week — METHOD amplifier +5pp ON, residual ON. Next print Sat Jun 13 (last pre-blackout). |
 | MOF LT-debt net | Net BUYING (May 24-30) | MOF Jun 5 | 🟢 no repatriation signal at weekly level |
-| MOF intervention total | ¥11,734.9B ($73B) Apr 28-May 27 official | MOF monthly 2026-05-29 | 🔴 LARGEST SINCE 2022; **#3 zone HARD-TRIGGERED today at 160.20** |
+| MOF intervention total | ¥11,734.9B ($73B) Apr 28-May 27 official | MOF monthly 2026-05-29 | 🔴 LARGEST SINCE 2022; **#3 zone in-frame on Fri + Tue 160+ tags (intermittent, not continuous)** |
 | Insurer hedge ratio | 44.4% (Mar 2025) | (14yr low) | 🔴🔴 |
-| FXY P/C ratio | 0.06x (Jul-17 expiry) | Fri Jun 5 boot.py | 🟢 Call-heavy (bullish) — shifted to longer-dated expiry vs Jun-18 |
-| 🆕 FXY ATM IV (CVOL proxy) | **11.08%** | Fri Jun 5 boot.py | 🟢 **PROXY RESTORED — Wed's 1.17% was the broken read (KB-183). Re-verifying tomorrow whether to close KB-183.** 🟡 early shift labeled by script. |
-| 🆕 FXY 25d RR (USDJPY-conv) | **−14.53** | Fri Jun 5 boot.py | 🟢 **FXY calls bid — yen-strength demand priced in options market (thesis-side).** |
+| FXY P/C ratio | 0.06x (Jul-17 expiry) | Tue Jun 9 boot.py | 🟢 Call-heavy (bullish); meaningful positioning in $58-$65 zone |
+| 🆕 FXY ATM IV (CVOL proxy) | **9.64%** (Jul-17 expiry) | Tue Jun 9 boot.py | 🟢 carry-grind regime (vs Fri 11.08% on earlier expiry — proxy rolled to Jul-17, IV term-structure read changed). KB-183 re-verify tracking. |
+| 🆕 FXY 25d RR (USDJPY-conv) | **−3.34** | Tue Jun 9 boot.py | 🟢 **FXY calls bid — yen-strength demand still priced (thesis-side); skew flattened vs Fri −14.53 on expiry roll.** |
 | Tokyo May CPI | headline 1.4 / core 1.3 / core-core 1.6 | MIC May 28 | 🟠 dovish miss but market-overridden (see BOJ assessment). National May print Jun 19 (post-BOJ). |
 | Japan April CPI (national) | core 1.4 / core-core 1.9 | MIC May 22 | 🟠 soft band; SAM-27 CONFIRMED. |
 
-*Composite of Fri Jun 5 ~4:30 PM ET boot.py close + Sat Jun 6 CFTC release + Sat Jun 6 news-sweep (NFP cause identification).*
+*Composite of Tue Jun 9 ~12:33 PM ET boot.py intraday + Sat Jun 6 CFTC carry + Mon Jun 8 JST Q1 GDP revised + Tue Jun 9 Polymarket pull.*
 
-**Notable Fri Jun 5 deltas (Thu close → Fri close):**
-- **USDJPY +0.28y to 160.20** — first sustained tag of MOF #3 hard trigger this cycle. **Routed via USD-side NFP shock, NOT yen-side MOU pressure** — cross-pair divergence confirms.
-- **Brent −2.20% to $92.94** (3rd consecutive down session; cumulative -4% from $96.78 Jun-3 baseline). Separate driver: China demand weakness + Trump-Iran walk-back rumors. SAM-23 mark-DOWN direction+cum legs MET, but USDJPY-leg INVERTED.
-- **JGB 30Y -1.7bp to 3.833%** — pulling back, not amplifying off oil or pre-meeting cabling. SAM-26 still tracking FALSE (17bp below 4.0% breach).
-- **Polymarket BOJ Jun 16 96.3%** (-0.6pp from Thu 96.9%, within noise). Held through Fri NFP USD-rally — no dovish capitulation from BOJ market.
-- **CFTC Jun 2 net -129,567** (Sat release): 5th build week, +14.9K net WoW shorts. 72.0% of cycle peak (vs 63.7%). **First scheduled METHOD residual-gate test resolved AGAINST the cover scenario** — amplifier +5pp and residual STAY ON.
+**Notable Mon-Tue deltas (Fri close → Tue mid-day):**
+- **USDJPY +0.17y to 160.37** — re-tagged 160+ (Fri 160.20 → Mon dipped below 160 → Tue re-tag 160.37); no 3rd MOF strike across either touch. Cabling window closing.
+- **Brent −2.78 to $90.16 (Tue −4.34%)** — 4th consecutive down session; cumulative −7% from $96.78 baseline. **Broke $90 "headwind resolved" line.** SAM-23 mark-DOWN direction+cum legs deeply MET, but USDJPY-leg STILL INVERTED.
+- **JGB 10Y +5bp to 2.715% / 30Y +4bp to 3.876%** — Mon session lifted curve; long-end recovered Fri's −1.7bp. SAM-26 still tracking FALSE (12bp below 4.0%).
+- **Polymarket +1.9pp to 98.2%** — 5th sequential ≥90% read; volume +33% WoW.
+- **Cross-pairs MIXED** (EURJPY/GBPJPY weakened slightly; AUDJPY still bid) — Fri's uniform yen-strength faded; AUD-side risk-proxy still favoring yen.
+- **Q1 GDP revised +1.8%** (vs +2.1% prelim) — composition hike-tolerant.
 
 ---
 
@@ -88,7 +89,7 @@
 | **30d** | 70% | **37%** | **−33pp** | MOF #3 (0.18) · BOJ-surprise (0.10) · risk-off (0.083) · oil/MOU (0.068) · residual (0.050) · Fed-cut (0.040). Union 42% − 5pp overlap. |
 | **60d** | 80% | **49%** | **−31pp** | MOF #3 (0.21) · risk-off (0.14) · oil/MOU (0.135) · Fed-cut (0.10) · BOJ-surprise (0.10) · residual (0.075). Union 56% − 7pp overlap. |
 
-**Live anchor state (Sat Jun 6):** CFTC **-129,567 = 72.0% of cycle peak** → **amplifier +5pp ON, residual ON** (unchanged regime; gate test resolved AGAINST cover). Both turn OFF if CFTC covers below ~-108K (60% line); amplifier escalates to +8-10pp if positioning builds through -153K (85% line). **Bucket marks held Jun 3 levels** — the CFTC build is within the +5pp band, no anchor shift triggered; full re-mark pending Jun 9 SAM-21 re-check + Sat Jun 13 next CFTC print (last pre-blackout read). MOF #3 conditional capped at 0.20 baseline per CH-003.
+**Live anchor state (Tue Jun 9):** CFTC **-129,567 = 72.0% of cycle peak** → **amplifier +5pp ON, residual ON** (unchanged regime; gate test resolved AGAINST cover). Both turn OFF if CFTC covers below ~-108K (60% line); amplifier escalates to +8-10pp if positioning builds through -153K (85% line). **SAM-21 +5pp mark-up (70→75) shifts BOJ-surprise contributor up ~2pp (0.05 × 0.45 unwind\|fires × amplified) — bucket marks held Jun 3 levels, within +5pp discipline band, no anchor re-set triggered.** Full re-mark pending Sat Jun 13 next CFTC print (last pre-blackout read). MOF #3 conditional capped at 0.20 baseline per CH-003.
 
 *Decomposed estimate, not authoritative probability — model output sensitive to ~10 named anchors. See THESIS METHOD for formula, anchors, calibration sources, update discipline. Future bucket shifts >5pp must attribute to a named driver.*
 
@@ -134,18 +135,21 @@ The Jun 1 mark-UP (~55% → ~72%) was triggered by a 3-event conjunction same-da
 | **Jun 4** 🔴 | **Bloomberg sourced reporting:** "BOJ Is Said to Mull June Rate Hike With Another Possible in 2026" — officials see scope for additional hikes beyond 1.00%; deliberate pre-blackout placement. Substantive primary-source leak, not common rumor. |
 | **Jun 4** 🟢 | **Polymarket built 94.8% → 96.9%** — 3rd sequential build (Tue 87.6 → Wed 94.8 → Thu 96.9). Swap pricing ~86%, Kalshi ~80%. Polymarket-vs-swap gap ~11pp but both moving same direction; no print regression. **SAM-21 HELD 70%** per discipline. |
 | **Jun 5** 🟢 | **Polymarket 96.3% — held through Fri NFP USD-rally** (-0.6pp from Thu, within noise). No dovish capitulation from BOJ market despite Fed-cut path locking dead. Strengthens the Jun-9 mechanical trigger condition. **SAM-21 HELD 70%.** |
-| **Jun 16** 🔴🔴 | **DOMINANT REMAINING CATALYST — now market-confirmed** — base case hike to 1.00% (SAM-21 **70%**; market ~85-95% depending on surface) |
+| **Jun 8** 🟢 | **Takaichi Jun 8 remarks FX-side only** — yen confidence, supply chains; Katayama reiterated intervention readiness. Pushback leg of Jun-9 trigger remains AFFIRMATIVELY CLOSED (intervention-permission framing reinforced, not walked back). |
+| **Jun 8 (JST)** 🟡 | **Q1 GDP revised +1.8% annualized** (vs +2.1% prelim, −0.3pp). Composition hike-tolerant — private consumption revised **UP** (0.35% vs 0.27%), capex revised **DOWN** (−0.7% vs +0.3%, software/machinery weak). Headline-soft mechanism-firm; no material USDJPY reaction (~160.1). Non-blocking for SAM-21 trigger. |
+| **Jun 9** 🔴 | **🔴🔴 SAM-21 MECHANICAL TRIGGER FIRED → 70% → 75%.** Polymarket **98.2%** (Tue Jun 9 mid-day, +1.9pp vs Fri 96.3%, volume $403K up from $304K — 5th sequential ≥90% read, continued grind no retrace); Takaichi/cabinet pushback NONE (Reuters "refrained from vocally pushing back"); Q1 GDP composition non-blocking. Both pre-conditions cleanly met per Jun-3 pre-registered spec. Earned discount vs market widened to 23pp (75 vs 98.2) — discipline-preserving calibration not directional disagreement; failed-twice-too-hawkish Takaichi-ceiling discount retained for ~25% tail. Multi-source corroboration (Bloomberg Jun 4 sources leak + Ueda Jun 3 Kisaragi-kai explicit hawkish-of-pricing) overdetermines beyond Polymarket-only condition. |
+| **Jun 16** 🔴🔴 | **DOMINANT REMAINING CATALYST — now market-confirmed** — base case hike to 1.00% (SAM-21 **75%**; market ~88-98% depending on surface) |
 | Jun 16-17 | BOJ interim QT assessment |
 | **Jun 30** 🟡 | **Sato (Ayano, Aoyama Gakuin Univ. law prof, reflationist) takes Nakagawa's seat** (Nakagawa term expires Jun 29). **Material dovish shift in marginal-vote count:** Nakagawa was one of the 3 Apr 28 dissenters who actively voted for the 1.00% hike (alongside Takata, Tamura). Apr-28-style dissent bloc drops from 3 → 2 unless Sato surprises. Post-June PATH/CEILING implication — beyond 1.00% gets harder. *(Date corrected Jun 4 from prior "Jun 16" entry — separate event from BOJ MPM.)* |
 
-**SAM-21 mechanical trigger (pre-registered Jun 3; status Sun Jun 7):**
-- **Condition:** if Polymarket ≥90% on Jun 9 re-check AND no Takaichi/cabinet pushback → mechanical +5pp to 75%.
-- **Status:** Polymarket leg now ≥90% across **4 sequential reads** (Tue 87.6 → Wed 94.8 → Thu 96.9 → **Fri 96.3**, held through NFP USD-rally with no dovish capitulation). Takaichi-pushback leg AFFIRMATIVELY CLOSED Jun 3 (verbal reads as intervention-permission, not ceiling-pushback). **Multi-source corroboration (Bloomberg sources-leak + Ueda explicit speech) further strengthens the case beyond the Polymarket-only condition the trigger spec'd.** Sat CFTC build #5 (-129,567 = 72% cycle peak) confirms positioning siding with the hike (METHOD residual-gate resolved AGAINST cover).
-- **SAM HELD 70% per discipline.** Pre-blackout cabling (sourced leaks + scheduled speeches) is exactly what the cabling window produces — the discipline was set to NOT chase it. Discretionary fire-early option is on the table (Will-call); default path is wait for Jun 9 re-check.
-- **Default Tue Jun 9 action:** trigger fires +5pp → SAM-21 70% → 75%, unless a regression condition below appears at boot.
-- **What would change the hold before Jun 9:** Takaichi cabinet pushback (the unmet pre-condition turning ON), Polymarket regression below 90% across 3 sequential reads, OR a JGB long-end disorderly move that re-opens fiscal-dominance via mechanics (not framing). Tonight's Q1 GDP revised (~7:50 PM ET Sun) is a soft pre-test: a downward revision could shade pricing but is unlikely to cross the regression threshold on its own.
+**SAM-21 mechanical trigger (pre-registered Jun 3; FIRED Tue Jun 9 → 70% → 75%):**
+- **Condition (now satisfied):** Polymarket ≥90% on Jun 9 re-check AND no Takaichi/cabinet pushback.
+- **Polymarket leg ✅:** 5 sequential ≥90% reads (Tue 87.6 → Wed 94.8 → Thu 96.9 → Fri 96.3 → **Tue Jun 9 98.2%**, +1.9pp vs Fri, volume $403K up from $304K — continued grind, no retrace).
+- **Takaichi/cabinet leg ✅:** NONE. Reuters Jun 9: "refrained from vocally pushing back." Jun 8 Takaichi remarks were FX-side (yen confidence, supply chains), reinforce Jun 3 intervention-permission framing, not walk it back.
+- **Pre-fire stress tests passed:** Q1 GDP revised +1.8% (vs +2.1% prelim) composition hike-tolerant — consumption UP, capex DOWN, no USDJPY reaction. CFTC build #5 (-129,567 = 72%) METHOD residual-gate resolved AGAINST cover (siding with the hike, not the hold). Multi-source pre-blackout corroboration (Bloomberg Jun 4 sources leak + Ueda Jun 3 Kisaragi-kai explicit hawkish-of-pricing) overdetermines beyond the Polymarket-only trigger condition.
+- **Net:** SAM-21 70% → **75%** per pre-registered spec. Direction matches market; the 23pp discount to Polymarket 98.2% is the failed-twice Takaichi-ceiling earned discount, retained for the ~25% tail (political surprise / late dovish capitulation / secret YCC-style cap).
 
-**SAM-21 honesty caveat (for HENRY/LIQUID/decomposition consumers):** The 70% mark is a **deliberate below-market Takaichi-ceiling discount** — SAM failed twice too-hawkish on this exact ceiling (SAM-08 @90%, SAM-20 @60%), so we hold an earned discount vs market pricing. **It is NOT a 30% hold-view.** Direction-of-conviction on the June hike matches the market; the 18pp gap to ~95% Polymarket is calibration, not disagreement. Don't read hike-doubt into the number when wiring it into cross-agent signals or the carry-unwind decomposition (where, per the new METHOD, only the *hawkish-tail subset* of hike probability drives the BOJ-surprise trigger — a fully-priced hike does not unwind).
+**SAM-21 honesty caveat (for HENRY/LIQUID/decomposition consumers):** The 75% mark is a **deliberate below-market Takaichi-ceiling discount** — SAM failed twice too-hawkish on this exact ceiling (SAM-08 @90%, SAM-20 @60%), so we hold an earned discount vs market pricing. **It is NOT a 25% hold-view.** Direction-of-conviction on the June hike matches the market; the 23pp gap to Polymarket 98.2% is calibration, not disagreement. Don't read hike-doubt into the number when wiring it into cross-agent signals or the carry-unwind decomposition (where, per the new METHOD, only the *hawkish-tail subset* of hike probability drives the BOJ-surprise trigger — a fully-priced hike does not unwind).
 
 **Counterweights to dovish CPI:**
 - **April activity data (May 29): IP +0.8% MoM vs −0.4% exp; retail sales +2.1% YoY vs +1.4% exp** — real economy firm; BOJ normalization bias is activity/wage-driven, not spot-CPI driven (Ueda: temporary downward pressure won't prevent hikes)
@@ -184,13 +188,13 @@ Per **STRATEGY.md** + v1.5 position logic:
 
 | Hard Trigger | Status | Implication |
 |---|---|---|
-| BOJ hikes at June meeting | PENDING (Jun 16, **70% SAM / ~88% market**) | **Single-path under v1.5 — now market-confirmed base case** |
+| BOJ hikes at June meeting | PENDING (Jun 16, **75% SAM / ~98% market**) | **Single-path under v1.5 — now market-confirmed base case (Jun 9 mechanical fire)** |
 | MOF intervenes at 160 | ✅ FIRED Apr 30 + May 6 | Tranche 2 authorization remains valid (used) |
 | USD/JPY sub-155 for 3+ sessions WITH oil normalizing | NEAR-MISS (May 6 1 session only); oil normalizing now ($93.13) — watch closely | Not confirmed but Phase 2 path opening |
 | ESR <200% (FY2025 Big 3 mutuals) | ✅ RESOLVED 3-of-3 BENIGN | **Channel 1 demoted to deferred structural backstop. No reactivation catalyst near-term.** |
 | Fed cuts via private credit cascade | PENDING | **Elevated to secondary path under v1.5** |
 
-**Sep $60 call decision (Position A, deferred from May 21 pending Sumitomo):** **NOT WARRANTED — conclusion holds, arguably strengthened by the repricing.** The asymmetry case for OTM-deferred optionality was built on multi-channel convergence (Channel 1 + Channel 2 + Channel 3 firing in same window). With Channel 1 deferred and Channel 3 dormant, structure is single-path. The May 31 repricing (hike now ~88% market / 70% SAM in JUNE) cuts AGAINST a Sep call, not for it: Sep OTM optionality is time-insurance for a *delayed* catalyst, and a higher near-term hike probability makes the delay scenario less likely. Near-dated Jun-18 $58C + shares already cover the high-probability June case. Stop now event-capped pre-Jun-16 (Will-decided Jun 3); $55.05 = post-event AND-condition per STRATEGY. *(Any position change remains Will's call.)*
+**Sep $60 call decision (Position A, deferred from May 21 pending Sumitomo):** **NOT WARRANTED — conclusion holds, arguably strengthened by the repricing.** The asymmetry case for OTM-deferred optionality was built on multi-channel convergence (Channel 1 + Channel 2 + Channel 3 firing in same window). With Channel 1 deferred and Channel 3 dormant, structure is single-path. The May 31 repricing (hike now ~88% market / 70% SAM in JUNE; **Jun 9 update: 98% market / 75% SAM — case strengthened further**) cuts AGAINST a Sep call, not for it: Sep OTM optionality is time-insurance for a *delayed* catalyst, and a higher near-term hike probability makes the delay scenario less likely. Near-dated Jun-18 $58C + shares already cover the high-probability June case. Stop now event-capped pre-Jun-16 (Will-decided Jun 3); $55.05 = post-event AND-condition per STRATEGY. *(Any position change remains Will's call.)*
 
 ---
 
@@ -222,7 +226,9 @@ Per **STRATEGY.md** + v1.5 position logic:
 | **🔴 Jun 1** | Iran/Hormuz MOU EFFECTIVELY BROKEN | Tehran suspended document exchange + Hormuz block threat. Brent +4%, WTI +7%. SAM-23 re-rates ~55% → ~72%. Watch for further escalation / formal collapse vs walk-back. |
 | **✅ Fri Jun 5** | **May NFP +172K vs 85K cons** (BLS) | Fed-cut path locked dead through 2026; DXY +0.66% → USDJPY tagged 160.20. Cross-pair vindicates yen-strength thesis. |
 | **✅ Sat Jun 6** | CFTC Jun 2 print | **-129,567 = 72.0% of cycle peak. 5th build week. METHOD residual-gate test resolved AGAINST cover.** |
-| **🔴 ongoing** | USDJPY at #3 hard trigger | 160.20 print Fri; intervention probability legitimately high but USD-side driven. Pre-meeting blackout starts ~Jun 13. |
+| **✅ Mon Jun 8 JST** | Japan Q1 GDP revised | **+1.8% annualized** (−0.3pp vs +2.1% prelim). Composition hike-tolerant — consumption UP, capex DOWN. Non-blocking for SAM-21 trigger. |
+| **✅ Tue Jun 9** | **SAM-21 mechanical trigger FIRED → 70% → 75%** | Polymarket 98.2% (+1.9pp vs Fri); Takaichi/cabinet pushback NONE; both pre-conditions cleanly met. 23pp earned-discount preserved vs market. |
+| **🔴 ongoing** | USDJPY tagging #3 hard trigger intermittently | Fri 160.20 + Tue 160.37 (Mon dip between); intervention probability legitimately high but USD-side driven. Pre-meeting blackout starts ~Jun 13. |
 | **🟠 Sat Jun 13** | Next CFTC release (Jun 9 data) | Last pre-blackout print. -153K (85%) line = next METHOD escalation zone. |
 | **🔴🔴 Tue Jun 16** | **BOJ MPM — DOMINANT REMAINING CATALYST under v1.5 single-path** | Hike to 1.00% = structural FXY +5-8%; carry unwind fires |
 
