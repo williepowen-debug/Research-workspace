@@ -1,8 +1,8 @@
 # CARL Sub-Agent Team
 
-**Updated:** 2026-05-29 (staleness refresh — all 7 monitoring agents now 42+ days stale; catalyst feed moved to `docket/`)
+**Updated:** 2026-06-09 PM (STUE refresh integrated 53d gap closed; DOC + HOMER staleness retroactively logged from Jun-8 closeout miss; 4 monitoring agents still stale — GIG is now priority spawn for FL UI Wave 1 Jun 24)
 
-> ⚠️ **All 7 monitoring sub-agents are STALE (last refreshed Apr 9-17, now 42-50d).** A dedicated refresh-burst session is overdue (Sonnet, parallel spawns). **DOC is the priority spawn** — healthcare-services GDP drag (5/28 Q1 2nd-est) = care-avoidance primary data in DOC's domain. Forward catalysts + which agent owns each now live in `docket/CALENDAR.md` (who_cares column), not the table below.
+> **Status (Jun 9):** 3/7 monitoring agents fresh (DOC Jun-8, HOMER Jun-8, STUE Jun-9). 4 still stale 50-60d: **GIG is priority spawn** — FL UI Wave 1 cliff in 15 days; Dave Q1 (May 7), Uber/DASH/Lyft Q1 (May 6-7) all 33d-stale unintegrated at GIG-level. PHAN/POP/POLLY medium-stale — Affirm Q3 / Klarna Q1 / NFIB Apr-May / Q2 P&C all pending; lower-urgency, parallel-spawn-burst candidates. Forward catalysts + which agent owns each live in `docket/CALENDAR.md` (who_cares column).
 
 ---
 
@@ -10,16 +10,16 @@
 
 | Agent | Domain | Status | Last Refresh | Stale? |
 |-------|--------|--------|-------------|--------|
-| **STUE** | Student loans (DQ, default, SAVE/RAP, servicers) | 🟢 BUILT | **Apr 17** | ⚠️ 42d+ stale |
-| **HOMER** | Housing (foreclosures, MF DQ, builders, state-level) | 🟢 BUILT | **Apr 17** | ⚠️ 42d+ stale |
-| **GIG** | Gig economy (oversupply, Dave 28DPD, gas squeeze, AV) | 🟢 BUILT | **Apr 17** | ⚠️ 42d+ stale |
-| **PHAN** | Phantom debt / BNPL ($400B+ invisible, stacking, fintech cockroaches) | 🟢 BUILT | **Apr 17** | ⚠️ 42d+ stale |
-| **POLLY** | Insurance (P&C, FAIR plans, health, FL/CA, auto) | 🟢 BUILT | **Apr 17** | ⚠️ 42d+ stale |
-| **POP** | Small business (Ch.11, closures, owner guarantees, tariff transmission) | 🟢 BUILT | **Apr 17** | ⚠️ 42d+ stale |
-| **DOC** | Healthcare costs (medical debt, OOP, care avoidance, GLP-1 cost shock) | 🟢 BUILT | **Apr 9** | 🔴 50d — PRIORITY spawn (GDP healthcare-services drag) |
+| **STUE** | Student loans (DQ, default, SAVE/RAP, servicers) | 🟢 BUILT | **Jun 9** | 🟢 fresh (CRL-04 BREACHED + SAVE→RAP operational-GO + Treasury Phase 1 cadence resolved) |
+| **HOMER** | Housing (foreclosures, MF DQ, builders, state-level) | 🟢 BUILT | **Jun 8** | 🟢 fresh (MF reframed extend-and-pretend; year-misread caught & corrected) |
+| **DOC** | Healthcare costs (medical debt, OOP, care avoidance, GLP-1 cost shock) | 🟢 BUILT | **Jun 8** | 🟢 fresh (Mercer +6.7% V14 candidate; ACA cliff realizing 6mo early; NIPA care-avoidance) |
+| **GIG** | Gig economy (oversupply, Dave 28DPD, gas squeeze, AV) | 🟢 BUILT | **Apr 17** | 🔴 53d — **PRIORITY spawn (FL UI Wave 1 Jun 24 / Dave Q1 May 7 unintegrated)** |
+| **PHAN** | Phantom debt / BNPL ($400B+ invisible, stacking, fintech cockroaches) | 🟢 BUILT | **Apr 17** | 🟡 53d (Affirm/Klarna Q1 prints at parent only, not PHAN-level) |
+| **POLLY** | Insurance (P&C, FAIR plans, health, FL/CA, auto) | 🟢 BUILT | **Apr 17** | 🟡 53d (Q2 ~late Jul; hurricane Q3; lower urgency) |
+| **POP** | Small business (Ch.11, closures, owner guarantees, tariff transmission) | 🟢 BUILT | **Apr 17** | 🟡 53d (NFIB Apr+May unintegrated; Sub-V May +36% in parent only) |
 | **META** | Methodology & architecture research | ⚪ SPECIAL | Apr 6 | — |
 
-**Team readiness:** 7/7 monitoring agents built. All operational but ALL STALE (42-50d) — refresh-burst overdue.
+**Team readiness:** 7/7 monitoring agents built. 3 fresh / 1 priority-stale / 3 medium-stale.
 
 ---
 

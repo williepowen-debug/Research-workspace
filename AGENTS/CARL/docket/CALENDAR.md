@@ -1,5 +1,5 @@
 # CARL DOCKET — Catalyst Calendar
-**Updated:** 2026-05-29 (QA pass — date fixes verified vs BLS/BEA; full gap fill all tiers; 16→34 catalysts; Fannie MF DQ Apr integrated)
+**Updated:** 2026-06-09 PM (STUE refresh: +Sweet Jun 15 notice deadline row, +Treasury Phase 1 ~Jul 15 launch wave row; SAVE→RAP Jul 1 row expanded with operational-GO + Q3 drag sizing)
 
 Human-readable twin of `docket/CATALYSTS.tsv`. **The two must not diverge** — edit both together, or regenerate this from the TSV. The TSV is the machine source (read by `scripts/docket_countdown.py` at boot, SPAWN PROTOCOL step 7a).
 
@@ -19,6 +19,7 @@ Human-readable twin of `docket/CATALYSTS.tsv`. **The two must not diverge** — 
 | Jun 11 | BLS May PPI | Stagflation goods vs services | 🟠 |
 | **Jun 11** | **Lennar (LEN) FQ2 earnings** (4:00 PM ET, verified) | CRL-23 builder GM baseline; FY27 tariff guidance | 🟠 |
 | Jun 12 | UMich sentiment prelim (June) | V12 5-10Y >3.5% red line; sentiment | 🔴 |
+| **Jun 15** | **Sweet v. McMahon notice deadline** | ~170-271K cohort tradeline-deletion; PPSL court-compelled | 🟠 |
 | Jun 16 | Retail Sales (May) | Consumer spending; forced-consumption | 🟠 |
 | Jun 16 | NAHB HMI (June) | Builder <40 (May 37) | 🟠 |
 | **Jun 16-17** | **FOMC + SEP dot-plot** | **V12 REGIME — first dots post-Waller vs ~2-in-3 Oct hike** | 🔴 |
@@ -39,9 +40,10 @@ Human-readable twin of `docket/CATALYSTS.tsv`. **The two must not diverge** — 
 ## July
 | Date | Event | Test | Pri |
 |------|-------|------|-----|
-| Jul 1 | SAVE → RAP transition (7.5M) | CRL-13 / CRL-14 | 🔴 |
+| Jul 1 | SAVE → RAP transition (7.5M) | CRL-13 / CRL-14; ED Round-2 courtesy emails sent late-May/early-Jun = operationally GO; ~$5-7B Q3 consumer drag | 🔴 |
 | ~Jul 15 | Insurance Q2 (UNH/ELV; ALL ~Aug) | CRL-22 MLR / K-shape Selection | 🟠 |
 | ~Jul 15 | Involuntary collections restart (AWG + Treasury Offset, 5M+) | Student-loan cascade executing | 🔴 |
+| **~Jul 15** | **Treasury Phase 1 launch (~500K accounts)** | Multi-quarter rolling load Q3 2026 → Q1 2027 (NOT Jul-1 cliff); 12-24mo ramp through 2027 | 🔴 |
 | ~Jul 16 | ATTOM Q2 foreclosures | V10 (Q1 REO +45% YoY) | 🟠 |
 | ~Jul 21 | Q2 consumer-credit earnings (SYF/COF/ALLY/AXP) | Masking CRL-20/21; CRL-12 | 🟠 |
 | ~Jul 22 | Builder Q2 (DHI FQ3 / PHM) | CRL-23 FY27 GM compression | 🟠 |
