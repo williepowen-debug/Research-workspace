@@ -8,6 +8,64 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-06-09 PM — STUE follow-up: CRL-04 methodology asterisk DROPPED; Treasury Phase 1 cadence resolved directionally; no thesis version bump
+
+### PREDICTIONS.tsv — CRL-04 CONFIRMED* → CONFIRMED
+**Author:** CARL (STUE SendMessage follow-up after morning integration).
+
+**Workflow notes:**
+- **Follow-up bundle to STUE** (mailbox-mode resume) on two morning OPEN QUESTIONS: (Q1) NY Fed VantageScore 4.0 methodology backcast and (Q2) Treasury Phase 1 full-scope schedule. Both decision-led for Jun 16-17 FOMC packet framing. ~20-min STUE round-trip.
+- **Q1 verdict — Answer (C) effectively:** NY Fed 90+ DQ rate is **balance-based** (delinquent $ ÷ total $), independent of credit-scoring methodology. VantageScore 4.0 transition (Liberty Street Economics May 12 2026 primary quote: "*Starting with this report, the figures and analysis that depend on credit scores will shift to using VantageScore 4.0*") applies ONLY to credit-score-band distributional cuts on report pages 6-9. Wolf Street May 12 2026 cross-confirms 90+ DQ as a balance ratio. The 9.6% Q4 2025 → 10.3% Q1 2026 (+70bps) move is fully apples-to-apples. **Methodology asterisk dropped** in PREDICTIONS.tsv CRL-04 row, STATUS Student Loan 90+ DQ row, and STATUS PREDICTIONS Resolved table.
+- **Q2 verdict — directional cadence resolved:** CRS report R48962 + ED Mar 2026 internal reporting (Inside Higher Ed Mar 19 2026; Washington Times Mar 20 2026: "starting with fewer borrowers and ramping up more gradually rather than 'turning the floodgates on'"). **Cadence framing: ~500K Jul-Sep launch → gradual scale-up → full ~9M defaulted likely 12-24mo rollout into 2027.** Phase 2 (non-defaulted) trigger date NOT public. No quarterly numbers published. STATUS Defaults row expanded with cadence + implication line ("not a Jul-1 cliff, multi-quarter rolling load Q3 2026 → Q1 2027").
+
+**Net analytical state:**
+- **CRL-04 disposition cleaner than morning:** confidence on threshold breach raises 95% → 98%; flow-vs-stock single-print flag (transition rate INTO 90+ DQ dropped 16.2% → 10.9%) preserved separately — that's a different question and unaffected by today's methodology resolution.
+- **FOMC packet reframe:** CRL-04 line item can be presented WITHOUT methodology caveat. Treasury phasing line: lead with "500K Jul launch + multi-quarter ramp through 2027" rather than "9.2M transferred." Both are cleaner framings than morning version.
+- **Asterisk residual:** STUE's own STATUS thesis paragraph still carries old methodology-asterisk wording (line 27 of STUE/STATUS.md). Minor; flag for STUE next pass.
+
+**Lessons:**
+1. **Mailbox-mode SendMessage follow-up earns its keep** for narrow decision-led follow-ups where the agent already has context. ~20-min round-trip vs full re-spawn. Validates [[finding_teams_mode_iterative_tasks]] with a third datapoint (HOMER Jun-8 disambiguator + STUE Jun-9 morning + this PM follow-up).
+2. **The morning asterisk was the right call given session-time information** — without the Liberty Street primary quote, methodology-asterisk-pending-Q2 was the conservative framing. The PM follow-up tightened it from "conservative" to "clean," not from "wrong" to "right." Worth distinguishing.
+3. **Treasury Phase 1 cadence is now directionally framed** but full schedule still TBD pending Phase 2 spec. If FOMC packet ships before that resolves, "12-24mo rollout into 2027" is the durable framing.
+
+---
+
+## 2026-06-09 — STUE sub-agent refresh integrated; CRL-04 CONFIRMED* (threshold breached, magnitude 2nd-print pending); Treasury Phase 1 scope corrected; SAVE→RAP operationally confirmed; no thesis version bump
+
+### PREDICTIONS.tsv — CRL-04 OPEN-NEAR CONFIRMED → CONFIRMED*
+**Author:** CARL (Will-directed STUE spawn, Opus, after 53-day refresh gap).
+
+**Workflow notes:**
+- **STUE spawned (Opus, single-shot)** after 53-day STATUS staleness — STUE-domain catalysts (Sweet Jun 15, AFT/MOHELA May 28, SAVE→RAP Jul 1) had passed or were imminent without sub-agent-level integration. Three load-bearing findings, two STATUS corrections, 5 honest OPEN QUESTIONS.
+- **Discipline applied:** year-stamping confirmed primary source for every web-pulled metric (per [[finding_subagent_year_verification]] candidate, codified post-HOMER Jun-8 catch); threshold-vs-mechanism separated cleanly; single-month skepticism preserved on Q1 transition-rate drop; no invented numbers (items NOT confirmable went to OPEN QUESTIONS file, not STATUS).
+
+**CRL-04 disposition:**
+- **CONFIRMED\*** — NY Fed Q1 2026 QHDC (rel May 12 2026) prints student loan 90+ DQ at **10.3%**, first primary-source >10% reading.
+- **OLD view (Apr 17):** OPEN-NEAR CONFIRMED at 98%. "~9.8% FICO Spring 2026" cited as latest; threshold-crossing imminent Q2.
+- **NEW view (Jun 9):** Threshold MET on direction (95% conf on breach). Magnitude carries 2nd-print asterisk — NY Fed shifted scoring methodology this release (Equifax Risk Score 3.0 → VantageScore 4.0). Mechanism unambiguously intact (+2.6M Q1 defaults + 1M Q4 2025 = 3.6M cumulative DRG transfers; >17% of borrowers 90+ DPD at least once since repayment resumed; avg defaulter age 38.9 vs 36.4 pre-pandemic).
+- **STATUS correction:** prior CARL STATUS Apr-17 "FICO Spring 2026 9.8%" was a derivative cite; primary FICO Spring 2026 doc reads 11% Oct 2025. NY Fed Q1 2026 10.3% is now the operative number.
+- **Mixed internal:** transition rate INTO 90+ DQ (4Q sum) DROPPED 16.2% → 10.9% same release. Stock-up/flow-decelerating split needs Q2 (~Aug) to disambiguate (on-ramp slack residual vs seasonal vs cohort exhaustion). Does NOT invalidate breach.
+- **Asterisk convention** matches CRL-02 (also CONFIRMED* on rounding/magnitude caveat with direction robust).
+
+**Non-prediction integrations:**
+- **Treasury Phase 1 scope correction.** Prior CARL STATUS framed "~9.2M defaulted borrowers transferred" at Mar 19 Phase 1 launch. Multiple Mar-Apr 2026 primary sources (Inside Higher Ed, US News, Washington Times) reframe Phase 1 launch as **~500K defaulted accounts** managed by Treasury "this summer" / July 2026. Material order-of-magnitude refinement on operational-capacity story — absorbing 500K is plausible, 9.2M in one go was not. Remaining ~8.7M Phase 1 timing in OPEN QUESTIONS.
+- **SAVE→RAP Jul 1 operationally GO.** ED sent **Round-2 "courtesy" emails** to ~7M SAVE borrowers late-May / early-Jun 2026 (College Investor, June 2026 + ED press + tateesq.com cross-confirm). Schedule confirmed: starting Jul 1, servicers issue 90-day notices in waves every 2 weeks; non-selectors auto-enrolled in Standard / Tiered Standard at Oct 1. ~$1.5-2.0B/mo spending destruction begins Jul 1 = ~$5-7B Q3 consumer drag.
+- **CRL-13 / CRL-14 unchanged.** SAVE non-selection (CRL-13 at 75%) holds — empirical baseline 30-47% unchanged. MOHELA-caused defaults (CRL-14 at 65%) holds — May 28 status conference held without public ruling = absence-of-news is non-information.
+- **5 OPEN QUESTIONS surfaced** (STUE/OPEN_QUESTIONS_2026-06-09.md): AFT/MOHELA May 28 outcome (court-docket pull needed), Sweet Jun 15 notice mailing status, NY Fed methodology backcast availability, FSA Q1 2026 release status, Treasury Phase 1 full-scope vs initial-wave.
+
+**STATUS.md mutations:** Student Loan 90+ DQ row refreshed (9.8% derivative → 10.3% primary NY Fed Q1 2026, with methodology asterisk); SAVE Transition row reframed (Round-2 courtesy already sent — operational GO); Sweet row notes refresh (Jun 15 deadline pending, no public mailing confirmation yet); MOHELA row (May 28 conf held no ruling); +2.6M Q1 2026 defaults flow row added (Liberty Street Econ); Treasury Phase 1 scope corrected; Recently Fired digest extended to include Jun 9 STUE integration.
+
+**FOMC packet (Jun 16-17) line items:**
+- CRL-04 BREACHED (primary-source, fresh, threshold-crossing real-economy stress data point)
+- SAVE→RAP operational-GO (22-day-forward Q3 consumer spending drag begins)
+
+**Lessons:**
+1. **STUE-level disambiguator pass not needed** — first-round web-pulls survived year-stamping audit (unlike HOMER round-1 Jun 8). Discipline now codified in STUE's own conduct + the four hard rules in CARL's spawn prompt.
+2. **Treasury Phase 1 scope error originated in CARL STATUS, not STUE** — would have lived indefinitely without sub-agent fresh-eyes pass. Auto-memory candidate: when accreting catalysts off press releases (vs primary policy docs), occasional sub-agent re-audit catches drift.
+3. **CRL-04 is the 4th formally-resolved CRL prediction** (CRL-01 MISSED, CRL-02 CONFIRMED*, CRL-09 MISSED, CRL-18 CONFIRMED, CRL-19 MIXED, now CRL-04 CONFIRMED*). 6 of 23 resolved; 2/6 are asterisked direction-right/magnitude-light pattern (CRL-02 + CRL-04). Add to calibration record.
+
+---
+
 ## 2026-06-08 PM — DOC + HOMER sub-agent refresh integrated; CRL-03 mechanism reframed (extend-and-pretend); 4 new VX rows; no thesis version bump
 
 ### PREDICTIONS.tsv — no changes; CRL-03 confidence HELD 72%
