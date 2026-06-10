@@ -12,6 +12,10 @@ info: [HAWK, BRENT, SAM, RED, NEXUS, PROME]
 signal_role: cluster_mediating
 event_window: closed
 verify_research_verdict: CONFIRMED-FRESH-5/11
+
+# v0.10 lifecycle tag (retro-applied 2026-06-10, BOARD staleness sweep + WALTER adjudication)
+status: SUPERSEDED
+status_ref: "anchors/IRAN_WAR.md verified-as-of 2026-06-10 (5/11 hardened frame reversed at 5/21 stamp; June breakdown is a different escalation state)"
 ---
 
 # Iran/Trump 5/11 Fresh Escalation — Iran Narrows from "Non-Negotiable" to "Nuclear-Tech Off-Agenda"; Trump "Stupid Proposal" + "Much More Severe" + Project Freedom Resumption Threat

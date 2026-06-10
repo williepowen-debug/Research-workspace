@@ -23,6 +23,10 @@ event_window: closed
 
 verify_research_verdict: CONFIRMED (BROCK live-tape primary + WALTER live fetch.py confirmation; BROCK POSITION_DECISIONS_MAY21 memo for the resolution)
 mark_context: 5/21 close — APO $130.90 -1.01%; the trigger threshold has been entrenched ~13 trading sessions (since ~5/7); BROCK Dec $95P holds (thesis vehicle), Jun $100P lets expire (residual $20).
+
+# v0.10 lifecycle tag (retro-applied 2026-06-10, BOARD staleness sweep + WALTER adjudication)
+status: SUPERSEDED
+status_ref: "APO kill-trigger un-fired ~2026-06-03 (HENRY cross-agent flag); APO $131.14 at 2026-06-10"
 ---
 
 # APO $130 Sustained-3 Position-Kill Trigger ENTRENCHED 13+ Trading Sessions — Decision Resolved (Dec $95P Holds, Jun $100P Expires)

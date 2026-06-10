@@ -24,6 +24,10 @@ event_window: closed
 
 verify_research_verdict: CONFIRMED (sub-agent verify 2026-05-22 14:11-14:18 UTC ~$0.05; agent_id a71bdcd51ac023c96; Japan Times/Bloomberg + CNBC aligned on actual / consensus / prior; primary stat.go.jp not directly fetched but secondary alignment tight)
 mark_context: Live tape 10:18 AM ET — FXY $57.69 -0.14% (yen softer on dovish read); USD/JPY ~159.03 per sub-agent intra-session snapshot, not settled close. JGB 30Y per BRENT/SAM source = 4.03% close 5/21 PRE-release; post-release move not yet captured.
+
+# v0.10 lifecycle tag (retro-applied 2026-06-10, BOARD staleness sweep + WALTER adjudication)
+status: SUPERSEDED
+status_ref: "SAM fade-gate CLOSED 2026-06-10 (hot US CPI + Fed pricing cut->HIKE flip + BOJ 6/16 25bp modal at 98% pricing)"
 ---
 
 # Japan National CPI April 2026: Core +1.4% YoY vs +1.7% Cons / +1.8% Prior — LOWEST SINCE MARCH 2022 — SAM Soft-Fade Gate Triggered + Paper-vs-Substance Bifurcation at Sovereign Level (Soft CPI + Sticky JGB 30Y 4.0%)

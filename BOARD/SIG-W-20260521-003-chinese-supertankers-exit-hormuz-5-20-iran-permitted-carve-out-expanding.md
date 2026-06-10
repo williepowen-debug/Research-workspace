@@ -23,6 +23,10 @@ event_window: closed
 
 verify_research_verdict: CONFIRMED (Al Jazeera primary 5/20; consistent with 5/10 Qatari LNG precedent pattern; BRENT STATUS 5/20 cross-reference)
 mark_context: retrospective backfill — event 5/20, dispatched 5/21 (1-day lag). Iran-permitted-egress trend-line (single-vessel → multi-vessel) is the load-bearing observation.
+
+# v0.10 lifecycle tag (retro-applied 2026-06-10, BOARD staleness sweep + WALTER adjudication)
+status: FALSIFIED
+status_ref: "SIG-W-20260606-004 (UKMTO: carve-outs TIGHTENED Apr 3.9 -> May 2.8 -> Jun 1.1/day; expansion did not materialize)"
 ---
 
 # Chinese Supertankers EXIT Hormuz 5/20 After 2+ Months Wait — Iran-Permitted Carve-Out EXPANDING (Multi-Vessel, China-Aligned)

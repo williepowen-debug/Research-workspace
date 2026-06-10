@@ -22,6 +22,10 @@ event_window: closed
 
 verify_research_verdict: CONFIRMED (VIOLET primary KB-VIO-058/059 + HENRY independent integration; both agents converged on diagnosis 5/21 LIAISON)
 mark_context: 5/21 EOD live tape — VIX 17.39 (cycle-low neighborhood) / VIX9D 15.02 (first sub-15 of regime, below spot) / SKEW 132.31 5/20 (5/21 EOD CBOE not yet posted) / VVIX 94.20 (eased from 5/12 peak 98.55). Surface-vol decisively faded NVDA print.
+
+# v0.10 lifecycle tag (retro-applied 2026-06-10, BOARD staleness sweep + WALTER adjudication)
+status: EVENT-PASSED
+status_ref: "R11 analog clock window 5/28-6/02 lapsed without in-window resolution; VIOLET retired R11 (~5/29-6/01). R12-termination fact itself stands"
 ---
 
 # R12 SKEW>140 Regime LIKELY TERMINATED After 223+ Trading Days — R11 Analog Clock Now Running, Window 5/28-6/02 (Prior 36% PRE_EVENT_FADE)

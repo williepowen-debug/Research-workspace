@@ -18,6 +18,10 @@ resources: 1
 safety_net: Iran/oil theme +2 agents convergent (also SIG-W-20260424-003 same-day) — meets convergence flag. Does not meet auto-upgrade threshold (VIX/HY OAS unchanged).
 
 word_count: 780
+
+# v0.10 lifecycle tag (retro-applied 2026-06-10, BOARD staleness sweep + WALTER adjudication)
+status: SUPERSEDED
+status_ref: "anchors/IRAN_WAR.md verified-as-of 2026-06-10 (sanctions-vector supply frame absorbed by effectively-total blockade, UKMTO 1.1/day)"
 ---
 
 ## Signal

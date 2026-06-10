@@ -18,6 +18,10 @@ resources: 0
 safety_net: clear
 
 word_count: 280
+
+# v0.10 lifecycle tag (retro-applied 2026-06-10, BOARD staleness sweep + WALTER adjudication)
+status: SUPERSEDED
+status_ref: "SIG-W-20260419-014 (Apr 18 Hormuz re-closure reversed the Apr 17 normalization read within 24h)"
 ---
 
 ## Signal

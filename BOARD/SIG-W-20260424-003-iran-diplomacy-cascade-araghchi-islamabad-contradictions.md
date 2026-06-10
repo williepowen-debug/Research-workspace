@@ -18,6 +18,10 @@ resources: 0
 safety_net: Iran/oil theme +2 agents convergent with SIG-W-20260424-002 (same-day). Convergence flag triggered. Does not meet VIX/HY OAS auto-upgrade.
 
 word_count: 680
+
+# v0.10 lifecycle tag (retro-applied 2026-06-10, BOARD staleness sweep + WALTER adjudication)
+status: SUPERSEDED
+status_ref: "SIG-W-20260426-013 (Apr 25-26 channel-disruption events resolved the Apr 24 contradictions)"
 ---
 
 ## Signal
