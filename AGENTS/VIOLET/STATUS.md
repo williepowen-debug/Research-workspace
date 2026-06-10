@@ -81,7 +81,7 @@ Full framework: `TRADE.md`.
 
 ## CROSS-AGENT SIGNALS (Pending)
 
-NEXUS_BRIEF refreshed 6/10 with: Iran third-leg + regime re-cross + OVX/VIX transmission gauge (HAWK/BRENT substance, VIOLET transmission). **Inbox:** 1 pending signal (5/14 gamma) — long-deferred admin.
+NEXUS_BRIEF refreshed 6/10 with: Iran third-leg + regime re-cross + OVX/VIX transmission gauge (HAWK/BRENT substance, VIOLET transmission). **Inbox: EMPTY** — the 5/14 gamma signal was formally dispositioned 6/6 (ABSORBED → KB-VIO-062/067/070; `inbox/processed/_disposition_...md`). *Prior "1 pending" line was stale propagation, corrected 6/10.* **Pending Will relay:** 3-part WALTER flag (MARKET_VOL routing split) — `research/2026-06-10_signal_intake_REWRITE_DRAFT.md` Appendix A.
 
 ---
 
