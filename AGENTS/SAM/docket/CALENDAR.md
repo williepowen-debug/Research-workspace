@@ -1,6 +1,6 @@
 # SAM CALENDAR
 
-**Last Updated:** 2026-06-09 (KOYOMI Run 7 — SAM-21 mechanical trigger fired today (70→75) + Q1 GDP revised +1.8% (hike-tolerant composition) Mon Jun 8 + Brent breached $90 line on 4th down session; moved Jun 6 CFTC residual-gate + Jun 8 GDP + Jun 9 SAM-21 trigger rows to RECENTLY RESOLVED; pruned May 29 / May 30 / May 31 (all >1wk). No baseline audit trigger this run — next monthly fire = first run of July.) | **View:** Forward-looking only. Past events pruned weekly.
+**Last Updated:** 2026-06-09 PM (SAM evening correction: Brent "$90 breach / 4th down session" walked back — intraday tag $89.59 no-hold, $92.40 by evening, Mon was an up session) | Jun 9 mid-day prior (KOYOMI Run 7 — SAM-21 mechanical trigger fired today (70→75) + Q1 GDP revised +1.8% (hike-tolerant composition) Mon Jun 8; moved Jun 6 CFTC residual-gate + Jun 8 GDP + Jun 9 SAM-21 trigger rows to RECENTLY RESOLVED; pruned May 29 / May 30 / May 31 (all >1wk). No baseline audit trigger this run — next monthly fire = first run of July.) | **View:** Forward-looking only. Past events pruned weekly.
 
 ---
 
@@ -77,7 +77,7 @@
 
 | Indicator | Threshold | Significance |
 |---|---|---|
-| Brent | <$90 = "headwind resolved" | 🔴 BREACHED UP and ESCALATING — Jun 1 +4.02%, Jun 2 +0.73%, Jun 3 +1.77% (4 straight up days; $97.70 closing on $100 psych). MOU walk-back framing now actively contra-indicated; Phase 1 oil pressure compounding (with v1.4 supply-destruction caveat — May TB Jun 18 diagnostic). (Live Brent in STATUS.) |
+| Brent | <$90 = "headwind resolved" | 🟠 Choppy down-drift from Jun-3 peak ($96.78-97.81) — Thu/Fri down, Mon UP, Tue down; tagged $89.59 intraday Tue Jun 9 but didn't hold ($92.40 by evening; no closing breach). Cum −4.5%. Driver: China demand + Trump-Iran walk-back rumors (rumor-tier). Phase 1 oil pressure easing, not resolved. (Live Brent in STATUS.) |
 | Iran/Hormuz MOU framework | Signed text by both sides | 🔴 Effectively broken Jun 1 (Tehran suspended exchange + Hormuz threat); deepening through Jun 3 (no walk-back overnight, fresh US-Iran clashes near Hormuz). Resign path requires Trump-Khamenei reset — directionally unlikely on current tape but watch. |
 | USDJPY 3-session sub-155 test | hard trigger condition | Not yet met; MOU break delays this scenario. |
 | CFTC short positioning | -75K cover line; -108K = 60% cycle-peak amplifier line | Re-loaded (broke -102K cycle peak May 30, 4th build week); cover would signal MOU acceptance. Live net in STATUS. cftc_jpy.py auto-pulls weekly (Fri/Mon). **Next release Sat Jun 6 — first scheduled amplifier/residual gate under THESIS § CARRY-UNWIND PROBABILITY METHOD** (state-dependent amplifier vs residual check; -108K = 60% cycle-peak line). |
