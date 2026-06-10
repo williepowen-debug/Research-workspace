@@ -44,7 +44,7 @@
 
 ## WILL_NEEDS
 
-1. **Outbox REQ disposition pass** — all 5 REQs 30d+ stale, underlying needs changed: REQ-HAWK (resolved by HAWK self-rewrite — retire), REQ-NEXUS (NEXUS active — re-scope before re-filing), REQ-ZHAO (69d dark — escalate or retire), REQ-BRENT-calendar (FASTOW may supersede — check), REQ-PROME-cron (still broken — refresh + re-file). Can run as one batched proposal next session.
+1. ~~Outbox REQ disposition pass~~ — **EXECUTED 6/10 same-session (Will-approved all + authorized PROME inbox write):** REQ-HAWK retired (HAWK 6/8 self-rewrite delivered the ask); REQ-BRENT retired (FASTOW CATALYSTS.tsv supersedes); REQ-NEXUS retired (re-scoped ask folded into future NEXUS LIAISON opener — see FOLLOW-UP #42); REQ-ZHAO retired + ZHAO flipped to spawn-on-demand posture (REGISTRY row updated; SAM/BOND backups cover); REQ-PROME refreshed (4 items now — SENTRY Action health added) + **migrated to `AGENTS/PROME/inbox/SIG-WALTER-PROME-20260610-cron-feed-infra-refresh.md`**. Outbox now EMPTY (5 files trashed, recoverable).
 2. **CARL LIAISON close stamp** — pending a CARL-inactive session (CARL last active 6/9).
 3. **HENRY LIAISON open** — next-LIAISON candidate; note HENRY also just gained the index-mechanics-only MARKET_VOL lane (v0.10) — worth a courtesy line in the opener.
 4. **EVENT_WINDOW_STATE.md BRENT-coordinated refresh** — 19d untouched (CLOSED, so no posture risk; but BRENT Phase-1-pressure reframe 6/9 + Bab al-Mandab activation may move Path B counting).
@@ -77,10 +77,10 @@
 17. **🟠 Iran-Hormuz second-order supply-chain transmission stack** (distillate + metals + freight + UKMTO throughput + fertilizer-El Niño) — Bab al-Mandab re-routing premium is a candidate 6th pillar if carrier avoidance confirms
 18. **🟠 4-layer composite-bifurcation regime characterization** (price layer confirmed persisting 6/10: HY 278 tight / CCC 951 wide)
 19. **🟠 De-dollarization composition-shift dual-signal** (PM-2 pair)
-20. **🟠 Same-session-paired same-channel dispatch pattern — now 3 instances** (PM-2 de-dollar + PM-3 Phase-2 + **6/10 Bab-al-Mandab × multi-front pair**) → **MEMORY promotion trigger MET; file at next housekeeping session**
+20. ~~Same-session-paired same-channel dispatch pattern~~ — **PROMOTED 6/10 same-session: CHECKLIST v0.12→v0.13 Phase 2.6 (Will sign-off)** — promoted directly to the owning spec per promotion-path rules, no MEMORY layover (MEMORY stays at cap)
 
 **Next-session housekeeping:**
-21. **🟡 Outbox REQ batched disposition** (see WILL_NEEDS #1)
+21. ~~Outbox REQ batched disposition~~ — **DONE 6/10** (see WILL_NEEDS #1; outbox empty). Residual watches: PROME inbox pickup of the cron REQ (verify at next boot 7c stale-check); FASTOW docket one-line coverage check already confirmed via BRENT STATUS.
 22. **🟢 VIOLET SIGNAL_INTAKE re-read at next routing pass** + board_log adoption tracking
 23. **🟢 RED Turn 8 / REGINALD Turn 7 response check** (both agents ran since re-engagement)
 24. **🟢 WALTER market-data baseline re-calibration** (≥6mo commodity-claim rule)
@@ -107,7 +107,7 @@
 
 **Next-LIAISON candidates:**
 41. **HENRY LIAISON** — next-priority (now with v0.10 MARKET_VOL lane-split context)
-42. **NEXUS LIAISON** — unblocked (NEXUS active 6/8); re-scope stale REQ first
+42. **NEXUS LIAISON** — unblocked (NEXUS active 6/8). Old REQ retired 6/10; **the re-scoped cluster-classification ask goes in the LIAISON Turn-1 opener** (current landscape: CLUSTER_TAXONOMY v0.2 / 11 clusters / IRAN_HORMUZ 57 / INFLATION_TRANSMISSION growing; NEXUS classification-authority + cadence = the architectural questions)
 43. **LIQUID + BROCK LIAISON** — design backlog
 
 ## OPEN DESIGN DECISIONS (need Will)
@@ -122,10 +122,10 @@
 - Filter v2 Segment D — option A confidence_note
 - BOARD_CONSUMPTION rollout cadence — KEYSTONE
 - COP refresh resume — paused
-- Outbox REQ batched disposition (5 stale REQs — retire/re-scope/escalate mix; see WILL_NEEDS #1)
+- ~~Outbox REQ batched disposition~~ — RESOLVED 6/10 (all 5 dispositioned; outbox empty; PROME inbox migration Will-authorized)
 
 ---
 
 *Maintenance note: this file is overwritten each session per CLAUDE.md spawn protocol step 15.*
 
-*6/10 Wed PM: Iran-anchor re-verify (frame supersede → MULTI-FRONT RE-IGNITION; boundary 6/17) + 2 IMMEDIATE dispatches (BOARD 283→285) + ROUTING_TABLE v0.10 MARKET_VOL split + FORMAT_SPEC +houthi + full Tier-1 REGISTRY refresh (NEXUS/HAWK staleness retired) + SESSION_LOG 14-row trim; $0.05; push deferred.*
+*6/10 Wed PM: Iran-anchor re-verify (frame supersede → MULTI-FRONT RE-IGNITION; boundary 6/17) + 2 IMMEDIATE dispatches (BOARD 283→285) + ROUTING_TABLE v0.10 MARKET_VOL split + FORMAT_SPEC +houthi + CHECKLIST v0.13 Phase 2.6 paired-dispatch rule + full Tier-1 REGISTRY refresh (NEXUS/HAWK staleness retired; ZHAO → spawn-on-demand) + outbox REQ disposition (5→0; PROME inbox migration Will-authorized) + SESSION_LOG 14-row trim; $0.05; push deferred.*
