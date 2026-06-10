@@ -98,7 +98,7 @@
 **Exit triggers (act on any one):**
 1. **At-target spike:** FXY ≥ $60 intraday → SELL TO CLOSE immediately. Don't try to ride the cascade with 36-48 hours of theta left.
 2. **Post-BOJ no-move:** FXY < $58 on June 17 close (day after BOJ) → SELL TO CLOSE at whatever bid exists. Theta destroys remaining value in 24 hours.
-3. **Vol crush after hawkish-but-priced hike:** If BOJ hikes as expected and FXY only pops 1-2%, ATM IV will collapse from its expanded pre-event level (live IV in STATUS) toward 3-5%. **Vol-crush risk on a priced-in hike is now SEVERELY elevated** (hike is market-confirmed across ~88-98% surface range, Polymarket 98.2% Jun 9 — surprise premium near zero) — sell into the pop, don't hold for delta.
+3. **Vol crush after hawkish-but-priced hike:** If BOJ hikes as expected and FXY only pops 1-2%, ATM IV will collapse from its expanded pre-event level (live IV in STATUS) toward 3-5%. **Vol-crush risk on a priced-in hike is now SEVERELY elevated** (hike is market-confirmed across ~88-98% surface range, Polymarket 98.2% Jun 9 — surprise premium near zero) — sell into the pop, don't hold for delta. **Jun 9 PM reinforcement:** Reuters-sourced reporting that the BOJ may pair the hike with a taper PAUSE (FY2027+ plan due at the meeting, ~¥2.1T/mo open-ended option) makes a balanced hike + QT-soften package the modal delivery — the accelerated-QT leg of the hawkish-tail is pointing the OTHER way. Further strengthens sell-into-pop.
 4. **Pre-event de-risking:** If FXY drifts to $56-57 in the week BEFORE BOJ (e.g., after soft CPI), the call is already mostly worthless ($0.10-0.15). Either ride to zero (it's $40) or close for any salvage.
 
 **Hold rules:**

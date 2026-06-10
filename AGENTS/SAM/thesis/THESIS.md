@@ -192,7 +192,7 @@ The honest framing now: *MOF acts → ~20% sustained unwind | fires (per CH-003)
 - Mar 18-19 Summary of Opinions: debate shifted from "when" to "how much"
 - Takata DISSENTED for 25bp hike to 1.00% (Mar — escalated to 3-board split Apr 28)
 - "Raise without hesitation" + "rapid tightening" language used
-- New BOJ CPI gauge (first ever): core +2.2% — deliberately signaling above target
+- New BOJ trend-CPI gauge (introduced Mar 2026; strips education/energy subsidies): **2.8% April and accelerating** (Feb debut 2.2 → Mar 2.5 → Apr 2.8) vs official core 1.4% — the subsidy-mask wedge quantified at +1.4pp; deliberately signaling above target *(refreshed 2026-06-09; prior 2.2% cite was the Feb debut print)*
 - Output gap positive 15th straight quarter
 - Ueda removed growth precondition: temporary downward pressure won't prevent hikes
 
