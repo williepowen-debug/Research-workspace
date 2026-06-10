@@ -28,6 +28,15 @@ Log material structural changes only — not routine content edits. Template ado
 
 ---
 
+## 2026-06-10 (PM-4) — CALENDAR.md fixes + FOMC day-count correction (housekeeping item 4 of 4)
+
+**Trigger:** root-md audit item 5 (Data Refresh table stale, vix_options row wrong twice, footer drift) + the verify-item: CALENDAR's FOMC table disagreed with CATALYSTS.tsv on decision days.
+**What changed:** FOMC day-counts corrected against the Fed's published calendar — **Jul 28-29** (was 29-30) and **Sep 15-16** (was 16-17); CATALYSTS.tsv decision-day rows (Jul 29, Sep 16) were already correct, so the canonical→mirror direction held (machine feed right, human twin drifted — KOYOMI/FASTOW date-verification class). "Sep expiry same day as FOMC+SEP" claim survives (both Wed Sep 16). Data Refresh table re-stamped to actual with automation framing fixed ("overdue" vix_options row → every-boot-auto + after-hours artifact note; "COT when wired" → wired; FRED-rates lag flagged with pointer to the diagnosis item); VIX9D added to the spot row; footer bumped.
+**Files touched:** CALENDAR.md. **Boot-impact:** none (catalyst_countdown reads CATALYSTS.tsv, which was already correct).
+**Lessons:** mirror-drift direction confirmed canonical-wins (auto-memory `[[finding_doc_mirror_consistency_check]]`); meeting-date ranges drift in human twins even when decision-day rows are right — verify day-counts at source before editing either file.
+
+---
+
 ## 2026-06-10 (PM-3) — CLAUDE.md residue pass (housekeeping item 3 of 4; Will-reviewed draft, approved)
 
 **Trigger:** root-md audit item 3 + full condition report (`research/2026-06-10_claude_md_condition_report.md`). Spine was healthy; lines ~95-168 were April-bootstrap residue with two self-contradictions (HERMES boundary rule vs MAIL/step 12; dangling "Outbox Protocol" ref in step 13) and one falsified teaching (KEY THRESHOLDS "inversion = leading indicator" vs v3.1/KB-VIO-034).

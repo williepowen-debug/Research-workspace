@@ -27,8 +27,8 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 |------|---------|-----------|
 | ~~Apr 28-29, 2026~~ | FOMC | DONE — held 3.50-3.75%, 4 dissents (most since Oct 1992). VIX did NOT spike. |
 | **Jun 17, 2026** | **FOMC + SEP** | **Primary vol catalyst gate. First post-Apr-dissent dot plot. Coincides with VIX June quarterly expiration + 60d window expiry on KB-VIO-031. FedWatch ~80% hold (verify at boot).** |
-| Jul 29-30, 2026 | FOMC | No SEP. Powell presser only. |
-| Sep 16-17, 2026 | FOMC + SEP | Quarterly — critical |
+| Jul 28-29, 2026 | FOMC | No SEP. Powell presser only. Decision Wed Jul 29. |
+| Sep 15-16, 2026 | FOMC + SEP | Quarterly — critical. Decision Wed Sep 16 = same day as VIX Sep quarterly expiry. *(Day-counts corrected 6/10 vs Fed calendar — were listed Jul 29-30 / Sep 16-17.)* |
 
 **Pattern:** VIX typically rises into FOMC, drops on outcome if no surprise. In current regime (5+ consecutive catalyst absorption per KB-VIO-062), pattern may be muted by GEX-suppression mechanism — refresh hypothesis on each FOMC outcome.
 
@@ -74,7 +74,7 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 | Tuesday | Monitor VVIX, SKEW, 20d-avg sensitivity |
 | Wednesday | VIX expiration day (if applicable) — watch pinning |
 | Thursday | Check credit-vol divergence post-VIX expiry |
-| Friday | Week-end summary, update regime status, COT data (when wired) |
+| Friday | Week-end summary, update regime status, COT release intake (auto via `cftc_cot.py --boot` in boot.py) |
 
 ---
 
@@ -82,14 +82,14 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 
 | Data Source | Frequency | Tool | Last Updated |
 |-------------|-----------|------|--------------|
-| VIX/VIX3M/VVIX/SKEW spot | Daily | `scripts/thresholds.py` or yfinance | 2026-06-01 |
-| FRED credit (HY/IG/CCC OAS) | Per boot | `scripts/fred_fetch.py` | 2026-06-01 (data through 5/31; T+1 publish lag) |
-| FRED rates (2Y/10Y/TIPS) | Per boot | `scripts/fred_fetch.py` | 2026-06-01 |
-| 20d SKEW avg + 5td_change | Per boot during knife-edge | inline calc | 2026-06-01 |
-| Catalyst countdown | Per boot | `scripts/catalyst_countdown.py` | 2026-06-01 |
-| VIX options OI | When notable | `scripts/vix_options.py` | 2026-04-17 (overdue) |
-| VX_DAILY.tsv time series | Daily | `scripts/thresholds.py` → append; `scripts/backfill.py` for gaps | 2026-06-01 (backfilled 5/14 → 6/1 EOD; SKEW 6/1 pending T+1) |
-| CFTC COT VIX futures | Weekly Fri 3:30pm ET (Tue position-snap) | `scripts/cftc_cot.py` (`--boot` freshness-gated; `--backfill` for full rebuild) | 2026-05-26 (178 weeks 2023-current backfilled) |
+| VIX/VIX9D/VIX3M/VVIX/SKEW spot | Every boot (auto in boot.py) | `scripts/thresholds.py` / yfinance | 2026-06-10 (intraday; SKEW T+1) |
+| FRED credit (HY/IG/CCC OAS) | Per boot | `scripts/fred_fetch.py` / boot.py | 2026-06-10 (data through 6/8; T+1 publish lag) |
+| FRED rates (2Y/10Y/TIPS) | Per boot | `scripts/fred_fetch.py` | ⚠️ series lagging — cache ends 6/5 on 6/9 fetch; diagnosis queued (SCRATCH item 7f) |
+| 20d SKEW avg + 5td_change | Per boot during knife-edge | inline calc | 2026-06-09 (thru 6/9 close; margin +0.59) |
+| Catalyst countdown | Every boot (auto in boot.py) | `scripts/catalyst_countdown.py` | 2026-06-10 |
+| VIX options OI | Every boot (auto in boot.py; evening runs print OI=0 after hours — artifact, use intraday) | `scripts/vix_options.py` | 2026-06-10 |
+| VX_DAILY.tsv time series | Daily (auto-append at boot; gap-check after skipped days, KB-VIO-076) | `scripts/thresholds.py` → append; `scripts/backfill.py` for gaps | 2026-06-10 (intraday row; EOD supersede pending) |
+| CFTC COT VIX futures | Weekly Fri 3:30pm ET (Tue position-snap; auto in boot.py) | `scripts/cftc_cot.py` (`--boot` freshness-gated; `--backfill` rebuild) | 2026-06-05 release (6/2 positions); next Fri 6/12 |
 | NAAIM + ICI equity positioning | Weekly Wed/Thu | `scripts/equity_positioning.py` (**not yet built**) | Not wired |
 
 **Boot sequence:** `python3 scripts/boot.py` runs thresholds + vix_options + cftc_cot + catalyst_countdown.
@@ -97,4 +97,4 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 ---
 
 *Created: 2026-04-12*
-*Last Updated: 2026-06-06 (Saturday org session — knife-edge resolved 6/05 (KB-VIO-072), KB-VIO-031 60d window HIT, both pruned from active catalysts. 6/10 CPI now primary forward gate.)* *(6/7: CPI date corrected 6/12→6/10 per BLS schedule — fleet drift catch, aligned to SAM/BRENT.)*
+*Last Updated: 2026-06-10 (housekeeping item 4: CPI resolved-section added AM; FOMC day-counts corrected vs Fed calendar — Jul 28-29, Sep 15-16, decision days unchanged in CATALYSTS.tsv which was already correct; Data Refresh table re-stamped to actual (boot.py automates most rows — "overdue"/"when wired" framings removed); FRED-rates lag flagged. Prior: 6/6 Saturday org session; 6/7 CPI date fix 6/12→6/10.)*
