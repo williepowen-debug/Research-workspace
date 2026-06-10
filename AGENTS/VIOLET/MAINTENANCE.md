@@ -28,6 +28,29 @@ Log material structural changes only — not routine content edits. Template ado
 
 ---
 
+## 2026-06-10 (PM-3) — CLAUDE.md residue pass (housekeeping item 3 of 4; Will-reviewed draft, approved)
+
+**Trigger:** root-md audit item 3 + full condition report (`research/2026-06-10_claude_md_condition_report.md`). Spine was healthy; lines ~95-168 were April-bootstrap residue with two self-contradictions (HERMES boundary rule vs MAIL/step 12; dangling "Outbox Protocol" ref in step 13) and one falsified teaching (KEY THRESHOLDS "inversion = leading indicator" vs v3.1/KB-VIO-034).
+
+**What changed (fixes 1-10 + decisions A/B; draft + diff summary at `research/2026-06-10_claude_md_REWRITE_DRAFT.md`):**
+- Boundary rule + step-13 tail → NEXUS_BRIEF CROSS-DOMAIN / outbox-🔴-acute (HERMES + dangling ref killed).
+- KEY THRESHOLDS table (TBD column since April, falsified inversion framing, weak single-day SKEW-140 line) → 3-pointer THRESHOLDS block, zero values restated (SIGNAL_INTAKE lines / STATUS live / thesis logic).
+- CROSS-AGENT SIGNALS: send-table kept (VIOLET-owned trigger definitions; inversion row re-framed peak-marker broadcast); delivery-mechanism line added; receive table → SIGNAL_INTAKE pointer (inbound owner; kills the drift-twin).
+- CONVERGENCE MATRIX: 5-point scale + STATUS-must-include requirement kept; 5 template rows (⚪/TBD/"Never") deleted; N/(5×vectors) scoring note added.
+- RESEARCH PRIORITIES (April list, all done/falsified/tooled) → pointers to STATUS queue + thesis.
+- OUTPUT RULES: nonexistent `domain/sources/` path → `research/ or archive/`.
+- DOMAIN SCOPE: VIX1Y (never tracked) out; VIX9D+ratios, M1:M2 curve shape, SKEW 20d-avg, COT in; BRENT/HAWK-oil + SAM-carry NOT-own rows with transmission-read carve-outs.
+- Header network line aligned to both surfaces (NEXUS_BRIEF out / SIGNAL_INTAKE in) + SAM/BRENT edges.
+- **Decision A (Will-approved): `workbook/VX.tsv` RETIRED** → `archive/VX_2026-04-15_threshold_dashboard.tsv` via git mv (dead since 4/15; VX_DAILY owns the daily series, SIGNAL_INTAKE/STATUS/thesis own threshold lines). Step 8 + FILES table updated.
+- **Decision B (Will-approved): `workbook/FLOW.tsv` RE-SCOPED** to formal sends only; 5/21 HENRY LIAISON row backfilled + dated rescope-note row added (no other formal sends 4/15→6/10).
+- **Decision C (BOARD consumption boot step): DEFERRED** until WALTER answers the MARKET_VOL routing flag. **Decision D (boot predictions-due scan): named as future build item.**
+
+**Files touched:** CLAUDE.md (rewrite), workbook/VX.tsv → archive/ (git mv), workbook/FLOW.tsv (2 rows), MAINTENANCE.md (this entry), research/ draft + condition report (committed earlier).
+**Boot-impact:** none mechanical (boot.py untouched; no script read VX.tsv — verified by SAM-pattern precedent and grep). Behavioral: fresh spawns no longer get contradictory routing guidance or the falsified inversion teaching; MEMORY-subtraction session will need a touch on boot step 3's description when it runs.
+**Lessons:** template residue survives because protocol files get amended at the top (spawn steps) and never re-read at the bottom; a full-file condition report before editing catches self-contradictions that section-level edits keep missing. By-catch class repeated: STATUS "1 pending inbox signal" was stale propagation — the 5/14 signal was dispositioned 6/6 (fix at EOD re-stamp).
+
+---
+
 ## 2026-06-10 (PM-2) — README.md refreshed (housekeeping item 2 of 4)
 
 **Trigger:** root-md audit item 2 (front door pointed at retired `LAST_COMPLETION.md`; quoted the unqualified 94%; map omitted SCRATCH/NEXUS_BRIEF; network section was messaging-era).
