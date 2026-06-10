@@ -67,7 +67,7 @@ VIX-linked positions and trade framework.
 **Thesis:** the 6/5 NFP spike left an event-premium hump, located (convexity_read 6/9) at the VIX9D kink (+2.27 over spot) and the M1:M2 contango (+7.50% adj). Both fade legs (rate-shock, AI-unwind) are deflating; credit never confirmed. If CPI passes non-tail, the remaining premium is fade-able into/through FOMC 6/17.
 
 **Structure (priority order):**
-1. **Short M2 (Jul) vs long M3 (Aug) futures calendar** — collects the Jul event-hump deflation post-FOMC; M3 leg hedges parallel vol shifts; not naked short-gamma. Seller collects ~7.5%/mo roll-down while curve normalizes.
+1. **Short M2 (Jul) vs long M3 (Aug) futures calendar** — collects the Jul event-hump deflation post-FOMC; M3 leg hedges parallel vol shifts; not naked short-gamma. Relevant carry is the **M2:M3 spread: +4.00%** (VX/N6 20.14 exp 7/22 → VX/Q6 20.95 exp 8/19, CBOE settlement 6/8) — about HALF the M1:M2 +7.5% hump this doc previously implied; re-quote at entry. *(Corrected 6/9 late — orchestrator flag: prior text quoted the Jun/Jul spread for a Jul/Aug structure.)*
 2. Alternative (defined risk): Jul VIX call credit spread sized to max-loss = the position's risk budget.
 3. **NOT:** naked short VIX futures, short straddles, SVIX holds.
 
@@ -78,7 +78,7 @@ VIX-linked positions and trade framework.
 4. `convexity_read.py` post-print still locates a rich hump worth selling (M2 premium vs M3 above normal)
 5. BOJ 6/16 risk priced: enter ≤50% size before BOJ, or wait until 6/16 post-MPM for full size
 
-**L1-stack tension (state it, don't hide it):** the 5/20-5/29 DIET fire's 60d window technically runs to ~8/4. At the ≥+15% tier it is RESOLVED (6/5 peaked +40%); at the ≥+50% tier (60% episode base rate, L1 canonical table) the window is **still live** — a second leg to VIX ~25+ remains a priced tail. This is why size is capped, risk is defined, and the BOJ split-entry exists. Short-premium here fades the *event hump*, not the L1 signal class.
+**L1-stack tension (state it, don't hide it):** the 5/20-5/29 DIET fire's fwd-60 window runs through **~Aug 12-21** (60 *trading* days from each fire day — the backtest's unit). At the ≥+15% tier it is RESOLVED (6/5 peaked +40%); at the ≥+50% tier (60% episode base rate, L1 canonical table) the window is **still live** — a second leg to VIX ~25+ remains a priced tail. *(Corrected 6/9 late — orchestrator flag: prior "~8/4" was 60 calendar days from the spike: wrong anchor AND wrong unit, would have lifted the size cap ~2 weeks early. The KB-VIO-079 error class, caught in the same session that canonized it.)* This is why size is capped, risk is defined, and the BOJ split-entry exists. Short-premium here fades the *event hump*, not the L1 signal class.
 
 **Invalidation / exit (any one):**
 - VIX re-extends >23 sustained (event premium re-arming, not deflating) → exit
