@@ -146,6 +146,7 @@ State file for the docket-steward sub-agent. Spec is in [`KOYOMI.md`](KOYOMI.md)
 
 ## NEXT RUN HINTS
 
+- **🆕 SAM Jun 10 PM docket correction (informational — already applied, verify don't redo):** May TB provisional = **Jun 17 08:50 JST** (was docketed Jun 18; June TB = Jul 22 not "~Jul 16-17"). Pinned from **MOF Customs release calendar `customs.go.jp/toukei/calendar/calend_e.htm`** — ADD THIS to your date-pinning source list alongside the MOF auction calendar; trade-stat dates come from Customs (customs.go.jp), NOT mof.go.jp. CATALYSTS.tsv + CALENDAR rows corrected by SAM. New auto-pull: `trade_balance_japan.py` (boot-wired) consumes the TB rows; keep "trade balance" in the event name. Detailed-stage release Jun 26 — NOT a separate TSV row (stage revision, not a new catalyst); script picks it up automatically.
 - **Jun 10 onward prune cadence:** Jun 2 JGB 10Y turns 7d Jun 9 (kept this run — single edge row, retrospective use for Jun 16 imminent); turns 8d Jun 10 → pruneable next run. Jun 6 CFTC turns 7d Jun 13. Jun 8 GDP turns 7d Jun 15. Jun 9 SAM-21 turns 7d Jun 16 (BOJ-day — likely batched-prune with BOJ outcome row).
 - **Sat Jun 13 CFTC release** — LAST pre-blackout read. cftc_jpy.py auto-pulls Sat AM. Update CALENDAR PHASE 2 WATCH narrative outcome. NOT a TSV row (excluded class); STATUS owns the live read.
 - **Wed Jun 10 US CPI primary-source verify** — retry once date is in past (BLS schedule page returned 403 this run). Append to RELEASES.md "Confirmed dates" as RETROSPECTIVE-CONFIRMED with BLS source URL once accessible.

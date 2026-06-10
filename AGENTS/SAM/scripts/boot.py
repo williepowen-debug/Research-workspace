@@ -56,6 +56,7 @@ BOOT_SEQUENCE = [
     ("JGB Auctions",               "jgb_auctions.py",      [], "JGB AUCTIONS", False),
     ("CFTC JPY Positioning",       "cftc_jpy.py",          [], "CFTC",         False),
     ("MOF Weekly Flows",           "mof_flows.py",         [], "MOF FLOWS",    False),
+    ("Japan Trade Balance",        "trade_balance_japan.py", ["--boot"], "TRADE BALANCE", False),
     ("Japan CPI",                  "cpi_japan.py",         [], "CPI",          False),
     ("Catalyst Countdown",         "catalyst_countdown.py", [], "CATALYSTS",    False),
     ("FXY Options OI",             "fxy_options.py",       [], "FXY OPTIONS",  True),  # weekly

@@ -8,6 +8,21 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
+## 2026-06-10 (PM) — NEW SCRIPT: trade_balance_japan.py + TRADE_BALANCE.tsv + boot.py wiring + TB docket date correction
+
+**Trigger:** Will-directed build (infra queue #1), planned with Orch spec review (4 decisions + 4 spec gaps + 3 SAM refinements — all adopted). Purpose: Jun-17 May TB print = Phase-1 stability lag-test; routing pre-registered in CALENDAR.
+
+1. **`scripts/trade_balance_japan.py`** — MOF Customs trade-stats parser. Sources: `d41ma.csv` (headline raw series, CP932, 1979→) + press-release XML `trade-st/{YYYY}/{YYYY}{MM}{stage}.xml` (stage 4=速報/5=確速/6=確報/7=確々報, all stay online). Extracts headline + world crude/LNG/pet-products decomposition (volume 千KL, value, MOF's own YoY) + ME totals + ME crude. Implied crude unit cost ¥/KL→$/bbl (6.29, monthly-avg USDJPY) sanity-banded vs Brent t−1..t−2 avg ±20% (cargo-pricing lag). Routing suggestion uses verbatim CALENDAR branch labels, ME-recovery proxy (≥−20% YoY) printed as stated assumption — measurement not adjudication. Modes: default/`--boot` (fast-exit probe), `--month/--stage`, `--backfill N`, `--selftest`, `--consensus` (hand-fed ¥B).
+2. **`workbook/TRADE_BALANCE.tsv`** — NEW auto-pulled TSV, keyed **(Month, Stage)** — provisional + confirmed are separate rows; later stage triggers a "REVISED FROM" comparison print. Backfilled 14 months (Apr 2025–Apr 2026, best stage each). Data note: crude vol 10–14k 千KL/mo through Mar-2026 → **4,480 in April** (supply-destruction cliff is an April event, not a drift); implied unit cost $66–75/bbl 2025 → $101/bbl April (war-tape cargo lag).
+3. **`scripts/boot.py`** — wired into BOOT_SEQUENCE after MOF Weekly Flows, `--boot` quiet mode (~4s; one ⚪ line on non-print days). Verified end-to-end, all scripts green.
+4. **Docket date correction (CATALYSTS.tsv + CALENDAR.md):** May TB provisional = **Wed Jun 17 08:50 JST (~7:50 PM ET Tue Jun 16 — BOJ-decision evening ET)**, NOT "Jun 18" as docketed; June TB provisional = Jul 22 (not "~Jul 16-17"). Pinned from MOF Customs release calendar (`/toukei/calendar/calend_e.htm`) per Orch spec-gap (c) — the pattern-match date was wrong by a day in the load-bearing direction (earlier). [[finding_subagent_prefire_date_verification]] instance.
+
+**Fixtures (--selftest, frozen):** Apr-2026 stage-4 balance ¥301,905M EXACT (press ¥+301.9B; CSV stage-5 shows +299.3B — stage revision, both in ±1%/±¥5B tolerance), crude vol YoY −63.7 (press "−64%"), ME crude −67.2 exact, exports +14.8 (THESIS cite); Jan-2026 XML-vs-CSV cross-source Δ0.00%. Parser bug caught by fixture on first run: full-width vs half-width parens in body `<title>` elements — normalized.
+
+**Boot-impact:** +1 BOOT_SEQUENCE entry (~4-6s). Next live use: Jun 17 08:50 JST print (run with `--consensus <wire>` that evening ET).
+
+---
+
 ## 2026-06-10 (AM) — Script fixes: usdjpy.py MOF label disambiguation + jgb_auctions.py JST date probing
 
 **Trigger:** Both queued from the Jun-9 session's mis-parse incidents; executed in the pre-blackout quiet window (Advisor-endorsed, Will-approved batch).
