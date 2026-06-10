@@ -40,7 +40,7 @@
 - **HY OAS 280 re-cross watch (daily)** — 278 on 6/9; sustained >280 un-fires FT-01, re-widens bifurcation.
 - **VIX >23 close-and-hold** — VIOLET invalidation line; 21.75 at ~3PM 6/10, watch into 6/16-17.
 - RED-10 (HY<400) + RED-08-class oil predictions score 6/30; RED-18 day ~23/60.
-- NEXUS_BRIEF enrollment for RED: deferred, Will/NEXUS-phase decision (D3).
+- NEXUS_BRIEF enrollment for RED: **PARKED by Will 6/10 EOD** — handle in a fresh future session, not a near-term item.
 - KOYOMI-analog hygiene steward: still Will-deferred (S16).
 
 ## PENDING WILL-DECISIONS
