@@ -8,6 +8,18 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-06-09 (PM-late) — v1.5.1 follow-on: priced-hike reconciliation (catalyst-row payoff language aligned with CH-004)
+
+**Author:** SAM (Will-directed)
+**Action:** No version bump. Completed the v1.5.1 narrative reconciliation that the Jun-3 pass missed on the catalyst-sequence rows: 7 surfaces (STATUS WHAT TO WATCH, TRADE Key Dates, STRATEGY asymmetry table, CALENDAR Jun-16 row, CATALYSTS.tsv Jun-16 rows, THESIS catalyst sequence, MEMORY next-session) still said *"Hike to 1.00% = structural FXY +5-8%; carry unwind fires"* — contradicting the CH-004 METHOD (a delivered-as-priced hike does not unwind) and the Jun-9 taper-pause leak (QT leg pointing dovish → modal package = balanced hike + QT-soften).
+
+**Old view (catalyst rows):** hike delivers +5-8% FXY and fires the carry unwind, unconditionally.
+**New view (pre-registered before the meeting):** modal package (priced 25bp + QT-soften; ~65% all-in) = **FXY −1 to +2%, vol crush, no unwind**; hawkish-of-pricing branch (~10% all-in, shrunk by the taper-pause leak) is where +5-8%/unwind-fires/Aug-2024-speed lives; hold (~25%) = −3-5% event-capped. **Event ~EV-flat at ~98% market pricing** — position value = call convexity on the hawkish branch + shares' 3-6mo structural grind. Jun-18 $58C modal outcome: loses most of $40 even with the hike delivered (sell-into-pop = salvage); entry edge (May 21, hike ~55-65%) was consumed by the repricing to ~98%.
+
+Canonical table: `STRATEGY.md` § JUN-16 RECONCILED EXPECTATION. **No probability re-marks** (SAM-21 75%, SAM-23 72%, buckets unchanged); this is expectation-language alignment, not a view change — the METHOD already encoded it.
+
+---
+
 ## 2026-06-04 — v1.5.1 follow-on: Jun 3-4 cabling-window news ingestion + OS.1 closure + Sato corrections
 
 **Author:** SAM
