@@ -51,11 +51,13 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 
 | Date | Event | VIX Implication | VIOLET Checkpoint |
 |------|-------|-----------------|-------------------|
-| **Jun 10** | **May CPI release (8:30 ET)** | First named macro test post-NFP-shock. CPI tail = compounds NFP rate-shock + AI unwind; clean print = fade-leg #1 deflates. | 🔴 Position gate before any short-vol expression. VIOLET role is REACTIVE post-print surface read (pre-mortem dropped 6/9 per Will — print forecasting is HENRY/CARL domain). Pull CPI energy sub-index (BRENT discriminator). |
 | **Jun 16** | **BOJ MPM** (carry-unwind vol channel) | As-priced 1.00% hike = priced/non-event; hawkish-of-pricing → Aug-2024-style yen-carry unwind = tail vol catalyst on elevated front-end | 🟡 Vol-transmission edge via SAM (fuel-load 72%→85% danger zone). SAM owns policy call. |
 | **Jun 17** | **FOMC + Powell + SEP + VIX June quarterly expiration** | **Primary vol catalyst gate convergence — 4 events same day** | 🔴 Highest-priority forward gate. |
 | Jul 15 | VIX July expiration | — | — |
 | Jul 29 | FOMC (no SEP) | — | — |
+
+**Resolved (6/10):**
+- **6/10 May CPI:** RESOLVED NON-TAIL — headline 0.5/4.2 in-line, core 0.2 SOFT of 0.3 est; energy +3.9 m/m = >60% of the monthly increase (oil→Fed channel confirmed, KB-VIO-080). Print itself = vol relief; concurrent Iran escalation kept the front bid (KB-VIO-081). Row pruned from CATALYSTS.tsv.
 
 **Resolved (6/6):**
 - **6/05 R12 knife-edge (5td & 8td paths):** RE-ESTABLISHED 6/05 via 20d-avg = 140.16. Concurrent with VIX +40% NFP-shock (KB-VIO-067 L1 fired forward simultaneously). See KB-VIO-072.
