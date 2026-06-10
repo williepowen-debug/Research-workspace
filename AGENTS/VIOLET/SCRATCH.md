@@ -36,7 +36,7 @@ Will asked for a boot (8:28 PM); EXECUTE became the eve-of-CPI EOD read + ledger
 
 ## CARRY-FORWARD
 
-- **Push parked.** Two local commits this session (`ca464bc3` + brief commit) on top of earlier unpushed work; push is Will-coordinated.
+- **PUSHED 6/9 ~21:30 ET (Will-opened window).** Session commits `ca464bc3` + `6be9e116` on origin; clean push (origin not ahead, no other agents' work in the train). Will's orchestrator reviewing from origin.
 - **fred_fetch rates lag** — DGS10/DGS2 still end 6/5 on a 6/9 fetch. Re-check next boot; if it persists, investigate the FRED series itself vs cache logic.
 - **NFP analog backtest script** (`/tmp/nfp_analog_backtest.py`) — still needs porting (tmp files don't survive reboots).
 - **Process lesson (KB-VIO-076):** after any skipped trading day, gap-check VX_DAILY.tsv before narrating trajectory — a missing ledger day silently converts "gave it back Monday" into "sticky since Friday."
