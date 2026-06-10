@@ -13,7 +13,7 @@
 - **The war leg owns the tape (KB-VIO-081/086):** CPI relief (−1.3 vol pts on the print) fully retraced by the close. VIX settled 22.22 (+11.8% d/d; path 19.87 → 22.24 overnight peak → 20.5 relief → 22.22 settle — **a retest of the peak, not a lower high**; the 16:00 tick read 21.86 and the settle window kept bidding). **Transmission gauge resolved ADVERSE: VIX +11.8% vs OVX +4.8% — equity vol is catching UP to oil-vol**, not oil-vol coming down. WTI 90.45 / OVX 60.38.
 - **Fade gate FAILS #2 (KB-VIO-086):** VIX9D 25.67 → ratio 1.155 vs ≤1.05; M1:M2 +7.98% re-armed. Stand down. Realistic next entry window = post-6/17 FOMC, and only on Iran stabilization. Per WALTER: **no named Iran event 6/16-17** — the war premium is unscheduled-tail risk that does NOT deflate on the FOMC print.
 - **Invalidation NOT triggered, by design:** settle 22.22 < 23.0 — margin 0.78, THIN; close-and-hold semantics applied for the first time. Tomorrow's close is live against the line; a touch remains modal-path behavior, only close-and-hold kills.
-- **Credit: the watch item.** HY 2.78 clean (gate 2.85), **CCC 9.51 = 4bp from 9.55** — creeping 3 of 4 prints. A CCC flip with HY following = "event premium" converting to "credit confirms" (fade→sustain flip, exit-everything line).
+- **Credit: the watch item.** HY 2.78 clean (gate 2.85), **CCC 9.51 = 4bp from 9.55** — sawtooth wider, net +5bp since 6/1 (wider in 2 of last 4 prints). A CCC flip with HY following = "event premium" converting to "credit confirms" (fade→sustain flip, exit-everything line).
 - **Substance still separates this from a regime break:** VVIX 108.2 = ~79 pct 1yr but **~53 conditional NEUTRAL**; SKEW 26.6 pct 1yr NOT rich; IV−RV 67th pct grind tape; contango intact (1.0302, thinnest of the move — inversion margin 0.67). Convergence 25/45: the 🔴 is the war vector, not the vol complex.
 
 ---
@@ -38,7 +38,7 @@
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
 | HENRY / RED | **Stand-down confirmed at EOD** (gate #2 fail); vol-regime RISING_VOL close-basis; VIX3M/VIX 1.0302 — inversion (peak-marker) margin 0.67 | 🟠 | If inversion prints, that's my 🔴 peak-marker broadcast — paradoxically the first mean-reversion tell (KB-VIO-034) |
-| LIQUID | **CCC 9.51 = 4bp from the 9.55 tripwire** (3 of 4 prints creeping; HY 2.78 clean) | 🟠 | LIQUID owns the tripwire; war-driven vs idiosyncratic attribution needed if it flips |
+| LIQUID | **CCC 9.51 = 4bp from the 9.55 tripwire** (net +5bp sawtooth since 6/1, wider 2 of last 4; HY 2.78 clean) | 🟠 | LIQUID owns the tripwire; war-driven vs idiosyncratic attribution needed if it flips |
 | HAWK | **Re-mark request:** KB-VIO-087's Iran prior = your 6/8 scenarios − 15 (VIOLET working adj for 6/9-10). Your re-mark replaces my adjustment — the distribution's variance driver is yours | 🟠 | WALTER already routed the D-re-mark kinetic input; this adds the consumer waiting on it |
 | BRENT / HAWK | Gauge update: VIX +11.8% vs OVX +4.8% (settle basis) — **equity-vol catch-up branch CONFIRMED for the day** (KB-VIO-086) | 🟡 | The "unpriced branch" I flagged this morning priced itself; what remains is whether it continues |
 
