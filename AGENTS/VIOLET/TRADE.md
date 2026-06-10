@@ -80,8 +80,10 @@ VIX-linked positions and trade framework.
 
 **L1-stack tension (state it, don't hide it):** the 5/20-5/29 DIET fire's fwd-60 window runs through **~Aug 12-21** (60 *trading* days from each fire day — the backtest's unit). At the ≥+15% tier it is RESOLVED (6/5 peaked +40%); at the ≥+50% tier (60% episode base rate, L1 canonical table) the window is **still live** — a second leg to VIX ~25+ remains a priced tail. *(Corrected 6/9 late — orchestrator flag: prior "~8/4" was 60 calendar days from the spike: wrong anchor AND wrong unit, would have lifted the size cap ~2 weeks early. The KB-VIO-079 error class, caught in the same session that canonized it.)* This is why size is capped, risk is defined, and the BOJ split-entry exists. Short-premium here fades the *event hump*, not the L1 signal class.
 
+**Adjudication record:** 6/10 AM post-CPI: **GATE FAILS #1** (gate 1: ratio ~1.15 vs ≤1.05; Iran third leg re-armed the front — KB-VIO-081). 6/10 EOD: **GATE FAILS #2** (ratio 1.145 close-basis; M1:M2 +7.98% re-armed; Iran escalation sustained per WALTER/HAWK; credit clean but CCC 9.51 = 4bp from gate-2 flip). NO ENTRY. Framework alive — invalidation not triggered (VIX closed 21.86 < 22.24 overnight peak < 23). Re-adjudicate 6/11+; realistic next entry window is post-6/17 FOMC, and only on Iran stabilization. KB-VIO-086.
+
 **Invalidation / exit (any one):**
-- VIX re-extends >23 sustained (event premium re-arming, not deflating) → exit
+- VIX >23 **closed-and-held** (re-graded 6/10, KB-VIO-082: a 23-touch is the MODAL path for this episode's shape — 6/6 historical early-+40% episodes touched ≥+50% ≈ VIX 23.0 on the table-consistent anchor — so a touch is expected, not disqualifying; only sustained closes above 23 mean the premium is re-arming rather than deflating). **Entry-structure corollary: any post-6/17 entry budgets a 23-26 retest inside the L1 window (~Aug 12-21) or uses the retest as the entry.**
 - HY >2.85 or CCC >9.55 (credit confirms = fade→sustain flip) → exit immediately
 - BOJ 6/16 hawkish-of-pricing (carry-unwind channel opens, SAM signal) → exit or cut to runner before FOMC
 - Target: hump captured (M2:M3 back to normal contango) post-FOMC — take it off 6/18-6/22, don't overstay
