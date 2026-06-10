@@ -1,6 +1,6 @@
 # SAM TIMELINE
 
-**Last Updated:** 2026-06-09 (SAM-21 mechanical trigger fires 70→75 on Polymarket 98.2% + no Takaichi pushback + Q1 GDP hike-tolerant composition; Brent breaches $90 line on 4th down session)
+**Last Updated:** 2026-06-09 PM (SAM-21 mechanical trigger fires 70→75 on Polymarket 98.2% + no Takaichi pushback + Q1 GDP hike-tolerant composition; evening correction: Brent $90 was an intraday tag-no-hold, not a held breach — Mon was an up session)
 **View:** Base case progression with branch points marked
 
 This document maps our forward-looking expectations — what's coming, what we think happens, and where the path could diverge. Updated as events resolve or views change.
@@ -9,7 +9,7 @@ This document maps our forward-looking expectations — what's coming, what we t
 
 ---
 
-## RESOLVED — Jun 8-9 (SAM-21 MECHANICAL TRIGGER FIRES 70→75; Q1 GDP HIKE-TOLERANT; BRENT BREACHES $90)
+## RESOLVED — Jun 8-9 (SAM-21 MECHANICAL TRIGGER FIRES 70→75; Q1 GDP HIKE-TOLERANT; BRENT SUB-$90 INTRADAY TAG, NO HOLD)
 
 ### Tue Jun 9 — SAM-21 MECHANICAL TRIGGER FIRES → 70% → 75%
 
@@ -26,16 +26,17 @@ This document maps our forward-looking expectations — what's coming, what we t
 - **Market reaction:** None material. USDJPY held ~160.1 through the print; carry-pricing didn't shift; Polymarket BOJ Jun 16 didn't retrace.
 - **SAM-21 implication:** Non-blocking for the Jun-9 mechanical trigger. Pre-registered SAM-21 spec called Q1 GDP a "soft pre-test: a downward revision could shade pricing but is unlikely to cross the regression threshold on its own." Played out exactly to spec — headline down, mechanism up, market no-react, hike pricing intact.
 
-### Tue Jun 9 — BRENT BREACHES $90 LINE (4th DOWN SESSION; CUMULATIVE −7%)
+### Tue Jun 9 — BRENT TAGS SUB-$90 INTRADAY, DOESN'T HOLD (EVENING CORRECTION: NOT 4 CONSECUTIVE DOWN SESSIONS)
 
-- **Event:** Tue Jun 9 ~12:33 PM ET: Brent **$90.16, −4.34%** intraday — 4th consecutive down session. Cumulative from $96.78 (Jun-3 baseline) = ~−7%. **Breached the STATUS Key Threshold "$90 = headwind resolved" line** for the first time this cycle.
-- **Driver:** Same as Fri's collapse — China demand weakness (crude imports lowest in 10 years) + Trump-Iran walk-back rumors (still rumor-tier, not primary-source Tehran statement).
-- **SAM-23 path-evaluation (held 72%):** Mark-DOWN conjunction now has 2-of-3 deeply met legs but USDJPY-leg STILL INVERTED:
-  - (i) Brent confirms down ≥2 consecutive sessions / cum ≥−2% from $96.78 — **deeply ✅** (4 sessions, −7% cum)
+- **Event (corrected ~9 PM ET same day):** Brent tagged a **$89.59 intraday low ~12:00 PM ET** (the midday boot pulled $90.16 mid-slide — the sub-$90 tag was real), then **recovered to $92.40 by evening**. No closing breach of the "$90 = headwind resolved" line.
+- **Midday mischaracterization walked back (OHLC-verified):** The midday session recorded "BREACHED $90; 4th consecutive down session; −7% cum." Daily closes show: Jun 3 $97.81 → Thu $95.03 (down) → Fri $93.09 (down) → **Mon Jun 8 $94.25 (UP +1.2%)** → Tue ~$92.40 (down ~2%). So Thu-Fri down, Mon up, Tue down — NOT a 4-session monotonic collapse — and cumulative from the documented $96.78 Jun-3 baseline is **−4.5%, not −7%**. (Minor source note: yfinance puts the Jun-3 close at $97.81 vs the $96.78 documented at the time; the pre-registered baseline is kept at $96.78 — the cum leg clears ≥−2% either way.)
+- **Driver:** Same as Fri's slide — China demand weakness (crude imports lowest in 10 years) + Trump-Iran walk-back rumors (still rumor-tier, not primary-source Tehran statement). The intraday tag-and-bounce reads as choppy down-drift, not accelerating collapse.
+- **SAM-23 path-evaluation (held 72%; leg-status corrected in evening pass):** Mark-DOWN conjunction has leg (i) MET — not "deeply" — and USDJPY-leg STILL INVERTED:
+  - (i) Brent confirms down ≥2 consecutive sessions / cum ≥−2% from $96.78 — **✅ MET** (Thu+Fri were the 2 consecutive down sessions; cum −4.5% clears −2%; but Mon's up session interrupts — choppy down-drift, not the 4-session monotonic collapse the midday read claimed)
   - (ii) Tehran walk-back signal — still 🟡 PARTIAL (rumor-tier, no primary-source statement)
   - (iii) USDJPY pulls below 159.50 — **❌ INVERTED** at 160.37 (re-tagged hard #3 trigger after Mon dip — 2nd 160+ touch in 5 trd days, no continuous breach)
-  - **Per discipline: no mark-down.** USDJPY-leg is the load-bearing inversion — intervention probability remains structurally HIGH at 160+ regardless of oil direction.
-- **Catalyst-path-decoupling reinforced:** The Sat Jun 6 analytical note (USDJPY 160 via USD-side NFP, not yen-side MOU/oil) now compounds with Brent breaching the headwind-resolved line WHILE USDJPY *holds* above 160. The SAM-23 framework's MOU-break → oil → yen-weak → USDJPY-up path-dependency assumption has decoupled empirically across two distinct micro-windows. This is becoming a load-bearing thesis-side re-anchoring candidate (CHANGELOG entry warranted post-Jun-16 settle).
+  - **Per discipline: no mark-down. No probability change off the corrected read either — held 72% both passes.** USDJPY-leg is the load-bearing inversion — intervention probability remains structurally HIGH at 160+ regardless of oil direction.
+- **Catalyst-path-decoupling reinforced (survives the correction, softened):** The Sat Jun 6 analytical note (USDJPY 160 via USD-side NFP, not yen-side MOU/oil) still compounds with Brent drifting down ~5% from the Jun-3 baseline (intraday sub-$90 tag) WHILE USDJPY *holds* above 160. The SAM-23 framework's MOU-break → oil → yen-weak → USDJPY-up path-dependency assumption has decoupled empirically across two distinct micro-windows. This is becoming a load-bearing thesis-side re-anchoring candidate (CHANGELOG entry warranted post-Jun-16 settle).
 - **Position-side:** No change. SAM-23 conjunction-discipline preserved through inverting leg; intervention probability case is level-and-posture-driven, not path-driven.
 
 ---
@@ -44,7 +45,7 @@ This document maps our forward-looking expectations — what's coming, what we t
 
 ### Fri Jun 5 — MAY NFP +172K vs 85K CONSENSUS → USDJPY 160.20 INTRADAY (first sustained hard #3 trigger print this cycle)
 
-- **Event:** US May NFP printed +172K (vs 85K consensus, prior 179K revised up); unemployment 4.3% steady; AHE +0.3% MoM / +3.4% YoY. Hot payrolls + resilient labor crushed Fed-cut bets. DXY +0.66% to 100.07; 2Y closed 4.17% (highest since Feb 2025), 10Y 4.55%. USDJPY tagged **160.20 intraday** — first sustained print above MOF #3 hard trigger this cycle. Brent collapsed to $92.94 (-2.20% Fri, 3rd consecutive down session, cumulative -4% from $96.78 Jun-3 baseline) on **separate driver**: China crude imports lowest in 10 years + Trump-Iran walk-back rumors.
+- **Event:** US May NFP printed +172K (vs 85K consensus, prior 179K revised up); unemployment 4.3% steady; AHE +0.3% MoM / +3.4% YoY. Hot payrolls + resilient labor crushed Fed-cut bets. DXY +0.66% to 100.07; 2Y closed 4.17% (highest since Feb 2025), 10Y 4.55%. USDJPY tagged **160.20 intraday** — first sustained print above MOF #3 hard trigger this cycle. Brent collapsed to $92.94 (-2.20% Fri, cumulative -4% from $96.78 Jun-3 baseline) on **separate driver**: China crude imports lowest in 10 years + Trump-Iran walk-back rumors. *[Session-count corrected Jun 9 PM: settled closes show Jun 3 was an UP day ($97.81 vs Jun 2 $96.00), so Fri was the 2nd consecutive down session, not 3rd — the at-the-time "−1.05% to $96.78" Jun-3 read didn't match final settlement. The SAM-23 leg (i) ≥2-consecutive condition was still met.]*
 - **Cross-pair divergence — the diagnostic read:** EURJPY -0.63%, GBPJPY -0.48%, AUDJPY -1.13% — yen STRENGTHENED vs everything EXCEPT USD. FXY -0.07% flat on day despite USDJPY higher (priced via cross-pair signal, not USDJPY tick). **This vindicates the carry-unwind direction thesis:** real yen demand is intact; the USDJPY level is masking it via a USD-side macro shock independent of the Japan story.
 - **SAM-23 (intervention #3) HELD 72%:** Pre-registered conjunction triggers (Jun 4) — neither met cleanly. Mark-DOWN required Brent-down + Tehran walk-back + USDJPY<159.50; (i)+(ii) substantially met but (iii) INVERTED (160.20 up, not 159.50 down). Mark-UP required Brent-up + USDJPY 160+ + Tehran escalation; (ii) met but (i) INVERTED and (iii) missing. **Discipline held the mark.** Analytical note logged: the framework's path-dependency (MOU break → oil → yen-weak → USDJPY) has decoupled — USDJPY can hit hard trigger via independent USD drivers. Re-anchoring candidate for next CHANGELOG.
 - **SAM-21 (June BOJ hike) HELD 70%:** Polymarket 96.3% (Fri close, -0.6pp from Thu 96.9%, within noise). **No dovish capitulation from BOJ market despite Fed-cut path locking dead** — the BOJ-vs-Fed bilateral pricing held up. Per Jun-9 mechanical-trigger discipline, fire-condition (Polymarket ≥90% + no Takaichi pushback) overdetermined; default path is wait for Jun 9 re-check.
