@@ -28,7 +28,8 @@ Will asked for a boot (8:28 PM); EXECUTE became the eve-of-CPI EOD read + ledger
 ## NEXT SESSION (priority-ordered)
 
 1. **🔴 POST-CPI VOL-SURFACE READ — 6/10, print 8:30 ET.** The whole 6/5→6/9 sequence resolves here. Reactive read: (a) front collapse (VIX9D/M1) = fade confirms → **first short-vol expression decision: M2/Jul into FOMC**; (b) VIX extension = fade breaks, stand down. Pull **CPI energy sub-index** (BRENT-agreed discriminator: oil→Fed leg vs AI-unwind, KB-VIO-071/073). HENRY/CARL own the print itself.
-2. **🟠 20d SKEW avg daily refresh** — margin +0.59; a sub-138 print Wed could break R12. Knife-edge continues.
+2. **🟠 PACKET #1 wiring (6/10 PM or 6/11, AFTER the CPI read) — abstain-gate → v3.6.** Full spec + 4 accepted refinements + deliverables checklist: `research/2026-06-09_packet1_abstain_gate_spec.md`. Order: L3 Q3 scan → L2 σ-cut (prior: 2σ) → L4 CONFIRM-only → thesis stack rewrite → two-case re-run → DRAFT echo-back via Will → orchestrator verifies → THEN commit v3.6. Blocking scope: stack-driven entries at 6/17 only; post-CPI fade exempt.
+3. **🟠 20d SKEW avg daily refresh** — margin +0.59; a sub-138 print Wed could break R12. Knife-edge continues.
 3. **🟡 Deep-tail 65C OI day-over-day check** (vix_options detect_dod_changes >20%) — change is the signal, level is not (KB-VIO-075). Note: evening boot prints OI=0 after hours — artifact, ignore; use intraday runs.
 4. **🟡 COT Fri 6/12 release** — Tue 6/9 positions = first post-spike speculator read.
 5. **🟠 Factor-concentration-unwind analog scan** — port `/tmp/nfp_analog_backtest.py` → `scripts/` first (carried from 6/5).
