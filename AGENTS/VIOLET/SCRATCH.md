@@ -8,7 +8,7 @@
 
 - **CPI RESOLVED NON-TAIL (KB-VIO-080)** — headline in-line, core soft, energy >60% of the monthly increase (oil→Fed channel confirmed). The print itself relieved −1.3 vol pts.
 - **IRAN THIRD LEG OPENED AND TOOK THE TAPE (KB-VIO-081/086).** Overnight tit-for-tat (Jordan/Kuwait/Bahrain bases) + Trump "pay the price"; afternoon: WALTER 4 PM dispatch "multi-front re-ignition, fork resolved toward breakdown." VIX 19.87 → 22.24 overnight peak → 20.5 post-CPI relief → **21.86 close (+10.0% d/d)**; SPX −1.62%; WTI 90.45 / OVX 60.38. **Transmission gauge resolved adverse: VIX +10% vs OVX +4.8% — equity vol caught up to oil-vol.**
-- **FADE GATE FAILED TWICE (AM #1, EOD #2 — KB-VIO-086).** Ratio 1.145 vs ≤1.05; M1:M2 +7.98% re-armed. NO ENTRY, stand down. **Invalidation NOT triggered** — close 21.86 < 22.24 < 23.0, applied close-and-hold per KB-VIO-082.
+- **FADE GATE FAILED TWICE (AM #1, EOD #2 — KB-VIO-086).** Ratio 1.155 settle-basis vs ≤1.05; M1:M2 +7.98% re-armed. NO ENTRY, stand down. **Invalidation NOT triggered, margin thin** — **official settle 22.22** (the 16:00 tick read 21.86; futures-settle rule applied to our own row — 16:04 VX_DAILY row superseded post-settle) = retest of the 22.24 overnight peak, 0.78 below the 23.0 line. Close-and-hold per KB-VIO-082.
 - **CCC 9.51 [FRED 6/9] = 4bp from the 9.55 flip** — creeping 3 of 4 prints; HY 2.78 clean. First credit-vector upgrade of the episode (🟡→🟠, approach not breach).
 - **Convergence 22/45 AM → 27/45 EOD** — war vector 🔴, term-structure + credit upgrades; VVIX (52.8 conditional)/SKEW/VRP still neutral = what separates this from a regime break.
 - **VIX3M/VIX 1.0371** — thinnest contango of the move; inversion (peak-marker line) margin 0.81.
@@ -23,7 +23,7 @@
 
 ## NEXT SESSION (priority-ordered)
 
-1. **🔴 6/11 AM daily watch:** VIX vs 22.24/23.0 (close-and-hold), CCC vs 9.55 (FRED 6/10 print), fresh SKEW 6/10 print → 20d-avg refresh (margin +0.59; ~141 holds, sub-138 breaks), OVX/VIX gauge, Iran overnight trajectory. Gate re-adjudication only if ratio moves materially toward 1.05 (unlikely while war live).
+1. **🔴 6/11 AM daily watch:** VIX vs 23.0 close-and-hold (settle 22.22 = retest of the 22.24 peak, margin THIN — tomorrow's close is live against the line), CCC vs 9.55 (FRED 6/10 print), fresh SKEW 6/10 print → 20d-avg refresh (**roll-off math CORRECTED 6/10 PM: single-print break needs <127.6 — a 137 print holds at 140.47; R12 cannot break on one print, watch multi-day drift. Prior "sub-138 breaks" was print/avg-space conflation — Orch catch**), OVX/VIX gauge, Iran overnight trajectory. Gate re-adjudication only if ratio (1.155 settle) moves materially toward 1.05 (unlikely while war live).
 2. **🔴 HAWK re-mark integration:** when HAWK re-marks scenarios post-6/9-10 escalation, replace KB-VIO-087's −15 working adjustment with HAWK's number and re-state the distribution. (Re-mark input already routed to HAWK by WALTER.)
 3. **🟠 Packet #1 wiring (abstain-gate → v3.6)** — spec ready; fit 6/11-6/13.
 4. **🟠 Iran-leg analog scan** (2019 Abqaiq, 2022 Ukraine, 2024 Israel-Iran): how does an OVX/VIX gap resolve historically? Promoted from hypothesis — cheap, decision-relevant while the gauge runs adverse.
