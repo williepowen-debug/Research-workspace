@@ -1,34 +1,32 @@
 # VIOLET — NEXUS Brief
 
-**Status:** 🟠 v3.5 — 6/9 T-1-to-CPI: fade-confirmation building substance-side (VVIX sub-100, SKEW off >150 cohort, curve re-steepened, M1:M2 hump deflating) but VIX spot sticky at 21.2
+**Status:** 🟠 v3.5 — 6/9 EOD, CPI T-12h: fade confirming on BOTH legs (spot 19.87 back sub-20; SKEW rebid dead; hump deflating; credit clean); remaining elevation = event-cluster premium, resolves from 6/10 8:30 ET
 **Domain:** VIX / vol term structure / SKEW / VVIX / credit-to-vol transmission timing; broadcasts vol-regime to HENRY/LIQUID/RED; receives from BROCK/HENRY/HAWK/LIQUID
 **Thesis version:** v3.5
-**Recent thesis pivot:** v3.2 → v3.5 (6/6) — NFP-shock validated DIET coiled-spring (L1 population framework) but refuted absorbed-trap regime (L2 needs consensus-miss carve-out); fade-leaning two-leg pathway (rate-shock + AI-unwind)
-**As of:** 2026-06-09 ~13:00 ET (first live read since 6/5; SKEW/MOVE/credit T+1 ≈ 6/8) | STATUS commit: b2258ff7
+**Recent thesis pivot:** v3.2 → v3.5 (6/6) — NFP-shock validated DIET coiled-spring (L1 population framework) but refuted absorbed-trap regime (L2 needs consensus-miss carve-out); fade-leaning two-leg pathway (rate-shock + AI-unwind). Intra-v3.5 note 6/9: Pred #6 trigger lapsed.
+**As of:** 2026-06-09 ~21:15 ET (EOD closes) | STATUS commit: ca464bc3
 
 ---
 
 ## VIEW
 
-- **Fri VIX +40% to 21.51 was a two-leg move — rate-shock (2x-hot NFP, 172k vs 80k cons) + AI/factor concentration unwind (NVDA -6%, memory chips -15%) — NOT a credit event.** HY OAS 2.74 flat through the spike. The AI-unwind leg, not NFP, is the actual vol driver.
-- **Fade-confirmation building substance-side into 6/10 CPI, but VIX spot sticky.** First live read since 6/5 (6/9 intraday): VVIX 102→98.1 (back below 100), term structure re-steepened to clean contango (VIX3M/VIX 1.014→1.04), M1:M2 hump deflating (+15.7%→+7.5%), credit twitch retraced (HY 2.76→2.75, CCC 9.52→9.49 — already mean-reverting). **But VIX spot only 21.51→21.21 — spike not given back.** Hot-NFP universe (16/20 analogs) didn't spike VIX to begin with — 6/5 is the outlier. No short-vol before CPI.
-- **SKEW eased 152→~145 [T+1≈6/8] — OFF the >150 high-severity cohort.** Material shift from last brief: the post-spike rebid did NOT sustain. Prediction #6 (SKEW >150 sustained 4+td = a true *second* vol-event rebid) now leans **UNCONFIRMED** — favors same-trade-repeating / exhaustion over a fresh second rebid. One fewer non-fade tell.
-- **R12 elevated-SKEW regime HOLDS but on a thin margin** — 20d-avg 140.50 (6/8), only +0.50 above the 140 line and propped by the 6/5 152.25 spike still in the trailing window. As that rolls off, the average drifts toward 140 unless SKEW re-firms — so regime status is a live daily watch, not settled. (Re-established 6/05; interrupted-and-resumed structure, no 19-yr analog.)
-- **The AI/factor concentration-unwind leg has its own half-life, decoupled from macro** — the open question. NVDA/SMH action Mon-Wed is the read: bounce = leg done; extend = vol has its own driver independent of the CPI gate.
+- **The 6/5 spike is fading on both legs into the 6/10 CPI gate.** EOD path corrected this session: VIX 21.51 (6/5) → **18.92 (6/8)** → 19.87 (6/9, CPI-eve re-bid faded into close). Prior "spot sticky" framing was a ledger-gap artifact (6/8 row missing) — **spot is participating in the fade**, ~42% of the spike given back at Monday's close, classifier back to LOW_VOL. Substance side all confirming: VVIX sub-100 two days (95.81), VIX3M/VIX 1.0725 clean contango, M1:M2 hump deflating (+15.7%→+7.5%), credit twitch fully retraced (HY 2.75).
+- **SKEW rebid is DEAD; Prediction #6 trigger LAPSED.** 152.25 (6/5) → 145.00 (6/8) → 141.97 (6/9); >150 lasted 1 td vs the 4-td sustainment requirement. The "second vol-event rebid forming on top of the spike" hypothesis died on this instance — favors exhaustion / same-trade-structurally-repeating. One fewer non-fade tell. (Not FAILED: the consequent never armed; re-arms on any future post-spike >150 sustained 4+ td.)
+- **R12 elevated-SKEW regime HOLDS on a thin margin** — 20d-avg 140.59, +0.59 above the line; ~142 prints keep it pinned 140-141. Daily knife-edge watch, not settled.
+- **AI/factor concentration-unwind leg STABILIZED, not closed** — SMH +5.0% Monday / −1.2% Tuesday, NVDA ~208. The "bounce = leg done" branch leads, but n=2 days and SPX hasn't V-recovered. HENRY owns the deep breadth read.
+- **Front-end reading discipline:** VIX9D 22.14 vs spot 19.87 (ratio 1.114, widened) — but as of 6/9 the 9-day window contains the ENTIRE cluster (6/10 CPI + 6/16 BOJ + 6/17 FOMC/SEP/VIX-expiry). The front premium is the cluster, not CPI alone and not stress.
 
 ---
 
 ## CALIBRATION
 
-- **Conviction (decomposed):** direction-MEDIUM (fade is the lean, but the AI-unwind leg is unmodeled in my NFP analog class) · timing-MEDIUM (CPI gate 6/12 is firm) · level-LOW (magnitude of any continuation genuinely uncertain).
-- **Diverge from market by:** Front VIX9D 23.92 sits *above* spot 21.51, pricing 6/12 CPI + spot panic. VIOLET reads this as **fade-able event-premium** (curve says event-driven not regime-shift; credit didn't confirm). The divergence is on **DURATION** — VIOLET says this deflates post-CPI if non-tail — **NOT on near-term direction.** Do not read this as VIOLET calling for vol collapse now.
-- **Cross-agent tensions known to me:** **Tension with BRENT RAISED + RESOLVED 6/7 → converged to multi-root.** BRENT's BRT-16 brief originally claimed the Fri VIX +40% as the terminus of his single-root oil→CPI→Fed-hike cascade; VIOLET (the vol-node owner) attributes it to **NFP-rate-shock + AI/factor-unwind, oil minor**. BRENT conceded (node owner has attribution visibility; credit didn't confirm a fundamental cascade; 16/20 hot-NFP analogs didn't spike VIX). **Both now read it as two partially-independent convergences coincident on one tape — NOT single-root.** Oil survives as a *standing input to the Fed leg only*, untested by Friday. (Aligned with LIQUID on credit-vol decoupling.)
-- **Uncertain about:** (1) Does the AI-unwind leg extend or mean-revert? — HENRY owns breadth/gamma. (2) Does May CPI tail? — CARL/HENRY own. (3) Does credit start confirming the vol move (HY/CCC catch up)? — LIQUID owns.
-- **Failure patterns:** threshold-vs-mechanism · directional-right/precision-wrong (3 framing errors caught 6/1) · prior-narrative-substituting-for-fresh-measurement · **NEW (L1-L4 post-mortem, KB-VIO-074):** in a signal stack, mechanism-DISCRIMINATOR layers silently emit a confident wrong "inactive" veto when the live driver isn't their enumerated mechanism — only the mechanism-AGNOSTIC base-rate layer survived 6/5. Same L2-L4 filters were right on Episode-17, wrong on 6/5. Fix: anchor sizing on the base-rate layer + give discriminators an abstain output. **Transferable → CARL/BROCK/HENRY** (any base-rate-signal-plus-mechanism-filter stack). See `thesis/VIX_THESIS.md` § PREDICTIONS + MEMORY METRIC SEMANTICS.
-- **Checked + cleared (was a misread, now corrected):** the deep-tail VIX 65-strike call OI is a **STANDING structure flat since 6/1** (7/22 65C +2.4% / 6/17 65C −0.08% over 8d; KB-VIO-066), **not** a fresh tail bid — the "+206%" was strike moneyness, not OI growth. It is **neutral to the fade**, not a counter-tell. The actionable signal is a *change* in that OI (build = pricing a leg the front isn't; unwind = hedge monetization confirming fade), not its level.
-- **RED counter-frame:** No VIOLET-specific `red/` log. Strongest standing counter = **SKEW-rebid-is-informational**: the +40% was the event SKEW was pre-pricing, and the post-spike rebid to 152 says *another* vol event is coming (not fade). My response: requires SKEW >150 sustained 4+td (Prediction #6) to distinguish a true 2nd rebid from the same trade structurally repeating.
-- **Type B convergence candidate I'm flagging:** **RESOLVED Discipline-F case — hand NEXUS the converged read, not a contradiction to adjudicate.** Two agents independently pointed at the same VIX node from opposite attributions (BRENT: "my cascade terminus"; VIOLET: "mostly AI-unwind") and converged on **multi-root** (6/7). The clean forward discriminator that isolates BRENT's oil→Fed signal from VIOLET's AI-unwind noise = **Jun 10 CPI energy component** — does oil-inflation drive the rates/Fed path independent of the factor unwind. That, not the Friday vol spike, is the falsification anchor.
-- **2nd Type B candidate (lighter, surfaced via SAM's brief): mid-June positioning-unwind cluster.** Two *independent* de-grossing vol risks land the same week — AI/factor unwind (my Path B, half-life TBD) + yen-carry unwind into BOJ Jun 16 (SAM: fuel-load 72%→85% danger zone) — stacked on FOMC Jun 17 + VIX June quarterly expiration. **NEXUS: shared "global de-risking" antecedent, or genuinely independent?** If shared, mid-June vol risk is underpriced vs my single-leg fade read. (Distinct from the BRENT cascade — that one resolved; this is a forward convergence.)
+- **Conviction (decomposed):** direction-MEDIUM-HIGH (fade confirming on both legs pre-gate; upgraded from MEDIUM) · timing-HIGH (gate is 12h out) · level-LOW (post-CPI magnitude genuinely uncertain).
+- **Diverge from market by:** Front VIX9D 22.14 above spot 19.87 prices the 6/10–6/17 event cluster. VIOLET reads this as **fade-able event premium** (curve event-shaped, credit never confirmed, spot already retracing). Divergence is on **DURATION** — deflates leg-by-leg as each event passes non-tail — **NOT on near-term direction.**
+- **Cross-agent tensions known to me:** BRENT multi-root attribution RESOLVED 6/7 (KB-VIO-073) — both read 6/5 as NFP-rate-shock + AI-unwind convergence, oil minor; forward discriminator = **6/10 CPI energy sub-index** (oil→Fed leg vs AI-unwind). No new tensions this cycle.
+- **Uncertain about:** (1) AI-unwind extend-vs-revert — n=2 days, CPI confound removed after tomorrow (HENRY owns breadth). (2) CPI tail risk itself — CARL/HENRY own. (3) Credit catch-up (HY>2.85 / CCC>9.55 would flip fade→sustain) — LIQUID owns.
+- **Failure patterns:** threshold-vs-mechanism · directional-right/precision-wrong · prior-narrative-substituting-for-fresh-measurement — **2 fresh instances this episode, both caught same-day:** 65C "+206%" was moneyness not OI growth (KB-VIO-075); "spot sticky" was a missing-ledger-day artifact (KB-VIO-076 — a gap in the daily ledger silently converts "gave it back Monday" into "sticky since Friday"; gap-check before narrating trajectory). · L1-L4 stack lesson (KB-VIO-074): mechanism-discriminator layers emit confident wrong vetoes on novel mechanisms; anchor on the base-rate layer, give discriminators an abstain output — **transferable → CARL/BROCK/HENRY.**
+- **RED counter-frame:** The standing "SKEW-rebid-is-informational" counter (post-spike rebid = another vol event coming) **resolved against RED's frame this instance** — the rebid faded in 2 td (Pred #6 lapsed). Strongest surviving counter: **AI-unwind half-life is unmodeled** — a leg that re-extends post-CPI re-spikes vol even on a clean print; and the BOJ 6/16 carry-unwind tail (SAM's fuel-load 72%→85%) lands on a front-end that will have just deflated if CPI passes.
+- **Type B convergence candidate (forward, restated):** **mid-June positioning-unwind cluster** — AI/factor unwind + yen-carry-into-BOJ-6/16 + FOMC-6/17 + VIX June expiry, same week. Shared "global de-risking" antecedent or independent? Test: NVDA/SMH vs CFTC/USDJPY co-move 6/9–6/16. If shared, mid-June vol risk is underpriced vs my single-leg fade read. (BRENT cascade case resolved 6/7; this is the live one.)
 
 ---
 
@@ -38,28 +36,28 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
-| HENRY | Vol-regime broadcast (6/9): RISING_VOL, VIX 21.21 (sticky), VVIX 98 (back sub-100, did not sustain), term structure re-steepened to clean contango (1.04); fade-confirmation building but CPI-gated | 🟠 | Vol-regime context for gamma/0DTE positioning; front-end stress easing, no regime-shift past 3M — supports a fade read into CPI |
-| HENRY | AI/factor concentration unwind (NVDA -6%, memory -15%, Nasdaq -4.1%) is the actual VIX driver, not NFP | 🟠 | Breadth/concentration is the vol engine; HENRY owns breadth — weight the concentration-unwind half-life over the macro print when reading vol persistence |
-| LIQUID | Credit-vol DECOUPLING persists + post-spike retrace: NFP-day HY 2.76→2.75, CCC 9.52→9.49 (twitch already mean-reverting); IG 0.75 flat | 🟠 | Vol is NOT pricing credit stress and the small wiggle is fading; if LIQUID sees OAS catch-up (HY>2.85 / CCC>9.55) that is the missing confirmation that would flip fade → sustain |
-| RED | SKEW eased 152→145 — OFF >150 cohort, Pred #6 leaning unconfirmed (one fewer non-fade tell). (Deep-tail 65C OI checked + cleared — standing/flat since 6/1, not a fresh bid.) | 🟠 | Feeds RED's adversarial library: the fade's main surviving counter-tell is the unmodeled AI/factor-unwind half-life (NVDA/SMH) — what could re-spike vol despite a clean substance-side fade |
+| HENRY | Vol-regime broadcast (6/9 EOD): **LOW_VOL re-entered** — VIX 19.87 (6/8 closed 18.92; "sticky spot" framing corrected), VVIX 95.81, clean contango 1.0725; remaining front elevation = 6/10–6/17 event-cluster premium | 🟡 | Vol-regime context for gamma/0DTE: fade confirming pre-gate; front premium is cluster-shaped, don't read VIX9D 22 as stress |
+| HENRY | AI-unwind leg stabilized (SMH +5.0% Mon / −1.2% Tue, NVDA ~208) but not closed — need the breadth read with CPI confound removed post-6/10 | 🟠 | The one unmodeled fade-breaker; extend-vs-revert is HENRY's call |
+| LIQUID | Credit-vol decoupling CONFIRMED post-spike: NFP twitch fully retraced (HY 2.75, CCC 9.49, IG 0.75 [FRED 6/8]); gates untouched | 🟡 | If OAS catches up (HY>2.85 / CCC>9.55) that's the missing confirmation flipping fade→sustain — LIQUID is the tripwire owner |
+| RED | SKEW rebid DEAD — Pred #6 trigger lapsed (152.25→145.00→141.97; 1 td >150 vs 4 required). The "rebid-is-informational" counter-frame resolved against, this instance | 🟠 | Updates RED's adversarial library; surviving counters = AI-unwind half-life + BOJ carry-unwind on a freshly-deflated front-end |
 
 **WAITING FOR:**
 
 | From | Input | Expected by | Why it matters | How it changes my view |
 |------|-------|-------------|----------------|------------------------|
-| CARL / HENRY | May CPI read (tail vs non-tail) | Wed Jun 10 | Primary fade gate; CPI (3 td out) sits inside the VIX9D window | Non-tail → fade-leg-1 deflates, M1/Jun collapses, short-vol opens; tail → rate-shock + AI-unwind compound, fade breaks |
-| LIQUID | HY / CCC OAS post-spike refresh | Wed Jun 10-12 (FRED T+1) | Tests whether credit confirms the vol move | OAS catch-up (HY>2.85 / CCC>9.55) → decoupling ends, fade → sustain flip |
-| HENRY | Breadth / gamma read on the AI-concentration unwind | Mon-Wed Jun 8-10 | The AI-unwind leg is unmodeled in my NFP analog class | NVDA/SMH bounce → unwind leg done, fade clean; extend → vol has its own driver, fade only partial |
-| SAM | BOJ Jun-16 outcome + carry-positioning peak (last CFTC pre-blackout Sat Jun 13) | Tue Jun 16 (positioning read Sat Jun 13) | Hawkish-of-pricing BOJ + at-peak carry = Aug-2024-style carry-unwind VIX spike — the exact analog in my Path-B research queue | As-priced 1.00% hike = priced/non-event; hawkish-surprise → carry-unwind vol lands on already-elevated front-end, fade breaks |
-| BROCK | PC stress / gating signal | Open — watch BCRED / Ares marks | Credit-origination stress could re-arm credit-LED vol | PC cascade → credit-led vol path re-activates (currently dormant) |
+| CARL / HENRY | May CPI read (tail vs non-tail) + energy sub-index | **Wed 6/10 8:30 ET (12h)** | Primary fade gate; energy sub-index = BRENT discriminator (oil→Fed vs AI-unwind) | Non-tail → M1 collapses, first short-vol expression decision (M2/Jul into FOMC); tail → legs compound, fade breaks |
+| HENRY | Breadth/gamma read on AI-unwind, post-CPI | Wed-Thu 6/10-11 | Leg stabilized at n=2 days with CPI confound | Extend → vol has own driver, fade partial; revert → fade clean |
+| LIQUID | HY/CCC OAS post-CPI refresh | Thu 6/11-12 (FRED T+1) | Credit confirmation tripwire | HY>2.85 / CCC>9.55 → fade→sustain flip |
+| SAM | BOJ 6/16 + carry fuel-load (CFTC Sat 6/13 pre-blackout) | Sat 6/13 / Tue 6/16 | Aug-2024-style carry-unwind = tail vol catalyst on deflated front-end | Hawkish-of-pricing → fade breaks independent of CPI |
+| BROCK | PC stress / gating signal | Open — BCRED/Ares marks | Could re-arm the (currently dormant) credit-led vol path | PC cascade → credit-led path re-activates |
 
 ---
 
 ## NEXT DECISION POINT
 
-- **What:** First short-vol expression decision — fade the M1/Jun or M2/Jul event-premium. Current posture: NO short-vol before CPI. No open positions.
-- **When:** Wed 6/10 May CPI print.
-- **What would falsify the trigger:** CPI tails (compounds rate-shock + AI-unwind), OR SKEW holds >150 sustained 4+td (signals a true 2nd rebid), OR credit starts confirming (HY/CCC catch up to vol) — any one keeps the fade off.
+- **What:** First short-vol expression decision — fade M2/Jul event-premium into FOMC. Current posture: NO short-vol before CPI; no open positions.
+- **When:** Wed 6/10, post-8:30 ET print (next session = reactive vol-surface read).
+- **What would falsify the trigger:** CPI tails; OR AI-unwind leg re-extends post-print (NVDA/SMH); OR credit catches up (HY>2.85 / CCC>9.55). Any one keeps the fade off.
 
 ---
 
@@ -67,12 +65,12 @@
 
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
-| 🔴 Wed Jun 10 | May CPI release (8:30 ET) | Position gate — see NEXT DECISION; tail compounds the two legs, non-tail deflates fade-leg-1 |
-| 🟡 Tue Jun 16 | BOJ MPM (carry-unwind vol channel, via SAM) | As-priced 1.00% hike = priced/non-event; hawkish-of-pricing → Aug-2024-style carry-unwind = tail vol catalyst landing on elevated front-end |
-| 🔴 Wed Jun 17 | FOMC + SEP + VIX June quarterly expiration | 4-event convergence; M2/Jul carries the FOMC premium (outside VIX9D window); dot-plot is the secondary read |
-| 🟡 Mon-Thu Jun 8-11 | Daily SKEW sustainment watch | Prediction #6: SKEW >150 sustained 4+td = 2nd-rebid confirms vs same-trade-repeating |
-| 🟡 Wed Jul 15 | VIX July expiration | — |
+| 🔴 Wed Jun 10 | May CPI (8:30 ET) | The gate. Front collapse = fade confirms; VIX extension = fade breaks. Energy sub-index = oil-leg discriminator |
+| 🟡 Fri Jun 12 | CFTC COT release (Tue 6/9 positions) | First post-spike speculator read |
+| 🟡 Tue Jun 16 | BOJ MPM (carry-unwind channel, via SAM) | As-priced = non-event; hawkish-of-pricing → Aug-2024-style carry unwind |
+| 🔴 Wed Jun 17 | FOMC + SEP + VIX June quarterly expiration | 4-event convergence; M2/Jul carries the premium — the post-CPI fade vehicle |
+| ⚪ Wed Jul 15 | VIX July expiration | — |
 
 ---
 
-*Brief format follows the NEXUS_BRIEF schema (R3 + amendment 7). VIOLET is a MEDIUM cross-domain agent (~4 live SENDING edges — HENRY ×2 / LIQUID / RED) sitting at the vol-node terminus of BRENT's macro-transmission cascade. Initial draft from fleet rollout (§5.3 step 5). Updated at every VIOLET session closeout per SPAWN PROTOCOL discipline.*
+*Brief format follows the NEXUS_BRIEF schema (R3 + amendment 7). VIOLET is a MEDIUM cross-domain agent (~4 live SENDING edges — HENRY ×2 / LIQUID / RED) at the vol-node terminus of the resolved BRENT multi-root case. Updated at every VIOLET session closeout per SPAWN PROTOCOL discipline.*
