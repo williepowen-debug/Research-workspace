@@ -1,8 +1,8 @@
 # VIOLET STATUS
 
-**Signal Status:** 🟠 **6/10 EOD — RELIEF RETRACED, WAR LEG OWNS THE TAPE. CPI resolved non-tail at 8:30 (KB-VIO-080) but the Iran third leg (KB-VIO-081) took the session: VIX closed 21.86 (+10.0% d/d), SPX −1.62%, WTI 90.45/OVX 60.4 — the OVX/VIX transmission gauge resolved its day by VIX CATCHING UP (adverse branch). FADE GATE FAILS #2 AT EOD (ratio 1.145 vs ≤1.05; M1:M2 +7.98% re-armed) — NO ENTRY, stand down (KB-VIO-086). INVALIDATION NOT TRIGGERED: close 21.86 < 22.24 overnight peak < 23.0 line, applied close-and-hold per KB-VIO-082 (a 23-touch is the modal path for this episode's shape — only sustained closes above kill the fade). Stated scenario distribution formalized DECOMPOSED (KB-VIO-087): ~40-45% fade path / ~35-40% stand-aside / ~15-20% VIX-30 tail; the Iran term (HAWK 6/8 base, VIOLET −15 adj pending re-mark) is the variance driver and is not VIOLET's to own. Credit clean but CCC 9.51 = 4bp from the flip.**
+**Signal Status:** 🟠 **6/10 EOD — RELIEF RETRACED, WAR LEG OWNS THE TAPE. CPI resolved non-tail at 8:30 (KB-VIO-080) but the Iran third leg (KB-VIO-081) took the session: VIX SETTLED 22.22 (+11.8% d/d; official 16:15 settle — the 4:00 tick read 21.86 and the last 15 min kept bidding), SPX −1.62%, WTI 90.45/OVX 60.4 — the OVX/VIX transmission gauge resolved its day by VIX CATCHING UP (adverse branch). FADE GATE FAILS #2 AT EOD (ratio 1.155 settle-basis vs ≤1.05; M1:M2 +7.98% re-armed) — NO ENTRY, stand down (KB-VIO-086). INVALIDATION NOT TRIGGERED but the margin is now thin: settle 22.22 vs 22.24 overnight peak (a RETEST, not a lower high) vs 23.0 line; close-and-hold per KB-VIO-082 (a 23-touch is the modal path — only sustained closes above kill the fade). Stated scenario distribution formalized DECOMPOSED (KB-VIO-087): ~40-45% fade path / ~35-40% stand-aside / ~15-20% VIX-30 tail; the Iran term (HAWK 6/8 base, VIOLET −15 adj pending re-mark) is the variance driver and is not VIOLET's to own. Credit clean but CCC 9.51 = 4bp from the flip.**
 
-**Live (6/10 EOD closes):** VIX **21.86** (+10.0%) | VIX9D **25.03** (ratio **1.145**) | VIX3M **22.67** (VIX3M/VIX **1.0371** — thinnest contango of the move; inversion margin 0.81) | VIX6M **23.97** | VVIX **107.41** (+12.1%; 78.6 pct 1yr / **52.8 conditional = NEUTRAL**) | SKEW **141.97 [6/9 T+1]** | 20d SKEW avg **140.59 [thru 6/9]** (R12 margin +0.59 THIN) | **M1:M2 +7.98% (adj)** re-armed | WTI **90.45** / OVX **60.38** [BRENT owns substance] | MOVE **77.03** flat | HY OAS **2.78** / CCC **9.51** / IG **0.75** [FRED 6/9, T+1] | 10Y **4.56** / 2Y **4.15** [FRED 6/8] | COT Lev Money **−33,033 / pct3y 43.6** [6/2; Fri 6/12 = first post-spike read] | **Last Updated:** 2026-06-10 ~4:15 PM ET (EOD sweep)
+**Live (6/10 official settles, ~16:15 ET):** VIX **22.22** (+11.8%) | VIX9D **25.67** (ratio **1.155**) | VIX3M **22.89** (VIX3M/VIX **1.0302** — thinnest contango of the move; inversion margin 0.67) | VIX6M **24.13** | VVIX **108.16** (+12.9%; 78.6 pct 1yr / ~53 conditional = NEUTRAL [16:06 read basis]) | SKEW **141.97 [6/9 T+1]** | 20d SKEW avg **140.59 [thru 6/9]** (R12 margin +0.59 in avg-space; **single-print break needs <127.6** — regime cannot break on one print) | **M1:M2 +7.98% (adj)** re-armed | WTI **90.45** / OVX **60.38** [BRENT owns substance] | MOVE **77.03** flat | HY OAS **2.78** / CCC **9.51** / IG **0.75** [FRED 6/9, T+1] | 10Y **4.56** / 2Y **4.15** [FRED 6/8] | COT Lev Money **−33,033 / pct3y 43.6** [6/2; Fri 6/12 = first post-spike read] | **Last Updated:** 2026-06-10 ~5:45 PM ET (EOD sweep + settle/arithmetic corrections per Orch verification)
 
 ---
 
@@ -10,14 +10,14 @@
 
 | Metric | Value | As Of | Status | Source |
 |--------|-------|-------|--------|--------|
-| VIX Spot | **21.86** | 6/10 close | 🟠 | [CONF] yf — path: 19.87 prior close → 22.24 overnight peak (Iran, pre-CPI) → 20.5 post-print relief → 22.66 day high → 21.86 close. Did NOT take out the overnight peak; did NOT touch 23.0. RISING_VOL. |
-| VIX9D | **25.03** | 6/10 close | 🟠 | [CONF] yf — ratio 1.145 vs ≤1.05 fade gate: **FAIL #2**. Remaining kink = BOJ 6/16 + FOMC 6/17 + unscheduled war tail (WALTER: no named Iran event 6/16-17 — the war premium does NOT deflate on the FOMC print). |
-| VIX3M | **22.67** | 6/10 close | 🟡 | [CONF] yf |
-| VIX6M | **23.97** | 6/10 close | 🟡 | [CONF] yf |
-| VIX3M/VIX | **1.0371** | 6/10 close | 🟠 | [CONF] calc — 1.0725 → 1.0592 → 1.0371 in three reads. Inversion (peak-marker broadcast line, KB-VIO-034) margin 0.81 pts. Upgraded 🟡→🟠. |
-| VVIX | **107.41** | 6/10 close | 🟡 | [CONF] yf + convexity_read 16:06 — 78.6 pct 1yr (RICH tactical) but **52.8 conditional (VIX 20-30) = NEUTRAL**. Protection bid rising, not panicking. 120 stress line distant. |
+| VIX Spot | **22.22** | 6/10 settle | 🟠 | [CONF] CBOE settle via yf — path: 19.87 prior close → 22.24 overnight peak (Iran, pre-CPI) → 20.5 post-print relief → settle 22.22. **A RETEST of the overnight peak (−0.02), not a lower high** — the 16:00→16:15 window kept bidding (16:00 tick was 21.86). Did NOT touch 23.0. RISING_VOL. |
+| VIX9D | **25.67** | 6/10 settle | 🟠 | [CONF] yf — ratio 1.155 vs ≤1.05 fade gate: **FAIL #2**. Remaining kink = BOJ 6/16 + FOMC 6/17 + unscheduled war tail (WALTER: no named Iran event 6/16-17 — the war premium does NOT deflate on the FOMC print). |
+| VIX3M | **22.89** | 6/10 settle | 🟡 | [CONF] yf |
+| VIX6M | **24.13** | 6/10 settle | 🟡 | [CONF] yf |
+| VIX3M/VIX | **1.0302** | 6/10 settle | 🟠 | [CONF] calc — 1.0725 → 1.0592 → 1.0302 in three reads. Inversion (peak-marker broadcast line, KB-VIO-034) margin 0.67 pts. Upgraded 🟡→🟠. |
+| VVIX | **108.16** | 6/10 settle | 🟡 | [CONF] yf + convexity_read 16:06 (107.4 basis) — 78.6 pct 1yr (RICH tactical) but **~53 conditional (VIX 20-30) = NEUTRAL**. Protection bid rising, not panicking. 120 stress line distant. |
 | SKEW | **141.97** | 6/9 [T+1] | 🟡 | [CONF] yf — 6/10 print pending (CBOE T+1). 26.6 pct 1yr = NOT rich. |
-| 20d SKEW avg | **140.59** | thru 6/9 | 🟠 | [CONF] computed — R12 HOLDS, margin +0.59 THIN. Roll-off math: ~141 print holds, sub-138 breaks. Refresh when 6/10 publishes. |
+| 20d SKEW avg | **140.59** | thru 6/9 | 🟠 | [CONF] computed — R12 HOLDS, margin +0.59 in **avg-space**. **Print-space: 6/10 roll-off is 139.41 (5/12), so single-print break needs <127.6** — a 137 print leaves avg at 140.47. Regime CANNOT break on one print; watch the multi-day drift, not tomorrow's print. *(Corrected 6/10 PM — prior "sub-138 breaks" conflated print-space with avg-space; Orch catch.)* |
 | **M1:M2 contango (Jun/Jul)** | **+7.98% (adj)** | 6/10 EOD | 🟠 | [CONF] thresholds.py — re-armed and held all session. Hump deflation thesis paused by the war leg. |
 | HY OAS | **2.78** | 6/9 [FRED T+1] | 🟢 | [CONF] FRED — +3bp; gate >2.85 clean. Credit STILL not confirming: the cleanest "event premium, not systemic" tell. |
 | CCC OAS | **9.51** | 6/9 [FRED T+1] | 🟠 | [CONF] FRED — **4bp from the 9.55 flip line** (fade gate 2 / credit-confirm trigger). Creeping 3 of last 4 prints. THE credit watch. Upgraded 🟡→🟠. |
@@ -26,7 +26,7 @@
 | MOVE | **77.03** | 6/10 | 🟡 | [CONF] yf — flat; bond vol still not confirming escalation. |
 | COT Lev Money NET | **−33,033 / pct3y 43.6** | Tue 6/2 | 🟢 | [CONF] CFTC — Fri 6/12 release = first post-spike speculator read. |
 | Deep-tail VIX 65C OI | 261k (7/22) / 176k (6/17) | 6/10 intraday | 🟢 | [CONF] vix_options — standing structure, flat day-over-day (KB-VIO-066/075). |
-| SPX | **7,267 (−1.62%)** | 6/10 close | 🟠 | HENRY owns — equity participated in the war de-risk. NVDA/SMH soft. |
+| SPX | **7,267 (−1.62%)** | 6/10 close | 🟠 | HENRY owns — equity participated in the war de-risk. **NVDA −3.7% / SMH −3.4% — the AI leg RE-ACCELERATED today, not drifted** (war-entangled; HENRY's attribution to own). |
 
 ---
 
@@ -44,15 +44,15 @@
 | VRP / vol risk premium | 🟡 | IV−RV +7.27 (67th) NEUTRAL; grind tape (Parkinson ≈ CC). | 2026-06-10 |
 | Oil/geopolitical→vol transmission | 🔴 | Iran multi-front re-ignition (WALTER: fork toward breakdown); VIX caught up to oil-vol all session; HAWK D-scenario re-mark pending. Upgraded 🟠→🔴. | 2026-06-10 |
 
-**Convergence Score: 27/45 (60%)** (⚪1/🟡2/🟠3/🔴4/🔴🔴5) — up from 22/45 AM. Escalation is now broad-ER but still not broad: VVIX/SKEW/VRP neutral legs are what separate this from a regime break. The 🔴 is the war vector; the credit upgrade is an approach-warning, not a confirmation.
+**Convergence Score: 25/45 (56%)** (⚪1/🟡2/🟠3/🔴4/🔴🔴5) — up from 22/45 AM (+1 term structure, +1 credit, +1 war vector). *(Corrected 6/10 PM: first stamp said 27/45 — mis-summed vs its own emoji rows, the exact error class flagged on 6/9's matrix, reproduced in the opposite direction. Orch catch; sum now verified row-by-row.)* Escalation is broad-ER but still not broad: VVIX/SKEW/VRP neutral legs are what separate this from a regime break. The 🔴 is the war vector; the credit upgrade is an approach-warning, not a confirmation.
 
 ---
 
 ## DRIFT ASSESSMENT (6/10 AM → EOD)
 
-- 🔴 **The afternoon belonged to the war leg.** CPI relief (−1.3 vol pts on the print bar) fully retraced by the close; VIX +10% d/d with OVX +4.8% — equity vol absorbed war risk all day (the KB-VIO-081 gauge's adverse branch).
+- 🔴 **The afternoon belonged to the war leg — including the last 15 minutes.** CPI relief (−1.3 vol pts on the print bar) fully retraced; VIX settled +11.8% d/d with OVX +4.8% — equity vol absorbed war risk all day (the KB-VIO-081 gauge's adverse branch), and the 16:00→16:15 settle window added another 0.36 (21.86 tick → 22.22 settle). **The settle is a RETEST of the 22.24 overnight peak, not a lower high** — the "headline fatigue" tell from the 4 PM read did not survive the settle (futures-settle rule, auto-memory 337f0cfc, applied to our own row same day).
 - 🟠 **Fade gate FAILS #2 (KB-VIO-086)** — pre-registered outcome (b): stand down. Realistic next entry window is post-6/17, and only on Iran stabilization.
-- 🟢 **Invalidation NOT triggered** — close 21.86, below both lines; close-and-hold semantics (KB-VIO-082) applied for the first time and did exactly what the re-grade intended: today's 22.66 high was an unremarkable point on the modal path, not a signal.
+- 🟡 **Invalidation NOT triggered, margin thin** — settle 22.22 < 23.0; close-and-hold semantics (KB-VIO-082) applied for the first time: a settle 0.78 below the line on the modal path is expected behavior, not a signal — but tomorrow's close is live against it. *(Downgraded 🟢→🟡 on the settle correction.)*
 - 🟠 **CCC 9.51 — 4bp from the flip.** Three of four prints creeping wider while HY stays clean. If CCC crosses 9.55 with HY following toward 2.85, the "event premium" framing starts converting to "credit confirms."
 - 🟡 **Stated distribution formalized decomposed (KB-VIO-087, supersedes KB-VIO-052):** ~40-45% fade / ~35-40% stand-aside / ~15-20% VIX-30 tail; P(23-26 touch by ~Aug) 60-70% cross-branch. The Iran term is HAWK-based (6/8: C+B 65%) with a VIOLET −15 working adjustment pending HAWK re-mark.
 
@@ -110,4 +110,4 @@
 
 ---
 
-*Last updated: 2026-06-10 ~4:15 PM ET EOD sweep (KB-VIO-086/087; gate FAILS #2, stand down; invalidation not triggered under close-and-hold; CCC 4bp from flip; convergence 27/45 with war vector 🔴; distribution formalized decomposed, supersedes KB-VIO-052; VX_DAILY intraday row superseded with EOD closes; WALTER MARKET_VOL split resolved. SKEW 6/10 print + 20d-avg refresh owed next session [T+1].)*
+*Last updated: 2026-06-10 ~5:45 PM ET (EOD sweep + Orch-verification corrections: VIX to official settle 22.22 [16:04 tick row superseded — futures-settle rule]; convergence re-summed 27→25/45; R12 roll-off math fixed [single-print break <127.6, NOT sub-138]; NVDA/SMH re-acceleration stated. KB-VIO-086/087; gate FAILS #2, stand down; invalidation not triggered, margin thin; CCC 4bp from flip. SKEW 6/10 print + 20d-avg refresh owed next session [T+1].)*
