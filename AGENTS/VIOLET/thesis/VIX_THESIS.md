@@ -67,6 +67,8 @@ VIX peak within fwd-60td, **episode-level** (sizing unit) with fire-day rate in 
 
 **Provenance note (the 6/9 correction):** the "94%" previously cited as "KB-VIO-067 hit rate" is the **STRICT** ≥+15% episode rate from `research/2026-04-15_skew_divergence_episodes.md` (KB-VIO-036 lineage); the DIET ≥+15% rate had never been computed until 6/9 (it is 92% — close by coincidence, not provenance). The KB-VIO-067 backtest's own line 186 mischaracterized the 94% (corrected in-file). **Usage rule:** quote the rate at the threshold the trade actually targets and name the tier + unit (episode vs fire-day). "L1 at full weight" in the Packet-#1 combiner means THIS table. Caveats: DIET standalone subset (17 eps, STRICT-adjacent removed) = 88% at ≥+15%; DIET ≥+50% mean is COVID-outlier-loaded — median read is robust.
 
+**Construction note (added 6/10, KB-VIO-084):** episode-level rates are the **max over per-fire-day forward-60td windows** — an episode counts as a hit if *any* of its fire days' windows crosses the threshold, so the most favorable (lowest-base, latest-window) fire day governs. Verified by exact reproduction of all six table cells from `workbook/DIET_COILED_SPRING.csv` (first-fire-day-only does NOT reproduce them). **Implication for translating a threshold into a VIX level on a live episode: use the lowest-base fire day as anchor** (e.g., 5/20-5/29 2026 episode → anchor 5/29 @ 15.32, so ≥+50% = VIX ≈ 23.0, not the ~26 a first-fire anchor implies). Any % claim about an episode must name its anchor. Path-conditioned cuts on this table: `research/2026-06-10_diet_path_conditioned_cut.md`.
+
 ---
 
 ## CENTRAL CLAIM (Four-Model Synthesis)
@@ -393,17 +395,21 @@ System thesis: Credit stress → bank stress → equity crash. *(Scenario weight
 
 **VIOLET's role:** Time the equity vol leg and detect regime shifts.
 
-### Current status (2026-06-06)
+### Current status (2026-06-10 ~3 PM ET intraday; EOD adjudication pending)
 - **BROCK/SHADE:** Private credit substance gradually firming; Stage-3 gates intact (verify with agent).
-- **LIQUID:** HY OAS 2.74 (6/4 EOD, T+1 lag), flat through the 6/5 spike. CCC 9.46 (+5bps over 4td). IG 0.74. **Credit DID NOT crack on 6/5** — clean Path A counter-signal.
-- **VIOLET:** RISING_VOL regime as of 6/5. VIX 21.51, VVIX 102.04 (first sustained >100 in 2026), SKEW **152.25** (high-severity cohort, KB-VIO-031), M1:M2 strict +15.71% (M2 event-premium hump on Jul/FOMC). VIX9D ABOVE spot (23.92 vs 21.51) — front-end inverted, but VIX3M 21.82 still above so not regime-shift-grade. **R12 elevated-SKEW regime RE-ESTABLISHED 6/05** at 20d-avg 140.16 (KB-VIO-072) — interrupted-and-resumed structure, not historically equivalent to original 222-td run.
-- **HENRY:** AI/factor concentration cascade fired 6/5 (NVDA -6%, SMH/memory chip ETF -15%, Nasdaq -4.1%). Path B amplifier on rate-shock trigger.
+- **LIQUID:** HY OAS 2.75 (6/8 EOD, T+1 lag) — flat through BOTH shocks (6/5 NFP spike and 6/9-10 Iran escalation). CCC 9.49, IG 0.75. **Credit still not confirming** — the cleanest "event premium, not systemic" tell standing. 6/9 print = tonight's key check.
+- **VIOLET:** RISING_VOL (intraday re-cross at VIX ~20.6 AM, ~21.9 by 2 PM). 6/10 CPI RESOLVED NON-TAIL (KB-VIO-080: headline in-line, core soft; energy >60% of monthly increase = oil→Fed channel confirmed). VIX9D ~25 (ratio ~1.15, front re-armed); VIX3M/VIX 1.038 — three sessions of flattening, inversion <1pt away. R12 holds thru 6/9 data (20d-avg margin +0.59 thin). M1:M2 +7.98% re-arming.
+- **HENRY:** AI leg drifting, not extending (NVDA/SMH soft); SPX −1.0% intraday 6/10 — equity now participating in the war de-risk.
+- **HAWK/BRENT substance, VIOLET transmission:** Iran tit-for-tat strikes opened a THIRD vol leg overnight 6/9-10 (KB-VIO-081). WTI ~91.6, OVX ~60 vs VIX ~22 — the OVX/VIX gap is resolving by **VIX catching up** (adverse branch). Qatar diplomatic channel active same day — two-way.
 
 ### Current posture
-**Fade-leaning with two-leg pathway** (KB-VIO-070, KB-VIO-071):
-- Rate-shock leg fades by historical base rate (16/20 hot-NFP+rate-shock days didn't spike VIX to begin with).
-- AI/factor concentration unwind leg has its own half-life decoupled from macro — open question.
-- **Position discipline: NO short-vol before 6/12 May CPI.** Fade must clear CPI first.
+**Fade-leaning, three-leg pathway, ENTRY GATED OFF** (KB-VIO-070/071/080/081):
+- Rate-shock leg: deflated (16/20 hot-NFP base rate played out).
+- AI/factor unwind leg: stabilized-but-open; half-life question carried.
+- **Iran/oil leg (NEW 6/10): LIVE.** This is the KB-VIO-039 external-catalyst class firing into a thin-margin R12 regime with BOJ/FOMC/expiry inside 7 days. Scenario input, not framework change — no version bump.
+- **Position discipline: pre-registered fade gate FAILED 6/10 AM (front did not collapse: ratio ~1.15 vs ≤1.05). NO short-vol while the war leg is live.** Re-adjudication 6/10 EOD / 6/11.
+- **Invalidation is CLOSE-AND-HOLD above 23, not a touch.** The path-conditioned cut (`research/2026-06-10_diet_path_conditioned_cut.md`, KB-VIO-082) shows the modal historical path for this episode's shape (early ≥+40% print, pullback) TOUCHES ≥+50% ≈ VIX 23.0 (table-consistent anchor) before window close (~Aug): 6/6 broad, 3/3 exact-shape. A 23-touch is the expected path; only sustained closes above it invalidate the fade framework. Fade *destination* survives in half the analogs (window-end at/below base) — but every analog path ran through the touch first, so any post-6/17 entry must budget for a 23-26 retest or use the retest as the entry.
+- **Scenario distribution: decomposed form required** — P(fade pays | Iran stabilizes) × P(Iran stabilizes), Iran prior tagged `[unowned working assumption]` unless HAWK-sourced; right-tail (VIX-30-class) = 17-33% conditional on this shape (anchor-dependent, n=6 — shape-precedent, not statistic). Numbers to be written at 6/10 EOD as a KB row (KB-VIO-052 precedent); until that row exists the distribution is a working read, not VIOLET's stated view.
 
 ### Regime Shift Trade status check (Path A):
 *(These are the Regime Shift Trade entry conditions from Trade Implications, checked against current values. Not a generic Path A or Lag Trade checklist.)*
@@ -417,11 +423,11 @@ System thesis: Credit stress → bank stress → equity crash. *(Scenario weight
 3. **L1 DIET signature has fired or is actively firing**
 
 ### Open questions for next session
-- Does AI/factor concentration unwind have a half-life longer than the macro fade? Tests: NVDA/SMH price action Mon-Wed, single-stock vol surface, 0DTE flow concentration.
-- ~~Will post-spike SKEW rebid (152.25 6/5) sustain ≥4 td above 150 → Prediction #6 fire?~~ **ANSWERED 6/9: NO** — 145.00 (6/8), 141.97 (6/9); trigger lapsed, rebid faded in 2 td.
+- Does AI/factor concentration unwind have a half-life longer than the macro fade? Tests: NVDA/SMH price action, single-stock vol surface, 0DTE flow concentration. (CPI confound removed 6/10; Iran confound added.)
+- Iran-leg transmission shape: does a sustained OVX/VIX gap resolve by VIX catching up or OVX coming down? 6/10 intraday says catching up. Cheap analog scan: 2019 Abqaiq, 2022 Ukraine, 2024 Israel-Iran exchanges.
 - Does the 24-td R12 gap count as a regime end (cohort perspective) or as an interruption (continuous perspective)? KB-VIO-072 deferred research.
 
-Until then: 6/10 CPI is the gate. *(Date corrected 6/9 — the fleet-wide 6/12→6/10 CPI fix of 6/7 missed this line.)*
+~~Until then: 6/10 CPI is the gate.~~ **CPI resolved non-tail 6/10 (KB-VIO-080). The gate is now: Iran trajectory + 6/16 BOJ + 6/17 FOMC/SEP/quarterly-expiry convergence.** 6/10 EOD re-adjudication is the next decision point.
 
 ---
 
