@@ -50,7 +50,7 @@
 
 4. **Episode-17 answer key has a falsifiable dependency.** It assumes Episode-17's absorbed catalysts (FOMC hold, BOJ, hot CPI/PPI) land ≤ θ under the chosen σ. The scan could show otherwise — that's a FINDING about θ, not a broken test. Echo-back must report where Episode-17's catalysts actually fall on the cut, not just ✓/✗.
 
-**Plus (drift-protection):** v3.6 must state the **accepted cost** in writing: the abstain-gate means novel-mechanism false positives ride through at L1's ~35% miss rate BY DESIGN. Without this line, the first novel-mechanism loser invites a future session to quietly re-add veto power.
+**Plus (drift-protection):** v3.6 must state the **accepted cost** in writing: the abstain-gate means novel-mechanism false positives ride through at L1's miss rate BY DESIGN — **threshold-indexed per the L1 canonical base-rate table (KB-VIO-079, added 6/9): ~8% miss at ≥+15% peak, ~35-40% miss at ≥+50%.** "L1 at full weight" in the combiner MEANS that table, at the threshold the live structure targets. Without this line, the first novel-mechanism loser invites a future session to quietly re-add veto power. *(Orchestrator review 6/9 item #1 — the original "~35% miss" here and the thesis "94%" were citing different thresholds for the same signal; resolved by the canonical table.)*
 
 **θ prior:** 2σ (run both cuts; 6/5 lands ABSTAIN under either; 1.5σ risks reclassifying garden-variety hot prints out of L2's domain, gutting the layer that was right on Episode-17).
 

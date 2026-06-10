@@ -6,23 +6,21 @@ VIX-linked positions and trade framework.
 
 ## ACTIVE POSITIONS
 
-### VIX 25C May 19 — SKEW Divergence Episode #17
+**None.** Episode-17 (VIX May 19 25C) expired worthless 2026-05-19 — closed out below. *(Closeout recorded 6/9; this file had carried the position as OPEN for 3 weeks after expiry — caught by orchestrator review.)*
+
+---
+
+## CLOSED POSITIONS
+
+### VIX 25C May 19 — SKEW Divergence Episode #17 (CLOSED — expired worthless)
 
 | Field | Value |
 |-------|-------|
-| Instrument | VIX May 19 25 Call |
-| Direction | Long |
-| Entry Date | 2026-04-16 |
-| Strike | 25 |
-| Expiry | 2026-05-19 (16 DTE as of May 3) |
-| Original Thesis | SKEW divergence (94% hit rate, 156.9 peak → high-severity cohort). Central case VIX 25-30 within 60d. |
-| **Current Thesis (May 3)** | **Trade-level invalidated under strict rule (Apr 23-28 4-td <140 hit). Position now lottery on May 13-19 tail catalyst (CPI / geopolitical / credit crack). HOLD = cheap optionality on tail; expected outcome is expiring worthless or near-worthless (~80%+).** |
-| Status | **OPEN — HOLD decision (Will, May 3 boot session)** |
-| Updated probabilities (KB-VIO-052) | 55% VIX <22 / 25% VIX 22-25 / 12% VIX 25-30 / 6% VIX 30-40 / 2% VIX 40+ |
-| Original target | VIX 25-30 (ITM at 25+). Optimal window May 15-27. |
-| Original stop | SKEW <140 sustained 4+ td → **HIT Apr 23-28** |
-| Rationale for HOLD despite invalidation | (1) Premium is sunk; (2) convexity asymmetric — small upside in spot VIX → outsized return on 25C; (3) marginal cost of carry to expiration is lower than prospective gain on tail print; (4) May 13 CPI is real catalyst risk; (5) regime itself still intact (slope +0.6) — durability could break either way. |
-| What would change to a CLOSE | (a) 20d-slope refreshes positive (regime locks in); (b) CCC OAS continues to compress below 9.00; (c) VIX prints below 16 with VIX3M/VIX >1.20 — would indicate true complacency floor. |
+| Instrument | VIX May 19 25 Call, long, entered 2026-04-16 (33 DTE) |
+| Outcome | **Expired worthless 5/19** — VIX 18.06 at expiry vs strike 25 (6.94 pts OTM at 0 DTE) |
+| Path | Trade-level invalidated Apr 23-28 (SKEW <140 4-td strict rule HIT); Will HOLD decision 5/3 as tail lottery on May 13 CPI / expiry mechanics; no tail materialized |
+| Post-mortem | `research/2026-06-01_episode17_postmortem.md` — primary mechanism: positive-gamma suppression (KB-VIO-055/062) absorbing 5-6 consecutive catalysts |
+| Epilogue | The underlying L1 signal class paid forward 17 days after expiry: 6/5 VIX +40% (KB-VIO-067 DIET fire 5/20-5/29 → spike at td-4). Right framework, wrong expiry window — the timing-vs-thesis lesson, and the vehicle lesson (fixed-expiry OTM calls die on timing even when the signal is right) |
 
 ---
 
@@ -34,10 +32,10 @@ VIX-linked positions and trade framework.
 |------------|----------|------|------|
 | VIX Futures | Direct vol exposure | Clean, liquid | Contango bleed, term structure risk |
 | VIX Options | Defined risk, convexity | Asymmetric payoffs | Expiration timing, IV risk |
-| UVXY | Short-term vol (1.5x) | Easy access | Severe decay, not for holding |
-| SVIX | Short vol exposure | Inverse VIX | Unlimited risk, margin requirements |
-| VIX Calls | Vol spike protection | Convexity | Time decay, timing risk |
-| VIX Puts | Vol compression bet | Income | Limited upside, tail risk |
+| Futures calendars (M2 vs M3) | Event-premium relative value | Not naked short-gamma; defined relationship | Both legs move; basis risk |
+| UVXY / SVIX | Tactical only | Easy access | Severe decay / unlimited risk — avoid holding |
+
+**Vehicle rule (Episode-17 + fleet TLT lesson):** match the vehicle to the open transmission channel AND the timing uncertainty. Fixed-expiry OTM options need the move inside the window; calendars and futures tolerate timing slip.
 
 ### Trade Types
 
@@ -45,89 +43,74 @@ VIX-linked positions and trade framework.
 |------|-------|--------|------|
 | Vol spike hedge | VIX < 20, credit stress building | VIX 30+ | VIX 15 (thesis break) |
 | **Sweet spot lag** | **VIX 15-26 + HY OAS >100bps** | **VIX +10pts** | **HY OAS reverses, VIX >30** |
-| Term structure play | Inversion expected | Contango return | Backwardation persists |
 | Credit-vol lag | HY OAS widens, VIX flat | VIX catches up | Credit reverses |
 | Regime shift | Low vol → rising vol | VIX 25-30 | VIX back below 18 |
+| **Event-premium fade** | **Post-event, premium hump located, substance clean** | **Hump deflates to normal contango** | **Credit confirms / vol re-extends** |
 
 ### Position Sizing
 
-**Rule:** VIX trades are hedges, not alpha. Size accordingly.
+**Rule:** VIX trades are hedges, not alpha. Size accordingly. Short-premium trades: defined-risk structures ONLY, one tier lower than the equivalent long-vol conviction.
 
-| Conviction | Max Position | Time Horizon |
-|------------|--------------|--------------|
-| Low (🟡) | 0.5% account | 1-2 weeks |
-| Medium (🟠) | 1% account | 2-4 weeks |
-| High (🔴) | 2% account | 1-3 months |
-| Critical (🔴🔴) | 3% account | Event-driven |
+| Conviction | Long-vol max | Short-premium max | Time Horizon |
+|------------|--------------|-------------------|--------------|
+| Low (🟡) | 0.5% account | — (don't) | 1-2 weeks |
+| Medium (🟠) | 1% account | 0.5% account | 2-4 weeks |
+| High (🔴) | 2% account | 1% account | 1-3 months |
+| Critical (🔴🔴) | 3% account | 1% account | Event-driven |
 
 ---
 
-## THESIS TRADES (Pending)
+## LIVE DECISION FRAMEWORK — Event-Premium Fade (M2/Jul into FOMC) — NEW 6/9
+
+**The decision that opens post-CPI 6/10.** Framework written BEFORE the print (8:30 ET 6/10) so the entry is pre-registered, not improvised.
+
+**Thesis:** the 6/5 NFP spike left an event-premium hump, located (convexity_read 6/9) at the VIX9D kink (+2.27 over spot) and the M1:M2 contango (+7.50% adj). Both fade legs (rate-shock, AI-unwind) are deflating; credit never confirmed. If CPI passes non-tail, the remaining premium is fade-able into/through FOMC 6/17.
+
+**Structure (priority order):**
+1. **Short M2 (Jul) vs long M3 (Aug) futures calendar** — collects the Jul event-hump deflation post-FOMC; M3 leg hedges parallel vol shifts; not naked short-gamma. Seller collects ~7.5%/mo roll-down while curve normalizes.
+2. Alternative (defined risk): Jul VIX call credit spread sized to max-loss = the position's risk budget.
+3. **NOT:** naked short VIX futures, short straddles, SVIX holds.
+
+**Entry gate (ALL required, post-print):**
+1. CPI non-tail — front collapses (VIX9D/VIX ratio decisively off 1.114 toward ≤1.05; M1 deflates)
+2. Credit stays clean — HY <2.85, CCC <9.55 (LIQUID tripwire; FRED T+1 check)
+3. AI-unwind leg not re-extending — NVDA/SMH stable-or-up post-print (HENRY read)
+4. `convexity_read.py` post-print still locates a rich hump worth selling (M2 premium vs M3 above normal)
+5. BOJ 6/16 risk priced: enter ≤50% size before BOJ, or wait until 6/16 post-MPM for full size
+
+**L1-stack tension (state it, don't hide it):** the 5/20-5/29 DIET fire's 60d window technically runs to ~8/4. At the ≥+15% tier it is RESOLVED (6/5 peaked +40%); at the ≥+50% tier (60% episode base rate, L1 canonical table) the window is **still live** — a second leg to VIX ~25+ remains a priced tail. This is why size is capped, risk is defined, and the BOJ split-entry exists. Short-premium here fades the *event hump*, not the L1 signal class.
+
+**Invalidation / exit (any one):**
+- VIX re-extends >23 sustained (event premium re-arming, not deflating) → exit
+- HY >2.85 or CCC >9.55 (credit confirms = fade→sustain flip) → exit immediately
+- BOJ 6/16 hawkish-of-pricing (carry-unwind channel opens, SAM signal) → exit or cut to runner before FOMC
+- Target: hump captured (M2:M3 back to normal contango) post-FOMC — take it off 6/18-6/22, don't overstay
+
+**Approval:** structure + size goes to Will before any execution, per standing rule. This framework pre-registers the conditions; it does not pre-authorize the trade.
+
+---
+
+## THESIS TRADES (Standing)
 
 ### Credit-Vol Lag Trade (Four-Model Framework)
 
 **Thesis:** When HY OAS widens >100bps from recent low and VIX < 20, VIX will spike >10pts within 2-6 weeks (70% hit rate, 25-30% false positive).
 
-**Setup (All must be true):**
-- HY OAS +100bps from recent low (Claude: 300bps from trough for confirmation)
-- VIX < 20 at onset (ensures longest lead time)
-- Cross-sector widening (not just energy/single sector)
-- Yield curve NOT inverted (reduces false positives)
-- No active Fed QE backstop
+**Setup (All must be true):** HY OAS +100bps from recent low · VIX < 20 at onset · cross-sector widening · yield curve NOT inverted · no active Fed QE backstop
+**Entry:** VIX calls 30-60 DTE (checks 1-3) / 60-90 DTE (all 5)
+**Target:** VIX catches up to credit-implied level (HY OAS × 7.6 + 158 = implied VIX)
+**Stop:** HY OAS reverses >50bps, VIX >30, or curve inverts
+**Sizing:** 1% (medium) / 2% (all 5 checks)
+**Status:** DORMANT — HY 2.75 (6/8), nowhere near trigger.
 
-**Entry:** VIX calls 30-60 DTE when checks 1-3 met; 60-90 DTE when all 5 checks met
-**Target:** VIX catches up to credit-implied level (regression: HY OAS × 7.6 + 158 = implied VIX)
-**Stop:** HY OAS reverses >50bps, VIX spikes >30 (divergence resolved), or yield curve inverts
-**Sizing:** 1% account (medium confidence), 2% account (all 5 checks met)
+### DIET / STRICT Coiled-Spring Trade (L1 population signal)
 
-**Historical Performance:**
-| Episode | Entry Signal | Outcome | P&L |
-|---------|--------------|---------|-----|
-| GFC 2007 | HY OAS 241→350bps, VIX 12-15 | VIX 15→31 in 8 weeks | +100%+ |
-| 2011 EU | HY OAS 500→600bps, VIX 18-23 | VIX 23→48 in 10 weeks | +100%+ |
-| 2015-16 | HY OAS 336→500bps, VIX 12-17 | VIX 17→40 briefly, then revert | Breakeven |
-| Q4 2018 | HY OAS 316→416bps, VIX 13-16 | VIX 16→36 in 4 weeks | +100%+ |
-| 2022 | HY OAS 310→340bps, VIX 25-38 | Credit never confirmed | Stopped out |
+Owned by `thesis/VIX_THESIS.md` § The DIET Coiled-Spring Trade — setup, tiers, and the **L1 canonical base-rate table (KB-VIO-079)** live there; this file does not duplicate them. Sizing rule of thumb: quote the base rate at the threshold the structure actually needs (≥+15%: 92-94% episode-level; ≥+50%: 56-60%) — far-OTM strikes price off the lower number.
+**Status:** 5/20-5/29 DIET fire paid forward 6/5 (+40% at td-4). No new fire since.
 
-**Key Insight:** Trade works best in credit-originated crises with VIX < 20. Avoid when VIX already elevated or shock is rate-driven.
+### Term Structure Inversion (REVISED v3.1)
 
-### SKEW Divergence Trade (NEW — Phase 2 Validated)
-
-**Thesis:** SKEW divergence (SKEW rising while VIX+VVIX fall) identifies fragility with 94% hit rate for ≥15% VIX rise within 60d. Central case VIX 25-30, timing median 39 days.
-
-**Setup (current — FIRED Apr 13):**
-- SKEW divergence pattern fired ✅
-- SKEW peak 156.9 (high-severity cohort) ✅
-- VIX compressed from 31 to 18 (coiled spring) ✅
-- Phase 2 analog translation: 5/12 match, 4 partial, 3 diverge
-
-**Proposed structure (submitted to FORGE/INBOX.md Apr 15, awaiting Will):**
-- Expiry: Jun 17 or Jul 15 (captures full 60d window)
-- Strikes: 22-25 (central case) OR 30-35 (tail exposure)
-- Size: Start 25% of intended; add on SKEW re-ramp, second divergence, or term structure flattening
-- Consider calendar/ratio spread to offset contango bleed
-
-**Invalidation (exit):**
-- SKEW <140 sustained + VIX <20 → peaceful resolution
-- Term structure inverts without spot move in 5d → peak marker per v3.1
-- HY OAS tightens from 284bps → removes credit component
-- 60d window closes without VIX reaching 22 → pattern failed
-
-**Reinforcement (add):**
-- Another divergence fire before May 13 → back-to-back cluster (tail 38+)
-- SKEW rebounds >155 while VIX <22 → high-severity band holds
-- CCC OAS >10.0 → analog alignment improves
-- VIX3M/VIX <1.05 → tactical entry signal
-
-### Term Structure Inversion Trade (REVISED v3.1)
-
-**Thesis (REVISED):** Term structure inversion (VIX > VIX3M) **marks vol peaks, not onsets** (KB-VIO-034: 553 events, 2.2% hit rate for >50% spike, mean -5% forward). Use for **exit timing**, not entry.
-
-**Setup:**
-- VIX3M/VIX ratio drops below 1.0
-- Interpretation: vol likely peaking — consider taking profits on long vol
-
-**NOT an entry signal.** Flattening contango is NOT an entry for VIX calls.
+Inversion (VIX > VIX3M) **marks vol peaks, not onsets** (KB-VIO-034: 553 events, 2.2% hit rate). Use for **exit timing on long vol**, never entry.
 
 ---
 
@@ -135,14 +118,15 @@ VIX-linked positions and trade framework.
 
 | Date | Instrument | Action | Size | Entry | Exit | P&L | Notes |
 |------|------------|--------|------|-------|------|-----|-------|
-| 2026-04-16 | VIX May 19 25C | BUY | — | — | — | — | SKEW divergence trade. 33 DTE. Central case VIX 25-30. |
-| 2026-05-03 | VIX May 19 25C | HOLD | — | — | — | — | Trade-thesis invalidated (4-td rule hit Apr 23-28); HOLD per Will = cheap optionality on May 13 CPI / May 19 expiry tail. |
+| 2026-04-16 | VIX May 19 25C | BUY | — | — | — | — | SKEW divergence Episode-17. 33 DTE. Central case VIX 25-30. |
+| 2026-05-03 | VIX May 19 25C | HOLD | — | — | — | — | Trade-thesis invalidated (4-td rule hit Apr 23-28); HOLD per Will = tail lottery. |
+| 2026-05-19 | VIX May 19 25C | **EXPIRED WORTHLESS** | — | — | 0 | −100% of premium | VIX 18.06 vs strike 25. Post-mortem: `research/2026-06-01_episode17_postmortem.md`. *(Log row added 6/9 — was missing.)* |
+
+*P/L figures are placeholders — cost basis per Will, not authoritative from state files.*
 
 ---
 
 ## HEDGING PROTOCOL
-
-When to add VIX hedges:
 
 | Condition | Hedge Size | Instrument |
 |-----------|------------|------------|
@@ -154,15 +138,5 @@ When to add VIX hedges:
 
 ---
 
-## PENDING TRADES
-
-### ~~VIX Upside — SKEW Divergence Episode #17~~ → EXECUTED
-
-**Submitted:** 2026-04-15 to FORGE/INBOX.md
-**Executed:** 2026-04-16 — Will placed VIX May 19 25C
-**Loop closed.** Position now tracked in Active Positions above.
-
----
-
 *Created: 2026-04-12*
-*Last Updated: 2026-05-03 (HOLD decision recorded; trade-thesis invalidated under strict rule, position now tail-lottery on May 13 CPI / May 19 expiry mechanics)*
+*Last Updated: 2026-06-09 PM (orchestrator-review item #2: Episode-17 closed out [expired 5/19, had sat OPEN 3 weeks]; Event-Premium Fade framework added pre-registered ahead of the 6/10 CPI decision; 94% citations re-pointed at the L1 canonical base-rate table [KB-VIO-079]; short-premium sizing column added.)*
