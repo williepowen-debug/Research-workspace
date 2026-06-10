@@ -40,7 +40,7 @@ TACTICAL_WIN = 252      # 1yr trading days
 STRUCTURAL_WIN = 1260   # 5yr trading days
 CHEAP_PCT = 25.0
 RICH_PCT = 75.0
-# VIX buckets mirror MEMORY.md regime definitions
+# VIX buckets mirror thesis/VIX_THESIS.md § REGIME-DEPENDENT BEHAVIOR (canonical; MEMORY.md regime section is a pointer)
 VIX_BUCKETS = [(0, 15, "<15"), (15, 20, "15-20"), (20, 30, "20-30"), (30, 999, ">30")]
 
 
