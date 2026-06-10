@@ -28,6 +28,15 @@ Log material structural changes only — not routine content edits. Template ado
 
 ---
 
+## 2026-06-10 (PM-2) — README.md refreshed (housekeeping item 2 of 4)
+
+**Trigger:** root-md audit item 2 (front door pointed at retired `LAST_COMPLETION.md`; quoted the unqualified 94%; map omitted SCRATCH/NEXUS_BRIEF; network section was messaging-era).
+**What changed:** directory map rebuilt (LAST_COMPLETION out; SCRATCH/NEXUS_BRIEF/MAINTENANCE/thesis-CHANGELOG/COT_VIX/CATALYSTS in; archive note updated for pre-template SIGNAL_INTAKE); Core Thesis re-stated as 3 durable pillars with the threshold-indexed L1 rates (KB-VIO-079 usage rule inline) + inversion-marks-peaks (KB-VIO-034) added as pillar 3; cross-agent section rewritten to current surfaces (NEXUS_BRIEF primary / outbox 🔴-acute / WALTER-routed inbound per subscription spec / VIOLET-owned vol broadcast).
+**Files touched:** README.md. **Boot-impact:** none (not in boot read-set; first-orientation doc for fresh spawns/external readers).
+**Lessons:** none new — this was execution of the audit finding (README is now covered by the same drift fix as SIGNAL_INTAKE: pillar rates point at the canonical table instead of carrying their own copy).
+
+---
+
 ## 2026-06-10 — MAINTENANCE.md created + root .md audit (the trigger for the upcoming housekeeping wave)
 
 **Trigger:** Will-directed audit of all 9 root .md files, then "do you have a MAINTENANCE.md?" — VIOLET didn't (SAM/OTTO/RED/MARCO do). Audit root cause made the case: the rot was concentrated in UNOWNED docs (README.md + SIGNAL_INTAKE.md appear in no maintenance table), and VIOLET's structural record lived only in overwritable SCRATCH + git archaeology.

@@ -189,6 +189,7 @@ Your STATUS.md must include a Convergence Matrix — a scored table of your doma
 | `workbook/CATALYSTS.tsv` | Source of truth for dated catalysts (machine feed for `catalyst_countdown.py`) | At closeout when calendar shifts |
 | `MAINTENANCE.md` | Structural-change log (docs/scripts/protocol — the "why is VIOLET organized this way" record; OTTO template, ~300-line cap) | Write-back step 13a, when structure changes |
 | `SIGNAL_INTAKE.md` | **WALTER subscription spec** (consumer: WALTER routing — template `AGENTS/WALTER/design/SIGNAL_INTAKE_TEMPLATE.md`). Scope-of-attention + exclusions + keywords + durable threshold lines ONLY; live values stay in STATUS; operational dispatch rows go to the future VIO-T-NN registry via LIAISON, not here | On thesis bump · threshold-line shift · missed or unneeded signal |
+| `README.md` | Front-door orientation: directory map + 3 durable thesis pillars (pointer-first, no live values, rates cite the canonical table) | On protocol change, file add/retire, or thesis-pillar change |
 
 ---
 
