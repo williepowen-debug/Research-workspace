@@ -44,4 +44,4 @@
 - SOFI/OWL Jun5 final outcomes (expired vs closed) — records only, no urgency.
 
 ## GIT STATE
-Local commits ahead of origin (S17: ad1f0c84, 30a88470, 936559f7 + protocol commit pending); push HELD per Will — coordinated window only. SAM + WALTER have live uncommitted work in tree (active sessions) — do not pull.
+S17 commits 1-3 (catch-up/reconcile/scrub) SWEPT TO ORIGIN by the evening push window (push-train via WALTER ~5:15PM batch — expected pattern). Local-ahead at S17 close: RED protocol commit `849f51f1` + VIOLET scratch note `69c44964`. Push HELD per Will; next coordinated window sweeps them.
