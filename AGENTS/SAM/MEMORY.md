@@ -55,7 +55,7 @@ Multi-track session — SAM-21 fire & propagate → subagent trio → KURA propo
 
 **Imminent / near-term:**
 
-1. **🔴🔴 PRICED-HIKE RECONCILIATION (Will-directed Jun 9 PM; due BEFORE Jun 13 blackout, NOT after).** "Hike to 1.00% = structural FXY +5-8%; carry unwind fires" contradicts our own CH-004 finding that the modal Jun-16 package (priced 25bp + QT-soften per Jun-9 taper-pause leak) does NOT unwind carry. Both claims can't be true. The legacy language lives on **6 surfaces:** MEMORY item #6 below, STATUS WHAT TO WATCH Jun-16 row, STRATEGY asymmetry table, CALENDAR Jun-16 row, docket/CATALYSTS.tsv Jun-16 row, THESIS catalyst sequence. **Deliverables: (a)** state the FXY move actually expected from a modal delivered-as-priced package with market at ~98%; **(b)** restate realistic Jun-18 $58C + shares payoff under that scenario; **(c)** sweep all 6 surfaces to the reconciled expectation, keeping +5-8%/Aug-2024 upside explicitly conditional on hawkish-of-pricing.
+1. **✅ PRICED-HIKE RECONCILIATION — EXECUTED Jun 9 PM-late (same night, ahead of blackout deadline).** (a) Modal package (priced 25bp + QT-soften) = FXY −1 to +2% center +0.5-1%, vol crush, unwind does NOT fire; event ~EV-flat at 98% pricing. (b) Jun-18 $58C loses most of $40 in the modal case even with hike delivered — 4x/9x payoffs live only in the ~10% hawkish branch; sell-into-pop = salvage; shares flat-vs-cost modal, structural 3-6mo grind unchanged. (c) Swept **7 surfaces** (Will's 6 + TRADE Key Dates row): canonical table = STRATEGY § JUN-16 RECONCILED EXPECTATION; CHANGELOG entry logged. **Residual next-session check: verify no other surface still carries unconditional "+5-8% / unwind fires."**
 
 2. **🟠 Wed Jun 10 US CPI (May) — Fed-side gate.** Hot → Fed dots stay higher; soft → opens Fed-cut tail (currently <10% 2026 cut odds priced). Feeds Jun 17 dots one week ahead. **SAM-side carry tripwire.** Context: consensus already expects HOT (~4.2% headline on Iran-war energy) — hot-as-expected changes nothing; the market-moving tail is a SOFT surprise.
 
@@ -65,7 +65,7 @@ Multi-track session — SAM-21 fire & propagate → subagent trio → KURA propo
 
 5. **🔴🔴 Jun 13-15 BOJ pre-meeting blackout starts ~Jun 13 (T-2)** — cabling window closes; further BOJ-side leaks/speeches gated. Pre-event re-position/re-mark deadline.
 
-6. **🔴🔴 Tue Jun 16 BOJ MPM** — DOMINANT REMAINING CATALYST. SAM 75% / market ~88-98%. ⚠️ Payoff language on this item is subject to item #1 reconciliation — modal package = priced 25bp + QT-soften; +5-8%/unwind-fires framing is the hawkish-of-pricing conditional, not the base case. Jun-18 call sells into any spike per STRATEGY exit rules (vol-crush case strengthened by taper-pause leak).
+6. **🔴🔴 Tue Jun 16 BOJ MPM** — DOMINANT REMAINING CATALYST. SAM 75% / market ~88-98%. **Reconciled expectation (item #1, done):** modal = FXY −1 to +2% + vol crush, no unwind; +5-8% = hawkish-of-pricing conditional (~10% all-in); hold (25%) = −3-5% event-capped. Jun-18 call sells into any spike per STRATEGY exit rules — modal salvage is the pop + residual IV, not the 4x/9x. Full table: STRATEGY § JUN-16 RECONCILED EXPECTATION.
 
 7. **🔴 Wed Jun 17 FOMC + dot plot** — >97% no-change priced; hold-confirming not rescue; lands ~24h after BOJ.
 

@@ -234,7 +234,7 @@ Per **STRATEGY.md** + v1.5 position logic:
 | **✅ Tue Jun 9** | **SAM-21 mechanical trigger FIRED → 70% → 75%** | Polymarket 98.2% (+1.9pp vs Fri); Takaichi/cabinet pushback NONE; both pre-conditions cleanly met. 23pp earned-discount preserved vs market. |
 | **🔴 ongoing** | USDJPY tagging #3 hard trigger intermittently | Fri 160.20 + Tue 160.37 (Mon dip between); intervention probability legitimately high but USD-side driven. Pre-meeting blackout starts ~Jun 13. |
 | **🟠 Sat Jun 13** | Next CFTC release (Jun 9 data) + **carry-unwind anchor re-mark (expanded scope)** | Last pre-blackout print. -153K (85%) line = next METHOD escalation zone. **Re-mark also folds in BOJ-surprise hawkish-tail shrink (Jun-9 taper-pause leak) — 30d/60d likely nudge down; updated buckets → LIQUID/HENRY.** |
-| **🔴🔴 Tue Jun 16** | **BOJ MPM — DOMINANT REMAINING CATALYST under v1.5 single-path** | Hike to 1.00% = structural FXY +5-8%; carry unwind fires |
+| **🔴🔴 Tue Jun 16** | **BOJ MPM — DOMINANT REMAINING CATALYST under v1.5 single-path** | **Reconciled Jun 9 PM:** modal package (priced 25bp + QT-soften) = FXY −1 to +2%, vol crush, **unwind does NOT fire (CH-004)**; +5-8%/unwind-fires = hawkish-of-pricing conditional (~10% all-in); hold (25%) = −3-5% event-capped. Full table: STRATEGY § JUN-16 RECONCILED EXPECTATION. |
 
 ---
 
