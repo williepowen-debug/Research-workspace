@@ -212,8 +212,8 @@ Per **STRATEGY.md** + v1.5 position logic:
 | JGB 10Y 2.40% | Stress crossover | 🔴 BREACHED — 2.671% (+2.6bp Jun 5) |
 | JGB 30Y 4.0% | Severe insurer stress | 🟠 **3.833% (−1.7bp; 17bp below breach); SAM-26 still tracking FALSE** |
 | JGB 40Y | — | 🟠 ~3.78% |
-| Brent $120 | Kharg scenario | 🟢 $92.40 (Tue PM) — Phase 1 re-attenuating |
-| Brent $90 | Headwind resolved | 🟠 $92.40 (Tue PM) — tagged $89.59 intraday Tue, didn't hold; no closing breach. Choppy not monotonic (Mon was an up session) |
+| Brent $120 | Kharg scenario | 🟢 $93.28 (Wed PM boot) — Phase 1 re-attenuating |
+| Brent $90 | Headwind resolved | 🟠 $93.28 (Wed PM, +2.0%) — tagged $89.59 intraday Tue, didn't hold; **Tue official settle $91.45** (the earlier "$92.40 evening" was a post-settle electronic quote — settle-basis cum −5.5%); no closing breach. Choppy not monotonic (Mon was an up session) |
 | CFTC % of cycle peak | METHOD residual gate | 🔴🔴 **72.0% (Jun 2 data) — amplifier +5pp ON, residual ON; approaching 85% danger zone** |
 | DXY | USD-side carry signal | 🔴 **100.07 (+0.66% Fri)** — NFP-driven; explains USDJPY 160 print path |
 
