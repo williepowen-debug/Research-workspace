@@ -57,7 +57,7 @@
 
 4. **🔴 Wed Jun 17 FOMC + dots** — ~99% hold priced; watch dots for HIKE-lean (regime-flip confirmation), not for rescue.
 
-5. **🔴 Thu Jun 18:** $58C expiry (sell-into-pop salvage if spike) + May trade balance Phase-1 lag-test (routing in CALENDAR). Fri Jun 19 National May CPI (post-BOJ check).
+5. **🔴 Thu Jun 18:** $58C expiry (sell-into-pop salvage if spike). **May TB moved: provisional lands Wed Jun 17 08:50 JST = ~7:50 PM ET TUE JUN 16 — same ET evening as BOJ-decision day** (date pinned Jun 10 from MOF calendar; was "Jun 18"). Run `trade_balance_japan.py --consensus <wire>` that evening; adjudicate routing branch (a/b/c per CALENDAR). Fri Jun 19 National May CPI (post-BOJ check).
 
 **Carry-forward (open):**
 
@@ -77,7 +77,7 @@
 
 ### NEXT INFRA SESSION (script build queue — re-prioritized Jun 10)
 
-1. **`trade_balance_japan.py`** — MOF monthly TB scrape (Jun 18-19 May TB = Phase 1 stability lag-test per CALENDAR). ~30 min. **IN PROGRESS Jun 10 PM (Will-directed, after Norinchukin pull).**
+1. ~~`trade_balance_japan.py`~~ — **✅ BUILT Jun 10 PM** (selftest 6/6; 14-mo backfill; boot.py-wired with fast-exit; spec = Orch 4 gaps + SAM 3 refinements, see MAINTENANCE 6/10 PM). **Found: May TB provisional = Jun 17 08:50 JST (~7:50 PM ET Tue Jun 16, BOJ evening ET) — docket said Jun 18, corrected.** On print evening: run with `--consensus <wire ¥B>`; routing suggestion prints, SAM adjudicates branch.
 2. **`insurer_quartr.py`** — Quartr watcher for Big 3 + Norinchukin + mid-tier. ~45-60 min + auth. **🔺 PRIORITY BUMPED (Will-directed Jun 10): third coverage-gap instance this week** (Jun 9 PPI/taper-pause slipped past WALTER; Jun 10 Norinchukin FY2025 surfaced 3 weeks late — results were public May 21, IR HTML 403s hid them; direct-PDF probing or Quartr feed would have caught it). Build right after trade_balance.
 3. **`boj_events.py`** — BOJ Summary of Opinions + speeches + MPM minutes. ~45 min. Next SoO ~Jun 26.
 4. **`boj_swap_pricing.py`** — re-recon Polymarket/Kalshi. 10-min recon, build only if source exists.
