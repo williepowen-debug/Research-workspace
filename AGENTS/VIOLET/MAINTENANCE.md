@@ -10,6 +10,24 @@ Log material structural changes only — not routine content edits. Template ado
 
 ---
 
+## 2026-06-10 (PM) — SIGNAL_INTAKE.md rebuilt as WALTER subscription spec (orchestrator-verified; housekeeping item 1 of 4)
+
+**Trigger:** Root-md audit flagged SIGNAL_INTAKE.md as the worst behavioral-risk doc (unqualified-94% sizing, falsified inversion-as-leading-indicator, pre-Episode-17 vehicle default, HERMES-era protocol). Orchestrator packet superseded the rehab plan with a decisive fact neither reviewer caught by reading: **the file is WALTER's per-agent subscription spec** (template `AGENTS/WALTER/design/SIGNAL_INTAKE_TEMPLATE.md` v0.1; STATE.md §8 rollout VIOLET ✅). VIOLET pushed back twice, both accepted amended: (1) ROUTING_TABLE.md `MARKET_VOL` row routes nothing to VIOLET (HENRY|LIQUID|LIQUID,RED — predates the HENRY/VIOLET vol-ownership split) → flag-to-WALTER promoted to load-bearing deliverable, row-split proposal; (2) Prome's "perishable live levels" ACTIVE THRESHOLDS instruction contradicted CARL's post-5/31 reference pattern (section deleted as drift hazard) → lines-only middle path adopted, HY/CCC episode-gates cut.
+
+**What changed:**
+- Old file (Apr 12 structure — never template-conformant; STATE.md's ✅ meant "exists") → `archive/SIGNAL_INTAKE_2026-04-12_pre_template.md` via git mv. Episode database + watch tables preserved there; canonical homes are MEMORY/thesis.
+- New `SIGNAL_INTAKE.md`: CARL-pattern "how to read" header (live-source map + boot-self-pull rule: route news/events/reads, not raw data) + 3 priority tiers + keyword confidence tiers + WHAT-NOT-TO-SEND with redirects + **4 durable threshold lines only** (VVIX 120; VIX3M/VIX <1.0 labeled peak-marker/exit-timing per KB-VIO-034; 20d-SKEW <140 sustained 4+td; VIX 30/40) with CARL-divergence + self-destruct condition documented inline + outbound pointer to step 12. No sizing/94%/vehicles anywhere (owner docs: TRADE/thesis, KB-VIO-079).
+- `[verify with owner]` flags preserved on other agents' vocabulary (Scenario D, SOFR-IORB >0.25, gold margin cascade) — never invented replacements.
+- CLAUDE.md FILES row added (consumer + template review triggers). Draft + 3-part WALTER flag at `research/2026-06-10_signal_intake_REWRITE_DRAFT.md` Appendix A (MARKET_VOL split proposal / spec-rebuilt notice / BOARD consumption unwired — relay via Will; VIO-T-NN registry end-state named, not built).
+
+**Files touched:** SIGNAL_INTAKE.md (rebuilt), archive/SIGNAL_INTAKE_2026-04-12_pre_template.md (new via git mv), CLAUDE.md (FILES row), research/2026-06-10_signal_intake_REWRITE_DRAFT.md (draft, committed earlier), MAINTENANCE.md (this entry), auto-memory finding promoted.
+
+**Boot-impact:** none — SIGNAL_INTAKE.md is not in the boot read-set; WALTER consumes it at its design passes (runtime routing is ROUTING_TABLE.md, which is why the flag matters more than the rewrite).
+
+**Lessons:** (1) **Grep for consumers outside your own directory before restructuring/retiring any file** — two reviewers graded this file by reading it; the decisive fact was only visible by searching for who reads it. (2) **Check the current reference implementation, not just the template** — CARL had evolved past the template's own instructions (dropped ACTIVE THRESHOLDS as a drift hazard); conforming to the spec doc alone would have rebuilt the disease. Both promoted to auto-memory (`finding_external_consumer_check_before_restructure`).
+
+---
+
 ## 2026-06-10 — MAINTENANCE.md created + root .md audit (the trigger for the upcoming housekeeping wave)
 
 **Trigger:** Will-directed audit of all 9 root .md files, then "do you have a MAINTENANCE.md?" — VIOLET didn't (SAM/OTTO/RED/MARCO do). Audit root cause made the case: the rot was concentrated in UNOWNED docs (README.md + SIGNAL_INTAKE.md appear in no maintenance table), and VIOLET's structural record lived only in overwritable SCRATCH + git archaeology.
