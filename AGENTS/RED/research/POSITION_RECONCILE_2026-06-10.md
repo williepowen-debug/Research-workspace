@@ -2,7 +2,7 @@
 
 **Source:** `Portfolio_Positions_Jun-10-2026.csv` (Will-provided, Session 17). Supersedes the 5/21 CSV as RED's position ground truth.
 **Mark caveat:** "Last Price" on illiquid options = last trade, can be stale intraday. WAL $85P last $3.80 vs $3.18 intrinsic (~$0.62 time) is plausible; treat dust marks as indicative only.
-**Account shape:** IRA total ≈ $40.7K. **Cash $26,468 = 65.1%** — the account is now mostly de-risked. AAPL 25 sh $7,305 = **17.96%** (below the 20% VX-RED-016 line → vector flip CONDITION MET). Options book ≈ $5.9K market value across ~45 lines.
+**Account shape:** account total ≈ $40.7K (positions account). **Cash $26,468 = 65.1%** — the account is now mostly de-risked. AAPL 25 sh $7,305 = **17.96%** (below the 20% VX-RED-016 line → vector flip CONDITION MET). Options book ≈ $5.9K market value across ~45 lines.
 
 ---
 
