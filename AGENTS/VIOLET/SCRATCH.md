@@ -33,7 +33,7 @@
 
 ## CARRY-FORWARD
 
-- **Push state:** 8 commits pushed ~3:30 PM in Will's window (972f377c..c2401c1d). **EOD-sweep commits (TRADE/KB/STATUS/MEMORY/SCRATCH/NEXUS_BRIEF + bbbdd1cb KB-058 fix + b82c9051) are LOCAL** — next Will window sweeps them.
+- **Push state:** FULLY SYNCED to origin as of ~5:30 PM ET 6/10. Two Will-opened windows today: ~3:30 PM (972f377c..c2401c1d, 8 commits) + EOD window (c2401c1d..531fd26d, 12 commits: VIOLET ×5 incl. EOD sweep dac4000e + NEXUS_BRIEF 03e58b0a, WALTER ×2, RED ×3, SAM ×1, auto-memory ×1; ahead-only, clean tree, no rebase). Commits after this note are LOCAL until the next window.
 - **KB.tsv hygiene note:** legacy rows 007-009 have 12 fields vs schema 13 (pre-existing, not today's edits) — fold into next workbook pass.
 - **Distribution discipline:** KB-VIO-087 is the stated view; quote the DECOMPOSITION, never the headline 40-45% alone. The Iran term is not ours to own.
 - **OVX/VIX gauge:** adverse branch confirmed today; if VIX keeps converging on oil-vol with credit following (CCC >9.55), that's the KB-VIO-039 phase-transition assessment trigger.
