@@ -91,7 +91,7 @@
 | **30d** | 70% | **37%** | **−33pp** | MOF #3 (0.18) · BOJ-surprise (0.10) · risk-off (0.083) · oil/MOU (0.068) · residual (0.050) · Fed-cut (0.040). Union 42% − 5pp overlap. |
 | **60d** | 80% | **49%** | **−31pp** | MOF #3 (0.21) · risk-off (0.14) · oil/MOU (0.135) · Fed-cut (0.10) · BOJ-surprise (0.10) · residual (0.075). Union 56% − 7pp overlap. |
 
-**Live anchor state (Tue Jun 9):** CFTC **-129,567 = 72.0% of cycle peak** → **amplifier +5pp ON, residual ON** (unchanged regime; gate test resolved AGAINST cover). Both turn OFF if CFTC covers below ~-108K (60% line); amplifier escalates to +8-10pp if positioning builds through -153K (85% line). **SAM-21 +5pp mark-up (70→75) shifts BOJ-surprise contributor up ~2pp (0.05 × 0.45 unwind\|fires × amplified) — bucket marks held Jun 3 levels, within +5pp discipline band, no anchor re-set triggered.** Full re-mark pending Sat Jun 13 next CFTC print (last pre-blackout read). MOF #3 conditional capped at 0.20 baseline per CH-003.
+**Live anchor state (Tue Jun 9):** CFTC **-129,567 = 72.0% of cycle peak** → **amplifier +5pp ON, residual ON** (unchanged regime; gate test resolved AGAINST cover). Both turn OFF if CFTC covers below ~-108K (60% line); amplifier escalates to +8-10pp if positioning builds through -153K (85% line). **SAM-21 +5pp mark-up (70→75) shifts BOJ-surprise contributor up ~2pp (0.05 × 0.45 unwind\|fires × amplified) — bucket marks held Jun 3 levels, within +5pp discipline band, no anchor re-set triggered.** **Sat Jun 13 re-mark scope (Will-confirmed Jun 9 PM): CFTC gate AND BOJ-surprise anchor re-evaluation** — the Jun-9 taper-pause leak shrinks the hawkish-tail share within the hike-probability mass (accelerated-QT marker pointing dovish), which likely nudges 30d/60d buckets DOWN; ship updated buckets to LIQUID/HENRY with the re-mark. MOF #3 conditional capped at 0.20 baseline per CH-003.
 
 *Decomposed estimate, not authoritative probability — model output sensitive to ~10 named anchors. See THESIS METHOD for formula, anchors, calibration sources, update discipline. Future bucket shifts >5pp must attribute to a named driver.*
 
@@ -233,7 +233,7 @@ Per **STRATEGY.md** + v1.5 position logic:
 | **✅ Mon Jun 8 JST** | Japan Q1 GDP revised | **+1.8% annualized** (−0.3pp vs +2.1% prelim). Composition hike-tolerant — consumption UP, capex DOWN. Non-blocking for SAM-21 trigger. |
 | **✅ Tue Jun 9** | **SAM-21 mechanical trigger FIRED → 70% → 75%** | Polymarket 98.2% (+1.9pp vs Fri); Takaichi/cabinet pushback NONE; both pre-conditions cleanly met. 23pp earned-discount preserved vs market. |
 | **🔴 ongoing** | USDJPY tagging #3 hard trigger intermittently | Fri 160.20 + Tue 160.37 (Mon dip between); intervention probability legitimately high but USD-side driven. Pre-meeting blackout starts ~Jun 13. |
-| **🟠 Sat Jun 13** | Next CFTC release (Jun 9 data) | Last pre-blackout print. -153K (85%) line = next METHOD escalation zone. |
+| **🟠 Sat Jun 13** | Next CFTC release (Jun 9 data) + **carry-unwind anchor re-mark (expanded scope)** | Last pre-blackout print. -153K (85%) line = next METHOD escalation zone. **Re-mark also folds in BOJ-surprise hawkish-tail shrink (Jun-9 taper-pause leak) — 30d/60d likely nudge down; updated buckets → LIQUID/HENRY.** |
 | **🔴🔴 Tue Jun 16** | **BOJ MPM — DOMINANT REMAINING CATALYST under v1.5 single-path** | Hike to 1.00% = structural FXY +5-8%; carry unwind fires |
 
 ---

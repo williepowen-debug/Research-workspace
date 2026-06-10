@@ -55,17 +55,19 @@ Multi-track session — SAM-21 fire & propagate → subagent trio → KURA propo
 
 **Imminent / near-term:**
 
-1. **🟠 Wed Jun 10 US CPI (May) — Fed-side gate.** Hot → Fed dots stay higher; soft → opens Fed-cut tail (currently <10% 2026 cut odds priced). Feeds Jun 17 dots one week ahead. **SAM-side carry tripwire.**
+1. **🔴🔴 PRICED-HIKE RECONCILIATION (Will-directed Jun 9 PM; due BEFORE Jun 13 blackout, NOT after).** "Hike to 1.00% = structural FXY +5-8%; carry unwind fires" contradicts our own CH-004 finding that the modal Jun-16 package (priced 25bp + QT-soften per Jun-9 taper-pause leak) does NOT unwind carry. Both claims can't be true. The legacy language lives on **6 surfaces:** MEMORY item #6 below, STATUS WHAT TO WATCH Jun-16 row, STRATEGY asymmetry table, CALENDAR Jun-16 row, docket/CATALYSTS.tsv Jun-16 row, THESIS catalyst sequence. **Deliverables: (a)** state the FXY move actually expected from a modal delivered-as-priced package with market at ~98%; **(b)** restate realistic Jun-18 $58C + shares payoff under that scenario; **(c)** sweep all 6 surfaces to the reconciled expectation, keeping +5-8%/Aug-2024 upside explicitly conditional on hawkish-of-pricing.
 
-2. **🟠 Wed Jun 10 JGB 30Y auction.** BTC ratio + tail. Weak demand (BTC <2.5x / wide tail) = J-ICS lifer long-end abandonment re-light (SAM-26 currently tracking FALSE).
+2. **🟠 Wed Jun 10 US CPI (May) — Fed-side gate.** Hot → Fed dots stay higher; soft → opens Fed-cut tail (currently <10% 2026 cut odds priced). Feeds Jun 17 dots one week ahead. **SAM-side carry tripwire.** Context: consensus already expects HOT (~4.2% headline on Iran-war energy) — hot-as-expected changes nothing; the market-moving tail is a SOFT surprise.
 
-3. **🟠 Sat Jun 13 CFTC weekly (Jun 9 data) — last pre-blackout read.** Currently -129,567 / 72% of cycle peak. Watch -153K (85% line) — METHOD amplifier escalates to +8-10pp; build past = 30d marks bump ~3-5pp. Cover ↓ to -108K would flip amplifier+residual OFF.
+3. **🟠 Wed Jun 10 JGB 30Y auction — GRADE ON A CURVE (frame pre-registered in CALENDAR).** Taper-pause leak contaminates the J-ICS test: strong result is partially leak-explained (weaker evidence of lifer return); weak result DESPITE the leak is more alarming than yesterday. BTC <2.0x = 🔴 route LIQUID/HENRY/PROME same-night. *(Results ~11:35 PM ET Tue Jun 9 — poller running; may already be handled by the time this is read.)*
 
-4. **🔴🔴 Jun 13-15 BOJ pre-meeting blackout starts ~Jun 13 (T-2)** — cabling window closes; further BOJ-side leaks/speeches gated. Pre-event re-position/re-mark deadline.
+4. **🟠 Sat Jun 13 CFTC weekly (Jun 9 data) — last pre-blackout read + EXPANDED RE-MARK SCOPE (Will-confirmed).** CFTC gate: -153K (85% line) escalates amplifier to +8-10pp; cover to -108K flips amplifier+residual OFF. **PLUS: fold the taper-pause finding into the decomposition — BOJ-surprise hawkish-tail share shrinks (QT leg pointing dovish) → 30d/60d buckets likely nudge DOWN. Ship updated buckets to LIQUID/HENRY.**
 
-5. **🔴🔴 Tue Jun 16 BOJ MPM** — DOMINANT REMAINING CATALYST. SAM 75% / market ~88-98%. Hike to 1.00% = FXY +5-8% structural; carry unwind fires; Jun-18 call sells at any spike per STRATEGY exit rules.
+5. **🔴🔴 Jun 13-15 BOJ pre-meeting blackout starts ~Jun 13 (T-2)** — cabling window closes; further BOJ-side leaks/speeches gated. Pre-event re-position/re-mark deadline.
 
-6. **🔴 Wed Jun 17 FOMC + dot plot** — >97% no-change priced; hold-confirming not rescue; lands ~24h after BOJ.
+6. **🔴🔴 Tue Jun 16 BOJ MPM** — DOMINANT REMAINING CATALYST. SAM 75% / market ~88-98%. ⚠️ Payoff language on this item is subject to item #1 reconciliation — modal package = priced 25bp + QT-soften; +5-8%/unwind-fires framing is the hawkish-of-pricing conditional, not the base case. Jun-18 call sells into any spike per STRATEGY exit rules (vol-crush case strengthened by taper-pause leak).
+
+7. **🔴 Wed Jun 17 FOMC + dot plot** — >97% no-change priced; hold-confirming not rescue; lands ~24h after BOJ.
 
 **Carry-forward (open):**
 
