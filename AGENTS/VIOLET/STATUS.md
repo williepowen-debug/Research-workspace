@@ -54,7 +54,7 @@
 - 🟠 **Fade gate FAILS #2 (KB-VIO-086)** — pre-registered outcome (b): stand down. Realistic next entry window is post-6/17, and only on Iran stabilization.
 - 🟡 **Invalidation NOT triggered, margin thin** — settle 22.22 < 23.0; close-and-hold semantics (KB-VIO-082) applied for the first time: a settle 0.78 below the line on the modal path is expected behavior, not a signal — but tomorrow's close is live against it. *(Downgraded 🟢→🟡 on the settle correction.)*
 - 🟠 **CCC 9.51 — 4bp from the flip.** Three of four prints creeping wider while HY stays clean. If CCC crosses 9.55 with HY following toward 2.85, the "event premium" framing starts converting to "credit confirms."
-- 🟡 **Stated distribution formalized decomposed (KB-VIO-087, supersedes KB-VIO-052):** ~40-45% fade / ~35-40% stand-aside / ~15-20% VIX-30 tail; P(23-26 touch by ~Aug) 60-70% cross-branch. The Iran term is HAWK-based (6/8: C+B 65%) with a VIOLET −15 working adjustment pending HAWK re-mark.
+- 🟡 **Stated distribution formalized decomposed (KB-VIO-087, supersedes KB-VIO-052):** ~40-45% fade / ~35-40% stand-aside / ~15-20% VIX-30 tail. Cross-branch touch probability **REFINED to a level ladder ~6:15 PM (operator query)**: from settle 22.22, P(touch 23) ~85% near-mechanical/spent · P(24) ~60-70% · P(25) ~40-50% · P(26) ~25-35% — **the decision-relevant retest-budget zone is 24-25, not 23**. The Iran term is HAWK-based (6/8: C+B 65%) with a VIOLET −15 working adjustment pending HAWK re-mark.
 
 ---
 
@@ -70,7 +70,7 @@
 
 ## POSITION SNAPSHOT
 
-**No open positions. Event-Premium Fade: armed-but-gated, FAILS #2 at 6/10 EOD (KB-VIO-086).** Realistic re-entry assessment is post-6/17 FOMC on Iran stabilization; any entry budgets the 23-26 retest (60-70% cross-branch) or uses it as the entry (KB-VIO-082/087). Full framework: `TRADE.md`.
+**No open positions. Event-Premium Fade: armed-but-gated, FAILS #2 at 6/10 EOD (KB-VIO-086).** Realistic re-entry assessment is post-6/17 FOMC on Iran stabilization; any entry budgets the retest per the KB-VIO-087 level ladder (24 ~60-70%, 25 ~40-50%) or uses it as the entry (KB-VIO-082/087). Full framework: `TRADE.md`.
 
 ---
 
