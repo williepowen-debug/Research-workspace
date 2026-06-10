@@ -32,7 +32,8 @@ Will asked for boot (~9:50 ET, prior session disconnected; "CPI did release"). E
 4. **🟠 Packet #1 wiring (abstain-gate → v3.6)** — spec `research/2026-06-09_packet1_abstain_gate_spec.md`; Iran doesn't block it; fit 6/10 PM / 6/11.
 5. **🟡 COT Fri 6/12** (first post-spike read) · **🟡 BOJ fuel-load Sat 6/13** (SAM edge) · **🟡 65C OI day-over-day** (intraday runs only).
 6. **🟠 Factor-unwind analog scan** (port `/tmp/nfp_analog_backtest.py` first) — carried.
-7. **🟡 Housekeeping batch** (orchestrator #4-6: MEMORY subtraction, CLAUDE.md template residue, CALENDAR refresh-table dates, stale outbox SIG, 5/14 inbox disposition, tool hardening: vix_options OI=0 suppress + fred_fetch DGS10/DGS2 lag diagnosis) — carried.
+7. **🟡 Housekeeping remainder** — wave 1-4 DONE midday 6/10 (see MAINTENANCE.md PM-1→PM-4: MAINTENANCE.md created; SIGNAL_INTAKE rebuilt as WALTER subscription spec; README refreshed; CLAUDE.md residue pass incl. VX.tsv retire + FLOW re-scope; CALENDAR fixes incl. FOMC day-count corrections). Still owed: (a) **MEMORY.md subtraction job** (own session; + footer/chrono/6/5-9 trajectory note); (d) outbox SIG-VIOLET-LIQUID-20260415 disposition + 4 messaging-era SIGNAL_TEMPLATE files; (f) tool hardening (vix_options OI=0 in-tool suppress; fred_fetch DGS10/DGS2 lag diagnosis). **(e) 5/14 inbox = ALREADY DONE 6/6** (disposition file exists in processed/ — STATUS "pending" line is stale propagation, fix at EOD re-stamp).
+8. **🟠 WALTER flag relay (Will)** — 3-part proposal at `research/2026-06-10_signal_intake_REWRITE_DRAFT.md` Appendix A: MARKET_VOL routing-row split (vol-regime → VIOLET action / HENRY backup; currently routes NOTHING to VIOLET), spec-rebuilt notice, BOARD consumption unwired. BOARD boot-step adoption deferred until this answers.
 
 ## CARRY-FORWARD
 
