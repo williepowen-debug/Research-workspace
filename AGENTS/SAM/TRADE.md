@@ -220,7 +220,7 @@ Private credit cascade (APO, ARES — 9 funds gated; BCRED Q1 redemptions ~7.9%,
 
 **⚠️ v1.5 note (Jun 1):** Channel 1 demoted to deferred structural backstop after 3-of-3 Big 3 mutual ESR window resolved benign (Nippon/Meiji/Sumitomo May 26; foreign books growing, not shrinking). Near-term Japanese-institutional UST-selling transmission timing pushed to multi-year — thesis intact at structural horizon, not 2026. Next Channel 1 re-test window: H2 FY2026 plans (Oct-Nov 2026) or FY2026 ESR (May 2027).
 
-**Status:** ⏳ WATCHING — LIQUID is primary owner of this trade. SAM provides the Japan flow signal. Active near-term TLT-put thesis from Japan side **not currently warranted** under v1.5; reactivation requires new shock (JGB 30Y blowout to 4.5%+, ESR re-test sub-200% via market stress, or Norinchukin CLO acceleration).
+**Status:** ⏳ WATCHING — LIQUID is primary owner of this trade. SAM provides the Japan flow signal. Active near-term TLT-put thesis from Japan side **not currently warranted** under v1.5; reactivation requires new shock (JGB 30Y blowout to 4.5%+, ESR re-test sub-200% via market stress, or a Norinchukin CLO *reversal* — book is at record ¥10.1T and GROWING per FY2025, Jun 10; a genuine turn to net selling from this baseline would be high-signal).
 
 ---
 

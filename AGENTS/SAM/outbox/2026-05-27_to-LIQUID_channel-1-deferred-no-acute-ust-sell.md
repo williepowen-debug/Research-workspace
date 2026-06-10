@@ -1,3 +1,5 @@
+> **⚠️ CORRECTION (2026-06-10, if delivered after that date):** the Norinchukin line below ("¥9.7T still shrinking, ¥500B Q1 decline") was FALSIFIED by the FY2025 primary disclosure — CLO book is at record ¥10.1T Mar 2026, GROWING. Headline conclusion (no acute Japan-side UST sell signal) unchanged — strengthened, even. See superseding signal `2026-06-10_to-LIQUID_norinchukin_clo_record_high.md`.
+
 ## 2026-05-27 — To: LIQUID
 **Signal:** SAM Channel 1 (Japan life insurer repatriation → UST selling) demoted to deferred structural backstop after 3-of-3 Big 3 mutual ESR window confirmation. **No acute UST sell signal from Japan lifer side for 2026.**
 **Priority:** 🟡 (counter-thesis confirmation — affects your UST demand backdrop assumption)

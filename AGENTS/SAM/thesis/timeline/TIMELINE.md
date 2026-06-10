@@ -1,11 +1,25 @@
 # SAM TIMELINE
 
-**Last Updated:** 2026-06-10 AM (US CPI May resolved hot-as-expected — Fed-side gate closed; adjacent find: Fed pricing regime-flipped cut→HIKE, ~52% 2026 hike priced)
+**Last Updated:** 2026-06-10 PM (Norinchukin FY2025 gate resolved NOT REACTIVATED — CLO book record ¥10.1T, "shrinking" claim falsified; Channel 1's last near-term reactivation candidate closes)
 **View:** Base case progression with branch points marked
 
 This document maps our forward-looking expectations — what's coming, what we think happens, and where the path could diverge. Updated as events resolve or views change.
 
 *Pre-2026-05-11 entries archived to [ARCHIVE.md](ARCHIVE.md).*
+
+---
+
+## RESOLVED — Jun 10 PM (NORINCHUKIN FY2025: GATE NOT REACTIVATED — CLO BOOK AT RECORD ¥10.1T, "SHRINKING" CLAIM FALSIFIED)
+
+### Wed Jun 10 PM — NORINCHUKIN FY2025 PULL: CHANNEL 1'S LAST NEAR-TERM REACTIVATION GATE RESOLVES AGAINST; 4-OF-4 INSTITUTIONS GROWING US CREDIT EXPOSURE
+
+- **Event:** Will-directed dedicated pull (MEMORY carry-item #10). Results were **already out May 21, 2026** — surfaced ~3 weeks late because Norinchukin's IR HTML pages 403 automated fetch (direct PDF URLs work; load-bearing figures verified by SAM's own extraction from tanshin + supplement before propagation).
+- **The print:** Consolidated net income **¥121.4B** (vs −¥1,807.9B FY2024; beat ¥30-70B guidance; FY2026 guidance ¥50-100B maintained). CET1 17.81% (improved). AFS unrealized −¥220B (improved from −¥550B). First Brands: Norinchukin's consolidated hit ~¥61B equity-method loss, framed one-time — the ¥150.5B allowance was at JA Mitsui Leasing level.
+- **The CLO number (the load-bearing find):** **¥10.1T at Mar 31, 2026 — all-time high.** Path: Mar 2025 ¥8.3T → Sep 2025 ¥9.7T → Dec 2025 ¥9.8T → Mar 2026 ¥10.1T. The book never declined. The thesis's "¥9.7T peak, shrinking — ¥500B Q1 2026 decline, fastest on record" (CreditFlux, single-source) is **contradicted by the bank's own disclosure** — the yen book ROSE +¥0.3T over that exact window. CreditFlux basis unresolved; bank primary authoritative. The older ¥8.2T figure was Dec 2024 (Bloomberg) — superseded.
+- **Gate verdict — all three pre-registered reactivation conditions failed:** (a) no CLO reduction target (deck reiterates AAA-only + continued investment); (b) no decline to accelerate (+¥1.8T YoY growth); (c) no US-credit stress framing (Iran-macro uncertainty only). **Channel 1 reactivation gate CLOSED.** Next scheduled read: H1 FY2026 interim (~Nov 2026).
+- **Pattern significance:** extends the Big 3 mutual ESR pattern to a **4th institution with entirely different mechanics** — every Japanese institutional balance sheet SAM gated on in 2026 resolved by GROWING US credit exposure. Echoes the SAM-14/19/25 mechanism-direction failure cluster. Kitabayashi's Nov 2025 "overheating in private credit" rhetoric coexists with record CLO buying — **cautionary rhetoric ≠ cautious balance sheet**; rhetoric-alone disconfirmed as signal.
+- **Cross-agent:** outbox signal written to LIQUID (cc HANS/BROCK context via PROME) — a major Japanese buyer still growing US credit exposure is a demand-side input to their cascade work, and the inverse of a seller-overhang.
+- **Forward:** post-BOJ agenda (Will-directed): with 4-of-4 against the forced-selling direction, re-examine the THESIS Risk Factors Channel-1-reactivation 10% row and whether "deferred" should become "retired pending new mechanism." Known-unknown: UST/foreign-bond split not disclosed at this reporting level (parent bonds ¥19.2T → ¥21.0T). Coverage-gap instance #3 this week → `insurer_quartr.py` bumped in infra queue.
 
 ---
 
@@ -237,7 +251,7 @@ This document maps our forward-looking expectations — what's coming, what we t
 - **What's still intact (kept in v1.5):**
   - J-ICS lifer long-end abandonment (JGB 30Y / 40Y curve mechanism) — DOMESTIC, independent of ESR-foreign transmission
   - Mid-size lifer pivots (Fukoku, Asahi) from 30/40Y → 10-15Y tenors
-  - Norinchukin CLO ¥9.7T shrinking
+  - Norinchukin CLO ¥9.7T shrinking *[FALSIFIED Jun 10 — FY2025 disclosure shows record ¥10.1T Mar 2026, +¥1.8T YoY; see Jun 10 PM entry]*
   - Channel 2 (carry / June BOJ) — unchanged
   - Channel 3 (BOJ + US-Japan FX coordination) — unchanged
 - **What's deferred:**
