@@ -93,7 +93,7 @@
 |-------|-------|-------|
 | SAM | ✅ Has SIGNAL_INTAKE.md | Prototype reference. |
 | BRENT | ✅ Has SIGNAL_INTAKE.md | |
-| VIOLET | ✅ Has SIGNAL_INTAKE.md | |
+| VIOLET | ✅ Rebuilt to template 2026-06-10 (first conformant version) | Prior ✅ reflected file-existence only — the Apr 12 original predated the 4/14 rollout and never had template structure. VIOLET self-rebuilt 6/10 (CARL-pattern: live-source map + boot-self-pull rule + 3 priority tiers + exclusions-with-redirects + 4 durable threshold lines; old file archived). Re-read at next routing-rules pass. Appendix A flag drove ROUTING_TABLE v0.10 MARKET_VOL split (Will approved 6/10). |
 | CARL | ✅ Has SIGNAL_INTAKE.md (Apr 19) | Richest reference yet (8.4KB; Active Thresholds w/ specific levels, 3-tier keyword confidence, explicit NOT-TO-SEND, earnings pre-staged). Recommend as primary reference for HENRY / RED next. |
 | HENRY | ⏳ Pending | Prompt drafted Apr 19 transcript-only, not saved to disk. |
 | RED | ⏳ Pending | Prompt drafted Apr 19 transcript-only, not saved to disk. |
@@ -105,6 +105,7 @@
 |-------|-----------------------|------------------------------|
 | WALTER | n/a (writes BOARD, doesn't consume) | n/a |
 | **CARL** | ✅ `AGENTS/CARL/board/BOARD_LOG.tsv` (9-col schema since 2026-05-05; new `Post_Hoc_Conf` column shipped commit `d26aaab2` per LIAISON Turn 3) | ✅ CARL has BOARD-pull at boot (CARL self-applied; **correction to prior STATE that said all-other-agents-pending — CARL was further along than WALTER's MEMORY tracked**) |
+| VIOLET | ⏳ Pending — no `board_log.tsv` yet | 🟠 Self-adoption announced 2026-06-10 (SIGNAL_INTAKE Appendix A flag): VIOLET will apply the boot block in her own CLAUDE.md residue pass. Delivery-side status tracked here per her request. |
 | All other Tier 1 agents | ⏳ Pending | ⏳ Pending — Will or each agent applies; WALTER does not edit other agents' CLAUDE.md per git isolation rule. |
 
 ## 10. LIAISON channels (paired-agent architectural-alignment scaffolding)
