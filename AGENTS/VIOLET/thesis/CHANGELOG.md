@@ -6,6 +6,16 @@ Trigger to log here: any closeout that updates `thesis/VIX_THESIS.md`.
 
 ---
 
+## Intra-v3.5 dated note — 2026-06-10 PM (POV pivot: two-leg → three-leg, war-gated fade; invalidation re-graded close-and-hold; no version bump)
+
+- **Old view (6/9 EOD):** Fade-leaning two-leg read (rate-shock deflated + AI-unwind open) into the 6/10 CPI gate; pre-registered Event-Premium Fade entry adjudicates post-print. Invalidation "VIX >23 sustained" read informally. Conversational tail ~10-15% for VIX-30-class.
+- **New view (6/10 PM):** **Three legs** — CPI resolved non-tail (KB-VIO-080: energy >60% of monthly increase, oil→Fed channel confirmed) but Iran tit-for-tat opened a live war leg overnight (KB-VIO-081); fade gate FAILED #1 (front re-armed, ratio ~1.15) → entry deferred, NO short-vol while war leg live. **Invalidation re-graded LOAD-BEARING close-and-hold:** path-conditioned cut (KB-VIO-082, `research/2026-06-10_diet_path_conditioned_cut.md`, Orch-verified) shows 6/6 historical episodes with our shape (early ≥+40% print) touched ≥+50% ≈ VIX 23.0 on the table-consistent anchor — a 23-touch is the *expected* path, so touch-kills would invalidate on the modal path. Right tail re-weighted: VIX-30-class 17-33% conditional (anchor-dependent, n=6) vs prior conversational 10-15%. **Scenario distribution must be written decomposed** — P(fade | Iran stabilizes) × P(Iran stabilizes), Iran prior tagged unowned (catalyst-vs-consequence conditional discipline); numbers land at 6/10 EOD as KB row.
+- **Methodology by-catch (KB-VIO-083/084):** live-episode % claims were anchored inconsistently (thesis "+40% at td-4" = last-fire base 15.32; canonical-table episode rates = max-over-fire-days, verified by exact reproduction → lowest-base fire day governs → operative +50% = VIX ≈ 23.0, not ~26). Anchor-naming rule added to canonical table + MEMORY METRIC SEMANTICS.
+- **Predictions touched:** None resolved; fade-entry decision deferred to 6/10 EOD / 6/11.
+- **Why no bump:** A new external catalyst is a scenario input populating the existing KB-VIO-039 external-catalyst branch, not a framework change. The invalidation re-grade is a calibration of an existing line, not a new mechanism.
+
+---
+
 ## Intra-v3.5 dated note — 2026-06-09 PM (Prediction #6 trigger lapsed; no version bump)
 
 - **Old view (6/6):** Post-spike SKEW rebid live at 152.25 — possible *second* vol-event rebid forming on top of the 6/5 spike; Prediction #6 (>150 sustained 4+ td → back-to-back vol event within 60d) armed and watching daily.
