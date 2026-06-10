@@ -75,7 +75,7 @@
 
 | Indicator | Threshold | Significance |
 |---|---|---|
-| Brent | <$90 = "headwind resolved" | 🟠 Choppy down-drift from Jun-3 peak ($96.78-97.81) — Thu/Fri down, Mon UP, Tue down; tagged $89.59 intraday Tue Jun 9 but didn't hold ($92.40 by evening; no closing breach). Cum −4.5%. Driver: China demand + Trump-Iran walk-back rumors (rumor-tier). Phase 1 oil pressure easing, not resolved. (Live Brent in STATUS.) |
+| Brent | <$90 = "headwind resolved" | 🟠 Choppy down-drift from Jun-3 peak ($96.78-97.81), recovering Wed — Thu/Fri down, Mon UP, Tue down, Wed up; tagged $89.59 intraday Tue Jun 9 but didn't hold (**Tue settle $91.45** — settle-basis cum −5.5%; no closing breach; Orch-verified ✓ independent OHLC Jun 10). Driver: China demand + Trump-Iran walk-back rumors (rumor-tier). Phase 1 oil pressure easing, not resolved. (Live Brent in STATUS.) |
 | Iran/Hormuz MOU framework | Signed text by both sides | 🔴 Effectively broken Jun 1 (Tehran suspended exchange + Hormuz threat); deepening through Jun 3 (no walk-back overnight, fresh US-Iran clashes near Hormuz). Resign path requires Trump-Khamenei reset — directionally unlikely on current tape but watch. |
 | USDJPY 3-session sub-155 test | hard trigger condition | Not yet met; MOU break delays this scenario. |
 | CFTC short positioning | -75K cover line; -108K = 60% cycle-peak amplifier line | Re-loaded (broke -102K cycle peak May 30, 4th build week); cover would signal MOU acceptance. Live net in STATUS. cftc_jpy.py auto-pulls weekly (Fri/Mon). **Next release Sat Jun 6 — first scheduled amplifier/residual gate under THESIS § CARRY-UNWIND PROBABILITY METHOD** (state-dependent amplifier vs residual check; -108K = 60% cycle-peak line). |
