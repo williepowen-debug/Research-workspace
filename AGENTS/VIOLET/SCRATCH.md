@@ -39,7 +39,7 @@ Will asked for boot (~9:50 ET, prior session disconnected; "CPI did release"). E
 
 ## CARRY-FORWARD
 
-- **Push state:** 6/9 commits went to origin in Will's window. This session's commits are LOCAL — push only in a Will-opened window.
+- **Push state:** PUSHED to origin ~4:30 PM ET 6/10 in Will-opened window (972f377c..c2401c1d, 8 commits: VIOLET ×4 incl. MEMORY subtraction f12996ef + bookkeeping 276eec3f, SAM ×2, WALTER ×2 swept per push-train; ahead-only, no rebase; RED's uncommitted tree + SAM's flagged memory/auto changes untouched). Commits after this note are LOCAL until the next window.
 - **fred_fetch rates lag** (DGS10/DGS2 ended 6/5 on a 6/9 fetch) — recheck at EOD session; STATUS dropped the stale 10Y/2Y row from Live line this rewrite.
 - **NFP analog backtest script** still in /tmp — port before reboot loses it.
 - **OVX/VIX spread as war-transmission gauge** (58.5 vs 20.6): oil-vol prices war, equity-vol prices the event calendar. New watch item, KB-VIO-081.
