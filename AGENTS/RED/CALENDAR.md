@@ -2,7 +2,7 @@
 
 *Updated each session. Adversarial perspective: what confirms, what challenges, what kills the thesis.*
 
-**Last Updated:** 2026-06-02 (Tue **Session 16** — data-hygiene pass: refreshed FALSIFICATION WATCH with live anchors (VIX 15.80, HY OAS 272, Brent $94.78), fixed stale RED-19 scoring (was "ACTIVE-RIGHT", now RESOLVED WRONG), added VIX<16 DIET guard. S15 base: Waller pivot kills rescue tail; stagflation hardened; paper calmer; GEX *explanation* invalidated but DIET snap *signature* survived; CHG-RED-024 closed)
+**Last Updated:** 2026-06-10 (Wed **Session 17** — 8-day catch-up: RED-FT-01 + RED-FT-07 BOTH FIRED 6/4 (opposite directions — bifurcation inside the credit market); NFP shock 6/5 VIX 15.4→21.5 (VIX<16 guard VINDICATED); CPI resolved 6/10 hot-as-expected (docket had it misdated 6/12 — fixed); Iran third vol leg live; Fed pricing flipped cut→HIKE; SAM pre-BOJ challenges filed, routing deadline ~6/13 blackout)
 
 ---
 
@@ -10,7 +10,22 @@
 
 **The full forward catalyst list (imminent → medium-term, 28 rows) now lives in `docket/CATALYSTS.tsv`** — the queryable, row-by-row-prunable source of truth for catalyst dates/thresholds (date / window / event / bear_signal / bull_signal / red_threshold / priority / status / notes). This file (CALENDAR.md) keeps the *narrative* layer below: resolved-catalyst history, the FALSIFICATION WATCH, prediction-scoring windows, and exit backstops. Adapted from SAM's `docket/CATALYSTS.tsv` pattern (S16; see MAINTENANCE.md). **Boot:** scan CATALYSTS.tsv for `status=pending` rows in the next ~14 days; read the narrative sections here for the adversarial framing.
 
-**Top imminent (next ~7d, see TSV for full):** Jun 3 EIA WPSR · Jun 5 CFTC COT + SOFI/OWL expiry · Jun 7 OPEC+ · Jun 9 WALTER Iran-anchor · Jun 10 US CPI · Jun 11 Jun-stack T-7 backstop · Jun 12 May CPI/DIET gate · **Jun 16 BOJ** · **Jun 17 FOMC+SEP** · **Jun 18 WAL/KRE/HYG Jun expiry cluster + HYG closure owed.** Daily: Iran narrative-fork (don't price Brent on Trump rhetoric — verify primary).
+**Top imminent (next ~7d, see TSV for full):** **Jun 11 Jun-stack T-7 backstop (TOMORROW — VIX>20 window live but only WAL $85P + TLT $85P x3 have live marks)** · Jun 12 CFTC COT (VIOLET first post-spike read) · **Jun 13 SAM re-mark + BOJ blackout = RED challenge-routing deadline** · **Jun 16 BOJ (SAM 75 / mkt 96-98; modal = NO US-paper transmission, VX-RED-024)** · **Jun 17 FOMC+SEP (DIET gate #2 + VIX>23 line + dots hike-lean — RED pre-write owed)** · **Jun 18 WAL/KRE/HYG Jun expiry cluster + HYG closure owed + SAM $58C/Takaichi-disposition scoring.** Daily: Iran tit-for-tat (kinetic now, not rhetoric — but Brent still refuses; verify primary).
+
+---
+
+## RESOLVED CATALYSTS (Session 16 → 17 window: 6/2 - 6/10)
+
+| Date | Event | Outcome | RED Impact |
+|------|-------|---------|-----------|
+| **Jun 4** | **RED-FT-01 FIRED** (HY OAS <280 sustain=3: 272/271/275) | First fire ever on RED ledger (29 days dry). Bull-counter per registry — IMMEDIATE-FALSIFY | Absorbed S17. HY 278 by 6/9 — **re-cross >280 watch live** (would un-fire on sustain-window-respect). SIG-W-20260604-001 |
+| **Jun 4** | **RED-FT-07 FIRED** (CCC OAS 947 >930; actually >930 since 5/29) | Tail-stress fire SAME SESSION as the bull-counter — opposing directions | Bifurcation now prints inside the credit market itself (KB-RED-043, ML-RED-077). CCC 951 by 6/9, still widening. SIG-W-20260604-002 |
+| **Jun 5** | **May NFP +172K vs 85K consensus** | VIX 15.40 → 21.51; Fed-cut path locked dead; DXY +0.66% → USDJPY 160.20 first #3-trigger tag | **VIX<16 guard VINDICATED in 3 sessions** (ML-RED-078) — refused managed-decline bear-cut at 15.8 on 6/2; +39% VIX by 6/8. Jun-stack VIX>20 window-trigger FIRED. |
+| Jun 5 | SOFI Jun5 $16P / OWL Jun5 $9.5P expired | **Broker outcomes UNKNOWN** | Confirm with Will at Jun-stack decision |
+| Jun 8 (JST) | Japan Q1 GDP 2nd est | +1.8% ann (−0.3pp) but composition hike-tolerant (consumption UP, capex DOWN) | Non-blocking for SAM-21; SAM trigger fired 6/9 → 75% |
+| **Jun 9-10** | **Iran tit-for-tat strikes + Trump "pay the price"** | THIRD VOL LEG: VIX 19.87→22.24 overnight PRE-CPI; OVX 58.5; Brent only +2% to $93.30 | War 6→9%. VX-RED-017 flip FIRED (strikes resumed) → MODERATE 40/60. First time the vol market PAYS the war leg while oil refuses. |
+| **Jun 10** | **US CPI (May)** — was misdated 6/12 in docket | HOT-AS-EXPECTED: 4.2% headline (3rd consec accel; energy >60% of increase) / 2.9% core | DIET gate #1 resolved NON-TAIL → FOMC 6/17 is the remaining gate. Adjacent: **Fed pricing flipped cut→HIKE ~52%** (KB-RED-044) → Rescue 6→4%. |
+| Jun 10 | SAM cite-verify + RED hand-off | SAM verified CH-005/CH-007 correct; handed 4 refresh targets incl. "Fed-flip strengthens CH-005" | RED pre-BOJ stress-test filed same day: CH-009/010/011 + CH-005-STRENGTHENED (CHG-RED-029..032) |
 
 ---
 
@@ -38,23 +53,25 @@
 
 ---
 
-## FALSIFICATION WATCH (active triggers — refreshed 6/2 S16 with live anchors)
+## FALSIFICATION WATCH (active triggers — refreshed 6/10 S17 with live anchors)
 
 | Event | Impact | When to Watch |
 |-------|--------|---------------|
-| **HY OAS <280 sustained 3d** | Exit KRE Jun18/Jun30 + IWM Jun; reduce OZK/WAL 25% | **FIRED & SUSTAINED — 272 (6/1, FRED 2.74 5/31).** Well past day 60 (CHG-RED-027 sub-trigger b). Note S16: mechanism (GEX) that explained the suppression is invalidated → treat as pure observation, not mechanism-backed. |
-| **HY OAS >320 sustained 3d** | Path B reasserts; confidence +3 | OAS ~272 — 48bps away |
+| **HY OAS <280 sustained 3d** | Exit KRE Jun18/Jun30 + IWM Jun; reduce OZK/WAL 25% | **FT-01 FIRED 6/4 (272/271/275; SIG-W-20260604-001) — but drifting back: 278 on 6/9.** ⚠️ **Re-cross >280 sustained 3d = un-fire on sustain-window-respect** → bifurcation re-widens. Daily watch. |
+| **CCC OAS >930 (FT-07, fired 6/4)** | Tail-stress canary live; Acute +1 | **951 (6/9), widening 6+ wks.** Tail leads index by weeks late-cycle. Next legs: >9.55/10.00 (VIOLET gates). |
+| **HY OAS >320 sustained 3d** | Path B reasserts; confidence +3 | 278 — 42bps away, drifting toward |
 | **WAL Q1 MI3 ≥25% (Q1 release re-scoped to Q2 late-Jul)** | V1 hidden-CRE acceleration confirmed via primary instrument; +3 | **RE-SCOPED.** Bin (a) prior 30% → 35% given B1 alt-mechanism partial-fire |
 | **WAL Q1 MI3 <19% (cohort-median)** | V1-demotion partially confirmed; trim Jun stack | **RE-SCOPED.** Bin (c)/(d) priors widen due to B1 de-coupling V1 from MI3 number alone |
 | **WAL second Office sponsor walk-away (≥$50M, late-Apr/May/Jun, gateway market)** | V1 cluster-confirms; +2 | NEW WATCH. B1 was first ($99M life-sci). Watch 10-Qs + 8-Ks |
 | **Q2 WAL or OZK beat + clean disclosure** | Exit both; confidence 73 → 65 | Mid-late Jul. CHG-RED-027 sub-trigger (a) |
 | **OZK NCO sustained ≤55bps through Q3** | Invalidation §2 fires; confidence -5 | Q2 print mid-late Jul. Q1 was 57bps |
 | **Structural data backs OFF (3+ regionals Q2)** | Bear thesis broken; capitulate framework | Mid-late Jul. CHG-RED-027 sub-trigger (c) |
-| **Brent <$95 sustained + Hormuz >5 mbpd 15+ days** | Iran-cluster reverses | **Brent $94.78 (6/1 SAM) — PRICE LEG AT/BELOW $95.** Hormuz still ~10 vessels/day trickle (kinetic side) → half-firing. CHG-RED-027 sub-trigger (d). |
-| **Initial claims >250K** | LABOR transmission re-arms; +3 | ~209K |
-| **VIX <16 sustained 5d** ⚠️GUARDED | Managed decline confirmed; reduce 50% — **ONLY IF DIET coiled-spring NOT concurrently firing** | **VIX 15.80 live 6/2 (sub-16) / 16.01 EOD 6/1.** AT level — BUT DIET coiled-spring firing (VIOLET 6/1) ⇒ sub-16 = loaded-spring suppression leg, NOT managed-decline. Do NOT auto-cut bear; resolve at 6/12 CPI / 6/17 FOMC. (S16 guard) |
-| **VIX >20 intraday** | Window-trigger menu fires for Jun stack | 15.80 live; 4.2 cushion |
-| **Brent paper >$130 sustained 5d** | Re-price stagflation, add to KRE/TLT | $94.78; ~35 away |
+| **Brent <$95 sustained + Hormuz >5 mbpd 15+ days** | Iran-cluster reverses | Brent $93.30 (6/10) — price leg below $95 BUT tit-for-tat strikes 6/9-10 mean the Hormuz/kinetic leg moved AWAY. Half-firing, composition flipped. CHG-RED-027 sub-trigger (d). |
+| **Initial claims >250K** | LABOR transmission re-arms; +3 | 225K (5/30) — drifting up from 189K Apr low; shadow-adj ~280K |
+| **VIX <16 sustained 5d** (guard logic retained) | Managed decline confirmed; reduce 50% — ONLY IF DIET not concurrently firing | **MOOT at 21.75 — and the S16 guard VINDICATED: VIX 15.80 (6/2) → 21.51 (6/5-6/8), +39% in 3 sessions (ML-RED-078).** Re-arms if VIX returns <16 post-6/17 with DIET quiet. |
+| **VIX >20 intraday** | Window-trigger menu fires for Jun stack | **FIRED 6/5, LIVE 6/10 (21.75)** — but marks dead (names rallied into war-led vol; ML-RED-080). Menu applies only to WAL Jun $85P + TLT Jun $85P x3. Backstop 6/11. |
+| **VIX >23 close-and-hold** | VIOLET fade-framework invalidation line; Acute +2 | 21.75; overnight peak 22.24 (6/10). Watch into BOJ 6/16 / FOMC 6/17. |
+| **Brent paper >$130 sustained 5d** | Re-price stagflation, add to KRE/TLT | $93.30; ~37 away |
 | **BTFP 2.0 announced** | EXIT ALL IMMEDIATELY | Dormant |
 | **EGBN -84% single-day Jun $25P 5/21** | Verify spot catalyst | NEW WATCH today |
 | **REG-T-02 sustain protocol** | Apply once defined | Pending WALTER LIAISON Turn 6+ |
