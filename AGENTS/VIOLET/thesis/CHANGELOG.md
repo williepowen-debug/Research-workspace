@@ -6,6 +6,14 @@ Trigger to log here: any closeout that updates `thesis/VIX_THESIS.md`.
 
 ---
 
+## Intra-v3.5 dated note — 2026-06-09 PM (Prediction #6 trigger lapsed; no version bump)
+
+- **Old view (6/6):** Post-spike SKEW rebid live at 152.25 — possible *second* vol-event rebid forming on top of the 6/5 spike; Prediction #6 (>150 sustained 4+ td → back-to-back vol event within 60d) armed and watching daily.
+- **New view (6/9 EOD):** Rebid faded in 2 td — 145.00 (6/8), 141.97 (6/9). Trigger condition unfired; back-to-back-cluster test never activated. Favors exhaustion / same-trade-structurally-repeating over a true 2nd rebid. One fewer non-fade tell into the 6/10 CPI gate. Not FAILED (consequent never armed); re-arms on any future post-spike >150 sustained 4+ td. KB-VIO-077.
+- **Also corrected same session:** "VIX spot sticky" framing from the 6/9 midday read was wrong — Monday 6/8 closed 18.92 (−2.59, ~42% of the spike given back) but the row was missing from VX_DAILY.tsv, so the midday session compared Tuesday intraday (~21.2) directly against the 6/5 close. Actual shape: Monday giveback → Tuesday CPI-eve re-bid (intraday ~21.2) → faded to 19.87 close. Spot is participating in the fade, not resisting it. KB-VIO-076.
+
+---
+
 ## v3.5 — 2026-06-06 (Tier-3 follow-up refinements)
 
 - **Bumped from:** v3.4 (2026-06-06 same-day — Regime Shift Trade Path A tagging + DIET disambiguation).

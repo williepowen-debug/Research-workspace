@@ -20,6 +20,9 @@ import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
+
+ET = ZoneInfo("America/New_York")
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 VIOLET_DIR = SCRIPT_DIR.parent
@@ -148,7 +151,9 @@ def build_report() -> dict:
         m2_sym = m1m2["adjusted"]["back"]["symbol"]
 
     row = {
-        "date": now.strftime("%Y-%m-%d"),
+        # ET date, not UTC — an evening run after 8pm ET would otherwise
+        # stamp tomorrow's date (caught 2026-06-09 20:29 ET → "2026-06-10" row)
+        "date": now.astimezone(ET).strftime("%Y-%m-%d"),
         "vix": spot.get("vix") or "",
         "vix3m": spot.get("vix3m") or "",
         "vix6m": spot.get("vix6m") or "",
