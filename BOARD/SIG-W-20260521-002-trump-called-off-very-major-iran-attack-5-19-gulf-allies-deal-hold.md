@@ -22,6 +22,10 @@ event_window: closed
 
 verify_research_verdict: CONFIRMED (Trump's own on-record disclosure to US lawmakers; ABC News + Stars & Stripes 5/20-21 primary; Vance + Trump deal-optimism quotes corroborate the diplomatic-pause-in-progress framing)
 mark_context: retrospective backfill — event ~5/19-5/20, dispatched 5/21 (1-2 day lag). Frame-inversion vs 5/11 PM anchor stamp ("much more severe" Hormuz threat) is the load-bearing read.
+
+# v0.10 lifecycle tag (retro-applied 2026-06-10, BOARD staleness sweep + WALTER adjudication)
+status: SUPERSEDED
+status_ref: "anchors/IRAN_WAR.md verified-as-of 2026-06-10 (deal-hold optimism frame inverted: Iran walked talks 6/1; multi-front kinetic re-ignition 6/9-10)"
 ---
 
 # Trump Called Off "Very Major Attack" on Iran 5/19-20 After Gulf Allies (Qatar/Saudi/UAE) Asked for 2-3 Day Hold Pending Deal Optimism

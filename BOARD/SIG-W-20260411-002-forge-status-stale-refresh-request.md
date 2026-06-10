@@ -18,6 +18,10 @@ resources: 0
 safety_net: clear
 
 word_count: 190
+
+# v0.10 lifecycle tag (retro-applied 2026-06-10, BOARD staleness sweep + WALTER adjudication)
+status: EVENT-PASSED
+status_ref: "FORGE STATUS refresh request 2026-04-11; ops-request window long since actioned/moot"
 ---
 
 ## Signal

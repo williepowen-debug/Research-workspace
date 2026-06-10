@@ -25,6 +25,10 @@ event_window: closed
 
 verify_research_verdict: CONFIRMED-AGGREGATOR (DOL primary PDF returned 403 to direct fetch; Trading Economics + FRED + WebSearch all triangulate same figures; calendar-scheduled release; reverify-if-revision-on-next-week's-print)
 mark_context: 8:30 AM ET data release this morning; CARL/REGINALD/LABOR have not yet surfaced post-print STATUS updates as of dispatch
+
+# v0.10 lifecycle tag (retro-applied 2026-06-10, BOARD staleness sweep + WALTER adjudication)
+status: FALSIFIED
+status_ref: "SIG-W-20260522-002 (5/22 209K cool print reversed the direction-flip; 4-wk MA cooled)"
 ---
 
 # Initial Claims Week Ending 5/9: 211K — Consensus Beat 205K, +12K WoW, 4-Week MA +15K Off April Cycle-Low — Labor-Transmission Channel Re-Arming After 1969-Low Run

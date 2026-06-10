@@ -1,0 +1,17 @@
+# BOARD staleness sweep + adjudication record — 2026-06-10 (first run; FORMAT_SPEC v0.10 Signal Lifecycle)
+# Sweep: AGENTS/WALTER/tools/staleness_sweep.py --before 20260610 -> 95 candidates of 285. 4 parallel sub-agent verdict proposals; WALTER final adjudication.
+# Overrules: 3x invalid CORRECTED-FRAMING class -> NO-TAG (lifecycle != verify-verdict); Lake Powell EVENT-PASSED -> NO-TAG (Aug threshold still future); Brent pump-reversal SUPERSEDED -> NO-TAG (not clearly overtaken); VIOLET 7-trigger EVENT-PASSED -> NO-TAG (framework live, June vol leg moved TOWARD triggers); R12/R11 FALSIFIED -> EVENT-PASSED (fact stands, window lapsed); +1 sweep false-negative added from 18-file sample audit (Hengli — lexical miss as spec predicts).
+# Net: 12 tags (8 SUPERSEDED / 2 FALSIFIED / 2 EVENT-PASSED), 83 candidates NO-TAG. Section-preamble blanket rule covers untagged B-class.
+signal_id	status	status_ref_summary
+SIG-W-20260411-002	EVENT-PASSED	ops-request window 2026-04-11 moot
+SIG-W-20260419-010	SUPERSEDED	SIG-W-20260419-014 re-closure within 24h
+SIG-W-20260424-002	SUPERSEDED	anchor 6/10: sanctions-vector absorbed by total blockade
+SIG-W-20260424-003	SUPERSEDED	SIG-W-20260426-013 resolved contradictions
+SIG-W-20260511-033	SUPERSEDED	anchor 6/10: 5/11 hardened frame reversed 5/21, June state different
+SIG-W-20260511-037	SUPERSEDED	SIG-W-20260521-009 WAL reclaimed $78
+SIG-W-20260514-001	FALSIFIED	SIG-W-20260522-002 reversal print
+SIG-W-20260521-002	SUPERSEDED	anchor 6/10: deal-hold frame inverted
+SIG-W-20260521-003	FALSIFIED	SIG-W-20260606-004 UKMTO tightening 3.9->2.8->1.1
+SIG-W-20260521-012	EVENT-PASSED	R11 window 5/28-6/02 lapsed; VIOLET retired R11
+SIG-W-20260521-017	SUPERSEDED	APO un-fired ~6/3; $131.14 6/10
+SIG-W-20260522-001	SUPERSEDED	SAM fade-gate CLOSED 6/10

@@ -1,4 +1,6 @@
-# WALTER Signal Format Specification v0.9
+# WALTER Signal Format Specification v0.10
+
+**v0.10 (2026-06-10):** Added signal lifecycle fields `status` + `status_ref` (optional, retro-applied two-field schema; per BOARD-audit Orch adjudication + Will sign-off 2026-06-10). See "Signal Lifecycle" section. Also records the v0.9 inline enum-add `narrative_channel: houthi` (2026-06-10, small-change rule) in version history per FOLLOW-UP #40.
 
 **v0.9 (2026-06-06):** Added `narrative_channel` field (Iran-cluster mandatory; documents which observer-channel a fragmented-narrative signal leans on). Added INFLATION_TRANSMISSION to the `cluster` enum reference (11th cluster per CLUSTER_TAXONOMY v0.2). Per 5-decision-walkthrough closeout 2026-06-06.
 
@@ -53,6 +55,10 @@ narrative_channel: tasnim             # Iran-cluster MANDATORY (7-value enum); n
 # Optional dispatch-time fields (added when signal is routed to recipient inboxes)
 dispatched: 2026-04-07T14:45:00Z
 dispatch_note: "Trimmed from 4-recipient plan to CARL+RED after HENRY already processed"
+
+# v0.10 lifecycle fields (added 2026-06-10; OPTIONAL, retro-applied by WALTER when a signal's framing is overtaken — never at dispatch time)
+status: SUPERSEDED                    # 3-value enum: SUPERSEDED / FALSIFIED / EVENT-PASSED. Absence = no lifecycle judgment recorded, NOT an assertion of liveness.
+status_ref: "anchors/IRAN_WAR.md verified-as-of 2026-06-10"   # MANDATORY whenever status is present — see Signal Lifecycle section for valid ref forms per enum value
 ---
 ```
 
@@ -81,6 +87,8 @@ dispatch_note: "Trimmed from 4-recipient plan to CARL+RED after HENRY already pr
 | `consumer_lens` | enum | `tier_stratified` / `broad_collapse` / `mixed` / `counter` | **v0.8 — Optional.** Codify the K-shape framing distinction for consumer signals. `tier_stratified` = discretionary pullback in mid-tier with top-decile counter-channels intact. `broad_collapse` = multi-tier consumer demand destruction (would route CARL primary action immediately). `mixed` = multi-axis with no clear K-shape signal. `counter` = counter-evidence to consumer-stress thesis. Tag only on consumer-cluster signals with CARL on routing line; energy-cluster signals don't carry. Per JOINT_PROPOSAL §2a.3. |
 | `event_window` | enum | `open` / `closed` | **v0.8 — Optional.** Set to `open` for signals dispatched during a declared BURST_WINDOW state per JOINT_PROPOSAL §2d state machine; default `closed`. Lets recipient agents grep for window-context signals at boot and adjust dispatch posture (FLASH burst expected for Phase-2-cluster signals during OPEN). Current state is canonical in `design/EVENT_WINDOW_STATE.md`. Per JOINT_PROPOSAL §2d.5. |
 | `narrative_channel` | enum | `tasnim` / `mfa` / `potus` / `centcom` / `idf` / `pakistan_mediator` / `houthi` | **v0.9 — MANDATORY on Iran-cluster signals; null/omit elsewhere.** Documents which observer-channel the signal leans on when narrative is fragmented (current Iran case: Tasnim/IRGC vs Araghchi/MFA vs Trump/POTUS vs CENTCOM operational — same bilateral state has no single ground truth, "channel state is observer-dependent" per IRAN_WAR anchor 6/02). Forces dispatch to surface which observer authored the framing so downstream agents weight accordingly. Trump-rhetoric-tape-not-info SYMMETRIC-rule (per MEMORY 6/02) applies on `potus` tag — both deal-up and deal-down framings get the rhetoric-not-substance treatment. Promote to wider scope (Fed-framework, Asia-China) only when a second fragmented-narrative cluster earns it. Per 5-decision-walkthrough closeout 2026-06-06. **`houthi` added 2026-06-10** (inline enum-add per spec-change small-change rule) — Bab al-Mandab activation made Houthi/Saree declarations a load-bearing observer channel (first use: SIG-W-20260610-001). |
+| `status` | enum | `SUPERSEDED` / `FALSIFIED` / `EVENT-PASSED` | **v0.10 — Optional, retro-applied (never set at dispatch).** Lifecycle state of the signal's framing: `SUPERSEDED` = core state-claim or framing overtaken by later events/signals; `FALSIFIED` = the signal's prediction or trigger-state claim failed against subsequent data; `EVENT-PASSED` = its forward calendar window or named event has occurred/lapsed. **Absence of the field = no lifecycle judgment recorded — NOT an assertion that the signal is live.** WALTER applies; consumers grep it the same way they grep `to:` / `cluster_mediating:`. See Signal Lifecycle section. |
+| `status_ref` | string | — | **v0.10 — MANDATORY whenever `status` is present.** Provenance for the lifecycle judgment; an unprovenance'd status tag is invalid. Valid ref form per enum value: `SUPERSEDED` → superseding SIG ID **or** anchor verified-as-of stamp (e.g. `anchors/IRAN_WAR.md verified-as-of 2026-06-10`); `FALSIFIED` → fired-log row (e.g. `FALSIFICATION_FIRED_LOG.tsv RED-FT-01 2026-06-04`) **or** falsifying print with date + source; `EVENT-PASSED` → the passed date or event identifier. |
 | `dispatched` | ISO8601 | — | **Optional.** Added when the signal is actually dispatched to recipient inboxes (may be later than `timestamp` if drafted-then-dispatched flow is used). |
 | `dispatch_note` | string | Free text | **Optional.** Rationale if the dispatch deviated from the original plan: recipient trim, re-route, precedence downgrade, staleness caveat. Paired with `dispatched`. |
 
@@ -214,6 +222,19 @@ When 2+ items surface the same underlying event (or specific sub-theme within a 
 - `SIG-W-20260419-017` (PRIORITY → HENRY): `origin: ["@charliebilello VIX -43.7% 3wks", "@charliebilello SPX +11.9% 3wks"]` — same author, MARKET_VOL, extremity-counter sub-theme.
 - `SIG-W-20260419-004` (PRIORITY → HENRY): `origin: ["@FinanceLancelot Wyckoff distribution", "@FinanceLancelot NDX 25-yr parabolic"]` — same author, MARKET_VOL, distribution-pattern sub-theme.
 - `SIG-W-20260410-001` (IMMEDIATE → CARL): CPI + UMich both MACRO_INFLATION, stagflation-pressure sub-theme (pre-FORMAT_SPEC v0.6, cited as superevent in body).
+
+---
+
+## Signal Lifecycle (`status` / `status_ref`) — v0.10
+
+BOARD is append-only (signal files are never deleted or renamed), so lifecycle state is expressed by **retro-applied YAML tagging**, not removal. One mechanism only — the YAML field pair above; no preamble-block alternative (two mechanisms guarantee drift).
+
+**Application discipline:**
+- WALTER is the only writer. Tags are applied retroactively when a signal's framing is overtaken — via the staleness sweep below, at anchor re-stamps, on threshold un-fires, or ad hoc when a dispatch supersedes a prior signal.
+- Only actively-misleading signals get tagged. Historically-accurate dispatch-time snapshots (the majority) carry no tag — the BOARD/INDEX.md section-preamble discount rule ("rows are dispatch-time snapshots…") is the blanket advisory covering them.
+- Every tag carries `status_ref` provenance per the field table. No ref, no tag.
+
+**Staleness sweep (candidate generation, not adjudication):** the rerunnable sweep greps signal bodies for (a) forward calendar dates now passed, (b) framing language anchored to a superseded anchor-state (e.g. pre-re-stamp Iran war-frames), (c) trigger/threshold state-claims contradicted by the fired-log ledgers or current tape. **Grep patterns are candidate generation and WILL have false negatives — framing staleness isn't always lexical.** That is acceptable by design: any C-class signal the sweep misses is still covered by the section-preamble blanket rule. WALTER reads candidates and adjudicates; the sweep never auto-tags. Pairs with the planned `valid_until` forward-expiry convention (design backlog) — signals carrying explicit expiry self-enumerate in future sweeps.
 
 ---
 

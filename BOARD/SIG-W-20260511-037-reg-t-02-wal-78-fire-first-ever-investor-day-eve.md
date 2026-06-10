@@ -14,6 +14,10 @@ event_window: closed
 verify_research_verdict: TAPE-CONFIRMED
 threshold_ref: REG-T-02
 fire_action: V1V3-ACCELERATE
+
+# v0.10 lifecycle tag (retro-applied 2026-06-10, BOARD staleness sweep + WALTER adjudication)
+status: SUPERSEDED
+status_ref: "SIG-W-20260521-009 (WAL reclaimed $78 on 5/21; $81.57 at 2026-06-10; REG-T-02 re-fire watch active)"
 ---
 
 # REG-T-02 FIRES — WAL Close $76.95 < $78 Threshold (Fresh Cross-Down -6.04%; Investor Day Eve)
