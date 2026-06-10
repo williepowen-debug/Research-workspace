@@ -17,9 +17,11 @@ You do NOT own any domain data. You do NOT generate original research. You read 
 
 ---
 
-## BOOT SEQUENCE
+## SPAWN PROTOCOL
 
-At session start:
+**Boot and write-back are one symmetric sequence: what you READ at boot, you WRITE BACK before stopping.** Read→write pairings: STATUS (read 2 → write W1), predictions/challenges DUE-scan (read 3 → resolve W2), thesis trajectory (read 4 → write W3), CALENDAR/docket (read 3 → write W4), SCRATCH (read 5 → write W5), workbook (cited throughout → write W6), MEMORY (read 1 → write W7). Run WRITE-BACK at **every** session end, including intra-day (auto-memory `[[feedback_intra_day_closeout_discipline]]`) — subject to the live-event override in EXECUTE. *(Protocol codified S17 2026-06-10, adapted from VIOLET/BRENT/SAM hardening wave; see MAINTENANCE.md.)*
+
+### BOOT (read phase)
 
 0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
 1. **Read `MEMORY.md`** — institutional knowledge from prior sessions. What you already learned. Don't re-learn it.
@@ -31,25 +33,47 @@ At session start:
     - **Skip** default-routine info-cc unless b3/b4 fires (small+precise discipline; don't flood read-pass at 100/110 info-cc volume).
     - Cross-reference `AGENTS/WALTER/registry/FALSIFICATION_FIRED_LOG.tsv` to see whether any of RED's pre-registered triggers (`registry/FALSIFICATION_TRIGGERS.tsv`) auto-fired since last boot.
 2. **Read `STATUS.md`** — current state, confidence level, competing hypotheses, counter-signals, open challenges.
-3. **Read `CALENDAR.md`** (narrative layer) + **scan `docket/CATALYSTS.tsv`** (structured backbone, S16) for `status=pending` rows in the next ~14 days — what catalysts are imminent? Are there pre-written decision frameworks?
+3. **Read `CALENDAR.md`** (narrative layer) + **scan `docket/CATALYSTS.tsv`** (canonical backbone) for `status=pending` rows in the next ~14 days. **DUE-scan:** flag `workbook/PREDICTIONS.tsv` rows whose timeframe has passed and `workbook/CHALLENGES.tsv` ACTIVE rows whose resolution date/event has passed — they MUST be dispositioned at W2 (don't let a row sit stale; RED-19 sat mis-scored for days, ML-RED-068).
 4. **Read `thesis/CHANGELOG.md`** (last 2-3 entries) — how has your assessment been evolving? Watch for drift. *(Analytical changes only; structural/file changes are in `MAINTENANCE.md`.)*
-5. **Read `LAST_COMPLETION.md`** — what was your last task?
+5. **Read `SCRATCH.md`** — canonical handoff from last session (CHANGES SINCE / WHAT I DID / NEXT SESSION / OPEN THREADS / pending Will-decisions / git state).
 6. **Determine mode** based on task:
    - If task specifies agent(s): **Targeted Challenge**
    - If task says "sweep" or broad: **Network Sweep**
    - If task is specific question: **Ad Hoc Analysis**
 7. **Read target agent STATUS.md files** (first 50 lines each) — find their current claims and confidence levels.
 8. **Read `PROME/STATUS.md`** — current positions, convictions, portfolio context.
-9. **Execute adversarial analysis** — apply frameworks in `thesis/FRAMEWORK.md`.
-10. **Write results:**
-    - Update `STATUS.md` with new challenges, updated probabilities
-    - Write detailed report to `OUTBOX.md` for PROME pickup
-    - Archive longer reports to `reports/`
-    - Update `thesis/CHANGELOG.md` if confidence or hypotheses changed
-    - Update `workbook/` TSVs with significant findings
-    - Update `MEMORY.md` if you learned something that should persist
+9. **Live anchors:** pull load-bearing figures from live primaries, not state files — `.venv/bin/python3 FORGE/tools/market-data/fetch.py price <tickers>` / `fred <series>` (bare `python3` has no yfinance — PEP-668; see MAINTENANCE 6/10). Never cite prices from STATUS files (root rule 4).
 
-Before session ends: write handoff to `archive/handoffs/RED_NNN_HANDOFF.md`.
+### EXECUTE
+
+10. **Execute adversarial analysis** — apply frameworks in `thesis/FRAMEWORK.md`.
+    **Live-event override:** if boot reveals a live regime-moving print or an active catalyst window (a falsification trigger firing, FOMC/BOJ day, VIX spiking, a challenge resolving in real time), EXECUTE stays open — snapshot STATUS as a working dashboard and stay engaged. Don't run WRITE-BACK until the event stabilizes, the task completes, or Will signals stop. **The session is not over because boot is over.**
+
+### WRITE-BACK (run at every session end)
+
+W1. **`STATUS.md`** — challenges, hypothesis weights, counter-signals (**every weight carries an as-of date** — a weight on stale data is a stale challenge), falsification-trigger statuses. ≤200 lines; archive overflow to `reports/`. *(Mirror of boot 2.)*
+W2. **Loop-closure — resolve every row flagged DUE at boot.** `workbook/PREDICTIONS.tsv`: resolve / re-arm-with-reason / push-date-with-reason — **never OPEN-but-stale.** `workbook/CHALLENGES.tsv`: ACTIVE rows past their resolution event → RESOLVED / RESOLVED-CONVERGED / re-targeted same session. Separate "mechanism intact" from "threshold stuck/breached" (auto-memory `[[finding_threshold_vs_mechanism]]`). *(Mirror of boot 3 DUE-scan.)*
+W3. **Assessment moved → `thesis/CHANGELOG.md`** — confidence or hypothesis-weight changes always logged, old view → new view. *(Mirror of boot 4.)*
+W4. **Forward-state.** `docket/CATALYSTS.tsv` is canonical: resolve fired rows with outcomes, add newly-discovered dated catalysts, refresh thresholds vs live anchors. `CALENDAR.md` is the narrative twin and **must not diverge in event set** — run the mirror check (see Doc-Mirror table below); canonical wins on conflict. Pre-write decision frameworks for catalysts inside 7 days — don't improvise on catalyst day. *(Mirror of boot 3.)*
+W5. **Rewrite `SCRATCH.md`** (template at top of file): CHANGES SINCE (what moved while RED was offline) / WHAT I DID / NEXT SESSION (dated, priority-ordered) / OPEN THREADS / pending Will-decisions / one-line git state. **Canonical handoff** — replaces the retired `LAST_COMPLETION.md`; `archive/handoffs/` is FROZEN (git history versions SCRATCH). MEMORY.md holds persistent lessons, NOT the per-session handoff. *(Mirror of boot 5.)*
+W6. **Workbook rows** — findings → `ML.tsv` (append-only); facts → `KB.tsv` (Admiralty conf + Stale_By); vector review → `VX.tsv` (**check each touched vector's Flip_If against this session's data**) + change log in `VX_HISTORY.tsv`; new challenge → `CHALLENGES.tsv`; break-pathway moves → `FLOW.tsv`.
+W7. **`MEMORY.md` + promotion scan** — transferable cross-agent lesson → auto-memory (`~/.claude/projects/-home-willi-Research-workspace/memory/` + one-line index entry; remove from local MEMORY.md after promotion). RED-durable lesson → MEMORY.md one-liner (verbose body → `MEMORY_ARCHIVE.md`).
+W8. **Reports & routing** — long reports → `reports/` or `challenges/`; PROME-facing signals → `OUTBOX.md` (COMPELLING counter-evidence = immediate alert; time-boxed items get explicit deadlines). Never write into another agent's directory.
+W9. **Structural change** (file created/retired/moved, schema change, protocol/CLAUDE.md amendment, tooling) → `MAINTENANCE.md` entry (Trigger / What changed / Files touched / Boot-impact). Analytical changes stay in `thesis/CHANGELOG.md`.
+W10. **Git — pathspec commits, never `git reset HEAD`** (shared `.git/index`; auto-memory `[[finding_pathspec_commit_race_safety]]`).
+    - **Default: commit locally only. Push only inside a Will-opened push window** (`[[feedback_defer_push_coordinate]]`).
+    - Modified files: `git commit AGENTS/RED/<file> -m "..."`. New untracked files: atomic `git add <specific files> && git commit <same specific files> -m "..."` — explicit paths only, never `git add AGENTS/RED/` as a directory. Sanity check between add and commit: `git diff --cached --stat`.
+    - Never commit outside `AGENTS/RED/`; never resolve other agents' conflicts — flag to PROME. If blocked by other agents' uncommitted work, note the pending push in `SCRATCH.md` and defer.
+
+**Discipline overlay (applies throughout write-back):** one source of truth per metric — own it in the owner doc, reference it from the other. Stale-marked > carried-forward-as-current — if you can't refresh a value, mark it `[STALE <date>]`, don't present it as live. Don't let prior-session narrative substitute for fresh measurement — re-pull, then write.
+
+### Doc-Mirror table (canonical → display; check at W4, canonical wins)
+
+| Canonical | Mirror / display surface |
+|---|---|
+| `docket/CATALYSTS.tsv` | `CALENDAR.md` (narrative layer — same event SET, adversarial framing added) |
+| `workbook/PREDICTIONS.tsv` | STATUS Predictions Scorecard + CALENDAR scoring windows |
+| `workbook/CHALLENGES.tsv` | STATUS Open Challenges table |
 
 ---
 
@@ -139,6 +163,7 @@ One paragraph max. Where is the market right and we're wrong? What are we filter
 | Source | What to Scan | Depth |
 |--------|-------------|-------|
 | `MEMORY.md` | Prior session knowledge | Full (at boot) |
+| `SCRATCH.md` | Canonical session handoff | Full (at boot) |
 | `STATUS.md` | Active challenges, hypotheses, counter-signals | Full (at boot) |
 | `CALENDAR.md` | Upcoming catalysts, falsification events | Full (at boot) |
 | `thesis/CHANGELOG.md` | Assessment evolution | Last 2-3 entries (at boot) |
@@ -158,7 +183,7 @@ One paragraph max. Where is the market right and we're wrong? What are we filter
 | `CALENDAR.md` | Narrative catalyst layer: RESOLVED history, FALSIFICATION WATCH, scoring windows, exit backstops |
 | `docket/CATALYSTS.tsv` | **Structured forward-catalyst backbone** (S16) — queryable dates/thresholds; scan `status=pending` next ~14d at boot |
 | `OUTBOX.md` | Reports and signals for PROME pickup |
-| `LAST_COMPLETION.md` | Last task result |
+| `SCRATCH.md` | Canonical session handoff — CHANGES SINCE / WHAT I DID / NEXT SESSION / OPEN THREADS (replaces retired LAST_COMPLETION.md, S17) |
 
 ### Reference / archive (NOT read at boot — pointers only)
 | File | Purpose |
@@ -187,7 +212,7 @@ One paragraph max. Where is the market right and we're wrong? What are we filter
 ### Archive
 | Directory | Purpose |
 |-----------|---------|
-| `archive/handoffs/` | Session handoff records (RED_NNN_HANDOFF.md) |
+| `archive/handoffs/` | **FROZEN S17 (2026-06-10)** — historical RED_001-016 handoffs; superseded by SCRATCH.md (git history versions it). Do not add new entries. |
 | `archive/status_snapshots/` | STATUS.md versions over time |
 | `archive/` | Old reports, superseded files |
 | `archive/RED_SKELETON.md` | **RETIRED** Feb-2026 counter-evidence skeleton — superseded by `workbook/VX.tsv` (per-target counter-evidence vectors) + STATUS bull-case steelman. Historical reference only; do **not** rebuild or treat as live. |

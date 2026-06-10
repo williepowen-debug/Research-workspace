@@ -95,3 +95,20 @@ Before S16, structural and analytical changes were both logged in `thesis/CHANGE
 **Closes:** S16 punchlist item 4 ("proper venv fix: sudo apt install python3.12-venv; pin pandas; test dashboard.py") — overtaken by events. Venv exists with working pip (no apt package needed for current state); pandas 3.0.2 runs dashboard.py without error (no pin needed); dashboard tested ✅.
 
 **Optional shared-tooling improvement (Prome-side, NOT RED's file to edit):** `fetch.py`/`dashboard.py` could self-re-exec under the repo venv when imported modules are missing, making them interpreter-agnostic for all agents. Flagged via OUTBOX rather than edited directly (FORGE is shared tooling).
+
+---
+
+## 2026-06-10 (S17) — SPAWN PROTOCOL codified: BOOT / EXECUTE / WRITE-BACK (closeout hardening, Will-approved)
+
+**Trigger:** Will asked whether RED has a proper closeout vs SAM/BRENT/VIOLET. Audit verdict: RED had the network's best boot and its weakest closeout — write-list buried in boot step 10, one handoff line, no DUE-resolution rule, no live-event override, handoff fragmented across LAST_COMPLETION.md + numbered archive/handoffs/. Plan approved on all defaults (D1-D5) 6/10.
+
+**What changed:**
+- `CLAUDE.md`: "BOOT SEQUENCE" → "SPAWN PROTOCOL" with BOOT (read, steps 0-9 — preserved BOARD b1-b4 scan; added DUE-scan to step 3, live-anchors step 9 w/ venv path) / EXECUTE (step 10 + **live-event override**, VIOLET pattern) / **WRITE-BACK W1-W10** (read→write pairings; W2 loop-closure "never OPEN-but-stale" extended to CHALLENGES.tsv — RED-unique; W10 git block w/ local-commit default) / discipline overlay (+ RED-specific: counter-signal weights carry as-of dates) / **Doc-Mirror table** (CATALYSTS.tsv→CALENDAR; PREDICTIONS.tsv→STATUS scorecard; CHALLENGES.tsv→STATUS table; canonical wins).
+- `SCRATCH.md` NEW — canonical handoff, template at top, rewritten in place at W5. `LAST_COMPLETION.md` RETIRED (breadcrumb left). `archive/handoffs/` FROZEN (README_FROZEN.md; git history versions SCRATCH).
+- File tables in CLAUDE.md updated (WHAT YOU READ, Core Files, Archive).
+
+**Dogfood result (Phase 3, same session):** first DUE-scan run found the predictions ledger materially wrong — RED-12/13/14/15/17 ACTIVE-but-stale since late Apr/May, RED-07 canonical lagging its mirrors, RED-08 STATUS-drifted. **TRUE tally 7W/7C/5A vs published "5W/2C/4A" — wrong on all three numbers.** Dispositioned same session; mirrors synced. Validates the recipe's core claim: mechanical scan > vigilance.
+
+**Boot-impact:** next session boots on the new protocol — reads SCRATCH.md (not LAST_COMPLETION), runs DUE-scan at step 3, uses `.venv/bin/python3` per step 9. Friction → log here.
+
+**Out of scope (deliberate):** NEXUS_BRIEF enrollment (Will/NEXUS-phase decision, D3), scripts/boot.py build, KOYOMI-analog steward (Will-deferred S16).

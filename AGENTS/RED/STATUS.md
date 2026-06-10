@@ -116,18 +116,15 @@ Strongest "we're wrong," and it survived the week:
 
 ---
 
-## PREDICTIONS SCORECARD (Jun 10)
+## PREDICTIONS SCORECARD (Jun 10 — S17 DUE-scan reconciliation to canonical workbook)
 
-| Pred | Conf | Outcome | Score |
-|------|:---:|---------|:-----:|
-| RED-02/03/06/09/19 | — | — | WRONG (5) |
-| RED-07 / RED-16 | 25% / 18% | both-miss / VIX<25 | CORRECT (2) |
-| RED-08 (Brent <$120 Q2) | 60% | $93.30 | ACTIVE-VERY-RIGHT (scores 6/30) |
-| RED-10 (HY OAS <400 by Jun) | 45% | 278 | ACTIVE-VERY-RIGHT (scores 6/30) |
-| RED-17 (Dated Brent <$115) | 50% | ~$93 area | ACTIVE-RIGHT |
-| RED-18 (Brent Dec26 $80-95 over 60d) | 65% | ~day 23 of 60 | ACTIVE |
+| Bucket | Rows | Notes |
+|------|------|-------|
+| **WRONG (7)** | 02 (NFP) · 03 (deadline) · 06 (CDX) · 08 (Brent both-extremes) · 09 (BOJ) · **15 (≥3/8 cohort miss OCCURRED — RF+WAL+OZK by 4/29)** · 19 (rigs) | RED-08 was already workbook-WRONG 4/18; this scorecard had drifted to "ACTIVE-VERY-RIGHT" — fixed. |
+| **CORRECT (7)** | 07 (both missed) · 11 (Apr beats-no) · **12 (SOFR mechanical)** · **13 (HY no re-widen >300)** · **14 (no Brent <$85)** · 16 (VIX<25) · **17 (Dated <$115, ~$103)** | Bolded four sat ACTIVE-but-stale 6+ wks; dispositioned S17 via first DUE-scan run. |
+| **ACTIVE (5)** | 01 (Jun stack pre-expiry, resolves 6/18-30) · 04 (rescue Q2-Q3) · 05 (staffing canaries Q2) · 10 (HY<400 by Jun — VERY-RIGHT at 278) · 18 (Brent Dec26 $80-95, ~day 23/60) | All genuinely in-window. |
 
-**5W / 2C / 4A.** Oil-bear + HY-won't-widen both still vindicated.
+**TRUE TALLY: 7 WRONG / 7 CORRECT / 5 ACTIVE.** The published "5W/2C/4A" was stale on all three numbers — caught mechanically by the new W2 DUE-scan + doc-mirror check on their first run (S17). When stating a count, count.
 
 ---
 
