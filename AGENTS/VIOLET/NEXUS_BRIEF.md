@@ -4,7 +4,7 @@
 **Domain:** VIX / vol term structure / SKEW / VVIX / credit-to-vol transmission timing; broadcasts vol-regime to HENRY/LIQUID/RED; receives from BROCK/HENRY/HAWK/LIQUID
 **Thesis version:** v3.5
 **Recent thesis pivot:** v3.2 → v3.5 (6/6) — NFP-shock validated DIET coiled-spring, refuted absorbed-trap regime; fade-leaning two-leg pathway. Intra-v3.5: Pred #6 trigger lapsed (6/9); Iran third leg = scenario input, no bump (6/10).
-**As of:** 2026-06-10 ~10:30 ET (intraday working read; EOD re-stamp owed) | STATUS commit: bfbf7cc1
+**As of:** 2026-06-10 ~1:30 PM ET (no material STATUS change since the ~10:30 post-CPI working read — midday was structural housekeeping, see MAINTENANCE.md; EOD re-stamp owed) | STATUS commit: bfbf7cc1
 
 ---
 

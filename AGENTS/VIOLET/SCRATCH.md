@@ -1,4 +1,4 @@
-# VIOLET SCRATCH — June 10, 2026 (Wed ~10:30 ET — post-CPI reactive read; LIVE EVENT WINDOW)
+# VIOLET SCRATCH — June 10, 2026 (Wed — AM: post-CPI reactive read; midday: housekeeping wave 1-4. Session broke ~midday; NEXT = EOD re-adjudication TODAY post-4pm ET)
 
 **Purpose:** Ephemeral session handoff. Read at boot, rewritten at write-back. Persistent learnings → `MEMORY.md` / auto-memory; dated catalysts → `CALENDAR.md`/`CATALYSTS.tsv`.
 
@@ -21,6 +21,8 @@ Will asked for boot (~9:50 ET, prior session disconnected; "CPI did release"). E
 3. **KB-VIO-080** (CPI + energy discriminator) + **KB-VIO-081** (post-CPI surface read, gate adjudication, premium re-decomposition) logged.
 4. **STATUS rewritten as intraday working dashboard** (live-event protocol — EOD re-stamp owed). CPI row pruned from CATALYSTS.tsv; CALENDAR resolved-section updated.
 5. NEXUS_BRIEF refreshed (second commit, per pattern).
+
+**MIDDAY (Will-directed housekeeping wave, all orchestrator-verified or Will-approved — full trail in MAINTENANCE.md PM-1→PM-4):** root-md audit (`research/2026-06-10_root_md_audit.md`) → MAINTENANCE.md created (OTTO template + CLAUDE.md step 13a) → SIGNAL_INTAKE.md rebuilt as WALTER subscription spec (old file archived; ROUTING_TABLE MARKET_VOL gap discovered — routes nothing to VIOLET; 3-part WALTER flag drafted) → README refreshed → CLAUDE.md residue pass (HERMES/dangling refs killed, thresholds→pointers, VX.tsv retired, FLOW.tsv re-scoped+backfilled) → CALENDAR fixes (FOMC day-counts corrected vs Fed calendar: Jul 28-29, Sep 15-16). Auto-memory promoted: `finding_external_consumer_check_before_restructure`. By-catch: 5/14 inbox signal was already dispositioned 6/6 — STATUS "pending" line is stale, fix at EOD re-stamp.
 
 **Thesis NOT bumped** — v3.5 intact. New external catalyst = scenario input, not framework change. If Iran leg sustains and pulls SKEW/VVIX/credit, that's the KB-VIO-039 coiled-spring external-catalyst branch — assess phase transition then.
 
@@ -51,4 +53,4 @@ Will asked for boot (~9:50 ET, prior session disconnected; "CPI did release"). E
 
 ---
 
-*Last rewritten: 2026-06-10 ~10:30 ET (post-CPI reactive read. CPI non-tail/energy-driven [KB-VIO-080]; Iran third leg, front re-armed, fade entry gate FAILED — NO ENTRY, deferred to EOD [KB-VIO-081]. STATUS = intraday working dashboard, EOD re-stamp owed. LIVE EVENT WINDOW: 6/10 EOD re-adjudication is the next decision point.)*
+*Last updated: 2026-06-10 ~1:30 PM ET (AM: post-CPI read — CPI non-tail/energy-driven [KB-VIO-080], Iran third leg, fade gate FAILED → deferred [KB-VIO-081]. Midday: housekeeping wave 1-4 complete [MAINTENANCE PM-1→PM-4]. Session break. **NEXT SESSION = EOD re-adjudication TODAY post-4pm ET** [item 1]; MEMORY subtraction job is the session after [item 7a]. STATUS still = intraday working dashboard, EOD re-stamp owed + stale inbox-pending line fix. All commits LOCAL — push awaits Will window; SAM had uncommitted tree work ~midday, do not pull until clean.)*
