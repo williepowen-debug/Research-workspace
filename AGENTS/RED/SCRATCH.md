@@ -25,8 +25,8 @@
 5. Tool diagnosis: bare `python3` lacks yfinance by design (PEP-668); use `.venv/bin/python3`. MAINTENANCE entry; S16 venv punchlist closed.
 
 ## NEXT SESSION (priority-ordered)
-1. **FOMC 6/17 pre-write** (by Mon 6/16): decision tree for dots/DIET-gate-#2/VIX>23 line — don't improvise on catalyst day.
-2. **Jun-stack execution support** (6/11 backstop → 6/18 expiry): menu in POSITION_RECONCILE; Will decides A1-vs-A2 (WAL $85P) + B (TLT x3).
+1. **Jun-stack execution support** (6/11 backstop → 6/18 expiry): menu in POSITION_RECONCILE; Will decides A1-vs-A2 (WAL $85P) + B (TLT x3).
+1a. *FOMC 6/17 pre-write — **Will-SNOOZED 6/10** ("a lot to work on before that"). Revisit no later than Mon 6/15 PM; the pre-catalyst-framework rule still applies, just not this week's lead item.*
 3. **HYG closure write-up** (before 6/18): inputs ready ($245.39 → ~$16, −93.5%).
 4. **SAM challenge follow-through**: confirm packet reached SAM pre-blackout (~6/13); scoring lands Jun 16-18 (CH-009 hold-branch test, CH-010 Branch-C split, CH-011 SAM-23, CH-032/CH-005 + 2wk).
 5. **thesis/TIMELINE.md refresh** (charter item 3) — unblocked by position reconcile; do after Will's Jun-stack calls.
