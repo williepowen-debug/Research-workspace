@@ -33,7 +33,7 @@
 
 ## CARRY-FORWARD
 
-- **Push state:** FULLY SYNCED to origin as of ~6:00 PM ET 6/10. Three Will-opened windows today: ~3:30 PM (972f377c..c2401c1d, 8) + EOD (c2401c1d..531fd26d, 12) + corrections window (531fd26d..4443c834, 8: VIOLET ×3 incl. settle/arithmetic corrections 3e0e985f + corrected NEXUS_BRIEF 6f1e1cb0, RED ×4, SAM ×1). **Origin now serves the settle-corrected STATUS/brief** — NEXUS boots clean. Commits after this note are LOCAL until the next window.
+- **Push state:** FULLY SYNCED to origin as of ~7:00 PM ET 6/10 (4th window: 4443c834..9d3d9c79, 9 commits — VIOLET ×3 incl. ladder refinement fa27ab67 + hedge-flag pricing packet 9d3d9c79, RED ×2, SAM ×1, auto-memory admin ×3). Earlier windows: ~3:30 PM (8), EOD (12), corrections (8). **Auto-memory draft `finding_level_conditional_probability_remarking` left UNCOMMITTED for Will's sweep** (memory/auto/MEMORY.md index line included). NOTE: RED has an untracked `challenges/VIOLET_REDTEAM_SWEEP_2026-06-10.md` in progress — expect an inbound challenge file; check at 6/11 boot. Commits after this note are LOCAL until the next window.
 - **KB.tsv hygiene note:** legacy rows 007-009 have 12 fields vs schema 13 (pre-existing, not today's edits) — fold into next workbook pass.
 - **Distribution discipline:** KB-VIO-087 is the stated view; quote the DECOMPOSITION, never the headline 40-45% alone. The Iran term is not ours to own.
 - **OVX/VIX gauge:** adverse branch confirmed today; if VIX keeps converging on oil-vol with credit following (CCC >9.55), that's the KB-VIO-039 phase-transition assessment trigger.
