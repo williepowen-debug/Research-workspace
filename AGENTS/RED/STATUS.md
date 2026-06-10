@@ -134,7 +134,7 @@ Strongest "we're wrong," and it survived the week:
 ## MISSING DATA WANTED
 
 - ~~Live broker option marks~~ **RESOLVED — CSV 6/10 3:52PM** (`research/POSITION_RECONCILE_2026-06-10.md`). Residual: SOFI/OWL Jun5 final outcomes (positions GONE from CSV — expired-or-closed values unconfirmed).
-- **Portfolio context shift:** cash now 65.1% of IRA; AAPL 17.96% (<20% → VX-RED-016 flip met); new war/oil vehicles (XLE/USO calls, CCL puts, TBT) — only green legs on 6/10. Vulnerability framing changes: structural Aug-Dec core is the real book, theta bleed bounded.
+- **Portfolio context shift:** cash now 65.1% of the positions account; AAPL 17.96% (<20% → VX-RED-016 flip met); new war/oil vehicles (XLE/USO calls, CCL puts, TBT) — only green legs on 6/10. Vulnerability framing changes: structural Aug-Dec core is the real book, theta bleed bounded.
 - LIQUID refresh (stale 5/20) — duration read at 30Y 5.0% + post-GEX-invalidation reconciliation.
 - REGINALD refresh (stale 5/21) — WAL at $81.82 vs V2.2 EV $67.98: tape 20% above EV; what's his marking?
 - VIOLET 6/10 EOD re-stamp — whether the war leg sustains past today; VIX>23 line.
