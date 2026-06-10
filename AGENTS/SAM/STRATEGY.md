@@ -199,7 +199,7 @@ Three lenses on the same risk. Full technical detail: `research/outputs/VOL_OPTI
 | **Hike hawkish-of-pricing** (50bp / hawkish path-dots / QT-continue-or-accelerate) | **~10%** (75% × ~10-15% tail share, shrunk by taper-pause leak from ~15-20%) | **+2-5%; +5-8% with Aug-2024 tail if positioning amplifies** (CFTC 72% of peak = amplifier ON) | This — and ONLY this — is where the legacy "+5-8% / unwind fires" language lives. Speed scales with the surprise component. |
 | **Hold/skip** | **~25%** | **−3-5%** ($54.9-55.5) | Single-path disappointment; event-capped, no stop fires; structural pillars carry the multi-month case. |
 
-**Probability-weighted event EV ≈ ~0%** (0.65×+0.75 + 0.10×+4 − 0.25×4). The Jun-16 print itself is approximately EV-flat at current pricing — the position's value is the call's convexity on the ~10% hawkish branch plus the shares' 3-6mo structural grind, NOT the event base case.
+**Probability-weighted event EV ≈ −0.1%** (0.65×+0.75 + 0.10×+4 − 0.25×4 = −0.11; Advisor-checked Jun 9). The Jun-16 print itself is EV-flat-to-marginally-negative at current pricing — the position's value is the call's convexity on the ~10% hawkish branch plus the shares' 3-6mo structural grind, NOT the event base case.
 
 **(b) Realistic payoffs under the modal scenario:**
 
