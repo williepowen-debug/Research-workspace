@@ -72,7 +72,7 @@
 - **Honor pre-registered falsification rules; don't argue with prior-self** — Apr 7 HY-OAS rule fired Apr 10; execute, don't re-derive.
 - **Pre-committed framework discipline pays** — Apr 18 WAL/OZK 3×3 → Apr 21 clean fire. Rules become ornamental if not honored. → `MEMORY_ARCHIVE.md`
 - **Pre-registered guards pay precisely when they feel pedantic** — the S16 VIX<16 DIET-guard ("do NOT auto-cut bear while DIET fires") looked like over-caution at VIX 15.8; three sessions later VIX +39% (S17, ML-RED-078). Falsifiers that cross DURING an active opposing signature need a guard clause written at pre-registration time.
-- **An earned calibration discount is regime-conditional** — a discount earned by sitting ABOVE a 55-75%-priced market doesn't transfer to sitting BELOW a 98%-priced market; the evidence object changes from self-miscalibration to market-miscalibration (S17, CHG-RED-029 vs SAM). Check what regime a calibration lesson was earned in before applying it.
+- *(Earned-discount regime-conditionality lesson promoted to auto-memory S17 → `finding_calibration_discount_regime_conditional`; loads at every boot.)*
 - **Pre-register against publication-confirmed cadence, not assumed bulk-release dates** — MI3 didn't print in the assumed 5/14-16 FFIEC window; always include a no-binary-fires fallback bin (ML-RED-064). → `MEMORY_ARCHIVE.md`
 - **Don't tie a vector's evidence to a single instrument** — V1 fired via 10-Q narrative ($99M walk-away), not the MI3 number; pre-register acceleration BY VECTOR with alt-routes (ML-RED-065). → `MEMORY_ARCHIVE.md`
 
