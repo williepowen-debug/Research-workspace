@@ -163,9 +163,9 @@ VIX peak within fwd-60td, **episode-level** (sizing unit) with fire-day rate in 
 
 ### Regime Life-Cycle: Interruption-and-Resumption (added v3.3, KB-VIO-072)
 
-The 20d-avg ≥ 140 elevated-SKEW regime definition (KB-VIO-043) treats regime termination and re-establishment as discrete binary events. R12 (2025-06-16 → 2026-05-12, 222 td) terminated cleanly 5/12; **re-established 6/05 at 20d-avg 140.16 after a 24-td gap.** The vol event (VIX +40%) fired *concurrent with* the re-establishment, not in the post-termination window predicted by R11 PRE_EVENT_FADE analog (which would have placed the spike at td-8 from termination; actual lag td-18).
+The 20d-avg ≥ 140 elevated-SKEW regime definition (KB-VIO-043) treats regime termination and re-establishment as discrete binary events. R12 (2025-06-16 → 2026-05-12, 222 td) terminated 5/12; **re-established 6/05 at 20d-avg 140.16 after a 17-td gap** *(24 calendar days — "24-td" in pre-6/10 docs was a calendar/td mislabel, corrected per KB-VIO-085; the termination itself was choppy: 20d-avg back above 140 on 5/13 and 5/15, sustained below only from 5/18).* The vol event (VIX +40%) fired *concurrent with* the re-establishment, not in the post-termination window predicted by R11 PRE_EVENT_FADE analog (which would have placed the spike at td-8 from termination; actual lag td-18).
 
-**Open question:** Does the 24-td gap count as a full regime end (cohort-comparison perspective — R12 ends, a new "R13" starts on 6/05) or as a single regime with an interruption (continuous-regime perspective — R12 is now 222+1 td with a 24-td hole)? KB-VIO-044's historical regime-life-cycle catalogue has no analog for this sequence. **Operational implication:** Don't compound regime-length statistics across the gap until this is resolved. Deferred for research.
+**Open question:** Does the 17-td gap count as a full regime end (cohort-comparison perspective — R12 ends, a new "R13" starts on 6/05) or as a single regime with an interruption (continuous-regime perspective — R12 is now 222+1 td with a 17-td hole)? KB-VIO-044's historical regime-life-cycle catalogue has no analog for this sequence. **Operational implication:** Don't compound regime-length statistics across the gap until this is resolved. Deferred for research.
 
 ---
 
@@ -425,7 +425,7 @@ System thesis: Credit stress → bank stress → equity crash. *(Scenario weight
 ### Open questions for next session
 - Does AI/factor concentration unwind have a half-life longer than the macro fade? Tests: NVDA/SMH price action, single-stock vol surface, 0DTE flow concentration. (CPI confound removed 6/10; Iran confound added.)
 - Iran-leg transmission shape: does a sustained OVX/VIX gap resolve by VIX catching up or OVX coming down? 6/10 intraday says catching up. Cheap analog scan: 2019 Abqaiq, 2022 Ukraine, 2024 Israel-Iran exchanges.
-- Does the 24-td R12 gap count as a regime end (cohort perspective) or as an interruption (continuous perspective)? KB-VIO-072 deferred research.
+- Does the 17-td R12 gap (24 calendar; KB-VIO-085 count correction) count as a regime end (cohort perspective) or as an interruption (continuous perspective)? KB-VIO-072 deferred research.
 
 ~~Until then: 6/10 CPI is the gate.~~ **CPI resolved non-tail 6/10 (KB-VIO-080). The gate is now: Iran trajectory + 6/16 BOJ + 6/17 FOMC/SEP/quarterly-expiry convergence.** 6/10 EOD re-adjudication is the next decision point.
 

@@ -10,6 +10,26 @@ Log material structural changes only — not routine content edits. Template ado
 
 ---
 
+## 2026-06-10 (PM-5) — MEMORY.md subtraction pass (SCRATCH item 7a, pulled forward by Will; Orch-verified plan)
+
+**Trigger:** Will pulled the queued MEMORY subtraction job forward (~3:30 PM). Plan reviewed by Orch with one hard correction (the "24-td gap" figure VIOLET was about to transcribe is a calendar/td mislabel — actual 17 td) and one approved decision (analogs → compressed lessons-only, not pure pointer, because MEMORY is boot-read and the thesis is not).
+
+**What changed:**
+- **~430 → ~200 lines.** Pointer-ized to thesis (canonical): REGIME DEFINITIONS (§ REGIME-DEPENDENT BEHAVIOR) and the ~50-line CREDIT-TO-VOL four-model synthesis (§ CENTRAL CLAIM + lag table). HISTORICAL ANALOGS compressed to a trigger-class/credit-lead/lesson table + **Jun 2026 NFP-shock episode added** (was missing — most decision-relevant analog).
+- **Factual fixes, all verified against raw data before writing:** Principle 9 (R12 interrupted-and-resumed, 17-td gap) · Principle 10 ("sustained breaks have not occurred" was FALSE — daily-close runs 4 td 5/5-5/8 and 8 td 5/18-5/28, metric named) · TERM STRUCTURE section's "Inversion → Trade: Long vol" advice removed (contradicted own Prediction-#2 falsification, KB-VIO-034) · VVIX rare-trigger caveat (v3.4) + conditional-percentile discipline added.
+- **Apr 12 "Open Questions for Will" retired** — all 3 resolved by events (boot.py automation; M1:M2 wired; messaging overhaul). Dispositions kept in session-notes intro.
+- **Session notes reordered chronologically + compressed** (blow-by-blow → KB/research pointers; calibration takeaways kept) + **6/5-9 NFP-arc note added** (the scoped gap).
+- **METRIC SEMANTICS gains calendar-vs-td rule** (KB-VIO-085).
+- **By-catch fixes outside MEMORY:** thesis ×3 "24-td" → 17-td (24 calendar); KB-VIO-072 [COUNT CORRECTED] preamble (KB-VIO-051/058 pattern) + KB-VIO-085 logged; `scripts/convexity_read.py:43` comment re-pointed from MEMORY regime defs to the thesis section (Orch consumer-grep by-catch).
+
+**Files touched:** MEMORY.md (rewrite), thesis/VIX_THESIS.md (3 count fixes), workbook/KB.tsv (072 preamble + 085), scripts/convexity_read.py (comment), MAINTENANCE.md (this entry).
+
+**Boot-impact:** MEMORY.md is boot step 3 — boots now load ~230 fewer lines, with regime/transmission frameworks read from their canonical homes instead of drifting copies. No script behavior change.
+
+**Lessons:** (1) A remediation plan is itself a transcription surface — the "24-td" error was upstream (thesis/KB) and got caught only because the verification pass recomputed rather than re-read; durations carry units like rates carry (threshold, tier, unit). (2) TSV edits via Python: plain string ops, NOT csv.writer (default quoting re-quoted 24 untouched rows on first attempt; caught by `git diff` before commit, reverted). (3) Boot-read vs write-back-read distinction decides pointer-vs-compress: the analogs stayed local *because* MEMORY is the only pattern library loaded every session.
+
+---
+
 ## 2026-06-10 (PM) — SIGNAL_INTAKE.md rebuilt as WALTER subscription spec (orchestrator-verified; housekeeping item 1 of 4)
 
 **Trigger:** Root-md audit flagged SIGNAL_INTAKE.md as the worst behavioral-risk doc (unqualified-94% sizing, falsified inversion-as-leading-indicator, pre-Episode-17 vehicle default, HERMES-era protocol). Orchestrator packet superseded the rehab plan with a decisive fact neither reviewer caught by reading: **the file is WALTER's per-agent subscription spec** (template `AGENTS/WALTER/design/SIGNAL_INTAKE_TEMPLATE.md` v0.1; STATE.md §8 rollout VIOLET ✅). VIOLET pushed back twice, both accepted amended: (1) ROUTING_TABLE.md `MARKET_VOL` row routes nothing to VIOLET (HENRY|LIQUID|LIQUID,RED — predates the HENRY/VIOLET vol-ownership split) → flag-to-WALTER promoted to load-bearing deliverable, row-split proposal; (2) Prome's "perishable live levels" ACTIVE THRESHOLDS instruction contradicted CARL's post-5/31 reference pattern (section deleted as drift hazard) → lines-only middle path adopted, HY/CCC episode-gates cut.
