@@ -6,6 +6,14 @@
 
 ---
 
+*Rolled in from STATUS.md SESSION LOG at 2026-06-10 PM-2 closeout (1 row, 2026-05-27):*
+
+| Date | Key Activity |
+|------|-------------|
+| 2026-05-27 Wed AM (~15:30-15:50 UTC, **Will-Telegram boot msg 2037 + Iran-anchor request msg 2039 + 2040 missed-reply nudge + A+B direction msg 2042**; **Iran-anchor re-verify session — 1 verify-research spawn ($0.05) + live tape pull**) | Iran-war anchor re-verify (1 day early ahead of 5/28 boundary). Verify-research 5/22→5/27 sweep (agent_id a25d797c250b05bd9) integrated alongside HAWK 5/22 consolidation + BRENT 5/25 Path A imminent commit. **Net verdict: NEW STATE PAPER-THAW + KINETIC-RELAPSE bifurcation.** 5 material state-changes: 5/26 CENTCOM strikes in Iran (mid-negotiation kinetic relapse); 5/23 Trump "largely negotiated"; 5/24 framework articulated (NOT signed, 95% there); Iran public hardening on uranium + Hormuz control; Israel conditional walk-away. anchors/IRAN_WAR.md refreshed: verified-as-of bumped 5/21→5/27; new Current state section; 5/22-5/27 state-change block added; Iran-cluster signal-framing implications fully rewritten; Trump "largely negotiated" REAL-BUT-OVERSTATED flagged; confidence stepdown ≤0.65 on signals leaning on "deal imminent" framing. Live tape: Brent $94.16 / USD/JPY 159.44 / TLT $85.42 / 10Y 4.56. Anchor re-verify boundary 5/28 cleared 1 day early; next 2026-06-03. Telegram-reply discipline finding: first reply went to terminal not Telegram per Will msg 2040 — verify-research / reply-tool sequencing needs explicit reply-via-Telegram step. |
+
+---
+
 *Rolled in from STATUS.md SESSION LOG at 2026-06-10 closeout (14 rows, 2026-05-10 → 2026-05-26):*
 
 | Date | Key Activity |
