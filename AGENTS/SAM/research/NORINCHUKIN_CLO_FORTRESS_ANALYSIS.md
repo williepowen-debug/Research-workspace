@@ -1,5 +1,7 @@
 # Norinchukin's CLO Fortress: Contagion Chain Analysis
 
+> **⚠️ SUPERSEDED FIGURES (2026-06-10):** Pre-dates the FY2025 disclosure (out May 21, 2026). The "¥9.7T peak → ~¥9.2T after ¥500B Q1-2026 decline" estimates were **falsified by bank primary disclosure**: CLO book was **¥10.1T at Mar 31, 2026 — all-time high** (never declined; CreditFlux claim contradicted). Mechanics remain valid reference; direction premise resolved opposite. Canonical: `insurers/norinchukin.md`, KB-SAM-186.
+
 **Source:** Research document, April 5, 2026  
 **Classification:** Japanese institutional flows / CLO market structure  
 **Coverage:** Norinchukin Bank ¥9.7T ($65B) CLO portfolio — world's largest single CLO position  

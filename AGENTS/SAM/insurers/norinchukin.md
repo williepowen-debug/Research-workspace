@@ -1,75 +1,74 @@
 # Norinchukin Bank — World's Largest CLO Investor
 
-**Not a life insurer** — agricultural cooperative bank. Included in this folder because its ¥9.7T peak / ~¥9.2T current CLO book is the critical node in the Japan → US contagion chain, independent of Channel 1 mutual-lifer mechanism.
+**Not a life insurer** — agricultural cooperative bank. Included in this folder because its CLO book (record ¥10.1T Mar 2026) is the critical node in the Japan → US contagion chain, independent of Channel 1 mutual-lifer mechanism.
 
-**CLO Holdings:** ~¥9.2T (~$62B) | **CET1:** 17.70% (Mar 2025) | **FY2025 results:** Pending Jun 2026
-**Last Updated:** 2026-05-27 (v1.5 sync — positioned as next Channel 1 reactivation gate; FY2025 still forward)
-**Full research:** `research/outputs/NORINCHUKIN_CLO_CONTAGION.md`
-
----
-
-## v1.5 STATUS — INDEPENDENT CHANNEL 1 REACTIVATION GATE (Jun FY2025)
-
-Norinchukin sits OUTSIDE the Big 3 mutual lifer pattern that drove the v1.5 demotion. The cooperative bank's ¥9.7T CLO book mechanics are distinct from mutual-lifer ESR dynamics:
-- **Mutual lifers** absorbed FY2025 stress via capital actions + equity rally + hedge-cost relief, with foreign book GROWING — no forced repatriation. Drove Channel 1 demotion to deferred structural backstop.
-- **Norinchukin** has already shown Q1 2026 CLO reduction (¥500B, "fastest on record") under different mechanics (overheating credit concern per CEO Kitabayashi Nov 2025; First Brands JV exposure ¥150.5B allowance booked).
-
-**Norinchukin FY2025 (Jun) is the next discrete near-term Channel 1 reactivation candidate.** If Norinchukin's June disclosure includes:
-- (a) Explicit CLO-book reduction target (formal allocation pivot)
-- (b) Acceleration of the Q1 ¥500B decline pace
-- (c) Stress framing around US credit / private credit exposure
-
-→ Channel 1 partially reactivates via the Norinchukin / CLO route (NOT the mutual-lifer route, which remains deferred).
+**CLO Holdings:** **¥10.1T (~$63B) — ALL-TIME HIGH** (Mar 31, 2026) | **CET1:** 17.81% (Mar 2026) | **FY2025 results:** OUT May 21, 2026 — net income ¥121.4B (beat ¥30-70B guidance)
+**Last Updated:** 2026-06-10 (FY2025 full-year pull — primary-source verified from bank tanshin + supplement PDFs; **Channel 1 reactivation gate RESOLVED: NOT REACTIVATED**)
+**Full research:** `research/outputs/NORINCHUKIN_CLO_CONTAGION.md` *(pre-dates FY2025 print — ¥9.7T-era figures superseded by this profile)*
 
 ---
 
-## KEY DATA
+## ✅ GATE RESOLVED 2026-06-10 — CHANNEL 1 NOT REACTIVATED (results were out May 21; surfaced Jun 10)
 
-| Metric | Value | Date |
+Norinchukin's FY2025 disclosure (announced **May 21, 2026**; surfaced by SAM Jun 10 — IR HTML pages 403 automated fetch, direct PDF URLs work) resolved the reactivation gate **against**, on all three pre-registered conditions:
+
+- **(a) Explicit CLO-book reduction target — NO.** Deck reiterates AAA-only mandate, "careful investment decisions and risk management," continued diversified investment. No allocation-pivot language.
+- **(b) Acceleration of decline pace — NO DECLINE EXISTS.** CLO book GREW +¥1.8T YoY to a record ¥10.1T. Full path: Mar 2025 ¥8.3T → Sep 2025 ¥9.7T → Dec 2025 ¥9.8T → **Mar 2026 ¥10.1T**.
+- **(c) Stress framing around US credit / private credit — NO.** Outlook framing limited to Iran/Middle East macro uncertainty; First Brands handled as one-time item. FY2026 guidance ¥50-100B maintained.
+
+**The prior "¥500B Q1 2026 decline, fastest on record" claim (CreditFlux, single-source) is contradicted by the bank's own disclosure** — the yen book rose +¥0.3T over that exact window (Dec ¥9.8T → Mar ¥10.1T). CreditFlux basis unresolved (possibly USD-par or different scope); bank primary disclosure is authoritative. The older ¥8.2T figure was Dec 2024 (Bloomberg, Feb 2025) — correct then, superseded.
+
+**Pattern significance:** this extends the Big 3 mutual-lifer ESR pattern to a **4th institution with entirely different mechanics** — every Japanese institutional balance sheet SAM has gated on (Nippon, Meiji Yasuda, Sumitomo, now Norinchukin) resolved its 2026 disclosure window by GROWING US credit exposure, not cutting it. Echoes the SAM-14/19/25 failure cluster: mechanism-direction assumption (forced/voluntary selling) wrong again. **Cautionary CEO rhetoric ≠ cautious balance sheet** — Kitabayashi's Nov 2025 "overheating in private credit" warning coexists with record CLO buying.
+
+---
+
+## KEY DATA (FY2025 — year ended Mar 31, 2026; all hard disclosure unless noted)
+
+| Metric | Value | Date / Source |
 |--------|-------|------|
-| CLO holdings (peak) | ¥9.7T ($65B) | Sep 2025 |
-| CLO holdings (current est.) | ~¥9.2T ($62B) | Mar 2026 |
-| **Q1 2026 decline** | **¥500B — "fastest on record"** | CreditFlux |
-| CET1 ratio | 17.70% | Mar 2025 (FY2025 update pending) |
-| Portfolio composition | 100% AAA, held-to-maturity | Confirmed |
-| Share of global CLO market | ~5% | — |
-| Share of annual AAA CLO trading | **46%** | — |
-| 9-month profit (through Q3 FY2025) | ¥99.2B | Tracking positive |
-| First Brands JV exposure | ¥150.5B allowance booked | JA Mitsui Leasing |
+| **CLO holdings** | **¥10.1T (~$63B) — record** | Mar 31, 2026 — FY2025 supplement p.26 bar chart (verified by direct extraction) |
+| CLO trajectory (FY-ends) | 6.8 → 5.1 → 6.4 → 7.4 → 8.3 → **10.1** (¥T, 2021/3 → 2026/3) | FY2025 supplement |
+| Intra-year path | Sep 2025 ¥9.7T → Dec 2025 ¥9.8T → Mar 2026 ¥10.1T | Q3 supplement (Feb 18) + FY supplement |
+| Consolidated net income FY2025 | **¥121.4B** (vs −¥1,807.9B FY2024; beat ¥30-70B guidance) | Tanshin May 21, 2026 |
+| FY2026 guidance | ¥50-100B (maintained despite Iran uncertainty) | FY2025 supplement |
+| CET1 ratio | **17.81%** (improved from 17.70%) | Mar 2026 |
+| AFS unrealized | total −¥220B (improved from −¥550B); bonds −¥1,242B / equities +¥719B / credit +¥304B | Mar 2026 |
+| Securities balance | ¥37.07T (+¥5.75T YoY); parent market portfolio ¥40.3T → ¥45.6T; bonds ¥19.2T → ¥21.0T | Mar 2026 |
+| Securitized products overall | ¥11.0T → ¥13.6T YoY; total credit assets ¥19.4T → ¥22.2T | Mar 2026 |
+| Portfolio composition | 100% AAA, 35-40% credit enhancement, held-to-maturity | Confirmed FY2025 supplement |
+| First Brands / JA Mitsui | Norinchukin consolidated hit = equity-method loss ~¥61B, framed one-time. (¥150.5B allowance was at JA Mitsui Leasing level, NOT Norinchukin's consolidated number.) | Tanshin May 21 |
+| Share of annual AAA CLO trading | **46%** | (pre-FY2025 estimate, unrefreshed) |
 
-## WHY IT'S HERE (mechanism preserved from v1.4)
+**⚠️ Known-unknown (UST split):** the supplement does NOT break out UST/foreign-bond composition — parent bond book grew ¥19.2T → ¥21.0T but currency/issuer split is undisclosed at this reporting level. Direction (growing) is known; composition is not. Re-check at H1 FY2026 interim (Nov 2026) or via semiannual securities report.
 
-Norinchukin is the linchpin of a feedback loop:
-1. If it shifts from CLO buyer to seller → AAA spreads widen
+**⚠️ Unverified (skipped as color):** Kitabayashi May 21 results-presser tone — no transcript surfaced; the deck itself is calm. Actions (record CLO buying) cut against the Nov 2025 cautionary rhetoric either way.
+
+## MECHANISM REFERENCE (retained — what WOULD matter if direction ever flips)
+
+Norinchukin remains the linchpin of a *potential* feedback loop — but the FY2025 print resolved the trigger condition in the opposite direction (buyer growing, not seller):
+1. If it ever shifts from CLO buyer to seller → AAA spreads widen
 2. Spread widening → CLO ETF outflows ($38B complex)
 3. CLO stress → leveraged loan repricing → BDC NAV drops
 4. Simultaneously: USD asset sales → yen strengthens → amplifies any concurrent Japanese institutional repatriation
 
-The ¥500B Q1 decline is the first sign of net selling. "Fastest on record."
+Position-too-large-to-exit market-structure risk is now LARGER (¥10.1T vs ¥9.7T) even as the behavioral signal points away from exit.
 
-Under v1.5, Norinchukin is positioned as a **standalone reactivation gate** rather than part of a Channel 1 convergence — the mutual-lifer leg is demoted, so Norinchukin would have to drive the channel on its own to matter near-term.
+## SIGNALS TO WATCH (post-gate)
 
-## CEO COMMENTARY (NEW LEADERSHIP CONCERN)
+- **H1 FY2026 interim results (~Nov 2026)** — next scheduled balance-sheet read; first check on whether the ¥10.1T build continues
+- **Quarterly CLO position updates** — any genuine reversal (vs the falsified CreditFlux decline) would be high-signal precisely because FY2025 established a growth baseline
+- **Kitabayashi public statements** — escalation of overheating-credit concern *paired with balance-sheet action* (rhetoric alone disconfirmed as signal by FY2025)
+- **AAA CLO discount margins** — second-derivative read; Norinchukin demand is now a confirmed spread-compressor, not a seller-overhang
 
-- **New CEO Kitabayashi (Nov 2025):** flagged "overheating in credit market, particularly private credit." This is a **direct leadership signal of risk-off pivot**, distinct from anything in the mutual-lifer cohort. The Big 3 mutuals are ADDING US/PC exposure (Resolution Life, Allstate, Dearborn); Norinchukin's new CEO is publicly cautious. This divergence is itself signal.
-- First Brands Group bankruptcy → JA Mitsui Leasing (Norinchukin JV) booked ¥150.5B allowance — concrete loss event that may inform Jun FY2025 disclosure tone.
-
-## SIGNALS TO WATCH (v1.5)
-
-- **🔴 Jun FY2025 results** — the load-bearing disclosure. Watch for: explicit CLO reduction target, US credit / PC commentary tone, full-year profit vs Q3 ¥99.2B tracking, any allocation-pivot language.
-- **Quarterly CLO position updates** (post-Q1 ¥500B decline) — is the reduction continuing or one-time?
-- **Kitabayashi public statements** — any escalation of overheating-credit concern would be high-signal
-- **CLO market spreads** — AAA CLO discount margin moves are the second-derivative read on Norinchukin selling pressure
-
-## RISK ASSESSMENT
+## RISK ASSESSMENT (post-FY2025)
 
 | Risk | Level | Note |
 |---|---|---|
-| Credit impairment risk | VERY LOW | AAA, 37% subordination, zero historical defaults |
-| Market-structure risk | HIGH | Position too large to exit without severe dislocation |
-| Yen feedback risk | MEDIUM | USD sales → yen strengthens → cascade amplifier |
-| **v1.5 reactivation potential** | **Channel 1 gate** | Jun FY2025 is the discrete event |
+| Credit impairment risk | VERY LOW | AAA, 35-40% credit enhancement, zero historical AAA defaults; CET1 improved |
+| Market-structure risk | HIGH (larger) | ¥10.1T position even harder to exit without dislocation than ¥9.7T |
+| Yen feedback risk | MEDIUM | Mechanism intact but trigger direction resolved away |
+| **Channel 1 reactivation** | **GATE CLOSED Jun 10, 2026** | No near-term reactivation candidate remains; next read Nov 2026 interim |
 
-## WHY IT MATTERS (v1.5)
+## WHY IT MATTERS (post-FY2025)
 
-The one remaining Japanese institutional balance sheet with a credible near-term Channel 1 transmission path. Mutual lifers absorbed FY2025 stress without firing the mechanism; Norinchukin's Q1 ¥500B decline + new CEO public risk-off pivot positions it as the **standalone reactivation candidate**. Under v1.5 single-path Channel 2 dominance, Norinchukin is the most likely place a second leg of Channel 1 could re-fire near-term — but it's now a much narrower scenario than the v1.0-v1.4 multi-mutual-lifer thesis. June disclosure is the binary event.
+The last credible near-term Channel 1 transmission path resolved against reactivation. 4-of-4 Japanese institutional balance sheets (Big 3 mutuals + Norinchukin, distinct mechanics) grew US credit exposure through their 2026 disclosure windows. Norinchukin's relevance inverts: it is now evidence FOR the "Japanese institutions are a structural US-credit bid" counter-thesis, and its record book size makes any *future* genuine reversal more violent — a bigger gun that is currently pointed away. Post-BOJ agenda item (per Will, Jun 10): re-examine whether Channel 1 "deferred" should become "retired pending new mechanism."

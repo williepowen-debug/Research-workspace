@@ -8,6 +8,18 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-06-10 (PM) — v1.5.1 follow-on: Norinchukin FY2025 gate RESOLVED NOT REACTIVATED — Channel 1's last near-term reactivation candidate closes; "¥9.7T shrinking" claim falsified
+
+**Author:** SAM (Will-directed pull; primary-source verified before propagation per [[finding_ohlc_verify_before_session_claims]] discipline)
+**Action:** No version bump — Channel 1 status (DEFERRED) unchanged; a watched gate resolved and a factual claim corrected. Surfaces swept: THESIS Channel 1 bullet + CROSS-AGENT → LIQUID line + Risk Factors row, TRACKER (7 spots), `insurers/norinchukin.md` (full refresh — now canonical), STATUS, TIMELINE, FLOW-JPN-3.01, LIQUID outbox signal.
+
+**Old view:** Norinchukin CLO ¥9.7T (Sep 2025 peak) shrinking — ¥500B Q1 2026 decline "fastest on record" (CreditFlux); Jun FY2025 disclosure = last near-term Channel 1 reactivation gate, watching for reduction target / decline acceleration / US-credit stress framing.
+**New view (bank primary disclosure, tanshin + supplement May 21 2026, surfaced Jun 10, figures verified by direct PDF extraction):** CLO book at **record ¥10.1T Mar 2026, +¥1.8T YoY** (Mar 25 ¥8.3T → Sep ¥9.7T → Dec ¥9.8T → Mar 26 ¥10.1T — never declined); net income ¥121.4B beat ¥30-70B guidance; CET1 17.81% improved; no reduction target, no stress framing (Iran-macro only); First Brands consolidated hit ~¥61B equity-method one-time (¥150.5B was JA Mitsui Leasing level). **All three reactivation conditions failed → gate CLOSED.** CreditFlux decline claim contradicted by bank's own yen figures (basis unresolved, single-source); older ¥8.2T figure was Dec 2024, superseded.
+
+**Calibration significance:** 4-of-4 Japanese institutions (Big 3 mutuals + Norinchukin, *distinct mechanics*) resolved 2026 disclosure windows by GROWING US credit exposure — extends the SAM-14/19/25 mechanism-direction failure cluster. Cautionary CEO rhetoric (Kitabayashi Nov 2025) ≠ cautious balance sheet. **Post-BOJ agenda (Will-directed): re-examine the Risk Factors Channel-1-reactivation 10% row and whether "deferred" should become "retired pending new mechanism."** Known-unknown logged: UST/foreign-bond split not broken out (parent bonds ¥19.2T → ¥21.0T, composition undisclosed). Coverage-gap note: results were public ~3 weeks before SAM surfaced them (IR HTML 403s automated fetch; direct PDF URLs work) — third coverage-gap instance this week; `insurer_quartr.py` priority bumped in infra queue.
+
+---
+
 ## 2026-06-10 (AM) — v1.5.1 follow-on: Takaichi-ceiling discount pre-registered for disposition at Jun-16 + Fed-pricing regime flip logged
 
 **Author:** SAM (Advisor-prompted, Will-approved)

@@ -1,6 +1,6 @@
 # Japanese Life Insurer Tracker
 
-**Last Updated:** 2026-05-27 (v1.5 sync — Big 3 ESR window closed 3-of-3; Channel 1 demoted to deferred structural backstop)
+**Last Updated:** 2026-06-10 (Norinchukin FY2025 pull — results were OUT May 21, surfaced Jun 10; CLO book record ¥10.1T, **reactivation gate (e) RESOLVED NOT REACTIVATED → 4-of-4 institutions against forced-selling direction**) | prior: 2026-05-27 (v1.5 sync — Big 3 ESR window closed 3-of-3)
 **Purpose:** Dashboard for tracking Big 10 insurer positioning, FY2025 ESR disclosures, and repatriation signals. **Mechanics map** for JGB-loss / ESR / lifer behavior — the cross-border forced-repatriation leg of Channel 1 is now demoted to multi-year structural backstop after 3-of-3 Big 3 mutual confirmation; J-ICS long-end abandonment (DOMESTIC mechanism) remains intact.
 
 ---
@@ -13,7 +13,7 @@
 - JGB unrealized losses real and worsening (Nippon -¥5.73T, Meiji -¥2.16T)
 - **J-ICS lifer long-end abandonment driving JGB 30Y / 40Y curve instability — DOMESTIC mechanism, independent of foreign-asset transmission**
 - Hedge ratio collapse (44.4%, 14-yr low) and rotation-within (unhedged → hedged) confirmed
-- Norinchukin CLO ¥9.7T shrinking — Q1 2026 ¥500B decline (independent of mutual lifer pattern)
+- ~~Norinchukin CLO ¥9.7T shrinking — Q1 2026 ¥500B decline~~ — **FALSIFIED Jun 10 by FY2025 primary disclosure: CLO book at record ¥10.1T Mar 2026, GREW +¥1.8T YoY (8.3 → 9.7 Sep → 9.8 Dec → 10.1 Mar). CreditFlux decline claim contradicted by bank's own figures; see `norinchukin.md`**
 
 **What's deferred to multi-year:**
 - "ESR cap → forced foreign bond reduction" cross-border transmission timing (multi-year, not 2026)
@@ -24,7 +24,7 @@
 - (b) Late-Jun mid-tier print stress (T&D, Sony Life, Daido, Taiyo) with explicit foreign-bond reduction language
 - (c) Sustained MOF ITS weekly net selling >¥1.5T/month (multi-week, not single-week spike)
 - (d) FX-trigger zone breach (USDJPY <130-135 mechanical sell zone for unhedged ~$370-550B)
-- (e) Norinchukin Jun FY2025 with explicit CLO-book reduction target
+- ~~(e) Norinchukin Jun FY2025 with explicit CLO-book reduction target~~ — **✅ RESOLVED AGAINST Jun 10** (FY2025 out May 21: no reduction target, book at record ¥10.1T; gate closed, next read Nov 2026 interim)
 
 **Implication for alerting:** Old rule "ANY ESR <200% → 🔴" is too crude (would have mis-fired on Nippon M&A action, which markets correctly priced as non-stress). New rule discriminates mechanism — see **Signal Routing** below.
 
@@ -68,7 +68,7 @@ Reconciles why Feb TIC showed Japan UST holdings RISING (+$53.8B Dec→Feb) whil
 | **Fukoku Mutual** | ~8 | TBD | ⏳ | TBD | First-mover super-long JGB exit Jan 2026. Already pivoted to 10-15Y. |
 | **Japan Post Insurance** | ~55 | TBD | ⏳ | TBD | Zero PC exposure (cleaner read). Selling low-yield JGBs. |
 | **T&D Holdings** (listed) | ~18 | TBD | ⏳ | TBD | Includes Fortitude; ¥550B PC. |
-| **Norinchukin** (cooperative) | — | TBD | ⏳ Jun | TBD | World's largest CLO investor; ¥9.7T CLO book. Q1 2026 ¥500B decline. |
+| **Norinchukin** (cooperative) | — | n/a (bank — CET1 17.81%, ↑) | ✅ **May 21** (surfaced Jun 10) | **NO — pattern-confirming** | Net income ¥121.4B (beat ¥30-70B guidance). **CLO book record ¥10.1T (+¥1.8T YoY) — GROWING, not shrinking.** No reduction target; First Brands hit ~¥61B equity-method, one-time. 4th institution against forced-selling direction. |
 
 ### Reading the Big 3 mutual prints — RESOLVED 3-of-3 (v1.5 demotion confirmed)
 
@@ -92,7 +92,7 @@ Reconciles why Feb TIC showed Japan UST holdings RISING (+$53.8B Dec→Feb) whil
 | Meiji Yasuda | 208% (-8pt) | Stable ops; JGB markdown absorbed by capital | +¥709B unrealized GAIN | Stancorp record earnings via Allstate |
 | Sumitomo Life | 197% (↑+19pt) | Stable ops + equity rally + Dearborn partial | +¥1.11T total foreign sec (+9.3%) — GROWING | Symetra in-force +23.7% YoY |
 
-**Next Channel 1 re-test window:** H2 FY2026 plans (Oct-Nov 2026) OR FY2026 ESR disclosures (May 2027). Mid-tier prints (T&D, Sony Life, Daido, Taiyo) in late June provide consistency check vs Big 3 pattern. Norinchukin Jun FY2025 is independent (CLO mechanics).
+**Next Channel 1 re-test window:** H2 FY2026 plans (Oct-Nov 2026) OR FY2026 ESR disclosures (May 2027). Mid-tier prints (T&D, Sony Life, Daido, Taiyo) in late June provide consistency check vs Big 3 pattern. ~~Norinchukin Jun FY2025 is independent (CLO mechanics)~~ — **resolved against Jun 10 (record ¥10.1T book); the independent CLO route is closed too. Post-BOJ agenda (Will, Jun 10): with 4-of-4 against, re-examine whether "deferred" should become "retired pending new mechanism."**
 
 ---
 
@@ -148,7 +148,7 @@ Reconciles why Feb TIC showed Japan UST holdings RISING (+$53.8B Dec→Feb) whil
 
 **What we're waiting for (current, post-3-of-3):**
 1. **Late-Jun mid-tier ESR** (T&D Holdings, Sony Life, Daido, Taiyo) — consistency check vs Big 3 pattern. Stress-driven sub-200% with explicit foreign-bond reduction language would partially reactivate Channel 1.
-2. **Norinchukin FY2025 (Jun)** — ¥9.7T CLO book direction; independent of mutual lifer pattern. Explicit CLO-book reduction target = Channel 1 reactivation candidate.
+2. ~~Norinchukin FY2025 (Jun)~~ — **✅ RESOLVED AGAINST Jun 10:** CLO book direction is UP (record ¥10.1T, +¥1.8T YoY); no reduction target. Reactivation candidate closed; next read H1 FY2026 interim (~Nov 2026).
 3. **Any insurer dropping a headline UST/foreign-bond reduction target** (Fukoku-2023-style) — would re-activate Channel 1 immediately.
 4. **MOF ITS weekly net selling >¥1.5T sustained over multi-week window** — would suggest forced-selling mechanism firing even if disclosure language stays calm.
 5. **H2 FY2026 plan announcements (Oct-Nov 2026)** — next structured re-test window for Channel 1 multi-year transmission.
@@ -178,7 +178,7 @@ Reconciles why Feb TIC showed Japan UST holdings RISING (+$53.8B Dec→Feb) whil
 | ✅ **May 26** | **Sumitomo Life FY2025 ESR** | **197% ↑+19pt — pattern-confirming.** No M&A waterfall; stable ops + equity rally + Dearborn partial. Foreign book GROWING +¥1.11T (+9.3%). 3-of-3 confirms v1.5 demotion. |
 | **🟠 Thu-Fri May 28-29** | Tokyo May CPI | Leading indicator for June national. If core-core <1.9% → June BOJ pricing breaks lower from 55-65% → v1.5 single-path impairs materially. |
 | **🔴🔴 Jun 16** | BOJ MPM — BASE CASE HIKE (SAM-21 ~57%; market 55-65%) | If hike fires, insurer asset-side relief on JGB book (yields stabilize); liability-side new constraint (longer-duration liabilities reprice). Net for ESR depends on duration matching. |
-| **Jun** | Norinchukin FY2025 results | CLO strategy signals; ¥9.7T book direction (independent of mutual lifer pattern) |
+| ✅ **May 21** (surfaced Jun 10) | **Norinchukin FY2025 results** | **Net income ¥121.4B beat; CLO book record ¥10.1T (+¥1.8T YoY) — gate resolved NOT REACTIVATED; no reduction target; CET1 17.81% ↑** |
 | **Late Jun** | T&D Holdings, Sony Life, Daido, Taiyo FY2025 ESR | Mid-tier reads; consistency check vs Big 3 pattern |
 
 ---
@@ -188,7 +188,7 @@ Reconciles why Feb TIC showed Japan UST holdings RISING (+$53.8B Dec→Feb) whil
 | Doc | What It Covers |
 |-----|---------------|
 | `research/outputs/LIFE_INSURER_UST_DEEP_DIVE.md` | Full mechanical analysis of JGB losses → UST selling |
-| `research/outputs/NORINCHUKIN_CLO_CONTAGION.md` | Norinchukin ¥9.2T CLO book, contagion chain |
+| `research/outputs/NORINCHUKIN_CLO_CONTAGION.md` | Norinchukin contagion chain (¥9.2T-era figures superseded — current canonical numbers in `insurers/norinchukin.md`: record ¥10.1T Mar 2026) |
 | `research/outputs/JAPAN_INSURER_PRIVATE_CREDIT_EXPOSURE.md` | $40-53B PC exposure, double-hit scenario |
 | `thesis/THESIS.md` § Channel 1 | Repatriation thesis, flow scenarios |
 

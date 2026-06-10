@@ -65,20 +65,20 @@
 
 7. **RED post-BOJ refresh (cites verified ✅):** targets = (a) hold-scenario response; (b) structural pillars' multi-month TIMING; (c) SAM-23 path-decoupling; (d) **Fed-hike repricing STRENGTHENS CH-005 — hand RED this explicitly.**
 
-8. **Post-BOJ stack:** METSUKE+KOYOMI+KURA trio (heaviest harvest of cycle; KURA Run 6 candidates seeded: taper-pause if delivered, subsidy-mask wedge, no-strike-at-160 pattern); **eval re-baseline (DEFERRED to post-BOJ settle — Advisor call, adopted)**; OS.1 close disposition (THESIS note vs CHANGELOG-only); Dec-1.25% second-source re-verify if Branch A fires.
+8. **Post-BOJ stack:** METSUKE+KOYOMI+KURA trio (heaviest harvest of cycle; KURA Run 6 candidates seeded: taper-pause if delivered, subsidy-mask wedge, no-strike-at-160 pattern, **Norinchukin ¥10.1T falsification**); **eval re-baseline (DEFERRED to post-BOJ settle — Advisor call, adopted)**; OS.1 close disposition (THESIS note vs CHANGELOG-only); Dec-1.25% second-source re-verify if Branch A fires; **🆕 CHANNEL 1 DISPOSITION (Will-directed Jun 10): with 4-of-4 institutions (Big 3 mutuals + Norinchukin) resolving against the forced-selling direction, re-examine the THESIS Risk Factors Channel-1-reactivation 10% row and whether "deferred" should become "retired pending new mechanism."**
 
 9. **Auto-memory: 3 candidates remain Will's call** (`finding_catalyst_path_decoupling`, `finding_script_label_apostrophe_strip`, `finding_counter_frame_3_question_disposition` — one-liners given Jun 10).
 
-10. **🟠 Norinchukin FY2025 CLO check (Channel 1 gate):** full-year disclosure not yet surfaced (Q3 ¥99.2B profit Feb 18; FY guidance ¥30-70B held; IR page 403s search/fetch). Verify CLO ¥8.2T vs thesis ¥9.7T when it lands; spawn dedicated pull if still missing post-BOJ.
+10. ~~Norinchukin FY2025 CLO check~~ — **✅ RESOLVED Jun 10 PM (Will-directed pull):** results were out May 21 — net income ¥121.4B beat, **CLO record ¥10.1T (+¥1.8T YoY) — "shrinking" claim FALSIFIED**, gate NOT reactivated, 4-of-4 institutions against forced-selling. Full sweep done (norinchukin.md canonical, TRACKER, THESIS+CHANGELOG, STATUS, TIMELINE, FLOW-3.01/3.03, KB-186, TRADE, research-doc supersede banner, LIQUID outbox 🟠). Known-unknown: UST split undisclosed. Next read ~Nov 2026 interim.
 
 11. **Position next-touch:** no add/trim under v1.5.1. Triggers: (a) USDJPY <156 ×3 sessions; (b) pre-cabling Jun 13-15; (c) post-Jun-16 thesis break = BOJ dovish AND USDJPY 167+/no MOF. **NEXUS_BRIEF rollout = Will-action.** 🟡 KB-183 close at next cleanup. KOYOMI informational: Jun-10 US CPI resolved via web (BLS page 403 retrospective-confirmed moot); Jun-2 10Y row pruned Jun 10 ✅.
 
 **⏸️ DEFERRED (still holds):** Layer B cross-agent signals (BROCK/HANS PC-cascade pull, HENRY carry-numbers); KB cleanup tier-2; insurer profiles audit; Japanese-source pipeline retire decision; SIGNAL_INTAKE archive.
 
-### NEXT INFRA SESSION (script build queue — unchanged)
+### NEXT INFRA SESSION (script build queue — re-prioritized Jun 10)
 
-1. **`trade_balance_japan.py`** — MOF monthly TB scrape (Jun 18-19 May TB = Phase 1 stability lag-test per CALENDAR). ~30 min.
-2. **`insurer_quartr.py`** — Quartr watcher for Big 3 + Norinchukin + mid-tier. ~45-60 min + auth.
+1. **`trade_balance_japan.py`** — MOF monthly TB scrape (Jun 18-19 May TB = Phase 1 stability lag-test per CALENDAR). ~30 min. **IN PROGRESS Jun 10 PM (Will-directed, after Norinchukin pull).**
+2. **`insurer_quartr.py`** — Quartr watcher for Big 3 + Norinchukin + mid-tier. ~45-60 min + auth. **🔺 PRIORITY BUMPED (Will-directed Jun 10): third coverage-gap instance this week** (Jun 9 PPI/taper-pause slipped past WALTER; Jun 10 Norinchukin FY2025 surfaced 3 weeks late — results were public May 21, IR HTML 403s hid them; direct-PDF probing or Quartr feed would have caught it). Build right after trade_balance.
 3. **`boj_events.py`** — BOJ Summary of Opinions + speeches + MPM minutes. ~45 min. Next SoO ~Jun 26.
 4. **`boj_swap_pricing.py`** — re-recon Polymarket/Kalshi. 10-min recon, build only if source exists.
 
