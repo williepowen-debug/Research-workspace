@@ -344,7 +344,7 @@ Portfolio P&L (no credit-side firing required)
 | 3 | VVIX > 120 **with VIX < 20** (divergence) → VIX > 25 within 10 days | **CLOSED INCONCLUSIVE 6/6.** 6/5 had VVIX 102.04 (not 120) but VIX cleared 20 anyway via Path B mechanism. Threshold-conditional setup doesn't capture mechanism-substitution. Replace with #5/#6. | — | Closed |
 | 4 | VIX > 40 → HY OAS > 600bps within 20 days | Untested — VIX hasn't reached 40 since thesis | Medium (downgraded from High — inherited, not VIOLET-validated) | Next event |
 | **5** | **KB-VIO-067 L1 DIET signature** (SKEW +10 / VIX -5 / VVIX -15 over 20d formal, or half-magnitude directional variant) → ≥15% VIX rise within 60 days | **PARTIAL HIT 6/5.** Directional/half-magnitude variant fired 5/20-5/29 → VIX +40% at td-4 (well above 15% threshold). Mechanism-attribution uncertain (NFP + AI confounder); count as partial. Population framework 94% / 60d hit rate (KB-VIO-067). | High (EMPIRICAL via 19yr backtest) | Each L1 fire; 60d window |
-| **6** | **Post-spike SKEW > 150 sustained 4+ td** → back-to-back vol event within 60 days (Phase 2 cluster analog) | LIVE 6/6 (SKEW 152.25 on 6/5; need 3 more td to confirm sustained). Tests whether 2024-11/2025-01 back-to-back cluster (KB-VIO-031 phase 2 analog) is recurring. | Medium (small N: 1 prior cluster in 19yr) | 7/5 (60d from 6/5) |
+| **6** | **Post-spike SKEW > 150 sustained 4+ td** → back-to-back vol event within 60 days (Phase 2 cluster analog) | **TRIGGER LAPSED 6/9 — condition unfired.** SKEW >150 lasted 1 td only (152.25 6/5 → 145.00 6/8 → 141.97 6/9). Back-to-back-cluster test NOT activated; favors exhaustion / same-trade-repeating over a true 2nd rebid (KB-VIO-077). Not FAILED — the sustained condition never fired, so the 60d consequent was never armed. Re-arms on any future post-spike print sustaining >150 for 4+ td. | Medium (small N: 1 prior cluster in 19yr) | Condition lapsed 6/9; re-arms on next post-spike >150 |
 
 **Scoring rules:**
 - "Untested" = trigger conditions have not occurred
@@ -406,12 +406,12 @@ System thesis: Credit stress → bank stress → equity crash. *(Scenario weight
 
 ### Open questions for next session
 - Does AI/factor concentration unwind have a half-life longer than the macro fade? Tests: NVDA/SMH price action Mon-Wed, single-stock vol surface, 0DTE flow concentration.
-- Will post-spike SKEW rebid (152.25 6/5) sustain ≥4 td above 150 → Prediction #6 fire?
+- ~~Will post-spike SKEW rebid (152.25 6/5) sustain ≥4 td above 150 → Prediction #6 fire?~~ **ANSWERED 6/9: NO** — 145.00 (6/8), 141.97 (6/9); trigger lapsed, rebid faded in 2 td.
 - Does the 24-td R12 gap count as a regime end (cohort perspective) or as an interruption (continuous perspective)? KB-VIO-072 deferred research.
 
-Until then: 6/12 CPI is the gate.
+Until then: 6/10 CPI is the gate. *(Date corrected 6/9 — the fleet-wide 6/12→6/10 CPI fix of 6/7 missed this line.)*
 
 ---
 
-*Version history: `thesis/CHANGELOG.md`. v3.0 → v3.3 (2026-04-12 → 2026-06-06).*
+*Version history: `thesis/CHANGELOG.md`. v3.0 → v3.5 (2026-04-12 → 2026-06-06).*
 *Status: ACTIVE — Phase 4 stack calibration in progress.*
