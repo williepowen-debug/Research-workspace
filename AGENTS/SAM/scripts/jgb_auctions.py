@@ -30,7 +30,7 @@ import re
 import sys
 import urllib.request
 import urllib.error
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 SAM_DIR = Path(__file__).resolve().parent.parent
@@ -42,6 +42,13 @@ CATALYSTS_TSV = DOCKET / "CATALYSTS.tsv"
 MOF_URL_TEMPLATE = "https://www.mof.go.jp/english/policy/jgbs/auction/calendar/eresul/eresul{ymd}.htm"
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (SAM-Research)"}
+
+
+def jst_today():
+    """Today's date in JST (UTC+9). MOF publishes results under JST dates;
+    probing from the local (ET) date misses a result that is already live —
+    e.g. a Jun-10 JST auction posted ~12:35 PM JST is still 'Jun 9' in ET."""
+    return (datetime.now(timezone.utc) + timedelta(hours=9)).date()
 
 TSV_HEADER = "Date\tSecurity\tIssue\tCompetitive_Bids_B\tAccepted_B\tBTC_Ratio\tLowest_Yield_Pct\tAverage_Yield_Pct\tTail_BP\tStatus\n"
 
@@ -276,7 +283,7 @@ def main():
                 return 1
     elif "--catalog" in sys.argv:
         # Fetch all JGB auction dates from CATALYSTS.tsv that are in the past + today
-        today = datetime.now().date()
+        today = jst_today()
         target_dates = [
             (d, event) for d, event in load_catalyst_auction_dates()
             if d <= today
@@ -286,7 +293,7 @@ def main():
             return 0
     else:
         # Default: try today, then walk back up to 5 business days
-        today = datetime.now().date()
+        today = jst_today()
         probe = today
         found_any = False
         for _ in range(8):

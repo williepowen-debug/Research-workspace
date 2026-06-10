@@ -8,6 +8,18 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-06-10 (AM) — v1.5.1 follow-on: Takaichi-ceiling discount pre-registered for disposition at Jun-16 + Fed-pricing regime flip logged
+
+**Author:** SAM (Advisor-prompted, Will-approved)
+**Action:** No version bump. Two pre-blackout calibration moves:
+
+1. **Ceiling-discount disposition pre-registered** (canonical: `STRATEGY.md` § TAKAICHI-CEILING DISCOUNT DISPOSITION). Trigger: swaps price 92.5% of a second hike to 1.25% by Dec (Tokyo Tanshi via Reuters Jun 9) + Reuters May 7-14 economist poll median 1.25% Q4 2026 / 1.50% Q3 2027 — market AND economist consensus now treat the ceiling as dead above 1.00%, in direct conflict with THESIS terminal-rate view ("0.75% political ceiling, NOT market consensus 1.25-1.5%"). Three mechanical branches (retire-to-friction 5-10pp / modify 10-20pp / vindicate-widen 25-30pp), scoped to post-June path marks only, scored by Jun 18 EOD JST. Pre-registered calibration insight: a delivered June hike reclassifies SAM-08/SAM-20 as TIMING failures (ceiling delays, doesn't block). Sato 3→2 board tension kept in-spec as within-branch modulator. **THESIS terminal-rate language not edited pre-event — disposition governs how Tuesday updates it.**
+2. **Fed-pricing regime flip (cut→hike) logged:** Polymarket ~52% Fed hike in 2026 (Oct frontrunner); secondary path now inverted, not just dead. Pillar 1 post-June compression burden falls on BOJ alone. METHOD anchor #4 (Fed-cut) → ~0 at Sat Jun 13 re-mark. CHANGELOG candidate matures to full entry if pricing holds through the re-mark.
+
+**No probability re-marks** (SAM-21 75%, SAM-23 72%, buckets held for Sat Jun 13 expanded scope). Will decided HOLD on the Jun-18 $58C (salvage ~$5-10 dominated by modeled EV ~$20-25); companion tail-estimate test logged (market ~3-4% vs SAM ~10% hawkish tail) for scoring with the ceiling branches.
+
+---
+
 ## 2026-06-09 (PM-late) — v1.5.1 follow-on: priced-hike reconciliation (catalyst-row payoff language aligned with CH-004)
 
 **Author:** SAM (Will-directed)

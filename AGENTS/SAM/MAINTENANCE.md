@@ -8,7 +8,14 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
-## 2026-06-07 (PM) — NEXUS_BRIEF pilot live at canonical path + R3 schema amendments + fleet template draft
+## 2026-06-10 (AM) — Script fixes: usdjpy.py MOF label disambiguation + jgb_auctions.py JST date probing
+
+**Trigger:** Both queued from the Jun-9 session's mis-parse incidents; executed in the pre-blackout quiet window (Advisor-endorsed, Will-approved batch).
+
+1. **`scripts/usdjpy.py`** — MOF_INTERVENTIONS labels reformatted `May26` → `May2026` (all 7 entries, MonYYYY). The compact `May26` form read as a day-of-month and propagated a real mis-parse Jun 9 ("MOF May26" → "May 26 intervention"; actual = the **May 6** 2026 op). Comment added pointing at the failure.
+2. **`scripts/jgb_auctions.py`** — default and `--catalog` modes now probe from **JST date** (`jst_today()`, UTC+9) instead of local ET date. MOF publishes results under JST dates; the ET-date probe missed the live Jun-10 JST 30Y result on Jun-9 evening ET (fetched by hand that night). Verified post-fix: finds eresul20260610, idempotent on the hand-added TSV row.
+
+**Boot-impact:** none structural — same outputs, correct labels/dates. Both scripts re-run clean.
 
 **Trigger:** NEXUS post-E (E-phase shipped Sat 6/6 PM); SAM proposal/2026-06-06_nexus_brief_schema.md was waiting on ratification. Will signaled rollout for fleet; NEXUS reviewed and proposed 6 amendments + 1 scope clarification. Will accepted all amendments, rejected the SENDING-table drop-rule (kept single-table-per-Will convention), and tasked SAM with drafting both the canonical SAM brief and a fleet template.
 
