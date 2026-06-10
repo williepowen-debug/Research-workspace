@@ -106,6 +106,11 @@
 - Trade-off: paid full price for IV protection; sacrificed potential 50% discount if soft CPI plays out
 - **Net:** legitimate hedge against the CPI bimodal outcome. Sized small (1 contract = $40) so the timing penalty is bounded.
 
+**Hold-vs-salvage check — ✅ RUN Jun 10 AM; WILL DECIDED: HOLD (2026-06-10):**
+- Live quote Wed Jun 10: bid $0.00 / ask $0.20 / last $0.09 (Jun 9, 152 vol), OI 13.4K, FXY $57.24. Realistic salvage via limit inside spread ≈ $5-10 — NOT zero, but clearly dominated by modeled EV ~$20-25.
+- Decision: **HOLD through the meeting** (Will, Jun 10). Selling forfeits the ~10% hawkish-branch lottery that was the purchase rationale; sell-into-pop on meeting day remains the salvage path per exit rules.
+- **Scoreable tail-estimate test logged (score with Jun-16 outcome):** market price (~$9) implies a ~3-4% hawkish-of-pricing tail vs SAM METHOD ~10% all-in. Hawkish-of-pricing outcome Tuesday → SAM's tail right; as-priced/dovish delivery → market's tail right. Score alongside the ceiling-discount branches (STRATEGY § TAKAICHI-CEILING DISCOUNT DISPOSITION).
+
 **What's NOT in the position:**
 - Additional June $58 contracts (2-4 more); skipped given small initial sizing
 - Position A (Sep $60 calls) — **❌ NOT WARRANTED under v1.5** (authorization withdrawn May 27; see Position A section above)

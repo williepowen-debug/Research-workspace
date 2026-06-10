@@ -63,14 +63,16 @@ INTRADAY_RANGE_CRIT = 4.0      # 🔴 intervention-grade move
 # dates get a MOF marker; touches NOT near these dates = "no MOF" (level was
 # hit naturally without policy response).
 # Format: (date, label_compact, size_trillion_yen)
+# Labels use MonYYYY (e.g. "May2026") — never "May26", which mis-reads as a
+# day-of-month ("May 26"); that exact mis-parse propagated on 2026-06-09.
 MOF_INTERVENTIONS = [
-    ("2022-09-22", "Sep22",  2.84),  # first since 1998; USDJPY 145 → 140
-    ("2022-10-21", "Oct22",  6.35),  # stealth Oct 21-24; combined Q4 2022 ¥9.2T
-    ("2024-04-29", "Apr24",  5.5),   # first 2024 act; USDJPY 160.17 peak
-    ("2024-05-01", "May24",  4.3),   # second 2024 act; combined Apr/May ¥9.8T
-    ("2024-07-11", "Jul24",  5.5),   # pre-Aug 2024 unwind
-    ("2026-04-30", "Apr26",  5.48),  # post Apr 28 BOJ hawkish hold; USDJPY 160.70 peak → 155.55 intraday low (5.15y range); first since Jul 2024
-    ("2026-05-06", "May26",  4.3),   # Golden Week round; intraday low 155.05 (2.84y range); combined Apr/May ~¥10T (~$63.5B) — largest since 2022 per BofA
+    ("2022-09-22", "Sep2022", 2.84),  # first since 1998; USDJPY 145 → 140
+    ("2022-10-21", "Oct2022", 6.35),  # stealth Oct 21-24; combined Q4 2022 ¥9.2T
+    ("2024-04-29", "Apr2024", 5.5),   # first 2024 act; USDJPY 160.17 peak
+    ("2024-05-01", "May2024", 4.3),   # second 2024 act; combined Apr/May ¥9.8T
+    ("2024-07-11", "Jul2024", 5.5),   # pre-Aug 2024 unwind
+    ("2026-04-30", "Apr2026", 5.48),  # post Apr 28 BOJ hawkish hold; USDJPY 160.70 peak → 155.55 intraday low (5.15y range); first since Jul 2024
+    ("2026-05-06", "May2026", 4.3),   # Golden Week round; intraday low 155.05 (2.84y range); combined Apr/May ~¥10T (~$63.5B) — largest since 2022 per BofA
 ]
 INTERVENTION_WINDOW_DAYS = 3  # touch date within ±N days of intervention = match
 

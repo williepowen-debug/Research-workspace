@@ -1,11 +1,23 @@
 # SAM TIMELINE
 
-**Last Updated:** 2026-06-09 PM (SAM-21 mechanical trigger fires 70→75 on Polymarket 98.2% + no Takaichi pushback + Q1 GDP hike-tolerant composition; evening correction: Brent $90 was an intraday tag-no-hold, not a held breach — Mon was an up session)
+**Last Updated:** 2026-06-10 AM (US CPI May resolved hot-as-expected — Fed-side gate closed; adjacent find: Fed pricing regime-flipped cut→HIKE, ~52% 2026 hike priced)
 **View:** Base case progression with branch points marked
 
 This document maps our forward-looking expectations — what's coming, what we think happens, and where the path could diverge. Updated as events resolve or views change.
 
 *Pre-2026-05-11 entries archived to [ARCHIVE.md](ARCHIVE.md).*
+
+---
+
+## RESOLVED — Jun 10 (US CPI HOT-AS-EXPECTED; FED PRICING REGIME-FLIPS CUT→HIKE)
+
+### Wed Jun 10 — US CPI (MAY): HOT-AS-EXPECTED, FED-SIDE GATE CLOSES; ADJACENT FIND: MARKET NOW PRICES ~52% FED HIKE IN 2026
+
+- **Event:** BLS May CPI (8:30 AM ET): headline **4.2% YoY** (vs 3.8% Apr — third consecutive acceleration, highest since Apr 2023; +0.5% MoM in line), core **2.9% YoY** in line (high since Sep 2025); core MoM +0.2% vs 0.3% forecast (mildly soft). Drivers: energy +23.5% YoY, gasoline +40.5%, fuel oil +58.9% (Iran-war passthrough); shelter 3.4%, food 3.1%.
+- **Pre-registered read played out exactly:** consensus expected hot (~4.2% headline); the market-moving tail was a SOFT surprise, which did not fire. Headline landed exactly on consensus → Fed-side gate closes; no SAM re-marks (SAM-21 75%, SAM-23 72%, buckets held). USDJPY flat ~160.4 through the print; Polymarket BOJ Jun 16 hike >96%, no retrace.
+- **Adjacent find (the real news of the check):** Fed pricing has **regime-flipped from cut-vs-hold to hold-vs-HIKE.** Polymarket prices ~52% odds of a Fed hike in 2026, October meeting frontrunner ~50% (Jun 8 data); futures embed roughly even odds of ≥1 25bp hike by year-end; a secondary FedWatch read claims ~63% hike-by-Oct (exact level unverified — flagged). Cut odds ~0; Jun 17 FOMC ~99% hold.
+- **Thesis implication (no re-mark today; folded into Sat Jun 13 expanded re-mark + CHANGELOG candidate):** (a) the v1.5 "Fed-cut secondary path" is not just dead for the June window — the multi-month tail now points the WRONG direction; (b) **Pillar 1 headwind:** post-June rate-differential compression requires the BOJ side alone, and a Fed hike later in 2026 would re-widen what a BOJ Jun-16 hike compresses (~25bp each way ≈ net zero); (c) METHOD anchor: trigger #4 (Fed-cut surprise) catalyst-P → ~0 for 30d/60d buckets — marginally nudges buckets DOWN, same direction as the taper-pause hawkish-tail shrink already scoped for Sat Jun 13; (d) the 3-6mo shares thesis leans harder on Pillars 2-4 (J-ICS long-end mechanism, hedge-ratio, positioning) and on the cross-pair yen-strength read (yen bid vs everything except a structurally-firm USD).
+- **Position-side:** No change. Jun-18 $58C hold-vs-salvage check run same morning (live bid $0.00/ask $0.20/last $0.09 vs modeled EV ~$20-25 — math favors HOLD; Will decision pending).
 
 ---
 
