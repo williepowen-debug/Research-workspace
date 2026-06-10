@@ -1,0 +1,12 @@
+WL_ID	Metric	Source_Type	Source_Key	Field	Scale	Op	Threshold	Sustain	Label	Notes
+WL-01	VIX	yf	^VIX	price	1	>	23	close-and-hold	VIX>23 close-and-hold — VIOLET fade-invalidation line	Acute +2 if sustained; her modal path touches ~23
+WL-02	VIX	yf	^VIX	price	1	>	20	1	Jun-stack window-trigger menu fires	Menu: lock favorable marks on live legs (see Exit-Window framework)
+WL-03	HY-OAS	fred	BAMLH0A0HYM2	value	100	>	280	3	FT-01 un-fire re-cross (sustain-window-respect)	Bifurcation re-widens; new fire on later re-cross down
+WL-04	HY-OAS	fred	BAMLH0A0HYM2	value	100	<	260	3	Credit canary fully dead	Capitulate transmission view
+WL-05	CCC-OAS	fred	BAMLH0A3HYC	value	100	>	955	1	VIOLET CCC gate (9.55)	Tail-stress escalation leg 1
+WL-06	CCC-OAS	fred	BAMLH0A3HYC	value	100	>	1000	1	CCC 2016-analog threshold (10.00)	Tail-stress escalation leg 2
+WL-07	USDJPY	yf	JPY=X	price	1	>	160	1	MOF #3 hard-trigger zone (SAM)	Context for SAM-23 / CH-011; blackout ~6/13
+WL-08	KRE	yf	KRE	price	1	<	67	1	Jun30 KRE puts in-frame	Position watch line
+WL-09	WAL	yf	WAL	price	1	<	74	1	Window-trigger WAL leg	Position watch line
+WL-10	SPY-DAY	yf	SPY	change_pct	1	<	-2	1	Window-trigger SPY leg (-2pct day)	Intraday change-based
+WL-11	BRENT	yf	BZ=F	price	1	<	95	1	CHG-RED-027 sub-trigger (d) price leg	Needs Hormuz >5mbpd 15d leg too — price leg only here

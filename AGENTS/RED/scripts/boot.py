@@ -1,0 +1,242 @@
+#!/usr/bin/env python3
+"""RED boot kit — live tape + trigger check + catalyst countdown + DUE-scan in one pass.
+
+Usage:  .venv/bin/python3 AGENTS/RED/scripts/boot.py [--verbose]
+        (bare python3 also works — self re-execs under the repo venv)
+
+READ-ONLY by design: prints, never writes state. Data sources:
+  prices/FRED  -> FORGE/tools/market-data/fetch.py (imported as a library)
+  hard triggers-> AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv (WALTER auto-fire surface)
+  watch lines  -> AGENTS/RED/docket/WATCHLINES.tsv (soft, display-only)
+  catalysts    -> AGENTS/RED/docket/CATALYSTS.tsv
+  DUE-scan     -> AGENTS/RED/workbook/PREDICTIONS.tsv + CHALLENGES.tsv
+
+Mirrors SPAWN PROTOCOL boot steps 3 (DUE-scan, catalysts) + 9 (live anchors).
+"""
+import csv
+import os
+import re
+import sys
+from datetime import date, datetime
+from pathlib import Path
+
+REPO = Path(__file__).resolve().parents[3]
+
+
+def _ensure_venv():
+    """Re-exec under the repo venv if yfinance is missing (PEP-668 system python)."""
+    try:
+        import yfinance  # noqa: F401
+        return
+    except ImportError:
+        pass
+    venv_py = REPO / ".venv" / "bin" / "python3"
+    if venv_py.exists() and os.environ.get("RED_BOOT_REEXEC") != "1":
+        os.environ["RED_BOOT_REEXEC"] = "1"
+        os.execv(str(venv_py), [str(venv_py), __file__] + sys.argv[1:])
+    sys.exit("yfinance unavailable and no repo venv found at .venv/ — cannot continue")
+
+
+_ensure_venv()
+sys.path.insert(0, str(REPO / "FORGE" / "tools" / "market-data"))
+import fetch  # noqa: E402
+
+RED = REPO / "AGENTS" / "RED"
+TODAY = date.today()
+
+TICKERS = ["^VIX", "SPY", "KRE", "WAL", "OZK", "IWM", "TLT", "HYG", "BZ=F", "JPY=X", "^TNX"]
+FRED_SERIES = [
+    ("BAMLH0A0HYM2", "HY OAS", 100, "bps"),
+    ("BAMLH0A3HYC", "CCC OAS", 100, "bps"),
+    ("ICSA", "Initial Claims", 0.001, "K"),
+]
+# registry metric vocabulary -> live-value resolution (units match registry: bps / K / level)
+METRIC_MAP = {
+    "VIX": ("yf", "^VIX", "price", 1),
+    "HY-OAS": ("fred", "BAMLH0A0HYM2", "value", 100),
+    "CCC-OAS": ("fred", "BAMLH0A3HYC", "value", 100),
+    "BRENT-PAPER": ("yf", "BZ=F", "price", 1),
+    "INITIAL-CLAIMS": ("fred", "ICSA", "value", 0.001),
+}
+NEAR_PCT = 0.03  # within 3% of threshold = NEAR
+
+
+def tsv(path):
+    with open(path, newline="") as f:
+        rows = list(csv.reader(f, delimiter="\t"))
+    head = rows[0]
+    return [dict(zip(head, r)) for r in rows[1:] if r and len(r) >= len(head) - 2]
+
+
+def pull_tape():
+    prices = fetch.price_fetch(TICKERS)
+    fred = {sid: fetch.fred_fetch(sid, limit=6) for sid, _, _, _ in FRED_SERIES}
+    return prices, fred
+
+
+def live_value(src_type, key, field, scale, prices, fred):
+    if src_type == "yf":
+        d = prices.get(key, {})
+        v = d.get(field if field else "price")
+        return float(v) * float(scale) if v is not None else None
+    obs = fred.get(key) or []
+    if obs and "value" in obs[0]:
+        return float(obs[0]["value"]) * float(scale)
+    return None
+
+
+def fred_trail(key, scale, fred, n):
+    obs = fred.get(key) or []
+    return [float(o["value"]) * float(scale) for o in obs[:n] if "value" in o]
+
+
+def cmp_op(v, op, thr):
+    return v > thr if op == ">" else v < thr
+
+
+def eval_line(value, op, thr, sustain, src_type, key, scale, fred):
+    """Return (status, detail). status in FIRING / NEAR / clear / n/a."""
+    if value is None:
+        return "n/a", "no data"
+    thr = float(thr)
+    hit = cmp_op(value, op, thr)
+    dist = value - thr
+    near = abs(dist) <= abs(thr) * NEAR_PCT
+    sustain_n = int(sustain) if str(sustain).isdigit() else 1
+    detail = f"live {value:,.2f} vs {op}{thr:,.0f} (dist {dist:+,.2f})"
+    if hit and sustain_n > 1 and src_type == "fred":
+        trail = fred_trail(key, scale, fred, sustain_n)
+        if len(trail) >= sustain_n and all(cmp_op(t, op, thr) for t in trail):
+            return "FIRING", detail + f" — sustained {sustain_n} obs {['%.0f' % t for t in trail]}"
+        return "FIRING*", detail + f" — condition true, sustain {sustain_n} NOT yet met (trail {['%.0f' % t for t in trail]})"
+    if hit:
+        tag = "" if sustain_n == 1 and str(sustain).isdigit() else f" — sustain '{sustain}' needs trail/judgment"
+        return "FIRING", detail + tag
+    if near:
+        return "NEAR", detail
+    return "clear", detail
+
+
+ICON = {"FIRING": "🔴", "FIRING*": "🟠", "NEAR": "🟡", "clear": "🟢", "n/a": "⚪"}
+
+
+def section_tape(prices, fred):
+    print("\n① TAPE — live anchors", TODAY.isoformat())
+    for t in TICKERS:
+        d = prices.get(t, {})
+        if "error" in d:
+            print(f"   ⚪ {t:<7} ERROR {d['error'][:50]}")
+            continue
+        chg = d.get("change_pct")
+        print(f"   {d.get('name', t):<22} {d.get('price', '?'):>10,.2f}  {('%+.2f%%' % chg) if chg is not None else '':>8}")
+    for sid, label, scale, unit in FRED_SERIES:
+        obs = fred.get(sid) or []
+        if obs and "value" in obs[0]:
+            v = float(obs[0]["value"]) * scale
+            prev = float(obs[1]["value"]) * scale if len(obs) > 1 else None
+            delta = f" ({v - prev:+,.0f})" if prev is not None else ""
+            print(f"   {label:<22} {v:>10,.0f}{unit}{delta}  [FRED {obs[0]['date']}]")
+
+
+def section_triggers(prices, fred, verbose):
+    print("\n② TRIGGER CHECK")
+    print("   — registry (hard, WALTER auto-fire) —")
+    for r in tsv(RED / "registry" / "FALSIFICATION_TRIGGERS.tsv"):
+        m = METRIC_MAP.get(r["metric"])
+        if not m:
+            print(f"   ⚪ {r['trigger_id']:<10} {r['metric']} — unmapped metric, manual check")
+            continue
+        v = live_value(*m, prices, fred)
+        status, detail = eval_line(v, r["threshold_op"], r["threshold_value"], r["sustain_window"], m[0], m[1], m[3], fred)
+        print(f"   {ICON[status]} {r['trigger_id']:<10} {r['metric']} {r['threshold_op']}{r['threshold_value']} s={r['sustain_window']:<2} {status:<8} {detail}")
+    print("   — watch lines (soft, docket/WATCHLINES.tsv) —")
+    for r in tsv(RED / "docket" / "WATCHLINES.tsv"):
+        v = live_value(r["Source_Type"], r["Source_Key"], r["Field"], r["Scale"], prices, fred)
+        status, detail = eval_line(v, r["Op"], r["Threshold"], r["Sustain"], r["Source_Type"], r["Source_Key"], r["Scale"], fred)
+        line = f"   {ICON[status]} {r['WL_ID']:<10} {r['Metric']} {r['Op']}{r['Threshold']:<7} {status:<8} {detail} — {r['Label']}"
+        print(line if not verbose else line + f"  [{r['Notes']}]")
+
+
+def parse_fuzzy_date(s):
+    """Return (date, exact) or (None, None) if unparseable."""
+    s = s.strip()
+    m = re.match(r"^(\d{4})-(\d{2})-(\d{2})$", s)
+    if m:
+        return date(*map(int, m.groups())), True
+    m = re.match(r"^(\d{4})-(\d{2})-(early|mid|late|XX)$", s, re.I)
+    if m:
+        day = {"early": 5, "mid": 15, "late": 25, "xx": 15}[m.group(3).lower()]
+        return date(int(m.group(1)), int(m.group(2)), day), False
+    m = re.match(r"^([A-Za-z]{3,9})\s+(\d{4})$", s)  # "Jun 2026"
+    if m:
+        try:
+            mo = datetime.strptime(m.group(1)[:3], "%b").month
+            nxt = date(int(m.group(2)) + (mo == 12), (mo % 12) + 1, 1)
+            return date.fromordinal(nxt.toordinal() - 1), False  # end of month
+        except ValueError:
+            return None, None
+    m = re.search(r"Q([1-4])(?:-Q([1-4]))?\s+(\d{4})", s)  # "Q2 2026" / "Q2-Q3 2026"
+    if m:
+        q = int(m.group(2) or m.group(1))
+        return date(int(m.group(3)), q * 3, [31, 30, 30, 31][q - 1]), False
+    return None, None
+
+
+def section_catalysts(verbose):
+    print("\n③ CATALYST COUNTDOWN (pending, ≤14d" + (" — verbose: all" if verbose else "") + ")")
+    for r in tsv(RED / "docket" / "CATALYSTS.tsv"):
+        if not r.get("status", "").startswith("pending"):
+            continue
+        d, exact = parse_fuzzy_date(r["date"])
+        if d is None:
+            print(f"   ⚪ {r['date']:<12} {r['event'][:60]} — unparseable date, manual check")
+            continue
+        days = (d - TODAY).days
+        if days > 14 and not verbose:
+            continue
+        flag = "⏰" if days <= 2 else "  "
+        approx = "" if exact else "~"
+        print(f"   {flag} T-{approx}{days:<3} {r['date']:<12} {r.get('priority', '')} {r['event'][:70]}")
+
+
+def section_due_scan():
+    print("\n④ DUE-SCAN (boot step 3 / resolve at W2)")
+    due = manual = 0
+    for r in tsv(RED / "workbook" / "PREDICTIONS.tsv"):
+        if r.get("Status") != "ACTIVE":
+            continue
+        d, _ = parse_fuzzy_date(r.get("Timeframe", ""))
+        if d is None:
+            manual += 1
+            print(f"   ⚠️  {r['Pred_ID']} timeframe '{r['Timeframe']}' unparseable — MANUAL CHECK")
+        elif d < TODAY:
+            due += 1
+            print(f"   🔴 {r['Pred_ID']} DUE since {d} ({(TODAY - d).days}d): {r['Prediction'][:60]}")
+    if due == 0 and manual == 0:
+        print("   🟢 predictions: no ACTIVE row past its timeframe")
+    print("   — ACTIVE challenges (age; resolution events are prose — eyeball) —")
+    for r in tsv(RED / "workbook" / "CHALLENGES.tsv"):
+        if "ACTIVE" not in r.get("Status", ""):
+            continue
+        try:
+            age = (TODAY - datetime.strptime(r["Date"], "%Y-%m-%d").date()).days
+        except ValueError:
+            age = "?"
+        print(f"   • {r['CHG_ID']} ({age}d, {r['Target']}): {r['Key_Finding'][:70]}")
+
+
+def main():
+    verbose = "--verbose" in sys.argv
+    print("=" * 72)
+    print(" RED BOOT KIT — " + datetime.now().strftime("%Y-%m-%d %H:%M ET-local"))
+    print("=" * 72)
+    prices, fred = pull_tape()
+    section_tape(prices, fred)
+    section_triggers(prices, fred, verbose)
+    section_catalysts(verbose)
+    section_due_scan()
+    print("\nDone. (read-only — no state written; resolve DUE rows at W2)")
+
+
+if __name__ == "__main__":
+    main()
