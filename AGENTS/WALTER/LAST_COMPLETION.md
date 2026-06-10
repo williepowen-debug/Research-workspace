@@ -48,7 +48,7 @@
 2. **CARL LIAISON close stamp** — pending a CARL-inactive session (CARL last active 6/9).
 3. **HENRY LIAISON open** — next-LIAISON candidate; note HENRY also just gained the index-mechanics-only MARKET_VOL lane (v0.10) — worth a courtesy line in the opener.
 4. **EVENT_WINDOW_STATE.md BRENT-coordinated refresh** — 19d untouched (CLOSED, so no posture risk; but BRENT Phase-1-pressure reframe 6/9 + Bab al-Mandab activation may move Path B counting).
-5. **BOARD_CONSUMPTION rollout cadence — KEYSTONE** (VIOLET self-adopting; 12 Tier-1 agents remain).
+5. **BOARD_CONSUMPTION rollout cadence — KEYSTONE.** *Count corrected 6/10 (BOARD-audit Orch pass — prior "VIOLET self-adopting; 12 remain" was stale):* actual state is **3 active (CARL / REGINALD / HAWK, all ledgers current to 6/08) + 1 ledger-without-boot-block (BRENT, dormant since 5/06 — no BOARD-intake step in its CLAUDE.md) + 1 announced (VIOLET) = 8 Tier-1 agents remain untouched.** Canonical tracker: STATE.md §9 (rewritten 6/10).
 6. **Calibration cycle 1 retro (RED + REGINALD)** — both agents active again; Turn 8 / Turn 7 responses pending their next boot reads.
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
@@ -99,7 +99,7 @@
 33. Signal Registry v2
 34. COP refresh resume (paused 4/14)
 35. HAWK-proxy synthesis policy (lower urgency now HAWK active)
-36. BOARD_CONSUMPTION rollout — KEYSTONE
+36. BOARD_CONSUMPTION rollout — KEYSTONE (corrected count 6/10: 3 active + 1 dormant-no-boot-block + 1 announced; see STATE.md §9; BRENT boot-block application is the cheapest next increment)
 37. FALSIFICATION_TRIGGERS schema v2 expansion
 38. FILTER_SPEC v0.6 BODY-INACCESSIBLE-PAYWALL verdict class
 39. VIX-spike registered trigger candidate — propose in RED Turn 8 (timely: VIX 16→21.5 regime move just printed)

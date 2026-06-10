@@ -101,12 +101,17 @@
 
 ## 9. BOARD_CONSUMPTION rollout
 
+*Corrected 2026-06-10 (BOARD-audit Orch pass): REGINALD / HAWK / BRENT ledgers existed but were untracked here — adoption landed via LIAISON locks and self-applied boot steps without flowing back to this tracker. Ground truth = the ledgers + each agent's CLAUDE.md; this table is the mirror. **Net state: 3 active + 1 ledger-without-boot-block + 1 announced, of 13 Tier-1 consumers.** Row-count convention: data rows excluding the header row.*
+
 | Agent | `board_log.tsv` exists | CLAUDE.md boot block applied |
 |-------|-----------------------|------------------------------|
 | WALTER | n/a (writes BOARD, doesn't consume) | n/a |
-| **CARL** | ✅ `AGENTS/CARL/board/BOARD_LOG.tsv` (9-col schema since 2026-05-05; new `Post_Hoc_Conf` column shipped commit `d26aaab2` per LIAISON Turn 3) | ✅ CARL has BOARD-pull at boot (CARL self-applied; **correction to prior STATE that said all-other-agents-pending — CARL was further along than WALTER's MEMORY tracked**) |
+| **CARL** | ✅ `AGENTS/CARL/board/BOARD_LOG.tsv` (9-col schema since 2026-05-05; `Post_Hoc_Conf` column per LIAISON Turn 3) — **ACTIVE**, 290 data rows, back-processed May referrals 2026-06-08 | ✅ CARL has BOARD-pull at boot (self-applied) |
+| **REGINALD** | ✅ `AGENTS/REGINALD/board/BOARD_LOG.tsv` (9-col schema) — **ACTIVE**, 140 data rows, logged through SIG-W-20260606-004, last updated 2026-06-08 | ✅ REGINALD CLAUDE.md boot step 9b (3-tier BOARD diff scan, per WALTER LIAISON Turn-2 lock) |
+| **HAWK** | ✅ `AGENTS/HAWK/board_log.tsv` (4-col spec schema) — **ACTIVE**, 31 data rows, last updated 2026-06-08 | ✅ HAWK CLAUDE.md boot step 2b (BOARD signal intake, incl. create-if-missing header rule) |
+| BRENT | 🟠 ✅ exists `AGENTS/BRENT/board/BOARD_LOG.tsv` (9-col schema, 57 data rows) — **DORMANT since 2026-05-06**; appears to be a LIAISON-era one-off backfill | ❌ **No BOARD-intake boot step in BRENT CLAUDE.md** (verified 2026-06-10) — dormancy is structural, not a lapsed habit; boot-block application is the fix |
 | VIOLET | ⏳ Pending — no `board_log.tsv` yet | 🟠 Self-adoption announced 2026-06-10 (SIGNAL_INTAKE Appendix A flag): VIOLET will apply the boot block in her own CLAUDE.md residue pass. Delivery-side status tracked here per her request. |
-| All other Tier 1 agents | ⏳ Pending | ⏳ Pending — Will or each agent applies; WALTER does not edit other agents' CLAUDE.md per git isolation rule. |
+| All other Tier 1 agents (8) | ⏳ Pending | ⏳ Pending — Will or each agent applies; WALTER does not edit other agents' CLAUDE.md per git isolation rule. |
 
 ## 10. LIAISON channels (paired-agent architectural-alignment scaffolding)
 
