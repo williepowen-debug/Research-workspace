@@ -115,7 +115,9 @@ def build() -> dict:
     vix9d = latest(fetch_history("^VIX9D", 10))
     vix3m = latest(fetch_history("^VIX3M", 10))
     vix6m = latest(fetch_history("^VIX6M", 10))
-    spx = yf.Ticker("^GSPC").history(period="320d")
+    # 450 calendar days ≈ 300 trading days: covers TACTICAL_WIN (252)
+    # + 20d rolling warm-up so the "1yr percentile" label is honest
+    spx = yf.Ticker("^GSPC").history(period="450d")
 
     vix, vvix, skew = latest(vix_h), latest(vvix_h), latest(skew_h)
     rv = realized_vols(spx)
@@ -151,11 +153,14 @@ def build() -> dict:
     skew_str = pct_rank(skew_h.tail(STRUCTURAL_WIN), skew)
 
     # --- implied-realized spread (anchor: 20d CC), percentiled on 1yr ---
+    # Date-keyed join, NOT positional: ^VIX trades on days SPX data can lag
+    # (and vice versa on holidays — see MEMORY phantom-print caveat); a
+    # positional subtraction shifts the whole spread history on any mismatch.
     spread20 = vix - rv[20]["cc"]
     logret = np.log(spx["Close"] / spx["Close"].shift(1)).dropna()
-    rv20_series = logret.rolling(20).std(ddof=1) * math.sqrt(252) * 100
-    spread_series = (vix_h.tail(len(rv20_series)).reset_index(drop=True)
-                     - rv20_series.reset_index(drop=True)).dropna()
+    rv20_series = normalize_dates(logret.rolling(20).std(ddof=1) * math.sqrt(252) * 100)
+    spread_joined = pd.DataFrame({"vix": vix_h, "rv20": rv20_series}).dropna()
+    spread_series = spread_joined["vix"] - spread_joined["rv20"]
     spread_pct = pct_rank(spread_series.tail(TACTICAL_WIN), spread20)
     gap_tell = ("GAP-RISK tape (CC >> Parkinson)" if rv[20]["cc"] > rv[20]["parkinson"] * 1.25
                 else "GRIND tape (CC ~= Parkinson)")

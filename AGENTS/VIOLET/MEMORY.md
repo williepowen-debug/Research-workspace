@@ -11,7 +11,7 @@ Curated long-term insights on VIX, volatility regimes, and credit-vol transmissi
 3. **Credit leads vol in credit-originated crises.** HY OAS leads VIX 2-6 weeks when VIX<20 + cross-sector widening + no QE.
 4. **VVIX is the fear gauge for the fear gauge.** When vol-of-vol spikes, something is breaking.
 5. **SKEW is the cost of crash protection.** High SKEW = expensive puts = fear present.
-6. **SKEW divergence is the highest-conviction leading signal.** SKEW rising while VIX+VVIX fall = "coiled spring." 94% hit rate (15/16 → ≥15% VIX rise within 60d). 1% base rate. See KB-VIO-036.
+6. **SKEW divergence is the highest-conviction leading signal.** SKEW rising while VIX+VVIX fall = "coiled spring." Two tiers, threshold-indexed (canonical table: VIX_THESIS § L1 canonical base rates, KB-VIO-079): STRICT 94% (15/16) / DIET 92% (23/25) episode-level peak ≥+15% within 60d; at ≥+50% only 56%/60%. Quote the rate at the threshold the trade targets — never one unqualified number. See KB-VIO-036/067/079.
 7. **The coiled spring pattern:** Vol+credit compress to complacency lows while SKEW stays elevated + rates tighten = fragility. The divergence identifies fragility; the trigger is usually external. (Phase 2 finding, Apr 2026.)
 8. **Timing:** SKEW divergence episodes peak at median 39 days (IQR 32-46). High-SKEW cohort (≥150) median 44 days. Post-stress fires resolve faster (median 32 days).
 9. **Prolonged SKEW regimes precede major VIX events.** Elevated SKEW regimes (20d avg ≥140) lasting ≥60 td are rare (5 in 19 years). All preceded significant VIX events. The top two (201 td → VIX 52; 206 td ongoing → VIX 31 so far) are historically unprecedented in duration. SKEW ≥140 occurs only 18.8% of all days. See KB-VIO-043.

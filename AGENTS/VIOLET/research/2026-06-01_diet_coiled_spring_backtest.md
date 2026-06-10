@@ -183,7 +183,7 @@ DIET fires occurring within ±21 td of a STRICT fire (potential lead/lag of same
 
 ### For KB-VIO-036
 
-KB-VIO-036's 94% historical hit rate referred to peak-gt-prior-VIX-percentile from `research/2026-04-15_skew_divergence_episodes.md` (12 of 16 STRICT episodes had VIX peak ≥ prior-40d high). This backtest confirms the population-level robustness and adds: **at half-magnitude (DIET) thresholds, the population doubles and forward-spike characteristics remain materially above NEITHER baseline**. KB-VIO-036 should be revised to a tiered signature with DIET as a recognized lower-magnitude class, not dismissed as noise.
+**[CORRECTED 2026-06-09, KB-VIO-079]** ~~KB-VIO-036's 94% historical hit rate referred to peak-gt-prior-VIX-percentile from `research/2026-04-15_skew_divergence_episodes.md` (12 of 16 STRICT episodes had VIX peak ≥ prior-40d high).~~ The 94% is the **≥+15%-peak-within-60d episode rate (15/16 STRICT)** per line 38 of that file; the "12 of 16 peak ≥ prior-40d high" figure (75%) is a different metric this sentence wrongly equated with it. DIET's own ≥+15% rate, computed 2026-06-09 from this backtest's CSV: **92% (23/25)**. Canonical home: VIX_THESIS § L1 canonical base rates. This backtest confirms the population-level robustness and adds: **at half-magnitude (DIET) thresholds, the population doubles and forward-spike characteristics remain materially above NEITHER baseline**. KB-VIO-036 should be revised to a tiered signature with DIET as a recognized lower-magnitude class, not dismissed as noise.
 
 ### For the current 2026-06-01 setup
 

@@ -22,7 +22,7 @@ VIOLET's core framework: Credit-vol relationship is **regime-dependent, crisis-t
 
 **v3.3 (2026-06-06) — 6/5 NFP-shock live test integration**
 - L1-L4 operational stack discipline codified: L1 PROMOTED to real-money; L2 wrong-mechanism (consensus-miss carve-out pending); L3 N=1 PROVISIONAL; L4 demoted to descriptive. KB-VIO-070.
-- KB-VIO-067 DIET signature backtest upgraded from ASSUMPTION → EMPIRICAL; 19yr base rate 94% / 60d for ≥15% VIX rise.
+- KB-VIO-067 DIET signature backtest upgraded from ASSUMPTION → EMPIRICAL. *(6/9 provenance correction, KB-VIO-079: the "94%" here was the STRICT rate; DIET ≥+15% computed 6/9 = 92%. See L1 canonical base-rate table.)*
 - Concentration-unwind formalized as **parallel transmission path** (KB-VIO-071): hot-NFP rate-shock universe DEFLATES VIX historically; 6/5 +40% required amplifier (AI/factor concentration unwind). Vol event can fire via HENRY-side breadth cascade without credit confirmation.
 - R12 regime **interrupted-and-resumed** structure recognized (KB-VIO-072): 5/12 termination → 6/05 vol event → 6/05 regime re-establish at 20d-avg 140.16. New classification "elevated SKEW under live vol event."
 - KB-VIO-031 60d window RESOLVED HIT (Scenario B confirmed; VIX +39.7% at td-58 of 4/15 fire window). KB-VIO-058 ARCHIVED (PRE_EVENT_FADE was wrong framework not direction).
@@ -48,12 +48,24 @@ Live signals are organized into four layers; only L1 is the real-money signal as
 
 | Layer | Role | Status as of 6/6 | Evidence |
 |-------|------|------------------|----------|
-| **L1 — Population framework** | Backtest-derived signature: SKEW rises + VIX falls + VVIX falls over multi-day window. | **REAL-MONEY** (EMPIRICAL). 94% hit rate ≥15% VIX rise in 60d (KB-VIO-067 19yr backtest). PAID FORWARD 5/20-5/29 → +40% VIX at td-4. | KB-VIO-036, KB-VIO-067 |
+| **L1 — Population framework** | Backtest-derived signature: SKEW rises + VIX falls + VVIX falls over multi-day window. | **REAL-MONEY** (EMPIRICAL). Base rates: see canonical table below — threshold- and tier-indexed, NOT one number. PAID FORWARD 5/20-5/29 → +40% VIX at td-4. | KB-VIO-036, KB-VIO-067, KB-VIO-079 |
 | **L2 — Regime-context filter** | Absorbed-trap classification: consensus-aligned catalysts get absorbed; only consensus-miss prints break the trap. | **WRONG-MECHANISM** as of 6/5. Consensus-miss carve-out pending (define σ threshold + backtest). | KB-VIO-069, KB-VIO-070 |
 | **L3 — Direction matrix** | M1:M2 contango × VIX direction quadrant map (Q1-Q4). Q3 (M1:M2 expansion + VIX rising) new quadrant. | **PROVISIONAL N=1.** Resolve via pre-FOMC-week historical scan. | KB-VIO-068, KB-VIO-070 |
 | **L4 — Compound confirmation** | CFTC TFF Lev Money positioning as discriminator between event-hedger-bid vs speculator-crowding mechanisms. | **DEMOTED — descriptive only.** Tuned to discriminate short-vol unwind / Volmageddon-shape; got bypassed when actual mechanism shifted (NFP+AI). | KB-VIO-065, KB-VIO-070 |
 
 **Discipline rule:** L1 fires the trade; L2-L4 are calibration filters that may bypass when the dominant mechanism shifts. Do not require L2-L4 confirmation if L1 has fired; do not size positions on L2-L4 signals alone.
+
+### L1 canonical base rates (CANONICAL — all other docs point here; KB-VIO-079, recomputed 6/9 from `workbook/DIET_COILED_SPRING.csv`)
+
+VIX peak within fwd-60td, **episode-level** (sizing unit) with fire-day rate in parens:
+
+| Peak threshold | STRICT (−5/−15 legs; 16 eps) | DIET (−2/−10 legs, not-STRICT; 25 eps) |
+|---|---|---|
+| ≥ +15% | **94%** (15/16; fire-day 84%) | **92%** (23/25; fire-day 92%) |
+| ≥ +30% | 81% (13/16; fire-day 71%) | 72% (18/25; fire-day 73%) |
+| ≥ +50% | 56% (9/16; fire-day 62%) | 60% (15/25; fire-day 65%) |
+
+**Provenance note (the 6/9 correction):** the "94%" previously cited as "KB-VIO-067 hit rate" is the **STRICT** ≥+15% episode rate from `research/2026-04-15_skew_divergence_episodes.md` (KB-VIO-036 lineage); the DIET ≥+15% rate had never been computed until 6/9 (it is 92% — close by coincidence, not provenance). The KB-VIO-067 backtest's own line 186 mischaracterized the 94% (corrected in-file). **Usage rule:** quote the rate at the threshold the trade actually targets and name the tier + unit (episode vs fire-day). "L1 at full weight" in the Packet-#1 combiner means THIS table. Caveats: DIET standalone subset (17 eps, STRICT-adjacent removed) = 88% at ≥+15%; DIET ≥+50% mean is COVID-outlier-loaded — median read is robust.
 
 ---
 
@@ -304,14 +316,14 @@ Portfolio P&L (no credit-side firing required)
 
 ### The DIET Coiled-Spring Trade (added v3.3)
 
-**Setup (KB-VIO-067 19yr backtest, EMPIRICAL):**
-- L1 DIET signature fires: SKEW rises ≥+10pt + VIX falls ≥-5pt + VVIX falls ≥-15pt over a 20-day window (formal magnitude). Population base rate: 1.0% of days; 46 trigger days / 17 distinct episodes 2007-2026.
-- *Or* directional/half-magnitude variant (KB-VIO-062 working hypothesis): same signs, smaller magnitudes — calibration pending L1 re-split by trigger type.
+**Setup (KB-VIO-067 19yr backtest, EMPIRICAL — tier names corrected 6/9, KB-VIO-079; prior text mislabeled STRICT thresholds as "DIET"):**
+- **STRICT tier (KB-VIO-036):** SKEW ≥+10 / VIX ≤−5 / VVIX ≤−15 over 20td. 0.95% of days; 45 fire days / 16 closed episodes 2007-2026.
+- **DIET tier (KB-VIO-067):** SKEW ≥+10 / VIX ≤−2 / VVIX ≤−10 over 20td, not also STRICT. 0.78% of days; 37 fire days / 25 closed episodes. Comparable forward behavior to STRICT (see L1 canonical base-rate table).
 
 **Entry:** VIX calls 60-90 DTE struck near 1.3× spot VIX (matches historical median forward-60d move magnitude)
-**Target:** ≥15% VIX rise within 60 days (94% historical hit rate). SKEW>150 cohort: 6/7 produced STRESS +50% (high-severity sub-trade).
+**Target:** threshold-indexed per the L1 canonical base-rate table — ≥+15% peak fwd60: STRICT 94% / DIET 92% episode-level; ≥+50%: 56% / 60%. SKEW>150 cohort: 6/7 produced STRESS +50% (high-severity sub-trade).
 **Stop:** SKEW falls below 140 sustained 4+ td during window (cohort-A peaceful resolution, 6% base rate); VIX>30 already-fired (window resolved).
-**Sizing:** 2% account (L1 is real-money signal per v3.3 stack discipline; population framework with 94% hit rate justifies higher sizing than Lag or Regime Shift trades).
+**Sizing:** 2% account, justified by the ≥+15% episode-level rate (92-94% across tiers). If the trade's payoff requires ≥+50% (far-OTM strikes), the honest anchor is 56-65% — size at the threshold the structure actually needs, per the canonical-table usage rule.
 **Mechanism caveat (v3.3):** L1 is mechanism-agnostic by construction — fires the same whether the trigger is macro-shock, technical unwind, or concentration cascade. Timing varies widely (1 week to 3 months; median 39 days IQR 32-46). 6/5 fired at td-4 of the 60d window; not typical timing.
 
 ---
@@ -343,7 +355,7 @@ Portfolio P&L (no credit-side firing required)
 | 2' | **Sustained** term structure inversion (VIX3M/VIX<1.0 for ≥7 consecutive days) → VIX sustains above 25 for ≥10 days following | Untested. Front-end inversion 6/5 (VIX9D > VIX) does NOT count — VIX3M still above spot (1.014). | Medium | Next event |
 | 3 | VVIX > 120 **with VIX < 20** (divergence) → VIX > 25 within 10 days | **CLOSED INCONCLUSIVE 6/6.** 6/5 had VVIX 102.04 (not 120) but VIX cleared 20 anyway via Path B mechanism. Threshold-conditional setup doesn't capture mechanism-substitution. Replace with #5/#6. | — | Closed |
 | 4 | VIX > 40 → HY OAS > 600bps within 20 days | Untested — VIX hasn't reached 40 since thesis | Medium (downgraded from High — inherited, not VIOLET-validated) | Next event |
-| **5** | **KB-VIO-067 L1 DIET signature** (SKEW +10 / VIX -5 / VVIX -15 over 20d formal, or half-magnitude directional variant) → ≥15% VIX rise within 60 days | **PARTIAL HIT 6/5.** Directional/half-magnitude variant fired 5/20-5/29 → VIX +40% at td-4 (well above 15% threshold). Mechanism-attribution uncertain (NFP + AI confounder); count as partial. Population framework 94% / 60d hit rate (KB-VIO-067). | High (EMPIRICAL via 19yr backtest) | Each L1 fire; 60d window |
+| **5** | **KB-VIO-067 L1 DIET signature** (SKEW +10 / VIX -5 / VVIX -15 over 20d formal, or half-magnitude directional variant) → ≥15% VIX rise within 60 days | **PARTIAL HIT 6/5.** Directional/half-magnitude variant fired 5/20-5/29 → VIX +40% at td-4 (well above 15% threshold). Mechanism-attribution uncertain (NFP + AI confounder); count as partial. Base rate at this threshold: DIET 92% / STRICT 94% episode-level (L1 canonical table, KB-VIO-079). | High (EMPIRICAL via 19yr backtest) | Each L1 fire; 60d window |
 | **6** | **Post-spike SKEW > 150 sustained 4+ td** → back-to-back vol event within 60 days (Phase 2 cluster analog) | **TRIGGER LAPSED 6/9 — condition unfired.** SKEW >150 lasted 1 td only (152.25 6/5 → 145.00 6/8 → 141.97 6/9). Back-to-back-cluster test NOT activated; favors exhaustion / same-trade-repeating over a true 2nd rebid (KB-VIO-077). Not FAILED — the sustained condition never fired, so the 60d consequent was never armed. Re-arms on any future post-spike print sustaining >150 for 4+ td. | Medium (small N: 1 prior cluster in 19yr) | Condition lapsed 6/9; re-arms on next post-spike >150 |
 
 **Scoring rules:**
