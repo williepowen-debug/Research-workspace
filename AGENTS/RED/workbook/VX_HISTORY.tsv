@@ -50,3 +50,4 @@ Date	VX_ID	Old_Strength	New_Strength	Old_BullWt	New_BullWt	Reason
 2026-06-02	VX-RED-021	STRONG	STRONG	60	60	Last_Reviewed refresh 2026-04-18->2026-06-02; direction still valid, see STALENESS_AUDIT for per-vector notes
 2026-06-10	VX-RED-017	STRONG	MODERATE	55	40	Flip_If fired: "strikes resume" - Iran MOU break 6/1 + tit-for-tat strikes 6/9-10 (OVX 58.5). Kept MODERATE not WEAK: Brent $93.30 still refusing to price war through live kinetic exchange.
 2026-06-10	VX-RED-024	NEW	STRONG	NEW	65	NEW vector: SAM reconciled modal = BOJ hike fully priced, no carry unwind, no US-paper transmission. Standing counter-evidence vs network Japan-trigger assumption. Resolves Jun 16-23.
+2026-06-10	VX-RED-016	STRONG	RESOLVED-FLIPPED	30	50	Flip_If fired: AAPL reduced below 20pct of portfolio (17.96pct per 6/10 Fidelity CSV; cash 65.1pct). Concentration risk resolved by de-risking.
