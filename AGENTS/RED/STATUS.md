@@ -101,7 +101,7 @@ Strongest "we're wrong," and it survived the week:
 | **CH-004 probabilities** | SAM | — | **Recommend RESOLVED-CONVERGED** (METHOD shipped, −33pp self-correction). |
 | **CHG-RED-028 bifurcation mechanism** | Self | ACTIVE | Spring partially released 6/5; full snap still FOMC-gated. 7th observation = first tape-side narrowing. |
 | **HYG closure** | Self → Will | OWED | Jun 18 expiry, T-6. Write-up this week. |
-| **Jun-stack endgame** | Portfolio → Will | LIVE | Window-trigger firing but only 2 live marks (WAL $85P ITM, TLT $85P x3 ATM). Backstop 6/11 = tomorrow. Broker marks needed before any rec (ML-RED-058 discipline). |
+| **Jun-stack endgame** | Portfolio → Will | LIVE-MARKED | **Broker CSV 6/10 3:52PM received.** WAL $85P = $380 (−36%); TLT $85P x3 = $147 (**ROUND-TRIPPED +92%→−40%**); dust ≈ $207. Decision menu pre-registered in `research/POSITION_RECONCILE_2026-06-10.md` (A1/A2 WAL, B TLT-hold-thru-FOMC, C sweep, D HYG closure). Backstop 6/11. |
 
 ---
 
@@ -133,7 +133,8 @@ Strongest "we're wrong," and it survived the week:
 
 ## MISSING DATA WANTED
 
-- **Live broker option marks** — WAL Jun $85P, TLT Jun $85P x3, SOFI/OWL Jun5 expiry outcomes. Gates the Jun-stack menu.
+- ~~Live broker option marks~~ **RESOLVED — CSV 6/10 3:52PM** (`research/POSITION_RECONCILE_2026-06-10.md`). Residual: SOFI/OWL Jun5 final outcomes (positions GONE from CSV — expired-or-closed values unconfirmed).
+- **Portfolio context shift:** cash now 65.1% of IRA; AAPL 17.96% (<20% → VX-RED-016 flip met); new war/oil vehicles (XLE/USO calls, CCL puts, TBT) — only green legs on 6/10. Vulnerability framing changes: structural Aug-Dec core is the real book, theta bleed bounded.
 - LIQUID refresh (stale 5/20) — duration read at 30Y 5.0% + post-GEX-invalidation reconciliation.
 - REGINALD refresh (stale 5/21) — WAL at $81.82 vs V2.2 EV $67.98: tape 20% above EV; what's his marking?
 - VIOLET 6/10 EOD re-stamp — whether the war leg sustains past today; VIX>23 line.
