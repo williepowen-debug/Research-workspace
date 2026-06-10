@@ -29,8 +29,12 @@
 1a. *FOMC 6/17 pre-write — **Will-SNOOZED 6/10** ("a lot to work on before that"). Revisit no later than Mon 6/15 PM; the pre-catalyst-framework rule still applies, just not this week's lead item.*
 3. **HYG closure write-up** (before 6/18): inputs ready ($245.39 → ~$16, −93.5%).
 4. **SAM challenge follow-through**: confirm packet reached SAM pre-blackout (~6/13); scoring lands Jun 16-18 (CH-009 hold-branch test, CH-010 Branch-C split, CH-011 SAM-23, CH-032/CH-005 + 2wk).
-5. **thesis/TIMELINE.md refresh** (charter item 3) — unblocked by position reconcile; do after Will's Jun-stack calls.
-6. REGINALD/LIQUID re-pair when they refresh (LIQUID owes duration read at 30Y ~5.0%; REGINALD marking vs WAL $81.82 = 20% above V2.2 EV).
+5. **Challenge-backlog disposition pass** — boot.py's first run exposed 14 stale ACTIVE rows in CHALLENGES.tsv (CHG-RED-006..022, Apr-era, 53-69d old; e.g. -008 rescue-at-20% vs current 4%, -018 owed-closure from Apr). Each needs a proper resolution note — focused pass, ~30-45 min.
+6. **thesis/TIMELINE.md refresh** (charter item 3) — unblocked by position reconcile; do after Will's Jun-stack calls.
+7. REGINALD/LIQUID re-pair when they refresh (LIQUID owes duration read at 30Y ~5.0%; REGINALD marking vs WAL $81.82 = 20% above V2.2 EV).
+
+## TOOLING (S17 evening)
+`scripts/boot.py` NEW + `docket/WATCHLINES.tsv` — one-command boot (tape/triggers/catalysts/DUE-scan); CLAUDE.md step 9 updated. Live-tested 5:11PM: VIX 22.22 (+11.8%, war leg escalating into close — VIOLET >23 line 0.78 away), Brent $94.71 (+3.6%).
 
 ## OPEN THREADS
 - **HY OAS 280 re-cross watch (daily)** — 278 on 6/9; sustained >280 un-fires FT-01, re-widens bifurcation.

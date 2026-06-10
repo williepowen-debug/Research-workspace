@@ -112,3 +112,18 @@ Before S16, structural and analytical changes were both logged in `thesis/CHANGE
 **Boot-impact:** next session boots on the new protocol — reads SCRATCH.md (not LAST_COMPLETION), runs DUE-scan at step 3, uses `.venv/bin/python3` per step 9. Friction → log here.
 
 **Out of scope (deliberate):** NEXUS_BRIEF enrollment (Will/NEXUS-phase decision, D3), scripts/boot.py build, KOYOMI-analog steward (Will-deferred S16).
+
+---
+
+## 2026-06-10 (S17, evening) — `scripts/boot.py` built (boot kit; closes the last parity carve-out)
+
+**Trigger:** Will: "FORGE may be a little dated… keep as-is or build?" Plan approved on all defaults (D1-D5).
+
+**What changed:**
+- `scripts/boot.py` NEW (~250 lines, READ-ONLY): ① TAPE (11 tickers via FORGE `fetch.py` imported as a library + FRED HY/CCC/claims) ② TRIGGER CHECK (registry hard triggers + WATCHLINES soft lines, live distance + FIRING/NEAR/clear, true sustain-trail evaluation on FRED metrics) ③ CATALYST COUNTDOWN (docket pending ≤14d, fuzzy-date tolerant) ④ DUE-SCAN (predictions past-timeframe → 🔴; unparseable timeframe → ⚠️ manual; ACTIVE challenges listed with age). Venv self re-exec shim — bare `python3` now works for this script.
+- `docket/WATCHLINES.tsv` NEW (11 rows): soft/display thresholds (VIX>23 VIOLET line, VIX>20 window, HY 280 re-cross, CCC 955/1000 gates, USDJPY 160, KRE/WAL/SPY position legs, Brent<95 sub-trigger-d). Deliberately separate from `registry/FALSIFICATION_TRIGGERS.tsv` (WALTER auto-fire surface — display rows there could cause unwanted dispatches).
+- `CLAUDE.md` boot step 9 → run boot.py; Doc-Mirror table gained the triggers row.
+
+**Dogfood (live test vs known answers):** ①-③ matched the hand-built S17 picture exactly (FT-01 sustained-firing 278/275/276, FT-07 firing, VIX>20 firing, re-cross NEAR −2, CCC gate NEAR −4, T-1 backstop). **④ found catch #3 of the day: 14 stale ACTIVE challenges from April (CHG-RED-006..022, 53-69d old)** — never status-dispositioned (e.g. CHG-RED-008 "rescue revised to 20%" vs current 4%; CHG-RED-018 owed-closure from Apr). Queued as next-session cleanup pass (needs per-row resolution notes, not a rush job).
+
+**Boot-impact:** boot steps 3+9 mechanical halves now one command. Friction → log here. Known limits: yf metrics can't evaluate multi-day sustain (flagged inline); fuzzy timeframes print ⚠️ manual rather than silently passing.

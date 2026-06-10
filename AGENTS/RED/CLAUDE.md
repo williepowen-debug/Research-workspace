@@ -42,7 +42,11 @@ You do NOT own any domain data. You do NOT generate original research. You read 
    - If task is specific question: **Ad Hoc Analysis**
 7. **Read target agent STATUS.md files** (first 50 lines each) — find their current claims and confidence levels.
 8. **Read `PROME/STATUS.md`** — current positions, convictions, portfolio context.
-9. **Live anchors:** pull load-bearing figures from live primaries, not state files — `.venv/bin/python3 FORGE/tools/market-data/fetch.py price <tickers>` / `fred <series>` (bare `python3` has no yfinance — PEP-668; see MAINTENANCE 6/10). Never cite prices from STATUS files (root rule 4).
+9. **Run `scripts/boot.py`** — live tape + trigger check (registry + watch lines) + catalyst countdown + DUE-scan in one ~10s pass:
+   ```
+   python3 AGENTS/RED/scripts/boot.py        # self re-execs under repo venv; --verbose for full output
+   ```
+   Read-only; it automates the mechanical halves of steps 3 and 9. Soft thresholds live in `docket/WATCHLINES.tsv` (display-only — hard pre-registered triggers stay in `registry/FALSIFICATION_TRIGGERS.tsv`, WALTER's auto-fire surface; never add display rows there). Anything boot.py flags ⚠️/🔴 in the DUE-scan MUST be dispositioned at W2. For figures it doesn't cover, pull live primaries via `FORGE/tools/market-data/fetch.py` — never cite prices from STATUS files (root rule 4).
 
 ### EXECUTE
 
@@ -74,6 +78,7 @@ W10. **Git — pathspec commits, never `git reset HEAD`** (shared `.git/index`; 
 | `docket/CATALYSTS.tsv` | `CALENDAR.md` (narrative layer — same event SET, adversarial framing added) |
 | `workbook/PREDICTIONS.tsv` | STATUS Predictions Scorecard + CALENDAR scoring windows |
 | `workbook/CHALLENGES.tsv` | STATUS Open Challenges table |
+| `registry/FALSIFICATION_TRIGGERS.tsv` (hard) + `docket/WATCHLINES.tsv` (soft) | STATUS Falsification Criteria table (narrative; boot.py evaluates the TSVs live) |
 
 ---
 
