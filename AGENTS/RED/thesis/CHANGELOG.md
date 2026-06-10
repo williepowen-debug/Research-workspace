@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-06-10 — The Week the Tape Blinked: Dual Trigger Fire (Opposite Directions), VIX<16 Guard Vindicated, Iran Third Vol Leg, Fed Pricing Flips Cut→HIKE; SAM Pre-BOJ Stress-Test Filed (Session 17, 8-day gap)
+
+**Confidence:** 72% → **72%** (held)
+
+**Competing hypotheses re-balanced — first tape-side narrowing of the bifurcation in the 7-observation series:**
+- Full Stagflation: **37%** (=) — CPI 4.2% 3rd consecutive accel, energy >60% of increase; Fed-flip = trapped-Fed confirmation
+- Managed Decline: 36% → **34%** (−2) — VIX >20 regime + war leg + tail-credit widening erode "everything absorbs"; sole modal status lost
+- Acute Dislocation: 12% → **13%** (+1) — CCC 951 widening into index tightening (FT-07); spring PARTIALLY released 6/5 (VIX +39%); full snap still FOMC-gated
+- War Escalation: 6% → **9%** (+3) — KINETIC not rhetoric: tit-for-tat strikes 6/9-10, OVX 58.5, vol market paying the war leg for the first time; Brent $93.30 still tape-capped
+- Policy Rescue: 6% → **4%** (−2) — Fed pricing INVERTED (~52% 2026 HIKE, Oct frontrunner); rescue now requires a credit event first
+- Soft Landing: **3%** (=)
+
+**Net bear: 55% → 59% (+4).** The +4 is tape-confirmation, not new substance. Confidence held at 72 because instruments still don't transmit: the war-led vol spike bypassed every bank/credit put in the book (WAL 81.82 / KRE 71.58 rallied INTO VIX 21.75), and HY OAS 278 still refuses the cascade. Right regime, possibly wrong vehicles — unchanged.
+
+**What drove it:** (1) **RED-FT-01 + RED-FT-07 both fired 6/4 in opposite directions** — first fires ever on the RED ledger, same session: HY <280 sustained (bull-counter) + CCC >930 (tail-stress). The bifurcation now prints inside the credit market itself (KB-RED-043, ML-RED-077). HY back to 278 by 6/9 — re-cross watch live. (2) **NFP +172K (6/5) → VIX 15.4→21.5: the S16 VIX<16 guard vindicated within 3 sessions** (ML-RED-078) — without it, the falsifier would have cut bear 50% three days before a +39% VIX move. (3) **CPI 6/10 hot-as-expected** — DIET catalyst gate #1 resolved non-tail; FOMC 6/17 is the remaining gate; docket date error (6/12) fixed. (4) **Iran third vol leg** — MOU break 6/1 → tit-for-tat 6/9-10; VX-RED-017 flip fired (STRONG 55/45 → MODERATE 40/60). (5) **Fed pricing regime-flipped cut→HIKE** (KB-RED-044, stale-by FOMC 6/17).
+
+**SAM pre-BOJ stress-test (Will-directed, filed T-4 pre-blackout):** CHG-RED-029 STRONG (earned-discount regime-transfer — 23pp discount earned vs a 55-75% market, applied vs a 98% market; RED marks hold ~5-10% vs SAM 25%); CHG-RED-030 MODERATE (Takaichi Branch-C threshold-vs-mechanism + CH-008 double-count; split C1/C2 before scoring); CHG-RED-031 MOD-STRONG (SAM-23 cross-pair inversion — orderly USD-led move is the no-strike configuration; feeds LIQUID/HENRY buckets); CHG-RED-032 STRONG (CH-005-STRENGTHENED: Fed-flip impairs all 4 structural pillars; $60-62 band has no mapped modal path). Plus CH-004 recommended RESOLVED-CONVERGED and CH-007 noted as pre-agreed convergence. **Network read: BOJ Jun 16 de-weighted as bear catalyst — SAM's own reconciled modal is NO US-paper transmission (VX-RED-024 NEW).** Routing deadline ~6/13 blackout.
+
+**Still owed:** REGINALD/LIQUID re-pair (now also: LIQUID duration read at 30Y ~5.0%; REGINALD marking with WAL 20% above V2.2 EV); HYG closure write-up (T-6); FOMC 6/17 pre-write; thesis/TIMELINE.md refresh (charter item 3); Jun-stack decisions with Will (backstop 6/11, marks needed).
+
+---
+
 ## 2026-06-02 (PM) — SELF-CORRECTION of the S15 AM Read: GEX *Explanation* Died but DIET Coiled-Spring Snap *Signature* Survived & Is Firing (Session 16)
 
 **Confidence:** 72% → **72%** (held)

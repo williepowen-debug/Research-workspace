@@ -79,3 +79,19 @@ Before S16, structural and analytical changes were both logged in `thesis/CHANGE
 - [ ] `STATUS.md` ≤200 lines; archive detailed reports to `reports/`.
 - [ ] Dedupe `archive/` vs `challenges/`; relocate completed research to `archive/`.
 - [ ] Cross-file consistency: PREDICTIONS scoring matches across STATUS/CALENDAR/workbook (S16 caught a RED-19 contradiction).
+
+---
+
+## 2026-06-10 (S17) — Market-tool "breakage" diagnosed: interpreter selection, NOT a broken tool (S16 venv punchlist item CLOSED)
+
+**Symptom:** `python3 FORGE/tools/market-data/fetch.py price ...` → `ModuleNotFoundError: No module named 'yfinance'`. Looked like the S16 "yfinance missing" regression.
+
+**Diagnosis (verified, not assumed):** NOT broken, NOT API overload. The error is a deterministic import failure — it fires before any network call, so rate-limiting/overload is excluded. Root cause: bare `python3` = Ubuntu system interpreter, which is PEP-668 externally-managed (`/usr/lib/python3.12/EXTERNALLY-MANAGED`) — packages can never be pip-installed there by design. All repo packages live in `.venv/`.
+
+**Verified healthy state:** `.venv/bin/python3` = Python 3.12.3 with yfinance 1.2.0 + pandas 3.0.2 + working pip; `fetch.py price` returns live quotes; `dashboard.py` renders Tier 1/2 clean (tested 6/10 ~3:15 PM ET).
+
+**Rule:** always invoke market tools as `.venv/bin/python3 FORGE/tools/market-data/fetch.py ...` (venv activation does not persist across shell calls). The hygiene checklist below already says this — the S17 boot miss was using bare `python3` from muscle memory before re-reading it.
+
+**Closes:** S16 punchlist item 4 ("proper venv fix: sudo apt install python3.12-venv; pin pandas; test dashboard.py") — overtaken by events. Venv exists with working pip (no apt package needed for current state); pandas 3.0.2 runs dashboard.py without error (no pin needed); dashboard tested ✅.
+
+**Optional shared-tooling improvement (Prome-side, NOT RED's file to edit):** `fetch.py`/`dashboard.py` could self-re-exec under the repo venv when imported modules are missing, making them interpreter-agnostic for all agents. Flagged via OUTBOX rather than edited directly (FORGE is shared tooling).
