@@ -23,7 +23,16 @@ Will asked for a boot (8:28 PM); EXECUTE became the eve-of-CPI EOD read + ledger
 5. **Full STATUS rewrite to 6/9 EOD**; convergence matrix re-scored (5 downgrades); CALENDAR CPI row updated to reactive role.
 6. Committed `ca464bc3` (7 files). NEXUS_BRIEF refreshed after (second commit).
 
-**Thesis NOT bumped** — v3.5 intact; Pred #6 lapse is an intra-version dated note.
+**LATE SESSION (~22:00-23:00, post-push): Packets #1-#2 + orchestrator full-tree review response.**
+7. **Packet #1 (abstain-gate → v3.6) ACCEPTED + 4 refinements** — spec at `research/2026-06-09_packet1_abstain_gate_spec.md`; wiring queued post-CPI (item 2 above).
+8. **Packet #2 (convexity rubric) BUILT** — `scripts/convexity_read.py` v0, first live run KB-VIO-078 (percentile read overturned answer-key: vol-of-vol NEUTRAL not cheap, SKEW 26.6pct 1yr NOT rich).
+9. **Orchestrator review items #1-3 EXECUTED (commit `35298c3e`):**
+   - **#1 L1 base-rate canonicalized (KB-VIO-079)** — "94%" was conflated (STRICT 15/16 ≥+15% from the April file, NOT KB-VIO-067); DIET ≥+15% computed for the first time = **92% (23/25)**; threshold×tier×unit canonical table now in VIX_THESIS § OPERATIONAL LAYER STACK; thesis L1 row + DIET trade (which also mislabeled STRICT −5/−15 thresholds as "DIET") + Pred #5 + MEMORY #6 + Packet-#1 accepted-cost + backtest line 186 all re-pointed. **Unblocks Packet #1: "L1 at full weight" = that table, at the threshold the structure targets.**
+   - **#2 TRADE.md rehabbed** — Episode-17 closed out (had sat OPEN 3 weeks past expiry), expiry logged, **Event-Premium Fade framework pre-registered** ahead of the 6/10 decision (entry gate ×5, L1-window tension stated, BOJ split-entry, invalidation set, Will-approval line).
+   - **#3 convexity_read IV-RV bug fixed** — positional join → date-keyed join (the exact hazard normalize_dates existed for); SPX fetch 320d→450d so "1yr percentile" is honest. Corrected spread pct 58.3→55.2, verdict unchanged (NEUTRAL). KB-VIO-078 headline verdicts (vol-of-vol, skew) untouched by this path.
+   - **#4-6 queued** as housekeeping session (NEXT SESSION item 7).
+
+**Thesis NOT bumped** — v3.5 intact; Pred #6 lapse is an intra-version dated note; the canonical-table addition is a calibration correction (KB-VIO-079), folds into the v3.6 bump when Packet #1 wires.
 
 ## NEXT SESSION (priority-ordered)
 
@@ -34,6 +43,7 @@ Will asked for a boot (8:28 PM); EXECUTE became the eve-of-CPI EOD read + ledger
 4. **🟡 COT Fri 6/12 release** — Tue 6/9 positions = first post-spike speculator read.
 5. **🟠 Factor-concentration-unwind analog scan** — port `/tmp/nfp_analog_backtest.py` → `scripts/` first (carried from 6/5).
 6. **🟡 L3 Q3 base-rate scan before 6/17**; **🟡 L2 σ carve-out backtest**; **🟡 BOJ 6/16 fuel-load read Sat 6/13** (SAM edge).
+7. **🟡 HOUSEKEEPING SESSION (orchestrator review 6/9, items #4-6 — batch separately):** (a) MEMORY.md subtraction job — regime defs / credit-vol synthesis / crisis analogs / SKEW patterns duplicated vs thesis, convert to pointers; session notes out of chrono order; April-12 "Open Questions for Will" stale (Q2 partially overtaken by M1:M2 work). (b) CLAUDE.md template residue — KEY THRESHOLDS all TBD, convergence template "Never," boundary rule still says HERMES delivers. (c) CALENDAR Data Refresh table dates stale (say 6/1, rows refreshed 6/9). (d) outbox SIG-VIOLET-LIQUID-20260415 — close with disposition (dead channel since April). (e) 5/14 inbox gamma signal — dispose or formally drop (4 sessions deferred). (f) Tool hardening: vix_options after-hours OI=0 suppress/flag in-tool; diagnose fred_fetch DGS10/DGS2 lag (ends 6/5 on 6/9 fetch).
 
 ## CARRY-FORWARD
 
