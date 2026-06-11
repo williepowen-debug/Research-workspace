@@ -1,49 +1,51 @@
-# VIOLET SCRATCH — June 10, 2026 (Wed evening session #4: RED red-team sweep adjudication, CHG-033/034 of 5. NEXT = 6/11 AM: CHG-035 tree FIRST, then daily watch)
+# VIOLET SCRATCH — June 11, 2026 (Thu AM session: RED sweep COMPLETED 5/5 + Q1-Q6; M1:M2 record corrected + mechanized; distribution re-marked. NEXT = EOD 6/11: `--supersede` run + FRED print through the tree)
 
 **Purpose:** Ephemeral session handoff. Read at boot, rewritten at write-back. Persistent learnings → `MEMORY.md` / auto-memory; dated catalysts → `CALENDAR.md`/`CATALYSTS.tsv`.
 
 ---
 
-## CHANGES SINCE LAST SESSION (6/10 EOD ~7:15 PM → ~9:15 PM)
+## CHANGES SINCE LAST SESSION (6/10 ~9:15 PM → 6/11 ~11 AM)
 
-- **No market changes — markets closed all session.** All 6/10 settles/EOD reads in STATUS stand as the live record (VIX 22.22 settle, gate FAILS #2, CCC 9.51 = 4bp from flip).
-- **RED's sweep landed as expected** (`AGENTS/RED/challenges/VIOLET_REDTEAM_SWEEP_2026-06-10.md`, untracked on RED's side — read from working tree): 5 challenges + 6 dialogue questions, steelman-first, self-exposure logged.
+- **War ESCALATED overnight:** US strikes day 2; Iran hit Jordan (20 missiles at Al Azraq F-35 base, intercepted), Bahrain, Kuwait; **IRGC formally declared Hormuz CLOSED 6/11** (AJ-verified; enforcement claims low-conf; chokehold partial since late Feb so WTI ~90 barely moved). P(Iran stabilizes) moved DOWN.
+- **Tape diverged from the headlines:** VIX EASING intraday (21.4-21.6 vs 22.22 settle; VIX9D ratio 1.155→1.106) while OVX bids 62.7 (+2.4) — **OVX/VIX gap RE-OPENED**; tape reads escalation as oil-localized. Watch whether EOD closes the gap adverse again (yesterday's branch).
+- **FRED 6/10 print did NOT publish by ~10 AM** — CCC 9.51 [6/9] stands, no cross, tree registered in time. BB printed 1.68 (6/9) = top of May-June range, 5bp from the A2 line.
+- **SKEW 6/10 print landed: 143.08** → 20d avg 140.77, R12 margin widened +0.59→+0.77.
 
-## WHAT I DID THIS SESSION (2 commits: f9552e2c, c877b84b + this closeout)
+## WHAT I DID THIS SESSION (commits: a49f94b3 + this closeout)
 
-1. **CHG-RED-033 adjudicated → KB-VIO-088 + TRADE.md falsification architecture.** Conceded: no registered sustain-n; falsification weight had silently migrated to credit. Contested: demote-to-path-marker (wrong remedy); RED's n=3 (fires on dest-right 2023-09). Derivation (`scripts/sustain_run_query.py`, reconciled EXACTLY vs Orch answer key after one construction catch — **DIET-only clustering is canonical**): **n=5 registered as TAIL-STOP only** — run-length has NO discriminating power (dest-right 2023-09 + dest-wrong 2024-12 both ran 4); **time-box carries the 2024-12 window-boundary failure class**; credit PRIMARY; M2:M3 structure-native falsifier DEFERRED (needs historical CBOE VX settles — real data job, not wired); RED's inversion-≥7td candidate declined (KB-VIO-034 peak-marker tension).
-2. **CHG-RED-034 adjudicated → KB-VIO-089 + TRADE corollary.** Conceded: both-anchors rule was applied in research, dropped at the operational layer. Ran the first-fire column (`scripts/two_anchor_ladder.py`; **Orch recompute reproduced every count exactly**): no-early population 19, rungs 11/9/9/8, tail 28/30 both 7/19. **Divergence = FLATTENING** (RED's tail-heavier confirmed ≥26, refuted at 24). Two-anchor ladder registered: 23 ~60-85% near-spent / 24 ~40-70% / 25 ~40-50% (converge) / 26 ~30-40%; **(c) restated 15-25%** with basis explicit (raw 7/19=37%, haircut for stated caveats). **Magnitude (Orch-strengthened): die-or-double** — subset clears +109/+225/+248%, the miss never exceeded its early peak; (c) is a cliff.
-3. **Response file opened:** `research/2026-06-10_red_sweep_response.md` (033 + 034 sections, dialogue Q1-Q2 answered, RED WL-01 note). Both scripts carry window/calendar conventions inline (Orch condition).
-4. **Write-back:** STATUS (ladder/falsifier/queue/cross-agent + header), NEXUS_BRIEF (distribution, ladder, RED row, tripwires), MEMORY 6/10 evening note + takeaways 4-5, MAINTENANCE entry (2 scripts), auto-memory promotion (sustain-count discriminating-power finding).
+1. **CHG-RED-035 → KB-VIO-090.** Provenance dug: 9.55 first appeared 6/9 22:34 (commit 35298c3e) labeled "LIQUID tripwire" — **mis-attribution (LIQUID's CCC line is 1000bp)**; reconstructed as June episode high 9.52 + 3bp = bare range-break level, NOT breadth-aware. **2-bin tree registered BEFORE the FRED print** (which conveniently hadn't published): Bin A = cross + breadth (HY ≥2.85 / BB ≥1.73 / CCC−BB dispersion ≥8.00 within 5td / CCC ≥9.65 escalator) → fade FALSIFIED, full stop. Bin B = cross + breadth clean → MARGINAL-FAIL, re-check +5td, then *written* re-mark (goalpost moves pre-committed). Derivation basis through 6/9 data only (cache-verified). TRADE.md falsifier line rewritten.
+2. **CHG-RED-036 → KB-VIO-091.** Absorbed-streak struck (demoted L2); conditional 0.85→**0.75** (BOJ/FOMC surprise at full weight — BOJ-hawkish now the dominant in-conditional risk). **Translation layer registered:** P(deflate|HAWK-B)≈0.875, P(|HAWK-C)≈0.45±0.10 (RED's prior accepted; C-hot ~0.2-0.3 / C-frozen ~0.6-0.7). Iran term 0.27-0.34 (was 0.50). **Distribution: fade ~20-26% / stand-aside ~50-60% / tail 15-25% upper-half.** Attribution decomposed: RED's structural fix = majority; overnight escalation = the rest. Below RED's 30-35 prediction.
+3. **CHG-RED-037 → KB-VIO-092 + SHIPPED.** The owed settle re-pull found the 4th settle-class error in 48h: **"+7.98% re-armed" was the 6/9 SETTLE** (vix_futures.py defaults `date.today()−1`; thresholds.py stamps the row date — systematic T-1 for the series' life, verified 3 days × 3 decimals). **Actual 6/10: +3.74% — M1 absorbed the war premium (exp 6/17 AM), spot-inverted front, M2:M3 half-deflated 3.09→1.81%.** Shipped: VX_DAILY schema v2 (+basis TICK/SETTLE, +m1m2_settle_date; 140 rows migrated, consumers verified, backup at VX_DAILY.tsv.bak — trash after a clean week); thresholds.py `--supersede` + labels; **scripts/convergence_score.py** (validated vs 25/45). Q5 ordering argument: mechanization first (live failure surface), Packet #1 → 6/18-22.
+4. **Dialogue Q6 → KB-VIO-093.** Backtest (5 external-catalyst releases): conditional VVIX before release = era-ordered — pre-2024 elevated (COVID 90th), recent era ≤8th pct (tariff 2.6, NFP 0.0). **VVIX-NEUTRAL retired from calming work**; asymmetric use retained (>90th = warning).
+5. **Write-back:** STATUS (full refresh, score verified by script 25/45), TRADE, MEMORY (takeaways 6-8 + METRIC SEMANTICS "value carries its DATE" + VVIX asymmetry), MAINTENANCE (schema v2 entry), CALENDAR (supersede habit), FLOW row (sweep response = formal send), NEXUS_BRIEF, auto-memory `finding_tool_default_asof_date_drift` + index line.
 
-**Thesis v3.5 intact — no bump.** Registered falsifiers live in TRADE.md (trade-framework layer), KB-VIO-088/089.
+**Thesis v3.5 intact — no bump.** Sweep = refinements, not reversals.
 
-## NEXT SESSION (priority-ordered — 6/11 AM)
+## NEXT SESSION (priority-ordered)
 
-1. **🔴 CHG-RED-035 FIRST, and BEFORE pulling FRED:** pre-register the CCC 9.55 cross 2-bin tree — Bin A (cross + BB/HY confirming → credit confirms, fade falsified, full stop) / Bin B (cross + HY/IG flat + movers idiosyncratic → log, hold gate at marginal-fail, re-check 5 td). Includes the **9.55 provenance dig** (RED couldn't find the derivation — if it wasn't breadth-aware, say so). The tree must exist before the FRED 6/10 print is looked at — that's the whole point. CCC−BB dispersion is the discriminating series (auto-memory `finding_blended_index_masks_bifurcation`).
-2. **🔴 Daily watch (after the tree):** VIX vs 23.0 close-and-hold **n=5** (settle 22.22, margin THIN), CCC vs 9.55 on the fresh print → adjudicate THROUGH the tree, M1:M2 official VX-settle re-pull (6/10 row still intraday-tick basis), fresh SKEW 6/10 print → 20d-avg refresh (single-print break needs <127.6), OVX/VIX gauge, Iran overnight trajectory.
-3. **🟠 CHG-RED-036:** re-state the 0.85 conditional with the absorbed-streak citation struck (it leans on demoted L2 — KB-VIO-069/070) + write the scenario→premium translation layer (P(premium deflates | HAWK-C), | HAWK-B); fold into the HAWK re-mark re-state (do both at once, per RED). RED's prior: x≈0.4-0.6 → headline fade ~30-35%.
-4. **🟠 CHG-RED-037:** mechanization triage — (a) convergence score by script from emoji rows, (b) thresholds.py settle-timestamp gate / TICK-NOT-SETTLE label, (c) units/anchors inline in tool output. Argue vs Packet #1 ordering (dialogue Q5 — RED accepts "Packet #1 first" only with an argument).
-5. **🟠 Dialogue Q6 (small but live):** in KB-VIO-039 external-catalyst analogs, was conditional VVIX elevated BEFORE release, or is NEUTRAL-until-suddenly-not the norm? (If the latter, the VVIX-NEUTRAL tell is doing calming work it hasn't earned.)
-6. **🟡 FLOW.tsv row** when the full sweep response completes (formal send). **🟡 COT Fri 6/12** · **🟡 BOJ fuel-load Sat 6/13 (SAM)** · **🔴 FOMC+SEP+expiry 6/17**.
-7. **🟠 Carried:** Packet #1 wiring (vs 037 triage); Iran-leg analog scan (OVX/VIX gap resolution); port `/tmp/nfp_analog_backtest.py` → `scripts/` (STILL in /tmp); housekeeping remainder (outbox SIG disposition, fred_fetch rates lag, BOARD-consumption boot step).
+1. **🔴 EOD 6/11 (or next boot): `thresholds.py --supersede` after 16:15 ET** (today's row is TICK basis) + close-and-hold counter vs 23.0 + did the OVX/VIX gap close adverse or hold?
+2. **🔴 FRED print check (6/10 + 6/11 prints, publication lagged):** CCC through the KB-VIO-090 tree — Bin A/B is MECHANICAL, no improvisation; BB vs 1.73; dispersion vs 8.00. If Bin B fires: STATUS gets "MARGINAL-FAIL re-check [date+5td]".
+3. **🔴 Iran daily: OVX/VIX gauge; HAWK re-mark integration** through the KB-VIO-091 translation layer when it lands (ask sharpened: split C hot/frozen).
+4. **🟡 COT Fri 6/12** (first post-spike read) · **🟡 BOJ fuel-load Sat 6/13 (SAM)** · **🔴 BOJ 6/16** · **🔴 FOMC+SEP+expiry+M1-expiry 6/17**.
+5. **🟠 L2 σ carve-out backtest — promoted:** the 0.75 conditional is conditioned on it (absorbed-streak struck pending this test).
+6. **🟠 Carried:** Iran-leg analog scan (OVX/VIX gap resolution shape); port `/tmp/nfp_analog_backtest.py` → `scripts/` (STILL in /tmp); Packet #1 (6/18-22 per Q5 argument); housekeeping (outbox SIG disposition, fred_fetch rates lag, vix_options OI=0, KB legacy rows 007-009).
 
 ## CARRY-FORWARD
 
-- **Push state: FULLY SYNCED to origin as of ~9:30 PM ET 6/10** — Will opened a window post-closeout (laptop switch); pushed 30f285c0..a5e181be (c877b84b + closeout; f9552e2c had already gone up in SAM's evening push-train). Origin = the complete 6/10 record incl. the RED-sweep session. Only this push-state note commit follows.
-- **Auto-memory `finding_sustain_count_role_discriminating_power`: COMMITTED + PUSHED (1f500717, Will-directed pre-laptop-switch)** — laptop boots load it via memory/auto/ sync. Nothing pending.
-- **Quote discipline (extended):** KB-VIO-087 decomposition + **both anchors always** (KB-VIO-089); ladder uses with table rates pair ONLY with lowest-base levels (KB-VIO-084 construction). The Iran term is not ours to own.
-- **n=5 is a tail-stop, NOT a failure-catcher** — if someone quotes it as "the invalidation," correct them; credit + time-box carry the real falsification weight (KB-VIO-088).
-- **KB.tsv hygiene:** legacy rows 007-009 still 12-field (pre-existing); fold into next workbook pass.
-- **RED sweep file still untracked on RED's side** — Orch's deferred queue has the "verify VIOLET's characterizations vs RED's text when RED commits" item.
+- **Push state: 2 commits local-ahead after this closeout (a49f94b3 + closeout commit) — LOCAL ONLY, push Will-coordinated.** Synced from origin at boot (clean; last night's window swept everything).
+- **memory/auto/MEMORY.md modified (index line for the new auto-memory) — uncommitted, outside AGENTS/VIOLET; flag for the next Will-directed sweep** (precedent: 1f500717 was Will-directed).
+- **SAM active in the tree this morning** (STATUS/TIMELINE/workbook dirty) — pull protocol blocked any pull; none was needed (we were synced).
+- **Quote discipline:** distribution = decomposition only, never headline (KB-VIO-091); ladder = both anchors (KB-VIO-089); n=5 = TAIL-STOP not failure-catcher (KB-VIO-088); CCC cross = tree outcome, not "credit confirms" reflex (KB-VIO-090); VVIX-NEUTRAL = no calming weight (KB-VIO-093); M1:M2 quotes carry their settle DATE (KB-VIO-092).
+- **VX_DAILY.tsv.bak** in workbook/ — trash after a clean week of schema v2 (use `trash`, not rm).
+- **RED sweep file still untracked on RED's side** — Orch's deferred "verify characterizations vs RED's text" item stands.
 
 ## OPEN HYPOTHESES (flagged, NOT actionable until backtested)
 
-- **Path-conditioned ladder refinement** — the n=4 "started like us" subset (3/4 through all rungs, die-or-double) suggests conditioning on current path pulls the first-fire column toward lowest-base; n too small to register, revisit if the episode extends.
-- **Mid-June positioning-unwind cluster** (Type-B candidate) — carried; NVDA/SMH vs USDJPY/CFTC co-move test thru 6/16.
-- **AI/factor unwind half-life** — n=4 days, war-confounded; carried.
-- **L2 consensus-miss carve-out** — carried (Packet #1 dependency; now also CHG-036-relevant: the absorbed-streak citation hangs on it).
+- **OVX/VIX gap persistence as a ring-fencing tell** — if the gap holds through multiple escalation days, oil-vol may be structurally ring-fenced this episode (vs KB-VIO-081's one-day adverse resolution). New, from today's tape.
+- **Path-conditioned ladder refinement** — n=4 die-or-double subset; revisit if episode extends.
+- **Mid-June positioning-unwind cluster** (Type-B) — NVDA/SMH vs USDJPY/CFTC co-move test thru 6/16; now with CCC creeping.
+- **L2 consensus-miss carve-out** — carried; now blocks both Packet #1 AND the 0.75 conditional's clean basis.
 
 ---
 
-*Last updated: 2026-06-10 ~9:15 PM ET (evening RED-sweep session. CHG-033/034 done + Orch-verified + registered; 035 FIRST next session and BEFORE the FRED pull; commits local on the deferred queue.)*
+*Last updated: 2026-06-11 ~11:00 AM ET (sweep-completion session; commits local on the deferred queue: a49f94b3 + closeout).*
