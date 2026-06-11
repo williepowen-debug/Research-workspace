@@ -1,5 +1,5 @@
 WL_ID	Metric	Source_Type	Source_Key	Field	Scale	Op	Threshold	Sustain	Label	Notes
-WL-01	VIX	yf	^VIX	price	1	>	23	3	VIX>23 sustained 3 closes — RED-defined (was undefined close-and-hold)	Acute +2 at s=3; 2 closes = note-only. Defined S17b per CHG-RED-033 self-exposure — don't free-ride VIOLET's un-registered sustain semantics; her modal path touches ~23
+WL-01	VIX	yf	^VIX	price	1	>	23	5	VIX>23 sustained 5 closes — TAIL-STOP role (matches VIOLET KB-VIO-088, S18 self-correction)	Tail-stop only at n=5: precedent-bounded (DIET-only era 19yr max run = 7); fires on paths worse than any precedent. n=3 retired S18 — would fire on dest-right 2023-09 path (KB-VIO-088 data). VIOLET-invalidation-line cross-ref. Time-box carries grind-failure class (2024-12), not this line. Auto-memory finding_sustain_count_role_discriminating_power.
 WL-02	VIX	yf	^VIX	price	1	>	20	1	Jun-stack window-trigger menu fires	Menu: lock favorable marks on live legs (see Exit-Window framework)
 WL-03	HY-OAS	fred	BAMLH0A0HYM2	value	100	>	280	3	FT-01 un-fire re-cross (sustain-window-respect)	Bifurcation re-widens; new fire on later re-cross down
 WL-04	HY-OAS	fred	BAMLH0A0HYM2	value	100	<	260	3	Credit canary fully dead	Capitulate transmission view
