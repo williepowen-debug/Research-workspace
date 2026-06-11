@@ -10,6 +10,23 @@ Log material structural changes only — not routine content edits. Template ado
 
 ---
 
+## 2026-06-11 — Tick/settle mechanization: VX_DAILY schema v2 + convergence_score.py (CHG-RED-037 ship)
+
+**Trigger:** The owed M1:M2 settle re-pull found the "+7.98% re-armed" 6/10 read was actually the **6/9 settlement** — `vix_futures.py` defaults to `date.today() − 1` and `thresholds.py` stamped the value with the row date. Every VX_DAILY m1m2 entry was systematically T-1 vs its row label (verified to 3 decimals on 6/8/6/9/6/10). Fourth settle-class error in 48h → RED's CHG-RED-037 mechanization proposal shipped same session, ahead of Packet #1 (ordering argument in the sweep response, dialogue Q5).
+
+**What changed:**
+- **`workbook/VX_DAILY.tsv` schema v2:** +`basis` (TICK/SETTLE by 16:15 ET pull time) and +`m1m2_settle_date` (carried from vix_futures' own `as_of`). All 140 rows migrated (padded; the three verified rows 6/9-6/11 populated [CONF], older rows documented-empty — semantics: m1m2 is T-1 vs row date by construction pre-schema-v2). Consumers (backfill.py DictReader, convexity_read.py pandas — column-name-based) verified parsing post-migration. Backup at `workbook/VX_DAILY.tsv.bak` (trash after a clean week).
+- **`scripts/thresholds.py`:** prints "⚠️ BASIS: TICK" on pre-16:15 runs; labels M1:M2 "[settle DATE — T-1 vs row date]"; new `--supersede` flag (EOD SETTLE run replaces an intraday TICK row — previously the append skip baked ticks into the permanent record; TICK never overwrites SETTLE).
+- **`scripts/convergence_score.py` built** — mechanical matrix sum from STATUS emoji rows, fails loud on mismatch with the declared score (the hand-sum erred twice in 48h, opposite directions). Write-back now runs it.
+
+**Files touched:** workbook/VX_DAILY.tsv (+2 cols), scripts/thresholds.py, scripts/convergence_score.py (new), workbook/KB.tsv (090-093), TRADE.md (CCC tree pointer + LIQUID mis-attribution fix), research/2026-06-10_red_sweep_response.md (035/036/037/Q6 sections).
+
+**Boot-impact:** boot.py unchanged (thresholds runs inside it; new labels appear in boot output). **New write-back habit: EOD `thresholds.py --supersede` after 16:15 ET on days with an AM boot row; run `convergence_score.py` whenever the matrix changes.**
+
+**Lessons:** a tool default (`date.today()-1`) silently misaligned data-date vs row-stamp for the series' entire life; the fix is carrying the data's own as-of date through the pipeline, not vigilance. Same family as KB-VIO-085 (a number carries its unit) — a value also carries its *date*.
+
+---
+
 ## 2026-06-10 (evening) — Two derivation scripts built (RED-sweep adjudication session)
 
 **Trigger:** RED red-team sweep (CHG-RED-033/034) demanded empirical derivations: the close-and-hold sustain count and the first-fire-anchor ladder column. Both were one-off queries worth keeping rerunnable (the /tmp-loss lesson, SCRATCH carry-forward).

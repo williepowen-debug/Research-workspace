@@ -69,6 +69,8 @@ Curated long-term insights on VIX, volatility regimes, and credit-vol transmissi
 
 **Percentile discipline:** quote VVIX percentiles **conditional on the VIX bucket** (`convexity_read.py`), not unconditional — VVIX 102 is 67th pct 1yr but 46th pct conditional in the VIX 20-30 bucket (6/10 example). Unconditional percentiles overstate stress whenever VIX is elevated.
 
+**Conditional-NEUTRAL carries NO calming weight vs the external-catalyst tail (KB-VIO-093, 6/11).** Recent-era releases (tariff 4/2025, NFP 6/2026) launched from ≤8th pct conditional VVIX; pre-2024 releases (COVID 90th) launched elevated. NEUTRAL-until-suddenly-not is the GEX-era norm — suppressed vol-of-vol is part of the coiled-spring setup, not evidence against it. The signal is **asymmetric**: >90th conditional remains a real warning; ≤median says nothing about branch (c).
+
 ---
 
 ## SKEW PATTERNS
@@ -124,6 +126,10 @@ A multi-fire-day episode has no single base: first-fire, last-fire, and lowest-b
 ### Calendar days vs trading days (added 2026-06-10, KB-VIO-085)
 
 The R12 gap was logged as "24 td" in KB-VIO-072 and the thesis; actual = **17 td** — 24 was the *calendar*-day count. Same failure class as the anchor rule: a duration carries its unit (td vs calendar), and any td-count gets recomputed from the trading calendar before transcription, not propagated from prior prose. (Caught by Orch verification pass 6/10 when the figure was about to be re-propagated into this file.)
+
+### A value carries its DATE (added 2026-06-11, KB-VIO-092)
+
+The "+7.98% re-armed" M1:M2 read for 6/10 was the **6/9 settlement** — `vix_futures.py` defaults to `date.today()−1` and thresholds.py stamped it with the row date; every VX_DAILY m1m2 entry was T-1 vs its row label for the series' entire life. Same family as the anchor/unit rules: a fetched value carries its own as-of date through the pipeline (now mechanized: `m1m2_settle_date` column + `basis` TICK/SETTLE label + `--supersede`). Tick before 16:15 ET ≠ the daily record.
 
 ---
 
@@ -182,7 +188,10 @@ R11 PRE_EVENT_FADE window (5/28-6/02) expired with zero of 7 triggers fired — 
 
 **Evening (RED sweep, CHG-033/034):** Falsification architecture registered (KB-VIO-088): credit PRIMARY · time-box carries the grind-failure class · VIX>23 close-and-hold **n=5, TAIL-STOP role** — the derivation itself returned the real finding: *run-length has no discriminating power* (dest-right 2023-09 and dest-wrong 2024-12 both ran exactly 4; the 2024-12 failure lives at the window BOUNDARY). Ladder restated two-anchor (KB-VIO-089): divergence shape = FLATTENING (favorable anchor oversold 24, undersold 26+); (c) → 15-25%; die-or-double magnitude precedent (n=4: clears +109/+225/+248%, the miss never exceeded its early peak). **Takeaways:** (4) a registered trigger carries a stated ROLE, not just a number — deriving n is incomplete until you test what the instrument can and cannot catch; (5) clustering construction is part of a number's identity (DIET-only vs DIET∪STRICT moved an anchor and an episode count) — same family as anchor/unit/threshold.
 
+### 2026-06-11 — Sweep completed; the tree beat the print; the record corrects itself by recomputation again
+**AM session (RED sweep 035/036/037 + Q3-Q6, all closed):** CHG-035: 9.55 provenance dug — it was a bare June-range-break level (episode high 9.52+3bp) mislabeled "LIQUID tripwire" (LIQUID's line is 1000bp); the 2-bin tree (composition-artifact vs credit-confirms, CCC−BB dispersion ≥8.00 / BB ≥1.73 / CCC ≥9.65 escalator) was **registered before the FRED print existed** — the print hadn't even published by session time. CHG-036: 0.85→0.75 (absorbed-streak struck), translation layer registered (HAWK-C ≠ premium deflation; x≈0.45), fade re-marked **~20-26%** with attribution split between RED's structural point (majority) and overnight escalation. CHG-037: conceded and SHIPPED — the owed settle re-pull found "+7.98% re-armed" was the *6/9* settle (T-1 tool default, systematic for the series' life); actual 6/10 settle +3.74%, M1 absorbed the war premium, M2:M3 half-deflated to 1.81%. Q6: VVIX-conditional-NEUTRAL retired from calming work (recent-era releases launch from ≤8th pct conditional). Overnight: US strikes day 2, IRGC Hormuz closure declaration (AJ-verified), OVX/VIX gap re-opened with equity vol easing. **Takeaways:** (6) pre-registering a decision tree *before its trigger data exists* is the cheapest possible insurance against adjudicating under fire — the whole point of CHG-035, executed cleanly because the print happened to lag; (7) a value carries its DATE (the T-1 settle default) — vigilance never caught it, one mechanical re-pull did; (8) when a "calming" discriminator gets used in three places, test its discriminating power on both outcome classes before it does more work (the KB-VIO-088 lesson recurring within one sweep — now twice in two days).
+
 ---
 
 *Created: 2026-04-12*
-*Last Updated: 2026-06-10 ~3:45 PM ET (subtraction pass, SCRATCH item 7a executed early per Will: regime-defs + credit-vol transmission pointer-ized to thesis; analogs compressed to lessons-only + Jun 2026 episode added; term-structure trade advice fixed to peak-marker framing per KB-VIO-034; Principles 9-10 corrected against raw data — interrupted-and-resumed R12, 17-td gap, daily-close break runs 4td & 8td with metric named; VVIX rare-trigger + conditional-percentile notes; Apr 12 Open Questions retired resolved; session notes reordered chronologically + compressed + 6/5-9 arc added; calendar-vs-td rule added to METRIC SEMANTICS.)*
+*Last Updated: 2026-06-11 AM (sweep-completion session: 6/11 trajectory note + takeaways 6-8; "value carries its DATE" added to METRIC SEMANTICS [KB-VIO-092]; VVIX conditional-NEUTRAL asymmetry note added to VVIX PATTERNS [KB-VIO-093]. Prior: 6/10 subtraction pass.)*
