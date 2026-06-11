@@ -1,5 +1,5 @@
 # RED STATUS
-**Last Updated:** 2026-06-10 ~9 PM ET (Wed **Session 17b** — VIOLET red-team sweep filed, CHG-RED-033..037, dialogue via Will pending her responses. Earlier S17: Both RED falsification triggers fired 6/4 in OPPOSITE directions (FT-01 HY<280 bull-counter + FT-07 CCC>930 tail-stress — the bifurcation now prints inside the credit market itself). NFP shock 6/5 → VIX 15.4→21.5: **VIX<16 guard VINDICATED**. CPI 6/10 hot-as-expected; Iran third vol leg live; Fed pricing flipped cut→HIKE. Net bear 55→59.) | **Role:** Adversarial Analysis / Thesis Stress-Tester
+**Last Updated:** 2026-06-11 ~10 AM ET (Thu **Session 18** AM open — **6 challenge classes RESOLVED-CONVERGED overnight, batched**: VIOLET 033/034 + SAM CH-009/010/011/032 (incl. CH-004 + VX-RED-024 concurred). VIOLET 035 IN-FLIGHT with architecture confirmed (tree-then-FRED order on her 6/11 AM queue 🔴 FIRST). 036/037 substantively on her queue. **5th agent-converge cycle** (broadest yet — 2 peers same window, ~24h tempo). RED self-correction: WL-01 n=3→n=5 (matches TAIL-STOP role per VIOLET KB-VIO-088 data). One mechanical RED error logged (CFTC washout direction, ML-RED-082). **No confidence/weight change — process moves not substance.** Earlier S17/17b context retained below.) | **Role:** Adversarial Analysis / Thesis Stress-Tester
 
 > **Session 17 thesis-impacting deltas (vs 6/2):**
 > (1) **RED-FT-01 FIRED 6/4** (HY OAS <280 sustain=3: 272/271/275; first fire ever on RED ledger) AND **RED-FT-07 FIRED 6/4** (CCC OAS 947 >930, actually above since 5/29). **Opposing-direction fires, same session** — index-led tightening NOT breadth-confirmed at tail. As of 6/9: HY **278** (drifting back toward 280), CCC **951** (still widening). Tail-vs-index divergence EXTENDING.
@@ -94,12 +94,17 @@ Strongest "we're wrong," and it survived the week:
 
 | Challenge | Target | Strength | Status |
 |-----------|--------|----------|--------|
-| **CH-009 earned-discount regime-transfer** | SAM (SAM-21 75% vs mkt 98%) | **STRONG** | NEW — filed pre-blackout. RED marks hold ~5-10% vs SAM 25%. Scores Jun 16. |
-| **CH-010 Branch-C threshold-vs-mechanism** | SAM (Takaichi disposition) | MODERATE | NEW — split C1 political / C2 fiscal before 6/16; coordinate vs CH-008 double-count. |
-| **CH-005 carry survives (STRENGTHENED)** | SAM (structural pillars / $60-62 band) | **STRONG** | Fed-flip impairs all 4 pillars; $60-62 has no mapped modal path. SAM concurs directionally (handed RED the target). Scores Jun 16 + 2wk. |
-| **CH-011 SAM-23 cross-pair inversion** | SAM (MOF 72%) | MOD-STRONG | Orderly USD-led move = MOF won't strike; feeds LIQUID/HENRY buckets. Scores by Jun 16. |
-| **CH-004 probabilities** | SAM | — | **Recommend RESOLVED-CONVERGED** (METHOD shipped, −33pp self-correction). |
-| **CHG-RED-033..037 VIOLET sweep (5)** | VIOLET | 2 STRONG / 2 MOD-STRONG / 1 MOD | **NEW 17b** — `challenges/VIOLET_REDTEAM_SWEEP_2026-06-10.md`. 033 invalidation near-unfalsifiable (no sustain-n); 034 anchor-contingent modal-touch-23; 035 CCC 9.55 cross un-pre-registered (fires within days); 036 0.85 conditional on demoted L2 + unowned scenario→premium translation; 037 Orch-dependent first-pass numerics (mechanize pre-FOMC). Responses via Will pending; pre-registrations due before BOJ 6/16. |
+| **CH-009 earned-discount regime-transfer** | SAM (SAM-21 75 → ~90) | **STRONG** | ✅ **RESOLVED-CONVERGED S18** — SAM re-derived w/ pre-registered universe (0/2 defiances; structural read added); 10% hold tail = TOP of RED 5-10 range. "Calibration not disagreement" disclaimer retired. Scores Jun 16. |
+| **CH-010 Branch-C threshold-vs-mechanism** | SAM (Takaichi disposition) | MODERATE | ✅ **RESOLVED-CONVERGED S18** — C1 political / C2 fiscal / C-ambiguous split applied to STRATEGY pre-event. One hold can't pay both frames; CH-008 cross-ref added. |
+| **CH-005 carry survives (STRENGTHENED)** | SAM (pillars / $60-62 band) | **STRONG** | ✅ **RESOLVED-CONVERGED-DIRECTIONALLY S18** — pillar audit; $60-62 RECLASSIFIED conditional-tail ~25-30%; modal $57.5-59.5 under hike-regime. v1.6 post-Jun-16-18 scoring, RED pass before commit. |
+| **CH-011 SAM-23 cross-pair inversion** | SAM (MOF 72 → ~35) | MOD-STRONG | ✅ **RESOLVED-CONVERGED-DEEPER S18** — SAM cut DEEPER than RED implied (35 vs 47-57). Defer to SAM mark; orderly-USD doctrine + sequencing + scoring-window sharpening accepted. |
+| **CH-004 probabilities** | SAM | — | ✅ **RESOLVED-CONVERGED S18** — SAM concurs RED's recommendation (METHOD shipped, −33pp self-correction). |
+| **VX-RED-024 BOJ-priced = no US-paper transmission** | SAM (standing vector) | — | ✅ **CONVERGED S18** — SAM concurs fully. Standing vector retained, no Stale_By update needed. |
+| **CHG-RED-033 vol-side invalidation** | VIOLET | STRONG | ✅ **RESOLVED-CONVERGED S18** — KB-VIO-088 n=5 TAIL-STOP empirically derived; "no discriminating power" finding (run-length doesn't separate dest-right from dest-wrong); falsification architecture written. 5/5 process. |
+| **CHG-RED-034 anchor-contingent modal-touch-23** | VIOLET | MOD-STRONG | ✅ **RESOLVED-CONVERGED-BIDIRECTIONAL S18** — KB-VIO-089 two-anchor ladder. RED 26+ tail right, 24 leg wrong; branch (c) restated 15-25% as CLIFF not slope. |
+| **CHG-RED-035 CCC 9.55 pre-registration** | VIOLET | MOD/urgent | 🟡 **IN-FLIGHT** — architecture confirmed (tree-then-FRED, 🔴 FIRST on her 6/11 AM queue). CCC 951 live, 4bp from gate. Action: watch her actual 6/11 session — if FRED lands BEFORE the tree is written, re-flag. |
+| **CHG-RED-036 0.85 conditional** | VIOLET | MOD-STRONG | ⏳ ON HER QUEUE — recognizes L2 demotion + unowned scenario→premium translation; folds into HAWK re-mark. |
+| **CHG-RED-037 Orch-dependent numerics** | VIOLET | STRONG | ⏳ ON HER QUEUE — mechanization triage scoped (a/b/c); will argue vs Packet #1 ordering. Resolves pre-FOMC 6/17. |
 | **CHG-RED-028 bifurcation mechanism** | Self | ACTIVE | Spring partially released 6/5; full snap still FOMC-gated. 7th observation = first tape-side narrowing. |
 | **HYG closure** | Self → Will | OWED | Jun 18 expiry, T-6. Write-up this week. |
 | **Jun-stack endgame** | Portfolio → Will | LIVE-MARKED | **Broker CSV 6/10 3:52PM received.** WAL $85P = $380 (−36%); TLT $85P x3 = $147 (**ROUND-TRIPPED +92%→−40%**); dust ≈ $207. Decision menu pre-registered in `research/POSITION_RECONCILE_2026-06-10.md` (A1/A2 WAL, B TLT-hold-thru-FOMC, C sweep, D HYG closure). Backstop 6/11. |
@@ -108,13 +113,14 @@ Strongest "we're wrong," and it survived the week:
 
 ## TOP ADVERSARIAL PRIORITIES (Jun 10)
 
-1. **VIOLET sweep follow-through** — grade her responses (converged / contested / escalate) when they arrive via Will; 035's CCC pre-registration is time-critical (cross possible on tomorrow's FRED print). Self-exposure owed: FT-07 CCC−BB composition decomposition (RED's own trigger inherits the 035 critique); WL-01 sustain now defined s=3 (done 17b).
-2. **Route SAM challenges pre-blackout (~6/13)** — OUTBOX → PROME/Will; SAM active today. CH-010's Branch-C split must land before Jun 16 scoring.
-3. **Jun-stack decisions with Will** — tomorrow's backstop; surface marks first, menu second. WAL $85P and TLT $85P x3 are the only money decisions; rest is cleanup. SOFI/OWL Jun5 expiry outcomes unresolved in records.
-4. **FOMC 6/17 pre-write** — the DIET gate + dots (hike-lean?) + VIX>23 invalidation line all converge there. Write the decision tree BEFORE the print.
-5. **HY OAS 280 re-cross watch** — daily; un-fire vs sustain decides whether the bifurcation re-widens.
-6. **REGINALD/LIQUID re-pair STILL OWED** (stale 5/21 / 5/20) — LIQUID owes post-GEX-invalidation read; now also owes duration view at 30Y ~5.0%.
-7. **HYG closure write-up + thesis/TIMELINE.md refresh** (charter item 3) — pair with position reconcile when marks arrive.
+1. **Watch CHG-RED-035 resolution** — VIOLET 6/11 AM session: confirm tree-then-FRED order survives in practice (not just in queue). CCC 951 (FRED 6/9, T+1) live, 4bp from 9.55 gate. ⚠️ time-critical: if the 6/10 FRED print lands BEFORE her tree is written, the entire pre-registration discipline collapses; re-flag immediately.
+2. **Jun-stack live (T-7 today)** — Will-aware decisions: WAL Jun $85P + TLT $85P x3 are the only money legs. Boot.py 9:38 AM marks: KRE 72.07 / WAL 81.93 / IWM 284.93 / SPY 727.64 (+0.30%) / TLT 85.18 — names rallying, vol leg fading (VIX 21.34, -3.96%). Window-trigger marks still degraded. **Surface marks first, menu second.** Backstop date = today.
+3. **FOMC 6/17 pre-write** (T-6) — DIET gate + dots + VIX>23 invalidation line all converge there. Per `feedback_pre-catalyst frameworks`: write the decision tree BEFORE the print. Build this week (target 6/15 PM).
+4. **HY OAS 280 re-cross watch (daily)** — 278 (FRED 6/9). +3 from 6/4 sustain. Un-fire on sustained re-cross >280 would re-widen bifurcation.
+5. **FT-07 CCC−BB decomposition** — register the 3-bin spec (Bin A: CCC>930 + dispersion confirms / Bin B: CCC>930 + dispersion flat → log only / Bin C: CCC>930 + dispersion + HY<280 = cleanest bifurcation case). Pre-FOMC priority is mechanizing not breaking; queued for S18b/S19.
+6. **REGINALD/LIQUID re-pair STILL OWED** (stale 5/21 / 5/20) — LIQUID owes post-GEX-invalidation read + duration view at 30Y ~5.0%. REGINALD owes WAL @ $81.93 vs V2.2 EV $67.98 mark.
+7. **HYG closure write-up** (Jun 18 expiry, T-7) + thesis/TIMELINE.md refresh.
+8. **Watch CHG-RED-036/037 delivery** — 036 with HAWK re-mark; 037 mechanization pre-FOMC.
 
 ---
 
