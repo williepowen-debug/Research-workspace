@@ -47,8 +47,8 @@
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
 
 **Next-session queue (Orch-sequenced, Will-accepted 6/10 PM-2):**
-1. **🔴 #4 cluster-YAML backfill** — 98 April files; derive from INDEX section placement WITH placement-vs-YAML cross-check (placement verified clean 6/10); mechanical, scriptable, one commit.
-2. **🔴 #3 INDEX slim-down** — 375KB→~30KB; ToC "Latest signal" cells to one-liners; **column schema (ID | Date | Domain | Precedence | Action→Info | Summary | File) must survive unchanged — echo back schema to Orch BEFORE shipping**; CHECKLIST dedupe-extends-to-signal-bodies note lands in the same commit (boot headline-dedupe weakens once cells slim).
+1. ~~#4 cluster-YAML backfill~~ — **DONE 6/10 PM-2 same session (commit `6c25a35d`):** 98 April files backfilled from INDEX placement; cross-check on all 187 pre-tagged files ran first, 0 mismatches; **285/285 now cluster-tagged, YAML distribution reconciles exactly against all 11 section headers**; FORMAT_SPEC cluster-row description updated (small-change rule, no bump).
+2. **🔴 #3 INDEX slim-down — now the single queued item** — 375KB→~30KB; ToC "Latest signal" cells to one-liners; **column schema (ID | Date | Domain | Precedence | Action→Info | Summary | File) must survive unchanged — echo back schema to Orch BEFORE shipping**; CHECKLIST dedupe-extends-to-signal-bodies note lands in the same commit (boot headline-dedupe weakens once cells slim); INDEX status-column question (#40) decided in the same pass. Prerequisite (file-level cluster grep complete) now satisfied.
 
 **Time-sensitive forward:**
 3. **🔴 6/10 EIA WPSR print check** (BRENT primary; SPR floor-touch; De Haan distillate watch; API -9.1M printed) — not verified this session
