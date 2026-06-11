@@ -182,3 +182,79 @@ My phrasing "the next CFTC washout is yen-NEGATIVE" was mechanically wrong (cove
 ---
 
 *RED Session 18 open: four challenge classes closed by 9:55 AM; one in-flight (035) with architecture confirmed; two queued (036/037) with substantive engagement signaled. Self-exposure WL-01 corrected, FT-07 decomposition queued. No confidence/weight change — these are process moves not substance. Substance moves happen at BOJ 6/16, FOMC 6/17, expiry 6/18.*
+
+---
+
+## ADDENDUM — VIOLET appended 035/036 + 037-strengthening between 9:51-9:55 AM (during this session, Will-flagged)
+
+### CHG-RED-035 → **RESOLVED-CONVERGED 5/5** (KB-VIO-090)
+
+**Tree registered BEFORE FRED 6/10 pull** — she explicitly held the pull (cache file written 6/10 16:05 ends 2026-06-09; verified). The tree-then-FRED discipline I asked for in S17b actually survived in her actual session, not just in her queue.
+
+**Provenance dig — confirmed RED's suspicion:** 9.55 was NOT breadth-derived. Reconstructed: at write time the latest CCC print was 9.49 (6/8) and the episode high was 9.52 (6/5) — 9.55 = **June-creep high + ~3bp buffer, a range-break level**. The "LIQUID tripwire" label was a **mis-attribution** — LIQUID's actual registered CCC threshold is 1000bp (KB-LIQ-043); nothing in `AGENTS/LIQUID/` carries 9.55/955. She struck the LIQUID label from TRADE.md.
+
+**Pre-registered 2-bin tree (now in TRADE.md, T+1 FRED-official prints only):**
+- **Bin A — CREDIT CONFIRMS → fade FALSIFIED full-stop** (no entry any window, post-6/17 incl.; broadcast to HENRY/RED/LIQUID). Cross + ANY: A1 HY≥2.85 same/within 5td · A2 BB≥1.73 within 5td (breaks BB's May-Jun range 1.60-1.68) · A3 CCC−BB dispersion ≥8.00 within 5td (vs current 7.84; clears 60td max 7.98; +2.2σ above 8wk mean 7.59±0.184) · **A-escalator CCC≥9.65 within 5td unconditionally** (a 10bp run beats breadth confirmation).
+- **Bin B — composition / idiosyncratic creep → log, MARGINAL-FAIL gate hold, re-check +5td.** Fires on cross + ALL clean (HY<2.85, IG≤0.80, BB<1.73, dispersion<8.00). **Not a waiver:** STATUS carries the dated re-mark obligation; +5td breadth-still-clean AND CCC<9.65 → line **re-marked upward with a written derivation** (goalpost move happens pre-committed, documented, not under fire).
+
+**Closes both failure modes I named:** Bin-A kills the framework even on a quiet-vol day (no goalpost softening); Bin-B doesn't kill on noise (no false stop) but converts to dated written re-mark obligation (no silent waiver). The goalpost-pattern critique from CHG-RED-033 is now applied to the credit side too.
+
+**Grade: 5/5.** Provenance dig is the kind of self-audit most agents would skip; the LIQUID-label correction is the kind of error that propagates silently for months otherwise. The escalator clause (CCC≥9.65 → Bin A regardless of breadth) is a sharpening I didn't ask for — a running tail doesn't wait for breadth confirmation to be dangerous.
+
+---
+
+### CHG-RED-036 → **RESOLVED-CONVERGED-DEEPER** (KB-VIO-091, supersedes 087 numbers)
+
+**Conceded both halves of the challenge.** Absorbed-streak citation **struck** (L2 demotion + 6/5 ended an identical streak with +40% = survivorship loading). Translation layer **written and registered**:
+
+| Conditional | Value |
+|---|---|
+| P(premium deflates \| HAWK-B deal) = y | ≈ 0.85-0.90 (near-mechanical, residual for non-credible deals — Trump-rhetoric discipline applied) |
+| P(premium deflates \| HAWK-C **hot**, active sub-threshold + chokehold) | ~0.2-0.3 |
+| P(premium deflates \| HAWK-C **frozen**, exchanges stop ≥1-2wk + chokehold relaxes) | ~0.6-0.7 |
+| Aggregate **x ≈ 0.45 ± 0.10** | **INSIDE RED's 0.4-0.6 prior — RED's prior accepted** |
+
+**P(fade pays | Iran stabilizes) re-stated 0.85 → 0.75 ± 0.05.** Decomposed: ~10-15% BOJ hawkish-of-pricing, ~5-10% FOMC surprise, ~5% path/structure kill. **The 0.10 drop is exactly the work the absorbed-streak was silently doing.**
+
+**Re-marked distribution KB-VIO-091:**
+- (a) fade path realized: 40-45% → **20-26%**
+- (b) stand-aside persists: 35-40% → **50-60%**
+- (c) VIX-30-class tail: 15-25% (form held), **weight toward upper half** (overnight escalation)
+
+**VIOLET's honest attribution decomposition** (this is the kind of self-disclosure that earns trust):
+- Original 0.85 × 0.50 ≈ 42.5%
+- Translation-layer fix alone (RED's structural point on HAWK 6/8 marks) → ~29%
+- Conditional re-state alone → ~37.5%
+- Both structural fixes pre-overnight → ~25.5%
+- + overnight escalation (NEW info, not RED's point) → ~20%
+- **Her own verdict: "RED's structural critique accounts for the majority of the move."**
+
+**Cross-agent ask filed (her NEXUS_BRIEF queue):** HAWK split C into hot/frozen sub-states so VIOLET can consume P(C-hot) and P(C-frozen) separately through the layer. On HAWK's stale 6/8 marks (C 53 / B 12), Iran term = 0.34 (vs 0.50 in 087). On post-overnight working weights (C~45 / B~8, pending HAWK), term = 0.27.
+
+**Auto-memory `finding_level_conditional_probability_remarking` cited explicitly:** computing-spot recorded (VIX 22.22 settle / 21.48 intraday 6/11 ~10:00 ET), Stale_By 6/18 post-FOMC.
+
+**RED thesis impact:** marginal — VIOLET's fade-pay distribution is internal to her book; not a Counter-Signal I weight directly. Directionally consistent with my Acute hypothesis (VIOLET more bearish on near-term mean-reversion) but no number moves. **No confidence/weight change.**
+
+**Grade: 5/5 with the attribution decomposition as a network-grade epistemic gesture.** Most agents would have either (a) refused to decompose and shown a smaller move, or (b) credited RED for the whole move. She did neither — the structural fix gets credited, the overnight news gets quarantined as not-RED's-point.
+
+---
+
+### CHG-RED-037 → **STRENGTHENED-IN-FLIGHT**
+
+Section "to follow this session" — but she added a **4th error instance** to RED's enumerated table BEFORE writing the response: the **M1:M2 "+7.98% re-armed" read** was the 6/9 settle served by a stale CBOE endpoint + T-1 default in `vix_futures.py`, stamped as 6/10. Found only because the Orch-flagged settle re-pull was owed.
+
+**This is the case that becomes the strongest one in the challenge:** the 4th instance is a load-bearing thesis number (M1:M2 carry was driving the "re-armed" status in STATUS Live+row + cross-agent NEXUS_BRIEF). Caught by Orch + cadence-mandated re-pull discipline, not by first-pass vigilance — which is exactly the challenge's premise.
+
+**Updated count: 10 errors in 48h+** (was 9 at S17b). Q5-Q6 dialogue pending. Resolution gates on tooling pass (script-computed convergence; settle-timestamp gate; units/anchors inline) + Packet #1 ordering argument before FOMC 6/17.
+
+**No grade yet — section unfinished.** But the additive evidence is fully consistent with the original STRONG rating and arguably moves it toward COMPELLING.
+
+---
+
+## CONVERGENCE TALLY UPDATE
+
+**Now 8 challenges CONVERGED inside ~14 hours** (VIOLET 033/034/035/036 + SAM CH-009/010/011/032/004 + VX-RED-024 concurred — 9 closes counting VX-RED). **5th agent-converge cycle is now both BROADEST (2 peers same window) and FASTEST (~14h)** — prior 4 cycles ran 8d→13d→10d→~24h.
+
+**Risk reminder (held from initial grade):** rapid process-convergence ≠ direction-correctness. Both peers' updates score against substance at Jun 16-18. Watch for over-anchoring on convergence-cycle cadence as evidence-of-correctness.
+
+*RED Session 18 update at 10:15 AM: priority 1 fully discharged; 7 of 7 VIOLET+SAM challenges materially resolved (8 of 8 if you count CH-004 standing close + VX-RED-024 concurrence). 037 still in motion. The W2 lesson from S17 (loop-closure discipline) applied to this session caught the 035/036 appends that the boot-time read missed — Will's check forced a re-pull rather than a silent stale grade.*
