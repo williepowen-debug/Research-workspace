@@ -268,7 +268,7 @@ Private credit cascade: $10.1B redemption requests Q1 2026 (BlackRock, Blackston
 
 ## POSITION VIEW
 
-**Vehicle:** FXY (CurrencyShares Japanese Yen Trust) — long, sized to capture carry unwind. Target $60-62 / USD/JPY 148-152 (6-month). **Stop spec (Will-decided 2026-06-03, event-cap mode):** pre-Jun-16 = no mechanical price stop (position event-capped by sizing); post-Jun-16 = exit if BOTH (BOJ dovish) AND (USDJPY 167+/no MOF). $55.05 is the FXY level correlating with USDJPY ~167, meaningful only post-event. Full spec in `STRATEGY.md`.
+**Vehicle:** FXY (CurrencyShares Japanese Yen Trust) — long, sized to capture carry unwind. Target $60-62 / USD/JPY 148-152 (6-month). **⚠️ Band under interim re-derivation (RED CH-032, accepted directionally Jun 10): under the Fed-hike-2026 regime flip the modal 3-6mo band is ~FXY $57.5-59.5 / USDJPY 154-160; $60-62 reclassified as conditional-tail (~25-30%, four routes). Conditional on Sat Jun 13 Fed-pricing re-verify; full pillar re-derivation in v1.6 (post Jun 16-18 scoring). See `research/2026-06-10_ch010_011_032_responses.md`.** **Stop spec (Will-decided 2026-06-03, event-cap mode):** pre-Jun-16 = no mechanical price stop (position event-capped by sizing); post-Jun-16 = exit if BOTH (BOJ dovish) AND (USDJPY 167+/no MOF). $55.05 is the FXY level correlating with USDJPY ~167, meaningful only post-event. Full spec in `STRATEGY.md`.
 
 *Current size, blended entry, and tranche state live in `STATUS.md` and `TRADE.md`. Decision playbook (when to add/hold/exit, vol-signal interpretation) lives in `STRATEGY.md`.*
 
