@@ -18,6 +18,9 @@ resources: 1
 safety_net: —
 
 word_count: 290
+
+# cluster backfilled 2026-06-10 from INDEX section placement (pre-v0.7 signal; cluster field added to FORMAT_SPEC 2026-05-05)
+cluster: HYDROCARBON_INFRA
 ---
 
 ## Signal

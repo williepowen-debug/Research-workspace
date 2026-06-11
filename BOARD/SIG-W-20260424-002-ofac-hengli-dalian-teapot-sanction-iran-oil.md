@@ -22,6 +22,9 @@ word_count: 780
 # v0.10 lifecycle tag (retro-applied 2026-06-10, BOARD staleness sweep + WALTER adjudication)
 status: SUPERSEDED
 status_ref: "anchors/IRAN_WAR.md verified-as-of 2026-06-10 (sanctions-vector supply frame absorbed by effectively-total blockade, UKMTO 1.1/day)"
+
+# cluster backfilled 2026-06-10 from INDEX section placement (pre-v0.7 signal; cluster field added to FORMAT_SPEC 2026-05-05)
+cluster: IRAN_HORMUZ
 ---
 
 ## Signal

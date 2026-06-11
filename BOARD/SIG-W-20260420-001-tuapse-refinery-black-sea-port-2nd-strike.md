@@ -18,6 +18,9 @@ resources: 0.05
 safety_net: monitoring (global hydrocarbon infrastructure cluster now 3-theater)
 
 word_count: 180
+
+# cluster backfilled 2026-06-10 from INDEX section placement (pre-v0.7 signal; cluster field added to FORMAT_SPEC 2026-05-05)
+cluster: HYDROCARBON_INFRA
 ---
 
 ## Signal

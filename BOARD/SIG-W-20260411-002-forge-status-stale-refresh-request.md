@@ -22,6 +22,9 @@ word_count: 190
 # v0.10 lifecycle tag (retro-applied 2026-06-10, BOARD staleness sweep + WALTER adjudication)
 status: EVENT-PASSED
 status_ref: "FORGE STATUS refresh request 2026-04-11; ops-request window long since actioned/moot"
+
+# cluster backfilled 2026-06-10 from INDEX section placement (pre-v0.7 signal; cluster field added to FORMAT_SPEC 2026-05-05)
+cluster: MISC
 ---
 
 ## Signal

@@ -18,6 +18,9 @@ resources: 1
 safety_net: 2-agent-flag (already in PC-stress cluster, multi-domain triggers)
 
 word_count: 720
+
+# cluster backfilled 2026-06-10 from INDEX section placement (pre-v0.7 signal; cluster field added to FORMAT_SPEC 2026-05-05)
+cluster: PC_STRESS
 ---
 
 ## Signal

@@ -22,6 +22,9 @@ word_count: 280
 # v0.10 lifecycle tag (retro-applied 2026-06-10, BOARD staleness sweep + WALTER adjudication)
 status: SUPERSEDED
 status_ref: "SIG-W-20260419-014 (Apr 18 Hormuz re-closure reversed the Apr 17 normalization read within 24h)"
+
+# cluster backfilled 2026-06-10 from INDEX section placement (pre-v0.7 signal; cluster field added to FORMAT_SPEC 2026-05-05)
+cluster: IRAN_HORMUZ
 ---
 
 ## Signal
