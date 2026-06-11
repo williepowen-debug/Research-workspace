@@ -42,4 +42,4 @@
 - SOFI/OWL Jun5 final outcomes (records only).
 
 ## GIT STATE
-Local-ahead at 17b close: S17 protocol/close commits (849f51f1, 69c44964, +2) + this session's 17b commit. Push HELD per Will; next coordinated window sweeps.
+All S17 commits SWEPT TO ORIGIN by Will's ~9:30 PM push window (per VIOLET's push-state note). Local-ahead at 17b close: exactly ONE commit — the S17b sweep/close commit. Push HELD per Will; next coordinated window sweeps it.
