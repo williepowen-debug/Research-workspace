@@ -9,11 +9,12 @@
 ## GIT STATE (one line)
 -->
 
-**Session 18 — Thu 2026-06-11 ~9:38–10:15 AM ET.** Pre-market boot per Will ("pick up where we left off yesterday"). S17b close priority 1 (grade VIOLET responses) loaded onto plate immediately — peers had filed overnight (~9:30 PM ET 6/10 push window).
+**Session 18 — Thu 2026-06-11 ~9:38–10:25 AM ET.** Pre-market boot per Will ("pick up where we left off yesterday"). S17b close priority 1 (grade VIOLET responses) loaded onto plate immediately — peers had filed overnight (~9:30 PM ET 6/10 push window). **Round 2: Will-prompted re-check at ~10:15 AM caught VIOLET appending 035+036 sections 9:51-9:55 AM during this session** — both closed CONVERGED 5/5, total now 8 closes in ~14 hours.
 
 ## CHANGES SINCE (S17b close ~9 PM → S18 boot 9:38 AM)
 
 - **VIOLET delivered CHG-RED-033 and CHG-RED-034 responses overnight** (commits f9552e2c, c877b84b). Both CONVERGED with structure-strengthening detail. KB-VIO-088 (n=5 TAIL-STOP) + KB-VIO-089 (two-anchor ladder) registered.
+- **VIOLET appended CHG-RED-035 and CHG-RED-036 sections 9:51-9:55 AM during this session** (still uncommitted in working tree — KB.tsv + TRADE.md + response file modified). KB-VIO-090 (CCC 2-bin tree, registered BEFORE FRED 6/10 pull — discipline held) + KB-VIO-091 (translation layer + re-marked distribution, supersedes 087 numbers). 037 strengthened with 4th error instance added before writing.
 - **SAM closed CH-009/010/011/032 + CH-004 + VX-RED-024** pre-blackout (commit 79ea030b, response files in `AGENTS/SAM/research/`). SAM-21 75 → ~90 (top of RED range); SAM-23 72 → ~35 (DEEPER than RED implied 47-57); $60-62 reclassified conditional-tail.
 - **VIOLET 6/11 AM queue confirmed (her SCRATCH 9:15 PM 6/10):** CHG-RED-035 🔴 FIRST, BEFORE pulling FRED. 036/037 + dialogue Q3-Q6 substantively scoped on items 3-5.
 - **Auto-memory `finding_sustain_count_role_discriminating_power`** committed and pushed pre-laptop-switch (1f500717) — VIOLET-promoted lesson from CHG-RED-033 derivation, now loads at every boot.
@@ -23,14 +24,15 @@
 ## WHAT I DID
 
 1. **Boot.py + read pass:** MEMORY/STATUS/SCRATCH/CALENDAR/CHANGELOG full; VIOLET STATUS+SCRATCH+response file; SAM CH-009 + CH-010/011/032 response files + outbox notes; git log since S17b.
-2. **Wrote grading file `challenges/VIOLET_SAM_RESPONSE_GRADING_2026-06-11.md`** — full grade of 4 VIOLET challenges (2 CONVERGED, 1 IN-FLIGHT confirmed, 2 ON QUEUE) + SAM packet (CH-009/010/011/032/004 + VX-RED-024 all CONVERGED). Convergence cycle #5 logged (broadest yet — 2 peers, ~24h tempo). Self-exposure debt acted on: WL-01 moved n=3 → n=5; FT-07 decomposition spec drafted (3-bin), registration queued S18b/S19. CFTC washout mechanical error logged.
-3. **Workbook updates:** CHALLENGES.tsv 029/030/031/032/033/034 all moved to RESOLVED-CONVERGED (or DEEPER/DIRECTIONALLY/BIDIRECTIONAL variants); 035 → IN-FLIGHT. WATCHLINES.tsv WL-01 n=3 → n=5 with TAIL-STOP role label. ML.tsv ML-RED-082 appended (convergence batch synthesis).
-4. **STATUS.md updated:** header (S18 open, 6 closes batched, 5th converge cycle); Open Challenges table fully refreshed; Top Adversarial Priorities re-ordered (035 watch + Jun-stack live + FOMC pre-write + FT-07 decomposition).
+2. **Wrote grading file `challenges/VIOLET_SAM_RESPONSE_GRADING_2026-06-11.md`** — full grade of 4 VIOLET challenges + SAM packet. Round 2 ADDENDUM appended for 035/036/037-strengthened. Convergence cycle #5 logged (broadest + fastest yet — 2 peers, ~14h tempo). Self-exposure debt acted on: WL-01 moved n=3 → n=5; FT-07 decomposition spec drafted (3-bin), registration queued. CFTC washout mechanical error logged.
+3. **Workbook updates:** CHALLENGES.tsv 029-034 → RESOLVED-CONVERGED variants; 035 → RESOLVED-CONVERGED (round 2); 036 → RESOLVED-CONVERGED-DEEPER (round 2); 037 → STRENGTHENED-IN-FLIGHT (round 2). WATCHLINES.tsv WL-01 n=3 → n=5 TAIL-STOP. ML.tsv ML-RED-082 appended.
+4. **STATUS.md updated (round 1 + round 2):** header now says 8 closes in <14h; Open Challenges table 035/036 → RESOLVED, 037 → STRENGTHENED-IN-FLIGHT; Top Adversarial Priorities re-ordered for non-035 work.
 5. **No CHANGELOG entry** — no confidence/weight change (process moves only, substance gates on 6/16-18). No MAINTENANCE entry — no file/schema/protocol change.
+6. **Will-prompted re-check pattern logged** — boot-time read missed peer file modified mid-session; Will-flagged check caught it. Mechanical lesson: when grading an actively-writing peer, mtime-check before declaring final.
 
 ## NEXT SESSION (priority-ordered)
 
-1. **🔴 Watch CHG-RED-035 resolution (highest priority).** VIOLET 6/11 AM session — confirm she pre-registered the 2-bin tree BEFORE pulling FRED. If FRED lands first, re-flag immediately. CCC 951 = 4bp from 9.55. Today's FRED 6/10 print is the relevant test.
+1. **CHG-RED-035 RESOLVED 6/11 AM** ✅ — tree registered BEFORE FRED pull (cache file ends 6/9 confirmed); LIQUID mis-attribution corrected. **No action needed; carry forward as standing tree** until FOMC.
 2. **🟠 Jun-stack live (T-7 today)** — WAL Jun $85P + TLT $85P x3 the only money legs. Boot.py shows names rallying (KRE +0.61%, WAL +0.45%) + vol fading (VIX -3.96%) — window-trigger marks degrading. Surface live broker marks first if Will engages; menu A1/A2/B/C/D in `research/POSITION_RECONCILE_2026-06-10.md`.
 3. **🔴 FOMC 6/17 pre-write (T-6 = 6 trading days)** — start this session if time, finish by Mon 6/15 PM. DIET gate + dots + VIX>23 invalidation line converge. Pre-catalyst framework discipline.
 4. **🟠 HY OAS 280 re-cross watch (daily mech)** — 278 = +3 from 6/4 sustain. Sustained re-cross >280 = FT-01 un-fire on sustain-window-respect; bifurcation re-widens.
