@@ -15,8 +15,6 @@ Human-readable twin of `docket/CATALYSTS.tsv`. **The two must not diverge** — 
 ## Jun 6–17
 | Date | Event | Test | Pri |
 |------|-------|------|-----|
-| Jun 10 | **BLS May CPI** *(verified)* | Iran+tariff 2nd month; CRL-10 food | 🔴 |
-| Jun 11 | BLS May PPI | Stagflation goods vs services | 🟠 |
 | **Jun 11** | **Lennar (LEN) FQ2 earnings** (4:00 PM ET, verified) | CRL-23 builder GM baseline; FY27 tariff guidance | 🟠 |
 | Jun 12 | UMich sentiment prelim (June) | V12 5-10Y >3.5% red line; sentiment | 🔴 |
 | **Jun 15** | **Sweet v. McMahon notice deadline** | ~170-271K cohort tradeline-deletion; PPSL court-compelled | 🟠 |
@@ -56,4 +54,4 @@ Human-readable twin of `docket/CATALYSTS.tsv`. **The two must not diverge** — 
 | ~Aug 13 | Affirm FQ4 + Klarna Q2 (BNPL) | Survivor-bias vs cohort 41% late | 🟡 |
 | ~Aug 15 | **NY Fed Q2 2026 HHDC** | **CRL-05 next breach window** (Q1 13.1% vs GFC 13.74%) | 🔴 |
 | ~Aug 31 | FL + national UI exhaustion peak | CRL-07 peak; Q3 consumption-stress quarter | 🔴 |
-| ~Sep 15 | Food CPI YoY approaching/breaching 4% | CRL-10 (possibly pulling Q4→Q3) | 🟠 |
+| ~Sep 15 | Food CPI YoY approaching/breaching 4% | CRL-10 (Q4 baseline; pull-forward withdrawn Jun 11) | 🟠 |

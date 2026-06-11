@@ -1,61 +1,62 @@
 # CARL SCRATCH
-**Last session:** 2026-06-09 PM (Tue, ~17:00 UTC)
-**Type:** STUE 53-day-gap refresh (Opus single-shot) + PM SendMessage follow-up (mailbox-mode). CRL-04 CONFIRMED clean breach via NY Fed Q1 2026 90+ DQ 10.3%. Methodology asterisk dropped on PM follow-up. Treasury Phase 1 cadence resolved directionally. SAVE→RAP Jul 1 operationally GO. Full Chunks A + B integration: 10 files updated. **CPI pre-grade sheet deferred (carried forward to tomorrow morning).**
+**Last session:** 2026-06-11 AM (Wed, ~14:30 UTC)
+**Type:** Boot + past-due May CPI grade (vs Jun-9 pre-registered sheet, 2/5 hits) + same-morning May PPI integration (6.5% YoY record-goods) + Iran re-ignition processing (CRL-08 re-test condition MET) + 2 BOARD SIGs REFERRED + year-verification finding promoted to global auto-memory. No score move; v2.5.2 holds. **NOTE: no Jun 10 session ran — CPI was integrated 1 day late; pre-grade sheet was never built as a standalone (the Jun-9 SCRATCH 5-row spec served as the pre-registration and was graded against).**
 
-**PRIORITY-1:** **Wed Jun 10 CPI (May) 8:30 ET — build pre-grade sheet FIRST at boot** (~10 min), then grade against print. 5-row "if X prints → Y": headline +0.5% MoM (V12 hardens), Core +0.4% (Fed-no-cut locks), Food at Home +0.5% 2nd consec (CRL-10 75→85%), **Medical Care hospital MoM ≤0 (DOC care-avoidance 2nd-print confirm)**, Energy MoM small-pos (CRL-08 intact). Load failure-pattern preamble (CRL-19 magnitude-light) before grading.
+**PRIORITY-1:** **Fri Jun 12 UMich prelim (June)** — V12 expectations test: does headline CPI 4.2% YoY (rel 6/10) push 5-10Y above the 3.5% red line / 1Y above 4.7%? Sentiment vs May ~44 record-low. AND **check AAA gas daily** (CRL-08 re-test live — acute-cluster lag 3-4d from Jun 7-10 kinetic = pump turn would show Jun 12-16 if Brent transmission fires).
 
 ---
 
 ## CHANGES SINCE LAST SESSION
-*(Back-to-back same-day session — markets unchanged. The delta this session was internal: STUE went from 53d-stale to fresh-with-confirmed-breach.)*
+1. **May CPI fired Jun 10 (missed same-day — no session ran):** headline +0.5% MoM / 4.2% YoY energy-led; Core +0.2% halved; FaH +0.1% decel; hospital +0.7% sign-flip.
+2. **May PPI fired this morning:** +1.1% MoM / 6.5% YoY highest since Nov 2022; goods +2.8% largest-ever (gasoline +23.4% wholesale) = Hormuz pipeline into Jun-Jul CPI.
+3. **Iran kinetic re-ignition Jun 7-10:** first direct Iran-Israel exchange since April → US strikes on Iran day 2 → IRGC 3-country wave incl. Jordan; near-total Hormuz closure; Bab al-Mandab Houthi activation. Brent ~$94-95 climbing; pump $4.129 still falling. BOARD SIG-W-20260610-001/-002 landed (now REFERRED).
+4. **LEN FQ2 reports TONIGHT Jun 11 4:00 PM ET** — not yet integrated (after this session).
 
 ## WHAT HAPPENED
-1. **Boot scans clean.** Docket countdown showed CPI [in 1d]. PREDICTIONS due/stale all forward. BOARD INDEX/LOG aligned (no new SIGs since Jun 8). Failure-pattern preamble loaded.
-2. **STUE situation report** (per Will request) revealed STUE/GIG as priority-stale, others lower-urgency. **STUE spawned (Opus single-shot)** with discipline-rule-embedded prompt.
-3. **STUE morning returned:** CRL-04 BREACHED (NY Fed Q1 2026 90+ DQ 10.3% primary, +2.6M Q1 default flow, older-defaulter age shift 36.4→38.9); Treasury Phase 1 scope corrected (~500K Jul launch, not 9.2M); SAVE→RAP operationally GO (ED Round-2 courtesy emails sent); AFT/MOHELA May 28 conf held no public ruling; 5 OPEN QUESTIONS filed.
-4. **Chunk A canonical integration:** PREDICTIONS.tsv CRL-04 OPEN→CONFIRMED*; STATUS.md 5 rows refreshed; CHANGELOG entry; 250-line cap held.
-5. **Will-directed plan triage** on the 6 surfaced gaps. Decision: Tier 1 (NY Fed methodology + Treasury cadence) bundle to STUE via mailbox; Tier 2 (score-cascade quant) for dedicated session; Tier 3 (FHA-cascade, OBBBA×SAVE, AFT docket) backlog with triggers.
-6. **STUE PM SendMessage follow-up (~20-min round-trip).** Verdict: (Q1) Answer (C) — 90+ DQ is balance-based, VantageScore 4.0 transition affects credit-score-band charts only (Liberty St May 12 + Wolf St cross-confirm) → **methodology asterisk DROPPED, breach CONFIRMED clean apples-to-apples**. (Q2) Treasury cadence — CRS R48962 + ED Mar internal = 500K Jul + 12-24mo gradual ramp through 2027 → **multi-quarter rolling load Q3 2026 → Q1 2027, NOT Jul-1 cliff.**
-7. **Chunk A-PM integration:** PREDICTIONS.tsv CRL-04 CONFIRMED* → CONFIRMED; STATUS.md 4 row updates (asterisk drop + Treasury cadence expansion); CHANGELOG follow-up entry.
-8. **Chunk B forward-state maintenance:** ROADMAP RECENTLY RESOLVED + INVESTIGATIONS BACKLOG +4 rows (score-cascade, FHA-cascade, OBBBA×SAVE, AFT docket); TEAM.md STUE Apr 17 → Jun 9 + DOC/HOMER Jun 8 retroactive sync; CATALYSTS.tsv + CALENDAR.md add Sweet Jun 15 + Treasury Phase 1 ~Jul 15; docket countdown re-verified clean.
-9. **MEMORY.md update:** 3 Jun-9 Findings added (mailbox-mode 3rd datapoint, sub-agent fresh-eyes catches accreted drift, conservative-then-tightened pattern); Jun-8 year-verification finding VALIDATED note appended. 41 → 44 lines, well under cap.
+1. **Boot scans:** docket flagged CPI past-due; predictions all forward-windowed; BOARD diff found 2 new IRAN_HORMUZ SIGs → dispositioned REFERRED (BRENT/HAWK lead; CARL = pump-downstream only).
+2. **CPI graded vs pre-registered sheet — 2/5 hits:** headline HIT (V12 headline channel hardens); core MISS (+0.2% halved — breadth-widening NOT confirmed, symmetric single-month caveat before banking "core contained"); FaH MISS (CRL-10 Q4 baseline reinstated, pull-forward withdrawn); hospital MISS (+0.7% sign-flip = DOC care-avoidance CPI-channel watch CLOSED NEGATIVE — 3rd single-month-skepticism validation); energy direction-HIT magnitude-exceeded.
+3. **PPI integrated:** record-goods print = wholesale energy transmission; core +0.4% below cons; services +0.3%. VX-MACRO-05 4.0→6.5 RED.
+4. **CRL-08 re-test declared LIVE:** pre-registered fresh-kinetic condition met Jun 7-10. Pump $4.129 (-43.5¢ from 5/21 peak); Brent ~$94-95 vs ~$105-110 zone needed for $4.50 re-breach per prior transmission ratios. Conf 70% holds; fire only on registered condition ($4.50+ sustained 2wk).
+5. **FOMC packet gains 5th line item:** headline/core divergence (4.2% headline feeding expectations vs core +0.2% softening) = the SEP tension.
+6. **Memory maintenance:** year-verification finding PROMOTED to global auto-memory (`finding_subagent_year_verification.md` + index line); single-month-skepticism global memory updated with 3rd validation + write-time corollary (pre-grade over-extrapolated Apr's hot FaH/core months — inverse of CRL-01/CRL-19 magnitude-light family).
 
 ## STATUS CHANGES
 | Item | Change |
 |------|--------|
-| CRL-04 (PREDICTIONS) | OPEN-NEAR CONFIRMED → CONFIRMED* → **CONFIRMED clean** |
-| Student Loan 90+ DQ row | 9.8% FICO derivative → 10.3% NY Fed primary (+70bps Q4→Q1, apples-to-apples) |
-| Student Loan Defaults row | Treasury Phase 1 = 500K Jul launch + 12-24mo gradual ramp (not 9.2M one-go) |
-| SAVE Transition row | Operationally GO (ED Round-2 courtesy emails late-May/early-Jun); ~$5-7B Q3 drag |
-| MOHELA row | 🔴 → 🟠 (May 28 conf held, no ruling; CRL-14 no new info) |
-| Sweet row | 🔴 FIRED → 🔴 PENDING (Jun 15 mailing deadline, no public confirmation yet) |
-| Convergence | **52/70 unchanged** — no score move |
-| STUE staleness | Apr 17 (53d 🔴) → Jun 9 (fresh 🟢) |
-| FOMC packet (Jun 16-17) | 4 firm line items: CRL-04 / SAVE→RAP / Treasury Phase 1 / V14 Mercer |
+| CPI rows (3) | Apr → May: headline 3.8→4.2% YoY 🔴; Core 🔴→🟠 (+0.2% halved); FaH 🔴→🟠 (+0.1% decel) |
+| PPI rows | Mar (3 rows) → May (2 rows): headline 4.0→6.5% YoY 🔴🔴; core-core May detail pending |
+| Medical Care CPI | DOC hospital watch CLOSED NEGATIVE (+0.7% sign-flip); NIPA channel unaffected; KB-293 |
+| Gas Pump | $4.26 Jun 3 → $4.129 Jun 11; 🟠 level / 🔴 watch (re-test live) |
+| Brent | ~$93 Jun 5 → ~$94-95 Jun 11 re-climbing on US-Iran direct exchange; old row replaced |
+| CRL-08 | Timeframe May-Jun → Jun-Jul; re-test condition MET note (canonical + mirror) |
+| CRL-10 | Timeframe "Q4 (possibly Q3)" → "Q4 2026"; pull-forward withdrawn (canonical + mirror + docket Sep-15 row) |
+| DANGER WINDOW | NOW re-anchored Jun 5 → Jun 11; Recently-fired digest extended to Jun 11 |
+| Convergence | **52/70 unchanged** |
+| KB / VX / BOARD_LOG | KB +3 (291-293); VX MACRO-05 + GAS-01 refreshed; BOARD_LOG +2 REFERRED (291→293 lines) |
+| Docket | CPI + PPI pruned (TSV + CALENDAR); 0 past-due |
 
 ---
 
 ## NEXT SESSION SHOULD
 
 ### IMMEDIATE (this session / 24h)
-1. **CPI pre-grade sheet FIRST at boot (~10 min)** — carry forward from Jun 8 deprioritization. Build before Wed Jun 10 8:30 ET print.
-2. **Wed Jun 10 CPI (May, 8:30 ET)** — load failure-pattern preamble (CRL-19 magnitude-light) + grade against the sheet. **DOC hospital services MoM is the highest-signal sub-component** (Apr -0.3% sign-flip; 2nd-print confirms care-avoidance pricing through).
-3. **Jun 11 LEN FQ2 (4:00 PM ET)** — CRL-23 builder GM baseline; FY27 tariff guidance load-bearing.
+1. **LEN FQ2 (tonight Jun 11 4 PM ET)** — CRL-23 builder GM baseline: GM vs Q1 15.2% (lowest since 2010), incentives (Q1 14.1%), ASP YoY (Q1 -8%), cancellations, FY26 delivery 85K cut risk, FY27 tariff guidance language, K-shape commentary.
+2. **Fri Jun 12 UMich prelim 10 AM ET** — 5-10Y vs 3.5% red line / 1Y vs 4.7% / sentiment vs May ~44 record-low. Headline CPI 4.2% is fresh fuel for un-anchoring.
+3. **AAA gas daily check** — CRL-08 re-test window Jun 12-16 (acute-cluster lag 3-4d from Jun 7-10 kinetic).
 
 ### UPCOMING (this week)
-4. **Thu Jun 11 BLS PPI** (stagflation goods vs services). **Fri Jun 12 UMich prelim (5-10Y >3.5% red line)**.
-5. **Sun Jun 15** — Sweet v. McMahon notice mailing deadline (~170-271K cohort). Watch PPSL case-page Jun 15-20 window.
+4. **Sun Jun 15** — Sweet v. McMahon notice mailing deadline (~170-271K cohort). Watch PPSL case-page Jun 15-20.
 
 ### UPCOMING (next 2 weeks)
-6. **Jun 16-17 FOMC + SEP** — V12 decisive + V14 decision (use Mercer staged proposal) + V16 4-vs-3 review (use RED counter-case). **Packet now has 4 firm line items: CRL-04 BREACHED clean / SAVE→RAP operational-GO / Treasury Phase 1 multi-quarter ramp / V14 Mercer benefits-cost.**
-7. **Jun 16** Retail Sales + NAHB · **Jun 19** Existing Home Sales · **Jun 24** FL UI Wave 1 cliff (GIG/LABOR cross-feed) · **Jun 25** May PCE · **Jun 26** Fannie MF DQ (CRL-03 invalidation month 2) · **Jun 29** Freddie HPI · **Jun 30** Case-Shiller + CB Confidence.
+5. **Jun 16-17 FOMC + SEP** — packet now 5 firm line items: CRL-04 BREACHED clean / SAVE→RAP operational-GO / Treasury Phase 1 multi-quarter ramp / V14 Mercer benefits-cost / **headline-core divergence (May CPI 4.2% vs core +0.2%)**. V12 decisive + V14 decision + V16 4-vs-3 review.
+6. **Jun 16** Retail Sales + NAHB · **Jun 19** Existing Home Sales · **Jun 24** FL UI Wave 1 cliff (GIG/LABOR) + New Home Sales · **Jun 25** May PCE · **Jun 26** Fannie MF DQ (CRL-03) + UMich final · **Jun 29** Freddie HPI · **Jun 30** Case-Shiller + CB Confidence · **Jul 1** SAVE→RAP.
 
 ### BACKLOG (no deadline)
-8. **GIG sub-agent refresh** (next priority after STUE — FL UI Wave 1 in 15d + Dave Q1 33d-stale). Opus or Sonnet single-shot.
-9. **PHAN/POP/POLLY refresh-burst** (parallel-spawn, lower urgency).
-10. **Workbook session** — KB rows for Jun-9 NY Fed primary print + STUE-domain rows; FLOW 53d stale.
-11. **Closeout hardening Phase 3** — `scripts/consistency_check.py` row-by-row diff. *(OPEN THREAD)*
-12. **LIAISON cycle 1 (WALTER)** — overdue ~34d.
+7. **GIG sub-agent refresh** (priority — FL UI Wave 1 in 13d; Dave Q1 35d-stale).
+8. **PHAN/POP/POLLY refresh-burst** (parallel-spawn, lower urgency).
+9. **Workbook session** — KB row for Jun-9 NY Fed primary print still owed; FLOW 55d stale.
+10. **Closeout hardening Phase 3** — `scripts/consistency_check.py` row-by-row diff.
+11. **LIAISON cycle 1 (WALTER)** — overdue ~36d.
 
 ---
 
@@ -73,26 +74,26 @@
 ## WORKBOOK HEALTH
 | TSV / file | Rows | Last Mod | Note |
 |------------|------|----------|------|
-| board/BOARD_LOG.tsv | 291 | Jun 8 | 0 undispositioned, 0 dupes |
-| docket/CATALYSTS.tsv | 31 | Jun 9 | +Sweet Jun 15 + Treasury Phase 1 ~Jul 15 |
-| PREDICTIONS.tsv | 24 | Jun 9 | 16 OPEN (CRL-04 resolved to CONFIRMED); CRL-03 72% |
-| STATUS.md | 250 | Jun 9 | At cap; +401k (Jun 8) / +STUE-rows (Jun 9 morning) / -minor trims |
-| VX.tsv | 121 | Jun 8 | Unchanged this session |
-| KB.tsv | 287 | Jun 5 | Jun-9 NY Fed primary KB row deferred to workbook session |
-| FLOW.tsv | 25 | Apr 17 | **53d stale** |
+| board/BOARD_LOG.tsv | 293 | Jun 11 | +2 REFERRED (IRAN_HORMUZ); 0 undispositioned |
+| docket/CATALYSTS.tsv | 29 | Jun 11 | CPI + PPI pruned; 0 past-due |
+| PREDICTIONS.tsv | 24 | Jun 11 | 17 OPEN; CRL-08 re-test live; CRL-10 timeline reverted |
+| STATUS.md | 248 | Jun 11 | Under cap (250); net -2 from row consolidation |
+| VX.tsv | 121 | Jun 11 | MACRO-05 + GAS-01 refreshed |
+| KB.tsv | 290 | Jun 11 | +3 (291-293); Jun-9 NY Fed row still owed to workbook session |
+| FLOW.tsv | 25 | Apr 17 | **55d stale** |
 
 ---
 
-## CONSISTENCY CHECK (step 15) — PM run: CLEAN
+## CONSISTENCY CHECK (step 15)
 - THESIS 52/70 == STATUS 52/70 ✓ (matrix untouched)
-- PREDICTIONS CRL-04 status (CONFIRMED) == STATUS Resolved table ✓ (CRL-04 removed from Open, added to Resolved both files)
-- CATALYSTS.tsv ↔ CALENDAR.md ✓ (Sweet Jun 15 + Treasury Phase 1 added to both; SAVE→RAP enriched in both)
-- TEAM.md staleness ↔ sub-agent file mtimes ✓ (STUE Jun 9, DOC Jun 8, HOMER Jun 8)
+- PREDICTIONS.tsv OPEN IDs == STATUS Open table ✓ (CRL-08/CRL-10 edited in BOTH canonical + mirror this session; no status changes)
+- CATALYSTS.tsv ↔ CALENDAR.md ✓ (CPI + PPI pruned from both; Sep-15 CRL-10 note synced in both)
+- TEAM.md untouched (no spawns)
 
 ## URGENT
-- **Wed Jun 10 CPI** = next fire (~17h). Build pre-grade sheet FIRST. Hospital services MoM is the highest-signal DOC sub-component.
-- **Jun 15 (6d)** — Sweet notice deadline. Watch PPSL case-page Jun 15-20.
-- **Jun 16-17 FOMC** = V12 + V14 + V16 + STUE line items all converge. Packet firm.
+- **UMich prelim tomorrow Jun 12** — V12 expectations test with fresh 4.2% headline feeding it.
+- **CRL-08 re-test LIVE** — AAA gas daily Jun 12-16; Brent needs ~$105-110 sustained for $4.50 re-breach.
+- **Jun 16-17 FOMC** — packet firm at 5 line items; headline/core divergence is the new framing line.
 
 ## ⚠️ PENDING PUSH (Will-coordinated — do NOT push at session end)
-*Local-only commits queued on shared master awaiting Will's push window. **Per [[feedback_defer_push_coordinate]] — committed locally at Will's instruction this session, push deferred.** Prior pending: BROCK/HAWK from Jun 8 + CARL Jun 8 (66c6be00 / 84fe7023). New this session: CARL Chunks A + A-PM + B (multi-commit per pathspec discipline). Next coordinated push window sweeps all.*
+*Local-only commits queued on shared master awaiting Will's push window. Branch was 4 commits ahead at boot (VIOLET Jun-10/11 work); CARL Jun-11 commits add to the train. SAM working-tree changes + VIOLET .bak untracked at boot — did not pull (0 behind, no pull needed). Next coordinated push window sweeps all.*

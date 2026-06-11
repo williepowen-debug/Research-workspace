@@ -8,6 +8,28 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-06-11 AM — May CPI graded vs pre-registered sheet (2/5 hits); May PPI 6.5% YoY record-goods print; CRL-08 re-test condition MET on Iran re-ignition; CRL-10 pull-forward caveat withdrawn; no thesis version bump
+
+### PREDICTIONS.tsv — CRL-08 re-test live; CRL-10 timeline reverts to baseline
+**Author:** CARL (Jun 10 CPI was past-due at boot — no Jun 10 session ran; graded against the Jun-9 SCRATCH pre-registered sheet, which was written before the print and counts as pre-registration).
+
+**CPI May grade (pre-registered 5-row sheet from Jun-9 SCRATCH):**
+1. Headline +0.5% MoM → V12 hardens: **HIT** (+0.5%/4.2% YoY, accel from 3.8%).
+2. Core +0.4% → Fed-no-cut locks: **MISS** — Core +0.2% MoM, HALVED from Apr. Apr "breadth widening" did not extend; symmetric single-month caveat applied before banking "core contained."
+3. Food at Home +0.5% 2nd consec → CRL-10 75→85%: **MISS** — FaH +0.1%. CRL-10 holds 75%, Q4 baseline reinstated, possible-Q3 caveat withdrawn from Timeframe column.
+4. Hospital MoM ≤0 → DOC care-avoidance 2nd-print: **MISS** — +0.7% sign-flip back up. CPI-pricing channel watch closed negative; NIPA channel unaffected. 3rd single-month-skepticism validation. KB-CARL-293.
+5. Energy MoM small-pos → CRL-08 intact: **HIT on direction, magnitude exceeded** (+3.9% MoM, >60% of headline increase).
+
+**Net read:** energy-led headline stagflation, NOT core broadening. V12 splits: headline/expectations channel hardening (4.2% feeds UMich Jun prelim 6/12 vs 3.5% 5-10Y red line) while core-breadth channel softened. This headline/core divergence is the FOMC Jun 16-17 tension. No score move.
+
+**May PPI (rel Jun 11):** +1.1% MoM / 6.5% YoY highest since Nov 2022; final-demand goods +2.8% MoM largest-ever in series (80% = energy +10.7%; wholesale gasoline +23.4%); core +0.4% below cons; services +0.3%. Hormuz-closure wholesale transmission → Jun-Jul CPI pipeline. KB-CARL-292; VX-CARL-MACRO-05 4.0→6.5 RED.
+
+**CRL-08:** pre-registered fresh-Iran-kinetic re-test condition MET Jun 7-10 (US strikes on Iran day 2 + IRGC Hormuz near-total closure + Bab al-Mandab activation; BOARD SIG-W-20260610-001/-002 dispositioned REFERRED→BRENT/HAWK). Pump $4.129 Jun 11 still falling; Brent ~$94-95 well below the ~$105-110 transmission zone for a $4.50 re-breach. Conf 70% holds; Timeframe updated May-Jun→Jun-Jul. Fire only on registered condition ($4.50+ sustained 2wk) per pre-registration discipline.
+
+**Failure-pattern check (step 7c):** the FaH and core misses are the inverse of CRL-01/CRL-19 (direction right, magnitude light) — here the pre-grade over-extrapolated a single hot month. Same family: single-month moves carry too much weight at write time in both directions.
+
+---
+
 ## 2026-06-09 PM — STUE follow-up: CRL-04 methodology asterisk DROPPED; Treasury Phase 1 cadence resolved directionally; no thesis version bump
 
 ### PREDICTIONS.tsv — CRL-04 CONFIRMED* → CONFIRMED
