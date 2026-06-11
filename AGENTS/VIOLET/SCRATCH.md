@@ -1,4 +1,10 @@
-# VIOLET SCRATCH — June 11, 2026 (Thu AM session: RED sweep COMPLETED 5/5 + Q1-Q6; M1:M2 record corrected + mechanized; distribution re-marked. NEXT = EOD 6/11: `--supersede` run + FRED print through the tree)
+# VIOLET SCRATCH — June 11, 2026 (Thu AM session: RED sweep COMPLETED 5/5 + Q1-Q6; **CCC CROSSED 9.55 → TREE FIRED BIN B** (KB-VIO-094); M1:M2 record corrected + mechanized; distribution re-marked. NEXT = EOD `--supersede` + 6/12 Bin-B conversion watch)
+
+---
+
+## ⚡ LATE-SESSION ADDITION (~11:30 AM): THE CROSS HAPPENED — TREE FIRED, BIN B
+
+FRED 6/10 print published mid-session (Will asked for the check): **CCC 9.57 ≥ 9.55** (+6bp war day) / HY 2.80 / BB 1.70 / IG 0.75 / disp 7.87. **Mechanical adjudication 2h after registration → BIN B MARGINAL-FAIL** (all breadth lines clean). NOT credit-confirms, NOT waived. **Re-check +5td = 6/17 data (FOMC day, publishes 6/18). Conversion watch DAILY: BB ≥1.73 (now 1.70 — broke its own range top 1.68!) / disp ≥8.00 (7.87, ties episode high) / HY ≥2.85 (2.80) / CCC ≥9.65 escalator (9.57).** Any one → Bin A = fade falsified via credit, full stop, broadcast. LIQUID movers read requested (NEXUS_BRIEF) for attribution — the 6/10 widening was broad-mild CCC-led, not pure-idiosyncratic texture. KB-VIO-094; STATUS/NEXUS_BRIEF updated; matrix held 🟠 BY THE TREE (verified 25/45).
 
 **Purpose:** Ephemeral session handoff. Read at boot, rewritten at write-back. Persistent learnings → `MEMORY.md` / auto-memory; dated catalysts → `CALENDAR.md`/`CATALYSTS.tsv`.
 
@@ -24,7 +30,7 @@
 ## NEXT SESSION (priority-ordered)
 
 1. **🔴 EOD 6/11 (or next boot): `thresholds.py --supersede` after 16:15 ET** (today's row is TICK basis) + close-and-hold counter vs 23.0 + did the OVX/VIX gap close adverse or hold?
-2. **🔴 FRED print check (6/10 + 6/11 prints, publication lagged):** CCC through the KB-VIO-090 tree — Bin A/B is MECHANICAL, no improvisation; BB vs 1.73; dispersion vs 8.00. If Bin B fires: STATUS gets "MARGINAL-FAIL re-check [date+5td]".
+2. **🔴 6/12 AM: FRED 6/11 print = first in-window Bin-B conversion read** — BB vs 1.73 (3bp away) / disp vs 8.00 (13bp) / HY vs 2.85 (5bp) / CCC vs 9.65 escalator (8bp). DONE for 6/10: cross happened, Bin B adjudicated (see ⚡ above).
 3. **🔴 Iran daily: OVX/VIX gauge; HAWK re-mark integration** through the KB-VIO-091 translation layer when it lands (ask sharpened: split C hot/frozen).
 4. **🟡 COT Fri 6/12** (first post-spike read) · **🟡 BOJ fuel-load Sat 6/13 (SAM)** · **🔴 BOJ 6/16** · **🔴 FOMC+SEP+expiry+M1-expiry 6/17**.
 5. **🟠 L2 σ carve-out backtest — promoted:** the 0.75 conditional is conditioned on it (absorbed-streak struck pending this test).
