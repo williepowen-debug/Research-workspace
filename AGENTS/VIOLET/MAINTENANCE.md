@@ -10,6 +10,21 @@ Log material structural changes only — not routine content edits. Template ado
 
 ---
 
+## 2026-06-10 (evening) — Two derivation scripts built (RED-sweep adjudication session)
+
+**Trigger:** RED red-team sweep (CHG-RED-033/034) demanded empirical derivations: the close-and-hold sustain count and the first-fire-anchor ladder column. Both were one-off queries worth keeping rerunnable (the /tmp-loss lesson, SCRATCH carry-forward).
+
+**What changed:**
+- **`scripts/sustain_run_query.py` built** — max consecutive-close runs above each early40 episode's +50% line (n=5 derivation, KB-VIO-088). Reconciled exactly vs Orch answer key after one construction catch: **DIET-class-only clustering is canonical** (DIET∪STRICT shifts the 2024-12 anchor and admits the all-STRICT 2015-10 cluster).
+- **`scripts/two_anchor_ladder.py` built** — first-fire-anchor ladder column + path-conditioned subset (KB-VIO-089). Every count reproduced exactly by Orch recompute.
+- **Both scripts carry window/calendar conventions inline** (td-not-calendar, 61-closes-inclusive, closes-only, clustering rule) — KB-VIO-084/085 construction-note rule applied prospectively to tooling (Orch condition on the 034 green light).
+
+**Files touched:** scripts/sustain_run_query.py (new), scripts/two_anchor_ladder.py (new), TRADE.md (falsification architecture + two-anchor corollary), workbook/KB.tsv (088/089), research/2026-06-10_red_sweep_response.md (new).
+
+**Boot-impact:** none — both are on-demand derivation tools, not boot-sweep members.
+
+**Lessons:** (1) A derivation can return "this instrument can't catch the failure class you're aiming at" — run-length had no discriminating power (dest-right and dest-wrong both ran 4); the register must state the *role* (tail-stop), not just the number. (2) Clustering construction is part of a number's identity, same family as anchor/unit — scripts should name it inline.
+
 ## 2026-06-10 (PM-5) — MEMORY.md subtraction pass (SCRATCH item 7a, pulled forward by Will; Orch-verified plan)
 
 **Trigger:** Will pulled the queued MEMORY subtraction job forward (~3:30 PM). Plan reviewed by Orch with one hard correction (the "24-td gap" figure VIOLET was about to transcribe is a calendar/td mislabel — actual 17 td) and one approved decision (analogs → compressed lessons-only, not pure pointer, because MEMORY is boot-read and the thesis is not).

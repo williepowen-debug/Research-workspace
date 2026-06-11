@@ -1,6 +1,6 @@
 # VIOLET STATUS
 
-**Signal Status:** 🟠 **6/10 EOD — RELIEF RETRACED, WAR LEG OWNS THE TAPE. CPI resolved non-tail at 8:30 (KB-VIO-080) but the Iran third leg (KB-VIO-081) took the session: VIX SETTLED 22.22 (+11.8% d/d; official 16:15 settle — the 4:00 tick read 21.86 and the last 15 min kept bidding), SPX −1.62%, WTI 90.45/OVX 60.4 — the OVX/VIX transmission gauge resolved its day by VIX CATCHING UP (adverse branch). FADE GATE FAILS #2 AT EOD (ratio 1.155 settle-basis vs ≤1.05; M1:M2 +7.98% re-armed) — NO ENTRY, stand down (KB-VIO-086). INVALIDATION NOT TRIGGERED but the margin is now thin: settle 22.22 vs 22.24 overnight peak (a RETEST, not a lower high) vs 23.0 line; close-and-hold per KB-VIO-082 (a 23-touch is the modal path — only sustained closes above kill the fade). Stated scenario distribution formalized DECOMPOSED (KB-VIO-087): ~40-45% fade path / ~35-40% stand-aside / ~15-20% VIX-30 tail; the Iran term (HAWK 6/8 base, VIOLET −15 adj pending re-mark) is the variance driver and is not VIOLET's to own. Credit clean but CCC 9.51 = 4bp from the flip.**
+**Signal Status:** 🟠 **6/10 EOD — RELIEF RETRACED, WAR LEG OWNS THE TAPE. CPI resolved non-tail at 8:30 (KB-VIO-080) but the Iran third leg (KB-VIO-081) took the session: VIX SETTLED 22.22 (+11.8% d/d; official 16:15 settle — the 4:00 tick read 21.86 and the last 15 min kept bidding), SPX −1.62%, WTI 90.45/OVX 60.4 — the OVX/VIX transmission gauge resolved its day by VIX CATCHING UP (adverse branch). FADE GATE FAILS #2 AT EOD (ratio 1.155 settle-basis vs ≤1.05; M1:M2 +7.98% re-armed) — NO ENTRY, stand down (KB-VIO-086). INVALIDATION NOT TRIGGERED but the margin is now thin: settle 22.22 vs 22.24 overnight peak (a RETEST, not a lower high) vs 23.0 line; close-and-hold per KB-VIO-082 (a 23-touch is the modal path — only sustained closes above kill the fade). Stated scenario distribution formalized DECOMPOSED (KB-VIO-087): ~40-45% fade path / ~35-40% stand-aside / **~15-25% VIX-30 tail (restated two-anchor 6/10 eve, KB-VIO-089)**; the Iran term (HAWK 6/8 base, VIOLET −15 adj pending re-mark) is the variance driver and is not VIOLET's to own. Credit clean but CCC 9.51 = 4bp from the flip. **Evening session: RED sweep CHG-033/034 adjudicated — falsification architecture registered (n=5 tail-stop, credit PRIMARY, time-box; KB-VIO-088), ladder restated two-anchor (KB-VIO-089); 035-037 next session, 035 FIRST and BEFORE the FRED pull.**
 
 **Live (6/10 official settles, ~16:15 ET):** VIX **22.22** (+11.8%) | VIX9D **25.67** (ratio **1.155**) | VIX3M **22.89** (VIX3M/VIX **1.0302** — thinnest contango of the move; inversion margin 0.67) | VIX6M **24.13** | VVIX **108.16** (+12.9%; 78.6 pct 1yr / ~53 conditional = NEUTRAL [16:06 read basis]) | SKEW **141.97 [6/9 T+1]** | 20d SKEW avg **140.59 [thru 6/9]** (R12 margin +0.59 in avg-space; **single-print break needs <127.6** — regime cannot break on one print) | **M1:M2 +7.98% (adj)** re-armed [⚠️ intraday-tick basis; VX-settle re-pull owed 6/11] | WTI **90.45** / OVX **60.38** [BRENT owns substance] | MOVE **77.03** flat | HY OAS **2.78** / CCC **9.51** / IG **0.75** [FRED 6/9, T+1] | 10Y **4.56** / 2Y **4.15** [FRED 6/8] | COT Lev Money **−33,033 / pct3y 43.6** [6/2; Fri 6/12 = first post-spike read] | **Last Updated:** 2026-06-10 ~5:45 PM ET (EOD sweep + settle/arithmetic corrections per Orch verification)
 
@@ -54,7 +54,7 @@
 - 🟠 **Fade gate FAILS #2 (KB-VIO-086)** — pre-registered outcome (b): stand down. Realistic next entry window is post-6/17, and only on Iran stabilization.
 - 🟡 **Invalidation NOT triggered, margin thin** — settle 22.22 < 23.0; close-and-hold semantics (KB-VIO-082) applied for the first time: a settle 0.78 below the line on the modal path is expected behavior, not a signal — but tomorrow's close is live against it. *(Downgraded 🟢→🟡 on the settle correction.)*
 - 🟠 **CCC 9.51 — 4bp from the flip.** Sawtooth wider — net +5bp since 6/1, wider in 2 of the last 4 prints — while HY stays clean. If CCC crosses 9.55 with HY following toward 2.85, the "event premium" framing starts converting to "credit confirms."
-- 🟡 **Stated distribution formalized decomposed (KB-VIO-087, supersedes KB-VIO-052):** ~40-45% fade / ~35-40% stand-aside / ~15-20% VIX-30 tail. Cross-branch touch probability **REFINED to a level ladder ~6:15 PM (operator query)**: from settle 22.22, P(touch 23) ~85% near-mechanical/spent · P(24) ~60-70% · P(25) ~40-50% · P(26) ~25-35% — **the decision-relevant retest-budget zone is 24-25, not 23**. The Iran term is HAWK-based (6/8: C+B 65%) with a VIOLET −15 working adjustment pending HAWK re-mark.
+- 🟡 **Stated distribution formalized decomposed (KB-VIO-087, supersedes KB-VIO-052):** ~40-45% fade / ~35-40% stand-aside / ~15-25% VIX-30 tail. Level ladder **restated TWO-ANCHOR 6/10 evening (KB-VIO-089, supersedes the 087 single-anchor quote; Orch-recomputed exactly)**: P(touch 23) ~60-85% near-spent · P(24) ~40-70% · P(25) ~40-50% (anchors converge) · P(26) ~30-40% — **budget zone stays 24-25; 26 is no longer comfortably outside it**. Magnitude note: episodes that started like ours either died at their early peak or at-minimum doubled (+109/+225/+248% clears, n=4) — branch (c) is a cliff, not a slope. The Iran term is HAWK-based (6/8: C+B 65%) with a VIOLET −15 working adjustment pending HAWK re-mark.
 
 ---
 
@@ -70,7 +70,7 @@
 
 ## POSITION SNAPSHOT
 
-**No open positions. Event-Premium Fade: armed-but-gated, FAILS #2 at 6/10 EOD (KB-VIO-086).** Realistic re-entry assessment is post-6/17 FOMC on Iran stabilization; any entry budgets the retest per the KB-VIO-087 level ladder (24 ~60-70%, 25 ~40-50%) or uses it as the entry (KB-VIO-082/087). Full framework: `TRADE.md`.
+**No open positions. Event-Premium Fade: armed-but-gated, FAILS #2 at 6/10 EOD (KB-VIO-086).** Realistic re-entry assessment is post-6/17 FOMC on Iran stabilization; any entry budgets the retest per the TWO-ANCHOR ladder (24 ~40-70%, 25 ~40-50%, 26 ~30-40%; KB-VIO-089) or uses it as the entry. **Falsification architecture registered 6/10 eve (KB-VIO-088): credit PRIMARY · time-box · VIX >23 close-and-hold n=5 (TAIL-STOP role) · M2:M3 falsifier deferred pending VX-settles data.** Full framework: `TRADE.md`.
 
 ---
 
@@ -79,6 +79,7 @@
 - **WALTER → VIOLET (resolved 6/10):** MARKET_VOL routing split APPROVED + BUILT (ROUTING_TABLE v0.10: vol-regime → VIOLET action / index-mechanics → HENRY; WALTER `4def0c85`). **Appendix A flag CLOSED.** BOARD-consumption boot-step adoption now unblocked — queue for next protocol pass.
 - **WALTER → VIOLET (integrated 6/10):** "No named Iran event 6/16-17" finding → war premium classified unscheduled-tail, not dated-event (KB-VIO-086 note).
 - **VIOLET → HAWK (pending input):** KB-VIO-087's Iran prior uses HAWK 6/8 scenarios with a VIOLET −15 adjustment for 6/9-10; **re-mark requested** via NEXUS_BRIEF CROSS-DOMAIN (not 🔴-acute; WALTER already routed the D-re-mark input to HAWK directly).
+- **RED ⇄ VIOLET (sweep in progress, 6/10 evening):** RED red-team sweep (`AGENTS/RED/challenges/VIOLET_REDTEAM_SWEEP_2026-06-10.md`, 5 challenges) — **CHG-033 and CHG-034 adjudicated, Orch-verified, registered** (KB-VIO-088/089); response file `research/2026-06-10_red_sweep_response.md`. CHG-035/036/037 + dialogue Q3-Q6 next session. FLOW.tsv row logged when the full response completes.
 - **Inbox: EMPTY** (5/14 gamma signal dispositioned 6/6).
 
 ---
@@ -87,7 +88,9 @@
 
 | Priority | Topic | Status |
 |----------|-------|--------|
-| 🔴 | **6/11 AM check: VIX vs 22.24/23.0 close-and-hold, CCC vs 9.55, fresh SKEW + 20d-avg refresh** | Daily watch posture while war live. |
+| 🔴 | **CHG-RED-035: pre-register the CCC 2-bin tree (composition-artifact vs credit-confirms) BEFORE pulling FRED 6/11** — order matters; includes the 9.55 provenance dig | NEXT SESSION, FIRST ITEM. |
+| 🔴 | **6/11 AM check: VIX vs 22.24/23.0 close-and-hold (n=5, KB-VIO-088), CCC vs 9.55, fresh SKEW + 20d-avg refresh** | Daily watch posture while war live. |
+| 🟠 | **CHG-RED-036/037 + dialogue Q3-Q6** (0.85 conditional re-state; mechanization triage vs Packet #1) | RED sweep remainder. |
 | 🔴 | **Iran→vol transmission: OVX/VIX gauge daily; HAWK re-mark integration into KB-VIO-087** | LIVE. |
 | 🟠 | **Packet #1 wiring (abstain-gate → v3.6)** — spec `research/2026-06-09_packet1_abstain_gate_spec.md` | Fit 6/11-6/13. |
 | 🟠 | **Iran-leg analog scan** (2019 Abqaiq, 2022 Ukraine, 2024 Israel-Iran): OVX/VIX gap resolution shape | NEW — promoted from hypothesis; cheap scan. |
@@ -104,10 +107,10 @@
 
 **v3.5 intact; Current Status section refreshed 6/10 ~3 PM (three-leg, close-and-hold invalidation, canonical-table construction note).** The pre-registered gate has now correctly refused entry twice in one day — into war risk the framework couldn't have priced. If the Iran leg pulls SKEW/VVIX/credit (CCC 9.55 is the first tripwire), the KB-VIO-039 coiled-spring external-catalyst branch gets assessed as a phase transition.
 
-**Forward gates:** 6/12 COT · 6/16 BOJ (split-entry clause binding) · **6/17 FOMC + SEP + VIX quarterly expiry** (war premium does NOT deflate on this print — WALTER) · CCC 9.55 / HY 2.85 credit tripwires · VIX 23 close-and-hold.
+**Forward gates:** 6/12 COT · 6/16 BOJ (split-entry clause binding) · **6/17 FOMC + SEP + VIX quarterly expiry** (war premium does NOT deflate on this print — WALTER) · CCC 9.55 / HY 2.85 credit tripwires (PRIMARY falsifiers, KB-VIO-088) · VIX 23 close-and-hold **n=5** (tail-stop).
 
 *Core hypothesis: `thesis/VIX_THESIS.md`. Stated distribution: KB-VIO-087.*
 
 ---
 
-*Last updated: 2026-06-10 ~5:45 PM ET (EOD sweep + Orch-verification corrections: VIX to official settle 22.22 [16:04 tick row superseded — futures-settle rule]; convergence re-summed 27→25/45; R12 roll-off math fixed [single-print break <127.6, NOT sub-138]; NVDA/SMH re-acceleration stated. KB-VIO-086/087; gate FAILS #2, stand down; invalidation not triggered, margin thin; CCC 4bp from flip. SKEW 6/10 print + 20d-avg refresh owed next session [T+1].)*
+*Last updated: 2026-06-10 ~9:15 PM ET (evening RED-sweep session: CHG-033/034 adjudicated + Orch-verified + registered — KB-VIO-088 falsification architecture [n=5 tail-stop, credit PRIMARY, time-box, M2:M3 deferred], KB-VIO-089 two-anchor ladder [(c) 15-25%, budget zone 24-25 survives, 26 in-budget]. CHG-035 first next session, BEFORE the FRED pull. Prior EOD stamp ~5:45 PM: settle corrections, KB-VIO-086/087, gate FAILS #2. SKEW 6/10 print + 20d-avg refresh owed next session [T+1]; M1:M2 official VX-settle re-pull owed 6/11.)*
