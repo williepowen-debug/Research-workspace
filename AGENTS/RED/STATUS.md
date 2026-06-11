@@ -1,5 +1,5 @@
 # RED STATUS
-**Last Updated:** 2026-06-10 ~3:30 PM ET (Wed **Session 17** — 8-day catch-up + SAM pre-BOJ stress-test (Will-directed). Both RED falsification triggers fired 6/4 in OPPOSITE directions (FT-01 HY<280 bull-counter + FT-07 CCC>930 tail-stress — the bifurcation now prints inside the credit market itself). NFP shock 6/5 → VIX 15.4→21.5: **VIX<16 guard VINDICATED**. CPI 6/10 hot-as-expected; Iran third vol leg live; Fed pricing flipped cut→HIKE. Net bear 55→59.) | **Role:** Adversarial Analysis / Thesis Stress-Tester
+**Last Updated:** 2026-06-10 ~9 PM ET (Wed **Session 17b** — VIOLET red-team sweep filed, CHG-RED-033..037, dialogue via Will pending her responses. Earlier S17: Both RED falsification triggers fired 6/4 in OPPOSITE directions (FT-01 HY<280 bull-counter + FT-07 CCC>930 tail-stress — the bifurcation now prints inside the credit market itself). NFP shock 6/5 → VIX 15.4→21.5: **VIX<16 guard VINDICATED**. CPI 6/10 hot-as-expected; Iran third vol leg live; Fed pricing flipped cut→HIKE. Net bear 55→59.) | **Role:** Adversarial Analysis / Thesis Stress-Tester
 
 > **Session 17 thesis-impacting deltas (vs 6/2):**
 > (1) **RED-FT-01 FIRED 6/4** (HY OAS <280 sustain=3: 272/271/275; first fire ever on RED ledger) AND **RED-FT-07 FIRED 6/4** (CCC OAS 947 >930, actually above since 5/29). **Opposing-direction fires, same session** — index-led tightening NOT breadth-confirmed at tail. As of 6/9: HY **278** (drifting back toward 280), CCC **951** (still widening). Tail-vs-index divergence EXTENDING.
@@ -99,6 +99,7 @@ Strongest "we're wrong," and it survived the week:
 | **CH-005 carry survives (STRENGTHENED)** | SAM (structural pillars / $60-62 band) | **STRONG** | Fed-flip impairs all 4 pillars; $60-62 has no mapped modal path. SAM concurs directionally (handed RED the target). Scores Jun 16 + 2wk. |
 | **CH-011 SAM-23 cross-pair inversion** | SAM (MOF 72%) | MOD-STRONG | Orderly USD-led move = MOF won't strike; feeds LIQUID/HENRY buckets. Scores by Jun 16. |
 | **CH-004 probabilities** | SAM | — | **Recommend RESOLVED-CONVERGED** (METHOD shipped, −33pp self-correction). |
+| **CHG-RED-033..037 VIOLET sweep (5)** | VIOLET | 2 STRONG / 2 MOD-STRONG / 1 MOD | **NEW 17b** — `challenges/VIOLET_REDTEAM_SWEEP_2026-06-10.md`. 033 invalidation near-unfalsifiable (no sustain-n); 034 anchor-contingent modal-touch-23; 035 CCC 9.55 cross un-pre-registered (fires within days); 036 0.85 conditional on demoted L2 + unowned scenario→premium translation; 037 Orch-dependent first-pass numerics (mechanize pre-FOMC). Responses via Will pending; pre-registrations due before BOJ 6/16. |
 | **CHG-RED-028 bifurcation mechanism** | Self | ACTIVE | Spring partially released 6/5; full snap still FOMC-gated. 7th observation = first tape-side narrowing. |
 | **HYG closure** | Self → Will | OWED | Jun 18 expiry, T-6. Write-up this week. |
 | **Jun-stack endgame** | Portfolio → Will | LIVE-MARKED | **Broker CSV 6/10 3:52PM received.** WAL $85P = $380 (−36%); TLT $85P x3 = $147 (**ROUND-TRIPPED +92%→−40%**); dust ≈ $207. Decision menu pre-registered in `research/POSITION_RECONCILE_2026-06-10.md` (A1/A2 WAL, B TLT-hold-thru-FOMC, C sweep, D HYG closure). Backstop 6/11. |
@@ -107,12 +108,13 @@ Strongest "we're wrong," and it survived the week:
 
 ## TOP ADVERSARIAL PRIORITIES (Jun 10)
 
-1. **Route SAM challenges pre-blackout (~6/13)** — OUTBOX → PROME/Will; SAM active today. CH-010's Branch-C split must land before Jun 16 scoring.
-2. **Jun-stack decisions with Will** — tomorrow's backstop; surface marks first, menu second. WAL $85P and TLT $85P x3 are the only money decisions; rest is cleanup. SOFI/OWL Jun5 expiry outcomes unresolved in records.
-3. **FOMC 6/17 pre-write** — the DIET gate + dots (hike-lean?) + VIX>23 invalidation line all converge there. Write the decision tree BEFORE the print.
-4. **HY OAS 280 re-cross watch** — daily; un-fire vs sustain decides whether the bifurcation re-widens.
-5. **REGINALD/LIQUID re-pair STILL OWED** (stale 5/21 / 5/20) — LIQUID owes post-GEX-invalidation read; now also owes duration view at 30Y ~5.0%.
-6. **HYG closure write-up + thesis/TIMELINE.md refresh** (charter item 3) — pair with position reconcile when marks arrive.
+1. **VIOLET sweep follow-through** — grade her responses (converged / contested / escalate) when they arrive via Will; 035's CCC pre-registration is time-critical (cross possible on tomorrow's FRED print). Self-exposure owed: FT-07 CCC−BB composition decomposition (RED's own trigger inherits the 035 critique); WL-01 sustain now defined s=3 (done 17b).
+2. **Route SAM challenges pre-blackout (~6/13)** — OUTBOX → PROME/Will; SAM active today. CH-010's Branch-C split must land before Jun 16 scoring.
+3. **Jun-stack decisions with Will** — tomorrow's backstop; surface marks first, menu second. WAL $85P and TLT $85P x3 are the only money decisions; rest is cleanup. SOFI/OWL Jun5 expiry outcomes unresolved in records.
+4. **FOMC 6/17 pre-write** — the DIET gate + dots (hike-lean?) + VIX>23 invalidation line all converge there. Write the decision tree BEFORE the print.
+5. **HY OAS 280 re-cross watch** — daily; un-fire vs sustain decides whether the bifurcation re-widens.
+6. **REGINALD/LIQUID re-pair STILL OWED** (stale 5/21 / 5/20) — LIQUID owes post-GEX-invalidation read; now also owes duration view at 30Y ~5.0%.
+7. **HYG closure write-up + thesis/TIMELINE.md refresh** (charter item 3) — pair with position reconcile when marks arrive.
 
 ---
 
@@ -134,7 +136,7 @@ Strongest "we're wrong," and it survived the week:
 - **Portfolio context shift:** cash now 65.1% of the positions account; AAPL 17.96% (<20% → VX-RED-016 flip met); new war/oil vehicles (XLE/USO calls, CCL puts, TBT) — only green legs on 6/10. Vulnerability framing changes: structural Aug-Dec core is the real book, theta bleed bounded.
 - LIQUID refresh (stale 5/20) — duration read at 30Y 5.0% + post-GEX-invalidation reconciliation.
 - REGINALD refresh (stale 5/21) — WAL at $81.82 vs V2.2 EV $67.98: tape 20% above EV; what's his marking?
-- VIOLET 6/10 EOD re-stamp — whether the war leg sustains past today; VIX>23 line.
+- ~~VIOLET 6/10 EOD re-stamp~~ **RESOLVED 17b** — received (5:45 PM stamp + 6:15 PM ladder); full sweep read done. Now wanted: her responses to CHG-RED-033..037.
 - WALTER Iran-anchor re-verify (boundary was 6/9) — is tit-for-tat the new anchor or still narrative-fork?
 
 ---

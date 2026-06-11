@@ -9,43 +9,37 @@
 ## GIT STATE (one line)
 -->
 
-**Session 17 — Wed 2026-06-10 (~2:55 PM – evening ET).** Replaces retired `LAST_COMPLETION.md`; `archive/handoffs/` frozen.
+**Session 17b — Wed 2026-06-10 evening (~6:30–9 PM ET).** Second session of the day (S17 ran ~2:55 PM–evening; see git history of this file for the S17 handoff). Will-directed focus: VIOLET red-team sweep + dialogue. Market closed; trading decisions explicitly deferred by Will.
 
-## CHANGES SINCE (6/2 → 6/10, absorbed this session)
-- **RED-FT-01 + RED-FT-07 BOTH FIRED 6/4, opposite directions** (HY<280 bull-counter / CCC>930 tail-stress) — first fires ever on RED ledger; bifurcation prints inside the credit market. HY 278 (6/9) = re-cross watch; CCC 951 widening.
-- **NFP +172K (6/5) → VIX 15.4→21.5 — VIX<16 guard VINDICATED in 3 sessions** (ML-RED-078).
-- CPI 6/10 hot-as-expected (4.2/2.9) — DIET gate #1 non-tail; FOMC 6/17 is gate #2. Docket had CPI misdated 6/12 (fixed).
-- **Iran third vol leg** (tit-for-tat 6/9-10, OVX 58.5, VIX 21.75 ~3PM); **Fed pricing flipped cut→HIKE ~52%** (KB-RED-044, stale-by 6/17).
+## CHANGES SINCE (S17 close → 17b)
+- **VIOLET full-day arc absorbed:** fade gate FAILED twice (ratio 1.155 vs ≤1.05) → stand-down, no position; VIX official settle **22.22** = retest of 22.24 overnight peak (NOT a lower high — her 16:00-tick read corrected by Orch); CCC 9.51 = 4bp from her 9.55 flip; KB-VIO-087 decomposed distribution formalized, then **level-ladder refined ~6:15 PM per Will query**: P(touch 23) ~85% / 24: 60-70% / 25: 40-50% / 26: 25-35% (lowest-base anchor).
+- Two new BOARD signals today w/ RED in to: (SIG-W-20260610-001 Bab al-Mandab activated; -002 multi-front re-ignition, fork toward breakdown) — substance already in S17 STATUS.
+- boot.py 17b run: FT-01 (HY 278) + FT-07 (CCC 951) both still firing; WL-01 VIX 0.78 from 23; WL-07 USDJPY 160.49 firing; WL-11 Brent 94.71 firing.
 
 ## WHAT I DID
-1. Full 8-day catch-up: STATUS rewrite, weights net bear 55→59 (Stagflation 37 modal / Managed 34 / Acute 13 / War 9 / Rescue 4 / Soft 3), conf held 72. CALENDAR/docket resolved 8 rows.
-2. **SAM pre-BOJ stress-test** (Will-directed): `challenges/SAM_PREBOJ_STRESSTEST_2026-06-10.md` — CHG-RED-029 (earned-discount regime-transfer, STRONG) / 030 (Branch-C threshold-vs-mechanism) / 031 (SAM-23 cross-pair inversion) / 032 (CH-005-strengthened, all-4-pillars). VX-RED-024 NEW (BOJ fully-priced = no US-paper transmission). OUTBOX packet to PROME — **routing deadline ~6/13 blackout**.
-3. **Position reconcile** vs fresh Fidelity CSV (`research/POSITION_RECONCILE_2026-06-10.md`): TLT Jun $85P round-tripped +92%→−40%; WAL Jun $85P $380 ITM; cash 65.1%; AAPL <20% (VX-RED-016 flip fired); Jun-stack menu pre-registered (A1/A2/B/C/D). Original CSVs recycled from Downloads (privacy).
-4. **SPAWN PROTOCOL codified** (Will-approved, all defaults): CLAUDE.md BOOT/EXECUTE(live-event override)/WRITE-BACK W1-W10 + DUE-scan + doc-mirror table. SCRATCH.md = this file. **First DUE-scan dogfood caught the predictions ledger wrong on all 3 numbers → TRUE 7W/7C/5A** (RED-12/13/14/17 CORRECT, RED-15 WRONG, RED-08 mirror drift fixed).
-5. Tool diagnosis: bare `python3` lacks yfinance by design (PEP-668); use `.venv/bin/python3`. MAINTENANCE entry; S16 venv punchlist closed.
+1. **VIOLET red-team sweep (Mode 1)** — deep read (STATUS/SCRATCH/thesis v3.5/TRADE/path-conditioned cut/KB-VIO-075..087) → `challenges/VIOLET_REDTEAM_SWEEP_2026-06-10.md`. Five challenges **CHG-RED-033..037**: (033 STRONG) VIX-side invalidation near-unfalsifiable — close-and-hold has no sustain-n, modal path touches the line; (034 MOD-STRONG) modal-touch-23 story 100% anchor-contingent, operational artifacts single-anchor vs her own KB-VIO-083 both-anchors rule, favorable anchor shrinks the 25-26 tail; (035 MOD/urgent) CCC 9.55 cross days away, pre-register 2-bin composition tree BEFORE it fires; (036 MOD-STRONG) 0.85 conditional cites demoted L2 absorbed-trap + unowned HAWK-scenario→premium translation; (037 STRONG) 9 Orch-caught numeric errors in 48h incl. repeated class — mechanize pre-FOMC. Steelman section + 6 dialogue questions + RED self-exposure included. ML-RED-081 logged.
+2. **Self-exposure acted on:** WL-01 sustain defined **s=3** in WATCHLINES.tsv (was free-riding VIOLET's undefined "close-and-hold"); FT-07 CCC−BB decomposition owed (queued below).
+3. Verbal assessment of VIOLET delivered to Will (process strengths: stand-down discipline, expensive-direction corrections; risks: Orch-dependence, competent-goalpost pattern, borrowed-parameter velocity). Clarified loaded-thesis ≠ time-to-act + walked the fade gate mechanics.
+4. STATUS updated (header, Open Challenges row, priority 1, Missing Data resolved). No confidence/weight change — no CHANGELOG entry (sweep is process-level, not assessment-moving).
 
 ## NEXT SESSION (priority-ordered)
-1. **Jun-stack execution support** (6/11 backstop → 6/18 expiry): menu in POSITION_RECONCILE; Will decides A1-vs-A2 (WAL $85P) + B (TLT x3).
-1a. *FOMC 6/17 pre-write — **Will-SNOOZED 6/10** ("a lot to work on before that"). Revisit no later than Mon 6/15 PM; the pre-catalyst-framework rule still applies, just not this week's lead item.*
-3. **HYG closure write-up** (before 6/18): inputs ready ($245.39 → ~$16, −93.5%).
-4. **SAM challenge follow-through**: confirm packet reached SAM pre-blackout (~6/13); scoring lands Jun 16-18 (CH-009 hold-branch test, CH-010 Branch-C split, CH-011 SAM-23, CH-032/CH-005 + 2wk).
-5. **Challenge-backlog disposition pass** — boot.py's first run exposed 14 stale ACTIVE rows in CHALLENGES.tsv (CHG-RED-006..022, Apr-era, 53-69d old; e.g. -008 rescue-at-20% vs current 4%, -018 owed-closure from Apr). Each needs a proper resolution note — focused pass, ~30-45 min.
-6. **thesis/TIMELINE.md refresh** (charter item 3) — unblocked by position reconcile; do after Will's Jun-stack calls.
-7. REGINALD/LIQUID re-pair when they refresh (LIQUID owes duration read at 30Y ~5.0%; REGINALD marking vs WAL $81.82 = 20% above V2.2 EV).
-
-## TOOLING (S17 evening)
-`scripts/boot.py` NEW + `docket/WATCHLINES.tsv` — one-command boot (tape/triggers/catalysts/DUE-scan); CLAUDE.md step 9 updated. Live-tested 5:11PM: VIX 22.22 (+11.8%, war leg escalating into close — VIOLET >23 line 0.78 away), Brent $94.71 (+3.6%).
+1. **🔴 Respond to other agents (Will's directive at close):** grade VIOLET's responses to CHG-RED-033..037 (converged / contested / escalate) — they're expected via Will from tonight's live VIOLET session. **035 is time-critical** — CCC cross possible on the very next FRED print; if she hasn't pre-registered the 2-bin tree, re-flag immediately.
+2. **Jun-stack execution support** (6/11 backstop — Will 6/10: "sell or roll if I can, tough spots, not a simple fix"; menu in `research/POSITION_RECONCILE_2026-06-10.md`).
+3. **SAM follow-through:** confirm challenge packet reached SAM pre-blackout (~6/13); CH-010 Branch-C split must land before 6/16 scoring.
+4. **RED self-exposure debt:** FT-07 CCC−BB/breadth decomposition (own trigger inherits the 035 critique) — workbook pass.
+5. **FOMC 6/17 pre-write** — revisit-by Mon 6/15 PM (Will-snoozed 6/10, do not let lapse).
+6. **Challenge-backlog disposition pass** (14 stale Apr CHG rows, ~30-45 min focused) + HYG closure write-up (before 6/18) + thesis/TIMELINE refresh — carried from S17.
 
 ## OPEN THREADS
-- **HY OAS 280 re-cross watch (daily)** — 278 on 6/9; sustained >280 un-fires FT-01, re-widens bifurcation.
-- **VIX >23 close-and-hold** — VIOLET invalidation line; 21.75 at ~3PM 6/10, watch into 6/16-17.
-- RED-10 (HY<400) + RED-08-class oil predictions score 6/30; RED-18 day ~23/60.
-- NEXUS_BRIEF enrollment for RED: **PARKED by Will 6/10 EOD** — handle in a fresh future session, not a near-term item.
-- KOYOMI-analog hygiene steward: still Will-deferred (S16).
+- **HY OAS 280 re-cross watch (daily)** — 278; sustained >280 un-fires FT-01.
+- **VIX >23 watch — now RED-defined s=3 closes** (WL-01); 22.22 settle, 0.78 away, BOJ/FOMC inside the window.
+- **CCC 9.55 (WL-05) — 4bp away, creeping**; tied to CHG-RED-035 pre-registration ask.
+- VIOLET dialogue channel: Will mediating live tonight; responses may arrive as VIOLET-side files or via Will verbally next session.
+- RED-10/RED-08-class score 6/30; RED-18 ~day 23/60. NEXUS_BRIEF enrollment PARKED (Will 6/10). KOYOMI-analog steward Will-deferred.
 
 ## PENDING WILL-DECISIONS
-- Jun-stack menu execution (WAL $85P A1/A2; TLT $85P x3 hold-thru-FOMC; dust sweep) — backstop 6/11.
-- SOFI/OWL Jun5 final outcomes (expired vs closed) — records only, no urgency.
+- Jun-stack menu (WAL $85P A1/A2; TLT $85P x3; dust) — Will intends sell-or-roll, acknowledges tough marks; support next session.
+- SOFI/OWL Jun5 final outcomes (records only).
 
 ## GIT STATE
-S17 commits 1-3 (catch-up/reconcile/scrub) SWEPT TO ORIGIN by the evening push window (push-train via WALTER ~5:15PM batch — expected pattern). Local-ahead at S17 close: RED protocol commit `849f51f1` + VIOLET scratch note `69c44964`. Push HELD per Will; next coordinated window sweeps them.
+Local-ahead at 17b close: S17 protocol/close commits (849f51f1, 69c44964, +2) + this session's 17b commit. Push HELD per Will; next coordinated window sweeps.
