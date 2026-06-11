@@ -48,7 +48,7 @@ FRED 6/10 print published mid-session (Will asked for the check): **CCC 9.57 ≥
 
 ## CARRY-FORWARD
 
-- **Push state: 2 commits local-ahead after this closeout (a49f94b3 + closeout commit) — LOCAL ONLY, push Will-coordinated.** Synced from origin at boot (clean; last night's window swept everything).
+- **Push state: FULLY SYNCED to origin — Will opened a push window 6/11 evening; pushed ba1525dc..71dd777f (9 commits: 6 VIOLET incl. the full sweep/tree/gate×tree record, 2 RED S18, 1 CARL swept along).** Only this push-state note follows.
 - **memory/auto/MEMORY.md modified (index line for the new auto-memory) — uncommitted, outside AGENTS/VIOLET; flag for the next Will-directed sweep** (precedent: 1f500717 was Will-directed).
 - **SAM active in the tree this morning** (STATUS/TIMELINE/workbook dirty) — pull protocol blocked any pull; none was needed (we were synced).
 - **Quote discipline:** distribution = decomposition only, never headline (KB-VIO-091); ladder = both anchors (KB-VIO-089); n=5 = TAIL-STOP not failure-catcher (KB-VIO-088); CCC cross = tree outcome, not "credit confirms" reflex (KB-VIO-090); VVIX-NEUTRAL = no calming weight (KB-VIO-093); M1:M2 quotes carry their settle DATE (KB-VIO-092).
