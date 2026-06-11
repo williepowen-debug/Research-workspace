@@ -2,6 +2,16 @@
 
 ---
 
+## ⚡⚡ EVENING ADDITION (post-settle): THE TAPE CALLED THE WAR'S BLUFF — AND THE GATE×TREE RULE GOT REGISTERED IN TIME
+
+**6/11 settles (verified 2-source vs Orch's side-window numbers — exact match): VIX 19.44 (−12.5%), VIX9D ratio 1.0628, VIX3M/VIX 1.1019 (contango RESTORED), VVIX 100.63, OVX 56.30 (−6.6%), WTI 86.42 (−4.0%).** The market crushed the entire war premium INTO kinetic headlines (strikes night 2, Hormuz "closed" claim, Kharg threat) — 3rd headline-vs-tape reversal in 36h; tape calls the closure theater. Classifier → LOW_VOL. Matrix 25→22/45 (script-verified).
+
+**Registered flat, tonight (KB-VIO-096): Bin-B BLOCKS new entry** — gate 1 is near (1.063 vs 1.05) and gate 2 (CCC <9.55) now disagrees with the tree about what 9.57 means; the rule kills tomorrow's improvisation risk. Block lifts on: CCC print <9.55 (Friday may moot) OR clean 6/17 re-check (then gate threshold re-marks WITH the tree line — one source of truth). Bin-A condition = gate fails outright.
+
+**Also tonight:** `--supersede` first live use worked (TICK→SETTLE row). **KB-VIO-089 ladder spot-clauses STALE** (computed from 22.22 → spot 19.44; re-derive before quoting). **Hedge DEFERRED** (midday pricing dead; needs HAWK closure-credibility read + re-run on 6/11 closes). **Honest tension logged:** AM read said P(Iran stabilizes) DOWN; PM tape priced it UP — holding the KB-VIO-091 mark per pre-registration discipline until HAWK re-marks.
+
+---
+
 ## ⚡ LATE-SESSION ADDITION (~11:30 AM): THE CROSS HAPPENED — TREE FIRED, BIN B
 
 FRED 6/10 print published mid-session (Will asked for the check): **CCC 9.57 ≥ 9.55** (+6bp war day) / HY 2.80 / BB 1.70 / IG 0.75 / disp 7.87. **Mechanical adjudication 2h after registration → BIN B MARGINAL-FAIL** (all breadth lines clean). NOT credit-confirms, NOT waived. **Re-check +5td = 6/17 data (FOMC day, publishes 6/18). Conversion watch DAILY: BB ≥1.73 (now 1.70 — broke its own range top 1.68!) / disp ≥8.00 (7.87, ties episode high) / HY ≥2.85 (2.80) / CCC ≥9.65 escalator (9.57).** Any one → Bin A = fade falsified via credit, full stop, broadcast. LIQUID movers read requested (NEXUS_BRIEF) for attribution — the 6/10 widening was broad-mild CCC-led, not pure-idiosyncratic texture. KB-VIO-094; STATUS/NEXUS_BRIEF updated; matrix held 🟠 BY THE TREE (verified 25/45).
@@ -29,8 +39,8 @@ FRED 6/10 print published mid-session (Will asked for the check): **CCC 9.57 ≥
 
 ## NEXT SESSION (priority-ordered)
 
-1. **🔴 EOD 6/11 (or next boot): `thresholds.py --supersede` after 16:15 ET** (today's row is TICK basis) + close-and-hold counter vs 23.0 + did the OVX/VIX gap close adverse or hold?
-2. **🔴 6/12 AM: FRED 6/11 print = first in-window Bin-B conversion read** — BB vs 1.73 (3bp away) / disp vs 8.00 (13bp) / HY vs 2.85 (5bp) / CCC vs 9.65 escalator (8bp). DONE for 6/10: cross happened, Bin B adjudicated (see ⚡ above).
+1. ~~EOD `--supersede`~~ **DONE** (evening session; VIX 19.44 settle row in). Counter 0/5; OVX/VIX resolved by BOTH crushing.
+2. **🔴 6/12 AM: FRED 6/11 print — DOUBLE-DUTY read:** (a) Bin-B conversion watch (BB vs 1.73 / disp vs 8.00 / HY vs 2.85 / CCC vs 9.65); (b) **Bin-B BLOCK-LIFT check: CCC <9.55 re-opens the entry gate as written (KB-VIO-096)** — the 6/11 broad rally likely pulled CCC in. Also: ladder re-derivation (KB-VIO-089 spot-clauses stale, spot 19.44); SKEW 20d-avg refresh w/ 6/11 print (142.98); M2:M3 settle re-pull; gate 1 re-check (ratio 1.0628 — one more leg down passes it, but the Bin-B block governs until lifted).
 3. **🔴 Iran daily: OVX/VIX gauge; HAWK re-mark integration** through the KB-VIO-091 translation layer when it lands (ask sharpened: split C hot/frozen).
 4. **🟡 COT Fri 6/12** (first post-spike read) · **🟡 BOJ fuel-load Sat 6/13 (SAM)** · **🔴 BOJ 6/16** · **🔴 FOMC+SEP+expiry+M1-expiry 6/17**.
 5. **🟠 L2 σ carve-out backtest — promoted:** the 0.75 conditional is conditioned on it (absorbed-streak struck pending this test).

@@ -73,7 +73,7 @@ VIX-linked positions and trade framework.
 
 **Entry gate (ALL required, post-print):**
 1. CPI non-tail — front collapses (VIX9D/VIX ratio decisively off 1.114 toward ≤1.05; M1 deflates)
-2. Credit stays clean — HY <2.85, CCC <9.55 (VIOLET range-break level — NOT a LIQUID line, mis-attribution corrected 6/11; LIQUID's CCC threshold is 1000bp. FRED T+1 check)
+2. Credit stays clean — HY <2.85, CCC <9.55 (VIOLET range-break level — NOT a LIQUID line, mis-attribution corrected 6/11; LIQUID's CCC threshold is 1000bp. FRED T+1 check). **GATE×TREE INTERACTION — registered 6/11 evening, flat and pre-tape (KB-VIO-096): an unresolved Bin-B state BLOCKS new entry even though it does not falsify the framework.** Entry asymmetry is deliberate: entering requires stricter evidence than not-exiting. The Bin-B block lifts on the FIRST of: (i) any official CCC print back below 9.55 (gate 2 re-passes as written); (ii) the +5td re-check (6/17 data) resolving clean (breadth clean AND CCC <9.65) — at which point the line re-marks upward in writing and **gate 2's threshold re-marks WITH it** (the gate and the tree must always reference the same line — one source of truth; a re-marked tree with a stale gate recreates this exact ambiguity). Any Bin-A condition during the window = gate 2 fails outright, entry dead this cycle. No improvised "9.5x is basically fine" calls inside the window.
 3. AI-unwind leg not re-extending — NVDA/SMH stable-or-up post-print (HENRY read)
 4. `convexity_read.py` post-print still locates a rich hump worth selling (M2 premium vs M3 above normal)
 5. BOJ 6/16 risk priced: enter ≤50% size before BOJ, or wait until 6/16 post-MPM for full size
