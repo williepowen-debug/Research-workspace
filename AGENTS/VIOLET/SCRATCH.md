@@ -31,7 +31,7 @@
 ## CARRY-FORWARD
 
 - **Push state: FULLY SYNCED to origin as of ~9:30 PM ET 6/10** — Will opened a window post-closeout (laptop switch); pushed 30f285c0..a5e181be (c877b84b + closeout; f9552e2c had already gone up in SAM's evening push-train). Origin = the complete 6/10 record incl. the RED-sweep session. Only this push-state note commit follows.
-- **Auto-memory `finding_sustain_count_role_discriminating_power` written + indexed but UNCOMMITTED** (outside AGENTS/VIOLET — left for the Will/Orch sweep, same pattern as the 6/10 PM ladder finding).
+- **Auto-memory `finding_sustain_count_role_discriminating_power`: COMMITTED + PUSHED (1f500717, Will-directed pre-laptop-switch)** — laptop boots load it via memory/auto/ sync. Nothing pending.
 - **Quote discipline (extended):** KB-VIO-087 decomposition + **both anchors always** (KB-VIO-089); ladder uses with table rates pair ONLY with lowest-base levels (KB-VIO-084 construction). The Iran term is not ours to own.
 - **n=5 is a tail-stop, NOT a failure-catcher** — if someone quotes it as "the invalidation," correct them; credit + time-box carry the real falsification weight (KB-VIO-088).
 - **KB.tsv hygiene:** legacy rows 007-009 still 12-field (pre-existing); fold into next workbook pass.
