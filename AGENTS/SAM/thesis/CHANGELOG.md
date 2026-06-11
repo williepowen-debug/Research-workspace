@@ -8,6 +8,18 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-06-10 (evening) — v1.5.1 follow-on: RED pre-BOJ packet remainder (CH-010/011/032) — Branch C split, SAM-23 re-derived ~35 pending, target band reclassified conditional-tail
+
+**Author:** SAM (Will-directed; responses pre-blackout per RED's filing discipline). Canonical: `research/2026-06-10_ch010_011_032_responses.md`. Companion to the CH-009 re-derivation (same day).
+**Action:** No version bump. **No mark changes tonight** — all re-derivations apply at the Sat Jun 13 consolidated re-mark (now five inputs: CFTC gate, taper-pause tail-shrink, Fed anchor→~0, SAM-21→~90 per CH-009, SAM-23→~35 per CH-011), each with pre-registered void conditions.
+
+1. **CH-010 ACCEPTED — Branch C split applied to STRATEGY disposition (scoring frame, pre-event):** C1 political-attribution hold = vindicate/widen as written; C2 fiscal/long-end hold = ceiling discount NOT vindicated, CH-008 scores instead; C-ambiguous = provisional 10-15pp + mandatory post-mortem. One hold cannot pay both frames.
+2. **CH-011 ACCEPTED IN SUBSTANCE — SAM-23 re-derived 72% → ~35% (band 25-45), apply Sat Jun 13.** Old view: 160 = hard trigger, intervention #3 ~72% by Jun 16. New view: MOF's trigger is *disorder, not level* — 4 trading days at/above 160 with no strike falsifies the level-anchor as sufficient; orderly USD-driven tape (normal intraday ranges, cross-pair yen bid) lacks both G7 cover and efficacy (CH-003); post-hold spike — the high-P(strike) branch — lands outside the "before June BOJ" scoring window. Posture evidence (Katayama verbals, Bessent alignment) survives as P(strike|disorder), not P(strike). Absorbs carry-forward #6: trigger-spec re-anchoring (driver/disorder dimension + no-strike decay clause) to post-Jun-16 entry. Downstream: MOF #3 is top bucket contributor — 7d ~14%→~10-11%; 30d/60d MOF anchor restructured scenario-weighted at the same pass; buckets ship to LIQUID/HENRY Saturday.
+3. **CH-032 ACCEPTED DIRECTIONALLY — target band reclassified (interim flag, not rewrite):** old view: $60-62 / USDJPY 148-152 as the 6-month target "grounded in pillar math." New view under Fed-hike regime: modal 3-6mo ≈ **FXY $57.5-59.5 / USDJPY 154-160** (~25bp net differential compression, cross-pair demand, intervention topside cap); **$60-62 = conditional-tail ~25-30%** via four routes (hawkish-of-pricing BOJ / US credit event / risk-off cascade through positioning / Fed-pricing unwind). Pillar audit: P1 inverts, P2's forcing job done/priced, P3 gated with no modal path to 145, P4 amplifier-without-modal-trigger (pushback recorded: short-cover washout is mechanically yen-POSITIVE — RED's point survives as "fuel can dissipate quietly"). Hold-row backstop language replaced in STRATEGY. Conditional on Sat Fed-pricing re-verify; full pillar re-derivation = v1.6 (after Jun 16-18 scoring, RED pass before commit).
+4. **Standing:** CH-004 RESOLVED-CONVERGED concurred; VX-RED-024 concurred (fully-priced BOJ = no US-paper transmission in modal branch).
+
+---
+
 ## 2026-06-10 (PM) — v1.5.1 follow-on: Norinchukin FY2025 gate RESOLVED NOT REACTIVATED — Channel 1's last near-term reactivation candidate closes; "¥9.7T shrinking" claim falsified
 
 **Author:** SAM (Will-directed pull; primary-source verified before propagation per [[finding_ohlc_verify_before_session_claims]] discipline)
