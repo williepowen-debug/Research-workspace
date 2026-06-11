@@ -1,6 +1,4 @@
 date	event	what_to_check	threshold_signal	priority	who_cares	notes
-2026-06-10	BLS May CPI	Headline+core MoM/YoY; Food at Home	Iran+tariff 2nd month; CRL-10 food decomposition	🔴	CARL	8:30 ET (verified). Apr 3.8% reaccel; feeds FOMC one week ahead.
-2026-06-11	BLS May PPI	Headline + core + core-core	Stagflation goods vs services breadth	🟠	CARL	~day after CPI. Pipeline to CPI/PCE.
 2026-06-12	UMich sentiment prelim (June)	Headline + 1Y + 5-10Y inflation exp	V12 5-10Y >3.5% Fed red line; K-shape sentiment	🔴	CARL	2nd Fri. Apr Final 5-10Y 3.5% un-anchored; May ~44 record low.
 2026-06-15	Sweet v. McMahon Full Settlement Relief notice deadline	Notice mailing actually begins?	~170-271K cohort tradeline-deletion / bounded counter-signal	🟠	CARL,STUE	PPSL court-compelled. DOE missed both prior (Jan 28 + Apr 15). Miss = same auto-relief mechanism continues. Watch PPSL case-page Jun 15-20 window.
 2026-06-16	Retail Sales (May)	Control group; gas-station distortion	Consumer spending; forced-consumption (savings 2.6%)	🟠	CARL	~mid-month. Mar +1.7% (gas +15.5% record distortion).
@@ -28,4 +26,4 @@ date	event	what_to_check	threshold_signal	priority	who_cares	notes
 2026-08-13	Affirm FQ4 + Klarna Q2 (BNPL)	GMV; DQ; profitability	BNPL survivor-bias vs consumer-cohort 41% late	🟡	CARL,PHAN	Approx mid-Aug. Klarna Q1 was profitable counter-signal.
 2026-08-15	NY Fed Q2 2026 HHDC	CC 90+ DQ vs GFC 13.74%	CRL-05 next breach window (Q1 13.1%, gap 0.64pp)	🔴	CARL	Direct CRL-05 test. Approx mid-Aug release.
 2026-08-31	FL + national UI exhaustion peak	$7.4M/mo FL + $800-930M/mo national hole	CRL-07 peak; Q3 consumption-stress quarter	🔴	CARL,LABOR	Jul-Aug peak window.
-2026-09-15	Food CPI YoY approaching/breaching 4%	Food at Home YoY trajectory	CRL-10 (>4% Q4 2026, possibly pulling to Q3)	🟠	CARL	Apr Food at Home +0.7% MoM = pulling forward vs Q4 baseline.
+2026-09-15	Food CPI YoY approaching/breaching 4%	Food at Home YoY trajectory	CRL-10 (>4% Q4 2026)	🟠	CARL	May FaH +0.1% decel — pull-forward withdrawn Jun 11; Q4 baseline.
