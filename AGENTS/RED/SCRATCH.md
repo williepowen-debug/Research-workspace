@@ -42,4 +42,4 @@
 - SOFI/OWL Jun5 final outcomes (records only).
 
 ## GIT STATE
-All S17 commits SWEPT TO ORIGIN by Will's ~9:30 PM push window (per VIOLET's push-state note). Local-ahead at 17b close: exactly ONE commit — the S17b sweep/close commit. Push HELD per Will; next coordinated window sweeps it.
+Push window LIVE through tonight — commits being swept to origin within minutes (S17 + the 17b close commit all already on origin at close). At most the final SCRATCH-correction commit remains local; treat as effectively synced and verify with `git status` at next boot, don't hash-chase. **Origin tip at close was an auto-memory commit from VIOLET's side ALREADY responding to CHG-RED-033** (sustain-count lesson) — her sweep responses are in flight tonight; expect more on next pull.
