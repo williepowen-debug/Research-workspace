@@ -18,6 +18,9 @@ resources: 1
 safety_net: clear (Brent threshold + cluster-membership are intra-domain, not pan-network safety-net trigger; VIX 18 close Apr 27, no HY OAS widening)
 
 word_count: 420
+
+# cluster backfilled 2026-06-10 from INDEX section placement (pre-v0.7 signal; cluster field added to FORMAT_SPEC 2026-05-05)
+cluster: IRAN_HORMUZ
 ---
 
 ## Signal

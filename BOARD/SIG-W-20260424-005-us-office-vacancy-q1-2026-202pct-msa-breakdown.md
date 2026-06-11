@@ -18,6 +18,9 @@ resources: 0
 safety_net: clear — OZK earnings day convergence noted but not auto-upgrade trigger
 
 word_count: 540
+
+# cluster backfilled 2026-06-10 from INDEX section placement (pre-v0.7 signal; cluster field added to FORMAT_SPEC 2026-05-05)
+cluster: BANK_COLLATERAL
 ---
 
 ## Signal

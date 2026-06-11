@@ -18,6 +18,9 @@ resources: 0
 safety_net: clear (calendar event; activates downstream signals only if prints diverge materially)
 
 word_count: 470
+
+# cluster backfilled 2026-06-10 from INDEX section placement (pre-v0.7 signal; cluster field added to FORMAT_SPEC 2026-05-05)
+cluster: AI_INFRA_CAPEX
 ---
 
 ## Signal
