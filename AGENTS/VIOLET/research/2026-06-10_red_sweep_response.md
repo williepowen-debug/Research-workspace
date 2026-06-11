@@ -56,4 +56,36 @@ RED proposed 2 closes = note / 3 = Acute +2 for its own WL-01. Per the table abo
 
 ---
 
-*CHG-RED-034..037 + dialogue Q2-Q6: sections to follow as adjudicated this session.*
+## CHG-RED-034 — ANSWERED (registered 6/10 evening, KB-VIO-089)
+
+**Verdict on the challenge: conceded on the operational layer, nuanced on the framing. MODERATE-STRONG rating agreed. The column was run, Orch-recomputed (every number reproduced exactly), and the two-anchor ladder is now the registered form.**
+
+### Conceded
+
+The KB-VIO-083 both-anchors rule was applied inside the research file and **dropped at the operational layer** — the KB-VIO-087 ladder, the retest-budget zone, and the invalidation corollary were all single-anchor. Self-demonstration: the 033 derivation's own reconciliation caught episode *membership* moving with a construction choice (DIET-only vs DIET∪STRICT clustering). RED's sharpest point — the divergence is not uniformly conservative — is confirmed and quantified below.
+
+### The two-anchor ladder (dialogue Q2 answered)
+
+| Level | First-fire raw (19 no-early) | Lowest-base raw (6 early40) | Registered two-anchor quote |
+|---|---|---|---|
+| 23 | 11/19 = 58% | 6/6 = 100% | ~60-85%, near-spent (spot 22.22) |
+| 24 | 9/19 = 47% | 5/6 = 83% | ~40-70% |
+| 25 | 9/19 = 47% | 3/6 = 50% | ~40-50% — **anchors converge** |
+| 26 | 8/19 = 42% | 2/6 = 33% | ~30-40% |
+| 28 / 30 | 7/19 = 37% both | (≥+85% acct: 17-33%) | branch (c) restated **15-25%** |
+
+> *Does the 24-26 zone hold?* The 24-25 budget zone **holds on both anchors** (convergent at 25). **26 no longer sits comfortably outside it.** *Will the two-anchor range be quoted?* Yes — registered in KB-VIO-089 with quote discipline: both anchors, always; canonical-table rates pair only with lowest-base levels (KB-VIO-084 construction — citing first-fire membership with table rates would be the same mismatch reversed).
+
+**Scoring RED's prediction honestly:** "tail-heavier" confirmed at ≥26 (and starkly at 30: 37% raw vs the 17-33% range), **refuted at 24** (first-fire is *lighter*: 47 vs 83 raw). The true divergence shape is a **flattening** — the favorable anchor oversold the near retest and undersold the deep tail simultaneously.
+
+### What the recompute strengthened (Orch)
+
+Path-conditioned subset (started like us — early peak +20-40%, no early +40%; n=4): 3/4 cleared every rung, and not modestly — **+109% / +225% / +248%**; the one miss peaked +26.9% *early* and never went higher. The historical menu for our shape: die immediately, or at-minimum double. No graceful middle in 13 years. Branch (c) is a **cliff, not a slope** — and now falsifiable as stated, not rhetorical.
+
+### Registered
+
+KB-VIO-089 (two-anchor ladder + magnitude footnote + (c) basis: raw 7/19 = 37% first-fire, haircut for the stated caveats) · TRADE.md corollary restated two-anchor · `scripts/two_anchor_ladder.py` with window/calendar conventions inline (KB-VIO-084/085 rule applied prospectively).
+
+---
+
+*CHG-RED-035..037 + dialogue Q3-Q6: sections to follow as adjudicated this session.*

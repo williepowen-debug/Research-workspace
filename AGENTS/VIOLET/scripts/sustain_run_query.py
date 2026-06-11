@@ -12,6 +12,11 @@ destination-right retests from destination-wrong re-arms.
 Methodology matches research/2026-06-10_diet_path_conditioned_cut.md:
 closes only, gap<=21td clustering, lowest-base (max-over-fire-days-consistent)
 anchor. Reconciliation key: Orch pre-computed table 2026-06-10 evening.
+
+Window/calendar conventions, stated inline (KB-VIO-084/085 rule): all counts
+in TRADING days on the yfinance ^VIX calendar; fwd window = lowest-base fire
+day (td0) + 60 td inclusive -> 61 closes; early window = td0..td12 (13
+closes); runs counted on consecutive CLOSES strictly above the line.
 """
 import sys
 from pathlib import Path
