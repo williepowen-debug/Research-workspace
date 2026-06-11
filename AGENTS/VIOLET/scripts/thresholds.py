@@ -104,8 +104,10 @@ def determine_regime(vix: float | None) -> str:
     return "CRASH"
 
 
-def append_daily_log(row: dict) -> bool:
-    """Append one row keyed by date. Skip if date already present.
+def append_daily_log(row: dict, supersede: bool = False) -> bool:
+    """Append one row keyed by date. Skip if date already present, unless
+    supersede=True (an EOD SETTLE-basis run replacing an intraday TICK row —
+    the tick-not-settle class, CHG-RED-037b; a TICK run never supersedes SETTLE).
     Skip on weekends — markets closed, the row would just carry forward
     Friday's quote (caught 2026-06-06 Saturday phantom).
     """
@@ -117,21 +119,32 @@ def append_daily_log(row: dict) -> bool:
             return False
     except (KeyError, ValueError):
         pass
-    existing_dates = set()
     with open(DAILY_LOG) as f:
         header = f.readline().strip().split("\t")
-        for line in f:
-            parts = line.strip().split("\t")
-            if parts and parts[0]:
-                existing_dates.add(parts[0])
-    if row["date"] in existing_dates:
-        return False  # already logged today
+        lines = f.readlines()
+    existing_idx = None
+    for i, line in enumerate(lines):
+        parts = line.strip().split("\t")
+        if parts and parts[0] == row["date"]:
+            existing_idx = i
+            break
+    new_line = "\t".join(str(row.get(col, "")) for col in header) + "\n"
+    if existing_idx is not None:
+        old_basis = lines[existing_idx].strip().split("\t")
+        old_basis = old_basis[header.index("basis")] if "basis" in header and len(old_basis) > header.index("basis") else ""
+        if not supersede or (old_basis == "SETTLE" and row.get("basis") != "SETTLE"):
+            return False  # already logged today (and TICK never overwrites SETTLE)
+        lines[existing_idx] = new_line
+        with open(DAILY_LOG, "w") as f:
+            f.write("\t".join(header) + "\n")
+            f.writelines(lines)
+        return True
     with open(DAILY_LOG, "a") as f:
-        f.write("\t".join(str(row.get(col, "")) for col in header) + "\n")
+        f.write(new_line)
     return True
 
 
-def build_report() -> dict:
+def build_report(supersede: bool = False) -> dict:
     now = datetime.now(timezone.utc)
     spot = fetch_spot()
     m1m2 = fetch_m1m2()
@@ -144,16 +157,28 @@ def build_report() -> dict:
     m1m2_adj = None
     m1_sym = ""
     m2_sym = ""
+    m1m2_settle_date = ""
     if "_error" not in m1m2 and m1m2:
         m1m2_strict = m1m2["strict"]["steepness_pct"]
         m1m2_adj = m1m2["adjusted"]["steepness_pct"]
         m1_sym = m1m2["adjusted"]["front"]["symbol"]
         m2_sym = m1m2["adjusted"]["back"]["symbol"]
+        # vix_futures.py defaults to YESTERDAY's official settlement — the
+        # m1m2 columns are T-1 vs the row date by construction. Carry the
+        # settlement's own date so no reader mistakes it for a same-day value
+        # (CHG-RED-037b; the 6/10 "+7.98% re-armed" misread was this class).
+        m1m2_settle_date = m1m2.get("as_of", "")
+
+    et_now = now.astimezone(ET)
+    # Spot quotes before the 16:15 ET official settle are intraday ticks,
+    # not the daily record — label the row so adjudications can't quote a
+    # tick as a settle (futures-settle rule, auto-memory 337f0cfc).
+    basis = "SETTLE" if (et_now.hour, et_now.minute) >= (16, 15) else "TICK"
 
     row = {
         # ET date, not UTC — an evening run after 8pm ET would otherwise
         # stamp tomorrow's date (caught 2026-06-09 20:29 ET → "2026-06-10" row)
-        "date": now.astimezone(ET).strftime("%Y-%m-%d"),
+        "date": et_now.strftime("%Y-%m-%d"),
         "vix": spot.get("vix") or "",
         "vix3m": spot.get("vix3m") or "",
         "vix6m": spot.get("vix6m") or "",
@@ -166,6 +191,8 @@ def build_report() -> dict:
         "m2_symbol": m2_sym,
         "regime": determine_regime(spot.get("vix")),
         "source_ts": now.isoformat(timespec="seconds"),
+        "basis": basis,
+        "m1m2_settle_date": m1m2_settle_date,
     }
 
     classifications = {
@@ -176,7 +203,7 @@ def build_report() -> dict:
         "m1m2_adj": classify("m1m2_adj_pct", m1m2_adj),
     }
 
-    appended = append_daily_log(row)
+    appended = append_daily_log(row, supersede=supersede)
 
     return {
         "row": row,
@@ -191,6 +218,8 @@ def print_report(rep: dict):
     cls = rep["classifications"]
     print(f"VIOLET THRESHOLDS  {row['date']}  UTC {row['source_ts'][-8:]}")
     print(f"  Regime: {row['regime']}")
+    if row.get("basis") == "TICK":
+        print(f"  ⚠️  BASIS: TICK (pre-16:15 ET) — spot values are intraday, NOT the daily settle")
     print(f"")
     print(f"  {cls['vix']} VIX        {row['vix']:>7}")
     print(f"     VIX3M      {row['vix3m']:>7}")
@@ -201,7 +230,8 @@ def print_report(rep: dict):
     if row['m1m2_adj_pct'] != "":
         adj = rep['m1m2_raw']['adjusted']
         strict = rep['m1m2_raw']['strict']
-        print(f"  {cls['m1m2_adj']} M1:M2 adj  {row['m1m2_adj_pct']:>+7.2f}%  ({row['m1_symbol']}/{row['m2_symbol']})  [{adj['classification']}]")
+        settle_note = f"settle {row['m1m2_settle_date']}" if row.get('m1m2_settle_date') else "settle date unknown"
+        print(f"  {cls['m1m2_adj']} M1:M2 adj  {row['m1m2_adj_pct']:>+7.2f}%  ({row['m1_symbol']}/{row['m2_symbol']})  [{adj['classification']}]  [{settle_note} — T-1 vs row date]")
         if strict['steepness_pct'] != adj['steepness_pct']:
             print(f"     M1:M2 strict {strict['steepness_pct']:+.2f}%  ({strict['m1_days_to_expiry']}d to M1 expiry, roll-contaminated)")
     else:
@@ -224,9 +254,11 @@ def print_report(rep: dict):
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--json", action="store_true", help="Emit JSON instead of text")
+    parser.add_argument("--supersede", action="store_true",
+                        help="Replace today's existing row (EOD SETTLE run replacing an intraday TICK row; TICK never overwrites SETTLE)")
     args = parser.parse_args(argv)
 
-    rep = build_report()
+    rep = build_report(supersede=args.supersede)
 
     if args.json:
         print(json.dumps(rep, indent=2, default=str))

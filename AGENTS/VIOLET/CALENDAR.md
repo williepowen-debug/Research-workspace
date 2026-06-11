@@ -88,7 +88,7 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 | 20d SKEW avg + 5td_change | Per boot during knife-edge | inline calc | 2026-06-09 (thru 6/9 close; margin +0.59) |
 | Catalyst countdown | Every boot (auto in boot.py) | `scripts/catalyst_countdown.py` | 2026-06-10 |
 | VIX options OI | Every boot (auto in boot.py; evening runs print OI=0 after hours — artifact, use intraday) | `scripts/vix_options.py` | 2026-06-10 |
-| VX_DAILY.tsv time series | Daily (auto-append at boot; gap-check after skipped days, KB-VIO-076) | `scripts/thresholds.py` → append; `scripts/backfill.py` for gaps | 2026-06-10 (intraday row; EOD supersede pending) |
+| VX_DAILY.tsv time series | Daily (auto-append at boot; **EOD `--supersede` run after 16:15 ET on AM-boot days**; gap-check after skipped days, KB-VIO-076) | `scripts/thresholds.py` (schema v2: basis TICK/SETTLE + m1m2_settle_date — m1m2 is T-1 vs row date by tool design, KB-VIO-092); `scripts/backfill.py` for gaps | 2026-06-11 (TICK row; EOD supersede owed) |
 | CFTC COT VIX futures | Weekly Fri 3:30pm ET (Tue position-snap; auto in boot.py) | `scripts/cftc_cot.py` (`--boot` freshness-gated; `--backfill` rebuild) | 2026-06-05 release (6/2 positions); next Fri 6/12 |
 | NAAIM + ICI equity positioning | Weekly Wed/Thu | `scripts/equity_positioning.py` (**not yet built**) | Not wired |
 
