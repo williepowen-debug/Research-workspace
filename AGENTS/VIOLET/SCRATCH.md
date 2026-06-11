@@ -30,7 +30,7 @@
 
 ## CARRY-FORWARD
 
-- **Push state: 2 evening commits LOCAL (f9552e2c, c877b84b) + this closeout commit — on Orch's deferred queue; Orch sweeps them at the next push window.** Origin = complete corrected 6/10 record through ~7:30 PM + SAM's evening push-train (30f285c0).
+- **Push state: FULLY SYNCED to origin as of ~9:30 PM ET 6/10** — Will opened a window post-closeout (laptop switch); pushed 30f285c0..a5e181be (c877b84b + closeout; f9552e2c had already gone up in SAM's evening push-train). Origin = the complete 6/10 record incl. the RED-sweep session. Only this push-state note commit follows.
 - **Auto-memory `finding_sustain_count_role_discriminating_power` written + indexed but UNCOMMITTED** (outside AGENTS/VIOLET — left for the Will/Orch sweep, same pattern as the 6/10 PM ladder finding).
 - **Quote discipline (extended):** KB-VIO-087 decomposition + **both anchors always** (KB-VIO-089); ladder uses with table rates pair ONLY with lowest-base levels (KB-VIO-084 construction). The Iran term is not ours to own.
 - **n=5 is a tail-stop, NOT a failure-catcher** — if someone quotes it as "the invalidation," correct them; credit + time-box carry the real falsification weight (KB-VIO-088).
