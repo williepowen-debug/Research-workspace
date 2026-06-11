@@ -1,10 +1,12 @@
 # VIOLET — NEXUS Brief
 
-**Status:** 🟠 v3.5 — 6/11 ~11:30 AM: **CCC CROSSED 9.55 (9.57 on the 6/10 print) → TREE FIRED FIRST TIME: BIN B MARGINAL-FAIL** (breadth clean — HY 2.80 / BB 1.70 / disp 7.87, all below A-lines; re-check 6/17 data; **BB broke its own range top, 3bp from Bin-A conversion**). Earlier: RED sweep COMPLETE (5/5 + Q1-Q6); fade re-marked ~20-26% (KB-VIO-091); war ESCALATED overnight (US strikes day 2, IRGC formal Hormuz closure declaration [AJ-verified]) yet equity vol EASING (VIX ~21.5) while OVX bids 62.7 — OVX/VIX gap re-opens; stand-down REINFORCED; close-and-hold 0/5
+**Status:** 🟡 v3.5 — 6/11 EOD: **VIX SETTLED 19.44 (−12.5%) — the tape crushed the war premium INTO kinetic headlines** (strikes night 2 + Hormuz "closed" claim + Kharg threat; 3rd headline-vs-tape reversal in 36h — market calls the closure theater); contango restored (1.102), classifier LOW_VOL, matrix 22/45. **Same day: CCC crossed 9.55 (9.57) → tree fired first time → BIN B marginal-fail** (breadth clean; re-check 6/17 data; BB 3bp from conversion). **Gate×tree rule registered tonight flat (KB-VIO-096): Bin-B BLOCKS new fade entry** (gate 1 near: ratio 1.063 vs ≤1.05) until CCC <9.55 or clean re-check. Ladder spot-clauses STALE (re-mark trigger fired, spot 22.22→19.44). RED sweep COMPLETE (5/5 + Q1-Q6); fade ~20-26% (KB-VIO-091, held pending HAWK)
 **Domain:** VIX / vol term structure / SKEW / VVIX / credit-to-vol transmission timing; broadcasts vol-regime to HENRY/LIQUID/RED; receives from BROCK/HENRY/HAWK/LIQUID
 **Thesis version:** v3.5 (no bump — sweep produced refinements, not reversals)
 **Recent thesis pivot:** Sweep completion 6/11: distribution re-marked through a **registered scenario→premium translation layer** (HAWK-C stalemate ≠ premium deflation; x≈0.45) — fade ~20-26% / stand-aside ~50-60% / tail 15-25% upper-half. **M1:M2 record corrected (KB-VIO-092):** contango never "re-armed" 6/10 — it collapsed to +3.74% via M1 absorbing the war premium; M2:M3 (the fade's spread) half-deflated to 1.81%. **VVIX-conditional-NEUTRAL retired from calming work** (KB-VIO-093).
-**As of:** 2026-06-11 ~11:45 AM ET (sweep-completion session + CCC-cross adjudication) | STATUS commit: see session-close commit (KB-VIO-094 in the same batch)
+**As of:** 2026-06-11 EOD (evening session: settles verified, gate×tree registered, ladder stale-marked) | STATUS commit: session-close commit (KB-VIO-096 batch)
+
+**⚠️ FRESHNESS NOTE for consumers:** the VIEW/CALIBRATION sections below were drafted midday (VIX ~21.5 basis) and partially superseded by the EOD crush — the Status line above and STATUS.md carry the settle-basis record. Key deltas: OVX/VIX gap resolved by BOTH crushing (not re-opening); war vector downgraded 🔴→🟠 on tape (NOT substance — HAWK credibility read pending); hedge flag deferred pending fresh pricing. Full midday→EOD reconciliation: SCRATCH ⚡⚡ block + KB-VIO-096.
 
 ---
 
