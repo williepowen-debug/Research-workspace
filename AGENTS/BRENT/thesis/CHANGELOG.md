@@ -28,7 +28,7 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 - Tick-vs-average comparison error (B2) accepted — class: respect the comparator's time-aggregation when quoting gaps.
 - Physical/price divergence now the cycle's sharpest: −15M/wk total draws + SPR through floor + util >95% against an $88-handle tape pricing the de-escalation arc. If de-escalation stalls, this is stored snap-back energy.
 
-**v3.1 bump:** still pending — gate moved from "Thu CPI batch" (which fired Wed) to today's settles (Trigger #1 close #2, Brent sub-$88 close #1 candidate) + COT 3:30 + Baker Hughes. Bump decision at closeout.
+**v3.1 bump:** still pending — gate moved from "Thu CPI batch" (which fired Wed) to today's settles (Trigger #1 close #2, Brent sub-$88 close #1 candidate) + COT 3:30 + Baker Hughes. Session closed out ~13:00 before those landed → **bump decision transfers to next boot** (same-day reboot expected; SCRATCH FIRST MOVES #4).
 
 ---
 
