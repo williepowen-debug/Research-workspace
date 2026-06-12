@@ -6,6 +6,16 @@ Trigger to log here: any closeout that updates `thesis/VIX_THESIS.md`.
 
 ---
 
+## Intra-v3.5 dated note — 2026-06-12 AM (POV pivot: branch-weight rotation; fade weakened / coiled-spring strengthened; no version bump)
+
+- **Old view (6/11 EOD):** Fade-leaning posture with stand-down reinforced; KB-VIO-091 distribution fade ~20-26% / stand-aside ~50-60% / tail 15-25% upper-half. Entry waiting on gate 1 (VIX9D ratio ≤1.05) + Bin-B block lift (CCC <9.55 print or clean 6/17 re-check). Ladder spot-clauses STALE-marked pending re-derivation. Coiled-spring component re-forming flagged as a "watch, not fire" (3rd-day SKEW margin widening +0.85 noted but pattern not yet adjudicated as formal).
+- **New view (6/12 AM):** Ladder re-derivation (KB-VIO-099) surfaced a structural finding — the same −12.5% war-premium crush that produced the 6/11 settle simultaneously **hurt the fade economics and strengthened the coiled-spring setup**. Fade: from a sub-20 entry, the fade target 16-17 offers only ~10-15% reward room while the unchanged historical retest precedent (24-25 = +24-31% from spot) means the same adverse-move risk — and the "budget zone 24-25" framing assumed a near-peak entry, so it's structurally retired for sub-20 entries (concept doesn't translate by re-marking distances). Coiled-spring: vol crushed harder, SKEW didn't participate (textbook compression-divergence signature), 20d-avg margin widening into the crush is the structural component re-forming under deflated spot. Net: **branch weight shifts toward long-vol / tail expression** and AWAY from the fade's clean economics. **KB-VIO-091 numbers HELD per pre-registration discipline** (no formal re-mark trigger fired — HAWK / BOJ 6/16 / FOMC 6/17 / Hormuz leakage are the registered triggers). Convergence matrix +1 to 23/45 (SKEW elevation 🟡→🟠 on the compression evidence; script-verified).
+- **Methodology by-catch (KB-VIO-099):** the "retest budget zone" framing was anchor-bound to a near-peak entry; from a deflated entry the same VIX levels become tail events, not budget. Concept FAILURE on re-marking, not just numerical drift — the entry-anchored ladder needs to be derived AT pricing time for sub-20 entries, not pre-registered against a hypothetical. Also: L1 canonical +50% line anchor-bifurcates (VIX 26.16 from first-fire 17.44 vs ~29 from current spot) — KB-VIO-083/084 anchor-discipline reinforced; canonical-table rates pair ONLY with lowest-base levels.
+- **Predictions touched:** None resolved; fade-entry decision still gated.
+- **Why no bump:** Branch-weight redistribution inside an existing two-branch framework (fade + coiled-spring/external-catalyst tail = KB-VIO-039) is a POV pivot, not a structural change. No new mechanism; the same tape move produced asymmetric effects on the two existing branches.
+
+---
+
 ## Intra-v3.5 dated note — 2026-06-10 PM (POV pivot: two-leg → three-leg, war-gated fade; invalidation re-graded close-and-hold; no version bump)
 
 - **Old view (6/9 EOD):** Fade-leaning two-leg read (rate-shock deflated + AI-unwind open) into the 6/10 CPI gate; pre-registered Event-Premium Fade entry adjudicates post-print. Invalidation "VIX >23 sustained" read informally. Conversational tail ~10-15% for VIX-30-class.
