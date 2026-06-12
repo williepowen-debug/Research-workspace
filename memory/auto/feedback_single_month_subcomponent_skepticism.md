@@ -18,4 +18,6 @@ When integrating a print where a SUB-COMPONENT metric (ISM internals like New Or
 - Composite headline moves (ISM headline, NFP headline, CPI headline) are NOT sub-components — this rule is for the slices and internals
 - Sustained 2-month direction beats sharp 1-month magnitude. Direction at 2 months > magnitude at 1 month.
 
+**3rd validation + write-time corollary (CARL Jun 11 2026):** May CPI hospital services +0.7% MoM sign-flipped back UP from Apr -0.3% — the Apr negative that DOC had staged as a care-avoidance pricing signal was single-month noise; the held-for-2nd-print discipline prevented a false confirm. Corollary: the rule applies at PREDICTION-WRITE time too, in both directions — CARL's Jun-9 pre-registered CPI sheet extrapolated Apr's hot Food-at-Home +0.7% and core +0.4% into "2nd consec" expectations and missed both (May FaH +0.1%, core +0.2%). Over-weighting one hot month when writing a forward line is the same failure as over-weighting one cold month when resolving — inverse of the CRL-01/CRL-19 magnitude-light family.
+
 Related: [[finding_threshold_vs_mechanism]] separates mechanism intact from threshold breached; this rule prevents single-month thresholds from triggering false mechanism conclusions. Compounds with [[feedback_yoy_baseeffect_use_multiyear_stack]] (also a print-isolation discipline).
