@@ -1,9 +1,9 @@
 # BRENT STATUS
 
-**Last Updated:** 2026-06-12 Fri ~11:45 ET (catch-up sweep + advisor adjudication session; last closeout Tue Jun 9 ~13:00 — STEO/WPSR/CPI/MOMR/Trump-settlement all fired in the gap and are now integrated. Brent **$88.10 (−2.52%)** [CONF boot.py 8:43 ET]; settles Jun 9 $91.45 / Jun 10 $93.10 / Jun 11 $90.38 [CONF Yahoo daily closes]. Afternoon still owed: Baker Hughes 1:00 PM, COT 3:30 PM, today's settles → THESIS v3.1 decision at closeout.)
+**Last Updated:** 2026-06-12 Fri ~13:00 ET (CLOSEOUT — session ended before the afternoon prints; **next boot owes: Baker Hughes (rel. 1:00 PM), COT 3:30 PM, today's settles (Trigger #1 close #2 + Brent sub-$88 close #1), THESIS v3.1 decision** — see SCRATCH "FIRST MOVES". Session was catch-up sweep + Orc adjudication: SPR drain-through, dawn #5 + marker ladder, Trigger #1 1/3, crack refresh (no compression), CF phantom-mark corrective, 🔴 CARL correction outbox (needs hand-route). Brent $88.10 boot / $87-88 intraday; settles Jun 9 $91.45 / Jun 10 $93.10 / Jun 11 $90.38 [CONF].)
 **Overall Status:** 🟠 **PHASE 1: SHARPEST PHYSICAL/PRICE DIVERGENCE OF THE CYCLE** — physical leg INTENSIFYING (SPR **349.192M, drained THROUGH the ~350M floor**, −7.927M, no throttle; total crude **−15.155M** 2nd consecutive ~15M week; commercial 426.485M −7.228M; util **95.3%** first cross of the Apr-16-registered 95% crack-squeeze tripwire) while the tape prices the de-escalation arc ($88-handle, −$6.5 from Jun 8). [CONF EIA Jun 10] / 🔴 **Trump settlement announcement Jun 11 PM = DAWN #5 — BRT-07 timer COLD.** 60-day ceasefire ext + Hormuz-reopens-on-signing + 15-20d negotiation window; same MOU architecture as the May 24-29 track. **Iran has NOT confirmed**; US downed 2 Iranian drones near Hormuz Jun 12 AM after Iranian fire on a transiting vessel [CONF RFE/RL+CBS Jun 11-12]. Marker ladder registered below. / 🟠 **Path B arming:** Trigger #1 **first sub-$3 close of cycle Jun 11** (M1−M3 $2.67; completes Mon Jun 15 if today+Mon settle <$3); Trigger #2 gasoline 4-wk YoY **−0.5% first negative of cycle** (clean post-MD read); Trigger #3 = COT today 3:30. / 🟠 **BRT-27 PRICE-SIDE MET / HAW-09 PENDING** — HAWK book stale (Jun 8 09:15, two events behind); spawn decision escalated to Will. / 🟠 CPI May (Wed Jun 10) hot + energy-driven: +0.5% MoM / +4.2% YoY, energy >60% of monthly increase, gasoline +40.5% YoY — oil→CPI leg of BRT-16 empirically printing; retrace test deferred to June CPI (Jul 14).
 
-**🟠 LIVE TODOs:** 🔴 **Baker Hughes 1:00 PM** (431 vs 457, BRT-26); 🔴 **CFTC COT 3:30 PM** (Jun 2 wk — Trigger #3 re-fire test); 🔴 **Today's settles** = Trigger #1 close-#2 candidate AND Brent sub-$88 close #1 candidate (XLE re-eval clock); 🔴 **HAWK spawn decision with Will** (BRT-27 blocked on HAW-09; deadline Sun Jun 15); 🟠 **Signing-window watch through weekend** (marker ladder below); 🟠 **Crack-spread refresh — LOAD-BEARING** (util crossed 95%; last read $42 3:2:1 Mar 27 [STALE]); 🟡 MOMR skim (deprioritized per advisor docket); 🟡 THESIS v3.1 bump decision at closeout.
+**🟠 LIVE TODOs (= next-boot FIRST MOVES, detail in SCRATCH):** 🔴 Baker Hughes print (rel. 1:00 PM Fri; BH site unreachable from sandbox — use TradingEconomics); 🔴 COT 3:30 PM (Trigger #3); 🔴 Fri settles (Trigger #1 #2 / sub-$88 #1); 🔴 HAWK spawn decision with Will (BRT-27 blocked; HAW-09 deadline Sun); 🔴 CARL outbox hand-route; 🟠 weekend signing-window / marker ladder; 🟡 v3.1 decision once prints in; 🟡 MOMR skim.
 
 ---
 
@@ -37,7 +37,7 @@ Messaging-overhaul direction in effect. `demand_destruction/TRACKER.md` is the o
 
 **Macro transmission (BRT-16):** May CPI proves the oil→CPI leg at market scale — energy was >60% of the monthly all-items increase, gasoline +40.5% YoY [CONF BLS Jun 10]. Timing asymmetry: May CPI captures spike-loaded May pump prices; the June crude retrace shows up in June CPI (**Jul 14**). Near-term, hike pressure stays ON (mild crude headwind); the inverse-feedback test ("does retrace remove hike pressure → USD soften → crude floor") is deferred to mid-July.
 
-**Gas pump (BRT-13 aftermath):** $4.146 [CONF FRED Jun 8] still above the broken $4.00 threshold; mid-June relief expected as the $88-handle retrace flows through wholesale → retail. CARL's consumer-squeeze datapoint is at/near peak on a fading-crude background.
+**Gas pump (BRT-13 aftermath) — relief projection WEAKENED Jun 12:** $4.146 [CONF FRED Jun 8] still above the broken $4.00 threshold, and the crack refresh shows wholesale gasoline NOT following crude down (RB flat ~$130/bbl Jun 1-11 while Brent fell; gasoline crack $42.55 vs WTI, far above the $30 CARL-alert line). The "mid-June pump relief" call now depends on RB catching down to crude, which hasn't started — **consumer squeeze persists through the crude retrace.** CARL-relevant: pump prices may stay pinned near peak even as crude fades.
 
 ---
 
@@ -70,8 +70,9 @@ Messaging-overhaul direction in effect. `demand_destruction/TRACKER.md` is the o
 | **M1−M3 (Brent curve)** | **$2.67 (Jun 11 settle) — first sub-$3 close of cycle; Trigger #1 1/3.** $4.95 Jun 1 → $2.67 Jun 11 | **Jun 11 settle** [CONF Yahoo strip; ICE CONF pending] |
 | **June MTD settled avg vs STEO** | **$94.01 (n=9, 6/1-6/11) vs $105 STEO June closed-Hormuz assumption ≈ $11 gap** | Jun 12 [CONF own feed + EIA June STEO] |
 | Retail gas (FRED GASREGW) | $4.146 (BRT-13 $4.00 broken); mid-June relief expected | Jun 8 [CONF FRED] |
-| **Refinery utilization** | **95.3% — crossed the Apr-16-registered 95% crack-squeeze tripwire** (first time this cycle); BRT-12 channel-watch activation (interpretive linkage, registered Jun 12) | Jun 10 EIA [CONF] |
-| Crack 3-2-1 | **$42 Mar 27 [STALE — refresh LOAD-BEARING now]** | Mar 27 [STALE] |
+| **Refinery utilization** | **95.3% — 95% tripwire crossed, but mechanism = MARGIN-BOOM not squeeze** (threshold-vs-mechanism split, Jun 12 refresh): refiners running max into record cracks; BRT-12 compression-warning ABSENT, channel quiet | Jun 10 EIA [CONF] |
+| **Crack 3-2-1 (vs Brent — same basis as Mar 27 $42)** | **$45.64 Jun 11 settle — WIDENED into the crude selloff** (Jun 9-11: 42.73→44.55→45.64; RB flat ~$130/bbl while Brent −$4.60). Distillate crack ~$60 [WTI-basis] / ~$57 [Brent-basis]. Gasoline crack vs WTI **$42.55 — far above $30 CARL-alert threshold** | **Jun 12 refresh** [CONF own futures calc, raw closes] |
+| **Refiner/USO ratios (equity)** | **+4.63% aggregate 1d Jun 12 = CONFIRMED decoupling day** — refiners flat-to-up on crude −4%; z-scores normalized from compressed | Jun 12 12:08 [CONF refiner_ratios.py] |
 | **SPR** | **349.192M (−7.927M) — THROUGH ~350M floor, drain-through branch active** | Jun 10 EIA [CONF] |
 | **Cushing** | **21.640M (−0.801M); 20M floor ~Jul 1** | Jun 10 EIA [CONF] |
 | **US commercial crude** | **426.485M (−7.228M; total incl SPR −15.155M)** | Jun 10 EIA [CONF] |
@@ -119,7 +120,7 @@ Messaging-overhaul direction in effect. `demand_destruction/TRACKER.md` is the o
 | Demand destruction (Path B) | 🔴 4 | Gasoline −0.5% first negative + China 8-yr-low imports; Triggers #1 1/3, #2 sign-flipped, #3 prints today |
 | Storage (global) | 🔴 5 | **SPR THROUGH floor (349.2M, drain-through)**; total crude −15.2M/wk ×2; Cushing floor ~Jul 1 |
 | Tanker/shipping | 🟠 3 | War-risk unwound; STNG +4-5 sessions into announcement (BRT-15 counter-evidence logged) |
-| **Refining bottleneck** | 🟠 **3 ↑ from 2** | **Util 95.3% crossed 95% tripwire**; crack refresh load-bearing (BRT-12 channel) |
+| **Refining bottleneck** | 🟠 **3 ↑ from 2** | Util 95.3% + 3-2-1 $45.64 WIDENING + dist crack ~$60 = genuine product tightness (margin-boom); BRT-12 compression-warning absent |
 | Energy credit | 🟡 2 | Stale Apr 28; LIQUID primary |
 | OPEC+ policy | 🟠 3 | +188K July digestion; functionally paper behind Hormuz |
 | Ceasefire stability | 🟠 3 | Dawn #5: closest-yet announcement BUT Iran unconfirmed + live kinetic counter-indicator — split state, ladder armed |
@@ -155,7 +156,7 @@ Does dawn #5 harden (ladder item i = Iranian confirm) before Path B Trigger #1 c
 | BRT-07 | OPEN — **TIMER COLD through dawn #5** | Operational-not-rhetorical rule; ladder gates unmet |
 | BRT-08 | OPEN — **sign flipped** | −0.5% first negative in predicted window; magnitude far (−5% × 3wk) |
 | BRT-09 | OPEN — strengthened | Jet −2.2% clean read; sequencing (jet > gasoline) confirmed |
-| BRT-12 | OPEN — **channel activating** | Util 95.3% > 95% tripwire (interpretive linkage reg. Jun 12); crack refresh load-bearing |
+| BRT-12 | OPEN — **tripwire crossed, compression ABSENT, channel quiet** | Crack refresh Jun 12: 3-2-1 vs Brent $45.64 (>Mar 27 $42) — WIDENED into selloff; mechanism = margin-boom not squeeze. Watch = crack compression when products follow crude down |
 | BRT-15 | OPEN — **LIVE-TESTED; numeric conditional registered** | N=3td, X=STNG −10%, hardening = Iranian confirm AND signing; counter-evidence logged (STNG +2.3% announcement+1) |
 | BRT-16 | OPEN — oil→CPI leg PRINTING | Energy >60% of May CPI increase; inverse-feedback test → Jul 14 |
 | BRT-17 | OPEN — timer cold (same as BRT-07) | |
@@ -173,7 +174,7 @@ Does dawn #5 harden (ladder item i = Iranian confirm) before Path B Trigger #1 c
 3. 🔴 **HAWK spawn decision (Will)** — BRT-27 blocked on HAW-09 adjudication; HAW-09 deadline Sun Jun 15, BRT-27 resolution Wed Jun 17.
 4. 🔴 **Dawn #5 ladder watch through weekend** — (i) Iranian confirm is the discriminator; signing window "this weekend in Europe" / LOI early next week.
 5. 🟠 **THESIS v3.1 bump decision at closeout** — evidence batch complete except today's prints.
-6. 🟠 **Crack-spread refresh** — load-bearing (util tripwire crossed; BRT-12).
+6. 🟠 **Crack-compression watch (BRT-12)** — refresh done Jun 12 (no compression; widened). The lag between crude-down and products-down IS the channel's early-warning clock; re-check at each EIA Wednesday.
 7. 🟠 **XLE re-eval** per restated condition (signed MOU OR 2 consecutive sub-$88 closes).
 8. 🟡 **CF $130C** — ride to expiry Thu Jun 18 (zero bid; nothing to decide).
 9. 🟡 **MOMR skim** (last priority); 🟡 M1−M3 ICE official CONF (Yahoo settle-proxy in use, advisor cross-matched).
