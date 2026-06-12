@@ -50,7 +50,12 @@ def fetch_series(
 
 
 SERIES = {
+    # HY composite, IG composite, CCC
     "credit": ["BAMLH0A0HYM2", "BAMLC0A0CM", "BAMLH0A3HYC"],
+    # KB-VIO-090 tree conversion lines: BB (A2 1.73), single-B (watch-only), CCC-BB dispersion needs BB
+    "credit_ladder": ["BAMLH0A1HYBB", "BAMLH0A2HYB", "BAMLC0A4CBBB"],
+    # KB-VIO-097 US-local-vs-global control: Euro HY + EM HY corp
+    "credit_global": ["BAMLHE00EHYIOAS", "BAMLEMHBHYCRPIOAS"],
     "rates": ["DGS2", "DGS10", "DFII10"],
 }
 
