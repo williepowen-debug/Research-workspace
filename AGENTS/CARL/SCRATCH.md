@@ -95,5 +95,5 @@
 - **CRL-08 re-test LIVE** — AAA gas daily Jun 12-16; Brent needs ~$105-110 sustained for $4.50 re-breach.
 - **Jun 16-17 FOMC** — packet firm at 5 line items; headline/core divergence is the new framing line.
 
-## ⚠️ PENDING PUSH (Will-coordinated — do NOT push at session end)
-*Local-only commits queued on shared master awaiting Will's push window. Branch was 4 commits ahead at boot (VIOLET Jun-10/11 work); CARL Jun-11 commits add to the train. SAM working-tree changes + VIOLET .bak untracked at boot — did not pull (0 behind, no pull needed). Next coordinated push window sweeps all.*
+## GIT STATE: clean, synced to origin
+*Will opened a push window Jun 11 late-session: CARL session commit + RED S18 closeout + memory/auto sweep (Will-authorized — CARL's year-verification promotion + VIOLET's tool-default finding + index lines) all pushed. No pending push. Only VIOLET's `VX_DAILY.tsv.bak` remains untracked in the tree (hers, untouched).*
