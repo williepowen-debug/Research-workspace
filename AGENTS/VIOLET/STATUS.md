@@ -90,7 +90,7 @@
 
 | Priority | Topic | Status |
 |----------|-------|--------|
-| 🔴 | **FRED 6/11 print (Fri ~11:30 AM): Bin-A conversion (BB 1.73 / disp 8.00 / HY 2.85 / CCC 9.65) + block-lift (CCC <9.55) + Euro HY control read (KB-VIO-097: June widening is US-LOCAL — Euro HY −4bp while US ladder +8/+8/+11bp; sticky CCC + Euro still tightening = divergence extends, NOT war-blip retrace; block-lift odds shaded to ~45-55%)** | Fri 6/12. 6/10-print check DONE (Bin B, KB-VIO-094). |
+| 🔴 | **FRED 6/11 print (Fri ~11:30 AM): Bin-A conversion (BB 1.73 / disp 8.00 / HY 2.85 / CCC 9.65) + block-lift (CCC <9.55, ~55-60% — mark RESTORED per KB-VIO-098 after RED challenge to 097's shade) + Euro HY control (weak corroborator only). DECISIVE discriminator = LIQUID movers breadth; ABANDON CONDITION registered: sticky CCC + 3-4 idiosyncratic names = composition-not-regime, NO Path A escalation. Magnitude context: June ladder moves 68-78th pctile, divergence config already ran 5/11-19 w/o consequence** | Fri 6/12. 6/10-print check DONE (Bin B, KB-VIO-094); KB-VIO-097 interpretation retracted (098). |
 | 🔴 | **EOD settle run: `thresholds.py --supersede` after 16:15 ET** (today's row is TICK basis) + close-and-hold counter vs 23.0 | Daily while war live. |
 | 🔴 | **Iran→vol: OVX/VIX gauge daily; HAWK re-mark integration through the KB-VIO-091 translation layer** (gap re-opened 6/11 AM) | LIVE. |
 | 🟠 | **L2 σ carve-out backtest** — urgency UP: the KB-VIO-091 0.75 conditional is conditioned on it (absorbed-streak struck pending this test) | Promoted. |
