@@ -2,7 +2,26 @@
 
 ## Session Notes
 
-### CURRENT SESSION (2026-06-08 — boot from 18d-stale + NEXUS blocker + full Tier-1 catch-up)
+### CURRENT SESSION (2026-06-12 AM — boot + live refresh + APO trigger fire)
+
+**Context:** Friday-morning boot, 4d since last session. All live-primary pulls (FRED + yfinance per the rule).
+
+**Delivered:**
+- **APO >$130 ×3 closes — HEARTBEAT line-80 reassess trigger FIRED 6/11** (6/9 $132.70 / 6/10 $131.14 / 6/11 $133.91). **NOT Trigger C** — KILL_MEMO escalation requires HY OAS *compression* concurrency; HY widened 274→280 over the window. Outbox → BROCK (they hold APO Dec $95P, same line).
+- **OHLC count correction:** prior STATUS had 6/8 as "Day 1" off an intraday print ($131.5); the 6/8 CLOSE was $127.57 — below the line. Streak starts 6/9. Day-counts are close-basis only (fleet memory `finding_ohlc_verify_before_session_claims` applied).
+- **HY OAS direction REVERSED:** 280 (6/10), cushion to 260 kill back out to 20bps — first sustained widening since mid-May. CCC 957, BB 170 (CCC−BB 787).
+- **May CPI integrated (printed 6/10 while dark): HOT** — headline +0.48% MoM / 4.18% YoY (accel from 3.78%), core +0.21% / 2.81%. VIX spiked 22.22 on the print. Claims 229k (4th straight rise). Stagflation-trap texture into 6/17 FOMC.
+- USD/JPY 5 sessions >160 sustained; Brent $87.95 (-$22.6 from peak); SOFR-IORB -5bps clean; 30Y 5.03 >5% sustained.
+- STATUS (header/kill-proximity/3 dashboards/signals/positions/windows) + CALENDAR (CPI+claims resolved, rolled to 6/12) refreshed.
+
+**Open follow-ups (carried):**
+- **HYG $75P + TEN $30 calls both expire Fri 6/19 (T-5).** HYG: recommend expire/close (dead, $79.94 vs $75). TEN: ITM ~$7.11 winner — exercise/sell decision needed. **Both Will decisions, window closing.**
+- APO Day 4 watch (today's close); HY OAS direction post-CPI.
+- CATCHUP_PUNCHLIST Tiers 2-5 still pending (thesis roll-forward, KILL_MEMO false-kill detail, BDC monitor, PREDICTIONS scan, auction internals 5/21-5/28, NFP, energy HY OAS via BRENT).
+- Inbox 2 pending (HAWK OFAC 5/22, PROME FRED-convention 5/21) — process on inbox-spawn.
+- Push pending: 6/8 commits + this session, await Will's window.
+
+### PRIOR SESSION (2026-06-08 — boot from 18d-stale + NEXUS blocker + full Tier-1 catch-up)
 
 **Context:** Will booted LIQUID after ~18d dormancy (STATUS frozen 5/20). Two goals: (1) clear NEXUS's reactivate-before-6/10 blocker, (2) bring all boot docs current via a phased Tier-1 cleanup. Long multi-phase session.
 
@@ -148,12 +167,12 @@ MEMORY.md    STATUS.md  STRATEGY.md           USER.md
 
 ### NEXT SESSION
 
-1. **Continue catch-up from `CATCHUP_PUNCHLIST.md`.** Tier 0+1 DONE. Resume at **Tier 2** (thesis layer: THESIS/TIMELINE/CHANGELOG roll-forward — TIMELINE's May windows are past), then **Tier 3** (workbook: KILL_MEMO false-kill detail [deferred from Phase 4], BDC monitor refresh [Q1 cycle wrapped — likely big stale gap], PREDICTIONS due/overdue scan), **Tier 4** (CREDIT_THRESHOLDS check, inbox), **Tier 5** (external data).
-2. **APO $130 re-cross — check the count.** Day 1 was 6/8 (~$131.5). If sustained ≥3 sessions → Trigger C re-arms → BROCK/PROME signal. BROCK tracks same $130 line; holds APO Dec $95P.
-3. **May CPI 6/10** — Brent reversal (~$91) eases energy passthrough; is core sticky?
-4. **Tier 5 data pull** — 5/21-5/28 auction internals, **live energy HY OAS (route BRENT/data-fetch — KB-LIQ-058)**, 5/28 PCE, 6/5 NFP, SRF/reserves. Fills the ⚠️ pending markers in CALENDAR.
+1. **Position decisions before Fri 6/19 opex:** HYG $75P (expire/close — dead) + TEN $30 calls (ITM ~$7 — exercise/sell). Will decisions; surface at every boot until resolved.
+2. **APO streak + HY OAS direction:** trigger fired 6/11 (close-basis); check whether streak extended and whether HY widening (280, 6/10) continued post-CPI.
+3. **FOMC Wed 6/17** (dot plot vs hot May CPI, Warsh color, liquidity-facility language) → **TIC Thu 6/18** (Japan/Belgium proxy — KB-LIQ-055 framework, Belgium $481B vs $500B orange).
+4. **Continue `CATCHUP_PUNCHLIST.md`.** Tier 0+1 DONE. Tier 2 (thesis/TIMELINE roll-forward), Tier 3 (KILL_MEMO false-kill detail, BDC monitor refresh, PREDICTIONS scan), Tier 4 (CREDIT_THRESHOLDS, inbox), Tier 5 (5/21-5/28 auction internals, energy HY OAS via BRENT, PCE, NFP, SRF/reserves).
 5. **Inbox (2 pending, process on inbox-spawn)** — HAWK OFAC toll-risk 5/22; PROME FRED-citation-convention 5/21.
-6. **Push** committed-but-unpushed 6/8 work when Will opens a coordinated window.
+6. **Push** committed-but-unpushed 6/8 + 6/12 work when Will opens a coordinated window.
 
 ### PRIOR SESSION (2026-05-19 morning)
 

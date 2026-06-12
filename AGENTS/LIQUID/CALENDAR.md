@@ -1,19 +1,18 @@
 # LIQUID — Calendar & Data Releases
 
-**Last Updated:** 2026-06-08 (rolled forward from 5/20; past windows moved to Resolved — auction/PCE/NFP outcomes ⚠️ pending data pull, not fabricated)
+**Last Updated:** 2026-06-12 (rolled forward from 6/8; May CPI + claims resolved with live data)
 
 ---
 
-## This Week (Jun 8–12, 2026)
+## This Week (Jun 12, 2026 — Friday)
 
 | Date | Event | Signal Threshold | Who Cares |
 |------|-------|-----------------|-----------|
-| **Wed Jun 10 8:30am** | **May CPI** | Energy passthrough now COOLING (Brent sub-$90) — does core stay sticky? | CARL, LIQUID |
-| Thu Jun 11 | Initial jobless claims | >250k = labor weakening; >300k = recession-signal (last 225k 5/30; shadow-adj ~280k) | CARL, LIQUID |
+| Today's close | **APO streak Day 4?** | Trigger fired 6/11 (3 closes >$130); watch extension. Close-basis only (OHLC rule) | LIQUID, BROCK |
+| Daily | SOFR / SOFR-IORB | SOFR >3.70 OR SOFR-IORB sustained >0 → re-open KB-LIQ-051 question (current -5bps) | LIQUID |
+| Daily | **HY OAS direction** | Widening resumed (280, 6/10); <265 trigger A still armed if re-compresses; >320 = confirmation | LIQUID |
+| Daily | **USD/JPY post-160** | 5 sessions >160 sustained; BOJ intervention watch | LIQUID, SAM |
 | Various | **BDC Q1 wrap / gate-cluster follow-through** (Cliffwater CDLI late-June; Partners Group 2nd-PE-gate watch) | div cuts, gate caps, NAV — BROCK-led; see `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` | LIQUID, BROCK |
-| Daily | SOFR / SOFR-IORB | SOFR >3.70 OR SOFR-IORB sustained >0 → re-open KB-LIQ-051 question (current -2bps) | LIQUID |
-| Daily | **HY OAS proximity to 260 kill** | <270 = pre-trigger; <265 = trigger A; <260 intraday = trigger B (current 276, 16bps cushion; see `workbook/KILL_MEMO_HY_OAS_260.md`) | LIQUID |
-| Daily | **APO $130 reassess-line + USD/JPY post-160** | APO re-cross >$130 ×3 → Trigger C re-arms (current $129.93); JPY follow-through past 160.40 | LIQUID, SAM |
 
 ## Next Week (Jun 15–19, 2026)
 
@@ -40,7 +39,9 @@
 
 | Date | Event | Outcome |
 |------|-------|---------|
-| Jun 5 | May NFP (Employment Situation) | ⚠️ **Pending data pull** — not yet integrated (init claims 225k 5/30 / shadow-adj ~280k is the only labor read I have) |
+| Jun 11 | Initial jobless claims (wk 6/6) | **229k** — below 250k threshold but 4th straight weekly rise (210→212→225→229k) |
+| Jun 10 | **May CPI** | **HOT: headline +0.48% MoM / 4.18% YoY (accel from 3.78%); core +0.21% MoM / 2.81% YoY** (FRED CPIAUCSL/CPILFESL). VIX spiked 22.22 intraday. Lagged energy passthrough landed despite Brent collapse; constrains Fed into 6/17 FOMC |
+| Jun 5 | May NFP (Employment Situation) | ⚠️ **Pending data pull** — not yet integrated (claims trend is the only labor read I have) |
 | May 28 | April PCE | ⚠️ **Pending data pull** |
 | May 28 | 7Y note auction | ⚠️ **Pending data pull** (BTC/indirect/tail) |
 | May 27 | 5Y note auction | ⚠️ **Pending data pull** |
