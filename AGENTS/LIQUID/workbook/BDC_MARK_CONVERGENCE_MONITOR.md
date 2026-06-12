@@ -1,7 +1,7 @@
 # BDC Mark Convergence Monitor
 
 **Purpose:** Track whether public BDC marks catch down to the divergence signaled by TCW's Red Lobster 98% equity / 100¢ debt writedown. This is the specific transmission mechanism between private credit mark-to-model fiction and public-market price discovery.
-**Built:** 2026-04-16 | **Trigger for full activation:** any 2 signals below cross threshold
+**Built:** 2026-04-16 | **Light-populated:** 2026-06-12 (Q1 NAVs from public prints, sourced per-cell; FV/Cost + PIK% deferred to a 10-Q pass) | **Trigger for full activation:** any 2 signals below cross threshold — **see Trigger status table: div-cut trigger FIRED; activation conditionally met pending FV/Cost verification**
 
 ---
 
@@ -56,27 +56,33 @@ Cross-sector derivatives:
 - **BIZD** (BDC ETF) — on my main dashboard already; sector-level sentiment
 - Non-traded BDC redemption prints (BCRED, Ares, Apollo, Golub) — stagger release schedule
 
-## Baseline to record next refresh (placeholder — needs data pull)
+## Baseline (light populate 6/12 — Q1 2026, NAVs as of 3/31/26; prices = 6/11 raw closes per basis canon)
 
-| Ticker | Price | NAV | P/NAV | NAV Δ QoQ | FV/Cost | Non-accrual % | PIK % |
+| Ticker | Price (6/11) | NAV (3/31) | P/NAV | NAV Δ QoQ | FV/Cost | Non-accrual % | PIK % |
 |--------|-------|-----|-------|-----------|---------|---------------|-------|
-| ARCC | | | | | | | |
-| BXSL | | | | | | | |
-| OBDC | | | | | | | |
-| MAIN | | | | | | | |
-| FSK | | | | | | | |
+| ARCC | 19.07 | **19.59** (8-K/10-Q) | 0.97 | prior-Q not pulled — pending | 10-Q deferred | deferred | deferred |
+| BXSL | 23.90 | **26.26** (8-K/earnings pres.) | 0.91 | **DECLINE** (per Q1 slides headline; magnitude pending) | deferred | deferred | deferred |
+| OBDC | 11.17 | **NOT FOUND** — searches surfaced Onex Direct Lending ($18.75), which is NOT Blue Owl; do not transcribe | — | pending | deferred | deferred | deferred |
+| MAIN | 51.74 | **33.46** (8-K: +0.13, **+0.4% QoQ** from 33.33) | 1.55 | **+0.4% — clean benchmark holding** | deferred | deferred | deferred |
+| FSK | 10.82 | **20.89** (trade press; cross-corroborates BROCK's verified **-9.9% QoQ**) | **0.52 ⚠️** | **-9.9%** | deferred | deferred | deferred |
 
-*TODO: pull Q1 2026 10-Q data when filed (rolling mid-May through early-June for BDCs).*
+- **⚠️ FSK P/NAV 0.52 is an extreme print** — verify no split/NAV-vintage mismatch before citing as a distress signal; if real, it's the loudest mark-vs-price divergence on the board.
+- **Sector datapoint (not in the five):** GSBD NAV $12.17 vs $12.64 (**-3.7% QoQ**, NII -$0.12/sh) — second confirmed NAV decliner.
+- BIZD 12.62 (6/11 close); 2-week trend up, not down — no 🔴 conjunction.
 
-## Trigger thresholds
+*Deep fields (FV/Cost ratio, non-accrual %, PIK %) need the 10-Qs — deferred to a full-populate pass if the BCRED Q2 window or a trigger escalation warrants it.*
 
-| Signal | What it means | Priority |
-|--------|--------------|----------|
-| Any BDC reports **FV/Cost <95%** AND **QoQ NAV drop >2%** | Mark convergence started | 🟡 |
-| **Two BDCs** report FV/Cost dropping QoQ by >1pt in same quarter | Sector-wide mark reset | 🟠 |
-| Any BDC **cuts regular dividend** or converts to "supplemental only" | Income model breaking | 🟠 |
-| Non-accrual % jumps >150bps QoQ on any BDC | Specific-portfolio stress | 🟠 |
-| **Simultaneous** FV/Cost drop across 3+ BDCs AND BIZD down >8% in 2 weeks | Stage 3 transmission event | 🔴 |
+## Trigger thresholds (status column added 6/12)
+
+| Signal | What it means | Priority | Status 6/12 |
+|--------|--------------|----------|-------------|
+| Any BDC reports **FV/Cost <95%** AND **QoQ NAV drop >2%** | Mark convergence started | 🟡 | **NAV leg met ×2** (FSK -9.9%, GSBD -3.7%); FV/Cost leg unverified (10-Q deferred) — conditionally met |
+| **Two BDCs** report FV/Cost dropping QoQ by >1pt in same quarter | Sector-wide mark reset | 🟠 | Unknown — FV/Cost deferred |
+| Any BDC **cuts regular dividend** or converts to "supplemental only" | Income model breaking | 🟠 | **FIRED (recorded late — cuts landed May–early-June):** MFIC, OCSL, OBDC regular-div cuts (BROCK 6/8 read) + FSK cut (trade press 6/12 confirm). **Four cutters, not one.** |
+| Non-accrual % jumps >150bps QoQ on any BDC | Specific-portfolio stress | 🟠 | Unknown — deferred |
+| **Simultaneous** FV/Cost drop across 3+ BDCs AND BIZD down >8% in 2 weeks | Stage 3 transmission event | 🔴 | Not met — BIZD trend is UP (12.45→12.71 over the week) |
+
+> **Activation read (6/12):** the monitor's "any 2 signals" full-activation test is **conditionally met** — the 🟠 div-cut trigger has unambiguously fired (×4), and the 🟡 NAV leg is met twice with only the FV/Cost confirmation outstanding. The *tension this monitor was built to catch is live*: NAV marks and dividends deteriorating while BDC equity prices bounce (BIZD up, APO >$130 ×3 closes). Matches BROCK's Stage 2→3 pivot. Full 10-Q populate is the escalation step if BCRED Q2 gates.
 
 ## Known information gaps
 
