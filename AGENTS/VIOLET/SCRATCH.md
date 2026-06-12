@@ -59,7 +59,7 @@ FRED 6/10 print published mid-session (Will asked for the check): **CCC 9.57 ≥
 
 ## CARRY-FORWARD
 
-- **Push state: 5+ LOCAL UNPUSHED commits from the late-eve session (e24f4e63 KB-097 / 42f4bd5a fred_fetch / 34ef1547 KB-098 / 1e9d6d6f freshness / closeout batch) — push PENDING next Will-coordinated window.** Prior state: synced to origin through 71dd777f (Will's 6/11 evening window).
+- **Push state: CLEAN, SYNCED to origin — Will opened a second window 6/11 late-eve; pushed the 7-commit train (5 VIOLET late-eve session + 2 RED S18b incl. CHG-RED-038 RESOLVED-CONVERGED).** Only this push-state note commit follows.
 - **memory/auto/MEMORY.md modified (index line for the new auto-memory) — uncommitted, outside AGENTS/VIOLET; flag for the next Will-directed sweep** (precedent: 1f500717 was Will-directed).
 - **SAM active in the tree this morning** (STATUS/TIMELINE/workbook dirty) — pull protocol blocked any pull; none was needed (we were synced).
 - **Quote discipline:** distribution = decomposition only, never headline (KB-VIO-091); ladder = both anchors (KB-VIO-089); n=5 = TAIL-STOP not failure-catcher (KB-VIO-088); CCC cross = tree outcome, not "credit confirms" reflex (KB-VIO-090); VVIX-NEUTRAL = no calming weight (KB-VIO-093); M1:M2 quotes carry their settle DATE (KB-VIO-092).
