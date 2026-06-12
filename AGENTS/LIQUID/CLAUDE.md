@@ -123,20 +123,21 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 ## KEY THRESHOLDS
 
-> *"Current" column is a snapshot — verify against `STATUS.md` (live dashboards) on every boot. Last refresh: 2026-06-08. Load-bearing figures pulled from live primary (FRED/yfinance), not dashboard.py.*
+> *"Current" column is a snapshot — verify against `STATUS.md` (live dashboards) on every boot. Last refresh: 2026-06-12. Load-bearing figures pulled from live primary (FRED/yfinance), not dashboard.py.*
+> **Basis canon (binding on every count):** yields on **FRED H.15** (DGS10/DGS30; CBOE ^TNX/^TYX same-day proxy only); price-level triggers on **raw unadjusted closes** (yfinance `auto_adjust=False`, `Close` column — adjusted series mutate at ex-dates); auction percentages on **accepted basis**. Declare the basis when you write a number.
 
 | Metric | Current | Threshold | Implication |
 |--------|---------|-----------|-------------|
-| **HY OAS thesis-kill** | **276bps** (6/5) | **<260 sustained = KILL** (per HEARTBEAT line 80) | Bear credit thesis abandoned. Cushion 16bps, NARROWING |
-| **APO co-trigger** | **$129.93** (6/8, +1.85%) | **>$130 ×3 sessions = REASSESS** (per HEARTBEAT line 80) | 🟡 **At-the-line — not firing but MARGINAL; rose today.** Re-cross >$130 → KILL_MEMO Trigger C re-arms. |
-| HY OAS confirmation | 276bps (6/5) | **>320 = CONFIRMATION** | Systemic credit stress. ⚠️ aggregate masks energy/CCC bifurcation (KB-LIQ-058) |
-| **HY Energy OAS** | ~285 (Apr 28, **STALE 40d**) | **>300 = energy-credit trip** | Primed corner — Brent sub-$90 + live Hormuz; needs live ICE/BBG pull (BRENT) |
-| SOFR vs IORB | -2bps (6/5) | Sustained above ceiling | Fed losing rate control (Apr breach resolved mechanical — see KB-LIQ-051) |
-| **10Y duration regime** | **4.55%** (6/5) | **>4.50 sustained** | **Active transmission channel (KB-LIQ-052)**; eased off 5/19 peak (4.647) |
-| USD/JPY | **160.40** (6/8) | 160 | 🔴 **TRIGGER CROSSED**; SAM-domain co-watch |
-| SRF Usage | $30.5B (4/16, **STALE**) | >$50B | Plumbing actively breaking |
-| Reserves | ~$3.0T (4/16, **STALE**) | <$2.8T | Structural funding stress |
-| 20Y Auction Indirect | 67.7% (5/20, last verified) | <55% sustained | 🟢 Last print STRONG; ⚠️ 5/21-5/28 cycle not integrated |
+| **HY OAS thesis-kill** | **280bps** (6/10) | **<260 sustained = KILL** (per HEARTBEAT line 80) | Cushion 20bps, **WIDENING away from the kill** (cycle-tight 274 on 6/4). Trigger A (<265) still armed if it re-compresses |
+| **APO co-trigger** | **3 closes >$130: 132.70 / 131.14 / 133.91 (6/9-6/11, raw)** | **>$130 ×3 sessions = REASSESS** (per HEARTBEAT line 80) | 🟠 **FIRED 6/11. NOT Trigger C** — escalation needs concurrent HY *compression*; HY widened through the window. Reassess resolved 6/12 (outbox → BROCK). Day-counts on raw closes only |
+| HY OAS confirmation | 280bps (6/10) | **>320 = CONFIRMATION** | 40bps away. ⚠️ aggregate masks bifurcation — CCC 957, CCC−BB 787 (KB-LIQ-058) |
+| **HY Energy OAS** | ~285 (Apr 28, **STALE 45d**) | **>300 = energy-credit trip** | Primed corner; needs live ICE/BBG pull (BRENT) |
+| SOFR vs IORB | -5bps (6/11) | Sustained above ceiling | Clean. (Apr breach resolved mechanical — see KB-LIQ-051) |
+| **Duration regime (10Y/30Y)** | **10Y 4.46 / 30Y 4.95 closes 6/11** | >4.50 / >5.00 sustained (KB-LIQ-052 — **under re-derivation**) | **OSCILLATING, not sustained** — 30Y is a 5.00-pivot oscillation (sub-5 closes 5/28-6/4 + 6/11); unwind test <4.90 untouched. FOMC 6/17 resolver |
+| USD/JPY | **4 closes >160** (6/8-6/11; 160.27 intraday 6/12) | 160 | 🔴 **TRIGGERED — awaiting flow confirmation** (SAM owns; TIC 6/18) |
+| SRF Usage | $30.5B (4/16, **STALE**) | >$50B | ⚠️ Unverified 8 weeks — Tier-5 pull pending; do NOT treat dormancy as verified |
+| Reserves | ~$3.0T (4/16, **STALE**) | <$2.8T | ⚠️ Unverified 8 weeks — Tier-5 pull pending |
+| Auction Indirect | **78.2%** (6/10 10Y reopen) / **59.9%** (6/11 30Y, dealer 14.7%) | <55% sustained | Tenor-bifurcated: belly STRONG, long bond soft-but-cleared (market rallied through it) |
 
 ---
 
