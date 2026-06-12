@@ -30,9 +30,9 @@
 ---
 
 ## Tier 2 — Thesis layer (AUDITED 6/12 — work needed)
-- [ ] ⬛ **thesis/THESIS.md (v2.0, 5/19) — §5 "Currently" block is BEHAVIORALLY WRONG.** Asserts "APO co-trigger fired since 5/12 Day 7+ = Trigger C precondition" — that streak broke late-May; the NEW fire (6/11, closes 6/9-6/11) has HY *widening* concurrent, so it is NOT a Trigger C precondition. A future session reading THESIS before STATUS could escalate wrongly. Also stale: §4 channel map (USD/JPY "159.18, 0.82 away" → now 5 sessions >160 SUSTAINED; Brent "$110.57 reigniting" → $87.95 collapsed, oil-CPI loop row direction FLIPPED; HY "compression run" → widening), §3 Leg B 5/19 marks, header status line. Fix: restamp live blocks, keep durable sections.
+- [x] ⬛ **thesis/THESIS.md — DONE 6/12** (plan → Orc review loop → echo-back → executed). §5 Trigger-C assertion corrected (APO May run: cross 5/8, dip 5/11 $129.91, 8 straight closes 5/12-5/21, broke 5/22; new fire 6/9-6/11 NOT Trigger C); §3 Leg B tenor-bifurcated + duration re-derived (5.00-pivot oscillation, FRED canon); §4 all six rows restamped; §6 third trap test (inconclusive-to-weak, both anchors); §7 live-watch annotation; §9 +2 rows (closes-only, circular corroboration); Open Questions rewritten; **conviction 65→60**.
 - [ ] 🟦 **thesis/TIMELINE.md (5/19)** — ~6 of 13 windows now past; resolved rows never retired to STATUS log (USD/JPY >160 → bear-resolved; 30Y >5% ≥5 sessions → bear-resolved/durable; 5/22 claims; May BDC Q1 window; 5/30 PCE pending-data). FOMC row says "June 18" — **wrong, decision is Wed 6/17.** Fix: retire resolved rows, roll forward through FOMC/TIC/opex + BCRED.
-- [ ] 🟦 **thesis/CHANGELOG.md** — no POV pivot logged since 5/20. Owed: 6/8 (Brent reflation flip, energy/CCC bifurcation KB-LIQ-058, APO re-arm) and 6/12 (APO fired-but-NOT-Trigger-C, HY direction reversal). One combined entry is fine.
+- [x] 🟦 **thesis/CHANGELOG.md — DONE 6/12.** Combined 6/8-6/12 POV pivot entry added (duration re-derivation, conviction 65→60 argued both ways, falsification standing: 30Y ≥5 closes >5% re-establishes / <4.90 sustained unwinds).
 
 ## Tier 3 — Workbook active (AUDITED 6/12 — work needed)
 - [ ] ⬛ **workbook/PREDICTIONS.tsv — overdue/expiring predictions.** LIQ-02 (HY velocity +50bps/2wk, timeframe Mar 2026) OPEN and **3 months past timeframe** — resolve against FRED history (likely MISS, verify before marking). LIQ-03 (CLO AAA >160 SOFR+, H1 2026) **window closes 6/30** — needs a CLO AAA data check to resolve. Also: zero predictions added since 2/26 — prediction discipline lapsed for 3.5 months.
@@ -55,7 +55,7 @@
 - [ ] ⬜ HEARTBEAT line 23/41 (shared file, PROME owns) — APO row stale 6/4 ($128.03 🟡; should be 🔴 FIRED) — flag to PROME, do not edit.
 
 ## Tier 7 — Record errors surfaced by 6/12 coordinator review (verify provenance, then fix)
-- [ ] 🟦 **CALENDAR "May 5 | 30Y auction tagged 5.046%" row is misdated.** TreasuryDirect shows the 30Y new issue (912810UU0) auctioned **5/13**, not 5/5; FRED has the 5% level-cross at 5/12-5/14 (5/7-5/11 closes were 4.95-4.98). The row conflates auction date and level-tag date; "BTC 2.30 / indirect 66.6%" belong to the 5/13 auction. Likely a 5/18 revival-packet artifact (USER.md carries the same row). Verify what 5/5 actually was, then fix CALENDAR + USER.md together.
+- [x] 🟦 **CALENDAR/USER "May 5 30Y auction" misdate — FIXED 6/12 with provenance.** TD verified: no auction on 5/5; 30Y new issue auctioned 5/13, stop 5.0460 exact, BTC 2.30, dealer 11.7%. Level story: first >5% close 5/4 (CBOE 5.025), back under 5/5-5/11, durable from 5/12. Both files corrected.
 
 ## Tier 5 — Known data gaps (need external pull, not just file edits)
 - [x] **Auction internals 5/21–5/28 — RESOLVED 6/12** via TreasuryDirect: 5/21 was the 10Y TIPS reopening (mislabeled gate, see CALENDAR); 2Y BTC 2.64 / 5Y 2.34 / 7Y 2.52 (indirect % computable on demand). June refunding integrated same pass (10Y reopen 78.2% indirect / 30Y 59.9%, dealer 14.7%).

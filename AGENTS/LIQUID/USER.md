@@ -40,6 +40,6 @@ See `CALENDAR.md` for the full rolling calendar. Headline near-term:
 - May 21–Jun 5: 10Y reopen / 2Y / 5Y / 7Y auctions + April PCE + May NFP — ⚠️ outcomes **pending data pull** (see CALENDAR)
 - May 20: 20Y auction soft-but-functional (indirect 67.7% STRONG, tail 0bp) → KB-LIQ-057 (term-premium digestion, not broken mechanism)
 - May 17: HY OAS tightest of cycle at 276 (16bps cushion above 260 kill)
-- May 5: 30Y auction tagged 5.046% (first since 2007); BTC 2.30, indirect 66.6% (level signal, not dysfunction)
+- May 13 (date corrected 6/12; was misrecorded as May 5): 30Y new-issue auction stopped 5.0460% (first 5%+ stop since 2007); BTC 2.30, indirect 66.6%, dealer 11.7% (level signal, not dysfunction)
 - Apr 17–21: SOFR confirmation window — resolved clean
 - Apr 15: Tax season TGA drain → triggered SOFR-IORB +7bps print, resolved mechanical (KB-LIQ-051)

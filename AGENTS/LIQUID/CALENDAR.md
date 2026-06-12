@@ -55,7 +55,7 @@
 | May 16 | WALTER sweep: 2nd US bank failure 2026 (Georgia), Barr "PC could trigger larger credit issues" | Stage 3 convergent-narrative recognition continues (KB-LIQ-040 trajectory) |
 | May 14 | Will/Prome signals: gamma momentum factor squeeze; 30Y tagged 5.046% (first since 2007) | Gamma suppression hypothesis live; duration regime break confirmed |
 | May 9 | Will image-batch: BlackRock APAC PC default, debt/GDP > 1, multiple Stage 3 confirms | All processed in `BATCH_INTEGRATION_2026-05-18.md` |
-| May 5 | 30Y auction tagged 5.046% | First since 2007; auction mix OK (BTC 2.30, indirect 66.6%) — level signal, not dysfunction |
+| ~~May 5~~ **May 13** | **30Y new-issue auction (912810UU0) stopped 5.0460%** — first 5%+ stop since 2007; BTC 2.30, indirect 66.6% (accepted basis), dealer 11.7% — level signal, not dysfunction | **Date CORRECTED 6/12** (TreasuryDirect: no auction of any kind on 5/5; row had conflated the auction with the level story — 30Y first closed >5% on 5/4 at 5.025 (CBOE), dipped back under 5/5–5/11, durably above from 5/12) |
 | Apr 17–21 | SOFR/IORB confirmation window | **RESOLVED MECHANICAL** — SOFR normalized to 3.55%, SOFR-IORB re-flipped to -10bps. Apr 15 +7bps breach was tax-day TGA build, not structural leak. KB-LIQ-051; playbook archived. |
 | Apr 22 | OZK Q1 earnings | (see REGINALD/OZK STATUS) |
 | Apr 21 | WAL Q1 earnings | (see REGINALD STATUS) |
