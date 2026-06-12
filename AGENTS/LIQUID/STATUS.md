@@ -1,7 +1,7 @@
 # LIQUID STATUS
-**Last Updated:** 2026-06-12 AM (boot refresh, all live-primary) | **Agent:** LIQUID | **Status:** 🟠 **APO >$130 ×3 closes — HEARTBEAT reassess trigger FIRED 6/11** (closes 6/9 $132.70 / 6/10 $131.14 / 6/11 $133.91; NOT Trigger C — HY OAS widened, concurrency fails); HY OAS 280 (6/10) — **direction REVERSED, cushion to 260 kill back out to 20bps**; May CPI HOT (headline 4.18% YoY accel, core 2.81%); USD/JPY 5 sessions >160; Brent $87.95 still collapsing; 30Y 5.03 >5% sustained
+**Last Updated:** 2026-06-12 AM #2 (boot refresh + duration re-derivation + June auction internals) | **Agent:** LIQUID | **Status:** 🟠 **APO >$130 ×3 closes — HEARTBEAT reassess trigger FIRED 6/11** (closes 6/9 $132.70 / 6/10 $131.14 / 6/11 $133.91; NOT Trigger C — HY OAS widened, concurrency fails); HY OAS 280 (6/10), cushion to 260 kill out to 20bps; May CPI HOT (4.18% YoY headline accel, core 2.81%); USD/JPY 4 closes >160 (6/8-6/11); **DURATION CORRECTION: 30Y closed 4.951 / 10Y 4.463 on 6/11 — "sustained >threshold" framing was WRONG (see Dashboard 2); regime is a 5%-pivot oscillation, testing downside into FOMC**
 
-> ⚠️ **CATCH-UP GAPS (not yet integrated):** 5/21 10Y reopening result, 5/26 2Y / 5/27 5Y / 5/28 7Y auction internals, 5/28 April PCE, 6/5 May NFP detail. **Auction-internals rows (Dashboard 3) remain 5/20 and are flagged stale.**
+> ⚠️ **CATCH-UP GAPS (narrowed 6/12):** ~~5/21 10Y reopening~~ **RESOLVED — was never a nominal 10Y: TreasuryDirect shows 5/21 was the 10Y TIPS reopening (CUSIP 91282CPU9, `type: TIPS`, high 2.169% REAL). The "Leg 2 corroboration gate" was mislabeled from BOND's 5/19 signal onward.** The real nominal test was the 6/10 10Y reopening (indirect 78.2% — integrated, Dashboard 3). Still pending: 5/26 2Y / 5/27 5Y / 5/28 7Y indirect % (BTCs in CALENDAR: 2.64 / 2.34 / 2.52), 5/28 April PCE, 6/5 May NFP detail.
 
 ---
 
@@ -12,7 +12,7 @@
 **APO co-trigger: ≥3-session leg FIRED on closes 🟠 — but NOT Trigger C.** Daily closes: 6/9 $132.70, 6/10 $131.14, 6/11 $133.91 = 3 consecutive >$130. HEARTBEAT line-80 **REASSESS obligation fired 6/11.** KILL_MEMO escalation to Trigger C requires concurrency with **HY OAS compression** — HY widened 274→280 over the same window, so concurrency FAILS. Read: PC equity bid strong while credit tail (CCC 957) deteriorates = the known equity/mark decoupling (KB-LIQ-058 + durable finding "don't over-weight equity price action for Stage 3 timing"). Reassess output → BROCK (holds APO Dec $95P, tracks the same line); outbox sent 6/12.
 > ⚠️ **Count correction (OHLC rule):** the 6/8 "Day 1" in the prior STATUS was an intraday print — APO's official 6/8 CLOSE was $127.57, below the line. Streak starts 6/9. Day-counts key off daily closes only.
 
-> **🎯 Current framing:** "thesis intact; credit channel re-widening, duration channel sustained" — 30Y 5.03 >5% sustained, 10Y 4.55 >4.50 sustained. May CPI hot (4.18% headline accel) constrains the Fed into 6/17 FOMC while claims creep (210→229k over 4 wks) = stagflation-trap texture. Brent collapse ($87.95) eases *June* CPI passthrough but the May print already landed hot. Watch: HY OAS direction post-CPI, FOMC 6/17 dot plot, APO streak extension (Day 4 would be today's close).
+> **🎯 Current framing (corrected 6/12 #2):** "thesis intact but the strongest channel is weaker than documented" — credit re-widening (280), duration **oscillating around the 5% pivot, not sustained above it** (30Y closed 4.951 / 10Y 4.463 on 6/11, the 30Y-auction relief-rally day; sub-threshold stretch 5/28-6/4 had gone unrecorded). Pre-registered unwind test (30Y <4.90 sustained) not touched — regime sits between "durable" and "unwinding," testing downside into FOMC 6/17. May CPI hot (4.18% headline accel) + claims creep (210k wk-5/16 → 229k wk-6/6) = stagflation-trap texture, but the long end is rallying through it. Watch: HY OAS direction, FOMC dots, APO streak (Day 4 = today's close), first sub-$90 Brent close.
 
 POV-arc for how we got here: see `thesis/CHANGELOG.md` § POV Pivots (5/20, 5/19, 5/18).
 
@@ -37,7 +37,7 @@ POV-arc for how we got here: see `thesis/CHANGELOG.md` § POV Pivots (5/20, 5/19
 | **APO co-trigger** | >$130 ×3 sessions (HEARTBEAT line 80) | **$133.91 close 6/11; 3 consecutive closes >$130** | 🟠 **FIRED 6/11 (reassess leg).** NOT Trigger C — HY widening, concurrency fails. 6/8 close was $127.57 (intraday-print miscount corrected). Outbox → BROCK 6/12. |
 | CCC OAS | >1000bps | 957 (6/10, BB 170) | 🟡 43bps away — tail keeps widening while BB barely moves |
 | BIZD | mark stress | $12.62 (close 6/11) | 🟡 Above $12.50 trigger 3 straight closes. FSK -9.9% mark direction intact |
-| VIX | >25 | 19.13 (6/12 pre-mkt; **spiked 22.22 on 6/10 CPI day**) | 🟡 Elevated floor vs May (15-17 range); two >21 spikes in 5 sessions (6/5, 6/10) |
+| VIX | >25 | 19.13 (6/12 pre-mkt; **closed 22.22 on 6/10 CPI day**) | 🟡 Elevated floor vs May (15-17 range); two >21 CLOSES within four sessions (21.51 on 6/5, 22.22 on 6/10) |
 | BDC Q1 marks | rolling | FSK -9.9% in; OBDC/ARCC/BXSL/MAIN — **status not re-verified post-5/20** | 🟡 See `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` — needs refresh |
 
 ---
@@ -48,9 +48,9 @@ POV-arc for how we got here: see `thesis/CHANGELOG.md` § POV Pivots (5/20, 5/19
 |--------|-----------|---------|--------|
 | **SOFR** | >3.70 | 3.60% (6/11) | 🟢 Clean; drifted down from 3.63 |
 | **SOFR-IORB** | sustained >0 | **-5bps** (6/11) | 🟢 Negative/clean. No funding stress signal |
-| **10Y yield** | >4.50% sustained | 4.55% (6/10) | 🔴 Still >4.50 sustained; held through hot CPI (4.53→4.55) |
-| **30Y yield** | >5% sustained | **5.03% (6/10)** | 🔴 Still >5% sustained (5.01-5.03 band all week). First sustained 5% regime since 2007 holds |
-| TLT | level | $85.98 (close 6/11) | 🔴 Duration repricing intact; +$1.36 relief bid 6/11 post-CPI digestion |
+| **10Y yield** | >4.50% sustained | **4.46% close 6/11** (^TNX 4.463; FRED 6/11 pending) | 🟠 **CORRECTED 6/12: NOT ">4.50 sustained."** Full FRED record: below 4.50 on 8 of last 13 closes (5/27-6/4 stretch 4.45-4.49; above only 6/5-6/10 post-NFP/CPI pop; 6/11 broke back below). KB-LIQ-052 framing needs re-derivation. |
+| **30Y yield** | >5% sustained | **4.95% close 6/11** (^TYX 4.951; FRED pending) | 🟠 **CORRECTED 6/12: NOT ">5% sustained."** TIMELINE bear test DID fire (11 straight closes >5%, 5/12-5/27, peak 5.18), then regime decayed to a 5.00-pivot oscillation: sub-5 closes 5/28, 5/29, 6/1, 6/2, 6/3, 6/4, 6/11 (7 of last 18). Pre-registered unwind test (<4.90 sustained) NOT touched. Testing downside into FOMC 6/17. |
+| TLT | level | $85.98 (close 6/11) | 🔴 +$1.36 on 6/11 — the long-end rally day (post-30Y-auction relief); confirms the yield move |
 | RRP buffer | >$5B | $0.158B (Apr 16, stale) | 🔴 Structural zero — no buffer to drain |
 | SRF usage | >$50B | TBD | — Check next NY Fed refresh (stale since 4/16) |
 | Reserve floor | >$2.8T | ~$3.0T (stale) | 🟡 Cushion intact but draining; needs refresh |
@@ -64,10 +64,10 @@ POV-arc for how we got here: see `thesis/CHANGELOG.md` § POV Pivots (5/20, 5/19
 
 | Metric | Threshold | Current | Status |
 |--------|-----------|---------|--------|
-| **Auction Indirect** | <55% sustained | **67.7%** (5/20 20Y, last verified) | 🟢 Last print STRONG; ⚠️ **5/21-5/28 cycle not integrated** — see auction-gap note above |
-| **Auction Mix** | BTC ≥2.60, tail ≤+1bp, dealer ≤10% | BTC 2.55 / tail 0bp / dealer 9.4% (5/20) | 🟡 Last print soft-but-functional; stale, needs 2Y/5Y/7Y refresh |
-| **USD/JPY** | >160 | **160.27** (6/12 AM; closes 160.33/160.17/160.38/160.53 from 6/8) | 🔴 **5 consecutive sessions >160 — SUSTAINED.** SAM-domain co-watch; BOJ intervention-risk acute |
-| **Brent** | reflation watch | **$87.95** (6/12 AM) | 🟡 **Collapse extending: $110.59 → $87.95 (-$22.6).** June CPI passthrough relief ahead — but May CPI already landed hot (4.18% YoY) on the lagged energy |
+| **Auction Indirect** | <55% sustained | **78.2%** (6/10 10Y reopen) / **59.9%** (6/11 30Y reopen) — TreasuryDirect, accepted basis | 🟢/🟡 **June refunding integrated 6/12.** Belly demand STRONG (10Y indirect 78.2%, dealer 9.5%); long bond SOFT-but-cleared (indirect 59.9% vs 66.6% May, above 55% trigger). Tenor-bifurcated FOI demand. |
+| **Auction Mix** | BTC ≥2.60, tail ≤+1bp, dealer ≤10% | 30Y 6/11: **BTC 2.33, dealer 14.7%**, high 5.020; 10Y 6/10: BTC 2.57, dealer 9.5%; 3Y 6/9: BTC 2.64 | 🟠 **30Y missed 2 of 3 mix conditions (BTC + dealer takedown 14.7%)** — softest dealer line of the cycle; market then RALLIED 7bps post-auction (close 4.951). KB-LIQ-057 two-poles: mechanism functional, price clears, term premium does the work. |
+| **USD/JPY** | >160 | closes 160.33 / 160.17 / 160.38 / 160.53 (6/8-6/11); 6/12 intraday 160.27 | 🔴 **4 consecutive CLOSES >160** (6/5 closed 159.99 — just under). SAM-domain co-watch; BOJ intervention-risk acute |
+| **Brent** | reflation watch | close $90.38 (6/11); **6/12 intraday $87.95** | 🟡 Collapse extending ($110.59 peak → low 90s); **zero sub-$90 CLOSES yet** — 6/12 would be the first if it holds. May CPI already landed hot on the lagged energy |
 | Foreign CB UST | stable | $2.7T (lowest since 2012, stale) | 🔴 Structural outflow |
 | Belgium TIC | >$500B = ORANGE | $481B (Nov 2025) | 🟡 Watch; **next data 6/18 (May TIC = April flows)** per KB-LIQ-055 framework |
 
@@ -77,7 +77,8 @@ POV-arc for how we got here: see `thesis/CHANGELOG.md` § POV Pivots (5/20, 5/19
 
 - **APO >$130 ×3 closes — reassess trigger FIRED → BROCK (outbox sent 6/12):** closes 6/9-6/11 all >$130 ($132.70/$131.14/$133.91). NOT Trigger C (HY widening, concurrency fails). BROCK holds APO Dec $95P and tracks the same line — their reassess to run.
 - **May CPI HOT → CARL:** headline +0.48% MoM / 4.18% YoY (accel from 3.78%); core +0.21% MoM / 2.81% YoY. With claims creeping 210→229k over 4 weeks = stagflation-trap texture into 6/17 FOMC. CARL owns the macro read; my interest is the Fed-constraint angle on duration.
-- **USD/JPY 5 sessions >160 SUSTAINED → SAM:** 160.17-160.53 closes since 6/8. BOJ intervention-risk acute; SAM owns.
+- **USD/JPY 4 consecutive closes >160 → SAM:** 160.33/160.17/160.38/160.53 (6/8-6/11); 6/5 closed 159.99. BOJ intervention-risk acute; SAM owns.
+- **Duration correction + 30Y auction read → HENRY, REGINALD, BOND-interface:** 6/11 long end rallied through a soft 30Y auction (BTC 2.33, dealer 14.7%, indirect 59.9%) to close 4.951/4.463 — below both regime thresholds. My ">threshold sustained" framing since 5/18 missed the 5/28-6/4 sub-threshold stretch. Duration channel = oscillation, not regime; FOMC 6/17 is the resolver.
 - **Brent $87.95, collapse extending → HAWK, BRENT, CARL:** -$22.6 from peak. June CPI passthrough relief ahead; war-premium largely unwound.
 - ✅ **SOFR-IORB read sent to BOND (5/20)** — still undelivered in outbox/ (HERMES sweep pending).
 - ~~SOFR>IORB → RESOLVED MECHANICAL.~~ See KB-LIQ-051.
