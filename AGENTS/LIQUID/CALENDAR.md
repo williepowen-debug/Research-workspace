@@ -39,14 +39,17 @@
 
 | Date | Event | Outcome |
 |------|-------|---------|
-| Jun 11 | Initial jobless claims (wk 6/6) | **229k** — below 250k threshold but 4th straight weekly rise (210→212→225→229k) |
+| Jun 11 | **30Y reopening ($22B, 912810UU0)** | **SOFT-but-cleared: BTC 2.33, indirect 59.9% (vs 66.6% May), dealer 14.7% (elevated), high 5.020%.** Market rallied 7bps post-auction (30Y closed 4.951 — first sub-5 close since 6/4). TreasuryDirect, integrated 6/12 |
+| Jun 10 | **10Y reopening ($39B, 91282CQQ7)** | **STRONG: BTC 2.57, indirect 78.2%, dealer 9.5%, high 4.538%.** Belly demand robust — corroborates KB-LIQ-057 (demand shows at price) |
+| Jun 9 | 3Y note auction | BTC 2.64 — functional |
+| Jun 11 | Initial jobless claims (wk 6/6) | **229k** — below 250k threshold but 4th straight weekly rise (210k wk-5/16 → 212k → 225k → 229k wk-6/6) |
 | Jun 10 | **May CPI** | **HOT: headline +0.48% MoM / 4.18% YoY (accel from 3.78%); core +0.21% MoM / 2.81% YoY** (FRED CPIAUCSL/CPILFESL). VIX spiked 22.22 intraday. Lagged energy passthrough landed despite Brent collapse; constrains Fed into 6/17 FOMC |
 | Jun 5 | May NFP (Employment Situation) | ⚠️ **Pending data pull** — not yet integrated (claims trend is the only labor read I have) |
 | May 28 | April PCE | ⚠️ **Pending data pull** |
-| May 28 | 7Y note auction | ⚠️ **Pending data pull** (BTC/indirect/tail) |
-| May 27 | 5Y note auction | ⚠️ **Pending data pull** |
-| May 26 | 2Y note auction | ⚠️ **Pending data pull** |
-| May 21 | 10Y reopening (Leg 2 — KB-LIQ-057 corroboration gate) | ⚠️ **Pending data pull** — the term-premium-vs-mechanism corroboration test was never integrated |
+| May 28 | 7Y note auction | BTC 2.52 (TreasuryDirect 6/12); indirect % computable on demand |
+| May 27 | 5Y note auction | BTC 2.34 — soft side (TreasuryDirect 6/12); indirect % computable on demand |
+| May 26 | 2Y note auction | BTC 2.64 (TreasuryDirect 6/12); indirect % computable on demand |
+| May 21 | ~~10Y reopening (Leg 2 gate)~~ **MISLABELED — was the 10Y TIPS reopening** (91282CPU9, `type: TIPS`, high 2.169% REAL; BTC 2.52, indirect 61.4%). Not a nominal Leg-B test; different buyer base. The actual nominal corroboration arrived 6/10 (10Y reopen, indirect 78.2% — KB-LIQ-057 corroborated) | **RESOLVED 6/12** — verify-security-type pattern (term field collapses TIPS/nominal) |
 | May 20 | 20Y auction ($16B reopening) | **Soft-but-functional, no orange:** BTC 2.55 / indirect 67.7% STRONG / tail 0bp / dealer 9.4% → KB-LIQ-057 (term-premium digestion, not broken mechanism) |
 | May 17 | HY OAS tightest of cycle: 276 (16bps cushion above 260 kill) | Did not breach; +4bps on 5/18 |
 | May 16 | WALTER sweep: 2nd US bank failure 2026 (Georgia), Barr "PC could trigger larger credit issues" | Stage 3 convergent-narrative recognition continues (KB-LIQ-040 trajectory) |
