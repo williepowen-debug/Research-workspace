@@ -1,17 +1,18 @@
 # LIQUID STATUS
-**Last Updated:** 2026-06-08 (live-tape catch-up from 5/20, ~19d stale) | **Agent:** LIQUID | **Status:** 🟡 **APO co-trigger RE-ARMING** (APO ran $130→$131.5, +3.1% on 6/8 annual-meeting day — re-crossed the $130 line; needs 3 sustained sessions to fire Trigger C); HY OAS 276bps (16bps above 260 kill — cushion NARROWING); Brent reversed $110→~$91 (reflation loop cooling); USD/JPY 160.30 crossed trigger; duration eased off 5/19 peak (10Y 4.55, 30Y 5.01 still >5% sustained)
+**Last Updated:** 2026-06-12 AM (boot refresh, all live-primary) | **Agent:** LIQUID | **Status:** 🟠 **APO >$130 ×3 closes — HEARTBEAT reassess trigger FIRED 6/11** (closes 6/9 $132.70 / 6/10 $131.14 / 6/11 $133.91; NOT Trigger C — HY OAS widened, concurrency fails); HY OAS 280 (6/10) — **direction REVERSED, cushion to 260 kill back out to 20bps**; May CPI HOT (headline 4.18% YoY accel, core 2.81%); USD/JPY 5 sessions >160; Brent $87.95 still collapsing; 30Y 5.03 >5% sustained
 
-> ⚠️ **CATCH-UP GAPS (not yet integrated):** 5/21 10Y reopening result, 5/26 2Y / 5/27 5Y / 5/28 7Y auction internals, 5/28 April PCE, 6/5 May NFP detail. Dashboard market levels are 6/5-6/8 live; **auction-internals rows (Dashboard 3) remain 5/20 and are flagged stale.** May CPI 6/10 (T-1).
+> ⚠️ **CATCH-UP GAPS (not yet integrated):** 5/21 10Y reopening result, 5/26 2Y / 5/27 5Y / 5/28 7Y auction internals, 5/28 April PCE, 6/5 May NFP detail. **Auction-internals rows (Dashboard 3) remain 5/20 and are flagged stale.**
 
 ---
 
-## Thesis-Kill Proximity (6/8)
+## Thesis-Kill Proximity (6/12)
 
-**HY OAS 276bps (6/5). Kill 260 (HEARTBEAT line 80). Cushion: 16bps** (NARROWING from 26bps on 5/20; re-tagged the 5/17 cycle-tight of 276). Still 44bps below 320 confirmation. **Thesis grinding toward the kill side, not toward confirmation.**
+**HY OAS 280bps (6/10). Kill 260. Cushion: 20bps — direction REVERSED to widening** (274 on 6/4 → 280 on 6/10; first sustained move away from the kill since mid-May). Still 40bps below 320 confirmation. The compression-toward-kill grind paused; watch whether 6/11-6/12 prints extend the widening (May-CPI-hot + claims-creep is a credible widener).
 
-**APO co-trigger RE-ARMING 🟡** — APO **ran $130 → ~$131.5 (+3.1%) on 6/8** (annual-meeting day; climbed intra-session $129.93→$131.55, live yfinance). Retraced from the ~$135 mid-May peak to the line, then **re-crossed above $130 on the 6/8 bounce.** KILL_MEMO Trigger C precondition (APO >$130 concurrent with HY OAS compression) is **back in play** but needs **3 sustained sessions >$130** to fire — one bounce-print isn't the full signal. Watch whether it holds >$130. (Dashboard had $127.57 — stale; live primary is the truth here.)
+**APO co-trigger: ≥3-session leg FIRED on closes 🟠 — but NOT Trigger C.** Daily closes: 6/9 $132.70, 6/10 $131.14, 6/11 $133.91 = 3 consecutive >$130. HEARTBEAT line-80 **REASSESS obligation fired 6/11.** KILL_MEMO escalation to Trigger C requires concurrency with **HY OAS compression** — HY widened 274→280 over the same window, so concurrency FAILS. Read: PC equity bid strong while credit tail (CCC 957) deteriorates = the known equity/mark decoupling (KB-LIQ-058 + durable finding "don't over-weight equity price action for Stage 3 timing"). Reassess output → BROCK (holds APO Dec $95P, tracks the same line); outbox sent 6/12.
+> ⚠️ **Count correction (OHLC rule):** the 6/8 "Day 1" in the prior STATUS was an intraday print — APO's official 6/8 CLOSE was $127.57, below the line. Streak starts 6/9. Day-counts key off daily closes only.
 
-> **🎯 Current framing:** "thesis grinding but intact via credit-compression-toward-kill" — the duration channel that was acute on 5/19 (30Y 5.168 intraday) has eased (30Y 5.01, 10Y 4.55), AND the reflation co-driver (Brent) collapsed -$17. The live tell is now **HY OAS cushion to 260** (16bps, narrowing) rather than the APO co-trigger. Watch for HY OAS <265 (kill-memo Trigger A) on the compression side, OR a re-widening if a credit event prints.
+> **🎯 Current framing:** "thesis intact; credit channel re-widening, duration channel sustained" — 30Y 5.03 >5% sustained, 10Y 4.55 >4.50 sustained. May CPI hot (4.18% headline accel) constrains the Fed into 6/17 FOMC while claims creep (210→229k over 4 wks) = stagflation-trap texture. Brent collapse ($87.95) eases *June* CPI passthrough but the May print already landed hot. Watch: HY OAS direction post-CPI, FOMC 6/17 dot plot, APO streak extension (Day 4 would be today's close).
 
 POV-arc for how we got here: see `thesis/CHANGELOG.md` § POV Pivots (5/20, 5/19, 5/18).
 
@@ -27,29 +28,29 @@ POV-arc for how we got here: see `thesis/CHANGELOG.md` § POV Pivots (5/20, 5/19
 
 ---
 
-## Dashboard 1 — Credit Spreads (6/5-6/8)
+## Dashboard 1 — Credit Spreads (6/10-6/11 live)
 
 | Metric | Threshold | Current | Status |
 |--------|-----------|---------|--------|
-| **HY OAS (macro)** | confirmation >320 / freeze >350 / **kill <260** | **276** (6/5, +2 daily) | 🟡 44bps below 320; **16bps cushion above 260 kill (NARROWING from 26).** ⚠️ **Partially artificially strong** — CCC widened +17 while macro compressed -10 (~27bps bifurcation); decompose before citing as "calm" (KB-LIQ-058). Watch <265 = Trigger A. |
-| **HY Energy OAS** | >300 = energy-credit trip | **~285 (Apr 28, 40d STALE)** | 🟠 The primed corner — Brent -15% + live Hormuz; energy credit decouples from oil on geo-risk (BRENT). Likely wider than 285, plausibly at/through 300. **Needs live ICE/BBG pull (BRENT/data-fetch).** |
-| **APO co-trigger** | >$130 for 3 sessions (HEARTBEAT line 80) | **~$131.5** (+3.1%, live 6/8) | 🟡 **RE-CROSSED $130** on 6/8 bounce (annual-mtg day). Day 1 of 3 — needs sustained holds >$130 to fire Trigger C. Watch the count. |
-| CCC OAS | >1000bps | 952 (6/5, +6) | 🟡 48bps away — quality bifurcation still widening but not at trigger |
-| BIZD | mark stress | $12.56 (+0.84%, live 6/8) | 🟡 Back above $12.50 trigger on 6/8 bounce (BROCK had it "cracked" at $12.49 on 6/5). FSK -9.9% mark direction intact |
-| VIX | >25 | 18.92 (6/8) | 🟢 Well below; up modestly from 5/20 (17.47). Gamma-suppression hypothesis still live |
+| **HY OAS (macro)** | confirmation >320 / freeze >350 / **kill <260** | **280** (6/10; 274→275→278→280 from 6/4) | 🟡 **WIDENING — cushion to kill back out to 20bps.** 40bps below 320. Bifurcation persists: CCC−BB = 787 (KB-LIQ-058); decompose before citing aggregate. |
+| **HY Energy OAS** | >300 = energy-credit trip | **~285 (Apr 28, 44d STALE)** | 🟠 Primed corner — Brent now $87.95; needs live ICE/BBG pull (BRENT/data-fetch). |
+| **APO co-trigger** | >$130 ×3 sessions (HEARTBEAT line 80) | **$133.91 close 6/11; 3 consecutive closes >$130** | 🟠 **FIRED 6/11 (reassess leg).** NOT Trigger C — HY widening, concurrency fails. 6/8 close was $127.57 (intraday-print miscount corrected). Outbox → BROCK 6/12. |
+| CCC OAS | >1000bps | 957 (6/10, BB 170) | 🟡 43bps away — tail keeps widening while BB barely moves |
+| BIZD | mark stress | $12.62 (close 6/11) | 🟡 Above $12.50 trigger 3 straight closes. FSK -9.9% mark direction intact |
+| VIX | >25 | 19.13 (6/12 pre-mkt; **spiked 22.22 on 6/10 CPI day**) | 🟡 Elevated floor vs May (15-17 range); two >21 spikes in 5 sessions (6/5, 6/10) |
 | BDC Q1 marks | rolling | FSK -9.9% in; OBDC/ARCC/BXSL/MAIN — **status not re-verified post-5/20** | 🟡 See `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` — needs refresh |
 
 ---
 
-## Dashboard 2 — Domestic Plumbing (6/5-6/8)
+## Dashboard 2 — Domestic Plumbing (6/10-6/11 live)
 
 | Metric | Threshold | Current | Status |
 |--------|-----------|---------|--------|
-| **SOFR** | >3.70 | 3.63% (6/5) | 🟢 Normalized; +8bps vs 5/18 but below threshold |
-| **SOFR-IORB** | sustained >0 | **-2bps** (6/5) | 🟢 Drifting toward zero (from -12), still negative/clean. No funding stress signal |
-| **10Y yield** | >4.50% sustained | 4.55% (6/5) | 🔴 Still >4.50 sustained but **eased off 5/19 peak (4.647)**; grinding not spiking |
-| **30Y yield** | >5% sustained | **5.01% (6/5, ~5.02 live)** | 🔴 Still >5% sustained; off the 5.168 intraday peak. First sustained 5% regime since 2007 holds |
-| TLT | level | $84.62 (6/8) | 🔴 Duration repricing intact; recovered from 5/19 lows |
+| **SOFR** | >3.70 | 3.60% (6/11) | 🟢 Clean; drifted down from 3.63 |
+| **SOFR-IORB** | sustained >0 | **-5bps** (6/11) | 🟢 Negative/clean. No funding stress signal |
+| **10Y yield** | >4.50% sustained | 4.55% (6/10) | 🔴 Still >4.50 sustained; held through hot CPI (4.53→4.55) |
+| **30Y yield** | >5% sustained | **5.03% (6/10)** | 🔴 Still >5% sustained (5.01-5.03 band all week). First sustained 5% regime since 2007 holds |
+| TLT | level | $85.98 (close 6/11) | 🔴 Duration repricing intact; +$1.36 relief bid 6/11 post-CPI digestion |
 | RRP buffer | >$5B | $0.158B (Apr 16, stale) | 🔴 Structural zero — no buffer to drain |
 | SRF usage | >$50B | TBD | — Check next NY Fed refresh (stale since 4/16) |
 | Reserve floor | >$2.8T | ~$3.0T (stale) | 🟡 Cushion intact but draining; needs refresh |
@@ -59,26 +60,26 @@ POV-arc for how we got here: see `thesis/CHANGELOG.md` § POV Pivots (5/20, 5/19
 
 ---
 
-## Dashboard 3 — Foreign Official (FX/Brent live 6/8; auction internals STALE 5/20)
+## Dashboard 3 — Foreign Official (FX/Brent live 6/12; auction internals STALE 5/20)
 
 | Metric | Threshold | Current | Status |
 |--------|-----------|---------|--------|
 | **Auction Indirect** | <55% sustained | **67.7%** (5/20 20Y, last verified) | 🟢 Last print STRONG; ⚠️ **5/21-5/28 cycle not integrated** — see auction-gap note above |
 | **Auction Mix** | BTC ≥2.60, tail ≤+1bp, dealer ≤10% | BTC 2.55 / tail 0bp / dealer 9.4% (5/20) | 🟡 Last print soft-but-functional; stale, needs 2Y/5Y/7Y refresh |
-| **USD/JPY** | >160 | **160.22** (6/8) | 🔴 **TRIGGER FIRED** — crossed 160. SAM-domain co-watch; BOJ intervention-risk acute |
-| **Brent** | reflation watch | **$89.95** (-4.56%, live 6/8) | 🟡 **REVERSED ~-$20 from $110.59, sub-$90.** Reflation/CPI-passthrough loop cooling hard — eases the inflation co-driver of the duration channel (HAWK/BRENT-domain) |
+| **USD/JPY** | >160 | **160.27** (6/12 AM; closes 160.33/160.17/160.38/160.53 from 6/8) | 🔴 **5 consecutive sessions >160 — SUSTAINED.** SAM-domain co-watch; BOJ intervention-risk acute |
+| **Brent** | reflation watch | **$87.95** (6/12 AM) | 🟡 **Collapse extending: $110.59 → $87.95 (-$22.6).** June CPI passthrough relief ahead — but May CPI already landed hot (4.18% YoY) on the lagged energy |
 | Foreign CB UST | stable | $2.7T (lowest since 2012, stale) | 🔴 Structural outflow |
 | Belgium TIC | >$500B = ORANGE | $481B (Nov 2025) | 🟡 Watch; **next data 6/18 (May TIC = April flows)** per KB-LIQ-055 framework |
 
 ---
 
-## Cross-Domain Signals (6/8)
+## Cross-Domain Signals (6/12)
 
-- **APO co-trigger RE-CROSSED $130 (~$131.5, +3.1% on 6/8) → BROCK:** Bounced back above the trigger on annual-meeting day. Day 1 of 3 — needs sustained holds to fire Trigger C. BROCK tracks the SAME $130 line ("reclaims $130 sustained → reassess puts"); their APO Dec $95P thesis vehicle. The 6/8 risk-complex bounce (APO +3%, BIZD +0.8%) reverses Fri 6/5's equity crack — watch whether it holds. Outbox candidate.
-- **USD/JPY 160.22 TRIGGER FIRED → SAM:** Crossed the 160 line I'd been co-watching. BOJ verbal/actual intervention risk now acute. SAM owns; flag for confirmation of repatriation read.
-- **Brent reversal $110.59 → $89.95 (sub-$90) → HAWK, BRENT, CARL:** ~-$20. Cools the reflation/CPI-passthrough loop materially ahead of **May CPI 6/10**. Removes one co-driver of the duration channel.
-- **Duration eased off 5/19 peak → HENRY, REGINALD:** 30Y 5.168 intraday → 5.01; 10Y 4.647 → 4.55. Still >threshold sustained, but grinding not spiking. Less acute than the 5/18-5/19 escalation.
-- ✅ **SOFR-IORB read sent to BOND (5/20)** — `outbox/2026-05-20_to-BOND_sofr-iorb-ample-reserves-read.md`. (Was BOND active? confirm delivery in delivered/.)
+- **APO >$130 ×3 closes — reassess trigger FIRED → BROCK (outbox sent 6/12):** closes 6/9-6/11 all >$130 ($132.70/$131.14/$133.91). NOT Trigger C (HY widening, concurrency fails). BROCK holds APO Dec $95P and tracks the same line — their reassess to run.
+- **May CPI HOT → CARL:** headline +0.48% MoM / 4.18% YoY (accel from 3.78%); core +0.21% MoM / 2.81% YoY. With claims creeping 210→229k over 4 weeks = stagflation-trap texture into 6/17 FOMC. CARL owns the macro read; my interest is the Fed-constraint angle on duration.
+- **USD/JPY 5 sessions >160 SUSTAINED → SAM:** 160.17-160.53 closes since 6/8. BOJ intervention-risk acute; SAM owns.
+- **Brent $87.95, collapse extending → HAWK, BRENT, CARL:** -$22.6 from peak. June CPI passthrough relief ahead; war-premium largely unwound.
+- ✅ **SOFR-IORB read sent to BOND (5/20)** — still undelivered in outbox/ (HERMES sweep pending).
 - ~~SOFR>IORB → RESOLVED MECHANICAL.~~ See KB-LIQ-051.
 
 - **T-08 credit-pin (HAW-11 leakage node) → NEXUS:** ✅ Verified intact-and-primed. Caveat: a leakage event may widen HY *without* the usual safe-haven UST bid (30Y>5%, foreign exit, JPY 160) — no duration cushion = node-amplifier. Graded soft-but-primed (not dormant). On daily watch through Hormuz window (Jun 8-22).
@@ -86,29 +87,28 @@ POV-arc for how we got here: see `thesis/CHANGELOG.md` § POV Pivots (5/20, 5/19
 
 ---
 
-## Active Proposals (6/8)
+## Active Proposals (6/12)
 
-**PROPOSAL 3 — CRUDE SHORT ON HOLD.** Hormuz/Dimona active; Brent reversed to $93.43 (was $110.59). Short thesis less urgent at lower spot, but war-premium-collapse already partly realized.
-**PROPOSAL 4 — HYG PUT REVIEW → RECOMMEND CLOSE/EXPIRE.** HYG **$79.54** vs $75 strike — deep OTM, June expiry (~6/19, T-10). HY OAS **276 tightening AWAY from the 320 trigger**; thesis (retest to 350) did not play. Theta-killer with no path. **Will decision: let expire worthless vs cut for residual.** (see `put_vs_duration_expression` memory — equity/credit puts bleed in regime-suppressed tape.)
-**PROPOSAL 5 — BCRED Q2 HARD GATE.** APO re-crossed $130 (~$131.5, +3.1% on 6/8) + FSK NAV -9.9% + BROCK Stage 2→3 pivot (4-fund gate cluster, record 6% default) = substance accelerating while APO equity bounces. Mixed signal; revisit on BCRED Q2 window. (BROCK owns the gate-cascade detail.)
+**PROPOSAL 3 — CRUDE SHORT ON HOLD.** Brent $87.95; war-premium collapse largely realized. Short thesis stale at this spot.
+**PROPOSAL 4 — HYG PUT REVIEW → RECOMMEND CLOSE/EXPIRE.** HYG **$79.94** vs $75 strike — deep OTM, **June expiry 6/19, T-5.** Thesis (retest to 350) did not play; HY at 280. Theta-killer with no path. **Will decision: let expire worthless vs cut for residual — decision window closing.**
+**PROPOSAL 5 — BCRED Q2 HARD GATE.** APO trigger fired (3 closes >$130) + FSK NAV -9.9% + BROCK Stage 2→3 pivot = substance accelerating while PC equity bid strengthens. Mixed signal; revisit on BCRED Q2 window. (BROCK owns the gate-cascade detail.)
 
 ## Active Positions
 
-| Position | Expiry | Thesis | Status (6/8) |
+| Position | Expiry | Thesis | Status (6/12) |
 |----------|--------|--------|--------|
-| TEN calls (Jun $30) | Jun 2026 | Triple premium | TEN $36.83 — **ITM ~$6.83, winner.** Dimona/HAWK co-watch. Hold/evaluate near expiry. |
-| HYG $75P Jun x10 | Jun 2026 | LIQ-01 retest to 350 | **Thesis broken.** HYG $79.54 deep OTM; HY OAS 276 tightening away from trigger. → close/expire (Will decision). |
+| TEN calls (Jun $30) | **Jun 19 (T-5)** | Triple premium | TEN $37.11 — **ITM ~$7.11, winner.** Exercise/sell decision needed BEFORE 6/19. Dimona/HAWK co-watch. |
+| HYG $75P Jun x10 | **Jun 19 (T-5)** | LIQ-01 retest to 350 | **Thesis broken.** HYG $79.94 deep OTM. → close/expire (Will decision, window closing). |
 
 ---
 
-## Danger Windows + Watch (6/8)
+## Danger Windows + Watch (6/12)
 
 | Window / Frequency | Risk |
 |---|---|
-| **Daily** | HY OAS 260 kill proximity (**16bps cushion, NARROWING**; <265 = Trigger A); 10Y/30Y duration regime; USD/JPY post-160-trigger follow-through; SOFR/SOFR-IORB stability |
-| **This Week (Jun 8-12)** | **May CPI Wed 6/10** (Brent reversal eases passthrough — does core stay sticky?); initial claims Thu 6/11; BDC Q1 wrap |
-| **Next Week (Jun 15-19)** | **June FOMC decision Wed 6/17** (dot plot, Warsh succession color, liquidity-facility language); **May TIC = April flows Thu 6/18** (Japan/Belgium proxy/FOI hole); **June monthly opex 6/19** (HYG/TEN expiry) |
-| **Late June** | BCRED Q2 redemption window (hard gate? >7% cap test); June Treasury auction cycle (30Y is the live tell at 5.01) |
+| **Daily** | HY OAS direction (widening resumed — 280; <265 = Trigger A still armed if it re-compresses); APO streak extension (Day 4 = today's close); 10Y/30Y duration regime; USD/JPY >160 follow-through; SOFR-IORB |
+| **Next Week (Jun 15-19)** | **June FOMC decision Wed 6/17** (dot plot vs hot May CPI; Warsh succession color; liquidity-facility language); **May TIC = April flows Thu 6/18** (Japan/Belgium proxy/FOI hole — KB-LIQ-055); **June monthly opex Fri 6/19 — HYG puts + TEN calls BOTH expire** |
+| **Late June** | BCRED Q2 redemption window (hard gate? cap test); June Treasury auction cycle (30Y the live tell at 5.03); Cliffwater CDLI Q1 |
 | **Powell → Warsh transition** | Policy continuity vs hawkish shift; intervention willingness collapse risk |
 
 ## Active Playbooks / Monitors
