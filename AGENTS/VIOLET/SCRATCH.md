@@ -1,4 +1,14 @@
-# VIOLET SCRATCH — June 11, 2026 (Thu full-day session, CLOSED OUT EOD: RED sweep COMPLETED 5/5; CCC crossed → tree fired BIN B; tape crushed the war premium EOD (VIX 19.44); gate×tree entry-block registered flat. NEXT = 6/12 AM: FRED double-duty read + ladder re-derivation + HAWK read for the deferred hedge)
+# VIOLET SCRATCH — June 11, 2026 (Thu, TWO closeouts: EOD + late-eve Will working session. Late-eve arc: extended FRED pull → KB-VIO-097 US-local finding → RED live challenge → KB-VIO-098 retraction+abandon-condition; fred_fetch +5 series; SKEW avg 140.85 margin +0.85 3rd-day widening (coiled-spring re-forming); M2:M3 RE-ARMED 3.47%. NEXT = 6/12: FRED triple-duty read ~11:30 AM + ladder re-derivation + COT 3:30 PM + HAWK read for the deferred hedge)
+
+---
+
+## ⚡⚡⚡ LATE-EVE ADDITION (Will working session ~21:30-23:00): THE 097→098 ROUND-TRIP + COILED-SPRING COMPONENT RE-FORMING
+
+1. **KB-VIO-097:** extended FRED 6/10 pull (Will: "anything else useful?") — June widening is US-LOCAL (Euro HY −1bp war day / −4bp June; EM −6bp June; US ladder BB/B/CCC +8/+8/+11bp; BBB +1bp insulated; NO Treasury safety bid; BE 2.29 falling). War-beta explanation took a real hit.
+2. **KB-VIO-098:** RED live challenge (pre-formal CHG-RED-038, via Will) ADJUDICATED — RED mostly right: magnitude test on cache says ladder moves 68-78th pctile (NOT signal), divergence config already ran 5/11-19 w/o consequence, BB round-tripped May. **Block-lift odds RESTORED 55-60% (had shaded to 45-55 on non-decisive input — 3rd untested-inference instance in 48h); ABANDON CONDITION registered: sticky CCC + 3-4 idiosyncratic movers = composition-not-regime, blip, NO Path A escalation. LIQUID movers = DECISIVE; Euro HY control = weak corroborator.** BE counter-signal (falling in oil/war week) routed →RED/→CARL.
+3. **Tooling:** fred_fetch.py +credit_ladder (BB/B/BBB — the tree's own lines weren't scripted!) +credit_global (Euro/EM); 11 caches warmed thru 6/10; MAINTENANCE entry (also: boot.py does NOT call fred_fetch — CALENDAR row corrected; 7f rates-lag NOT reproducing, close if next pull clean).
+4. **Freshness audit refreshes (2 of 3 queued next-boot items done):** SKEW 20d-avg **140.85 thru 6/11, margin +0.85 — 3rd straight widening INTO the −12.5% crush: coiled-spring geometry re-forming (component watch, NOT a fire)**; 6/11 strip — M1 19.24 (−7.0%), M1:M2 +6.49%, **M2:M3 RE-ARMED 1.81→3.47%** (fade economics partially restored), spot−M1 inversion nearly closed (0.20). **Ladder re-derivation STILL OWED** (the remaining queued item). Options OI: after-hours artifact, needs intraday run.
+5. **Will orientation delivered:** simplified trade-decision guide (two green lights, kill-lines, his to-do = boot after 11:30 AM Fri, Approve/Pass when proposals come); trigger-distance inventory; playbook inventory (fade / coiled-spring long-vol / insurance overlay / fleet early-warning day job).
 
 ---
 
@@ -49,7 +59,7 @@ FRED 6/10 print published mid-session (Will asked for the check): **CCC 9.57 ≥
 
 ## CARRY-FORWARD
 
-- **Push state: FULLY SYNCED to origin — Will opened a push window 6/11 evening; pushed ba1525dc..71dd777f (9 commits: 6 VIOLET incl. the full sweep/tree/gate×tree record, 2 RED S18, 1 CARL swept along).** Only this push-state note follows.
+- **Push state: 5+ LOCAL UNPUSHED commits from the late-eve session (e24f4e63 KB-097 / 42f4bd5a fred_fetch / 34ef1547 KB-098 / 1e9d6d6f freshness / closeout batch) — push PENDING next Will-coordinated window.** Prior state: synced to origin through 71dd777f (Will's 6/11 evening window).
 - **memory/auto/MEMORY.md modified (index line for the new auto-memory) — uncommitted, outside AGENTS/VIOLET; flag for the next Will-directed sweep** (precedent: 1f500717 was Will-directed).
 - **SAM active in the tree this morning** (STATUS/TIMELINE/workbook dirty) — pull protocol blocked any pull; none was needed (we were synced).
 - **Quote discipline:** distribution = decomposition only, never headline (KB-VIO-091); ladder = both anchors (KB-VIO-089); n=5 = TAIL-STOP not failure-catcher (KB-VIO-088); CCC cross = tree outcome, not "credit confirms" reflex (KB-VIO-090); VVIX-NEUTRAL = no calming weight (KB-VIO-093); M1:M2 quotes carry their settle DATE (KB-VIO-092).
@@ -65,4 +75,4 @@ FRED 6/10 print published mid-session (Will asked for the check): **CCC 9.57 ≥
 
 ---
 
-*Last updated: 2026-06-11 EOD closeout (full-day session: sweep completion AM → CCC cross + Bin B midday → settle crush + gate×tree registration evening → single-B watch added. Fully pushed through 4abd82c9 + this closeout. KB-VIO-090..096 filed; matrix 22/45 script-verified; hedge DEFERRED pending HAWK; ladder STALE pending re-derivation.)*
+*Last updated: 2026-06-11 late-eve closeout (Will working session ~21:30-23:00: KB-VIO-097→098 credit-texture round-trip, fred_fetch +5 series, coiled-spring component re-forming flag, M2:M3 re-armed. Day total: KB-VIO-090..098. Commits LOCAL-ONLY this session — push pending Will window. Hedge still DEFERRED pending HAWK; ladder re-derivation = the one queued item not closed tonight.)*
