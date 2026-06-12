@@ -31,7 +31,7 @@
 
 ## Tier 2 — Thesis layer (AUDITED 6/12 — work needed)
 - [x] ⬛ **thesis/THESIS.md — DONE 6/12** (plan → Orc review loop → echo-back → executed). §5 Trigger-C assertion corrected (APO May run: cross 5/8, dip 5/11 $129.91, 8 straight closes 5/12-5/21, broke 5/22; new fire 6/9-6/11 NOT Trigger C); §3 Leg B tenor-bifurcated + duration re-derived (5.00-pivot oscillation, FRED canon); §4 all six rows restamped; §6 third trap test (inconclusive-to-weak, both anchors); §7 live-watch annotation; §9 +2 rows (closes-only, circular corroboration); Open Questions rewritten; **conviction 65→60**.
-- [ ] 🟦 **thesis/TIMELINE.md (5/19)** — ~6 of 13 windows now past; resolved rows never retired to STATUS log (USD/JPY >160 → bear-resolved; 30Y >5% ≥5 sessions → bear-resolved/durable; 5/22 claims; May BDC Q1 window; 5/30 PCE pending-data). FOMC row says "June 18" — **wrong, decision is Wed 6/17.** Fix: retire resolved rows, roll forward through FOMC/TIC/opex + BCRED.
+- [x] 🟦 **thesis/TIMELINE.md — DONE 6/12** (plan → Orc grade → row-2 conflation fix → committed). 6 rows retired with at-the-letter outcome records (Retired table = transition artifact, prune next pass); 8 live rows (FOMC 6/17 date fixed + Leg A facility watch retained; 30Y downside / JPY flow-confirm / HY direction / Brent ladder successors); basis canon binding on branch tests; KB-LIQ-059 anchored.
 - [x] 🟦 **thesis/CHANGELOG.md — DONE 6/12.** Combined 6/8-6/12 POV pivot entry added (duration re-derivation, conviction 65→60 argued both ways, falsification standing: 30Y ≥5 closes >5% re-establishes / <4.90 sustained unwinds).
 
 ## Tier 3 — Workbook active (AUDITED 6/12 — work needed)
