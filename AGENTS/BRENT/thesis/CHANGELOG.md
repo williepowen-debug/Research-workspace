@@ -8,6 +8,30 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-06-12 — CATCH-UP SWEEP + ADVISOR ADJUDICATION: SPR drain-through, Trigger #1 first sub-$3 close, dawn #5 settlement announcement, CF phantom-mark corrective (intra-version POV pivot; v3.1 bump pending today's settles + COT)
+
+**Author:** BRENT (with Will + Orc advisor packet/adjudication, Fri Jun 12 AM session)
+**Trigger:** Three-day catch-up (last closeout Tue Jun 9 ~13:00) over a window where STEO, EIA WPSR, CPI, OPEC MOMR, and the Trump settlement announcement all fired un-witnessed.
+
+**What landed (all advisor-verified before commit):**
+- **SPR 349.192M (−7.927M) — DRAINED THROUGH the ~350M floor** [CONF EIA Jun 10]; pre-registered binary resolved to the tail case: near-term bearish (1.1-1.3 mbpd marginal supply stays; admin price-suppression over floor), medium-term bullish (finite backstop). Commercial −7.228M to 426.485M; total crude −15.155M (2nd consecutive ~−15M week); Cushing 21.640M (floor ~Jul 1); **util 95.3% — first cross of the Apr-16-registered UTIL_SQUEEZE 95% tripwire** (provenance verified vs advisor challenge: `a393e6ac` 2026-04-16; BRT-12 linkage registered as interpretive Jun 12). Full print: `demand_destruction/data/eia_2026-06-10.md`.
+- **Demand panel first clean post-MD read:** gasoline 4-wk YoY **−0.5% first negative of cycle** (BRT-08 direction right/magnitude far); jet −2.2% (BRT-09 sequencing confirmed); total products +3.5% (no broad destruction).
+- **Path B Trigger #1 — first sub-$3 close of cycle Jun 11** ($2.67; settles 3.22/3.34/2.67; roll convention + settle-only discipline per advisor strike of intraday tick). Completes Mon Jun 15 if today + Monday settle <$3. M1−M3 $4.95 → $2.67 in 8 sessions.
+- **STEO June:** $105 Jun-Jul (closed-Hormuz assumption) / $95 2026 / $79 2027. Divergence stated apples-to-apples after advisor B2 challenge: **June MTD settled avg $94.01 (n=9) vs $105 assumption ≈ $11 gap** — market pricing substantial reopen probability EIA doesn't model. ($17 tick-vs-average version killed.)
+- **CPI May (printed Wed Jun 10, not Thu Jun 12 — calendar error corrected):** +0.5% MoM / +4.2% YoY; energy +3.9% MoM = >60% of all-items increase; gasoline +40.5% YoY. Oil→CPI leg of BRT-16 empirically printing. Retrace test deferred to June CPI (Jul 14) — near-term hike pressure stays ON.
+- **Trump settlement announcement Jun 11 PM = dawn #5, BRT-07 timer COLD** (Iran unconfirmed; kinetic continued — US downed 2 Iranian drones near Hormuz Jun 12 AM [CONF RFE/RL]). Marker ladder registered in STATUS. **BRT-15 numeric conditional registered pre-outcome** (hardening = named-Iranian-confirm AND signing; N=3td; X=STNG −10%); counter-evidence logged (STNG +2.3% to $78.23 announcement+1 day).
+- **BRT-27 PRICE-SIDE MET / HAW-09 PENDING** (closes $91.45 Jun 9, $90.38 Jun 11 <$92); HAWK book stale (Jun 8 09:15, two events behind) — spawn decision escalated to Will.
+- **CF $130C corrective:** Tue's "~$8 ≈ $800" mark was phantom — live chain $0.10 last / $0.00 bid / OI 1,536 [CONF Yahoo chain Jun 12]. Jun 9 sell-vs-hold deliberation ran on a bad number; disposition unchanged in substance (ride to expiry; soft trigger moot at zero bid). Auto-memory finding filed (option marks need live chain pull at decision time).
+
+**Calibration shifts:**
+- Advisor B1 challenge resolved IN BRENT's FAVOR (threshold provenance) — but the exchange validated the challenge process; interpretive-vs-registered linkage distinction adopted.
+- Tick-vs-average comparison error (B2) accepted — class: respect the comparator's time-aggregation when quoting gaps.
+- Physical/price divergence now the cycle's sharpest: −15M/wk total draws + SPR through floor + util >95% against an $88-handle tape pricing the de-escalation arc. If de-escalation stalls, this is stored snap-back energy.
+
+**v3.1 bump:** still pending — gate moved from "Thu CPI batch" (which fired Wed) to today's settles (Trigger #1 close #2, Brent sub-$88 close #1 candidate) + COT 3:30 + Baker Hughes. Bump decision at closeout.
+
+---
+
 ## 2026-06-09 — IRAN-ISRAEL MUTUAL HALT + CHINA-IMPORT SUBSTRATE = thesis under genuine pressure, not pricing fatigue (intra-version POV pivot; no v-bump — gated on Thu CPI batch)
 
 **Author:** BRENT (with Will, Jun 9 PM session)
