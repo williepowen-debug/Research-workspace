@@ -48,8 +48,8 @@ POV-arc for how we got here: see `thesis/CHANGELOG.md` § POV Pivots (5/20, 5/19
 |--------|-----------|---------|--------|
 | **SOFR** | >3.70 | 3.60% (6/11) | 🟢 Clean; drifted down from 3.63 |
 | **SOFR-IORB** | sustained >0 | **-5bps** (6/11) | 🟢 Negative/clean. No funding stress signal |
-| **10Y yield** | >4.50% sustained | **4.46% close 6/11** (^TNX 4.463; FRED 6/11 pending) | 🟠 **CORRECTED 6/12: NOT ">4.50 sustained."** Full FRED record: below 4.50 on 8 of last 13 closes (5/27-6/4 stretch 4.45-4.49; above only 6/5-6/10 post-NFP/CPI pop; 6/11 broke back below). KB-LIQ-052 framing needs re-derivation. |
-| **30Y yield** | >5% sustained | **4.95% close 6/11** (^TYX 4.951; FRED pending) | 🟠 **CORRECTED 6/12: NOT ">5% sustained."** TIMELINE bear test DID fire (11 straight closes >5%, 5/12-5/27, peak 5.18), then regime decayed to a 5.00-pivot oscillation: sub-5 closes 5/28, 5/29, 6/1, 6/2, 6/3, 6/4, 6/11 (7 of last 18). Pre-registered unwind test (<4.90 sustained) NOT touched. Testing downside into FOMC 6/17. |
+| **10Y yield** | >4.50% sustained | **4.46% close 6/11** (^TNX 4.463; FRED 6/11 pending) | 🟠 **CORRECTED 6/12: NOT ">4.50 sustained."** FRED-basis: below 4.50 on 8 of last 13 closes (5/27-6/4 stretch 4.45-4.49; above only 6/5-6/10 post-NFP/CPI pop; 6/11 broke back below). CBOE edge prints differ (5/26 4.493, 6/3 4.491 → count 9). KB-LIQ-052 framing needs re-derivation. |
+| **30Y yield** | >5% sustained | **4.95% close 6/11** (^TYX 4.951; FRED pending) | 🟠 **CORRECTED 6/12: NOT ">5% sustained."** TIMELINE bear test DID fire (11 straight closes >5%, 5/12-5/27, peak 5.18), then regime decayed to a 5.00-pivot oscillation: sub-5 closes 5/28, 5/29, 6/1, 6/2, 6/3, 6/4, 6/11 (7 of last 18, FRED-basis; CBOE has 6/5 at 4.999 too — the above-stretch is source-edge at its first day). Unwind test (<4.90 sustained) NOT touched (record low close ~4.94-4.95, early May). Testing downside into FOMC 6/17. |
 | TLT | level | $85.98 (close 6/11) | 🔴 +$1.36 on 6/11 — the long-end rally day (post-30Y-auction relief); confirms the yield move |
 | RRP buffer | >$5B | $0.158B (Apr 16, stale) | 🔴 Structural zero — no buffer to drain |
 | SRF usage | >$50B | TBD | — Check next NY Fed refresh (stale since 4/16) |
@@ -57,6 +57,7 @@ POV-arc for how we got here: see `thesis/CHANGELOG.md` § POV Pivots (5/20, 5/19
 | CP-TBill | spread health | 0.11 (6/5) | 🟢 Plumbing clean |
 
 > *Yield-curve and dealer-positioning scope migrates to BOND-primary when stood up; LIQUID retains repo/SOFR/reserves at thesis level (THESIS v2.0 §8).*
+> **Source canon (declared 6/12):** yield-regime counts use **FRED H.15 (DGS10/DGS30) as canonical** — they're what KB-LIQ-052 and the thresholds were written against. ^TNX/^TYX (CBOE) serve as same-day proxy until H.15 posts; known edge divergences ±1bp at 5/26, 6/3, 6/5.
 
 ---
 
