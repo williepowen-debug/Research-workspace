@@ -1,7 +1,7 @@
 # LIQUID STATUS
 **Last Updated:** 2026-06-12 AM #2 (boot refresh + duration re-derivation + June auction internals) | **Agent:** LIQUID | **Status:** 🟠 **APO >$130 ×3 closes — HEARTBEAT reassess trigger FIRED 6/11** (closes 6/9 $132.70 / 6/10 $131.14 / 6/11 $133.91; NOT Trigger C — HY OAS widened, concurrency fails); HY OAS 280 (6/10), cushion to 260 kill out to 20bps; May CPI HOT (4.18% YoY headline accel, core 2.81%); USD/JPY 4 closes >160 (6/8-6/11); **DURATION CORRECTION: 30Y closed 4.951 / 10Y 4.463 on 6/11 — "sustained >threshold" framing was WRONG (see Dashboard 2); regime is a 5%-pivot oscillation, testing downside into FOMC**
 
-> ⚠️ **CATCH-UP GAPS (narrowed 6/12):** ~~5/21 10Y reopening~~ **RESOLVED — was never a nominal 10Y: TreasuryDirect shows 5/21 was the 10Y TIPS reopening (CUSIP 91282CPU9, `type: TIPS`, high 2.169% REAL). The "Leg 2 corroboration gate" was mislabeled from BOND's 5/19 signal onward.** The real nominal test was the 6/10 10Y reopening (indirect 78.2% — integrated, Dashboard 3). Still pending: 5/26 2Y / 5/27 5Y / 5/28 7Y indirect % (BTCs in CALENDAR: 2.64 / 2.34 / 2.52), 5/28 April PCE, 6/5 May NFP detail.
+> ✅ **CATCH-UP GAPS CLOSED (6/12 PM data pass):** May auction cycle fully integrated (2Y 57.6% / 5Y 74.9% / 7Y 78.4% indirect — belly strong all cycle); April PCE (3.72% YoY headline accel, core 3.27%); May NFP (+172k, UNRATE 4.3% flat); Leg A un-staled (reserves $3.081T stable, SRF ~$0, RRP $0.45B). The 5/21 "10Y reopening" gate was resolved earlier today as the TIPS mislabel. **Remaining:** HY Energy OAS (ICE-gated → BRENT outbox sent 6/12); FRED 6/11 yield prints (H.15 lag — ^TNX/^TYX proxy stands).
 
 ---
 
@@ -51,9 +51,9 @@ POV-arc for how we got here: see `thesis/CHANGELOG.md` § POV Pivots (5/20, 5/19
 | **10Y yield** | >4.50% sustained | **4.46% close 6/11** (^TNX 4.463; FRED 6/11 pending) | 🟠 **CORRECTED 6/12: NOT ">4.50 sustained."** FRED-basis: below 4.50 on 8 of last 13 closes (5/27-6/4 stretch 4.45-4.49; above only 6/5-6/10 post-NFP/CPI pop; 6/11 broke back below). CBOE edge prints differ (5/26 4.493, 6/3 4.491 → count 9). KB-LIQ-052 framing needs re-derivation. |
 | **30Y yield** | >5% sustained | **4.95% close 6/11** (^TYX 4.951; FRED pending) | 🟠 **CORRECTED 6/12: NOT ">5% sustained."** TIMELINE bear test DID fire (11 straight closes >5%, 5/12-5/27, peak 5.18), then regime decayed to a 5.00-pivot oscillation: sub-5 closes 5/28, 5/29, 6/1, 6/2, 6/3, 6/4, 6/11 (7 of last 18, FRED-basis; CBOE has 6/5 at 4.999 too — the above-stretch is source-edge at its first day). Unwind test (<4.90 sustained) NOT touched (record low close ~4.94-4.95, early May). Testing downside into FOMC 6/17. |
 | TLT | level | $85.98 (close 6/11) | 🔴 +$1.36 on 6/11 — the long-end rally day (post-30Y-auction relief); confirms the yield move |
-| RRP buffer | >$5B | $0.158B (Apr 16, stale) | 🔴 Structural zero — no buffer to drain |
-| SRF usage | >$50B | TBD | — Check next NY Fed refresh (stale since 4/16) |
-| Reserve floor | >$2.8T | ~$3.0T (stale) | 🟡 Cushion intact but draining; needs refresh |
+| RRP buffer | >$5B | $0.45B (6/12) | 🔴 Structural zero CONFIRMED (was assumption since 4/16) — no buffer to drain |
+| SRF usage | >$50B | **~$0** (6/12; Treasury leg RPONTSYD $0.0 + MBS leg RPONMBSD $0.0 — both legs summed) | 🟢 **UN-STALED 6/12: April's $30.5B was tax-period, fully normalized.** No plumbing stress |
+| Reserve floor | >$2.8T | **$3.081T** (H.4.1 as-of Wed 6/10, released 6/11) | 🟢 **UN-STALED 6/12: cushion $281B and STABLE** (3.01–3.13T over 4 weeks) — "draining" framing not supported by current data. Leg A dormancy now verified, not assumed |
 | CP-TBill | spread health | 0.11 (6/5) | 🟢 Plumbing clean |
 
 > *Yield-curve and dealer-positioning scope migrates to BOND-primary when stood up; LIQUID retains repo/SOFR/reserves at thesis level (THESIS v2.0 §8).*

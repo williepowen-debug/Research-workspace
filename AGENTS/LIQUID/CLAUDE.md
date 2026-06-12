@@ -124,7 +124,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 ## KEY THRESHOLDS
 
 > *"Current" column is a snapshot — verify against `STATUS.md` (live dashboards) on every boot. Last refresh: 2026-06-12. Load-bearing figures pulled from live primary (FRED/yfinance), not dashboard.py.*
-> **Basis canon (binding on every count):** yields on **FRED H.15** (DGS10/DGS30; CBOE ^TNX/^TYX same-day proxy only); price-level triggers on **raw unadjusted closes** (yfinance `auto_adjust=False`, `Close` column — adjusted series mutate at ex-dates); auction percentages on **accepted basis**. Declare the basis when you write a number.
+> **Basis canon (binding on every count):** yields on **FRED H.15** (DGS10/DGS30; CBOE ^TNX/^TYX same-day proxy only); price-level triggers on **raw unadjusted closes** (yfinance `auto_adjust=False`, `Close` column — adjusted series mutate at ex-dates); auction percentages on **accepted basis**; **Brent on the ICE front-month SETTLE** (not a 4pm snapshot — the stagflation-ladder clause-1 clock keys off this); **USD/JPY on the 5pm ET New York close**; H.4.1 series (reserves/TREAST/WALCL) dated by their **as-of Wednesday**, not the pull date. Declare the basis when you write a number.
 
 | Metric | Current | Threshold | Implication |
 |--------|---------|-----------|-------------|
