@@ -14,8 +14,11 @@
 - USD/JPY 5 sessions >160 sustained; Brent $87.95 (-$22.6 from peak); SOFR-IORB -5bps clean; 30Y 5.03 >5% sustained.
 - STATUS (header/kill-proximity/3 dashboards/signals/positions/windows) + CALENDAR (CPI+claims resolved, rolled to 6/12) refreshed.
 
+**Session continuation (6/12 PM — domain audit + THESIS pass via Orc review loop):** Full-domain staleness audit (punchlist Tiers 2-7). THESIS v2.0 restamped to 6/12 through a three-round review loop with Will's coordinator layer ("Orc") — plan → their grade → my recomputation. **Material outcome: duration regime re-derived** (30Y "sustained >5%" was wrong since 5/28 — 5.00-pivot oscillation; 6/11 closed 4.951/4.463 on a SOFT 30Y auction the market rallied through: BTC 2.33, indirect 59.9%, dealer 14.7%; vs 10Y reopen 78.2% STRONG = tenor-bifurcated Leg B). **Conviction 65→60** (CHANGELOG pivot). Three inherited-count failures caught by recomputation in one day (mine 6/8, Orc's ×2 incl. APO "5/8-5/21 ten straight" — 5/11 closed $129.91); auto-memory `finding_circular_corroboration_via_state_file` extended with the writer-AND-grader variant + source-canon fix (FRED H.15 canonical, declared in STATUS). Bonus finds: 5/21 "10Y reopening" Leg-2 gate was actually the 10Y TIPS reopening (mislabeled since BOND's 5/19 signal); CALENDAR/USER "May 5 30Y auction" misdate fixed (actual 5/13, stop 5.0460). Tier-5 auction gap closed via TreasuryDirect.
+
 **Open follow-ups (carried):**
 - **HYG $75P + TEN $30 calls both expire Fri 6/19 (T-5).** HYG: recommend expire/close (dead, $79.94 vs $75). TEN: ITM ~$7.11 winner — exercise/sell decision needed. **Both Will decisions, window closing.**
+- **Orc deferred-verification queue (graded at next push window):** d608fe35 STATUS/CALENDAR, c5bc0c06 BROCK outbox, THESIS commit vs echo-back, CHANGELOG 65→60, FRED edge prints (6/5 DGS30 / 5/26 DGS10).
 - APO Day 4 watch (today's close); HY OAS direction post-CPI.
 - CATCHUP_PUNCHLIST Tiers 2-5 still pending (thesis roll-forward, KILL_MEMO false-kill detail, BDC monitor, PREDICTIONS scan, auction internals 5/21-5/28, NFP, energy HY OAS via BRENT).
 - Inbox 2 pending (HAWK OFAC 5/22, PROME FRED-convention 5/21) — process on inbox-spawn.
