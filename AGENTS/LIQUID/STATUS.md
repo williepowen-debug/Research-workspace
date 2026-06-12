@@ -124,7 +124,8 @@ POV-arc for how we got here: see `thesis/CHANGELOG.md` § POV Pivots (5/20, 5/19
 
 ## Durable Signals Log
 
-All durable findings live in `workbook/KB.tsv` (57 entries, KB-LIQ-001 through KB-LIQ-057). Query that file for signal lineage. Notable recent anchors:
+All durable findings live in `workbook/KB.tsv` (59 entries, KB-LIQ-001 through KB-LIQ-059). Query that file for signal lineage. Notable recent anchors:
+- **KB-LIQ-059** (6/12) — Duration regime re-derived: oscillation not sustained; conviction 65→60. **TIMELINE 6/12 retirement batch (6 rows) → KB-LIQ-059 / CALENDAR / TIMELINE Retired table**
 - **KB-LIQ-057** (5/20) — Foreign demand showed at price; term-premium digestion ≠ broken auction
 - **KB-LIQ-052** (5/18) — Duration regime break May 2026; channel migrated PLUMBING → DURATION
 - **KB-LIQ-051** (5/18) — April SOFR-IORB breach resolved mechanical (tax-day TGA)
