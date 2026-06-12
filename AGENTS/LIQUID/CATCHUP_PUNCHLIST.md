@@ -54,8 +54,11 @@
 - [ ] ⬜ MEMORY.md at ~27KB — session blocks back to Apr 16; archive pre-May blocks to `archive/` if it keeps growing.
 - [ ] ⬜ HEARTBEAT line 23/41 (shared file, PROME owns) — APO row stale 6/4 ($128.03 🟡; should be 🔴 FIRED) — flag to PROME, do not edit.
 
+## Tier 7 — Record errors surfaced by 6/12 coordinator review (verify provenance, then fix)
+- [ ] 🟦 **CALENDAR "May 5 | 30Y auction tagged 5.046%" row is misdated.** TreasuryDirect shows the 30Y new issue (912810UU0) auctioned **5/13**, not 5/5; FRED has the 5% level-cross at 5/12-5/14 (5/7-5/11 closes were 4.95-4.98). The row conflates auction date and level-tag date; "BTC 2.30 / indirect 66.6%" belong to the 5/13 auction. Likely a 5/18 revival-packet artifact (USER.md carries the same row). Verify what 5/5 actually was, then fix CALENDAR + USER.md together.
+
 ## Tier 5 — Known data gaps (need external pull, not just file edits)
-- [ ] **Auction internals 5/21–5/28** (10Y reopen, 2Y, 5Y, 7Y) — BTC/indirect/tail not integrated. Needed to close CALENDAR Resolved + Dashboard 3. (TreasuryDirect auction-results query can fill this — no BBG needed.)
+- [x] **Auction internals 5/21–5/28 — RESOLVED 6/12** via TreasuryDirect: 5/21 was the 10Y TIPS reopening (mislabeled gate, see CALENDAR); 2Y BTC 2.64 / 5Y 2.34 / 7Y 2.52 (indirect % computable on demand). June refunding integrated same pass (10Y reopen 78.2% indirect / 30Y 59.9%, dealer 14.7%).
 - [ ] **Live HY Energy OAS** — ICE/BBG-gated; route to BRENT/data-fetch (confirm 300 cross). (KB-LIQ-058)
 - [ ] **5/28 April PCE, 6/5 May NFP** — outcomes not integrated. (FRED PCEPI/PAYEMS — easy pull.)
 - [ ] ⬛ **SRF / reserves / RRP — LIQUID-OWNED Leg A metrics stale since 4/16 (~8 weeks).** "Leg A dormant" is partly assumption while reserves-toward-$2.8T-floor is unverified. WRESBAL/RRPONTSYD are weekly FRED series — easy pull; SRF needs NY Fed.
