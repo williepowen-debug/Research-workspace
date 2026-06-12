@@ -23,8 +23,33 @@
 
 5. **KB-VIO-091 HELD per pre-registration discipline.** Rotation argument suggests the 0.75 conditional is structurally worse from sub-20 entry economics, but no formal re-mark trigger fired (HAWK / BOJ 6/16 / FOMC 6/17 / Hormuz leakage are the registered triggers). Flagged on NEXUS_BRIEF surface as background pressure; the discipline working as designed.
 
+## ORC-VERIFICATION ROUNDS (post-rotation, pre-FRED)
+
+### Round 2 ~13:15 ET — the class catches itself again within the hour
+
+Orc-flagged: the NEXUS_BRIEF "As of 12:30 ET" stamp + STATUS line 3 "12:00 ET" stamp were **wall-clock pull-time, not data-time** — the underlying ticks (VIX 19.45 / VIX9D 20.41 / ratio 1.0494) were genuinely coherent yfinance 1m bars from 11:59 ET data-time. Cross-agent surface would have shipped a 30-min-stale tick labeled current. **Variant (b) of the KB-VIO-100 class within the hour of its registration** — one discipline (a quote carries its data-minute), two failure modes (mixed-ts ratios; pull-time stamped as data-time on delayed feed). KB-VIO-101 filed; **broadened auto-memory promoted: `memory/auto/finding_quote_carries_data_minute.md`** + one-line index entry in `memory/auto/MEMORY.md`. **Auto-memory files STAY UNCOMMITTED** per the standing precedent (6/11 drift finding sat uncommitted until Will authorized CARL to sweep it in `e227c771`) — flagged in CARRY-FORWARD for next Will-directed sweep.
+
+Fresh coherent re-pull at 13:03 ET data-time: **VIX 18.55 / VIX9D 18.85 / VIX9D/VIX = 1.0162 — decisively through ≤1.05** (deeper-through, not less; intraday low ~1.02 region). Materiality: direction of travel reinforces (front-week premium collapsing harder), content of "gate-1 flirts intraday" survives but the flirt is now decisive on a tick basis. **Settle still adjudicates; KB-VIO-096 Bin-B block still governs entry.** STATUS line 3 + Live row + NEXUS_BRIEF As-of stamp + Status line restamped with data-time discipline.
+
+Smaller co-finding (Orc-flagged): STATUS CCC−BB row carried "BB 1.70 BROKE its May-Jun range top (1.68)" — KB-VIO-098's own data invalidated this (BB printed 1.73 on 5/8, 1.69 on 5/1; 1.68 was June-only range top). Corrected; A2 tree line (1.73) survives as breadth-confirmation conjoint with CCC ≥9.55. NEXUS_BRIEF row 43 also caught — two wording fixes from this morning's verification round had landed on STATUS/TRADE/research pointer but missed the cross-agent surface; applied.
+
+### Round 1 ~12:00 ET (the MIXED-TS catch — superseded by round 2 corrections)
+
+Will-relayed Orc review caught two error-class issues that propagated into the boot status line + my conversational answer to Will:
+
+1. **MIXED-TIMESTAMP RATIO (KB-VIO-100, KB-VIO-092 family).** boot.py batch yfinance pull returned a stale-cached VIX 18.57 (~11:15 ET snap) alongside a VIX9D from open (~21.42); the implied tick ratio 1.1292 was a fiction with no coincident moment today. Independent recompute via yfinance 1m bars at 11:59 ET (coherent within 1 min): **VIX 19.45 / VIX9D 20.41 / ratio 1.0494 — marginal-THROUGH ≤1.05 gate; intraday low 1.021.** Gate-1 direction read FLIPPED: "spot leads down, gate moves AWAY" → "VIX9D leads down on overnight deal-near headline, gate flirts with passage; settle adjudicates; KB-VIO-096 Bin-B block governs regardless." STATUS line 3-5 + dashboard rows for VIX/VIX9D/VIX3M/VVIX/SKEW-avg corrected + KB-VIO-100 row added.
+
+2. **SKEW margin chain — metric-class conflation.** My answer to Will chained "+0.85 → ~+2.13" as one widening series. **+0.85 is R12 regime margin (20d-avg − 140); +2.13 is print − 20d-avg** — different metrics. Honest R12 widening series: +0.59 → +0.77 → +0.85 (one metric, three days). Note added to STATUS 20d SKEW avg row.
+
+3. **Overnight headline gap.** Boot report omitted the cancel-strikes / deal-near overnight headline that's driving today's tape (Orc relays, WALTER source verification PENDING). HAWK STATUS 6/8-stale so KB-VIO-091 marks hold per discipline. Flagged in STATUS line 3 with "WALTER source PENDING" tag — ping owed.
+
+4. **Magnitude correction:** at real VIX 19.45 (not stale 18.57), distance to 17.44 episode base ≈ **~10%**, not ~6%. Conversational answer to Will noted; STATUS line 3 carries the correct framing.
+
+**What survives:** the rotation finding directional read is intact (fade economics worse / coiled-spring stronger on the further deflation), KB-VIO-099 ladder reproduces clean, KB-VIO-091 distribution held per pre-registration, KB-VIO-096 gate×tree rule still governs. The dashboard layer failed; the framework plumbing worked as designed.
+
 ## NEXT SESSION (priority-ordered)
 
+0. **🔴 MIXED-TS GUARD mechanization (KB-VIO-100).** boot.py: carry per-index `last_trade_time` through the pipeline; any ratio computed across constituent timestamps spanning >few minutes either refuses or carries `[MIXED-TS]` label. CBOE delayed_quotes JSON (`cdn.cboe.com/api/global/delayed_quotes/quotes/_VIX9D.json`) carries `last_trade_time` — clean reconciliation source. Same shape as KB-VIO-092 mechanization (a tick carries its minute). Ship before next active vol event.
 1. **🔴 FRED 6/11 print — TRIPLE-DUTY read (~11:30 AM):** (a) **Bin-B block-lift check** — CCC <9.55 re-opens entry gate as written per KB-VIO-096 (~55-60% odds per KB-VIO-098 restored mark; 6/11 broad rally likely pulled CCC in); (b) **Bin-A conversion watch** — BB ≥1.73 (3bp away) / disp ≥8.00 (13bp away) / HY ≥2.85 (5bp away) / CCC ≥9.65 (8bp away); any A-condition live → Bin A, fade falsified via credit, full stop; (c) **Path A texture vs abandon condition** — decisive discriminator = LIQUID movers breadth (still pending); sticky CCC + 3-4 idiosyncratic = composition-not-regime, no escalation; Euro HY control = weak corroborator only.
 2. **🟡 CFTC COT — 3:30 PM** (first post-spike speculator read, Tue 6/9 positions).
 3. **🔴 Iran daily:** OVX/VIX gauge; HAWK closure-credibility re-mark when it lands (deferred hedge decision waits on this).
@@ -36,7 +61,10 @@
 
 ## CARRY-FORWARD
 
-- **Push state: LOCAL-ONLY this session — pending Will-coordinated window.** This morning's batch (KB-VIO-099 + 6 file updates + auto-memory) sits committed locally. Per Will's standing rule: defer push to coordinated window.
+- **WALTER ping owed:** overnight cancel-strikes / deal-near headline that's driving today's tape — confirm source/timestamp so STATUS can carry it tagged rather than relayed-via-Orc. HAWK closure-credibility re-mark also still owed (HAWK 6/8-stale).
+- **LIQUID movers read still undelivered (Orc-flagged):** the CCC attribution VIOLET requested 6/11 (KB-VIO-094) is the **decisive discriminator** for the Bin attribution path per KB-VIO-098 — 3-4 idiosyncratic names = blip/abandon, broad = Path A escalation. With 6/17 re-check three trading days out this is Will/Prome tasking action; cross-agent surface broadcasts the request via NEXUS_BRIEF row 45 (LIQUID line) already.
+- **AUTO-MEMORY UNCOMMITTED — flag for next Will-directed sweep:** `memory/auto/finding_quote_carries_data_minute.md` (new) + `memory/auto/MEMORY.md` (index line added) sit uncommitted in this session. Per standing precedent (`e227c771` — CARL swept the 6/11 drift finding after Will authorization), auto-memory files are outside `AGENTS/VIOLET/` and stay uncommitted until Will-directed cross-agent sweep. Do NOT git-add from this agent. Same for the pre-existing `memory/auto/MEMORY.md` modifications and `memory/auto/finding_circular_corroboration_via_state_file.md` (untracked since boot).
+- **Push state: LOCAL-ONLY this session — pending Will-coordinated window.** This morning's batch (KB-VIO-099 + 6 file updates + auto-memory) sits committed locally. Per Will's standing rule: defer push to coordinated window. **12:00 + 13:15 ET correction rounds (KB-VIO-100 + KB-VIO-101 + STATUS rewrite + SCRATCH sections + NEXUS_BRIEF refresh + CCC−BB row fix + NEXUS row 43 fix + MEMORY trajectory entry) queue for next coordinated push window.**
 - **memory/auto/MEMORY.md modified** — uncommitted, outside AGENTS/VIOLET; flag for next Will-directed sweep (precedent: 1f500717 was Will-directed).
 - **6/12 AM additions from Orc-verification pass (KB-VIO-099 round):**
   - **`two_anchor_ladder.py` holiday-handling check** — Orc's independent td-count puts fwd-60 window end at ~Aug 13-14 vs my ~Aug 12-13 (Juneteenth + July 3 conventions). Irrelevant for months; verify before the window-end ever gates an August decision.
