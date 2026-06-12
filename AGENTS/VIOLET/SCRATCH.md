@@ -1,4 +1,4 @@
-# VIOLET SCRATCH — June 11, 2026 (Thu AM session: RED sweep COMPLETED 5/5 + Q1-Q6; **CCC CROSSED 9.55 → TREE FIRED BIN B** (KB-VIO-094); M1:M2 record corrected + mechanized; distribution re-marked. NEXT = EOD `--supersede` + 6/12 Bin-B conversion watch)
+# VIOLET SCRATCH — June 11, 2026 (Thu full-day session, CLOSED OUT EOD: RED sweep COMPLETED 5/5; CCC crossed → tree fired BIN B; tape crushed the war premium EOD (VIX 19.44); gate×tree entry-block registered flat. NEXT = 6/12 AM: FRED double-duty read + ladder re-derivation + HAWK read for the deferred hedge)
 
 ---
 
@@ -65,4 +65,4 @@ FRED 6/10 print published mid-session (Will asked for the check): **CCC 9.57 ≥
 
 ---
 
-*Last updated: 2026-06-11 ~11:00 AM ET (sweep-completion session; commits local on the deferred queue: a49f94b3 + closeout).*
+*Last updated: 2026-06-11 EOD closeout (full-day session: sweep completion AM → CCC cross + Bin B midday → settle crush + gate×tree registration evening → single-B watch added. Fully pushed through 4abd82c9 + this closeout. KB-VIO-090..096 filed; matrix 22/45 script-verified; hedge DEFERRED pending HAWK; ladder STALE pending re-derivation.)*
