@@ -1,11 +1,24 @@
 # SAM TIMELINE
 
-**Last Updated:** 2026-06-10 PM (Norinchukin FY2025 gate resolved NOT REACTIVATED — CLO book record ¥10.1T, "shrinking" claim falsified; Channel 1's last near-term reactivation candidate closes)
+**Last Updated:** 2026-06-11 AM (US-Iran kinetic escalation — Hormuz formally closed, Kharg threat; tape fades it)
 **View:** Base case progression with branch points marked
 
 This document maps our forward-looking expectations — what's coming, what we think happens, and where the path could diverge. Updated as events resolve or views change.
 
 *Pre-2026-05-11 entries archived to [ARCHIVE.md](ARCHIVE.md).*
+
+---
+
+## LIVE — Jun 11 (US-IRAN KINETIC ESCALATION: MUTUAL STRIKES, HORMUZ FORMALLY CLOSED, KHARG THREAT — TAPE FADES IT)
+
+### Thu Jun 11 — SECOND DAY OF US-IRAN MUTUAL STRIKES; IRAN DECLARES HORMUZ CLOSED TO ALL TRAFFIC; TRUMP THREATENS KHARG SEIZURE; MARKETS SHRUG
+
+- **Event sequence (primary-source verified, 4-agent sweep + direct cross-check):** Jun 9 — US Apache downed over/near Hormuz (Iranian drone), pilots rescued. Jun 10 PM ET — CENTCOM "self-defense" strikes on Iranian air-defense/ground-control/radar near Hormuz. Overnight Jun 10-11 — IRGC claims 18-21 strikes on US bases in Kuwait, Bahrain, Jordan, "as long as US attacks continue"; Araghchi (X): "any hostile act will be met with an immediate, decisive response." Jun 11 — Iran's Persian Gulf Strait Authority declares Hormuz **closed to ALL marine traffic "until further notice"** (formal re-hardening; transits were already ~95% below pre-war, so limited *new* physical shock). Trump: US will hit Iran "VERY HARD TONIGHT," will take "total control" of Iran's oil/gas industry, "we will be taking Kharg Island" — explicitly citing slow talks progress; US embassies in Iraq/Arab states evacuating staff. Mediation not formally dead (Pakistan FM still urging settlement Jun 11; no resumed document exchange). Sources: NBC/CNN/ABC live blogs, Al Jazeera, CENTCOM statement, PBS (Araghchi).
+- **The Jun 9 "Trump-Iran walk-back" rumor is DEAD** — resolved in the opposite direction. The Brent-decline driver attribution (China demand + walk-back rumors) loses its geopolitical leg.
+- **Market verdict — the load-bearing observation: tape is FADING the escalation.** Thu ~10 AM ET own-pull: Brent **$92.65 −0.5%** (sub-agent's "$95.15 by 9 AM" read did not verify on live pull — trust own primary), VIX **21.4 −3.7%**, S&P **+0.7%**, gold −0.5%, USDJPY flat 160.49, FXY flat. A formal Hormuz total-closure declaration + US strikes + threatened Kharg seizure is moving NOTHING. Read: (a) Hormuz closure is de-facto-priced (transits already collapsed); (b) Trump Kharg language = negotiating-leverage rhetoric ([[feedback_trump_rhetoric_tape_not_info]] — uncorrelated with substance); (c) talks reportedly ongoing through the strikes. Counter-read honored: if tonight's threatened round hits oil *export* infrastructure (vs air-defense), the supply-side calculus changes materially — Kharg handles ~90% of Iranian crude exports.
+- **SAM marks — NO changes, per pre-registered discipline:** SAM-23 mark-UP conjunction NOT met — (i) Brent +>1.5% AND $100+ tag ❌ INVERTED (down on day); (ii) USDJPY 160+ ✅; (iii) Tehran escalation ✅. Oil leg is load-bearing; no mark-up. CH-011 re-derivation (→~35%) void conditions untouched (no strike, range ~0.2y orderly, no 161.5). Risk-off METHOD trigger #3 NOT firing (VIX down).
+- **Forward watches added:** (a) **Polymarket BOJ retrace risk** — a kinetic war 3 trading days pre-MPM is the exact "ME uncertainty" cover the BOJ used to defer April (Apr-13 Himino speech precedent). 97.5% holding Thu AM with no retrace — but this is now the live justification for the SAM-21 ~25% hold-tail, and the cleanest falsifier-watch into Sat's CH-009 mark-up (void: dovish leak / swaps <85%). (b) Brent $100+ or actual Kharg action flips the SAM-23 oil leg. (c) May TB (Jun 17): total-closure declaration deepens supply destruction → biases the diagnostic toward branch (c) (surplus persists, volumes depressed). (d) Phase 2 (recession-risk yen bid) only engages if the tape STOPS fading it — VIX is the tell.
+- **Same-sweep secondary finds:** BSI Q2 large-mfg **−1.8** vs +4.2 exp (first negative since Q2 2025, ME-conflict-attributed; second-tier — BOJ watches Tankan; non-blocking). Japan Times Jun 11 preview: hike a "done deal." **Reuters poll: ~94% of economists expect the Jun-16 hike; median sees 1.25% by year-end — a SECOND SOURCE for the Dec-1.25% consensus** (was single-source swaps-only; Takaichi-ceiling discount disposition gains corroboration). US May PPI (Jun 11): headline +1.1% MoM / 6.5% YoY HOT, core +0.4% in-line — same energy-driven shape as CPI; Fed-hike-2026 pricing HELD ~51% (Oct 41% / Sep 26% first-hike mass); Fed blackout clean.
 
 ---
 
