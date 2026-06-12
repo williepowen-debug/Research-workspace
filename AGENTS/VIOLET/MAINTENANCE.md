@@ -10,6 +10,20 @@ Log material structural changes only — not routine content edits. Template ado
 
 ---
 
+## 2026-06-11 (late eve) — fred_fetch.py SERIES expanded: tree ladder + global-HY control groups
+
+**Trigger:** Will query ("any additional useful FRED 6/10 data we can reach?") → extended pull found the June widening is US-local (KB-VIO-097: Euro HY/EM tightened while the US quality ladder ground wider). Wiring it up revealed the gap: `fred_fetch.py` SERIES carried only HY/IG/CCC — **the KB-VIO-090 tree's own conversion lines (BB ≥1.73, CCC−BB dispersion) weren't in the scripted fetch** and had been pulled ad hoc each session.
+
+**What changed:** `SERIES` dict +2 groups: `credit_ladder` (BAMLH0A1HYBB BB, BAMLH0A2HYB single-B, BAMLC0A4CBBB BBB-rung) and `credit_global` (BAMLHE00EHYIOAS Euro HY, BAMLEMHBHYCRPIOAS EM HY corp — the KB-VIO-097 US-local-vs-global control pair). Verified: all 11 series fetch clean, caches current through 6/10 (correct T+1). Side-finding: DGS10/DGS2 current through 6/10 — the SCRATCH-7f rates-lag bug did NOT reproduce tonight.
+
+**Files touched:** scripts/fred_fetch.py, workbook/fred_cache/ (11 fresh CSVs).
+
+**Boot-impact:** none automatic — **boot.py does not call fred_fetch.py** (credit pulls remain a manual session step; the CALENDAR "per boot" row overstates this). Candidate future change: add a fred_fetch step to boot.py — defer to a deliberate protocol pass, not tonight.
+
+**Lessons:** a registered decision tree's trigger lines should be in the scripted fetch the day the tree is registered — the tool lagged the framework by two days; caught only because a side-query walked the same ground.
+
+---
+
 ## 2026-06-11 — Tick/settle mechanization: VX_DAILY schema v2 + convergence_score.py (CHG-RED-037 ship)
 
 **Trigger:** The owed M1:M2 settle re-pull found the "+7.98% re-armed" 6/10 read was actually the **6/9 settlement** — `vix_futures.py` defaults to `date.today() − 1` and `thresholds.py` stamped the value with the row date. Every VX_DAILY m1m2 entry was systematically T-1 vs its row label (verified to 3 decimals on 6/8/6/9/6/10). Fourth settle-class error in 48h → RED's CHG-RED-037 mechanization proposal shipped same session, ahead of Packet #1 (ordering argument in the sweep response, dialogue Q5).
