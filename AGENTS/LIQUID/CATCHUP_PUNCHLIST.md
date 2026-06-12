@@ -57,11 +57,13 @@
 ## Tier 7 — Record errors surfaced by 6/12 coordinator review (verify provenance, then fix)
 - [x] 🟦 **CALENDAR/USER "May 5 30Y auction" misdate — FIXED 6/12 with provenance.** TD verified: no auction on 5/5; 30Y new issue auctioned 5/13, stop 5.0460 exact, BTC 2.30, dealer 11.7%. Level story: first >5% close 5/4 (CBOE 5.025), back under 5/5-5/11, durable from 5/12. Both files corrected.
 
-## Tier 5 — Known data gaps (need external pull, not just file edits)
-- [x] **Auction internals 5/21–5/28 — RESOLVED 6/12** via TreasuryDirect: 5/21 was the 10Y TIPS reopening (mislabeled gate, see CALENDAR); 2Y BTC 2.64 / 5Y 2.34 / 7Y 2.52 (indirect % computable on demand). June refunding integrated same pass (10Y reopen 78.2% indirect / 30Y 59.9%, dealer 14.7%).
-- [ ] **Live HY Energy OAS** — ICE/BBG-gated; route to BRENT/data-fetch (confirm 300 cross). (KB-LIQ-058)
-- [ ] **5/28 April PCE, 6/5 May NFP** — outcomes not integrated. (FRED PCEPI/PAYEMS — easy pull.)
-- [ ] ⬛ **SRF / reserves / RRP — LIQUID-OWNED Leg A metrics stale since 4/16 (~8 weeks).** "Leg A dormant" is partly assumption while reserves-toward-$2.8T-floor is unverified. WRESBAL/RRPONTSYD are weekly FRED series — easy pull; SRF needs NY Fed.
+## Tier 5 — Known data gaps (CLOSED 6/12 PM data pass, except BRENT-routed item)
+- [x] **Auction internals 5/21–5/28 — RESOLVED 6/12** via TreasuryDirect: 5/21 was the 10Y TIPS reopening (mislabeled gate); 2Y 2.64/57.6% / 5Y 2.34/74.9% / 7Y 2.52/78.4% (BTC/indirect, accepted basis). June refunding integrated same pass.
+- [ ] **Live HY Energy OAS** — ICE/BBG-gated; **formal outbox → BRENT written 6/12** (was prose-only since 6/8). Awaits HERMES sweep + BRENT pull.
+- [x] **April PCE + May NFP — RESOLVED 6/12:** PCE 3.72% YoY headline accel / core 3.27%; NFP +172k, UNRATE 4.3% flat. In CALENDAR Resolved.
+- [x] ⬛ **SRF / reserves / RRP — UN-STALED 6/12:** reserves $3.081T (H.4.1 as-of Wed 6/10) stable, cushion $281B — "draining" not supported; SRF ~$0 both legs (RPONTSYD+RPONMBSD — April's $30.5B was tax-period); RRP $0.45B structural zero confirmed. Leg A dormancy now data-verified. TREAST $4.480T (as-of 6/10) — THESIS §3 setup cites $4.359T; update at next thesis touch (scope guard held: no same-session thesis edit).
+- [x] **Predictions:** LIQ-02 resolved **MISS at the letter** (max 2wk rise +31bps vs +50 registered; no forced selling). LIQ-03 stays OPEN with 6/12 interim read (~SOFR+130-145, below 160 trigger) — **resolve at the letter 6/30**.
+- [ ] **FRED 6/11 yield prints** — H.15 lag at pull time; ^TNX/^TYX proxy stands per canon. Confirm at next boot (also Orc queue item).
 
 ## Tier 5 — Known data gaps (need external pull, not just file edits)
 - [ ] **Auction internals 5/21–5/28** (10Y reopen, 2Y, 5Y, 7Y) — BTC/indirect/tail not integrated. Needed to close CALENDAR Resolved + Dashboard 3.
