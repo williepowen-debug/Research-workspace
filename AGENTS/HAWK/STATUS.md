@@ -1,121 +1,99 @@
 # HAWK STATUS
 **Agent:** HAWK (Geopolitical & Military Risk — Gulf Infrastructure, Iran War, Chokepoints)
-**Last Updated:** 2026-06-08 09:15 EDT (post-director Phase 2 rewrite; archive of May 22 at `workbook/STATUS_archive_20260522.md`)
-**War frame:** Day 100 of US/Israel-Iran war; armed pause with intermittent salvos; blockade tightened to effectively-total; diplomatic stalemate after Iran walk Jun 1 + US channel-hold Jun 2.
-**Scenario:** C/Grind-Armed-Stalemate **53%** / D-Reescalation **35%** / B-Deal-Reopen **12%**
-**Kinetic Risk:** 🟠 HIGH but **regime-shifted from Feb-Apr** — salvo cadence up, infrastructure damage down; defenses holding.
-**Convergence:** **31/45 🟠** (Apr 20 41 stated → May 22 33 stated → Jun 8 31 recomputed from 9-vector matrix sum; net change vs May 22 matrix = +2: Hormuz 4→5, Diplomacy 2→3. Core 9-vector denominator preserved; emerging vectors tracked separately — see matrix footnote).
-**Brent reference:** **$94.66** Jun 5 Fri close per BRENT STATUS; Sun futures $93.09 pre-Globex. Defer price authority to BRENT.
+**Last Updated:** 2026-06-12 ~15:00 EDT (two-sided re-mark: Jun 8-10 escalation + Jun 11-12 deal pivot; prior Jun 8 STATUS in git history)
+**War frame:** Day 104. Jun 8-12 delivered the sharpest escalation since April AND the most concrete deal text of the war, simultaneously — read by TRACK, not war-on/war-off.
+**Scenario:** C/Grind-Armed-Stalemate **42%** / B-Deal-Reopen **32%** / D-Reescalation **26%** (Jun 8: C53/D35/B12)
+**Kinetic Risk:** 🔴 — first US aircraft loss, two US strike nights inside Iran, new theater (Jordan), Bab al-Mandab kinetic. Halted on the Iran-Israel axis only.
+**Convergence:** **38/50 🔴** (10-vector core; re-based Jun 12 on BABMANDAB promotion — comparable core-9 sum: Apr 20 41 → May 22 33 stated/29 matrix → Jun 8 31 → Jun 12 34)
+**Brent reference:** $90.38 Jun 11 settle (-2.9%); extended toward ~$88.5 early Jun 12 | [CONF web Jun 12] — defer price authority to BRENT.
 
 ---
 
-## Executive Read — Jun 8
+## Executive Read — Jun 12
 
-**The headline is decoupling.** Iran walked talks Jun 1; fired 7 ballistic missiles at Kuwait + Bahrain Jun 5 (new target class); resumed missiles at Israel Jun 7 (first in 2 months); UKMTO confirms Hormuz tanker traffic at **1.1/day vs 49 pre-war** week ending Jun 3 (-97.8%). And Brent **faded** to $94.66 Fri close, down from $116 May 5 peak. This is not market complacency — it is the market correctly distinguishing the **damage regime (Feb-Apr)** from the **salvo regime (May-Jun)**. See Regime Read below.
+**The week decomposed into tracks (SIG-W-20260610-002 frame, adopted).** Iran-Israel: first direct exchange since the Apr 8 ceasefire (night 6/7-8) → Trump-brokered mutual halt 6/8 PM, holding. Iran-US: escalated **through** that halt — Apache downed over Hormuz 6/8 (first US aircraft loss), CENTCOM ~20 targets inside Iran 6/9, 49 Tomahawks 6/10-11, IRGC wave on US bases in **Jordan/Kuwait/Bahrain** (Jordan = first new-country theater). Hormuz: Iran **formally declared the strait closed 6/11, shoot-on-passage** — CENTCOM disputes, ships still transiting. Bab al-Mandab: **kinetic activation** — Houthi total ban 6/8 + two commercial vessels struck in the Gulf of Aden 6/8-9. Diplomacy: Trump canceled Thursday strikes hours before launch (deferral #4) and the **"Islamabad Agreement" final text was claimed 6/12** (Sharif; Qatar+Pakistan mediated; Geneva signing prep, C-17s/Vance).
 
-**Working model:** armed stalemate with high salvo cadence and low damage realization. Diplomacy is stalled, not advancing; 14-point MOU + Rubio's 4 reopen terms are real substance but Iran walking Jun 1 capped near-term deal-path momentum. Hormuz is no longer "selective carve-outs" — UKMTO 1.1/day is effectively-total blockade with permitted-trickle exceptions. Defense systems are holding against every ballistic salvo and drone wave in the published feed; tape is pricing this learning correctly.
+**The decoupling thesis got its strongest datum yet:** Iran's formal closure declaration — my Tier-1 trigger #2 — fired on 6/11 and Brent **fell** 2.9% the same session. The tape now discounts even formal Iranian declarations absent realized throughput or infrastructure damage (FLOW-HAWK-19).
 
-**Most important near-term question:** does the next 2 weeks produce **leakage** (one missile through defense onto a hard target; first Houthi commercial-vessel hit on Bab al-Mandab; carve-out trickle choked to zero), or does the armed-pause pattern hold through the Jun 15 walkback window?
-
----
-
-## Regime Read: Damage vs Salvo
-
-**HAWK previously over-tracked salvo cadence as the kinetic-load metric. Director-feedback reframe Jun 8:**
-
-| Phase | Window | Pattern | Market read |
-|---|---|---|---|
-| **Damage regime** | Feb 28 – Apr 30 | Phase 3 infrastructure campaign (Hormuz reclosure, ADCOP fire, Qatar LNG hit, Iran ammonia halt); Apr 29 Brent $113.99 / May 5 $116.55 peak | Real supply-chain damage → $116 peak warranted |
-| **Salvo regime** | May 5 – present | Barakah (1 drone through perimeter, no reactor damage), May 6/8 naval kinetic days, May 25 US "self-defense" strikes, Jun 5 Kuwait/Bahrain 7-missile salvo, Jun 7 Iran-Israel exchange. **Defense intercepts effective; no major hard-target hits.** | Tape correctly discounting unsuccessful salvos → $94 base |
-
-**Implication for HAWK tracking:** the right tail-risk metric is not **volume** (more salvos, more rhetorical days at war) but **leakage** (intercept failure, infrastructure penetration, carve-out choke). One missile through defenses hitting an Aramco / ADCOP / Yanbu / Fujairah / Barakah-redux target reprices the tail. Twenty more intercepted salvos do not.
-
-**Calibration anchor:** HAW-06 just FAILED because I called clean ceasefire lapse Apr 21 when reality delivered Trump-deferral-on-Munir-request. The May 25-29 strike window was deferred. Jun 1 Iran walk was matched by Jun 2 US channel-hold. **Pattern: this conflict produces armed pauses, not clean breaks.** That's why D-scenario is held at 35% despite Jun-period salvo escalation — the deferral dynamic is structural to this conflict, not a single-event anomaly.
+**Most important near-term question:** does Geneva produce an actual signature by ~Jun 19, and does a signature produce **verified reopening** — or does the enrichment / Hormuz-control / money-sequencing wedge profile kill this text the way the identical profile killed the May 28 text?
 
 ---
 
-## What Changed May 22 → Jun 8 (delta)
+## What Changed Jun 8 → Jun 12 (delta)
 
 | # | State change | Direction |
 |---|---|---|
-| 1 | **Iran SUSPENDED Pakistan-mediated talks Jun 1** + threatened complete Hormuz closure + Bab al-Mandab activation | Diplomacy 🔴 |
-| 2 | **US held channel open Jun 2** — Trump+Rubio denied suspension; Trump "deal reachable next week"; Rubio 4 reopen terms (declare open / no toll / help remove mines / no fire on commercial vessels) | Diplomacy 🟡 partial offset |
-| 3 | **Iran fired 7 ballistic missiles at Kuwait + Bahrain Jun 5** — Bahrain is NEW target class; vs Jun 1's 2 missiles at Kuwait only | Kinetic 🔴 but defenses held |
-| 4 | **Iran-Israel missile exchange Jun 7-8** — first in 2 months (Day 100); Israel struck Beirut defying US stand-down; CENTCOM drone shootdowns | Kinetic 🟠 |
-| 5 | **Hormuz tanker traffic 1.1/day week-ending Jun 3** (UKMTO via Berman); was 3.9 Apr / 2.8 May → further-decline trend | Substance 🔴 worse |
-| 6 | **US "self-defense" strikes in southern Iran May 25** — missile sites + boats; Iranian KIA; IRGC vows retaliation | Kinetic 🟠 |
-| 7 | **14-point MOU framework draft** circulating (60-day truce extension + Hormuz reopen + Iran demine 30d + no nuke + sanctions waivers) | Diplomacy 🟡 substance |
-| 8 | **Tolls wedge:** Iran ambassador to Moscow says Hormuz reopen "with new fees by Iran/Oman authorities" — contradicts MOU "no tolls" | Wedge — caps Scenario B |
-| 9 | **Brent faded** $116.55 May 5 peak → $94.66 Jun 5 Fri close despite escalating salvo cadence | Decoupling signal |
-| 10 | **IAEA Grossi Jun 3:** Barakah attack "more dangerous than Zaporizhzhia" because reactors were operating | Nuclear-infra tail loud, no follow-on |
+| 1 | First direct Iran→Israel strike since Apr 8 ceasefire (~30 BMs, civilian deaths) → Trump-brokered mutual halt 6/8 PM, holding | Kinetic 🔴 then halt on this axis |
+| 2 | **Apache downed over Hormuz 6/8 — first US aircraft loss** (crew rescued) | Leakage datum 🔴 |
+| 3 | CENTCOM ~20 targets inside Iran 6/9 + **49 Tomahawks 6/10-11** — two largest US packages; Trump Kharg/oil-takeover threat (undated, D4) | Kinetic 🔴 |
+| 4 | **IRGC wave on US bases in 3 countries incl Jordan = new theater** 6/9-10; "just about all" intercepted | Breadth 🔴 |
+| 5 | **Iran formal Hormuz closure declaration 6/11** (shoot-on-passage; claims 2 ships hit, US refutes) — **and Brent fell anyway** | Decoupling reinforced |
+| 6 | **Bab al-Mandab kinetic activation** — Houthi ban 6/8 + 2 vessels struck Gulf of Aden 6/8-9 (non-Israeli-flagged; operator port-call targeting) | New front 🔴 |
+| 7 | MT Settebello disabled (~6/9-10): 1 dead, Indian crew missing, India formal protest — first enforcement casualty | Friction vector |
+| 8 | **Trump canceled 6/11 strikes citing "final contours approved" — deferral dynamic #4** | Diplomacy 🟡 |
+| 9 | **"Islamabad Agreement" final text claimed 6/12** (Sharif): 60d ceasefire ext incl Lebanon, immediate no-toll reopen, pre-war volumes in 30d, $24B; Geneva prep | Diplomacy 🟢 substance |
+| 10 | Same-day wedges: Iran keeps enrichment + Hormuz control "in any deal"; US "dismantle"/"perform first"; $24B sequencing dispute; **IAEA non-compliance (first in 20 yrs)**; kinetic continuing 6/11-12 | Caps B |
 
 ---
 
-## Current Scenario Weights
+## Current Scenario Weights (Jun 12; all weights carry flip-conditions)
 
-### B — Deal / Broad Stand-Down / Reopen — **12%** (May 22: 8%)
-**Definition:** Trump signs MOU; enforceable framework; Hormuz reopening verified at traffic count rising toward pre-war levels; blockade lift / sanctions-waiver terms confirmed; war-risk premiums normalize.
+### B — Deal / Verified Reopen — **32%** (Jun 8: 12%)
+**Resolution bar UNCHANGED:** signed framework + Hormuz reopening **verified** by traffic recovery toward pre-war + war-risk normalization. Announcement ≠ resolution.
+**B-track sub-state (explicit, so B's definition is not quietly relaxed):** P(signing executed by ~Jun 19) ≈ **55%** — named instrument, named mediators, signing logistics moving, strike cancelation as costly signal. P(verified reopen | signed) ≈ ~60% — MOU's own terms say immediate reopen + 30-day recovery, but Iran's same-day "control over Hormuz" assertion is the tolls wedge redux, and demining/insurance lags are real (FLOW-HAWK-12).
+**Flip up (→50+):** Geneva signature executed. Then →70+ on UKMTO weekly recovering into double digits/day.
+**Flip down (→≤15):** signing slips past ~Jun 17 with no new date; Iran reasserts tolls/control in implementation; talks re-suspended; ceasefire-fade protocol fires a 4th time.
 
-**Why nudged up:** 14-pt MOU is real substance; Rubio's 4 concrete reopen terms (Jun 2) named publicly; Trump "deal reachable next week" repeated. **Why still <15%:** Iran walked Jun 1 unilaterally; tolls wedge (Iran says fees yes, MOU says no tolls) is a live structural gap; carve-out trajectory (3.9→2.8→1.1) shows Iran tightening not loosening through the negotiation window.
+### C — Grind / Armed Stalemate — **42% (BASE)** (Jun 8: 53%)
+**Why still base:** the deferral dynamic fired a **4th** time (Jun 11 cancelation) — this conflict's attractor is the armed pause. A signed-but-fraying MOU (60-day window consumed by the enrichment fight while reopening stalls) lands back in C with a ceasefire label. Kinetic-through-talks on 6/11-12 is C-consistent behavior.
+**Flip:** loses mass to B on verified reopening; loses mass to D on signing collapse + resumed strike nights.
 
-### C — Grind / Armed Stalemate / Selective Carve-Outs — **53% (BASE)** (May 22: 57%)
-**Definition:** blockade enforcement continues at effectively-total with permitted-trickle exceptions; no broad reopening; intermittent kinetic salvos absorbed by defense systems; diplomacy talks but does not close; Brent rangebound mid-$90s on damage-regime exit pricing.
-
-**Why base:** best fits observed Jun 1-8 tape — Iran walked + US held + salvos intercepted + Hormuz tightened + Brent faded. This is the "armed pause" that HAW-06 calibration anchor reveals as the structural pattern of this conflict.
-
-### D — Full Re-escalation / Damage Regime Return — **35%** (May 22: 35% — held)
-**Definition:** intercept failure produces infrastructure hit; OR carve-out trickle choked to zero; OR Bab al-Mandab activates with Houthi commercial-vessel kinetic; OR direct US-Iran ship engagement. Brent reprices via leakage, not volume.
-
-**Why held flat despite Jun escalation:** the deferral-dynamic argument (see Regime Read). HAW-06 miss demonstrates that this conflict converts strike-options and salvo-escalation into deferred armed pauses, not into damage-regime returns. Until that pattern breaks (leakage), D stays at 35% as the standing tail.
-
----
-
-## Convergence Matrix — Jun 8
-
-**Headline retains 9-vector core for time-series continuity (Apr 20: 41 → May 22: 33 → Jun 8: 35).** Emerging vectors tracked separately below until promotion threshold (sustained signal or threshold-cross).
-
-| Vector | Score | Current State | Escalation Threshold |
-|---|---:|---|---|
-| Hormuz status | **5** ↑ | UKMTO 1.1/day week-ending Jun 3; -97.8% vs pre-war 49/day; April 3.9 → May 2.8 → 1.1 declining trend | Carve-out trickle choked to 0; US re-ratchet on Iranian toll regime |
-| Iran/proxy military ops | 4 | Jun 1 Kuwait 2-missile; Jun 5 Kuwait+Bahrain 7-missile; Jun 7 Israel missiles; drones at Hormuz. Defenses holding all to date | Intercept failure / Aramco-class infra hit / second Barakah |
-| US-Iran direct kinetic | 3 | May 25 US "self-defense" strikes (Iranian KIA); blockade boardings continue (121 vessels rerouted) | US warship hit / Iranian tanker sinking with US attribution |
-| Oil price / energy tape | 3 | Brent $94.66 Jun 5 Fri close (BRENT canonical); -19% from May 5 $116.55 peak; decoupling from salvo cadence | Brent >$110 on leakage event OR <$85 on signed MOU |
-| Gulf production / bypass infra | 4 | Barakah-perimeter strike May 17 (no reactor damage); IAEA Jun 3 escalated rhetoric; ADCOP/Yanbu/Fujairah preserved as target set | Second nuclear-infra strike OR Aramco/ADCOP follow-on |
-| Diplomacy | **3** ↑ | Iran SUSPENDED talks Jun 1; US held channel Jun 2; functional stalemate; 14-pt MOU on ice; tolls wedge live | Iran walkback (HAW-09 Jun 15) OR Trump strike-option re-activated |
-| Shipping / insurance | 4 | 121 ships rerouted (CENTCOM Jun); war-risk + crew-safety blockade intact; commercial normality not resumed | Commercial insurance normalization OR tanker sinking |
-| Cyber / data chokepoint | 2 | May 9 undersea-cable-control claim still unverified; no fresh incidents | Operator/primary confirmation OR cable incident |
-| Global macro / credit | 3 | Brent decoupling cools macro-transmission near-term; HY OAS flat per BRENT; CARL/HENRY/LIQUID Jun 5 NFP-spike noise is multi-root (not oil-terminus) | HY/OAS break OR energy-CPI reacceleration (Jun 12 CPI) |
-
-**Headline: 31/45 🟠 HIGH** (matrix sum). Net +2 vs May 22 matrix = +1 Hormuz, +1 Diplomacy. Salvo escalation in Jun did not drive headline up because intercepts held and proxy-ops vector retained at 4. Note: May 22 STATUS stated 33 (above raw matrix sum 29); Jun 8 returns to clean matrix-sum convention. Delta-vs-prior-period preserved (+2 in both stated and computed).
-
-### Emerging vectors (not in headline sum; tracked separately)
-
-| Vector | Score | State | Promotion threshold |
-|---|---:|---|---|
-| Bab al-Mandab activation | 3 ↑ | **Houthi NOT quiet** — fired missiles at Israel Jun 8 (Tel Aviv sirens; active vs Israel since Mar 28); Israeli-linked ships banned from Red Sea; traffic "sharply reduced"/effective-shutdown **via avoidance**. BUT **zero kinetic commercial-vessel attacks in 2026** (MARAD/GSR confirm none since pre-Oct-2025 ceasefire) — Houthis avoiding multi-front Yemen commitment. Strait economically impaired w/o kinetic trigger. | First Houthi **kinetic** commercial-vessel hit = promote to core + fires HAW-10. (Ban/rerouting alone ≠ HAW-10 threshold.) |
-| Gulf-state direct targeting | 3 | Kuwait hit Jun 1 (2 missiles); Kuwait + Bahrain Jun 5 (7 missiles, Bahrain new); defenses holding | Successful hit on Gulf-state energy infra / US base = promote + drives D |
+### D — Full Re-escalation / Damage Regime Return — **26%** (Jun 8: 35%)
+**Why down despite the worst week since April:** the 6/11-12 pivot actively suppresses near-term D, and the 6/8-10 inputs are partially superseded by the cancelation + text. Why not lower: leakage is no longer zero (Apache; Kuwait airport 6/2-3, 1 dead; one failed intercept 6/5-6), Bab al-Mandab opened a second kinetic front, and the **Kharg threat** opened a US-on-Iranian-energy-infra channel.
+**Flip up (→40+):** signing collapse + resumed strikes; US strike on Kharg-class Iranian energy target; Gulf energy-infra hit (HAW-11); Hormuz trickle choked to 0. **Flip down (→≤15):** verified reopening underway.
 
 ---
 
-## Watch Items — Jun 8 to Jun 22 (LEAKAGE-FRAMED)
+## Convergence Matrix — Jun 12 (re-based to 10-vector core)
 
-Reframed against the Regime Read. Not noise-tracking salvo cadence.
+**Re-base note:** BABMANDAB-01 promoted emerging→core on kinetic activation (its registered promotion criterion). /45 series ends Jun 8 at 31; /50 series begins Jun 12 at 38. Comparable core-9 sum: 31 → 34.
 
-### Tier 1 — Repricing triggers (move scenarios)
-1. **Intercept failure on Gulf target** — first ballistic / drone through Iron Dome / Patriot / GCC integrated defense onto Aramco, ADCOP, Yanbu, Fujairah, Barakah-redux, or US base. Promotes D from 35% to 50%+ same-session.
-2. **Hormuz carve-out trickle choked to 0** — UKMTO 7-day avg <0.5/day for sustained 2 weeks, or Iran formal closure announcement. Brent gap risk.
-3. **Bab al-Mandab Houthi commercial-vessel attack** (HAW-10 Jul 1 window) — first 2026 commercial hit promotes emerging vector to core; widens kinetic theater.
+| Vector | Score | Current State | Threshold → Next Level | Last Updated |
+|---|---:|---|---|---|
+| Hormuz status | 5 | Formal closure declaration 6/11 (shoot-on-passage); CENTCOM disputes; last hard datum UKMTO 1.1/day Jun 3; deal text would reopen no-toll | (at max) verified reopen steps down | Jun 12 |
+| Iran/proxy military ops | **5** ↑ | First Israel strike since Apr ceasefire; 3-country base wave; Jordan new theater | De-escalation post-signing steps down | Jun 12 |
+| US-Iran direct kinetic | **5** ↑ | Apache loss; 2 strike nights inside Iran; enforcement casualty; drones downed 6/12 | (at max) | Jun 12 |
+| Oil price / energy tape | 3 | Brent $90.38 6/11 → ~$88.5 6/12; pricing deal odds; decoupling intact | >$110 leakage event OR <$85 verified-signing slide | Jun 12 |
+| Gulf production / bypass infra | 4 | No new Gulf infra hits; **Kharg threat = new US-on-Iran-energy channel (gap, see below)** | Kharg-class strike OR Aramco/ADCOP-class hit | Jun 12 |
+| Diplomacy | **2** ↓ | Final text claimed + Geneva prep; wedges live (enrichment/control/$24B); IAEA non-compliance | Signature executed → 1; collapse → 4 | Jun 12 |
+| Shipping / insurance | **5** ↑ | Iran firing on transiting vessels (CENTCOM-confirmed 6/12); enforcement casualty; dual-chokepoint state | (at max) insurance normalization steps down | Jun 12 |
+| Cyber / data chokepoint | 2 | No fresh incidents | Operator confirmation OR cable incident | Jun 8 |
+| Global macro / credit | 3 | Vol third leg 22.24 contained (VIOLET); HY flat per LIQUID; deal-pricing risk-on | HY/OAS break OR energy-CPI reacceleration | Jun 12 |
+| **Bab al-Mandab (PROMOTED)** | **4** | Kinetic activation; 2 vessels struck; MARAD 2026-006; **no JWC reclass / re-routing / premium re-rate yet** | JWC reclass or strait-proper strike → 5 | Jun 12 |
 
-### Tier 2 — Scenario-shift catalysts (calibrate weights)
-4. **Iran walkback by Jun 15** (HAW-09) — Iran returns to mediated talks OR Khamenei walk-back of nuclear "fantasy" line. Promotes B from 12% to 20%+.
-5. **Trump strike-option re-activation** — language shift from "deal reachable next week" back to deadline/force framing. Demonstrates deferral-dynamic break.
-6. **Tolls wedge resolution** — Iran formally drops fee demand OR US accepts framework with Iranian transit fee. Either direction closes a Scenario-B gap.
-7. **MOU Trump signoff** — moves B above C; not currently expected before Jun 15 walkback test.
+**Headline: 38/50 🔴** (matrix sum). Emerging (not in sum): GULFSTATE-01 — now **RED** (Kuwait airport hit 6/2-3, 1 dead = its registered Red line fired) but stays emerging: promotion criterion (energy infra / US base **hit**) unmet.
 
-### Tier 3 — Pattern monitors (data, not trigger)
-8. **UKMTO weekly tanker count** — track 3.9→2.8→1.1 trajectory; deceleration vs further decline informs Hormuz vector
-9. **Defense intercept rate** — every published intercept reinforces salvo-regime read; first miss is the regime break
-10. **Iran rhetoric on Bab al-Mandab** — verbal escalation without Houthi follow-through = rhetorical only; promotion requires kinetic event
+**Framework gap (registered Jun 12):** prediction set covers Iranian leakage onto *Gulf* energy infra (HAW-11) but not US strikes on *Iranian* energy infra (Kharg threat, ~90% of Iran's exports) — a supply-repricing channel with no HAW-xx coverage. Full treatment next session.
+
+---
+
+## Watch Items — Jun 12 to Jun 26
+
+### Tier 1 — Repricing triggers
+1. **Geneva signing executed (or slips)** — the single highest-leverage event; B flips on it both directions. Window: days; stale-by ~Jun 17 without a date.
+2. **Intercept failure onto Gulf ENERGY infra** (HAW-11, to Jun 22) — unchanged kill-switch for the decoupling thesis.
+3. **Kharg-class US strike on Iranian energy infra** — new channel; would reprice supply regardless of deal state.
+4. **Bab al-Mandab confirmation ladder:** JWC/Lloyd's reclass → carrier re-routing announcement (Maersk/CMA-CGM class) → premium re-rate; or a strait-proper strike (fires HAW-10 CONFIRMED).
+
+### Tier 2 — Scenario calibration
+5. **HAW-09 window closes Jun 15** — adjudication pending rubric ack (below).
+6. **Wedge resolution:** Iran enrichment-rights + Hormuz-control assertions vs US "dismantle/perform-first" — which text survives into the signed instrument.
+7. **Fresh UKMTO weekly count** (week-ending ~Jun 10) — did the formal closure declaration choke the permitted trickle toward 0?
+
+### Tier 3 — Pattern monitors
+8. Defense intercept ledger — **precision language:** holding against ballistic/area salvos; first platform loss Jun 8 (Apache); first ground-infra damage Jun 2-3 (Kuwait airport, non-energy); one failed intercept 6/5-6.
+9. Settebello/India friction — third-country diplomatic cost of blockade enforcement.
+10. IAEA follow-through post-non-compliance finding.
 
 ---
 
@@ -123,40 +101,27 @@ Reframed against the Regime Read. Not noise-tracking salvo cadence.
 
 | Agent | Read-through |
 |---|---|
-| **BRENT** | Decoupling thesis aligns with your Path A/B framework. **Scope-clarification ask:** BRT-27 (walkback Jun 15) and BRT-28 (Bab al-Mandab Jul 1) are event-shaped predictions in HAWK domain. Propose BRT-27/28 cross-reference HAW-09/10 as canonical event call; BRT side narrows to price-consequence ("Brent retest of $X conditional on HAW-09 outcome"). One source of truth per metric. |
-| **HENRY** | Vol-tail is leakage-conditional, not volume-conditional. Salvo cadence is no longer a near-term vol catalyst (market has learned). Watch intercept failure / infra hit as the vol re-pricing event, not salvo counts. |
-| **LIQUID** | Credit-stress channel from kinetic gap risk has cooled with Brent at $94 + HY OAS flat. Tail repricing requires leakage event; armed-stalemate base case ≠ credit catalyst near-term. |
-| **SAM** | Hormuz at 1.1/day vs 49 pre-war is material for Japan/Asia LNG exposure even with Brent faded. Substance worse than tape implies for energy-import-dependent Asia. |
-| **REGINALD** | Energy-credit stress softens at margin with damage-regime exit; re-escalation requires leakage. KRE/energy-loan marks track damage realization, not salvo cadence. |
-| **ZHAO** | Chinese tanker egress remains within Iran-permitted carve-out trickle (1.1/day total); preferential treatment confirmed but volume capped by Iranian throughput control. |
-| **CARL** | Hormuz-fertilizer Phase-2 channel (BRENT framework) means HAWK throughput-substance feeds your input-cost read directly. UKMTO 1.1/day is load-bearing. |
-| **RED/NEXUS** | Old "hardened collapse" framing stays wrong; new caution — the salvo regime can break either direction. Leakage event = damage regime return = scenario D bull case. |
+| **BRENT** | HAW-09 disposition feeds BRT-27 (your Jun 17 deadline) — outbox signal follows rubric ack. BRT-28: activation-side fired per SIG-W-20260610-001; my HAW-10 locus treatment documented below. Signing-event ladder coordination proposed: you own price consequence, I own event call. |
+| **HENRY** | Vol-tail now two-sided: leakage event OR signing-collapse headline. Deal-signing = vol crush risk on the war premium. |
+| **LIQUID** | Signed deal = risk-on credit impulse; collapse after a priced-in announcement = the sharper credit move. Watch the asymmetry. |
+| **SAM** | Dual-chokepoint state (Hormuz effectively-total + BeM kinetic) is materially worse for Asia LNG/freight than tape implies, even with Brent in the $80s. India friction (Settebello) new. |
+| **CARL** | Hormuz-fertilizer channel unchanged until reopening verifies; a real reopen starts unwinding the input-cost stack with a lag. |
+| **REGINALD** | Energy-credit: deal-signing relieves; Kharg-class strike re-stresses. Two-sided week. |
+| **RED/NEXUS** | Steelman both ways: the deal has more substance than any prior breakthrough AND the contradiction profile that killed May 28. Decoupling thesis now has its strongest confirming datum (closure declaration → Brent fell). |
 
 ---
 
 ## Predictions (live)
 
-Resolved this session: HAW-06 FAILED, HAW-07 VOIDED (full resolution + new HAW-09/10/11 written to `workbook/PREDICTIONS.tsv` in Phase 3).
-
 | ID | Claim | Window | Status |
 |---|---|---|---|
-| HAW-08 | Iran retaliation for Apr 19 ship seizure within 7 days | Apr 19-26 | DEFERRED — Phase 3 resolution |
-| HAW-09 | Iran walkback / partial-MOU-confirm by Jun 15 | Jun 1-15 | OPEN (new this session) |
-| HAW-10 | Bab al-Mandab Houthi commercial-vessel attack by Jul 1 | Jun 1 – Jul 1 | OPEN (new this session) |
-| HAW-11 | First intercept failure / Gulf infra hit before Jun 22 | Jun 8-22 | OPEN (new this session, leakage-tail) |
-
----
-
-## Inbox / BOARD Integration
-
-Processed into this STATUS:
-- **SIG-W-20260606-004 (Berman/UKMTO 1.1/day)** — acted; replaces "~10/day selective carve-outs" framing with measurable throughput metric; Hormuz vector promoted 4→5.
-- **SIG-W-20260606-003 (El Niño/Jacobson "die is cast" Phase 2)** — noted; CARL primary; Hormuz-fertilizer second-order Phase 2 oil-thesis channel already captured in BRENT framework.
-
-No pending HAWK inbox signals as of Jun 8 boot.
+| HAW-03 | No US military intervention in Venezuela 2026 | 2026 | OPEN |
+| HAW-09 | Iran returns to Pakistan-mediated talks; walkback/partial-MOU-confirm by Jun 15 | Jun 1-15 | OPEN — **adjudication pending rubric ack** (lean CONFIRMED; contamination caveat logged) |
+| HAW-10 | Houthi commercial-vessel kinetic attack on Bab al-Mandab by Jul 1 | Jun 1 – Jul 1 | OPEN — **mechanism FIRED 6/8-9 (Gulf of Aden); locus per registered text unmet; held to window close** |
+| HAW-11 | Intercept failure → Gulf energy infra hit before Jun 22 | Jun 8-22 | OPEN — mid-window check done Jun 12: no energy-infra hit; Apache/airport = leakage but not threshold class |
 
 ---
 
 ## Bottom Line
 
-**Regime shifted, not escalated.** Feb-Apr was a damage regime — real infrastructure hits, Hormuz reclosure, $116 Brent. May-Jun is a salvo regime — escalating cadence, intercepts holding, $94 Brent. The tape is pricing this correctly, not complacently. **The right tail to watch is leakage — one missile through defenses onto hard energy infrastructure, or the Hormuz trickle choked to zero. Not more salvos.** Scenario weights C 53% / D 35% / B 12% reflect armed-stalemate base with deferral-dynamic backstop on D. Jun 15 walkback window (HAW-09) is the next diplomatic decision point; Jul 1 Bab al-Mandab window (HAW-10) is the next kinetic-theater test.
+**Both tails fattened at the base case's expense.** Jun 8-10 was the war's sharpest escalation (first US aircraft loss, strikes inside Iran, a new theater in Jordan, a second chokepoint going kinetic); Jun 11-12 produced its most concrete deal text (Islamabad Agreement, Geneva prep). Weights: C 42 / B 32 / D 26, with B's resolution bar held at **verified** reopening — the announcement-track sub-state (~55% signing by ~Jun 19) is marked separately so the definition doesn't drift. The single most important thing to watch is the Geneva signature and whether the enrichment / Hormuz-control / money-sequencing wedges — the exact profile that killed May 28 — survive into a signed instrument. Meanwhile the decoupling thesis just passed its hardest test: Iran formally declared Hormuz closed and Brent fell 2.9% the same day.
