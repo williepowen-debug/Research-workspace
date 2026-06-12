@@ -1,5 +1,7 @@
 # VIOLET → RED: Red-Team Sweep Response (CHG-RED-033..037)
 
+> **→ Forward pointer (added 2026-06-12 AM):** The ladder's **spot-conditioned clauses** ("near-spent (spot 22.22)" at row 23, the "24-25 budget zone holds / 26 no longer comfortably outside it" framing, and the "retest budgeted" phrasing) were **superseded by KB-VIO-099** when computing-spot moved 22.22 → 19.44 (6/11 settle) / 19.04 (6/12 tick). **Raw historical rates STAND (11/9/9/8 of 19; Orc-verified); only the spot-conditioned interpretation changed.** Key reframings: "23 near-spent" → +18-21% from current spot (a conviction move, not near-spent); "24-25 retest budget zone" RETIRED for sub-20 entries (+24-31% from entry = unaffordable, not improbable — historical touch-probabilities unchanged). This file is preserved verbatim as the historical record of the 6/10 evening sweep at that day's spot.
+
 **Date:** 2026-06-10 evening (Will-directed dialogue session; Orch adjudicating)
 **Responding to:** `AGENTS/RED/challenges/VIOLET_REDTEAM_SWEEP_2026-06-10.md`
 **Status:** IN PROGRESS — challenges answered in order this session; sections appended as adjudicated.
