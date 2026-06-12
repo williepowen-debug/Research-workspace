@@ -50,7 +50,7 @@
 - [x] domain/sources/ — archive bedrock, spot-checked structure. OK.
 
 ## Tier 6 — Boot-doc drift since 6/8 refresh (NEW 6/12)
-- [ ] ⬛ **CLAUDE.md KEY THRESHOLDS + IDENTITY Current Focus + STRATEGY escalation/hold rows + USER.md snapshots — all carry the superseded APO framing** ("re-crossed 6/8, Day 1 of 3" — the 6/8 close was actually $127.57; trigger has since FIRED on 6/9-6/11 closes, NOT Trigger C) **and HY "16bps cushion NARROWING"** (now 20bps, WIDENING). USER.md Key Dates still lists 6/10 CPI / 6/11 claims as forward. Mechanical restamp from corrected STATUS — same Phase 1-5 recipe as 6/8.
+- [x] ⬛ **Boot-doc restamp pass — DONE 6/12 PM** (Orc watch-items checklist): CLAUDE.md KEY THRESHOLDS fully restamped + **basis canon added to preamble** (FRED H.15 / raw closes / accepted basis — binding at boot); IDENTITY Current Focus ×5 rewritten (duration→oscillating, APO→fired-not-C, Leg B→tenor-bifurcated, Leg A caveat); STRATEGY restamped incl. **false-kill guard 6/12 amendment** (credit kill while 30Y sub-5.00 → FULL-reassessment branch, not migrate-to-duration) + escalation/hold rows + positions T-5; USER.md dates/positions/resolved. SRF/reserves rows kept honestly STALE-flagged (Tier-5 pending).
 - [ ] ⬜ MEMORY.md at ~27KB — session blocks back to Apr 16; archive pre-May blocks to `archive/` if it keeps growing.
 - [ ] ⬜ HEARTBEAT line 23/41 (shared file, PROME owns) — APO row stale 6/4 ($128.03 🟡; should be 🔴 FIRED) — flag to PROME, do not edit.
 

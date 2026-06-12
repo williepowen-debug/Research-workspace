@@ -1,6 +1,6 @@
 # LIQUID — Decision Playbook
 
-**Last Updated:** 2026-06-08 (catch-up restamp from 5/19; live-primary figures)
+**Last Updated:** 2026-06-12 (post-THESIS-restamp; conviction 60, duration oscillating; basis canon per CLAUDE.md KEY THRESHOLDS preamble)
 
 ---
 
@@ -9,35 +9,35 @@
 ### When to Escalate (signal other agents / propose trades)
 - HY OAS crosses 320bps with momentum (not just a touch)
 - **HY OAS <260 sustained ≥3 sessions** → credit-thesis kill (see `workbook/KILL_MEMO_HY_OAS_260.md`)
-- **APO >$130 for 3 sessions** → HEARTBEAT line 80 reassessment trigger. Fires before HY OAS hits 260; *re-arming* — fired ~$135 mid-May, retraced, then **re-crossed $130 on the 6/8 bounce (~$131.5), Day 1 of 3**. If concurrent with HY OAS compression, treat as KILL_MEMO Trigger C precondition.
+- **APO >$130 for 3 sessions** (raw closes only) → HEARTBEAT line 80 reassessment trigger. **FIRED 6/11** (closes 6/9-6/11: 132.70/131.14/133.91) — **NOT Trigger C**: escalation requires concurrent HY OAS *compression*, and HY widened 274→280 through the window. Reassess resolved 6/12 (equity/mark-decoupling read → BROCK). Re-fires as Trigger C precondition only if a ≥3-close streak coincides with HY compression. May history: ten straight closes 5/8–5/21, broke 5/22.
 - SOFR sustained above 3.70% (not Q-end seasonal — see KB-LIQ-051 mechanical-vs-structural test)
 - SOFR-IORB sustained positive for ≥3 sessions on non-tax-day, non-quarter-end catalyst
 - SRF usage >$50B sustained
 - Auction BTC <2.0x on any coupon maturity OR indirect bid <55% sustained
 - Second private credit fund hard-gates
-- 10Y sustained >4.50% with TLT confirming (active duration-channel transmission per KB-LIQ-052)
+- 10Y sustained >4.50% with TLT confirming (KB-LIQ-052 — ⚠️ framing under re-derivation 6/12: duration is currently a 5.00-pivot oscillation, NOT sustained; this escalation line keys off a genuine re-establishment, ≥5 consecutive closes)
 - 10Y single-session move >10bps (acute repricing within duration regime — 5/18 +12bps is the canonical example)
 
 ### When to Hold / Monitor
-- HY OAS in 270-310 range (current: 276 — 16bps above 260 kill and narrowing, 44bps below 320 confirmation)
-- VIX in 15-25 (currently ~18.8, possibly gamma-suppressed — see 5/14 signal)
-- SOFR within normal IORB band (currently -2bps, below ceiling)
-- Duration channel grinding (10Y 4.55 / TLT ~$84.6 / Brent ~$91) — bear thesis intact through this leg; Brent reflation co-driver has reversed
+- HY OAS in 270-310 range (current: 280 — 20bps above the kill and widening away from it, 40bps below 320 confirmation)
+- VIX in 15-25 (currently ~19; floor lifted from May's 15-17 — two >21 closes within four sessions 6/5-6/10; the gamma-suppression regime has shifted, watch credit-vol catch-up)
+- SOFR within normal IORB band (currently -5bps, below ceiling)
+- Duration channel oscillating around the 5.00 pivot (30Y 4.95 / 10Y 4.46 closes 6/11 / TLT ~$86) — between "durable" and "unwinding"; <4.90 sustained fires the unwind branch, FOMC 6/17 resolves
 - Geopolitical flows de-escalating but not resolved
 
 ### When to De-escalate (kill levels)
-- **HY OAS <260 sustained ≥3 sessions → KILL credit-thesis component** (see `workbook/KILL_MEMO_HY_OAS_260.md` for full trigger ladder). ⚠️ **False-kill guard (BROCK-aligned 6/8):** if the <260 compression is tape-only (rate-cut / risk-on) while PC *substance* is worsening (record defaults, gate cascade, BDC div cuts), do NOT auto-kill — that's a tape-kill, not a substance-kill. Confirm substance reversal with BROCK before pulling the thesis. *(Fuller treatment → KILL_MEMO, Tier-3 pass.)*
+- **HY OAS <260 sustained ≥3 sessions → KILL credit-thesis component** (see `workbook/KILL_MEMO_HY_OAS_260.md` for full trigger ladder). ⚠️ **False-kill guard (BROCK-aligned 6/8; consistency-checked vs conviction-60 frame 6/12):** if the <260 compression is tape-only (rate-cut / risk-on) while PC *substance* is worsening (record defaults, gate cascade, BDC div cuts), do NOT auto-kill — that's a tape-kill, not a substance-kill. Confirm substance reversal with BROCK before pulling the thesis. **6/12 amendment:** the guard's fallback ("re-frame around the duration channel") was written against the duration-matured frame; with duration now oscillating, a credit kill that fires while 30Y is sub-5.00/testing 4.90 goes to the FULL-reassessment branch (both channels weak), not the migrate-to-duration branch. *(Fuller treatment → KILL_MEMO, Tier-3 pass.)*
 - 10Y back below 4.30 sustained AND HY OAS <270 → both channels unwinding, full thesis reassessment
 - Fed signals expanded liquidity facilities (kills the "Fed losing rate control" leg)
 - Foreign official buying resumes (TIC confirmation) (kills the FOI demand-hole leg)
-- Ceasefire confirmed + oil below $90 (kills the stagflation-trap leg + reduces duration pressure)
+- Ceasefire confirmed + oil below $90 (kills the stagflation-trap leg + reduces duration pressure) *(6/12: LIVE-WATCH — zero sub-$90 Brent closes yet, 6/11 closed 90.38; no ceasefire; not fired)*
 
 ## Active Position Views
 
-| Position | Thesis | Current Assessment (5/19) |
+| Position | Thesis | Current Assessment (6/12) |
 |----------|--------|--------------------|
-| HYG $75P Jun x10 | LIQ-01 credit stress (HY OAS retest of 320) | **Thesis broken.** HYG $79.54, strike $75 = deep OTM; HY OAS 276 tightening *away* from the 320 trigger; June expiry (~6/19). The retest-to-350 thesis didn't play. **→ close / let expire (Will decision).** Equity/credit puts bleed in regime-suppressed tape (see `put_vs_duration` memory). |
-| TEN calls Jun $30 | Triple premium (war + FOI + basis) | **ITM winner — TEN $36.83 (~$6.83 intrinsic).** Dimona/ice-class war thesis intact; Brent reversal to ~$91 does NOT hit this (TEN is war/ice-class, not reflation). Hold/evaluate near expiry. Cross-check BRENT/HAWK before action. |
+| HYG $75P Jun x10 | LIQ-01 credit stress (HY OAS retest of 320) | **Thesis broken.** HYG $79.94 (close 6/11), strike $75 = deep OTM; HY at 280, 40bps from the trigger; **expiry Fri 6/19 — T-5, decision window closing.** **→ close / let expire (Will decision).** Equity/credit puts bleed in regime-suppressed tape (see `put_vs_duration` memory). |
+| TEN calls Jun $30 | Triple premium (war + FOI + basis) | **ITM winner — TEN $37.11 close 6/11 (~$7.11 intrinsic).** War/ice-class thesis intact; Brent collapse does NOT hit this (TEN is war/ice-class, not reflation). **Expiry Fri 6/19 — T-5: exercise/sell decision needed.** Cross-check BRENT/HAWK before action. |
 
 ## Active Workbooks
 - `workbook/KILL_MEMO_HY_OAS_260.md` — pre-written trigger ladder + verification + PROME template
