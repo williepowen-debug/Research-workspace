@@ -38,7 +38,7 @@ POV-arc for how we got here: see `thesis/CHANGELOG.md` § POV Pivots (5/20, 5/19
 | CCC OAS | >1000bps | 957 (6/10, BB 170) | 🟡 43bps away — tail keeps widening while BB barely moves |
 | BIZD | mark stress | $12.62 (close 6/11) | 🟡 Above $12.50 trigger 3 straight closes. FSK -9.9% mark direction intact |
 | VIX | >25 | 19.13 (6/12 pre-mkt; **closed 22.22 on 6/10 CPI day**) | 🟡 Elevated floor vs May (15-17 range); two >21 CLOSES within four sessions (21.51 on 6/5, 22.22 on 6/10) |
-| BDC Q1 marks | rolling | FSK -9.9% in; OBDC/ARCC/BXSL/MAIN — **status not re-verified post-5/20** | 🟡 See `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` — needs refresh |
+| BDC Q1 marks | rolling | **Monitor light-populated 6/12:** FSK -9.9% (NAV 20.89, P/NAV 0.52 ⚠️ verify), BXSL declining, GSBD -3.7%, MAIN +0.4% clean, ARCC 19.59, OBDC pending | 🟠 **Div-cut trigger FIRED ×4 (MFIC/OCSL/OBDC/FSK); activation conditionally met** pending FV/Cost (10-Q deferred). Marks/divs deteriorating while BDC equity bounces — the monitor's target tension is LIVE. See `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` |
 
 ---
 
