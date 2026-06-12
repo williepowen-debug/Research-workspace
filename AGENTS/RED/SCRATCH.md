@@ -9,53 +9,48 @@
 ## GIT STATE (one line)
 -->
 
-**Session 18 — Thu 2026-06-11 ~9:38 AM–~11:00 AM ET.** Pre-market boot per Will ("pick up where we left off yesterday"). S17b close priority 1 (grade VIOLET responses) discharged: 8 challenges closed CONVERGED in <14h (5th agent-converge cycle — broadest + fastest yet). Round 2 caught VIOLET appending 035+036 mid-session. **Will closeout at ~11 AM for laptop switch — closing into the educational walkthrough handoff (033 explained, 034-037 + SAM pending).**
+**Session 18b — Thu 2026-06-11 PM ET (post-laptop-switch).** Resumed S18 per Will ("continue where we left off"). Ran educational walkthrough (033 done S18 AM → explained 034 the anchor challenge), then Will pulled RED into a LIVE adversarial read of VIOLET's KB-VIO-097 cross-market data pull while he worked with her — filed as CHG-RED-038, RESOLVED-CONVERGED same session. Wrote a Will-requested exchange-assessment report. **No confidence/weight change (72% / net bear 59% held)** — all process moves. Will called close-out here.
 
-## CHANGES SINCE (S17b close ~9 PM → S18 boot 9:38 AM)
+## CHANGES SINCE (S18 AM close ~11 AM → S18b boot PM)
 
-- **VIOLET 033/034 responses landed overnight** (commits f9552e2c, c877b84b): KB-VIO-088 n=5 TAIL-STOP + KB-VIO-089 two-anchor ladder.
-- **VIOLET 035/036 appended mid-session 9:51-9:55 AM** (KB-VIO-090/091, working-tree uncommitted on her side at S18 close): tree registered BEFORE FRED 6/10 pull (discipline held); fade-pay distribution re-marked 42.5% → 20-26% w/ honest attribution decomposition crediting RED's structural critique as majority of the move.
-- **VIOLET 037 STRENGTHENED in-flight** — she added a 4th error instance to RED's enumerated table (M1:M2 stale CBOE endpoint stamped 6/10) BEFORE writing the response section. Now 10 errors in 48h+.
-- **SAM closed CH-009/010/011/032 + CH-004 + VX-RED-024** (commit 79ea030b): SAM-21 75→~90 (top of RED range); SAM-23 72→~35 (DEEPER than RED implied 47-57); $60-62 reclassified conditional-tail.
-- **Auto-memory `finding_sustain_count_role_discriminating_power` promoted** (1f500717, pre-laptop-switch from VIOLET side).
-- **Live tape at boot:** VIX 21.34 / SPY 727.64 / KRE 72.07 / WAL 81.93 / HY 278 / CCC 951 (6/9 T+1) — war-led vol fading, names rallying.
+- **Nothing moved on the fleet side** — git clean, origin-synced; the VIOLET/SAM working-tree dirt at S18 AM close all committed in Will's 6/10 evening + 6/11 push windows (VIOLET 060f7829, CARL 51789f0f/e227c771, SAM 103dc5cd).
+- **Intraday tape (vs S18 AM):** VIX 21.75 → **19.44** (war-leg deflating, sub-20); Brent $93.30 → **$89.30 (-4.08%)** (war premium unwinding HARD, broke <$95 despite Hormuz closure — RED oil-bear extending); SPY +0.3% → **+1.70%** (risk-ON); banks up (WAL 82.3 / KRE 72.4). HY OAS **280** (6/10 FRED, at the FT-01 re-cross boundary exactly); CCC **957** (FT-07 + WL-05 9.55 gate still firing, same 6/10 print already adjudicated Bin B S18 AM).
+- **VIOLET live-session activity (Will-relayed):** pulled KB-VIO-097 (6 new FRED series) → adjudicated my pushback → KB-VIO-098 (commit 34ef1547); retracted the Friday block-lift shade to 55-60%; registered the abandon condition; routed breakeven counter-signal →RED/→CARL.
 
 ## WHAT I DID
 
-1. Full boot read (MEMORY/STATUS/SCRATCH/CALENDAR/CHANGELOG/VIOLET+SAM response files + outboxes), boot.py.
-2. **Wrote grading file** `challenges/VIOLET_SAM_RESPONSE_GRADING_2026-06-11.md` (8 challenges graded, 5/5 process on the deepest). Round 2 addendum for 035/036/037-strengthened.
-3. **Workbook:** CHALLENGES.tsv 029-036 all RESOLVED-CONVERGED variants; 037 STRENGTHENED-IN-FLIGHT. WATCHLINES WL-01 n=3→n=5 TAIL-STOP. ML-RED-082 appended.
-4. **STATUS updated twice** (round 1 + round 2): header now 8 closes in <14h; Open Challenges table fully refreshed.
-5. **No CHANGELOG/MAINTENANCE entry** — no confidence/weight change, no file/schema change.
-6. **Will-flagged re-check pattern logged** — boot-time read missed mid-session peer appends; lesson: mtime-check actively-writing peer files before declaring final grade.
-7. **🆕 LIVE FRED 6/10 PULL via VIOLET cache (~11 AM):** **CCC OAS = 9.57 — CROSSED VIOLET'S 9.55 TRIGGER.** Adjudicated through her 2-bin tree: **Bin B FIRES** (all 4 breadth lines clean: HY 2.80<2.85 / IG 0.75≤0.80 / BB 1.70<1.73 / dispersion 7.87<8.00). Fade framework NOT killed; VIOLET owes written re-mark by ~Jun 18 if breadth still clean and CCC<9.65. But ALL 4 Bin A legs racing — BB only 3bp away (and ALREADY broke above its May-Jun range 1.60-1.68), HY 5bp, escalator CCC 8bp, dispersion 13bp.
-8. **Educational walkthrough started (Will-requested):** explained CHG-RED-033 (the "kill switch needs a defined rule" challenge). 034-037 + SAM pending. Closing here for laptop switch.
+1. Full boot (MEMORY/STATUS/SCRATCH/CALENDAR/CHANGELOG + grading file), boot.py, git pull (already up to date).
+2. **Educational walkthrough** — explained CHG-RED-034 (anchor-contingent modal-touch-23; RED right on 26+ tail, wrong on 24 leg — both sides updated). Clarified for Will what the 033 "kill switch" is (framework-scale falsifier for VIOLET's fade strategy, not a single-trade stop, not the whole bear theory).
+3. **Wrote `reports/VIOLET_EXCHANGE_ASSESSMENT_2026-06-11.md`** (Will-requested) — honest verdict: convincing at the process/scorekeeping layer, but that layer is narrower than the 14h/8-challenge convergence *feels*; direction unproven until Jun 16-18; RED lost 2 legs (034 near-leg, 036 CFTC mechanical).
+4. **Live adversarial read of VIOLET KB-VIO-097** → **filed CHG-RED-038** (5-point pushback: premature shade ahead of the decisive LIQUID breadth read / US-CCC composition-different from Euro-EM HY / no-flight-to-quality cuts both ways / unbounded magnitude / breakeven counter-signal). VIOLET adopted all 5; the magnitude error-bar ask "mostly dissolved the story" (June moves 68-78th pctile). RESOLVED-CONVERGED.
+5. **Workbook:** CHALLENGES.tsv CHG-RED-038 appended (10-col); ML-RED-083 appended (14-col). STATUS: header + Open Challenges row + breakeven counter-signal row.
+6. **Committed locally** 062f3456 (CHALLENGES + ML + report). STATUS + this SCRATCH in close-out commit.
 
 ## NEXT SESSION (priority-ordered — pick up wherever convenient)
 
-1. **🟢 RESUME EDUCATIONAL WALKTHROUGH** — Will wants 034 next (the "anchor" challenge: VIOLET's "modal path touches 23" story is 100% anchor-contingent; she ran the second column, RED's 26+ tail right but 24 leg wrong — divergence is FLATTENING not uniformly tail-heavier). Then 035 (already partly explained via the live CCC walk-through above), 036 (the 0.85 conditional + scenario→premium translation — fade-pay 0.85→0.75, x ≈ 0.45 inside RED prior), 037 (Orch-dependent first-pass numerics, now 10 errors and SAM/VIOLET both flagging), then SAM packet (CH-009 discount re-derivation + CH-010 Branch C split + CH-011 SAM-23 72→35 + CH-032 $60-62 reclassification).
-2. **🔴 NEW substantive signal: BB OAS widening 1.62→1.70 in 9td** — first time the bifurcation has spread DOWN-structure from CCC tail into broader/cleaner BB tier. This is the early-stage version of the "tail leads index" pattern I've tracked since April. Add as a NEW Counter-Signal row in STATUS next session. Direction confirms Acute bucket; net bear likely +1 if BB ≥1.73 prints.
-3. **🟠 HY 2.80 = 2bp from RED-FT-01 re-cross >280** — if tomorrow's FRED 6/11 print shows ≥280 sustained, FT-01 un-fires on sustain-window-respect; bifurcation re-widens. Daily watch.
-4. **🟠 FT-07 CCC−BB decomposition formal registration** — today's print makes it urgent (CCC firing, BB joining = exactly the case the spec was meant to capture). Spec drafted in grading file addendum; push into `registry/FALSIFICATION_TRIGGERS.tsv` pre-FOMC.
-5. **🟠 Jun-stack live (T-7 today)** — Will may engage broker marks; menu A1/A2/B/C/D ready (`research/POSITION_RECONCILE_2026-06-10.md`). VIX fading + names rallying = window-trigger marks degrading.
-6. **🔴 FOMC 6/17 pre-write (T-6)** — DIET gate + dots + VIX>23 invalidation line converge. Build this week; finish by Mon 6/15 PM.
-7. **🟠 Watch CHG-RED-037 delivery + Q5-Q6** — VIOLET committed to mechanization pre-FOMC.
-8. **🟡 REGINALD/LIQUID re-pair still owed** (stale 5/21 / 5/20).
-9. **🟡 HYG closure + thesis/TIMELINE.md refresh** (Jun 18 expiry T-7).
+1. **🔴 FRIDAY 6/12 ~11:30 AM CCC PRINT + LIQUID BREADTH = the live discriminator** for CHG-RED-038 / VIOLET tree. Pre-registered branches now BOTH live: CONFIRM (sticky CCC + broad movers = divergence extends, Path-A early signature) vs ABANDON (sticky CCC + 3-4 idiosyncratic distressed names = composition-not-regime blip). Also: Euro-HY 6/11 print as weak control. Sort, don't interpret.
+2. **🟠 HY OAS at 280 = exactly on the FT-01 un-fire boundary.** Next FRED print ≥280 sustained re-crosses → FT-01 un-fires (sustain-window-respect), bifurcation re-widens. Daily watch.
+3. **⚠️ Breakeven counter-signal on RED's OWN modal** — 10Y BE 2.29 fell 5bp, never priced the war. If it keeps drifting down THROUGH FOMC it bites Stagflation 37%. NOT re-weighted on 1 print (single-month skepticism); 2nd print decides. Watch trend.
+4. **🟢 RESUME WALKTHROUGH if Will wants it** — left off after 034; remaining: 035 (CCC goalpost, ties to live tape), 036 (0.85 conditional / scenario→premium), 037 (Orch numerics, now 10 errors), then SAM packet (CH-009/010/011/032).
+5. **🔴 FOMC 6/17 pre-write (T-6)** — DIET gate + dots + VIX>23 invalidation line. Build this week, finish Mon 6/15 PM. Don't improvise on catalyst day.
+6. **🟠 FT-07 CCC−BB decomposition formal registration** — spec drafted (grading file addendum); push into `registry/FALSIFICATION_TRIGGERS.tsv` pre-FOMC. RED's own trigger inherits the CHG-RED-035 composition critique.
+7. **🟠 Jun-stack (T-7→T-6)** — WAL $85P + TLT $85P x3 the only money legs; menu A1/A2/B/C/D ready (`research/POSITION_RECONCILE_2026-06-10.md`). VIX fading + names rallying = window-trigger marks degrading further.
+8. **🟡 REGINALD/LIQUID re-pair still owed** (stale 5/21 / 5/20). LIQUID breadth read (item 1) is the natural re-engagement hook.
+9. **🟡 HYG closure + thesis/TIMELINE.md refresh** (Jun 18 expiry, T-6).
 
 ## OPEN THREADS
 
-- **Convergence cycle #5 (broadest + fastest yet) closed cleanly** — VIOLET 033/034/035/036 + SAM CH-009/010/011/032/004 + VX-RED-024 all converged. 037 still in motion (mechanization tooling). Risk reminder: rapid process-convergence ≠ direction-correctness; substance scores Jun 16-18.
-- **RED mark stance updated:** defer to SAM for SAM-21 (~90), SAM-23 (~35), $60-62 (conditional-tail 25-30%). Downstream consumers pull from SAM not older RED estimates.
-- **WL-01 corrected (n=3→n=5), FT-07 spec drafted, CFTC error logged** — 3/3 self-exposure items engaged.
-- **Live credit substance shift:** BB widening, HY drifting toward 2.85, CCC just crossed 9.55. The "credit refuses to widen" story is the weakest it's been since April. Next FRED print likely decides whether Bin B holds or flips to Bin A.
-- **VIOLET working-tree uncommitted at S18 close:** TRADE.md, KB.tsv, response file all modified post-her-last-commit. Next boot pull may bring in KB-VIO-090/091 + the 037 section if she ships them.
+- **CHG-RED-038 closed but the bet it's about is LIVE** — VIOLET's tree is at Bin B / entry-block-live / flat; Friday's print + LIQUID breadth decide CONFIRM vs ABANDON. The challenge fixed the *method*; the *direction* scores tomorrow.
+- **Convergence cycle #5 now spans 6 closes against VIOLET (033-038) + 5 against SAM in one week.** Risk reminder (standing): rapid process-convergence ≠ direction-correctness; watch for over-anchoring on cycle cadence as evidence. Substance scores Jun 16-18.
+- **RED lost 2 legs this exchange** (034 near-leg refuted; 036/SAM CFTC "yen-negative" mechanically wrong → ML-RED-082). Logged. A clean adversarial cycle includes RED's own misses.
+- **The bull-steelman strengthened intraday** — vol fading, oil dumping despite Hormuz closure, banks rallying. The war-led vol spike is deflating exactly as VIOLET's fade predicts. HY OAS 280 still refuses the cascade. "Right regime, possibly wrong vehicles" unchanged.
+- **MEMORY.md is over size limit (24.8KB > 24.4KB)** — did NOT add the "ask for error bars / magnitude-percentile test" adversarial technique to avoid bloating; it's captured in ML-RED-083. If a MEMORY trim happens, that technique is a good one-liner candidate.
 
 ## PENDING WILL-DECISIONS
 
-- Jun-stack menu (T-7 today): WAL $85P A1/A2, TLT $85P x3 B-hold-thru-FOMC, dust sweep C, HYG closure D. Will intends sell-or-roll on backstop.
+- Jun-stack menu (T-6): WAL $85P A1/A2, TLT $85P x3 B-hold-thru-FOMC, dust sweep C, HYG closure D. Will intends sell-or-roll on backstop.
 - v1.6 RED-pass request from SAM (post-Jun-16-18, before SAM commits version).
 
 ## GIT STATE
 
-Origin-synced at S18 boot (last push window Will-coordinated 6/10 evening). RED commits this session land local: round 1 (5947ae43) + round 2 (bf38f34b) + this closeout. **LOCAL ONLY** — Will explicit: "commit but don't push to GitHub yet." Per protocol, push held until Will opens next coordinated window. Working tree dirty in SAM/ + VIOLET/ dirs (live peer work — leave alone).
+Clean + origin-synced at boot. This session: 062f3456 (CHG-RED-038 + ML-RED-083 + report) + close-out commit (STATUS + SCRATCH) land **LOCAL ONLY** — push held for Will-coordinated window (RED never pushes solo on shared branch). VIOLET committed her side 34ef1547 within Will's live window; RED's commits sweep in next coordinated push.
