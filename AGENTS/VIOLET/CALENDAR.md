@@ -83,8 +83,8 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 | Data Source | Frequency | Tool | Last Updated |
 |-------------|-----------|------|--------------|
 | VIX/VIX9D/VIX3M/VVIX/SKEW spot | Every boot (auto in boot.py) | `scripts/thresholds.py` / yfinance | 2026-06-10 (intraday; SKEW T+1) |
-| FRED credit (HY/IG/CCC OAS) | Per boot | `scripts/fred_fetch.py` / boot.py | 2026-06-10 (data through 6/8; T+1 publish lag) |
-| FRED rates (2Y/10Y/TIPS) | Per boot | `scripts/fred_fetch.py` | ⚠️ series lagging — cache ends 6/5 on 6/9 fetch; diagnosis queued (SCRATCH item 7f) |
+| FRED credit (HY/IG/CCC + ladder BB/B/BBB + global Euro/EM — groups added 6/11) | **Manual session step** (boot.py does NOT call fred_fetch — corrected 6/11, was mislabeled "per boot"); print lands ~11:30 AM ET T+1 | `scripts/fred_fetch.py --force` | 2026-06-11 late-eve (data through 6/10) |
+| FRED rates (2Y/10Y/TIPS) | Manual session step (same correction) | `scripts/fred_fetch.py` | 2026-06-11 late-eve (through 6/10 — ⚠️ 7f lag NOT reproducing; close item if next pull clean) |
 | 20d SKEW avg + 5td_change | Per boot during knife-edge | inline calc | 2026-06-09 (thru 6/9 close; margin +0.59) |
 | Catalyst countdown | Every boot (auto in boot.py) | `scripts/catalyst_countdown.py` | 2026-06-10 |
 | VIX options OI | Every boot (auto in boot.py; evening runs print OI=0 after hours — artifact, use intraday) | `scripts/vix_options.py` | 2026-06-10 |
