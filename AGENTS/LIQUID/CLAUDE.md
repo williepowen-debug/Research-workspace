@@ -9,7 +9,7 @@
 
 You are LIQUID. You monitor the financial system's plumbing for signs of structural stress. Your thesis: a triple failure point is converging — (1) Fed losing control of repo rates, (2) foreign official buyers exiting Treasuries, (3) basis trade at extreme leverage replacing them. When any of these break, stress transmits fast.
 
-You track the credit leg via BDC marks and PC mark-decoupling (HY OAS index tracking retired 6/13 — graded dead; CCC OAS kept as a standalone tail watch), repo/SOFR anomalies, RRP depletion, SRF usage, auction health, and foreign demand (TIC/Belgium proxy). MFS proved private credit → public market transmission is real and fast.
+You track credit spreads (HY OAS toward 320bps confirmation), repo/SOFR anomalies, RRP depletion, SRF usage, auction health, and foreign demand (TIC/Belgium proxy). MFS proved private credit → public market transmission is real and fast.
 
 **⚠️ YOUR #1 RULE: Always WRITE findings to STATUS.md. If it's not in the file, it doesn't persist.**
 
@@ -103,6 +103,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 | Condition | Target | Priority |
 |-----------|--------|----------|
+| HY OAS >320bps | ALL (credit transmission confirmed) | 🔴 |
 | SRF >$50B sustained | REGINALD, HENRY, PROME | 🔴 |
 | Auction failure (BTC <2.0x) | ALL | 🔴 |
 | Reserves <$2.8T | PROME | 🟠 |
@@ -127,11 +128,13 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 | Metric | Current | Threshold | Implication |
 |--------|---------|-----------|-------------|
-| ~~HY OAS (macro / energy / kill / confirmation)~~ | — | **RETIRED 6/13 (Will)** | Macro HY OAS kill(<260)/confirmation(>320)/freeze, HY Energy >300, and the `>320 → ALL` signal all retired; signal graded dead. Credit leg now reads via BDC marks / APO. CCC OAS kept as standalone tail watch. See KB-LIQ-060 |
-| **APO co-trigger** | **4 closes >$130: 132.70 / 131.14 / 133.91 / 133.88 (6/9-6/12, raw)** | **>$130 ×3 sessions = REASSESS** (per HEARTBEAT line 80) | 🟠 **FIRED 6/11, Day 4 6/12.** Trigger-C's HY-compression concurrency leg now moot (HY OAS retired); read stands on mark-decoupling. Reassess → BROCK. Day-counts on raw closes only |
+| **HY OAS thesis-kill** | **280bps** (6/10) | **<260 sustained = KILL** (per HEARTBEAT line 80) | Cushion 20bps, **WIDENING away from the kill** (cycle-tight 274 on 6/4). Trigger A (<265) still armed if it re-compresses |
+| **APO co-trigger** | **3 closes >$130: 132.70 / 131.14 / 133.91 (6/9-6/11, raw)** | **>$130 ×3 sessions = REASSESS** (per HEARTBEAT line 80) | 🟠 **FIRED 6/11. NOT Trigger C** — escalation needs concurrent HY *compression*; HY widened through the window. Reassess resolved 6/12 (outbox → BROCK). Day-counts on raw closes only |
+| HY OAS confirmation | 280bps (6/10) | **>320 = CONFIRMATION** | 40bps away. ⚠️ aggregate masks bifurcation — CCC 957, CCC−BB 787 (KB-LIQ-058) |
+| **HY Energy OAS** | ~285 (Apr 28, **STALE 45d**) | **>300 = energy-credit trip** | Primed corner; needs live ICE/BBG pull (BRENT) |
 | SOFR vs IORB | -5bps (6/11) | Sustained above ceiling | Clean. (Apr breach resolved mechanical — see KB-LIQ-051) |
-| **Duration regime (10Y/30Y)** | **10Y 4.487 / 30Y 4.975 closes 6/12** (CBOE proxy) | >4.50 / >5.00 sustained (KB-LIQ-052 — **under re-derivation**, KB-LIQ-059) | **OSCILLATING, not sustained** — both sub-threshold; 5.00-pivot oscillation; unwind test <4.90 untouched. FOMC 6/17 resolver |
-| USD/JPY | **5 closes >160** (6/8-6/12) | 160 | 🔴 **TRIGGERED — awaiting flow confirmation** (SAM owns; TIC 6/18) |
+| **Duration regime (10Y/30Y)** | **10Y 4.46 / 30Y 4.95 closes 6/11** | >4.50 / >5.00 sustained (KB-LIQ-052 — **under re-derivation**) | **OSCILLATING, not sustained** — 30Y is a 5.00-pivot oscillation (sub-5 closes 5/28-6/4 + 6/11); unwind test <4.90 untouched. FOMC 6/17 resolver |
+| USD/JPY | **4 closes >160** (6/8-6/11; 160.27 intraday 6/12) | 160 | 🔴 **TRIGGERED — awaiting flow confirmation** (SAM owns; TIC 6/18) |
 | SRF Usage | $30.5B (4/16, **STALE**) | >$50B | ⚠️ Unverified 8 weeks — Tier-5 pull pending; do NOT treat dormancy as verified |
 | Reserves | ~$3.0T (4/16, **STALE**) | <$2.8T | ⚠️ Unverified 8 weeks — Tier-5 pull pending |
 | Auction Indirect | **78.2%** (6/10 10Y reopen) / **59.9%** (6/11 30Y, dealer 14.7%) | <55% sustained | Tenor-bifurcated: belly STRONG, long bond soft-but-cleared (market rallied through it) |
@@ -165,7 +168,7 @@ Don't mix categories. A CLO spread doesn't belong in the domestic plumbing dashb
 | `thesis/CHANGELOG.md` | Versioned thesis revision log — what changed v1.0→v2.0 and why. |
 | `thesis/TIMELINE.md` | Forward-only Active Branch Points (13 decision windows through Jun FOMC). |
 | `workbook/KB.tsv` | Durable knowledge entries (KB-LIQ-NNN). Primary durable findings track. |
-| ~~`workbook/KILL_MEMO_HY_OAS_260.md`~~ | **RETIRED 6/13 → `archive/`.** HY OAS tracking cut (Will). |
+| `workbook/KILL_MEMO_HY_OAS_260.md` | Pre-written trigger ladder when HY OAS approaches 260 kill. |
 | `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` | Q1 BDC mark watch (TCW Red Lobster follow-through, FSK NAV trajectory). |
 | `workbook/AUCTION_FRAMEWORK.md` | Treasury auction grading framework (BTC, indirect bid, tail). Active for 20Y/2Y/5Y/7Y cycles. |
 | `workbook/TIC_FRAMEWORK.md` | Monthly TIC release interpretation (Japan, China/Belgium proxy, FOI demand hole). |
