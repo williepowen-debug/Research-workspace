@@ -1,16 +1,19 @@
-# BRENT SCRATCH — Fri Jun 12, 2026 (~13:00 ET — catch-up sweep + advisor adjudication session; closed out BEFORE today's 1:00 BH / 3:30 COT / settles)
+# BRENT SCRATCH — Fri Jun 12, 2026 (~16:00 ET — catch-up sweep + advisor adjudication, EXTENDED through afternoon prints; BH/COT/settles all captured this session, not deferred)
 
 **Purpose:** Ephemeral session handoff. Read at boot (SPAWN PROTOCOL step 2), rewritten in full at closeout (step 11). Persistent learnings → `MEMORY.md`; dated forward catalysts → `docket/CATALYSTS.tsv` (FASTOW); cross-agent synthesis → `NEXUS_BRIEF.md`.
 
+**Session arc:** Booted AM as a 3-day catch-up sweep. Ran the Orc advisor adjudication cycle, did the EIA/STEO/CPI sweep + crack refresh, attempted a ~13:00 closeout — then the session continued live and captured Baker Hughes (1:00), COT (3:30), and the Fri settles. So this SCRATCH supersedes the ~13:00 version: the afternoon prints are DONE, not next-boot items.
+
 ---
 
-## ⚡ NEXT BOOT FIRST MOVES (same-day reboot expected Fri PM)
+## ⚡ NEXT BOOT FIRST MOVES
 
-1. **Baker Hughes (released 1:00 PM Fri)** — oil rigs vs 431 prior / 457 threshold (BRT-26). TradingEconomics/Investing will have it by mid-afternoon; BH's own site unreachable from sandbox (3 timeouts this session).
-2. **CFTC COT 3:30 PM Fri (Jun 2 wk)** — Path B Trigger #3 re-fire test. First post-suspension print. Baseline: May 19 = 98,219 MM net long.
-3. **Today's settles** — (a) M1−M3 <$3 = Trigger #1 close #2 (was $1.72-2.8 intraday range, advisor + own pulls); (b) Brent <$88 = XLE re-eval close #1 (was $86.87-87.57 intraday). Pull BZQ26/BZU26/BZV26 + BZ=F closes.
-4. **THESIS v3.1 bump decision** — evidence batch complete EXCEPT items 1-3 above. CHANGELOG Jun 12 entry already frames it; bump if Trigger #1 hits 2/3 or COT re-fires.
-5. **Weekend signing-window watch** — dawn #5 marker ladder in STATUS (item (i) Iranian confirm = discriminator).
+1. **🔴 THESIS v3.1 BUMP — pre-registered criterion (Trigger #1 ≥2/3) IS MET; pending Will's go.** Full evidence batch landed: SPR drain-through, dawn #5, Trigger #1 at 2/3, gasoline sign-flip, crack no-compression, BH +2, COT re-accumulation-into-drawdown. BRENT recommendation = bump now (documents the divergence regime regardless of Monday); Will pivoted to questions then closeout, so it did NOT execute. CHANGELOG Jun 12 entry already frames old→new view. **First substantive action next boot if Will confirms.**
+2. **🔴 MONDAY (Jun 15) DOUBLE-TRIGGER + DEADLINE CONVERGENCE** — one settle resolves three things if tape holds: (a) Trigger #1 completes (3rd consecutive M1−M3 <$3; Fri $2.40, Thu $2.67); (b) XLE re-eval fires (2nd consecutive Brent sub-$88 close; Fri $87.20); (c) HAW-09 deadline is Sun Jun 15. Pull Mon settles first thing.
+3. **🔴 HAWK spawn decision — WITH WILL.** BRT-27 blocked on HAW-09 adjudication; HAWK book stale (Jun 8 09:15, predates halt + settlement). Deadline Sun.
+4. **🔴 CARL outbox hand-route** — `outbox/2026-06-12_to-CARL_oil_panel_correction_pump_watch.md` (wrong Brent level + uncorroborated Jun 7-10 kinetic premise under live CRL-08 watch). HERMES degraded; needs manual route. CARL watch runs daily to Mon into FOMC packet.
+5. **🟠 Weekend signing-window watch** — dawn #5 marker ladder in STATUS; item (i) named-Iranian-confirm = the discriminator absent in all 4 prior dawns. STNG 5 straight up sessions = market not pricing it operational.
+6. **🟡 Check `f6149ea2` ("BRENT: Friday data — COT + rigs + airlines")** — a data-drop commit I did NOT author landed below my closeout. Verify whether it dropped an airlines data file worth integrating into BRT-09 / demand TRACKER.
 
 ## CHANGES SINCE LAST SESSION (Tue Jun 9 ~13:00 → Fri Jun 12 AM)
 
@@ -21,7 +24,11 @@
 - **🟠 STEO June: $105 Jun-Jul (closed-Hormuz) / $95 2026 / $79 2027.** June MTD settled avg $94.01 vs $105 ≈ **$11 gap** = priced-in reopening.
 - **🟠 CPI May printed Wed Jun 10 (STATUS had wrong date): +0.5%/+4.2% YoY, energy >60% of increase, gasoline +40.5% YoY** — BRT-16 oil→CPI leg printing; inverse-feedback test → Jul 14 CPI.
 - **🟠 Crack refresh: NO compression — 3-2-1 vs Brent $45.64 WIDENED into selloff**; RB sticky ~$130/bbl → pump-relief prior WEAKENED (CARL-relevant); refiner/USO +4.63% = decoupling day. BRT-12 channel quiet (margin-boom mechanism).
-- **🟠 Brent settles 91.45 / 93.10 / 90.38 (Jun 9-11)**; $87-88 intraday Fri. BRT-27 price-side MET.
+- **🟠 Brent settles 91.45 / 93.10 / 90.38 (Jun 9-11)**; BRT-27 price-side MET.
+- **🔴 AFTERNOON PRINTS (captured this session):**
+  - **Baker Hughes 433 oil (+2 WoW)** — 3rd consecutive wk at decelerated +2 pace; 24 to 457. BRT-26 holds ~50-55%. July prints (against this wk's $87 tape, 4-8wk lag) = the real deceleration test.
+  - **COT Jun-2 wk: NYMEX WTI MM net 90,765 (+10,841 WoW) — Trigger #3 NOT re-fired.** Backfilled series: May 19 98,219 → May 26 **79,924** (−18,295) → Jun 2 90,765. One decline then RE-ACCUMULATION on the suspension gap-up wk (specs bought kinetic premium). That length was bought at $93-96 and is now underwater at $87 → primed for forced-liquidation print Jun 19 (halt wk) / Jun 26 (settlement wk) releases.
+  - **Fri Jun 12 settles: Brent $87.20 (sub-$88 close #1, XLE clock 1/2); M1−M3 $2.40 (Trigger #1 → 2/3); WTI $84.71; STNG $78.31 (+2.8%, 5th up session through the announcement = BRT-15 counter-evidence extended).**
 
 ## WHAT I DID THIS SESSION
 
