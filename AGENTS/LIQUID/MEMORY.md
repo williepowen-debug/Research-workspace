@@ -18,15 +18,12 @@
 
 **Session continuation 2 (6/12 PM — TIMELINE + Tier-5 data + BDC light populate):** TIMELINE rolled forward (Orc-graded; Row-2 conflation fixed pre-commit; 8 live rows; KB-LIQ-059). Tier-5 closed: Leg A UN-STALED (reserves $3.081T stable — "draining" unsupported; SRF ~$0 both legs; RRP zero), April PCE 3.72%/3.27% accel, NFP +172k, May auction indirect filled. LIQ-02 → MISS at the letter (+31bps max vs +50); LIQ-03 OPEN, resolves 6/30 (interim ~S+130-145). Basis canon += Brent ICE settle / JPY 5pm ET / H.4.1 as-of. Energy-HY ask → formal BRENT outbox. BDC monitor light-populated (Will's call): div-cut trigger FIRED ×4 (MFIC/OCSL/OBDC/FSK), activation conditionally met pending FV/Cost; ⚠️ FSK P/NAV 0.52 needs split/vintage verify; OBDC NAV not found (avoided Onex-conflation trap). **First push window opened — everything through 6bee0ca3 on origin.**
 
+**CLOSEOUT (6/12 PM, Heavy tier; model switched Fable→Opus mid-close):** Full-day session done. **CATCHUP_PUNCHLIST fully closed** (all tiers; boot docs / thesis layer / TIMELINE / workbook / predictions / data gaps / BDC monitor — green). **All work committed AND pushed** (coordinated window opened; tree clean, ahead 0/behind 0; my commits rebased to new SHAs, content intact). Audit method this session: every load-bearing count recomputed from raw series + Orc review loop on the 5 load-bearing thesis/TIMELINE surfaces.
+
 **Open follow-ups (carried):**
 - **HYG $75P + TEN $30 calls both expire Fri 6/19 (T-5).** HYG: recommend expire/close (dead, $79.94 vs $75). TEN: ITM ~$7.11 winner — exercise/sell decision needed. **Both Will decisions, window closing.**
-- **Tonight's closes (Batch 4):** Brent first sub-$90 SETTLE? (clause-1 clock); APO Day 4?; Friday yields into FOMC week.
-- **LIQ-03 resolves 6/30** at the letter; **FSK P/NAV 0.52 verify**; **OBDC Q1 NAV still owed**; FRED 6/11 prints confirm at next boot.
-- **Orc deferred-verification queue:** commits c5bc0c06→6bee0ca3 + this session's tail; THESIS/TIMELINE vs echo-backs; FRED edge prints (now self-verified 6/12 — 6/5 DGS30 5.01 ✓, 5/26 DGS10 4.50 ✓).
-- APO Day 4 watch (today's close); HY OAS direction post-CPI.
-- CATCHUP_PUNCHLIST Tiers 2-5 still pending (thesis roll-forward, KILL_MEMO false-kill detail, BDC monitor, PREDICTIONS scan, auction internals 5/21-5/28, NFP, energy HY OAS via BRENT).
-- Inbox 2 pending (HAWK OFAC 5/22, PROME FRED-convention 5/21) — process on inbox-spawn.
-- Push pending: 6/8 commits + this session, await Will's window.
+- **Externally-gated waits:** BRENT energy-HY OAS pull (outbox sent); FRED 6/11 yield prints (H.15 lag, ^TNX/^TYX proxy stands); FSK P/NAV 0.52 split/vintage verify; OBDC Q1 NAV still owed.
+- **Dated:** LIQ-03 resolves 6/30 at the letter (interim ~S+130-145, below 160 trigger).
 
 ### PRIOR SESSION (2026-06-08 — boot from 18d-stale + NEXUS blocker + full Tier-1 catch-up)
 
@@ -174,12 +171,14 @@ MEMORY.md    STATUS.md  STRATEGY.md           USER.md
 
 ### NEXT SESSION
 
-1. **Position decisions before Fri 6/19 opex:** HYG $75P (expire/close — dead) + TEN $30 calls (ITM ~$7 — exercise/sell). Will decisions; surface at every boot until resolved.
-2. **APO streak + HY OAS direction:** trigger fired 6/11 (close-basis); check whether streak extended and whether HY widening (280, 6/10) continued post-CPI.
-3. **FOMC Wed 6/17** (dot plot vs hot May CPI, Warsh color, liquidity-facility language) → **TIC Thu 6/18** (Japan/Belgium proxy — KB-LIQ-055 framework, Belgium $481B vs $500B orange).
-4. **Continue `CATCHUP_PUNCHLIST.md`.** Tier 0+1 DONE. Tier 2 (thesis/TIMELINE roll-forward), Tier 3 (KILL_MEMO false-kill detail, BDC monitor refresh, PREDICTIONS scan), Tier 4 (CREDIT_THRESHOLDS, inbox), Tier 5 (5/21-5/28 auction internals, energy HY OAS via BRENT, PCE, NFP, SRF/reserves).
-5. **Inbox (2 pending, process on inbox-spawn)** — HAWK OFAC toll-risk 5/22; PROME FRED-citation-convention 5/21.
-6. **Push** committed-but-unpushed 6/8 + 6/12 work when Will opens a coordinated window.
+*(Catch-up audit complete 6/12 — LIQUID is current. These are forward watches, not cleanup.)*
+
+1. **First boot move — verify tonight's 6/12 closes** (per basis canon): Brent first sub-$90 **ICE settle**? → starts the stagflation-ladder clause-1 clock (TIMELINE Brent row). APO Day 4 (raw close)? 30Y/10Y vs the 5.00 pivot. HY OAS direction.
+2. **Position decisions before Fri 6/19 opex:** HYG $75P (expire/close — dead) + TEN $30 calls (ITM ~$7 — exercise/sell). Will decisions; surface every boot until resolved.
+3. **FOMC Wed 6/17** — the duration-regime + conviction-60 resolver (dot plot vs hot May CPI; Warsh color; liquidity-facility language = Leg A kill watch). → **TIC Thu 6/18** (Japan net / Belgium $481B vs $500B orange — KB-LIQ-055; gates the USD/JPY>160 flow confirmation).
+4. **Open verifies:** FSK P/NAV 0.52 (split/vintage); OBDC Q1 NAV (search avoided Onex conflation); FRED 6/11 yield prints confirm; BRENT energy-HY OAS reply (outbox out).
+5. **LIQ-03 resolves 6/30** at the letter (CLO AAA vs 160 trigger; interim ~S+130-145).
+6. **Inbox (2 pending, process on inbox-spawn)** — HAWK OFAC toll-risk 5/22; PROME FRED-citation-convention 5/21.
 
 ### PRIOR SESSION (2026-05-19 morning)
 
