@@ -2,7 +2,25 @@
 
 ## Session Notes
 
-### CURRENT SESSION (2026-06-12 AM — boot + live refresh + APO trigger fire)
+### CURRENT SESSION (2026-06-13 Sat — boot + Fri closes + HY OAS retirement)
+
+**Context:** Saturday boot (markets closed). Pull skipped — VIOLET tree dirty (uncommitted workbook/fred_cache files), my dir clean, no loss. Will gave three directives: pull Fri 6/12 closes, TEN calls closed, retire HY OAS tracking.
+
+**Done:**
+- **Fri 6/12 closes pulled** (yfinance, CBOE proxy basis): 10Y 4.487 / 30Y 4.975 (both still sub-threshold — oscillation holds); **Brent $87.33 = FIRST sub-$90 CLOSE** (stagflation-ladder clause-1 trigger; −$23.3 from peak); USD/JPY 160.19 (5th close >160); VIX 17.68 (cooled off the 22.22 CPI-day spike); APO $133.88 (Day 4 >$130); TLT 85.77; BIZD 12.71. *(FRED H.15 6/12 yields not yet posted — proxy stands.)*
+- **TEN calls CLOSED** (Will, winner booked ~$7.11 ITM). Struck from Active Positions in STATUS + STRATEGY.
+- **HY OAS tracking FULLY RETIRED (Will's call) → KB-LIQ-060.** Scope confirmed "full retire" via AskUserQuestion. Removed: macro HY OAS kill(<260)/confirmation(>320)/freeze trips, HY Energy >300, the `>320 → ALL` cross-agent signal (out of CLAUDE.md), KILL_MEMO_HY_OAS_260 (→ `archive/KILL_MEMO_HY_OAS_260_RETIRED_20260613.md`). Kept: CCC OAS as standalone tail watch (KB-LIQ-058). Credit leg now reads via BDC marks + APO mark-decoupling. **Files touched:** STATUS, CLAUDE (KEY THRESHOLDS + CROSS-AGENT SIGNALS + IDENTITY para + FILES), STRATEGY (3 trigger sections + positions + workbooks + asymmetry), IDENTITY (focus pts 1-3), CALENDAR (daily watch row), KB.tsv (+060), MEMORY.
+- **Not rewritten (flagged):** thesis-architecture docs (`thesis/THESIS.md` §"bilateral 320/260 credit framework", `thesis/TIMELINE.md`) still describe the HY OAS frame structurally — left for a Will-steered thesis-level pass (cosmetic-vs-rederive decision), not unilaterally torn out. Historical record (inbox/processed, outbox/delivered, CHANGELOG, ML_historical, VX/FLOW registries, resolved PREDICTIONS LIQ-01/02) preserved as-is.
+
+**Open follow-ups (carried):**
+- **HYG $75P expires Fri 6/19 (T-4)** — recommend expire/close (dead, $79.94 vs $75; the 320-retest premise died with HY OAS). Will decision.
+- **Thesis-doc HY OAS sweep** — THESIS.md / TIMELINE.md credit-framework sections await the thesis-level decision above.
+- Externally-gated: FSK P/NAV 0.52 split/vintage verify; OBDC Q1 NAV owed; LIQ-03 resolves 6/30.
+- **Push pending** — Saturday, no coordinated window; committed locally, sweeps next window.
+
+---
+
+### SESSION (2026-06-12 AM — boot + live refresh + APO trigger fire)
 
 **Context:** Friday-morning boot, 4d since last session. All live-primary pulls (FRED + yfinance per the rule).
 
@@ -171,14 +189,15 @@ MEMORY.md    STATUS.md  STRATEGY.md           USER.md
 
 ### NEXT SESSION
 
-*(Catch-up audit complete 6/12 — LIQUID is current. These are forward watches, not cleanup.)*
+*(Updated 6/13. HY OAS tracking retired this session — KB-LIQ-060. Forward watches, not cleanup.)*
 
-1. **First boot move — verify tonight's 6/12 closes** (per basis canon): Brent first sub-$90 **ICE settle**? → starts the stagflation-ladder clause-1 clock (TIMELINE Brent row). APO Day 4 (raw close)? 30Y/10Y vs the 5.00 pivot. HY OAS direction.
-2. **Position decisions before Fri 6/19 opex:** HYG $75P (expire/close — dead) + TEN $30 calls (ITM ~$7 — exercise/sell). Will decisions; surface every boot until resolved.
-3. **FOMC Wed 6/17** — the duration-regime + conviction-60 resolver (dot plot vs hot May CPI; Warsh color; liquidity-facility language = Leg A kill watch). → **TIC Thu 6/18** (Japan net / Belgium $481B vs $500B orange — KB-LIQ-055; gates the USD/JPY>160 flow confirmation).
-4. **Open verifies:** FSK P/NAV 0.52 (split/vintage); OBDC Q1 NAV (search avoided Onex conflation); FRED 6/11 yield prints confirm; BRENT energy-HY OAS reply (outbox out).
-5. **LIQ-03 resolves 6/30** at the letter (CLO AAA vs 160 trigger; interim ~S+130-145).
-6. **Inbox (2 pending, process on inbox-spawn)** — HAWK OFAC toll-risk 5/22; PROME FRED-citation-convention 5/21.
+1. **First boot move — verify Mon 6/16 closes** (per basis canon): Brent — does the sub-$90 hold / extend (ICE settle; clause-1 clock running since 6/12 $87.33)? APO streak (raw close, Day 4 was 6/12). 30Y/10Y vs the 5.00/4.50 pivots into FOMC. CCC OAS + BDC marks (the credit-leg read now — NOT HY OAS).
+2. **HYG $75P — single position left, expires Fri 6/19 (T-4 from 6/13).** Recommend expire/close (dead). Will decision; surface every boot until resolved. *(TEN closed 6/12-13.)*
+3. **FOMC Wed 6/17** — the duration-regime + conviction-60 resolver (dot plot vs hot May CPI; Warsh color; liquidity-facility language = Leg A kill watch). → **TIC Thu 6/18** (Japan net / Belgium $481B vs $500B orange — KB-LIQ-055; gates the USD/JPY>160 flow confirmation, now 5 closes).
+4. **Thesis-doc HY OAS sweep (Will-steered):** THESIS.md §"bilateral 320/260 credit framework" + TIMELINE.md still describe the retired frame — decide cosmetic-note vs full re-derivation before next thesis restamp.
+5. **Open verifies:** FSK P/NAV 0.52 (split/vintage); OBDC Q1 NAV (search avoided Onex conflation); FRED H.15 6/12 yield prints confirm the proxy.
+6. **LIQ-03 resolves 6/30** at the letter (CLO AAA vs 160 trigger; interim ~S+130-145).
+7. **Inbox (2 pending, process on inbox-spawn)** — HAWK OFAC toll-risk 5/22; PROME FRED-citation-convention 5/21.
 
 ### PRIOR SESSION (2026-05-19 morning)
 
