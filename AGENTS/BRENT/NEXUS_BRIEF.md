@@ -5,7 +5,7 @@
 **Thesis version:** v3.0 (v3.1 bump decision deferred to next boot — gated on Jun 12 settles + COT + Baker Hughes, all of which land after this closeout)
 **Recent thesis pivot:** Jun 12: catch-up sweep + advisor adjudication — SPR DRAIN-THROUGH (349.2M, tail case); Path B Trigger #1 first sub-$3 close ($2.67 Jun 11, completes Mon if holds); gasoline 4-wk YoY −0.5% first negative of cycle; Trump settlement Jun 11 PM = dawn #5 with marker ladder registered; crack refresh shows NO compression (3-2-1 widened into the selloff — margin-boom, not squeeze).
 **Position:** XLE $65C Sep-30 (premise BREAKING — re-eval on signed MOU OR 2 consecutive sub-$88 Brent closes); CF $130C Jun-18 (ride to expiry; corrected mark $0.10/zero bid — Tue's "$8" was phantom) — structural only; marks in STATUS/FORGE, no P/L here
-**As of:** 2026-06-12 Fri ~13:00 ET (rev-7: catch-up sweep, advisor adjudication, dawn #5, crack refresh, CARL correction) | STATUS commit: [pending closeout commit; AM work in 3efa41bf]
+**As of:** 2026-06-12 Fri ~16:00 ET (rev-7, extended: catch-up sweep, advisor adjudication, dawn #5, crack refresh, CARL correction, + afternoon prints BH/COT/settles) | STATUS commit: latest local HEAD (push deferred; multi-agent queue)
 
 ---
 
@@ -14,7 +14,7 @@
 - **Everything physical got tighter while price fell — cycle-max divergence.** Wk Jun 5 [CONF EIA Jun 10]: SPR **349.192M drained THROUGH the ~350M floor** (no throttle — pre-registered binary resolved to tail case: near-term bearish / medium-term bullish); total crude **−15.155M** (2nd consecutive ~15M wk); commercial 426.485M (−7.228M); Cushing 21.640M (20M floor ~Jul 1); util **95.3%**. Brent settles meanwhile: Jun 9 $91.45 → Jun 11 $90.38, $87-88 intraday Fri [CONF own feed].
 - **June MTD settled avg $94.01 vs STEO June $105 closed-Hormuz assumption ≈ $11 gap** — cleanest quantification of priced-in reopening probability EIA doesn't model. STEO June: $105 Jun-Jul / $95 2026 / $79 2027.
 - **Dawn #5 — Trump settlement announcement Jun 11 PM, timer COLD.** 60-day ceasefire ext + Hormuz-reopens-on-signing + 15-20d window; same MOU architecture as May 24-29 track. **Iran NOT confirmed**; US downed 2 Iranian drones near Hormuz Jun 12 AM [CONF RFE/RL+CBS]. Marker ladder registered (discriminator: named Iranian official confirms — absent in all 4 prior dawns).
-- **Path B arming on schedule:** Trigger #1 first sub-$3 close of cycle ($2.67 Jun 11; completes Mon Jun 15 if holds — roll convention registered); Trigger #2 gasoline −0.5% first negative, in BRT-08's predicted window (jet −2.2% confirms BRT-09 sequencing); Trigger #3 = today's 3:30 COT (post-closeout). BRT-21's all-three configuration closest ever.
+- **Path B arming — closest-ever configuration:** Trigger #1 **at 2/3** ($2.67 Jun 11, $2.40 Jun 12; completes Mon Jun 15 if <$3 holds); Trigger #2 gasoline −0.5% first negative, in BRT-08's window (jet −2.2% confirms BRT-09 sequencing); Trigger #3 **NOT re-fired** (COT Jun-2 wk MM net 90,765, +10,841 = re-accumulation on suspension gap-up — but bought at $93-96, now underwater at $87, primed for Jun 19/26 liquidation prints). BRT-21 has never been this close.
 - **Crack refresh (Jun 12): NO compression — 3-2-1 vs Brent $45.64, WIDENED into the crude selloff** (RB flat ~$130/bbl while Brent −$4.60). Distillate crack ~$60 [WTI] / ~$57 [Brent]. BRT-12's compression-warning ABSENT (util tripwire crossed via margin-boom, not squeeze). Refiner/USO +4.63% 1d = confirmed decoupling day.
 - **CPI May (printed Wed Jun 10) hot + energy-driven:** +0.5% MoM / +4.2% YoY; energy >60% of monthly increase; gasoline +40.5% YoY [CONF BLS]. Oil→CPI leg of BRT-16 empirically printing; retrace test deferred to June CPI (Tue Jul 14) — near-term hike pressure stays ON.
 
@@ -70,7 +70,8 @@
 
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
-| 🔴 Fri Jun 12 (post-closeout) | Settles + Baker Hughes 1:00 + COT 3:30 | Trigger #1 close #2 (<$3); Brent sub-$88 close #1 (XLE clock); rigs vs 457 (431 last); Trigger #3 re-fire |
+| ✅ Fri Jun 12 (captured) | Settles + Baker Hughes + COT | DONE: Trigger #1 → 2/3 ($2.40); Brent $87.20 = sub-$88 close #1 (XLE clock 1/2); rigs 433/+2; COT MM 90,765 = Trigger #3 NOT re-fired (re-accumulation, now underwater) |
+| 🔴 Mon Jun 15 | Settle = triple convergence | Trigger #1 completion (<$3) + XLE re-eval (2nd sub-$88) + HAW-09 deadline |
 | 🔴 ~Sat-Sun Jun 13-14 | Trump settlement signing window ("weekend in Europe"; CBS: LOI early next wk) | Marker ladder — (i) Iranian confirm is the discriminator |
 | 🟠 Sun Jun 15 | HAW-09 deadline | BRT-27 resolution input (price-side already met) |
 | 🔴 Mon Jun 15 | Trigger #1 completion candidate (3rd sub-$3 settle) | Path B curve signal fires for first time ever |
