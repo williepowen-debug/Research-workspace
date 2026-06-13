@@ -8,9 +8,9 @@
 
 | Date | Event | Signal Threshold | Who Cares |
 |------|-------|-----------------|-----------|
-| Today's close | **APO streak Day 4?** | Trigger fired 6/11 (3 closes >$130); watch extension. Close-basis only (OHLC rule) | LIQUID, BROCK |
+| Today's close | **APO streak Day 5?** | Day 4 in (6/12 close $133.88); watch extension. Close-basis only (OHLC rule) | LIQUID, BROCK |
 | Daily | SOFR / SOFR-IORB | SOFR >3.70 OR SOFR-IORB sustained >0 → re-open KB-LIQ-051 question (current -5bps) | LIQUID |
-| Daily | **HY OAS direction** | Widening resumed (280, 6/10); <265 trigger A still armed if re-compresses; >320 = confirmation | LIQUID |
+| Daily | **Credit tail: CCC OAS + BDC marks** | CCC >1000 (957 on 6/10) OR BDC mark cascade → credit-leg escalation. *(HY OAS macro watch RETIRED 6/13 — KB-LIQ-060)* | LIQUID, BROCK |
 | Daily | **USD/JPY post-160** | 5 sessions >160 sustained; BOJ intervention watch | LIQUID, SAM |
 | Various | **BDC Q1 wrap / gate-cluster follow-through** (Cliffwater CDLI late-June; Partners Group 2nd-PE-gate watch) | div cuts, gate caps, NAV — BROCK-led; see `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` | LIQUID, BROCK |
 
