@@ -96,7 +96,7 @@
 | **Claims w/e May 30** | **225K (+13K)** | [CONF] DOL Jun 4 / FRED | 🟢⚠️ (drift up) |
 | **Claims w/e Jun 6** | **229K (+4K)** — highest since Feb; upside miss (cons ~216-219K) | [CONF] DOL/FRED Jun 11 | 🟢⚠️ (drift, not break) |
 | Claims 4-wk MA | **219.0K** (was 214.75K; 3rd straight ↑: 208.25→214.75→219.0) | [CONF] FRED Jun 11 | 🟢⚠️ |
-| Continuing Claims (w/e May 30) | **1,795K (+24K)** — above prior 1,771-1,785K range | [CONF] FRED Jun 11 | 🟢⚠️ |
+| Continuing Claims (w/e May 30) | **1,795K** — +24K WoW vs revised 1,771K (w/e May 23 rev down from STATUS's 1,777K); above 1,771-1,785K range | [CONF] FRED Jun 11 | 🟢⚠️ |
 | Insured UR | 1.2% steady | [CONF] DOL May | 🟢 |
 | Claims w/e Jun 13 | PENDING — Thu Jun 18 | — | ⏳ |
 | **JOLTS Openings Apr** | **7.6M (24-mo high)** vs cons 6.8M | [CONF] BLS Jun 2 — **+700K MoM is largest in 24+ mo; counter-trend (was declining 4 of 5 mo); composition odd (openings ↑↑, hires ↓, quits ↓); watch JOLTS May for revision** | 🔴 (anomaly) |
@@ -227,7 +227,7 @@
 **Read this first if booting fresh:** STATUS refreshed Jun 8 with the full Jun 3-6 catalyst stack. The bifurcation tilted toward HARD DATA: NFP May +172K beat (~80-85K cons) PLUS +93K upward revisions (Apr 115K→179K). U-3 4.3% flat. The bearish "frozen weak realization" leg weakened — hard data is revising UP, not hiding softness. Announcement layer worse but now AI-concentrated: Challenger 97,006 (highest May since '20), AI-cited 40% record. Claims drift continues (225K, 4-wk MA 214.75K). **Read: Hotel California persists in STRUCTURE; realization-weakness thesis on the back foot. Watch the upward-revision pattern — it's the live threat (Kill A: Mar revised to 214K crosses 200K).**
 
 **Catalyst stack next reads:**
-1. ✅ **Thu Jun 11 RESOLVED:** Claims w/e Jun 6 = **229K** (highest since Feb, upside miss vs ~216-219K cons), 4-wk MA **219K** (3rd straight ↑), CC 1,795K (+24K). Read: drift CONTINUING, not accelerating — single +4K tick on a noisy weekly series (summer-break seasonality flagged by DOL); still 21K < 250K trigger. Claims vector held at 2 🟡; the >225K CATALYSTS tripwire was retired (miscalibrated vs TRADE.md banding). **Next claims: Thu Jun 18 (w/e Jun 13)** — 230-250K = accelerating; >250K = T-01/CARL/REGINALD 🔴.
+1. ✅ **Thu Jun 11 RESOLVED:** Claims w/e Jun 6 = **229K** (highest since Feb, upside miss vs ~216-219K cons), 4-wk MA **219K** (3rd straight ↑), CC 1,795K (+24K). Read: drift CONTINUING, not accelerating — single +4K tick on a noisy weekly series (consistent with summer seasonal factors; the retirement logic stands on ±10-15K weekly noise + 21K below the 250K trigger regardless). Claims vector held at 2 🟡; the >225K CATALYSTS tripwire was retired (miscalibrated vs TRADE.md banding). **Next claims: Thu Jun 18 (w/e Jun 13)** — 230-250K = accelerating; >250K = T-01/CARL/REGINALD 🔴.
 2. **Mon Jun 23:** BLS State Emp May — FL May UR (was 4.8%, 4th consecutive ↑). Track trajectory.
 3. **Tue Jun 30:** JOLTS May — LAB-16 resolution (does hire-rate collapse persist, or did Apr openings 7.6M revise down?).
 4. **Thu Jul 2:** NFP June + U-3 — LAB-02 effective resolution; 2nd consecutive ≥200K check for Kill A (Mar rev 214K = #1).
@@ -244,7 +244,7 @@
 - **File-tree audit remaining (deferred per Will Jun 9):** Phase C (root `INBOX.md`/`OUTBOX.md` retire + recon/SELF_AUDIT → `archive/` + remove empty `recon/`) — planned and gated; Will chose to leave-be for now. Phase D (consolidate root `sources/` → `domain/sources/frameworks/`). Then workbook C3 backfill.
 
 **Data gaps / deferred (next session):**
-- **Workbook sync (C3) deferred:** VX.tsv / KB.tsv / FLOW.tsv still reflect pre-Jun-8 state — Jun 3-6 prints + Jun 8 rescore captured in STATUS but not yet logged to ledgers (session was infra-focused). First real backfill under the new C3 step.
+- **Workbook sync (C3) — PARTIAL Jun 14, still mostly owed:** Audit found the ledgers are deeper-stale than "pre-Jun-8" — VX claims rows were dated **Mar 9** (213K initial / 1.868M CC, with dead DHS-shutdown caveats); FLOW shows "Claims 209K / NFP +50K (Dec)." Jun 14: **refreshed the two load-bearing claims rows** (VX-LAB-1.01 → 229K, 1.02 → 1.795M, FRED-verified). **Still owed:** VX NFP/U-3/JOLTS/sector/DOGE rows (span Mar–Jun staleness), all of KB.tsv (Jun 3-6 prints + Jun 8 rescore unlogged), and FLOW.tsv trigger-position values. Do NOT read non-claims ledger rows as current — they carry their own (mostly Mar–May) "Last Updated" dates. Next session: full C3 backfill against STATUS dashboard as source of truth.
 - Temp Help Svcs May (TEMPHELPS FRED 2,490.0 May vs 2,488.6 Apr ≈ +1.4K — confirm vs BLS CES B-1; gain rate slowing)
 - Re-verify next session: carried convergence vectors (4 Hormuz / 6 LT-unemp / 11 staffing / 12 H-2A / 13 ICE / 14 duration) + sister-agent STATUS (HENRY/MARCO/FORGE), all un-refreshed this session
 - **Cross-agent signals not yet sent:** NFP-beat + AI-displacement-record → CARL/PROME — deferred (messaging degraded; not session scope)
