@@ -1,5 +1,5 @@
 # LABOR STATUS
-**Last Updated:** 2026-06-08 ~14:00 EDT (post-NFP-May refresh: Jun 3-6 catalyst stack resolved — NFP May beat + big upward revisions; Challenger AI-cited record; LAB-15 falsified)
+**Last Updated:** 2026-06-14 ~13:00 EDT (Jun 11 claims print integrated: w/e Jun 6 = **229K**, highest since Feb, 4-wk MA → **219K** 3rd straight ↑; read as drift-continuing not accelerating; threshold framing reconciled CATALYSTS↔TRADE). Prior refresh Jun 8 (NFP May beat + upward revisions; Challenger AI-cited record; LAB-15 falsified).
 **Status:** 🟡 BIFURCATION TILTED TO HARD DATA — NFP May **+172K** (BEAT cons ~80-85K) plus **+93K upward revisions** (Apr 115K→179K, Mar 185K→214K); U-3 4.3% flat. Realization-weakness leg WEAKENED (data revising UP, not hidden-soft). Announcement layer at cycle records: Challenger May **97,006** (highest May since 2020), **AI-cited 40%** (record, 1st time leading all reasons), tech 38,242 (highest since Aug '24). Claims drift continues 225K (4-wk MA 214.75K). Internals still split: ISM Svs employment 47.9 (3rd mo contracting), financial activities -22K. **Hotel California persists in STRUCTURE; realization-weakness thesis on back foot.**
 
 ---
@@ -31,7 +31,7 @@
 | NFP April (revised) | 115K → **179K** | ⬆️ revised UP (not hidden-soft) |
 | JOLTS April openings | 7.6M (24-mo high) | ⬆️ but with hires DROPPING |
 | JOLTS April hires/quits | 5.1M / 3.0M (both down) | ⬇️ HIRING FROZEN |
-| Claims drift | →225K w/e May 30, 4-wk MA 209→214.75 | ⬇️ MILD drift continuing (not breaking) |
+| Claims drift | →**229K** w/e Jun 6 (highest since Feb), 4-wk MA 219K (3rd straight ↑) | ⬇️ MILD drift continuing (still no break; 21K < 250K trig) |
 | Challenger May / AI-cited | 97,006 (highest May since '20); AI 40% RECORD | ⬇️ ANNOUNCEMENTS WORSE (AI-concentrated) |
 | FL UR (4.8%, +1.1pp YoY) | 4th consecutive monthly ↑ | ⬇️ STATE DIVERGENCE |
 | KELYA Q1 -10.7%, LOSS | Small/mid staffing cracking | ⬇️ TIER DISAGGREGATION |
@@ -48,7 +48,7 @@
 |---|--------|-------|------|------------|
 | 1 | WARN pipeline | **5** 🔴🔴 | flat* | 207,650 cum (Jun 1; not refreshed Jun 8) |
 | 2 | DOGE / federal | **2** 🟡 | ↓ | Federal NFP **+1K** (was -9K Apr); Challenger DOGE May 4,499 (YTD -94% YoY). Pace collapsed, federal turning — bearish vector fading. |
-| 3 | Claims / shadow gap | **2** 🟡 | flat | Drift 225K, 4-wk MA 214.75K (real) BUT +93K upward revisions kill the "hidden softness" shadow framing |
+| 3 | Claims / shadow gap | **2** 🟡 | flat | Drift **229K** w/e Jun 6 (highest since Feb), 4-wk MA **219K** (3rd straight ↑). NOT upgraded off single +4K tick (weekly noise + summer seasonality; 229K = "no new info" per TRADE banding). +93K upward revisions still kill "hidden softness" framing. |
 | 4 | Hormuz hiring freeze | **4** 🔴 | flat* | [CONF BRENT 6/1] carried; direct labor-transmission not re-verified Jun 8 |
 | 5 | Sector cuts | **5** 🔴🔴 | flat | Challenger 97K (highest May since '20); Spirit/Meta/MSFT priced. Now AI-driven (→ v17) |
 | 6 | Long-term unemployed | **3** 🟠 | flat* | 1.8M Apr (25.3%); May not pulled |
@@ -94,10 +94,11 @@
 | Claims (Apr 25–May 16 prints) | 189→200→211→209K | archived 20260602 | 🟢 |
 | Claims w/e May 23 | 212K (rev from 215K) | [CONF] FRED Jun | 🟢 |
 | **Claims w/e May 30** | **225K (+13K)** | [CONF] DOL Jun 4 / FRED | 🟢⚠️ (drift up) |
-| Claims 4-wk MA | **214.75K** (was 209K) | [CONF] FRED Jun 4 | 🟢⚠️ |
-| Continuing Claims (w/e May 23) | 1,777K (range 1,771-1,785K) | [CONF] FRED | 🟢 |
+| **Claims w/e Jun 6** | **229K (+4K)** — highest since Feb; upside miss (cons ~216-219K) | [CONF] DOL/FRED Jun 11 | 🟢⚠️ (drift, not break) |
+| Claims 4-wk MA | **219.0K** (was 214.75K; 3rd straight ↑: 208.25→214.75→219.0) | [CONF] FRED Jun 11 | 🟢⚠️ |
+| Continuing Claims (w/e May 30) | **1,795K (+24K)** — above prior 1,771-1,785K range | [CONF] FRED Jun 11 | 🟢⚠️ |
 | Insured UR | 1.2% steady | [CONF] DOL May | 🟢 |
-| Claims w/e Jun 6 | PENDING — Thu Jun 11 | — | ⏳ |
+| Claims w/e Jun 13 | PENDING — Thu Jun 18 | — | ⏳ |
 | **JOLTS Openings Apr** | **7.6M (24-mo high)** vs cons 6.8M | [CONF] BLS Jun 2 — **+700K MoM is largest in 24+ mo; counter-trend (was declining 4 of 5 mo); composition odd (openings ↑↑, hires ↓, quits ↓); watch JOLTS May for revision** | 🔴 (anomaly) |
 | **JOLTS Hires Apr** | **5.1M** (down from 5.6M) | [CONF] BLS Jun 2 | 🔴 |
 | **JOLTS Quits Apr** | 3.0M (down from 3.2M) | [CONF] BLS Jun 2 | 🔴 |
@@ -170,7 +171,7 @@
 |---|---|---|---|
 | LAB-01 | Temp YoY <-6% Q1 | 85% → ❌ | ❌ **FALSIFIED Jun 2** — BLS CES Temp Help Svcs +9.1K/+4.4K/+7.9K Jan/Mar/Apr; ASA index +4.9% YoY Apr 19. Industry EXPANDING. Company-tier reads (KELYA/RHI down) ≠ industry employment. |
 | LAB-02 | U-3 ≥4.7% Q2 | 50% → **10%** | STRONG DOWNGRADE — May 4.3% flat (5th straight 4.3-4.4%). Only June left in Q2; requires +0.4pp single-print = near-dead. Effective MISS pending Jul 2 June NFP. |
-| LAB-03 | Claims >250K | 65% → **25%** | STRONG DOWNGRADE — drift 200-215K; 4-wk MA 209K. No break visible. |
+| LAB-03 | Claims >250K | 65% → **25%** | HOLD 25% — drift extended to 229K (highest since Feb), 4-wk MA 219K (3rd straight ↑), but still 21K below trigger. Mild reaccel is weak evidence; no break visible. (Rationale refreshed Jun 14; was "drift 200-215K, 4-wk MA 209K".) |
 | LAB-09 | Shadow payroll gap closes | — | ✅ CONFIRMED Mar |
 | LAB-12 | U-3 ≥5.0% Q3-Q4 | 60% → **55%** | Holding. NFIB still r=0.83. |
 | LAB-13 | Healthcare turns net-negative by July NFP | 55% → **30%** | TRIMMED — aggregate +37K stays carried by nursing+home health (+15K, +11K). Hospital tier IS contracting (Bradford CLOSURE, Asante 300, Laurel Ridge 648) but post-acute carry likely keeps aggregate ≥0 through July. Re-frame: "hospital-tier" net-negative more probable than aggregate net-negative. |
@@ -207,7 +208,8 @@
 | ✅ Jun 4 | Claims w/e May 30 = 225K | Drift above 215K confirmed; 4-wk MA 214.75K |
 | ✅ Jun 5 | Challenger May 97,006; AI 40% record | Highest May since '20; AI 1st time leading |
 | ✅ Jun 6 | **NFP May +172K; U-3 4.3%; +93K revisions** | Hard data strengthened; LAB-15 ❌ falsified |
-| **Jun 11** | **Claims w/e Jun 6** | Watch >225K = drift accelerating |
+| ✅ Jun 11 | **Claims w/e Jun 6 = 229K** (highest since Feb); 4-wk MA 219K; CC 1,795K | Drift CONTINUING, not accelerating (229K in "no new info" band); Claims vector held at 2 🟡 |
+| Jun 18 | Claims w/e Jun 13 | >250K = T-01/CARL/REGINALD 🔴; 230-250K = accelerating; <230K = drift continuing |
 | Jun 23 | BLS State Emp May (FL May UR) | Track FL trajectory |
 | **Jun 30** | **JOLTS May** | LAB-16 resolution (was mis-dated "early Jul") |
 | Jul 1 | ADP + ISM Mfg + Challenger June | Triple release |
@@ -225,7 +227,7 @@
 **Read this first if booting fresh:** STATUS refreshed Jun 8 with the full Jun 3-6 catalyst stack. The bifurcation tilted toward HARD DATA: NFP May +172K beat (~80-85K cons) PLUS +93K upward revisions (Apr 115K→179K). U-3 4.3% flat. The bearish "frozen weak realization" leg weakened — hard data is revising UP, not hiding softness. Announcement layer worse but now AI-concentrated: Challenger 97,006 (highest May since '20), AI-cited 40% record. Claims drift continues (225K, 4-wk MA 214.75K). **Read: Hotel California persists in STRUCTURE; realization-weakness thesis on the back foot. Watch the upward-revision pattern — it's the live threat (Kill A: Mar revised to 214K crosses 200K).**
 
 **Catalyst stack next reads:**
-1. **Thu Jun 11:** Claims w/e Jun 6. >225K = drift accelerating → upgrade Claims/shadow vector; back to 210-215 = drift stalling.
+1. ✅ **Thu Jun 11 RESOLVED:** Claims w/e Jun 6 = **229K** (highest since Feb, upside miss vs ~216-219K cons), 4-wk MA **219K** (3rd straight ↑), CC 1,795K (+24K). Read: drift CONTINUING, not accelerating — single +4K tick on a noisy weekly series (summer-break seasonality flagged by DOL); still 21K < 250K trigger. Claims vector held at 2 🟡; the >225K CATALYSTS tripwire was retired (miscalibrated vs TRADE.md banding). **Next claims: Thu Jun 18 (w/e Jun 13)** — 230-250K = accelerating; >250K = T-01/CARL/REGINALD 🔴.
 2. **Mon Jun 23:** BLS State Emp May — FL May UR (was 4.8%, 4th consecutive ↑). Track trajectory.
 3. **Tue Jun 30:** JOLTS May — LAB-16 resolution (does hire-rate collapse persist, or did Apr openings 7.6M revise down?).
 4. **Thu Jul 2:** NFP June + U-3 — LAB-02 effective resolution; 2nd consecutive ≥200K check for Kill A (Mar rev 214K = #1).
@@ -253,4 +255,6 @@
 
 The bifurcation tilted toward **hard data** this print. NFP May **+172K** crushed the ~80-85K consensus, and — more important — March/April were revised **up by a net +93K** (April from +115K to **+179K**). U-3 held 4.3% for a 5th straight month. The bearish "frozen weak realization layer" read took a real hit: the hard data isn't hiding softness, it's revising *stronger*. The 10Y jumped above 4.53% as markets priced out near-term Fed cuts. **But the announcement layer hit cycle records and changed character:** Challenger May 97,006 (highest May since 2020), with **AI cited in 40% of cuts — an all-time record and the first time AI led all reasons.** Tech cuts (38,242) were the worst since Aug 2024. So the fear is real but increasingly *AI-displacement-driven*, not broad macro weakness. Claims keep drifting (225K w/e May 30, 4-wk MA 214.75K) but remain far below the 250K trigger; ISM Services employment contracted a 3rd straight month (47.9) even as the headline expanded. **Net: Hotel California persists in STRUCTURE (hiring frozen, AI displacement accelerating), but the realization-weakness thesis is on the back foot.** The live threat to the bearish view is the upward-revision pattern — Kill A now has March (revised 214K) above the 200K line; two more ≥200K prints (June Jul 2, July) would trigger. **LAB-15 ❌ FALSIFIED** (NFP <100K → +172K). **LAB-02 downgraded to 10%** (U-3 ≥4.7% Q2 near-dead — only June left). Next read: claims Jun 11, then JOLTS May + NFP June in early July.
 
-*Prior STATUS: May 4 → `domain/sources/STATUS_archive_20260504.md`; Jun 2 → `…_20260602.md`. Next refresh: claims Jun 11 or NFP Jun (Jul 2). Deferred: workbook VX/KB/FLOW sync (C3).*
+**Jun 14 update (claims integration):** w/e Jun 6 claims **229K** (highest since Feb, slight upside miss), 4-wk MA **219K** (3rd straight ↑), CC 1,795K. This *mildly* re-firms the drift leg NFP-May had knocked back — but it's a grind, not a break: still 21K below the 250K trigger, partly seasonal, no cross-agent threshold fired, no KELYA re-arm. Thesis direction unchanged from Jun 8 (Hotel California in structure; realization-weakness on the back foot, nudged a hair back toward neutral). Threshold framing reconciled CATALYSTS↔TRADE (retired the >225K tripwire). Next: claims Jun 18, then JOLTS May (Jun 30, LAB-16) + NFP June (Jul 2, LAB-02/Kill A #2).
+
+*Prior STATUS: May 4 → `domain/sources/STATUS_archive_20260504.md`; Jun 2 → `…_20260602.md`. Next refresh: claims Jun 18 or NFP Jun (Jul 2). Deferred: workbook VX/KB/FLOW sync (C3).*
