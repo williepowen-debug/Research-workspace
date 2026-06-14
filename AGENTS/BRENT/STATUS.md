@@ -1,13 +1,13 @@
 # BRENT STATUS
 
-**Last Updated:** 2026-06-12 Fri ~16:00 ET (CLOSEOUT — session ran AM catch-up sweep through afternoon prints; BH/COT/settles all captured. **Next boot owes: (1) THESIS v3.1 bump — criterion MET, pending Will go; (2) Monday Jun 15 double-trigger watch — Trigger #1 completion + XLE re-eval + HAW-09 deadline all converge on one settle; (3) HAWK spawn decision; (4) CARL outbox hand-route** — see SCRATCH FIRST MOVES. Session captured: SPR drain-through, dawn #5 + marker ladder, Trigger #1 → 2/3, crack refresh (no compression), CF phantom-mark corrective, CARL correction outbox, BH 433/+2, COT 90,765 (Trigger #3 NOT re-fired), Fri settle Brent $87.20.)
+**Last Updated:** 2026-06-13 Sat (partial — Jun 13 session resolved 3 items; prices still Jun-12 settle [markets closed Sat], full dashboard refresh deferred to next closeout) | prior 2026-06-12 Fri ~16:00 ET (CLOSEOUT — session ran AM catch-up sweep through afternoon prints; BH/COT/settles all captured. **Jun 13 DONE: ✅ BRT-27 RESOLVED CONFIRMED (HAW-09 confirmed); ✅ THESIS bumped v3.0→v3.1; ✅ CARL correction routed. Next boot owes: (1) Monday Jun 15 double-trigger watch — Trigger #1 completion + XLE re-eval converge on one settle; (2) weekend signing-window / marker ladder** — see SCRATCH FIRST MOVES. Session captured: SPR drain-through, dawn #5 + marker ladder, Trigger #1 → 2/3, crack refresh (no compression), CF phantom-mark corrective, CARL correction outbox, BH 433/+2, COT 90,765 (Trigger #3 NOT re-fired), Fri settle Brent $87.20.)
 **Overall Status:** 🟠 **PHASE 1: SHARPEST PHYSICAL/PRICE DIVERGENCE OF THE CYCLE** — physical leg INTENSIFYING (SPR **349.192M, drained THROUGH the ~350M floor**, −7.927M, no throttle; total crude **−15.155M** 2nd consecutive ~15M week; commercial 426.485M −7.228M; util **95.3%** first cross of the Apr-16-registered 95% crack-squeeze tripwire) while the tape prices the de-escalation arc ($88-handle, −$6.5 from Jun 8). [CONF EIA Jun 10] / 🔴 **Trump settlement announcement Jun 11 PM = DAWN #5 — BRT-07 timer COLD.** 60-day ceasefire ext + Hormuz-reopens-on-signing + 15-20d negotiation window; same MOU architecture as the May 24-29 track. **Iran has NOT confirmed**; US downed 2 Iranian drones near Hormuz Jun 12 AM after Iranian fire on a transiting vessel [CONF RFE/RL+CBS Jun 11-12]. Marker ladder registered below. / 🟠 **Path B arming — closest-ever configuration:** Trigger #1 **at 2/3** (M1−M3 $2.67 Jun 11, $2.40 Jun 12; **completes Mon Jun 15 if <$3**); Trigger #2 gasoline 4-wk YoY **−0.5% first negative of cycle** (clean post-MD read, sign-flipped); Trigger #3 **NOT re-fired** (COT Jun-2 wk MM net 90,765 +10,841 = re-accumulation on suspension gap-up; that length now underwater at $87, primed for Jun 19/26 prints). / 🟢 **BRT-27 RESOLVED CONFIRMED (Jun 13)** — HAWK adjudicated HAW-09 CONFIRMED; confirm-branch hit (Brent <$92 + Iran re-engagement). Read as *channel-resumed, not deal-done* (HAWK B-Reopen 32%, bar still = verified reopening). HAWK book now current; no spawn needed. / 🟠 CPI May (Wed Jun 10) hot + energy-driven: +0.5% MoM / +4.2% YoY, energy >60% of monthly increase, gasoline +40.5% YoY — oil→CPI leg of BRT-16 empirically printing; retrace test deferred to June CPI (Jul 14).
 
-**🟠 LIVE TODOs:** ✅ BH (433 +2); ✅ COT (Trigger #3 NOT re-fired — re-accumulation; live test Jun 19); ✅ Fri settles (**Trigger #1 → 2/3** at $2.40; **Brent $87.20 = sub-$88 close #1, XLE clock 1/2**); 🔴 **MONDAY DOUBLE-TRIGGER WATCH: Jun 15 settle completes Trigger #1 (<$3) AND XLE re-eval (<$88) simultaneously if the tape holds**; ✅ BRT-27 RESOLVED CONFIRMED (HAW-09 CONFIRMED Jun 13; no spawn needed); 🔴 CARL outbox hand-route; 🟠 weekend signing-window / marker ladder; 🔴 **v3.1 bump — pre-registered criterion (Trigger #1 ≥2/3) NOW MET, execute on Will's go**; 🟡 MOMR skim.
+**🟠 LIVE TODOs:** ✅ BH (433 +2); ✅ COT (Trigger #3 NOT re-fired — re-accumulation; live test Jun 19); ✅ Fri settles (**Trigger #1 → 2/3** at $2.40; **Brent $87.20 = sub-$88 close #1, XLE clock 1/2**); 🔴 **MONDAY DOUBLE-TRIGGER WATCH: Jun 15 settle completes Trigger #1 (<$3) AND XLE re-eval (<$88) simultaneously if the tape holds**; ✅ BRT-27 RESOLVED CONFIRMED (HAW-09 CONFIRMED Jun 13; no spawn needed); ✅ CARL correction routed (Jun 13, to CARL inbox); 🟠 weekend signing-window / marker ladder; ✅ **THESIS v3.1 bumped (Jun 13)**; 🟡 MOMR skim.
 
 ---
 
-## 🔵 INFRASTRUCTURE (collapsed — see `thesis/THESIS.md` v3.0 + `demand_destruction/TRACKER.md` + `workbook/FLOW.tsv`)
+## 🔵 INFRASTRUCTURE (collapsed — see `thesis/THESIS.md` v3.1 + `demand_destruction/TRACKER.md` + `workbook/FLOW.tsv`)
 
 Messaging-overhaul direction in effect. `demand_destruction/TRACKER.md` is the operational dashboard. `docket/CATALYSTS.tsv` is canonical forward-state (FASTOW). EIA synthesis files: `demand_destruction/data/eia_YYYY-MM-DD.md` (latest: **eia_2026-06-10.md** — SPR drain-through print).
 
@@ -130,7 +130,7 @@ Messaging-overhaul direction in effect. `demand_destruction/TRACKER.md` is the o
 
 ---
 
-## TWO-PHASE THESIS (v3.0; v3.1 decision at closeout today)
+## TWO-PHASE THESIS (v3.1 — bumped Jun 13; see thesis/THESIS.md + CHANGELOG)
 
 ### Phase 1 — physical leg INTENSIFYING, pricing channel DETACHED
 - **Physical:** SPR through floor (drain-through), −15M/wk total draws ×2, util >95%, Cushing floor ~Jul 1, Hormuz trickle + live kinetic. Most intense aggregate tightening of the cycle.
@@ -173,7 +173,7 @@ Does dawn #5 harden (ladder item i = Iranian confirm) before Path B Trigger #1 c
 2. 🔴 **Baker Hughes 1:00 PM** (BRT-26) + **COT 3:30 PM** (Trigger #3 re-fire test). Gate closeout.
 3. ✅ **BRT-27 RESOLVED CONFIRMED (Jun 13)** — HAW-09 adjudicated CONFIRMED by HAWK; no spawn needed; resolved ahead of Jun 17 deadline. (Now-watch: B's *verified-reopening* bar, not the announcement leg.)
 4. 🔴 **Dawn #5 ladder watch through weekend** — (i) Iranian confirm is the discriminator; signing window "this weekend in Europe" / LOI early next week.
-5. 🟠 **THESIS v3.1 bump decision at closeout** — evidence batch complete except today's prints.
+5. ✅ **THESIS v3.1 bumped (Jun 13)** — divergence-max frame; Phase 2 arming on both axes; oil→CPI printing; BRT-27 folded in. See thesis/THESIS.md + CHANGELOG.
 6. 🟠 **Crack-compression watch (BRT-12)** — refresh done Jun 12 (no compression; widened). The lag between crude-down and products-down IS the channel's early-warning clock; re-check at each EIA Wednesday.
 7. 🟠 **XLE re-eval** per restated condition (signed MOU OR 2 consecutive sub-$88 closes).
 8. 🟡 **CF $130C** — ride to expiry Thu Jun 18 (zero bid; nothing to decide).
