@@ -1,79 +1,58 @@
-# BRENT SCRATCH — Sat Jun 13, 2026 (boot-for-report → full work session; 7 commits, push deferred)
+# BRENT SCRATCH — Sun Jun 14, 2026 (stale-data sweep + full workbook demotion; Orc 2-round cross-check; 4 commits pushed)
 
-**Purpose:** Ephemeral session handoff — the canonical "where are we / what next" file. Read at boot (SPAWN PROTOCOL step 2), rewritten in full at closeout (step 11). Disposable: rewritten every session. Persistent learnings → `MEMORY.md` + auto-memory; dated forward catalysts → `docket/CATALYSTS.tsv` (FASTOW); cross-agent synthesis → `NEXUS_BRIEF.md`.
+**Purpose:** Ephemeral session handoff — canonical "where are we / what next." Read at boot (SPAWN PROTOCOL step 2), rewritten in full at closeout (step 11). Disposable.
 
-**Session arc:** Booted Saturday (markets closed) for a state-of-domain report. It turned into a full work session driven by Will + the Orc cross-session loop: resolved BRT-27, bumped THESIS to v3.1, corrected+routed a wrong CARL outbox, escalated a real routing bug, processed two HAWK signals, and ran an Orc-adversarial cleanup pass. **This SCRATCH supersedes the Jun-12 boot version entirely.**
+**Session arc:** Booted Sunday (markets closed) for a stale-data sweep; became a full workbook-triage session with Orc adversarial cross-check. Refreshed the stale TRACKER + STATUS, then **demoted all three dormant workbooks (KB/VX/FLOW) to archival**, corrected a load-bearing SPR error (KB-011), and **surfaced a live-positioning thesis bug — the "350M operational floor" — now queued for fix pending Orc's §6241 cite.** Supersedes the Jun-13 SCRATCH.
 
 ---
 
 ## ⚡ NEXT BOOT FIRST MOVES
-1. **🔴 MONDAY JUN 15 (it's a MONDAY) CONVERGENCE SETTLE** — one settle resolves two things if tape holds: (a) Trigger #1 completes (3rd consecutive M1−M3 <$3; Fri $2.40, Thu $2.67); (b) XLE re-eval fires (2nd consecutive sub-$88 Brent close; Fri #1 at $87.20). Pull Mon settles first thing. [HAW-09 already resolved — no longer a third leg.]
-2. **🟠 Weekend signing-window watch (Jun 13-14)** — ladder item (i) HARD-COUNTERED Jun 13 (Iran refused Sunday timeline, called Trump ceasefire "false and baseless"). Watch for any *named-Iranian-confirm* reversal; absent that, dawn #5 is fading like the four priors. Iran-Oman Hormuz-mgmt = reopen-quality wedge.
-3. **🟠 XLE $65C re-eval** — clock at 1/2 (sub-$88 close #1 = Jun 12). Monday settle could complete the pair → re-eval fires per restated condition.
+1. 🔴 **350M-FLOOR THESIS FIX (PRIORITY-1)** — pending Orc's exact EPCA **§6241** statutory floors. STATUS/THESIS/TRACKER all say SPR "drained THROUGH the ~350M operational floor" — that 350M is almost certainly the **2023 trough (~347M) mis-cited as an operational floor**; real floors far lower (~150M statutory / ~252M non-emergency, exact pending). **Impact:** at 349M there are MONTHS of runway, so the "finite backstop / medium-term bullish" leg is NOT imminent and the near-term "marginal supply stays in market" bearish branch runs longer. Fix all 3 docs (incl. the TRACKER header **I** propagated it into this session) once Orc posts the cite.
+2. 🔴 **Mon Jun 15 (MONDAY) convergence settle** (carried) — pull Mon settles first thing: Trigger #1 completion (3rd consecutive M1−M3 <$3; Fri $2.40 / Thu $2.67) + XLE re-eval (2nd consecutive sub-$88 Brent close; Fri #1 $87.20). [HAW-09/BRT-27 already resolved Jun 13.]
+3. 🟠 **Wed Jun 17 EIA WPSR** (wk Jun 12) — gasoline datapoint #2 (deepening toward −5%? Trigger #2 clock) + SPR sub-floor path + IEA OMR (June).
 
-## CHANGES SINCE LAST SESSION (Jun 12 ~16:00 → Jun 13)
-- **🟢 HAW-09 adjudicated CONFIRMED (Jun 13)** — HAWK re-marked Jun 12 22:13 (no longer stale); HAW-09 = return-to-channel confirmed (Iran re-engaged Pakistan/Qatar + Sharif "final text"). Unblocked BRT-27. Read channel-resumed, NOT deal-done (HAWK B-Reopen 32%, bar = verified reopening).
-- **🔴 My Jun 8-11 kinetic record was running TOO COLD** — externally-real escalation (US strikes inside Iran Jun 9-11, Apache downed over Hormuz Jun 8, IRGC on US bases incl Jordan) that my sweeps missed because WALTER BOARD signals SIG-W-20260610-001/-002 never reached my inbox. Verified via primary (CNN/NBC/CENTCOM/CNBC/Al Jazeera) + HAWK. Record warmed.
-- **🟠 Dawn-#5 ladder HARD COUNTER (Jun 13)** — Iran refused Sunday signing timeline + "false and baseless"; Hormuz "future management" punted to bilateral Iran-Oman (tolls-wedge two-sided).
-- **🟠 Bab al-Mandab kinetic in Gulf of Aden** — 2 vessels struck Jun 8-9 (Settebello, 1 dead, MARAD 2026-006); strait-proper quiet (locus discipline; HAW-10 OPEN). My convergence Bab vector 2→3.
-- **LIQUID refreshed** HY Energy OAS Brent note Jun 13 (87.95→87.33 close); no other agent moves affecting BRENT.
+## CHANGES SINCE LAST SESSION (Jun 13 → Jun 14)
+- **Markets CLOSED Sat/Sun — no tape moves.** Boot.py Sun: Brent futures $87.33 / WTI $84.88 / USO $125.43 (= Friday Jun-12 closes; consistent w/ STATUS settles).
+- **Other agents committed + swept to origin while I worked:** VIOLET 6/14 closeout (`7029fdf7`, STATUS/NEXUS_BRIEF/VIX_THESIS now current on origin), CARL 6/14 closeout (`4bdf816a`), LABOR 6/14 (`a26097d2`/`3a4b37a2`), auto-mem LABOR (`16291f03`).
+- No kinetic/diplomatic delta processed this session (the sweep was data-hygiene, not news).
 
 ## WHAT I DID THIS SESSION
-- **Resolved BRT-27 → CONFIRMED** (confirm-branch: Brent <$92 + HAW-09 confirmed). Honest grading logged: price LED the formal confirm (mechanism✓, temporal ordering loose). PREDICTIONS.tsv resolved+condensed; full history → PREDICTIONS_ARCHIVE.md#BRT-27; CHANGELOG Jun-13 entry; STATUS refs swept.
-- **Bumped THESIS v3.0 → v3.1** (minor refinement, no conviction reversal): MAXIMAL PHYSICAL/PRICE DIVERGENCE central frame; Phase 2 arming on BOTH axes; oil→CPI printing; decoupling hardened to regime (FLOW-HAWK-19); risk-probs re-aligned to HAWK B32/C42/D26. CHANGELOG entry + STATUS version refs.
-- **Revised + routed CARL oil-panel correction** — original draft wrongly dinged CARL's (correct) kinetic premise; inverted to price-only correction, re-sourced kinetic to PRIMARY, added mirror-lesson (kinetic-real ≠ price-up). Routed to CARL/inbox + delivered/.
-- **Escalated WALTER/PROME routing bug** — SIG-001/002 asymmetric delivery (reached HAWK, not me); root-cause fix ask + fleet-vs-BRENT-only audit. Routed to WALTER+PROME inboxes.
-- **Processed 2 HAWK inbox signals** — HAW-09-CONFIRMED (→BRT-27) and dawn5-ladder-counter+babmandab (→ladder items i/ii downgraded, Bab 2→3). No replies (integration only).
-- **Orc-loop adversarial cleanup** — date sweep (Jun 15 = MONDAY; 8 lines not Orc's stale-counted 12) + stale-spawn/book-stale purge across STATUS/SCRATCH/NEXUS_BRIEF/CATALYSTS; dropped Orc's garbled transit number (kept HAWK UKMTO 1.1/day clean-provenance).
-- **Auto-memory:** wrote `feedback_check_domain_owner_before_messaging`; amended it with Orc's external-primary refinement (no separate instance-finding). NEXUS_BRIEF → rev-8/v3.1.
+- **Stale-data sweep (`0efa6930`, pushed):** refreshed `demand_destruction/TRACKER.md` live sections (header + PATH B trigger table + verdict + Tier-1/2 dashboard + Jun-10 EIA log cell) — body was Apr/May-era while header read Jun 12. STATUS: removed stale HY-OAS dashboard row (LIQUID/VIOLET/HENRY own credit; BRENT's channel = crack-compression BRT-12); updated stale Jun-12 8:43AM intraday marks → Fri closes (WTI $84.88, USO $125.43); cleaned energy-credit convergence-vector note.
+- **Workbook demotion — all 3 ledgers frozen (Orc 2-round adversarial cross-check):**
+  - **KB.tsv (`0d568609`, pushed):** archival header (frozen Mar–Jun acute-war corpus; default disposition declared). **KB-011 SPR CORRECTED** ("~350M historic lows" was the 2023 trough mis-dated; real 2026 SPR ~413M→349M [CONF EIA], anchored on EIA NOT the D-3 KB-090 — **caught my own miscitation of a D-3 row as A-1 in the cross-check**). 6 D-3 LLM-generated rows (KB-089–094) → new **UNVERIFIED-RETIRED** status.
+  - **VX.tsv (`9729c81a`, pushed):** lean demote (no triage — taxonomy superseded by STATUS convergence matrix); header points to that as live successor; verified zero live consumers.
+  - **FLOW.tsv (`c87c00ac`, pushed):** demote; **FLOW-BRT-30 (8-threshold WALTER auto-dispatch contract) RETIRED** — verified dead WALTER-side (WALTER Jun-10 STATUS: BRENT "dormant-structural, no BOARD-intake, LIAISON-era backfill"; 0 dispatches ever; venue in CLOSED/). Rows 26–29 are transmission records (NOT contracts), mirrored live in CLAUDE.md → froze as historical, nothing stranded.
+- **Surfaced (not yet fixed): the 350M-floor thesis bug** — see FIRST MOVES #1. Queued.
+- **Auto-memory (uncommitted, pending sweep):** wrote `finding_workbook_demote_by_verification` (memory/auto/).
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **Mon Jun 15** — convergence settle (see FIRST MOVES #1). Pull settles, grade Trigger #1 + XLE re-eval.
-2. **Sat-Sun Jun 13-14** — signing-window / ladder item (i) watch (currently countered).
-3. **Wed Jun 17** — EIA WPSR (wk Jun 12): gasoline datapoint #2 (deepening toward −5%?), SPR sub-floor path. IEA OMR (June). [BRT-27 already resolved — was its old resolution date.]
-4. **Thu Jun 18** — CF $130C expiry (ride; zero bid) + Baker Hughes (moved up, Juneteenth).
-5. **Fri Jun 19** — CFTC COT (Jun 9 wk): first capturing halt + settlement; forced-liquidation watch on the underwater spec length.
-6. **WALTER routing-bug follow-up** — confirm fix + fleet-audit result (one-off vs systemic). Relay-to-Orc pending Will's conduit.
-7. **Every closeout** — NEXUS_BRIEF refresh; SENDING/WAITING tables.
-
-## NEXT SESSION (Tier 2 — carried forward)
-8. **MOMR skim** (Jun 11 edition; still owed).
-9. **demand_destruction/TRACKER.md** — owes Jun 10 EIA integration (currently through May 29; eia_2026-06-10.md has it).
-10. **M1−M3 ICE official CONF** (Yahoo settle-proxy in use; advisor cross-matched; low urgency).
-11. **Workbook KB/VX/FLOW** — dormant 8+ wks; revive-vs-demote decision OPEN with Will.
-12. **FASTOW Run 2** — ~Jul 1.
+1. **Next boot** — 350M-floor thesis fix (PRIORITY-1, on Orc's §6241 cite): STATUS + THESIS + TRACKER.
+2. **Mon Jun 15** — convergence settle (Trigger #1 completion + XLE re-eval). Pull settles.
+3. **Wed Jun 17** — EIA WPSR gasoline datapoint #2 + SPR path; IEA OMR.
+4. **Thu Jun 18** — CF $130C expiry (ride; zero bid) + Baker Hughes (Juneteenth-moved).
+5. **Fri Jun 19** — CFTC COT (Jun 9 wk): first capturing halt+settlement; forced-liquidation watch on underwater spec length.
+6. **~Jun 20** — prune BRT-27 catalyst row from `docket/CATALYSTS.tsv` (1-wk retention).
 
 ## OPEN THREADS / WATCHES
-- 🔴 **Dawn-#5 fade vs Trigger #1 completion** — ladder now COUNTERED (Iran refused timeline); de-escalation NOT hardening. If Trigger #1 completes Mon with no hardening → Phase 2 via Path B organically while physical draws argue snap-back.
-- 🟠 **XLE re-eval clock 1/2** (sub-$88 close #1 = Jun 12; Monday = #2 candidate).
-- 🟠 **Pump pass-through STALLED** — RB sticky ~$130 while crude falls; gas crack $42.55 vs WTI. CARL's CRL-08 watch affected (corrected msg routed).
-- 🟠 **BRT-12 crack-compression clock** — cracks widening now; compression when products follow crude down IS the early warning. Re-check each EIA Wednesday.
-- 🟠 **Bab al-Mandab** — kinetic active Gulf of Aden, strait-proper quiet; BRT-28 window to Jul 1 (HAW-10 OPEN, HAWK primary).
-- 🟠 **WALTER routing-bug audit** — fleet vs BRENT-only; recurrence risk next escalation if unfixed.
-- 🟡 **HY energy OAS** — two-sided on dawn-#5 resolution (LIQUID primary; refreshed Jun 13).
-- 🟡 **Iran-Oman Hormuz-mgmt** — reopen-quality discriminator (fee regime = partial reopen).
+- 🔴 **350M-floor correction** — pending Orc §6241; live-positioning framing overstates near-term scarcity.
+- 🔴 **Dawn-#5 fade vs Trigger #1 completion** — ladder COUNTERED (Iran refused timeline Jun 13); if Trigger #1 completes Mon with no hardening → Phase 2 via Path B while physical draws argue snap-back.
+- 🟠 **XLE re-eval clock 1/2** (sub-$88 close #1 = Jun 12; Mon = #2 candidate).
+- 🟠 **Pump pass-through STALLED** — RB sticky ~$130, gas crack $42.55 vs WTI; CARL CRL-08 affected.
+- 🟠 **BRT-12 crack-compression clock** — widening now; compression when products follow crude down = the early warning. Re-check each EIA Wed.
+- 🟠 **WALTER routing-bug** — escalation sent Jun 13; awaiting fix confirm + fleet-vs-BRENT-only audit.
+- 🟡 **Workbooks DEMOTED** — revive-vs-demote decision RESOLVED (all 3 archival). Live state owned by STATUS/THESIS/CLAUDE.md.
 
 ## POSITION DECISIONS PENDING
-- **XLE $65C Sep 30** — HOLD; premise (sustained $90+ Brent) BREAKING. Re-eval on signed MOU OR two consecutive sub-$88 closes (clock 1/2; Mon = #2 candidate). Live clock inherited next boot.
+- **XLE $65C Sep 30** — HOLD; premise (sustained $90+ Brent) BREAKING. Re-eval on signed MOU OR 2 consecutive sub-$88 closes (clock 1/2; Mon = #2 candidate). Live clock inherited.
 - **CF $130C Jun 18** — RIDE TO EXPIRY (zero bid; corrected mark $0.10; nothing decidable).
-- **BRT-15 tanker thesis** — TABLED; numeric conditional registered pre-outcome; arms only on hardened signing (currently counter-evidenced — STNG +5 sessions into announcement).
+- **BRT-15 tanker** — TABLED; numeric conditional registered pre-outcome; arms only on hardened signing (currently counter-evidenced — STNG rallied into the announcement).
 
 ## MAIL STATE (one line per signal)
-- **Inbox:** 1 reference artifact only — `2026-06-07_from-NEXUS_brief_pilot2_review.md` (not actionable). 2 HAWK signals processed → `inbox/processed/` this session.
-- **Outbox:** clear (top-level). Delivered this session: CARL oil-panel correction, WALTER/PROME routing-bug escalation — both in `outbox/delivered/`.
-- **Routed-but-uncommitted (outside my dir, persist for pickup):** `CARL/inbox/2026-06-13_from-BRENT_oil_panel_correction.md`; `WALTER/inbox/` + `PROME/inbox/2026-06-13_from-BRENT_routing-bug-sig-001-002.md`.
+- **Inbox:** 1 reference artifact only (`2026-06-07_from-NEXUS_brief_pilot2_review.md`, not actionable). No new signals.
+- **Outbox:** clear (top-level). ⚠️ **2 routing-bug signals (to PROME/WALTER, Jun 13) remain UNTRACKED in their inboxes** — outside my dir, can't commit; won't reach origin for pickup until a memory/cross-dir commit sweeps them. Flagged to Will Jun 14.
 
 ## WORKBOOK HEALTH
-- **`NEXUS_BRIEF.md`:** LIVE, rev-8 (v3.1, BRT-27 resolved, CARL routed w/ primary, WALTER escalation, dawn-#5 counter).
-- **`thesis/PREDICTIONS.tsv`:** green; BRT-27 CONFIRMED + condensed; BRT-28 updated (Bab kinetic note); no DUE-stale.
-- **`thesis/THESIS.md`:** v3.1 (Jun 13). **`CHANGELOG.md`:** v3.1 + BRT-27 entries.
-- **`docket/CATALYSTS.tsv`:** BRT-27 row marked FIRED (prune after Jun 20); Jun 15=Monday noted.
-- **`refinery_damage/INCIDENTS.tsv`:** no new facility damage (vessel strikes = HAWK military-ops lane, correctly NOT logged).
-- **`demand_destruction/TRACKER.md`:** owes Jun 10 EIA integration (Tier 2).
-- **KB/VX/FLOW:** dormant 8+ wks; revive-vs-demote OPEN with Will.
-
-## GIT STATE
-- **7 commits this session, all local (push deferred per `[[feedback_defer_push_coordinate]]`):** BRT-27 resolve + HAWK signal process (`77aff238`); THESIS v3.1 (`66d3589c`); CARL route (earlier); Orc-loop cleanup (`de54844f`); HAWK dawn5/babmandab process (`2dbfe2a3`); + the CARL-revise/route commit.
-- **Push: NO** — other agents active today (LIQUID committed Jun 13 `4f7df819`; VIOLET workbook dirty at boot). Accumulates for Will's coordinated window.
-- **Not mine, untouched:** memory/auto/* (shared — my auto-memory writes there uncommitted by design), LIQUID/VIOLET files.
-- **Boot caveat for next session:** working tree was dirty OUTSIDE my dir at boot (VIOLET, memory/auto) — did NOT pull. Next boot: re-check pull protocol before syncing.
+- **KB/VX/FLOW: DEMOTED → ARCHIVAL this session** (frozen; headers declare disposition). No longer live ledgers; revive-vs-demote question CLOSED.
+- **NEXUS_BRIEF.md:** refreshed Jun 14 (rev-9 — stamp + SPR-floor pending-correction flag).
+- **PREDICTIONS.tsv / CATALYSTS.tsv / THESIS.md:** unchanged this session (350M-floor fix will touch THESIS next session). No DUE-stale predictions.
+- **GIT:** 4 commits this session, **ALL PUSHED** (`0efa6930` stale-sweep, `0d568609` KB, `9729c81a` VX, `c87c00ac` FLOW). Closeout commit (SCRATCH + NEXUS_BRIEF) pending — local, push next window. Auto-memory + MEMORY.md index line written but uncommitted (shared memory/, not mine to commit — flag for sweep).
