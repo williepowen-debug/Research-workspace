@@ -191,12 +191,13 @@ MEMORY.md    STATUS.md  STRATEGY.md           USER.md
 
 *(Updated 6/13 — LIQUID current. Forward watches, not cleanup. Positions all resolved — no decision items.)*
 
-1. **First boot move — verify Mon 6/16 closes** (per basis canon): Brent — sub-$90 hold/extend (ICE settle; clause-1 clock running since 6/12 $87.33)? APO streak (raw close, Day 4 was 6/12). 30Y/10Y vs the 5.00/4.50 pivots. **HY OAS direction (still a tracked signal).**
+1. **First boot move — verify Mon 6/16 closes** (per basis canon): Brent — sub-$90 hold/extend (ICE settle; clause-1 clock running since 6/12 $87.20)? APO streak (raw close, Day 4 was 6/12). 30Y/10Y vs the 5.00/4.50 pivots. **HY OAS direction (still a tracked signal).**
 2. **Positions — NOTHING TO SURFACE.** HYG written off (let expire worthless 6/19, cut bait); TEN closed (winner). Do NOT re-raise either.
-3. **FOMC Wed 6/17** — the duration-regime + conviction-60 resolver (dot plot vs hot May CPI; Warsh color; liquidity-facility language = Leg A kill watch). → **TIC Thu 6/18** (Japan net / Belgium $481B vs $500B orange — KB-LIQ-055; gates the USD/JPY>160 flow confirmation, now 5 closes).
-4. **Open verifies:** FSK P/NAV 0.52 (split/vintage); OBDC Q1 NAV (search avoided Onex conflation); FRED H.15 6/12 yield prints confirm proxy; BRENT energy-HY OAS reply (outbox out).
-5. **LIQ-03 resolves 6/30** at the letter (CLO AAA vs 160 trigger; interim ~S+130-145).
-6. **Inbox (2 pending, process on inbox-spawn)** — HAWK OFAC toll-risk 5/22; PROME FRED-citation-convention 5/21.
+3. **⭐ Tue 6/16 PM — SOFR-futures 2026 cut-count pull** (pre-FOMC, dated task): resolves the FOMC hawkish-vs-neutral base case. ≤1 cut priced = neutral-base (hold hawkish 33/neutral 38); ≥2 cuts = hawkish-base (shift ~8pts → hawkish ~45/neutral ~30, arms ≥5>5.00, conviction 63–65). Re-weight `workbook/FOMC_TIC_DECISIONTREE.md` off this; DO-NOT-transcribe 45 until the pull lands. Then echo to Orc (he holds the counter-weights).
+4. **FOMC Wed 6/17 → TIC Thu 6/18** — pre-staged tree built (`workbook/FOMC_TIC_DECISIONTREE.md`, DELETE-BY 6/19; durable residue in TIMELINE rows 13/15/16). FOMC ARMS / 30Y close-sequence RESOLVES; conviction scoped to duration leg. TIC: Belgium $481B→$500B = $19B headroom; Japan >$20B UST sell = SAM route (KB-LIQ-031 anchor); gates the USD/JPY-5-closes>160 flow confirmation.
+5. **Open verifies:** FSK P/NAV 0.52 (split/vintage); OBDC Q1 NAV (search avoided Onex conflation); FRED H.15 6/12 yield prints confirm proxy; BRENT energy-HY OAS reply (outbox out).
+6. **LIQ-03 resolves 6/30** at the letter (CLO AAA vs 160 trigger; interim ~S+130-145).
+7. **Inbox (2 pending, process on inbox-spawn)** — HAWK OFAC toll-risk 5/22; PROME FRED-citation-convention 5/21.
 
 ### PRIOR SESSION (2026-05-19 morning)
 

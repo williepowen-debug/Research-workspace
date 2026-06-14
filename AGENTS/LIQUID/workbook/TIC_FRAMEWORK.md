@@ -15,7 +15,7 @@ Treasury International Capital (TIC) reports foreign holdings of US Treasuries. 
 ### 2. Japan
 - Largest holder (~$1.1T). Life insurers selling $10-15B/month
 - Hedge ratios down 50%→30%
-- If >$20B net sell in single month = MARCO/SAM signal
+- If **>$20B net single-month UST sell** = MARCO/SAM signal *(anchor: top of the Feb-2026 FY-Q4 peak-repatriation estimate $13–22B UST-specific/month, KB-LIQ-031 — exceeds even the FY-end peak run-rate. Peak-run-rate anchor, not a computed SD; TIC total-holdings Δ can also carry valuation effects)*
 
 ### 3. China
 - ~$750-780B range (official TIC only; true exposure ~$2.5-2.8T via Belgium/Euroclear)
