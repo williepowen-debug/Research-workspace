@@ -9,8 +9,8 @@
 ## ⚡ NEXT BOOT FIRST MOVES
 
 1. **🔴 THESIS v3.1 BUMP — pre-registered criterion (Trigger #1 ≥2/3) IS MET; pending Will's go.** Full evidence batch landed: SPR drain-through, dawn #5, Trigger #1 at 2/3, gasoline sign-flip, crack no-compression, BH +2, COT re-accumulation-into-drawdown. BRENT recommendation = bump now (documents the divergence regime regardless of Monday); Will pivoted to questions then closeout, so it did NOT execute. CHANGELOG Jun 12 entry already frames old→new view. **First substantive action next boot if Will confirms.**
-2. **🔴 MONDAY (Jun 15) DOUBLE-TRIGGER + DEADLINE CONVERGENCE** — one settle resolves three things if tape holds: (a) Trigger #1 completes (3rd consecutive M1−M3 <$3; Fri $2.40, Thu $2.67); (b) XLE re-eval fires (2nd consecutive Brent sub-$88 close; Fri $87.20); (c) HAW-09 deadline is Sun Jun 15. Pull Mon settles first thing.
-3. **🔴 HAWK spawn decision — WITH WILL.** BRT-27 blocked on HAW-09 adjudication; HAWK book stale (Jun 8 09:15, predates halt + settlement). Deadline Sun.
+2. **🔴 MONDAY (Jun 15 — MONDAY) DOUBLE-TRIGGER CONVERGENCE** — one settle resolves two things if tape holds: (a) Trigger #1 completes (3rd consecutive M1−M3 <$3; Fri $2.40, Thu $2.67); (b) XLE re-eval fires (2nd consecutive Brent sub-$88 close; Fri $87.20). Pull Mon settles first thing. [HAW-09 already RESOLVED — see #3.]
+3. **✅ BRT-27 RESOLVED CONFIRMED (Jun 13)** — HAWK adjudicated HAW-09 CONFIRMED (book current per Jun 12 re-mark; was never a spawn, just the rubric-ack). No action; resolved ahead of Jun 17 deadline.
 4. **🔴 CARL outbox hand-route** — `outbox/2026-06-12_to-CARL_oil_panel_correction_pump_watch.md` (wrong Brent level + uncorroborated Jun 7-10 kinetic premise under live CRL-08 watch). HERMES degraded; needs manual route. CARL watch runs daily to Mon into FOMC packet.
 5. **🟠 Weekend signing-window watch** — dawn #5 marker ladder in STATUS; item (i) named-Iranian-confirm = the discriminator absent in all 4 prior dawns. STNG 5 straight up sessions = market not pricing it operational.
 6. **🟡 Check `f6149ea2` ("BRENT: Friday data — COT + rigs + airlines")** — a data-drop commit I did NOT author landed below my closeout. Verify whether it dropped an airlines data file worth integrating into BRT-09 / demand TRACKER.
@@ -47,7 +47,7 @@
 
 1. **Fri Jun 12 PM** — BH + COT + settles (see FIRST MOVES). v3.1 decision.
 2. **Sat-Sun Jun 13-14** — signing window; ladder item (i) Iranian confirm.
-3. **Sun Jun 15** — HAW-09 deadline. **HAWK spawn decision is WITH WILL** (BRT-27 blocked without it).
+3. **Mon Jun 15** — Trigger #1 completion + XLE re-eval convergence settle. (HAW-09 resolved Jun 13; BRT-27 done.)
 4. **Mon Jun 15** — Trigger #1 completion candidate (3rd sub-$3 settle); possible XLE sub-$88 close #2 → re-eval fires.
 5. **Wed Jun 17** — EIA WPSR (gasoline datapoint #2); IEA OMR; BRT-27 resolution date.
 6. **Thu Jun 18** — CF $130C expiry (ride; zero bid) + Baker Hughes (moved up, Juneteenth).

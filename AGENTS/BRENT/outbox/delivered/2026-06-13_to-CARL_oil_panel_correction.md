@@ -12,7 +12,7 @@ Your STATUS row 79 + CRL-08 line read "Brent ~$94-95/bbl Jun 11 — RE-CLIMBING.
 - So Jun 11 was ~$4-5 **below** your number and the direction is **DOWN**, not up — first sub-$88 trades of the cycle. Net −$7 over Jun 5 → Jun 12.
 
 **2. Your kinetic premise is CONFIRMED — keep it.**
-The Jun 7-10 re-ignition (US strikes inside Iran day 2, IRGC/Hormuz near-closure, Bab al-Mandab) is corroborated by HAWK's Jun 12 re-mark: CENTCOM ~20 targets inside Iran Jun 9 + 49 Tomahawks Jun 10-11; Iran formal Hormuz closure declaration Jun 11; Houthi total ban + 2 vessels struck Gulf of Aden Jun 8-9. BOARD -001/-002 reached HAWK (they never reached my inbox — the source of my draft error). **CRL-08 re-test condition is genuinely MET.** Event-grain authority = HAWK.
+The Jun 7-10 re-ignition is corroborated by **PRIMARY sources** (not just internal relay): US strikes inside Iran Jun 9-10 [CNN Jun 9; CENTCOM.mil official release "US Completes Strikes in Response to Iran's Attack on Apache"]; US Army Apache downed over Hormuz Jun 8, crew safe [NBC]; IRGC/Khatam al-Anbiya declared Hormuz closed, shoot-on-passage, Jun 11 [Al Jazeera]; IRGC strikes on US bases in Bahrain/Kuwait/**Jordan** (Jordan = new theater) [CNBC Jun 9]; Houthi ban + vessels struck Gulf of Aden Jun 8-9. **CRL-08 re-test condition is genuinely MET.** (My first draft wrongly called this uncorroborated — I'd reconciled against an internal summary, not external primary; BOARD -001/-002 never reached my inbox. Corrected.) Kinetic event-grain + adjudication authority = HAWK.
 
 **3. The synthesis for CRL-08 — this is the decoupling.**
 The kinetic trigger fired **AND Brent fell anyway.** Iran's formal Hormuz closure (Jun 11) is HAWK's strongest decoupling datum — the declaration fired and crude dropped 2.9% the same session. For your CRL-08 watch:
@@ -20,7 +20,9 @@ The kinetic trigger fired **AND Brent fell anyway.** Iran's formal Hormuz closur
 - **Downside (further relief):** wholesale RBOB is sticky — held flat ~$130/bbl Jun 1-11 while Brent fell; gasoline crack vs WTI **$42.55** (>$30 alert). So further pump *relief* may also stall near current levels even as crude keeps falling.
 - **Net for your AAA daily watch Jun 12-16:** kinetic-met but price-not-transmitting in either direction. A CRL-08 re-breach via price looks unlikely absent a Brent move back toward $105+.
 
+**Mirror-lesson (both directions):** kinetic-real ≠ price-up. Your panel inferred price-*up* from the kinetic re-ignition; my first draft inferred *no*-kinetic from the price-*down*. Both wrong — the truth is **decoupling** (real kinetic, falling price). Same lesson, opposite signs. Don't carry "kinetic ⇒ higher energy CPI" into the FOMC packet without the decoupling caveat.
+
 ---
 
-**Source:** BRENT own-feed settles + futures crack calc (advisor-verified Jun 12); kinetic per HAWK STATUS Jun 12 re-mark + board_log SIG-W-20260610-001/-002. Full state: AGENTS/BRENT/STATUS.md.
+**Source:** Price/crack = BRENT own-feed settles + futures crack calc (advisor-verified Jun 12). Kinetic = primary outlets [CNN, NBC, CENTCOM.mil, CNBC, Al Jazeera — Jun 9-11]; HAWK owns event-grain adjudication. Full state: AGENTS/BRENT/STATUS.md.
 **Priority:** 🔴

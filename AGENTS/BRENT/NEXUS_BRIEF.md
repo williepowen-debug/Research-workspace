@@ -1,11 +1,11 @@
 # BRENT — NEXUS Brief
 
-**Status:** 🟠 v3.0 — SHARPEST PHYSICAL/PRICE DIVERGENCE OF CYCLE: physical leg intensifying (SPR through floor, −15M/wk total draws, util >95%, cracks widening) while tape prices the de-escalation arc ($88-handle); dawn #5 (Trump settlement) unconfirmed by Iran, timer cold
+**Status:** 🟠 v3.1 — MAXIMAL PHYSICAL/PRICE DIVERGENCE OF CYCLE: physical leg intensifying (SPR through floor, −15M/wk total draws, util >95%, cracks widening) while tape prices the de-escalation arc ($87-handle); dawn #5 (Islamabad Agreement) channel-resumed (HAW-09 confirmed) but NOT deal-done, timer cold; **BRT-27 RESOLVED CONFIRMED (Jun 13)**
 **Domain:** Oil & energy — Brent/WTI, OPEC+, storage (Cushing/SPR), tankers, energy credit; transmission to CARL (gas/consumer), HENRY (energy CPI/PPI), LIQUID (energy HY OAS), SAM (Japan LNG), HAWK (oil↔scenarios), REGINALD (energy loans)
-**Thesis version:** v3.0 (v3.1 bump decision deferred to next boot — gated on Jun 12 settles + COT + Baker Hughes, all of which land after this closeout)
+**Thesis version:** v3.1 (bumped Jun 13 — divergence-max frame; Phase 2 arming on BOTH axes; oil→CPI printing; decoupling hardened to regime; BRT-27 folded in CONFIRMED. No conviction reversal vs v3.0)
 **Recent thesis pivot:** Jun 12: catch-up sweep + advisor adjudication — SPR DRAIN-THROUGH (349.2M, tail case); Path B Trigger #1 first sub-$3 close ($2.67 Jun 11, completes Mon if holds); gasoline 4-wk YoY −0.5% first negative of cycle; Trump settlement Jun 11 PM = dawn #5 with marker ladder registered; crack refresh shows NO compression (3-2-1 widened into the selloff — margin-boom, not squeeze).
 **Position:** XLE $65C Sep-30 (premise BREAKING — re-eval on signed MOU OR 2 consecutive sub-$88 Brent closes); CF $130C Jun-18 (ride to expiry; corrected mark $0.10/zero bid — Tue's "$8" was phantom) — structural only; marks in STATUS/FORGE, no P/L here
-**As of:** 2026-06-12 Fri ~16:00 ET (rev-7, extended: catch-up sweep, advisor adjudication, dawn #5, crack refresh, CARL correction, + afternoon prints BH/COT/settles) | STATUS commit: latest local HEAD (push deferred; multi-agent queue)
+**As of:** 2026-06-13 Sat (rev-8: BRT-27 resolved CONFIRMED, THESIS v3.1, CARL correction routed w/ primary-source kinetic + decoupling synthesis, WALTER routing-bug escalation sent) | STATUS commit: latest local HEAD (push deferred; multi-agent queue)
 
 ---
 
@@ -24,7 +24,7 @@
 
 - **Conviction (decomposed):** direction-MEDIUM (two-sided: physical screams Phase-1-tight, tape+curve scream Phase-2-arriving — the divergence IS the read) · timing-HIGH-URGENCY (dawn-#5 hardening vs Trigger-#1 completion race resolves within ~3 sessions) · level-MEDIUM (Brent $85-92 band; hardened signing → $75-85; dawn-collapse + draws reassert → $95+).
 - **Diverge from market by:** market prices reopening as quasi-confirmed (~$11 below EIA's closed-Hormuz path); BRENT holds that 4 of 4 prior dawns failed and dawn #5 is Iran-unconfirmed with live kinetic counter-indicator — the de-escalation bet is unhedged against another rug-pull while physical draws build snap-back energy. Symmetrically: if signing hardens, LESSONS #11/#16 say the announcement-day move IS the trade (exit/short before barrels move).
-- **Cross-agent tensions:** **CARL 🔴 — acute correction sent via outbox** (`outbox/2026-06-12_to-CARL_oil_panel_correction_pump_watch.md`): CARL's Jun 11 panel carries Brent "~$94-95 re-climbing" (actual $90.38 settle, falling) + a "Jun 7-10 kinetic re-ignition / US strikes on Iran" narrative my verified record and tape contradict — their live CRL-08 pump watch (Jun 12-16) + FOMC packet run on it. HAWK owns kinetic adjudication; BRENT corrected the price record. **Needs hand-routing (HERMES degraded).** **HAWK** — book stale (Jun 8 09:15, predates halt AND settlement); BRT-27 blocked on HAW-09; spawn decision escalated to Will. **WALTER/BOARD routing gap** — SIG-W-20260610-001/-002 "REFERRED→BRENT/HAWK" never reached BRENT's inbox; CARL armed a trigger on signals the verifying agents never saw.
+- **Cross-agent tensions:** **CARL ✅ — correction ROUTED to CARL/inbox (Jun 13)**: corrected ONLY the price record (Brent ~$87 falling, not "$94-95 re-climbing"); **CARL's Jun 7-10 kinetic premise was RIGHT and is kept** — my first draft wrongly called it uncorroborated (self-catch; I'd reconciled against HAWK's summary, not external primary — fixed: now cites CNN/NBC/CENTCOM/CNBC/Al Jazeera directly). Decoupling synthesis added (kinetic-met but price-not-transmitting; mirror-lesson: kinetic-real ≠ price-up). **HAWK ✅** — book current (Jun 12 re-mark); HAW-09 CONFIRMED Jun 13; BRT-27 RESOLVED (was rubric-ack, never a spawn). **WALTER/BOARD routing gap 🔴 — escalation SENT** (SIG-W-20260610-001/-002 "REFERRED→BRENT/HAWK" never reached BRENT's inbox while HAWK acted on -001 = asymmetric-delivery bug; CARL armed CRL-08 on signals the verifying agent never saw). Root-cause fix, not the one-off — NEXUS/PROME watching whether other agents also missed -001/-002 (fleet vs BRENT-only).
 - **Advisor (Orc) adjudication this session:** B1 threshold-provenance challenge resolved in BRENT's favor (UTIL_SQUEEZE registered Apr 16, `a393e6ac`); B2 tick-vs-average error accepted ($17 gap → $11 stated apples-to-apples); 5 crack recomputes matched to the cent. CF phantom-mark corrective filed (auto-memory `[[finding_option_marks_need_live_chain]]`).
 - **Uncertain about:** (1) dawn-#5 hardening — *HAWK's domain, BRENT watches ladder + tankers*; (2) whether pump prices stall (RB sticky) or follow crude down — *CARL-relevant, my crack data*; (3) Trigger #3 re-fire at 3:30 COT — *my data, next boot*.
 - **Failure patterns:** wrong-mechanism/policy-confound · mitigation-channel-underweighted · threshold-vs-mechanism (applied twice today: util tripwire = margin-boom not squeeze; BRT-27 price-vs-event separation) · catalyst-vs-consequence conflation.
@@ -39,8 +39,8 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
-| CARL | 🔴 ACUTE (outbox file, needs hand-route): your Brent level + Jun 7-10 kinetic premise are wrong vs my CONF record — re-check CRL-08 re-test arming. ALSO: my "mid-June pump relief" prior WEAKENED — wholesale RB flat while crude fell (gas crack $42.55 vs WTI); pump declines may STALL near current levels | 🔴 | CRL-08 daily watch (Jun 12-16) premise + FOMC packet inputs |
-| HAWK | BRT-27 price-side MET ($91.45 / $90.38 closes <$92); HAW-09 adjudication needed by Sun Jun 15 — your book predates halt + settlement; dawn-#5 marker ladder registered my side (kinetic facts yours) | 🔴 | HAW-09 resolution drives BRT-27; ladder item (i) Iranian-confirm is the shared discriminator |
+| CARL | ✅ ROUTED (Jun 13): price-only correction — Brent ~$87 *falling*, not "$94-95 re-climbing"; your Jun 7-10 kinetic premise is CONFIRMED (primary sources), keep it; route kinetic event-grain to HAWK. Decoupling synthesis: kinetic-met but price not transmitting either direction (re-breach UP needs ~$105+; relief DOWN stalled, RB sticky, gas crack $42.55 vs WTI). Mirror-lesson: kinetic-real ≠ price-up | 🔴 | CRL-08 daily watch (Jun 12-16) premise + FOMC packet inputs |
+| HAWK | ✅ BRT-27 RESOLVED CONFIRMED (Jun 13) on HAWK's HAW-09 confirm + price-side <$92; book current. Read channel-resumed not deal-done (B bar = verified reopening). Ladder item (i) Iranian-confirm still the shared discriminator (ToI: Tehran pushing back on Pakistan's 24h-deal claim) | 🟠 | Forward: dawn-#5 hardening watch; BRT-15 numeric conditional arms on hardened signing |
 | HENRY | CPI energy leg CONFIRMED printing (May: energy >60% of increase, gasoline +40.5% YoY); inverse-feedback test (retrace → softer print → hike unwind) moves to June CPI Tue Jul 14 — near-term hike pressure stays ON | 🟠 | Energy-component direction for Jun-Jul CPI pipeline; PPI gasoline +23.4% wholesale corroborates (CARL's read) |
 | LIQUID | HY energy OAS: de-escalation pricing argues catch-up even less likely; BUT if dawn #5 fails and snap-back fires, energy-credit re-rates fast — two-sided now | 🟠 | Energy-credit tail re-prices on dawn-#5 resolution either way |
 | SAM | Brent $88-handle + settlement-announce = Japan import-cost relief extending; LNG/natgas flat ($3.15 Jun 9 [STALE]) | 🟡 | Japan trade-balance easing continues |
@@ -50,10 +50,10 @@
 
 | From | Input | Expected by | Why it matters | How it changes my view |
 |------|-------|-------------|----------------|------------------------|
-| HAWK | HAW-09 adjudication (spawn escalated to Will) | Sun Jun 15 deadline | BRT-27 resolution blocked on it | Confirm → BRT-27 resolves vs <$92 leg (already met); falsify → tests $94-100 hold leg (currently failing — would resolve AGAINST) |
+| HAWK | ✅ HAW-09 RESOLVED CONFIRMED (Jun 13) — BRT-27 done. Forward: dawn-#5 kinetic/diplomatic adjudication (below) | — | (resolved) | — |
 | HAWK | Dawn-#5 kinetic/diplomatic adjudication (Iranian confirm? signing hardening?) | Daily through ~Jun 16 | Arms/disarms BRT-15 conditional + BRT-07 timer | Hardened → Phase-2-via-Path-A; faded → dawn #5 joins the four priors |
 | LIQUID | HY energy OAS refresh | Next LIQUID session | Two-sided now (see SENDING) | Widening despite de-escalation = something else breaking |
-| WALTER | BOARD SIG-W-20260610-001/-002 content (referred to BRENT, never delivered) | On routing fix | CARL armed CRL-08 on these; BRENT never verified them | If they describe real events my sweep missed, my Jun 7-10 record needs re-opening |
+| WALTER | 🔴 ROUTING-BUG escalation SENT (Jun 13) — confirm fix + whether other agents also missed -001/-002 | On routing fix | Root cause of BRENT's cold kinetic record; recurrence risk next escalation | Events now verified via primary (real); my Jun 7-10 record warmed. Need the delivery-path fix so I don't go cold again |
 
 ---
 
@@ -71,10 +71,8 @@
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
 | ✅ Fri Jun 12 (captured) | Settles + Baker Hughes + COT | DONE: Trigger #1 → 2/3 ($2.40); Brent $87.20 = sub-$88 close #1 (XLE clock 1/2); rigs 433/+2; COT MM 90,765 = Trigger #3 NOT re-fired (re-accumulation, now underwater) |
-| 🔴 Mon Jun 15 | Settle = triple convergence | Trigger #1 completion (<$3) + XLE re-eval (2nd sub-$88) + HAW-09 deadline |
-| 🔴 ~Sat-Sun Jun 13-14 | Trump settlement signing window ("weekend in Europe"; CBS: LOI early next wk) | Marker ladder — (i) Iranian confirm is the discriminator |
-| 🟠 Sun Jun 15 | HAW-09 deadline | BRT-27 resolution input (price-side already met) |
-| 🔴 Mon Jun 15 | Trigger #1 completion candidate (3rd sub-$3 settle) | Path B curve signal fires for first time ever |
+| 🔴 ~Sat-Sun Jun 13-14 | Trump settlement signing window (venue Geneva-vs-Vienna wobbling; ToI: Tehran pushing back on 24h-deal claim) | Marker ladder — (i) Iranian confirm is the discriminator |
+| 🔴 Mon Jun 15 (MONDAY) | Convergence settle | Trigger #1 completion (3rd sub-$3, fires for first time ever) + XLE re-eval (2nd sub-$88 close). [HAW-09 already RESOLVED Jun 13] |
 | 🔴 Wed Jun 17 | EIA WPSR (wk Jun 12) + IEA OMR; BRT-27 resolution date | Gasoline datapoint #2 (deepening toward −5%?); SPR sub-floor path |
 | 🟠 Thu Jun 18 | CF $130C expiry + Baker Hughes (moved up — Juneteenth) | Position closes; rigs pace |
 | 🟠 Fri Jun 19 | CFTC COT (Jun 9 wk) | First COT capturing halt + settlement reaction |
