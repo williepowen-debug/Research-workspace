@@ -9,7 +9,7 @@
 ## GIT STATE (one line)
 -->
 
-**Session 19 — Sat 2026-06-13 ET.** Advisor-relay re-anchor session. Will relayed 4 packets from **Orc** (orchestration/advisor layer — cannot edit the repo; RED places everything). Boot found STATUS stale-anchored 6/10 ~3PM while the war-vol tape that drove the S17 net-bear +4 had reversed over 6/11-12. Graded Orc's re-anchor + FOMC pre-write + war-tail vector; placed VX-RED-025; wrote the FOMC framework. **The load-bearing STATUS re-weight (NB 57 / conf 71) is GRADED but the echo-back-to-Orc verify loop is still OPEN — Orc relayed the next packet instead of confirming the NB-57 echo. Did NOT commit the re-weight into STATUS tables; header banner-stamps it pending.**
+**Session 19 — Sat 2026-06-13 ET.** Advisor-relay re-anchor session. Will relayed 4 packets from **Orc** (orchestration/advisor layer — cannot edit the repo; RED places everything). Boot found STATUS stale-anchored 6/10 ~3PM while the war-vol tape that drove the S17 net-bear +4 had reversed over 6/11-12. Graded Orc's re-anchor + FOMC pre-write + war-tail vector; placed VX-RED-025; wrote the FOMC framework. **S19b addendum: Orc echo-verify CLEARED (NB57 / Acute13 / BE55-45 confirmed) + corrected conf 71→70 (branch-EV = 70.06, confidence-is-a-martingale — 71 was splitting the difference). Re-weight now COMMITTED to STATUS tables + CHANGELOG; loop closed. VX-025 got the resolved-lean refinement (~55/45 bull headline, not even-odds-of-paying).**
 
 ## CHANGES SINCE (S18b close 6/11 PM → S19 boot 6/13)
 
@@ -29,7 +29,7 @@
 
 ## NEXT SESSION (priority-ordered)
 
-1. **🔴 CLOSE THE ORC ECHO-VERIFY LOOP, THEN COMMIT THE RE-WEIGHT.** Orc owes verification of the NB-57 echo (Acute 13 vs his 12; breakeven 55/45 vs his 60/40). When it lands (or Will says go): rewrite STATUS hypothesis table → 36/36/13/8/4/3 NB57, counter-signal rows to 6/12 (VIX flip 55/45 bull, banks 70/30, Iran/OVX 50/50, breakeven 55/45), falsification table as-of (VIX<16 approaching / VIX>20 window OFF / VIX>23 0-of-5), + add the held CHANGELOG entry ("2026-06-13 war-vol reversal; NB 59→57; conf 72→71; pre-written steelman now scoring"). **CHANGELOG entry deliberately HELD this session — analytical change pending verify (documented divergence).**
+1. **✅ DONE S19b — re-weight COMMITTED.** STATUS hypothesis table = 36/36/13/8/4/3 NB57, counter-signals re-anchored to 6/12, falsification as-of, CHANGELOG 2026-06-13 entry added, conf 72→70. Orc verify cleared. Nothing left here — forward focus is FOMC 6/17 / Geneva 6/19 below.
 2. **🔴 FOMC 6/17 (T-4)** — tree is written; on the day, just read which branch fired and apply the pre-committed integers. Don't improvise.
 3. **🟠 Geneva ~6/19 war sub-tree** — own clock. Dawn-5 deadline ~6/19 = VX-RED-025 confirm/flip discriminator. Verified Hormuz reopen by ~6/26 → vector dormant.
 4. **🟠 HY OAS 280 re-cross watch (daily)** — 278 on FRED 6/11, FT-01 firing sustain-not-met; WL-03 NEAR (dist −2).
@@ -39,7 +39,7 @@
 
 ## OPEN THREADS
 
-- **Echo-back contract OPEN.** I produced the NB-57 echo two relays back; Orc never verified it (jumped to FOMC packet). The re-weight is graded-not-committed by design. Two live disagreements stand (Acute 13/12, breakeven 55/45 vs 60/40) — both data-backed on RED's side.
+- **Echo-back contract CLOSED (S19b).** Orc cleared NB57 / Acute13 / BE55-45 (both my amendments accepted, no pushback) and corrected conf 71→70 (martingale). Re-weight committed. Note for the next push window: Orc is in a SEPARATE fresh-clone checkout at origin HEAD `f36d31f` — he CANNOT see RED's local-only commits (push deferred). He's verified everything on DATA (his own primary pulls) + ACCEPTED file artifacts ON PROSE. When a push window opens, hand Orc the word and he sweeps the 4 artifacts against live diffs.
 - **VX-RED-025 is a HEDGE vector, anti-correlated with RED's own oil-bear modal.** Do NOT count Brent-sub-88-bull AND war-tail-bear as two independent book reads — one Hormuz coin. And SKEW-coiled is SHARED with Acute-13; attribute it to whichever tail (credit/FOMC or war/Geneva) fires, don't double-cite.
 - **Bull-steelman is now the scoring scenario.** Vol crush + oil dump + bank rally = exactly the de-escalation/FOMC-no-surprise path I pre-wrote. HY OAS 278 still refuses the cascade. "Right regime, possibly wrong vehicles" — intact, and the near-term tape is on the bull side into the catalysts.
 - **Orc is an advisor, not source-of-truth.** This session he was stale on FRED and missed the oil-channel anti-correlation; both caught. The anti-anchor test was a genuinely sharp catch and earned a real concession. Treat accordingly.
@@ -52,4 +52,4 @@
 
 ## GIT STATE
 
-Did NOT pull (VIOLET dirty tree). This session's files (VX.tsv, ML.tsv, research/FOMC_2026-06-17_FRAMEWORK.md, STATUS.md header, this SCRATCH) commit **LOCAL ONLY** — push deferred for Will-coordinated window (RED never pushes solo; tree is dirty with other agents' work). Re-weight into STATUS tables + CHANGELOG entry intentionally deferred to S19-next pending Orc echo-verify.
+Did NOT pull (VIOLET dirty tree). S19 commit `d80432c3` (VX-025, ML-084, FOMC framework, STATUS header, SCRATCH). S19b commit (this one): full STATUS table re-weight + CHANGELOG entry + conf 71→70 corrections + VX-025/ML-084 refinements. Both **LOCAL ONLY** — push deferred for Will-coordinated window (RED never pushes solo; tree dirty with other agents' work). Orc cannot see these until pushed.
