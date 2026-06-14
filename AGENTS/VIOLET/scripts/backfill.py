@@ -8,10 +8,19 @@ Pulls:
 Merges into workbook/VX_DAILY.tsv. Rows keyed by date; existing rows are
 updated (not duplicated), preserving columns the backfill doesn't touch.
 
+⚠️  M1:M2 CONVENTION HAZARD — UNRESOLVED (VIOLET 6/13, Orc). The m1m2 path here
+    writes SAME-DAY settlement keyed to the row date and does NOT stamp
+    m1m2_settle_date. thresholds.py writes m1m2 as T-1 (prior settle) WITH the
+    stamp. The two conventions DISAGREE. The ~79 currently-blank m1m2 cells are
+    protected only by the skip-if-present guard (backfill_m1m2). DO NOT run the
+    m1m2 path (full backfill, or --m1m2-only) until the convention is resolved —
+    it would inject same-day/unstamped values into a T-1 series. `--spot-only` is
+    always safe (skips m1m2 entirely). See MAINTENANCE.md (#4 convention decision).
+
 Usage:
-  .venv/bin/python3 AGENTS/VIOLET/scripts/backfill.py
-  .venv/bin/python3 AGENTS/VIOLET/scripts/backfill.py --spot-days 180 --m1m2-days 60
-  .venv/bin/python3 AGENTS/VIOLET/scripts/backfill.py --spot-only
+  .venv/bin/python3 AGENTS/VIOLET/scripts/backfill.py --spot-only   # SAFE
+  .venv/bin/python3 AGENTS/VIOLET/scripts/backfill.py --spot-days 180   # spot only
+  # full / --m1m2-only: BLOCKED on the convention decision — see hazard note above
 """
 from __future__ import annotations
 
@@ -174,6 +183,12 @@ def compute_m1m2(contracts: list[dict], as_of: date) -> tuple[float | None, floa
 
 
 def backfill_m1m2(days: int, rows: dict[str, dict], pause_s: float = 0.5) -> int:
+    # Runtime guardrail — fires at the moment of danger even if the docstring
+    # went unread (VIOLET 6/13, Orc). The convention is unresolved; this path
+    # writes SAME-DAY/unstamped m1m2, inconsistent with thresholds.py's T-1 series.
+    print("  ⚠️  M1:M2 CONVENTION HAZARD: this path writes SAME-DAY/unstamped m1m2,")
+    print("      inconsistent with thresholds.py's T-1 series — convention UNRESOLVED")
+    print("      (VIOLET 6/13). Prefer --spot-only until decided. See MAINTENANCE.md.")
     today = date.today()
     touched = 0
     requested = 0

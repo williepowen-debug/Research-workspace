@@ -10,6 +10,23 @@ Log material structural changes only — not routine content edits. Template ado
 
 ---
 
+## 2026-06-13 — Supersede limits surfaced: boot-time stale-TICK guard + m1m2 convention landmine pinned
+
+**Trigger:** Weekend refresh found the VX_DAILY 6/12 row stuck as a stale morning TICK (VIX 19.04 vs 17.68 settle). Root cause (Orc): Friday's session closed 1:40pm, before the 16:15 ET settle, so the EOD `--supersede` never fired — and `--supersede` only ever targets *today's* row (stamps `et_now`), so it can NEVER reach back to repair a prior date; a stale row does not self-heal on re-run. The weekend-skip guard was a red herring (it only blocked the Saturday catch-up). Investigating the repair path surfaced a second landmine: **thresholds.py and backfill.py disagree on the m1m2 convention.**
+
+**What changed:**
+- **`scripts/thresholds.py`:** (a) `append_daily_log` now returns a STATUS CODE (appended/updated/skip-weekend/skip-exists/skip-tick-vs-settle/skip-no-file) instead of a bare bool — the old bool made every skip print the misleading "already has a row" line (which fooled VIOLET herself: the real reason was the weekend guard). Printer states the real reason + points to backfill.py. Bool back-compat preserved for `--json`. (b) New `check_stale_tick()` boot-time guard: emits a `⚠️` (surfaced by boot.py collapse) when the LATEST VX_DAILY row is a TICK dated before today — catches the missed-EOD case at next boot, which is the case that actually failed (a closeout checklist can't catch it; nothing is alive at 16:15 ET close). Tested both branches.
+- **`scripts/backfill.py`:** m1m2 CONVENTION HAZARD pinned — docstring block + runtime `⚠️` print in `backfill_m1m2()`. This path writes SAME-DAY/unstamped m1m2; thresholds.py writes T-1 WITH `m1m2_settle_date`. The two disagree; the ~79 blank m1m2 cells are protected only by the skip-if-present guard. `--m1m2`/full backfill is BLOCKED on the convention decision (#4); `--spot-only` is always safe.
+- **Data fixes (not structural, logged for trail):** VX_DAILY 6/12 spot row hand-backfilled to settle then m1m2 reverted to T-1 (6.49/settle_date 6/11) for series consistency; 6/10 skew fixed 141.97→143.08 via `backfill.py --spot-only` (was a dup of 6/09).
+
+**Files touched:** scripts/thresholds.py, scripts/backfill.py, workbook/VX_DAILY.tsv (6/10 + 6/12 rows), MAINTENANCE.md.
+
+**Boot-impact:** boot.py unchanged in structure (thresholds runs inside it); the new stale-TICK `⚠️` now appears in boot output whenever an EOD settle run was missed. **Open decision #4 (NOT done): m1m2 convention — migrate the whole series to same-day (Orc's lean: semantically correct for a "daily closes" ledger; KB-VIO-092-proof) vs document T-1 as canonical + align backfill. ~79-row migration touching both tools; needs the echo-back loop, not a snap. Until resolved: `--spot-only` only.**
+
+**Lessons:** a tool whose write is keyed to "now" (not to the data's own date) cannot repair history — the recovery tool must be date-driven (backfill.py). Two tools touching one column under different conventions are safe only by an undocumented guard; surface the guard before it's relied on. And: a skip/error message must state *which* reason fired — a generic message cost a self-misread.
+
+---
+
 ## 2026-06-11 (late eve) — fred_fetch.py SERIES expanded: tree ladder + global-HY control groups
 
 **Trigger:** Will query ("any additional useful FRED 6/10 data we can reach?") → extended pull found the June widening is US-local (KB-VIO-097: Euro HY/EM tightened while the US quality ladder ground wider). Wiring it up revealed the gap: `fred_fetch.py` SERIES carried only HY/IG/CCC — **the KB-VIO-090 tree's own conversion lines (BB ≥1.73, CCC−BB dispersion) weren't in the scripted fetch** and had been pulled ad hoc each session.

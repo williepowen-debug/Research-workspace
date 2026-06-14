@@ -156,6 +156,40 @@ def append_daily_log(row: dict, supersede: bool = False) -> str:
     return "appended"
 
 
+def check_stale_tick() -> str | None:
+    """Boot-time guard: if the LATEST VX_DAILY row is a TICK dated BEFORE today,
+    the EOD settle run was missed and the row is stale. This is the Friday-6/13
+    failure mode — no session was alive at 16:15 ET to run --supersede, so the
+    row stayed a morning TICK. A closeout checklist can't catch that (nothing
+    running at close); the next BOOT can. Returns a warning string or None.
+    Repair with backfill.py --spot-only — --supersede only ever targets today.
+    """
+    if not DAILY_LOG.exists():
+        return None
+    try:
+        with open(DAILY_LOG) as f:
+            header = f.readline().rstrip("\n").split("\t")
+            last = None
+            for line in f:
+                if line.strip():
+                    last = line.rstrip("\n").split("\t")
+        if not last:
+            return None
+        idx = {c: i for i, c in enumerate(header)}
+        if "date" not in idx or "basis" not in idx:
+            return None
+        d_str = last[idx["date"]]
+        basis = last[idx["basis"]] if len(last) > idx["basis"] else ""
+        row_date = datetime.fromisoformat(d_str).date()
+        today = datetime.now(timezone.utc).astimezone(ET).date()
+        if basis == "TICK" and row_date < today:
+            return (f"STALE TICK: latest VX_DAILY row {d_str} is TICK basis "
+                    f"(EOD settle never logged) — repair: backfill.py --spot-only")
+    except (ValueError, KeyError, IndexError):
+        return None
+    return None
+
+
 def build_report(supersede: bool = False) -> dict:
     now = datetime.now(timezone.utc)
     spot = fetch_spot()
@@ -266,6 +300,11 @@ def print_report(rep: dict):
         print(f"  · skip ({status}): {reason}")
         if status in ("skip-weekend", "skip-exists", "skip-tick-vs-settle"):
             print(f"     ↳ to repair a stale PRIOR-date row, use backfill.py (--supersede only ever targets today)")
+
+    # Boot-time staleness guard (surfaced via boot.py ⚠️ collapse)
+    stale = check_stale_tick()
+    if stale:
+        print(f"  ⚠️  {stale}")
 
     # Emit KEY_MARKERS lines for boot.py collapse mode
     hottest = [f"{k}={cls[k]}" for k in cls if cls[k] in ("🟠", "🔴")]
