@@ -6,6 +6,17 @@ Trigger to log here: any closeout that updates `thesis/VIX_THESIS.md`.
 
 ---
 
+## Intra-v3.5 dated note — 2026-06-14 (scope correction: GEX-suppression MECHANISM stale-marked; signal/mechanism/trigger decomposed; no version bump)
+
+- **Trigger:** Orc flagged that the GEX-suppression premise (KB-VIO-062/067) underpinning the coiled-spring read draws on HENRY's gamma/flip reports, which have been dark since ~6/9 (HENRY STATUS frozen 6/9; no HENRY NEXUS_BRIEF), yet was carried as standing-current — violating VIOLET's own stale-marked > carried-current discipline.
+- **Old view:** "GEX-suppression era" cited as the live operative mechanism behind catalyst absorption, unqualified, in the thesis intro/v3.2 framing and the VVIX rare-trigger caveat.
+- **New view (decomposed):** Three distinct objects, only two HENRY-dependent — (1) **coiled-spring SIGNAL** (L1 DIET base-rate framework, KB-VIO-067): self-computed from VIOLET's own surface, EMPIRICAL/real-money, **self-validated current 6/14** (vol crushed 22.2→17.7 through the 6/10 Iran spike = absorption signature, measured without HENRY; IV now sub-RV10); (2) **suppression MECHANISM** (KB-VIO-062, dealer positive-gamma = the "why"): **UNCONFIRMED since HENRY dark ~6/9 — stale-marked** in thesis intro; (3) **release TRIGGER** (dealer flip level): HENRY-only, named as a required cross-domain input (NEXUS_BRIEF WAITING-FOR), NOT VIOLET-built. Per KB-VIO-070, a dark mechanism degrades the explanation, not the base-rate signal — **continue sizing off L1.**
+- **VRP self-validation (HENRY-independent, banked to STATUS):** VIX 17.68 below RV10 19.57 (VRP −1.89) but above RV20 15.49 (+2.19); sub-RV10 is spike-loaded (6/5 + 6/10 in the lookback) with a roll-off half-life — RV20 is the cleaner 30d-implied comparison (Orc 6/14). IV crushed below recent realized into a 4-catalyst window = coiled-spring sharpened.
+- **Boundary note (parked, NOT decided):** whether VIOLET should consume a dealer-VEGA (vol-supply) cut from HENRY — distinct from gamma (price-amplification) — is a deliberate gamma/vega boundary call for Will/PROME. Resolved this session: VIOLET does NOT stand up a second SPX options pipeline (re-duplicates HENRY's chain); the self-owned expansion path is deepening `vix_options.py` (VIX call skew / vol-complex implied flip). 
+- **Why no bump:** scope/qualification correction + dependency hygiene inside the existing framework; no new mechanism, no conviction reversal.
+
+---
+
 ## Intra-v3.5 dated note — 2026-06-12 AM (POV pivot: branch-weight rotation; fade weakened / coiled-spring strengthened; no version bump)
 
 - **Old view (6/11 EOD):** Fade-leaning posture with stand-down reinforced; KB-VIO-091 distribution fade ~20-26% / stand-aside ~50-60% / tail 15-25% upper-half. Entry waiting on gate 1 (VIX9D ratio ≤1.05) + Bin-B block lift (CCC <9.55 print or clean 6/17 re-check). Ladder spot-clauses STALE-marked pending re-derivation. Coiled-spring component re-forming flagged as a "watch, not fire" (3rd-day SKEW margin widening +0.85 noted but pattern not yet adjudicated as formal).
