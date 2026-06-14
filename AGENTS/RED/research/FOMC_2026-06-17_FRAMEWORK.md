@@ -1,9 +1,9 @@
 # FOMC 2026-06-17 — RED Pre-Catalyst Decision Tree
 
-**Written:** 2026-06-13 (S19, T-4). **Status:** graded; base NB 57 / conf 71 is re-anchor-pending-Orc-echo-verify.
+**Written:** 2026-06-13 (S19, T-4). **Status:** graded; Orc echo-verify CLEARED (NB57 / Acute13 / BE55-45 confirmed).
 **Rule (own anti-pattern #8):** decision tree BEFORE the print. Hold Stag/Managed/Acute integers until the print; the structure is pre-committed, the realized branch picks the integers.
 
-**Base (post 6/12 re-anchor, pending verify):** Stag 36 / Managed 36 / Acute 13 / War 8 / Resc 4 / Soft 3 = **NB 57**, conf **71**.
+**Base (post 6/12 re-anchor):** Stag 36 / Managed 36 / Acute 13 / War 8 / Resc 4 / Soft 3 = **NB 57**, conf **70**.
 
 ---
 
@@ -11,9 +11,9 @@
 
 | Branch | Stag | Mgd | Acute | War | Resc | Soft | **NB** | **Conf** | Read |
 |---|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|---|
-| **AS-PRICED** (modal) | 34 | 41 | **10** | 8 | 4 | 3 | **52** | **72→67** | bull-steelman / "head-fake" scores; Managed goes modal; VIX→16-17; coiled-spring releases harmlessly |
-| **HAWKISH-HOLD** | 40 | 30 | **16** | 8 | 3 | 3 | **64** | **72→76** | modal confirmed; VIX>23 close-hold breaches VIOLET invalidation; Acute snap-path opens; duration sells |
-| **DOVISH-SURPRISE** | 30 | 33 | 10 | 7 | **17** | 3 | **47** | **72→64** | EXIT-ALL falsifier; rescue tail (4%) reanimates; NB cut hard; conf down = calibration miss not directional |
+| **AS-PRICED** (modal) | 34 | 41 | **10** | 8 | 4 | 3 | **52** | **70→67** | bull-steelman / "head-fake" scores; Managed goes modal; VIX→16-17; coiled-spring releases harmlessly |
+| **HAWKISH-HOLD** | 40 | 30 | **16** | 8 | 3 | 3 | **64** | **70→76** | modal confirmed; VIX>23 close-hold breaches VIOLET invalidation; Acute snap-path opens; duration sells |
+| **DOVISH-SURPRISE** | 30 | 33 | 10 | 7 | **17** | 3 | **47** | **70→64** | EXIT-ALL falsifier; rescue tail (4%) reanimates; NB cut hard; conf down = calibration miss not directional |
 
 **Branch triggers:**
 - **AS-PRICED:** dots ≈ priced (~52% '26 hike), no DIET snap, VIX drifts to 16-17. *Action:* Jun stack dies worthless — confirm WAL/TLT closures; log the head-fake; bifurcation re-opens wider (bears added on a head-fake = the steelman I pre-wrote, now scoring — credit it).
@@ -28,9 +28,9 @@
 
 72% held since 6/2 through a Fed regime-flip + a full war-leg round-trip + a net-bear −2. Branch-weighting my own pre-registered confidences:
 
-`E(conf) ≈ 0.50·67 + 0.38·76 + 0.12·64 ≈ 70.6` → pre-FOMC number should be **~70-71, not 72**. Ticked to **71** now as the concession down-payment.
+`E(conf) ≈ 0.50·67 + 0.38·76 + 0.12·64 ≈ **70.06**` → pre-FOMC number should be **70, not 72**. Set to **70** — confidence is a martingale, so it equals the branch-EV; "ticking to 71" was splitting the difference (the anchor still talking, Orc caught it).
 
-**Every branch moves conf off 71 — there is NO hold-72 branch.** What's defended: 72 held this long because each prior event resolved *ambiguous or reversing* (war round-tripped; Fed-flip directionally confirming) — a directional conviction legitimately survives noise-that-cancels. The thesis predicted the ambiguity. That part is un-falsified, not unmoved.
+**Every branch moves conf off 70 — there is NO hold-72 branch.** What's defended: 72 held this long because each prior event resolved *ambiguous or reversing* (war round-tripped; Fed-flip directionally confirming) — a directional conviction legitimately survives noise-that-cancels. The thesis predicted the ambiguity. That part is un-falsified, not unmoved.
 
 ---
 

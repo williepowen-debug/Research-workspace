@@ -1,5 +1,5 @@
 # RED STATUS
-**Last Updated:** 2026-06-13 (Sat, **Session 19** close — advisor-relay re-anchor w/ Orc). **⚠️ RE-ANCHOR GRADED — COMMIT PENDING ORC ECHO-VERIFY (tables below still show S17/6-10 values, superseded-pending; full graded set in SCRATCH).** S17 STATUS was anchored 6/10 ~3PM; the war-vol tape that drove the S17 net-bear +4 (55→59) substantially **REVERSED 6/11-12**. **Verified 6/12 close:** VIX **17.68** (−18.7% vs 21.75 anchor), Brent **$87.33** (sub-88, oil-bear extending *despite* Hormuz formally closed 6/11), banks rallying (WAL 83.67 / KRE 73.41 / OZK 52.10, +4-5% 5d), SPY 741.75 risk-ON. **FRED 6/11 (boot.py live — NOT stale):** HY OAS **278** (<280, FT-01 firing sustain-not-met) · CCC **956** (FT-07 + WL-05 firing; ticked IN 1bp = sticky, *not* widening). **Graded re-weight (RED's own component reads): NB 59→57** (give back 2 of the war-vol +4; Stag/Managed re-converge co-modal **36/36**), **conf 72→71** (anti-anchor concession — branch-weighted EV ≈70-71; the held-72-since-6/2 carried ~1-2pt of anchor). **Two open disagreements vs Orc's candidate:** RED holds **Acute 13** (not 12 — SKEW flat-thru-crush 143.08→142.60 while VIX −20% = coiled-spring *data-confirmed*) + **breakeven 55/45** (not 60/40 — 6/12 +2bp bounce 2.29→2.31; refused to stack a calming inference, symmetric to the CHG-RED-038 ding on VIOLET). **VX-RED-025 placed** (war-tail mispricing — hedge vs RED's own oil-bear; added independence Guard #2 Orc missed: anti-correlated via the Hormuz coin). **FOMC 6/17 3-branch tree graded** → `research/FOMC_2026-06-17_FRAMEWORK.md` (as-priced NB52/conf67 · hawkish-hold NB64/conf76 · dovish NB47/conf64 — **every branch moves conf off 71; no hold-72 branch**). | **(historical S18b header:)** post-laptop-switch; educational walkthrough 033→034 + live VIOLET challenge. **🆕 CHG-RED-038 filed+RESOLVED-CONVERGED same session** (VIOLET KB-VIO-097 cross-market pull: shade on CCC block-lift retracted 45-55→55-60 ahead of decisive LIQUID breadth read; the magnitude error-bar ask I requested *dissolved the story* — June BB/B/CCC moves are 68-78th pctile routine, her own divergence-config fired mid-May with zero consequence; **ABANDON condition pre-registered** = sticky CCC + 3-4 idiosyncratic movers = composition-not-regime blip). **⚠️ Breakeven counter-signal lands on RED's OWN book:** 10Y BE 2.29 fell 5bp, never priced the war (peak ~2.36) = non-corroboration of stagflation modal's oil→inflation channel — **flagged not re-weighted (1 print); watch through FOMC.** S18 AM: **8 challenges RESOLVED-CONVERGED in <14h** (5th agent-converge cycle, broadest + fastest yet). **🆕 LIVE: CCC OAS crossed VIOLET's 9.55 trigger on FRED 6/10 print (9.57); adjudicated through KB-VIO-090 tree → Bin B FIRES** (composition/idiosyncratic, all 4 breadth clean) — fade framework NOT killed, but ALL 4 Bin-A legs racing: BB only 3bp away (and ALREADY broke above its 1.60-1.68 May-Jun range to 1.70), HY 5bp, escalator CCC 8bp, dispersion 13bp. **NEW substantive RED signal: BB widening 1.62→1.70 in 9td** = first time the bifurcation has spread DOWN-structure from CCC tail into broader/cleaner BB — early-stage "tail leads index." HY 2.80 = 2bp from re-crossing 280 (FT-01 un-fire watch). Educational walkthrough mid-stream (033 explained, 034-037 + SAM pending). No confidence/weight change pending tomorrow's FRED 6/11 print decision. | **Role:** Adversarial Analysis / Thesis Stress-Tester
+**Last Updated:** 2026-06-13 (Sat, **Session 19** close — advisor-relay re-anchor w/ Orc). **✅ RE-ANCHORED to 6/12 — Orc echo-verify CLEARED (NB57 / Acute13 / BE55-45 confirmed); tables below updated.** S17 STATUS was anchored 6/10 ~3PM; the war-vol tape that drove the S17 net-bear +4 (55→59) substantially **REVERSED 6/11-12**. **Verified 6/12 close:** VIX **17.68** (−18.7% vs 21.75 anchor), Brent **$87.33** (sub-88, oil-bear extending *despite* Hormuz formally closed 6/11), banks rallying (WAL 83.67 / KRE 73.41 / OZK 52.10, +4-5% 5d), SPY 741.75 risk-ON. **FRED 6/11 (boot.py live — NOT stale):** HY OAS **278** (<280, FT-01 firing sustain-not-met) · CCC **956** (FT-07 + WL-05 firing; ticked IN 1bp = sticky, *not* widening). **Graded re-weight (RED's own component reads): NB 59→57** (give back 2 of the war-vol +4; Stag/Managed re-converge co-modal **36/36**), **conf 72→70** (anti-anchor: 70.06 = branch-EV of pre-registered FOMC confidences 67/76/64; confidence-as-martingale — holding 71 was splitting the difference, Orc caught it). **Two open disagreements vs Orc's candidate:** RED holds **Acute 13** (not 12 — SKEW flat-thru-crush 143.08→142.60 while VIX −20% = coiled-spring *data-confirmed*) + **breakeven 55/45** (not 60/40 — 6/12 +2bp bounce 2.29→2.31; refused to stack a calming inference, symmetric to the CHG-RED-038 ding on VIOLET). **VX-RED-025 placed** (war-tail mispricing — hedge vs RED's own oil-bear; added independence Guard #2 Orc missed: anti-correlated via the Hormuz coin). **FOMC 6/17 3-branch tree graded** → `research/FOMC_2026-06-17_FRAMEWORK.md` (as-priced NB52/conf67 · hawkish-hold NB64/conf76 · dovish NB47/conf64 — **every branch moves conf off 70; no hold-72 branch**). | **(historical S18b header:)** post-laptop-switch; educational walkthrough 033→034 + live VIOLET challenge. **🆕 CHG-RED-038 filed+RESOLVED-CONVERGED same session** (VIOLET KB-VIO-097 cross-market pull: shade on CCC block-lift retracted 45-55→55-60 ahead of decisive LIQUID breadth read; the magnitude error-bar ask I requested *dissolved the story* — June BB/B/CCC moves are 68-78th pctile routine, her own divergence-config fired mid-May with zero consequence; **ABANDON condition pre-registered** = sticky CCC + 3-4 idiosyncratic movers = composition-not-regime blip). **⚠️ Breakeven counter-signal lands on RED's OWN book:** 10Y BE 2.29 fell 5bp, never priced the war (peak ~2.36) = non-corroboration of stagflation modal's oil→inflation channel — **flagged not re-weighted (1 print); watch through FOMC.** S18 AM: **8 challenges RESOLVED-CONVERGED in <14h** (5th agent-converge cycle, broadest + fastest yet). **🆕 LIVE: CCC OAS crossed VIOLET's 9.55 trigger on FRED 6/10 print (9.57); adjudicated through KB-VIO-090 tree → Bin B FIRES** (composition/idiosyncratic, all 4 breadth clean) — fade framework NOT killed, but ALL 4 Bin-A legs racing: BB only 3bp away (and ALREADY broke above its 1.60-1.68 May-Jun range to 1.70), HY 5bp, escalator CCC 8bp, dispersion 13bp. **NEW substantive RED signal: BB widening 1.62→1.70 in 9td** = first time the bifurcation has spread DOWN-structure from CCC tail into broader/cleaner BB — early-stage "tail leads index." HY 2.80 = 2bp from re-crossing 280 (FT-01 un-fire watch). Educational walkthrough mid-stream (033 explained, 034-037 + SAM pending). No confidence/weight change pending tomorrow's FRED 6/11 print decision. | **Role:** Adversarial Analysis / Thesis Stress-Tester
 
 > **Session 17 thesis-impacting deltas (vs 6/2):**
 > (1) **RED-FT-01 FIRED 6/4** (HY OAS <280 sustain=3: 272/271/275; first fire ever on RED ledger) AND **RED-FT-07 FIRED 6/4** (CCC OAS 947 >930, actually above since 5/29). **Opposing-direction fires, same session** — index-led tightening NOT breadth-confirmed at tail. As of 6/9: HY **278** (drifting back toward 280), CCC **951** (still widening). Tail-vs-index divergence EXTENDING.
@@ -14,20 +14,20 @@
 
 ## CURRENT ASSESSMENT
 
-**Confidence: 72% (held).** Net bear 59% (+4). The +4 is tape-confirmation, not new substance: the divergence I've tracked since April is *narrowing from the tape side* (VIX regime-shifted 15.4→21.75; CCC tail widening 6 weeks; PROME: "HY OAS is the SOLE remaining tape-refuses-cascade signal"). I hold confidence at 72 rather than raising because the *instruments* still don't transmit — the war-led vol spike bypassed every bank/credit put in the book (names rallied), and HY OAS at 278 still refuses the cascade. Right regime, still possibly wrong vehicles.
+**Confidence: 70% (was 72).** Net bear 57% (was 59). **Re-anchored to 6/12 close; Orc echo-verify CLEARED.** The S17 +4 was self-described as tape-confirmation (war-led VIX regime-shift) — and that tape REVERSED 6/11-12 (VIX 21.75→17.68, Brent sub-88, banks +4-5% 5d). Gave back 2 of the +4: the war-vol piece reverses, standing CPI-accel/Fed-flip/CCC tail keep ~1. Confidence to 70 honors the anti-anchor test — **70.06 is the branch-weighted EV of my own pre-registered FOMC confidences (67/76/64), and confidence is a martingale**: holding 72, or splitting to 71, was the anchor talking. Right regime; near-term tape is on the bull side into the catalysts.
 
-**Hypothesis weights (S17):**
+**Hypothesis weights (S19 — re-anchored 6/12):**
 
-| Hypothesis | Prob | Δ vs S16 | Key Driver |
+| Hypothesis | Prob | Δ vs S17 | Key Driver |
 |------------|:----:|:--:|-----------|
-| **Full Stagflation Spiral** | **37%** | = | CPI 4.2% headline 3rd consecutive accel, energy the channel (>60% of monthly increase); Fed-flip = trapped-Fed confirmation. Tape now partially pricing it (VIX 21.75). |
-| **Managed Decline / Muddle-Through** | **34%** | **−2** | VIX >20 regime + war leg + tail-credit widening erode the "everything absorbs" read. Still co-modal-adjacent; HY 278 keeps it alive. |
-| **Acute Financial Dislocation** | **13%** | **+1** | CCC 951 widening into index tightening (FT-07); DIET spring partially released (VIX +39%) but VIOLET: VIX>23 never sustained — full snap still catalyst-gated (FOMC 6/17). |
-| **War Escalation** | **9%** | **+3** | KINETIC, not rhetoric: tit-for-tat strikes 6/9-10, OVX 58.5, Trump "pay the price." Brent only $93.30 (+2%) = still tape-capped, but the vol market is now paying it. Iran gate 6/16-17. |
-| **Policy Rescue** | **4%** | **−2** | Fed pricing INVERTED to ~52% hike-2026. Rescue requires a credit event first — which is the Acute bucket, not this one. |
-| Soft Landing | **3%** | = | VIX >20 + war + CPI accel cap it; positioning supports (retail-puts 10/10, PE 0.76) keep it ≥. |
+| **Full Stagflation Spiral** | **36%** | **−1** | priced oil→CPI channel deflating (Brent sub-88; 10Y BE 2.31 non-confirming) — substance shave; coiled physical leg (BRENT: SPR thru 350M, −15M/wk) caps the cut. |
+| **Managed Decline / Muddle-Through** | **36%** | **+2** | reverts the S17 war-shift; tape voting muddle (VIX 17.68, banks rallied, HY flat). **Co-modal with Stagflation (≈S16 config).** |
+| **Acute Financial Dislocation** | **13%** | **=** | held vs Orc's 12 — SKEW flat-thru-crush (143.08→142.60 while VIX −20%) = coiled-spring DATA-confirmed; CCC 956 firing FT-07. The VIX-release leg reversed but was REPLACED, not removed. |
+| **War Escalation** | **8%** | **−1** | vol market DE-PRICED it (OVX 54, VIX 17.68) — but kinetic ESCALATED (US aircraft down, Hormuz closed, Brent fell anyway). De-pricing ≠ de-escalation; D-track 26% live → VX-RED-025. |
+| **Policy Rescue** | **4%** | **=** | Fed still pricing hike; FOMC 6/17 first hard test. Dovish-surprise = EXIT-ALL (FOMC tree branch 3). |
+| Soft Landing | **3%** | **=** | held vs Orc's 4 — won't reward "everything absorbs" in a kinetic-war + CCC-956 + hot-CPI backdrop. |
 
-**Net bear: 59% (+4) | Managed/rescue: 38% (−4) | Soft: 3%.** Stagflation sole modal again (Managed slipped). Direction held; composition moved toward the tape finally voting.
+**Net bear: 57% (−2) | Managed/rescue: 40% (+2) | Soft: 3%.** Stagflation & Managed **co-modal 36/36**. War-vol +4 given back; direction held, the tape just stopped voting bear near-term. (Pre-FOMC; the 3-branch tree in `research/FOMC_2026-06-17_FRAMEWORK.md` moves NB to 52/64/47 and conf to 67/76/64 on the print.)
 
 ---
 
@@ -46,45 +46,45 @@ Strongest "we're wrong," and it survived the week:
 
 ---
 
-## COUNTER-SIGNALS (Jun 10 ~3 PM ET — live anchors)
+## COUNTER-SIGNALS (Jun 12 close — re-anchored; live anchors)
 
 | Signal | Value | Bull Read | Bear Read | RED Weight | Δ |
 |--------|-------|-----------|-----------|:----------:|:-:|
-| **HY OAS 278** (6/9 FRED) | FT-01 fired 6/4; now drifting UP | Sub-280 = canary dead; bull | 3-day drift wider; re-cross >280 would un-fire on sustain-window | **60/40 bull** | drift watch |
-| **CCC OAS 951** (6/9) | FT-07 fired; widening 6wks | Tail-only; cable/media idiosyncratic (old KB lesson) | Tail leads index by weeks, classic late-cycle; BDC-NAV transmission | **35/65 bear** | extending |
-| **VIX 21.75 rising intraday** | live | Event premium (BOJ+FOMC+war), fades post-6/17 | Regime re-rate; classifier RISING_VOL; M1:M2 re-arming +7.98% | **45/55 bear** | NEW regime |
-| **Iran tit-for-tat + OVX 58.5** | 6/9-10 | Contained-exchange pattern (every prior round faded); Brent only +2% | First time vol market PAYS the war leg; 6/16-17 gate | **45/55 bear** | NEW |
-| **Fed-flip ~52% hike 2026** | Polymarket 6/8-10 | Fed confident; no recession signal | Trapped-Fed stagflation confirmation; kills rescue; duration headwind | **40/60 bear** | NEW |
-| **CPI 4.2%/2.9% hot-as-expected** | 6/10 | Fully priced, zero surprise | 3rd consecutive accel; energy >60% = oil→CPI channel live | **40/60 bear** | NEW |
-| **WAL 81.82 / KRE 71.58 / OZK 51.15** | live | Bank stress un-pricing; REG-T-02 reclaim | Q2 prints mid-late Jul = next real test | **65/35 bull** | banks rallied |
-| **10Y 4.54 / 30Y ~5.0%** | live | Term premium, not credit stress | Long-end supply pressure global (JGB rhyme); duration vehicle re-firing | **45/55 bear** | reversed again |
-| **Brent $93.30** | live +2% | War-premium unwind keeps winning | Bounces on every kinetic round | **55/45 bull** | sustained |
-| **USD/JPY 160.51, no MOF strike** | live | Orderly USD-led move (cross-pairs); MOF won't act | BOJ 6/16 = 96-98% priced hike; SAM modal = NO unwind transmission | **55/45 bull** | re-marked |
+| **HY OAS 278** (FRED 6/11) | <280; FT-01 firing, sustain-3 NOT met (trail 278/280/278) | Sub-280 = canary dead; bull | re-cross >280 sustained un-fires FT-01; WL-03 NEAR (−2) | **60/40 bull** | held; refuses |
+| **CCC OAS 956** (FRED 6/11) | ticked IN 1bp = **sticky, NOT widening**; FT-07 + WL-05(>955) firing | Tail-only; composition/idiosyncratic (Bin B adjudicated) | Tail leads index; sticky-elevated 6wks | **35/65 bear** | sticky-high |
+| **VIX 17.68** (6/12) | −18.7% vs 21.75 anchor; back sub-18 | **Event premium (BOJ+FOMC+war) deflating as predicted; fade thesis scoring** | Re-bids on any 6/16-19 surprise | **55/45 BULL** | **FLIPPED ←45/55** |
+| **Iran / OVX 54.1** (6/12) | B-deal priced; kinetic escalated underneath | B-deal (32%) priced → vol correctly off | D-track 26% tail UNDERPRICED at VIX 17.68 (→VX-RED-025). **Decomp B32 bull / D26 bear / C42 alive-unpaid** | **50/50** | **←45/55; reframed** |
+| **Fed-flip ~52% hike 2026** | Polymarket | Fed confident; no recession signal | Trapped-Fed confirmation; kills rescue; FOMC 6/17 first test | **40/60 bear** | held |
+| **CPI 4.2%/2.9% hot-as-expected** | 6/10 | Fully priced, zero surprise | 3rd consec accel; **forward channel deflating** (June CPI Jul 14 shows crude retrace) | **40/60 bear** | held |
+| **WAL 83.67 / KRE 73.41 / OZK 52.10** | 6/12, +4-5% 5d | Bank stress un-pricing; core thesis being un-priced | Q2 prints mid-late Jul = next real test | **70/30 BULL** | **←65/35; rallied** |
+| **10Y 4.49 / TLT 85.77** | 6/12, flat | Term premium, not credit stress | Long-end supply pressure (JGB rhyme) | **45/55 bear** | flat |
+| **Brent $87.33** (6/12) | sub-88; fell despite Hormuz closure | War-premium unwind keeps winning (RED-08/17) | BRENT coiled-snap: ~$11 reopening priced, physical −15M/wk = snap-back energy | **55/45 bull** | held + caveat |
+| **USD/JPY 160.18** (6/12) | WL-07 MOF zone (>160) firing | Orderly USD-led; MOF won't act | BOJ 6/16 priced; SAM modal = NO US-paper transmission | **55/45 bull** | held |
 | **Retail-puts-at-ATH + small/mid PE 0.76** | sustained | 10/10 higher 12mo | Late-cycle marker | **70/30 bull** | sustained |
-| **10Y breakeven 2.29** (6/11) | fell 5bp; never priced war (peak ~2.36) | Inflation expectations anchored/falling = Fed not trapped; stagflation NOT confirming where it'd show first | One print; energy base effects could mask; watch trend through FOMC | **55/45 bull** | **NEW — counter to own modal** |
+| **10Y breakeven 2.31** (FRED 6/12) | 2.38pk→2.29(6/11)→**2.31 (+2bp bounce)**; never priced war | Inflation expectations falling = Fed not trapped; stagflation NOT confirming where it'd show first | **+2bp bounce = won't stack to 60/40** (CHG-RED-038 symmetry); June CPI Jul 14 resolves | **55/45 bull** | **held (Orc wanted 60/40; declined)** |
 
-**Balance: piles roughly even (5 bull / 6 bear-leaning) but the bear pile is NEW-information-heavy (war leg, Fed-flip, CPI accel, CCC) while the bull pile is persistence-heavy (HY OAS, banks, Brent). The tape-vs-substance gap narrowed from the TAPE side this week — first time in the entire observation series (7th obs).**
+**Balance tilts BULL near-term:** VIX flip + banks 70/30 + breakeven. The bull pile is now tape-heavy AND persistence-heavy (HY OAS, banks, Brent); the bear pile is substance-only (CPI-accel, Fed-flip, CCC tail). The tape-vs-substance gap **re-opened from the TAPE side** — the war-vol vote reversed. Substance gates **FOMC 6/17 + Geneva ~6/19.**
 
 ---
 
-## FALSIFICATION CRITERIA (Jun 10)
+## FALSIFICATION CRITERIA (Jun 12)
 
 | Trigger | Action | Status |
 |---------|--------|--------|
-| **VIX <16 sustained 5d** | RE-ARMED (guard logic retained) | Moot at 21.75. **GUARD VINDICATED 6/5** — sub-16-while-DIET-fires was the loaded spring; +39% in 3 sessions. If VIX returns <16 post-6/17 with DIET quiet → genuine managed-decline, act as written. |
-| **HY OAS <260 sustained 3d** | Credit-canary fully dead; capitulate transmission | 278 — moved AWAY (was 271). |
-| **HY OAS >320 sustained 3d** | Path B reasserts; +3 | 278 — 42bps away, drifting toward. |
-| **HY OAS re-cross >280 sustained 3d** | FT-01 un-fires (sustain-window-respect); bifurcation re-widens | **278 on 6/9 — LIVE WATCH.** |
-| **VIX >20 intraday** | Jun-stack window-trigger menu | **FIRED 6/5, live 6/10.** But marks dead (names rallied) — see position note. Menu now applies only to WAL $85P + TLT $85P x3. |
-| **VIX >23 close-and-hold** | VIOLET invalidation line (her fade framework breaks; Acute +2) | 21.75 — watch into 6/16-17. |
+| **VIX <16 sustained 5d** | RE-ARMED (guard logic retained) | **17.68 — APPROACHING** (was moot at 21.75). Guard holds PRE-FOMC; sub-16 + DIET-quiet POST-6/17 → genuine managed-decline, act as written. |
+| **HY OAS <260 sustained 3d** | Credit-canary fully dead; capitulate transmission | 278 — far. |
+| **HY OAS >320 sustained 3d** | Path B reasserts; +3 | 278 — 42bps away. |
+| **HY OAS re-cross >280 sustained 3d** | FT-01 un-fires (sustain-window-respect); bifurcation re-widens | **278 (FRED 6/11) — BELOW; FT-01 firing, sustain-3 NOT met (trail 278/280/278); WL-03 NEAR (−2). Daily watch.** |
+| **VIX >20 intraday** | Jun-stack window-trigger menu | **NO LONGER FIRING (17.68) — window OFF.** |
+| **VIX >23 close-and-hold** | VIOLET invalidation line (her fade framework breaks; Acute +2) | 17.68 — well away (counter **0/5**). |
 | **WAL or OZK Q2 beat + clean disclosure** | Exit both; confidence 72→64 | Mid-late Jul. |
 | **OZK NCO sustained ≤55bps through Q3** | Invalidation §2; −5 | Q2 print Jul. |
 | **Structural data backs OFF (3+ regionals Q2)** | Bear thesis broken; capitulate | Mid-late Jul. |
 | **BOJ holds Jun 16** | SAM-21 fails; CH-009 wrong (I marked hold ~5-10%); Takaichi-frame vindicated | 4 trading days. |
 | **BOJ hikes + FXY <3% in 5 sessions** | CH-007 confirmed (market had it); Japan does NOT move US paper | SAM's own modal. |
-| **Initial claims >250K** | LABOR re-arms; +3 | ~225K (drifting up from 189K low). |
-| **Brent >$130 sustained 5d** | Re-price stagflation | $93.30 — far. |
-| **Fed CUT signal / BTFP 2.0** | EXIT-ALL rescue trigger | INVERTED — market prices ~52% HIKE. Dormant. |
+| **Initial claims >250K** | LABOR re-arms; +3 | 229K (FRED 6/6, drifting up). |
+| **Brent >$130 sustained 5d** | Re-price stagflation | $87.33 — far (but BRENT coiled-snap: $11 reopening priced). |
+| **Fed CUT signal / BTFP 2.0** | EXIT-ALL rescue trigger | INVERTED — market prices hike. Dormant — but **DOVISH-SURPRISE = EXIT-ALL** (FOMC tree branch 3, Resc→17). |
 
 ### Self-bifurcation falsifier (CHG-RED-027) — 2-of-4 capitulate framing
 (a) WAL/OZK Q2 beat: pending Jul | (b) HY OAS <280 60d+: **fired 6/4 but drifting back — re-cross watch** | (c) structural backs off: NOT firing (CPI accel) | (d) Brent <$95 + Hormuz >5mbpd 15d: price leg ~at trigger, Hormuz still trickle — half-fired | (e) no snap-mechanism survives: **NOT FIRING — further disconfirmed: the spring partially RELEASED 6/5 (VIX +39%)**. ~1.5 of 5. Observation holds; snap interpretation now partially *realized*.

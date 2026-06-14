@@ -4,6 +4,27 @@
 
 ---
 
+## 2026-06-13 — War-Vol Tape Reversal: S17 +4 Net-Bear Partially Given Back; Stag/Managed Re-Converge Co-Modal; Anti-Anchor Concession 72→70 (Session 19, advisor-relay re-anchor with Orc)
+
+**Confidence:** 72% → **70%** (−2). **Net bear:** 59% → **57%** (−2).
+
+**What happened:** Boot caught STATUS stale-anchored 6/10 ~3PM while the war-vol tape that drove the S17 +4 had reversed over 6/11-12 (VIX 21.75→17.68, Brent 93.30→87.33 sub-88 despite Hormuz closure, banks +4-5% 5d, SPY risk-ON). Re-anchored to 6/12 close — Orc advisor-relay; RED graded + amended; **echo-verify CLEARED** (NB57 / Acute13 / BE55-45 confirmed). My own documented failure class (prior-session narrative substituting for fresh measurement).
+
+**Re-balance (gave back 2 of the S17 war-vol +4):**
+- Stagflation 37 → **36** (−1) — priced oil→CPI channel deflating (Brent sub-88; 10Y BE 2.31 non-confirming); coiled physical leg (SPR thru 350M, −15M/wk) caps the cut
+- Managed 34 → **36** (+2) — reverts the war-shift; tape voting muddle. **Co-modal with Stag (≈S16 config)**
+- Acute 13 → **13** (=) — **held vs Orc's 12**; SKEW flat-thru-crush (143.08→142.60 while VIX −20%) data-confirms the coiled spring (VIX-release leg reversed but REPLACED, not removed)
+- War 9 → **8** (−1) — vol DE-PRICED it; kinetic ESCALATED (1st US aircraft down, Hormuz closed, Brent fell anyway). **De-pricing ≠ de-escalation;** D-track 26% live → VX-RED-025
+- Rescue 4 (=) / Soft 3 (=) — **Soft held vs Orc's 4** (won't reward "everything absorbs" in a kinetic-war + CCC-956 backdrop)
+
+**Anti-anchor concession (Orc's sharpest catch):** 72% had held since 6/2 through a Fed regime-flip + a full war-leg round-trip + a net-bear −2. Branch-weighting my own pre-registered FOMC confidences: E(conf) = 0.50·67 + 0.38·76 + 0.12·64 = **70.06**. Confidence is a martingale → it equals the branch-EV. Holding 72 (or splitting to 71) was the anchor talking. **Set to 70.**
+
+**What's NOT given back:** HY OAS 278 still refuses; CCC 956 still firing FT-07; structural bear (CPI-accel, Fed-flip, tail-credit) intact. The reversal is the war-vol *tape*, not the substance. The bull-steelman I pre-wrote (de-escalation + FOMC-no-surprise → VIX toward 16) is the scenario now scoring — credit logged.
+
+**Artifacts:** VX-RED-025 (war-tail mispricing — hedge vs own oil-bear + Guard #2 Hormuz anti-correlation); FOMC 6/17 3-branch tree (`research/FOMC_2026-06-17_FRAMEWORK.md`, moves conf to 67/76/64); ML-RED-084. Substance gates **FOMC 6/17 + Geneva ~6/19.**
+
+---
+
 ## 2026-06-10 — The Week the Tape Blinked: Dual Trigger Fire (Opposite Directions), VIX<16 Guard Vindicated, Iran Third Vol Leg, Fed Pricing Flips Cut→HIKE; SAM Pre-BOJ Stress-Test Filed (Session 17, 8-day gap)
 
 **Confidence:** 72% → **72%** (held)
