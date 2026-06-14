@@ -68,7 +68,7 @@ Messaging-overhaul direction in effect. `demand_destruction/TRACKER.md` is the o
 | Metric | Value | Updated |
 |--------|-------|---------|
 | **Brent (settles)** | Jun 9 $91.45 / Jun 10 $93.10 / Jun 11 $90.38 / **Jun 12 $87.20 — SUB-$88 CLOSE #1 (XLE re-eval clock 1 of 2; Mon completes if <$88)**. WTI $84.71 | **Jun 12 settle** [CONF own feed] |
-| **WTI (live futures)** | **$85.35 (−2.69%)** | Jun 12 8:43 [CONF boot.py] |
+| **WTI (live futures)** | **$84.88 (Fri Jun 12 close)** | Jun 12 close [CONF boot.py Jun 14] |
 | **M1−M3 (Brent curve)** | **$2.40 (Jun 12 settle) — TRIGGER #1 AT 2/3** (Jun 11 $2.67 #1, Jun 12 $2.40 #2; **completes Mon Jun 15 settle if <$3**). $4.95 Jun 1 → $2.40 — backwardation nearly gone | **Jun 12 settle** [CONF Yahoo strip; ICE CONF pending] |
 | **June MTD settled avg vs STEO** | **$94.01 (n=9, 6/1-6/11) vs $105 STEO June closed-Hormuz assumption ≈ $11 gap** | Jun 12 [CONF own feed + EIA June STEO] |
 | Retail gas (FRED GASREGW) | $4.146 (BRT-13 $4.00 broken); mid-June relief expected | Jun 8 [CONF FRED] |
@@ -81,13 +81,12 @@ Messaging-overhaul direction in effect. `demand_destruction/TRACKER.md` is the o
 | **Gasoline 4-wk YoY** | **−0.5% — FIRST NEGATIVE of cycle** (clean post-MD); jet −2.2%; distillate +7.2%; total +3.5% | Jun 10 EIA [CONF] |
 | US oil rigs (Baker Hughes) | **433 (Jun 12; +2 WoW, 3rd straight wk at decelerated +2 pace; +26 from 407 trough; 24 to 457).** Pace-diagnostic: +2/wk → breach ~mid-Sep; +1/wk → holds at ~448 thru Q3. Rigs lag price 4-8wk — May's $95 tape still feeding adds | Jun 12 [CONF BH via TE] |
 | **CFTC NYMEX MM net long** | **90,765 (Jun 2 wk; +10,841 WoW)** — series: May 19 98,219 → May 26 79,924 (−18,295) → Jun 2 90,765. **Trigger #3 NOT re-fired** (1 decline then re-accumulation on suspension gap-up = specs bought kinetic premium). Live tests: Jun 19 (halt wk) / Jun 26 (settlement wk) releases | **Jun 12** [CONF CFTC petroleum_lf] |
-| **USO** | $128.83 (−4.07%) | Jun 12 8:43 [CONF boot.py] |
+| **USO** | $125.43 (Fri Jun 12 close) | Jun 12 close [CONF boot.py Jun 14] |
 | **STNG / tankers** | **$78.31 close (+2.8%) — 5th consecutive up session, THROUGH the settlement announcement** — BRT-15 counter-evidence extended | Jun 12 settle [CONF own feed] |
 | **XLE (position)** | $57.12 AM (−1.94%) → **$57.88 intraday (+1.3%) — UP on Brent-down tape**; $65C ~$7.1-7.9 OTM | Jun 12 [CONF boot.py + own feed] |
 | **CF $130C (position)** | **$0.10 last / $0.00 bid / OI 1,536 [CONF Yahoo chain Jun 12 — CORRECTIVE: Tue's "~$8 ≈ $800" was phantom]**; CF stock $108.09 | Jun 12 [CONF] |
 | VIX | 21.79 Jun 9 [STALE — VIOLET owns vol; reference their broadcast] | Jun 9 [STALE] |
 | Natgas futures | $3.15 Jun 9 [STALE] | Jun 9 [STALE] |
-| HY OAS / HY Energy | 2.83% / 2.85% Apr 28 [STALE — LIQUID primary] | Apr 28 [STALE] |
 | EIA STEO (June) | **$105 Jun-Jul (closed-Hormuz assumption) / $95 2026 / $79 2027** — DOWN revision from Apr $115-Q2-peak frame | Jun 9 [CONF EIA] |
 | China crude imports (May) | ~7.8M bpd 8-yr low, −4M vs 2025 avg | Jun 9 [CONF EnergyConnects/Bloomberg] |
 | CPI (May print) | **+0.5% MoM / +4.2% YoY; energy +3.9% MoM = >60% of monthly increase; gasoline +40.5% YoY** | Jun 10 [CONF BLS] |
@@ -123,7 +122,7 @@ Messaging-overhaul direction in effect. `demand_destruction/TRACKER.md` is the o
 | Storage (global) | 🔴 5 | **SPR THROUGH floor (349.2M, drain-through)**; total crude −15.2M/wk ×2; Cushing floor ~Jul 1 |
 | Tanker/shipping | 🟠 3 | War-risk unwound; STNG +4-5 sessions into announcement (BRT-15 counter-evidence logged) |
 | **Refining bottleneck** | 🟠 **3 ↑ from 2** | Util 95.3% + 3-2-1 $45.64 WIDENING + dist crack ~$60 = genuine product tightness (margin-boom); BRT-12 compression-warning absent |
-| Energy credit | 🟡 2 | Stale Apr 28; LIQUID primary |
+| Energy credit | 🟡 2 | LIQUID primary (reference their broadcast — BRENT no longer carries an HY-OAS copy); BRENT's own channel = crack-compression (BRT-12), currently quiet/widening |
 | OPEC+ policy | 🟠 3 | +188K July digestion; functionally paper behind Hormuz |
 | Ceasefire stability | 🟠 3 | Dawn #5: closest-yet announcement BUT Iran unconfirmed + live kinetic counter-indicator — split state, ladder armed |
 | **Curve structure** | 🔴 **4 ↑ from 3** | **M1−M3 $2.67 first sub-$3 close; Trigger #1 completes Mon if holds** — backwardation nearly gone, front-led |
