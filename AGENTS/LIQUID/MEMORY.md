@@ -2,7 +2,25 @@
 
 ## Session Notes
 
-### CURRENT SESSION (2026-06-12 AM — boot + live refresh + APO trigger fire)
+### CURRENT SESSION (2026-06-13 Sat — boot + Fri closes + position cleanup)
+
+**Context:** Saturday boot (markets closed). Pull skipped — VIOLET tree dirty, my dir clean. Will: pull Fri closes, TEN closed, and **cut bait on the HYG position** (it was being surfaced every boot with nothing actionable).
+
+**⚠️ Mis-scope + self-correction:** First read Will's "HY OAS dead, cut tracking" as retiring the **HY OAS metric** — did a full retirement pass (KB-060, KILL_MEMO archived, cross-agent signal pulled) and committed c1cd7d6b. Will clarified: **HY OAS stays a tracked metric/signal; the dead thing is the HYG PUT POSITION.** Reverted c1cd7d6b (commit f9676ca6) — HY OAS apparatus + KILL_MEMO fully restored — then applied the correct change. Lesson: "X dead" on a position-vs-metric ambiguity → confirm which before a teardown pass. HY OAS the index ≠ HYG the position.
+
+**Done (correct):**
+- **Fri 6/12 closes** (yfinance proxy): 10Y 4.487 / 30Y 4.975 (oscillation holds, both sub-threshold); **Brent $87.33 = FIRST sub-$90 CLOSE** (stagflation-ladder clause-1 trigger); USD/JPY 160.19 (5th close >160); VIX 17.68 (cooled off 22.22 CPI spike); APO $133.88 (Day 4 >$130); TLT 85.77; BIZD 12.71.
+- **TEN calls CLOSED** (Will, winner ~$7.11). **HYG $75P WRITTEN OFF — cut bait:** dead, deep OTM, let expire worthless 6/19, **no further surfacing.** Both struck from STATUS + STRATEGY; PROPOSAL 4 resolved. Book is flat of LIQUID single-names (APO Dec $95P is BROCK-owned).
+- **HY OAS unchanged** — still tracked: macro 280 (6/10), 260 kill / 320 confirmation, KILL_MEMO live, CCC 957 tail watch, cross-agent >320 signal intact.
+
+**Open follow-ups (carried):**
+- *(No open position decisions — HYG/TEN both resolved. Do NOT re-surface HYG.)*
+- FOMC 6/17 (duration + conviction-60 resolver); May TIC 6/18 (USD/JPY-flow confirm). FSK P/NAV 0.52 verify; OBDC Q1 NAV owed; LIQ-03 resolves 6/30.
+- **Push pending** — Saturday, no coordinated window; committed locally (revert f9676ca6 + this correction), sweeps next window.
+
+---
+
+### SESSION (2026-06-12 AM — boot + live refresh + APO trigger fire)
 
 **Context:** Friday-morning boot, 4d since last session. All live-primary pulls (FRED + yfinance per the rule).
 
@@ -171,12 +189,12 @@ MEMORY.md    STATUS.md  STRATEGY.md           USER.md
 
 ### NEXT SESSION
 
-*(Catch-up audit complete 6/12 — LIQUID is current. These are forward watches, not cleanup.)*
+*(Updated 6/13 — LIQUID current. Forward watches, not cleanup. Positions all resolved — no decision items.)*
 
-1. **First boot move — verify tonight's 6/12 closes** (per basis canon): Brent first sub-$90 **ICE settle**? → starts the stagflation-ladder clause-1 clock (TIMELINE Brent row). APO Day 4 (raw close)? 30Y/10Y vs the 5.00 pivot. HY OAS direction.
-2. **Position decisions before Fri 6/19 opex:** HYG $75P (expire/close — dead) + TEN $30 calls (ITM ~$7 — exercise/sell). Will decisions; surface every boot until resolved.
-3. **FOMC Wed 6/17** — the duration-regime + conviction-60 resolver (dot plot vs hot May CPI; Warsh color; liquidity-facility language = Leg A kill watch). → **TIC Thu 6/18** (Japan net / Belgium $481B vs $500B orange — KB-LIQ-055; gates the USD/JPY>160 flow confirmation).
-4. **Open verifies:** FSK P/NAV 0.52 (split/vintage); OBDC Q1 NAV (search avoided Onex conflation); FRED 6/11 yield prints confirm; BRENT energy-HY OAS reply (outbox out).
+1. **First boot move — verify Mon 6/16 closes** (per basis canon): Brent — sub-$90 hold/extend (ICE settle; clause-1 clock running since 6/12 $87.33)? APO streak (raw close, Day 4 was 6/12). 30Y/10Y vs the 5.00/4.50 pivots. **HY OAS direction (still a tracked signal).**
+2. **Positions — NOTHING TO SURFACE.** HYG written off (let expire worthless 6/19, cut bait); TEN closed (winner). Do NOT re-raise either.
+3. **FOMC Wed 6/17** — the duration-regime + conviction-60 resolver (dot plot vs hot May CPI; Warsh color; liquidity-facility language = Leg A kill watch). → **TIC Thu 6/18** (Japan net / Belgium $481B vs $500B orange — KB-LIQ-055; gates the USD/JPY>160 flow confirmation, now 5 closes).
+4. **Open verifies:** FSK P/NAV 0.52 (split/vintage); OBDC Q1 NAV (search avoided Onex conflation); FRED H.15 6/12 yield prints confirm proxy; BRENT energy-HY OAS reply (outbox out).
 5. **LIQ-03 resolves 6/30** at the letter (CLO AAA vs 160 trigger; interim ~S+130-145).
 6. **Inbox (2 pending, process on inbox-spawn)** — HAWK OFAC toll-risk 5/22; PROME FRED-citation-convention 5/21.
 

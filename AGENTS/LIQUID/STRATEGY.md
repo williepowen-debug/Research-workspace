@@ -34,10 +34,10 @@
 
 ## Active Position Views
 
-| Position | Thesis | Current Assessment (6/12) |
+| Position | Thesis | Current Assessment (6/13) |
 |----------|--------|--------------------|
-| HYG $75P Jun x10 | LIQ-01 credit stress (HY OAS retest of 320) | **Thesis broken.** HYG $79.94 (close 6/11), strike $75 = deep OTM; HY at 280, 40bps from the trigger; **expiry Fri 6/19 — T-5, decision window closing.** **→ close / let expire (Will decision).** Equity/credit puts bleed in regime-suppressed tape (see `put_vs_duration` memory). |
-| TEN calls Jun $30 | Triple premium (war + FOI + basis) | **ITM winner — TEN $37.11 close 6/11 (~$7.11 intrinsic).** War/ice-class thesis intact; Brent collapse does NOT hit this (TEN is war/ice-class, not reflation). **Expiry Fri 6/19 — T-5: exercise/sell decision needed.** Cross-check BRENT/HAWK before action. |
+| ~~HYG $75P Jun x10~~ | LIQ-01 credit stress (HY OAS retest of 320) | ⬛ **WRITTEN OFF (cut bait 6/13).** Dead, deep OTM ($79.94 vs $75); let expire worthless 6/19. No action, no further surfacing. *(The HY OAS retest-to-320 thesis it expressed did not play — but HY OAS itself remains a tracked signal; only this position is dead.)* |
+| ~~TEN calls Jun $30~~ | Triple premium (war + FOI + basis) | ✅ **CLOSED (Will, 6/12-13) — winner booked** (was ITM ~$7.11). |
 
 ## Active Workbooks
 - `workbook/KILL_MEMO_HY_OAS_260.md` — pre-written trigger ladder + verification + PROME template
