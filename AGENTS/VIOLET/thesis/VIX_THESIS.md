@@ -2,6 +2,8 @@
 
 VIOLET's core framework: Credit-vol relationship is **regime-dependent, crisis-type-dependent, and directionally asymmetric**. Operational signal stack runs L1 (population framework, real-money) over L2-L4 calibration filters. Two transmission paths now formal: standard credit-led, and concentration-unwind parallel.
 
+> **⚠️ MECHANISM STATUS (2026-06-14, Orc-flagged):** The **GEX-suppression *mechanism*** (KB-VIO-062 — *why* catalysts get absorbed = dealer positive-gamma) is **UNCONFIRMED since HENRY went dark ~6/9** (HENRY STATUS frozen 6/9; no HENRY NEXUS_BRIEF; HENRY owns dealer-gamma/flip mechanics). This scopes ONLY the causal narrative — **NOT the coiled-spring *signal*** (L1 DIET base-rate framework, KB-VIO-067), which is self-computed from VIOLET's own surface and remains EMPIRICAL / real-money, self-validated current (vol crushed 22.2→17.7 through the 6/10 Iran spike = absorption signature, measured without HENRY) — and **NOT the *release trigger*** (dealer flip level), a HENRY-consumed input VIOLET does not self-build (named as a required cross-domain input in NEXUS_BRIEF WAITING-FOR). Per KB-VIO-070: a mechanism going dark degrades the explanation, not the base-rate signal — continue sizing off L1. Re-confirm on HENRY revival.
+
 ---
 
 ## CHANGELOG
