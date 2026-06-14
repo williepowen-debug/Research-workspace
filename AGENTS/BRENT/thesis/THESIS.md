@@ -1,8 +1,8 @@
-# BRENT THESIS — v3.1
+# BRENT THESIS — v3.2
 
-**Version:** 3.1
-**Last Updated:** 2026-06-13
-**Status:** 🟠→🔴 **MAXIMAL PHYSICAL/PRICE DIVERGENCE — the divergence IS the thesis.** Physical leg INTENSIFYING (SPR drained THROUGH the ~350M floor, no throttle; total crude −15M/wk ×2; util 95.3% crossed the Apr-registered 95% tripwire; Cushing floor ~Jul 1) while the tape prices the de-escalation arc — Brent ~$87 handle ($87.20 Jun 12 settle; ~−25% vs May 5 peak). June MTD realized $94.01 vs STEO's $105 closed-Hormuz assumption ≈ **$11 of priced-in reopening** = stored snap-back energy in whichever direction the de-escalation bet is wrong.
+**Version:** 3.2
+**Last Updated:** 2026-06-14
+**Status:** 🟠→🔴 **MAXIMAL PHYSICAL/PRICE DIVERGENCE — the divergence IS the thesis.** Physical leg INTENSIFYING (SPR 349.2M draining ~8M/wk no throttle [v3.2 correction: ~350M was the 2023 trough, NOT an operational floor — real §6241 floor 252.4M / none for emergency authority; bearish branch runs longer]; total crude −15M/wk ×2; util 95.3% crossed the Apr-registered 95% tripwire; Cushing floor ~Jul 1) while the tape prices the de-escalation arc — Brent ~$87 handle ($87.20 Jun 12 settle; ~−25% vs May 5 peak). June MTD realized $94.01 vs STEO's $105 closed-Hormuz assumption ≈ **$11 of priced-in reopening** = stored snap-back energy in whichever direction the de-escalation bet is wrong.
 **Conviction:** **Flat-price cautious-neutral** (unchanged from v3.0); no new flat-price longs. **Phase 2 substrate now ARMING on schedule** beneath the diplomatic-pricing tape: Path B Trigger #1 at **2/3** (completes Mon Jun 15 if curve holds <$3), Trigger #2 **sign-flipped** (gasoline −0.5% YoY first negative of cycle), macro oil→CPI leg **PRINTING** (May CPI energy >60% of increase). Decoupling hardened: Iran's formal Hormuz closure declaration fired Jun 11 and Brent FELL (FLOW-HAWK-19). BRT-27 RESOLVED CONFIRMED (HAW-09 confirmed Jun 13). BRT-04 (shale non-response) LOW (~50-55%).
 
 ---
@@ -17,7 +17,7 @@ The two-phase oil crisis is in its **Phase 1 → Phase 2 hinge, and the defining
 
 **The decoupling has hardened into a regime.** Iran's formal Hormuz closure declaration fired Jun 11 (a Tier-1 trigger) and Brent fell 2.9% the same session. The tape now discounts even formal Iranian declarations absent *realized* throughput or fresh infrastructure damage (FLOW-HAWK-19). Corollary: the price will likely move on the *announcement* of reopening (or its collapse), not on physical flow — so the exit/short trigger is the repricing event, not the barrels (LESSONS #11/#16).
 
-**One-liner:** Hormuz functionally closed since Feb 27; the "Islamabad Agreement" is the closest-yet text but unsigned, Iran-uncontested only in name, kinetic ongoing; Brent ~$87 (−25% from peak) prices a reopening the strait hasn't delivered (~$11 gap to STEO's closed-Hormuz assumption); storage is screaming the opposite of price (SPR through the 350M floor, −15M/wk total draws ×2, Cushing floor ~Jul 1); Path B is finally arming (curve first sub-$3 closes, gasoline's first negative, China 8-yr-low imports); oil→CPI now printing; the divergence is stored energy that resolves violently in whichever direction the de-escalation bet is wrong.
+**One-liner:** Hormuz functionally closed since Feb 27; the "Islamabad Agreement" is the closest-yet text but unsigned, Iran-uncontested only in name, kinetic ongoing; Brent ~$87 (−25% from peak) prices a reopening the strait hasn't delivered (~$11 gap to STEO's closed-Hormuz assumption); storage is screaming the opposite of price (SPR 349.2M draining no throttle — ~350M was the 2023 trough not a floor, real §6241 floor 252.4M; −15M/wk total draws ×2, Cushing floor ~Jul 1); Path B is finally arming (curve first sub-$3 closes, gasoline's first negative, China 8-yr-low imports); oil→CPI now printing; the divergence is stored energy that resolves violently in whichever direction the de-escalation bet is wrong.
 
 ---
 
@@ -33,7 +33,7 @@ The physical squeeze is not just intact — it is at its most acute of the cycle
 - China crude imports ~7.8M bpd (May) — 8-yr low, −4M vs 2025 avg.
 
 **The storage signal — Phase 1's most acute evidence, screaming the OPPOSITE of price** *(live levels owned by STATUS dashboard; structural read here):*
-- **SPR drained THROUGH the ~350M operational floor (349.2M), no throttle** — pre-registered binary resolved to the tail case: near-term bearish (1.1-1.3 mbpd marginal supply stays in the market; admin signaled price-suppression over floor), medium-term bullish (finite backstop, ~8M/wk, 6 consecutive weeks at pace). Watch for any DOE sub-floor policy statement.
+- **SPR 349.2M, no throttle, ~8M/wk 6 consecutive weeks** — **CORRECTION (Jun 14, v3.2): ~350M is NOT an operational floor; it is the 2023 post-release trough** [CONF 42 U.S.C. §6241]. Only statutory floor = **252.4M** (§6241(h) *limited* authority, also 30M-bbl/60-day capped); the **emergency authority §6241(d) that a severe-supply-interruption release runs under has NO floor** (252.4M itself cut from 340M in 2021). Jun-3 binary resolves cleaner: **near-term BEARISH intact and runs LONGER** (marginal 1.1-1.3 mbpd stays in market; admin price-suppression; **~97M bbl / ~12 wks runway to the 252.4M limited floor**); **medium-term "finite backstop" bullish leg DEMOTED — not imminent.** No DOE "sub-floor policy" forcing event exists at 349M.
 - **Total crude (incl SPR) −15M/wk for a 2nd consecutive week** — most intense aggregate tightening of the cycle.
 - **Cushing ~21.6M; 20M operational floor ~Jul 1.** WTI delivery-dislocation risk if breached absent a deal.
 - **Refinery util 95.3% — crossed the 95% tripwire, but mechanism = MARGIN-BOOM not squeeze** (threshold-vs-mechanism split): refiners running max into record cracks; BRT-12 compression-warning ABSENT.
@@ -138,7 +138,7 @@ Bear put spreads, NOT outright puts (vol crush) [LESSONS #15]. 60-90 DTE, 10-15%
 | Brent | <$75 sustained 3 sess | Thesis break (squeeze failed) | CLEAR (~$87) |
 | Brent | >$120 sustained 3 sess | Phase 2 demand-destruction acceleration | CLEAR (moving away) |
 | **Cushing** | <20M single print | Operational minimum; WTI dislocation | 🔴 ~21.6M; floor ~Jul 1 |
-| **SPR** | approaching ~350M floor | DOE forced to slow → marginal tightening | 🔴 **349.2M — drained THROUGH the floor, no throttle** |
+| **SPR** | (old "approaching ~350M floor" RETIRED — 350M was the 2023 trough, not a floor) | real §6241 floor 252.4M (limited) / none (emergency) → ~97M runway; near-term bearish runs longer | 🔴 **349.2M, no throttle — draining toward a far-lower real floor** |
 | **Total crude (incl SPR)** | sustained large draws | Aggregate tightening | 🔴 **−15M/wk ×2 — cycle max** |
 | Brent M1−M3 | <$3 | Phase 2 approaching (Path B Trigger #1) | 🔴 **$2.40 — Trigger #1 at 2/3** |
 | EIA gasoline YoY | −5% ×3 wks | Phase 2 demand destruction (Trigger #2) | 🟠 **−0.5% — sign-flipped, first negative** (datapoint #2 Jun 17) |
@@ -163,7 +163,7 @@ Bear put spreads, NOT outright puts (vol crush) [LESSONS #15]. 60-90 DTE, 10-15%
 | **→ SAM** | Japan energy import relief if deal closes; LNG/JKM |
 | **→ HAWK** | Oil price + storage for scenario framework |
 | **→ REGINALD** | Energy loan exposure at regional banks (Phase 2 pathway) |
-| **↔ PROME** | Cushing 20M + SPR sub-floor = PROME-tier physical flags (WTI-dislocation / sub-floor-policy forcing) |
+| **↔ PROME** | Cushing 20M = PROME-tier physical flag (WTI-dislocation forcing). SPR "sub-floor" flag RETIRED — no §6241 floor binds until 252.4M (limited) and none for emergency authority |
 
 *Infra note: LIAISON/BOARD/FLOW dispatch detail collapsed per messaging-system-overhaul direction. `demand_destruction/TRACKER.md` is the operational dashboard; `docket/CATALYSTS.tsv` canonical forward-state; STATUS owns live levels.*
 
@@ -176,7 +176,7 @@ Bear put spreads, NOT outright puts (vol crush) [LESSONS #15]. 60-90 DTE, 10-15%
 | **Path A fires (deal signed + operational)** | **~32%** (aligned to HAWK B-Reopen; verified-reopen bar) | Phase 1 longs → Phase 2 rotation; Brent lower leg | LESSONS #11 4-hour exit; tanker/XLE reprice at announcement |
 | **Deal collapses / kinetic-with-damage → snapback** | **~26%** (HAWK D) | Brent $100+ gap-up; XLE re-rates | Hold XLE gap-up insurance; don't short into a possible bounce |
 | **Grind / armed-stalemate persists** | **~42%** (HAWK C base) | Choppy $85-95; divergence persists; physical tightens | Respect the binary; don't chase intraday |
-| SPR sub-floor policy shift / DOE statement | 30% | Marginal supply tightens or admin doubles down on suppression | Watch DOE; Wed EIA prints |
+| SPR draw continues into a far-lower real floor (252.4M limited / none emergency) | — | Bearish branch (marginal supply stays) runs LONGER than the retired "350M floor" framing implied; no forcing event at 349M | Watch DOE only for an actual policy statement, not a 350M "floor" |
 | Trigger #1 completes Mon + Path B accelerates | live | Phase 2 via Path B organically while physical argues snapback | Watch Mon settle; Jun 19/26 COT for forced liquidation |
 | Cushing breaches 20M (~Jul 1) | 35% | WTI delivery dislocation; forces kinetic-resolution conversation | Flag PROME near Jul 1 |
 
@@ -209,4 +209,4 @@ Bear put spreads, NOT outright puts (vol crush) [LESSONS #15]. 60-90 DTE, 10-15%
 
 ---
 
-*This is a living document. Update when: phase transition signals appear, thresholds breach, predictions resolve, or new channels identified. v3.1 (Jun 13) refines v3.0: the central frame becomes the MAXIMAL PHYSICAL/PRICE DIVERGENCE (physical Phase-1 squeeze at cycle-max vs Phase-2 de-escalation pricing), Phase 2 arriving on BOTH the diplomatic axis AND the now-arming Path B demand-destruction substrate, the oil→CPI macro leg printing, the decoupling hardened into a regime (FLOW-HAWK-19), and BRT-27 resolved CONFIRMED. No conviction reversal vs v3.0 (still flat-price cautious-neutral). Full audit trail in `CHANGELOG.md`.*
+*This is a living document. Update when: phase transition signals appear, thresholds breach, predictions resolve, or new channels identified. v3.2 (Jun 14) refines v3.1: SPR-floor factual correction — "~350M operational floor" was the 2023 trough mis-cited, not a floor; real §6241 floors 252.4M (limited) / none (emergency) [CONF primary]; near-term-bearish SPR leg runs longer, "finite-backstop bullish" leg demoted. No conviction change. v3.1 (Jun 13) refines v3.0: the central frame becomes the MAXIMAL PHYSICAL/PRICE DIVERGENCE (physical Phase-1 squeeze at cycle-max vs Phase-2 de-escalation pricing), Phase 2 arriving on BOTH the diplomatic axis AND the now-arming Path B demand-destruction substrate, the oil→CPI macro leg printing, the decoupling hardened into a regime (FLOW-HAWK-19), and BRT-27 resolved CONFIRMED. No conviction reversal vs v3.0 (still flat-price cautious-neutral). Full audit trail in `CHANGELOG.md`.*
