@@ -3,7 +3,7 @@
 
 ## Core State
 
-**Operational priority:** boot-surface catch-up after the large GitHub pull. The repo is fresh; Prome state was stale. Will approved a staged refresh with one explicit constraint: **do not edit agents**.
+**Operational priority:** operate from the refreshed Jun 14 Prome boot surfaces. Phase 0–3 boot-surface refresh is complete and pushed in `43388ccb`; current decisions are follow-ups, not unfinished rehab. Standing constraint: **do not edit agents** unless Will explicitly approves.
 
 **Regime:** **Surface tape de-risked; tail/private/physical stress stayed sticky.** Broad cascade is not confirmed: HY OAS remains tight at **278bps [FRED 6/11]**, VIX faded to **17.68**, banks rallied, and Brent collapsed sub-$90. But the structural/tail side did not heal: CCC **956bps**, SKEW held 142+, private-credit gates/BDC stress remain hot, consumer-credit stress persists, Japan/BOJ risk is live, and physical energy/chokepoint stress remains severe despite the price collapse.
 
@@ -15,10 +15,10 @@
 
 | Item | Status | Note |
 |---|---|---|
-| GitHub sync | ✅ Clean/synced at Phase 0 | Baseline: `master`, `HEAD/origin c87c00ac`, ahead/behind `0/0`. |
-| Local working tree | 🟡 Prome refresh files modified/untracked | Phase notes + boot surfaces are local until Will approves commit/push. |
+| GitHub sync | ✅ Clean/synced | `HEAD = origin/master = 43388ccb`, ahead/behind `0/0` after boot-refresh push. |
+| Local working tree | ✅ Clean at boot | Boot-refresh bundle committed and pushed. |
 | Agent files | ✅ Untouched | Explicit Will constraint: no agent edits. |
-| Push discipline | ✅ Will-coordinated | Commit locally only if approved; push only on Will's explicit call. |
+| Push discipline | ✅ Will-coordinated | Jun14 push was explicitly approved; future pushes still require Will approval. |
 | GitHub source-of-truth rule | ✅ Active | Avoid broad staging/reset. Pathspec only. |
 | Dashboard health | 🟡 Check later | Dashboard output usable but process exited code 1; likely alert/red-zone behavior. |
 
@@ -31,9 +31,9 @@
 | `PROME/SCRATCH.md` | ✅ Current Jun 14 | Phase 3 rewritten. |
 | `PROME/TODAY.md` | ✅ Current Jun 14/15 | Phase 3 rewritten with near gates. |
 | `PROME/STATUS.md` | ✅ Current Jun 14 | This file. |
-| `PROME/ACTIVE_DECISIONS.md` | 🟠 Next in Phase 3 | Needs CPI/refunding/HYG cleanup; verification-required remains. |
-| `PROME/FLEET_SCAN.md` | 🔴 Stale Jun 7 | Rewrite from Phase 1 map. |
-| `HEARTBEAT.md` | 🔴 Stale Jun 7 | Rewrite last because it is the regime surface. |
+| `PROME/ACTIVE_DECISIONS.md` | ✅ Current Jun 14 | Stale rails verification-required; HYG dead/not actionable. |
+| `PROME/FLEET_SCAN.md` | ✅ Current Jun 14 | Rewritten from Phase 1 map. |
+| `HEARTBEAT.md` | ✅ Current Jun 14 | Regime surface refreshed last. |
 | Phase notes | ✅ Current | `PROME/BOOT_SURFACE_REFRESH_2026-06-14_PHASE0.md`, `PHASE1.md`, `PHASE2_EDIT_MAP.md`. |
 | `memory/2026-06-14.md` | ✅ Current | Compaction-safe memory checkpoint. |
 | `PROME/PATHSPEC_MIGRATION_STATUS.md` | 🟡 Unchanged | Owner edits still pending; bundle with separate-clones cutover. |
@@ -70,10 +70,10 @@
 | Phase 1 bounded agent inspection | ✅ | Saved to `PROME/BOOT_SURFACE_REFRESH_2026-06-14_PHASE1.md`. |
 | Phase 2 edit map | ✅ | Saved to `PROME/BOOT_SURFACE_REFRESH_2026-06-14_PHASE2_EDIT_MAP.md`. |
 | Phase 3: rewrite `TODAY` + `SCRATCH` | ✅ | Done. |
-| Phase 3: rewrite `STATUS` + `ACTIVE_DECISIONS` | 🔴 | STATUS done; ACTIVE next. |
-| Phase 3: rewrite `FLEET_SCAN` | 🟠 | Pending. |
-| Phase 3: rewrite `HEARTBEAT` | 🟠 | Pending last. |
-| Verify stale language / diff | 🟠 | Pending after writes. |
+| Phase 3: rewrite `STATUS` + `ACTIVE_DECISIONS` | ✅ | Done. |
+| Phase 3: rewrite `FLEET_SCAN` | ✅ | Done. |
+| Phase 3: rewrite `HEARTBEAT` | ✅ | Done last. |
+| Verify stale language / diff | ✅ | Done before push; cleanup pass removes stale progress metadata. |
 | Position-state reconciliation | 🟠 | Deferred; separate future pass unless Will pivots. |
 | HENRY/NEXUS/WALTER refresh | 🟠 | After boot surfaces; do not mix into Phase 3. |
 | Separate-clones migration | 🟠 | Post-Jun16/FOMC calm-window decision packet; M3 slate still SAM/HENRY/REGINALD/OZK/CARL. |
@@ -96,4 +96,4 @@
 
 ## Next Best Action
 
-Finish Phase 3 in order: rewrite `PROME/ACTIVE_DECISIONS.md`, then `PROME/FLEET_SCAN.md`, then `HEARTBEAT.md` last. After that, run diff/stat + stale-language grep and ask Will whether to keep/archive/commit phase notes.
+Next best action: choose a follow-up lane — (1) create `WEEK_2026-06-15.md`, (2) refresh HENRY/NEXUS/WALTER anchor before FOMC, (3) position-state reconciliation for Jun18/19 expiry, or (4) diagnose WALTER feed-stack infrastructure.

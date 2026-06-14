@@ -2,7 +2,7 @@
 
 ## 2026-06-14 ~17:30 ET — OpenClaw Prome boot-surface refresh closeout
 
-**Status:** ✅ Phase 0–3 boot-surface refresh completed locally after a safe GitHub pull/merge. Ready for Will to clear this session and continue in a fresh window.
+**Status:** ✅ Phase 0–3 boot-surface refresh completed, committed, and pushed. Commit: `43388ccb PROME boot-surface refresh 2026-06-14`. Fresh sessions can treat boot surfaces as current, with only minor cleanup metadata handled after push.
 
 **What happened:**
 - Will asked Prome to refresh stale boot surfaces after a large GitHub pull.
@@ -25,24 +25,14 @@
 - Prome stashed only the boot-refresh files, pulled GitHub, then re-applied the stash.
 - Pull fast-forwarded cleanly: `c87c00ac -> b2fe14e3`.
 - Upstream touched BRENT/SAM/auto-memory; there were **no conflicts** with Prome surfaces.
-- After stash pop: `HEAD = origin/master = b2fe14e3`, ahead/behind `0/0`.
+- After stash pop: `HEAD = origin/master = b2fe14e3`, ahead/behind `0/0`; then Prome committed/pushed the boot-refresh bundle as `43388ccb`, leaving `HEAD = origin/master = 43388ccb`.
 - No local `AGENTS/*` modifications.
 
-**Current local uncommitted scope:**
-- Modified:
-  - `HEARTBEAT.md`
-  - `PROME/ACTIVE_DECISIONS.md`
-  - `PROME/FLEET_SCAN.md`
-  - `PROME/SCRATCH.md`
-  - `PROME/STATUS.md`
-  - `PROME/TODAY.md`
-  - `PROME/HANDOFF.md` (this closeout block)
-- Untracked:
-  - `PROME/BOOT_SURFACE_REFRESH_2026-06-14_HANDOFF.md`
-  - `PROME/BOOT_SURFACE_REFRESH_2026-06-14_PHASE0.md`
-  - `PROME/BOOT_SURFACE_REFRESH_2026-06-14_PHASE1.md`
-  - `PROME/BOOT_SURFACE_REFRESH_2026-06-14_PHASE2_EDIT_MAP.md`
-  - `memory/2026-06-14.md`
+**Final pushed state:**
+- Boot-refresh bundle committed and pushed as `43388ccb`.
+- After push: `HEAD = origin/master = 43388ccb`, ahead/behind `0/0`.
+- Working tree was clean.
+- No local `AGENTS/*` modifications.
 
 **Current regime encoded in surfaces:**
 > Surface tape de-risked while tail/private/physical stress stayed sticky. Broad cascade is not confirmed: HY OAS remains tight at **278bps [FRED 6/11]**, VIX faded to **17.68**, banks rallied, and Brent collapsed sub-$90. But the structural side did not heal: CCC **956bps**, SKEW stayed bid, private-credit/BDC stress remains hot, consumer-credit stress persists, Japan/BOJ risk is live, and physical energy/chokepoint stress remains severe despite the price collapse.
@@ -59,8 +49,8 @@
 2. Run `git status --short` and confirm only expected Prome/root/memory files are changed.
 3. Quickly scan latest SAM/BRENT headers because they updated in the pull after Phase 1 inspection.
 4. Review the six rewritten boot surfaces.
-5. Ask Will whether to keep phase notes, archive them, or commit the full boot-refresh bundle locally.
-6. Do **not** push unless Will explicitly approves.
+5. Use `TODAY.md` / `HEARTBEAT.md` for near gates; the phase notes are audit trail.
+6. Do **not** push future changes unless Will explicitly approves.
 
 **Guardrails:**
 - No agent edits unless Will explicitly approves.

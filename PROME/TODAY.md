@@ -1,21 +1,21 @@
 # TODAY.md — Sunday June 14 → Monday June 15, 2026
 
-**Objective:** Finish Prome boot-surface refresh after the large GitHub pull. Re-anchor from stale Jun 7–8 framing before any new market work. **No agent edits.**
+**Objective:** Operate from the refreshed Prome boot surfaces after the Jun 14 GitHub pull + boot-surface rehab. Phase 0–3 are complete and pushed; next work is choosing the highest-value follow-up. **No agent edits unless explicitly approved.**
 
 **Current regime:** **Surface tape de-risked; tail/private/physical stress stayed sticky.** Broad cascade is still not confirmed: HY OAS remains tight at **278bps [FRED 6/11]**, banks rallied, VIX faded to **17.68**, and Brent collapsed sub-$90. But the structural side did not heal: CCC **956bps**, SKEW stayed bid, private-credit gates/BDC stress remain hot, consumer credit is deteriorating, Japan/BOJ risk is live, and physical energy/chokepoint stress remains severe despite the price collapse.
 
 ---
 
-## 🔴 Boot-Surface Refresh — Status
+## ✅ Boot-Surface Refresh — Status
 
 | Priority | Work | Status |
 |---|---|---|
-| 🔴 | Phase 0 baseline | ✅ Done — repo clean/synced at `c87c00ac`; dashboard anchor pulled |
-| 🔴 | Phase 1 bounded agent inspection | ✅ Done — read-only; no agent edits |
-| 🔴 | Phase 2 edit map | ✅ Done — `PROME/BOOT_SURFACE_REFRESH_2026-06-14_PHASE2_EDIT_MAP.md` |
-| 🔴 | Phase 3 boot-surface rewrites | 🟠 In progress — TODAY refreshed first |
+| ✅ | Phase 0 baseline | Done — repo baseline + dashboard anchor pulled |
+| ✅ | Phase 1 bounded agent inspection | Done — read-only; no agent edits |
+| ✅ | Phase 2 edit map | Done — `PROME/BOOT_SURFACE_REFRESH_2026-06-14_PHASE2_EDIT_MAP.md` |
+| ✅ | Phase 3 boot-surface rewrites | Done — six boot surfaces refreshed and pushed in commit `43388ccb` |
 | 🟠 | Position-state reconciliation | Deferred — separate pass only if Will asks |
-| 🟠 | Agent stale dependencies | HENRY/NEXUS/WALTER anchor need refresh after surfaces, not during this rewrite |
+| 🟠 | Agent stale dependencies | HENRY/NEXUS/WALTER anchor refreshes are follow-up decisions, not boot-refresh blockers |
 
 ---
 
@@ -90,11 +90,9 @@
 
 ---
 
-## Pending After This Pass
+## Pending Follow-Ups
 
-1. Rewrite `PROME/SCRATCH.md`.
-2. Rewrite `PROME/STATUS.md`.
-3. Rewrite `PROME/ACTIVE_DECISIONS.md`.
-4. Rewrite `PROME/FLEET_SCAN.md`.
-5. Rewrite `HEARTBEAT.md` last.
-6. Verify diff + stale-language grep.
+1. Decide whether to create durable `PROME/action-cards/WEEK_2026-06-15.md`; until then, `TODAY.md` owns near gates.
+2. Decide whether to refresh HENRY/NEXUS/WALTER anchor before FOMC/expiry cluster.
+3. Keep Jun18/19 expiry cleanup verification-required until broker/Will reconciliation.
+4. If infrastructure hardening is priority, address WALTER feed-stack request in `AGENTS/PROME/inbox/SIG-WALTER-PROME-20260610-cron-feed-infra-refresh.md`.
