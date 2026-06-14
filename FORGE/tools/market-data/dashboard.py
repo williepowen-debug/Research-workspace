@@ -10,6 +10,10 @@ Usage:
   python3 dashboard.py --quiet        # Breaches only (red items)
   python3 dashboard.py --json         # JSON output
   python3 dashboard.py --compact      # One-line format (good for Telegram)
+
+Exit codes:
+  Normal/compact/json successful output returns 0, even when red zones exist.
+  --cron/--notify preserve alert semantics: 2 = new red, 1 = existing red, 0 = no red.
 """
 
 import argparse
@@ -508,13 +512,16 @@ def main():
     else:
         print_dashboard(results, transitions)
 
-    # Exit code: 2 = new reds, 1 = existing reds, 0 = no reds
-    new_reds = any(new == "red" for _, new in transitions.values())
-    any_reds = any(r["zone"] == "red" for r in results)
-    if new_reds:
-        sys.exit(2)
-    elif any_reds:
-        sys.exit(1)
+    # Exit codes:
+    # - Human/data modes should return 0 after successful output; red zones are data, not command failure.
+    # - Cron/notify modes keep alert semantics for automation: 2 = new reds, 1 = existing reds, 0 = no reds.
+    if args.cron or args.notify:
+        new_reds = any(new == "red" for _, new in transitions.values())
+        any_reds = any(r["zone"] == "red" for r in results)
+        if new_reds:
+            sys.exit(2)
+        elif any_reds:
+            sys.exit(1)
     sys.exit(0)
 
 
