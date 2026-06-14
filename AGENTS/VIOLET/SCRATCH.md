@@ -27,11 +27,11 @@
 
 1. **🔴 FRED 6/12 credit print (Mon ~11:30 AM) — first read INTO BOJ.** Block-lift CCC <9.55 · Bin-A conversion (BB 1.73 / disp 8.00 / HY 2.85 / CCC 9.65) · Euro/EM HY control. DECISIVE discriminator = LIQUID movers breadth (still pending).
 2. **🔴 BOJ 6/16 (Mon)** — fuel-load read from SAM (was due Sat 6/13) · **FOMC+SEP+VIX-quarterly+M1-expiry 6/17 (Tue)** — war premium does NOT deflate on this print; CCC tree re-check (+5td).
-3. **🔴 🔧 Supersede mechanization (KB-VIO-100, Orc-detailed):** thresholds.py has TWO bugs — (a) weekend-skip (claims a row exists for a closed day), (b) **today-only limit** (stamps et_now, can't reach back to a prior date → stale rows don't self-heal). Needs a `--date` backfill mode. Plus the MIXED-TS guard (per-index last_trade_time, refuse/label cross-stamp ratios). Ship before next active event.
+3. **🟠 🔧 Tooling — MOSTLY SHIPPED 6/13, two items remain:** ✅ DONE: skip-message states real reason (`6b79f105`); boot-time stale-TICK guard `check_stale_tick()` (`5c8df331`); m1m2 hazard guardrail in backfill.py (`5c8df331`); `--date` flag KILLED as make-work (backfill.py --spot-only already does dated repair). **REMAINS:** (a) **#4 m1m2 convention decision** — migrate whole series to same-day (Orc's lean, KB-VIO-092-proof) vs document T-1 + align backfill; ~79-row migration touching both tools; echo-back loop, not a snap; `--spot-only` only until decided. (b) **MIXED-TS guard** (per-index last_trade_time, refuse/label cross-stamp ratios) — KB-VIO-100 variant (a), still unbuilt.
 4. **🔴 Iran daily:** OVX/VIX gauge; HAWK closure-credibility re-mark integration (deferred hedge waits on it).
 5. **🟠 6/17 RE-MARK AGENDA** (collect, change NOTHING mid-window): single-B promotion to A-condition? · standing-vs-window breadth tripwires · 9.55 line re-mark (KB-VIO-090 Bin-B semantics) · TWO_ANCHOR_LADDER holiday-handling (Orc footnote: fwd-60 end Aug 12-13 vs 13-14).
 6. **🟠 20d SKEW avg recompute** (last computed thru 6/11 = 140.85; 6/12 142.60 owed into window).
-7. **🟠 EOD --supersede** (once the date-mode fix lands) + close-and-hold counter vs 23.0 (0/5).
+7. **🟠 EOD --supersede after 16:15 ET on trading days** (close-and-hold counter vs 23.0, 0/5). NOTE: if missed (no live session at close), next boot now flags it via the stale-TICK guard → repair with `backfill.py --spot-only`.
 8. **🟠 L2 σ carve-out backtest** (KB-VIO-091 0.75 conditional conditioned on it).
 9. **🟠 Carried:** Iran-leg analog scan (OVX/VIX gap resolution shape); port `/tmp/nfp_analog_backtest.py` → `scripts/`; Packet #1 (6/18-22); housekeeping (trash VX_DAILY.tsv.bak after a clean schema-v2 week; outbox SIG disposition; fred_fetch rates lag; vix_options OI=0; KB legacy rows 007-009).
 
