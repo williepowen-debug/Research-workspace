@@ -46,8 +46,8 @@ LIQUID monitors its own active channels (repo plumbing, credit spreads). Other c
 | Credit spread widening | LIQUID | DAYS–WEEKS | **AMBIGUOUS** — HY 280 (6/10), widening into and through the APO fire window (274 on 6/4 → 280 on 6/10); post-hot-CPI | 320 confirm / 260 kill (see §5) |
 | Duration / yield repricing | BOND → LIQUID | DAYS | **OSCILLATING** — 5.00-pivot, not sustained (see §3 Leg B); unwind test <4.90 untouched; FOMC 6/17 resolver | 30Y sustained >5%, 10Y sustained >4.5% (KB-LIQ-052 — framing under re-derivation) |
 | PC gate → dealer inventory → public marks | LIQUID / BROCK | WEEKS | **ACTIVE-ACCELERATING** — BROCK 6/8: Stage 2→3 pivot, 4-fund gate cluster, 3 regular-div cuts (MFIC/OCSL/OBDC), record 6% April default | 2nd PC fund hard-gate, BCRED Q2 |
-| Japan repatriation → UST selling | SAM → LIQUID | DAYS | **TRIGGERED — awaiting flow confirmation.** 4 consecutive closes >160 (6/8–6/11); level is mine, the mechanism (actual repat flows) is SAM's to confirm | USD/JPY >160 crossed; TIC 6/18 next flow read |
-| Oil-CPI loop → term premium | HAWK/BRENT → LIQUID | WEEKS | **REVERSED** — Brent closed $90.38 (6/11), peak $110.59; zero sub-$90 closes yet. May CPI still printed hot (4.18% YoY) on lagged energy; passthrough relief is a June+ story | Brent sustained >$100 (re-engage) / sustained <$90 (leg de-escalation watch) |
+| Japan repatriation → UST selling | SAM → LIQUID | DAYS | **TRIGGERED — awaiting flow confirmation.** 5 consecutive closes >160 (6/8–6/12, 160.13 latest); level is mine, the mechanism (actual repat flows) is SAM's to confirm | USD/JPY >160 crossed; TIC 6/18 next flow read |
+| Oil-CPI loop → term premium | HAWK/BRENT → LIQUID | WEEKS | **REVERSED** — Brent first sub-$90 close 6/12 ($87.20 ICE settle), peak $110.59. May CPI still printed hot (4.18% YoY) on lagged energy; passthrough relief is a June+ story | Brent sustained >$100 (re-engage) / sustained <$90 (leg de-escalation watch) |
 
 **Channel migration finding (KB-LIQ-052):** During the 32-day Apr 16 → May 18 staleness gap, the active transmission migrated from PLUMBING (Leg A, resolved) into DURATION (BOND-domain channel). The bear thesis didn't die; it changed addresses. Plumbing remains structurally fragile but is not the currently-firing leg.
 
@@ -92,7 +92,7 @@ LIQUID stands down its bear thesis when:
 | 10Y back below 4.30% sustained AND HY OAS <270 | Both credit + duration unwinding — full thesis reassessment |
 | Fed expands liquidity facilities (SRF reform, standing repo, restart QE) | Leg A killed — Fed buffer restored |
 | TIC confirms FOI buying resumed for 2+ consecutive prints | Leg B killed — demand hole closing |
-| Ceasefire confirmed + Brent sustained <$90 + 10Y <4.30 | Stagflation trap leg killed *(6/12: LIVE-WATCH, not fired — zero sub-$90 Brent closes yet [6/11 closed 90.38], 10Y 4.46 vs <4.30, no ceasefire; deliberate annotation, conditions unchanged)* |
+| Ceasefire confirmed + Brent sustained <$90 + 10Y <4.30 | Stagflation trap leg killed *(6/13: 1 sub-$90 Brent close printed 6/12 ($87.20 ICE settle) — sustained-test now LIVE, but 10Y 4.45 vs <4.30 and no ceasefire, so leg NOT fired (1 of 3 conditions). Conditions unchanged.)* |
 | USD/JPY <140 (disorderly carry unwind) | DIFFERENT thesis activates — yen carry breakdown, not LIQUID core |
 
 **Channel-kill vs full-thesis-kill is the key distinction.** v1.0 framework treated thesis as monolithic. v2.0 explicitly: each channel can kill independently; full abandonment requires multiple legs failing concurrently.
