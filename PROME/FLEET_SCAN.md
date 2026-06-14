@@ -1,38 +1,39 @@
-# FLEET_SCAN — 2026-06-07
+# FLEET_SCAN — 2026-06-14
 
-**Scanner:** Claude Code Prome bounded Sun-evening week-prep synthesis
-**Coverage:** live dashboard, Prome boot files, 3 unprocessed PROME-routed signals, Fri 6/5 → Sat 6/6 commits.
-**Purpose:** Boot-readable fleet situation report. Not deep domain research; does not replace agent STATUS files.
+**Scanner:** OpenClaw Prome bounded post-pull boot-surface refresh
+**Coverage:** Phase 0 live dashboard, Phase 1 read-only agent headers/top sections, Prome-routed outboxes, Phase 2 edit map.
+**Purpose:** Boot-readable fleet situation report. Not deep domain research; does not replace agent STATUS files. **No agent files edited.**
 
 ---
 
 ## Executive Read
 
-Vol shock arrived Friday. **VIX 15.40 → 21.51 on NFP** — the Jun 4 "tape refuses confirmation" frame no longer applies symmetrically. HY OAS **274🟢** is now the SOLE remaining "refuses cascade" signal. ARES sits at the $125 green-line; BIZD broke under $12.50 into red; TLT is near the Jun $85P strike. The week's catalysts (CPI 6/10 + Treasury triplet 6/9-11) are credible HY-OAS tests; FOMC 6/16-17 is the bigger gate.
+**Surface tape de-risked; tail/private/physical stress stayed sticky.** The Jun 7 “vol joined stress / HY sole holdout” frame is stale. VIX faded to **17.68**, HY OAS stayed tight at **278bps [FRED 6/11]**, banks rallied, and Brent collapsed sub-$90. That argues against broad confirmed cascade.
 
-**Live tape Sun Jun 7 ~17:30 ET:** HY OAS **274bps [FRED 6/4] 🟢**, CCC **946bps [FRED 6/4] 🟡**, **VIX 21.51 🟡**, Brent **$93.09 🟡**, USD/JPY **160.19 🔴**, WAL **$80.15 🟢**, KRE **$70.17 🟢**, TLT **$85.06 🟡**, **BIZD $12.49 🔴**, **ARES $125.65 🟡 (at green-line)**, initial claims **225k 🟡 [5/30]** with shadow-adjusted **280k**.
+But the structural side did not clear: CCC remains **956bps**, SKEW stayed bid through the VIX crush, private-credit gates/BDC stress remain hot, consumer-credit deterioration is intact, Japan/BOJ risk is live, and physical energy/chokepoint stress remains severe despite the price collapse.
 
-The read is **divergence narrowing**, not confirmed broad cascade.
+**Working model:** not “stress everywhere”; rather **surface tape de-risked while tail/private/physical stress stayed sticky.**
+
+**Dashboard anchor:** HY OAS **278 [FRED 6/11] 🟢**, CCC **956 [FRED 6/11] 🟡**, VIX **17.68 🟢**, Brent **$87.33 🟡**, USD/JPY **160.18 🔴**, gas weekly **4.15 [6/8] 🔴**, KRE **$73.41 🟢**, WAL **$83.67 🟢**, OZK **$52.10 🟢**, TLT **$85.77 🟡**, BIZD **$12.71 🔴**, ARES **$134.90 🟡**, initial claims **229k [6/6] 🟡** / shadow **284k**.
 
 ---
 
-## 1. Top Updates Since Jun 4 PM
+## 1. Top Updates Since Jun 8
 
 | Area | Update | Prome implication |
 |---|---|---|
-| **VIX regime** | 15.40 → 21.51 on Fri NFP. | Vol joined the stress column. HY OAS now the sole "refuses" signal. |
-| **BOND long-end** | 10Y back <4.50 (4.47), 30Y <5.00 (4.97). | TLT puts HOLD-no-add until June refunding tail. |
-| **BOND TLT Sep gate** | Narrowed per Jun 5: needs CPI hot *or* refunding tail. | `ACTIVE_DECISIONS` updated. |
-| **ARES** | $130.50 → $125.65 (-$5). | Sitting on green-line; one bad day breaks it. |
-| **BIZD** | $12.70 → $12.49. | Broke under $12.50 yellow line into red watch. |
-| **USD/JPY** | 160.01 → 160.19 drift higher. | Intervention-zone live into BOJ 6/16. |
-| **VIOLET v3.5** | Sat 6/6 NFP-shock integration; R12 re-established. | 4/15 60d window closes Fri 6/12. |
-| **NEXUS** | Discipline F (shared-antecedent independence test) codified; SIG-01/02 verdicts logged; E-phase scaffold pending values. | Use Discipline F in cross-signal synthesis. |
-| **CARL/HENRY 6/6** | Separate-clones M3 cutover readiness; auto-mem collision fix. | New row in `ACTIVE_DECISIONS`; post-Jun-16 decision. |
-| **WALTER 6/6 PM** | 4 BOARD dispatches (CB gold / UST rollover / El Niño-fertilizer / UKMTO Hormuz). | Iran anchor still Jun 2 frame; next boundary 6/9. |
-| **Auto-memory overhaul** | Claude owns MEMORY.md; index hook dropped; desktop+laptop merged via symlink. | No PROME-side change required; tracker still valid. |
-| **SAM (Sat)** | CFTC METHOD-gate test; NEXUS_BRIEF schema proposal pending E-ratification. | USD/JPY 160.19 live; BOJ 6/16 prep. |
-| **BRENT (Fri)** | COT + rigs + airlines data. | Energy yellow; not >$100 break. |
+| **Vol regime** | VIX event spike faded to **17.68**; VIX9D/VIX 0.976, M1:M2 +9.41%. | Old “vol joined stress column” is stale. Vol tape is complacent, but tail remains bid. |
+| **Tail / credit** | CCC **956**; SKEW **142.6**, 3 straight 142+ while VIX crushed. | Coiled-tail risk persists; VIOLET Bin-B credit block still governs entry. |
+| **HY OAS** | **278 [FRED 6/11]**, still tight. | Broad cascade unconfirmed; R2.5 285 monitor not fired. |
+| **Energy / geopolitics** | Brent collapsed sub-$90 despite formal Hormuz closure and severe physical stress. | Strongest physical/price decoupling datum; tape prices de-escalation while chokepoint/physical risk remains. |
+| **LIQUID rails** | TEN closed winner; HYG $75P written off / let expire 6/19; duration oscillation, not regime. | Stop surfacing HYG; TLT/duration now FOMC-resolver / verification-required. |
+| **Japan / SAM** | MOF/intervention probability re-derived ~72% → ~30%; BOJ Jun16 still live. | FXY/Japan risk remains near-gate, but no longer overstate intervention odds. |
+| **Consumer / CARL** | LEN guide cut; CC 90+ DQ and student-loan stress intact; UMich inflation expectations relieved. | Consumer stress still structural, but expectations/energy channel softened. |
+| **Labor** | NFP +172k with +93k revisions; claims 229k, shadow 284k; AI cuts record. | Hard-data labor weakness did not fire; claims drift remains. |
+| **RED** | Net bear 59→57; confidence 72→70; managed decline and stagflation co-modal 36/36. | Near-term tape bull-side into catalysts, structural bear thesis not killed. |
+| **BROCK / PC** | 4-fund gate cluster, BDC cuts, PC default 6.0%, issuance -40% Q2/Q1. | PC substance hot; macro HY still refuses. |
+| **REGINALD / Banks** | Broad cohort fade retired; WAL bear idiosyncratic/Q2-print gated. | Avoid broad bank-cascade language while KRE/WAL/OZK tape green. |
+| **HENRY/NEXUS/WALTER** | HENRY stale/dark post-CPI; NEXUS stale Jun8; WALTER Iran anchor stale vs HAWK/BRENT Jun13. | Label dependencies; refresh after boot surfaces if needed. |
 
 ---
 
@@ -40,15 +41,15 @@ The read is **divergence narrowing**, not confirmed broad cascade.
 
 | Surface | Status | Note |
 |---|---|---|
-| `PROME/SCRATCH.md` | ✅ Current Jun 7 PM | Rewritten this session. |
-| `PROME/TODAY.md` | ✅ Current Jun 7 PM | Mon 6/8 framing. |
-| `PROME/STATUS.md` | ✅ Current Jun 7 PM | 3 signals ingested; surgical refresh. |
-| `PROME/FLEET_SCAN.md` | ✅ Current Jun 7 PM | This file. |
-| `PROME/ACTIVE_DECISIONS.md` | ✅ Current | TLT Sep gate narrowed; M3 separate-clones row added. |
-| `PROME/action-cards/WEEK_2026-06-08.md` | ✅ NEW | Single-source week card. |
-| `HEARTBEAT.md` | ✅ Current Jun 7 PM | Regime delta integrated; thresholds + week pointer. |
-| `PROME/HANDOFF.md` | 🟡 Jun 2 top block | Fine for continuity. |
-| `PROME/PATHSPEC_MIGRATION_STATUS.md` | 🟡 Unchanged | Owner edits still pending; bundle with M3. |
+| `PROME/SCRATCH.md` | ✅ Current Jun 14 | Phase 3 rewritten; carries session handoff and cautions. |
+| `PROME/TODAY.md` | ✅ Current Jun 14/15 | Near-gate operator card. |
+| `PROME/STATUS.md` | ✅ Current Jun 14 | Operational state and agent/domain table. |
+| `PROME/ACTIVE_DECISIONS.md` | ✅ Current Jun 14 | Stale trade rails verification-required; HYG dead. |
+| `PROME/FLEET_SCAN.md` | ✅ Current Jun 14 | This file. |
+| `HEARTBEAT.md` | 🔴 Pending final rewrite | Must be updated last. |
+| Phase notes | ✅ Current | Phase0/1/2 files preserve audit trail. |
+| `memory/2026-06-14.md` | ✅ Current | Compaction-safe checkpoint. |
+| `PROME/action-cards/WEEK_2026-06-08.md` | 🟠 Stale as primary surface | Historical week card; do not use as current near-gate source. |
 
 ---
 
@@ -56,55 +57,62 @@ The read is **divergence narrowing**, not confirmed broad cascade.
 
 | Agent/domain | Current Prome read | Action rule |
 |---|---|---|
-| **BOND** | Long-end relaxed; matrix v2 ready for 6/10 10Y. | Honor "HOLD-no-add" until refunding triplet. |
-| **HENRY** | TLT supersession + auto-mem proposal current. | TLT Sep gate now BOND-narrowed; auto-mem to post-Jun-16 packet. |
-| **VIOLET** | v3.5 with R12 re-established; window closes 6/12. | Read VIOLET STATUS before any vol-trade decision. |
-| **SAM** | CFTC METHOD-gate test; USD/JPY 160.19 live; owns separate-clones architecture. | Persistent; do not spawn casually. |
-| **CARL** | Fri data wall + Sat readiness; consumer/stagflation hardening. | Persistent; ready for M3 atomic cutover. |
-| **BROCK** | BIZD broke under $12.50; ARES at green-line. | Read current BROCK if PC action becomes live. |
-| **BRENT** | Energy yellow; Brent $93. | Persistent; routine sweep this week unless break >$100. |
-| **REGINALD** | WAL/KRE green; OZK $49.60 yellow. | Use persistent REGINALD if Q2/WAL decision emerges. |
-| **NEXUS** | Discipline F codified; E-phase scaffold pending values. | Use Discipline F in cross-signal synthesis. |
-| **WALTER** | 4 fresh BOARD dispatches; Iran anchor Jun 2. | Iran refresh needed if tape becomes decision-relevant. |
-| **LABOR** | Claims yellow; shadow 280k. | Watch claims path Thu 6/11. |
-| **LIQUID** | Stale May 20. | Refresh before any duration/funding decision. |
-| **RED/MARCO/OTTO** | Various Jun 3-6 maintenance. | Domain-specific routing only. |
+| **LIQUID** | HY tight; HYG written off; TEN closed; plumbing clean; duration oscillation. | Use for funding/duration rails; no HYG action. |
+| **VIOLET** | Complacency tape with bid tail; Bin-B credit block still governs. | No auto vol entry; read current VIOLET before any vol decision. |
+| **BRENT** | Physical/price divergence at cycle max; Brent sub-$90; Path A and B both advancing. | Watch Mon 6/15 trigger completion; do not equate price decline with physical repair. |
+| **HAWK** | C42/B32/D26; formal Hormuz closure but Brent fell; HAW-11 window live. | Use for geopolitical closure credibility / leakage awareness. |
+| **SAM** | BOJ live; MOF odds down; FXY Jun18 hold already decided. | Persistent; do not spawn casually; use for BOJ/TIC/FXY context. |
+| **CARL** | Consumer-credit stress intact; LEN cut; expectations relief. | Keep consumer stress structural, not immediate labor cascade. |
+| **LABOR** | Hard data strengthened; claims drift and AI cuts are watch items. | Avoid labor-cliff language unless claims/NFP break. |
+| **RED** | Net bear 57/conf 70; tape bull-side, structural bear alive. | Use for adversarial branch tree around FOMC. |
+| **BROCK** | PC gate cascade and BDC stress hot; HY macro confirmation absent. | PC substance watch; do not infer broad credit cascade. |
+| **REGINALD** | WAL idiosyncratic; broad bank cohort fade retired. | Bank decisions are Q2/idiosyncratic, not sector-cascade. |
+| **BOND** | Jun9 auction pre-read partly superseded by LIQUID Jun13. | FOMC/auction aftermath, not pre-refunding rails. |
+| **HENRY** | Stale/dark post-CPI; GEX/flip-level dependency unresolved. | Refresh only after boot surfaces or if FOMC packet requires it. |
+| **NEXUS** | T-08 useful, STATUS stale. | Use as awareness, not current synthesis. |
+| **WALTER** | Routing infra updated; Iran anchor stale vs Jun13. | Refresh anchor if Iran becomes decision-relevant. |
+| **OTTO** | Infra refreshed, domain data stale. | Structural auto/fraud watch only until refreshed. |
 
 ---
 
 ## 4. Cross-Agent Contradictions / Cautions
 
-1. **Vol confirmed but credit didn't.** VIX 21.51 + HY OAS 274 is the central tension. The next ~5 sessions resolve it.
-2. **TLT language now triple-gated.** Jun $85P salvage = catalyst sale (not ride-to-expiry); Sep add = CPI hot *or* 30Y refunding tail (BOND-narrowed); both contingent on Will-handling.
-3. **ARES at $125 and BIZD <$12.50 simultaneously.** BDC/PC mark stress widened over the weekend; BROCK refresh would inform action if Will reaches for it.
-4. **Iran anchor is 5 days old.** WALTER hasn't re-verified since Jun 2; next anchor boundary is 6/9. Re-check before any Iran-tape decision.
-5. **Separate-clones decision is post-Jun-16.** Don't pre-stage the cutover during a heavy catalyst week.
+1. **Vol tape vs tail tape:** VIX crushed to 17.68, but SKEW/CCC stayed sticky. Complacency ≠ tail cleared.
+2. **Energy price vs physical risk:** Brent sub-$90 while Hormuz/SPR/refinery/utilization stress persists. Price is de-escalation-priced; physical system is not repaired.
+3. **Labor hard data vs consumer balance sheet:** NFP/revisions strengthened, but credit-card/student-loan stress and SAVE Jul1 remain structural drags.
+4. **PC substance vs macro credit:** Private-credit gates/BDC cuts/defaults are worsening while HY OAS refuses confirmation.
+5. **Bank tape vs idiosyncratic credit:** KRE/WAL/OZK rallied; REGINALD still has WAL/Q2 idiosyncratic bear case.
+6. **Stale dependency risk:** HENRY/NEXUS/WALTER are not current enough for post-6/12 regime decisions without refresh.
+7. **Position truth:** broker/fill state remains unreconciled; old action cards are not execution instructions.
 
 ---
 
 ## 5. Top 5 Operational Moves
 
-1. ✅ **Sun-evening boot refresh** — done.
-2. 🔴 **Mon 6/8 open: confirm VIX-shock hold/fade + HY OAS line read** — primary regime test of the week.
-3. 🟠 **Tue PM: Wed-CPI prep** — surface TLT Sep-add Will-decision packet *only* if conditions look likely to fire (CPI ≥0.3% core + duration setup).
-4. 🟠 **Pre-Wed 1pm: BOND matrix v2 spawn for 10Y auction** — first nominal 10Y reopening since the 5/13 outlier.
-5. 🟡 **Thu PM: 30Y auction read into VIOLET 6/12 window close** — last vol-trade adjudication window before FOMC.
+1. ✅ **Finish boot-surface rewrite** — TODAY/SCRATCH/STATUS/ACTIVE/FLEET_SCAN done; HEARTBEAT remains.
+2. 🔴 **Rewrite HEARTBEAT last** — root regime surface should compress this scan.
+3. 🟠 **Verify stale language** — grep for Jun8–12 upcoming-gate language, “vol joined stress” current framing, and actionable HYG.
+4. 🟠 **Decide phase-note retention** — keep/commit as audit trail vs archive after refresh.
+5. 🟡 **Post-refresh dependency decisions** — WALTER Iran anchor, HENRY/NEXUS refresh, position reconciliation, and optional new `WEEK_2026-06-15.md`.
 
 ---
 
 ## 6. Gaps
 
 - No broker/fill reconciliation performed; intentionally deferred.
-- LIQUID stale May 20; refresh if duration/funding becomes decision-relevant this week.
-- REGINALD/BROCK domains stale May 21; refresh only if bank or PC action becomes live.
-- WALTER Iran anchor Jun 2; refresh by 6/9 next-boundary if Iran tape becomes relevant.
+- HENRY stale/dark for GEX-suppression and dealer flip mechanics.
+- NEXUS stale after Jun8 relative to Jun12 close.
+- WALTER Iran anchor stale versus HAWK/BRENT Jun13.
+- OTTO domain data stale.
+- Dashboard produced usable output but exited code 1; automation health needs later check.
+- No durable `WEEK_2026-06-15.md` exists yet; `TODAY.md` owns near gates for now.
 
 ---
 
 ## 7. Follow-Up
 
-After this file is written:
-1. Inspect diff for `SCRATCH`, `TODAY`, `STATUS`, `FLEET_SCAN`, `HEARTBEAT`, `ACTIVE_DECISIONS`, week-card.
-2. Show-diff-then-approve commit (PROME-scope only; pathspec).
-3. Closeout: append CLAUDE_CODE_HANDOFF entry + daily log.
-4. Mon 6/8 AM: open with the week card.
+After this file:
+1. Rewrite `HEARTBEAT.md`.
+2. Run `git diff --stat` and targeted stale-language grep.
+3. Confirm no `AGENTS/*` modifications.
+4. Report concise result to Will and ask whether to keep/archive/commit phase notes.
