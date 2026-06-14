@@ -63,7 +63,7 @@
 - [x] **April PCE + May NFP — RESOLVED 6/12:** PCE 3.72% YoY headline accel / core 3.27%; NFP +172k, UNRATE 4.3% flat. In CALENDAR Resolved.
 - [x] ⬛ **SRF / reserves / RRP — UN-STALED 6/12:** reserves $3.081T (H.4.1 as-of Wed 6/10) stable, cushion $281B — "draining" not supported; SRF ~$0 both legs (RPONTSYD+RPONMBSD — April's $30.5B was tax-period); RRP $0.45B structural zero confirmed. Leg A dormancy now data-verified. TREAST $4.480T (as-of 6/10) — THESIS §3 setup cites $4.359T; update at next thesis touch (scope guard held: no same-session thesis edit).
 - [x] **Predictions:** LIQ-02 resolved **MISS at the letter** (max 2wk rise +31bps vs +50 registered; no forced selling). LIQ-03 stays OPEN with 6/12 interim read (~SOFR+130-145, below 160 trigger) — **resolve at the letter 6/30**.
-- [ ] **FRED 6/11 yield prints** — H.15 lag at pull time; ^TNX/^TYX proxy stands per canon. Confirm at next boot (also Orc queue item).
+- [x] **FRED 6/11 yield prints** — RESOLVED 6/13 (Orc sweep): FRED posted DGS10 4.45 / DGS30 4.95 (6/11), confirms the ^TNX 4.463 / ^TYX 4.951 proxies within ±1bp. 6/12 FRED posts Monday.
 
 ## Tier 5 — Known data gaps (need external pull, not just file edits)
 - [ ] **Auction internals 5/21–5/28** (10Y reopen, 2Y, 5Y, 7Y) — BTC/indirect/tail not integrated. Needed to close CALENDAR Resolved + Dashboard 3.
