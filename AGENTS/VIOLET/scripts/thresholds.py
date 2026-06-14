@@ -104,19 +104,29 @@ def determine_regime(vix: float | None) -> str:
     return "CRASH"
 
 
-def append_daily_log(row: dict, supersede: bool = False) -> bool:
-    """Append one row keyed by date. Skip if date already present, unless
-    supersede=True (an EOD SETTLE-basis run replacing an intraday TICK row —
-    the tick-not-settle class, CHG-RED-037b; a TICK run never supersedes SETTLE).
-    Skip on weekends — markets closed, the row would just carry forward
-    Friday's quote (caught 2026-06-06 Saturday phantom).
+def append_daily_log(row: dict, supersede: bool = False) -> str:
+    """Append one row keyed by date. Returns a STATUS CODE (not a bare bool) so
+    callers can state the real reason a write was skipped — the old bool made
+    every skip print the same misleading "already has a row" line (VIOLET 6/13).
+
+    Status codes:
+      'appended'             new row written
+      'updated'              existing row superseded (EOD SETTLE replacing a TICK)
+      'skip-no-file'         VX_DAILY.tsv missing
+      'skip-weekend'         Sat/Sun — markets closed, would just dup Friday (6/6 phantom)
+      'skip-exists'          row present, --supersede not set
+      'skip-tick-vs-settle'  existing row is SETTLE, incoming is TICK — never downgrade
+
+    NOTE: this only ever targets the row whose date == row['date'] (always
+    "today" from build_report). It CANNOT repair a stale PRIOR-date row — use
+    backfill.py (dated-row repair) for that (VIOLET 6/13, Orc).
     """
     if not DAILY_LOG.exists():
-        return False
+        return "skip-no-file"
     try:
         d = datetime.fromisoformat(row["date"]).date()
         if d.weekday() >= 5:  # Sat=5, Sun=6
-            return False
+            return "skip-weekend"
     except (KeyError, ValueError):
         pass
     with open(DAILY_LOG) as f:
@@ -132,16 +142,18 @@ def append_daily_log(row: dict, supersede: bool = False) -> bool:
     if existing_idx is not None:
         old_basis = lines[existing_idx].strip().split("\t")
         old_basis = old_basis[header.index("basis")] if "basis" in header and len(old_basis) > header.index("basis") else ""
-        if not supersede or (old_basis == "SETTLE" and row.get("basis") != "SETTLE"):
-            return False  # already logged today (and TICK never overwrites SETTLE)
+        if not supersede:
+            return "skip-exists"
+        if old_basis == "SETTLE" and row.get("basis") != "SETTLE":
+            return "skip-tick-vs-settle"  # a TICK never overwrites a SETTLE
         lines[existing_idx] = new_line
         with open(DAILY_LOG, "w") as f:
             f.write("\t".join(header) + "\n")
             f.writelines(lines)
-        return True
+        return "updated"
     with open(DAILY_LOG, "a") as f:
         f.write(new_line)
-    return True
+    return "appended"
 
 
 def build_report(supersede: bool = False) -> dict:
@@ -203,12 +215,13 @@ def build_report(supersede: bool = False) -> dict:
         "m1m2_adj": classify("m1m2_adj_pct", m1m2_adj),
     }
 
-    appended = append_daily_log(row, supersede=supersede)
+    log_status = append_daily_log(row, supersede=supersede)
 
     return {
         "row": row,
         "classifications": classifications,
-        "appended_to_daily_log": appended,
+        "appended_to_daily_log": log_status in ("appended", "updated"),  # bool back-compat
+        "daily_log_status": log_status,
         "m1m2_raw": m1m2,
     }
 
@@ -238,10 +251,21 @@ def print_report(rep: dict):
         err = rep['m1m2_raw'].get('_error', 'unknown')
         print(f"  ⚪ M1:M2 adj  UNAVAILABLE  ({err[:60]})")
     print()
-    if rep['appended_to_daily_log']:
-        print(f"  ✓ appended to VX_DAILY.tsv")
+    status = rep.get("daily_log_status", "")
+    if status == "appended":
+        print(f"  ✓ appended new row to VX_DAILY.tsv")
+    elif status == "updated":
+        print(f"  ✓ superseded existing {row['date']} row in VX_DAILY.tsv")
     else:
-        print(f"  · VX_DAILY.tsv already has a row for {row['date']} (skip)")
+        reason = {
+            "skip-weekend": "weekend — markets closed, no settle to log",
+            "skip-exists": f"row for {row['date']} already present — pass --supersede to replace a TICK with the SETTLE",
+            "skip-tick-vs-settle": f"row for {row['date']} is already SETTLE — a TICK never overwrites it",
+            "skip-no-file": "VX_DAILY.tsv not found",
+        }.get(status, f"not written ({status})")
+        print(f"  · skip ({status}): {reason}")
+        if status in ("skip-weekend", "skip-exists", "skip-tick-vs-settle"):
+            print(f"     ↳ to repair a stale PRIOR-date row, use backfill.py (--supersede only ever targets today)")
 
     # Emit KEY_MARKERS lines for boot.py collapse mode
     hottest = [f"{k}={cls[k]}" for k in cls if cls[k] in ("🟠", "🔴")]
