@@ -34,7 +34,7 @@ POV-arc for how we got here: see `thesis/CHANGELOG.md` § POV Pivots (5/20, 5/19
 | Metric | Threshold | Current | Status |
 |--------|-----------|---------|--------|
 | **HY OAS (macro)** | confirmation >320 / freeze >350 / **kill <260** | **280** (6/10; 274→275→278→280 from 6/4) | 🟡 **WIDENING — cushion to kill back out to 20bps.** 40bps below 320. Bifurcation persists: CCC−BB = 787 (KB-LIQ-058); decompose before citing aggregate. |
-| **HY Energy OAS** | >300 = energy-credit trip | **~285 (Apr 28, 44d STALE)** | 🟠 Primed corner — Brent now $87.95; needs live ICE/BBG pull (BRENT/data-fetch). |
+| **HY Energy OAS** | >300 = energy-credit trip | **~285 (Apr 28, 46d STALE)** | 🟠 Primed corner — Brent $87.33 close 6/12 (first sub-$90); needs live ICE/BBG pull (BRENT/data-fetch). |
 | **APO co-trigger** | >$130 ×3 sessions (HEARTBEAT line 80) | **$133.88 close 6/12; 4 consecutive closes >$130** | 🟠 **FIRED 6/11 (reassess leg), Day 4 6/12.** NOT Trigger C — HY widening, concurrency fails. 6/8 close was $127.57 (intraday-print miscount corrected). Outbox → BROCK 6/12. |
 | CCC OAS | >1000bps | 957 (6/10, BB 170) | 🟡 43bps away — tail keeps widening while BB barely moves |
 | BIZD | mark stress | $12.71 (close 6/12) | 🟡 Above $12.50 trigger 4 straight closes. FSK -9.9% mark direction intact |
