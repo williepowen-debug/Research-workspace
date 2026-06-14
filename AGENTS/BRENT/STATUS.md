@@ -187,8 +187,7 @@ Does dawn #5 harden (ladder item i = Iranian confirm) before Path B Trigger #1 c
 |------|---------|----------|
 | **TODAY Fri Jun 12** | Baker Hughes 1:00 PM (431 vs 457); CFTC COT 3:30 PM (Jun 2 wk — Trigger #3 test); settles (Trigger #1 #2 / sub-$88 #1) | 🔴 |
 | **~Sat-Sun Jun 13-14** | **Trump settlement signing window** ("weekend in Europe"; CBS: LOI early next week) — marker ladder | 🔴 |
-| **Sun Jun 15** | HAW-09 deadline (BRT-27 conditional) | 🟠 |
-| **Mon Jun 15** | Trigger #1 completion candidate (3rd consecutive sub-$3 settle) | 🔴 |
+| **Mon Jun 15** | **Convergence settle** (Jun 15 is MONDAY): Trigger #1 completion candidate (3rd consecutive sub-$3) + XLE re-eval (2nd sub-$88 close). [HAW-09 already RESOLVED CONFIRMED Jun 13 — BRT-27 done] | 🔴 |
 | **Wed Jun 17** | EIA WPSR (wk Jun 12) — gasoline datapoint #2; SPR sub-floor path. IEA OMR (June). BRT-27 resolution date | 🔴 |
 | **Thu Jun 18** | CF $130C expiry (ride; zero bid) | 🟡 |
 | **Fri Jun 19** | Baker Hughes; CFTC COT (Jun 9 wk — captures halt + settlement reaction) | 🟠 |
@@ -214,7 +213,7 @@ Does dawn #5 harden (ladder item i = Iranian confirm) before Path B Trigger #1 c
 
 **Positions:** XLE premise breaking — re-eval now pinned to signed-MOU-or-two-sub-$88-closes (clock may start at today's settle). CF corrected to reality ($0.10/zero bid — Tuesday's $8 mark was phantom, corrective filed) and rides to Thursday expiry. BRT-15 has its numeric test registered before the outcome is known.
 
-**Needs from you:** HAWK spawn decision (BRT-27 is blocked on HAW-09, deadline Sunday).
+**Needs from you:** Nothing blocking on BRT-27 — RESOLVED CONFIRMED (HAW-09 confirmed Jun 13; no spawn needed). Forward watch is the **Monday Jun 15** convergence settle (Trigger #1 completion + XLE re-eval).
 
 ---
 
