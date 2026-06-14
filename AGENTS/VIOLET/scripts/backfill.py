@@ -11,16 +11,22 @@ updated (not duplicated), preserving columns the backfill doesn't touch.
 ⚠️  M1:M2 CONVENTION HAZARD — UNRESOLVED (VIOLET 6/13, Orc). The m1m2 path here
     writes SAME-DAY settlement keyed to the row date and does NOT stamp
     m1m2_settle_date. thresholds.py writes m1m2 as T-1 (prior settle) WITH the
-    stamp. The two conventions DISAGREE. The ~79 currently-blank m1m2 cells are
-    protected only by the skip-if-present guard (backfill_m1m2). DO NOT run the
-    m1m2 path (full backfill, or --m1m2-only) until the convention is resolved —
-    it would inject same-day/unstamped values into a T-1 series. `--spot-only` is
-    always safe (skips m1m2 entirely). See MAINTENANCE.md (#4 convention decision).
+    stamp. The two conventions DISAGREE. It would inject same-day/unstamped
+    values into a T-1 series, and the skip-if-present guard only protects cells
+    that ALREADY hold a value — the ~79 currently-blank m1m2 cells are NOT
+    protected by it.
+
+    HARD GATE (VIOLET 6/14, per Orc verification): the m1m2 path is now BLOCKED
+    in code, not just the docstring. backfill_m1m2() early-returns unless the
+    caller passes --allow-m1m2; the default `backfill.py` run does spot only.
+    The warning is no longer warn-and-proceed. `--spot-only` is always safe.
+    See MAINTENANCE.md (#4 convention decision).
 
 Usage:
-  .venv/bin/python3 AGENTS/VIOLET/scripts/backfill.py --spot-only   # SAFE
-  .venv/bin/python3 AGENTS/VIOLET/scripts/backfill.py --spot-days 180   # spot only
-  # full / --m1m2-only: BLOCKED on the convention decision — see hazard note above
+  .venv/bin/python3 AGENTS/VIOLET/scripts/backfill.py                # spot only (m1m2 gated off)
+  .venv/bin/python3 AGENTS/VIOLET/scripts/backfill.py --spot-only    # spot only, explicit
+  .venv/bin/python3 AGENTS/VIOLET/scripts/backfill.py --spot-days 180
+  # m1m2 path: requires --allow-m1m2 AND the convention decision — BLOCKED by default
 """
 from __future__ import annotations
 
@@ -182,13 +188,19 @@ def compute_m1m2(contracts: list[dict], as_of: date) -> tuple[float | None, floa
     return round(strict, 4), round(strict, 4), m1["symbol"], m2["symbol"]
 
 
-def backfill_m1m2(days: int, rows: dict[str, dict], pause_s: float = 0.5) -> int:
-    # Runtime guardrail — fires at the moment of danger even if the docstring
-    # went unread (VIOLET 6/13, Orc). The convention is unresolved; this path
+def backfill_m1m2(days: int, rows: dict[str, dict], pause_s: float = 0.5, allow: bool = False) -> int:
+    # HARD GATE — refuses unless explicitly allowed (VIOLET 6/14, Orc verification:
+    # the prior version warned-then-proceeded, so a default run still filled the
+    # ~79 blank cells with same-day/unstamped values; the docstring said BLOCKED
+    # but the code did not enforce it). The convention is unresolved; this path
     # writes SAME-DAY/unstamped m1m2, inconsistent with thresholds.py's T-1 series.
     print("  ⚠️  M1:M2 CONVENTION HAZARD: this path writes SAME-DAY/unstamped m1m2,")
     print("      inconsistent with thresholds.py's T-1 series — convention UNRESOLVED")
-    print("      (VIOLET 6/13). Prefer --spot-only until decided. See MAINTENANCE.md.")
+    print("      (VIOLET 6/13). See MAINTENANCE.md (#4 convention decision).")
+    if not allow:
+        print("  ⛔ REFUSING m1m2 backfill — pass --allow-m1m2 to override (only after")
+        print("     the convention is resolved). Skipping m1m2 path; spot data unaffected.")
+        return 0
     today = date.today()
     touched = 0
     requested = 0
@@ -231,6 +243,8 @@ def main(argv=None):
     p.add_argument("--m1m2-days", type=int, default=30)
     p.add_argument("--spot-only", action="store_true")
     p.add_argument("--m1m2-only", action="store_true")
+    p.add_argument("--allow-m1m2", action="store_true",
+                   help="Override the m1m2 hard gate (convention unresolved — see docstring/MAINTENANCE #4)")
     args = p.parse_args(argv)
 
     header, rows = load_existing()
@@ -243,7 +257,7 @@ def main(argv=None):
 
     if not args.spot_only:
         print(f"\n[2/2] Backfilling M1:M2 steepness ({args.m1m2_days} trading days)...")
-        touched = backfill_m1m2(args.m1m2_days, rows)
+        touched = backfill_m1m2(args.m1m2_days, rows, allow=args.allow_m1m2)
         print(f"  touched {touched} rows")
 
     write_merged(header, rows)
