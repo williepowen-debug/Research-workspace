@@ -130,17 +130,17 @@
 
 | # | Vector | v2.4 | v2.5 | Current |
 |---|--------|------|------|---------|
-| 1 | CC 90+ DQ → GFC | 4 | **4** | 12.70% = 92% of GFC; 1.04pp gap. |
+| 1 | CC 90+ DQ → GFC | 4 | **4** | 13.1% Q1 2026 = 95% of GFC; 0.64pp gap (subprime-driven, K-shape converging down). |
 | 2 | Subprime Auto 60+ | 5 | **4** ⬇️ | ATR 6.9% Jan; cure collapse 3 trusts. **Strict-def fix:** EART Class E terminal but AMCAR/SDART have cushion. |
-| 3 | Fannie MF DQ → GFC | 4 | **4** | 0.74% Feb (6bps from peak); March data late Apr. |
-| 4 | Student Loan 90+ | 5 | **4** ⬇️ | 9.6% NY Fed / ~9.8% FICO Spring; cascade EXECUTING; room to escalate to 12-15%+. |
-| 5 | Gas Price Squeeze | 5 | **4** ⬇️ | $4.446 May 3; CRL-08 92% NEAR-BREACH ($0.054 gap, deceleration trio); room to $5+. |
+| 3 | Fannie MF DQ → GFC | 4 | **4** | 0.64% Apr (extend-and-pretend; Mar 0.78% near-breach 2bps); CRL-03 72%. |
+| 4 | Student Loan 90+ | 5 | **4** ⬇️ | 10.3% Q1 2026 — CRL-04 CONFIRMED clean breach; cascade EXECUTING; room to escalate to 12-15%+. |
+| 5 | Gas Price Squeeze | 5 | **4** ⬇️ | $4.074 Jun 14 (falling 4th wk); CRL-08 55% — re-breach-via-price dead (Brent decoupled to $87); room to $5+ only on fresh Brent spike. |
 | 6 | UI Exhaustion Wave | 5 | **4** ⬇️ | FL Wave 1 fired. Wave 2 surface counter-thesis (initial claims declining); exhaustion mechanism unverified pending DEO continued + DOL ETA. |
 | 7 | FL Triple Squeeze | 4 | **4** | Condo inv 13.2mo; FL Q1 REO +108% YoY nationally. |
 | 8 | K-Shape Converging *(merged 8+9, two-step)* | 5+5 | **4** ⬇️ | Both cohorts deteriorating. Step 1: merger eliminates double-count. Step 2: magnitude-not-2008-quantified. |
 | 10 | Foreclosure Acceleration | 5 | **4** ⬇️ | Q1 ATTOM REO +45% YoY; FL +108%. *2025 base partially pandemic-suppressed; 2019 absolute PENDING_VERIFY.* |
 | 11 | SB Bankruptcy + Owner Income | 4 | **3** ⬇️ | SubV +67% YoY breached; SBA defaults 12-yr high; income est $73-145B. |
-| 12 | Stagflation Trap / Fed Locked | 5 | **4** ⬇️ | UMich 5-10Y 3.5% un-anchored; Q1 NIPA Core PCE +4.3%; ISM Prices Paid 84.6. *TTM not yet crossed; UMich triangulation PENDING_VERIFY.* |
+| 12 | Stagflation Trap / Fed Locked | 5 | **4** ⬇️ | UMich 5-10Y 3.4% Jun prelim (retraced below 3.5% red line from May Final 3.9% spike — expectations leg SOFTENED); Core PCE 3.3% YoY / Q1 NIPA 4.4% ann; ISM May Prices Paid Mfg 82.1 / Svc 71.3. *Core/structural stagflation intact; near-term expectations channel eased on gasoline.* |
 | 13 | **Federal Fiscal Capacity Stress** *(NEW v2.5)* | — | **3** | Watching — TGA dynamics, debt ceiling, term-premium pressure; restrained but not at crisis. |
 | 14 | **Upper-Decile Wealth Stress** *(NEW v2.5)* | — | **3** | Watching — RV crash + retail-investor pullback are early signals; SPX still near highs; magnitude not 2008-quantified. |
 | 16 | **Employment Structural Rot** *(NEW v2.5)* | — | **3** ⬇️ *(4→3 Jun 6, v2.5.2)* | Re-anchored: acute legs reversed (JOLTS 1.03 inversion gone; 3-mo NFP avg 188K was 48K; UR 4.3% held). Surviving structural-freeze legs (origin Jun-5 "internals retain rot"): hires fell 5.1M as openings +731K; ISM Svc Emp 47.9 (3rd-mo contraction); LFPR 61.8%; long-term UE 27.5%; part-time-econ 4.8M; Financial -107K YoY. Mechanism intact, escalation path receded. Re-arm to 4 if JOLTS re-inverts OR NFP negative w/ down-revisions. |
