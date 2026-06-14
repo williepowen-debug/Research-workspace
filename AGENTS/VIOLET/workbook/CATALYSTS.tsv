@@ -1,4 +1,5 @@
 date	event	type	agent_domain	expected_vol_impact	source	notes
+2026-06-16	BOJ MPM (carry-unwind vol channel)	MACRO	VIOLET/SAM/HENRY	MEDIUM	BOJ schedule	As-priced 1.00pct hike = priced/non-event; hawkish-of-pricing (50bp / hawkish dots / accelerated QT) -> Aug-2024-style yen-carry unwind = tail vol catalyst on already-elevated front-end. Vol-transmission edge via SAM (CFTC fuel-load 72pct->85pct danger zone into 6/16). SAM owns BOJ policy call; VIOLET tracks carry->vol transmission only.
 2026-06-17	VIX June expiration (quarterly)	OPEX	VIOLET/HENRY	MEDIUM	option cycle	Quarterly — high volume. Pin risk on dealer gamma.
 2026-06-17	FOMC Rate Decision + Powell	FOMC	VIOLET/HENRY	HIGH	FOMC schedule	Primary vol catalyst gate. Current FedWatch ~80% hold (refresh at boot). First post-Apr-dissent meeting.
 2026-06-17	FOMC SEP (Summary of Economic Projections)	FOMC	VIOLET/HENRY/CARL	HIGH	FOMC schedule	First dot-plot since Apr 4-dissent split. Dot-plot reset = potential vol catalyst.
@@ -7,4 +8,3 @@ date	event	type	agent_domain	expected_vol_impact	source	notes
 2026-08-19	VIX August expiration	OPEX	VIOLET/HENRY	LOW	option cycle	Standard monthly.
 2026-09-16	VIX September expiration (quarterly)	OPEX	VIOLET/HENRY	MEDIUM	option cycle	Quarterly.
 2026-09-16	FOMC Rate Decision + SEP	FOMC	VIOLET/HENRY/CARL	HIGH	FOMC schedule	Quarterly dot-plot.
-2026-06-16	BOJ MPM (carry-unwind vol channel)	MACRO	VIOLET/SAM/HENRY	MEDIUM	BOJ schedule	As-priced 1.00pct hike = priced/non-event; hawkish-of-pricing (50bp / hawkish dots / accelerated QT) -> Aug-2024-style yen-carry unwind = tail vol catalyst on already-elevated front-end. Vol-transmission edge via SAM (CFTC fuel-load 72pct->85pct danger zone into 6/16). SAM owns BOJ policy call; VIOLET tracks carry->vol transmission only.
