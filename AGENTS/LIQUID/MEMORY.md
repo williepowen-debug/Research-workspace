@@ -2,21 +2,25 @@
 
 ## Session Notes
 
-### CURRENT SESSION (2026-06-13 Sat — boot + Fri closes + position cleanup)
+### CURRENT SESSION (2026-06-13 Sat — boot + Fri closes + position cleanup + Orc sweep + FOMC/TIC pre-stage)
 
 **Context:** Saturday boot (markets closed). Pull skipped — VIOLET tree dirty, my dir clean. Will: pull Fri closes, TEN closed, and **cut bait on the HYG position** (it was being surfaced every boot with nothing actionable).
 
 **⚠️ Mis-scope + self-correction:** First read Will's "HY OAS dead, cut tracking" as retiring the **HY OAS metric** — did a full retirement pass (KB-060, KILL_MEMO archived, cross-agent signal pulled) and committed c1cd7d6b. Will clarified: **HY OAS stays a tracked metric/signal; the dead thing is the HYG PUT POSITION.** Reverted c1cd7d6b (commit f9676ca6) — HY OAS apparatus + KILL_MEMO fully restored — then applied the correct change. Lesson: "X dead" on a position-vs-metric ambiguity → confirm which before a teardown pass. HY OAS the index ≠ HYG the position.
 
 **Done (correct):**
-- **Fri 6/12 closes** (yfinance proxy): 10Y 4.487 / 30Y 4.975 (oscillation holds, both sub-threshold); **Brent $87.33 = FIRST sub-$90 CLOSE** (stagflation-ladder clause-1 trigger); USD/JPY 160.19 (5th close >160); VIX 17.68 (cooled off 22.22 CPI spike); APO $133.88 (Day 4 >$130); TLT 85.77; BIZD 12.71.
 - **TEN calls CLOSED** (Will, winner ~$7.11). **HYG $75P WRITTEN OFF — cut bait:** dead, deep OTM, let expire worthless 6/19, **no further surfacing.** Both struck from STATUS + STRATEGY; PROPOSAL 4 resolved. Book is flat of LIQUID single-names (APO Dec $95P is BROCK-owned).
-- **HY OAS unchanged** — still tracked: macro 280 (6/10), 260 kill / 320 confirmation, KILL_MEMO live, CCC 957 tail watch, cross-agent >320 signal intact.
+- **HY OAS unchanged** — still tracked: 260 kill / 320 confirmation, KILL_MEMO live, CCC tail watch, cross-agent >320 signal intact.
+
+**Continuation (Orc collaboration — Friday-close sweep + FOMC/TIC pre-stage):**
+- **Orc Friday-close sweep (commit 72361797), FRED-verified against VIOLET's fresh cache + own pulls** — corrected several of my midday values: **HY OAS 280(6/10)→278 (6/11 FRED), "widening"→STALLED, cushion 18bps**; CCC 957→**956**/BB 169; **USD/JPY 6/12 close 160.19→160.13** (my 160.19 was the Sat-dated yfinance artifact — Orc caught it); **Brent → $87.20 ICE settle** (BRENT-owned; $87.33 BZ=F proxy); FRED 6/11 DGS10 4.45/DGS30 4.95 posted (confirms proxies, punchlist Tier-5 resolved). APO Day 4 $133.88, VIX 17.68. Two deviations from Orc's packet flagged + held: TEN already closed (no $38.77 re-mark — cost-basis rule), HYG already written off. → auto-memory `finding_coordinator_packet_position_row_staleness`.
+- **FOMC 6/17 / TIC 6/18 pre-stage (commits f264e5d2 + c6d17e7b)** — built `workbook/FOMC_TIC_DECISIONTREE.md` (DELETE-BY 6/19; durable residue → TIMELINE rows 13/15/16). Orc graded the weights; **conceded his definitional catch**: dot branches defined vs **strip-pricing (surprise)** not the SEP (revision) — flips the base case. Open hawkish-vs-neutral divergence (LIQUID neutral-base 33/38 vs Orc hawkish-base ~45/30) made a **datable test: Tue 6/16 PM SOFR-futures cut-count** (≤1 = neutral-base / ≥2 = hawkish-base; DO-NOT-transcribe 45 until pull). Anchored the $20B Japan threshold (was a bare round number) to KB-LIQ-031.
 
 **Open follow-ups (carried):**
+- **⭐ Tue 6/16 PM — SOFR-futures 2026 cut-count pull** (the FOMC posture resolver; re-weight the tree, echo Orc). Then FOMC Wed 6/17 → TIC Thu 6/18.
 - *(No open position decisions — HYG/TEN both resolved. Do NOT re-surface HYG.)*
-- FOMC 6/17 (duration + conviction-60 resolver); May TIC 6/18 (USD/JPY-flow confirm). FSK P/NAV 0.52 verify; OBDC Q1 NAV owed; LIQ-03 resolves 6/30.
-- **Push pending** — Saturday, no coordinated window; committed locally (revert f9676ca6 + this correction), sweeps next window.
+- FSK P/NAV 0.52 verify; OBDC Q1 NAV owed; LIQ-03 resolves 6/30; BRENT energy-HY OAS reply (outbox out).
+- **Push pending** — Saturday, no coordinated window. Local commit chain this session: c1cd7d6b (mis-scope) → f9676ca6 (revert) → 3a811917 (cut-bait+data) → 4f7df819 (Energy note) → 72361797 (Orc sweep) → f264e5d2 (pre-stage) → c6d17e7b (Orc grade). Sweeps next window. Orc has the tree in his next-push diff queue.
 
 ---
 
