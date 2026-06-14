@@ -1,5 +1,5 @@
 # CARL DOCKET — Catalyst Calendar
-**Updated:** 2026-06-09 PM (STUE refresh: +Sweet Jun 15 notice deadline row, +Treasury Phase 1 ~Jul 15 launch wave row; SAVE→RAP Jul 1 row expanded with operational-GO + Q3 drag sizing)
+**Updated:** 2026-06-14 PM (pruned LEN FQ2 [Jun 11] + UMich June prelim [Jun 12] — integrated this session)
 
 Human-readable twin of `docket/CATALYSTS.tsv`. **The two must not diverge** — edit both together, or regenerate this from the TSV. The TSV is the machine source (read by `scripts/docket_countdown.py` at boot, SPAWN PROTOCOL step 7a).
 
@@ -15,8 +15,6 @@ Human-readable twin of `docket/CATALYSTS.tsv`. **The two must not diverge** — 
 ## Jun 6–17
 | Date | Event | Test | Pri |
 |------|-------|------|-----|
-| **Jun 11** | **Lennar (LEN) FQ2 earnings** (4:00 PM ET, verified) | CRL-23 builder GM baseline; FY27 tariff guidance | 🟠 |
-| Jun 12 | UMich sentiment prelim (June) | V12 5-10Y >3.5% red line; sentiment | 🔴 |
 | **Jun 15** | **Sweet v. McMahon notice deadline** | ~170-271K cohort tradeline-deletion; PPSL court-compelled | 🟠 |
 | Jun 16 | Retail Sales (May) | Consumer spending; forced-consumption | 🟠 |
 | Jun 16 | NAHB HMI (June) | Builder <40 (May 37) | 🟠 |

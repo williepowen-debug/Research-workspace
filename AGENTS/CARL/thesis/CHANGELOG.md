@@ -8,6 +8,24 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-06-14 PM — Sun data sweep + ORC echo-verify: energy decoupling reverses V12 expectations channel; CRL-08 re-test FIRED & FAILED (trim 70→55); LEN FQ2 guide-cut integrated; UMich May-final backfill; no thesis version bump
+
+### PREDICTIONS.tsv — CRL-08 70→55% (re-arm + trim); CRL-23 LEN datapoint (conf held)
+**Author:** CARL (Sun Jun 14 sweep; graded by ORC via primary-source recomputation before write).
+
+**Sweep (new data Jun 11-14, scoped by mechanism/falsification not topical):**
+1. **LEN FQ2 (rel Jun 11):** GM 15.6% (−220bps YoY from 17.8%), EPS $1.24 (−31% YoY), ASP $371K (−5%), orders −4%, incentives 12.9% (Q1 14.1%), constr-cost −7%, **FY26 delivery guide CUT ~85K→82-83K** ("interest rates + geopolitical uncertainty"), stock −4.9% Jun 12. *ORC caught the guide-cut as the market-mover I'd missed in first pass; verified vs LEN release.* Read = K-shape demand biting NOW (volume cut, margin defended), bounded to RATES not energy (cut came with Brent already ~20% off peak → energy relief underway didn't stop it). CRL-23 datapoint, conf 70% HELD (refines baseline; FY27 tariff GM leg still ahead).
+2. **UMich June prelim (rel Jun 12):** sentiment 48.9 (+9%, first rise 4mo); 1Y 4.6% (eased from May Final 4.8%); **5-10Y 3.4% RETRACED below 3.5% Fed red line** from May FINAL 3.9% spike ("erasing May's jump"). Survey window late-May→Jun 10 = early-June gas relief; Jun 7-10 kinetic was INSIDE window yet long-run exp fell = strengthens decoupling. *Backfilled May finals (5-10Y 3.9 / sentiment 44.8) into STATUS ledger — they were never integrated, hiding the spike-and-retrace.*
+3. **Energy decoupling (BRENT corr Jun 13):** Brent ~$87 FALLING (not "$94-95 climbing" — STATUS row was wrong, now a referenced value `[CONF BRENT Jun 12 $87.20]`). Kinetic Jun 7-10 primary-confirmed but crude fell through it. Pump $4.074 Jun 14, falling 4th wk.
+
+**CRL-08 — re-arm + trim 70→55%:** registered fresh-kinetic trigger fired & failed; Brent decoupled down to $87, moving away from the $105-110 transmission zone. Per threshold-vs-mechanism: pass-through INTACT (RBOB sticky, crack $42.55) → re-arm not MISS; but P(gas $4.50)=P(Brent→$105-110)×P(pass-through) and the dominant path to the input just closed → −15pp (ORC flagged silent-flat-hold as the generous read). Not zeroed — July window + Hormuz/refinery tails.
+
+**Net synthesis:** energy disinflation is reversing the V12 expectations channel (5-10Y back below red line, sentiment bouncing) while core/PPI-6.5%-pipeline stagflation stays intact. FOMC 6/16-17 spine stays V12: energy→expectations-retrace→core-sticky; near-term hike pressure eased on the EXPECTATIONS leg. **No score move, 52/70 holds.**
+
+**ORC review folded in:** (a) CRL-08 trim not silent-hold; (b) LEN bounded to rates-not-energy (don't read a housing-demand turn into a marginal wallet tailwind); (c) UMich May-final ledger backfill; (d) decoupling-arrow phrased "gas relief through early June" not "$4.07→expectations"; (e) Brent as referenced value not CARL-owned row. Deferred (ORC): convergence-matrix stale evidence cells (V1 12.70%/1.04pp vs live 13.1%/0.64pp; V3/V4/V5/V12) → ROADMAP backlog (no score move, not gating); exact LEN mgmt "4.2% energy" quote is release-sourced not transcript (KB row to cite release + note rates-paired).
+
+---
+
 ## 2026-06-11 AM — May CPI graded vs pre-registered sheet (2/5 hits); May PPI 6.5% YoY record-goods print; CRL-08 re-test condition MET on Iran re-ignition; CRL-10 pull-forward caveat withdrawn; no thesis version bump
 
 ### PREDICTIONS.tsv — CRL-08 re-test live; CRL-10 timeline reverts to baseline
