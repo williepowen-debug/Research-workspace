@@ -82,14 +82,14 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 
 | Data Source | Frequency | Tool | Last Updated |
 |-------------|-----------|------|--------------|
-| VIX/VIX9D/VIX3M/VVIX/SKEW spot | Every boot (auto in boot.py) | `scripts/thresholds.py` / yfinance | 2026-06-10 (intraday; SKEW T+1) |
-| FRED credit (HY/IG/CCC + ladder BB/B/BBB + global Euro/EM — groups added 6/11) | **Manual session step** (boot.py does NOT call fred_fetch — corrected 6/11, was mislabeled "per boot"); print lands ~11:30 AM ET T+1 | `scripts/fred_fetch.py --force` | 2026-06-11 late-eve (data through 6/10) |
-| FRED rates (2Y/10Y/TIPS) | Manual session step (same correction) | `scripts/fred_fetch.py` | 2026-06-11 late-eve (through 6/10 — ⚠️ 7f lag NOT reproducing; close item if next pull clean) |
-| 20d SKEW avg + 5td_change | Per boot during knife-edge | inline calc | 2026-06-09 (thru 6/9 close; margin +0.59) |
-| Catalyst countdown | Every boot (auto in boot.py) | `scripts/catalyst_countdown.py` | 2026-06-10 |
-| VIX options OI | Every boot (auto in boot.py; evening runs print OI=0 after hours — artifact, use intraday) | `scripts/vix_options.py` | 2026-06-10 |
-| VX_DAILY.tsv time series | Daily (auto-append at boot; **EOD `--supersede` run after 16:15 ET on AM-boot days**; gap-check after skipped days, KB-VIO-076) | `scripts/thresholds.py` (schema v2: basis TICK/SETTLE + m1m2_settle_date — m1m2 is T-1 vs row date by tool design, KB-VIO-092); `scripts/backfill.py` for gaps | 2026-06-11 (TICK row; EOD supersede owed) |
-| CFTC COT VIX futures | Weekly Fri 3:30pm ET (Tue position-snap; auto in boot.py) | `scripts/cftc_cot.py` (`--boot` freshness-gated; `--backfill` rebuild) | 2026-06-05 release (6/2 positions); next Fri 6/12 |
+| VIX/VIX9D/VIX3M/VVIX/SKEW spot | Every boot (auto in boot.py) | `scripts/thresholds.py` / yfinance | 2026-06-14 (boot; Fri 6/12 close basis — markets closed wknd; SKEW T+1) |
+| FRED credit (HY/IG/CCC + ladder BB/B/BBB + global Euro/EM — groups added 6/11) | **Manual session step** (boot.py does NOT call fred_fetch — corrected 6/11, was mislabeled "per boot"); print lands ~11:30 AM ET T+1 | `scripts/fred_fetch.py --force` | 2026-06-13 (cache; data through 6/11 — 6/12 print posts Mon 6/15 ~11:30 AM) |
+| FRED rates (2Y/10Y/TIPS) | Manual session step (same correction) | `scripts/fred_fetch.py` | 2026-06-13 (data through 6/11 — ⚠️ 7f lag NOT reproducing; close item if next pull clean) |
+| 20d SKEW avg + 5td_change | Per boot during knife-edge | inline calc | 2026-06-11 (thru 6/11; 140.85, margin +0.85; 6/12 142.60 recompute owed Mon) |
+| Catalyst countdown | Every boot (auto in boot.py) | `scripts/catalyst_countdown.py` | 2026-06-14 (boot) |
+| VIX options OI | Every boot (auto in boot.py; evening runs print OI=0 after hours — artifact, use intraday) | `scripts/vix_options.py` | 2026-06-14 (boot) |
+| VX_DAILY.tsv time series | Daily (auto-append at boot; **EOD `--supersede` run after 16:15 ET on AM-boot days**; gap-check after skipped days, KB-VIO-076) | `scripts/thresholds.py` (schema v2: basis TICK/SETTLE + m1m2_settle_date — m1m2 is T-1 vs row date by tool design, KB-VIO-092); `scripts/backfill.py` for gaps | 2026-06-12 settle row (backfilled 6/13) |
+| CFTC COT VIX futures | Weekly Fri 3:30pm ET (Tue position-snap; auto in boot.py) | `scripts/cftc_cot.py` (`--boot` freshness-gated; `--backfill` rebuild) | 2026-06-12 release (6/9 positions — predates the war); next Fri 6/19 (6/16 positions) |
 | NAAIM + ICI equity positioning | Weekly Wed/Thu | `scripts/equity_positioning.py` (**not yet built**) | Not wired |
 
 **Boot sequence:** `python3 scripts/boot.py` runs thresholds + vix_options + cftc_cot + catalyst_countdown.
@@ -97,4 +97,4 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 ---
 
 *Created: 2026-04-12*
-*Last Updated: 2026-06-10 (housekeeping item 4: CPI resolved-section added AM; FOMC day-counts corrected vs Fed calendar — Jul 28-29, Sep 15-16, decision days unchanged in CATALYSTS.tsv which was already correct; Data Refresh table re-stamped to actual (boot.py automates most rows — "overdue"/"when wired" framings removed); FRED-rates lag flagged. Prior: 6/6 Saturday org session; 6/7 CPI date fix 6/12→6/10.)*
+*Last Updated: 2026-06-14 (stale-data audit: Data Refresh "Last Updated" column re-stamped to actual — was drifted to 6/9-6/11 while STATUS advanced to 6/13; catalyst rows were already current. Prior: 6/10 housekeeping item 4 — CPI resolved-section added; FOMC day-counts corrected vs Fed calendar; Data Refresh table re-stamped. 6/6 Saturday org session; 6/7 CPI date fix.)*
