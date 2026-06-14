@@ -22,10 +22,12 @@ Messaging-overhaul direction in effect. `demand_destruction/TRACKER.md` is the o
 **MARKER LADDER (registered Jun 12; check each with date):**
 | # | Marker | Status Jun 12 | Why it matters |
 |---|--------|---------------|----------------|
-| i | **Named Iranian official confirms framework** | ❌ NOT MET — Iran silent [CONF RFE/RL Jun 12] | The single discriminator absent in ALL four prior dawns |
-| ii | Signing event hardens (venue/date confirmed) vs drifts | ⏳ "weekend in Europe" unanchored; CBS says LOI early next week | Drift = dawn fades like priors |
+| i | **Named Iranian official confirms framework** | ❌ **HARD COUNTER (Jun 13)** — Iran refused the Sunday signing timeline + called Trump's ceasefire claims "false and baseless" [CONF Pakistan Today/Seeking Alpha Jun 13; HAWK KB-180]. Not just silent — actively refuted the mediator's (Pakistan's) timeline | The single discriminator absent in ALL four prior dawns; now actively disputed |
+| ii | Signing event hardens (venue/date confirmed) vs drifts | ❌ **DRIFTING (Jun 13)** — Iran refused the Sunday timeline; venue Geneva-vs-Vienna; signing-imminent narrative is mediator-sourced and counterparty-disputed | Drift = dawn fades like priors |
 | iii | Kinetic silence through signing | ❌ COUNTER — US downed 2 Iranian drones near Hormuz Jun 12 AM | Live counter-indicator |
 | iv | Physical tells: war-risk premium quotes, P&I resumption, Gulf charter fixtures, minesweeper deployments | ❌ none observed | = LESSONS #18 verification gate; even real signing ≠ barrels (mine clearance + insurance gate flow) |
+
+**Hormuz-management wedge (Jun 13, HAWK KB-180):** the framework defers Hormuz "future management" to a bilateral **Iran-Oman** process — two-sided: a can-kick to signature OR the tolls-wedge institutionalized via fees (the framework keeps "free services" fee-eligible). This is the reopen-*quality* discriminator even if signing happens — a fee regime = partial reopen, not the clean reopen the tape prices.
 
 **BRT-15 numeric conditional (registered pre-outcome, advisor-verified — full text in PREDICTIONS.tsv):** hardening = (i) AND (ii-signing occurs); window N=3td from signing (td 1 = signing-day session if before 4 PM ET close, else next); magnitude X = STNG −10% cumulative from last pre-signing close. Hardened+hit → CONFIRMED; hardened+miss → FAILED; no hardening → OPEN. **Counter-evidence logged:** STNG +2.3% intraday to $78.23 announcement+1 day, 4th-5th consecutive up session — market either not treating it as operational (LESSONS #18, Apr 17 pattern) or pricing reopen as tanker-positive.
 
@@ -113,7 +115,7 @@ Messaging-overhaul direction in effect. `demand_destruction/TRACKER.md` is the o
 | Vector | Score | State |
 |--------|-------|-------|
 | Hormuz/chokepoint | 🔴 5 | Trickle-flow; US downed 2 Iranian drones near Hormuz Jun 12 AM — kinetic LIVE at the chokepoint through the settlement announcement |
-| Bab al-Mandab | 🟡 2 | Houthi quiet; BRT-28 window to Jul 1 |
+| Bab al-Mandab | 🟠 **3 ↑ from 2** | **Kinetic active in Gulf of Aden** (Houthi struck 2 commercial vessels Jun 8-9, MT Settebello disabled/1 dead, total ban MARAD 2026-006 [HAWK Jun 13]); **strait-proper quiet** — locus discipline (HAWK HAW-10 OPEN, CONFIRMED only on a strait-proper strike). Was "Houthi quiet" — stale. BRT-28 window to Jul 1 |
 | Gulf production | 🔴 5 | STEO June still models closed-Hormuz ($105 assumption); shut-in regime intact |
 | Brent price | 🔴 4 | $88-handle; settles $90.38 (Jun 11); below the $90 structural line, far above $75 thesis-break |
 | US production response | 🟠 3 | 431 rigs; BH 1:00 PM today; sub-$90 weakens rig-add case |
@@ -126,7 +128,7 @@ Messaging-overhaul direction in effect. `demand_destruction/TRACKER.md` is the o
 | Ceasefire stability | 🟠 3 | Dawn #5: closest-yet announcement BUT Iran unconfirmed + live kinetic counter-indicator — split state, ladder armed |
 | **Curve structure** | 🔴 **4 ↑ from 3** | **M1−M3 $2.67 first sub-$3 close; Trigger #1 completes Mon if holds** — backwardation nearly gone, front-led |
 | **Macro transmission** | 🟠 **4 ↑ from 3** | **CPI proves oil→CPI leg at market scale** (energy >60% of increase); inverse-feedback test deferred to Jul 14 CPI |
-| **TOTAL** | **50/70** (14 vectors) | Up 47→50 but READ THE SPLIT: physical/storage/curve vectors are Phase-1-maximal while curve+demand+macro now also arm Phase 2. The matrix is measuring the divergence itself. |
+| **TOTAL** | **51/70** (14 vectors; Bab 2→3 on Gulf-of-Aden kinetic, Jun 13) | Up 47→50→51 but READ THE SPLIT: physical/storage/curve vectors are Phase-1-maximal while curve+demand+macro now also arm Phase 2. The matrix is measuring the divergence itself. |
 
 ---
 
@@ -163,7 +165,7 @@ Does dawn #5 harden (ladder item i = Iranian confirm) before Path B Trigger #1 c
 | BRT-21 | OPEN — **2/3 area, closest ever** | Trigger #1 1/3 (completes Mon if holds); #2 sign-flipped; #3 prints 3:30 today |
 | BRT-26 | OPEN — BH print 1:00 today | 431; 26 to 457; sub-$90 tape supports prediction |
 | BRT-27 | **RESOLVED CONFIRMED (Jun 13)** | Confirm-branch: Brent <$92 (91.45/90.38/87.20) + HAW-09 CONFIRMED [HAWK Jun 13]. Price LED confirm (mechanism✓, ordering loose); channel-resumed not deal-done. → PREDICTIONS_ARCHIVE.md#BRT-27 |
-| BRT-28 | OPEN | Bab window to Jul 1; Houthi quiet |
+| BRT-28 | OPEN — **kinetic active in Gulf of Aden, strait-proper quiet** | 2 vessels struck Jun 8-9 (Settebello), MARAD 2026-006 [HAWK]; locus = GoA ≠ strait proper. Window to Jul 1 |
 
 ---
 
