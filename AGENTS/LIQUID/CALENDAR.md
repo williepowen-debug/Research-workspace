@@ -18,9 +18,10 @@
 
 | Date | Event | Signal Threshold | Who Cares |
 |------|-------|-----------------|-----------|
-| **Wed Jun 17** | **June FOMC — decision day** (presser, SEP/dot plot) | Dot plot revision, Warsh succession color, liquidity-facility language | LIQUID, HENRY, ALL |
-| **Thu Jun 18** | **May TIC data (April flows)** | Japan net, China (Belgium proxy), FOI demand hole — KB-LIQ-055 framework | LIQUID, SAM |
-| **Fri Jun 19** | **June monthly opex** | HYG / TEN June expiry roll off | LIQUID |
+| **Tue Jun 16 PM** | **SOFR-futures 2026 cut-count pull** (pre-FOMC) | Resolves the FOMC hawkish-vs-neutral base case: **≤1 cut priced = neutral-base / ≥2 cuts = hawkish-base** (FOMC_TIC_DECISIONTREE; re-weight the dot-flavor branches off this) | LIQUID |
+| **Wed Jun 17** | **June FOMC — decision day** (presser, SEP/dot plot) | Dot plot revision, Warsh succession color, liquidity-facility language. Pre-staged tree: `workbook/FOMC_TIC_DECISIONTREE.md` | LIQUID, HENRY, ALL |
+| **Thu Jun 18** | **May TIC data (April flows)** | Japan net (>$20B UST sell = SAM route, KB-LIQ-031 anchor), Belgium proxy $481B→$500B ($19B headroom) — KB-LIQ-055 framework | LIQUID, SAM |
+| **Fri Jun 19** | **June monthly opex** | No live LIQUID decisions (TEN closed, HYG written off to expire) | LIQUID |
 | Various | June Treasury auction cycle | BTC, indirect; 30Y the live tell (at 5.01, off 5.168 peak) | LIQUID |
 
 ## Later June / July (2026)

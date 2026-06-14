@@ -19,6 +19,14 @@ Not "hot CPI → hawkish." The real axis is **hot-CPI-behind vs oil-relief-ahead
 
 **P(Hold) ≈ 93% · P(surprise cut) ≈ 5% · P(facility/other tail) ≈ 2%.** The decision is near-determined; the action is in the dots. Branches below are `Hold × {dot flavor}` + the thin cut/facility tail.
 
+> ⚠️ **Branch DEFINITION (corrected 6/13 per Orc grade): hawkish/neutral/dovish are defined vs the STRIP PRICING going in (surprise direction), NOT vs the March SEP (revision direction).** The duration reaction we trade keys off surprise-vs-pricing, not revision-vs-SEP. This flips the base case: under surprise-definition, a 4.18% headline against a strip that has *rallied* (30Y 5.18→4.95, 10Y→4.45) sets up a **hawkish surprise** → hawkish earns the base weight.
+>
+> 🔬 **OPEN DIVERGENCE — datable, do NOT hand-resolve.** LIQUID provisional = **neutral-base** (hawkish 33 / neutral 38); Orc = **hawkish-base** (hawkish ~45 / neutral ~30). Δ is ~8pts neutral↔hawkish; we're aligned on dovish (~18–22), cut (5), facility (2). It hinges on ONE unverified premise — how much easing the strip prices going in:
+> - **Resolver: pull SOFR-futures-implied 2026 cut count Tue 6/16 PM.**
+> - prices **≤1 cut** → little hawkish-surprise room → **neutral-base right, hold hawkish 33 / neutral 38.**
+> - prices **≥2 cuts** → hot CPI sets up the hawkish surprise → **hawkish-base right, shift ~8pts neutral→hawkish (hawkish ~45 / neutral ~30).**
+> - **DO-NOT-TRANSCRIBE the 45/30 until the Tue pull lands.** Posture impact: hawkish-base makes the ≥5-closes>5.00 re-establishment the *most-likely-armed* branch and tilts conviction to 63–65 into Wednesday; neutral-base leaves you flat-60. Different posture — that's why it's worth resolving Tuesday, not Wednesday.
+
 | Branch | Weight | ARMS (FOMC-day) | Duration-leg read | Conviction move *(duration leg only, CONTINGENT on resolve)* | Falsifier (the close-sequence that proves this branch wrong) |
 |---|---|---|---|---|---|
 | **Hold + hawkish dots** (fewer/no '26 cuts; weight sticky core; look through oil) | **33%** | the **≥5 consecutive 30Y closes >5.00** re-establishment test | strengthens | 60 → **63–65** *if* re-established | 30Y fails to close >5.00 for 5 straight despite hawkish dots = **priced-not-transmitting**; regime stays oscillation, no conviction add |
@@ -38,7 +46,7 @@ Not "hot CPI → hawkish." The real axis is **hot-CPI-behind vs oil-relief-ahead
 | Sub-read | Bull (Leg B closing) | Bear (Leg B confirms) | Concrete trip / route |
 |---|---|---|---|
 | **Belgium proxy** (China stealth) | flat/declining from $481B | rising toward $500B | **$481B (Nov) → $500B orange = $19B headroom; one month's flow can cross.** If April crosses $500B → **SAM + PROME 🟠 route** |
-| **Japan net** | net positive | **>$20B single-month sell** | confirms Leg B demand-hole + repatriation → SAM/MARCO signal |
+| **Japan net** | net positive | **>$20B single-month UST sell** *(anchor: top of the Feb-2026 FY-Q4 peak-repatriation estimate $13–22B UST-specific/month, KB-LIQ-031 — i.e. exceeds even the FY-end peak run-rate. Peak-run-rate anchor, NOT a computed SD; TIC total-holdings change can also carry valuation effects)* | confirms Leg B demand-hole + repatriation → SAM/MARCO signal |
 | **USD/JPY flow-confirmation gate** | Japan flat/net-BUYING despite JPY>160 = level is rate-differential, **not** repat → downgrade the flow read | Japan net selling + SAM repat read = the level trigger (5 closes >160) is flow-confirmed → SAM channel firing into LIQUID | level clause met; this is the *mechanism* test |
 
 **Routing discipline:** the Japan-flow read is **SAM-primary**. Co-watch only — route to SAM+PROME *only if decision-relevant*: Belgium >$500B OR Japan >$20B sell. Don't pre-loop SAM before the data exists (outbox queue is already backed up).
