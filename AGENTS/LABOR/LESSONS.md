@@ -5,6 +5,11 @@ LABOR-specific mistake-patterns to avoid. Read at boot (B3); written at closeout
 
 ---
 
+## L-04 — Structured ledgers (VX/KB/FLOW) drift months behind the narrative STATUS
+**Pattern:** STATUS.md gets refreshed every session, but the C3 workbook sync keeps getting deferred — so on Jun 14 the VX claims rows were still dated **Mar 9** (213K initial / 1.868M CC with dead DHS-shutdown caveats), and FLOW still read "Claims 209K / NFP +50K (Dec)." A query against the ledger returns confidently-wrong stale values with **no staleness signal** — the row just shows an old "Last Updated" date a reader may not check. Orc's framing: "this is how a ledger gap silently distorts a trajectory read later."
+**Fix:** (1) When deferring full C3, still refresh the **load-bearing rows** (claims/NFP/U-3) — they're cheap and most-queried. (2) Do **not** blanket-stamp a too-recent `[STALE date]` — the rows carry *their own* (often much older) dates; a generous stamp overstates freshness. (3) Treat a 2+-cycle C3 deferral as a real debt, not a footnote. Transferable to any agent with a STATUS+workbook split (CARL/REGINALD/BROCK/HENRY) — candidate for auto-memory promotion.
+**First seen:** Jun 14 2026 (Orc-flagged; partial fix = 2 claims rows refreshed, rest still owed).
+
 ## L-03 — DOGE/government YoY comps are base-effect-poisoned
 **Pattern:** Challenger YTD job-cuts showed -43% YoY (and DOGE-specific -94% YoY) in mid-2026 — which reads as "layoffs improving" but is an artifact of the inflated 2025 DOGE base (284,827 federal cuts in 2025 vs ~16K in 2026).
 **Fix:** For any DOGE/federal-workforce YoY series, anchor to a pre-DOGE baseline (or use level + MoM), not the 2025-comp YoY. The comp laps a structural one-off. See auto-memory `[[feedback_yoy_baseeffect_use_multiyear_stack]]`.
