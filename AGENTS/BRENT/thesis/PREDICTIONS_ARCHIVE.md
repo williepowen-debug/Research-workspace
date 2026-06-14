@@ -239,3 +239,20 @@ Prediction was a disclosure-signal bet; the conditioning grid-event (BRT-24) did
 **Excluded from calibration** — conditional never armed.
 
 **Lesson — nested-conditional risk:** BRT-25 was nested on BRT-24 firing. When BRT-24 failed, BRT-25 was structurally precluded from firing. Nested conditionals compound failure risk — should have been written as a standalone (e.g., "TSMC mentions Hormuz / energy supply in Q1 commentary as material risk") rather than gated on a prior prediction that itself was speculative.
+
+---
+
+## BRT-27 — Brent price-consequence conditional on HAW-09 (Iran re-engagement)
+
+**Resolved CONFIRMED 2026-06-13** (conf 55%, made 2026-06-08; price-side met Jun 12, HAW-09 adjudicated CONFIRMED by HAWK Jun 13).
+
+**Prediction (Jun 8 scope-narrowed form):** PRICE-CONSEQUENCE conditional on HAW-09 — Brent retreats to <$92 (front-month) within 5 trading days of HAW-09 partial-or-full confirm (Iran re-engages Pakistan-mediated talks by Jun 15); OR Brent holds $94-100 through Jun 17 if HAW-09 falsifies.
+
+**Outcome:** Confirm-branch. HAW-09 CONFIRMED Jun 13 (Iran re-engaged Pakistan/Qatar channel + Sharif "final agreed text" Jun 12). Brent closed <$92 across the window: Jun 9 $91.45, Jun 10 $93.10, Jun 11 $90.38, Jun 12 $87.20 (first sub-$88 of cycle).
+
+**Lead/lag nuance (honest grading):** The price moved *ahead of* the formal HAW-09 adjudication, not after it. Kinetic-premium decompression ran Jun 8-12 on the broader de-escalation process (Iran-Israel mutual halt Jun 8 PM + dawn-#5 Trump settlement announcement Jun 11 PM); HAW-09 was only formally adjudicated CONFIRMED Jun 13. So the *mechanism* (re-engagement process ⇒ kinetic-premium decompression ⇒ Brent <$92) is confirmed, but the literal "price follows confirm within 5 td" temporal ordering was loose — price anticipated. Sibling of [[finding_threshold_vs_mechanism]] / [[finding_catalyst_path_decoupling]].
+
+**Read-as caveat:** channel-resumed, NOT deal-done. HAWK B-Reopen 32% with resolution bar still pinned to *verified* reopening (traffic recovery); HAW-09 CONFIRMED is the announcement leg only (LESSONS #18 announcement≠barrels). Signature unexecuted, venue wobbling (Geneva vs Vienna) as of resolution.
+
+**Full pre-resolution note (carried from PREDICTIONS.tsv at resolution):**
+> JUN 8 SCOPE-NARROW: Restructured from event-shaped to price-consequence per HAWK Jun 8 ask + "one source of truth per metric" — HAWK canonical event call is HAW-09 (conf 35%); BRENT owns the price-side. Date_made bumped to 2026-06-08. Calibration delta resolved: BRENT had been carrying conf 65% on the event (Trump "deal next week" rhetoric overweighted, `[[feedback_trump_rhetoric_tape_not_info]]`) vs HAWK 35%; deferred to HAW-09's 35% for event prob. The 55% conf here is on the CONDITIONAL price reaction given HAW-09 resolves either way (high-confidence price path; the conditional itself rides HAW-09's 35% event prob). Cross-ref: HAW-09; FLOW-HAWK-19 (decoupling regime). PRE-JUN-8 EVENT-SHAPED HISTORY → see PREDICTIONS_ARCHIVE.md#BRT-27 (Jun 1 origin + Jun 7 partial-confirm trend). JUN 12 UPDATE: **PRICE-SIDE MET / HAW-09 PENDING.** Brent closes <$92: Jun 9 $91.45, Jun 11 $90.38 [CONF Yahoo daily closes Jun 12; advisor independent pull exact match]. HAWK book STALE for adjudication (Last Updated Jun 8 09:15 EDT — predates Jun 8 PM Iran-Israel halt AND Jun 11 PM Trump settlement announcement; HAW-09 conf 35% / B-Reopen 12% are pre-event marks). Resolution BLOCKED on HAW-09 adjudication — HAWK spawn decision escalated to Will (advisor verify Jun 12). Do NOT self-grade Iran-re-engagement off news headlines.

@@ -8,6 +8,21 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-06-13 — BRT-27 RESOLVED CONFIRMED (HAW-09 adjudicated; price-consequence conditional hit on the confirm-branch)
+
+**Author:** BRENT (Sat Jun 13 session, on HAWK inbox signal `HAWK_2026-06-13_HAW-09-CONFIRMED_unblocks-BRT-27.md`)
+**Trigger:** Prediction resolution. HAWK formally adjudicated **HAW-09 = CONFIRMED** Jun 13 (Iran re-engaged Pakistan/Qatar channel + Sharif "final agreed text" Jun 12), unblocking BRT-27 ahead of its Jun 17 deadline.
+
+**Old view → New view:**
+- **Old (Jun 12):** BRT-27 OPEN — "PRICE-SIDE MET / HAW-09 PENDING." Price-side hit (Brent <$92 closes) but resolution blocked on a stale HAWK book (Jun 8 09:15, two events behind); spawn decision escalated to Will.
+- **New (Jun 13):** BRT-27 **CONFIRMED** (conf 55%). HAW-09 CONFIRMED + Brent <$92 (Jun 9 $91.45 / Jun 11 $90.38 / Jun 12 $87.20) = confirm-branch. HAWK book now current (Jun 12 re-mark); no spawn needed.
+
+**Honest grading — price LED the confirm:** kinetic-premium decompression ran Jun 8-12 on the broader de-escalation process (Iran-Israel halt Jun 8 + dawn-#5 announcement Jun 11); HAW-09 only formalized Jun 13. Mechanism confirmed; literal "price-follows-confirm within 5td" ordering loose (price anticipated). Read as **channel-resumed, not deal-done** — HAWK B-Reopen 32%, resolution bar still = verified reopening (LESSONS #18). Full record → `PREDICTIONS_ARCHIVE.md#BRT-27`.
+
+**No thesis version bump** — BRT-27 is a within-window price-consequence call, not a structural change. (Separate v3.1 bump on the divergence regime remains pending Will's go per Jun 12 entry.)
+
+---
+
 ## 2026-06-12 — CATCH-UP SWEEP + ADVISOR ADJUDICATION: SPR drain-through, Trigger #1 first sub-$3 close, dawn #5 settlement announcement, CF phantom-mark corrective (intra-version POV pivot; v3.1 bump pending today's settles + COT)
 
 **Author:** BRENT (with Will + Orc advisor packet/adjudication, Fri Jun 12 AM session)
