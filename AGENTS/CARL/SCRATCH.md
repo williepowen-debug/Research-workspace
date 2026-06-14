@@ -1,8 +1,8 @@
 # CARL SCRATCH
 **Last session:** 2026-06-14 ~17:00 UTC (Sun)
-**Type:** Boot + Will-directed "new data first" sweep (Jun 11-14) + ORC echo-verify + full integration. Energy decoupling reversing V12 expectations channel; CRL-08 re-breach-via-price DEAD (70→55); LEN FQ2 guide-cut integrated; UMich May-final backfill. No score move; 52/70 holds.
+**Type:** Boot + Will-directed "new data first" sweep (Jun 11-14) + ORC echo-verify + full integration + closeout tail (MEMORY finding; CC-90+DQ stale-ledger refresh, ORC-flagged). Energy decoupling reversing V12 expectations channel; CRL-08 re-breach-via-price DEAD (70→55); LEN FQ2 guide-cut integrated; UMich May-final backfill. No score move; 52/70 holds. **All work committed + pushed to origin (push-train swept it); CARL synced & clean.**
 
-**PRIORITY-1:** **Build the FOMC packet (Jun 16-17, 3 days out) off the CORRECTED STATUS — spine stays V12: energy→expectations-retrace→core-sticky.** The sweep softened the EXPECTATIONS leg (UMich 5-10Y 3.4% back below 3.5% red line; sentiment +9%) while core/PPI-6.5%-pipeline stays intact. Packet line items now: CRL-04 BREACHED clean / SAVE→RAP operational-GO / Treasury Phase 1 ramp / V14 Mercer benefits / headline-core divergence / **+ NEW: softened near-term expectations (don't carry "kinetic⇒energy-CPI" — BRENT decoupling caveat).**
+**PRIORITY-1:** **Build the FOMC packet — Will deferred it to THIS (next) session on purpose.** FOMC is Jun 16-17; build off the CORRECTED STATUS. **Spine stays V12: energy→expectations-retrace→core-sticky.** ⚠️ **ORC is producing an independent FOMC prior (dots-hold-hawkish, V12 intact, energy leg softer) — READ IT FIRST and draft to grade against it, don't anchor it.** The sweep softened the EXPECTATIONS leg (UMich 5-10Y 3.4% back below 3.5% red line; sentiment +9%) while core/PPI-6.5%-pipeline stays intact. The question to hold the packet to: keep "energy leg softer, core/structural stagflation the spine" — don't let the gasoline retrace over-soften V12. Line items: CRL-04 BREACHED clean / SAVE→RAP operational-GO / Treasury Phase 1 ramp / V14 Mercer benefits / headline-core divergence / **+ softened near-term expectations (don't carry "kinetic⇒energy-CPI" — BRENT decoupling caveat).**
 
 ---
 
@@ -16,7 +16,9 @@
 1. **Boot:** read SCRATCH/MEMORY/STATUS; docket flagged 2 past-due (LEN, UMich); predictions all forward-windowed; BRENT inbox correction surfaced (error-correction in CARL domain).
 2. **Sweep (4 web pulls, scoped by mechanism/falsification):** LEN FQ2, UMich June prelim, AAA pump $4.074, consumer-credit catch-all (nothing new — latest still Q1 NY Fed).
 3. **ORC echo-verify (recompute-don't-read):** caught LEN guide-cut as my first-pass miss (verified vs release); flagged UMich May-final ledger gap; trim-not-hold on CRL-08; LEN bounded to rates-not-energy. All folded in.
-4. **Integrated:** STATUS (8 edits), PREDICTIONS (CRL-08 70→55, CRL-23 datapoint), CHANGELOG, KB +2 (294-295), VX (GAS-01 + SENT-01), docket prune, ROADMAP. Consistency check clean.
+4. **Integrated:** STATUS (8 edits), PREDICTIONS (CRL-08 70→55, CRL-23 datapoint), CHANGELOG, KB +2 (294-295), VX (GAS-01 + SENT-01), docket prune, ROADMAP. Consistency check clean. Committed + pushed (`19804f2d`).
+5. **Closeout tail — MEMORY.md (step 13b, was skipped):** added Findings line on echo-verify catching first-pass misses + ledger gaps on multi-print sweeps. (`dc476578`)
+6. **CC-90+DQ stale-ledger refresh (ORC re-grade of committed bytes):** ORC flagged VX-CC-01 + matrix V1 at Q4 12.70%/92%/CRL-05-82% vs Q1 canonical 13.1%/95%/85%. Verified broader — refreshed matrix cells V1/V3/V4/V5/V12 + both CC VX rows (1.01 + CC-01). **V5/V12 had drifted further THIS session** (dashboard updated, matrix mirror not). No score move (V1=4 either way). Flagged VX-1.01/CC-01 dedup for workbook session. (`ef5c5771`)
 
 ## STATUS CHANGES
 | Item | Change |
@@ -30,13 +32,15 @@
 | DANGER WINDOW NOW | Re-anchored Jun 11 → **Jun 14** (energy-decoupling synthesis) |
 | Convergence | **52/70 unchanged** (no score move) |
 | KB / VX / docket | KB +2 (294 LEN / 295 UMich); VX GAS-01 + SENT-01; LEN+UMich pruned (0 past-due) |
+| Matrix cells (tail) | V1/V3/V4/V5/V12 evidence refreshed to current (no score move); both CC VX rows (1.01+CC-01) 12.70→13.1% |
+| MEMORY.md | +1 Findings line (echo-verify pattern) |
 
 ---
 
 ## NEXT SESSION SHOULD
 
 ### IMMEDIATE (this session / 24h)
-1. **FOMC packet prep** — Jun 16-17, off corrected STATUS. V12 spine; fold softened-expectations + decoupling caveat. (PRIORITY-1)
+1. **FOMC packet prep** — Jun 16-17, off corrected STATUS. V12 spine; fold softened-expectations + decoupling caveat. **Read ORC's independent FOMC prior FIRST (Will having ORC draft it), then build to grade against it.** (PRIORITY-1 — Will deferred to this session)
 2. **Sun Jun 15 — Sweet v. McMahon notice deadline** — watch PPSL case-page Jun 15-20 (DOE missed both prior deadlines; miss = bounded counter-signal).
 
 ### UPCOMING (this week)
@@ -49,7 +53,7 @@
 7. **Jun 24** FL UI Wave 1 cliff (CRL-07) + New Home Sales · **Jun 25** May PCE (savings toward sub-2.5%) · **Jun 26** Fannie MF DQ (CRL-03 — Apr 0.64%, watch 2nd-consec <0.65% invalidation) + UMich June final (confirms 5-10Y retrace) · **Jun 29** Freddie HPI · **Jun 30** Case-Shiller + CB Confidence · **Jul 1** SAVE→RAP.
 
 ### BACKLOG (no deadline)
-8. **Convergence-matrix evidence-cell refresh** (NEW, ORC-flagged) — V1/V3/V4/V5/V12 "Current" cells lag dashboard; quick, non-gating.
+8. **Convergence-matrix cleanup — PARTIAL DONE** (V1/V3/V4/V5/V12 + both CC VX rows refreshed Jun 14). **Remaining:** (a) **VX-1.01 vs VX-CC-01 DEDUP** (two vectors, same metric — retire one); (b) deeper matrix cells V6/V8/V10/V11/V13/V14/V16; (c) CC-row band imprecision (13-13.74 gap). Workbook session, non-gating.
 9. **GIG sub-agent refresh** (FL UI Wave 1 in 10d; Dave Q1 stale).
 10. **Workbook session** — FLOW 58d stale; Jun-9 NY Fed primary KB row still owed.
 11. **PHAN/POP/POLLY refresh-burst**; LIAISON cycle 1 (WALTER) overdue.
@@ -77,7 +81,7 @@
 | docket/CATALYSTS.tsv | 27 | Jun 14 | LEN+UMich pruned; 0 past-due |
 | PREDICTIONS.tsv | 24 | Jun 14 | 17 OPEN; CRL-08 70→55 |
 | STATUS.md | 248 | Jun 14 | Under cap (250) |
-| VX.tsv | 121 | Jun 14 | GAS-01 + SENT-01 refreshed |
+| VX.tsv | 121 | Jun 14 | GAS-01 + SENT-01 + CC-01/1.01 refreshed |
 | KB.tsv | 292 | Jun 14 | +2 (294-295); Jun-9 NY Fed row still owed |
 | FLOW.tsv | 25 | Apr 17 | **58d stale** |
 
@@ -90,6 +94,6 @@
 - TEAM.md untouched (no spawns)
 
 ## URGENT
-- **FOMC Jun 16-17 (3d)** — packet off corrected STATUS; V12 spine; softened-expectations leg is the new wrinkle.
+- **FOMC Jun 16-17** — PRIORITY-1 next session; packet off corrected STATUS; V12 spine; softened-expectations leg is the new wrinkle. **Read ORC's independent FOMC prior first.**
 - **CRL-08 re-breach-via-price DEAD** (70→55) — gas/Brent now disinflation tailwind, not squeeze.
-- **GIT: committed locally, ready to push — Will's call** (defer-push per [[feedback_defer_push_coordinate]]).
+- **GIT:** all 3 Jun-14 integration commits (sweep+integrate / MEMORY tail / CC-ledger refresh) are **on origin** (push-train swept them this window). This SCRATCH-closeout commit is **local-pending** — rides the next push window (defer-push). Boot reads SCRATCH from disk so next session sees it regardless.
