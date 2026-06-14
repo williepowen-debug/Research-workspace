@@ -8,6 +8,23 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-06-13 — THESIS v3.0 → v3.1 (minor): MAXIMAL PHYSICAL/PRICE DIVERGENCE; Phase 2 arming on BOTH axes; oil→CPI printing; decoupling hardened to a regime
+
+**Author:** BRENT (Sat Jun 13 session, on Will's go — pre-registered criterion Trigger #1 ≥2/3 was met Jun 12)
+**Trigger:** Accumulated evidence batch since v3.0 (May 31) crossed the pre-registered v3.1 gate. Minor bump (refinement) — NOT a structural/phase transition or conviction reversal; flat-price conviction stays cautious-neutral.
+
+**Old view (v3.0, May 31) → New view (v3.1, Jun 13):**
+- **Framing:** v3.0 = "Phase 2 PRICING DOMINANT via the diplomatic/supply-relief channel; the price broke while the squeeze held." → v3.1 = **"the DIVERGENCE itself is the thesis"**: physical Phase-1 squeeze intensified to cycle-max (SPR drained THROUGH the ~350M floor; total crude −15M/wk ×2; util 95.3%; Cushing floor ~Jul 1) while the tape fell to ~$87 pricing de-escalation EIA won't model (~$11 gap to STEO's $105 closed-Hormuz assumption). Stored snap-back energy.
+- **Phase 2 axes:** v3.0 had Phase 2 arriving via supply-relief only, Path B 1/3 (Trigger #2 "not fired, +0.5%"). → v3.1: Phase 2 arming on **BOTH** axes — Path B substrate now arming organically (Trigger #1 **2/3**, Trigger #2 **sign-flipped to −0.5% first negative**, China imports 8-yr low) AND the diplomatic axis (dawn #5 / Islamabad Agreement, HAW-09 CONFIRMED). Either can begin Phase 2.
+- **Macro (NEW channel state):** oil→CPI leg now PRINTING at market scale — May CPI energy >60% of the monthly increase, gasoline +40.5% YoY (BRT-16). Inverse-feedback test deferred to June CPI (Jul 14).
+- **Decoupling hardened to a REGIME (FLOW-HAWK-19):** Iran's formal Hormuz closure declaration fired Jun 11 and Brent FELL — the tape discounts even formal Iranian declarations absent realized throughput. Corollary: price moves on the repricing event, not the barrels (LESSONS #11/#16).
+- **Crack:** util crossed 95% but BRT-12 compression ABSENT — mechanism = margin-boom not squeeze (threshold-vs-mechanism). 3-2-1 vs Brent $45.64 WIDENED into the selloff.
+- **Consumer channel:** pump pass-through STALLED — wholesale RBOB sticky while crude fell; relief may stall near current levels.
+- **Predictions folded in:** BRT-27 CONFIRMED; BRT-08 sign-flipped; BRT-16 printing; BRT-04 → ~50-55%; risk-factor probabilities re-aligned to HAWK's Jun-12 scenario weights (B 32% / C 42% / D 26%).
+- **Positions unchanged in stance:** XLE HOLD (premise breaking; re-eval condition restated); CF ride-to-expiry; BRT-15 tabled with numeric conditional registered. No new flat-price longs.
+
+---
+
 ## 2026-06-13 — BRT-27 RESOLVED CONFIRMED (HAW-09 adjudicated; price-consequence conditional hit on the confirm-branch)
 
 **Author:** BRENT (Sat Jun 13 session, on HAWK inbox signal `HAWK_2026-06-13_HAW-09-CONFIRMED_unblocks-BRT-27.md`)
