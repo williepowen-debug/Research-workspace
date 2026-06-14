@@ -10,13 +10,29 @@ Log material structural changes only — not routine content edits. Template ado
 
 ---
 
+## 2026-06-14 — m1m2 backfill: warn-and-proceed → hard gate (Orc verification of 6/13 commit)
+
+**Trigger:** Orc cross-container review of the pushed Friday-close work found one real gap: `backfill_m1m2()` printed the convention hazard then fell straight into the fill loop — no early return, no override gate. The skip-if-present guard only protects cells that ALREADY hold a value, so a future session running `backfill.py` (full, default) or `--m1m2-only` would still fill the ~79 blank m1m2 cells with same-day/unstamped values inconsistent with thresholds.py's T-1 series — the warning just scrolls past. The 6/13 docstring/commit said "BLOCKED"; the code only WARNED. Accident-proofing a session that never saw this thread was the whole point of the guardrail.
+
+**What changed:**
+- **`scripts/backfill.py`:** `backfill_m1m2()` now takes `allow: bool=False` and **early-returns (prints `⛔ REFUSING`, returns 0) unless `--allow-m1m2` is passed.** New `--allow-m1m2` CLI flag (default off). `main()` passes `allow=args.allow_m1m2`. Default `backfill.py` run now does spot only; the m1m2 path is genuinely blocked, not warn-only. Docstring + usage corrected to match. Tested: `backfill_m1m2(..., allow=False)` returns 0 and mutates no rows without any network call.
+- **MAINTENANCE 6/13 entry:** "BLOCKED" claim corrected inline (it was aspirational as shipped that day).
+
+**Files touched:** scripts/backfill.py, MAINTENANCE.md, STATUS.md (line-19 vestigial parenthetical dropped + 20d-SKEW-avg recompute — see below; analytical, not structural).
+
+**Boot-impact:** none (backfill.py is not in boot.py). Behavioral: a default/`--m1m2-only` backfill no longer silently injects same-day values; recovery via `--spot-only` is unchanged and still the routine path. The #4 convention decision is still open — `--allow-m1m2` is the deliberate override to be used ONLY after it resolves.
+
+**Lessons:** a documented hazard is not an accident-proof one — "BLOCKED" in a docstring while the code warns-and-proceeds is the gap between intent and enforcement; when the point of a guard is to protect a future unaware session, the guard must REFUSE, not narrate. (Reinforces the 6/13 lesson: surface — and here, *enforce* — the guard before it's relied on.)
+
+---
+
 ## 2026-06-13 — Supersede limits surfaced: boot-time stale-TICK guard + m1m2 convention landmine pinned
 
 **Trigger:** Weekend refresh found the VX_DAILY 6/12 row stuck as a stale morning TICK (VIX 19.04 vs 17.68 settle). Root cause (Orc): Friday's session closed 1:40pm, before the 16:15 ET settle, so the EOD `--supersede` never fired — and `--supersede` only ever targets *today's* row (stamps `et_now`), so it can NEVER reach back to repair a prior date; a stale row does not self-heal on re-run. The weekend-skip guard was a red herring (it only blocked the Saturday catch-up). Investigating the repair path surfaced a second landmine: **thresholds.py and backfill.py disagree on the m1m2 convention.**
 
 **What changed:**
 - **`scripts/thresholds.py`:** (a) `append_daily_log` now returns a STATUS CODE (appended/updated/skip-weekend/skip-exists/skip-tick-vs-settle/skip-no-file) instead of a bare bool — the old bool made every skip print the misleading "already has a row" line (which fooled VIOLET herself: the real reason was the weekend guard). Printer states the real reason + points to backfill.py. Bool back-compat preserved for `--json`. (b) New `check_stale_tick()` boot-time guard: emits a `⚠️` (surfaced by boot.py collapse) when the LATEST VX_DAILY row is a TICK dated before today — catches the missed-EOD case at next boot, which is the case that actually failed (a closeout checklist can't catch it; nothing is alive at 16:15 ET close). Tested both branches.
-- **`scripts/backfill.py`:** m1m2 CONVENTION HAZARD pinned — docstring block + runtime `⚠️` print in `backfill_m1m2()`. This path writes SAME-DAY/unstamped m1m2; thresholds.py writes T-1 WITH `m1m2_settle_date`. The two disagree; the ~79 blank m1m2 cells are protected only by the skip-if-present guard. `--m1m2`/full backfill is BLOCKED on the convention decision (#4); `--spot-only` is always safe.
+- **`scripts/backfill.py`:** m1m2 CONVENTION HAZARD pinned — docstring block + runtime `⚠️` print in `backfill_m1m2()`. This path writes SAME-DAY/unstamped m1m2; thresholds.py writes T-1 WITH `m1m2_settle_date`. The two disagree; the ~79 blank m1m2 cells are protected only by the skip-if-present guard. *(NOTE — corrected 6/14: as shipped this day the guard only WARNED-then-proceeded, NOT "BLOCKED" as this line originally claimed; a default `backfill.py` run would still have filled the blank cells. Hard gate added 6/14 — see entry below.)*
 - **Data fixes (not structural, logged for trail):** VX_DAILY 6/12 spot row hand-backfilled to settle then m1m2 reverted to T-1 (6.49/settle_date 6/11) for series consistency; 6/10 skew fixed 141.97→143.08 via `backfill.py --spot-only` (was a dup of 6/09).
 
 **Files touched:** scripts/thresholds.py, scripts/backfill.py, workbook/VX_DAILY.tsv (6/10 + 6/12 rows), MAINTENANCE.md.
