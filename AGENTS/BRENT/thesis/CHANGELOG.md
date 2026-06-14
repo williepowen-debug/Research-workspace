@@ -8,6 +8,20 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-06-14 — THESIS v3.1 → v3.2 (minor): SPR-floor factual correction (the "~350M operational floor" was the 2023 trough mis-cited)
+
+**Trigger:** Workbook-demotion session surfaced that KB-011 cited SPR "~350M historic lows" for 2026, while KB-152 (A-1 EIA) had it at 409.2M (Apr 10) — internal contradiction. Tracing it found the same confusion had propagated into the live thesis framing ("SPR drained THROUGH the ~350M operational floor"). Orc pulled the EPCA cite; BRENT verified against primary (Cornell LII, 42 U.S.C. §6241).
+
+**Old view (v3.1 and earlier):** SPR 349.2M "drained THROUGH the ~350M operational floor"; pre-registered Jun-3 binary resolved tail case = near-term bearish + **medium-term bullish (finite backstop exhausting)**; watch DOE for sub-floor policy.
+
+**New view (v3.2) [CONF 42 U.S.C. §6241]:** ~350M is **not** an operational floor — it is the 2023 post-release trough (~347M). The **only** statutory floor is **252,400,000 bbl** (§6241(h)(2)(C)/(D), *limited/non-emergency* drawdown authority, also capped 30M bbl / 60 days); the **emergency authority §6241(d)(1) — which a severe-supply-interruption (Hormuz) release runs under — has NO floor.** (The 252.4M figure was itself cut from 340M in 2021, Pub. L. 117-58.) Consequences: (a) at 349.2M the SPR has **~97M bbl / ~12 wks of runway** to the limited floor and effectively unbounded room under emergency authority; (b) the **near-term BEARISH leg runs LONGER** than "finite-backstop-imminent" implied (marginal 1.1-1.3 mbpd stays in the market, admin price-suppression posture); (c) the **medium-term "finite backstop" bullish leg is DEMOTED — not imminent**; (d) there is no "SPR sub-floor policy" forcing event at 349M.
+
+**Conviction:** UNCHANGED — flat-price cautious-neutral. This corrects one *supporting* argument inside the divergence frame; it does not move the central thesis. The physical-tightness read (SPR draining ~8M/wk no throttle, −15M/wk total ×2, util >95%) is intact — only the "through a floor → finite backstop" interpretation is corrected.
+
+**Propagation:** corrected across STATUS (storage section + overall-status + dashboard + convergence + Phase-1 + summary + catalyst-calendar), THESIS (status/one-liner/SPR-bullet/matrix/PROME-flag/catalyst), TRACKER (header/verdict/Cushing-row), NEXUS_BRIEF (flag upgraded pending→CORRECTED), CATALYSTS (Jun-10 SPR row annotated), KB-011 (already CORRECTED `0d568609`). Lesson promoted to auto-memory `[[finding_workbook_demote_by_verification]]` (a number carries its ERA — a true 2023 figure mis-dated to 2026; verify your correction's own provenance). Historical CHANGELOG/weekly-log entries below are LEFT as-written (record of what was believed then).
+
+---
+
 ## 2026-06-13 — THESIS v3.0 → v3.1 (minor): MAXIMAL PHYSICAL/PRICE DIVERGENCE; Phase 2 arming on BOTH axes; oil→CPI printing; decoupling hardened to a regime
 
 **Author:** BRENT (Sat Jun 13 session, on Will's go — pre-registered criterion Trigger #1 ≥2/3 was met Jun 12)
