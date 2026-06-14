@@ -5,7 +5,7 @@
 **Thesis version:** v3.2 (Jun 14 — SPR-floor factual correction [§6241]: ~350M was the 2023 trough not a floor, finite-backstop bullish leg demoted; no conviction change) ← v3.1 (Jun 13 — divergence-max frame; Phase 2 arming on BOTH axes; oil→CPI printing; decoupling hardened to regime; BRT-27 CONFIRMED)
 **Recent thesis pivot:** Jun 12: catch-up sweep + advisor adjudication — SPR draining no throttle (349.2M; [v3.2 correction: ~350M was the 2023 trough not a floor — §6241 floor 252.4M]); Path B Trigger #1 first sub-$3 close ($2.67 Jun 11, completes Mon if holds); gasoline 4-wk YoY −0.5% first negative of cycle; Trump settlement Jun 11 PM = dawn #5 with marker ladder registered; crack refresh shows NO compression (3-2-1 widened into the selloff — margin-boom, not squeeze).
 **Position:** XLE $65C Sep-30 (premise BREAKING — re-eval on signed MOU OR 2 consecutive sub-$88 Brent closes); CF $130C Jun-18 (ride to expiry; corrected mark $0.10/zero bid — Tue's "$8" was phantom) — structural only; marks in STATUS/FORGE, no P/L here
-**As of:** 2026-06-14 Sun (rev-10: workbook ledgers KB/VX/FLOW demoted to archival; **SPR-floor CORRECTED — THESIS v3.1→v3.2** [§6241 verified, ~350M was the 2023 trough not a floor; finite-backstop bullish leg demoted]. No conviction change) | STATUS commit: pending (closeout commit)
+**As of:** 2026-06-14 Sun (rev-10: workbook ledgers KB/VX/FLOW demoted to archival; **SPR-floor CORRECTED — THESIS v3.1→v3.2** [§6241 verified, ~350M was the 2023 trough not a floor; finite-backstop bullish leg demoted]. No conviction change) | STATUS commit: 41cf0e64 (pushed)
 
 ---
 
