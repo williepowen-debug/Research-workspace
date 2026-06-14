@@ -33,9 +33,7 @@ LABOR vector → threshold → target agent(s) → priority. Thresholds referenc
 | T-13 | DOGE/federal NFP | <-25K single print OR cumulative >400K | REGINALD (EGBN DC exposure), CARL | 🟠 |
 | T-14 | Hormuz hiring freeze (BRENT cross-check) | direct labor-transmission verified | CARL, HENRY | 🟠 |
 
-**Open broadcast queue (signals owed but not yet sent — messaging degraded per `[[project_messaging_overhaul]]`):**
-- NFP May +172K beat + net +93K upward revisions → **T-05 watch:** Mar revised 214K is #1 of 3 toward Kill A → CARL, PROME, FORGE
-- Challenger AI-cited 40% record → **T-09 fires** → CARL, HENRY
+*(No standing broadcast queue — the Transmission Index above fires fresh outbox signals on trigger, e.g. Jun 18 >250K → T-01; Jul 2 NFP → T-05/T-06.)*
 
 ---
 
@@ -150,6 +148,6 @@ Per `[[finding_outside_this_rail_disclosure]]`:
 
 - **Other-agents' positions** (KRE/WAL/OZK/HYG/IWM/AAL/etc.) — position-level entry/exit triggers live with the position owner. LABOR sends the signal via §1; the owner decides.
 - **Live KELYA contracts/cost basis/mark** — owned by FORGE per `[[feedback_position_cost_basis_not_authoritative]]`.
-- **Cross-agent signal *delivery*** — messaging system in flight per `[[project_messaging_overhaul]]`; broadcast queue in §1 is staged but not auto-dispatched.
+- **Cross-agent signal *delivery*** — messaging system in flight per `[[project_messaging_overhaul]]`; §1 Transmission Index fires fresh outbox signals on trigger (no standing queue).
 - **New position ideas** — none proposed in this rebuild. LABOR-direct trade scope ends at KELYA absent new structural break.
 - **Hedging/repair structures on KELYA** — out of scope; position is functionally dead, not a candidate for roll/cover.
