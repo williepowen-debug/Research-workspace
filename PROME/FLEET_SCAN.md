@@ -46,7 +46,7 @@ But the structural side did not clear: CCC remains **956bps**, SKEW stayed bid t
 | `PROME/STATUS.md` | ✅ Current Jun 14 | Operational state and agent/domain table. |
 | `PROME/ACTIVE_DECISIONS.md` | ✅ Current Jun 14 | Stale trade rails verification-required; HYG dead. |
 | `PROME/FLEET_SCAN.md` | ✅ Current Jun 14 | This file. |
-| `HEARTBEAT.md` | 🔴 Pending final rewrite | Must be updated last. |
+| `HEARTBEAT.md` | ✅ Current Jun 14 | Rewritten last as regime surface. |
 | Phase notes | ✅ Current | Phase0/1/2 files preserve audit trail. |
 | `memory/2026-06-14.md` | ✅ Current | Compaction-safe checkpoint. |
 | `PROME/action-cards/WEEK_2026-06-08.md` | 🟠 Stale as primary surface | Historical week card; do not use as current near-gate source. |
@@ -89,11 +89,11 @@ But the structural side did not clear: CCC remains **956bps**, SKEW stayed bid t
 
 ## 5. Top 5 Operational Moves
 
-1. ✅ **Finish boot-surface rewrite** — TODAY/SCRATCH/STATUS/ACTIVE/FLEET_SCAN done; HEARTBEAT remains.
-2. 🔴 **Rewrite HEARTBEAT last** — root regime surface should compress this scan.
-3. 🟠 **Verify stale language** — grep for Jun8–12 upcoming-gate language, “vol joined stress” current framing, and actionable HYG.
-4. 🟠 **Decide phase-note retention** — keep/commit as audit trail vs archive after refresh.
-5. 🟡 **Post-refresh dependency decisions** — WALTER Iran anchor, HENRY/NEXUS refresh, position reconciliation, and optional new `WEEK_2026-06-15.md`.
+1. ✅ **Boot-surface rewrite complete** — TODAY/SCRATCH/STATUS/ACTIVE/FLEET_SCAN/HEARTBEAT done and pushed.
+2. 🔴 **Pick follow-up lane** — FOMC/BOJ/TIC/expiry calendar is close; preserve attention.
+3. 🟠 **Refresh stale dependencies if decision-relevant** — HENRY market-structure mechanics, NEXUS synthesis, WALTER Iran anchor.
+4. 🟠 **Position-state reconciliation** — separate task before any Jun18/19 expiry action.
+5. 🟡 **Infrastructure hardening** — WALTER feed-stack request if continuous intake becomes priority.
 
 ---
 
@@ -112,7 +112,6 @@ But the structural side did not clear: CCC remains **956bps**, SKEW stayed bid t
 ## 7. Follow-Up
 
 After this file:
-1. Rewrite `HEARTBEAT.md`.
-2. Run `git diff --stat` and targeted stale-language grep.
-3. Confirm no `AGENTS/*` modifications.
-4. Report concise result to Will and ask whether to keep/archive/commit phase notes.
+1. Use `TODAY.md` as current near-gate source unless/until a `WEEK_2026-06-15.md` card exists.
+2. Do not treat old action cards as execution instructions; `ACTIVE_DECISIONS.md` governs verification-required state.
+3. Keep agent edits off-limits unless Will explicitly approves.
