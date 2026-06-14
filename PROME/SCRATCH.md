@@ -1,46 +1,59 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-08 PM ET (Claude Code Prome — Mon infra/coordination session: git-discipline, boot/closeout hardening, first full two-machine merge)
+**Last Updated:** 2026-06-14 PM ET (OpenClaw Prome — boot-surface refresh Phase 3 underway)
 
 ## What Just Happened
 
-Booted for Mon 6/8 week open; session pivoted almost entirely to **infrastructure + cross-machine coordination** rather than market work. Major threads, in order:
+Will returned after a long gap and asked Prome to pull the updated repo from GitHub. The repo fast-forwarded cleanly to `c87c00ac` with a large Jun 8–14 update. No conflicts, no stash/reset needed.
 
-1. **Mon-open dashboard pull** — VIX faded **21.51 → 18.40** (Fri NFP shock unwinding → divergence frame reasserts); HY OAS 276 remains the sole "tape refuses cascade" line. Regime substantively unchanged from Jun 7 PM.
-2. **Processed 2 BROCK signals:**
-   - Root `CLAUDE.md` git-discipline → migrated "Before committing" to the **pathspec pattern** (4-agent fleet had converged; root was laggard).
-   - 6/18 trigger set → **v0.2.1**: BROCK validated R2/R4, added **R2.5 (HY OAS ≥285 single-close, monitoring-only)** watch-flag; calibration tracking + forward-execution inputs captured.
-3. **PROME boot/closeout hardening** (`BOOT.md` + `CLOSEOUT.md`): pathspec git, **outbox-scan at boot** (codifies how PROME-routed signals actually arrive), and a **boot↔closeout symmetry table** (closed the ACTIVE_DECISIONS write-back gap + TODAY mismatch). Benchmarked vs SAM/BRENT.
-4. **Root push-coordination fix** — root `CLAUDE.md` said "commit + push at session end" (2 spots), contradicting the standing defer-push rule; this was the systemic cause of premature fleet pushes (co-flagged by CARL+BRENT on desktop). Reframed: **push is Will-coordinated, not a closeout step.** Qualified `finding_push_train_pattern` (mechanic preserved, trigger gated to a Will-opened window).
-5. **openpyxl install** into shared `.venv` (MARCO flag) — unblocks H-2A fetcher before ~Jun-30 window; `.venv` gitignored so zero tree impact.
-6. **Fleet git-update list generated** (MARCO/OTTO/OZK still on deprecated reset-HEAD; HENRY pointer + SAM/BRENT/REGINALD/BROCK "aligned" swap) — **no action taken**, Will chose "just the list"; propagation mechanism deferred.
-7. **First full two-machine merge + push** — desktop (CARL/BRENT/REGINALD/BROCK/HAWK, 23 commits) ↔ laptop (PROME + OTTO + MARCO + LABOR, 21 commits). Rescued cross-agent `memory/auto/` promotions (OTTO's 4 lessons + MARCO/LABOR boot.py findings) that would have been lost. **Merged clean — disjoint dirs, zero conflicts.** Now synced.
+Will then approved a staged **Prome boot-surface refresh**, with one explicit constraint: **do not edit agents**.
 
-## Current Git State
+Completed so far:
 
-**Clean, synced to origin.** First full two-machine merge landed conflict-free (rebase of 21 local onto 23 incoming, then fast-forward push). Only working-tree residue: one **untracked WALTER inbox SIG** (`SIG-OTTO-WALTER-20260608-nexus-brief-optin.md`) — by design, WALTER commits its own inbox on next boot; not pushed.
+1. **Phase 0 baseline** — repo clean/synced at `c87c00ac`; dashboard anchor pulled; boot surfaces confirmed stale vs current repo. Checkpoint: `PROME/BOOT_SURFACE_REFRESH_2026-06-14_PHASE0.md`.
+2. **Phase 1 bounded agent inspection** — read-only top-section inspection across LIQUID/VIOLET/BRENT/HAWK/WALTER/SAM/CARL/LABOR/RED/BROCK/REGINALD/BOND/HENRY/NEXUS/OTTO plus Prome-routed outboxes. No agent edits. Checkpoint: `PROME/BOOT_SURFACE_REFRESH_2026-06-14_PHASE1.md`.
+3. **Phase 2 edit map** — file-by-file plan for the boot-surface rewrites. Checkpoint: `PROME/BOOT_SURFACE_REFRESH_2026-06-14_PHASE2_EDIT_MAP.md`.
+4. **Daily memory checkpoint** — `memory/2026-06-14.md` created to survive compaction.
+5. **Phase 3 started** — `PROME/TODAY.md` rewritten first.
 
-## Regime — unchanged from Jun 7 PM
+## Current Working Regime
 
-Mon-open: **VIX 18.40** (faded from 21.51 → divergence frame reasserts), **HY OAS 276 🟢** sole binary line, TLT $84.89 (slipped below Jun $85P strike). Wed 6/10 CPI + 10Y auction and Thu 6/11 30Y are the week's HY-OAS tests; FOMC 6/16-17 the bigger gate. No trade rails moved today.
+**Surface tape de-risked; tail/private/physical stress stayed sticky.** Broad cascade is not confirmed: HY OAS remains tight at **278bps [FRED 6/11]**, VIX faded to **17.68**, banks rallied, and Brent collapsed sub-$90. But the structural side did not heal: CCC **956**, SKEW held 142+, PC/BDC stress remains hot, consumer-credit stress persists, Japan/BOJ risk is live, and physical energy/chokepoint stress is severe despite the price collapse.
+
+Phase 0 dashboard anchor: HY OAS 278 · CCC 956 · Brent $87.33 · VIX 17.68 · USD/JPY 160.18 · Gas 4.15 · Claims 229k / shadow 284k · 10Y 4.45 · SOFR-IORB -0.05 · KRE 73.41 · WAL 83.67 · OZK 52.10 · APO 133.88 · ARES 134.90 · BIZD 12.71 · FXY 57.26 · TLT 85.77.
 
 ## Next Session Entry Point
 
-1. **Tue PM — Wed CPI prep:** scaffold TLT Sep-add Will-decision packet *only if* conditions look likely to fire (BOND-narrowed gate: CPI hot *or* refunding tail).
-2. **Pre-Wed 1pm — BOND matrix v2 spawn** for the nominal 10Y auction (`AGENTS/BOND/proposals/MATRIX_V2_DRAFT_prome-spawned.md`).
-3. **Fleet git-update list** — Will to decide propagation mechanism (route-SIGs vs fleet-note) when ready; MARCO/OTTO/OZK still on old pattern.
-4. **Post-merge tidy (minor):** desktop's `96a588e6` left a "overrides root doc" note in `feedback_defer_push_coordinate` that's now stale (root no longer contradicts).
-5. Fri 6/12 VIOLET 4/15 60d window close; separate-clones still the real fix post-Jun-16.
+Continue Phase 3 boot-surface rewrites in this order:
+
+1. `PROME/STATUS.md`
+2. `PROME/ACTIVE_DECISIONS.md`
+3. `PROME/FLEET_SCAN.md`
+4. `HEARTBEAT.md` last
+5. Verify with `git diff --stat`, targeted stale-language grep, and a final status check.
+
+`PROME/TODAY.md` is already refreshed for Jun 14/15.
 
 ## Cautions
 
-- **WALTER SIG** sits untracked locally — for WALTER's next boot, not pushed.
-- **Two-machine operating model** validated today: partition agents by machine, never double-run one agent, sync in batches. Don't push per-session — push is Will-coordinated.
-- The fleet git-update list is captured in this session's HANDOFF + daily log only (not yet a state file).
+- **No agent edits** unless Will explicitly changes the constraint.
+- HENRY/NEXUS/WALTER are stale/dark in important ways: HENRY for GEX/flip level, NEXUS for post-6/12 synthesis, WALTER Iran anchor vs HAWK/BRENT Jun 13.
+- Broker/position truth remains unreconciled. Old rails are verification-required only.
+- LIQUID says HYG $75P is written off / let expire 6/19. Do not surface HYG as actionable.
+- WALTER Iran anchor is stale relative to HAWK/BRENT; use HAWK/BRENT for current energy/geopolitical read until WALTER refreshes.
+- Dashboard data was usable but script exited code 1; check automation health later.
+
+## Open Questions for Will
+
+1. Keep Phase0/1/2 checkpoint files as audit trail, archive them after refresh, or delete after folding conclusions into surfaces?
+2. Create a durable `PROME/action-cards/WEEK_2026-06-15.md`, or let `TODAY.md` carry the near-gate calendar for now?
+3. After boot surfaces, should Prome route/ask for WALTER Iran anchor refresh?
+4. After boot surfaces, should HENRY/NEXUS be refreshed ahead of FOMC or only if Will asks?
+5. Position reconciliation remains a separate phase unless Will pivots.
 
 ## Guardrails
 
 - No trade execution. No trade recommendation unless explicitly requested.
-- **Push is Will-coordinated** — commit locally freely, push only on Will's explicit call.
-- Pathspec commits only; never `git add .` / `-A` / `git reset HEAD`.
 - No external/public messages without approval.
-- GitHub/origin = source of truth; both machines resume from current synced state.
+- Push is Will-coordinated — commit locally if approved, push only on Will's explicit call.
+- Pathspec commits only; never `git add .`, `git add -A`, or broad `git reset HEAD`.
+- GitHub/origin remains source of truth.
