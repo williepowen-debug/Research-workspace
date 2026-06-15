@@ -1,60 +1,54 @@
 # BROCK STATUS — Private Credit / BDC / Alt Assets
-**Updated:** 2026-06-08 PM ET (Mon session 2 — gate-cascade news sweep) | **Status:** 🔴🔴 STAGE 2→3 PIVOT — **gate cascade now a 4-fund cluster (Cliffwater/PG/BCRED/Monroe 6/2-6/5)**, Partners Group PE gate = first cross-asset-class contagion, alt-mgr equity cracked Fri 6/5, HY OAS still divergent (276 FRED 6/5, cushion ~16bps). Convergence 59→60/70.
+**Updated:** 2026-06-15 PM ET (Mon — model→Opus 4.8 catch-up; Tier-1+2 substance sweep) | **Status:** 🔴🔴 STAGE 2→3, **tape RE-DIVERGED.** Alt-mgr equity ripped (APO +7%, BX +8%, ARES +9% off the 6/9 Apollo-led $35B Broadcom AI deal) while BDC wrappers (OWL/FSK/OBDC) stayed pinned — **originator-vs-wrapper bifurcation, not substance reversal.** APO exit-rule FIRED ($137 >$130 ×5 sessions). HY OAS 271 [FRED 6/12], 11bps cushion. Default picture now CONTESTED (CDLI 0.6% NA vs FSK ~5.5% cost). Convergence 60/70 (recomposed, flat).
 
-**Previous:** 2026-06-04 (preserved in git pre-this-commit).
+**Previous:** 2026-06-08 PM (preserved in git).
 **Session memos:** `domain/sources/OTF_Q1_READ_JUN04.md`, `domain/sources/BCRED_OCIC_Q1_READ_JUN04.md`.
 **Recent outbox:** `outbox/2026-06-04_to-OTTO_medallia-cross-fund-exposure.md` (🔴).
-**Length waiver:** ≤250-line target (CLAUDE.md SPAWN PROTOCOL closeout step 6) waived to **272** pending Phase 3 SCRATCH split — [6/8 PM, +7 for gate-cluster dashboard rows + BOTTOM LINE]. Documented divergence, not violation; Phase 3 split is the structural fix.
+**Length waiver:** ≤250-line target (CLAUDE.md closeout step 6) waived to **~275** pending Phase 3 SCRATCH split. Documented divergence, not violation. **At ≥280, SCRATCH-split is next session's mandatory first task.**
 
 ---
 
-## 🔴🔴 LIVE TAPE — 6/5 close (markets shut 6/6-7) — EQUITY CHANNEL CRACKED, HY STILL HOLDING
+## 🔴🔴 LIVE TAPE — 6/15 close — TAPE RE-DIVERGED VIA AI-ORIGINATION; ORIGINATOR-vs-WRAPPER SPLIT
 
-**Headline:** Partners Group (Swiss alt-mgr, $8.6B Global Value SICAV) capped redemptions to 5%/Q after 9.8% Q2 demand on 6/3-4 → stock **-13% to -18% across sources** (worst day since 2006 IPO; range, not flat -17%), spillover sold full alt-mgr/BDC complex Fri 6/5. First explicit **PC→PE wrapper contagion** [CONF Bloomberg/CNBC/swissinfo 6/3-4]. Markets closed Sat/Sun; APO Annual Meeting today 6/8.
+**Headline:** The 6/5 alt-mgr selloff was a 1-day event, not a regime. **6/9 Apollo led a $35B capital solution for Broadcom's "AI XPV Platform"** (w/ Blackstone + global banks; >20GW compute thru 2028; facilitates Anthropic >1GW mid-2026) → APO/BX/ARES ripped to new highs. **BDC wrappers (OWL/FSK/OBDC) stayed pinned.** Two stories in one complex: originator franchises repriced UP on AI-infra deal flow; credit-risk wrappers unchanged. APO Annual Mtg 6/8 was procedural (no guidance). [CONF Apollo IR/Broadcom PR 6/9]
 
-| Ticker | 6/4 | **6/5 close** | 1d Δ | Read |
+| Ticker | 6/5 | **6/15 close** | Δ | Read |
 |--------|-----|---------------|------|------|
-| APO | $128.79 | **$128.03** | -0.6% | 🟡 Un-fired $130 held; annual mtg 6/8 |
-| ARES | $130.65 | **$125.65** | **-3.8%** | 🟠 Retraced through $130 |
-| OWL | $10.17 | **$9.80** | **-3.8%** | 🟠 Re-broke below $10 |
-| BX | $118.21 | **$115.35** | **-2.7%** | 🟠 Gave back ~40% of 6/4 +7.2% spike |
-| KKR | $95.11 | **$93.40** | -2.2% | 🟠 Reversed prior bounce |
-| FSK | $10.90 | **$10.70** | -2.5% | Below KKR $11 tender floor |
-| OBDC | $11.24 | **$11.02** | -2.5% | NAV $14.41 (5th decline); **div cut $0.37→$0.31 5/7 — MISSED IN 5/21** |
-| ARCC | $18.88 | **$18.79** | -0.5% | mild |
-| MFIC | $10.72 | **$10.48** | **-3.1%** | **Div cut $0.38→$0.31 5/5 (-18.4%) — MISSED IN 5/21** |
-| BIZD | $12.65 | **$12.49** | -1.3% | 🔴 cracked below $12.50 trigger |
-| HYG | $79.82 | **$79.43** | -0.5% | Credit-ETF tape only mildly soft |
-| **HY OAS** | 275 | **274** 🟢 | -1bp | **Cushion to 260 kill: 14bps** [CONF FRED] — credit STILL not following equity |
-| **CCC OAS** | 947 | **946** 🟡 | -1bp | flat |
-| **10Y** | 4.46% | **4.47%** 🟡 | +1bp | flat |
-| TLT | $85.59 | **$85.06** | -0.6% | flat |
-| Brent | $95.06 | **$94.57** | -0.5% | HAWK contained |
-| **VIX** | 15.53 | **18.80** 🟡 | **+3.27** | **Re-vol — first material spike in 2 weeks** |
-| KRE | $69.77 | **$70.17** | +0.6% | Bank tape held through PC scare |
+| **APO** | $128.03 | **$137.12** | **+7.1%** | 🔴 **$130 EXIT-RULE FIRED — >$130 ×5 sessions** (6/9-6/15). $35B Broadcom deal driver |
+| ARES | $125.65 | **$136.66** | **+8.8%** | Recovered past pre-6/5 + new highs |
+| BX | $115.35 | **$124.93** | **+8.3%** | Co-led Broadcom deal; new highs |
+| OWL | $9.80 | **$9.66** | -1.4% | 🟠 Bifurcated — stayed broken <$10; raised $500M IG bonds post-gate |
+| FSK | $10.70 | **$10.91** | +2.0% | Pinned; below KKR $11 tender floor |
+| OBDC | $11.02 | **$11.07** | flat | Pinned; NAV $14.41 (5th decline); div cut $0.37→$0.31 5/7 |
+| ARCC | $18.79 | **~$18.8** | flat | mild |
+| BIZD | $12.49 | **$12.59** | +0.8% | 🔴 still pinned at $12.50 trigger |
+| HYG | $79.43 | **$80.07** | +0.8% | Credit-ETF firmer |
+| **HY OAS** | 274 | **271** 🟢 [FRED 6/12] | -3bp | **Cushion to 260 kill: 11bps** — compressing on risk-on, NOT substance reversal |
+| CCC OAS | 946 | **948** 🟡 [6/12] | +2bp | flat [ref LIQUID] |
+| 10Y | 4.47% | **4.45%** 🟡 [6/11] | -2bp | flat [ref LIQUID] |
+| **VIX** | 18.80 | **16.12** 🟢 | **-2.7** | Vol drained — 6/5 spike fully unwound [ref HENRY/REGINALD] |
+| Brent | $94.57 | **$83.65** 🟢 | **-11.5%** | HAWK regime change — relieves insurance/reinsurance channel [ref HAWK] |
+| KRE | $70.17 | **$72.39** | +3.2% | Bank tape firm [ref LIQUID] |
 
-**Tape read — REGIME PIVOT in 1 trading day:** Thu 6/4 the BX +7.2% spike on BCRED filing day looked like "designed plumbing" validation. Fri 6/5 Partners Group spillover sold the entire alt-mgr complex 2-4% with VIX +3.3pts. **The equity channel finally tracked the substance.** HY OAS is the lone hold-out at 274 — the LESSONS #15 divergence has narrowed by half (equity converging) but not closed (HY still flat). If HY follows next week, thesis-kill cushion tightens fast.
+**Tape read — the divergence re-opened, but it's a DIFFERENT divergence.** 6/8 read was "equity converged to substance." Wrong for the wrong reason: 6/5 was a one-day fear spike, and the complex re-bifurcated *inside itself*. The big managers (APO/BX/ARES) ripped because they're **winning the AI-infra origination mandates** — the $35B Broadcom platform is the cleanest example. The BDC wrappers (OWL/FSK/OBDC/BIZD) stayed pinned on redemption stress. So the market isn't saying "credit risk gone" — it's repricing **origination franchises up while leaving wrapper credit risk untouched.** This IS the LESSONS #15 dynamic, sharper: risk accreting fastest exactly when originator equity says everything's fine.
 
-**Substance read (4d window since 6/4):**
-- **Partners Group Global Value SICAV (€8.6B)** capped redemptions at 5%/Q after Q2 demand hit 9.8%. **Additional evergreens flagged for Q2 redemption pressure** (specific count/AUM not in primary docs — secondary source elaboration). US fund confirmed under pressure [InvestmentNews]. Mgmt: "spike spreading from private credit into private equity." Stock **-13% to -18% across sources** single day (range; -17% was high end) [CONF Bloomberg/CNBC/swissinfo 6/3-4]
-- **OBDC public-BDC div cut $0.37→$0.31 (-16.2%) on 5/7** — was the OBDC 10-Q line we tagged "MIXED no forced-mark cascade" 5/21; **the div-cut framing was missed.** NAV $14.81→$14.41 (5th consec decline). Adj NII $0.31 missed $0.35 cons. Rev $397M vs $426M cons (-7%). Mark-to-market from spread widening [CONF SEC 8-K + Investing.com 5/7]
-- **MFIC public-BDC div cut $0.38→$0.31 (-18.4%) on 5/5** — same 5/21 omission [CONF SEC 8-K 5/5]
-- **3-cluster public-BDC div cuts in 3 days (5/5 MFIC + 5/7 OCSL + 5/7 OBDC)** — narrative-phase tell that was missed in 5/21 framing (only OCSL highlighted)
-- **US PC default rate hit RECORD 6.0% April 2026 — Fitch print** (vs 2-2.5% historical). **99 defaults, 81 first-time defaulters; >50% driven by PIK / payment-deferral conversion; consumer products 11.1%.** [CONF Fitch via Bloomberg Tax / Reuters 4/30]
-- **PC issuance $44.76B in 3mo ended May = -40% vs Q1 $74.56B** (PitchBook). May -35% MoM standalone. (Earlier "-70% Q2-to-date flows" claim downgraded — issuance level is the verified figure.) [CONF PitchBook via Reuters]
-- **APO** scheduled Annual Stockholders Meeting **today Mon 6/8**; Athene running off CLO book peak $40B+, plowing into new AMAPS vehicle ($11B in, doubling). NAIC flagged 2026 capital-charge rule increase risk for Athene PC holdings [CONF Apollo IR + Sidley]
-- **OTF** $2.3B cash+credit capacity for **June 2026 note maturity** disclosed Q1; software-exit guide stands [CONF transcript 5/7]
+**Substance read (7d window since 6/8):**
+- **$35B Apollo/BX/Broadcom AI XPV deal (6/9)** = core vendor-financing thesis firing AS A BULL CATALYST. Broadcom (chip vendor) anchors a $35B financing platform to deploy its own silicon; Apollo/BX/banks supply capital. Market pays *up* for the originators. Risk accretes on balance sheets (BRK-06/07). [CONF Apollo IR 6/9] (KB-BRK-154)
+- **Gate cluster — NO new gater since 6/5.** Partners Group stated evergreen gates "will not get tighter." **Tier-2 trigger "2nd PE-wrapper gate within 30d of PG (~7/4)" UN-FIRED at day ~12** — PG remains the single PE-wrapper; Cliffwater/Monroe are credit funds. BofA: redemptions stay >5% all year, peak Q2. [CONF CNBC/BofA] (KB-BRK-157)
+- **Default picture CONTESTED (not monotonic accel).** Fitch US-PC 6.0% April record (>50% PIK-driven) coexists with Fitch easing 5.4% Feb + Moody's "easing" + BofA forecast 4.5% 2026. **KEY DISPERSION: CDLI top-tier index NA 0.6% April vs FSK ~5.5% cost.** Bifurcation thesis confirmed; aggregate-acceleration claim is NOT. [CONF Fitch/Moody's/BofA/Cliffwater] (KB-BRK-156)
+- **Blue Owl raised $500M IG bonds AFTER gating** — debt to shore liquidity dressed as a capital-markets win. [CONF Benzinga 6/11] (KB-BRK-155)
+- **FLAG (needs-verif):** FSK div reset $0.64→$0.48 ($0.45 base +$0.03 supp) + NA 3.4% FV / 5.5% cost surfaced this sweep — **date ambiguous (may predate 6/8 / overlap FSK Q1 5/11) and NA conflicts with prior 8.1% figure. Do not bank — verify next session.**
 
-**Reframe of LESSONS #15 dynamic:** Substance side hardened further (Partners Group PE-contagion = NEW vector; record 6% default; PC issuance -40% Q2 vs Q1; 3 public-BDC cuts not 1). Tape side BIFURCATED: equity finally tracked, HY still didn't. The asymmetry is now equity-vs-HY, not substance-vs-tape.
+**Net:** substance side did NOT escalate this week (gates contained, default contested, no new public-BDC cut confirmed); tape side re-diverged on AI-origination. The thesis is intact but in its most dangerous phase — quiet risk accretion under a risk-on tape.
 
 ---
 
 ## REGIME BLOCK (5-line)
-1. **Default rate trend** — **Fitch: US PC default 6.0% April = RECORD** (vs 2-2.5% historical). 99 defaults, 81 first-time, **>50% PIK/payment-deferral driven** — direct PIK-masking confirmation. Consumer products 11.1%. Reuters 51-BDC Q1 -2.35% NAV worst since Q2'22. BCRED NA 4×. **Accelerating.**
+1. **Default rate trend** — **CONTESTED / BIFURCATED (revised 6/15).** Fitch US-PC 6.0% April record (>50% PIK-driven) coexists with Fitch easing 5.4% Feb + Moody's "easing" + BofA forecast ease to 4.5% 2026. **Dispersion is the signal: CDLI top-tier index NA 0.6% April vs FSK ~5.5% cost.** Tail stressed, top-tier pristine — bifurcation thesis confirmed; monotonic aggregate acceleration is NOT. Mechanism intact, threshold contested.
 2. **Gate cascade** — **NOW A 4-FUND CLUSTER (6/2-6/5):** Cliffwater CCLFX $31-33B (17% dmd, ~29% sat) + Partners Group PE (9.8%) + BCRED (~10%, ~50% sat) + Monroe first-time-ever (9%) — all 5% cap. Stanger Q1 aggregate: $4.6B of $13.9B requested trapped = first product-type-wide pro-rata gating. Peer proration: OCIC 23%, Apollo Debt Solutions 45%, HPS 54%, Vista 50%. **Cross-asset-class** spillover via PG (CEO-attributable). **Cluster, not single event.**
 3. **PIK trend** — Aggregate $477M (denominator effect — NA migration off PIK base, not real improvement). BCRED 7.0% (-0.8 QoQ). OTF 13% combined. **Levels still elevated.**
 4. **BDC NAV discount** — OBDC $14.81→$14.41 = **5th consecutive decline**. OTF -4.85% Q1. BCRED -2.4%. Aggregate -2.35%. FSK 41%. Median ~25% (78d stale). **Widening confirmed at publicly-traded level too, not just non-traded.**
-5. **Narrative phase** — **STAGE 2→3 PIVOT.** 3 public-BDC div cuts in 3 days (MFIC -18.4% 5/5 + OCSL -15% 5/7 + OBDC -16.2% 5/7) + Partners Group asset-class spillover (6/3-4) + record 6% default + PC issuance -40% Q2 vs Q1 (PitchBook) + Bloomberg "Unthinkable Becomes Reality" (secondary loan trading, 5/21). Tape: equity finally cracked 6/5 (-2 to -4%); HY OAS still divergent at 274. **Stage 3 is firing on PE-asset-class contagion before HY OAS broke.**
+5. **Narrative phase** — **STAGE 2→3, but tape re-diverged 6/15.** Substance base (3 public-BDC cuts May 5-7 + PG asset-class spillover + record-coexists-with-easing default + PC issuance -40% Q2) intact but NOT escalating this week — gates contained (no new gater, PG won't tighten), default contested. Tape: 6/5 fear-spike fully unwound; alt-mgr originators ripped to new highs on the $35B Broadcom AI deal while BDC wrappers stayed pinned. **Originator-vs-wrapper bifurcation — recognition stalled, not advanced.**
 
 ---
 
@@ -120,7 +114,7 @@ All Tier-1 Q1 10-Qs filed pre-5/21 (LESSONS #17 caught the "TBD pending" mislabe
 | Blue Owl liquidity | 🔴🔴(5) | 🔴🔴(5) | — | OCIC 5% binding; OTF NAV -4.85%; **OBDC public-arm div cut $0.37→$0.31 + 5th NAV decline** | OTF Q2 NII still <div = forced cut | 6/8 |
 | PIK rates | 🔴(4) | 🔴(4) | — | Aggregate $477M (denominator effect) | Industry median >20% sustained | 6/4 |
 | BDC NAV discount | 🔴(4) | 🔴(4) | — | Agg -2.35% Q1; OTF -4.85%; OBDC 5th decline; FSK 41% | Discount >35% median sustained | 6/8 |
-| Default rates | 🔴(4) | **🔴🔴(5)** | ↑ | **US PC default 6.0% April = RECORD** (vs prior 5.8% Fitch). BCRED NA 4×. OCSL writedowns. Ch11 +42% Apr | Reported >7% Q2 | 6/8 |
+| Default rates | 🔴🔴(5) | **🔴(4)** | ↓ | **CONTESTED 6/15:** Fitch 6.0% Apr record vs Fitch easing 5.4% Feb / Moody's+BofA easing. CDLI NA 0.6% vs FSK ~5.5% cost = bifurcation, not aggregate accel. Mechanism intact, threshold contested | Reported >7% Q2 at a NON-CDLI top-tier name | 6/15 |
 | Athene/insurance | 🟠(3) | 🟠(3) | — | NAIC 2026 capital-charge rule = surfacing; CLO runoff into AMAPS continues | RBC breach OR enforcement | 6/8 |
 | Software sector marks | 🔴🔴(5) | 🔴🔴(5) | — | OTF $494M + mgmt-exit; OCSL + 26% AI | Forced sub-90¢ markdown event | 6/4 |
 | Bank warehouse / NDFI | 🔴🔴(5) | 🔴🔴(5) | — | $1.4T NDFI; CDR May 15 5-cat scoping queued WALTER+REGINALD | First bank PC loss disclosure | 5/21 |
@@ -128,10 +122,10 @@ All Tier-1 Q1 10-Qs filed pre-5/21 (LESSONS #17 caught the "TBD pending" mislabe
 | Mainstream narrative | 🔴🔴(5) | 🔴🔴(5) | — | Partners Group asset-class spillover + 3-cluster public-BDC cuts + Bloomberg "Unthinkable" + record default | Fortune/Bloomberg cover-story | 6/8 |
 | Sponsor-bifurcation diagnostic | 🔴(4) | **🔴🔴(5)** | ↑ | **5 patterns now: KKR FSK, Apollo MFIC, BX BCRED, BlackRock TCP, + Partners Group PE-side cap**. Cross-sponsor + cross-asset-class | 3rd sponsor enters with new pattern | 6/8 |
 | Duration-channel NAV pressure | 🟠(3) | 🟠(3) | — | 10Y 4.47 flat. Duration channel still relieved | 10Y >4.75 OR isolated mark-down | 6/8 |
-| **Tape-substance divergence** | 🔴(4) | **🟠(3)** | ↓ | **Equity channel cracked Fri 6/5 (-2 to -4% across alt-mgr/BDC complex, VIX +3.3pts).** HY OAS still divergent at 274. Asymmetry narrowed; equity converged, HY didn't | HY OAS <260 firing OR HY rolls 280-285 next | 6/8 |
-| **NEW: Cross-asset-class wrapper contagion** | — | **🔴🔴(5)** | + | **Partners Group €8.6B SICAV 5%/Q cap on 9.8% demand; additional evergreens + US fund flagged Q2 (specifics not in primary); mgmt: "spreading from PC to PE"; stock -13 to -18%.** First explicit PC→PE spillover via evergreen-wrapper mechanic. Same mechanic that gated BCRED/OCIC now in PE. | 2nd alt-mgr PE-wrapper gate within 30 days | 6/8 |
+| **Tape-substance divergence** | 🟠(3) | **🔴(4)** | ↑ | **Re-diverged 6/15:** 6/5 spike unwound; alt-mgr originators ripped to new highs on $35B Broadcom AI deal while wrappers pinned + HY OAS 271. Gap re-opened as originator-vs-wrapper split | HY OAS <260 firing OR a wrapper-side credit event re-syncs tape | 6/15 |
+| Cross-asset-class wrapper contagion | 🔴🔴(5) | **🔴🔴(5)** | — | **NOT escalating 6/15:** PG remains the single PE-wrapper; stated gates "won't get tighter." Tier-2 "2nd PE-gate within 30d (~7/4)" UN-FIRED day ~12. Level high (mechanic proven) but no spread | 2nd alt-mgr PE-wrapper gate by ~7/4 → escalate; clean window-close → de-escalate | 6/15 |
 
-**Convergence: 60/70 🔴🔴** (was 59/70 earlier 6/8, 55/65 6/4 — vector sum: 5+5+4+4+5+3+5+5+3+5+5+3+3+5=60). **6/8 PM intra-day: redemption-gate vector 🔴(4)→🔴🔴(5)** on the 4-fund gate cluster (Cliffwater/PG/BCRED/Monroe 6/2-6/5) + Stanger $4.6B product-type-wide gating + peer prorations <30% sat. **Reversible scoring call — flagged for Will veto.** Default upgrade + cross-asset-class contagion + now gate-breadth are the structural acceleration.
+**Convergence: 60/70 🔴🔴** (flat vs 6/8 — RECOMPOSED: 5+5+4+4+**4**+3+5+5+3+5+5+3+**4**+5=60). **6/15 two offsetting moves: default 🔴🔴(5)→🔴(4)** (picture contested, not monotonic accel — honest downgrade of an over-strong claim) **+ tape-substance 🟠(3)→🔴(4)** (re-diverged on AI-origination). Structural picture unchanged; certainty recomposed away from false-acceleration AND false-relief. **Reversible scoring calls — flagged for Will veto.**
 
 ---
 
@@ -172,7 +166,7 @@ All Tier-1 Q1 10-Qs filed pre-5/21 (LESSONS #17 caught the "TBD pending" mislabe
 - Reset position per current TRADE.md framework
 
 ### 2. Position-Specific (updated)
-- APO reclaims $130 sustained → reassess puts — **🟡 STILL UN-FIRED: APO $128.03 6/5 (4d below trigger). Annual Mtg today 6/8 = catalyst window.** Dec $95P thesis vehicle intact.
+- APO reclaims $130 sustained → reassess puts — **🔴 FIRED 6/15: APO $137.12, >$130 ×5 sessions (6/9-6/15).** Reassessed → **HOLD Dec $95P** (down ~90%, Dec expiry ~165 DTE, closing captures ~nothing). Per Decision Tree STEP 3 row 2 (tape-only reversal, substance still bear → do NOT close). Override BETTER-supported: APO rally is AI-origination repricing ($35B Broadcom), NOT credit-thesis reversal. Recorded hold-with-backstop in TRADE.md (re-eval if APO >$145 sustained OR HY OAS <260). [Will call 6/15]
 - BCRED redemptions <2% for 2 consecutive Qs → gate thesis dead — **Not fired** (Q2 ~10% demand)
 - BDC median NAV discount <10% → market no longer pricing stress — **Not fired** (~25% median; FSK 41%; OBDC adding to widening)
 
@@ -192,29 +186,25 @@ All Tier-1 Q1 10-Qs filed pre-5/21 (LESSONS #17 caught the "TBD pending" mislabe
 
 ## BOTTOM LINE
 
-**Stage 2→3 pivot fired this week via a route not in our prior decision tree: Partners Group's 6/3-4 PE-evergreen gate is the first explicit private-credit-to-private-equity wrapper contagion.** Same gating mechanic that hit BCRED/OCIC is now firing on the PE-side. CEO Layton on-record (Bloomberg): pressure "spilled over" from PC into PE; +Delaware US PE vehicle ~6% Q2 + 3 evergreens $9.7B at 3.5-5% Q2. The narrative-phase recognition no longer requires HY OAS to break — wrapper-stress spillover is doing the work.
+**The week's signal is what DIDN'T happen on the substance side, against a tape that ripped.** Between 6/8 and 6/15: no new redemption gate (PG says gates "won't get tighter"; Tier-2 2nd-PE-gate trigger un-fired at day ~12), the default narrative turned contested (Fitch 6.0% record now coexists with Moody's/BofA "easing" and a pristine CDLI 0.6% NA vs FSK ~5.5% cost), and no confirmed 4th public-BDC cut. Substance stalled — neither escalating nor reversing.
 
-**NEW 6/8 PM — the gate cascade is now a 4-fund CLUSTER, not a single event.** Four semi-liquid funds capped at 5% in four consecutive days: **Cliffwater CCLFX ($31-33B, 17% demand, ~29% satisfaction — worst) 6/2; Partners Group (PE) 6/3; BCRED (~10%, ~50%) 6/4; Monroe Capital (first-time-ever, 9%) 6/5.** Plus the Stanger Q1 aggregate: **$13.9B requested / $7.4B honored / $4.6B trapped behind gates — the first quarter of pro-rata gating across the entire non-traded BDC product type.** Peer proration (Q1) confirms breadth beyond BCRED/OCIC: Apollo Debt Solutions ~45%, HPS 54%, Vista ~50%. Cliffwater and OCIC are already below 30% satisfaction — worse than BCRED. Redemption-gate convergence vector upgraded 🔴(4)→🔴🔴(5) (reversible, flagged for Will veto). **The Tier-2 "2nd PE-wrapper gate within 30d of PG" trigger has NOT fired — the new gaters (Cliffwater, Monroe) are credit funds; PE-side contagion is still a single manager.**
+**Meanwhile the alt-mgr equity tape re-diverged — but via origination, not relief.** The 6/5 fear-spike fully unwound (VIX 18.8→16.1). APO ripped +7% to $137, BX +8%, ARES +9% — on the **6/9 Apollo-led $35B Broadcom "AI XPV Platform" deal** (w/ Blackstone + banks; >20GW compute thru 2028; funds Anthropic's >1GW expansion). The BDC wrappers (OWL/FSK/OBDC/BIZD) stayed pinned. **This is an originator-vs-wrapper split, not a credit-thesis reversal** — and it's my core vendor-financing vector firing AS A BULL CATALYST. Broadcom (chip vendor) anchors a $35B platform to deploy its own silicon; the market pays up for the financiers while risk accretes. Most dangerous phase: quiet accretion under a risk-on tape.
 
-**The Fri 6/5 alt-mgr complex sell-off (BX -2.7%, OWL -3.8%, KKR -2.2%, MFIC -3.1%, ARES -3.8%, FSK -2.5%, BIZD -1.3%, VIX +3.3pts) is the equity channel finally tracking substance.** Reverses the 6/4 "designed plumbing" BX +7.2% read in 1 trading day. **HY OAS is now the lone hold-out at 274** — the LESSONS #15 divergence narrowed by half (equity converged) but didn't close (HY didn't follow). Next test: does HY tape gap-tighten this week or hold flat?
+**APO position-exit rule FIRED ($137, >$130 ×5 sessions). Will's call: HOLD the Dec $95P** — down ~90%, December expiry (~165 DTE, not a theta-killer), closing captures ~nothing while keeping the convex payoff if HY OAS finally tracks substance into Q3 prints. Documented override (Decision Tree STEP 3 row 2), better-supported because the rally is origination-repricing not substance-reversal. BRK-28 RESOLVED (APO leg) — threshold-fire / mechanism-unconfirmed.
 
-**Reframe: we missed the public-BDC dividend-cut cluster on the 5/21 sweep.** OBDC ($0.37→$0.31 -16.2% on 5/7) and MFIC ($0.38→$0.31 -18.4% on 5/5) both cut concurrent with OCSL ($0.40→$0.34 -15% on 5/7). That's **3 public-BDC div cuts in 3 days** — a Stage 3 narrative-phase tell that sat unframed for 18 days. 5/21 noted OBDC's 10-Q as "MIXED no forced-mark cascade." LESSONS #20 added — div-cut framing is its own signal layer, not derivable from NA/NAV.
+**HY OAS 271 [FRED 6/12], 11bps from the 260 kill — but compressing on risk-on, not substance reversal.** Per Thesis-Kill Decision Tree STEP 1, a pure-risk-on compression to 260 does NOT validate "thesis dead" → routes to STEP 2 substance check. Watch daily.
 
-**Regulatory reframe: Form PF 6/23 comment-close is LARGELY DEREGULATORY** (raises filer thresholds $150M→$1B; LHF $1.5B→$10B). The PC-reporting addition is "solicited for comment" not proposed. Reg vector downgraded 🔴🔴→🟠. **Athene NAIC 2026 capital-charge rule is the genuine reg-pressure surfacing** (not Form PF). APO Annual Meeting today 6/8 = catalyst window for any Athene commentary.
-
-**Fitch: US PC default rate hit RECORD 6.0% in April 2026** (vs 2-2.5% historical). **99 defaults, 81 first-time, >50% PIK/deferral-driven** — direct confirmation of BROCK PIK-masking core thesis. Default vector upgraded 🔴→🔴🔴. PC issuance $44.76B in 3mo to May = **-40% vs Q1** (PitchBook). Plumbing slowing fast.
-
-**Convergence: 59/70 🔴🔴** (was 55/65 6/4 — vector sum verified). Net 3↑ 2↓ 1 new vector. Structural acceleration on default, sponsor-bifurcation, cross-asset-class contagion; reframes on regulatory and tape-substance divergence.
+**Convergence: 60/70 🔴🔴** (flat, recomposed — default 5→4 contested, tape-substance 3→4 re-diverged). Structural picture unchanged; certainty honestly redistributed.
 
 **Watch order for next session:**
-1. **HY OAS daily** — does it gap-tighten following equity 6/5 sell-off, or hold flat 274 and keep diverging
-2. **APO Annual Mtg readout today 6/8** — Athene guidance, PC outlook, any defensive posture
-3. **Does Partners Group spillover continue or contain** — 2nd PE-wrapper gate within 30d = TIER-2 trigger upgrade
-4. **OBDC + MFIC + OCSL Q2 prints** (late July) — does the public-BDC div-cut cluster compound
-5. **APO $130 trigger** — re-entrenchment check (4d below now)
-6. Cliffwater CDLI Q1 release (late June)
-7. WALTER+REGINALD scoping on CDR NDFI 5-cat data
-8. OTF software-exit execution (asset sales / revolver draws monthly)
+1. **HY OAS daily** — does risk-on compression carry it to 260 (→ STEP 2 substance check, NOT auto-kill)
+2. **2nd PE-wrapper gate by ~7/4** — Tier-2 cross-asset trigger; clean window-close de-escalates that vector
+3. **FSK div/NA verification** — resolve the $0.64→$0.48 reset date + 5.5% vs 8.1% NA conflict (flagged, not banked)
+4. **4th public-BDC div cut** watch (after MFIC/OCSL/OBDC) — Q2 prints late July
+5. **APO >$145 sustained OR <$130** — Dec $95P hold-with-backstop re-eval trigger
+6. **AI-infra origination follow-through** — more $35B-style mega-deals = vendor-financing vector building (bull tape / bear substance)
+7. Cliffwater CDLI Q1 full NAV (Nesbitt: ~9.4% since incep, 21% liquidity — pull the print)
+8. Athene NAIC 2026 capital-charge rule progress; Brent -11.5% relieves insurance channel (downgrade ILS watch)
 
 ---
 
@@ -261,6 +251,8 @@ All Tier-1 Q1 10-Qs filed pre-5/21 (LESSONS #17 caught the "TBD pending" mislabe
 
 **2026-06-08 pre-open Mon sweep (4d post-6/4):** Live tape 6/5 close via dashboard. News sweep — 7 thesis-load-bearing queries. Captured: Partners Group PE gate (NEW asset-class contagion vector); OBDC + MFIC public-BDC div cuts (missed in 5/21 framing → LESSONS #20); record 6% April US PC default (Fitch); PC issuance $44.76B 3mo to May = -40% vs Q1 (PitchBook); Form PF reframe (largely deregulatory); APO Annual Mtg today; Athene NAIC capital-charge surfacing. Convergence 55/65→59/70 with 3↑ 2↓ +1 new vector. **Then Prome cloud verification 6/8** caught -70%/-40% conflation, Reuters→Fitch source retag, PG -17%→range, +3-evergreens specifics softened, 57→59 arithmetic — fixes committed (d229b2c5). **Then BROCK Phase 1A** SPAWN PROTOCOL rewrite (b7d14aa3): symmetric boot↔closeout + tiered ALWAYS/SCALED + predictions discipline + Doc Ownership + git pathspec divergence documented. **Then BROCK Phase 1B** STATUS hygiene + 17-pred audit (81829e39): first execution of step 7a discipline; BRK-29 stub captured; length waiver line per documented-divergence discipline. **Then PROME outbox SIG** (1778ebbf): root CLAUDE.md git-discipline alignment, 4-agent fleet convergence documented (SAM:58, BRENT:49, REGINALD:70, BROCK:46). **Then closeout** (this commit): 2 auto-memory promotions per step 11 — `[[finding_documented_divergence_as_discipline]]` + `[[finding_verification_correction_downstream_propagation]]`. **Phase 1 complete; Phase 2 (CATALYSTS.tsv) + Phase 3 (SCRATCH/THESIS/TIMELINE split) deferred.**
 
+**2026-06-15 PM (Opus 4.8 catch-up — Tier-1+2 substance sweep + full write-back):** Will-directed catch-up after model switch + 7d gap. Tier-1: APO Annual Mtg 6/8 was procedural (no guidance); the +7% APO rip traced to **6/9 Apollo-led $35B Broadcom AI XPV deal** (w/ BX + banks) — domain-core vendor-financing event, drove originator-vs-wrapper bifurcation. APO exit-rule FIRED (>$130 ×5); **Will call: HOLD Dec $95P** (down ~90%, Dec expiry, documented override). BRK-28 RESOLVED (APO leg, threshold-fire/mechanism-unconfirmed). Tier-2: gate cluster NOT escalating (no new gater, PG won't tighten, Tier-2 un-fired); **default picture CONTESTED** (Fitch 6.0% record vs Moody's/BofA easing vs CDLI 0.6% NA — captured the counter-signal per thesis-loadbearing-sweep-scope). KB-BRK-154/155/156/157 added. Convergence 60/70 flat, RECOMPOSED (default 5→4, tape-sub 3→4). FSK div/NA flagged needs-verif (not banked). Live tape, REGIME, matrix, exit-rules, BOTTOM LINE, watch-order all refreshed to 6/15.
+
 **2026-06-08 PM (session 2 — gate-cascade news sweep):** Will-directed sweep on BDC/fund redemption gates. Surfaced 4-fund gate CLUSTER 6/2-6/5: **Cliffwater CCLFX $31-33B (17% dmd, ~29% sat) + Monroe Capital first-time-ever (9%)** — both NEW, not in prior STATUS — alongside known PG (6/3) + BCRED (6/4). Stanger Q1 aggregate $4.6B/$13.9B gated = first product-type-wide pro-rata gating. Peer proration cluster (ADS 45%/HPS 54%/Vista 50%). PG "+3 evergreens $9.7B / Delaware US PE ~6%" upgraded from secondary-elaboration to CEO-attributable (Layton/Bloomberg). KB-BRK-151/152/153 added. Redemption-gate vector 🔴(4)→🔴🔴(5); convergence 59→60/70 (reversible, flagged Will veto). Tier-2 2nd-PE-gate trigger NOT fired (new gaters are credit funds).
 
 **2026-06-04 sweep:** BX +7.2% on BCRED filing day; OTF Q1 + BCRED+OCIC memos; LESSONS #17/18/19 added; Tape-substance-divergence vector created; Thesis-Kill Decision Tree codified.
@@ -269,4 +261,4 @@ All Tier-1 Q1 10-Qs filed pre-5/21 (LESSONS #17 caught the "TBD pending" mislabe
 
 ---
 
-*Memos: `OTF_Q1_READ_JUN04.md`, `BCRED_OCIC_Q1_READ_JUN04.md`, `FSK_Q1_READ_MAY21.md`, `NDFI_FRAMEWORK_MAY21.md` | KB: 137 (BRK-001 to BRK-153 ex tombstones) | VX: 18 | FLOW: 21 | Predictions: 29 rows / 17 OPEN ([6/8 audit complete]) | Live tape: `.venv/bin/python FORGE/tools/market-data/dashboard.py --compact`*
+*Memos: `OTF_Q1_READ_JUN04.md`, `BCRED_OCIC_Q1_READ_JUN04.md`, `FSK_Q1_READ_MAY21.md`, `NDFI_FRAMEWORK_MAY21.md` | KB: 141 (BRK-001 to BRK-157 ex tombstones) | VX: 18 | FLOW: 21 | Predictions: 29 rows / 16 OPEN (BRK-28 RESOLVED 6/15) | Live tape: `.venv/bin/python FORGE/tools/market-data/dashboard.py --compact`*
