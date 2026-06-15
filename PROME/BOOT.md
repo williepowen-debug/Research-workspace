@@ -39,7 +39,7 @@
 | **COMPLETION_SPEC.md** | Sub-agent `LAST_COMPLETION.md` report format | Anything else |
 | **CLAUDE_CODE_PROME_PLAN.md** | Architecture plan for persistent Claude Code Prome | Current implementation status (→ TASKS) |
 | **CLAUDE_CODE_PROME_TASKS.md** | Restart-safe task ladder for building Claude Code Prome | Detailed operating manual after scaffold exists |
-| **CLAUDE_CODE_HANDOFF.md** | Handoff from Claude Code Prome sessions | General Telegram/OpenClaw handoff (→ HANDOFF/SCRATCH) |
+| **HANDOFF.md** | Cross-runtime Prome continuity: latest 3–5 OpenClaw + Claude Code entries | Long history (→ `PROME/archive/`), per-session scratch detail (→ SCRATCH) |
 | **memory/YYYY-MM-DD.md** | Daily session log — what was done, files changed, handoff notes | Long-term insights (→ MEMORY.md root) |
 | **MEMORY.md** *(root, injected)* | Curated long-term discoveries, thesis framework, system architecture | Daily session details (→ memory/) |
 
@@ -47,7 +47,7 @@
 
 ## Boot Sequence
 
-> **Boot ↔ closeout are mirror halves:** most surfaces read here have a write-back pair in `CLOSEOUT.md` (SCRATCH, TODAY, STATUS, ACTIVE_DECISIONS, CLAUDE_CODE_HANDOFF). Pairing table lives in `CLOSEOUT.md` § Boot↔Closeout symmetry — it also names the intentionally one-way surfaces (FLEET_SCAN refresh-on-demand; COMM/inbox ACK-inline).
+> **Boot ↔ closeout are mirror halves:** most surfaces read here have a write-back pair in `CLOSEOUT.md` (SCRATCH, TODAY, STATUS, ACTIVE_DECISIONS, HANDOFF when continuity changes). Pairing table lives in `CLOSEOUT.md` § Boot↔Closeout symmetry — it also names the intentionally one-way surfaces (FLEET_SCAN refresh-on-demand; COMM/inbox ACK-inline).
 
 0. **`git pull --rebase`** — sync Claude Code agent changes before reading anything. If blocked by dirty/untracked files, **stop and read handoff/status first; do not stash, commit, reset, or force without Will approval.**
 1. **Read `PROME/SCRATCH.md`** — session handoff from last Prome. What's hot, what's unfinished.
@@ -56,7 +56,7 @@
 4. **Read `PROME/FLEET_SCAN.md`** — latest fleet situation report (agents, catalysts, open loops, top moves). If absent or stale (>1 day), spawn a `fleet-scanner` subagent per `PROME/ORCHESTRAL_LAYER_DESIGN.md`.
 5. **Read `PROME/ACTIVE_DECISIONS.md`** — non-terminal decisions with state, owner, next action, backstop, and source. Use this to catch approved-but-unexecuted items before doing new research.
 6. **If working on Claude Code Prome, read `PROME/CLAUDE.md`, `PROME/CLAUDE_CODE_PROME.md`, `PROME/CLAUDE_CODE_PROME_PLAN.md`, and `PROME/CLAUDE_CODE_PROME_TASKS.md` before editing.** The task ladder is the restart-safe implementation source of truth.
-7. **Read `PROME/CLAUDE_CODE_HANDOFF.md` after clears or after any Claude Code Prome session.** Claude Code Prome must update that file at session end. Normal Telegram/OpenClaw sessions still use this boot sequence and remain Will-facing.
+7. **Read `PROME/HANDOFF.md` after clears, after known Claude Code Prome work, or before `/clear`/`/new`.** Claude Code and OpenClaw Prome both write concise continuity here; older entries live in `PROME/archive/`.
 8. **Check `PROME/COMM/TO_CLAUDE_CODE/`** — Prome-to-Prome mailbox from OpenClaw/Telegram Prome. Read any message not yet matched by an ACK in `PROME/COMM/ACKS/`. Prioritize `urgent` / `high`. Write an ACK (new file in `PROME/COMM/ACKS/`, do **not** edit the source message) with status `acknowledged` / `completed` / `blocked`. Protocol: `PROME/COMM/PROTOCOL.md`. Cold-boot guide: `PROME/COMM/README.md`.
 9. **Scan inbound signals — two surfaces:** (a) `AGENTS/PROME/inbox/` (direct inbox), and (b) **`AGENTS/*/outbox/*to-PROME*`** — domain agents route via their own outbox (Convention B) to sidestep the cross-agent-inbox-write gate, so PROME must *actively scan* these; they will not arrive in the inbox (per auto-memory `[[feedback_scan_agent_outboxes_at_boot]]`). Flag anything that changes priorities.
 10. **Score and rank** — use the ranking rubric in `PROME/ORCHESTRAL_LAYER_DESIGN.md` (Position Proximity ×2, Time Pressure ×1.5, Blindness Risk, Convergence, Decay Rate, System Freshness). Apply to candidate moves; honor the four anti-patterns (busywork, loudness, completionism, recency bias). Internal — don't show Will the math.
@@ -138,7 +138,7 @@ Outputs: Convergence reports, contradiction flags, threshold proximity matrix
 - Agent STATUS files (`AGENTS/*/STATUS.md`)
 - `PROME/HANDOFF.md` — read before `/clear` or `/new`
 - `PROME/CLAUDE_CODE_PROME_PLAN.md` + `PROME/CLAUDE_CODE_PROME_TASKS.md` — read when resuming the Claude Code Prome build
-- `PROME/CLAUDE_CODE_HANDOFF.md` — read once created, especially after Claude Code Prome sessions
+- `PROME/CLAUDE_CODE_HANDOFF.md` — deprecated pointer stub only; live continuity is `PROME/HANDOFF.md`
 - `PROME/CLOSEOUT.md` — session-end procedure (read before `/clear` or `/new`)
 - `PROME/COMM/TEMPLATE_MESSAGE.md` + `PROME/COMM/TEMPLATE_ACK.md` — copy when writing a message to OpenClaw Prome or acking one of his
 - `PROME/archive/TOSCANINI_2026-03/` — retired governance docs (read on-demand for historical context only)

@@ -13,7 +13,7 @@ After each chunk:
 
 1. Verify changed files with `git diff -- <files>`.
 2. Update this file’s status section.
-3. Update `PROME/CLAUDE_CODE_HANDOFF.md` once it exists.
+3. Update `PROME/HANDOFF.md` when future Prome continuity changes. The old `PROME/CLAUDE_CODE_HANDOFF.md` is now a pointer stub.
 4. If context is crowded, clear before the next chunk.
 
 No commits until Will explicitly approves.
@@ -28,7 +28,7 @@ No commits until Will explicitly approves.
 | `PROME/CLAUDE_CODE_PROME_TASKS.md` | ✅ Drafted | This task ladder. |
 | `PROME/CLAUDE.md` | ✅ Drafted | Bootstrap prompt for Claude Code Prome. |
 | `PROME/CLAUDE_CODE_PROME.md` | ✅ Drafted | Longer operating manual. |
-| `PROME/CLAUDE_CODE_HANDOFF.md` | ✅ Created | Dedicated handoff file. |
+| `PROME/HANDOFF.md` | ✅ Merged live surface | Single OpenClaw + Claude Code handoff; old `PROME/CLAUDE_CODE_HANDOFF.md` is a pointer stub. |
 | `AGENTS_DIRECTORY.md` update | ✅ Complete | Runtime row and shared-state rules added. |
 | `PROME/SYSTEM.md` update | ✅ Complete | Runtime split section added; status now points to Phase 3 dry run. |
 | `PROME/BOOT.md` update | ✅ Complete | Claude Code handoff behavior integrated into normal boot. |
@@ -102,21 +102,16 @@ Must include:
 - Future Claude Code Prome can read it and know what to do.
 - Boundaries are operational, not vague.
 
-## Task 1.3 — Create `PROME/CLAUDE_CODE_HANDOFF.md`
-**Status:** ✅ Complete
+## Task 1.3 — Create Claude Code handoff surface
+**Status:** ✅ Complete, then superseded 2026-06-14
 **Scope:** Initial blank/current handoff.
 
-Must include sections:
+Original output was `PROME/CLAUDE_CODE_HANDOFF.md`. On 2026-06-14 this was merged into `PROME/HANDOFF.md`; the old file remains as a pointer stub and historical content is archived in `PROME/archive/HANDOFF_2026Q2.md`.
 
-- What Changed
-- Files Edited
-- Decisions Needed from Will
-- Risks / Blockers
-- Next Suggested Work
+**Current acceptance criteria:**
 
-**Acceptance criteria:**
-
-- File exists and can be updated every Claude Code Prome session.
+- `PROME/HANDOFF.md` is the single live cross-runtime continuity surface.
+- It stays concise: latest 3–5 entries live, older entries archived.
 
 **Clear checkpoint:** Safe to clear after Phase 1. Fresh session should inspect the three new files and continue at Phase 2.
 
@@ -159,8 +154,8 @@ Must define:
 
 Must include:
 
-- Read `PROME/CLAUDE_CODE_HANDOFF.md` when working after Claude Code Prome changes.
-- Claude Code Prome should update that file at session end.
+- Read `PROME/HANDOFF.md` when working after Claude Code Prome changes.
+- Claude Code Prome should update `PROME/HANDOFF.md` at session end if future continuity changed.
 - Continue using normal Prome boot for Telegram/OpenClaw sessions.
 
 **Clear checkpoint:** Safe to clear after Phase 2. Fresh session should diff/read these integration changes and continue at Phase 3.
@@ -178,7 +173,7 @@ Goal: test Claude Code Prome with no risky edits.
 
 Prompt draft:
 
-> You are Prome inside Claude Code. Read `PROME/CLAUDE.md`, `PROME/CLAUDE_CODE_PROME.md`, `PROME/CLAUDE_CODE_PROME_PLAN.md`, and `PROME/CLAUDE_CODE_PROME_TASKS.md`. Then inspect git status and the Prome state files. Do not edit anything except `PROME/CLAUDE_CODE_HANDOFF.md`. Produce a repo hygiene / readiness report and identify the next safest implementation task. Do not commit, stash, reset, or message externally.
+> You are Prome inside Claude Code. Read `PROME/CLAUDE.md`, `PROME/CLAUDE_CODE_PROME.md`, `PROME/CLAUDE_CODE_PROME_PLAN.md`, and `PROME/CLAUDE_CODE_PROME_TASKS.md`. Then inspect git status and the Prome state files. Do not edit anything except `PROME/HANDOFF.md` if a continuity note is needed. Produce a repo hygiene / readiness report and identify the next safest implementation task. Do not commit, stash, reset, or message externally.
 
 ## Task 3.2 — Run dry run in Claude Code
 **Scope:** Manual/user action in Claude Code.
@@ -254,7 +249,7 @@ Before granting commit rights, require at least 2–3 clean task completions wit
 |---|---|---|
 | Can Claude Code Prome make autonomous internal edits? | Yes, for internal docs/tools once scoped. | Pending Will approval |
 | Can Claude Code Prome commit? | Not initially. Leave diffs for approval. | Pending Will approval |
-| Primary handoff file? | `PROME/CLAUDE_CODE_HANDOFF.md` | Pending Will approval |
+| Primary handoff file? | `PROME/HANDOFF.md` | ✅ Resolved 2026-06-14 — single live cross-runtime handoff |
 | Should it update `PROME/SCRATCH.md`? | Only when next Telegram/OpenClaw session is affected. | Pending Will approval |
 
 ---
@@ -264,7 +259,7 @@ Before granting commit rights, require at least 2–3 clean task completions wit
 Start Phase 3 dry run:
 
 1. Use the dry-run prompt in Task 3.1 from Claude Code.
-2. Instruct Claude Code Prome not to edit anything except `PROME/CLAUDE_CODE_HANDOFF.md`.
+2. Instruct Claude Code Prome not to edit anything except `PROME/HANDOFF.md` if a continuity note is needed.
 3. Review the handoff from Telegram/OpenClaw Prome before assigning real work.
 
 Then clear context before Phase 4 if needed.

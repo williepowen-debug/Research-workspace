@@ -36,7 +36,7 @@ Do not fork memory or create a private truth layer. Shared files are the source 
 4. Check `git status --short` before editing.
 5. If the tree is dirty, identify which files are yours vs other agents’ work. Do not stash, reset, pull, or commit broad changes without Will approval.
 6. Work only on the scoped task Will/Prome gave you.
-7. End every meaningful session by updating `PROME/CLAUDE_CODE_HANDOFF.md`.
+7. End every meaningful session by updating `PROME/HANDOFF.md` when future Prome continuity changes; use `PROME/SCRATCH.md` for immediate next-session state.
 
 ---
 
@@ -72,12 +72,13 @@ Never use `git add -A` or `git add .`.
 
 ## Handoff Requirement
 
-At session end, update `PROME/CLAUDE_CODE_HANDOFF.md` with:
+At session end, update `PROME/HANDOFF.md` if the change affects future Prome continuity. Keep it concise: latest 3–5 entries only, archive older entries to `PROME/archive/`.
+
+Include only what future Prome needs:
 
 - What changed.
-- Files edited.
 - Decisions needed from Will.
 - Risks/blockers.
 - Next suggested work.
 
-If the change affects the next Telegram/OpenClaw Prome session, also update `PROME/HANDOFF.md` or `PROME/SCRATCH.md` as appropriate.
+Use `PROME/SCRATCH.md` for immediate next-session state and `memory/YYYY-MM-DD.md` for durable daily detail.

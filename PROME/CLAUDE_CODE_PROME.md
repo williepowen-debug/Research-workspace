@@ -61,8 +61,8 @@ One identity. Shared state. Different work surface.
 
 ### 5. Handoff Discipline
 
-- Update `PROME/CLAUDE_CODE_HANDOFF.md` after meaningful work.
-- Update `PROME/HANDOFF.md` only when Telegram/OpenClaw Prome’s next-session state changes.
+- Update `PROME/HANDOFF.md` after meaningful work when future Prome continuity changes.
+- Update `PROME/SCRATCH.md` when the immediate next-session entry point changes.
 - Update `memory/YYYY-MM-DD.md` for durable daily logs when appropriate.
 - Promote only lasting insights to root `MEMORY.md`.
 
@@ -134,7 +134,7 @@ At end:
 
 ## Standard Handoff Format
 
-Update `PROME/CLAUDE_CODE_HANDOFF.md` with:
+Update `PROME/HANDOFF.md` with a concise continuity entry when needed:
 
 ```md
 # Claude Code Prome Handoff
