@@ -3,8 +3,8 @@
 
 ## CHANGES SINCE (what moved while offline, session 12 → 13)
 Five passed catalysts caught up (the gap was ~7 days). Two CORRECT my own prior STATUS:
-- **🔴 ICE/CBP ~$70B funding SIGNED INTO LAW Jun 10** (Senate 52-47 Jun 5 / House 214-212 Jun 9). My 6/2 "CONTESTED, parliamentarian carved core" read is superseded — reworked to Byrd-comply, now law, funds ICE+CBP through 2028. **SDL-01 enforcement FLOW re-locked → Channel-1 conviction UP.**
-- **🟠 Construction raids ACTIVE** (Tallahassee 100+, San Antonio) — the "ICE off worksites" pivot was AG-ONLY. Census South starts −11% Apr (only declining region), permits down 2mo. **MAR-26 re-upgraded 72→78.**
+- **🔴 ICE/CBP ~$70B funding SIGNED INTO LAW Jun 10** (Senate 52-47 Jun 5 / House 214-212 Jun 9). My 6/2 "CONTESTED, parliamentarian carved core" read is superseded — reworked to Byrd-comply, now law, funds ICE+CBP through Jan 2029. **SDL-01 enforcement FLOW re-locked → Channel-1 conviction UP.**
+- **🟠 Construction raids ACTIVE** (Tallahassee 100+, San Antonio) — the "ICE off worksites" pivot was AG-ONLY. **MAR-26 re-rated 72→74 (mechanism-only, NOT threshold-confirming).** [CORRECTED — the earlier "South starts −11%, only declining region" was a garbled snippet; Census primary shows South SF starts −2.7% Apr = the *smallest* regional decline, geography runs AGAINST a South-concentrated raid signal. Housing is not threshold confirmation; Q3 is the real test.]
 - **🟠 StatCan May:** air −5.5% YoY / −28.4% stack; auto +15.1% YoY / −28.7% stack. **Air/auto bifurcation collapses on the 2-yr stack** (both ~−28.5%). TOUR-01 confirmed.
 - **🔴 May CPI:** F&V held +6.1% YoY (+0.2% MoM), food-at-home +2.7%. BUT gasoline +7% MoM (energy 60%+ of print) → **ES-MARCO-08 decoupling can't fire on May; defers to June CPI (~Jul 15)** now that Brent has collapsed $91→$83. MAR-14 HOLD.
 - **🟠 World Cup flopping:** ~80% host-city hotels below forecast, only 1.24M intl visitors expected → **ES-MARCO-09 leans FAIL**; WC dual-mask de-risks (jobs mask weaker than feared).
@@ -56,10 +56,10 @@ Prior list all ✅ locally: conviction in THESIS+CHANGELOG; 5 CONTESTED refs gon
 ## OPEN THREADS
 | Item | Status |
 |------|--------|
-| Follow-up write-back (predictions/VX/KB/docket/CHANGELOG) | 🟠 NEW — STATUS/NEXUS_BRIEF current, rest pending next session |
+| Follow-up write-back (predictions/VX/KB/docket/CHANGELOG) | ✅ DONE session 14 — THESIS v2.5/CHANGELOG/TIMELINE + KB.tsv (+5 rows) + VX.tsv (2.01/2.03/1.01) all committed. Remaining = post-Jun-30 PREDICTIONS_ARCHIVE/calibration build (deliberately deferred to the Q2-close cohort). |
 | ES-MARCO-08 produce-vs-pump | 🔴 defers to June CPI ~Jul 15 (May indeterminate — pump rose) |
 | ES-MARCO-09 World Cup reversal | 🟠 leans FAIL (advance signals); NTTO June print ~mid-Aug |
-| MAR-26 construction raids | ↑78%, threshold confirm on Jun-16 starts |
+| MAR-26 construction raids | 74% mechanism-only — Jun-16 starts NOT threshold-confirming (geography runs against South-concentrated signal); Q3 real test |
 | Thesis bump v2.4→v2.5 (Channel-1 re-lock) | 🟡 consider next session |
 | MAINTENANCE.md punchlist (9 items, 6/8) | 🟡 still open |
 
@@ -69,6 +69,6 @@ Inbox empty. **Outbox: 1 still pending** — `2026-06-08_to-NEXUS-CARL_worldcup-
 ## PUSH STATE
 **6/15 session-13:** pushed (be55344c) in a Will-coordinated window — STATUS+NEXUS_BRIEF+SCRATCH+docket; carried HENRY's 52a70d85 in the push-train (his working-tree edits untouched).
 **6/15 session-13/14 commit ledger (all master, my files only):**
-- ✅ ON ORIGIN: `be55344c` (session-13 push) · `a687a9ca` (Layers 1+3) · `859492d9` (Layer 2 thesis v2.5) · `46fab08e` (workbook VX/KB) · `2c60a770` (SCRATCH push-state)
-- ⏳ **PENDING PUSH (local-only):** `326f7b83` (MEMORY.md + CLAUDE.md protocol) + the session-14 closeout commit (this SCRATCH + NEXUS_BRIEF). **Both must ride the next coordinated push window** — flag Orc when it opens for the post-push verification pass.
+- ✅ ON ORIGIN: `be55344c` (session-13 push) · `a687a9ca` (Layers 1+3) · `859492d9` (Layer 2 thesis v2.5) · `46fab08e` (workbook VX/KB) · `2c60a770` (SCRATCH push-state) · `326f7b83` (MEMORY.md + CLAUDE.md protocol) · `6ed25b4f` (session-14 closeout) — **all swept to origin in a coordinated window** (verified `origin/master..HEAD` clean of these at session-15 boot).
+- ⏳ **PENDING PUSH (local-only):** `f4793698` (session-15 ORC fix: THESIS L117 contradiction + CLAUDE.md container-independent auto-memory path) + this handoff-cleanup commit (NEXUS_BRIEF→v2.5, SCRATCH stale-row sweep, STATUS session tag). **Ride the next coordinated push window** — flag Orc for the post-push verification pass.
 - Push deferred per [[feedback_defer_push_coordinate]] (no window open at closeout). HENRY's memory files left uncommitted/untouched throughout.
