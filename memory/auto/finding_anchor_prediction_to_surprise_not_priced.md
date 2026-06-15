@@ -9,7 +9,7 @@ metadata:
 
 When writing a prediction of the form "event X → market moves Y," first ask: **is outcome X already in the price?** A priced outcome arriving moves nothing — the reaction lives in the *deviation from consensus pricing*, not the headline outcome.
 
-HENRY 2026-06-15 (HEN-33): first wrote "FOMC 0-cut '26 dot → 10Y +12bps." But 0 cuts was already priced (CME ~78% / Polymarket 57-70% zero-cut). So the prediction was biased to NOT-fire. Re-anchored to "hawkish-OF-pricing" (hike-leaning dot / more cuts removed than priced / hawkish presser). Critically, the labels **inverted**: a reaffirmed 1-cut dot — nominally "status quo" — became the *dovish* surprise (yields down).
+HENRY 2026-06-15 (HEN-33): first wrote "FOMC 0-cut '26 dot → 10Y +10bps." But 0 cuts was already priced (CME ~78% / Polymarket 57-70% zero-cut). So the prediction was biased to NOT-fire. Re-anchored to "hawkish-OF-pricing" (hike-leaning dot / more cuts removed than priced / hawkish presser). Critically, the labels **inverted**: a reaffirmed 1-cut dot — nominally "status quo" — became the *dovish* surprise (yields down).
 
 **Why:** Markets price the consensus path. A prediction keyed to the consensus outcome tests nothing — it resolves "no move" almost regardless of whether your thesis is right. The information, and the tradeable reaction, is in the residual: outcome minus what was priced. Conflating the headline outcome with the surprise silently inflates or deflates the predicted move and can flip its sign.
 
