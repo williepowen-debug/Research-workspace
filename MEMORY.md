@@ -42,6 +42,7 @@
 *Operating procedures live in `PROME/BOOT.md` / `PROME/CLOSEOUT.md`; tool details live in `TOOLS.md`. Only durable lessons below.*
 
 - **Persistent Agents — Do Not Spawn** — Persistent agents have their own workflows; do not casually spawn replacements. Use `AGENTS.md` as the current source for spawn restrictions and roster. → `AGENTS.md`
+- **Agent Domain-Only Edit Standard** — Will’s agents are expected to edit only files inside their designated domain unless Will explicitly approves otherwise. Merge/push hygiene should assume domain-scoped pathspecs are the normal workflow, not an exceptional restriction.
 - **Verify Agent-Reported Data Against Filings** — Agent-reported numbers can hallucinate; cross-check any trade-relevant data against primary filings/source documents before acting. → root `CLAUDE.md` Critical Rule #3
 - **News Sweep Exists, But Tools Own Details** — Thesis-tagged news monitoring is live; operational commands/config belong in `TOOLS.md` and `FORGE/tools/news-sweep/`, not root memory.
 - **Dealer Capacity Nonlinearity** — Dealer constraints make Treasury clearing nonlinear under flow shock; SLR/eSLR policy can be decisive. Use source research for current numbers. → `FORGE/timing/research/DEALER_CAPACITY_RESPONSE_1B_PERPLEXITY.md`
