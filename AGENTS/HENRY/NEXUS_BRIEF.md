@@ -3,7 +3,7 @@
 **Status:** 🟡 — Cyclical axis SOFT-KILLED on the CPI gate (core +0.2% MISS); structural credit-bifurcation axis confirmed but DORMANT; FOMC dots 6/17 the live re-arm
 **Domain:** US market structure + macro data (CPI/PPI/PCE/ISM/NFP) + vol regime (gamma/0DTE layer; VIOLET owns vol broadcast) + equity positioning. Edges: receives energy→CPI (BRENT), vol regime (VIOLET), carry/BOJ (SAM), employment (LABOR); sends term-premium (LIQUID), credit-equity (REGINALD/BROCK), wealth-effect (CARL)
 **Recent thesis pivot:** Hot-NFP cyclical re-arm (6/5) → cyclical SOFT-KILL on soft core CPI (6/10) — the hot headline CPI/PPI were ~80% energy and energy is collapsing, so the market looked through them
-**As of:** 2026-06-15 ~11:45 ET (session closeout) | STATUS commit: a1d569f1
+**As of:** 2026-06-15 ~2:30 ET (PM re-boot closeout) | STATUS: synced to origin, soft-kill thesis current — PM session was infra/cleanup only (straggler sweep + eval baseline + VX dup-ID fix); thesis & tape unchanged from AM (tape ~1pm: SPX 7,570 / VIX 16.04 / 10Y 4.46)
 
 ---
 
