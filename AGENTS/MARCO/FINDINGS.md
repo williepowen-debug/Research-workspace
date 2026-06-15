@@ -1,5 +1,5 @@
 # MARCO FINDINGS INDEX
-**Last Updated:** 2026-05-31 | **Purpose:** Category map of MARCO research docs. Not a synthesis — a navigator. For live state see `STATUS.md`.
+**Last Updated:** 2026-06-15 | **Purpose:** Category map of MARCO research docs. Not a synthesis — a navigator. For live state see `STATUS.md`.
 
 ---
 
@@ -60,17 +60,16 @@ Each section below is a **thesis bucket**. Under each bucket: the research docs 
 
 ---
 
-## Live state (not in this index) — refreshed 2026-05-31
+## Live state — pointers ONLY (not restated here)
 
-- **THESIS INFLECTION (2026-05-31):** cyclical stress reversed, structural supply-shock persists. See STATUS.md top block. Durable signal = produce CPI F&V +6.1% YoY (ag-labor stock loss).
-- **FL triple exposure** — COOLING. Condo 8.9mo Apr (below 9.0, tightening); Canadian air -8.1% (headline flipped +1.4%); Miami migration -2.0% stale. Aggregate $ stress pushed to winter 2026-27. Lives in `STATUS.md`.
-- **DHS shutdown** — RESOLVED Apr 30 (76-day record). ICE/CBP carved to $71.7B reconciliation (text May 4, Jun 1 target). Lives in `STATUS.md`.
-- **ICE raids** — PIVOTED OFF FARMS (harvest-protection; enforcement to Democratic cities). Flow softened; 2.2M stock loss irreversible. Lives in `STATUS.md`.
-- **Canadian travel** — Apr +1.4% YoY headline (first rise since Dec '24, auto-driven); air channel -8.1% still bleeding. Lives in `STATUS.md`.
-- **Remittances** — Mar +4.9% YoY ($5.39B record), Q1 +1.4%; count -3.6% (likely 1% tax pull-forward). Lives in `STATUS.md`.
-- **Thesis** — `thesis/THESIS.md` (v2.0, canonical) + `thesis/CHANGELOG.md` (version history) + `thesis/TIMELINE.md`.
-- **Predictions** — `thesis/PREDICTIONS.tsv` (MAR-08, MAR-27 now CONFIRMED), active set in `STATUS.md`.
-- **Vectors** — `workbook/VX.tsv`.
+Live values drift between sessions; this navigator deliberately does **not** carry them (single-source-of-truth — restating values here is exactly the staleness this file is meant to prevent). Read the owner doc:
+
+- **Current dashboard, active situations, thesis-inflection block** → `STATUS.md`
+- **Canonical thesis (v2.5), 5 transmission channels, conviction-by-channel, kill conditions** → `thesis/THESIS.md` · version-transition log → `thesis/CHANGELOG.md` · dated event spine → `thesis/TIMELINE.md`
+- **Predictions** (full detail + resolutions) → `thesis/PREDICTIONS.tsv`
+- **Live indicator vectors** → `workbook/VX.tsv` · knowledge base → `workbook/KB.tsv` · transmission/cascade mechanics → `workbook/FLOW.tsv`
+- **Forward catalysts / dates** → `docket/CATALYSTS.tsv` (machine feed) + `docket/CALENDAR.md` (countdown)
+- **Cross-agent synthesis brief** → `NEXUS_BRIEF.md` · session handoff → `SCRATCH.md` · persistent learnings → `MEMORY.md`
 
 ---
 

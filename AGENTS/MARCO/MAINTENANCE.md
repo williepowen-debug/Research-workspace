@@ -8,7 +8,8 @@
 
 ## TIER 1 — thesis-load-bearing (fix first)
 
-### T1-A · FINDINGS.md points to the WRONG thesis version + carries a stale "Live state" block
+### ✅ T1-A · FINDINGS.md points to the WRONG thesis version + carries a stale "Live state" block — DONE 2026-06-15
+*(Resolved: bumped v2.0→v2.5; "Live state" block rewritten to pure pointers, no restated drifting values; header date refreshed.)*
 - **What:** `FINDINGS.md` (the boot navigator) line 71 says "thesis/THESIS.md (**v2.0**, canonical)" — actual is **v2.4**. Lines 63-73 ("Live state — refreshed 2026-05-31") *restate* STATUS values that have since drifted: remittances "Mar +4.9% / count −3.6%" (now Apr +3.7% / count −1.7%), Canadian "Apr +1.4% headline" (pre-session-9 base-effect correction), produce "+6.1% (ag-labor stock loss)" (pre-v2.1 multi-causal resolution).
 - **Why it matters:** FINDINGS is a navigator a fresh spawn may read to orient — a v2.0 pointer + drifted live-values misdirects. Violates single-source-of-truth (file even says "Not a synthesis — a navigator").
 - **Action:** Bump v2.0→v2.4; prune the "Live state" block to pure pointers (no restated values — point to STATUS/thesis).
@@ -20,11 +21,18 @@
 - **Action:** Reconcile the 2.2M source-of-record; add a one-line confidence/caveat to STATUS where 2.2M is cited (it's stated flat). Decide if the number needs a ±band.
 - **Effort:** medium (judgment).
 
-### T1-C · H-2A "requested vs certified" series ambiguity in MAR-11
+### ✅ T1-C · H-2A "requested vs certified" series ambiguity in MAR-11 — DONE 2026-06-15
+*(Resolved: MAR-11 note now specifies threshold on CERTIFIED series, FY25 certified 398,059, '415K' was requested; cross-refs FINDINGS/OFLC. NEW flag found while editing → see T1-D below.)*
 - **What:** Today's h2a_pull returned FY25 **certified = 398,059**. `FINDINGS.md` line 55 already resolves it: "prior '415K' was positions **REQUESTED**." But `PREDICTIONS.tsv` MAR-11 ("H-2A certifications >425K, FY2026") still carries the note "FY2025 was 415K" without the requested-vs-certified distinction.
 - **Why it matters:** MAR-11 resolves at the ~Jun-30 OFLC Q3 window. If scored against 415K-requested baseline instead of 398K-certified, the threshold read is wrong. Canonical-measure discipline.
 - **Action:** Edit MAR-11 note to specify certified-series (FY25 certified 398,059; prediction threshold = certified >425K). Cross-ref FINDINGS/OFLC_H2A_PULL.
 - **Effort:** small.
+
+### T1-D · PREDICTIONS.tsv has inconsistent column count (NEW — found 2026-06-15)
+- **What:** Column-count distribution across `thesis/PREDICTIONS.tsv` = `{9-col: 3 rows, 8-col: 14 rows}` vs a 9-col header (Pred_ID…Outcome…Notes). Most data rows (14) are **missing the `Outcome` field** — Notes sits where Outcome should be positionally.
+- **Why it matters:** `predictions_due.py` currently tolerates it (Timeframe is field 4, before the gap, so the due-scan parses fine), but any positional read of Outcome/Notes is wrong on 8-col rows, and a future schema-strict parse would misalign. Latent, not yet behavioral.
+- **Action:** Normalize all rows to 9-col by inserting the empty `Outcome` field (verify `predictions_due.py` + any consumer reads by header-name, not position, before/after). Do in one pass — likely fold into the post-Jun-30 PREDICTIONS_ARCHIVE/calibration build (SCRATCH punchlist #2).
+- **Effort:** small (but verify parser).
 
 ---
 
@@ -36,7 +44,8 @@
 - **Action:** Prune STATUS "NEXT SESSION FOCUS" → pointer to SCRATCH. Decide whether the re-send backlog is now handled by NEXUS_BRIEF SENDING table (likely yes) and retire or convert it.
 - **Effort:** small-medium.
 
-### T2-B · RESEARCH_STATUS.md drift
+### ✅ T2-B · RESEARCH_STATUS.md drift — DONE 2026-06-15
+*(Resolved: remittance paradox + FLL-April → COMPLETE; ag-weather refreshed as open PROME loop; TOURISM row = SHELVE-sub-agent/KEEP-vector decision (was mislabeled "stalled"); StatCan Q1→Q2 gap re-dated; FL-airport gap → MCO-only/BTS-July. Header date refreshed.)*
 - **What:** (1) "Remittance paradox" still under ACTIVE — RESOLVED 6/2 (paradox fading), should move to COMPLETE. (2) TOURISM listed DORMANT/"stalled, no commits since Apr 22" — **contradicts the session-11 finding** that TOURISM is NOT stalled (content current, refreshed session 9; ran a live World Cup pull 6/2). (3) "StatCan Q1 2026 BOP" GAP — superseded by Q2 (~Aug 28) per docket. (4) "Ag-weather/crop-disaster owner" — flagged to PROME 5/31; assignment status unknown (open loop).
 - **Action:** Move remittance paradox → COMPLETE; correct/remove the TOURISM-stalled entry; re-date StatCan gap to Q2; chase the ag-weather-owner loop with PROME.
 - **Effort:** small.
@@ -72,7 +81,7 @@
 
 ## Cross-references (already tracked elsewhere — not re-flagging)
 - DEFERRED.md (4 open TOURISM cross-agent items: REGINALD ×2, HOUSING, CARL) — current as of 6/2, properly tracked. The CARL World-Cup item + REGINALD winter-$ items are now partly addressed via today's NEXUS_BRIEF SENDING + outbox; could cross-ref.
-- MCO/FLL April pax (PDF-blocked) — in SCRATCH OPEN THREADS, re-pull ~mid/late-Jun.
+- ~~MCO/FLL April pax (PDF-blocked)~~ — **FLL RESOLVED 6/15** (pdfminer on Broward Monthly Statistical Summary PDF: +5.0% YoY / −4.7% 2-yr stack; intl −18.7% stack). MCO still blocked (flymco JS-rendered) → BTS T-100 ~Jul. Method: download+pdfminer w/ browser UA beats WebFetch for airport PDFs.
 - Cross-agent re-sends — see T2-A (likely superseded by NEXUS_BRIEF).
 
 ---
