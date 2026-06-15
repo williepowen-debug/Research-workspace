@@ -34,13 +34,15 @@ The CPI gate (HEN-32) resolved **SOFT** (core +0.2% vs +0.3%) — cyclical axis 
 ## NEXT SESSION FOLLOW-UP (catalyst dates)
 - **Tue–Wed 6/16-17 — FOMC + SEP/dot plot (new Chair Warsh).** Hold 98% priced → the DOTS are the catalyst. 0-cut '26 dot (Polymarket 57%, vs Fed's 1) = hawkish, yields back up, cyclical re-arm (HEN-33). This is THE live event.
 - **Tue 6/16 — BOJ decision** (SAM-primary; USD/JPY 160.11 >160).
-- **~Fri 6/19 — Jun opex; Will's TLT Jun $85P expire.**
+- **~Fri 6/19 — Jun opex** (gamma/positioning unwind day — watch for structure-driven vol).
 - **~late Jul — BDC Q2 marks (BROCK)** = only live structural-axis test post-FOMC.
 
 ## THESIS SNAPSHOT (frozen at close)
 Cyclical axis soft-killed on the data (soft core + collapsing energy + crushed vol + SPX ATH + eased yields). Structural credit-bifurcation axis CONFIRMED (CCC−BB 787, +26/3mo) but NOT transmitting to equity (KRE/WAL up, HY not underperforming IG) — the trap that hasn't sprung. Neither cyclical leg is driving risk-off; the cascade is dormant (VIX 16, vol-control cushion 6.58). The VIX soft-kill leg is the closest to firing (1.42 above <15). Live re-arm risk = FOMC dot plot tomorrow.
 
 ## WILL_NEEDS
-1. **TLT Jun $85P (3×) — decision point.** Soft CPI was adverse: TLT rose to **$85.77 (puts now OTM)**, Jun expiry ~6/19 (~4 sessions), FOMC tomorrow the last catalyst. Only a hawkish dot rescues them — low-prob with 4 days of theta. **I'm deferring to you with the live mark, not auto-recommending** (mark-context discipline). Sep $85P (2×): my read is HOLD, don't add. **What's your mark / call?**
-2. **APO→BROCK signal — fire or hold?** BROCK's put-thesis-re-arm trigger (APO >$130 ×3 sess) is factually FIRED (4 closes 6/9–6/12). BROCK's STATUS is stale 6/8 so they don't have it. It's 🟠 (not 🔴) and APO strength is *adverse* to their puts (thesis-soft, not bearish), so BROCK will catch it on their own boot refresh. **I held the outbox per outbox-restraint — want me to fire it anyway, or let BROCK self-catch?**
-3. **Brent <$85 ($83)→BRENT** soft-kill accelerant — fire or hold? (Same restraint call.)
+*Per your 6/15 directive, trade positions are retired from focus — HENRY now tracks macro + market trends only. The duration channel (10Y/TLT) and alts proxy (APO) stay as market reads, not position calls. No position decisions pending.*
+
+1. **FOMC 6/17 dot plot is the one live event** (HEN-33). If you want, I'll be ready to log it real-time and read the macro/market reaction (yields, vol, the soft-kill VIX leg) the moment it drops.
+2. **Cross-agent macro signals — fire or hold?** (a) Brent <$85 → BRENT soft-kill accelerant; (b) credit bifurcation drifting wider (CCC−BB +6/5d) → REGINALD/BROCK macro watch. Both 🟡/🟠, non-critical; I held the outbox per restraint. Want them fired, or batched into a NEXUS_BRIEF?
+3. **Today's workload split** — what macro/market-trend threads do you want HENRY on while Prome + Orc review?
