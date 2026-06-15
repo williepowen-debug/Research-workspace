@@ -20,6 +20,19 @@
 
 ---
 
+## Lean Tool Output
+
+Default to compact tool output so long sessions do not bloat the transcript unnecessarily.
+
+- Inspect size/structure first: `wc`, `grep`, `find`, `git diff --stat`, `git diff --name-only`.
+- Read targeted excerpts before whole files: prefer bounded `read`, `sed -n '1,120p'`, or focused greps.
+- For large diffs, show stat/name-only first; print hunks only for files being actively reviewed.
+- For generated reports/artifacts, write to file and summarize rather than pasting full content into chat.
+- For agent freshness checks, use mtimes + headers/top sections first; deep-read only when decision-relevant.
+- Escalate freely to full reads/diffs when correctness, safety, or editing requires it. This is a default, not a blind constraint.
+
+---
+
 ## Minimal Doc Ownership
 
 If the same fact appears in two docs, put it in the owner doc and reference it elsewhere.
