@@ -37,7 +37,7 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
-| REGINALD | $35B Apollo/BX/Broadcom AI deal — "leading global banks" co-lending = NEW direct bank exposure to AI-infra credit, distinct from the $1.4T NDFI warehouse channel | 🔴 | bank PC/AI-infra exposure map — new transmission node |
+| REGINALD | $35B Apollo/BX/Broadcom AI deal — "leading global banks" co-lending = NEW direct bank exposure to AI-infra credit, distinct from the $1.4T NDFI warehouse channel. **Syndicate [UNVERIFIED — ORC-relayed 6/15, pull primary]: WFC global-coordinator + BNP/Citi/UBS (A1 tranche); GS/BofA/MS placing (A2).** | 🔴 | bank PC/AI-infra exposure map — new transmission node |
 | REGINALD/LIQUID | 4-fund gate cluster (Cliffwater/PG/BCRED/Monroe) + Stanger $4.6B/$13.9B product-type-wide gating; no new gater since 6/5 | 🟠 | warehouse/fund-finance re-rate |
 | OTTO | Q2 10-Q cycle ~7/25 — run 4 SEPARATE passes (NA/NAV/div-action/non-accrual, LESSONS #20); 4th public-BDC div-cut watch | 🟠 | BDC earnings model |
 | HAWK | Brent −11.5% to $83.65 relieves the Athene/ILS insurance channel — downgrading ILS-capacity watch | 🟡 | reinsurance capacity read |
@@ -47,7 +47,7 @@
 | From | Input | Expected by | Why it matters | How it changes my view |
 |------|-------|-------------|----------------|------------------------|
 | LIQUID | HY OAS refresh | open — watch 260 | thesis-kill leg | <260 sustained fires Decision Tree STEP 1→2 |
-| REGINALD | bank co-lender syndicate on the $35B deal | when disclosed | sizes the AI-infra bank exposure | named banks → quantify the transmission node |
+| REGINALD | bank co-lender syndicate on the $35B deal — ORC relayed candidate names 6/15 ([UNVERIFIED], see SENDING) | pull primary | sizes the AI-infra bank exposure | confirmed names → quantify the transmission node |
 | OTTO | BDC Q2 div-action / NA additions | ~late Jul | 4th public-BDC cut = cascade | confirms/breaks the public-BDC cascade |
 | HENRY | FOMC dots 6/17 + vol regime | 6/17 | rate path → HY OAS direction | hawkish-of-pricing backs HY up, away from kill |
 
