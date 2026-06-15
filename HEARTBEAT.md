@@ -1,5 +1,5 @@
 # HEARTBEAT.md
-**Updated:** 2026-06-14 PM ET (OpenClaw Prome — post-pull boot-surface refresh)
+**Updated:** 2026-06-14 PM ET (OpenClaw Prome — post-week-card push cleanup)
 
 ## Regime
 
@@ -51,12 +51,12 @@ HY OAS **278🟢 [FRED 6/11]** · CCC **956🟡 [FRED 6/11]** · 10Y **4.45🟡 
 
 ## Near Gates — Jun 15–22
 
-Current near-gate source: `PROME/TODAY.md` until a durable `PROME/action-cards/WEEK_2026-06-15.md` exists.
+Current near-gate sources: `PROME/action-cards/WEEK_2026-06-15.md` + `PROME/TODAY.md`.
 
 | Date / Window | Gate | Owner(s) | Read |
 |---|---|---|---|
 | **Mon 6/15** | Brent double-trigger watch | BRENT/HAWK | M1-M3 completion + sub-$88/XLE re-eval if tape holds. |
-| **Mon 6/16** | BOJ + Sumitomo Life FY2025 ESR | SAM | Japan/FXY near gate; MOF odds down, BOJ still live. |
+| **Tue 6/16** | BOJ + Sumitomo Life FY2025 ESR | SAM | Japan/FXY near gate; MOF odds down, BOJ still live. |
 | **Tue-Wed 6/16-17** | FOMC + dots/SEP | HENRY/LIQUID/RED/VIOLET | Biggest macro resolver: duration, Fed repricing, vol, TLT salvage. |
 | **Wed 6/17** | VIX quarterly / M1 expiry stack | VIOLET | Complacency tape + bid tail; Bin-B credit block governs. |
 | **Thu 6/18** | May TIC + Jun18 option cluster | SAM/LIQUID/Will/Prome | Foreign-flow proxy + expiry cleanup/reconciliation. |
@@ -68,7 +68,6 @@ Current near-gate source: `PROME/TODAY.md` until a durable `PROME/action-cards/W
 
 | Pri | Decision / Work | Reference |
 |---|---|---|
-| 🔴 | **Verify Phase 3 boot-surface refresh.** TODAY/SCRATCH/STATUS/ACTIVE/FLEET/HEARTBEAT rewritten; run diff + stale-language grep; confirm no agent edits. | `PROME/BOOT_SURFACE_REFRESH_2026-06-14_PHASE2_EDIT_MAP.md` |
 | 🔴 | **FOMC Jun17 / VIX expiry stack.** Macro resolver if Will wants decision framing; do not auto-trade. | `PROME/TODAY.md`, `PROME/ACTIVE_DECISIONS.md` |
 | 🟠 | **BOJ Jun16 / FXY near-expiry.** Will already chose hold on Jun18 $58C; verify broker/Will before any expiry action. | `AGENTS/SAM/STATUS.md`, `PROME/ACTIVE_DECISIONS.md` |
 | 🟠 | **Jun18/19 expiry cleanup.** HYG dead; TLT/WAL/non-TLT legs require broker reconciliation. | `PROME/ACTIVE_DECISIONS.md` |
@@ -80,6 +79,7 @@ Current near-gate source: `PROME/TODAY.md` until a durable `PROME/action-cards/W
 ## Pointers
 
 - Current operator card → `PROME/TODAY.md`
+- Week-ahead card → `PROME/action-cards/WEEK_2026-06-15.md`
 - Current Prome working state → `PROME/SCRATCH.md`, `PROME/STATUS.md`, `PROME/FLEET_SCAN.md`
 - Active decisions safety index → `PROME/ACTIVE_DECISIONS.md`
 - Boot-refresh audit trail → `PROME/BOOT_SURFACE_REFRESH_2026-06-14_PHASE0.md`, `PROME/BOOT_SURFACE_REFRESH_2026-06-14_PHASE1.md`, `PROME/BOOT_SURFACE_REFRESH_2026-06-14_PHASE2_EDIT_MAP.md`

@@ -1,8 +1,8 @@
 # PROME CLOSEOUT
 
 **Created:** 2026-05-18
-**Owner:** Prome (CC surface — Claude Code)
-**Purpose:** Repeatable session-end procedure to maintain consistency across CC-Prome sessions. Run before `/clear`, `/new`, or session handoff.
+**Owner:** Prome
+**Purpose:** Repeatable session-end procedure to maintain consistency across OpenClaw + Claude Code Prome sessions. Run before `/clear`, `/new`, or session handoff.
 
 > Companion to `PROME/BOOT.md` (session start) and `PROME/CLAUDE.md` (CC-Prome bootstrap). Follow root `CLAUDE.md` for git protocol details.
 
@@ -23,14 +23,15 @@ Skip for casual one-off exchanges with no artifacts.
 1. `git status --short` — review what's changed
 2. Confirm no other agents have uncommitted work outside `PROME/` and `AGENTS/PROME/` (per root CLAUDE.md "Before pulling")
 3. Mentally list this session's artifacts: proposals decided, files written, prototypes run, decisions made
-4. Decide closeout scope:
+4. Check transcript hygiene: if the session produced huge tool dumps, preserve the durable result in files/memory and avoid restating raw output. Prefer compact summaries unless full output matters.
+5. Decide closeout scope:
 
 | Tier | When | Touches | Commit? |
 |---|---|---|---|
 | **Bounce** | Mid-day restart for config/tmux/clear/branch; you're coming right back within the hour | SCRATCH addendum (3-5 lines) | No |
 | **Light** | Short session paused for hours; 1-2 artifacts; audit can wait for end-of-day Standard | SCRATCH full rewrite + STATUS surgical | Optional |
-| **Standard** *(default)* | End-of-thread or end-of-day; multi-artifact session | All Chunk 1 + Chunk 2 daily log + Chunk 4 commit/push | Yes |
-| **Heavy** | Pattern-discovery session; new lessons/designs to fold | Standard + auto-memory + design-docs + Chunk 3 residuals | Yes |
+| **Standard** *(default)* | End-of-thread or end-of-day; multi-artifact session | All Chunk 1 + Chunk 2 daily log + Chunk 4 commit; push only if Will approves | Yes, push gated |
+| **Heavy** | Pattern-discovery session; new lessons/designs to fold | Standard + auto-memory + design-docs + Chunk 3 residuals | Yes, push gated |
 
 End-of-day always runs at least Standard so the audit trail catches up. 10 Bounces + 1 end-of-day Standard = no audit gap, just a rollup HANDOFF entry covering the day.
 
@@ -48,12 +49,31 @@ Closeout is the **write-back tail** of boot (auto-memory `[[finding_closeout_as_
 | `TODAY.md` | step 2 | Chunk 1 — surgical if date/catalysts moved (Standard+) |
 | `STATUS.md` | step 3 | Chunk 1 — surgical |
 | `ACTIVE_DECISIONS.md` | step 5 | Chunk 1 — surgical if a decision moved |
-| `CLAUDE_CODE_HANDOFF.md` | step 7 | Chunk 1 — append entry |
+| `HANDOFF.md` | step 7 | Chunk 1 — append/rotate concise continuity entry when session affects future Prome state |
 | `memory/YYYY-MM-DD.md` | on-demand | Chunk 2 — create/append |
 
 **Intentionally one-way (no closeout write-back, by design):**
-- `FLEET_SCAN.md` — read at boot step 4; refreshed *on demand* by the fleet-scanner subagent, never at closeout.
-- COMM mailbox (step 8) + inbox / agent-outbox scan (step 9) — ACKed / routed *inline during the session*, not deferred to closeout.
+- `FLEET_SCAN.md` — conditional boot read; refreshed *on demand* by the fleet-scanner subagent, never at closeout.
+- COMM mailbox + inbox / agent-outbox scan — ACKed / routed *inline during the session*, not deferred to closeout.
+
+---
+
+## Prome Write-Back Contract
+
+Use this as the manual write-back feature. Do not auto-edit every surface; update only the owner doc whose state actually changed.
+
+| If this changed | Write back to | Rule |
+|---|---|---|
+| Immediate next-session state | `PROME/SCRATCH.md` | Full rewrite for Standard/Heavy; Bounce may append 3–5 lines. |
+| Cross-runtime continuity / decisions Will made | `PROME/HANDOFF.md` | Concise top entry only if future Prome needs it; keep latest 3–5 live. |
+| Non-terminal decision state | `PROME/ACTIVE_DECISIONS.md` | Surgical row update; if unknown, mark `DEFERRED` / reconcile, never infer execution. |
+| Agent/system health or work queue | `PROME/STATUS.md` | Surgical update; avoid repeating TODAY/HEARTBEAT market narrative. |
+| Date/catalysts/operator checklist | `PROME/TODAY.md` | Surgical update only when date/gates/tasks moved. |
+| Regime/thresholds/near gates | `HEARTBEAT.md` | Update after regime-level changes or when >48h stale during market week. |
+| Daily activity / file changes | `memory/YYYY-MM-DD.md` | Append durable session log. |
+| Durable insight / lesson | `MEMORY.md` or auto-memory | Promote sparingly; avoid activity logs. |
+
+**Default:** if no owner state changed, do not write back. State bloat is worse than a quiet closeout.
 
 ---
 
@@ -77,22 +97,21 @@ Closeout is the **write-back tail** of boot (auto-memory `[[finding_closeout_as_
 
 Boot-readable decision index (**paired with boot step 5**). Update a row whenever a non-terminal decision changed this session — new decision, state transition (DRAFT→PROPOSED→WILL_APPROVED), owner change, backstop met, executed/closed. Skip if no decision moved. Without this write-back the index silently goes stale — boot reads it but nothing refreshes it.
 
-### `PROME/CLAUDE_CODE_HANDOFF.md` — append session entry (Standard / Heavy only)
+### `PROME/HANDOFF.md` — append/rotate concise continuity entry (Standard / Heavy only)
 
-CC-Prome audit-trail role. Light skips — audit rolls up at end-of-day Standard. NOT the place for session narrative (that's SCRATCH).
+Cross-runtime Prome continuity role. Light skips unless future Prome state materially changed. Keep latest 3–5 entries live; archive older entries to `PROME/archive/`. NOT the place for full session narrative (that's SCRATCH / daily memory).
 - **What landed** — one-line referents per artifact; point at SCRATCH/memory for headlines
-- **Files edited** — compact list (PROME scope + any agent-inbox writes with PROVENANCE note)
-- **Decisions Will made this session** (retrospective audit; helps future-Prome avoid re-asking)
-- **Decisions needed from Will** (forward-looking; usually a one-line pointer to SCRATCH's live carries)
+- **Files edited** — compact list only when relevant
+- **Decisions Will made this session** if they affect future behavior
+- **Decisions needed from Will** if still active
 - **Risks / blockers**
-- **v_next design inputs** (any new pattern feedback returned by sub-agents)
 - **Next suggested work** (one-line pointer to SCRATCH, not a full restate)
 - **Rules held to** (autonomy / scope verification)
 
 **Doc-ownership separation (canonical homes):**
 - **SCRATCH** = session narrative + next-session entry point (full headlines, "what just happened")
 - **STATUS** = state tables only (agent health, Pending Work status, Active Decision Layer freshness); no narrative
-- **HANDOFF** = CC-Prome audit trail (files, decisions, rules); references SCRATCH for narrative
+- **HANDOFF** = concise cross-runtime continuity; references SCRATCH/memory for detail
 
 **Checkpoint:** if any of these three files restate the same fact, drop it from STATUS and HANDOFF, keep it in SCRATCH. Cross-reference rather than duplicate.
 
@@ -146,16 +165,18 @@ If none triggered, skip.
 ```
 git status --short                                       # check scope
 # modified files — path-scoped commit, NO staging step (never `git reset HEAD`):
-git commit PROME/<file> PROME/<file> -m "PROME: <subject>"
+git commit -m "PROME: <subject>" -- PROME/<file> PROME/<file>
 # new untracked files — atomic add+commit of EXPLICIT paths (never `git add PROME/` as a directory):
-git add PROME/<newfile> && git commit PROME/<newfile> -m "PROME: <subject>"
-git pull --rebase                                        # only if push rejected
+git add -- PROME/<newfile> && git commit -m "PROME: <subject>" -- PROME/<newfile>
+# mixed modified + new files: add only new explicit paths first, then commit all explicit paths:
+git add -- PROME/<newfile> && git commit -m "PROME: <subject>" -- PROME/<modified> PROME/<newfile>
+git pull --rebase                                        # only if push rejected or before push when safe
 git push                                                 # only on Will's explicit push call
 ```
 
 **Never `git reset HEAD`** — shared `.git/index` makes it a global unstage that races concurrent agents (auto-memory `[[finding_pathspec_commit_race_safety]]`, incident `8ac5bf71`). Matches root `CLAUDE.md` "Before committing". **Pushing is a separate gate** — commit locally freely, but push only when Will coordinates it (concurrent agents may have unpushed local commits; `[[feedback_defer_push_coordinate]]`).
 
-Commit message style: subject = `PROME: <short one-liner>`; body explains WHY not WHAT; include `Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>` trailer.
+Commit message style: subject = `PROME: <short one-liner>`; body explains WHY not WHAT when useful. **Option order matters:** put `-m` before `--`; everything after `--` is treated as a pathspec.
 
 If working tree outside `PROME/` is dirty (other agents' uncommitted work): commit your work, defer push, note pending push in `memory/YYYY-MM-DD.md` per root CLAUDE.md.
 
@@ -171,7 +192,7 @@ One short message:
 ## Skip rules
 
 - **`PROME/TODAY.md`** — **paired with boot step 2.** Surgical update if the date rolled or catalysts/levels changed (Standard+); skip on Bounce/Light. (Earlier guidance treated `FLEET_SCAN.md` as a CC replacement surface, but TODAY is still read at boot and drives day/week framing — keep it current.)
-- **`PROME/HANDOFF.md`** — Telegram-Prome handoff. Only update if this session's changes affect Telegram-Prome continuity (rare for pure CC work)
+- **`PROME/HANDOFF.md`** — cross-runtime Prome continuity. Update only when the session changes future Prome state; keep it concise and rotate/archive older entries.
 - **`AGENTS/<other>/` files** — never. Other agents own their state. Route via inbox if needed (and only with explicit per-instance authorization per the cross-agent-inbox-writes rule)
 - **Root `CLAUDE.md` / shared files** — flag to Will, don't auto-edit. Will-approval gates the change.
 
@@ -193,13 +214,12 @@ One short message:
 | `PROME/SCRATCH.md` | Full rewrite |
 | `PROME/STATUS.md` | Surgical update |
 | `PROME/ACTIVE_DECISIONS.md` | Surgical if a decision moved (boot step 5 pair) |
-| `PROME/CLAUDE_CODE_HANDOFF.md` | Append entry |
+| `PROME/HANDOFF.md` | Append/rotate concise cross-runtime continuity entry when needed |
 | `memory/YYYY-MM-DD.md` | Create or append |
 | `~/.claude/.../memory/` (auto-memory) | Selective add only |
 | `PROME/BOOT.md` | Only if doc-ownership drifted |
 | `PROME/AUTONOMY.md` | Only if autonomy changed |
 | `PROME/FLEET_SCAN.md` | Don't touch at closeout; refreshes on demand |
 | `PROME/ORCHESTRAL_LAYER_DESIGN.md` | Only if prototypes produced feedback |
-| `PROME/TODAY.md` | Usually skip |
-| `PROME/HANDOFF.md` | Only if Telegram-Prome continuity affected |
-| Root `CLAUDE.md`, `HEARTBEAT.md`, other shared | Flag to Will; don't auto-edit |
+| `PROME/TODAY.md` | Usually skip unless date/catalysts/levels moved |
+| Root `CLAUDE.md`, `HEARTBEAT.md`, other shared | Flag to Will; don't auto-edit unless explicitly approved |

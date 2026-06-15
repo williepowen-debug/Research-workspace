@@ -1,82 +1,70 @@
 # PROME STATUS.md
-**Updated:** 2026-06-14 PM ET (OpenClaw Prome — post-pull boot-surface refresh Phase 3)
+**Updated:** 2026-06-15 00:05 ET (OpenClaw Prome — context-weight cleanup closeout)
 
 ## Core State
 
-**Operational priority:** boot-surface catch-up after the large GitHub pull. The repo is fresh; Prome state was stale. Will approved a staged refresh with one explicit constraint: **do not edit agents**.
+**Operational priority:** run from the lighter Jun 14/15 Prome boot path. Boot/handoff/closeout surfaces have been merged, pruned, hardened, and synced; current work is follow-up cleanup plus decision-support lanes, not unfinished boot rehab.
 
-**Regime:** **Surface tape de-risked; tail/private/physical stress stayed sticky.** Broad cascade is not confirmed: HY OAS remains tight at **278bps [FRED 6/11]**, VIX faded to **17.68**, banks rallied, and Brent collapsed sub-$90. But the structural/tail side did not heal: CCC **956bps**, SKEW held 142+, private-credit gates/BDC stress remain hot, consumer-credit stress persists, Japan/BOJ risk is live, and physical energy/chokepoint stress remains severe despite the price collapse.
+**Current repo reality:** context-weight cleanup has been committed/pushed. Next boot should verify clean/synced before pull. Continue **pathspec-only** staging/commits; push only when Will explicitly approves.
 
-**Live dashboard anchor from Phase 0:** HY OAS **278bps [FRED 6/11]** 🟢, CCC **956bps [FRED 6/11]** 🟡, VIX **17.68** 🟢, Brent **$87.33** 🟡, gas weekly **4.15 [6/8]** 🔴, USD/JPY **160.18** 🔴, 10Y **4.45 [FRED 6/11]** 🟡, SOFR-IORB **-0.05 [6/11]** 🟢, KRE **$73.41** 🟢, WAL **$83.67** 🟢, OZK **$52.10** 🟢, APO **$133.88**, ARES **$134.90** 🟡, BIZD **$12.71** 🔴, FXY **$57.26** 🟡, TLT **$85.77** 🟡, initial claims **229k [6/6]** 🟡 / shadow **284k**, continuing claims **1.795M [5/30]** 🟢.
+**Regime source:** use `HEARTBEAT.md` for the current market/regime dashboard and near gates. Do not duplicate full price tables here.
 
----
-
-## Sync / Repo State
-
-| Item | Status | Note |
-|---|---|---|
-| GitHub sync | ✅ Clean/synced at Phase 0 | Baseline: `master`, `HEAD/origin c87c00ac`, ahead/behind `0/0`. |
-| Local working tree | 🟡 Prome refresh files modified/untracked | Phase notes + boot surfaces are local until Will approves commit/push. |
-| Agent files | ✅ Untouched | Explicit Will constraint: no agent edits. |
-| Push discipline | ✅ Will-coordinated | Commit locally only if approved; push only on Will's explicit call. |
-| GitHub source-of-truth rule | ✅ Active | Avoid broad staging/reset. Pathspec only. |
-| Dashboard health | 🟡 Check later | Dashboard output usable but process exited code 1; likely alert/red-zone behavior. |
+**Standing constraint:** **do not edit `AGENTS/*`** unless Will explicitly approves. Agent files are read-only inputs for Prome unless that constraint changes.
 
 ---
 
-## Prome Boot Surface Trust
+## Live Surfaces / Ownership
 
-| Surface | Current trust | Note |
+| Surface | Role | Current note |
 |---|---|---|
-| `PROME/SCRATCH.md` | ✅ Current Jun 14 | Phase 3 rewritten. |
-| `PROME/TODAY.md` | ✅ Current Jun 14/15 | Phase 3 rewritten with near gates. |
-| `PROME/STATUS.md` | ✅ Current Jun 14 | This file. |
-| `PROME/ACTIVE_DECISIONS.md` | 🟠 Next in Phase 3 | Needs CPI/refunding/HYG cleanup; verification-required remains. |
-| `PROME/FLEET_SCAN.md` | 🔴 Stale Jun 7 | Rewrite from Phase 1 map. |
-| `HEARTBEAT.md` | 🔴 Stale Jun 7 | Rewrite last because it is the regime surface. |
-| Phase notes | ✅ Current | `PROME/BOOT_SURFACE_REFRESH_2026-06-14_PHASE0.md`, `PHASE1.md`, `PHASE2_EDIT_MAP.md`. |
-| `memory/2026-06-14.md` | ✅ Current | Compaction-safe memory checkpoint. |
-| `PROME/PATHSPEC_MIGRATION_STATUS.md` | 🟡 Unchanged | Owner edits still pending; bundle with separate-clones cutover. |
+| `HEARTBEAT.md` | Regime, dashboard, thresholds, near gates | Current Jun14 surface-de-risking / tail-stickiness frame. |
+| `PROME/TODAY.md` | Operator card / immediate lane | Current Jun14/15 near-term work card. |
+| `PROME/ACTIVE_DECISIONS.md` | Safety index for trade/expiry rails | Verification-required until broker/Will reconciliation. |
+| `PROME/SCRATCH.md` | Working notes / latest session entry | Current Jun14 closeout/reboot entry point. |
+| `PROME/FLEET_SCAN.md` | Conditional fleet map | Read on demand; not mandatory boot context. |
+| `PROME/HANDOFF.md` | Live continuity surface | Single live handoff; archive holds older Q2 narrative. |
+| `PROME/BOOT.md` / `PROME/CLOSEOUT.md` | Start/end procedures | Slimmed; closeout now manual owner-doc write-back; lean tool-output protocol active. |
+| `MEMORY.md` | Durable kernels | Pruned Jun14; original archived in `memory/archive/`. |
 
 ---
 
-## Agent / Domain State for Prome
+## Agent / Domain Map for Prome
 
-| Domain | Freshness | Current state for Prome |
+**Correction:** prior STATUS overstated staleness. Filesystem check on Jun14 showed most core agent `STATUS.md` files refreshed Jun14; BRENT/SAM were later Jun14 refreshes. Treat this table as a routing/freshness index, not domain truth; read the agent status before making decisions.
+
+| Domain | File freshness | Current Prome read |
 |---|---|---|
-| **LIQUID / Funding-duration-credit** | ✅ Jun 13 | TEN closed winner; HYG $75P written off / let expire 6/19; HY OAS 278 tight; duration oscillation, not regime; FOMC/TIC next. |
-| **VIOLET / Vol** | ✅ Jun 14 | VIX 17.68 complacency; VIX9D/VIX 0.976; M1:M2 +9.41%; SKEW 142.6 held; Bin-B credit block still governs. |
-| **BRENT / Energy** | ✅ Jun 13 | Brent sub-$90 despite severe physical/chokepoint stress; Path A diplomacy and Path B demand-destruction/curve flattening both advancing. |
-| **HAWK / Geopolitics** | ✅ Jun 13 | C/Grind 42%, B-Deal-Reopen 32%, D-Reescalation 26%; formal Hormuz closure fired but Brent fell same session. HAW-11 window through Jun 22. |
-| **SAM / Japan** | 🟠 Jun 14 partial | BOJ Jun 16 live; MOF/intervention probability re-derived ~72% → ~30%; FXY Jun18 $58C hold already decided by Will; some CFTC/carry details pending. |
-| **CARL / Consumer** | ✅ Jun 14 | LEN guide cut + consumer-credit stress intact; UMich expectations relief lowered CRL-08 confidence, no score move. SAVE Jul 1 remains structural drag. |
-| **LABOR** | ✅ Jun 14 | NFP +172k and +93k revisions strengthened hard data; claims drift to 229k, AI cuts record; labor cliff not firing. |
-| **RED / Adversarial** | ✅ Jun 13 | Net bear 57, confidence 70; managed decline and stagflation co-modal; near-term tape bull-side into catalysts. |
-| **BROCK / Private credit** | 🟠 Jun 8 but load-bearing | PC gate cascade / BDC cuts / 6.0% PC default hot; macro HY still refuses. Keep 6/18 rails verification-required. |
-| **REGINALD / Banks** | 🟠 Jun 8 | Broad cohort bank fade retired; WAL bear now idiosyncratic/Q2-print gated; bank tape green. |
-| **BOND / Duration-auctions** | 🟠 Jun 9 partially superseded | Pre-auction read superseded by LIQUID Jun 13 integration: 10Y strong, 30Y soft-but-cleared; duration oscillation, not regime. |
-| **HENRY / Market structure** | 🔴 Stale/dark post-CPI | Needed for GEX-suppression / dealer flip level; do not lean on Jun 9 header for current mechanics. |
-| **NEXUS / Synthesis** | 🔴 Stale Jun 8 | T-08 correlated-fragility useful as awareness, not trade rail; needs post-6/12 refresh. |
-| **WALTER / Routing-news** | 🟠 Jun 10 | Registry refresh active, but Iran anchor stale vs HAWK/BRENT Jun 13. Use HAWK/BRENT for current Iran-energy truth until refreshed. |
-| **OTTO / Auto** | 🟠 Infra refreshed, domain stale | Structural auto/fraud vectors remain important, but not a primary boot-surface driver until refreshed. |
+| **LIQUID / Funding-duration-credit** | ✅ Jun13 | TEN closed winner; HYG Jun $75P written off / let expire; HY OAS still tight; duration oscillation, not regime. FOMC/TIC are next macro gates. |
+| **VIOLET / Vol** | ✅ Jun14 | Complacency tape with bid tail: VIX crushed, SKEW held, vol entry still blocked by credit Bin-B / HY non-confirmation. |
+| **BRENT / Energy** | ✅ Jun14 later | Current owner of physical/price divergence. Brent sub-$90 despite severe physical/chokepoint stress; Monday double-trigger watch live. |
+| **HAWK / Geopolitics** | ✅ Jun14 | Gulf/Iran risk updated through Jun13 state; formal Hormuz closure fired but Brent fell, reinforcing decoupling/track-based read. |
+| **SAM / Japan** | ✅ Jun14 later | BOJ Jun16 / FXY near-expiry lane live; v1.5.1 annotated with Brent sub-$90, Ueda absence, CFTC peak context. Read current file before acting. |
+| **CARL / Consumer** | ✅ Jun14 | Consumer-credit/housing stress intact; LEN/SAVE channels remain structural, but hard labor did not confirm cliff. |
+| **LABOR** | ✅ Jun14 | NFP/revisions strengthened hard data; claims drift not cliff. Use shadow-adjustment framework before treating claims as clean truth. |
+| **RED / Adversarial** | ✅ Jun14 | Bear case moderated by tape; managed decline / stagflation remain co-modal. Use for challenge framing, not current tape marks. |
+| **BROCK / Private credit** | ✅ Jun14 | Private-credit/BDC/gate substance hot; broad cascade still needs HY/VIX/bank transmission confirmation. |
+| **REGINALD / Banks** | ✅ Jun14 | Broad bank fade retired; WAL/OZK are idiosyncratic mechanics with Q2-print / loss-recognition gates. |
+| **BOND / Auctions-duration** | ✅ Jun14 | Auction/duration context refreshed; integrate with LIQUID for current Treasury/funding read. |
+| **HENRY / Market structure** | ✅ Jun14 file refresh, decision freshness still verify | No longer assume “dark” from old map, but confirm whether post-CPI/FOMC GEX/dealer mechanics are actually updated before leaning on it. |
+| **NEXUS / Synthesis** | ✅ Jun14 file refresh, decision freshness still verify | No longer assume stale solely from old map; read before using cross-agent synthesis. T-08 remains awareness unless refreshed into trade rail. |
+| **WALTER / Routing-news** | ✅ Jun14 file refresh, anchor freshness verify | News/routing registry refreshed, but Iran anchor may still lag HAWK/BRENT; use HAWK/BRENT for current Iran-energy truth unless WALTER anchor is updated. |
+| **OTTO / Auto** | ✅ Jun14 | Auto/fraud vectors refreshed enough for routing; not a primary boot-surface driver unless Will pivots to auto/consumer. |
+| **MARCO / Migration-labor-supply** | ✅ Jun14 | Labor-supply/ag-data blind-spot owner; read when labor/immigration supply channel matters. |
+| **ZHAO / China-capital flows** | 🟡 older root status | Use for structural China/UST/Gulf-flow framing only; verify current data if decision-relevant. |
+| **SHADE / PE-insurance** | 🟡 older root status | Important mechanism owner for insurer funding/captive stress; refresh before decision use. |
 
 ---
 
 ## Current Work Queue
 
-| Action | Pri | Status |
+| Lane | Priority | Status / owner note |
 |---|---:|---|
-| Phase 0 baseline | ✅ | Saved to `PROME/BOOT_SURFACE_REFRESH_2026-06-14_PHASE0.md`. |
-| Phase 1 bounded agent inspection | ✅ | Saved to `PROME/BOOT_SURFACE_REFRESH_2026-06-14_PHASE1.md`. |
-| Phase 2 edit map | ✅ | Saved to `PROME/BOOT_SURFACE_REFRESH_2026-06-14_PHASE2_EDIT_MAP.md`. |
-| Phase 3: rewrite `TODAY` + `SCRATCH` | ✅ | Done. |
-| Phase 3: rewrite `STATUS` + `ACTIVE_DECISIONS` | 🔴 | STATUS done; ACTIVE next. |
-| Phase 3: rewrite `FLEET_SCAN` | 🟠 | Pending. |
-| Phase 3: rewrite `HEARTBEAT` | 🟠 | Pending last. |
-| Verify stale language / diff | 🟠 | Pending after writes. |
-| Position-state reconciliation | 🟠 | Deferred; separate future pass unless Will pivots. |
-| HENRY/NEXUS/WALTER refresh | 🟠 | After boot surfaces; do not mix into Phase 3. |
-| Separate-clones migration | 🟠 | Post-Jun16/FOMC calm-window decision packet; M3 slate still SAM/HENRY/REGINALD/OZK/CARL. |
+| OpenClaw stable update | 🟠 available | Installed `2026.5.6`; npm latest observed `2026.6.6`; beta `2026.6.8-beta.1`. Recommendation: stable update when Will wants maintenance. |
+| TODAY/HEARTBEAT dedupe | 🟠 optional | Next context-weight target if continuing surface cleanup. Keep HEARTBEAT as regime/levels owner; TODAY as operator card. |
+| Position-state reconciliation | 🟠 pending | Needed before Jun18/19 expiry cleanup; broker/Will truth required. Do not infer positions from old rails. |
+| HENRY/NEXUS/WALTER content-freshness check | 🟠 conditional | Files refreshed Jun14; verify actual content freshness before spawning/asking. Needed only if decision-relevant pre-FOMC. |
+| Separate-clones migration | 🟠 deferred | Post-Jun16/FOMC calm-window decision packet; do not do halfway. |
+| Execution-rails design | 🔵 design debt | HYG Jun→Dec failure remains canonical: thesis needs pre-registered ladders and triggers. |
 
 ---
 
@@ -88,7 +76,7 @@
 - **No external/public messages without approval.**
 - **Old trade rails are verification-required** until broker/Will reconciliation.
 - **WALTER routes signals/news; Prome maintains state, tasking, rails, and Will-facing synthesis.**
-- **Pathspec commits only;** never `git add .`, `git add -A`, or `git reset HEAD`.
+- **Pathspec commits only;** never `git add .`, `git add -A`, broad reset, force-push, or stash/reset unknown work.
 - **Push is Will-coordinated** — commit locally only if approved, push only on Will's explicit call.
 - Read current files before editing; verify after edits.
 
@@ -96,4 +84,7 @@
 
 ## Next Best Action
 
-Finish Phase 3 in order: rewrite `PROME/ACTIVE_DECISIONS.md`, then `PROME/FLEET_SCAN.md`, then `HEARTBEAT.md` last. After that, run diff/stat + stale-language grep and ask Will whether to keep/archive/commit phase notes.
+Next best lane depends on Will's priority:
+1. OpenClaw stable update/maintenance (`2026.6.6`) if system upkeep is the goal.
+2. Position-state reconciliation if trade/expiry hygiene is the goal.
+3. TODAY/HEARTBEAT dedupe if continuing context-weight cleanup.

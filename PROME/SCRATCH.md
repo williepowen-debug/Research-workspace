@@ -1,59 +1,46 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-14 PM ET (OpenClaw Prome — boot-surface refresh Phase 3 underway)
+**Last Updated:** 2026-06-15 00:05 ET (OpenClaw Prome — context-weight cleanup closeout)
 
 ## What Just Happened
 
-Will returned after a long gap and asked Prome to pull the updated repo from GitHub. The repo fast-forwarded cleanly to `c87c00ac` with a large Jun 8–14 update. No conflicts, no stash/reset needed.
+Will and Prome finished the Prome context-weight cleanup and pushed it cleanly.
 
-Will then approved a staged **Prome boot-surface refresh**, with one explicit constraint: **do not edit agents**.
+Completed and pushed:
 
-Completed so far:
+1. **Context surface prune** — `44271ffe PROME: prune context surfaces`.
+   - Slimmed `PROME/BOOT.md` and clarified safe boot/push rules.
+   - Compressed root `MEMORY.md` from ~12.0k chars to ~7.8k durable kernels.
+   - Archived original memory at `memory/archive/MEMORY_ROOT_PRE_PRUNE_2026-06-14.md`.
+   - Added `PROME/MEMORY_PRUNE_PLAN_2026-06-14.md` and refreshed the context-weight report.
+   - Corrected `PROME/STATUS.md` agent map: most core agent statuses refreshed Jun14; do not assume HENRY/NEXUS/WALTER stale solely from old map.
+2. **Lean tool-output protocol** — `0147347a PROME: add lean tool output protocol`.
+   - Added boot rule: compact diagnostics first, full reads/diffs when correctness requires.
+   - Added closeout transcript-hygiene reminder.
 
-1. **Phase 0 baseline** — repo clean/synced at `c87c00ac`; dashboard anchor pulled; boot surfaces confirmed stale vs current repo. Checkpoint: `PROME/BOOT_SURFACE_REFRESH_2026-06-14_PHASE0.md`.
-2. **Phase 1 bounded agent inspection** — read-only top-section inspection across LIQUID/VIOLET/BRENT/HAWK/WALTER/SAM/CARL/LABOR/RED/BROCK/REGINALD/BOND/HENRY/NEXUS/OTTO plus Prome-routed outboxes. No agent edits. Checkpoint: `PROME/BOOT_SURFACE_REFRESH_2026-06-14_PHASE1.md`.
-3. **Phase 2 edit map** — file-by-file plan for the boot-surface rewrites. Checkpoint: `PROME/BOOT_SURFACE_REFRESH_2026-06-14_PHASE2_EDIT_MAP.md`.
-4. **Daily memory checkpoint** — `memory/2026-06-14.md` created to survive compaction.
-5. **Phase 3 started** — `PROME/TODAY.md` rewritten first.
+No `AGENTS/*` files were edited. No trade work or position reconciliation was done.
+
+## Current Git State
+
+Clean and synced to origin after the context-weight cleanup commits. Push discipline remains Will-coordinated and pathspec-only.
 
 ## Current Working Regime
 
-**Surface tape de-risked; tail/private/physical stress stayed sticky.** Broad cascade is not confirmed: HY OAS remains tight at **278bps [FRED 6/11]**, VIX faded to **17.68**, banks rallied, and Brent collapsed sub-$90. But the structural side did not heal: CCC **956**, SKEW held 142+, PC/BDC stress remains hot, consumer-credit stress persists, Japan/BOJ risk is live, and physical energy/chokepoint stress is severe despite the price collapse.
+Use `HEARTBEAT.md`, `PROME/TODAY.md`, and `PROME/action-cards/WEEK_2026-06-15.md` as current near-gate surfaces. Working model remains: **surface tape de-risked; tail/private/physical stress stayed sticky.** Broad cascade not confirmed; HY OAS remains the broad-cascade line.
 
-Phase 0 dashboard anchor: HY OAS 278 · CCC 956 · Brent $87.33 · VIX 17.68 · USD/JPY 160.18 · Gas 4.15 · Claims 229k / shadow 284k · 10Y 4.45 · SOFR-IORB -0.05 · KRE 73.41 · WAL 83.67 · OZK 52.10 · APO 133.88 · ARES 134.90 · BIZD 12.71 · FXY 57.26 · TLT 85.77.
+## Next Reboot Entry Point
 
-## Next Session Entry Point
-
-Continue Phase 3 boot-surface rewrites in this order:
-
-1. `PROME/STATUS.md`
-2. `PROME/ACTIVE_DECISIONS.md`
-3. `PROME/FLEET_SCAN.md`
-4. `HEARTBEAT.md` last
-5. Verify with `git diff --stat`, targeted stale-language grep, and a final status check.
-
-`PROME/TODAY.md` is already refreshed for Jun 14/15.
+1. Follow `PROME/BOOT.md`; lean tool-output protocol is now active.
+2. Verify repo clean/synced before pull.
+3. Choose next lane:
+   - **OpenClaw update check/maintenance:** installed `2026.5.6`; npm latest observed `2026.6.6`; beta `2026.6.8-beta.1`. Recommendation was stable update, not beta, when Will wants maintenance.
+   - **TODAY vs HEARTBEAT dedupe:** next context-weight target if continuing Prome surface cleanup.
+   - **Position-state reconciliation** before Jun18/19 expiry cleanup if Will wants trade hygiene.
+   - **HENRY/NEXUS/WALTER content freshness check** only if decision-relevant before FOMC/expiry; files refreshed Jun14 but content still needs verification before use.
+   - Separate-clones migration remains deferred; do not do halfway.
 
 ## Cautions
 
-- **No agent edits** unless Will explicitly changes the constraint.
-- HENRY/NEXUS/WALTER are stale/dark in important ways: HENRY for GEX/flip level, NEXUS for post-6/12 synthesis, WALTER Iran anchor vs HAWK/BRENT Jun 13.
-- Broker/position truth remains unreconciled. Old rails are verification-required only.
-- LIQUID says HYG $75P is written off / let expire 6/19. Do not surface HYG as actionable.
-- WALTER Iran anchor is stale relative to HAWK/BRENT; use HAWK/BRENT for current energy/geopolitical read until WALTER refreshes.
-- Dashboard data was usable but script exited code 1; check automation health later.
-
-## Open Questions for Will
-
-1. Keep Phase0/1/2 checkpoint files as audit trail, archive them after refresh, or delete after folding conclusions into surfaces?
-2. Create a durable `PROME/action-cards/WEEK_2026-06-15.md`, or let `TODAY.md` carry the near-gate calendar for now?
-3. After boot surfaces, should Prome route/ask for WALTER Iran anchor refresh?
-4. After boot surfaces, should HENRY/NEXUS be refreshed ahead of FOMC or only if Will asks?
-5. Position reconciliation remains a separate phase unless Will pivots.
-
-## Guardrails
-
-- No trade execution. No trade recommendation unless explicitly requested.
-- No external/public messages without approval.
-- Push is Will-coordinated — commit locally if approved, push only on Will's explicit call.
-- Pathspec commits only; never `git add .`, `git add -A`, or broad `git reset HEAD`.
-- GitHub/origin remains source of truth.
+- No agent edits unless Will explicitly approves.
+- Broker/position truth remains unreconciled; old rails verification-required.
+- HYG Jun $75P is dead/not actionable per LIQUID.
+- Push remains Will-coordinated; pathspec only; never `git add .`, `git add -A`, or `git reset HEAD`.
