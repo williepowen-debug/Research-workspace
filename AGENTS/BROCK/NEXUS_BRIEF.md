@@ -13,7 +13,7 @@
 - **The deal IS the vendor-financing thesis firing as a BULL catalyst** — Broadcom (chip vendor) anchors a $35B platform to deploy its own silicon; fees book now (LESSONS #11), GPU/neocloud credit risk accretes later (BRK-07/18). Most dangerous phase: quiet accretion under a risk-on tape.
 - **APO position-reassess FIRED** (>$130 ×5, 6/9–6/15, close $137.12). Will's call: **HOLD Dec $95P** (down ~90%, Dec expiry). Vehicle-mismatch (LESSONS #15) — the short belongs in wrapper/credit names or AI-collateral, not APO equity.
 - **Default CONTESTED, not accelerating** — Fitch 6.0% Apr record vs Moody's/BofA "easing" vs **CDLI 0.6% NA vs FSK ~5.5% cost.** Bifurcation confirmed; aggregate acceleration is not. Drove default vector 5→4.
-- **HY OAS ~271 [FRED 6/12], ~11bps to the 260-kill** — grinding tighter on risk-on, NOT broken. Decision-Tree STEP 1: risk-on compression ≠ thesis-dead.
+- **HY OAS ~271 [ref LIQUID, FRED 6/12], ~11bps to the 260-kill** — grinding tighter on risk-on, NOT broken. Decision-Tree STEP 1: risk-on compression ≠ thesis-dead.
 - **Gates contained** — no new gater since the 6/2–6/5 cluster; PG says gates "won't get tighter"; Tier-2 2nd-PE-gate un-fired (day ~12 of 30).
 - **Convergence 60/70 flat but RECOMPOSED** — stress migrated OUT of default-acceleration (5→4) INTO tape-substance divergence (3→4). "Still 60" ≠ "nothing moved."
 

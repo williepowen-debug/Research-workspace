@@ -90,6 +90,7 @@
 - **PREDICTIONS: 15 OPEN + 2 PARTIAL** (BRK-06, BRK-27) post-BRK-28-resolve. **BRK-29 (PE-wrapper 2nd-gate) still a STUB — formalize at ~7/3 window check.**
 - **STATUS 198 lines** (under 250 target post Phase-3 split).
 - ORC 6/15 caught my footer OPEN-count error (16→15) — corrected. Verify-counts-before-propagating.
+- **ORC post-push verification round (6/15):** swept pushed blobs by recomputation. Migration PASSED (matrix=60, NF=8, no dangling refs). One real fix: EXIT-RULES/thesis-kill subsection had STALE stragglers (14/15bps cushion + "6/5 cracked" narrative) — surface refreshed, derivative section missed (the [[finding_verification_correction_downstream_propagation]] pattern). FIXED → 11bps + re-diverged narrative. Also aligned CATALYSTS date_class to BRENT-canonical confirmed/modeled; relabeled HY OAS provenance [FRED]→[ref LIQUID] (owner's value, primary FRED unreachable).
 
 ## MAIL STATE
 - **Inbox: 0 unprocessed.** **Outbox: 16 undelivered** (legacy Apr-Jun files; messaging degraded per `[[project_messaging_overhaul]]` — prefer Will-direct + `NEXUS_BRIEF.md` for cross-agent, not new outbox files).

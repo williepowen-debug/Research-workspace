@@ -1,5 +1,5 @@
 # BROCK STATUS — Private Credit / BDC / Alt Assets
-**Updated:** 2026-06-15 PM ET (Mon — Opus 4.8 catch-up + ORC cross-review + Phase-3 structure split) | **Status:** 🔴🔴 STAGE 2→3, **tape RE-DIVERGED.** Alt-mgr equity ripped (APO +7%, BX +8%, ARES +9% off the 6/9 Apollo-led $35B Broadcom AI deal) while BDC wrappers (OWL/FSK/OBDC) stayed pinned — **originator-vs-wrapper bifurcation, not substance reversal.** APO exit-rule FIRED ($137 >$130 ×5 sessions). HY OAS 271 [FRED 6/12], 11bps cushion. Default picture now CONTESTED (CDLI 0.6% NA vs FSK ~5.5% cost). Convergence 60/70 (recomposed, flat).
+**Updated:** 2026-06-15 PM ET (Mon — Opus 4.8 catch-up + ORC cross-review + Phase-3 structure split) | **Status:** 🔴🔴 STAGE 2→3, **tape RE-DIVERGED.** Alt-mgr equity ripped (APO +7%, BX +8%, ARES +9% off the 6/9 Apollo-led $35B Broadcom AI deal) while BDC wrappers (OWL/FSK/OBDC) stayed pinned — **originator-vs-wrapper bifurcation, not substance reversal.** APO exit-rule FIRED ($137 >$130 ×5 sessions). HY OAS 271 [ref LIQUID 6/12], 11bps cushion. Default picture now CONTESTED (CDLI 0.6% NA vs FSK ~5.5% cost). Convergence 60/70 (recomposed, flat).
 
 **Previous:** 2026-06-08 PM (preserved in git).
 **Forward-state (migrated 6/15):** dated catalysts → `docket/CATALYSTS.tsv`; FOLLOW-UP tiers + watch order + SESSION LOG + CHANGES-SINCE → `SCRATCH.md`; cross-agent view → `NEXUS_BRIEF.md`.
@@ -22,7 +22,7 @@
 | ARCC | $18.79 | **~$18.8** | flat | mild |
 | BIZD | $12.49 | **$12.59** | +0.8% | 🔴 still pinned at $12.50 trigger |
 | HYG | $79.43 | **$80.07** | +0.8% | Credit-ETF firmer |
-| **HY OAS** | 274 | **271** 🟢 [FRED 6/12] | -3bp | **Cushion to 260 kill: 11bps** — compressing on risk-on, NOT substance reversal |
+| **HY OAS** | 274 | **271** 🟢 [ref LIQUID, FRED 6/12] | -3bp | **Cushion to 260 kill: 11bps** — LIQUID owns; compressing on risk-on, NOT substance reversal |
 | CCC OAS | 946 | **948** 🟡 [6/12] | +2bp | flat [ref LIQUID] |
 | 10Y | 4.47% | **4.45%** 🟡 [6/11] | -2bp | flat [ref LIQUID] |
 | **VIX** | 18.80 | **16.12** 🟢 | **-2.7** | Vol drained — 6/5 spike fully unwound [ref HENRY/REGINALD] |
@@ -126,11 +126,11 @@ Full dated docket + resolved Q1 10-Q verdicts → `docket/CATALYSTS.tsv` (FASTOW
 
 ### 1. Thesis Kill (exit 100% PC overlay) — LITERAL THRESHOLDS
 - Fed emergency lending facility for PC vehicles — **Not fired**
-- HY OAS reverses <260bps for 10+ sessions — **Cushion 14bps (was 15 @6/4, 26 @5/21)**. Compression STALLED 6/4→6/5 (only -1bp despite equity sell-off). Linear extrapolation invalidated — HY decoupled from equity contagion this week.
-- Major PC fund reports default rate declining 2 consecutive quarters — **Not fired — record 6% April default print is opposite direction**
+- HY OAS reverses <260bps for 10+ sessions — **Cushion 11bps (was 14 @6/5, 15 @6/4, 26 @5/21)** [ref LIQUID, FRED 6/12 — owner's value; primary FRED unreachable this session, web cross-check 275-276 early-June consistent with compression to 271]. Compression RESUMED on risk-on (VIX 16, alt-mgr highs), NOT substance reversal — Decision Tree STEP 1 says this does not validate "thesis dead."
+- Major PC fund reports default rate declining 2 consecutive quarters — **Not fired** (no 2-consec-Q decline; default picture now CONTESTED, not monotonic — Fitch 6.0% record vs Moody's/BofA easing)
 
 ### THESIS-KILL APPROACH DECISION TREE (NEW 6/4)
-*Cushion 15bps. Trigger is no longer hypothetical. Codifying decision before forced.*
+*Cushion 11bps [ref LIQUID, FRED 6/12]. Trigger is no longer hypothetical. Codifying decision before forced.*
 
 **STEP 1 — Confirm compression source when HY OAS hits 260:**
 | Source | Read | Action |
@@ -172,8 +172,8 @@ Full dated docket + resolved Q1 10-Q verdicts → `docket/CATALYSTS.tsv` (FASTOW
 - Q2 10-Q resolution event — **late July / August 2026**
 
 ### Trap-clinching vs Soft-kill (HENRY framing-precision overlay)
-- **Soft kill:** HY OAS <260 sustained AND BDC marks recover AND non-accruals reverse. Currently NOT firing — substance is *worse* (record 6% default, Partners Group asset-class contagion).
-- **Trap clinching (current):** HY OAS held flat 275→274 in 4d AND equity channel finally cracked Fri 6/5 AND Partners Group PE-wrapper gate AND 3 public-BDC div cuts confirmed AND record default print. **Stage 3 narrative-phase IS firing — via PE-asset-class contagion route, NOT via HY OAS break. The dynamic has changed shape: HY may stay anchored while wrapper-stress spillover does the recognition work.**
+- **Soft kill:** HY OAS <260 sustained AND BDC marks recover AND non-accruals reverse. Currently NOT firing — substance holds (gate cluster intact, PIK-masking, tail-default stress); the only softening is the *contested* aggregate-default read, not a marks recovery.
+- **Trap clinching (current 6/15):** HY OAS anchored ~271 (never broke 260) WHILE alt-mgr originators ran to local highs on the $35B Broadcom AI-origination deal AND wrappers stayed pinned AND gate-cluster substance intact. The divergence re-opened as an **originator-vs-wrapper bifurcation**; the 6/5 "equity cracked" read was a 1-day head-fake (LESSONS #12). **HY may stay anchored while wrapper-stress does the recognition work — recognition stalled this week, not advanced.**
 
 ---
 
