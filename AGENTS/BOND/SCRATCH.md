@@ -29,6 +29,7 @@
 - 🟡 Credit bifurcation — CCC 948, energy HY stale (pull LIQUID).
 - 🟡 VX-BND-15 anchoring — 2bp under band; candidate for →1 if breakevens keep easing.
 - ⚪ Treasury buyback long-end accept-cap — YCC-lite bright-line; not current policy.
+- 📋 Audit backlog (from archived 5/11 ARCHITECTURE_AUDIT, core ~85% done): residuals = `playbooks/` dir not built (functionally covered by `proposals/MATRIX_V2_DRAFT` + sentiment lens in MEMORY); BOND-specific vocab groups (AUCTIONS/DEALER_CAPACITY — verify in `AGENTS/VOCABULARIES.tsv`); dashboard HY-OAS/10Y labeling as LIQUID/BOND; spawn availability = Tier-1 promotion (Packet 8, in progress).
 
 ## POSITION DECISIONS PENDING
 - **TLT puts:** HOLD, no add. Conditional-add re-arm on a weak 6/16 20Y or sustained 5-session threshold break.
