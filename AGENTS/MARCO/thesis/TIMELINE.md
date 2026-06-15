@@ -23,6 +23,10 @@ Dated event spine. Resolved events (mark ✅ with outcome) + forward branch poin
 | 2026-05-31 | **Thesis v2.1 → v2.2** (session 9 TOURISM refresh) | 2 | Canadian travel re-classified structural-not-softened; air/winter vs base-effect-headline split (mirror of v2.1 produce split) |
 | 2026-06-01 | ICE/CBP reconciliation MISSED Jun 1 deadline; parliamentarian (MacDonough) struck core enforcement/screening provisions under Byrd rule | 1 | "Enforcement lock" DOWNGRADED structural→contested — funding flow now uncertain, not locked. Stock loss (2.2M) irreversible; flow accelerator weakened |
 | 2026-06-02 | Banxico Apr remittances $4.98B +3.7% YoY; count −1.7% (narrowing from −3.6%), avg premium compressing | 4 | Pull-forward paradox FADING/normalizing — no Q2-Q3 air-pocket; count still negative = SDL-01 senders-decline intact |
+| 2026-06-10 | **ICE/CBP reconciliation SIGNED INTO LAW** (~$70B; Senate 52-47 / House 214-212) | 1 | Funding FLOW RE-LOCKED through Jan 2029 — supersedes the 6/1 "contested" downgrade; Channel-1 conviction UP (thesis v2.5). Funds ICE + parts of CBP. Enacted sub-split pending signed-text reconciliation ($38B/$26B = pre-trim May-4 proposal, NOT enacted) |
+| 2026-06-10 | CPI May: fresh F&V +6.1% YoY / +0.2% MoM; gasoline +7.0% MoM (energy 60%+ of print) | 1 | ES-MARCO-08 fork INDETERMINATE — pump ROSE so "F&V-up-while-pump-down" couldn't test; MAR-14 HOLD; fork deferred to June CPI ~Jul 15 (Brent now collapsing) |
+| 2026-06-11 | StatCan May: 2-yr stack air −28.4% / auto −28.7% (~−28.5%); YoY +9.5% (base-effect) | 2 | Bifurcation collapsed (both modes ~−28.5%); TOUR-01 confirmed on level (<−25%); deterioration STOPPED (Apr −30.0%→May −28.7%); air YoY narrowed 3mo = demand may be thawing vs deleting supply |
+| 2026-06-15 | Construction-raid channel CONFIRMED ACTIVE (Tallahassee 100+ May 29, San Antonio) — "ICE off worksites" pivot was AG-ONLY | 1 | MAR-26 re-upgraded 72→74 (mechanism-only); housing NOT threshold confirmation (Apr Census: South SF starts −2.7% = smallest regional decline, geography runs AGAINST South-concentrated raid signal); Q3 real test |
 
 ---
 
@@ -31,8 +35,7 @@ Dated event spine. Resolved events (mark ✅ with outcome) + forward branch poin
 | Date / Window | Event | Channel | Branch logic |
 |------|-------|---------|--------------|
 | 2026-06-11 → 07-19 | **FIFA World Cup** (US co-host, 11 US host cities) | 2 | The inbound-reversal catalyst test. SHOULD pull NTTO arrivals back toward/above 2019; Q2 not yet encouraging. Fails to reverse the first-20-yr inbound decline → structural read hardens (ES-MARCO-09) |
-| ~2026-06-30 | ICE/CBP reconciliation reworked floor vote (TBD post-recess) | 1 | Missed Jun 1; parliamentarian carved core. Reworked passage = flow restored (delayed/diminished); further slip = funding brake stays partially on |
-| 2026-06-13 | Air Transat YUL-FLL final → complete US exit | 2 | Executes summer capacity deletion (TOUR-03/05); feeds winter FL-$ thesis |
+| 2026-06-30 | Air Transat YUL-FLL final → complete US exit (date corrected from Jun 13) | 2 | Executes summer capacity deletion (TOUR-03/05); feeds winter FL-$ thesis |
 | ~2026-06-27 | WestJet winter 2026-27 schedule | 2 | TOUR-05's last open input; ≥15% FL-bound seat cut = confirm |
 | ~Jun 2026 | Banxico Q1 state-of-origin data | 4 | Tax-pull-forward distortion check on SDL-01 geography |
 | H2 2026 | CA produce prices +15% test (Pred MAR-14) | 1 | Channel-1 follow-through; spine confirmation |

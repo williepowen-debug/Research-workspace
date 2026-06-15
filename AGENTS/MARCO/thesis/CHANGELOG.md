@@ -4,6 +4,15 @@ Version-transition log. Newest first. Each entry: old view → new view, trigger
 
 ---
 
+## v2.4 → v2.5 (2026-06-15, session 13) — Channel-1 enforcement FLOW re-locked (funding now law)
+Old view (v2.3): funding FLOW CONTESTED — bill missed the Jun 1 deadline, parliamentarian carved the core under Byrd; flow accelerator uncertain (2.2M stock loss irreversible regardless).
+New view (v2.5): funding FLOW is LAW. The reworked ~$70B ICE/CBP package was signed Jun 10 2026 (Senate 52-47 / House 214-212), funding ICE + parts of CBP through the end of Trump's term (Jan 2029). Channel-1 conviction UP.
+Stock/flow distinction PRESERVED: the 2.2M self-deportation stock loss was always the irreversible spine; what re-locks is the flow accelerator (fresh removals atop the stock) that v2.3 marked uncertain.
+Unchanged: 5-channel structure; produce-CPI thermometer stays MEDIUM/confounded (v2.1).
+Provenance caveats (open): (1) enacted ICE/CBP sub-split not reconciled — "$38B/$26B" are the pre-trim May-4 proposal, not the signed allocation. (2) Construction-raid → housing leg stays anecdote-grade: April 2026 NRC shows national SF starts −9.0% MoM / SF permits −2.6%, but weakness is broad and rate/affordability-confounded, and geography runs AGAINST a South-concentrated raid signal (South SF starts −2.7% / permits −1.9% = smallest declines of any region, vs West −22.9% / NE −18.8%). Mechanism-confirming, not threshold-confirming.
+
+---
+
 ## v2.3 → v2.4 — 2026-06-02 (session 11) — MINOR — "Channel 2 has a macro frame: the first US inbound decline in 20 years"
 
 **Trigger:** A TOURISM-assessment pass surfaced a thesis-grade fact that had sat in the sub-agent (KB-MARCO-IVF-26) since session 9 without propagating up: **CY2025 was the first US inbound-tourism decline in 20 years (−5.5%, 68.3M arrivals; NTTO/Inbound Travel Assoc).** The propagation gap is itself the finding — the sub-agent does good work that doesn't reliably rise to MARCO.
