@@ -6,6 +6,21 @@
 
 ---
 
+## 2026-06-15 ~13:35 ET — Pre-new-session handoff after MARCO/HENRY pull
+
+**Status:** Local Prome repo is clean and fast-forward synced with origin at `6ed25b4f`. Safe to start a new Prome session from the current local tree. No active OpenClaw child sessions visible; external Claude Code agents may still be working independently.
+
+**What just happened:**
+- Pulled HENRY + MARCO closeouts from GitHub. Latest commits include MARCO `326f7b83` / `6ed25b4f` and HENRY `a1d569f1` / `32f52deb` / `eddb026a`.
+- MARCO post-push verification: core thesis work is good, but surface hygiene failed. Needs small cleanup commit only: `THESIS.md` contradiction (“funding stronger” then “weaker”), `NEXUS_BRIEF.md` still says v2.4 / MAR-26 78, `SCRATCH.md` stale closeout rows/push-state/78 refs, `STATUS.md` header still session 13.
+- HENRY verification: structural work good. `refresh_status.py` retired, `boot.py --selftest` passes, eval suite exists but baseline not run, boot/closeout hardening proposal remains draft-only. Needs small `STATUS.md` cleanup: FRED 6/11/278/CCC956 stale refs, HEN-30 row, “zero cuts” paragraph, credit-drift wording.
+
+**Recommended new-session first move:** follow `PROME/BOOT.md`, but do a lean boot. Do not re-review everything. Immediate queue: (1) coordinate/verify MARCO + HENRY cleanup commits if they push; (2) refresh Prome surfaces (`HEARTBEAT.md`, `PROME/TODAY.md`) only after integrating the cleaned agent surfaces or if decision-relevant; (3) keep position/broker reconciliation separate.
+
+**Guardrails:** no `AGENTS/*` edits by Prome unless Will explicitly approves; pathspec-only; no trade execution; prices/levels need live refresh before citing; if agents are still working, fetch before judging origin state.
+
+---
+
 ## 2026-06-15 ~00:05 ET — Context-weight cleanup closeout
 
 **Status:** Prome context surfaces are lighter and synced. Repo should boot clean from latest origin.
