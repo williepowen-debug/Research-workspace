@@ -26,11 +26,14 @@ Two independent reviewers (Orc + Prome) verified the session-13 push against pri
 - EXPECTED_SIGNALS.md — ES-08 → ~Jul 15, status WATCHING-May-indeterminate, full rewrite.
 - thesis/PREDICTIONS.tsv — MAR-26 note re-based to 74 (mechanism-only); MAR-18 → lean-CONFIRM, Jun-13→30.
 
-## ⚠️ PENDING — next steps (in order)
-- **LAYER 2 — ECHOED to Will/Orc, awaiting sign-off before commit:** thesis/CHANGELOG.md (new v2.4→v2.5 entry) + thesis/THESIS.md (version bump + funding-passage replacement + EXIT-note) + thesis/TIMELINE.md (Jun-13→30 fix, add 2026-06-10 signed-into-law row, log pruned catalysts). NOT yet edited — holding for confirmation.
-- **WORKBOOK VX.tsv / KB.tsv** — new rows for ICE-funding-law (SDL), construction-raid channel, StatCan-May-stack, May-CPI-F&V, WC-host-city-hotels. After Layer 2.
+## ✅ ALL LAYERS APPLIED & COMMITTED (session 14) — push deferred
+- **✅ LAYER 2 (signed off by Orc, committed 859492d9):** thesis/THESIS.md → v2.5 (funding passage CONTESTED→LAW, EXIT note, version bump, Air Transat Jun30, "stopped worsening" reframe propagated through conviction/evidence/RED); thesis/CHANGELOG.md (v2.4→v2.5 entry w/ both provenance caveats); thesis/TIMELINE.md (4 resolved rows added incl. 6/10 ICE-signed; floor-vote forward row retired; Air Transat→Jun30). Historical v2.2/v2.3 CHANGELOG entries left as snapshots.
+- **✅ WORKBOOK (committed this session):** KB.tsv +5 rows (WFD-ICE-01 funding-law, WFD-CON-01 construction-raids, IVF-28 StatCan-May-stack, PRD-01 May-CPI-indeterminate, IVF-29 WC-hotels); VX.tsv updated 2.01 (enforcement: funding-now-law), 2.03 (construction: raids-active/housing-not-threshold), 1.01 (Canadian: stopped-worsening/thawing).
+
+## ⚠️ STILL PENDING
 - **MAINTENANCE.md** punchlist (9 items from 6/8) still open.
-- Open verifications (DVQ) for write-back: enacted ICE/CBP sub-split (signed-text); fresh-F&V vs aggregate BLS line; Brent $91→$83 (BRENT-owned).
+- **Open verifications (DVQ)** carried in canonical text as caveats: (1) enacted ICE/CBP sub-split (signed-text — $38/$26 marked pre-trim everywhere); (2) fresh-F&V vs aggregate BLS line (both Apr+May print +6.1% — verify same series before June-CPI read leans on it); (3) Brent $91→$83 (BRENT-owned).
+- **Orc post-push verification queue** (Orc runs when push lands): (1) conviction change in THESIS+CHANGELOG not STATUS-only ✅; (2) all 5 stale CONTESTED refs gone + UNRESOLVED row RESOLVED ✅; (3) 2 phantom docket rows retired + Jul-15 added + matching TIMELINE ✅; (4) STATUS & PREDICTIONS agree MAR-26=74 ✅; (5) no $38/$26-as-enacted, no disputed regional housing in canonical ✅. Flag Orc when push lands.
 
 ## NEXT SESSION
 1. **Jun 16 (Tue) Census May housing starts** — South region = MAR-26 threshold confirm.
