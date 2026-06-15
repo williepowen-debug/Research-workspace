@@ -37,7 +37,7 @@
 - **Gate cluster — NO new gater since 6/5.** Partners Group stated evergreen gates "will not get tighter." **Tier-2 trigger "2nd PE-wrapper gate within 30d of PG (~7/4)" UN-FIRED at day ~12** — PG remains the single PE-wrapper; Cliffwater/Monroe are credit funds. BofA: redemptions stay >5% all year, peak Q2. [CONF CNBC/BofA] (KB-BRK-157)
 - **Default picture CONTESTED (not monotonic accel).** Fitch US-PC 6.0% April record (>50% PIK-driven) coexists with Fitch easing 5.4% Feb + Moody's "easing" + BofA forecast 4.5% 2026. **KEY DISPERSION: CDLI top-tier index NA 0.6% April vs FSK ~5.5% cost.** Bifurcation thesis confirmed; aggregate-acceleration claim is NOT. [CONF Fitch/Moody's/BofA/Cliffwater] (KB-BRK-156)
 - **Blue Owl raised $500M IG bonds AFTER gating** — debt to shore liquidity dressed as a capital-markets win. [CONF Benzinga 6/11] (KB-BRK-155)
-- **FLAG (needs-verif):** FSK div reset $0.64→$0.48 ($0.45 base +$0.03 supp) + NA 3.4% FV / 5.5% cost surfaced this sweep — **date ambiguous (may predate 6/8 / overlap FSK Q1 5/11) and NA conflicts with prior 8.1% figure. Do not bank — verify next session.**
+- **FSK div/NA — VERIFIED 6/15, no conflict.** Q1 (3/31) non-accruals **4.2% FV / 8.1% cost** [FSK 10-Q] — our 8.1% stands; the sweep's "3.4%/5.5%" were the Q4'25 *prior-period* figures (basis+period mismatch, not error). Div: base cut $0.64→$0.45 (Q1) → **$0.42 (Q2, declared 5/11)**; "$0.48" was Q1 total w/ $0.03 supp — all pre-dates 6/8, correctly not a new 6/15 cut. **Support package corrected $450M+→~$600M** ($150M pfd + $150M tender @$11 + $300M buyback + 4-qtr fee waiver). (KB-BRK-158)
 
 **Net:** substance side did NOT escalate this week (gates contained, default contested, no new public-BDC cut confirmed); tape side re-diverged on AI-origination. The thesis is intact but in its most dangerous phase — quiet risk accretion under a risk-on tape.
 
@@ -62,7 +62,7 @@ All Tier-1 Q1 10-Qs filed pre-5/21 (LESSONS #17 caught the "TBD pending" mislabe
 | OTF | 5/6 | **Strong Bear** | NAV -4.85%; $494M unreal; mgmt software-exit; NII<div; LTV 34→40 |
 | MFIC | 5/6 | **Public-BDC Div Cut** | $0.38→$0.31 (-18.4%) 5/5; NA $167M vs $48.5M YoY [REFRAMED 6/8 — missed in 5/21] |
 | OBDC | 5/6 | **Public-BDC Div Cut** | $0.37→$0.31 (-16.2%); NAV $14.81→$14.41 5th decline; NII miss [REFRAMED 6/8 — missed in 5/21] |
-| FSK | 5/11 | **Max Bear** | KKR $450M+; revolver -$648M |
+| FSK | 5/11 | **Max Bear** | KKR ~$600M support; revolver -$648M; NA 8.1% cost / 4.2% FV |
 | OCIC | 5/11 | **MIXED-Bear** | 21.9% req; 5% binding; $988M = 23% sat |
 | BCRED 10-Q | 5/14 | **Strong Bear NA / MIXED redemption** | NA 4×; Medallia+ACI; NAV -2.4% |
 | BCRED SC TO-I/A | **6/4** | Q2 mechanic | Q1 7% flex; Q2 5% design; ~10% demand; ~3% NAV outflow |
@@ -97,7 +97,7 @@ All Tier-1 Q1 10-Qs filed pre-5/21 (LESSONS #17 caught the "TBD pending" mislabe
 | OCIC Q1 redemption | 21.9% req, 5% binding, $988M=23% sat, first net outflow 18Q | 🔴 | [CONF AltsWire 5/11] |
 | **APO Annual Mtg (TODAY)** | 6/8 — watch Athene guidance + PC outlook commentary | 🟡 catalyst window | [CONF Apollo IR] |
 | **Athene** | CLO book peak $40B+ running off into AMAPS ($11B in, doubling); **NAIC 2026 capital-charge rule increase risk** | 🟠 reg pressure surfacing | [CONF Apollo + Sidley] |
-| Sponsor patterns (4) | KKR FSK $450M+; Apollo MFIC $3B + NA 3.4×; BX 7→5% + co-invest; BlackRock TCP -19% +-5% | 🔴 | [CONF WealthMgmt 5/15] |
+| Sponsor patterns (4) | KKR FSK ~$600M; Apollo MFIC $3B + NA 3.4×; BX 7→5% + co-invest; BlackRock TCP -19% +-5% | 🔴 | [CONF WealthMgmt 5/15] |
 | Full NDFI scope | $1.4T (5.6% bank assets); CDR May 15 5-cat scoping queued WALTER+REGINALD | 🔴🔴 | [CONF FDIC + WFC Q1] |
 | **Form PF (REFRAMED)** | 6/23 comment close. Proposal is **largely DEREGULATORY** (thresholds $150M→$1B; LHF $1.5B→$10B). PC reporting addition only "solicited for comment" — not proposed. **Mixed, not pure escalation.** | 🟠 down from 🔴🔴 | [CONF SEC Fed Register 4/24] |
 | Ch11 April 2026 | +42% YoY commercial, Sub V +46% | 🔴 | [CONF Epiq 5/6] |
@@ -199,7 +199,7 @@ All Tier-1 Q1 10-Qs filed pre-5/21 (LESSONS #17 caught the "TBD pending" mislabe
 **Watch order for next session:**
 1. **HY OAS daily** — does risk-on compression carry it to 260 (→ STEP 2 substance check, NOT auto-kill)
 2. **2nd PE-wrapper gate by ~7/4** — Tier-2 cross-asset trigger; clean window-close de-escalates that vector
-3. **FSK div/NA verification** — resolve the $0.64→$0.48 reset date + 5.5% vs 8.1% NA conflict (flagged, not banked)
+3. ~~FSK div/NA verification~~ — ✅ DONE 6/15 (8.1% cost stands; no conflict; pkg corrected ~$600M; Q2 div stepped to $0.42)
 4. **4th public-BDC div cut** watch (after MFIC/OCSL/OBDC) — Q2 prints late July
 5. **APO >$145 sustained OR <$130** — Dec $95P hold-with-backstop re-eval trigger
 6. **AI-infra origination follow-through** — more $35B-style mega-deals = vendor-financing vector building (bull tape / bear substance)

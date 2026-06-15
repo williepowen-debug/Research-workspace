@@ -1,7 +1,7 @@
 # BROCK — TRADE.md
 **Base:** 2026-03-16 EOD (Prome + Will) | **Last cleaned:** 2026-05-21 (post-revival session)
 **Convergence:** ~46/60 🔴🔴 (May 21 — 2 new vectors added: sponsor-bifurcation + duration-channel NAV). See STATUS.md for live tape.
-**Status:** Stage 2 persists. APO position trigger FIRED ~May 7 and entrenched 13+ sessions. FSK Q1 (5/11) = Strong Bear / data Max Bear (NAV $18.83, non-accruals 8.1%, KKR $450M+ support). OBDC Q1 (5/6) was MIXED — no forced-mark re-arm.
+**Status:** Stage 2 persists. APO position trigger FIRED ~May 7 and entrenched 13+ sessions. FSK Q1 (5/11) = Strong Bear / data Max Bear (NAV $18.83, non-accruals 8.1% cost / 4.2% FV [verified 6/15], KKR ~$600M support). OBDC Q1 (5/6) was MIXED — no forced-mark re-arm.
 **Account:** ⚠️ Per-position decisions superseded by `domain/sources/POSITION_DECISIONS_MAY21.md` (anchored to live Fidelity PDF pull 5/21).
 
 > **🔴 TRIGGER STATE (6/15 update):** APO exit-rule RE-FIRED — $137.12, >$130 for 5 sessions (6/9-6/15), driven by the 6/9 Apollo-led $35B Broadcom AI XPV deal (origination repricing, not credit reversal). **Will call 6/15: HOLD Dec $95P** (down ~90%, ~165 DTE, closing captures ~nothing); documented override per Decision Tree STEP 3 row 2; re-eval if APO >$145 sustained OR HY OAS <260. HY OAS 271 [FRED 6/12], cushion 11bps but compressing on RISK-ON → routes to STEP 2 substance check, not auto-kill. *(Prior 5/21 state preserved below.)*
@@ -268,7 +268,7 @@ Adaptive priority shifters — drop everything if any fires:
 | Arms-length sub-90¢ BDC loan transaction | Not yet; **Apollo shopping captive BDC @ $0.85/NAV is the watch** | BRK-25 fires, Stage 3 catalyst → open BIZD Sep $12P |
 | First SEC enforcement filing | SEC probe Apr 24 active w/ subpoena power; BlackRock probe added 5/16; no filings yet | BRK-26 fires, Stage 3 catalyst → open BIZD basket aggressively |
 | Major BDC Q1 NAV markdown >5% | ARCC -1.76% no fire; **FSK FIRED -9.9%** (Strong Bear); OBDC MIXED no fire; GCRED/OTF/CTAC/BCRED pending | BRK-27 already fired at FSK; pending fires at GCRED/OTF |
-| KKR adds to FSK support package within 90 days | Initial $450M+ package 5/11; no additions yet | Bear signal upgraded (doubling down twice) → open BDC basket aggressively |
+| KKR adds to FSK support package within 90 days | Initial ~$600M package 5/11 ($150M pfd + $150M tender @$11 + $300M buyback + 4-qtr fee waiver); no additions yet | Bear signal upgraded (doubling down twice) → open BDC basket aggressively |
 | BCRED Q2 redemption refused OR sponsor backstop refused | Q1 $3.2B/7.9% absorbed via 7% cap + $400M BX backstop; Q2 print TBD | Gate cascade fires → BX puts (REGINALD cross-flag) + BIZD basket |
 | Bank PC loss disclosure (JPM/BAC/Citi/WFC NDFI 5-cat detail) | WALTER REQ May 15 CDR Q1 5-cat data not yet pulled by BROCK | Bank transmission live → REGINALD cross-flag; opens KRE basket |
 | VIX spike +3 in absence of HY OAS widening | VIX 17.54 (suppressed) | Gamma-unwind path; HENRY-VIOLET coordination |
