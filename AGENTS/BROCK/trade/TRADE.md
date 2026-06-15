@@ -4,6 +4,8 @@
 **Status:** Stage 2 persists. APO position trigger FIRED ~May 7 and entrenched 13+ sessions. FSK Q1 (5/11) = Strong Bear / data Max Bear (NAV $18.83, non-accruals 8.1%, KKR $450M+ support). OBDC Q1 (5/6) was MIXED — no forced-mark re-arm.
 **Account:** ⚠️ Per-position decisions superseded by `domain/sources/POSITION_DECISIONS_MAY21.md` (anchored to live Fidelity PDF pull 5/21).
 
+> **🔴 TRIGGER STATE (6/15 update):** APO exit-rule RE-FIRED — $137.12, >$130 for 5 sessions (6/9-6/15), driven by the 6/9 Apollo-led $35B Broadcom AI XPV deal (origination repricing, not credit reversal). **Will call 6/15: HOLD Dec $95P** (down ~90%, ~165 DTE, closing captures ~nothing); documented override per Decision Tree STEP 3 row 2; re-eval if APO >$145 sustained OR HY OAS <260. HY OAS 271 [FRED 6/12], cushion 11bps but compressing on RISK-ON → routes to STEP 2 substance check, not auto-kill. *(Prior 5/21 state preserved below.)*
+>
 > **🔴 TRIGGER STATE (May 21):** APO position-kill rule FIRED — sustained >$130 since ~May 7, entrenched 13+ sessions. Decision resolved this session per POSITION_DECISIONS_MAY21.md: Dec $95P holds (thesis vehicle); Jun $100P lets expire (residual $20). Broad-thesis HY OAS kill NOT firing — cycle low 276 (5/17), live 286 (5/21), cushion 26bps and widening.
 
 > **Core doctrine:** Every trade must link to a convergence vector or FLOW transmission channel. Private credit cascade is the thesis — positions express specific pathways within it.
@@ -116,7 +118,7 @@ Detail → `domain/sources/TARGETING_FRAMEWORK_MAR16.md`
 | Position | Live mark (5/21) | Conv | Decision |
 |----------|------------------|------|---------|
 | APO $100P Jun ×1 | $20 (-97%) | 1 | LET EXPIRE (residual too small to sell) |
-| APO $95P Dec ×1 | $275 (-77%) | 5 | **HOLD — thesis vehicle, 210d runway** |
+| APO $95P Dec ×1 | ~$28 (-90%, per Will 6/15) | 5 | **HOLD-with-backstop (6/15)** — exit-rule FIRED (APO $137 >$130 ×5) but down ~90%, ~165 DTE; closing captures ~nothing. Documented override (Decision Tree STEP 3 row 2 — tape-only, substance bear). Rally = $35B Broadcom AI-origination repricing, not credit reversal. **Re-eval if APO >$145 sustained OR HY OAS <260.** |
 | ARES $95P Jun ×1 | $25 (-97%) | 1 | LET EXPIRE |
 | OWL Jun 5 $9.5P ×2 | $40 (-66%, 5% OTM, 15d) | 3 | **HOLD — live near-strike lottery** |
 | HYG $75P Jun ×8 | $40 (-84%) | 1 | LET EXPIRE (roll opportunity passed) |
@@ -260,8 +262,8 @@ Adaptive priority shifters — drop everything if any fires:
 
 | Trigger | Status (May 21) | Effect |
 |---------|-----------------|--------|
-| APO sustained >$130 (3 sessions) | **🔴 FIRED ~May 7, entrenched 13+ sessions** — resolved per POSITION_DECISIONS_MAY21.md | Position-kill on APO puts already actioned |
-| HY OAS <260bps sustained 10+ sessions | **286bps live, cycle low 276 (5/17). Widening away from kill.** Cushion 26bps. | Thesis-kill — exit 100% PC overlay — NOT FIRING |
+| APO sustained >$130 (3 sessions) | **🔴 RE-FIRED 6/9-6/15 ($137 ×5)** off $35B Broadcom AI deal — Will call 6/15: HOLD Dec $95P (down ~90%, override documented) | Position-kill actioned → hold-with-backstop |
+| HY OAS <260bps sustained 10+ sessions | **271bps [FRED 6/12], cushion 11bps — compressing on RISK-ON, not substance.** | Thesis-kill — but pure-risk-on compression routes to Decision Tree STEP 2 (substance check), NOT auto-kill |
 | HY OAS <270 sustained 2+ sessions OR <260 intraday once | Not fired; pre-write kill memo if approaches | Pre-stage thesis-kill memo (per LIQUID Move #1) |
 | Arms-length sub-90¢ BDC loan transaction | Not yet; **Apollo shopping captive BDC @ $0.85/NAV is the watch** | BRK-25 fires, Stage 3 catalyst → open BIZD Sep $12P |
 | First SEC enforcement filing | SEC probe Apr 24 active w/ subpoena power; BlackRock probe added 5/16; no filings yet | BRK-26 fires, Stage 3 catalyst → open BIZD basket aggressively |
