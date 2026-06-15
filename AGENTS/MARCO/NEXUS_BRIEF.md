@@ -1,9 +1,9 @@
 # MARCO — NEXUS Brief
 
-**Status:** 🟠 v2.4 — durable channels (ag-labor stock shock + Canadian air/snowbird) transmitting; **Channel-1 conviction UP 6/15** (ICE/CBP ~$70B funding now LAW through Jan 2029 + construction raids active); FL $ hole timing-delayed to winter 2026-27, NOT acute now
+**Status:** 🟠 v2.5 — durable channels (ag-labor stock shock + Canadian air/snowbird) transmitting; **Channel-1 conviction UP 6/15** (ICE/CBP ~$70B funding now LAW through Jan 2029 + construction raids active); FL $ hole timing-delayed to winter 2026-27, NOT acute now
 **Domain:** Population movement — international visitor flows (Canadian boycott), workforce displacement (ag-labor), internal migration; transmission edges → REGINALD (FL CRE/condo + winter-$ hole), CARL (regional consumer), LABOR (ag/workforce), BRENT (freight→produce)
-**Thesis version:** v2.4
-**Recent thesis pivot:** v2.3 → v2.4 (Jun 2) — Channel-2 reframe: the Canadian boycott is the sharp edge of the first US inbound-tourism decline in 20yr (CY2025 −5.5%, 68.3M); World Cup = falsifiable reversal test (ES-MARCO-09)
+**Thesis version:** v2.5
+**Recent thesis pivot:** v2.4 → v2.5 (Jun 15) — Channel-1 enforcement flow re-locked: ICE/CBP ~$70B funding signed into law Jun 10 (through Jan 2029), reversing the 6/2 "contested" downgrade → Channel-1 conviction UP
 **Position:** none — intel/research agent; theses express downstream via REGINALD (bank/CRE) + CARL (consumer) + LABOR (employment)
 **As of:** 2026-06-15 PM ET | STATUS: session-14 close 6/15 (see STATUS "6/15 UPDATE" block). Canonical THESIS v2.5 + docket fully synced this session — brief and canonical now agree.
 
@@ -69,7 +69,7 @@
 | 🟠 Tue Jun 16 | Census May housing starts | MAR-26 threshold watch (NOT yet confirming — April geography ran against a South-concentrated signal; starts lag raids 1-3mo so Q3 is the real test). Decompose rate-vs-labor on release |
 | 🟡 Wed Jun 17 | FL Realtors May | >9.0mo = distress re-engaging (MAR-08); <8.5mo = absorption confirms FL-cooling |
 | 🟠 ~Sat Jun 27 | WestJet winter 2026-27 schedule | TOUR-05 last input; ≥15% FL-bound seat contraction confirms (41-route cut already spans winter) |
-| 🟠 Tue Jun 30 | **MAR-01/18/26 formal resolve (Q2 close)** + Banxico Q1 state-of-origin + OFLC H-2A Q3 | Current reads: MAR-18 CONFIRM (capacity), MAR-26 lean-CONFIRM (78%), MAR-01 lean-MISS (Nogales −45% short of −50/−60% floor) |
+| 🟠 Tue Jun 30 | **MAR-01/18/26 formal resolve (Q2 close)** + Banxico Q1 state-of-origin + OFLC H-2A Q3 | Current reads: MAR-18 CONFIRM (capacity), MAR-26 74% mechanism-only (NOT threshold-confirming — housing geography runs against a South-concentrated raid signal; Q3 real test), MAR-01 lean-MISS (Nogales −45% short of −50/−60% floor) |
 | 🟠 ~Jul 1 | Banxico May remittances | Count YoY = cleanest SDL-01 readout (Apr count −1.7%, narrowing) |
 | 🔴 ~Jul 15 | BLS June CPI — fresh F&V | **ES-MARCO-08 real fork** (pump now collapsing — see NEXT DECISION); shared print with BRENT's energy-CPI leg |
 | 🟠 ~Aug 15 | NTTO June arrivals (1st WC month) | ES-MARCO-09 reversal read; advance signals lean FAIL (~80% host-city hotels below forecast) |
