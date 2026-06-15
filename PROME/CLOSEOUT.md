@@ -48,7 +48,7 @@ Closeout is the **write-back tail** of boot (auto-memory `[[finding_closeout_as_
 | `TODAY.md` | step 2 | Chunk 1 — surgical if date/catalysts moved (Standard+) |
 | `STATUS.md` | step 3 | Chunk 1 — surgical |
 | `ACTIVE_DECISIONS.md` | step 5 | Chunk 1 — surgical if a decision moved |
-| `CLAUDE_CODE_HANDOFF.md` | step 7 | Chunk 1 — append entry |
+| `HANDOFF.md` | step 7 | Chunk 1 — append/rotate concise continuity entry when session affects future Prome state |
 | `memory/YYYY-MM-DD.md` | on-demand | Chunk 2 — create/append |
 
 **Intentionally one-way (no closeout write-back, by design):**
@@ -77,22 +77,21 @@ Closeout is the **write-back tail** of boot (auto-memory `[[finding_closeout_as_
 
 Boot-readable decision index (**paired with boot step 5**). Update a row whenever a non-terminal decision changed this session — new decision, state transition (DRAFT→PROPOSED→WILL_APPROVED), owner change, backstop met, executed/closed. Skip if no decision moved. Without this write-back the index silently goes stale — boot reads it but nothing refreshes it.
 
-### `PROME/CLAUDE_CODE_HANDOFF.md` — append session entry (Standard / Heavy only)
+### `PROME/HANDOFF.md` — append/rotate concise continuity entry (Standard / Heavy only)
 
-CC-Prome audit-trail role. Light skips — audit rolls up at end-of-day Standard. NOT the place for session narrative (that's SCRATCH).
+Cross-runtime Prome continuity role. Light skips unless future Prome state materially changed. Keep latest 3–5 entries live; archive older entries to `PROME/archive/`. NOT the place for full session narrative (that's SCRATCH / daily memory).
 - **What landed** — one-line referents per artifact; point at SCRATCH/memory for headlines
-- **Files edited** — compact list (PROME scope + any agent-inbox writes with PROVENANCE note)
-- **Decisions Will made this session** (retrospective audit; helps future-Prome avoid re-asking)
-- **Decisions needed from Will** (forward-looking; usually a one-line pointer to SCRATCH's live carries)
+- **Files edited** — compact list only when relevant
+- **Decisions Will made this session** if they affect future behavior
+- **Decisions needed from Will** if still active
 - **Risks / blockers**
-- **v_next design inputs** (any new pattern feedback returned by sub-agents)
 - **Next suggested work** (one-line pointer to SCRATCH, not a full restate)
 - **Rules held to** (autonomy / scope verification)
 
 **Doc-ownership separation (canonical homes):**
 - **SCRATCH** = session narrative + next-session entry point (full headlines, "what just happened")
 - **STATUS** = state tables only (agent health, Pending Work status, Active Decision Layer freshness); no narrative
-- **HANDOFF** = CC-Prome audit trail (files, decisions, rules); references SCRATCH for narrative
+- **HANDOFF** = concise cross-runtime continuity; references SCRATCH/memory for detail
 
 **Checkpoint:** if any of these three files restate the same fact, drop it from STATUS and HANDOFF, keep it in SCRATCH. Cross-reference rather than duplicate.
 
@@ -171,7 +170,7 @@ One short message:
 ## Skip rules
 
 - **`PROME/TODAY.md`** — **paired with boot step 2.** Surgical update if the date rolled or catalysts/levels changed (Standard+); skip on Bounce/Light. (Earlier guidance treated `FLEET_SCAN.md` as a CC replacement surface, but TODAY is still read at boot and drives day/week framing — keep it current.)
-- **`PROME/HANDOFF.md`** — Telegram-Prome handoff. Only update if this session's changes affect Telegram-Prome continuity (rare for pure CC work)
+- **`PROME/HANDOFF.md`** — cross-runtime Prome continuity. Update only when the session changes future Prome state; keep it concise and rotate/archive older entries.
 - **`AGENTS/<other>/` files** — never. Other agents own their state. Route via inbox if needed (and only with explicit per-instance authorization per the cross-agent-inbox-writes rule)
 - **Root `CLAUDE.md` / shared files** — flag to Will, don't auto-edit. Will-approval gates the change.
 
@@ -193,7 +192,7 @@ One short message:
 | `PROME/SCRATCH.md` | Full rewrite |
 | `PROME/STATUS.md` | Surgical update |
 | `PROME/ACTIVE_DECISIONS.md` | Surgical if a decision moved (boot step 5 pair) |
-| `PROME/CLAUDE_CODE_HANDOFF.md` | Append entry |
+| `PROME/HANDOFF.md` | Append/rotate concise continuity entry when needed |
 | `memory/YYYY-MM-DD.md` | Create or append |
 | `~/.claude/.../memory/` (auto-memory) | Selective add only |
 | `PROME/BOOT.md` | Only if doc-ownership drifted |

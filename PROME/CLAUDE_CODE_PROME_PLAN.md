@@ -116,33 +116,11 @@ Owns:
 - Examples of good tasks.
 - Examples of forbidden tasks.
 
-### 3. `PROME/CLAUDE_CODE_HANDOFF.md`
+### 3. `PROME/HANDOFF.md` — merged live continuity surface
 
-A dedicated handoff file from Claude Code Prome to Telegram/OpenClaw Prome.
+**Superseded 2026-06-14:** the old dedicated `PROME/CLAUDE_CODE_HANDOFF.md` was merged into `PROME/HANDOFF.md`. Historical content lives in `PROME/archive/HANDOFF_2026Q2.md`; the old file remains only as a pointer stub.
 
-Format:
-
-```md
-# Claude Code Prome Handoff
-**Updated:** YYYY-MM-DD HH:MM ET
-
-## What Changed
-- ...
-
-## Files Edited
-- ...
-
-## Decisions Needed from Will
-- ...
-
-## Risks / Blockers
-- ...
-
-## Next Suggested Work
-- ...
-```
-
-This avoids polluting `PROME/HANDOFF.md` with every code-side detail while still giving Telegram Prome a clean read target.
+Live format: concise cross-runtime entries only, latest 3–5 live. Full session narrative belongs in `PROME/SCRATCH.md`; durable daily detail belongs in `memory/YYYY-MM-DD.md`.
 
 ---
 
@@ -189,7 +167,7 @@ Update these docs once Claude Code Prome exists:
    - Add “Prome runtime split” section.
 
 3. `PROME/BOOT.md`
-   - Mention Claude Code Prome handoff file and boot behavior.
+   - Mention merged Prome handoff behavior and Claude Code boot behavior.
 
 4. `HEARTBEAT.md`
    - Add one operating note once live.
@@ -231,8 +209,8 @@ Potential `AGENTS_DIRECTORY.md` row:
 
 Every meaningful Claude Code Prome work session should end by updating:
 
-- `PROME/CLAUDE_CODE_HANDOFF.md`
-- optionally `PROME/HANDOFF.md` if Will-facing state changed
+- `PROME/HANDOFF.md` if future Prome continuity changed
+- `PROME/SCRATCH.md` if the immediate next-session entry point changed
 - optionally `memory/YYYY-MM-DD.md` for daily log
 - optionally `MEMORY.md` only for durable insights
 
@@ -256,7 +234,7 @@ Create only the Claude Code Prome bootstrap files. Do not integrate broadly yet.
 
 1. Create `PROME/CLAUDE.md`.
 2. Create `PROME/CLAUDE_CODE_PROME.md`.
-3. Create `PROME/CLAUDE_CODE_HANDOFF.md`.
+3. Create Claude Code handoff surface. **Superseded:** this later merged into `PROME/HANDOFF.md`; old file is now a pointer stub.
 
 Clear checkpoint: safe to clear after Phase 1.
 
@@ -274,7 +252,7 @@ Clear checkpoint: safe to clear after Phase 2.
 
 Ask Claude Code Prome to perform one constrained task:
 
-> You are Prome inside Claude Code. Read `PROME/CLAUDE.md`, `PROME/CLAUDE_CODE_PROME.md`, `PROME/CLAUDE_CODE_PROME_PLAN.md`, and `PROME/CLAUDE_CODE_PROME_TASKS.md`. Then inspect git status and the Prome state files. Do not edit anything except `PROME/CLAUDE_CODE_HANDOFF.md`. Produce a repo hygiene / readiness report and identify the next safest implementation task. Do not commit, stash, reset, or message externally.
+> You are Prome inside Claude Code. Read `PROME/CLAUDE.md`, `PROME/CLAUDE_CODE_PROME.md`, `PROME/CLAUDE_CODE_PROME_PLAN.md`, and `PROME/CLAUDE_CODE_PROME_TASKS.md`. Then inspect git status and the Prome state files. Do not edit anything except `PROME/HANDOFF.md` if a continuity note is needed. Produce a repo hygiene / readiness report and identify the next safest implementation task. Do not commit, stash, reset, or message externally.
 
 Success criteria:
 
@@ -320,10 +298,10 @@ Telegram Prome remains the place for:
 
 1. Should Claude Code Prome be allowed to edit root Prome files autonomously when it identifies staleness, or should it propose first?
 2. Should Claude Code Prome be allowed to make scoped commits after completing a task, or always leave uncommitted diffs for approval?
-3. Should its handoff live only in `PROME/CLAUDE_CODE_HANDOFF.md`, or should it also update `PROME/SCRATCH.md` every session?
+3. Should its handoff live only in `PROME/CLAUDE_CODE_HANDOFF.md`, or should it also update `PROME/SCRATCH.md` every session? **Resolved 2026-06-14:** use `PROME/HANDOFF.md` as the single live handoff; update `PROME/SCRATCH.md` only when the immediate next session is affected.
 
 Recommendation:
 
 - Allow autonomous internal edits.
 - Require approval before commits until trust is proven.
-- Use `PROME/CLAUDE_CODE_HANDOFF.md` as primary, and update `PROME/SCRATCH.md` only when the change affects next Telegram/OpenClaw Prome session.
+- Use `PROME/HANDOFF.md` as primary live continuity, and update `PROME/SCRATCH.md` only when the change affects next Telegram/OpenClaw Prome session.
