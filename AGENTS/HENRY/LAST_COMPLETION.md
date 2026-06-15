@@ -1,43 +1,46 @@
 # HENRY — LAST COMPLETION
 
-**Session:** 2026-06-09 Tue (~11am–1pm ET, live, Will-directed) · **Status:** 🟠 closed clean, committed locally (NOT pushed)
+**Session:** 2026-06-15 Mon ~9:18 AM ET — 5-session catch-up (gap since 6/9 Tue)
+**Status:** 🟡 Cyclical axis SOFT-KILLED on the CPI gate; structural axis confirmed-but-dormant; FOMC 6/16-17 is the live re-arm risk
 
 ---
 
-## RESULT
-Refreshed to live 6/9 tape + logged Monday's credit print (no weekly cascade), **confirmed a credit bifurcation Will flagged** (corrected a too-sanguine read), built a standing credit early-warning monitor, and ran a verification pass that caught a real APO trigger error. Everything gates on **tomorrow's 6/10 CPI**.
+## RESULT (one line)
+The CPI gate (HEN-32) resolved **SOFT** (core +0.2% vs +0.3%) — cyclical axis soft-killed on the inflation leg, vol fully unwound, SPX new highs; only the dormant structural credit-bifurcation axis remains, and FOMC's dot plot tomorrow is now the swing.
 
-## CHANGED
-- `STATUS.md` — full tape refresh to 6/9 ~1pm; Monday credit logged; new CREDIT EARLY-WARNING / bifurcation block; two-timescale reconciliation; verification fixes
-- `scripts/credit_monitor.py` — NEW (266 lines); bifurcation + flow monitor
-- `MEMORY.md` — 3 new findings/feedback + session-notes rewrite
-- (auto-mem: `feedback_pull_live_primary_not_dashboard`, `finding_blended_index_masks_bifurcation` — left for capture sweep, not committed by HENRY)
+## CHANGED (files)
+- `STATUS.md` — full retime to 6/15: signal block, LIVE TAPE, VOL REGIME, credit readout, +CPI/+PPI data-release logs, split-axis thesis, invalidation triad, thresholds, catalyst stack, predictions, cross-agent deps, bottom line
+- `workbook/PREDICTIONS.tsv` — HEN-32 → MISS; added HEN-33 (FOMC 0-cut dot)
+- `MEMORY.md` — session handoff rewritten; +2 findings (headline-hot/core-soft split; resolve-the-verify-flag-yourself)
+- `LAST_COMPLETION.md` — this file
 
 ## Session Work
-1. **Boot + git check** — confirmed in sync with origin (0/0); did not pull (BOND/LIQUID uncommitted on shared tree).
-2. **Live refresh + Monday 6/8 credit** — HY 275 (+3bps) / CCC 949 (+3bps). Blipped on NFP day (6/5: HY 276/CCC 952), retraced Mon = **no cascade**. Read: rate/positioning unwind, not trap-snap. KRE up 3rd session corroborates.
-3. **Process correction (Will):** pull credit LIVE from FRED, not dashboard/sibling-STATUS (which read repo files). Verified HY/CCC live; daily series revealed the NFP-day blip+retrace.
-4. **🔑 Credit bifurcation confirmed (Will catch):** over 1yr CCC is the *sole* tier widening (+27bps) vs IG−16/BB−27/B−41/HY−52. CCC−BB gap 619→784, ratio 4.5×→5.75×. The blended HY headline masks it. Corrected my earlier "junk is fine" read; reconciled STATUS to two timescales (near-term cascade=none; slow structural axis=confirmed/intact).
-5. **Built `credit_monitor.py`** — tracks CCC−BB bifurcation + HY fund-flow proxy (HYG/JNK/LQD), live FRED + yfinance, alert thresholds. Run each session.
-6. **Verification pass (Will double-check):** caught **1 real error** — "APO crossed $130 → BROCK FIRED" was wrong (BROCK rule = >$130 *sustained 3+ sess*; APO strength is *adverse* to BROCK's puts). Plus 2 overstatements (vol "milder"→actually re-firing; "IS transmitting"→"intact"). Brent fixed (circular src → live $91).
+1. **Logged the two missed prints.** May CPI (6/10): core **+0.2% MoM / +2.9% YoY** SOFT (HEN-32 MISS), headline +4.2% energy-driven. May PPI (6/11): **+1.1%** but ~80% energy (gasoline +23.4%), services +0.3% tame. Both looked through — Brent collapsed $91→$83.
+2. **Refreshed full tape** (yfinance + FRED). Vol fully unwound: VIX 21.69→**16.42**, VIX9D backwardation→contango, VVIX→93.82. SPX 7,319→**7,431** new highs. 10Y 4.54→**4.45** (back below 4.5% yellow). KRE/WAL up again.
+3. **Resolved HEN-32 MISS, added HEN-33** (FOMC 6/17 0-cut dot → 10Y +10bps).
+4. **Confirmed APO BROCK-trigger FIRED** — pulled daily closes: >$130 ×4 sess (6/9–6/12). BROCK's "3+ sess" rule met. BROCK STATUS stale 6/8 (shows un-fired).
+5. **Invalidation triad** — VIX now re-approaching the <15 soft-kill arm (16.42, cushion 1.42); first leg to genuinely near a kill since the gap.
 
 ## GAPS / Still pending
-- **TLT Jun $85P (3×)** — decision deferred to Will w/ live mark (CPI is the cleaner catalyst, Jun expiry ~6/19).
-- **Cross-agent signals NOT fired (awaiting Will OK):** bifurcation→REGINALD/BROCK (substantive); APO→BROCK (un-fired, hold).
-- 0DTE/GEX still pending (6+ sess); VX.tsv dup-ID; VIOLET stale to 6/1.
+- **0DTE SPX share + GEX regime** — still pending (7+ sessions); manual estimate acceptable.
+- **VIOLET domain stale to 6/1** — owes M1:M2 + 20d-SKEW; vol regime now unwound on my read.
+- **VX.tsv duplicate ID collision** (modernization backlog).
 
 ## COMMITS
-- `2b5b9e5d` — HENRY 6/9: live refresh + Monday credit print + credit bifurcation monitor
-- + closeout commit (MEMORY + LAST_COMPLETION) — local only, **not pushed** (Will-coordinated window)
+- `6d01f480` — HENRY: 6/15 catch-up — CPI gate MISS (core +0.2% soft), cyclical axis soft-killed, APO BROCK-trigger fired (STATUS + MEMORY + PREDICTIONS)
+- (this closeout doc commit follows)
+- **NOT pushed** — Will-coordinated push window.
 
 ## NEXT SESSION FOLLOW-UP (catalyst dates)
-- **🔴 Wed 6/10 8:30 ET — May CPI (HEN-32, THE GATE).** Core >0.3% → cyclical re-arm + add TLT Sep $85P + watch VIX breach >23 (vol-control cushion 1.31). ≤0.2% → soft-kill regains (energy disinflation supports).
-- Thu 6/11 PPI · Mon–Tue 6/16-17 FOMC + dots · late Jul BROCK BDC Q2 marks (structural-axis test).
+- **Tue–Wed 6/16-17 — FOMC + SEP/dot plot (new Chair Warsh).** Hold 98% priced → the DOTS are the catalyst. 0-cut '26 dot (Polymarket 57%, vs Fed's 1) = hawkish, yields back up, cyclical re-arm (HEN-33). This is THE live event.
+- **Tue 6/16 — BOJ decision** (SAM-primary; USD/JPY 160.11 >160).
+- **~Fri 6/19 — Jun opex; Will's TLT Jun $85P expire.**
+- **~late Jul — BDC Q2 marks (BROCK)** = only live structural-axis test post-FOMC.
 
-## THESIS SNAPSHOT (frozen at close, 6/9 ~1pm)
-Cyclical axis re-armed on the LABOR leg (hot NFP); **near-term credit did NOT confirm a cascade** (rate/positioning unwind). **But the slow structural axis is confirmed via the public credit bifurcation** (CCC diverging 1yr) — corroborates BROCK's private-credit stress; not yet transmitting to equity (the trap hasn't sprung). Vol re-firing into CPI (VIX 21.69, 9D backwardation re-steepening). Tape: SPX 7,319 (−1.17%, +219 above 7,100 invalidation); 10Y 4.54 pinned; TLT $85.11 ~ATM; KRE 71.25 up; APO 131 (un-fired); Brent $91; USD/JPY 160.30. **The whole read gates on 6/10 CPI.**
+## THESIS SNAPSHOT (frozen at close)
+Cyclical axis soft-killed on the data (soft core + collapsing energy + crushed vol + SPX ATH + eased yields). Structural credit-bifurcation axis CONFIRMED (CCC−BB 787, +26/3mo) but NOT transmitting to equity (KRE/WAL up, HY not underperforming IG) — the trap that hasn't sprung. Neither cyclical leg is driving risk-off; the cascade is dormant (VIX 16, vol-control cushion 6.58). The VIX soft-kill leg is the closest to firing (1.42 above <15). Live re-arm risk = FOMC dot plot tomorrow.
 
 ## WILL_NEEDS
-1. **TLT Jun $85P call** — give me the live mark, I'll lay out sell-into-vol vs hold-through-CPI.
-2. **OK to fire bifurcation→REGINALD/BROCK signal?** (substantive; corroborates their thesis).
-3. Coordinated push window — `2b5b9e5d` + closeout commit are local, ready to sweep.
+1. **TLT Jun $85P (3×) — decision point.** Soft CPI was adverse: TLT rose to **$85.77 (puts now OTM)**, Jun expiry ~6/19 (~4 sessions), FOMC tomorrow the last catalyst. Only a hawkish dot rescues them — low-prob with 4 days of theta. **I'm deferring to you with the live mark, not auto-recommending** (mark-context discipline). Sep $85P (2×): my read is HOLD, don't add. **What's your mark / call?**
+2. **APO→BROCK signal — fire or hold?** BROCK's put-thesis-re-arm trigger (APO >$130 ×3 sess) is factually FIRED (4 closes 6/9–6/12). BROCK's STATUS is stale 6/8 so they don't have it. It's 🟠 (not 🔴) and APO strength is *adverse* to their puts (thesis-soft, not bearish), so BROCK will catch it on their own boot refresh. **I held the outbox per outbox-restraint — want me to fire it anyway, or let BROCK self-catch?**
+3. **Brent <$85 ($83)→BRENT** soft-kill accelerant — fire or hold? (Same restraint call.)
