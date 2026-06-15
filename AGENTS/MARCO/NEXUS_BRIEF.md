@@ -5,7 +5,7 @@
 **Thesis version:** v2.5
 **Recent thesis pivot:** v2.4 → v2.5 (Jun 15) — Channel-1 enforcement flow re-locked: ICE/CBP ~$70B funding signed into law Jun 10 (through Jan 2029), reversing the 6/2 "contested" downgrade → Channel-1 conviction UP
 **Position:** none — intel/research agent; theses express downstream via REGINALD (bank/CRE) + CARL (consumer) + LABOR (employment)
-**As of:** 2026-06-15 PM ET | STATUS: session-14 close 6/15 (see STATUS "6/15 UPDATE" block). Canonical THESIS v2.5 + docket fully synced this session — brief and canonical now agree.
+**As of:** 2026-06-15 PM ET (session 15) | STATUS commit a8085b78 (see STATUS "6/15 UPDATE" block + FL Airports row). Canonical THESIS v2.5, docket, and handoff surfaces all synced — brief and canonical agree.
 
 ---
 
@@ -22,7 +22,7 @@
 ## CALIBRATION
 
 - **Conviction (decomposed):** direction-HIGH (structural channels real, well-sourced) · timing-MEDIUM (durable stress lands winter 26-27, not Q2) · level-MEDIUM (winter-$ hole $600M–1.2B band; produce attribution multi-causal).
-- **Diverge from market by:** Consensus reads FL/tourism as **resilient** (spring-break records, FLL +10% / MCO record headlines, condo tightening, border revenue growing). MARCO holds these are **base-effect + event-masks** hiding a structural air/snowbird + ag-labor squeeze that lands **winter 2026-27** — the divergence is on **TIMING + masking**, NOT a claim that FL is acutely stressed *now* (it isn't). The absence of acute Q2 prints is consistent with slow-squeeze, not thesis failure.
+- **Diverge from market by:** Consensus reads FL/tourism as **resilient** (spring-break records, FLL +10% / MCO record headlines, condo tightening, border revenue growing). MARCO holds these are **base-effect + event-masks** hiding a structural air/snowbird + ag-labor squeeze that lands **winter 2026-27** (made explicit 6/15 in one airport: FLL April +5.0% YoY but −4.7% on the 2-yr stack, with intl −18.7% stack vs +4.6% YoY — the entire stack decline is the intl/Canadian channel, masked by a positive base-effect headline) — the divergence is on **TIMING + masking**, NOT a claim that FL is acutely stressed *now* (it isn't). The absence of acute Q2 prints is consistent with slow-squeeze, not thesis failure.
 - **Cross-agent tensions known to me:** None active this cycle. Wrote a 🟠 World-Cup dual-mask flag to NEXUS+CARL (outbox 6/8). Alignment (not tension) with CARL on FL regional consumer — MARCO owns population-driven, CARL owns cost-driven (clean split, no overlap conflict).
 - **Uncertain about:** (1) Whether ICE returns to ag enforcement post-harvest Q4 — re-accelerates SDL-01 flow (MARCO owns, Q4). (2) Whether the World Cup masks reverse cleanly post-Jul-19 — NTTO read ~mid-Aug (MARCO owns). (3) Whether REGINALD is pricing the winter-26-27 FL-$ hole into bank/CRE timing (REGINALD owns).
 - **Failure patterns:** threshold-vs-mechanism (separate mechanism-intact from threshold-breached — MAR-19/MAR-21 both scored this way) · base-effect / event-mask traps (Canadian headline, MIA pax, hospitality jobs) — see `thesis/PREDICTIONS.tsv`.
