@@ -55,7 +55,7 @@
 
 \* indirect convention varies (of competitive vs of offering). June % are of accepted (ind+dir+dlr), FiscalData.
 
-**Read:** The June refunding cleared cleanly — the 10Y notably the strongest demand mix of the three (indirect 78%). No stress markers; demand held at price. The into-refunding back-up was concession that drew buyers, not a demand failure. Confirms "expensive not broken." Next nominal coupon supply: July refunding cycle.
+**Read:** The June refunding cleared cleanly — the 10Y notably the strongest demand mix of the three (indirect 78%). No stress markers; demand held at price. The into-refunding back-up was concession that drew buyers, not a demand failure. Confirms "expensive not broken." **Next supply tests are this week, not July: 20Y reopening 6/16 (term-premium-sensitive, BTC trend softening) and the 6/17 FOMC.**
 
 ---
 
@@ -88,11 +88,12 @@
 | Date | Catalyst | What BOND watches | Signal Route |
 |---|---|---|---|
 | **Done 6/9-6/11** | **June refunding (3Y/10Y/30Y)** | **CLEARED CLEANLY.** No stress markers; 10Y strong (ind 78%). BND-08 FALSE. | — |
-| ~Jun 23 | FR2004 dealer-positioning refresh | Whether long-end inventory eased off the 5/27 near-record or built further. | LIQUID/ZHAO |
-| Daily | 10Y >4.5 / 30Y >5.0 sustained | **Re-escalation watch STOOD DOWN** (4.47 / 4.97, below thresholds). Re-arm on 5 sessions above + weak auction. | HENRY/LIQUID |
+| **Jun 16 (Tue)** | **20Y reopening (912810UV8, reopens 5/20 line)** | **My live long-end gate — the term-premium-sensitive tenor.** 20Y BTC softening 3mo running: 2.76 (3/17)→2.68 (4/22)→2.55 (5/20). A tail >1.5bp / weak indirect re-arms the long-end watch & TLT conditional-add. Day before FOMC. | LIQUID/PROME if tail |
+| **Jun 17 (Wed)** | **June FOMC + SEP (dot plot) + VIX quarterly expiry** | Dominant rates catalyst this week (4-event convergence per VIOLET/NEXUS TB-2). HENRY-led on rate expectations; **gates my long-end/duration + TLT read.** Dots/path drive the curve. | HENRY (consume) |
+| Daily | 10Y >4.5 / 30Y >5.0 sustained | **Re-escalation watch STOOD DOWN but re-armable this week** (4.47 / 4.97 now, below thresholds). Re-arm on 5 sessions above + weak auction; 20Y tail + hawkish FOMC is the path. | HENRY/LIQUID |
+| Jun 23-25 | 2Y / 5Y / 7Y belly supply | Next full coupon cycle (also 2Y 6/23 reopen-line). FR2004 dealer refresh ~6/23. | LIQUID/ZHAO |
 | Watch | Energy HY OAS / CCC bifurcation | CCC 948 flat (creep stalled). Confirm energy HY vs 300 (stale 285, Apr 28). | BRENT (pull) / LIQUID |
 | Watch | **Treasury buyback accept-cap** | Unchanged — $2B long-end cap held (9 quarters). **Trigger: cap LIFTED on long buckets = YCC-lite = direct TLT-puts event.** Not current policy. | LIQUID/HENRY/PROME if cap lifts |
-| ~Jul | July refunding cycle | Next nominal coupon supply test. | PROME/LIQUID |
 | Weekly | HY/IG OAS + primary calendar | OAS >300 / pulled deals / issuance freeze | BROCK/REGINALD/HENRY |
 | As available | CDX.HY / CDX.IG | synthetic leading cash (data gap — still not wired) | HENRY/VIOLET/LIQUID |
 
@@ -100,4 +101,4 @@
 
 ## Bottom Line
 
-**The June refunding was the live test and it cleared cleanly — BOND de-escalates.** The into-refunding back-up (10Y 4.53 / 30Y 5.01, real-rate-led, 6/9) drew buyers rather than breaking: the **6/10 10Y was strong** (BTC 2.57 vs May's 2.40, indirect 78%, dealer take down to 9.5%), the **6/11 30Y was orderly** (no outlier repeat), and **BND-08 (stress-marker) resolves FALSE** — the same benign outcome as May's BND-05. Post-auction, yields fell **back below thresholds (10Y 4.47 / 30Y 4.97)**, the real-rate move **reversed** (DFII10 2.19→2.16), and **VIX collapsed to 16.1**. The dealer-thin-backstop concern was real structurally but never binding — end-users absorbed the supply. Long-end/duration and dealer absorption both downgraded 3→2; composite 12→10. Credit stays calm (HY 271, CCC 948 flat). **TLT puts: HOLD — the conditional-add correctly never armed.** Back to baseline "expensive, not broken"; next nominal supply test is the July refunding.
+**The June refunding was the live test and it cleared cleanly — BOND de-escalates.** The into-refunding back-up (10Y 4.53 / 30Y 5.01, real-rate-led, 6/9) drew buyers rather than breaking: the **6/10 10Y was strong** (BTC 2.57 vs May's 2.40, indirect 78%, dealer take down to 9.5%), the **6/11 30Y was orderly** (no outlier repeat), and **BND-08 (stress-marker) resolves FALSE** — the same benign outcome as May's BND-05. Post-auction, yields fell **back below thresholds (10Y 4.47 / 30Y 4.97)**, the real-rate move **reversed** (DFII10 2.19→2.16), and **VIX collapsed to 16.1**. The dealer-thin-backstop concern was real structurally but never binding — end-users absorbed the supply. Long-end/duration and dealer absorption both downgraded 3→2; composite 12→10. Credit stays calm (HY 271, CCC 948 flat). **TLT puts: HOLD — the conditional-add correctly never armed.** Back to baseline "expensive, not broken." **Two live tests this week keep the watch re-armable: the 6/16 20Y reopening (term-premium-sensitive, BTC softening 2.76→2.68→2.55 over 3mo) and the 6/17 FOMC + dot plot.** A 20Y tail into a hawkish FOMC is the path that re-arms the long-end leg.
