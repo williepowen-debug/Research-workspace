@@ -6,6 +6,28 @@
 
 ---
 
+## 2026-06-14 ~20:58 ET — Protocol-prune closeout before reboot
+
+**Status:** Prome startup/handoff cleanup completed and pushed. Safe for Will to reboot into the new lighter boot path.
+
+**What landed this session:**
+- `0c012e29 PROME add Jun15 week card and audit cleanup`
+- `de95ae74 PROME clear resolved heartbeat blocker`
+- `2d3c0216 PROME merge handoff surfaces`
+- `b0736265 PROME harden boot and closeout protocols`
+
+**Operational changes:**
+- `PROME/HANDOFF.md` is now the single live cross-runtime handoff surface.
+- `PROME/CLAUDE_CODE_HANDOFF.md` is a pointer stub; old history is archived at `PROME/archive/HANDOFF_2026Q2.md`.
+- `PROME/BOOT.md` now checks repo status before pull/rebase and makes `FLEET_SCAN` / inbox scans conditional.
+- `PROME/CLOSEOUT.md` now uses correct `git commit -m ... -- <paths>` syntax and treats push as Will-gated.
+
+**Next reboot:** follow `PROME/BOOT.md` from `HEAD = origin/master = b0736265` or later. Highest practical follow-up is still position-state reconciliation before Jun18/19 expiry cleanup, if Will wants trade hygiene.
+
+**Guardrails:** no agent edits made; no trade work done; broker/position truth unreconciled; HYG Jun $75P dead/not actionable; pathspec-only git.
+
+---
+
 ## 2026-06-14 ~20:40 ET — Handoff surface merge/prune
 
 **Status:** Consolidated duplicate continuity surfaces.
@@ -74,17 +96,3 @@
 - First full two-machine merge + push validated: disjoint dirs, rebase clean, push synced.
 
 **Forward decisions:** fleet git-update propagation; separate-clones post-6/16; live carries unchanged at that time.
-
----
-
-## 2026-06-02 ~10:55 ET — OpenClaw Prome boot-surface + HEARTBEAT closeout
-
-**Status:** Boot-surface cleanup and HEARTBEAT refresh completed/pushed.
-
-**What changed:**
-- Prome state rehab package completed and pushed: `SCRATCH`, `TODAY`, `STATUS`, `FLEET_SCAN`, `ACTIVE_DECISIONS`.
-- WALTER Jun2 Iran-anchor refresh landed during rebase; Prome surfaces carried corrected narrative-fork + kinetic-acceleration frame.
-- SENTRY scheduled feed pushes disabled; manual `workflow_dispatch` preserved.
-- Root `HEARTBEAT.md` refreshed after live dashboard pull.
-
-**Guardrails carried forward:** no trade recommendations/execution during cleanup; old May trade/action rails verification-required until broker/Will reconciliation; stage explicit files only.
