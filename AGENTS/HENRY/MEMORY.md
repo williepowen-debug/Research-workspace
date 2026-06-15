@@ -71,7 +71,7 @@
 
 ### GAPS — PERSISTENT
 - **0DTE SPX share + GEX regime** STILL PENDING (7+ sessions). Manual estimate acceptable.
-- **VX.tsv duplicate ID collision** — VX-HEN-19.01-.06 used twice (modernization Phase A2; NOT done).
+- ~~VX.tsv duplicate ID collision~~ **RESOLVED 6/15** — Batch B oil-shock 19.01–.07 renumbered → 21.xx in place (lossless, schema-preserving; NOT moved to VX_HISTORY — that's 6-col lossy vs VX's 13-col). KB/FLOW/internal-20.xx cross-refs remapped **per-ref** (Batch-A-targeting refs kept 19.xx; the 6 split tokens were the trap). MODERNIZATION_PLAN A2 done. [next closeout: prune this line]
 
 ### INFRASTRUCTURE NOTES
 - 6/15: **`scripts/boot.py` v1 LIVE** — `.venv/bin/python3 AGENTS/HENRY/scripts/boot.py` (`--quick`/`--verbose`/`--selftest`). Read-only: live tape (fetch.py) + FRED credit + predictions-due scan. Run it at boot. **NOT a boot STEP yet** (CLAUDE.md wiring deferred, eval-gated).
