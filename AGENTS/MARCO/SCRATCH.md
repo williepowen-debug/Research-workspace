@@ -15,14 +15,22 @@ Five passed catalysts caught up (the gap was ~7 days). Two CORRECT my own prior 
 2. **Pull Session 2/3** — pulled + verified against primaries (StatCan Daily, BLS via Fox, NBC/CNBC on the ICE bill, AHLA on WC, Census on starts). Full findings reported to Will in-session.
 3. **Partial integration PUSHED** (Will wanted the orchestration layer to read MARCO's current view): **STATUS.md** (6/15 READ-FIRST block + ICE row + Canadian rows + Air Transat date + predictions MAR-14/MAR-26 + composite), **NEXUS_BRIEF.md** (full refresh — ICE-now-law, stack convergence, WC flop, construction channel, forward catalysts re-dated, ES-MARCO-08→June), **SCRATCH.md** (this).
 
-## ⚠️ PENDING FOLLOW-UP WRITE-BACK (NOT yet done — next session)
-The perspective surface (STATUS/NEXUS_BRIEF) is current, but the deeper write-back is outstanding:
-- **PREDICTIONS.tsv** — formal resolution of MAR-01/18/26 at Jun-30 close; sync MAR-14/MAR-26 confidence (78%) from STATUS. Current reads: MAR-18 CONFIRM (capacity), MAR-26 lean-CONFIRM, MAR-01 lean-MISS.
-- **VX.tsv / KB.tsv** — new rows for: ICE-funding-law (SDL), construction-raid channel, StatCan-May-stack, May-CPI-F&V, WC-host-city-hotels. Changed levels to VX.
-- **docket/CATALYSTS.tsv + CALENDAR.md** — re-date the 4 passed catalysts; Air Transat Jun 13→Jun 30; prune resolved to TIMELINE.
-- **thesis/CHANGELOG.md + THESIS.md** — log the Channel-1 re-lock (ICE contested→law) as a conviction bump; consider v2.4→v2.5 (Channel-1 enforcement-flow now law + construction-raid leg formalized).
-- **EXPECTED_SIGNALS.md** — ES-MARCO-08 → June CPI; ES-MARCO-09 → leans FAIL (advance signals); ES-01 mask-weakening note.
+## SESSION 14 (6/15 PM) — Orc/Prome review cleanup applied
+Two independent reviewers (Orc + Prome) verified the session-13 push against primaries, signed off on direction + the headline (ICE now law), and returned a 3-layer cleanup packet. Caught 2 real errors of mine (over-transcribed $38B/$26B as enacted; transcribed garbled "South starts −11%" — Census primary shows South SF starts −2.7%, the *smallest* regional decline, which runs AGAINST the raid signal) + a half-done CONTESTED-staleness sweep + an overclaimed "& worsening" (May stack actually stabilized −30.0→−28.7).
+
+**✅ LAYER 1 + LAYER 3 APPLIED & COMMITTED this session (surface files):**
+- STATUS.md — all 5+ stale CONTESTED refs → signed-into-law; $38/$26 marked "pre-trim proposal, pending signed-text reconciliation"; 2028→Jan 2029; Air Transat Jun 13→30; READ-FIRST housing rewritten (mechanism-only, geography-against); Canadian row drop-"worsening"+thaw-watch; MAR-26 row re-based 78→**74** (mechanism-only); unresolved ICE row → RESOLVED 6/10.
+- NEXUS_BRIEF.md — 2028→Jan 2029; housing reframed; Jun-13→30; interim-warning line added near As-of.
+- docket/CATALYSTS.tsv — pruned 4 resolved/phantom rows (ICE floor-vote, May CPI, StatCan May, WC-opens), added 2026-07-15 June-CPI fork, re-sorted by date.
+- docket/CALENDAR.md — ICE-now-law blurb, StatCan/CPI rows → resolved, Air Transat Jun 30, floor-vote row → resolved.
+- EXPECTED_SIGNALS.md — ES-08 → ~Jul 15, status WATCHING-May-indeterminate, full rewrite.
+- thesis/PREDICTIONS.tsv — MAR-26 note re-based to 74 (mechanism-only); MAR-18 → lean-CONFIRM, Jun-13→30.
+
+## ⚠️ PENDING — next steps (in order)
+- **LAYER 2 — ECHOED to Will/Orc, awaiting sign-off before commit:** thesis/CHANGELOG.md (new v2.4→v2.5 entry) + thesis/THESIS.md (version bump + funding-passage replacement + EXIT-note) + thesis/TIMELINE.md (Jun-13→30 fix, add 2026-06-10 signed-into-law row, log pruned catalysts). NOT yet edited — holding for confirmation.
+- **WORKBOOK VX.tsv / KB.tsv** — new rows for ICE-funding-law (SDL), construction-raid channel, StatCan-May-stack, May-CPI-F&V, WC-host-city-hotels. After Layer 2.
 - **MAINTENANCE.md** punchlist (9 items from 6/8) still open.
+- Open verifications (DVQ) for write-back: enacted ICE/CBP sub-split (signed-text); fresh-F&V vs aggregate BLS line; Brent $91→$83 (BRENT-owned).
 
 ## NEXT SESSION
 1. **Jun 16 (Tue) Census May housing starts** — South region = MAR-26 threshold confirm.
@@ -46,4 +54,5 @@ The perspective surface (STATUS/NEXUS_BRIEF) is current, but the deeper write-ba
 Inbox empty. **Outbox: 1 still pending** — `2026-06-08_to-NEXUS-CARL_worldcup-dual-mask.md` (awaiting HERMES). The WC-dual-mask flag now partly DE-RISKS per 6/15 (hotels below forecast) — NEXUS_BRIEF carries the update; consider whether the outbox file needs a follow-on note.
 
 ## PUSH STATE
-**6/15: Will opened a coordinated push window** so the orchestration layer can read MARCO's current view. Pushed session-13 commit (STATUS + NEXUS_BRIEF + SCRATCH) — MARCO dir was clean at boot, only my own files staged via pathspec. HENRY actively working in another window (memory files uncommitted — NOT touched). Tree synced to origin after push.
+**6/15 session-13:** pushed (be55344c) in a Will-coordinated window — STATUS+NEXUS_BRIEF+SCRATCH+docket; carried HENRY's 52a70d85 in the push-train (his working-tree edits untouched).
+**6/15 session-14: LAYER 1+3 COMMITTED LOCALLY, push DEFERRED** (no coordinated window open). Pathspec commit, my files only. Do NOT push until Will coordinates. Layer 2 + workbook still pending (see above) — next push window should sweep all of it. HENRY still active (memory files uncommitted — NOT touched).
