@@ -3,7 +3,7 @@
 **Status:** 🟡 — Cyclical axis SOFT-KILLED on the CPI gate (core +0.2% MISS); structural credit-bifurcation axis confirmed but DORMANT; FOMC dots 6/17 the live re-arm
 **Domain:** US market structure + macro data (CPI/PPI/PCE/ISM/NFP) + vol regime (gamma/0DTE layer; VIOLET owns vol broadcast) + equity positioning. Edges: receives energy→CPI (BRENT), vol regime (VIOLET), carry/BOJ (SAM), employment (LABOR); sends term-premium (LIQUID), credit-equity (REGINALD/BROCK), wealth-effect (CARL)
 **Recent thesis pivot:** Hot-NFP cyclical re-arm (6/5) → cyclical SOFT-KILL on soft core CPI (6/10) — the hot headline CPI/PPI were ~80% energy and energy is collapsing, so the market looked through them
-**As of:** 2026-06-15 ~11:00 ET | STATUS commit: 3d4ae40a
+**As of:** 2026-06-15 ~11:15 ET | STATUS commit: 39e4aa8e
 
 ---
 
@@ -11,7 +11,7 @@
 
 - **CPI gate MISS — cyclical inflation leg did NOT re-arm.** May core +0.2% MoM / +2.9% YoY (vs +0.3%); market resolved the labor/inflation divergence toward the soft core: vol crushed, SPX fresh highs **7,551**, 10Y eased to **4.45** (below the 4.5% yellow). HEN-32 MISS.
 - **Hot headline CPI (+4.2%) / PPI (+1.1%) were ~80% ENERGY** and looked through as transitory (Brent collapsed $91→$83). *Cross-check: BRENT confirms energy >60% of the CPI increase, gasoline +40.5% YoY — same read.*
-- **Structural credit-bifurcation axis CONFIRMED but DORMANT.** CCC−BB 787 (sole tier widening 1yr; +6 rolling-90d, first uptick in weeks) — NOT transmitting to equity (KRE/WAL/APO all up, HY not underperforming IG). The trap that hasn't sprung.
+- **Structural credit-bifurcation axis CONFIRMED but DORMANT.** CCC−BB 786 [FRED 6/12] (sole tier widening 1yr; gap flat this week, ratio still rising to 5.85× as CCC tightens least) — NOT transmitting to equity (KRE/WAL/APO all up). Note the *headline* HY tightened to 271, **11bps from the 260 soft-kill** — blended credit complacent-and-tightening even as the CCC tail stays wide.
 - **VIX soft-kill leg re-approaching:** 16.2, cushion **1.2 to the <15 arm** (VIX9D already through 15). Vol fully unwound. *VIOLET 6/12: M1:M2 +9.41% COMPLACENCY-TOP, but SKEW HELD 142.6 = coiled-spring tail intact (KB-VIO-099).*
 - **Alts complex (APO/ARES >$138, entrenched ×5 sess)** = zero public stress — corroborates structural-axis-not-transmitting.
 
@@ -36,8 +36,8 @@
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
 | BROCK | APO/ARES entrenched >$130 ×5 sess (~$138) — your re-entrenchment trigger met → "reassess Dec $95P" (your rule). APO strength = alts resilient = thesis-SOFTENING, not a bear signal | 🟠 | Re-evaluate the alts put thesis; alts complex pricing no public stress |
-| REGINALD/BROCK | Credit bifurcation CCC−BB 787 drifting wider (+6/90d, first uptick in weeks) — public-market corroboration of private-credit stress | 🟡 | Public tail confirms the private-credit K-split; not transmitting to equity yet |
-| LIQUID | 10Y 4.45 eased below 4.5% post-soft-CPI; term-premium quiet. A hawkish-of-pricing FOMC backs yields up | 🟡 | Duration/term-premium channel; UST repricing on the dot plot |
+| REGINALD/BROCK | Credit bifurcation CCC−BB 786 [FRED 6/12] (gap flat this week; ratio 5.85× rising) — public corroboration of private-credit stress. **Headline HY tightened to 271, 11bps from the 260 soft-kill** | 🟡 | Public tail confirms private-credit K-split (dormant); HY complacency reinforces soft-kill |
+| LIQUID | 10Y 4.45 eased below 4.5% post-soft-CPI; term-premium quiet; HY OAS 271 tightening. A hawkish-of-pricing FOMC backs yields up | 🟡 | Duration/term-premium channel; UST repricing on the dot plot |
 | CARL | SPX fresh highs 7,551 — no wealth-effect reversal (−10%-from-peak not in play) | 🟢 | Consumer wealth-effect channel quiet |
 | VIOLET | Gamma/0DTE layer (HENRY-retained): vol-control cushion 6.83 = cascade step-1 dormant; put-wall quiet. (Vol-regime broadcast is yours) | 🟢 | Dealer-gamma amplifier inactive above the flip |
 
