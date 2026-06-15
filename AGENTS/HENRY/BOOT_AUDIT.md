@@ -20,7 +20,7 @@ HENRY runs the **leanest, most manual boot in the macro cluster** — a 3-step *
 | State-claim convention (`[src M/D]` + `STATE [as-of @ level]`) | ✅ **(HENRY-pioneered)** | partial | partial | partial |
 | Bespoke domain tool (credit bifurcation monitor) | ✅ | ✅ (vol surface) | ✅ (JGB/CFTC) | ✅ (EIA/storage) |
 
-*HENRY already HAS the raw materials* — `scripts/refresh_status.py`, `scripts/update_data.py`, `scripts/credit_monitor.py` — they're just **not assembled into a boot.py and not invoked as a boot step.**
+*HENRY already HAS the raw materials* — `scripts/update_data.py`, `scripts/credit_monitor.py`, and `FORGE/tools/market-data/fetch.py` — they're just **not assembled into a boot.py and not invoked as a boot step.** *(Note: `refresh_status.py` was RETIRED 2026-06-15 — stale writer with a hardcoded Signal-Status narrative; NOT usable raw material. See MAINTENANCE.md.)*
 
 ## BOOT READ-PHASE, SIDE BY SIDE
 - **HENRY (3 steps, read-only):** STATUS → LESSONS → MEMORY → *Execute*. No data is pulled, nothing is scanned. Freshness depends entirely on the operator remembering to pull live.
@@ -38,9 +38,9 @@ HENRY runs the **leanest, most manual boot in the macro cluster** — a 3-step *
 - **LESSONS.md** as a dedicated boot-read file (others fold lessons into MEMORY) — explicit mistake-pattern surface.
 - **Cascade methodology** depth (mechanical selling layers, gamma/0DTE feedback).
 
-## RECOMMENDATIONS (priority-ordered)
-1. **🔴 Build `scripts/boot.py`** (highest leverage; ~½ session). Assemble the existing scripts into one ~10s boot kit: live tape (refresh_status), FRED credit (credit_monitor --json), **predictions-due scan** (parse PREDICTIONS.tsv for Resolve_Date ≤ today + status OPEN/ACTIVE), and a **catalyst countdown**. Directly prevents failure #1. Pattern proven by SAM/BRENT/VIOLET + auto-memory `[[finding_boot_py_cadence_skip_pattern]]`.
-2. **🔴 Adopt `NEXUS_BRIEF.md`** (mandatory-every-session). Without it HENRY is invisible to the NEXUS cross-agent synthesis layer and gets peer reads only when someone hand-delivers them (as happened today). Prevents failure #2's class.
+## RECOMMENDATIONS (priority-ordered) — *#1 + #2 SHIPPED 2026-06-15*
+1. **✅ DONE — `scripts/boot.py` v1** (shipped 6/15). Boot kit: live tape (**fetch.py** real-time quotes, NOT refresh_status), FRED credit (credit_monitor), **predictions-due scan** (PREDICTIONS.tsv resolve-date ≤ today + OPEN/ACTIVE; selftest passes). Catalyst countdown = fast-follow (needs CATALYSTS.tsv). Pattern proven by SAM/BRENT/VIOLET + auto-memory `[[finding_boot_py_cadence_skip_pattern]]`.
+2. **✅ DONE — `NEXUS_BRIEF.md`** stood up 6/15 (closed BRIEFS_MAP Priority-#2 gap). *Note: the artifact makes HENRY visible to NEXUS; the boot/closeout WIRING (HENRY reads peer briefs at boot + writes its own at closeout) is the deferred CLAUDE.md change that closes failure #2's class — see #4-tier below.*
 3. **🟠 Add a single-source catalyst docket** (`CATALYSTS.tsv` machine feed + human twin), so a passed/upcoming print can't be silently missed. (SAM/BRENT pattern; auto-memory `[[finding_boot_predictions_scan]]` names HENRY.)
 4. **🟠 Add the live-event EXECUTE-override** to the protocol (VIOLET/SAM/BRENT have it; my boot still says "CLOSEOUT every session end," which pulls toward closing out mid-event — auto-memory `[[finding_boot_protocol_live_event_override]]`).
 5. **🟡 Promote the discipline overlay into the protocol** (not just LESSONS): "one source of truth per metric; reference the owner's value with `[CONF <agent> M/D]`; stale-marked > carried-forward; re-verify any '[agent] is stale' claim against that agent's file header before repeating it."
