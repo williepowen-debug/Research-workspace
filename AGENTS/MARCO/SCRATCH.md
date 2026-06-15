@@ -1,5 +1,5 @@
 # MARCO SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-15 ET (session 15 CLOSE — reboot onto clean session-14 state; 2nd ORC/Prome cleanup loop + FLL data unblocked + doc-hygiene trio + 2 decide-items; all committed & PUSHED across 3 Will-coordinated windows)
+**Last Updated:** 2026-06-15 ET (session 15 CLOSE — reboot onto clean session-14 state; 2nd ORC/Prome cleanup loop + FLL data unblocked + doc-hygiene trio + 2 decide-items; all committed & on origin across 4 push windows/trains)
 
 ## CHANGES SINCE (session 14 → 15)
 Same-day reboot — nothing moved externally while offline. The reboot landed onto the clean, pushed session-14 state (origin was at `6ed25b4f`). All session-15 work is cleanup + thread-finishing on that base.
@@ -36,9 +36,9 @@ Same-day reboot — nothing moved externally while offline. The reboot landed on
 Inbox empty. **Outbox: 1 pending** — `2026-06-15_to-CARL_worldcup-mask-derisks.md` (awaiting HERMES; corrected de-risked read for CARL, who's not on the NEXUS_BRIEF system). The stale 6/8 `to-NEXUS-CARL_worldcup-dual-mask.md` draft was **retired** (gio trash + committed deletion) — wrong tilt after the WC flop; NEXUS covered via NEXUS_BRIEF.
 
 ## PUSH STATE
-**6/15 session-15: prior windows all on origin; one commit pending.** (Behavior-language over head-pins — hashes decay; per-commit hashes below are stable history.)
+**6/15 session-15: ALL session-15 MARCO work on origin; tree clean, synced.** (Behavior-language over head-pins — hashes decay; per-commit hashes below are stable history.)
 - ✅ ON ORIGIN — window 1: `f4793698` (THESIS L117 + CLAUDE.md path) · `53f1b811` (handoff sweep) · `ec731065` (PUSH-STATE true-up).
 - ✅ ON ORIGIN — window 2: `0d89668c` (FLL data) · `ecafc2c8` (doc-hygiene trio) · `72014a5d` (outbox retire/replace) · `a8085b78` (slaughter baseline).
 - ✅ ON ORIGIN — window 3: session-15 closeout `a6428d7c` (rebased from `7e8b4643` onto Prome `a2b30530` + SHADE `97225913` — disjoint, no conflicts; SHA-rewrite = normal rebase churn) + `c14d8bf2` true-up.
-- ⏳ **PENDING — window 4:** NEXUS_BRIEF BRENT-coupling rows re-dated Jun-10 → ~Jul-15 (Prome/ORC catch — aligned SENDING/catalyst rows with the rest of the brief) + this SCRATCH hash true-up. No urgency (Prome: Jun-16 fine, sooner only if a NEXUS read is imminent) — ride the next coordinated window.
+- ✅ ON ORIGIN — window 4: `6b9fd972` NEXUS_BRIEF BRENT-coupling rows re-dated Jun-10 → ~Jul-15 (Prome/ORC catch — aligned SENDING/catalyst rows w/ rest of brief) + SCRATCH hash→behavior-language. Swept to origin via HENRY's push-train (verified ancestor of origin/master).
 - HENRY had uncommitted work in the tree earlier this session (`AGENTS/HENRY/STATUS.md`, `evals/`) — left untouched per isolation rules; tree was clean by closeout. Flag to whoever runs HENRY if it reappears.
