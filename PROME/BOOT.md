@@ -49,17 +49,17 @@
 
 > **Boot ↔ closeout are mirror halves:** most surfaces read here have a write-back pair in `CLOSEOUT.md` (SCRATCH, TODAY, STATUS, ACTIVE_DECISIONS, HANDOFF when continuity changes). Pairing table lives in `CLOSEOUT.md` § Boot↔Closeout symmetry — it also names the intentionally one-way surfaces (FLEET_SCAN refresh-on-demand; COMM/inbox ACK-inline).
 
-0. **`git pull --rebase`** — sync Claude Code agent changes before reading anything. If blocked by dirty/untracked files, **stop and read handoff/status first; do not stash, commit, reset, or force without Will approval.**
-1. **Read `PROME/SCRATCH.md`** — session handoff from last Prome. What's hot, what's unfinished.
-2. **Read `PROME/TODAY.md`** — today's catalysts, levels, task checklist.
-3. **Read `PROME/STATUS.md`** — agent health, pending actions, priorities.
-4. **Read `PROME/FLEET_SCAN.md`** — latest fleet situation report (agents, catalysts, open loops, top moves). If absent or stale (>1 day), spawn a `fleet-scanner` subagent per `PROME/ORCHESTRAL_LAYER_DESIGN.md`.
-5. **Read `PROME/ACTIVE_DECISIONS.md`** — non-terminal decisions with state, owner, next action, backstop, and source. Use this to catch approved-but-unexecuted items before doing new research.
-6. **If working on Claude Code Prome, read `PROME/CLAUDE.md`, `PROME/CLAUDE_CODE_PROME.md`, `PROME/CLAUDE_CODE_PROME_PLAN.md`, and `PROME/CLAUDE_CODE_PROME_TASKS.md` before editing.** The task ladder is the restart-safe implementation source of truth.
-7. **Read `PROME/HANDOFF.md` after clears, after known Claude Code Prome work, or before `/clear`/`/new`.** Claude Code and OpenClaw Prome both write concise continuity here; older entries live in `PROME/archive/`.
+0. **Check repo state first:** `git status --short` + ahead/behind. If clean and no known concurrent-agent risk, `git pull --rebase`. If dirty/untracked, **do not stash, commit, reset, pull, or force** just to boot; read local continuity first and ask/triage.
+1. **Read `PROME/HANDOFF.md`** — latest cross-runtime continuity, especially after clears or known Claude Code Prome work. Read only the top 3–5 live entries; older history is archived.
+2. **Read `PROME/SCRATCH.md`** — immediate session handoff from last Prome. What's hot, what's unfinished.
+3. **Read `PROME/TODAY.md`** — today's catalysts, levels, task checklist.
+4. **Read `PROME/ACTIVE_DECISIONS.md`** — non-terminal decisions with state, owner, next action, backstop, and source. Use this to catch approved-but-unexecuted items before doing new research.
+5. **Read `PROME/STATUS.md`** — agent health, pending actions, priorities.
+6. **Read `PROME/FLEET_SCAN.md` only when needed** — market/fleet work in scope, another surface points to it, >1 day stale during market week, or Will asks for fleet/state audit. If absent or stale and decision-relevant, spawn a `fleet-scanner` subagent per `PROME/ORCHESTRAL_LAYER_DESIGN.md`.
+7. **If working on Claude Code Prome, read `PROME/CLAUDE.md`, `PROME/CLAUDE_CODE_PROME.md`, `PROME/CLAUDE_CODE_PROME_PLAN.md`, and `PROME/CLAUDE_CODE_PROME_TASKS.md` before editing.** The task ladder is restart-safe implementation context, not normal Telegram/OpenClaw boot material.
 8. **Check `PROME/COMM/TO_CLAUDE_CODE/`** — Prome-to-Prome mailbox from OpenClaw/Telegram Prome. Read any message not yet matched by an ACK in `PROME/COMM/ACKS/`. Prioritize `urgent` / `high`. Write an ACK (new file in `PROME/COMM/ACKS/`, do **not** edit the source message) with status `acknowledged` / `completed` / `blocked`. Protocol: `PROME/COMM/PROTOCOL.md`. Cold-boot guide: `PROME/COMM/README.md`.
-9. **Scan inbound signals — two surfaces:** (a) `AGENTS/PROME/inbox/` (direct inbox), and (b) **`AGENTS/*/outbox/*to-PROME*`** — domain agents route via their own outbox (Convention B) to sidestep the cross-agent-inbox-write gate, so PROME must *actively scan* these; they will not arrive in the inbox (per auto-memory `[[feedback_scan_agent_outboxes_at_boot]]`). Flag anything that changes priorities.
-10. **Score and rank** — use the ranking rubric in `PROME/ORCHESTRAL_LAYER_DESIGN.md` (Position Proximity ×2, Time Pressure ×1.5, Blindness Risk, Convergence, Decay Rate, System Freshness). Apply to candidate moves; honor the four anti-patterns (busywork, loudness, completionism, recency bias). Internal — don't show Will the math.
+9. **Scan inbound signals if doing operational work:** (a) `AGENTS/PROME/inbox/` (direct inbox), and (b) **`AGENTS/*/outbox/*to-PROME*`** — domain agents route via their own outbox (Convention B) to sidestep the cross-agent-inbox-write gate. Flag anything that changes priorities. Skip for narrow doc-only sessions unless the handoff/scratch points here.
+10. **Score and rank only when proposing work** — use the ranking rubric in `PROME/ORCHESTRAL_LAYER_DESIGN.md` (Position Proximity ×2, Time Pressure ×1.5, Blindness Risk, Convergence, Decay Rate, System Freshness). Apply to candidate moves; honor the four anti-patterns (busywork, loudness, completionism, recency bias). Internal — don't show Will the math.
 11. **Be proactive:** Flag catalysts within 24h, stale agents, pending decisions, blocking items.
 12. **Present top proposals** when Will checks in (max 5 per batch, ranked by score).
 
@@ -152,11 +152,13 @@ Outputs: Convergence reports, contradiction flags, threshold proximity matrix
 **Prome pathspec commits (no staging step for modified files):**
 ```bash
 # modified files — path-scoped commit:
-git commit PROME/SCRATCH.md PROME/STATUS.md -m "PROME: ..."
+git commit -m "PROME: ..." -- PROME/SCRATCH.md PROME/STATUS.md
 # new untracked files — atomic add+commit of EXPLICIT paths (never `git add PROME/` as a directory):
-git add PROME/<newfile> && git commit PROME/<newfile> -m "PROME: ..."
+git add -- PROME/<newfile> && git commit -m "PROME: ..." -- PROME/<newfile>
+# mixed modified + new files:
+git add -- PROME/<newfile> && git commit -m "PROME: ..." -- PROME/<modified> PROME/<newfile>
 ```
-Stage only the specific files you changed. Shared files (root `CLAUDE.md`, `HEARTBEAT.md`, `FORGE/`, `MEMORY.md`) only with Will approval. Never blanket-add, never directory-add, never `reset HEAD`.
+Stage only the specific new files you changed. Shared files (root `CLAUDE.md`, `HEARTBEAT.md`, `FORGE/`, `MEMORY.md`) only with Will approval. Never blanket-add, never directory-add, never `reset HEAD`. **Option order matters:** put `-m` before `--`; everything after `--` is a pathspec.
 
 ---
 
