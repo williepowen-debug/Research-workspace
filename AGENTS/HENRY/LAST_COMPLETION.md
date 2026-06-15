@@ -27,14 +27,23 @@ The CPI gate (HEN-32) resolved **SOFT** (core +0.2% vs +0.3%) — cyclical axis 
 - **VX.tsv duplicate ID collision** (modernization backlog).
 
 ## COMMITS
-- `6d01f480` — HENRY: 6/15 catch-up — CPI gate MISS (core +0.2% soft), cyclical axis soft-killed, APO BROCK-trigger fired (STATUS + MEMORY + PREDICTIONS)
-- (this closeout doc commit follows)
-- **NOT pushed** — Will-coordinated push window.
+- `6d01f480` — HENRY: 6/15 catch-up — CPI gate MISS, cyclical axis soft-killed, APO trigger fired (STATUS + MEMORY + PREDICTIONS)
+- `b18bb9f8` — HENRY: 6/15 closeout
+- `c2725755` — HENRY: retire trade-position focus (Will 6/15)
+- (Prome/ORC review-corrections commit follows) — **all PUSHED to origin/master** (Will-coordinated window 6/15).
+
+## PROME/ORC REVIEW CORRECTIONS (6/15, folded in)
+- 🔴 **VIOLET was current to 6/12, NOT "stale 6/1"** — my error (re-violated my own "check sibling Last-Updated" lesson; clone WAS current, I didn't re-read her file). Integrated her M1:M2 +9.41%, SKEW-held-142.6 / 20d-141.01, credit-gate (CCC missed 9.55 lift by 1bp).
+- 🔴 **Live tape re-pulled ~10am** — session gapped further risk-on (SPX 7,551, VIX 16.17, APO 138/ARES 140). Soft-kill INTENSIFYING.
+- 🔴 **HEN-33 re-anchored to hawkish-OF-pricing** (0-cut '26 already priced; a 0-cut dot won't move yields).
+- 🔴 **SAM 6/14 BOJ integrated** — modal = vol crush (Ueda absent = guidance risk); spike = ~10% tail.
+- 🔴 **APO→BROCK reframed** "reassess puts" (his rule) not "re-arm" (read backwards for a put against them).
+- 🟡 6/18→Thu, opex→6/19 triple-witch; HEN-32 window −5bps(3-sess)/−9bps(to 6/15); bifurcation +24 quarterly / +26 rolling-90d labeled.
 
 ## NEXT SESSION FOLLOW-UP (catalyst dates)
-- **Tue–Wed 6/16-17 — FOMC + SEP/dot plot (new Chair Warsh).** Hold 98% priced → the DOTS are the catalyst. 0-cut '26 dot (Polymarket 57%, vs Fed's 1) = hawkish, yields back up, cyclical re-arm (HEN-33). This is THE live event.
-- **Tue 6/16 — BOJ decision** (SAM-primary; USD/JPY 160.11 >160).
-- **~Fri 6/19 — Jun opex** (gamma/positioning unwind day — watch for structure-driven vol).
+- **Tue–Wed 6/16-17 — FOMC + SEP/dot plot (new Chair Warsh).** Hold ~99.9% priced → DOTS are the catalyst. **0 cuts '26 already PRICED** (CME ~77.5% / Polymkt 57-70%) → re-arm needs hawkish-OF-pricing; reaffirmed 1-cut = dovish surprise (HEN-33). THE live event.
+- **Tue 6/16 — BOJ decision** (SAM-primary; modal vol-crush, Ueda absent; USD/JPY 160.07 >160).
+- **Fri 6/19 — Jun triple-witching opex** (gamma/positioning unwind day).
 - **~late Jul — BDC Q2 marks (BROCK)** = only live structural-axis test post-FOMC.
 
 ## THESIS SNAPSHOT (frozen at close)
