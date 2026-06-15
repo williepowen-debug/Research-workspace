@@ -39,5 +39,5 @@ Inbox empty. **Outbox: 1 pending** — `2026-06-15_to-CARL_worldcup-mask-derisks
 **6/15 session-15: ALL COMMITS ON ORIGIN** (`origin/master` = `a8085b78`, verified `origin/master..HEAD` empty post-push). Three Will-coordinated push windows this session:
 - ✅ `f4793698` (THESIS L117 + CLAUDE.md path) · `53f1b811` (handoff-surface sweep) · `ec731065` (PUSH-STATE true-up) — window 1.
 - ✅ `0d89668c` (FLL data) · `ecafc2c8` (doc-hygiene trio) · `72014a5d` (outbox retire/replace) · `a8085b78` (slaughter baseline) — window 2.
-- ⏳ **PENDING:** this session-15 closeout commit (VX-APT-01 + MEMORY + NEXUS_BRIEF + SCRATCH) — ride the next coordinated window.
-- HENRY has uncommitted work in the tree throughout (`AGENTS/HENRY/STATUS.md`, `evals/`) — left untouched per isolation rules; flag to whoever runs HENRY.
+- ✅ session-15 closeout commit **ON ORIGIN** as `a6428d7c` (rebased from `7e8b4643` onto Prome's `a2b30530` handoff + SHADE's `97225913` — disjoint paths, no conflicts; SHA-rewrite is normal rebase churn). `origin/master` = `a6428d7c`. This PUSH-STATE true-up rides the same window.
+- HENRY had uncommitted work in the tree earlier this session (`AGENTS/HENRY/STATUS.md`, `evals/`) — left untouched per isolation rules; tree was clean by closeout. Flag to whoever runs HENRY if it reappears.
