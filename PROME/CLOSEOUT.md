@@ -1,8 +1,8 @@
 # PROME CLOSEOUT
 
 **Created:** 2026-05-18
-**Owner:** Prome (CC surface — Claude Code)
-**Purpose:** Repeatable session-end procedure to maintain consistency across CC-Prome sessions. Run before `/clear`, `/new`, or session handoff.
+**Owner:** Prome
+**Purpose:** Repeatable session-end procedure to maintain consistency across OpenClaw + Claude Code Prome sessions. Run before `/clear`, `/new`, or session handoff.
 
 > Companion to `PROME/BOOT.md` (session start) and `PROME/CLAUDE.md` (CC-Prome bootstrap). Follow root `CLAUDE.md` for git protocol details.
 
@@ -29,8 +29,8 @@ Skip for casual one-off exchanges with no artifacts.
 |---|---|---|---|
 | **Bounce** | Mid-day restart for config/tmux/clear/branch; you're coming right back within the hour | SCRATCH addendum (3-5 lines) | No |
 | **Light** | Short session paused for hours; 1-2 artifacts; audit can wait for end-of-day Standard | SCRATCH full rewrite + STATUS surgical | Optional |
-| **Standard** *(default)* | End-of-thread or end-of-day; multi-artifact session | All Chunk 1 + Chunk 2 daily log + Chunk 4 commit/push | Yes |
-| **Heavy** | Pattern-discovery session; new lessons/designs to fold | Standard + auto-memory + design-docs + Chunk 3 residuals | Yes |
+| **Standard** *(default)* | End-of-thread or end-of-day; multi-artifact session | All Chunk 1 + Chunk 2 daily log + Chunk 4 commit; push only if Will approves | Yes, push gated |
+| **Heavy** | Pattern-discovery session; new lessons/designs to fold | Standard + auto-memory + design-docs + Chunk 3 residuals | Yes, push gated |
 
 End-of-day always runs at least Standard so the audit trail catches up. 10 Bounces + 1 end-of-day Standard = no audit gap, just a rollup HANDOFF entry covering the day.
 
@@ -145,16 +145,18 @@ If none triggered, skip.
 ```
 git status --short                                       # check scope
 # modified files — path-scoped commit, NO staging step (never `git reset HEAD`):
-git commit PROME/<file> PROME/<file> -m "PROME: <subject>"
+git commit -m "PROME: <subject>" -- PROME/<file> PROME/<file>
 # new untracked files — atomic add+commit of EXPLICIT paths (never `git add PROME/` as a directory):
-git add PROME/<newfile> && git commit PROME/<newfile> -m "PROME: <subject>"
-git pull --rebase                                        # only if push rejected
+git add -- PROME/<newfile> && git commit -m "PROME: <subject>" -- PROME/<newfile>
+# mixed modified + new files: add only new explicit paths first, then commit all explicit paths:
+git add -- PROME/<newfile> && git commit -m "PROME: <subject>" -- PROME/<modified> PROME/<newfile>
+git pull --rebase                                        # only if push rejected or before push when safe
 git push                                                 # only on Will's explicit push call
 ```
 
 **Never `git reset HEAD`** — shared `.git/index` makes it a global unstage that races concurrent agents (auto-memory `[[finding_pathspec_commit_race_safety]]`, incident `8ac5bf71`). Matches root `CLAUDE.md` "Before committing". **Pushing is a separate gate** — commit locally freely, but push only when Will coordinates it (concurrent agents may have unpushed local commits; `[[feedback_defer_push_coordinate]]`).
 
-Commit message style: subject = `PROME: <short one-liner>`; body explains WHY not WHAT; include `Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>` trailer.
+Commit message style: subject = `PROME: <short one-liner>`; body explains WHY not WHAT when useful. **Option order matters:** put `-m` before `--`; everything after `--` is treated as a pathspec.
 
 If working tree outside `PROME/` is dirty (other agents' uncommitted work): commit your work, defer push, note pending push in `memory/YYYY-MM-DD.md` per root CLAUDE.md.
 
@@ -192,13 +194,12 @@ One short message:
 | `PROME/SCRATCH.md` | Full rewrite |
 | `PROME/STATUS.md` | Surgical update |
 | `PROME/ACTIVE_DECISIONS.md` | Surgical if a decision moved (boot step 5 pair) |
-| `PROME/HANDOFF.md` | Append/rotate concise continuity entry when needed |
+| `PROME/HANDOFF.md` | Append/rotate concise cross-runtime continuity entry when needed |
 | `memory/YYYY-MM-DD.md` | Create or append |
 | `~/.claude/.../memory/` (auto-memory) | Selective add only |
 | `PROME/BOOT.md` | Only if doc-ownership drifted |
 | `PROME/AUTONOMY.md` | Only if autonomy changed |
 | `PROME/FLEET_SCAN.md` | Don't touch at closeout; refreshes on demand |
 | `PROME/ORCHESTRAL_LAYER_DESIGN.md` | Only if prototypes produced feedback |
-| `PROME/TODAY.md` | Usually skip |
-| `PROME/HANDOFF.md` | Only if Telegram-Prome continuity affected |
-| Root `CLAUDE.md`, `HEARTBEAT.md`, other shared | Flag to Will; don't auto-edit |
+| `PROME/TODAY.md` | Usually skip unless date/catalysts/levels moved |
+| Root `CLAUDE.md`, `HEARTBEAT.md`, other shared | Flag to Will; don't auto-edit unless explicitly approved |
