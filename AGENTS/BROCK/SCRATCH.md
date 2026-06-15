@@ -1,6 +1,14 @@
 # BROCK SCRATCH — Forward-State, Watch Order, Session Log
 
-**Purpose:** Forward-looking working state migrated out of STATUS.md (6/15 Phase-3 split). STATUS.md holds the live snapshot; this holds FOLLOW-UP tiers, the watch order, CHANGES-SINCE narrative, and the SESSION LOG. Dated catalysts live in `docket/CATALYSTS.tsv`. **Updated:** 2026-06-15 PM ET.
+**Purpose:** Session-handoff working state — "where are we / what next." Read at boot (after STATUS), refreshed at closeout. Holds NEXT-BOOT moves, FOLLOW-UP tiers, watch order, CHANGES-SINCE, SESSION LOG, and a workbook/mail/git health block. Persistent learnings → `LESSONS.md`; dated catalysts → `docket/CATALYSTS.tsv`; cross-agent → `NEXUS_BRIEF.md`. **Updated:** 2026-06-15 PM ET.
+
+---
+
+## ⚡ NEXT BOOT — FIRST MOVES
+*(this session already DID: APO Annual-Mtg readout, the 6/8→6/15 substance sweep, the APO Dec $95P decision (HOLD), FSK verification, the Phase-3 split, and the ORC adjudication. Those are CLOSED — below is what's actually still open.)*
+1. 🔴 **HY OAS daily proximity** — re-pull primary FRED, confirm ~271 / ~11bps cushion to 260. Grinding toward 260 on risk-on, or stalling? Decision-Tree STEP 1: risk-on compression ≠ thesis-dead → routes to STEP-2 substance check, not auto-kill.
+2. 🔴 **2nd-PE-wrapper-gate window ~7/3** — any Apollo/KKR/BX/Carlyle/GS-AM PE-evergreen redemption cap = cross-asset-class contagion CONFIRMED. **Formalize BRK-29** (still a stub) when checking.
+3. 🟠 **6/30 prediction disposition** — BRK-24 (Athene FY2025 analysis → FALSE if none surfaces, edge persisted) + BRK-01 (PSEC cut/downgrade). BRK-28 already RESOLVED 6/15.
 
 ---
 
@@ -74,3 +82,17 @@
 **2026-06-04 sweep:** BX +7.2% on BCRED filing day; OTF Q1 + BCRED+OCIC memos; LESSONS #17/18/19 added; Tape-substance-divergence vector created; Thesis-Kill Decision Tree codified.
 
 **2026-05-21 revival:** git commit eaf6c218 area.
+
+---
+
+## WORKBOOK HEALTH
+- **KB 142** (BRK-001→158 ex tombstones) · **VX 18** · **FLOW 21**
+- **PREDICTIONS: 15 OPEN + 2 PARTIAL** (BRK-06, BRK-27) post-BRK-28-resolve. **BRK-29 (PE-wrapper 2nd-gate) still a STUB — formalize at ~7/3 window check.**
+- **STATUS 198 lines** (under 250 target post Phase-3 split).
+- ORC 6/15 caught my footer OPEN-count error (16→15) — corrected. Verify-counts-before-propagating.
+
+## MAIL STATE
+- **Inbox: 0 unprocessed.** **Outbox: 16 undelivered** (legacy Apr-Jun files; messaging degraded per `[[project_messaging_overhaul]]` — prefer Will-direct + `NEXUS_BRIEF.md` for cross-agent, not new outbox files).
+
+## GIT (this session — all LOCAL, push deferred to Will-coordinated window)
+`437bbddf` catch-up (tape re-diverged) → `3401bbfd` FSK verify → `c64a28c7` Phase-3 split → `e3cd3ce2` packet-2 catalyst merge → packet-3 SCRATCH/footer (this commit). Push pending next coordinated window per root CLAUDE.md.

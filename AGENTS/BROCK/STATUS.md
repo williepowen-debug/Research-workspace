@@ -195,4 +195,4 @@ Full dated docket + resolved Q1 10-Q verdicts → `docket/CATALYSTS.tsv` (FASTOW
 
 ---
 
-*Forward-state: `docket/CATALYSTS.tsv` · `SCRATCH.md` · `NEXUS_BRIEF.md` | Memos: `OTF_Q1_READ_JUN04.md`, `BCRED_OCIC_Q1_READ_JUN04.md`, `FSK_Q1_READ_MAY21.md`, `NDFI_FRAMEWORK_MAY21.md` | KB: 142 (BRK-001 to BRK-158 ex tombstones) | VX: 18 | FLOW: 21 | Predictions: 29 rows / 16 OPEN (BRK-28 RESOLVED 6/15) | Live tape: `.venv/bin/python FORGE/tools/market-data/dashboard.py --compact`*
+*Forward-state: `docket/CATALYSTS.tsv` · `SCRATCH.md` · `NEXUS_BRIEF.md` | Memos: `OTF_Q1_READ_JUN04.md`, `BCRED_OCIC_Q1_READ_JUN04.md`, `FSK_Q1_READ_MAY21.md`, `NDFI_FRAMEWORK_MAY21.md` | KB: 142 (BRK-001 to BRK-158 ex tombstones) | VX: 18 | FLOW: 21 | Predictions: 29 rows / 15 OPEN + 2 PARTIAL (BRK-28 RESOLVED 6/15) | Live tape: `.venv/bin/python FORGE/tools/market-data/dashboard.py --compact`*
