@@ -23,6 +23,14 @@
 - **What changed:** New `NEXUS_BRIEF.md` from the NEXUS template (schema R3 + amendment 7). NEXUS already reads HENRY's brief at its boot step 6 (HENRY pre-registered) — self-serve, no NEXUS registration needed.
 - **Boot-impact:** Makes HENRY visible to the cross-agent synthesis layer NOW. The reciprocal wiring (HENRY *reads* peer briefs at boot + maintains its own at closeout) is a CLAUDE.md change = **DEFERRED** (eval-triggering; needs a minimal eval suite as a net first).
 
+### 2026-06-15 — BUILT `evals/` suite v1 (the missing net)
+- **Trigger:** No eval suite as a regression net for the deferred CLAUDE.md boot/closeout change. ORC green-light + 4 refinements.
+- **What changed:** New `evals/` — README + results.tsv + 3 cases (INPUT/RUBRIC split, scorer-only rubrics): **01 sibling-staleness (TARGET)**, **02 catalyst-vs-pricing (GUARDRAIL)**, **03 KRE rate-vs-credit (GUARDRAIL)**. Modeled on `AGENTS/SAM/evals/`.
+- **Refinements encoded (ORC):** (1) skip-boot eval can't test a boot STEP — only the judgment PRINCIPLE if it's in the always-loaded surface; eval = regression guard, proof-of-fix = a separate boot smoke-test. (2) target-vs-guardrail roles (promotion bar = target improves AND guardrails hold, not flat no-regression). (3) KRE replaced the 0DTE/GEX case (don't eval a known-weak surface). (4) staleness INPUT written to genuinely tempt the error.
+- **Supporting:** promoted `finding_anchor_prediction_to_surprise_not_priced` to auto-memory so case-02's guardrail principle is in the loaded surface.
+- **Boot-impact:** none (evals don't auto-load).
+- **⏱️ GATE:** the build is done; the **baseline run is Will's (~10 min/case, fresh skip-boot session, can't be delegated)**. Suite is shelf-ware until baselined — and the CLAUDE.md boot-wiring stays blocked until then (fine; it's deferred).
+
 ### DEFERRED (post-FOMC, eval-gated) — boot/closeout protocol wiring
 - Tiered per ORC: (1) **additive** NEXUS read-at-boot / write-at-closeout first (light review — closes the VIOLET-stale miss); (2) behavior-changing logic (live-event EXECUTE-override, staleness overlay into protocol, LAST_COMPLETION-vs-SCRATCH reconcile, catalyst docket) only AFTER a minimal HENRY eval suite exists.
 - Any CLAUDE.md boot/closeout step addition = eval re-baseline trigger; flag to Will/PROME, never silent-ship.
