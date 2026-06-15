@@ -1,11 +1,11 @@
 # PROME STATUS.md
-**Updated:** 2026-06-14 PM ET (OpenClaw Prome — context-weight cleanup / agent-map correction)
+**Updated:** 2026-06-15 00:05 ET (OpenClaw Prome — context-weight cleanup closeout)
 
 ## Core State
 
-**Operational priority:** run from the lighter Jun 14 Prome boot path. Boot/handoff/closeout surfaces have been merged, pruned, and hardened; current work is follow-up cleanup plus decision-support lanes, not unfinished boot rehab.
+**Operational priority:** run from the lighter Jun 14/15 Prome boot path. Boot/handoff/closeout surfaces have been merged, pruned, hardened, and synced; current work is follow-up cleanup plus decision-support lanes, not unfinished boot rehab.
 
-**Current repo reality:** local working tree is intentionally dirty while Will and Prome finish the context-weight cleanup. Prior “clean/synced at boot” was true for the post-push reboot state, but is no longer current. Continue **pathspec-only** staging/commits; push only when Will explicitly approves.
+**Current repo reality:** context-weight cleanup has been committed/pushed. Next boot should verify clean/synced before pull. Continue **pathspec-only** staging/commits; push only when Will explicitly approves.
 
 **Regime source:** use `HEARTBEAT.md` for the current market/regime dashboard and near gates. Do not duplicate full price tables here.
 
@@ -23,7 +23,7 @@
 | `PROME/SCRATCH.md` | Working notes / latest session entry | Current Jun14 closeout/reboot entry point. |
 | `PROME/FLEET_SCAN.md` | Conditional fleet map | Read on demand; not mandatory boot context. |
 | `PROME/HANDOFF.md` | Live continuity surface | Single live handoff; archive holds older Q2 narrative. |
-| `PROME/BOOT.md` / `PROME/CLOSEOUT.md` | Start/end procedures | Slimmed; closeout now manual owner-doc write-back. |
+| `PROME/BOOT.md` / `PROME/CLOSEOUT.md` | Start/end procedures | Slimmed; closeout now manual owner-doc write-back; lean tool-output protocol active. |
 | `MEMORY.md` | Durable kernels | Pruned Jun14; original archived in `memory/archive/`. |
 
 ---
@@ -59,10 +59,10 @@
 
 | Lane | Priority | Status / owner note |
 |---|---:|---|
-| Context-weight cleanup | 🔴 active | Boot/CLOSEOUT/MEMORY pruned; next is STATUS/TODAY/HEARTBEAT dedupe. Current file is part of that pass. |
-| Commit/push cleanup bundle | 🔴 pending Will approval | Do not push until Will approves. Use explicit pathspecs only. |
+| OpenClaw stable update | 🟠 available | Installed `2026.5.6`; npm latest observed `2026.6.6`; beta `2026.6.8-beta.1`. Recommendation: stable update when Will wants maintenance. |
+| TODAY/HEARTBEAT dedupe | 🟠 optional | Next context-weight target if continuing surface cleanup. Keep HEARTBEAT as regime/levels owner; TODAY as operator card. |
 | Position-state reconciliation | 🟠 pending | Needed before Jun18/19 expiry cleanup; broker/Will truth required. Do not infer positions from old rails. |
-| HENRY/NEXUS/WALTER refresh check | 🟠 conditional | Because files were refreshed Jun14, first verify actual content freshness before spawning/asking. Needed only if decision-relevant pre-FOMC. |
+| HENRY/NEXUS/WALTER content-freshness check | 🟠 conditional | Files refreshed Jun14; verify actual content freshness before spawning/asking. Needed only if decision-relevant pre-FOMC. |
 | Separate-clones migration | 🟠 deferred | Post-Jun16/FOMC calm-window decision packet; do not do halfway. |
 | Execution-rails design | 🔵 design debt | HYG Jun→Dec failure remains canonical: thesis needs pre-registered ladders and triggers. |
 
@@ -84,8 +84,7 @@
 
 ## Next Best Action
 
-Finish the context-weight cleanup in this order:
-1. Verify this `STATUS.md` rewrite.
-2. Decide whether `TODAY.md` should become a shorter operator card that points to `HEARTBEAT.md` for levels/gates.
-3. Review the full diff with Will.
-4. Commit/push only on explicit approval.
+Next best lane depends on Will's priority:
+1. OpenClaw stable update/maintenance (`2026.6.6`) if system upkeep is the goal.
+2. Position-state reconciliation if trade/expiry hygiene is the goal.
+3. TODAY/HEARTBEAT dedupe if continuing context-weight cleanup.

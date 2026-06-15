@@ -6,6 +6,26 @@
 
 ---
 
+## 2026-06-15 ~00:05 ET — Context-weight cleanup closeout
+
+**Status:** Prome context surfaces are lighter and synced. Repo should boot clean from latest origin.
+
+**What landed:**
+- `44271ffe PROME: prune context surfaces` — compressed root `MEMORY.md`, archived pre-prune memory, slimmed/clarified `BOOT.md`, corrected `STATUS.md` agent map, added prune plan + weight report.
+- `0147347a PROME: add lean tool output protocol` — compact diagnostics first; full reads/diffs when correctness requires.
+
+**Key decisions / corrections:**
+- Root `MEMORY.md` now holds durable kernels, not historical dossiers.
+- `PROME/STATUS.md` no longer assumes HENRY/NEXUS/WALTER stale from the old map; verify current file content before decision use.
+- Lean tool-output protocol is active to reduce transcript bloat/compaction pressure.
+- OpenClaw update check found installed `2026.5.6`, npm latest `2026.6.6`, beta `2026.6.8-beta.1`; recommendation was stable update when Will wants maintenance.
+
+**Next suggested work:** see `PROME/SCRATCH.md`. Main options: OpenClaw stable update, TODAY/HEARTBEAT dedupe, position-state reconciliation before Jun18/19 expiry cleanup, or HENRY/NEXUS/WALTER content-freshness check if decision-relevant.
+
+**Guardrails:** no `AGENTS/*` edits; no trade execution; broker/position truth unreconciled; push pathspec-only and Will-coordinated.
+
+---
+
 ## 2026-06-14 ~20:58 ET — Protocol-prune closeout before reboot
 
 **Status:** Prome startup/handoff cleanup completed and pushed. Safe for Will to reboot into the new lighter boot path.
@@ -22,7 +42,7 @@
 - `PROME/BOOT.md` now checks repo status before pull/rebase and makes `FLEET_SCAN` / inbox scans conditional.
 - `PROME/CLOSEOUT.md` now uses correct `git commit -m ... -- <paths>` syntax and treats push as Will-gated.
 
-**Next reboot:** follow `PROME/BOOT.md` from `HEAD = origin/master = b0736265` or later. Highest practical follow-up is still position-state reconciliation before Jun18/19 expiry cleanup, if Will wants trade hygiene.
+**Next reboot:** follow `PROME/BOOT.md`. Highest practical follow-up is still position-state reconciliation before Jun18/19 expiry cleanup, if Will wants trade hygiene.
 
 **Guardrails:** no agent edits made; no trade work done; broker/position truth unreconciled; HYG Jun $75P dead/not actionable; pathspec-only git.
 
@@ -37,8 +57,6 @@
 - `PROME/HANDOFF.md` is now the only live continuity surface for both OpenClaw and Claude Code Prome.
 - `PROME/CLAUDE_CODE_HANDOFF.md` is now a pointer stub to avoid broken references.
 
-**Current repo baseline before edit:** `HEAD = origin/master = de95ae74`, ahead/behind `0/0`.
-
 **Next:** commit/push this prune bundle if Will approves. Use pathspec staging only.
 
 **Guardrails:** no agent edits; no trade execution; old rails verification-required; push remains Will-coordinated.
@@ -50,14 +68,14 @@
 **Status:** Boot surfaces coherent and synced from prior commits. Week card was created locally, then later committed/pushed in `0c012e29 PROME add Jun15 week card and audit cleanup`. HEARTBEAT stale blocker cleanup was committed/pushed in `de95ae74 PROME clear resolved heartbeat blocker`.
 
 **What changed:**
-- Confirmed GitHub was clean/synced at boot: `HEAD = origin/master = ac307e0f`.
+- Confirmed GitHub was clean/synced at boot.
 - Will approved creating `PROME/action-cards/WEEK_2026-06-15.md`.
 - Created week card and updated pointers in `PROME/TODAY.md` and `HEARTBEAT.md`.
 - Explained separate-clones migration. Will wants to think longer because agent cross-file visibility/messaging is valuable.
 
 **Current follow-up lanes:**
 1. Position-state reconciliation before Jun18/19 expiry cleanup if Will wants trade hygiene.
-2. HENRY/NEXUS/WALTER stale dependency refreshes if decision-relevant.
+2. HENRY/NEXUS/WALTER dependency refreshes if decision-relevant.
 3. WALTER feed-stack infra request.
 4. Separate-clones migration — defer; preserve pathspec discipline meanwhile.
 5. Prome execution-rails design debt.
@@ -79,20 +97,3 @@
 **Regime encoded:** surface tape de-risked while tail/private/physical stress stayed sticky. HY OAS tight, VIX faded, banks rallied, Brent sub-$90; CCC/SKEW/private-credit/consumer/Japan/physical energy still live.
 
 **Near gates:** BOJ Jun16, FOMC/VIX expiry Jun17, TIC + expiry cleanup Jun18, HYG Jun19 dead/not actionable, HAW-11/T-08 through Jun22, BCRED/Q2/BDC/SAVE late-Jun/Jul.
-
----
-
-## 2026-06-08 — Claude Code Prome heavy infra / git-discipline / two-machine merge
-
-**Run type:** Will-directed Monday-open session that pivoted from week prep to infrastructure/coordination.
-
-**What landed:**
-- Root pathspec discipline and push-is-Will-coordinated fixes.
-- `PROME/BOOT.md` + `PROME/CLOSEOUT.md` hardening.
-- `FORGE/trigger-sets/JUN18_CLUSTER_2026-06-18.md` v0.2.1 with BROCK R2.5 monitoring-only watch-flag.
-- `openpyxl` installed in shared `.venv` for MARCO H-2A fetcher.
-- Fleet git-update list generated; propagation mechanism deferred.
-- Cross-agent `memory/auto/` promotions rescued.
-- First full two-machine merge + push validated: disjoint dirs, rebase clean, push synced.
-
-**Forward decisions:** fleet git-update propagation; separate-clones post-6/16; live carries unchanged at that time.
