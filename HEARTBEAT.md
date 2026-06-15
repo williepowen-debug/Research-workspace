@@ -1,5 +1,5 @@
 # HEARTBEAT.md
-**Updated:** 2026-06-14 PM ET (OpenClaw Prome — post-pull boot-surface refresh)
+**Updated:** 2026-06-14 PM ET (OpenClaw Prome — post-week-card push cleanup)
 
 ## Regime
 
@@ -68,7 +68,6 @@ Current near-gate sources: `PROME/action-cards/WEEK_2026-06-15.md` + `PROME/TODA
 
 | Pri | Decision / Work | Reference |
 |---|---|---|
-| 🔴 | **Commit/push week-card bundle if Will approves.** Local Prome/root/memory changes are expected; do not push without explicit approval. | `PROME/HANDOFF.md`, `PROME/action-cards/WEEK_2026-06-15.md` |
 | 🔴 | **FOMC Jun17 / VIX expiry stack.** Macro resolver if Will wants decision framing; do not auto-trade. | `PROME/TODAY.md`, `PROME/ACTIVE_DECISIONS.md` |
 | 🟠 | **BOJ Jun16 / FXY near-expiry.** Will already chose hold on Jun18 $58C; verify broker/Will before any expiry action. | `AGENTS/SAM/STATUS.md`, `PROME/ACTIVE_DECISIONS.md` |
 | 🟠 | **Jun18/19 expiry cleanup.** HYG dead; TLT/WAL/non-TLT legs require broker reconciliation. | `PROME/ACTIVE_DECISIONS.md` |
