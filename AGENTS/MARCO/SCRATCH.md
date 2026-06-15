@@ -58,4 +58,4 @@ Inbox empty. **Outbox: 1 still pending** — `2026-06-08_to-NEXUS-CARL_worldcup-
 
 ## PUSH STATE
 **6/15 session-13:** pushed (be55344c) in a Will-coordinated window — STATUS+NEXUS_BRIEF+SCRATCH+docket; carried HENRY's 52a70d85 in the push-train (his working-tree edits untouched).
-**6/15 session-14: LAYER 1+3 COMMITTED LOCALLY, push DEFERRED** (no coordinated window open). Pathspec commit, my files only. Do NOT push until Will coordinates. Layer 2 + workbook still pending (see above) — next push window should sweep all of it. HENRY still active (memory files uncommitted — NOT touched).
+**6/15 session-14: ALL COMMITS PUSHED & SYNCED** (Will/Orc-coordinated window). a687a9ca (Layers 1+3) reached origin via an intervening push-train; 859492d9 (Layer 2) + 46fab08e (workbook) pushed this window (26e6ee86..46fab08e). Tree synced to origin, my files only. Orc to run post-push verification against its 5-item queue. HENRY's memory files left uncommitted/untouched throughout.
