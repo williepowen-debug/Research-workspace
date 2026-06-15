@@ -1,162 +1,159 @@
 # SHADE STATUS
 
-**Signal Status:** 🔴 CRITICAL — ESCALATING | **Last Updated:** 2026-03-26 17:45 UTC
+**Last Updated:** 2026-06-15 ET
+**Signal Status:** 🟠 **STRUCTURAL / LATENT INSURER-WRAPPER STRESS** — private-credit fund stress is confirmed by BROCK, but broad systemic confirmation remains unconfirmed by LIQUID credit/funding gauges. SHADE’s job is to test whether fund stress is being absorbed, hidden, financed, or amplified through PE-owned insurers, offshore/captive reinsurance, funding-agreement channels, and rated structured wrappers.
 
-**Summary:** Multiple kill paths ACTIVE simultaneously. NAIC Spring Meeting concluded Mar 24-25 (San Diego) — adopted new PBR reinvestment guardrails targeting PE-backed/offshore reinsurance structures; transparency concerns raised publicly. Egan Jones publicly responded to SEC formal review (Aug 12 deadline), no DOJ update surfaced. Apollo gating $1.5B in redemptions (paying 45¢/$1). APO stock -23% YTD. AG 55 first filings in process. BROCK FFIEC data: full shadow banking exposure = $1.411T domestic Q4 2025 verified (FFIEC RCONJ454, $1,410,736M). BankviewUSA $1.54T was inaccurate. — material upward revision to loss scenarios.
+**Stale-history warning:** The prior live `STATUS.md` was last updated 2026-03-26 and is archived at `AGENTS/SHADE/archive/STATUS_2026-03-26_pre_refresh.md`. Old APO price levels, Jun18 option rails, and March catalyst language are historical unless explicitly refreshed below.
 
 ---
 
-## SIGNAL DASHBOARD
+## 1. Top-line read
 
-| Indicator | Value | Status |
-|-----------|-------|--------|
-| APO stock | ~$104 (-23% YTD, was ~$135 on Mar 3) | 🔴 |
-| Apollo BDC redemption gate | 11.2% requested, 5% paid (45¢/$1) | 🔴 NEW |
-| Athene FABN maturity wall | $16.5B in 2026-2027 | 🔴 |
-| Egan Jones SEC | Formal review + exemptive relief DENIED (Mar 23-24) | 🔴 ESCALATED |
-| Egan Jones BMA status | REVOKED (Jan 2026) | 🔴 |
-| NAIC SVO backstop | Adopted — 3-notch override authority | 🟠 |
-| AG 55 | Effective — first filings NOW (Q1 2026 annual statements) | 🟠→🔴 |
-| PHL Variable | $2.2B hole, entering liquidation | 🔴 |
-| PE-insurer assets (NAIC) | $704.3B across 137 entities | 🔴 |
-| Offshore reserves ceded | $1.1T (doubled since 2019, FSOC) | 🔴 |
-| Eisman public short thesis | "Slow brewing scandal" — PE-insurance nexus | 🔴 NEW |
-| Blue Owl liquidating | $1.4B asset liquidation to pay redemptions | 🔴 NEW |
+Working model: **fund-level private-credit stress has worsened, but insurer-wrapper transmission is not yet proven as a live systemic cascade.** BROCK owns the fund/BDC/gate facts. LIQUID owns HY/funding confirmation. REGINALD owns the bank/NDFI bridge. SHADE owns the balance-sheet wrappers that can make stress look contained until statutory capital, ratings, funding, or regulator confidence breaks.
 
-## CRITICAL DEVELOPMENTS (Mar 3-26)
+Current cross-agent inputs:
+- **BROCK:** Stage 2→3 private-credit/fund stress; gate cluster, public-BDC dividend cuts, default/issuance stress, Partners Group PE-wrapper contagion. `[owner file: AGENTS/BROCK/STATUS.md, 2026-06-08]`
+- **LIQUID:** HY OAS still below broad confirmation; funding plumbing clean; APO >$130 reassess fired but no HY-compression concurrency. `[owner file: AGENTS/LIQUID/STATUS.md, 2026-06-13]`
+- **REGINALD:** NDFI/bank channel remains relevant, but broad bank-cohort deterioration is nuanced/idiosyncratic, not a blanket cascade. `[owner file: AGENTS/REGINALD/STATUS.md, 2026-06-08]`
 
-### 1. Apollo Gating Redemptions (Mar 23) 🔴🔴
-- Apollo Debt Solutions BDC: $14.5B NAV fund
-- 11.2% of shares requested redemption (~$1.5B+)
-- Gated at 5% — paying only $730M (45¢ on the dollar)
-- Peers also gating: Blackstone, Blue Owl, BlackRock, Morgan Stanley
-- Blue Owl halted quarterly redemptions entirely, liquidating $1.4B in assets
-- Apollo MidCap Financial: slashed dividend + marked down assets
-- APO stock: down 23% YTD, fell 2.6% after-hours on gating news
-- **THESIS LINK:** Liquidity stress at fund level → questions about Athene's $69B "liquidity buffer" claim
+**SHADE-specific thesis:** the danger is not simply that private-credit funds gate. The danger is that PE-controlled insurers/captives/rated structures may warehouse, finance, or transform those assets with favorable statutory/rating treatment and less-runnable-looking liabilities until confidence or regulation forces re-pricing.
 
-### 2. Egan Jones SEC Actions (Mar 23-24) 🔴🔴
-- **Mar 23:** SEC ordered FORMAL REVIEW of EJR application to resume ABS + government securities ratings
-  - SEC raised questions about "adequacy of EJR's financial and managerial resources to consistently produce credit ratings with integrity"
-  - Decision deadline: August 12, 2026
-- **Mar 24:** SEC DENIED EJR's exemptive relief from 10% revenue concentration rule (Rule 17g-5)
-  - EJR had one client exceeding 10% revenue threshold in Nov 2025
-  - SEC said "unable to conclude the requested relief is necessary or appropriate"
-  - EJR is only 0.67% of credit rating market by dollar volume
-- **THESIS LINK:** SEC tightening screws on EJR from multiple angles simultaneously. Integrity questions + revenue concentration denial = regulatory squeeze. If NRSRO revocation follows → $350B+ re-rating cascade
+---
 
-### 3. Steve Eisman Goes Public (Early Mar) 🔴
-- Called PE-insurance nexus "a slow brewing scandal which could be one day a great financial crisis"
-- Cited Gober (former state insurance examiner): $7B liabilities backed by ~$200M real assets in one case
-- US captive reinsurance: $12B → $440B in one decade
-- Athene affiliated investments: $10B → $40B in five years
-- Athene short-term deposit-type contracts: $37.9B (duration mismatch risk)
-- **THESIS LINK:** Narrative now entering mainstream. Eisman's 2008 credibility makes this a catalyst for institutional attention.
+## 2. Current evidence update — Phase 3
 
-### 4. NAIC Spring Meeting — CONCLUDED (Mar 22-25, San Diego) 🔴 MATERIAL
-- **PBR Reinvestment Guardrails ADOPTED (APF 2025-16):** Life Actuarial Task Force adopted new reserve guardrails standardizing reinvestment assumptions. BBB-rated bond yields + 0.5% illiquidity premium as baseline. Applied uniformly to PRT segment regardless of insurer strategy — **directly targets PE-backed/offshore reinsurance structures.**
-- **PRT-specific guardrails under additional review:** Heightened scrutiny flagged for PE-backed structures using offshore reinsurance arrangements.
-- **Transparency controversy:** NAIC open meetings policy challenged — critics say key decisions made behind closed doors; consumer advocates calling for livestreaming + recordings. David Snyder (APCIA) called NAIC a "quasi-legislative" entity. Review underway.
-- **NJ + Tennessee NAIC accreditation** announced — both states now formally accredited for insurance regulatory standards.
-- **No direct AG 55 action publicly announced** at meeting — but Q1 2026 annual statement filings (the first AG 55 filings) are now due. Transparency timeline intact.
-- **No specific SVO actions against Athene/Apollo publicly announced** — possible in closed sessions.
-- AG 55 first filing period for Dec 31, 2025 annual statements underway
-- **THESIS LINK:** PBR guardrails adoption = regulatory pressure increasing on exact structures Athene uses. If offshore reinsurance must use standard BBB reinvestment assumptions, Athene's investment spread advantage narrows structurally.
+### Apollo / Athene: current defense is detailed, not a thesis kill
 
-### 5. BROCK FFIEC Data — CRITICAL MODEL UPDATE (Mar 17, 9 days stale)
-- **Total bank NDFI exposure = $1.411T** (FFIEC Q4 2025 domestic, RCONJ454 verified. Prior model: $300B PE funds only — understated ~4.7x. BankviewUSA $1.54T was inaccurate.)
-- Categories (RCON PV05-PV09): Mortgage ($335B), Business Credit ($341B), PE Funds ($344B), Consumer ($113B), Other ($248B)
-- Revised loss scenarios at MS 8% / Zito 65% LGD: **$73.4B** (was $14.4B prior model)
-- UBS stress 15% / Zito 65% LGD: **$137.6B**
-- **SHADE vector:** Blue Owl UK "irregularities" case = fraudulent borrower in captive-adjacent lending chain. If OWL found one, Athene-Apollo chain should be scanned for similar collateral quality failures.
-- APO data center lending = **third vector** on Athene: (1) statutory leverage, (2) class actions, (3) data center reflexive loop
-- APO MFIC at -27.2% NAV discount, 2.6% non-accruals, 4.8% PIK — leading indicator of lending freeze spreading
+Apollo’s Q1 2026 transcript and Athene IR materials materially change the old March framing:
 
-## KEY NUMBERS
+- Apollo says Athene has **95% fixed income**, **90% investment grade**, levered-lending/private-credit exposure **0.4%**, and software exposure **0.1%**. `[Apollo Q1 2026 transcript, 2026-05-06]`
+- Apollo says Athene’s CLO exposure has fallen from north of $40B / ~11% of the balance sheet to **below 8%**, with further decline expected. `[Apollo Q1 transcript]`
+- Apollo introduced **AMAPS** as the replacement structured-credit vehicle: Athene has **$11B / ~3%** exposure and Apollo expects it to double as CLO exposure falls. `[Apollo Q1 transcript; Apollo AMAPS article, 2026-05-06]`
+- Athene IR reports **>$445B total assets**, **$36B regulatory capital**, **$1.7B excess equity capital**, **$72B available liquidity**, and **$6.2B deployable capital** as of 2026-03-31. `[Athene IR, fetched 2026-06-15]`
+- Athene IR confirms a funding-agreement backed notes program and says liquidity includes cash, facilities, committed repos, **$2.4B FHLB borrowing capacity**, and a $53.1B highly liquid asset portfolio. `[Athene IR]`
 
-### Apollo/Athene
-- Athene total GAAP assets: $362.8B
-- Apollo AUM: $930B+
-- Athene drives 60%+ of APO equity value
-- SRE: $3.361B (57% of APO core earnings)
-- Reserve credit from affiliates: $70.79B (40%+ of reserves)
-- ACRA retroceded liabilities: $142.1B
-- FABN program capacity: $35B
-- FABN 2026-2027 maturities: $16.5B
-- Short-term deposit-type contracts: $37.9B
-- Liquidity buffer (claimed): $69B — NOW UNDER QUESTION
-- APO 2025 revenue: $32B (+22.73%), Q4 adj EPS $2.47
+**SHADE read:** old “APO already cracking” language should be retired. But Apollo’s defense redirects the risk map toward **AMAPS/MAPS-type structured credit, private ratings, affiliated/originated assets, funding-agreement opacity, and insurer capital treatment**. If the next credit leg is hidden, it likely hides in the machinery Apollo is highlighting as “de-risking.”
 
-### FABN Maturity Timeline vs Jun 18 Put Expiry
-- Pre-Jun 18: ~$3-4B in H1 2026 maturities (exact tranches need EDGAR pull)
-- Aug 2026: $400M SOFR float + others (~$7.5B total 2026)
-- Mar 2027: $500M @ 3.205% fixed
-- Aug 2027: legacy 2.450% fixed (~$9B total 2027)
-- Refinancing cost: 5.3% vs legacy 2-3% = ~$330M additional annual expense
+### AMAPS / MAPS-type structures: new named watch item
 
-### Industry
-- PE-owned insurer assets: $704.3B (7.8% of $9T industry)
-- PE-backed annuity market share: 35%
-- US captive reinsurance: grew from $12B to $440B in one decade
-- BDC redemption crisis: industry-wide, record requests Q1 2026
+Apollo describes AMAPS as a structured-credit product with thicker equity tranche, ~85% investment-grade rated collateral, CUSIPs, daily pricing/trading, and holders including sovereign wealth investors, institutions, third-party insurers, and Athene/Apollo alignment capital. `[Apollo AMAPS article, 2026-05-06]`
 
-## ACTIVE VECTORS
+**SHADE test:** does AMAPS genuinely reduce credit/funding risk, or does it repackage spread into a more capital-efficient insurance-balance-sheet wrapper? Track ratings, tranche thickness, collateral marks, insurer uptake, and whether MAPS-type securities spread beyond Apollo.
 
-### Vector 1: Liquidity Squeeze (ACCELERATING)
-- BDC gates → questions about broader Apollo liquidity
-- FABN maturity wall requires refinancing at higher rates
-- Short-term deposit-type contracts = $37.9B of runnable money
-- If institutional investors pull Athene deposits → funding gap
+### Blue Owl / Kuvare: pattern remains, but language must be precise
 
-### Vector 2: Egan Jones Collapse (SEC ESCALATING)
-- BMA revoked Jan 2026
-- SEC formal integrity review Mar 23 (decision by Aug 12)
-- Exemptive relief denied Mar 24
-- DOJ Criminal Fraud Section still active (200 lawyers)
-- If NRSRO revoked: $350B+ re-rating cascade
+Kuvare disputes the simplistic “Blue Owl owns Kuvare / dumped assets into its insurer” framing. Kuvare says Blue Owl bought Kuvare Asset Management, acts as third-party adviser to Kuvare carriers, requires Kuvare consent for affiliated products, and that February 2026 loan purchases were independently diligenced, arms-length, and under 1% of invested assets. `[Kuvare clarification, 2026-02-24]`
 
-### Vector 3: Regulatory Transparency (AG 55 LIVE)
-- First filings happening NOW for Dec 31, 2025 statements
-- Attribution Analysis required for offshore reinsurance
-- Athene's $70.79B affiliated reinsurance = clearly in scope
-- Results will be first public look inside captive arrangements
+**SHADE read:** keep Blue Owl→Kuvare as a high-value pattern watch, but do not state control/dump as proven without statutory schedules and transaction economics. The actual test is whether stressed/private assets migrate into insurer portfolios under consent/valuation processes that look arm’s-length but preserve sponsor liquidity.
 
-### Vector 4: Narrative Shift (MAINSTREAM)
-- Eisman public thesis = institutional signal
-- FT, CNBC, Reuters, Bloomberg all covering PE-insurance stress
-- "Private credit panic" framing in headlines
-- Polymarket: 24% recession probability by end-2026
+### NAIC / regulatory capital: active, granular, not generic crackdown
 
-## POSITIONS & TIMING
+KKR’s NAIC Spring 2026 update confirms insurance-investment regulation is accelerating. Key live items:
+- Proposed CLO C-1 factors are rating/tranche-thickness sensitive; senior Aaa-A2 ~0.03–0.14%, A3-Baa3 ~1.8–2.7%, thin Baa3 <4% thickness potentially 12.5%.
+- Whether factors apply to middle-market loan CLOs remains the consequential open question.
+- NAIC targets year-end 2026 implementation for CLO RBC; collateral-loan RBC look-through likely year-end 2027. `[KKR NAIC Spring update, 2026-04-16]`
 
-| Position | Premium | Expiry | Key Catalyst |
-|----------|---------|--------|-------------|
-| APO $100P Apr | $180 → rolling to Jun $95P | Apr | Near-term hedge |
-| APO $100P Jun | $590 | Jun 18 | BDC gates, FABN maturities, AG 55 results |
-| APO $95P Jun | Rolling target | Jun 18 | Primary conviction |
-| APO $95P Dec | $920 | Dec | EJR SEC decision (Aug 12), full AG 55 cycle |
-| ARES $95P Jun | $890 | Jun 18 | BDC contagion, peer pressure |
+**SHADE read:** regulatory pressure is real, but the live question is specific capital treatment of CLO/MML/non-CLO structured products and collateral loans — exactly where PE-insurer spread advantages can narrow.
 
-**APO at ~$104 means $100 puts are near-the-money. $95 puts need ~9% more downside.**
-**APO already -23% YTD. Momentum is bearish.**
+### Egan Jones / ratings machinery
 
-## OUTBOUND SIGNALS
+Phase 3 found no post-March resolution. SEC formal review / Aug 12, 2026 deadline remains a calendar risk. Exemptive relief denial remains part of the March baseline. `[SEC / PR refresh, 2026-06-15]`
 
-| To | Signal | Status |
-|----|--------|--------|
-| BROCK | APO fee dependency, FABN, BDC gating | UPDATE NEEDED |
-| LIQUID | BDC gating = private credit liquidity event, $1.1T offshore | 🔴 URGENT |
-| REGINALD | PE-insurers in FHLB ($26B), counterparty risk | PENDING |
-| NEXUS | Insurance vector ACCELERATING — multiple simultaneous catalysts | 🔴 URGENT |
+**SHADE read:** keep on calendar; do not escalate without new source.
 
-## NEXT ACTIONS
-1. **URGENT:** Pull EDGAR for exact FABN tranches maturing before Jun 18
-2. ~~Monitor NAIC Spring Meeting outcomes (Mar 24-26)~~ ✅ DONE — PBR guardrails adopted, see NAIC_SPRING_MAR26.md
-3. Track SEC EJR formal review process (decision by Aug 12, 2026) — Egan Jones publicly responded Mar 23+, defending application
-4. Watch for Q1 AG 55 attribution analysis filings (Athene, F&G Life) — due now for Dec 31, 2025 annual statements
-5. Monitor BDC redemption requests Q2 — will gates persist?
-6. Cross-reference Athene deposit outflows with FABN refinancing needs
-7. Signal LIQUID re: BDC gating as private credit liquidity event
-8. **NEW:** Scan Athene/Apollo portfolio for collateral quality failures similar to Blue Owl UK "irregularities" case
-9. **DONE:** BROCK loss models updated with $1.411T FFIEC verified baseline (prior $300B was PE-only, understated ~4.7x)
-10. **NEW:** Watch MFIC + other Apollo BDCs for lending freeze spreading signals
+---
+
+## 3. Signal dashboard
+
+| Vector | Status | Current read | Owner / source |
+|---|---:|---|---|
+| **Insurer asset-transfer / affiliated exposure** | 🔴 Watch | Related-party/affiliated transfer pattern remains the key SHADE risk, but current language must distinguish proven transactions from press narratives. Blue Owl/Kuvare needs statutory tie-out; Apollo/Athene emphasizes transparency and affiliated/originated asset control. | SHADE + BROCK |
+| **AMAPS / rated structured wrappers** | 🔴 New watch | Apollo is replacing CLO exposure with AMAPS; Athene already has $11B and expects exposure to double. Treat as the new capital/rating wrapper to audit. | SHADE |
+| **Funding fragility: FABN/FHLB/funding agreements** | 🟠 | Broad plumbing clean per LIQUID, but insurer-specific funding remains the fast fuse. Apollo did no public funding agreements in Q1 due to spreads, but accessed private funding agreements; Athene has funding-agreement backed notes program and reported $72B liquidity. | SHADE + LIQUID |
+| **Regulatory capital: NAIC/PBR/AG55/SVO** | 🟠 | Regulatory workstreams active. CLO/MML/collateral-loan RBC treatment can pressure spread/capital advantages. AG55 actual public filings still need audit. | SHADE |
+| **Ratings / valuation machinery** | 🟠 | Egan Jones Aug12 remains calendar risk; private ratings and rated-feeder/CFO channel remain important but require issuer-level verification. | SHADE |
+| **BROCK stress translation** | 🔴 | Fund gates/defaults/dividend cuts matter to SHADE only if insurer allocations, asset transfers, capital marks, or funding confidence are affected. | BROCK facts → SHADE implication |
+| **System transmission** | 🟡/🟠 | Broad HY/funding confirmation absent; insurer-wrapper stress remains structural/latent unless funding, rating, regulatory, or bank/NDFI bridge trigger fires. | LIQUID / REGINALD / NEXUS |
+
+---
+
+## 4. Insurer-wrapper transmission map
+
+| Stage | Mechanism | SHADE test | Confirmation evidence needed |
+|---|---|---|---|
+| 1 | BROCK-owned fund stress | Are gates/defaults/div cuts severe enough to require asset transfers, cash substitution, or valuation support? | BROCK owner docs; fund filings; BDC 10-Q/8-K data |
+| 2 | Asset moves into insurer/captive/rated structure | Is a PE insurer/captive/rated feeder absorbing or financing stressed assets? | Statutory filings, Schedule BA/D/S, related-party notes, asset-transfer disclosures |
+| 3 | Capital/rating treatment masks risk | Does statutory/rating treatment understate economic impairment? | NAIC/SVO designations, AG55 attribution analysis, permitted practices, rating-agency reports |
+| 4 | Funding channel accelerates | Are FABN/FHLB/funding agreements repricing, shrinking, or rolling privately because public markets are uneconomic? | FABN issuance/spreads/maturities, FHLB advances, funding-agreement disclosures |
+| 5 | System bridge | Does stress transmit to banks/funding/credit spreads? | LIQUID HY/funding gauges, REGINALD NDFI/FHLB bank exposure, NEXUS synthesis |
+
+---
+
+## 5. Primary targets / watchlist
+
+| Target | Why SHADE cares | Current status | Next source pull |
+|---|---|---|---|
+| **Apollo / Athene** | Primary PE-insurer thesis vehicle: affiliated/originated assets, ACRA, FABN/funding agreements, AMAPS, CLO runoff, reinsurance/funding liabilities. | Current source refresh completed enough for live status. Apollo/Athene defense is strong; AMAPS/funding/private ratings now the audit target. | Full statutory schedules, FABN ladder, FHLB principal advances vs capacity, ACRA/reinsurance notes. |
+| **Blue Owl / Kuvare** | Candidate asset-transfer pattern from stressed private-credit vehicles into insurer portfolios. | Kuvare disputes control/dump framing and says loan purchase was consented, diligenced, <1% invested assets. Still high-value pattern watch. | Statutory schedules / related-party exposure / purchase economics. |
+| **Ares / Aspida / IHAM-adjacent** | Ares private-credit + insurer/rated-structure bridge; CFO/rated-feeder and IHAM hidden-leverage template relevant. | Watchlist; not refreshed enough to state live exposure. | Aspida statutory materials, Ares credit/insurance commentary, IHAM sources via BROCK. |
+| **KKR / Global Atlantic** | Insurer wrapper for KKR credit/BDC stress; possible support/channel linkage. | Watchlist; NAIC update useful for regulatory framework, not Global Atlantic exposure. | Global Atlantic statutory/funding disclosures, KKR credit commentary. |
+| **Brookfield / AEL / XOL** | Phantom/XOL asset signal points to reinsurance accounting/counterparty hollowness. | High-risk signal but not primary-verified in Phase 3. | Statutory filings / reinsurance notes / counterparty reserve evidence. |
+| **Rated feeders / CFOs** | Capital-efficiency route for insurance investors to hold private-credit exposure. | KBRA conference recap validates product-innovation theme; full report not yet audited. | KBRA rated-feeder/CFO report and issuer-level insurer allocations. |
+
+---
+
+## 6. Regulatory / funding calendar
+
+| Date / Window | Item | SHADE read | Status |
+|---|---|---|---|
+| 2026 | NAIC CLO RBC framework | Senior IG likely manageable; MML/non-CLO applicability is the live ambiguity. | Active |
+| 2026-2027 | Collateral-loan RBC look-through | Could pressure structures backed by JV/LLC interests or residual tranches. | Active / slower fuse |
+| Q2-Q3 2026 | AG55 attribution-analysis visibility | Potential first look into offshore/captive arrangements; actual public visibility unresolved. | Needs audit |
+| 2026-08-12 | Egan Jones SEC formal-review decision deadline | Rating-machinery tail risk; no Phase 3 evidence of resolution. | Calendar risk |
+| 2026-2027 | Athene/FABN/funding-agreement maturity and issuance windows | Fast-fuse funding/refinancing stress if spreads/rollover deteriorate; public vs private funding mix matters. | Needs ladder refresh |
+| Ongoing | SVO override / NAIC designation actions | Capital-treatment credibility channel. | Monitor |
+
+---
+
+## 7. Cross-agent dependencies
+
+| Dependency | SHADE should read | Why |
+|---|---|---|
+| Fund gates / BDC stress / default rates | `AGENTS/BROCK/STATUS.md` | BROCK owns fund-level facts; SHADE only translates insurer implication. |
+| HY OAS / funding plumbing / APO co-trigger context | `AGENTS/LIQUID/STATUS.md` | Prevents SHADE from overcalling systemic confirmation when broad credit/funding is calm. |
+| Bank/NDFI/FHLB transmission | `AGENTS/REGINALD/STATUS.md` | REGINALD owns bank bridge and NDFI exposure nuance. |
+| Cross-agent synthesis | `HEARTBEAT.md`, later `NEXUS_BRIEF.md` | Keeps SHADE aligned with regime-level read. |
+
+---
+
+## 8. Active questions for next SHADE session
+
+1. **Athene statutory audit:** do Schedule D/BA, related-party, ACRA, and reinsurance notes support or undermine Apollo’s “0.4% levered lending / 90% IG” defense?
+2. **AMAPS stress test:** what exactly is inside AMAPS, how are tranches rated, who holds them, and how would they behave under private-credit spread widening?
+3. **Funding opacity:** did Athene shift from public FABN/funding agreements to private funding channels because spreads were uneconomic, and what does that imply for rollover fragility?
+4. **AG55/PBR:** are actual attribution-analysis filings visible, or is the market still relying on summaries/commentary?
+5. **Asset-transfer evidence:** beyond Kuvare’s disputed case, is there primary evidence of PE managers moving stressed private-credit assets into insurer/captive/rated structures in Q2?
+6. **Transmission threshold:** are any insurer-wrapper developments strong enough to notify LIQUID/REGINALD/NEXUS, or is this still structural watch?
+
+---
+
+## 9. Historical notes / retired live rails
+
+- Old March 2026 SHADE status is archived at `AGENTS/SHADE/archive/STATUS_2026-03-26_pre_refresh.md`.
+- Old APO/ARES Jun18 option rows are historical; SHADE should not maintain live position rails unless Will explicitly asks.
+- Old urgent outbox rows are retired. Use current cross-agent dependencies instead.
+- Phase documents:
+  - `AGENTS/SHADE/research/STATUS_REFRESH_PHASE1_MAP_2026-06-15.md`
+  - `AGENTS/SHADE/research/STATUS_DRAFT_2026-06-15.md`
+  - `AGENTS/SHADE/research/STATUS_REFRESH_PHASE3_SOURCES_2026-06-15.md`
+
+---
+
+## 10. Next actions
+
+**If SHADE becomes decision-relevant, do these in order:**
+1. Pull Athene statutory annual/quarterly schedules for related-party, Schedule D/BA, reinsurance, FHLB advances, and funding-agreement liabilities.
+2. Build Athene FABN/funding-agreement maturity ladder with current spreads and public/private issuance split.
+3. Audit AMAPS collateral/rating/tranche structure and compare to CLO/MML capital treatment.
+4. Check AG55 attribution-analysis visibility and NAIC/SVO updates after Spring Meeting.
+5. Light-refresh Global Atlantic, Aspida, and Kuvare statutory filings only after Apollo/Athene audit is anchored.
