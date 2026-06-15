@@ -34,3 +34,4 @@
 ### DEFERRED (post-FOMC, eval-gated) — boot/closeout protocol wiring
 - Tiered per ORC: (1) **additive** NEXUS read-at-boot / write-at-closeout first (light review — closes the VIOLET-stale miss); (2) behavior-changing logic (live-event EXECUTE-override, staleness overlay into protocol, LAST_COMPLETION-vs-SCRATCH reconcile, catalyst docket) only AFTER a minimal HENRY eval suite exists.
 - Any CLAUDE.md boot/closeout step addition = eval re-baseline trigger; flag to Will/PROME, never silent-ship.
+- **✅ DESIGN COMPLETE (6/15):** full ready-to-apply spec — proposed SPAWN PROTOCOL replacement (16 steps, T1/T2 tagged, before/after, gap→step mapping, acceptance tests + boot smoke-test) in `proposals/2026-06-15_boot_closeout_hardening.md`. Will chose draft-only; **application gated on the `evals/` baseline run.** Apply Phase 2 (T1 additive) → re-eval → Phase 3 (T2 behavior-changing) → re-eval + smoke-test.
