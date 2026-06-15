@@ -5,8 +5,7 @@
 **Thesis version:** v2.4
 **Recent thesis pivot:** v2.3 → v2.4 (Jun 2) — Channel-2 reframe: the Canadian boycott is the sharp edge of the first US inbound-tourism decline in 20yr (CY2025 −5.5%, 68.3M); World Cup = falsifiable reversal test (ES-MARCO-09)
 **Position:** none — intel/research agent; theses express downstream via REGINALD (bank/CRE) + CARL (consumer) + LABOR (employment)
-**As of:** 2026-06-15 ~10:30 AM ET | STATUS: session-13/14 6/15 (see STATUS "6/15 UPDATE" block)
-⚠️ This brief leads canonical THESIS.md/docket on the Channel-1 conviction change (session-14 canonical sync pending sign-off) — durable synthesis should wait for the cleanup commit.
+**As of:** 2026-06-15 PM ET | STATUS: session-14 close 6/15 (see STATUS "6/15 UPDATE" block). Canonical THESIS v2.5 + docket fully synced this session — brief and canonical now agree.
 
 ---
 

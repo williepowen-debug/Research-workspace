@@ -1,5 +1,5 @@
 # MARCO SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-15 ET (session 13 — boot + Pull Session 2/3 catch-up + partial integration pushed for orchestration-layer review)
+**Last Updated:** 2026-06-15 ET (session 14 CLOSE — Orc/Prome cleanup all layers committed + pushed; closeout-parity check; MEMORY.md built (gap #1) + EXECUTE live-event override (gap #4); #2/#3 deferred to next session)
 
 ## CHANGES SINCE (what moved while offline, session 12 → 13)
 Five passed catalysts caught up (the gap was ~7 days). Two CORRECT my own prior STATUS:
@@ -30,10 +30,20 @@ Two independent reviewers (Orc + Prome) verified the session-13 push against pri
 - **✅ LAYER 2 (signed off by Orc, committed 859492d9):** thesis/THESIS.md → v2.5 (funding passage CONTESTED→LAW, EXIT note, version bump, Air Transat Jun30, "stopped worsening" reframe propagated through conviction/evidence/RED); thesis/CHANGELOG.md (v2.4→v2.5 entry w/ both provenance caveats); thesis/TIMELINE.md (4 resolved rows added incl. 6/10 ICE-signed; floor-vote forward row retired; Air Transat→Jun30). Historical v2.2/v2.3 CHANGELOG entries left as snapshots.
 - **✅ WORKBOOK (committed this session):** KB.tsv +5 rows (WFD-ICE-01 funding-law, WFD-CON-01 construction-raids, IVF-28 StatCan-May-stack, PRD-01 May-CPI-indeterminate, IVF-29 WC-hotels); VX.tsv updated 2.01 (enforcement: funding-now-law), 2.03 (construction: raids-active/housing-not-threshold), 1.01 (Canadian: stopped-worsening/thawing).
 
-## ⚠️ STILL PENDING
+## SESSION 14 — closeout addendum (maturity parity + MEMORY.md)
+- **Closeout-parity check (Will req):** compared MARCO closeout vs SAM/BRENT/VIOLET. MARCO ~80% parity + ahead on ROOMS/EXPECTED_SIGNALS. Gaps found: #1 local MEMORY.md, #2 PREDICTIONS_ARCHIVE+calibration-scoreboard, #3 MAINTENANCE-as-structural-log, #4 EXECUTE live-event override.
+- **✅ Gap #1 + #4 CLOSED this session (326f7b83):** created `MEMORY.md` (persistent-learnings tier — characteristic error: single-mechanism over-attribution; source-quality map; operational caveats), wired into CLAUDE.md as boot read 3 + closeout step 12 (with remove-after-promotion rule). Renumbered protocol: boot 1-4 / execute 5 / closeout 6-14 (verified no dup/stale refs). Added EXECUTE live-event override ([[finding_boot_protocol_live_event_override]], citation confirmed real by Orc). FILES table + infra note updated.
+
+## ⚠️ NEXT-SESSION PUNCHLIST (deferred per Orc — don't rush calibration build at session tail)
+- **#2 PREDICTIONS_ARCHIVE.md + calibration-scoreboard preamble** — ANCHOR TO **post-Jun-30**: build over the fresh Q2-close closed-cohort (MAR-01/18/26 + ES-04/07 resolutions) in one clean pass rather than re-touching in 2 weeks. When built, lift "single-mechanism over-attribution" from MEMORY.md into the scoreboard as a standing calibration warning. The most valuable gap; timing is the only reason to wait.
+- **#3 MAINTENANCE.md → structural-change log** — fold into #2's session OR keep logging structural changes in CHANGELOG + infra note. NOT a standalone quick-win (would displace the active punchlist).
 - **MAINTENANCE.md** punchlist (9 items from 6/8) still open.
-- **Open verifications (DVQ)** carried in canonical text as caveats: (1) enacted ICE/CBP sub-split (signed-text — $38/$26 marked pre-trim everywhere); (2) fresh-F&V vs aggregate BLS line (both Apr+May print +6.1% — verify same series before June-CPI read leans on it); (3) Brent $91→$83 (BRENT-owned).
-- **Orc post-push verification queue** (Orc runs when push lands): (1) conviction change in THESIS+CHANGELOG not STATUS-only ✅; (2) all 5 stale CONTESTED refs gone + UNRESOLVED row RESOLVED ✅; (3) 2 phantom docket rows retired + Jul-15 added + matching TIMELINE ✅; (4) STATUS & PREDICTIONS agree MAR-26=74 ✅; (5) no $38/$26-as-enacted, no disputed regional housing in canonical ✅. Flag Orc when push lands.
+
+## ⚠️ OPEN VERIFICATIONS (DVQ — carried in canonical text as caveats)
+(1) enacted ICE/CBP sub-split (signed-text — $38/$26 marked pre-trim everywhere); (2) fresh-F&V vs aggregate BLS line (both Apr+May print +6.1% — verify same series before June-CPI read leans on it); (3) Brent $91→$83 (BRENT-owned).
+
+## Orc post-push verification queue (Orc runs when push lands)
+Prior list all ✅ locally: conviction in THESIS+CHANGELOG; 5 CONTESTED refs gone + UNRESOLVED→RESOLVED; phantom docket rows retired + Jul-15 added + TIMELINE; STATUS↔PREDICTIONS agree MAR-26=74; no $38/$26-as-enacted/no disputed housing; MEMORY.md present. **NEW load-bearing item:** CLAUDE.md protocol renumber — verify read↔write pairings align under the NEW numbering (STATUS r1↔w6, SCRATCH r2↔w10, MEMORY r3↔w12, predictions surface-4↔resolve-7, NEXUS_BRIEF write-11) + no dup/stale step refs. **Flag Orc when push window opens.**
 
 ## NEXT SESSION
 1. **Jun 16 (Tue) Census May housing starts** — South region = MAR-26 threshold confirm.
@@ -58,4 +68,7 @@ Inbox empty. **Outbox: 1 still pending** — `2026-06-08_to-NEXUS-CARL_worldcup-
 
 ## PUSH STATE
 **6/15 session-13:** pushed (be55344c) in a Will-coordinated window — STATUS+NEXUS_BRIEF+SCRATCH+docket; carried HENRY's 52a70d85 in the push-train (his working-tree edits untouched).
-**6/15 session-14: ALL COMMITS PUSHED & SYNCED** (Will/Orc-coordinated window). a687a9ca (Layers 1+3) reached origin via an intervening push-train; 859492d9 (Layer 2) + 46fab08e (workbook) pushed this window (26e6ee86..46fab08e). Tree synced to origin, my files only. Orc to run post-push verification against its 5-item queue. HENRY's memory files left uncommitted/untouched throughout.
+**6/15 session-13/14 commit ledger (all master, my files only):**
+- ✅ ON ORIGIN: `be55344c` (session-13 push) · `a687a9ca` (Layers 1+3) · `859492d9` (Layer 2 thesis v2.5) · `46fab08e` (workbook VX/KB) · `2c60a770` (SCRATCH push-state)
+- ⏳ **PENDING PUSH (local-only):** `326f7b83` (MEMORY.md + CLAUDE.md protocol) + the session-14 closeout commit (this SCRATCH + NEXUS_BRIEF). **Both must ride the next coordinated push window** — flag Orc when it opens for the post-push verification pass.
+- Push deferred per [[feedback_defer_push_coordinate]] (no window open at closeout). HENRY's memory files left uncommitted/untouched throughout.
