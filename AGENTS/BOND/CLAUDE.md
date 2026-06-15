@@ -173,7 +173,7 @@ When spawned for inbox processing: **read `PROTOCOL.md` first and follow it exac
 | `KB.tsv` | Any new data point with a source | "Is this a new piece of evidence?" |
 | `VX.tsv` | When a tracked vector changes state | "Did a risk indicator move?" |
 | `FLOW.tsv` | When a transmission channel is confirmed or changes | "Did we learn something about HOW stress travels?" |
-| `PREDICTIONS.tsv` | Falsifiable predictions with confidence and timeframe | "What do I think happens next?" |
+| `thesis/PREDICTIONS.tsv` | Falsifiable predictions with confidence and timeframe | "What do I think happens next?" |
 
 ---
 
@@ -193,13 +193,15 @@ Every STATUS.md must end with a `## BOTTOM LINE` section — 2-4 sentences, plai
 
 | File | Purpose |
 |------|---------|
-| `STATUS.md` | Live state — dashboard, active situations, predictions |
+| `STATUS.md` | Live state — dashboard, convergence matrix, catalysts, compact exits, bottom line |
+| `thesis/THESIS.md` | Durable thesis — core argument, channels, full exit/falsification, position rationale |
+| `thesis/CHANGELOG.md` | Thesis version history |
+| `thesis/PREDICTIONS.tsv` | Falsifiable forecasts (moved from workbook/ 2026-06-15) |
 | `TRADE.md` | Position ideas and active trades |
 | `workbook/KB.tsv` | Knowledge base — 13-column factual claims |
 | `workbook/SCHEMA.tsv` | Data dictionary for KB columns |
 | `workbook/VX.tsv` | Vectors — tracked risk indicators with thresholds |
 | `workbook/FLOW.tsv` | Transmission pathways |
-| `workbook/PREDICTIONS.tsv` | Falsifiable forecasts |
 | `inbox/` | Inbound signals from other agents |
 | `outbox/` | Outbound signals for other agents |
 | `domain/sources/` | Archived research and raw data |
