@@ -58,8 +58,9 @@ Full dated docket + resolved Q1 10-Q verdicts → `docket/CATALYSTS.tsv` (FASTOW
 | Date | Catalyst | Priority | Watch |
 |------|----------|----------|-------|
 | ~6/23 | Form PF comment close | 🟡 | PC-reporting PROPOSED (not just solicited)? — largely deregulatory |
+| 6/30 | Pred resolve cluster (BRK-28✓/BRK-24/BRK-01) | 🟠 | BRK-28 done; BRK-24 FALSE if no Athene analysis surfaces; BRK-01 PSEC |
 | ~late Jun | Cliffwater CDLI Q1 full NAV | 🟠 | CDLI NA breaks >1% = top-tier crack (currently 0.6%, the bifurcation anchor) |
-| ~7/4 | Tier-2 2nd-PE-wrapper-gate window close | 🔴 | any Apollo/KKR/BX/Carlyle/GS-AM PE-evergreen cap → cross-asset contagion confirmed |
+| ~7/3 | Tier-2 2nd-PE-wrapper-gate window close | 🔴 | any Apollo/KKR/BX/Carlyle/GS-AM PE-evergreen cap → cross-asset contagion confirmed |
 | ~late Jul | Q2 10-Q cycle (FSK/OBDC/OTF/ARCC/BCRED) | 🔴 | Decision-Tree STEP 2 substance check anchors here; 4th public-BDC div cut watch |
 | ~8/15 | BCRED Q2 final satisfaction | 🟠 | <50% → Q2 5%-design cap stressed |
 | Q4'26 | Athene NAIC 2026 capital-charge rule | 🟠 | RBC impact; BRK-23 resolution window |
