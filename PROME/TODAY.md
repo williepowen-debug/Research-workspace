@@ -49,7 +49,7 @@
 | Date / Window | Catalyst | Owner | Hottest implication |
 |---|---|---|---|
 | **Mon 6/15** | Brent double-trigger watch | BRENT/HAWK | M1-M3 trigger completion + sub-$88/XLE re-eval if tape holds. |
-| **Mon 6/16** | BOJ + Sumitomo Life FY2025 ESR | SAM | Japan/FXY near gate; intervention odds down but BOJ still live. |
+| **Tue 6/16** | BOJ + Sumitomo Life FY2025 ESR | SAM | Japan/FXY near gate; intervention odds down but BOJ still live. |
 | **Tue-Wed 6/16-17** | FOMC + dots/SEP | HENRY/LIQUID/RED/VIOLET | Biggest macro resolver: duration, Fed-hike repricing, vol, TLT salvage. |
 | **Wed 6/17** | VIX quarterly / M1 expiry stack | VIOLET | Complacency tape + bid tail; Bin-B credit block governs. |
 | **Thu 6/18** | May TIC + Jun18 option cluster | SAM/LIQUID/Will/Prome | Foreign-flow proxy + expiry cleanup/reconciliation. |
@@ -76,7 +76,7 @@
 ## Do / Do Not
 
 **Do:**
-- Finish boot-surface refresh before new market work.
+- Operate from refreshed boot surfaces before new market work.
 - Keep old trade rails **verification-required** until broker/Will reconciliation.
 - Treat FOMC/BOJ/TIC/expiry as the near gates.
 - Route domain questions to owners; Prome synthesizes and coordinates.
@@ -92,7 +92,7 @@
 
 ## Pending Follow-Ups
 
-1. Decide whether to create durable `PROME/action-cards/WEEK_2026-06-15.md`; until then, `TODAY.md` owns near gates.
+1. Durable week card created: `PROME/action-cards/WEEK_2026-06-15.md`; use it with `TODAY.md` for near gates.
 2. Decide whether to refresh HENRY/NEXUS/WALTER anchor before FOMC/expiry cluster.
 3. Keep Jun18/19 expiry cleanup verification-required until broker/Will reconciliation.
 4. If infrastructure hardening is priority, address WALTER feed-stack request in `AGENTS/PROME/inbox/SIG-WALTER-PROME-20260610-cron-feed-infra-refresh.md`.

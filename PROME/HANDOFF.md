@@ -1,5 +1,38 @@
 # PROME HANDOFF
 
+## 2026-06-14 ~18:35 ET — OpenClaw Prome quick closeout before clear
+
+**Status:** Boot surfaces are coherent and synced from prior commits. Current session added a durable Jun 15 week card locally; not yet committed/pushed.
+
+**What changed this mini-session:**
+- Confirmed GitHub was clean/synced at boot: `HEAD = origin/master = ac307e0f`.
+- Explained Prome-specific open tasks.
+- Will approved creating `PROME/action-cards/WEEK_2026-06-15.md`.
+- Created the week card and updated pointers in `PROME/TODAY.md` and `HEARTBEAT.md`.
+- Explained separate-clones migration. Will wants to think longer because agent cross-file visibility/messaging is valuable.
+
+**Local uncommitted changes to expect next boot:**
+- `M HEARTBEAT.md`
+- `M PROME/TODAY.md`
+- `M PROME/SCRATCH.md` (this closeout)
+- `M PROME/HANDOFF.md` (this closeout)
+- `M memory/2026-06-14.md` (this closeout)
+- `?? PROME/action-cards/WEEK_2026-06-15.md`
+
+**Decision needed next:** Ask Will whether to commit/push the week-card bundle. Do not push without explicit approval.
+
+**Current follow-up lanes:**
+1. Commit/push week card bundle if approved.
+2. Position-state reconciliation before Jun18/19 expiry cleanup if Will wants trade hygiene.
+3. HENRY/NEXUS/WALTER stale dependency refreshes if decision-relevant.
+4. WALTER feed-stack infra request.
+5. Separate-clones migration — defer; preserve pathspec discipline meanwhile.
+6. Prome execution-rails design debt.
+
+**Guardrails:** no agent edits without approval; no trade execution; old rails verification-required; pathspec only.
+
+---
+
 ## 2026-06-14 ~17:30 ET — OpenClaw Prome boot-surface refresh closeout
 
 **Status:** ✅ Phase 0–3 boot-surface refresh completed, committed, and pushed. Commit: `43388ccb PROME boot-surface refresh 2026-06-14`. Fresh sessions can treat boot surfaces as current, with only minor cleanup metadata handled after push.

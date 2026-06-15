@@ -104,14 +104,14 @@ But the structural side did not clear: CCC remains **956bps**, SKEW stayed bid t
 - NEXUS stale after Jun8 relative to Jun12 close.
 - WALTER Iran anchor stale versus HAWK/BRENT Jun13.
 - OTTO domain data stale.
-- Dashboard produced usable output but exited code 1; automation health needs later check.
-- No durable `WEEK_2026-06-15.md` exists yet; `TODAY.md` owns near gates for now.
+- Dashboard human/json exit-code issue is fixed in `ac307e0f`; cron/notify alert semantics preserved.
+- Durable `PROME/action-cards/WEEK_2026-06-15.md` now exists locally and is the week-ahead source with `TODAY.md`; commit/push awaits Will approval.
 
 ---
 
 ## 7. Follow-Up
 
 After this file:
-1. Use `TODAY.md` as current near-gate source unless/until a `WEEK_2026-06-15.md` card exists.
+1. Use `PROME/action-cards/WEEK_2026-06-15.md` + `TODAY.md` as current near-gate sources.
 2. Do not treat old action cards as execution instructions; `ACTIVE_DECISIONS.md` governs verification-required state.
 3. Keep agent edits off-limits unless Will explicitly approves.

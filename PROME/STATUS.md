@@ -15,12 +15,12 @@
 
 | Item | Status | Note |
 |---|---|---|
-| GitHub sync | ✅ Clean/synced | `HEAD = origin/master = 43388ccb`, ahead/behind `0/0` after boot-refresh push. |
-| Local working tree | ✅ Clean at boot | Boot-refresh bundle committed and pushed. |
-| Agent files | ✅ Untouched | Explicit Will constraint: no agent edits. |
-| Push discipline | ✅ Will-coordinated | Jun14 push was explicitly approved; future pushes still require Will approval. |
+| GitHub sync | ✅ Clean/synced | `HEAD = origin/master = ac307e0f`, ahead/behind `0/0` at latest audit. |
+| Local working tree | 🟠 Expected Prome changes | Week card + pointer/closeout/audit updates are local and uncommitted. Ask Will before commit/push. |
+| Agent files | ✅ Untouched | Explicit Will constraint: no agent edits; audit confirmed no local `AGENTS/*` changes. |
+| Push discipline | ✅ Will-coordinated | Future commits/pushes require Will approval; pathspec stage only. |
 | GitHub source-of-truth rule | ✅ Active | Avoid broad staging/reset. Pathspec only. |
-| Dashboard health | 🟡 Check later | Dashboard output usable but process exited code 1; likely alert/red-zone behavior. |
+| Dashboard health | ✅ Fixed | `ac307e0f` normalized human/json dashboard exit codes; cron/notify alert semantics preserved. |
 
 ---
 
@@ -73,7 +73,8 @@
 | Phase 3: rewrite `STATUS` + `ACTIVE_DECISIONS` | ✅ | Done. |
 | Phase 3: rewrite `FLEET_SCAN` | ✅ | Done. |
 | Phase 3: rewrite `HEARTBEAT` | ✅ | Done last. |
-| Verify stale language / diff | ✅ | Done before push; cleanup pass removes stale progress metadata. |
+| Verify stale language / diff | ✅ | Done before push; current audit cleaned remaining Prome-surface residue. |
+| Commit/push week-card bundle | 🟠 | Local only; ask Will before staging/committing/pushing. |
 | Position-state reconciliation | 🟠 | Deferred; separate future pass unless Will pivots. |
 | HENRY/NEXUS/WALTER refresh | 🟠 | After boot surfaces; do not mix into Phase 3. |
 | Separate-clones migration | 🟠 | Post-Jun16/FOMC calm-window decision packet; M3 slate still SAM/HENRY/REGINALD/OZK/CARL. |
@@ -96,4 +97,4 @@
 
 ## Next Best Action
 
-Next best action: choose a follow-up lane — (1) create `WEEK_2026-06-15.md`, (2) refresh HENRY/NEXUS/WALTER anchor before FOMC, (3) position-state reconciliation for Jun18/19 expiry, or (4) diagnose WALTER feed-stack infrastructure.
+Next best action: ask Will whether to commit/push the local week-card + Prome audit bundle. After that, choose a follow-up lane: (1) position-state reconciliation for Jun18/19 expiry, (2) HENRY/NEXUS/WALTER refresh before FOMC if decision-relevant, or (3) WALTER feed-stack infrastructure.
