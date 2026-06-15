@@ -3,8 +3,9 @@
 HENRY Boot Kit (v1) — consolidated boot brief.
 
 Read-only by design: it DISPLAYS live state, it does NOT write STATUS.md
-(writing the dashboard back is the analyst's job at write-back, and
-refresh_status.py carries a hardcoded signal-status header — do not auto-run it).
+(writing the dashboard back is the analyst's job at write-back). NOTE: the old
+refresh_status.py was RETIRED 2026-06-15 to archive/retired/ (stale writer —
+hardcoded narrative; do not resurrect — see MAINTENANCE.md).
 
 Three components (all from existing materials):
   (a) LIVE TAPE       — fetch.py real-time/last quotes (not a pre-open period=1d bar)

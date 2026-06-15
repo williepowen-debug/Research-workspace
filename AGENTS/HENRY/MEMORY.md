@@ -60,10 +60,12 @@
 **🔴 PRIORITY — FOMC 6/16-17 (HEN-33; new Chair Warsh, SEP/dot):**
 1. **Log the dot plot 6/17 real-time.** Bar is HAWKISH-OF-PRICING (0-cut already priced): a hike-leaning dot / >priced cuts removed / hawkish presser → yields up → cyclical re-arms. A reaffirmed 1-cut = DOVISH surprise (yields down, soft-kill consolidates). Watch VIX <15 (modal could break it → arms soft-kill leg).
 2. **BOJ 6/16** (SAM) — modal vol-crush, Ueda absent; USD/JPY 160.07 >160 carry watch (SAM buckets DOWN).
-3. **Run `credit_monitor.py`** — CCC−BB +6 rolling-90d (first uptick in weeks); does FOMC accelerate it?
+3. **Run `boot.py`** at boot (live tape + credit + predictions-due). Credit watch: **HY 271 [FRED 6/12], now 11bps from the 260 soft-kill and tightening** (the 6/9 "+6/5d gap uptick" did NOT persist — gap flat). Does FOMC push HY toward <260?
 4. Late-Jul BDC Q2 marks (BROCK) = only live structural-axis test post-FOMC.
 
 **Pending Will decisions (don't fire without OK):** (a) APO→BROCK FYI cross-read (trigger met, "reassess puts"); (b) Brent <$85→BRENT. *(Trade positions retired from focus per Will 6/15 — no position decisions.)*
+
+**🔧 INFRA — post-FOMC (deferred, eval-gated):** (1) **Build minimal HENRY eval suite** (`evals/`, ~2 cases incl. sibling-staleness — the net for protocol changes; SAM's `evals/README.md` is the blueprint). (2) THEN the **CLAUDE.md boot/closeout wiring** — tier-1 additive (read peer NEXUS_BRIEFs at boot + write own at closeout, closes the VIOLET-stale miss); tier-2 behavior-changing (live-event override, staleness overlay, handoff reconcile, catalyst docket). Flag any CLAUDE.md boot/closeout step to Will/PROME — eval re-baseline trigger, never silent-ship. `boot.py`+`NEXUS_BRIEF` already shipped 6/15.
 
 **Track A — modernization (BACKLOG):** KB prune Pass 2 → VX dup-ID → thesis mirror. Paused for market work.
 
@@ -72,6 +74,9 @@
 - **VX.tsv duplicate ID collision** — VX-HEN-19.01-.06 used twice (modernization Phase A2; NOT done).
 
 ### INFRASTRUCTURE NOTES
+- 6/15: **`scripts/boot.py` v1 LIVE** — `.venv/bin/python3 AGENTS/HENRY/scripts/boot.py` (`--quick`/`--verbose`/`--selftest`). Read-only: live tape (fetch.py) + FRED credit + predictions-due scan. Run it at boot. **NOT a boot STEP yet** (CLAUDE.md wiring deferred, eval-gated).
+- 6/15: **`refresh_status.py` RETIRED** → `archive/retired/` (stale writer, hardcoded Signal-Status narrative — do NOT resurrect; see MAINTENANCE.md). **`MAINTENANCE.md` created** (structural-change log).
+- 6/15: **`NEXUS_BRIEF.md` stood up** — NEXUS reads it at its boot (HENRY pre-registered). Keep it fresh at closeout. Reciprocal "read peer briefs at boot" = deferred CLAUDE.md change.
 - 6/9: **Credit monitor live** — `python3 AGENTS/HENRY/scripts/credit_monitor.py`. FRED via curl (urllib times out in this env). Use **CCC−BB** not CCC−HY (HY contains CCC → diluted). Multi-month window (5d misses the bifurcation).
 - 6/9: **Pull credit LIVE from FRED on refreshes** — dashboard.py reads sibling-STATUS repo files (feel live, stale). FRED 503's (6/3) cleared.
 - 6/6: **Auto-mem symlink** — writes land in `memory/auto/` (git-tracked). **Don't commit memory/auto yourself; leave for the sweep.** Pathspec commits only (no `git reset HEAD`).
