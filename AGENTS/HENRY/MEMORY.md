@@ -28,6 +28,8 @@
 - [2026-06-09] **Before declaring a cross-agent trigger "FIRED," verify BOTH the condition (sustained vs single-touch) AND the direction.** Self-caught on double-check: wrote "APO crossed $130 → BROCK trigger FIRED." Wrong twice — (1) BROCK's rule is APO >$130 *sustained 3+ sessions* ("entrenchment resumes"), so an intraday $131 touch is UN-FIRED (the exact single-print error LESSONS warns about + the "APO entrenched >$130 [5/21]" staleness the pilot convention exists to catch); (2) direction — BROCK holds APO Dec **$95 PUTS**, so APO *rising* is *adverse* to their thesis (alts resilient), NOT a bear-confirmation. Pull the sibling's literal trigger definition (threshold + duration + which side helps their position) before propagating. Cf. [[feedback_single_month_subcomponent_skepticism]].
 - [2026-06-09] **Credit IS bifurcating (K-shaped) — measure CCC−BB, NOT CCC−HY, and on a multi-MONTH window.** Will-prompted double-check (I'd called junk "in good shape" — too sanguine). 1yr: CCC the ONLY tier that *widened* (+27bps) while IG −16 / BB −27 / B −41 / HY −52 all compressed. CCC−BB gap 619(Sep'25)→784(now), ratio 4.5×→5.75×. **The blended HY headline (275, tight) MASKS it because BB/B dominate by index weight** — glancing at HY OAS structurally hides the tail. Two methodology traps I fell into: (a) used CCC−HY (HY *contains* CCC → diluted to 674 vs true CCC−BB 784); (b) read a 5d window (flat) on a quarters-long trend. Phase nuance: acute blowout Sep'25→Mar'26, then *plateau* (last 3mo CCC −12 / BB −32 → gap widened on BB compressing, tail stuck wide not deteriorating faster). CCC 949 absolute = middling-for-CCC (crisis 1,500+) — it's the **direction + divergence** that's the signal. Matches K-economy + BROCK private-credit stress. Monitor upgraded to BB tier + CCC−BB + 63d trajectory.
 - [2026-06-06] **Good-news-is-bad-news: KRE direction is the rate-vs-credit discriminator.** Hot May NFP (+172K, ≈2× beat) → SPX −2.64% / VIX +40% (good news bad news, Fed-can't-cut). But KRE/WAL/APO **ROSE** — higher-for-longer = NIM tailwind. So it was a *rate-repricing* selloff, NOT a credit cascade (a credit cascade gaps KRE DOWN). When risk-off hits, check KRE direction first: up = rate/duration story (margin trade), down = credit story. Confirms H4 — equity can't confirm a trap-snap until credit moves; needed Mon FRED (no Fri print).
+- [2026-06-15] **Headline-hot / core-soft split: when the hot leg is energy AND energy is collapsing, the market trades CORE and looks through the headline.** May CPI headline +4.2% YoY (hot) but core +0.2% MoM/+2.9% YoY (soft); May PPI +1.1% (hot) but ~80% energy / services +0.3% (soft). With Brent collapsing $91→$83, the energy-driven headline was discounted as transitory and the tape priced the soft core: VIX 21.69→16.42, SPX new highs, 10Y eased. **Decompose every "hot" print into core-vs-energy before reading it as cyclical re-arm — and check whether the energy impulse is still live (Brent direction). A hot headline on a collapsing-energy base is a soft print for thesis purposes.** Cf. the cascade's "fundamentals ignite, gamma determines velocity" — here the fundamental (energy) was already reversing.
+- [2026-06-15] **A "verify w/ sibling" flag is cheap to actually resolve — pull the daily closes, don't leave it ambiguous.** Wrote APO "likely fired — verify BROCK 3-sess rule"; one yfinance `.history()` call confirmed 4 consecutive closes >$130 (6/9–6/12) = FIRED. Sibling STATUS was stale (6/8, un-fired) so it couldn't answer; the primary (daily closes) could in one call. Resolve the trigger-state yourself when the data is a single fetch away, then route the *confirmed* fact.
 - [2026-06-06] **Two-machine concurrency: local `git status` is BLIND to the other machine's uncommitted work.** Two computers now run agents against one origin. My filesystem can't see the desktop's working tree — only pushed commits. So "check local status before pull" is necessary-but-insufficient; **origin is the only shared truth.** Git still prevents overwrite (non-ff reject → pull-rebase-retry, never force). Residual risk = same-file edits across machines. Fix = SAM's separate-clones (`AGENTS/SAM/proposals/2026-06-04_separate_clones_*`); two machines STRENGTHEN that case. Add cross-machine rule: one agent = one live clone at a time.
 
 ## References
@@ -44,29 +46,29 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (2026-06-09 Tue ~1pm — Will-directed live session)
-- **Live refresh to 6/9 ~1pm + Monday 6/8 FRED credit logged.** Decision var RESOLVED: **no weekly cascade** — HY 275 (+3bps) / CCC 949 (+3bps); blipped on NFP day 6/5 (HY 276/CCC 952), retraced Mon. Read = rate/positioning unwind, not trap-snap; KRE up 3rd sess corroborates. **Vol RE-FIRING into CPI this PM** (VIX 21.69, VIX9D 24.41 backwardation re-steepening, VVIX 102) — the AM "milder" read reversed.
-- **🔑 Credit BIFURCATION CONFIRMED (Will catch — I'd called junk "in good shape," too sanguine).** 1yr: CCC the sole tier WIDENING (+27bps) vs IG−16/BB−27/B−41/HY−52. CCC−BB gap 619(Sep'25)→784(now), ratio 4.5×→5.75×. Blended HY masks it (BB/B weight). Reconciled STATUS to two-timescale framing (near-term cascade=none; slow structural axis=confirmed/intact, NOT a holdout). → Findings + auto-mem.
-- **Built `scripts/credit_monitor.py`** — credit bifurcation (CCC−BB, clean gauge) + HY fund-flow proxy (HYG/JNK/LQD price·vol·relative); live FRED via curl + yfinance, `--json`. Run each session; readout block in STATUS.
-- **Verification pass (Will double-check) caught 1 real error + 2 overstatements.** APO: intraday $130 touch ≠ FIRED (BROCK rule = >$130 *sustained 3+ sess*; APO strength is *adverse* to BROCK's Dec $95P, not a bear signal) — corrected across 6 spots. Brent circular `[dashboard]` src → live yf $91. "IS transmitting" → "intact/confirmed (present, not yet transmitting to equity)."
-- Commit `2b5b9e5d` (refresh+monitor+bifurcation) + this closeout commit. **NOT pushed** (Will-coordinated; BOND/LIQUID have uncommitted work on shared tree).
+### CHANGES SINCE LAST SESSION (2026-06-15 Mon ~9:18am — 5-session catch-up, Will-directed)
+- **THE GATE (HEN-32) RESOLVED SOFT.** May core CPI **+0.2%** (miss vs +0.3%; BLS 6/10) → HEN-32 MISS, 10Y *eased* −9bps (opposite of predicted +15). May PPI +1.1% but **~80% energy** (gasoline +23.4%), services +0.3% tame — looked through (Brent collapsed to $83). **Cyclical axis now SOFT-KILLED on the inflation leg.** Market resolved the labor/inflation divergence toward soft core: VIX 21.69→16.42 (vol unwound, backwardation→contango), SPX 7,319→7,431 new highs, 10Y 4.54→4.45.
+- **Full STATUS refresh** — every section retimed to 6/15. Triad now: SPX fired-untested, **VIX re-approaching <15 soft-kill arm (16.42, cushion 1.42)** — first leg to genuinely approach a kill, HY off kill (278). Credit bifurcation still confirmed/dormant (CCC−BB 787, +26/3mo).
+- **APO BROCK-trigger FIRED (verified via daily closes).** Closed >$130 ×4 sess: 6/9 132.70 / 6/10 131.14 / 6/11 133.91 / 6/12 133.88 ≥ BROCK's "3+ sess" rule (BROCK/STATUS line 247). **BROCK STATUS stale 6/8 (shows un-fired) — they don't have it.** Flagged to Will, did NOT auto-fire outbox (🟠 not 🔴; APO-up is *adverse* to BROCK puts = thesis-soft; BROCK catches on own refresh; outbox-restraint).
+- **Predictions:** HEN-32 → MISS; added **HEN-33** (FOMC 6/17 0-cut dot → 10Y +10bps). PREDICTIONS.tsv updated.
+- Commit pending (this closeout). **NOT pushed** (Will-coordinated).
 
 ### NEXT SESSION
-**🔴 PRIORITY — post-CPI (Wed 6/10 8:30 ET = THE GATE, HEN-32):**
-1. **Log CPI immediately** — core vs +0.3% consensus. **>0.3%** → cyclical re-arms on inflation leg (2 legs), add TLT Sep $85P, watch VIX breach >23 (vol-control cushion only 1.31). **≤0.2%** → labor/inflation diverge, soft-kill regains; energy disinflation (Brent −3.4% 6/9) supports this branch.
-2. **TLT Jun $85P (3×)** — STILL pending Will's mark. CPI = cleaner duration catalyst (Jun expiry ~6/19). Lay out sell-into-vol vs hold; deferred to Will w/ mark (don't auto-recommend — mark-context lesson).
-3. **Run `credit_monitor.py`** — does CPI start pulling CCC−BB wider / flows reversing? First flow flag = income bid breaking.
-4. **APO** — does it *sustain* >$130 (3+ sess = BROCK put re-arm)? Currently 1 intraday touch = un-fired.
-5. FOMC 6/16-17; USD/JPY >160 (SAM, BOJ 6/16 ~97%); BROCK BDC Q2 marks late Jul (structural-axis test).
+**🔴 PRIORITY — FOMC 6/16-17 (HEN-33 = the live re-arm test; new Chair Warsh, SEP/dot meeting):**
+1. **Log the dot plot 6/17** — does the '26 median drop to 0 cuts (hawkish, Polymarket 57%) vs prior 1? 0-cut → yields back up, cyclical re-arms; 1-cut status-quo → soft-kill consolidates. Watch VIX: a hawkish surprise could bounce it OFF the <15 arm; a dovish read could break it <15 (arms soft-kill leg).
+2. **TLT Jun $85P (3×)** — now **OTM** (TLT $85.77 > $85), Jun expiry ~6/19, FOMC the last catalyst. Soft CPI was adverse. Lay out for Will w/ live mark — only a hawkish dot rescues it (low-prob, 4d theta). Don't auto-recommend. Sep $85P (2×): HOLD, don't add.
+3. **Run `credit_monitor.py`** — CCC−BB ticked +6/5d (first uptick in weeks); does FOMC accelerate it?
+4. **BOJ 6/16** (SAM) — USD/JPY 160.11 >160 carry watch.
+5. Late-Jul BDC Q2 marks (BROCK) = the only live structural-axis test post-FOMC.
 
-**Pending Will decisions (don't fire without OK):** (a) bifurcation→REGINALD/BROCK signal (substantive — corroborates their private-credit thesis); (b) APO→BROCK (HOLD, un-fired); (c) TLT Jun $85P call.
+**Pending Will decisions (don't fire without OK):** (a) APO→BROCK signal (trigger fired but BROCK will self-catch; flagged); (b) Brent <$85→BRENT; (c) TLT Jun $85P call.
 
-**Track A — modernization (BACKLOG):** KB prune Pass 2 → Phase A (VX dup-ID) → B (thesis mirror) → C. Paused for market work.
+**Track A — modernization (BACKLOG):** KB prune Pass 2 → VX dup-ID → thesis mirror. Paused for market work.
 
 ### GAPS — PERSISTENT
-- **0DTE SPX share + GEX regime** STILL PENDING (6+ sessions). Manual estimate acceptable.
+- **0DTE SPX share + GEX regime** STILL PENDING (7+ sessions). Manual estimate acceptable.
 - **VX.tsv duplicate ID collision** — VX-HEN-19.01-.06 used twice (modernization Phase A2; NOT done).
-- **VIOLET domain stale to 6/1** — M1:M2 post-NFP + 20d-SKEW regime read await her next boot. VVIX 92+ now MET (101.8).
+- **VIOLET domain stale to 6/1** — vol regime now UNWOUND (VIX 16.42); she owes M1:M2 + 20d-SKEW. Flag at her boot.
 
 ### INFRASTRUCTURE NOTES
 - 6/9: **Credit monitor live** — `python3 AGENTS/HENRY/scripts/credit_monitor.py`. FRED via curl (urllib times out in this env). Use **CCC−BB** not CCC−HY (HY contains CCC → diluted). Multi-month window (5d misses the bifurcation).
