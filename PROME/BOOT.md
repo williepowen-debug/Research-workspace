@@ -1,171 +1,116 @@
 # PROME Boot
 
-**Injection:** AGENTS.md, SOUL.md, USER.md always injected. HEARTBEAT.md + MEMORY.md main sessions only. Do NOT re-read injected files.
+**Goal:** become operational fast without loading manuals.
+
+**Injected context:** `AGENTS.md`, `SOUL.md`, `USER.md` are already loaded. In main sessions `HEARTBEAT.md` + `MEMORY.md` are also injected; workspace context may also include `TOOLS.md` / `IDENTITY.md`. **Do not re-read injected files unless debugging drift.**
 
 ---
 
-## Tools
+## Non-Negotiables
 
-**Market Data:** `FORGE/tools/market-data/` — `fetch.py` (live prices + FRED), `config.py` (thresholds), `dashboard.py` (CLI stress dashboard). Use `python3 dashboard.py` before citing any price. Cron: 5min (self-throttled). Morning briefing 6 AM ET. Web: `:8080/api/stress`. **Citation convention:** FRED data has T+1 publication lag — always cite FRED-sourced numbers with observation-date stamp (e.g., `HY OAS 280bps [FRED 5/20 close]`). Full convention in `FORGE/tools/market-data/README.md` § Citation Convention.
-
-**News Sweep:** `FORGE/tools/news-sweep/` — `sweep.py` (fetcher + classifier + router), `config.py` (queries, entity index, WATCH_FOR lists, keywords, source weights). Cron M-F 8:30 AM ET + Telegram push. On-demand: `python3 sweep.py --compact --route`. Web: `/api/news`. **Prome maintains** the entity index and WATCH_FOR lists — update after major STATUS changes or agent COMPLETION_SPECs.
-
-**Dashboard Server:** `dashboard/server.py` — HTTP API on :8080. Key endpoints: `/api/status`, `/api/stress`, `/api/news`, `/api/agents`, `/api/prices`, `/api/predictions`.
-
-**Calendar:** CALENDAR.md syncs to Google Calendar via `tools/calendar/sync_calendar.py`. Cron 7 AM ET weekdays. *(Currently broken — Google OAuth issue.)*
-
-**Other:** `pdfminer.six` installed (`from pdfminer.high_level import extract_text`).
+- **Repo state first:** run `git status --short` + ahead/behind before pull/rebase.
+- **No broad git operations:** never `git add .`, `git add -A`, `git reset HEAD`, force-push, or stash/reset unknown work.
+- **Pull only if safe:** safe = clean working tree, no staged files, no known concurrent-agent risk. If dirty/untracked, read local continuity first and ask/triage; do not force sync just to boot.
+- **Prices need live data:** run `FORGE/tools/market-data/dashboard.py` or `fetch.py` before citing prices/levels.
+- **FRED citation convention:** cite observation dates, e.g. `HY OAS 280bps [FRED 5/20 close]`.
+- **No agent edits** unless Will explicitly approves.
+- **No trade execution.** Old trade rails remain verification-required until broker/Will reconciliation.
+- **External/public sends require approval.**
+- **Push is Will-coordinated:** committing may be okay when approved/scoped; pushing requires explicit Will approval.
 
 ---
 
-## Doc Ownership
+## Minimal Doc Ownership
 
-**Rule: If you catch yourself writing the same data in two docs, stop. Put it in the owner doc and reference from the other.**
+If the same fact appears in two docs, put it in the owner doc and reference it elsewhere.
 
-| Doc | Owns | Does NOT contain |
-|-----|------|-----------------|
-| **TODAY.md** | Today's date, catalysts, task checklist, key market levels, notable shifts | Agent operational state, pending system actions |
-| **STATUS.md** | Agent health table, pending actions, resolved items, intelligence quality notes | Market levels or catalyst calendar (→ TODAY), thesis narrative (→ HEARTBEAT) |
-| **SCRATCH.md** | Session handoff — what just happened, immediate state, pending items for next Prome | Anything that should persist beyond one session (→ MEMORY.md or STATUS) |
-| **HEARTBEAT.md** *(root, injected)* | Scenario weights, threshold table, catalyst calendar (48h), position decisions pending | Agent operational details (→ STATUS), full position sizing (→ POSITIONS) |
-| **POSITIONS.md** | Full portfolio: entries, stops, sizing, P&L, account value | Operational priorities or agent health |
-| **ACTIVE_DECISIONS.md** | Boot-readable index of non-terminal decisions: state, owner, next action, backstop, source | Full action logic, thesis narrative, position tables |
-| **PREDICTIONS_MONITOR.md** | Falsifiable predictions with resolution dates and outcomes | Position details or daily catalysts |
-| **OUTBOX.md** | Prome's outbound signals for agents | Anything else |
-| **FLEET_SCAN.md** | Latest fleet situation report — agents, catalysts, open loops, top-N moves | Domain analysis (→ agent STATUS files) |
-| **ORCHESTRAL_LAYER_DESIGN.md** | Design + ranking rubric for fleet-scan / top-N / revival-proxy workflow | Per-session scans (→ FLEET_SCAN.md) |
-| **CLOSEOUT.md** | Standardized session-end procedure | Boot procedure (→ BOOT.md) |
-| **AUTONOMY.md** | Tier 1/2/3 permission model + autonomy change log | Specific spawn rules (→ AGENTS.md) |
-| **COMPLETION_SPEC.md** | Sub-agent `LAST_COMPLETION.md` report format | Anything else |
-| **CLAUDE_CODE_PROME_PLAN.md** | Architecture plan for persistent Claude Code Prome | Current implementation status (→ TASKS) |
-| **CLAUDE_CODE_PROME_TASKS.md** | Restart-safe task ladder for building Claude Code Prome | Detailed operating manual after scaffold exists |
-| **HANDOFF.md** | Cross-runtime Prome continuity: latest 3–5 OpenClaw + Claude Code entries | Long history (→ `PROME/archive/`), per-session scratch detail (→ SCRATCH) |
-| **memory/YYYY-MM-DD.md** | Daily session log — what was done, files changed, handoff notes | Long-term insights (→ MEMORY.md root) |
-| **MEMORY.md** *(root, injected)* | Curated long-term discoveries, thesis framework, system architecture | Daily session details (→ memory/) |
+| Doc | Owns |
+|---|---|
+| `PROME/HANDOFF.md` | Cross-runtime continuity; latest 3–5 entries only. |
+| `PROME/SCRATCH.md` | Immediate session state and next-session entry point. |
+| `PROME/TODAY.md` | Operator card: today’s catalysts, tasks, notable shifts. |
+| `PROME/ACTIVE_DECISIONS.md` | Non-terminal decision safety index. |
+| `PROME/STATUS.md` | Agent/system health, work queue, quality notes. |
+| `HEARTBEAT.md` *(injected)* | Regime, thresholds, near gates, pending position decisions. |
+| `MEMORY.md` *(injected)* | Curated durable insights and system lessons. |
+| `memory/YYYY-MM-DD.md` | Daily session log; activity detail, not root-memory insight. |
+
+Everything else is on-demand.
 
 ---
 
 ## Boot Sequence
 
-> **Boot ↔ closeout are mirror halves:** most surfaces read here have a write-back pair in `CLOSEOUT.md` (SCRATCH, TODAY, STATUS, ACTIVE_DECISIONS, HANDOFF when continuity changes). Pairing table lives in `CLOSEOUT.md` § Boot↔Closeout symmetry — it also names the intentionally one-way surfaces (FLEET_SCAN refresh-on-demand; COMM/inbox ACK-inline).
+0. **Check repo state:**
+   ```bash
+   git status --short
+   git diff --cached --name-only
+   git rev-list --left-right --count HEAD...origin/master
+   ```
+   If clean/safe, `git pull --rebase`. If dirty/untracked/staged, do not pull; read local continuity first and ask/triage.
 
-0. **Check repo state first:** `git status --short` + ahead/behind. If clean and no known concurrent-agent risk, `git pull --rebase`. If dirty/untracked, **do not stash, commit, reset, pull, or force** just to boot; read local continuity first and ask/triage.
-1. **Read `PROME/HANDOFF.md`** — latest cross-runtime continuity, especially after clears or known Claude Code Prome work. Read only the top 3–5 live entries; older history is archived.
-2. **Read `PROME/SCRATCH.md`** — immediate session handoff from last Prome. What's hot, what's unfinished.
-3. **Read `PROME/TODAY.md`** — today's catalysts, levels, task checklist.
-4. **Read `PROME/ACTIVE_DECISIONS.md`** — non-terminal decisions with state, owner, next action, backstop, and source. Use this to catch approved-but-unexecuted items before doing new research.
-5. **Read `PROME/STATUS.md`** — agent health, pending actions, priorities.
-6. **Read `PROME/FLEET_SCAN.md` only when needed** — market/fleet work in scope, another surface points to it, >1 day stale during market week, or Will asks for fleet/state audit. If absent or stale and decision-relevant, spawn a `fleet-scanner` subagent per `PROME/ORCHESTRAL_LAYER_DESIGN.md`.
-7. **If working on Claude Code Prome, read `PROME/CLAUDE.md`, `PROME/CLAUDE_CODE_PROME.md`, `PROME/CLAUDE_CODE_PROME_PLAN.md`, and `PROME/CLAUDE_CODE_PROME_TASKS.md` before editing.** The task ladder is restart-safe implementation context, not normal Telegram/OpenClaw boot material.
-8. **Check `PROME/COMM/TO_CLAUDE_CODE/`** — Prome-to-Prome mailbox from OpenClaw/Telegram Prome. Read any message not yet matched by an ACK in `PROME/COMM/ACKS/`. Prioritize `urgent` / `high`. Write an ACK (new file in `PROME/COMM/ACKS/`, do **not** edit the source message) with status `acknowledged` / `completed` / `blocked`. Protocol: `PROME/COMM/PROTOCOL.md`. Cold-boot guide: `PROME/COMM/README.md`.
-9. **Scan inbound signals if doing operational work:** (a) `AGENTS/PROME/inbox/` (direct inbox), and (b) **`AGENTS/*/outbox/*to-PROME*`** — domain agents route via their own outbox (Convention B) to sidestep the cross-agent-inbox-write gate. Flag anything that changes priorities. Skip for narrow doc-only sessions unless the handoff/scratch points here.
-10. **Score and rank only when proposing work** — use the ranking rubric in `PROME/ORCHESTRAL_LAYER_DESIGN.md` (Position Proximity ×2, Time Pressure ×1.5, Blindness Risk, Convergence, Decay Rate, System Freshness). Apply to candidate moves; honor the four anti-patterns (busywork, loudness, completionism, recency bias). Internal — don't show Will the math.
-11. **Be proactive:** Flag catalysts within 24h, stale agents, pending decisions, blocking items.
-12. **Present top proposals** when Will checks in (max 5 per batch, ranked by score).
-
----
-
-## Memory Lifecycle
-
-| File | Policy | Frequency |
-|------|--------|-----------|
-| `PROME/SCRATCH.md` | **Full rewrite each session.** Ephemeral — current state + next actions. Overwrite, don't append. | Every session |
-| `memory/YYYY-MM-DD.md` | **Build within day, fresh next day.** Append checkpoints and session logs. One file per calendar day. | Continuous |
-| `MEMORY.md` | **Curated long-term.** Promote lasting insights from daily notes. Prune superseded entries. | Weekly review |
-| Old daily notes (>14 days) | **Archive — don't load at boot.** Read on-demand for past events. Don't delete. | As needed |
-
-**Weekly maintenance (first session of the week):**
-1. Skim past week's `memory/` dailies
-2. Pull anything missing from `MEMORY.md`
-3. Prune `MEMORY.md` — remove stale, superseded, or resolved entries
-4. Verify `SCRATCH.md` reflects current state
+1. **Read `PROME/HANDOFF.md`** — top live entries only; older history is archived.
+2. **Read `PROME/SCRATCH.md`** — immediate handoff / what is hot.
+3. **Read `PROME/TODAY.md`** — current operator card.
+4. **Read `PROME/ACTIVE_DECISIONS.md`** — unresolved/approved-but-not-executed decisions before new work.
+5. **Read `PROME/STATUS.md`** — agent/system health and work queue.
+6. **Decide conditional reads:**
+   - `PROME/FLEET_SCAN.md` only for fleet/market-state work, stale-state risk, or Will-requested audit.
+   - `AGENTS/PROME/inbox/` + `AGENTS/*/outbox/*to-PROME*` only for operational routing/signal work.
+   - Claude Code Prome docs only for Claude Code Prome implementation work.
+   - `PROME/CLOSEOUT.md` before `/clear`, `/new`, or durable handoff.
+7. **Declare boot state briefly:** synced/dirty, current regime source, top pending decision/work lane, and any blocker.
+8. **Flag top issues:** catalysts within 24h, stale agents, pending decisions, blockers.
+9. **Present top proposals** only when useful; max 5, ranked by urgency/position relevance.
 
 ---
 
-## Orchestral Layer
+## Conditional Modules
 
-TOSCANINI was retired 2026-05-18. The current orchestral layer is captured in `PROME/ORCHESTRAL_LAYER_DESIGN.md` — a fleet-scan + adversarial-pair top-N + revival-proxy pattern that delegates heavy reading to subagents so Prome's main context stays clean.
-
-| File | Purpose |
-|------|---------|
-| **`PROME/ORCHESTRAL_LAYER_DESIGN.md`** | Design + ranking rubric (Position Proximity ×2, Time Pressure ×1.5, etc.) + four anti-patterns. Source of truth for orchestral work. |
-| **`PROME/FLEET_SCAN.md`** | Latest fleet situation report, produced on demand by `fleet-scanner` subagent. |
-| **`PROME/AUTONOMY.md`** | Tier 1/2/3 permission model + autonomy change log (salvaged from TOSCANINI). |
-| **`PROME/COMPLETION_SPEC.md`** | Sub-agent `LAST_COMPLETION.md` report format (salvaged from TOSCANINI). |
-| **`PROME/archive/TOSCANINI_2026-03/`** | Historical TOSCANINI files for reference. Do not read at boot. |
-
-**Every sub-agent spawn must include COMPLETION_SPEC instructions** (pattern survives retirement).
-
----
-
-## Agent IDs (for spawning)
-
-| ID | Domain | ID | Domain |
-|----|--------|----|--------|
-| labor | Employment/claims | henry | Market structure/econ data |
-| ~~carl~~ | ~~Consumer credit~~ 🖥️ **DO NOT SPAWN** | liquid | Funding/Treasury |
-| ~~reginald~~ | ~~Regional banks~~ 🖥️ **DO NOT SPAWN** | ~~sam~~ | ~~Japan/BOJ/JGB~~ 🖥️ **DO NOT SPAWN** |
-| brock | BDC/private credit | zhao | China/capital flows |
-| nexus | Cross-agent synthesis | hans | Europe (US lens) |
-| hawk | Geopolitical/military | brent | Oil/energy markets |
-| marco | Migration/labor flows | shade | PE-insurance-captive |
-| hermes | Signal delivery | darwin | System evolution |
-| otto | Auto/consumer DQ | red | Adversarial analysis |
-| oracle | Prediction markets | | |
-
-**Spawn:** `sessions_spawn(agentId="<id>", task="...", cleanup="keep")`
-**Steer:** `subagents(action="list")` / `subagents(action="steer", target="<key>", message="...")`
-**Spawn-ready rule:** If agent STATUS.md >10KB, prune before spawning.
-
-Full manual: `docs/OPERATIONS.md` | Full roster: `AGENTS_DIRECTORY.md`
+| Need | Read / Use |
+|---|---|
+| Market prices / dashboard | Use injected `TOOLS.md` if present; otherwise read `FORGE/tools/market-data/README.md`. Run `dashboard.py` / `fetch.py` before citing levels. |
+| News routing / sweep | Use injected `TOOLS.md` if present; otherwise read `FORGE/tools/news-sweep/README.md`. Use `sweep.py` only when routing/sweeping news. |
+| Fleet scan / ranking | `PROME/FLEET_SCAN.md`, `PROME/ORCHESTRAL_LAYER_DESIGN.md` |
+| Sub-agent spawn | `AGENTS.md`, `PROME/COMPLETION_SPEC.md`; include completion instructions. |
+| Claude Code Prome | `PROME/CLAUDE.md`, `PROME/CLAUDE_CODE_PROME.md`, `PROME/CLAUDE_CODE_PROME_PLAN.md`, `PROME/CLAUDE_CODE_PROME_TASKS.md` |
+| Closeout | `PROME/CLOSEOUT.md` |
+| Historical handoffs | `PROME/archive/HANDOFF_2026Q2.md` — only for old-session archaeology; never normal boot. |
+| Detailed architecture | `PROME/SYSTEM.md`, `PROME/ORCHESTRAL_LAYER_DESIGN.md` |
+| Position reconciliation | `PROME/ACTIVE_DECISIONS.md`, `PROME/TRADE_DECISIONS.md`, relevant action cards, broker/Will truth |
 
 ---
 
-## NEXUS — Synthesis Layer
+## Git Quick Reference
 
-Spawn after check-in rounds or when multiple signals arrive.
-Reads: Agent STATUS headers (first 30 lines), SIGNALS.md, PREDICTIONS_MONITOR.md
-Outputs: Convergence reports, contradiction flags, threshold proximity matrix
+Modified tracked files — no staging step:
 
----
-
-## On-Demand (not at boot)
-
-- `LESSONS.md` (workspace root) — mistakes to avoid. Review periodically.
-- `memory/YYYY-MM-DD.md` — daily session logs. Read today's if SCRATCH references unresolved items.
-- `BRIEFING.md`, `CALENDAR.md`, `FORGE/STATUS.md`, `FORGE/ACTIVE_TRADES.md`
-- `WILL/` — journal, `IDEAS.md`, `trading-journal/`
-- Agent STATUS files (`AGENTS/*/STATUS.md`)
-- `PROME/HANDOFF.md` — read before `/clear` or `/new`
-- `PROME/CLAUDE_CODE_PROME_PLAN.md` + `PROME/CLAUDE_CODE_PROME_TASKS.md` — read when resuming the Claude Code Prome build
-- `PROME/CLAUDE_CODE_HANDOFF.md` — deprecated pointer stub only; live continuity is `PROME/HANDOFF.md`
-- `PROME/CLOSEOUT.md` — session-end procedure (read before `/clear` or `/new`)
-- `PROME/COMM/TEMPLATE_MESSAGE.md` + `PROME/COMM/TEMPLATE_ACK.md` — copy when writing a message to OpenClaw Prome or acking one of his
-- `PROME/archive/TOSCANINI_2026-03/` — retired governance docs (read on-demand for historical context only)
-
----
-
-## Git Protocol
-
-**Never `git add -A` or `git add .`.** Claude Code agents share this repo and only stage their own `AGENTS/<NAME>/` dirs; a blanket add sweeps up their uncommitted work. **Never `git reset HEAD`** — the shared `.git/index` makes it a *global* unstage that races concurrent agents' staged work (auto-memory `[[finding_pathspec_commit_race_safety]]`, incident `8ac5bf71`). Matches root `CLAUDE.md` "Before committing".
-
-**Prome pathspec commits (no staging step for modified files):**
 ```bash
-# modified files — path-scoped commit:
-git commit -m "PROME: ..." -- PROME/SCRATCH.md PROME/STATUS.md
-# new untracked files — atomic add+commit of EXPLICIT paths (never `git add PROME/` as a directory):
-git add -- PROME/<newfile> && git commit -m "PROME: ..." -- PROME/<newfile>
-# mixed modified + new files:
-git add -- PROME/<newfile> && git commit -m "PROME: ..." -- PROME/<modified> PROME/<newfile>
+git commit -m "PROME: <subject>" -- PROME/<file> PROME/<file>
 ```
-Stage only the specific new files you changed. Shared files (root `CLAUDE.md`, `HEARTBEAT.md`, `FORGE/`, `MEMORY.md`) only with Will approval. Never blanket-add, never directory-add, never `reset HEAD`. **Option order matters:** put `-m` before `--`; everything after `--` is a pathspec.
+
+New files — add only explicit paths:
+
+```bash
+git add -- PROME/<newfile>
+git commit -m "PROME: <subject>" -- PROME/<newfile>
+```
+
+Mixed modified + new files:
+
+```bash
+git add -- PROME/<newfile>
+git commit -m "PROME: <subject>" -- PROME/<modified> PROME/<newfile>
+```
+
+**Option order matters:** put `-m` before `--`; everything after `--` is a pathspec.
+
+Push only when Will approves/coördinates it.
 
 ---
 
-## Key Reference Files
+## Closeout Pointer
 
-| File | When |
-|------|------|
-| `AGENTS/templates/KB_MIGRATION_PLAYBOOK.md` | Before KB/TSV migration |
-| `AGENTS/VOCABULARIES.tsv` | Before writing to any KB.tsv |
-| `AGENTS/templates/CLAUDE_TEMPLATE.md` | Before spawning or reviewing agent structure |
+Before `/clear`, `/new`, long pauses, or handoff: read `PROME/CLOSEOUT.md` and run the appropriate tier.
+
+Closeout is the write-back tail of boot: update only the owner docs whose state actually changed.

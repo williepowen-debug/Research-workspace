@@ -52,8 +52,27 @@ Closeout is the **write-back tail** of boot (auto-memory `[[finding_closeout_as_
 | `memory/YYYY-MM-DD.md` | on-demand | Chunk 2 — create/append |
 
 **Intentionally one-way (no closeout write-back, by design):**
-- `FLEET_SCAN.md` — read at boot step 4; refreshed *on demand* by the fleet-scanner subagent, never at closeout.
-- COMM mailbox (step 8) + inbox / agent-outbox scan (step 9) — ACKed / routed *inline during the session*, not deferred to closeout.
+- `FLEET_SCAN.md` — conditional boot read; refreshed *on demand* by the fleet-scanner subagent, never at closeout.
+- COMM mailbox + inbox / agent-outbox scan — ACKed / routed *inline during the session*, not deferred to closeout.
+
+---
+
+## Prome Write-Back Contract
+
+Use this as the manual write-back feature. Do not auto-edit every surface; update only the owner doc whose state actually changed.
+
+| If this changed | Write back to | Rule |
+|---|---|---|
+| Immediate next-session state | `PROME/SCRATCH.md` | Full rewrite for Standard/Heavy; Bounce may append 3–5 lines. |
+| Cross-runtime continuity / decisions Will made | `PROME/HANDOFF.md` | Concise top entry only if future Prome needs it; keep latest 3–5 live. |
+| Non-terminal decision state | `PROME/ACTIVE_DECISIONS.md` | Surgical row update; if unknown, mark `DEFERRED` / reconcile, never infer execution. |
+| Agent/system health or work queue | `PROME/STATUS.md` | Surgical update; avoid repeating TODAY/HEARTBEAT market narrative. |
+| Date/catalysts/operator checklist | `PROME/TODAY.md` | Surgical update only when date/gates/tasks moved. |
+| Regime/thresholds/near gates | `HEARTBEAT.md` | Update after regime-level changes or when >48h stale during market week. |
+| Daily activity / file changes | `memory/YYYY-MM-DD.md` | Append durable session log. |
+| Durable insight / lesson | `MEMORY.md` or auto-memory | Promote sparingly; avoid activity logs. |
+
+**Default:** if no owner state changed, do not write back. State bloat is worse than a quiet closeout.
 
 ---
 
