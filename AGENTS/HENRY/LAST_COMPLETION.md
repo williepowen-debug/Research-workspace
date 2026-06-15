@@ -1,57 +1,49 @@
 # HENRY — LAST COMPLETION
 
-**Session:** 2026-06-15 Mon ~9:18 AM ET — 5-session catch-up (gap since 6/9 Tue)
-**Status:** 🟡 Cyclical axis SOFT-KILLED on the CPI gate; structural axis confirmed-but-dormant; FOMC 6/16-17 is the live re-arm risk
+**Session:** 2026-06-15 Mon (~9:18 AM – ~11:45 AM ET) — catch-up + macro-focus pivot + boot/closeout parity build, Will-directed (Prome/ORC dual-surface review throughout)
+**Status:** 🟡 Cyclical axis SOFT-KILLED on the CPI gate (intensifying into FOMC); structural credit axis confirmed-but-dormant; FOMC 6/16-17 dots the live re-arm. Infra: boot-parity built, eval suite baseline-ready.
 
 ---
 
 ## RESULT (one line)
-The CPI gate (HEN-32) resolved **SOFT** (core +0.2% vs +0.3%) — cyclical axis soft-killed on the inflation leg, vol fully unwound, SPX new highs; only the dormant structural credit-bifurcation axis remains, and FOMC's dot plot tomorrow is now the swing.
+Closed a 5-session staleness gap (CPI/PPI/HEN-32), pivoted HENRY to macro-only focus (positions retired), folded a full Prome/ORC review, and built the boot/closeout parity HENRY was missing (boot.py + NEXUS_BRIEF + MAINTENANCE + eval suite) — eval baseline-run is the one remaining gate, and it's yours.
 
 ## CHANGED (files)
-- `STATUS.md` — full retime to 6/15: signal block, LIVE TAPE, VOL REGIME, credit readout, +CPI/+PPI data-release logs, split-axis thesis, invalidation triad, thresholds, catalyst stack, predictions, cross-agent deps, bottom line
-- `workbook/PREDICTIONS.tsv` — HEN-32 → MISS; added HEN-33 (FOMC 0-cut dot)
-- `MEMORY.md` — session handoff rewritten; +2 findings (headline-hot/core-soft split; resolve-the-verify-flag-yourself)
-- `LAST_COMPLETION.md` — this file
+- `STATUS.md` — full retime to 6/15 (CPI/PPI logged, HEN-32 MISS, tape, FRED 6/12 credit HY 271); position framing scrubbed (macro reads only).
+- `workbook/PREDICTIONS.tsv` — HEN-32 MISS; HEN-33 added + re-anchored to hawkish-of-pricing.
+- `scripts/boot.py` — NEW (v1 boot kit). `scripts/refresh_status.py` — RETIRED → `archive/retired/`.
+- `NEXUS_BRIEF.md`, `MAINTENANCE.md`, `evals/` (README + results.tsv + 3 cases) — NEW.
+- `BOOT_AUDIT.md` — NEW (boot audit) + corrected. `MEMORY.md`, `LAST_COMPLETION.md` — updated.
+- auto-memory: `finding_anchor_prediction_to_surprise_not_priced` + `feedback_henry_macro_focus_not_positions` (new); consumer-vantage umbrella folded into `feedback_verify_counts_before_propagating`.
 
-## Session Work
-1. **Logged the two missed prints.** May CPI (6/10): core **+0.2% MoM / +2.9% YoY** SOFT (HEN-32 MISS), headline +4.2% energy-driven. May PPI (6/11): **+1.1%** but ~80% energy (gasoline +23.4%), services +0.3% tame. Both looked through — Brent collapsed $91→$83.
-2. **Refreshed full tape** (yfinance + FRED). Vol fully unwound: VIX 21.69→**16.42**, VIX9D backwardation→contango, VVIX→93.82. SPX 7,319→**7,431** new highs. 10Y 4.54→**4.45** (back below 4.5% yellow). KRE/WAL up again.
-3. **Resolved HEN-32 MISS, added HEN-33** (FOMC 6/17 0-cut dot → 10Y +10bps).
-4. **Confirmed APO BROCK-trigger FIRED** — pulled daily closes: >$130 ×4 sess (6/9–6/12). BROCK's "3+ sess" rule met. BROCK STATUS stale 6/8 (shows un-fired).
-5. **Invalidation triad** — VIX now re-approaching the <15 soft-kill arm (16.42, cushion 1.42); first leg to genuinely near a kill since the gap.
+## Session Work (phases)
+1. **Catch-up (5-session gap):** May CPI (6/10) core **+0.2% SOFT** → HEN-32 MISS; May PPI (6/11) +1.1% but ~80% energy. Cyclical axis soft-killed; vol unwound, SPX new highs, 10Y eased.
+2. **Macro-focus pivot (Will):** trade positions retired as dead/closed; STATUS scrubbed of position framing; 10Y/TLT/APO kept as macro-trend reads.
+3. **Prome/ORC review corrections:** VIOLET was current to 6/12 (my stale-carry error — corrected + integrated); HEN-33 re-anchored (0-cut already priced); SAM BOJ (modal vol-crush); live ~10am tape; date fixes.
+4. **Boot audit → parity build:** found HENRY had no boot.py / NEXUS_BRIEF / predictions-scan. Built `boot.py` v1 (validated, selftest passes), stood up `NEXUS_BRIEF.md` (closed BRIEFS_MAP Priority-#2), created `MAINTENANCE.md`.
+5. **Status-bug fix:** RETIRED `refresh_status.py` (stale writer, hardcoded narrative); folded FRED 6/12 (HY 271, **11bps from soft-kill**); caught + fixed my own stale "+6 uptick" claim (gap actually flat).
+6. **Eval suite v1:** 3 cases (staleness TARGET + catalyst-pricing/KRE guardrails) per ORC's 4 refinements; promoted case-02's principle to auto-memory.
+7. **Closeout audit + this closeout** (ran the mature-closeout discipline: predictions-resolved-check, NEXUS_BRIEF refresh, promotion-removal, one-source overlay).
 
 ## GAPS / Still pending
-- **0DTE SPX share + GEX regime** — still pending (7+ sessions); manual estimate acceptable.
-- **VIOLET domain stale to 6/1** — owes M1:M2 + 20d-SKEW; vol regime now unwound on my read.
-- **VX.tsv duplicate ID collision** (modernization backlog).
+- **0DTE SPX share + GEX regime** — still pending (HENRY's standing gap; manual estimate OK).
+- **CLAUDE.md boot/closeout wiring** — DEFERRED (eval-gated): read peer briefs at boot, write-back at closeout, resolve-DUE-predictions, discipline-overlay. Needs the eval baseline first.
+- **Eval baseline run** — built, not yet run (see WILL_NEEDS).
 
-## COMMITS
-- `6d01f480` — HENRY: 6/15 catch-up — CPI gate MISS, cyclical axis soft-killed, APO trigger fired (STATUS + MEMORY + PREDICTIONS)
-- `b18bb9f8` — HENRY: 6/15 closeout
-- `c2725755` — HENRY: retire trade-position focus (Will 6/15)
-- (Prome/ORC review-corrections commit follows) — **all PUSHED to origin/master** (Will-coordinated window 6/15).
-
-## PROME/ORC REVIEW CORRECTIONS (6/15, folded in)
-- 🔴 **VIOLET was current to 6/12, NOT "stale 6/1"** — my error (re-violated my own "check sibling Last-Updated" lesson; clone WAS current, I didn't re-read her file). Integrated her M1:M2 +9.41%, SKEW-held-142.6 / 20d-141.01, credit-gate (CCC missed 9.55 lift by 1bp).
-- 🔴 **Live tape re-pulled ~10am** — session gapped further risk-on (SPX 7,551, VIX 16.17, APO 138/ARES 140). Soft-kill INTENSIFYING.
-- 🔴 **HEN-33 re-anchored to hawkish-OF-pricing** (0-cut '26 already priced; a 0-cut dot won't move yields).
-- 🔴 **SAM 6/14 BOJ integrated** — modal = vol crush (Ueda absent = guidance risk); spike = ~10% tail.
-- 🔴 **APO→BROCK reframed** "reassess puts" (his rule) not "re-arm" (read backwards for a put against them).
-- 🟡 6/18→Thu, opex→6/19 triple-witch; HEN-32 window −5bps(3-sess)/−9bps(to 6/15); bifurcation +24 quarterly / +26 rolling-90d labeled.
+## COMMITS (this session, all pushed to origin)
+`6d01f480` catch-up · `b18bb9f8` closeout · `c2725755` retire-position-focus · `3d4ae40a` Prome/ORC corrections · `52a70d85` boot-audit · `d9825622` boot.py · `2ff603e5` NEXUS_BRIEF · `39e4aa8e` retire refresh_status + FRED 6/12 · `53193d26` brief FRED sync · `37c6eb5c` evals suite · `26be811e` auto-mem promote · `26e6ee86` auto-mem umbrella fold · (+ this closeout commit).
 
 ## NEXT SESSION FOLLOW-UP (catalyst dates)
-- **Tue–Wed 6/16-17 — FOMC + SEP/dot plot (new Chair Warsh).** Hold ~99.9% priced → DOTS are the catalyst. **0 cuts '26 already PRICED** (CME ~77.5% / Polymkt 57-70%) → re-arm needs hawkish-OF-pricing; reaffirmed 1-cut = dovish surprise (HEN-33). THE live event.
-- **Tue 6/16 — BOJ decision** (SAM-primary; modal vol-crush, Ueda absent; USD/JPY 160.07 >160).
-- **Fri 6/19 — Jun triple-witching opex** (gamma/positioning unwind day).
-- **~late Jul — BDC Q2 marks (BROCK)** = only live structural-axis test post-FOMC.
+- **Tue-Wed 6/16-17 — FOMC + SEP/dot plot (Chair Warsh).** Live catalyst. Bar = HAWKISH-OF-PRICING (0-cut already priced); a reaffirmed 1-cut = dovish surprise (HEN-33). Log the dots real-time; watch VIX <15 (arms soft-kill leg).
+- **Tue 6/16 — BOJ** (SAM-primary; modal vol-crush, Ueda absent).
+- **Fri 6/19 — Jun triple-witching opex** + HEN-33 resolves.
+- **~late Jul — BDC Q2 marks (BROCK)** = the structural-axis test.
+- **Credit watch:** HY 271 [FRED 6/12], 11bps from the 260 soft-kill and tightening — does FOMC push it toward <260?
 
-## THESIS SNAPSHOT (frozen at close)
-Cyclical axis soft-killed on the data (soft core + collapsing energy + crushed vol + SPX ATH + eased yields). Structural credit-bifurcation axis CONFIRMED (CCC−BB 787, +26/3mo) but NOT transmitting to equity (KRE/WAL up, HY not underperforming IG) — the trap that hasn't sprung. Neither cyclical leg is driving risk-off; the cascade is dormant (VIX 16, vol-control cushion 6.58). The VIX soft-kill leg is the closest to firing (1.42 above <15). Live re-arm risk = FOMC dot plot tomorrow.
+## THESIS SNAPSHOT (frozen at close ~11:45 AM)
+Cyclical axis soft-killed on the data (soft core CPI + collapsing energy + crushed vol + SPX fresh highs 7,573 + 10Y 4.46) and intensifying into FOMC. Structural credit-bifurcation axis CONFIRMED but DORMANT (CCC−BB 786, not transmitting; KRE/WAL/APO up) — though the *headline* (HY 271) is now tightening toward the 260 soft-kill, complacency reinforcing the soft-kill read. VIX soft-kill leg the closest to firing (16.3, ~1.3 above <15). Live re-arm risk = FOMC dot plot, and the bar is hawkish-of-pricing, not the priced 0-cut.
 
 ## WILL_NEEDS
-*Per your 6/15 directive, trade positions are retired from focus — HENRY now tracks macro + market trends only. The duration channel (10Y/TLT) and alts proxy (APO) stay as market reads, not position calls. No position decisions pending.*
-
-1. **FOMC 6/17 dot plot is the one live event** (HEN-33). If you want, I'll be ready to log it real-time and read the macro/market reaction (yields, vol, the soft-kill VIX leg) the moment it drops.
-2. **Cross-agent macro signals — fire or hold?** (a) Brent <$85 → BRENT soft-kill accelerant; (b) credit bifurcation drifting wider (CCC−BB +6/5d) → REGINALD/BROCK macro watch. Both 🟡/🟠, non-critical; I held the outbox per restraint. Want them fired, or batched into a NEXUS_BRIEF?
-3. **Today's workload split** — what macro/market-trend threads do you want HENRY on while Prome + Orc review?
+1. **🔴 The eval baseline run — the one real gate.** The `evals/` suite is built and baseline-ready (contamination clean, all cited deps on origin, ORC-verified). It needs a **fresh HENRY session, scored by you (~10 min/case, can't be delegated).** Until you run it, the CLAUDE.md boot/closeout wiring stays blocked (fine — deferred). Minimum viable: Case 01 (TARGET) + one guardrail (~20 min). Drop me the results; if Case 01 fails at baseline that's expected (it's what the change fixes).
+2. **Cross-agent macro signals — fire or hold?** (a) APO/ARES entrenched >$130 → BROCK ("reassess Dec $95P"); (b) Brent <$85 → BRENT soft-kill accelerant. Both held per restraint, pending your nod. *(No position decisions — positions retired.)*
+3. Nothing else outstanding. Working tree clean, all pushed.
