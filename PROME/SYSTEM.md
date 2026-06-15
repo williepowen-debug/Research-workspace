@@ -76,16 +76,16 @@ Primary shared files:
 
 - `PROME/BOOT.md` — boot sequence and ownership map.
 - `PROME/SYSTEM.md` — architecture map and trust layer.
-- `PROME/HANDOFF.md` / `PROME/SCRATCH.md` — Telegram/OpenClaw session continuity.
-- `PROME/CLAUDE_CODE_HANDOFF.md` — Claude Code Prome session continuity.
+- `PROME/HANDOFF.md` / `PROME/SCRATCH.md` — cross-runtime Prome continuity and current session handoff.
+- `PROME/CLAUDE_CODE_HANDOFF.md` — deprecated pointer stub; historical content archived in `PROME/archive/HANDOFF_2026Q2.md`.
 - `PROME/TODAY.md`, `PROME/STATUS.md`, `PROME/TOSCANINI/QUEUE.md`, `HEARTBEAT.md`, `MEMORY.md` — current-state and long-term context as their own rules define.
 
 Split-brain prevention:
 
 - Put facts in owner files; reference them elsewhere.
-- Claude Code Prome must update `PROME/CLAUDE_CODE_HANDOFF.md` at the end of meaningful sessions.
-- If Claude Code work changes the next Telegram/OpenClaw session, also update `PROME/HANDOFF.md` or `PROME/SCRATCH.md`.
-- Telegram/OpenClaw Prome should read `PROME/CLAUDE_CODE_HANDOFF.md` after clears or after known Claude Code Prome work.
+- Claude Code Prome must update `PROME/HANDOFF.md` at the end of meaningful sessions when future Prome continuity changes.
+- If Claude Code work changes the next Telegram/OpenClaw session, also update `PROME/SCRATCH.md` as appropriate.
+- Telegram/OpenClaw Prome should read `PROME/HANDOFF.md` after clears or after known Claude Code Prome work.
 
 ## Claude Code Prome Build
 
@@ -99,7 +99,7 @@ Current source files:
 | `PROME/CLAUDE_CODE_PROME_TASKS.md` | Restart-safe task ladder and clear checkpoints. |
 | `PROME/CLAUDE.md` | Claude Code bootstrap file. |
 | `PROME/CLAUDE_CODE_PROME.md` | Longer operating manual. |
-| `PROME/CLAUDE_CODE_HANDOFF.md` | Dedicated handoff from Claude Code Prome sessions. |
+| `PROME/HANDOFF.md` | Single live handoff for OpenClaw + Claude Code Prome sessions. |
 
 Current status: Phase 2 architecture integration complete from Telegram/OpenClaw side. Next step is Phase 3 dry run. Do not treat Claude Code Prome as fully trusted until the dry run passes.
 
@@ -224,9 +224,9 @@ Known current caveat:
    - Inbox signal requested `FORGE/STATUS.md` refresh.
    - This affects `/COP.md` and any dashboard/system status that references FORGE state.
 
-4. **Claude Code Prome dry run pending**
+4. **Claude Code Prome dry run historical note**
    - Phase 1 bootstrap files and Phase 2 architecture integration are complete.
-   - Next: Phase 3 dry run with no risky edits; Claude Code Prome should only update `PROME/CLAUDE_CODE_HANDOFF.md` during the first test.
+   - Superseded 2026-06-14: Claude Code continuity now uses `PROME/HANDOFF.md`; `PROME/CLAUDE_CODE_HANDOFF.md` is a pointer stub.
 
 ---
 
