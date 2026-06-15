@@ -19,12 +19,12 @@
 | **VVIX** | **93.82** | 101.79 | −7.97 | 🟢 vol-of-vol bid drained, back below 100 | yf ^VVIX |
 | **SKEW** | **142.60** spot | 145.00 | −2.40 | 🟡 spot eased; REGIME = VIOLET 20d-avg (still stale 6/1 @ 138.99) — reconcile w/ VIOLET | yf ^SKEW |
 | **10Y** | **4.45%** | 4.54% | **−9bps** | 🟢 **eased back BELOW the 4.5% yellow** — soft core CPI repriced duration; FOMC 6/17 next catalyst | yf ^TNX |
-| **TLT** | **$85.77** | $85.11 | **+0.78%** (+$0.66) | 🔴 **rose — Will's $85P now OTM** (TLT > $85 strike), Jun expiry ~6/19 = ~4 sess. Soft CPI was adverse to the put. **DECISION POINT — defer to Will w/ mark** | yf |
+| **TLT** | **$85.77** | $85.11 | **+0.78%** (+$0.66) | 🟢 **duration channel** — long-bond bid back as soft core CPI eased 10Y below 4.5%; rates-disinflation read (market indicator, not a position) | yf |
 | **HY OAS** | **278bps** [FRED 6/11] | 275 [6/8] | **+3bps** | 🟢 **no cascade** — drifted +3bps but 18bps off the 260 kill. *Weekly-quiet ≠ structurally-fine — see BIFURCATION block* | FRED BAMLH0A0HYM2 |
 | **CCC OAS** | **956bps** [FRED 6/11] | 949 [6/8] | **+7bps** | 🟡 **structurally WIDE, drifting wider** — sole tier widening 1yr (bifurcation). Gap CCC−BB 787 (+26/3mo) | FRED BAMLH0A3HYC |
 | **KRE** | **$73.41** | $71.25 | **+$2.16** (+3.0%) | 🟢 **up again** — rate/NIM story persists, no credit stress | yf |
 | **WAL** | **$83.67** | $81.29 | **+$2.38** (+2.9%) | 🟢 also up; REGINALD-primary; v2.2 Bear-medium 30% (Q2 print late Jul) | yf |
-| **APO** | **$133.88** | $131.00 | **+$2.88** (+2.2%) | 🟠 **BROCK trigger FIRED** — closed >$130 ×4 sess (6/9 132.70 / 6/10 131.14 / 6/11 133.91 / 6/12 133.88) ≥ BROCK's "3+ sess" rule. APO strength = adverse to BROCK Dec $95P (alts resilient = thesis-soft). **BROCK STATUS stale 6/8 — they don't have this** | yf |
+| **APO** | **$133.88** | $131.00 | **+$2.88** (+2.2%) | 🟡 **alts / private-credit proxy resilient** — entrenched >$130 (4 closes 6/9–6/12), no public-market stress in the alts complex (corroborates the "structural axis not transmitting" read). FYI cross-read → BROCK | yf |
 | **Brent** | **$83.11** | $91.01 | **−$7.90** (−8.7%) | 🟢 **energy collapse continuing** — de-fangs the energy-driven hot headline-CPI/PPI prints; supports the soft/disinflation read | yf BZ=F |
 | **USD/JPY** | **160.11** | 160.30 | −0.19 | 🟠 holding >160 yellow → SAM carry-unwind; **BOJ decision 6/16** (hike was ~97% priced) | yf JPY=X |
 
@@ -158,7 +158,7 @@
 | HY OAS | 278 [FRED 6/11] | >320 | >400 | >500 | ARMED [6/11 @ 278] (42bps below yellow; +3bps) · → credit-equity on >320 |
 | CCC OAS | 956 [FRED 6/11] | >900 | >1000 | >1100 | YELLOW [6/11 @ 956] (>900; structurally wide — bifurcation, see block) · → dispersion canary |
 | **USD/JPY** | **160.11 [yf 6/15]** | **>160** | >162 | >165 | **FIRED-YELLOW [6/15 @ 160.11]** · → SAM carry-unwind (BOJ decision 6/16) |
-| **APO** | **133.88 [yf 6/15]** | >$130 ×3 sess | — | — | **FIRED [6/15 @ 133.88]** (closed >$130 ×4 sess 6/9–6/12 ≥ BROCK's 3+ rule = put-thesis re-arm). APO strength = adverse to BROCK Dec $95P · **→ BROCK (stale 6/8, doesn't have it)** |
+| **APO** | **133.88 [yf 6/15]** | >$130 ×3 sess | — | — | **ENTRENCHED >$130** [6/15] (4 closes 6/9–6/12) — alts complex no public stress; market-structure read · FYI cross-read → BROCK |
 | HY OAS kill | 278 [FRED 6/11] | <290 | <270 | <260 sust | **WARN, off kill** [6/11 @ 278] (<290 warn on; 18bps above the 260 kill, drifting wider) · leg 1 |
 | VIX kill | 16.42 [yf 6/15] | <17 | <16 | <15 1-sess | **WARN — RE-APPROACHING** [6/15 @ 16.42] (<17 warn ON; 1.42 above the <15 arm) · leg 2 |
 | SPX kill | 7,431 [yf 6/15] | <7,200 | <7,100 | >7,100×5 | **FIRED, untested** [new highs, held >7,100; ~36 sess] · leg 3 |
@@ -175,7 +175,7 @@
 | **Tue-Wed 6/16-17** | **FOMC + SEP/dot plot** (new Chair Warsh) | 🔴 **NOW THE LIVE CATALYST.** Hold 98% priced → DOTS are the move. Hawkish (0 cuts '26, Polymkt 57%) → yields back up, cyclical re-arm risk; status-quo (1 cut) → soft-kill consolidates |
 | **Tue 6/16** | **BOJ decision** | SAM-primary; hike was ~97% priced — USD/JPY >160 carry-unwind watch |
 | **Wed 6/18** | AOCI capital-rewrite comment close + options expiry cluster | REGINALD/BROCK-primary; HENRY watches bank-tape |
-| ~Fri 6/19 | Jun monthly opex — Will's TLT Jun $85P expire | Duration decision point — defer to Will w/ live mark |
+| ~Fri 6/19 | Jun monthly opex | Gamma/positioning unwind day — watch for opex-driven vol/structure moves |
 | ~late Jul | BDC Q2 + WAL Q2 prints | Structural-axis test (BROCK/REGINALD) — the only live thesis test post-FOMC |
 
 ---
@@ -222,10 +222,10 @@
 2. **Structural axis — CONFIRMED but DORMANT.** Credit bifurcation intact (CCC−BB 787, still drifting +26/3mo), but NOT transmitting to equity (KRE/WAL up, HY not underperforming IG). The trap that hasn't sprung. Next live test = BROCK BDC Q2 marks (late July).
 3. **The live re-arm risk = FOMC dot plot (6/16-17), not a data print.** Hold 98% priced → the SEP/dots are the catalyst (new Chair Warsh). Hawkish (0 cuts '26, Polymarket 57%) → yields back up → cyclical re-arms (HEN-33); status-quo (1 cut) → soft-kill consolidates.
 
-**Duration read (Will's TLT positions):** The soft CPI was **adverse** to the puts — 10Y eased to 4.45, TLT rose to $85.77, so the 3× Jun **$85P is now OTM** with Jun expiry ~6/19 (~4 sessions) and FOMC tomorrow the last catalyst. This is a genuine decision point. **I'm deferring to Will with the live mark, not auto-recommending** (exit-recommendations-need-mark-context lesson): the honest frame is that the duration leg went the wrong way on the gate, and the only remaining catalyst that helps these is a hawkish FOMC dot tomorrow — low-probability rescue with 4 days of theta left. Sep-leg gate unchanged: HOLD 2× Sep $85P (more time for the structural/FOMC path), don't add.
+**Duration channel (macro read):** 10Y eased to 4.45 (back below the 4.5% yellow), long-bond bid returned (TLT $85.77) — the rates market priced the soft core as disinflationary. The channel is quiet/easing; FOMC dots tomorrow are the next thing that could back yields up. *(Per Will 6/15: trade positions retired from focus — HENRY tracks the duration channel as a market-trend indicator, not for position management.)*
 
-**Cross-agent signal candidates (Will to confirm before I write outbox):** (a) **APO BROCK-trigger FIRED** — closed >$130 ×4 sess (6/9–6/12), meets BROCK's "3+ sessions" put-thesis re-arm rule. **BROCK STATUS is stale 6/8 so they don't have it.** Direction caveat: APO strength is *adverse* to their Dec $95P (alts resilient = thesis-soft), so it's a re-arm of the *trigger* but not a bear confirmation. Non-critical (🟠, not 🔴) + BROCK will catch it on their own boot refresh — flagging to Will rather than auto-firing the outbox (per outbox-restraint). (b) **Brent <$85 ($83)** → BRENT/soft-kill — energy-deflation accelerant. (c) Credit bifurcation still drifting wider (CCC−BB +6/5d, first uptick in weeks) → REGINALD/BROCK watch. **Vol-regime broadcast is VIOLET's, not HENRY's** (scope, Will 6/6) — the full vol unwind is hers to broadcast. VIOLET still stale to 6/1.
+**Cross-agent macro signals (Will to confirm before I write outbox):** (a) **Brent <$85 ($83)** → BRENT/soft-kill — energy-deflation accelerant, de-fanged the energy-driven hot CPI/PPI prints. (b) Credit bifurcation still drifting wider (CCC−BB +6/5d, first uptick in weeks) → REGINALD/BROCK macro watch. (c) **APO entrenched >$130** (alts complex no public stress) → BROCK FYI cross-read — corroborates "structural axis present but not transmitting"; not a position action. **Vol-regime broadcast is VIOLET's, not HENRY's** (scope, Will 6/6) — the full vol unwind is hers to broadcast. VIOLET still stale to 6/1.
 
 ---
 
-*Mon 6/15 ~9:18 AM catch-up (5-session gap closed): logged May CPI (6/10, core +0.2% SOFT → **HEN-32 MISS**) + May PPI (6/11, +1.1% but ~80% energy). Full tape refreshed → **cyclical axis SOFT-KILLED on the inflation leg** (vol unwound VIX 16.42 / contango restored, SPX 7,431 new highs, 10Y eased to 4.45). Structural credit-bifurcation axis CONFIRMED but dormant (CCC−BB 787). Triad: SPX fired-untested, VIX re-approaching <15 arm, HY off kill. **Live catalyst now = FOMC 6/16-17 dot plot (HEN-33).** TLT Jun $85P now OTM — deferred to Will w/ mark. No outbox fired yet (APO/Brent/bifurcation candidates pending Will). VIOLET (6/1) stale.*
+*Mon 6/15 ~9:18 AM catch-up (5-session gap closed): logged May CPI (6/10, core +0.2% SOFT → **HEN-32 MISS**) + May PPI (6/11, +1.1% but ~80% energy). Full tape refreshed → **cyclical axis SOFT-KILLED on the inflation leg** (vol unwound VIX 16.42 / contango restored, SPX 7,431 new highs, 10Y eased to 4.45). Structural credit-bifurcation axis CONFIRMED but dormant (CCC−BB 787). Triad: SPX fired-untested, VIX re-approaching <15 arm, HY off kill. **Live catalyst now = FOMC 6/16-17 dot plot (HEN-33).** **Per Will 6/15: trade positions retired from focus — HENRY now tracks macro + market trends only (duration channel, alts proxy = market reads, not position calls).** No outbox fired yet (Brent/bifurcation/APO-FYI candidates pending Will). VIOLET (6/1) stale.*
