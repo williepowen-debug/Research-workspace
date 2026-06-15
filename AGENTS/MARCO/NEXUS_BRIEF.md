@@ -1,21 +1,21 @@
 # MARCO — NEXUS Brief
 
-**Status:** 🟠 v2.4 — durable channels (ag-labor stock shock + Canadian air/snowbird) transmitting; FL $ hole timing-delayed to winter 2026-27, NOT acute now
+**Status:** 🟠 v2.4 — durable channels (ag-labor stock shock + Canadian air/snowbird) transmitting; **Channel-1 conviction UP 6/15** (ICE/CBP ~$70B funding now LAW through 2028 + construction raids active); FL $ hole timing-delayed to winter 2026-27, NOT acute now
 **Domain:** Population movement — international visitor flows (Canadian boycott), workforce displacement (ag-labor), internal migration; transmission edges → REGINALD (FL CRE/condo + winter-$ hole), CARL (regional consumer), LABOR (ag/workforce), BRENT (freight→produce)
 **Thesis version:** v2.4
 **Recent thesis pivot:** v2.3 → v2.4 (Jun 2) — Channel-2 reframe: the Canadian boycott is the sharp edge of the first US inbound-tourism decline in 20yr (CY2025 −5.5%, 68.3M); World Cup = falsifiable reversal test (ES-MARCO-09)
 **Position:** none — intel/research agent; theses express downstream via REGINALD (bank/CRE) + CARL (consumer) + LABOR (employment)
-**As of:** 2026-06-08 ~5:15 PM ET | STATUS commit: ceffbb4a
+**As of:** 2026-06-15 ~10:30 AM ET | STATUS: session-13 6/15 push (see STATUS "6/15 UPDATE" block; clean, synced to origin)
 
 ---
 
 ## VIEW
 
-- **Two durable structural channels intact and transmitting:** (1) ag-labor **2.2M self-deportation STOCK shock** (irreversible) + H-2A processing bottleneck; (2) Canadian **air/snowbird boycott** — 2-yr stack −30% vs 2024 & *worsening*, Nanos May 82% boycott-helpful, capacity permanently deleting (Air Transat full US exit Jun 13; AC winter zero new FL). These are the spine.
+- **Two durable structural channels intact and transmitting — both STRENGTHENED 6/15:** (1) ag-labor **2.2M self-deportation STOCK shock** (irreversible) + H-2A bottleneck + **enforcement FLOW now LAW** (ICE/CBP ~$70B signed Jun 10, funded through 2028) + **construction raids ACTIVE** (Tallahassee/San Antonio; S-region starts −11%); (2) Canadian **boycott** — May 2-yr stack **air −28.4% / auto −28.7%** (bifurcation collapsed, both ~−28.5% symmetric), Nanos May 82% boycott-helpful, capacity permanently deleting (Air Transat full US exit **Jun 30**; WestJet 41 routes cut/57% US into winter; AC winter zero new FL). These are the spine.
 - **The cyclical layer has reversed — stop modeling acute multi-front crisis.** Condos tightening (8.9mo Apr, below 9.0); NFP rebounded; remittance pull-forward paradox fading (count −1.7%, normalizing). Reframe = **slow-structural-squeeze**, not acute.
-- **NEW (6/8): acute regional-CONSUMER-stress signals are NOT firing at Q2 deadlines** — ES-01 FL hospitality **World-Cup-MASKED** (May L&H +70K = WC hiring, BLS-attributed); ES-04 TX border revenue **growing** (El Paso Co +2%); ES-07 Vegas **−1.8%** (short of >5%). Reinforces slow-squeeze; durable channels untouched.
+- **Acute regional-CONSUMER-stress signals still NOT firing at Q2 deadlines** — ES-01 FL hospitality WC-masked (but **mask weakening 6/15**: ~80% host-city hotels below forecast → WC hiring likely softer than the May L&H +70K implied); ES-04 TX border revenue growing; ES-07 Vegas −1.8% (short of >5%). **World Cup reversal catalyst flopping → ES-MARCO-09 leans FAIL** (structural decline confirmed). Reinforces slow-squeeze; durable channels untouched.
 - **The FL $ hole is timing-DELAYED, not absent** — lands **winter 2026-27** ($600M–1.2B snowbird no-show) → REGINALD bank/CRE collateral stress Q1–Q2 2027. NV shows the pattern early: bodies down / dollars up (convention + ADR substitution).
-- **ICE enforcement FLOW now CONTESTED** — $71.7B reconciliation missed Jun 1, parliamentarian carved the enforcement core under Byrd. The 2.2M stock loss is irreversible; the funding *accelerator* is now uncertain. Rework floor vote ~late Jun.
+- **ICE enforcement FLOW now LAW (6/15 — RE-LOCKED, supersedes the 6/2 "contested" read).** ~$70B reconciliation signed Jun 10 (Senate 52-47 / House 214-212), funds ICE+CBP through 2028. The 2.2M stock loss was always irreversible; the funding *accelerator* is now guaranteed, not uncertain → **Channel-1 conviction UP.** (Trimmed somewhat from $71.7B via Byrd rework.)
 
 ---
 
@@ -27,7 +27,7 @@
 - **Uncertain about:** (1) Whether ICE returns to ag enforcement post-harvest Q4 — re-accelerates SDL-01 flow (MARCO owns, Q4). (2) Whether the World Cup masks reverse cleanly post-Jul-19 — NTTO read ~mid-Aug (MARCO owns). (3) Whether REGINALD is pricing the winter-26-27 FL-$ hole into bank/CRE timing (REGINALD owns).
 - **Failure patterns:** threshold-vs-mechanism (separate mechanism-intact from threshold-breached — MAR-19/MAR-21 both scored this way) · base-effect / event-mask traps (Canadian headline, MIA pax, hospitality jobs) — see `thesis/PREDICTIONS.tsv`.
 - **RED counter-frame:** No MARCO-specific `red/` log. Strongest standing counter = **FL-resilience** (spring-break records + condo tightening + NFP rebound + border revenue growth all say "no stress"). My response: those are cyclical/base-effect/event-mask; the durable channels (ag-labor stock, air-capacity deletion) are structural and land winter 26-27, invisible in Q2 prints by design.
-- **Type B convergence candidate I'm flagging:** **Jun 10 CPI is a shared discriminator with BRENT.** BRENT owns the oil→energy-CPI leg; MARCO owns the freight→produce leg (FLOW-PRD-01). Both resolve at the same print: if pump falls and energy-CPI softens (BRENT) *while* fresh-F&V holds ≥5% (MARCO/ES-MARCO-08), that jointly isolates **labor** as the residual produce driver and confirms oil pass-through fading. One print, two domains' theses move. **2nd flag:** the World Cup masks on TWO surfaces — MIA pax + hospitality jobs — feeding "FL recovery" reads CARL/LABOR could misread; discriminator is post-Jul-19 sustained-vs-fade.
+- **Type B convergence candidate I'm flagging:** **June CPI (~Jul 15) is a shared discriminator with BRENT** (May was indeterminate — gasoline rose +7% MoM so no decoupling; now Brent has collapsed $91→$83 → June is the clean fork). BRENT owns the oil→energy-CPI leg; MARCO owns the freight→produce leg (FLOW-PRD-01). If June pump/energy-CPI falls (BRENT) *while* fresh-F&V holds ≥5% (MARCO/ES-MARCO-08), that jointly isolates **labor** as the residual produce driver. **2nd flag (de-risking):** the World Cup dual-mask (MIA pax + hospitality jobs) is weakening — ~80% host-city hotels below forecast means the jobs mask is softer than the May L&H +70K implied; discriminator still post-Jul-19 sustained-vs-fade.
 
 ---
 
@@ -39,7 +39,7 @@
 |----|--------|----------|---------------------------------------------|
 | REGINALD | FL Canadian-$ hole winter 2026-27 ($600M–1.2B snowbird no-show); air capacity permanently deleting (Air Transat full US exit Jun 13). **CORRECTION:** condo reverted to 8.9mo Apr (tightening, below 9.0) — distress timing pushed RIGHT | 🟠 | Collateral-deterioration timing for FL bank/CRE books moves to Q1–Q2 2027, not Q2-Q3 2026; condo-distress thesis softened near-term |
 | CARL | World Cup dual-mask (MIA pax + L&H jobs) — discount Jun/Jul FL hospitality/airport beats as event-driven; remittance count still −1.7% YoY even as $ normalizes | 🟠 | Don't read a WC-window FL beat as consumer recovery; count-decline = SDL-01 senders-fewer tell for AZ/TX/Midwest consumer read |
-| LABOR | Ag-labor 2.2M stock shock irreversible + H-2A bottleneck (processing, not demand); ICE eased off farms (flow softened) but funding contested; produce +6.1% is MULTI-causal (labor a co-driver, not dominant) | 🟠 | Workforce-supply floor for ag employment; don't credit produce CPI as clean labor proof — freeze + tariff + transient freight co-drive |
+| LABOR | Ag-labor 2.2M stock shock irreversible + H-2A bottleneck; **ICE/CBP ~$70B funding now LAW through 2028 (6/15) → enforcement flow guaranteed**; ICE eased off AG farms but **construction raids ACTIVE** (Tallahassee/San Antonio, S-region starts −11%); produce +6.1% MULTI-causal (labor co-driver) | 🟠 | Workforce-supply floor for ag AND construction employment; the off-farms pivot is ag-only — construction labor withdrawal is live; funding-now-law removes the prior "flow softening" caveat |
 | BRENT | Freight→produce coupling (FLOW-PRD-01): diesel/freight was a TRANSIENT co-driver of the Apr produce spike; resolves at Jun 10 CPI | 🟡 | Confirms whether the freight pulse exited; cross-validates BRENT's pump-relief timing against my produce thermometer |
 | NEXUS | Thesis inflection: cyclical reversed, structural hardening → slow-structural-squeeze reframe; World Cup dual-mask on pax + jobs | 🟠 | Connective-tissue: FL "recovery" headlines are masks; the real stress is delayed to winter 26-27, routed through REGINALD |
 
@@ -56,9 +56,9 @@
 
 ## NEXT DECISION POINT
 
-- **What:** Pull + integrate the May CPI fresh-F&V print and **resolve ES-MARCO-08** (produce-vs-pump fork) — labor re-weights UP if F&V holds ≳5% YoY while pump prices fall; demoted if F&V softens in step with diesel.
-- **When:** Wed Jun 10 (CPI 8:30 ET).
-- **What would falsify the trigger:** F&V softening in lockstep with diesel/pump (freight carried the spike, not labor) → labor demoted further, MAR-14 (CA produce +15%) at risk.
+- **What:** **Resolve ES-MARCO-08** (produce-vs-pump fork). May CPI was indeterminate — F&V held +6.1% YoY but gasoline rose +7% MoM (energy 60%+ of the print), so the clean "F&V-up-while-pump-down" test couldn't fire. The Brent collapse ($91→$83) lands in June CPI → that's the real fork.
+- **When:** **June CPI (~Jul 15).** Now that pump is collapsing, if F&V *still* holds ≳5% YoY → labor isolated as the residual driver (MAR-14 hold/upgrade).
+- **What would falsify the trigger:** F&V softening in step with the June pump decline (freight carried the spike, not labor) → labor demoted further, MAR-14 at risk.
 
 ---
 
@@ -66,12 +66,13 @@
 
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
-| 🔴 Wed Jun 10 | BLS May CPI — fresh F&V | ES-MARCO-08 discriminator (see NEXT DECISION); shared Jun-10 print with BRENT's energy-CPI leg |
-| 🟠 Thu Jun 11 | StatCan May travel | Read the 2-yr STACK (worse than −30%?), air <−8%; headline YoY is base-effect |
-| 🟠 Thu Jun 11 → Jul 19 | FIFA World Cup (live) | v2.4 reversal test; real read = NTTO June print ~mid-Aug (ES-MARCO-09). Jun/Jul FL beats are event-masks |
-| 🟡 Sat Jun 13 | Air Transat YUL-FLL final flight | Complete US exit → capacity-deletion confirm (TOUR-03/05) |
+| 🟠 Tue Jun 16 | Census May housing starts | South region (TX/FL) — Apr was −11% (only declining region); 2nd-consecutive permit drop → MAR-26 threshold confirm |
 | 🟡 Wed Jun 17 | FL Realtors May | >9.0mo = distress re-engaging (MAR-08); <8.5mo = absorption confirms FL-cooling |
-| 🟠 ~Tue Jun 30 | ICE/CBP reconciliation reworked floor vote + MAR-01/18/26 resolve (Q2 close) | Passage = enforcement flow restored (delayed/diminished); slip = brake stays partially on |
+| 🟠 ~Sat Jun 27 | WestJet winter 2026-27 schedule | TOUR-05 last input; ≥15% FL-bound seat contraction confirms (41-route cut already spans winter) |
+| 🟠 Tue Jun 30 | **MAR-01/18/26 formal resolve (Q2 close)** + Banxico Q1 state-of-origin + OFLC H-2A Q3 | Current reads: MAR-18 CONFIRM (capacity), MAR-26 lean-CONFIRM (78%), MAR-01 lean-MISS (Nogales −45% short of −50/−60% floor) |
+| 🟠 ~Jul 1 | Banxico May remittances | Count YoY = cleanest SDL-01 readout (Apr count −1.7%, narrowing) |
+| 🔴 ~Jul 15 | BLS June CPI — fresh F&V | **ES-MARCO-08 real fork** (pump now collapsing — see NEXT DECISION); shared print with BRENT's energy-CPI leg |
+| 🟠 ~Aug 15 | NTTO June arrivals (1st WC month) | ES-MARCO-09 reversal read; advance signals lean FAIL (~80% host-city hotels below forecast) |
 
 ---
 
