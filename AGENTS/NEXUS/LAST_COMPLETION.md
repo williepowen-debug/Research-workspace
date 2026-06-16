@@ -96,8 +96,24 @@ ORC re-verified my load-bearing numbers against primary (HY 266 ✅, CCC 937 ✅
 - `research/2026-06-17_fomc_pre_registration.md` — NEW
 - `memory/finding_independent_convergence_validates_schema.md` — boundary condition added
 
+## WU4 — ORC round-3 (deferred-verification PASSED; FOMC pre-reg tweaks)
+
+ORC ran the deferred-verification sweep vs GitHub API ground truth → **PASS** (committed master = approved; nothing silently dropped). ORC also self-caught a false "didn't land" alarm (its local clone's fetch was stale; API was authoritative). Handed back 4 FOMC-pre-reg items — all actioned:
+
+- **HY 271→266 nit:** T-01 was the lone stale-6/12 HY cite; reconciled to 266 (Discipline-D number-migration guard).
+- **Re-anchored FOMC branch probabilities to PRICING, not the agent cluster** (ORC + my own circular-corroboration boundary): hawkish 40→**33**, in-line 40→**47 (modal)**, dovish 18, hike <2. Named the hawkish weight's load-bearing assumption explicitly = **P(Warsh presser surprises hawkish)**. Added anti-anchor rule #5. Dropped the "CARL §3 ~XX" cross-refs from branch headers (non-independent).
+- **Added RED adversarial counter-branch** (NEXUS-drafted placeholder, RED to ratify — "the boring hold IS the catalyst" + "dovish HY<260 kills the blended-credit leg not the bear"); flagged RED brief owed.
+- **CARL/ORC provenance chase:** ORC says it issued NO FOMC probabilities, only a qualitative scaffold — so CARL §3's "Orc prior ~50/30/20" has false provenance (makes CARL↔ORC look independent when it isn't). Caveat added to pre-reg; routed to CARL via PROME.
+
+Routing → `outbox/2026-06-16_to-PROME_fomc-prereg-routing.md` (CARL provenance + RED counter-branch, one file to minimize push friction).
+
+## Files changed (WU4)
+- `STATUS.md` — T-01 HY 271→266
+- `research/2026-06-17_fomc_pre_registration.md` — re-weighted branches, rule #5, RED branch, provenance caveat
+- `outbox/2026-06-16_to-PROME_fomc-prereg-routing.md` — NEW
+
 ## Next Step
 
-FOMC 6/17 live-event override pass (mandatory) — fill the pre-reg grading stub. Then: re-verify HY OAS 266 (FRED primary), clear the 2 routed signals (MARCO/BRENT), CARL brief priority.
+FOMC 6/17 2pm override pass (mandatory) — fill the pre-reg grading stub; watch Branch-1 falsifier hardest (**does 10Y actually back up?** — if dots read hawkish but yields don't move, it was in-line-and-priced). Then: re-verify HY 266 (FRED primary), clear 2 routed signals (MARCO/BRENT), CARL brief priority.
 
-Git: 3 commits this session (re-anchor + ORC reconcile R1 + ORC reconcile R2). Local; push deferred per `[[feedback_defer_push_coordinate]]`.
+Git: 4 commits this session (re-anchor + ORC R1 + ORC R2 + ORC R3). Pushed to origin in Will's open window (push-train swept R1/R2; R3/R4 pushed direct).
