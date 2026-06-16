@@ -212,7 +212,7 @@ These are real and intact, but they are **labor-*supply* signals** that push U-3
 3. **FLOW.tsv dangerous rows fixed** (not full backfill — nothing reads VX/KB/FLOW per Orc): refreshed 3 transmission triggers (1.01/1.02/1.03 → current NFP/U-3/claims), **corrected falsified 3.01** ("Temp ↓12%" → temp EXPANDING), DOGE 2.02 (307K→403K, RED→ORANGE), ISM 6.02 (48.6/32mo); stale-tagged NFIB + FL rows.
 4. **Jun-18 claims pre-mortem built** → `domain/CLAIMS_PREMORTEM_JUN18.md` (decision tree + pre-staged outbox packets; single >250K = ARM provisional, >300K = fire).
 
-**Still owed:** monthly-cadence carries (LT-unemp/staffing/duration re May), VX/KB full backfill (de-prioritized — unqueried). *(Cleared Jun-16 PM: WARN refresh ✅, LAB-04→CARL outbox ✅.)* **Pending push** grows by this session's commits (Will/Prome-coordinated).
+**Still owed:** monthly-cadence carries (LT-unemp/staffing/duration re May), VX/KB full backfill (de-prioritized — unqueried). *(Cleared Jun-16 PM — full Orc/PROME packet executed: WARN refresh ✅, LAB-04→CARL outbox ✅, labor_data.py false-green fix + interpreter fallback ✅, CATALYSTS Jun-25 banding ✅, WARN forward-radar routed to NEXUS ✅.)* **Pending push:** 5 LABOR commits this PM (`e8924530`/`49d1cb61`/`7f2aeb3d`/`5a4146cc` + this STATUS amendment) — Will/Prome-coordinated.
 
 ---
 
