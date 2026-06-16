@@ -39,3 +39,7 @@ AGENTS/REGINALD/*/sources/*.pdf
 AGENTS/REGINALD/*/sources/10k_*/
 AGENTS/REGINALD/*/sources/q[1-4]_*/*
 !AGENTS/REGINALD/*/sources/q[1-4]_*/*.md
+
+# Local large/source artifacts — keep raw statutory PDFs out of Git
+AGENTS/SHADE/sources/athene_statutory_2026-06-15/*.pdf
+AGENTS/SHADE/research/tmp_aaia_extract/venv/
