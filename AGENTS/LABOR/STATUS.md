@@ -23,7 +23,7 @@
 | KFRC bottom confirmed | Large-cap staffing | ⬆️ partial counter |
 | DHS shutdown end | No UI suppression visible | ⬇️ HYPOTHESIS WEAKENED |
 
-**Resolution (Jun 8 update):** Announcement layer (intent) keeps firing — now AI-concentrated (40% of Challenger cuts, record). Realization layer (claims, hires, U-3) is NOT just holding but **revising UP** (NFP May +172K, +93K revisions). The "frozen weak realization" read weakened — April was much stronger than first reported. Structure stays Hotel California (ISM Svs employment contracting 3rd mo, hires frozen) but the bearish realization-break is further away. Next reads: Claims w/e Jun 6 (Jun 11), JOLTS May (early July, LAB-16), NFP June (Jul 2).
+**Resolution (Jun 8 update):** Announcement layer (intent) keeps firing — now AI-concentrated (40% of Challenger cuts, record). Realization layer (claims, hires, U-3) is NOT just holding but **revising UP** (NFP May +172K, +93K revisions). The "frozen weak realization" read weakened — April was much stronger than first reported. Structure stays Hotel California (ISM Svs employment contracting 3rd mo, hires frozen) but the bearish realization-break is further away.
 
 ---
 
@@ -66,7 +66,7 @@ These are real and intact, but they are **labor-*supply* signals** that push U-3
 
 ---
 
-## SIGNAL DASHBOARD (Jun 8 refresh)
+## SIGNAL DASHBOARD (Jun 8 data — reviewed Jun 16)
 
 | Indicator | Value | Source | Status |
 |---|---|---|---|
