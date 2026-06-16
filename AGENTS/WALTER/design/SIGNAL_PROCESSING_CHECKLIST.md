@@ -22,7 +22,7 @@
 One-page operational reference for processing incoming signals. Derived from 10 research prompts across emergency medicine, military communications, ATC, pub/sub systems, intelligence dissemination, emergency dispatch, scientific alerts, open output systems, newsroom editorial, and trading desk operations.
 
 > **Canonical source cross-references:**
-> - `SIGNAL_FORMAT_SPEC.md` owns the signal file format, header fields, **and the Domain Vocabulary** (13 canonical codes: LABOR, MACRO_INFLATION, TARIFF_TRADE, CONSUMER_CREDIT, BANK_CRE, FUNDING_LIQUIDITY, PRIVATE_CREDIT, INSURANCE_SHADOW, OIL_ENERGY, GEOPOL_ENERGY, GEOPOL_NON_ENERGY, JAPAN_BOJ, MARKET_VOL).
+> - `SIGNAL_FORMAT_SPEC.md` owns the signal file format, header fields, **and the Domain Vocabulary** (15 canonical codes per FORMAT_SPEC v0.4: LABOR, MACRO_INFLATION, TARIFF_TRADE, CONSUMER_CREDIT, BANK_CRE, FUNDING_LIQUIDITY, PRIVATE_CREDIT, INSURANCE_SHADOW, OIL_ENERGY, GEOPOL_ENERGY, GEOPOL_NON_ENERGY, JAPAN_BOJ, MARKET_VOL, ASIA_CONTAGION, UST_FOREIGN).
 > - `FILTER_SPEC.md` owns Gate 1 filter logic (System-Critical bypass → Novelty → Relevance → Credibility).
 > - `ROUTING_TABLE.md` owns domain → recipient routing rules, using the canonical Domain Vocabulary codes in every row.
 >
