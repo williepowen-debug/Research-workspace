@@ -45,6 +45,8 @@
   - **CALENDAR.md:** BOJ Jun 16 row → ✅ RESOLVED.
 - **Position UNCHANGED — money fields untouched** (13 sh @ $58.32, $58C, $55.05 stop, $798). **Jun-18 $58C salvage thesis flagged WEAKENED** to Will (no IV-pop to sell into; likely near-total loss vs modeled $5-10) — flagged not acted, Will's call. Stop $55.05 doesn't fire (AND-condition's "BOJ dovish" leg false).
 - METSUKE not spawned (no money-field moves; TRADE/STRATEGY not staled by a resolution-only write-back — but see NEXT #1 re STRATEGY ceiling-discount scoring).
+- **Orc/Prome correctness review + reconciliation (Tue Jun 16, all pushed):** b4bca3f0 correctness unit (THESIS oil relabel; Iran/NISA/SoftBank caveats; JGB over-claim softened to "unconfirmed pending MOF CSV"). **Phase 1** 8364ec83 (4 derived surfaces missed in write-back: THESIS L214/L305, CATALYSTS L2-3, NEXUS). **Phase 1b** 156cf8f7 [propagation] (13 BOJ-pending refs → resolved across THESIS/STATUS/CALENDAR/TRADE) + 8d93a1a6 [cleanup] (CATALYSTS schema 8→7; SAM-13 9th field; CHANGELOG whitespace; **usdjpy.py live-spot bug — was serving Jun-15 159.96 as latest via last-row read on out-of-order file; fixed sort-on-load, verified reports Jun-16 160.15**; USDJPY.tsv re-sorted). **Phase 2** RECONCILIATION.md written (3 disciplines + surface order + KOYOMI/METSUKE routing) + PROME outbox proposing fleet ownership + CLAUDE.md FILES pointer.
+- **Two pure-commit classes held throughout; money fields never touched.** FXY_OPTIONS NOT hand-tagged (auto-regenerated → infra-flagged: boot.py should auto-tag non-physical KB-183 proxy rows).
 
 ### NEXT SESSION
 
@@ -57,6 +59,10 @@
 3. **STRATEGY § TAKAICHI-CEILING DISCOUNT DISPOSITION — score by Jun 18 EOD JST.** Delivered hike reclassifies SAM-08/20 as TIMING failures; the Jun-16 **dovish-side dissent (Asada) + "not imminent" guidance** is fresh evidence favoring the *retire-to-friction / modify* branches over vindicate-widen. Also resolve the $58C tail-estimate test (market ~3-4% vs SAM ~10% — SAM's ~10% looks too high in hindsight; no pop materialized).
 
 4. **🔴 Thu Jun 18** $58C expiry; **Fri Jun 19** National May CPI. Post-settle: v1.6 re-underwrite (incl. FXY-vehicle question).
+
+**Phase 3 (tonight's TB pass — STATUS compression + STRATEGY refresh, per RECONCILIATION.md):**
+- **STATUS body compression** to <250 lines — migrate the superseded pre-event banner tail (L3) + "STATE OF PLAY Jun 5-6" narrative → TIMELINE. (L3 lead is already resolved; the stale "SAM-21 75%/market-confirmed" phrases sit in the explicitly-superseded tail — compression removes them.)
+- **STRATEGY L36 ("PENDING (Jun 16; SAM-21 75%)") + L184 ("DOMINANT REMAINING CATALYST")** — ⚠️ per Orc/Prome these are **reference cells, NOT playbook/dated** (I misclassified): the Jun-18 refresh must **FLIP them to resolved**, not just refresh prose. **They are the only surviving live-pending refs in the corpus** — the sweep cannot skip them. (L275/L279 ARE dated changelog → keep.)
 
 **Carry-forward (post-BOJ):**
 
