@@ -79,8 +79,25 @@ Will relayed an ORC refresh packet AFTER my blind re-anchor committed. **ORC and
 ## Files changed (WU2)
 - `STATUS.md` — matrix (M-01/02/03/04/06/07/08), header/regime/split, antecedent R2+C1, T-06, threshold (HY 266 / CCC 937), docket (6/19 signing), narrative gap, C-35 watch.
 
+## WU3 — ORC round-2 reconcile (open loops closed)
+
+ORC re-verified my load-bearing numbers against primary (HY 266 ✅, CCC 937 ✅, energy +23.5/+40.5 ✅) and handed back 4 open loops + 1 correction. All actioned:
+
+- **Conceded the "validation" over-claim (ORC, my own discipline):** I'd framed ORC/NEXUS convergence as "independent validation." Wrong — we pulled the SAME tape + SAME pre-reg branches, so convergence = execution-check (arithmetic), NOT an independent thesis vote. Header fixed; promoted the boundary to `[[finding_independent_convergence_validates_schema]]` (shared data+framework ≠ independent).
+- **M-08 reframed (ORC / C1 guard):** "3-place convergence" → **"R3 confirmed across 3 independent INSTRUMENTS"** — one root, three instruments, NOT 3-root convergence (don't tally as multi-root). Added explicit **FALSIFIER** (CDLI−FSK gap closes OR CCC−BB compresses <~400) so it can't rot into a perennial "substance intact" row.
+- **HY trajectory refined (ORC):** not flat — HY 274→280 (into 6/10) → 266 (6/15); CCC 946→957→937. Credit FIRMED *after* the cluster (looked at in-line core + clean auctions + ceasefire and tightened) = cleaner "Grind won the fast tape" signature. Updated narrative-gap consensus row.
+- **R2 two-sided:** ORC conceded; no change (my read held).
+- **BRENT/SAM routing written** → `outbox/2026-06-16_to-PROME_brent-sam_iran-discriminator-fired.md` (ORC's "trigger fired, reconcile" framing, NOT "you're stale, flip" — BRENT owns the discriminator, may be holding for signing).
+- **FOMC pre-reg LOCKED** → `research/2026-06-17_fomc_pre_registration.md` — 4 branches (hawkish-of-pricing / in-line / dovish / literal-hike) with per-branch matrix+split moves, anti-anchoring rules (grade vs pricing not March; FOMC moves Break/Grind+M-03 not M-08), cross-agent pre-commitments, grading stub. Docket 6/17 row points at it. ORC to review before 2pm.
+
+## Files changed (WU3)
+- `STATUS.md` — header (validation walk-back), M-08 (reframe + falsifier), narrative-gap (HY trajectory), docket (pre-reg pointer)
+- `outbox/2026-06-16_to-PROME_brent-sam_iran-discriminator-fired.md` — NEW
+- `research/2026-06-17_fomc_pre_registration.md` — NEW
+- `memory/finding_independent_convergence_validates_schema.md` — boundary condition added
+
 ## Next Step
 
-FOMC 6/17 live-event override pass (mandatory). Then: re-verify HY OAS 266 (FRED primary, ORC-relayed), route Iran-confirm-stale flag to BRENT/HAWK/SAM via PROME, clear routed signals, CARL brief priority.
+FOMC 6/17 live-event override pass (mandatory) — fill the pre-reg grading stub. Then: re-verify HY OAS 266 (FRED primary), clear the 2 routed signals (MARCO/BRENT), CARL brief priority.
 
-Git: 2 commits this session (re-anchor + ORC reconcile). Local; push deferred per `[[feedback_defer_push_coordinate]]`.
+Git: 3 commits this session (re-anchor + ORC reconcile R1 + ORC reconcile R2). Local; push deferred per `[[feedback_defer_push_coordinate]]`.
