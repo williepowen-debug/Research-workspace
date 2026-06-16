@@ -1,6 +1,6 @@
 # SAM — NEXUS Brief
 
-**Status:** 🟠 v1.5.1 — BOJ Jun-16 single-path catalyst intact; USDJPY 160 tag is USD-side not yen-side
+**Status:** 🟠 v1.5.1 — BOJ Jun-16 hike to 1.00% RESOLVED (as-priced, 7-1 Asada dovish dissent, no carry unwind per CH-004); USDJPY 160 tag is USD-side not yen-side. Full post-event re-sync → tonight's TB pass.
 **Domain:** Japan macro — JGBs, BOJ policy, yen, carry trade, institutional flows; transmission to U.S. via UST demand (LIQUID), carry unwind (HENRY)
 **Thesis version:** v1.5.1
 **Recent thesis pivot:** v1.5 → v1.5.1 (Jun 3) — carry-unwind decomposed (CH-004 close); Aug-2024-speed demoted from base-case → hawkish-tail subset; conviction split direction-HIGH / timing-MEDIUM
