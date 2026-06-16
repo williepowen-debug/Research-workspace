@@ -89,6 +89,7 @@
 - **KB 142** (BRK-001→158 ex tombstones) · **VX 18** · **FLOW 21**
 - **PREDICTIONS: 15 OPEN + 2 PARTIAL** (BRK-06, BRK-27) post-BRK-28-resolve. **BRK-29 (PE-wrapper 2nd-gate) still a STUB — formalize at ~7/3 window check.**
 - **STATUS 198 lines** (under 250 target post Phase-3 split).
+- **`MAINTENANCE.md` seeded 6/15** — structural change-log + modernization backlog. **Cheapest next structural item = PREDICTIONS archive+scoreboard (backlog #1, low-effort/high-fit).** boot.py (#2) is design-gated; thesis/ split (#3) deferred Tier-2; FASTOW steward (#5) premature. Consult MAINTENANCE.md before any structure work — NOT a per-session step.
 - ORC 6/15 caught my footer OPEN-count error (16→15) — corrected. Verify-counts-before-propagating.
 - **ORC post-push verification round (6/15):** swept pushed blobs by recomputation. Migration PASSED (matrix=60, NF=8, no dangling refs). One real fix: EXIT-RULES/thesis-kill subsection had STALE stragglers (14/15bps cushion + "6/5 cracked" narrative) — surface refreshed, derivative section missed (the [[finding_verification_correction_downstream_propagation]] pattern). FIXED → 11bps + re-diverged narrative. Also aligned CATALYSTS date_class to BRENT-canonical confirmed/modeled; relabeled HY OAS provenance [FRED]→[ref LIQUID] (owner's value, primary FRED unreachable).
 
@@ -96,4 +97,4 @@
 - **Inbox: 0 unprocessed.** **Outbox: 16 undelivered** (legacy Apr-Jun files; messaging degraded per `[[project_messaging_overhaul]]` — prefer Will-direct + `NEXUS_BRIEF.md` for cross-agent, not new outbox files).
 
 ## GIT (this session — all LOCAL, push deferred to Will-coordinated window)
-`437bbddf` catch-up (tape re-diverged) → `3401bbfd` FSK verify → `c64a28c7` Phase-3 split → `e3cd3ce2` packet-2 catalyst merge → packet-3 SCRATCH/footer (this commit). Push pending next coordinated window per root CLAUDE.md.
+`437bbddf` catch-up → `3401bbfd` FSK verify → `c64a28c7` Phase-3 split → `e3cd3ce2` packet-2 catalysts → `4e600135` packet-3 SCRATCH/footer-fix → `2c2ddbc1` packet-4 NEXUS schema → `63e7cb47` ORC verification fixes → `5aef28df` syndicate lead → `319c3301` MAINTENANCE.md seed. **ALL PUSHED to origin/master (synced 0/0).** Session fully closed.
