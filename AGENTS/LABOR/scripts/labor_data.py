@@ -25,6 +25,7 @@ SCRIPTS_DIR = Path(__file__).resolve().parent
 LABOR_DIR = SCRIPTS_DIR.parent
 WORKSPACE = LABOR_DIR.parent.parent  # Research-workspace/
 VENV_PYTHON = WORKSPACE / ".venv" / "bin" / "python3"
+PYTHON = str(VENV_PYTHON) if VENV_PYTHON.exists() else sys.executable  # fall back to system python in no-.venv envs
 FETCH = WORKSPACE / "FORGE" / "tools" / "market-data" / "fetch.py"
 
 # series_id, label, kind, source_tag
@@ -49,7 +50,7 @@ def fetch_series(series_id, periods=4):
     """Call shared fetch.py in --json mode. Returns list of (date, float|None) newest-first."""
     try:
         result = subprocess.run(
-            [str(VENV_PYTHON), str(FETCH), "fred", series_id, "--periods", str(periods), "--json"],
+            [PYTHON, str(FETCH), "fred", series_id, "--periods", str(periods), "--json"],
             capture_output=True, text=True, timeout=40, cwd=str(WORKSPACE),
         )
         if result.returncode != 0:

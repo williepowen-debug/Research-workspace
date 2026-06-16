@@ -31,6 +31,7 @@ SCRIPTS_DIR = Path(__file__).resolve().parent
 LABOR_DIR = SCRIPTS_DIR.parent
 WORKSPACE = LABOR_DIR.parent.parent  # Research-workspace/
 VENV_PYTHON = WORKSPACE / ".venv" / "bin" / "python3"
+PYTHON = str(VENV_PYTHON) if VENV_PYTHON.exists() else sys.executable  # fall back to system python in no-.venv envs
 
 # label, script, args
 BOOT_SEQUENCE = [
@@ -53,7 +54,7 @@ def run_script(script_path, args, timeout=90):
     start = time.time()
     try:
         result = subprocess.run(
-            [str(VENV_PYTHON), str(script_path)] + args,
+            [PYTHON, str(script_path)] + args,
             capture_output=True, text=True, timeout=timeout, cwd=str(WORKSPACE),
         )
         out = result.stdout
