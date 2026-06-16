@@ -40,20 +40,22 @@
 
 ---
 
-## MARKET DATA — SUN JUN 14 ~12:44 PM ET (boot.py)
+## MARKET DATA — MON JUN 15 ~7:00 PM ET (boot.py) · *T-1 to BOJ, blackout active — levels refreshed, all analytical marks frozen from Sun Jun 14 consolidated re-mark*
+
+**Mon Jun 15 boot delta (vs Sun Jun 14):** Brent **$87.33 → $83.33** (deeper sub-$90, now sub-$85; de-escalation pricing extending). JGB long-end softened ~10bp: 10Y 2.681→**2.589%**, 30Y 3.811→**3.725%**, 40Y **3.674%** (taper-pause-relief + oil-down disinflation; SAM-26 further FALSE). USDJPY/FXY flat. **FXY 25d RR reverted +24.05 → −8.37 (calls bid, thesis-side normal) — the Sun +24.05 non-physical artifact is GONE; retroactively validates the Sun HENRY caveat (KB-183: at non-physical magnitudes the sign is impeached too).** ATM IV crushed 12.49→10.28% (pre-binary event-prem partially bled). No new CFTC (Jun 9 −145,818 stands until Fri). No 3rd MOF strike (7+ orderly days).
 
 | Metric | Value | Source | Status |
 |--------|-------|---------|--------|
-| USD/JPY | **160.19** | Sun Jun 14 boot.py | 🔴🔴 **7+ orderly days at/above #3 trigger zone, STILL no 3rd MOF strike** — empirically confirms CH-011 disorder-not-level read. Sun intraday range 0.40y (within normal); Fri close 160.13. Blackout active. |
-| EURJPY | 185.37 | Sun Jun 14 | 🟡 +0.11% — flat |
-| GBPJPY | 214.84 | Sun Jun 14 | 🟡 +0.10% — flat |
-| AUDJPY | 112.90 | Sun Jun 14 | 🟡 +0.16% — flat |
-| FXY | **$57.26** | Sun Jun 14 boot.py | 🟢 position **−1.8% vs $58.32 avg cost** (13 sh, ≈−$14 unrealized). |
-| JGB 10Y | **2.681%** | MOF Jun 10 pub (latest) | 🔴 +1.2bp vs Jun-9 pub; well above 2.40% stress threshold |
-| JGB 30Y | **3.811%** | MOF Jun 10 pub (latest) | 🟠 −1.2bp post-auction; **Jun-10 auction WA 3.860%** (+16bp concession vs Apr tap). ~19bp below 4.000%; SAM-26 tracking FALSE. |
+| USD/JPY | **160.15** | Mon Jun 15 boot.py | 🔴🔴 **7+ orderly days at/above #3 trigger zone, STILL no 3rd MOF strike** — empirically confirms CH-011 disorder-not-level read. Mon intraday range 0.26y (normal); −0.11% on day. Blackout active. |
+| EURJPY | 185.60 | Mon Jun 15 | 🟡 −0.10% — flat |
+| GBPJPY | 214.74 | Mon Jun 15 | 🟡 −0.09% — flat |
+| AUDJPY | 113.15 | Mon Jun 15 | 🟡 −0.16% — flat |
+| FXY | **$57.24** | Mon Jun 15 boot.py | 🟢 position **−1.9% vs $58.32 avg cost** (13 sh, ≈−$14 unrealized). |
+| JGB 10Y | **2.589%** | MOF Jun 15 pub (latest) | 🔴 −9bp vs Jun-10 pub; still well above 2.40% stress threshold |
+| JGB 30Y | **3.725%** | MOF Jun 15 pub (latest) | 🟠 −10bp; ~28bp below 4.000%; SAM-26 tracking FALSE (deteriorating further on oil-down + taper-pause relief). 40Y 3.674%. |
 | 🆕 US CPI (May) | **headline 4.2% YoY / core 2.9%** | BLS Wed Jun 10 8:30 AM | 🟠 **HOT-AS-EXPECTED** — headline exactly consensus (energy +23.5%, gasoline +40.5%; highest since Apr 2023); core in-line; core MoM +0.2% slightly soft vs 0.3% exp. No soft surprise → Fed-side gate closes; USDJPY no reaction. |
 | 🆕 Fed-hike 2026 pricing | **~51-52% (Polymarket Jun 11 held; CHANGELOG-ready)** | Polymarket/CNBC | 🔴 **Cut→HIKE regime flip MATURED.** Oct frontrunner ~50%; secondary FedWatch ~63% hike-by-Oct. Pillar 1 headwind post-June; Fed-cut anchor #4 → ~0 applied Sun Jun 14 in carry-unwind buckets. |
-| Brent | **$87.33** | Sun Jun 14 boot.py | 🟢 **−3.4% on day; ~−10% cumulative from Jun-3 $96.78 baseline; first sub-$90 close this cycle — "headwind resolved" threshold tagged**. Driver: 14-point Pakistan-mediated draft text (PM Jun 12 "final, agreed-upon"), Bessent "signing this weekend or Monday" 80% odds; Trump pushback "draft doesn't reflect agreed terms" = paused-via-diplomacy, unsigned. Hormuz still physically CLOSED Day 105. |
+| Brent | **$83.33** | Mon Jun 15 boot.py | 🟢 **+0.19% on day but ~−14% cumulative from Jun-3 $96.78 baseline; sub-$85 now (deepening past Sun $87.33)** — "headwind resolved" threshold cleared with room. Driver: 14-point Pakistan-mediated draft text (PM Jun 12 "final, agreed-upon"), Bessent "signing this weekend or Monday" 80% odds; Trump pushback "draft doesn't reflect agreed terms" = paused-via-diplomacy, unsigned. Hormuz still physically CLOSED (supply-destruction caveat live; pricing forward-discounts the deal). |
 | Polymarket BOJ Jun 16 hike | **99.2%** (Sun read, +1.7pp vs Thu 97.5%; total vol $584K, +$110K active conviction) | Polymarket Jun 14 | 🟢🟢 **Hawkish drift through Ueda absence; 9th sequential ≥90% read. SAM-21 ~90% (CH-009 applied, S4 void-gate clear).** |
 | Swap-implied BOJ Jun 16 | **93%** (Tokyo Tanshi, Jun 9; no fresher print Thu PM → Sun) | Reuters Jun 10 | 🟢🟢 >85% void threshold safely clear; no dovish leak found. **🆕 Bloomberg 49/51 economists for 25bp → 1.00%** (Jun 9 piece — date corrected from earlier loose Jun 13-14 stamp); Reuters poll 94%. Swaps also reportedly price 92.5% of ANOTHER hike to 1.25% by Dec — challenges Takaichi-ceiling view; post-BOJ agenda. |
 | DXY | **99.86** (Wed Jun 10 AM) | yfinance live | 🟠 −0.2% vs Fri 100.07 — USD flat-to-soft through hot CPI; not extending the NFP rally |
@@ -64,8 +66,8 @@
 | MOF intervention total | ¥11,734.9B ($73B) Apr 28-May 27 official | MOF monthly 2026-05-29 | 🔴 LARGEST SINCE 2022; **#3 zone in-frame on Fri + Tue 160+ tags (intermittent, not continuous)** |
 | Insurer hedge ratio | 44.4% (Mar 2025) | (14yr low) | 🔴🔴 |
 | FXY P/C ratio | 0.06x (Jul-17 expiry) | Tue Jun 9 boot.py | 🟢 Call-heavy (bullish); meaningful positioning in $58-$65 zone |
-| 🆕 FXY ATM IV (CVOL proxy) | **12.49%** (Jul-17 expiry) | Sun Jun 14 boot.py | 🟠 **event premium building** (vs Tue 9.64%, same expiry) — pre-binary IV expansion 2-3 days into BOJ + FOMC. KB-183 caveat applies. |
-| 🆕 FXY 25d RR (USDJPY-conv) | **+24.05** (Jul-17 expiry) | Sun Jun 14 boot.py | 🟠 **SIGN-FLIPPED vs Tue −3.34 — puts bid for the binary** (downside protection bid for FXY into BOJ; coherent with binary event-premium build). Cross-expiry: Sep-18 RR −15.31 (calls bid, thesis-side intact); Dec-18 RR +7.13 (approx). Jul-17 is BOJ-binary-specific. Per KB-183: watch-item not re-mark trigger. |
+| 🆕 FXY ATM IV (CVOL proxy) | **10.28%** (Jul-17 expiry) | Mon Jun 15 boot.py | 🟡 **partial bleed of Sun's event premium** (Sun 12.49 → Mon 10.28) — IV easing the day before the binary rather than expanding; KB-183 caveat applies. |
+| 🆕 FXY 25d RR (USDJPY-conv) | **−8.37** (Jul-17 expiry) | Mon Jun 15 boot.py | 🟢 **REVERTED to thesis-side (calls bid) from Sun's +24.05** — the Sun positive print was a KB-183 non-physical proxy artifact (HENRY caveat Sun Jun 14 validated). −8.37 is a normal calls-bid / yen-strength-demand read. Watch-item not re-mark trigger. |
 | 🆕 May PPI (CGPI) | **+6.3% YoY** | BOJ Jun 10 JST | 🔴 vs 5.6% exp, accel from 5.3%; **fastest since Mar 2023**; Hormuz energy passthrough (nonferrous/chemicals/petroleum). Hawkish pipeline pressure. |
 | 🆕 BOJ trend gauge (subsidy-stripped) | **2.8% Apr** | BOJ (gauge introduced Mar 2026) | 🔴 Accelerating: Feb 2.2 → Mar 2.5 → Apr 2.8 vs official core 1.4% — **subsidy-mask wedge quantified at +1.4pp**. THESIS prior 2.2% cite was the Feb debut print (fixed Jun 9 PM). |
 | Tokyo May CPI | headline 1.4 / core 1.3 / core-core 1.6 | MIC May 28 | 🟠 dovish miss but market-overridden (see BOJ assessment). National May print Jun 19 (post-BOJ). |
