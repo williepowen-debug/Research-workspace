@@ -1,0 +1,561 @@
+Affiliated and Unaffiliated Reinsurance as of and for the year-to-date December 31, 2025
+
+This document is for the sole purpose of providing information related to Athene Annuity Re Ltd. ("AARe") and its subsidiaries for the benefit of certain rating agency analyses on the economic position of certain legal entities in the Athene Holding Ltd. consolidated group. The tables below are 
+presented on a strictly notional basis, are not based on generally accepted accounting principles or any other accounting principles that AARe is subject to as a Bermuda reinsurance company, and are not intended for, and should not be used for any regulatory, investment, or other unrelated purpose. 
+This information should only be viewed and analyzed in conjunction with separate Athene USA insurance subsidiary statutory financial information.
+
+The tables below provide a proportional allocation of the total statutory capital and surplus, pre-tax income and net income of AARe and its subsidiaries, by reinsurance counterparty, illustrating a notional allocation of capital to reinsurance treaties based on different types of reinsurance.
+
+Allocated Capital and Surplus on a Proportional Basis - Notional Allocation
+The tables below include an allocation of statutory capital and surplus, pre-tax income and net income based on the following methodology:
+
+- Any isolated capital is applied to the entity to which the capital relates to 
+- Surplus capital is allocated on a pro-rata basis based on total reserves (not withstanding that some isolated capital may already be associated with some reserves)
+- Net income is applied to the entity to which the income is earned for the current year
+- Surplus net income is allocated on a pro-rata basis based on total reserves
+
+(Unaudited, in thousands)
+
+Financial Return
+
+Athene Annuity and Life Company
+
+Athene Annuity & Life Assurance of New York
+
+Other Affiliated Reinsurance
+
+Unaffiliated Reinsurance
+
+Total AARe Statutory Financial Return1
+
+Capital and Surplus
+Pre-tax Income (YTD)
+Net Income (YTD)
+
+$                                                                   
+$                                                                     
+$                                                                     
+
+21,791,453
+2,876,451
+3,099,168
+
+$                                                                         
+$                                                                           
+$                                                                           
+
+406,216
+25,749
+27,969
+
+$                                                                         
+$                                                                            
+$                                                                            
+
+138,713
+(2,173)
+(1,433)
+
+$                                                                     
+$                                                                          
+$                                                                          
+
+3,411,833
+(79,133)
+(40,543)
+
+$                                                                   
+$                                                                     
+$                                                                     
+
+25,748,215
+2,820,895
+3,085,161
+
+Underlying Proportional Asset Composition of Allocated Capital and Surplus - Notional Allocation
+
+The below table splits the allocated capital and surplus into NAIC invested asset categories based on the proportional mix of the actual and allocated assets for Athene Annuity and Life Company, Athene Annuity & Life Assurance Company and Athene Annuity & Life Assurance of New York. Note: the 
+asset categorizations below are based on NAIC asset category definitions whereas the asset classifications on the AARe statutory financial return are based on US GAAP asset category definitions. For example, certain investments are classified as fixed maturity securities under US GAAP compared to 
+other invested assets (BA Assets) based on NAIC rules.
+
+Athene Annuity and Life Company
+
+Athene Annuity & Life Assurance of New York
+
+ 2025 
+
+ 2025 
+
+$                                                                     
+
+$                                                                         
+
+(Unaudited, in thousands)
+
+Asset mix:
+Non-affiliated
+Corporate Bonds
+US Gov't, Agencies, Municipals, Foreign Gov't
+RMBS
+CMBS
+Other ABS (including CLOs)
+Mortgages & Real Estate
+BA Assets
+Unaffiliated Stocks
+
+Total Non-affiliated
+
+$                                                                   
+
+$                                                                         
+
+$                                                                                
+
+$                                                                           
+
+71,370
+1,623,291
+
+-
+
+$                                                                     
+
+1,244,727
+12,215
+2,951,603
+
+Total Affiliated
+
+$                                                                         
+
+$                                                                           
+
+$                                                                             
+
+$                                                                   
+
+$                                                                         
+
+$                                                                     
+
+$                                                                         
+
+$                                                                   
+$                                                                         
+
+$                                                                         
+$                                                                             
+
+Total Allocated Surplus
+
+Investment Grade
+
+Affiliated
+Corporate Bonds
+Other ABS (including CLOs)
+Mortgages & Real Estate
+BA Assets
+Affiliated Stocks
+
+Other
+Cash & Cash Equivalents
+Derivatives
+All Other
+
+Bonds by NAIC category:
+NAIC 1
+NAIC 2
+
+NAIC 3
+NAIC 4
+NAIC 5
+NAIC 6
+
+Below Investment Grade
+Total Bonds
+
+Bonds by ASC 820 Fair Value Level:
+Level 1
+Level 2
+Level 3
+
+Maturity Distribution2:
+
+1 year or less
+Over 1 year through 5 years
+Over 5 years through 10 years
+Over 10  years through 20 years
+Over 20 years
+
+Total Bonds
+
+2Represents issuer obligation only
+
+Total Non-affiliated
+
+$                                                                   
+
+$                                                                         
+
+$                                                                     
+
+$                                                                             
+
+$                                                                   
+
+$                                                                         
+
+175,882
+1,517,391
+1,951,208
+2,224,667
+1,636,368
+7,505,517
+
+$                                                                     
+
+1,054
+42,054
+39,427
+56,657
+62,627
+201,820
+
+$                                                                         
+
+Investment Income:
+Bonds & Equities
+Mortgages & Real Estate
+BA Assets
+Other
+Gross Investment Income
+Investment Expenses
+Net Investment Income
+
+Capital Gains and Losses:
+Bonds & Equities
+BA Assets
+Other, including FX
+Total
+
+$                                                                         
+
+$                                                                             
+
+$                                                                     
+$                                                                       
+$                                                                      
+
+$                                                                           
+$                                                                            
+$                                                                          
+
+$                                                                          
+
+(1,507)
+105,667
+(103,103)
+1,057
+
+$                                                                               
+
+(16)
+1,102
+(1,075)
+11
+
+5,455,457
+1,344,384
+504,234
+764,941
+3,213,886
+5,268,102
+45,960
+107,871
+16,704,837
+
+842,921
+549,177
+742,916
+21,791,453
+
+7,336,230
+5,234,726
+12,570,956
+244,062
+76,356
+30,188
+56,002
+406,608
+12,977,564
+
+1,219,783
+9,075,579
+2,682,201
+12,977,564
+
+577,713
+15,106
+23,223
+404,709
+1,020,751
+(371,368)
+649,383
+
+196,646
+9,009
+35,815
+41,811
+60,208
+8,026
+49
+1,109
+352,673
+
+546
+6,319
+-
+1,426
+-
+8,290
+
+31,396
+3,429
+10,428
+406,216
+
+188,326
+149,532
+337,858
+5,956
+2,117
+191
+4,231
+12,495
+350,353
+
+2,483
+337,047
+10,823
+350,353
+
+6,023
+157
+242
+4,219
+10,642
+(3,872)
+6,770
+
+Allocated Surplus account Investment Income on a Proportional Basis - Notional Allocation
+
+The below table shows a notional allocation of certain income items to affiliated reinsurance counterparties proportionately based on reserves. The surplus net investment income includes asset management fees on funds withheld and modco assets contractually required to be funded by AARe but 
+does not include the income on the funds withheld and modco assets.
+
+(Unaudited, in thousands)
+
+x
+
+Athene Annuity and Life Company
+
+Athene Annuity & Life Assurance of New York
+
+ 2025 
+
+ 2025 
+
+Total Privately Placed Bonds 
+The below table shows a notional allocation of total privately placed bonds, proportionately based on reserves. The table also shows the amount that is freely tradeable under SEC rule 144 or qualified for resale under SEC Rule 144A.
+
+(Unaudited, in thousands)
+
+Total Privately Placed Bonds
+Freely Tradeable / Qualified for Resale
+
+$                                                                     
+$                                                                     
+
+2,103,327
+3,958,647
+
+$                                                                           
+$                                                                         
+
+69,682
+148,007
+
+Athene Annuity and Life Company
+
+Athene Annuity & Life Assurance of New York
+
+ 2025 
+
+ 2025 
+
+Capital and Surplus
+
+1Reconciliation between ALIRT document and Statutory Return (in thousands)
+
+Total AARe Statutory Financial Return Capital and 
+Surplus - ALIRT
+
+25,748,215
+
+Net Income
+
+1Reconciliation between ALIRT document and Statutory Return (in thousands)
+
+Total AARe Statutory Financial Return Net 
+Income - ALIRT
+
+3,085,161
+
+Athene Co-invest Reinsurance Affiliate 1A Ltd. 
+("ACRA") Adjustment
+
+Athene Co-invest Reinsurance Affiliate 2A Ltd. 
+("ACRA 2") Adjustment
+
+Investment in US subs & holdcos
+
+(2,425,966)
+
+To reflect AARe’s 36.55% ownership of ACRA, 
+reported in the Statutory Financial Statement
+
+(4,147,836)
+
+To reflect AARe’s 37% ownership of ACRA 2, 
+reported in the Statutory Financial Statement
+
+4,538,461
+
+Equity in subsidiaries and associated 
+transactions
+
+Athene Co-invest Reinsurance Affiliate 1A Ltd. 
+("ACRA") Adjustment
+
+Athene Co-invest Reinsurance Affiliate 2A Ltd. 
+("ACRA 2") Adjustment
+
+Investment in US subs & holdcos
+
+156,805
+
+To reflect AARe’s 36.55% ownership of ACRA, 
+reported in the Statutory Financial Statement
+
+(686,941)
+
+To reflect AARe’s 37% ownership of ACRA 2, 
+reported in the Statutory Financial Statement
+
+218,648
+
+Earnings pick up in subsidiaries and associated 
+transactions
+
+Total AARe Statutory Financial Return Capital and 
+Surplus
+
+23,712,875
+
+Total AARe Statutory Financial Return Net 
+Income
+
+2,773,673
+
+                                                                        
+                                                                               
+ 
+                                                                           
+                                                                             
+                                                                           
+                                                                             
+                                                                        
+                                                                             
+                                                                        
+                                                                               
+ 
+                                                                             
+                                                                                     
+ 
+                                                                           
+                                                                               
+ 
+ 
+                                                                        
+                                                                               
+ 
+                                                                                   
+ 
+                                                                                   
+ 
+                                                                        
+                                                                               
+ 
+                                                                             
+                                                                                   
+ 
+                                                                           
+                                                                               
+ 
+                                                                           
+                                                                             
+                                                                        
+                                                                           
+                                                                             
+                                                                               
+ 
+                                                                             
+                                                                                  
+ 
+                                                                             
+                                                                               
+ 
+                                                                           
+                                                                             
+                                                                        
+                                                                           
+                                                                        
+                                                                             
+                                                                           
+                                                                               
+ 
+                                                                        
+                                                                             
+                                                                        
+                                                                             
+                                                                        
+                                                                             
+                                                                        
+                                                                             
+                                                                             
+                                                                                  
+ 
+                                                                             
+                                                                                  
+ 
+                                                                           
+                                                                               
+ 
+                                                                              
+                                                                                   
+ 
+                                                                           
+                                                                               
+ 
+                                                                          
+                                                                              
+                                                                     
+                                                                        
+                                                                      
+                                                                           
+                                                                      
+                                                                          
+                                                                        
+                                                                           
+                                                                     
+                                                                        
+
