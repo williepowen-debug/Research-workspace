@@ -1,4 +1,6 @@
 ---
+status: SUPERSEDED
+status_ref: "Iran-anchor recalibration ALERT (hardened-framing-may-need-stepdown) — recalibration since executed; anchor now de-escalation-pending (anchors/IRAN_WAR.md 2026-06-16 de-escalation re-stamp)"
 signal_id: SIG-W-20260521-004
 precedence: PRIORITY
 timestamp: 2026-05-21T21:56:30Z

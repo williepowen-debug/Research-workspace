@@ -1,4 +1,6 @@
 ---
+status: EVENT-PASSED
+status_ref: "Apr 19 NEET/EAM/HFGCS SIGINT-overlap — point-in-time intel observation, resolved (anchors/IRAN_WAR.md 2026-06-16 de-escalation re-stamp)"
 signal_id: SIG-W-20260419-022
 precedence: PRIORITY
 timestamp: 2026-04-19T22:59:00Z

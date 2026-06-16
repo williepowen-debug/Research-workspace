@@ -1,4 +1,6 @@
 ---
+status: EVENT-PASSED
+status_ref: "May 10 Al Kharaitiyat first Iran-approved Hormuz transit — milestone event passed; transit now UKMTO-tracked ongoing (anchors/IRAN_WAR.md 2026-06-16 de-escalation re-stamp)"
 id: SIG-W-20260511-006
 date: 2026-05-11
 origin: WALTER news-sweep 2026-05-11 — Bloomberg + Fortune + The National + Al Jazeera

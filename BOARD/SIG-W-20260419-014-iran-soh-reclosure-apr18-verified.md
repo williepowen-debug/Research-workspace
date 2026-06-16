@@ -1,4 +1,6 @@
 ---
+status: EVENT-PASSED
+status_ref: "Apr 18 SOH re-closure — discrete event; strait state cycled many times since, now de-escalation-pending (anchors/IRAN_WAR.md 2026-06-16 de-escalation re-stamp)"
 signal_id: SIG-W-20260419-014
 precedence: IMMEDIATE
 timestamp: 2026-04-19T21:30:00Z

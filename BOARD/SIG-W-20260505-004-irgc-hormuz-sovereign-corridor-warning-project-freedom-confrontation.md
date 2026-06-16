@@ -1,4 +1,6 @@
 ---
+status: SUPERSEDED
+status_ref: "IRGC Hormuz sovereign-corridor warning / Project Freedom confrontation — Project Freedom era ended; corridor framing superseded (anchors/IRAN_WAR.md 2026-06-16 de-escalation re-stamp)"
 signal_id: SIG-W-20260505-004
 precedence: IMMEDIATE
 timestamp: 2026-05-05T19:35:00Z

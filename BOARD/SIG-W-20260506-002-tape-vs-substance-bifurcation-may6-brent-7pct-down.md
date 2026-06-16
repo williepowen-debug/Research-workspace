@@ -1,4 +1,6 @@
 ---
+status: EVENT-PASSED
+status_ref: "May 6 Brent -7% tape-vs-substance datapoint — discrete dated move; bifurcation regime tracked live elsewhere (anchors/IRAN_WAR.md 2026-06-16 de-escalation re-stamp)"
 signal_id: SIG-W-20260506-002
 precedence: PRIORITY
 timestamp: 2026-05-06T18:20:00Z

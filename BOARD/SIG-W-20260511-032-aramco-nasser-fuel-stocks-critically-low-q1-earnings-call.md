@@ -1,4 +1,6 @@
 ---
+status: EVENT-PASSED
+status_ref: "Aramco Q1 earnings-call fuel-stocks remark — Q1 call event passed (anchors/IRAN_WAR.md 2026-06-16 de-escalation re-stamp)"
 id: SIG-W-20260511-032
 date: 2026-05-11
 origin: WALTER image-batch 2026-05-11 — FT X-post (5/11 12:01 PM); verify-research recovered body via CNBC + Aramco Q1 2026 earnings call transcript

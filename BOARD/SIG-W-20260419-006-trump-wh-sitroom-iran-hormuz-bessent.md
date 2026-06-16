@@ -1,4 +1,6 @@
 ---
+status: EVENT-PASSED
+status_ref: "Apr 18-19 WH Situation Room Iran/Hormuz meeting — discrete event resolved; war-state cycled repeatedly since (anchors/IRAN_WAR.md 2026-06-16 de-escalation re-stamp)"
 signal_id: SIG-W-20260419-006
 precedence: IMMEDIATE
 timestamp: 2026-04-19T18:00:00Z

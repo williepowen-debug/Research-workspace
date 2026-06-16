@@ -1,0 +1,32 @@
+# BOARD staleness sweep + adjudication record — 2026-06-16 (Iran-cluster scoped run; FORMAT_SPEC v0.10 Signal Lifecycle)
+# Trigger: Will-directed Iran-anchor re-verify 6/16 (DE-ESCALATION PENDING re-stamp) → Will-greenlit scoped cleanup of the IRAN_HORMUZ cluster for the agent-direction workflow.
+# Sweep: AGENTS/WALTER/tools/staleness_sweep.py -> 86 candidates of 285; filtered to cluster:IRAN_HORMUZ -> 25 candidates (all status=NONE at run).
+# Adjudication basis: 6/16 de-escalation anchor + BRENT 6/14 STATUS + HAWK 6/13 STATUS. Discipline: war STILL ACTIVE (HAWK Day 104, C-Grind 42% base, D 26% down-not-dead) — de-escalation is PENDING not resolved, so KEEP structural war-state + forward-pending signals LIVE; tag only discrete resolved events (EVENT-PASSED) + framing reversed by the de-escalation (SUPERSEDED).
+# Net: 17 tags (10 EVENT-PASSED / 7 SUPERSEDED), 8 NO-TAG. Untagged covered by IRAN_HORMUZ section-preamble backstop.
+signal_id	status	status_ref_summary
+SIG-W-20260419-006	EVENT-PASSED	Apr 18-19 WH SitRoom Iran/Hormuz meeting — discrete event resolved
+SIG-W-20260419-014	EVENT-PASSED	Apr 18 SOH re-closure — discrete event, strait state cycled many times since
+SIG-W-20260419-022	EVENT-PASSED	Apr 19 NEET/EAM/HFGCS SIGINT-overlap — point-in-time intel, resolved
+SIG-W-20260419-026	EVENT-PASSED	Apr 19 Navy destroyer–Iran ship intercept — discrete kinetic event resolved
+SIG-W-20260506-002	EVENT-PASSED	May 6 Brent -7% tape-vs-substance datapoint — discrete dated move
+SIG-W-20260511-001	EVENT-PASSED	May 6 M/T Hasna tanker-disabling — discrete kinetic event resolved
+SIG-W-20260511-002	EVENT-PASSED	May 8 Sea Star III/Sevda disabling + destroyer-attack-thwarted — resolved
+SIG-W-20260511-004	EVENT-PASSED	May 8 UAE 2nd territorial strike — discrete kinetic event resolved
+SIG-W-20260511-006	EVENT-PASSED	May 10 Al Kharaitiyat first Iran-approved Hormuz transit — milestone passed
+SIG-W-20260511-032	EVENT-PASSED	Aramco Q1 earnings-call fuel-stocks remark — Q1 call event passed
+SIG-W-20260419-024	SUPERSEDED	Carrier-buildup + 'Iran rejects talks' — diplomatic state reversed (Islamabad Agreement 6/14)
+SIG-W-20260426-013	SUPERSEDED	'Pakistan channel disrupted' — reversed; Pakistan/Sharif now central mediator
+SIG-W-20260429-001	SUPERSEDED	Brent $115 streak / Jun-2022 high — price regime inverted to ~$78
+SIG-W-20260505-004	SUPERSEDED	IRGC corridor warning / Project Freedom confrontation — PF era ended
+SIG-W-20260511-005	SUPERSEDED	Trump 'TOTALLY UNACCEPTABLE' rejection — diplomatic state reversed, deal now claimed
+SIG-W-20260521-004	SUPERSEDED	Iran-anchor recalibration ALERT — recalibration executed; anchor now de-escalation-pending
+SIG-W-20260610-002	SUPERSEDED	Multi-front 'fork toward breakdown' — directional conclusion inverted; frame retained
+# NO-TAG (8, kept LIVE — structural-active / forward-pending / domain-adjacent; preamble backstop covers):
+# SIG-W-20260505-001 (IEA inventory-draw datum — structural drawdown thesis active in BRENT domain)
+# SIG-W-20260506-011 (US-Russia fertilizer record — active INFLATION_TRANSMISSION channel)
+# SIG-W-20260507-001 (WaPo/CIA 3-4mo blockade-survival assessment — within stated horizon, war active)
+# SIG-W-20260509-014 (oil-products draw + Hormuz-closure claim — active; forward date 6/20)
+# SIG-W-20260511-007 (LMA insurance corrected-framing — insurance domain-adjacent, no current reclass)
+# SIG-W-20260521-023 (Rapidan/McNally Hormuz-August-recession — forward forecast, Aug horizon unresolved)
+# SIG-W-20260521-031 (Kpler global/OPEC export-collapse — structural supply datapoint, active)
+# SIG-W-20260610-001 (Bab al-Mandab activation — LIVE, refined GoA-active/strait-quiet, BRT-28 window to Jul 1)
