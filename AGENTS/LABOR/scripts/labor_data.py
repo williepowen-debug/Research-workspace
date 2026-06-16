@@ -151,10 +151,12 @@ def main():
     print(f"  {'-'*78}")
 
     red_fired = []
+    fetch_failures = 0
     for series_id, label, kind, src in LABOR_SERIES:
         obs, err = fetch_series(series_id, periods)
         if err or not obs:
             print(f"  {label:<30} {'ERROR: ' + (err or 'no data'):>26}  ⚠️")
+            fetch_failures += 1
             continue
         disp, flag = assess(series_id, kind, obs)
         asof = obs[0][0]
@@ -168,20 +170,23 @@ def main():
     # post-don't-hire composite check (JOLTS openings up while hires down)
     print(f"\n  {'-'*78}")
     print("  THRESHOLD NOTES (wired to STATUS KEY THRESHOLDS):")
-    print("    • Initial claims  >250K → CARL/REGINALD 🔴   >300K → all ORANGE banks RED")
+    print("    • Initial claims: >300K single → FIRE 🔴 (CARL/REGINALD/HENRY; all ORANGE→RED); 251-300K single → ARM provisional (confirm 2nd consecutive >250K); 230-250K → accelerating — apply premortem for the action")
     print("    • U-3  >5.0% → HENRY structural bid break")
     print("    • NFP  ≥200K x3 consecutive → Kill A (bull falsification of bearish thesis)")
     print("    • DOGE >400K → manual (not FRED); see STATUS dashboard")
 
+    if fetch_failures:
+        print(f"\n  ⚠️  {fetch_failures}/{len(LABOR_SERIES)} series FAILED to fetch — "
+              f"sweep INCOMPLETE; do NOT read as all-clear (check venv/FRED/network).")
     if red_fired:
         print(f"\n  🔴 {len(red_fired)} RED threshold flag(s) fired:")
         for label, disp, asof in red_fired:
             print(f"     • {label}: {disp} ({asof})")
-    else:
+    elif not fetch_failures:
         print("\n  ✅ No RED thresholds breached this sweep.")
 
     print(f"\n  → Report refreshed levels to Will before analysis.\n")
-    return 2 if red_fired else 0
+    return 2 if (red_fired or fetch_failures) else 0
 
 
 if __name__ == "__main__":
