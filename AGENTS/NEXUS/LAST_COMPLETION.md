@@ -128,3 +128,57 @@ Audited this session's execution vs the 16-step CLOSEOUT procedure. 15/16 comple
 - `2026-06-08_to-PROME_liquid_will_decision` — **decision technically still open but de-rated**; live version now carried in STATUS T-08 + antecedent-map C1 (R2 de-rate reduced urgency). Stale 6/8 framing retired, not the decision.
 
 Outbox now: 2 pending (today's PROME routes) + 11 delivered. Other steps confirmed: SIGNALS.md clean (reset 6/6, queue empty); inbox no loose items (22 in processed/). Closeout now COMPLETE for the session.
+
+---
+
+# SESSION 2 — 6/16 PM (~2:20-3:00 ET, Will-invoked continuation)
+
+## WU6 — ORC post-FOMC hygiene packet (Fixes 1+2 DONE; 3 deferred)
+
+ORC/PROME packet (via Will) flagged mechanical propagation/hygiene gaps in last session's work. Analytical work (matrix/split/M-08/FOMC pre-reg) confirmed sound by PROME+ORC. Verified each claim vs files before acting.
+
+- **Fix 1 (BRIEFS_MAP half-propagated) — DONE.** CARL brief landed 6/16 10:55 (commit `157991b3`, AFTER my 14:49 re-anchor = clone-visibility gap, not a miss). Row 24: ❌ MISSING → ✅ **FRESH** (pin `7182547e` = CARL STATUS HEAD, drift 0). Re-scoped "US macro/labor/CPI" → **"US consumer stress — credit/housing/K-shape"** (per CARL scope-correction: labor→LABOR, banks→REGINALD, oil→HAWK/BRENT, vol→HENRY; CPI = downstream input, not deliverable). Coverage 6/12 → **7/12 (58%)**, missing 5. Bottom rollout: "Eight"→"Five", dropped CARL/HENRY/BROCK (all FRESH), renumbered (LIQUID/REGINALD/WALTER/RED/OZK). Header → 6/16 PM. Also fixed now-stale "deferred until cluster clears" line (cluster cleared 6/16).
+- **Fix 2 (LAST_COMPLETION breadcrumb) — DONE.** WU3 path `memory/` → `memory/auto/` (verified actual file location).
+- **Fix 1e:** CARL scope-correction outbox item lives in CARL's dir → CARL sweeps it (git isolation); substance integrated, "silence = integrated" per CARL.
+- **Fix 3 (PREDICTIONS past-trigger backlog) — DEFERRED, post-FOMC.** One-time triage: tag each 🔵 past-trigger item (PRED-21/26/27/28/31/34/42/44 etc.) as (a) resolvable-now / (b) BLOCKED-on-owner-data / (c) RETIRE-stale-irrelevant (e.g. Belgium-TIC PRED-42, APO PRED-34).
+- **brief_fallback_log.tsv — LEFT UNTOUCHED** (append-only runtime instrument; "CARL stale" was TRUE at 14:49 runtime; editing corrupts the record). ORC-confirmed.
+- **CARL/ORC provenance:** already routed WU4; CARL's wording fix is CARL's action.
+- **Commit `a49d7df6`** (Fix 1+2). Swept to origin via **LABOR push-train 15:45** (`9b5697d3`); in sync 0/0. Work saved on GitHub.
+
+## FOMC 6/17 — RIGHT-SIZED (Will's call, endorsed)
+
+HOLD 97% + **no NEXUS trade rails** (FORGE rehab constraint) + my own **in-line modal (47%)** = tomorrow is a near-non-event for synthesis. **NOT adding more FOMC prep.** Pre-reg stays LOCKED (`research/2026-06-17_fomc_pre_registration.md`). Mandatory live-event override collapses to a **~10-min grading-stub fill**: which branch fired · **did 10Y actually back up (key falsifier — hawkish dots + flat 10Y = it was in-line-and-priced)** · re-grade split one notch.
+
+**CARL FOMC packet vs my pre-reg** (reviewed this session): agree on the spine (HOLD, signal in dots/presser, hawkish-of-pricing is the live risk, bear thesis rate-path-independent). **ONE real divergence = the modal branch:** CARL hawkish-relative **45% modal** vs NEXUS in-line **47% modal** — 12pp on P(dots out-hawk an already-pared ~47% market). Not fact-disagreement, weighting. CARL packet still carries mis-provenanced **"Orc prior" column** (ORC issued no probabilities) — routed to CARL via PROME WU4, not yet actioned by CARL (his packet predates the routing).
+
+## WU7 — NEXT SESSION: brief-restructure + grouped read (DESIGNED, NOT YET EXECUTED)
+
+Deferred to next session at Will's request. Agreed structure = **ORC 3-layer reframe + NEXUS LIQUID-dual-nature refinement.** ADOPT + codify, then run grouped read.
+
+**LAYER 1 — domain-evidence groups (stable, root-pure → feeds the matrix):**
+| Group | Agents | Root |
+|---|---|---|
+| Credit & Consumer | CARL, BROCK, REGINALD, OZK | R3 (surviving axis) |
+| Vol / Tape / Rates-reaction | HENRY, VIOLET | R1 + structure |
+| Energy & Geopolitics | HAWK → BRENT (internal sub-chain) | R2 / R5 |
+| Japan / FX | SAM | R6 |
+
+**LAYER 2 — cross-cutting nodes (pulled OUT of domain groups; consumed at synthesis, NOT matrix votes):**
+- **LIQUID — DUAL-NATURED (NEXUS refinement, the value-add over ORC's draft):** credit-spread outputs (HY OAS, CCC) = **substrate** → cite ONCE, dedup vs credit group, agents referencing them are NOT independent confirmations (kills the BROCK-kill-trigger-IS-LIQUID's-HY-OAS double-count = the C1 over-count by construction). Funding/plumbing outputs (SOFR, repo, bill issuance) = **genuine R1 domain evidence**, CAN converge. **Rule: cross-cutting = spans-multiple-roots; attribute per-OUTPUT to its root, dedup per-output NOT per-agent.**
+- **LABOR — chain-head feeder.** Now has standing NEXUS_BRIEF, Tier-1 per Will 6/16 (`project_labor_standing_nexus_brief`).
+- **WALTER — intake/routing-health node.** Separate "routing-degradation-is-itself-signal" (infra) from routed *content* (belongs to destination domain).
+- **RED — adversarial.** Counters the whole integrated read.
+
+**LAYER 3 — sequence overlay (lead/lag lens, co-equal to grouping):**
+`LABOR → CARL → REGINALD/OZK/BROCK → {LIQUID amplifies · HENRY/VIOLET reprice} → market`; SAM (Japan) + HAWK→BRENT (energy) = parallel exogenous triggers. Grouping = **level** read (where convergence is); sequence = **lead/lag** (early warning, serves the "position ahead of consensus" mission). **Taxonomy STABLE** (matrix comparable week-to-week); **priority/depth DYNAMIC** by live catalyst (this week Credit+Vol for FOMC; Energy when Hormuz hot). Don't let dynamic priority re-draw the groups.
+
+**EXECUTION PLAN (next session, in order):**
+1. **Codify structure into NEXUS-owned files FIRST** (spec-text rule — behavior I execute lives in my files, not an ORC note that goes dead off-context): BRIEFS_MAP groups section + antecedent-map per-output dedup rule + sequence-overlay line; promote to CLAUDE.md if it's a durable discipline. ORC may hand a draft as *input*; canonical text is NEXUS-owned.
+2. **THEN spawn 4 Layer-1 domain-group Sonnet subagents** (root-pure → clean within-root digests: VIEW · what-changed-since-6/16-anchor · intra-group convergence/tension · root-tag · contradictions-to-matrix).
+3. **I personally handle Layer-2 cross-cutting tier + Layer-3 sequence/lead-lag synthesis** (convergence-accounting that can't be delegated) → STATUS update.
+
+**Provenance:** ORC POV relayed by Will this session; NEXUS endorsed (it makes convergence-dedup structural vs hand-fixed) + added the LIQUID dual-nature / per-output-dedup refinement.
+
+## Next Step (authoritative, 6/16 PM)
+
+**NEXT SESSION:** execute **WU7** — (1) codify the 3-layer brief structure into NEXUS files, (2) spawn the 4 domain-group readers, (3) synthesize cross-cutting + sequence. **FOMC 6/17 2pm:** mandatory pass but RIGHT-SIZED to a ~10-min grading-stub fill (pre-reg locked, not tradeable). **Backlog:** Fix-3 PREDICTIONS past-trigger triage (post-FOMC).

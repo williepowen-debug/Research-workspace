@@ -160,4 +160,4 @@ Historical confirmed convergences in `CONFIRMED.md`. Latest: **C-35** (Iran rall
 
 ## LAST RUN
 
-See `LAST_COMPLETION.md`. Last write 2026-06-16 AM (8-day re-anchor pass).
+See `LAST_COMPLETION.md`. Last write 2026-06-16 **PM** (ORC hygiene Fixes 1+2 done; **brief-restructure DESIGNED, not executed**). **NEXT SESSION → LAST_COMPLETION WU7:** codify the 3-layer brief structure (Layer-1 root-pure domain groups + Layer-2 cross-cutting nodes LIQUID/LABOR/WALTER/RED + Layer-3 sequence overlay), then run the grouped brief read. FOMC 6/17 right-sized to a ~10-min grading-stub fill (pre-reg locked).
