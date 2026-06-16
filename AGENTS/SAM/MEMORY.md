@@ -29,54 +29,49 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (Thu Jun 11 ~10:45 AM ET → Sun Jun 14 ~12:45 PM ET)
+### CHANGES SINCE LAST SESSION (Sun Jun 14 ~12:45 PM ET → Mon Jun 15 ~7 PM ET)
 
-- **🔴🔴 UEDA HOSPITALIZED Jun 10 — MISSES JUN 16 MPM** (5-source primary verified: Bloomberg/Reuters/Jiji/Nippon.com/Japan Times). Infected hepatic cyst, ~2wk stay; **first sitting BOJ Governor to miss MPM since the 1998 framework**. Himino chairs, Uchida hosts presser, Ueda written-no-vote. Cabinet (Katayama Jun 12 paraphrase): no impact on meeting. Market read = guidance-clarity risk via Uchida-presser tone, NOT hike risk.
-- **🟢 BRENT SUB-$90 BREACHED Sun ($87.33)** — first sub-$90 close this cycle; cum ~−10% from $96.78 Jun-3 baseline. Driver: 14-pt Pakistan-mediated draft Jun 12 (Pakistan PM "final, agreed-upon text"; 30-day Hormuz reopen clause) + Bessent "signing weekend or Monday" 80% odds. Trump pushback "doesn't reflect agreed terms" = paused-via-diplomacy, unsigned; Iran has NOT confirmed. US-Iran drone/vessel exchange near Hormuz Jun 12 AM = kinetic NOT ceased.
-- **🔴 CFTC −145,818** (Jun 9 data, rel Fri Jun 12, 6th build week, +16,251 WoW; 81% of −180K cycle peak vs 72% Jun 2; 7,182 shy of −153K/85% escalation). No cover.
-- **Polymarket BOJ Jun 16 hike: 97.5% Thu → 99.2% Sun** (+1.7pp hawkish drift, $584K vol). Swaps 93% (Tokyo Tanshi Jun 9 baseline). Bloomberg 49/51 economists for 25bp → 1.00% (Jun-9 piece, date corrected from earlier loose Jun 13-14 stamp).
-- **Fed-hike-2026 pricing held ~51-52%** (Polymarket Jun 11); regime flip cut→HIKE matured.
-- SPR drained THROUGH BRENT's conventional ~350M throttle (349.192M Jun 10 EIA, 6th wk at ~8M/wk); per CRS R42460/EPCA real floors are 252.4M (non-emergency only) / ~150M operational / NO statutory floor for emergency. War-driven drain = emergency authority → ~6mo runway. War-conditional: diplomacy lands → non-emergency framing → 252.4M reactivates → ~3mo.
+- **Market:** Brent $87.33 → **$83.33** (deeper sub-$90/sub-$85; de-escalation pricing extending). JGB long-end −~10bp (10Y 2.589 / 30Y 3.725 / 40Y 3.674; SAM-26 further FALSE). USDJPY/FXY flat (160.15 / $57.24; 8th orderly day at 160, no MOF). **FXY 25d RR reverted +24.05 → −8.37** (Sun non-physical artifact GONE — validates Sun HENRY caveat); ATM IV bled 12.49 → 10.28. No new CFTC (Jun 9 −145,818 stands to Fri).
+- **News (Mon sweep):** **US-Iran signed a DIGITAL MOU Jun 14-15, Iran CONFIRMED** (closes the Sun "not confirmed" gap); formal signing ceremony **Fri Geneva**; conflicting terms ($25B frozen-asset release vs Trump "no money") = re-break risk into Friday; Hormuz authorized-but-no-tankers-yet. **BOJ confirmed-quiet** (Polymarket 99%, no dovish leak; Uchida runs presser — Bloomberg "set for historic hike"). US **Empire State miss** (5.7 vs 13.2), DXY soft 99.56. Polymarket Fed-2026-hike scraped **~36%** (single-print vs Sun ~52% — re-check at FOMC, thin-liquidity discipline).
 
-### LAST SESSION (Sun Jun 14 PM — pre-blackout consolidated 6-input re-mark + STATUS/STRATEGY/CALENDAR/TRADE/MEMORY tier-1 pass + LIQUID/HENRY outbox ship + Orc verify loop on each commit)
+### LAST SESSION (Mon Jun 15 PM — boot + 3 research threads; all committed & PUSHED, origin synced @ 30b729ca)
 
-- **Six-input re-mark landed in STATUS** (commit `0f02a485`, Orc-verified clean): (a) CFTC −145,818 + 81% amplifier state; (b) taper-pause hawkish-tail shrink; (c) Fed-anchor #4 → 0 matured; (d) **SAM-21 75 → ~90 per CH-009** (S4 void-gate clear: Polymarket 99.2%, swaps 93%, Bloomberg 49/51, no dovish leak found); (e) **SAM-23 72 → ~30 per CH-011** (disorder-not-level FALSIFIED empirically: 6+ orderly sessions at 160+ no strike); (f) Ueda absence integrated. **Carry-unwind buckets recomputed ~14/37/49 → ~8/23/32** (4 named-driver anchor changes attributed inline; BOJ-surprise NET-SHRINKS: hike 70→90% × hawkish-tail 30→10%).
-- **STRATEGY weights re-marked** (commit `55349fd0`): pre-registered L202 gate fired ~65/10/25 → ~80/10/10. Event-EV ~−0.11% → ~+0.60% (sign flip; reframes event posture from "hold despite the print" to "hold *and* modestly favorable"). Insertion 2 (exit-rule #3) sharpened for Uchida-presser muddiness per Orc framing: take Tuesday event-vol spike itself, don't wait for clean post-presser repricing.
-- **Outbox ship to LIQUID + HENRY** (commit `5aa6f551`) with severity-up framing per Orc reminder: "probability down, severity-if-triggered UP" (CFTC fuel at cycle-peak proximity, no cover). **HENRY RR correction follow-up** (commit `d322bc7f`): struck out +24.05 RR positioning read per Orc — non-physical magnitude is KB-183 proxy artifacting at the magnitude where even the sign read is suspect; ATM IV build retained as real signal.
-- **CALENDAR + TRADE + MEMORY tier-1** this commit. Money fields untouched (13 shares @ $58.32, $58C strike+expiry, $55.05 post-event stop, $798 exposure — all frozen).
-- **Orc + Will collaboration loop**: 4 verify rounds (STATUS / outbox / STRATEGY / CALENDAR+TRADE+MEMORY) — each surfaced a real catch (Phase-2-reopening directional fix; force-push concern → benign shallow-clone; STRATEGY weight update I'd missed; HENRY RR non-physical magnitude). Net session yield = high quality from the loop; spoke clean STRATEGY + outbox + STATUS to LIQUID/HENRY downstream-ready.
-- **Force-push concern investigated**: BENIGN. All 21 commits since f35b65a2 are in current master chain via `git merge-base --is-ancestor`. Orc was looking at a shallow clone false-fork per `[[finding_shallow_clone_false_fork]]`.
+- **Boot + reconciliation:** SAM-21 **75 → ~90 (CH-009)** propagated into canonical PREDICTIONS.tsv (caught STATUS↔PREDICTIONS drift); STATUS Mon market table refreshed. Per Will: **Iran docket update DEFERRED (wait-and-see)** — see NEXT #5.
+- **3 research threads built + persisted** (detail lives in the files, not recapped here):
+  1. **Japan energy complex** — KB-187–190, `research/outputs/JAPAN_ENERGY_COMPLEX.md`, THESIS § OIL-IN-YEN. Japan SPR ~205d (vs 254 baseline); energy shock severs PPI→CPI (transmits **FISCAL not monetary** → Pillar 2); oil-shock-not-grid-shock (oil ~96% ME / LNG ~11% / coal 0%).
+  2. **SoftBank-OpenAI** — KB-191/192, `research/outputs/SOFTBANK_OPENAI_RISK.md`, THESIS RISK FACTORS row, outbox flag → CARL/HENRY/BROCK. NOT a UST/JGB holder (equity holdco/bond issuer); **risk-off cross-current** (yen-UP / JGB-yield-DOWN / BOJ-pause-cover tail); Jun-10 $6B OpenAI-margin-loan stalled.
+  3. **NISA + bank/BOJ duration** — KB-193/194, THESIS § STRUCTURAL COUNTER-FLOW + RISK FACTORS non-constraint, CALENDAR RETAIL FLOW MONITOR, mof_flows.py infra item. **NISA = "right but early" steelman + latent unhedged amplifier** (tripwire: MoF toshin → net foreign-equity selling); **bank/BOJ duration NOT the BOJ brake** (it's fiscal).
+- **3 commits pushed** (Will-opened window): 576ab73d / 9ea1a7cb / 30b729ca. Pull-rebase clean (origin hadn't moved); push carried only SAM work.
+- **Position UNCHANGED, marks FROZEN (blackout).** Money fields untouched (13 sh @ $58.32, $58C, $55.05 post-event stop, $798). METSUKE NOT spawned — additions were research-reference, not position/mark moves (TRADE/STRATEGY not staled).
 
-### NEXT SESSION (single block — no duplicate)
+### NEXT SESSION
 
-**Imminent (2 trd days to BOJ):**
+**Imminent (BOJ tomorrow Tue Jun 16 = 1 trd day):**
 
 1. **🔴🔴 Tue Jun 16 BOJ MPM** — apply pre-registered frames, don't re-derive:
-   - STRATEGY § JUN-16 RECONCILED EXPECTATION re-marked weights ~80/10/10 (modal −1 to +2% + vol crush; hawkish-of-pricing ~10% = +5-8%; hold ~10% = −3-5% event-capped). Sell-into-pop salvage path holds; Uchida-presser muddiness = take the Tuesday IV spike itself.
-   - STRATEGY § TAKAICHI-CEILING DISCOUNT DISPOSITION (3 branches per CH-010 + Branch C1/C2 split), score by Jun 18 EOD JST.
-   - $58C tail-estimate test (market ~3-4% vs SAM ~10%) — score Tuesday.
-   - **NEW Ueda-attribution check:** a hold attributed to Uchida-presser dovish-cover ≠ Branch C1 (Takaichi-political) ≠ Branch C2 (fiscal/long-end); separate carefully. Apr-13 Himino dovish-cover precedent informs.
-   - SAM-21/23/24/26 all resolve on own terms.
+   - STRATEGY § JUN-16 RECONCILED EXPECTATION ~80/10/10 (modal −1 to +2% + vol crush; hawkish-of-pricing ~10% = +5-8%; hold ~10% = −3-5% event-capped). Sell-into-pop on the **Tuesday IV spike itself**; Uchida-presser muddiness = don't wait for clean post-presser repricing.
+   - STRATEGY § TAKAICHI-CEILING DISCOUNT DISPOSITION (3 branches CH-010 + C1/C2 split), score by Jun 18 EOD JST.
+   - $58C tail-estimate test (market ~3-4% vs SAM ~10%) — score Tue.
+   - **Ueda-attribution check:** a hold via Uchida dovish-cover ≠ Branch C1 (Takaichi-political) ≠ C2 (fiscal/long-end); Apr-13 Himino precedent informs.
+   - SAM-21/23/24/26 resolve on own terms.
 
-2. **🔴 Wed Jun 17 FOMC + dots** — ~99% no-change priced; watch dots for HIKE-lean (regime-flip confirmation), not for rescue.
+2. **🔴 Wed Jun 17 FOMC + dots** — ~99% no-change; watch dots for HIKE-lean (regime-flip confirm), not rescue. **Re-check Polymarket Fed-2026-hike 36% vs 52% discrepancy.**
 
-3. **🔴 Wed Jun 17 (~7:50 PM ET Tue eve)** — **May trade balance** (provisional). Run `trade_balance_japan.py --consensus <wire>`; adjudicate routing branch (a/b/c per CALENDAR). Diplomacy track + Hormuz still-closed biases toward branch (c) (surplus persists, volumes depressed).
+3. **🔴 Wed Jun 17 (~7:50 PM ET Tue eve)** — **May trade balance**; run `trade_balance_japan.py --consensus <wire>`; adjudicate branch a/b/c (diplomacy + Hormuz-still-closed → bias branch c). Now also reads through the energy-complex **cost-side** lens (KB-188-190: pricier non-ME crude).
 
-4. **🔴 Thu Jun 18** — $58C expiry. Fri Jun 19 National May CPI (post-BOJ check). Post-settle: position re-underwrite (v1.6 spec item A — Will decides; incl. FXY-vehicle question).
+4. **🔴 Thu Jun 18** $58C expiry; **Fri Jun 19** National May CPI. Post-settle: v1.6 re-underwrite (incl. FXY-vehicle question).
 
-**Carry-forward (open after BOJ settles):**
+**Carry-forward (post-BOJ):**
 
-5. **SAM-23 framework re-anchoring CHANGELOG entry (post-Jun-16)** — substance settled via CH-011 (driver/disorder dimension + no-strike decay clause); Mimura "deviate AND persist" + Sun-Jun-14 empirical 6+ orderly sessions at 160 no-strike = supporting cites. Write the formal entry post-scoring.
+5. **Iran docket update (Will-DEFERRED Mon Jun 15, wait-and-see):** when ready, supersede stale "Iran has NOT confirmed" caveat (Iran confirmed Jun 14-15) + add Fri Geneva signing if it lands.
+6. **v1.6 rewrite** per `proposals/2026-06-10_v16_rewrite_spec.md` (post Jun 16-18 scoring; RED pass on draft pillars first). Fold in: oil-channel-DORMANT relabel; energy transmission-severing; SoftBank tail; **NISA amplifier → CARRY-UNWIND METHOD enrichment** (residual/2nd-order term); Channel-1 deferred-vs-retired (4-of-4 + Feb-2026 regulatory-forbearance reinforcement). + A. position re-underwrite + B. PROME network-reframe + C. hedge-cost tripwire. Eval re-baseline; OS.1 close; Dec-1.25% re-verify if Branch A fires.
+7. **SAM-23 framework re-anchoring CHANGELOG entry** (post-scoring; CH-011 driver/disorder + no-strike decay + Jun-14 empirical 6+ orderly-sessions cites).
+8. **RED post-BOJ refresh** — hold-scenario; structural-pillar TIMING under CH-032 band; SAM-23 post-event anchor; Fed-hike → CH-005.
+9. **Research backlog (Will-brainstorm Jun 15, Tier 2/3 un-pulled):** GPIF/pension flows; fiscal/Takaichi trajectory + JGB supply; digital deficit; BIS yen carry (beyond CFTC); Taiwan/China→Japan tail; Japan semis/AI capex.
+10. **Auto-memory candidate (Sun Jun 14, Orc-endorsed):** "a cross-agent caveat protects you not the receiver — suppress a non-physical/known-unreliable metric, don't caveat-and-ship." + KB-183 local refinement ("at non-physical magnitudes the magnitude impeaches the sign too"). Authorize at next boot.
+11. **Position next-touch:** no add/trim under v1.5.1. Triggers: (a) USDJPY <156 ×3 sessions; (b) post-Jun-16 break = BOJ dovish AND USDJPY 167+/no MOF. NEXUS_BRIEF rollout = Will-action.
 
-6. **RED post-BOJ refresh** — hold-scenario response; structural-pillar TIMING under CH-032 band; SAM-23 post-event scenario-weighted anchor; Fed-hike → CH-005.
-
-7. **Post-BOJ stack per `proposals/2026-06-10_v16_rewrite_spec.md`** (Will+Orch-endorsed): v1.6 re-derivation (AFTER Jun 16-18 scoring; RED pass on draft pillars BEFORE version commit) + A. position re-underwrite + B. PROME network-reframe packet + C. hedge-cost tripwire build. **THESIS Tier-2 — Orc hard-verify watch:** oil-in-yen channel DORMANT relabel at L222-224 (NOT "Phase 2 re-opening") + L300 RISK FACTORS "Brent re-accelerating" flip + thin CRS-cited SPR conclusion. Channel-1 deferred-vs-retired folds in (4-of-4 against). Eval re-baseline; OS.1 close disposition; Dec-1.25% re-verify if Branch A fires.
-
-8. **Auto-memory candidate (Sun Jun 14, Orc-endorsed):** "Cross-agent sends: a caveat protects you, not the receiver — they may act on the sign/direction regardless. A metric outside its physical range (or known-unreliable) should be SUPPRESSED from the send, not caveat-and-shipped." Fleet-interface discipline, transferable. KB-183 local refinement separate: "at non-physical magnitudes the magnitude impeaches the sign too." One auto-memory line + one local KB refinement. Authorize at next boot or in this session if Will green-lights.
-
-9. **Position next-touch:** no add/trim under v1.5.1. Triggers: (a) USDJPY <156 ×3 sessions; (b) post-Jun-16 thesis break = BOJ dovish AND USDJPY 167+/no MOF. NEXUS_BRIEF rollout = Will-action.
-
-**⏸️ DEFERRED:** Layer B cross-agent signals (BROCK/HANS PC-cascade pull); KB cleanup tier-2; insurer profiles audit; Japanese-source pipeline retire decision; SIGNAL_INTAKE archive.
+**⏸️ DEFERRED:** Layer B cross-agent (BROCK/HANS PC-cascade pull); KB cleanup tier-2; insurer profiles audit; Japanese-source pipeline retire; SIGNAL_INTAKE archive.
 
 ### NEXT INFRA SESSION (script build queue — re-prioritized Jun 10)
 
