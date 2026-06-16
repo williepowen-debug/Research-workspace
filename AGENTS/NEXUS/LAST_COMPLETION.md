@@ -1,115 +1,64 @@
 # NEXUS LAST COMPLETION
-**Pass:** 2026-06-08 Mon PM — STATUS hygiene pass (Will + orchestration-layer guided)
-**Date:** 2026-06-08
-**Mode:** Hygiene-only. No 6/8 market-data integration (saved for deliberate sweep). All cleanups touched same file family; single pass.
+**Pass:** 2026-06-16 Tue AM — **8-day re-anchor** (Will-invoked boot; "a lot of changes")
+**Date:** 2026-06-16 ~10:40 AM ET (BOJ-day / FOMC-eve)
+**Mode:** Full re-anchor. Last pass was 6/8 PM anchored to Fri 6/5 close. Dark through the ENTIRE 6/9-12 catalyst cluster + BOJ. Anchor rolled Fri 6/5 → Tue 6/16 live.
 
-## Result
+## Headline finding
 
-STATUS de-noised + de-staled. 9 edits across STATUS / PREDICTIONS_MONITOR / CONFIRMED. Two predictions resolved (PRED-13 promoted, PRED-25 TRUE-in-letter). Closed E-phase block archived to `research/`. M-06 + T-06 durability gates moved from rhetoric to substance per `[[feedback_trump_rhetoric_tape_not_info]]`. Probability split held FLAT (single-print discipline; no re-grade on 1 session).
+**The bear-stress cluster I tracked into 6/5 resolved toward CONSENSUS, not agent-data.** Every breached threshold reverted (8 → 2). The substance/tape divergence narrowed from wide-and-shallow (many legs) to deep-and-narrow (one dormant axis: the credit-bifurcation K-split, new M-08).
 
-## Work units
+## What resolved during the dark window (6/9-16)
 
-### WU1 — STATUS edits (one sequential pass)
-1. **Header** — Updated bumped to 6/8 PM; mode = hygiene; anchor explicitly stays Fri 6/5 close (6/8 close NOT integrated).
-2. **E-SPINE block (45 lines)** → archived to `research/2026-06-06_e_phase_outputs.md`; replaced with **5-line pointer** carrying the IF-THEN TLT position-dependency conditional forward (cheap insurance per advisor Note B — survives archive in case energy thesis flips).
-3. **M-06 row** — Trump/Rubio rhetoric gate STRIPPED; replaced with substance trio: next UKMTO weekly print · Brent curve structure · CENTCOM kinetic tempo. Anti-pattern reference cited inline (`[[feedback_trump_rhetoric_tape_not_info]]`).
-4. **T-03** — RETIRED. Internal contradiction (tensions "PASSED/needs resolution" vs docket "RESOLVED HIT 6/5"). VIOLET R11 fired → M-04 absorbed.
-5. **T-06** — Trump/Rubio gate text swapped to substance gates (UKMTO / curve / CENTCOM). Row stays live (escalation-vs-soft-Brent tension still real).
-6. **CCC OAS row** — tagged `[STALE 6/4]` per stale-marking discipline overlay. Refresh in 6/8-data sweep.
-7. **Transmission chain** — "Q2 print ~8wk out" → "~5wk out (Q2 ends 6/30, bank prints mid-July)".
-8. **Catalyst docket** — 6/8 Trump/Rubio row REMOVED.
-9. **CONFIRMED + LAST RUN pointers** — refreshed.
+- **6/9 + 6/11 auctions:** cleared CLEAN (BOND June-refunding post-mortem → de-escalate). T-02 largely resolved "function intact."
+- **6/10 May CPI:** headline HOT (+0.5% MoM/+4.2% YoY, energy >60%, gas +40.5%) but **core SOFT (+0.2% MoM vs +0.3%)**. Market looked through energy → cyclical re-arm MISS (HEN-32). My C2 pre-reg "split" branch fired cleanly.
+- **Vol fully re-unwound:** VIX 21.51 → 16.04. Confirms 6/5 spike was exogenous (AI-unwind+rate-shock) and retraced. M-04 mechanism re-asserted. VIOLET coiled-spring intact (SKEW held 142.6 through crush).
+- **6/16 BOJ:** HIKED 1.00% as-priced (7-1, dovish Asada dissent, Ueda absent/Uchida presser). **No carry unwind** — USDJPY +0.3%, Nikkei +5%, buy-rumor-sell-fact. TB-2 dominant trigger spent benign.
+- **$35B Apollo/BX/Broadcom AI deal (6/9):** re-diverged tape BULL-side — alt-mgrs to new highs financing AI-infra, BDC wrappers pinned. R4 flipped bull.
+- **Brent collapsed** $93→$80.13 (−14%) on Dawn-#5 Islamabad Agreement; BUT physical screams tight (SPR draining, util >95%, Hormuz Day 105 closed) = BRENT divergence-max.
 
-### WU2 — PREDICTIONS_MONITOR resolutions
-- **PRED-13 (Iran "talks" rally = bull-trap):** ✅ HIT, promoted to CONFIRMED.md C-35. Pattern validated twice (March + May→June second cycle).
-- **PRED-25 (HAWK Scenario D ≥80%):** ✅L TRUE-in-letter. Outcome fired (war escalation re-armed via 5/25-26 strikes + 5/31 Kuwait intercept + 6/1 MOU walk-out + Bab al-Mandab vector). Mechanism SUPERSEDED by HAWK 5/22 reframe (D 92→35%). Per Discipline A — no CONFIRMED promotion (mechanism integrity failed). Flag mechanism-shift to RED noted.
+## Live marks (6/16 ~10:40 ET, fetch.py)
 
-### WU3 — CONFIRMED.md
-- Added C-35 (Iran bull-trap pattern, 90%).
+VIX 16.04 · 10Y 4.45% · TLT $86.02 · KRE $72.66 · WAL $81.65 · BIZD $12.60 · Brent $80.13 (−3.66%) · USDJPY 160.43 · APO $137.16 · SPX 7,551 (6/15) · HY OAS 271 / CCC−BB 786 (FRED 6/12) · 30Y UST 4.955% / 30Y FRM 6.52%.
 
-## Decisions held FLAT this pass
-- **Probability split 30 / 30 / 40** — no re-grade on one session (6/5 NFP). Real gates remain 6/9-11 auctions + 6/12 CPI.
-- **6/8 market-data refresh** — deferred to deliberate sweep, not mixed into hygiene.
-- **5/21 Last-updated dates on M-01/M-02/M-03/M-05** — left as-is. Δ-convention working as designed; exposing true age of unchanged regime call.
+## STATUS changes (full rewrite)
 
-## Files Changed
-- `AGENTS/NEXUS/STATUS.md` — 9 sub-edits per WU1
-- `AGENTS/NEXUS/PREDICTIONS_MONITOR.md` — PRED-13 + PRED-25 resolutions
-- `AGENTS/NEXUS/CONFIRMED.md` — C-35 added
-- `AGENTS/NEXUS/research/2026-06-06_e_phase_outputs.md` — NEW (E-SPINE archive)
-- `AGENTS/NEXUS/LAST_COMPLETION.md` — this file
+- **Probability split re-graded** 25/35/40 → **15/50/35** (Break ↓10 / Grind ↑15 / Unresolved ↓5). Earned on multi-print cluster (Discipline B satisfied). FOMC 6/17 flagged as the one live re-arm.
+- **Matrix:** M-01 ↓7 (68, compressed to one axis) · M-02 ↓2 (68, BIZD un-breached) · M-03 ↓10 (60, auctions clean) · M-04 ↑3 (58, vol re-suppressed) · M-05 — (65) · M-06 ↓10 (50, war softened) · M-07 ↑8 (68, bull-counter winning) · **M-08 NEW (70)** — weakest-cohort K-split confirmed 3 places (HENRY/BROCK/VIOLET), DORMANT not transmitting. The surviving core of the book.
+- **Antecedent map re-run:** R3 (credit fundamental) is now load-bearing ALONE; R1/R2/R5 resolved consensus-ward, R4 flipped bull. C3: TB-2 cluster FALSIFIED real-time (BOJ benign, AI-unwind reversed, only FOMC leg live).
+- **Tensions:** T-02 largely resolved · T-06/T-08 de-rated (war softened) · **T-09 NEW** (coiled-spring vs complacency).
+- **Threshold cluster** collapsed 8 breached → 2 (CCC tail + benign USD/JPY).
+- **Narrative gap:** narrowed sharply toward consensus; persists only on R3.
 
-## Disciplines applied
-- `[[feedback_trump_rhetoric_tape_not_info]]` — substance gates over rhetoric gates (M-06, T-06, docket).
-- **Discipline A (Threshold vs Mechanism)** — PRED-25 resolution.
-- **Discipline B (Single-print skepticism)** — probability split held FLAT on 1-session evidence.
-- **Stale-marking overlay** — CCC OAS `[STALE 6/4]` rather than treating as live.
-- **Audit behavioral ranking** — strip-noise + retire-T-03 + archive-E-SPINE bundled into one hygiene pass; data refresh kept separate.
+## Predictions resolved
 
-## WU4 — QC sweep + SAM brief integration (3rd pass this session)
+- PRED-22 (BOJ hike May 1) → ❌ MISS (date) — hiked Jun 16, direction vindicated 6wk late.
+- PRED-46 (BOJ Apr 23-24 hike) → ❌ MISS (date).
+- PRED-20 / PRED-36 (HY OAS ≥350/≥400) → tracking strong MISS — HY 271 TIGHTENING toward 260 kill, wrong way. Reduced.
+- (SAM-owned, noted: SAM-21 hike ✅ CONFIRMED, SAM-23 intervention ❌ FAILED calibration-win, SAM-24 25bp ✅, SAM-26 30Y≥4.0% ❌.)
 
-Advisor QC against synthesis pass surfaced 4 items + the two-machine sync flag:
+## Files changed
 
-- **Two-machine sync state:** Advisor on separate clone/branch (`claude/tender-brown-1jif87`, HEAD `3da8255`); cannot see my commits. Verified locally — `ade2fca1`/`d6dbb5d9`/`6fcd606f` all present on this clone's `master`. `AGENTS/NEXUS/STATUS.md` only ever touched by NEXUS (5-deep git log shows no other-agent edits) — no cross-clone NEXUS-file collision risk on the file-ownership side. Flag carried for Will's next coordinated push window per `[[feedback_defer_push_coordinate]]` + `[[finding_push_train_pattern]]`. Did NOT push solo.
-- **Probability split asymmetry fixed:** Was held FLAT 30/30/40 while M-04 give-back acknowledged the same logic was invalidated. Reverted symmetrically to **25/35/40** (Break ↓5pp / Grind ↑5pp, both logic correction). Substance hardening was already in the 5/21 baseline; vol-derived +5pp tilt lost its basis.
-- **TB-2 framing tightened (S-26060801):** Was "3 partially-independent channels." FOMC 6/17 + VIX June expiry isn't a co-equal third driver — it's the **timing concentrator** the other 2 drivers crystallize into. Corrected to "2 partially-independent drivers + 1 shared timing window." Independence count no longer inflated.
-- **M-04 / M-07 asymmetry made explicit:** Added clarifying clauses to both rows. M-04 = vol-suppression-of-bear-stress-transmission *mechanism claim* (not tested 6/5 → give-back). M-07 = "vol stays crushed" *empirical bull-counter claim* (any unpin wounds, exogenous or not → stays down). One sentence in each row resolves the apparent inconsistency.
-- **SAM brief integrated:**
-  - CPI 6/10 triangulation (VIOLET+SAM both calendar-disciplined — closes the loop).
-  - **USD/JPY 160 threshold re-attributed**: was "carry/Japan stress live"; SAM cross-pair vindication (yen STRONG vs EUR/GBP/AUD, WEAK only vs USD) → re-framed as "USD-side mechanism, NOT yen-side stress." Wrong-attribution corrected.
-  - S-26060702 de-rated on Japan-lifer leg: SAM Big-3 ESR window 3-of-3 benign 5/26 → forced-repatriation channel deferred multi-year. C-34 / M-03 lose one transmission channel; Gulf + China-CB legs unchanged.
-  - TB-2 yen-carry driver substance: CFTC -129,567 (72% of cycle peak), 5th build week, danger zone 85%/-153K. Last pre-blackout CFTC Sat 6/13.
-  - **Connective-tissue dispatch to SAM**: HAWK's 6/8 brief explicitly answered SAM's open Tehran-walk-back question (HAWK: "Brent fade is damage-regime-exit pricing, not deal-substance. Don't mark SAM-23 on rumor-tier"). SAM didn't have visibility; outbox dispatched.
+- `STATUS.md` — full re-anchor rewrite (6/16, ~190 lines, within cap)
+- `PREDICTIONS_MONITOR.md` — PRED-22/46 resolved MISS, PRED-20/36 HY-direction downgrade
+- `BRIEFS_MAP.md` — HENRY + BROCK briefs now FRESH (coverage 4/12 → 6/12); header + count
+- `brief_fallback_log.tsv` — 3 rows (SAM stale, CARL stale, HAWK convergence)
+- `LAST_COMPLETION.md` — this file
 
-## WU6 — Closeout (Step 14 promotion scan)
+## Briefs read this pass
 
-- **Cross-agent transferable PROMOTED:** `finding_circular_corroboration_via_state_file.md` written to auto-memory + indexed in MEMORY.md. Captures the CPI 6/12→6/10 catch as a generalizable lesson — majority-agreement on derived facts is circular when agents likely read from shared state. Independence discipline applies to your own state, not just news sources. Distinct from `[[finding_shared_antecedent_independence_test]]` (causal antecedent) and `[[feedback_verify_existence_external_primaries]]` (opposite direction: fleet silence ≠ event didn't happen).
-- **NEXUS-specific durable INLINED in CLAUDE.md:**
-  - **Discipline F prophylactic addition** — build explicit root-map at each Type-B pass (R1...Rn), tag every row to root(s), convergence only counts across different roots. Dual-implication note (deflates + amplifies). Validated 6/8 antecedent map.
-  - **Discipline D refinement** — citation-count vs observation-count check (HY OAS cited 4 ways is 1 observation, not 4 rails) + staleness-in-the-corner-most-exposed check (HY *energy* OAS Apr-28 stale while Hormuz live).
-- **Deferred:** pre-registration technique (already covered by Discipline E); cross-edge mining (implicit in synthesis frameworks); fallback-rate rollup (need ≥6 data points, log has 0 real events yet).
+BROCK (6/15) · HENRY (6/15) · BRENT (6/14) · VIOLET (6/14) — all fresh, read in full. SAM (brief 6/7 stale → STATUS 6/15 + TIMELINE direct, live BOJ). CARL (no brief → FOMC packet + STATUS direct). HAWK (brief 6/8 stale → chased via BRENT/SAM).
 
-## WU5 — Type-B synthesis pass (advisor directive: read briefs sideways, not top-down)
+## Blockers / Carry-forward
 
-Method: antecedent map → walk uncertainties → diff cross-domain edges. Four threads C1-C4 landed.
-
-- **Antecedent map** added to STATUS. 6 roots tagged (R1 USD/Fed, R2 Hormuz/oil, R3 credit fundamental, R4 AI-positioning, R5 energy→CPI→Fed, R6 Japan/BOJ). Discipline F applied prophylactically — convergence only counts across DIFFERENT roots.
-- **C1 — R1 dual implication.** USD/Fed root sits under 6 distinct observations (M-03 / M-04 rate-leg / USDJPY / Brent-paper / 10Y / TB-2 FOMC concentrator). NOT 6 independent rails = 1 root in 6 costumes. DEFLATES convergence count AND AMPLIFIES fragility (one event moves all 6 together; T-08 + TB-2 circling this). Same antecedent does both.
-- **C2 — 6/10 CPI pre-registration.** `research/2026-06-08_cpi_pre_registration.md` — locked branches for HOT/IN-LINE/SOFT × 6 rails (M-04 / M-06 / M-03 / M-01 / SAM rails / TB-2) + probability-split direction-of-tilt + anti-anchoring rules. Pre-reg before data prevents retro-rationalization. STATUS catalyst docket 6/10 row points at the pre-reg file.
-- **C3 — Counter-signal staleness.** HY OAS 274 cited 4 ways in STATUS = ONE observation viewed 4 times, NOT 4-rail convergence (Discipline D refinement). AND BRENT flag: HY energy OAS Apr-28 stale ~285bps — corner most exposed to live Hormuz risk has 40-day-old data. Refresh HY energy OAS priority. Action: LIQUID dormant, route via WALTER or PROME.
-- **C4 — T-08 ↔ TB-2 bidirectional cross-edge.** Neither HAWK nor VIOLET saw it. HAW-11 leakage → risk-off pulls TB-2 forward (yen flight + AI de-gross). TB-2 firing → risk-off amplifies T-08 (war-premium re-enters Brent). Cross-root R2 ↔ R1+R4+R6 linkage. Added to T-08 + S-26060801 rows.
-- **Coverage gaps named via cross-domain SENDING-vs-WAITING diff:** CARL (3 of 4 briefs waiting on USD/USD-persistence), HENRY (3 of 4 waiting on vol regime / breadth-gamma), LIQUID (2 of 4 waiting + dormant on HY OAS / credit confirm). These match BRIEFS_MAP rollout priority.
-
-STATUS now 188 lines (cap 200). 12-line headroom.
-
-## Blockers / Carry-forward for next pass
-
-1. **Two-machine sync flag for Will** — advisor's clone (branch `claude/tender-brown-1jif87`, HEAD `3da8255`) cannot see today's NEXUS commits (`ade2fca1` / `d6dbb5d9` / `6fcd606f`). Locally safe (all committed on this clone's `master`); `AGENTS/NEXUS/STATUS.md` only ever touched by NEXUS so no cross-clone NEXUS-file collision risk. Flag carried for next coordinated push window.
-2. **6/8 market-close data refresh** — `fetch.py` sweep across matrix anchors (^VIX, ^TNX, TLT, KRE, WAL, BIZD, BZ=F, USDJPY=X) + CCC OAS + HY OAS T+1 6/5 print + HY energy OAS (BRENT flag). Anchor roll Fri 6/5 → Mon 6/8 close, re-grade thresholds, refresh narrative gap. **Separate deliberate pass.**
-3. **Live catalyst cluster fires Tue-Wed:** 6/9 SAM-21 mechanical re-check + 10Y nominal auction → **6/10 May CPI (INSIDE auction window)** + JGB 30Y auction → 6/11 long-end auction. NEXUS pass mandatory after 6/10.
-4. **Auto-memory promoted this session** → `finding_circular_corroboration_via_state_file.md` (done in WU6).
-5. **E-phase 4 standing disciplines — codify TODO (triage first):**
-   - **war-premium tape signal** → KEEP, codify as NEXUS synthesis co-signal (used for SIG-02).
-   - **causal-lag awareness** → FOLD into existing Discipline C (catalyst vs consequence). Don't duplicate.
-   - **crack spreads** → ROUTE to BRENT (domain tool, not NEXUS owns).
-   - **supply-vs-demand decomposition** → ROUTE to BRENT (domain tool).
-   - *Not for hygiene pass — real codify-work is 2 keepers, 1 fold, 2 routes. Punt.*
-6. **Tier-1 briefs read this session:** SAM (6/7, pilot), HAWK (6/8), BRENT (6/8), VIOLET (6/8). **8 still missing** — CARL, REGINALD, BROCK, HENRY, WALTER, RED (active) + OZK, LIQUID (dormant — confirm first). MARCO (Tier-2) 6/8 brief unread.
-7. **Rollout broadcast DEFERRED.** Per advisor: 1 day to 6/9 auction, 2 days to 6/10 CPI; starting rollout splits focus during live catalyst week AND compounds the two-machine sync surface (6 more agents editing on two clones). **Wait until after 6/9-12 cluster clears.**
-8. 🚨 **LIQUID Will-decision required (NOT a rollout footnote).** LIQUID dormancy (STATUS 5/21, 18 days stale) is BLOCKING two load-bearing items:
-   - **C3 — counter-signal refresh.** HY energy OAS Apr-28 stale ~285bps in the corner most exposed to live Hormuz substance. Macro HY OAS 274 flat is doing real counter-signal work but has a stale-data crack in the corner that matters. LIQUID owns this; route-around via WALTER or PROME is a workaround, not a fix.
-   - **T-08 — credit pin verification.** HAW-11 leakage tail wiring has 1 hard pin (BRENT) + 2 soft (HENRY, SAM) + 1 dormant (LIQUID). LIQUID's credit-stress channel framing is unverified because it can't be cross-checked.
-   - **Decision needed from Will:** (a) reactivate LIQUID (assign a session) and refresh both items before 6/10 CPI, OR (b) explicitly accept blind spot — credit-corner-most-exposed-to-live-Hormuz operates without LIQUID coverage through the 6/9-12 cluster. Outbox dispatched to PROME with this framing. Either decision unblocks NEXUS; "wait for rollout broadcast" does not.
-
-9. **2 fleet-routed signals to NEXUS still unprocessed:**
-   - `MARCO 2026-06-08 worldcup-dual-mask` (→NEXUS+CARL)
-   - `BRENT 2026-06-07 fallback_rate_instrumentation` (CLAUDE.md instrumentation rows partially absorbed; live-NEXUS review/adjust still owed)
+1. **FOMC 6/17 2pm — mandatory live-event pass within 24h.** Grade dots vs PRICING (CME ~47% hike-by-2026), not vs March (HEN-33 / CARL FOMC packet §3). Hawkish-of-pricing → Break re-rates, M-03 re-opens. In-line/dovish → Grind consolidates. Resolves FOMC_PACKET grading stub (§6) + M-01/M-03/M-04.
+2. **HY OAS is the bear thesis's kill-line** — 271, 11bps from 260. If it drags through 260 sustained, the blended-credit leg dies and the book narrows to CCC-tail-only. Stale 4 days (FRED 6/12) into FOMC — refresh next pass. LIQUID still dormant (owns this + T-08 credit-pin).
+3. **M-08 is the surviving thesis** — next real test ~7/25 Q2 BDC marks (does the dormant K-split transmit). Watch trigger: HY underperforms IG / wrapper credit event / KRE rolls.
+4. **Coiled-spring blind spot:** HENRY gamma feed dark since ~6/9 → dealer flip-level unconfirmed = release-trigger into 6/17/6/19 is blind (VIOLET flagged, Will handling revival).
+5. **Brief rollout:** 6 Tier-1 still missing (CARL, REGINALD, OZK, RED, LIQUID, WALTER). CARL highest demand (FOMC/macro). Post-FOMC window.
+6. **2 routed signals still unprocessed** from 6/8 (MARCO worldcup-dual-mask — note MARCO retired/corrected it 6/8 per git log; BRENT fallback_rate_instrumentation — partially absorbed). Verify MARCO retirement, then clear.
 
 ## Next Step
 
-Next NEXUS pass priority (mandatory by 6/10 CPI):
-- 6/8 market-close data refresh + anchor roll (deliberate sweep — separate from this synthesis pass).
-- 6/10 CPI live-event override pass (M-04 + M-06 + M-01 + TB-2 oil-leg discriminator + probability-split re-grade).
-- Process 2 routed signals (MARCO + BRENT) when bandwidth allows.
+FOMC 6/17 live-event override pass (mandatory). Then: refresh HY OAS, clear routed signals, CARL brief priority.
 
-Git: 3 commits this session (`6fcd606f` hygiene + `d6dbb5d9` briefs-map + `ade2fca1` synthesis); this 3rd pass adds 1 more (QC + SAM integration). All local; push deferred per `[[feedback_defer_push_coordinate]]` + two-machine sync flag in item 1.
+Git: 1 commit this session (re-anchor). Local; push deferred per `[[feedback_defer_push_coordinate]]`.

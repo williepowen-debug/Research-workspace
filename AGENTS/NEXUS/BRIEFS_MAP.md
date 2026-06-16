@@ -1,6 +1,6 @@
 # NEXUS — Fleet Brief Map
 **Purpose:** Single index of `NEXUS_BRIEF.md` status across the fleet. NEXUS reads this at BOOT step 6 to decide where the brief read-flow applies vs where raw STATUS fallback is mandatory.
-**Updated:** 2026-06-08 Mon PM
+**Updated:** 2026-06-16 Tue AM (8-day re-anchor — HENRY + BROCK briefs stood up since last sweep; coverage 6/12)
 **Schema reference:** `templates/NEXUS_BRIEF_SCHEMA.md` §4.4 fallback triggers (a/b/c) + `brief_fallback_log.tsv` for run-time instrumentation.
 
 ---
@@ -26,15 +26,15 @@
 | **OZK** | ❌ | — | — | 2026-04-24 | n/a | ⚪ DORMANT | Spun out from REGINALD 4/24; STATUS not refreshed since. Confirm activity status before pressing for brief. |
 | **SAM** | ✅ | 2026-06-07 | `6f4e531f` | `b3803c35` | +1 | ✅ FRESH | **Pilot consumer.** Schema/template ratified through SAM's brief 6/7. Drift = 1 commit (within schema threshold). |
 | **RED** | ❌ | — | — | 2026-06-03 | n/a | ⏳ MISSING | Adversarial / steelman. Brief should carry counter-case to current convergences. Priority #3. |
-| **BROCK** | ❌ | — | — | 2026-06-08 | n/a | ⏳ MISSING | Private credit / BDCs. M-02 + M-05 owner. STATUS active. Priority #2. |
+| **BROCK** | ✅ | 2026-06-15 | `4e600135` | 2026-06-15 | 0 | ✅ FRESH | Private credit / BDCs. M-02 + M-08 owner. Brief stood up 6/15 (fleet-standard schema). Read this pass — tape re-diverged via $35B AI-origination deal. |
 | **LIQUID** | ❌ | — | — | 2026-05-21 | n/a | ⚪ DORMANT | Plumbing / funding. STATUS 18 days old; confirm activity before pressing. |
-| **HENRY** | ❌ | — | — | 2026-06-07 | n/a | ⏳ MISSING | Velocity / tape / vol gamma. M-07 + market-structure owner. Priority #2. |
+| **HENRY** | ✅ | 2026-06-15 | (synced) | 2026-06-15 | 0 | ✅ FRESH | Velocity / tape / vol gamma. M-07 + M-08 owner. Brief stood up 6/15. Read this pass — cyclical SOFT-KILLED on soft core CPI; flags 3-place K-split (M-08). Gamma feed dark ~6/9 (flip-level unconfirmed). |
 | **HAWK** | ✅ | 2026-06-08 | `8844b6a7` | `8844b6a7` | 0 | ✅ FRESH | Geopolitical / Iran war. Recent damage→salvo regime reframe; leakage-not-volume tail. |
 | **BRENT** | ✅ | 2026-06-08 | `ce65758f` | `3ffba885` | +2 | 🟡 PIN-STALE | Brief content covers rev-5 BRT-27/28 work (commit `3ffba885`) but STATUS-pin not bumped. Content fresh; pin-hygiene flag to BRENT. |
 | **VIOLET** | ✅ | 2026-06-08 | `725f1ffb` | `725f1ffb` | 0 | ✅ FRESH | VIX / vol structure. Fade-leaning two-leg pathway; CPI gate Wed 6/10. |
 | **WALTER** | ❌ | — | — | 2026-06-07 | n/a | ⏳ MISSING | Signal/news routing. WALTER feeds NEXUS inbox; brief would surface routed-signal density + recent BOARD dispatches. Priority #3. |
 
-**Tier-1 brief coverage: 4/12 (33%).** Missing 8 — fleet rollout pending.
+**Tier-1 brief coverage: 6/12 (50%).** Missing 6 — CARL, REGINALD, OZK, RED, LIQUID, WALTER. (CARL's FOMC packet read directly this pass as event-specific fallback — brief still owed.)
 
 ---
 
