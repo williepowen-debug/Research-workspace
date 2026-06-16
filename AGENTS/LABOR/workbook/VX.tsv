@@ -5,7 +5,7 @@ VX-LAB-1.02A	Continuing Claims (4-Week Avg)	1,851,500	GREEN	<1.9M	1.9-2.1M	2.1-2
 VX-LAB-1.02B	Insured Unemployment Rate	1.2%	GREEN	<1.3%	1.3-1.5%	1.5-1.8%	>1.8%	2026-03-09	DOL Week ending Feb 21. 3-LLM verified.	1.2% (unchanged). At pre-pandemic avg. But if continuing claims breach 1.9M, this will tick up.
 VX-LAB-1.03	Claims 4-Week Avg	219,000	GREEN	<230K	230-250K	250-300K	>300K	2026-06-14	DOL Week ending Jun 6 (released Jun 11). FRED-verified.	219,000 (+4,250 WoW; 3rd straight ↑: 208.25→214.75→219.0). Clean print — DHS-shutdown suppression no longer applies (ended May 1). Grind higher inside 200-225 envelope, 11K below 230 yellow break. [Refreshed Jun 14 from Mar-9-stale 215,750.]
 VX-LAB-1.04	Indeed Postings YoY	-5.9%	YELLOW	>0%	-5% to 0%	-10% to -5%	<-10%	2026-03-09	FRED IHLIDXUS / Indeed Hiring Lab (Jan 23, 2026)	Deeper into YELLOW. Index 104.7 (Feb 27). Decelerated from -5.2% (Dec) → -5.9% (Jan 23). 4-LLM cross-verified. Approaching ORANGE threshold.
-VX-LAB-2.01	NFP (MoM)	+50K (Dec)	ORANGE	>150K	50-150K	0-50K	<0	2026-02-01	BLS Dec 2025	CRITICAL: Very weak print; 2025 avg 49K vs 2024 168K
+VX-LAB-2.01	NFP (MoM)	+50K (Dec) [STALE]	ORANGE	>150K	50-150K	0-50K	<0	2026-02-01	BLS Dec 2025	⚠️ STALE Feb-2026 — DO NOT CITE AS LIVE. Actual May NFP +172K (BEAT) + net +93K Mar/Apr UP-revisions; live values in STATUS dashboard. This row is directionally FALSE as current (same class as FLOW-3.01 fix). [Orig: CRITICAL very weak print; 2025 avg 49K vs 2024 168K]
 VX-LAB-2.02	Unemployment Rate	4.4%	YELLOW	<4.3%	4.3-4.5%	4.5-5.0%	>5.0%	2026-02-01	BLS Dec 2025	At upper yellow
 VX-LAB-2.03	Labor Force Participation	62.4%	YELLOW	>62.5%	62.0-62.5%	61.5-62.0%	<61.5%	2026-02-01	BLS Dec 2025	Little changed
 VX-LAB-2.04	U-6 Underemployment	8.4%	ORANGE	<7.5%	7.5-8.0%	8.0-9.0%	>9.0%	2026-02-01	BLS Dec 2025	+0.8pp YoY - hidden stress rising
@@ -15,7 +15,7 @@ VX-LAB-3.01	JOLTS Openings	6.5M	ORANGE	>8.0M	7.0-8.0M	6.0-7.0M	<6.0M	2026-02-05	
 VX-LAB-3.02	Quits Rate	2.0%	YELLOW	>2.2%	2.0-2.2%	1.6-2.0%	<1.6%	2026-02-01	BLS JOLTS Nov	Workers less confident - music stopped
 VX-LAB-3.03	Layoffs Rate	1.1%	GREEN	<1.0%	1.0-1.2%	1.2-1.5%	>1.5%	2026-02-01	BLS JOLTS Nov	Slightly elevated
 VX-LAB-3.04	Openings/Unemployed	0.87	ORANGE	>1.2	1.0-1.2	0.7-1.0	<0.7	2026-02-05	BLS JOLTS Dec	Below 1.0 first time since Feb 2021. 7.5M unemployed vs 6.5M openings = 1M deficit.
-VX-LAB-4.01	Temp Employment YoY	-12%	RED	>0%	-3% to 0%	-6% to -3%	<-6%	2026-02-01	SIA Jan 2026	CRITICAL LEADING INDICATOR - 400K lost, cycle bottom, RE-ACCELERATING decline
+VX-LAB-4.01	Temp Employment YoY	-12% [STALE]	RED	>0%	-3% to 0%	-6% to -3%	<-6%	2026-02-01	SIA Jan 2026	⚠️ STALE Feb-2026 — DIRECTIONALLY FALSE AS LIVE. Temp Help is EXPANDING (LAB-01 falsified Jun 2: BLS CES +9.1K/+4.4K/+7.9K/+1.4K Jan-May; ASA +4.9% YoY). Do not cite the -12%/RED. [Orig: CRITICAL leading indicator, cycle bottom]
 VX-LAB-4.02	Temp Penetration Rate	1.59%	RED	>1.8%	1.7-1.8%	1.6-1.7%	<1.6%	2026-02-01	SIA Jan 2026	Cycle bottom - leads NFP 3-6mo
 VX-LAB-4.05	Fed Contractor Hiring	-23%	RED	>0%	-10% to 0%	-20% to -10%	<-20%	2026-02-01	Indeed Jan-Jul 2025	DOGE effect on contractor demand
 VX-LAB-5.01	Part-Time Econ Reasons	5.3M	ORANGE	<4.5M	4.5-5.0M	5.0-6.0M	>6.0M	2026-02-01	BLS Dec 2025	+980K YoY - hidden unemployment

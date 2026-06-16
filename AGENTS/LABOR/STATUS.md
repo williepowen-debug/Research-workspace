@@ -52,7 +52,7 @@
 
 `*` = carried from prior session, not re-verified this cadence (monthly data or cross-agent).
 
-**LABOR-owned total: 48/80** (16 vectors) | 🔴🔴: 2 | 🔴: 3 | 🟠: 5 | 🟡: 4 | ⚪: 1
+**LABOR-owned total: 48/80** (16 vectors) | 🔴🔴: 2 | 🔴: 3 | 🟠: 5 | 🟡: 5 | ⚪: 1
 **vs Jun-8 presented 57/85** — the −9 net is mostly the supply-side correction (ICE/H-2A out, −9) + Hormuz (−2) + new construction-slice (+2). **Honest read: bearish intensity 60% of max (was presented as 67%).** The bearish core is REAL but narrower than the old matrix implied: it is concentrated in the **announcement/intent layer** (Sector cuts 5, AI displacement 4, ISM-employment survey 4, JOLTS 4) — NOT the realization layer (claims/U-3 holding, NFP revising up). Of the two 🔴🔴, Sector cuts is fresh; **WARN is carried from Jun 1 and is the highest-priority refresh** (it's now 1 of only 2 top-red and un-verified).
 
 ### CROSS-DOMAIN CONTEXT (MARCO-owned — NOT in LABOR score)

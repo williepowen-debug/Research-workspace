@@ -16,7 +16,7 @@
 | **215–229K** | Drift continuing / no new info | hold **2 🟡** | None. STATUS one-liner. This is the base case. |
 | **230–250K** | **ACCELERATING** — 2nd consecutive upside, MA likely 4th ↑ | upgrade **2→3 🟠** | 🟠 heads-up to CARL + REGINALD (not a fire): "claims accelerating, not yet sustained-breach; watch w/e Jun 20." Re-arm KELYA watch (not the position). |
 | **251–300K (single)** | **TRIPWIRE HIT — but ONE print ≠ "sustained"** | upgrade **3→4 🔴** | **ARM T-01, don't fire-confirmed.** Send 🟠→🔴 *provisional* signal to CARL + REGINALD: "250K breached on a single print; T-01 arms; CONFIRM on 2nd consecutive >250K (w/e Jun 20, Jun 25 print)." Per EXIT-RULE discipline, "sustained" = 2+ prints. |
-| **> 300K (single)** | Step-change — too big to wait | **5 🔴🔴** | **FIRE NOW.** Single >300K is a different animal (+71K WoW from 229K = recession-signature jump, not noise). Send 🔴 to CARL + REGINALD (all ORANGE banks → RED per KEY THRESHOLDS) + append AGENTS/SIGNALS.md. Don't wait for confirmation at this magnitude. |
+| **> 300K (single)** | Step-change — too big to wait | **5 🔴🔴** | **FIRE NOW.** Single >300K is a different animal (+71K WoW from 229K = recession-signature jump, not noise). Send 🔴 to **CARL + REGINALD + HENRY** (REGINALD all ORANGE→RED; HENRY structural-bid-break per T-02) + append AGENTS/SIGNALS.md. Don't wait for confirmation at this magnitude. |
 
 **Confirming cross-checks (apply to any 230K+ print):**
 - **4-wk MA** — 230K+ pushes MA to ~4th straight ↑; that's the trend signal, less noise than the weekly.
@@ -41,9 +41,9 @@
 
 ### Packet B — >300K single print (FIRE NOW)
 ```
-## 2026-06-18 — To: CARL, REGINALD
+## 2026-06-18 — To: CARL, REGINALD, HENRY
 **Signal:** 🔴 Initial claims STEP-CHANGE — w/e Jun 13 = [XXX]K (+[XX]K WoW from 229K). Realization break.
-**Detail:** This is not drift — a +[XX]K single-week jump to [XXX]K is recession-signature, too large to attribute to summer seasonality. The bearish thesis's missing leg (realization) has fired. REGINALD: all ORANGE banks → RED per the >300K threshold. CARL: consumer-conversion timeline pulls forward. 4-wk MA [XXX]K, CC [X,XXX]K.
+**Detail:** This is not drift — a +[XX]K single-week jump to [XXX]K is recession-signature, too large to attribute to summer seasonality. The bearish thesis's missing leg (realization) has fired. REGINALD: all ORANGE banks → RED per the >300K threshold. HENRY: >300K single = structural-bid-break trigger per TRADE.md T-02. CARL: consumer-conversion timeline pulls forward. 4-wk MA [XXX]K, CC [X,XXX]K.
 **Source:** DOL/FRED Jun 18.
 **Priority:** 🔴
 ```
