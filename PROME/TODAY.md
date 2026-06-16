@@ -10,8 +10,8 @@
 
 | Item | State | Read |
 |---|---|---|
-| Git | ✅ clean/synced | `HEAD == origin/master` after pulling WALTER + memory updates. |
-| Prome boot surfaces | 🟠 being corrected | Previous closeout text still described pre-push/pre-WALTER state; update this pass before other work. |
+| Git | ✅ clean/synced | `HEAD == origin/master` after Prome state-correction push. |
+| Prome boot surfaces | ✅ corrected | TODAY/HEARTBEAT/STATUS/SCRATCH/HANDOFF/ACTIVE_DECISIONS refreshed; FLEET_SCAN + Jun15 week card demoted/superseded. |
 | WALTER | 🟠 improved, not fully cleared | 6/16 WALTER repair pushed: Iran anchor re-stamped, registry refreshed, staleness sweep added. Remaining issue is routing/receipt + cron/feed reliability. |
 | NEXUS | ✅ review-passed | ORC four-group cross-check upheld matrix; no rows overturned. |
 | LABOR | ✅ fixes landed | Functional pushed packet reviewed cleanly; later LABOR hygiene commit fixed stale handoff/push lines. |
@@ -56,15 +56,31 @@
 
 ---
 
+## FOMC Operating Card — Jun 17
+
+**Purpose:** grade the event; do not auto-trade.
+
+| Branch | What to watch | Prome read |
+|---|---|---|
+| Hawkish-of-pricing | 2Y/front-end repricing higher, VIX/vol re-firms, USDJPY/carry stress | Re-arms macro/carry/vol fragility: R1 + R6 + coiled-spring path. |
+| Dovish / risk-on in-line | HY/HYG compression, banks/alts bid, vol crushed | Can kill surviving R3 blended-credit bear axis if HY sustains <260. |
+| In-line / unresolved | Mixed 2Y/HYG/VIX, HY holds >260 | Nothing resolves; re-anchor to Jun18 claims/TIC and late-Jun/Jul BDC/PC marks. |
+
+**HY discipline:** HY OAS **266 [FRED 6/15]** is only 6bp from <260. Use live proxies at the event, but do not declare R3 kill on an intraday tick. Confirm with FRED T+1 and require sustained <260.
+
+**Safety:** any trade/expiry action still requires broker/Will truth. Prome may grade, synthesize, and route; Prome does not execute.
+
+---
+
 ## Prome Work Queue
 
 | Pri | Work | Action |
 |---|---|---|
-| 🔴 | **Fix Prome surfaces** | Update TODAY/HEARTBEAT/STATUS/SCRATCH/HANDOFF/ACTIVE_DECISIONS to clean/synced + current WALTER/FOMC state. |
-| 🔴 | **FOMC grading setup** | Pre-register branch read; use live proxies at 2pm, confirm HY OAS by FRED next day. |
+| 🔴 | **FOMC grading setup** | Use operating card above; refresh dashboard/proxies at event time, confirm HY OAS by FRED next day. |
 | 🟠 | **WALTER diagnosis continuation** | WALTER anchor/registry improved; still need routing receipts and cron/feed health. Trace dropped BRENT/HAWK signals if not already resolved. |
 | 🟠 | **Position-state reconciliation** | Separate lane only; no expiry action without broker/Will truth. |
 | 🟠 | **NEXUS/LABOR propagation** | NEXUS should reflect LABOR standing brief if Will wants it; LABOR functional fixes already good. |
+| 🔵 | **Execution-rails design** | Later: prevent another HYG Jun→Dec missed-roll failure by pre-registering ladders/triggers. |
 
 ---
 
