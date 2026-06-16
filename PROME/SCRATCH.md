@@ -1,68 +1,63 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-16 16:12 ET (OpenClaw Prome — NEXUS/WALTER/LABOR review closeout)
+**Last Updated:** 2026-06-16 16:44 ET (OpenClaw Prome — state correction before next work)
 
 ## What Just Happened
 
-Will and Prome used this session as a live review/orchestration lane for NEXUS, ORC, WALTER, and LABOR.
+Will asked to get Prome right before doing anything else. Prome booted, verified repo state, pulled fresh origin updates, and corrected Prome-owned boot surfaces.
 
 Completed:
 
-1. **NEXUS matrix review closed.**
-   - ORC’s four-group independent read substantially corroborated NEXUS’s committed matrix.
-   - No NEXUS row was overturned.
-   - Main synthesis additions: HY OAS **266bps [FRED 6/15]** leaves only 6bp to the <260 blended-credit kill; M-08 should carry “bifurcation confirmed, broad transmission contested”; M-06 floor around 40 is justified because ceasefire announcement ≠ verified reopening.
-2. **FOMC branch sharpened.**
-   - Hawkish-of-pricing: re-arms R1 / trips loaded Japan-carry / tests vol coiled spring.
-   - Dovish or risk-on in-line: can compress HY through <260 and kill surviving R3 blended-credit bear axis.
-   - Use sustained <260 discipline; FRED HY OAS is T+1, so grade live with HYG/intraday credit proxy and confirm next day.
-3. **WALTER identified as fleet-intake integrity lane.**
-   - WALTER appears stale/degraded through high-event week: content dated ~6/10, stale cron/feed indicators, unreliable seed-commit freshness, and BRENT-reported dropped SIG-W-20260610-001/-002 routing to BRENT/HAWK.
-   - Classification: fleet-intake/routing reliability issue, not NEXUS analytical error.
-   - Next WALTER work should diagnose dormant-vs-cron-vs-dispatch-path-vs-running-not-committing before any simple “reactivate” assumption.
-4. **Clarified NEXUS reliance on WALTER.**
-   - NEXUS was not analytically captured by WALTER, but is operationally exposed because WALTER is supposed to populate `inbox/` / signal-density surfaces.
-   - Risk is missing events that never got delivered, not bad WALTER analysis.
-5. **Reviewed LABOR pushed GitHub packet.**
-   - Fetched origin; local branch is now behind 9 and ahead 3.
-   - Reviewed LABOR changes in detached temp worktree; did not disturb local Prome commits.
-   - Functional fixes look good: boot fallback works, `labor_data.py` fails loud on fetch failures, claims threshold text fixed, Jun-25 catalyst banding fixed, LAB-04 CARL outbox exists, WARN NEXUS forward-radar exists, LABOR `NEXUS_BRIEF.md` useful.
-   - Remaining cleanup: LABOR STATUS has stale “needs handoff / pending push” language; NEXUS `BRIEFS_MAP.md` still says LABOR brief not required if Will wants LABOR standing brief treatment.
+1. **Repo truth verified.**
+   - `master` is clean and synced with `origin/master`.
+   - Earlier local Prome commits were already rebased/pushed; no local unpushed Prome commits remain.
+   - Fresh origin included WALTER repair commits and memory/auto sync.
+2. **WALTER state corrected in Prome framing.**
+   - WALTER is no longer simply “stale 6/10.”
+   - 6/16 WALTER work landed: Iran anchor re-stamped to **DE-ESCALATION PENDING — UNSIGNED MOU / fragile truce**, registry refreshed, staleness sweep added, Iran-cluster lifecycle tags applied.
+   - Remaining WALTER issue: routing/receipt + cron/feed reliability. Treat as diagnosis continuation, not untouched stale-agent failure.
+3. **Market/regime surfaces refreshed.**
+   - Ran dashboard at ~16:44 ET.
+   - Updated `PROME/TODAY.md` and `HEARTBEAT.md` with HY **266 [FRED 6/15]**, CCC **937 [FRED 6/15]**, Brent **$79.49**, VIX **16.41**, USD/JPY **160.48**, BIZD **$12.62**, etc.
+   - Core read: fragile calm / bull tape with unresolved tail; HY is only 6bp from <260 R3 kill.
+4. **NEXUS/LABOR review state preserved accurately.**
+   - NEXUS matrix passed ORC four-group review; no rows overturned.
+   - LABOR functional fixes landed and later hygiene commit cleaned stale handoff/push contradictions.
+   - NEXUS/LABOR brief treatment remains a propagation/design issue, not a functional blocker.
 
-No trade execution. No external/public messages. No push performed by Prome.
+No trade execution. No external/public messages.
 
 ## Current Git State
 
-Local repo status at closeout:
+Current repo is clean/synced with origin after pulling WALTER + memory updates.
 
-- Local branch is **ahead 3 / behind 9** relative to `origin/master` after LABOR/NEXUS pushed work.
-- Known local Prome commits still unpushed from earlier session:
-  - `38fd272a PROME: recover SHADE Athene audit artifacts`
-  - `b8ec4012 PROME: closeout after post-BOJ review and rebase`
-  - `1ab7edc9 PROME: store SHADE raw artifacts outside git`
-- This closeout updates Prome state + daily memory locally; push remains Will-gated.
-- `memory/2026-06-16.md` was appended with the durable review state.
+Expected if checked now:
 
-Expected after closeout commit: local branch may be ahead 4 / behind 9 unless Will approves a rebase/push sequence.
+- `git status --short --branch` → `## master...origin/master`
+- ahead/behind → `0 0`
+
+## Current Operating Picture
+
+- **FOMC Jun17 is the next macro resolver.**
+  - Hawkish-of-pricing: re-arms R1 / trips Japan-carry / tests vol coiled spring.
+  - Dovish/risk-on in-line: can compress HY through <260 and kill surviving R3 blended-credit bear axis.
+  - Use sustained <260 discipline; FRED HY OAS is T+1, so grade live with HYG/intraday credit proxy and confirm next day.
+- **WALTER is partially repaired.** Anchor/registry/staleness sweep improved; still need routing receipts and cron/feed health before treating inbox completeness as reliable.
+- **Position-state remains unreconciled.** No expiry action without broker/Will truth.
+- **Prome surfaces are now the owner of current state:** TODAY + HEARTBEAT refreshed; STATUS/HANDOFF/ACTIVE_DECISIONS being aligned in this pass.
 
 ## Next Reboot Entry Point
 
-1. Follow `PROME/BOOT.md`; first command should be `git status --short --branch`.
-2. Treat GitHub `origin/master` as authoritative for pushed agent work, but preserve local Prome commits until Will decides push/rebase policy.
-3. Next likely lane: **WALTER diagnosis-first repair**.
-   - Confirm whether WALTER is dormant since 6/10, cron/feed failing, dispatch dropping signals, or running without committing.
-   - Trace SIG-W-20260610-001/-002 from classify/referral to BRENT/HAWK inbox write.
-   - Add receipts/health card expectations before trusting WALTER/NEXUS inbox completeness.
-4. If continuing LABOR/NEXUS hygiene:
-   - Ask LABOR for tiny cleanup of stale STATUS handoff/push language.
-   - Ask NEXUS to update `BRIEFS_MAP.md` if LABOR is now a standing brief surface.
-5. FOMC live grading entry:
-   - Watch 2Y/front-end, HYG/intraday credit proxy, vol/gamma if available.
-   - Confirm HY OAS next day via FRED before declaring sustained <260 R3 kill.
+1. Follow `PROME/BOOT.md`; repo should be clean/synced.
+2. If Will asks for market/FOMC work, refresh dashboard first and use `PROME/TODAY.md` + `HEARTBEAT.md` as current Prome surfaces.
+3. If Will asks for WALTER work, run diagnosis continuation:
+   - confirm current cron/feed state,
+   - verify routed-signal receipts,
+   - trace whether SIG-W-20260610-001/-002 has been resolved or remains a dispatch-path defect.
+4. If Will asks for positions/expiry, run separate broker/position reconciliation; do not infer from old rails.
 
 ## Cautions
 
-- No `AGENTS/*` edits unless Will explicitly approves; reviews are read-only.
-- Push remains Will-coordinated; pathspec-only; never `git add .`, `git add -A`, broad reset/stash, or force-push.
-- Local branch is behind origin; do not casually pull/rebase without checking local Prome commits and dirty state.
-- Raw SHADE PDFs remain outside Git policy unless Will changes it.
-- Prices/levels need live refresh before new claims; HY 266 / CCC 937 / HYG 80.04 are review-session facts, not evergreen marks.
+- No `AGENTS/*` edits unless Will explicitly approves; Prome can review/read freely.
+- No trade execution.
+- Old option/action-card rails are historical unless broker/Will truth refreshes them.
+- Dashboard levels in current surfaces are timestamped ~16:44 ET; refresh before reuse.
