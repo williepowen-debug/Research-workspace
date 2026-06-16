@@ -1,4 +1,4 @@
-# WALTER Filter Specification v0.4
+# WALTER Filter Specification v0.5
 
 WALTER filters BEFORE routing. Every piece of incoming information passes through a **pre-gate System-Critical bypass**, then **Gate 1** (the two hard kill gates: Novelty + Relevance), then **a soft credibility check** that adjusts confidence before reaching Gate 2 (classification + routing). Most raw information should die at Novelty or Relevance.
 
