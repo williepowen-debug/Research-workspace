@@ -8,6 +8,25 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-06-16 — 🔴🔴 BOJ HIKES TO 1.00% AS PRICED — dominant remaining catalyst resolved; no carry unwind (CH-004 confirmed); 4 June predictions closed
+
+**Author:** SAM (live-event resolution; decision + reaction primary-verified — CNBC/TradingEconomics/Reuters-via-Yahoo/ING)
+**Action:** No version bump — this is the resolution of the v1.5/v1.5.1 dominant-catalyst binary, not a structural rewrite. The structural re-underwrite is the planned **v1.6** (post Jun-18 $58C settle, RED pass before commit). This entry records the resolution; v1.6 folds it into thesis structure.
+
+**Old view (Sun Jun 14 frozen marks):** Jun-16 BOJ = dominant remaining near-term catalyst, single-path under v1.5; SAM-21 ~90% hike; modal delivered-as-priced package = FXY −1 to +2% + vol crush + no unwind; hawkish-of-pricing tail (~10%) = +5-8%/unwind-fires; hold (~10%) = −3-5% event-capped. Pre-registered exit: sell-into-the-Tuesday-IV-pop.
+
+**New view (resolved):** BOJ **hiked 25bp → 1.00%** (highest since 1995), **vote 7-1 with Asada dissenting for a HOLD** (dovish-side dissent — opposite of Apr-28's 3 hawkish dissents), growth + inflation outlook **raised**, **Uchida fronted the presser** for the absent (hospitalized) Ueda with "further hikes expected but not imminent" guidance + boilerplate FX line. **This was the MODAL delivered-as-priced outcome, NOT the hawkish-of-pricing tail.** Market: USDJPY WEAKENED to 160.36 (+0.25%), FXY flat ($57.22), JGB 10Y ~2.6%/30Y ~3.78% (+~1-5bp), Brent $80.51 (−3.2%). **CH-004 confirmed in live tape — a fully-priced hike did not unwind carry (buy-rumor-sell-fact); the 81%-of-cycle-peak CFTC fuel load was not lit because there was no surprise to light it.** The dominant near-term trigger is spent; the long thesis from here rests on the v1.5.1 § STRUCTURAL PILLARS, not on a catalyst.
+
+**Predictions resolved (PREDICTIONS.tsv → 9 CONFIRMED / 10 FAILED / 1 special / 0 OPEN):** SAM-21 (June hike) ✅ CONFIRMED; SAM-24 (25bp not 50bp) ✅ CONFIRMED; SAM-23 (MOF intervention #3 by June BOJ) ❌ FAILED — *calibration win*, pre-marked 72%→~30% on CH-011 (disorder-not-level; 8+ orderly sessions at 160+, no strike); SAM-26 (30Y ≥4.0% through meeting) ❌ FAILED — pre-marked 70%→~25%, threshold-vs-mechanism.
+
+**Position:** No action (Will's call). 13 shares HOLD (structural; FXY $57.22 ≈−$14 unrealized). Jun-18 $58C salvage thesis weakened — no IV-pop to sell into; likely near-total loss vs modeled $5-10. Stop $55.05 does not fire (AND-condition's "BOJ dovish" leg false). 
+
+**Queued for v1.6 (post Jun-18 scoring):** (a) oil-channel-DORMANT relabel; (b) SAM-23 framework re-anchoring (driver/disorder dimension + no-strike decay); (c) Takaichi-ceiling discount disposition (delivered hike reclassifies SAM-08/20 as TIMING failures; the Jun-16 dovish-side dissent + "not imminent" guidance is fresh evidence for the *retire-to-friction / modify* branches over vindicate-widen — score by Jun 18 EOD JST per STRATEGY); (d) Channel-1 deferred-vs-retired; (e) position re-underwrite incl. FXY-vehicle question.
+
+**Same-session true-ups (Orc + Prome Jun-16 commit review — interim stale-line fixes, NOT v1.6):** (1) § OIL-IN-YEN "Current state" para + RISK FACTORS oil-shock row relabeled from stale "Phase 1 rebuilding / Brent re-accelerating / MOU collapse branch" → "Phase 1 RECEDING / oil-in-yen DORMANT / de-escalation branch" to match STATUS/CALENDAR/TRADE (Brent ~$80; the lines were factually inverted and self-contradictory vs the same section's Jun-15 energy paragraphs). (2) § STRUCTURAL COUNTER-FLOW NISA figures flagged for reconciliation (¥6T-total/qtr ≈ ¥2T/mo vs the ¥1T/mo foreign-equity-subset cite) + Nomura "half of 2024 USDJPY rise" attribution flagged unverified-vs-primary. (3) SoftBank $ specifics tagged cross-domain (verify at CARL/HENRY/BROCK-HANS). (4) STATUS JGB post-decision line softened — no authoritative print until MOF CSV ~Jun 17 (don't assert rally-vs-selloff; QT-soften argues mild rally). (5) Iran language held caveated per review — not hardened. **Note:** Orc's "add SAM-23 →~30% to trajectory" was already satisfied in the Jun-16 write-back (row reads …→~72%→~30%); Orc's review predated that commit.
+
+---
+
 ## 2026-06-10 (evening) — v1.5.1 follow-on: RED pre-BOJ packet remainder (CH-010/011/032) — Branch C split, SAM-23 re-derived ~35 pending, target band reclassified conditional-tail
 
 **Author:** SAM (Will-directed; responses pre-blackout per RED's filing discipline). Canonical: `research/2026-06-10_ch010_011_032_responses.md`. Companion to the CH-009 re-derivation (same day).

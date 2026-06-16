@@ -1,11 +1,25 @@
 # SAM TIMELINE
 
-**Last Updated:** 2026-06-11 AM (US-Iran kinetic escalation — Hormuz formally closed, Kharg threat; tape fades it)
+**Last Updated:** 2026-06-16 (BOJ hiked to 1.00% as priced — dominant catalyst spent, no carry unwind, CH-004 confirmed; 4 June predictions resolved)
 **View:** Base case progression with branch points marked
 
 This document maps our forward-looking expectations — what's coming, what we think happens, and where the path could diverge. Updated as events resolve or views change.
 
 *Pre-2026-05-11 entries archived to [ARCHIVE.md](ARCHIVE.md).*
+
+---
+
+## RESOLVED — Jun 16 (🔴🔴 BOJ HIKES TO 1.00% AS PRICED — DOMINANT REMAINING CATALYST SPENT; NO CARRY UNWIND; CH-004 CONFIRMED)
+
+### Tue Jun 16 — BOJ RAISES POLICY RATE 25bp TO 1.00% (HIGHEST SINCE 1995); 7-1 DOVISH-DISSENT SPLIT; UCHIDA FRONTS PRESSER FOR ABSENT UEDA; YEN WEAKENS ON THE HIKE
+
+- **The decision (out ~midday JST / overnight ET — this is the "JGB movement last night" Will flagged at boot):** BOJ hiked the policy rate **25bp → 1.00%**, the highest since 1995 and the first hike since the Dec 0.75% move. Vote **7-1, board member Toichiro Asada dissenting for a HOLD**. The Outlook Report **raised both growth and inflation** projections. Decision attributed to sustained inflation pressure from yen depreciation + elevated energy costs tied to the Middle East conflict. (Sources: CNBC, TradingEconomics, Reuters via Yahoo, ING.)
+- **The dissent shape is the analytically important detail:** Apr-28 was a 3-member split dissenting *hawkish* (for a 1.00% hike the board declined to make). Jun-16 is a single dissent the *other* way — Asada (a reflationist) wanted to hold. Read: the board delivered the priced hike but signalled it is at/near the comfortable pace, not accelerating. Consistent with Uchida's "further hikes expected but **not imminent**" guidance (ING) and his boilerplate FX line ("we're always watching… we don't directly target exchange rates").
+- **Ueda absent (hospitalized, infected hepatic cyst — first sitting Governor to miss an MPM since the 1998 framework).** Himino chaired; **Uchida (Deputy Gov) fronted the post-decision presser**; Ueda submitted a written view and did NOT vote. The pre-flagged guidance-clarity / presser-tone risk did not produce a hawkish *or* a clearly dovish surprise — comms landed muddy-neutral, as a stand-in presser would. The Apr-13 Himino dovish-cover precedent did **not** repeat (that was a speech with the hike only ~70% priced; here the hike was ~99% priced and delivered).
+- **Market verdict — buy-rumor-sell-fact, exactly the CH-004 prediction:** USDJPY **160.36 (+0.25%)** — the yen *weakened* on a hike to a 31-year-high rate; FXY **$57.22** flat; JGB 10Y ~2.6% / 30Y ~3.78% (+~1-5bp on the day; MOF authoritative CSV reflects it ~Jun 17); Brent **$80.51 (−3.2%, sub-$81 — de-escalation pricing extending)**. **A fully-priced 25bp delivery did not unwind carry** — there was no hawkish-of-pricing surprise (no 50bp, no accelerated-QT shock, dovish-side dissent, soft guidance) to light the CFTC fuel load (81% of cycle peak). The dominant remaining near-term *trigger* is now spent without the violent move; the position's structural pillars (rate-differential level, J-ICS long-end, hedge-ratio, positioning) are what carry it forward from here, per v1.5.1 § STRUCTURAL PILLARS.
+- **SAM marks resolved (PREDICTIONS.tsv):** SAM-21 (June hike) ✅ **CONFIRMED** — ~90% mark directionally well-calibrated; the dovish dissent + soft guidance are the residual-~10% texture, but did not block the hike. SAM-24 (25bp not 50bp) ✅ **CONFIRMED** at 85%. SAM-23 (MOF intervention #3 by June BOJ) ❌ **FAILED** — USDJPY held 159+/160+ for 8+ orderly sessions through the meeting with no 3rd strike; *calibration win*, pre-marked 72%→~30% on CH-011 (disorder-not-level). SAM-26 (30Y ≥4.0% through meeting) ❌ **FAILED** — pre-marked 70%→~25%, threshold-vs-mechanism. **0 OPEN predictions remain.**
+- **Position-side:** No action taken (money decisions are Will's). 13 shares HOLD (structural, unaffected by as-priced delivery; FXY $57.22 ≈−$14 unrealized). **Jun-18 $58C salvage thesis weakened** — the pre-registered "sell-into-the-Tuesday-IV-pop" exit assumed a pop that did not materialize (FXY flat-to-down, ATM IV crushing into Thu expiry); strike $58 vs spot $57.22 with 2 days to expiry now reads as likely near-total loss rather than the modeled $5-10. Stop $55.05 (post-event AND-trigger) does not fire — the "BOJ dovish" leg of the AND-condition is false (BOJ hiked).
+- **Forward branch points:** (a) **FOMC + dots Wed Jun 17 2pm ET** — ~99% hold priced; watch dots for HIKE-lean (regime-flip confirm, Pillar-1 headwind), not rescue. (b) **Japan May trade balance tonight ~7:50 PM ET** — branch a/b/c per CALENDAR; diplomacy + Hormuz-still-physically-closed biases branch c (surplus persists, ME volumes still depressed → inconclusive, defer to June TB). (c) **National May CPI Fri Jun 19** — does national core-core hold above Tokyo's 1.6%? (d) **v1.6 re-underwrite post Jun-18 $58C settle** — fold in oil-channel-DORMANT, the as-priced-no-unwind resolution, SAM-23 framework re-anchoring, and the position re-underwrite (incl. FXY-vehicle question). (e) **Sato takes Nakagawa's seat Jun 30** — active hike-dissent bloc 3→2; post-1.00% path harder, reinforced by the Jun-16 dovish-side dissent.
 
 ---
 
