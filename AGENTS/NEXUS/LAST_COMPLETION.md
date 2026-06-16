@@ -94,7 +94,7 @@ ORC re-verified my load-bearing numbers against primary (HY 266 ✅, CCC 937 ✅
 - `STATUS.md` — header (validation walk-back), M-08 (reframe + falsifier), narrative-gap (HY trajectory), docket (pre-reg pointer)
 - `outbox/2026-06-16_to-PROME_brent-sam_iran-discriminator-fired.md` — NEW
 - `research/2026-06-17_fomc_pre_registration.md` — NEW
-- `memory/finding_independent_convergence_validates_schema.md` — boundary condition added
+- `memory/auto/finding_independent_convergence_validates_schema.md` — boundary condition added
 
 ## WU4 — ORC round-3 (deferred-verification PASSED; FOMC pre-reg tweaks)
 
