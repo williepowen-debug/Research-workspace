@@ -1,4 +1,6 @@
 ---
+status: SUPERSEDED
+status_ref: "Multi-front re-ignition / 'fork resolved toward breakdown' — directional conclusion inverted to de-escalation-pending; track-separation frame retained, HAWK re-marked B12->32% 6/12 (anchors/IRAN_WAR.md 2026-06-16 de-escalation re-stamp)"
 id: SIG-W-20260610-002
 date: 2026-06-10
 origin: WALTER Iran-anchor re-verify sweep 6/10 (Will-directed boot re-verify; verify-research agent_id a0b5d815fd61bbb5c; Will greenlight in-session) — CENTCOM release Article/4512968 + WaPo/Bloomberg/CBS 6/10 + RFE/RL 6/10 + Axios/NPR/Al Jazeera 6/7-9 + gCaptain/Euronews 6/10 + domain-side BRENT 6/9 STATUS (c671e8e0) / HAWK 6/8 STATUS (62cfd099) / VIOLET 6/10 commits

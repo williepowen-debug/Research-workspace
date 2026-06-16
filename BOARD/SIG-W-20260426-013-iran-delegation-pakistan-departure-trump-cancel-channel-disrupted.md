@@ -1,4 +1,6 @@
 ---
+status: SUPERSEDED
+status_ref: "'Pakistan channel disrupted' — fully reversed; Pakistan/Sharif now central mediator of the claimed Islamabad Agreement (anchors/IRAN_WAR.md 2026-06-16 de-escalation re-stamp; HAWK 6/13)"
 signal_id: SIG-W-20260426-013
 precedence: PRIORITY
 timestamp: 2026-04-26T15:05:00Z

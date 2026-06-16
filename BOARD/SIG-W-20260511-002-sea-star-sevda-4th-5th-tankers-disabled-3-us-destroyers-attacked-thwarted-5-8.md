@@ -1,4 +1,6 @@
 ---
+status: EVENT-PASSED
+status_ref: "May 8 Sea Star III/Sevda tanker-disabling + destroyer-attack-thwarted — discrete kinetic events resolved (anchors/IRAN_WAR.md 2026-06-16 de-escalation re-stamp)"
 id: SIG-W-20260511-002
 date: 2026-05-11
 origin: WALTER news-sweep 2026-05-11 — PBS NewsHour + CNN explainer + CENTCOM

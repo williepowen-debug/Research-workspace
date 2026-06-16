@@ -1,4 +1,6 @@
 ---
+status: EVENT-PASSED
+status_ref: "Apr 19 Navy destroyer–Iran ship intercept — discrete kinetic event resolved (anchors/IRAN_WAR.md 2026-06-16 de-escalation re-stamp)"
 signal_id: SIG-W-20260419-026
 precedence: IMMEDIATE
 timestamp: 2026-04-19T23:22:00Z

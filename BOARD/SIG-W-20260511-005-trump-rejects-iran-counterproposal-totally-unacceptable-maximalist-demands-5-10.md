@@ -1,4 +1,6 @@
 ---
+status: SUPERSEDED
+status_ref: "Trump 'TOTALLY UNACCEPTABLE' rejection of Iran counterproposal — diplomatic state reversed; deal now claimed (anchors/IRAN_WAR.md 2026-06-16 de-escalation re-stamp)"
 id: SIG-W-20260511-005
 date: 2026-05-11
 origin: WALTER news-sweep 2026-05-11 — NPR + CNBC + Al Jazeera + GlobalSecurity/PressTV + Middle East Eye

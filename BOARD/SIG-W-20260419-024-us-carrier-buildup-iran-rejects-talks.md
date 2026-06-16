@@ -1,4 +1,6 @@
 ---
+status: SUPERSEDED
+status_ref: "US carrier-buildup + 'Iran rejects talks' — diplomatic state reversed; Pakistan-mediated Islamabad Agreement claimed 6/14 (anchors/IRAN_WAR.md 2026-06-16 de-escalation re-stamp; HAWK 6/13)"
 signal_id: SIG-W-20260419-024
 precedence: IMMEDIATE
 timestamp: 2026-04-19T23:15:00Z

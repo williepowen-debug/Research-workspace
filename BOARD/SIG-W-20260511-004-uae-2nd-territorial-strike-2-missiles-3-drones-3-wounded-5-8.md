@@ -1,4 +1,6 @@
 ---
+status: EVENT-PASSED
+status_ref: "May 8 UAE 2nd territorial strike — discrete kinetic event resolved (anchors/IRAN_WAR.md 2026-06-16 de-escalation re-stamp)"
 id: SIG-W-20260511-004
 date: 2026-05-11
 origin: WALTER news-sweep 2026-05-11 — PBS NewsHour + Voice of Emirates + UAE Defense Ministry

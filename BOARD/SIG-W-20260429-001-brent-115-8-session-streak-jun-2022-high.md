@@ -1,4 +1,6 @@
 ---
+status: SUPERSEDED
+status_ref: "Brent $115 8-session streak / Jun-2022 high — price regime inverted to ~$78 by 6/16 (anchors/IRAN_WAR.md 2026-06-16 de-escalation re-stamp)"
 signal_id: SIG-W-20260429-001
 precedence: IMMEDIATE
 timestamp: 2026-04-29T15:45:00Z
