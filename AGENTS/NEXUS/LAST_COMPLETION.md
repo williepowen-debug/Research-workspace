@@ -57,8 +57,30 @@ BROCK (6/15) · HENRY (6/15) · BRENT (6/14) · VIOLET (6/14) — all fresh, rea
 5. **Brief rollout:** 6 Tier-1 still missing (CARL, REGINALD, OZK, RED, LIQUID, WALTER). CARL highest demand (FOMC/macro). Post-FOMC window.
 6. **2 routed signals still unprocessed** from 6/8 (MARCO worldcup-dual-mask — note MARCO retired/corrected it 6/8 per git log; BRENT fallback_rate_instrumentation — partially absorbed). Verify MARCO retirement, then clear.
 
+## WU2 — ORC refresh-packet reconciliation (2nd unit this session)
+
+Will relayed an ORC refresh packet AFTER my blind re-anchor committed. **ORC and I independently converged** on the re-anchor (validation per `[[finding_independent_convergence_validates_schema]]`). Reconciled deltas:
+
+**Adopted ORC sharpenings (3):**
+- **M-04 55 (reverted my ↑3):** ORC/Discipline-E right — mechanism NOT tested (no bear-stress to suppress; collapse exogenous). My +3pp "suppression re-asserted" was the retro-rationalization the anti-anchor rule warns against.
+- **M-03 65 (↓5 not my ↓10):** don't over-mark-down the day before FOMC could re-arm; 10Y eased only 9bps.
+- **M-02 70 (flat, not my ↓2):** the BIZD un-breach is the tick, not the substance.
+
+**VERIFIED a load-bearing discrepancy (NEXUS value-add):** ORC said Iran *confirmed*; my domain agents (SAM 6/16, BRENT 6/14) said *unconfirmed*. Web-verified (AJ/CNN/NPR 6/14-15): **Iranian Dep FM Gharibabadi CONFIRMED the deal to Iranian state media, Switzerland signing pending.** BRENT's pre-registered discriminator (named-Iranian-confirm, absent in 4 prior dawns) **FIRED.** → **M-06 to 40 (ORC's number, verification resolved in ORC's favor).** SAM/BRENT Iran-read is STALE — flagged to Will for owner routing (no unilateral inbox writes per `[[feedback_cross_agent_inbox_writes]]`).
+
+**Held against ORC (2):**
+- **M-08 (70, NEW) kept** — ORC's packet folds the K-split into M-01@75; I keep M-01 (regime, 72) + M-08 (testable 3-dataset rail) separate, citing the K-split ONCE to avoid Discipline-D inflation.
+- **R2 two-sided, not "removed"** — Iranian-confirm fired so R2 de-rates HARD, but 6/19-signing-pending + physical-tight (Hormuz closed until signing) keeps it dormant-not-removed; LIQUID-dormancy less urgent but not fully stood down.
+
+**Echo-back (the 3 ORC flagged):** (1) **M-06 = 40** — confirmed ORC's call, verification-backed (discriminator fired), floored at 40 by signing-pending + physical-tight + C-35 cycle-3. (2) **Prob split → 16/47/37** — direction toward Grind confirmed, 5-event cluster clears single-print bar, Divergence held ~37 (substance intact). (3) **Regime sub-label** → "vol leg healed, credit leg holding, structured-credit substance still not at tape" (adopted).
+
+**C-35 LIVE CYCLE-3 TEST added:** 6/19 signing = first falsifiable test of the bull-trap CONFIRMED convergence. Signs → C-35 first FALSE; collapses → x3.
+
+## Files changed (WU2)
+- `STATUS.md` — matrix (M-01/02/03/04/06/07/08), header/regime/split, antecedent R2+C1, T-06, threshold (HY 266 / CCC 937), docket (6/19 signing), narrative gap, C-35 watch.
+
 ## Next Step
 
-FOMC 6/17 live-event override pass (mandatory). Then: refresh HY OAS, clear routed signals, CARL brief priority.
+FOMC 6/17 live-event override pass (mandatory). Then: re-verify HY OAS 266 (FRED primary, ORC-relayed), route Iran-confirm-stale flag to BRENT/HAWK/SAM via PROME, clear routed signals, CARL brief priority.
 
-Git: 1 commit this session (re-anchor). Local; push deferred per `[[feedback_defer_push_coordinate]]`.
+Git: 2 commits this session (re-anchor + ORC reconcile). Local; push deferred per `[[feedback_defer_push_coordinate]]`.
