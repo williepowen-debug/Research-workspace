@@ -5,7 +5,7 @@
 **Thesis framing:** "Hotel California" (low-fire/low-hire structure → eventual realization break). No version number.
 **Recent thesis pivot:** Jun 16 truth-up — honest convergence re-graded 57/85 (presented) → **48/80**: removed ICE/H-2A as MARCO labor-*supply* (orthogonal-to-counter for a demand-weakness thesis), Hormuz hiring-freeze 4→2; bearish core re-located to the announcement/intent layer. Jun 8: LAB-15 falsified (NFP +172K beat).
 **Position:** N/A — research / early-warning domain. KELYA puts are TRADE.md scope, not core LABOR; I don't mark positions.
-**As of:** 2026-06-16 ~15:10 ET (STATUS data through Jun 11 + Jun-16 PM packet) | STATUS commit: `c1212eb1`
+**As of:** 2026-06-16 ~15:45 ET (STATUS data through Jun 11 + Jun-16 PM packet; closeout pin re-bump) | STATUS commit: `38e757c3`
 
 ---
 
