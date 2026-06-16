@@ -1,6 +1,6 @@
 # NEXUS — Fleet Brief Map
 **Purpose:** Single index of `NEXUS_BRIEF.md` status across the fleet. NEXUS reads this at BOOT step 6 to decide where the brief read-flow applies vs where raw STATUS fallback is mandatory.
-**Updated:** 2026-06-16 Tue AM (8-day re-anchor — HENRY + BROCK briefs stood up since last sweep; coverage 6/12)
+**Updated:** 2026-06-16 Tue PM (CARL brief landed 10:55 + re-scoped to consumer-stress; coverage 6/12 → 7/12)
 **Schema reference:** `templates/NEXUS_BRIEF_SCHEMA.md` §4.4 fallback triggers (a/b/c) + `brief_fallback_log.tsv` for run-time instrumentation.
 
 ---
@@ -21,7 +21,7 @@
 
 | Agent | Brief | Brief date | STATUS-pin | STATUS HEAD | Drift | Status | Notes |
 |---|---|---|---|---|---:|---|---|
-| **CARL** | ❌ | — | — | 2026-06-08 | n/a | ⏳ MISSING | US macro / labor / CPI. Highest-volume domain agent; brief priority #1. STATUS active. |
+| **CARL** | ✅ | 2026-06-16 | `7182547e` | `7182547e` | 0 | ✅ FRESH | **US consumer stress — credit/housing/K-shape** (NOT labor→LABOR, banks→REGINALD, oil→HAWK/BRENT, vol→HENRY; CPI = downstream input CARL reads, not a deliverable — per CARL scope-correction 6/16). Brief stood up 6/16 10:55; energy decoupled DOWN, structural consumer core intact & rate-path-independent. |
 | **REGINALD** | ❌ | — | — | 2026-06-08 | n/a | ⏳ MISSING | Regional banks / CRE. Mid-stream of LABOR→CARL→REGINALD chain. Priority #2. STATUS active. |
 | **OZK** | ❌ | — | — | 2026-04-24 | n/a | ⚪ DORMANT | Spun out from REGINALD 4/24; STATUS not refreshed since. Confirm activity status before pressing for brief. |
 | **SAM** | ✅ | 2026-06-07 | `6f4e531f` | `b3803c35` | +1 | ✅ FRESH | **Pilot consumer.** Schema/template ratified through SAM's brief 6/7. Drift = 1 commit (within schema threshold). |
@@ -34,7 +34,7 @@
 | **VIOLET** | ✅ | 2026-06-08 | `725f1ffb` | `725f1ffb` | 0 | ✅ FRESH | VIX / vol structure. Fade-leaning two-leg pathway; CPI gate Wed 6/10. |
 | **WALTER** | ❌ | — | — | 2026-06-07 | n/a | ⏳ MISSING | Signal/news routing. WALTER feeds NEXUS inbox; brief would surface routed-signal density + recent BOARD dispatches. Priority #3. |
 
-**Tier-1 brief coverage: 6/12 (50%).** Missing 6 — CARL, REGINALD, OZK, RED, LIQUID, WALTER. (CARL's FOMC packet read directly this pass as event-specific fallback — brief still owed.)
+**Tier-1 brief coverage: 7/12 (58%).** Missing 5 — REGINALD, OZK, RED, LIQUID, WALTER.
 
 ---
 
@@ -63,22 +63,19 @@
 
 ---
 
-## Fleet rollout priority (empirically re-driven by 6/8 cross-domain edge-diff)
+## Fleet rollout priority (empirically re-driven by 6/8 cross-domain edge-diff; CARL/HENRY/BROCK now FRESH)
 
-Eight Tier-1 briefs missing. **Priority order re-driven by SENDING-vs-WAITING diff across the 4 fresh briefs** — not by convergence-matrix load-bearing alone. Empirical gap evidence reorders the original list:
+**Five Tier-1 briefs missing.** CARL + HENRY + BROCK stood up (all FRESH) — dropped from the queue. Remaining priority:
 
-1. **CARL** ⚠️ — **3 of 4 briefs explicitly waiting on him** (USD/USD-persistence, May CPI tail, post-NFP read). Touches M-01, M-06, transmission chain upstream. Highest empirical demand.
-2. **HENRY** ⚠️ — **3 of 4 briefs waiting** (vol regime, breadth/gamma on AI-unwind, energy-CPI digestion). Owns M-04 (partially), M-07. (Was originally #4; promoted by gap data.)
-3. **LIQUID** 🚨 — **2 of 4 briefs waiting + DORMANT 5/21 + BLOCKING C3 energy-HY refresh AND T-08 credit-pin verification.** This is no longer rollout-priority — it's a **Will-decision** (see LAST_COMPLETION blocker #X: reactivate or accept blind spot in credit corner most exposed to live Hormuz). Promoted from "last" to "needs explicit Will-decision."
-4. **BROCK** — owns M-02 substance, PRED-36/37/38/40 prediction load. SAM + VIOLET also waiting on PC-cascade signal.
-5. **REGINALD** — owns M-02, M-05; transmission chain midstream; tape-not-confirming counter-signal lives here.
-6. **WALTER** — primary signal routing source; brief would compress BOARD-dispatch density.
-7. **RED** — adversarial; brief carries forced counter-case (load-bearing per Discipline D narrative-gap requirement).
-8. **OZK** — STATUS dormant since 4/24; confirm activity first.
+1. **LIQUID** 🚨 — **2 of 4 briefs waiting + DORMANT 5/21 + BLOCKING C3 energy-HY refresh AND T-08 credit-pin verification.** No longer rollout-priority — a **Will-decision** (reactivate or accept blind spot in the credit corner most exposed to live Hormuz).
+2. **REGINALD** — owns M-02, M-05; transmission chain midstream; tape-not-confirming counter-signal lives here.
+3. **WALTER** — primary signal routing source; brief would compress BOARD-dispatch density.
+4. **RED** — adversarial; brief carries forced counter-case (load-bearing per Discipline D narrative-gap requirement).
+5. **OZK** — STATUS dormant since 4/24; confirm activity first.
 
-**Reorder rationale:** original order was load-bearing-ness only. Empirical gaps say CARL + HENRY + LIQUID dissolve most of the open uncertainty across the 4 briefs already read. Let the data drive the queue.
+**Reorder rationale:** original order was load-bearing-ness only. With CARL + HENRY + BROCK now delivered, **LIQUID is the highest-value open gap** (and an explicit Will-decision, not a queue item). Let the data drive the queue.
 
-Distribution mechanism TBD. **DEFERRED until after 6/9-12 catalyst cluster clears** per advisor (focus protection + two-machine sync surface).
+Distribution mechanism TBD. 6/9-12 catalyst cluster has **cleared** (re-anchor 6/16); remaining rollout gated on the **post-FOMC 6/17 window** per advisor (focus protection + two-machine sync surface).
 
 ---
 
