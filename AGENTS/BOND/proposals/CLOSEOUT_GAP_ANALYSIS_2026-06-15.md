@@ -55,11 +55,16 @@ So the risk isn't capability; it's **durability across instances**. A future BON
 
 ## Recommendation
 
-This analysis *is* the spec for the paused **Packet 9**. When it resumes, the minimum to reach parity:
+This analysis *is* the spec for the paused **Packet 9**. The 16-item table above is a **coverage checklist for the rewrite, not a 16-item build backlog** — most rows are sub-steps of one CLAUDE.md edit.
+
+**In scope (the capstone — pure CLAUDE.md rewrite, no new code):**
 1. Restructure SPAWN PROTOCOL → **BOOT (read) / EXECUTE / CLOSEOUT (write-back)** with the symmetric read↔write pairings, numbered.
 2. Wire the now-existing files into closeout steps: STATUS, workbook + **DUE-prediction resolution**, thesis+CHANGELOG, CATALYSTS+twin-sync, SCRATCH, (NEXUS_BRIEF once Packet 7 lands), promotion scan, git discipline.
-3. Add the **discipline overlay** + **intra-day-closeout** line + **"inbox = separate task, not every spawn"** correction.
-4. Add `MAINTENANCE.md` (structural log) — and consider porting VIOLET's `convergence_score.py` for the composite.
-5. Boot-side (separate from closeout): a BOND `scripts/boot.py` for one-command live refresh.
+3. Add the **discipline overlay** + **intra-day-closeout** line.
+4. **Two genuine divergence fixes** (both surfaced live this session): the **predictions DUE-scan→resolve** (BND-08 was caught by hand) and **"inbox = separate task, not every spawn"** (BRENT: "do NOT process inbox on normal spawns"; BOND's flat protocol processes it every boot).
 
-Lower-bound effort: items 1–3 are a CLAUDE.md rewrite (no new code). Items 4–5 are follow-ons.
+**Scoped OUT (adjudicated w/ ORC 6/15 — gold-plating):**
+- `MAINTENANCE.md` — **dropped.** BRENT (the closeout-codification source) has none; git log = structural history, `thesis/CHANGELOG.md` = analytical. Adding a third history file is parity-for-parity without a concrete need.
+- `scripts/boot.py` — **deferred (Tier-3).** A real build, not a rewrite; fleet hedges it (`[[finding_boot_py_cadence_skip_pattern]]`); BOND has working `fetch.py` + `monitors/`.
+
+**Optional cheap follow-on:** port VIOLET's `convergence_score.py` (mechanical composite-sum, fails loud) — kills the hand-sum error class (the composite was hand-summed to 11 this session). Non-urgent.
