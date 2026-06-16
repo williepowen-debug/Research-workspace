@@ -15,7 +15,7 @@
 | 🟡 Jun 26 (Fri) | Tokyo June CPI | Core / core-core trend | Advance read for July national; subsidy-taper passthrough | SAM, HENRY |
 | 🟡 Jun 30 (Tue) | JGB 2Y auction | BTC ratio, tail | Front-end demand; sensitive to BOJ near-term path (first 2Y post Jun-16 MPM) | SAM, LIQUID |
 
-## MID-JUNE — DOMINANT REMAINING CATALYST (v1.5 single-path)
+## MID-JUNE — ✅ BOJ JUN 16 RESOLVED (hiked 1.00% as-priced — was the dominant remaining catalyst)
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
