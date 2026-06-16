@@ -1,5 +1,5 @@
 # LABOR STATUS
-**Last Updated:** 2026-06-16 ~12:00 EDT (boot data-clean — no new prints since Jun 11; session = **convergence truth-up + prediction-ledger reconciliation** + **Orc verify-loop correction pass**, thesis-honesty pass. See NEXT SESSION PICKUP for the correction-pass detail.). Prior refresh Jun 14 (Jun 11 claims integrated: w/e Jun 6 = 229K, 4-wk MA 219K). Jun 8 (NFP May beat + upward revisions; Challenger AI-cited record; LAB-15 falsified).
+**Last Updated:** 2026-06-16 ~15:10 EDT — **PM session = Orc/PROME work-packet execution** (WARN refresh +16.3% accelerating; LAB-04→CARL outbox; labor_data.py false-green fix; CATALYSTS Jun-25 banding). AM session = convergence truth-up + ledger reconciliation + verify-loop correction pass (boot data-clean, no new prints since Jun 11; see NEXT SESSION PICKUP). Prior refresh Jun 14 (Jun 11 claims integrated: w/e Jun 6 = 229K, 4-wk MA 219K). Jun 8 (NFP May beat + upward revisions; Challenger AI-cited record; LAB-15 falsified).
 **Status:** 🟡 BIFURCATION TILTED TO HARD DATA — NFP May **+172K** (BEAT cons ~80-85K) plus **+93K upward revisions** (Apr 115K→179K); U-3 4.3% flat (5th straight). Realization-weakness leg WEAKENED (data revising UP, not hidden-soft). Bearish core persists in the **announcement/intent layer** (Challenger May 97,006 highest-since-2020, **AI-cited 40%** record, ISM Svs emp 47.9 3rd mo contracting) — NOT realization (claims 229K drift but 21K below trigger; U-3 flat). **Jun 16 truth-up: honest convergence 48/80 (was presented 57/85)** — ICE/H-2A removed as MARCO supply-side (orthogonal to demand-weakness thesis), Hormuz 4→2 (oil −20%, de-escalation). **Hotel California persists in STRUCTURE; realization-weakness thesis on the back foot; bearish intensity was overstated and is now right-sized.**
 
 ---
@@ -33,7 +33,7 @@
 
 | # | Vector | Score | Δ | Key Signal |
 |---|--------|-------|------|------------|
-| 1 | WARN pipeline | **5** 🔴🔴 | flat*⚠️ | 207,650 cum (Jun 1; **carried — needs data refresh**, oldest load-bearing 🔴🔴) |
+| 1 | WARN pipeline | **5** 🔴🔴 | **↑ accel** | 241,509 workers / 2,553 notices (LayoffAlert Jun 16) — **+33,859 / +470 vs Jun 1 = +16.3% in 15d = ACCELERATING** (Spirit-bankruptcy + MSFT WARNs landing). Refreshed; staleness cleared. |
 | 2 | Sector cuts | **5** 🔴🔴 | flat | Challenger May 97K (highest May since '20); Spirit/Meta/MSFT priced. Now AI-driven (→ v16) |
 | 3 | ISM employment | **4** 🔴 | flat | Mfg 48.6, Svs 47.9 (3rd mo contracting) — both <50 despite headline expansion. Cleanest bearish hold. |
 | 4 | JOLTS hire-rate collapse | **4** 🔴 | flat | Apr hires 5.1M multi-yr low (openings 7.6M 24-mo high = post-don't-hire); LAB-16 pending JOLTS May (Jun 30) |
@@ -53,7 +53,7 @@
 `*` = carried from prior session, not re-verified this cadence (monthly data or cross-agent).
 
 **LABOR-owned total: 48/80** (16 vectors) | 🔴🔴: 2 | 🔴: 3 | 🟠: 5 | 🟡: 5 | ⚪: 1
-**vs Jun-8 presented 57/85** — the −9 net is mostly the supply-side correction (ICE/H-2A out, −9) + Hormuz (−2) + new construction-slice (+2). **Honest read: bearish intensity 60% of max (was presented as 67%).** The bearish core is REAL but narrower than the old matrix implied: it is concentrated in the **announcement/intent layer** (Sector cuts 5, AI displacement 4, ISM-employment survey 4, JOLTS 4) — NOT the realization layer (claims/U-3 holding, NFP revising up). Of the two 🔴🔴, Sector cuts is fresh; **WARN is carried from Jun 1 and is the highest-priority refresh** (it's now 1 of only 2 top-red and un-verified).
+**vs Jun-8 presented 57/85** — the −9 net is mostly the supply-side correction (ICE/H-2A out, −9) + Hormuz (−2) + new construction-slice (+2). **Honest read: bearish intensity 60% of max (was presented as 67%).** The bearish core is REAL but narrower than the old matrix implied: it is concentrated in the **announcement/intent layer** (Sector cuts 5, AI displacement 4, ISM-employment survey 4, JOLTS 4) — NOT the realization layer (claims/U-3 holding, NFP revising up). Both 🔴🔴 (Sector cuts, WARN) are now fresh; **WARN refreshed Jun 16 — 241,509 workers, +16.3% in 15 days = accelerating** (the carried-since-Jun-1 gap is closed).
 
 ### CROSS-DOMAIN CONTEXT (MARCO-owned — NOT in LABOR score)
 
@@ -100,7 +100,7 @@ These are real and intact, but they are **labor-*supply* signals** that push U-3
 | ADP job-changer pay YoY | May +4.4% stayers / +6.5% switchers (Apr +6.6%) | [CONF] ADP | 🟡 |
 | **Challenger AI-cited May** | **38,579 = 40%** (RECORD; 1st time leading all reasons) | [CONF] Challenger Jun 5 | 🔴🔴 |
 | **Challenger May (total + detail)** | **97,006** (highest May since 2020); tech 38,242 (highest since Aug '24); DOGE 4,499; YTD 397,755 (-43% YoY = DOGE base effect, see L-03); hiring plans 11,250 | [CONF] Challenger Jun 5 | 🔴 |
-| WARN cumulative | **2,083 / 207,650** | [CONF] LayoffAlert Jun 1 | 🔴 |
+| WARN cumulative | **2,553 / 241,509** (+470 / +33,859 vs Jun 1 = +16.3% in 15d, accelerating) | [CONF] LayoffAlert Jun 16 | 🔴 |
 | Tech Layoffs YTD | **355 events / 148,173** | [CONF] TrueUp Jun | 🔴 |
 | DOGE cumulative | **~386-403K** since Jan 2025 | [CONF] OPM/FedNewsNet Mar-Apr | 🟠 ↓ |
 | Major company cuts (priced) | Spirit ~14K (bankruptcy May 2), Meta 8K (May 20), MSFT 8,750 (Jun 6), Walmart 1K (May 12) — detail → archive_20260616 | [CONF] various | 🔴 |
@@ -129,7 +129,7 @@ These are real and intact, but they are **labor-*supply* signals** that push U-3
 | Q2 (now) | Spirit bankruptcy + Meta wave 2 + Microsoft finalize | EXECUTING |
 | Q2 | FL UI Wave 2 (Apr 26) | DID NOT FIRE — exhaustion not suppression confirmed |
 | Q2-Q3 | Healthcare cluster broadening (cluster continues but NFP +37K) | MIXED |
-| Q3 | Severance exhaustion + WARN pipeline (207K filed) | LOADED |
+| Q3 | Severance exhaustion + WARN pipeline (241K filed, accelerating) | LOADED |
 | Q3 | DOGE program expires Jul 4 — rehiring at margin | WATCH FOR REVERSAL |
 | Aug 2026 | CA/NY UI exhaustion | LOCKED IN |
 
@@ -207,12 +207,12 @@ These are real and intact, but they are **labor-*supply* signals** that push U-3
 ## NEXT SESSION PICKUP
 
 **Jun 16 session — convergence truth-up + ledger reconciliation (Orc-prompted thesis-honesty pass). NO new data** (boot clean; next print Thu Jun 18). Four changes:
-1. **Convergence re-grade → honest 48/80** (was presented 57/85). **ICE(5)+H-2A(4) removed from LABOR-owned score → CROSS-DOMAIN CONTEXT** (MARCO supply-side; orthogonal-to-counter for a *demand*-weakness thesis — fewer workers keeps U-3 low). Added narrow LABOR slice "ICE worksite disruption → layoffs" (2). **Hormuz hiring freeze 4→2** (oil −20% off highs, WTI −5.66% today, de-escalation priced; transmission never confirmed in labor data; NOT zeroed — HAWK reopen still only 32%, + watch demand-destruction read). Bearish core is real but narrower & **announcement-layer-concentrated** (Sector 5, AI 4, ISM-emp 4, JOLTS 4), NOT realization. **WARN (5🔴🔴) is the top-priority data refresh** — carried since Jun 1, now 1 of only 2 top-reds.
+1. **Convergence re-grade → honest 48/80** (was presented 57/85). **ICE(5)+H-2A(4) removed from LABOR-owned score → CROSS-DOMAIN CONTEXT** (MARCO supply-side; orthogonal-to-counter for a *demand*-weakness thesis — fewer workers keeps U-3 low). Added narrow LABOR slice "ICE worksite disruption → layoffs" (2). **Hormuz hiring freeze 4→2** (oil −20% off highs, WTI −5.66% today, de-escalation priced; transmission never confirmed in labor data; NOT zeroed — HAWK reopen still only 32%, + watch demand-destruction read). Bearish core is real but narrower & **announcement-layer-concentrated** (Sector 5, AI 4, ISM-emp 4, JOLTS 4), NOT realization. **WARN refreshed Jun-16 PM: 241,509 workers, +16.3% in 15d = accelerating** — the carried-since-Jun-1 gap is closed; vector 1 held 5🔴🔴 with fresh date.
 2. **Prediction ledger reconciled:** STATUS table now carries all 10 OPEN preds (added the 5 ledger-only: LAB-04/06/08/10/11). LAB-02 pre-marked EFFECTIVE-MISS (resolve Jul 2). **LAB-04 reclassified OUT-OF-DOMAIN** (FL foreclosures = CARL/housing) — **needs CARL hand-off via coordinator** (LABOR-side accelerant premise weakened; FL UI exhaustion never fired). LAB-08 conf-at-risk (UP-revisions undercut downward-benchmark premise).
 3. **FLOW.tsv dangerous rows fixed** (not full backfill — nothing reads VX/KB/FLOW per Orc): refreshed 3 transmission triggers (1.01/1.02/1.03 → current NFP/U-3/claims), **corrected falsified 3.01** ("Temp ↓12%" → temp EXPANDING), DOGE 2.02 (307K→403K, RED→ORANGE), ISM 6.02 (48.6/32mo); stale-tagged NFIB + FL rows.
 4. **Jun-18 claims pre-mortem built** → `domain/CLAIMS_PREMORTEM_JUN18.md` (decision tree + pre-staged outbox packets; single >250K = ARM provisional, >300K = fire).
 
-**Still owed:** WARN data refresh (LayoffAlert — highest priority), CARL hand-off of LAB-04, monthly-cadence carries (LT-unemp/staffing/duration re May), VX/KB full backfill (de-prioritized — unqueried). **Pending push** grows by this session's commits (Will/Prome-coordinated).
+**Still owed:** monthly-cadence carries (LT-unemp/staffing/duration re May), VX/KB full backfill (de-prioritized — unqueried). *(Cleared Jun-16 PM: WARN refresh ✅, LAB-04→CARL outbox ✅.)* **Pending push** grows by this session's commits (Will/Prome-coordinated).
 
 ---
 
@@ -230,7 +230,7 @@ These are real and intact, but they are **labor-*supply* signals** that push U-3
 **Verify-loop correction pass (Jun 16, post-SAM-push, commit `94df30e7`):** Orc verified the pushed commits and found 4 real defects, all fixed: **(1 MEDIUM)** the `Status` rename (OPEN-EFFECTIVE-MISS / RECLASSIFIED-CARL) silently de-listed LAB-02/04 from `predictions_due.py` (exact-matches `Status==OPEN`) — reverted to OPEN, disposition→Notes, **re-flagging verified**; (2) Packet B (>300K) added HENRY per TRADE.md T-02; (3) tier tally 🟡:4→5; (4) stale-tagged the 2 directionally-false VX rows + 2 FLOW Jan rows. **Lesson: keep PREDICTIONS.tsv Status to the controlled vocab `OPEN`/terminal — `predictions_due.py:132` exact-matches; custom values silently drop rows from the boot scan.**
 
 **Data gaps / deferred (next session):**
-- **WARN refresh (HIGHEST PRIORITY)** — LayoffAlert cum 207,650 carried since Jun 1; now 1 of only 2 top-red vectors and un-verified.
+- **WARN refresh — ✅ DONE Jun 16 PM:** LayoffAlert 2,553 / 241,509 (+16.3% in 15d, accelerating; Spirit-bankruptcy + MSFT WARNs); vector 1 held 5 🔴🔴 with fresh date. ~6-wk WARN→claims lag = feeds late-July claims, NOT the Jun-18 print.
 - **VX/KB retirement DECISION (pending Will, recommended YES):** VX.tsv is ~60 rows, almost all Feb–Mar stale (only the 4 claims rows live); KB similar; nothing reads either. Recommend the BRENT-style demote-to-archival (`[[finding_workbook_demote_by_verification]]`) — one frozen-ledger header banner, not per-row backfill — to end the recurring drift debt (L-04) permanently. The 2 directionally-dangerous VX rows are stale-tagged in the interim.
 - **CARL hand-off of LAB-04** — FL foreclosures (out-of-domain); stays OPEN on our scan until CARL owns the number. Needs Will/PROME to route.
 - **Monthly-cadence carries** — LT-unemp / staffing / duration re May; sister-agent STATUS (HENRY/FORGE) un-refreshed (where the 48/80 is softest).
@@ -244,6 +244,6 @@ The bifurcation tilted toward **hard data** this print. NFP May **+172K** crushe
 
 **Jun 14 update (claims integration):** w/e Jun 6 claims **229K** (highest since Feb, slight upside miss), 4-wk MA **219K** (3rd straight ↑), CC 1,795K. This *mildly* re-firms the drift leg NFP-May had knocked back — but it's a grind, not a break: still 21K below the 250K trigger, partly seasonal, no cross-agent threshold fired, no KELYA re-arm. Thesis direction unchanged from Jun 8 (Hotel California in structure; realization-weakness on the back foot, nudged a hair back toward neutral). Threshold framing reconciled CATALYSTS↔TRADE (retired the >225K tripwire). Next: claims Jun 18, then JOLTS May (Jun 30, LAB-16) + NFP June (Jul 2, LAB-02/Kill A #2).
 
-**Jun 16 update (thesis-honesty pass, no new data):** The bearish convergence was **overstated**. Re-grading carried/cross-domain vectors drops the honest score to **48/80** (from a presented 57/85): the biggest correction is removing ICE + H-2A from LABOR's count — those are MARCO labor-*supply* signals, and a supply cut keeps unemployment *low*, the opposite of LABOR's demand-weakness thesis, so they never belonged as bearish-employment convergence. Hormuz hiring-freeze cut 4→2 (oil −20% off highs, de-escalation priced, transmission never confirmed). What survives is a **real but narrower** bearish core, concentrated in the **announcement/intent layer** (Challenger/AI record cuts, ISM-services-employment contracting, JOLTS hire-rate collapse) — NOT the realization layer, where claims drift below trigger and U-3/NFP hold or revise up. So the answer to "is the labor thesis alive?": **yes in structure, no in realization, and it was being scored ~9 points too bearish.** Highest-priority real work remaining is the **WARN data refresh** (carried since Jun 1, now one of only two top-reds). Next hard read: **claims Thu Jun 18** (pre-mortem staged).
+**Jun 16 update (thesis-honesty pass, no new data):** The bearish convergence was **overstated**. Re-grading carried/cross-domain vectors drops the honest score to **48/80** (from a presented 57/85): the biggest correction is removing ICE + H-2A from LABOR's count — those are MARCO labor-*supply* signals, and a supply cut keeps unemployment *low*, the opposite of LABOR's demand-weakness thesis, so they never belonged as bearish-employment convergence. Hormuz hiring-freeze cut 4→2 (oil −20% off highs, de-escalation priced, transmission never confirmed). What survives is a **real but narrower** bearish core, concentrated in the **announcement/intent layer** (Challenger/AI record cuts, ISM-services-employment contracting, JOLTS hire-rate collapse) — NOT the realization layer, where claims drift below trigger and U-3/NFP hold or revise up. So the answer to "is the labor thesis alive?": **yes in structure, no in realization, and it was being scored ~9 points too bearish.** The WARN pipeline was refreshed Jun-16 PM — **241,509 workers, +16.3% in 15 days = accelerating** (Spirit-bankruptcy + MSFT WARNs landing); a real forward signal, but the ~6-wk WARN→claims lag means it feeds **late-July** claims, NOT the Jun-18 print. Next hard read: **claims Thu Jun 18** (pre-mortem staged).
 
-*Prior STATUS: May 4 → `domain/sources/STATUS_archive_20260504.md`; Jun 2 → `…_20260602.md`. Next refresh: claims Jun 18 or NFP Jun (Jul 2). Deferred: WARN refresh + VX/KB backfill (de-prioritized — unqueried).*
+*Prior STATUS: May 4 → `domain/sources/STATUS_archive_20260504.md`; Jun 2 → `…_20260602.md`. Next refresh: claims Jun 18 or NFP Jun (Jul 2). Deferred: VX/KB backfill (de-prioritized — unqueried).*
