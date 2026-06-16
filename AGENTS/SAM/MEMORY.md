@@ -34,7 +34,7 @@
 - **🔴🔴 BOJ HIKED 25bp → 1.00%** (Jun 16, overnight ET — the "JGB movement last night" Will flagged). Vote **7-1, Asada dovish dissent for HOLD**; growth+inflation outlook RAISED; **Uchida fronted presser** for absent (hospitalized) Ueda, "further hikes not imminent" guidance, boilerplate FX line. **MODAL delivered-as-priced — NOT the hawkish tail.**
 - **Market:** USDJPY **160.36 (+0.25%)** — yen WEAKENED on the hike (buy-rumor-sell-fact); FXY **$57.22** flat; JGB 10Y ~2.6% / 30Y ~3.78% (wire; +~1-5bp; MOF CSV reflects ~Jun 17 — boot.py still shows Jun-15 2.589/3.725); Brent **$80.51 (−3.2%, sub-$81)**. **CH-004 confirmed in live tape: fully-priced hike did NOT unwind carry** — 81%-of-peak CFTC fuel never lit (no surprise to light it).
 
-### LAST SESSION (Tue Jun 16 AM — boot + BOJ resolution write-back)
+### LAST SESSION (Tue Jun 16 — boot + BOJ resolution write-back + Orc/Prome reconciliation Phases 1/1b/2)
 
 - **Boot:** clean pull (origin synced @ 30b729ca), full doc-stack read, boot.py + live fetch.py + WebSearch (BOJ decision + reaction). Identified BOJ result as already-out overnight; reported live to Will before write-back.
 - **BOJ resolution written back (Will-directed):** 5 files —
@@ -47,6 +47,7 @@
 - METSUKE not spawned (no money-field moves; TRADE/STRATEGY not staled by a resolution-only write-back — but see NEXT #1 re STRATEGY ceiling-discount scoring).
 - **Orc/Prome correctness review + reconciliation (Tue Jun 16, all pushed):** b4bca3f0 correctness unit (THESIS oil relabel; Iran/NISA/SoftBank caveats; JGB over-claim softened to "unconfirmed pending MOF CSV"). **Phase 1** 8364ec83 (4 derived surfaces missed in write-back: THESIS L214/L305, CATALYSTS L2-3, NEXUS). **Phase 1b** 156cf8f7 [propagation] (13 BOJ-pending refs → resolved across THESIS/STATUS/CALENDAR/TRADE) + 8d93a1a6 [cleanup] (CATALYSTS schema 8→7; SAM-13 9th field; CHANGELOG whitespace; **usdjpy.py live-spot bug — was serving Jun-15 159.96 as latest via last-row read on out-of-order file; fixed sort-on-load, verified reports Jun-16 160.15**; USDJPY.tsv re-sorted). **Phase 2** RECONCILIATION.md written (3 disciplines + surface order + KOYOMI/METSUKE routing) + PROME outbox proposing fleet ownership + CLAUDE.md FILES pointer.
 - **Two pure-commit classes held throughout; money fields never touched.** FXY_OPTIONS NOT hand-tagged (auto-regenerated → infra-flagged: boot.py should auto-tag non-physical KB-183 proxy rows).
+- **Closeout (Tue Jun 16 ~12 PM ET — Will: "close out short of pushing"):** all 5 session commits (b4bca3f0 / 8364ec83 / 156cf8f7 / 8d93a1a6 / d12eccb0) are on origin — d12eccb0 (Phase 2) was swept up by the CARL/LABOR/NEXUS push train (origin @ b07f98f3); SAM tree clean, 0 ahead / 0 behind at the time of closeout. This closeout MEMORY stamp is the only item committed-local-after; next coordinated window sweeps it. **Did NOT self-push per instruction.**
 
 ### NEXT SESSION
 
