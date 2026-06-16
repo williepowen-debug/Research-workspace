@@ -78,7 +78,7 @@ Convergence only counts across DIFFERENT roots (Discipline F, prophylactic). Re-
 
 | ID | Type | Tension | Bear/substance | Tape/counter | Resolution path |
 |---|---|---|---|---|---|
-| **T-01** | R | Substance vs tape — now one-axis | M-08 K-split, private-credit substance | VIX 16, HY 271 tightening, fresh highs, alts at highs | The whole book. ~7/25 Q2 BDC marks the next real test. |
+| **T-01** | R | Substance vs tape — now one-axis | M-08 K-split, private-credit substance | VIX 16, HY 266 tightening, fresh highs, alts at highs | The whole book. ~7/25 Q2 BDC marks the next real test. |
 | **T-02** | T | Duration stress vs auction function | 10Y, TLT | **Auctions cleared CLEAN 6/9-11** | **Largely RESOLVED toward "function intact"** — de-escalate per BOND. FOMC dots could re-open. |
 | **T-05** | R | BDC substance vs APO public equity | FSK/BDC stress, gates, CDLI-vs-FSK bifurcation | APO $137, alt-mgrs at highs financing AI-infra | Parent/origination premium decoupling LONGER than thesis timing (BROCK #15). |
 | **T-06** | R | Iran kinetic vs diplomatic de-escalation | SPR draining, util >95%, Hormuz Day 105 closed (until signing) | Brent $80, Iranian confirm FIRED (Gharibabadi), 6/19 signing | **Resolving de-escalation — discriminator FIRED** (named Iranian confirm, absent in 4 prior dawns; NEXUS-verified). Remnant tension = signed vs not-yet-signed + physical-still-closed. 6/19 = resolution. |
