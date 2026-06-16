@@ -82,6 +82,18 @@
 
 ---
 
+## RETAIL / NISA FLOW MONITOR (added 2026-06-15 — structural counter-flow + latent carry-unwind amplifier; KB-SAM-193 / THESIS § STRUCTURAL COUNTER-FLOW)
+
+*The yen-negative retail outflow is the modal "right but early" cause; unhedged + sticky ⇒ second-order accelerant in a yen-led unwind. Watch for the regime-change tell.*
+
+| Indicator | Threshold / Signal | Significance |
+|---|---|---|
+| **MoF weekly "investment-trust mgmt cos" foreign-equity flow** | First month of net foreign-equity **SELLING** | 🟢 **REGIME-CHANGE TELL** — retail repatriation flips the counter-flow to a tailwind. None yet thru early 2026. ⚠️ Do NOT misread the aggregate BoP "trust account" line (institutional rebalancing / equity→bond rotation ≠ retail exodus). **boot.py integration pending — see MEMORY infra queue.** |
+| Monthly NISA / Toshin net foreign buying | Run-rate vs ~¥1T/mo; sustained deceleration | 🟢 ~¥1T/mo, Q1 2026 record ¥6T+ (accelerating). A sustained slowdown = early softening of the headwind. |
+| USDJPY sensitivity (unhedged book) | Sharp yen appreciation | 🟢 Most potent reversal trigger — FX loss on unhedged foreign holdings = self-reinforcing selling (requires a yen-led move to start). |
+
+---
+
 ## GEOPOLITICAL WATCH
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
