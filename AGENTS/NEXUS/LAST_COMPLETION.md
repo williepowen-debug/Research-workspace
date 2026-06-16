@@ -117,3 +117,14 @@ Routing → `outbox/2026-06-16_to-PROME_fomc-prereg-routing.md` (CARL provenance
 FOMC 6/17 2pm override pass (mandatory) — fill the pre-reg grading stub; watch Branch-1 falsifier hardest (**does 10Y actually back up?** — if dots read hawkish but yields don't move, it was in-line-and-priced). Then: re-verify HY 266 (FRED primary), clear 2 routed signals (MARCO/BRENT), CARL brief priority.
 
 Git: 4 commits this session (re-anchor + ORC R1 + ORC R2 + ORC R3). Pushed to origin in Will's open window (push-train swept R1/R2; R3/R4 pushed direct).
+
+## WU5 — Closeout completeness audit (Will-prompted)
+
+Audited this session's execution vs the 16-step CLOSEOUT procedure. 15/16 complete; **step 12 (outbox delivered-sweep) was the gap** — 6 event-superseded outbox items had accumulated. Swept to `outbox/delivered/`:
+- `2026-05-21_to-PROME_stage2late_divergence_reset` — superseded by 6/16 re-anchor
+- `2026-06-08_to-BRENT_pin_bump_and_cpi_date` + `to-HAWK_cpi_date_correction` — CPI date resolved 6/10
+- `2026-06-08_to-PROME_t08_correlated_fragility_flag` — T-08 de-rated in current STATUS
+- `2026-06-08_to-SAM_hawk_answers_tehran_walkback` — SAM moved well past
+- `2026-06-08_to-PROME_liquid_will_decision` — **decision technically still open but de-rated**; live version now carried in STATUS T-08 + antecedent-map C1 (R2 de-rate reduced urgency). Stale 6/8 framing retired, not the decision.
+
+Outbox now: 2 pending (today's PROME routes) + 11 delivered. Other steps confirmed: SIGNALS.md clean (reset 6/6, queue empty); inbox no loose items (22 in processed/). Closeout now COMPLETE for the session.
