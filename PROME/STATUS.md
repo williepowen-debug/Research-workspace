@@ -1,13 +1,13 @@
 # PROME STATUS.md
-**Updated:** 2026-06-16 16:12 ET (OpenClaw Prome — NEXUS/WALTER/LABOR review closeout)
+**Updated:** 2026-06-16 16:44 ET (OpenClaw Prome — state correction before next work)
 
 ## Core State
 
-**Operational priority:** preserve Will’s attention by running Prome as chief-of-staff / reviewer: coordinate agent pushes, verify consistency, surface system-health defects, and keep trade-facing rails honest. Current highest operational lane is **WALTER intake/routing integrity**, not a new market-thesis rewrite.
+**Operational priority:** get Prome’s own surfaces accurate before more agent/theory work. Current state is clean/synced repo, refreshed dashboard, WALTER partially repaired, NEXUS matrix review passed, and FOMC/HY kill-line as the live near gate.
 
-**Current repo reality:** local branch is behind origin after LABOR/NEXUS pushed updates and still has unpushed Prome commits. Push/rebase remains Will-coordinated. Continue **pathspec-only** staging/commits; no broad git ops.
+**Current repo reality:** clean and synced with `origin/master` after pulling fresh WALTER + memory updates. Earlier Prome local commits were pushed; no local ahead/behind blocker remains. Continue **pathspec-only** staging/commits; push only when Will explicitly approves.
 
-**Regime source:** use `HEARTBEAT.md` for market/regime dashboard, but refresh live before citing prices/levels. Current review used HY OAS 266 [FRED 6/15] as a load-bearing FOMC/R3 kill proximity fact; confirm next day because FRED HY OAS is T+1.
+**Regime source:** `HEARTBEAT.md` now carries the current 6/16 dashboard/regime read. Refresh live before reusing prices/levels.
 
 **Standing constraint:** **do not edit `AGENTS/*`** unless Will explicitly approves. Agent files are read-only inputs for Prome unless that constraint changes.
 
@@ -17,14 +17,14 @@
 
 | Surface | Role | Current note |
 |---|---|---|
-| `HEARTBEAT.md` | Regime, dashboard, thresholds, near gates | Needs live refresh if used for fresh market levels. |
-| `PROME/TODAY.md` | Operator card / immediate lane | Older boot card; use with current SCRATCH until next full boot refresh. |
-| `PROME/ACTIVE_DECISIONS.md` | Safety index for trade/expiry rails | Verification-required until broker/Will reconciliation. |
-| `PROME/SCRATCH.md` | Working notes / latest session entry | Current NEXUS/WALTER/LABOR review closeout and next entry point. |
-| `PROME/FLEET_SCAN.md` | Conditional fleet map | Read on demand; not mandatory boot context. |
-| `PROME/HANDOFF.md` | Live continuity surface | Current entry points to WALTER diagnosis and FOMC grading. |
-| `PROME/BOOT.md` / `PROME/CLOSEOUT.md` | Start/end procedures | Follow before new session / closeout; push remains Will-gated. |
-| `MEMORY.md` / `memory/YYYY-MM-DD.md` | Durable kernels / daily logs | Daily log updated with NEXUS/WALTER/LABOR review state. |
+| `HEARTBEAT.md` | Regime, dashboard, thresholds, near gates | Refreshed 6/16 ~16:44 ET; HY 266 / CCC 937 / Brent 79.49 / VIX 16.41. |
+| `PROME/TODAY.md` | Operator card / immediate lane | Refreshed 6/16; objective is Prome state correction before next work. |
+| `PROME/ACTIVE_DECISIONS.md` | Safety index for trade/expiry rails | Updated for FOMC/HY kill-line and BOJ-done/expiry context; broker truth still required. |
+| `PROME/SCRATCH.md` | Working notes / latest session entry | Current state correction and next entry point. |
+| `PROME/FLEET_SCAN.md` | Conditional fleet map | Stale Jun14 map; read only as historical unless refreshed on demand. |
+| `PROME/HANDOFF.md` | Live continuity surface | Current entry should say clean/synced + WALTER partially repaired. |
+| `PROME/BOOT.md` / `PROME/CLOSEOUT.md` | Start/end procedures | Follow; repo state first remains mandatory. |
+| `MEMORY.md` / `memory/YYYY-MM-DD.md` | Durable kernels / daily logs | Daily log should record Prome state correction if this pass commits. |
 
 ---
 
@@ -32,13 +32,13 @@
 
 | Lane | Status | Prome read |
 |---|---|---|
-| **NEXUS synthesis** | ✅ passed review | ORC four-group read substantially corroborated NEXUS matrix. No row overturned. Additions are tension/branch framing, not matrix reversal. |
-| **WALTER intake/routing** | 🔴 degraded / diagnose next | Evidence suggests stale content and possible silent dispatch drop to BRENT/HAWK. Treat WALTER/NEXUS inbox completeness as degraded until receipt trail is verified. |
-| **LABOR pushed fixes** | ✅ merge-safe with cleanup nits | Boot/scripts tested from origin temp worktree. Remaining issues are stale STATUS language and NEXUS `BRIEFS_MAP` alignment if LABOR brief becomes standing surface. |
-| **NEXUS BRIEFS_MAP** | 🟠 needs propagation | Map still treats LABOR as Tier-2 / brief not required despite new LABOR `NEXUS_BRIEF.md` and Will’s apparent standing-brief intent. |
-| **FOMC grading** | 🔴 near gate | HY 266 is only 6bp from <260 blended-credit kill. Grade sustained move; use intraday proxy live and FRED confirmation next day. |
-| **SHADE artifact hygiene** | 🟠 local Prome commits only | Raw PDFs stored outside Git; manifest/ignore work local. Push only with Will approval. |
-| **Position/broker reconciliation** | 🟠 pending | Keep separate from repo/doc cleanup; do not infer execution from rails. |
+| **NEXUS synthesis** | ✅ passed review | ORC four-group read substantially corroborated matrix. No row overturned. Additions are tension/branch framing, not reversal. |
+| **WALTER intake/routing** | 🟠 partially repaired | 6/16 WALTER anchor/registry/staleness sweep pushed. Still need routing receipts + cron/feed health before treating inbox completeness as reliable. |
+| **LABOR pushed fixes** | ✅ landed | Functional fixes reviewed cleanly; later LABOR hygiene commit fixed stale handoff/push language. |
+| **NEXUS/LABOR brief treatment** | 🟠 propagation/design | Auto-memory supports LABOR standing brief; NEXUS map/brief restructuring may still need follow-through. Not a Prome blocker. |
+| **FOMC grading** | 🔴 near gate | HY 266 is only 6bp from <260 blended-credit kill. Use live proxy at event time, confirm via FRED T+1. |
+| **SHADE artifact hygiene** | ✅ pushed | Raw PDFs stored outside Git; manifest/ignore work pushed. No current blocker. |
+| **Position/broker reconciliation** | 🟠 pending | Keep separate from repo/doc cleanup; no expiry action without broker/Will truth. |
 
 ---
 
@@ -46,10 +46,9 @@
 
 | Lane | Priority | Status / owner note |
 |---|---:|---|
-| WALTER diagnosis-first repair | 🔴 next operational lane | Confirm dormant vs cron/feed vs dispatch-path bug vs running-not-committing. Trace SIG-W-20260610-001/-002 to BRENT/HAWK inbox write. Add health/receipt discipline. |
+| Prome surface correction | 🔴 active | Refresh TODAY/HEARTBEAT/STATUS/SCRATCH/HANDOFF/ACTIVE_DECISIONS; commit/push after verification. |
 | FOMC live grading | 🔴 near-term | Watch 2Y/front-end, HYG/intraday credit proxy, vol/gamma. Confirm HY OAS next day. |
-| LABOR/NEXUS cleanup | 🟠 small | LABOR stale STATUS lines; NEXUS `BRIEFS_MAP.md` LABOR brief treatment. Read-only review unless Will scopes edits. |
-| Local Prome push decision | 🟠 Will-gated | Decide whether/when to push local Prome commits: SHADE recovery/closeout/raw-artifact-store work plus current closeout. |
+| WALTER diagnosis continuation | 🟠 next ops lane | Confirm cron/feed state, routed-signal receipts, and whether BRENT/HAWK SIG-W-001/-002 drop is resolved. |
 | Position-state reconciliation | 🟠 pending | Needed for expiry/trade hygiene; broker/Will truth required. |
 | Separate-clones migration | 🟠 deferred | Post-FOMC calm-window decision packet; do not do halfway. |
 | Execution-rails design | 🔵 design debt | HYG Jun→Dec failure remains canonical: thesis needs pre-registered ladders and triggers. |
@@ -65,11 +64,11 @@
 - **Old trade rails are verification-required** until broker/Will reconciliation.
 - **WALTER routes signals/news; Prome maintains state, tasking, rails, and Will-facing synthesis.**
 - **Pathspec commits only;** never `git add .`, `git add -A`, broad reset/stash, force-push, or stash/reset unknown work.
-- **Push is Will-coordinated** — commit locally only; push only on Will's explicit call.
+- **Push is Will-coordinated** — commit locally when scoped; push only on Will's explicit call.
 - Read current files before editing; verify after edits.
 
 ---
 
 ## Next Best Action
 
-Run a WALTER diagnosis-first pass unless Will pivots: verify freshness, cron/feed state, and routing receipts before relying on WALTER/NEXUS inbox completeness for FOMC/post-FOMC synthesis.
+Finish this Prome surface correction, verify diffs, commit/push if Will wants GitHub current. Then choose between FOMC prep, WALTER routing-health diagnosis, or position reconciliation.
