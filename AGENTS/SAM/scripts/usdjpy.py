@@ -172,6 +172,7 @@ def print_summary(rows):
         print("  ⚠️  USDJPY.tsv is empty — run --refresh first")
         return
 
+    rows = sorted(rows, key=lambda r: r["date"])  # defensive: key on max-date, not file last-row (fixes Jun-16 out-of-order-append mis-report)
     latest = rows[-1]
     today = date.today()
     latest_date = date.fromisoformat(latest["date"])

@@ -19,7 +19,7 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 **Predictions resolved (PREDICTIONS.tsv → 9 CONFIRMED / 10 FAILED / 1 special / 0 OPEN):** SAM-21 (June hike) ✅ CONFIRMED; SAM-24 (25bp not 50bp) ✅ CONFIRMED; SAM-23 (MOF intervention #3 by June BOJ) ❌ FAILED — *calibration win*, pre-marked 72%→~30% on CH-011 (disorder-not-level; 8+ orderly sessions at 160+, no strike); SAM-26 (30Y ≥4.0% through meeting) ❌ FAILED — pre-marked 70%→~25%, threshold-vs-mechanism.
 
-**Position:** No action (Will's call). 13 shares HOLD (structural; FXY $57.22 ≈−$14 unrealized). Jun-18 $58C salvage thesis weakened — no IV-pop to sell into; likely near-total loss vs modeled $5-10. Stop $55.05 does not fire (AND-condition's "BOJ dovish" leg false). 
+**Position:** No action (Will's call). 13 shares HOLD (structural; FXY $57.22 ≈−$14 unrealized). Jun-18 $58C salvage thesis weakened — no IV-pop to sell into; likely near-total loss vs modeled $5-10. Stop $55.05 does not fire (AND-condition's "BOJ dovish" leg false).
 
 **Queued for v1.6 (post Jun-18 scoring):** (a) oil-channel-DORMANT relabel; (b) SAM-23 framework re-anchoring (driver/disorder dimension + no-strike decay); (c) Takaichi-ceiling discount disposition (delivered hike reclassifies SAM-08/20 as TIMING failures; the Jun-16 dovish-side dissent + "not imminent" guidance is fresh evidence for the *retire-to-friction / modify* branches over vindicate-widen — score by Jun 18 EOD JST per STRATEGY); (d) Channel-1 deferred-vs-retired; (e) position re-underwrite incl. FXY-vehicle question.
 
