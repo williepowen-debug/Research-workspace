@@ -150,7 +150,7 @@
 
 ---
 
-## BOJ ASSESSMENT — JUNE 16 PATH (DOMINANT REMAINING CATALYST under v1.5)
+## BOJ ASSESSMENT — JUNE 16 ✅ RESOLVED (hiked 1.00% as-priced; pre-event derivation retained below, compression → Phase 3)
 
 **June 16 is now single-path under v1.5. Position structure assumes this prints hike.**
 
@@ -191,7 +191,7 @@
 | **Jun 10** 🔴🔴 | **Ueda hospitalized (infected hepatic cyst, ~2wk)** — first sitting Governor to miss MPM since 1998 framework. Himino chairs, Uchida fronts presser, Ueda submits written view + does NOT vote. 5-source verified (Bloomberg/Reuters/Jiji/Nippon.com/Japan Times). Polymarket/swaps held 96%+ through news — guidance clarity risk, NOT hike risk. See § GOVERNOR UEDA ABSENT above. |
 | **Jun 12** 🟢 | **Katayama (cabinet, FXStreet paraphrase):** "no impact expected on policy meeting after Ueda hospitalized." Greenlights hike path; cabinet not invoking absence as cover for hold. |
 | **Jun 14** 🔴 | **🔴🔴 SAM-21 75% → ~90% (CH-009 APPLIED Sun Jun 14)** — S4 void-gate clear (no dovish leak / swaps >85%). Polymarket 99.2% (+1.7pp hawkish drift vs Thu 97.5%, $584K vol active conviction); swaps 93% Jun-9; Bloomberg 49/51 (Jun-9 piece); Reuters poll 94%. Ueda absence DOES NOT void the trigger — health event, not dovish signal. Residual ~10% = political-Takaichi + 2-day binary surprise. See § SAM-21 SECTION below. |
-| **Jun 16** 🔴🔴 | **DOMINANT REMAINING CATALYST — market-confirmed** — base case hike to 1.00% (SAM-21 **~90%** post CH-009; market 93-99% across surfaces). Uchida-presser guidance-clarity vector adds messaging asymmetry but does NOT shift hike binary. |
+| **Jun 16** ✅ | **RESOLVED — HIKED to 1.00%** (25bp, 7-1, Asada dovish dissent, taper-end-FY2027). As-priced, no carry unwind (CH-004). SAM-21 ✅ CONFIRMED. Detail → TIMELINE Jun 16. |
 | Jun 16-17 | BOJ interim QT assessment |
 | **Jun 30** 🟡 | **Sato (Ayano, Aoyama Gakuin Univ. law prof, reflationist) takes Nakagawa's seat** (Nakagawa term expires Jun 29). **Material dovish shift in marginal-vote count:** Nakagawa was one of the 3 Apr 28 dissenters who actively voted for the 1.00% hike (alongside Takata, Tamura). Apr-28-style dissent bloc drops from 3 → 2 unless Sato surprises. Post-June PATH/CEILING implication — beyond 1.00% gets harder. *(Date corrected Jun 4 from prior "Jun 16" entry — separate event from BOJ MPM.)* |
 
@@ -241,7 +241,7 @@ Per **STRATEGY.md** + v1.5 position logic:
 
 | Hard Trigger | Status | Implication |
 |---|---|---|
-| BOJ hikes at June meeting | PENDING (Jun 16, **75% SAM / ~98% market**) | **Single-path under v1.5 — now market-confirmed base case (Jun 9 mechanical fire)** |
+| BOJ hikes at June meeting | ✅ FIRED (Jun 16 — hiked 1.00%, SAM-21 CONFIRMED) | **Single-path catalyst resolved as-priced; no carry unwind (CH-004)** |
 | MOF intervenes at 160 | ✅ FIRED Apr 30 + May 6 | Tranche 2 authorization remains valid (used) |
 | USD/JPY sub-155 for 3+ sessions WITH oil normalizing | NEAR-MISS (May 6 1 session only); oil normalizing now ($93.13) — watch closely | Not confirmed but Phase 2 path opening |
 | ESR <200% (FY2025 Big 3 mutuals) | ✅ RESOLVED 3-of-3 BENIGN | **Channel 1 demoted to deferred structural backstop. No reactivation catalyst near-term.** |
@@ -288,7 +288,7 @@ Per **STRATEGY.md** + v1.5 position logic:
 | **🔴 ongoing** | USDJPY tagging #3 hard trigger intermittently | Fri 160.20 + Tue 160.37 + Wed 160.38; intervention probability legitimately high but USD-side driven. Pre-meeting blackout starts ~Jun 13. |
 | **✅ Wed Jun 10 (JST)** | **JGB 30Y auction (Issue #90 reopening)** | 🟠 **SOFTENING not stress (pre-registered curve applied):** BTC 2.936x (vs 3.115x Apr tap), tail 2.8bp (vs 1.3bp — doubled), WA 3.860% (+16bp vs Apr). Above 2.5x line, no 🔴 route. Softer-than-raw given taper-pause tailwind; lifer absence continues; SAM-26 not re-lit. |
 | **🟠 Sat Jun 13** | Next CFTC release (Jun 9 data) + **carry-unwind anchor re-mark (expanded scope)** | Last pre-blackout print. -153K (85%) line = next METHOD escalation zone. **Re-mark also folds in BOJ-surprise hawkish-tail shrink (Jun-9 taper-pause leak) — 30d/60d likely nudge down; updated buckets → LIQUID/HENRY.** |
-| **🔴🔴 Tue Jun 16** | **BOJ MPM — DOMINANT REMAINING CATALYST under v1.5 single-path** | **Reconciled Jun 9 PM:** modal package (priced 25bp + QT-soften) = FXY −1 to +2%, vol crush, **unwind does NOT fire (CH-004)**; +5-8%/unwind-fires = hawkish-of-pricing conditional (~10% all-in); hold (25%) = −3-5% event-capped. Full table: STRATEGY § JUN-16 RECONCILED EXPECTATION. |
+| **✅ Tue Jun 16 RESOLVED** | **BOJ MPM — HIKED 1.00% as-priced** (7-1, Asada dovish dissent) | Modal package delivered; no carry unwind (CH-004 confirmed); yen weaker, FXY flat. Detail → § BOJ JUN 16 RESOLVED / TIMELINE. |
 
 ---
 

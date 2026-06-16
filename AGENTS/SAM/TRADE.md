@@ -43,7 +43,7 @@
 
 | Hard Trigger | Status (Jun 1) |
 |---|---|
-| BOJ hike at June meeting | PENDING (Jun 16; **SAM-21 75%; market ~88-98%** across surfaces — see STATUS for live Polymarket/swap/Kalshi; SAM-21 marked 70% → 75% Jun 9 per pre-registered mechanical trigger FIRE). Dominant remaining catalyst, **market-confirmed base case**. |
+| BOJ hike at June meeting | ✅ FIRED (Jun 16 — hiked 25bp to 1.00%, 7-1, Asada dovish dissent; SAM-21 CONFIRMED). As-priced, no carry unwind (CH-004). Detail → STATUS § BOJ JUN 16 RESOLVED. |
 | **MOF intervenes at 160** | ✅ FIRED twice (~¥10T / $63.5B Apr 30 + May 6); **#3 zone live but SAM-23 RE-DERIVED 72% → ~30% Sun Jun 14 per CH-011** (disorder-not-level falsified empirically: 6+ orderly sessions at 160+ no strike; Fri ranges 0.16-0.40y). Pre-meeting blackout active. $11 STEO-gap upper-bound caveat: market overpricing reopening direction per HAWK B-Reopen 32%. |
 | USDJPY sub-155 for 3+ sessions WITH oil normalizing | Not yet met (still 160+ 6+ sessions); diplomacy-track + USD-side drivers haven't pulled USDJPY toward 155 even with Brent sub-$90 ($87.33 Sun). 3-session sub-155 test still gated on a USDJPY-side catalyst; the kinetic-war risk-off bid went to USD-haven, not yen-haven. |
 | ESR <200% (Big 3 mutuals) | ✅ **RESOLVED 3-of-3 BENIGN** (Nippon 195% M&A; Meiji 208% manageable; Sumitomo 197% ↑+19pt with foreign book growing) — Channel 1 deferred. |
@@ -193,7 +193,7 @@ Private credit cascade (APO, ARES — 9 funds gated; BCRED Q1 redemptions ~7.9%,
 **Thesis:** Japan is in a binary trap. 75% of mortgages are FLOATING RATE (linked to BOJ policy rate). BOJ hikes to 1.00% → immediate household stress → consumption drag → recession risk. BOJ doesn't hike → JGB crisis deepens → yen collapse → forced UST selling.
 
 **Entry Triggers (updated v1.5):**
-- [ ] BOJ hikes to 1.00% (Jun 16 base case — **SAM-21 75%; market ~88-98%** across surfaces — see STATUS) — mortgage transmission begins
+- [x] BOJ hikes to 1.00% ✅ (Jun 16 — hiked as-priced, SAM-21 CONFIRMED) — mortgage transmission begins
 - [x] ~~Tankan shows consumer weakness (Apr 1)~~ — Tankan BEAT (mfg 17, non-mfg 36). Not a trigger.
 - [x] ~~Q1 2026 GDP contraction~~ — Q1 GDP BEAT +2.1% ann (May 19). Not a trigger.
 - [ ] Mortgage DQ data spikes in Japan
@@ -204,7 +204,7 @@ Private credit cascade (APO, ARES — 9 funds gated; BCRED Q1 redemptions ~7.9%,
 - Real wages sustain positive (Jan was +1.4% — first positive in 13 months)
 - Oil shock resolves (Brent sub-$95, MOU framework hardening) — **🟢 BREACHED Sun Jun 14 ($87.33, first sub-$90 close this cycle; cum ~−10% from $96.78 Jun-3 baseline) on 14-pt Pakistan-mediated draft + Bessent signing-weekend 80% (unsigned; Iran has NOT confirmed; Trump pushback)**
 
-**Status:** ⏳ WATCHING — BOJ hike Jun 16 is the trigger (SAM-21 75% / market ~88-98% across surfaces — see STATUS).
+**Status:** ⏳ WATCHING — BOJ hike Jun 16 trigger ✅ FIRED (hiked 1.00%, SAM-21 CONFIRMED); remaining legs (Japan mortgage-transmission data) still watched.
 
 ---
 
@@ -231,7 +231,7 @@ Private credit cascade (APO, ARES — 9 funds gated; BCRED Q1 redemptions ~7.9%,
 **Candidates:** MUFG, SMFG, MFG (US-listed ADRs)
 
 **Entry Triggers:**
-- [ ] BOJ hikes to 1.00% (Jun 16 base case — **SAM-21 75%; market ~88-98%** across surfaces — see STATUS)
+- [x] BOJ hikes to 1.00% ✅ (Jun 16 — hiked as-priced, SAM-21 CONFIRMED)
 - [ ] Mortgage DQ spikes in Japan data
 - [ ] Bank earnings show provisioning increase
 
@@ -247,7 +247,7 @@ Private credit cascade (APO, ARES — 9 funds gated; BCRED Q1 redemptions ~7.9%,
 | **🟠 ongoing** | **CFTC JPY weekly** (next release Sat Jun 13 — last pre-blackout) | Currently **-129,567 (Jun 2 data) — 5th build week, +14.9K net WoW shorts, 72.0% of -180K cycle peak**. METHOD residual-gate test resolved AGAINST cover Sat Jun 6. Fuel load growing into BOJ. Cover below -108K (60% line) would flip amplifier+residual OFF; build through -153K (85% line) escalates amplifier to +8-10pp. |
 | **🟠 Wed Jun 10** | **US CPI (May) — Fed-side gate** | Hot → Fed dots stay higher → USD firm → carry survives; soft → opens Fed-cut tail (currently <10% 2026 cut odds priced). Feeds Jun 17 dots one week ahead. |
 | **🟠 Wed Jun 10** | **JGB 30Y auction** | BTC ratio + tail. Weak demand (BTC <2.5x / wide tail) = J-ICS lifer long-end abandonment confirmed (SAM-26 mechanism — currently tracking FALSE; auction is the next forward read that could re-light it). |
-| **🔴🔴 Tue Jun 16** | **BOJ MPM — DOMINANT REMAINING CATALYST (SAM-21 75%; market ~88-98% across surfaces — see STATUS; SAM-24 25bp @85%)** | **Reconciled Jun 9 PM:** modal package (priced 25bp + QT-soften) = FXY −1 to +2%, vol crush, unwind does NOT fire (CH-004); **+5-8% = hawkish-of-pricing conditional only (~10% all-in)**; hold (25%) = −3-5% event-capped. SAM-21 mechanical trigger FIRED Tue Jun 9 (70% → 75%) — 23pp earned discount preserved vs market. Full table: STRATEGY § JUN-16 RECONCILED EXPECTATION. |
+| **✅ Tue Jun 16 RESOLVED** | **BOJ MPM — HIKED 25bp to 1.00%** (7-1, Asada dovish dissent, taper-end-FY2027; SAM-21 ✅ / SAM-24 ✅ CONFIRMED) | Modal package delivered as-priced; no carry unwind (CH-004 confirmed); yen weaker, FXY flat. Detail → STATUS § BOJ JUN 16 RESOLVED / TIMELINE Jun 16. |
 | **Tue Jun 30** | **Sato Ayano takes Nakagawa's seat (BOJ board)** *(Nakagawa term expires Jun 29; corrected Jun 4 from prior "Jun 16" which conflated with the MPM. KOYOMI primary-source verified at BOJ official Nakagawa page Jun 4 — reflationist/dove confirmed via Japan Times + Bloomberg + Nikkei + AGU profile.)* | **Joins Jun 30 — does NOT vote Jun 16.** Board tilts dovish from Jun 30: this is a post-June PATH consideration, NOT a Jun-16 factor. Apr-28-style hike-dissent bloc 3 → 2 (Nakagawa was active 1.00% dissenter alongside Takata, Tamura). Ties to v1.5.1 timing-MEDIUM conviction + OS.1 post-June PATH/CEILING story. |
 | Jun 16-17 | BOJ interim QT assessment | Pace adjustment; potential super-long-specific op if JGB stress re-engages |
 | **🔴 Wed Jun 17** | **FOMC decision + dot plot** | Rate-differential other half — lands 24h after BOJ. **Jun 1 reread: >97% no-change priced; <10% 2026 cut odds — hold-confirming, not rescue.** Co-headlines the Jun 16-17 cluster but Fed-side delivers no Jun-window carry catalyst. |
