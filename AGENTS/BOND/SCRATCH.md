@@ -10,26 +10,25 @@
 - Credit calm: HY 271, CCC 948, IG 74. Bifurcation didn't widen.
 
 ## WHAT I DID THIS SESSION
-- Built `thesis/` structure: THESIS v1.0 + CHANGELOG + PREDICTIONS moved from workbook/ (Packets 1, 3).
-- Slimmed STATUS 150→102 lines with compact-exit block (Packet 2, cde270ce).
-- Resolved **BND-08 FALSE**; added **BND-09** (6/16 20Y, stress bar BTC<2.40).
-- VX-BND-12/13/14 → 2, refreshed 15 evidence; aligned suite to DFII10 2.21 peak (Packet 4, 3dd74347).
-- CLAUDE.md path fix (PREDICTIONS → thesis/).
-- Tier-1 promotion in progress (Will-confirmed; ORC drafting Packets 7-8).
+- **Refunding post-mortem:** resolved **BND-08 FALSE** (no demand hole); de-escalated composite **12→11/35** (long-end/duration 3→2); fixed near-term calendar (the 20Y/FOMC are THIS week, not "July").
+- **ORC cross-check corrections:** dealer-absorption HELD at 3 (it's a STOCK vector — FR2004 inventory — not auction FLOW); BND-08 caveated as borderline (30Y ind 59.8%, tail unpinned from primary).
+- **Parity build Packets 1–6** (all committed + pushed): thesis/ structure (THESIS v1.0 + CHANGELOG + PREDICTIONS moved from workbook/); slim STATUS 150→102; VX suite-consistency (12/13/14→2, DFII10 2.21 alignment); SCRATCH; MEMORY (+ LAST_COMPLETION retired, sentiment-lens lesson preserved); docket/CATALYSTS.tsv + archive sweep; CLAUDE.md path fix.
+- Added **BND-09** (6/16 20Y stress test, bar BTC<2.40, OPEN).
+- **Closeout gap analysis** vs VIOLET/SAM/BRENT → banked as the **Packet 9 spec** (`proposals/CLOSEOUT_GAP_ANALYSIS_2026-06-15.md`); scope tightened w/ ORC (drop MAINTENANCE.md + boot.py).
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **6/16 (Tue) ~1pm ET — 20Y reopening (CUSIP 912810UV8):** grade vs BND-09 (tail >1.5bp + ind <60%, or BTC <2.40). Stress marker → TLT add re-arm + long-end re-escalate.
+1. **6/16 (Tue) ~1pm ET — 20Y reopening (CUSIP 912810UV8):** grade vs BND-09 (tail >1.5bp + ind <60%, or BTC <2.40). Stress marker → TLT add re-arm + long-end re-escalate. Use PRE_AUCTION_BASELINE template — **recalibrate thresholds 10Y→20Y** (its numbers are 10Y-specific). Archive PRE_AUCTION_BASELINE + WATCH_20Y after grading.
 2. **6/17 (Wed) 2pm ET — FOMC:** long-end / term-premium consequence read; rate-expectations routed to HENRY.
-3. **6/18 (Thu)** — 4Y10M TIPS reopen.
+3. **6/18 (Thu)** — 4Y10M TIPS reopen (CUSIP 91282CQP9). Different buyer base — doesn't speak to nominal sponsorship.
 4. Re-check **energy HY OAS** (stale 285 / Apr 28, owned by LIQUID) now that VIX/Brent eased.
-5. Parity build remaining: Packets 6 (docket + archive), 7 (NEXUS_BRIEF + SIGNAL_INTAKE), 8 (PROME promotion), 9 (CLAUDE.md modernization).
+5. **Resume paused parity build** (Will: "no more packets" this session — paused, not cancelled): **7** NEXUS_BRIEF + SIGNAL_INTAKE (best authored AFTER the 20Y settles) → **8** PROME promotion proposal → **9** CLAUDE.md closeout codification (per the gap-analysis spec). Optional cheap follow-on: port `convergence_score.py`.
 
 ## OPEN THREADS / WATCHES
 - 🟡 Long-end re-escalation watch — **RELAXED, re-armable** at 6/16 20Y / 6/17 FOMC.
 - 🟡 Credit bifurcation — CCC 948, energy HY stale (pull LIQUID).
 - 🟡 VX-BND-15 anchoring — 2bp under band; candidate for →1 if breakevens keep easing.
 - ⚪ Treasury buyback long-end accept-cap — YCC-lite bright-line; not current policy.
-- 📋 Audit backlog (from archived 5/11 ARCHITECTURE_AUDIT, core ~85% done): residuals = `playbooks/` dir not built (functionally covered by `proposals/MATRIX_V2_DRAFT` + sentiment lens in MEMORY); BOND-specific vocab groups (AUCTIONS/DEALER_CAPACITY — verify in `AGENTS/VOCABULARIES.tsv`); dashboard HY-OAS/10Y labeling as LIQUID/BOND; spawn availability = Tier-1 promotion (Packet 8, in progress).
+- 📋 Audit backlog (from archived 5/11 ARCHITECTURE_AUDIT, core ~85% done): residuals = `playbooks/` dir not built (functionally covered by `proposals/MATRIX_V2_DRAFT` + sentiment lens in MEMORY); BOND-specific vocab groups (AUCTIONS/DEALER_CAPACITY — verify in `AGENTS/VOCABULARIES.tsv`); dashboard HY-OAS/10Y labeling as LIQUID/BOND; spawn availability = Tier-1 promotion (Packet 8, paused).
 
 ## POSITION DECISIONS PENDING
 - **TLT puts:** HOLD, no add. Conditional-add re-arm on a weak 6/16 20Y or sustained 5-session threshold break.
@@ -41,5 +40,5 @@
 
 ## WORKBOOK / PUSH HEALTH
 - PREDICTIONS now in thesis/ (BND-08 resolved, BND-09 open). VX refreshed. KB/FLOW untouched this session.
-- **PENDING PUSH (BOND-only, all commits f16c6b5c..HEAD):** through Packet 4 = 7 commits (f16c6b5c · 982ca50b · 7f2a8602 · 7dcf4721 · cde270ce · 6f257b91 · 3dd74347) — each verified BOND-only (0 swept files). This SCRATCH + remaining packets (5B/6/7/9) add more; use `git log AGENTS/BOND/ d69ba97e..HEAD` for the live set.
-- **CONCURRENCY:** BROCK is committing in this same clone this session (disjoint dir — no conflict). A coordinated push sweeps both agents' work (push-train). With BROCK active, use **path-scoped commits** (`git commit AGENTS/BOND/<file>`), never plain `git commit` of the index — avoids the concurrent-stage race.
+- **ALL COMMITTED & PUSHED — origin/master synced 0/0 through `75f38cc4`.** Nothing pending. Session commits = `f16c6b5c..75f38cc4` (BOND-only, each verified 0 swept files). Packets 1–6 + gap analysis all on master and ORC-verifiable.
+- **CONCURRENCY note (durable, now in MEMORY too):** other agents (BROCK 6/15) commit in this same clone — use **path-scoped commits** (`git commit AGENTS/BOND/<file>`), never plain `git commit` of the index. Push-train: a coordinated push sweeps all agents' committed-unpushed work.
