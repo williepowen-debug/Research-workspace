@@ -51,12 +51,12 @@ Apply when entering, updating, or resolving any prediction. Came from real misse
 
 | ID | Date | Source | Prediction | Trigger Date/Condition | Status | Conf |
 |----|------|--------|-----------|----------------------|--------|------|
-| PRED-20 | Mar 2026 | NEXUS/HENRY | HY OAS 320→500 in 2-4mo (2007 template) | OAS ≥350 = issuance freeze; ≥500 = 2008-style | 🔴 ACTIVE — **needs current OAS read** (5/21 anchor was 280-286); decay risk | TBD |
+| PRED-20 | Mar 2026 | NEXUS/HENRY | HY OAS 320→500 in 2-4mo (2007 template) | OAS ≥350 = issuance freeze; ≥500 = 2008-style | 🔴 ACTIVE — **tracking strong MISS: HY OAS 271 [FRED 6/12], TIGHTENING toward the 260 soft-kill, ~80bps the WRONG way vs the ≥350 trigger.** 2-4mo template expired; blended HY went risk-on. Bifurcation lives only in CCC tail (CCC−BB 786). Decay confirmed. | reduce hard |
 | PRED-24 | Mar 2026 | NEXUS | Private credit cascade Stage 2→3 transition | HY OAS ≥350 / bank↔shadow bank contagion | 🔴 ACTIVE — Stage 2 institutionalized; Stage 3 threshold not crossed by 5/21 | reduced |
 | PRED-30 | Mar 2026 | NEXUS | Gulf surplus recycling collapse → structural UST/equity selling | Oil suppression + Gulf revenue decline | 🔴 ACTIVE — C-34. **Threshold-vs-mechanism caveat:** SIG-26060601 (BRENT MM-long unwind) may indicate the mechanism rotating; reassess in E. | 90% |
 | PRED-32 | ~Mar 2026 | NEXUS | China buffer exhaustion → LGFV cascade (¥66T) | Mid-May to late June 2026 | 🔴 ACTIVE — trigger window currently live | 85% |
 | PRED-35 | Mar 2026 | NEXUS | LGFV cascade: oil→margin→tax→LGFV | China oil buffer exhaustion | 🔴 ACTIVE — same window as PRED-32 | 85% |
-| PRED-36 | Mar 2026 | BROCK | HY OAS >400bps | Jun-Jul 2026 | 🔴 ACTIVE — needs current OAS read | 85% |
+| PRED-36 | Mar 2026 | BROCK | HY OAS >400bps | Jun-Jul 2026 | 🔴 ACTIVE — **tracking MISS: HY OAS 271 [FRED 6/12] TIGHTENING toward 260 kill, ~129bps wrong way with ~6wk left in Jun-Jul window.** BROCK's own Decision-Tree reads risk-on compression ≠ thesis-dead, but the threshold is moving away, not toward. | reduce → ~35% |
 | PRED-37 | Mar 2026 | BROCK | HY OAS >500bps | Aug-Sep 2026 | 🔴 ACTIVE | 70% |
 | PRED-38 | Mar 2026 | BROCK | Bank writedowns visible in Q2-Q3 earnings | Apr-Jul 2026 | 🔴 ACTIVE — Q2 prints rolling | 85% |
 | PRED-39 | Mar 2026 | BRENT/HANS | Phase 1 supply disruption extends to Q3 2026 | Infra rebuild 60-90d | 🔴 ACTIVE — **catalyst-vs-consequence caveat:** is this catalyst-prob (rebuild needed) or consequence-prob (price stays elevated)? Distinguish in E. | 90% |
@@ -74,7 +74,7 @@ These items have passed their trigger date but were not formally resolved during
 | ID | Date | Source | Prediction | Trigger | Lean (UNVERIFIED) | Resolution needs |
 |----|------|--------|-----------|---------|-------------------|------------------|
 | PRED-21 | Mar 2026 | NEXUS/CARL | FL UI Wave 1 → CC DQ spike ~May | ~May 2026 | UNVERIFIED — CC DQ data needed | CARL header refresh |
-| PRED-22 | Mar 2026 | SAM | BOJ hike May 1 | BOJ meeting May 1 | LIKELY MISS — no May 1 hike referenced in 5/21 state | SAM header / Japan rates |
+| PRED-22 | Mar 2026 | SAM | BOJ hike May 1 | BOJ meeting May 1 | ❌ **MISS (date)** resolved 2026-06-16 — BOJ held through May, **HIKED 1.00% Jun 16** (7-1, dovish Asada dissent). Directional thesis (BOJ normalizes) vindicated ~6wk late; literal May-1 date missed. Per Discipline A: mechanism right, threshold-date wrong. | resolved (SAM SAM-21 ✅ CONFIRMED Jun 16) |
 | PRED-23 | Mar 2026 | HENRY/NEXUS | Q1 quarter-end SOFR spike Mar 27-28 | Q1 close Mar 31 | ✅P PARTIAL (already marked) — spiked then normalized | LIQUID confirmation |
 | PRED-25 | Mar 2026 | HAWK/NEXUS | HAWK Scenario D ≥80% | War escalation threshold | ✅L **TRUE-in-letter** (resolved 2026-06-08) | Outcome fired: war escalation re-armed post-reframe (5/25-26 US strikes Iranian air defenses · 5/31 CENTCOM Kuwait intercept · 6/1 Iran SUSPENDED MOU · Bab al-Mandab vector NEW). Mechanism: SUPERSEDED by HAWK 5/22 reframe (D downgraded 92% → 35%). Threshold met via different path. Per Discipline A: TRUE-in-letter, FALSE-in-spirit. No CONFIRMED promotion (mechanism integrity failed). Flag mechanism-shift to RED. |
 | PRED-26 | Mar 2026 | RED | RED bear confidence ≥85% | Thesis integrity | UNVERIFIED — 6+ wks unmarked | RED header refresh |
@@ -86,7 +86,7 @@ These items have passed their trigger date but were not formally resolved during
 | PRED-34 | Mar 2026 | NEXUS | APO stock repricing as "Apollo gates Apollo" | News cycle absorption | UNVERIFIED — APO sustained >$130 per 5/21 STATUS suggests MISS on repricing thesis | APO mark verify |
 | PRED-42 | Mar 2026 | ZHAO | Belgium TIC Jan 2026 >$500B | TIC Mar 19 print | UNVERIFIED | TIC data check |
 | PRED-44 | Mar 2026 | OTTO/NEXUS | JEF "losses over time" → multi-lender markdowns Q1-Q2 | Q1 bank earnings Apr 20-29 | UNVERIFIED — Q1 prints past; not in 5/21 integrated | REGINALD / OZK refresh |
-| PRED-46 | Apr 2026 | NEXUS/SAM | BOJ Apr 23-24 rate hike (pulled fwd from May) | Apr 23-24 BOJ | LIKELY MISS — USDJPY ~159 on 5/21 + 5/21 references "June BOJ path" implies no Apr hike | SAM header / BOJ statement |
+| PRED-46 | Apr 2026 | NEXUS/SAM | BOJ Apr 23-24 rate hike (pulled fwd from May) | Apr 23-24 BOJ | ❌ **MISS (date)** resolved 2026-06-16 — no Apr hike; BOJ hiked Jun 16. Pull-forward timing wrong; direction vindicated. | resolved |
 | PRED-47 | Apr 2026 | NEXUS/HAWK | Iran pause expiry Apr 6 → escalation within 2 weeks | Apr 6 + 14d | LIKELY ❌F FALSIFIED — HAWK 5/22 partial-thaw reframe; Trump call-off | Promote to FALSIFIED on HAWK confirm |
 
 ---
