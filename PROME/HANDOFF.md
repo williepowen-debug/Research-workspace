@@ -6,6 +6,21 @@
 
 ---
 
+## 2026-06-16 ~16:12 ET — NEXUS/WALTER/LABOR review closeout
+
+**Status:** NEXUS matrix review loop closed; WALTER intake integrity is the next operational lane. Local repo is behind origin after LABOR/NEXUS pushes and still has unpushed Prome commits; no push performed. Closeout state is in `PROME/SCRATCH.md` and `memory/2026-06-16.md`.
+
+**What just happened:**
+- Accepted ORC four-group review: NEXUS matrix stands; no rows overturned. Additions: HY OAS 266 = 6bp from <260 R3 kill; M-08 should carry “bifurcation confirmed, broad transmission contested”; M-06 floor around 40 still justified because ceasefire announcement ≠ verified reopening.
+- Sharpened FOMC branches: hawkish-of-pricing re-arms macro/carry/vol fragility; dovish/risk-on can kill surviving R3 blended-credit axis if HY sustains <260. FRED HY OAS is T+1 — use live proxy then confirm next day.
+- Identified WALTER degradation as fleet-intake issue: stale content/cron indicators + BRENT-reported dropped SIG-W-20260610-001/-002. Treat as routing/receipt diagnosis, not NEXUS analytical error.
+- Reviewed LABOR pushed packet from `origin/master` in detached temp worktree. Functional fixes are good; remaining cleanup is stale LABOR STATUS handoff/push language and NEXUS `BRIEFS_MAP.md` if LABOR brief is now standing coverage.
+
+**Next suggested work:** WALTER diagnosis-first pass: determine dormant vs cron/feed failure vs dispatch-path bug vs running-not-committing; trace SIG-W-001/-002 from classified/referral to BRENT/HAWK inbox write; define health/receipt output before trusting WALTER/NEXUS inbox completeness.
+
+**Guardrails:** no `AGENTS/*` edits unless Will explicitly scopes them; no push without Will; local branch is behind origin and ahead with Prome commits; pathspec-only git; no trade execution.
+---
+
 ## 2026-06-16 ~13:00 ET — Post-rebase closeout before clear
 
 **Status:** Repo successfully rebased onto latest `origin/master`; local branch is clean except untracked SHADE raw PDFs/venv and is **ahead 1** with `38fd272a PROME: recover SHADE Athene audit artifacts`. No push performed. Safe to clear and reboot; first boot should check git state before deciding whether to push.
