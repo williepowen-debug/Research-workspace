@@ -6,6 +6,22 @@
 
 ---
 
+## 2026-06-16 ~13:00 ET — Post-rebase closeout before clear
+
+**Status:** Repo successfully rebased onto latest `origin/master`; local branch is clean except untracked SHADE raw PDFs/venv and is **ahead 1** with `38fd272a PROME: recover SHADE Athene audit artifacts`. No push performed. Safe to clear and reboot; first boot should check git state before deciding whether to push.
+
+**What just happened:**
+- Reviewed SAM post-BOJ commits and ORC/SAM follow-ups. SAM’s resolution work is directionally correct; later origin now includes Phase 1b propagation/cleanup and Phase 2 local reconciliation protocol. Remaining SAM lane: Phase 3 compression/TB/expiry cleanup.
+- Reviewed CARL commits. CARL FOMC packet + `NEXUS_BRIEF.md` are useful; main issue was downstream NEXUS registry/scope propagation, not CARL analysis. Later origin includes CARL/NEXUS closeout updates.
+- Discussed adding KIMI as a read-only verifier/auditor: no edits, no trades, no outbound messages; use for hallucination/consistency guard, pre-merge review, post-catalyst sweeps.
+- Pulled/rebased 24 remote commits cleanly. Local recovery commit hash changed from prior `f9a59f33` to `38fd272a` after rebase.
+
+**Next suggested work:** Boot fresh via `PROME/BOOT.md`, then choose one lane: (1) ask Will whether to push `38fd272a`; (2) decide SHADE raw PDF/venv handling; (3) codify Prome generic fleet reconciliation protocol if approved; (4) refresh HEARTBEAT/TODAY only if decision-relevant; (5) keep position reconciliation separate.
+
+**Guardrails:** no push without Will; raw PDFs stay out of Git absent explicit approval; no broad git ops; no trade execution; live market levels need refresh before use.
+
+---
+
 ## 2026-06-15 ~13:35 ET — Pre-new-session handoff after MARCO/HENRY pull
 
 **Status:** Local Prome repo is clean and fast-forward synced with origin at `6ed25b4f`. Safe to start a new Prome session from the current local tree. No active OpenClaw child sessions visible; external Claude Code agents may still be working independently.
