@@ -64,6 +64,7 @@
 - [POV Pivots in CHANGELOG](finding_pov_changelog_pattern.md) — extend thesis CHANGELOG to dated intra-version POV pivots; preserves trajectory when STATUS prose gets pruned. → CARL/BROCK/HENRY
 - [Domain-Agent Steelman Backstop](finding_domain_agent_steelman_backstop.md) — when Prome+Will lean toward an answer, explicitly invite the domain agent to push back; catches errors Will can’t catch alone
 - [Cross-Surface Validation Pattern](finding_cross_surface_validation_pattern.md) — two surfaces independently catching the same correction via different evidence paths validates dual-surface redundancy (5/21 TIPS-vs-nominal)
+- [Schema-Conformance ≠ Clean Text](finding_schema_conformance_not_clean_text.md) — structural self-verify never reads rendered prose; add a literal read-through — and verify the artifact, not a transcription of it (ORC line-8 garble was in the paste, not the file; CARL 6/16)
 - [Scan Agent Outboxes at Boot](feedback_scan_agent_outboxes_at_boot.md) — boot must scan AGENTS/*/outbox/ for *to-PROME* signals, not just PROME/inbox; Convention B routing requires PROME-side scanning
 - [Front-Load Planning for Multi-Step Work](feedback_front_load_planning.md) — surface all decisions in a pre-execution planning pass; Will batch-approves defaults; execute with proceed-pacing. 5/21 FORGE: 23 Qs, 0 escalations
 - [Push-Train Pattern](finding_push_train_pattern.md) — in a Will-opened push window one agent’s push sweeps everyone’s committed-unpushed work; fires only in coordinated windows (QUALIFIED 6/8)
