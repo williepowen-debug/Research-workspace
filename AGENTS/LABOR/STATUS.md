@@ -1,5 +1,5 @@
 # LABOR STATUS
-**Last Updated:** 2026-06-16 ~10:00 EDT (boot data-clean — no new prints since Jun 11; session = **convergence truth-up + prediction-ledger reconciliation**, Orc-prompted thesis-honesty pass). Prior refresh Jun 14 (Jun 11 claims integrated: w/e Jun 6 = 229K, 4-wk MA 219K). Jun 8 (NFP May beat + upward revisions; Challenger AI-cited record; LAB-15 falsified).
+**Last Updated:** 2026-06-16 ~12:00 EDT (boot data-clean — no new prints since Jun 11; session = **convergence truth-up + prediction-ledger reconciliation** + **Orc verify-loop correction pass**, thesis-honesty pass. See NEXT SESSION PICKUP for the correction-pass detail.). Prior refresh Jun 14 (Jun 11 claims integrated: w/e Jun 6 = 229K, 4-wk MA 219K). Jun 8 (NFP May beat + upward revisions; Challenger AI-cited record; LAB-15 falsified).
 **Status:** 🟡 BIFURCATION TILTED TO HARD DATA — NFP May **+172K** (BEAT cons ~80-85K) plus **+93K upward revisions** (Apr 115K→179K); U-3 4.3% flat (5th straight). Realization-weakness leg WEAKENED (data revising UP, not hidden-soft). Bearish core persists in the **announcement/intent layer** (Challenger May 97,006 highest-since-2020, **AI-cited 40%** record, ISM Svs emp 47.9 3rd mo contracting) — NOT realization (claims 229K drift but 21K below trigger; U-3 flat). **Jun 16 truth-up: honest convergence 48/80 (was presented 57/85)** — ICE/H-2A removed as MARCO supply-side (orthogonal to demand-weakness thesis), Hormuz 4→2 (oil −20%, de-escalation). **Hotel California persists in STRUCTURE; realization-weakness thesis on the back foot; bearish intensity was overstated and is now right-sized.**
 
 ---
@@ -227,11 +227,14 @@ These are real and intact, but they are **labor-*supply* signals** that push U-3
 
 **Prior session logs (committed, recoverable via git):** Jun 14 — Jun 11 claims integration + CATALYSTS↔TRADE threshold reconcile + DHS-vector retirement + L-04 added. Jun 9 — file-tree audit + TRADE.md rebuild (`4fec3d2b`; T-01..T-14 index + KELYA logic + catalyst playbook). Jun 8 — boot/closeout infra (`boot.py` + sub-scripts + CATALYSTS.tsv + LESSONS) to SAM/BRENT parity. **File-tree Phase C/D deferred per Will (Jun 9).**
 
+**Verify-loop correction pass (Jun 16, post-SAM-push, commit `94df30e7`):** Orc verified the pushed commits and found 4 real defects, all fixed: **(1 MEDIUM)** the `Status` rename (OPEN-EFFECTIVE-MISS / RECLASSIFIED-CARL) silently de-listed LAB-02/04 from `predictions_due.py` (exact-matches `Status==OPEN`) — reverted to OPEN, disposition→Notes, **re-flagging verified**; (2) Packet B (>300K) added HENRY per TRADE.md T-02; (3) tier tally 🟡:4→5; (4) stale-tagged the 2 directionally-false VX rows + 2 FLOW Jan rows. **Lesson: keep PREDICTIONS.tsv Status to the controlled vocab `OPEN`/terminal — `predictions_due.py:132` exact-matches; custom values silently drop rows from the boot scan.**
+
 **Data gaps / deferred (next session):**
 - **WARN refresh (HIGHEST PRIORITY)** — LayoffAlert cum 207,650 carried since Jun 1; now 1 of only 2 top-red vectors and un-verified.
-- **VX/KB backfill (de-prioritized — nothing reads them):** Jun 16 fixed the dangerous FLOW rows (3 transmission triggers + falsified temp + DOGE + ISM). VX NFP/U-3/JOLTS/sector rows + KB.tsv still span Mar–Jun staleness — do NOT read them as current; refresh only if a query needs them.
-- **Monthly-cadence carries** — LT-unemp / staffing / duration re May; sister-agent STATUS (HENRY/FORGE) un-refreshed.
-- **Pending push** (Will/Prome-coordinated): `AGENTS/LABOR/` several commits ahead of origin + this session's; never pushed at session end per `[[feedback_defer_push_coordinate]]`.
+- **VX/KB retirement DECISION (pending Will, recommended YES):** VX.tsv is ~60 rows, almost all Feb–Mar stale (only the 4 claims rows live); KB similar; nothing reads either. Recommend the BRENT-style demote-to-archival (`[[finding_workbook_demote_by_verification]]`) — one frozen-ledger header banner, not per-row backfill — to end the recurring drift debt (L-04) permanently. The 2 directionally-dangerous VX rows are stale-tagged in the interim.
+- **CARL hand-off of LAB-04** — FL foreclosures (out-of-domain); stays OPEN on our scan until CARL owns the number. Needs Will/PROME to route.
+- **Monthly-cadence carries** — LT-unemp / staffing / duration re May; sister-agent STATUS (HENRY/FORGE) un-refreshed (where the 48/80 is softest).
+- **Pending push** (Will/Prome-coordinated): commit `94df30e7` (this correction pass) lands AFTER SAM's push — queued for the next window. The 3 earlier Jun-16 commits are already on origin/master.
 
 ---
 
