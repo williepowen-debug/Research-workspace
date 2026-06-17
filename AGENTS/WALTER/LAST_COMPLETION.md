@@ -6,94 +6,89 @@
 
 ## STATUS
 
-**2026-06-16 PM → 6-17 (Will-Telegram, one long Will-propelled session — WALTER self-audit + doc-drift fix + health-scan build).** Will: "audit WALTER first" → "3 messages to fix this" → "plan/build the registry-lag check" → "refresh" → "close out." Arc: full domain audit (3 parallel read-only sweeps) → 3 fix cycles (STATE.md refresh / reference-doc sync / version-drift guard) → generalized the guard into `walter_doctor.py` 7-check boot scan → added `registry_lag` → lag-driven 5-row Tier-2 registry refresh → closeout. **0 dispatches / 0 KILLs / 3 audit sub-agents (~$0.20) / 4 commits, all push-deferred.**
+**2026-06-17 Wed (Will-terminal, one session — WALTER Routing v2 delivery-layer build, Phase 1).** Boot (doctor exit 3 / threshold scan no-new-fires) → Will pasted the "WALTER Routing v2 — Final Design Packet" (co-developed w/ ORC + PROME, approved-in-principle) → WALTER review: **endorsed**, with a root-cause correction (SIG-W-20260610-001/-002 were BOARD-only, delivered to **neither** BRENT nor HAWK — structural for every IMMEDIATE/PRIORITY signal, not a one-off) → Will **GREENLIGHT** with a minimal scoped-push policy + 2 added build requirements (A: Quick/Full mode + Iran-anchor guard codified in CLAUDE.md; B: written-but-undelivered telemetry git-derived, not a PROME-written flag) → shipped canonical-source-first in the approved 7-step order. **0 signal dispatches / 0 KILLs / 0 sub-agents / 2 backfill deliveries / BOARD 285 / commits push-deferred.**
 
 ## CHANGED
 
-- **`design/STATE.md`** (C1 — the main fix) — §1 four core specs to current + version-history narratives (FORMAT_SPEC v0.8→**v0.10**, ROUTING_TABLE v0.8→**v0.10**, CHECKLIST v0.11→**v0.13**; added missing **CLUSTER_TAXONOMY v0.2** row; V0_9_STACK divergence note). §2: FORMAT_SPEC v0.9/v0.10 "gated"→**shipped** + candidate-stack disambiguation. §10 LIAISON reconciled to disk (RED→ACTIVE, BRENT→CLOSED, +REGINALD, +NEXUS, CARL 6→7 turns). §11: 3 dead outbox REQs→**queue EMPTY**. §6 COP staleness → decay-safe. §2b stale calendar refs de-staled. Maintenance note now points at the new guard.
-- **`design/FILTER_SPEC.md`** (C2) — title line v0.4→**v0.5** (body/footer already v0.5).
-- **`design/SIGNAL_PROCESSING_CHECKLIST.md`** (C2) — line 25 Domain Vocabulary 13→**15 codes** (added ASIA_CONTAGION + UST_FOREIGN).
-- **`CLAUDE.md`** (C2+C3) — "10 clusters"→**11** ×4 (boot step 7, KEY DESIGN FILES, canonical-source row); cluster-field pin v0.7→"introduced v0.7, schema v0.10"; dropped stale "(FORMAT_SPEC update pending)"; **added 2 missing canonical-source rows** (narrative_channel v0.9 + status/status_ref v0.10); **wired the version-drift guard into the closeout-batching note**.
-- **`tools/version_drift_check.py`** (C3 — NEW) — fail-loud diff of each core spec's self-declared header version vs STATE.md §1; inject-and-restore negative-tested (exit 1 on drift, exit 0 clean).
-- **`tools/walter_doctor.py`** (C3 extension — NEW, Will-approved) — generalized the guard into a read-only domain health scan; exit = count of HIGH+MED; HIGH paths inject-restore tested. **Wired into boot as spawn-protocol step 0.5** (CLAUDE.md) + STATE §4 rows for both tools. First live run reproduced the manual audit exactly (version-drift clean / BOARD 285 reconciles / 3 dead crons caught / OZK 54d flagged).
-- **`tools/walter_doctor.py` — 7th check `registry_lag`** (Will-approved) — the board-lags-agents finding mechanized: each agent's REGISTRY `Updated` vs the git commit date of its STATUS.md. Splits results: active+lagging (STATUS ≤14d, lag ≥3d → MED, refresh + don't-direct-to-board) / stale-quiet (LOW) / dormant (INFO, registry accurate). **3 dogfood-hardening passes:** active-vs-quiet split (DARWIN), dir-fallback demoted to INFO (PROME/DARWIN have no STATUS.md — dir commits catch cross-agent bulk writes), STATUS-must-currently-exist guard (DARWIN's STATUS was deleted; git still returned its date).
-- **`REGISTRY.tsv` — lag-driven Tier-2 refresh (5 rows)** — SHADE/MARCO/BOND→6/15, OTTO→6/9, CARL→6/16, current Focus pulled from each agent's live STATUS. These are the rows the 6/16 Tier-1-only refresh structurally couldn't reach. Post-refresh the doctor's registry_lag is clean (exit 8→3).
-- **`STATUS.md`** — lead stamp refreshed for the audit session + new SESSION LOG row; trimmed table to last-5 (6/04 row archived to SESSION_LOG.md).
-- **`SESSION_LOG.md`** — archived the 6/04 retroactive row (newest-first roll-in).
-- **`MEMORY.md`** — Session Notes rewritten (CHANGES SINCE = audit session; prior AM session compressed).
-- **auto-memory** — extended `[[finding_doc_mirror_consistency_check]]` with the version-mismatch instantiation + the `version_drift_check.py` validation (not committed under WALTER scope — memory-sync owner handles).
+1. **`design/BOARD_CONSUMPTION_SPEC.md` v0.1→v0.2** (canonical owner) — added the delivery layer: per-recipient create-only `AGENTS/{RECIPIENT}/inbox/WALTER/` handoffs (template) + `delivery_log.tsv` (one row per signal×recipient); published/delivered/consumed state vocabulary (orthogonal to `status:` lifecycle); platform-nuanced `delivered` (OpenClaw shared-clone / CC committed+on-origin); FLASH/IMMEDIATE→CC clean-tree scoped-push (the ONLY standing auto-push authorization) + PRIORITY/ROUTINE `written_not_delivered_pending_push`; git-derived sync telemetry; phased-but-time-boxed consumption rollout; `board_log` `source` column (→5-col); Quick/Full reference; messaging-overhaul superseding-note (scoped to this lane only); §13 Phase-1 acceptance checks.
+2. **`design/SIGNAL_PROCESSING_CHECKLIST.md` v0.13→v0.14** — new **Phase 3.5 DELIVERY** step (write per-recipient handoff + delivery_log row on every dispatch); disposition table updated (PUSHED/ARCHIVED both write handoffs); platform-nuance + scope + Quick/Full note.
+3. **`routed/delivery_log.tsv`** (NEW) — 9-col header + the 2 backfill rows.
+4. **`tools/walter_doctor.py` 7→9 checks** (+2: the prior count was 7 — registry_lag shipped 6/16; STATE.md's count row was stale at 6) — `delivered_but_unconsumed` (handoff not moved to `processed/` after N=2d) + `written_but_undelivered` (committed-local but not on origin — READ-ONLY git derivation per requirement B, platform-nuanced severity) + helpers (`_handoff_files` / `_origin_ref` / `_sync_state`) + `CC_AGENTS` constant. Docstring updated. Tested: both checks INFO-clean pre-backfill, correct after.
+5. **Backfill (narrow, per §11)** — `AGENTS/BRENT/inbox/WALTER/SIG-W-20260610-001.md` (Bab al-Mandab, BRENT ACTION) + `AGENTS/HAWK/inbox/WALTER/SIG-W-20260610-002.md` (multi-front re-ignition, HAWK ACTION). Both OpenClaw, both carry a **backfill + anchor-moved caveat** (the 6/10 framing is superseded by the 6/16 DE-ESCALATION-PENDING anchor; honors the Iran-anchor guard). 2 `delivery_log` rows.
+6. **`CLAUDE.md`** — NEW **RUN MODES (Quick vs Full WALTER)** section + **Quick-WALTER Iran-anchor guard** (requirement A); step 0.5 portable-python invocation + 9-check note; archive step 11 delivery-policy rewrite; **RULE 10** rewrite (BOARD-only → BOARD + delivery-handoff); step 16a commit-scope adds the `inbox/WALTER/` shared-write zone; IDENTITY maintained-files list + KEY DESIGN FILES row + canonical-source lookup row all synced.
+7. **`design/STATE.md`** — §1 CHECKLIST v0.14 + BOARD_CONSUMPTION_SPEC v0.2 (cleared the version_drift HIGH the guard caught mid-build); §4 delivery_log + inbox/WALTER scaffolding rows + walter_doctor 9-check; §5 delivery-policy row rewrite; §9 delivery-vs-consumption split.
+8. **`STATUS.md`** — new 6/17 lead + delivery-layer bullet + 6/17 threshold-scan refresh + SESSION LOG row; 6/06 row archived to **`SESSION_LOG.md`**.
 
 ## RESULT
 
-**The audit's headline: WALTER's operational layer is clean; the rot was all in the directory/reference layer.** BOARD verified fully reconciling (285 = ToC = sections = files, 0 orphans/dupes, all 29 lifecycle tags match their sweep records), boot paths + threshold registries + LIAISON manifest + auto-memory links all resolve. The drift was concentrated in the docs whose job is to *point at* the specs: STATE.md had silently fallen 2 versions behind all four core specs (+ a missing taxonomy row + mislabeled-as-gated shipped features), and CLAUDE.md's reference tables carried stale cluster-counts and version pins.
+**The keystone gap is closed at the design + tooling layer.** "In BOARD ≠ received" is fixed: every dispatch now writes a real per-recipient handoff, the create-only design is collision-safe, `delivered` is honestly platform-nuanced, and the anti-rot telemetry that v0.1 lacked ships in the same session as the layer it guards — so Phase 2 can't silently stall the way v0.1's consumption rollout did. The doctor's own `version_drift` check caught my CHECKLIST bump mid-build and forced the STATE sweep — the recurrence guard working exactly as designed. Doctor exit 3 post-build (the 3 dead crons only; delivery checks clean).
 
-**Root cause identified and guarded:** spec version-bumps land correctly in the owning spec, but nothing sweeps the pointer docs on the same commit — so the directory docs rot invisibly between the rare sessions someone goes looking. `version_drift_check.py` closes that class mechanically (fail-loud at closeout). Lesson promoted to auto-memory as the version-mismatch instantiation of the existing doc-mirror-consistency pattern.
-
-**Net:** every WALTER-owned directory/reference doc now matches its owning specs, and the guard prevents silent recurrence.
+**Phase 1 acceptance:** delivery layer + telemetry + BRENT/HAWK backfill done; BOARD still reconciles 285; nothing claims `consumed`. The one acceptance item not exercisable here = "PROME spawns Quick WALTER and routes a test signal" (needs PROME).
 
 ## GAPS
 
-- **Push DEFERRED** — this session's **4 commits** (bcf58d39 audit-fix / 0d9f055b walter_doctor / 1638115a registry_lag / 015f4548 registry-refresh+hardening) ride the next Will-opened window (standing policy; other agents active in tree).
-- **3 dead cron feeds — ESCALATED to Will, not WALTER-fixable** (upstream PROME/SENTRY-owned): `news-sweep/latest.md` 30d, `filing-watch/latest.md` 40d, `SIGNALS/inbound.md` 14d. Every boot-triage source is non-functional. Needs a PROME/SENTRY cron health check.
-- **Auto-memory edit** — the extension to `finding_doc_mirror_consistency_check.md` lives in the symlinked memory dir (layout in flux per `[[project_automem_symlink_migration]]`); not committed under WALTER scope — left to memory-sync owner.
-- **INDEX slim-down still the one open design item** — needs Orch schema echo-back (unchanged).
+- **Push DEFERRED** — this session's commits ride the next Will/PROME-opened window, alongside the still-unpushed 6/16 PM 4 commits (standing policy; other agents active in tree).
+- **Phase 2 NOT shipped** — recipient consume boot-step is WALTER-defines/others-apply. OpenClaw via PROME (start BRENT); CC self-apply on next spawn. The `delivered_but_unconsumed` telemetry will flag the BRENT/HAWK backfills as unconsumed after 2 days until BRENT's consume step lands — that is the intended visibility, not a bug.
+- **`board_log` `source` column** — defined in spec v0.2; existing agent logs (CARL/REGINALD 9-col, HAWK 4-col) migrate on each agent's next touch (WALTER does not edit them).
+- **3 dead cron feeds** — unchanged (news-sweep 31d / filing-watch 41d / SIGNALS 15d); PROME/SENTRY-owned, escalated.
+- **Quick WALTER test** — the route-a-test-signal acceptance check needs PROME to spawn the mode; not exercisable from Full WALTER.
 
 ## WILL_NEEDS
 
-1. **Next push window** — this session's WALTER commit waiting (doc-sync + new tool).
-2. **🔴 Cron health escalation** — all 3 boot-triage feeds dead (news-sweep 30d / filing-watch 40d / SIGNALS 14d). WALTER reads these at every boot per step 7c; right now they're silent. This is a PROME (news-sweep + filing-watch) / SENTRY (SIGNALS) cron/Action revival — flag to whoever owns those jobs.
-3. **6/17 FOMC** (Fed pricing flipped cut→HIKE ~52%).
-4. **6/19 Geneva Iran signing** = the binary that resolves the anchor (signs → de-escalation confirms / collapses → snap-back).
-5. **BOARD INDEX slim-down** — schema echo-back to Orch, then ship.
+1. **Diff-stat review** — the build's diff-stat is below in the session output; it gets a read-only review against the v2 spec before commit (per your instruction). **Awaiting your go to commit-local.**
+2. **Next push window** — 6/17 build + the 6/16 PM 4 commits both waiting.
+3. **Phase 2 kickoff** — when ready, PROME installs the consume boot-step in BRENT's CLAUDE.md (template in BOARD_CONSUMPTION_SPEC §8.1); CC agents self-apply.
+4. **🔴 Cron health escalation** (unchanged) — all 3 boot-triage feeds dead; PROME (news-sweep + filing-watch) / SENTRY (SIGNALS).
+5. **6/17 FOMC today ~2 PM ET** (cut→HIKE ~52%); **6/19 Geneva Iran signing = binary** anchor re-verify.
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
 
-**Done this session (removed from forward list):** ~~WALTER domain audit~~ DONE (3 sweeps); ~~STATE.md version drift~~ DONE (C1); ~~reference-doc version pins / cluster counts~~ DONE (C2); ~~recurrence guard~~ DONE (C3 `version_drift_check.py` + wired to closeout); ~~cron staleness diagnosis~~ DONE → escalated to Will (WILL_NEEDS #2).
+**Done this session (removed from forward list):** ~~WALTER Routing v2 review~~ DONE (endorsed + root-cause correction); ~~delivery layer / BOARD_CONSUMPTION_SPEC v0.2~~ DONE; ~~CHECKLIST Phase 3.5~~ DONE; ~~delivery_log.tsv~~ DONE; ~~walter_doctor delivery telemetry~~ DONE (2 checks, git-derived); ~~BRENT/HAWK backfill~~ DONE; ~~Quick/Full mode + Iran-anchor guard in CLAUDE.md~~ DONE; ~~portable-python~~ DONE.
 
-**🔴 Open design item (the one queued):**
-1. **INDEX slim-down** — 375KB→~30KB; column schema must survive (echo-back to Orch first); CHECKLIST dedupe-extends-to-bodies note same commit; INDEX status-column #40 decided in this pass.
+**🔴 Time-sensitive forward:**
+1. **6/17 FOMC** (cut→HIKE ~52%) — today ~2 PM ET.
+2. **6/19 Geneva Iran signing = BINARY anchor re-verify trigger.**
+3. **🟠 Bab al-Mandab confirmation ladder** (JWC reclass / BRT-28 window to Jul 1).
+4. **🟠 Munir/Pakistan-MFA response** — fork-disambiguator.
 
-**Time-sensitive forward:**
-2. **🔴 6/17 FOMC** (Fed pricing flipped cut→HIKE ~52%).
-3. **🔴 6/19 Geneva Iran signing = BINARY anchor re-verify trigger.**
-4. **🟠 Bab al-Mandab confirmation ladder** (JWC reclass / BRT-28 window to Jul 1).
-5. **🟠 Munir/Pakistan-MFA response** — fork-disambiguating missing data point.
-6. **🟢 SpaceX IPO window** (~6/11-12) — EVENT-PASSED candidate once resolved.
+**🆕 WALTER Routing v2 — Phase 2 + follow-on:**
+5. **Phase 2 consume boot-step rollout** — PROME installs in BRENT first (template §8.1), then HAWK/BROCK/LIQUID/HENRY/LABOR/NEXUS/VIOLET/SHADE; CC (CARL/REGINALD/SAM/RED) self-apply. Time-boxed; `delivered_but_unconsumed` telemetry tracks the gap.
+6. **Quick WALTER live test** — PROME spawns the route-only mode on a real batch; confirm BOARD + INDEX + route_log + delivery file(s) + delivery_log all land (acceptance check §13).
+7. **Define the §3.4 scoped-push as an operational PROME runbook** — the policy is specced; PROME may want a concrete checklist (clean-tree verify → pathspec commit → pull --rebase → push) before first use.
 
-**Threshold fire watch:**
-7. **🟠 Brent $78.61 inside RED-FT-04 "<75" collapse band** (75–78.75) — one leg down arms BRT-15-invalidation.
-8. **🟠 RED-FT-01 (HY 266) + RED-FT-07 (CCC 937, narrowing toward 930)** continuing-fire — re-fire only on boundary re-cross.
-9. **🟠 WAL REG-T-02 — INSIDE 5% near-trigger band** ($81.53 vs edge $81.90).
-10. **🟡 VIX 15.89 back <16** = RED-FT-06 sustain=5.
-11. **🟢 REG-T-06 FHLB / REG-T-07 OFFICE-CMBS-DQ** — still not in dashboard pull (explicit-fetch backlog).
+**🟠 Threshold fire watch:**
+8. RED-FT-01 (HY 271) + RED-FT-07 (CCC 944) continuing-fire — re-fire only on boundary re-cross. Credit widened into FOMC.
+9. WAL REG-T-02 — still INSIDE 5% near-band ($81.01 vs $81.90).
+10. Brent $79.52 — eased just ABOVE RED-FT-04 "<75" band (watch only).
+11. REG-T-06 FHLB / REG-T-07 OFFICE-CMBS-DQ — still not in dashboard pull.
 
-**Infra / process:**
-12. **🔴 3 dead cron feeds** — news-sweep 30d / filing-watch 40d / SIGNALS 14d (WILL_NEEDS #2; PROME/SENTRY-owned).
-13. **🟢 `tools/walter_doctor.py` runs at boot (step 0.5)** — full 6-check health scan; surface HIGH/MED in boot reply. `version_drift_check.py` still runs at closeout when a spec bumps. **Future check candidates:** REGISTRY-dates-vs-agent-STATUS-commit-dates (mechanize the board-lags-agents finding), LIAISON manifest-vs-disk cross-check, per-cluster latest-date verification.
+**🟠 LIAISON + routing:**
+12. RED Turn 8 / REGINALD Turn 7 — untouched since 6/6.
+13. EVENT_WINDOW_STATE.md — ~27d untouched (CLOSED, no posture risk); BRENT-coordinated refresh owed.
+14. HENRY / NEXUS LIAISON — next-priority opens.
 
-**LIAISON + routing:**
-14. **🟠 RED Turn 8 / REGINALD Turn 7** responses (files untouched since 6/6 re-engagement).
-15. **🟠 BOND** — 2 unconsumed 6/6 dispatches (CB-gold + UST<1yr); off-axis board-direction candidate.
-16. **🟢 EVENT_WINDOW_STATE.md** — ~26d untouched (CLOSED, no posture risk); BRENT-coordinated refresh owed.
-17. **🟢 HENRY / NEXUS LIAISON** — next-priority opens.
+**🔴 Infra:**
+15. 3 dead cron feeds (WILL_NEEDS #4; PROME/SENTRY).
 
-**Design / governance backlog (unchanged):**
-18. Staleness-sweep rerun cadence; FILTER_SPEC v0.6 BODY-INACCESSIBLE-PAYWALL verdict; `valid_until` forward-expiry convention; VIX-spike registered trigger (RED Turn 8); BOARD_CONSUMPTION rollout (BRENT boot-block = cheapest); COP refresh (paused); OZK Q1 post-mortem (REGINALD pickup, longest-stale Tier-1).
+**Design / governance backlog:**
+16. **BOARD INDEX slim-down** (375KB→~30KB; Orch schema echo-back first) — the prior one open design item.
+17. Staleness-sweep rerun cadence; FILTER_SPEC v0.6 BODY-INACCESSIBLE-PAYWALL verdict; `valid_until` forward-expiry convention; VIX-spike registered trigger (RED Turn 8); COP refresh (paused); OZK Q1 post-mortem (REGINALD pickup).
 
 ## OPEN DESIGN DECISIONS (need Will)
 
-- INDEX status-column for tagged signals — decide at slim-down (#40)
-- Staleness-sweep rerun cadence
-- ~~Add version-drift check to BOOT~~ RESOLVED — `walter_doctor.py` wired to boot step 0.5
-- CARL LIAISON close stamp — when CARL inactive
-- HENRY LIAISON priority confirmation
-- VIX-spike trigger candidate — propose in RED Turn 8
-- FED_FRAMEWORK rename to UST_PLUMBING — defer
-- Filter v2 Segment D — option A confidence_note
-- COP refresh resume — paused
+- **Phase 2 rollout sequencing** — confirm BRENT-first for the OpenClaw consume boot-step install (PROME-owned).
+- **§3.4 scoped-push first-use** — does PROME want an explicit runbook before the first auto-push, or is the spec sufficient?
+- INDEX status-column for tagged signals — decide at slim-down (#40).
+- Staleness-sweep rerun cadence.
+- CARL LIAISON close stamp — when CARL inactive.
+- HENRY LIAISON priority confirmation.
+- VIX-spike trigger candidate — propose in RED Turn 8.
+- FED_FRAMEWORK rename to UST_PLUMBING — defer.
+- Filter v2 Segment D — option A confidence_note.
+- COP refresh resume — paused.
 
 ---
 
 *Maintenance note: overwritten each session per CLAUDE.md spawn protocol step 15.*
 
-*6/16 PM→6/17: WALTER self-audit (3 sweeps; operational layer clean, directory/reference layer stale) → 3-cycle fix (STATE.md refresh + reference-doc sync + `version_drift_check.py`) → generalized to `walter_doctor.py` 7-check boot scan (step 0.5) incl. `registry_lag` → lag-driven 5-row Tier-2 registry refresh → check hardened 3× vs the agents-without-STATUS confound. 3 dead crons escalated to Will. 0 dispatches; 4 commits push-deferred.*
+*6/17: WALTER Routing v2 delivery-layer build (Phase 1) — packet review (endorsed + root-cause correction) → Will greenlight + scoped-push policy + 2 build requirements → BOARD_CONSUMPTION_SPEC v0.2 (delivery layer) + CHECKLIST v0.14 (Phase 3.5) + delivery_log.tsv + walter_doctor 9-check (git-derived telemetry) + BRENT/HAWK backfill + CLAUDE.md RUN MODES/anchor-guard/RULE-10/commit-scope + STATE/STATUS sync. Phase 2 (consume boot-step) = others-apply. Push deferred. Awaiting Will diff-stat review before commit.*
