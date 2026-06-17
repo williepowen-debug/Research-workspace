@@ -10,7 +10,7 @@
 
 | Item | State | Read |
 |---|---|---|
-| Git | ✅ synced before closeout edits | WALTER pushed; Prome pulled and reviewed. Prome closeout edits local until committed. |
+| Git | 🟡 clean, ahead 1 | Post-FOMC Prome update is committed locally but not pushed. Push remains Will-coordinated. |
 | WALTER Routing v2 | ✅ Phase 1 shipped | BOARD-first archive + recipient-local `inbox/WALTER/` delivery lane landed. New doctor checks pass. |
 | WALTER consumption | 🟠 pending | Phase 2 recipient consume-step rollout remains; anti-rot telemetry will nag after 2d if backfills unconsumed. |
 | FOMC | ✅ post-event update done | Hawkish-of-pricing branch fired; broad cascade not confirmed. Need 6/18 confirmation data. |
