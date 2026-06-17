@@ -1,8 +1,8 @@
 # TODAY.md — Wednesday June 17, 2026
 
-**Objective:** Close this window with WALTER Routing v2 shipped and FOMC in the rearview. Next fresh window should choose: post-FOMC synthesis or WALTER Phase 2 follow-through. **No `AGENTS/*` edits unless Will explicitly scopes them. No trade/expiry action without broker/Will truth.**
+**Objective:** Post-FOMC regime update is now done. Next work should confirm/deny the hawkish re-arm with 6/18 FRED HY OAS, claims, TIC/FXY, and persistence in VIX/HYG/KRE/WAL. WALTER Phase 2 remains the next system lane. **No `AGENTS/*` edits unless Will explicitly scopes them. No trade/expiry action without broker/Will truth.**
 
-**Current regime:** HEARTBEAT is still pre-FOMC. Do not rely on the first QQQ impulse alone for regime. The post-FOMC snapshot shows **HY OAS still 271bps [FRED 6/16]** above the <260 kill line, **CCC 944bps [6/16]**, **VIX 18.36**, **USD/JPY 160.71**, and **BIZD $12.34**. Surface tape is not broad-cascade confirmation, but vol/carry/private-credit stress remain sticky. Confirm HY via FRED T+1 on 6/18 before grading the R3/blended-credit branch.
+**Current regime:** **Hawkish-FOMC re-arm / unresolved divergence.** Fed held **3.50–3.75%** unanimously, but SEP/dots were hawkish-of-pricing: 2026 PCE/core and fed-funds medians revised materially higher vs March. Tape sold equities/credit proxies, VIX lifted to **18.44**, USD/JPY stayed **160.61🔴**, and BIZD is **$12.34🔴**. But HY OAS is still **271bps [FRED 6/16]** above the <260 kill line and duration did not break (TLT **$86.33**, 10Y **4.43 [6/16]**). Read: fragile calm cracked, not broad cascade. Confirm HY via FRED T+1 on 6/18 before grading the R3/blended-credit branch.
 
 ---
 
@@ -13,7 +13,7 @@
 | Git | ✅ synced before closeout edits | WALTER pushed; Prome pulled and reviewed. Prome closeout edits local until committed. |
 | WALTER Routing v2 | ✅ Phase 1 shipped | BOARD-first archive + recipient-local `inbox/WALTER/` delivery lane landed. New doctor checks pass. |
 | WALTER consumption | 🟠 pending | Phase 2 recipient consume-step rollout remains; anti-rot telemetry will nag after 2d if backfills unconsumed. |
-| FOMC | 🟠 happened; synthesis pending | Initial QQQ read: risk-off impulse, flush, absorption bounce/retest. Need cross-asset read + T+1 HY. |
+| FOMC | ✅ post-event update done | Hawkish-of-pricing branch fired; broad cascade not confirmed. Need 6/18 confirmation data. |
 | Position truth | 🟠 unreconciled | No expiry action without broker/Will truth. |
 
 ---
@@ -57,15 +57,15 @@
 
 ## Post-FOMC Operating Card
 
-**Purpose:** grade the event; do not auto-trade.
+**Purpose:** confirm/deny the hawkish re-arm; do not auto-trade.
 
 | Branch | What to watch | Prome read |
 |---|---|---|
-| Hawkish-of-pricing | 2Y/front-end repricing higher, VIX persists >18/20, USDJPY/carry stress, TLT weak | Re-arms macro/carry/vol fragility: R1 + R6 + coiled-spring path. |
-| Dovish/risk-on compression | HY/HYG compression, banks/alts bid, vol crushed, QQQ reclaims pre-FOMC range | Can kill surviving R3 blended-credit bear axis only if HY sustains <260. |
-| Mixed/unresolved | HY holds >260, VIX wakes but credit/banks hold, QQQ whipsaw | Re-anchor to Jun18 claims/TIC and late-Jun/Jul BDC/PC marks. |
+| Hawkish re-arm persists | VIX holds >18/20, HYG/JNK underperform, USDJPY stays >160, KRE/WAL/BIZD continue weak, HY OAS widens T+1 | Re-opens R1/R6/vol fragility and could transmit into R3 if credit/banks follow. |
+| Reversal / soft-kill resumes | VIX crushes back <17/<15, HYG stabilizes/compresses, banks rebound, HY OAS moves toward <260 | Would reassert bull tape and threaten the blended-credit bear axis. |
+| Mixed/unresolved | HY stays >260 and <300, VIX elevated but not >25, banks weak but above thresholds | Current base case: fragile calm cracked, broad cascade unconfirmed. Re-anchor to claims/TIC and late-Jun/Jul BDC marks. |
 
-**HY discipline:** HY OAS **271 [FRED 6/16]** is still above <260. Use live proxies, but do not declare R3 kill on intraday action. Confirm with FRED T+1 and require sustained <260.
+**HY discipline:** HY OAS **271 [FRED 6/16]** is still above <260. Confirm with FRED T+1 and require sustained <260 before declaring R3/blended-credit kill.
 
 ---
 
@@ -73,7 +73,7 @@
 
 | Pri | Work | Action |
 |---|---|---|
-| 🔴 | **Post-FOMC synthesis** | Fresh dashboard/proxies; check 2Y/HYG/VIX/USDJPY/TLT; confirm HY OAS T+1. |
+| 🔴 | **Post-FOMC confirmation** | 6/18 FRED HY OAS + claims + TIC/FXY + VIX/HYG/KRE/WAL persistence. |
 | 🟠 | **WALTER Phase 2 consumption rollout** | Coordinate recipient consume-step; OpenClaw agents first; avoid direct recipient edits unless scoped. |
 | 🟠 | **Quick-WALTER acceptance test** | PROME-spawned test of route-only path, delivery_log, and Iran-anchor guard. |
 | 🟠 | **IMMEDIATE/FLASH → Claude Code push rail** | Prome to operate clean-tree scoped commit + normal push only under urgent policy. |
@@ -88,4 +88,4 @@
 - No `AGENTS/*` edits unless explicitly approved.
 - No old May/Jun option rails without broker/Will reconciliation.
 - WALTER delivery-lane exception is narrow; not a general inbox/outbox/HERMES revival.
-- HEARTBEAT needs post-FOMC update only after synthesis, not from the first impulse alone.
+- HEARTBEAT is post-FOMC as of 17:15 ET; next update only if 6/18 confirmation data changes regime.

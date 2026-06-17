@@ -1,15 +1,15 @@
 # PROME STATUS.md
-**Updated:** 2026-06-17 16:20 ET (OpenClaw Prome — WALTER Routing v2 shipped; post-FOMC handoff)
+**Updated:** 2026-06-17 17:15 ET (OpenClaw Prome — post-FOMC regime update)
 
 ## Core State
 
 **Operational priority:** WALTER Routing v2 Phase 1 is shipped. Next system-work lane is PROME-side follow-through: Phase 2 recipient consumption rollout, Quick-WALTER live acceptance test, and clean-tree push behavior for IMMEDIATE/FLASH deliveries to Claude Code recipients.
 
-**Market priority:** FOMC happened; do not update regime from the first impulse alone. Next market-work lane is post-FOMC synthesis with fresh dashboard/proxies and FRED T+1 HY confirmation.
+**Market priority:** Post-FOMC update is done: hawkish-of-pricing branch fired, broad cascade not confirmed. Next market-work lane is 6/18 confirmation: FRED HY OAS, claims, TIC/FXY, and persistence in VIX/HYG/KRE/WAL.
 
 **Current repo reality:** WALTER pushed to GitHub and Prome pulled cleanly. Repo was clean/synced before this closeout. Prome closeout edits are local until committed. Continue **pathspec-only** commits; push only when Will explicitly approves.
 
-**Regime source:** `HEARTBEAT.md` is still pre-FOMC. Refresh after a proper post-FOMC synthesis if regime changed. Latest dashboard snapshot is in `PROME/SCRATCH.md` / `TODAY.md`.
+**Regime source:** `HEARTBEAT.md` is post-FOMC as of 17:15 ET. Latest dashboard snapshot is in `HEARTBEAT.md` / `PROME/TODAY.md`.
 
 **Standing constraint:** **do not edit `AGENTS/*`** unless Will explicitly approves/scopes it. WALTER owns WALTER-domain edits; recipient agents own their own consume-step integration.
 
@@ -19,7 +19,7 @@
 
 | Surface | Role | Current note |
 |---|---|---|
-| `HEARTBEAT.md` | Regime, dashboard, thresholds, near gates | Pre-FOMC. Needs update only after proper post-FOMC regime read. |
+| `HEARTBEAT.md` | Regime, dashboard, thresholds, near gates | Post-FOMC hawkish re-arm / unresolved divergence. |
 | `PROME/TODAY.md` | Operator card / immediate lane | Updated for WALTER v2 landed + post-FOMC next rails. |
 | `PROME/ACTIVE_DECISIONS.md` | Safety index for trade/expiry rails | WALTER row moved to Phase-1 shipped / Phase-2 pending. FOMC row remains monitor-only pending T+1 HY/post-event synthesis. |
 | `PROME/SCRATCH.md` | Working notes / latest session entry | Current closeout entry point. |
@@ -39,7 +39,7 @@
 | **WALTER cron/feed health** | 🟠 stale upstream feeds | Doctor still flags stale `news-sweep`, `filing-watch`, `SIGNALS/inbound`; not caused by Routing v2. |
 | **NEXUS synthesis** | ✅ pre-FOMC review-passed | ORC four-group read upheld matrix. Needs post-FOMC synthesis if market lane resumes. |
 | **LABOR pushed fixes** | ✅ landed | Functional fixes reviewed cleanly; claims 6/18 remains live. |
-| **FOMC grading** | 🔴 post-event synthesis pending | Initial QQQ reaction was risk-off/whipsaw with absorption bounce. Need fresh cross-asset read and HY OAS T+1 before regime conclusion. |
+| **FOMC grading** | ✅ initial post-event update done; confirmation pending | Hawkish-of-pricing branch fired; broad cascade not confirmed. Need 6/18 HY/claims/TIC + persistence. |
 | **Position/broker reconciliation** | 🟠 pending | Keep separate from repo/doc cleanup; no expiry action without broker/Will truth. |
 
 ---
@@ -49,7 +49,7 @@
 | Lane | Priority | Status / owner note |
 |---|---:|---|
 | Post-closeout / fresh window boot | 🔴 active | Pull/verify repo; read SCRATCH/TODAY/ACTIVE_DECISIONS. |
-| Post-FOMC synthesis | 🔴 next market lane | Use fresh 2Y/HYG/VIX/USDJPY/TLT/credit proxy; confirm HY OAS via FRED 6/18. |
+| Post-FOMC confirmation | 🔴 next market lane | Confirm with 6/18 FRED HY OAS, claims, TIC/FXY, VIX/HYG/KRE/WAL persistence. |
 | WALTER Phase 2 consumption rollout | 🟠 next system lane | Coordinate recipient consume-step rollout; OpenClaw agents first; do not directly edit recipient docs unless scoped. |
 | Quick-WALTER acceptance test | 🟠 pending | PROME-spawned route-only test to validate BOARD + delivery file + delivery_log + anchor guard. |
 | IMMEDIATE/FLASH → CC push behavior | 🟠 pending operational rail | PROME owns clean-tree scoped commit + normal push behavior when urgent delivery to Claude Code recipient requires origin. |
@@ -75,4 +75,4 @@
 
 ## Next Best Action
 
-After `/new`: boot clean, then choose lane: (a) post-FOMC synthesis with T+1 HY confirmation discipline, or (b) WALTER Phase 2 / Quick-WALTER acceptance test. Do not touch positions without Will/broker truth.
+Next: either monitor 6/18 post-FOMC confirmation data or continue WALTER Phase 2 / Quick-WALTER acceptance test. Do not touch positions without Will/broker truth.
