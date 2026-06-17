@@ -27,7 +27,7 @@
 
 ## GAPS
 
-- **Push DEFERRED** — this session's commits ride the next Will/PROME-opened window, alongside the still-unpushed 6/16 PM 4 commits (standing policy; other agents active in tree).
+- ✅ **PUSHED** — Will opened a push window at close; committed + pushed (`22216de3` build + `785059f4` auto-memory), clean `pull --rebase` over PROME closeout `54be3705`, tree synced (ahead 0 / behind 0). The 6/16 PM commits were already on origin from a prior window.
 - **Phase 2 NOT shipped** — recipient consume boot-step is WALTER-defines/others-apply. OpenClaw via PROME (start BRENT); CC self-apply on next spawn. The `delivered_but_unconsumed` telemetry will flag the BRENT/HAWK backfills as unconsumed after 2 days until BRENT's consume step lands — that is the intended visibility, not a bug.
 - **`board_log` `source` column** — defined in spec v0.2; existing agent logs (CARL/REGINALD 9-col, HAWK 4-col) migrate on each agent's next touch (WALTER does not edit them).
 - **3 dead cron feeds** — unchanged (news-sweep 31d / filing-watch 41d / SIGNALS 15d); PROME/SENTRY-owned, escalated.
@@ -35,8 +35,8 @@
 
 ## WILL_NEEDS
 
-1. **Diff-stat review** — the build's diff-stat is below in the session output; it gets a read-only review against the v2 spec before commit (per your instruction). **Awaiting your go to commit-local.**
-2. **Next push window** — 6/17 build + the 6/16 PM 4 commits both waiting.
+1. ✅ **Diff-stat reviewed (ORC) + committed + pushed.** ORC verdict: clean and faithful. Pushed `22216de3` + `785059f4`, synced.
+2. ✅ **Push done** — window opened at close; tree synced to origin.
 3. **Phase 2 kickoff** — when ready, PROME installs the consume boot-step in BRENT's CLAUDE.md (template in BOARD_CONSUMPTION_SPEC §8.1); CC agents self-apply.
 4. **🔴 Cron health escalation** (unchanged) — all 3 boot-triage feeds dead; PROME (news-sweep + filing-watch) / SENTRY (SIGNALS).
 5. **6/17 FOMC today ~2 PM ET** (cut→HIKE ~52%); **6/19 Geneva Iran signing = binary** anchor re-verify.
