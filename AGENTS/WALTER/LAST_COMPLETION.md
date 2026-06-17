@@ -6,7 +6,7 @@
 
 ## STATUS
 
-**2026-06-16 Tue PM (~5:30-6:30 PM ET, Will-Telegram boot — WALTER self-audit + doc-drift fix; 2nd 6/16 session, 3-cycle structure).** Will: "audit WALTER first," then "3 messages to fix this" (Will-propelled cycles). Boot (clean tree, synced; loaded context from the AM session 2hr prior rather than re-running heavy boot) → full domain audit via 3 parallel read-only sweeps → 3 fix cycles → closeout. **0 dispatches / 0 KILLs / 3 audit sub-agents (~$0.20).**
+**2026-06-16 PM → 6-17 (Will-Telegram, one long Will-propelled session — WALTER self-audit + doc-drift fix + health-scan build).** Will: "audit WALTER first" → "3 messages to fix this" → "plan/build the registry-lag check" → "refresh" → "close out." Arc: full domain audit (3 parallel read-only sweeps) → 3 fix cycles (STATE.md refresh / reference-doc sync / version-drift guard) → generalized the guard into `walter_doctor.py` 7-check boot scan → added `registry_lag` → lag-driven 5-row Tier-2 registry refresh → closeout. **0 dispatches / 0 KILLs / 3 audit sub-agents (~$0.20) / 4 commits, all push-deferred.**
 
 ## CHANGED
 
@@ -33,7 +33,7 @@
 
 ## GAPS
 
-- **Push DEFERRED** — this session's commit rides the next Will-opened window (standing policy; other agents active in tree).
+- **Push DEFERRED** — this session's **4 commits** (bcf58d39 audit-fix / 0d9f055b walter_doctor / 1638115a registry_lag / 015f4548 registry-refresh+hardening) ride the next Will-opened window (standing policy; other agents active in tree).
 - **3 dead cron feeds — ESCALATED to Will, not WALTER-fixable** (upstream PROME/SENTRY-owned): `news-sweep/latest.md` 30d, `filing-watch/latest.md` 40d, `SIGNALS/inbound.md` 14d. Every boot-triage source is non-functional. Needs a PROME/SENTRY cron health check.
 - **Auto-memory edit** — the extension to `finding_doc_mirror_consistency_check.md` lives in the symlinked memory dir (layout in flux per `[[project_automem_symlink_migration]]`); not committed under WALTER scope — left to memory-sync owner.
 - **INDEX slim-down still the one open design item** — needs Orch schema echo-back (unchanged).
@@ -96,4 +96,4 @@
 
 *Maintenance note: overwritten each session per CLAUDE.md spawn protocol step 15.*
 
-*6/16 Tue PM #2: WALTER self-audit (3 sweeps; operational layer clean, directory/reference layer stale) → 3-cycle fix (STATE.md refresh + reference-doc sync + `version_drift_check.py` recurrence guard) + 3 dead crons escalated to Will. 0 dispatches; push deferred.*
+*6/16 PM→6/17: WALTER self-audit (3 sweeps; operational layer clean, directory/reference layer stale) → 3-cycle fix (STATE.md refresh + reference-doc sync + `version_drift_check.py`) → generalized to `walter_doctor.py` 7-check boot scan (step 0.5) incl. `registry_lag` → lag-driven 5-row Tier-2 registry refresh → check hardened 3× vs the agents-without-STATUS confound. 3 dead crons escalated to Will. 0 dispatches; 4 commits push-deferred.*
