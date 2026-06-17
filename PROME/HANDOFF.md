@@ -6,6 +6,22 @@
 
 ---
 
+## 2026-06-17 ~11:05 ET — Closeout before clear; WALTER direct-routing next
+
+**Status:** Prome pulled WALTER's latest GitHub work and reviewed it. WALTER's self-audit/doc-health pass is good: spec drift fixed, BOARD reconciles, and new doctor/version tools exist. It did **not** implement direct recipient delivery yet; WALTER still documents BOARD-only routing. Next clear-window task is to have WALTER supersede BOARD-only with BOARD-first archive + recipient-local `AGENTS/{AGENT}/inbox/WALTER/` handoffs.
+
+**What landed this session:**
+- Pulled WALTER updates cleanly. New tools reviewed: `AGENTS/WALTER/tools/version_drift_check.py` and `AGENTS/WALTER/tools/walter_doctor.py`.
+- Ran checks: version drift clean; BOARD reconciles at 285 signals; WALTER doctor flags 3 MED stale upstream feeds (`news-sweep`, `filing-watch`, `SIGNALS/inbound`).
+- Caught one WALTER doc nit: boot command references `.venv/bin/python3`, but no `.venv` exists in this workspace; use `python3` or patch the instruction.
+- With Will, settled preferred routing model: `BOARD` = canonical archive/history; `AGENTS/{AGENT}/inbox/WALTER/` = delivery/tasking; `published` ≠ `delivered` ≠ `consumed`.
+
+**Next suggested work:** spawn/instruct WALTER to update its own docs/process for direct recipient handoffs, patch the `.venv` command, and audit/backfill SIG-W-20260610-001/-002 for BRENT where appropriate. Run `walter_doctor.py` after edits; expect stale-feed MEDs unless upstream cron is fixed.
+
+**Guardrails:** Prome should not directly edit `AGENTS/*` unless Will scopes it; WALTER should own WALTER-domain edits. No trade execution. Refresh market dashboard/proxies before any FOMC read.
+
+---
+
 ## 2026-06-16 ~16:44 ET — Prome state correction before next work
 
 **Status:** Prome surfaces corrected after fresh boot/pull. Repo is clean/synced with origin. TODAY + HEARTBEAT refreshed from dashboard. WALTER is now **partially repaired** (6/16 anchor/registry/staleness sweep pushed), not simply stale; remaining work is routing receipts + cron/feed health. No trade actions taken.
