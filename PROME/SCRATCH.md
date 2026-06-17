@@ -1,63 +1,61 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-16 16:44 ET (OpenClaw Prome — state correction before next work)
+**Last Updated:** 2026-06-17 11:05 ET (OpenClaw Prome — closeout before clear; WALTER direct-routing next)
 
 ## What Just Happened
 
-Will asked to get Prome right before doing anything else. Prome booted, verified repo state, pulled fresh origin updates, and corrected Prome-owned boot surfaces.
+Will asked clarifying questions about WALTER signal intake and routing architecture, then asked Prome to pull WALTER's latest GitHub work and review it before moving to a fresh window.
 
 Completed:
 
-1. **Repo truth verified.**
-   - `master` is clean and synced with `origin/master`.
-   - Earlier local Prome commits were already rebased/pushed; no local unpushed Prome commits remain.
-   - Fresh origin included WALTER repair commits and memory/auto sync.
-2. **WALTER state corrected in Prome framing.**
-   - WALTER is no longer simply “stale 6/10.”
-   - 6/16 WALTER work landed: Iran anchor re-stamped to **DE-ESCALATION PENDING — UNSIGNED MOU / fragile truce**, registry refreshed, staleness sweep added, Iran-cluster lifecycle tags applied.
-   - Remaining WALTER issue: routing/receipt + cron/feed reliability. Treat as diagnosis continuation, not untouched stale-agent failure.
-3. **Market/regime surfaces refreshed.**
-   - Ran dashboard at ~16:44 ET.
-   - Updated `PROME/TODAY.md` and `HEARTBEAT.md` with HY **266 [FRED 6/15]**, CCC **937 [FRED 6/15]**, Brent **$79.49**, VIX **16.41**, USD/JPY **160.48**, BIZD **$12.62**, etc.
-   - Core read: fragile calm / bull tape with unresolved tail; HY is only 6bp from <260 R3 kill.
-4. **NEXUS/LABOR review state preserved accurately.**
-   - NEXUS matrix passed ORC four-group review; no rows overturned.
-   - LABOR functional fixes landed and later hygiene commit cleaned stale handoff/push contradictions.
-   - NEXUS/LABOR brief treatment remains a propagation/design issue, not a functional blocker.
+1. **Pulled WALTER updates from GitHub.**
+   - Fast-forwarded cleanly to current `origin/master`.
+   - WALTER pushed a self-audit/doc-infra pass, not the direct-routing architecture change yet.
+2. **Reviewed WALTER changes.**
+   - `version_drift_check.py` now verifies spec headers vs `design/STATE.md`.
+   - `walter_doctor.py` now runs a broader read-only health scan: spec drift, BOARD reconciliation, cron feed liveness, outbox age, registry staleness/lag, and liaison enumeration.
+   - Version drift check passed; BOARD reconciled at 285 signals.
+   - Doctor surfaced 3 MED issues: stale upstream feeds (`news-sweep`, `filing-watch`, `SIGNALS/inbound`).
+   - Caught one implementation nit: WALTER boot doc references `.venv/bin/python3`, but this workspace currently has no `.venv`; use `python3` unless WALTER repairs that.
+3. **Designed WALTER routing architecture direction with Will.**
+   - Agreed preferred model: **BOARD = canonical archive/history; `AGENTS/{AGENT}/inbox/WALTER/` = actual delivery/tasking surface.**
+   - One recipient-local handoff file per signal; avoid a single giant rolling `WALTER.md`.
+   - New semantics proposed: `published` = BOARD, `delivered` = recipient-local handoff exists, `consumed` = agent processed/logged/moved it.
+   - This has **not** been implemented yet; next session should give WALTER the directive and let WALTER edit its own docs/process.
+4. **Refreshed dashboard once during heartbeat poll.**
+   - Dashboard pull around this session: HY OAS **271 [6/16]**, CCC **944 [6/16]**, Brent **$80.72**, VIX **16.55**, USD/JPY **160.26**, BIZD **$12.55**.
+   - No regime-level rewrite was done; HEARTBEAT remains the current regime file but should be refreshed if used post-FOMC.
 
-No trade execution. No external/public messages.
+No trade execution. No external/public messages. No `AGENTS/*` edits by Prome.
 
 ## Current Git State
 
-Current repo is clean/synced with origin after pulling WALTER + memory updates.
+Repo was clean/synced after pull before closeout edits. After this closeout, expect Prome-owned files and `memory/2026-06-17.md` to be locally modified/new until committed.
 
-Expected if checked now:
-
-- `git status --short --branch` → `## master...origin/master`
-- ahead/behind → `0 0`
+Push remains Will-gated. If committing, use pathspec-only commit for Prome/memory files; do not broad-stage.
 
 ## Current Operating Picture
 
-- **FOMC Jun17 is the next macro resolver.**
-  - Hawkish-of-pricing: re-arms R1 / trips Japan-carry / tests vol coiled spring.
-  - Dovish/risk-on in-line: can compress HY through <260 and kill surviving R3 blended-credit bear axis.
-  - Use sustained <260 discipline; FRED HY OAS is T+1, so grade live with HYG/intraday credit proxy and confirm next day.
-- **WALTER is partially repaired.** Anchor/registry/staleness sweep improved; still need routing receipts and cron/feed health before treating inbox completeness as reliable.
-- **Position-state remains unreconciled.** No expiry action without broker/Will truth.
-- **Prome surfaces are now the owner of current state:** TODAY + HEARTBEAT refreshed; STATUS/HANDOFF/ACTIVE_DECISIONS being aligned in this pass.
+- **Today is FOMC day (Wed Jun17).** FOMC/dots/SEP + VIX expiry stack remains the macro resolver. Refresh dashboard/proxies before any market read.
+- **HY kill-line discipline remains live.** Latest dashboard pull showed HY OAS 271 [6/16], still above <260 kill; confirm with FRED T+1 before declaring R3/blended-credit kill.
+- **WALTER direct-routing architecture is the next system-work entry point.** WALTER's self-audit tools improved doc/health discipline, but delivery architecture still says BOARD-only. Next step is to have WALTER supersede BOARD-only with BOARD-first + recipient-local handoffs.
+- **Upstream feed cron health is still broken/stale.** WALTER doctor flags news-sweep, filing-watch, and SIGNALS/inbound as stale.
+- **Position-state remains unreconciled.** No expiry/trade action without broker/Will truth.
 
 ## Next Reboot Entry Point
 
-1. Follow `PROME/BOOT.md`; repo should be clean/synced.
-2. If Will asks for market/FOMC work, refresh dashboard first and use `PROME/TODAY.md` + `HEARTBEAT.md` as current Prome surfaces.
-3. If Will asks for WALTER work, run diagnosis continuation:
-   - confirm current cron/feed state,
-   - verify routed-signal receipts,
-   - trace whether SIG-W-20260610-001/-002 has been resolved or remains a dispatch-path defect.
-4. If Will asks for positions/expiry, run separate broker/position reconciliation; do not infer from old rails.
+1. Follow `PROME/BOOT.md`; pull/verify repo first.
+2. If continuing WALTER work, give WALTER the direct-routing directive:
+   - canonical BOARD write remains,
+   - create `AGENTS/{RECIPIENT}/inbox/WALTER/` handoff files for action/info recipients,
+   - update WALTER docs/checklists/status/last completion,
+   - patch `.venv/bin/python3` boot-command issue,
+   - audit/backfill at least SIG-W-20260610-001/-002 for BRENT where appropriate.
+3. Run WALTER doctor after WALTER edits; expect cron-feed MEDs unless upstream cron is fixed.
+4. If pivoting to FOMC, refresh dashboard/live proxies first; do not use stale Jun16 levels as live truth.
 
 ## Cautions
 
-- No `AGENTS/*` edits unless Will explicitly approves; Prome can review/read freely.
-- No trade execution.
-- Old option/action-card rails are historical unless broker/Will truth refreshes them.
-- Dashboard levels in current surfaces are timestamped ~16:44 ET; refresh before reuse.
+- Prome may read/audit `AGENTS/*`; do not edit agent files unless Will explicitly scopes it. For WALTER architecture changes, prefer spawning/instructing WALTER to edit its own domain.
+- No trade execution or position recommendations unless explicitly asked.
+- Old option/action-card rails remain verification-required until broker/Will reconciliation.
+- HEARTBEAT is not post-FOMC; refresh after event or if >48h stale during market week.
