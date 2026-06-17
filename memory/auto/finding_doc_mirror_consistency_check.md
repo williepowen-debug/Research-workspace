@@ -1,8 +1,10 @@
 ---
 name: doc-mirror-consistency-check
-description: Doc-ownership tables should encode canonical→mirror DIRECTIONS, not just "what each doc owns"; a closeout/boot check then verifies each pair agrees (canonical wins on mismatch). Catches silent state-file drift.
-metadata:
+description: "Doc-ownership tables should encode canonical→mirror DIRECTIONS, not just \"what each doc owns\"; a closeout/boot check then verifies each pair agrees (canonical wins on mismatch). Catches silent state-file drift."
+metadata: 
+  node_type: memory
   type: finding
+  originSessionId: 066763cb-497f-423f-af9a-8802912affcb
 ---
 
 A doc-ownership table that only lists "what each doc owns" doesn't prevent the most common state-file rot: a **mirror** drifting from its **canonical** source. The fix is to encode the *direction* (X is canonical, Y mirrors X) in the table, then add a consistency-check step that verifies each pair agrees — **canonical wins on mismatch**.
@@ -15,3 +17,7 @@ A doc-ownership table that only lists "what each doc owns" doesn't prevent the m
 - Best: **script it** (`scripts/consistency_check.py`, sibling of the catalyst countdown) and run it as a **boot scan** too — a manual eyeball check every boot gets skipped, and drift accumulates *between* sessions, so boot-side detection is the higher-value half.
 
 Validated CARL Jun 6 2026: the check caught a real STATUS↔PREDICTIONS drift (3 OPEN predictions absent from the STATUS mirror) on its **first dogfood run** — the same failure class the audit had flagged hours earlier. Transferable to BRENT/SAM/REGINALD/HENRY — they have the ownership / one-source pieces but not the mirror-direction encoding. See [[finding_boot_closeout_hardening_recipe]], [[feedback_intra_day_closeout_discipline]].
+
+Validated again WALTER Jun 16 2026 (version-mismatch instantiation): a full WALTER audit found `design/STATE.md` §1 — the "what's shipped at what version" directory — had silently fallen **2 versions behind all four core specs** (FORMAT_SPEC v0.8→actual v0.10, ROUTING_TABLE v0.8→v0.10, CHECKLIST v0.11→v0.13) plus a spec missing from the table entirely, because version-bumps land in the owning spec but nothing sweeps the pointer doc on the same commit. Built `tools/version_drift_check.py` — greps each spec's self-declared header version, diffs against the version STATE §1 claims, fail-loud exit 1 (proven with an inject-and-restore negative test). The canonical→mirror direction here is **spec header → STATE §1**; the mirror loses. Generalizes the pattern from "set membership" (CARL's OPEN-IDs) to "scalar version match." Any agent with a directory/index doc that restates versions/counts/states owned elsewhere wants this guard wired into closeout (run when the owned thing changed) + boot. The operational tell that you need it: every session sweeps STATUS/MEMORY but the *directory* doc only gets touched when someone goes looking.
+
+Extended again WALTER Jun 17 2026 into a multi-check boot scan (`tools/walter_doctor.py`) — including `registry_lag`, which mechanizes [[finding_board_lags_agents_not_vice_versa]] by diffing each agent's hand-maintained REGISTRY `Updated` date against the **git commit date of its STATUS.md** (when it last actually worked). Caught 5 lagging rows a Tier-1-only manual refresh had structurally missed. **Transferable caveat for any check that uses git-commit-date as an activity proxy:** the proxy has two failure modes you must guard, both found by dogfooding — (1) a file's git date survives the file's *deletion* (`git log` returns the last commit that touched a now-deleted path), so check existence on disk before trusting it; (2) **dir-level fallback is unreliable** — `git log -- AGENTS/<x>/` catches *cross-agent / bulk* commits that merely touched the dir (a "HANS/MARCO STATUS + memory logs" commit made a dormant DARWIN look "+71d active"), so cap dir-fallback findings at INFO, never let them drive an attention-grade flag. The clean signal is a file the agent itself owns and updates (STATUS.md), existence-checked.
