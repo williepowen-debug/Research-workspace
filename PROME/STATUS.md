@@ -7,7 +7,7 @@
 
 **Market priority:** Post-FOMC update is done: hawkish-of-pricing branch fired, broad cascade not confirmed. Next market-work lane is 6/18 confirmation: FRED HY OAS, claims, TIC/FXY, and persistence in VIX/HYG/KRE/WAL.
 
-**Current repo reality:** WALTER pushed to GitHub and Prome pulled cleanly. Repo was clean/synced before this closeout. Prome closeout edits are local until committed. Continue **pathspec-only** commits; push only when Will explicitly approves.
+**Current repo reality:** clean working tree, **ahead 1** with local commit `PROME: post-FOMC regime update`. Continue **pathspec-only** commits; push only when Will explicitly approves.
 
 **Regime source:** `HEARTBEAT.md` is post-FOMC as of 17:15 ET. Latest dashboard snapshot is in `HEARTBEAT.md` / `PROME/TODAY.md`.
 

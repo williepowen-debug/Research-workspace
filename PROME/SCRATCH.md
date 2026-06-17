@@ -47,16 +47,14 @@ No trade execution. No public/external messages. Prome did not edit `AGENTS/*`; 
 
 ## Current Git State
 
-At closeout start, repo was clean and synced with origin after WALTER’s push. Prome closeout edits are local until committed. Push remains Will-gated.
-
-If committing this closeout: pathspec-only for `PROME/*` and `memory/2026-06-17.md`; do not broad-stage.
+Repo is clean and **ahead 1** after local commit `PROME: post-FOMC regime update`. Push remains Will-gated.
 
 ## Current Operating Picture
 
 - **WALTER Routing v2 Phase 1 is shipped.** Delivery layer is live; consumption rollout is still pending.
 - **Expected anti-rot nag:** delivered-but-unconsumed will start flagging the BRENT/HAWK backfills after ~2 days if Phase 2 recipient consumption is not rolled out. That is intended telemetry, not a WALTER failure.
 - **PROME-side follow-through remains:** operate clean-tree scoped push for IMMEDIATE/FLASH-to-Claude-Code deliveries when needed; design/coordinate Phase 2 consume-step rollout; run live Quick-WALTER acceptance test.
-- **FOMC happened but needs proper post-event synthesis.** Initial QQQ reaction was risk-off/whipsaw with absorption bounce; dashboard shows VIX into yellow and USD/JPY still red. Need HENRY/LIQUID/NEXUS/VIOLET style post-FOMC synthesis or at least fresh dashboard + FRED T+1 HY before changing regime.
+- **Post-FOMC synthesis is now logged in HEARTBEAT.** Working model: hawkish-FOMC re-arm / unresolved divergence. Broad cascade not confirmed; 6/18 FRED HY + claims + TIC/FXY are confirmation gates.
 - **HY kill-line discipline remains live.** Latest FRED HY OAS is still 271 [6/16], above <260 kill. Confirm 6/17 OAS on 6/18.
 - **Position-state remains unreconciled.** No expiry/trade action without broker/Will truth.
 
@@ -75,4 +73,4 @@ If committing this closeout: pathspec-only for `PROME/*` and `memory/2026-06-17.
 - Do not touch recipient agent docs for WALTER Phase 2 unless Will scopes it; coordinate/apply via proper owner path.
 - WALTER lane exception is narrow: WALTER signal delivery only, not a general inbox/outbox/HERMES revival.
 - No trade execution or position recommendations unless explicitly asked.
-- HEARTBEAT is still pre-FOMC; update only with a proper post-FOMC regime read, not just a chart impulse.
+- HEARTBEAT is post-FOMC as of 17:15 ET; update again only if 6/18 confirmation data changes regime.
