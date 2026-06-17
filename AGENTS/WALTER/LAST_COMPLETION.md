@@ -15,6 +15,7 @@
 - **`design/SIGNAL_PROCESSING_CHECKLIST.md`** (C2) — line 25 Domain Vocabulary 13→**15 codes** (added ASIA_CONTAGION + UST_FOREIGN).
 - **`CLAUDE.md`** (C2+C3) — "10 clusters"→**11** ×4 (boot step 7, KEY DESIGN FILES, canonical-source row); cluster-field pin v0.7→"introduced v0.7, schema v0.10"; dropped stale "(FORMAT_SPEC update pending)"; **added 2 missing canonical-source rows** (narrative_channel v0.9 + status/status_ref v0.10); **wired the version-drift guard into the closeout-batching note**.
 - **`tools/version_drift_check.py`** (C3 — NEW) — fail-loud diff of each core spec's self-declared header version vs STATE.md §1; inject-and-restore negative-tested (exit 1 on drift, exit 0 clean).
+- **`tools/walter_doctor.py`** (C3 extension — NEW, Will-approved) — generalized the guard into a 6-check read-only domain health scan (version-drift / BOARD reconcile / cron-liveness / outbox-age / REGISTRY-staleness / LIAISON-enum); exit = count of HIGH+MED; both HIGH paths inject-restore tested. **Wired into boot as spawn-protocol step 0.5** (CLAUDE.md) + STATE §4 rows for both tools. First live run reproduced the manual audit exactly (version-drift clean / BOARD 285 reconciles / 3 dead crons caught / OZK 54d flagged).
 - **`STATUS.md`** — lead stamp refreshed for the audit session + new SESSION LOG row; trimmed table to last-5 (6/04 row archived to SESSION_LOG.md).
 - **`SESSION_LOG.md`** — archived the 6/04 retroactive row (newest-first roll-in).
 - **`MEMORY.md`** — Session Notes rewritten (CHANGES SINCE = audit session; prior AM session compressed).
@@ -66,7 +67,7 @@
 
 **Infra / process:**
 12. **🔴 3 dead cron feeds** — news-sweep 30d / filing-watch 40d / SIGNALS 14d (WILL_NEEDS #2; PROME/SENTRY-owned).
-13. **🟢 Run `tools/version_drift_check.py` at closeout** whenever a spec bumps (now in CLAUDE.md) — and consider adding to boot.
+13. **🟢 `tools/walter_doctor.py` runs at boot (step 0.5)** — full 6-check health scan; surface HIGH/MED in boot reply. `version_drift_check.py` still runs at closeout when a spec bumps. **Future check candidates:** REGISTRY-dates-vs-agent-STATUS-commit-dates (mechanize the board-lags-agents finding), LIAISON manifest-vs-disk cross-check, per-cluster latest-date verification.
 
 **LIAISON + routing:**
 14. **🟠 RED Turn 8 / REGINALD Turn 7** responses (files untouched since 6/6 re-engagement).
@@ -81,7 +82,7 @@
 
 - INDEX status-column for tagged signals — decide at slim-down (#40)
 - Staleness-sweep rerun cadence
-- Add `version_drift_check.py` to the BOOT sequence too (not just closeout)? — cheap, catches between-session drift
+- ~~Add version-drift check to BOOT~~ RESOLVED — `walter_doctor.py` wired to boot step 0.5
 - CARL LIAISON close stamp — when CARL inactive
 - HENRY LIAISON priority confirmation
 - VIX-spike trigger candidate — propose in RED Turn 8
