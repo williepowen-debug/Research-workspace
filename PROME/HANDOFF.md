@@ -6,19 +6,31 @@
 
 ---
 
-## 2026-06-17 ~11:05 ET — Closeout before clear; WALTER direct-routing next
+## 2026-06-17 ~16:20 ET — WALTER Routing v2 shipped; closeout before new window
 
-**Status:** Prome pulled WALTER's latest GitHub work and reviewed it. WALTER's self-audit/doc-health pass is good: spec drift fixed, BOARD reconciles, and new doctor/version tools exist. It did **not** implement direct recipient delivery yet; WALTER still documents BOARD-only routing. Next clear-window task is to have WALTER supersede BOARD-only with BOARD-first archive + recipient-local `AGENTS/{AGENT}/inbox/WALTER/` handoffs.
+**Status:** WALTER Routing v2 Phase 1 landed and was reviewed after push. Prome pulled GitHub cleanly, read the actual files, checked the backfills, inspected the scoped memory supersession, and ran `walter_doctor.py`. New delivery checks pass; doctor exit 3 is only pre-existing stale upstream feeds. FOMC happened intraday; Prome provided educational QQQ chart-reading, but no post-FOMC regime update has been made yet.
 
 **What landed this session:**
-- Pulled WALTER updates cleanly. New tools reviewed: `AGENTS/WALTER/tools/version_drift_check.py` and `AGENTS/WALTER/tools/walter_doctor.py`.
-- Ran checks: version drift clean; BOARD reconciles at 285 signals; WALTER doctor flags 3 MED stale upstream feeds (`news-sweep`, `filing-watch`, `SIGNALS/inbound`).
-- Caught one WALTER doc nit: boot command references `.venv/bin/python3`, but no `.venv` exists in this workspace; use `python3` or patch the instruction.
-- With Will, settled preferred routing model: `BOARD` = canonical archive/history; `AGENTS/{AGENT}/inbox/WALTER/` = delivery/tasking; `published` ≠ `delivered` ≠ `consumed`.
+- WALTER now uses BOARD-first archive + recipient-local `AGENTS/{RECIPIENT}/inbox/WALTER/` delivery handoffs.
+- `published` / `delivered` / `consumed` vocabulary is codified; `delivery_log.tsv` is one row per signal × recipient.
+- Claude Code delivery is correctly defined as committed + on-origin; written-but-undelivered telemetry is git-derived.
+- Quick-vs-Full WALTER mode + Iran-anchor guard landed in WALTER CLAUDE.md.
+- Narrow backfills exist for BRENT `SIG-W-20260610-001` and HAWK `SIG-W-20260610-002`, with anchor-moved caveats.
+- Repo memories `project_messaging_overhaul` and `project_walter_cop_direction` now contain a scoped WALTER-delivery exception, not a broad inbox/HERMES revival.
 
-**Next suggested work:** spawn/instruct WALTER to update its own docs/process for direct recipient handoffs, patch the `.venv` command, and audit/backfill SIG-W-20260610-001/-002 for BRENT where appropriate. Run `walter_doctor.py` after edits; expect stale-feed MEDs unless upstream cron is fixed.
+**Files edited by Prome closeout:** `PROME/SCRATCH.md`, `PROME/STATUS.md`, `PROME/TODAY.md`, `PROME/ACTIVE_DECISIONS.md`, `PROME/HANDOFF.md`, `memory/2026-06-17.md`.
 
-**Guardrails:** Prome should not directly edit `AGENTS/*` unless Will scopes it; WALTER should own WALTER-domain edits. No trade execution. Refresh market dashboard/proxies before any FOMC read.
+**Next suggested work:** choose lane on next boot: (1) post-FOMC synthesis with fresh dashboard/proxies + FRED HY T+1, or (2) WALTER Phase 2 recipient-consumption rollout / Quick-WALTER acceptance test. `PROME/SCRATCH.md` has the detailed entry point.
+
+**Guardrails:** no trade/expiry action without broker/Will truth; no recipient-agent edits unless Will scopes them; WALTER delivery lane exception is narrow and does not revive general inbox/outbox/HERMES infra.
+
+---
+
+## 2026-06-17 ~11:05 ET — Closeout before clear; WALTER direct-routing next
+
+**Status:** Superseded by the 16:20 entry. At this point WALTER direct-routing was still pending; later in the day WALTER implemented and pushed Routing v2, and Prome reviewed it.
+
+**Durable takeaways:** WALTER self-audit/doc-health tools were good, BOARD reconciled, and the preferred routing model was settled: `BOARD` = canonical archive/history; `AGENTS/{AGENT}/inbox/WALTER/` = delivery/tasking; `published` ≠ `delivered` ≠ `consumed`.
 
 ---
 
