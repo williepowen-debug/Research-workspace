@@ -6,6 +6,12 @@
 
 ---
 
+*Rolled in from STATUS.md SESSION LOG at 2026-06-17 (WALTER Routing v2 build) closeout (1 row, 2026-06-06):*
+
+| Date | Key Activity |
+|------|-------------|
+| 2026-06-06 Fri (3 sessions) + 6/07 writeback *(retroactive row — sessions logged in lead header + LAST_COMPLETION at the time; row added 6/10 for log continuity)* | **PM-1 (~17:00 UTC): 5-decision walkthrough closeout** — all 5 open Will-decisions locked (AI_INFRA_CAPEX cap 10→15; INFLATION_TRANSMISSION cluster 11 carve; CHECKLIST v0.12 5-item ship; LIAISON re-engagement RED Turn 7 + REGINALD Turn 6 + BRENT formal close; narrative_channel FORMAT_SPEC v0.9). $0, 0 dispatches. **PM-2 (~22:00 UTC): 2 dispatches + 1 KILL** (WGC CB gold April +17t → BOND 0.85; privately-held UST <1yr $8.3T → BOND CORRECTED-FRAMING 0.70; FHA H-1B 6mo-stale KILL); de-dollarization composition-shift dual-signal; BOARD 279→281. **PM-3 (~22:26 UTC, writeback 6/07): 2 dispatches** (El Niño+fertilizer → CARL CORRECTED-FRAMING 0.60 + UKMTO Hormuz 1.1/day → BRENT SKIP-VERIFY 0.90; Phase-2 same-channel pair); BOARD 281→283; mid-session connectivity pause recovered clean via 6/7 Will check-in. |
+
 *Rolled in from STATUS.md SESSION LOG at 2026-06-16 PM (self-audit) closeout (1 row, 2026-06-04):*
 
 | Date | Key Activity |

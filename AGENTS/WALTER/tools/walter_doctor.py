@@ -11,13 +11,20 @@ surfaced for awareness.
   exit 0  = no HIGH/MED findings (LOW/INFO may still print)
   exit N  = N HIGH+MED findings — see the punch-list
 
-Checks (v1):
-  version_drift     spec header vs STATE.md §1            (reuses version_drift_check)
-  board_reconcile   ToC == section headers == SIG rows == files on disk
-  cron_liveness     3 boot-triage feeds (step 7c) vs cadence
-  outbox_age        outbox/REQ-*.md older than 14d
-  registry_staleness Tier-1 REGISTRY rows with Updated >14d
-  liaison_enum      LIAISON files on disk (informational)
+Checks:
+  version_drift          spec header vs STATE.md §1            (reuses version_drift_check)
+  board_reconcile        ToC == section headers == SIG rows == files on disk
+  cron_liveness          3 boot-triage feeds (step 7c) vs cadence
+  outbox_age             outbox/REQ-*.md older than 14d
+  registry_staleness     Tier-1 REGISTRY rows with Updated >14d
+  registry_lag           REGISTRY date vs agent's last STATUS commit (board-lags-agents)
+  liaison_enum           LIAISON files on disk (informational)
+  delivered_but_unconsumed  inbox/WALTER/ handoff delivered but not moved to processed/ (>N days)
+  written_but_undelivered   inbox/WALTER/ handoff committed-local but not on origin (git-derived)
+
+The two delivery checks mechanize BOARD_CONSUMPTION_SPEC v0.2 §6 (the anti-rot
+safeguard for the WALTER Routing v2 delivery layer). Sync/origin state is derived
+READ-ONLY from git — PROME never writes a flag (requirement B of the v2 packet).
 
 Informational, never a boot gate. Stdlib only. Add checks by appending to CHECKS.
 """
@@ -36,6 +43,13 @@ sys.path.insert(0, str(HERE))
 
 HIGH, MED, LOW, INFO = "HIGH", "MED", "LOW", "INFO"
 TODAY = dt.date.today()
+
+# Claude-Code recipients (own clone → delivered = committed AND on origin).
+# Everyone else routes via the OpenClaw shared VPS clone. OZK is CC per root
+# CLAUDE.md (* = Claude Code). Source: BOARD_CONSUMPTION_SPEC v0.2 §3.3.
+CC_AGENTS = {"CARL", "REGINALD", "SAM", "RED", "OZK"}
+# delivered handoff older than this (days) without being consumed → flag
+N_UNCONSUMED_DAYS = 2
 
 
 def _age_days(d: dt.date) -> int:
@@ -280,6 +294,112 @@ def check_liaison_enum():
     return [(INFO, f"LIAISON files ({len(files)}): " + " · ".join(items))]
 
 
+# ── delivery layer: handoff discovery + git-derived sync state ──────────────
+def _handoff_files():
+    """Non-processed WALTER delivery handoffs: (path, recipient, relpath, platform).
+    Globs AGENTS/*/inbox/WALTER/*.md, excluding anything under processed/."""
+    out = []
+    for p in (REPO / "AGENTS").glob("*/inbox/WALTER/*.md"):
+        if "/processed/" in p.as_posix():
+            continue
+        recipient = p.relative_to(REPO / "AGENTS").parts[0]
+        platform = "CLAUDE_CODE" if recipient in CC_AGENTS else "OPENCLAW"
+        out.append((p, recipient, str(p.relative_to(REPO)), platform))
+    return out
+
+
+def _origin_ref():
+    """First existing origin head ref, or None (fresh/shallow clone)."""
+    for ref in ("origin/master", "origin/main"):
+        try:
+            r = subprocess.run(["git", "-C", str(REPO), "rev-parse", "--verify",
+                                "--quiet", ref], capture_output=True, text=True, timeout=10)
+        except (OSError, subprocess.SubprocessError):
+            return None
+        if r.returncode == 0 and r.stdout.strip():
+            return ref
+    return None
+
+
+def _sync_state(relpath: str, origin_ref) -> str:
+    """READ-ONLY git derivation of a handoff's delivery/sync state (requirement B).
+    Returns: 'uncommitted' / 'ahead' (committed, not on origin) / 'on_origin' /
+    'no_origin' (origin ref missing) / 'unknown' (git error)."""
+    try:
+        st = subprocess.run(["git", "-C", str(REPO), "status", "--porcelain", "--",
+                             relpath], capture_output=True, text=True, timeout=10)
+    except (OSError, subprocess.SubprocessError):
+        return "unknown"
+    if st.stdout.strip():
+        return "uncommitted"           # untracked or modified
+    if origin_ref is None:
+        return "no_origin"
+    try:  # committed — any commit touching it reachable from HEAD but not origin?
+        rl = subprocess.run(["git", "-C", str(REPO), "rev-list", "--count", "HEAD",
+                             "--not", "--remotes=origin", "--", relpath],
+                            capture_output=True, text=True, timeout=10)
+        return "ahead" if int(rl.stdout.strip() or "0") > 0 else "on_origin"
+    except (OSError, subprocess.SubprocessError, ValueError):
+        return "unknown"
+
+
+# ── delivered-but-unconsumed (BOARD_CONSUMPTION_SPEC v0.2 §6.1) ─────────────
+def check_delivered_but_unconsumed():
+    """A delivered handoff (OpenClaw: present here; CC: on origin) sitting >N days
+    without being moved to processed/ → the recipient's Phase-2 consume boot-step
+    may not be installed. The visible Phase-2-gap telemetry."""
+    files = _handoff_files()
+    if not files:
+        return [(INFO, "no WALTER handoffs in flight")]
+    origin = _origin_ref()
+    aged = []
+    for p, recipient, relpath, platform in files:
+        delivered = platform == "OPENCLAW" or _sync_state(relpath, origin) == "on_origin"
+        if not delivered:
+            continue  # not delivered yet → written_but_undelivered owns it
+        age = _age_days(dt.date.fromtimestamp(p.stat().st_mtime))
+        if age > N_UNCONSUMED_DAYS:
+            aged.append((recipient, p.name, age, platform))
+    if not aged:
+        return [(INFO, f"all delivered handoffs consumed or ≤{N_UNCONSUMED_DAYS}d old "
+                      f"({len(files)} in flight)")]
+    return [(MED, f"{r}: {f} delivered {a}d ago, not consumed (Phase-2 consume "
+                  f"boot-step installed for {r}?) [{plat}]")
+            for r, f, a, plat in sorted(aged, key=lambda x: -x[2])]
+
+
+# ── written-but-undelivered (BOARD_CONSUMPTION_SPEC v0.2 §6.2, git-derived) ──
+def check_written_but_undelivered():
+    """Handoff committed locally but not reachable from origin = not delivered to a
+    CC recipient (their clone can't pull it). Severity honors platform nuance §3.3."""
+    files = _handoff_files()
+    if not files:
+        return [(INFO, "no WALTER handoffs awaiting delivery")]
+    origin = _origin_ref()
+    out = []
+    for p, recipient, relpath, platform in sorted(files, key=lambda x: x[1]):
+        sync = _sync_state(relpath, origin)
+        if sync == "on_origin":
+            continue                                   # delivered (reachable on pull)
+        if sync == "no_origin":
+            out.append((INFO, f"{recipient}: {p.name} — origin ref unavailable, "
+                              f"sync state underivable"))
+        elif sync == "unknown":
+            out.append((LOW, f"{recipient}: {p.name} — git sync state unknown"))
+        elif platform == "CLAUDE_CODE":
+            if sync == "ahead":
+                out.append((MED, f"{recipient}: {p.name} committed but NOT on origin — "
+                                f"CC recipient can't pull it (needs §3.4 scoped-push)"))
+            else:  # uncommitted
+                out.append((LOW, f"{recipient}: {p.name} written, uncommitted (mid-session)"))
+        else:  # OpenClaw — reaches shared clone on sync (or same-clone via Quick WALTER)
+            out.append((INFO, f"{recipient}: {p.name} not-on-origin — reaches OpenClaw shared "
+                             f"clone on sync (same-clone if written by Quick WALTER) [OPENCLAW]"))
+    if not out:
+        return [(INFO, "all WALTER handoffs delivered (on origin)")]
+    return out
+
+
 CHECKS = [
     ("version_drift", check_version_drift),
     ("board_reconcile", check_board_reconcile),
@@ -288,6 +408,8 @@ CHECKS = [
     ("registry_staleness", check_registry_staleness),
     ("registry_lag", check_registry_lag),
     ("liaison_enum", check_liaison_enum),
+    ("delivered_but_unconsumed", check_delivered_but_unconsumed),
+    ("written_but_undelivered", check_written_but_undelivered),
 ]
 
 MARK = {HIGH: "✗", MED: "⚠", LOW: "·", INFO: "✓"}
