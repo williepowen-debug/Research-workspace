@@ -20,4 +20,6 @@ File-based inter-agent messaging (inbox/, outbox/, HERMES courier) is being over
 - Scripting HERMES replacements
 - Enforcing strict delivery-state discipline
 
-Date logged: 2026-04-14.
+**SCOPED EXCEPTION (2026-06-17 — WALTER Routing v2):** the WALTER signal-*delivery* lane is now an explicit, narrow exception to "don't invest in inbox infra." WALTER writes a per-recipient, **create-only** handoff to `AGENTS/{RECIPIENT}/inbox/WALTER/` on every dispatch (recipient moves to `processed/` on consume — they never touch the same file), logged in `routed/delivery_log.tsv`, with git-derived delivered/consumed **telemetry** in `walter_doctor.py`. Canonical: `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` v0.2. This is deliberately scoped to the WALTER→recipient delivery lane and does NOT revive general inbox/outbox/HERMES hygiene — the rest of this memory still stands. The earlier caution was about *unguarded* inbox infra; the telemetry is the guard, so the reversal is safe. Confirmed intentional by Will. Related: [[project_walter_cop_direction]].
+
+Date logged: 2026-04-14. Scoped-exception added 2026-06-17.
