@@ -213,14 +213,22 @@ def check_registry_lag():
     work = a lagging row → refresh it AND don't direct that (active) agent to
     consume the board. Also separates genuinely-dormant agents (both dates old)
     from lagging ones — the distinction the manual 6/16 audit drew by hand."""
-    active_lag, stale_quiet, dormant, uncheckable = [], [], [], []
+    active_lag, stale_quiet, dormant, dir_only, uncheckable = [], [], [], [], []
     for agent, tier, updated in _registry_rows():
         if updated is None:
             continue
-        commit = _git_last_commit_date(f"AGENTS/{agent}/STATUS.md") \
-            or _git_last_commit_date(f"AGENTS/{agent}/")
+        status_exists = (REPO / "AGENTS" / agent / "STATUS.md").exists()
+        commit = _git_last_commit_date(f"AGENTS/{agent}/STATUS.md") if status_exists else None
         if commit is None:
-            uncheckable.append(agent)
+            # No (current) STATUS.md → a dir-level commit is an unreliable proxy:
+            # it catches cross-agent / bulk commits that merely touched the dir
+            # (e.g. DARWIN's "4/30" was a HANS/MARCO-STATUS + memory-log commit).
+            # Surface as INFO, never let it drive a MED/LOW lag flag.
+            dcommit = _git_last_commit_date(f"AGENTS/{agent}/")
+            if dcommit is None:
+                uncheckable.append(agent)
+            elif (dcommit - updated).days >= 3:
+                dir_only.append((agent, updated, dcommit, (dcommit - updated).days))
             continue
         lag = (commit - updated).days  # >0 = registry behind the agent's last work
         recent = _age_days(commit) <= 14  # agent's own last activity is fresh
@@ -246,8 +254,13 @@ def check_registry_lag():
     if dormant:
         lst = ", ".join(f"{a} ({d}d)" for a, d in sorted(dormant, key=lambda x: -x[1]))
         out.append((INFO, f"dormant — registry accurate, not lagging ({len(dormant)}): {lst}"))
+    if dir_only:
+        lst = ", ".join(f"{a} (dir +{lag}d vs {up.isoformat()})"
+                        for a, up, com, lag in sorted(dir_only, key=lambda x: -x[3]))
+        out.append((INFO, f"no STATUS.md — dir-fallback unreliable (may be cross-agent "
+                          f"commits), NOT flagged: {lst}"))
     if uncheckable:
-        out.append((INFO, f"no committed STATUS, lag uncheckable: {', '.join(sorted(uncheckable))}"))
+        out.append((INFO, f"no committed activity, lag uncheckable: {', '.join(sorted(uncheckable))}"))
     if not (active_lag or stale_quiet):
         out.append((INFO, "no registry rows lagging the agents' actual STATUS commits"))
     return out
