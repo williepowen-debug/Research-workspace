@@ -1,5 +1,5 @@
 # ACTIVE_DECISIONS.md
-**Updated:** 2026-06-17 16:20 ET (Prome — WALTER v2 shipped; FOMC post-event synthesis pending)
+**Updated:** 2026-06-17 17:15 ET (Prome — post-FOMC hawkish re-arm logged; confirmation pending)
 **Owner:** Prome
 **Purpose:** Boot-readable index of non-terminal decisions. Full logic stays in action cards / execution rails.
 
@@ -7,11 +7,11 @@
 
 ## Current Mode — Verification Required
 
-Will has directed this pass toward **getting Prome right before anything else**. Do not act from old `BROKER_PENDING`, May-roll, Jun18-trigger, CPI/refunding, or HYG language without fresh broker/Will reconciliation. CPI/refunding/BOJ/FOMC statement have passed; claims/TIC/FRED HY update and expiry 6/18 are the next live gates.
+Will has directed this pass toward **getting Prome right before anything else**. Do not act from old `BROKER_PENDING`, May-roll, Jun18-trigger, CPI/refunding, or HYG language without fresh broker/Will reconciliation. CPI/refunding/BOJ/FOMC have passed; claims/TIC/FRED HY update and expiry 6/18 are the next live gates.
 
 Key supersessions:
 - **HYG Jun $75P:** LIQUID says written off / let expire 6/19. **Stop surfacing as actionable.**
-- **Duration/TLT:** CPI/refunding rails resolved into a mixed read; FOMC happened but post-event synthesis is pending. No add/roll/expiry action without broker/Will truth.
+- **Duration/TLT:** CPI/refunding/FOMC rails resolved into mixed read: Fed hawkish, but long-end did not break. No add/roll/expiry action without broker/Will truth.
 - **FXY/BOJ:** BOJ hike was as-priced; Will had chosen hold on Jun18 $58C. TIC/expiry are context, not auto-action.
 - **Bank basket:** broad-cohort fade retired; WAL/OZK are idiosyncratic/Q2-print gated.
 - **Position truth:** broker/fill state remains unreconciled. Any expiry action requires Will/broker check first.
@@ -32,9 +32,9 @@ Key supersessions:
 
 | Decision | State | Owner | Next | Backstop | Source |
 |---|---|---|---|---|---|
-| Post-FOMC branch grading / HY <260 kill-line | `MONITOR_ONLY` / `NO_TRADE_ACTION` | Prome/NEXUS/HENRY/LIQUID → grade; Will → any trade decision | FOMC first impulse was risk-off/whipsaw; do not declare regime from QQQ alone. Use 2Y/front-end + HYG/intraday credit proxy + VIX/USDJPY/TLT. HY OAS **271 [FRED 6/16]** remains above <260 blended-credit kill; require sustained <260 and FRED T+1 confirmation before declaring R3 kill. | FRED HY confirmation 6/18 + post-FOMC synthesis | `PROME/TODAY.md` + `HEARTBEAT.md` + `AGENTS/NEXUS/STATUS.md` |
+| Post-FOMC hawkish re-arm / HY <260 kill-line | `MONITOR_ONLY` / `NO_TRADE_ACTION` / `CONFIRMATION_PENDING` | Prome/NEXUS/HENRY/LIQUID → grade; Will → any trade decision | Hawkish-of-pricing branch fired: hold 3.50–3.75 but SEP/dots materially hawkish vs March; equities/HYG/KRE/WAL/BIZD sold, VIX 18.44, USDJPY >160. Broad cascade **not** confirmed: HY OAS **271 [FRED 6/16]** remains above <260 kill and <300; TLT held. Confirm with 6/18 FRED HY + claims/TIC + persistence in VIX/HYG/KRE/WAL. | FRED HY confirmation 6/18 + claims/TIC + expiry/opex digestion | `HEARTBEAT.md` + `PROME/TODAY.md` + `AGENTS/NEXUS/STATUS.md` |
 | WALTER Routing v2 / delivery reliability | `PHASE_1_SHIPPED` / `PHASE_2_PENDING` / `SYSTEM_HEALTH` | WALTER owns delivery docs/tools; Prome coordinates Phase 2 + Quick test | Phase 1 landed: BOARD-first archive + `AGENTS/{RECIPIENT}/inbox/WALTER/` handoffs + `delivery_log.tsv` + git-derived telemetry + BRENT/HAWK backfills. Next: recipient consume-step rollout, live Quick-WALTER acceptance test, and clean-tree push rail for IMMEDIATE/FLASH to Claude Code recipients. | Before relying on WALTER consumption completeness; delivered-but-unconsumed nags begin after ~2d | `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` + `AGENTS/WALTER/tools/walter_doctor.py` + `PROME/SCRATCH.md` |
-| TLT Jun 18 $85P catalyst salvage + Sep add gate | `DEFERRED` / `POST_FOMC_REVIEW_REQUIRED` / `VERIFICATION_REQUIRED` | Will → broker/position truth; Prome → monitor only | Old 5/22 roll ticket and pre-CPI/refunding add logic are superseded. Jun $85P were a catalyst salvage bet; CPI/refunding/FOMC have passed. Do **not** recommend add/roll/expiry action without fresh broker/Will check. | Before any TLT-related action, June-expiry write, or Sep add recommendation | `AGENTS/LIQUID/STATUS.md` + `PROME/action-cards/TLT_JUN18_DECISION_2026-05-22.md` |
+| TLT Jun 18 $85P catalyst salvage + Sep add gate | `DEFERRED` / `VERIFICATION_REQUIRED` | Will → broker/position truth; Prome → monitor only | Old 5/22 roll ticket and pre-CPI/refunding add logic are superseded. Jun $85P were a catalyst salvage bet; CPI/refunding/FOMC have passed and TLT did not break post-FOMC. Do **not** recommend add/roll/expiry action without fresh broker/Will check. | Before any TLT-related action, June-expiry write, or Sep add recommendation | `AGENTS/LIQUID/STATUS.md` + `PROME/action-cards/TLT_JUN18_DECISION_2026-05-22.md` |
 | 6/18 theta-killer cluster / expiry cleanup | `WILL_APPROVED` historical rail; `VERIFICATION_REQUIRED` before use | Prome → reconcile monitor history; Will → approve any action | Do **not** roll or refresh position logic from stale May rail. This is an expiry cleanup / reconciliation problem, not an execution rail. HYG leg is dead/written-off per LIQUID. TLT/WAL/non-TLT legs require broker truth before action. | Before any 6/18 cluster decision, expiry write, or position update | `PROME/action-cards/JUN18_EXPIRY_CLUSTER_2026.md` + `FORGE/trigger-sets/JUN18_CLUSTER_2026-06-18.md` + `AGENTS/LIQUID/STATUS.md` |
 | FXY Jun 18 $58C salvage / Japan gate | `POSITION_UPDATED` / `VERIFY_BEFORE_ACTION` | Will → position decision already made; Prome/SAM → monitor TIC/expiry context | SAM says Will decided to hold the Jun18 $58C salvage. BOJ hike was as-priced; TIC Jun18 remains context. Do not infer any new action without broker/Will check. | Before any FXY expiry action or Japan-position recommendation | `AGENTS/SAM/STATUS.md` + `PROME/TODAY.md` |
 | Separate-clones fleet migration | `PROPOSED` — accumulating readiness | SAM → architect; Will → decision-maker post-FOMC | Bundle CARL readiness + HENRY auto-memory collision proposal into one Will-decision packet after FOMC/calm window. M3 atomic cutover slate remains SAM/HENRY/REGINALD/OZK/CARL. | Before any auto-memory format change or fleet-cutover scheduling | `AGENTS/SAM/proposals/2026-06-04_separate_clones_*.md` + `AGENTS/CARL/outbox/2026-06-06_to-PROME_separate_clones_CARL_readiness.md` + `AGENTS/HENRY/outbox/2026-06-06_to-PROME_automem_proposal_folder.md` |
