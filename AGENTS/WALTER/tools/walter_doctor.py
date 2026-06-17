@@ -24,6 +24,7 @@ Informational, never a boot gate. Stdlib only. Add checks by appending to CHECKS
 import csv
 import datetime as dt
 import re
+import subprocess
 import sys
 from pathlib import Path
 
@@ -39,6 +40,46 @@ TODAY = dt.date.today()
 
 def _age_days(d: dt.date) -> int:
     return (TODAY - d).days
+
+
+def _git_last_commit_date(relpath: str) -> dt.date | None:
+    """Date of the last commit touching relpath (relative to repo root).
+    Shallow-clone-safe: the tip commit touching a path is always present.
+    Returns None if the path has no commits / git unavailable."""
+    try:
+        r = subprocess.run(
+            ["git", "-C", str(REPO), "log", "-1", "--format=%cd",
+             "--date=short", "--", relpath],
+            capture_output=True, text=True, timeout=10)
+    except (OSError, subprocess.SubprocessError):
+        return None
+    out = r.stdout.strip()
+    try:
+        return dt.date.fromisoformat(out) if out else None
+    except ValueError:
+        return None
+
+
+def _registry_rows():
+    """Yield (agent, tier, updated_date|None) from REGISTRY.tsv. Shared by the
+    registry checks. Skips WALTER (self) and unparseable rows."""
+    with (WALTER / "REGISTRY.tsv").open(errors="replace") as f:
+        rdr = csv.reader(f, delimiter="\t")
+        header = next(rdr, [])
+        try:
+            i_up, i_tier, i_agent = (header.index("Updated"),
+                                     header.index("Tier"), header.index("Agent"))
+        except ValueError:
+            return
+        for row in rdr:
+            if len(row) <= max(i_up, i_tier, i_agent):
+                continue
+            agent = row[i_agent].strip()
+            if agent == "WALTER":
+                continue
+            m = re.search(r"\d{4}-\d{2}-\d{2}", row[i_up])
+            updated = dt.date.fromisoformat(m.group(0)) if m else None
+            yield agent, row[i_tier].strip(), updated
 
 
 # ── version drift (reuse the dedicated module) ──────────────────────────────
@@ -152,29 +193,63 @@ def check_outbox_age():
 
 # ── REGISTRY staleness (mechanizes the manual stale-agents list) ────────────
 def check_registry_staleness():
-    out, stale = [], []
-    with (WALTER / "REGISTRY.tsv").open(errors="replace") as f:
-        rdr = csv.reader(f, delimiter="\t")
-        header = next(rdr, [])
-        try:
-            i_up, i_tier = header.index("Updated"), header.index("Tier")
-            i_agent = header.index("Agent")
-        except ValueError:
-            return [(LOW, "REGISTRY.tsv header columns not as expected — skipped")]
-        for row in rdr:
-            if len(row) <= max(i_up, i_tier, i_agent):
-                continue
-            m = re.search(r"\d{4}-\d{2}-\d{2}", row[i_up])
-            if not m:
-                continue
-            age = _age_days(dt.date.fromisoformat(m.group(0)))
-            if row[i_tier].strip() == "1" and age > 14:
-                stale.append((row[i_agent], age))
+    rows = list(_registry_rows())
+    if not rows:
+        return [(LOW, "REGISTRY.tsv header columns not as expected — skipped")]
+    stale = [(a, _age_days(up)) for a, tier, up in rows
+             if tier == "1" and up and _age_days(up) > 14]
     if stale:
         lst = ", ".join(f"{a} ({d}d)" for a, d in sorted(stale, key=lambda x: -x[1]))
-        out.append((LOW, f"Tier-1 stale >14d ({len(stale)}): {lst}"))
-    else:
-        out.append((INFO, "all Tier-1 REGISTRY rows ≤14d"))
+        return [(LOW, f"Tier-1 registry-date >14d ({len(stale)}): {lst} "
+                     f"— see registry_lag to tell dormant from lagging")]
+    return [(INFO, "all Tier-1 REGISTRY rows ≤14d")]
+
+
+# ── REGISTRY lag: row date vs the agent's actual last STATUS commit ─────────
+def check_registry_lag():
+    """The board-lags-agents check (auto-memory finding_board_lags_agents...).
+    Compares each agent's REGISTRY `Updated` date against the git commit date of
+    its STATUS.md (fallback: agent dir). Registry OLDER than the agent's real
+    work = a lagging row → refresh it AND don't direct that (active) agent to
+    consume the board. Also separates genuinely-dormant agents (both dates old)
+    from lagging ones — the distinction the manual 6/16 audit drew by hand."""
+    active_lag, stale_quiet, dormant, uncheckable = [], [], [], []
+    for agent, tier, updated in _registry_rows():
+        if updated is None:
+            continue
+        commit = _git_last_commit_date(f"AGENTS/{agent}/STATUS.md") \
+            or _git_last_commit_date(f"AGENTS/{agent}/")
+        if commit is None:
+            uncheckable.append(agent)
+            continue
+        lag = (commit - updated).days  # >0 = registry behind the agent's last work
+        recent = _age_days(commit) <= 14  # agent's own last activity is fresh
+        if lag >= 1 and recent:
+            active_lag.append((agent, updated, commit, lag))   # ahead of board NOW
+        elif lag >= 3:
+            stale_quiet.append((agent, updated, commit, lag))  # row behind, agent quiet
+        elif _age_days(updated) > 14 and _age_days(commit) > 14:
+            dormant.append((agent, _age_days(commit)))
+
+    out = []
+    # active + lagging is the load-bearing case (board-lags-agents): MED if ≥3d
+    for agent, up, com, lag in sorted(active_lag, key=lambda x: -x[3]):
+        sev = MED if lag >= 3 else LOW
+        tail = " → refresh row + DON'T direct to board (agent has fresher view)" \
+            if sev == MED else " → refresh row"
+        out.append((sev, f"{agent}: registry {up.isoformat()} < last commit "
+                        f"{com.isoformat()} ({_age_days(com)}d ago, +{lag}d){tail}"))
+    # registry behind but the agent itself has gone quiet → just a stale row
+    for agent, up, com, lag in sorted(stale_quiet, key=lambda x: -x[3]):
+        out.append((LOW, f"{agent}: registry {up.isoformat()} stale (+{lag}d) but agent "
+                        f"quiet since {com.isoformat()} ({_age_days(com)}d) → refresh row, low urgency"))
+    if dormant:
+        lst = ", ".join(f"{a} ({d}d)" for a, d in sorted(dormant, key=lambda x: -x[1]))
+        out.append((INFO, f"dormant — registry accurate, not lagging ({len(dormant)}): {lst}"))
+    if uncheckable:
+        out.append((INFO, f"no committed STATUS, lag uncheckable: {', '.join(sorted(uncheckable))}"))
+    if not (active_lag or stale_quiet):
+        out.append((INFO, "no registry rows lagging the agents' actual STATUS commits"))
     return out
 
 
@@ -198,6 +273,7 @@ CHECKS = [
     ("cron_liveness", check_cron_liveness),
     ("outbox_age", check_outbox_age),
     ("registry_staleness", check_registry_staleness),
+    ("registry_lag", check_registry_lag),
     ("liaison_enum", check_liaison_enum),
 ]
 
