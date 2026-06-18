@@ -1,59 +1,52 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-17 21:32 ET (OpenClaw Prome — closeout before delivery-model brainstorming)
+**Last Updated:** 2026-06-18 14:05 ET (OpenClaw Prome — closeout before fresh session)
 
 ## What Just Happened
 
-Will and ORC completed independent verification of WALTER Routing v2 Phase 2:
+1. **WALTER/Prome/ORC resolved the mini-WALTER boundary.**
+   - Live A/B test: Prome/mini-WALTER triaged the Moscow refinery post directionally well but created duplicate noncanonical artifacts and over-routed LIQUID; Full Claude Code WALTER produced the proper BOARD signal, recipient discipline, source calibration, and delivery logs.
+   - Decision: **Full WALTER is the signal desk.** Prome/Quick-WALTER is not allowed to make fresh news-routing judgments.
+   - Final pushed rule: Quick-WALTER may route only **pre-registered RED-FT / REG-T / safety-net trigger fires** where recipient_chain + precedence/action are already fixed. Delivery repair/backfill is allowed only for existing BOARD signals with already-named recipients and is not routing. Fresh screenshots/news/Visegrad/aggregator/source-confidence/recipient-selection all queue/escalate to Full WALTER.
+   - UTC timestamp discipline added after the Moscow signal bug: never stamp ET wall-clock with `Z`.
 
-1. **Real WALTER path is proven.**
-   - Prome added `walter` to OpenClaw spawn allowlist and confirmed it appeared live.
-   - Real `agentId=walter` Quick-WALTER gate passed: Case A wrote BOARD/INDEX/route_log/recipient handoff/delivery_log exactly once; Case B Iran-cluster guard refused/escalated rather than silently dispatching stale war-state framing.
-   - Test artifacts were trashed and BOARD reconciled back to 285.
+2. **WALTER repo reconciliation completed and pushed.**
+   - Pulled/merged WALTER’s GitHub group-chat dispatch commit with Prome consume-rollout commits.
+   - Resolved `AGENTS/WALTER/STATUS.md` by preserving both truths: group-chat dispatch went live; Prome later advanced Phase 2 consume rollout.
+   - Fixed Moscow MNPZ signal timestamp from ET-with-Z to true UTC (`07:55Z`) across BOARD/logs/handoffs.
+   - Fixed RED delivery_log row to valid `COMMITTED`; `walter_doctor` now derives on-origin delivery cleanly.
+   - Latest WALTER docs/specs pushed through v0.17/v0.5 boundary.
 
-2. **BRENT + HAWK consumption loops are durable on origin.**
-   - BRENT consumed `SIG-W-20260610-001` via `INBOX_WALTER`; HAWK consumed `SIG-W-20260610-002` via `INBOX_WALTER`.
-   - Both moved handoffs to `processed/`; both capability patches and board_log updates were pushed.
-   - HAWK also proved the legacy-log migration path: existing 4-col `board_log.tsv` rows became `source=BOARD_SCAN`, and the new WALTER handoff row is `source=INBOX_WALTER`.
-   - WALTER doctor now shows **no WALTER handoffs in flight** and **no handoffs awaiting delivery**. Remaining MEDs are stale upstream feeds only.
+3. **HEARTBEAT / market gate refreshed.**
+   - HY OAS printed **263 [FRED 6/17]**, only 3bp above the <260 R3/blended-credit kill line.
+   - Claims were benign/yellow: **226k initial**, **1.810M continuing**.
+   - VIX/banks faded stress; USD/JPY/FXY carry stress worsened.
+   - Current read: broad cascade still not confirmed, but the kill line is uncomfortably close.
 
-3. **OpenClaw consume rollout progressed.**
-   - Local unpushed WALTER commits installed/scaffolded consume capability for remaining OpenClaw recipients: BROCK, LIQUID, HENRY, LABOR, NEXUS, VIOLET, SHADE.
-   - CC recipients still need self-apply on next Claude Code spawn: CARL, REGINALD, SAM, RED (plus OZK if revived).
-
-4. **Operating-model correction landed.**
-   - Will clarified the real work surface: serious domain-agent work happens in Claude Code terminals on desktop/laptop; VPS/OpenClaw is mainly Prome’s Telegram-accessible orchestration/interface layer.
-   - Implication: origin is the practical delivery bus. WALTER routing must be committed + pushed for Will’s normal Claude Code agent sessions to see it, even when same-clone OpenClaw delivery works immediately for tests.
+4. **Group-chat research-agent idea surfaced.**
+   - Good future design: WALTER owns routing; a separate VERIFY/CONTEXT helper can produce fact packets or surrounding-research packets; Prome owns decision/task consequences. No shared steering wheel.
 
 ## Current Git State
 
-Working tree is clean and **ahead of origin with local commits**. Push is not yet done for the latest operating-model correction + WALTER OpenClaw consume rollout. Because Will’s main agent workflow is Claude Code, this push matters for visibility in desktop/laptop agent sessions.
+Clean and synced to origin. Latest pushed state includes HEARTBEAT update and WALTER Quick-routing restriction.
 
 ## Current Operating Picture
 
-- **WALTER v2 architecture risk is behind us.** Real Quick WALTER, Iran guard, delivery, consumption, telemetry, fresh-log path, and legacy-log path are all proven.
-- **Delivery-model design question is now the active system problem.** Need decide how Prome should batch/commit/push routed signals so Claude Code agents reliably see them without creating noisy pushes or shared-repo races.
-- **Urgent gap:** PROME push rail for FLASH/IMMEDIATE to Claude Code recipients is still design/automation debt.
-- **Routine gap:** decide batching policy for PRIORITY/ROUTINE WALTER routes before Claude Code pickup.
-- **Market state unchanged from HEARTBEAT:** hawkish-FOMC re-arm / unresolved divergence; 6/18 HY/claims/TIC/proxy confirmation remains next market gate.
+- **Mini/Quick-WALTER is effectively paused for fresh news.** It remains only as a registered-trigger executor / delivery-repair tool.
+- **Full WALTER remains required for signal-desk judgment.** Prome should queue/page Full WALTER for novel signals.
+- **WALTER delivery/consumption telemetry is healthy.** Doctor only flags known stale upstream feeds (`news-sweep`, `filing-watch`, `SIGNALS/inbound`).
+- **Market state:** HY is near the <260 kill line; no broad cascade confirmation yet.
 
 ## Next Reboot Entry Point
 
-Will wants to keep brainstorming options for the WALTER/Prome delivery model.
-
-Start with the corrected premise:
-
-> Prome lives on VPS/OpenClaw as Telegram orchestration. Will’s real domain-agent work usually happens in Claude Code on desktop/laptop. Therefore commit + push to origin is the normal visibility boundary for routed WALTER signals.
-
-Brainstorm 2–3 delivery/push policies:
-1. **Immediate push for every WALTER route** — simplest visibility, more git noise.
-2. **Urgency-tiered push** — FLASH/IMMEDIATE push now; PRIORITY/ROUTINE batch until Will says flush / time-based checkpoint.
-3. **Queue + explicit “flush routes” command** — safest control, highest chance of forgetting unless telemetry nags.
-
-Recommendation likely: urgency-tiered with a visible pending-route queue and a manual `/flush routes` style command.
+Start fresh with:
+1. Read `HEARTBEAT.md` first for the market state: HY 263, stress faded, carry worse.
+2. If system lane: design the group-chat VERIFY/CONTEXT helper pattern — fact packet only, no routing authority.
+3. If market lane: monitor HY <260, TIC/FXY/carry, and whether banks/PC proxies re-weaken.
+4. If positions lane: keep separate; broker/Will truth required before any expiry/trade action.
 
 ## Cautions
 
-- Do not overfit to VPS same-clone delivery; origin matters for Will’s real workflow.
-- Pushes remain Will-coordinated unless we explicitly design/approve scoped auto-push behavior.
-- Keep WALTER delivery-lane exception narrow; do not revive broad HERMES/inbox infra.
-- No trade execution or position advice unless explicitly asked.
+- Do not spawn Quick-WALTER for fresh screenshots/news. Queue/escalate to Full WALTER.
+- Do not create parallel signal artifacts (`FORGE/signals/` or generic agent inbox files).
+- Do not delete/archive legacy parallel artifacts yet; 30 `FORGE/signals/*.md` + 14 generic `AGENTS/*/inbox/signal_*.md` are historical and need a deliberate cleanup decision.
+- No trade execution or expiry action without broker/Will truth.
