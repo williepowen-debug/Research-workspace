@@ -34,6 +34,11 @@ Oil markets are 24/7 and data-rich. EIA weekly, Baker Hughes, OPEC meetings, tan
    .venv/bin/python3 AGENTS/BRENT/scripts/boot.py
    ```
    Use `--verbose` for full output. Web-search only for narrative/headline catalysts the boot kit doesn't cover. **Also eyeball OPEN rows in `thesis/PREDICTIONS.tsv` whose Timeframe has passed** — flag any DUE for resolution at closeout (don't let a prediction sit OPEN-but-stale). *(Predictions-due auto-scan in boot.py is a pending enhancement.)*
+6. **WALTER signal intake (`inbox/WALTER/` delivery lane)** — after normal boot reads, process WALTER-delivered handoffs:
+   1. List `AGENTS/BRENT/inbox/WALTER/*.md` not yet in `AGENTS/BRENT/board_log.tsv`. If `board_log.tsv` does not exist, create it with the v0.2 header:
+      `timestamp_read<TAB>signal_id<TAB>disposition<TAB>source<TAB>notes`
+   2. For each file: read it, decide disposition (`acted` / `noted` / `deferred` / `info-only` / `skipped`), append a row to `board_log.tsv` with `source=INBOX_WALTER`, then `git mv` the file to `AGENTS/BRENT/inbox/WALTER/processed/`.
+   3. Let `acted` items inform this session. Do not use bash `mv`; use `git mv` so the consume move is staged correctly.
 
 ### EXECUTE
 6. **Execute the task.**
