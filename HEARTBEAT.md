@@ -1,5 +1,5 @@
 # HEARTBEAT.md
-**Updated:** 2026-06-17 20:43 ET (OpenClaw Prome — WALTER HAWK consume clean)
+**Updated:** 2026-06-17 21:15 ET (OpenClaw heartbeat — WALTER OpenClaw consume rollout progressed)
 
 ## Regime
 
@@ -16,7 +16,7 @@ Key updates since prior HEARTBEAT:
 - **Carry still loaded:** USD/JPY **160.61🔴** after FOMC; FXY weak. BOJ benign did not discharge carry risk; hawkish Fed keeps USD pressure alive.
 - **Banks/private-credit proxies weakened:** KRE −1.85%, WAL −3.74%, ARES −4.91%, BIZD **$12.34🔴**. This matters, but no broad-bank cascade without continuation/credit confirmation.
 - **Duration did not confirm stress:** TLT held green and 10Y latest official still 4.43 [6/16]; FOMC shock showed more in USD/equity/credit proxies than long-end disorder.
-- **WALTER Routing v2 gate passed + first two consumers clean:** real `agentId=walter` Quick-WALTER spawn validated Case A delivery path and Case B Iran-anchor guard. BRENT consumed -001 and HAWK consumed -002 via `INBOX_WALTER`; both moved handoffs to `processed/`. Doctor now shows no WALTER handoffs in flight; remaining rollout is capability propagation to the rest of the OpenClaw fleet.
+- **WALTER Routing v2 gate passed + OpenClaw consume rollout progressed:** real `agentId=walter` Quick-WALTER spawn validated Case A delivery path and Case B Iran-anchor guard. BRENT consumed -001 and HAWK consumed -002 via `INBOX_WALTER`; both moved handoffs to `processed/`. Evening heartbeat installed the v0.2 `inbox/WALTER/` consume boot-step into remaining OpenClaw recipients' `CLAUDE.md` (BROCK, LIQUID, HENRY, LABOR, NEXUS, VIOLET, SHADE). Doctor now shows no WALTER handoffs in flight; remaining rollout is CC self-apply (CARL/REGINALD/SAM/RED, plus OZK if revived).
 
 ## Stress dashboard
 
@@ -62,7 +62,7 @@ HY OAS **271🟢 [FRED 6/16]** · CCC **944🟡 [FRED 6/16]** · 10Y **4.43🟡 
 |---|---|---|
 | 🔴 | **Post-FOMC branch confirmation.** Hawkish-of-pricing fired, but broad cascade not confirmed. Need 6/18 FRED HY, claims, TIC, VIX/HYG/KRE/WAL persistence. | `PROME/TODAY.md`, `PROME/ACTIVE_DECISIONS.md` |
 | 🔴 | **HY <260 kill-line monitoring.** Latest HY **271 [FRED 6/16]**; <260 still not confirmed. Sustained <260 kills R3 blended-credit axis; widening/underperformance re-arms bear transmission. | NEXUS/ORC review, dashboard |
-| 🟠 | **WALTER Phase 2 consumption rollout.** Quick-WALTER gate passed; BRENT and HAWK delivery→consumption loops are durable and doctor shows zero in-flight handoffs. Remaining work: install consume-step capability across the rest of the OpenClaw recipients, then CC push/urgent-delivery automation. | `AGENTS/WALTER/STATUS.md`, `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` |
+| 🟠 | **WALTER Phase 2 consumption rollout.** Quick-WALTER gate passed; BRENT and HAWK delivery→consumption loops are durable; OpenClaw consume boot-step now installed for BROCK, LIQUID, HENRY, LABOR, NEXUS, VIOLET, SHADE; doctor shows zero in-flight handoffs. Remaining work: CC recipient self-apply and later CC push/urgent-delivery automation. | `AGENTS/WALTER/STATUS.md`, `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` |
 | 🟠 | **Jun18/19 expiry cleanup.** HYG dead; TLT/WAL/non-TLT legs require broker reconciliation. | `PROME/ACTIVE_DECISIONS.md` |
 | 🟠 | **Position-state reconciliation pass.** Separate future task; do not mix with market synthesis unless Will pivots. | `PROME/ACTIVE_DECISIONS.md` |
 | 🔵 | **PROME execution-rails design.** HYG roll Jun→Dec died for lack of mechanism; design debt. | BROCK LESSONS #16 |

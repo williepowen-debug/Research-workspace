@@ -23,6 +23,10 @@ You own the "velocity" layer — when stress from other agents (LABOR employment
 1. **Read `STATUS.md`** — current market levels, active positions, macro data, vol regime
 2. **Read `LESSONS.md`** — mistake patterns to avoid
 3. **Read `MEMORY.md`** — ends on handoff: CHANGES SINCE + NEXT SESSION action items
+3a. **WALTER signal intake (`inbox/WALTER/` delivery lane)** — process WALTER-delivered handoffs:
+   - List `AGENTS/HENRY/inbox/WALTER/*.md` not yet logged in `AGENTS/HENRY/board_log.tsv`. If `board_log.tsv` does not exist, create it with the v0.2 header: `timestamp_read<TAB>signal_id<TAB>disposition<TAB>source<TAB>notes`.
+   - For each file: read it, decide disposition (`acted` / `noted` / `deferred` / `info-only` / `skipped`), append a row to `board_log.tsv` with `source=INBOX_WALTER`, then `git mv` the file to `AGENTS/HENRY/inbox/WALTER/processed/`.
+   - Let `acted` items inform this session. Do not use bash `mv`; use `git mv` so the consume move is staged correctly. Spec: `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` v0.2.
 
 ### Execute
 4. **Execute the task**

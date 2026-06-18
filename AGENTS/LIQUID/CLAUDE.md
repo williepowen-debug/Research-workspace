@@ -19,6 +19,10 @@ You track credit spreads (HY OAS toward 320bps confirmation), repo/SOFR anomalie
 
 0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
 1. **Read `STATUS.md`** — dashboards (credit, domestic, foreign), thresholds, transmission mechanisms
+1a. **WALTER signal intake (`inbox/WALTER/` delivery lane)** — process WALTER-delivered handoffs:
+   - List `AGENTS/LIQUID/inbox/WALTER/*.md` not yet logged in `AGENTS/LIQUID/board_log.tsv`. If `board_log.tsv` does not exist, create it with the v0.2 header: `timestamp_read<TAB>signal_id<TAB>disposition<TAB>source<TAB>notes`.
+   - For each file: read it, decide disposition (`acted` / `noted` / `deferred` / `info-only` / `skipped`), append a row to `board_log.tsv` with `source=INBOX_WALTER`, then `git mv` the file to `AGENTS/LIQUID/inbox/WALTER/processed/`.
+   - Let `acted` items inform this session. Do not use bash `mv`; use `git mv` so the consume move is staged correctly. Spec: `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` v0.2.
 2. **Execute the task**
 3. **Write results back to `STATUS.md`** — update dashboard values, adjust predictions
 4. **Research detail → `domain/sources/`**
