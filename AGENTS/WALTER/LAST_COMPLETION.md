@@ -6,101 +6,96 @@
 
 ## STATUS
 
-**2026-06-17 Wed PM late (~10:35 PM – 11:55 PM ET, Will-Telegram boot — WALTER+PROME group chat live + FIRST DISPATCH through new group-chat ops-room workflow).** Boot was clean (FF pull over PROME closeout + BRENT/HAWK 6/17 inbox-consume — first end-to-end exercise of the Routing v2 delivery layer shipped earlier same day). walter_doctor exit 3 (3 dead crons only). Step-6c threshold scan: no new fires (Brent $78.30 BACK INSIDE RED-FT-04 <$75 near-trigger band; VIX 18.44 sustain broken; WAL $78.43 band-edge). **1 dispatch / 0 KILLs / 1 verify-research spawn (~$0.05) / BOARD 285→286.**
+**2026-06-18 Thu PM (~6:12–6:40 PM ET, Will-Telegram boot — 5-image signal batch).** Boot clean read; pull SKIPPED (SAM had uncommitted work in tree → local scoped commits, push deferred). walter_doctor exit 4 (3 dead crons MED + HAWK registry_lag MED [explained: HAWK committed the 6/18 signing] + OZK staleness LOW). Step-6c threshold scan: no new fires (HY 263 <280 + CCC 939 >930 continuing-fire suppressed; WAL $79.91 in REG-T-02 band; Brent $79.44 just outside RED-FT-04). **3 dispatch / 2 KILL / 2 verify-research (~$0.10) / BOARD 286→289.**
 
 ## CHANGED
 
-**Telegram group setup (Will + WALTER bot + PROME bot, chat_id `-5170082433`):**
-1. `~/.claude/channels/telegram/access.json` — added group entry with `requireMention: true` + `allowFrom: ["8463631023"]`. Initially wrong chat_id (`-5179082433`) due to a one-digit OCR error from getidsbot screenshot; caught by Will pushback ("throwing things at the wall") + re-OCR; corrected to `-5170082433`. Bot now live in group. (File outside repo; not committed.)
-
-**Theorycraft thread (group, ~30 min, 7 messages WALTER ↔ PROME ↔ Will):** PROME proposed Telegram-as-trigger + new SIGNALS/ tree + SIG-IN-NNN ticket-system + event_log. WALTER pushed back: substrate already exists (BOARD/ + routed/ + delivery_log + per-recipient inbox/WALTER/); novel piece is only the trigger mechanism. Converged on "Git = shared brain, Telegram = cockpit." No new SIGNALS/ tree spec'd.
-
-**First real signal dispatch through the new lane:**
-
-1. `BOARD/SIG-W-20260618-001-moscow-mnpz-refinery-2nd-strike-3days-largest-moscow-drone-wave.md` (NEW) — canonical signal file.
-2. `BOARD/INDEX.md` — HYDROCARBON_INFRA cluster ToC row updated (12→13, latest-date 2026-06-18, narrative); section header (12→13); new row appended chronologically; TOTAL 285→286.
-3. `AGENTS/WALTER/routed/route_log.tsv` — 1 new row.
-4. `AGENTS/WALTER/routed/delivery_log.tsv` — 3 new rows (HAWK/BRENT/RED).
-5. `AGENTS/HAWK/inbox/WALTER/SIG-W-20260618-001.md` (NEW) — ACTION handoff.
-6. `AGENTS/BRENT/inbox/WALTER/SIG-W-20260618-001.md` (NEW) — INFO handoff (refined-products lens).
-7. `AGENTS/RED/inbox/WALTER/SIG-W-20260618-001.md` (NEW) + `AGENTS/RED/inbox/WALTER/processed/` (NEW dir) — INFO handoff (verify-lineage + counter-evidence). **First WALTER→RED delivery on the new lane; RED's `inbox/WALTER/` infra created this dispatch.**
-8. `AGENTS/WALTER/STATUS.md` — lead paragraph rewritten + BOARD count + dispatch-count + push-state + SESSION LOG row.
-9. `AGENTS/WALTER/MEMORY.md` — CHANGES-SINCE block + 2 new Findings (OCR-anchor-on-file lesson; first end-to-end group-chat-workflow validation).
-10. `AGENTS/WALTER/LAST_COMPLETION.md` — this file.
+**3 dispatches (Will image batch, msgs 2346-2350):**
+1. `BOARD/SIG-W-20260618-002-...maersk...md` (NEW) — Maersk "not resumed Hormuz crossings" → HAWK action / BRENT, RED info. PRIORITY, IRAN_HORMUZ, cluster_mediating, CONFIRMED 0.85.
+2. `BOARD/SIG-W-20260618-003-...usdjpy...md` (NEW) — USD/JPY highest weekly close since 1986 / 2024-MOF-intervention analog → SAM action / LIQUID, RED info. PRIORITY, ASIA_CHINA, SKIP-VERIFY 0.85.
+3. `BOARD/SIG-W-20260618-004-...cushing...md` (NEW) — Cushing AT ~20M operational bottom (EIA 6/12 = 20.03M) → BRENT action / LIQUID, HENRY, RED info. IMMEDIATE, HYDROCARBON_INFRA / cluster_secondary IRAN_HORMUZ, CORRECTED-FRAMING 0.92.
+4. `BOARD/INDEX.md` — 3 cluster ToC rows + 3 section headers + 3 appended rows; TOTAL 286→289 (IRAN_HORMUZ 57→58, ASIA_CHINA 8→9, HYDROCARBON_INFRA 13→14). walter_doctor reconciles 289.
+5. `routed/route_log.tsv` +3; `routed/delivery_log.tsv` +10; `filtered/kill_log.tsv` +2 (401k DUP, FL-retiree Relevance).
+6. **10 per-recipient handoffs** in `AGENTS/{HAWK,BRENT×2,RED×3,SAM,LIQUID×2,HENRY}/inbox/WALTER/` — **SAM's commit DEFERRED** (active in tree); OC = COMMITTED, CC (RED/HENRY) = WRITTEN_NOT_DELIVERED_PENDING_PUSH.
+7. `anchors/IRAN_WAR.md` — re-stamped 6/16→6/18: **ISLAMABAD MOU SIGNED 6/17 electronic (binary fired early) — REOPEN ANNOUNCED, NOT VERIFIED**; HAWK B-Deal-Reopen 46% leads. Source basis HAWK 6/18 + Maersk verify (full WebSearch sweep not re-run).
+8. `REGISTRY.tsv` — HAWK row 6/13→6/18 (B-leads / signed).
+9. `STATUS.md` — lead dashboard fully refreshed (Updated/Overall/BOARD/anchor/near-trigger/threshold-scan/bifurcation/push/callbacks) + Today's-routing regen + SESSION LOG row.
+10. `MEMORY.md` — CHANGES-SINCE / NEXT-SESSION blocks + 1 new Finding (verify-recency-near-threshold).
 
 ## RESULT
 
-**The group-chat ops-room workflow is live and exercised end-to-end on first contact.** Will drops a signal in the WALTER+PROME group tagging both bots → WALTER runs the existing pipeline (BOARD-grep + kill_log + recipient-state checks → Phase 1.5 verify-research → dispatch → 3 handoffs + logs + group reply). ~12 min wall-clock intake-to-dispatch. **No new SIGNALS/ tree needed. No SIG-IN- namespace. No new event log.** Existing infrastructure absorbed the new intake source cleanly. PROME stayed off-the-loop for this dispatch (no decision rail warranted); the layer separation (WALTER = routing, PROME = decisions) held without collision.
-
-**Specific dispatch:** SIG-W-20260618-001 Moscow MNPZ refinery 2nd strike + largest-ever Moscow drone wave (194 intercepted per Sobyanin, 17 injured Oblast incl 2 children, 6/16 ELOU-AVT-6 ~53% throughput damage compounded 6/18). Verify CONFIRMED 0.85 across 7 primaries (Bloomberg + Moscow Times + RFE/RL + Kyiv Post + Ukrainska Pravda + Euromaidan + ABC). Visegrad's "completely engulfed" lightly stretched; "5 fires" supported by Russian primary sources; net dispatch verdict CONFIRMED not CORRECTED-FRAMING. Russia-Ukraine kinetic INTENSIFYING while Iran-cluster DE-ESCALATING → **track-divergence regime input flagged to HAWK in handoff.**
+**Will's 5-image batch routed end-to-end through the standard pipeline.** 2 dispatches carried genuine deltas the recipients couldn't have (BRENT's 6/14 STATUS predated the 6/17 EIA Cushing print; HAWK got named-carrier corroboration on his open verification-leg gate). The Cushing verify upgraded a stale-but-accurate data box (21.64M wk-6/5) to the load-bearing 6/12 print (20.03M = AT operational bottom), flipping precedence to IMMEDIATE and surfacing Boundary #3 as a ~this-week trigger. Iran anchor re-stamped to the post-signing state. **The 6/19 Geneva binary I was tracking fired EARLY (electronic signing 6/17)** — de-escalation now SIGNED, but reopening unverified (announcement-leg-vs-verification-leg distinction is the live frame).
 
 ## GAPS
 
-- **Push deferred** — local commits queued. RED's CC handoff status = `WRITTEN_NOT_DELIVERED_PENDING_PUSH`; flips to truly-delivered at next push window. HAWK/BRENT (OC) = `COMMITTED` (effectively delivered on next OC shared-clone sync).
-- **3 dead cron feeds** unchanged (news-sweep 31d / filing-watch 41d / SIGNALS 15d) — PROME/SENTRY-owned, escalated.
-- **Phase 2 (consume boot-step)** still WALTER-defines/others-apply — but BRENT and HAWK both organically consumed earlier 6/17 backfills, validating the lane works without formal install. Phase 2 codification still useful for newer recipients (esp. RED).
+- **Push deferred** — SAM had uncommitted work in tree at boot (pull skipped). All commits local. **SAM's USD/JPY handoff commit DEFERRED** (active-in-tree, agent-git-isolation) — write done, commit held for next clean window.
+- **CC handoffs (RED ×3 / HENRY ×1)** = `WRITTEN_NOT_DELIVERED_PENDING_PUSH` until a push window. OC handoffs (HAWK/BRENT/LIQUID) reach OpenClaw clones on next sync.
+- **Iran anchor re-stamp used HAWK 6/18 + Maersk verify, NOT an independent full WebSearch sweep** — defensible (HAWK did the signing domain re-verify; Maersk verify covered the reopening leg) but a full multi-source sweep on the signed-MOU terms is owed at the next Iran re-verify.
+- **3 dead cron feeds** unchanged (news-sweep 32d / filing-watch 42d / SIGNALS 16d) — PROME/SENTRY-owned, escalated.
+- **walter_doctor labeled HENRY's handoff [OPENCLAW]** but HENRY is CC per REGISTRY — minor doctor platform-inference discrepancy (delivery_log has it correct as CLAUDE_CODE); calibration item, not blocking.
 
 ## WILL_NEEDS
 
-1. **Push window** when convenient — local commits queued (group-chat dispatch + closeout).
+1. **Push window** when convenient — local commits queued (3 dispatches + 10 handoffs + closeout). SAM handoff commit needs a clean tree (SAM was active).
 2. **🔴 Cron health escalation** (unchanged) — all 3 boot-triage feeds dead; PROME (news-sweep + filing-watch) / SENTRY (SIGNALS).
-3. **Phase 2 kickoff** — when ready, PROME installs the consume boot-step in BRENT's CLAUDE.md (template in BOARD_CONSUMPTION_SPEC §8.1); CC agents self-apply. Lane organically working but formalization closes the gap.
-4. **6/19 Geneva Iran signing = BINARY anchor re-verify trigger** (~36h out).
+3. **FL housing/insurance migration** — the Newsweek FL-retiree item was killed (teaser/no data); if you want the *underlying* out-migration data (counts + insurance-cost driver + condo-segment overlap w/ SIG-W-20260526-007), say so and I'll pull + route it properly (→ REGINALD/SHADE).
+4. **Iran re-verify checkpoint** — next trigger is the verified-reopen confirmation ladder (liner carriers resume / JWC reclass / premiums normalize) OR MOU collapse, not a fixed date.
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
 
-**Done this session (removed from forward list):** ~~WALTER+PROME Telegram group setup~~ DONE; ~~first dispatch through new lane~~ DONE; ~~group-chat ops-room architecture (Telegram = cockpit, Git = brain, no SIGNALS/ parallel tree)~~ AGREED; ~~SIG-W-20260618-001 dispatch + delivery~~ DONE; ~~OCR-anchor-on-file finding~~ promoted to MEMORY.
+**Done this session (removed from forward list):** ~~6/19 Geneva Iran signing = binary~~ **RESOLVED — signed 6/17 electronic, anchor re-stamped**; ~~Bab al-Mandab confirmation ladder~~ folded into the verified-reopen ladder (Hormuz proper is the live gate now); ~~Munir/Pakistan-MFA response~~ overtaken by the signing.
 
 **🔴 Time-sensitive forward:**
-1. **6/19 Geneva Iran signing = BINARY anchor re-verify trigger.**
-2. **🟠 Bab al-Mandab confirmation ladder** (JWC reclass / BRT-28 window to Jul 1).
-3. **🟠 Munir/Pakistan-MFA response** — fork-disambiguator.
+1. **Cushing <20M Boundary #3 fire watch** — next EIA WPSR ~6/24 (wk-end 6/19) likely prints sub-20M → IMMEDIATE auto-fire (BRENT primary, WALTER fallback). 20.03M as of 6/12, draw accelerating.
+2. **Iran verified-reopen confirmation ladder** = next anchor re-verify trigger: liner carriers (Maersk et al.) resume / Lloyd's JWC reclass / war-risk premiums normalize, OR MOU collapse, OR fresh kinetic state-change.
+3. **SAM USD/JPY intervention watch** — 161 at 40yr-high red zone post-BOJ-hike; the 2024 analog is the live setup.
 
-**🆕 WALTER+PROME group ops-room follow-on:**
-4. **Watch how next 2-3 group-chat dispatches go** before committing to any new file convention (e.g. `intake/telegram/TG-` raw-capture); current view = existing pipeline already covers it, but real-world test sample is N=1.
-5. **PROME decision-rail engagement** — first dispatch didn't warrant a rail; watch for the first signal that does need one and document the in-group handoff.
-6. **mentionPatterns?** Could add `["@walter\\b"]` so `@walter` shorthand works alongside `@walter_research_bot` — minor UX improvement, not blocking.
+**🆕 Push / delivery:**
+4. **SAM's 6/18 USD/JPY handoff commit + general push** — deferred; commit in next clean window (SAM was active in tree).
+5. CC handoffs (RED ×3 / HENRY ×1) reach origin on that push.
 
-**🆕 WALTER Routing v2 — Phase 2 + follow-on:**
-7. **Phase 2 consume boot-step rollout** — PROME installs in BRENT first (template §8.1), then HAWK/BROCK/LIQUID/HENRY/LABOR/NEXUS/VIOLET/SHADE; CC (CARL/REGINALD/SAM/RED) self-apply. Time-boxed; `delivered_but_unconsumed` telemetry tracks the gap. BRENT/HAWK already organically consumed earlier 6/17 backfills.
-8. **Quick WALTER live test** — PROME spawns the route-only mode on a real batch (acceptance check §13).
-9. **Define the §3.4 scoped-push as an operational PROME runbook.**
+**🆕 WALTER+PROME group ops-room follow-on (carried):**
+6. Watch how next 2-3 group-chat dispatches go before committing to any new file convention (N still small).
+7. PROME decision-rail engagement — watch for first signal that needs a rail.
+8. mentionPatterns `["@walter\\b"]` shorthand — minor UX.
+
+**🆕 WALTER Routing v2 — Phase 2 (carried):**
+9. Phase 2 consume boot-step — CC recipients self-apply (CARL/REGINALD/SAM/RED); RED + SAM now have live 6/18 handoffs to consume.
+10. Quick WALTER live test (acceptance §13).
+11. §3.4 scoped-push as a PROME runbook.
 
 **🟠 Threshold fire watch:**
-10. RED-FT-01 (HY 271) + RED-FT-07 (CCC 944) continuing-fire — re-fire only on boundary re-cross.
-11. WAL REG-T-02 — at band-edge ($78.43 vs $78 fire).
-12. Brent $78.30 — BACK INSIDE the RED-FT-04 <$75 near-trigger band (was just above yesterday).
-13. REG-T-06 FHLB / REG-T-07 OFFICE-CMBS-DQ — still not in dashboard pull.
+12. RED-FT-01 (HY 263) + RED-FT-07 (CCC 939) continuing-fire — re-fire only on boundary re-cross.
+13. WAL REG-T-02 — $79.91 in band ($78-81.90).
+14. Brent RED-FT-04 (<75) — $79.44 just outside (HAWK web ~$77 would be inside).
+15. REG-T-06 FHLB / REG-T-07 OFFICE-CMBS-DQ — still not in dashboard pull.
 
 **🟠 LIAISON + routing:**
-14. RED Turn 8 / REGINALD Turn 7 — untouched since 6/6.
-15. EVENT_WINDOW_STATE.md — ~27d untouched (CLOSED, no posture risk); BRENT-coordinated refresh owed.
-16. HENRY / NEXUS LIAISON — next-priority opens.
+16. RED Turn 8 / REGINALD Turn 7 — untouched since 6/6.
+17. EVENT_WINDOW_STATE.md — ~28d untouched (CLOSED, no posture risk); BRENT-coordinated refresh owed.
+18. HENRY / NEXUS LIAISON — next-priority opens.
 
 **🔴 Infra:**
-17. 3 dead cron feeds (WILL_NEEDS #2; PROME/SENTRY).
+19. 3 dead cron feeds (WILL_NEEDS #2).
 
 **Design / governance backlog:**
-18. **BOARD INDEX slim-down** (375KB→~30KB; Orch schema echo-back first).
-19. Staleness-sweep rerun cadence; FILTER_SPEC v0.6 BODY-INACCESSIBLE-PAYWALL verdict; `valid_until` forward-expiry convention; VIX-spike registered trigger (RED Turn 8); COP refresh (paused); OZK Q1 post-mortem (REGINALD pickup).
+20. BOARD INDEX slim-down (375KB→~30KB; Orch schema echo-back first).
+21. walter_doctor HENRY-platform-label fix (labels CC HENRY as OPENCLAW); staleness-sweep rerun cadence; FILTER_SPEC v0.6 BODY-INACCESSIBLE-PAYWALL verdict; `valid_until` forward-expiry convention; VIX-spike registered trigger (RED Turn 8); COP refresh (paused); OZK Q1 post-mortem (REGINALD pickup).
 
 ## OPEN DESIGN DECISIONS (need Will)
 
-- **Group-chat artifact policy:** when (if ever) do we want a raw `intake/telegram/TG-YYYYMMDD-NNN` capture file? Current view: existing BOARD `origin:` field + group msg_id pointer is sufficient; revisit if dispatches without filter-survival need an audit-trail.
-- **`mentionPatterns` shorthand** — add `["@walter\\b"]` so `@walter` works alongside `@walter_research_bot`? Quick UX improvement.
-- **Phase 2 rollout sequencing** — confirm BRENT-first for the OpenClaw consume boot-step install (PROME-owned).
-- **§3.4 scoped-push first-use** — does PROME want an explicit runbook before the first auto-push, or is the spec sufficient?
+- **FL housing/insurance migration** — pull the underlying Newsweek/data and route to REGINALD/SHADE, or leave killed? (WILL_NEEDS #3.)
+- **Cushing as a registered threshold** — Boundary #3 (<20M) is in ROUTING_TABLE but Cushing is NOT in the FORGE dashboard pull (surfaced only via Will-batch verify this time). Worth adding Cushing to the step-6c boot scan so it's caught autonomously? (Same gap as REG-T-06 FHLB / REG-T-07 OFFICE-CMBS-DQ.)
+- **walter_doctor platform inference** — it tagged CC HENRY as OPENCLAW; align the doctor's platform map with REGISTRY.
+- Group-chat artifact policy (raw `intake/telegram/TG-` capture?) — current view: BOARD `origin:` + msg_id pointer sufficient.
+- mentionPatterns `["@walter\\b"]` shorthand.
+- Phase 2 rollout sequencing (BRENT-first OC install, PROME-owned).
+- §3.4 scoped-push first-use runbook.
 - INDEX status-column for tagged signals — decide at slim-down.
-- Staleness-sweep rerun cadence.
-- CARL LIAISON close stamp — when CARL inactive.
-- HENRY LIAISON priority confirmation.
-- VIX-spike trigger candidate — propose in RED Turn 8.
-- FED_FRAMEWORK rename to UST_PLUMBING — defer.
-- Filter v2 Segment D — option A confidence_note.
-- COP refresh resume — paused.
+- Staleness-sweep rerun cadence; CARL LIAISON close stamp; HENRY LIAISON priority; VIX-spike trigger (RED Turn 8); FED_FRAMEWORK→UST_PLUMBING rename (defer); Filter v2 Segment D; COP refresh resume (paused).
 
 ---
 
 *Maintenance note: overwritten each session per CLAUDE.md spawn protocol step 15.*
 
-*6/17 PM late: WALTER+PROME group chat live (chat_id `-5170082433`; durable lesson on OCR-vs-API-verify discipline captured); first dispatch through new group-chat ops-room workflow = SIG-W-20260618-001 Moscow MNPZ 2nd strike (CONFIRMED 0.85; HAWK action / BRENT INFO / RED INFO); BOARD 285→286; group-chat-as-trigger + existing-pipeline-as-substrate architecture validated on first contact. Push deferred for coordinated window. No spec changes.*
+*6/18 PM: Will 5-image batch → 3 dispatch (Maersk Hormuz-not-resumed → HAWK; USD/JPY 1986-high → SAM; Cushing 20M operational-bottom → BRENT IMMEDIATE) / 2 KILL (401k DUP, FL-retiree Relevance) / 2 verify-research; BOARD 286→289; IRAN_WAR.md re-stamped to SIGNED-6/17/reopen-unverified (6/19 binary fired early); REGISTRY HAWK 6/13→6/18; 10 handoffs (SAM commit deferred). Push deferred. No spec changes.*
