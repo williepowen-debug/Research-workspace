@@ -42,6 +42,7 @@
 *Operating procedures live in `PROME/BOOT.md` / `PROME/CLOSEOUT.md`; tool details live in `TOOLS.md`. Only durable lessons below.*
 
 - **Persistent Agents — Do Not Spawn** — Persistent agents have their own workflows; do not casually spawn replacements. Use `AGENTS.md` as the current source for spawn restrictions and roster. → `AGENTS.md`
+- **Real Agent-Work Surface Is Claude Code** — Will mainly works with domain agents by spawning Claude Code sessions on desktop/laptop; the VPS/OpenClaw layer is primarily PROME’s Telegram-accessible orchestration/interface layer. Therefore WALTER delivery to agent files must be committed/pushed to origin before those Claude Code sessions can see it, even for agents that also exist in OpenClaw.
 - **Agent Domain-Only Edit Standard** — Will’s agents are expected to edit only files inside their designated domain unless Will explicitly approves otherwise. Merge/push hygiene should assume domain-scoped pathspecs are the normal workflow, not an exceptional restriction.
 - **Verify Agent-Reported Data Against Filings** — Agent-reported numbers can hallucinate; cross-check any trade-relevant data against primary filings/source documents before acting. → root `CLAUDE.md` Critical Rule #3
 - **News Sweep Exists, But Tools Own Details** — Thesis-tagged news monitoring is live; operational commands/config belong in `TOOLS.md` and `FORGE/tools/news-sweep/`, not root memory.
