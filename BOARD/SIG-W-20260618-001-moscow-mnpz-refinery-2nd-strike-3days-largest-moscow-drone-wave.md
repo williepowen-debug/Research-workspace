@@ -1,6 +1,6 @@
 ---
 signal_id: SIG-W-20260618-001
-dispatched: 2026-06-18T03:55:00Z
+dispatched: 2026-06-18T07:55:00Z
 origin: Will Telegram intake (WALTER+PROME group, msg 2319, 2026-06-18 ~7:46 UTC = ~3:46 AM ET) — first dispatch via new group-chat ops-room workflow
 source: Visegrad 24 @visegrad24 (X, 2026-06-18 ~3:47 AM ET, 105K views at intake) + ASTRA/astrapress watermark (Russian Telegram aggregator)
 signal_type: kinetic-event,facility-damage
