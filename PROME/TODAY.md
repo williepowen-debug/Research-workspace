@@ -18,30 +18,30 @@
 
 ---
 
-## Live Market Levels — Dashboard Pull 2026-06-18 ~12:26 ET
+## Live Market Levels — Dashboard Pull 2026-06-18 ~15:28 ET
 
 | Series | Value | As-of | Zone | Read |
 |---|---:|---|---|---|
 | HY OAS | **263bps** | **[FRED 6/17]** | 🟢 | Only 3bp above <260 kill; most important near gate. |
 | CCC OAS | **939bps** | **[FRED 6/17]** | 🟡 | Tail still elevated, not broad-cascade red. |
-| Brent | **$77.81** | live | 🟢 | Refinery strike matters refined-products/HAWK more than Brent direct. |
+| Brent | **$79.47** | live | 🟢 | Still below stress threshold; refined-products/geopolitics matter more than Brent direct. |
 | Gas weekly | **4.05** | **[6/15]** | 🔴 | Consumer pressure persists. |
-| USD/JPY | **161.27** | live | 🔴 | Carry stress worsening. |
+| USD/JPY | **161.78** | live | 🔴 | Carry stress worsening; this is the cleanest live red continuation. |
 | Initial claims | **226k** | **[6/13]** | 🟡 | Benign/yellow; shadow est **281k**. |
 | Continuing claims | **1.810M** | **[6/6]** | 🟡 | Mild deterioration, not stress. |
 | SOFR | **3.63** | **[6/17]** | 🟡 | Monitor funding plumbing. |
 | 10Y Yield | **4.43%** | **[6/16]** | 🟡 | Duration not confirming disorder. |
 | CP-TBill Spread | **0.12** | **[6/16]** | 🟢 | Clean. |
 | SOFR-IORB | **-0.02** | **[6/17]** | 🟢 | Clean. |
-| KRE | **$71.63** | live | 🟢 | Banks not confirming broad cascade. |
-| APO | **$138.12** | live | — | High alts tape still contradicts immediate PC-bear timing. |
-| ARES | **$130.50** | live | 🟡 | PC/BDC watch. |
-| OZK | **$49.42** | live | 🟡 | Idiosyncratic/Q2-print gated. |
-| WAL | **$79.44** | live | 🟢 | Recovered above threshold. |
-| FXY | **$56.88** | live | 🔴 | Carry/Japan stress. |
-| TLT | **$86.84** | live | 🟡 | No action without broker/Will truth. |
-| BIZD | **$12.34** | live | 🔴 | BDC/private-credit stress remains live. |
-| VIX | **16.96** | live | 🟢 | Post-FOMC vol impulse faded. |
+| KRE | **$71.58** | live | 🟢 | Banks not confirming broad cascade. |
+| APO | **$137.53** | live | — | High alts tape still contradicts immediate PC-bear timing. |
+| ARES | **$128.24** | live | 🟡 | PC/BDC watch; off worst stress but still yellow. |
+| OZK | **$49.20** | live | 🟡 | Idiosyncratic/Q2-print gated. |
+| WAL | **$79.57** | live | 🟢 | Still above green threshold; no broad-bank confirmation. |
+| FXY | **$56.71** | live | 🔴 | Carry/Japan stress worsened with USD/JPY. |
+| TLT | **$86.68** | live | 🟡 | Duration still not confirming disorder; no action without broker/Will truth. |
+| BIZD | **$12.32** | live | 🔴 | BDC/private-credit stress remains live. |
+| VIX | **16.94** | live | 🟢 | Post-FOMC vol impulse still faded. |
 
 ---
 
@@ -74,4 +74,4 @@
 - Do not create parallel signal artifacts.
 - No trade execution.
 - No old May/Jun option rails without broker/Will reconciliation.
-- HEARTBEAT is current as of 12:26 ET.
+- HEARTBEAT is current as of 12:26 ET; 15:28 dashboard refresh did not change regime.
