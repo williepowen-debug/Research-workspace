@@ -1,5 +1,5 @@
 # HEARTBEAT.md
-**Updated:** 2026-06-17 17:15 ET (OpenClaw Prome — post-FOMC regime update)
+**Updated:** 2026-06-17 20:26 ET (OpenClaw Prome — WALTER gate/consumption update)
 
 ## Regime
 
@@ -16,7 +16,7 @@ Key updates since prior HEARTBEAT:
 - **Carry still loaded:** USD/JPY **160.61🔴** after FOMC; FXY weak. BOJ benign did not discharge carry risk; hawkish Fed keeps USD pressure alive.
 - **Banks/private-credit proxies weakened:** KRE −1.85%, WAL −3.74%, ARES −4.91%, BIZD **$12.34🔴**. This matters, but no broad-bank cascade without continuation/credit confirmation.
 - **Duration did not confirm stress:** TLT held green and 10Y latest official still 4.43 [6/16]; FOMC shock showed more in USD/equity/credit proxies than long-end disorder.
-- **WALTER Routing v2 shipped:** delivery layer now live (`BOARD` + recipient `inbox/WALTER/` + delivery log/telemetry). Remaining WALTER work is Phase 2 consumption rollout + Quick-WALTER acceptance test, not Phase 1 architecture.
+- **WALTER Routing v2 gate passed:** real `agentId=walter` Quick-WALTER spawn validated Case A delivery path and Case B Iran-anchor guard; BRENT consumed the -001 backfill via `INBOX_WALTER` and moved it to `processed/`. Remaining rollout is OpenClaw fleet consumption propagation, starting with HAWK (-002 still in flight).
 
 ## Stress dashboard
 
@@ -62,7 +62,7 @@ HY OAS **271🟢 [FRED 6/16]** · CCC **944🟡 [FRED 6/16]** · 10Y **4.43🟡 
 |---|---|---|
 | 🔴 | **Post-FOMC branch confirmation.** Hawkish-of-pricing fired, but broad cascade not confirmed. Need 6/18 FRED HY, claims, TIC, VIX/HYG/KRE/WAL persistence. | `PROME/TODAY.md`, `PROME/ACTIVE_DECISIONS.md` |
 | 🔴 | **HY <260 kill-line monitoring.** Latest HY **271 [FRED 6/16]**; <260 still not confirmed. Sustained <260 kills R3 blended-credit axis; widening/underperformance re-arms bear transmission. | NEXUS/ORC review, dashboard |
-| 🟠 | **WALTER Phase 2 consumption rollout.** Phase 1 delivered; need recipient consume-step and Quick-WALTER acceptance test before treating delivery→consumption as closed loop. | `AGENTS/WALTER/STATUS.md`, `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` |
+| 🟠 | **WALTER Phase 2 consumption rollout.** Quick-WALTER gate passed and BRENT delivery→consumption loop is durable; next target is HAWK consume-step for `SIG-W-20260610-002`, then remaining OpenClaw recipients. | `AGENTS/WALTER/STATUS.md`, `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` |
 | 🟠 | **Jun18/19 expiry cleanup.** HYG dead; TLT/WAL/non-TLT legs require broker reconciliation. | `PROME/ACTIVE_DECISIONS.md` |
 | 🟠 | **Position-state reconciliation pass.** Separate future task; do not mix with market synthesis unless Will pivots. | `PROME/ACTIVE_DECISIONS.md` |
 | 🔵 | **PROME execution-rails design.** HYG roll Jun→Dec died for lack of mechanism; design debt. | BROCK LESSONS #16 |
