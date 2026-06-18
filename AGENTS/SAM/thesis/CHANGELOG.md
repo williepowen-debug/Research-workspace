@@ -8,6 +8,33 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-06-18 — [propagation/thesis-fact] Three verified facts landed: Warsh-Fed regime + FOMC dot revision (Pillar 1 RE-WIDENING) + Iran/US deal SIGNED — Iran docket unfrozen
+
+**Author:** SAM (Will-directed FIRST pass — facts only, no conviction/sizing change; v1.6 re-underwrite follows tonight after Fri National CPI).
+**Action:** No version bump — this is a propagation pass, not a thesis rewrite. The structural re-frame ("re-center compression → carry-unwind-tail; near-term direction inverted; tail intact-to-stronger") is the **v1.6** entry queued for tonight per Will. This entry records the three confirmed facts the v1.6 re-derive will rest on.
+
+**Fact 1 — Fed Chair = WARSH since May 22.** Confirmed by Jun 17 FOMC (debut chair; fed.gov statement + presser via Reuters/Yahoo/Bloomberg). Style: statement-gutting hawkish — **rewrote the FOMC statement ~300 → ~130 words, removing forward easing bias entirely** ("extent and timing of additional adjustments," balance-of-risks language, easing bias). Added Middle East uncertainty + supply-shock inflation framing + "the Committee will deliver price stability." Refused to dot himself: forward guidance "not well suited for the current policy conjuncture." On 2% target: "I see no reason, until we have reestablished our commitment and ability to deliver on the 2% inflation objective, to revisit that." No FX / coordination language. **This Chair change has been live for ~4 weeks and sat un-modeled in SAM's docs through 4 boot cycles** — surfaced today by the Will-directed news sweep. Boot-sweep gap logged to auto-memory.
+
+**Fact 2 — FOMC Jun 17 held but the SEP confirms a regime flip (Pillar 1 directionally inverted).** Decision: 3.50-3.75% unanimous 12-0 (April's 4 dissenters dropped because the easing language was removed). **SEP: 2026 median dot 3.4% → 3.8% (+40bp), implying ≥1 hike; 9 of 18 dots see hike (6 see TWO), 8 hold, 1 cut.** Core PCE 2026 +60bp to 3.3%; headline PCE +90bp to 3.6%. 17 of 18 see inflation risks to upside. 2027 median 3.6%; long-run ~3.1% (modestly up). U/E cut to 4.3%. **CME FedWatch July hike ~75%; Polymarket "Fed hike 2026" ~52% → ~56%.** Market: DXY ~100.40 (broke 100); 2Y +16bp to 4.216%; 10Y +6bp to 4.49%; 30Y up (bear flattener); S&P −1.21%; Nasdaq −1.34%; USDJPY 160.78 Wed close → **161.34 Thu** (no MOF response in 48h+, Bloomberg "Markets Alert for Japan Intervention" Wed).
+
+**Old view (v1.5.1 § Pillar 1 + § Independent Catalyst):** "Compression requires either Fed cuts (multi-month tail per § INDEPENDENT CATALYST, Jun 17 reads >97% no-change) or BOJ hikes (Jun 16)." Fed-cut secondary path = multi-month tail; SAM-side carry tripwire = "any walk-back of cut path." Even a 25bp BOJ move only compresses the gap by ~9% of the differential — meaningful as confirmation, not full resolution.
+
+**New view (verified Jun 17-18):** Across the Jun 16-17 sequence, **the BOJ +25bp compression was MORE than offset by the Fed Jun-17 dot +40bp move — rate-differential is now WIDER than pre-Tue, not narrower**. Pillar 1's structural-LEVEL argument ("the *level* of the gap is the carry") survives; what's broken is the directional vector. Multi-month US-credit-cascade → recession → cuts tail still live theoretically (BCRED ~12%, Ares ~14% Q2 redemption peak) but requires breaking the new Warsh inflation-first frame. SAM-side carry tripwire moves from "Fed-cut surprise" to **"any walk-back of the Jun-17 dot revision"** — Powell-era cut-pricing dynamics no longer apply under Warsh.
+
+**Fact 3 — Iran/US deal SIGNED Wed Jun 17 (Pezeshkian + Trump); Hormuz physically reopening Day 110.** Pakistan PM Sharif confirmed "enters force immediately"; Switzerland signing ceremony scheduled. Terms: 60-day toll-free Hormuz reopen, US lifts naval blockade, Iran dilutes HEU, sanctions waived (not terminated), 60-day nuclear negotiation window. **Iran formal: YES — Pezeshkian signature is the primary-source threshold the Jun-12 framework lacked.** Thu Jun 18: 4 supertankers (~8M bbl) emerged/transiting incl. first Saudi-owned tankers since Day 1; backlog "weeks to clear"; US naval blockade lifting. **Iran docket UNFROZEN per Will's instruction** — prior committed-doc caveats ("digital MOU signed / Iran confirmed / Geneva ceremony — not hardened until primary-source") are now satisfied. Brent reaction: $79.68 Thu — split half deal-signing, half **IEA glut warning (+8 mbpd supply by 2027 vs +2 mbpd demand)** — durable bearish-oil regime developing independent of ME. Sources: NPR, Al Jazeera, NBC, CNBC, Rigzone (Hormuz traffic).
+
+**Surfaces touched (propagation scope):** THESIS banner + § Pillar 1 + § INDEPENDENT CATALYST: FED CUT PATH + Catalyst Sequence Forward (Iran row → ✅ SIGNED). STATUS banner + new § FOMC JUN 17 RESOLVED block (parallel to § BOJ JUN 16 RESOLVED) + § SECONDARY PATH section + § Key Thresholds (USDJPY/DXY/Brent rows, plus a 🆕 Fed Chair regime row in tripwire table). CALENDAR Jun 17 FOMC row + Iran/Hormuz MOU watch row + RECENTLY RESOLVED additions. Auto-memory: month-old Chair change boot-sweep-gap note.
+
+**Held — NOT in this pass (per Will scope: facts only, no conviction/sizing):**
+- Carry-unwind buckets (7d/23/32) — not re-marked; THESIS METHOD anchors not re-pencilled; ship to LIQUID/HENRY held for NEXT-step network re-mark.
+- Position sizing / stop re-spec — held (Will-decision in NEXT).
+- v1.6 thesis re-derive (re-center compression → carry-unwind-tail; FXY-spot-vs-vol vehicle question) — drafting tonight after Fri National CPI; this entry is the fact foundation it rests on.
+- Channel 2/3 prose, Aug-2024-tail references, STRATEGY § Takaichi-ceiling-discount scoring — all queued for v1.6.
+
+**Calibration significance:** Boot-sweep gap on a confirmed Chair change of ~4wk duration is a sub-thesis-level miss — Warsh is a different model than Powell (statement-gutting, no forward guidance, "no reason to revisit the 2% target"). Promoted to auto-memory as a process lesson (`finding_boot_sweep_macro_regime_context`); fix proposal = add a macro-regime-context check (Fed Chair, BOJ Gov, key personalities, last-Fed-statement style) to the boot baseline. Independent of the position outcome — this is workflow-grade.
+
+---
+
 ## 2026-06-16 — 🔴🔴 BOJ HIKES TO 1.00% AS PRICED — dominant remaining catalyst resolved; no carry unwind (CH-004 confirmed); 4 June predictions closed
 
 **Author:** SAM (live-event resolution; decision + reaction primary-verified — CNBC/TradingEconomics/Reuters-via-Yahoo/ING)
