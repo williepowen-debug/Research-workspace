@@ -1,17 +1,17 @@
 # PROME STATUS.md
-**Updated:** 2026-06-17 17:15 ET (OpenClaw Prome — post-FOMC regime update)
+**Updated:** 2026-06-17 21:32 ET (OpenClaw Prome — WALTER delivery-model closeout)
 
 ## Core State
 
-**Operational priority:** WALTER Routing v2 Phase 1 is shipped. Next system-work lane is PROME-side follow-through: Phase 2 recipient consumption rollout, Quick-WALTER live acceptance test, and clean-tree push behavior for IMMEDIATE/FLASH deliveries to Claude Code recipients.
+**Operational priority:** WALTER Routing v2 real path is proven and BRENT/HAWK loops are durable. Next system-work lane is delivery/push policy design for Will’s real workflow: Prome on VPS routes/signals, while domain-agent work usually happens in Claude Code on desktop/laptop and therefore needs origin visibility.
 
 **Market priority:** Post-FOMC update is done: hawkish-of-pricing branch fired, broad cascade not confirmed. Next market-work lane is 6/18 confirmation: FRED HY OAS, claims, TIC/FXY, and persistence in VIX/HYG/KRE/WAL.
 
-**Current repo reality:** clean working tree, **ahead 1** with local commit `PROME: post-FOMC regime update`. Continue **pathspec-only** commits; push only when Will explicitly approves.
+**Current repo reality:** clean working tree, **ahead of origin** with local WALTER/OpenClaw consume rollout + Prome operating-model correction commits. Continue **pathspec-only** commits; push only when Will explicitly approves or when a scoped delivery policy is explicitly adopted.
 
 **Regime source:** `HEARTBEAT.md` is post-FOMC as of 17:15 ET. Latest dashboard snapshot is in `HEARTBEAT.md` / `PROME/TODAY.md`.
 
-**Standing constraint:** **do not edit `AGENTS/*`** unless Will explicitly approves/scopes it. WALTER owns WALTER-domain edits; recipient agents own their own consume-step integration.
+**Standing constraint:** **do not edit `AGENTS/*`** unless Will explicitly approves/scopes it. Current exception already used: Will scoped WALTER/OpenClaw consume-step rollout. Future recipient changes need fresh scope or owner self-apply.
 
 ---
 
@@ -22,7 +22,7 @@
 | `HEARTBEAT.md` | Regime, dashboard, thresholds, near gates | Post-FOMC hawkish re-arm / unresolved divergence. |
 | `PROME/TODAY.md` | Operator card / immediate lane | Updated for WALTER v2 landed + post-FOMC next rails. |
 | `PROME/ACTIVE_DECISIONS.md` | Safety index for trade/expiry rails | WALTER row moved to Phase-1 shipped / Phase-2 pending. FOMC row remains monitor-only pending T+1 HY/post-event synthesis. |
-| `PROME/SCRATCH.md` | Working notes / latest session entry | Current closeout entry point. |
+| `PROME/SCRATCH.md` | Working notes / latest session entry | Current closeout entry point: brainstorm WALTER/Prome push/delivery options. |
 | `PROME/FLEET_SCAN.md` | Conditional fleet map | Stale Jun14 map; read only as historical unless refreshed on demand. |
 | `PROME/HANDOFF.md` | Live continuity surface | Top entry should reflect WALTER v2 shipped and next PROME-side work. |
 | `PROME/BOOT.md` / `PROME/CLOSEOUT.md` | Start/end procedures | Follow; repo state first remains mandatory. |
@@ -34,8 +34,8 @@
 
 | Lane | Status | Prome read |
 |---|---|---|
-| **WALTER Routing v2** | ✅ Phase 1 shipped | BOARD-first archive + recipient-local `inbox/WALTER/` handoffs landed. `delivery_log.tsv`, Quick/Full mode, Iran-anchor guard, git-derived written-but-undelivered telemetry, and narrow BRENT/HAWK backfills reviewed. |
-| **WALTER consumption rollout** | 🟠 pending / PROME-side coordination | Phase 2 consume boot-step not rolled out. Expect delivered-but-unconsumed nags after 2d if not addressed; that is intended anti-rot telemetry. |
+| **WALTER Routing v2** | ✅ real path proven | Real `agentId=walter` Quick gate passed, Case B Iran guard fired, BOARD reconciles, delivery/consumption telemetry works. |
+| **WALTER consumption rollout** | 🟡 OpenClaw progressed / CC pending | BRENT + HAWK consumed backfills; doctor shows zero in-flight. Remaining OpenClaw consume capability installed locally for BROCK/LIQUID/HENRY/LABOR/NEXUS/VIOLET/SHADE; CC agents self-apply after pull. |
 | **WALTER cron/feed health** | 🟠 stale upstream feeds | Doctor still flags stale `news-sweep`, `filing-watch`, `SIGNALS/inbound`; not caused by Routing v2. |
 | **NEXUS synthesis** | ✅ pre-FOMC review-passed | ORC four-group read upheld matrix. Needs post-FOMC synthesis if market lane resumes. |
 | **LABOR pushed fixes** | ✅ landed | Functional fixes reviewed cleanly; claims 6/18 remains live. |
@@ -50,9 +50,10 @@
 |---|---:|---|
 | Post-closeout / fresh window boot | 🔴 active | Pull/verify repo; read SCRATCH/TODAY/ACTIVE_DECISIONS. |
 | Post-FOMC confirmation | 🔴 next market lane | Confirm with 6/18 FRED HY OAS, claims, TIC/FXY, VIX/HYG/KRE/WAL persistence. |
-| WALTER Phase 2 consumption rollout | 🟠 next system lane | Coordinate recipient consume-step rollout; OpenClaw agents first; do not directly edit recipient docs unless scoped. |
-| Quick-WALTER acceptance test | 🟠 pending | PROME-spawned route-only test to validate BOARD + delivery file + delivery_log + anchor guard. |
-| IMMEDIATE/FLASH → CC push behavior | 🟠 pending operational rail | PROME owns clean-tree scoped commit + normal push behavior when urgent delivery to Claude Code recipient requires origin. |
+| WALTER delivery/push policy | 🔴 next system lane | Brainstorm and choose how Prome commits/pushes routed WALTER signals for Claude Code visibility: immediate, urgency-tiered, or explicit flush queue. |
+| WALTER Phase 2 consumption rollout | 🟡 mechanical follow-through | OpenClaw consume capability mostly installed locally; CC agents self-apply on next Claude Code spawn after pull. |
+| Quick-WALTER acceptance test | ✅ done | Real `agentId=walter` route-only test validated BOARD + delivery file + delivery_log + Case B Iran guard. |
+| IMMEDIATE/FLASH → CC push behavior | 🟠 pending operational rail | Because Will’s agents run mainly in Claude Code, origin push is the real delivery boundary; needs explicit policy/automation. |
 | Position-state reconciliation | 🟠 pending | Needed for expiry/trade hygiene; broker/Will truth required. |
 | Separate-clones migration | 🟠 deferred | Post-FOMC calm-window decision packet; do not do halfway. |
 | Execution-rails design | 🔵 design debt | HYG Jun→Dec failure remains canonical: thesis needs pre-registered ladders and triggers. |
@@ -75,4 +76,4 @@
 
 ## Next Best Action
 
-Next: either monitor 6/18 post-FOMC confirmation data or continue WALTER Phase 2 / Quick-WALTER acceptance test. Do not touch positions without Will/broker truth.
+Next: brainstorm WALTER/Prome delivery-push policy from the corrected operating model: Prome routes on VPS, but Claude Code agents need origin visibility. Do not touch positions without Will/broker truth.

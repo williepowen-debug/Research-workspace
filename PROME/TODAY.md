@@ -1,6 +1,6 @@
 # TODAY.md — Wednesday June 17, 2026
 
-**Objective:** Post-FOMC regime update is now done. Next work should confirm/deny the hawkish re-arm with 6/18 FRED HY OAS, claims, TIC/FXY, and persistence in VIX/HYG/KRE/WAL. WALTER Phase 2 remains the next system lane. **No `AGENTS/*` edits unless Will explicitly scopes them. No trade/expiry action without broker/Will truth.**
+**Objective:** Post-FOMC regime update is done. WALTER v2 real path is proven; next system work is brainstorming the Prome/WALTER push-delivery model for Will’s actual Claude Code workflow. Market lane remains 6/18 FRED HY OAS, claims, TIC/FXY, and persistence in VIX/HYG/KRE/WAL. **No new `AGENTS/*` edits unless Will explicitly scopes them. No trade/expiry action without broker/Will truth.**
 
 **Current regime:** **Hawkish-FOMC re-arm / unresolved divergence.** Fed held **3.50–3.75%** unanimously, but SEP/dots were hawkish-of-pricing: 2026 PCE/core and fed-funds medians revised materially higher vs March. Tape sold equities/credit proxies, VIX lifted to **18.44**, USD/JPY stayed **160.61🔴**, and BIZD is **$12.34🔴**. But HY OAS is still **271bps [FRED 6/16]** above the <260 kill line and duration did not break (TLT **$86.33**, 10Y **4.43 [6/16]**). Read: fragile calm cracked, not broad cascade. Confirm HY via FRED T+1 on 6/18 before grading the R3/blended-credit branch.
 
@@ -10,9 +10,9 @@
 
 | Item | State | Read |
 |---|---|---|
-| Git | 🟡 clean, ahead 1 | Post-FOMC Prome update is committed locally but not pushed. Push remains Will-coordinated. |
-| WALTER Routing v2 | ✅ Phase 1 shipped | BOARD-first archive + recipient-local `inbox/WALTER/` delivery lane landed. New doctor checks pass. |
-| WALTER consumption | 🟠 pending | Phase 2 recipient consume-step rollout remains; anti-rot telemetry will nag after 2d if backfills unconsumed. |
+| Git | 🟡 clean, ahead of origin | Local commits include Prome operating-model correction + WALTER/OpenClaw consume rollout. Push remains Will-coordinated unless delivery policy changes. |
+| WALTER Routing v2 | ✅ real path proven | Real Quick-WALTER spawn, delivery path, Iran guard, BRENT/HAWK consumption, and telemetry all passed. |
+| WALTER consumption | 🟡 OpenClaw progressed / CC pending | BRENT + HAWK loops durable; remaining OpenClaw consume capability installed locally; Claude Code agents need pull/self-apply. |
 | FOMC | ✅ post-event update done | Hawkish-of-pricing branch fired; broad cascade not confirmed. Need 6/18 confirmation data. |
 | Position truth | 🟠 unreconciled | No expiry action without broker/Will truth. |
 
@@ -74,9 +74,10 @@
 | Pri | Work | Action |
 |---|---|---|
 | 🔴 | **Post-FOMC confirmation** | 6/18 FRED HY OAS + claims + TIC/FXY + VIX/HYG/KRE/WAL persistence. |
-| 🟠 | **WALTER Phase 2 consumption rollout** | Coordinate recipient consume-step; OpenClaw agents first; avoid direct recipient edits unless scoped. |
-| 🟠 | **Quick-WALTER acceptance test** | PROME-spawned test of route-only path, delivery_log, and Iran-anchor guard. |
-| 🟠 | **IMMEDIATE/FLASH → Claude Code push rail** | Prome to operate clean-tree scoped commit + normal push only under urgent policy. |
+| 🔴 | **WALTER/Prome delivery-push model** | Brainstorm policy now that Will clarified Claude Code is the real agent-work surface: immediate push, urgency-tiered push, or explicit flush queue. |
+| 🟡 | **WALTER Phase 2 consumption rollout** | OpenClaw capability rollout is mechanical; CC agents self-apply after pull. Avoid new recipient edits unless scoped. |
+| ✅ | **Quick-WALTER acceptance test** | Done: real `agentId=walter`, route-only path, delivery_log, and Iran-anchor guard passed. |
+| 🟠 | **IMMEDIATE/FLASH → Claude Code push rail** | Needs explicit policy/automation because origin is normal delivery boundary for serious agent work. |
 | 🟠 | **Position-state reconciliation** | Separate lane only; no expiry action without broker/Will truth. |
 | 🔵 | **Execution-rails design** | Later: prevent another HYG Jun→Dec missed-roll failure by pre-registering ladders/triggers. |
 
