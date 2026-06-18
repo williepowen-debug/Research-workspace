@@ -6,6 +6,20 @@
 
 ---
 
+## 2026-06-18 ~14:05 ET — Closeout before fresh session; Quick-WALTER paused for fresh news
+
+**Status:** Repo is clean/synced. WALTER/Prome/ORC resolved the mini-WALTER boundary after the Moscow MNPZ A/B test. Full Claude Code WALTER is the signal desk. Prome/Quick-WALTER is paused for fresh news and may route only pre-registered RED-FT / REG-T / safety-net trigger fires with fixed recipient_chain, plus non-routing delivery repair/backfill for existing BOARD signals. Fresh screenshots/news/Visegrad/aggregator/source-confidence/recipient-selection all queue/escalate to Full WALTER.
+
+**What landed:** WALTER docs/specs pushed through the registry-only Quick boundary + UTC timestamp discipline; Moscow MNPZ timestamp fixed to true UTC; RED delivery_log row fixed to valid `COMMITTED`; HEARTBEAT/TODAY/Prome state updated. `walter_doctor` reconciles BOARD at 286 and shows all WALTER handoffs delivered; only known stale upstream feeds remain.
+
+**Market state:** HY OAS **263 [FRED 6/17]** is 3bp above the <260 R3/blended-credit kill line. Claims were benign/yellow; VIX/banks faded stress; USDJPY/FXY carry worsened. Broad cascade unconfirmed, kill line close.
+
+**Next suggested work:** fresh boot from `HEARTBEAT.md`, `PROME/SCRATCH.md`, `PROME/TODAY.md`, `PROME/ACTIVE_DECISIONS.md`. Choose lane: market monitoring (HY <260 / TIC-FXY / banks-PC), or system design for a group-chat VERIFY/CONTEXT helper that fact-packs signals without routing authority.
+
+**Risks / blockers:** do not spawn Quick-WALTER for fresh news; do not create parallel signal artifacts. Legacy parallel artifacts remain historical (30 `FORGE/signals/*.md`, 14 generic agent inbox signal files) and need a deliberate archive/leave decision. No trade/expiry action without broker/Will truth.
+
+---
+
 ## 2026-06-17 ~21:32 ET — WALTER v2 proven; delivery/push model next
 
 **Status:** WALTER Routing v2 is now validated end-to-end on the real path. Real `agentId=walter` Quick mode passed Case A delivery and Case B Iran-anchor refusal/escalation. BRENT and HAWK consumed their backfills; doctor shows zero WALTER handoffs in flight and zero awaiting delivery. Local unpushed commits now include Prome's operating-model correction plus WALTER/OpenClaw consume rollout for remaining OpenClaw recipients.
@@ -76,14 +90,3 @@
 - LABOR pushed fixes were functionally merge-safe; later LABOR hygiene commit resolved stale handoff/push language.
 
 ---
-
-## 2026-06-15 ~00:05 ET — Context-weight cleanup closeout
-
-**Status:** Prome context surfaces were pruned and lighter boot protocols landed. Historical, but still relevant as protocol background.
-
-**What landed:**
-- `PROME/BOOT.md` slimmed; repo-state-first and lean output protocols active.
-- `PROME/CLOSEOUT.md` hardened; pathspec-only commits and Will-gated push remain rules.
-- Root `MEMORY.md` pruned to durable kernels; daily activity belongs in `memory/YYYY-MM-DD.md`.
-
-**Guardrails still live:** no broad git ops, no `AGENTS/*` edits unless scoped, no trade execution, refresh prices before citing.
