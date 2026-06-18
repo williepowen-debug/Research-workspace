@@ -6,79 +6,91 @@
 
 ## STATUS
 
-**2026-06-17 Wed (Will-terminal, one session — WALTER Routing v2 delivery-layer build, Phase 1).** Boot (doctor exit 3 / threshold scan no-new-fires) → Will pasted the "WALTER Routing v2 — Final Design Packet" (co-developed w/ ORC + PROME, approved-in-principle) → WALTER review: **endorsed**, with a root-cause correction (SIG-W-20260610-001/-002 were BOARD-only, delivered to **neither** BRENT nor HAWK — structural for every IMMEDIATE/PRIORITY signal, not a one-off) → Will **GREENLIGHT** with a minimal scoped-push policy + 2 added build requirements (A: Quick/Full mode + Iran-anchor guard codified in CLAUDE.md; B: written-but-undelivered telemetry git-derived, not a PROME-written flag) → shipped canonical-source-first in the approved 7-step order. **0 signal dispatches / 0 KILLs / 0 sub-agents / 2 backfill deliveries / BOARD 285 / commits push-deferred.**
+**2026-06-17 Wed PM late (~10:35 PM – 11:55 PM ET, Will-Telegram boot — WALTER+PROME group chat live + FIRST DISPATCH through new group-chat ops-room workflow).** Boot was clean (FF pull over PROME closeout + BRENT/HAWK 6/17 inbox-consume — first end-to-end exercise of the Routing v2 delivery layer shipped earlier same day). walter_doctor exit 3 (3 dead crons only). Step-6c threshold scan: no new fires (Brent $78.30 BACK INSIDE RED-FT-04 <$75 near-trigger band; VIX 18.44 sustain broken; WAL $78.43 band-edge). **1 dispatch / 0 KILLs / 1 verify-research spawn (~$0.05) / BOARD 285→286.**
 
 ## CHANGED
 
-1. **`design/BOARD_CONSUMPTION_SPEC.md` v0.1→v0.2** (canonical owner) — added the delivery layer: per-recipient create-only `AGENTS/{RECIPIENT}/inbox/WALTER/` handoffs (template) + `delivery_log.tsv` (one row per signal×recipient); published/delivered/consumed state vocabulary (orthogonal to `status:` lifecycle); platform-nuanced `delivered` (OpenClaw shared-clone / CC committed+on-origin); FLASH/IMMEDIATE→CC clean-tree scoped-push (the ONLY standing auto-push authorization) + PRIORITY/ROUTINE `written_not_delivered_pending_push`; git-derived sync telemetry; phased-but-time-boxed consumption rollout; `board_log` `source` column (→5-col); Quick/Full reference; messaging-overhaul superseding-note (scoped to this lane only); §13 Phase-1 acceptance checks.
-2. **`design/SIGNAL_PROCESSING_CHECKLIST.md` v0.13→v0.14** — new **Phase 3.5 DELIVERY** step (write per-recipient handoff + delivery_log row on every dispatch); disposition table updated (PUSHED/ARCHIVED both write handoffs); platform-nuance + scope + Quick/Full note.
-3. **`routed/delivery_log.tsv`** (NEW) — 9-col header + the 2 backfill rows.
-4. **`tools/walter_doctor.py` 7→9 checks** (+2: the prior count was 7 — registry_lag shipped 6/16; STATE.md's count row was stale at 6) — `delivered_but_unconsumed` (handoff not moved to `processed/` after N=2d) + `written_but_undelivered` (committed-local but not on origin — READ-ONLY git derivation per requirement B, platform-nuanced severity) + helpers (`_handoff_files` / `_origin_ref` / `_sync_state`) + `CC_AGENTS` constant. Docstring updated. Tested: both checks INFO-clean pre-backfill, correct after.
-5. **Backfill (narrow, per §11)** — `AGENTS/BRENT/inbox/WALTER/SIG-W-20260610-001.md` (Bab al-Mandab, BRENT ACTION) + `AGENTS/HAWK/inbox/WALTER/SIG-W-20260610-002.md` (multi-front re-ignition, HAWK ACTION). Both OpenClaw, both carry a **backfill + anchor-moved caveat** (the 6/10 framing is superseded by the 6/16 DE-ESCALATION-PENDING anchor; honors the Iran-anchor guard). 2 `delivery_log` rows.
-6. **`CLAUDE.md`** — NEW **RUN MODES (Quick vs Full WALTER)** section + **Quick-WALTER Iran-anchor guard** (requirement A); step 0.5 portable-python invocation + 9-check note; archive step 11 delivery-policy rewrite; **RULE 10** rewrite (BOARD-only → BOARD + delivery-handoff); step 16a commit-scope adds the `inbox/WALTER/` shared-write zone; IDENTITY maintained-files list + KEY DESIGN FILES row + canonical-source lookup row all synced.
-7. **`design/STATE.md`** — §1 CHECKLIST v0.14 + BOARD_CONSUMPTION_SPEC v0.2 (cleared the version_drift HIGH the guard caught mid-build); §4 delivery_log + inbox/WALTER scaffolding rows + walter_doctor 9-check; §5 delivery-policy row rewrite; §9 delivery-vs-consumption split.
-8. **`STATUS.md`** — new 6/17 lead + delivery-layer bullet + 6/17 threshold-scan refresh + SESSION LOG row; 6/06 row archived to **`SESSION_LOG.md`**.
+**Telegram group setup (Will + WALTER bot + PROME bot, chat_id `-5170082433`):**
+1. `~/.claude/channels/telegram/access.json` — added group entry with `requireMention: true` + `allowFrom: ["8463631023"]`. Initially wrong chat_id (`-5179082433`) due to a one-digit OCR error from getidsbot screenshot; caught by Will pushback ("throwing things at the wall") + re-OCR; corrected to `-5170082433`. Bot now live in group. (File outside repo; not committed.)
+
+**Theorycraft thread (group, ~30 min, 7 messages WALTER ↔ PROME ↔ Will):** PROME proposed Telegram-as-trigger + new SIGNALS/ tree + SIG-IN-NNN ticket-system + event_log. WALTER pushed back: substrate already exists (BOARD/ + routed/ + delivery_log + per-recipient inbox/WALTER/); novel piece is only the trigger mechanism. Converged on "Git = shared brain, Telegram = cockpit." No new SIGNALS/ tree spec'd.
+
+**First real signal dispatch through the new lane:**
+
+1. `BOARD/SIG-W-20260618-001-moscow-mnpz-refinery-2nd-strike-3days-largest-moscow-drone-wave.md` (NEW) — canonical signal file.
+2. `BOARD/INDEX.md` — HYDROCARBON_INFRA cluster ToC row updated (12→13, latest-date 2026-06-18, narrative); section header (12→13); new row appended chronologically; TOTAL 285→286.
+3. `AGENTS/WALTER/routed/route_log.tsv` — 1 new row.
+4. `AGENTS/WALTER/routed/delivery_log.tsv` — 3 new rows (HAWK/BRENT/RED).
+5. `AGENTS/HAWK/inbox/WALTER/SIG-W-20260618-001.md` (NEW) — ACTION handoff.
+6. `AGENTS/BRENT/inbox/WALTER/SIG-W-20260618-001.md` (NEW) — INFO handoff (refined-products lens).
+7. `AGENTS/RED/inbox/WALTER/SIG-W-20260618-001.md` (NEW) + `AGENTS/RED/inbox/WALTER/processed/` (NEW dir) — INFO handoff (verify-lineage + counter-evidence). **First WALTER→RED delivery on the new lane; RED's `inbox/WALTER/` infra created this dispatch.**
+8. `AGENTS/WALTER/STATUS.md` — lead paragraph rewritten + BOARD count + dispatch-count + push-state + SESSION LOG row.
+9. `AGENTS/WALTER/MEMORY.md` — CHANGES-SINCE block + 2 new Findings (OCR-anchor-on-file lesson; first end-to-end group-chat-workflow validation).
+10. `AGENTS/WALTER/LAST_COMPLETION.md` — this file.
 
 ## RESULT
 
-**The keystone gap is closed at the design + tooling layer.** "In BOARD ≠ received" is fixed: every dispatch now writes a real per-recipient handoff, the create-only design is collision-safe, `delivered` is honestly platform-nuanced, and the anti-rot telemetry that v0.1 lacked ships in the same session as the layer it guards — so Phase 2 can't silently stall the way v0.1's consumption rollout did. The doctor's own `version_drift` check caught my CHECKLIST bump mid-build and forced the STATE sweep — the recurrence guard working exactly as designed. Doctor exit 3 post-build (the 3 dead crons only; delivery checks clean).
+**The group-chat ops-room workflow is live and exercised end-to-end on first contact.** Will drops a signal in the WALTER+PROME group tagging both bots → WALTER runs the existing pipeline (BOARD-grep + kill_log + recipient-state checks → Phase 1.5 verify-research → dispatch → 3 handoffs + logs + group reply). ~12 min wall-clock intake-to-dispatch. **No new SIGNALS/ tree needed. No SIG-IN- namespace. No new event log.** Existing infrastructure absorbed the new intake source cleanly. PROME stayed off-the-loop for this dispatch (no decision rail warranted); the layer separation (WALTER = routing, PROME = decisions) held without collision.
 
-**Phase 1 acceptance:** delivery layer + telemetry + BRENT/HAWK backfill done; BOARD still reconciles 285; nothing claims `consumed`. The one acceptance item not exercisable here = "PROME spawns Quick WALTER and routes a test signal" (needs PROME).
+**Specific dispatch:** SIG-W-20260618-001 Moscow MNPZ refinery 2nd strike + largest-ever Moscow drone wave (194 intercepted per Sobyanin, 17 injured Oblast incl 2 children, 6/16 ELOU-AVT-6 ~53% throughput damage compounded 6/18). Verify CONFIRMED 0.85 across 7 primaries (Bloomberg + Moscow Times + RFE/RL + Kyiv Post + Ukrainska Pravda + Euromaidan + ABC). Visegrad's "completely engulfed" lightly stretched; "5 fires" supported by Russian primary sources; net dispatch verdict CONFIRMED not CORRECTED-FRAMING. Russia-Ukraine kinetic INTENSIFYING while Iran-cluster DE-ESCALATING → **track-divergence regime input flagged to HAWK in handoff.**
 
 ## GAPS
 
-- ✅ **PUSHED** — Will opened a push window at close; committed + pushed (`22216de3` build + `785059f4` auto-memory), clean `pull --rebase` over PROME closeout `54be3705`, tree synced (ahead 0 / behind 0). The 6/16 PM commits were already on origin from a prior window.
-- **Phase 2 NOT shipped** — recipient consume boot-step is WALTER-defines/others-apply. OpenClaw via PROME (start BRENT); CC self-apply on next spawn. The `delivered_but_unconsumed` telemetry will flag the BRENT/HAWK backfills as unconsumed after 2 days until BRENT's consume step lands — that is the intended visibility, not a bug.
-- **`board_log` `source` column** — defined in spec v0.2; existing agent logs (CARL/REGINALD 9-col, HAWK 4-col) migrate on each agent's next touch (WALTER does not edit them).
-- **3 dead cron feeds** — unchanged (news-sweep 31d / filing-watch 41d / SIGNALS 15d); PROME/SENTRY-owned, escalated.
-- **Quick WALTER test** — the route-a-test-signal acceptance check needs PROME to spawn the mode; not exercisable from Full WALTER.
+- **Push deferred** — local commits queued. RED's CC handoff status = `WRITTEN_NOT_DELIVERED_PENDING_PUSH`; flips to truly-delivered at next push window. HAWK/BRENT (OC) = `COMMITTED` (effectively delivered on next OC shared-clone sync).
+- **3 dead cron feeds** unchanged (news-sweep 31d / filing-watch 41d / SIGNALS 15d) — PROME/SENTRY-owned, escalated.
+- **Phase 2 (consume boot-step)** still WALTER-defines/others-apply — but BRENT and HAWK both organically consumed earlier 6/17 backfills, validating the lane works without formal install. Phase 2 codification still useful for newer recipients (esp. RED).
 
 ## WILL_NEEDS
 
-1. ✅ **Diff-stat reviewed (ORC) + committed + pushed.** ORC verdict: clean and faithful. Pushed `22216de3` + `785059f4`, synced.
-2. ✅ **Push done** — window opened at close; tree synced to origin.
-3. **Phase 2 kickoff** — when ready, PROME installs the consume boot-step in BRENT's CLAUDE.md (template in BOARD_CONSUMPTION_SPEC §8.1); CC agents self-apply.
-4. **🔴 Cron health escalation** (unchanged) — all 3 boot-triage feeds dead; PROME (news-sweep + filing-watch) / SENTRY (SIGNALS).
-5. **6/17 FOMC today ~2 PM ET** (cut→HIKE ~52%); **6/19 Geneva Iran signing = binary** anchor re-verify.
+1. **Push window** when convenient — local commits queued (group-chat dispatch + closeout).
+2. **🔴 Cron health escalation** (unchanged) — all 3 boot-triage feeds dead; PROME (news-sweep + filing-watch) / SENTRY (SIGNALS).
+3. **Phase 2 kickoff** — when ready, PROME installs the consume boot-step in BRENT's CLAUDE.md (template in BOARD_CONSUMPTION_SPEC §8.1); CC agents self-apply. Lane organically working but formalization closes the gap.
+4. **6/19 Geneva Iran signing = BINARY anchor re-verify trigger** (~36h out).
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
 
-**Done this session (removed from forward list):** ~~WALTER Routing v2 review~~ DONE (endorsed + root-cause correction); ~~delivery layer / BOARD_CONSUMPTION_SPEC v0.2~~ DONE; ~~CHECKLIST Phase 3.5~~ DONE; ~~delivery_log.tsv~~ DONE; ~~walter_doctor delivery telemetry~~ DONE (2 checks, git-derived); ~~BRENT/HAWK backfill~~ DONE; ~~Quick/Full mode + Iran-anchor guard in CLAUDE.md~~ DONE; ~~portable-python~~ DONE.
+**Done this session (removed from forward list):** ~~WALTER+PROME Telegram group setup~~ DONE; ~~first dispatch through new lane~~ DONE; ~~group-chat ops-room architecture (Telegram = cockpit, Git = brain, no SIGNALS/ parallel tree)~~ AGREED; ~~SIG-W-20260618-001 dispatch + delivery~~ DONE; ~~OCR-anchor-on-file finding~~ promoted to MEMORY.
 
 **🔴 Time-sensitive forward:**
-1. **6/17 FOMC** (cut→HIKE ~52%) — today ~2 PM ET.
-2. **6/19 Geneva Iran signing = BINARY anchor re-verify trigger.**
-3. **🟠 Bab al-Mandab confirmation ladder** (JWC reclass / BRT-28 window to Jul 1).
-4. **🟠 Munir/Pakistan-MFA response** — fork-disambiguator.
+1. **6/19 Geneva Iran signing = BINARY anchor re-verify trigger.**
+2. **🟠 Bab al-Mandab confirmation ladder** (JWC reclass / BRT-28 window to Jul 1).
+3. **🟠 Munir/Pakistan-MFA response** — fork-disambiguator.
+
+**🆕 WALTER+PROME group ops-room follow-on:**
+4. **Watch how next 2-3 group-chat dispatches go** before committing to any new file convention (e.g. `intake/telegram/TG-` raw-capture); current view = existing pipeline already covers it, but real-world test sample is N=1.
+5. **PROME decision-rail engagement** — first dispatch didn't warrant a rail; watch for the first signal that does need one and document the in-group handoff.
+6. **mentionPatterns?** Could add `["@walter\\b"]` so `@walter` shorthand works alongside `@walter_research_bot` — minor UX improvement, not blocking.
 
 **🆕 WALTER Routing v2 — Phase 2 + follow-on:**
-5. **Phase 2 consume boot-step rollout** — PROME installs in BRENT first (template §8.1), then HAWK/BROCK/LIQUID/HENRY/LABOR/NEXUS/VIOLET/SHADE; CC (CARL/REGINALD/SAM/RED) self-apply. Time-boxed; `delivered_but_unconsumed` telemetry tracks the gap.
-6. **Quick WALTER live test** — PROME spawns the route-only mode on a real batch; confirm BOARD + INDEX + route_log + delivery file(s) + delivery_log all land (acceptance check §13).
-7. **Define the §3.4 scoped-push as an operational PROME runbook** — the policy is specced; PROME may want a concrete checklist (clean-tree verify → pathspec commit → pull --rebase → push) before first use.
+7. **Phase 2 consume boot-step rollout** — PROME installs in BRENT first (template §8.1), then HAWK/BROCK/LIQUID/HENRY/LABOR/NEXUS/VIOLET/SHADE; CC (CARL/REGINALD/SAM/RED) self-apply. Time-boxed; `delivered_but_unconsumed` telemetry tracks the gap. BRENT/HAWK already organically consumed earlier 6/17 backfills.
+8. **Quick WALTER live test** — PROME spawns the route-only mode on a real batch (acceptance check §13).
+9. **Define the §3.4 scoped-push as an operational PROME runbook.**
 
 **🟠 Threshold fire watch:**
-8. RED-FT-01 (HY 271) + RED-FT-07 (CCC 944) continuing-fire — re-fire only on boundary re-cross. Credit widened into FOMC.
-9. WAL REG-T-02 — still INSIDE 5% near-band ($81.01 vs $81.90).
-10. Brent $79.52 — eased just ABOVE RED-FT-04 "<75" band (watch only).
-11. REG-T-06 FHLB / REG-T-07 OFFICE-CMBS-DQ — still not in dashboard pull.
+10. RED-FT-01 (HY 271) + RED-FT-07 (CCC 944) continuing-fire — re-fire only on boundary re-cross.
+11. WAL REG-T-02 — at band-edge ($78.43 vs $78 fire).
+12. Brent $78.30 — BACK INSIDE the RED-FT-04 <$75 near-trigger band (was just above yesterday).
+13. REG-T-06 FHLB / REG-T-07 OFFICE-CMBS-DQ — still not in dashboard pull.
 
 **🟠 LIAISON + routing:**
-12. RED Turn 8 / REGINALD Turn 7 — untouched since 6/6.
-13. EVENT_WINDOW_STATE.md — ~27d untouched (CLOSED, no posture risk); BRENT-coordinated refresh owed.
-14. HENRY / NEXUS LIAISON — next-priority opens.
+14. RED Turn 8 / REGINALD Turn 7 — untouched since 6/6.
+15. EVENT_WINDOW_STATE.md — ~27d untouched (CLOSED, no posture risk); BRENT-coordinated refresh owed.
+16. HENRY / NEXUS LIAISON — next-priority opens.
 
 **🔴 Infra:**
-15. 3 dead cron feeds (WILL_NEEDS #4; PROME/SENTRY).
+17. 3 dead cron feeds (WILL_NEEDS #2; PROME/SENTRY).
 
 **Design / governance backlog:**
-16. **BOARD INDEX slim-down** (375KB→~30KB; Orch schema echo-back first) — the prior one open design item.
-17. Staleness-sweep rerun cadence; FILTER_SPEC v0.6 BODY-INACCESSIBLE-PAYWALL verdict; `valid_until` forward-expiry convention; VIX-spike registered trigger (RED Turn 8); COP refresh (paused); OZK Q1 post-mortem (REGINALD pickup).
+18. **BOARD INDEX slim-down** (375KB→~30KB; Orch schema echo-back first).
+19. Staleness-sweep rerun cadence; FILTER_SPEC v0.6 BODY-INACCESSIBLE-PAYWALL verdict; `valid_until` forward-expiry convention; VIX-spike registered trigger (RED Turn 8); COP refresh (paused); OZK Q1 post-mortem (REGINALD pickup).
 
 ## OPEN DESIGN DECISIONS (need Will)
 
+- **Group-chat artifact policy:** when (if ever) do we want a raw `intake/telegram/TG-YYYYMMDD-NNN` capture file? Current view: existing BOARD `origin:` field + group msg_id pointer is sufficient; revisit if dispatches without filter-survival need an audit-trail.
+- **`mentionPatterns` shorthand** — add `["@walter\\b"]` so `@walter` works alongside `@walter_research_bot`? Quick UX improvement.
 - **Phase 2 rollout sequencing** — confirm BRENT-first for the OpenClaw consume boot-step install (PROME-owned).
 - **§3.4 scoped-push first-use** — does PROME want an explicit runbook before the first auto-push, or is the spec sufficient?
-- INDEX status-column for tagged signals — decide at slim-down (#40).
+- INDEX status-column for tagged signals — decide at slim-down.
 - Staleness-sweep rerun cadence.
 - CARL LIAISON close stamp — when CARL inactive.
 - HENRY LIAISON priority confirmation.
@@ -91,4 +103,4 @@
 
 *Maintenance note: overwritten each session per CLAUDE.md spawn protocol step 15.*
 
-*6/17: WALTER Routing v2 delivery-layer build (Phase 1) — packet review (endorsed + root-cause correction) → Will greenlight + scoped-push policy + 2 build requirements → BOARD_CONSUMPTION_SPEC v0.2 (delivery layer) + CHECKLIST v0.14 (Phase 3.5) + delivery_log.tsv + walter_doctor 9-check (git-derived telemetry) + BRENT/HAWK backfill + CLAUDE.md RUN MODES/anchor-guard/RULE-10/commit-scope + STATE/STATUS sync. Phase 2 (consume boot-step) = others-apply. Push deferred. Awaiting Will diff-stat review before commit.*
+*6/17 PM late: WALTER+PROME group chat live (chat_id `-5170082433`; durable lesson on OCR-vs-API-verify discipline captured); first dispatch through new group-chat ops-room workflow = SIG-W-20260618-001 Moscow MNPZ 2nd strike (CONFIRMED 0.85; HAWK action / BRENT INFO / RED INFO); BOARD 285→286; group-chat-as-trigger + existing-pipeline-as-substrate architecture validated on first contact. Push deferred for coordinated window. No spec changes.*
