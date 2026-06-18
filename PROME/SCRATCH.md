@@ -1,5 +1,5 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-18 15:28 ET (OpenClaw Prome — daily boot-doc refresh)
+**Last Updated:** 2026-06-18 18:00 ET (OpenClaw Prome — WALTER laptop/desktop Telegram setup closeout)
 
 ## What Just Happened
 
@@ -25,9 +25,15 @@
 4. **Group-chat research-agent idea surfaced.**
    - Good future design: WALTER owns routing; a separate VERIFY/CONTEXT helper can produce fact packets or surrounding-research packets; Prome owns decision/task consequences. No shared steering wheel.
 
+5. **WALTER laptop/desktop Telegram setup standardized.**
+   - Laptop WALTER MCP issue resolved: installed `unzip` + Bun, added Telegram bot token at `~/.claude/channels/telegram/.env`, paired Telegram, fixed WSL PATH/native Claude install to use Claude Code **2.1.181** / Opus **4.8**.
+   - Desktop WALTER token path standardized to same `~/.claude/channels/telegram/.env` and confirmed Telegram connected.
+   - Standard boot command for both machines: `tmux new -s walter -d 'cd ~/Research-workspace/AGENTS/WALTER && claude --channels plugin:telegram@claude-plugins-official'`; optional danger variant appends `--dangerously-skip-permissions`.
+   - Rule remains: only one Telegram-WALTER active at a time, or Telegram pollers can compete for updates.
+
 ## Current Git State
 
-Clean and synced to origin. Latest pushed state includes HEARTBEAT update and WALTER Quick-routing restriction.
+Local branch has Prome refresh commits ahead of origin. Latest pushed state includes HEARTBEAT update and WALTER Quick-routing restriction; local state additionally includes Jun18 boot-doc refresh + this WALTER laptop/desktop setup note.
 
 ## Current Operating Picture
 
@@ -41,8 +47,9 @@ Clean and synced to origin. Latest pushed state includes HEARTBEAT update and WA
 Start fresh with:
 1. Read `HEARTBEAT.md` first for the market state: HY 263, stress faded, carry worse.
 2. If system lane: design the group-chat VERIFY/CONTEXT helper pattern — fact packet only, no routing authority.
-3. If market lane: monitor HY <260, TIC/FXY/carry, and whether banks/PC proxies re-weaken.
-4. If positions lane: keep separate; broker/Will truth required before any expiry/trade action.
+3. If WALTER access lane: use the standardized tmux command + `~/.claude/channels/telegram/.env`; keep only one Telegram-WALTER active.
+4. If market lane: monitor HY <260, TIC/FXY/carry, and whether banks/PC proxies re-weaken.
+5. If positions lane: keep separate; broker/Will truth required before any expiry/trade action.
 
 ## Cautions
 
