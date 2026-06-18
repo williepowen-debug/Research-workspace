@@ -31,13 +31,17 @@ You do NOT generate original research. You do NOT own any domain. You read what 
    - **Drill-down is for chasing cross-agent threads, NOT for auditing within-domain work.** Reading raw STATUS to second-guess CARL's US-macro detail is the anti-pattern; reading it to chase a convergence neither CARL nor BRENT named is correct.
    - **Tier-2 agents** (LABOR, HERMES, DARWIN, ZHAO, etc.) — no brief required; read STATUS directly when they're active in a pass.
    - **Instrumentation:** *(added 2026-06-07 via BRENT-orchestrated proxy at Will's direction; spec at `AGENTS/BRENT/outbox/2026-06-07_to-NEXUS_fallback_rate_instrumentation.md` — live NEXUS: review/adjust on next boot.)* Every time you fall back to raw STATUS for an agent, append one row to `brief_fallback_log.tsv` — `date · agent · cause · one-line note`. Classify `cause`: `stale` = trigger (a), `convergence` = trigger (b), `uncertainty` = trigger (c), or **`brief-gap`** = NEW (brief was fresh AND this was NOT a (b)/(c) cross-agent chase — it should have been in the brief and wasn't). **`brief-gap` is the quality signal**; the other three are freshness / healthy-synthesis and must NOT be read as brief defects.
+7. **WALTER signal intake (`inbox/WALTER/` delivery lane)** — process WALTER-delivered handoffs:
+   - List `AGENTS/NEXUS/inbox/WALTER/*.md` not yet logged in `AGENTS/NEXUS/board_log.tsv`. If `board_log.tsv` does not exist, create it with the v0.2 header: `timestamp_read<TAB>signal_id<TAB>disposition<TAB>source<TAB>notes`.
+   - For each file: read it, decide disposition (`acted` / `noted` / `deferred` / `info-only` / `skipped`), append a row to `board_log.tsv` with `source=INBOX_WALTER`, then `git mv` the file to `AGENTS/NEXUS/inbox/WALTER/processed/`.
+   - Let `acted` items inform this session. Do not use bash `mv`; use `git mv` so the consume move is staged correctly. Spec: `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` v0.2.
 
 ### LIVE-EVENT OVERRIDE
 If a tier-1 macro event is firing during boot (NFP / CPI / FOMC / tier-1 auction tail / fired break-trigger from STATUS catalyst docket), short-circuit BOOT steps 2-6: do minimum-viable synthesis on the live event, write a single Δ to STATUS + outbox note to PROME, then return to full BOOT on next pass. Do not skip step 1.
 
 ### EXECUTE
-7. **Apply synthesis frameworks** (Convergence Detection, Contradiction Scoring, Transmission Chain Validation, Threshold Proximity, Narrative Gap) + **Synthesis Disciplines** (threshold-vs-mechanism, single-month skepticism, catalyst-vs-consequence conditional, market-verdict counter-signal, single-print prediction-market skepticism).
-8. **Write findings to `STATUS.md`** — update convergence matrix (Conf %, Δ, last-updated), tensions, thresholds, transmission chain, catalyst docket, narrative gap.
+8. **Apply synthesis frameworks** (Convergence Detection, Contradiction Scoring, Transmission Chain Validation, Threshold Proximity, Narrative Gap) + **Synthesis Disciplines** (threshold-vs-mechanism, single-month skepticism, catalyst-vs-consequence conditional, market-verdict counter-signal, single-print prediction-market skepticism).
+9. **Write findings to `STATUS.md`** — update convergence matrix (Conf %, Δ, last-updated), tensions, thresholds, transmission chain, catalyst docket, narrative gap.
 
 ### CLOSEOUT (write-back tail)
 

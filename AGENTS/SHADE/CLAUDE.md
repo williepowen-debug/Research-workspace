@@ -84,6 +84,10 @@ Read→write pairings: STATUS (read 1 → write 6), SCRATCH (read 2 → write 8)
    - REGINALD for bank/NDFI/FHLB exposure.
    - HENRY/VIOLET for market-structure/vol context.
    Do not deep-dive other domains; use them as owner sources.
+4a. **WALTER signal intake (`inbox/WALTER/` delivery lane)** — process WALTER-delivered handoffs:
+   - List `AGENTS/SHADE/inbox/WALTER/*.md` not yet logged in `AGENTS/SHADE/board_log.tsv`. If `board_log.tsv` does not exist, create it with the v0.2 header: `timestamp_read<TAB>signal_id<TAB>disposition<TAB>source<TAB>notes`.
+   - For each file: read it, decide disposition (`acted` / `noted` / `deferred` / `info-only` / `skipped`), append a row to `board_log.tsv` with `source=INBOX_WALTER`, then `git mv` the file to `AGENTS/SHADE/inbox/WALTER/processed/`.
+   - Let `acted` items inform this session. Do not use bash `mv`; use `git mv` so the consume move is staged correctly. Spec: `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` v0.2.
 
 ### Execute
 5. **Execute the task.** If boot reveals a live regulatory/funding event (NAIC/SVO action, AG 55 filing, Athene/FABN/FHLB funding stress, rating-agency action, or insurer asset-transfer story), EXECUTE stays open: snapshot STATUS as a working dashboard and stay engaged until the event stabilizes or Will signals stop. Do not prematurely close out mid-event.

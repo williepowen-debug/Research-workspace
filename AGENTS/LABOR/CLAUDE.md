@@ -38,6 +38,10 @@ B5. **Catalyst calendar reconciliation.** Source of truth is **`docket/CATALYSTS
    - Calendar items past date, unverified
 
    If the user's task already targets these, proceed. Otherwise incorporate them into the session plan. If 10+ items flag, summarize ("N items overdue, longest X days; top 5: …") rather than pasting the full table.
+B5a. **WALTER signal intake (`inbox/WALTER/` delivery lane)** — process WALTER-delivered handoffs:
+   - List `AGENTS/LABOR/inbox/WALTER/*.md` not yet logged in `AGENTS/LABOR/board_log.tsv`. If `board_log.tsv` does not exist, create it with the v0.2 header: `timestamp_read<TAB>signal_id<TAB>disposition<TAB>source<TAB>notes`.
+   - For each file: read it, decide disposition (`acted` / `noted` / `deferred` / `info-only` / `skipped`), append a row to `board_log.tsv` with `source=INBOX_WALTER`, then `git mv` the file to `AGENTS/LABOR/inbox/WALTER/processed/`.
+   - Let `acted` items inform this session. Do not use bash `mv`; use `git mv` so the consume move is staged correctly. Spec: `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` v0.2.
 
 ### EXECUTE
 B6. **Execute the task.** **Live-event override:** if a market/data event is actively unfolding, prioritize it over a full closeout — you may abbreviate CLOSEOUT to C1 (STATUS) + C2 (predictions/catalysts), deferring workbook/promotion, as long as you note the deferral in STATUS § NEXT SESSION PICKUP.

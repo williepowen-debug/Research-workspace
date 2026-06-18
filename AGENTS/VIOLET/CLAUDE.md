@@ -28,6 +28,10 @@ Read→write pairings: STATUS (read 1 → write 7), SCRATCH (read 2 → write 11
    .venv/bin/python3 AGENTS/VIOLET/scripts/boot.py
    ```
    Use `--verbose` for full output. Web-search only for narrative/headline catalysts the boot kit doesn't cover.
+5a. **WALTER signal intake (`inbox/WALTER/` delivery lane)** — process WALTER-delivered handoffs:
+   - List `AGENTS/VIOLET/inbox/WALTER/*.md` not yet logged in `AGENTS/VIOLET/board_log.tsv`. If `board_log.tsv` does not exist, create it with the v0.2 header: `timestamp_read<TAB>signal_id<TAB>disposition<TAB>source<TAB>notes`.
+   - For each file: read it, decide disposition (`acted` / `noted` / `deferred` / `info-only` / `skipped`), append a row to `board_log.tsv` with `source=INBOX_WALTER`, then `git mv` the file to `AGENTS/VIOLET/inbox/WALTER/processed/`.
+   - Let `acted` items inform this session. Do not use bash `mv`; use `git mv` so the consume move is staged correctly. Spec: `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` v0.2.
 
 ### EXECUTE
 6. **Execute the task.** If boot reveals a live regime-moving print or active catalyst window (e.g., VIX +30% intraday, FOMC week with vol bidding, credit gap), EXECUTE stays open — snapshot STATUS as a working dashboard and stay engaged. Don't trigger the full Write-back sequence until the event stabilizes, the task completes, or Will signals stop. The session is not over because boot is over.
