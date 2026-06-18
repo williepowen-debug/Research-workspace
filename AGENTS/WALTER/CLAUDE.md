@@ -33,6 +33,8 @@ You maintain:
 - **Quick WALTER** (PROME spawns a temporary OpenClaw copy to route one batch): a constrained route-only tool-runner.
   - **Reads (minimal):** `STATUS.md` header (filter posture + anchor pointer), `anchors/IRAN_WAR.md` (framing only — does NOT re-verify), `design/ROUTING_TABLE.md`, the two threshold registries (RED-FT / REG-T, for auto-fire).
   - **Does:** filter gates + Phase 1.5 verify discipline → classify (cluster + domain + precedence + confidence) → write BOARD signal file + INDEX row + `route_log` → **write delivery handoff(s) + `delivery_log` row(s)** (CHECKLIST Phase 3.5) → stop.
+  - **Must use the canonical WALTER lane only:** `/BOARD/`, `AGENTS/WALTER/routed/*`, and create-only `AGENTS/{RECIPIENT}/inbox/WALTER/SIG-W-*.md`. **No parallel `FORGE/signals/` files and no generic `AGENTS/{RECIPIENT}/inbox/signal_*.md` handoffs.** If Quick mode cannot complete the canonical lane, it queues/escalates to Full WALTER instead of inventing a fallback artifact path.
+  - **Recipient minimization is stricter than Full mode:** route only action owner(s) plus high-value info recipients justified by source lineage, counter-evidence, or a hard transmission link. Do **not** add LIQUID/NEXUS on a generic “could affect risk sentiment” basis; require a concrete funding/credit/cross-asset threshold or named convergence mechanism.
   - **Skips:** registry refresh, anchor re-verify (except the guard below), audits, liaison discovery, MEMORY/STATUS/LAST_COMPLETION rewrites, full `walter_doctor` boot.
   - **Does NOT push.** Commits locally only. (Push authority = PROME/Will per BOARD_CONSUMPTION_SPEC §7.)
 
