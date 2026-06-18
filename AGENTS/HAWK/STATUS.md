@@ -70,7 +70,7 @@
 
 **Headline: 22/50 🟠** (from 38/50 Jun 12). The Iran-war convergence is unwinding on the signing; the residual mass is in the *verification* uncertainty (shipping/insurance, Hormuz-not-normalized), not active kinetics.
 
-**Off-core escalating track (NOT in Iran sum):** **Russia-Ukraine** — Moscow MNPZ refinery 2nd strike in 3 days + largest-ever Moscow drone wave (194 intercepted, 17 injured Oblast); broader Ukrainian campaign ≈2.14 Mbpd ≈ ~1/3 Russian refining capacity offline. Refined-products / crack-spread channel (price = BRENT). **Track-divergence: as the Iran cluster de-escalates, the Russia cluster intensifies** — the geopolitical-risk regime is rotating, not resolving.
+**Off-core escalating track (NOT in Iran sum):** **Russia-Ukraine — now at all-time campaign intensity** (gap-sweep Jun 18, KB-185/186, detail in `research/RUSSIA_OIL_INFRA_STRIKES_MAY-JUN2026.md`). **May 2026 = record month: 31 strikes on Russian oil infra, the most of the war; Russian refinery output the lowest since 2009; 24 of 33 major refineries hit** (Kirishi/Ryazan/Moscow/Yaroslavl/Nizhny Novgorod/Saratov/Syzran…). June continued: Kuibyshev (Jun 10), Tatarstan Taneko/Taif-NK + Samara (Jun 12), Moscow MNPZ ×2 (Jun 16/18), Gukovo depot Rostov (Jun 18). **Cumulative: ~1/3 of Russian primary refining capacity (~2.14M bpd) offline; first-week-June runs <4M bpd = lowest in 21 years; fuel shortages in 25+ regions.** Refined-products / crack-spread channel (price = BRENT); crude flows less affected than *products*. **Track-divergence: as the Iran cluster de-escalates into a signed MOU, the Russia cluster peaks** — the geopolitical-energy risk regime is rotating, not resolving.
 
 ---
 
