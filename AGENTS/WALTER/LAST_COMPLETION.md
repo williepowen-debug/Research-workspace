@@ -6,7 +6,7 @@
 
 ## STATUS
 
-**2026-06-18 Thu PM (~6:12–6:40 PM ET, Will-Telegram boot — 5-image signal batch).** Boot clean read; pull SKIPPED (SAM had uncommitted work in tree → local scoped commits, push deferred). walter_doctor exit 4 (3 dead crons MED + HAWK registry_lag MED [explained: HAWK committed the 6/18 signing] + OZK staleness LOW). Step-6c threshold scan: no new fires (HY 263 <280 + CCC 939 >930 continuing-fire suppressed; WAL $79.91 in REG-T-02 band; Brent $79.44 just outside RED-FT-04). **4 dispatch / 2 KILL / 3 verify-research (~$0.15) / BOARD 286→290** (5-image batch + a follow-on FCBM regional-bank-IPO article).
+**2026-06-18 Thu PM (~6:12–6:40 PM ET, Will-Telegram boot — 5-image signal batch).** Boot clean read; pull SKIPPED (SAM had uncommitted work in tree → local scoped commits, push deferred). walter_doctor exit 4 (3 dead crons MED + HAWK registry_lag MED [explained: HAWK committed the 6/18 signing] + OZK staleness LOW). Step-6c threshold scan: no new fires (HY 263 <280 + CCC 939 >930 continuing-fire suppressed; WAL $79.91 in REG-T-02 band; Brent $79.44 just outside RED-FT-04). **4 dispatch / 3 KILL / 3 verify-research (~$0.15) / BOARD 286→290** (5-image batch + FCBM IPO article + a Motley Fool banking-ETF comparison [killed]).
 
 ## CHANGED
 
@@ -99,4 +99,4 @@
 
 *Maintenance note: overwritten each session per CLAUDE.md spawn protocol step 15.*
 
-*6/18 PM: Will 5-image batch + FCBM follow-on → 4 dispatch (Maersk Hormuz-not-resumed → HAWK; USD/JPY 1986-high → SAM; Cushing 20M operational-bottom → BRENT IMMEDIATE; First Carolina FCBM regional-bank-IPO revival → REGINALD counter-evidence) / 2 KILL (401k DUP, FL-retiree Relevance) / 3 verify-research; BOARD 286→290; IRAN_WAR.md re-stamped to SIGNED-6/17/reopen-unverified (6/19 binary fired early); REGISTRY HAWK 6/13→6/18; 13 handoffs (SAM commit deferred). Push deferred. No spec changes.*
+*6/18 PM: Will 5-image batch + FCBM follow-on → 4 dispatch (Maersk Hormuz-not-resumed → HAWK; USD/JPY 1986-high → SAM; Cushing 20M operational-bottom → BRENT IMMEDIATE; First Carolina FCBM regional-bank-IPO revival → REGINALD counter-evidence) / 3 KILL (401k DUP, FL-retiree Relevance, Motley Fool IAT/FNCL ETF-comparison Novelty+Relevance — IAT +33.4% datum preserved) / 3 verify-research; BOARD 286→290; IRAN_WAR.md re-stamped to SIGNED-6/17/reopen-unverified (6/19 binary fired early); REGISTRY HAWK 6/13→6/18; 13 handoffs (SAM commit deferred). Push deferred. No spec changes.*
