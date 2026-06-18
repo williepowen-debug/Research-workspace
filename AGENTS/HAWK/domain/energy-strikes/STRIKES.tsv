@@ -1,0 +1,27 @@
+strike_id	Date	Theater	Attacker	Facility	Region	FacilityOperator	Type	Capacity	Status	Strike#	Channel	ReturnToService	Conf	Source	Notes
+RU-20260223-DRUZHBA1	2026-02-23	RU-UA	Ukraine	Druzhba-1 pump (Kaleykino)	Tatarstan	Transneft	pump-station	?	disrupted	1	crude-export(pipeline)	unk	B2	KB-041	1,200km from border; cut Druzhba flow to Hungary
+RU-20260322-PRIMORSK	2026-03-22	RU-UA	Ukraine	Primorsk	Leningrad	Transneft	crude-terminal	~1M bpd port	reduced	1	crude-export	unk	B2	MoscowTimes/Euromaidan	Fuel depot ignited; berths + 2 tankers hit
+RU-20260324-USTLUGA	2026-03-24	RU-UA	Ukraine	Ust-Luga	Leningrad	Transneft	crude-terminal	?	halted	1	crude-export	~2026-04-02	B2	SBU/Euromaidan	Alpha SOF 900km drones; loading halted ~9 days
+RU-20260329-PRIMORSK	2026-03-29	RU-UA	Ukraine	Primorsk	Leningrad	Transneft	crude-terminal	?	offline	2	crude-export	unk	B2	Euromaidan/Bloomberg	Tanks burned days; that wk Russian oil exports -43% to 2.32M bpd (~$1B lost)
+RU-20260406-NOVOROSSIYSK	2026-04-06	RU-UA	Ukraine	Novorossiysk (Sheskharis)	Krasnodar	Transneft	crude-terminal	?	reduced	1	crude-export	unk	B2	MoscowTimes	Pipelines + oil tanks ablaze (night 4/5-6)
+RU-20260420-TUAPSE	2026-04-20	RU-UA	Ukraine	Tuapse	Krasnodar	Rosneft	refinery	~240 kbpd	reduced	2	product-crack	unk	B2	KB-141/Visegrad24	2nd strike in 4 days; Black Sea port
+RU-20260505-KIRISHI	2026-05-05	RU-UA	Ukraine	Kirishi (KINEF)	Leningrad	Surgutneftegas	refinery	~20 Mt/yr	offline	1	product-crack	unk	B2	Bloomberg/NASA-FIRMS	One of Russia largest; fully offline from 5/5
+RU-20260514-VOLGOGRAD	2026-05-14	RU-UA	Ukraine	Volgograd (Lukoil)	Volgograd	Lukoil	refinery	?	fire	1	product-crack	unk	C3	Yahoo/UA-MoD	DATE LOW-CONF (one source conflated w/ later strike) - VERIFY
+RU-20260515-RYAZAN	2026-05-15	RU-UA	Ukraine	Ryazan	Ryazan	Rosneft	refinery	~17 Mt/yr	offline	1	product-crack	unk	B2	MoscowTimes/Reuters	Operations suspended completely
+RU-20260517-MNPZ	2026-05-17	RU-UA	Ukraine	Moscow MNPZ (Kapotnya)	Moscow	Gazprom Neft	refinery	~11 Mt/yr	offline	1	product-crack	unk	B2	MoscowTimes/Reuters	Shut 5/17; precursor to 6/16 + 6/18 repeat hits
+RU-20260519-YANOS	2026-05-19	RU-UA	Ukraine	Yaroslavl (YANOS)	Yaroslavl	Slavneft	refinery	?	reduced(~1/4)	1	product-crack	unk	B2	Reuters/MoscowTimes	Operating ~25% nominal capacity
+RU-20260520-NORSI	2026-05-20	RU-UA	Ukraine	Nizhny Novgorod (NORSI)	Nizhny Novgorod	Lukoil	refinery	~17 Mt/yr	reduced	1	product-crack	unk	B2	Reuters/MoscowTimes	Attacked 5/20
+RU-20260521-UNSPEC	2026-05-21	RU-UA	Ukraine	(refinery, unspecified)	?	?	refinery	?	hit	-	product-crack	unk	C3	Euronews/Zelensky	Zelensky-confirmed long-range strike; facility not named
+RU-20260531-SARATOV	2026-05-31	RU-UA	Ukraine	Saratov	Saratov	Rosneft	refinery	?	fire	1	product-crack	unk	B2	Pravda/RBC-Ukraine	Night 5/30-31 large fire; "long-range sanctions"
+RU-202605xx-SYZRAN	2026-05-??	RU-UA	Ukraine	Syzran	Samara	Rosneft	refinery	?	hit	1	product-crack	unk	C3	MoscowTimes	Named among May targets; exact date TBD
+RU-20260610-KUIBYSHEV	2026-06-10	RU-UA	Ukraine	Kuibyshev	Samara	Rosneft	refinery	?	reduced	1	product-crack	unk	B2	KyivPost/AlJazeera	AVT-4/AVT-5 primary units + RVS-2000 tank hit
+RU-20260612-TANEKO	2026-06-12	RU-UA	Ukraine	Taneko (Nizhnekamsk)	Tatarstan	Tatneft	refinery	~14 Mt/yr	hit	1	product-crack	unk	B2	MoscowTimes/KyivPost	Russia-Day raid
+RU-20260612-TAIFNK	2026-06-12	RU-UA	Ukraine	Taif-NK	Tatarstan	TAIF	refinery/petrochem	?	hit	1	product-crack	unk	B2	MoscowTimes	Russia-Day raid
+RU-20260612-TOGLIATTI	2026-06-12	RU-UA	Ukraine	Togliattikauchuk	Samara	Sibur	chemical	?	hit	1	petrochem	unk	C3	MoscowTimes	Synthetic-rubber plant; Russia-Day raid
+RU-20260616-MNPZ	2026-06-16	RU-UA	Ukraine	Moscow MNPZ (Kapotnya)	Moscow	Gazprom Neft	refinery	~11 Mt/yr	offline	2	product-crack	unk	B2	KB-184/DefenseNews	ELOU-AVT-6 ~53% throughput; 15km from Kremlin
+RU-20260618-MNPZ	2026-06-18	RU-UA	Ukraine	Moscow MNPZ (Kapotnya)	Moscow	Gazprom Neft	refinery	~11 Mt/yr	offline	3	product-crack	unk	B2	KB-184/NBC	2 strikes in 3d; largest-ever Moscow wave (194 nat-wide drones, 555 downed); 5 fires
+RU-20260618-GUKOVO	2026-06-18	RU-UA	Ukraine	Gukovo oil depot	Rostov	?	depot	?	fire	1	product(storage)	unk	B2	KyivIndependent	Depot ablaze overnight 6/18
+GI-20260307-HAIFA	2026-03-07	GULF-IRAN	Iran/IRGC	Haifa refinery	Israel	Bazan	refinery	?	hit	1	product-crack	unk	B2	KB-047	IRGC Kheibarshekan ballistic missiles 3/7-8; IRGC-confirmed
+GI-20260319-YANBU	2026-03-19	GULF-IRAN	Iran-axis(unclaimed)	Samref (Yanbu)	Saudi Arabia	Aramco-ExxonMobil JV	refinery	~400 kbpd	hit	1	crude/product	unk	C3	KB-100	Drone hit Samref; separate ballistic intercepted before Yanbu
+GI-20260319-MINAAHMADI	2026-03-19	GULF-IRAN	Iran-axis(unclaimed)	Mina al-Ahmadi	Kuwait	KNPC	refinery	466 kbpd	fire	1	crude/product	unk	C3	KB-103	Drone attack ignited fire
+GI-20260319-MINAABDULLAH	2026-03-19	GULF-IRAN	Iran-axis(unclaimed)	Mina Abdullah	Kuwait	KNPC	refinery	270 kbpd	fire	1	crude/product	unk	C3	KB-103	Drone attack ignited fire
