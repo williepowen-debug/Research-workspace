@@ -6,7 +6,7 @@
 
 ## STATUS
 
-**2026-06-18 Thu PM (~6:12–6:40 PM ET, Will-Telegram boot — 5-image signal batch).** Boot clean read; pull SKIPPED (SAM had uncommitted work in tree → local scoped commits, push deferred). walter_doctor exit 4 (3 dead crons MED + HAWK registry_lag MED [explained: HAWK committed the 6/18 signing] + OZK staleness LOW). Step-6c threshold scan: no new fires (HY 263 <280 + CCC 939 >930 continuing-fire suppressed; WAL $79.91 in REG-T-02 band; Brent $79.44 just outside RED-FT-04). **3 dispatch / 2 KILL / 2 verify-research (~$0.10) / BOARD 286→289.**
+**2026-06-18 Thu PM (~6:12–6:40 PM ET, Will-Telegram boot — 5-image signal batch).** Boot clean read; pull SKIPPED (SAM had uncommitted work in tree → local scoped commits, push deferred). walter_doctor exit 4 (3 dead crons MED + HAWK registry_lag MED [explained: HAWK committed the 6/18 signing] + OZK staleness LOW). Step-6c threshold scan: no new fires (HY 263 <280 + CCC 939 >930 continuing-fire suppressed; WAL $79.91 in REG-T-02 band; Brent $79.44 just outside RED-FT-04). **4 dispatch / 2 KILL / 3 verify-research (~$0.15) / BOARD 286→290** (5-image batch + a follow-on FCBM regional-bank-IPO article).
 
 ## CHANGED
 
@@ -14,6 +14,7 @@
 1. `BOARD/SIG-W-20260618-002-...maersk...md` (NEW) — Maersk "not resumed Hormuz crossings" → HAWK action / BRENT, RED info. PRIORITY, IRAN_HORMUZ, cluster_mediating, CONFIRMED 0.85.
 2. `BOARD/SIG-W-20260618-003-...usdjpy...md` (NEW) — USD/JPY highest weekly close since 1986 / 2024-MOF-intervention analog → SAM action / LIQUID, RED info. PRIORITY, ASIA_CHINA, SKIP-VERIFY 0.85.
 3. `BOARD/SIG-W-20260618-004-...cushing...md` (NEW) — Cushing AT ~20M operational bottom (EIA 6/12 = 20.03M) → BRENT action / LIQUID, HENRY, RED info. IMMEDIATE, HYDROCARBON_INFRA / cluster_secondary IRAN_HORMUZ, CORRECTED-FRAMING 0.92.
+3b. `BOARD/SIG-W-20260618-005-...fcbm...md` (NEW; ~6:51 PM continuation) — First Carolina (NYSE: FCBM) regional-bank IPO "revival" article (Briefglance.com) → REGINALD action / RED, HENRY info. PRIORITY, BANK_COLLATERAL (38→39) / cluster_secondary POSITIONING_VALUATION, signal_role counter_evidence, CONFIRMED 0.90. TOTAL 289→290. route_log +1 / delivery_log +3 / 3 handoffs (REGINALD/RED/HENRY, all CC pending push). Framed **WEAK counter-evidence** — supply-side IPO appetite, not credit-quality; comps priced the pre-6/17 easing regime now flipped cut→HIKE; REGINALD already retired cohort-wide bear 6/8.
 4. `BOARD/INDEX.md` — 3 cluster ToC rows + 3 section headers + 3 appended rows; TOTAL 286→289 (IRAN_HORMUZ 57→58, ASIA_CHINA 8→9, HYDROCARBON_INFRA 13→14). walter_doctor reconciles 289.
 5. `routed/route_log.tsv` +3; `routed/delivery_log.tsv` +10; `filtered/kill_log.tsv` +2 (401k DUP, FL-retiree Relevance).
 6. **10 per-recipient handoffs** in `AGENTS/{HAWK,BRENT×2,RED×3,SAM,LIQUID×2,HENRY}/inbox/WALTER/` — **SAM's commit DEFERRED** (active in tree); OC = COMMITTED, CC (RED/HENRY) = WRITTEN_NOT_DELIVERED_PENDING_PUSH.
@@ -98,4 +99,4 @@
 
 *Maintenance note: overwritten each session per CLAUDE.md spawn protocol step 15.*
 
-*6/18 PM: Will 5-image batch → 3 dispatch (Maersk Hormuz-not-resumed → HAWK; USD/JPY 1986-high → SAM; Cushing 20M operational-bottom → BRENT IMMEDIATE) / 2 KILL (401k DUP, FL-retiree Relevance) / 2 verify-research; BOARD 286→289; IRAN_WAR.md re-stamped to SIGNED-6/17/reopen-unverified (6/19 binary fired early); REGISTRY HAWK 6/13→6/18; 10 handoffs (SAM commit deferred). Push deferred. No spec changes.*
+*6/18 PM: Will 5-image batch + FCBM follow-on → 4 dispatch (Maersk Hormuz-not-resumed → HAWK; USD/JPY 1986-high → SAM; Cushing 20M operational-bottom → BRENT IMMEDIATE; First Carolina FCBM regional-bank-IPO revival → REGINALD counter-evidence) / 2 KILL (401k DUP, FL-retiree Relevance) / 3 verify-research; BOARD 286→290; IRAN_WAR.md re-stamped to SIGNED-6/17/reopen-unverified (6/19 binary fired early); REGISTRY HAWK 6/13→6/18; 13 handoffs (SAM commit deferred). Push deferred. No spec changes.*
