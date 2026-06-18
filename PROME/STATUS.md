@@ -1,15 +1,15 @@
 # PROME STATUS.md
-**Updated:** 2026-06-18 14:05 ET (OpenClaw Prome — closeout before fresh session)
+**Updated:** 2026-06-18 15:28 ET (OpenClaw Prome — daily boot-doc refresh)
 
 ## Core State
 
 **Operational priority:** Quick-WALTER boundary is settled. Prome/Quick-WALTER is paused for fresh news/signals and may only execute pre-registered RED-FT / REG-T / safety-net triggers or delivery repair/backfill. Full WALTER owns signal-desk judgment.
 
-**Market priority:** Post-FOMC confirmation is mixed. HY OAS **263 [FRED 6/17]** is 3bp above the <260 kill line; claims/VIX/banks do not confirm cascade; carry stress worsened. Next market lane is HY <260 monitoring + TIC/FXY + bank/PC re-weakening.
+**Market priority:** Post-FOMC confirmation is mixed. HY OAS **263 [FRED 6/17]** is 3bp above the <260 kill line; claims/VIX/banks do not confirm cascade; carry stress worsened further on the 15:28 dashboard (USD/JPY **161.78**, FXY **$56.71**). Next market lane is HY <260 monitoring + TIC/FXY + bank/PC re-weakening.
 
 **Current repo reality:** clean and synced to origin. Continue **pathspec-only** commits; push only when Will explicitly approves or when a scoped delivery policy is explicitly adopted.
 
-**Regime source:** `HEARTBEAT.md` is current as of 2026-06-18 12:26 ET. Latest dashboard snapshot is in `HEARTBEAT.md` / `PROME/TODAY.md`.
+**Regime source:** `HEARTBEAT.md` is current as of 2026-06-18 12:26 ET; 15:28 dashboard refresh is in `PROME/TODAY.md` and did not change the regime read.
 
 **Standing constraint:** **do not edit `AGENTS/*`** unless Will explicitly approves/scopes it. Current exception already used: Will scoped WALTER/OpenClaw consume-step rollout. Future recipient changes need fresh scope or owner self-apply.
 
@@ -20,7 +20,7 @@
 | Surface | Role | Current note |
 |---|---|---|
 | `HEARTBEAT.md` | Regime, dashboard, thresholds, near gates | HY 263 near kill; broad cascade unconfirmed; carry worse. |
-| `PROME/TODAY.md` | Operator card / immediate lane | Updated for Jun18 HY/claims gate + Quick-WALTER pause. |
+| `PROME/TODAY.md` | Operator card / immediate lane | Updated for Jun18 HY/claims gate + 15:28 dashboard refresh. |
 | `PROME/ACTIVE_DECISIONS.md` | Safety index for trade/expiry rails | WALTER row moved to Quick-news-paused / Full-WALTER standard. FOMC row updated to HY 263 monitor. |
 | `PROME/SCRATCH.md` | Working notes / latest session entry | Current closeout entry point: fresh session; HY kill-line + possible VERIFY/CONTEXT helper design. |
 | `PROME/FLEET_SCAN.md` | Conditional fleet map | Stale Jun14 map; read only as historical unless refreshed on demand. |
@@ -39,7 +39,7 @@
 | **WALTER cron/feed health** | 🟠 stale upstream feeds | Doctor still flags stale `news-sweep`, `filing-watch`, `SIGNALS/inbound`; not caused by Routing v2. |
 | **NEXUS synthesis** | ✅ pre-FOMC review-passed | ORC four-group read upheld matrix. Needs post-FOMC synthesis if market lane resumes. |
 | **LABOR pushed fixes** | ✅ landed | Functional fixes reviewed cleanly; claims 6/18 remains live. |
-| **FOMC grading** | 🟡 mixed confirmation | HY 263 near kill; claims/VIX/banks benign; carry worse. Need HY <260/TIC/FXY/bank-PC follow-through. |
+| **FOMC grading** | 🟡 mixed confirmation | HY 263 near kill; claims/VIX/banks benign; carry worse (USD/JPY 161.78, FXY red). Need HY <260/TIC/FXY/bank-PC follow-through. |
 | **Position/broker reconciliation** | 🟠 pending | Keep separate from repo/doc cleanup; no expiry action without broker/Will truth. |
 
 ---

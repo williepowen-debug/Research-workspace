@@ -1,5 +1,5 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-18 14:05 ET (OpenClaw Prome — closeout before fresh session)
+**Last Updated:** 2026-06-18 15:28 ET (OpenClaw Prome — daily boot-doc refresh)
 
 ## What Just Happened
 
@@ -19,8 +19,8 @@
 3. **HEARTBEAT / market gate refreshed.**
    - HY OAS printed **263 [FRED 6/17]**, only 3bp above the <260 R3/blended-credit kill line.
    - Claims were benign/yellow: **226k initial**, **1.810M continuing**.
-   - VIX/banks faded stress; USD/JPY/FXY carry stress worsened.
-   - Current read: broad cascade still not confirmed, but the kill line is uncomfortably close.
+   - 15:28 dashboard refresh: VIX/banks still faded stress; USD/JPY worsened to **161.78🔴**, FXY **$56.71🔴**; BIZD **$12.32🔴**.
+   - Current read: broad cascade still not confirmed, but the kill line is uncomfortably close and carry is the clean red continuation.
 
 4. **Group-chat research-agent idea surfaced.**
    - Good future design: WALTER owns routing; a separate VERIFY/CONTEXT helper can produce fact packets or surrounding-research packets; Prome owns decision/task consequences. No shared steering wheel.
@@ -34,7 +34,7 @@ Clean and synced to origin. Latest pushed state includes HEARTBEAT update and WA
 - **Mini/Quick-WALTER is effectively paused for fresh news.** It remains only as a registered-trigger executor / delivery-repair tool.
 - **Full WALTER remains required for signal-desk judgment.** Prome should queue/page Full WALTER for novel signals.
 - **WALTER delivery/consumption telemetry is healthy.** Doctor only flags known stale upstream feeds (`news-sweep`, `filing-watch`, `SIGNALS/inbound`).
-- **Market state:** HY is near the <260 kill line; no broad cascade confirmation yet.
+- **Market state:** HY is near the <260 kill line; no broad cascade confirmation yet. Carry remains the cleanest live stress continuation (USD/JPY/FXY).
 
 ## Next Reboot Entry Point
 
