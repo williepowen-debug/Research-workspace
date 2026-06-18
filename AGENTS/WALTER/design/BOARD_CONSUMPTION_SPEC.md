@@ -1,7 +1,7 @@
 # BOARD Delivery + Consumption Spec
 
-**Version:** v0.3
-**Created:** 2026-04-20 (v0.1 consumption-only) · **Extended:** 2026-06-17 (v0.2 delivery layer) · **Clarified:** 2026-06-18 (v0.3 Quick-WALTER canonical-lane guardrail)
+**Version:** v0.4
+**Created:** 2026-04-20 (v0.1 consumption-only) · **Extended:** 2026-06-17 (v0.2 delivery layer) · **Clarified:** 2026-06-18 (v0.3 canonical-lane guardrail; v0.4 bright-line Quick-WALTER whitelist)
 **Owner:** WALTER
 **Status:** **Delivery layer = Phase 1, ships now.** Consumption = Phase 2, time-boxed (see §8). Approved-in-principle by Will + PROME + ORC ("WALTER Routing v2 — Final Design Packet", 2026-06-17).
 
@@ -197,10 +197,10 @@ At boot, after STATUS / MEMORY / LAST_COMPLETION:
 
 Canonical definition lives in `AGENTS/WALTER/CLAUDE.md` (SPAWN PROTOCOL); summarized here for the delivery context.
 
-**v0.3 guardrail from the Moscow MNPZ comparison (2026-06-18):** Quick WALTER/PROME triage correctly identified the broad HAWK/BRENT routing but created duplicate noncanonical artifacts (`FORGE/signals/...` + generic recipient inbox files) and over-routed LIQUID on weak cross-asset relevance. Therefore Quick mode may route only through the canonical WALTER lane (`/BOARD/` + `route_log` + per-recipient `inbox/WALTER/` + `delivery_log`). If the operator is not actually executing Quick WALTER through that lane, the safe action is queue/escalate to Full WALTER, not ad-hoc dispatch.
+**v0.4 guardrail from the Moscow MNPZ comparison + ORC review (2026-06-18):** canonical-lane discipline is necessary but not sufficient. Mini-WALTER/PROME got the broad HAWK/BRENT triage right but still made discretionary routing/source-calibration errors (parallel artifacts, LIQUID over-route, underuse of Visegrad prior). Therefore Quick mode cannot self-judge “obvious/mechanical” news. It may dispatch only bright-line cases: (1) pre-registered threshold/registry fires with specified recipient_chain, (2) delivery repair/backfill for existing BOARD signals with already-named recipients, or (3) Will-explicit mechanical routes with exact recipients/precedence and no verify/source-calibration trigger. Everything else queues/escalates to Full WALTER.
 
 - **Full WALTER** (Will spawns): everything — BOARD curation, registry refresh, anchor re-verify, audits, liaisons, full boot + closeout. Owns reconciliation.
-- **Quick WALTER** (PROME spawns a temporary OpenClaw copy to route one batch): constrained tool-runner. Minimal reads → filter gates + Phase 1.5 verify → classify → write BOARD entry + INDEX row + `route_log` → write delivery file(s) + `delivery_log` → stop. Skips registry refresh / anchor re-verify (except the Iran guard) / audits / liaison discovery / MEMORY-STATUS-LAST_COMPLETION rewrites / full `walter_doctor`. **Does NOT push; commits locally only.** It must not write `FORGE/signals/` or generic recipient inbox files, and it should route fewer recipients than Full WALTER unless each info recipient has a concrete source-lineage, counter-evidence, or transmission reason.
+- **Quick WALTER** (PROME spawns a temporary OpenClaw copy to route one batch): constrained tool-runner for the whitelist above. Minimal reads → registry/explicit route check → canonical BOARD + delivery-lane writes → stop. Skips registry refresh / anchor re-verify (except the Iran guard) / audits / liaison discovery / MEMORY-STATUS-LAST_COMPLETION rewrites / full `walter_doctor`. **Does NOT push; commits locally only.** It must not write `FORGE/signals/` or generic recipient inbox files, must not add discretionary info recipients, and must escalate any source-calibration or confidence-scoring case to Full WALTER.
 
 ---
 
