@@ -1,7 +1,7 @@
 # BOARD Delivery + Consumption Spec
 
-**Version:** v0.4
-**Created:** 2026-04-20 (v0.1 consumption-only) · **Extended:** 2026-06-17 (v0.2 delivery layer) · **Clarified:** 2026-06-18 (v0.3 canonical-lane guardrail; v0.4 bright-line Quick-WALTER whitelist)
+**Version:** v0.5
+**Created:** 2026-04-20 (v0.1 consumption-only) · **Extended:** 2026-06-17 (v0.2 delivery layer) · **Clarified:** 2026-06-18 (v0.3 canonical-lane guardrail; v0.4 bright-line Quick-WALTER whitelist; v0.5 registry-only Quick routing + UTC stamps)
 **Owner:** WALTER
 **Status:** **Delivery layer = Phase 1, ships now.** Consumption = Phase 2, time-boxed (see §8). Approved-in-principle by Will + PROME + ORC ("WALTER Routing v2 — Final Design Packet", 2026-06-17).
 
@@ -104,6 +104,8 @@ File: `AGENTS/WALTER/routed/delivery_log.tsv` — **WALTER-owned**, append-only,
 
 **Critical (requirement B):** WALTER records *written/committed* state only. Whether a committed handoff is **on origin / delivered** is **derived read-only from git by `walter_doctor`** (see §6) — PROME does **not** edit this log after pushing. WALTER owns the log; PROME owns the sync/push *action*; the doctor derives sync state. This keeps the log a WALTER-only write surface and avoids a cross-agent edit race.
 
+**UTC discipline:** `Z` means UTC. Convert ET/local clock before writing; never append `Z` to local wall-clock time.
+
 Header row (exact):
 ```
 timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_path	written_state	notes
@@ -197,10 +199,10 @@ At boot, after STATUS / MEMORY / LAST_COMPLETION:
 
 Canonical definition lives in `AGENTS/WALTER/CLAUDE.md` (SPAWN PROTOCOL); summarized here for the delivery context.
 
-**v0.4 guardrail from the Moscow MNPZ comparison + ORC review (2026-06-18):** canonical-lane discipline is necessary but not sufficient. Mini-WALTER/PROME got the broad HAWK/BRENT triage right but still made discretionary routing/source-calibration errors (parallel artifacts, LIQUID over-route, underuse of Visegrad prior). Therefore Quick mode cannot self-judge “obvious/mechanical” news. It may dispatch only bright-line cases: (1) pre-registered threshold/registry fires with specified recipient_chain, (2) delivery repair/backfill for existing BOARD signals with already-named recipients, or (3) Will-explicit mechanical routes with exact recipients/precedence and no verify/source-calibration trigger. Everything else queues/escalates to Full WALTER.
+**v0.5 guardrail from the Moscow MNPZ comparison + ORC review (2026-06-18):** canonical-lane discipline is necessary but not sufficient. Mini-WALTER/PROME got the broad HAWK/BRENT triage right but still made discretionary routing/source-calibration errors (parallel artifacts, LIQUID over-route, underuse of Visegrad prior). Therefore Quick mode cannot self-judge “obvious/mechanical” news and cannot route Will-supplied novel news by exact-recipient instruction as standing authority. It may route only pre-registered RED-FT / REG-T / safety-net trigger fires where precedence/action and recipient_chain are already fixed by the owning registry/spec. Delivery repair/backfill remains allowed only for existing BOARD signals with already-named recipients, and is not a new routing decision. Everything else queues/escalates to Full WALTER. All timestamps in BOARD/delivery artifacts are UTC `Z` timestamps, never local ET-with-Z.
 
 - **Full WALTER** (Will spawns): everything — BOARD curation, registry refresh, anchor re-verify, audits, liaisons, full boot + closeout. Owns reconciliation.
-- **Quick WALTER** (PROME spawns a temporary OpenClaw copy to route one batch): constrained tool-runner for the whitelist above. Minimal reads → registry/explicit route check → canonical BOARD + delivery-lane writes → stop. Skips registry refresh / anchor re-verify (except the Iran guard) / audits / liaison discovery / MEMORY-STATUS-LAST_COMPLETION rewrites / full `walter_doctor`. **Does NOT push; commits locally only.** It must not write `FORGE/signals/` or generic recipient inbox files, must not add discretionary info recipients, and must escalate any source-calibration or confidence-scoring case to Full WALTER.
+- **Quick WALTER** (PROME spawns a temporary OpenClaw copy to route one batch): constrained trigger-runner for the whitelist above. Minimal reads → registered trigger/safety-net check → canonical BOARD + delivery-lane writes → stop. Skips registry refresh / anchor re-verify (except the Iran guard) / audits / liaison discovery / MEMORY-STATUS-LAST_COMPLETION rewrites / full `walter_doctor`. **Does NOT push; commits locally only.** It must not write `FORGE/signals/` or generic recipient inbox files, must not add discretionary info recipients, and must escalate any source-calibration, confidence-scoring, or recipient-selection case to Full WALTER.
 
 ---
 
