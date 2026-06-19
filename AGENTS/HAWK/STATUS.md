@@ -1,9 +1,9 @@
 # HAWK STATUS
 **Agent:** HAWK (Geopolitical & Military Risk — Gulf Infrastructure, Iran War, Chokepoints)
-**Last Updated:** 2026-06-19 (Jun 18 signing re-mark + Jun 19 first stress-test: verification leg decomposed into 3 sub-gates, all unmet; weights held)
-**War frame:** Day ~110. **The signature fired (Jun 17).** Focus has shifted from *will it sign* to *will it verify-reopen* — and the first 48h of follow-through (Jun 18-19) say **announced, not verified** on every dimension.
-**Scenario:** B-Deal-Reopen **46%** / C-Grind-Armed-Stalemate **39%** / D-Reescalation **15%** (Jun 12: C42/B32/D26) — **weights held Jun 19, but burden-of-proof tilting C-ward** (3 verification sub-gates all unmet; see B section).
-**Kinetic Risk:** 🟠 — Iran-Israel axis halted, US-Iran kinetic stopped, ceasefire holding (Israel-Hezbollah ceasefire *renewed* Jun 19 after a Jun 18-19 S.Lebanon flare). Residual: Hormuz mining/standstill, 60-day-only framing, missiles non-negotiable. **Russia-Ukraine track intensifying separately (see below).**
+**Last Updated:** 2026-06-19 PM (Lebanon flare matured worse than first read → re-mark B42/C41/D17: diplomatic sub-gate impaired, Iran resume-threat arms D)
+**War frame:** Day ~110. **The signature fired (Jun 17)** but the **Lebanon side-channel — which the MOU does NOT bind — is now the live fraying vector.** Focus: will it verify-reopen, and does the Lebanon flare drag Iran back in.
+**Scenario:** B-Deal-Reopen **42%** / C-Grind-Armed-Stalemate **41%** / D-Reescalation **17%** (Jun 18: 46/39/15) — **B no longer clearly leads; B↔C co-base.** Diplomatic sub-gate went from *postponed* to *talks called off*; D ticks up on Iran's conditional resume-threat (armed, not fired).
+**Kinetic Risk:** 🟠→ — Iran-US axis still halted (MOU in effect, Iran *suspended-not-terminated*), BUT **Lebanon escalated: Israeli strikes killed ≥47 Jun 18-19 (deadliest since the MOU; Nabatiyeh/Bekaa/Douris); the fighting CALLED OFF the first US-Iran round.** Israel-Hezbollah ceasefire renewed 9am ET Jun 19 but **contested** — Israel kept striking citing Hezbollah "violations," Hezbollah hit Israeli tanks. **Iran warns it resumes ops if Israel's Lebanon strikes continue.** Russia-Ukraine track intensifying separately (see below).
 **Convergence:** **22/50 🟠** (10-vector Iran-core; from 38/50 Jun 12 — broad step-down on signing + de-escalation)
 **Brent reference:** **~$79.00 Jun 18 close / ~$79.95 Jun 19 (+0.12%, VIX ~16)** | [CONF ORC live Jun 18 / WALTER Jun 19] — war premium gone; **tape calm through the Jun 19 "talks suspended" scare = no collapse corroboration.** **Defer price authority to BRENT.**
 
@@ -37,7 +37,7 @@
 
 ## Current Scenario Weights (Jun 18; all weights carry flip-conditions)
 
-### B — Deal / Verified Reopen — **46%** (Jun 12: 32%) — **NOW LEADS**
+### B — Deal / Verified Reopen — **42%** (Jun 18: 46%) — **co-base with C**
 **Resolution bar UNCHANGED:** signed framework + Hormuz reopening **verified** by traffic recovery toward pre-war + war-risk/insurance normalization. **Signature is done; verification is the remaining gate.**
 **B sub-state (so the bar doesn't drift):** P(signed) = **realized Jun 17.** P(verified reopen | signed) ≈ **~55%** — initial transits are the most any ceasefire achieved (B-positive), but the verification leg now decomposes into **3 sub-gates, and as of Jun 19 ALL THREE are unmet** (Jun 18-19 WALTER intake, KB-188/189):
 | Verification sub-gate | Jun 19 state |
@@ -49,13 +49,13 @@ B is "leading but at its furthest-from-resolution it has looked" — the burden 
 **Flip up (→60+):** any/all sub-gates clearing — transparent transit recovery into double digits/day + JWC/insurance step-down + the postponed round reconvenes.
 **Flip down (→≤30):** transits stall near zero through ~Jun 25; **the postponed first round fails to reconvene**; liner majors stay via Cape 2+ weeks; Iran re-asserts control/fees as a passage condition; a mine incident or vessel strike during reopening; ceasefire-fade protocol fires a 5th time.
 
-### C — Grind / Armed Stalemate — **39%** (Jun 12: 42%)
+### C — Grind / Armed Stalemate — **41%** (Jun 18: 39%)
 **Why still co-base:** the conflict's attractor is the armed pause, and the signed MOU is a **60-day window, not a settlement** — the enrichment endgame, sanctions scope, and Hormuz fees/management are all deferred into it. Tolls institutionalized (Iran-Oman + fees) + reopening standstill = a signed-but-fraying instrument that lands here with a ceasefire label. **Jun 19 added a fresh fraying vector:** the first negotiating round postponed + an explicit **Lebanon-conditionality** linkage ("talks until Israel stops") — exactly the kind of side-channel that consumes the 60-day window without verified reopen.
 **Flip:** loses mass to B on *verified, sustained* reopening; loses mass to D on signing collapse + resumed strike nights inside the 60-day window.
 
-### D — Full Re-escalation / Damage Regime Return — **15%** (Jun 12: 26%)
-**Why down:** signing + holding ceasefire + initial transits actively suppress near-term D. **Why not lower:** the MOU is 60-day-only with the hard wedges unresolved; missiles non-negotiable; a demining-period mine/vessel incident or a nuclear-talks collapse re-opens the channel.
-**Flip up (→30+):** MOU collapse + resumed strikes; US strike on Kharg-class Iranian energy target; Gulf energy-infra hit (HAW-11); reopening reverses to zero. **Flip down (→≤8):** verified reopening sustained 2+ weeks + insurance normalization.
+### D — Full Re-escalation / Damage Regime Return — **17%** (Jun 18: 15%)
+**Why up (Jun 19):** the Lebanon flare **armed a specific D-pathway** — Iran explicitly warned it resumes operations against Israel if Israeli Lebanon strikes continue, and Israel says it won't be bound by the MOU in Lebanon and will "exact a heavy price." That's a named conditional, with the condition arguably being met. **Why still low:** the trigger has NOT fired — Iran suspended-not-terminated, MOU in effect, Israel-Hezbollah ceasefire (re)attempted Jun 19, tape calm (no oil/vol risk-off). It's an armed pathway, not a realized regime.
+**Flip up (→30+):** Iran acts on the resume-threat (kinetic on Israel/US); MOU collapse + resumed strikes; US strike on Kharg-class Iranian energy target; Gulf energy-infra hit (HAW-11). **Flip down (→≤10):** Lebanon ceasefire holds + the postponed round reconvenes.
 
 ---
 
@@ -127,4 +127,4 @@ B is "leading but at its furthest-from-resolution it has looked" — the burden 
 
 ## Bottom Line
 
-**The signature fired Jun 17 — and the first 48h of follow-through say announced, not verified.** The Islamabad Memorandum (60-day ceasefire, gradual Hormuz reopening with fees, sanctions waivers, uranium dilution-in-place, missiles off the table, explicitly not a final settlement) is in effect — Khamenei signed it in writing Jun 18. But B's verification leg now decomposes into **three sub-gates and all three are unmet (Jun 19):** the tanker recovery is mostly *dark* (~7 transponders-on), **8 of 9 liner majors are still routing via Cape**, and the **first negotiating round was postponed** ~24h after signing with a Lebanon-conditionality attached. Weights **held at B 46 / C 39 / D 15**, but the burden of proof has tilted C-ward — B leads while sitting at its furthest-from-resolution. Crucially this is **not** D: the resistance-axis "talks suspended / 60-day collapse" framing is uncorroborated by MFA/US/tape (Brent ~$80, VIX ~16, Israel-Hezbollah ceasefire renewed Jun 19). Watch the three sub-gates — the first to clear or worsen moves the mark. Separately, Russia-Ukraine remains at peak campaign intensity (a distinct refined-products channel for BRENT; *observed alongside*, not a causal "regime rotation").
+**The signature fired Jun 17 — and the first 48h of follow-through say announced, not verified.** The Islamabad Memorandum (60-day ceasefire, gradual Hormuz reopening with fees, sanctions waivers, uranium dilution-in-place, missiles off the table, explicitly not a final settlement) is in effect — Khamenei signed it in writing Jun 18. But B's verification leg now decomposes into **three sub-gates and all three are unmet (Jun 19):** the tanker recovery is mostly *dark* (~7 transponders-on), **8 of 9 liner majors are still routing via Cape**, and the **first negotiating round was postponed** ~24h after signing with a Lebanon-conditionality attached. Weights **re-marked Jun 19 PM to B 42 / C 41 / D 17** — B no longer clearly leads. The mover: the Lebanon flare matured worse than the first read (≥47 killed, deadliest since the MOU) and **called off** the first US-Iran round (from "postponed"), impairing the diplomatic sub-gate; and Iran's explicit threat to resume operations if Israel keeps striking Lebanon **arms a specific D-pathway** (condition arguably being met). This is still **not** realized D — the MOU is in effect, Iran suspended-not-terminated, a Lebanon ceasefire was re-attempted, and the tape stayed calm (Brent ~$80, VIX ~16; defer BRENT). The structural lesson: **the MOU binds Iran-US but NOT Israel-Hezbollah** — Lebanon is the lane the deal can't reach, and it's now the one fraying. Separately, Russia-Ukraine remains at peak campaign intensity (a distinct refined-products channel for BRENT; *observed alongside*, not a causal "regime rotation").
