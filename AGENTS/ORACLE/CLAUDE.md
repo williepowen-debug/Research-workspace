@@ -184,14 +184,18 @@ When spawned with a task:
 
 ## DATA COLLECTION METHOD
 
-**Primary:** Web search + web fetch of Polymarket and Kalshi pages.
-- Polymarket: `polymarket.com/predictions/bank-failure`, `/event/us-recession-by-end-of-2026`, etc.
-- Kalshi: `kalshi.com/markets` — recession, Fed, macro markets
-- Scrape: market name, current odds, volume, liquidity, number of comments, end date
+**Primary:** `scripts/polymarket.py` — Polymarket Gamma API (public, no auth). Returns odds, volume, liquidity, and built-in Δ1d/Δ7d as clean JSON. Use the API, not page-scraping (the site is a JS SPA; the API is what it calls anyway).
+- `python3 scripts/polymarket.py pull --log` — fetch every market in `watchlist.tsv`, print dashboard, append time series to `workbook/ODDS_LOG.tsv`.
+- `python3 scripts/polymarket.py search "<query>"` — discover/replace markets (pin by slug in `watchlist.tsv`).
+- `python3 scripts/polymarket.py market <slug>` / `event <slug>` — single-market / grouped-event detail.
 
-**Frequency:** Every spawn, pull all Tier 1 markets. Tier 2-3 on dedicated sweeps.
+**Kalshi:** not yet wired (needs an API key). Recession/Fed/CPI markets there corroborate Polymarket — add when creds available.
 
-**Historical tracking:** Log every data pull to KB.tsv with date + odds. This builds the time series for detecting moves.
+**Thin-liquidity guardrail (baked into the fetcher):** markets < $5K liquidity are flagged ⚠️ `thin`. A single $5–50K bet moves a thin contract 5–10pp and retraces in 24–48h — do **not** mark on one print; require a ≥3-day re-check + an independent source (memory: `finding_thin_liquidity_prediction_market_discipline`).
+
+**Frequency:** Every spawn, `pull --log` all watchlist markets. Search-sweep for new markets on dedicated sessions.
+
+**Historical tracking:** `ODDS_LOG.tsv` is the machine time series (one row per market per pull). `KB.tsv` is the 13-col knowledge base for derived claims/divergences.
 
 ---
 
@@ -203,7 +207,7 @@ All inter-agent communication lives in flat folders:
   inbox/           ← inbound signals from other agents
     processed/     ← signals you've integrated
   outbox/          ← outbound signals for other agents
-    delivered/     ← signals HERMES has delivered
+    delivered/     ← signals the target has picked up (agents poll directly; HERMES retired 2026-06)
 ```
 
 ### Sending Signals (Outbox)
@@ -218,12 +222,15 @@ Process when spawned. Integrate probability-relevant data.
 
 | File | Purpose |
 |------|---------|
+| `scripts/polymarket.py` | The fetcher — search / market / event / pull (see DATA COLLECTION METHOD) |
+| `watchlist.tsv` | Markets pulled every session (label, type, slug, tier, route) |
 | `STATUS.md` | Live dashboard — all tracked markets, current odds, recent moves, alerts |
 | `TRADE.md` | How prediction market odds inform position decisions |
-| `workbook/KB.tsv` | Historical odds log — every data pull with date, market, odds, volume |
+| `workbook/ODDS_LOG.tsv` | Machine time series — one row per market per pull (odds, vol, liq, Δ) |
+| `workbook/KB.tsv` | 13-col knowledge base — derived claims / divergences (validate vs `SCHEMA.tsv`) |
+| `workbook/SCHEMA.tsv` | 13-col schema for KB.tsv (network standard) |
 | `workbook/VX.tsv` | Tracked thresholds and state changes |
-| `inbox/` | Inbound signals |
-| `outbox/` | Outbound signals |
+| `inbox/` / `outbox/` | Inbound / outbound signals |
 | `domain/sources/` | Archived research |
 
 ---
