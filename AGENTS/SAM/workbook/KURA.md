@@ -279,6 +279,28 @@ KB-SAM-187	2026-06-09	Cross-Agent	LIVE	MOF Intervention Reaction-Function — 4d
 
 ### Run 6 — 2026-06-19 (Fri AM, propose-only, post-BOJ + post-FOMC + Iran-deal triple cluster)
 
+**[Run-6 RESOLUTION 2026-06-19 PM by SAM Phase A]:** Applied to KB.tsv —
+- ✅ KB-SAM-195 (Warsh Fed Chair regime) — promoted
+- ✅ KB-SAM-196 (FOMC Jun 17 SEP +40bp dot) — promoted
+- ✅ KB-SAM-197 (Iran/US deal SIGNED electronic, Al Jazeera) — promoted
+- ✅ KB-SAM-198 (IEA glut warning) — promoted
+- ✅ KB-SAM-199 (MOF reaction-function decay) — promoted
+- ⏸️ KB-SAM-200 (CONVEXITY-TAIL SURVIVAL EV table inputs, v1.6 DRAFT-tagged) — HELD pending Will routing decision (Phase C: Notes-tag `[v1.6-DRAFT]` vs new `Status: LIVE-v1.6-DRAFT` value vs hold-until-v1.6-finalizes). Re-propose after v1.6 commit if finalized.
+
+**Palimpsest applied:**
+- ✅ KB-SAM-006 (HANS Fed-cut + JPY) → Status `LIVE` → `SUPERSEDED`; palimpsest note appended (Fed-cut path FLIPPED to Fed-HIKE under Warsh; multi-month tail conditional on breaking Warsh frame). Archive on Run 7 full mode.
+- ✅ KB-SAM-051 (Brent $120 Kharg Island) → Status stays `LIVE`; RE-GRADE-pending palimpsest note appended (Iran/US deal SIGNED demotes path to dormant; do NOT archive — verification leg open through ~Aug 16). Reactivation gate noted.
+- ✅ KB-SAM-127 (Inflection 2 FX Hedge Crisis) → Status stays `LIVE`; RE-GRADE palimpsest note appended (mechanism FIRED Jun 16 but USDJPY weakened not strengthened — joins SAM-14/19/25 + KB-186 mechanism-direction-failure cluster; lesson = hike-as-priced does not trigger Channel 1, only hawkish-of-pricing tail does).
+- ✅ KB-SAM-152 (PC Cascade Q2 PEAK) → Status stays `LIVE`; RE-GRADE pending Q2-end (2026-06-30) palimpsest note appended (re-grade decision triggered Q2-end + Warsh-regime conditioning of HANS bullet noted).
+
+**FLOW/VX updates — DEFERRED to v1.6 finalize per KURA Run-6 spec ("full re-derivation, not surgical fix").**
+
+**KB.tsv watermark:** Last harvest 2026-06-09 → 2026-06-19. KB.tsv 137 rows → 142 rows (+5 new).
+
+**KB-SAM-200 routing-decision question + 2 cross-agent auto-memory candidates remain Phase C escalations (Will-decisions pending).**
+
+---
+
 Next free ID after SAM hand-adds Jun 10-15: max in KB.tsv = KB-SAM-194 → Run-6 adds start at **KB-SAM-195**.
 
 **KB-SAM-195 (Cross-Agent) — Fed Chair = WARSH since 2026-05-22; debut FOMC Jun 17 statement-gutting hawkish**
