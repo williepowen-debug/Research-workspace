@@ -56,9 +56,9 @@ The "outages → crude backs up → touches Brent" transmission is the right **t
 | # | Flip trigger | Leading indicator / what to watch | Status Jun 18 |
 |---|---|---|---|
 | 1 | **Floating-storage saturation** | Floating + onshore storage fills → freed crude can't clear → shut-ins begin. ~120M bbl floating (+25% vs Apr); production already softening (May ~8.7M bpd, −5% YoY) tightens the clock | 🟡 building, not saturated |
-| 2 | **Crude-export terminal / pipeline strikes** | A `crude-terminal`/`pipeline` row reappears in STRIKES.tsv after the refinery-dominated stretch (Baltic terminals / Druzhba) — Ukraine re-targets the crude channel | ⚪ none since Apr (May–Jun refinery-only) |
-| 3 | **Russian crude shut-ins** | Producers cut wellhead output (can't store/refine/export it) — the physical realization of #1 | ⚪ not reported |
-| 4 | **Urals / tanker / export congestion confirmation** | Urals discount widening, tanker queues, loading delays at export ports = freed-crude flow hitting a ceiling | ⚪ not confirmed (exports still clearing at 2026 high) |
+| 2 | **Crude-export terminal / pipeline strikes** | A `crude-terminal`/`pipeline` row reappears in STRIKES.tsv after the refinery-dominated stretch (Baltic terminals / Druzhba) — Ukraine re-targets the crude channel | ⚪ **none — Jun 15-19 all refineries/depots** (sub-agent sweep Jun 19; last crude-terminal hit was Apr) |
+| 3 | **Russian crude shut-ins** | Producers cut wellhead output (can't store/refine/export it) — the physical realization of #1 | ⚪ not reported; **Ust-Luga loadings +49% m/m May = no shut-in, valve clearing** |
+| 4 | **Urals / tanker / export congestion confirmation** | Urals discount widening, tanker queues, loading delays at export ports = freed-crude flow hitting a ceiling | 🟡 **mixed — Urals discount widened to ~25% vs Brent (May; was ~$6.4 Mar)**, but loadings recovered + shadow fleet 48% of seaborne = flow still clears |
 
 **Any of #2–4 firing, or #1 saturating, flips this from a crack story to a Brent story — pre-registered with BRENT.** Highest-information ledger columns: **`Channel`** (rotated back to crude-export?) and **`Strike#`** (re-hit cadence, once `ReturnToService` lets us test repair-lag).
 
