@@ -5,7 +5,7 @@
 **Scenario:** B-Deal-Reopen **46%** / C-Grind-Armed-Stalemate **39%** / D-Reescalation **15%** (Jun 12: C42/B32/D26)
 **Kinetic Risk:** 🟠 — Iran-Israel axis halted, US-Iran kinetic stopped, ceasefire holding. Residual: Hormuz mining/standstill, 60-day-only framing, missiles non-negotiable. **Russia-Ukraine track intensifying separately (see below).**
 **Convergence:** **22/50 🟠** (10-vector Iran-core; from 38/50 Jun 12 — broad step-down on signing + de-escalation)
-**Brent reference:** **~$77 Jun 18 (−3% day)** | [CONF web Jun 18] — from $87.27 Jun 12 settle; war premium continuing to crush on signing + reopen. **Defer price authority to BRENT.**
+**Brent reference:** **~$79.00 Jun 18 close (−16% since Jun 12)** | [CONF ORC live Jun 18: WTI $75.15, VIX 16.40, OVX 51.5] — war premium fully gone. *(Corrects an earlier "~$77" intraday-snapshot.)* **Defer price authority to BRENT.**
 
 ---
 
@@ -17,7 +17,7 @@
 
 **Why B leads now but doesn't resolve:** the signature collapsed the announcement binary (my Jun 12 sub-state P≈55% by Jun 19 — fired). That mass moves to B. But the **tolls wedge institutionalized** (Iran-Oman condominium + fees, exactly the KB-180 bear path), demining lag, and the 60-day-only framing keep **C a live attractor** — a signed-but-fraying MOU whose window is consumed by the enrichment fight while reopening stalls is the textbook C outcome with a ceasefire label.
 
-**Decoupling thesis passed another test:** signing + initial reopen → Brent *fell* to ~$77. No supply spike on de-escalation news, mirroring the Jun 11 closure-declaration → Brent-fell datum (FLOW-HAWK-19).
+**Decoupling thesis passed another test:** signing + initial reopen → Brent *fell* to ~$79 close (−16% since Jun 12). No supply spike on de-escalation news, mirroring the Jun 11 closure-declaration → Brent-fell datum (FLOW-HAWK-19).
 
 ---
 
@@ -60,7 +60,7 @@
 | Hormuz status | **3** ↓ | Reopening began Jun 18 (18 transits Jun 17-18); standstill + mining claims + safe-lane map; not verified | Sustained double-digit/day transits → 2; reversal/mine incident → 4 | Jun 18 |
 | Iran/proxy military ops | **2** ↓ | Ceasefire holding; Iran-Israel halt; no new strikes | Resumed strikes → up | Jun 18 |
 | US-Iran direct kinetic | **2** ↓ | Signed ceasefire; kinetic stopped | MOU collapse + strike → up | Jun 18 |
-| Oil price / energy tape | **2** ↓ | Brent ~$77 (−3% day); premium crushed through signing; decoupling intact | >$95 leakage event OR supply-shock | Jun 18 |
+| Oil price / energy tape | **2** ↓ | Brent ~$79 close (−16% since Jun 12; ORC live); premium gone; decoupling intact | >$95 leakage event OR supply-shock | Jun 18 |
 | Gulf production / bypass infra | **2** ↓ | No Gulf infra hits; Kharg threat recedes with ceasefire | Kharg-class strike OR Aramco/ADCOP-class hit | Jun 18 |
 | Diplomacy | **1** ↓ | **Signature executed Jun 17** | Collapse within 60d window → 4 | Jun 18 |
 | Shipping / insurance | **3** ↓ | Firing stopped, but insurers/JWC not normalized; mining keeps premiums elevated; wait-and-see | Premium/JWC step-down → 2 | Jun 18 |
