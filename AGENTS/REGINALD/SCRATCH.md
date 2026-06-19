@@ -18,16 +18,15 @@
 
 ---
 
-## 2026-06-02 — Boot + file-tree catch-up [pruned 4 stale sections >2wk: 5/1, 5/8, 5/10-11, 5/11; collapsed 5/15-17 to open items]
+## 2026-06-19 — Boot + 11-day-gap catch-up + BOARD CRE-credit mini-cluster [pruned stale 6/02 section >2wk; its threads live in ROADMAP]
 
-**Things noticed during the catch-up (factual hygiene session — no analysis pursued):**
-- CALENDAR + STATUS PREDICTIONS sections were both stale at REG-24 60% / REG-25 55% — never synced to the 5/21 v2.2 ratchet (canonical PREDICTIONS.tsv was already 70%/75%). Synced both. Lesson echo: a thesis-version bump touches more files than the headline four; sweep PREDICTIONS *consumers* (STATUS, CALENDAR) not just the canonical tsv.
-- Credit bifurcation is the one signal that didn't fade with the risk-on tape: CCC OAS 946 [6/1] vs HY 272, ratio 3.22x→3.48x. Recorded in STATUS macro-read; Will reviewed and chose to keep in STATUS (no separate tripwire / ROADMAP item this session). If it keeps widening, candidate for a CCC/ratio early-warning trigger to supplement the lagging HY>320 tripwire.
+**Noticed during the catch-up:**
+- The CCC/HY "narrowing" framing I shipped 6/8 (3.48→3.44x) has **re-widened to 3.57x** on the 6/17 FRED refresh — HY tightened to 263bps faster than CCC came in. The bifurcation read keeps oscillating on the 2-day window; the durable statement is "tail lags the index rally," not a clean trend either way. If I keep re-litigating this every boot, it's a candidate for a CCC/HY-ratio tripwire (e.g. >3.6x sustain) so it stops being a prose judgment call. Flagged, not built.
+- **IORB sanity-check caught a framing trap:** WALTER's BOARD signals repeatedly say "Fed flipped cut→HIKE 6/17." IORB is flat at 3.65 → no actual hike happened. It was a hawkish *guidance/dots* flip. Transcribing the signal's shorthand as "hike" would have been wrong. (Echoes [[finding_circular_corroboration_via_state_file]] / verify-from-raw-series.)
+- **HY OAS 263 is 3bps from my own Exit-100% rule (<260).** Risk-on tape is quietly walking me toward my own exit trigger from the credit side while the CRE-fundamental side deteriorates. The bear can be "right on fundamentals, stopped out on credit spreads" — hold both in view.
+- The Trepp CRE-DQ-by-tier signal (009) *looks* like it contradicts my 6/8 cohort finding but is a different metric (DQ vs NCO). Logged the distinction explicitly in STATUS + BOARD_LOG so a future read doesn't false-flag a contradiction.
 
-**Carried-forward open research threads (orphaned from pruned sections — promote to ROADMAP investigations on next research pass):**
-- **"Juris banking"** (from WAL Q1 transcript, 5/1) — named multiple times as the "real surprise driver." Still no KB row capturing what it actually IS (business / counterparty / monetization). Research add.
-- **Investor Day Slide 113 stress test** (from 5/15-17) — 5.3% total loan loss rate under 2026 severely-adverse, CET1 stressed to 9.0% — *exceeds* v2.2 Bear-fast assumptions. Mgmt pre-positioning "we can absorb worse than bears model." Open SCENARIOS.md cross-check (analysis pass, not this session).
-- **Investor Day Slide 89 NDFI peer chart** (from 5/15-17) — "13% 12% 12% 11%" chart text vs 10-Q's 25.2%-of-HFI / 7.9% Business+PE. Likely different denominator. PDF deck would resolve. Low priority.
+**Threads carried (all in ROADMAP):** CRE-DQ-by-tier drill (new, OZK-cleanest), capital-rules final-rule watch (new), WAL $85P disposition flag (new) + prior: Juris banking, Slide 113 stress test, Slide 89 NDFI chart, Q&A transcript, life-sci #3, MI3/FFIEC, APO Q1, OZK 10-Q.
 
 ---
 
