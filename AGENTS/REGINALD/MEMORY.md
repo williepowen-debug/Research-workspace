@@ -54,14 +54,33 @@
 
 ## Session Notes
 
-⚠️ **Open question:** Cohort NCO question is RESOLVED (Hyp A — genuine improvement). The forward uncertainty it leaves: **does genuine cohort improvement survive Q2 (the $875B 2026 CRE maturity wall), or was Q1 a head-fake?** Watch tell: MTB released CRE reserves hard (−31% CRE ACL vs −10% CRE loans) into that wall — if the cohort re-stresses at Q2/Q3, MTB's optimism is where it shows first. WAL bear is now explicitly idiosyncratic, so the v2.2 second-data-point (WAL Q2 print ~Jul 30) carries more of the thesis weight (less cohort cover).
+⚠️ **Open question:** The 6/19 BOARD batch surfaced a **CRE-DQ-by-tier cohort re-opener** (SIG-W-20260618-009): megabanks resolving office CRE-DQ (1.9%→1.5%) while smaller regionals ($16-40B, OZK-sized) tick UP. My 6/8 "cohort improving / WAL idiosyncratic" finding was **NCO-by-name** — this is **CRE-DQ-by-asset-tier**, a different metric. Not a contradiction, but: **does the smaller-regional tier have a CRE-specific creep the NCO cut didn't capture?** Cleanest test = OZK ($38B, dead center of the rising tier). Needs a dedicated CRE-DQ (not NCO) Call-Report drill. NOT yet a reweight.
 
-**Pending Will calls:** None substantive. Cohort decomposition resolved to "v2.2.1 holds as-is, framing now earned" — no reweight, no position change (recommendation-not-auto-apply honored). Bear-medium-revert-to-30 is OFF the table (was the Hyp B path).
+**Pending Will calls:** (1) ⚠️ **WAL $85P Jun 18 disposition** — expired ~$5.09 ITM (WAL $79.91); REGINALD has no execution data, needs Will/FORGE reconcile (sold vs auto-exercised → short stock). (2) Otherwise none substantive — EV/PT/weights/predictions all UNCHANGED this session; the BOARD batch is integrated as data + one open drill thread, no reweight.
 
-**⏳ PENDING PUSH:** Commit `a61e4ce3` (cohort decomposition, 6 REGINALD files) is LOCAL-ONLY. Push deferred per standing defer-push instruction ([[feedback_defer_push_coordinate]], reinforced by CARL 6/8 commits `66c6be00`/`84fe7023` formalizing fleet defer-push-to-Will-coordination). My commit rides on top of ~6 other-agent local commits (CARL/HAWK/BROCK 6/8 PM) also not yet on origin (origin at `dc6093fb`). Will coordinates the GitHub push. If pushed by a later agent's push-train, this commit goes with it (fast-forward clean).
+**Push status:** Branch is **clean / synced to origin** at boot (the 6/8 push-train swept commit `a61e4ce3` + the fleet's 6/8 local commits to origin — pending-push resolved). This session's commit defers to the next Will-coordinated window per [[feedback_defer_push_coordinate]]. WALTER/BRENT have uncommitted files outside my dir — did NOT touch, did NOT pull.
 
 ### CHANGES SINCE LAST SESSION
 (leave blank — next-boot market.py + drift-grep populates)
+
+### LAST SESSION (6/19 — 11-day-gap boot + BOARD CRE-credit mini-cluster + tape/FRED catch-up)
+
+Will-framed catch-up session ("market closed Juneteenth, get REGINALD files current"). No new WAL-thesis fundamental data, but boot Step 9b surfaced a **5-signal BANK_COLLATERAL ACTION batch (6/18-19)** that was genuinely load-bearing — processed it rather than logging INFO_ONLY.
+
+**What I did:**
+1. **STATUS overhaul** — replaced the bloated multi-PRIOR-HEADER header (was ~3 giant run-on lines) with a clean 6/19 header + a single compressed "PRIOR (6/8)" pointer + a tightened thesis-state blockquote. Refreshed all tape/FRED rows to Thu 6/18 close + FRED 6/17: WAL $79.91, KRE $71.72, VIX 16.78, **Brent $80.69 (−$14 from 6/8 on Hormuz de-escalation)**, HY OAS 263bps, CCC 939bps, claims 226K, SOFR-IORB −2bps. File 221 lines (under 250).
+2. **BOARD batch integrations** (4 STATUS rows touched + 2 new rows): (a) Fitch May CMBS DQ → Office row, headline-flat 3.31% but flows deteriorating (new delinq +29%, resolutions −25%, 64% maturity); (b) capital-rules package → AOCI row reworked (5.2% Cat III/IV relief + AOCI-inclusion catch = SVB-2023 mechanism + Barr 6-1 dissent); (c) MF starts −42% → MF row; (d) **NEW row: bank CRE-DQ divergence (Trepp Q1)** — megabanks resolve office / smaller regionals tick up; (e) NEW row: regional-bank IPO/consolidation revival (FCBM, weak counter-evidence, supply-side not credit).
+3. **BOARD_LOG.tsv** 141→154: 5 INTEGRATED + 1 REFERRED (FL→CORAL) + 7 INFO_ONLY (non-bank cluster_mediating energy/FX/positioning).
+4. **CALENDAR** — Jun 18 AOCI comment-close + options expiry cluster both marked ✅ FIRED; claims line refreshed.
+5. **ROADMAP** — 3 new open threads (CRE-DQ-by-tier drill, capital-rules final-rule watch, WAL $85P disposition flag); Jun 18 awaiting-data marked fired; 6/19 recently-resolved entry.
+
+**Two analytically live items (both flagged, neither actioned beyond logging):**
+- **CRE-DQ-by-tier cohort re-opener** (see Open question above) — the one worth a drill. Different metric from my 6/8 NCO cut; doesn't contradict, but tests whether OZK-sized tier has a CRE-specific creep.
+- **HY OAS 263bps is 3bps from my own <260 Exit-100% rule** — if it sustains sub-260 the bear's credit-transmission leg is gone. Added an explicit ⚠️ trigger row. The risk-on tape keeps tightening this; watch.
+
+**Macro reframe:** stagflation channel *rotated* not resolved — oil leg fading (Brent −$14) but rate leg firming (Fed hawkish-flip 6/17, no actual hike, IORB flat 3.65). Bifurcation re-widened (CCC/HY 3.44→3.57x) — corrects the 6/8 "narrowing" read; the tail is lagging the index rally.
+
+**Discipline:** verified IORB flat 3.65 → caught that "Fed cut→HIKE 6/17" (per WALTER signals) was a hawkish *guidance* flip, NOT an actual rate change — framed accurately rather than transcribing the signal's shorthand. EV/PT/Bear-medium/REG-24/25/positions all UNCHANGED (catch-up, not a thesis session).
 
 ### LAST SESSION (6/8 PM — cohort NCO decomposition → Hyp A)
 
@@ -89,15 +108,15 @@ A high-yield session with three discrete delivered units plus one protocol harde
 
 ### NEXT SESSION
 
-1. **Boot normally** — git pull, boot docs, market.py, inbox scan, BOARD diff scan Step 9b.
-2. 🟠 **Monitor 6/8 → 6/11 tape for Jun cluster decision triggers** — WAL <$78 close / KRE <$66 / HY OAS >320 / VIX >25. Decision window opens ~6/11; default posture per PROME reply is let-expire for OTM, EGBN $25P primary roll candidate.
-3. ✅ ~~Cohort NCO decomposition~~ — DONE 6/8 PM → Hyp A (genuine improvement). Forward residue: 🟡 **Q2 cohort re-open watch (~Jul 30)** — does genuine improvement survive the maturity wall? MTB CRE-reserve-release (−31% ACL vs −10% loans) is the optimism tell. Pairs with WAL Q2 print as the v2.2 second-data-point.
-4. 🟠 **MI3 / FFIEC PDD status check** — still pending; if available run v2.1 calibration table (preserved in WAL/THESIS.md). Not a Jun-18 calibration input per PROME reply.
-5. 🟠 **APO Q1 post-print integration** (now ~5wk stale) — Atlas SP segment, warehouse book, non-bank servicer counterparty.
-6. 🟠 **OZK 10-Q recheck** (peer primary; cohort-fade info pickup for REGINALD).
-7. 🟡 **PROME ZION scaffold-fill** (inbox, now 4wk+) — substantive new work, dedicated session.
-8. 🟡 **CARL handover signal** (inbox, now ~5wk). Lower urgency.
-9. 🟡 **Q&A transcript hunt** + **cross-bank life-sci #3 watch** (pass-grade-bank-walk mechanic specifically — KREF doesn't count) + investigations (Juris banking / Slide 113 / Slide 89).
+1. **Boot normally** — git pull, boot docs, market.py, inbox scan, BOARD diff scan Step 9b (last logged 6/19; new since = pick up from SIG-W-20260619-006).
+2. ⚠️ **WAL $85P Jun 18 disposition** — get from Will/FORGE (expired ~$5.09 ITM); reconcile POSITIONS.md.
+3. 🟠 **CRE-DQ-by-tier drill (the live one)** — pull OZK/WAL/EGBN/SSB CRE *delinquency* (not NCO) from Q1 Call Reports/10-Qs; test "WAL idiosyncratic" vs "smaller-tier CRE creep" (SIG-W-20260618-009). OZK is the cleanest test. Reconciles-or-revises the 6/8 cohort framing on the CRE channel.
+4. 🟡 **HY OAS <260 watch** — if it sustains sub-260, the credit-transmission leg of the bear is gone → Exit-100% signal. Currently 263. Cheap to monitor at boot via FRED.
+5. 🟠 **Capital-rules final-rule watch** — model AOCI-inclusion CET1 impact on WAL/OZK when the rule finalizes (affects Bear-medium capital-absorption leg).
+6. 🟡 **Q2 cohort re-open watch (~Jul 30)** — does genuine NCO improvement survive the maturity wall? MTB CRE-reserve-release (−31% ACL vs −10% loans) is the optimism tell. Pairs with WAL Q2 print as v2.2 second-data-point (now carries more weight — cohort cover contested on CRE-DQ channel).
+7. 🟠 **MI3 / FFIEC PDD status check** — still pending; if available run v2.1 calibration table (WAL/THESIS.md).
+8. 🟠 **APO Q1 post-print** (now ~6wk stale) — Atlas SP, warehouse book, non-bank servicer counterparty. + 🟠 **OZK 10-Q recheck**.
+9. 🟡 **PROME ZION scaffold-fill** (inbox, now 6wk+) + 🟡 **CARL handover** (inbox) — dedicated sessions. + 🟡 Q&A transcript hunt / life-sci #3 watch / investigations (Juris banking / Slide 113 / Slide 89).
 
 ### LAST SESSION (6/2 — boot + 12-day catch-up) [1-line recap]
 Factual hygiene only (Will-fenced no messaging/analysis): tape fully retraced 5/15-5/21 stress regime (WAL reclaimed $78, Brent −$15, 10Y −16bps, VIX off spike); credit bifurcation lone non-fader (CCC 909→946 / HY 282→272, ratio widened 3.22→3.48x); FRED date-stamp convention adopted; STATUS PREDICTIONS section stale at 60/55 caught and synced to 70/75. Held PROME Jun-18 calibration reply for next session (delivered 6/8 in `c78c25a8`).

@@ -1,6 +1,6 @@
 # REGINALD CALENDAR
 
-**Last Updated:** 2026-06-02 (12-day-gap catch-up — MAY section pruned to ROADMAP; JUNE now current; Jun 18 cluster + AOCI close are the near-term dates) | **View:** Forward-looking only. Past events pruned weekly.
+**Last Updated:** 2026-06-19 (11-day-gap catch-up — Jun 18 AOCI comment-close + options expiry cluster both FIRED, marked ✅; WAL Q2 print ~Jul 30 is now the near-term catalyst) | **View:** Forward-looking only. Past events pruned weekly.
 
 ---
 
@@ -8,15 +8,15 @@
 
 | Frequency | Event | What to Check | Threshold / Signal |
 |-----------|-------|---------------|-------------------|
-| Weekly (Thu) | Initial claims | DOGE layoff acceleration | >300K = all ORANGE banks → RED. (Latest: 215K [FRED 5/23]) |
+| Weekly (Thu) | Initial claims | DOGE layoff acceleration | >300K = all ORANGE banks → RED. (Latest: 226K [FRED 6/13]) |
 
 ## JUNE
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
 | ~~**Jun 1**~~ ✅ fired | **FL property reinsurance renewals** | FL property insurance pricing, carrier exits | Premium hikes compound SIRS + 4x CRE insurance squeeze (ML-REG-137). Outcome unverified this session — CORAL primary. | CORAL, OZK, SSB |
-| **Jun 18** | **AOCI capital rewrite comment period closes** | Final rule direction, industry opposition | Cat III/IV impact ($49.5B aggregate across 21 banks) | ALL banks |
-| **Jun 18** | **Options expiry cluster** | WAL $85P, WAL $65P, WAL $67.5P, SSB $90P, KRE $60P, EGBN $25P, IWM $250P, HYG $75P | Position management — decision window ~Jun 11. PROME pre-registered trigger set drafted (`FORGE/trigger-sets/JUN18_CLUSTER_2026-06-18.md`); bank-slice calibration reply still owed (held this session). | FORGE, PROME |
+| ~~**Jun 18**~~ ✅ FIRED | **Bank capital-rules comment period CLOSED** | Final rule direction now the forward catalyst | Confirmed via SIG-W-20260618-006: ~5.2% CET1 relief Cat III/IV regionals, but mandatory AOCI inclusion (SVB-2023 mechanism) is the catch into the hawkish flip; Barr 6-1 dissent (>20 deviations from Basel mins). Final-rule date TBD = next catalyst. | ALL banks |
+| ~~**Jun 18**~~ ✅ EXPIRED | **Options expiry cluster** | WAL $85P, WAL $65P, WAL $67.5P, SSB $90P, KRE $60P, EGBN $25P, IWM $250P, HYG $75P | **At Thu 6/18 close all were OTM EXCEPT WAL $85P (WAL $79.91 → ITM ~$5.09, auto-exercise territory).** ⚠️ **FLAG to Will/FORGE:** the WAL $85P disposition (sold vs auto-exercised → short WAL stock) needs reconciliation — REGINALD does not have execution data. Rest (WAL $65P/$67.5P, SSB $90P, KRE $60P, EGBN $25P, IWM $250P, HYG $75P) expired worthless per the let-expire default (6/8 PROME reply). | FORGE, PROME |
 
 ## JULY
 
