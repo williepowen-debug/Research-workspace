@@ -1,6 +1,6 @@
 # TODAY.md — Friday June 19, 2026
 
-**Objective:** Keep the market lane honest while WALTER ratifies the new deep-research candidate flag. Market state remains unresolved divergence: HY OAS is **263 [FRED 6/17]**, close to the <260 kill line, but VIX/banks still do not confirm cascade; carry remains red.
+**Objective:** Keep the market lane honest with WALTER v0.18 now active. Market state remains unresolved divergence: HY OAS is **263 [FRED 6/17]**, close to the <260 kill line, but VIX/banks still do not confirm cascade; carry remains red.
 
 **Current regime:** **Hawkish-FOMC re-arm / unresolved divergence.** Broad credit cascade is not confirmed. HY compression toward <260 remains the most important bear-thesis risk; USD/JPY/FXY carry stress remains live; VIX and banks are still calm enough to prevent a cascade call.
 

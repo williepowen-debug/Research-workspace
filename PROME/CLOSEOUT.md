@@ -45,11 +45,11 @@ Closeout is the **write-back tail** of boot (auto-memory `[[finding_closeout_as_
 
 | Surface | Boot (read) | Closeout (write-back) |
 |---|---|---|
-| `SCRATCH.md` | step 1 | Chunk 1 — full rewrite |
-| `TODAY.md` | step 2 | Chunk 1 — surgical if date/catalysts moved (Standard+) |
-| `STATUS.md` | step 3 | Chunk 1 — surgical |
-| `ACTIVE_DECISIONS.md` | step 5 | Chunk 1 — surgical if a decision moved |
-| `HANDOFF.md` | step 7 | Chunk 1 — append/rotate concise continuity entry when session affects future Prome state |
+| `HANDOFF.md` | step 1 | Chunk 1 — append/rotate concise continuity entry when session affects future Prome state |
+| `SCRATCH.md` | step 2 | Chunk 1 — full rewrite |
+| `TODAY.md` | step 3 | Chunk 1 — surgical if date/catalysts moved (Standard+) |
+| `ACTIVE_DECISIONS.md` | step 4 | Chunk 1 — surgical if a decision moved |
+| `STATUS.md` | step 5 | Chunk 1 — surgical |
 | `memory/YYYY-MM-DD.md` | on-demand | Chunk 2 — create/append |
 
 **Intentionally one-way (no closeout write-back, by design):**
