@@ -76,19 +76,21 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 ## CONVERGENCE MATRIX — Targets & Positions
 
-| Rank | Bank | Score | Primary Risk | Position | Expiry |
-|------|------|-------|-------------|----------|--------|
-| 1 | EGBN | 20 | CRE 547% + DC 100% + crisis state | $25P | Jun |
-| 2 | WAL | 20 | **THESIS v2.2.1 (6/8).** Structural vectors UNCHANGED from v2.2: B1 FIRED via $99M life-science office sponsor walk-away (10-Q subseq event, late April, Pass→substandard, same mechanic as IQHQ); V2 inventory CLEAN; V3 cohort-median CONFIRMED ($14.93B NDFI, 25.2% HFI); V1 MI3 STILL PENDING FFIEC PDD; V4 Curley resignation (CBO National Business Lines). **v2.2.1 refinements:** macro-NIM-tailwind softening (20Y clean + Waller pivot) trims **Bear-medium 30%→25%** on loss-absorption channel ONLY (timing handled by Sep tenor — NOT in weight). Cohort signal RESOLVED 6/8 PM → **Hyp A genuine improvement** (WAL bear idiosyncratic; "sharpen to WAL-specific" EARNED; Bear-medium stays 25). **EV $68.93** (was $67.98); **overvaluation 16.3% ÷EV** (was 14.2% — gap WIDENED ~2pp, bear-supportive). PT range $50-68 UNCHANGED. | $85P/$77.5P/$70P/$65P/$67.5P + Jul + Sep | Jun/Jul/Sep — **Sep $77.5P/$70P REINFORCED-HOLD core (catches Q2 print ~Jul 30; Jul-17 expiry misses by ~13d so roll-Sep-not-Jul mechanical)** |
-| 3 | CFG | 15 | BDC $12.5B + FHLB 60x + CRE nonaccruals rising | Monitoring (score 9→12 post-Q1) | — |
-| ~~4~~ | ZION | ~~14~~ → **~8-9** | MUNI $4.27B + NDFI $2B flat 5yr + Basel III +93bps offset to AOCI | $57.5P | Jul — **Q1 disconfirming; monitor only** |
-| 5 | OZK | 13 | **Past due $207M → $465M QoQ firing. Slow-grind.** CRE 37.6% MI3 (worst baseline) + IQHQ Aug 2026 + Oct 1 sub notes reprice | $42.5P/$45P | **$45P May too tight — roll to Aug/Sep merits analysis** / $42.5P Aug correct |
-| 6 | SSB | 11 | GEO FL+TX 42% + CRE MF 9.36% | $90P | Jun |
-| 7 | FLG | 8 | NYC MF rent-reg | $13P | Jul |
-| — | KRE | — | Broad regional stress | Multi-strike | Jun/Sep/Dec |
-| — | IWM | — | Small cap stress | $250P | Jun |
-| — | HYG | — | Credit canary; HY OAS 320+ | $75P | Jun |
-| — | APO | — | MFS + MFIC + Atlas SP + Athene | TBD | TBD |
+*⚠️ Position column shows **LIVE only** — strikes/expiries are CANONICAL in `POSITIONS.md`, do NOT trust this column for trades (it caused the 6/19 desync; grep POSITIONS first). Jun-18 cluster CLEARED 6/19.*
+
+| Rank | Bank | Score | Primary Risk | Live Position (→ POSITIONS.md) |
+|------|------|-------|-------------|----------|
+| 1 | EGBN | 20 | CRE 547% + DC 100% + crisis state | **None** (Jun-18 $25P cleared) |
+| 2 | WAL | 20 | **THESIS v2.2.1 (6/8).** Structural vectors UNCHANGED from v2.2: B1 FIRED via $99M life-science office sponsor walk-away (10-Q subseq event, late April, Pass→substandard, same mechanic as IQHQ); V2 inventory CLEAN; V3 cohort-median CONFIRMED ($14.93B NDFI, 25.2% HFI); V1 MI3 STILL PENDING FFIEC PDD; V4 Curley resignation (CBO National Business Lines). **v2.2.1:** Bear-medium 25, **EV $68.93**, overvaluation 16.3% ÷EV, PT $50-68. Cohort RESOLVED 6/8 → Hyp A (WAL bear idiosyncratic). | **Jul-17 $65P · Sep-18 $67.5P + $70P** (Sep = REINFORCED-HOLD core, catches Q2 print ~Jul 30). Jun-18 cluster (4 pos) cleared. |
+| 3 | CFG | 15 | BDC $12.5B + FHLB 60x + CRE nonaccruals rising | Monitoring (score 9→12 post-Q1) — no position |
+| ~~4~~ | ZION | ~~14~~ → **~8-9** | MUNI $4.27B + NDFI $2B flat 5yr + Basel III +93bps offset to AOCI | $57.5P Jul-17 — **Q1 disconfirming; monitor only** |
+| 5 | OZK | 13 | **Peer agent — positions in `../OZK/POSITIONS.md`** (REGINALD no longer owns OZK puts). Reservoir thesis: past due $207M→$465M QoQ; CRE 37.6% MI3; IQHQ Aug 2026; Oct 1 sub-notes reprice. | → `../OZK/` |
+| 6 | SSB | 11 | GEO FL+TX 42% + CRE MF 9.36% | **None** (the "$90P" in old dashboards was a phantom — never in POSITIONS; flagged to Will) |
+| 7 | FLG | 8 | NYC MF rent-reg | $13P Jul-17 |
+| — | KRE | — | Broad regional stress | $63/65/67P Jun-30 · $60P Aug-21/Sep-30/Dec-18×2 (deep OTM tail insurance) |
+| — | IWM | — | Small cap stress | $250P **Jun-30** (NOT Jun-18 — was mis-recorded; live, 11d) |
+| — | HYG | — | Credit canary | **None** (Jun-18 $75P cleared) |
+| — | APO | — | MFS + MFIC + Atlas SP + Athene | $95P Dec-18 (Jun-18 $100P cleared) |
 
 ### ✅ Cohort Signal — RESOLVED 6/8 PM: Hypothesis A (genuine improvement) — `research/COHORT_NCO_DECOMP_2026-06-08.md`
 
@@ -126,19 +128,13 @@ Three life-science CRE distress events across cohorts in 6 months:
 
 | Date | Event |
 |------|-------|
-| **Apr 30 AMC** | **OWL Q1 earnings** — forward fee-base trajectory + OCIC/OTIC redemption-cap commentary + founder unwind context + Fed PC-inquiry exposure |
-| May 1-10 | Q1 Call Report filings (MI3, NDFI, AOCI) — **key for WAL V1 + OZK MI3 + EGBN MI3 trajectory + CFG NDFI reconcile to $19.6B prelim + VLY composition** |
-| **May 6** | APO Q1 earnings (pre-market) — Atlas SP segment, warehouse book size, non-bank servicer counterparty |
-| **TBD May** | ROAD to Housing Act House vote — Sec 901 survival post 76-lawmaker bipartisan letter |
-| May 12 | WAL Investor Day |
-| **May 15** | **REGINALD-scope May 15 cluster: WAL $75P (tape $82.11, 9.5% OTM) + SSB $95P (tape $96.39, NTM)** — roll/close decision this week. Out-of-scope same day: TLT $88P (FORGE), OZK $42.5P/$47.5P (OZK agent) |
-| ~Mid-May | FDIC Quarterly Banking Profile |
-| May 21 | Epstein class action deadline (APO) |
-| **Jun 1** | Reinsurance renewals — FL property pricing, carrier exits |
-| **Jun 18** | **AOCI capital rewrite comment period closes** + options expiry cluster (WAL $85P/$65P, SSB $90P, KRE multi, IWM $250P, HYG $75P) |
+| **Jun 30** | Next expiry pile (KRE $63/65/67P + IWM $250P) — contents canonical in POSITIONS.md; deep OTM, default let-expire |
+| **~Jul 30** | 🔴 **WAL Q2 print — critical v2.2 second-data-point** (REG-25 NCO >40bps test / REG-24 Office classified migration / 2+ Office walk-aways = v2.5/v3). Sep tenor catches it; Jul-17 misses by ~13d. |
+| **TBD (post-6/18)** | **Bank capital-rules FINAL rule** — AOCI-inclusion CET1 impact on WAL/OZK (affects Bear-medium capital-absorption leg) |
 | **Aug 2026** | **IQHQ loan maturity (OZK)** — sponsor support test |
 | **Oct 1, 2026** | **OZK $350M sub notes reprice (2.75%→SOFR+209) + Tier 2 -20%** |
 | Oct 2026 | Affinius Capital $2.7B bond maturity (OZK link — NOT mentioned on Q1 call) |
+*(Past catalysts Apr 30–Jun 18 pruned 6/19 — all fired; detail in CALENDAR/ROADMAP. Forward-looking only per section header.)*
 
 ---
 
@@ -149,7 +145,7 @@ Three life-science CRE distress events across cohorts in 6 months:
 | Claims >300K | **226K** [FRED ICSA 6/13, weekly] | LABOR → all ORANGE→RED | 🟢 Far from trigger. Slow drift up off Apr 189K trough; channel inert. |
 | HY OAS >320bps | **263bps** [FRED 6/17 close] | CARL → credit confirmed | 🟢 57bps buffer. Tightened 12bps from 6/3. RED-FT-01 sub-280 sustain holds — bull-counter. |
 | HY OAS 350 (freeze) | 263 | Issuance freeze | 🟢 87bps buffer. |
-| ⚠️ HY OAS <260bps | **263bps** [FRED 6/17] | **REGINALD Exit-100% rule** | 🟡 **Only 3bps away** — if HY OAS sustains <260 the credit-transmission leg of the bear is gone → exit signal. Watch. |
+| ⚠️ HY OAS <260bps | **263bps** [FRED 6/17] | **REVIEW trigger (re-anchored 6/19 — was auto-Exit-100%)** | 🟡 **Only 3bps away.** Broad-credit stand-down signal — but the thesis confirmation channel is now CRE-specific (not broad HY), so this prompts a WAL+CRE-channel review, NOT a mechanical exit. See EXIT RULES anchor-drift flag. |
 | CLO AAA >165bps | ~125bps (stale) | LIQUID → BDC transmission | 🟡 Refresh due. |
 | iTraxx Senior Fin >100bps | ~95bps (stale) | EU→US contagion (HANS) | 🟠 Refresh due. |
 | SOFR-IORB >+15bps | **−2bps** [FRED 6/17: SOFR 3.63 / IORB 3.65] | LIQUID → FHLB spike | 🟢 Flat-to-negative — no funding stress. Funding plumbing calm. |
@@ -197,8 +193,12 @@ Three life-science CRE distress events across cohorts in 6 months:
 
 ## EXIT RULES
 
+> **⚠️ ANCHOR-DRIFT FLAG (6/19, ORC catch — Will to confirm):** These rules were written for the **broad-systemic** thesis. The thesis has since narrowed to **idiosyncratic-WAL + CRE-specific** (Office / B1 walk-away / maturity wall / NCO migration) — none of which prints in broad HY bond spreads. So a mechanical "Exit 100% on HY OAS <260" risks **stopping out a thesis whose actual confirmation channel is now CMBS-DQ flows, bank CRE-DQ tier-creep, and the WAL Q2 NCO line.** With HY at 263 (3bps away), this matters now. **REGINALD's reframe (applied pending Will veto):** HY<260 → **REVIEW trigger, not auto-exit**; re-anchor the real exit to the CRE channel.
+
 - **Exit 50%:** Claims <240K sustained + CBRE >-5%
-- **Exit 100%:** BTFP 2.0 announced OR HY OAS <260bps
+- **~~Exit 100%: HY OAS <260bps~~ → REVIEW trigger** (broad-credit stand-down; re-examine WAL-specific + CRE channel before any exit — do NOT auto-exit on broad HY)
+- **Exit 100% (still auto):** BTFP 2.0 announced (genuine systemic backstop = thesis broken)
+- **NEW — CRE-channel exit anchors (the thesis's actual confirmation lane):** WAL Q2 NCO ex-fraud comes in <25bps AND no Office classified migration (REG-24/25 both fail) → bear thesis disconfirmed at source; OR Office CMBS-DQ flows reverse (new-delinquency MoM negative 2 prints running) + bank CRE-DQ tier-creep reverses.
 
 ---
 
@@ -208,13 +208,13 @@ Three life-science CRE distress events across cohorts in 6 months:
 |--------|-----------|---------|------|
 | **WAL** | **<$78** | **$79.91** [+1.89%] | 🟢 Above $78 by ~2.4%. Risk-on. |
 | KRE | <$60 | **$71.72** [+0.80%] | 🟡 Above $60 by ~19%. Cohort risk-on. |
-| HY OAS | >320bps | **263bps** [FRED 6/17] | 🟢 57bps buffer. (⚠️ but only 3bps from the <260 Exit-100% rule — see triggers table.) |
+| HY OAS | >320bps | **263bps** [FRED 6/17] | 🟢 57bps buffer. (⚠️ but only 3bps from the <260 REVIEW trigger — re-anchored 6/19 from auto-exit; see EXIT RULES.) |
 | Claims | >300K | **226K** [FRED 6/13] | 🟢 Far from trigger. |
 | VIX | n/a | **16.78** [-9.00%] | 🟢 Calm — eased ~2pts from 6/8 18.78. |
 | Brent | n/a | **$80.69** | 🟠 Collapsed ~$14 from 6/8 $94.53. Hormuz de-escalating. Stagflation oil-leg fading. |
 | 10Y UST | n/a | **4.45%** | 🟠 Flat vs 6/8 4.54%. Fed hawkish-flipped 6/17 (no rate change); long-end hasn't gapped. |
 
-**Macro read (6/19, market closed):** Tape is broadly risk-on into Juneteenth — WAL $79.91 / KRE $71.72 / VIX 16.78 / SPY +1.04% / QQQ +2.51% Thu. Two macro shifts since 6/8 reframe the backdrop: (1) **Brent collapsed ~$14 to $80.69** on Hormuz de-escalation — the stagflation **oil leg is fading**, but (2) the **Fed flipped to a hawkish/hike-bias at the 6/17 FOMC** (NO actual rate change — IORB flat at 3.65; markets repriced toward a hike, realizing the Waller 5/22 pivot) — so the stagflation **rate leg is firming** even as oil eases. Net: the stagflation channel rotates rather than resolves. **Bifurcation re-widening:** CCC/HY ratio **3.57x, up from 3.44x 6/8** (HY tightened to 263bps faster than CCC's 939bps came in) — the tail is lagging the index rally, the one bear signal still pointing the right way. ⚠️ **HY OAS 263bps is only 3bps from the <260 Exit-100% rule** — if it sustains sub-260 the credit-transmission leg of the bear is gone. **BOARD CRE-credit mini-cluster (6/18-19) processed** — the analytically live one is the **bank CRE-DQ-by-tier divergence** (SIG-W-20260618-009): smaller regionals creeping up while megabanks resolve office re-opens the cohort question on the CRE-specific channel (my 6/8 retire-of-cohort-fade was NCO-by-name, a different metric). Flagged for a dedicated CRE-DQ-by-tier drill — NOT a reweight. **Open data deltas (unchanged from 6/8):** (1) FFIEC PDD bulk MI3 still uncollected; (2) WAL Investor Day Q&A transcript still not located; (3) Q2 print ~Jul 30 — critical v2.2 second-data-point (now carries more weight since the cohort-cover thesis is contested on the CRE-DQ channel).
+**Macro read (6/19, market closed):** Tape is broadly risk-on into Juneteenth — WAL $79.91 / KRE $71.72 / VIX 16.78 / SPY +1.04% / QQQ +2.51% Thu. Two macro shifts since 6/8 reframe the backdrop: (1) **Brent collapsed ~$14 to $80.69** on Hormuz de-escalation — the stagflation **oil leg is fading**, but (2) the **Fed flipped to a hawkish/hike-bias at the 6/17 FOMC** (NO actual rate change — IORB flat at 3.65; markets repriced toward a hike, realizing the Waller 5/22 pivot) — so the stagflation **rate leg is firming** even as oil eases. Net: the stagflation channel rotates rather than resolves. **Bifurcation re-widening:** CCC/HY ratio **3.57x, up from 3.44x 6/8** (HY tightened to 263bps faster than CCC's 939bps came in) — the tail is lagging the index rally, the one bear signal still pointing the right way. ⚠️ **HY OAS 263bps is only 3bps from the <260 trigger — re-anchored 6/19 from auto-Exit-100% to a REVIEW trigger** (ORC catch: broad HY spreads aren't the thesis's confirmation channel anymore — CRE-DQ flows / WAL Q2 NCO are; auto-exiting on HY<260 would stop out a CRE-specific thesis). Sub-260 now prompts a WAL+CRE review, not a mechanical exit. **BOARD CRE-credit mini-cluster (6/18-19) processed** — the analytically live one is the **bank CRE-DQ-by-tier divergence** (SIG-W-20260618-009): smaller regionals creeping up while megabanks resolve office re-opens the cohort question on the CRE-specific channel (my 6/8 retire-of-cohort-fade was NCO-by-name, a different metric). Flagged for a dedicated CRE-DQ-by-tier drill — NOT a reweight. **Open data deltas (unchanged from 6/8):** (1) FFIEC PDD bulk MI3 still uncollected; (2) WAL Investor Day Q&A transcript still not located; (3) Q2 print ~Jul 30 — critical v2.2 second-data-point (now carries more weight since the cohort-cover thesis is contested on the CRE-DQ channel).
 
 ---
 
