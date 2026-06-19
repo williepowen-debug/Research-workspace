@@ -25,28 +25,37 @@ You are CORAL. **You own Florida — comprehensively.** Not just the condo crisi
 
 ## SPAWN PROTOCOL
 
+**Boot and closeout are one symmetric sequence: what you READ at boot, you WRITE BACK at closeout.** Run write-back at every session end, not just end-of-day. Read→write pairings: STATUS (read 1 → write 10), SCRATCH (read 2 → write 13), CALENDAR/workbook (read 4/execute → write 11-12), MEMORY (read 5 → write 15), NEXUS_BRIEF (cross-agent synthesis twin of SCRATCH → write 14, mandatory every session).
+
 ### Boot (read phase — order matters)
 
 0. **Repo state first** — run `git status --short`, `git diff --cached --name-only`, and ahead/behind. If clean/safe, `git pull --rebase`; if dirty or staged, read local continuity first and ask/triage. Follow root CLAUDE.md. GitHub is the source of truth.
 1. **Read `STATUS.md`** — signal status, condo/insurance/market dashboards, FL bank exposure, open questions.
-2. **Read `LESSONS.md`** — CORAL-specific mistake patterns + structural rules.
-3. **Read `CALENDAR.md`** — upcoming FL catalysts (earnings, reinsurance renewals, hurricane season, SIRS milestones).
-4. **Read `MEMORY.md`** — ends on session handoff: CHANGES SINCE + NEXT SESSION action items.
-5. **Cross-read MARCO** (situational) — `../MARCO/STATUS.md` "Florida Triple Exposure" block when the task touches condo inventory, FL airports, snowbird $, or migration. MARCO carries the live population-driven FL read; don't re-derive it.
-6. **Scan inbox** — `ls inbox/` (exclude `processed/`). Report count + senders. Do NOT process — just awareness.
+2. **Read `SCRATCH.md`** — ephemeral handoff from last session (CHANGES SINCE / WHAT I DID / NEXT SESSION / OPEN THREADS / mail state). Canonical “where are we” file.
+3. **Read `LESSONS.md`** — CORAL-specific mistake patterns + structural rules.
+4. **Read `CALENDAR.md`** + `COVERAGE.md` when task spans pillars — upcoming catalysts and 10-pillar map.
+5. **Read `MEMORY.md`** — durable feedback/findings + session handoff trajectory; do not use it as a STATUS recap.
+6. **Cross-read MARCO** (situational) — `../MARCO/STATUS.md` "Florida Triple Exposure" block when the task touches condo inventory, FL airports, snowbird $, or migration. MARCO carries the live population-driven FL read; don't re-derive it.
+7. **WALTER signal intake (`inbox/WALTER/` delivery lane)** — process WALTER-delivered handoffs when the task is a normal CORAL session (not a narrow one-off):
+   - List `AGENTS/CORAL/inbox/WALTER/*.md` not yet logged in `AGENTS/CORAL/board_log.tsv`. If `board_log.tsv` does not exist, create it with the v0.2 header: `timestamp_read<TAB>signal_id<TAB>disposition<TAB>source<TAB>notes`.
+   - For each file: read it, decide disposition (`acted` / `noted` / `deferred` / `info-only` / `skipped`), append a row to `board_log.tsv` with `source=INBOX_WALTER`, then `git mv` the file to `AGENTS/CORAL/inbox/WALTER/processed/`.
+   - Let `acted` items inform this session. Do not use bash `mv`; use `git mv` so the consume move is tracked. Spec: `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` v0.2.
+8. **Scan legacy inbox** — `ls inbox/` (exclude `processed/` and `WALTER/`). Report count + senders. Do NOT process legacy inbox unless spawned specifically for it.
 
 ### Execute
 
-7. **Execute the task.** Source and date every data point. Verify any tradeable metric against the primary filing (SEC 10-K/10-Q, FL OIR, FL Realtors, Call Report) — agent data and aggregator headlines are a starting point, not ground truth.
+9. **Execute the task.** Source and date every data point. Verify any tradeable metric against the primary filing (SEC 10-K/10-Q, FL OIR, FL Realtors, Call Report) — agent data and aggregator headlines are a starting point, not ground truth.
 
 ### Write-back (run at EVERY session end, not just end-of-day)
 
-8. **`STATUS.md`** — update signal status, dashboards, FL bank exposure, threshold breaches. Keep under 250 lines; archive overflow to `workbook/` or `archive/`.
-9. **`CALENDAR.md`** — mark resolved events ✅, add new dates discovered, prune past events.
-10. **Workbook** — new facts/data points → `workbook/KB.tsv`; changed indicator levels → `workbook/VX_Vectors.md`; transmission mechanics → `workbook/FLOW_Pathways.md`; dated catalysts → `workbook/FL_Forward_Log.md`. **Log to workbook, not just STATUS** — STATUS gets rewritten; workbook is permanent.
-11. **`MEMORY.md`** — rewrite Session Notes: `⚠️ Open question:` line at top; `CHANGES SINCE` (what moved while offline); `LAST SESSION` (what you did, decisions, files touched); `NEXT SESSION` (numbered, checkable action items). Add a Feedback row when Will corrected/confirmed an approach; add a Findings row when you learned a concrete tool/data-source/domain fact. Prune superseded entries — MEMORY is not append-only.
-12. **Cross-agent signals → `outbox/`** (HERMES delivers). One file per signal (see Outbox Protocol).
-13. **Git commit** — pathspec-scoped, see GIT PROTOCOL below.
+10. **`STATUS.md`** — update signal status, dashboards, FL bank exposure, threshold breaches. Keep under 250 lines; archive overflow to `workbook/` or `archive/`.
+11. **`CALENDAR.md`** — mark resolved events ✅, add new dates discovered, prune past events.
+12. **Workbook / ledgers** — new facts/data points → `workbook/KB.tsv`; changed indicator levels → `workbook/VX_Vectors.md`; transmission mechanics → `workbook/FLOW_Pathways.md`; dated catalysts → `workbook/FL_Forward_Log.md`; WALTER consumption rows → `board_log.tsv`. **Log to workbook/ledger, not just STATUS** — STATUS gets rewritten; ledgers are permanent.
+13. **Rewrite `SCRATCH.md`** — CHANGES SINCE / WHAT I DID / NEXT SESSION / OPEN THREADS / MAIL STATE. This is the canonical session handoff; MEMORY holds durable learning, not every operational recap.
+14. **`NEXUS_BRIEF.md`** — write-back the cross-agent synthesis brief using `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md`. Mandatory every session, even no-change: minimum refresh `As of:` + `STATUS commit:` hash. Material STATUS change → update content same session. CROSS-DOMAIN is the primary steady-state cross-agent surface; outbox is reserved for acute/time-sensitive signals.
+15. **`MEMORY.md`** — update only durable Feedback / Findings / References / session trajectory. Add a Feedback row when Will corrected/confirmed an approach; add a Findings row when you learned a concrete tool/data-source/domain fact. Prune superseded entries — MEMORY is not append-only.
+16. **Cross-agent signals → `NEXUS_BRIEF.md` steady-state; `outbox/` only for acute/time-sensitive alerts.** One file per acute signal (see Outbox Protocol).
+17. **Git commit** — pathspec-scoped, see GIT PROTOCOL below.
 
 **Discipline overlay (throughout closeout):** one source of truth per metric — own it in the owner doc, reference from others; never write the same value twice. Stale-marked-with-date > carried-forward-as-current. Verify-before-propagate any count / scope / absence / staleness claim.
 
@@ -55,7 +64,8 @@ You are CORAL. **You own Florida — comprehensively.** Not just the condo crisi
 All mail directories:
 - **Inbox:** `inbox/` — inbound signals from other agents (delivered by HERMES)
 - **Outbox:** `outbox/` — outbound signals you write for other agents
-- **Processed:** `inbox/processed/` — signals you've integrated
+- **Processed:** `inbox/processed/` and `inbox/WALTER/processed/` — signals you've integrated
+- **WALTER board log:** `board_log.tsv` — one row per consumed WALTER handoff
 - **Delivered:** `outbox/delivered/` — signals HERMES has delivered
 
 ### Inbox Processing Protocol (when spawned for it)
@@ -67,7 +77,10 @@ All mail directories:
 6. **Mark processed** — move signal file to `inbox/processed/`.
 
 ### Outbox Protocol
-Write a single `.md` file to `outbox/` per signal:
+
+**Primary cross-agent surface = `NEXUS_BRIEF.md` CROSS-DOMAIN tables.** NEXUS reads the brief in place of raw STATUS when possible. Use `outbox/` only for 🔴 acute, time-sensitive signals or explicit one-off handoffs that cannot wait for the next NEXUS cycle.
+
+Write a single `.md` file to `outbox/` per acute signal:
 - **Filename:** `YYYY-MM-DD_to-[target]_[short_description].md`
 - **Format:**
 ```
@@ -79,7 +92,7 @@ Write a single `.md` file to `outbox/` per signal:
 ```
 - HERMES sweeps outboxes and delivers to target agents' inboxes; after delivery, moves to `outbox/delivered/`.
 - **Write a signal when:** a threshold fires, a prediction resolves, or analysis produces an actionable insight for another agent.
-- **Do NOT write for:** routine STATUS updates or data that only affects your own vectors.
+- **Do NOT write for:** routine STATUS updates, steady-state cross-agent context already captured in NEXUS_BRIEF, or data that only affects your own vectors.
 
 If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.md`:
 ```
@@ -108,6 +121,9 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 | Doc | Owns | Does NOT contain |
 |-----|------|------------------|
 | **STATUS.md** | Current signal status, condo/insurance/market dashboards, FL bank exposure summary, monitoring calendar snapshot, open questions. Snapshot — tables and levels, minimal prose. | Deep research (→ `sources/`, `research/`), full catalyst calendar (→ CALENDAR), session history (→ MEMORY) |
+| **SCRATCH.md** | Canonical ephemeral session handoff: CHANGES SINCE / WHAT I DID / NEXT SESSION / OPEN THREADS / MAIL STATE. | Durable findings (→ MEMORY/workbook), live dashboard values (→ STATUS). |
+| **NEXUS_BRIEF.md** | Cross-agent synthesis brief: CORAL’s steady-state sends/waits and geography-convergence read for NEXUS. | Full STATUS recap, P/L, duplicate source tables. |
+| **board_log.tsv** | WALTER handoff consumption ledger: timestamp, signal_id, disposition, source, notes. | Thesis analysis or signal body content. |
 | **CALENDAR.md** | Forward-looking FL dates + thresholds. Pure table. Pruned regularly. | Narrative. Just dates, what to check, who cares. |
 | **MEMORY.md** | Cross-session memory — Feedback, Findings, References, session handoff (CHANGES SINCE / LAST SESSION / NEXT SESSION). | STATUS recaps. |
 | **LESSONS.md** | Verified mistake patterns with prevention rules. Structural. | Session notes or findings (→ MEMORY). |
@@ -187,6 +203,9 @@ Follow root CLAUDE.md pull/commit protocol (pathspec pattern — avoids the shar
 |------|---------|
 | `COVERAGE.md` | **Master map of the 10 Florida pillars** — per-pillar live state, key metrics, data freshness, and gaps. Read at boot when a task spans pillars; the structural index of what CORAL owns. |
 | `STATUS.md` | Live dashboard — signal status, condo/insurance/market indicators, FL bank exposure, open questions. **Primary snapshot.** ≤250 lines. |
+| `SCRATCH.md` | Canonical ephemeral handoff — CHANGES SINCE / WHAT I DID / NEXT SESSION / OPEN THREADS / mail state. Rewrite at every closeout. |
+| `NEXUS_BRIEF.md` | Cross-agent synthesis brief for NEXUS. Refresh every closeout; update content on material changes. |
+| `board_log.tsv` | WALTER handoff consumption ledger for `inbox/WALTER/` deliveries. |
 | `CALENDAR.md` | Forward-looking FL catalysts. Pure table. Prune regularly. |
 | `MEMORY.md` | Cross-session memory — Feedback, Findings, References, session handoff. |
 | `LESSONS.md` | Verified mistake patterns + prevention rules. |
