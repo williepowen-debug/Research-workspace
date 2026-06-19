@@ -1,8 +1,8 @@
-# TODAY.md — Thursday June 18, 2026
+# TODAY.md — Friday June 19, 2026
 
-**Objective:** Start clean from two facts: (1) WALTER/Quick-WALTER boundaries are settled — Full WALTER owns fresh signal judgment; Quick only runs registered triggers/backfill. (2) Post-FOMC confirmation is mixed: HY OAS is **263 [FRED 6/17]**, only 3bp above the <260 kill line, but claims/VIX/banks do not confirm cascade.
+**Objective:** Keep the market lane honest while WALTER ratifies the new deep-research candidate flag. Market state remains unresolved divergence: HY OAS is **263 [FRED 6/17]**, close to the <260 kill line, but VIX/banks still do not confirm cascade; carry remains red.
 
-**Current regime:** **Hawkish-FOMC re-arm / unresolved divergence.** The broad credit cascade is not confirmed. HY compression toward <260 is now the most important bear-thesis risk; carry remains stressed (USD/JPY >161, FXY red), while vol/banks faded post-FOMC stress.
+**Current regime:** **Hawkish-FOMC re-arm / unresolved divergence.** Broad credit cascade is not confirmed. HY compression toward <260 remains the most important bear-thesis risk; USD/JPY/FXY carry stress remains live; VIX and banks are still calm enough to prevent a cascade call.
 
 ---
 
@@ -10,47 +10,47 @@
 
 | Item | State | Read |
 |---|---|---|
-| Git | ✅ clean/synced | WALTER merge, Quick-boundary docs, timestamp fixes, RED delivery-log fix, and HEARTBEAT update are pushed. |
+| Git | 🟡 local closeout pending push | Will asked to stop short of pushing. Local closeout commit may be ahead until approved. |
 | Quick-WALTER | ⏸️ paused for fresh news | Allowed only for pre-registered RED-FT / REG-T / safety-net trigger fires and delivery repair/backfill. |
-| Full WALTER | ✅ signal desk | Fresh screenshots/news/source-confidence/recipient-selection all escalate to Full WALTER. |
-| WALTER delivery | ✅ healthy | Doctor shows BOARD reconciles at 286 and handoffs delivered on origin; only stale upstream feeds remain. |
+| Full WALTER | ✅ signal desk | Fresh screenshots/news/source-confidence/recipient-selection and deep-research flag judgment belong to Full WALTER. |
+| WALTER deep-research flag | 🟢 greenlit for WALTER ratification | Prome approved v0.3 with ledger `prompt_ref`/`deadline` + narrow `walter_doctor` overdue check; WALTER should land specs. |
 | Position truth | 🟠 unreconciled | No expiry/trade action without broker/Will truth. |
 
 ---
 
-## Live Market Levels — Dashboard Pull 2026-06-18 ~15:28 ET
+## Live Market Levels — Dashboard Pull 2026-06-19 ~14:50 ET
 
 | Series | Value | As-of | Zone | Read |
 |---|---:|---|---|---|
-| HY OAS | **263bps** | **[FRED 6/17]** | 🟢 | Only 3bp above <260 kill; most important near gate. |
-| CCC OAS | **939bps** | **[FRED 6/17]** | 🟡 | Tail still elevated, not broad-cascade red. |
-| Brent | **$79.47** | live | 🟢 | Still below stress threshold; refined-products/geopolitics matter more than Brent direct. |
+| HY OAS | **263bps** | **[FRED 6/17]** | 🟢 | Still 3bp above <260 kill; most important near gate. |
+| CCC OAS | **939bps** | **[FRED 6/17]** | 🟡 | Tail elevated, not broad-cascade red. |
+| Brent | **$80.59** | live | 🟢 | Below stress threshold; refined-products/geopolitics matter more than Brent direct. |
 | Gas weekly | **4.05** | **[6/15]** | 🔴 | Consumer pressure persists. |
-| USD/JPY | **161.78** | live | 🔴 | Carry stress worsening; this is the cleanest live red continuation. |
+| USD/JPY | **161.27** | live | 🔴 | Carry stress remains red. |
 | Initial claims | **226k** | **[6/13]** | 🟡 | Benign/yellow; shadow est **281k**. |
-| Continuing claims | **1.810M** | **[6/6]** | 🟡 | Mild deterioration, not stress. |
+| Continuing claims | **1.810M** | **[6/6]** | 🟢/borderline | Mild deterioration, not stress. |
 | SOFR | **3.63** | **[6/17]** | 🟡 | Monitor funding plumbing. |
-| 10Y Yield | **4.43%** | **[6/16]** | 🟡 | Duration not confirming disorder. |
-| CP-TBill Spread | **0.12** | **[6/16]** | 🟢 | Clean. |
+| 10Y Yield | **4.49%** | **[6/17]** | 🟡 | Duration not disorderly but firmer. |
+| CP-TBill Spread | **0.08** | **[6/17]** | 🟢 | Clean. |
 | SOFR-IORB | **-0.02** | **[6/17]** | 🟢 | Clean. |
-| KRE | **$71.58** | live | 🟢 | Banks not confirming broad cascade. |
-| APO | **$137.53** | live | — | High alts tape still contradicts immediate PC-bear timing. |
-| ARES | **$128.24** | live | 🟡 | PC/BDC watch; off worst stress but still yellow. |
-| OZK | **$49.20** | live | 🟡 | Idiosyncratic/Q2-print gated. |
-| WAL | **$79.57** | live | 🟢 | Still above green threshold; no broad-bank confirmation. |
-| FXY | **$56.71** | live | 🔴 | Carry/Japan stress worsened with USD/JPY. |
-| TLT | **$86.68** | live | 🟡 | Duration still not confirming disorder; no action without broker/Will truth. |
-| BIZD | **$12.32** | live | 🔴 | BDC/private-credit stress remains live. |
-| VIX | **16.94** | live | 🟢 | Post-FOMC vol impulse still faded. |
+| KRE | **$71.72** | live | 🟢 | Banks not confirming broad cascade. |
+| APO | **$137.50** | live | — | High alts tape still contradicts immediate PC-bear timing. |
+| ARES | **$129.34** | live | 🟡 | PC/BDC watch, not broad confirmation. |
+| OZK | **$49.26** | live | 🟡 | Idiosyncratic/Q2-print gated. |
+| WAL | **$79.91** | live | 🟢 | Still above green threshold; no broad-bank confirmation. |
+| FXY | **$56.85** | live | 🔴 | Yen/carry stress remains live. |
+| TLT | **$86.75** | live | 🟡 | No action without broker/Will truth. |
+| BIZD | **$12.36** | live | 🔴 | BDC/private-credit stress remains live. |
+| VIX | **16.78** | live | 🟢 | Vol impulse faded; weakens cascade confirmation. |
 
 ---
 
-## Near Gates — Jun 18–22
+## Near Gates — Jun 19–22
 
 | Date / Window | Gate | Owner(s) | Prome read |
 |---|---|---|---|
-| **Thu 6/18** | May TIC / FXY / expiry cluster | SAM/LIQUID/Prome | Claims + HY received; TIC/FXY/carry and broker truth still matter. |
-| **Fri 6/19** | Geneva Iran signing / HYG expiry / opex digestion | WALTER/HAWK/BRENT/LIQUID/VIOLET | Iran signing is binary for M-06; HYG Jun $75P remains written off / let expire. |
+| **Fri 6/19** | Iran reopening verification / HYG expiry / opex digestion | WALTER/HAWK/BRENT/LIQUID/VIOLET | Signing/reopening moved from binary to verification problem; HYG Jun $75P remains written off / let expire. |
+| **Sat 6/20** | CFTC JPY print | SAM/Prome | Key gate for SAM v1.6: cover weakens/ends convexity-tail frame; build strengthens it. |
 | **Late Jun/Jul** | BCRED/Q2 redemption, BDC/Q2, SAVE Jul 1 | BROCK/CARL/LABOR | Structural stress watch; not immediate broad-cascade confirmation. |
 
 ---
@@ -61,7 +61,7 @@
 |---|---|---|
 | 🔴 | **HY <260 kill-line monitoring** | Latest 263; sustained <260 kills/reprices R3 unless bank/PC deterioration offsets. |
 | 🔴 | **Post-FOMC confirmation** | Watch TIC/FXY/carry and whether banks/PC proxies re-weaken. |
-| 🟡 | **Group-chat VERIFY/CONTEXT helper design** | Possible future: WALTER routes, helper researches/fact-packs, Prome maps decision consequences. |
+| 🟡 | **WALTER deep-research candidate flag** | Wait for WALTER ratification, then inspect actual CHECKLIST/ledger/doctor diff. |
 | 🟡 | **WALTER stale upstream feeds** | news-sweep / filing-watch / SIGNALS still stale; separate system-health lane. |
 | 🟠 | **Position-state reconciliation** | Separate lane only; no expiry action without broker/Will truth. |
 | 🔵 | **Legacy parallel signal artifacts cleanup** | Historical `FORGE/signals/` + generic inbox files need deliberate archive/leave decision; don’t delete casually. |
@@ -70,8 +70,9 @@
 
 ## Skip / Guardrails
 
-- Do not spawn Quick-WALTER for fresh news/signals.
-- Do not create parallel signal artifacts.
+- Do not push local Prome closeout until Will asks.
+- Do not spawn Quick-WALTER for fresh news/signals or deep-research flag judgment.
+- Do not edit WALTER specs from Prome; WALTER owns ratification.
 - No trade execution.
 - No old May/Jun option rails without broker/Will reconciliation.
-- HEARTBEAT is current as of 12:26 ET; 15:28 dashboard refresh did not change regime.
+- HEARTBEAT remains regime-valid; dashboard refreshed here, but no regime-level update was made.

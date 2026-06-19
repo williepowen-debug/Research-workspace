@@ -6,6 +6,20 @@
 
 ---
 
+## 2026-06-19 ~14:53 ET — Closeout local-only; WALTER deep-research flag greenlit
+
+**Status:** Closeout edits are local-only per Will's instruction to stop short of pushing. Prome reviewed SAM/HAWK pushed changes, the ORC/WALTER deep-research candidate proposal, and refreshed the Jun19 dashboard. Market regime unchanged: HY OAS **263 [FRED 6/17]** remains 3bp above the <260 kill line; banks/VIX benign; carry red.
+
+**What landed in Prome state:** `PROME/SCRATCH.md`, `PROME/TODAY.md`, `PROME/STATUS.md`, `PROME/ACTIVE_DECISIONS.md`, this HANDOFF entry, and `memory/2026-06-19.md` capture the session. Commit should be local-only; push only when Will approves.
+
+**Key decisions / reads:** WALTER deep-research candidate flag is greenlit for **WALTER-owned ratification**, not Prome direct edits. v1 shape: Full-WALTER-only Phase 2.8, mandatory materiality gate, dispatched signals only, 11-col TSV ledger with `prompt_ref` + `deadline`, no FORMAT_SPEC header, and narrow `walter_doctor` overdue-pending check. SAM v1.6 EV table supports hold-small-stub / no add; Jun20 CFTC is next gate. HAWK audit fixes look clean.
+
+**Next suggested work:** pull/verify repo; if WALTER has landed the feature, inspect actual CHECKLIST/ledger/doctor diff + version-drift output. If market lane, refresh HY/dashboard and watch <260 / bank-PC offset.
+
+**Risks / blockers:** do not push local closeout without Will. Do not edit WALTER specs from Prome; WALTER owns ratification. No trade/expiry action without broker/Will truth.
+
+---
+
 ## 2026-06-18 ~14:05 ET — Closeout before fresh session; Quick-WALTER paused for fresh news
 
 **Status:** Repo is clean/synced. WALTER/Prome/ORC resolved the mini-WALTER boundary after the Moscow MNPZ A/B test. Full Claude Code WALTER is the signal desk. Prome/Quick-WALTER is paused for fresh news and may route only pre-registered RED-FT / REG-T / safety-net trigger fires with fixed recipient_chain, plus non-routing delivery repair/backfill for existing BOARD signals. Fresh screenshots/news/Visegrad/aggregator/source-confidence/recipient-selection all queue/escalate to Full WALTER.
@@ -76,17 +90,5 @@
 **Next suggested work:** if Will wants system work, continue WALTER diagnosis (cron/feed state + classify→refer→write→ack receipts + SIG-W-20260610-001/-002 trace). If Will wants market work, prep FOMC grading using live proxies and FRED T+1 HY confirmation.
 
 **Guardrails:** no `AGENTS/*` edits unless Will scopes them; no trade execution; no expiry/option action without broker/Will truth; refresh dashboard before citing levels.
-
----
-
-## 2026-06-16 ~16:12 ET — NEXUS/WALTER/LABOR review closeout, superseded by 16:44 correction
-
-**Status:** Historical review closeout. The analysis remains useful, but its git-state language was superseded by the 16:44 correction and later push/pull. Do **not** treat “behind/unpushed” from this entry as current.
-
-**Durable takeaways:**
-- NEXUS matrix passed ORC four-group review; no rows overturned.
-- HY 266 [FRED 6/15] was identified as 6bp from <260 R3/blended-credit kill.
-- WALTER intake/routing was identified as the next system-health lane; later WALTER repair partially addressed anchor/registry/staleness but not receipt health.
-- LABOR pushed fixes were functionally merge-safe; later LABOR hygiene commit resolved stale handoff/push language.
 
 ---
