@@ -14,6 +14,7 @@
 | Monthly | FL Realtors condo report + ATTOM foreclosure | Inventory mo, DOM, price; foreclosure rank/REO trend (reconcile inventory w/ MARCO) | CORAL |
 | Quarterly | Fannie/Freddie condo blacklist | Association count vs 1,400+ (refresh — Mar-2025 figure aging) | CORAL |
 | TBD 2026 | FL legislative session condo-relief follow-up | Did 2026 session amend/delay SIRS reserve mandate? (NOT FOUND — resolve) | CORAL |
+| Monthly (Jun–Aug peak) | USF sargassum bulletin + NOAA SIR | Belt biomass (>~30M spring = elevated FL risk; >37.5M = record); SE FL SIR band. Relief typically Sep–Oct. 2nd-order condo-demand overlay. | CORAL (MARCO on tourism-$) |
 
 ---
 

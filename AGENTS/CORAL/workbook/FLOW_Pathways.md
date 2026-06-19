@@ -321,3 +321,25 @@ A building doesn't fail from ONE channel — it fails when MULTIPLE channels str
 - Association failure = bank loss
 
 **This is why VLY is the target:** Multiple exposure paths to the same geographic risk.
+
+---
+
+## Secondary Pathway: Sargassum → Coastal Amenity → Condo Demand (slow, second-order, UNCONFIRMED to banks)
+
+```
+Record sargassum belt (USF >30M spring; NOAA SIR SE FL "high")
+        │  [Jun–Aug peak; Atlantic coast only — Gulf spared]
+        ▼
+SE FL beaching: Keys / Miami-Dade / Broward / Palm Beach
+        │  beachfront amenity degradation + H2S odor
+        ▼
+Visitor-cancellation perception (~1 in 10) + beachfront-living drag
+        │  [MARCO owns visitor-flow/spend; CORAL owns real-estate amenity]
+        ▼
+Coastal / beachfront condo demand softening
+        │  reinforces existing condo price/inventory weakness (same metros)
+        ▼
+(eventually, UNCONFIRMED) collateral values / HOA finances → FL bank CRE
+```
+
+**Speed:** slow / seasonal-recurring. **Status:** second-order overlay, NOT confirmed to bank balance sheets (no Q1 2026 evidence). **Key insight:** stacks on the *same* SE FL metros already carrying the deepest condo stress (does not diversify); but perception-driven and modeled, and does NOT touch the insurance channel. **Cross-links:** VX-CORAL-SARG-01, MARCO (tourism-$). **Last Updated:** 2026-06-19.

@@ -34,6 +34,7 @@
 | 2026-06-19 | **"Rate-shock reclass ≠ loss content" is the bank-leg crux.** SSB's classified CRE ($2.5B) is loans underwritten at 3% rate-shock now stressed by the 5% move — but 56% wtd-avg LTV and 98% current. Until LTVs break or payments stop, classified-CRE growth is a reclassification artifact, not realized loss. Q2 earnings test: does it migrate to nonaccrual/charge-off, or cure? |
 | 2026-06-19 | **Insurance channel went the OTHER way.** Original thesis treated FL insurance as a hardening amplifier; in 2026 it's easing — Citizens depopulated to 294K (−64% YoY) + 8.8% rate cut, reinsurance −15-20% at 6/1. A hurricane landfall is the only near-term reversal risk. |
 | 2026-06-19 | **CORAL and MARCO independently converged** on "acute FL stress delayed to winter 2026-27." Shared condo-inventory metric matches exactly (8.9mo statewide, Miami-Dade 12.9mo) — MARCO is the live owner; CORAL references. |
+| 2026-06-19 | **Sargassum integrated as a 2nd-order demand overlay (Will-provided briefing).** Record-tier 2026 belt lands on exactly CORAL's worst SE FL condo metros (Atlantic coast; Gulf spared) — *stacks on the same geography, doesn't diversify.* But it's perception-driven + modeled ($2.7B/yr not realized), does NOT touch insurance, and has NO Q1 bank-balance-sheet evidence → logged as monitored vector (VX-CORAL-SARG-01), NOT a status-mover. Boundary: MARCO owns tourism visitor-flow/spend; CORAL owns coastal-RE amenity/collateral. |
 
 ## Session Notes
 

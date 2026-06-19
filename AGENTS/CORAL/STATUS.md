@@ -52,6 +52,7 @@ Reserve funding mandate live (Jan 1 2026)
 | FL property-cat reinsurance (6/1/26) | **−15-20% risk-adjusted** across many layers | Guy Carpenter, Jun 2026 | 🟢 EASING |
 | Citizens policy count | **294,253 (May 15 2026, −64% YoY)** — peak 1.42M Oct 2023; record 585K depopulated in 2025; **filed 8.8% rate CUT eff 6/1/26** | Insurance Business / WUSF 2026 | 🟢 EASING |
 | 2026 hurricane forecast | CSU **14 named / 7 hurr / 3 major** (~avg); NOAA leans below-avg; quiet so far | CSU Apr 2026 / NOAA | 🟡 |
+| Sargassum (SE FL Atlantic) — *2nd-order overlay* | **Record-tier 2026 belt ~28.9M MT** (May, climbing); NOAA SIR SE FL **"high"**; heavy beaching Miami-Dade/Broward/PB/Keys (Gulf spared). $2.7B/yr *modeled* FL east-coast impact; ~1-in-10 visitor cancel. Reinforces condo-demand leg; NOT an insurance peril, NOT yet a bank signal. → MARCO owns tourism-$ side. | Will briefing 2026-06-18 (USF/NOAA/Jin 2025) | 🟠 watch |
 
 ---
 
