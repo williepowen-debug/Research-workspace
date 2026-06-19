@@ -164,13 +164,15 @@ Three life-science CRE distress events across cohorts in 6 months:
 
 ---
 
-## SUB-AGENTS
+## SUB-AGENTS & PEER COORDINATION
+
+*BROCK, CORAL, and OZK are top-level peer agents (CORAL promoted 2026-06-19) — read their STATUS at `../<NAME>/STATUS.md`. CREED/BELT/RENO/TEX remain sub-agents. Rows below are last-known signal snapshots.*
 
 | Agent | Key Signal | Status |
 |-------|------------|--------|
 | CREED | Office 11.2% (Feb, off 12.34% Jan ATH on loan mods), $875B maturity wall | 🔴 |
-| BROCK | PCDR 5.8% (MS projects 8%), Ares+Apollo gated, bad PIK 6.4% | 🔴🔴 CRITICAL |
-| CORAL | FL #2 foreclosure, migration -93%, FL labor 4.6% > US 4.4% | 🔴 |
+| BROCK (peer) | PCDR 5.8% (MS projects 8%), Ares+Apollo gated, bad PIK 6.4% | 🔴🔴 CRITICAL |
+| CORAL (peer, `../CORAL/`) | FL #2 foreclosure, migration -93%, FL labor 4.6% > US 4.4% — *STATUS stale since Mar 3, refresh pending* | 🔴 |
 | BELT | MS +109bps mortgage DQ | 🔴 |
 | RENO/TEX | Dormant | 🟡 |
 

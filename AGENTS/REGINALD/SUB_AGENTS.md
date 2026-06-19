@@ -12,7 +12,7 @@ REGINALD is the convergence point for regional bank stress. Five sub-agents main
 |-------|--------|----------|----------|
 | **CREED** | CRE / CMBS | Delinquency, maturity wall, loss severity | `sub-agents/CREED/` |
 | **BROCK** | BDC / Private Credit | PIK rates, cash coverage, dividend health | `AGENTS/BROCK/` (**top-level agent**, not sub-agent) |
-| **CORAL** | Florida CRE / Condo Crisis | Migration, HOA/SIRS, Citizens insurance, SSB/VLY FL exposure | `sub-agents/CORAL/` |
+| **CORAL** ⬆️ | Florida CRE / Condo Crisis | Migration, HOA/SIRS, Citizens insurance, SSB/VLY FL exposure | `AGENTS/CORAL/` (**promoted to top-level peer agent 2026-06-19** — coordinate via inbox/outbox, no longer a sub-agent) |
 | **RENO** | Nevada Geographic Stress | Gaming/tourism, housing, water crisis, WAL NV exposure | `sub-agents/RENO/` |
 | **TEX** | Texas/Florida Regional | Geographic concentration, HOA, housing | `sub-agents/TEX/` |
 | **BELT** | Mortgage DQ Belt (MS/LA/MD) | State-level mortgage delinquency hotspots | `sub-agents/BELT/` |
@@ -46,7 +46,9 @@ REGINALD is the convergence point for regional bank stress. Five sub-agents main
 
 **Sync to REGINALD:** VX-REG-2.03, VX-REG-9.04, VX-REG-12.01
 
-### CORAL (Florida CRE — Condo Crisis, HOA, Citizens Insurance)
+### CORAL (Florida CRE — Condo Crisis, HOA, Citizens Insurance) — ⬆️ PROMOTED TO PEER AGENT 2026-06-19
+*Now a top-level peer agent at `AGENTS/CORAL/` (not a sub-agent). REGINALD coordinates with it via inbox/outbox + read-only cross-reads, same as BROCK/OZK. The ownership notes below remain accurate for what CORAL covers; the vectors it syncs to REGINALD are unchanged.*
+
 **Maintains:**
 - FL condo receivership / SIRS mandate tracking
 - HOA special assessment monitoring
