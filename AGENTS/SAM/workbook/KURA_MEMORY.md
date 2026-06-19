@@ -14,7 +14,7 @@ State file for the workbook-librarian sub-agent. Spec is in [`KURA.md`](KURA.md)
 
 *Auto-populated by KURA at run start, based on what's moved in STATUS/TIMELINE/CHANGELOG/PREDICTIONS since the watermark in KURA.md. Cleared at end-of-run.*
 
-**Watermark:** 2026-06-04 → window scanned = Jun 5 (NFP shock + cross-pair divergence) + Jun 6 (CFTC METHOD residual-gate test) + Jun 7 (NEXUS_BRIEF rollout) + Jun 8 (Q1 GDP revised) + Jun 9 noon (SAM-21 mechanical trigger fire + Brent breach $90).
+**Watermark:** 2026-06-09 → window scanned = Jun 10–18 (Jun 16 BOJ HIKED 1.00% as-priced; Jun 17 FOMC Warsh-chaired hawkish SEP +40bp dot; Jun 17 Iran/US deal SIGNED electronic; Jun 18 Step 1.5 HAWK-Iran reconcile; Jun 18 stop re-arm single-leg $55.05; v1.6 DRAFT EV-table; KB hand-adds 186-194 by SAM Jun 10-15).
 
 - **Run 3 outcomes applied** (commit `eaf6c218` "KOYOMI+KURA Run 5/3 apply bundle"): KB-SAM-184 (MOF measurement scope, A1, Framework) PROMOTED to KB.tsv (now 127 rows; max KB-SAM-184). KB-SAM-185 (thin-liquidity prediction-market discipline) RE-ROUTED to auto-memory `[[finding_thin_liquidity_prediction_market_discipline]]` by Will — cross-agent transferable, not Japan-domain-only. KB-183 routing precedent NARROWED to "tool-specific AND SAM-domain-only" per Run-3 CALIBRATION. FLOW-5.02 + 6.02 spot-stale fixes applied.
 - **Jun 3 evening — v1.5.1 narrative reconciliation** (commit `39639b06`): minor version bump v1.5 → v1.5.1. New STRUCTURAL PILLARS section in THESIS promotes rate-differential, J-ICS lifer abandonment, hedge ratio 14-yr low, CFTC positioning to explicit thesis backbone. Channel 2 prose reconciled with CH-004 METHOD (Aug-2024-speed demoted expectation → upside-tail conditional on hawkish-of-pricing + at-peak positioning). Intervention paradox replaced with "structural pillars + asymmetric option on Jun 16" honest framing. Conviction split: direction/level HIGH vs near-term timing MEDIUM. No probability re-rates; position unchanged.
@@ -27,6 +27,36 @@ State file for the workbook-librarian sub-agent. Spec is in [`KURA.md`](KURA.md)
 ---
 
 ## LAST RUN
+
+### Run 6 — 2026-06-19 (Fri AM, propose-only, post-BOJ + post-FOMC + Iran-deal cluster)
+
+**Inputs scanned:** Watermark 2026-06-09 → 2026-06-19 window covers the densest 10d in v1.5.1's life. Read: KB.tsv (135 rows incl. SAM hand-adds 186-194 between Jun 10 & Jun 15; max ID KB-SAM-194), KB_ARCHIVE.tsv (58 rows unchanged), FLOW.tsv (last touched Jun 4 — stale on USDJPY/Brent/CFTC/Channel-1 status), VX.tsv (rows dated 2026-05-28), THESIS.md (banner Jun-18 fact strip + Pillar 1 RE-WIDENING; § INDEPENDENT CATALYST updated; Iran row Step 1.5 reconcile; structural-counter-flow NISA addition Jun-15), STATUS.md (new § FOMC JUN 17 RESOLVED + § BOJ JUN 16 RESOLVED blocks; Step 1.5 stop re-arm single-leg $55.05), STRATEGY.md, CHANGELOG (2026-06-18 + 2026-06-16 + Jun-10/PM/AM entries), THESIS_v1.6_DRAFT.md (EV-table inputs — flagged as DRAFT, not v1.5.1 fact).
+
+**Outputs:**
+- **6 proposed KB adds** (Fed-Chair, FOMC SEP, Iran-deal-signing-electronic, Iran-deal-toll-free-then-Oman, IEA-glut-warning, MOF-decay-48h-no-strike-at-161), **1 v1.6-DRAFT-tagged add** (EV-table inputs as v1.6 working assumptions). See § PROPOSED ADDS in KURA.md (this run appends Run-6 block).
+- **9 palimpsest/SUPERSEDED proposals** — old Powell-Fed-Chair implicit anchors (in CHANGELOG/STATUS prose only — no dedicated KB row to flip; flag for cleanup-not-archive); KB-SAM-006 (HANS Fed-cut path) needs SUPERSEDED-pending-v1.6 marker (Fed-cut regime FLIPPED to Fed-HIKE); KB-SAM-008/010/036/044/045/046/151 already HISTORICAL; KB-SAM-127 (Inflection 2 FX hedge crisis BOJ surprise hike) — POV pivot fired Jun 16 *without* the modeled 10y move; mark resolved-against-mechanism; KB-SAM-152 (PC cascade Q2 peak) ages out — Q2 closed Jun 30; PROPOSE re-grade not archive.
+- **0 archive-moves** (no rows already marked SUPERSEDED in KB.tsv as of run; KB-SAM-081/084/087/092/137/064 already SUPERSEDED per Jun-1 sweep — these sit in KB.tsv awaiting full-mode archive-move; KURA is propose-only this run so they stay).
+- **2 FLOW spot-stale flags** (FLOW-JPN-5.02 + 6.02 — material) + 1 FLOW-JPN-3.01 sanity check (Norinchukin gate already resolved Jun-10 PM but row dated Jun-10 — fine).
+- **1 VX threshold spot flag** (VX-SAM-11.02 trade balance: May TB due ~Jun 18-19 — not yet in workbook; mid-yield update window open).
+- **2 dedup candidates** (KB-187 Japan oil reserves cluster — three rows KB-187/188/189/190 added Jun-15 to "Energy" category but cluster covers tightly-overlapping ground; recommend NO merge, instead surface as deliberately-decomposed cluster).
+- **3 KB rows landed in window already (SAM hand-adds Jun 10-15):** KB-SAM-186 (Norinchukin FY2025), 187-190 (Japan oil/energy cluster), 191-194 (SoftBank-OpenAI/NISA/Bank-stress). These all entered KB.tsv directly via SAM; format pass to verify: schema OK; KB-SAM-186 has multi-line Notes (escaped quotes); slot KB-SAM-186 RE-USED from KURA Run-5 routing (was the catalyst-path decoupling row routed to auto-memory; SAM used the slot for Norinchukin) — per Run-4 precedent on slot re-use, this is CLEAN.
+
+**Watermark proposed:** 2026-06-09 → 2026-06-19.
+
+**Net workbook math (if SAM approves the 6 NEW + 1 DRAFT-tagged):** KB.tsv 135 → 142 rows; KB_ARCHIVE.tsv unchanged at 58 (propose-only).
+
+**Notable non-promotes / route-elsewhere:**
+- **Step 1.5 comprehensive-grep discipline** — PROME named SAM's comprehensive-grep as the correct verifier standard; transferable across the fleet. Per Run-3 narrowed routing (cross-agent transferable → auto-memory), → auto-memory candidate `[[finding_comprehensive_grep_vs_sample_verification]]` (or fold into existing `finding_doc_mirror_consistency_check` / `finding_followup_audit_pass`).
+- **Risk-control re-arm ≠ sizing decision** (Will-decided 2026-06-18 stop re-arm) — operational discipline lesson, cross-agent transferable (any agent re-deriving an AND-stop-spec after one leg goes permanently FALSE faces this). → auto-memory candidate.
+- **Boot-sweep gap on Warsh Chair change** — already promoted to `finding_boot_sweep_macro_regime_context` per the Jun-18 CHANGELOG. Confirm landed; no KB action.
+
+**Calibration self-note (for SAM's CALIBRATION pass):**
+- Run 6 = highest-yield run since inaugural (6 strong + 1 DRAFT-tagged). BOJ + FOMC + Iran-deal triple-resolution cluster justified the bump; precision-over-recall held — declined the cross-agent transferable items (comprehensive-grep / risk-control-re-arm).
+- v1.6 DRAFT-TAGGED routing pattern is NEW. Recommend SAM/Will rule on a status convention — `LIVE-v1.6-DRAFT` or a separate Status column value — so the row promotes into KB.tsv but doesn't read as v1.5.1 fact. Default proposed: tag in Notes as `⚠️ v1.6 DRAFT input — not v1.5.1 fact; finalize-or-discard on v1.6 commit`.
+- ID slot KB-SAM-186 re-use (SAM hand-added Norinchukin) — clean per Run-4 precedent. Next KB ID continues KB-SAM-195+.
+- SAM-side direct KB adds (Jun 10-15, 9 rows) bypassed KURA — workflow note: when SAM has session bandwidth and the harvest is in-session, direct-add is fine; KURA's role contracts to format-check + dedup-sanity + watermark-advance. No process change needed.
+
+---
 
 ### Run 5 — 2026-06-09 (Tue 12:35 PM ET, propose-only, intra-day in-session)
 
@@ -202,7 +232,14 @@ State file for the workbook-librarian sub-agent. Spec is in [`KURA.md`](KURA.md)
 - **CFTC Sat Jun 13 print** (NEW Run-5) — last pre-blackout CFTC read. If shorts build through -153K (85% line) → amplifier escalates +5pp → +8-10pp → 30d bucket may bump +3-5pp. If shorts cover below -108K (60% line) → amplifier+residual OFF → 30d 37% → ~29-32%. Either path produces auto-CHANGELOG entry worth scanning at next KURA run.
 - **BOJ Jun 16 MPM** (NEW Run-5) — heaviest expected harvest window across the agent network. KURA Run 6 (post Jun 16-17) likely 5-10 candidates depending on outcome. Hike-delivered: SAM-21 RESOLVES, SAM-24 (25bp not 50bp) RESOLVES; CHANGELOG entry on hike + Ueda presser + statement language. Hike-skipped (tail): SAM-08/SAM-20 lesson cluster triple-FAILED — calibration entry to PREDICTIONS_ARCHIVE. Either outcome triggers full thesis re-balance pass.
 - **Brent down-drift + SAM-23 catalyst-path decoupling** (NEW Run-5; **corrected Jun 9 PM**) — Brent tagged $89.59 intraday Tue Jun 9 but did NOT hold ($92.40 by evening; no closing breach of the "$90 = headwind resolved" line; Mon was an up session — choppy drift, cum −4.5%). SAM-23 mark-DOWN conjunction has legs (i) MET (Thu-Fri consecutive + cum ≥−2% — not "deeply") but USDJPY-leg INVERTED (160+). Empirical decoupling of MOU → oil → yen path still observed across 2 distinct micro-windows (Fri NFP-route + Tue oil-down-under-stable-USDJPY). CHANGELOG re-anchoring entry warranted post-Jun-16 settle per MEMORY NEXT SESSION. KURA Run 6 likely has a method-execution KB candidate if SAM-23 framework re-anchors.
-- **MOF no-strike-at-160 pattern** (NEW Run-5; **premise corrected Jun 9 PM**) — empirical observation that MOF has NOT struck despite USDJPY tagging the 160 hard #3 trigger twice in 5 trading days (Fri Jun 5 160.20 + Tue Jun 9 160.37, Mon dip between — NOT 4 sustained days; KB-187 declined on that premise), under Bessent-Katayama-Himino cabling-aligned posture. Paired with KB-040 (intervention paradox baseline ~0.20 unwind|fires) + KB-184 (measurement scope). Surface until MOF strikes OR USDJPY falls back below 160 OR Jun 16 BOJ catalyst resolves; a corrected-framing KB candidate may re-form post-Jun-16.
+- **MOF no-strike-at-160 pattern** (Run-5; **EVOLVED post-Jun-16 — corrected-framing candidate now RIPE — Run-6 PROPOSED ADD):** Post-BOJ-hike Wed-Thu (Jun 17-18), USDJPY ran 160.78 → **161.34** with **48h+ no strike** and Bloomberg's "Markets Alert for Japan Intervention" surfaced Wed — first reaction-function-decay observation under cabling-aligned posture in v1.5.1's lifetime. PROPOSED as new KB row (KB-SAM-196 in Run-6 PROPOSED ADDS, Cross-Agent category, paired with KB-040/170/184). Surface ONGOING — MOF decay window is the load-bearing input to the post-BOJ MOF-#3 scenario-weighted anchor.
+- **Sat Jun 20 CFTC print (Jun 16 data — first post-catalyst read)** (NEW Run-6) — load-bearing for v1.6 RED challenge #1 EV-table. If covers below -120K (~67% peak) → residual term OFF → frame fails margin test → v1.6 may trigger trim/close discussion. If holds at -140K to -150K (~78-83%) → residual ON → frame survives. KURA Run 7 likely material — CHANGELOG entry on disposition.
+- **Fri Jun 19 Japan National May CPI** (NEW Run-6) — first national print post-BOJ-hike; the trade-balance print landed Wed; CPI now is the input for v1.6 re-underwrite (per CHANGELOG "v1.6 triggers tonight after Fri CPI"). KURA Run 7 will harvest v1.6 commit if it lands.
+- **Iran/US deal verification leg** (NEW Run-6) — initial agreement signed Wed Jun 17 (electronic, Al Jazeera); per CNN "tougher talks ahead." Open sub-questions: demining (Iran HEU dilution compliance), insurance restoration (London market re-rating), traffic normalization (Day 110 initial 4 supertankers; backlog "weeks to clear"), Oman fee-administration after 60-day toll-free window (closes ~Aug 16), sanctions waivers rollout. Each is a candidate KB row at resolution; surface as cluster. CRS R42460 SPR runway re-quantification (KB candidate if SAM elevates from STATUS prose).
+- **v1.6 thesis re-underwrite drop** (NEW Run-6) — drafting tonight per CHANGELOG. KURA Run 7 likely harvests structural KB rows (re-centered carry-unwind tail framework, FXY-vol vs spot vehicle question, MOF-decay anchor) if v1.6 commits.
+- **NISA retail outward flow ¥6T-total / ¥1T/mo subset reconciliation** (NEW Run-6) — THESIS structural-counter-flow paragraph flags figures as needing reconciliation; KB-SAM-193 ALREADY ADDED Jun 15 with the reconciliation flag in Notes. Surface until reconciliation resolves; do not re-propose.
+- **Sato Jun 30 BOJ board entry** — KB-SAM-185 anchors. Sato's first MPM is Jul 31 — validation watch (post-Asada-dovish-dissent at Jun 16, "3 → 2 unless Sato surprises" framing now has the freshest evidence cluster). Surface until Jul 31 MPM resolves.
+- **CFTC weekly post-catalyst series** — METHOD residual gate is now load-bearing for the EV-table. Each Sat print until cover OR EV-frame fails.
 
 ---
 
@@ -234,7 +271,20 @@ State file for the workbook-librarian sub-agent. Spec is in [`KURA.md`](KURA.md)
 
 ## NEXT RUN HINTS
 
-- **Likely watermark window:** 2026-06-09 → next-run date. Expected harvest cadence:
+- **Likely watermark window:** 2026-06-19 → next-run date. Expected harvest cadence (Run 7):
+  - **Fri Jun 19 evening — v1.6 thesis commit** (post Fri National CPI per Will-named gate). Likely 3-5 structural KB candidates: re-centered carry-unwind tail framework, MOF-decay reaction-function anchor (paired with KB-187 post-Jun-16 corrected-framing if KURA Run-6 KB-SAM-196 lands), FXY-vehicle question disposition, Warsh-Fed-regime tripwire spec, NISA-tripwire (MoF weekly trust line).
+  - **Sat Jun 20 CFTC print (Jun 16 data)** — first post-catalyst CFTC; load-bearing for v1.6 EV-table; CHANGELOG entry likely whichever way.
+  - **Mon Jun 22 KB.tsv mass-archive opportunity** — Run-6 propose-only run flagged ~6 already-SUPERSEDED KB.tsv rows awaiting full-mode archive-move (KB-SAM-064/081/084/087/092/137). If SAM grants `full` mode on Run 7, these move out in one pass.
+  - **Mon Jun 30 Sato seats BOJ board** — KB-185 anchors; Jul 31 first vote is the validation gate.
+- **Re-check `## PROPOSED ADDS` queue (Run-6)** — six new KB candidates + one v1.6 DRAFT-tagged. SAM rules on routing convention for DRAFT-tagged rows (Notes-tag default vs new Status column value); Will may have stronger view. Drop after disposition.
+- **PENDING resolutions to chase down before Run 7:**
+  - **KB-SAM-006 SUPERSEDED proposal** (Fed-cut path FLIPPED to Fed-HIKE under Warsh) — if accepted, archive on Run 7 `full` mode.
+  - **KB-SAM-127 (Inflection 2 BOJ surprise hike → 10y move in 2 weeks)** — fired Jun 16 *without* the modeled mechanism; either re-grade to mechanism-direction-failure (cluster with SAM-14/19/25/Norinchukin pattern) or mark SUPERSEDED.
+  - **KB-SAM-152 PC cascade Q2 peak** — Q2 closes Jun 30; if Q3 redemptions surface, refresh row, otherwise re-grade.
+  - **Cross-agent transferable lessons** (Step 1.5 comprehensive-grep, risk-control re-arm) — Will rules auto-memory yes/no.
+- **`fxy-proxy-v1` watch** — KB-183 fires correctly under v1.5.1 still. Jun 15 boot showed +24.05 RR sign-flip on Sun → reverted to -8.37 on Mon = exactly the KB-183 sign-impeachment pattern; row holds. `fxy_options.py` source diagnosis still deferred.
+- **MOU walk-back vs further escalation** — SUPERSEDED by Iran-deal-SIGNED-Jun-17. Verification-leg watch replaces MOU-binary watch (per STANDING MONITORS).
+- **Intra-day in-session spawn pattern** — Run 5 fired in-session (SAM-21 trigger); Run 6 fired between sessions (Will-directed at the v1.6-pre-draft inflection). Both patterns work for different content shapes. Run 7 likely closeout-spawn after v1.6 commits.
   - **Wed Jun 10 US CPI + JGB 30Y auction** — SAM-26 mechanism diagnostic (30Y back above 4.0% or auction softness signals Phase-1 fiscal-supply driver). Possible mechanism/diagnostic KB candidate if 30Y auction prints with explicit tail or cover-ratio breakdown.
   - **Sat Jun 13 CFTC Jun 9 data** — last pre-blackout CFTC read; -153K/85% line is METHOD next escalation gate. If amplifier flips to +8-10pp on a build OR amplifier+residual OFF on a cover, the METHOD's second real-world application produces a durable execution-pattern note ("amplifier-escalation gate fired week-of vs week-prior-of catalyst" type rule).
   - **Jun 13-15 pre-BOJ blackout window** — MOF/Bessent/Katayama verbal density continuing; possible POV pivot if cabling tone shifts (e.g., dovish Ueda last-minute leak or Bessent rate-gap pushback). METSUKE pre-BOJ run likely fires here.
