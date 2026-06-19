@@ -85,7 +85,7 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 | 3 | CFG | 15 | BDC $12.5B + FHLB 60x + CRE nonaccruals rising | Monitoring (score 9→12 post-Q1) — no position |
 | ~~4~~ | ZION | ~~14~~ → **~8-9** | MUNI $4.27B + NDFI $2B flat 5yr + Basel III +93bps offset to AOCI | $57.5P Jul-17 — **Q1 disconfirming; monitor only** |
 | 5 | OZK | 13 | **Peer agent — positions in `../OZK/POSITIONS.md`** (REGINALD no longer owns OZK puts). Reservoir thesis: past due $207M→$465M QoQ; CRE 37.6% MI3; IQHQ Aug 2026; Oct 1 sub-notes reprice. | → `../OZK/` |
-| 6 | SSB | 11 | GEO FL+TX 42% + CRE MF 9.36% | **None** (the "$90P" in old dashboards was a phantom — never in POSITIONS; flagged to Will) |
+| 6 | SSB | 11 | GEO FL+TX 42% + CRE MF 9.36% | **None** ($90P was a real position, sold/closed per Will 6/19 — exit unrecorded; propagation gap, not a fabrication) |
 | 7 | FLG | 8 | NYC MF rent-reg | $13P Jul-17 |
 | — | KRE | — | Broad regional stress | $63/65/67P Jun-30 · $60P Aug-21/Sep-30/Dec-18×2 (deep OTM tail insurance) |
 | — | IWM | — | Small cap stress | $250P **Jun-30** (NOT Jun-18 — was mis-recorded; live, 11d) |
