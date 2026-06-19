@@ -21,6 +21,7 @@ Checks:
   liaison_enum           LIAISON files on disk (informational)
   delivered_but_unconsumed  inbox/WALTER/ handoff delivered but not moved to processed/ (>N days)
   written_but_undelivered   inbox/WALTER/ handoff committed-local but not on origin (git-derived)
+  deep_research_pending_overdue  DEEP_RESEARCH_FLAGGED_LOG row PENDING past its deadline (or stale open >30d)
 
 The two delivery checks mechanize BOARD_CONSUMPTION_SPEC v0.2 §6 (the anti-rot
 safeguard for the WALTER Routing v2 delivery layer). Sync/origin state is derived
@@ -400,6 +401,43 @@ def check_written_but_undelivered():
     return out
 
 
+# ── deep-research candidate flag overdue (CHECKLIST Phase 2.8 / proposal §5i) ─
+def check_deep_research_pending_overdue():
+    """DEEP_RESEARCH_FLAGGED_LOG rows still PENDING past their deadline (or stale
+    `open` >30d). Closes the loop the `deadline` column opens — a flagged-then-
+    forgotten candidate can't pass its deadline silently until the next formal
+    review. Reads the ledger TSV directly (no header-field dependency — the proof
+    the deferred FORMAT_SPEC field isn't needed for v1). Surfaced in the boot reply
+    (CLAUDE.md spawn-protocol step 0.5). Same family as delivered_but_unconsumed."""
+    ledger = WALTER / "registry" / "DEEP_RESEARCH_FLAGGED_LOG.tsv"
+    if not ledger.exists():
+        return [(INFO, "no DEEP_RESEARCH_FLAGGED_LOG.tsv yet")]
+    out, n_pending = [], 0
+    with ledger.open(errors="replace") as f:
+        for row in csv.DictReader(f, delimiter="\t"):
+            if (row.get("disposition") or "").strip().upper() != "PENDING":
+                continue
+            n_pending += 1
+            sig = (row.get("signal_id") or "?").strip()
+            m = re.search(r"\d{4}-\d{2}-\d{2}", row.get("deadline") or "")
+            if m:  # real date deadline → overdue if passed
+                try:
+                    dl = dt.date.fromisoformat(m.group(0))
+                except ValueError:
+                    continue
+                if dl < TODAY:
+                    out.append((MED, f"{sig}: deep-research flag PENDING past deadline "
+                                    f"{dl.isoformat()} ({_age_days(dl)}d overdue) — run it or drop it"))
+            else:  # no date (deadline=open/blank) → stale if flagged >30d ago
+                fm = re.search(r"\d{4}-\d{2}-\d{2}", row.get("flagged_date") or "")
+                if fm and _age_days(dt.date.fromisoformat(fm.group(0))) > 30:
+                    out.append((MED, f"{sig}: deep-research flag PENDING (deadline=open) flagged "
+                                    f"{_age_days(dt.date.fromisoformat(fm.group(0)))}d ago — disposition it"))
+    if not out:
+        return [(INFO, f"no overdue deep-research flags ({n_pending} PENDING)")]
+    return out
+
+
 CHECKS = [
     ("version_drift", check_version_drift),
     ("board_reconcile", check_board_reconcile),
@@ -410,6 +448,7 @@ CHECKS = [
     ("liaison_enum", check_liaison_enum),
     ("delivered_but_unconsumed", check_delivered_but_unconsumed),
     ("written_but_undelivered", check_written_but_undelivered),
+    ("deep_research_pending_overdue", check_deep_research_pending_overdue),
 ]
 
 MARK = {HIGH: "✗", MED: "⚠", LOW: "·", INFO: "✓"}
