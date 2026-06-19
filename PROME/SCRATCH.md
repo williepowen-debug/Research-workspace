@@ -1,49 +1,47 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-19 14:53 ET (OpenClaw Prome — SAM/HAWK audits + WALTER deep-research flag design closeout)
+**Last Updated:** 2026-06-19 15:45 ET (OpenClaw Prome — final synced closeout after WALTER v0.18 ratification)
 
 ## What Just Happened
 
-1. **Pulled and reviewed SAM + HAWK pushed changes.**
-   - SAM added `AGENTS/SAM/thesis/THESIS_v1.6_DRAFT.md`; initial audit flagged the USDJPY direction bug, CFTC timing issue, Pillar 1/3/4 wording, vehicle-gate discipline, and FXY-vol proxy caveat.
-   - SAM subsequently incorporated the fixes and added a convexity-tail EV table. Prome read: the table supports **holding the small FXY tail stub, not adding size**; next real gate remains Jun 20 CFTC.
-   - HAWK incorporated audit fixes: Brent math corrected to ~-9.5% from Jun 12, stale ~$77 references purged, energy-strike memory contradiction corrected, BRENT handoff delivered, and product/crack → Brent flip triggers added.
+1. **SAM/HAWK audit loop closed.**
+   - SAM incorporated Prome audit fixes into v1.6 draft and added the convexity-tail EV table. Prome read remains: marginally positive tail-stub EV supports hold-small-stub / no add; Jun20 CFTC is next gate.
+   - HAWK incorporated Prome audit fixes: Brent math corrected, stale ~$77 references purged, product/crack → Brent flip triggers added, and BRENT handoff delivered.
 
-2. **WALTER deep-research candidate flag design was reviewed and greenlit.**
-   - Will wants WALTER to flag routed signals that may deserve external/deeper research, without WALTER running that research.
-   - ORC drafted `AGENTS/WALTER/design/DEEP_RESEARCH_FLAG_PROPOSAL.md` on branch `claude/brave-gates-jl3699`; Prome reviewed the branch copy and the later v0.3 attachment.
-   - Final Prome recommendation: route to WALTER for ratification; **do not land live specs directly from ORC**. WALTER owns CHECKLIST v0.18 + ledger + doctor changes.
-   - Approved shape: Full-WALTER-only Phase 2.8 flag; mandatory materiality gate; dispatched signals only for v1; ledger with `prompt_ref` + `deadline`; no FORMAT_SPEC header field; narrow `walter_doctor` overdue-pending check included in v1.
-   - Implementation nit carried forward: actual ledger file must be real TSV, and `deadline` should start with ISO date or `open` so `walter_doctor` can parse it.
+2. **WALTER deep-research candidate flag landed upstream.**
+   - ORC proposal + Prome/Will/WALTER review became WALTER CHECKLIST **v0.18**.
+   - Verified landed pieces: `SIGNAL_PROCESSING_CHECKLIST.md` Phase 2.8, `registry/DEEP_RESEARCH_FLAGGED_LOG.tsv`, `tools/walter_doctor.py` `deep_research_pending_overdue`, `design/STATE.md` sync, and CLAUDE canonical-source / boot-surface rows.
+   - Final design boundary: Full-WALTER-only; WALTER surfaces research candidates and embeds prompts, but never runs deep research; Quick-WALTER escalates.
 
-3. **HERMES/Hermes-v2 discussion resolved at concept level.**
-   - Prome recommendation: do **not** revive legacy HERMES. If pursued, revive only a courier/receipt service: no judgment, no routing authority, no analyst role; WALTER remains signal/news router.
+3. **Git/rebase/push loop closed cleanly.**
+   - Initial Prome closeout was local-only per Will; origin then advanced 24+ commits.
+   - Prome inspected divergence, confirmed origin had not changed Prome files since the shared base, rebased cleanly, then pushed the rebased Prome closeout.
+   - Repo is clean/synced as of final closeout start.
 
-4. **Heartbeat poll / dashboard check ran.**
-   - Dashboard compact pull: HY OAS **263 [FRED 6/17]**, CCC **939 [6/17]**, 10Y **4.49 [6/17]**, Brent **$80.59**, USD/JPY **161.27**, FXY **$56.85**, KRE/WAL green, VIX **16.78**, BIZD still red.
-   - Regime unchanged: broad cascade still not confirmed; HY <260 kill-line remains close; carry stress still live.
+4. **Heartbeat/dashboard state remains unchanged at regime level.**
+   - Jun19 compact dashboard: HY OAS **263 [FRED 6/17]**, CCC **939 [6/17]**, 10Y **4.49 [6/17]**, Brent **$80.59**, USD/JPY **161.27**, FXY **$56.85**, KRE/WAL green, VIX **16.78**, BIZD red.
+   - Regime unchanged: broad cascade unconfirmed; HY <260 kill-line close; carry stress live.
 
 ## Current Git State
 
-- Local repo was clean/synced before closeout edits.
-- This closeout is intended to be **committed locally only** and **not pushed** per Will: “Stop short of pushing.”
+- Clean and synced after rebase + push.
+- If this final closeout creates one more Prome commit, push it before ending so next boot sees clean/synced state.
 
 ## Current Operating Picture
 
-- **WALTER deep-research flag:** greenlit for WALTER to ratify/implement. Prome should verify after WALTER lands it: CHECKLIST v0.18, 11-col TSV ledger, prompt embed, dispatch_note convention, Quick/Full one-liners, `walter_doctor` check, STATE sync, version-drift check.
-- **Quick-WALTER boundary still holds:** Prome/Quick-WALTER does not route fresh news or discretionary research flags.
+- **WALTER v0.18:** landed and should be treated as active. Next Prome system check should verify `walter_doctor` output if WALTER reports overdue research candidates.
+- **Quick-WALTER boundary still holds:** no fresh-news routing or deep-research judgment from Prome/Quick-WALTER.
 - **Market state:** same unresolved divergence — HY 263 near <260 kill, VIX/banks benign, carry red.
 - **Positions:** no position/expiry action without broker/Will truth.
 
 ## Next Reboot Entry Point
 
-1. Pull/verify repo; note this closeout commit may be local-only until Will approves push.
-2. If system lane: check whether WALTER ratified the deep-research flag; inspect the actual spec/ledger/doctor diff, not just the proposal.
+1. Run repo-state first; expected state is clean/synced after this final closeout.
+2. If system lane: inspect WALTER v0.18 only if behavior seems off; otherwise trust landed spec and watch `walter_doctor`.
 3. If market lane: refresh dashboard/FRED HY; key question remains whether HY breaks <260 or banks/PC re-weaken enough to offset.
-4. If SAM lane: check Jun 20 CFTC against SAM v1.6 EV/convexity survival gates.
+4. If SAM lane: check Jun20 CFTC against SAM v1.6 EV/convexity survival gates.
 
 ## Cautions
 
-- Do not push this closeout unless Will explicitly asks.
-- Do not edit `AGENTS/WALTER/*` from Prome for the deep-research feature; WALTER owns ratification.
+- Do not edit WALTER specs from Prome; WALTER owns WALTER spec changes.
 - Do not spawn Quick-WALTER for fresh news/screenshots/research-flag judgment.
 - No trade execution or old option/expiry cleanup without broker/Will reconciliation.
