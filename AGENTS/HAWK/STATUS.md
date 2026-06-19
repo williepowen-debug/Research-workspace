@@ -39,14 +39,15 @@
 
 ### B — Deal / Verified Reopen — **42%** (Jun 18: 46%) — **co-base with C**
 **Resolution bar UNCHANGED:** signed framework + Hormuz reopening **verified** by traffic recovery toward pre-war + war-risk/insurance normalization. **Signature is done; verification is the remaining gate.**
-**B sub-state (so the bar doesn't drift):** P(signed) = **realized Jun 17.** P(verified reopen | signed) ≈ **~55%** — initial transits are the most any ceasefire achieved (B-positive), but the verification leg now decomposes into **3 sub-gates, and as of Jun 19 ALL THREE are unmet** (Jun 18-19 WALTER intake, KB-188/189):
+**B sub-state (so the bar doesn't drift):** P(signed) = **realized Jun 17.** Verification leg decomposes into **4 sub-gates** (Jun 19 PM#2 sub-agent sweep, KB-188/189/192/193). Useful frame: **US *implementation* is running ahead of *negotiation/verification*** — the deal looks alive via blockade-lifting while flow/liner/insurance/talks lag:
 | Verification sub-gate | Jun 19 state |
 |---|---|
-| **Physical / tanker** | Recovering ~5.3 mbpd 7d-avg but **mostly DARK** — only ~7 transponders-ON; transparent normalization absent (SIG-619-004) |
-| **Liner / commercial** | **8 of 9 largest container carriers still routing via Cape**; Maersk/CMA-CGM/Hapag on-record NOT resumed; war-risk ~8×; mine-clearing est ~50d (SIG-618-002) |
-| **Diplomatic** | First Switzerland round **postponed** ~24h post-signing; Lebanon-conditionality attached ("talks until Israel stops"). MOU intact, Khamenei signed in writing 6/18 (SIG-619-001) |
-B is "leading but at its furthest-from-resolution it has looked" — the burden of proof has tilted toward C even though the headline weight holds.
-**Flip up (→60+):** any/all sub-gates clearing — transparent transit recovery into double digits/day + JWC/insurance step-down + the postponed round reconvenes.
+| **Physical / tanker** | ⚠️ **partially clearing** — transits resuming + CENTCOM lifted naval blockade mid-Jun, but ~18% of June transits **dark** (conflict avg 57%); transparent normalization absent |
+| **Liner / commercial** | ❌ **unmet** — strait "effectively closed to container traffic"; carriers still via Cape; Hapag/MSC only Upper-Gulf via *bypass corridors*, not Hormuz; "won't normalize for **months**" |
+| **Insurance / war-risk** | ❌ **unmet** — JWC listed-area **JWLA-033** (whole Gulf+Oman) NOT lifted; premiums **~30× pre-conflict**; demining = first 30d of window, no completion date |
+| **Diplomatic** | 🟡 **stuck but stabilizing** — round postponed (no firm date) BUT Lebanon trigger **defused** (ceasefire renewed Jun 19) + "direct meeting in coming days"; **enrichment/IAEA the unresolved drag** (IAEA verification halted since ~Feb 28) |
+Net: **implementation positive, verification slow ("months"), negotiation stuck-but-not-deteriorating.** B's path is real but slow — which is precisely why **C is base**.
+**Flip up (→55+):** liner majors return off Cape + JWLA-033 step-down + the postponed round reconvenes with a date.
 **Flip down (→≤30):** transits stall near zero through ~Jun 25; **the postponed first round fails to reconvene**; liner majors stay via Cape 2+ weeks; Iran re-asserts control/fees as a passage condition; a mine incident or vessel strike during reopening; ceasefire-fade protocol fires a 5th time.
 
 ### C — Grind / Armed Stalemate — **42% (BASE)** (Jun 18: 39%)
@@ -68,8 +69,8 @@ B is "leading but at its furthest-from-resolution it has looked" — the burden 
 | US-Iran direct kinetic | **2** ↓ | Signed ceasefire; kinetic stopped | MOU collapse + strike → up | Jun 18 |
 | Oil price / energy tape | **2** ↓ | Brent ~$79 close (−9.5% since Jun 12; ORC live); premium gone; decoupling intact | >$95 leakage event OR supply-shock | Jun 18 |
 | Gulf production / bypass infra | **2** ↓ | No Gulf infra hits; Kharg threat recedes with ceasefire | Kharg-class strike OR Aramco/ADCOP-class hit | Jun 18 |
-| Diplomacy | **1** ↓ | **Signature executed Jun 17** | Collapse within 60d window → 4 | Jun 18 |
-| Shipping / insurance | **3** ↓ | Firing stopped, but insurers/JWC not normalized; mining keeps premiums elevated; wait-and-see | Premium/JWC step-down → 2 | Jun 18 |
+| Diplomacy | **2** ↑ | Signed Jun 17 BUT first round postponed + Lebanon-clause dispute + US-intel "Netanyahu likely to sabotage"; US implementation proceeding (blockade lifted) | Round reconvenes → 1; collapse → 4 | Jun 19 |
+| Shipping / insurance | **3** | JWC **JWLA-033 (whole Gulf+Oman) NOT lifted**; premiums **~30× pre-conflict**; demining ~30d no completion date; liner majors still via Cape | JWLA-033 step-down → 2 | Jun 19 |
 | Cyber / data chokepoint | 2 | No fresh incidents | Operator confirmation OR cable incident | Jun 8 |
 | Global macro / credit | **2** ↓ | Risk-on on deal; HY flat per LIQUID; vol easing | HY/OAS break OR energy-CPI reaccel | Jun 18 |
 | Bab al-Mandab | **3** ↓ | Houthi front kinetic but no new strike since 6/8-9 Gulf-of-Aden; no JWC reclass; Iran ceasefire doesn't resolve Houthi track | Strait-proper strike or JWC reclass → 4 | Jun 18 |
