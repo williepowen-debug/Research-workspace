@@ -1,8 +1,10 @@
 # CORAL — Florida Real Estate Stress Monitor
-## REGINALD Sub-Agent | Condo Crisis & Regional Bank Exposure
+## Top-Level Peer Agent | Condo Crisis, Insurance & FL Regional-Bank Exposure
 
-**Last Updated:** 2026-03-03 19:10 UTC  
-**Signal Status:** 🔴 RED — MIGRATION COLLAPSE CONFIRMED (-93%) + MF Demand Thesis Broken
+**Last Updated:** 2026-03-03 19:10 UTC  *(dashboard below is STALE — see banner)*
+**Signal Status:** 🔴 RED *(as of Mar 3; needs revalidation — see banner)*
+
+> ⚠️ **PROMOTED 2026-06-19 + DATA STALE.** CORAL was promoted from a REGINALD sub-agent to a top-level peer agent (`AGENTS/CORAL/`) on 2026-06-19. The promotion was **structural only — the dashboard below has not been refreshed since Mar 3** and is in places contradicted by MARCO's April reads (FL condo inventory *tightened* to 8.9mo, below the 9.0 distress threshold; acute-stress timing pushed to winter 2026-27). **Do not trade off this STATUS until it is refreshed.** First post-promotion session: rebuild against current FL Realtors / OIR / Q1-Q2 earnings data and reconcile shared metrics with `../MARCO/STATUS.md`. Spinout record → `archive/CORAL_SPINOUT_2026-06-19.md`; tasks → `MEMORY.md` NEXT SESSION.
 
 ---
 
