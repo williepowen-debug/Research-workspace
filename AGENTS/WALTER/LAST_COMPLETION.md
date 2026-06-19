@@ -19,7 +19,8 @@
 **3. `BOARD/INDEX.md`** — BANK_COLLATERAL 43→44 (ToC cell + section header + appended row); TOTAL 301→302. walter_doctor reconciles 302.
 **4. `routed/route_log.tsv` +1; `routed/delivery_log.tsv` +6; 6 per-recipient handoffs** (CORAL action; REGINALD/CARL/SHADE/MARCO/RED info). CC (CORAL/REGINALD/CARL/RED) = WRITTEN_NOT_DELIVERED_PENDING_PUSH; OC (SHADE/MARCO) = COMMITTED.
 **5. `STATUS.md`** — lead header + BOARD count + SESSION LOG row.
-**6. `MEMORY.md`** — CHANGES-SINCE + deep-research-loop-closer finding.
+**6. `MEMORY.md`** — CHANGES-SINCE + deep-research-loop-closer one-liner (promoted to CHECKLIST, see #7).
+**7. Spec change (Will-ratified this session, answering "break a research doc into multiple signals or one?"):** `design/SIGNAL_PROCESSING_CHECKLIST.md` v0.18→**v0.19** — new **Phase 2.8b RETURNING-DELIVERABLE HANDLING**: default ONE `research-output` BOARD signal (verbatim embed + per-recipient genuine-delta wrapper; no verify-spawn → VERIFIED-PRIMARY; WALTER routes-not-analyzes) + close the originating `DEEP_RESEARCH_FLAGGED_LOG` row + **split test S1-S4** (different-actionable-owner / registered-trigger-or-falsification-anchor / different-lifecycle-clock / standalone-discovery-unit) for child-signal carve-out; worked example SIG-008. `design/STATE.md` §1 synced; `version_drift_check` ✓ exit 0.
 
 ## RESULT
 
@@ -71,7 +72,7 @@
 ## OPEN DESIGN DECISIONS (need Will)
 
 - **ORACLE routing convention** — formalize a prediction-market-divergence intake/routing line (ORACLE → RED / relevant domain), or leave peer-direct (PROME-scanned)?
-- **Deep-research output handling convention** — this session routed the SIG-008 deliverable as a `signal_type: research-output` BOARD signal with the full packet embedded verbatim + per-recipient delta wrapper. Worked clean on first use. Ratify this as the standard pattern for deep-research deliverables, or refine (e.g., store packet as a companion artifact vs embed)? (Embed keeps BOARD self-contained + doctor board_reconcile happy = recommended.)
+- ~~**Deep-research output handling convention**~~ **RESOLVED 6/19 (Will "sure, let's see a split test")** — codified as **CHECKLIST v0.19 Phase 2.8b**: default ONE `research-output` BOARD signal (verbatim embed + per-recipient delta wrapper, no verify-spawn) + ledger close + split test S1-S4 for child-signal carve-out. Worked example SIG-008.
 - **walter_doctor registry_lag false-positive guard** — a cross-agent ref-sweep editing a STATUS.md trips registry_lag without a substance change. Harden (commit-message/content-hash) or accept-and-eyeball?
 - **walter_doctor platform inference** — doctor mislabels CC CORAL (and HENRY) as OPENCLAW; align doctor's platform map with REGISTRY.
 - **Cushing as a registered threshold** — Boundary #3 (<20M) is in ROUTING_TABLE but Cushing isn't in the FORGE dashboard pull / step-6c scan. Add for autonomous detection? (Same gap as REG-T-06 FHLB / REG-T-07 OFFICE-CMBS-DQ.)
@@ -81,4 +82,4 @@
 
 *Maintenance note: overwritten each session per CLAUDE.md spawn protocol step 15.*
 
-*6/19 Fri evening: Will boot (2nd of day) + S-FL deep-research deliverable → 1 dispatch (SIG-W-20260619-008 research-output → CORAL action / REGINALD,CARL,SHADE,MARCO,RED info); BOARD 301→302; DEEP_RESEARCH_FLAGGED_LOG SIG-007 row RESOLVED (first-ever deep-research flag, raised + resolved same-day — full Phase-2.8 loop validated end-to-end). WALTER routed-not-analyzed (lean mandate); packet embedded verbatim + per-recipient genuine-delta wrapper. Load-bearing delta: insurance commercial/condo NOT easing (Citizens Commercial +10.4%/+18.8%) corrects CORAL's 🟢 mark + resolves SIG-007 insurance tension; adds Amerant AMTB; per-capita normalizes "top-six." No threshold fires; no peak. route_log +1 / delivery_log +6 / 6 handoffs. Commit local, push deferred. No spec changes.*
+*6/19 Fri evening: Will boot (2nd of day) + S-FL deep-research deliverable → 1 dispatch (SIG-W-20260619-008 research-output → CORAL action / REGINALD,CARL,SHADE,MARCO,RED info); BOARD 301→302; DEEP_RESEARCH_FLAGGED_LOG SIG-007 row RESOLVED (first-ever deep-research flag, raised + resolved same-day — full Phase-2.8 loop validated end-to-end). WALTER routed-not-analyzed (lean mandate); packet embedded verbatim + per-recipient genuine-delta wrapper. Load-bearing delta: insurance commercial/condo NOT easing (Citizens Commercial +10.4%/+18.8%) corrects CORAL's 🟢 mark + resolves SIG-007 insurance tension; adds Amerant AMTB; per-capita normalizes "top-six." No threshold fires; no peak. route_log +1 / delivery_log +6 / 6 handoffs. **Spec change (Will-ratified): CHECKLIST v0.18→v0.19 — Phase 2.8b returning-deliverable handling (one research-output signal default + per-recipient delta wrapper + split test S1-S4); STATE §1 synced, version_drift ✓.** Commit local, push deferred.*
