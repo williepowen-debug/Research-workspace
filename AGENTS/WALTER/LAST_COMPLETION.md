@@ -42,7 +42,7 @@
 
 ## WILL_NEEDS
 
-1. **⚑ CORAL routing-table decision** — update ROUTING_TABLE FL-narrow-residential row to CORAL-action / REGINALD-info (v0.11)? Or keep REGINALD-action and cc CORAL? (I routed CORAL-action this time as the obvious call given the promotion.)
+1. ~~**CORAL routing-table decision**~~ **RESOLVED (Will "yes add" 6/19)** — shipped **ROUTING_TABLE v0.11** Florida-specific routing sub-section (FL-specific → CORAL action / REGINALD,CARL,MARCO info; supersedes the Apr-20 Residential-housing exception for Florida only). STATE §1 synced, version_drift_check ✓.
 2. **Push window** — 6/19 work committed local; open a window when ready to sweep it (+ the CC handoffs reach origin).
 3. **🔴 Cron health escalation** (unchanged) — all 3 boot-triage feeds dead; PROME (news-sweep + filing-watch) / SENTRY (SIGNALS).
 
@@ -56,7 +56,7 @@
 3. **SAM USD/JPY intervention watch** — 161 red zone post-BOJ-hike; TIC-April datum (Japan still ADDING USTs in April) = intervention-selling not yet active, a "not-yet-firing" baseline for SAM.
 
 **🆕 6/19 new:**
-4. **⚑ CORAL routing-table row** (WILL_NEEDS #1) — formalize CORAL-action for FL-narrow-residential, or keep REGINALD-action + cc CORAL.
+4. ~~CORAL routing-table row~~ **DONE this session — ROUTING_TABLE v0.11** (Florida-specific routing → CORAL action; Will-approved "yes add" 6/19).
 5. **CORAL Phase-2 consume boot-step** — CORAL is CC; it should self-apply the `inbox/WALTER/` consume boot-step (it now has a live handoff). Same as the other CC recipients.
 6. **ORACLE wired into routing?** — ORACLE is now live (Polymarket). Does it get a ROUTING_TABLE/REGISTRY routing line as a *source/consumer* (e.g., prediction-market divergence → RED/relevant-domain)? Currently it routes peer-direct. Worth a Will decision on whether WALTER should formalize an ORACLE intake/routing convention.
 
@@ -86,7 +86,7 @@
 
 ## OPEN DESIGN DECISIONS (need Will)
 
-- **⚑ CORAL routing-table integration** — FL-narrow-residential → CORAL-action / REGINALD-info (v0.11)? (Routed CORAL-action this session as the obvious call; formalization pending.)
+- ~~**CORAL routing-table integration**~~ **RESOLVED 6/19 (Will "yes add")** — shipped ROUTING_TABLE v0.11 Florida-specific routing → CORAL action / REGINALD,CARL,MARCO info (supersedes Apr-20 residential exception for FL only).
 - **ORACLE routing convention** — now that ORACLE is live (Polymarket), should WALTER formalize a prediction-market-divergence intake/routing line (ORACLE → RED / relevant domain), or leave it peer-direct (PROME-scanned)?
 - **walter_doctor registry_lag false-positive guard** — a cross-agent ref-sweep editing a STATUS.md trips registry_lag without a substance change (REGINALD 6/19). Harden the check (commit-message/content-hash) or accept-and-eyeball?
 - **Cushing as a registered threshold** — Boundary #3 (<20M) is in ROUTING_TABLE but Cushing isn't in the FORGE dashboard pull / step-6c scan. Add it for autonomous detection? (Same gap as REG-T-06 FHLB / REG-T-07 OFFICE-CMBS-DQ.)
@@ -97,4 +97,4 @@
 
 *Maintenance note: overwritten each session per CLAUDE.md spawn protocol step 15.*
 
-*6/19 Fri: Will boot + TWO 6-image batches → 6 dispatch / 2 KILL / 4 verify-research; BOARD 294→300; 4 cluster_mediating (no peak); 21 handoffs. Batch 1: Iran first-round-postponed → HAWK [CORRECTED-FRAMING, anchor HOLDS]; FL negative-equity → CORAL inaugural; TIC April → BOND. Batch 2: Hormuz tanker-flow-dark → BRENT; USD/JPY no-intervention [verify FALSE] → SAM counter_evidence; SPX positioning-vs-flow → HENRY. KILLs (batch 1): Novo Nordisk Relevance; Kobeissi Cushing DUP. ORACLE revived + CORAL promoted (registry-handled); IRAN_WAR.md re-stamped 6/18→6/19. Batch 1 committed d93f0ad9; batch 2 committing; push deferred. No spec changes. ⚑ CORAL routing-table row → Will.*
+*6/19 Fri: Will boot + TWO 6-image batches → 6 dispatch / 2 KILL / 4 verify-research; BOARD 294→300; 4 cluster_mediating (no peak); 21 handoffs. Batch 1: Iran first-round-postponed → HAWK [CORRECTED-FRAMING, anchor HOLDS]; FL negative-equity → CORAL inaugural; TIC April → BOND. Batch 2: Hormuz tanker-flow-dark → BRENT; USD/JPY no-intervention [verify FALSE] → SAM counter_evidence; SPX positioning-vs-flow → HENRY. KILLs (batch 1): Novo Nordisk Relevance; Kobeissi Cushing DUP. ORACLE revived + CORAL promoted (registry-handled); IRAN_WAR.md re-stamped 6/18→6/19. Batch 1 committed d93f0ad9; batch 2 4e9998a8; push deferred. **Spec change: ROUTING_TABLE v0.11** (Florida-specific routing → CORAL action; Will-approved "yes add" 6/19; STATE §1 synced, version_drift_check ✓). ✅ CORAL routing-table decision RESOLVED.*
