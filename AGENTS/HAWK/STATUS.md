@@ -81,23 +81,23 @@ Net: **implementation positive, verification slow ("months"), negotiation stuck-
 
 ---
 
-## Watch Items — Jun 18 to Jul 2
+## Watch Items / Forward Docket — Jun 19 to Jul 19
 
-### Tier 1 — Repricing triggers
-1. **Hormuz verified reopening (the B-vs-C discriminator)** — sustained transit recovery toward double-digits/day + insurance/JWC normalization vs standstill/reversal. Window: 1-2 weeks. *This is now the single highest-leverage variable.*
-2. **A mine or vessel incident during the demining/reopening period** — would reverse B sharply and re-open D.
-3. **HAW-11: intercept failure → Gulf energy infra hit before Jun 22** — decoupling kill-switch; trending toward EXPIRE post-signing (4 days left).
-4. **Russia-Ukraine refinery campaign** — crack-spread/refined-products consequence (BRENT-owned); HAWK tracks military tempo + any escalation onto crude export infra (vs refining).
+### Tier 1 — Repricing triggers / D-drivers
+1. **Lebanon → Iran D-trigger (HAW-14, by Jul 19):** does Iran *act* on its resume-threat (kinetic on Israel/US)? The single live D-pathway. Watch Israel's Lebanon campaign vs US restraint (Netanyahu-sabotage incentive, KB-191). Iran *acting* = flip toward D.
+2. **HAW-11 resolves Jun 22 (3 days):** Gulf energy-infra hit — decoupling kill-switch; EXPIRE path firm (no hit Jun 13-19) → resolve EXPIRED unless something fires.
+3. **Hormuz verified reopening (HAW-13, by Jul 4):** B-vs-C discriminator — does a *harder* gate clear (liner majors off Cape OR JWC JWLA-033 step-down)? Physical already partially clearing (dark).
+4. **Crude-export pivot (HAW-15, by Jul 15):** Ukraine targeting back to crude terminals/Druzhba = product→Brent flip. Flag BRENT immediately (a `crude-terminal`/`pipeline` row in STRIKES.tsv).
 
 ### Tier 2 — Scenario calibration
-5. **The 60-day window content:** does the enrichment endgame / sanctions scope / Hormuz fees fight fray the MOU back into C, or does verified reopening pull mass into B?
-6. **HAW-10: Bab-al-Mandab-proper Houthi strike by Jul 1** — locus still unmet; Iran ceasefire doesn't bind the Houthi track.
-7. **Fresh UKMTO/ship-tracking weekly count** — first hard read on whether transits are real recovery or a one-window blip.
+5. **Switzerland/Vance round reconvenes (HAW-12, by Jul 3):** diplomatic sub-gate; postponed Jun 18 — does it get a firm date?
+6. **HAW-10 resolves Jul 1:** Bab-al-Mandab-*proper* Houthi strike; locus unmet, mechanism fired 6/8-9.
+7. **60-day-window content:** enrichment endgame / IAEA (verification halted since Feb 28) / sanctions / Hormuz fees — fraying MOU back to C vs verified reopen pulling to B.
 
 ### Tier 3 — Pattern monitors
-8. Insurance/JWC reclassification — the lagging, hard confirmation of normalization.
-9. IAEA follow-through on the Jun 12 non-compliance finding within the 60-day window.
-10. Settebello/India friction tail; missiles-non-negotiable as the next-phase wedge.
+8. Insurance/JWC **JWLA-033** reclassification — lagging hard confirmation of normalization.
+9. Russia refinery tempo + storage/Urals saturation (the *other* crude-flip path beyond a terminal strike).
+10. Implementation-vs-negotiation split — does US implementation (blockade lifted, waivers) keep running ahead, or does negotiation catch down to it.
 
 ---
 
