@@ -50,12 +50,17 @@ Keep: *the Jun 17 MoU did not end geopolitical-energy risk; RU refined-product s
 
 **External-aggregate (NOT patterns):** "31 May strikes," "⅓ offline," "lowest since 2009/21yr" — sourced stats, kept in the aggregates section above, not credited to the ledger. P① already showed ⅓-offline doesn't move Brent, so the intensity headline is the one the market is correctly discounting.
 
-## Watch — the crude-repricing valve is currently OPEN (sign is inverted)
-The "outages → run-cuts → crude backs up → touches Brent" transmission is the correct **tail**, but right now the data shows the opposite: crude is being *freed*, exports at a 2026 high, the pressure valve open. So the crude-positive flip only fires on one of:
-1. **Export / floating-storage saturation** — leading indicator. ~120M bbl floating (+25%); when floating + onshore storage fills, freed crude can't all clear and **shut-ins begin**. Production already softening (May ~8.7M bpd, −5% YoY) *tightens* that clock.
-2. **Ukraine pivots back to crude-export infra** (terminals / Druzhba pipeline) — re-targets the crude channel directly. **This is the Brent-positive trigger to pre-register with BRENT.** A new `crude-terminal`/`pipeline`-type row appearing in STRIKES.tsv after a refinery-dominated stretch = the signal.
+## Watch — PRODUCT/CRACK → BRENT flip triggers (valve currently OPEN)
+The "outages → crude backs up → touches Brent" transmission is the right **tail**, but right now the valve is **open**: crude is being *freed*, exports at a 2026 high. The refinery campaign converts to a *crude / Brent* story only when one of these fires:
 
-Highest-information columns going forward: **`Strike#`** (is re-hit cadence real, once ReturnToService lets us test repair-lag?) and **`Channel`** (has targeting rotated back toward crude-export?).
+| # | Flip trigger | Leading indicator / what to watch | Status Jun 18 |
+|---|---|---|---|
+| 1 | **Floating-storage saturation** | Floating + onshore storage fills → freed crude can't clear → shut-ins begin. ~120M bbl floating (+25% vs Apr); production already softening (May ~8.7M bpd, −5% YoY) tightens the clock | 🟡 building, not saturated |
+| 2 | **Crude-export terminal / pipeline strikes** | A `crude-terminal`/`pipeline` row reappears in STRIKES.tsv after the refinery-dominated stretch (Baltic terminals / Druzhba) — Ukraine re-targets the crude channel | ⚪ none since Apr (May–Jun refinery-only) |
+| 3 | **Russian crude shut-ins** | Producers cut wellhead output (can't store/refine/export it) — the physical realization of #1 | ⚪ not reported |
+| 4 | **Urals / tanker / export congestion confirmation** | Urals discount widening, tanker queues, loading delays at export ports = freed-crude flow hitting a ceiling | ⚪ not confirmed (exports still clearing at 2026 high) |
+
+**Any of #2–4 firing, or #1 saturating, flips this from a crack story to a Brent story — pre-registered with BRENT.** Highest-information ledger columns: **`Channel`** (rotated back to crude-export?) and **`Strike#`** (re-hit cadence, once `ReturnToService` lets us test repair-lag).
 
 ## Open verify items
 - Volgograd Lukoil (`RU-20260514-VOLGOGRAD`) date LOW-CONF — one source conflated with a later strike.

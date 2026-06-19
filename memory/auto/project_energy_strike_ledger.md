@@ -9,7 +9,7 @@ metadata:
 
 Created 2026-06-18 (HAWK + Prome review). HAWK maintains a per-attack ledger of material energy-infrastructure strikes at `AGENTS/HAWK/domain/energy-strikes/STRIKES.tsv` (16-col, one row per attack) + `SUMMARY.md` (living index, patterns, metric discipline). Seeded with 22 RU-UA (Ukraine→Russia oil infra) + 4 GULF-IRAN rows.
 
-**Invariant (Prome):** ONE unified table with a `theater` column (RU-UA / GULF-IRAN) + `attacker` column — NOT per-theater files. The single best pattern is cross-theater (Russia campaign peaked the week Iran signed its MOU 6/17 — regime *rotating, not resolving*); that's only visible if both theaters share one table. `FacilityOperator` ≠ attacker.
+**Invariant (Prome):** ONE unified table with a `theater` column (RU-UA / GULF-IRAN) + `attacker` column — NOT per-theater files. The cross-theater unified table is what makes cross-theater observation possible (e.g. Russia campaign peaked the week Iran signed its MOU 6/17). **Do NOT assert a causal "regime rotating" — two independently-driven conflicts moving opposite in 72h is coincidence + analogy, no shown mechanism (dropped in the revised SUMMARY after ORC pass).** `FacilityOperator` ≠ attacker.
 
 **Metric discipline:** "% capacity offline" must be a sourced as-of aggregate (e.g. Energy Intelligence ~1/3 ≈ 2.14M bpd mid-June), NEVER the sum of the Capacity column (double-counts repaired + reduced-not-offline). `Status` is point-in-time; `ReturnToService` closes the loop. Ledger is a material SUBSET (materiality bar), not an exhaustive attack count.
 
