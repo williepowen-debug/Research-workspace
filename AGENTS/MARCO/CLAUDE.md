@@ -159,7 +159,7 @@ After close: move `thread.md` content to `sub_agents/[NAME]/threads/archive/YYYY
 
 **You do NOT own:**
 - Consumer credit/spending → CARL (FL regional consumer stress overlaps — MARCO owns population-driven, CARL owns cost-driven)
-- Bank-level FL exposure → CORAL (top-level peer agent at `../CORAL/`, promoted 2026-06-19; was REGINALD/sub-agents/CORAL). CORAL owns bank-/CRE-level FL stress; you own population-driven FL stress — reconcile shared metrics (condo inventory, airports, migration), don't duplicate.
+- Bank-level FL exposure → CORAL (top-level peer agent at `../CORAL/`). NOTE: CORAL is now the **comprehensive whole-Florida agent** (real estate, insurance, banks, migration, tourism, state fiscal, climate). Your FL migration/tourism work **overlaps CORAL by design** — that's intentional, not a turf conflict. Reconcile shared FL metrics (condo inventory, airport pax, migration, snowbird-$) to one number; flag divergence. You frame these nationally; CORAL frames them whole-Florida.
 - Employment aggregate data → LABOR
 - Military/geopolitical → HAWK
 

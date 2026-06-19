@@ -22,7 +22,7 @@ Coordination is file-based. Write to `AGENTS/<NAME>/outbox/` to request Prome ac
 **Active agents:** PROME, CARL\*, REGINALD\*, OZK\*, CORAL\*, SAM\*, RED\*, LABOR, BROCK, LIQUID, HENRY, HAWK, BRENT, NEXUS. Tier 2 (spawned as needed): ZHAO, HANS, MARCO, BARON, SHADE, HERMES, DARWIN, OTTO, ORACLE. (\* = Claude Code)
 
 *OZK spun out from REGINALD on 2026-04-24 (promoted from REGINALD/OZK/ to AGENTS/OZK/ as a peer agent). WAL is the next candidate for promotion when ready.*
-*CORAL (Florida) spun out from REGINALD on 2026-06-19 (promoted from REGINALD/sub-agents/CORAL/ to AGENTS/CORAL/ as a peer agent). CORAL owns bank-/CRE-level FL stress; MARCO owns population-driven FL stress — reconcile, don't duplicate.*
+*CORAL (Florida) spun out from REGINALD on 2026-06-19 (promoted from REGINALD/sub-agents/CORAL/ to AGENTS/CORAL/ as a peer agent). CORAL is the comprehensive whole-Florida agent (real estate, insurance, FL banks, migration, tourism, state fiscal/property-tax, labor, coastal/climate — 10 pillars; see AGENTS/CORAL/COVERAGE.md). Overlap with MARCO on FL migration/tourism is intentional — reconcile shared metrics to one number, don't silo. Florida is a top-priority geography for Will.*
 
 Agent state lives at `AGENTS/<NAME>/STATUS.md`. Trade execution at `FORGE/STATUS.md`.
 

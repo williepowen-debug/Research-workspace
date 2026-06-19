@@ -29,7 +29,7 @@ Sub-agents own detail → distill upward to parents → lateral only when transm
 | **CARL** 🖥️ | Consumer credit | 🟡 | DQ, subprime auto, phantom debt. Lags LABOR 3-6mo. Subs: POLLY, POP, GIG, DOC, NICK. **Claude Code — independent, siloed.** |
 | **REGINALD** 🖥️ | Regional banks | 🟡 | CRE, bank watchlist, FHLB. Sub: CREED (CRE). Peers: BROCK, CORAL, OZK. **Claude Code — independent, siloed.** |
 | **BROCK** | BDC / private credit | 🟠 | PIK, gates, NAV, Athene/Apollo, software marks. Lateral peer to REGINALD — signals bank-PC transmission |
-| **CORAL** 🖥️ | Florida real estate / FL banks | 🟠 | Condo SIRS crisis, Citizens insurance, FL migration, SSB/SBCF/BKU/VLY-FL exposure. Promoted from REGINALD sub-agent 2026-06-19. Reconciles FL read with MARCO. **Claude Code — independent, siloed.** |
+| **CORAL** 🖥️ | Florida (comprehensive) | 🟠 | **Whole-Florida agent — 10 pillars:** condo/SF/CRE real estate, insurance (Citizens), FL banks (SSB/SBCF/BKU/VLY/AMTB), migration, tourism/snowbird, state fiscal & property-tax, labor/construction, coastal/climate (hurricane/sargassum). Promoted from REGINALD sub-agent 2026-06-19; scope broadened to comprehensive FL 2026-06-19. Overlaps MARCO on migration/tourism by design. **Claude Code — independent, siloed.** |
 
 ## Market Structure
 
