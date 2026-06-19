@@ -6,7 +6,7 @@
 
 ## STATUS
 
-**2026-06-18 Thu PM (~6:12–6:40 PM ET, Will-Telegram boot — 5-image signal batch).** Boot clean read; pull SKIPPED (SAM had uncommitted work in tree → local scoped commits, push deferred). walter_doctor exit 4 (3 dead crons MED + HAWK registry_lag MED [explained: HAWK committed the 6/18 signing] + OZK staleness LOW). Step-6c threshold scan: no new fires (HY 263 <280 + CCC 939 >930 continuing-fire suppressed; WAL $79.91 in REG-T-02 band; Brent $79.44 just outside RED-FT-04). **4 dispatch / 3 KILL / 3 verify-research (~$0.15) / BOARD 286→290** (5-image batch + FCBM IPO article + a Motley Fool banking-ETF comparison [killed]).
+**2026-06-18 Thu PM (~6:12–6:40 PM ET, Will-Telegram boot — 5-image signal batch).** Boot clean read; pull SKIPPED (SAM had uncommitted work in tree → local scoped commits, push deferred). walter_doctor exit 4 (3 dead crons MED + HAWK registry_lag MED [explained: HAWK committed the 6/18 signing] + OZK staleness LOW). Step-6c threshold scan: no new fires (HY 263 <280 + CCC 939 >930 continuing-fire suppressed; WAL $79.91 in REG-T-02 band; Brent $79.44 just outside RED-FT-04). **5 dispatch / 4 KILL / 4 verify-research (~$0.20) / BOARD 286→291** (5-image batch + FCBM IPO + Motley Fool ETF comparison [killed] + a legal/regulatory headline dump).
 
 ## CHANGED
 
@@ -15,6 +15,7 @@
 2. `BOARD/SIG-W-20260618-003-...usdjpy...md` (NEW) — USD/JPY highest weekly close since 1986 / 2024-MOF-intervention analog → SAM action / LIQUID, RED info. PRIORITY, ASIA_CHINA, SKIP-VERIFY 0.85.
 3. `BOARD/SIG-W-20260618-004-...cushing...md` (NEW) — Cushing AT ~20M operational bottom (EIA 6/12 = 20.03M) → BRENT action / LIQUID, HENRY, RED info. IMMEDIATE, HYDROCARBON_INFRA / cluster_secondary IRAN_HORMUZ, CORRECTED-FRAMING 0.92.
 3b. `BOARD/SIG-W-20260618-005-...fcbm...md` (NEW; ~6:51 PM continuation) — First Carolina (NYSE: FCBM) regional-bank IPO "revival" article (Briefglance.com) → REGINALD action / RED, HENRY info. PRIORITY, BANK_COLLATERAL (38→39) / cluster_secondary POSITIONING_VALUATION, signal_role counter_evidence, CONFIRMED 0.90. TOTAL 289→290. route_log +1 / delivery_log +3 / 3 handoffs (REGINALD/RED/HENRY, all CC pending push). Framed **WEAK counter-evidence** — supply-side IPO appetite, not credit-quality; comps priced the pre-6/17 easing regime now flipped cut→HIKE; REGINALD already retired cohort-wide bear 6/8.
+3c. `BOARD/SIG-W-20260618-006-...md` (NEW; ~7:55 PM, from a ~22-headline legal-news triage "should we investigate?") — US banking agencies cutting bank capital requirements (OCC/FRB/FDIC 3-rule proposal; proposed 3/19/26, comment deadline 6/18) → REGINALD action / RED, LIQUID, BROCK, HENRY info. PRIORITY, FED_FRAMEWORK (20→21) / cluster_secondary BANK_COLLATERAL, signal_role cluster_mediating, CORRECTED-FRAMING 0.90 (date) / substance 0.92. TOTAL 290→291. route_log +1 / delivery_log +5 / 5 handoffs (REGINALD/RED/HENRY CC pending push; LIQUID/BROCK OC committed). **Load-bearing: relief reaches the REGIONAL cohort (~5.2% CET1 Cat III/IV, not just GSIBs); cluster_mediating both ways** (capital tailwind vs Barr 6/6 "bill comes due" dissent + Bowman/S&R "sound-resilient"). Rest of the headline dump = consolidated kill (EU/UK prudential plumbing + fraud-ed + Colorado-usury/Illinois-interchange = monitor).
 4. `BOARD/INDEX.md` — 3 cluster ToC rows + 3 section headers + 3 appended rows; TOTAL 286→289 (IRAN_HORMUZ 57→58, ASIA_CHINA 8→9, HYDROCARBON_INFRA 13→14). walter_doctor reconciles 289.
 5. `routed/route_log.tsv` +3; `routed/delivery_log.tsv` +10; `filtered/kill_log.tsv` +2 (401k DUP, FL-retiree Relevance).
 6. **10 per-recipient handoffs** in `AGENTS/{HAWK,BRENT×2,RED×3,SAM,LIQUID×2,HENRY}/inbox/WALTER/` — **SAM's commit DEFERRED** (active in tree); OC = COMMITTED, CC (RED/HENRY) = WRITTEN_NOT_DELIVERED_PENDING_PUSH.
@@ -79,6 +80,10 @@
 **🔴 Infra:**
 19. 3 dead cron feeds (WILL_NEEDS #2).
 
+**🟡 Regulatory watch (6/18, new):**
+22. **Bank-capital final rule** (OCC/FRB/FDIC 3-rule cut; comment deadline 6/18 passed) — forward catalyst for the cohort; ~5.2% CET1 relief reaches Cat III/IV (REGINALD owns; SIG-W-20260618-006).
+23. **Colorado usury NAIB v. Weiser** (10th Cir en banc) — consumer-credit rate-export ruling watch (monitor, no ruling yet; kill_log 6/18). Minor: Illinois IFPA interchange + reputation-risk-guidance-removal = same dereg theme, monitor.
+
 **Design / governance backlog:**
 20. BOARD INDEX slim-down (375KB→~30KB; Orch schema echo-back first).
 21. walter_doctor HENRY-platform-label fix (labels CC HENRY as OPENCLAW); staleness-sweep rerun cadence; FILTER_SPEC v0.6 BODY-INACCESSIBLE-PAYWALL verdict; `valid_until` forward-expiry convention; VIX-spike registered trigger (RED Turn 8); COP refresh (paused); OZK Q1 post-mortem (REGINALD pickup).
@@ -99,4 +104,4 @@
 
 *Maintenance note: overwritten each session per CLAUDE.md spawn protocol step 15.*
 
-*6/18 PM: Will 5-image batch + FCBM follow-on → 4 dispatch (Maersk Hormuz-not-resumed → HAWK; USD/JPY 1986-high → SAM; Cushing 20M operational-bottom → BRENT IMMEDIATE; First Carolina FCBM regional-bank-IPO revival → REGINALD counter-evidence) / 3 KILL (401k DUP, FL-retiree Relevance, Motley Fool IAT/FNCL ETF-comparison Novelty+Relevance — IAT +33.4% datum preserved) / 3 verify-research; BOARD 286→290; IRAN_WAR.md re-stamped to SIGNED-6/17/reopen-unverified (6/19 binary fired early); REGISTRY HAWK 6/13→6/18; 13 handoffs (SAM commit deferred). Push deferred. No spec changes.*
+*6/18 PM: Will 5-image batch + FCBM follow-on + legal-headline triage → 5 dispatch (Maersk Hormuz-not-resumed → HAWK; USD/JPY 1986-high → SAM; Cushing 20M operational-bottom → BRENT IMMEDIATE; First Carolina FCBM regional-bank-IPO revival → REGINALD counter-evidence; bank-capital deregulation OCC/FRB/FDIC 3-rule cut → REGINALD cluster_mediating) / 4 KILL (401k DUP, FL-retiree Relevance, Motley Fool IAT/FNCL ETF-comparison, ~22-headline legal-news dump consolidated [Colorado-usury/Illinois-interchange monitor]) / 4 verify-research; BOARD 286→291; IRAN_WAR.md re-stamped to SIGNED-6/17/reopen-unverified (6/19 binary fired early); REGISTRY HAWK 6/13→6/18; 18 handoffs (SAM commit deferred). Push deferred. No spec changes.*
