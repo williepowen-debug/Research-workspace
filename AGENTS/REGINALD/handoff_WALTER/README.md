@@ -1,6 +1,6 @@
 # REGINALD ↔ WALTER liaison channel
 
-**Purpose:** Async dialog between REGINALD (regional-bank convergence hub; action-primary on bank-watchlist + FHLB + hidden-CRE + sub-agent coordination of BROCK/CREED/CORAL) and WALTER (BOARD signal router) about *what should be routed*, *how cluster-mediating multi-channel signals should fan out*, and *how REGINALD's 8-channel convergence framework should map onto WALTER's cluster taxonomy*. Not the routing itself — the meta-conversation about routing rules, edge cases, calibration, and the convergence-overlay structure.
+**Purpose:** Async dialog between REGINALD (regional-bank convergence hub; action-primary on bank-watchlist + FHLB + hidden-CRE + peer/sub-agent coordination of BROCK/CORAL/CREED) and WALTER (BOARD signal router) about *what should be routed*, *how cluster-mediating multi-channel signals should fan out*, and *how REGINALD's 8-channel convergence framework should map onto WALTER's cluster taxonomy*. Not the routing itself — the meta-conversation about routing rules, edge cases, calibration, and the convergence-overlay structure.
 
 **Distinct from:**
 - **`/BOARD/INDEX.md`** — WALTER's outbound signal feed. REGINALD does NOT yet maintain a `board/BOARD_LOG.tsv` disposition ledger; CARL does and BRENT stood one up Turn 1 of his channel. Standing up REGINALD's ledger is itself a candidate topic for this LIAISON (see Turn 1 Q-block).
@@ -33,7 +33,7 @@ REGINALD is **action-primary** on regional banks — closer to CARL's pattern th
 |-------|-------------------------------------|
 | **Convergence-overlay routing** | Multiple BOARD clusters (BANK_COLLATERAL / PC_STRESS / FED_FRAMEWORK / CONSUMER_STAGFLATION) all transmit into REGINALD's 8 channels. WALTER currently routes by cluster taxonomy; REGINALD reads by channel. Bridge concept (`bank_transmission` enum?) likely surfaces in the dialog. |
 | **Threshold-cross dispatch** | REGINALD has named numeric thresholds in STATUS.md (KRE <$60, WAL <$78, HY OAS >320, Claims >300K, FHLB >$700B, Office CMBS DQ >15%). When a threshold crosses, action is triggered. Open question: WALTER auto-dispatch on cross, or REGINALD pulls? Mirror of RED Q1. |
-| **Sub-agent fan-out** | REGINALD coordinates 3 sub-agents (CREED CRE-market, CORAL Florida, BROCK BDC/PC) plus reads from peer agents (CARL, LABOR, LIQUID, SAM). When WALTER routes a signal touching `cre_office` or `bdc_gating` or `fl_foreclosure`, the right destination may be sub-agent + REGINALD-as-hub, not REGINALD alone. Convention TBD. |
+| **Sub-agent fan-out** | REGINALD coordinates CREED (CRE-market sub-agent) plus peer agents CORAL (Florida), BROCK (BDC/PC), CARL, LABOR, LIQUID, and SAM. When WALTER routes a signal touching `cre_office` or `bdc_gating` or `fl_foreclosure`, the right destination may be sub-agent + REGINALD-as-hub, not REGINALD alone. Convention TBD. |
 | **Bank-watchlist cross-ref** | REGINALD owns multi-channel scoring on 7 banks (EGBN, WAL, CFG, ZION, OZK, SSB, FLG) with tier rankings, exposure scores, and dedicated bank/STATUS files for WAL + OZK. WALTER could cross-ref at dispatch ("signal touches FITB → REGINALD's watchlist row 0 — not yet covered"). Mirror of RED's CROSS_REFS pattern. |
 | **Earnings/Call-Report cycle awareness** | REGINALD's CALENDAR has structured forward dates (10-Q windows, Call Report PDD bulk releases, earnings AMC/BMO, options expiry clusters). WALTER could pre-position signals into REGINALD's earnings-window calendar (e.g., "WAL 10-Q expected May 11-13, route any pre-print noise immediately"). |
 | **Cohort-pattern detection** | REGINALD tracks cross-bank patterns (cohort fade 12/12, FHLB bifurcation 4/3, hidden-CRE relabeling). When WALTER sees N≥3 signals in same cluster within 5 days, pattern-detection upgrade may merit FLASH precedence. |
@@ -49,7 +49,7 @@ All in git, network-readable for grep at dispatch:
 - **FLOW transmission mechanics** → `AGENTS/REGINALD/workbook/FLOW.tsv` (10-col, 22 rows)
 - **Threshold registry** → `AGENTS/REGINALD/STATUS.md` SIGNAL DASHBOARD + KEY THRESHOLDS + CROSS-AGENT TRIGGERS tables
 - **Bank watchlist + scores** → `AGENTS/REGINALD/STATUS.md` CONVERGENCE MATRIX + `BANK_EXPOSURE_MATRIX.md`
-- **Sub-agent STATUS files** → `AGENTS/BROCK/STATUS.md` (top-level peer), `sub-agents/CREED/STATUS.md`, `sub-agents/CORAL/STATUS.md`
+- **Peer/sub-agent STATUS files** → `AGENTS/BROCK/STATUS.md`, `AGENTS/CORAL/STATUS.md`, `AGENTS/OZK/STATUS.md` (top-level peers), `sub-agents/CREED/STATUS.md`
 - **Forward catalysts** → `AGENTS/REGINALD/CALENDAR.md` MAY / JUNE / PREDICTION CHECKPOINTS tables
 - **Thesis evolution log** → `AGENTS/REGINALD/thesis/CHANGELOG.md` + per-bank `WAL/CHANGELOG.md`
 - **Bank cert/RSSD/CIK lookup** → `AGENTS/REGINALD/MEMORY.md` References (5 watchlist banks)

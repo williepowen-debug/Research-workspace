@@ -171,7 +171,7 @@ Three life-science CRE distress events across cohorts in 6 months:
 |-------|------------|--------|
 | CREED | Office 11.2% (Feb, off 12.34% Jan ATH on loan mods), $875B maturity wall | 🔴 |
 | BROCK (peer) | PCDR 5.8% (MS projects 8%), Ares+Apollo gated, bad PIK 6.4% | 🔴🔴 CRITICAL |
-| CORAL (peer, `../CORAL/`) | FL #2 foreclosure, migration -93%, FL labor 4.6% > US 4.4% — *STATUS stale since Mar 3, refresh pending* | 🔴 |
+| CORAL (peer, `../CORAL/`) | Fresh 6/19 10-pillar FL build-out: FL #1 foreclosure, condo/SF distress real, insurance easing, Q1 bank transmission not yet confirming; acute bank stress pushed ~winter 2026-27 | 🟠 |
 | BELT | MS +109bps mortgage DQ | 🔴 |
 | RENO/TEX | Dormant | 🟡 |
 

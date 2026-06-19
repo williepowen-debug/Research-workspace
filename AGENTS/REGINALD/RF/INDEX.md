@@ -28,7 +28,7 @@
 - **Cohort comparisons:** `../CFG/`, `../MTB/`, `../PNC/` (all Q1 2026 non-position reporters)
 - **Position read-through:** `../WAL/`, `../OZK/` (Apr 21 earnings)
 - **Sub-agent intel:** 
-  - `../sub-agents/CORAL/STATUS.md` — FL condo/HOA overlap (RF has 270 FL branches, 21.6% of network)
+  - `../../CORAL/STATUS.md` — FL condo/HOA overlap (RF has 270 FL branches, 21.6% of network)
   - `../../CARL/STATUS.md` — consumer credit transmission (RF is leading indicator with 34% consumer book)
 - **Cross-agent:** CFPB overdraft rule tracking (LIQUID / regulatory), CORAL (FL specific)
 
