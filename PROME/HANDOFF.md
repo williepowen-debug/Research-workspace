@@ -6,6 +6,18 @@
 
 ---
 
+## 2026-06-19 ~15:45 ET — Final synced closeout; WALTER v0.18 active
+
+**Status:** Repo was rebased over origin and pushed cleanly; final state expected clean/synced. WALTER ratified the deep-research candidate flag as CHECKLIST **v0.18** and Prome verified the landed spec/ledger/doctor/STATE/CLAUDE surfaces. Market regime unchanged: HY OAS **263 [FRED 6/17]** near <260 kill; banks/VIX benign; carry red.
+
+**What landed:** Prior Prome closeout commit was rebased and pushed. Final Prome state now updates from “greenlit/local-only” to “WALTER v0.18 active / repo synced.” Daily log appended with rebase/push + WALTER verification.
+
+**Next suggested work:** fresh boot should find repo clean/synced. If system lane, monitor WALTER v0.18 behavior/doctor output rather than editing specs. If market lane, refresh HY/dashboard and watch <260 / bank-PC offset. If SAM lane, check Jun20 CFTC against v1.6 convexity survival gates.
+
+**Risks / blockers:** no Prome edits to WALTER specs; WALTER owns future tuning. Quick-WALTER still cannot judge fresh news or deep-research flags. No trade/expiry action without broker/Will truth.
+
+---
+
 ## 2026-06-19 ~14:53 ET — Closeout local-only; WALTER deep-research flag greenlit
 
 **Status:** Closeout edits are local-only per Will's instruction to stop short of pushing. Prome reviewed SAM/HAWK pushed changes, the ORC/WALTER deep-research candidate proposal, and refreshed the Jun19 dashboard. Market regime unchanged: HY OAS **263 [FRED 6/17]** remains 3bp above the <260 kill line; banks/VIX benign; carry red.
@@ -73,22 +85,5 @@
 **Status:** Superseded by the 16:20 entry. At this point WALTER direct-routing was still pending; later in the day WALTER implemented and pushed Routing v2, and Prome reviewed it.
 
 **Durable takeaways:** WALTER self-audit/doc-health tools were good, BOARD reconciled, and the preferred routing model was settled: `BOARD` = canonical archive/history; `AGENTS/{AGENT}/inbox/WALTER/` = delivery/tasking; `published` ≠ `delivered` ≠ `consumed`.
-
----
-
-## 2026-06-16 ~16:44 ET — Prome state correction before next work
-
-**Status:** Prome surfaces corrected after fresh boot/pull. Repo is clean/synced with origin. TODAY + HEARTBEAT refreshed from dashboard. WALTER is now **partially repaired** (6/16 anchor/registry/staleness sweep pushed), not simply stale; remaining work is routing receipts + cron/feed health. No trade actions taken.
-
-**What changed:**
-- Dashboard refresh: HY OAS 266 [FRED 6/15], CCC 937 [FRED 6/15], Brent $79.49, VIX 16.41, USD/JPY 160.48, BIZD $12.62. HEARTBEAT/TODAY updated.
-- Corrected stale Prome state that still said local branch was behind/unpushed. Actual state: clean/synced.
-- ACTIVE_DECISIONS updated: FOMC/HY <260 kill-line added as monitor-only branch-grading row; BOJ now past/as-priced; expiry rails remain verification-required.
-- WALTER framing updated: Iran anchor now de-escalation-pending/unsigned MOU with 6/19 Geneva binary; WALTER still needs delivery-receipt diagnosis before relying on inbox completeness.
-- `PROME/FLEET_SCAN.md` demoted to historical Jun14 snapshot / superseded pointer.
-
-**Next suggested work:** if Will wants system work, continue WALTER diagnosis (cron/feed state + classify→refer→write→ack receipts + SIG-W-20260610-001/-002 trace). If Will wants market work, prep FOMC grading using live proxies and FRED T+1 HY confirmation.
-
-**Guardrails:** no `AGENTS/*` edits unless Will scopes them; no trade execution; no expiry/option action without broker/Will truth; refresh dashboard before citing levels.
 
 ---

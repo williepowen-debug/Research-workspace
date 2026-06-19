@@ -10,10 +10,10 @@
 
 | Item | State | Read |
 |---|---|---|
-| Git | 🟡 local closeout pending push | Will asked to stop short of pushing. Local closeout commit may be ahead until approved. |
+| Git | ✅ clean/synced | Rebased over origin changes and pushed Prome closeout. |
 | Quick-WALTER | ⏸️ paused for fresh news | Allowed only for pre-registered RED-FT / REG-T / safety-net trigger fires and delivery repair/backfill. |
 | Full WALTER | ✅ signal desk | Fresh screenshots/news/source-confidence/recipient-selection and deep-research flag judgment belong to Full WALTER. |
-| WALTER deep-research flag | 🟢 greenlit for WALTER ratification | Prome approved v0.3 with ledger `prompt_ref`/`deadline` + narrow `walter_doctor` overdue check; WALTER should land specs. |
+| WALTER deep-research flag | ✅ landed / active | WALTER ratified CHECKLIST v0.18 with ledger + `walter_doctor` overdue check. |
 | Position truth | 🟠 unreconciled | No expiry/trade action without broker/Will truth. |
 
 ---
@@ -61,7 +61,7 @@
 |---|---|---|
 | 🔴 | **HY <260 kill-line monitoring** | Latest 263; sustained <260 kills/reprices R3 unless bank/PC deterioration offsets. |
 | 🔴 | **Post-FOMC confirmation** | Watch TIC/FXY/carry and whether banks/PC proxies re-weaken. |
-| 🟡 | **WALTER deep-research candidate flag** | Wait for WALTER ratification, then inspect actual CHECKLIST/ledger/doctor diff. |
+| ✅ | **WALTER deep-research candidate flag** | Landed as WALTER CHECKLIST v0.18; monitor behavior, no Prome edits needed. |
 | 🟡 | **WALTER stale upstream feeds** | news-sweep / filing-watch / SIGNALS still stale; separate system-health lane. |
 | 🟠 | **Position-state reconciliation** | Separate lane only; no expiry action without broker/Will truth. |
 | 🔵 | **Legacy parallel signal artifacts cleanup** | Historical `FORGE/signals/` + generic inbox files need deliberate archive/leave decision; don’t delete casually. |
@@ -70,7 +70,6 @@
 
 ## Skip / Guardrails
 
-- Do not push local Prome closeout until Will asks.
 - Do not spawn Quick-WALTER for fresh news/signals or deep-research flag judgment.
 - Do not edit WALTER specs from Prome; WALTER owns ratification.
 - No trade execution.
