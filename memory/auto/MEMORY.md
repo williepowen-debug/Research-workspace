@@ -1,4 +1,5 @@
 - [LABOR Standing NEXUS Brief](project_labor_standing_nexus_brief.md) — LABOR maintains a standing NEXUS_BRIEF.md refreshed every closeout (Tier-1 treatment per Will 6/16); not Tier-2 skip
+- [Energy Strike Ledger](project_energy_strike_ledger.md) — HAWK's unified cross-theater STRIKES.tsv+SUMMARY (one table, theater col, not silos); %-offline = sourced as-of, never sum-of-nameplates
 - [Board Lags Agents Not Vice Versa](finding_board_lags_agents_not_vice_versa.md) — on fast-moving domains the board/registry lags the domain agents; check a recipient's actual STATUS before directing them to consume the board (WALTER 6/16: BRENT/HAWK both ahead of board, registry dates stale ~5d)
 - [HENRY Macro Focus Not Positions](feedback_henry_macro_focus_not_positions.md) — Will 6/15: HENRY tracks macro + market trends, NOT trade-position management; Will's open positions (TLT puts etc.) retired as dead/closed
 - [Anchor Prediction to Surprise Not Priced](finding_anchor_prediction_to_surprise_not_priced.md) — anchor event→reaction predictions to the SURPRISE-vs-pricing, not a named outcome already priced; dovish/hawkish labels can invert (HEN-33 6/15)
