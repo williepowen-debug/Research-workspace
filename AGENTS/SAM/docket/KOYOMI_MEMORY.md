@@ -12,13 +12,46 @@ State file for the docket-steward sub-agent. Spec is in [`KOYOMI.md`](KOYOMI.md)
 
 *Auto-populated by KOYOMI at run start: what's moved in STATUS / THESIS / TIMELINE / CHANGELOG since the previous sync. Cleared at end-of-run.*
 
-*(cleared at end of Run 7 — see LAST RUN below)*
+*(cleared at end of Run 8 — see LAST RUN below)*
 
 ---
 
 ## LAST RUN
 
-### Run 7 — 2026-06-09 (SAM-21 mechanical trigger fire-day sync + 3 resolved-row migrations + 3-row >1wk prune; Opus 4.7)
+### Run 8 — 2026-06-19 (post-BOJ/FOMC/Iran-deal sync; sat-Jun-20 CFTC EV-gate flag + schema regression catch; Opus 4.7)
+
+**Triggering context:** Heavy SAM session Wed Jun 17 - Thu Jun 18: FOMC RESOLVED hawkish (Warsh debut, +40bp 2026 median dot); Iran/US deal SIGNED Wed Jun 17 (electronic per Al Jazeera, NOT Geneva); Step 1.5 HAWK-reconcile pass applied across CALENDAR ~10 instances (commit `97701098`). v1.6 backbone DRAFT added CONVEXITY-TAIL SURVIVAL EV section (`f378c0e4`) — Sat Jun 20 CFTC release flagged as THE decision-grade observable. Japan May TB ✅ printed Tue Jun 17 PM ET (deficit ¥-378.7B, beat ~33%, branch-a substantively confirmed but exports doing heavy lifting).
+
+**Sync verification (CALENDAR ↔ CATALYSTS):** 8 forward catalysts in TSV (Jun 19 → Jul 31). CALENDAR carries same set in EARLY-MID JUNE + EARLY JULY tables. Jun 17 FOMC + Jun 17 May TB present in TSV but already RESOLVED — should migrate to RECENTLY RESOLVED on next prune (they're row 4-5 of TSV, will look stale on countdown if kept). Jun 16 BOJ MPM + Jun 16 BOJ QT also resolved (rows 2-3) — same treatment.
+
+**Overclaim residue check (Step 1.5 HAWK-reconcile):** Grep clean. "Switzerland/Geneva" — only in correction-context ("NOT a Geneva/Switzerland ceremony — sweep correction") at L51 + L104 of CALENDAR. No surviving "All 3 watch conditions met", "formally dormant", or "physically reopening." Step 1.5 sweep was thorough.
+
+**🚨 CATALYSTS.tsv schema regression CAUGHT:** Header has 7 fields (`date event what_to_check threshold_signal priority who_cares notes`). Spec § "CATALYSTS.tsv format rules" requires **8 fields** with `type` column appended (added 2026-06-03 per Run 5). All 18 data rows are 7 fields. `catalyst_countdown.py` zips header→parts so `c.get("type", "")` always returns `""` → defaults to external rendering. **Side-effect:** sam-internal rows (when re-added) silently render without 🔧 prefix. Currently 0 sam-internal rows in forward TSV (both inaugural rows resolved Run 7), so no observable miscoloring TODAY — but the next sam-internal row added will tag without the 🔧. Likely cause: a hand-edit pass dropped the column at some point between Run 5 (Jun 3) and now. **Escalated to SAM (low-stakes structural — applied default would be to re-add the column with all rows = `external`; deferring to SAM because spec gates this).**
+
+**🔴 Sat Jun 20 CFTC release MISSING from docket** — per v1.6 EV-table (THESIS commit `f378c0e4`), Jun 20 CFTC is THE decision-grade observable with pre-registered dispositions. Falls under TSV-SCOPE PRECEDENT (DATE-SPECIFIC + ACTION-FORCING) → qualifies as sam-internal row. Proposed rows below (under SAT JUN 20 CFTC ROW in return block).
+
+**Pruning candidates (>1wk rule):**
+- Sat Jun 6 CFTC — 13d old ✂️
+- Mon Jun 8 Q1 GDP — 11d old ✂️
+- Tue Jun 9 SAM-21 fire — 10d old ✂️
+- Wed Jun 10 US CPI, JGB 30Y, Ueda hospitalized — 9d old ✂️
+- Jun 10-11 US-Iran kinetic — 8d old ✂️
+- Thu Jun 12 14-pt draft, Fri Jun 12 CFTC −145,818, Sun Jun 14 6-input re-mark + Brent breach — at 7d edge as of Jun 19 (eligible)
+- Wed Jun 17 FOMC + Iran deal + Tue Jun 17 May TB — 2d old, retain (retrospective use through next week)
+
+**Date verification for next 14d items (against THESIS/STATUS narrative — no source-fetch this run):**
+- ✅ Fri Jun 19 National May CPI (today) — Stats Bureau cadence, consistent with STATUS treatment.
+- ✅ Tue Jun 23 JGB 5Y — MOF Jun calendar confirmed Run 4.
+- ✅ Thu Jun 25 JGB 20Y — MOF Jun calendar confirmed Run 4.
+- ✅ Fri Jun 26 Tokyo June CPI — Stats Bureau cadence.
+- ✅ Tue Jun 30 Sato seat-take + JGB 2Y — both BOJ + MOF confirmed Runs 4/6.
+- ✅ Wed Jul 1 Tankan Q2 + Thu Jul 2 JGB 10Y — confirmed Run 4.
+
+**Baseline audit:** No trigger fired this run. Monthly trigger fires first run of July (next sync). Post-miss: none. Note: this is the LAST KOYOMI run before the Jul baseline audit — recommend SAM allocate context for it next sync.
+
+**Runway:** 42 days to furthest event (BOJ Jul 31). 5 events in next 14d (today's CPI + Jun 23/25/26/30 cluster). Healthy.
+
+**Runtime:** ~6 min. (SAM-21 mechanical trigger fire-day sync + 3 resolved-row migrations + 3-row >1wk prune; Opus 4.7)
 
 **Triggering context:** SAM-21 mechanical trigger pre-registered Jun 3 fired today (Tue Jun 9). Polymarket BOJ Jun 16 hike 98.2% (5th sequential ≥90% read; volume $403K up from $304K), no Takaichi pushback (Reuters explicitly noted), Q1 GDP revised +1.8% headline-soft / composition hike-tolerant. SAM-21 marked 70 → 75. STATUS, PREDICTIONS, TIMELINE all updated upstream. Brent breached $90 line 4th down session ($90.16 −4.34%). USDJPY 4th day above MOF #3 hard trigger (160.37).
 
@@ -129,6 +162,9 @@ State file for the docket-steward sub-agent. Spec is in [`KOYOMI.md`](KOYOMI.md)
 - **NEW (Run 5) — SAM-internal mechanical-trigger TSV-scope precedent decision:** SAM-21 pre-registered a Jun-9 Polymarket re-check trigger ("if ≥90% AND no Takaichi pushback → mechanical +5pp to 75%"). This is date-driven and operationally critical (next-session boot must surface it Jun 9), but it's NOT a public release/policy event — it's a SAM-internal review trigger. **KOYOMI declined to auto-add to CATALYSTS.tsv** (would set new precedent: TSV currently holds only public dated catalysts). **SAM decision needed:** (a) add to TSV as new "internal-trigger" category (precedent — would need 1-2 sibling rows for form-consistency, e.g. SAM-26 mechanism re-checks); (b) keep in STATUS only, accept boot-surface risk; (c) add to CALENDAR narrative only (no TSV row, but human-readable surface). If (a), KOYOMI will retroactively pull other SAM-internal triggers from THESIS/STATUS to populate. *Default if undecided by next run: option (c) — KOYOMI adds a CALENDAR narrative row but not a TSV row.*
 - **NEW (Run 5) — MOF quarterly per-op intervention release date verification:** Per SAM PM session, MOF publishes per-op intervention breakdown quarterly at `mof.go.jp/english/policy/international_policy/reference/feio/quarterly/`. Apr-Jun 2026 ops breakdown should land ~early August (resolves ~¥1.95T residual classification — 70/30 slippage-vs-late-May-op prior). **Action next run:** fetch MOF feio/quarterly/ page, confirm convention (typical release day of month), add to TSV as 🟡 row with verified date. Watch-only — not urgent.
 - **NEW (Run 6, INFORMATIONAL — for SAM audit / clearable on next ack) — Sato verification provenance recorded:** All 5 claims (date + 4 characterization sub-claims) primary-source verified Jun 4. Sources: BOJ official Nakagawa page (date); Aoyama Gakuin researcher profile (law professor); Japan Times Feb 25 + Mar 19, Bloomberg Feb 24/25, Nikkei Asia, Nippon.com (reflationist + Takaichi pick). RELEASES.md "Confirmed dates" table NOT extended (RELEASES is recurring-cadence; one-off board-composition events don't fit its schema — flagging for SAM in case a board-composition section would help). No quarantine flags applied. OS.1 closure dependency (Will Item D) — clear, no caveat.
+- **NEW (Run 8, 🚨 LOAD-BEARING) — CATALYSTS.tsv `type` column schema regression:** Header is 7 fields, spec requires 8 with `type` appended (added 2026-06-03 per Run 5). All 18 rows are 7 fields. `catalyst_countdown.py` zips header→parts so `type` defaults to "" → external rendering. Currently 0 sam-internal rows so no observable miscoloring, but next sam-internal addition will tag WITHOUT 🔧. **SAM-DECISION needed:** restore header to 8 fields + backfill all rows with `external` (or appropriate tag). Low-stakes structural; KOYOMI declined to apply the column restoration without SAM confirmation because: (a) it's a write to an SoT file affecting parser behavior; (b) two SAM-internal rows resolved Run 7 had `type=sam-internal` per Run 5 spec — confirming whether THOSE were also missing the column historically OR whether the column was dropped post-Run-7 changes the response. Action: SAM verify, then either ack restoration or apply directly.
+- **NEW (Run 8) — Sat Jun 20 CFTC release docket entry:** Per v1.6 EV-table (THESIS commit `f378c0e4`), Jun 20 CFTC is THE decision-grade observable with pre-registered dispositions. Meets TSV-SCOPE PRECEDENT (DATE-SPECIFIC + ACTION-FORCING). Proposed rows in return block under SAT JUN 20 CFTC ROW. **SAM apply.**
+- **NEW (Run 8) — Resolved-event TSV migration:** Rows 2-5 of TSV (Jun 16 BOJ MPM, Jun 16 BOJ QT, Jun 17 FOMC, Jun 17 May TB) all resolved but still in forward TSV. countdown.py filters by date < today so they're not surfaced; if KOYOMI prunes per spec § 1 "forward views shed events as date passes," all 4 should be removed. Per spec: forward views = TSV; the 1-week retention is CALENDAR's RECENTLY RESOLVED. **SAM apply when applying CFTC row.**
 - **NEW (Run 7) — Jun 10 US CPI primary-source verification PENDING:** Per [[finding_subagent_pre_fire_date_verification]] cadence-derived rows within 7d of fire should be source-verified. Jun 10 fire date is +1d. BLS schedule page (`bls.gov/schedule/news_release/cpi.htm`) returned HTTP 403 to WebFetch this run. Date directionally consistent with monthly mid-month BLS cadence + universally cited in financial press; high confidence but not primary-source confirmed. **Action next run:** retry BLS fetch (try with WebSearch alternative, or check BLS archive) once date is in past, append to RELEASES.md "Confirmed dates" as RETROSPECTIVE-CONFIRMED. Low risk — date almost certain — but adds a gap to verification provenance.
 
 ---
@@ -146,6 +182,9 @@ State file for the docket-steward sub-agent. Spec is in [`KOYOMI.md`](KOYOMI.md)
 
 ## NEXT RUN HINTS
 
+- **🆕 Run 8 outputs awaiting SAM apply:** (1) schema-regression `type` column restore + backfill; (2) Sat Jun 20 CFTC row add (CALENDAR + CATALYSTS); (3) resolved-event TSV migration (rows 2-5 → drop). If SAM applied between Run 8 → Run 9, verify state in PENDING.
+- **🆕 First run of July triggers MONTHLY BASELINE AUDIT** (per spec § 2a; last fired Run 4 Jun 2). Audit MOF Jul + Aug calendars, BOJ Aug schedule, Stats Bureau Jul releases, BLS Jul CPI, ESRI Q2 GDP (Aug). Block ~10-12 min context budget.
+- **🆕 Likely v1.6 will pre-register new sam-internal mechanical triggers** — if so, apply TSV-SCOPE PRECEDENT inclusion bar without re-escalating. Pre-condition: `type` column must be restored first or the 🔧 tag won't render.
 - **🆕 SAM Jun 10 PM docket correction (informational — already applied, verify don't redo):** May TB provisional = **Jun 17 08:50 JST** (was docketed Jun 18; June TB = Jul 22 not "~Jul 16-17"). Pinned from **MOF Customs release calendar `customs.go.jp/toukei/calendar/calend_e.htm`** — ADD THIS to your date-pinning source list alongside the MOF auction calendar; trade-stat dates come from Customs (customs.go.jp), NOT mof.go.jp. CATALYSTS.tsv + CALENDAR rows corrected by SAM. New auto-pull: `trade_balance_japan.py` (boot-wired) consumes the TB rows; keep "trade balance" in the event name. Detailed-stage release Jun 26 — NOT a separate TSV row (stage revision, not a new catalyst); script picks it up automatically.
 - **Jun 10 onward prune cadence:** Jun 2 JGB 10Y turns 7d Jun 9 (kept this run — single edge row, retrospective use for Jun 16 imminent); turns 8d Jun 10 → pruneable next run. Jun 6 CFTC turns 7d Jun 13. Jun 8 GDP turns 7d Jun 15. Jun 9 SAM-21 turns 7d Jun 16 (BOJ-day — likely batched-prune with BOJ outcome row).
 - **Sat Jun 13 CFTC release** — LAST pre-blackout read. cftc_jpy.py auto-pulls Sat AM. Update CALENDAR PHASE 2 WATCH narrative outcome. NOT a TSV row (excluded class); STATUS owns the live read.
