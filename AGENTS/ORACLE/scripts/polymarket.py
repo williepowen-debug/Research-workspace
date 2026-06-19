@@ -74,6 +74,15 @@ def parse_market(m):
     if vol is None:
         vol = _f(m.get("volume"))
     thin = (liq is not None and liq < THIN_LIQUIDITY) or (vol is not None and vol < THIN_VOLUME)
+    end = (m.get("endDate") or "")[:10]
+    days_left = None
+    if end:
+        try:
+            days_left = (datetime.date.fromisoformat(end) - datetime.date.today()).days
+        except ValueError:
+            days_left = None
+    resolved = bool(m.get("closed")) or (days_left is not None and days_left < 0)
+    expiring = days_left is not None and 0 <= days_left <= 7
     return {
         "question": m.get("question"),
         "slug": m.get("slug"),
@@ -83,10 +92,13 @@ def parse_market(m):
         "liquidity": liq,
         "d1": _f(m.get("oneDayPriceChange")),
         "d7": _f(m.get("oneWeekPriceChange")),
-        "end": (m.get("endDate") or "")[:10],
+        "end": end,
+        "days_left": days_left,
         "active": m.get("active"),
         "closed": m.get("closed"),
         "thin": thin,
+        "resolved": resolved,
+        "expiring": expiring,
     }
 
 
@@ -135,6 +147,10 @@ def _money(x):
 
 def fmt_row(label, m, tier=""):
     flag = " ⚠thin" if m.get("thin") else ""
+    if m.get("resolved"):
+        flag += " ⛔RESOLVED"
+    elif m.get("expiring"):
+        flag += f" ⏳{m['days_left']}d"
     return (f"{label[:34]:34} {tier:5} {_pct(m['yes'])}  Δ1d {_delta(m['d1'])}  Δ7d {_delta(m['d7'])}  "
             f"vol {_money(m['volume']):>7}  liq {_money(m['liquidity']):>7}  ends {m['end']}{flag}")
 
@@ -162,7 +178,8 @@ def cmd_event(args):
         print("not found"); return
     print(f"▸ {e['title']}  [{_money(e['volume'])}]")
     for m in sorted(e["markets"], key=lambda x: (x["yes"] or 0), reverse=True):
-        print("   " + fmt_row(m["question"] or m["slug"], m))
+        q = (m["question"] or m["slug"])[:60]
+        print(f"   {_pct(m['yes'])}  Δ7d {_delta(m['d7'])}  {q:60} vol {_money(m['volume']):>7} liq {_money(m['liquidity']):>7}  slug={m['slug']}")
 
 
 def _read_watchlist():
@@ -211,6 +228,12 @@ def cmd_pull(args):
         print(f"\nORACLE pull @ {ts}\n" + "-" * 118)
         for l, m, t in sorted(out, key=lambda r: r[2]):
             print(fmt_row(l, m, t))
+        exp = [(l, m) for l, m, _ in out if m.get("resolved") or m.get("expiring")]
+        if exp:
+            print("\n⚠ watchlist maintenance — re-search replacements (see MAINTENANCE.md):")
+            for l, m in exp:
+                state = "RESOLVED — replace now" if m.get("resolved") else f"resolves in {m['days_left']}d"
+                print(f"   - {l}: {state} (end {m['end']})")
     if args.log:
         new = not os.path.exists(ODDS_LOG)
         os.makedirs(os.path.dirname(ODDS_LOG), exist_ok=True)
