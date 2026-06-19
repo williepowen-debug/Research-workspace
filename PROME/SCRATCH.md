@@ -23,8 +23,8 @@
 
 ## Current Git State
 
-- Clean and synced after rebase + push.
-- If this final closeout creates one more Prome commit, push it before ending so next boot sees clean/synced state.
+- Clean and synced after rebase + push as of the final closeout.
+- If this audit/session edits Prome files, use pathspec-only commit hygiene; push only when Will explicitly coordinates it.
 
 ## Current Operating Picture
 

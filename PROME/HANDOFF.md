@@ -79,11 +79,3 @@
 **Guardrails:** no trade/expiry action without broker/Will truth; no recipient-agent edits unless Will scopes them; WALTER delivery lane exception is narrow and does not revive general inbox/outbox/HERMES infra.
 
 ---
-
-## 2026-06-17 ~11:05 ET — Closeout before clear; WALTER direct-routing next
-
-**Status:** Superseded by the 16:20 entry. At this point WALTER direct-routing was still pending; later in the day WALTER implemented and pushed Routing v2, and Prome reviewed it.
-
-**Durable takeaways:** WALTER self-audit/doc-health tools were good, BOARD reconciled, and the preferred routing model was settled: `BOARD` = canonical archive/history; `AGENTS/{AGENT}/inbox/WALTER/` = delivery/tasking; `published` ≠ `delivered` ≠ `consumed`.
-
----

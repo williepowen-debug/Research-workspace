@@ -11,7 +11,7 @@
 
 **Regime source:** `HEARTBEAT.md` is current as regime source; Jun19 dashboard refresh is in `PROME/TODAY.md` and did not change the regime read.
 
-**Standing constraint:** **do not edit `AGENTS/*`** unless Will explicitly approves/scopes it. WALTER deep-research flag ratification is WALTER-owned; Prome reviews after it lands.
+**Standing constraint:** **do not edit `AGENTS/*`** unless Will explicitly approves/scopes it. WALTER deep-research flag tuning is WALTER-owned; Prome monitors behavior after landing.
 
 ---
 
@@ -49,7 +49,7 @@
 
 | Lane | Priority | Status / owner note |
 |---|---:|---|
-| Post-closeout / fresh window boot | 🔴 active | Pull/verify repo; read HEARTBEAT/SCRATCH/TODAY/ACTIVE_DECISIONS. Expected state: clean/synced. |
+| Fresh-window boot hygiene | ✅ current session booted | Repo verified clean/synced and core Prome surfaces read. Repeat on next fresh window. |
 | HY <260 / post-FOMC confirmation | 🔴 next market lane | Latest HY 263; watch <260, TIC/FXY/carry, and bank/PC re-weakening. |
 | WALTER deep-research candidate flag | ✅ active | WALTER landed v0.18; next work is only behavior monitoring / future tuning if noisy or missed flags appear. |
 | WALTER Quick-boundary / Full-WALTER standard | ✅ settled | Quick paused for fresh news; Full WALTER routes novel signals and owns research-flag judgment. |
