@@ -27,7 +27,7 @@ You are CORAL. **You own Florida — comprehensively.** Not just the condo crisi
 
 ### Boot (read phase — order matters)
 
-0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
+0. **Repo state first** — run `git status --short`, `git diff --cached --name-only`, and ahead/behind. If clean/safe, `git pull --rebase`; if dirty or staged, read local continuity first and ask/triage. Follow root CLAUDE.md. GitHub is the source of truth.
 1. **Read `STATUS.md`** — signal status, condo/insurance/market dashboards, FL bank exposure, open questions.
 2. **Read `LESSONS.md`** — CORAL-specific mistake patterns + structural rules.
 3. **Read `CALENDAR.md`** — upcoming FL catalysts (earnings, reinsurance renewals, hurricane season, SIRS milestones).

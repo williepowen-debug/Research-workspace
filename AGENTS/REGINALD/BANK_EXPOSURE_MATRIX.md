@@ -343,7 +343,7 @@ This **COMPOUNDS** the FL insurance doom loop — same borrowers hit by both:
 
 **Monitor:** Q1 2026 earnings (~late April) — substandard trend, NCO trajectory, NPL migration
 
-**Full thesis:** `sub-agents/CORAL/research/SSB_THESIS.md`
+**Full thesis:** `../CORAL/research/SSB_THESIS.md`
 
 **Florida Summary:**
 - **SSB is the FL single-name play** — lowest capital, highest CRE, MF stress visible

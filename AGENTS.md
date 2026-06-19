@@ -18,6 +18,7 @@ NEXUS synthesizes across all chains. MARCO feeds immigration/labor supply into L
 | LABOR | Employment, claims | Credit | ❌ Persistent (Telegram) |
 | CARL | Consumer credit, housing | Credit | ❌ Persistent (Claude Code/Telegram) |
 | REGINALD | Regional banks (OZK, WAL) | Credit | ❌ Persistent (Claude Code/Telegram) |
+| CORAL | Florida real estate, insurance, FL banks, migration/tourism | Credit (geo convergence) | ❌ Persistent (Claude Code) |
 | HENRY | Market structure, econ data | Credit (velocity) | ✅ OK |
 | LIQUID | Funding, Treasury, spreads | All (amplification) | ❌ Persistent (Telegram) |
 | BOND | US bond market structure, auctions, issuance, CDX/cash | Credit + funding bridge | ✅ OK |
