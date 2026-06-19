@@ -7,7 +7,7 @@
 | Runtime | Agent(s) | Interface | Notes |
 |---------|----------|-----------|-------|
 | **OpenClaw (VPS)** | Prome + all spawn-based agents | Telegram | Orchestrator. Spawns sub-agents. Full workspace access. |
-| **Claude Code** | REGINALD, CARL, OZK, SAM, RED | Telegram | Independent sessions. Siloed to own domain folders. Push to shared repo. OZK spun out from REGINALD 2026-04-24; RED is the persistent adversarial-analysis surface (not a market domain). |
+| **Claude Code** | REGINALD, CARL, OZK, CORAL, SAM, RED | Telegram | Independent sessions. Siloed to own domain folders. Push to shared repo. OZK spun out from REGINALD 2026-04-24; CORAL (Florida) spun out from REGINALD 2026-06-19; RED is the persistent adversarial-analysis surface (not a market domain). |
 | **Claude Code** | PROME | Repo / Claude Code | Repo-native implementation surface for the same Prome identity. Uses shared Prome state, not a separate domain silo. Owns docs/tools/audits/handoffs when scoped. |
 
 **Key rules for multi-runtime:**
@@ -27,8 +27,9 @@ Sub-agents own detail → distill upward to parents → lateral only when transm
 |-------|--------|--------|-----|
 | **LABOR** | Employment | 🟡 | Claims, NFP, JOLTS, DOGE cuts. Danger: Q2-Q3 2026 |
 | **CARL** 🖥️ | Consumer credit | 🟡 | DQ, subprime auto, phantom debt. Lags LABOR 3-6mo. Subs: POLLY, POP, GIG, DOC, NICK. **Claude Code — independent, siloed.** |
-| **REGINALD** 🖥️ | Regional banks | 🟡 | CRE, bank watchlist, FHLB. Subs: CREED (CRE), CORAL (FL condos) 🟠. **Claude Code — independent, siloed.** |
+| **REGINALD** 🖥️ | Regional banks | 🟡 | CRE, bank watchlist, FHLB. Sub: CREED (CRE). Peers: BROCK, CORAL, OZK. **Claude Code — independent, siloed.** |
 | **BROCK** | BDC / private credit | 🟠 | PIK, gates, NAV, Athene/Apollo, software marks. Lateral peer to REGINALD — signals bank-PC transmission |
+| **CORAL** 🖥️ | Florida real estate / FL banks | 🟠 | Condo SIRS crisis, Citizens insurance, FL migration, SSB/SBCF/BKU/VLY-FL exposure. Promoted from REGINALD sub-agent 2026-06-19. Reconciles FL read with MARCO. **Claude Code — independent, siloed.** |
 
 ## Market Structure
 

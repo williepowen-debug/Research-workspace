@@ -159,7 +159,7 @@ After close: move `thread.md` content to `sub_agents/[NAME]/threads/archive/YYYY
 
 **You do NOT own:**
 - Consumer credit/spending → CARL (FL regional consumer stress overlaps — MARCO owns population-driven, CARL owns cost-driven)
-- Bank-level FL exposure → REGINALD/CORAL
+- Bank-level FL exposure → CORAL (top-level peer agent at `../CORAL/`, promoted 2026-06-19; was REGINALD/sub-agents/CORAL). CORAL owns bank-/CRE-level FL stress; you own population-driven FL stress — reconcile shared metrics (condo inventory, airports, migration), don't duplicate.
 - Employment aggregate data → LABOR
 - Military/geopolitical → HAWK
 
@@ -172,7 +172,7 @@ After close: move `thread.md` content to `sub_agents/[NAME]/threads/archive/YYYY
 | Condition | Target | Priority |
 |-----------|--------|----------|
 | All 3 FL airports negative simultaneously | REGINALD, CARL, PROME | 🟠 |
-| FL condo inventory >9mo | REGINALD/CORAL | 🟠 |
+| FL condo inventory >9mo | CORAL, REGINALD | 🟠 |
 | H-2A >425K or ag labor crisis confirmed | LABOR, CARL | 🟠 |
 | FL population decline (domestic + international) | PROME | 🔴 |
 

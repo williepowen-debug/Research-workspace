@@ -44,7 +44,8 @@ CARL (dedicated instance)
 
 REGINALD (dedicated instance)
   └── owns bank exposure domain
-  └── sub-agents: CORAL, CREED, BROCK (can remain file-based or promote later)
+  └── sub-agent: CREED (file-based)
+  └── peer agents (promoted out): BROCK, OZK, CORAL (promoted 2026-06-19)
 
 SAM (dedicated instance)
   └── owns Japan/yen domain
@@ -90,9 +91,9 @@ They only wake when PROME queries them.
 ### Tier 2: File-Based Sub-Agents
 Remain as STATUS.md files under parent agents. Can be promoted later.
 
-- CORAL (under REGINALD) — Florida condo
 - CREED (under REGINALD) — CRE deep dive
-- BROCK (under REGINALD) — BDC/private credit
+- ~~CORAL (under REGINALD) — Florida condo~~ → **promoted to top-level peer agent 2026-06-19** (`AGENTS/CORAL/`)
+- ~~BROCK (under REGINALD) — BDC/private credit~~ → promoted to top-level peer agent
 - MARCO — Migration (could promote to Tier 1)
 - BARON — Trump network
 - GIG, POP (under CARL)
