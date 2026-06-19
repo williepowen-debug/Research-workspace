@@ -285,7 +285,7 @@ KB-SAM-187	2026-06-09	Cross-Agent	LIVE	MOF Intervention Reaction-Function — 4d
 - ✅ KB-SAM-197 (Iran/US deal SIGNED electronic, Al Jazeera) — promoted
 - ✅ KB-SAM-198 (IEA glut warning) — promoted
 - ✅ KB-SAM-199 (MOF reaction-function decay) — promoted
-- ⏸️ KB-SAM-200 (CONVEXITY-TAIL SURVIVAL EV table inputs, v1.6 DRAFT-tagged) — HELD pending Will routing decision (Phase C: Notes-tag `[v1.6-DRAFT]` vs new `Status: LIVE-v1.6-DRAFT` value vs hold-until-v1.6-finalizes). Re-propose after v1.6 commit if finalized.
+- ✅ KB-SAM-200 (CONVEXITY-TAIL SURVIVAL EV table inputs, v1.6 DRAFT-tagged) — **PROMOTED 2026-06-19 PM (Phase C)** with **Notes-tag routing `[v1.6-DRAFT]`** per Will decision (selected over new Status value or hold-until-finalize). Topic + Notes columns lead with `[v1.6-DRAFT]` prefix; promote-or-discard disposition on v1.6 commit (promote = drop tag; discard = archive). KURA Watermark advances 137 → 143 rows (was 142, +1 with KB-200).
 
 **Palimpsest applied:**
 - ✅ KB-SAM-006 (HANS Fed-cut + JPY) → Status `LIVE` → `SUPERSEDED`; palimpsest note appended (Fed-cut path FLIPPED to Fed-HIKE under Warsh; multi-month tail conditional on breaking Warsh frame). Archive on Run 7 full mode.
