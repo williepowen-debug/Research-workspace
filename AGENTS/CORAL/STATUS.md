@@ -1,8 +1,8 @@
 # CORAL — Florida Real Estate Stress Monitor
-## Top-Level Peer Agent | Condo Crisis, Insurance & FL Regional-Bank Exposure
+## Comprehensive Florida Agent | 10 pillars (real estate · insurance · banks · migration · tourism · fiscal · labor · climate)
 
-**Last Updated:** 2026-06-19 ET (data-refresh session — first since promotion; supersedes the Mar-3 dashboard)
-**Signal Status:** 🟠 ELEVATED — **THESIS SPLIT confirmed.** Retail/condo distress REAL and intensifying (FL #1 foreclosure nationally; condo prices −6.1% YoY, 92% of markets falling; reserve-mandate assessments now hitting). BUT bank-balance-sheet transmission is NOT in the Q1 2026 prints (SSB/SBCF/BKU/VLY all stable-to-improving credit), and the insurance channel is EASING (reinsurance −15-20% at 6/1; Citizens still depopulating). Downgraded from 🔴 RED. Mechanism intact but slow → acute bank stress timing pushed to ~winter 2026-27 (converges with MARCO).
+**Last Updated:** 2026-06-19 ET (comprehensive-scope build-out + full 10-pillar research sweep. Pillar map → `COVERAGE.md`; sweep detail → `research/SWEEP_2026-06-19.md`; banks → `FL_BANK_WATCHLIST.md`)
+**Signal Status:** 🟠 ELEVATED — **slow broad demand-normalization, not an acute crash; THESIS SPLIT holds.** Retail/condo + single-family distress REAL (FL #1 foreclosure; condo −6.1% YoY/92% of mkts; SW-FL SF correction; the demand engine — migration AND Canadian snowbirds — failing on both fronts). BUT two counter-currents keep it 🟠 not 🔴: (1) **insurance channel EASING** (Citizens 294K + rate cuts, reinsurance −15-20%); (2) **bank transmission NOT in Q1 2026 prints** + CRE distress is condo/residential-specific (Miami office tightest in US). Acute bank stress pushed to ~winter 2026-27 (converges with MARCO). **Biggest forward variable: Nov-3-2026 property-tax amendment** (two-sided).
 
 ---
 
@@ -56,7 +56,24 @@ Reserve funding mandate live (Jan 1 2026)
 
 ---
 
-## FL BANK EXPOSURE (Q1 2026 — reported late Apr; → REGINALD)
+## WHOLE-FLORIDA PILLARS (6/19 build-out — full detail in `COVERAGE.md` + `research/SWEEP_2026-06-19.md`)
+
+The dashboard above is pillars 1/3/5/10 (condo, insurance, climate). The rest of the state:
+
+| Pillar | Read (as of 2026-06-19) | Signal |
+|--------|--------------------------|--------|
+| **Migration (7)** | Net domestic **+22,517 (−93% from peak, now #8)**; intl +178,674 but **−57% YoY** (−75% projected); **natural change negative**; out-migration ~510K → GA/TX/NC, driven by insurance/assessments/cost. *Demand engine failing.* | 🔴 |
+| **Tourism/snowbird (8)** | 2025 record 143.3M but Q1'26 **−1.0%**; **Canadian −12.1%** + airline capacity deleted (worst SW-FL); overseas **+8.5% record** + Epic Universe (Orlando TDT record $384.6M) offset. | 🟠 |
+| **Single-family (2)** | Median $420K (+1.8%), 4.7mo supply, but correction **Gulf-Coast-concentrated** (Cape Coral −10% "worst in US", North Port; Tampa +2.5%); 43% of listings cut; FL Realtors "inflection point." | 🟠 |
+| **CRE non-condo (4)** | **Condo/residential-specific, not commercial-wide:** Miami office 12.5% (tightest in US); retail/industrial mostly healthy. | 🟢 |
+| **Labor (econ)** | Unemployment **4.8%, now above US**, 7 straight rises; 7/10 sectors negative YoY; construction in ICE labor squeeze (immigrants 37.9% of FL constr.); permits −6.1% (Lennar −53%). | 🟠 |
+| **State fiscal (9)** | **🔴 Property-tax amendment on Nov-3-2026 ballot** (homestead $50K→$250K; −$8.4B local rev, no backfill); budget deficits FY28-29 −$8.1B; condo HB913 relief valves (loans/2yr pause) soften the assessment cascade. | 🟠 |
+
+**Convergence flags:** (a) SW-FL Gulf Coast = snowbird loss + SF correction + migration drop stacking on the *same* metros; (b) household cost-stack (insurance + assessment + HOA) is both the out-migration *driver* and what the property-tax vote would *partially relieve*; (c) **USCB** is the cleanest condo→bank wire (direct condo-association lender). Per-metro convergence grid = next build.
+
+---
+
+## FL BANK EXPOSURE (Q1 2026 — reported late Apr; → REGINALD; expanded watchlist → `FL_BANK_WATCHLIST.md`)
 
 **Headline: none of the four FL-exposed banks is breaking on credit. CRE stress is showing up as rate-shock reclassification with high collateral cushions, not loss content.**
 

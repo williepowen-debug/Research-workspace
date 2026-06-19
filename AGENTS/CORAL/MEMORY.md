@@ -42,17 +42,18 @@
 
 **CHANGES SINCE:** (next boot populates)
 
-**LAST SESSION (2026-06-19 — promotion + first data refresh):**
-- **Promotion (earlier today):** CORAL → top-level peer agent (`AGENTS/CORAL/`), git mv + peer infra, parent refs updated. (3 commits, pushed.)
-- **Data refresh (this session):** full live pull via web research subagents + verification. Rewrote STATUS.md (🔴 RED → 🟠 ELEVATED, thesis-split framing), wrote `research/REFRESH_2026-06-19.md` (all sourced), added 6 KB rows (ML-CORAL-008..013), rebuilt CALENDAR.md.
-- **Resolved Mar-3 open question:** the "RED cascade extending / short SSB" framing is superseded — household distress real, bank transmission absent, SSB short broken (Q1), $90P expired worthless.
-- Live levels captured: KRE $71.61 (6/18), SSB ~$93 (6/17), BKU $46.88 (6/17), VLY ~$14.34 (6/11), SBCF mktcap $3.17B (6/12). *(No venv/yfinance in cloud container — prices via web, not market.py.)*
+**LAST SESSION (2026-06-19 — promotion + data refresh + comprehensive build-out, 3 phases):**
+- **Phase 1 — Promotion:** CORAL → top-level peer agent (`AGENTS/CORAL/`), git mv + peer infra, parent refs updated.
+- **Phase 2 — Data refresh:** live pull + verification. STATUS 🔴→🟠 (thesis-split), `research/REFRESH_2026-06-19.md`, KB ML-CORAL-008..013, sargassum overlay (ML-014).
+- **Phase 3 — Comprehensive scope (Will: "Florida fully fleshed out, MARCO overlap fine"):** broadened to **10-pillar whole-Florida mandate** (CLAUDE.md rewrite + `COVERAGE.md`). Ran a 5-agent research sweep → `research/SWEEP_2026-06-19.md` (migration, tourism, state-fiscal, labor/CRE, single-family + expanded banks). New: `FL_BANK_WATCHLIST.md` (AMTB/BAFN/USCB added), KB ML-CORAL-015..020, STATUS "WHOLE-FLORIDA PILLARS" section.
+- **Key new findings:** demand engine failing (migration −93% + natural change negative + Canadian −12%); **property-tax amendment on Nov-3-2026 ballot** (two-sided); insurance easing decisively; SF correction Gulf-Coast-concentrated; banks not breaking (USCB = condo canary, AMTB ACL gap). Condo legislation resolved (HB913 relief valves).
+- Live levels: KRE $71.61 (6/18), SSB ~$93 (6/17), BKU $46.88 (6/17), VLY ~$14.34 (6/11). *(No venv/yfinance in cloud — prices via web.)*
 
 **NEXT SESSION:**
-1. **Q2 2026 FL bank earnings (~late Jul)** — the bank-leg re-test (see Open question). Pull SSB classified trend, SBCF 2-credit status, VLY criticized direction.
-2. **Resolve 2026 condo legislation** — did the session amend/delay SIRS reserve mandate? (NOT FOUND this pull.)
-3. **Refresh Fannie blacklist count** — 1,400+ figure is Mar-2025; get current.
-4. **Send the cross-agent signals** — draft REGINALD (FL banks stable, SSB retired, foreclosure accelerating) + MARCO (convergence confirmed) + CARL (assessment cash drain) into `outbox/`.
-5. **MARCO reconciliation handshake** — lock MARCO as live owner of shared condo-inventory metric.
+1. **Per-metro convergence grid** — pull pillars 2/3/4/7/8 into a Miami/Tampa/Orlando/Jax/SW-FL grid (SW-FL Gulf Coast is the clearest cluster). The headline build-out item.
+2. **Q2 2026 FL bank earnings (~late Jul)** — bank-leg re-test (see Open question): SSB classified, SBCF 2 credits, VLY criticized, AMTB ACL coverage, USCB condo-assoc book.
+3. **Give pillars 7/8/9 their own VX vectors** (currently in KB + SWEEP only).
+4. **Send the cross-agent signals** — REGINALD (FL banks stable, watchlist expanded, SSB retired), MARCO (tourism/migration convergence — already sent sargassum), CARL (assessment + insurance cost burden driving out-migration).
+5. **Nov 3 2026** — property-tax amendment vote (pillar 9) outcome + reaction.
 
-**Mail state:** 1 pending inbox signal (2026-03-04 BayFirst SBA exit, from REGINALD) — still unprocessed (stale, pre-dates refresh); outbox empty (signals queued for next session per item 4).
+**Mail state:** 1 pending inbox signal (2026-03-04 BayFirst SBA exit, REGINALD) — stale, unprocessed. Outbox: 1 sent (sargassum→MARCO); more queued (item 4).
