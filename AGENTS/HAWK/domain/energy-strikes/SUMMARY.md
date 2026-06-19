@@ -18,18 +18,44 @@ Log if **any** of: (a) named major facility, (b) capacity/throughput impact, (c)
 2. **`Status` is point-in-time; `ReturnToService` closes the loop.** "Currently offline" = rows where Status∈{offline,halted} AND ReturnToService is empty/future. Most repair dates are `unk` — so *currently-offline* is presently uncomputable from the ledger alone; defer to the sourced aggregate below until repair tracking fills in.
 3. **The ledger is a material subset.** May 2026 had ~31 reported attacks; the ledger captures ~10 named-material ones. Don't read row-count as attack-count.
 
-## Current sourced aggregate (Russia refining)
-- **~1/3 of Russian primary refining capacity offline ≈ 2.14M bpd** | as-of **mid-June 2026** | source: **Energy Intelligence / Kyiv Post**. *(This is their reported aggregate, not my sum.)*
-- First-week-June refining runs **< 4M bpd — lowest in 21 years**; fuel shortages in **25+ regions**; May output lowest since 2009; 24 of 33 major refineries hit by end-May.
+## Current sourced aggregates (EXTERNAL — not ledger outputs)
+> ⚠️ These are sweep/agency stats, NOT derived from STRIKES.tsv. The ledger (22 RU rows) is a material subset; do not present these as ledger patterns.
+
+**Refining offline:**
+- **~1/3 of Russian primary refining capacity offline ≈ 2.14M bpd** | as-of **mid-June 2026** | Energy Intelligence / Kyiv Post.
+- May output lowest since 2009 (≈17yr); first-week-June *runs* <4M bpd "lowest in 21 years" (Energy Intelligence). **Two distinct source-claims (monthly output vs weekly runs) — unreconciled; don't merge.** Fuel shortages 25+ regions; 24 of 33 major refineries hit by end-May; ~31 reported May strikes.
+
+**Crude-export side (PRIMARY-CONFIRMED the channel thesis — see Pattern 1):**
+- **Russian crude shipments 3.83M bpd (17 May–14 Jun) = highest of 2026**; floating storage ~120M bbl, **+25% vs April** | Bloomberg/Moscow Times (Jun 2) + Vortexa | ORC-verified Jun 18.
+- Product exports **slashed**; Russia **importing gasoline by sea** (Euromaidan Jun 18). Kremlin milblogger acknowledged Jun 17 the crude-export rise is from falling refining.
+- Russian crude production already softening: **May ~8.7M bpd, −5% YoY** (tightens the storage-saturation clock — see Watch).
 
 ---
 
-## Patterns (update each pass)
-- **Repeat-targeting:** Moscow MNPZ/Kapotnya **3×** (5/17, 6/16, 6/18); Primorsk **2×** (3/22, 3/29); Tuapse **2×** (mid-Apr). Re-hit cadence on MNPZ is *tightening* (2 in 3 days, 6/16→6/18).
-- **Channel rotation:** March–April skewed to **crude-export terminals** (Primorsk/Ust-Luga/Novorossiysk — Baltic+Black Sea, ~2/5 of seaborne crude); May–June pivoted to **refineries / product-crack** (domestic fuel + diesel/gasoline exports). The squeeze migrated from *crude flow* to *refined product*.
-- **Geographic creep:** strikes now reaching deep interior — **Tatarstan** (Taneko/Taif-NK), **Samara** (Kuibyshev/Syzran/Togliatti), **Moscow** itself — i.e. drone range is no longer a border-belt constraint.
-- **Operator exposure:** Rosneft (Tuapse/Ryazan/Saratov/Syzran/Kuibyshev), Lukoil (NORSI/Volgograd), Transneft (all crude terminals), Gazprom Neft (MNPZ). Rosneft is the most-hit operator.
-- **Cross-theater (the headline):** RU-UA campaign hit **all-time intensity** the same week (Jun 16–18) the GULF-IRAN cluster **de-escalated into a signed MOU (Jun 17)**. The geopolitical-energy risk regime is **rotating, not resolving** — the unified table is what lets us see this.
+## Patterns (re-graded Jun 18 vs ORC adversarial pass; ranked by what survives)
+
+**① Channel sequence: crude-export → product-crack — LEAD SIGNAL, PRIMARY-CONFIRMED.**
+Ledger shows the target sequence: Mar–Apr = **crude-export terminals** (Primorsk/Ust-Luga/Novorossiysk, ~2/5 of seaborne crude); May–Jun = **refineries** (product-crack). The falsifiable consequence — refinery hits *free crude for export* — was delivered by primary data: crude shipments at a **2026 high (3.83M bpd)**, floating storage **+25%**, product exports slashed, Russia importing gasoline by sea. **This is THE decoupling explanation:** it's why "⅓ of refining offline" coincides with Brent ~$79, not $109 — the repricing is on *products/cracks*, not crude. **Decision-relevant for BRENT (handed via outbox Jun 18).**
+
+**② Re-strike sequences — observed, but the load-bearing conclusion is NOT ledger-proven.**
+Facilities hit >1×: MNPZ (5/17, 6/16, 6/18), Primorsk (3/22, 3/29), Tuapse (mid-Apr ×2). *Caveat (ORC):* "repair never catches up" needs `ReturnToService` — which is blank — so it's borrowed from external output stats, not the ledger. n=3 on one facility; the 6/16→6/18 "2-day" gap is plausibly **one operation**, not a sustainable cadence, and March re-strikes were already ~4–7d, so "tightening over the campaign" is unproven. Mechanism (re-hit to suppress repair) is qualitatively sound; the quantified "accelerating" claim is retracted pending ReturnToService data.
+
+**③ Geographic reach — "range no longer the binding constraint" ✓; "creep" ✗.**
+Deep-interior targets (Tatarstan, Samara) and repeated Moscow strikes show European-Russia refining is broadly reachable. But it is **not monotonic outward**: Feb Tatarstan (1,200km) *preceded* the April coastal strikes. Low decision-relevance. *(Air-defense note: the "~194/180 around Moscow, 555 national" intercept counts are a coarse theater-scale saturation proxy — deliberately NOT a ledger column, and NOT a per-facility figure.)*
+
+**④ Under-priced RU product-supply risk (narrow, falsifiable core of the old "rotation" claim).**
+Keep: *the Jun 17 MoU did not end geopolitical-energy risk; RU refined-product supply risk is escalating, and a Gulf-focused tape may under-price it.* **Drop** the "regime rotation" framing — two independently-driven conflicts moving opposite in 72h is coincidence + analogy, no shown mechanism. (Zelensky "Moscow will burn" / "time the war ended" rhetoric → coercive-signaling read is plausible but source it before anchoring.)
+
+**CUT — operator concentration.** "Rosneft most-hit = deliberate" is a base-rate artifact (Rosneft is Russia's largest refiner; random targeting hits it most); "Transneft owns every terminal" is tautological (terminal monopoly). Shows nothing without normalizing by capacity share; no decision turns on it.
+
+**External-aggregate (NOT patterns):** "31 May strikes," "⅓ offline," "lowest since 2009/21yr" — sourced stats, kept in the aggregates section above, not credited to the ledger. P① already showed ⅓-offline doesn't move Brent, so the intensity headline is the one the market is correctly discounting.
+
+## Watch — the crude-repricing valve is currently OPEN (sign is inverted)
+The "outages → run-cuts → crude backs up → touches Brent" transmission is the correct **tail**, but right now the data shows the opposite: crude is being *freed*, exports at a 2026 high, the pressure valve open. So the crude-positive flip only fires on one of:
+1. **Export / floating-storage saturation** — leading indicator. ~120M bbl floating (+25%); when floating + onshore storage fills, freed crude can't all clear and **shut-ins begin**. Production already softening (May ~8.7M bpd, −5% YoY) *tightens* that clock.
+2. **Ukraine pivots back to crude-export infra** (terminals / Druzhba pipeline) — re-targets the crude channel directly. **This is the Brent-positive trigger to pre-register with BRENT.** A new `crude-terminal`/`pipeline`-type row appearing in STRIKES.tsv after a refinery-dominated stretch = the signal.
+
+Highest-information columns going forward: **`Strike#`** (is re-hit cadence real, once ReturnToService lets us test repair-lag?) and **`Channel`** (has targeting rotated back toward crude-export?).
 
 ## Open verify items
 - Volgograd Lukoil (`RU-20260514-VOLGOGRAD`) date LOW-CONF — one source conflated with a later strike.
