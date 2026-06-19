@@ -26,23 +26,32 @@
 
 ---
 
+## Findings (added 2026-06-19 refresh)
+
+| Date | Finding |
+|------|---------|
+| 2026-06-19 | **The FL thesis is SPLIT, and the split is the whole point.** The household/condo leg confirms hard (FL #1 foreclosure, REOs +108% YoY, condo −6.1%, 92% of markets down, assessments live). The *bank* leg does NOT (SSB/SBCF/BKU/VLY Q1 NCOs 9-14bps, stable credit). Don't conflate "Florida real estate is stressed" with "FL banks are about to take losses" — Q1 2026 says the banks are absorbing it. |
+| 2026-06-19 | **"Rate-shock reclass ≠ loss content" is the bank-leg crux.** SSB's classified CRE ($2.5B) is loans underwritten at 3% rate-shock now stressed by the 5% move — but 56% wtd-avg LTV and 98% current. Until LTVs break or payments stop, classified-CRE growth is a reclassification artifact, not realized loss. Q2 earnings test: does it migrate to nonaccrual/charge-off, or cure? |
+| 2026-06-19 | **Insurance channel went the OTHER way.** Original thesis treated FL insurance as a hardening amplifier; in 2026 it's easing — Citizens depopulated to 294K (−64% YoY) + 8.8% rate cut, reinsurance −15-20% at 6/1. A hurricane landfall is the only near-term reversal risk. |
+| 2026-06-19 | **CORAL and MARCO independently converged** on "acute FL stress delayed to winter 2026-27." Shared condo-inventory metric matches exactly (8.9mo statewide, Miami-Dade 12.9mo) — MARCO is the live owner; CORAL references. |
+
 ## Session Notes
 
-⚠️ **Open question:** How much of CORAL's Mar-3 "RED cascade extending" thesis survives the April condo-inventory reversal MARCO documented? Resolve before any FL-bank trade.
+⚠️ **Open question:** At Q2 2026 FL bank earnings (~late Jul), does the rate-shock classified CRE (esp. SSB's $2.5B, SBCF's 2 commercial credits) migrate to nonaccrual/charge-off, or cure? That single question decides whether the bank-loss leg ever arrives.
 
 **CHANGES SINCE:** (next boot populates)
 
-**LAST SESSION (2026-06-19 — promotion):**
-- Promoted CORAL to top-level peer agent: `AGENTS/REGINALD/sub-agents/CORAL/` → `AGENTS/CORAL/` (git mv, history preserved).
-- Rewrote `CLAUDE.md` as a peer-agent instruction file (boot/closeout protocol, git protocol, doc ownership, cross-agent signals) modeled on OZK.
-- Seeded `MEMORY.md`, `CALENDAR.md`, `LESSONS.md`; converted `INBOX.md`/`OUTBOX.md` to `inbox/`+`outbox/` dirs (pending BayFirst signal migrated to `inbox/`).
-- Updated parent references (root CLAUDE.md, REGINALD CLAUDE/SUB_AGENTS/STATUS, MARCO CLAUDE, AGENTS_DIRECTORY, docs/ARCHITECTURE).
-- Did NOT refresh FL data — promotion was structural only.
+**LAST SESSION (2026-06-19 — promotion + first data refresh):**
+- **Promotion (earlier today):** CORAL → top-level peer agent (`AGENTS/CORAL/`), git mv + peer infra, parent refs updated. (3 commits, pushed.)
+- **Data refresh (this session):** full live pull via web research subagents + verification. Rewrote STATUS.md (🔴 RED → 🟠 ELEVATED, thesis-split framing), wrote `research/REFRESH_2026-06-19.md` (all sourced), added 6 KB rows (ML-CORAL-008..013), rebuilt CALENDAR.md.
+- **Resolved Mar-3 open question:** the "RED cascade extending / short SSB" framing is superseded — household distress real, bank transmission absent, SSB short broken (Q1), $90P expired worthless.
+- Live levels captured: KRE $71.61 (6/18), SSB ~$93 (6/17), BKU $46.88 (6/17), VLY ~$14.34 (6/11), SBCF mktcap $3.17B (6/12). *(No venv/yfinance in cloud container — prices via web, not market.py.)*
 
 **NEXT SESSION:**
-1. **Refresh STATUS.md against current data** — reconcile the Mar-3 dashboard with MARCO's April reads (condo inventory, foreclosure, airports, migration). Mark or correct every stale row.
-2. **Capture passed-catalyst outcomes** — Jun 1 reinsurance renewals, Jun 18 SSB $90P expiry, Q1 2026 FL bank earnings (SSB/SBCF/VLY substandard + NCO trends).
-3. **Rebuild CALENDAR.md** forward — Q2 2026 FL bank earnings (~Jul), hurricane-season watch, monthly FL Realtors cadence.
-4. **Establish the MARCO reconciliation handshake** — one shared-metric ownership note so the two agents stop drifting on FL condo/airport numbers.
+1. **Q2 2026 FL bank earnings (~late Jul)** — the bank-leg re-test (see Open question). Pull SSB classified trend, SBCF 2-credit status, VLY criticized direction.
+2. **Resolve 2026 condo legislation** — did the session amend/delay SIRS reserve mandate? (NOT FOUND this pull.)
+3. **Refresh Fannie blacklist count** — 1,400+ figure is Mar-2025; get current.
+4. **Send the cross-agent signals** — draft REGINALD (FL banks stable, SSB retired, foreclosure accelerating) + MARCO (convergence confirmed) + CARL (assessment cash drain) into `outbox/`.
+5. **MARCO reconciliation handshake** — lock MARCO as live owner of shared condo-inventory metric.
 
-**Mail state:** 1 pending inbox signal (2026-03-04 BayFirst SBA exit, from REGINALD) — unprocessed, stale; outbox empty.
+**Mail state:** 1 pending inbox signal (2026-03-04 BayFirst SBA exit, from REGINALD) — still unprocessed (stale, pre-dates refresh); outbox empty (signals queued for next session per item 4).
