@@ -1,59 +1,49 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-18 18:00 ET (OpenClaw Prome — WALTER laptop/desktop Telegram setup closeout)
+**Last Updated:** 2026-06-19 14:53 ET (OpenClaw Prome — SAM/HAWK audits + WALTER deep-research flag design closeout)
 
 ## What Just Happened
 
-1. **WALTER/Prome/ORC resolved the mini-WALTER boundary.**
-   - Live A/B test: Prome/mini-WALTER triaged the Moscow refinery post directionally well but created duplicate noncanonical artifacts and over-routed LIQUID; Full Claude Code WALTER produced the proper BOARD signal, recipient discipline, source calibration, and delivery logs.
-   - Decision: **Full WALTER is the signal desk.** Prome/Quick-WALTER is not allowed to make fresh news-routing judgments.
-   - Final pushed rule: Quick-WALTER may route only **pre-registered RED-FT / REG-T / safety-net trigger fires** where recipient_chain + precedence/action are already fixed. Delivery repair/backfill is allowed only for existing BOARD signals with already-named recipients and is not routing. Fresh screenshots/news/Visegrad/aggregator/source-confidence/recipient-selection all queue/escalate to Full WALTER.
-   - UTC timestamp discipline added after the Moscow signal bug: never stamp ET wall-clock with `Z`.
+1. **Pulled and reviewed SAM + HAWK pushed changes.**
+   - SAM added `AGENTS/SAM/thesis/THESIS_v1.6_DRAFT.md`; initial audit flagged the USDJPY direction bug, CFTC timing issue, Pillar 1/3/4 wording, vehicle-gate discipline, and FXY-vol proxy caveat.
+   - SAM subsequently incorporated the fixes and added a convexity-tail EV table. Prome read: the table supports **holding the small FXY tail stub, not adding size**; next real gate remains Jun 20 CFTC.
+   - HAWK incorporated audit fixes: Brent math corrected to ~-9.5% from Jun 12, stale ~$77 references purged, energy-strike memory contradiction corrected, BRENT handoff delivered, and product/crack → Brent flip triggers added.
 
-2. **WALTER repo reconciliation completed and pushed.**
-   - Pulled/merged WALTER’s GitHub group-chat dispatch commit with Prome consume-rollout commits.
-   - Resolved `AGENTS/WALTER/STATUS.md` by preserving both truths: group-chat dispatch went live; Prome later advanced Phase 2 consume rollout.
-   - Fixed Moscow MNPZ signal timestamp from ET-with-Z to true UTC (`07:55Z`) across BOARD/logs/handoffs.
-   - Fixed RED delivery_log row to valid `COMMITTED`; `walter_doctor` now derives on-origin delivery cleanly.
-   - Latest WALTER docs/specs pushed through v0.17/v0.5 boundary.
+2. **WALTER deep-research candidate flag design was reviewed and greenlit.**
+   - Will wants WALTER to flag routed signals that may deserve external/deeper research, without WALTER running that research.
+   - ORC drafted `AGENTS/WALTER/design/DEEP_RESEARCH_FLAG_PROPOSAL.md` on branch `claude/brave-gates-jl3699`; Prome reviewed the branch copy and the later v0.3 attachment.
+   - Final Prome recommendation: route to WALTER for ratification; **do not land live specs directly from ORC**. WALTER owns CHECKLIST v0.18 + ledger + doctor changes.
+   - Approved shape: Full-WALTER-only Phase 2.8 flag; mandatory materiality gate; dispatched signals only for v1; ledger with `prompt_ref` + `deadline`; no FORMAT_SPEC header field; narrow `walter_doctor` overdue-pending check included in v1.
+   - Implementation nit carried forward: actual ledger file must be real TSV, and `deadline` should start with ISO date or `open` so `walter_doctor` can parse it.
 
-3. **HEARTBEAT / market gate refreshed.**
-   - HY OAS printed **263 [FRED 6/17]**, only 3bp above the <260 R3/blended-credit kill line.
-   - Claims were benign/yellow: **226k initial**, **1.810M continuing**.
-   - 15:28 dashboard refresh: VIX/banks still faded stress; USD/JPY worsened to **161.78🔴**, FXY **$56.71🔴**; BIZD **$12.32🔴**.
-   - Current read: broad cascade still not confirmed, but the kill line is uncomfortably close and carry is the clean red continuation.
+3. **HERMES/Hermes-v2 discussion resolved at concept level.**
+   - Prome recommendation: do **not** revive legacy HERMES. If pursued, revive only a courier/receipt service: no judgment, no routing authority, no analyst role; WALTER remains signal/news router.
 
-4. **Group-chat research-agent idea surfaced.**
-   - Good future design: WALTER owns routing; a separate VERIFY/CONTEXT helper can produce fact packets or surrounding-research packets; Prome owns decision/task consequences. No shared steering wheel.
-
-5. **WALTER laptop/desktop Telegram setup standardized.**
-   - Laptop WALTER MCP issue resolved: installed `unzip` + Bun, added Telegram bot token at `~/.claude/channels/telegram/.env`, paired Telegram, fixed WSL PATH/native Claude install to use Claude Code **2.1.181** / Opus **4.8**.
-   - Desktop WALTER token path standardized to same `~/.claude/channels/telegram/.env` and confirmed Telegram connected.
-   - Standard boot command for both machines: `tmux new -s walter -d 'cd ~/Research-workspace/AGENTS/WALTER && claude --channels plugin:telegram@claude-plugins-official'`; optional danger variant appends `--dangerously-skip-permissions`.
-   - Rule remains: only one Telegram-WALTER active at a time, or Telegram pollers can compete for updates.
+4. **Heartbeat poll / dashboard check ran.**
+   - Dashboard compact pull: HY OAS **263 [FRED 6/17]**, CCC **939 [6/17]**, 10Y **4.49 [6/17]**, Brent **$80.59**, USD/JPY **161.27**, FXY **$56.85**, KRE/WAL green, VIX **16.78**, BIZD still red.
+   - Regime unchanged: broad cascade still not confirmed; HY <260 kill-line remains close; carry stress still live.
 
 ## Current Git State
 
-Local branch has Prome refresh commits ahead of origin. Latest pushed state includes HEARTBEAT update and WALTER Quick-routing restriction; local state additionally includes Jun18 boot-doc refresh + this WALTER laptop/desktop setup note.
+- Local repo was clean/synced before closeout edits.
+- This closeout is intended to be **committed locally only** and **not pushed** per Will: “Stop short of pushing.”
 
 ## Current Operating Picture
 
-- **Mini/Quick-WALTER is effectively paused for fresh news.** It remains only as a registered-trigger executor / delivery-repair tool.
-- **Full WALTER remains required for signal-desk judgment.** Prome should queue/page Full WALTER for novel signals.
-- **WALTER delivery/consumption telemetry is healthy.** Doctor only flags known stale upstream feeds (`news-sweep`, `filing-watch`, `SIGNALS/inbound`).
-- **Market state:** HY is near the <260 kill line; no broad cascade confirmation yet. Carry remains the cleanest live stress continuation (USD/JPY/FXY).
+- **WALTER deep-research flag:** greenlit for WALTER to ratify/implement. Prome should verify after WALTER lands it: CHECKLIST v0.18, 11-col TSV ledger, prompt embed, dispatch_note convention, Quick/Full one-liners, `walter_doctor` check, STATE sync, version-drift check.
+- **Quick-WALTER boundary still holds:** Prome/Quick-WALTER does not route fresh news or discretionary research flags.
+- **Market state:** same unresolved divergence — HY 263 near <260 kill, VIX/banks benign, carry red.
+- **Positions:** no position/expiry action without broker/Will truth.
 
 ## Next Reboot Entry Point
 
-Start fresh with:
-1. Read `HEARTBEAT.md` first for the market state: HY 263, stress faded, carry worse.
-2. If system lane: design the group-chat VERIFY/CONTEXT helper pattern — fact packet only, no routing authority.
-3. If WALTER access lane: use the standardized tmux command + `~/.claude/channels/telegram/.env`; keep only one Telegram-WALTER active.
-4. If market lane: monitor HY <260, TIC/FXY/carry, and whether banks/PC proxies re-weaken.
-5. If positions lane: keep separate; broker/Will truth required before any expiry/trade action.
+1. Pull/verify repo; note this closeout commit may be local-only until Will approves push.
+2. If system lane: check whether WALTER ratified the deep-research flag; inspect the actual spec/ledger/doctor diff, not just the proposal.
+3. If market lane: refresh dashboard/FRED HY; key question remains whether HY breaks <260 or banks/PC re-weaken enough to offset.
+4. If SAM lane: check Jun 20 CFTC against SAM v1.6 EV/convexity survival gates.
 
 ## Cautions
 
-- Do not spawn Quick-WALTER for fresh screenshots/news. Queue/escalate to Full WALTER.
-- Do not create parallel signal artifacts (`FORGE/signals/` or generic agent inbox files).
-- Do not delete/archive legacy parallel artifacts yet; 30 `FORGE/signals/*.md` + 14 generic `AGENTS/*/inbox/signal_*.md` are historical and need a deliberate cleanup decision.
-- No trade execution or expiry action without broker/Will truth.
+- Do not push this closeout unless Will explicitly asks.
+- Do not edit `AGENTS/WALTER/*` from Prome for the deep-research feature; WALTER owns ratification.
+- Do not spawn Quick-WALTER for fresh news/screenshots/research-flag judgment.
+- No trade execution or old option/expiry cleanup without broker/Will reconciliation.
