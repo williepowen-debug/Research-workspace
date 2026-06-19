@@ -31,7 +31,7 @@
 
 ## GAPS
 
-- **Push deferred** — SAM had uncommitted work in tree at boot (pull skipped). All commits local. **SAM's USD/JPY handoff commit DEFERRED** (active-in-tree, agent-git-isolation) — write done, commit held for next clean window.
+- ~~**Push deferred**~~ **RESOLVED — PUSHED + SYNCED** (Will opened a coordinated push window ~00:31 UTC 6/19; final commit b685c9df; 0/0 vs origin). Earlier 6 WALTER commits were already on origin (push-train via SAM/HAWK); the deferred SAM USD/JPY handoff fast-forwarded last → all CC handoffs on-origin = delivered. (Auto-memory uncommitted changes left untouched — another agent mid-write.)
 - **CC handoffs (RED ×3 / HENRY ×1)** = `WRITTEN_NOT_DELIVERED_PENDING_PUSH` until a push window. OC handoffs (HAWK/BRENT/LIQUID) reach OpenClaw clones on next sync.
 - **Iran anchor re-stamp used HAWK 6/18 + Maersk verify, NOT an independent full WebSearch sweep** — defensible (HAWK did the signing domain re-verify; Maersk verify covered the reopening leg) but a full multi-source sweep on the signed-MOU terms is owed at the next Iran re-verify.
 - **3 dead cron feeds** unchanged (news-sweep 32d / filing-watch 42d / SIGNALS 16d) — PROME/SENTRY-owned, escalated.
@@ -39,7 +39,7 @@
 
 ## WILL_NEEDS
 
-1. **Push window** when convenient — local commits queued (3 dispatches + 10 handoffs + closeout). SAM handoff commit needs a clean tree (SAM was active).
+1. ~~**Push window**~~ DONE — Will opened the window ~00:31 UTC 6/19; all session work pushed + synced (b685c9df); SAM handoff delivered.
 2. **🔴 Cron health escalation** (unchanged) — all 3 boot-triage feeds dead; PROME (news-sweep + filing-watch) / SENTRY (SIGNALS).
 3. **FL housing/insurance migration** — the Newsweek FL-retiree item was killed (teaser/no data); if you want the *underlying* out-migration data (counts + insurance-cost driver + condo-segment overlap w/ SIG-W-20260526-007), say so and I'll pull + route it properly (→ REGINALD/SHADE).
 4. **Iran re-verify checkpoint** — next trigger is the verified-reopen confirmation ladder (liner carriers resume / JWC reclass / premiums normalize) OR MOU collapse, not a fixed date.
