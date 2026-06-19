@@ -206,3 +206,21 @@
 - 🟠 ORANGE — Elevated / Stress building
 - 🔴 RED — Critical / Active stress
 - ⏳ Pending data
+
+---
+
+## Coastal Amenity / Environmental (second-order overlay)
+
+### VX-CORAL-SARG-01 — Sargassum (SE FL Atlantic)
+
+*Recurring Jun–Aug coastal-amenity tax on CORAL's worst-already condo geography (Miami-Dade/Broward/PB/Keys); Gulf Coast spared. Second-order, perception-driven demand reinforcement — NOT an insurance peril, NOT yet a bank-balance-sheet signal. Modeled economics, not realized.*
+
+| Metric | Current | Threshold | Status |
+|--------|---------|-----------|--------|
+| USF belt biomass (spring) | ~28.9M MT (May-31 2026) | 🟡 >30M spring / 🟠 >37.5M (record) / decline <25M = relief | 🟠 |
+| NOAA SIR — SE FL band | **High** (Jun 16 2026) | low → warning → medium → **high** | 🟠 |
+| Modeled direct FL east-coast impact | $2.7B/yr (Jin/Wang/Dalton 2025) | modeled annual-expected, NOT realized | — |
+| Visitor cancellation (perception) | ~1 in 10 (Keys, Monroe County eval) | tourism risk, not documented loss | 🟡 |
+
+*Leading indicators: USF monthly bulletins (belt biomass), NOAA SIR map. Landfall severity highly variable (winds/Loop Current) — a large offshore belt ≠ guaranteed beaching (2023/2024 lesson). Tourism visitor-flow impact → MARCO; CORAL owns the coastal-real-estate amenity/collateral piece. Detail → `sources/Sargassum_2026_FL_Briefing.md`.*
+*Source: Will-provided briefing 2026-06-18 (USF/NOAA/FAU/Jin 2025). Last Updated: 2026-06-19.*
