@@ -1,0 +1,7 @@
+timestamp_read	signal_id	disposition	source	notes
+2026-06-20T21:35:00Z	SIG-W-20260618-003	noted	INBOX_WALTER	USD/JPY 40yr-high / 2024-intervention analog; carry-trade funding read (SAM primary). Feeds Foreign dashboard USD/JPY context.
+2026-06-20T21:35:00Z	SIG-W-20260618-004	info-only	INBOX_WALTER	Cushing ~20M operational bottom (EIA 6/12); BRENT domain. On radar for WTI hub-dislocation funding/basis (Boundary #3 chain); no LIQUID action.
+2026-06-20T21:35:00Z	SIG-W-20260618-006	noted	INBOX_WALTER	Bank capital-requirement cuts (OCC/FRB/FDIC; comment 6/18); REGINALD primary. System-wide cushion thinner into credit cycle = Barr NDFI-amplifier. Financial-stability context.
+2026-06-20T21:35:00Z	SIG-W-20260618-007	noted	INBOX_WALTER	Fitch May CMBS DQ 3.31% (headline-flat, 64% maturity defaults $1.11B); REGINALD primary. Maturity-wall refi-failure = funding-availability tell. CRE-credit context.
+2026-06-20T21:35:00Z	SIG-W-20260619-003	acted	INBOX_WALTER	TIC April: private swung to $23.1B OUTFLOW (~$184B MoM swing), official +$49.2B offset, Japan UST $1.210T. Directly informs Foreign Official dashboard refresh this session; ACTION routed to BOND.
+2026-06-20T21:35:00Z	SIG-W-20260619-005	noted	INBOX_WALTER	USD/JPY no intervention 6/18 (jawboning only, verified FALSE intervention claim); 161.80 fresh 40yr-low. Intervention-risk premium building, not realized. SAM owns (SAM-23 ~30% no-strike).
