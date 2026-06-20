@@ -49,6 +49,8 @@ For each file in `inbox/`:
 | Trigger | Target | Priority |
 |---|---|---|
 | Treasury auction BTC <2.3 or tail >2bps, especially repeated | LIQUID, ZHAO | 🔴/🟠 |
+
+> ⚠️ **These are v1 thresholds (undated SOP; last reviewed 2026-06-20).** The approved `proposals/MATRIX_V2_DRAFT` replaces the fixed 'tail >2bps' with per-tenor 15th-percentile rules — not yet ported (Packet 9 paused), so v1 applies for now. Also: per GAO the note/bond BTC norm has drifted ~3.0→2.5, so 2.3 sits near the new structural floor.
 | Dealer take-down spikes / indirect demand weakens materially | LIQUID, ZHAO | 🟠 |
 | HY OAS >350 or HY issuance freezes | HENRY, REGINALD, LIQUID | 🔴 |
 | IG issuance freezes or blue-chip deal pulls | REGINALD, LIQUID | 🔴 |

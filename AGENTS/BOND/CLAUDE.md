@@ -92,14 +92,16 @@ When spawned with a task:
 
 ## KEY THRESHOLDS
 
-| Metric | Current | Threshold | Implication |
-|--------|---------|-----------|-------------|
-| HY OAS | 319bps | 350bps | Issuance freeze begins |
-| HY OAS | 319bps | 500bps | Acceleration / forced selling |
-| CDX-Cash Basis | Diverging | Sustained divergence | Synthetic leading cash — hedging demand outpacing real selling |
-| 5Y BTC | Worst in 4yr | Below 2.3x | Demand hole — auction mechanism stressed |
-| DFII10 (10Y real) | 2.13% | >2.5% sustained | Real-yield stress regime — duration-risk dominates over Fed-expectations; supply/term-premium story confirmed |
-| T5YIFR (5Y5Y fwd) | 2.32% | >2.5% sustained | Inflation expectations unanchored — Fed credibility leg; combined with real-yield break = stagflation-tape risk |
+*Live readings for every metric below live in `STATUS.md` (dashboard) — intentionally NOT duplicated here, to avoid stale drift between sessions.*
+
+| Metric | Threshold | Implication |
+|--------|-----------|-------------|
+| HY OAS | 350bps | Issuance freeze begins |
+| HY OAS | 500bps | Acceleration / forced selling |
+| CDX-Cash Basis | Sustained divergence | Synthetic leading cash — hedging demand outpacing real selling |
+| 5Y BTC | Below 2.3x | Demand hole — auction mechanism stressed. *(NB: note/bond BTC has secularly declined ~3.0x→2.5x per GAO, so 2.3x now sits just under the new structural norm — read 2.3–2.4 prints as "below new-normal," not "fine.")* |
+| DFII10 (10Y real) | >2.5% sustained | Real-yield stress regime — duration-risk dominates over Fed-expectations; supply/term-premium story confirmed |
+| T5YIFR (5Y5Y fwd) | >2.5% sustained | Inflation expectations unanchored — Fed credibility leg; combined with real-yield break = stagflation-tape risk |
 
 ---
 

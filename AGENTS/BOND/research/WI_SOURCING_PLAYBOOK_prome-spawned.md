@@ -35,7 +35,9 @@
 
 ---
 
-## Recommended Workflow — 5/21 10Y Reopening (1pm ET)
+## Recommended Workflow — Treasury Coupon Auction (general SOP)
+
+*(Worked example below uses the 5/21 10Y reopening; the steps are tenor-agnostic — recalibrate the percentile bands per tenor.)*
 
 **12:45-12:55pm ET — Pre-position:**
 1. Open CME 10Y futures front-month (ZN) quote page; note current implied yield. This is your DIRECTIONAL anchor only — do not state it as WI.

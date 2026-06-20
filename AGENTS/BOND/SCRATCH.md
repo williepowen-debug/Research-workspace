@@ -1,44 +1,41 @@
-# BOND SCRATCH — 2026-06-15
+# BOND SCRATCH — 2026-06-20
 
 **Purpose:** Ephemeral session handoff — the canonical "where are we / what next." Read at boot, rewritten in full at closeout. Disposable. Persistent learnings → `MEMORY.md`; durable thesis → `thesis/THESIS.md`; live state → `STATUS.md`.
 
 ---
 
-## CHANGES SINCE LAST SESSION (6/9 → 6/15)
-- Long-end episode **relaxed**: 10Y 4.53→4.47, 30Y 5.01→4.97, VIX 21.2→16.1, DFII10 2.21 (6/10 peak)→2.16. Brent −13% (Hormuz war-risk premium out).
-- **June refunding cleared**: 3Y (6/9) solid (BTC 2.64); 10Y (6/10) strong (BTC 2.57 / ind 78.0% / PD 9.4%); 30Y (6/11) soft-orderly (BTC 2.33 / ind 59.8%). No demand hole.
-- Credit calm: HY 271, CCC 948, IG 74. Bifurcation didn't widen.
+## CHANGES SINCE LAST SESSION (6/15 → 6/20)
+- **The 6/16–6/18 gate resolved AGAINST a re-arm.** 20Y reopening STRONG (BTC 2.75, best in 3mo → **BND-09 FALSE**); 6/17 FOMC (Warsh) **hawkish but bear-FLATTENED** (2Y +15bp→4.20, 30Y flat 4.93) — hit the Fed-path, not term premium; 6/18 5Y TIPS solid (BTC 2.61). Composite **11/35** (flat). "Expensive, not broken" = 5 straight.
+- Credit calm held tighter: HY 263 (−8), CCC 939, IG 74. Bifurcation re-widening (CCC/HY 3.57x).
+- The one escalating vector: **DFII10 real yield 2.23 (+7)**. Iran re-declared Hormuz closed 6/20 (declaratory, not kinetic → low weight).
 
 ## WHAT I DID THIS SESSION
-- **Refunding post-mortem:** resolved **BND-08 FALSE** (no demand hole); de-escalated composite **12→11/35** (long-end/duration 3→2); fixed near-term calendar (the 20Y/FOMC are THIS week, not "July").
-- **ORC cross-check corrections:** dealer-absorption HELD at 3 (it's a STOCK vector — FR2004 inventory — not auction FLOW); BND-08 caveated as borderline (30Y ind 59.8%, tail unpinned from primary).
-- **Parity build Packets 1–6** (all committed + pushed): thesis/ structure (THESIS v1.0 + CHANGELOG + PREDICTIONS moved from workbook/); slim STATUS 150→102; VX suite-consistency (12/13/14→2, DFII10 2.21 alignment); SCRATCH; MEMORY (+ LAST_COMPLETION retired, sentiment-lens lesson preserved); docket/CATALYSTS.tsv + archive sweep; CLAUDE.md path fix.
-- Added **BND-09** (6/16 20Y stress test, bar BTC<2.40, OPEN).
-- **Closeout gap analysis** vs VIOLET/SAM/BRENT → banked as the **Packet 9 spec** (`proposals/CLOSEOUT_GAP_ANALYSIS_2026-06-15.md`); scope tightened w/ ORC (drop MAINTENANCE.md + boot.py).
+- **Boot + dashboard refresh** (live FRED/yfinance); processed WALTER TIC-April signal (KB-049); recorded 20Y/FOMC/TIPS+BOJ (KB-050/051/052); resolved **BND-09 FALSE**, added **BND-10** (long end no re-engage, resolve 6/30).
+- **5-day news sweep** (KB-053 ACM TP +0.73 / GAO BTC 3.0→2.5; KB-054 Warsh MBS-sales intent; KB-055 PIMCO default-cycle + CLO impaired; KB-056 6/23-25 cluster + record MMF cash).
+- **Live-resolved the 30Y discrepancy** vs TreasuryDirect API: primary 6/11 BTC 2.33 confirmed; secondary "6/12 2.43" was wrong.
+- **Full data audit + remediation (Will: "fix everything"):** CLAUDE.md/THESIS live-value columns → pointers to STATUS; TRADE.md full refresh; monitors backfilled (AUCTION_HEALTH +5 auctions, DEALER_CAPACITY FR2004 record, CDX re-run live); FLOW.tsv 8 pathways demoted; KB 28-row status sweep (16 SUPERSEDED / 12 STALE); VX-02/07 refreshed; CATALYSTS resolved + 6/22 Brent; archived WATCH_20Y + PRE_AUCTION_BASELINE; relabeled MATRIX_V2 / PROTOCOL / WI_PLAYBOOK.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **6/16 (Tue) ~1pm ET — 20Y reopening (CUSIP 912810UV8):** grade vs BND-09 (tail >1.5bp + ind <60%, or BTC <2.40). Stress marker → TLT add re-arm + long-end re-escalate. Use PRE_AUCTION_BASELINE template — **recalibrate thresholds 10Y→20Y** (its numbers are 10Y-specific). Archive PRE_AUCTION_BASELINE + WATCH_20Y after grading.
-2. **6/17 (Wed) 2pm ET — FOMC:** long-end / term-premium consequence read; rate-expectations routed to HENRY.
-3. **6/18 (Thu)** — 4Y10M TIPS reopen (CUSIP 91282CQP9). Different buyer base — doesn't speak to nominal sponsorship.
-4. Re-check **energy HY OAS** (stale 285 / Apr 28, owned by LIQUID) now that VIX/Brent eased.
-5. **Resume paused parity build** (Will: "no more packets" this session — paused, not cancelled): **7** NEXUS_BRIEF + SIGNAL_INTAKE (best authored AFTER the 20Y settles) → **8** PROME promotion proposal → **9** CLAUDE.md closeout codification (per the gap-analysis spec). Optional cheap follow-on: port `convergence_score.py`.
+1. **Mon 6/22 — Brent open** (post-Hormuz re-closure): oil→breakevens test; Brent >$88–90 = decoupling breaks → T5YIFR watch.
+2. **6/23–25 — 2Y/5Y/7Y cluster ($183B):** first coupons under the hawkish FOMC (BND-10 test). MMF record cash ($7.92T) = demand headwind. Watch BTC/tail.
+3. **~6/23 — FR2004 re-pull:** long-end inventory off the 5/27 record → dealer-absorption vector →2.
+4. **6/30 — BND-10 resolves** (30Y <5.0 / 10Y <4.6 through end-June).
+5. **Daily — DFII10 toward 2.5** (primary TLT-put re-arm); Warsh balance-sheet/MBS-sales task-force interim findings.
 
 ## OPEN THREADS / WATCHES
-- 🟡 Long-end re-escalation watch — **RELAXED, re-armable** at 6/16 20Y / 6/17 FOMC.
-- 🟡 Credit bifurcation — CCC 948, energy HY stale (pull LIQUID).
-- 🟡 VX-BND-15 anchoring — 2bp under band; candidate for →1 if breakevens keep easing.
-- ⚪ Treasury buyback long-end accept-cap — YCC-lite bright-line; not current policy.
-- 📋 Audit backlog (from archived 5/11 ARCHITECTURE_AUDIT, core ~85% done): residuals = `playbooks/` dir not built (functionally covered by `proposals/MATRIX_V2_DRAFT` + sentiment lens in MEMORY); BOND-specific vocab groups (AUCTIONS/DEALER_CAPACITY — verify in `AGENTS/VOCABULARIES.tsv`); dashboard HY-OAS/10Y labeling as LIQUID/BOND; spawn availability = Tier-1 promotion (Packet 8, paused).
+- 🟡 Long-end held through hawkish Fed; **DFII10 2.23 rising** is the live re-arm metric.
+- 🟡 Credit bifurcation — CCC/HY 3.57x widening; PIMCO "default cycle begun" + CLO BSL impaired (KB-055); **energy HY OAS stale 285/Apr28 — pull from LIQUID**.
+- 🟠 Dealer-absorption = 3 (FR2004 5/27 record, $67B 11-21Y); re-pull ~6/23.
+- ⚪ Warsh active-MBS-sales intent → forward long-end supply (2H26/2027 risk); Treasury buyback long-end accept-cap bright-line.
 
-## POSITION DECISIONS PENDING
-- **TLT puts:** HOLD, no add. Conditional-add re-arm on a weak 6/16 20Y or sustained 5-session threshold break.
-- **HYG $75P Jun:** near-expiry salvage; reopen only on HY OAS >300 w/ velocity.
+## POSITION DECISIONS
+- **TLT puts:** HOLD, no add — a bear-flattener is the wrong tape; re-arm only on DFII10 >2.5, or 30Y>5.0/10Y>4.6 5 sess + weak auction, or a real tail at 6/23-25.
+- **HYG $75P Jun:** EXPIRED (moved to TRADE.md Closed/Expired).
 
 ## MAIL STATE
-- Inbox: clear.
-- Outbox: clear (last outbox 6/5).
+- Inbox: clear (WALTER TIC processed → processed/).
+- Outbox: none this session (push-friction restraint; nothing 🔴).
 
 ## WORKBOOK / PUSH HEALTH
-- PREDICTIONS now in thesis/ (BND-08 resolved, BND-09 open). VX refreshed. KB/FLOW untouched this session.
-- **ALL COMMITTED & PUSHED — origin/master synced 0/0 through `75f38cc4`.** Nothing pending. Session commits = `f16c6b5c..75f38cc4` (BOND-only, each verified 0 swept files). Packets 1–6 + gap analysis all on master and ORC-verifiable.
-- **CONCURRENCY note (durable, now in MEMORY too):** other agents (BROCK 6/15) commit in this same clone — use **path-scoped commits** (`git commit AGENTS/BOND/<file>`), never plain `git commit` of the index. Push-train: a coordinated push sweeps all agents' committed-unpushed work.
+- KB through **KB-BND-056**; VX 16 vectors current; FLOW refreshed; PREDICTIONS BND-09 FALSE / BND-10 OPEN.
+- **PUSH PENDING — deferred.** Other agents have uncommitted work OUTSIDE BOND (WALTER `IRAN_WAR.md`, BRENT inbox) → did NOT pull/push. All BOND work committed locally (path-scoped, 0 swept files). Sweep in the next coordinated push window.
