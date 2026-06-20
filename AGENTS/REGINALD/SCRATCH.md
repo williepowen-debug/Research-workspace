@@ -18,6 +18,18 @@
 
 ---
 
+## 2026-06-20 — Recovery of orphaned 6/19 BOARD rows + CRE-DQ-by-tier drill
+
+**Noticed during the session:**
+- The CRE-DQ-by-tier question resolved cleaner than expected: it's a CRE-**CONCENTRATION** sort, not asset-size. OZK + EGBN (the 2 highest-CRE names) creep; BKU/SBCF (diversified) don't. SIG-009's "$16-40B tier" was a proxy for concentration — a Trepp asset-bucket cut can mask a concentration story. Worth remembering for future tier-based signals.
+- **Reservoir-lag is the load-bearing concept.** OZK's NCO (0.57%) looks benign but past-due doubled and 88% is 5 CRE loans; the loss line lags the leading bucket 1-2 quarters. Reading NCO alone (the 6/8 cut) missed this — the drill's value was *switching metrics* (DQ leading vs NCO lagging), exactly what the 6/19 open question flagged.
+- **Accepted the adversary's BKU hole.** I pulled BKU's nonaccrual (lagging) and called it RESOLVING but never pulled its 30-89 past-due (leading) — the bucket that moved at OZK. With only the OZK number I might've over-claimed tier-creep; with only BKU-resolving, over-claimed idiosyncratic. Honest read needs the leading bucket on BOTH; Q2 gets it. Good case for why the adversarial stage earns its cost.
+- **OZK files no SEC 10-Q** — cost the subagent ~3 verification passes. Promoted to MEMORY Findings so the next OZK drill doesn't repeat the hunt.
+
+**Threads carried (all in ROADMAP):** BKU 30-89 past-due Q2 falsifier, EGBN CRE-creep watch, Iran oil-leg re-firm (Mon 6/22), capital-rules final rule, MI3/FFIEC, APO Q1, OZK Call Report recheck.
+
+---
+
 ## 2026-06-19 — Boot + 11-day-gap catch-up + BOARD CRE-credit mini-cluster [pruned stale 6/02 section >2wk; its threads live in ROADMAP]
 
 **Noticed during the catch-up:**

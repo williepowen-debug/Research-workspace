@@ -1,6 +1,6 @@
 # REGINALD CALENDAR
 
-**Last Updated:** 2026-06-19 (11-day-gap catch-up — Jun 18 AOCI comment-close + options expiry cluster both FIRED, marked ✅; WAL Q2 print ~Jul 30 is now the near-term catalyst) | **View:** Forward-looking only. Past events pruned weekly.
+**Last Updated:** 2026-06-20 (CRE-DQ-by-tier drill — added Q2 BKU-past-due falsifier to July window; WAL Q2 print ~Jul 30 remains the near-term catalyst) | **View:** Forward-looking only. Past events pruned weekly.
 
 ---
 
@@ -24,6 +24,7 @@
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
 | **~Late Jul (~Jul 30)** | 🔴 **WAL Q2 print — critical v2.2 second-data-point test** | NCO ex-fraud test (REG-25); Office classified migration (REG-24); $99M life-science loan charge-off post-mortem (LGD assumption test); whether ADDITIONAL Office credits walked away in Q2 (2+ migrations = v2.5/v3 territory; only $99M = v2.2 may overstate) | If REG-25 fires (NCO >40bps) + REG-24 progresses ($476M Q2 start + further migration → $500M+) → v2.2 confirmed mechanically. A second material Office walk-away → v2.5/v3 promotion. **Note:** print date (~Jul 30) is AFTER Jul-17 monthly expiry — Jul-dated puts miss it; Sep is the print-catching tenor. | REGINALD primary; cross-flag PROME, RED |
+| **~Late Jul (Q2 prints)** | 🟠 **CRE-DQ-by-tier Q2 falsifier** (from 6/20 drill) | **BKU 30-89 past-due** (the leading bucket NOT pulled 6/20 — peers resolved on lagging nonaccrual/criticized only); OZK FFIEC RC-N formal past-due-by-category (confirm 88%-CRE); SSB/AMTB criticized→NCO conversion (SIG-008 bar); EGBN office-migration→NCO + coverage (114%) | BKU past-due rising while nonaccrual stayed flat → concentration-cohort shifts toward down-tier creep. Past-due flat-to-down → isolates OZK+EGBN as concentration-driven. `research/CRE_DQ_BY_TIER_2026-06-20.md` | REGINALD primary |
 
 ## LATER (forward catalysts — OZK-primary, REGINALD info)
 

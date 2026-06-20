@@ -38,6 +38,8 @@
 - [2026-05-08] **Phantom-detection heuristic** — When a position is referenced in dashboard files but NOT in POSITIONS.md AND NOT in FORGE/STATUS.md, it's stale-tracking. Closed positions need a propagation step to dependent docs. Grep ground-truth (POSITIONS / FORGE) before recommending action on any "decide what to do with X" task.
 - [2026-06-08] **Multi-bank quantitative drill pattern (validated, 5 banks ~15 min):** spawn N parallel Sonnet subagents (one per bank), each fetches primary EDGAR (8-K EX-99 financial supplement = best source — 5-quarter NCO/NPA/ACL trend tables; 10-Q for segment detail) and returns verbatim quotes + accession + URL, marking gaps "NOT DISCLOSED" not estimating. **Then self-curl ONLY the decisive ratios** (`curl -s -H 'User-Agent: …' <archive-url> | sed 's/<[^>]*>/ /g' | tr -s ' \t\n' ' ' | grep -oiE '<row label>[ 0-9.%()-]{0,N}'`) — satisfies Rule #3 without re-pulling everything. The contested/classification-turning name gets self-verified regardless of subagent confidence (FITB caught the "$444M tripled" claim was a misread; actual $144M flat). Pre-register the classification rule before reading data — it inverted the working prior here, which is the tell it wasn't motivated reasoning.
 
+- [2026-06-20] **OZK files NO SEC periodic reports (10-Q/10-K/8-K).** Bank OZK (CIK 0001569650) deregistered SEC periodic reporting after its 2017 holding-co merger — verified 3 ways (submissions API shows only third-party 13F/13G; browse-edgar type=10-Q returns zero; EDGAR full-text 10-Q hits all belong to OTHER filers naming OZK as lender). Don't waste a subagent hunting an OZK 10-Q — it doesn't exist. Primary CRE-DQ / credit data = **FDIC Call Report (FFIEC RC-N, due ~May 1-10)** + earnings release + **Financial Supplement + Management Comments** (the Fig 23/24 RESG past-due roster is the CRE-DQ source). Archived primary PDFs: `AGENTS/OZK/raw/Q1_2026_mgmt_comments.pdf`, `…financial_supplement.pdf`. Contrast: WAL/BKU/SBCF/EGBN/CFG/VLY all DO file standard 10-Qs (CIKs in the table below).
+
 ## References
 - [2026-05-10/11] **LIAISON channel WALTER ↔ REGINALD — Turns 1-5 CLOSE-CONVERGED in <13 hr UTC** — Path: `AGENTS/REGINALD/handoff_WALTER/{README.md, LIAISON.md}`. All 8 Qs LOCKED both sides; 5 instantiated files. REGINALD-side: `registry/THRESHOLDS.tsv` 8-row REG-T-NN + `board/BOARD_LOG.tsv` 11-col (32-row backfill stub) + `CLAUDE.md` Boot Step 9b 3-tier BOARD diff scan. **Boot 9b grep schema: `signal_role: cluster_mediating` NOT `cluster_mediating: true`.** `bank_transmission` enum 8-val pre-cosigned for V0_9_STACK.md. Calibration cycle 1 trigger 2026-05-25 (passed — not run) OR N=15 forward BOARD dispositions. Channel state: POST-WRAP CALIBRATION-PENDING.
 - [2026-04-16] EDGAR CIK for MTB: 0000036270
@@ -54,14 +56,26 @@
 
 ## Session Notes
 
-⚠️ **Open question:** The 6/19 BOARD batch surfaced a **CRE-DQ-by-tier cohort re-opener** (SIG-W-20260618-009): megabanks resolving office CRE-DQ (1.9%→1.5%) while smaller regionals ($16-40B, OZK-sized) tick UP. My 6/8 "cohort improving / WAL idiosyncratic" finding was **NCO-by-name** — this is **CRE-DQ-by-asset-tier**, a different metric. Not a contradiction, but: **does the smaller-regional tier have a CRE-specific creep the NCO cut didn't capture?** Cleanest test = OZK ($38B, dead center of the rising tier). Needs a dedicated CRE-DQ (not NCO) Call-Report drill. NOT yet a reweight.
+⚠️ **Open question:** The CRE-DQ-by-tier drill (6/20) confirmed a **CRE-concentration creep at the LEADING-bucket stage** (OZK past-due doubled / EGBN nonaccrual creeping, both primary-verified) — but every name's NCO (the loss line) is still benign. **The unresolved thing: does the leading creep CONVERT to realized NCO + specific reserves at Q2 (~Jul 30)?** That's the SIG-008 "synchronized criticized→NCO across >1 bank" bar and the line between reservoir-lag (bearish, recognition pending) and genuine resolution. Cleanest single test = **pull BKU's 30-89 past-due** (the leading bucket I did NOT pull — peers were judged on lagging nonaccrual/criticized; the adversary's accepted hole). Secondary live item: 6/20 Iran de-escalation REVERSED (WALTER) — Mon 6/22 Brent open tells whether the stagflation oil-leg re-firms.
 
 **Pending Will calls (post-ORC pass):** (1) ✅ WAL $85P disposition — RESOLVED, Will confirms all Jun-18 closed/expired worthless. (2) ✅ **Exit-rule re-anchor — CONFIRMED by Will 6/19:** keep HY<260 as a REVIEW trigger (not auto-Exit-100%) + CRE-channel exit anchors. In force. (3) ✅ **SSB $90P — RESOLVED:** Will confirms real position, sold/closed (date unrecorded) — unrecorded-exit propagation gap (NOT a fabrication-phantom), recorded CLOSED. EV/PT/weights/predictions still UNCHANGED.
 
-**Push status:** Branch is **clean / synced to origin** at boot (the 6/8 push-train swept commit `a61e4ce3` + the fleet's 6/8 local commits to origin — pending-push resolved). This session's commit defers to the next Will-coordinated window per [[feedback_defer_push_coordinate]]. WALTER/BRENT have uncommitted files outside my dir — did NOT touch, did NOT pull.
+**Push status:** At boot the branch was **4 commits ahead of origin** (LIQUID/BOND/WALTER/SAM 6/20 commits unpushed — normal per deferred-push protocol) AND BROCK/LIQUID/WALTER/BRENT had **uncommitted files outside my dir** → I did NOT pull, did NOT touch them. This session committed locally (recovery `bf2d844d` + drill closeout); defers push to the next Will-coordinated window per [[feedback_defer_push_coordinate]] / [[finding_push_train_pattern]].
 
 ### CHANGES SINCE LAST SESSION
 (leave blank — next-boot market.py + drift-grep populates)
+
+### LAST SESSION (6/20 — recovery of orphaned 6/19 BOARD rows + CRE-DQ-by-tier drill)
+
+Will flagged the prior session exited prematurely. Boot diagnostic found the fingerprint: a follow-on session (after the 6/19 catch-up commit `ba356249`) had appended **2 uncommitted rows to `board/BOARD_LOG.tsv`** (SIG-W-20260619-007 INFO_ONLY + SIG-W-20260619-008 WOULD-INTEGRATE FL bank-transmission deep-research) and died before commit/closeout — the only dirty REGINALD file. Nothing lost; the judgment was captured in the board row.
+
+**What I did:**
+1. **Recovery** — committed the 2 orphaned BOARD_LOG rows as-is (`bf2d844d`) to preserve provenance; deferred SIG-008 propagation + closeout into the drill (so the CRE-DQ-by-tier thread is written once).
+2. **CRE-DQ-by-tier drill** (resolves the 6/19 open question; `research/CRE_DQ_BY_TIER_2026-06-20.md`) — ran a workflow: 3 parallel primary pulls (OZK / in-tier peers / tier-contrast) + adversarial verify. **Pre-registered the classification rule before data.** Verdict: the SIG-009 "$16-40B tier creeping" is **a CRE-CONCENTRATION cohort, not asset-size.** OZK (past-due doubled $207→$465M, **88% = 5 RESG/CRE loans** per Mgmt Comments p.22; NCO lagging benign 0.57%; NPA actually rose $402→$451M masked by 2 new foreclosures) + EGBN (IPRE nonacc +23%, constr +61%, NPA 1.04→1.31%, coverage 149→114%) CREEP — the two highest-CRE names. Diversified in-tier peers do NOT (BKU RESOLVING — CRE nonacc flat-to-down, constr→$0, criticized −12%; SBCF criticized exactly FLAT 2.82%, broad collateral-backed tick). Megabanks RESOLVING (CFG/MTB/ZION — Trepp 1.9→1.5% confirmed). **Reconciles** the 6/8 NCO-by-name cut (lagging benign cohort-wide) with the leading CRE-DQ creep — same reservoir pipeline, different stages. **WAL creep separately idiosyncratic-office → EV $68.93 / PT $50-68 / Bear-med 25 / REG-24/25 / positions UNCHANGED, no reweight.** SIG-008 FL-5 corroborates.
+3. **Adversary earned its keep** — conf 0.5 MIXED, landed the defined falsifier: peers were judged on *lagging* buckets (nonaccrual/criticized); I did NOT pull BKU's 30-89 *past-due* (leading) line, the exact bucket that moved at OZK. → Q2 test queued (ROADMAP + NEXT SESSION). Honored it; capped confidence at ~0.55.
+4. **Closeout** — STATUS (header/blockquote/Stagflation row/CRE-DQ row/EGBN+OZK matrix rows/macro-read) + ROADMAP (drill thread RESOLVED + EGBN thread + Q2 falsifier in AWAITING DATA + Recently Resolved) + this MEMORY + new Finding (OZK no-10-Q) + SCRATCH. Also folded the **6/20 WALTER Iran reversal** (de-escalation lean REVERSED — Hormuz re-declared closed Sat, declaratory/DISPUTED) into the Stagflation channel as a contested-oil-leg caveat (Mon 6/22 Brent = test).
+
+**Cross-agent:** drafted an outbox to OZK (reservoir corroboration: CRE-DQ creep primary-confirmed CRE-led + EGBN independent parallel). Per outbox-restraint this is the one genuine 🟠 delta worth a file.
 
 ### LAST SESSION (6/19 — 11-day-gap boot + BOARD CRE-credit mini-cluster + tape/FRED catch-up)
 
@@ -75,7 +89,7 @@ Will-framed catch-up session ("market closed Juneteenth, get REGINALD files curr
 5. **ROADMAP** — 3 new open threads (CRE-DQ-by-tier drill, capital-rules final-rule watch, WAL $85P disposition flag); Jun 18 awaiting-data marked fired; 6/19 recently-resolved entry.
 
 **Two analytically live items (both flagged, neither actioned beyond logging):**
-- **CRE-DQ-by-tier cohort re-opener** (see Open question above) — the one worth a drill. Different metric from my 6/8 NCO cut; doesn't contradict, but tests whether OZK-sized tier has a CRE-specific creep.
+- **CRE-DQ-by-tier cohort re-opener** — the one worth a drill. Different metric from my 6/8 NCO cut; doesn't contradict, but tests whether OZK-sized tier has a CRE-specific creep. → **drilled & resolved 6/20: concentration-cohort, not asset-tier; WAL unchanged** (`research/CRE_DQ_BY_TIER_2026-06-20.md`).
 - **HY OAS 263bps is 3bps from my own <260 Exit-100% rule** — if it sustains sub-260 the bear's credit-transmission leg is gone. Added an explicit ⚠️ trigger row. The risk-on tape keeps tightening this; watch.
 
 **Macro reframe:** stagflation channel *rotated* not resolved — oil leg fading (Brent −$14) but rate leg firming (Fed hawkish-flip 6/17, no actual hike, IORB flat 3.65). Bifurcation re-widened (CCC/HY 3.44→3.57x) — corrects the 6/8 "narrowing" read; the tail is lagging the index rally.
@@ -110,15 +124,15 @@ A high-yield session with three discrete delivered units plus one protocol harde
 
 ### NEXT SESSION
 
-1. **Boot normally** — git pull, boot docs, market.py, inbox scan, BOARD diff scan Step 9b (last logged 6/19; new since = pick up from SIG-W-20260619-006).
-2. ⚠️ **WAL $85P Jun 18 disposition** — get from Will/FORGE (expired ~$5.09 ITM); reconcile POSITIONS.md.
-3. 🟠 **CRE-DQ-by-tier drill (the live one)** — pull OZK/WAL/EGBN/SSB CRE *delinquency* (not NCO) from Q1 Call Reports/10-Qs; test "WAL idiosyncratic" vs "smaller-tier CRE creep" (SIG-W-20260618-009). OZK is the cleanest test. Reconciles-or-revises the 6/8 cohort framing on the CRE channel.
-4. 🟡 **HY OAS <260 watch** — if it sustains sub-260, the credit-transmission leg of the bear is gone → Exit-100% signal. Currently 263. Cheap to monitor at boot via FRED.
-5. 🟠 **Capital-rules final-rule watch** — model AOCI-inclusion CET1 impact on WAL/OZK when the rule finalizes (affects Bear-medium capital-absorption leg).
-6. 🟡 **Q2 cohort re-open watch (~Jul 30)** — does genuine NCO improvement survive the maturity wall? MTB CRE-reserve-release (−31% ACL vs −10% loans) is the optimism tell. Pairs with WAL Q2 print as v2.2 second-data-point (now carries more weight — cohort cover contested on CRE-DQ channel).
-7. 🟠 **MI3 / FFIEC PDD status check** — still pending; if available run v2.1 calibration table (WAL/THESIS.md).
-8. 🟠 **APO Q1 post-print** (now ~6wk stale) — Atlas SP, warehouse book, non-bank servicer counterparty. + 🟠 **OZK 10-Q recheck**.
-9. 🟡 **PROME ZION scaffold-fill** (inbox, now 6wk+) + 🟡 **CARL handover** (inbox) — dedicated sessions. + 🟡 Q&A transcript hunt / life-sci #3 watch / investigations (Juris banking / Slide 113 / Slide 89).
+1. **Boot normally** — pull-protocol check, boot docs, market.py, inbox scan, BOARD diff scan Step 9b (6/19 fully logged 001-008 except -005 FX-skip; pick up from first SIG-W-20260620-xxx — none on disk at 6/20 close).
+2. 🟠 **CRE-DQ-by-tier Q2 falsifier (~Jul 30)** — **pull BKU 30-89 past-due** (the leading bucket NOT pulled 6/20 — peers resolved on lagging nonaccrual/criticized only); OZK FFIEC RC-N formal past-due-by-category (confirm 88%-CRE); SSB/AMTB criticized→NCO conversion (SIG-008 bar); EGBN office-migration→NCO + coverage (114%). Tests concentration-cohort vs down-tier creep.
+3. 🟡 **Iran oil-leg re-firm watch** — WALTER 6/20 de-escalation REVERSED (Hormuz re-declared closed Sat, DISPUTED); Mon 6/22 Brent open = does the stagflation oil-leg re-fire? Cheap boot check.
+4. 🟡 **HY OAS <260 watch** — 263bps, 3bps from the REVIEW trigger (re-anchored from auto-exit 6/19). Cheap FRED check at boot.
+5. 🟠 **Capital-rules final-rule watch** — model AOCI-inclusion CET1 impact on WAL/OZK when the rule finalizes (Bear-medium capital-absorption leg).
+6. 🟡 **Q2 cohort re-open (~Jul 30)** — does genuine NCO improvement survive the maturity wall? MTB CRE-reserve-release (−31% ACL vs −10% loans) the optimism tell. Pairs with WAL Q2 print (v2.2 second-data-point) + the BKU falsifier (#2).
+7. 🟠 **MI3 / FFIEC PDD status check** — still pending; if available run v2.1 calibration table (WAL/THESIS.md). Pairs with OZK Call Report.
+8. 🟠 **APO Q1 post-print** (now ~7wk stale) — Atlas SP, warehouse, non-bank servicer counterparty. + 🟠 **OZK Financial Supplement / Call Report recheck** (NOT a 10-Q — OZK doesn't file one, see Findings).
+9. 🟡 **PROME ZION scaffold-fill** (inbox, 6wk+) + 🟡 **CARL handover** (inbox) — dedicated sessions. + 🟡 Q&A transcript hunt / life-sci #3 watch / investigations (Juris banking / Slide 113 / Slide 89).
 
 ### LAST SESSION (6/2 — boot + 12-day catch-up) [1-line recap]
 Factual hygiene only (Will-fenced no messaging/analysis): tape fully retraced 5/15-5/21 stress regime (WAL reclaimed $78, Brent −$15, 10Y −16bps, VIX off spike); credit bifurcation lone non-fader (CCC 909→946 / HY 282→272, ratio widened 3.22→3.48x); FRED date-stamp convention adopted; STATUS PREDICTIONS section stale at 60/55 caught and synced to 70/75. Held PROME Jun-18 calibration reply for next session (delivered 6/8 in `c78c25a8`).
