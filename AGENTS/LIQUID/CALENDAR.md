@@ -1,38 +1,32 @@
 # LIQUID — Calendar & Data Releases
 
-**Last Updated:** 2026-06-12 (rolled forward from 6/8; May CPI + claims resolved with live data)
+**Last Updated:** 2026-06-20 Sat (rolled forward from 6/12; FOMC 6/17 + TIC 6/18 + June auctions resolved → archive)
 
 ---
 
-## This Week (Jun 12, 2026 — Friday)
+## This Week (Jun 22–26, 2026)
 
 | Date | Event | Signal Threshold | Who Cares |
 |------|-------|-----------------|-----------|
-| Today's close | **APO streak Day 4?** | Trigger fired 6/11 (3 closes >$130); watch extension. Close-basis only (OHLC rule) | LIQUID, BROCK |
-| Daily | SOFR / SOFR-IORB | SOFR >3.70 OR SOFR-IORB sustained >0 → re-open KB-LIQ-051 question (current -5bps) | LIQUID |
-| Daily | **HY OAS direction** | Widening resumed (280, 6/10); <265 trigger A still armed if re-compresses; >320 = confirmation | LIQUID |
-| Daily | **USD/JPY post-160** | 5 sessions >160 sustained; BOJ intervention watch | LIQUID, SAM |
-| Various | **BDC Q1 wrap / gate-cluster follow-through** (Cliffwater CDLI late-June; Partners Group 2nd-PE-gate watch) | div cuts, gate caps, NAV — BROCK-led; see `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` | LIQUID, BROCK |
+| **Mon Jun 22** | **FRED posts 6/18 HY OAS** | Resolves TRIGGER A on the <260 watch (263 at 6/17, 3bps cushion; <260 sustained = 🔴 ALL / LIQ-01 kill) | LIQUID |
+| **Mon Jun 22** | **Brent open — Hormuz decoupling test** | Iran re-declared Strait closed 6/20 (declaratory). Spike → watch energy-HY-OAS (>300 trip) + flight-to-safety UST bid; shrug → decoupling holds. Price authority = BRENT | LIQUID, HAWK, BRENT |
+| **Mon Jun 22** | **CFTC JPY positioning** (Juneteenth-delayed) | SAM decision-gate: carry-fuel 81% of peak, no cover; USD/JPY 161 / no intervention | LIQUID, SAM |
+| Daily | **HY OAS direction** | 263 (6/17); <260 = soft-kill; >320 = confirmation. CCC-BB 783 (pin — falsifier <400) | LIQUID |
+| Daily | **30Y <4.90 unwind test** | 4.93 (6/17), 3bps away; <4.90 sustained = duration-leg unwind | LIQUID |
+| Daily | SOFR-IORB / USD/JPY >160 | −2bps clean; USD/JPY 161 triggered, intervention-risk | LIQUID, SAM |
+| **Wed Jun 24** | **EIA WPSR — Cushing** | Sub-20M → BRENT Boundary #3 (WTI delivery-dislocation) inbound to LIQUID/HENRY/RED | LIQUID, BRENT |
 
-## Next Week (Jun 15–19, 2026)
-
-| Date | Event | Signal Threshold | Who Cares |
-|------|-------|-----------------|-----------|
-| **Tue Jun 16 PM** | **SOFR-futures 2026 cut-count pull** (pre-FOMC) | Resolves the FOMC hawkish-vs-neutral base case: **≤1 cut priced = neutral-base / ≥2 cuts = hawkish-base** (FOMC_TIC_DECISIONTREE; re-weight the dot-flavor branches off this) | LIQUID |
-| **Wed Jun 17** | **June FOMC — decision day** (presser, SEP/dot plot) | Dot plot revision, Warsh succession color, liquidity-facility language. Pre-staged tree: `workbook/FOMC_TIC_DECISIONTREE.md` | LIQUID, HENRY, ALL |
-| **Thu Jun 18** | **May TIC data (April flows)** | Japan net (>$20B UST sell = SAM route, KB-LIQ-031 anchor), Belgium proxy $481B→$500B ($19B headroom) — KB-LIQ-055 framework | LIQUID, SAM |
-| **Fri Jun 19** | **June monthly opex** | No live LIQUID decisions (TEN closed, HYG written off to expire) | LIQUID |
-| Various | June Treasury auction cycle | BTC, indirect; 30Y the live tell (at 5.01, off 5.168 peak) | LIQUID |
-
-## Later June / July (2026)
+## Later (2026)
 
 | Date | Event | Signal Threshold | Who Cares |
 |------|-------|-----------------|-----------|
 | ~Late June | **Cliffwater CDLI Q1 release** | NAV/satisfaction; gate-cluster follow-through (BROCK-led) | BROCK, LIQUID |
 | Throughout late June | **BCRED Q2 redemption window** | Hard gate? >5% cap / pro-rata satisfaction (final Aug) | BROCK, LIQUID |
 | 30d window from 6/3 | **2nd alt-mgr PE-wrapper gate watch** (post-Partners Group) | Cross-asset-class contagion confirmation | BROCK, LIQUID |
-| Late Jul / Aug | **Q2 10-Q cycle** (FSK, OBDC, BDC marks) | NA reversal vs compounding; div-cut cascade | BROCK, LIQUID |
-| Throughout | Powell → Warsh transition | Policy continuity vs hawkish shift; intervention willingness | ALL |
+| **~Jul 25** | **Q2 BDC marks** (FSK, OBDC) | **NEXUS-named credit-bifurcation transmission test** — CDLI-FSK gap / CCC-BB / mark catch-down. The bear book's load-bearing falsifier-or-confirm | BROCK, LIQUID, NEXUS |
+| Late Jul / Aug | Q2 10-Q cycle (broader BDC marks) | NA reversal vs compounding; div-cut cascade | BROCK, LIQUID |
+| **Late Jul** | **July FOMC — hike watch** | CME ~75% hike priced post-6/17 hawkish dots (9/18 project a hike by YE) | LIQUID, HENRY, ALL |
+| **~YE2026** | **Warsh Balance-Sheet Policy review outcome** | QT pace / SRF / RRP / long-run SOMA "back in play" — Leg A future buffers (thinner). Standing multi-quarter monitor | LIQUID, REGINALD, ALL |
 
 ---
 
@@ -40,6 +34,12 @@
 
 | Date | Event | Outcome |
 |------|-------|---------|
+| Jun 17 | **June FOMC (Warsh debut)** | **HAWKISH HOLD 3.50-3.75% unanimous 12-0.** Dots flipped hike-leaning (2026 median +~35-40bps to ~3.80%; 9/18 hike by YE; 17/18 upside inflation risk). Statement 341→130 words; "ample reserves" reaffirmed; no QT paragraph. **5 review task forces incl. Balance-Sheet Policy.** Bear-flattener: 2Y +16bps (4.18-4.22), 30Y −2 (4.90-4.93), DXY 1yr highs. Integrated 6/20 → KB-LIQ-060 candidate (duration-transmission inversion) |
+| Jun 18 | **May TIC (April flows)** | **Total net +$26.1B; LT +$206.0B (private LT +$164.4B / official +$41.6B); broad private −$23.1B OUTFLOW, official +$49.2B offset.** Official FOI bid carried a private-outflow month. Japan UST $1.210T↓, China $651B, UK $938B↑. Belgium unconfirmed. Touches Leg B kill (1 of 2 prints). Routed ACTION → BOND |
+| Jun 18 | **5Y TIPS reopening (91282CQP9)** | **STRONG: indirect 68.6%, dealer 3.4%, BTC 2.61, real HY 1.955%.** Accepted basis, Treasury fiscal-data API |
+| Jun 16 | **20Y reopening (912810UV8)** | **STRONG: indirect 71.6%, dealer 8.5%, BTC 2.75, HY 4.927%.** Long-end demand FIRMED vs soft 6/11 30Y (59.9%). Accepted basis |
+| Jun 16 | **BOJ policy** | **Hiked to 1.00% as-priced.** No carry unwind (buy-rumor-sell-fact); USD/JPY stayed >160 (rate-differential, not repat). SAM-domain |
+| Jun 19 | June monthly opex | No live LIQUID decisions; HYG $75P expired worthless as planned (written off 6/13), TEN closed prior |
 | Jun 11 | **30Y reopening ($22B, 912810UU0)** | **SOFT-but-cleared: BTC 2.33, indirect 59.9% (vs 66.6% May), dealer 14.7% (elevated), high 5.020%.** Market rallied 7bps post-auction (30Y closed 4.951 — first sub-5 close since 6/4). TreasuryDirect, integrated 6/12 |
 | Jun 10 | **10Y reopening ($39B, 91282CQQ7)** | **STRONG: BTC 2.57, indirect 78.2%, dealer 9.5%, high 4.538%.** Belly demand robust — corroborates KB-LIQ-057 (demand shows at price) |
 | Jun 9 | 3Y note auction | BTC 2.64 — functional |
