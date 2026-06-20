@@ -6,87 +6,81 @@
 
 ## STATUS
 
-**2026-06-19 Fri evening (~6:10 PM ET, Will-Telegram boot — 2nd session of the day — + S-FL deep-research deliverable routed).** Boot: pull SKIPPED (other agents' uncommitted work in tree — SAM/workbook, BRENT/inbox, memory/auto; branch already up-to-date with origin, nothing to fetch). walter_doctor exit 4, no HIGH (3 dead crons MED + REGINALD registry_lag false-positive from the AM CORAL-promotion ref-sweep). Step-6c threshold scan (Fri close): **no new fires** — HY 263 / CCC 939 continuing-fire suppressed; near-trigger watch VIX 16.78 (just above RED-FT-06 <16) + WAL $79.91 (in REG-T-02 band); Brent $80.59 ticked off RED-FT-04. Iran anchor already verified-as-of 6/19 (no re-verify). **Then Will sent the South-Florida-distress deep-research packet — the output of the SIG-W-20260619-007 Phase-2.8 deep-research candidate flag (the first-ever flag) — which WALTER routed as SIG-W-20260619-008 and used to RESOLVE the deep-research ledger row.** 1 dispatch / 0 KILL / 0 verify-research / BOARD 301→302.
+**2026-06-20 Sun (~10:25 AM–3:30 PM ET, Will-Telegram boot — Sunday check-in that turned into an architecture + build session).** Boot clean: pull up-to-date (0/0), walter_doctor exit 3 (the 3 known-stale feeds, MED — now correctly understood as intentionally-off / VPS-down, NOT escalations; see FOLLOW-UP). Step-6c threshold scan (weekend, Fri levels): **no new fires** — HY 263 / CCC 939 continuing-fire suppressed; near-trigger watch WAL $79.91 (REG-T-02 band) + VIX 16.78 (just above RED-FT-06 <16). Iran anchor fresh (verified-as-of 6/19, MOU intact / first-round-postponed) — no re-verify. **0 signal dispatches / 0 kills / 0 verify-spawns this session.** The session's work was a Will-directed design+build effort: (1) walked Will through how the cron feeds work + why they died, (2) designed the Scout (fetch→Telegram-never-git) architecture, (3) found + revived the dormant RESEARCHER deep-research agent — **Phase 1 of a phased revival shipped.** Paused for context checkpoint before Phase 2. Committed locally; **push deferred — Will will orchestrate the coordinated push.**
 
 ## CHANGED
 
-**1 dispatch (Will document intake, msg 2444 — deep-research deliverable):**
-1. `BOARD/SIG-W-20260619-008-south-florida-distress-deep-research-bank-transmission-assessment.md` (NEW) — merged verify-first deep-research packet → **CORAL action / REGINALD, CARL, SHADE, MARCO, RED info.** PRIORITY, BANK_COLLATERAL / cluster_secondary CONSUMER_STAGFLATION, signal_type research-output, signal_role primary_substance, **VERIFIED-PRIMARY 0.85** (no WALTER verify-spawn — the packet IS the verification: AOUSC F-2 / bank 8-Ks+10-Q / Citizens rate filing / BLS / EIA; 3 discrepancies resolved vs filings). WALTER routed-not-analyzed per the 6/19 lean mandate: wrote a routing wrapper (verdict + per-recipient genuine-delta extraction) on top of the **verbatim-embedded** full packet. **Verdict:** tidal-wave OVERSTATED but consumer side genuinely deteriorating; bank-loss transmission NOT yet in Q1 prints; ~70/30 normalization/crash, Iran-energy the dominant tail. **Load-bearing delta vs CORAL:** insurance commercial/condo layer NOT easing (Citizens Commercial +10.4% capped on +18.8% uncapped, opposite of personal-lines) → corrects CORAL's 🟢 insurance mark at the condo-master layer + resolves the SIG-007 insurance tension; adds Amerant (AMTB); BKU ACL correction 0.87% not 1.21%; per-capita normalizes the "top-six."
+**RESEARCHER revival — Phase 1 (Will-directed cross-agent work; committed local `f7846fa7`):**
+1. `AGENTS/RESEARCHER/CLAUDE.md` (rewritten) — modern **two-level identity**: (L1) deep-research on-demand, engine = the `/deep-research` skill, original discipline kept (every claim cited + source-quality tags + counter-evidence mandatory + Process Report); (L2) data-pull script home. Tier-2, Claude Code, **Will-launched**. Real boot + closeout. Hands output to WALTER; never routes itself (WALTER = single entry point).
+2. `AGENTS/RESEARCHER/CONTEXT.md` (refreshed) — from the late-Feb-2026 freeze to the current 11-cluster thesis set + active agent domains (pulled from CLUSTER_TAXONOMY + REGISTRY, no re-interview).
+3. `AGENTS/RESEARCHER/scripts/edgar_fetch.py` (fixed) — kept per Will's two-level decision; both scripts verified working. **Data-integrity catch: the CIK cheatsheet had 4 of 5 CIKs wrong** ("WAL" pointed at Old Republic International). Corrected all vs SEC `company_tickers.json` + added a verify-before-citing note.
+4. `AGENTS/WALTER/REGISTRY.tsv` (+1 row) — RESEARCHER registered (Tier-2 / CC / META / Upstream WALTER,WILL / Downstream WALTER / YELLOW / 2026-06-20). WALTER scope.
+5. `AGENTS/RESEARCHER/REVIVAL_PLAN.md` (NEW) — the canonical phased plan (5 phases) + all resolved design decisions + the **Scout-track capture** (diagnosis of the dead feeds + target architecture + likely RESEARCHER-consolidation). Persisted so both tracks resume cold.
 
-**Ledger close:**
-2. `registry/DEEP_RESEARCH_FLAGGED_LOG.tsv` — **first-ever row written AND resolved**: SIG-W-20260619-007 flag (raised AM 6/19, decision question "is bank-loss transmission close?") → disposition RESOLVED, outcome DELIVERED as SIG-008. walter_doctor `deep_research_pending_overdue` = 0 PENDING. Validates the full Phase-2.8 loop end-to-end (flag → Will runs /deep-research → output back → WALTER routes + closes ledger).
-
-**3. `BOARD/INDEX.md`** — BANK_COLLATERAL 43→44 (ToC cell + section header + appended row); TOTAL 301→302. walter_doctor reconciles 302.
-**4. `routed/route_log.tsv` +1; `routed/delivery_log.tsv` +6; 6 per-recipient handoffs** (CORAL action; REGINALD/CARL/SHADE/MARCO/RED info). CC (CORAL/REGINALD/CARL/RED) = WRITTEN_NOT_DELIVERED_PENDING_PUSH; OC (SHADE/MARCO) = COMMITTED.
-**5. `STATUS.md`** — lead header + BOARD count + SESSION LOG row.
-**6. `MEMORY.md`** — CHANGES-SINCE + deep-research-loop-closer one-liner (promoted to CHECKLIST, see #7).
-**7. Spec change (Will-ratified this session, answering "break a research doc into multiple signals or one?"):** `design/SIGNAL_PROCESSING_CHECKLIST.md` v0.18→**v0.19** — new **Phase 2.8b RETURNING-DELIVERABLE HANDLING**: default ONE `research-output` BOARD signal (verbatim embed + per-recipient genuine-delta wrapper; no verify-spawn → VERIFIED-PRIMARY; WALTER routes-not-analyzes) + close the originating `DEEP_RESEARCH_FLAGGED_LOG` row + **split test S1-S4** (different-actionable-owner / registered-trigger-or-falsification-anchor / different-lifecycle-clock / standalone-discovery-unit) for child-signal carve-out; worked example SIG-008. `design/STATE.md` §1 synced; `version_drift_check` ✓ exit 0.
-
-**8. Closeout adversarial verification pass + fixes (Ultracode):** ran a 6-dimension review→verify workflow (12 agents) over the whole session output. Verdict: clean except 2 substantive findings, both fixed —
-- **(a) Canonical-source inversion:** `signal_type: research-output` was used in SIG-008 + CHECKLIST v0.19 without being in the FORMAT_SPEC enum → added `research-output` to **FORMAT_SPEC v0.10→v0.11** (distinct from `research`: the closed-loop deep-research-deliverable type; STATE §1 synced; `version_drift_check` ✓).
-- **(b) Push-state staleness:** STATUS line 16/17 + MEMORY NEXT SESSION still carried the AM session's "all synced / nothing pending" language while the closeout edits were uncommitted → reconciled all push-state language to the synced reality (resolved on this closeout's commit+push).
-- **NIT fixes:** BOARD CORAL-delta reinsurance −15–20%→**−15–25%** (matches packet + own SHADE/TL;DR); BOARD CARL-delta GDP **2.1→1.8→1.7%**; BOARD routing_note cluster-primary-flip note vs SIG-007; CHECKLIST Phase 2.8b worked example now exercises **all 4 split-test criteria** + an S4-vs-wrapper-delta **precedence note**; **CHECKLIST Phase 3.5 + STATE line 69 BOARD_CONSUMPTION_SPEC pointer v0.2/v0.3→v0.5** (pre-existing drift, spec-doc live pointers swept).
-- **Left as-is (deliberate):** (i) a NIT in the REGINALD handoff ("alongside WAL/OZK/SSB/SBCF" — REGINALD doesn't carry SBCF) — the handoff is already delivered on-origin, so editing it would break the **RULE 10 create-only** delivery contract; AMTB-as-new stands regardless; (ii) the packet-internal "AL ~520 vs exceeding-500" tension lives in the **verbatim embedded packet** (not WALTER's to alter); (iii) the BOARD/INDEX CONSUMER_STAGFLATION "Count 53→52" note sits inside a labeled *Prior Note 2026-06-06* block and live counts all reconcile (53) — readability only.
+**No WALTER signal-routing artifacts changed** (no dispatches → no BOARD/route_log/delivery_log/kill_log edits this session).
 
 ## RESULT
 
-**The deep-research flag loop closed end-to-end on its first-ever use, same-day.** The AM session raised the Phase-2.8 candidate flag on the FL Sun Sentinel bankruptcy article (SIG-007) and handed Will a research prompt; Will ran it; the deliverable came back this evening; WALTER routed it (SIG-008) and resolved the ledger — zero research-execution load on WALTER, exactly as the surface-not-execute design intends. The packet **confirms** CORAL's 🟠-not-🔴 / bank-stress-delayed read on most pillars but **corrects one thesis mark** (insurance is NOT easing at the commercial/condo-master layer that drives CORAL's Coral-Bleaching mechanism) and **resolves both SIG-007 to-own items** (Van Horn "top-six" = population artifact; insurance tension reconciled). Nothing on fire; no threshold fires; no peak.
+RESEARCHER — the network's dormant deep-research identity (built late-Feb, dark since ~early March) — is **revived as a coherent, registered, modern agent in one phase**, without overrunning context. Key realization that de-risked it: the *capability* already runs via the `/deep-research` skill (it made SIG-008 on 6/19), so this was reviving an *identity* for a capability already in use, not building from scratch. The CIK fix turned a latent miscitation landmine into a clean tool on day one. Separately, the long cron-feed walkthrough produced a clear, persisted Scout architecture and **corrected a standing mischaracterization** (the "3 dead crons → escalate" framing was wrong — SENTRY was deliberately disabled 6/2; news-sweep/filing-watch are VPS-down).
 
 ## GAPS
 
-- ~~**Push deferred**~~ **RESOLVED — PUSHED + SYNCED to origin** (Will-coordinated window 6/20 ~00:12 UTC). Both commits (a25e2613 SIG-008 dispatch + 78dfaaa8 CHECKLIST v0.19) on origin; rebased clean over 3 incoming (CORAL×2 boot-maturity/peer-drift + PROME tidy) — disjoint file sets, 0 conflicts; ahead 0/behind 0. All 6 SIG-008 handoffs on-origin = delivered (delivery_log written_state → DELIVERED). Only the BRENT untracked inbox file left in tree (not WALTER's; untouched).
-- **walter_doctor platform-map quirk** — doctor tags CORAL's handoff as OPENCLAW (CORAL is actually CC). Cosmetic; the `written_but_undelivered` telemetry is still correct in substance. Existing open-design-decision (platform inference).
-- **3 dead cron feeds** unchanged (news-sweep 33d / filing-watch 43d / SIGNALS 17d) — PROME/SENTRY-owned, escalated.
+- **Phase 1 committed local, NOT pushed** — Will orchestrates the coordinated push. Commit `f7846fa7` (5 files). Also still local from prior: nothing else WALTER-pending (6/19 evening work was already synced).
+- **RESEARCHER not yet live-tested** — Phases 2 (integration wiring) + 3 (first live run) pending. Engine-as-skill assumption is sound but unexercised under the RESEARCHER identity.
+- **Scout not built** — design captured in REVIVAL_PLAN "Scout track"; touches shared infra (`.github/workflows/`, `FORGE/tools/`) → needs PROME coordination / Will authorization.
+- **walter_doctor will keep flagging the 3 stale feeds** until the Scout replaces them — now understood as intentional/VPS-down, not escalations.
 
 ## WILL_NEEDS
 
-1. ~~**Push window**~~ **DONE — pushed + synced 6/20 ~00:12 UTC** (Will-coordinated; rebased clean over CORAL×2 + PROME).
-2. **🔴 Cron health escalation** (unchanged) — all 3 boot-triage feeds dead; PROME (news-sweep + filing-watch) / SENTRY (SIGNALS).
+1. **Coordinated push** of commit `f7846fa7` (RESEARCHER Phase 1) at the next push window.
+2. **Phase 2 go** when ready (fresh session — reads REVIVAL_PLAN Phase 2 + RESEARCHER/CLAUDE.md, light boot).
+3. **Scout decisions to action when that track starts:** rotate the plaintext feeds-bot token (`8533568512:...` in `cron_sweep.sh`) + create a GitHub Secret + add the bot to the group; confirm the RESEARCHER-consolidation scope.
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
 
-**Done this session (removed from forward list):** ~~SIG-007 deep-research flag~~ RESOLVED (deliverable routed as SIG-008, ledger closed); ~~SIG-007 to-own items (Van Horn rank + insurance tension)~~ both resolved by the packet and handed to CORAL.
+**🆕 This session (RESEARCHER + Scout):**
+1. **RESEARCHER Phase 2** — wire the Phase-2.8 flag loop to name RESEARCHER as executor (CHECKLIST edits: "Will runs the skill" → "RESEARCHER runs it") + define the RESEARCHER→WALTER handoff (output/ → WALTER routes as `research-output`). Then **Phase 3** — first live run end-to-end (pick a real pending question; validate like SIG-008 did Phase 2.8). **Phase 4** (later) — Scout integration + autonomy. See `AGENTS/RESEARCHER/REVIVAL_PLAN.md`.
+2. **Scout build** (separate track) — "fetch→Telegram-never-git" GitHub Action; dedicated/rotated feeds bot in a Secret; lean daily pre-market digest; likely consolidate the collection scripts under RESEARCHER. Full design in REVIVAL_PLAN "Scout track."
 
-**🔴 Time-sensitive forward:**
-1. **Cushing <20M Boundary #3 fire watch** — next EIA WPSR ~6/24 (wk-end 6/19) likely prints sub-20M → IMMEDIATE auto-fire (BRENT primary, WALTER fallback). 20.03M as of 6/12.
-2. **Iran anchor next re-verify** = does the postponed first round reconvene / Lebanon ceasefire holds / verified-reopen ladder (liner carriers resume / JWC reclass / premiums normalize) / MOU collapse / fresh kinetic. Anchor verified-as-of 6/19 (MOU intact, first-round-postponed).
-3. **SAM USD/JPY intervention watch** — 161 red zone; TIC-April (Japan still ADDING USTs) = intervention-selling not-yet-active baseline.
+**🔴 Time-sensitive forward (carried):**
+3. **Cushing <20M Boundary #3 fire watch** — next EIA WPSR ~6/24 (wk-end 6/19) likely prints sub-20M → IMMEDIATE auto-fire (BRENT primary, WALTER fallback). 20.03M as of 6/12.
+4. **Iran anchor next re-verify** = postponed first round reconvene? / Lebanon ceasefire holds? / verified-reopen ladder (liner carriers resume / JWC reclass / premiums normalize) / MOU collapse / fresh kinetic. Anchor verified-as-of 6/19.
+5. **SAM USD/JPY intervention watch** — 161 red zone; TIC-April (Japan still ADDING USTs) = intervention not-yet-active baseline.
 
-**🆕 CORAL follow-ons (from SIG-008):**
-4. **CORAL should split its insurance dashboard mark** — 🟢 personal/reinsurance vs 🟠/🔴 commercial-condo (Citizens Commercial +10.4%/+18.8%). Watch for CORAL to adopt on its next spawn (it's CC; the handoff is in its inbox/WALTER/).
-5. **CORAL add Amerant (AMTB)** to FL_BANK_WATCHLIST; adopt the synchronized-criticized→NCO diagnostic + Ch-7-per-capita FLM/FLS tripwire (>~230/100k) as the Q2/Q3 watch.
-6. **CORAL Phase-2 consume boot-step** — CORAL is CC; two live handoffs now (SIG-007, SIG-008). Same as other CC recipients.
+**🆕 CORAL follow-ons (from SIG-008, carried):**
+6. CORAL split its insurance mark (🟢 personal/reinsurance vs 🟠/🔴 commercial-condo, Citizens Commercial +10.4%/+18.8%); add Amerant (AMTB) to FL_BANK_WATCHLIST + the Ch-7-per-capita FLM/FLS tripwire (>~230/100k); CORAL Phase-2 consume boot-step (CC; SIG-007 + SIG-008 handoffs live).
 
 **🆕 ORACLE routing convention (carried):**
-7. ORACLE now live (Polymarket) — formalize a prediction-market-divergence intake/routing line (ORACLE → RED / relevant domain) or leave peer-direct? OPEN DESIGN DECISION.
+7. ORACLE live (Polymarket) — formalize a prediction-market-divergence intake/routing line (ORACLE → RED / domain) or leave peer-direct? OPEN DESIGN DECISION.
 
 **🆕 CRE-credit June-print tiebreakers (carried from 6/18):**
-8. Fitch June CMBS DQ (-007) + June multifamily starts (−42% real or noise? -008) + Q2 bank Call Reports (smaller-regional CRE-DQ creep? -009). -009 re-opens REGINALD's cohort question. SIG-008's bank read + AMTB feed the same FL-bank-collateral channel.
+8. Fitch June CMBS DQ (-007) + June multifamily starts (−42% real or noise? -008) + Q2 bank Call Reports (smaller-regional CRE-DQ creep? -009; re-opens REGINALD cohort question). SIG-008 bank read + AMTB feed the same FL-bank-collateral channel.
 
 **🟠 Threshold fire watch:**
-9. RED-FT-01 (HY 263) + RED-FT-07 (CCC 939) continuing-fire — re-fire only on boundary re-cross. WAL REG-T-02 — $79.91 in band. VIX 16.78 near RED-FT-06 (<16). REG-T-06 FHLB / REG-T-07 OFFICE-CMBS-DQ — still not in dashboard pull.
+9. RED-FT-01 (HY 263) + RED-FT-07 (CCC 939) continuing-fire — re-fire only on boundary re-cross. WAL REG-T-02 $79.91 in band. VIX 16.78 near RED-FT-06 (<16). REG-T-06 FHLB / REG-T-07 OFFICE-CMBS-DQ — still not in dashboard pull.
 
-**🟠 LIAISON + routing:**
-10. RED Turn 8 / REGINALD Turn 7 — untouched since 6/6. EVENT_WINDOW_STATE.md ~35d untouched (CLOSED, no posture risk); BRENT-coordinated refresh owed. HENRY / NEXUS LIAISON — next-priority opens.
+**🟠 LIAISON + routing (carried):**
+10. RED Turn 8 / REGINALD Turn 7 — untouched since 6/6. EVENT_WINDOW_STATE.md ~36d untouched (CLOSED, no posture risk); BRENT-coordinated refresh owed. HENRY / NEXUS LIAISON next-priority opens.
 
-**🔴 Infra:**
-11. 3 dead cron feeds (WILL_NEEDS #2).
+**🔴 Infra → now reframed as the Scout track (was "3 dead crons → escalate"):**
+11. The 3 stale feeds are intentionally-off (SENTRY, disabled 6/2) / VPS-down (news-sweep, filing-watch). Resolution = the Scout build (#2), not a PROME escalation. walter_doctor will keep surfacing them until then — expected.
 
-**Design / governance backlog:**
-12. BOARD INDEX slim-down (Orch schema echo-back first). walter_doctor: platform-map fix (CORAL/HENRY mislabeled); registry_lag false-positive guard (commit-message/content-hash). Add Cushing to step-6c scan. FILTER_SPEC v0.6 BODY-INACCESSIBLE-PAYWALL verdict; `valid_until` forward-expiry convention; VIX-spike registered trigger (RED Turn 8); COP refresh (paused); OZK Q1 post-mortem (REGINALD pickup).
-13. **🆕 (from 6/19-PM closeout verification) Canonical-pointer hygiene — pre-existing BOARD_CONSUMPTION_SPEC drift:** CLAUDE.md still cites `BOARD_CONSUMPTION_SPEC v0.2` in 5 spots (RUN MODES line 16 / RULE 11-area line 92 / KEY-DESIGN-FILES table line 162 / RULE 10 line 183 / canonical-source table line 214) while the spec is at **v0.5**. Behaviorally-correct, version-stale; the spec-doc live pointers (CHECKLIST Phase 3.5, STATE line 69) were swept this session, CLAUDE.md deferred (operating-instructions file — flag not hand-sweep at session end). **Real fix = automation:** extend `version_drift_check.py` to also scan CLAUDE.md + embedded `Canonical: <spec> vX` pointers across the design set, not just each spec's self-header (the class that let this lag 3 versions undetected). Also: DEEP_RESEARCH_FLAG_PROPOSAL.md (labeled "(full spec)" in CLAUDE.md line 209) doesn't mention Phase 2.8b — either add a one-line pointer to CHECKLIST v0.19 or relabel it design-rationale-only.
+**Design / governance backlog (carried):**
+12. BOARD INDEX slim-down. walter_doctor platform-map fix (CORAL/HENRY mislabeled OPENCLAW); registry_lag false-positive guard. Add Cushing to step-6c scan. FILTER_SPEC v0.6 BODY-INACCESSIBLE-PAYWALL verdict; `valid_until` forward-expiry; VIX-spike registered trigger (RED Turn 8); COP refresh (paused); OZK Q1 post-mortem (REGINALD pickup, 47d+ stale — longest-stale Tier-1 row).
+13. **Canonical-pointer hygiene (carried):** CLAUDE.md still cites `BOARD_CONSUMPTION_SPEC v0.2` in 5 spots while the spec is v0.5. Fix = extend `version_drift_check.py` to scan CLAUDE.md + embedded `Canonical: <spec> vX` pointers. DEEP_RESEARCH_FLAG_PROPOSAL.md relabel/pointer to CHECKLIST v0.19.
+14. **🆕 Light registry refresh owed at next full boot** — walter_doctor LOW flags: SAM 6/16<6/18, HAWK/ORACLE 1d lag. Deferred this session (lean closeout).
 
 ## OPEN DESIGN DECISIONS (need Will)
 
-- **ORACLE routing convention** — formalize a prediction-market-divergence intake/routing line (ORACLE → RED / relevant domain), or leave peer-direct (PROME-scanned)?
-- ~~**Deep-research output handling convention**~~ **RESOLVED 6/19 (Will "sure, let's see a split test")** — codified as **CHECKLIST v0.19 Phase 2.8b**: default ONE `research-output` BOARD signal (verbatim embed + per-recipient delta wrapper, no verify-spawn) + ledger close + split test S1-S4 for child-signal carve-out. Worked example SIG-008.
-- **walter_doctor registry_lag false-positive guard** — a cross-agent ref-sweep editing a STATUS.md trips registry_lag without a substance change. Harden (commit-message/content-hash) or accept-and-eyeball?
-- **walter_doctor platform inference** — doctor mislabels CC CORAL (and HENRY) as OPENCLAW; align doctor's platform map with REGISTRY.
-- **Cushing as a registered threshold** — Boundary #3 (<20M) is in ROUTING_TABLE but Cushing isn't in the FORGE dashboard pull / step-6c scan. Add for autonomous detection? (Same gap as REG-T-06 FHLB / REG-T-07 OFFICE-CMBS-DQ.)
-- Group-chat artifact policy; mentionPatterns shorthand; Phase 2 rollout sequencing; §3.4 scoped-push runbook; INDEX status-column at slim-down; staleness-sweep rerun cadence; CARL LIAISON close stamp; HENRY LIAISON priority; VIX-spike trigger; FED_FRAMEWORK→UST_PLUMBING rename (defer); Filter v2 Segment D; COP refresh resume (paused).
+- **RESEARCHER ↔ Scout consolidation scope** — does the Scout collapse into RESEARCHER (RESEARCHER holds scripts; Scout = a cron running them), making "SENTRY" just a workflow name? Lean: yes. Confirm when Scout track starts.
+- **ORACLE routing convention** — prediction-market-divergence intake line, or leave peer-direct (PROME-scanned)?
+- **walter_doctor registry_lag false-positive guard** — harden (commit-message/content-hash) or accept-and-eyeball?
+- **walter_doctor platform inference** — doctor mislabels CC CORAL/HENRY as OPENCLAW; align with REGISTRY.
+- **Cushing as a registered threshold** — Boundary #3 (<20M) in ROUTING_TABLE but Cushing isn't in the dashboard pull / step-6c scan. Add? (Same gap as REG-T-06 FHLB / REG-T-07 OFFICE-CMBS-DQ.)
+- Carried: group-chat artifact policy; mentionPatterns shorthand; §3.4 scoped-push runbook; INDEX status-column; staleness-sweep cadence; CARL LIAISON close stamp; HENRY LIAISON priority; FED_FRAMEWORK→UST_PLUMBING rename (defer); Filter v2 Segment D; COP refresh resume (paused).
 
 ---
 
 *Maintenance note: overwritten each session per CLAUDE.md spawn protocol step 15.*
 
-*6/19 Fri evening: Will boot (2nd of day) + S-FL deep-research deliverable → 1 dispatch (SIG-W-20260619-008 research-output → CORAL action / REGINALD,CARL,SHADE,MARCO,RED info); BOARD 301→302; DEEP_RESEARCH_FLAGGED_LOG SIG-007 row RESOLVED (first-ever deep-research flag, raised + resolved same-day — full Phase-2.8 loop validated end-to-end). WALTER routed-not-analyzed (lean mandate); packet embedded verbatim + per-recipient genuine-delta wrapper. Load-bearing delta: insurance commercial/condo NOT easing (Citizens Commercial +10.4%/+18.8%) corrects CORAL's 🟢 mark + resolves SIG-007 insurance tension; adds Amerant AMTB; per-capita normalizes "top-six." No threshold fires; no peak. route_log +1 / delivery_log +6 / 6 handoffs. **Spec change (Will-ratified): CHECKLIST v0.18→v0.19 — Phase 2.8b returning-deliverable handling (one research-output signal default + per-recipient delta wrapper + split test S1-S4); STATE §1 synced, version_drift ✓.** 🟢 Committed + PUSHED + SYNCED to origin (Will window 6/20 ~00:12 UTC; both commits on origin, rebased clean over CORAL×2 + PROME, 0/0).*
+*6/20 Sun: Will-Telegram check-in → architecture + build session. 0 dispatches. Walked Will through cron-feed mechanics + designed the Scout (fetch→Telegram-never-git). **Found + revived the dormant RESEARCHER deep-research agent — Phase 1 shipped** (CLAUDE.md two-level identity + CONTEXT.md refresh + scripts verified/CIK-fixed + REGISTRY row + REVIVAL_PLAN). Step-6c no fires; Iran anchor fresh (6/19). Committed local `f7846fa7`; **push deferred — Will orchestrates.** Paused for context checkpoint before Phase 2.*
