@@ -5,79 +5,40 @@
 ---
 
 ## Feedback
-- [2026-02-18] VIX event trades on geopolitical catalysts have poor risk/reward (Aug 2024 lesson: 85% of VIX 65 spike was artificial). Equity puts (direct sector exposure) are better expression than VIX calls.
-- [2026-02-18] Refiners already priced — VLO above consensus target, ceasefire risk enormous. Position sizing must account for binary event risk.
-- [2026-04-01] Ceasefire fade protocol validated: 0/3 "diplomatic breakthroughs" were real (all Tier 4). Extension framing as "diplomacy working" was narrative trap.
-- [2026-06-08] **Unconditional predictions have no void path** — only CONFIRMED / FAILED / PARTIALLY. VOIDED is reserved for conditional predictions whose premise fails (HAW-07 vs HAW-09/10/11). Mirrors director Jun 8 feedback. Prevents calibration inflation from voiding genuine misses.
-- [2026-06-08] **Conf-code discipline by source category** — Trump/Rubio forward-looking rhetoric = D4; Iran adversarial framing = D3; multi-outlet kinetic = B2; IAEA primary = A2; analytical synthesis = F6. Pre-assigning codes by category before writing KB rows prevents rhetoric-equals-data drift.
+- [2026-02-18] VIX event trades on geopolitical catalysts have poor risk/reward (Aug 2024: 85% of VIX-65 spike was artificial). Equity puts (direct sector exposure) > VIX calls.
+- [2026-04-01] Ceasefire fade protocol validated: 0/3 "diplomatic breakthroughs" were real (all Tier 4). "Diplomacy working" extension framing was a narrative trap.
+- [2026-06-08] **Unconditional predictions have no void path** — only CONFIRMED/FAILED/PARTIALLY. VOIDED is reserved for conditional predictions whose premise fails (HAW-07 vs HAW-09/10/11). Prevents calibration inflation.
+- [2026-06-08] **Conf-code discipline by source category** — Trump/Rubio forward rhetoric = D4; Iran adversarial framing = D3; multi-outlet kinetic = B2; IAEA primary = A2; analytical synthesis = F6. Pre-assign by category before writing KB rows.
+- [2026-06-20] **See-saw discipline (Will).** Hold marks LOOSELY on this fast-oscillating conflict; discount single-day headlines BOTH ways. Declaratory≠physical, rhetoric≠resolution, mechanism≠threshold; the tape is the tie-breaker. A swing back to "peace" in 1-2 days is within base rate and won't by itself collapse D. Codified in STATUS posture box.
 
 ## Findings
-- [2026-04-01] **ADCOP fire = Hormuz bypass architecture eliminated.** No safe Gulf crude export route exists. This is structural, not tactical.
-- [2026-04-01] **AWACS destruction = $300M US asset loss on allied soil.** Raises domestic US political pressure to escalate, not de-escalate.
-- [2026-04-01] **Al Taweelah/EGA = aluminium supply shock (4% global).** New commodity vector beyond oil/gas/fertilizer/helium.
-- [2026-04-06] **WTI > Brent inversion.** Hormuz closure causing physical supply squeeze. Asia/Europe paying $30-40/barrel premiums for US crude.
-- [2026-04-06] **Petrodollar loop fractured.** 50-year Kissinger 1974 deal breaking — US as combatant, not stabilizer; Gulf SWFs rethinking US investments.
-- [2026-04-14] **IMF GFSR confirms stress.** Global equities down 8% since Feb; sovereign yields risen sharply; private credit explicitly named as vulnerability channel.
-- [2026-06-08] **Deferral-dynamic calibration anchor (HAW-06 FAILED).** This conflict produces armed pauses via ally-request deferrals (Munir/Sharif Apr 21; UAE/Qatar/Saudi May 19), NOT clean breaks. Don't over-predict clean state changes on deadline-shaped events. Lesson informs D-scenario hold-flat justification under salvo escalation.
-- [2026-06-08] **FLOW = canonical, KB = pointer for synthesis claims.** Damage-vs-Salvo decoupling thesis lives at FLOW-HAWK-19; KB-HAWK-162 is one-line pointer. One source of truth per metric prevents file drift. Pattern: transmission-pathway claims → FLOW canonical; analytical synthesis rows → KB pointer with DerivedFrom chain.
-- [2026-06-08] **Falsification-test cross-link.** Thesis claim and its kill-switch should live together via cross-reference. FLOW-HAWK-19 Vectors col → HAW-11; KB-HAWK-162 Vectors → FLOW-HAWK-19 + HAW-11; HAW-11 Notes → FLOW-HAWK-19. Reader finds both from either entry; thesis can't drift away from its own kill condition.
+- [2026-06-08] **Deferral-dynamic calibration anchor (HAW-06 FAILED).** This conflict produces armed pauses via ally-request deferrals, NOT clean breaks (or clean collapses). Don't over-predict clean state changes on deadline-shaped events.
+- [2026-06-08] **FLOW = canonical, KB = pointer for synthesis claims.** Decoupling thesis lives at FLOW-HAWK-19; KB rows are one-line pointers w/ DerivedFrom chains. One source of truth per metric prevents file drift.
+- [2026-06-08] **Falsification cross-link.** Thesis claim and its kill-switch live together via cross-ref (FLOW-19 ↔ HAW-11). Reader finds both from either entry; thesis can't drift from its kill condition.
+- [2026-06-20] **Dormant-armed framing.** Apr-damage-regime vectors/flows aren't dead — muted by de-escalation, primed to re-fire on escalation. Reconcile stale escalation vectors as "MUTED, re-fires if X," not deleted. (See LESSONS dormant-vector re-sweep.)
+- [2026-06-20] **Don't stack concurrent workflows / wide fan-out while siblings live** — API 529-overloads and drops RANDOM agents (lost the most-important theater, missed the Hormuz re-closure). Degrade to inline sequential WebSearch + harvest partials. (auto-memory finding-workflow-concurrency-529.)
 
 ## References
-- [2026-04-01] Hormuz status tracker: `domain/OIL_FACILITY_DAMAGE_TRACKER.md`
-- [2026-04-01] Ceasefire fade protocol: `workbook/CEASEFIRE_FADE_PROTOCOL.md`
-- [2026-04-01] Four structural breaks framework: `workbook/FOUR_STRUCTURAL_BREAKS_MAR18.md`
-- [2026-04-14] IMF GFSR April 2026: https://www.imf.org/en/publications/gfsr/issues/2026/04/14/global-financial-stability-report-april-2026
-- [2026-04-20] Brent price source: FORGE/tools/market-data/ or `python3 FORGE/tools/market-data/fetch.py price BRENT`
-- [2026-05-22] HAWK synthesis anchor: `audits/HAWK_SYNTHESIS_2026-05-22.md`
-- [2026-06-08] BRENT canonical for oil prices/storage/STEO — defer per CLAUDE.md "one source of truth per metric"
+- [2026-04-01] Ceasefire fade protocol: `workbook/CEASEFIRE_FADE_PROTOCOL.md` · Four structural breaks: `workbook/FOUR_STRUCTURAL_BREAKS_MAR18.md`
+- [2026-06-08] BRENT canonical for oil prices/storage/STEO/Iraq-production/Qatar-LNG/sulphur — defer per "one source of truth per metric"
+- [2026-06-19] Cross-theater energy-strike ledger: `domain/energy-strikes/STRIKES.tsv` + `SUMMARY.md` (%-offline = sourced as-of, never sum-of-nameplates)
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (Apr 20 → Jun 8)
-- **Apr 21:** Trump extended ceasefire indefinitely at Munir/Sharif request (HAW-06 FAILED — calibration anchor).
-- **Apr 22:** Iran launched drones at US ships (HAW-08 CONFIRMED); Iran seized 2 container ships in Hormuz.
-- **May 17:** Barakah nuclear-plant drone strike (UAE; drones from Iraqi territory; no reactor damage).
-- **May 19-20:** Trump called off "very major attack" at Gulf-allies request; Munir Tehran visit; Trump-Vance optimism.
-- **May 22:** STATUS rewrite — partial-thaw / armed-pause / selective carve-outs frame; C 57% / D 35% / B 8%.
-- **May 23-28:** 14-pt MOU draft + tentative 60-day truce extension (pending Trump signoff; never signed).
-- **May 25:** US CENTCOM "self-defense" strikes Hormuz (Iranian KIA).
-- **May 28:** Tentative 60-day truce reached, pending Trump signoff.
-- **Jun 1:** Iran SUSPENDED Pakistan talks; threatened Hormuz closure + Bab al-Mandab activation.
-- **Jun 2:** Trump+Rubio denied suspension; Rubio's 4 reopen terms named; Trump "deal reachable next week."
-- **Jun 3:** IAEA Grossi: Barakah "more dangerous than Zaporizhzhia"; UKMTO Hormuz tanker 1.1/day week-ending Jun 3 (-97.8% vs 49 pre-war).
-- **Jun 5:** Iran 7-missile salvo Kuwait+Bahrain (Bahrain new target); all intercepted.
-- **Jun 7-8:** Iran-Israel missile exchange resumed (first in 2 months, Day 100); Israel struck Beirut defying US stand-down.
-- **Brent:** decoupled from kinetic cadence; $116 May 5 peak → $94.66 Jun 5 close.
+### HISTORY THROUGH JUN 18 (compressed — detail in git/KB)
+Apr 21 ceasefire-extend (HAW-06 FAILED) → May armed-pause + 14-pt MOU draft (never signed) → Jun 1 Iran walks talks → **Jun 8-11 multi-front re-ignition** (first US aircraft loss = Apache over Hormuz; Jordan new theater; Bab-al-Mandab kinetic activation 6/8-9; **Jun 11 formal Hormuz closure → Brent FELL = strongest decoupling datum**) → **Jun 17 Islamabad MOU SIGNED** (Trump+Pezeshkian; Khamenei 6/18) → Jun 18-19 Lebanon flare (≥47 killed) called off first Switzerland round.
 
-### LAST SESSION (Jun 8)
-- **STATUS rewrite + workbook integration:** Damage-vs-Salvo regime split codified; scenario weights B 12% / C 53% / D 35%; convergence 31/45 🟠 (recomputed; matrix sum convention).
-- **Predictions resolved:** HAW-06 FAILED (deferral-dynamic calibration anchor), HAW-07 VOIDED, HAW-08 CONFIRMED (drones-at-US-ships, rubric-first).
-- **New predictions:** HAW-09 (Iran walkback by Jun 15, 35%), HAW-10 (Bab al-Mandab by Jul 1, 25%), HAW-11 (intercept failure / Gulf infra hit by Jun 22, 20%) — HAW-11 is decoupling-thesis kill-switch.
-- **Workbook:** KB +12 (151-162), FLOW-HAWK-19 canonical decoupling pathway, VX updates IRAN-01/02 + DIPLOMACY-01 + CEASEFIRE-01, new BABMANDAB-01 + GULFSTATE-01 emerging vectors.
-- **Outbox:** 4 signals (BRENT 🔴 with BRT-27/28 scope-clarification ask; HENRY 🔴 vol-leakage-conditional; LIQUID 🟠 credit cooled; SAM 🟠 Hormuz substance worse than tape).
-- **Closed loops:** May 22 STATUS archived; THESIS.md flagged with stale banner.
+### LAST SESSION (Jun 19-20 Sat — persistent boot w/ Will)
+- **Boot gap-sweep** via workflow; **529 storm dropped 4/6 theaters incl Iran/Hormuz** → recovered gaps inline (sequential WebSearch). Lesson logged.
+- **HAW-03 resolved FAILED** — US Venezuela intervention (Op Absolute Resolve, Maduro captured Jan 3) actually happened; STATUS carried "rhetoric only" ~5.5mo stale (dormant-vector lesson → LESSONS.md).
+- **Re-mark whipsaw (cautionary):** AM B39/C44/D17 ("Lebanon cooled") → **PM CORRECTION B34/C44/D22** after Will flagged **Iran re-declared Hormuz CLOSED Jun 20** ("first step", contested/declaratory; CENTCOM: traffic flows) — the AM sweep had 529'd the Iran theater so I'd marked a de-escalation off a half-picture. HAW-14 pulled off toward_confirm (Iran acted via coercive non-kinetic lever).
+- **Full file catch-up:** VX all 18 vectors → Jun-20 (TRADE/SHADOW refreshed w/ live data; oil vectors deferred BRENT/SAM; ISR/FININFRA/CEASEFIRE superseded/dormant-armed); FLOW 15 damage-regime → MUTED dormant-armed (FLOW-07/08/12 kept active; 19/20 stamped); SUMMARY + STRIKES (Tyumen Jun 20, HAW-15 no_change). **See-saw posture box** added to STATUS.
+- **KB +7** (194-200). **BRENT** cross-read + outbox sync note; BRENT independently confirmed the re-closure (their THESIS v4.1, conf 0.82) — fleet converged.
+- **Commits e3f3a8cb / baf55b3c / 764fe4da — ALL LOCAL, UNPUSHED.** ⚠️ **PENDING PUSH (Will-coordinated).** Branch ahead 6 (HAWK 3 + BRENT + SAM); own-dir disjoint = clean merge.
 
-### NEXT SESSION (priority order — set Jun 12)
-1. **ADJUDICATE HAW-09 + HAW-10 — rubrics WRITTEN this session, ack never came (Will closed out). Both still OPEN in TSV.** Rubrics are in the Jun 12 session response / STATUS Predictions table. HAW-09 (Iran returns to mediated channel by Jun 15): lean CONFIRMED (Trump cancelation + Sharif final-text + Iranian engagement = channel resumed; signing is B's bar not HAW-09's). **Window closed Jun 15 — adjudicate immediately at next boot, no longer pending anything.** HAW-10 (Houthi kinetic on Bab al-Mandab by Jul 1): mechanism FIRED 6/8-9 in Gulf of Aden; **registered TSV locus text is canonical** (pre-registration discipline) → hold OPEN, floor = PARTIALLY at Jul 1 window close, CONFIRMED only on strait-proper strike. I disagreed with director's CONFIRMED-with-locus-note lean — documented.
-2. **Write the two GATED outputs** (held because rubric ack didn't come): (a) BRENT outbox signal unblocking **BRT-27** (BRENT resolution deadline Wed Jun 17 — time-sensitive); (b) conditional ALL-agents 🟠 de-escalation alert, framed "on VERIFIED signing" not announcement. Flag both to Will for HERMES-proxy delivery.
-3. **Geneva signing watch** — single highest-leverage event; B flips both directions on it. Stale-by ~Jun 17 without a date. Check first thing.
-4. **HAW-11 (intercept failure → Gulf ENERGY infra, Jun 22)** — final-stretch check. Leakage ledger so far (Apache 6/8, Kuwait airport 6/2-3, failed intercept 6/5-6) is NOT energy-infra class → unfired. Kill-switch for decoupling thesis (FLOW-HAWK-19).
-5. **NEW: HAW-12 candidate — Kharg/US-strikes-on-Iranian-energy-infra channel.** Framework gap registered in STATUS Jun 12 (one line); full treatment + write prediction next session. Supply-repricing channel with no current HAW-xx coverage.
-6. **THESIS.md v2.0 rewrite** — STILL deferred (director Jun 12: would be stale within days written mid-window). Write AFTER Jun 15 window resolves. Target: Damage-vs-Salvo regime / current weights / decoupling canonical at FLOW-HAWK-19 / HAW-11 kill-switch. v1.2 frozen Apr 20 is badly stale.
-7. **Fresh UKMTO weekly tanker count (week-ending ~Jun 10)** — did Iran's formal closure declaration choke the permitted trickle toward 0? Last hard datum 1.1/day (Jun 3).
-8. **Verify-before-transcribe queue:** Yanbu 7.2MMbpd/70-75%-via-BeM figure kept OUT of book (aggregator-grade) — source primary via BRENT (EIA/Kpler) if wanted; it'd make BeM a threat to the Hormuz BYPASS route, decision-relevant.
-9. **Structural backlog (carried, unchanged):** CEASEFIRE-01 retire/merge into IRAN-01; CALENDAR.md staleness check; PREDICTIONS.tsv 9-vs-10-col schema cleanup; HAWK CLAUDE.md Tier-2 (BOOT/CLOSEOUT symmetry, wire boot.py/catalyst_countdown.py, docket/CATALYSTS.tsv, doc-ownership table); NEXUS_BRIEF.md closeout write-back into SPAWN PROTOCOL.
-
-### LAST SESSION (Jun 12 — persistent session w/ Will + orchestrator layer)
-- **Two-sided re-mark committed (`d2af6292` → rebased to `8e617626`, PUSHED via mid-session coordinated window).** Caught Jun 8-10 escalation (first Iran-Israel direct exchange since Apr ceasefire + mutual halt; **first US aircraft loss** = Apache over Hormuz; CENTCOM ~20 targets + 49 Tomahawks two strike nights; **Jordan new theater**; Bab al-Mandab kinetic activation) AND Jun 11-12 deal pivot (Trump strike cancelation = deferral #4; **Islamabad Agreement final text claimed**, Geneva prep).
-- **Scenarios C53/D35/B12 → C42/B32/D26**, all with flip-conditions; B resolution bar HELD at verified reopening + explicit B-track sub-state (P signing ~Jun 19 ≈ 55%) so definition doesn't drift. Convergence re-based 10-vector core 38/50 🔴 (BABMANDAB promoted on its own kinetic criterion). "35" hygiene slip gone with rewrite.
-- **KB-HAWK-165..178; FLOW-HAWK-19** got strongest decoupling datum yet (Iran FORMAL Hormuz closure declaration 6/11 → Brent FELL 2.9%). **VX:** IRAN-01/02, USIRAN-KINETIC-01, DIPLOMACY-01 (RED→YELLOW), BABMANDAB-01 (YELLOW→RED, promoted), GULFSTATE-01 (ORANGE→RED, stays emerging — its own Red line had quietly fired on Kuwait airport hit 6/2-3 unnoticed).
-- **LESSONS.md CREATED** (was empty): (1) prediction text & promotion-threshold text must be written identically — HAW-10 + GULFSTATE both bit this session; (2) live-war boot needs day-by-day gap sweep not topic searches — I missed Hormuz closure 6/11 + 2nd strike night until director flagged.
-- **⚠️ CONTAMINATION CAVEAT (KB-178):** director's answer-key leans (HAW-09 CONFIRMED / HAW-10 CONFIRMED-w-locus / band numbers) were pasted in the packet despite DO-NOT-TRANSCRIBE marking. My derivation can't be graded as independent; showed full reasoning so logic is auditable, and landed DIFFERENTLY on HAW-10 (evidence I'm not just echoing). Flagged to Will.
-- **Orchestrator layer now active on Will's side** — processes my output, offers feedback/corrections, explicitly fallible; I'm to push back when I see it differently. Did so on HAW-10.
-
-### LAST SESSION (Jun 8 PM — 2nd session)
-- **HAWK boot-protocol comparison vs SAM/BRENT** → Tier-1 CLAUDE.md upgrade committed (`4b369ce8`): added Git Commit Protocol (pathspec/never-reset), degraded-HERMES messaging note, predictions-due scan as boot step 2c + write-back 7a, git pull step 0.
-- **NEXUS_BRIEF.md drafted** (`AGENTS/HAWK/NEXUS_BRIEF.md`, ~78 lines, light-end agent) — director-reviewed; applied 3 fixes (carry under-priced-leakage-tail edge into HENRY/LIQUID sends + 2nd Type-B network-correlation-risk candidate; Bab al-Mandab impact-vs-trigger framing; convergence re-base one-liner). Director's "35/45" was a slip — STATUS & brief both 31; corrected the reason (convention re-base, not vectors stepping down). Pending NEXUS light-end consumer review.
-- **Cross-agent delivery (Will-authorized HERMES-proxy):** hand-delivered 4 stranded morning outbox signals (BRENT/HENRY/LIQUID/SAM) + 1 fresh BRENT PM signal to inboxes; outbox→delivered swept. Inbox files left untracked per git-isolation (flagged to Will).
-- **Intraday scan:** KB-163 (Jun 8 escalation Brent-neutral / Mahshahr off-market), KB-164 (Houthi/Bab al-Mandab kinetic-vs-declaratory; corrected "Houthi quiet"); board_log +5 residual BOARD signals.
+### NEXT SESSION (Monday Jun 22 — priority order)
+1. **🔴 MONDAY-OPEN DECOUPLING TEST** — Brent reprices the Jun-20 Hormuz re-closure: **spike = thesis BREAKS (toward D); shrug = HOLDS (toward C).** Read the open against B34/C44/D22. Defer price to BRENT; I read the geopolitical verdict.
+2. **HAW-11 resolves Jun 22** — Gulf energy-infra-hit window closes; EXPIRE-leaning (no hit Jun 13-20) but re-closure raises final-day tail-risk. Resolve at boot.
+3. **Hormuz** — did the re-closure stay declaratory (CENTCOM: traffic flows) or get enforced (mine/kinetic)? UKMTO/ship-tracking. Did the **Switzerland round convene** (HAW-12, targeting wk-Jun22)?
+4. **Lebanon** — hold-fire hold or break? Iran "second step" → kinetic (HAW-14 FAIL) or stays sub-kinetic?
+5. **Carry-over backlog:** THESIS.md rewrite (badly stale, v1.2 frozen Apr-20); HAWK CLAUDE.md Tier-2 (boot.py / docket/CATALYSTS.tsv / NEXUS_BRIEF write-back into SPAWN PROTOCOL); Kharg/US-strikes-on-Iranian-energy-infra channel still has no HAW-xx coverage.
