@@ -51,7 +51,7 @@
 ## 🔴 STORAGE — STILL DRAINING INTO THE FLOORS (the physical tell the curve stopped pricing)
 
 **[CONF EIA wk-6/12, released Jun 17]:**
-- **SPR 340.3M (−8.9M wk), no throttle** — ~88M to the real §6241(h) *limited* floor 252.4M (emergency authority §6241(d) has NO floor; ~350M was the 2023 trough, not a floor — v3.2 correction holds).
+- **SPR 340.3M (−8.9M wk), no throttle** — below the 2022 Biden-era low / lowest since 1983. **🔴 v4.1 refinement: runway is AUTHORIZATION-bound, not floor-bound** — the 172M emergency release is set *fully withdrawn ~first week of July* [Semafor/Argus], so the no-throttle drain runs at pace to ~early July, THEN becomes a DOE re-authorization decision (now charged by the Jun-20 re-closure) — NOT an indefinite ~12-wk run to the §6241 252.4M limited floor (none for emergency authority; market also cites a ~150M operational min). 1.25× swap contracts (~133M contracted, repay early next year). Verify remaining barrels vs Jun 24 EIA.
 - **Cushing 20.03M (−1.61M) — AT the ~20M operational bottom**, only ~34K above the <20M trigger; draw accelerating; **next WPSR ~Jun 24 (wk-6/19) likely prints sub-20M** → ROUTING Boundary #3 (WTI delivery-dislocation → LIQUID/HENRY/RED).
 - **Commercial crude 418.2M (−8.3M)**, ~6% below 5-yr. **Total crude incl SPR −17.2M** — biggest combined draw of the cycle.
 - **Refinery util 96.7%** (crude inputs 17.2 Mbpd, +230 kbpd) — margin-boom, BRT-12 compression ABSENT.
@@ -78,7 +78,7 @@
 | **Brent / WTI (live futures)** | **$80.59 / $76.54** (boot.py Sat) | Jun 20 [CONF boot.py] |
 | **WTI (settles)** | Jun 15 $80.75 / Jun 16 $75.27 / Jun 17 $76.01 / Jun 18 $75.85 / **Jun 19 $76.51** | Jun 19 settle [CONF] |
 | **Curve structure** | **CONTANGO — 6-mo spread flipped first time in ~2 years** [CONF Bloomberg/OilPrice]; M1−M3 well <$3 (Trigger #1 completed Jun 15, Path-A-contaminated); Dubai Jul/Aug slight contango vs ~$13 March backwardation peak | Jun 19 [CONF; exact daily M1−M3 [EST], re-derive from strip] |
-| **SPR** | **340.3M (−8.9M), no throttle** — ~88M to real §6241 limited floor 252.4M | Jun 17 EIA [CONF] |
+| **SPR** | **340.3M (−8.9M), no throttle; below 2022 low** — runway AUTHORIZATION-bound: 172M release fully withdrawn ~early July → DOE re-auth decision (NOT a ~12-wk run to §6241 252.4M) | Jun 17 EIA [CONF] |
 | **Cushing** | **20.03M (−1.61M) — AT the 20M operational floor**; sub-20M likely Jun 24 | Jun 17 EIA [CONF] |
 | **US commercial crude** | **418.2M (−8.3M); total incl SPR −17.2M (cycle max)** | Jun 17 EIA [CONF] |
 | **Refinery utilization** | **96.7%** (inputs 17.2 Mbpd) — margin-boom, BRT-12 compression absent | Jun 17 EIA [CONF] |
@@ -167,6 +167,7 @@
 | **Wed Jun 24** | EIA WPSR (wk-6/19) — Cushing sub-20M watch (Boundary #3); gasoline datapoint #3 | 🔴 |
 | **Fri Jun 26** | CFTC COT (Jun 16 data — forced-liquidation read); Baker Hughes | 🟠 |
 | **~Jul 1** | Cushing 20M floor (modeled); BRT-28 Bab window closes | 🟠 |
+| **~early Jul** | **SPR 172M emergency-release authorization fully withdrawn → DOE re-authorization decision** (drain stops/slows vs extend; charged by the Jun-20 re-closure) | 🔴 |
 | **Wed Jul 8** | EIA STEO (July) — first post-deal price-path revision | 🔴 |
 | **Sat Jul 11** | OPEC MOMR (July) | 🟠 |
 | **Tue Jul 14** | US CPI (June print) — BRT-16 inverse-feedback test | 🟠 |

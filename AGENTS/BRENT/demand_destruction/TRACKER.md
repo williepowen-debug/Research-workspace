@@ -38,7 +38,7 @@ All three must fire simultaneously to confirm Phase 2 via demand destruction pat
 | Initial jobless claims (4wk avg) | ~215K (est.) | >260K and rising | DOL Thursday 8:30 ET | Stale |
 | DXY (USD index) | **99.03** | Volatile/declining — was 99.81 Apr 6, spiked >100 mid-wk, now 99.03 | Yahoo Finance | **Apr 13** |
 | Brent-WTI spread | WTI > Brent (inverted) | <$5 = tidewater scarcity easing | CME/ICE | Apr 3 |
-| Cushing inventory | 🔴 **20.03M bbl [CONF EIA Jun 17, wk-6/12]** (−1.61M wk; draw ACCELERATED from −0.801M) — **AT the ~20M operational floor**, only ~34K above the <20M trigger; **sub-20M likely Jun 24 (wk-6/19)** → WTI delivery-dislocation / ROUTING Boundary #3 (→ LIQUID/HENRY/RED). **SPR 340.3M (−8.9M), no throttle** (§6241 floor 252.4M limited / none emergency; ~88M runway). Commercial 418.2M (−8.3M); **total crude incl SPR −17.2M (cycle max).** | <20M bbl = WTI dislocation | EIA WPSR | **Jun 17** [CONF EIA] |
+| Cushing inventory | 🔴 **20.03M bbl [CONF EIA Jun 17, wk-6/12]** (−1.61M wk; draw ACCELERATED from −0.801M) — **AT the ~20M operational floor**, only ~34K above the <20M trigger; **sub-20M likely Jun 24 (wk-6/19)** → WTI delivery-dislocation / ROUTING Boundary #3 (→ LIQUID/HENRY/RED). **SPR 340.3M (−8.9M), no throttle** — below 2022 low; runway AUTHORIZATION-bound: 172M release fully withdrawn ~early July [Semafor/Argus] → DOE re-auth decision (NOT a ~12-wk run to §6241 252.4M limited floor). Commercial 418.2M (−8.3M); **total crude incl SPR −17.2M (cycle max).** | <20M bbl = WTI dislocation | EIA WPSR | **Jun 17** [CONF EIA] |
 | ATA Truck Tonnage | Unknown — monthly | YoY negative x 2 months | ATA | Stale |
 
 ### Tier 3 — Lagging (You're Late If Waiting)
