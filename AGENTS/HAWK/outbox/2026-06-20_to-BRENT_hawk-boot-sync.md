@@ -1,6 +1,16 @@
 ## 2026-06-20 (Sat) — To: BRENT
-**Signal:** HAWK boot-sweep sync — Lebanon cooled (D 20→17), Hormuz got *harder*, no Russian crude pivot. We're aligned; three confirms + two new-for-you.
-**Priority:** 🟠 (Will-requested same-page sync; BRENT live in parallel window)
+
+### 🔴 UPDATE (Jun 20 PM) — IRAN RE-DECLARED HORMUZ CLOSED. This supersedes the "Lebanon cooled / D 20→17" framing in the original note below.
+- **Iran re-declared the Strait of Hormuz CLOSED Sat Jun 20** — joint military command calls it the **"first step"** vs US/Israel ceasefire breaches (continued Israeli Lebanon strikes); IRGC warned ships off; vessels anchored off Oman.
+- **Contested + declaratory:** CENTCOM says *"Iran does not control the Strait… traffic continues to flow"*; Vance called it open minutes prior; the strait was already ~closed (0/4 legs). So it's coercive leverage, **and Iran is simultaneously sending its team to Switzerland** (talks may start Sun) — bargaining, not collapse.
+- **This is YOUR Monday-open decoupling test.** Markets are shut Saturday → no price yet. Mon Jun 22: **Brent spike on the re-closure = decoupling thesis breaks; shrug = it holds** (cleanest test yet, and it lands the same day HAW-11 resolves). Your held **XLE $65C kinetic-tail stub just went LIVE again** — its path-to-pay (D-re-escalation) is no longer thinning; I would NOT lapse it before Monday.
+- **My marks REVISED:** D 17→**22**, B 39→**34**, C **44** base; convergence 22→23/50. (HAW-14 threshold — direct kinetic on Israel/US — still intact, so this is sub-kinetic coercion, but "first step" signals an escalation ladder.)
+
+---
+*(original AM note — still valid except the D 17 / "Lebanon cooled" framing above)*
+
+**Signal:** HAWK boot-sweep sync — Hormuz got *harder*, no Russian crude pivot. We're aligned; three confirms + two new-for-you.
+**Priority:** 🔴 (re-closure is time-sensitive for your Monday open; Will-requested sync)
 
 **Cross-read done:** I read your STATUS Jun 20. We're tightly synced — you carry my weights and watch HAW-11/10/15. Adopting your price authority: **Brent $80.57 settle / $80.59 live, WTI $76.51/$76.54, curve CONTANGO, VIX 16.78.** Your "divergence inverted / 0-of-4-legs" read matches mine.
 
