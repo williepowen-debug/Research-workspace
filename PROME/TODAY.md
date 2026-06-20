@@ -1,8 +1,8 @@
 # TODAY.md — Friday June 19, 2026
 
-**Objective:** Keep the market lane honest with WALTER v0.18 now active. Market state remains unresolved divergence: HY OAS is **263 [FRED 6/17]**, close to the <260 kill line, but VIX/banks still do not confirm cascade; carry remains red.
+**Objective:** Close the Jun19 window with Geneva de-escalation recognized, HY kill-line still live, and CORAL Phase 1 now pushed. Market state remains unresolved divergence: HY OAS is **263 [FRED 6/17]**, close to the <260 kill line, but VIX/banks still do not confirm cascade; carry remains red.
 
-**Current regime:** **Hawkish-FOMC re-arm / unresolved divergence.** Broad credit cascade is not confirmed. HY compression toward <260 remains the most important bear-thesis risk; USD/JPY/FXY carry stress remains live; VIX and banks are still calm enough to prevent a cascade call.
+**Current regime:** **Geneva de-escalation / unresolved credit-carry divergence.** Immediate Hormuz/oil-shock tail is deferred by U.S.–Iran MOU / reopening framework, not eliminated. Broad credit cascade is not confirmed. HY compression toward <260 remains the most important bear-thesis risk; USD/JPY/FXY carry stress remains live; VIX and banks are still calm enough to prevent a cascade call.
 
 ---
 
@@ -10,9 +10,10 @@
 
 | Item | State | Read |
 |---|---|---|
-| Git | ✅ clean/synced | Rebased over origin changes and pushed Prome closeout. |
+| Git | 🟡 local ahead | CORAL Phase 1 pushed; Geneva heartbeat + closeout are local-only unless Will asks to push. |
 | Quick-WALTER | ⏸️ paused for fresh news | Allowed only for pre-registered RED-FT / REG-T / safety-net trigger fires and delivery repair/backfill. |
 | Full WALTER | ✅ signal desk | Fresh screenshots/news/source-confidence/recipient-selection and deep-research flag judgment belong to Full WALTER. |
+| CORAL Phase 1 | ✅ pushed | Mature boot surfaces + WALTER board-log intake landed on origin. |
 | WALTER deep-research flag | ✅ landed / active | WALTER ratified CHECKLIST v0.18 with ledger + `walter_doctor` overdue check. |
 | Position truth | 🟠 unreconciled | No expiry/trade action without broker/Will truth. |
 
@@ -45,12 +46,13 @@
 
 ---
 
-## Near Gates — Jun 19–22
+## Near Gates — Jun 20–22
 
 | Date / Window | Gate | Owner(s) | Prome read |
 |---|---|---|---|
-| **Fri 6/19** | Iran reopening verification / HYG expiry / opex digestion | WALTER/HAWK/BRENT/LIQUID/VIOLET | Signing/reopening moved from binary to verification problem; HYG Jun $75P remains written off / let expire. |
+| **Fri/Sat 6/19–20** | Post-Geneva follow-through + HY print availability | WALTER/HAWK/BRENT/LIQUID/VIOLET | MOU/reopening reduces immediate oil shock; follow Strait traffic, compliance language, Hezbollah/Israel noise, Brent/VIX calm. |
 | **Sat 6/20** | CFTC JPY print | SAM/Prome | Key gate for SAM v1.6: cover weakens/ends convexity-tail frame; build strengthens it. |
+| **Next FRED HY update** | HY <260 kill line | LIQUID/NEXUS/Prome | Sustained <260 kills/reprices R3 unless offset by bank/private-credit deterioration. |
 | **Late Jun/Jul** | BCRED/Q2 redemption, BDC/Q2, SAVE Jul 1 | BROCK/CARL/LABOR | Structural stress watch; not immediate broad-cascade confirmation. |
 
 ---
@@ -60,8 +62,9 @@
 | Pri | Work | Action |
 |---|---|---|
 | 🔴 | **HY <260 kill-line monitoring** | Latest 263; sustained <260 kills/reprices R3 unless bank/PC deterioration offsets. |
-| 🔴 | **Post-FOMC confirmation** | Watch TIC/FXY/carry and whether banks/PC proxies re-weaken. |
+| 🔴 | **Post-FOMC / post-Geneva confirmation** | Watch HY <260, CFTC/FXY/carry, and whether banks/PC proxies re-weaken. |
 | ✅ | **WALTER deep-research candidate flag** | Landed as WALTER CHECKLIST v0.18; monitor behavior, no Prome edits needed. |
+| ✅ | **CORAL Phase 1** | Pushed; next CORAL session consumes pending WALTER signals via board_log + git mv. |
 | 🟡 | **WALTER stale upstream feeds** | news-sweep / filing-watch / SIGNALS still stale; separate system-health lane. |
 | 🟠 | **Position-state reconciliation** | Separate lane only; no expiry action without broker/Will truth. |
 | 🔵 | **Legacy parallel signal artifacts cleanup** | Historical `FORGE/signals/` + generic inbox files need deliberate archive/leave decision; don’t delete casually. |
@@ -74,4 +77,4 @@
 - Do not edit WALTER specs from Prome; WALTER owns ratification.
 - No trade execution.
 - No old May/Jun option rails without broker/Will reconciliation.
-- HEARTBEAT remains regime-valid; dashboard refreshed here, but no regime-level update was made.
+- HEARTBEAT updated locally for Geneva MOU / energy-tail deferral; verify push state before assuming other runtimes see it.

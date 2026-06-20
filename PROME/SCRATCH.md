@@ -1,47 +1,51 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-19 15:45 ET (OpenClaw Prome — final synced closeout after WALTER v0.18 ratification)
+**Last Updated:** 2026-06-19 21:15 ET (OpenClaw Prome — closeout after CORAL Phase 1 + Geneva heartbeat)
 
 ## What Just Happened
 
-1. **SAM/HAWK audit loop closed.**
-   - SAM incorporated Prome audit fixes into v1.6 draft and added the convexity-tail EV table. Prome read remains: marginally positive tail-stub EV supports hold-small-stub / no add; Jun20 CFTC is next gate.
-   - HAWK incorporated Prome audit fixes: Brent math corrected, stale ~$77 references purged, product/crack → Brent flip triggers added, and BRENT handoff delivered.
+1. **CORAL Phase 1 maturity scaffold landed and pushed.**
+   - Added `AGENTS/CORAL/SCRATCH.md`, `AGENTS/CORAL/NEXUS_BRIEF.md`, and `AGENTS/CORAL/board_log.tsv`.
+   - Patched `AGENTS/CORAL/CLAUDE.md` to mirror mature BRENT/VIOLET patterns: read SCRATCH at boot, rewrite SCRATCH at closeout, refresh NEXUS_BRIEF every session, and consume WALTER inbox handoffs through `board_log.tsv` + `git mv` to `processed/`.
+   - Commit `08c0d42b CORAL: add phase 1 boot maturity surfaces` was pushed to origin after clean ahead/behind check.
 
-2. **WALTER deep-research candidate flag landed upstream.**
-   - ORC proposal + Prome/Will/WALTER review became WALTER CHECKLIST **v0.18**.
-   - Verified landed pieces: `SIGNAL_PROCESSING_CHECKLIST.md` Phase 2.8, `registry/DEEP_RESEARCH_FLAGGED_LOG.tsv`, `tools/walter_doctor.py` `deep_research_pending_overdue`, `design/STATE.md` sync, and CLAUDE canonical-source / boot-surface rows.
-   - Final design boundary: Full-WALTER-only; WALTER surfaces research candidates and embeds prompts, but never runs deep research; Quick-WALTER escalates.
+2. **CORAL peer-integration drift was fixed and pushed earlier in the session.**
+   - Mechanical patches included root roster, CORAL boot git protocol, WALTER registry routing note, REGINALD stale CORAL paths/snapshots, and daily memory.
+   - Commit `ed13ffc1 CORAL: fix peer integration drift` is on origin.
 
-3. **Git/rebase/push loop closed cleanly.**
-   - Initial Prome closeout was local-only per Will; origin then advanced 24+ commits.
-   - Prome inspected divergence, confirmed origin had not changed Prome files since the shared base, rebased cleanly, then pushed the rebased Prome closeout.
-   - Repo is clean/synced as of final closeout start.
+3. **Heartbeat materially updated after Geneva gate.**
+   - Live check confirmed dashboard: HY OAS **263 [FRED 6/17]**, CCC **939 [6/17]**, Brent **$80.59**, VIX **16.78**, KRE **$71.72**, WAL **$79.91**, USD/JPY **161.28**, FXY **$56.85**, BIZD **$12.36**.
+   - Web check confirmed U.S.–Iran MOU / Strait reopening / ceasefire framework with a 60-day negotiation fuse. Immediate Hormuz/oil-shock tail is deferred, not eliminated.
+   - `HEARTBEAT.md` now frames the regime as energy shock deferred, broad credit cascade unconfirmed, HY <260 kill still unconfirmed, carry still red.
+   - Heartbeat commit `151b80dd PROME: update heartbeat after Geneva MOU` is local only as of this closeout.
 
-4. **Heartbeat/dashboard state remains unchanged at regime level.**
-   - Jun19 compact dashboard: HY OAS **263 [FRED 6/17]**, CCC **939 [6/17]**, 10Y **4.49 [6/17]**, Brent **$80.59**, USD/JPY **161.27**, FXY **$56.85**, KRE/WAL green, VIX **16.78**, BIZD red.
-   - Regime unchanged: broad cascade unconfirmed; HY <260 kill-line close; carry stress live.
+4. **WALTER v0.18 boundary remains unchanged.**
+   - Prome should monitor WALTER behavior/doctor output, not edit WALTER specs.
+   - Quick-WALTER remains barred from fresh-news routing and deep-research judgment.
 
 ## Current Git State
 
-- Clean and synced after rebase + push as of the final closeout.
-- If this audit/session edits Prome files, use pathspec-only commit hygiene; push only when Will explicitly coordinates it.
+- Working tree expected clean after this closeout commit.
+- Local branch is ahead of origin because the Geneva heartbeat update and this closeout are local-only unless/until Will asks to push.
+- Use pathspec-only commits; do not broad add/reset/stash.
 
 ## Current Operating Picture
 
-- **WALTER v0.18:** landed and should be treated as active. Next Prome system check should verify `walter_doctor` output if WALTER reports overdue research candidates.
-- **Quick-WALTER boundary still holds:** no fresh-news routing or deep-research judgment from Prome/Quick-WALTER.
-- **Market state:** same unresolved divergence — HY 263 near <260 kill, VIX/banks benign, carry red.
+- **Regime:** Geneva de-escalation branch fired; energy shock deferred; broad cascade not confirmed.
+- **Market lane:** HY OAS **263 [FRED 6/17]** remains 3bp above the <260 blended-credit kill line. Banks/vol calm; BDC/PC weak spot persists; carry red.
+- **System lane:** CORAL is now mechanically closer to mature-agent boot grade; next CORAL session should actually consume pending WALTER inbox items and move them to processed.
 - **Positions:** no position/expiry action without broker/Will truth.
 
 ## Next Reboot Entry Point
 
-1. Run repo-state first; expected state is clean/synced after this final closeout.
-2. If system lane: inspect WALTER v0.18 only if behavior seems off; otherwise trust landed spec and watch `walter_doctor`.
-3. If market lane: refresh dashboard/FRED HY; key question remains whether HY breaks <260 or banks/PC re-weaken enough to offset.
-4. If SAM lane: check Jun20 CFTC against SAM v1.6 EV/convexity survival gates.
+1. Run repo-state first. Expect local ahead-of-origin closeout/heartbeat commits unless Will asks to push before then.
+2. If market lane: refresh dashboard/FRED HY; key question remains whether HY breaks <260 or banks/PC re-weaken enough to offset.
+3. If SAM lane: check Jun20 CFTC against SAM v1.6 carry-convexity survival gates.
+4. If CORAL lane: spawn/ask CORAL to consume `SIG-W-20260619-002` and `SIG-W-20260619-007`, append `board_log.tsv`, and `git mv` both to `inbox/WALTER/processed/`.
+5. If WALTER lane: monitor v0.18 behavior / `walter_doctor`; do not tune specs from Prome unless Will explicitly scopes it.
 
 ## Cautions
 
+- Local-only commits need push coordination; do not assume origin has the heartbeat/closeout unless verified.
 - Do not edit WALTER specs from Prome; WALTER owns WALTER spec changes.
 - Do not spawn Quick-WALTER for fresh news/screenshots/research-flag judgment.
 - No trade execution or old option/expiry cleanup without broker/Will reconciliation.
