@@ -2,7 +2,7 @@
 
 **Version:** 1.0 (first formal thesis doc — migrated from STATUS prose 2026-06-15)
 **Last Updated:** 2026-06-15 by BOND
-**Status:** 🟡 WATCH — **"expensive, not broken."** The May–June long-end term-premium episode (BND-07) fired, mean-reverted, re-fired into the June refunding, and relaxed again once the auctions cleared. Auctions clear at price; macro credit calm but bifurcating underneath.
+**Status:** 🟡 WATCH — **"expensive, not broken"** (held 5 straight resolutions). The May–June long-end term-premium episode (BND-07) fired, mean-reverted, re-fired into the June refunding, relaxed once the auctions cleared, and **survived the 6/16–6/18 gate intact**: the hawkish Warsh FOMC (6/17) bear-*flattened* the curve (front-end +15bp, 30Y flat) — it hit the Fed-path, not term premium — and the 6/16 20Y printed STRONG. Auctions clear at price; macro credit calm but bifurcating underneath. *Intra-v1.0 POV note 6/20 in CHANGELOG.*
 **Conviction:** Duration-short (TLT puts) **HOLD, no add** — cleaner expression than equity puts if the long end re-engages. Short-credit **NOT supported** (no cash transmission). Composite 11/35 (live scores owned by STATUS convergence matrix).
 
 ---
@@ -39,7 +39,7 @@ BOND owns the **market-structure transmission layer** — how the bond market's 
 
 **Timeline:** 30Y >5.0 for ~9 sessions + 10Y >4.5 for 6 (5/14–5/27) → **BND-07 TRUE** → breakeven-led mean-reversion bottomed ~6/4 → real-rate-led re-firing 6/5–6/10 into the refunding → **relaxed again post-refunding** (10Y 4.47 / 30Y 4.97 on 6/15). The threshold fired but the regime is an **episode, not a one-way break** — term premium partially gave back twice. [[threshold_vs_mechanism]]
 
-**Read:** the re-escalation watch **relaxes (not fully stood-down)** — neither leg held the 5-session bar (both broke below on 6/11) *and* the June auctions weren't weak. It is **re-armable at the next-48h gates: the 6/16 20Y reopening (CUSIP 912810UV8) and the 6/17 FOMC (2pm ET — a hawkish dot/bias shift would pressure the long end and term premium).** Live catalysts are tracked in STATUS; the next genuine *break* still needs a weak coupon auction or a sustained 5-session threshold breach paired with funding stress.
+**Read:** the re-escalation watch **relaxed (not fully stood-down)** — neither leg held the 5-session bar *and* the June auctions weren't weak. **The 6/16–6/18 gate then resolved AGAINST a re-arm:** the 6/16 20Y was STRONG (BTC 2.75 — BND-09 FALSE), and the hawkish 6/17 FOMC bear-*flattened* (2Y +15bp, 30Y flat 4.93) rather than steepening the long end — the term-premium re-fire *failed its cleanest test*. The one vector now escalating is the **real-rate side (DFII10 2.23, rising)** — re-arm watch shifts to **DFII10 >2.5**, or 30Y >5.0 / 10Y >4.6 held 5 sessions + weak auction. The next genuine *break* still needs a weak coupon auction or a sustained threshold breach paired with funding stress. *(Confound: an Iran oil-down signal 6/17 aided the long-end anchoring.)*
 
 ---
 
@@ -91,7 +91,7 @@ BOND owns the **market-structure transmission layer** — how the bond market's 
 
 ## PREDICTION SCOREBOARD (full set in `thesis/PREDICTIONS.tsv`)
 
-BND-05 FAILED (May refunding weak-not-stressed) · BND-06 TRUE (HY <300 through May) · BND-07 TRUE (long-end threshold fired; episode not break) · **BND-08 FALSE** (June refunding **cleared — no demand hole**; 10Y strong, 30Y soft/borderline: indirect 59.8% a hair under 60%, tail small-but-unpinned). Working model — *cash credit decoupled from the long-end duration move; auctions clear at price* — has held four straight resolutions.
+BND-05 FAILED (May refunding weak-not-stressed) · BND-06 TRUE (HY <300 through May) · BND-07 TRUE (long-end threshold fired; episode not break) · BND-08 FALSE (June refunding cleared — no demand hole) · **BND-09 FALSE** (6/16 20Y STRONG — BTC 2.75, indirect 71.6%, ~−1bp stop-through; no marker). Working model — *cash credit decoupled from the long-end duration move; auctions clear at price* — has held **five straight** resolutions. **BND-10 OPEN** (long end does NOT re-engage despite the hawkish FOMC; tests the bear-flattener read, resolve 6/30).
 
 ---
 
