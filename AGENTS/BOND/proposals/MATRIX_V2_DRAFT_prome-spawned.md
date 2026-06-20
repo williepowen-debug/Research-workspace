@@ -1,9 +1,9 @@
-# Escalation Matrix v2 — DRAFT for Will/Prome review
+# Escalation Matrix v2 — APPROVED DESIGN (implementation pending, Packet 9 paused)
 
 ## PROVENANCE
 
 - **Author:** BOND, respawned 2026-05-20 PM ET at Prome's request.
-- **Status:** DRAFT proposal. Live `monitors/AUCTION_HEALTH.md` and `STATUS.md` UNCHANGED. No commit. No push.
+- **Status:** APPROVED DESIGN — design decisions resolved 2026-05-20/21 (see §8); IMPLEMENTATION PENDING (Packet 9 paused). Live `monitors/AUCTION_HEALTH.md` still runs v1 thresholds until ported. NOT a live draft awaiting review (relabeled 2026-06-20 audit).
 - **Inputs:**
   - `AGENTS/BOND/analysis/ESCALATION_MATRIX_BACKTEST_prome-spawned.md` (323 coupon auctions, 2023-01 → 2026-05, TLT 5d outcomes)
   - `AGENTS/BOND/analysis/CROSS_TENOR_BASE_RATES_prome-spawned.md` (444 same-week auction pairs)

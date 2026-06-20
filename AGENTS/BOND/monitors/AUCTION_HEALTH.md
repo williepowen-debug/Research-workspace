@@ -1,7 +1,7 @@
 # BOND Monitor — Treasury Auction Health
 
 **Owner:** BOND
-**Last Updated:** 2026-06-05 by BOND
+**Last Updated:** 2026-06-20 by BOND
 **Purpose:** Track whether Treasury market absorption is improving, mechanically supported, or deteriorating.
 
 ## Classification Rules
@@ -35,18 +35,25 @@
 | 2026-05-26 | 2Y | $69B | 2.64 | 4.071% | 57.6 | 30.1 | 12.3 | 🟡 | FiscalData | BTC 28th-pctile of 81 2Y since 2023 — below-median, not "solid." Cleared orderly. |
 | 2026-05-27 | 5Y | $70B | 2.34 | 4.182% | 74.9 | 12.3 | 12.8 | 🟡 | FiscalData | BTC 24th-pctile of 54 5Y — soft, in-pattern (≈Apr-27's 2.33); strong indirect offsets. |
 | 2026-05-28 | 7Y | $44B | 2.52 | 4.290% | 78.4 | 11.2 | 10.4 | 🟢 | FiscalData | BTC 50th-pctile (median); foreign sponsorship solid. |
+| 2026-06-09 | 3Y | $58B | 2.64 | 4.192% | 63.7 | 21.0 | 15.3 | 🟡 | TreasuryDirect | Solid front-end; PD take a touch elevated. |
+| 2026-06-10 | 10Y reopening | $39B | **2.57** | 4.538% | **78.2** | 12.3 | 9.5 | 🟢 | TreasuryDirect 91282CQQ7 | **STRONG** — record-ish indirect, dealers barely absorbed; broke the 5th-tail fear. |
+| 2026-06-11 | 30Y reopening | $22B | 2.33 | 5.020% | 59.84 | 25.3 | 14.7 | 🟡 | TreasuryDirect 912810UU0 | **Soft-but-orderly** — BTC held >2.3, indirect a hair <60; ~8bp same-day rally. *(secondary "6/12 BTC 2.43" = WRONG, misdated.)* |
+| 2026-06-16 | 20Y reopening | $13B | **2.75** | 4.927% | **71.6** | 19.9 | 8.5 | 🟢 | TreasuryDirect 912810UV8 | **STRONG** — ~-1bp stop-through, best BTC in 3mo (breaks 2.76→2.68→2.55 trend); BND-09 FALSE. |
+| 2026-06-18 | 5Y TIPS reopening | $24B | 2.61 | 1.955% (real) | 68.6 | 28.0 | 3.4 | 🟢 | TreasuryDirect 91282CQP9 | Solid real-money; dealer 3.4% lowest in 1yr+. *(NOT a 10Y — the soft 10Y TIPS was 5/21.)* |
+
+*June bills (6/15–6/18) all cleared clean — BTCs 2.47–3.12; 13W softest (2.47, pre-FOMC re-investment caution), 6W strongest (3.12). No bill stress.*
 
 **Percentile context (PROME dataset v2, 369 rows 2023→5/28, refreshed 6/5):** late-May nominal coupons were **below-median to median on bid-to-cover** (2Y 28th, 5Y 24th, 7Y 50th pctile) — softer than the headline BTCs "look." But all cleared orderly with no tails/dysfunction and strong indirect. Read: **persistent duration fatigue / demand-at-a-discount, not dysfunction.** Note: the dataset's `tail_vs_cmt_bps` is a noisy prior-day-CMT proxy (e.g. -240bp for the 5/21 TIPS vs a nominal CMT is meaningless); rely on BTC percentiles + indirect mix, not that column.
 
 ## Open Questions
 
 - ✅ **RESOLVED:** Does 10Y >4.5 / 30Y >5 persist for multiple sessions? **YES** — 30Y >5.0 for ~9 sessions (5/14-5/27), 10Y >4.5 for 6 (5/15-5/22). BND-07 TRUE. But both have since mean-reverted (10Y 4.47, 30Y 4.97 by 6/4) — durable episode, not a one-way break.
-- Does weak-but-not-failed auction demand begin funding through LIQUID plumbing (SOFR-IORB positive, repo pressure)? **No evidence yet** — SOFR-IORB last -12bps; refresh next session.
+- Does weak-but-not-failed auction demand begin funding through LIQUID plumbing (SOFR-IORB positive, repo pressure)? **No evidence yet** — SOFR-IORB **-2bp (6/17)**, tighter than the -12bps of 5/19 but still negative; no funding stress through the June gate.
 - Does ZHAO see TIC / foreign official demand deterioration confirming auction-level softness? **Still open** — late-May indirects were strong (5Y 74.9%, 7Y 78.4% of comp), arguing against a foreign demand hole.
 
-## June Refunding Preview (6/9-6/11)
+## June Refunding + 20Y/TIPS Read (6/9–6/18, RESOLVED)
 
-Next live gate for nominal long-end demand. Announced: **6/9 3Y · 6/10 10Y (nominal, 9Y11M new issue) · 6/11 30Y (nominal, 29Y11M new issue).** The 6/10 10Y is the first true nominal-10Y demand test since 5/12 (which was the 4th consecutive 10Y tail, 7th-pctile indirect). Watch for: tail >1.5bp + weak indirect → re-arm TLT conditional-add and signal LIQUID/ZHAO. The 5/13 30Y was an 11th-percentile BTC outlier — watch 6/11 for a repeat.
+All cleared — **no stress markers**. The 6/10 10Y reopening was the standout (BTC 2.57, indirect 78.2%, dealer 9.5% — broke the 5th-consecutive-10Y-tail fear); the 6/11 30Y was soft-but-orderly (BTC 2.33 held >2.3, indirect 59.84%, no outlier repeat of the 5/13 11th-pctile print); the **6/16 20Y reopening printed STRONG** (BTC 2.75 — best in 3mo, ~-1bp stop-through, indirect 71.6%), resolving **BND-09 FALSE**; the 6/18 5Y TIPS was solid (BTC 2.61, real 1.955%). The into-gate hawkish FOMC did NOT translate to auction stress. **Next live gate: the 6/23–25 2Y/5Y/7Y cluster** — first coupons under the hawkish-FOMC regime (record MMF cash a demand headwind).
 
 ## May 2026 Refunding Read
 

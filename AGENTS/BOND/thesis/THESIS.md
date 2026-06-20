@@ -13,7 +13,7 @@ BOND owns the **market-structure transmission layer** — how the bond market's 
 
 **The durable read is "expensive, not broken."** Through the May–June 2026 long-end repricing, every demand test — May refunding (3Y/10Y/30Y), 5/20 20Y, 5/21 10Y TIPS, and the **June refunding (10Y 6/10 / 30Y 6/11)** — **cleared at price**. Yields are elevated on **term-premium / supply** pressure, not a mechanical demand hole. That distinction is the whole thesis: term-premium digestion is a slow repricing the market absorbs; a demand hole (failed auctions → forced dealer warehousing → funding stress → repricing) is the fast, systemic path. To date it is the former.
 
-**The June refunding confirmed the read.** The 10Y (6/10) printed **strong** — BTC 2.57, indirect 78.0%, primary-dealer take just 9.4% (dealers barely absorbed); the 30Y (6/11) printed **soft but orderly** — BTC 2.33 (held above 2.3), indirect 59.8%. No demand hole; yields *rallied* post-auction. [CONF TreasuryDirect, 6/10–6/11]
+**The June refunding confirmed the read.** The 10Y (6/10) printed **strong** — BTC 2.57, indirect 78.2%, primary-dealer take just 9.4% (dealers barely absorbed); the 30Y (6/11) printed **soft but orderly** — BTC 2.33 (held above 2.3), indirect 59.8%. No demand hole; yields *rallied* post-auction. [CONF TreasuryDirect, 6/10–6/11]
 
 **Two things keep this a WATCH, not a stand-down:**
 1. **The long end is absolutely elevated** (10Y ~4.5 / 30Y ~5.0) and the back-ups have been **real-rate-led** (DFII10 the driver, breakevens flat) — supply/term-premium is the structurally worse driver, and the dealer backstop is **thin** (NY Fed FR2004 5/27: dealer long-end inventory near/at record — 11–21Y $67.0B all-time high).
@@ -23,15 +23,15 @@ BOND owns the **market-structure transmission layer** — how the bond market's 
 
 ## TRANSMISSION CHANNELS
 
-| # | Channel | Mechanism | State (6/15) | Consumes / Feeds |
+| # | Channel | Mechanism | Structural posture (regime-level) | Consumes / Feeds |
 |---|---|---|---|---|
-| 1 | **Auction health** | Demand hole → dealer warehousing → repo demand → funding stress | 🟡 below-median but **clearing at price**; June refunding cleared | → LIQUID, ZHAO |
-| 2 | **Credit issuance / HY function** | OAS blowout → issuance freeze → refi wall → forced selling | 🟢 macro calm (HY 271); **bifurcation caveat** (CCC 948, energy HY) | → HENRY, REGINALD, BROCK |
-| 3 | **Dealer capacity** | Record inventory → no backstop → forced de-risk in a selloff | 🟠 FR2004 long-end near/at record (5/27 stock); refunding flow benign | → LIQUID, ZHAO |
-| 4 | **Long-end / term premium** | Real-yield-led supply pressure → duration repricing | 🟠→🟡 relaxed post-refunding (back <4.5 / <5.0); absolutely elevated | → HENRY, LIQUID |
-| 5 | **Credit-leads-equity (Hamilton ~3mo lead)** | HY OAS widens → precedes equity drawdown | 🟢 **inactive** — VIX moves are equity-vol-led, not credit-led | → HENRY, VIOLET |
+| 1 | **Auction health** | Demand hole → dealer warehousing → repo demand → funding stress | Below-median but **clearing at price** | → LIQUID, ZHAO |
+| 2 | **Credit issuance / HY function** | OAS blowout → issuance freeze → refi wall → forced selling | Macro calm; **bifurcation caveat** (lower-quality CCC/energy sit out the calm) | → HENRY, REGINALD, BROCK |
+| 3 | **Dealer capacity** | Record inventory → no backstop → forced de-risk in a selloff | Long-end inventory at record (FR2004 *stock*); auction *flow* benign | → LIQUID, ZHAO |
+| 4 | **Long-end / term premium** | Real-yield-led supply pressure → duration repricing | Elevated but not breaking; real-rate-led | → HENRY, LIQUID |
+| 5 | **Credit-leads-equity (Hamilton ~3mo lead)** | HY OAS widens → precedes equity drawdown | **Inactive** — moves are equity-vol-led, not credit-led | → HENRY, VIOLET |
 
-*Live levels owned by STATUS dashboard; this table is the structural read.*
+*Live levels AND live state (colour scores) owned by STATUS (dashboard + convergence matrix); this column is the durable, regime-level structural read only — no dated numbers, to avoid drift.*
 
 ---
 
@@ -65,17 +65,19 @@ BOND owns the **market-structure transmission layer** — how the bond market's 
 
 ## KEY THRESHOLDS (live values owned by STATUS)
 
-| Metric | Threshold | Implication | State 6/15 |
-|---|---|---|---|
-| HY OAS | >350 / >500 | Issuance freeze / forced selling | 🟢 271 |
-| HY OAS | >300 ×3 sess | Credit watch reopens | 🟢 below |
-| 5Y BTC | <2.3x | Demand hole — mechanism stressed | 🟢 5Y 5/27 2.34 |
-| Auction tail | >2bp + dealer spike | End-demand weakness | 🟢 June cleared |
-| DFII10 (10Y real) | >2.5% sustained | Real-yield stress regime | 🟡 2.16 |
-| T5YIFR (5Y5Y fwd) | >2.5% sustained | Inflation expectations unanchored | 🟢 2.23 |
-| 10Y / 30Y | >4.5 / >5.0 held 5 sess + weak auction | Escalate long-end to 4 | 🟡 back below |
-| SOFR-IORB | positive, sustained >+5bp | Auction stress → repo | 🟢 ~0 |
-| Treasury buyback long-end accept-cap | **lifted** | YCC-lite / stealth long-end suppression → TLT-puts event | ⚪ $2B cap held |
+*Live readings for every threshold below are in `STATUS.md` (dashboard) — the "State" snapshot column was removed to stop cross-doc drift.*
+
+| Metric | Threshold | Implication |
+|---|---|---|
+| HY OAS | >350 / >500 | Issuance freeze / forced selling |
+| HY OAS | >300 ×3 sess | Credit watch reopens |
+| 5Y BTC | <2.3x | Demand hole — mechanism stressed (NB: secular BTC decline ~3.0→2.5 per GAO; 2.3x sits just under the new norm) |
+| Auction tail | >2bp + dealer spike | End-demand weakness |
+| DFII10 (10Y real) | >2.5% sustained | Real-yield stress regime |
+| T5YIFR (5Y5Y fwd) | >2.5% sustained | Inflation expectations unanchored |
+| 10Y / 30Y | >4.5 / >5.0 held 5 sess + weak auction | Escalate long-end to 4 |
+| SOFR-IORB | positive, sustained >+5bp | Auction stress → repo |
+| Treasury buyback long-end accept-cap | **lifted** | YCC-lite / stealth long-end suppression → TLT-puts event |
 
 ---
 
