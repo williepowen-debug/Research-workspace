@@ -1,26 +1,26 @@
 # HEARTBEAT.md
-**Updated:** 2026-06-18 12:26 ET (OpenClaw heartbeat — post-FOMC gate update: HY near kill, stress impulse fading)
+**Updated:** 2026-06-19 20:26 ET (OpenClaw heartbeat — Geneva MOU signed; energy tail risk deferred, HY kill still unconfirmed)
 
 ## Regime
 
-**FOMC re-armed macro/carry/vol fragility, but broad credit cascade is still not confirmed.** The Fed held the target range at **3.50–3.75%** by **12–0**, but the statement/SEP were hawkish-of-pricing: solid activity, strong productivity/capex, job gains keeping pace with workforce, inflation still elevated from supply shocks/energy, and a clear “deliver price stability” line. SEP moved materially hawkish vs March: **2026 PCE 3.6% vs 2.7%, core PCE 3.3% vs 2.7%, 2026 fed-funds median 3.8% vs 3.4%**, with dots clustered at/current-or-above current policy and several outright hike dots.
+**Geneva de-escalation branch fired; broad credit cascade still not confirmed.** The 6/19 Iran/Geneva binary resolved toward de-escalation: U.S. reporting says the United States and Iran signed a memorandum of understanding that reopened the Strait of Hormuz and established a ceasefire framework, with a new **60-day negotiation window** around Iran nuclear commitments. Iran’s strait authority reportedly waived transit-related fees during the negotiation period while requiring 48h transit requests. This defers the immediate Hormuz/oil-shock tail, but it does not eliminate it: Trump explicitly warned that if talks fail, renewed strikes could again bottle up oil flows through the strait.
 
-Tape read: **risk-off impulse, not system break.** Equities and credit proxies sold after 2pm: QQQ **$722.51 (-1.01%)**, SPY **$740.96 (-1.25%)**, HYG **$79.73 (-0.37%)**, JNK **$96.06 (-0.38%)**, KRE **$71.15 (-1.85%)**, WAL **$78.43 (-3.74%)**, ARES **$128.35 (-4.91%)**, BIZD **$12.34 (-2.22%)**. VIX lifted to **18.44** and VIXY +4.03%, UUP +0.90%, USD/JPY still **160.61🔴**. But duration did **not** break — TLT **$86.33 (+0.16%)**, 10Y latest dashboard **4.43 [FRED 6/16]** — and HY OAS latest official print remains **271bps [FRED 6/16]**, still above the <260 blended-credit kill line and far below >320 confirmation.
+**Tape read: de-escalation + calm, not system break.** Current dashboard: HY OAS **263bps [FRED 6/17]**, CCC **939bps [6/17]**, Brent **$80.59**, VIX **16.78**, KRE **$71.72**, WAL **$79.91**, TLT **$86.75**, 10Y **4.49 [6/17]**. Banks/vol are not confirming cascade stress; duration is still yellow but not disorderly. Carry remains the main red macro stress: USD/JPY **161.28🔴**, FXY **$56.85🔴**. BDC/PC weakness persists at the margin with BIZD **$12.36🔴**, ARES **$129.34🟡**, but not enough by itself to confirm broad cascade.
 
-Working model: **hawkish-FOMC re-arm / unresolved divergence.** The pre-FOMC dovish/risk-on soft-kill branch did **not** fire; the <260 HY kill remains unconfirmed. The hawkish-of-pricing branch **did** fire enough to re-open R1/R6/vol stress and stop the clean bull-tape narrative, but it has not yet transmitted into broad credit/banks at cascade levels. Treat this as **fragile calm cracked, not broken.** First 6/18 confirmation gates are now mixed: HY OAS compressed to **263bps [FRED 6/17]**, only 3bp above the <260 blended-credit kill line; claims were benign/yellow (**226k initial, 1.810M continuing**); VIX faded below 17 and KRE/WAL firmed; USD/JPY/FXY carry stress worsened. Broad cascade is still not confirmed, but the **R3 kill line is now uncomfortably close**.
+Working model: **energy shock deferred; post-FOMC/carry divergence unresolved.** The Geneva MOU weakens the HAWK/BRENT immediate oil-shock path and makes M-06 less acute, but the 60-day fuse leaves a late-August re-escalation option. The credit bear axis remains on probation: HY OAS at **263 [6/17]** is still only 3bp above the <260 blended-credit kill line. Sustained <260 still kills/reprices R3 unless offset by fresh bank/private-credit deterioration. For now: **fragile calm, not breakdown.**
 
 Key updates since prior HEARTBEAT:
-- **FOMC outcome:** hold **3.50–3.75%**, unanimous **12–0**; SEP hawkish: 2026 PCE/core and fed-funds medians revised sharply higher vs March.
-- **R3 kill not confirmed but closer:** HY OAS **263bps [FRED 6/17]** is only 3bp above the <260 kill line. A sustained <260 print would kill/reprice the blended-credit bear axis unless offset by fresh bank/private-credit deterioration.
-- **Vol re-arm faded:** VIX **16.96**; post-FOMC vol impulse did not persist so far. This weakens immediate cascade confirmation.
-- **Carry still worsening:** USD/JPY **161.27🔴**, FXY **$56.88🔴**. BOJ benign did not discharge carry risk; hawkish Fed keeps USD pressure alive.
-- **Banks recovered, BDCs still weak:** KRE **$71.63**, WAL **$79.44** firmed; ARES **$130.50🟡**, BIZD **$12.34🔴** remain PC/BDC weak spots. No broad-bank cascade without renewed continuation/credit confirmation.
-- **Duration did not confirm stress:** TLT held green and 10Y latest official still 4.43 [6/16]; FOMC shock showed more in USD/equity/credit proxies than long-end disorder.
-- **WALTER Routing v2 gate passed + OpenClaw consume rollout progressed:** real `agentId=walter` Quick-WALTER spawn validated Case A delivery path and Case B Iran-anchor guard. BRENT consumed -001 and HAWK consumed -002 via `INBOX_WALTER`; both moved handoffs to `processed/`. Evening heartbeat installed the v0.2 `inbox/WALTER/` consume boot-step into remaining OpenClaw recipients' `CLAUDE.md` (BROCK, LIQUID, HENRY, LABOR, NEXUS, VIOLET, SHADE). Doctor now shows no WALTER handoffs in flight; remaining rollout is CC self-apply (CARL/REGINALD/SAM/RED, plus OZK if revived).
+- **Geneva gate resolved de-escalatory:** U.S.–Iran MOU signed; Strait/Hormuz reopening + ceasefire framework; 60-day negotiation window creates new fuse rather than final peace.
+- **Energy tail risk deferred:** Brent **$80.59** is green/below stress thresholds; falling crude should be read as geopolitical de-escalation, not proof the physical system is structurally repaired.
+- **HY kill still not confirmed:** HY OAS **263 [FRED 6/17]** remains 3bp above <260. No new FRED HY print in dashboard yet.
+- **Vol/banks calm:** VIX **16.78**, KRE **$71.72**, WAL **$79.91** argue against immediate cascade confirmation.
+- **Carry remains red:** USD/JPY **161.28🔴**, FXY **$56.85🔴** keep SAM/carry unwind risk live despite energy de-escalation.
+- **Private-credit/BDC weak spot persists:** BIZD **$12.36🔴**, ARES **$129.34🟡** remain the offset to otherwise calm credit/bank tape, but not standalone broad-cascade proof.
+- **CORAL Phase 1 maturity scaffold completed and pushed:** `SCRATCH.md`, `NEXUS_BRIEF.md`, `board_log.tsv`, and boot/write-back protocol are now on origin in commit `08c0d42b`.
 
 ## Stress dashboard
 
-HY OAS **263🟢 [FRED 6/17]** *(3bp above <260 kill)* · CCC **939🟡 [FRED 6/17]** · 10Y **4.43🟡 [FRED 6/16]** · TLT **$86.84🟡** · VIX **16.96🟢** · Brent **$77.81🟢** · Gas weekly **4.05🔴 [6/15]** · USD/JPY **161.27🔴** · WAL **$79.44🟢** · KRE **$71.63🟢** · OZK **$49.42🟡** · APO **$138.12** *(high alts tape still contradicts immediate PC-bear timing)* · ARES **$130.50🟡** · BIZD **$12.34🔴** · FXY **$56.88🔴** · Initial claims **226k🟡 [6/13]** / shadow est **281k** · Continuing claims **1.810M🟡 [6/6]** · SOFR-IORB **-0.02🟢 [6/17]** · CP-TBill **0.12🟢 [6/16]**
+HY OAS **263🟢 [FRED 6/17]** *(3bp above <260 kill)* · CCC **939🟡 [FRED 6/17]** · 10Y **4.49🟡 [FRED 6/17]** · TLT **$86.75🟡** · VIX **16.78🟢** · Brent **$80.59🟢** · Gas weekly **4.05🔴 [6/15]** · USD/JPY **161.28🔴** · WAL **$79.91🟢** · KRE **$71.72🟢** · OZK **$49.26🟡** · APO **$137.50** *(high alts tape still contradicts immediate PC-bear timing)* · ARES **$129.34🟡** · BIZD **$12.36🔴** · FXY **$56.85🔴** · Initial claims **226k🟡 [6/13]** / shadow est **281k** · Continuing claims **1.810M🟢 [6/6]** · SOFR-IORB **-0.02🟢 [6/17]** · CP-TBill **0.08🟢 [6/17]**
 
 ## Thresholds
 
@@ -28,41 +28,43 @@ HY OAS **263🟢 [FRED 6/17]** *(3bp above <260 kill)* · CCC **939🟡 [FRED 6/
 |---|---|---|---|---|
 | HY OAS | <300 | 300-320 | >320 | **263🟢 [FRED 6/17]** *(3bp above <260 kill)* |
 | CCC OAS | <900 | 900-1000 | >1000 | **939🟡 [FRED 6/17]** |
-| 10Y Treasury | <4.40 | 4.40-4.75 | >4.75 | **4.43🟡 [FRED 6/16]** |
-| TLT | >$88 | $85-88 | <$85 | **$86.84🟡** |
-| Brent | <$85 | $85-100 | >$100 | **$77.81🟢** |
+| 10Y Treasury | <4.40 | 4.40-4.75 | >4.75 | **4.49🟡 [FRED 6/17]** |
+| TLT | >$88 | $85-88 | <$85 | **$86.75🟡** |
+| Brent | <$85 | $85-100 | >$100 | **$80.59🟢** |
 | Gas weekly | <$3.75 | $3.75-4.00 | >$4.00 | **4.05🔴 [6/15]** |
-| USD/JPY | <150 | 150-158 | >158 | **161.27🔴** |
-| VIX | <18 | 18-25 | >25 | **16.96🟢** |
-| SOFR-IORB | <+0.05 | 0.05-0.25 | >0.25 | **-0.02🟢 [6/16]** |
-| KRE | >$69 | $65-69 | <$65 | **$71.63🟢** |
-| WAL | >$78 | $72-78 | <$72 | **$79.44🟢** |
-| OZK | >$50 | $45-50 | <$45 | **$49.42🟡** |
-| APO | <$125 | $125-130 | >$130 x3 sessions | **$138.12** *(reassess context; not standalone trigger)* |
-| ARES | <$125 | $125-132 | >$132 x3 sessions | **$130.50🟡** |
-| BIZD | >$13 | $12.50-13 | <$12.50 | **$12.34🔴** |
+| USD/JPY | <150 | 150-158 | >158 | **161.28🔴** |
+| VIX | <18 | 18-25 | >25 | **16.78🟢** |
+| SOFR-IORB | <+0.05 | 0.05-0.25 | >0.25 | **-0.02🟢 [6/17]** |
+| KRE | >$69 | $65-69 | <$65 | **$71.72🟢** |
+| WAL | >$78 | $72-78 | <$72 | **$79.91🟢** |
+| OZK | >$50 | $45-50 | <$45 | **$49.26🟡** |
+| APO | <$125 | $125-130 | >$130 x3 sessions | **$137.50** *(reassess context; not standalone trigger)* |
+| ARES | <$125 | $125-132 | >$132 x3 sessions | **$129.34🟡** |
+| BIZD | >$13 | $12.50-13 | <$12.50 | **$12.36🔴** |
 | Initial claims | <220k | 220-245k | >245k | **226k🟡 [6/13]**; shadow est **281k** |
-| Continuing claims | <1.80M | 1.80-1.90M | >1.90M | **1.810M🟡 [6/6]** |
+| Continuing claims | <1.80M | 1.80-1.90M | >1.90M | **1.810M🟢 [6/6]** |
 
 ## HEARTBEAT Cadence / Ownership
 
 **Approved Jun 4:** Prome owns `HEARTBEAT.md`. Update after Prome boot-surface refreshes, regime-level changes, major decision-rail changes, or when >48h stale during market week. Do **not** update daily by default just for hygiene.
 
-## Near Gates — Jun 18–22
+## Near Gates — Jun 20–22
 
 | Date / Window | Gate | Owner(s) | Read |
 |---|---|---|---|
-| **Thu 6/18** | Claims + May TIC + FRED HY 6/17 print + expiry cluster | LABOR/SAM/LIQUID/Prome | First post-FOMC confirmation day. Claims/labor drift, TIC/FXY/carry, and HY OAS decide whether hawkish re-arm persists or fades. Expiry cleanup requires broker/Will truth. |
-| **Fri 6/19** | Geneva Iran signing + HYG expiry + opex digestion | WALTER/HAWK/BRENT/LIQUID/VIOLET | Iran signing is binary for M-06; HYG Jun $75P written off / let expire. Watch vol persistence after opex. |
+| **Fri/Sat 6/19–20** | Post-Geneva follow-through + HY print availability | WALTER/HAWK/BRENT/LIQUID/VIOLET/Prome | MOU signed reduces immediate oil shock, but follow-through matters: Strait traffic, Iranian compliance language, Israel/Hezbollah behavior, and whether Brent/VIX stay calm. |
+| **Fri/Sat 6/20** | CFTC carry-position read | SAM/LIQUID | Tests SAM v1.6 carry-convexity frame while USD/JPY >161 and FXY red. |
+| **Next FRED HY update** | HY <260 kill line | LIQUID/NEXUS/Prome | Sustained <260 kills/reprices blended-credit bear axis unless offset by bank/private-credit deterioration. |
 | **Late Jun / Jul** | BCRED/Q2 redemption, BDC/Q2, SAVE Jul 1 | BROCK/CARL/LABOR | Structural stress watch; not immediate broad-cascade confirmation. |
 
 ## Blocking / Pending
 
 | Pri | Decision / Work | Reference |
 |---|---|---|
-| 🔴 | **Post-FOMC branch confirmation.** First 6/18 gates are mixed: claims benign/yellow and VIX/banks faded stress, but HY OAS compressed to 263 — 3bp above kill. Need TIC/FXY and whether HY breaks <260 or banks/PC re-weaken. | `PROME/TODAY.md`, `PROME/ACTIVE_DECISIONS.md` |
-| 🔴 | **HY <260 kill-line monitoring.** Latest HY **263 [FRED 6/17]**; <260 still not confirmed but now very close. Sustained <260 kills/reprices R3 blended-credit axis unless bank/private-credit deterioration offsets. | NEXUS/ORC review, dashboard |
-| 🟠 | **WALTER Phase 2 consumption rollout.** Quick-WALTER gate passed; BRENT and HAWK delivery→consumption loops are durable; OpenClaw consume boot-step now installed for BROCK, LIQUID, HENRY, LABOR, NEXUS, VIOLET, SHADE; doctor shows zero in-flight handoffs. Remaining work: CC recipient self-apply and later CC push/urgent-delivery automation. | `AGENTS/WALTER/STATUS.md`, `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` |
+| 🔴 | **HY <260 kill-line monitoring.** Latest HY **263 [FRED 6/17]**; <260 still not confirmed but very close. Sustained <260 kills/reprices R3 blended-credit axis unless bank/private-credit deterioration offsets. | NEXUS/ORC review, dashboard |
+| 🔴 | **Post-FOMC branch confirmation.** Claims benign/yellow, VIX/banks calm, energy shock deferred; carry remains red and HY remains near kill. Need next HY print + SAM/CFTC carry read. | `PROME/TODAY.md`, `PROME/ACTIVE_DECISIONS.md` |
+| 🟠 | **Geneva 60-day fuse.** Immediate M-06 oil shock deferred, but late-August re-escalation risk is now the tail. Watch Strait/Hormuz implementation and nuclear-talk language. | WALTER/HAWK/BRENT anchors |
+| 🟠 | **WALTER Phase 2 consumption rollout.** OpenClaw consume paths are working; CORAL Phase 1 now has WALTER board-log intake. Remaining work is CC recipient self-apply and later CC push/urgent-delivery automation. | `AGENTS/WALTER/STATUS.md`, `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` |
 | 🟠 | **Jun18/19 expiry cleanup.** HYG dead; TLT/WAL/non-TLT legs require broker reconciliation. | `PROME/ACTIVE_DECISIONS.md` |
 | 🟠 | **Position-state reconciliation pass.** Separate future task; do not mix with market synthesis unless Will pivots. | `PROME/ACTIVE_DECISIONS.md` |
 | 🔵 | **PROME execution-rails design.** HYG roll Jun→Dec died for lack of mechanism; design debt. | BROCK LESSONS #16 |
@@ -73,7 +75,7 @@ HY OAS **263🟢 [FRED 6/17]** *(3bp above <260 kill)* · CCC **939🟡 [FRED 6/
 - Current Prome working state → `PROME/SCRATCH.md`, `PROME/STATUS.md`
 - Active decisions safety index → `PROME/ACTIVE_DECISIONS.md`
 - Agent state → `AGENTS/<NAME>/STATUS.md`
-- WALTER Iran anchor → `AGENTS/WALTER/anchors/IRAN_WAR.md` *(6/16: de-escalation pending / unsigned MOU; 6/19 Geneva binary)*
+- WALTER Iran anchor → `AGENTS/WALTER/anchors/IRAN_WAR.md`
 - HAWK/BRENT current energy-geopolitical read → `AGENTS/HAWK/STATUS.md`, `AGENTS/BRENT/STATUS.md`
 - NEXUS current synthesis → `AGENTS/NEXUS/STATUS.md`
 
