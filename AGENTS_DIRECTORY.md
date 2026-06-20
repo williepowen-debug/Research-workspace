@@ -1,6 +1,6 @@
 # AGENTS DIRECTORY
 
-*Quick reference. Updated: 2026-05-16*
+*Quick reference. Updated: 2026-06-20*
 
 ## Runtime Architecture
 
@@ -66,7 +66,7 @@ Sub-agents own detail → distill upward to parents → lateral only when transm
 | Agent | Domain | Status | Key |
 |-------|--------|--------|-----|
 | **ATHENA** | Reading / knowledge | 🟢 | Reading companion + knowledge compounder. Currently: *Thinking in Systems* (Meadows). Cross-pollinates with agent network. |
-| **MERLIN** | General research | 🟡 | Deep dives on demand. Renamed from RESEARCHER. Not yet built |
+| **DEWEY** | Deep research executor + data-pull script home | 🟡 | Revived 2026-06-20; formerly RESEARCHER. Cited `/deep-research` executor, WALTER handoff lane, first live run pending after CONTEXT refresh. |
 
 ## Specialized
 
