@@ -14,7 +14,7 @@
 - Before stepping away from a long session
 - After any session that changed state, refreshed data, or fired a cross-agent signal
 
-Skip for casual one-off exchanges with no artifacts.
+Skip for casual one-off exchanges with no artifacts. **Live-event override:** if a regime-moving print / active catalyst window is in progress, DEFER the full write-back — snapshot STATUS as a working dashboard and keep EXECUTE open until the event stabilizes (mirrors CLAUDE.md SPAWN PROTOCOL step 6).
 
 ---
 
@@ -120,23 +120,25 @@ If no surprising lessons: skip.
 
 ## Chunk 5 — Git + report (Standard / Heavy; Light optional; Bounce skips)
 
-### Git sequence
+### Git sequence (pathspec-scoped — **never `git reset HEAD`**, shared `.git/index`)
 
+**Modified files** — path-scoped commit, no separate staging step:
 ```
-git status --short                          # check scope
-git reset HEAD                              # clear pre-staged
-git add AGENTS/LIQUID/                      # explicit scope; never -A or .
-git diff --cached --stat                    # verify nothing unexpected
-git commit -m "LIQUID: <subject>"           # subject + body if multi-artifact
-# if remote diverged:
-git fetch origin && git log --oneline HEAD..origin/master  # what's new on remote
-# if remote commits don't touch LIQUID/ files: rebase + push
-# if working tree has other agents' uncommitted work: defer push, note in MEMORY
-git pull --rebase
-git push
+git status --short                                       # check scope; note dirty OUTSIDE LIQUID/
+git commit AGENTS/LIQUID/<file> [<file2> ...] -m "LIQUID: <subject>"
 ```
 
-Commit-message style (per recent history): `LIQUID: <short one-liner>` subject; body explains WHY when non-obvious; include `Co-Authored-By: Claude Opus 4.7 <noreply@anthropic.com>` trailer.
+**New untracked files** — atomic add+commit, explicit paths (never `git add AGENTS/LIQUID/` as a directory — sweeps unintended files):
+```
+git add AGENTS/LIQUID/<specific-new-file>
+git diff --cached --stat                                 # optional sanity: nothing unexpected
+git commit AGENTS/LIQUID/<specific-new-file> [...] -m "LIQUID: <subject>"
+```
+
+- **Never `git reset HEAD`** — shared index makes it a global unstage that races other agents' concurrent stages (root CLAUDE.md; incident `8ac5bf71`, memory `finding_pathspec_commit_race_safety`).
+- **Push is Will-coordinated — defer by default.** Commit locally; note any pending push in the MEMORY CURRENT block. A session-end push races other agents' unpushed commits on the shared branch; in a Will-opened window one agent's push sweeps everyone's committed work (`finding_push_train_pattern`).
+
+Commit-message style: `LIQUID: <short one-liner>` subject; body explains WHY when non-obvious; `Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>` trailer.
 
 **If working tree outside LIQUID is dirty** (other agents' uncommitted work): commit your work locally, **defer push**, note pending push in MEMORY CURRENT block (per root CLAUDE.md Option B + "Agent Git Isolation" memory rule). Next session pushes when working tree is cleaner.
 

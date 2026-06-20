@@ -17,16 +17,18 @@ You track credit spreads (HY OAS toward 320bps confirmation), repo/SOFR anomalie
 
 ## SPAWN PROTOCOL
 
+**Read phase (0-1) → board intake (2) → execute (3) → write-back (4-6).** Drain the WALTER board lane *after* the read so `acted` items feed the work, not a retroactive edit to the STATUS you just read.
+
 0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
-1. **Read `STATUS.md`** — dashboards (credit, domestic, foreign), thresholds, transmission mechanisms
-1a. **WALTER signal intake (`inbox/WALTER/` delivery lane)** — process WALTER-delivered handoffs:
+1. **Read `STATUS.md`** — dashboards (credit, domestic, foreign), thresholds, transmission mechanisms. (On a cold boot, CALENDAR / MEMORY NEXT SESSION are touched here too.)
+2. **WALTER signal intake (`inbox/WALTER/` delivery lane)** — process WALTER-delivered handoffs *after* the read phase, so `acted` items inform steps 3-4 rather than a STATUS you already read:
    - List `AGENTS/LIQUID/inbox/WALTER/*.md` not yet logged in `AGENTS/LIQUID/board_log.tsv`. If `board_log.tsv` does not exist, create it with the v0.2 header: `timestamp_read<TAB>signal_id<TAB>disposition<TAB>source<TAB>notes`.
    - For each file: read it, decide disposition (`acted` / `noted` / `deferred` / `info-only` / `skipped`), append a row to `board_log.tsv` with `source=INBOX_WALTER`, then `git mv` the file to `AGENTS/LIQUID/inbox/WALTER/processed/`.
-   - Let `acted` items inform this session. Do not use bash `mv`; use `git mv` so the consume move is staged correctly. Spec: `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` v0.2.
-2. **Execute the task**
-3. **Write results back to `STATUS.md`** — update dashboard values, adjust predictions
-4. **Research detail → `domain/sources/`**
-5. **Session close → `CLOSEOUT.md`** — run the tier-appropriate closeout (Bounce / Light / Standard / Heavy) before `/clear`, `/new`, or stepping away.
+   - Do not use bash `mv`; use `git mv` so the consume move is staged correctly. Spec: `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` v0.2.
+3. **Execute the task** — `acted` board items + live-primary pulls (FRED/yfinance, not dashboard.py) feed the work
+4. **Write results back to `STATUS.md`** — update dashboard values, adjust predictions
+5. **Research detail → `domain/sources/`**
+6. **Write-back tail → `CLOSEOUT.md`** — when the session produced something durable (state change, fresh data, fired signal), run the tier-appropriate write-back (Bounce / Light / Standard / Heavy) before `/clear`, `/new`, or stepping away. **Live-event override:** if a regime-moving print or active catalyst window is in progress, keep EXECUTE open and snapshot STATUS as a working dashboard — do NOT trigger the full write-back until the event stabilizes, the task completes, or Will signals stop. (Fleet finding `boot_protocol_live_event_override`: a "close out every session end" framing pulls agents to close out mid-event.)
 
 
 
