@@ -907,3 +907,19 @@ Open with Will at next-session start (Wed 5/27 AM):
 - Honest framing throughout: explicitly walked Will through (a) vs (b) tradeoff for Q2-print gap rather than just executing my preference.
 - Surfaced packet staleness + Q2-print gap proactively before Will-approval rather than letting him approve against stale data.
 
+
+---
+
+## 2026-06-17 ~21:32 ET — WALTER v2 proven; delivery/push model next
+
+**Status:** WALTER Routing v2 is now validated end-to-end on the real path. Real `agentId=walter` Quick mode passed Case A delivery and Case B Iran-anchor refusal/escalation. BRENT and HAWK consumed their backfills; doctor shows zero WALTER handoffs in flight and zero awaiting delivery. Local unpushed commits now include Prome's operating-model correction plus WALTER/OpenClaw consume rollout for remaining OpenClaw recipients.
+
+**Key correction from Will:** serious domain-agent work mostly happens in Claude Code terminals on desktop/laptop, not inside VPS/OpenClaw. Treat VPS/OpenClaw as Prome's Telegram orchestration/interface layer. Therefore origin push is the practical visibility boundary for routed WALTER signals, even if same-clone OpenClaw delivery works immediately for tests.
+
+**What landed / is local:** Prome memory correction (`Real Agent-Work Surface Is Claude Code`) plus WALTER consume-step scaffolding for BROCK, LIQUID, HENRY, LABOR, NEXUS, VIOLET, SHADE. BRENT + HAWK are already pushed/durable.
+
+**Next suggested work:** brainstorm and choose WALTER/Prome delivery-push policy: immediate push for every route vs urgency-tiered push vs explicit pending-route flush queue. Recommendation to test: urgency-tiered push with visible pending-route queue and manual flush command.
+
+**Risks / blockers:** latest local commits are not pushed yet; Claude Code sessions cannot see them until origin is updated. PROME push automation for FLASH/IMMEDIATE to Claude Code recipients remains owed. No trade/position work without broker/Will truth.
+
+---

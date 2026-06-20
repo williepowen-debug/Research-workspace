@@ -6,6 +6,21 @@
 
 ---
 
+
+## 2026-06-20 ~14:59 ET — Closeout after CORAL inbox + thesis rails install
+
+**Status:** Repo is clean/synced to origin. CORAL boot hardening, WALTER inbox processing, and thesis rails are installed and pushed. Market regime unchanged from HEARTBEAT: Geneva de-escalation branch fired, HY **263 [FRED 6/17]** near <260 kill, banks/VIX calm, carry red.
+
+**What landed:** CORAL now has `scripts/boot.py`, processed WALTER inbox (`SIG-W-20260619-002/007/008` moved to processed with `board_log.tsv` rows), updated STATUS/SCRATCH/NEXUS/MEMORY/workbooks, and installed `thesis/THESIS.md` + `thesis/CHANGELOG.md`. Bank-upgrade rail requires ≥2 FL-exposed banks deteriorating or explicit USCB condo-association loan deterioration with corroboration.
+
+**Files edited:** `PROME/SCRATCH.md`, `PROME/STATUS.md`, `PROME/TODAY.md`, `PROME/ACTIVE_DECISIONS.md`, `PROME/HANDOFF.md`, `memory/2026-06-20.md`; CORAL files under `AGENTS/CORAL/` were edited under explicit Will scope and pushed before Prome closeout.
+
+**Next suggested work:** fresh boot should find repo clean/synced. If CORAL lane, build per-metro convergence grid or Q2 FL-bank prep. If market lane, refresh HY/dashboard and check Jun20 CFTC/SAM. If WALTER lane, monitor v0.18 behavior; do not edit WALTER specs from Prome unless scoped.
+
+**Risks / blockers:** no trade/expiry action without broker/Will truth. CORAL thesis values must stay in STATUS/workbooks, not THESIS. Do not upgrade CORAL bank transmission on collateral/household stress alone.
+
+---
+
 ## 2026-06-19 ~21:15 ET — Closeout after CORAL Phase 1 + Geneva heartbeat
 
 **Status:** CORAL Phase 1 maturity scaffold is on origin. Geneva gate resolved de-escalatory and `HEARTBEAT.md` was updated locally; heartbeat + this closeout are local-only unless Will asks to push. Current market read: energy shock deferred, HY **263 [FRED 6/17]** still 3bp above <260 kill, banks/VIX calm, carry red.
@@ -57,19 +72,5 @@
 **Next suggested work:** fresh boot from `HEARTBEAT.md`, `PROME/SCRATCH.md`, `PROME/TODAY.md`, `PROME/ACTIVE_DECISIONS.md`. Choose lane: market monitoring (HY <260 / TIC-FXY / banks-PC), or system design for a group-chat VERIFY/CONTEXT helper that fact-packs signals without routing authority.
 
 **Risks / blockers:** do not spawn Quick-WALTER for fresh news; do not create parallel signal artifacts. Legacy parallel artifacts remain historical (30 `FORGE/signals/*.md`, 14 generic agent inbox signal files) and need a deliberate archive/leave decision. No trade/expiry action without broker/Will truth.
-
----
-
-## 2026-06-17 ~21:32 ET — WALTER v2 proven; delivery/push model next
-
-**Status:** WALTER Routing v2 is now validated end-to-end on the real path. Real `agentId=walter` Quick mode passed Case A delivery and Case B Iran-anchor refusal/escalation. BRENT and HAWK consumed their backfills; doctor shows zero WALTER handoffs in flight and zero awaiting delivery. Local unpushed commits now include Prome's operating-model correction plus WALTER/OpenClaw consume rollout for remaining OpenClaw recipients.
-
-**Key correction from Will:** serious domain-agent work mostly happens in Claude Code terminals on desktop/laptop, not inside VPS/OpenClaw. Treat VPS/OpenClaw as Prome's Telegram orchestration/interface layer. Therefore origin push is the practical visibility boundary for routed WALTER signals, even if same-clone OpenClaw delivery works immediately for tests.
-
-**What landed / is local:** Prome memory correction (`Real Agent-Work Surface Is Claude Code`) plus WALTER consume-step scaffolding for BROCK, LIQUID, HENRY, LABOR, NEXUS, VIOLET, SHADE. BRENT + HAWK are already pushed/durable.
-
-**Next suggested work:** brainstorm and choose WALTER/Prome delivery-push policy: immediate push for every route vs urgency-tiered push vs explicit pending-route flush queue. Recommendation to test: urgency-tiered push with visible pending-route queue and manual flush command.
-
-**Risks / blockers:** latest local commits are not pushed yet; Claude Code sessions cannot see them until origin is updated. PROME push automation for FLASH/IMMEDIATE to Claude Code recipients remains owed. No trade/position work without broker/Will truth.
 
 ---
