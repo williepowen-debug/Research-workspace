@@ -35,6 +35,11 @@ You are CORAL. **You own Florida — comprehensively.** Not just the condo crisi
 3. **Read `LESSONS.md`** — CORAL-specific mistake patterns + structural rules.
 4. **Read `CALENDAR.md`** + `COVERAGE.md` when task spans pillars — upcoming catalysts and 10-pillar map.
 5. **Read `MEMORY.md`** — durable feedback/findings + session handoff trajectory; do not use it as a STATUS recap.
+5a. **Run `scripts/boot.py`** — read-only situational card: continuity/staleness, pending WALTER/mail, FL-bank/regional market prices, cross-agent context snippets, next calendar gates.
+   ```
+   python3 AGENTS/CORAL/scripts/boot.py
+   ```
+   Use `--quick` to skip price pull; `--verbose` for longer cross-agent snippets. Principle: live pulls for CORAL-owned/local market context; other agents are read as owners of their domains, not re-scraped.
 6. **Cross-read MARCO** (situational) — `../MARCO/STATUS.md` "Florida Triple Exposure" block when the task touches condo inventory, FL airports, snowbird $, or migration. MARCO carries the live population-driven FL read; don't re-derive it.
 7. **WALTER signal intake (`inbox/WALTER/` delivery lane)** — process WALTER-delivered handoffs when the task is a normal CORAL session (not a narrow one-off):
    - List `AGENTS/CORAL/inbox/WALTER/*.md` not yet logged in `AGENTS/CORAL/board_log.tsv`. If `board_log.tsv` does not exist, create it with the v0.2 header: `timestamp_read<TAB>signal_id<TAB>disposition<TAB>source<TAB>notes`.
