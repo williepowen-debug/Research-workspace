@@ -28,7 +28,7 @@ The two-phase oil crisis crossed its **Phase 1 → Phase 2 hinge in the week of 
 Inventories are still draining hard, but the curve has stopped pricing it.
 
 **Mechanism (physical, still tight):**
-- SPR **340.3M (−8.9M wk-6/12), no throttle** — ~97M→ to the real §6241(h) *limited* floor of **252.4M** (emergency authority §6241(d) has NO floor; ~350M was the 2023 trough, NOT a floor — v3.2 correction holds). Bearish marginal-supply branch runs longer.
+- SPR **340.3M (−8.9M wk-6/12), no throttle** — below the 2022 Biden-era low / lowest since 1983. **Runway is AUTHORIZATION-bound, not floor-bound (v4.1 refinement):** the 172M emergency release is set to be *fully withdrawn ~first week of July* [Semafor Jun 9/Argus] — so the no-throttle drain runs at pace to ~early July, then becomes a **DOE re-authorization decision** (now charged by the Jun-20 re-closure), NOT an indefinite ~12-wk run to the §6241(h) *limited* floor of **252.4M** (emergency authority §6241(d) has NO floor; ~350M was the 2023 trough — v3.2 correction holds; market commentary cites a separate ~150M operational minimum). Verify remaining barrels vs the Jun 24 EIA print.
 - Commercial crude **418.2M (−8.3M)**, ~6% below 5-yr. **Total crude incl SPR −17.2M** — biggest combined draw of the cycle.
 - **Cushing 20.03M — AT the ~20M operational bottom** (−1.61M wk; next WPSR ~Jun 24, wk-6/19, likely prints sub-20M → WTI delivery-dislocation risk; ROUTING Boundary #3 near-fire).
 - Refinery util **96.7%** (crude inputs 17.2 Mbpd) — margin-boom, not squeeze-stress (BRT-12 compression still absent).
@@ -130,7 +130,7 @@ Bear put spreads, NOT outright puts (vol crush — OVX 51.5, VIX 16.78) [LESSONS
 | Brent | <$75 sustained 3 sess | Thesis break (squeeze failed) | 🟡 ~$80 — closer; one bad demand week away |
 | **Curve M1−M3 / 6-mo** | backwardation → contango | Phase-1 structure erased | 🔴 **CONTANGO — first in ~2 years; Trigger #1 completed (Path-A-contaminated)** |
 | **Cushing** | <20M single print | Operational minimum; WTI dislocation | 🔴 **20.03M — AT the floor; sub-20M likely Jun 24** |
-| **SPR** | §6241 floor 252.4M (limited) / none (emergency) | ~97M runway; bearish branch runs longer | 🔴 **340.3M, no throttle** |
+| **SPR** | §6241 floor 252.4M (limited) / none (emergency); ~150M oft-cited operational | **authorization-bound: 172M release fully withdrawn ~early July → DOE re-auth decision (NOT a ~12-wk floor run)** | 🔴 **340.3M, no throttle; below 2022 low** |
 | **Total crude (incl SPR)** | sustained large draws | Aggregate tightening | 🔴 **−17.2M/wk — cycle max** |
 | EIA gasoline YoY | −5% ×3 wks | Phase 2 demand destruction (Trigger #2) | 🟠 **−1.1% (datapoint #2, deepening); 0/3** |
 | Refinery util | >95% | Crack-squeeze tripwire | 🟠 **96.7% — margin-boom mechanism, BRT-12 compression ABSENT** |
@@ -168,7 +168,7 @@ Bear put spreads, NOT outright puts (vol crush — OVX 51.5, VIX 16.78) [LESSONS
 | **Deal holds + strait physically normalizes** | **~38%** (HAWK B; verified-reopen bar) | Durable lower-for-longer; $80 toward $75 / STEO $79 2027 | Size a Phase-2 short to the operational-confirmation gap, not the peak |
 | **Deal frays / re-escalation (Lebanon collision, mine incident)** | **~20%** (HAWK D) | Brent gap-up; XLE re-rates; market mispositioned | Hold XLE $65C kinetic-tail; don't short into a possible bounce |
 | Cushing breaches 20M (~Jun 24) | high | WTI delivery dislocation; forces kinetic-resolution conversation | Flag PROME; ROUTING Boundary #3 → LIQUID/HENRY/RED |
-| SPR draws into a far-lower real floor (252.4M limited / none emergency) | — | Bearish marginal-supply branch runs LONGER | Watch DOE only for an actual policy statement |
+| **SPR 172M authorization completes ~early July → DOE re-authorization decision** (charged by the re-closure) | live, ~early Jul | Drain stops/slows unless extended; extend = more marginal supply stays (bearish) but a "running out of options" signal; no extend = the −8-9M/wk supply removal ENDS | Watch for a DOE drawdown announcement; verify remaining barrels vs Jun 24 EIA |
 | Russian crude-export saturation OR Ukraine pivot to crude terminals | watch | Brent-positive crude re-rate | HAWK flags a crude-terminal/pipeline strike-ledger row |
 
 **Thesis break condition:** Brent sustains below $75 with the strait still physically closed = demand destruction overwhelmed the supply squeeze without resolution. (Closer than at any prior point; ~$80 now.)

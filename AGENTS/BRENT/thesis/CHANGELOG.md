@@ -25,6 +25,8 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 **Conviction:** UNCHANGED — cautious-neutral, no new flat-price longs; do not initiate a Phase-2 short into a re-heating seam. Watch Sunday ~6pm ET futures reopen for the first true tick.
 
+**SPR-runway refinement (same session, from Will's SPR-data query):** the no-throttle drain is AUTHORIZATION-bound, not floor-bound — the 172M emergency release is set *fully withdrawn ~first week of July* [Semafor Jun 9/Argus], so the prior "~12-wk runway to the §6241 252.4M floor" framing is REPLACED by "drain runs at pace to ~early July → DOE re-authorization decision" (now a catalyst, charged by the re-closure). SPR below the 2022 Biden low / lowest since 1983; 1.25× swaps (~133M contracted, repay early next year). Folded into STATUS/THESIS SPR leg (Phase 1 bullet + Key Thresholds + Risk Factors) + CATALYSTS (~Jul 3) + TRACKER. Verify remaining barrels vs Jun 24 EIA. NO conviction change (physical-tightness read intact). Floor-figure note: §6241 252.4M (limited)/none (emergency) per the Jun-14 correction coexists with a market-cited ~150M operational minimum — but the binding near-term constraint is the authorization clock, not either floor.
+
 **Cross-agent:** HAWK tasked (outbox `2026-06-20_to-HAWK_hormuz-reclosure-lebanon-reheat-deanchors-cooling.md`) to re-anchor the cooling call + run the declaration-to-physical discriminator. HAWK's weights treated as de-anchored pending re-mark.
 
 ---
