@@ -1,11 +1,11 @@
 # BRENT — NEXUS Brief
 
-**Status:** 🟠 **v4.0 — PHASE 2 BEGUN VIA PATH A (PRICING); PHYSICAL-PHASE-2 UNCONFIRMED.** "Islamabad MOU" SIGNED Jun 17 (Trump + Pezeshkian electronic; Khamenei written assent Jun 18); Brent re-priced the closed-Hormuz premium out — $87.20 (Jun 12) → $80.57 (Jun 19), wk −8%, **6-mo curve into CONTANGO first in ~2 years.** But `signed-but-fraying` + physically **0-of-4 operational legs** (LESSONS #18). The six-week physical/price divergence didn't close — it **INVERTED** (price now ahead of a still-closed strait). **BRT-15 RESOLVED FAILED** (STNG rallied +5.79% on the deal).
+**Status:** 🟠 **v4.1 — PHASE 2 BEGUN VIA PATH A (PRICING); PHYSICAL-PHASE-2 UNCONFIRMED.** "Islamabad MOU" SIGNED Jun 17 (Trump + Pezeshkian electronic; Khamenei written assent Jun 18); Brent re-priced the closed-Hormuz premium out — $87.20 (Jun 12) → $80.57 (Jun 19), wk −8%, **6-mo curve into CONTANGO first in ~2 years.** But `signed-but-fraying` + physically **0-of-4 operational legs** (LESSONS #18). The six-week physical/price divergence didn't close — it **INVERTED** (price now ahead of a still-closed strait). **BRT-15 RESOLVED FAILED** (STNG rallied +5.79% on the deal). **🔴 Jun-20-PM: Iran officially RE-DECLARED Hormuz closed (declaratory; CENTCOM disputes, ~55 ships transited) + Lebanon RE-HEATED → HAWK's AM cooling call DE-ANCHORED, D-tail fatter; core thesis holds (re-closure not yet physical). HAWK tasked (outbox) to re-mark.**
 **Domain:** Oil & energy — Brent/WTI, OPEC+, storage (Cushing/SPR), tankers, energy credit; transmission to CARL (gas/consumer), HENRY (energy CPI/PPI), LIQUID (energy HY OAS), SAM (Japan LNG), HAWK (oil↔scenarios), REGINALD (energy loans).
 **Thesis version:** v4.0 (Jun 20 — MAJOR phase transition; full THESIS.md) ← v3.2 (Jun 14, SPR-floor §6241 correction) ← v3.1 (Jun 13, divergence-max).
 **Recent thesis pivot:** Jun 20 catch-up sweep (6-day gap): the cycle pivot fired via Path A exactly as LESSONS #11/#16 — the move was ALL announcement, no barrels. Phase 2 began in *price*, not *physics*.
 **Position:** XLE $65C Sep-30 HELD as kinetic-tail stub (premise broken, re-eval trigger fired; Will Jun 20); CF $130C EXPIRED WORTHLESS Jun 18 — structural only; marks in STATUS, no P/L here.
-**As of:** 2026-06-20 Sat (markets closed; Fri Jun 19 settles + boot.py Sat) | STATUS commit: pending this closeout (local; push deferred — Will-coordinated)
+**As of:** 2026-06-20 Sat PM (markets closed; Fri Jun 19 settles + boot.py Sat; +Jun-20-PM Hormuz re-closure addendum) | STATUS commit: pending this closeout (local; push deferred — Will-coordinated)
 
 ---
 

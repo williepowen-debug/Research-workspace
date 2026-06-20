@@ -8,6 +8,27 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-06-20 PM — THESIS v4.0 → v4.1 (minor): Iran officially re-declares Hormuz closed + Lebanon re-heats — D-tail fattens, HAWK cooling call de-anchored; core thesis intact (re-closure declaratory, not physical)
+
+**Author:** BRENT (Sat Jun 20 PM, on Will's flag that the situation got dicier post the AM catch-up). Verification sweep (3 finders + adjudication, conf 0.82).
+
+**Trigger:** Will flagged new attacks + an alleged Hormuz re-closure in the prior 24h that post-dated the AM catch-up. Verified real.
+
+**What's new (Jun 20 PM):**
+- **Official re-closure DECLARATION:** Iran's joint military command (Khatam al-Anbiya HQ) declared the Strait closed Sat Jun 20 via Mehr — "first step of response" to US MOU breach + Israeli Lebanon strikes (multi-source: NBC/ABC/CNN/Seatrade/JPost, 8+). Not a social-media rumor.
+- **DISPUTED physical effect:** CENTCOM — "Iran does not control the Strait… traffic continues to flow" (~55 ships / >17M bbl Sat). No new tanker attack / mine / vessel targeted. Verdict = DISPUTED (declaratory, not yet kinetic).
+- **Lebanon RE-HEATED:** ~150 Israeli strikes / ~47 dead Jun 19; ceasefire violated within ~50 min and again Sat; IDF to STAY in S. Lebanon; Iran "entire MOU jeopardized." → HAWK's Jun-20-AM cooling call (C44/B39/D17) DE-ANCHORED.
+- **Diplomacy NOT collapsed:** Switzerland round slipped ~2 days (Witkoff/Kushner on ground; talks Jun 21).
+- **Firm bullish residual:** war-risk insurance still multiples of pre-war (>1000%), ~40–50d to main-channel reopen, ~80 mines — shipping-cost premium never faded with spot (threshold-vs-mechanism). Brent ticked UP +0.93% Fri on the Switzerland cancellation + transit chill.
+
+**Old view (v4.0) → New view (v4.1):** v4.0 carried HAWK's cooling (D 20→17) and treated the XLE kinetic-tail as thinning. v4.1: the seam RE-HEATED and Iran re-declared closure — the D-tail is FATTER, not thinner; the XLE $65C hold is better-justified; do NOT lapse it pre-HAW-11. BUT the core (price priced a full reopening, 0/4 legs, divergence inverted) is UNCHANGED — the re-closure is declaratory not physical. Un-invert trigger = a confirmed kinetic event (vessel targeted/seized/mined OR new Gulf energy-infra strike OR JWC reclass/insurer pull); none fired.
+
+**Conviction:** UNCHANGED — cautious-neutral, no new flat-price longs; do not initiate a Phase-2 short into a re-heating seam. Watch Sunday ~6pm ET futures reopen for the first true tick.
+
+**Cross-agent:** HAWK tasked (outbox `2026-06-20_to-HAWK_hormuz-reclosure-lebanon-reheat-deanchors-cooling.md`) to re-anchor the cooling call + run the declaration-to-physical discriminator. HAWK's weights treated as de-anchored pending re-mark.
+
+---
+
 ## 2026-06-20 — THESIS v3.2 → v4.0 (MAJOR — phase transition): Phase 2 BEGUN via Path A (pricing); the physical/price divergence INVERTED; deal SIGNED but FRAYING and physically 0-of-4-legs reopened
 
 **Author:** BRENT (Sat Jun 20 stale-boot catch-up, on Will's approval — last closeout was Jun 14, 6-day gap over the single most important week of the cycle). Catch-up sweep: 4 parallel gatherers (tape / EIA-COT-BH / HAWK read / own ledger) + adversarial verify on the load-bearing signing/reopening claim (conf 0.83).
