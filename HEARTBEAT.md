@@ -69,7 +69,7 @@ HY OAS **263🟢 [FRED 6/17]** *(3bp above <260 kill)* · CCC **939🟡 [FRED 6/
 | 🔴 | **Jun20 Hormuz declaration tape test.** Official re-closure declaration is contested and non-kinetic so far; Jun22 Brent/vol/insurance/traffic response decides whether tail reprices. | `AGENTS/BRENT/STATUS.md`, `AGENTS/HAWK/STATUS.md` |
 | 🔴 | **Post-FOMC / carry divergence.** Claims benign/yellow, VIX/banks calm, energy tail re-fat but unconfirmed; carry remains red and HY remains near kill. Need next HY print + SAM/CFTC carry read. | `PROME/TODAY.md`, `PROME/ACTIVE_DECISIONS.md` |
 | 🟠 | **WALTER Iran anchor re-verify due.** WALTER’s 6/19 de-escalation anchor is now behind BRENT/HAWK Jun20 domain updates; re-verify before routing Iran-cluster signals on the old frame. | `AGENTS/WALTER/anchors/IRAN_WAR.md` |
-| 🟠 | **WALTER / RESEARCHER Phase 2.** RESEARCHER Phase 1 revived; Phase 2 wiring in progress: executor flip, WALTER inbox scan, ledger executor column. | `AGENTS/RESEARCHER/REVIVAL_PLAN.md`, `AGENTS/WALTER/LAST_COMPLETION.md` |
+| 🟠 | **WALTER / DEWEY Phase 2/3.** DEWEY (formerly RESEARCHER) Phase 2 wiring is shipped; next gate is first live DEWEY run after CONTEXT refresh. | `AGENTS/DEWEY/REVIVAL_PLAN.md`, `AGENTS/WALTER/LAST_COMPLETION.md` |
 | 🟠 | **Jun18/19 expiry cleanup.** HYG dead; TLT/WAL/non-TLT legs require broker reconciliation. | `PROME/ACTIVE_DECISIONS.md` |
 | 🟠 | **Position-state reconciliation pass.** Separate future task; do not mix with market synthesis unless Will pivots. | `PROME/ACTIVE_DECISIONS.md` |
 | 🔵 | **PROME execution-rails design.** HYG roll Jun→Dec died for lack of mechanism; design debt. | BROCK LESSONS #16 |
