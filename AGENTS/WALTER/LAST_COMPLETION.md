@@ -6,46 +6,46 @@
 
 ## STATUS
 
-**2026-06-20 Sun (~10:25 AM–3:30 PM ET, Will-Telegram boot — Sunday check-in that turned into an architecture + build session).** Boot clean: pull up-to-date (0/0), walter_doctor exit 3 (the 3 known-stale feeds, MED — now correctly understood as intentionally-off / VPS-down, NOT escalations; see FOLLOW-UP). Step-6c threshold scan (weekend, Fri levels): **no new fires** — HY 263 / CCC 939 continuing-fire suppressed; near-trigger watch WAL $79.91 (REG-T-02 band) + VIX 16.78 (just above RED-FT-06 <16). Iran anchor fresh (verified-as-of 6/19, MOU intact / first-round-postponed) — no re-verify. **0 signal dispatches / 0 kills / 0 verify-spawns this session.** The session's work was a Will-directed design+build effort: (1) walked Will through how the cron feeds work + why they died, (2) designed the Scout (fetch→Telegram-never-git) architecture, (3) found + revived the dormant RESEARCHER deep-research agent — **Phase 1 of a phased revival shipped.** Paused for context checkpoint before Phase 2. Committed locally; **push deferred — Will will orchestrate the coordinated push.**
+**2026-06-20 Sat PM (~5:17 PM ET, Will-Telegram boot — "please boot up").** Full boot, clean: pull up-to-date (0/0 vs origin); walter_doctor exit 5 (no HIGH — 3 stale feeds MED = Scout-track / VPS-down, NOT escalations; registry_lag BRENT/SAM MED + HAWK/ORACLE/CORAL LOW). Step-6c threshold scan (markets closed Sat — Fri-close levels via dashboard 6/20 21:20 UTC): **no new fires** — RED-FT-01 (HY 263<280) + RED-FT-07 (CCC 939>930) continuing-fire suppressed; near-trigger VIX 16.78 (just over RED-FT-06 <16) + WAL $79.91 (REG-T-02 band). **0 dispatches / 0 kills / 0 verify-spawns; BOARD 302 unchanged.** The load-bearing work: the prior session's **Iran anchor RE-VERIFY-DUE** flag fired (a fresh kinetic state-change), and this session completed the re-verify. Committed locally; **push DEFERRED — Will orchestrates the coordinated window.**
 
 ## CHANGED
 
-**RESEARCHER revival — Phase 1 (Will-directed cross-agent work; committed local `f7846fa7`):**
-1. `AGENTS/RESEARCHER/CLAUDE.md` (rewritten) — modern **two-level identity**: (L1) deep-research on-demand, engine = the `/deep-research` skill, original discipline kept (every claim cited + source-quality tags + counter-evidence mandatory + Process Report); (L2) data-pull script home. Tier-2, Claude Code, **Will-launched**. Real boot + closeout. Hands output to WALTER; never routes itself (WALTER = single entry point).
-2. `AGENTS/RESEARCHER/CONTEXT.md` (refreshed) — from the late-Feb-2026 freeze to the current 11-cluster thesis set + active agent domains (pulled from CLUSTER_TAXONOMY + REGISTRY, no re-interview).
-3. `AGENTS/RESEARCHER/scripts/edgar_fetch.py` (fixed) — kept per Will's two-level decision; both scripts verified working. **Data-integrity catch: the CIK cheatsheet had 4 of 5 CIKs wrong** ("WAL" pointed at Old Republic International). Corrected all vs SEC `company_tickers.json` + added a verify-before-citing note.
-4. `AGENTS/WALTER/REGISTRY.tsv` (+1 row) — RESEARCHER registered (Tier-2 / CC / META / Upstream WALTER,WILL / Downstream WALTER / YELLOW / 2026-06-20). WALTER scope.
-5. `AGENTS/RESEARCHER/REVIVAL_PLAN.md` (NEW) — the canonical phased plan (5 phases) + all resolved design decisions + the **Scout-track capture** (diagnosis of the dead feeds + target architecture + likely RESEARCHER-consolidation). Persisted so both tracks resume cold.
+**Iran anchor re-verify completed → de-escalation lean REVERSED (the session's core deliverable):**
+1. `AGENTS/WALTER/anchors/IRAN_WAR.md` — **re-stamped 6/19 → 6/20 (Sat PM)**; new top stamp + body "6/20 UPDATE" bullet; the prior `⚠️ RE-VERIFY DUE` warning flipped to `✅ RE-VERIFY COMPLETED`. New state: **MOU SIGNED-BUT-FRAYING; Hormuz RE-DECLARED CLOSED (declaratory/DISPUTED); Lebanon RE-HEATED.** Iran's joint military command (Khatam al-Anbiya HQ via Mehr) re-declared the Strait closed Sat 6/20 as coercive "first step" vs US MOU-breach + Israeli Lebanon strikes — but CENTCOM disputes the effect (~55 ships / >17M bbl transited Sat, no vessel hit/mined); **4th declaratory closure** (Mar 2 / Apr 18 / Jun 11 / Jun 20). HAWK re-mark **C-Grind 44% (base, now leads) / B-Deal-Reopen 34% / D-Reescalation 22%** (reversed from 6/18 B-46). Iran-US direct kinetic still HALTED (coercive, not yet kinetic; HAW-14 intact). Confidence MED, symmetric skepticism. **Mon 6/22 Brent open = the cleanest decoupling test.**
+   - **Method:** verified via **domain-owner convergence** — read BRENT (THESIS v4.1, sweep-verified 0.82) + HAWK (6/20 PM re-mark) + SAM (6/20) STATUS, all re-marked 6/20 citing 8+ primaries (NBC/ABC/CNN/Seatrade/JPost). **No redundant independent WebSearch** (domain-converged + markets closed Sat — the freshest signal is the Mon tape; per the 6/18 domain-owner-as-authoritative-input precedent). New finding logged in MEMORY (3rd validation of the "verify against domain-agent STATUS" rule).
+2. `AGENTS/WALTER/REGISTRY.tsv` — refreshed **BRENT 6/14→6/20** (THESIS v4.1 / Hormuz re-closure), **HAWK 6/18→6/20** (B34/C44/D22 reversal), **SAM 6/16→6/20** (BOJ-hiked + FOMC-Warsh + Hormuz-re-closure logged), **WALTER→6/20**. (ORACLE 6/18 / CORAL 6/19 carry +1d LOW lag — NOT refreshed this session: neither load-bearing, neither read.)
+3. `AGENTS/WALTER/STATUS.md` — lead-header refresh (6/20 PM session) + anchor bullet + near-trigger + filter posture (FED_FRAMEWORK LOOSE retired post-FOMC) + threshold-scan + push-state + pending-callbacks + NETWORK AWARENESS anchor subsection + Iran-cluster framing + today's-routing regen + **CARL LIAISON auto-flagged DORMANT** (45d) + SESSION LOG entry prepended. **Day-label corrected: 6/20 is a Saturday** (prior session mislabeled "Sun").
+4. `AGENTS/WALTER/MEMORY.md` — CHANGES SINCE block refreshed; 5/21 domain-STATUS finding extended with the 6/20 convergence-obviates-redundant-sweep rule.
 
-**No WALTER signal-routing artifacts changed** (no dispatches → no BOARD/route_log/delivery_log/kill_log edits this session).
+**No WALTER signal-routing artifacts changed** (0 dispatches → no BOARD/route_log/delivery_log/kill_log edits).
 
 ## RESULT
 
-RESEARCHER — the network's dormant deep-research identity (built late-Feb, dark since ~early March) — is **revived as a coherent, registered, modern agent in one phase**, without overrunning context. Key realization that de-risked it: the *capability* already runs via the `/deep-research` skill (it made SIG-008 on 6/19), so this was reviving an *identity* for a capability already in use, not building from scratch. The CIK fix turned a latent miscitation landmine into a clean tool on day one. Separately, the long cron-feed walkthrough produced a clear, persisted Scout architecture and **corrected a standing mischaracterization** (the "3 dead crons → escalate" framing was wrong — SENTRY was deliberately disabled 6/2; news-sweep/filing-watch are VPS-down).
+The macro anchor that gates every Iran-cluster routing decision was stale and actively contradicted by the domain owners — this session brought it current. The de-escalation framing that held 6/18–6/19 is reversed: a signed-but-fraying MOU with Iran re-asserting the Hormuz lever and Lebanon re-heating. The re-verify was closed without a redundant web sweep because three domain owners had independently triangulated the same event from 8+ primaries and were themselves applying symmetric skepticism — the convergence cleared the bar (Mon 6/22 tape is the next real confirm). Registry rows for the three Iran-relevant owners no longer carry the old de-escalation framing.
 
 ## GAPS
 
-- **Phase 1 committed local, NOT pushed** — Will orchestrates the coordinated push. Commit `f7846fa7` (5 files). Also still local from prior: nothing else WALTER-pending (6/19 evening work was already synced).
-- **RESEARCHER not yet live-tested** — Phases 2 (integration wiring) + 3 (first live run) pending. Engine-as-skill assumption is sound but unexercised under the RESEARCHER identity.
-- **Scout not built** — design captured in REVIVAL_PLAN "Scout track"; touches shared infra (`.github/workflows/`, `FORGE/tools/`) → needs PROME coordination / Will authorization.
-- **walter_doctor will keep flagging the 3 stale feeds** until the Scout replaces them — now understood as intentional/VPS-down, not escalations.
+- **This session's closeout commit is LOCAL-only** — push DEFERRED to Will's next coordinated window. (At boot the tree was up-to-date with origin: the prior `f7846fa7` RESEARCHER Phase 1 + 6/20-AM closeout + SAM + auto-memory commits had already reached origin via a push-train.)
+- **No independent web verification of the Hormuz re-closure** — relied on domain-owner convergence (defensible: 3 owners, 8+ primaries, markets-closed). The Mon 6/22 Brent open is the behavioral confirm; if it spikes hard, the declaratory→physical line moved and the anchor needs a fast re-look.
+- **SESSION LOG over the "last 5" rule** (10 rows) — archive-trim to SESSION_LOG.md deferred (avoided risky multi-row exact-match edits during boot). Hygiene carry-forward.
+- **ORACLE / CORAL registry rows +1d LOW lag** — not refreshed (not load-bearing).
 
 ## WILL_NEEDS
 
-1. **Coordinated push** of commit `f7846fa7` (RESEARCHER Phase 1) at the next push window.
-2. **Phase 2 go** when ready (fresh session — reads REVIVAL_PLAN Phase 2 + RESEARCHER/CLAUDE.md, light boot).
-3. **Scout decisions to action when that track starts:** rotate the plaintext feeds-bot token (`***REMOVED***:...` in `cron_sweep.sh`) + create a GitHub Secret + add the bot to the group; confirm the RESEARCHER-consolidation scope.
+1. **Coordinated push** of this session's closeout commit at the next window (Iran anchor re-stamp + REGISTRY/STATUS/MEMORY/LAST_COMPLETION).
+2. **Direction on next focus** — offered at boot: (a) just hold the re-stamp, (b) **RESEARCHER Phase 2** (wire the Phase-2.8 flag loop to name RESEARCHER as executor + define the RESEARCHER→WALTER handoff; light boot off REVIVAL_PLAN), or (c) other.
+3. **Heads-up for Monday:** the 6/22 Brent open is the decoupling test for the whole Iran thesis — worth a WALTER check then (BRENT fires primary; WALTER routes any tape-driven dispatch).
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
 
-**🆕 This session (RESEARCHER + Scout):**
-1. **RESEARCHER Phase 2** — wire the Phase-2.8 flag loop to name RESEARCHER as executor (CHECKLIST edits: "Will runs the skill" → "RESEARCHER runs it") + define the RESEARCHER→WALTER handoff (output/ → WALTER routes as `research-output`). Then **Phase 3** — first live run end-to-end (pick a real pending question; validate like SIG-008 did Phase 2.8). **Phase 4** (later) — Scout integration + autonomy. See `AGENTS/RESEARCHER/REVIVAL_PLAN.md`.
-2. **Scout build** (separate track) — "fetch→Telegram-never-git" GitHub Action; dedicated/rotated feeds bot in a Secret; lean daily pre-market digest; likely consolidate the collection scripts under RESEARCHER. Full design in REVIVAL_PLAN "Scout track."
+**🔴 Time-sensitive forward:**
+1. **Iran anchor next re-verify** = **Mon 6/22 Brent open (decoupling test)** OR a confirmed PHYSICAL event (vessel targeted/seized/mined / new Gulf energy-infra strike / Lloyd's JWC reclass / insurer pull — none fired yet) OR Lebanon ceasefire fully collapses OR Switzerland talks collapse OR fresh kinetic OR 7-day min. Anchor verified-as-of 6/20.
+2. **Cushing <20M Boundary #3 fire watch** — next EIA WPSR ~Wed 6/24 (wk-end 6/19) likely prints sub-20M → IMMEDIATE auto-fire (BRENT primary, WALTER fallback). 20.03M as of 6/12.
+3. **SAM USD/JPY intervention watch** — 161.3 red zone; MOF silent 48h+ (intervention alert live); SAM-23 intervention-by-June FAILED; v1.6 re-underwrite pending Mon CFTC (Juneteenth-delayed) + RED.
 
-**🔴 Time-sensitive forward (carried):**
-3. **Cushing <20M Boundary #3 fire watch** — next EIA WPSR ~6/24 (wk-end 6/19) likely prints sub-20M → IMMEDIATE auto-fire (BRENT primary, WALTER fallback). 20.03M as of 6/12.
-4. **Iran anchor next re-verify** = postponed first round reconvene? / Lebanon ceasefire holds? / verified-reopen ladder (liner carriers resume / JWC reclass / premiums normalize) / MOU collapse / fresh kinetic. Anchor verified-as-of 6/19.
-5. **SAM USD/JPY intervention watch** — 161 red zone; TIC-April (Japan still ADDING USTs) = intervention not-yet-active baseline.
+**🆕 RESEARCHER + Scout (carried):**
+4. **RESEARCHER Phase 2** — wire the Phase-2.8 flag loop to name RESEARCHER as executor (CHECKLIST: "Will runs the skill" → "RESEARCHER runs it") + define the RESEARCHER→WALTER handoff (output/ → WALTER routes as `research-output`). Then **Phase 3** first live run. See `AGENTS/RESEARCHER/REVIVAL_PLAN.md`.
+5. **Scout build** (separate track) — "fetch→Telegram-never-git" GitHub Action; rotate the plaintext feeds-bot token + GitHub Secret + add bot to group; likely consolidate collection scripts under RESEARCHER. Full design in REVIVAL_PLAN "Scout track."
 
 **🆕 CORAL follow-ons (from SIG-008, carried):**
 6. CORAL split its insurance mark (🟢 personal/reinsurance vs 🟠/🔴 commercial-condo, Citizens Commercial +10.4%/+18.8%); add Amerant (AMTB) to FL_BANK_WATCHLIST + the Ch-7-per-capita FLM/FLS tripwire (>~230/100k); CORAL Phase-2 consume boot-step (CC; SIG-007 + SIG-008 handoffs live).
@@ -60,15 +60,15 @@ RESEARCHER — the network's dormant deep-research identity (built late-Feb, dar
 9. RED-FT-01 (HY 263) + RED-FT-07 (CCC 939) continuing-fire — re-fire only on boundary re-cross. WAL REG-T-02 $79.91 in band. VIX 16.78 near RED-FT-06 (<16). REG-T-06 FHLB / REG-T-07 OFFICE-CMBS-DQ — still not in dashboard pull.
 
 **🟠 LIAISON + routing (carried):**
-10. RED Turn 8 / REGINALD Turn 7 — untouched since 6/6. EVENT_WINDOW_STATE.md ~36d untouched (CLOSED, no posture risk); BRENT-coordinated refresh owed. HENRY / NEXUS LIAISON next-priority opens.
+10. RED Turn 8 / REGINALD Turn 7 — untouched since 6/6 (14d, still ACTIVE-awaiting). **CARL LIAISON now DORMANT** (45d auto-flag; re-open = refresh the calibration-cycle-1 ask when CARL next active). EVENT_WINDOW_STATE.md ~30d untouched (CLOSED, no posture risk); BRENT-coordinated refresh owed. HENRY / NEXUS LIAISON next-priority opens.
 
-**🔴 Infra → now reframed as the Scout track (was "3 dead crons → escalate"):**
-11. The 3 stale feeds are intentionally-off (SENTRY, disabled 6/2) / VPS-down (news-sweep, filing-watch). Resolution = the Scout build (#2), not a PROME escalation. walter_doctor will keep surfacing them until then — expected.
+**🔴 Infra → the Scout track (was "3 dead crons → escalate"):**
+11. The 3 stale feeds are intentionally-off (SENTRY, disabled 6/2) / VPS-down (news-sweep 34d, filing-watch 44d). Resolution = the Scout build (#5), not a PROME escalation. walter_doctor will keep surfacing them until then — expected.
 
 **Design / governance backlog (carried):**
-12. BOARD INDEX slim-down. walter_doctor platform-map fix (CORAL/HENRY mislabeled OPENCLAW); registry_lag false-positive guard. Add Cushing to step-6c scan. FILTER_SPEC v0.6 BODY-INACCESSIBLE-PAYWALL verdict; `valid_until` forward-expiry; VIX-spike registered trigger (RED Turn 8); COP refresh (paused); OZK Q1 post-mortem (REGINALD pickup, 47d+ stale — longest-stale Tier-1 row).
+12. **SESSION LOG archive-trim** to last-5 (currently 10 rows → move 5 oldest to SESSION_LOG.md). BOARD INDEX slim-down. walter_doctor platform-map fix (CORAL/HENRY mislabeled OPENCLAW); registry_lag false-positive guard. Add Cushing to step-6c scan. FILTER_SPEC v0.6 BODY-INACCESSIBLE-PAYWALL verdict; `valid_until` forward-expiry; VIX-spike registered trigger (RED Turn 8); COP refresh (paused); OZK Q1 post-mortem (REGINALD pickup, 47d+ stale — longest-stale Tier-1 row).
 13. **Canonical-pointer hygiene (carried):** CLAUDE.md still cites `BOARD_CONSUMPTION_SPEC v0.2` in 5 spots while the spec is v0.5. Fix = extend `version_drift_check.py` to scan CLAUDE.md + embedded `Canonical: <spec> vX` pointers. DEEP_RESEARCH_FLAG_PROPOSAL.md relabel/pointer to CHECKLIST v0.19.
-14. **🆕 Light registry refresh owed at next full boot** — walter_doctor LOW flags: SAM 6/16<6/18, HAWK/ORACLE 1d lag. Deferred this session (lean closeout).
+14. **Light registry refresh remainder** — ORACLE (6/18) / CORAL (6/19) +1d LOW lag, deferred (not load-bearing).
 
 ## OPEN DESIGN DECISIONS (need Will)
 
@@ -77,10 +77,10 @@ RESEARCHER — the network's dormant deep-research identity (built late-Feb, dar
 - **walter_doctor registry_lag false-positive guard** — harden (commit-message/content-hash) or accept-and-eyeball?
 - **walter_doctor platform inference** — doctor mislabels CC CORAL/HENRY as OPENCLAW; align with REGISTRY.
 - **Cushing as a registered threshold** — Boundary #3 (<20M) in ROUTING_TABLE but Cushing isn't in the dashboard pull / step-6c scan. Add? (Same gap as REG-T-06 FHLB / REG-T-07 OFFICE-CMBS-DQ.)
-- Carried: group-chat artifact policy; mentionPatterns shorthand; §3.4 scoped-push runbook; INDEX status-column; staleness-sweep cadence; CARL LIAISON close stamp; HENRY LIAISON priority; FED_FRAMEWORK→UST_PLUMBING rename (defer); Filter v2 Segment D; COP refresh resume (paused).
+- Carried: group-chat artifact policy; mentionPatterns shorthand; §3.4 scoped-push runbook; INDEX status-column; staleness-sweep cadence; HENRY LIAISON priority; FED_FRAMEWORK→UST_PLUMBING rename (defer); Filter v2 Segment D; COP refresh resume (paused).
 
 ---
 
 *Maintenance note: overwritten each session per CLAUDE.md spawn protocol step 15.*
 
-*6/20 Sun: Will-Telegram check-in → architecture + build session. 0 dispatches. Walked Will through cron-feed mechanics + designed the Scout (fetch→Telegram-never-git). **Found + revived the dormant RESEARCHER deep-research agent — Phase 1 shipped** (CLAUDE.md two-level identity + CONTEXT.md refresh + scripts verified/CIK-fixed + REGISTRY row + REVIVAL_PLAN). Step-6c no fires; Iran anchor fresh (6/19). Committed local `f7846fa7`; **push deferred — Will orchestrates.** Paused for context checkpoint before Phase 2.*
+*6/20 Sat PM: Will-Telegram boot. 0 dispatches. **Completed the Iran anchor RE-VERIFY** flagged due last session — de-escalation lean REVERSED (Hormuz re-declared closed/declaratory + Lebanon re-heated; HAWK C-Grind 44% base now leads) via domain-owner convergence, no redundant web sweep. Re-stamped IRAN_WAR.md 6/19→6/20 + resolved the flag; REGISTRY refresh BRENT/HAWK/SAM/WALTER→6/20; CARL LIAISON DORMANT; day-label fixed (6/20 = Sat). Step-6c no fires. Committed local; push deferred — Will orchestrates.*
