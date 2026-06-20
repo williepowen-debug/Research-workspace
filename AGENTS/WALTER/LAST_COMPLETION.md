@@ -28,13 +28,13 @@
 
 ## GAPS
 
-- **Push deferred** — evening dispatch (BOARD SIG-008 + INDEX + logs + ledger + 6 handoffs + closeout docs) committed LOCAL only; other agents had uncommitted work in the tree at boot, so pull was skipped and push defers to the next clean coordinated window. CC handoffs (CORAL/REGINALD/CARL/RED) reach origin then; OC handoffs (SHADE/MARCO) reach VPS clones on pull.
+- ~~**Push deferred**~~ **RESOLVED — PUSHED + SYNCED to origin** (Will-coordinated window 6/20 ~00:12 UTC). Both commits (a25e2613 SIG-008 dispatch + 78dfaaa8 CHECKLIST v0.19) on origin; rebased clean over 3 incoming (CORAL×2 boot-maturity/peer-drift + PROME tidy) — disjoint file sets, 0 conflicts; ahead 0/behind 0. All 6 SIG-008 handoffs on-origin = delivered (delivery_log written_state → DELIVERED). Only the BRENT untracked inbox file left in tree (not WALTER's; untouched).
 - **walter_doctor platform-map quirk** — doctor tags CORAL's handoff as OPENCLAW (CORAL is actually CC). Cosmetic; the `written_but_undelivered` telemetry is still correct in substance. Existing open-design-decision (platform inference).
 - **3 dead cron feeds** unchanged (news-sweep 33d / filing-watch 43d / SIGNALS 17d) — PROME/SENTRY-owned, escalated.
 
 ## WILL_NEEDS
 
-1. **Push window** — evening SIG-008 dispatch + AM closeout-doc commit are local; open a window to sweep them (CC handoffs reach origin then).
+1. ~~**Push window**~~ **DONE — pushed + synced 6/20 ~00:12 UTC** (Will-coordinated; rebased clean over CORAL×2 + PROME).
 2. **🔴 Cron health escalation** (unchanged) — all 3 boot-triage feeds dead; PROME (news-sweep + filing-watch) / SENTRY (SIGNALS).
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
@@ -82,4 +82,4 @@
 
 *Maintenance note: overwritten each session per CLAUDE.md spawn protocol step 15.*
 
-*6/19 Fri evening: Will boot (2nd of day) + S-FL deep-research deliverable → 1 dispatch (SIG-W-20260619-008 research-output → CORAL action / REGINALD,CARL,SHADE,MARCO,RED info); BOARD 301→302; DEEP_RESEARCH_FLAGGED_LOG SIG-007 row RESOLVED (first-ever deep-research flag, raised + resolved same-day — full Phase-2.8 loop validated end-to-end). WALTER routed-not-analyzed (lean mandate); packet embedded verbatim + per-recipient genuine-delta wrapper. Load-bearing delta: insurance commercial/condo NOT easing (Citizens Commercial +10.4%/+18.8%) corrects CORAL's 🟢 mark + resolves SIG-007 insurance tension; adds Amerant AMTB; per-capita normalizes "top-six." No threshold fires; no peak. route_log +1 / delivery_log +6 / 6 handoffs. **Spec change (Will-ratified): CHECKLIST v0.18→v0.19 — Phase 2.8b returning-deliverable handling (one research-output signal default + per-recipient delta wrapper + split test S1-S4); STATE §1 synced, version_drift ✓.** Commit local, push deferred.*
+*6/19 Fri evening: Will boot (2nd of day) + S-FL deep-research deliverable → 1 dispatch (SIG-W-20260619-008 research-output → CORAL action / REGINALD,CARL,SHADE,MARCO,RED info); BOARD 301→302; DEEP_RESEARCH_FLAGGED_LOG SIG-007 row RESOLVED (first-ever deep-research flag, raised + resolved same-day — full Phase-2.8 loop validated end-to-end). WALTER routed-not-analyzed (lean mandate); packet embedded verbatim + per-recipient genuine-delta wrapper. Load-bearing delta: insurance commercial/condo NOT easing (Citizens Commercial +10.4%/+18.8%) corrects CORAL's 🟢 mark + resolves SIG-007 insurance tension; adds Amerant AMTB; per-capita normalizes "top-six." No threshold fires; no peak. route_log +1 / delivery_log +6 / 6 handoffs. **Spec change (Will-ratified): CHECKLIST v0.18→v0.19 — Phase 2.8b returning-deliverable handling (one research-output signal default + per-recipient delta wrapper + split test S1-S4); STATE §1 synced, version_drift ✓.** 🟢 Committed + PUSHED + SYNCED to origin (Will window 6/20 ~00:12 UTC; both commits on origin, rebased clean over CORAL×2 + PROME, 0/0).*
