@@ -6,13 +6,19 @@ Usage:
   python3 edgar_fetch.py CIK --type 10-K        # Filter by filing type
   python3 edgar_fetch.py CIK --type 8-K --limit 5
 
-Known CIKs:
-  WAL:  0000074260
-  OZK:  0001091748
-  APO:  0001411494
-  MFIC: 0000814585
-  BXSL: 0001736035
+Known CIKs (verified vs SEC company_tickers.json, 2026-06-20):
+  WAL:  0001212545  Western Alliance Bancorporation
+  OZK:  0001569650  Bank OZK
+  ZION: 0000109380  Zions Bancorporation
+  EGBN: 0001050441  Eagle Bancorp
+  APO:  0001858681  Apollo Global Management
+  MFIC: 0001278752  MidCap Financial Investment Corp
+  BXSL: 0001736035  Blackstone Secured Lending Fund
   KRE:  (ETF — no filings)
+
+  Always verify a CIK before citing — map ticker->CIK via
+  https://www.sec.gov/files/company_tickers.json (authoritative).
+  (Prior version of this cheatsheet had 4 of 5 CIKs wrong — WAL pointed at Old Republic.)
 """
 
 import json, sys, urllib.request
