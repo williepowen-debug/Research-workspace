@@ -4,7 +4,7 @@ This file provides context for connecting research findings to active investigat
 This is NOT a directional view. We are STUDYING these dynamics, not advocating a position.
 Counter-evidence is weighted equally to confirming evidence.
 
-**Refreshed:** 2026-06-20 (RESEARCHER revival; pulled from the 11-cluster taxonomy + REGISTRY). Prior version frozen late-Feb 2026.
+**Refreshed:** 2026-06-20 (DEWEY revival; pulled from the 11-cluster taxonomy + REGISTRY). Prior version frozen late-Feb 2026.
 
 ## The network in one line
 
