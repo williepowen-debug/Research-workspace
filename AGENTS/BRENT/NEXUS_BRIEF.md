@@ -68,6 +68,7 @@
 | 🔴 Wed Jun 24 | EIA WPSR (wk-6/19) | Cushing sub-20M → ROUTING Boundary #3 (WTI dislocation); gasoline datapoint #3 |
 | 🟠 Fri Jun 26 | CFTC COT (Jun 16 data) + Baker Hughes | Post-deal forced-liquidation read (Trigger #3 re-arm) |
 | 🟠 ~Jul 1 | Cushing 20M floor; BRT-28 Bab window closes | WTI dislocation; second-chokepoint premium resolution |
+| 🔴 ~early Jul (Jul 3 modeled) | SPR 172M emergency-release authorization fully withdrawn → DOE re-auth decision | Drain stops/slows vs extend; charged by the Jun-20 re-closure (→ PROME) |
 | 🟠 Tue Jul 14 | US CPI (June) | BRT-16 inverse-feedback test |
 
 ---
