@@ -134,6 +134,22 @@ Storage math held. $100 became baseline through April. Calibration: 80% on TRUE 
 
 ---
 
+## BRT-15
+
+**STNG exit trigger fires on naval escort/ceasefire announcement, NOT on physical Hormuz reopening** | made 2026-03-06 | conf 90% | Within days of escort/ceasefire news | FAILED 2026-06-20 | FALSE
+
+**Pre-registered numeric conditional (Jun 12, advisor-verified):** HARDENING = a named Iranian official confirms the framework AND a signing event occurs; WINDOW N = 3 trading days from signing; MAGNITUDE X = STNG −10% cumulative close-to-close from the last pre-signing close. Hardened signing + STNG −10% within 3td → CONFIRMED; hardened + decline <10% → FAILED; no hardening → stays OPEN.
+
+**Resolution (Jun 20):** The hardening gate TRIPPED — the "Islamabad MOU" was signed Jun 17 (Pezeshkian co-signed; Khamenei written assent Jun 18). Over the 3-trading-day window STNG **ROSE** — closed $80.58 Jun 18 (+3.25% day / **+5.79% week**, near its 52-wk high), driven by a Jun-18 Q2-2026 TCE update (LR2 ~$80K/day). STNG went UP, nowhere near the −10% test → **FAILED.**
+
+**Why it failed — the lesson:** the prediction encoded the naive "Hormuz reopens → war-risk premium unwinds → tanker equity collapses" prior. That was wrong on two counts: (1) the reopening is bullish for **ton-mile demand** (vessels resume transiting; product flows normalize) — STNG was treated as a *normalization beneficiary*, not a war-premium casualty; (2) realized product-tanker earnings stayed very strong through the de-escalation. **"A chokepoint reopens" is NOT uniformly bearish for the freight that services it.** It also doubles as the LESSONS #18 sanity check — tankers failing to sell off on an "operational" announcement is itself evidence the market isn't treating the reopening as physically real (the Apr-17 false-dawn fingerprint; here the strait was 0-of-4 operational legs).
+
+**Calibration:** 90% conf on the wrong-direction mechanism = over-confident on a single-mechanism tanker call. The earlier 3-channel reframe (ton-mile-on-return / war-risk / barnacle-clean-fleet-premium, Jun 1) actually anticipated the offsetting forces but the numeric conditional was still written as a one-way short. Anchor: when a position can pay via multiple competing channels, don't write a one-directional threshold.
+
+**Cross-ref:** THESIS v4.0 (Jun 20 phase transition); LESSONS #11/#16/#18.
+
+---
+
 ## BRT-18
 
 **Iran faces acute civilian food stress within 45 days from grain/corn import disruption** | made 2026-03-07 | conf 70% | By mid-April 2026 | RETIRED-OUT-OF-LANE 2026-06-01 | (not a resolution — domain mismatch)

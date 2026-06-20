@@ -8,6 +8,33 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-06-20 — THESIS v3.2 → v4.0 (MAJOR — phase transition): Phase 2 BEGUN via Path A (pricing); the physical/price divergence INVERTED; deal SIGNED but FRAYING and physically 0-of-4-legs reopened
+
+**Author:** BRENT (Sat Jun 20 stale-boot catch-up, on Will's approval — last closeout was Jun 14, 6-day gap over the single most important week of the cycle). Catch-up sweep: 4 parallel gatherers (tape / EIA-COT-BH / HAWK read / own ledger) + adversarial verify on the load-bearing signing/reopening claim (conf 0.83).
+
+**Trigger:** Phase transition. The Iran/US "Islamabad MOU" was **signed Jun 17** (Trump + Pezeshkian electronic, Versailles; Khamenei okayed in writing Jun 18 — triple-corroborated) and oil re-priced the closed-Hormuz premium out ahead of the ink. Qualifies for a MAJOR (X) bump per the versioning convention (phase transition + structural curve change), though conviction is UNCHANGED.
+
+**Old view (v3.2, Jun 14):** MAXIMAL PHYSICAL/PRICE DIVERGENCE — physical Phase-1 squeeze at cycle-max (SPR no-throttle, −15M/wk ×2, util 95.3%, Cushing floor ~Jul 1) while the tape ($87) priced a de-escalation EIA wouldn't model (~$11 gap to STEO $105). Dawn #5 = closest-yet announcement, Iran-unconfirmed, timer COLD. Stored snap-back energy in whichever direction the de-escalation bet was wrong. Path B arming (Trigger #1 2/3).
+
+**New view (v4.0, Jun 20):**
+- **The deal SIGNED (Jun 17, electronic) — not a 5th rhetorical dawn.** Clears the LESSONS #18 "rhetorical unilateral statement" bar (named Iranian official + signature + sovereign action: CENTCOM lifted the blockade Jun 18). But `signed-but-fraying`: toll-free pledge DEAD (Iran-Oman fees-for-services), first Switzerland round called off ~24h post-signing over Israeli Lebanon strikes (≥47 killed Jun 18–19), Iran reads Lebanon into the MOU as a precondition + warns it resumes ops if strikes continue.
+- **Price re-priced via Path A exactly as LESSONS #11/#16 said — the move was ALL announcement, no barrels.** Brent $87.20 (Jun 12) → $78.96 low (Jun 16) → $80.57 (Jun 19), wk −8%, ~−31% from the May 5 peak; **6-month curve flipped to CONTANGO first time in ~2 years** [CONF Bloomberg/OilPrice]; the ~$25 closed-Hormuz premium priced out. Phase-1's backwardation/tightness signature ERASED at the structure level.
+- **Reopening PRICED but NOT OPERATIONAL — 0 of 4 physical legs** (verify pass, conf 0.83): JWLA-033 not lifted; war-risk ~30×, 8/9 liners on Cape; transits dark (~7 transponders-on vs 60–80/day); demining 30+ days, toll-free dead. **STNG RALLIED +5.79% on the deal = the Apr-17 false-dawn fingerprint** (tankers don't sell off because flow isn't normalizing).
+- **The divergence INVERTED, did not close:** a week ago price *lagged* physical tightness (stored upside); now price *prices a full reopening* against a strait still ~closed while inventories keep draining (EIA wk-6/12: SPR 340.3M −8.9M, commercial 418.2M −8.3M, **total −17.2M** biggest of cycle, Cushing **20.03M at the floor**, util 96.7%). New stored energy = a market positioned for a normalization that hasn't physically occurred → re-escalation is the asymmetric tail.
+- **Phase 2 BEGUN via Path A (pricing), NOT via Path B (demand destruction).** Path B substrate still shallow: Trigger #1 *completed* Jun 15 but on the Path-A crash (CONTAMINATED — `[[finding_threshold_vs_mechanism]]`); Trigger #2 −1.1% (0/3, deepening); Trigger #3 NOT re-fired (MM net long *rose* to 94,725, 3rd wk up). BRT-21 re-armed, NOT resolved.
+- **HAWK re-weighted (Jun 19 PM#2):** C-Grind-Armed-Stalemate **42%** (base) / B-Deal-Reopen **38%** / D-Re-escalation **20%** (from Jun 12 B32/C42/D26; B peaked 46 on the Jun-18 signing, corrected down as the Lebanon seam proved load-bearing). Live kinetic is now in LEBANON, off the Iran-US axis.
+- **NEW channel — Russian crude/products (HAWK KB-187):** ~⅓ Russian refining offline is a product/crack story; the strikes are *freeing* crude (exports 3.83M bpd 2026-high, floating storage +25%) — part of why Brent holds $80. Pre-registered Brent-positive trigger: export saturation OR Ukraine pivot to crude-export terminals.
+
+**Predictions resolved/changed this bump:** BRT-15 **FAILED** (hardened signing + STNG +5.79% vs −10% test → reopen was tanker-*bullish*; → ARCHIVE). BRT-21 re-armed (Trigger #1 contaminated; #3 not re-fired). BRT-07/17 timer stays cold (operational gate unmet; signing = closest start candidate). BRT-08 deepened (−1.1%). BRT-09 mechanism confirmed but jet/gasoline lead-lag CROSSED this print. BRT-16 premise ("$90+ sustained") failing on the $80 retrace. BRT-26 supported (433 flat). BRT-12/28 unchanged-state.
+
+**Conviction:** UNCHANGED — flat-price cautious-neutral, no new flat-price longs. The phase transition is in *price/structure*; the *durable* directional call stays gated on the operational-reopening-vs-re-escalation binary (Jun 22 HAW-11 / Jun 24 sub-20M Cushing / Jun 26 forced-liquidation COT).
+
+**Positions:** CF $130C EXPIRED WORTHLESS Jun 18. XLE $65C HELD as a kinetic-tail stub (Will, Jun 20: re-eval trigger fired, premise broken, but holds it for an expected eventual oil jump; pre-registered close on a vol spike or end-June lapse). BRT-15 equity expression closed (never initiated; resolved FAILED).
+
+**Propagation:** THESIS full rewrite to v4.0; STATUS rewrite; PREDICTIONS.tsv (BRT-15 + 7 row updates) + ARCHIVE#BRT-15; TRACKER; CATALYSTS prune; SCRATCH; NEXUS_BRIEF; board_log consume (5 WALTER signals). Auto-memory candidate: "a signed deal is not an operational one — grade the physical gate, and 'chokepoint reopens' is not uniformly bearish for the freight that services it (STNG rallied)."
+
+---
+
 ## 2026-06-14 — THESIS v3.1 → v3.2 (minor): SPR-floor factual correction (the "~350M operational floor" was the 2023 trough mis-cited)
 
 **Trigger:** Workbook-demotion session surfaced that KB-011 cited SPR "~350M historic lows" for 2026, while KB-152 (A-1 EIA) had it at 409.2M (Apr 10) — internal contradiction. Tracing it found the same confusion had propagated into the live thesis framing ("SPR drained THROUGH the ~350M operational floor"). Orc pulled the EPCA cite; BRENT verified against primary (Cornell LII, 42 U.S.C. §6241).

@@ -1,2 +1,7 @@
 timestamp_read	signal_id	disposition	source	notes
 2026-06-17 19:43:50 EDT	SIG-W-20260610-001	info-only	INBOX_WALTER	Backfill/anchor-moved caveat; GoA activation already reflected in current strait-quiet/oil thesis; no material thesis change.
+2026-06-20 13:33:23 EDT	SIG-W-20260618-001	noted	INBOX_WALTER	Moscow MNPZ 2nd refinery strike — product/crack story not crude. Folded into THESIS v4.0 Russian crude/products channel (complements HAWK KB-187 crude-export side). HAWK is action; BRENT info.
+2026-06-20 13:33:23 EDT	SIG-W-20260618-002	acted	INBOX_WALTER	Maersk/liners still Cape-routing = physical-leg confirmation the −$15 move is sentiment not physical reopening. Integrated into the 0-of-4-legs / LESSONS-#18 read in THESIS/STATUS v4.0.
+2026-06-20 13:33:23 EDT	SIG-W-20260618-004	acted	INBOX_WALTER	Cushing AT 20M floor (20.03M, wk-6/12) — domain-owner ACTION. Pulled EIA series; STATUS/TRACKER/CATALYSTS now carry 20.03M; Boundary #3 near-fire (sub-20M likely Jun 24). Resolved the 21.64M-stale figure.
+2026-06-20 13:33:23 EDT	SIG-W-20260619-001	acted	INBOX_WALTER	Iran first round POSTPONED (not 60-day collapse); MOU intact. Integrated into signed-but-fraying + Lebanon-seam frame; another decoupling datapoint (Brent ~$80, VIX ~16, no spike).
+2026-06-20 13:33:23 EDT	SIG-W-20260619-004	acted	INBOX_WALTER	Hormuz tanker flow recovering but DARK (~7 transponders-on) — validated vs HAWK KB-188. Confirms dark-led recovery = transparent normalization absent; folded into the 0-of-4-legs read. cluster_mediating.
