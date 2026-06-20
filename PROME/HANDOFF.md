@@ -6,6 +6,20 @@
 
 ---
 
+## 2026-06-19 ~21:15 ET — Closeout after CORAL Phase 1 + Geneva heartbeat
+
+**Status:** CORAL Phase 1 maturity scaffold is on origin. Geneva gate resolved de-escalatory and `HEARTBEAT.md` was updated locally; heartbeat + this closeout are local-only unless Will asks to push. Current market read: energy shock deferred, HY **263 [FRED 6/17]** still 3bp above <260 kill, banks/VIX calm, carry red.
+
+**What landed:** CORAL got mature-agent boot surfaces and protocol: `SCRATCH.md`, `NEXUS_BRIEF.md`, `board_log.tsv`, and CLAUDE boot/write-back/WALTER intake rules. CORAL peer-integration drift fix and Phase 1 commit were both pushed. Heartbeat now reflects U.S.–Iran MOU / Hormuz reopening / 60-day fuse.
+
+**Files edited:** `HEARTBEAT.md`, `PROME/SCRATCH.md`, `PROME/TODAY.md`, `PROME/STATUS.md`, `PROME/ACTIVE_DECISIONS.md`, `PROME/HANDOFF.md`, `memory/2026-06-19.md`. Agent files were edited only under Will-scoped CORAL Phase 1 and pushed before this closeout.
+
+**Next suggested work:** fresh boot should verify git ahead/behind first. If market lane, refresh HY/dashboard and check Jun20 CFTC. If CORAL lane, consume pending WALTER handoffs `SIG-W-20260619-002` and `SIG-W-20260619-007` through `board_log.tsv` + `git mv`.
+
+**Risks / blockers:** local-only heartbeat/closeout commits are not on origin until pushed. Do not edit WALTER specs from Prome; WALTER owns future tuning. No trade/expiry action without broker/Will truth.
+
+---
+
 ## 2026-06-19 ~15:45 ET — Final synced closeout; WALTER v0.18 active
 
 **Status:** Repo was rebased over origin and pushed cleanly; final state expected clean/synced. WALTER ratified the deep-research candidate flag as CHECKLIST **v0.18** and Prome verified the landed spec/ledger/doctor/STATE/CLAUDE surfaces. Market regime unchanged: HY OAS **263 [FRED 6/17]** near <260 kill; banks/VIX benign; carry red.
@@ -57,25 +71,5 @@
 **Next suggested work:** brainstorm and choose WALTER/Prome delivery-push policy: immediate push for every route vs urgency-tiered push vs explicit pending-route flush queue. Recommendation to test: urgency-tiered push with visible pending-route queue and manual flush command.
 
 **Risks / blockers:** latest local commits are not pushed yet; Claude Code sessions cannot see them until origin is updated. PROME push automation for FLASH/IMMEDIATE to Claude Code recipients remains owed. No trade/position work without broker/Will truth.
-
----
-
-## 2026-06-17 ~16:20 ET — WALTER Routing v2 shipped; closeout before new window
-
-**Status:** WALTER Routing v2 Phase 1 landed and was reviewed after push. Prome pulled GitHub cleanly, read the actual files, checked the backfills, inspected the scoped memory supersession, and ran `walter_doctor.py`. New delivery checks pass; doctor exit 3 is only pre-existing stale upstream feeds. FOMC happened intraday; Prome provided educational QQQ chart-reading, but no post-FOMC regime update has been made yet.
-
-**What landed this session:**
-- WALTER now uses BOARD-first archive + recipient-local `AGENTS/{RECIPIENT}/inbox/WALTER/` delivery handoffs.
-- `published` / `delivered` / `consumed` vocabulary is codified; `delivery_log.tsv` is one row per signal × recipient.
-- Claude Code delivery is correctly defined as committed + on-origin; written-but-undelivered telemetry is git-derived.
-- Quick-vs-Full WALTER mode + Iran-anchor guard landed in WALTER CLAUDE.md.
-- Narrow backfills exist for BRENT `SIG-W-20260610-001` and HAWK `SIG-W-20260610-002`, with anchor-moved caveats.
-- Repo memories `project_messaging_overhaul` and `project_walter_cop_direction` now contain a scoped WALTER-delivery exception, not a broad inbox/HERMES revival.
-
-**Files edited by Prome closeout:** `PROME/SCRATCH.md`, `PROME/STATUS.md`, `PROME/TODAY.md`, `PROME/ACTIVE_DECISIONS.md`, `PROME/HANDOFF.md`, `memory/2026-06-17.md`.
-
-**Next suggested work:** choose lane on next boot: (1) post-FOMC synthesis with fresh dashboard/proxies + FRED HY T+1, or (2) WALTER Phase 2 recipient-consumption rollout / Quick-WALTER acceptance test. `PROME/SCRATCH.md` has the detailed entry point.
-
-**Guardrails:** no trade/expiry action without broker/Will truth; no recipient-agent edits unless Will scopes them; WALTER delivery lane exception is narrow and does not revive general inbox/outbox/HERMES infra.
 
 ---
