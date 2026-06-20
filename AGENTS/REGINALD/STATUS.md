@@ -193,7 +193,7 @@ Three life-science CRE distress events across cohorts in 6 months:
 
 ## EXIT RULES
 
-> **⚠️ ANCHOR-DRIFT FLAG (6/19, ORC catch — Will to confirm):** These rules were written for the **broad-systemic** thesis. The thesis has since narrowed to **idiosyncratic-WAL + CRE-specific** (Office / B1 walk-away / maturity wall / NCO migration) — none of which prints in broad HY bond spreads. So a mechanical "Exit 100% on HY OAS <260" risks **stopping out a thesis whose actual confirmation channel is now CMBS-DQ flows, bank CRE-DQ tier-creep, and the WAL Q2 NCO line.** With HY at 263 (3bps away), this matters now. **REGINALD's reframe (applied pending Will veto):** HY<260 → **REVIEW trigger, not auto-exit**; re-anchor the real exit to the CRE channel.
+> **⚠️ ANCHOR-DRIFT FIX (6/19, ORC catch — ✅ CONFIRMED by Will 6/19):** These rules were written for the **broad-systemic** thesis. The thesis has since narrowed to **idiosyncratic-WAL + CRE-specific** (Office / B1 walk-away / maturity wall / NCO migration) — none of which prints in broad HY bond spreads. So a mechanical "Exit 100% on HY OAS <260" would **stop out a thesis whose actual confirmation channel is now CMBS-DQ flows, bank CRE-DQ tier-creep, and the WAL Q2 NCO line.** With HY at 263 (3bps away), this matters now. **Reframe (Will-confirmed 6/19, in force):** HY<260 → **REVIEW trigger, not auto-exit**; real exit re-anchored to the CRE channel.
 
 - **Exit 50%:** Claims <240K sustained + CBRE >-5%
 - **~~Exit 100%: HY OAS <260bps~~ → REVIEW trigger** (broad-credit stand-down; re-examine WAL-specific + CRE channel before any exit — do NOT auto-exit on broad HY)

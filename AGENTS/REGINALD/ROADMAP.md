@@ -72,7 +72,7 @@ Persistent state-of-REGINALD tracker across sessions. **SCRATCH** = loose notes,
 
 | Question | Surfaced | Action Owed |
 |----------|----------|-------------|
-| **Exit-100% rule re-anchor — confirm with Will** | 2026-06-19 (ORC) | Applied reframe (HY<260 = REVIEW not auto-exit; real exit re-anchored to CRE channel) pending Will veto. If Will prefers the old auto-exit, revert STATUS EXIT RULES + the trigger row. |
+| ✅ **Exit-100% rule re-anchor** | RESOLVED 2026-06-19 — **Will confirmed: keep as REVIEW trigger** (HY<260 no longer auto-exit; real exit re-anchored to CRE channel). In force in STATUS EXIT RULES. |
 | ✅ **SSB $90P provenance** | RESOLVED 2026-06-19 — Will: **real position, sold/closed** (date/path unrecorded). NOT a fabrication-phantom → unrecorded-exit propagation gap (same class as KRE $70P 5/8). Recorded CLOSED in POSITIONS.md. |
 | **WAL pre-existing column-drift in KB.tsv** (rows 056/057 have 14 cols not 13) | 2026-05-01 | Low priority. Find stray tab, normalize to 13 cols. Out of scope this session — fix on next workbook hygiene pass. |
 | **HERMES revival vs alternative messaging** | 2026-04 ongoing | Defer per messaging-overhaul direction (don't patch); REGINALD outbox is currently undelivered (per WALTER GAPS) |
