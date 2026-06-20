@@ -179,8 +179,8 @@
 | Channel | Weight | Current | Trend |
 |---------|--------|---------|-------|
 | Condo/Reserve Crisis | 40% | 🟠 ORANGE | Stress accumulating |
-| Insurance Channel | 25% | 🟢 GREEN | Stabilizing |
-| Bank Exposure | 20% | 🟡 YELLOW | Early signals |
+| Insurance Channel | 25% | 🟢/🟠 SPLIT | Personal/reinsurance easing; commercial-condo rising |
+| Bank Exposure | 20% | 🟡 YELLOW | Early signals; Q2 re-test |
 | Foreclosure Activity | 15% | 🔴 RED | Elevated |
 | **Composite** | 100% | **🟠 ORANGE** | Catalyst pending |
 
@@ -224,3 +224,43 @@
 
 *Leading indicators: USF monthly bulletins (belt biomass), NOAA SIR map. Landfall severity highly variable (winds/Loop Current) — a large offshore belt ≠ guaranteed beaching (2023/2024 lesson). Tourism visitor-flow impact → MARCO; CORAL owns the coastal-real-estate amenity/collateral piece. Detail → `sources/Sargassum_2026_FL_Briefing.md`.*
 *Source: Will-provided briefing 2026-06-18 (USF/NOAA/FAU/Jin 2025). Last Updated: 2026-06-19.*
+---
+
+## Upstream Collateral / Consumer Canaries
+
+### VX-CORAL-NEG-EQ-01 — Recent-Vintage Negative Equity
+
+*Missing precondition before the Coral-Bleaching bank-loss chain: recent buyers go underwater, reducing willingness/ability to absorb assessments and increasing forced-sale/default risk. Not yet a bank-P&L signal.*
+
+| Metric | Current | Threshold | Status |
+|--------|---------|-----------|--------|
+| 2024-vintage financed FL buyers underwater | ~18-20% | 🟡 >10% / 🟠 >18% / 🔴 >25% or broadening outside SW-FL | 🟠 |
+| Worst geography | Cape Coral #1 nationally; Punta Gorda/Fort Myers/Naples/North Port/Lakeland cluster | overlap with ATTOM foreclosure + SF correction = convergence | 🟠 |
+| Vintage concentration | 84%+ of underwater loans originated in last ~3.5 yrs (Cape Coral 97%+) | confirms 2023-25 cohort fragility | 🟠 |
+
+*Source: Parcl/Lewris + Cotality corroboration via WALTER SIG-W-20260619-002, delivered 2026-06-19. Last updated: 2026-06-20.*
+
+### VX-CORAL-BKCY-01 — Bankruptcy Filing Channel
+
+*Bankruptcy is the household/business complement to foreclosure. Volume ranks are real but population-inflated; per-capita and acceleration carry the signal.*
+
+| Metric | Current | Threshold | Status |
+|--------|---------|-----------|--------|
+| District volume rank | M.D. Fla #2 / S.D. Fla #6 (12mo ended 2026-03-31) | true but population-weighted | 🟡 |
+| Per-capita filing rate | FL ~190/100k vs national ~168-173 | 🟠 >230/100k Ch.7 in FLM/FLS / 🔴 >260 sustained | 🟡 |
+| YoY acceleration | +22.2% YoY; consumer-led, business ~5-6% of volume | 🟠 >20% sustained / 🔴 >30% + bank NCO move | 🟠 |
+
+*Source: AOUSC F-2 / WALTER SIG-W-20260619-008, delivered 2026-06-19. Last updated: 2026-06-20.*
+
+### VX-CORAL-INS-03 — Commercial / Condo Insurance Layer
+
+*Correction to prior blanket "insurance easing" mark: personal/reinsurance is easing, while the commercial/condo-association master-policy layer still rises and remains in the assessment/HOA cash-flow stack.*
+
+| Metric | Current | Threshold | Status |
+|--------|---------|-----------|--------|
+| Citizens Commercial Lines filed/approved | +10.4% capped | 🟠 any double-digit increase | 🟠 |
+| Uncapped actuarial indication | +18.8% | 🔴 >20% need | 🟠 |
+| Commercial multi-peril / wind-only | +9.6% capped / +21.3% uncapped; +10.9% capped / +17.2% uncapped | shows cap masks true need | 🟠 |
+
+*Source: Citizens rate filing via WALTER SIG-W-20260619-008, delivered 2026-06-19. Last updated: 2026-06-20.*
+

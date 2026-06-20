@@ -343,3 +343,50 @@ Coastal / beachfront condo demand softening
 ```
 
 **Speed:** slow / seasonal-recurring. **Status:** second-order overlay, NOT confirmed to bank balance sheets (no Q1 2026 evidence). **Key insight:** stacks on the *same* SE FL metros already carrying the deepest condo stress (does not diversify); but perception-driven and modeled, and does NOT touch the insurance channel. **Cross-links:** VX-CORAL-SARG-01, MARCO (tourism-$). **Last Updated:** 2026-06-19.
+---
+
+## Upstream Pathway: Recent-Vintage Negative Equity
+
+```
+2023-25 FINANCED BUYERS AT PEAK PRICES
+        │
+        ▼
+LOCAL PRICE DECLINE / COMP RESET
+(SW-FL Gulf Coast: Cape Coral, Punta Gorda, Fort Myers, Naples, North Port)
+        │
+        ▼
+NEGATIVE EQUITY (~18-20% of 2024-vintage financed FL buyers)
+        │
+        ▼
+LOWER ABILITY/WILLINGNESS TO FUND SPECIAL ASSESSMENT
+        │
+        ├─► forced sale / strategic default
+        └─► association delinquency + revenue stress
+                 │
+                 ▼
+        feeds Primary Pathway at OWNER DEFAULT / ASSOCIATION DEFAULT
+```
+
+**Source:** Parcl/Lewris + Cotality corroboration via WALTER SIG-W-20260619-002, delivered 2026-06-19.
+**Current read (2026-06-20):** upstream collateral deterioration, not yet bank P&L. Q2 bank prints must show synchronized criticized/classified → NCO/specific-reserve migration across >1 FL bank before this becomes bank-loss evidence.
+
+## Complementary Pathway: Bankruptcy Filing Channel
+
+```
+HOUSEHOLD COST STACK
+(assessment + HOA + commercial/condo insurance + property tax + credit-card rates)
+        │
+        ▼
+CONSUMER BANKRUPTCY FILINGS ACCELERATE
+(M.D. Fla #2 / S.D. Fla #6 by volume; +22.2% YoY, population-inflated but real acceleration)
+        │
+        ▼
+FORCED SALE / PAYMENT INTERRUPTION / ASSOCIATION DELINQUENCY
+        │
+        ▼
+BANK COLLATERAL + HOA/ASSOC LOAN STRESS
+```
+
+**Tripwire:** Ch.7 per-capita in M.D./S.D. Fla above ~230/100k = household-stress channel broadens; synchronized bank NCO/reserve build = bank transmission.
+**Source:** AOUSC F-2 packet via WALTER SIG-W-20260619-008, delivered 2026-06-19.
+
