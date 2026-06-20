@@ -31,38 +31,26 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (Tue Jun 16 ~12 PM ET closeout → Thu Jun 18 ~4:13 PM ET boot)
+### CHANGES SINCE LAST SESSION (Fri Jun 19 ~6:30 PM ET closeout → Sat Jun 20 ~10:28 AM ET boot)
 
-- **🔴 FOMC Jun 17 RESOLVED HAWKISH under new Chair Warsh** (debut; sat un-modeled in SAM docs for ~4wk since 2026-05-22 — boot-sweep gap, see `[[finding_boot_sweep_macro_regime_context]]`). Held 3.50-3.75% unanimous 12-0 but **median 2026 dot +40bp (3.4 → 3.8); 9-of-18 see ≥1 hike (6 see two); core PCE 2026 +60bp to 3.3%**. Statement gutted ~300→~130 words, all forward easing bias removed. CME July hike ~75%; Polymarket "Fed hike 2026" ~52→56%.
-- **🔴 Pillar 1 directional vector INVERTED across Jun 16-17 sequence:** BOJ +25bp compression < Fed-dot +40bp re-widening = rate-differential WIDER than pre-Tue, not narrower.
-- **🟢 Iran/US deal SIGNED Wed Jun 17** (Pezeshkian + Trump *electronic* per Al Jazeera — NOT a Geneva ceremony); initial agreement per CNN; 60-day toll-free Hormuz reopen THEN Oman-administered fees per NBC. Verification leg OPEN (demining, insurance, HEU dilution, sanctions waivers).
-- **🟢 Brent $79.68 Thu Jun 18** (~−18% cum from $96.78 Jun 3 baseline) — half deal-signing, half IEA glut warning (+8 mbpd supply by 2027 vs +2 demand).
-- **🟠 Japan May TB Tue Jun 17 evening:** deficit ¥-378.7B (beat ¥-564.6B consensus by ~33%); exports +17% YoY masking structural softness; ME crude −57% YoY.
-- **🔴🔴 USDJPY 161.34 Thu / FXY $56.86 / 13 shares −$19 unrealized.** MOF silent for 48h+ at 160.78 → 161.34 (Bloomberg Wed "Markets Alert for Japan Intervention"). **Jun-18 $58C expired worthless Thu Jun 18** ($40 premium written off).
-- **🆕 Nikkei printed 70,000 first-ever Thu** (closed 71,053 +1.65%) — classic "BOJ behind the curve" tape (Brent collapse → risk-on JP equity, NOT yen).
+- **🔴 Iran RE-DECLARED Hormuz CLOSED Sat Jun 20 + Lebanon re-heated** (cross-agent BRENT THESIS v4.0→v4.1 / HAWK B34/C44/D22, both committed 6/20). Joint military command "first step" citing US/Israel breach of MOU clause-1 (continued Israeli Lebanon strikes). **DECLARATORY — physical effect DISPUTED** (CENTCOM: traffic flows, ~55 ships transited Sat; no tanker attack/mine/seizure). Diplomacy NOT collapsed (Switzerland nuclear talks still Sun Jun 21). Verified NBC/Axios/CBS/ToI.
+- **🟡 National May CPI (Fri Jun 19) SOFT** — headline 1.5 / core 1.4 (4th straight month <2% target, 4-yr low) / core-core 1.8 (slight dovish miss vs 1.9). Headline ↑ only on energy base-effect (utility-subsidy expiry). Thins the post-1.00% Oct-hike repricing.
+- **🔴 CFTC v1.6 EV-gate print delayed to Mon Jun 22** — Fri Jun 19 was Juneteenth (federal holiday) → COT release shifts to next business day. Docket had it mis-dated "Sat Jun 20."
+- **Markets weekend-closed:** Brent $80.59 Fri (the +0.93% Fri tick partly transit-chill / Switzerland-cancellation = early edge of the re-escalation); USDJPY 161.28, FXY $56.85 (≈−$19), JGB Jun-18 pub 10Y 2.628 / 30Y 3.737. No new data until Mon.
 
-### LAST SESSION (Thu Jun 18 ~4:13 PM ET → Fri Jun 19 ~6:30 PM ET — single continuous arc, 13 SAM commits)
+### LAST SESSION (Sat Jun 20 ~10:28 AM ET boot → closeout — maintenance/orientation arc, 2 SAM commits)
 
-**Frame pivot delivered:** thesis re-centered from "directional yen-compression bet (Pillar 1 + BOJ catalyst)" → "carry-trade CONVEXITY-TAIL exposure (Pillar 4 promoted to center)." v1.6 backbone DRAFT committed (`f378c0e4` + EV-table); **canonical thesis stays v1.5.1+Jun-18-strip until v1.6 finalizes post-CPI + post-RED + post-Sat-Jun-20-CFTC.**
+**No analytical re-marks — canonical thesis stays v1.5.1+Jun-18-strip; v1.6 pending Mon CFTC + RED. Money fields untouched (13 sh @ $58.32 / Jun-18 $58C expired worthless / stop interim single-leg $55.05).**
 
-**Commit ledger (origin @ `30ebe292` final):**
-- `0f4f05f6` + `c9388bb3` + `65bc656e` — FIRST [propagation/thesis-fact] (Warsh / FOMC / Iran-signed) + workbook auto-refresh + auto-memory `finding_boot_sweep_macro_regime_context`
-- `97701098` — Step 1.5 HAWK-Iran reconcile (PROME+ORC adjudicated; SAM grep-audit caught 10 overclaim spots PROME's sample missed; PROME named SAM's comprehensive-grep as the correct verifier standard going forward)
-- `48dbf25c` — Step 1.5 stop re-arm: single-leg FXY ≤ $55.05 (collapsed dead BOJ-dovish AND-leg out; Will distinguished risk-control re-arm from sizing decision — see `[[finding_risk_control_separate_from_sizing]]`)
-- `b3a54069` — 🔴 SIGs to LIQUID + HENRY (carry-unwind buckets re-mark Sun 8/23/32 → Thu ~5-6/17-20/24-28; Pillar 1 inversion; HAWK-aligned Iran)
-- `8e86586f` — v1.6 backbone DRAFT (293 lines, 6 RED challenges embedded)
-- `fb167917` — v1.6 PROME audit applied (5 fixes: USDJPY-call direction bug → USDJPY-put / JPY-call; "no cover post-catalyst" → "no cover INTO catalyst pending Sat Jun 20"; Pillar 1/3/4 split into 3 failure modes; RED #4 → explicit GATE; FXY-vol KB-183 caveat)
-- `f378c0e4` — v1.6 CONVEXITY-TAIL SURVIVAL EV table (PROME-requested; closes RED #1 quant sub-clause): gross +2.21% / net 60d EV +0.0 to +0.3% — **MARGINAL positive, not strongly positive.** Sat Jun 20 CFTC = decision-grade observable.
-- Sub-agent trio + KURA Run-6 (`7c52b43f` + `634f8a17` + `3835c5b6` + `6f07805e` + `7d3d2cc1` + Phase C `30ebe292`):
-  - **KOYOMI Run 8:** caught CATALYSTS.tsv schema regression (7→8 fields restored, 18 rows backfilled `external`); Sat Jun 20 CFTC EV-gate row added with pre-registered dispositions; 4 resolved + 7 RECENTLY RESOLVED >7d pruned.
-  - **METSUKE Run 6:** 3 CRITICAL drifts (TRADE L184 Channel-1 silent on Norinchukin RESOLVED-AGAINST + STRATEGY L16 Stage-3 advance + STRATEGY L61 forward-reads refresh) + 5 MODERATE (CFTC narrative, Fed Path → Fed-HIKE regime, header rolls, BOJ trigger PENDING→FIRED, subheader Step 1.5 stamp) + caught Stage-4 duplicate row.
-  - **KURA Run 6:** 6 new KB rows (KB-SAM-195 Warsh / 196 FOMC SEP / 197 Iran-electronic / 198 IEA glut / 199 MOF-decay / 200 `[v1.6-DRAFT]` EV-table via Notes-tag routing); 4 palimpsest (KB-006 SUPERSEDED + KB-051/127/152 RE-GRADE); 2 cross-agent auto-memory promotions.
-- **3 cross-agent calibration lessons promoted to auto-memory** (all Will-approved Phase C): `[[finding_boot_sweep_macro_regime_context]]` (regime-context check at boot); `[[finding_comprehensive_grep_over_sampling]]` (verifier discipline); `[[finding_risk_control_separate_from_sizing]]` (post-binary stop audit).
-- **Money fields untouched throughout.** Position 13 sh @ $58.32 / Jun-18 $58C expired worthless / stop interim single-leg $55.05. No add/trim decision — sizing waits for v1.6 finalize.
+- **Booted + pulled** — already synced to origin @ `68f39dbd`, clean.
+- **STATUS refreshed to Sat Jun 20 weekend levels** (`c382ebcc`) — market table / thresholds / position rebuilt **data-only**; National May CPI row added; Jun-18 $58C marked expired worthless; resolved BOJ-pricing rows dropped.
+- **National May CPI verified + SAM-27 CLEARED:** the "April core 2.2% vs SAM's 1.4%" discrepancy I flagged was a **bad-aggregator (stockpil.com) pull on MY end** — SAM's records (April core 1.4 / core-core 1.9) match Reuters/CNBC exactly → **SAM-27 correctly scored TRUE, scoreboard intact, the error was mine.** Source-discipline finding logged (Findings 6/20). *(Lesson: suspect your own fresh pull before doubting curated records; first-touch a wire-tier source.)*
+- **CFTC EV-gate date corrected Sat Jun 20 → Mon Jun 22 (Juneteenth)** across CATALYSTS.tsv (countdown verified), CALENDAR, STATUS, STRATEGY (7 refs), MEMORY, THESIS_v1.6_DRAFT (15 release-date refs; "Jun 16 data" preserved) — full downstream-propagation sweep ([[finding_verification_correction_downstream_propagation]]).
+- **Checked BRENT+HAWK (Will-directed)** — read their actual files + independently verified the Hormuz re-closure; logged to CALENDAR GEOPOLITICAL/PHASE-2 watch + v1.6 "Oil/MOU re-escalation" tail-route flag (candidate ~10-12% pending Mon) (`a49c73ae`). **NO re-mark** — declaratory ≠ physical; near-term FX ambiguous-to-yen-NEGATIVE (USD-haven, Phase-1 supply-destruction inverts for Japan) → fattens the convexity TAIL only; price authority deferred to BRENT.
 
 ### NEXT SESSION
 
-**Imminent (this evening / tomorrow):**
+**Imminent — Mon Jun 22 is the convergence point (CFTC EV-gate + Brent decoupling test land the SAME DAY):**
 
 1. **✅ Fri Jun 19 National May CPI — VERIFIED (Sat Jun 20 boot; `cpi_japan.py` down/ESTAT_APPID unset, pulled manually + cross-checked Reuters/CNBC/Japan Times):** headline **1.5%** (↑ from 1.4% Apr — energy base-effect from utility-subsidy *expiry*, NOT demand), core ex-fresh-food **1.4%** (held flat; 4th straight month <2% target, 4-yr low; matched fcst), core-core **1.8%** (−10bp vs Apr 1.9% / fcst 1.9% — slight dovish miss). **Net: soft/dovish underlying → thins the post-1.00% BOJ Oct-hike repricing (multi-month tail thinner); thesis-coherent (BOJ hiked on wage/activity mechanism, CPI stays soft).** Feed these verified figures into v1.6 DRAFT open question #8. ⚠️ Do NOT use the `stockpil.com` aggregator figures (core 2.1%) — wrong; see Findings 6/20.
 2. **🔴 Mon Jun 22 CFTC JPY COT (Jun 16 data — first post-catalyst print; delayed from Fri Jun 19/Sat by Juneteenth holiday) — v1.6 EV-table DECISION-GRADE.** Pre-registered: cover <-120K (~67% peak) → v1.6 frame FAILS margin test → **trim/close discussion**; holds -140K to -150K (78-83%) → frame survives margin → vehicle question stays open; builds through -153K/85% → amplifier escalates +5pp → +8-10pp → frame STRENGTHENED (gross EV ~+3.0%, net ~+1.3%). This is THE observable. **🔴 SAME DAY — also run the Brent decoupling test:** Iran re-declared Hormuz CLOSED Sat Jun 20 (Lebanon-breach; declaratory-not-physical; cross-agent BRENT THESIS v4.1 / HAWK B34/C44/D22). Mon Jun 22 Brent reopen → spike = de-escalation thesis breaks (oil-in-yen re-activates; v1.6 "Oil/MOU re-escalation" tail-route fattens); shrug = holds. Pair the read with the CFTC gate. See CALENDAR GEOPOLITICAL WATCH (logged 6/20).
@@ -87,7 +75,7 @@
 
 **⏸️ DEFERRED:** Layer B cross-agent (BROCK/HANS PC-cascade pull); KB cleanup tier-2; insurer profiles audit; Japanese-source pipeline retire; SIGNAL_INTAKE archive; NEXUS_BRIEF rollout = Will-action.
 
-**Closeout (Fri Jun 19 ~6:30 PM ET):** all 13 SAM-session commits + Phase C on origin @ `30ebe292`; tree clean 0 ahead / 0 behind. WALTER/HAWK/REGINALD push-train passengers swept along the way; HAWK's auto-memory work-in-flight (`memory/auto/MEMORY.md` + new HAWK finding) left untouched per scope discipline.
+**Closeout (Sat Jun 20):** 2 SAM commits this session — `c382ebcc` (boot refresh + CFTC date fix) + `a49c73ae` (Iran re-closure log) — **LOCAL, NOT pushed** (Will-coordinated push deferred). Tree clean. Ahead of origin by these 2 + 4 concurrent BRENT/HAWK commits (6/20, Iran v4.0/v4.1) — all committed-unpushed, await Will's next push window (push-train sweeps together). **Un-promoted auto-memory candidate:** source-discipline finding (Findings 6/20) — left local pending Will endorsement per the prior promotion pattern.
 
 ### NEXT INFRA SESSION (script build queue — re-prioritized Jun 10)
 
