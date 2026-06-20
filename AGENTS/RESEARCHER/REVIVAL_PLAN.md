@@ -1,7 +1,7 @@
 # RESEARCHER — Revival Plan of Attack
 
 **Author:** WALTER (Will-directed, 2026-06-20)
-**Status:** PROPOSED — awaiting Will sign-off on phasing + open decisions before Phase 1 build.
+**Status:** Phase 1 ✅ (2026-06-20 AM) + Phase 2 ✅ (2026-06-20 PM, Will-approved, all 4 tightenings). **Next: Phase 3 (first live run)** — gated on the CONTEXT.md refresh (Phase 3 hard gate below).
 **Why this doc exists:** Will asked to revive RESEARCHER as a standing deep-research agent. The work is multi-step; this doc is the canonical phased plan so it survives context resets and we don't try to do it all in one overwhelmed pass. Each phase is a separate working session with a clean handoff.
 
 ---
@@ -80,8 +80,10 @@ Each phase = one focused session. Do not chain more than one phase per pass (Wil
 - Define the RESEARCHER→WALTER handoff (output/ → WALTER consumes → routes as `research-output` per the SIG-008 pattern already codified). Confirm `DEEP_RESEARCH_FLAGGED_LOG` columns cover an executor field.
 - Output archive + filename conventions (`YYYY-MM-DD_topic.md`, already established).
 - **Deliverable:** the flag→execute→route loop names RESEARCHER end-to-end on paper.
+- **✅ SHIPPED 2026-06-20 (Will-approved, all 4 tightenings):** CHECKLIST v0.19→**v0.20** (Phase 2.8 executor → RESEARCHER; Phase 2.8b deliverable-arrival via `inbox/RESEARCHER/` + `git mv`-to-`processed/` NEW→ROUTED→PROCESSED lifecycle) + WALTER CLAUDE.md **spawn-protocol step 7d** (boot-scan of `inbox/RESEARCHER/`) + `DEEP_RESEARCH_FLAGGED_LOG` **+`executor` column** (SIG-007 backfilled = Will) + created `AGENTS/WALTER/inbox/RESEARCHER/` (+ `processed/` + README) + RESEARCHER/CLAUDE.md handoff-lifecycle note + STATE §1 sync + version_drift ✓. Scoped commit; push deferred.
 
 ### Phase 3 — Live test & validate
+- **🔴 HARD GATE (Will, 2026-06-20) — refresh `CONTEXT.md` BEFORE the first live run.** It's stale (Iran framing pre-dates the 6/20 Hormuz re-closure re-stamp in `AGENTS/WALTER/anchors/IRAN_WAR.md`); refresh from CLUSTER_TAXONOMY + REGISTRY + the IRAN_WAR anchor. Wired into `RESEARCHER/CLAUDE.md` BOOT step 3 as a gate. Do not run live research on a stale-domain question until this is done.
 - Pick one real, pending research question (e.g. an open thesis tiebreaker — a CRE-credit June-print question, or a current candidate) and run it **end-to-end through revived RESEARCHER**: flag → prompt → `/deep-research` run → cited report in `output/` → handoff to WALTER → routed as `research-output`.
 - Validate the way SIG-008 validated Phase 2.8. Capture the Process Report; tune the spec from what was hard.
 - **Deliverable:** first live revived-RESEARCHER report routed; loop proven.

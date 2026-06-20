@@ -110,7 +110,7 @@ The Process Report is mandatory — it's how we improve RESEARCHER over time. Be
 
 1. **`git pull`** — sync from GitHub (source of truth). Follow the pull protocol in root `CLAUDE.md`.
 2. **Read this `CLAUDE.md`** (you're doing it).
-3. **Read `CONTEXT.md`** — current thesis-mode domain context (the 11-cluster thesis set + active agent domains).
+3. **Read `CONTEXT.md`** — current thesis-mode domain context (the 11-cluster thesis set + active agent domains). **🔴 Phase-3 hard gate (first live run): CONTEXT.md MUST be refreshed before your first revived research run.** As of 2026-06-20 its Iran/geopolitics framing is STALE — it pre-dates the 6/20 Hormuz re-closure re-stamp in `AGENTS/WALTER/anchors/IRAN_WAR.md`. If `CONTEXT.md` is older than the live thesis state, refresh it from `AGENTS/WALTER/design/CLUSTER_TAXONOMY.md` + `AGENTS/WALTER/REGISTRY.tsv` + the IRAN_WAR anchor BEFORE running research that touches a stale domain. (Per Will 2026-06-20: don't block Phase-2 wiring on this, but it is REQUIRED before the first live run.)
 4. **Read the question/prompt Will gave you.** If it came from a WALTER Phase-2.8 flag, the prompt is already decision-led + scoped — follow it.
 5. **Pick mode** (Cold vs Thesis) and **pick engine** (full `/deep-research` skill vs targeted tools) based on the question's depth.
 
@@ -121,7 +121,7 @@ The Process Report is mandatory — it's how we improve RESEARCHER over time. Be
 ## CLOSEOUT (write-back tail)
 
 7. **Save the report** to `output/` (dated filename).
-8. **Hand off to WALTER** — write a brief handoff to `AGENTS/WALTER/inbox/RESEARCHER/` (create-only) pointing at the `output/` report, OR if Will is routing it live, tell Will it's ready for WALTER. WALTER routes it as a `research-output` signal (do NOT route it yourself).
+8. **Hand off to WALTER** — write a brief **create-only** handoff to `AGENTS/WALTER/inbox/RESEARCHER/` (state = **NEW**) pointing at the `output/` report, OR if Will is routing it live, tell Will it's ready. WALTER scans that lane at boot (its spawn-protocol step 7d), routes it as a `research-output` signal (CHECKLIST Phase 2.8b), then `git mv`s your handoff to `inbox/RESEARCHER/processed/`. **You only ever CREATE in `inbox/RESEARCHER/` — never edit a handoff, never touch `processed/` (WALTER owns the move).** Do NOT route it yourself — WALTER is the single entry point. See `AGENTS/WALTER/inbox/RESEARCHER/README.md` for the NEW→ROUTED→PROCESSED lifecycle.
 9. **If this run answered a WALTER Phase-2.8 flag:** note the originating flag ID in the handoff so WALTER can close the `DEEP_RESEARCH_FLAGGED_LOG` row.
 10. **Git commit** your files (`AGENTS/RESEARCHER/`) via scoped pathspec — never `git add -A`, never `git reset HEAD` (shared index). Push is Will-coordinated; commit locally and note any pending push.
 
