@@ -6,8 +6,8 @@
 **Draft Status:** backbone only — structure + analytical pivots + RED-challenge anchors; prose finalize after RED + CPI
 **Revisions:**
 - 2026-06-18 PM Thu — initial backbone commit (`8e86586f`)
-- 2026-06-19 — PROME audit incorporated (5 fixes): (1) USDJPY-call direction bug → corrected to USDJPY-put / JPY-call (long yen = USDJPY DOWN); (2) "no cover post-catalyst" timeframe-conflation → reframed to "no cover INTO catalyst; post-catalyst state unresolved until Sat Jun 20 print"; (3) Pillar 1/3/4 lumped-together claim → split into 3 distinct failure modes (Pillar 1 inverted / Pillar 3 farther from trigger / Pillar 4 stayed loaded but failed-to-fire); (4) RED challenge #4 strengthened from hint to explicit GATE (vehicle modeling proceeds only if RED #1-#3 survive); (5) FXY-vol caveat added (expiry/roll-weird proxy; sanity-check vs second source before committing).
-- 2026-06-19 — PROME-requested CONVEXITY-TAIL SURVIVAL EV table added (between RE-FRAME and PILLAR AUDIT). Closes the quantitative sub-clause of RED challenge #1 ("show the EV is positive"). Honest result: net 60d EV ≈ +0.0 to +0.3% per share at $798 size — frame is MARGINAL, not strongly positive. Includes per-route P × move table (6 routes, gross +2.21% / overlap-discounted +1.7-1.9%), cost-side table (modal bleed -1.1 to -1.2%, stop-loss tail -0.5 to -0.6%), 5-row sensitivity table identifying what breaks the frame, RED-challenge sub-anchors #1a-d on the table inputs, and explicit pre-registration for Sat Jun 20 CFTC print (cover → frame fails margin test; build → frame strengthened).
+- 2026-06-19 — PROME audit incorporated (5 fixes): (1) USDJPY-call direction bug → corrected to USDJPY-put / JPY-call (long yen = USDJPY DOWN); (2) "no cover post-catalyst" timeframe-conflation → reframed to "no cover INTO catalyst; post-catalyst state unresolved until Mon Jun 22 print"; (3) Pillar 1/3/4 lumped-together claim → split into 3 distinct failure modes (Pillar 1 inverted / Pillar 3 farther from trigger / Pillar 4 stayed loaded but failed-to-fire); (4) RED challenge #4 strengthened from hint to explicit GATE (vehicle modeling proceeds only if RED #1-#3 survive); (5) FXY-vol caveat added (expiry/roll-weird proxy; sanity-check vs second source before committing).
+- 2026-06-19 — PROME-requested CONVEXITY-TAIL SURVIVAL EV table added (between RE-FRAME and PILLAR AUDIT). Closes the quantitative sub-clause of RED challenge #1 ("show the EV is positive"). Honest result: net 60d EV ≈ +0.0 to +0.3% per share at $798 size — frame is MARGINAL, not strongly positive. Includes per-route P × move table (6 routes, gross +2.21% / overlap-discounted +1.7-1.9%), cost-side table (modal bleed -1.1 to -1.2%, stop-loss tail -0.5 to -0.6%), 5-row sensitivity table identifying what breaks the frame, RED-challenge sub-anchors #1a-d on the table inputs, and explicit pre-registration for Mon Jun 22 CFTC print (cover → frame fails margin test; build → frame strengthened).
 **Fact baseline:** all three Jun-18 verified facts (Warsh-Fed since 2026-05-22; FOMC Jun 17 +40bp 2026 median dot; Iran/US deal SIGNED Jun 17 — HAWK-aligned framing per Step 1.5 reconcile at commit `97701098`)
 **Input refs:**
 - `THESIS.md` v1.5.1 + Jun-18 facts (canonical until this draft approved)
@@ -22,7 +22,7 @@
 
 ## ONE-LINER (v1.6 draft)
 
-**The carry-trade direction-conditional case for being long yen is wrong (or at least directionally inverted) near-term — but the carry-trade CONVEXITY case is intact-to-stronger.** Pillar 1's directional vector flipped across the Jun 16-17 sequence (BOJ +25bp compression < Fed Jun-17 +40bp dot re-widening); BOJ-side normalization-as-priced has been delivered without a violent move; Fed-side cut path is replaced by Fed-HIKE pricing under new Chair Warsh (statement-gutting hawkish). What remains is (a) CFTC at 81% of cycle peak with **no cover INTO the catalyst — post-catalyst cover is UNRESOLVED until the Sat Jun 20 print (Jun 16 data)** (the current -145,818 print is Jun 9 data, released Jun 12, pre-catalyst by definition); (b) Pillar 2 (J-ICS DOMESTIC long-end abandonment) still firing on schedule; (c) the tail-routes (US credit cascade → Fed walk-back, oil/risk-off re-escalation, fresh hawkish-of-pricing BOJ surprise, MOF #3 with cabling intact). **The position narrative re-centers from "structural compression delivers via Channel 2 catalyst" → "carry-trade convexity tail at 81% positioning fuel INTO the catalyst (post-catalyst state pending); modal near-term path bleeds, tail pays if any of the four routes fires."** v1.6's load-bearing question is therefore not "should we be long yen-direction" (answer: not as a near-term directional bet) but **"is the FXY-spot vehicle the right way to express the convexity tail under v1.6, or does FXY-vol / a USDJPY-put (= JPY-call) structure / a JGB-30Y short / something else dominate it?"**
+**The carry-trade direction-conditional case for being long yen is wrong (or at least directionally inverted) near-term — but the carry-trade CONVEXITY case is intact-to-stronger.** Pillar 1's directional vector flipped across the Jun 16-17 sequence (BOJ +25bp compression < Fed Jun-17 +40bp dot re-widening); BOJ-side normalization-as-priced has been delivered without a violent move; Fed-side cut path is replaced by Fed-HIKE pricing under new Chair Warsh (statement-gutting hawkish). What remains is (a) CFTC at 81% of cycle peak with **no cover INTO the catalyst — post-catalyst cover is UNRESOLVED until the Mon Jun 22 print (Jun 16 data)** (the current -145,818 print is Jun 9 data, released Jun 12, pre-catalyst by definition); (b) Pillar 2 (J-ICS DOMESTIC long-end abandonment) still firing on schedule; (c) the tail-routes (US credit cascade → Fed walk-back, oil/risk-off re-escalation, fresh hawkish-of-pricing BOJ surprise, MOF #3 with cabling intact). **The position narrative re-centers from "structural compression delivers via Channel 2 catalyst" → "carry-trade convexity tail at 81% positioning fuel INTO the catalyst (post-catalyst state pending); modal near-term path bleeds, tail pays if any of the four routes fires."** v1.6's load-bearing question is therefore not "should we be long yen-direction" (answer: not as a near-term directional bet) but **"is the FXY-spot vehicle the right way to express the convexity tail under v1.6, or does FXY-vol / a USDJPY-put (= JPY-call) structure / a JGB-30Y short / something else dominate it?"**
 
 ---
 
@@ -32,7 +32,7 @@
 |---|---|---|---|
 | Yen-strengthening direction / level (multi-year) | HIGH | **MEDIUM** (downgrade from HIGH) | Pillar 1 directional vector INVERTED post-Warsh; Pillar 3 moved FARTHER from its <145 trigger (USDJPY 161+); Pillar 4 STAYED LOADED but FAILED to fire (catalyst spent without lighting positioning unwind — different failure mode from the other two). Pillar 2 + structural-LEVEL argument still operate but with weaker convergence under Warsh-Fed-hawkish regime. **RED challenge embedded below** on whether MEDIUM is too generous given the directional vector is broken, the threshold is farther away, and the fuel-load failed-to-fire on its expected trigger. |
 | Near-term timing (3-6mo modal path) | MEDIUM | **LOW** | Catalyst spent without firing; no near-term trigger in modal window; cross-pair vindication decoupled Jun 11 (yen-bid-on-risk-off channel temporarily off). 7d/30d/60d carry-unwind buckets shipped to LIQUID/HENRY as ~5-6/17-20/24-28 (down from Sun ~8/23/32). |
-| Carry-trade convexity TAIL (60d+) | (not separately graded under v1.5.1) | **MEDIUM-HIGH (NEW separate row) — CONDITIONAL on Sat Jun 20 CFTC print** | CFTC 81% fuel INTO catalyst is asymmetric IF positioning held through. **Post-catalyst cover state UNRESOLVED until Sat Jun 20 print.** Four tail routes intact: Fed walk-back of Jun-17 dots; US-credit cascade → recession → cuts; oil/MOU re-escalation; fresh hawkish-of-pricing BOJ. Severity intact-IF-fuel-held; modal probability of ANY firing in 60d is the unsolved question for v1.6. If Sat Jun 20 shows cover (e.g., breach -125K), this row drops to MEDIUM at most. |
+| Carry-trade convexity TAIL (60d+) | (not separately graded under v1.5.1) | **MEDIUM-HIGH (NEW separate row) — CONDITIONAL on Mon Jun 22 CFTC print** | CFTC 81% fuel INTO catalyst is asymmetric IF positioning held through. **Post-catalyst cover state UNRESOLVED until Mon Jun 22 print.** Four tail routes intact: Fed walk-back of Jun-17 dots; US-credit cascade → recession → cuts; oil/MOU re-escalation; fresh hawkish-of-pricing BOJ. Severity intact-IF-fuel-held; modal probability of ANY firing in 60d is the unsolved question for v1.6. If Mon Jun 22 shows cover (e.g., breach -125K), this row drops to MEDIUM at most. |
 | Position vehicle fit | (assumed FXY-spot+near-call) | **OPEN — load-bearing v1.6 question** | If we're betting convexity not direction, FXY-spot may dominate FXY-vol / spread / JGB-short — or not. See § VEHICLE AUDIT. |
 
 **RED challenge #1 to embed pre-finalize:** is "carry-trade convexity tail at MEDIUM-HIGH" honest, or is it the SAM-historical pattern of "right substance, wrong window" being re-skinned as convexity to preserve the bet? Specifically — name the trigger probability and the magnitude required for the tail to pay vs the carry/theta cost of holding, and show the EV is positive after honest decay assumptions. If you can't, the row should be MEDIUM not MEDIUM-HIGH. **The CONVEXITY-TAIL SURVIVAL EV table below (§) attempts this: gross +2.21% / net 60d EV +0.0 to +0.3% — marginal-positive at center-case inputs. RED #1 now decomposes into #1a (per-route probabilities honest?), #1b (FXY-move conditionals honest?), #1c (modal-bleed assumption honest?), #1d (60d window arbitrary?). See § CONVEXITY-TAIL SURVIVAL EV.**
@@ -43,7 +43,7 @@
 
 v1.5.1 narrative: **"yen strengthens via rate-differential compression (BOJ hike + Fed cut path multi-month-tail) and structural pillars."** Under v1.6, the rate-differential compression vector is broken near-term (Pillar 1 inverted; Fed-cut path replaced by Fed-HIKE regime). The structural pillars are not gone but their *directional convergence* is gone.
 
-**v1.6 narrative:** **the carry-trade was structurally over-positioned INTO the catalyst (CFTC 81% of -180K cycle peak, 6 build weeks, no cover INTO catalyst per Jun-9 release Jun-12; post-catalyst cover state UNRESOLVED until Sat Jun 20 print). Positioning was at-peak fuel without a near-term modal trigger — *whether it stays loaded post-catalyst is the v1.6 decision-grade observable.* The thesis is no longer "compression delivers" — it is "asymmetric convexity payoff when ANY of N tail routes fires within an eligibility window, CONDITIONAL on positioning remaining loaded."**
+**v1.6 narrative:** **the carry-trade was structurally over-positioned INTO the catalyst (CFTC 81% of -180K cycle peak, 6 build weeks, no cover INTO catalyst per Jun-9 release Jun-12; post-catalyst cover state UNRESOLVED until Mon Jun 22 print). Positioning was at-peak fuel without a near-term modal trigger — *whether it stays loaded post-catalyst is the v1.6 decision-grade observable.* The thesis is no longer "compression delivers" — it is "asymmetric convexity payoff when ANY of N tail routes fires within an eligibility window, CONDITIONAL on positioning remaining loaded."**
 
 The "N tail routes" are the same triggers in the CH-004 METHOD but the framing is what changes:
 
@@ -80,7 +80,7 @@ The "N tail routes" are the same triggers in the CH-004 METHOD but the framing i
 | **Risk-off shock (VIX spike / US-credit event / yen-haven channel re-snaps)** | **10%** | +7% if cross-pair re-snaps (Aug-2024-calibrated upside tail) | **+0.70%** | Strongest single route in the convexity tail. Cross-pair vindication decoupled Jun 11 — re-snap requires VIX spike not hawkish-Fed-driven equity bleed. Aug 2024 precedent (USDJPY −7y in 3 sessions = +10.5% FXY) is the conditional-tail upper bound. |
 | **Fed walk-back of Jun-17 dot revision (= "cut surprise")** | **5%** | +5% | **+0.25%** | Requires US-credit event to force Warsh's hand; PC redemption peak Q2 (BCRED ~12%, Ares ~14%) is live but labor/inflation too firm to force a pivot pre-Jul-29 FOMC. Powell-era cut-pricing dynamics don't apply under Warsh. |
 | **Oil/MOU re-escalation (verification-leg failure)** | **8%** | +3% | **+0.24%** | Deal SIGNED Jun 17 (signing-binary resolved); verification leg OPEN (HEU dilution / Oman fee / Israel-Lebanon). Re-escalation = HEU non-compliance, Iran formal repudiation, Hormuz re-closure on fee dispute. Brent already ~−18%; near-term Phase-1 tail thinned. |
-| **Residual positioning cascade (METHOD residual term)** | **10%** | +5% | **+0.50%** | **CONDITIONAL on Sat Jun 20 CFTC print** — if positioning held 80%+ post-catalyst, residual term ON and this row stays; if positioning covered to <60% of peak (~-108K breach), residual term OFF and this row drops to **0** (-0.50% off gross EV). |
+| **Residual positioning cascade (METHOD residual term)** | **10%** | +5% | **+0.50%** | **CONDITIONAL on Mon Jun 22 CFTC print** — if positioning held 80%+ post-catalyst, residual term ON and this row stays; if positioning covered to <60% of peak (~-108K breach), residual term OFF and this row drops to **0** (-0.50% off gross EV). |
 | **GROSS expected payoff (sum)** | | | **+2.21%** | Subject to overlap-discount per CH-004 METHOD: -3 to -5pp judgment (overlap between routes 3+5, 2+3, 4+6) → **net gross ~+1.7 to +1.9%** |
 
 ### Cost side
@@ -101,14 +101,14 @@ At $798 position size: **≈ +$0 to +$2.50 over 60d.** Roughly break-even.
 
 **The convexity-tail thesis is MARGINAL — barely positive-EV under center-case inputs.** The frame survives but does not justify large sizing. It justifies:
 - (a) Continuing to hold the small ($798) tail-exposure position with the Step 1.5 stop in place — net break-even-to-slightly-positive, low downside given $55.05 stop, asymmetric upside if risk-off fires
-- (b) NOT adding to size pre-RED, pre-CPI, pre-Jun-20 CFTC
-- (c) Re-running this table with Sat Jun 20 CFTC print as the input — cover-scenario kills 0.5pp gross EV → frame goes negative
+- (b) NOT adding to size pre-RED, pre-CPI, pre-Jun-22 CFTC
+- (c) Re-running this table with Mon Jun 22 CFTC print as the input — cover-scenario kills 0.5pp gross EV → frame goes negative
 
 ### Sensitivity (what breaks the frame)
 
 | Stress | EV impact | Frame survives? |
 |---|---|---|
-| Sat Jun 20 CFTC covers to <60% peak (residual OFF) | -0.50% gross | NO — net EV ≈ -0.2 to -0.5% |
+| Mon Jun 22 CFTC covers to <60% peak (residual OFF) | -0.50% gross | NO — net EV ≈ -0.2 to -0.5% |
 | Risk-off route P(60d) drops to 5% (cross-pair channel stays decoupled) | -0.35% gross | Marginal — net EV ≈ -0.1 to +0.0% |
 | Modal bleed drift assumption widens to -3% (Warsh-hawkish + cross-pair USD-haven persists) | -0.55% cost | NO — net EV ≈ -0.5 to -0.3% |
 | BOJ + MOF + Fed routes all P → 0 (all near-term hawkish-of-pricing exhausted) | -0.77% gross | NO — net EV ≈ -1.0% (frame retired; trim/close) |
@@ -121,7 +121,7 @@ At $798 position size: **≈ +$0 to +$2.50 over 60d.** Roughly break-even.
 - **#1c:** modal bleed at -2% assumes USDJPY drifts to ~163. What if Warsh-Fed-hawkish + MOF-paralyzed + Iran-deal-bid extends drift to 165-167 (testing the $55.05 stop)? Re-run cost side.
 - **#1d:** trigger-eligibility window — 60d is arbitrary. If frame requires 90d to pay (CFTC peak held for 3mo before firing), gross EV scales up but bleed scales up more. Test 90d.
 
-### Pre-registration for Sat Jun 20
+### Pre-registration for Mon Jun 22
 
 **If CFTC Jun-16 data covers below -120K (~67% of peak):** residual term OFF, gross EV drops to ~+1.7% (from +2.21%), net EV drops to roughly -0.3% to 0.0% → **frame fails margin test; v1.6 finalize triggers trim/close discussion.**
 **If positioning holds at -140K to -150K (~78-83% of peak):** residual term ON, table stands → **frame survives margin test; v1.6 finalize keeps hold/vehicle question open.**
@@ -183,7 +183,7 @@ Re-derive each v1.5.1 pillar against the Jun 16-17 outcome. Mark ALIVE / WEAKENE
 | CFTC at 63.7% of cycle peak (May 26) | UPDATED → **81.0%** (Jun 9 data, rel Jun 12) | 6 consecutive build weeks; 7,182 short of -153K/85% escalation |
 | Amplifier +5pp ON, residual ON | ALIVE | METHOD residual gate triggered through; no cover (-108K untouched) |
 | Positioning doesn't trigger unwind — amplifies one when fires | ALIVE | Mechanism intact |
-| The fuel load growing INTO a hawkening market is the asymmetric setup | **AMPLIFIED in v1.6 — promoted to load-bearing center (CONDITIONAL on Sat Jun 20)** | Fuel was loaded INTO the catalyst (Jun 9 release Jun 12: -145,818, 81% of peak, 6 build weeks). **Whether it stays loaded post-Jun-16 is unresolved until Sat Jun 20 print (Jun 16 data).** If post-catalyst positioning holds 80%+ with no cover, that's the strongest single confirmation of the convexity-tail frame. If it covers (e.g., -125K → ~70%), the frame WEAKENS. The boot.py Thu "shorts growing" indication reads the Jun 9 tsv — it is NOT a post-catalyst signal. |
+| The fuel load growing INTO a hawkening market is the asymmetric setup | **AMPLIFIED in v1.6 — promoted to load-bearing center (CONDITIONAL on Mon Jun 22)** | Fuel was loaded INTO the catalyst (Jun 9 release Jun 12: -145,818, 81% of peak, 6 build weeks). **Whether it stays loaded post-Jun-16 is unresolved until Mon Jun 22 print (Jun 16 data).** If post-catalyst positioning holds 80%+ with no cover, that's the strongest single confirmation of the convexity-tail frame. If it covers (e.g., -125K → ~70%), the frame WEAKENS. The boot.py Thu "shorts growing" indication reads the Jun 9 tsv — it is NOT a post-catalyst signal. |
 
 **Recommendation for v1.6:** Pillar 4 is the v1.6 thesis center, not a Pillar. Promote to its own section "POSITIONING-CONVEXITY THESIS" with the explicit threshold (cover below -108K invalidates) and the trigger-vs-cover race as the dominant dynamic.
 
@@ -234,11 +234,11 @@ USDJPY at 161+ for 48h+ post-FOMC with NO MOF strike, Bloomberg Wed "Markets Ale
 
 The single most-load-bearing observable for v1.6 — and the strongest empirical confirmation of the convexity-tail frame OR its falsification, depending on what happens post-catalyst.
 
-**Current state (Jun 9 data, rel Jun 12 — PRE-catalyst):** -145,818 / 81.0% of -180K cycle peak / 6 consecutive build weeks. **No cover INTO catalyst.** **Post-catalyst cover state is UNRESOLVED until Sat Jun 20 print (Jun 16 data).** The boot.py Thu "shorts growing" reads the same Jun-9 tsv — it is NOT a post-catalyst observation. This timing-discipline matters: the v1.6 convexity frame depends on positioning remaining loaded *through* the catalyst, which is what Sat tests.
+**Current state (Jun 9 data, rel Jun 12 — PRE-catalyst):** -145,818 / 81.0% of -180K cycle peak / 6 consecutive build weeks. **No cover INTO catalyst.** **Post-catalyst cover state is UNRESOLVED until Mon Jun 22 print (Jun 16 data).** The boot.py Thu "shorts growing" reads the same Jun-9 tsv — it is NOT a post-catalyst observation. This timing-discipline matters: the v1.6 convexity frame depends on positioning remaining loaded *through* the catalyst, which is what Sat tests.
 
-**Next observable:** Sat Jun 20 release (Jun 16 data). **This is the v1.6 decision-grade observable.**
+**Next observable:** Mon Jun 22 release (Jun 16 data). **This is the v1.6 decision-grade observable.**
 
-| Sat Jun 20 print scenario | v1.6 implication |
+| Mon Jun 22 print scenario | v1.6 implication |
 |---|---|
 | Cover (e.g., -125K, drops to ~70% of peak) | Convexity-tail frame WEAKENED — positioning unwinding without a trigger contradicts the "fuel loaded into a regime, waiting for any trigger" narrative |
 | Sideways (-145K range) | Frame stays — fuel held through catalyst, awaiting trigger |
@@ -332,7 +332,7 @@ All five are sized decisions; v1.6 backbone defers them all.
 4. **Vehicle decision** — RED #4 challenge (now a GATE): does the v1.6 frame favor (a) FXY-spot status quo, (b) FXY-vol overlay [after expiry-roll proxy sanity-check], (c) USDJPY-put / JPY-call structure (long-yen direction), (d) trim/close? **Gate: (b) and (c) only on the table if RED #1, #2, #3 all survive — otherwise the answer is (a) or (d).**
 5. **Channel 1 disposition** — RED #6 challenge: DEFERRED vs RETIRE PENDING NEW MECHANISM; LIQUID input pending.
 6. **MOF #3 30d single-leg probability re-rate** — re-derive ~15-20% after RED pass.
-7. **CFTC Sat Jun 20 print scenario disposition** — pre-register cover/sideways/build dispositions before reading the print.
+7. **CFTC Mon Jun 22 print scenario disposition** — pre-register cover/sideways/build dispositions before reading the print.
 8. **Fri Jun 19 National CPI integration** — soft print → BOJ Oct hike repricing softens, Pillar 1 narrower path; hot print → BOJ Oct strengthens, slight Pillar 1 directional re-firing; mixed → minimal v1.6 impact.
 
 ---
@@ -357,7 +357,7 @@ All five are sized decisions; v1.6 backbone defers them all.
 
 1. **Tonight after Fri CPI prints** — integrate CPI; address open question #8
 2. **RED challenges (6 marked spots)** — spawn RED with this file + the 6 numbered challenges; resolve before finalize
-3. **Sat Jun 20 CFTC print** — pre-register disposition before reading; use as v1.6 conviction-gauge
+3. **Mon Jun 22 CFTC print** — pre-register disposition before reading; use as v1.6 conviction-gauge
 4. **Will-decision items** — 5 sizing decisions (post-RED, post-CFTC); confirm vehicle question is open before drafting vehicle-decision options
 5. **v1.6 finalize commit** — rename DRAFT → canonical; archive v1.5.1; PROME ping; LIQUID/HENRY update SIGs; eval re-baseline
 
