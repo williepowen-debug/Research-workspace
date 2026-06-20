@@ -9,6 +9,18 @@
 
 ---
 
+## ⚖️ Scenario Posture — marks held LOOSELY (see-saw discipline, Will Jun 20)
+
+**Every weight here is a point-estimate on a fast-see-sawing conflict — discount single-day headlines BOTH ways.** This war's base rate (HAW-06 anchor) is *oscillation*: armed pauses via ally-request deferrals, not clean breaks — and not clean collapses either. A swing back toward "peace" in a day or two (ceasefire re-renewed, Hormuz "reopened") is well within the base rate and would **not by itself** collapse D; the armed-pause attractor (C) persists through both escalation and de-escalation headlines.
+- **Declaratory ≠ physical.** Iran's Hormuz "closures" (Mar 2 / Apr 18 / Jun 11 / Jun 20) are re-assertions over an already-~closed strait; a "reopening" announcement is equally unverified. Move on *behavior*, not the declaration.
+- **Rhetoric ≠ resolution.** "Deal close" / "first step" language is tape, not probability (`[[feedback_trump_rhetoric_tape_not_info]]`).
+- **Mechanism ≠ threshold.** Separate "mechanism engaged" from "registered threshold fired" (`[[finding_threshold_vs_mechanism]]`); don't whipsaw weights on a mechanism short of its threshold (e.g. Hormuz closure ≠ HAW-14's direct-kinetic line).
+- **The tape is the tie-breaker.** Decoupling thesis = the market adjudicates; the **Mon Jun 22 Brent open will say more than any weekend headline.** Until a behavioral confirm (price / verified throughput / sustained quiet), hold the marks.
+
+**Net: wide error bars, symmetric skepticism, slow hands on the weights. Expect reversals; don't chase them.** The Jun-20-AM→PM whipsaw (D 20→17→22 in hours) is itself the cautionary case.
+
+---
+
 ## Executive Read — Jun 18
 
 **The deal signed, but it is the *announcement* leg that resolved — not the *verification* leg.** On **Jun 17** Trump and Pezeshkian electronically signed the **Islamabad Memorandum of Understanding**: 60-day ceasefire extension, Iran to **gradually** reopen Hormuz (managed jointly with Oman, **with fees for services** — the toll-free pledge is dead), US lifts the port blockade + moves to waive some sanctions + Iranian fuel export waivers, Iran **dilutes** its enriched-uranium stockpile in-place (won't ship abroad), **missiles non-negotiable**, and it is **explicitly NOT a final settlement** — a 60-day window to negotiate the real terms. No Geneva ceremony (electronic signing).
