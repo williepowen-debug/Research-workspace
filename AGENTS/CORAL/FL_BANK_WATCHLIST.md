@@ -1,6 +1,6 @@
 # CORAL — FL-Concentrated Bank Watchlist
 
-**Pillar 6 owner doc.** FL-headquartered or FL-concentrated banks, with Q1 2026 credit signals. CORAL produces FL bank-level reads here; REGINALD integrates the cross-bank/convergence view. Prices in STATUS.md (don't duplicate). Last refreshed: 2026-06-19 (Q1 2026 earnings).
+**Pillar 6 owner doc.** FL-headquartered or FL-concentrated banks, with Q1 2026 credit signals. CORAL produces FL bank-level reads here; REGINALD integrates the cross-bank/convergence view. Prices in STATUS.md (don't duplicate). Last refreshed: 2026-06-19 (Q1 2026 earnings; WALTER SIG-008 AMTB/bankruptcy packet integrated 2026-06-20).
 
 **Headline:** No FL bank is breaking on credit in Q1 2026. CRE classified is showing up as rate-shock reclassification with high collateral cushions, not realized loss. The two genuinely elevated names (AMTB, BAFN) are idiosyncratic, not condo-driven. The most *condo-wired* bank (USCB) is pristine now but structurally the canary.
 
@@ -10,7 +10,7 @@
 
 | Rank | Bank | Ticker | HQ | Assets | FL/CRE concentration | Q1 2026 credit signal | Call |
 |------|------|--------|-----|--------|----------------------|-----------------------|------|
-| 🟠 ELEVATED | **Amerant** | AMTB | Coral Gables | $9.9B | 19 FL branches (18 S.FL); CRE→held-for-sale transfers; $300M shelf | NPL **2.6%** ($176.1M, +69% in 18mo); **ACL covers only 46% of NPLs** (the gap); loans shrinking $7.2B→$6.6B; provision *falling* ($18.4M→$7.8M) while NPLs rise | Coverage gap on rising NPLs; no out-of-state buffer. Watch ACL build + CRE HFS marks. |
+| 🟠 ELEVATED | **Amerant** | AMTB | Coral Gables | $9.9B | 21 of 23 banking centers in South Florida; CRE→held-for-sale transfers; $300M shelf | Classified **−9.7% to $320.3M** (curing), but **NPA $191.6M / NPL $176.1M / special mention $148.2M all ↑**; NPL **2.6%**; **ACL covers only 46% of NPLs**; provision $7.8M | Purest S-FL bank barometer; mixed cure-vs-migration signal. Watch ACL build, NPL roll-forward, and CRE HFS marks at Q2. |
 | 🟠 ELEVATED | **BayFirst** | BAFN | St. Petersburg | $1.2B | FL-only; CRE ~27% ($216.6M) + constr $36.7M | **Net loss −$5.7M**; NPL 2.44%; NCO 1.98% ann.; **$80M dilutive PIPE** ($3.50/sh); new CEO; SBA "Bolt/Flashcap" runoff | Idiosyncratic (SBA small-biz, not RE). Small, dilution overhang. |
 | 🟡 WATCH | **USCB Financial** | USCB | Miami | $2.8B | **CRE 370% of RBC**; constr 31% RBC; **$126M condo-assoc loans, 470+ associations, targeting 13,000 tri-county** | NPL **0.16%**, **zero NCOs**, classified 0.3%, ACL 1.16% — "exceptional" | **The most condo-wired bank — the direct condo-crisis→bank canary.** Clean now; concentration is the tail risk. |
 | 🟡 WATCH | **Valley National** | VLY | Passaic NJ (large FL) | $64.5B | CRE **329% of RBC** (↓ from 333%, target <300); MF 2.6%; FL among 8-state footprint | NPL 0.85% (trended $296M→$360M→$434M); NCO $17.5M (CRE charge-offs $13.8M); criticized $4.1B/8.1% (↑ on C&I, mgmt expects decline); ACL 1.18% | NPL drift + CRE charge-offs the watch; mgmt guides improvement. FL "clients confident." |
@@ -28,6 +28,6 @@
 ## Cross-references
 - → REGINALD: FL bank-level reads feed the convergence matrix; SSB/VLY also on REGINALD's national watchlist.
 - Condo-crisis (pillar 1/3) → **USCB** is the cleanest direct wire (condo-association lending). If assessments/association loans sour, USCB cracks first.
-- Insurance easing (pillar 5) is a *tailwind* for FL bank collateral (lower carrying cost on insured properties).
+- Insurance is now a *split* bank read: personal/reinsurance easing helps collateral, but commercial/condo-association lines still rising (Citizens Commercial Lines +10.4% capped / +18.8% uncapped) and remain an association cash-flow amplifier.
 
 *Detail + sources → `research/SWEEP_2026-06-19.md` (Pillar 6) and `research/REFRESH_2026-06-19.md` (core four).*

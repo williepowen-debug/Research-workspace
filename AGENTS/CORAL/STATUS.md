@@ -1,8 +1,8 @@
 # CORAL — Florida Real Estate Stress Monitor
 ## Comprehensive Florida Agent | 10 pillars (real estate · insurance · banks · migration · tourism · fiscal · labor · climate)
 
-**Last Updated:** 2026-06-19 ET (comprehensive-scope build-out + full 10-pillar research sweep. Pillar map → `COVERAGE.md`; sweep detail → `research/SWEEP_2026-06-19.md`; banks → `FL_BANK_WATCHLIST.md`)
-**Signal Status:** 🟠 ELEVATED — **slow broad demand-normalization, not an acute crash; THESIS SPLIT holds.** Retail/condo + single-family distress REAL (FL #1 foreclosure; condo −6.1% YoY/92% of mkts; SW-FL SF correction; the demand engine — migration AND Canadian snowbirds — failing on both fronts). BUT two counter-currents keep it 🟠 not 🔴: (1) **insurance channel EASING** (Citizens 294K + rate cuts, reinsurance −15-20%); (2) **bank transmission NOT in Q1 2026 prints** + CRE distress is condo/residential-specific (Miami office tightest in US). Acute bank stress pushed to ~winter 2026-27 (converges with MARCO). **Biggest forward variable: Nov-3-2026 property-tax amendment** (two-sided).
+**Last Updated:** 2026-06-20 ET (WALTER inbox integration: negative-equity-by-vintage, bankruptcy filings, commercial/condo insurance split. Pillar map → `COVERAGE.md`; sweep detail → `research/SWEEP_2026-06-19.md`; banks → `FL_BANK_WATCHLIST.md`)
+**Signal Status:** 🟠 ELEVATED — **slow broad demand-normalization, not an acute crash; THESIS SPLIT holds.** Retail/condo + single-family distress REAL (FL #1 foreclosure; condo −6.1% YoY/92% of mkts; SW-FL SF correction; ~18-20% of 2024-vintage financed buyers underwater; bankruptcy filings accelerating; demand engine — migration AND Canadian snowbirds — failing on both fronts). BUT two counter-currents keep it 🟠 not 🔴: (1) **insurance is SPLIT** — personal/reinsurance easing, but commercial/condo-association layer still rising; (2) **bank transmission NOT in Q1 2026 prints** + CRE distress is condo/residential-specific (Miami office tightest in US). Acute bank stress pushed to ~winter 2026-27 (converges with MARCO). **Biggest forward variable: Nov-3-2026 property-tax amendment** (two-sided).
 
 ---
 
@@ -13,7 +13,7 @@ The Mar-3 "🔴 RED, cascade extending, short SSB" framing is **superseded.** Fi
 1. **🔴 FL foreclosures #1 in the nation (ATTOM, May 2026)** — 1 in 2,110 housing units; foreclosure starts 2nd-highest nationally; **Q1 2026 REOs doubled YoY (487 → 1,014).** Worst metros: Lakeland, Punta Gorda, Cape Coral, Tampa, Orlando. *This is the live, durable CORAL signal — and it is accelerating.*
 2. **🟠 Condo retail distress intensifying but ORDERLY** — statewide condo price −6.1% YoY, **92% of FL condo markets declining**; SE FL vintage (30+ yr) condo pending prices **−7-9% in 8 weeks** (Apr 28 → Jun 16); 43% of condo sellers cutting price; reserve-funding mandate live **Jan 1 2026** → special assessments **$25K–$100K/unit** (up to $400K in NE Miami-Dade high-rises), ~40% of owners facing one within 3 yrs. Fannie/Freddie blacklist **1,400+ associations** (~696 tri-county). *Biscayne 21* termination fight is the live test of the receivership/termination path.
 3. **🟢→🟠 Bank leg NOT confirming (Q1 2026, reported late Apr)** — SSB, SBCF, BKU, VLY all printed **low NCOs (9-14 bps), stable/improving credit.** SSB: classified CRE explicitly attributed to **rate-shock reclass (56% wtd-avg LTV, 98% current), "little to no loss content"** — and management flagged lower-income consumer + SBA floating-rate, **NOT FL condo/CRE,** as the watchlist. *The bank-loss-crystallization leg has not arrived.*
-4. **🟢 Insurance channel EASING** — 6/1/2026 FL property-cat reinsurance **down 15-20% risk-adjusted** (Guy Carpenter); Citizens depopulation continued (~395K early 2026, down from 1.4M 2023 peak). 2026 hurricane forecast ~average (CSU 14/7/3; NOAA leans below-avg). The acute insurance amplifier softened, not hardened.
+4. **🟢/🟠 Insurance channel SPLIT** — 6/1/2026 FL property-cat reinsurance **down 15-20% risk-adjusted** (Guy Carpenter) and personal Citizens rates cut; **but Citizens Commercial Lines +10.4% capped on +18.8% actuarial indication** (packet delivered 6/19 from Citizens filing), so the condo-association/master-policy layer remains a live cost amplifier. 2026 hurricane forecast ~average (CSU 14/7/3; NOAA leans below-avg).
 5. **❌ SSB SHORT THESIS BROKEN** — SSB closed Q1 at ~$93 (PT $115, Buy reaffirmed 6/10, $0.60 div declared); credit stable. **The 2x SSB $90P Jun 18 expired worthless.** Position closed; thesis retired on Q1 evidence.
 
 **Net:** Florida is repricing exactly as the "Coral Bleaching" mechanism predicted — at the *household/condo* level. But the banks are absorbing it so far; the loss has not transmitted to balance sheets in Q1. Honest call: durable mechanism, delayed transmission. Re-test at Q2 2026 earnings (~late Jul) and the winter-2026-27 snowbird-$ / assessment-default window (converges with MARCO's FL read).
@@ -50,7 +50,10 @@ Reserve funding mandate live (Jan 1 2026)
 | Fannie/Freddie condo blacklist | **1,400+ associations** (~696 tri-county) | Real Estate News, Mar 2025 [STALE-ish] | 🟠 |
 | Termination / receivership test | *Biscayne 21* active litigation (183/192 units developer-owned) | Real Deal / Bisnow, 2026 | 🟡 watch |
 | FL property-cat reinsurance (6/1/26) | **−15-20% risk-adjusted** across many layers | Guy Carpenter, Jun 2026 | 🟢 EASING |
-| Citizens policy count | **294,253 (May 15 2026, −64% YoY)** — peak 1.42M Oct 2023; record 585K depopulated in 2025; **filed 8.8% rate CUT eff 6/1/26** | Insurance Business / WUSF 2026 | 🟢 EASING |
+| Citizens personal lines | **294,253 policies (May 15 2026, −64% YoY)**; personal rate cut approved ~8.7-8.8% eff 6/1/26 | Insurance Business / WUSF 2026 | 🟢 EASING |
+| Citizens commercial / condo-assoc layer | **Commercial Lines +10.4% capped vs +18.8% uncapped indication**; commercial multi-peril +9.6% capped / +21.3% uncapped, wind-only +10.9% / +17.2% | Citizens 2026 filing via WALTER SIG-008, delivered Jun 19 2026 | 🟠 COST AMPLIFIER |
+| Recent-vintage negative equity | **~18-20% of 2024-vintage financed FL buyers underwater**; 84%+ of underwater loans originated in last ~3.5 yrs; Cape Coral #1 nationally (7.8%→10.1%) | Parcl/Lewris + Cotality corroboration via WALTER SIG-002, Jun 19 2026 | 🟠 UPSTREAM COLLATERAL |
+| Bankruptcy filings | **M.D. Fla #2 / S.D. Fla #6 by volume** (12mo ended 3/31/26), true but population-weighted; FL ~190/100k vs national ~168-173; **+22.2% YoY acceleration**, consumer-led | AOUSC F-2 packet via WALTER SIG-008, Jun 19 2026 | 🟠 CONSUMER CANARY |
 | 2026 hurricane forecast | CSU **14 named / 7 hurr / 3 major** (~avg); NOAA leans below-avg; quiet so far | CSU Apr 2026 / NOAA | 🟡 |
 | Sargassum (SE FL Atlantic) — *2nd-order overlay* | **Record-tier 2026 belt ~28.9M MT** (May, climbing); NOAA SIR SE FL **"high"**; heavy beaching Miami-Dade/Broward/PB/Keys (Gulf spared). $2.7B/yr *modeled* FL east-coast impact; ~1-in-10 visitor cancel. Reinforces condo-demand leg; NOT an insurance peril, NOT yet a bank signal. → MARCO owns tourism-$ side. | Will briefing 2026-06-18 (USF/NOAA/Jin 2025) | 🟠 watch |
 
@@ -69,7 +72,7 @@ The dashboard above is pillars 1/3/5/10 (condo, insurance, climate). The rest of
 | **Labor (econ)** | Unemployment **4.8%, now above US**, 7 straight rises; 7/10 sectors negative YoY; construction in ICE labor squeeze (immigrants 37.9% of FL constr.); permits −6.1% (Lennar −53%). | 🟠 |
 | **State fiscal (9)** | **🔴 Property-tax amendment on Nov-3-2026 ballot** (homestead $50K→$250K; −$8.4B local rev, no backfill); budget deficits FY28-29 −$8.1B; condo HB913 relief valves (loans/2yr pause) soften the assessment cascade. | 🟠 |
 
-**Convergence flags:** (a) SW-FL Gulf Coast = snowbird loss + SF correction + migration drop stacking on the *same* metros; (b) household cost-stack (insurance + assessment + HOA) is both the out-migration *driver* and what the property-tax vote would *partially relieve*; (c) **USCB** is the cleanest condo→bank wire (direct condo-association lender). Per-metro convergence grid = next build.
+**Convergence flags:** (a) SW-FL Gulf Coast = snowbird loss + SF correction + migration drop + recent-vintage negative equity stacking on the *same* metros; (b) household cost-stack (commercial/condo insurance + assessment + HOA + property tax) is both the out-migration *driver* and what the property-tax vote would *partially relieve*; (c) **USCB** is the cleanest condo→bank wire (direct condo-association lender). Per-metro convergence grid = next build.
 
 ---
 
@@ -93,8 +96,8 @@ The dashboard above is pillars 1/3/5/10 (condo, insurance, climate). The rest of
 
 1. **Q2 2026 FL bank earnings (~late Jul)** — does the classified-CRE "rate-shock reclass" start migrating to nonaccrual/charge-off, or keep curing? This is the bank-leg re-test. Watch SSB classified trend + SBCF's 2 commercial credits.
 2. **Reconcile owner of the condo-inventory metric with MARCO** — both agents now carry 8.9mo/Miami-Dade 12.9mo (identical, good). Establish MARCO as the live owner; CORAL references. (Boundary handshake — see CLAUDE.md.)
-3. ✅ **Citizens RESOLVED** — 294,253 policies (May 15 2026, −64% YoY); 8.8% rate cut eff 6/1/26; depopulation ceiling now mechanically low (~294K left). Channel is easing, not stressing. Monitor only for a hurricane-driven reversal.
-4. **2026 condo legislation** — did the 2026 session amend/delay the SIRS reserve mandate? NOT FOUND this pull; resolve. Material to whether the assessment wave accelerates or gets relief.
+3. ✅ **Insurance tension RESOLVED** — personal/reinsurance channel is easing (Citizens 294,253 policies; personal rate cut; reinsurance −15-20%), but condo/commercial layer is still rising (Citizens Commercial Lines +10.4% capped / +18.8% uncapped). Monitor hurricane reversal + condo master-policy stress.
+4. **Bankruptcy tripwire** — track Ch.7 per-capita in M.D./S.D. Fla; >~230/100k would move the bankruptcy channel from canary to broader consumer stress.
 5. **Receivership/termination count** — # of FL buildings in active termination beyond Biscayne 21 = NOT FOUND; track as the cleanest "household stress → distressed-asset" tell.
 6. **Hurricane season** — any FL landfall flips the insurance channel back to 🔴. Monitor through Nov 30.
 
