@@ -303,9 +303,11 @@ Added v0.19 (Will sign-off 2026-06-19). Phase 2.8 *raises* the flag; this closes
 - **S3 — ages / falsifies on a different clock:** you want to lifecycle-tag it (SUPERSEDED / FALSIFIED / EVENT-PASSED) independently of the parent.
 - **S4 — standalone discovery unit:** a finding someone would grep BOARD for on its own, in a different primary cluster.
 
+**Precedence note (S4 vs the wrapper-delta):** a finding *elevated as THE wrapper-delta* — the one finding that moves a thesis, surfaced prominently in the parent verdict + its own per-recipient block — already satisfies the discovery need, so **S4 does not independently force a split for it.** Split on S4 only when the finding is a genuinely separate discovery unit you'd grep for independently AND it is *not* already the parent's headline. A finding that merely sits in a different `cluster_secondary` is **not** automatically S4 — the parent's `cluster_secondary` tag + delta wrapper already cover cross-cluster discovery.
+
 If a finding passes, dispatch it as a **child signal that cross-refs the parent** (`deep_research_ref: <parent SIG-ID>`); the parent stays the archive/SoT. **Default remains one signal + delta wrapper — splitting is the exception, paid only when the test is met.** Asymmetry: over-splitting = recipient noise (one owner gets N handoffs for one doc) + scattered archive + messy ledger; under-splitting = a trigger-linked or differently-aging finding buried where it won't get tracked. So one-by-default, split-on-test.
 
-**Worked example — SIG-W-20260619-008 (S-FL distress deep-research, the first instance):** routed as ONE signal → CORAL action / REGINALD,CARL,SHADE,MARCO,RED info, packet embedded verbatim + 6 per-recipient delta handoffs; closed the SIG-007 ledger row. Split test applied finding-by-finding — bankruptcy/per-capita, bank-transmission, consumer/energy-CPI, business-bankruptcy, macro-overlay all FAILED (same owner CORAL/REGINALD, interdependent legs of one 70/30 verdict, no trigger linkage, same ~Q2/Q3 clock) → kept unified. The **insurance commercial/condo finding** was the one borderline candidate (distinct INSURANCE cluster, SHADE-relevant, the only thesis-correcting item) but FAILED S1 (still CORAL-action — it's CORAL's mechanism) and S2 (no registered trigger) → kept in, but **elevated as THE load-bearing delta in the wrapper + cc'd SHADE** rather than fragmenting. Net: one signal was correct.
+**Worked example — SIG-W-20260619-008 (S-FL distress deep-research, the first instance):** routed as ONE signal → CORAL action / REGINALD,CARL,SHADE,MARCO,RED info, packet embedded verbatim + 6 per-recipient delta handoffs; closed the SIG-007 ledger row. Split test applied finding-by-finding — bankruptcy/per-capita, bank-transmission, consumer/energy-CPI, business-bankruptcy, macro-overlay all FAILED (same owner CORAL/REGINALD, interdependent legs of one 70/30 verdict, no trigger linkage, same ~Q2/Q3 clock) → kept unified. The **insurance commercial/condo finding** was the one borderline candidate (distinct INSURANCE cluster, SHADE-relevant, the only thesis-correcting item) but FAILED all four — S1 (still CORAL-action — it's CORAL's mechanism), S2 (no registered trigger), S3 (same ~Q2/Q3 clock as the rest), S4 (per the precedence note: it was **elevated as THE wrapper-delta + cc'd SHADE**, so the distinct INSURANCE `cluster_secondary` alone doesn't force a split) → kept in rather than fragmenting. Net: one signal was correct.
 
 ---
 
@@ -383,7 +385,7 @@ Full signal: /BOARD/SIG-W-YYYYMMDD-NNN.md
 
 ## PHASE 3.5: DELIVERY (write recipient handoffs)
 
-Added v0.14 per "WALTER Routing v2" packet (Will + PROME + ORC, 2026-06-17). Canonical spec: `design/BOARD_CONSUMPTION_SPEC.md` v0.2 §3–§4. Runs AFTER the BOARD signal file + INDEX row + `route_log` append, for every dispatch (all precedence levels). **"In BOARD" ≠ "received"** — this step makes delivery real.
+Added v0.14 per "WALTER Routing v2" packet (Will + PROME + ORC, 2026-06-17). Canonical spec: `design/BOARD_CONSUMPTION_SPEC.md` v0.5 §3–§4. Runs AFTER the BOARD signal file + INDEX row + `route_log` append, for every dispatch (all precedence levels). **"In BOARD" ≠ "received"** — this step makes delivery real.
 
 ```
 For each recipient on the routing line (action + each info):
