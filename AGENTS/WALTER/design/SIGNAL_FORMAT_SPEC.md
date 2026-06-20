@@ -1,4 +1,6 @@
-# WALTER Signal Format Specification v0.10
+# WALTER Signal Format Specification v0.11
+
+**v0.11 (2026-06-19):** Added `research-output` to the Signal Types enum (inline enum-add, small-change rule) — the routed deliverable of a WALTER-commissioned Phase-2.8 deep-research run. Distinct from `research` (generic inbound new data/reports): `research-output` is the closed-loop output of a `DEEP_RESEARCH_FLAGGED_LOG` flag, handled per CHECKLIST Phase 2.8b (one-signal default + per-recipient delta wrapper; VERIFIED-PRIMARY, no verify-spawn; routed by the deliverable's domain owner, not type-driven). First use: SIG-W-20260619-008. Per Will-ratified Phase 2.8b 2026-06-19.
 
 **v0.10 (2026-06-10):** Added signal lifecycle fields `status` + `status_ref` (optional, retro-applied two-field schema; per BOARD-audit Orch adjudication + Will sign-off 2026-06-10). See "Signal Lifecycle" section. Also records the v0.9 inline enum-add `narrative_channel: houthi` (2026-06-10, small-change rule) in version history per FOLLOW-UP #40.
 
@@ -141,6 +143,7 @@ After adjustments, snap the language tier to the resulting numerical band.
 | `catalyst` | A known upcoming event occurred or was confirmed | IMMEDIATE |
 | `divergence` | Expected correlation broke or reversed | IMMEDIATE |
 | `research` | New research, analysis, or report relevant to thesis | PRIORITY |
+| `research-output` | The routed deliverable of a WALTER-commissioned Phase-2.8 deep-research run — a primary-sourced synthesis closing a `DEEP_RESEARCH_FLAGGED_LOG` flag. Handled per CHECKLIST Phase 2.8b: one-signal default (packet embedded verbatim + per-recipient genuine-delta wrapper), `verify_verdict: VERIFIED-PRIMARY` (no verify-spawn), routed by the deliverable's domain owner. Distinct from `research` (generic inbound new data/reports) — this is the closed-loop output of a deep-research flag, not raw inbound. | PRIORITY |
 | `thesis-frame` | Analytical synthesis, institutional framework, or comparative analysis that reframes an existing thesis axis (e.g., MS 1990-vs-2026 oil-shock compare, BRK-vs-SPY quality-flight read, multi-channel convergence analysis). Distinct from `research` (new data/reports) and `pattern-match` (data pattern detection) — this is interpretation/synthesis. | PRIORITY |
 | `position-risk` | Information directly affecting an open position | FLASH or IMMEDIATE |
 | `context` | Background information, no immediate action | ROUTINE |
