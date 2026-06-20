@@ -2,8 +2,8 @@
 
 **Status:** 🟠 ELEVATED — FL household/condo stress real; bank-loss transmission not yet in Q1 prints
 **Domain:** Whole-Florida stress surface — condo/SF/CRE real estate, insurance, FL banks, migration/tourism, state fiscal/property-tax, labor/construction, coastal/climate
-**Thesis version:** Coral Bleaching v1.0 / thesis-split refresh (2026-06-19)
-**As of:** 2026-06-20 12:00 ET | STATUS commit: 2d1a5644
+**Thesis version:** Coral Bleaching v1.0 — installed rails at `thesis/THESIS.md`; changelog `thesis/CHANGELOG.md`
+**As of:** 2026-06-20 14:00 ET | STATUS commit: thesis-rails install pending
 
 ---
 
