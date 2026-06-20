@@ -67,7 +67,7 @@ Unanimous 12-0 hold at 3.50–3.75%; **hawkish pivot**: dot median +40bp (3.4→
 | CDX-cash basis | 1 | 🟢 | Proxy (`monitors/cdx_proxy.py`) no divergence at cash. | Proxy z20 < −1.5 while HY tight, OR VIOLET reports skew steepening. |
 | Credit-equity lead | 1 | 🟢 | HY tight, VIX 16.8 — setup inactive. | HY OAS +75–100bp from trough while VIX <20. |
 
-**Composite: 11/35** (flat vs 6/15). The live gate was a net wash on the composite: a hawkish FOMC + strong 20Y + declaratory-Iran cancelled out. The narrative shift: **risk migrated to the front-end (Fed-path, HENRY's lane); BOND's long-end stayed anchored.** Dealer-inventory *stock* is the one durable elevated vector (re-pull FR2004 ~6/23). The single BOND-domain metric escalating is **DFII10 real yield (2.23, rising)** — the cleanest re-arm watch.
+**Composite: 11/35** (flat vs 6/15). The live gate was a net wash on the composite: a hawkish FOMC + strong 20Y + declaratory-Iran cancelled out. The narrative shift: **risk migrated to the front-end (Fed-path, HENRY's lane); BOND's long-end stayed anchored.** Dealer-inventory *stock* is the one durable elevated vector (re-pull FR2004 ~6/23). The single BOND-domain metric escalating is **DFII10 real yield (2.23, rising)** — the cleanest re-arm watch. *Structural backdrop (sweep 6/20, KB-053): NY Fed ACM 10Y term premium turned **+0.73% — positive first time since 2023**, and GAO data shows note/bond BTC has secularly declined 3.0x→2.5x — i.e., the 2.3x demand-hole threshold now sits just under the new structural norm, so a 2.3–2.4 print reads "below new-normal," not "fine."*
 
 ---
 
@@ -94,7 +94,8 @@ Unanimous 12-0 hold at 3.50–3.75%; **hawkish pivot**: dot median +40bp (3.4→
 |---|---|---|---|
 | **Mon 6/22** | **Brent open** (post-Hormuz re-closure) | Oil→breakevens test. Brent >$88–90 (decoupling breaks) → upgrade oil→breakeven channel, flag T5YIFR. BRENT calls it "the cleanest decoupling test yet." | BRENT/HAWK |
 | **~6/23** | **FR2004 dealer positions** (weekly) | Re-pull due — long-end inventory off the 5/27 record highs = dealer-absorption →2. | LIQUID/ZHAO |
-| **End-June** | **2Y / 5Y / 7Y coupon cluster** | First supply under the hawkish-FOMC regime. Tail/BTC vs norms. | PROME/LIQUID if weak |
+| **6/23–25** | **2Y $69B (6/23) · 5Y $70B (6/24) · 7Y $44B (6/25)** = $183B | **First coupons under the hawkish-FOMC regime** (key BND-10 test). Tail/BTC vs norms; the 5Y/7Y are the live demand reads. **Headwind:** MMF cash at record $7.92T (+$39.7B in FOMC wk) = cash-hoarding out of duration. | PROME/LIQUID if weak |
+| Watch | **Warsh balance-sheet task force / active MBS sales** | Treasury-only-portfolio intent (MBS ~$2T) = forward long-end supply headwind; QT-ended but active sales NOT yet enacted (2H26/2027 risk). Interim findings = DFII10>2.5 upgrade trigger. | HENRY/LIQUID |
 | Daily | **DFII10 toward 2.5** / 10Y >4.6 / 30Y >5.0 | The one rising BOND vector. 5 sessions + weak auction = re-escalate long-end. | HENRY/LIQUID |
 | Watch | Energy HY OAS / CCC bifurcation | Energy HY stale 285 (Apr 28) — needs direct pull; CCC/HY ratio 3.57x widening. | BRENT/LIQUID (pull) |
 | Watch | Treasury buyback long-end accept-cap | Lift = YCC-lite / stealth suppression = direct TLT-puts event. Not current policy. | LIQUID/PROME if lifts |
