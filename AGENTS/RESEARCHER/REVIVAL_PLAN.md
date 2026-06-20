@@ -99,6 +99,26 @@ Reviving RESEARCHER touches files **outside WALTER's normal commit scope** (`AGE
 
 ---
 
-## RELATIONSHIP TO THE SCOUT (separate track)
+## THE SCOUT TRACK (separate build — captured 2026-06-20 so the thinking isn't lost)
 
-The Scout (consolidated feed-collection = SENTRY revived as a Telegram-posting scout, no master commits) is a **separate, parallel build** discussed the same session. RESEARCHER (deep) and Scout (broad) are the two tiers of the research function; both hand off through WALTER. They can be built independently — this plan covers RESEARCHER only. Scout has its own plan when Will greenlights it.
+The Scout = the broad/continuous/cheap feed-collection tier (vs RESEARCHER's deep/on-demand tier). Discussed at length the same session; **not yet built.** Capturing the decisions + diagnosis here so a future session resumes cold.
+
+**Diagnosis of the old (dead) feeds — and why they died:**
+- **SIGNALS / SENTRY** = a GitHub Action (`.github/workflows/feeds.yml`) that fetched RSS/Atom twice daily then `git add→commit→push` **straight to master**. That auto-commit-to-master was the merge-friction Will remembered. **It was deliberately DISABLED 2026-06-02 by Will/Prome** (the workflow file says so) — NOT broken. It only runs on manual `workflow_dispatch` now. → So "SIGNALS 18d stale" is by-design, not a failure to escalate.
+- **news-sweep + filing-watch** = local cron (`cron_sweep.sh`) whose crontab path is `/home/moltbot/.openclaw/workspace/...` → they ran on the **OpenClaw VPS, which has been down since ~mid-May.** Not a config bug; the host is down. (news-sweep itself only writes files + sends a Telegram summary; it doesn't push — the OpenClaw agent loop committed its outputs.)
+- **Correction to WALTER's standing framing:** these are NOT "3 dead crons → escalate to PROME/SENTRY to revive." They're *intentionally-off* (SENTRY) + *VPS-down* (news-sweep/filing-watch). The go-forward is the Scout rebuild below, not an escalation.
+
+**Target Scout architecture (Will-aligned, not yet built):**
+- **"Fetch → Telegram, never git."** A GitHub Action on a cron runs the (dumb, deterministic) fetch scripts and **posts a digest to the WALTER+PROME group** — it never commits to master. The only thing that ever commits is WALTER, through its normal scoped pipeline, after triaging. Kills the merge-conflict class by construction. This is the "Git = shared brain, Telegram = cockpit" model validated 6/17.
+- **No second router.** Scout gathers raw candidates → posts → WALTER triages + routes. WALTER stays the single entry point.
+- **Posting mechanism:** one `curl` to Telegram `sendMessage`; bot token lives in a **GitHub repo Secret** (`${{ secrets.TELEGRAM_BOT_TOKEN }}`), never in the YAML.
+- **Dedicated feeds bot** (NOT WALTER's live-relay token). The old `cron_sweep.sh` already used a separate token (`***REMOVED***:...`) — but it's sitting **in plaintext in git history**, so: rotate it (BotFather) + move to a Secret + add the bot to the group. Visual separation: digests post as a distinct identity, not as WALTER.
+- **Dedup** via GitHub Actions cache, not a repo commit (no seen.json churn).
+- **Cadence:** lean — once daily pre-market (~8am ET), not twice. Keep a `workflow_dispatch` manual trigger for test-fires + on-demand.
+- **Feeds to revive (lean):** news-sweep (15 thesis RSS queries) + filing-watch (EDGAR). Leave SENTRY/SIGNALS dead unless it proves value. Google Alerts fold in as RSS (one mechanism, many sources).
+
+**🆕 Likely consolidation (Will, 2026-06-20):** Will wants RESEARCHER to *hold the data-pull scripts* (Level-2 role above). That suggests the SENTRY-vs-RESEARCHER split collapses: **RESEARCHER becomes the single research home (tooling + deep-research); the Scout is just a cron that runs RESEARCHER's scripts and posts to Telegram.** Confirm this scope when the Scout track starts — it may make "SENTRY" just a workflow name, not a separate agent.
+
+**Ownership note:** the Scout touches `.github/workflows/` + `FORGE/tools/` (shared infra, PROME/SENTRY-owned) — coordinate with PROME or get explicit Will authorization for those specific files; not WALTER's normal commit scope.
+
+RESEARCHER (this plan) and the Scout can be built independently. The Scout gets its own plan/session when Will greenlights it.
