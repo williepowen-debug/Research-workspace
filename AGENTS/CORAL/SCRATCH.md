@@ -1,4 +1,4 @@
-# CORAL SCRATCH — 2026-06-20 (WALTER inbox consumption)
+# CORAL SCRATCH — 2026-06-20 (WALTER inbox + thesis rails install)
 
 **Purpose:** Canonical ephemeral session handoff — where CORAL is, what changed, and what the next session should do. Read at boot; rewrite at closeout. Durable findings live in `MEMORY.md` / workbook; live state lives in `STATUS.md`.
 
@@ -10,6 +10,7 @@
 - Added **recent-vintage negative equity** as the upstream collateral canary: ~18-20% of 2024-vintage financed FL buyers underwater, SW-FL Gulf Coast concentrated.
 - Resolved the **bankruptcy** thread: M.D. Fla #2 / S.D. Fla #6 by volume is true but population-inflated; +22.2% YoY consumer-led acceleration is the real signal.
 - Corrected insurance framing from blanket easing to **split read**: personal/reinsurance easing, but Citizens commercial/condo-association layer still rising (+10.4% capped / +18.8% uncapped).
+- Installed thesis rails v1.0 at `thesis/THESIS.md` + `thesis/CHANGELOG.md`; bank-upgrade rail now requires either synchronized deterioration across ≥2 FL-exposed banks or explicit USCB condo-association loan deterioration with corroboration.
 
 ## WHAT I DID LAST SESSION
 
@@ -18,6 +19,7 @@
 - Added durable facts to `workbook/KB.tsv`; added `VX-CORAL-NEG-EQ-01`, `VX-CORAL-BKCY-01`, and `VX-CORAL-INS-03`; added upstream FLOW pathways.
 - Updated `FL_BANK_WATCHLIST.md` for AMTB as the purest South Florida bank barometer and clarified insurance split for banks.
 - Refreshed `NEXUS_BRIEF.md` cross-domain sends/waits and `MEMORY.md` durable findings.
+- Installed `thesis/THESIS.md` and `thesis/CHANGELOG.md`; updated `CLAUDE.md`, `STATUS.md`, and `NEXUS_BRIEF.md` pointers so thesis rails are durable and live metrics stay in STATUS/workbooks.
 
 ## NEXT SESSION
 

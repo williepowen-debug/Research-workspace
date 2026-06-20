@@ -38,12 +38,13 @@
 | 2026-06-20 | **Recent-vintage negative equity is now a formal upstream CORAL canary.** WALTER SIG-002 delivered Parcl/Lewris+Cotality corroboration: ~18-20% of 2024-vintage financed FL buyers underwater, 84%+ of underwater loans originated in last ~3.5 yrs, concentrated in SW-FL Gulf Coast (Cape Coral/Punta Gorda/Fort Myers/Naples/North Port/Lakeland). This is collateral deterioration upstream of bank P&L, not bank-loss evidence yet. |
 | 2026-06-20 | **Bankruptcy rank resolved: true but population-inflated.** WALTER SIG-008/AOUSC packet confirms M.D. Fla #2 and S.D. Fla #6 by volume (12mo ended 2026-03-31), but FL per-capita filing rate (~190/100k) is only modestly above national (~168-173) and far below bankruptcy-belt states. The real signal is +22.2% YoY, consumer-led acceleration; tripwire = Ch.7/capita >~230/100k. |
 | 2026-06-20 | **Insurance framing corrected to split read.** Personal/reinsurance easing remains true, but Citizens Commercial Lines +10.4% capped vs +18.8% uncapped means the condo-association/master-policy layer is still a live cost amplifier. Never summarize FL insurance as simply “easing” without layer. |
+| 2026-06-20 | **Thesis rails installed at `thesis/THESIS.md` + `thesis/CHANGELOG.md`.** Durable CORAL rule: household/condo stress is confirmed, but bank-loss transmission upgrades only on bank evidence — synchronized deterioration across ≥2 FL-exposed banks or explicit USCB condo-association loan deterioration with corroborating consumer/collateral data. |
 
 ## Session Notes
 
 ⚠️ **Open question:** At Q2 2026 FL bank earnings (~late Jul), does the rate-shock classified CRE (esp. SSB's $2.5B, SBCF's 2 commercial credits) migrate to nonaccrual/charge-off, or cure? That single question decides whether the bank-loss leg ever arrives.
 
-**CHANGES SINCE:** WALTER inbox consumed 2026-06-20; pending WALTER files now 0; legacy REGINALD BayFirst SBA signal remains out of scope.
+**CHANGES SINCE:** WALTER inbox consumed 2026-06-20; thesis rails installed 2026-06-20; pending WALTER files now 0; legacy REGINALD BayFirst SBA signal remains out of scope.
 
 **LAST SESSION (2026-06-19 — promotion + data refresh + comprehensive build-out, 3 phases):**
 - **Phase 1 — Promotion:** CORAL → top-level peer agent (`AGENTS/CORAL/`), git mv + peer infra, parent refs updated.

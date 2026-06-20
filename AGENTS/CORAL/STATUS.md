@@ -1,7 +1,7 @@
 # CORAL — Florida Real Estate Stress Monitor
 ## Comprehensive Florida Agent | 10 pillars (real estate · insurance · banks · migration · tourism · fiscal · labor · climate)
 
-**Last Updated:** 2026-06-20 ET (WALTER inbox integration: negative-equity-by-vintage, bankruptcy filings, commercial/condo insurance split. Pillar map → `COVERAGE.md`; sweep detail → `research/SWEEP_2026-06-19.md`; banks → `FL_BANK_WATCHLIST.md`)
+**Last Updated:** 2026-06-20 ET (WALTER inbox integration + thesis rails installed. Thesis → `thesis/THESIS.md`; changelog → `thesis/CHANGELOG.md`; pillar map → `COVERAGE.md`; sweep detail → `research/SWEEP_2026-06-19.md`; banks → `FL_BANK_WATCHLIST.md`)
 **Signal Status:** 🟠 ELEVATED — **slow broad demand-normalization, not an acute crash; THESIS SPLIT holds.** Retail/condo + single-family distress REAL (FL #1 foreclosure; condo −6.1% YoY/92% of mkts; SW-FL SF correction; ~18-20% of 2024-vintage financed buyers underwater; bankruptcy filings accelerating; demand engine — migration AND Canadian snowbirds — failing on both fronts). BUT two counter-currents keep it 🟠 not 🔴: (1) **insurance is SPLIT** — personal/reinsurance easing, but commercial/condo-association layer still rising; (2) **bank transmission NOT in Q1 2026 prints** + CRE distress is condo/residential-specific (Miami office tightest in US). Acute bank stress pushed to ~winter 2026-27 (converges with MARCO). **Biggest forward variable: Nov-3-2026 property-tax amendment** (two-sided).
 
 ---
@@ -20,18 +20,9 @@ The Mar-3 "🔴 RED, cascade extending, short SSB" framing is **superseded.** Fi
 
 ---
 
-## THE FLORIDA THESIS — "The Coral Bleaching" (mechanism intact)
+## THESIS RAILS — "The Coral Bleaching"
 
-Aging FL condo stock forced into recapitalization by post-Surfside law (SB 4-D → HB 913; reserve waivers eliminated, SIRS by 12/31/25, full reserve funding from 1/1/26):
-
-```
-Reserve funding mandate live (Jan 1 2026)
-  → Special assessments ($25K–$400K/unit) → owner strategic defaults / forced selling
-  → inventory surge + price cuts → association revenue stress
-  → master-loan / HOA default at FL regional banks → receivership / termination
-  → bulk sale at discount → bank loss crystallization   ← NOT YET in Q1 2026 prints
-```
-*Biscayne 21* (FL Supreme Court denied developer review Oct 2025; Jan 2026 judge ordered restoration, developer counter-sued for "economic termination") is the bellwether for the termination-vs-receivership endgame. 80% termination threshold; 5% can block 24 months; pre-Kaufman 100%-consent declarations protected.
+Durable mechanism, confirm/falsify rails, timing gates, and ownership rules now live in `thesis/THESIS.md` (v1.0). Changelog / retired frames live in `thesis/CHANGELOG.md`. STATUS carries current levels only: **household/condo stress confirmed; bank-loss transmission not confirmed until FL bank credit data prove the bridge.**
 
 ---
 

@@ -39,6 +39,8 @@ STALE_LIMITS = {
     "STATUS.md": 48,
     "SCRATCH.md": 72,
     "NEXUS_BRIEF.md": 72,
+    "thesis/THESIS.md": 720,
+    "thesis/CHANGELOG.md": 720,
     "CALENDAR.md": 168,
     "COVERAGE.md": 168,
     "FL_BANK_WATCHLIST.md": 168,
