@@ -1,6 +1,6 @@
-# TODAY.md — Friday June 19, 2026
+# TODAY.md — Saturday June 20, 2026
 
-**Objective:** Close the Jun19 window with Geneva de-escalation recognized, HY kill-line still live, and CORAL Phase 1 now pushed. Market state remains unresolved divergence: HY OAS is **263 [FRED 6/17]**, close to the <260 kill line, but VIX/banks still do not confirm cascade; carry remains red.
+**Objective:** Preserve the Jun20 CORAL closeout cleanly: boot/inbox/thesis hardening is installed and pushed; next CORAL work is analytical follow-through. Market state remains unresolved divergence: HY OAS is **263 [FRED 6/17]**, close to the <260 kill line, but VIX/banks still do not confirm cascade; carry remains red.
 
 **Current regime:** **Geneva de-escalation / unresolved credit-carry divergence.** Immediate Hormuz/oil-shock tail is deferred by U.S.–Iran MOU / reopening framework, not eliminated. Broad credit cascade is not confirmed. HY compression toward <260 remains the most important bear-thesis risk; USD/JPY/FXY carry stress remains live; VIX and banks are still calm enough to prevent a cascade call.
 
@@ -10,10 +10,10 @@
 
 | Item | State | Read |
 |---|---|---|
-| Git | 🟡 local ahead | CORAL Phase 1 pushed; Geneva heartbeat + closeout are local-only unless Will asks to push. |
+| Git | ✅ clean/synced | All Jun20 CORAL/Prome changes committed and pushed to GitHub. |
+| CORAL boot/inbox/thesis | ✅ installed | Boot card, WALTER intake, processed inbox, NEXUS brief, thesis/changelog rails all on origin. |
 | Quick-WALTER | ⏸️ paused for fresh news | Allowed only for pre-registered RED-FT / REG-T / safety-net trigger fires and delivery repair/backfill. |
 | Full WALTER | ✅ signal desk | Fresh screenshots/news/source-confidence/recipient-selection and deep-research flag judgment belong to Full WALTER. |
-| CORAL Phase 1 | ✅ pushed | Mature boot surfaces + WALTER board-log intake landed on origin. |
 | WALTER deep-research flag | ✅ landed / active | WALTER ratified CHECKLIST v0.18 with ledger + `walter_doctor` overdue check. |
 | Position truth | 🟠 unreconciled | No expiry/trade action without broker/Will truth. |
 
@@ -50,9 +50,10 @@
 
 | Date / Window | Gate | Owner(s) | Prome read |
 |---|---|---|---|
-| **Fri/Sat 6/19–20** | Post-Geneva follow-through + HY print availability | WALTER/HAWK/BRENT/LIQUID/VIOLET | MOU/reopening reduces immediate oil shock; follow Strait traffic, compliance language, Hezbollah/Israel noise, Brent/VIX calm. |
+| **Sat/Sun 6/20–21** | Post-Geneva follow-through + HY print availability | WALTER/HAWK/BRENT/LIQUID/VIOLET | MOU/reopening reduces immediate oil shock; follow Strait traffic, compliance language, Hezbollah/Israel noise, Brent/VIX calm. |
 | **Sat 6/20** | CFTC JPY print | SAM/Prome | Key gate for SAM v1.6: cover weakens/ends convexity-tail frame; build strengthens it. |
 | **Next FRED HY update** | HY <260 kill line | LIQUID/NEXUS/Prome | Sustained <260 kills/reprices R3 unless offset by bank/private-credit deterioration. |
+| **Late Jun/Jul** | CORAL per-metro grid + Q2 bank prep | CORAL/Prome | New thesis rails installed; next analytical work is geography convergence and Q2 bank diagnostics. |
 | **Late Jun/Jul** | BCRED/Q2 redemption, BDC/Q2, SAVE Jul 1 | BROCK/CARL/LABOR | Structural stress watch; not immediate broad-cascade confirmation. |
 
 ---
@@ -61,10 +62,12 @@
 
 | Pri | Work | Action |
 |---|---|---|
+| ✅ | **CORAL boot/inbox/thesis hardening** | Complete and pushed. WALTER inbox 0 pending; thesis rails v1.0 installed. |
+| 🟡 | **CORAL per-metro convergence grid** | Build Miami/Tampa/Orlando/Jax/SW-FL grid using condo/SF/migration/tourism/negative-equity/bankruptcy/insurance vectors. |
+| 🟡 | **CORAL Q2 FL-bank prep** | Prep diagnostic rails: ≥2 FL-exposed bank deterioration or explicit USCB condo-association loan deterioration with corroboration. |
 | 🔴 | **HY <260 kill-line monitoring** | Latest 263; sustained <260 kills/reprices R3 unless bank/PC deterioration offsets. |
 | 🔴 | **Post-FOMC / post-Geneva confirmation** | Watch HY <260, CFTC/FXY/carry, and whether banks/PC proxies re-weaken. |
 | ✅ | **WALTER deep-research candidate flag** | Landed as WALTER CHECKLIST v0.18; monitor behavior, no Prome edits needed. |
-| ✅ | **CORAL Phase 1** | Pushed; next CORAL session consumes pending WALTER signals via board_log + git mv. |
 | 🟡 | **WALTER stale upstream feeds** | news-sweep / filing-watch / SIGNALS still stale; separate system-health lane. |
 | 🟠 | **Position-state reconciliation** | Separate lane only; no expiry action without broker/Will truth. |
 | 🔵 | **Legacy parallel signal artifacts cleanup** | Historical `FORGE/signals/` + generic inbox files need deliberate archive/leave decision; don’t delete casually. |
@@ -77,4 +80,4 @@
 - Do not edit WALTER specs from Prome; WALTER owns ratification.
 - No trade execution.
 - No old May/Jun option rails without broker/Will reconciliation.
-- HEARTBEAT updated locally for Geneva MOU / energy-tail deferral; verify push state before assuming other runtimes see it.
+- HEARTBEAT remains current enough; do not rewrite it just for system-work hygiene.

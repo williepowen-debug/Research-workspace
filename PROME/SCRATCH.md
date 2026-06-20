@@ -1,51 +1,51 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-19 21:15 ET (OpenClaw Prome — closeout after CORAL Phase 1 + Geneva heartbeat)
+**Last Updated:** 2026-06-20 14:59 ET (OpenClaw Prome — closeout after CORAL inbox + thesis rails install)
 
 ## What Just Happened
 
-1. **CORAL Phase 1 maturity scaffold landed and pushed.**
-   - Added `AGENTS/CORAL/SCRATCH.md`, `AGENTS/CORAL/NEXUS_BRIEF.md`, and `AGENTS/CORAL/board_log.tsv`.
-   - Patched `AGENTS/CORAL/CLAUDE.md` to mirror mature BRENT/VIOLET patterns: read SCRATCH at boot, rewrite SCRATCH at closeout, refresh NEXUS_BRIEF every session, and consume WALTER inbox handoffs through `board_log.tsv` + `git mv` to `processed/`.
-   - Commit `08c0d42b CORAL: add phase 1 boot maturity surfaces` was pushed to origin after clean ahead/behind check.
+1. **CORAL boot hardening landed and pushed.**
+   - Added `AGENTS/CORAL/scripts/boot.py` as a read-only situational card: continuity/staleness, WALTER/mail state, FL bank/regional prices, cross-agent snippets, active calendar gates.
+   - Updated `AGENTS/CORAL/CLAUDE.md` to run the boot card while preserving full manual boot reads.
+   - Fixed `SCRATCH.md` pending WALTER count from 2 → 3 after `SIG-W-20260619-008` arrived.
 
-2. **CORAL peer-integration drift was fixed and pushed earlier in the session.**
-   - Mechanical patches included root roster, CORAL boot git protocol, WALTER registry routing note, REGINALD stale CORAL paths/snapshots, and daily memory.
-   - Commit `ed13ffc1 CORAL: fix peer integration drift` is on origin.
+2. **CORAL processed all pending WALTER signals correctly.**
+   - Consumed `SIG-W-20260619-002`, `SIG-W-20260619-007`, and `SIG-W-20260619-008` through `board_log.tsv` and `git mv` to `inbox/WALTER/processed/`.
+   - Integrated negative equity, bankruptcy acceleration, and the insurance split into `STATUS.md`, `SCRATCH.md`, `NEXUS_BRIEF.md`, `MEMORY.md`, `FL_BANK_WATCHLIST.md`, and workbook ledgers (`KB.tsv`, `VX_Vectors.md`, `FLOW_Pathways.md`).
+   - Key result: WALTER inbox now 0 pending; legacy BayFirst REGINALD item remains out of scope.
 
-3. **Heartbeat materially updated after Geneva gate.**
-   - Live check confirmed dashboard: HY OAS **263 [FRED 6/17]**, CCC **939 [6/17]**, Brent **$80.59**, VIX **16.78**, KRE **$71.72**, WAL **$79.91**, USD/JPY **161.28**, FXY **$56.85**, BIZD **$12.36**.
-   - Web check confirmed U.S.–Iran MOU / Strait reopening / ceasefire framework with a 60-day negotiation fuse. Immediate Hormuz/oil-shock tail is deferred, not eliminated.
-   - `HEARTBEAT.md` now frames the regime as energy shock deferred, broad credit cascade unconfirmed, HY <260 kill still unconfirmed, carry still red.
-   - Heartbeat commit `151b80dd PROME: update heartbeat after Geneva MOU` is local only as of this closeout.
+3. **CORAL thesis rails were drafted, reviewed, tightened, installed, and pushed.**
+   - Draft v1 and v2 proposal files were created under `AGENTS/CORAL/proposals/`.
+   - Prome installed v2 with two tightenings: USCB trigger requires **explicit condo-association loan deterioration**; association bankruptcy/receivership clusters are bridge/corroborating evidence, not bank deterioration by themselves.
+   - Installed `AGENTS/CORAL/thesis/THESIS.md` + `AGENTS/CORAL/thesis/CHANGELOG.md` and updated `CLAUDE.md`, `STATUS.md`, `NEXUS_BRIEF.md`, `SCRATCH.md`, `MEMORY.md`, and `scripts/boot.py` pointers.
 
-4. **WALTER v0.18 boundary remains unchanged.**
-   - Prome should monitor WALTER behavior/doctor output, not edit WALTER specs.
-   - Quick-WALTER remains barred from fresh-news routing and deep-research judgment.
+4. **Repo is clean and synced to GitHub.**
+   - All today’s Prome/CORAL work was committed and pushed through origin.
+   - Current head at closeout: `CORAL: install thesis rails`; working tree clean.
 
 ## Current Git State
 
-- Working tree expected clean after this closeout commit.
-- Local branch is ahead of origin because the Geneva heartbeat update and this closeout are local-only unless/until Will asks to push.
-- Use pathspec-only commits; do not broad add/reset/stash.
+- Clean and synced to origin as of closeout.
+- No local-only Prome/CORAL commits are pending.
+- Continue pathspec-only commits; avoid broad add/reset/stash.
 
 ## Current Operating Picture
 
-- **Regime:** Geneva de-escalation branch fired; energy shock deferred; broad cascade not confirmed.
-- **Market lane:** HY OAS **263 [FRED 6/17]** remains 3bp above the <260 blended-credit kill line. Banks/vol calm; BDC/PC weak spot persists; carry red.
-- **System lane:** CORAL is now mechanically closer to mature-agent boot grade; next CORAL session should actually consume pending WALTER inbox items and move them to processed.
+- **System lane:** CORAL is now operationally mature enough for normal use: boot card, WALTER board-log intake, processed inbox, NEXUS brief, thesis rails, changelog, and closeout/write-back procedure are all on origin.
+- **CORAL thesis:** v1.0 installed. Durable rule: household/condo stress is confirmed, but bank-loss transmission upgrades only on bank evidence — synchronized deterioration across ≥2 FL-exposed banks or explicit USCB condo-association loan deterioration with corroborating consumer/collateral data.
+- **Market lane:** HEARTBEAT remains the current regime source: Geneva de-escalation branch fired, immediate energy shock deferred, HY <260 kill still unconfirmed, banks/VIX calm, carry red.
 - **Positions:** no position/expiry action without broker/Will truth.
 
 ## Next Reboot Entry Point
 
-1. Run repo-state first. Expect local ahead-of-origin closeout/heartbeat commits unless Will asks to push before then.
-2. If market lane: refresh dashboard/FRED HY; key question remains whether HY breaks <260 or banks/PC re-weaken enough to offset.
-3. If SAM lane: check Jun20 CFTC against SAM v1.6 carry-convexity survival gates.
-4. If CORAL lane: spawn/ask CORAL to consume `SIG-W-20260619-002` and `SIG-W-20260619-007`, append `board_log.tsv`, and `git mv` both to `inbox/WALTER/processed/`.
-5. If WALTER lane: monitor v0.18 behavior / `walter_doctor`; do not tune specs from Prome unless Will explicitly scopes it.
+1. Run repo-state first; expected clean/synced.
+2. If CORAL lane: next useful work is the per-metro convergence grid (Miami/Tampa/Orlando/Jax/SW-FL) using the new negative-equity/bankruptcy/insurance vectors, or Q2 FL-bank earnings prep.
+3. If market lane: refresh dashboard/FRED HY; key question remains whether HY sustains <260 or banks/PC re-weaken enough to offset.
+4. If SAM lane: check Jun20 CFTC against SAM v1.6 carry-convexity survival gates.
+5. If WALTER lane: monitor behavior / doctor output; Prome does not edit WALTER specs unless Will explicitly scopes it.
 
 ## Cautions
 
-- Local-only commits need push coordination; do not assume origin has the heartbeat/closeout unless verified.
-- Do not edit WALTER specs from Prome; WALTER owns WALTER spec changes.
-- Do not spawn Quick-WALTER for fresh news/screenshots/research-flag judgment.
+- CORAL thesis rails are installed; future CORAL should keep live metric values in STATUS/workbooks, not THESIS.
+- Do not upgrade CORAL bank-transmission on collateral/household stress alone; require the installed bank-upgrade rail.
+- Do not edit WALTER specs from Prome; WALTER owns future tuning.
 - No trade execution or old option/expiry cleanup without broker/Will reconciliation.
