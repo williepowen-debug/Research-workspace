@@ -1,7 +1,7 @@
 # Energy-Infrastructure Strike Ledger — Summary
 
 **Living index for `STRIKES.tsv`.** One row per *material* energy-infrastructure attack, **all theaters in one table** (so cross-theater patterns — e.g. Russia's campaign peaking the week Iran signed its MOU — are queryable). Russia–Ukraine seeded fully; Gulf–Iran backfilled opportunistically.
-**Maintainer:** HAWK. **Last updated:** 2026-06-18.
+**Maintainer:** HAWK. **Last updated:** 2026-06-20.
 
 ---
 
@@ -56,7 +56,7 @@ The "outages → crude backs up → touches Brent" transmission is the right **t
 | # | Flip trigger | Leading indicator / what to watch | Status Jun 18 |
 |---|---|---|---|
 | 1 | **Floating-storage saturation** | Floating + onshore storage fills → freed crude can't clear → shut-ins begin. ~120M bbl floating (+25% vs Apr); production already softening (May ~8.7M bpd, −5% YoY) tightens the clock | 🟡 building, not saturated |
-| 2 | **Crude-export terminal / pipeline strikes** | A `crude-terminal`/`pipeline` row reappears in STRIKES.tsv after the refinery-dominated stretch (Baltic terminals / Druzhba) — Ukraine re-targets the crude channel | ⚪ **none — Jun 15-19 all refineries/depots** (sub-agent sweep Jun 19; last crude-terminal hit was Apr) |
+| 2 | **Crude-export terminal / pipeline strikes** | A `crude-terminal`/`pipeline` row reappears in STRIKES.tsv after the refinery-dominated stretch (Baltic terminals / Druzhba) — Ukraine re-targets the crude channel | ⚪ **still none — Jun 15-20 all refineries/depots/Crimea-gas** (Tyumen Jun 20 = deepest-range refinery hit, damage disputed; last crude-terminal hit was Apr). **HAW-15 no_change.** |
 | 3 | **Russian crude shut-ins** | Producers cut wellhead output (can't store/refine/export it) — the physical realization of #1 | ⚪ not reported; **Ust-Luga loadings +49% m/m May = no shut-in, valve clearing** |
 | 4 | **Urals / tanker / export congestion confirmation** | Urals discount widening, tanker queues, loading delays at export ports = freed-crude flow hitting a ceiling | 🟡 **mixed — Urals discount widened to ~25% vs Brent (May; was ~$6.4 Mar)**, but loadings recovered + shadow fleet 48% of seaborne = flow still clears |
 
