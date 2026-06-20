@@ -2,7 +2,29 @@
 
 ## Session Notes
 
-### CURRENT SESSION (2026-06-13 Sat — boot + Fri closes + position cleanup + Orc sweep + FOMC/TIC pre-stage)
+### CURRENT SESSION (2026-06-20 Sat — week-stale boot + full catch-up: FOMC/TIC/Hormuz; STATUS/CALENDAR/TIMELINE/KB refresh)
+
+**Context:** Will boot 5:27 PM Sat; STATUS a full week stale (6/13). Markets closed (latest: FRED 6/17-6/18, yfinance 6/19-6/20). Pull skipped — branch already synced to origin; other agents (WALTER/BROCK/BRENT) had uncommitted work outside my dir, left untouched. Ran a 5-agent background workflow (`wdgejpb2w`) for the catch-up: 3 dashboards live data + FOMC 6/17 outcome + cross-agent deltas (SAM/HAWK/BRENT/CARL/REGINALD/BROCK/NEXUS). Synthesized + rewrote state myself (delegated legwork, kept judgment).
+
+**Board lane (WALTER):** 6 INFO signals → `board_log.tsv` (v0.2) + `processed/`; committed `decc3c6f`. Material: TIC April (acted), USD/JPY no-intervention/161.80, bank capital cuts, Fitch CMBS, Cushing 20M, USD/JPY 40yr.
+
+**The week's regime shift (all integrated into STATUS):**
+- **HY OAS 263 [FRED 6/17] — 3bps from the 260 soft-kill.** Seq 278→271→266→271→263. Compressing TOWARD kill *through* a Hormuz re-closure + hawkish FOMC. **No hard KILL_MEMO trigger cleanly fired** (oscillating; 6/16=271 breaks 2-consec-sub-265). **6/18-6/19 FRED prints NOT up yet** (T+1+weekend) — they resolve TRIGGER A. NO LIQUID positions to cut (book flat) = **thesis event not position event.** **CCC-BB pin held WIDE (783 vs 787 6/11) while index compressed** = KB-LIQ-058 / NEXUS R3 bifurcation intact (falsifier <400, far off). Pulled SRF (~$0) + BB OAS (156) myself to close the two gaps.
+- **FOMC 6/17 = HAWKISH HOLD (Warsh debut).** Dots flipped hike-leaning (2026 median ~3.80, 9/18 hike by YE, 17/18 upside inflation). Statement 341→130 words; "ample reserves" reaffirmed; no QT para. **5 task forces incl. Balance-Sheet Policy** (QT/SRF/RRP/SOMA back in play YE2026 = Leg A REINFORCED, opposite of facility-expansion kill). Bear-flattener 2Y+16/30Y−2. **Duration resolved DOWN (30Y 4.93, 3bps from <4.90 unwind), NOT up — my pre-staged tree's hawkish→30Y>5.00 mapping INVERTED → KB-LIQ-060 (credible-hawkish RALLIES the long end; surprise hit the front end not the term premium; duration leg now needs a GROWTH break to re-fire).**
+- **TIC April:** official FOI +$49.2B carried a private −$23.1B outflow month (~$184B swing). Leg B kill 1-of-2 prints. Japan UST $1.210T↓, China $651B, UK $938B↑, Belgium UNCONFIRMED (flag).
+- **USD/JPY 161.27** (5+ closes >160, no intervention — jawboning only); 20Y reopen (indirect 71.6%) + 5Y TIPS (68.6%) STRONG; reserves WRESBAL $3.03T clean — **≠ REGINALD FFIEC $2.8T (different measure; did NOT fire <2.8T PROME signal — canonical-measure discipline).**
+
+**Done:** STATUS full rewrite to 6/20; CALENDAR rolled fwd (FOMC/TIC/auctions→resolved archive; +7/25 BDC, July FOMC, YE balance-sheet review); TIMELINE retired 3 windows (FOMC/TIC/Powell→Warsh) + restamped rolling + 2 new forward rows; **KB-LIQ-060 authored**; FOMC_TIC_DECISIONTREE trashed (git rm, DELETE-BY 6/19 passed). Board commit `decc3c6f`.
+
+**Cross-agent (NO outbox — restraint):** HY 263/260 line already shared by BROCK/REGINALD/NEXUS — nothing they lack. Inbound expected: BRENT Cushing Boundary #3 (~6/24), SAM carry buckets + Mon 6/22 CFTC, HAWK Mon 6/22 Brent decoupling test.
+
+**Open follow-ups (carried):**
+- ⭐ **Mon 6/22 first move:** pull FRED 6/18-6/19 HY OAS → resolves TRIGGER A. + HAWK Brent decoupling test + SAM CFTC.
+- Owed-to-BRENT HY-Energy-OAS pull DEFERRED per Will 6/20 (re-arms on a 6/22 Brent spike). Belgium TIC live pull. LIQ-03 resolves 6/30.
+- CLAUDE.md KEY THRESHOLDS table still 6/12-stale (HY 280 etc.) — Tier-2 boot-doc refresh deferred (preamble says verify-vs-STATUS, low risk).
+- **Push pending** — Saturday, no coordinated window. Session commits (decc3c6f + the STATUS/CALENDAR/TIMELINE/KB commit to follow) sweep next window.
+
+### PRIOR SESSION (2026-06-13 Sat — boot + Fri closes + position cleanup + Orc sweep + FOMC/TIC pre-stage)
 
 **Context:** Saturday boot (markets closed). Pull skipped — VIOLET tree dirty, my dir clean. Will: pull Fri closes, TEN closed, and **cut bait on the HYG position** (it was being surfaced every boot with nothing actionable).
 
@@ -193,15 +215,16 @@ MEMORY.md    STATUS.md  STRATEGY.md           USER.md
 
 ### NEXT SESSION
 
-*(Updated 6/13 — LIQUID current. Forward watches, not cleanup. Positions all resolved — no decision items.)*
+*(Updated 6/20 — LIQUID current through FOMC/TIC. Forward watches; positions flat — no decision items.)*
 
-1. **First boot move — verify Mon 6/16 closes** (per basis canon): Brent — sub-$90 hold/extend (ICE settle; clause-1 clock running since 6/12 $87.20)? APO streak (raw close, Day 4 was 6/12). 30Y/10Y vs the 5.00/4.50 pivots. **HY OAS direction (still a tracked signal).**
-2. **Positions — NOTHING TO SURFACE.** HYG written off (let expire worthless 6/19, cut bait); TEN closed (winner). Do NOT re-raise either.
-3. **⭐ Tue 6/16 PM — SOFR-futures 2026 cut-count pull** (pre-FOMC, dated task): resolves the FOMC hawkish-vs-neutral base case. ≤1 cut priced = neutral-base (hold hawkish 33/neutral 38); ≥2 cuts = hawkish-base (shift ~8pts → hawkish ~45/neutral ~30, arms ≥5>5.00, conviction 63–65). Re-weight `workbook/FOMC_TIC_DECISIONTREE.md` off this; DO-NOT-transcribe 45 until the pull lands. Then echo to Orc (he holds the counter-weights).
-4. **FOMC Wed 6/17 → TIC Thu 6/18** — pre-staged tree built (`workbook/FOMC_TIC_DECISIONTREE.md`, DELETE-BY 6/19; durable residue in TIMELINE rows 13/15/16). FOMC ARMS / 30Y close-sequence RESOLVES; conviction scoped to duration leg. TIC: Belgium $481B→$500B = $19B headroom; Japan >$20B UST sell = SAM route (KB-LIQ-031 anchor); gates the USD/JPY-5-closes>160 flow confirmation.
-5. **Open verifies:** FSK P/NAV 0.52 (split/vintage); OBDC Q1 NAV (search avoided Onex conflation); FRED H.15 6/12 yield prints confirm proxy; BRENT energy-HY OAS reply (outbox out).
-6. **LIQ-03 resolves 6/30** at the letter (CLO AAA vs 160 trigger; interim ~S+130-145).
-7. **Inbox (2 pending, process on inbox-spawn)** — HAWK OFAC toll-risk 5/22; PROME FRED-citation-convention 5/21.
+1. **⭐ First move — pull FRED 6/18-6/19 HY OAS** (the <260 soft-kill resolver; 263 at 6/17, 3bps cushion, no trigger fired yet). If **<260 sustained → fire 🔴 ALL (LIQ-01 / Trigger C credit-channel kill)** — shared line LIQUID/BROCK/REGINALD/NEXUS. Genuineness test: is CCC-BB compressing with it (real) or holding wide (pin survives, KB-LIQ-058)? Also restamp 6/20 closes: 30Y vs <4.90 unwind (4.93), 10Y, USD/JPY.
+2. **Mon 6/22 cross-agent cluster:** HAWK Brent decoupling test (Hormuz re-declared closed 6/20 declaratory — spike → watch energy-HY-OAS >300 + flight-to-safety bid; shrug → decoupling holds); SAM CFTC JPY print (Juneteenth-delayed); defer Brent price authority to BRENT.
+3. **Positions — NOTHING TO SURFACE** (book flat; HYG expired 6/19, TEN closed; APO Dec $95P is BROCK's). Do NOT re-raise HYG.
+4. **Inbound to expect:** BRENT Cushing-sub-20M Boundary #3 (~6/24 EIA WPSR); SAM carry-unwind buckets (7d/30d/60d ~8/23/32%).
+5. **Owed/deferred:** HY-Energy-OAS pull to BRENT (DEFERRED per Will 6/20; re-arms on a 6/22 Brent spike — KB-LIQ-058 stale-by 6/22); Belgium TIC live pull (RED); LIQ-03 resolves 6/30 (CLO AAA vs 160 trigger).
+6. **Standing monitors:** ~7/25 Q2 BDC marks (NEXUS R3 transmission test — CCC-BB / CDLI-FSK); July FOMC hike watch (~75%); ~YE2026 Warsh balance-sheet review (Leg A buffers).
+7. **Deferred boot-doc:** CLAUDE.md KEY THRESHOLDS table refresh (6/12-stale — HY 280, etc.; preamble defers to STATUS).
+8. **Inbox (2 pending general, process on inbox-spawn):** HAWK OFAC toll-risk 5/22; PROME FRED-citation-convention 5/21.
 
 ### PRIOR SESSION (2026-05-19 morning)
 
