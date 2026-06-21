@@ -2,7 +2,7 @@
 
 **Created:** 2026-06-21
 **Owner:** Prome until CREED is bootable; CREED owns after revival.
-**Status:** Phase 4 thesis rails installed. Topology integration not approved yet.
+**Status:** Phase 5 topology installed; Phase 6-lite legacy pull-forward installed. Full legacy migration deferred.
 
 ---
 
@@ -22,7 +22,7 @@ CREED should not own bank-level execution, Florida whole-state synthesis, or pos
 
 ## Current State
 
-Top-level `AGENTS/CREED/` is now bootable but not analytically current:
+Top-level `AGENTS/CREED/` is now current as the national CRE / CMBS source-pack and thesis-rails surface:
 - `AGENTS/CREED/CLAUDE.md`
 - `AGENTS/CREED/STATUS.md`
 - `AGENTS/CREED/REVIVAL_PLAN.md`
@@ -31,6 +31,8 @@ Top-level `AGENTS/CREED/` is now bootable but not analytically current:
 - Phase 4 thesis rails: `AGENTS/CREED/thesis/THESIS.md`
 - Phase 4 changelog: `AGENTS/CREED/thesis/CHANGELOG.md`
 - Phase 4 inbox triage: `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`
+- Phase 6-lite legacy pull-forward: `AGENTS/CREED/archive/LEGACY_PULL_FORWARD_2026-06-21.md`
+- canonical topology/roster integration completed in `AGENTS.md`, `AGENTS_DIRECTORY.md`, `AGENTS/_CREDIT.md`, `AGENTS/_NETWORK.md`, and dashboard mirror
 - no live workbook/dashboard yet
 
 The real legacy CREED body lives under REGINALD:
@@ -45,7 +47,7 @@ Treat the REGINALD sub-agent tree as **source archive**, not current live truth.
 
 ---
 
-## Legacy Thesis Snapshot — Do Not Trade From This Yet
+## Legacy Thesis Snapshot — Superseded As Current Truth
 
 Legacy CREED frame from Feb 2026:
 - CRE stress is real and severe.
@@ -53,7 +55,7 @@ Legacy CREED frame from Feb 2026:
 - Office CMBS delinquency / special servicing and the maturity wall were the core signals.
 - Employment was the key transmission trigger into broader bank loss recognition.
 
-Revival must update this with current June data before making claims or recommendations.
+This legacy frame is mechanism context only. Current claims should use the June 2026 source pack and thesis rails.
 
 ---
 
@@ -132,15 +134,23 @@ Resolved stale inboxes against fresh data:
 
 ### Phase 5 — Topology integration
 
-Only after Will approves top-level revival:
-- update `AGENTS.md`
-- update `AGENTS_DIRECTORY.md`
-- update `AGENTS/_INDEX.md` / `AGENTS/_NETWORK.md` if needed
-- add REGINALD/CORAL handoff notes if scoped
+Completed 2026-06-21 after Will approval:
+- updated `AGENTS.md`
+- updated `AGENTS_DIRECTORY.md`
+- updated `AGENTS/_CREDIT.md`
+- updated `AGENTS/_NETWORK.md`
+- updated `dashboard/index.html` as mirror of the canonical network map
 
-### Phase 6 — Optional migration
+CREED is a Claude Code roster agent. Do not spawn without explicit Will permission.
 
-Only after CREED is bootable and topology is approved:
+### Phase 6 — Optional migration / legacy pull-forward
+
+Phase 6-lite completed 2026-06-21:
+- `AGENTS/CREED/archive/LEGACY_PULL_FORWARD_2026-06-21.md`
+
+Decision: do **not** move/delete/copy the full legacy tree now. Keep `AGENTS/REGINALD/sub-agents/CREED/` in place as source archive, and use the pull-forward map to preserve durable mechanisms while marking old values stale.
+
+Future optional migration only if old-path confusion becomes a real problem:
 - decide whether to copy/move `AGENTS/REGINALD/sub-agents/CREED/` into a CREED legacy archive folder
 - run grep/ref updates and verification before any move
 
@@ -151,5 +161,5 @@ Only after CREED is bootable and topology is approved:
 - Do not delete or move REGINALD sub-agent CREED files during revival Phase 1–4.
 - Do not trade from legacy Feb 2026 CREED numbers without a fresh refresh.
 - Do not let CREED duplicate CORAL’s Florida mandate or REGINALD’s bank-level mandate.
-- Do not make CREED canonical in `AGENTS.md` until Will explicitly approves the topology change.
+- CREED is canonical after Will-approved Phase 5; future topology changes still require Will approval.
 - Use pathspec commits only.
