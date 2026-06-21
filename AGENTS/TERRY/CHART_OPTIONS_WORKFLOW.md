@@ -5,18 +5,22 @@
 
 Before citing levels:
 
-1. Pull live/latest price through FORGE market-data when available:
+1. Prefer Terry's snapshot wrapper for trade-card work:
+   ```bash
+   python3 AGENTS/TERRY/scripts/snapshot.py TICKER [TICKER...] --benchmark BENCHMARK --days 30 --stress
+   ```
+2. Pull live/latest price directly through FORGE market-data when needed:
    ```bash
    python3 FORGE/tools/market-data/fetch.py price TICKER
    ```
-2. If broader stress context matters, run compact dashboard:
+3. If broader stress context matters, run compact dashboard:
    ```bash
    python3 FORGE/tools/market-data/dashboard.py --compact
    ```
-3. Check at least two horizons:
+4. Check at least two horizons:
    - **Daily:** tactical entry, support/resistance, momentum, gaps.
    - **Weekly:** regime/trend and where the trade is fighting the tape.
-4. Compare relative strength to the right benchmark:
+5. Compare relative strength to the right benchmark:
    - banks → KRE / XLF
    - credit → HYG / JNK / BIZD
    - energy → XLE / Brent proxy

@@ -11,8 +11,20 @@ Terry converts thesis into trade cards and postmortems. He does **not** own macr
 3. `TRADE_CARD_TEMPLATE.md` — copy for actionable proposals.
 4. `POSITION_INTAKE.md` — required for existing position triage.
 5. `CHART_OPTIONS_WORKFLOW.md` — repeatable chart/options process.
-6. `STATUS.md` — current Terry state.
+6. `scripts/boot.py` — read-only boot card / file health / optional snapshot.
+7. `scripts/snapshot.py` — price + relative-strength snapshot via FORGE market-data.
+8. `STATUS.md` — current Terry state.
 
 ## Core output
 
 Full trade cards go in `setups/`; summaries go to `TRADE_BOOK.md` and `SETUPS.tsv`.
+
+## Scripts
+
+```bash
+python3 AGENTS/TERRY/scripts/boot.py --selftest
+python3 AGENTS/TERRY/scripts/boot.py --snapshot WAL KRE --benchmark KRE --stress
+python3 AGENTS/TERRY/scripts/snapshot.py WAL KRE --benchmark KRE --days 30 --stress
+```
+
+Scripts are read-only helpers. They do not fetch option chains and never make execution decisions.
