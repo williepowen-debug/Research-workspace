@@ -2,6 +2,8 @@
 
 *Quick reference. Updated: 2026-06-20*
 
+For a human-friendly grouped view of the flat `AGENTS/<NAME>/` tree, see [`AGENTS/_INDEX.md`](AGENTS/_INDEX.md). Canonical paths remain flat to avoid breaking scripts, docs, and active Claude/OpenClaw workflows.
+
 ## Runtime Architecture
 
 | Runtime | Agent(s) | Interface | Notes |
