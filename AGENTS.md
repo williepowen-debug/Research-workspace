@@ -13,6 +13,8 @@ NEXUS synthesizes across all chains. MARCO feeds immigration/labor supply into L
 
 ## Agents
 
+Grouped directory views live in `AGENTS/_INDEX.md`. Canonical agent paths remain flat as `AGENTS/<NAME>/` to avoid breaking existing scripts, docs, and Claude/OpenClaw workflows.
+
 | Agent | Domain | Chain | Spawn? |
 |-------|--------|-------|--------|
 | LABOR | Employment, claims | Credit | ❌ Persistent (Telegram) |
