@@ -6,7 +6,17 @@
 
 ---
 
+## 2026-06-21 ~15:15 ET — Pre-clear handoff after CREED Phase 1–4 revival
 
+**Status:** Repo is clean/synced to origin after CREED Phase 1–4 and memory checkpoint. Latest commits: `ae5b4a59 CREED: add phase 3 refresh`, `e3ea29a0 CREED: install phase 4 thesis rails`, `977b8b0c memory: log CREED revival checkpoint`. No topology changes have been made yet.
+
+**What landed:** CREED is revived as a top-level analytical surface but is **not canonical in the roster/network yet**. Phase 3 source pack is `AGENTS/CREED/research/REFRESH_2026-06-21.md`. Phase 4 rails are `AGENTS/CREED/thesis/THESIS.md`, `AGENTS/CREED/thesis/CHANGELOG.md`, and `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`. `AGENTS/CREED/CLAUDE.md`, `STATUS.md`, and `REVIVAL_PLAN.md` now point cold boots at the current rails.
+
+**Current CREED thesis:** base case is **selective CRE recognition accelerating**, not broad CRE→bank cascade yet. CMBS/office stress is recognizing faster than banks; edge is when maturity-default/special-servicing stress crosses into bank provisions, reserve coverage deterioration, forced sales, or funding pressure.
+
+**Next suggested work:** Phase 5 topology integration, only if Will approves in the fresh session. Touch only roster/topology surfaces: `AGENTS.md`, `AGENTS_DIRECTORY.md`, `AGENTS/_INDEX.md`, and `AGENTS/_NETWORK.md` as needed. Do **not** move/delete legacy `AGENTS/REGINALD/sub-agents/CREED/`. Do **not** do Phase 6 migration yet.
+
+**Risks / blockers:** Phase 5 is higher-blast-radius than thesis work because it makes CREED canonical. Preserve flat canonical paths. Use pathspec commits only. Verify grep refs/network consistency before commit. Push only with Will approval.
 
 ## 2026-06-21 ~10:01 ET — Closeout after AGENTS organization + weekend freshness cleanup
 

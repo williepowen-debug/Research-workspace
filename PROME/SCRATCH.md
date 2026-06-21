@@ -1,39 +1,38 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-21 10:08 ET (OpenClaw Prome — pre-clear hygiene after AGENTS/PROME organization pass)
+**Last Updated:** 2026-06-21 15:15 ET (OpenClaw Prome — pre-clear after CREED Phase 1–4)
 
 ## What Just Happened
 
-- AGENTS organization pass is complete and pushed: grouped directory views live under `AGENTS/_INDEX.md` + group files; canonical agent folders remain flat as `AGENTS/<NAME>/`.
-- PROME path cleanup is complete and pushed: live Prome docs no longer point at retired Toscanini paths; moved inbox/outbox refs were fixed where canonical targets existed.
-- Canonical topology is now `AGENTS/_NETWORK.md`; main dashboard Network tab mirrors it; standalone `dashboard/network.html` is a pointer/redirect.
-- Post-closeout hygiene landed locally/pushed sequence-ready: `PROME/BOOT.md` now has weekend/market-holiday freshness rules; `HEARTBEAT.md` labels Fri-close levels as orientation-only; `PROME/HANDOFF.md` is tightened to 3 live entries; `PROME/STATUS.md` refreshed after hygiene pass.
+- CREED revival Phase 1–4 is complete and pushed.
+- Phase 3 source refresh: `AGENTS/CREED/research/REFRESH_2026-06-21.md` (`ae5b4a59`).
+- Phase 4 thesis rails: `AGENTS/CREED/thesis/THESIS.md`, `AGENTS/CREED/thesis/CHANGELOG.md`, `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md` (`e3ea29a0`).
+- Memory checkpoint pushed: `977b8b0c memory: log CREED revival checkpoint`.
+- Repo was clean/synced after push.
 
-## Current Git State
+## Current CREED State
 
-- Expected boot state after final push: clean and synced to origin.
-- Current work is Prome/system doc hygiene only; no agent domain folders were moved or edited.
-- Continue pathspec-only commits; avoid broad add/reset/stash.
-
-## Current Operating Picture
-
-- **Market regime:** use `HEARTBEAT.md`: signed-but-fraying MOU, Hormuz re-closure declared, contested/not kinetic, energy tail re-fat, broad cascade unconfirmed.
-- **Market data freshness:** Sunday/market-closed orientation only. Do not cite levels as fresh without dashboard/FRED refresh.
-- **Near market gates:** Jun22 Brent reopen/tape response; next HY print vs <260 kill line; SAM/CFTC carry read; Jun24 EIA/Cushing <20M risk.
-- **System lane:** use `AGENTS/_INDEX.md` for grouped browsing and `AGENTS/_NETWORK.md` for topology. Do not create a second live network map.
-- **Decision rails:** `PROME/ACTIVE_DECISIONS.md` remains verification-first; no trade/expiry action without broker/Will truth.
+- CREED is revived enough for current source-pack + thesis-rails use.
+- CREED is **not yet canonical** in `AGENTS.md`, `AGENTS_DIRECTORY.md`, `AGENTS/_INDEX.md`, or `AGENTS/_NETWORK.md`.
+- Current thesis: **selective CRE recognition accelerating**, not broad CRE→bank cascade yet.
+- Legacy `AGENTS/REGINALD/sub-agents/CREED/` remains source archive only; do not move/delete it.
 
 ## Next Reboot Entry Point
 
-1. Run repo-state first; expected clean/synced after final hygiene push.
-2. Read `PROME/HANDOFF.md`, `PROME/SCRATCH.md`, `PROME/TODAY.md`, `PROME/ACTIVE_DECISIONS.md`, `PROME/STATUS.md` per `PROME/BOOT.md`.
-3. If market lane: refresh dashboard/FRED before citing current levels; then watch Jun22 Brent/Hormuz + HY <260 + CFTC/carry.
-4. If system/docs lane: use `AGENTS/_INDEX.md` and `AGENTS/_NETWORK.md`; avoid physical agent-folder moves.
-5. If position lane: start with broker/Will reconciliation, not old action-card rails.
+1. Verify repo state first; expected clean/synced.
+2. Read `PROME/HANDOFF.md`, this file, `PROME/TODAY.md`, `PROME/STATUS.md`, and `PROME/ACTIVE_DECISIONS.md` per boot.
+3. If Will confirms Phase 5: integrate CREED into topology/roster surfaces only.
+4. Phase 5 likely touches:
+   - `AGENTS.md`
+   - `AGENTS_DIRECTORY.md`
+   - `AGENTS/_INDEX.md`
+   - `AGENTS/_NETWORK.md`
+5. Verify with grep/ref checks and pathspec commit. Push only with Will approval.
 
 ## Cautions
 
-- Do not physically move agent directories without a dedicated migration script + grep/replace + tests.
-- Do not maintain separate live network maps; canonical topology is `AGENTS/_NETWORK.md`, dashboard is rendering only.
-- Do not edit WALTER specs/state from Prome unless Will explicitly scopes it.
-- Do not treat Hormuz re-closure as kinetic until behavior confirms: vessel hit/seized/mined, Gulf infra hit, JWC/insurer withdrawal, or hard Brent/vol repricing.
-- No trade execution or old option/expiry cleanup without broker/Will reconciliation.
+- Do not do Phase 6 migration yet.
+- Do not move/delete `AGENTS/REGINALD/sub-agents/CREED/`.
+- Do not physically reorganize `AGENTS/<NAME>/` folders.
+- Do not trade from CREED; CREED routes mechanisms/evidence. REGINALD/TERRY/Will own trade path.
+- No topology changes unless Will explicitly approves Phase 5 after clear.
+- Continue pathspec-only commits; no broad add/reset/stash.
