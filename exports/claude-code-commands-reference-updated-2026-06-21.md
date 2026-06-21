@@ -4,6 +4,83 @@
 
 > Canonical agent folders remain flat at `~/Research-workspace/AGENTS/<NAME>/`. The new `_CREDIT.md`, `_NETWORK.md`, etc. files are indexes, not folders to cd into.
 
+## Basic Agent Map
+
+### Path model
+
+Agents live in flat canonical folders:
+
+```bash
+~/Research-workspace/AGENTS/<NAME>/
+```
+
+Grouped files such as `AGENTS/_CREDIT.md`, `AGENTS/_ENERGY.md`, and `AGENTS/_NETWORK.md` are maps/indexes only. Do not `cd` into grouped subfolders; the active folders were not moved.
+
+### Domain groups
+
+**System / orchestration**
+- PROME — chief-of-staff / orchestration / final synthesis
+- WALTER — signal/news routing desk
+- NEXUS — cross-agent synthesis
+- RED — adversarial review
+- DEWEY — deep research executor
+- HERMES — signal carrier / inbox-outbox utility
+
+**Credit / consumer / banks / CRE**
+- LABOR — employment / claims
+- CARL — consumer credit / housing
+- REGINALD — regional banks
+- OZK — OZK-specific bank work
+- CORAL — Florida convergence
+- CREED — national CRE / CMBS
+- OTTO — auto / consumer delinquency
+- REITS / DOC — background credit/CRE surfaces
+
+**Private credit / insurance**
+- BROCK — BDCs / private credit
+- SHADE — PE-insurance-captive plumbing
+
+**Funding / macro / market structure**
+- HENRY — market structure / econ data
+- LIQUID — funding / Treasury plumbing
+- BOND — bond market structure / auctions / credit spreads
+- SAM — Japan / BOJ / JGB / carry
+- ZHAO — China / capital flows
+- HANS — Europe / UST demand
+- FOREX — FX background
+- VIOLET — vol / VIX / credit-to-vol lag
+
+**Energy / geopolitics / commodities**
+- HAWK — geopolitics / military
+- BRENT — oil / energy markets
+- MARCO — migration / labor flows
+- FERT — fertilizer / food security
+- CRUISE — cruise / tourism canary
+- BARON — Trump network / policy
+
+**Research / trading / ops**
+- ATHENA — reading / knowledge
+- ORACLE — prediction markets
+- TERRY — trade construction desk; proposes only
+- BUFFER / EARNINGS / SENTRY / TRADES — ops, event, and trade-support surfaces
+
+### Main transmission chains
+
+```text
+LABOR → CARL → REGINALD → repricing
+CREED → REGINALD + CORAL + LIQUID + CARL
+BROCK → SHADE → LIQUID
+HAWK → BRENT → HENRY / LIQUID / CARL
+SAM → LIQUID
+BOND → LIQUID / HENRY / REGINALD
+VIOLET watches credit-to-vol lag → HENRY / LIQUID / RED
+NEXUS synthesizes cross-agent convergence and contradictions
+```
+
+### Launch caution
+
+This reference is a menu, not a startup script. Launch agents one at a time when possible. Too many Claude Code agents can freeze the machine or cause plugin/resource contention.
+
 ## SYSTEM / ORCHESTRATION
 
 ### PROME
