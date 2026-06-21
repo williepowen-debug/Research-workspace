@@ -1,51 +1,58 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-20 14:59 ET (OpenClaw Prome — closeout after CORAL inbox + thesis rails install)
+**Last Updated:** 2026-06-20 20:05 ET (OpenClaw Prome — closeout after heartbeat/automemory/DEWEY cleanup + pushed-agent audit)
 
 ## What Just Happened
 
-1. **CORAL boot hardening landed and pushed.**
-   - Added `AGENTS/CORAL/scripts/boot.py` as a read-only situational card: continuity/staleness, WALTER/mail state, FL bank/regional prices, cross-agent snippets, active calendar gates.
-   - Updated `AGENTS/CORAL/CLAUDE.md` to run the boot card while preserving full manual boot reads.
-   - Fixed `SCRATCH.md` pending WALTER count from 2 → 3 after `SIG-W-20260619-008` arrived.
+1. **HEARTBEAT was refreshed and pushed for the Jun20 Hormuz re-closure declaration.**
+   - Moved regime from clean Geneva de-escalation to **signed-but-fraying MOU; Hormuz re-closure declared; official/declaratory/contested, not yet kinetic**.
+   - Core read: energy tail re-fat, but broad credit cascade still unconfirmed. Jun22 Brent/vol/insurance/traffic response is the next real tape test.
 
-2. **CORAL processed all pending WALTER signals correctly.**
-   - Consumed `SIG-W-20260619-002`, `SIG-W-20260619-007`, and `SIG-W-20260619-008` through `board_log.tsv` and `git mv` to `inbox/WALTER/processed/`.
-   - Integrated negative equity, bankruptcy acceleration, and the insurance split into `STATUS.md`, `SCRATCH.md`, `NEXUS_BRIEF.md`, `MEMORY.md`, `FL_BANK_WATCHLIST.md`, and workbook ledgers (`KB.tsv`, `VX_Vectors.md`, `FLOW_Pathways.md`).
-   - Key result: WALTER inbox now 0 pending; legacy BayFirst REGINALD item remains out of scope.
+2. **Auto-memory index was compacted under the load cap and pushed.**
+   - `memory/auto/MEMORY.md` reduced from ~31.1KB to ~23.0KB, below the ~24.4KB cap.
+   - Preserved all 143 memory links; verified 0 missing links and no overlong lines.
+   - Underlying memory files were not deleted; only verbose index descriptions were shortened.
+   - Caveat: this was a shared-surface push during active Claude Code work and could have caused conflicts if agents had touched the same index. Will coordinated agent commits/rebases afterward.
 
-3. **CORAL thesis rails were drafted, reviewed, tightened, installed, and pushed.**
-   - Draft v1 and v2 proposal files were created under `AGENTS/CORAL/proposals/`.
-   - Prome installed v2 with two tightenings: USCB trigger requires **explicit condo-association loan deterioration**; association bankruptcy/receivership clusters are bridge/corroborating evidence, not bank deterioration by themselves.
-   - Installed `AGENTS/CORAL/thesis/THESIS.md` + `AGENTS/CORAL/thesis/CHANGELOG.md` and updated `CLAUDE.md`, `STATUS.md`, `NEXUS_BRIEF.md`, `SCRATCH.md`, `MEMORY.md`, and `scripts/boot.py` pointers.
+3. **Post-push audit of active-agent commits was completed.**
+   - Pulled 15 new commits cleanly via fast-forward; repo synced.
+   - Verified WALTER version drift clean, WALTER BOARD reconciles at 302, touched Python scripts compile, and touched TSV ledgers pass column checks.
+   - Found no catastrophic breakage. Issues were handoff/name/state drift: stale push-deferred text in some agent surfaces, WALTER registry lags, and DEWEY rename propagation gaps. Will will pass WALTER-specific points to WALTER personally.
 
-4. **Repo is clean and synced to GitHub.**
-   - All today’s Prome/CORAL work was committed and pushed through origin.
-   - Current head at closeout: `CORAL: install thesis rails`; working tree clean.
+4. **Root DEWEY rename cleanup landed and pushed.**
+   - Fixed Prome/root surfaces only: `HEARTBEAT.md` now points to `AGENTS/DEWEY/REVIVAL_PLAN.md`; `AGENTS_DIRECTORY.md` now lists **DEWEY** instead of MERLIN/RESEARCHER.
+   - Did not touch WALTER state/spec files per Will’s instruction.
+
+5. **Repo is clean and synced to GitHub.**
+   - Latest pushed Prome commit before closeout: root DEWEY rename alignment.
+   - Working tree clean at closeout start.
 
 ## Current Git State
 
-- Clean and synced to origin as of closeout.
-- No local-only Prome/CORAL commits are pending.
+- Clean and synced to origin as of closeout start.
+- Closeout edits are Prome-owned: `PROME/*` + `memory/2026-06-20.md`.
 - Continue pathspec-only commits; avoid broad add/reset/stash.
 
 ## Current Operating Picture
 
-- **System lane:** CORAL is now operationally mature enough for normal use: boot card, WALTER board-log intake, processed inbox, NEXUS brief, thesis rails, changelog, and closeout/write-back procedure are all on origin.
-- **CORAL thesis:** v1.0 installed. Durable rule: household/condo stress is confirmed, but bank-loss transmission upgrades only on bank evidence — synchronized deterioration across ≥2 FL-exposed banks or explicit USCB condo-association loan deterioration with corroborating consumer/collateral data.
-- **Market lane:** HEARTBEAT remains the current regime source: Geneva de-escalation branch fired, immediate energy shock deferred, HY <260 kill still unconfirmed, banks/VIX calm, carry red.
+- **Market regime:** current source is `HEARTBEAT.md`: signed-but-fraying MOU, Hormuz re-closure declared, contested/not kinetic, energy tail re-fat, broad cascade unconfirmed.
+- **Near market gates:** Jun22 Brent reopen/tape response; next HY print vs <260 kill line; SAM/CFTC carry read; Jun24 EIA/Cushing <20M risk.
+- **System lane:** active agent push train landed without merge damage. Remaining cleanup is mostly agent-owned state drift, especially WALTER-specific items Will will handle with WALTER.
+- **DEWEY:** root directory/heartbeat now aligned. DEWEY Phase 2 wiring is shipped; next gate is first live DEWEY run after CONTEXT refresh.
+- **Auto-memory:** index is under cap; if future agents add many verbose entries, run compaction in a coordinated window.
 - **Positions:** no position/expiry action without broker/Will truth.
 
 ## Next Reboot Entry Point
 
-1. Run repo-state first; expected clean/synced.
-2. If CORAL lane: next useful work is the per-metro convergence grid (Miami/Tampa/Orlando/Jax/SW-FL) using the new negative-equity/bankruptcy/insurance vectors, or Q2 FL-bank earnings prep.
-3. If market lane: refresh dashboard/FRED HY; key question remains whether HY sustains <260 or banks/PC re-weaken enough to offset.
-4. If SAM lane: check Jun20 CFTC against SAM v1.6 carry-convexity survival gates.
-5. If WALTER lane: monitor behavior / doctor output; Prome does not edit WALTER specs unless Will explicitly scopes it.
+1. Run repo-state first; expected clean/synced after this closeout if pushed.
+2. Read `HEARTBEAT.md` for regime. Do not boot from old TODAY Geneva framing.
+3. If market lane: refresh dashboard/FRED HY and watch Jun22 Brent response / HY <260 / CFTC carry / bank-PC offset.
+4. If system lane: avoid WALTER edits unless scoped; Will is passing WALTER points directly. Prome can monitor after WALTER’s next closeout.
+5. If DEWEY lane: first live run requires CONTEXT refresh before research.
+6. If CORAL lane: per-metro convergence grid or Q2 FL-bank prep remains useful follow-through.
 
 ## Cautions
 
-- CORAL thesis rails are installed; future CORAL should keep live metric values in STATUS/workbooks, not THESIS.
-- Do not upgrade CORAL bank-transmission on collateral/household stress alone; require the installed bank-upgrade rail.
-- Do not edit WALTER specs from Prome; WALTER owns future tuning.
+- Do not edit WALTER specs/state from Prome unless Will explicitly scopes it.
+- Do not make another shared-index change (`memory/auto/MEMORY.md`) while agents are mid-work; coordinate a push/rebase window first.
+- Do not treat Hormuz re-closure as kinetic until behavior confirms: vessel hit/seized/mined, Gulf infra hit, JWC/insurer withdrawal, or hard Brent/vol repricing.
 - No trade execution or old option/expiry cleanup without broker/Will reconciliation.

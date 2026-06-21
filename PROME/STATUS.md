@@ -1,17 +1,17 @@
 # PROME STATUS.md
-**Updated:** 2026-06-20 14:59 ET (OpenClaw Prome — CORAL inbox + thesis rails installed/pushed)
+**Updated:** 2026-06-20 20:05 ET (OpenClaw Prome — heartbeat/automemory/DEWEY cleanup + pushed-agent audit)
 
 ## Core State
 
-**Operational priority:** CORAL is now through the first maturity pass: boot situational card, WALTER board-log intake, processed WALTER inbox, NEXUS brief, and installed thesis rails are all on origin. Next CORAL work is analytical, not plumbing: per-metro convergence grid and Q2 FL-bank earnings prep.
+**Operational priority:** Jun20 push train is clean from Prome’s side: HEARTBEAT refreshed for Hormuz re-closure, auto-memory index compacted under cap, active-agent commits audited after pull, and root DEWEY naming aligned. Remaining WALTER-specific drift is Will→WALTER, not Prome-owned.
 
-**Market priority:** Geneva de-escalation branch remains the current regime source in `HEARTBEAT.md`: immediate Hormuz/oil-shock tail deferred, HY OAS **263 [FRED 6/17]** still near the <260 kill line, VIX/banks not confirming cascade, carry remains red (USD/JPY/FXY). Next market lane is HY <260 monitoring + SAM/CFTC carry read + bank/PC re-weakening.
+**Market priority:** current regime source is `HEARTBEAT.md`: signed-but-fraying MOU; Hormuz re-closure declared; official/declaratory/contested, not yet kinetic. Energy tail is re-fat, broad cascade still unconfirmed. Next market lane is Jun22 Brent/vol/traffic response, HY <260 monitoring, SAM/CFTC carry read, and bank/PC re-weakening.
 
-**Current repo reality:** clean and synced to origin as of closeout. All today’s CORAL/Prome changes were committed and pushed.
+**Current repo reality:** clean and synced to origin before closeout edits; latest pushed Prome/root work aligned DEWEY naming and fixed HEARTBEAT’s stale RESEARCHER path.
 
-**Regime source:** `HEARTBEAT.md` remains current enough (<48h) and should not be rewritten just for CORAL system-work hygiene.
+**Regime source:** `HEARTBEAT.md` is current. Boot from it rather than old Geneva-only TODAY/HANDOFF text.
 
-**Standing constraint:** **do not edit `AGENTS/*`** unless Will explicitly approves/scopes it. Today’s CORAL edits were explicitly scoped. WALTER deep-research flag tuning remains WALTER-owned; Prome monitors behavior and coordinates.
+**Standing constraint:** **do not edit `AGENTS/*`** unless Will explicitly approves/scopes it. WALTER-specific cleanup is being handled directly by Will/WALTER; Prome should monitor only unless scoped.
 
 ---
 
@@ -19,14 +19,14 @@
 
 | Surface | Role | Current note |
 |---|---|---|
-| `HEARTBEAT.md` | Regime, dashboard, thresholds, near gates | Geneva MOU defers oil shock; HY 263 near kill; cascade unconfirmed; carry red. |
-| `PROME/TODAY.md` | Operator card / immediate lane | Updated for Jun20 closeout: CORAL thesis rails installed; repo synced; market gates unchanged. |
-| `PROME/ACTIVE_DECISIONS.md` | Safety index for trade/expiry rails | CORAL row now reflects inbox processed + thesis rails installed; next work is per-metro/Q2 prep. |
-| `PROME/SCRATCH.md` | Working notes / latest session entry | Current closeout entry point: CORAL complete through thesis rails; repo clean/synced. |
+| `HEARTBEAT.md` | Regime, dashboard, thresholds, near gates | Hormuz re-closure declared; contested/not kinetic; energy tail re-fat; cascade unconfirmed. |
+| `PROME/TODAY.md` | Operator card / immediate lane | Updated for Jun20 end-of-thread closeout: push audit, DEWEY cleanup, near gates. |
+| `PROME/ACTIVE_DECISIONS.md` | Safety index for trade/expiry rails | Updated for Hormuz re-fat + DEWEY/auto-memory/audit state; trade rows remain verification-required. |
+| `PROME/SCRATCH.md` | Working notes / latest session entry | Current closeout entry point: heartbeat/automemory/DEWEY cleanup complete; repo expected clean/synced. |
 | `PROME/FLEET_SCAN.md` | Conditional fleet map | Stale Jun14 map; read only as historical unless refreshed on demand. |
-| `PROME/HANDOFF.md` | Live continuity surface | Top entry reflects CORAL boot/inbox/thesis work pushed. |
+| `PROME/HANDOFF.md` | Live continuity surface | Top entry reflects Jun20 heartbeat/automemory/DEWEY cleanup + audit. |
 | `PROME/BOOT.md` / `PROME/CLOSEOUT.md` | Start/end procedures | Follow; repo state first remains mandatory. |
-| `MEMORY.md` / `memory/YYYY-MM-DD.md` | Durable kernels / daily logs | Jun20 daily log created for CORAL boot/inbox/thesis installation. |
+| `MEMORY.md` / `memory/YYYY-MM-DD.md` | Durable kernels / daily logs | Jun20 daily log includes CORAL work plus later heartbeat/automemory/DEWEY/audit session. |
 
 ---
 
@@ -34,15 +34,16 @@
 
 | Lane | Status | Prome read |
 |---|---|---|
+| **HEARTBEAT / regime** | ✅ refreshed | Hormuz re-closure declared Jun20; contested/not kinetic; Jun22 tape is next confirmation. |
+| **Auto-memory load cap** | ✅ compacted | `memory/auto/MEMORY.md` under cap with all 143 links preserved; future compaction should be coordinated. |
+| **Active-agent push audit** | ✅ clean enough | 15 commits pulled clean; WALTER/version/TSV/script checks passed; issues are state drift, not breakage. |
+| **DEWEY root naming** | ✅ aligned | HEARTBEAT + `AGENTS_DIRECTORY.md` now use DEWEY; WALTER-specific follow-up belongs to WALTER. |
 | **CORAL maturity** | ✅ boot/inbox/thesis rails installed | Boot card, WALTER processed lane, NEXUS brief, thesis/changelog, and closeout rules are on origin. |
 | **CORAL next work** | 🟡 analytical follow-through | Per-metro convergence grid + Q2 FL-bank earnings prep; do not confuse household stress with bank-loss confirmation. |
-| **WALTER Routing v2** | ✅ real path proven | Full path works; Quick mode restricted to registered triggers/backfill only. |
-| **WALTER deep-research flag** | ✅ landed / active | CHECKLIST v0.18 ratified and verified: Full-only Phase 2.8, materiality gate, ledger `prompt_ref`+`deadline`, no FORMAT_SPEC header, `walter_doctor` overdue check in v1. |
-| **WALTER consumption rollout** | 🟡 OpenClaw progressed / CC pending | CORAL consume path now completed; CC recipient self-apply still pending for some persistent agents. |
-| **WALTER cron/feed health** | 🟠 stale upstream feeds | Doctor still flags stale `news-sweep`, `filing-watch`, `SIGNALS/inbound`; not caused by Routing v2. |
-| **SAM v1.6** | 🟡 draft / CFTC-gated | Audit fixes incorporated; convexity EV table supports hold-small-stub, not add size. Jun20 CFTC is the next real gate. |
-| **HAWK energy-strike framing** | ✅ audit fixes landed | Brent math/reference fixes, product/crack → Brent flip triggers, and BRENT handoff delivery all look clean. |
-| **FOMC / Geneva grading** | 🟡 mixed confirmation | Energy shock deferred; HY 263 near kill; VIX/banks benign; carry red. Need HY <260/CFTC-FXY/bank-PC follow-through. |
+| **WALTER Routing / DEWEY loop** | 🟡 WALTER-owned cleanup pending | Prome found stale push/registry wording; Will will pass directly to WALTER. Prome should not edit WALTER unless scoped. |
+| **WALTER cron/feed health** | 🟠 stale upstream feeds | Doctor still flags stale `news-sweep`, `filing-watch`, `SIGNALS/inbound`; Scout/VPS-track, not a Prome closeout fix. |
+| **SAM v1.6 / carry** | 🟡 CFTC-gated | Juneteenth-delayed CFTC read tests carry-convexity frame while USD/JPY >161. |
+| **Hormuz / energy tail** | 🟠 re-fat, unconfirmed | Declaratory closure is not physical escalation until behavior/tape confirms. |
 | **Position/broker reconciliation** | 🟠 pending | Keep separate from repo/doc cleanup; no expiry action without broker/Will truth. |
 
 ---
@@ -51,14 +52,13 @@
 
 | Lane | Priority | Status / owner note |
 |---|---:|---|
-| CORAL boot/inbox/thesis hardening | ✅ complete | All today’s CORAL changes committed/pushed; WALTER inbox 0 pending; thesis v1.0 installed. |
+| Jun22 Brent / Hormuz tape test | 🔴 next market lane | First real test of whether Jun20 declaration stays coercive/non-physical or reprices energy/vol. |
+| HY <260 / post-FOMC confirmation | 🔴 next market lane | Latest HY 263; watch <260, CFTC/FXY/carry, and bank/PC re-weakening. |
+| SAM v1.6 CFTC gate | 🟡 next SAM lane | Delayed CFTC read decides whether carry-convexity frame survives, weakens, or strengthens while USD/JPY >161. |
+| WALTER follow-up | 🟡 Will→WALTER | WALTER-specific push/registry/DEWEY drift found by Prome audit; Will will handle personally. |
+| DEWEY first live run | 🟡 pending | Phase 2 wiring shipped; first live run requires CONTEXT refresh first. |
 | CORAL per-metro convergence grid | 🟡 next CORAL lane | Miami/Tampa/Orlando/Jax/SW-FL grid using condo/SF/migration/tourism/negative-equity/bankruptcy/insurance vectors. |
 | CORAL Q2 FL-bank prep | 🟡 next CORAL lane | Focus diagnostic: synchronized deterioration across ≥2 FL-exposed banks or explicit USCB condo-association loan deterioration with corroboration. |
-| HY <260 / post-FOMC confirmation | 🔴 next market lane | Latest HY 263; watch <260, TIC/FXY/carry, and bank/PC re-weakening. |
-| WALTER deep-research candidate flag | ✅ active | WALTER landed v0.18; next work is behavior monitoring / future tuning only if noisy or missed flags appear. |
-| WALTER Quick-boundary / Full-WALTER standard | ✅ settled | Quick paused for fresh news; Full WALTER routes novel signals and owns research-flag judgment. |
-| WALTER Phase 2 consumption rollout | 🟡 mechanical follow-through | CORAL is done; remaining CC agents self-apply on next Claude Code spawn after pull. |
-| SAM v1.6 CFTC gate | 🟡 next SAM lane | Jun20 CFTC decides whether carry-convexity frame survives, weakens, or strengthens while USD/JPY >161. |
 | Position-state reconciliation | 🟠 pending | Needed for expiry/trade hygiene; broker/Will truth required. |
 | Separate-clones migration | 🟠 deferred | Post-FOMC calm-window decision packet; do not do halfway. |
 | Execution-rails design | 🔵 design debt | HYG Jun→Dec failure remains canonical: thesis needs pre-registered ladders and triggers. |
@@ -81,4 +81,4 @@
 
 ## Next Best Action
 
-Next: fresh-session boot from HEARTBEAT/SCRATCH/TODAY. First verify git state, expected clean/synced. If CORAL lane, build the per-metro convergence grid or Q2 bank prep. If market lane, monitor HY <260 / CFTC-FXY / banks-PC. If WALTER lane, monitor v0.18 behavior/doctor. Do not touch positions without Will/broker truth.
+Next: fresh-session boot from HEARTBEAT/SCRATCH/TODAY. First verify git state, expected clean/synced. If market lane, watch Jun22 Brent/Hormuz tape response + HY <260 + CFTC/carry. If system lane, wait for WALTER’s own cleanup rather than editing WALTER. If DEWEY lane, refresh CONTEXT before first live run. Do not touch positions without Will/broker truth.
