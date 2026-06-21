@@ -6,6 +6,7 @@
 **Recent thesis pivot:** v1.5 → v1.5.1 (Jun 3) — carry-unwind decomposed (CH-004 close); Aug-2024-speed demoted from base-case → hawkish-tail subset; conviction split direction-HIGH / timing-MEDIUM
 **Position:** 13 sh FXY + Jun-18 $58C; event-capped stop pre-Jun-16 (structural details in `thesis/THESIS.md` § Structural Pillars + `STRATEGY.md`)
 **As of:** 2026-06-07 ~5:34 PM ET (STATUS data through Fri 6/5 close) | STATUS commit: 6f4e531f
+**⚠️ BODY STALE (pre-BOJ):** the Status line above is current, but VIEW / CALIBRATION / CROSS-DOMAIN / FORWARD CATALYSTS below are Jun-7 — pre Jun-16 BOJ hike, pre Jun-17 FOMC (Warsh), pre Jun-17 Iran signing; SAM-21/23/24/26 have all since resolved. First full refresh under the new closeout write-back discipline (CLAUDE.md step 13a, wired 2026-06-21) is due at **v1.6 finalize** (post Mon-Jun-22 CFTC + RED). Do not consume the body as current until then.
 
 ---
 
@@ -73,4 +74,4 @@
 
 ---
 
-*Brief format follows the NEXUS_BRIEF schema as amended by NEXUS R3 + amendment 7 (RECENT THESIS PIVOT required; cross-agent tensions required; WATCH renamed FORWARD CATALYSTS; emoji per CLAUDE.md key 🟢none/🟡monitoring/🟠elevated/🔴active; conviction decomp optional per agent; Tier-1 agents only; WAITING FOR "Expected by" column required). Single SENDING table per Will. Pilot iteration 2 absorbed NEXUS consumer-review feedback (Sun Jun 7 PM). Updated at every SAM session closeout per SPAWN PROTOCOL discipline (write-back step pending CLAUDE.md amendment).*
+*Brief format follows the NEXUS_BRIEF schema as amended by NEXUS R3 + amendment 7 (RECENT THESIS PIVOT required; cross-agent tensions required; WATCH renamed FORWARD CATALYSTS; emoji per CLAUDE.md key 🟢none/🟡monitoring/🟠elevated/🔴active; conviction decomp optional per agent; Tier-1 agents only; WAITING FOR "Expected by" column required). Single SENDING table per Will. Pilot iteration 2 absorbed NEXUS consumer-review feedback (Sun Jun 7 PM). Updated at every SAM session closeout per SPAWN PROTOCOL write-back step 13a (CLAUDE.md amendment landed 2026-06-21).*

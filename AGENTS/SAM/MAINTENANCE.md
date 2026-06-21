@@ -8,6 +8,24 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
+## 2026-06-21 — WIRED NEXUS_BRIEF.md into the SPAWN PROTOCOL (closeout write-back + FILES + Doc-Ownership)
+
+**Trigger:** Will-directed boot-process cleanup. A 7-peer compare/contrast (BRENT/VIOLET/HENRY/CARL/HAWK/LIQUID/REGINALD, via background workflow) found SAM leads the fleet on internal apparatus (10-script boot.py actually wired + clean; calibration scoreboard preamble + PREDICTIONS_ARCHIVE; 3 stewards KOYOMI/METSUKE/KURA; evals/ + RECONCILIATION) but trails on the newer cross-agent plumbing. Specifically `NEXUS_BRIEF.md` — present since the ~Jun-6 NEXUS-schema rollout — was never wired into CLAUDE.md, so it rotted ~2wk stale (body As-of Jun-7, pre-BOJ). The brief's own footer flagged the gap verbatim: "write-back step pending CLAUDE.md amendment."
+
+1. **CLAUDE.md write-back § — new step 13a:** mandatory NEXUS_BRIEF refresh every session, fleet-standard no-change floor (bump As-of + STATUS commit hash). Mirrors BRENT/VIOLET/CARL closeout step 12.
+2. **CLAUDE.md MAIL/messaging note:** added NEXUS_BRIEF as the steady-state cross-agent synthesis surface (NEXUS + peers read it in place of raw STATUS).
+3. **CLAUDE.md Doc-Ownership table:** added NEXUS_BRIEF row (owns cross-agent synthesis; does NOT duplicate STATUS market tables / TIMELINE narratives).
+4. **CLAUDE.md FILES table:** added NEXUS_BRIEF.md row.
+5. **NEXUS_BRIEF.md:** footer updated (amendment landed, no longer "pending"); added ⚠️ BODY-STALE banner under As-of (body is pre-BOJ; first full content refresh due at v1.6 finalize).
+
+**Boot-impact:** none at boot (NEXUS_BRIEF is a closeout/write-back surface, not a boot read). +1 mandatory closeout step.
+
+**NOT YET DONE (tracked in MEMORY NEXT SESSION):** the first content refresh of the stale Jun-7 body — deferred to **v1.6 finalize** (analytical marks frozen pending Mon-Jun-22 CFTC + RED). The wiring is in place; the content catch-up rides the v1.6 SIG-to-LIQUID/HENRY pass.
+
+**Out of scope (flagged to Will, PROME-level):** SAM still lacks the WALTER `board_log.tsv` intake lane the rest of the fleet has — deliberately deferred per `[[project_messaging_overhaul]]`, not a SAM-local cleanup.
+
+---
+
 ## 2026-06-10 (PM) — NEW SCRIPT: trade_balance_japan.py + TRADE_BALANCE.tsv + boot.py wiring + TB docket date correction
 
 **Trigger:** Will-directed build (infra queue #1), planned with Orch spec review (4 decisions + 4 spec gaps + 3 SAM refinements — all adopted). Purpose: Jun-17 May TB print = Phase-1 stability lag-test; routing pre-registered in CALENDAR.
