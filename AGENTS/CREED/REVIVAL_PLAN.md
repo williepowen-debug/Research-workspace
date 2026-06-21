@@ -2,7 +2,7 @@
 
 **Created:** 2026-06-21
 **Owner:** Prome until CREED is bootable; CREED owns after revival.
-**Status:** Phase 2 boot surface installed. Not yet live analytical truth.
+**Status:** Phase 3 fresh-data refresh drafted. Thesis rails not installed yet.
 
 ---
 
@@ -27,7 +27,8 @@ Top-level `AGENTS/CREED/` is now bootable but not analytically current:
 - `AGENTS/CREED/STATUS.md`
 - `AGENTS/CREED/REVIVAL_PLAN.md`
 - `AGENTS/CREED/inbox/2026-02-24_signals.md`
-- no live refresh/workbook/research tree yet
+- Phase 3 refresh: `AGENTS/CREED/research/REFRESH_2026-06-21.md`
+- no live workbook/thesis rails yet
 
 The real legacy CREED body lives under REGINALD:
 - `AGENTS/REGINALD/sub-agents/CREED/STATUS.md`
@@ -102,9 +103,10 @@ These include mandate, scope boundaries, stale-state warning, source archive poi
 
 ### Phase 3 — Fresh data refresh
 
-Create a dated CREED research refresh.
+Completed 2026-06-21:
+- `AGENTS/CREED/research/REFRESH_2026-06-21.md`
 
-Minimum refresh list:
+Refresh covered:
 - latest Trepp CMBS delinquency / special servicing by property type
 - Morningstar/DBRS 2026 maturity wall and maturity-default outlook
 - FDIC Q1 2026 CRE delinquency / PDNA
