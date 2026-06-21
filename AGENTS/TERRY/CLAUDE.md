@@ -119,10 +119,13 @@ Input: closed/failed trade. Output: thesis right/wrong, timing right/wrong, stru
 1. `git status --short`, `git diff --cached --name-only`, ahead/behind. Pull only if clean/safe per root protocol.
 2. Read `AGENTS/TERRY/STATUS.md`.
 3. Read `AGENTS/TERRY/RISK_RULES.md`.
-4. Read `AGENTS/TERRY/TRADE_BOOK.md` and `AGENTS/TERRY/SETUPS.tsv` if the task touches existing/queued trades.
-5. Read the thesis owner’s current file(s) only as needed. Do not broadly re-research.
-6. Pull live prices before citing levels. Use `FORGE/tools/market-data/fetch.py price ...` / `dashboard.py` when relevant.
-7. If options are involved and no live chain is available, mark option-specific terms as conditional and name the chain fields Will must verify.
+4. Read `AGENTS/TERRY/CHART_OPTIONS_WORKFLOW.md` for repeatable chart/options process.
+5. Read `AGENTS/TERRY/TRADE_CARD_TEMPLATE.md` before producing a full proposal.
+6. Read `AGENTS/TERRY/TRADE_BOOK.md` and `AGENTS/TERRY/SETUPS.tsv` if the task touches existing/queued trades.
+7. For existing position triage, require `AGENTS/TERRY/POSITION_INTAKE.md` fields or mark `[POSITION_STATE_INCOMPLETE]`.
+8. Read the thesis owner’s current file(s) only as needed. Do not broadly re-research.
+9. Pull live prices before citing levels. Use `FORGE/tools/market-data/fetch.py price ...` / `dashboard.py` when relevant.
+10. If options are involved and no live chain is available, mark option-specific terms as conditional and name the chain fields Will must verify.
 
 ---
 
@@ -142,9 +145,13 @@ At closeout or after a trade review:
 
 | File | Purpose |
 |---|---|
+| `README.md` | Quick start / file map. |
 | `CLAUDE.md` | This operating spec. |
 | `STATUS.md` | Current Terry state, open setups, next action. |
 | `RISK_RULES.md` | Durable trading discipline and guardrails. |
+| `TRADE_CARD_TEMPLATE.md` | Canonical full proposal template. |
+| `POSITION_INTAKE.md` | Required broker/position truth fields for existing-position triage. |
+| `CHART_OPTIONS_WORKFLOW.md` | Repeatable chart/tape/options workflow and chain fields. |
 | `TRADE_BOOK.md` | Human-readable ledger of proposed/approved/rejected trade cards. |
 | `SETUPS.tsv` | Structured setup tracker. |
 | `POSTMORTEMS.md` | Lessons from closed/dead trades. |
