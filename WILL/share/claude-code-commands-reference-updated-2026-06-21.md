@@ -63,7 +63,8 @@ Grouped files such as `AGENTS/_CREDIT.md`, `AGENTS/_ENERGY.md`, and `AGENTS/_NET
 - ATHENA — reading / knowledge
 - ORACLE — prediction markets
 - TERRY — trade construction desk; proposes only
-- BUFFER / EARNINGS / SENTRY / TRADES — ops, event, and trade-support surfaces
+- TRADES — archived/dormant; old candidate scratchpad now lives in TERRY archive
+- BUFFER / EARNINGS / SENTRY — ops, event, and trade-support surfaces
 
 ### Main transmission chains
 
@@ -419,14 +420,6 @@ tmux new -s sentry -d 'cd ~/Research-workspace/AGENTS/SENTRY && claude --dangero
 tmux attach -t sentry
 ```
 
-### TRADES
-
-_Trade artifacts surface._
-
-```bash
-tmux new -s trades -d 'cd ~/Research-workspace/AGENTS/TRADES && claude --dangerously-skip-permissions'
-tmux attach -t trades
-```
 
 ## TMUX BASICS
 
