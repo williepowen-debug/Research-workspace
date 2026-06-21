@@ -22,6 +22,8 @@ Key updates since prior HEARTBEAT:
 
 ## Stress dashboard
 
+**Weekend freshness note:** last dashboard / Fri-close orientation, not fresh Sunday market data. Preserve observation dates; refresh dashboard/FRED before citing levels as current.
+
 HY OAS **263🟢 [FRED 6/17]** *(3bp above <260 kill)* · CCC **939🟡 [FRED 6/17]** · 10Y **4.49🟡 [FRED 6/17]** · TLT **$86.75🟡** · VIX **16.78🟢** · Brent **$80.59🟢** *(pre-Jun20 re-closure declaration; Jun22 reopen is test)* · Gas weekly **4.05🔴 [6/15]** · USD/JPY **161.28🔴** · WAL **$79.91🟢** · KRE **$71.72🟢** · OZK **$49.26🟡** · APO **$137.50** *(high alts tape still contradicts immediate PC-bear timing)* · ARES **$129.34🟡** · BIZD **$12.36🔴** · FXY **$56.85🔴** · Initial claims **226k🟡 [6/13]** / shadow est **281k** · Continuing claims **1.810M🟢 [6/6]** · SOFR-IORB **-0.02🟢 [6/17]** · CP-TBill **0.08🟢 [6/17]**
 
 ## Thresholds
@@ -50,7 +52,7 @@ HY OAS **263🟢 [FRED 6/17]** *(3bp above <260 kill)* · CCC **939🟡 [FRED 6/
 
 **Approved Jun 4:** Prome owns `HEARTBEAT.md`. Update after Prome boot-surface refreshes, regime-level changes, major decision-rail changes, or when >48h stale during market week. Do **not** update daily by default just for hygiene.
 
-## Near Gates — Jun 20–24
+## Near Gates — Jun 21–24
 
 | Date / Window | Gate | Owner(s) | Read |
 |---|---|---|---|
@@ -68,8 +70,8 @@ HY OAS **263🟢 [FRED 6/17]** *(3bp above <260 kill)* · CCC **939🟡 [FRED 6/
 | 🔴 | **HY <260 kill-line monitoring.** Latest HY **263 [FRED 6/17]**; <260 still not confirmed but very close. Sustained <260 kills/reprices R3 blended-credit axis unless bank/private-credit deterioration offsets. | NEXUS/ORC review, dashboard |
 | 🔴 | **Jun20 Hormuz declaration tape test.** Official re-closure declaration is contested and non-kinetic so far; Jun22 Brent/vol/insurance/traffic response decides whether tail reprices. | `AGENTS/BRENT/STATUS.md`, `AGENTS/HAWK/STATUS.md` |
 | 🔴 | **Post-FOMC / carry divergence.** Claims benign/yellow, VIX/banks calm, energy tail re-fat but unconfirmed; carry remains red and HY remains near kill. Need next HY print + SAM/CFTC carry read. | `PROME/TODAY.md`, `PROME/ACTIVE_DECISIONS.md` |
-| 🟠 | **WALTER Iran anchor re-verify due.** WALTER’s 6/19 de-escalation anchor is now behind BRENT/HAWK Jun20 domain updates; re-verify before routing Iran-cluster signals on the old frame. | `AGENTS/WALTER/anchors/IRAN_WAR.md` |
-| 🟠 | **WALTER / DEWEY Phase 2/3.** DEWEY (formerly RESEARCHER) Phase 2 wiring is shipped; next gate is first live DEWEY run after CONTEXT refresh. | `AGENTS/DEWEY/REVIVAL_PLAN.md`, `AGENTS/WALTER/LAST_COMPLETION.md` |
+| 🟡 | **WALTER Iran anchor re-verified; monitor next signals.** WALTER’s Iran anchor has been re-stamped after BRENT/HAWK Jun20 updates; do not route Iran-cluster signals from the old 6/19 de-escalation-only frame. | `AGENTS/WALTER/anchors/IRAN_WAR.md` |
+| 🟠 | **WALTER / DEWEY Phase 2/3.** DEWEY Phase 2 wiring is shipped; next gate is first live DEWEY run after CONTEXT refresh. | `AGENTS/DEWEY/REVIVAL_PLAN.md`, `AGENTS/WALTER/LAST_COMPLETION.md` |
 | 🟠 | **Jun18/19 expiry cleanup.** HYG dead; TLT/WAL/non-TLT legs require broker reconciliation. | `PROME/ACTIVE_DECISIONS.md` |
 | 🟠 | **Position-state reconciliation pass.** Separate future task; do not mix with market synthesis unless Will pivots. | `PROME/ACTIVE_DECISIONS.md` |
 | 🔵 | **PROME execution-rails design.** HYG roll Jun→Dec died for lack of mechanism; design debt. | BROCK LESSONS #16 |
