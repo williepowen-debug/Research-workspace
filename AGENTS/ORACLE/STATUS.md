@@ -1,8 +1,8 @@
 # ORACLE STATUS
 
-**Updated:** 2026-06-18 21:36 ET (pull `2026-06-19T01:36Z`) — revived + gap-audited (watchlist 8→14)
+**Updated:** 2026-06-21 (metrics module added; latest odds below remain 2026-06-18/19 pull) — revived + gap-audited (watchlist 8→14)
 **Domain:** Prediction-market monitoring (Polymarket) — crowd-vs-thesis divergence
-**Data:** live via `scripts/polymarket.py pull --log` (Gamma API). Time series → `workbook/ODDS_LOG.tsv`. Cross-agent surface → `NEXUS_BRIEF.md`.
+**Data:** live via `scripts/polymarket.py pull --log` (Gamma API). Time series → `workbook/ODDS_LOG.tsv`. Cross-agent surface → `NEXUS_BRIEF.md`. Metric layer → `PREDICTION_MARKET_METRICS.md`.
 **State:** 🟠 — one 🔴 alert (Iran de-escalation, now oil-corroborated), one large standing divergence (recession).
 
 ---
@@ -73,6 +73,7 @@
 ---
 
 ## Maintenance flags
+- **Metrics module added:** use `PREDICTION_MARKET_METRICS.md` for entropy, KL bits, entropy-collapse anomaly alerts, liquidity/resolution discounts, and ORACLE→TERRY handoff packets. Metrics do not authorize auto-trading.
 - **Jun 30 / Jul 1 resolutions:** bank-failure, named-bank, Iran, both WTI rungs — roll to next-period markets before they resolve (fetcher will flag ⏳ at ≤7d).
 - **Dead market:** June-unemployment event = $63 vol — replace with a liquid labor market or drop.
 - **Thesis refresh owed:** recession/bank thesis numbers are Apr baseline (RED).

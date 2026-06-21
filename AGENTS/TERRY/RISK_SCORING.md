@@ -192,7 +192,11 @@ GOOD_LOSS_PROCESS_WORKED
 
 ## 7. Prediction Market / ORACLE-Specific Add-On
 
-If TERRY reviews ORACLE/prediction-market ideas:
+ORACLE owns the prediction-market metric layer:
+
+- `AGENTS/ORACLE/PREDICTION_MARKET_METRICS.md`
+
+If TERRY reviews ORACLE/prediction-market ideas, require ORACLE’s handoff packet or equivalent data:
 
 Require:
 
@@ -210,10 +214,16 @@ Mispricing template:
 p_market = market price adjusted for fees/spread
 p_model = thesis-owner probability estimate
 edge = p_model - p_market
-tradeable_edge = edge - liquidity_discount - resolution_risk_discount
+kl_bits = ORACLE dislocation / attention score
+tradeable_edge = edge - spread_cost - fee_cost - liquidity_discount - resolution_risk_discount - model_uncertainty_discount
 ```
 
-If `tradeable_edge <= 0`, no trade.
+If `tradeable_edge <= 0`, no trade. KL bits can prioritize review, but cannot make a trade executable by itself.
+
+Entropy / anomaly guardrail:
+
+- entropy collapse may indicate informed flow, whale activity, delayed public news, manipulation, or resolution confusion.
+- TERRY must not treat an entropy-collapse alert as tradeable without liquidity, public-news, and resolution checks.
 
 Guardrail:
 
