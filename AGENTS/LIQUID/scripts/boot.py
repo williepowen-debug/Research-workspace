@@ -13,6 +13,7 @@ PRE-TRIGGER / TRIGGER-A / UNWIND / co-trigger), not invented independently.
       .venv/bin/python3 AGENTS/LIQUID/scripts/boot.py
       .venv/bin/python3 AGENTS/LIQUID/scripts/boot.py --verbose   # every value + 6-print trend
       .venv/bin/python3 AGENTS/LIQUID/scripts/boot.py --quick     # FRED only (skip slow yfinance)
+      .venv/bin/python3 AGENTS/LIQUID/scripts/boot.py --selftest  # validate CATALYSTS/PREDICTIONS + fetch import
 
 Basis canon (declare when citing a number downstream): FRED OAS / H.15 are end-of-day
 computed and publish T+1 — the latest print may be 1-2 sessions back, more over a
@@ -356,6 +357,52 @@ def predictions_scan():
     return overdue
 
 
+def selftest():
+    """Validate the data files + fetch import (fail-loud parser test). Returns 0 pass / 1 fail."""
+    ok = True
+    print("  ✓ FORGE fetch.py import OK")   # module-load would have exited 2 otherwise
+
+    cat = LIQUID_DIR / "workbook" / "CATALYSTS.tsv"
+    if not cat.exists():
+        print("  ⚠️  CATALYSTS.tsv not found")
+    else:
+        rows = cat.read_text().splitlines()
+        exp = ["date", "event", "what_to_check", "threshold_signal",
+               "priority", "who_cares", "notes", "date_class"]
+        if rows[0].split("\t") != exp:
+            print(f"  ✗ CATALYSTS.tsv header mismatch: {rows[0].split(chr(9))}")
+            ok = False
+        bad = 0
+        for i, ln in enumerate(rows[1:], 2):
+            p = ln.split("\t")
+            if len(p) != 8:
+                print(f"  ✗ CATALYSTS.tsv line {i}: {len(p)} fields (expect 8)")
+                ok = False; bad += 1; continue
+            try:
+                datetime.strptime(p[0], "%Y-%m-%d")
+            except ValueError:
+                print(f"  ✗ CATALYSTS.tsv line {i}: bad date {p[0]!r}")
+                ok = False; bad += 1
+        if not bad and ok:
+            print(f"  ✓ CATALYSTS.tsv OK ({len(rows) - 1} rows, 8 cols, dates parse)")
+
+    pred = LIQUID_DIR / "workbook" / "PREDICTIONS.tsv"
+    if not pred.exists():
+        print("  ⚠️  PREDICTIONS.tsv not found")
+    else:
+        rows = pred.read_text().splitlines()
+        hdr = rows[0].split("\t")
+        unparsed = [d.get("Pred_ID", "?") for d in (dict(zip(hdr, ln.split("\t"))) for ln in rows[1:])
+                    if d.get("Status", "").strip().upper() == "OPEN" and not _parse_timeframe(d.get("Timeframe", ""))[1]]
+        if unparsed:
+            print(f"  ⚠️  PREDICTIONS.tsv OPEN rows with unparseable Timeframe: {unparsed} (scan flags manual-check)")
+        else:
+            print("  ✓ PREDICTIONS.tsv OK (all OPEN timeframes parse)")
+
+    print(f"\n  SELFTEST: {'PASS' if ok else 'FAIL'}")
+    return 0 if ok else 1
+
+
 # ---------------------------------------------------------------------------
 # Output
 # ---------------------------------------------------------------------------
@@ -407,6 +454,9 @@ def summary(elapsed, imminent=0, overdue=0):
 
 
 def main():
+    if "--selftest" in sys.argv:
+        print("\n  LIQUID boot.py --selftest")
+        return selftest()
     quick = "--quick" in sys.argv
     verbose = "--verbose" in sys.argv
     t0 = datetime.now()

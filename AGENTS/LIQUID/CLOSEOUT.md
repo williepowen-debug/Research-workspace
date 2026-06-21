@@ -77,6 +77,7 @@ Touch only the rows below that this session actually changed.
 |---|---|---|
 | `workbook/KB.tsv` | Session produced a durable finding (structural, not episode) | Append KB-LIQ-NNN row with date/category/tag/fact/source/conf/status/stale_by/notes. Cross-link to source file if applicable. |
 | `workbook/PREDICTIONS.tsv` | A prediction resolved (achieved, falsified, expired) | Update Status / Date_Resolved / Outcome / Notes |
+| `workbook/CATALYSTS.tsv` | A dated catalyst was added, resolved, or its date shifted | Add/update/retire the row; keep `CALENDAR.md` (human twin) in sync — no event-set divergence; run `scripts/boot.py --selftest` to validate |
 | `workbook/KILL_MEMO_HY_OAS_260.md` | Trigger ladder thresholds changed or a trigger fired | Update tier rows; mark fired triggers |
 | `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` | Q1 BDC marks landed or new mark divergence | Update OBDC/ARCC/BXSL/MAIN rows |
 | `workbook/FLOW.tsv` / `workbook/VX.tsv` | A registry entry was touched (status change, new vector) | Surgical row update |
@@ -182,6 +183,7 @@ One short message:
 | `thesis/THESIS.md` / `thesis/CHANGELOG.md` / `thesis/TIMELINE.md` | Don't auto-touch; thesis-rewrite sessions only |
 | `workbook/KB.tsv` | Append only if durable finding (most sessions: skip) |
 | `workbook/PREDICTIONS.tsv` | Only if a prediction resolved |
+| `workbook/CATALYSTS.tsv` | Sync with `CALENDAR.md` on any dated-catalyst add/resolve (boot countdown reads it); `boot.py --selftest` to validate |
 | `workbook/KILL_MEMO_HY_OAS_260.md` | Only if trigger ladder changed |
 | `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` | Only if Q1 marks landed |
 | `workbook/FLOW.tsv` / `workbook/VX.tsv` | Only if registry entry updated |
