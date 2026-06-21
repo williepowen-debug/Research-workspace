@@ -28,8 +28,8 @@
 
 ## Current Git State
 
-- Clean and synced to origin as of closeout start.
-- Closeout edits are Prome-owned: `PROME/*` + `memory/2026-06-20.md`.
+- Clean and synced to origin after closeout push.
+- Latest closeout edits are Prome-owned: `PROME/*` + `memory/2026-06-20.md`, committed and pushed.
 - Continue pathspec-only commits; avoid broad add/reset/stash.
 
 ## Current Operating Picture
@@ -43,7 +43,7 @@
 
 ## Next Reboot Entry Point
 
-1. Run repo-state first; expected clean/synced after this closeout if pushed.
+1. Run repo-state first; expected clean/synced after the closeout push.
 2. Read `HEARTBEAT.md` for regime. Do not boot from old TODAY Geneva framing.
 3. If market lane: refresh dashboard/FRED HY and watch Jun22 Brent response / HY <260 / CFTC carry / bank-PC offset.
 4. If system lane: avoid WALTER edits unless scoped; Will is passing WALTER points directly. Prome can monitor after WALTER’s next closeout.
