@@ -30,7 +30,7 @@ A heavy, clean multi-batch routing session. The most consequential output was co
 
 ## GAPS
 
-- **Push DEFERRED** — SAM (workbook CPI/FXY_OPTIONS) + BRENT (inbox russian-crude handoff) uncommitted in the tree at boot. All 34 handoffs + BOARD + logs committed LOCAL only; they reach recipients on the next Will-coordinated push. Pathspec-scoped commit (only WALTER + BOARD + the inbox/WALTER/SIG-W-20260621-* handoffs) — did NOT touch SAM/BRENT files.
+- **PUSHED + SYNCED** `fa5287c0` (Will said "commit and push if safe" → clean FF `1c461fae..fa5287c0`, swept 3 SAM NEXUS_BRIEF commits + this WALTER commit to origin; 0/0). Pathspec-scoped commit (only WALTER + BOARD + the inbox/WALTER/SIG-W-20260621-* handoffs) — did NOT touch SAM/BRENT files. SAM (workbook CPI/FXY_OPTIONS) + BRENT (inbox russian-crude) still have uncommitted working-tree edits — left local, untouched (a FF push moves refs only). All 34 handoffs are now on origin (delivered, pending recipient consume).
 - **34 `delivered_but_unconsumed`/pending-push** will surface in walter_doctor next boot (the 6/21 batch + the prior 6/18 batch) — expected; recipient-side + push-gated.
 - **SIG-009 owes a LIQUID validation** — the "excess-liquidity index negative" claim was routed at 0.55, NOT propagated as fact; LIQUID maps it to a named gauge before it's load-bearing.
 - **MEMORY.md over cap** (~150 lines after this session) + **SESSION LOG over "last 5"** (now ~12 rows) — prune/trim deferred (risky surgery, not on a heavy intake session). Carry-forward.
