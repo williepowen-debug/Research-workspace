@@ -31,26 +31,29 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (Fri Jun 19 ~6:30 PM ET closeout → Sat Jun 20 ~10:28 AM ET boot)
+### CHANGES SINCE LAST SESSION (Sat Jun 20 ~10:30 AM ET closeout → Sun Jun 21 ~5:23 PM ET boot)
 
-- **🔴 Iran RE-DECLARED Hormuz CLOSED Sat Jun 20 + Lebanon re-heated** (cross-agent BRENT THESIS v4.0→v4.1 / HAWK B34/C44/D22, both committed 6/20). Joint military command "first step" citing US/Israel breach of MOU clause-1 (continued Israeli Lebanon strikes). **DECLARATORY — physical effect DISPUTED** (CENTCOM: traffic flows, ~55 ships transited Sat; no tanker attack/mine/seizure). Diplomacy NOT collapsed (Switzerland nuclear talks still Sun Jun 21). Verified NBC/Axios/CBS/ToI.
-- **🟡 National May CPI (Fri Jun 19) SOFT** — headline 1.5 / core 1.4 (4th straight month <2% target, 4-yr low) / core-core 1.8 (slight dovish miss vs 1.9). Headline ↑ only on energy base-effect (utility-subsidy expiry). Thins the post-1.00% Oct-hike repricing.
-- **🔴 CFTC v1.6 EV-gate print delayed to Mon Jun 22** — Fri Jun 19 was Juneteenth (federal holiday) → COT release shifts to next business day. Docket had it mis-dated "Sat Jun 20."
-- **Markets weekend-closed:** Brent $80.59 Fri (the +0.93% Fri tick partly transit-chill / Switzerland-cancellation = early edge of the re-escalation); USDJPY 161.28, FXY $56.85 (≈−$19), JGB Jun-18 pub 10Y 2.628 / 30Y 3.737. No new data until Mon.
+- **Levels flat over the weekend** (Sun FX reopen ~unchanged): USDJPY 161.23 (MOF silent ~5 sessions at 160+; **161.96 = weakest-since-1986 record**, ~16 pips above Fri's 161.80 intraday — the precise level Tokyo trades Monday, not a loose "162"), FXY $56.85, Brent $80.59, FXY ATM IV 12.51%. No new authoritative data (CFTC/JGB/MOF weekend-frozen).
+- **Iran diplomacy bumpy, NOT collapsed:** US-Iran Switzerland (Lake Lucerne) talks convened Sun Jun-21; Iran walked out ~90min over Trump rhetoric, mediators (Qatar/Pakistan) kept shuttle diplomacy alive. **Lebanon de-escalating** (cabinet ordered Hezbollah disarmament; Israel holds fire) — undercuts Iran's stated rationale for the Sat declaratory Hormuz re-closure → reads as reversible leverage. No fresh kinetic / tanker attacks since Jun-19; Phase-1 oil-in-yen stays dormant.
+- **🆕 Ueda discharged Fri Jun-19, returns to work Tue Jun-23** (~5wk earlier than the modeled Jul-30/31) — leadership-overhang tail removed; back before the Jun-24 SoO / Jul-31 MPM. (Logged this session.)
+- **Fed-HIKE regime firmed:** Polymarket "Fed hike 2026" ~56%→~66%; UST repricing holding (no dovish walk-back); Himino Jun-19 hawkish "cost of being late" → Pillar-1 vector further adverse to near-term long-yen.
+- **JGB long-end drifted up:** 30Y 3.84% / 10Y 2.65% / 40Y 3.74% Jun-19 close (Trading Economics aggregator; ~16bp from the 4.0% line — ⚠️ confirm at next MOF pub).
 
-### LAST SESSION (Sat Jun 20 ~10:28 AM ET boot → closeout — maintenance/orientation arc, 2 SAM commits)
+### LAST SESSION (Sun Jun 21 ~5:23 PM ET boot → closeout — systems-cleanup + 48h news-sweep arc; 6 SAM commits, ALL PUSHED)
 
-**No analytical re-marks — canonical thesis stays v1.5.1+Jun-18-strip; v1.6 pending Mon CFTC + RED. Money fields untouched (13 sh @ $58.32 / Jun-18 $58C expired worthless / stop interim single-leg $55.05).**
+**No analytical re-marks — canonical stays v1.5.1+Jun-18-strip; v1.6 pending Mon CFTC + RED. Money fields untouched (13 sh @ $58.32 / Jun-18 $58C expired / interim stop single-leg FXY ≤ $55.05).**
 
-- **Booted + pulled** — already synced to origin @ `68f39dbd`, clean.
-- **STATUS refreshed to Sat Jun 20 weekend levels** (`c382ebcc`) — market table / thresholds / position rebuilt **data-only**; National May CPI row added; Jun-18 $58C marked expired worthless; resolved BOJ-pricing rows dropped.
-- **National May CPI verified + SAM-27 CLEARED:** the "April core 2.2% vs SAM's 1.4%" discrepancy I flagged was a **bad-aggregator (stockpil.com) pull on MY end** — SAM's records (April core 1.4 / core-core 1.9) match Reuters/CNBC exactly → **SAM-27 correctly scored TRUE, scoreboard intact, the error was mine.** Source-discipline finding logged (Findings 6/20). *(Lesson: suspect your own fresh pull before doubting curated records; first-touch a wire-tier source.)*
-- **CFTC EV-gate date corrected Sat Jun 20 → Mon Jun 22 (Juneteenth)** across CATALYSTS.tsv (countdown verified), CALENDAR, STATUS, STRATEGY (7 refs), MEMORY, THESIS_v1.6_DRAFT (15 release-date refs; "Jun 16 data" preserved) — full downstream-propagation sweep ([[finding_verification_correction_downstream_propagation]]).
-- **Checked BRENT+HAWK (Will-directed)** — read their actual files + independently verified the Hormuz re-closure; logged to CALENDAR GEOPOLITICAL/PHASE-2 watch + v1.6 "Oil/MOU re-escalation" tail-route flag (candidate ~10-12% pending Mon) (`a49c73ae`). **NO re-mark** — declaratory ≠ physical; near-term FX ambiguous-to-yen-NEGATIVE (USD-haven, Phase-1 supply-destruction inverts for Japan) → fattens the convexity TAIL only; price authority deferred to BRENT.
+- **Booted + market refresh** (boot.py 10/10 clean; Sun levels flat vs Sat — reported to Will, no STATUS-table churn).
+- **Peer boot-process compare/contrast** (Will-directed; 7-agent workflow BRENT/VIOLET/HENRY/CARL/HAWK/LIQUID/REGINALD). Finding: SAM leads the fleet on *internal* apparatus (10-script boot.py wired+clean, calibration scoreboard+archive, 3 stewards, evals/RECONCILIATION) but trails on the *cross-agent* plumbing — `NEXUS_BRIEF` was unrooted; the WALTER `board_log` lane is unbuilt (deferred per [[project_messaging_overhaul]], PROME-level — not a SAM cleanup).
+- **Wired `NEXUS_BRIEF` into the SPAWN PROTOCOL** (Will-approved, `89da3b7a`) — new closeout **step 13a** (mandatory refresh + no-change floor) + FILES + Doc-Ownership + messaging note; MAINTENANCE logged. The brief had rotted ~2wk stale (Jun-7 body) for lack of wiring; its own footer flagged the gap verbatim.
+- **Refreshed `NEXUS_BRIEF` body** to current canonical (`e02c8695`), then again at closeout (step 13a) folding the sweep findings (Jun-24 SoO + Ueda-return + Fed-66%) — settled facts only; v1.6 re-marks flagged in-progress, NOT fabricated.
+- **48h news-sweep** (Will-directed; 6-vector workflow) — quiet, net thesis-CONFIRMING weekend; 2 genuinely-new dated facts (Ueda return, Jun-24 SoO), rest extends-known and leans weak-yen/no-unwind. Full read shipped to Will.
+- **Logged the 2 sweep findings** (`f4adf1b3`) — Ueda-return corrected (source-verified via BOJ/Reuters; **did NOT touch the legit Jul-30/31 next-MPM rows** — the stale fact had borrowed that date); Jun-24 BOJ Summary of Opinions added to docket (CALENDAR + CATALYSTS, parses clean at 3d). Breadcrumb 7a holds the v1.6 inputs.
+- **Committed + PUSHED all** (incl. `7a0351cb` boot-TSV refresh; fast-forward, in sync with origin — push-train confirmed: WALTER's 6/21 PM push swept the first 3 SAM commits to origin).
 
 ### NEXT SESSION
 
-**Imminent — Mon Jun 22 is the convergence point (CFTC EV-gate + Brent decoupling test land the SAME DAY):**
+**Imminent — Mon Jun 22 is the convergence point (CFTC EV-gate + Brent decoupling test, SAME DAY); then Wed Jun-24 BOJ Summary of Opinions:**
 
 1. **✅ Fri Jun 19 National May CPI — VERIFIED (Sat Jun 20 boot; `cpi_japan.py` down/ESTAT_APPID unset, pulled manually + cross-checked Reuters/CNBC/Japan Times):** headline **1.5%** (↑ from 1.4% Apr — energy base-effect from utility-subsidy *expiry*, NOT demand), core ex-fresh-food **1.4%** (held flat; 4th straight month <2% target, 4-yr low; matched fcst), core-core **1.8%** (−10bp vs Apr 1.9% / fcst 1.9% — slight dovish miss). **Net: soft/dovish underlying → thins the post-1.00% BOJ Oct-hike repricing (multi-month tail thinner); thesis-coherent (BOJ hiked on wage/activity mechanism, CPI stays soft).** Feed these verified figures into v1.6 DRAFT open question #8. ⚠️ Do NOT use the `stockpil.com` aggregator figures (core 2.1%) — wrong; see Findings 6/20.
 2. **🔴 Mon Jun 22 CFTC JPY COT (Jun 16 data — first post-catalyst print; delayed from Fri Jun 19/Sat by Juneteenth holiday) — v1.6 EV-table DECISION-GRADE.** Pre-registered: cover <-120K (~67% peak) → v1.6 frame FAILS margin test → **trim/close discussion**; holds -140K to -150K (78-83%) → frame survives margin → vehicle question stays open; builds through -153K/85% → amplifier escalates +5pp → +8-10pp → frame STRENGTHENED (gross EV ~+3.0%, net ~+1.3%). This is THE observable. **🔴 SAME DAY — also run the Brent decoupling test:** Iran re-declared Hormuz CLOSED Sat Jun 20 (Lebanon-breach; declaratory-not-physical; cross-agent BRENT THESIS v4.1 / HAWK B34/C44/D22). Mon Jun 22 Brent reopen → spike = de-escalation thesis breaks (oil-in-yen re-activates; v1.6 "Oil/MOU re-escalation" tail-route fattens); shrug = holds. Pair the read with the CFTC gate. See CALENDAR GEOPOLITICAL WATCH (logged 6/20).
@@ -76,7 +79,7 @@
 
 **⏸️ DEFERRED:** Layer B cross-agent (BROCK/HANS PC-cascade pull); KB cleanup tier-2; insurer profiles audit; Japanese-source pipeline retire; SIGNAL_INTAKE archive; NEXUS_BRIEF rollout = Will-action.
 
-**Closeout (Sat Jun 20):** 2 SAM commits this session — `c382ebcc` (boot refresh + CFTC date fix) + `a49c73ae` (Iran re-closure log) — **LOCAL, NOT pushed** (Will-coordinated push deferred). Tree clean. Ahead of origin by these 2 + 4 concurrent BRENT/HAWK commits (6/20, Iran v4.0/v4.1) — all committed-unpushed, await Will's next push window (push-train sweeps together). **Un-promoted auto-memory candidate:** source-discipline finding (Findings 6/20) — left local pending Will endorsement per the prior promotion pattern.
+**Closeout (Sun Jun 21):** 6 SAM commits, **ALL PUSHED** to origin (in sync, tree clean): `89da3b7a` NEXUS_BRIEF wire · `e02c8695` brief refresh · `78f3128d` MEMORY breadcrumb · `f4adf1b3` sweep logging (Ueda + Jun-24 SoO) · `7a0351cb` boot-TSV data · + this closeout (NEXUS_BRIEF step-13a refresh + MEMORY session-notes + STATUS stamp). No METSUKE/KURA/KOYOMI spawn — no marks/thesis moved; the docket edit was a clean 1-row source-verified add. **Un-promoted auto-memory candidate still pending:** source-discipline finding (Findings 6/20) — left local pending Will endorsement per the prior promotion pattern.
 
 ### NEXT INFRA SESSION (script build queue — re-prioritized Jun 10)
 
