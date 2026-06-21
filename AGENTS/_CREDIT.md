@@ -10,10 +10,10 @@ Canonical paths remain `AGENTS/<NAME>/`. This file is an index only.
 | CARL | [`CARL/`](./CARL/) | Consumer credit, housing, delinquencies, phantom debt; receives LABOR stress. |
 | OTTO | [`OTTO/`](./OTTO/) | Auto and consumer DQ canary; feeds CARL. |
 | DOC | [`DOC/`](./DOC/) | CARL-linked consumer/medical/adjacent credit subdomain. |
-| REGINALD | [`REGINALD/`](./REGINALD/) | Regional banks, CRE, NDFI exposure, WAL/OZK bank transmission. |
+| REGINALD | [`REGINALD/`](./REGINALD/) | Regional banks, NDFI exposure, CRE bank transmission, WAL/OZK bank transmission. |
 | OZK | [`OZK/`](./OZK/) | Bank OZK focused surface; spun out from REGINALD. |
 | CORAL | [`CORAL/`](./CORAL/) | Florida convergence: real estate, insurance, FL banks, migration/tourism. |
-| CREED | [`CREED/`](./CREED/) | CRE-focused bank/credit subdomain. |
+| CREED | [`CREED/`](./CREED/) | National CRE / CMBS market stress; feeds REGINALD, CORAL, LIQUID, and CARL. Claude Code roster — do not spawn without explicit Will permission. |
 | REITS | [`REITS/`](./REITS/) | Public REIT/real-estate stress monitor. |
 
 ## Transmission map
@@ -21,7 +21,8 @@ Canonical paths remain `AGENTS/<NAME>/`. This file is an index only.
 ```text
 LABOR → CARL → REGINALD → repricing
            ↘ OTTO / DOC / REITS
-REGINALD ↔ OZK / CREED / CORAL
+CREED → REGINALD (national CRE/CMBS bank bridge) + LIQUID (refi/funding) + CARL (multifamily)
+REGINALD ↔ OZK / CORAL / BROCK
 LIQUID amplifies; HENRY gauges market speed; VIOLET tracks credit→vol lag.
 ```
 

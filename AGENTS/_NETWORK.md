@@ -26,7 +26,7 @@ flowchart LR
         REGINALD[REGINALD<br/>Regional banks]
         OZK[OZK<br/>Bank OZK]
         CORAL[CORAL<br/>Florida convergence]
-        CREED[CREED<br/>CRE]
+        CREED[CREED<br/>National CRE / CMBS]
         REITS[REITS<br/>Real estate]
     end
 
@@ -65,7 +65,10 @@ flowchart LR
     OTTO -->|auto DQ| CARL
     CARL -->|consumer/housing losses| REGINALD
     CORAL -->|FL bank/real estate convergence| REGINALD
-    CREED -->|CRE stress| REGINALD
+    CREED -->|CRE / CMBS bank bridge| REGINALD
+    CREED -->|maturity wall / refi pressure| LIQUID
+    CREED -->|multifamily spillovers| CARL
+    CREED -->|Florida overlap only| CORAL
     REITS -->|public real estate tape| REGINALD
     OZK -. peer bank surface .- REGINALD
 
@@ -145,7 +148,7 @@ flowchart LR
 
 | Chain | Primary path | What confirms stress |
 |---|---|---|
-| Credit | LABOR → CARL → REGINALD → HENRY/LIQUID | Claims/payroll composition, consumer DQ/housing, bank loss recognition, market repricing |
+| Credit | LABOR → CARL → REGINALD → HENRY/LIQUID, with CREED feeding CRE/CMBS bank-bridge stress | Claims/payroll composition, consumer DQ/housing, CRE maturity/default recognition, bank loss recognition, market repricing |
 | Private credit | BROCK → SHADE → LIQUID / REGINALD | Gates, PIK/NAV stress, insurer wrapper funding, NDFI bank bridge |
 | Energy shock | HAWK → BRENT → HENRY/LIQUID/CARL | Kinetic/chokepoint events, Brent/storage/insurance, inflation/demand destruction, energy credit |
 | Japan/carry | SAM → LIQUID/HENRY | JGB/BOJ/carry unwind, USDJPY/FXY, global funding volatility |
