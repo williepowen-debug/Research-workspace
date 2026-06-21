@@ -1,6 +1,6 @@
 # CREED STATUS
 
-**Updated:** 2026-06-21 15:32 ET
+**Updated:** 2026-06-21 15:45 ET
 **Status:** 🟢 REVIVAL / CURRENT THESIS RAILS + TOPOLOGY INSTALLED
 **Owner:** CREED after boot; Prome owns future topology/migration decisions only with Will approval.
 
@@ -40,7 +40,8 @@ CREED does **not** own bank-level trade recommendations, Florida whole-state syn
 ## Current File State
 
 Top-level CREED files:
-- `AGENTS/CREED/CLAUDE.md` — boot instructions
+- `AGENTS/CREED/CLAUDE.md` — canonical boot instructions
+- `AGENTS/CREED/README.md` — current-vs-archive file index
 - `AGENTS/CREED/STATUS.md` — this file
 - `AGENTS/CREED/REVIVAL_PLAN.md` — phase plan / inventory
 - `AGENTS/CREED/inbox/2026-02-24_signals.md` — stale top-level inbox
@@ -93,13 +94,22 @@ Refresh covered:
 
 ---
 
+## First Real Work Priority
+
+Default priority order unless Will redirects:
+
+1. **Build a monthly CMBS / special-servicing tracker design** from current source categories, not legacy values.
+2. **Define handoff thresholds** for REGINALD, CORAL, LIQUID, and CARL so CREED routes only transmission-relevant signals.
+3. **Prepare Q2/Q3 bank-filing convergence questions** for REGINALD, focused on where CMBS/property stress should show up in bank provisions, PDNA, reserve coverage, or mods.
+
+Do not start by copying the legacy workbook wholesale. Seed tracker categories from the legacy pull-forward map, then refresh values from current sources.
+
+---
+
 ## Next Actions
 
 1. Leave legacy REGINALD sub-agent files in place unless old-path confusion becomes a real problem; use the legacy pull-forward map instead of copying stale dashboards wholesale.
-2. Optional next CREED work:
-   - monthly CMBS tracker
-   - property-type dashboard
-   - handoff note to REGINALD/CORAL/LIQUID/CARL
+2. If Will asks for CREED's first live task, start with the First Real Work Priority section above.
 
 ---
 
