@@ -12,6 +12,7 @@
 - **No broad git operations:** never `git add .`, `git add -A`, `git reset HEAD`, force-push, or stash/reset unknown work.
 - **Pull only if safe:** safe = clean working tree, no staged files, no known concurrent-agent risk. If dirty/untracked, read local continuity first and ask/triage; do not force sync just to boot.
 - **Prices need live data:** run `FORGE/tools/market-data/dashboard.py` or `fetch.py` before citing prices/levels.
+- **Weekend / repeated-respawn rule:** on weekends or market holidays, `HEARTBEAT.md` may be used as regime orientation, but do **not** describe its levels as fresh. Say “last HEARTBEAT/Fri close” or refresh with dashboard/FRED before making a market claim. Repeated same-day Prome respawns should not rewrite TODAY/HEARTBEAT just for hygiene.
 - **FRED citation convention:** cite observation dates, e.g. `HY OAS 280bps [FRED 5/20 close]`.
 - **No agent edits** unless Will explicitly approves.
 - **No trade execution.** Old trade rails remain verification-required until broker/Will reconciliation.
@@ -67,14 +68,18 @@ Everything else is on-demand.
 3. **Read `PROME/TODAY.md`** — current operator card.
 4. **Read `PROME/ACTIVE_DECISIONS.md`** — unresolved/approved-but-not-executed decisions before new work.
 5. **Read `PROME/STATUS.md`** — agent/system health and work queue.
-6. **Decide conditional reads:**
+6. **Apply market-data freshness gate:**
+   - If today is a weekend/holiday or markets are closed, use `HEARTBEAT.md` as **orientation only** and preserve its observation dates.
+   - Before citing any level as current, run the market dashboard / fetch tool.
+   - For repeated same-day respawns, avoid state-file churn unless a real market/system event or user decision changed.
+7. **Decide conditional reads:**
    - `PROME/FLEET_SCAN.md` only for fleet/market-state work, stale-state risk, or Will-requested audit.
    - `AGENTS/PROME/inbox/` + `AGENTS/*/outbox/*to-PROME*` only for operational routing/signal work.
    - Claude Code Prome docs only for Claude Code Prome implementation work.
    - `PROME/CLOSEOUT.md` before `/clear`, `/new`, or durable handoff.
-7. **Declare boot state briefly:** synced/dirty, current regime source, top pending decision/work lane, and any blocker.
-8. **Flag top issues:** catalysts within 24h, stale agents, pending decisions, blockers.
-9. **Present top proposals** only when useful; max 5, ranked by urgency/position relevance.
+8. **Declare boot state briefly:** synced/dirty, current regime source, market-data freshness posture, top pending decision/work lane, and any blocker.
+9. **Flag top issues:** catalysts within 24h, stale agents, pending decisions, blockers.
+10. **Present top proposals** only when useful; max 5, ranked by urgency/position relevance.
 
 ---
 
