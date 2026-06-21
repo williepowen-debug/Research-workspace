@@ -1,5 +1,5 @@
 # TERRY STATUS
-**Updated:** 2026-06-20 (audit pass — templates/workflows added)
+**Updated:** 2026-06-20 (scripts/tool access added)
 **Agent:** TERRY — trade construction / tactical execution discipline
 
 ## Mission
@@ -12,16 +12,17 @@ TERRY converts thesis into trade plans with explicit entry, invalidation, sizing
 |---|---|---|
 | Agent scaffold | ✅ created | `CLAUDE.md`, risk rules, trade book, setup tracker, postmortems seeded. |
 | Templates/workflows | ✅ added | Trade-card template, position-intake form, and chart/options workflow are now explicit. |
+| Scripts/tool access | ✅ added | `scripts/boot.py` read-only boot card; `scripts/snapshot.py` price/relative-strength snapshot via FORGE market-data. |
 | Live trade cards | None | No setups reviewed yet. |
 | Position truth | Unknown | Existing broker/fill/P&L state must come from Will via `POSITION_INTAKE.md` fields before firm triage. |
-| Data access | Conditional | Live prices via FORGE market-data; option chains may require Will/broker/manual source. |
+| Data access | Conditional | Live prices/history via FORGE market-data wrappers; option chains still require Will/broker/manual source. |
 
 ## First Useful Tasks
 
 1. **Postmortem old scars:** HYG Jun→Dec roll failure; TLT/FXY/HYG expiry cleanup if Will provides position truth.
 2. **Build a live trade-card template on the next actionable thesis:** e.g., HY kill-line / Hormuz tape / WAL-OZK idiosyncratic bank setup.
 3. **Define default risk budget conventions:** max loss per idea, max theta bleed, event-risk sizing, no-chase rules.
-4. **First live dry run:** produce one conditional Terry card from an existing thesis without executing, to test the template under real constraints.
+4. **First live dry run:** produce one conditional Terry card from an existing thesis without executing, using `scripts/snapshot.py` for levels and marking option-chain fields conditional if unavailable.
 
 ## Open Questions for Will
 
