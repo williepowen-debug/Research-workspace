@@ -2,7 +2,7 @@
 
 **Created:** 2026-06-21
 **Owner:** Prome until CREED is bootable; CREED owns after revival.
-**Status:** Phase 1 inventory / preservation. Not yet live analytical truth.
+**Status:** Phase 2 boot surface installed. Not yet live analytical truth.
 
 ---
 
@@ -22,11 +22,12 @@ CREED should not own bank-level execution, Florida whole-state synthesis, or pos
 
 ## Current State
 
-Top-level `AGENTS/CREED/` is a shell:
+Top-level `AGENTS/CREED/` is now bootable but not analytically current:
+- `AGENTS/CREED/CLAUDE.md`
+- `AGENTS/CREED/STATUS.md`
+- `AGENTS/CREED/REVIVAL_PLAN.md`
 - `AGENTS/CREED/inbox/2026-02-24_signals.md`
-- no `STATUS.md`
-- no `CLAUDE.md`
-- no live workbook/research tree
+- no live refresh/workbook/research tree yet
 
 The real legacy CREED body lives under REGINALD:
 - `AGENTS/REGINALD/sub-agents/CREED/STATUS.md`
@@ -93,16 +94,15 @@ Revival must update this with current June data before making claims or recommen
 
 ### Phase 2 — Boot surface
 
-Create:
+Completed 2026-06-21:
 - `AGENTS/CREED/CLAUDE.md`
 - `AGENTS/CREED/STATUS.md`
 
-These should include mandate, scope boundaries, stale-state warning, source archive pointers, and first refresh checklist.
+These include mandate, scope boundaries, stale-state warning, source archive pointers, and first refresh checklist.
 
 ### Phase 3 — Fresh data refresh
 
-Create:
-- `AGENTS/CREED/research/REFRESH_2026-06-21.md`
+Create a dated CREED research refresh.
 
 Minimum refresh list:
 - latest Trepp CMBS delinquency / special servicing by property type
@@ -114,10 +114,7 @@ Minimum refresh list:
 
 ### Phase 4 — Thesis + signal integration
 
-Create/update:
-- `AGENTS/CREED/thesis/THESIS.md`
-- `AGENTS/CREED/thesis/CHANGELOG.md`
-- optional `AGENTS/CREED/COVERAGE.md`
+Create/update current CREED thesis rails and optional coverage map.
 
 Process stale inboxes only after fresh data refresh.
 
@@ -132,7 +129,7 @@ Only after Will approves top-level revival:
 ### Phase 6 — Optional migration
 
 Only after CREED is bootable and topology is approved:
-- decide whether to copy/move `AGENTS/REGINALD/sub-agents/CREED/` into `AGENTS/CREED/archive/legacy_reginald_subagent/`
+- decide whether to copy/move `AGENTS/REGINALD/sub-agents/CREED/` into a CREED legacy archive folder
 - run grep/ref updates and verification before any move
 
 ---
