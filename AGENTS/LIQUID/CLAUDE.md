@@ -17,10 +17,11 @@ You track credit spreads (HY OAS toward 320bps confirmation), repo/SOFR anomalie
 
 ## SPAWN PROTOCOL
 
-**Read phase (0-1) → board intake (2) → execute (3) → write-back (4-6).** Drain the WALTER board lane *after* the read so `acted` items feed the work, not a retroactive edit to the STATUS you just read.
+**Read+sweep phase (0-1b) → board intake (2) → execute (3) → write-back (4-6).** Drain the WALTER board lane *after* the read so `acted` items feed the work, not a retroactive edit to the STATUS you just read.
 
 0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
 1. **Read `STATUS.md`** — dashboards (credit, domestic, foreign), thresholds, transmission mechanisms. (On a cold boot, CALENDAR / MEMORY NEXT SESSION are touched here too.)
+1b. **Live sweep — `scripts/boot.py`** — run `.venv/bin/python3 AGENTS/LIQUID/scripts/boot.py` for the one-command boot brief: live 3-dashboard pull (FRED + yfinance via FORGE `fetch.py`, alert-collapsed vs LIQUID thresholds) + catalyst countdown (`workbook/CATALYSTS.tsv`) + predictions due-scan (`workbook/PREDICTIONS.tsv`). **This is the live-primary source** — replaces the manual `fetch.py` calls. `--verbose` (all series + 6-print trends) · `--quick` (FRED-only) · `--selftest` (validate the data files). Pull anything load-bearing that boot.py doesn't cover (TIC country tables, auction internals) from primary directly.
 2. **WALTER signal intake (`inbox/WALTER/` delivery lane)** — process WALTER-delivered handoffs *after* the read phase, so `acted` items inform steps 3-4 rather than a STATUS you already read:
    - List `AGENTS/LIQUID/inbox/WALTER/*.md` not yet logged in `AGENTS/LIQUID/board_log.tsv`. If `board_log.tsv` does not exist, create it with the v0.2 header: `timestamp_read<TAB>signal_id<TAB>disposition<TAB>source<TAB>notes`.
    - For each file: read it, decide disposition (`acted` / `noted` / `deferred` / `info-only` / `skipped`), append a row to `board_log.tsv` with `source=INBOX_WALTER`, then `git mv` the file to `AGENTS/LIQUID/inbox/WALTER/processed/`.
@@ -165,7 +166,8 @@ Don't mix categories. A CLO spread doesn't belong in the domestic plumbing dashb
 | `STATUS.md` | Live state — 3 dashboards (credit/domestic/foreign), thresholds, predictions. **Primary memory.** |
 | `MEMORY.md` | Cross-session memory: current/next/prior session notes, durable findings, operating notes. |
 | `CLOSEOUT.md` | Session-end procedure: 4-tier model (Bounce/Light/Standard/Heavy), chunked steps, file-ownership reference. Run before `/clear` or session handoff. |
-| `CALENDAR.md` | Upcoming data releases, events, danger windows. |
+| `CALENDAR.md` | Upcoming data releases, events, danger windows. **Human twin of `workbook/CATALYSTS.tsv` — must not diverge in event set.** |
+| `scripts/boot.py` | **Boot live-sweep tool** (run at SPAWN step 1b). One command: 3-dashboard live pull (FRED+yfinance via FORGE `fetch.py`) + catalyst countdown + predictions due-scan, alert-collapsed vs LIQUID thresholds. `.venv/bin/python3 …boot.py` — `--verbose`/`--quick`/`--selftest`. |
 | `IDENTITY.md` | Agent persona / role / vibe. Boot doc. |
 | `USER.md` | Will profile and communication preferences. Boot doc. |
 | `STRATEGY.md` | Decision playbook — escalation triggers, position framework. |
@@ -181,7 +183,8 @@ Don't mix categories. A CLO spread doesn't belong in the domestic plumbing dashb
 | ~~`workbook/CUSTODIAL_VELOCITY_PROTOCOL.md`~~ | Slimmed 5/20 → KB-LIQ-055 (Foreign_Custodial_Flow_Disaggregation) + KB-LIQ-056 (Collateral_Velocity_Ratio); full doc preserved at `domain/sources/CUSTODIAL_VELOCITY_PROTOCOL_20260211.md`. |
 | `workbook/FLOW.tsv` | Flow signal registry — cross-referenced from KB.tsv. |
 | `workbook/VX.tsv` | Volatility / vector observation registry — cross-referenced from KB.tsv. |
-| `workbook/PREDICTIONS.tsv` | Active prediction log (small; durable). |
+| `workbook/PREDICTIONS.tsv` | Active prediction log (small; durable). Scanned at boot by `scripts/boot.py` (due/overdue OPEN rows). |
+| `workbook/CATALYSTS.tsv` | Machine-readable forward-event docket (8-col; consumed by `scripts/boot.py` countdown). **Human twin = `CALENDAR.md` — must not diverge in event set.** |
 | `domain/sources/` | Foundational research, resolved playbooks, framework archives. Empirical bedrock under THESIS v2 legs. |
 | `archive/` | Retired files: handoffs, legacy methodology, resolved episodes, prior STATUS snapshots (`status_snapshots/`). |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
