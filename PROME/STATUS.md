@@ -1,19 +1,15 @@
 # PROME STATUS.md
-**Updated:** 2026-06-21 15:55 ET (OpenClaw Prome — after CREED topology closeout)
+**Updated:** 2026-06-21 19:40 ET (OpenClaw Prome — post REITS/TRADES archive + ORACLE/TERRY tooling push)
 
 ## Core State
 
-**Operational priority:** CREED revival is complete through Phase 5 + safe Phase 6-lite. Prome live boot surfaces are being updated so fresh sessions no longer see stale “CREED not canonical” instructions.
+**Operational priority:** System cleanup lane completed for CREED/REITS/TRADES/TERRY/ORACLE. Future sessions should boot from the new ownership truth: CREED owns REIT equity tape, TERRY supersedes TRADES, ORACLE owns prediction-market diagnostics, and no auto-trading is allowed.
 
-**Current repo reality:** latest pushed commit is `670ae6b6 memory: log CREED topology closeout`. Will has now allowed local commits in this session but said **do not push to GitHub until he coordinates**.
-
-**CREED thesis:** base case is **selective CRE recognition accelerating**, not broad CRE→bank cascade yet. CMBS/office stress is recognizing faster than banks; watch when maturity-default/special-servicing stress crosses into bank provisions, reserve coverage deterioration, forced sales, or funding pressure.
-
-**CREED topology:** CREED is canonical as **National CRE / CMBS** market-stress agent. It feeds `REGINALD`, `CORAL`, `LIQUID`, and `CARL`. It is a Claude Code roster agent / explicit-permission only; do not casually spawn.
+**Current repo reality:** ORACLE/TERRY/CREED cleanup commits were rebased over newer WALTER/SAM remote work and pushed cleanly. Pre-closeout state was clean/synced with origin.
 
 **Market priority:** unchanged from `HEARTBEAT.md`: signed-but-fraying MOU; Hormuz re-closure declared; official/declaratory/contested, not yet kinetic. Energy tail is re-fat, broad cascade still unconfirmed. Refresh dashboard/FRED before citing fresh levels.
 
-**Standing constraint:** no agent domain edits unless scoped by Will. No CREED full legacy migration unless explicitly approved.
+**Standing constraint:** no agent domain edits unless scoped by Will. No trade execution. Pushing should stay Will-coordinated.
 
 ---
 
@@ -21,17 +17,15 @@
 
 | Surface | Role | Current note |
 |---|---|---|
-| `AGENTS/CREED/CLAUDE.md` | CREED boot | Canonical boot order; explicit-permission-only spawn guardrail. |
-| `AGENTS/CREED/README.md` | CREED file index | Separates current rails from legacy archive surfaces. |
-| `AGENTS/CREED/STATUS.md` | CREED current state | Includes first real work priority. |
-| `AGENTS/CREED/research/REFRESH_2026-06-21.md` | CREED source pack | Current Phase 3 data refresh. |
-| `AGENTS/CREED/thesis/THESIS.md` | CREED rails | Current Phase 4 thesis/signal rails. |
-| `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md` | CREED stale-signal triage | Feb inboxes processed against June data. |
-| `AGENTS/CREED/archive/LEGACY_PULL_FORWARD_2026-06-21.md` | Legacy mechanism map | Durable mechanisms only; stale values not current truth. |
-| `AGENTS/REGINALD/sub-agents/CREED/` | Legacy source archive | Do not move/delete without explicit Will approval. |
-| `AGENTS.md` / `AGENTS_DIRECTORY.md` / `AGENTS/_CREDIT.md` / `AGENTS/_NETWORK.md` / `dashboard/index.html` | CREED topology | Updated and pushed for Phase 5. |
+| `AGENTS/CREED/` | National CRE / CMBS + public REIT equity tape | REITS tape absorbed; CREED remains explicit-permission Claude Code roster. |
+| `AGENTS/CREED/research/REIT_EQUITY_TAPE_MODULE_2026-06-21.md` | REIT tape module | Public REIT tape trigger design; not fresh market data. |
+| `AGENTS/REITS/` | Dormant source archive | Do not launch unless Will explicitly revives. |
+| `AGENTS/TERRY/` | Trade construction | Now owns old TRADES verification playbook + risk scoring/calibration. |
+| `AGENTS/TERRY/RISK_SCORING.md` | TERRY risk scoring | Edge, capped Kelly, Brier calibration, execution-block checklist. |
+| `AGENTS/TRADES/` | Dormant source archive | Old candidate scratchpad; not live trade rail. |
+| `AGENTS/ORACLE/PREDICTION_MARKET_METRICS.md` | Prediction-market diagnostics | Entropy, KL bits, entropy-collapse alerts, ORACLE→TERRY packet. |
+| `WILL/share/claude-code-commands-reference-updated-2026-06-21.*` | User command reference | Updated: REITS/TRADES launch commands removed; path audit clean. |
 | `HEARTBEAT.md` | Regime pointer | Weekend/Fri-close orientation only unless refreshed. |
-| `PROME/HANDOFF.md` | Live continuity | Should reflect post-CREED topology closeout. |
 
 ---
 
@@ -39,9 +33,11 @@
 
 | Lane | Priority | Status / owner note |
 |---|---:|---|
-| Prome live-state refresh | 🟡 current system lane | Update `HANDOFF`, `SCRATCH`, `TODAY`, `STATUS` to post-CREED topology truth; local commit OK, no push. |
-| CREED first real work | 🟡 next if requested | Monthly CMBS/special-servicing tracker design, handoff thresholds, Q2/Q3 bank-filing convergence questions. |
-| CREED full legacy migration | ⚪ deferred | Do not start unless explicitly approved; old tree remains source archive. |
+| Closeout live-state refresh | 🟡 current | Update Prome handoff/scratch/status/memory after pushed cleanup work. |
+| Dormant-agent cleanup | ⚪ optional | Inspect before archiving; do not demote folders from vibes. |
+| CREED first real work | 🟡 if requested | Monthly CMBS/special-servicing + REIT tape tracker design. |
+| TERRY first live dry run | 🟡 if requested | Use risk scoring + snapshot/risk scripts; no execution. |
+| ORACLE metrics implementation | ⚪ optional | Metrics doc exists; future script integration could compute entropy/KL from ODDS_LOG. |
 | Jun22 Brent / Hormuz tape test | 🔴 next market lane | Refresh live data before citing current levels. |
 | HY <260 / post-FOMC confirmation | 🔴 next market lane | Latest HEARTBEAT level stale/Fri-close orientation. |
 | Position-state reconciliation | 🟠 pending | Broker/Will truth required. |
@@ -50,15 +46,14 @@
 
 ## Rules of Engagement
 
-- **No push this session** until Will coordinates.
+- **No auto-trading.** ORACLE measures; TERRY evaluates; Will approves.
+- **No REITS/TRADES live launch** unless Will explicitly revives.
 - **No CREED full migration** unless explicitly approved.
-- **Do not move/delete legacy CREED** under `AGENTS/REGINALD/sub-agents/CREED/`.
-- **No trade execution or CREED trade recommendations.**
+- **Do not move/delete legacy source archives** unless scoped.
 - **Pathspec commits only;** never broad add/reset/stash/force-push.
-- Verify refs/network consistency before commits that touch topology/agent state.
 
 ---
 
 ## Next Best Action
 
-Finish updating Prome live boot surfaces to match the true pushed CREED state, verify diffs, then commit locally only. After that, wait for Will’s coordinated push window or next work lane.
+After clear, fresh Prome should verify repo state and choose lane: market refresh for Jun22 gates, or continue dormant-agent cleanup only after inspecting actual files and value.
