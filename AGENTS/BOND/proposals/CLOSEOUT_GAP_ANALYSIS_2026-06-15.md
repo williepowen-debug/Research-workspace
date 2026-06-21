@@ -1,6 +1,6 @@
 # BOND Closeout Procedure — Gap Analysis vs VIOLET / SAM / BRENT
 
-**Date:** 2026-06-15 · **Author:** BOND · **Purpose:** Compare/contrast BOND's closeout against the mature peer pattern. Input for the paused Packet 9 (CLAUDE.md SPAWN-PROTOCOL modernization). Not a build — analysis only.
+**Date:** 2026-06-15 · **Author:** BOND · **Purpose:** Compare/contrast BOND's closeout against the mature peer pattern. Input for Packet 9 (CLAUDE.md SPAWN-PROTOCOL modernization). **✅ IMPLEMENTED 2026-06-20 — see addendum at end.**
 
 ---
 
@@ -68,3 +68,22 @@ This analysis *is* the spec for the paused **Packet 9**. The 16-item table above
 - `scripts/boot.py` — **deferred (Tier-3).** A real build, not a rewrite; fleet hedges it (`[[finding_boot_py_cadence_skip_pattern]]`); BOND has working `fetch.py` + `monitors/`.
 
 **Optional cheap follow-on:** port VIOLET's `convergence_score.py` (mechanical composite-sum, fails loud) — kills the hand-sum error class (the composite was hand-summed to 11 this session). Non-urgent.
+
+---
+
+## ✅ IMPLEMENTED — 2026-06-20 (Packet 9)
+
+**Benchmark refresh (6/20, vs SAM/VIOLET/BRENT/CARL/LIQUID):** confirmed the 6/15 read holds — BOND was the only one of the six at `PARTIAL-implicit` (0 closeout mentions in CLAUDE.md). The fleet standard is an **in-CLAUDE.md `BOOT / EXECUTE / CLOSEOUT` split, run every session end, with explicit read↔write pairings** (BRENT/CARL/VIOLET/SAM). One change since 6/15: **LIQUID added a dedicated `CLOSEOUT.md`** (separate-file, 4-tier Bounce/Light/Standard/Heavy model) — a valid alternative we did NOT adopt (kept it in CLAUDE.md per this spec, so boot+closeout stay symmetric in one place).
+
+**What Packet 9 wired into `CLAUDE.md` SPAWN PROTOCOL:**
+- Restructured flat 7-step list → **BOOT (0–7) / EXECUTE (8) / CLOSEOUT (9–17)** with the read↔write pairing preamble + **live-event override**.
+- Boot now reads **SCRATCH (2) + MEMORY (3)** (previously unread at boot) and **pulls live data (6)** + **DUE-prediction scan (4)**.
+- Closeout wires the now-existing files: STATUS (9), workbook + **DUE-resolve + KB Status-hygiene** (10), thesis+CHANGELOG (11), **CATALYSTS twin-sync + monitors** (12), SCRATCH rewrite (13), RECEIPT (14), **promotion scan + dedup** (15), git pathspec/defer-push (17).
+- **Two standout mechanisms folded in beyond the original spec:** CARL's **mirror-consistency check (step 16)** — verify THESIS↔STATUS, PREDICTIONS↔scoreboard, CATALYSTS↔STATUS twin before commit — and the **KB Status-hygiene sweep (step 10)**. Both were validated live: the 6/20 audit's 18-file staleness was exactly what these two steps prevent.
+- **Two divergence fixes:** predictions DUE-scan→resolve (was caught by hand at BND-08/09); and **WALTER-lane processed at boot vs general inbox = separate task** (replaces "process inbox on every spawn").
+- **Discipline overlay** baked in: durable docs (CLAUDE.md/THESIS) carry NO live values → point to STATUS (the pointer fixes done 6/20 enforce this). Stale-marked > carried-forward.
+- **FILES index** updated to list SCRATCH/MEMORY/RECEIPT/docket/monitors with their boot/closeout step refs.
+
+**Deferred (scope held from 6/15):** `NEXUS_BRIEF.md` = **Packet 7** (not built — step 15 references it as pending); `MAINTENANCE.md` = **dropped** (git log + CHANGELOG suffice); `scripts/boot.py` = **Tier-3** (have `fetch.py` + `monitors/`); `convergence_score.py` = **optional** (step 16's manual composite re-sum now covers the hand-sum class).
+
+**Score: 2/16 → ~14/16 present** (the 2 deferred are NEXUS_BRIEF/Packet 7 and the optional boot.py). Closeout is now codified and durable across instances — the gap that this very session's drift demonstrated is closed.

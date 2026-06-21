@@ -15,22 +15,37 @@ You are part of a multi-agent research network tracking systemic financial risk.
 
 ## SPAWN PROTOCOL
 
-When spawned with a task:
+**Boot and closeout are one symmetric sequence: what you READ at boot, you WRITE BACK at closeout.** The CLOSEOUT phase (steps 9–17) is the write-back tail — run it at **EVERY session end, not just end-of-day** (`[[feedback_intra_day_closeout_discipline]]`). It is not optional; it is the back half of this protocol. Read→write pairings: STATUS (read 1 → write 9), SCRATCH (read 2 → rewrite 13), PREDICTIONS (DUE-scan 4 → resolve 10), thesis (read via STATUS → write 11 + CHANGELOG), CATALYSTS (read 5 → prune/sync 12).
 
-1. **Check `inbox/`** — process any pending signals (INTEGRATE, LOG, or DISCARD). **For each signal, log a one-line entry to KB.tsv** using the 13-column schema. Move processed signals to `inbox/processed/`.
-2. **Read `STATUS.md`** — your current state, dashboard, active situations
-3. **Before writing to KB.tsv, read `workbook/SCHEMA.tsv`** — validate all enum fields (Conf, Epistemic, Status) against `allowed_values`. Use `default` values when unsure.
-3b. **Read `AGENTS/VOCABULARIES.tsv`** — use NETWORK_GROUPS for Group field, CANONICAL_ENTITIES for Entity field, SOURCE_TAGS for Source field. If no match exists, use closest term and note the gap.
-4. **Execute the task**
-5. **Write results back to your files** — update `STATUS.md`, log to workbook (KB/VX/FLOW) when appropriate
-6. **If your findings are relevant to another agent's domain, write to `outbox/`**
-7. **If the task changes your thesis or key numbers, update STATUS.md before finishing**
+**Live-event override** (`[[finding_boot_protocol_live_event_override]]`): if spawned into a live regime-moving event (auction stress, FOMC, credit gap), prioritize the analysis and a STATUS+SCRATCH write; the full write-back can compress, but STATUS and SCRATCH are non-negotiable.
 
-⚠️ **Critical:** Always WRITE to STATUS.md. Do not just report findings back to PROME verbally. If it's not in the file, it doesn't persist.
+### BOOT (read phase)
+0. **`git pull`** — sync from GitHub before reading anything (pull protocol in root CLAUDE.md). GitHub is the source of truth.
+1. **Read `STATUS.md`** — dashboard, convergence matrix, catalysts, positions, bottom line.
+2. **Read `SCRATCH.md`** — the ephemeral handoff from last session (CHANGES SINCE / what was done / NEXT SESSION). The canonical "where are we."
+3. **Read `MEMORY.md`** — durable BOND learnings (fleet-wide lessons auto-load via the harness; not restated there).
+4. **Scan `thesis/PREDICTIONS.tsv`** — flag any OPEN row whose Timeframe has passed as **DUE** for resolution at closeout (never leave a prediction OPEN-but-stale).
+5. **Check `docket/CATALYSTS.tsv`** — today's / imminent catalysts + countdown.
+6. **Pull load-bearing figures LIVE** (`[[feedback_pull_live_primary_not_dashboard]]`) — FRED credit/rates + yfinance via `FORGE/tools/market-data/fetch.py`; `monitors/cdx_proxy.py` for the CDX basis. Never trust STATUS/sibling values for anything load-bearing.
+7. **Before any KB write:** read `workbook/SCHEMA.tsv` (validate Conf/Epistemic/Status enums) + `AGENTS/VOCABULARIES.tsv` (Group/Entity/Source vocab). **WALTER lane:** process `inbox/WALTER/` deliveries at boot — read, integrate, log a one-line KB row, `git mv` to `inbox/processed/`. (General `inbox/` from other agents = a SEPARATE task; see MAIL.)
 
-⚠️ **File > verbal.** Cross-agent session visibility is restricted. If asked to report findings, propose changes, or review something, write to a named file (e.g., `REPORT.md`, `REVIEW.md`) in your agent directory. Don't rely on your response reaching the caller — the file is the handoff.
+### EXECUTE
+8. **Execute the task.**
 
-⚠️ **Critical:** Log significant findings to workbook TSV files, not just STATUS.md. STATUS gets rewritten; workbook entries are permanent.
+### CLOSEOUT (write-back — run at EVERY session end)
+9. **`STATUS.md`** — write back dashboard, convergence matrix (**re-sum the composite and verify it matches the vector scores**), catalysts, positions, bottom line. Threshold breaches + position decisions to the top. Keep <250 lines (archive overflow to `domain/sources/`). *(Mirror of boot 1.)*
+10. **Workbook + predictions.** New facts → `workbook/KB.tsv`; changed indicators → `workbook/VX.tsv`; transmission changes → `workbook/FLOW.tsv`. **Resolve every prediction flagged DUE at boot** in `thesis/PREDICTIONS.tsv` (resolve / re-arm-with-reason / push-date-with-reason — never OPEN-but-stale); separate "mechanism intact" from "threshold stuck" (`[[finding_threshold_vs_mechanism]]`). **KB Status hygiene:** flip ACTIVE rows past their `Stale_By` to STALE or SUPERSEDED. *(Mirror of boot 4/7.)*
+11. **Thesis change → `thesis/THESIS.md` + `thesis/CHANGELOG.md`.** Trigger: new channel, conviction shift, threshold breach, prediction resolution. Version bump — major (X) = regime/conviction change; minor (Y) = refinement; log old→new. Dated intra-version POV notes are fine (`[[finding_pov_changelog_pattern]]`).
+12. **Forward-state.** `docket/CATALYSTS.tsv` is the source of truth — prune fired rows (~1-week retention), add newly-dated catalysts, mark resolved with outcome; the STATUS catalyst section is the **human twin and must not diverge in event SET**. Refresh any `monitors/*.md` whose metric moved this session.
+13. **Rewrite `SCRATCH.md`** — CHANGES SINCE / WHAT I DID / NEXT SESSION (dated, future-verifiable) / OPEN THREADS / position decisions / one-line mail state. The canonical session handoff (`MEMORY.md` holds durable learnings, NOT the per-session handoff). *(Mirror of boot 2.)*
+14. **`RECEIPT.md`** — overwrite the run receipt (inbox processed / catalysts resolved / files written / outbox state / git disposition) whenever the session processed signals or a tasked deliverable.
+15. **Promotion scan.** Thesis-level finding → THESIS + CHANGELOG; transferable cross-agent lesson → auto-memory (`~/.claude/projects/-home-willi-Research-workspace/memory/` + one-line index in its `MEMORY.md`), **then remove from local `MEMORY.md`** (auto-memory auto-loads — duplication = drift); BOND-specific durable learning → local `MEMORY.md`. Cross-agent signals → `outbox/` **🔴-acute only** (`[[feedback_outbox_restraint_for_push_friction]]`; steady-state belongs in `NEXUS_BRIEF.md` once Packet 7 lands).
+16. **Mirror-consistency check (before commit)** (`[[finding_doc_mirror_consistency_check]]`) — verify the canonical→mirror pairs agree: THESIS read ↔ STATUS dashboard/matrix; PREDICTIONS.tsv OPEN IDs ↔ STATUS/THESIS scoreboard; CATALYSTS.tsv ↔ STATUS catalyst section. **Durable docs (CLAUDE.md, THESIS) carry NO live values — they point to STATUS** (one source of truth per metric). Stale-marked > carried-forward: if you can't refresh a value, mark `[STALE]` with the date.
+17. **Git — pathspec commits, never `git reset HEAD`** (`[[finding_pathspec_commit_race_safety]]`). Default: **commit locally only; push only inside a Will-opened window** (`[[feedback_defer_push_coordinate]]`). Modified: `git commit AGENTS/BOND/<file> -m "..."`. New: atomic `git add <paths> && git commit <same paths>` — explicit paths, **never `git add AGENTS/BOND/` as a dir**. Blocked by peers' uncommitted work → note pending push in SCRATCH and defer.
+
+**MAIL:** Do NOT sweep the general `inbox/` on normal boots — inbox processing (non-WALTER) is a SEPARATE task; wait to be spawned for it. The WALTER delivery lane IS processed at boot (step 7).
+
+⚠️ **Always WRITE to files, not just chat.** If it's not in a file, it doesn't persist. Cross-agent session visibility is restricted — if asked to report, propose, or review, write a named file (`REPORT.md`, `REVIEW.md`) in your dir; the file is the handoff, not your response. STATUS gets rewritten; **workbook entries are permanent** — log significant findings there too.
 
 ---
 
@@ -195,15 +210,20 @@ Every STATUS.md must end with a `## BOTTOM LINE` section — 2-4 sentences, plai
 
 | File | Purpose |
 |------|---------|
-| `STATUS.md` | Live state — dashboard, convergence matrix, catalysts, compact exits, bottom line |
+| `STATUS.md` | Live state — dashboard, convergence matrix, catalysts, compact exits, bottom line (boot read 1 / closeout write 9) |
+| `SCRATCH.md` | Ephemeral session handoff — CHANGES SINCE / NEXT SESSION. Read at boot (2), rewritten at closeout (13). Disposable. |
+| `MEMORY.md` | Durable BOND learnings (read at boot 3). Per-session handoff lives in SCRATCH, NOT here. |
+| `RECEIPT.md` | Per-run processing receipt — overwritten each session (closeout 14) |
 | `thesis/THESIS.md` | Durable thesis — core argument, channels, full exit/falsification, position rationale |
 | `thesis/CHANGELOG.md` | Thesis version history |
-| `thesis/PREDICTIONS.tsv` | Falsifiable forecasts (moved from workbook/ 2026-06-15) |
+| `thesis/PREDICTIONS.tsv` | Falsifiable forecasts (DUE-scan at boot 4 → resolve at closeout 10) |
+| `docket/CATALYSTS.tsv` | Catalyst docket — source of truth; STATUS calendar is the human twin (closeout 12) |
 | `TRADE.md` | Position ideas and active trades |
 | `workbook/KB.tsv` | Knowledge base — 13-column factual claims |
 | `workbook/SCHEMA.tsv` | Data dictionary for KB columns |
 | `workbook/VX.tsv` | Vectors — tracked risk indicators with thresholds |
 | `workbook/FLOW.tsv` | Transmission pathways |
-| `inbox/` | Inbound signals from other agents |
-| `outbox/` | Outbound signals for other agents |
+| `monitors/` | Live monitor docs (AUCTION_HEALTH, DEALER_CAPACITY, CDX_CASH_BASIS) + `cdx_proxy.py` |
+| `inbox/` | Inbound signals (WALTER lane processed at boot 7; general inbox = separate task) |
+| `outbox/` | Outbound signals for other agents (🔴-acute only) |
 | `domain/sources/` | Archived research and raw data |
