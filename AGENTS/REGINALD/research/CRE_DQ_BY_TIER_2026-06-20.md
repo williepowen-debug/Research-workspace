@@ -65,7 +65,7 @@ The skeptic genuinely tried to refute the idiosyncratic read and surfaced holes 
 4. Criticized *migration* (SSB rate-shock, AMTB special-mention up, SBCF NPL up) may be the leading creep an NCO-by-name cut structurally can't see; "flat criticized" ≠ no creep.
 5. SBCF cre_specific=false is absence-of-read, not evidence-of-absence.
 
-These don't overturn the concentration-cohort read (OZK + EGBN both primary-confirmed CRE-led creep; BKU CRE nonaccrual unambiguously down on every bucket including the leading construction line→$0), but they cap confidence at ~0.55 and define the Q2 test.
+At the adversarial stage these didn't overturn the (then-current) concentration-cohort read and capped confidence at ~0.55. **They then drove the leading-bucket test (next section), which broadened the verdict to severity-graded tier-wide leading-creep (conf 0.6)** — i.e. the adversary's "criticized migration / leading bucket not pulled" critique proved right when BKU + SBCF 30-89 were actually pulled.
 
 ---
 
