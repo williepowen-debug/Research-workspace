@@ -21,11 +21,14 @@ USD/JPY JPY=X is NOT the 5pm-ET NY close. H.4.1 series (WRESBAL) are dated by th
 as-of Wednesday. Verify load-bearing triggers against the canonical basis before acting.
 """
 
+import calendar
+import re
 import sys
-from datetime import datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 SCRIPTS_DIR = Path(__file__).resolve().parent
+LIQUID_DIR = SCRIPTS_DIR.parent                    # AGENTS/LIQUID
 WORKSPACE = SCRIPTS_DIR.parents[2]                 # AGENTS/LIQUID/scripts -> Research-workspace
 FETCH_DIR = WORKSPACE / "FORGE" / "tools" / "market-data"
 sys.path.insert(0, str(FETCH_DIR))
@@ -231,6 +234,129 @@ def build_prices():
 
 
 # ---------------------------------------------------------------------------
+# Forward state — catalyst countdown + predictions due-scan
+# ---------------------------------------------------------------------------
+
+def _trading_days(start, end):
+    """Weekdays strictly after `start` through `end` inclusive (US holidays ignored)."""
+    if end <= start:
+        return 0
+    n, cur = 0, start + timedelta(days=1)
+    while cur <= end:
+        if cur.weekday() < 5:
+            n += 1
+        cur += timedelta(days=1)
+    return n
+
+
+def catalyst_countdown(horizon=60):
+    """Print dated catalysts within `horizon` days. Returns count flagged imminent (<=5 trd)."""
+    path = LIQUID_DIR / "workbook" / "CATALYSTS.tsv"
+    if not path.exists():
+        print("    (no workbook/CATALYSTS.tsv)")
+        return 0
+    rows = path.read_text().splitlines()
+    if len(rows) < 2:
+        print("    (CATALYSTS.tsv empty)")
+        return 0
+    hdr = rows[0].split("\t")
+    today = datetime.now().date()
+    cutoff = today + timedelta(days=horizon)
+    upcoming, unparsed = [], 0
+    for ln in rows[1:]:
+        c = dict(zip(hdr, ln.split("\t")))
+        try:
+            ed = datetime.strptime(c.get("date", ""), "%Y-%m-%d").date()
+        except ValueError:
+            unparsed += 1   # fail loud — a malformed date silently drops from the countdown
+            continue
+        if today <= ed <= cutoff:
+            upcoming.append((ed, c))
+    if unparsed:
+        print(f"    ⚠️  {unparsed} row(s) with an unparseable date — fix CATALYSTS.tsv (silently skipped otherwise)")
+    if not upcoming:
+        print(f"    no dated catalysts within {horizon}d")
+        return 0
+    upcoming.sort(key=lambda x: x[0])
+    imminent = 0
+    for ed, c in upcoming:
+        trd = _trading_days(today, ed)
+        cal = (ed - today).days
+        mk = "~" if c.get("date_class", "").strip() == "modeled" else " "
+        pri = c.get("priority", "").strip() or "  "
+        flag = "  ⏰ IMMINENT" if trd <= 5 else ""
+        if trd <= 5:
+            imminent += 1
+        print(f"    {pri} {mk}{c['date']} {ed.strftime('%a')}  {cal:>3}d cal /{trd:>3}d trd  {c.get('event', '')[:50]}{flag}")
+    return imminent
+
+
+_MONTHS = {m: i for i, m in enumerate(
+    ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"], 1)}
+
+
+def _parse_timeframe(tf):
+    """Best-effort resolve-date from a free-text Timeframe. Returns (date|None, parsed_bool)."""
+    tf = (tf or "").strip()
+    m = re.search(r"(\d{4})-(\d{2})-(\d{2})", tf)             # explicit ISO
+    if m:
+        try:
+            return date(*map(int, m.groups())), True
+        except ValueError:
+            pass
+    m = re.search(r"H([12])\s*(\d{4})", tf)                   # H1/H2 YYYY
+    if m:
+        y = int(m.group(2))
+        return (date(y, 6, 30) if m.group(1) == "1" else date(y, 12, 31)), True
+    m = re.search(r"Q([1-4])\s*(\d{4})", tf)                  # Q1-Q4 YYYY
+    if m:
+        y = int(m.group(2))
+        return date(y, *{1: (3, 31), 2: (6, 30), 3: (9, 30), 4: (12, 31)}[int(m.group(1))]), True
+    m = re.search(r"([A-Za-z]{3})[a-z]*\s*(?:\d{1,2}\s*-\s*(\d{1,2}))?\s*,?\s*(\d{4})", tf)  # Mon [DD-DD] YYYY
+    if m and m.group(1).lower() in _MONTHS:
+        mo, y = _MONTHS[m.group(1).lower()], int(m.group(3))
+        last = calendar.monthrange(y, mo)[1]
+        day = min(int(m.group(2)), last) if m.group(2) else last
+        return date(y, mo, day), True
+    return None, False
+
+
+def predictions_scan():
+    """Flag OPEN predictions whose timeframe is due/overdue. Returns overdue count."""
+    path = LIQUID_DIR / "workbook" / "PREDICTIONS.tsv"
+    if not path.exists():
+        print("    (no workbook/PREDICTIONS.tsv)")
+        return 0
+    rows = path.read_text().splitlines()
+    if len(rows) < 2:
+        print("    (PREDICTIONS.tsv empty)")
+        return 0
+    hdr = rows[0].split("\t")
+    today = datetime.now().date()
+    open_rows = [d for d in (dict(zip(hdr, ln.split("\t"))) for ln in rows[1:])
+                 if d.get("Status", "").strip().upper() == "OPEN"]
+    if not open_rows:
+        print("    ✓ no OPEN predictions")
+        return 0
+    overdue = 0
+    for p in open_rows:
+        pid, tf, pred = p.get("Pred_ID", "?"), p.get("Timeframe", ""), p.get("Prediction", "")[:52]
+        due, parsed = _parse_timeframe(tf)
+        if not parsed:
+            print(f"    ⚠️  {pid}: OPEN — timeframe '{tf}' unparsed; check manually — {pred}")
+            continue
+        d = (due - today).days
+        if d < 0:
+            overdue += 1
+            print(f"    🔴 {pid}: OVERDUE {-d}d (resolve now — don't let it rot like LIQ-02) — {pred}")
+        elif d <= 7:
+            print(f"    🟠 {pid}: DUE in {d}d ({due}) — {pred}")
+        else:
+            print(f"    🟡 {pid}: due {due} ({d}d) — {pred}")
+    return overdue
+
+
+# ---------------------------------------------------------------------------
 # Output
 # ---------------------------------------------------------------------------
 
@@ -261,7 +387,7 @@ def render(verbose):
                 print(f"       trend: {r['trend']}   [{r['asof']}]")
 
 
-def summary(elapsed):
+def summary(elapsed, imminent=0, overdue=0):
     reds = [r for r in RESULTS if r["marker"] == "🔴"]
     oranges = [r for r in RESULTS if r["marker"] == "🟠"]
     yellows = [r for r in RESULTS if r["marker"] == "🟡"]
@@ -269,6 +395,7 @@ def summary(elapsed):
 
     print(f"\n  {'=' * 66}")
     print(f"  BOOT SUMMARY   🔴 {len(reds)}   🟠 {len(oranges)}   🟡 {len(yellows)}   "
+          f"⏰ {imminent} imminent   📋 {overdue} overdue-pred   "
           f"({len(RESULTS)} series, {ERRORS} fetch errors, {elapsed:.1f}s)")
     if hy and hy["display"] != "ERR":
         print(f"  Headline: HY OAS {hy['display']} — {hy['note']}")
@@ -297,8 +424,14 @@ def main():
         build_prices()
 
     render(verbose)
+
+    print("\n  Catalyst Countdown (workbook/CATALYSTS.tsv, 60d horizon)")
+    imminent = catalyst_countdown()
+    print("\n  Predictions Due-Scan (workbook/PREDICTIONS.tsv)")
+    overdue = predictions_scan()
+
     elapsed = (datetime.now() - t0).total_seconds()
-    summary(elapsed)
+    summary(elapsed, imminent, overdue)
     print()
     return 1 if ERRORS else 0
 
