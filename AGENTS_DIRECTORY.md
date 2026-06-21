@@ -8,6 +8,7 @@
 |---------|----------|-----------|-------|
 | **OpenClaw (VPS)** | Prome + all spawn-based agents | Telegram | Orchestrator. Spawns sub-agents. Full workspace access. |
 | **Claude Code** | REGINALD, CARL, OZK, CORAL, SAM, RED | Telegram | Independent sessions. Siloed to own domain folders. Push to shared repo. OZK spun out from REGINALD 2026-04-24; CORAL (Florida) spun out from REGINALD 2026-06-19; RED is the persistent adversarial-analysis surface (not a market domain). |
+| **Claude Code** | TERRY | Repo / Claude Code | Conversational trading-desk surface. Will can open Terry directly to talk through trade structure, sizing, options, exits, and postmortems. Proposes only; no execution. |
 | **Claude Code** | PROME | Repo / Claude Code | Repo-native implementation surface for the same Prome identity. Uses shared Prome state, not a separate domain silo. Owns docs/tools/audits/handoffs when scoped. |
 
 **Key rules for multi-runtime:**
@@ -84,7 +85,7 @@ Sub-agents own detail → distill upward to parents → lateral only when transm
 
 | Agent / Surface | Domain | Status | Key |
 |---|---|---|---|
-| **TERRY** | Trade construction / tactical execution discipline | 🟡 | Spawn-on-demand trading desk. Turns thesis into trade cards: entry, structure, sizing, invalidation, expiry/time stop, roll/no-roll rules, chart/tape read, postmortems. Proposes only — Will approves/rejects; never executes. |
+| **TERRY** 🖥️ | Trade construction / tactical execution discipline | 🟡 | Spawn-on-demand **and Claude Code conversational trading desk**. Will can talk through setups directly. Turns thesis into trade cards: entry, structure, sizing, invalidation, expiry/time stop, roll/no-roll rules, chart/tape read, postmortems. Proposes only — Will approves/rejects; never executes. |
 | **FORGE** | Positions / P&L / trade artifacts | 🟡 | `FORGE/STATUS.md` converts research → positions → P/L. Sub-folders per trade (KRE/, WAL/, etc.). |
 
 ## Commodity / Sector

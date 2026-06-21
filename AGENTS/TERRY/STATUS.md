@@ -1,5 +1,5 @@
 # TERRY STATUS
-**Updated:** 2026-06-20 (scripts/tool access added)
+**Updated:** 2026-06-20 (Claude Code conversational surface clarified)
 **Agent:** TERRY — trade construction / tactical execution discipline
 
 ## Mission
@@ -16,6 +16,7 @@ TERRY converts thesis into trade plans with explicit entry, invalidation, sizing
 | Live trade cards | None | No setups reviewed yet. |
 | Position truth | Unknown | Existing broker/fill/P&L state must come from Will via `POSITION_INTAKE.md` fields before firm triage. |
 | Data access | Conditional | Live prices/history via FORGE market-data wrappers; option chains require Will/broker/manual export then `chain_parse.py`. |
+| Claude Code surface | ✅ clarified | Will can open Terry directly for conversational trade-desk questions; full trade cards only when actionable. |
 
 ## First Useful Tasks
 

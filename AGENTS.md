@@ -34,7 +34,7 @@ NEXUS synthesizes across all chains. MARCO feeds immigration/labor supply into L
 | NEXUS | Cross-agent synthesis | All | ✅ OK |
 | HERMES | Signal delivery | Utility | ❌ Persistent (Telegram) |
 | ORACLE | Prediction markets | Utility | ✅ OK |
-| TERRY | Trade construction, chart/tape analysis, execution rails | Utility / trading desk | ✅ OK |
+| TERRY | Trade construction, chart/tape analysis, execution rails | Utility / trading desk | ✅ OK + Claude Code |
 | DARWIN | System evolution | Utility (inactive) | ✅ OK |
 | **VIOLET** | **VIX, vol term structure** | **Credit → Vol** | **✅ OK** |
 
