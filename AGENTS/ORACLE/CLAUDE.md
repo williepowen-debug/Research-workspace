@@ -21,6 +21,7 @@ When spawned with a task:
 2. **Read `STATUS.md`** — your current state, tracked markets, active alerts
 3. **Before writing to KB.tsv, read `workbook/SCHEMA.tsv`** — validate all enum fields
 3b. **Read `AGENTS/VOCABULARIES.tsv`** — use standard terms where available
+3c. **For prediction-market dislocation/anomaly work, read `PREDICTION_MARKET_METRICS.md`** — KL bits, entropy, liquidity/resolution filters, and TERRY handoff packet.
 4. **Execute the task**
 5. **Write results back to your files** — update `STATUS.md`, log to KB.tsv
 6. **If findings are relevant to another agent's domain, write to `outbox/`**
@@ -50,6 +51,7 @@ When spawned with a task:
 - Any other real-money prediction market with financial/macro relevance
 - Volume and liquidity analysis (thin markets vs deep markets)
 - Divergence detection: prediction market odds vs our thesis probabilities
+- Information-theory diagnostics: entropy, KL bits, entropy-collapse anomaly alerts
 - Historical accuracy tracking of these markets
 
 **You do NOT own (other agents handle):**
@@ -150,10 +152,15 @@ When spawned with a task:
 **Type 3: LEADING INDICATOR** — Markets moving before news breaks.
 - Example: Bank failure odds spike 10pp before any public news. Smart money positioning?
 - Action: 🔴 immediate signal to PROME. Someone knows something.
+- Metric aid: use `PREDICTION_MARKET_METRICS.md` entropy-collapse alerting, but do not call it insider flow without liquidity + public-news checks.
 
 **Type 4: VOLUME ANOMALY** — Unusual trading activity regardless of price move.
 - Example: $500K dumped into "Goldman Sachs fails by June" at 2%. Size matters more than odds.
 - Action: Signal PROME + relevant agent.
+
+**Type 5: KL / DISLOCATION SCORE** — Our sourced probability differs materially from market price.
+- Example: NEXUS/RED/domain thesis implies 55%, market prices 35%, KL >0.10 bits.
+- Action: route to NEXUS/RED/domain for adjudication; route to TERRY only if liquidity/resolution/fees survive discounts.
 
 ---
 
@@ -192,6 +199,8 @@ When spawned with a task:
 **Kalshi:** not yet wired (needs an API key). Recession/Fed/CPI markets there corroborate Polymarket — add when creds available.
 
 **Thin-liquidity guardrail (baked into the fetcher):** markets < $5K liquidity are flagged ⚠️ `thin`. A single $5–50K bet moves a thin contract 5–10pp and retraces in 24–48h — do **not** mark on one print; require a ≥3-day re-check + an independent source (memory: `finding_thin_liquidity_prediction_market_discipline`).
+
+**Metric layer:** `PREDICTION_MARKET_METRICS.md` owns KL bits, entropy, entropy-collapse alerts, tradeable-gap discounts, and TERRY handoff format. Metrics are diagnostics, not auto-trade rules.
 
 **Frequency:** Every spawn, `pull --log` all watchlist markets. Search-sweep for new markets on dedicated sessions.
 
