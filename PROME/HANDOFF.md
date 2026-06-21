@@ -6,6 +6,20 @@
 
 ---
 
+## 2026-06-21 ~19:40 ET — Closeout after CREED/REITS/TRADES/TERRY/ORACLE cleanup
+
+**Status:** Repo was clean/synced after rebasing over newer WALTER/SAM commits and pushing four system-cleanup commits. Closeout now updates Prome live-state surfaces. If committed after this entry, local may be ahead by one Prome closeout commit until Will pushes.
+
+**What landed:** REITS was archived/demoted and its useful public REIT equity-market tape moved into CREED. TRADES was archived/demoted and its useful verification pattern moved into TERRY. TERRY gained risk scoring/calibration tooling. ORACLE gained prediction-market metrics (entropy, KL bits, entropy-collapse alerts, liquidity/resolution discounts, TERRY handoff packet). Claude Code command reference now has no REITS/TRADES launch commands.
+
+**Pushed commits:** `9cf41161 CREED: absorb REIT equity tape`; `cdd6ce96 TERRY: archive legacy TRADES playbook`; `6219553f TERRY: add risk scoring module`; `0ad1def6 ORACLE: add prediction market metrics`.
+
+**Current ownership truth:** CREED owns national CRE/CMBS + REIT tape. REITS is source archive only. TERRY owns live trade construction and the old TRADES playbook. TRADES is source archive only. ORACLE measures prediction-market diagnostics; TERRY evaluates tradeability; Will approves. No auto-trading.
+
+**Next suggested work:** fresh boot should verify repo state, then either refresh market data for Jun22 gates or continue dormant-agent cleanup only after inspecting actual files/value. If ORACLE implementation resumes, metrics doc exists but script integration is still future work.
+
+**Risks / blockers:** HEARTBEAT remains Fri-close/weekend orientation; refresh dashboard/FRED before current levels. No trade/position action without broker/Will truth. Do not launch archived REITS/TRADES unless Will explicitly revives.
+
 ## 2026-06-21 ~15:55 ET — Post-CREED topology closeout / no-push session rule
 
 **Status:** Repo was clean/synced after pushed CREED topology closeout and memory closeout. Latest pushed commit: `670ae6b6 memory: log CREED topology closeout`. Will then approved updating Prome live boot surfaces and said local commits are allowed, but **do not push to GitHub until he coordinates**.
@@ -44,18 +58,5 @@
 **Next suggested work:** fresh boot should verify repo state, then use `HEARTBEAT.md` for the market frame. Market lane: Jun22 Brent/Hormuz tape response + HY <260 + CFTC/carry. System lane: wait for WALTER’s own cleanup before touching WALTER. DEWEY lane: CONTEXT refresh before first live run.
 
 **Risks / blockers:** do not repeat shared auto-memory index edits during active agent work; coordinate a push/rebase window first. Do not treat Hormuz closure as kinetic without physical/tape confirmation. No trade/expiry action without broker/Will truth.
-
----
-## 2026-06-20 ~14:59 ET — Closeout after CORAL inbox + thesis rails install
-
-**Status:** Repo is clean/synced to origin. CORAL boot hardening, WALTER inbox processing, and thesis rails are installed and pushed. Market regime unchanged from HEARTBEAT: Geneva de-escalation branch fired, HY **263 [FRED 6/17]** near <260 kill, banks/VIX calm, carry red.
-
-**What landed:** CORAL now has `scripts/boot.py`, processed WALTER inbox (`SIG-W-20260619-002/007/008` moved to processed with `board_log.tsv` rows), updated STATUS/SCRATCH/NEXUS/MEMORY/workbooks, and installed `thesis/THESIS.md` + `thesis/CHANGELOG.md`. Bank-upgrade rail requires ≥2 FL-exposed banks deteriorating or explicit USCB condo-association loan deterioration with corroboration.
-
-**Files edited:** `PROME/SCRATCH.md`, `PROME/STATUS.md`, `PROME/TODAY.md`, `PROME/ACTIVE_DECISIONS.md`, `PROME/HANDOFF.md`, `memory/2026-06-20.md`; CORAL files under `AGENTS/CORAL/` were edited under explicit Will scope and pushed before Prome closeout.
-
-**Next suggested work:** fresh boot should find repo clean/synced. If CORAL lane, build per-metro convergence grid or Q2 FL-bank prep. If market lane, refresh HY/dashboard and check Jun20 CFTC/SAM. If WALTER lane, monitor v0.18 behavior; do not edit WALTER specs from Prome unless scoped.
-
-**Risks / blockers:** no trade/expiry action without broker/Will truth. CORAL thesis values must stay in STATUS/workbooks, not THESIS. Do not upgrade CORAL bank transmission on collateral/household stress alone.
 
 ---
