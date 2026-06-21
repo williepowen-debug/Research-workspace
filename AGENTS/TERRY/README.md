@@ -10,16 +10,19 @@ Will can also open Terry directly in Claude Code as a conversational trading-des
 
 1. `CLAUDE.md` — operating spec.
 2. `RISK_RULES.md` — hard trading guardrails.
-3. `TRADE_CARD_TEMPLATE.md` — copy for actionable proposals.
-4. `POSITION_INTAKE.md` — required for existing position triage.
-5. `CHART_OPTIONS_WORKFLOW.md` — repeatable chart/options process.
-6. `scripts/boot.py` — read-only boot card / file health / optional snapshot.
-7. `scripts/snapshot.py` — price + relative-strength snapshot via FORGE market-data.
-8. `STATUS.md` — current Terry state.
+3. `RISK_SCORING.md` — pre-trade risk gates, edge scoring, fractional Kelly reference, calibration/Brier tracking, execution-block checklist.
+4. `TRADE_CARD_TEMPLATE.md` — copy for actionable proposals.
+5. `POSITION_INTAKE.md` — required for existing position triage.
+6. `CHART_OPTIONS_WORKFLOW.md` — repeatable chart/options process.
+7. `scripts/boot.py` — read-only boot card / file health / optional snapshot.
+8. `scripts/snapshot.py` — price + relative-strength snapshot via FORGE market-data.
+9. `STATUS.md` — current Terry state.
 
 ## Core output
 
 Full trade cards go in `setups/`; summaries go to `TRADE_BOOK.md` and `SETUPS.tsv`.
+
+Before any actionable proposal, apply `RISK_SCORING.md`: define edge, max loss, invalidation, liquidity, event risk, and execution block. Kelly is a capped sizing reference only, never an instruction.
 
 ## Scripts
 

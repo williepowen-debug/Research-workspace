@@ -52,12 +52,16 @@ Copy this into `setups/YYYY-MM-DD_<ticker>_<structure>.md` for every actionable 
 - **Alternatives considered:** [shares vs options vs spreads]
 - **Why this expression:** [risk/reward/timing/liquidity]
 
-## 6. Risk
+## 6. Risk / scoring
 - **Risk unit / max loss budget:** [$ / % / R]
+- **Edge estimate:** [qualitative or quantified; if probability-style, p_model vs p_market]
+- **Kelly reference:** [if applicable; fractional/capped only, never full Kelly]
 - **Sizing proposal:** [contracts/shares/notional; conditional if portfolio unknown]
 - **Invalidation:** [price / thesis / time]
 - **Stop / hedge / exit rule:** [mechanical rule]
 - **Gap/event risk:** [known failure mode]
+- **Liquidity / spread check:** [acceptable / conditional / blocks trade]
+- **Execution block:** [what must be true before Will could act]
 
 ## 7. Target / management
 - **Target 1:** [level / % / event]
@@ -68,7 +72,13 @@ Copy this into `setups/YYYY-MM-DD_<ticker>_<structure>.md` for every actionable 
 - **Review cadence:** [daily/weekly/event-driven]
 
 ## 8. Why not / counter-trade
-[Best reason this is bad timing or bad structure.]
+[Best reason this is bad timing or bad structure. Include `NO TRADE` reason if edge, liquidity, timing, or invalidation is insufficient.]
+
+## 8b. Calibration note, if probability-style
+- **Forecast:** [p_model or subjective probability]
+- **Market-implied probability:** [if applicable]
+- **Outcome to score later:** [binary/resolution criteria]
+- **Future Brier row needed?** [yes/no]
 
 ## 9. Decision
 - [ ] APPROVE
