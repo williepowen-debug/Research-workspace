@@ -10,7 +10,7 @@
 
 | Item | State | Read |
 |---|---|---|
-| Git | ✅ clean/synced pre-closeout | Active-agent push train pulled cleanly; Prome/root DEWEY cleanup pushed. Closeout commit may be newest if present. |
+| Git | ✅ clean/synced | Active-agent push train pulled cleanly; Prome/root DEWEY cleanup and closeout were pushed. |
 | HEARTBEAT | ✅ refreshed | Current frame: Hormuz re-closure declared; contested/not kinetic; energy tail re-fat; cascade unconfirmed. |
 | Auto-memory index | ✅ compacted | `memory/auto/MEMORY.md` under load cap; all 143 links preserved. Future compaction should be coordinated during quiet window. |
 | DEWEY root refs | ✅ aligned | `AGENTS_DIRECTORY.md` and HEARTBEAT now use DEWEY, not MERLIN/RESEARCHER. |

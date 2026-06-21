@@ -7,7 +7,7 @@
 
 **Market priority:** current regime source is `HEARTBEAT.md`: signed-but-fraying MOU; Hormuz re-closure declared; official/declaratory/contested, not yet kinetic. Energy tail is re-fat, broad cascade still unconfirmed. Next market lane is Jun22 Brent/vol/traffic response, HY <260 monitoring, SAM/CFTC carry read, and bank/PC re-weakening.
 
-**Current repo reality:** clean and synced to origin before closeout edits; latest pushed Prome/root work aligned DEWEY naming and fixed HEARTBEAT’s stale RESEARCHER path.
+**Current repo reality:** clean and synced to origin after closeout push; latest pushed Prome/root work aligned DEWEY naming, fixed HEARTBEAT’s stale RESEARCHER path, and closed out the Jun20 push-train cleanup.
 
 **Regime source:** `HEARTBEAT.md` is current. Boot from it rather than old Geneva-only TODAY/HANDOFF text.
 
