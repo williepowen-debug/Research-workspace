@@ -96,8 +96,8 @@ TLT $85P × 3 Jun 18 was +92% at 5/21 close ($83.56 spot). 5/22 intraday bounce 
 
 **References:**
 - `PROME/action-cards/TLT_JUN18_DECISION_2026-05-22.md` (full action card with execution ticket + conditional triggers)
-- `AGENTS/HENRY/outbox/REPLY-PROME-2026-05-22-tlt-decision.md` (HENRY's verdicts)
-- `AGENTS/HENRY/inbox/SIG-PROME-HENRY-2026-05-22_tlt-decision-and-vix-trigger-calibration.md` (original packet)
+- `AGENTS/HENRY/outbox/delivered/REPLY-PROME-2026-05-22-tlt-decision.md` (HENRY's verdicts)
+- `AGENTS/HENRY/inbox/processed/SIG-PROME-HENRY-2026-05-22_tlt-decision-and-vix-trigger-calibration.md` (original packet)
 - `FORGE/STATUS.md` (5/21 19:30 ET position state)
 
 **Options considered:**

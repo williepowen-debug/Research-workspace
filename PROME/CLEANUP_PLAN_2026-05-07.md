@@ -20,8 +20,8 @@ Most important finding: **HEARTBEAT.md, PROME/TODAY.md, PROME/STATUS.md, PROME/P
 | `HEARTBEAT.md` | Apr 12; contradicts later handoff | demote or rewrite |
 | `PROME/TODAY.md` | Apr 17 | rewrite or archive daily stale copy |
 | `PROME/STATUS.md` | Apr 17 | regenerate from agent STATUS mtimes/inboxes |
-| `PROME/TOSCANINI/QUEUE.md` | Mar 26 | archive completed/stale batches; rebuild queue |
-| `PROME/TOSCANINI/WILL_QUEUE.md` | Mar 25 | resolve/drop stale Will-needs |
+| `PROME/archive/TOSCANINI_2026-03/QUEUE.md` | Historical | retired Toscanini queue archive; do not use as live state |
+| `PROME/archive/TOSCANINI_2026-03/WILL_QUEUE.md` | Historical | retired Will-needs archive; live blockers now belong in `PROME/ACTIVE_DECISIONS.md` / `PROME/STATUS.md` |
 | `PROME/POSITIONS.md` | Apr 2 | stale; replace with current snapshot workflow |
 | `FORGE/ACTIVE_TRADES.md` | Mar 25 | stale; refresh only with Will/account data |
 | `FORGE/STATUS.md` | Mar 26 | stale; likely not an authority |
@@ -78,7 +78,7 @@ Dashboard exited code 1 due red breach behavior, not necessarily script failure.
 ### Phase 2 — Queue Surgery
 **Goal:** remove March-era false urgency.
 
-1. Archive `PROME/TOSCANINI/QUEUE.md` current content to dated archive.
+1. Completed: retired Toscanini files live under `PROME/archive/TOSCANINI_2026-03/`; do not rebuild them as live state.
 2. Rebuild live queue with only May-relevant items:
    - OBDC/APO decision context
    - KRE roll timing/current chain if still relevant

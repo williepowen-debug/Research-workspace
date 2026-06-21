@@ -38,7 +38,7 @@ Core rule:
 | `PROME/SCRATCH.md` | Fresh May 17 | Ephemeral session state and next best action. |
 | `PROME/TODAY.md` | Fresh May 17 | Daily catalysts/checklist and latest dashboard snapshot. |
 | `PROME/STATUS.md` | Fresh May 17 | Operational status, pending work, agent/domain notes. |
-| `PROME/TOSCANINI/QUEUE.md` | Stale | Proposal queue. Do not rely without refresh. |
+| `PROME/FLEET_SCAN.md` | On-demand | Fleet/agent stale-state scan and ranked candidate moves. |
 
 ---
 
@@ -78,7 +78,7 @@ Primary shared files:
 - `PROME/SYSTEM.md` — architecture map and trust layer.
 - `PROME/HANDOFF.md` / `PROME/SCRATCH.md` — cross-runtime Prome continuity and current session handoff.
 - `PROME/CLAUDE_CODE_HANDOFF.md` — deprecated pointer stub; historical content archived in `PROME/archive/HANDOFF_2026Q2.md`.
-- `PROME/TODAY.md`, `PROME/STATUS.md`, `PROME/TOSCANINI/QUEUE.md`, `HEARTBEAT.md`, `MEMORY.md` — current-state and long-term context as their own rules define.
+- `PROME/TODAY.md`, `PROME/STATUS.md`, `PROME/ACTIVE_DECISIONS.md`, `HEARTBEAT.md`, `MEMORY.md` — current-state and long-term context as their own rules define.
 
 Split-brain prevention:
 
@@ -163,14 +163,12 @@ Important current example:
 
 | File / directory | Role | Trust note |
 |---|---|---|
-| `PROME/TOSCANINI/AUTONOMY.md` | What Prome can do freely vs must propose/ask. | Use before ambiguous autonomy calls. |
-| `PROME/TOSCANINI/PROTOCOL.md` | Proposal mechanics. | Read when presenting proposals. |
-| `PROME/TOSCANINI/COMPLETION_SPEC.md` | Required sub-agent completion format. | Use for spawns. |
-| `PROME/TOSCANINI/HUNTING.md` | Scoring/ranking work items. | Use when triaging many tasks. |
-| `PROME/TOSCANINI/SIGNAL_BATCHING.md` | Multi-signal spawn/routing protocol. | Use for signal batches. |
-| `PROME/TOSCANINI/QUEUE.md` | Live proposals. | Currently stale. Refresh before trusting. |
-| `PROME/TOSCANINI/WILL_QUEUE.md` | Tasks blocked on Will. | Check if relevant. |
-| `PROME/TOSCANINI/DECISIONS.md` | Historical non-trade/system decisions. | Separate from `PROME/TRADE_DECISIONS.md`. |
+| `PROME/AUTONOMY.md` | What Prome can do freely vs must propose/ask. | Use before ambiguous autonomy calls. |
+| `PROME/COMPLETION_SPEC.md` | Required sub-agent completion format. | Use for spawns. |
+| `PROME/ORCHESTRAL_LAYER_DESIGN.md` | Fleet scan, ranking rubric, orchestration design. | Use when triaging many tasks. |
+| `PROME/ACTIVE_DECISIONS.md` | Open non-terminal decisions / Will blockers. | Check before proposing new decisions. |
+| `PROME/FLEET_SCAN.md` | On-demand stale-state scan and ranked candidate moves. | Rebuild when Will asks for fleet/agent audit. |
+| `PROME/archive/TOSCANINI_2026-03/` | Retired Toscanini queue/protocol archive. | Historical only; do not treat as live ops. |
 
 ---
 
@@ -204,7 +202,7 @@ Known current caveat:
 | `PROME/TODAY.md` | Fresh May 17 | Yes. |
 | `PROME/STATUS.md` | Fresh May 17 | Yes. |
 | `PROME/SCRATCH.md` | Fresh May 17 | Yes for current session continuity. |
-| `PROME/TOSCANINI/QUEUE.md` | Stale | No, refresh before presenting proposals. |
+| `PROME/FLEET_SCAN.md` | On-demand | Use only after rebuilding for the current question. |
 | `FORGE/STATUS.md` | Stale per Prome inbox signal | No, refresh before using. |
 | `PROME/CLAUDE_CODE_PROME_PLAN.md` | Fresh May 15 | Yes when continuing Claude Code Prome build. |
 | `PROME/CLAUDE_CODE_PROME_TASKS.md` | Fresh May 16 | Yes; current source of truth for next implementation task. |
@@ -217,8 +215,8 @@ Known current caveat:
    - Regional banks: KRE/WAL/OZK/ZION/SSB, Call Reports/MI3, live chain pricing.
    - BDC/private credit: APO/ARES/BIZD/ARCC, FSK implications, live chain pricing.
 
-2. **Toscanini queue still stale**
-   - `PROME/TOSCANINI/QUEUE.md` is historical and should be rebuilt before presenting proposals.
+2. **Retired Toscanini references may still exist in old docs**
+   - Live ops use `PROME/AUTONOMY.md`, `PROME/COMPLETION_SPEC.md`, `PROME/ACTIVE_DECISIONS.md`, and `PROME/ORCHESTRAL_LAYER_DESIGN.md`; `PROME/archive/TOSCANINI_2026-03/` is historical only.
 
 3. **FORGE status stale**
    - Inbox signal requested `FORGE/STATUS.md` refresh.
@@ -236,7 +234,7 @@ Known current caveat:
 2. Build regional-bank Monday decision prompt using REGINALD May 17 closeout.
 3. Build BDC/private-credit Monday decision prompt using FSK rails and live option pricing.
 4. Run Claude Code Prome Phase 3 dry run from `PROME/CLAUDE_CODE_PROME_TASKS.md`.
-5. Rebuild or explicitly demote `PROME/TOSCANINI/QUEUE.md`.
+5. Keep retired Toscanini references demoted to `PROME/archive/TOSCANINI_2026-03/` when encountered.
 6. Keep `PROME/BOOT.md` aligned with the current decision-support layer.
 
 ---

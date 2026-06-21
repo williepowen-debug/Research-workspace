@@ -97,7 +97,7 @@ status: open              # open | acknowledged | closed | superseded
 requires_action: true
 response_requested: true
 related_files:
-  - AGENTS/BOND/scratch/2026-05-21_10Y_postauction_dual_grade.md
+  - AGENTS/BOND/research/TIPS_5_21_READ_2026-05-21.md
   - HEARTBEAT.md
 due: 2026-05-21T20:00:00Z
 ---
@@ -141,7 +141,7 @@ To avoid merge conflicts, the original message file should generally remain immu
 Instead of editing `status: open` in the source message, the reader writes an ack file:
 
 ```text
-PROME/COMM/ACKS/20260521T174200Z_ack_20260521T173500Z-openclaw-bond-cusip-caveat.md
+PROME/COMM/ACKS/20260521T193904Z_ack_bond-cusip-caveat.md
 ```
 
 Ack schema:

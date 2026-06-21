@@ -29,8 +29,8 @@ Priority headers/top sections:
 
 Prome-routed outboxes:
 - `AGENTS/LIQUID/outbox/2026-06-08_to-PROME_liquid-will-decision-resolved.md`
-- `AGENTS/NEXUS/outbox/2026-06-08_to-PROME_liquid_will_decision.md`
-- `AGENTS/NEXUS/outbox/2026-06-08_to-PROME_t08_correlated_fragility_flag.md`
+- `AGENTS/NEXUS/outbox/delivered/2026-06-08_to-PROME_liquid_will_decision.md`
+- `AGENTS/NEXUS/outbox/delivered/2026-06-08_to-PROME_t08_correlated_fragility_flag.md`
 - `AGENTS/BROCK/outbox/2026-06-08_to-PROME_jun18-credit-trigger-calibration-late-response.md`
 - `AGENTS/BROCK/outbox/2026-06-08_to-PROME_root-claudemd-git-discipline-divergence-fleet-converged.md`
 - `AGENTS/CARL/outbox/2026-06-08_to-PROME_git-protocol-conflict.md`

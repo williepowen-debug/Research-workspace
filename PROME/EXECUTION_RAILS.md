@@ -35,7 +35,7 @@ Full inventory lives at `PROME/DECISION_ARTIFACTS_INDEX.md`. Use this taxonomy t
 | **Action Card** | Will-facing decision artifact: objective, exposure, branches, checklist | Lives in `PROME/action-cards/`; use when Will action/approval is possible |
 | **Execution Rail** | Trigger/default/owner/backstop logic | Can live inside an action card or source trigger set; must be indexed if non-terminal |
 | **Decision Memo** | Agent/domain recommendation with mark context and rationale | Reference as source; promote only when action/state/default matters |
-| **Trigger Set** | Cluster-level rail across multiple positions/catalysts | Keep source-of-truth in FORGE/domain file; create Prome wrapper for Will-facing state |
+| **Trigger Set** | Cluster-level rail across multiple positions/catalysts | Keep source-of-truth in the relevant FORGE thesis/research path (for example `FORGE/timing/thesis/` or `FORGE/research/`); create Prome wrapper for Will-facing state |
 | **Trade Decision Log** | Permanent Will decision + execution/outcome record | `PROME/TRADE_DECISIONS.md`; update on approval and state changes |
 | **Active Decision Index** | Boot-readable cockpit of non-terminal decisions | `PROME/ACTIVE_DECISIONS.md`; no full logic, just state/owner/next/backstop/source |
 

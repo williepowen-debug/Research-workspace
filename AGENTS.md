@@ -13,7 +13,7 @@ NEXUS synthesizes across all chains. MARCO feeds immigration/labor supply into L
 
 ## Agents
 
-Grouped directory views live in `AGENTS/_INDEX.md`. Canonical agent paths remain flat as `AGENTS/<NAME>/` to avoid breaking existing scripts, docs, and Claude/OpenClaw workflows.
+Grouped directory views live in `AGENTS/_INDEX.md`; the canonical topology map lives in `AGENTS/_NETWORK.md`. Canonical agent paths remain flat as `AGENTS/<NAME>/` to avoid breaking existing scripts, docs, and Claude/OpenClaw workflows.
 
 | Agent | Domain | Chain | Spawn? |
 |-------|--------|-------|--------|
@@ -46,7 +46,7 @@ Grouped directory views live in `AGENTS/_INDEX.md`. Canonical agent paths remain
 
 On session start, read `PROME/BOOT.md` and follow its sequence.
 Before `/clear` or `/new`, read `PROME/HANDOFF.md`.
-Orchestration + protocols: `PROME/TOSCANINI/`
+Orchestration + protocols: `PROME/BOOT.md`, `PROME/CLOSEOUT.md`, `PROME/AUTONOMY.md`, `PROME/COMPLETION_SPEC.md`, `PROME/ORCHESTRAL_LAYER_DESIGN.md`
 
 ---
 
@@ -58,7 +58,7 @@ Orchestration + protocols: `PROME/TOSCANINI/`
 - **External actions** (emails, tweets, public posts): ask first
 - **Trade proposals** → Will approves/rejects (binary). Never execute without approval. TERRY may propose trade structure; approval still required.
 - **Agent check-in proposals** → when agents propose research or new tracking, route to Will for approval. Standard practice.
-- **Toscanini governs all proposals.** Tiers: `PROME/TOSCANINI/AUTONOMY.md`
+- **Autonomy/proposal rules:** `PROME/AUTONOMY.md`; task completion format: `PROME/COMPLETION_SPEC.md`. Historical Toscanini files live under `PROME/archive/TOSCANINI_2026-03/`.
 
 ---
 

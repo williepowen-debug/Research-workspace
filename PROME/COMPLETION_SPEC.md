@@ -1,6 +1,6 @@
 # COMPLETION SPEC — Sub-Agent Report Standard
 
-**Purpose:** Every spawned sub-agent writes this block at the END of its work. Prome reads it to update QUEUE.md and DECISIONS.md without parsing the full agent output.
+**Purpose:** Every spawned sub-agent writes this block at the END of its work. Prome reads it to update live owner files (`PROME/STATUS.md`, `PROME/SCRATCH.md`, `PROME/ACTIVE_DECISIONS.md`, routing inboxes) without parsing the full agent output.
 
 ---
 
@@ -38,7 +38,7 @@ Both are required. The file is the backup; the system message is the primary cha
 ```
 ## COMPLETION
 STATUS: ⚠️ PARTIAL
-CHANGED: AGENTS/BROCK/STATUS.md, AGENTS/BROCK/workbook/KB.tsv, AGENTS/BROCK/research/MS_DEFAULT_FRAMEWORK.md
+CHANGED: AGENTS/BROCK/STATUS.md, AGENTS/BROCK/workbook/KB.tsv, AGENTS/BROCK/research/outputs/RP-BRK-1.3_pik_shadow_defaults.md
 RESULT: Integrated BlackRock HPS gating ($26B, $1.2B redemptions) and MS 8% default projection. Gate count updated to 10. Contagion map advanced to Stage 2.5. KB entries KB-BRK-047 and KB-BRK-048 added.
 GAPS: Could not verify exact BlackRock HPS 8-K filing date — SEC EDGAR search returned 403. Need to retry or Will can check manually.
 WILL_NEEDS: None.
@@ -49,11 +49,11 @@ FOLLOW-UP: ARESSI data drops Wed — spawn BROCK again to integrate when availab
 
 ## How Prome Uses This
 
-1. Read COMPLETION block from sub-agent output
-2. If WILL_NEEDS is not "None" → add to `TOSCANINI/WILL_QUEUE.md`
-3. If FOLLOW-UP is not "None" → add to `TOSCANINI/QUEUE.md` as draft proposal
-4. Update `TOSCANINI/DECISIONS.md` with outcome
-5. If STATUS is ❌ BLOCKED → surface to Will immediately
+1. Read COMPLETION block from sub-agent output.
+2. If WILL_NEEDS is not "None" → add the blocker to `PROME/ACTIVE_DECISIONS.md` or `PROME/STATUS.md`, then surface to Will when relevant.
+3. If FOLLOW-UP is not "None" → capture the next action in the owner file (`PROME/SCRATCH.md` for immediate continuity, `PROME/STATUS.md` for work queue, or an agent inbox for routed domain work).
+4. If the work produced a system/process decision, log it in the appropriate live owner file. Trade/portfolio decisions go to `PROME/TRADE_DECISIONS.md`; non-trade architecture/state decisions go to `PROME/STATUS.md`/`PROME/HANDOFF.md` as appropriate.
+5. If STATUS is ❌ BLOCKED → surface to Will immediately.
 6. **Post-completion routing** — scan RESULT for cross-agent references. If agent A's output names agent B (e.g., "OTTO mapped exposure chain → WAL → REGINALD should integrate"), write a routing signal to `AGENTS/{B}/inbox/` with the key finding. This is Tier 1 — no proposal needed.
 
    Examples:

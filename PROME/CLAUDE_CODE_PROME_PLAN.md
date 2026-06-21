@@ -77,7 +77,7 @@ Minimum boot set:
 Then inspect:
 
 - `PROME/SCRATCH.md`
-- `PROME/TOSCANINI/QUEUE.md`
+- `PROME/ACTIVE_DECISIONS.md` / `PROME/STATUS.md` for live blockers and work queue; historical Toscanini queue is archived at `PROME/archive/TOSCANINI_2026-03/QUEUE.md`
 - `AGENTS/PROME/inbox/`
 - `git status --short`
 
@@ -182,7 +182,7 @@ Potential `AGENTS_DIRECTORY.md` row:
 
 ### 1. System hygiene pass
 
-- Refresh stale `PROME/TODAY.md`, `PROME/STATUS.md`, `PROME/SCRATCH.md`, `PROME/TOSCANINI/QUEUE.md`.
+- Refresh stale `PROME/TODAY.md`, `PROME/STATUS.md`, `PROME/SCRATCH.md`, and `PROME/ACTIVE_DECISIONS.md` as needed. Do not use the retired Toscanini queue as live state.
 - Check owner-file duplication.
 - Update `PROME/SYSTEM.md` when architecture changes.
 

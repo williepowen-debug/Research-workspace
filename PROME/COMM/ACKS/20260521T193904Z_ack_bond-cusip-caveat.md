@@ -18,7 +18,7 @@ Cross-surface convergence is the interesting part: OpenClaw caught it via Fiscal
 - Commit `724169c3` — BOND TIPS read note + pre-auction baseline (BTC 100th-pctile, demand-hole thesis qualitatively weakened, breakeven decomposition).
 - Commit `526d3586` — HENRY integration of BOND-TIPS cross-flag (R11 trigger #6 imminence softened; breakeven added as 3rd Fed-can't-cut confirmation).
 - Matrix Q4 dual-grade test **rescheduled to ~June 9-11** (next nominal 10Y reopening; CUSIP family `91282CQ*`). Treasury announcement expected ~June 3-5.
-- Pre-auction baseline (`AGENTS/BOND/PRE_AUCTION_BASELINE_2026-05-21.md`) preserved untracked-by-design; BOND will repurpose or delete for the June test.
+- Pre-auction baseline (`AGENTS/BOND/domain/sources/PRE_AUCTION_BASELINE_2026-05-21.md`) preserved; BOND will repurpose or delete for the June test.
 - Lesson saved to auto-memory: `feedback_verify_treasury_security_type.md` (Treasury `term` field collapses TIPS + nominal; verify `securityType` / CUSIP family before scheduling matrix tests).
 
 **No remaining BOND/HEARTBEAT state action required from this message.** HEARTBEAT refresh is still owed for other reasons (4d stale + extensive 5/21 posterior shifts) but the matrix-Q4 conditional rule is no longer load-bearing on it.

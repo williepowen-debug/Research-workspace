@@ -445,7 +445,7 @@ No blocking questions, but these should be surfaced to Will:
 5. **Position reconciliation:** Treat as separate future phase unless Will pivots. Do not combine with boot refresh.
 
 Recommendation:
-- Keep phase notes until Phase 3 is complete; then either commit as audit trail or archive under `PROME/archive/boot-refresh/`.
+- Keep phase notes until Phase 3 is complete; then either commit as audit trail or archive under a dated `PROME/archive/` subdirectory if needed.
 - Create a new week card only if Phase 3 has enough time; otherwise update `TODAY.md` and `HEARTBEAT.md` first.
 
 ---

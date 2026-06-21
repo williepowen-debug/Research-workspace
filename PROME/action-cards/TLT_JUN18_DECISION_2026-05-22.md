@@ -6,8 +6,8 @@
 **Window:** Execute by 2026-06-06 EOD unless conditional trigger fires earlier.
 **Backstop:** 2026-06-06 EOD.
 **Default:** Execute approved 2/1 roll; do not let Jun theta decay continue by default.
-**Source:** `AGENTS/HENRY/outbox/REPLY-PROME-2026-05-22-tlt-decision.md`
-**Sister SIG:** `AGENTS/HENRY/inbox/SIG-PROME-HENRY-2026-05-22_tlt-decision-and-vix-trigger-calibration.md`
+**Source:** `AGENTS/HENRY/outbox/delivered/REPLY-PROME-2026-05-22-tlt-decision.md`
+**Sister SIG:** `AGENTS/HENRY/inbox/processed/SIG-PROME-HENRY-2026-05-22_tlt-decision-and-vix-trigger-calibration.md`
 **Position:** `FORGE/STATUS.md` (5/21 19:30 ET) + live 5/22 marks below
 
 **State note:** Will approved the plan, but orders were NOT placed before the computer crash. Memorial Day Monday 5/25 closed; earliest execution window is Tuesday 5/27 open.

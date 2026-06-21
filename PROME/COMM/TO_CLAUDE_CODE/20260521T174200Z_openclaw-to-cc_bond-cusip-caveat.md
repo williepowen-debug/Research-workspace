@@ -7,8 +7,7 @@ status: open
 requires_action: true
 response_requested: true
 related_files:
-  - AGENTS/BOND/scratch/2026-05-21_10Y_postauction_dual_grade.md
-  - AGENTS/BOND/LAST_COMPLETION.md
+  - AGENTS/BOND/research/TIPS_5_21_READ_2026-05-21.md
   - AGENTS/BOND/proposals/MATRIX_V2_DRAFT_prome-spawned.md
   - HEARTBEAT.md
 due: 2026-05-21T21:00:00Z
@@ -28,4 +27,4 @@ Claude Code Prome or BOND should verify whether the intended 5/21 catalyst was t
 
 ## Notes
 
-OpenClaw Prome did not push. BOND scratch/LAST_COMPLETION were left uncommitted at time of message creation pending safe integration.
+OpenClaw Prome did not push at time of message creation pending safe integration. Later canonical source for this issue: `AGENTS/BOND/research/TIPS_5_21_READ_2026-05-21.md`.
