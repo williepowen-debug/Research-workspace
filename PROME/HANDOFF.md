@@ -7,6 +7,20 @@
 ---
 
 
+
+## 2026-06-20 ~20:05 ET — Closeout after heartbeat/auto-memory/DEWEY cleanup + pushed-agent audit
+
+**Status:** Repo was clean/synced at closeout start. Current regime source is `HEARTBEAT.md`: signed-but-fraying MOU; Jun20 Hormuz re-closure declared; contested/not kinetic; energy tail re-fat; broad cascade unconfirmed. HY remains **263 [FRED 6/17]** near <260 kill, VIX/banks calm, carry red.
+
+**What landed:** HEARTBEAT refreshed and pushed for Jun20 Hormuz declaration; `memory/auto/MEMORY.md` compacted under the load cap with all 143 links preserved; active-agent push train pulled/audited cleanly; root DEWEY naming aligned in `HEARTBEAT.md` + `AGENTS_DIRECTORY.md`. WALTER-specific drift was identified but deliberately not edited — Will will handle with WALTER.
+
+**Files edited in this closeout:** `PROME/SCRATCH.md`, `PROME/STATUS.md`, `PROME/TODAY.md`, `PROME/ACTIVE_DECISIONS.md`, `PROME/HANDOFF.md`, `memory/2026-06-20.md`.
+
+**Next suggested work:** fresh boot should verify repo state, then use `HEARTBEAT.md` for the market frame. Market lane: Jun22 Brent/Hormuz tape response + HY <260 + CFTC/carry. System lane: wait for WALTER’s own cleanup before touching WALTER. DEWEY lane: CONTEXT refresh before first live run.
+
+**Risks / blockers:** do not repeat shared auto-memory index edits during active agent work; coordinate a push/rebase window first. Do not treat Hormuz closure as kinetic without physical/tape confirmation. No trade/expiry action without broker/Will truth.
+
+---
 ## 2026-06-20 ~14:59 ET — Closeout after CORAL inbox + thesis rails install
 
 **Status:** Repo is clean/synced to origin. CORAL boot hardening, WALTER inbox processing, and thesis rails are installed and pushed. Market regime unchanged from HEARTBEAT: Geneva de-escalation branch fired, HY **263 [FRED 6/17]** near <260 kill, banks/VIX calm, carry red.
@@ -58,19 +72,5 @@
 **Next suggested work:** pull/verify repo; if WALTER has landed the feature, inspect actual CHECKLIST/ledger/doctor diff + version-drift output. If market lane, refresh HY/dashboard and watch <260 / bank-PC offset.
 
 **Risks / blockers:** do not push local closeout without Will. Do not edit WALTER specs from Prome; WALTER owns ratification. No trade/expiry action without broker/Will truth.
-
----
-
-## 2026-06-18 ~14:05 ET — Closeout before fresh session; Quick-WALTER paused for fresh news
-
-**Status:** Repo is clean/synced. WALTER/Prome/ORC resolved the mini-WALTER boundary after the Moscow MNPZ A/B test. Full Claude Code WALTER is the signal desk. Prome/Quick-WALTER is paused for fresh news and may route only pre-registered RED-FT / REG-T / safety-net trigger fires with fixed recipient_chain, plus non-routing delivery repair/backfill for existing BOARD signals. Fresh screenshots/news/Visegrad/aggregator/source-confidence/recipient-selection all queue/escalate to Full WALTER.
-
-**What landed:** WALTER docs/specs pushed through the registry-only Quick boundary + UTC timestamp discipline; Moscow MNPZ timestamp fixed to true UTC; RED delivery_log row fixed to valid `COMMITTED`; HEARTBEAT/TODAY/Prome state updated. `walter_doctor` reconciles BOARD at 286 and shows all WALTER handoffs delivered; only known stale upstream feeds remain.
-
-**Market state:** HY OAS **263 [FRED 6/17]** is 3bp above the <260 R3/blended-credit kill line. Claims were benign/yellow; VIX/banks faded stress; USDJPY/FXY carry worsened. Broad cascade unconfirmed, kill line close.
-
-**Next suggested work:** fresh boot from `HEARTBEAT.md`, `PROME/SCRATCH.md`, `PROME/TODAY.md`, `PROME/ACTIVE_DECISIONS.md`. Choose lane: market monitoring (HY <260 / TIC-FXY / banks-PC), or system design for a group-chat VERIFY/CONTEXT helper that fact-packs signals without routing authority.
-
-**Risks / blockers:** do not spawn Quick-WALTER for fresh news; do not create parallel signal artifacts. Legacy parallel artifacts remain historical (30 `FORGE/signals/*.md`, 14 generic agent inbox signal files) and need a deliberate archive/leave decision. No trade/expiry action without broker/Will truth.
 
 ---

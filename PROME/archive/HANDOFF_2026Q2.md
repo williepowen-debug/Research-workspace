@@ -923,3 +923,19 @@ Open with Will at next-session start (Wed 5/27 AM):
 **Risks / blockers:** latest local commits are not pushed yet; Claude Code sessions cannot see them until origin is updated. PROME push automation for FLASH/IMMEDIATE to Claude Code recipients remains owed. No trade/position work without broker/Will truth.
 
 ---
+
+---
+
+## 2026-06-18 ~14:05 ET — Closeout before fresh session; Quick-WALTER paused for fresh news
+
+**Status:** Repo is clean/synced. WALTER/Prome/ORC resolved the mini-WALTER boundary after the Moscow MNPZ A/B test. Full Claude Code WALTER is the signal desk. Prome/Quick-WALTER is paused for fresh news and may route only pre-registered RED-FT / REG-T / safety-net trigger fires with fixed recipient_chain, plus non-routing delivery repair/backfill for existing BOARD signals. Fresh screenshots/news/Visegrad/aggregator/source-confidence/recipient-selection all queue/escalate to Full WALTER.
+
+**What landed:** WALTER docs/specs pushed through the registry-only Quick boundary + UTC timestamp discipline; Moscow MNPZ timestamp fixed to true UTC; RED delivery_log row fixed to valid `COMMITTED`; HEARTBEAT/TODAY/Prome state updated. `walter_doctor` reconciles BOARD at 286 and shows all WALTER handoffs delivered; only known stale upstream feeds remain.
+
+**Market state:** HY OAS **263 [FRED 6/17]** is 3bp above the <260 R3/blended-credit kill line. Claims were benign/yellow; VIX/banks faded stress; USDJPY/FXY carry worsened. Broad cascade unconfirmed, kill line close.
+
+**Next suggested work:** fresh boot from `HEARTBEAT.md`, `PROME/SCRATCH.md`, `PROME/TODAY.md`, `PROME/ACTIVE_DECISIONS.md`. Choose lane: market monitoring (HY <260 / TIC-FXY / banks-PC), or system design for a group-chat VERIFY/CONTEXT helper that fact-packs signals without routing authority.
+
+**Risks / blockers:** do not spawn Quick-WALTER for fresh news; do not create parallel signal artifacts. Legacy parallel artifacts remain historical (30 `FORGE/signals/*.md`, 14 generic agent inbox signal files) and need a deliberate archive/leave decision. No trade/expiry action without broker/Will truth.
+
+---
