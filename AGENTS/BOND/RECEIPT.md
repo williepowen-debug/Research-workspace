@@ -1,31 +1,29 @@
 # BOND — Processing Receipt
 
-**Run:** 2026-06-20 (Sat) — boot + post-gate refresh
-**Trigger:** Will — "boot up, it is Saturday 6/20"
+**Run:** 2026-06-20 (Sat) — boot → news sweep → data audit → Packet 9 → closeout
+**Triggers:** Will — boot; "sweep for bond news"; "audit our data"; "implement Packet 9"; "run the closeout (no push)"
 
 ## Inbox processed
 | Signal | Action | Result |
 |---|---|---|
-| `WALTER/SIG-W-20260619-003` (TIC April: $184B private-sector outflow swing, official+LT offset) | INTEGRATE | Logged KB-BND-049; updated VX-BND-13; moved to `processed/`. Cross-read: April predates 6/16 BOJ hike — Japan *added* USTs, intervention-selling not yet active (baseline). |
+| `WALTER/SIG-W-20260619-003` (TIC April: $184B private outflow swing, official+LT offset) | INTEGRATE | KB-049; VX-BND-13 updated; → `processed/`. |
 
 ## Catalysts resolved (gate 6/16–6/18)
-- **6/16 20Y reopening (912810UV8):** STRONG — BTC 2.75, indirect 71.6%, PD 8.5%, ~−1bp stop-through. **BND-09 → FALSE.** (KB-BND-050)
-- **6/17 FOMC (Warsh):** hawkish pivot (dot +40bp→3.8), bear-FLATTENER (2Y +15bp, 30Y flat 4.93). Front-end repriced, long-end held. (KB-BND-051)
-- **6/18 5Y TIPS (91282CQP9):** solid (real 1.955%, BTC 2.61). **(Note: 5Y not 10Y — the soft 10Y TIPS was 5/21.)** + BOJ 6/16 hike to 1.00% context. (KB-BND-052)
+- **6/16 20Y** STRONG (BTC 2.75, ind 71.6, dlr 8.5, stop-through) → **BND-09 FALSE** (KB-050)
+- **6/17 FOMC (Warsh)** hawkish, bear-flattener (2Y +15bp, 30Y flat 4.93) (KB-051)
+- **6/18 5Y TIPS** solid (BTC 2.61, real 1.955%) + BOJ 6/16 hike to 1.00% (KB-052)
 
-## Files written
-- `STATUS.md` — full refresh (dashboard, FOMC section, matrix 11/35, catalysts, bottom line)
-- `thesis/THESIS.md` — status line + episode read + scoreboard (BND-09 FALSE, BND-10 OPEN)
-- `thesis/CHANGELOG.md` — intra-v1.0 POV note 6/20 (bear-flattener / real-rate re-frame)
-- `thesis/PREDICTIONS.tsv` — BND-09 resolved FALSE; **BND-10 added** (long end does NOT re-engage, resolve 6/30)
-- `workbook/KB.tsv` — appended KB-BND-049/050/051/052
-- `workbook/VX.tsv` — updated 9 rows (incl. VX-BND-05 reconciled 🟠3→🟡2)
+## Work products this session
+- **News sweep (6/15–20):** KB-053 (ACM TP +0.73 / GAO BTC 3.0→2.5), KB-054 (Warsh MBS-sales intent), KB-055 (PIMCO default-cycle + CLO impaired), KB-056 (6/23-25 cluster + MMF $7.92T).
+- **30Y discrepancy resolved** live vs TreasuryDirect API: 6/11 BTC 2.33 confirmed; secondary "6/12 2.43" wrong.
+- **Data audit + remediation (18 files):** durable-doc live values → STATUS pointers; TRADE.md refresh; monitors backfill; FLOW.tsv demote; KB 28-row status sweep; VX-02/07; CATALYSTS resolve; archived WATCH_20Y + PRE_AUCTION_BASELINE; relabeled MATRIX_V2/PROTOCOL/WI.
+- **Packet 9:** closeout protocol wired into CLAUDE.md (BOOT/EXECUTE/CLOSEOUT); CLOSEOUT_GAP_ANALYSIS marked IMPLEMENTED (2/16 → ~14/16).
+
+## Closeout verification (this run, new protocol)
+- Composite re-sum: **11/35** ✓ (matches STATUS) · DUE-scan: none past timeframe (BND-02/04/10 cluster → 6/30) · KB hygiene: 0 ACTIVE-past-Stale_By ✓ · mirror-check: CATALYSTS↔STATUS aligned, durable docs 0 live values ✓.
 
 ## Outbox
-None this session (no 🔴 critical cross-agent signal; push-friction restraint). Flags noted in STATUS for pull: energy HY OAS 46d-stale, FR2004 re-pull ~6/23.
+None this session (🔴-only restraint). Flagged for pull: energy HY OAS 46d-stale (LIQUID); FR2004 re-pull ~6/23.
 
 ## Git
-Committed locally; **push deferred** — uncommitted work outside BOND dir (WALTER `IRAN_WAR.md`, BRENT inbox). Sweep in next coordinated push window.
-
-## Method
-Gather fanned out via background Workflow (5 streams + 2 adversarial verifies). 20Y auction + FOMC both independently re-verified vs TreasuryDirect PDF / Fed H.15.
+All committed LOCAL ONLY: `dcb095e6` boot · `39dea816` sweep · `1bf62ccf` audit · `775c33cd` Packet 9 · + this closeout. Path-scoped, 0 non-BOND files. **PUSH DEFERRED — Will coordinating the push.**
