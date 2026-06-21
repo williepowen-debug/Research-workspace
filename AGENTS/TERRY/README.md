@@ -25,6 +25,8 @@ Full trade cards go in `setups/`; summaries go to `TRADE_BOOK.md` and `SETUPS.ts
 python3 AGENTS/TERRY/scripts/boot.py --selftest
 python3 AGENTS/TERRY/scripts/boot.py --snapshot WAL KRE --benchmark KRE --stress
 python3 AGENTS/TERRY/scripts/snapshot.py WAL KRE --benchmark KRE --days 30 --stress
+python3 AGENTS/TERRY/scripts/risk_calc.py --premium 2.10 --max-loss 500
+python3 AGENTS/TERRY/scripts/chain_parse.py chain.csv --underlying WAL --type put
 ```
 
-Scripts are read-only helpers. They do not fetch option chains and never make execution decisions.
+Scripts are read-only helpers and never make execution decisions. `chain_parse.py` parses pasted/exported option-chain data; it does not fetch broker data.

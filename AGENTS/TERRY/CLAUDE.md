@@ -130,7 +130,8 @@ Input: closed/failed trade. Output: thesis right/wrong, timing right/wrong, stru
 8. For existing position triage, require `AGENTS/TERRY/POSITION_INTAKE.md` fields or mark `[POSITION_STATE_INCOMPLETE]`.
 9. Read the thesis owner’s current file(s) only as needed. Do not broadly re-research.
 10. Pull live prices before citing levels. Prefer `AGENTS/TERRY/scripts/snapshot.py TICKER --benchmark BENCHMARK --stress`; use `FORGE/tools/market-data/fetch.py price ...` / `dashboard.py` directly when needed.
-11. If options are involved and no live chain is available, mark option-specific terms as conditional and name the chain fields Will must verify.
+11. For sizing math, use `AGENTS/TERRY/scripts/risk_calc.py` and paste the output into the trade card risk section when helpful.
+12. For pasted/exported option chains, use `AGENTS/TERRY/scripts/chain_parse.py`; if no chain is available, mark option-specific terms as conditional and name the chain fields Will must verify.
 
 ---
 
@@ -158,7 +159,9 @@ At closeout or after a trade review:
 | `POSITION_INTAKE.md` | Required broker/position truth fields for existing-position triage. |
 | `CHART_OPTIONS_WORKFLOW.md` | Repeatable chart/tape/options workflow and chain fields. |
 | `scripts/boot.py` | Read-only Terry boot card: repo/file health, open setups, optional snapshot. |
-| `scripts/snapshot.py` | Price/relative-strength snapshot via FORGE market-data; no option-chain fetch. |
+| `scripts/snapshot.py` | Price/relative-strength snapshot via FORGE market-data. |
+| `scripts/risk_calc.py` | Risk sizing math: premium-at-risk or stop-based sizing. |
+| `scripts/chain_parse.py` | Parse pasted/exported option-chain CSV/TSV; does not fetch broker data. |
 | `TRADE_BOOK.md` | Human-readable ledger of proposed/approved/rejected trade cards. |
 | `SETUPS.tsv` | Structured setup tracker. |
 | `POSTMORTEMS.md` | Lessons from closed/dead trades. |
