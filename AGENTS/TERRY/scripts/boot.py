@@ -21,6 +21,7 @@ WORKSPACE = SCRIPTS_DIR.parents[2]
 REQUIRED = [
     "CLAUDE.md", "README.md", "STATUS.md", "RISK_RULES.md", "TRADE_CARD_TEMPLATE.md",
     "POSITION_INTAKE.md", "CHART_OPTIONS_WORKFLOW.md", "TRADE_BOOK.md", "SETUPS.tsv", "POSTMORTEMS.md",
+    "scripts/boot.py", "scripts/snapshot.py", "scripts/risk_calc.py", "scripts/chain_parse.py",
 ]
 
 
@@ -46,7 +47,8 @@ def setups():
     errors = []
     with p.open(newline="") as f:
         rows = list(csv.DictReader(f, delimiter="\t"))
-    openish = [r for r in rows if r.get("status") not in {"CLOSED", "EXPIRED", "SUPERSEDED"}]
+    terminal = {"CLOSED", "EXPIRED", "SUPERSEDED", "CREATED", "N/A"}
+    openish = [r for r in rows if (r.get("status") or "").upper() not in terminal and (r.get("instrument") or "") != "TERRY"]
     # validate stable column count crudely
     lines = p.read_text().splitlines()
     cols = len(lines[0].split("\t")) if lines else 0
@@ -80,7 +82,7 @@ def run(args):
 
     openish, errors = setups()
     print("\nSetups:")
-    print(f"  open/nonterminal rows: {len(openish)}")
+    print(f"  actionable/open rows: {len(openish)}")
     for r in openish[:8]:
         print(f"  - {r.get('setup_id')} {r.get('instrument')} {r.get('structure')} | {r.get('verdict')} | {r.get('status')} | {r.get('notes')}")
     for e in errors:

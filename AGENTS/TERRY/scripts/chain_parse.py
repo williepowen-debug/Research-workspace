@@ -95,6 +95,12 @@ def fmt(x, dp=2):
 
 def run(args):
     rows=load_rows(args.file)
+    if args.expiry:
+        # If an expiry column exists, filter to matching rows. If no expiry column exists,
+        # keep rows and treat --expiry as context for the printed card.
+        with_expiry = [r for r in rows if r.get('expiry')]
+        if with_expiry:
+            rows=[r for r in rows if str(r.get('expiry')).strip() == args.expiry]
     if args.type:
         want=args.type[0].upper()
         rows=[r for r in rows if not r['type'] or r['type']==want]
@@ -104,7 +110,7 @@ def run(args):
     print('TERRY option-chain intake')
     print('=========================')
     print('Parser only — no broker access, no execution recommendation.\n')
-    print(f"Underlying: {args.underlying or 'N/A'} | Expiry filter/context: {args.expiry or 'from file/unspecified'} | Rows: {len(rows)}")
+    print(f"Underlying: {args.underlying or 'N/A'} | Expiry: {args.expiry or 'from file/unspecified'} | Rows: {len(rows)}")
     print('Strike   T  Bid    Ask    Mark   Sprd%   Delta   Theta   IV      Vol    OI')
     print('-------  -  -----  -----  -----  ------  ------  ------  ------  -----  -----')
     wide=[]; thin=[]
