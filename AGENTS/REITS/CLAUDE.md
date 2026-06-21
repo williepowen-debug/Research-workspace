@@ -1,3 +1,17 @@
+# REITS — ARCHIVED / DORMANT
+
+**Updated:** 2026-06-21
+**Status:** Archived. Public REIT equity-market tape now belongs to CREED.
+
+Do not launch REITS as a live agent unless Will explicitly revives it. Use:
+
+- `AGENTS/CREED/research/REIT_EQUITY_TAPE_MODULE_2026-06-21.md`
+- `AGENTS/CREED/STATUS.md`
+
+The historical instructions below are preserved only as source archive and contain stale paths/values.
+
+---
+
 # REITS Agent Instructions
 
 **Agent:** REITS (Real Estate Investment Trust Monitoring Agent)

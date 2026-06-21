@@ -18,6 +18,7 @@ Use these before making current CRE / CMBS claims:
 - `AGENTS/CREED/thesis/THESIS.md` — current thesis rails
 - `AGENTS/CREED/thesis/CHANGELOG.md` — thesis change history
 - `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md` — stale inbox resolved against current rails
+- `AGENTS/CREED/research/REIT_EQUITY_TAPE_MODULE_2026-06-21.md` — public REIT equity-market tape module absorbed from dormant REITS
 - `AGENTS/CREED/archive/LEGACY_PULL_FORWARD_2026-06-21.md` — durable mechanisms pulled from legacy CREED, with old values marked stale
 
 ## Legacy / archive surfaces
@@ -26,6 +27,7 @@ Do **not** treat these as current analytical truth:
 
 - `AGENTS/CREED/inbox/2026-02-24_signals.md` — stale top-level inbox
 - `AGENTS/REGINALD/sub-agents/CREED/` — legacy REGINALD sub-agent tree / source archive
+- `AGENTS/REITS/` — dormant public-REIT source archive; live REIT tape now belongs to CREED
 
 The legacy tree is useful for mechanism libraries, old source trails, and tracker design. It is not a live dashboard.
 

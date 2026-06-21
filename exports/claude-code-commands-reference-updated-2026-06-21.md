@@ -32,9 +32,10 @@ Grouped files such as `AGENTS/_CREDIT.md`, `AGENTS/_ENERGY.md`, and `AGENTS/_NET
 - REGINALD — regional banks
 - OZK — OZK-specific bank work
 - CORAL — Florida convergence
-- CREED — national CRE / CMBS
+- CREED — national CRE / CMBS + public REIT equity tape
 - OTTO — auto / consumer delinquency
-- REITS / DOC — background credit/CRE surfaces
+- DOC — background credit/CRE surface
+- REITS — archived/dormant; public REIT tape now lives in CREED
 
 **Private credit / insurance**
 - BROCK — BDCs / private credit
@@ -202,14 +203,6 @@ tmux new -s otto -d 'cd ~/Research-workspace/AGENTS/OTTO && claude --dangerously
 tmux attach -t otto
 ```
 
-### REITS
-
-_REIT/CRE background._
-
-```bash
-tmux new -s reits -d 'cd ~/Research-workspace/AGENTS/REITS && claude --dangerously-skip-permissions'
-tmux attach -t reits
-```
 
 ### DOC
 

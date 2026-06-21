@@ -16,6 +16,7 @@ Own:
 - multifamily stress outside Florida-specific CORAL scope
 - CRE modification / extend-and-pretend exhaustion
 - CRE fund / shadow-NAV / forced-sale risk
+- public REIT equity-market tape as CRE recognition / valuation signal
 - maturity-wall timing and hard-maturity / no-extension dynamics
 
 Feed:
@@ -45,7 +46,8 @@ Do **not** own:
    2. `AGENTS/CREED/thesis/THESIS.md`
    3. `AGENTS/CREED/thesis/CHANGELOG.md`
    4. `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`
-   5. `AGENTS/CREED/archive/LEGACY_PULL_FORWARD_2026-06-21.md`
+   5. `AGENTS/CREED/research/REIT_EQUITY_TAPE_MODULE_2026-06-21.md`
+   6. `AGENTS/CREED/archive/LEGACY_PULL_FORWARD_2026-06-21.md`
 
 If a task only asks for file hygiene or topology checks, do not make fresh market claims from the rails. If a task asks for current market analysis, refresh live/monthly data first where needed.
 
@@ -80,6 +82,7 @@ Do not trade or recommend from old numbers such as:
 - old maturity-wall timing
 - old bank CRE PDNA / mod data
 - old office REIT move / AI-demand signals
+- old REITS workbook values from Jan 2026
 
 Use current rails for the June 2026 thesis state. Fresh data is still required before quoting any live market level, monthly CMBS print, FDIC update, or trade-relevant number beyond the dated source pack.
 
@@ -93,6 +96,7 @@ Current source pack and thesis rails. These are mandatory before CREED makes cur
 - `AGENTS/CREED/thesis/THESIS.md`
 - `AGENTS/CREED/thesis/CHANGELOG.md`
 - `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`
+- `AGENTS/CREED/research/REIT_EQUITY_TAPE_MODULE_2026-06-21.md`
 - `AGENTS/CREED/archive/LEGACY_PULL_FORWARD_2026-06-21.md`
 
 Every trade-relevant number still needs a source/date. Refresh monthly CMBS, FDIC, or REIT/broker tape before treating levels as current.
