@@ -1,8 +1,8 @@
 # CREED — Claude Boot
 
-**Agent:** CREED  
-**Domain:** National CRE / CMBS market-stress specialist  
-**Status:** Revival boot surface installed 2026-06-21. Not yet canonical in `AGENTS.md`; do not treat legacy February data as current.
+**Agent:** CREED
+**Domain:** National CRE / CMBS market-stress specialist
+**Status:** Revival thesis rails installed 2026-06-21. Not yet canonical in `AGENTS.md`; do not treat legacy February data as current.
 
 ---
 
@@ -39,7 +39,10 @@ Do **not** own:
 2. Read `AGENTS/CREED/STATUS.md`.
 3. Read `AGENTS/CREED/REVIVAL_PLAN.md`.
 4. Treat legacy CREED material under `AGENTS/REGINALD/sub-agents/CREED/` as **source archive**, not current truth.
-5. Before making market claims, create/read a fresh refresh note under the planned CREED research folder using current sources.
+5. Read current rails before making market claims:
+   - `AGENTS/CREED/research/REFRESH_2026-06-21.md`
+   - `AGENTS/CREED/thesis/THESIS.md`
+   - `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`
 
 ---
 
@@ -77,20 +80,16 @@ Fresh data is required before current claims.
 
 ---
 
-## First Refresh Checklist
+## Current Rails
 
-Create a dated refresh note under the planned CREED research folder with current data for:
+Current source pack and thesis rails:
 
-- Trepp latest CMBS delinquency / special servicing by property type
-- Morningstar/DBRS maturity wall and maturity-default outlook
-- FDIC Q1 2026 CRE delinquency / PDNA, including bank-size split
-- office REIT and CMBS tape
-- multifamily / Sunbelt stress
-- CRE modification, re-default, and provision disclosures
-- hard-maturity / no-extension evidence
-- transmission read for REGINALD/CORAL/LIQUID/CARL
+- `AGENTS/CREED/research/REFRESH_2026-06-21.md`
+- `AGENTS/CREED/thesis/THESIS.md`
+- `AGENTS/CREED/thesis/CHANGELOG.md`
+- `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`
 
-Every trade-relevant number needs a source/date.
+Every trade-relevant number still needs a source/date. Refresh monthly CMBS, FDIC, or REIT/broker tape before treating levels as current.
 
 ---
 
@@ -100,10 +99,10 @@ Legacy hypothesis:
 
 > CRE stress is real, but bank recognition timing depends on mods, forbearance, refi capacity, employment, and bank concentration.
 
-Revival should test whether the current state is:
-1. **extend-and-pretend still absorbing**,  
-2. **selective CRE recognition accelerating**, or  
-3. **broad CRE-to-bank transmission beginning**.
+Current thesis state:
+1. **extend-and-pretend still absorbing** — still active in banks and large-loan cures,
+2. **selective CRE recognition accelerating** — current base case,
+3. **broad CRE-to-bank transmission beginning** — not confirmed.
 
 ---
 

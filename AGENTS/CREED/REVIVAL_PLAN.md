@@ -2,7 +2,7 @@
 
 **Created:** 2026-06-21
 **Owner:** Prome until CREED is bootable; CREED owns after revival.
-**Status:** Phase 3 fresh-data refresh drafted. Thesis rails not installed yet.
+**Status:** Phase 4 thesis rails installed. Topology integration not approved yet.
 
 ---
 
@@ -28,7 +28,10 @@ Top-level `AGENTS/CREED/` is now bootable but not analytically current:
 - `AGENTS/CREED/REVIVAL_PLAN.md`
 - `AGENTS/CREED/inbox/2026-02-24_signals.md`
 - Phase 3 refresh: `AGENTS/CREED/research/REFRESH_2026-06-21.md`
-- no live workbook/thesis rails yet
+- Phase 4 thesis rails: `AGENTS/CREED/thesis/THESIS.md`
+- Phase 4 changelog: `AGENTS/CREED/thesis/CHANGELOG.md`
+- Phase 4 inbox triage: `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`
+- no live workbook/dashboard yet
 
 The real legacy CREED body lives under REGINALD:
 - `AGENTS/REGINALD/sub-agents/CREED/STATUS.md`
@@ -116,9 +119,16 @@ Refresh covered:
 
 ### Phase 4 — Thesis + signal integration
 
-Create/update current CREED thesis rails and optional coverage map.
+Completed 2026-06-21:
+- `AGENTS/CREED/thesis/THESIS.md`
+- `AGENTS/CREED/thesis/CHANGELOG.md`
+- `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`
 
-Process stale inboxes only after fresh data refresh.
+Resolved stale inboxes against fresh data:
+- maturity wall / hard maturity: kept and promoted, timing refined toward Q4 back-loading
+- office REIT / AI demand: downgraded to secondary accelerator until confirmed in leasing/vacancy/default data
+- FDIC bank PDNA: kept as bank-convergence watch; Q1 does not confirm broad cascade
+- residential housing liquidity: routed away from CREED core toward CARL if refreshed
 
 ### Phase 5 — Topology integration
 
