@@ -80,8 +80,12 @@ Sub-agents own detail → distill upward to parents → lateral only when transm
 | **DARWIN** | System evolution/AI | Weekly scans, improvement backlog |
 | BUFFER, EARNINGS, FOREX, OTTO, REITS | Various | Background/event-driven |
 
-## Trading: FORGE
-`FORGE/STATUS.md` — converts research → positions → P/L. Sub-folders per trade (KRE/, WAL/, etc.)
+## Trading
+
+| Agent / Surface | Domain | Status | Key |
+|---|---|---|---|
+| **TERRY** | Trade construction / tactical execution discipline | 🟡 | Spawn-on-demand trading desk. Turns thesis into trade cards: entry, structure, sizing, invalidation, expiry/time stop, roll/no-roll rules, chart/tape read, postmortems. Proposes only — Will approves/rejects; never executes. |
+| **FORGE** | Positions / P&L / trade artifacts | 🟡 | `FORGE/STATUS.md` converts research → positions → P/L. Sub-folders per trade (KRE/, WAL/, etc.). |
 
 ## Commodity / Sector
 

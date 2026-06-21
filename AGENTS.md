@@ -9,7 +9,7 @@ Detect stress transmission early enough to position ahead of consensus.
 4. **Japan:** SAM — independent trigger via carry unwind → LIQUID
 5. **Volatility:** VIOLET — credit-to-vol lag detection → HENRY, LIQUID, RED
 
-NEXUS synthesizes across all chains. MARCO feeds immigration/labor supply into LABOR + BRENT. **VIOLET tracks credit-to-vol transmission — when credit spreads widen and VIX hasn't caught up.**
+NEXUS synthesizes across all chains. MARCO feeds immigration/labor supply into LABOR + BRENT. **VIOLET tracks credit-to-vol transmission — when credit spreads widen and VIX hasn't caught up.** **TERRY converts thesis into trade construction: entry, structure, sizing, invalidation, roll/no-roll rules, and postmortems.**
 
 ## Agents
 
@@ -34,6 +34,7 @@ NEXUS synthesizes across all chains. MARCO feeds immigration/labor supply into L
 | NEXUS | Cross-agent synthesis | All | ✅ OK |
 | HERMES | Signal delivery | Utility | ❌ Persistent (Telegram) |
 | ORACLE | Prediction markets | Utility | ✅ OK |
+| TERRY | Trade construction, chart/tape analysis, execution rails | Utility / trading desk | ✅ OK |
 | DARWIN | System evolution | Utility (inactive) | ✅ OK |
 | **VIOLET** | **VIX, vol term structure** | **Credit → Vol** | **✅ OK** |
 
@@ -53,7 +54,7 @@ Orchestration + protocols: `PROME/TOSCANINI/`
 - `trash` > `rm`
 - **Internal actions** (read, organize, search): do freely
 - **External actions** (emails, tweets, public posts): ask first
-- **Trade proposals** → Will approves/rejects (binary). Never execute without approval.
+- **Trade proposals** → Will approves/rejects (binary). Never execute without approval. TERRY may propose trade structure; approval still required.
 - **Agent check-in proposals** → when agents propose research or new tracking, route to Will for approval. Standard practice.
 - **Toscanini governs all proposals.** Tiers: `PROME/TOSCANINI/AUTONOMY.md`
 
