@@ -8,15 +8,15 @@
 
 
 
-## 2026-06-21 ~09:55 ET — Closeout after AGENTS organization + PROME path cleanup + canonical network map
+## 2026-06-21 ~10:01 ET — Closeout after AGENTS organization + weekend freshness cleanup
 
-**Status:** Repo was clean/synced after two pushed cleanup commits. No market data was refreshed this session; market regime remains governed by `HEARTBEAT.md` (Jun20 Hormuz re-closure declared; contested/not kinetic; energy tail re-fat; broad cascade unconfirmed).
+**Status:** Repo was clean/synced after the AGENTS/PROME cleanup push, then two small local commits were added for repeated Sunday respawns: `PROME/BOOT.md` now has a weekend/market-holiday freshness gate, and `HEARTBEAT.md` now labels Fri-close dashboard levels as orientation-only. No market data was refreshed this session.
 
-**What landed:** Grouped AGENTS directory views (`AGENTS/_INDEX.md` + group files) are live without moving canonical `AGENTS/<NAME>/` folders. Live Prome docs were cleaned of retired `PROME/TOSCANINI/` paths and moved inbox/outbox refs. Canonical topology now lives in `AGENTS/_NETWORK.md`; main dashboard Network tab mirrors it; standalone `dashboard/network.html` is a pointer/redirect.
+**What landed:** Grouped AGENTS directory views are live without moving canonical `AGENTS/<NAME>/` folders. Live Prome docs were cleaned of retired `PROME/TOSCANINI/` paths. Canonical topology now lives in `AGENTS/_NETWORK.md`; main dashboard Network tab mirrors it; standalone `dashboard/network.html` is a pointer/redirect. HEARTBEAT cleanup cleared stale WALTER re-verify wording and old pre-DEWEY naming noise.
 
-**Files edited in closeout:** `PROME/SCRATCH.md`, `PROME/STATUS.md`, `PROME/TODAY.md`, `PROME/HANDOFF.md`, `memory/2026-06-21.md`. `PROME/ACTIVE_DECISIONS.md` intentionally unchanged because no non-terminal decision rail moved.
+**Files edited in closeout:** `PROME/SCRATCH.md`, `PROME/STATUS.md`, `PROME/TODAY.md`, `PROME/HANDOFF.md`, `memory/2026-06-21.md`, plus post-closeout hygiene in `PROME/BOOT.md` and `HEARTBEAT.md`. `PROME/ACTIVE_DECISIONS.md` intentionally unchanged because no non-terminal decision rail moved.
 
-**Next suggested work:** fresh boot should verify repo state, then choose lane. Market lane: refresh dashboard/FRED HY before citing levels and watch Jun22 Brent/Hormuz + HY <260 + CFTC/carry. System lane: use `AGENTS/_INDEX.md` for grouped navigation and `AGENTS/_NETWORK.md` for topology.
+**Next suggested work:** fresh boot should verify repo state, then choose lane. Market lane: treat `HEARTBEAT.md` as Sunday orientation only and refresh dashboard/FRED before citing fresh levels; watch Jun22 Brent/Hormuz + HY <260 + CFTC/carry. System lane: use `AGENTS/_INDEX.md` for grouped navigation and `AGENTS/_NETWORK.md` for topology.
 
 **Risks / blockers:** do not physically move agent directories without a migration pass. Do not maintain multiple live network maps. No trade/expiry action without broker/Will truth.
 
@@ -45,31 +45,5 @@
 **Next suggested work:** fresh boot should find repo clean/synced. If CORAL lane, build per-metro convergence grid or Q2 FL-bank prep. If market lane, refresh HY/dashboard and check Jun20 CFTC/SAM. If WALTER lane, monitor v0.18 behavior; do not edit WALTER specs from Prome unless scoped.
 
 **Risks / blockers:** no trade/expiry action without broker/Will truth. CORAL thesis values must stay in STATUS/workbooks, not THESIS. Do not upgrade CORAL bank transmission on collateral/household stress alone.
-
----
-
-## 2026-06-19 ~21:15 ET — Closeout after CORAL Phase 1 + Geneva heartbeat
-
-**Status:** CORAL Phase 1 maturity scaffold is on origin. Geneva gate resolved de-escalatory and `HEARTBEAT.md` was updated locally; heartbeat + this closeout are local-only unless Will asks to push. Current market read: energy shock deferred, HY **263 [FRED 6/17]** still 3bp above <260 kill, banks/VIX calm, carry red.
-
-**What landed:** CORAL got mature-agent boot surfaces and protocol: `SCRATCH.md`, `NEXUS_BRIEF.md`, `board_log.tsv`, and CLAUDE boot/write-back/WALTER intake rules. CORAL peer-integration drift fix and Phase 1 commit were both pushed. Heartbeat now reflects U.S.–Iran MOU / Hormuz reopening / 60-day fuse.
-
-**Files edited:** `HEARTBEAT.md`, `PROME/SCRATCH.md`, `PROME/TODAY.md`, `PROME/STATUS.md`, `PROME/ACTIVE_DECISIONS.md`, `PROME/HANDOFF.md`, `memory/2026-06-19.md`. Agent files were edited only under Will-scoped CORAL Phase 1 and pushed before this closeout.
-
-**Next suggested work:** fresh boot should verify git ahead/behind first. If market lane, refresh HY/dashboard and check Jun20 CFTC. If CORAL lane, consume pending WALTER handoffs `SIG-W-20260619-002` and `SIG-W-20260619-007` through `board_log.tsv` + `git mv`.
-
-**Risks / blockers:** local-only heartbeat/closeout commits are not on origin until pushed. Do not edit WALTER specs from Prome; WALTER owns future tuning. No trade/expiry action without broker/Will truth.
-
----
-
-## 2026-06-19 ~15:45 ET — Final synced closeout; WALTER v0.18 active
-
-**Status:** Repo was rebased over origin and pushed cleanly; final state expected clean/synced. WALTER ratified the deep-research candidate flag as CHECKLIST **v0.18** and Prome verified the landed spec/ledger/doctor/STATE/CLAUDE surfaces. Market regime unchanged: HY OAS **263 [FRED 6/17]** near <260 kill; banks/VIX benign; carry red.
-
-**What landed:** Prior Prome closeout commit was rebased and pushed. Final Prome state now updates from “greenlit/local-only” to “WALTER v0.18 active / repo synced.” Daily log appended with rebase/push + WALTER verification.
-
-**Next suggested work:** fresh boot should find repo clean/synced. If system lane, monitor WALTER v0.18 behavior/doctor output rather than editing specs. If market lane, refresh HY/dashboard and watch <260 / bank-PC offset. If SAM lane, check Jun20 CFTC against v1.6 convexity survival gates.
-
-**Risks / blockers:** no Prome edits to WALTER specs; WALTER owns future tuning. Quick-WALTER still cannot judge fresh news or deep-research flags. No trade/expiry action without broker/Will truth.
 
 ---
