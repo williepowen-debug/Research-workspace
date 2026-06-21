@@ -1,15 +1,15 @@
 # PROME STATUS.md
-**Updated:** 2026-06-21 09:55 ET (OpenClaw Prome — AGENTS organization + PROME path cleanup + canonical network map closeout)
+**Updated:** 2026-06-21 10:04 ET (OpenClaw Prome — post-closeout hygiene: BOOT/HEARTBEAT freshness + HANDOFF tighten)
 
 ## Core State
 
-**Operational priority:** AGENTS/PROME organization pass is complete from Prome’s side: grouped AGENTS indexes are pushed, canonical agent topology lives in `AGENTS/_NETWORK.md`, dashboard network rendering is updated, standalone dashboard network is demoted to a pointer, and live Prome docs no longer point at retired `PROME/TOSCANINI/` paths.
+**Operational priority:** AGENTS/PROME organization pass is complete and pushed. Grouped AGENTS indexes are live, canonical topology lives in `AGENTS/_NETWORK.md`, dashboard network rendering is updated, standalone dashboard network is demoted to a pointer, live Prome docs no longer point at retired `PROME/TOSCANINI/`, and repeated Sunday respawns now have an explicit market-freshness gate in `PROME/BOOT.md`.
 
 **Market priority:** unchanged from `HEARTBEAT.md`: signed-but-fraying MOU; Hormuz re-closure declared; official/declaratory/contested, not yet kinetic. Energy tail is re-fat, broad cascade still unconfirmed. Next market lane is Jun22 Brent/vol/traffic response, HY <260 monitoring, SAM/CFTC carry read, and bank/PC re-weakening.
 
-**Current repo reality:** clean and synced to origin before this closeout update. Latest pushed work: `1cb8a774` grouped agent directory indexes and `9a6f155a` Prome path cleanup + canonical agent network/dashboard cleanup.
+**Current repo reality:** clean and synced to origin after pushed cleanup and closeout commits. Latest pushed sequence: grouped AGENTS indexes, Prome path/network cleanup, closeout log, BOOT weekend freshness gate, HEARTBEAT weekend hygiene, and HANDOFF tighten.
 
-**Regime source:** `HEARTBEAT.md` is current. No fresh market data was pulled during the Jun21 organization closeout.
+**Regime source:** `HEARTBEAT.md` is current as orientation. Jun21 hygiene added a weekend freshness note; no fresh Sunday market data was pulled.
 
 **Standing constraint:** **do not edit `AGENTS/*` domain files** unless Will explicitly approves/scopes it. Index/topology docs under `AGENTS/_*.md` are Prome/system surfaces, but domain agents still own their folders.
 
@@ -19,12 +19,12 @@
 
 | Surface | Role | Current note |
 |---|---|---|
-| `HEARTBEAT.md` | Regime, dashboard, thresholds, near gates | Hormuz re-closure declared; contested/not kinetic; energy tail re-fat; cascade unconfirmed. |
+| `HEARTBEAT.md` | Regime, dashboard, thresholds, near gates | Hormuz re-closure declared; contested/not kinetic; energy tail re-fat; cascade unconfirmed. Jun21 hygiene labels Fri-close levels as orientation-only. |
 | `PROME/TODAY.md` | Operator card / immediate lane | Updated for Jun21 closeout: organization pass complete; no fresh market refresh. |
 | `PROME/ACTIVE_DECISIONS.md` | Safety index for trade/expiry rails | No decision moved in AGENTS/PROME organization pass; leave existing trade/system rails unchanged. |
 | `PROME/SCRATCH.md` | Working notes / latest session entry | Current closeout entry point: grouped views + path cleanup + canonical network map pushed. |
 | `PROME/FLEET_SCAN.md` | Conditional fleet map | Stale Jun14 map; read only as historical unless refreshed on demand. |
-| `PROME/HANDOFF.md` | Live continuity surface | Top entry should reflect Jun21 organization/path/network closeout. |
+| `PROME/HANDOFF.md` | Live continuity surface | Tightened to 3 live entries; top entry reflects AGENTS cleanup + weekend freshness hygiene. |
 | `AGENTS/_INDEX.md` | Grouped directory view | Live navigation layer; canonical paths remain flat. |
 | `AGENTS/_NETWORK.md` | Canonical topology map | Live source for agent network/transmission topology. |
 | `dashboard/index.html` | Visual dashboard | Network tab mirrors `AGENTS/_NETWORK.md`; standalone `dashboard/network.html` is pointer/redirect only. |
@@ -41,7 +41,9 @@
 | **Canonical network map** | ✅ pushed | `AGENTS/_NETWORK.md` is source of truth; dashboard is rendering. |
 | **Dashboard network drift** | ✅ reduced | `dashboard/network.html` demoted to pointer; main dashboard tab updated. |
 | **PROME stale path refs** | ✅ cleaned | Live Prome docs no longer reference retired Toscanini paths; path checks clean before push. |
-| **HEARTBEAT / regime** | ✅ refreshed Jun20 | Hormuz re-closure declared Jun20; contested/not kinetic; Jun22 tape is next confirmation. |
+| **BOOT freshness gate** | ✅ codified | Weekends/market holidays: HEARTBEAT is orientation only; refresh dashboard/FRED before citing current levels. |
+| **HEARTBEAT / regime** | ✅ refreshed Jun20 + hygiene Jun21 | Hormuz re-closure declared Jun20; contested/not kinetic; Jun22 tape is next confirmation; Fri-close dashboard levels labeled orientation-only. |
+| **HANDOFF live surface** | ✅ tightened | Reduced to 3 entries; stale push-state and pre-DEWEY wording cleared. |
 | **Auto-memory load cap** | ✅ compacted Jun20 | `memory/auto/MEMORY.md` under cap with all 143 links preserved; future compaction should be coordinated. |
 | **DEWEY root naming** | ✅ aligned | HEARTBEAT + `AGENTS_DIRECTORY.md` now use DEWEY; WALTER-specific follow-up belongs to WALTER. |
 | **CORAL maturity** | ✅ boot/inbox/thesis rails installed | Boot card, WALTER processed lane, NEXUS brief, thesis/changelog, and closeout rules are on origin. |
@@ -87,4 +89,4 @@
 
 ## Next Best Action
 
-Next: commit/push this closeout if Will wants it saved now. Fresh boot should verify git state, expected clean/synced after closeout push; then choose lane. Market lane = refresh dashboard/FRED HY and watch Jun22 Brent/Hormuz + HY <260 + CFTC/carry. System lane = use `AGENTS/_INDEX.md` and `AGENTS/_NETWORK.md`; do not create a second live map. Position lane remains blocked on broker/Will truth.
+Fresh boot should verify git state, expected clean/synced after the latest hygiene push, then choose lane. Market lane = treat HEARTBEAT as Sunday orientation only, refresh dashboard/FRED before citing current levels, and watch Jun22 Brent/Hormuz + HY <260 + CFTC/carry. System lane = use `AGENTS/_INDEX.md` and `AGENTS/_NETWORK.md`; do not create a second live map. Position lane remains blocked on broker/Will truth.
