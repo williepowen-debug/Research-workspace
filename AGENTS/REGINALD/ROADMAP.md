@@ -1,5 +1,5 @@
 # REGINALD ROADMAP — "Where are we"
-**Updated:** 2026-06-20 (recovery of orphaned 6/19 BOARD rows + CRE-DQ-by-tier drill RESOLVED → concentration-cohort, not asset-tier; WAL unchanged) | **Status:** ACTIVE
+**Updated:** 2026-06-20 (recovery of orphaned 6/19 BOARD rows + CRE-DQ-by-tier drill RESOLVED → severity-graded tier-wide leading-creep, SIG-009 directionally confirmed; WAL unchanged) | **Status:** ACTIVE
 
 Persistent state-of-REGINALD tracker across sessions. **SCRATCH** = loose notes, intra-day workspace. **MEMORY.md Session Notes** = session-bridge handoff (what just happened, what's next). **STATUS** = live dashboard. **ROADMAP** = what threads are open, what data we're waiting on, what questions are unresolved, what we want to investigate next, what just got done.
 
