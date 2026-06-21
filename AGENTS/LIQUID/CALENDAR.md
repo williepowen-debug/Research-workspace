@@ -2,6 +2,8 @@
 
 **Last Updated:** 2026-06-20 Sat (rolled forward from 6/12; FOMC 6/17 + TIC 6/18 + June auctions resolved → archive)
 
+> **Source-of-truth pairing:** `workbook/CATALYSTS.tsv` is the machine-readable forward-event docket (dated rows, consumed by the boot countdown). **This human calendar is its twin — they must not diverge in the *event set*.** When you add or resolve a dated catalyst, update both. Rolling daily watches (HY-OAS direction, 30Y <4.90 unwind, USD/JPY, SOFR-IORB) are NOT dated catalysts — they live in STATUS danger windows + `scripts/boot.py`, not CATALYSTS.tsv.
+
 ---
 
 ## This Week (Jun 22–26, 2026)
