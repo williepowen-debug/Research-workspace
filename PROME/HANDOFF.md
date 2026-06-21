@@ -6,17 +6,19 @@
 
 ---
 
-## 2026-06-21 ~15:15 ET — Pre-clear handoff after CREED Phase 1–4 revival
+## 2026-06-21 ~15:55 ET — Post-CREED topology closeout / no-push session rule
 
-**Status:** Repo is clean/synced to origin after CREED Phase 1–4 and memory checkpoint. Latest commits: `ae5b4a59 CREED: add phase 3 refresh`, `e3ea29a0 CREED: install phase 4 thesis rails`, `977b8b0c memory: log CREED revival checkpoint`. No topology changes have been made yet.
+**Status:** Repo was clean/synced after pushed CREED topology closeout and memory closeout. Latest pushed commit: `670ae6b6 memory: log CREED topology closeout`. Will then approved updating Prome live boot surfaces and said local commits are allowed, but **do not push to GitHub until he coordinates**.
 
-**What landed:** CREED is revived as a top-level analytical surface but is **not canonical in the roster/network yet**. Phase 3 source pack is `AGENTS/CREED/research/REFRESH_2026-06-21.md`. Phase 4 rails are `AGENTS/CREED/thesis/THESIS.md`, `AGENTS/CREED/thesis/CHANGELOG.md`, and `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`. `AGENTS/CREED/CLAUDE.md`, `STATUS.md`, and `REVIVAL_PLAN.md` now point cold boots at the current rails.
+**What landed:** CREED is canonical as **National CRE / CMBS** market-stress agent. Pushed closeout commits: `8eb56e66 CREED: integrate phase 5 topology`, `94c01c15 CREED: add legacy pull-forward map`, `34552d9e CREED: tighten cold-boot readiness`, `670ae6b6 memory: log CREED topology closeout`.
 
-**Current CREED thesis:** base case is **selective CRE recognition accelerating**, not broad CRE→bank cascade yet. CMBS/office stress is recognizing faster than banks; edge is when maturity-default/special-servicing stress crosses into bank provisions, reserve coverage deterioration, forced sales, or funding pressure.
+**Current CREED state:** CREED feeds `REGINALD`, `CORAL`, `LIQUID`, and `CARL`. CREED is Claude Code roster / explicit-permission only; do not casually spawn. Current thesis remains **selective CRE recognition accelerating**, not broad CRE→bank cascade yet. Legacy `AGENTS/REGINALD/sub-agents/CREED/` remains source archive only; do not move/delete.
 
-**Next suggested work:** Phase 5 topology integration, only if Will approves in the fresh session. Touch only roster/topology surfaces: `AGENTS.md`, `AGENTS_DIRECTORY.md`, `AGENTS/_INDEX.md`, and `AGENTS/_NETWORK.md` as needed. Do **not** move/delete legacy `AGENTS/REGINALD/sub-agents/CREED/`. Do **not** do Phase 6 migration yet.
+**Current rails:** `AGENTS/CREED/CLAUDE.md`, `AGENTS/CREED/README.md`, `AGENTS/CREED/STATUS.md`, `AGENTS/CREED/research/REFRESH_2026-06-21.md`, `AGENTS/CREED/thesis/THESIS.md`, `AGENTS/CREED/thesis/CHANGELOG.md`, `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`, `AGENTS/CREED/archive/LEGACY_PULL_FORWARD_2026-06-21.md`.
 
-**Risks / blockers:** Phase 5 is higher-blast-radius than thesis work because it makes CREED canonical. Preserve flat canonical paths. Use pathspec commits only. Verify grep refs/network consistency before commit. Push only with Will approval.
+**Next suggested work:** Finish/verify Prome live-state refresh (`HANDOFF`, `SCRATCH`, `TODAY`, `STATUS`) and commit locally only. If CREED analytical lane resumes, start with monthly CMBS/special-servicing tracker design, handoff thresholds to REGINALD/CORAL/LIQUID/CARL, then Q2/Q3 bank-filing convergence questions. Do not do full legacy migration unless Will explicitly approves.
+
+**Risks / blockers:** No GitHub push until Will coordinates. Market levels in `HEARTBEAT.md` are weekend/Fri-close orientation only; refresh dashboard/FRED before citing current levels. No trade/position action without broker/Will truth.
 
 ## 2026-06-21 ~10:01 ET — Closeout after AGENTS organization + weekend freshness cleanup
 
