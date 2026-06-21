@@ -39,7 +39,7 @@ High-value mechanisms:
 |---|---|---|
 | CRE Doom Loop | Vacancy → value decline → LTV breach → modification → re-default → recognition → provisions | CREED → REGINALD |
 | Maturity Wall Cascade | Maturities force refinance at lower values; failed refi forces appraisals/NAV marks | CREED → REGINALD + LIQUID |
-| Open-End Fund NAV Cascade | Redemptions/gates/forced sales reveal market-clearing values and pressure peer marks | CREED → LIQUID / REITS |
+| Open-End Fund NAV Cascade | Redemptions/gates/forced sales reveal market-clearing values and pressure peer marks | CREED → LIQUID; public REIT tape now stays inside CREED |
 | HOA Super-Lien Cascade | Condo/special-assessment stress can impair bank collateral recovery | CORAL primary; CREED only national/credit context |
 | Extend-and-Pretend Collapse | Mods expire/exhaust; re-defaults force charge-offs/provisions | CREED → REGINALD |
 | Lease Expiration Vacancy Ratchet | Tenant downsizing at rollover creates vacancy/NOI/DSCR ratchet | CREED → REGINALD / CARL |

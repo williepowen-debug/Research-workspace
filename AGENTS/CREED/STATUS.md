@@ -1,6 +1,6 @@
 # CREED STATUS
 
-**Updated:** 2026-06-21 15:45 ET
+**Updated:** 2026-06-21 17:24 ET
 **Status:** 🟢 REVIVAL / CURRENT THESIS RAILS + TOPOLOGY INSTALLED
 **Owner:** CREED after boot; Prome owns future topology/migration decisions only with Will approval.
 
@@ -25,6 +25,7 @@ CREED owns national CRE market-level stress:
 - maturity wall, refinancing gap, and hard-maturity / no-extension dynamics
 - CRE mods, re-defaults, forbearance, and recognition delay
 - CRE fund / shadow-NAV / forced-sale risk
+- public REIT equity-market tape as CRE recognition / valuation signal
 - multifamily stress outside CORAL’s Florida-specific remit
 
 CREED feeds:
@@ -78,6 +79,7 @@ Use this as mechanism map only. Refresh all levels and dates before quoting.
 - Thesis rails: `AGENTS/CREED/thesis/THESIS.md`
 - Thesis changelog: `AGENTS/CREED/thesis/CHANGELOG.md`
 - Inbox triage: `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`
+- REIT equity tape module: `AGENTS/CREED/research/REIT_EQUITY_TAPE_MODULE_2026-06-21.md`
 - Legacy pull-forward map: `AGENTS/CREED/archive/LEGACY_PULL_FORWARD_2026-06-21.md`
 
 Refresh covered:
@@ -87,7 +89,7 @@ Refresh covered:
 | CMBS | latest Trepp delinquency / special servicing by property type |
 | Maturity wall | Morningstar/DBRS 2026 maturity/default outlook |
 | Banks | FDIC Q1 2026 CRE delinquency / PDNA, including bank-size split |
-| Office tape | office REITs, CMBS spreads / loan-level stress where available |
+| Office / REIT tape | office REITs, VNQ/sector REIT relative stress, NAV discounts, dividend cuts, CMBS spreads / loan-level stress where available |
 | Multifamily | delinquency, Sunbelt vacancy/oversupply, agency/private divergence |
 | Mods | modification, extension, re-default, and provision disclosures |
 | Transmission | what REGINALD/CORAL/LIQUID/CARL need to know |
@@ -98,11 +100,11 @@ Refresh covered:
 
 Default priority order unless Will redirects:
 
-1. **Build a monthly CMBS / special-servicing tracker design** from current source categories, not legacy values.
+1. **Build a monthly CMBS / special-servicing + REIT equity tape tracker design** from current source categories, not legacy values.
 2. **Define handoff thresholds** for REGINALD, CORAL, LIQUID, and CARL so CREED routes only transmission-relevant signals.
 3. **Prepare Q2/Q3 bank-filing convergence questions** for REGINALD, focused on where CMBS/property stress should show up in bank provisions, PDNA, reserve coverage, or mods.
 
-Do not start by copying the legacy workbook wholesale. Seed tracker categories from the legacy pull-forward map, then refresh values from current sources.
+Do not start by copying the legacy CREED or REITS workbooks wholesale. Seed tracker categories from the legacy pull-forward map and REIT equity tape module, then refresh values from current sources.
 
 ---
 

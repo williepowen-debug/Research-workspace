@@ -49,7 +49,6 @@ Canonical topology / transmission map: [`_NETWORK.md`](./_NETWORK.md).
 | PROME | [`PROME/`](./PROME/) | Synthesis / Ops |
 | RED | [`RED/`](./RED/) | Synthesis / Ops |
 | REGINALD | [`REGINALD/`](./REGINALD/) | Credit |
-| REITS | [`REITS/`](./REITS/) | Credit |
 | SAM | [`SAM/`](./SAM/) | Funding / Macro |
 | SENTRY | [`SENTRY/`](./SENTRY/) | Synthesis / Ops |
 | SHADE | [`SHADE/`](./SHADE/) | Private Credit |
@@ -58,6 +57,12 @@ Canonical topology / transmission map: [`_NETWORK.md`](./_NETWORK.md).
 | VIOLET | [`VIOLET/`](./VIOLET/) | Synthesis / Ops |
 | WALTER | [`WALTER/`](./WALTER/) | Synthesis / Ops |
 | ZHAO | [`ZHAO/`](./ZHAO/) | Funding / Macro |
+
+## Archived / dormant folders
+
+| Folder | Status | Current owner |
+|---|---|---|
+| REITS | [`REITS/`](./REITS/) source archive only | Public REIT equity tape absorbed into [`CREED/`](./CREED/) |
 
 ## Maintenance rule
 

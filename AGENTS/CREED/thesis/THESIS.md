@@ -167,6 +167,21 @@ Trigger examples:
 Response:
 - treat AI as accelerator/narrative until supported by vacancy/leasing/default data
 
+### 🟡 Signal 8: Public REIT equity tape confirms CRE recognition
+
+Trigger examples:
+- VNQ underperforms SPY by >10% over 3 months while rates/refi stress or property fundamentals worsen
+- office REIT NAV discounts exceed 50% with confirming vacancy/leasing/default evidence
+- major office/retail/residential REIT cuts dividend because NOI/refi stress is impairing cash flow
+- mREIT book-value/dividend shock points to spread/funding stress relevant to LIQUID
+
+Response:
+- update `AGENTS/CREED/research/REIT_EQUITY_TAPE_MODULE_2026-06-21.md` or monthly tracker
+- route property/collateral implications to REGINALD when bank exposure matters
+- route funding/spread implications to LIQUID
+- route retail/residential consumer spillovers to CARL
+- do not treat REIT price action alone as broad CRE→bank confirmation
+
 ---
 
 ## Counter-Signals

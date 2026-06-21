@@ -33,7 +33,7 @@ Sub-agents own detail → distill upward to parents → lateral only when transm
 | **REGINALD** 🖥️ | Regional banks | 🟡 | Bank watchlist, FHLB, NDFI/CRE bank transmission. Peers: BROCK, CORAL, CREED, OZK. Legacy CREED sub-agent tree remains source archive only. **Claude Code — independent, siloed.** |
 | **BROCK** | BDC / private credit | 🟠 | PIK, gates, NAV, Athene/Apollo, software marks. Lateral peer to REGINALD — signals bank-PC transmission |
 | **CORAL** 🖥️ | Florida (comprehensive) | 🟠 | **Whole-Florida agent — 10 pillars:** condo/SF/CRE real estate, insurance (Citizens), FL banks (SSB/SBCF/BKU/VLY/AMTB), migration, tourism/snowbird, state fiscal & property-tax, labor/construction, coastal/climate (hurricane/sargassum). Promoted from REGINALD sub-agent 2026-06-19; scope broadened to comprehensive FL 2026-06-19. Overlaps MARCO on migration/tourism by design. **Claude Code — independent, siloed.** |
-| **CREED** 🖥️ | National CRE / CMBS | 🟡 | National CRE market-level stress, CMBS delinquency/special servicing, office/multifamily, maturity wall, mods/re-defaults, forced-sale/private-NAV risk. Feeds REGINALD/CORAL/LIQUID/CARL; does not own bank trades or Florida whole-state synthesis. Revived top-level 2026-06-21. **Claude Code roster — do not spawn without explicit Will permission.** |
+| **CREED** 🖥️ | National CRE / CMBS / REIT tape | 🟡 | National CRE market-level stress, CMBS delinquency/special servicing, office/multifamily, maturity wall, mods/re-defaults, forced-sale/private-NAV risk, and public REIT equity-market tape. Feeds REGINALD/CORAL/LIQUID/CARL; does not own bank trades or Florida whole-state synthesis. Revived top-level 2026-06-21; REITS tape absorbed 2026-06-21. **Claude Code roster — do not spawn without explicit Will permission.** |
 
 ## Market Structure
 
@@ -82,7 +82,8 @@ Sub-agents own detail → distill upward to parents → lateral only when transm
 | **MARCO** | Migration/labor flows | Background |
 | **RED** | Adversarial analysis | Challenges all theses |
 | **DARWIN** | System evolution/AI | Weekly scans, improvement backlog |
-| BUFFER, EARNINGS, FOREX, OTTO, REITS | Various | Background/event-driven |
+| BUFFER, EARNINGS, FOREX, OTTO | Various | Background/event-driven |
+| REITS | Archived / dormant | Public REIT tape absorbed into CREED 2026-06-21; folder remains source archive only. |
 
 ## Trading
 
