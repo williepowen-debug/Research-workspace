@@ -1,22 +1,18 @@
 # CREED STATUS
 
-**Updated:** 2026-06-21 13:57 ET
-**Status:** 🟡 REVIVAL / PHASE 3 REFRESH DRAFTED — thesis rails not installed yet
-**Owner:** CREED after boot; Prome owns revival scaffolding until thesis rails are installed.
+**Updated:** 2026-06-21 15:14 ET
+**Status:** 🟢 REVIVAL / CURRENT THESIS RAILS INSTALLED — not canonical in topology yet
+**Owner:** CREED after boot; Prome owns topology/migration decisions until Will approves canonical integration.
 
 ---
 
 ## Bottom Line
 
-CREED is being revived as the **national CRE / CMBS market-stress agent**. The top-level agent is bootable and a Phase 3 refresh has been drafted, but thesis rails are not installed yet. Do **not** trade from CREED until Phase 4 turns the refresh into current thesis/decision rails.
+CREED is revived enough to act as the **national CRE / CMBS market-stress source pack and thesis-rails agent**. It is still **not canonical in topology** until Will approves roster/network integration.
 
-Working frame to test:
+Current thesis:
 
-> CRE stress is real, but bank recognition timing depends on mods, forbearance, refi capacity, employment, and bank concentration.
-
-Current revival question:
-
-> Is CRE still being absorbed by extend-and-pretend, is selective recognition accelerating, or is broad CRE→bank transmission beginning?
+> CREED’s base case is **selective CRE recognition accelerating**, not broad CRE→bank cascade yet. CMBS is recognizing stress faster than banks; the edge is identifying when maturity-default/special-servicing stress crosses into bank provisions, reserve coverage, forced sales, or funding pressure.
 
 ---
 
@@ -75,9 +71,12 @@ Use this as mechanism map only. Refresh all levels and dates before quoting.
 
 ---
 
-## Phase 3 Refresh
+## Current Rails
 
-Fresh data refresh drafted at `AGENTS/CREED/research/REFRESH_2026-06-21.md`. Use it as the current source pack for Phase 4; it is not yet a full thesis rewrite.
+- Source pack: `AGENTS/CREED/research/REFRESH_2026-06-21.md`
+- Thesis rails: `AGENTS/CREED/thesis/THESIS.md`
+- Thesis changelog: `AGENTS/CREED/thesis/CHANGELOG.md`
+- Inbox triage: `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`
 
 Refresh covered:
 
@@ -95,16 +94,16 @@ Refresh covered:
 
 ## Next Actions
 
-1. Process stale inboxes against the Phase 3 refresh:
-   - `AGENTS/CREED/inbox/2026-02-24_signals.md`
-   - `AGENTS/REGINALD/sub-agents/CREED/inbox/2026-02-27_office_reit_selloff.md`
-2. Draft current thesis rails under a planned CREED thesis folder.
-3. Ask Will before topology changes:
+1. Ask Will before topology changes:
    - `AGENTS.md`
    - `AGENTS_DIRECTORY.md`
    - `AGENTS/_INDEX.md`
    - `AGENTS/_NETWORK.md`
-4. Defer any migration/copy of legacy REGINALD sub-agent files until after CREED is current and topology is approved.
+2. Defer any migration/copy of legacy REGINALD sub-agent files until after topology is approved.
+3. Optional next CREED work:
+   - monthly CMBS tracker
+   - property-type dashboard
+   - handoff note to REGINALD/CORAL/LIQUID/CARL
 
 ---
 
