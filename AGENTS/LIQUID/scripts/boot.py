@@ -20,6 +20,9 @@ computed and publish T+1 — the latest print may be 1-2 sessions back, more ove
 weekend. yfinance = last close (raw). Brent BZ=F front-month is NOT the ICE settle;
 USD/JPY JPY=X is NOT the 5pm-ET NY close. H.4.1 series (WRESBAL) are dated by their
 as-of Wednesday. Verify load-bearing triggers against the canonical basis before acting.
+
+Exit code = FETCH health only (non-zero if any series failed to pull) — NOT alert state:
+a red thesis trigger (HY <260, USD/JPY >160, SRF >50) still exits 0. Parse stdout for alerts.
 """
 
 import calendar
@@ -109,6 +112,8 @@ def build_credit():
     if not err:
         bb = v * 100
         add("CREDIT", "BB OAS", f"{bb:.0f}bps", "🟢", "(feeds CCC-BB gap)", d, trend_str(tr, 100, 0))
+    else:
+        add("CREDIT", "BB OAS", "ERR", "🟠", f"fetch error: {err}")
 
     # CCC-BB tail-gap — NEXUS R3 / KB-LIQ-058 pin; falsifier <~400  [headline]
     if ccc is not None and bb is not None:
@@ -117,6 +122,10 @@ def build_credit():
         elif gap < 500: m, n = "🟠", "tail-gap compressing toward the <400 falsifier"
         else:           m, n = "🟢", "pin INTACT — quality bifurcation wide (KB-LIQ-058)"
         add("CREDIT", "CCC-BB gap", f"{gap:.0f}bps", m, n, "", "", headline=True)
+    else:
+        # never let the headline pin silently vanish on a CCC/BB fetch failure
+        add("CREDIT", "CCC-BB gap", "N/A", "🟠",
+            "gap UNAVAILABLE — CCC or BB fetch failed (headline pin missing this boot)", headline=True)
 
     # IG OAS — reference, no LIQUID trigger
     v, d, tr, err = fred_series("BAMLC0A0CM")
@@ -184,11 +193,16 @@ def build_domestic():
 
     # SRF = Treasury leg + MBS leg (billions) — >50 stress
     t_v, t_d, _, t_err = fred_series("RPONTSYD")
-    m_v, _, _, m_err = fred_series("RPONMBSD")
+    m_v, m_d, _, m_err = fred_series("RPONMBSD")
     if not t_err and not m_err:
         srf = t_v + m_v
-        m, n = ("🔴", "ABOVE $50B — escalate REGINALD/HENRY/PROME") if srf > 50 else ("🟢", "no funding stress (both legs)")
-        add("DOMESTIC", "SRF usage", f"${srf:.2f}B", m, n, t_d)
+        note = "no funding stress (both legs)" if srf <= 50 else "ABOVE $50B — escalate REGINALD/HENRY/PROME"
+        if t_d != m_d:
+            note += f" [legs differ: T {t_d} / MBS {m_d}]"
+        add("DOMESTIC", "SRF usage", f"${srf:.2f}B", "🔴" if srf > 50 else "🟢", note, max(t_d, m_d))
+    else:
+        leg = f"T ${t_v:.2f}B" if not t_err else f"MBS ${m_v:.2f}B" if not m_err else "neither leg"
+        add("DOMESTIC", "SRF usage", "PARTIAL", "🟠", f"leg fetch failed — only {leg} available")
 
 
 # ---------------------------------------------------------------------------
@@ -265,7 +279,11 @@ def catalyst_countdown(horizon=60):
     cutoff = today + timedelta(days=horizon)
     upcoming, unparsed = [], 0
     for ln in rows[1:]:
-        c = dict(zip(hdr, ln.split("\t")))
+        parts = ln.split("\t")
+        if len(parts) != len(hdr):
+            unparsed += 1   # wrong field count -> would render misaligned; flag, don't skip silently
+            continue
+        c = dict(zip(hdr, parts))
         try:
             ed = datetime.strptime(c.get("date", ""), "%Y-%m-%d").date()
         except ValueError:
@@ -274,7 +292,7 @@ def catalyst_countdown(horizon=60):
         if today <= ed <= cutoff:
             upcoming.append((ed, c))
     if unparsed:
-        print(f"    ⚠️  {unparsed} row(s) with an unparseable date — fix CATALYSTS.tsv (silently skipped otherwise)")
+        print(f"    ⚠️  {unparsed} malformed row(s) (bad date or field count) — fix CATALYSTS.tsv (silently skipped otherwise)")
     if not upcoming:
         print(f"    no dated catalysts within {horizon}d")
         return 0
@@ -294,6 +312,11 @@ def catalyst_countdown(horizon=60):
 
 _MONTHS = {m: i for i, m in enumerate(
     ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"], 1)}
+# full month names also accepted; the parser requires the WHOLE word be a month, so 'Junk' != 'Jun'
+_MONTH_WORDS = dict(_MONTHS)
+_MONTH_WORDS.update({m: i for i, m in enumerate(
+    ["january", "february", "march", "april", "may", "june", "july", "august",
+     "september", "october", "november", "december"], 1)})
 
 
 def _parse_timeframe(tf):
@@ -313,11 +336,11 @@ def _parse_timeframe(tf):
     if m:
         y = int(m.group(2))
         return date(y, *{1: (3, 31), 2: (6, 30), 3: (9, 30), 4: (12, 31)}[int(m.group(1))]), True
-    m = re.search(r"([A-Za-z]{3})[a-z]*\s*(?:\d{1,2}\s*-\s*(\d{1,2}))?\s*,?\s*(\d{4})", tf)  # Mon [DD-DD] YYYY
-    if m and m.group(1).lower() in _MONTHS:
-        mo, y = _MONTHS[m.group(1).lower()], int(m.group(3))
+    m = re.search(r"\b([A-Za-z]{3,9})\b\.?\s*(?:(\d{1,2})\s*-\s*(\d{1,2}))?\s*,?\s*(\d{4})", tf)  # Month [DD-DD] YYYY
+    if m and m.group(1).lower() in _MONTH_WORDS:   # whole word must BE a month ('Junk' rejected)
+        mo, y = _MONTH_WORDS[m.group(1).lower()], int(m.group(4))
         last = calendar.monthrange(y, mo)[1]
-        day = min(int(m.group(2)), last) if m.group(2) else last
+        day = min(int(m.group(3)), last) if m.group(3) else last
         return date(y, mo, day), True
     return None, False
 

@@ -81,7 +81,7 @@ Touch only the rows below that this session actually changed.
 | `workbook/KILL_MEMO_HY_OAS_260.md` | Trigger ladder thresholds changed or a trigger fired | Update tier rows; mark fired triggers |
 | `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` | Q1 BDC marks landed or new mark divergence | Update OBDC/ARCC/BXSL/MAIN rows |
 | `workbook/FLOW.tsv` / `workbook/VX.tsv` | A registry entry was touched (status change, new vector) | Surgical row update |
-| `workbook/AUCTION_FRAMEWORK.md` / `TIC_FRAMEWORK.md` / `CUSTODIAL_VELOCITY_PROTOCOL.md` | Methodology changed (rare) | Surgical edit |
+| `workbook/AUCTION_FRAMEWORK.md` / `TIC_FRAMEWORK.md` | Methodology changed (rare) | Surgical edit |
 
 **Don't auto-touch** at closeout: `domain/sources/`, `archive/`, `thesis/`. Those are reference layers.
 
@@ -187,7 +187,7 @@ One short message:
 | `workbook/KILL_MEMO_HY_OAS_260.md` | Only if trigger ladder changed |
 | `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` | Only if Q1 marks landed |
 | `workbook/FLOW.tsv` / `workbook/VX.tsv` | Only if registry entry updated |
-| `workbook/AUCTION_FRAMEWORK.md` / `TIC_FRAMEWORK.md` / `CUSTODIAL_VELOCITY_PROTOCOL.md` | Only if methodology changed (rare) |
+| `workbook/AUCTION_FRAMEWORK.md` / `TIC_FRAMEWORK.md` | Only if methodology changed (rare) |
 | `outbox/` | Trigger-gated — only if cross-agent threshold fired |
 | `AGENTS/SIGNALS.md` (root) | Append only on cross-agent threshold breach |
 | `~/.claude/.../memory/` (auto-memory) | Selective; Heavy tier only |

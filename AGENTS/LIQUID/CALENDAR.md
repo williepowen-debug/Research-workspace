@@ -17,6 +17,7 @@
 | Daily | **30Y <4.90 unwind test** | 4.93 (6/17), 3bps away; <4.90 sustained = duration-leg unwind | LIQUID |
 | Daily | SOFR-IORB / USD/JPY >160 | −2bps clean; USD/JPY 161 triggered, intervention-risk | LIQUID, SAM |
 | **Wed Jun 24** | **EIA WPSR — Cushing** | Sub-20M → BRENT Boundary #3 (WTI delivery-dislocation) inbound to LIQUID/HENRY/RED | LIQUID, BRENT |
+| **~Thu Jun 25** | **Late-June Treasury auctions** (2Y/5Y/7Y) | Indirect <55% sustained = FOI demand-hole confirm; June refunding 20Y/5Y-TIPS were STRONG (71.6%/68.6%). Accepted basis | LIQUID |
 
 ## Later (2026)
 
@@ -24,7 +25,9 @@
 |------|-------|-----------------|-----------|
 | ~Late June | **Cliffwater CDLI Q1 release** | NAV/satisfaction; gate-cluster follow-through (BROCK-led) | BROCK, LIQUID |
 | Throughout late June | **BCRED Q2 redemption window** | Hard gate? >5% cap / pro-rata satisfaction (final Aug) | BROCK, LIQUID |
-| 30d window from 6/3 | **2nd alt-mgr PE-wrapper gate watch** (post-Partners Group) | Cross-asset-class contagion confirmation | BROCK, LIQUID |
+| **Tue Jun 30** | **LIQ-03 resolves** (CLO AAA) | CLO AAA spread vs the 160bps trigger (interim ~S+130-145); >160 = fires. Resolve at the letter | LIQUID |
+| 30d window from 6/3 (~Jul 3) | **2nd alt-mgr PE-wrapper gate watch** (post-Partners Group) | Cross-asset-class contagion confirmation. BROCK 6/15: UN-FIRED day ~12, cluster contained | BROCK, LIQUID |
+| **~Jul 16** | **June TIC** (May flows) | Belgium proxy →$500B = 🟠 SAM/PROME; Japan >$20B single-month sell = SAM route (KB-LIQ-031). April: official +$49.2B carried a private −$23.1B outflow; Belgium unconfirmed | LIQUID, SAM |
 | **~Jul 25** | **Q2 BDC marks** (FSK, OBDC) | **NEXUS-named credit-bifurcation transmission test** — CDLI-FSK gap / CCC-BB / mark catch-down. The bear book's load-bearing falsifier-or-confirm | BROCK, LIQUID, NEXUS |
 | Late Jul / Aug | Q2 10-Q cycle (broader BDC marks) | NA reversal vs compounding; div-cut cascade | BROCK, LIQUID |
 | **Late Jul** | **July FOMC — hike watch** | CME ~75% hike priced post-6/17 hawkish dots (9/18 project a hike by YE) | LIQUID, HENRY, ALL |
