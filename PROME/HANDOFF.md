@@ -8,6 +8,19 @@
 
 
 
+## 2026-06-21 ~09:55 ET — Closeout after AGENTS organization + PROME path cleanup + canonical network map
+
+**Status:** Repo was clean/synced after two pushed cleanup commits. No market data was refreshed this session; market regime remains governed by `HEARTBEAT.md` (Jun20 Hormuz re-closure declared; contested/not kinetic; energy tail re-fat; broad cascade unconfirmed).
+
+**What landed:** Grouped AGENTS directory views (`AGENTS/_INDEX.md` + group files) are live without moving canonical `AGENTS/<NAME>/` folders. Live Prome docs were cleaned of retired `PROME/TOSCANINI/` paths and moved inbox/outbox refs. Canonical topology now lives in `AGENTS/_NETWORK.md`; main dashboard Network tab mirrors it; standalone `dashboard/network.html` is a pointer/redirect.
+
+**Files edited in closeout:** `PROME/SCRATCH.md`, `PROME/STATUS.md`, `PROME/TODAY.md`, `PROME/HANDOFF.md`, `memory/2026-06-21.md`. `PROME/ACTIVE_DECISIONS.md` intentionally unchanged because no non-terminal decision rail moved.
+
+**Next suggested work:** fresh boot should verify repo state, then choose lane. Market lane: refresh dashboard/FRED HY before citing levels and watch Jun22 Brent/Hormuz + HY <260 + CFTC/carry. System lane: use `AGENTS/_INDEX.md` for grouped navigation and `AGENTS/_NETWORK.md` for topology.
+
+**Risks / blockers:** do not physically move agent directories without a migration pass. Do not maintain multiple live network maps. No trade/expiry action without broker/Will truth.
+
+---
 ## 2026-06-20 ~20:05 ET — Closeout after heartbeat/auto-memory/DEWEY cleanup + pushed-agent audit
 
 **Status:** Repo was clean/synced at closeout start. Current regime source is `HEARTBEAT.md`: signed-but-fraying MOU; Jun20 Hormuz re-closure declared; contested/not kinetic; energy tail re-fat; broad cascade unconfirmed. HY remains **263 [FRED 6/17]** near <260 kill, VIX/banks calm, carry red.
@@ -58,19 +71,5 @@
 **Next suggested work:** fresh boot should find repo clean/synced. If system lane, monitor WALTER v0.18 behavior/doctor output rather than editing specs. If market lane, refresh HY/dashboard and watch <260 / bank-PC offset. If SAM lane, check Jun20 CFTC against v1.6 convexity survival gates.
 
 **Risks / blockers:** no Prome edits to WALTER specs; WALTER owns future tuning. Quick-WALTER still cannot judge fresh news or deep-research flags. No trade/expiry action without broker/Will truth.
-
----
-
-## 2026-06-19 ~14:53 ET — Closeout local-only; WALTER deep-research flag greenlit
-
-**Status:** Closeout edits are local-only per Will's instruction to stop short of pushing. Prome reviewed SAM/HAWK pushed changes, the ORC/WALTER deep-research candidate proposal, and refreshed the Jun19 dashboard. Market regime unchanged: HY OAS **263 [FRED 6/17]** remains 3bp above the <260 kill line; banks/VIX benign; carry red.
-
-**What landed in Prome state:** `PROME/SCRATCH.md`, `PROME/TODAY.md`, `PROME/STATUS.md`, `PROME/ACTIVE_DECISIONS.md`, this HANDOFF entry, and `memory/2026-06-19.md` capture the session. Commit should be local-only; push only when Will approves.
-
-**Key decisions / reads:** WALTER deep-research candidate flag is greenlit for **WALTER-owned ratification**, not Prome direct edits. v1 shape: Full-WALTER-only Phase 2.8, mandatory materiality gate, dispatched signals only, 11-col TSV ledger with `prompt_ref` + `deadline`, no FORMAT_SPEC header, and narrow `walter_doctor` overdue-pending check. SAM v1.6 EV table supports hold-small-stub / no add; Jun20 CFTC is next gate. HAWK audit fixes look clean.
-
-**Next suggested work:** pull/verify repo; if WALTER has landed the feature, inspect actual CHECKLIST/ledger/doctor diff + version-drift output. If market lane, refresh HY/dashboard and watch <260 / bank-PC offset.
-
-**Risks / blockers:** do not push local closeout without Will. Do not edit WALTER specs from Prome; WALTER owns ratification. No trade/expiry action without broker/Will truth.
 
 ---

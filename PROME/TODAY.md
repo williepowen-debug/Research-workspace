@@ -1,8 +1,8 @@
-# TODAY.md — Saturday June 20, 2026
+# TODAY.md — Sunday June 21, 2026
 
-**Objective:** Close the Jun20 push-train cleanly and preserve the current regime: Hormuz re-closure declared, contested/not kinetic; energy tail re-fat but broad credit cascade still unconfirmed.
+**Objective:** Close out the AGENTS/PROME organization pass cleanly and preserve the current market frame without pretending we refreshed live data.
 
-**Current regime:** **Signed-but-fraying MOU / contested Hormuz re-closure / unresolved credit-carry divergence.** The Geneva/Islamabad MOU still matters, but Jun20 follow-through weakened the clean de-escalation branch. Iran re-declared Hormuz closed as a coercive “first step”; CENTCOM disputes physical effect and traffic reportedly continued. Treat this as official/declaratory until behavior or tape confirms physical escalation. HY OAS remains **263 [FRED 6/17]**, still just above the <260 kill line; VIX/banks remain calm; USD/JPY/FXY carry stress remains red.
+**Current regime:** unchanged from `HEARTBEAT.md`: **signed-but-fraying MOU / contested Hormuz re-closure / unresolved credit-carry divergence.** Iran’s Jun20 Hormuz re-closure declaration remains official/declaratory/contested, not yet kinetic. Energy tail is re-fat, but broad credit cascade is still unconfirmed. No live market refresh was run in this closeout session; use HEARTBEAT/FRED/dashboard refresh before citing fresh levels.
 
 ---
 
@@ -10,38 +10,20 @@
 
 | Item | State | Read |
 |---|---|---|
-| Git | ✅ clean/synced | Active-agent push train pulled cleanly; Prome/root DEWEY cleanup and closeout were pushed. |
-| HEARTBEAT | ✅ refreshed | Current frame: Hormuz re-closure declared; contested/not kinetic; energy tail re-fat; cascade unconfirmed. |
-| Auto-memory index | ✅ compacted | `memory/auto/MEMORY.md` under load cap; all 143 links preserved. Future compaction should be coordinated during quiet window. |
-| DEWEY root refs | ✅ aligned | `AGENTS_DIRECTORY.md` and HEARTBEAT now use DEWEY, not MERLIN/RESEARCHER. |
-| WALTER points | 🟡 Will handoff | Prome audit found WALTER-specific stale push/registry text; Will will pass to WALTER personally. Prome should not edit. |
+| Git | ✅ clean/synced before closeout | Two cleanup commits pushed: grouped AGENTS indexes and canonical network/path cleanup. |
+| AGENTS grouped views | ✅ installed | `AGENTS/_INDEX.md` plus group files; canonical agent dirs remain flat as `AGENTS/<NAME>/`. |
+| AGENTS topology map | ✅ installed | `AGENTS/_NETWORK.md` is now canonical topology/transmission map. |
+| Dashboard network | ✅ updated | Main dashboard Network tab mirrors canonical map; standalone `dashboard/network.html` is pointer/redirect to avoid drift. |
+| PROME path cleanup | ✅ pushed | Live Prome docs no longer point at retired `PROME/TOSCANINI/`; moved inbox/outbox references fixed where canonical targets existed. |
 | Position truth | 🟠 unreconciled | No expiry/trade action without broker/Will truth. |
 
 ---
 
-## Live Market Levels — From HEARTBEAT / Fri Jun19 closes
+## Live Market Levels
 
-| Series | Value | As-of | Zone | Read |
-|---|---:|---|---|---|
-| HY OAS | **263bps** | **[FRED 6/17]** | 🟢 | 3bp above <260 kill; most important credit gate. |
-| CCC OAS | **939bps** | **[FRED 6/17]** | 🟡 | Tail elevated, not broad-cascade red. |
-| Brent | **$80.59** | Fri close | 🟢 | Pre-Jun20 re-closure declaration; Jun22 reopen is test. |
-| Gas weekly | **4.05** | **[6/15]** | 🔴 | Consumer pressure persists. |
-| USD/JPY | **161.28** | Fri close | 🔴 | Carry stress remains red. |
-| Initial claims | **226k** | **[6/13]** | 🟡 | Benign/yellow; shadow est **281k**. |
-| Continuing claims | **1.810M** | **[6/6]** | 🟢/borderline | Mild deterioration, not stress. |
-| 10Y Yield | **4.49%** | **[6/17]** | 🟡 | Duration yellow, not disorderly. |
-| CP-TBill Spread | **0.08** | **[6/17]** | 🟢 | Clean. |
-| SOFR-IORB | **-0.02** | **[6/17]** | 🟢 | Clean. |
-| KRE | **$71.72** | Fri close | 🟢 | Banks not confirming broad cascade. |
-| APO | **$137.50** | Fri close | — | High alts tape still contradicts immediate PC-bear timing. |
-| ARES | **$129.34** | Fri close | 🟡 | PC/BDC watch, not broad confirmation. |
-| OZK | **$49.26** | Fri close | 🟡 | Idiosyncratic/Q2-print gated. |
-| WAL | **$79.91** | Fri close | 🟢 | Still above green threshold; no broad-bank confirmation. |
-| FXY | **$56.85** | Fri close | 🔴 | Yen/carry stress remains live. |
-| TLT | **$86.75** | Fri close | 🟡 | No action without broker/Will truth. |
-| BIZD | **$12.36** | Fri close | 🔴 | BDC/private-credit stress remains live. |
-| VIX | **16.78** | Fri close | 🟢 | Vol impulse faded; weakens cascade confirmation. |
+No fresh market data was pulled in this closeout session. Use `HEARTBEAT.md` as the regime pointer and run the market dashboard / FRED fetch before citing new levels.
+
+Last HEARTBEAT frame: HY OAS **263 [FRED 6/17]** near <260 kill; CCC **939 [FRED 6/17]**; Brent **$80.59** pre-Jun20 declaration; VIX **16.78**; KRE/WAL calm; USD/JPY/FXY carry stress red; BIZD weak.
 
 ---
 
@@ -62,12 +44,11 @@
 
 | Pri | Work | Action |
 |---|---|---|
-| ✅ | **HEARTBEAT Jun20 refresh** | Pushed. Current regime reflects Hormuz re-closure declaration without overcalling kinetic escalation. |
-| ✅ | **Auto-memory index compaction** | Pushed under load cap; all links preserved. Future edits should be coordinated. |
-| ✅ | **Agent push-train audit** | No major breakage; WALTER-specific drift handed to Will/WALTER. |
-| ✅ | **DEWEY root rename cleanup** | HEARTBEAT + AGENTS_DIRECTORY aligned. |
+| ✅ | **AGENTS grouped directory views** | Pushed. Use `AGENTS/_INDEX.md`; do not move canonical dirs casually. |
+| ✅ | **Canonical agent network map** | Pushed. Use `AGENTS/_NETWORK.md`; dashboard is rendering only. |
+| ✅ | **PROME stale path cleanup** | Pushed. Retired Toscanini refs demoted; live Prome path checks clean. |
 | 🔴 | **Jun22 Brent / Hormuz tape test** | Watch Brent/vol/traffic/insurance behavior after declaration. |
-| 🔴 | **HY <260 kill-line monitoring** | Latest 263; sustained <260 kills/reprices R3 unless bank/PC deterioration offsets. |
+| 🔴 | **HY <260 kill-line monitoring** | Latest HEARTBEAT level 263; sustained <260 kills/reprices R3 unless bank/PC deterioration offsets. |
 | 🟡 | **SAM CFTC/carry gate** | Juneteenth-delayed read tests carry-convexity survival. |
 | 🟡 | **WALTER stale upstream feeds / registry drift** | Will to handle WALTER points personally; Prome monitors only unless scoped. |
 | 🟡 | **CORAL per-metro convergence grid** | Build Miami/Tampa/Orlando/Jax/SW-FL grid when CORAL lane resumes. |
@@ -80,6 +61,7 @@
 
 - Do not edit WALTER specs/state from Prome unless Will explicitly scopes it.
 - Do not make shared auto-memory index changes during active agent work; coordinate first.
-- Do not spawn Quick-WALTER for fresh news/signals or deep-research flag judgment.
+- Do not maintain multiple live agent network maps.
+- Do not physically reorganize `AGENTS/<NAME>/` folders without a migration pass.
 - No trade execution.
 - No old May/Jun option rails without broker/Will reconciliation.

@@ -1,17 +1,17 @@
 # PROME STATUS.md
-**Updated:** 2026-06-20 20:05 ET (OpenClaw Prome — heartbeat/automemory/DEWEY cleanup + pushed-agent audit)
+**Updated:** 2026-06-21 09:55 ET (OpenClaw Prome — AGENTS organization + PROME path cleanup + canonical network map closeout)
 
 ## Core State
 
-**Operational priority:** Jun20 push train is clean from Prome’s side: HEARTBEAT refreshed for Hormuz re-closure, auto-memory index compacted under cap, active-agent commits audited after pull, and root DEWEY naming aligned. Remaining WALTER-specific drift is Will→WALTER, not Prome-owned.
+**Operational priority:** AGENTS/PROME organization pass is complete from Prome’s side: grouped AGENTS indexes are pushed, canonical agent topology lives in `AGENTS/_NETWORK.md`, dashboard network rendering is updated, standalone dashboard network is demoted to a pointer, and live Prome docs no longer point at retired `PROME/TOSCANINI/` paths.
 
-**Market priority:** current regime source is `HEARTBEAT.md`: signed-but-fraying MOU; Hormuz re-closure declared; official/declaratory/contested, not yet kinetic. Energy tail is re-fat, broad cascade still unconfirmed. Next market lane is Jun22 Brent/vol/traffic response, HY <260 monitoring, SAM/CFTC carry read, and bank/PC re-weakening.
+**Market priority:** unchanged from `HEARTBEAT.md`: signed-but-fraying MOU; Hormuz re-closure declared; official/declaratory/contested, not yet kinetic. Energy tail is re-fat, broad cascade still unconfirmed. Next market lane is Jun22 Brent/vol/traffic response, HY <260 monitoring, SAM/CFTC carry read, and bank/PC re-weakening.
 
-**Current repo reality:** clean and synced to origin after closeout push; latest pushed Prome/root work aligned DEWEY naming, fixed HEARTBEAT’s stale RESEARCHER path, and closed out the Jun20 push-train cleanup.
+**Current repo reality:** clean and synced to origin before this closeout update. Latest pushed work: `1cb8a774` grouped agent directory indexes and `9a6f155a` Prome path cleanup + canonical agent network/dashboard cleanup.
 
-**Regime source:** `HEARTBEAT.md` is current. Boot from it rather than old Geneva-only TODAY/HANDOFF text.
+**Regime source:** `HEARTBEAT.md` is current. No fresh market data was pulled during the Jun21 organization closeout.
 
-**Standing constraint:** **do not edit `AGENTS/*`** unless Will explicitly approves/scopes it. WALTER-specific cleanup is being handled directly by Will/WALTER; Prome should monitor only unless scoped.
+**Standing constraint:** **do not edit `AGENTS/*` domain files** unless Will explicitly approves/scopes it. Index/topology docs under `AGENTS/_*.md` are Prome/system surfaces, but domain agents still own their folders.
 
 ---
 
@@ -20,13 +20,16 @@
 | Surface | Role | Current note |
 |---|---|---|
 | `HEARTBEAT.md` | Regime, dashboard, thresholds, near gates | Hormuz re-closure declared; contested/not kinetic; energy tail re-fat; cascade unconfirmed. |
-| `PROME/TODAY.md` | Operator card / immediate lane | Updated for Jun20 end-of-thread closeout: push audit, DEWEY cleanup, near gates. |
-| `PROME/ACTIVE_DECISIONS.md` | Safety index for trade/expiry rails | Updated for Hormuz re-fat + DEWEY/auto-memory/audit state; trade rows remain verification-required. |
-| `PROME/SCRATCH.md` | Working notes / latest session entry | Current closeout entry point: heartbeat/automemory/DEWEY cleanup complete; repo expected clean/synced. |
+| `PROME/TODAY.md` | Operator card / immediate lane | Updated for Jun21 closeout: organization pass complete; no fresh market refresh. |
+| `PROME/ACTIVE_DECISIONS.md` | Safety index for trade/expiry rails | No decision moved in AGENTS/PROME organization pass; leave existing trade/system rails unchanged. |
+| `PROME/SCRATCH.md` | Working notes / latest session entry | Current closeout entry point: grouped views + path cleanup + canonical network map pushed. |
 | `PROME/FLEET_SCAN.md` | Conditional fleet map | Stale Jun14 map; read only as historical unless refreshed on demand. |
-| `PROME/HANDOFF.md` | Live continuity surface | Top entry reflects Jun20 heartbeat/automemory/DEWEY cleanup + audit. |
+| `PROME/HANDOFF.md` | Live continuity surface | Top entry should reflect Jun21 organization/path/network closeout. |
+| `AGENTS/_INDEX.md` | Grouped directory view | Live navigation layer; canonical paths remain flat. |
+| `AGENTS/_NETWORK.md` | Canonical topology map | Live source for agent network/transmission topology. |
+| `dashboard/index.html` | Visual dashboard | Network tab mirrors `AGENTS/_NETWORK.md`; standalone `dashboard/network.html` is pointer/redirect only. |
 | `PROME/BOOT.md` / `PROME/CLOSEOUT.md` | Start/end procedures | Follow; repo state first remains mandatory. |
-| `MEMORY.md` / `memory/YYYY-MM-DD.md` | Durable kernels / daily logs | Jun20 daily log includes CORAL work plus later heartbeat/automemory/DEWEY/audit session. |
+| `MEMORY.md` / `memory/YYYY-MM-DD.md` | Durable kernels / daily logs | Jun21 daily log captures organization/path/network cleanup. |
 
 ---
 
@@ -34,14 +37,15 @@
 
 | Lane | Status | Prome read |
 |---|---|---|
-| **HEARTBEAT / regime** | ✅ refreshed | Hormuz re-closure declared Jun20; contested/not kinetic; Jun22 tape is next confirmation. |
-| **Auto-memory load cap** | ✅ compacted | `memory/auto/MEMORY.md` under cap with all 143 links preserved; future compaction should be coordinated. |
-| **Active-agent push audit** | ✅ clean enough | 15 commits pulled clean; WALTER/version/TSV/script checks passed; issues are state drift, not breakage. |
+| **AGENTS directory organization** | ✅ pushed | Grouped indexes are live; no physical agent-folder moves. |
+| **Canonical network map** | ✅ pushed | `AGENTS/_NETWORK.md` is source of truth; dashboard is rendering. |
+| **Dashboard network drift** | ✅ reduced | `dashboard/network.html` demoted to pointer; main dashboard tab updated. |
+| **PROME stale path refs** | ✅ cleaned | Live Prome docs no longer reference retired Toscanini paths; path checks clean before push. |
+| **HEARTBEAT / regime** | ✅ refreshed Jun20 | Hormuz re-closure declared Jun20; contested/not kinetic; Jun22 tape is next confirmation. |
+| **Auto-memory load cap** | ✅ compacted Jun20 | `memory/auto/MEMORY.md` under cap with all 143 links preserved; future compaction should be coordinated. |
 | **DEWEY root naming** | ✅ aligned | HEARTBEAT + `AGENTS_DIRECTORY.md` now use DEWEY; WALTER-specific follow-up belongs to WALTER. |
 | **CORAL maturity** | ✅ boot/inbox/thesis rails installed | Boot card, WALTER processed lane, NEXUS brief, thesis/changelog, and closeout rules are on origin. |
-| **CORAL next work** | 🟡 analytical follow-through | Per-metro convergence grid + Q2 FL-bank earnings prep; do not confuse household stress with bank-loss confirmation. |
-| **WALTER Routing / DEWEY loop** | 🟡 WALTER-owned cleanup pending | Prome found stale push/registry wording; Will will pass directly to WALTER. Prome should not edit WALTER unless scoped. |
-| **WALTER cron/feed health** | 🟠 stale upstream feeds | Doctor still flags stale `news-sweep`, `filing-watch`, `SIGNALS/inbound`; Scout/VPS-track, not a Prome closeout fix. |
+| **WALTER Routing / DEWEY loop** | 🟡 WALTER-owned cleanup pending | Prome found stale push/registry wording Jun20; Will will pass directly to WALTER. Prome should not edit WALTER unless scoped. |
 | **SAM v1.6 / carry** | 🟡 CFTC-gated | Juneteenth-delayed CFTC read tests carry-convexity frame while USD/JPY >161. |
 | **Hormuz / energy tail** | 🟠 re-fat, unconfirmed | Declaratory closure is not physical escalation until behavior/tape confirms. |
 | **Position/broker reconciliation** | 🟠 pending | Keep separate from repo/doc cleanup; no expiry action without broker/Will truth. |
@@ -53,7 +57,7 @@
 | Lane | Priority | Status / owner note |
 |---|---:|---|
 | Jun22 Brent / Hormuz tape test | 🔴 next market lane | First real test of whether Jun20 declaration stays coercive/non-physical or reprices energy/vol. |
-| HY <260 / post-FOMC confirmation | 🔴 next market lane | Latest HY 263; watch <260, CFTC/FXY/carry, and bank/PC re-weakening. |
+| HY <260 / post-FOMC confirmation | 🔴 next market lane | Latest HEARTBEAT HY 263; watch <260, CFTC/FXY/carry, and bank/PC re-weakening. |
 | SAM v1.6 CFTC gate | 🟡 next SAM lane | Delayed CFTC read decides whether carry-convexity frame survives, weakens, or strengthens while USD/JPY >161. |
 | WALTER follow-up | 🟡 Will→WALTER | WALTER-specific push/registry/DEWEY drift found by Prome audit; Will will handle personally. |
 | DEWEY first live run | 🟡 pending | Phase 2 wiring shipped; first live run requires CONTEXT refresh first. |
@@ -67,12 +71,14 @@
 
 ## Rules of Engagement
 
-- **No agent edits** unless Will explicitly changes the constraint.
+- **No agent domain edits** unless Will explicitly changes the constraint.
 - **No trade execution without Will approval.**
 - **No trade recommendations unless explicitly requested.**
 - **No external/public messages without approval.**
 - **Old trade rails are verification-required** until broker/Will reconciliation.
 - **WALTER routes signals/news; Prome maintains state, tasking, rails, and Will-facing synthesis.**
+- **Canonical paths remain flat:** do not move `AGENTS/<NAME>/` without migration tooling and tests.
+- **One live network map:** `AGENTS/_NETWORK.md` is canonical; dashboard is rendering only.
 - **Pathspec commits only;** never `git add .`, `git add -A`, broad reset/stash, force-push, or stash/reset unknown work.
 - **Push is Will-coordinated** — commit locally when scoped; push only on Will's explicit call.
 - Read current files before editing; verify after edits.
@@ -81,4 +87,4 @@
 
 ## Next Best Action
 
-Next: fresh-session boot from HEARTBEAT/SCRATCH/TODAY. First verify git state, expected clean/synced. If market lane, watch Jun22 Brent/Hormuz tape response + HY <260 + CFTC/carry. If system lane, wait for WALTER’s own cleanup rather than editing WALTER. If DEWEY lane, refresh CONTEXT before first live run. Do not touch positions without Will/broker truth.
+Next: commit/push this closeout if Will wants it saved now. Fresh boot should verify git state, expected clean/synced after closeout push; then choose lane. Market lane = refresh dashboard/FRED HY and watch Jun22 Brent/Hormuz + HY <260 + CFTC/carry. System lane = use `AGENTS/_INDEX.md` and `AGENTS/_NETWORK.md`; do not create a second live map. Position lane remains blocked on broker/Will truth.
