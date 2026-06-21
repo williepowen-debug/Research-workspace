@@ -44,10 +44,10 @@
 1. ~~APO Annual Mtg 6/8 readout~~ — ✅ DONE 6/15 (procedural, no guidance; +7% driver was $35B Broadcom deal)
 2. **HY OAS daily proximity check** — risk-on compression vs substance reversal (STEP 1 discriminator)
 3. **Partners Group follow-through** — 2nd alt-mgr PE-wrapper gate = TIER-2 fire. Check GS/Apollo/KKR PE-evergreen funds for redemption commentary
-4. **NEW PRED — BRK-29 PE-wrapper 2nd-gate:** "≥1 additional alt-mgr (Apollo/KKR/BX/Carlyle/GS-AM PE-evergreen) caps redemptions within 30d of Partners Group (by 7/4/2026)" — write the formal pred row next session. Defer-with-capture, NOT defer-and-pray.
-5. **BRK-14 Big-Tech Q1 capex verification** — pushed 8/31; verify MSFT/GOOG/META/AMZN/NVDA Q1 capex guides
-6. **BRK-09 HRZN merger close verification** — pushed 9/30; primary-source pull needed
-7. **Concentration-figure refresh sweep** (LESSONS #18): GCRED 24.2%, MS BCI 19.73%, CUBI 33%
+4. ~~**NEW PRED — BRK-29 PE-wrapper 2nd-gate**~~ — ✅ FORMALIZED 6/20 as BRK-29 (OPEN, 30%, resolve 7/4). Re-sweep ~6/24.
+5. ~~**BRK-14 Big-Tech Q1 capex verification**~~ — ✅ RESOLVED FALSE 6/20: all 5 maintained/RAISED FY26 capex (META raised, GOOGL +107%, MSFT +84%, AMZN +78%; primary SEC). MISS but thesis-SUPPORTING for AI-infra lending leg (KB-BRK-165).
+6. ~~**BRK-09 HRZN merger close verification**~~ — ✅ RESOLVED FALSE 6/20: closed 4/14 at announced NAV-for-NAV terms, no floor broken. DIRECTION CORRECTION — MRCC merged INTO HRZN (HRZN survived); BROCK premise was inverted (KB-BRK-166).
+7. **Concentration-figure refresh** (LESSONS #18) — ✅ GCRED done: 20.4% software (primary 10-Q, supersedes carried 35.7%; '24.2%'=PIK-rate not concentration; entity = Private Credit Fund not GBDC; KB-BRK-110 fixed, KB-BRK-167). ⚠️ **MS BCI 19.73% + CUBI 33% are NDFI-loans-%-of-bank-loans (Call Report), NOT software — mis-bucketed.** Kept-flagged → next CDR Q1 pull (RCONJ454 for Customers Bank RSSD 2354985 / MS Bank 1456501).
 8. ~~**BCRED "promissory + 2%" mechanic verification**~~ — RESOLVED 6/20: REAL but ROUTINE recurring tender boilerplate (in May 1 SC TO-I + Feb 2 SC TO-I verbatim; NOT in 6/4 amendment; NOT a stress innovation). Flag cleared. See domain/sources/BCRED_OCIC_Q1_READ_JUN04.md RESOLUTION.
 9. **Cliffwater CDLI Q1 full NAV** (~late June)
 10. **CDR NDFI 5-cat coordination** — outbox to WALTER+REGINALD
@@ -91,11 +91,11 @@
 ---
 
 ## WORKBOOK HEALTH
-- **KB 152** (BRK-001→164 ex tombstones; +159-164 added 6/20, all NF=13) · **VX 18** · **FLOW 21**
-- **PREDICTIONS: 15 OPEN + 2 PARTIAL** (BRK-06, BRK-27) post-BRK-28-resolve. **BRK-29 (PE-wrapper 2nd-gate) still a STUB — formalize at ~6/24 re-sweep / ~7/3 window.** 6/30 cluster (BRK-01/24) approaching, no resolution this session.
-- **STATUS 205 lines** (under 250 target).
-- **6/20 sweep raw output:** task `wlqeyx6qa` (15 agents, 4 verified material findings, 4 corrections). Not archived to a memo — findings folded into KB-159-164 + STATUS.
-- **`MAINTENANCE.md` seeded 6/15** — structural change-log + modernization backlog. **Cheapest next structural item = PREDICTIONS archive+scoreboard (backlog #1, low-effort/high-fit).** boot.py (#2) is design-gated; thesis/ split (#3) deferred Tier-2; FASTOW steward (#5) premature. Consult MAINTENANCE.md before any structure work — NOT a per-session step.
+- **KB 156** (BRK-001→168 ex tombstones; +159-168 added 6/20, all NF=13) · **VX 18** · **FLOW 21**
+- **PREDICTIONS: 22 active (14 OPEN + 2 PARTIAL + 6 tombstone) + 7 ARCHIVED.** BRK-29 FORMALIZED; BRK-14 + BRK-09 RESOLVED FALSE 6/20. Archive→`workbook/PREDICTIONS_ARCHIVE.tsv`; scoreboard→`PREDICTIONS_SCOREBOARD.md` (**5/7 hit, Brier 0.24; structural calls under-priced, premise-sourcing is the error surface**). 6/30 cluster (BRK-01/24) still approaching.
+- **STATUS ~208 lines** (under 250 target).
+- **6/20 raw outputs:** boot sweep `wlqeyx6qa` (→KB-159-164) + follow-ups `w2uluy7nq` (→KB-165-168, BRK-14/09 resolve, KB-110 fix). ⚠️ **w2uluy7nq's bcred-mechanic agent self-committed `84dc4728`** (correct content, but a research agent committing canonical files unprompted — see `[[finding_workflow_agent_unprompted_commit]]`; scope future workflow research agents read-only).
+- **`MAINTENANCE.md`:** ~~PREDICTIONS archive+scoreboard (backlog #1)~~ ✅ DONE 6/20. Next: boot.py (#2, design-gated); thesis/ split (#3, deferred Tier-2). Consult MAINTENANCE.md before structure work.
 - ORC 6/15 caught my footer OPEN-count error (16→15) — corrected. Verify-counts-before-propagating.
 - **ORC post-push verification round (6/15):** swept pushed blobs by recomputation. Migration PASSED (matrix=60, NF=8, no dangling refs). One real fix: EXIT-RULES/thesis-kill subsection had STALE stragglers (14/15bps cushion + "6/5 cracked" narrative) — surface refreshed, derivative section missed (the [[finding_verification_correction_downstream_propagation]] pattern). FIXED → 11bps + re-diverged narrative. Also aligned CATALYSTS date_class to BRENT-canonical confirmed/modeled; relabeled HY OAS provenance [FRED]→[ref LIQUID] (owner's value, primary FRED unreachable).
 
