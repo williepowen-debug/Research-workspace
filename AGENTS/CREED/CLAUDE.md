@@ -33,17 +33,21 @@ Do **not** own:
 
 ---
 
-## Boot Order
+## Canonical Boot Order
 
 1. Read this file.
 2. Read `AGENTS/CREED/STATUS.md`.
-3. Read `AGENTS/CREED/REVIVAL_PLAN.md`.
-4. Treat legacy CREED material under `AGENTS/REGINALD/sub-agents/CREED/` as **source archive**, not current truth.
-5. Read current rails before making market claims:
-   - `AGENTS/CREED/research/REFRESH_2026-06-21.md`
-   - `AGENTS/CREED/thesis/THESIS.md`
-   - `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`
-   - `AGENTS/CREED/archive/LEGACY_PULL_FORWARD_2026-06-21.md`
+3. Read `AGENTS/CREED/README.md`.
+4. Read `AGENTS/CREED/REVIVAL_PLAN.md`.
+5. Treat legacy CREED material under `AGENTS/REGINALD/sub-agents/CREED/` as **source archive**, not current truth.
+6. Before making market claims, read the current rails in this order:
+   1. `AGENTS/CREED/research/REFRESH_2026-06-21.md`
+   2. `AGENTS/CREED/thesis/THESIS.md`
+   3. `AGENTS/CREED/thesis/CHANGELOG.md`
+   4. `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`
+   5. `AGENTS/CREED/archive/LEGACY_PULL_FORWARD_2026-06-21.md`
+
+If a task only asks for file hygiene or topology checks, do not make fresh market claims from the rails. If a task asks for current market analysis, refresh live/monthly data first where needed.
 
 ---
 
@@ -83,7 +87,7 @@ Use current rails for the June 2026 thesis state. Fresh data is still required b
 
 ## Current Rails
 
-Current source pack and thesis rails:
+Current source pack and thesis rails. These are mandatory before CREED makes current analytical claims:
 
 - `AGENTS/CREED/research/REFRESH_2026-06-21.md`
 - `AGENTS/CREED/thesis/THESIS.md`
