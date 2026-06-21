@@ -9,7 +9,7 @@ No Terry-reviewed trades have been closed yet.
 ## YYYY-MM-DD — [Trade / Setup]
 **Original card:** [path]
 **Outcome:** [win/loss/expired/superseded]
-**Tags:** [THESIS_RIGHT_BAD_TIMING, BAD_STRUCTURE, etc.]
+**Tags:** [BAD_THESIS, BAD_TIMING, BAD_STRUCTURE, OVERSIZED, CHASED_ENTRY, MISSED_EXIT, LIQUIDITY_COST, IV_CRUSH, THETA_DECAY, POSITION_TRUTH_MISSING, RULE_VIOLATION, GOOD_LOSS_PROCESS_WORKED]
 
 ### What happened
 [Brief factual timeline]
@@ -21,7 +21,15 @@ No Terry-reviewed trades have been closed yet.
 | Timing | Right / early / late |
 | Structure | Clean / flawed |
 | Sizing | Appropriate / too large / too small |
+| Entry | Disciplined / chased / missed |
+| Exit | Disciplined / late / early / missed |
+| Liquidity | Fine / costly / blocking |
+| Vol/theta | Helped / hurt / killed |
 | Rules | Followed / violated |
+| Calibration | Forecast recorded? Brier if applicable |
+
+### Loss / success cause
+[Pick primary tag and explain]
 
 ### Lesson
 [One durable improvement]
