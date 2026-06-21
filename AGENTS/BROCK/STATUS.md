@@ -105,7 +105,7 @@ Full dated docket + resolved Q1 10-Q verdicts → `docket/CATALYSTS.tsv` (FASTOW
 | **Form PF (REFRAMED)** | 6/23 comment close. Proposal is **largely DEREGULATORY** (thresholds $150M→$1B; LHF $1.5B→$10B). PC reporting addition only "solicited for comment" — not proposed. **Mixed, not pure escalation.** | 🟠 down from 🔴🔴 | [CONF SEC Fed Register 4/24] |
 | Ch11 April 2026 | +42% YoY commercial, Sub V +46% | 🔴 | [CONF Epiq 5/6] |
 | ARES Q1 fundraise (bull counter) | $30B record | 🟢 manager-level (offset) | [CONF WSJ 5/16] |
-| BCRED "promissory + 2%" mechanic | **UNVERIFIED** — not in primary docs at cited URL | flag — do not propagate | [CONF BROCK pull 6/4] |
+| BCRED "promissory + 2%" mechanic | **RESOLVED 6/20: REAL but ROUTINE** — non-interest-bearing promissory-note settlement + 2% early-repurchase deduction (<12mo holds) are STANDARD recurring quarterly tender boilerplate, in the **May 1 SC TO-I** offer docs (also Feb 2 SC TO-I, verbatim) — NOT a stress innovation, NOT in the 6/4 SC TO-I/A amendment (BROCK's 6/4 null pull was correct). NOT a Stage-3 catalyst. | flag CLEARED — do not propagate as innovation | [CONF EDGAR SC TO-I Acc#0001193125-26-199360 (5/1) + 0001193125-26-032795 (2/2), BROCK 6/20] |
 
 ---
 

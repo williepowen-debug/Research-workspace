@@ -132,9 +132,23 @@ NII/sh not cleanly disclosed in secondary; full 10-Q tape-out required.
 - **OTTO (🟠):** Cross-check Medallia + ACI Group exposure at FSK, ARCC, BXSL, GBDC.
 - **HENRY (🟡):** First major non-traded BDC IOU mechanic = narrative-phase Stage 2→3 mainstream catalyst.
 
+## ⚠️ RESOLUTION — "promissory + 2%" mechanic (BROCK primary-source pull, 2026-06-20)
+
+**VERDICT: VERIFIED REAL, but ROUTINE recurring boilerplate — NOT a stress innovation, NOT in the 6/4 amendment.**
+
+Pulled BCRED's actual EDGAR tender filings (CIK 0001803498). Both features are genuine and confirmed verbatim, but they live in the **May 1, 2026 SC TO-I original offer documents** (Acc# 0001193125-26-199360), NOT the June 4 SC TO-I/A amendment (Acc# 0001213900-26-065024) — which only carries the amendment cover + the Q2 investor-letter exhibit. **BROCK's 6/4 null result was correct**: the June 4 amendment contains zero "promissory"/"deduct"/"early repurchase" matches; its only "2%" is the ~2% NAV inflow figure.
+
+1. **Promissory note (settlement plumbing, not stress).** Verbatim, May 1 SC TO-I: *"the Fund will effect payment for those Shares by issuing a non-interest-bearing, non-transferable promissory note (held for you by the Transfer Agent [SS&C GIDS]) entitling you to the payment(s) described herein promptly after the determination of the relevant NAV per share is finalized."* The Note is prepayable "without premium, penalty or notice, at any time." It is simply the payment vehicle for every accepted quarterly repurchase, NOT an IOU-to-defer-cash stress device. Form of Promissory Note filed as Exhibit (a)(1)(v).
+
+2. **2% early repurchase deduction (standard early-redemption fee).** Verbatim: shares tendered "within the twelve-month period following the initial issue date... will be subject to an early repurchase deduction (described further below) of 2% of the aggregate net asset value of the Shares repurchased" (death/divorce + limited exceptions). This is the standard perpetual-life non-traded-BDC 1-year early-redemption haircut, disclosed in the prospectus and in every tender.
+
+**Recurrence proof:** The Feb 2, 2026 BCRED SC TO-I (Acc# 0001193125-26-032795) contains the IDENTICAL language — 21× "promissory note," 3× "2% of the aggregate net asset value," 15× "early repurchase deduction." Structural quarterly boilerplate (Feb/May/Aug/Nov cadence), present long before any 2026 stress.
+
+**Action:** STATUS row flipped UNVERIFIED → RESOLVED (real but routine). Do NOT propagate as a "BCRED IOU innovation" / Stage-3 catalyst. The original sub-agent error was twofold: (a) attributed to wrong filing (June 4 amendment vs May 1 original), and (b) mis-framed routine tender plumbing as a stress innovation. The genuine bear signal in this cycle remains the ~10% Q2 gross repurchase DEMAND at the 5% design cap, not the payment mechanism.
+
 ## Open follow-ups
 
-- Pull actual June 4 SC TO-I/A text from EDGAR for exact promissory-note legal mechanic
+- ~~Pull actual June 4 SC TO-I/A text from EDGAR for exact promissory-note legal mechanic~~ → DONE 6/20 (see RESOLUTION above; mechanic is in the May 1 original, routine boilerplate)
 - Tape-out BCRED 10-Q for NII/sh, total spillover, and revolver-draw detail
 - Tape-out OCIC 10-Q for full NII / coverage / portfolio detail
 - Verify Q3 distribution decisions at BCRED and OCIC (covered or cut)
