@@ -13,11 +13,14 @@
 
 ---
 
-## Verdict: asset-size tier-creep NOT confirmed → refines to a **CRE-CONCENTRATION cohort**
+## Verdict: SEVERITY-GRADED tier-wide CRE-DQ leading-creep (direction tier-broad, severity concentration-graded); WAL unchanged
 
-In-tier trio: **OZK CREEP / BKU MIXED / SBCF FLAT** = 1 clean CREEP → fails the ≥2 bar → **(b) OZK-IDIOSYNCRATIC** by the asset-size test. *(BKU revised from RESOLVING → MIXED after the 6/20 PM past-due test below: its leading bucket ticks up while lagging resolves.)*
+After pulling the **leading bucket (30-89 past-due) for all three in-tier names** (6/20 PM, closing the adversary's hole on both BKU and SBCF rather than waiting for Q2), the pre-registered binary (tier-creep vs OZK-idiosyncratic) proves too coarse. **Every in-tier watchlist name's CRE leading bucket ticked up** — OZK CREEP (material) / BKU MIXED (small) / SBCF MIXED (small) — plus below-tier EGBN. The honest read is a **severity-graded tier-wide leading-creep:**
 
-The signal sorts by **CRE-concentration, not asset size**: the two highest-CRE names (OZK RESG-heavy; EGBN 547% CRE / DC-office) **both creep** an order of magnitude harder than anyone else; SBCF (diversified) is genuinely flat; **BKU's leading bucket shows the same reservoir-lag *shape* but ~30× smaller** (a 16bps CRE past-due tick, lumpy). So the precise read is a **concentration-cohort creep by magnitude** — but the leading-vs-lagging divergence (past-due up / nonaccrual down) is *qualitatively present even at the diversified 'resolving' name*, which is why this isn't a clean idiosyncratic-OZK story. Megabank tier **RESOLVING confirmed** (Trepp's 1.9→1.5% corroborated at issuer level). **Confidence ~0.5** (lowered from 0.55 after the BKU past-due tick softened the clean-peer-resolution leg).
+- **Direction: tier-BROAD.** All 3 in-tier names (OZK/BKU/SBCF) + EGBN show **CRE-*specific*** leading-bucket creep (at SBCF, total past-due *fell* while CRE past-due rose — pointedly CRE). → **SIG-009 / Trepp's "down-tier CRE-DQ creeping" is directionally CORROBORATED — more than the first-pass read**, which only pulled the peers' *lagging* buckets and read them clean (the methodology miss the adversary caught).
+- **Severity: steeply CONCENTRATION-graded.** Material + named-loan + reservoir-confirmed at the high-CRE names (OZK 1.41% past-due in 5 named loans; EGBN nonaccrual +23-61%, NPA 1.04→1.31%, coverage 149→114%); **small + lumpy + collateral-backed + ZERO loss-content** at the diversified names (BKU CRE 30-89 at 0.34% of book; SBCF 0.18%; both criticized-flat, NCO benign 11bps).
+
+So SIG-009's "tier creeping" is **directionally confirmed**, but the **loss-relevant magnitude is concentrated** at the high-CRE names. Megabank tier **RESOLVING confirmed** (Trepp's 1.9→1.5% corroborated at issuer level). **Confidence ~0.6** on the severity-graded framing. **WAL is separately middle-tier idiosyncratic-office → UNCHANGED, no reweight** — this whole drill is the $16-40B down-tier; WAL's office creep is single-name (the $99M life-sci walk).
 
 **This RECONCILES rather than contradicts the 6/8 NCO finding:** NCO (lagging) is benign cohort-wide **and** CRE-DQ (leading) creeps at the CRE-concentrated names — the same reservoir pipeline at different stages. The 6/8 "cohort NCO decelerating" and SIG-009 "CRE-DQ ticking up" are both true; they measure different buckets.
 
@@ -32,7 +35,7 @@ The signal sorts by **CRE-concentration, not asset size**: the two highest-CRE n
 
 **BKU ~$35B — MIXED (lagging RESOLVING, leading TICKING UP) — softened from RESOLVING after the 6/20 PM past-due test.** *Lagging buckets resolving:* every CRE nonaccrual bucket flat-to-down — NOO $67.3M→$66.9M, **construction CRE $29.7M→$0**, OO $23.7M→$20.2M; total nonaccrual $372.6M→$274.7M; criticized/classified **−12.2%** ($1,198.5M→$1,052.3M); NPA 1.08%→0.79%. **BUT the LEADING bucket (the adversary's hole, tested 6/20 PM from the same 10-Q age-analysis table) is building:** CRE **30-89 past-due +50%** ($15.6M→$23.4M; the freshest 30-59 jumped $0.75M→$23.4M), 90+ +16% ($26.4M→$30.6M), **total CRE past-due +29%** ($42.0M→$54.0M, 0.62%→0.78% of CRE book) — *while* nonaccrual + criticized fell. The reservoir-lag divergence (leading up / lagging down) IS present at BKU, same shape as OZK but **~30× smaller** (0.34% of book vs OZK's 1.41% in 5 named loans) and the 30-59 bucket is lumpy/quarter-end-timing-prone (60-89 emptied to $0 — non-monotonic). **Weak trigger: softens BKU from a clean counter-vote to a watch; does NOT promote to "tier-wide creep" (magnitude + lumpiness).** (10-Q accession 0001504008-26-000043, age-analysis table self-verified 6/20 PM.)
 
-**SBCF ~$21B — FLAT, cre_specific ✗ (broad).** Criticized/classified **exactly flat 2.82% = 2.82%** sequentially (verbatim). Nonaccrual rose +32% ($72.0M→$95.0M) but **broad**: Residential +$9.2M and C&I +$4.5M rose as much as CRE-NOO +$8.2M; **construction CRE FELL**; two collateral-backed commercial credits, "no credit loss" expected; NCO 11bps. (8-K 0001628280-26-027918 + 10-Q 0001628280-26-031220, self-verified.)
+**SBCF ~$21B — MIXED / CRE-specific early-creep (revised from FLAT after the 6/20 PM past-due test).** *Lagging context (drill):* criticized/classified **exactly flat 2.82%**; NCO 11bps; two collateral-backed commercial credits, "no credit loss" expected. **BUT the CRE-specific leading bucket is building** (6/20 PM, age-analysis table summed across Portfolio+Acquired+PCD pools): CRE+construction **30-89 accruing past-due +132%** ($5.38M→$12.48M) — the seasoned **60-89 component jumped $0.5M→$7.8M** (less timing-noise than 30-59). It's **CRE-specific, not broad**: *total* accruing past-due FELL ($32.9M→$28.2M — C&I −$4.6M, resi −$2.1M) while CRE past-due rose. CRE+constr nonaccrual also +21% ($46.1M→$55.8M). **BUT tiny absolute level** — CRE 30-89 is 0.08%→0.18% of the ~$6.95B CRE book; no loss content; post-Villages acquired pools add migration lumpiness. (10-Q 0001628280-26-031220, age-analysis self-verified 6/20 PM.)
 
 ### Below-tier reference
 
@@ -66,11 +69,15 @@ These don't overturn the concentration-cohort read (OZK + EGBN both primary-conf
 
 ---
 
-## 🎯 Defined falsifier — TESTED 6/20 PM (Q1 data) → fired WEAKLY
+## 🎯 Defined falsifier — TESTED 6/20 PM on BOTH diversified peers (Q1 data) → broadened the read
 
-**Pulled BKU's 30-89 past-due (leading) bucket from the same Q1 10-Q age-analysis table** (didn't wait for Q2 — Q1 already carries it). **Result: it rose while nonaccrual fell** — CRE 30-89 +50% ($15.6M→$23.4M), total CRE past-due +29% ($42.0M→$54.0M, 0.62%→0.78% of CRE book). So BKU IS in early reservoir-lag, the falsifier's "shift toward down-tier creep" direction. **BUT weak:** magnitude tiny (0.34% of book vs OZK 1.41% in 5 named loans), 30-59 lumpy (60-89 emptied to $0, non-monotonic — likely partly quarter-end timing). → Softens BKU clean-RESOLVING → MIXED, lowers confidence 0.55→0.5; does NOT flip the core verdict (concentration-cohort by magnitude; WAL idiosyncratic; no reweight).
+The adversary's hole: peers judged on *lagging* buckets only. Closed it the same session (Will-directed) by pulling the **30-89 past-due leading bucket from both BKU's and SBCF's Q1 10-Q age-analysis tables** — Q1 already carries it, no need to wait for Q2.
+- **BKU:** CRE 30-89 **+50%** ($15.6M→$23.4M) *while nonaccrual fell* — clean reservoir-lag divergence. Lumpy (60-89 emptied to $0).
+- **SBCF:** CRE 30-89 **+132%** ($5.4M→$12.5M, incl. a seasoned 60-89 build $0.5→$7.8M) AND nonaccrual +21% — and CRE-*specific* (total past-due FELL, CRE rose).
 
-**Residual Q2 watch (~Jul 30):** (1) **BKU 30-89** again — does the Q1 tick build (signal) or revert (quarter-end noise)? (2) **SBCF 30-89 past-due** — NOT yet pulled; the clean-flat read rests on criticized/nonaccrual only — same hole as BKU had, worth closing to confirm SBCF is genuinely flat on the leading bucket too. (3) SSB/AMTB criticized→NCO conversion (SIG-008 synchronization bar). (4) OZK FFIEC RC-N for a formal past-due-by-category confirmation of the 88%-CRE attribution.
+**Both diversified in-tier peers show a CRE leading-bucket tick** → the down-tier creep is **tier-broad in direction**, not confined to the 2 high-CRE names. That **lifts** SIG-009 corroboration (vs the first-pass "peers clean") — but both peers sit at **trivial absolute levels** (0.18-0.34% of CRE book, criticized-flat, zero NCO), so severity stays concentration-graded. Net: verdict moved "concentration-cohort, peers clean" → **"severity-graded tier-wide leading-creep"**; confidence 0.5→0.6; WAL / no-reweight unchanged.
+
+**Residual Q2 watch (~Jul 30):** (1) do the BKU + SBCF leading ticks BUILD (real down-tier creep) or REVERT (quarter-end / acquired-pool lumpiness)? (2) does the OZK/EGBN named-loan creep CONVERT to realized NCO + specific reserves? (3) SSB/AMTB criticized→NCO (SIG-008 synchronization bar). (4) OZK FFIEC RC-N for a formal past-due-by-category confirmation of the 88%-CRE attribution.
 
 ---
 
