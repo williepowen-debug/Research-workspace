@@ -3,7 +3,7 @@
 Detect stress transmission early enough to position ahead of consensus.
 
 **Transmission Chains:**
-1. **Credit:** LABOR → CARL → REGINALD → repricing (HENRY velocity, LIQUID amplification)
+1. **Credit:** LABOR → CARL → REGINALD → repricing (CREED national CRE/CMBS + CORAL geo convergence + HENRY velocity + LIQUID amplification)
 2. **Private credit cascade:** BROCK → SHADE (insurance) → LIQUID (funding)
 3. **Energy shock:** HAWK → BRENT → HENRY (demand destruction)
 4. **Japan:** SAM — independent trigger via carry unwind → LIQUID
@@ -21,6 +21,7 @@ Grouped directory views live in `AGENTS/_INDEX.md`; the canonical topology map l
 | CARL | Consumer credit, housing | Credit | ❌ Persistent (Claude Code/Telegram) |
 | REGINALD | Regional banks (OZK, WAL) | Credit | ❌ Persistent (Claude Code/Telegram) |
 | CORAL | Florida real estate, insurance, FL banks, migration/tourism | Credit (geo convergence) | ❌ Persistent (Claude Code) |
+| CREED | National CRE / CMBS market stress | Credit (CRE→bank bridge) | ❌ Claude Code roster — explicit permission only |
 | HENRY | Market structure, econ data | Credit (velocity) | ✅ OK |
 | LIQUID | Funding, Treasury, spreads | All (amplification) | ❌ Persistent (Telegram) |
 | BOND | US bond market structure, auctions, issuance, CDX/cash | Credit + funding bridge | ✅ OK |

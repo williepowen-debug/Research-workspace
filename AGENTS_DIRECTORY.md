@@ -9,14 +9,14 @@ For a human-friendly grouped view of the flat `AGENTS/<NAME>/` tree, see [`AGENT
 | Runtime | Agent(s) | Interface | Notes |
 |---------|----------|-----------|-------|
 | **OpenClaw (VPS)** | Prome + all spawn-based agents | Telegram | Orchestrator. Spawns sub-agents. Full workspace access. |
-| **Claude Code** | REGINALD, CARL, OZK, CORAL, SAM, RED | Telegram | Independent sessions. Siloed to own domain folders. Push to shared repo. OZK spun out from REGINALD 2026-04-24; CORAL (Florida) spun out from REGINALD 2026-06-19; RED is the persistent adversarial-analysis surface (not a market domain). |
+| **Claude Code** | REGINALD, CARL, OZK, CORAL, CREED, SAM, RED | Telegram | Independent sessions. Siloed to own domain folders. Push to shared repo. OZK spun out from REGINALD 2026-04-24; CORAL (Florida) spun out from REGINALD 2026-06-19; CREED (national CRE/CMBS) revived as top-level Claude Code roster agent 2026-06-21; RED is the persistent adversarial-analysis surface (not a market domain). |
 | **Claude Code** | TERRY | Repo / Claude Code | Conversational trading-desk surface. Will can open Terry directly to talk through trade structure, sizing, options, exits, and postmortems. Proposes only; no execution. |
 | **Claude Code** | PROME | Repo / Claude Code | Repo-native implementation surface for the same Prome identity. Uses shared Prome state, not a separate domain silo. Owns docs/tools/audits/handoffs when scoped. |
 
 **Key rules for multi-runtime:**
-- Prome does NOT spawn REGINALD or CARL as sub-agents. They run independently.
+- Prome does NOT spawn REGINALD, CARL, or CREED as sub-agents. They run independently; CREED requires explicit Will permission before any spawn-like work.
 - Communication is via **inbox files** in the repo (`AGENTS/{NAME}/inbox/`), not session tools.
-- Prome must **read before editing** any REGINALD/CARL file — they may be writing at any time.
+- Prome must **read before editing** any REGINALD/CARL/CREED file — they may be writing at any time.
 - Their completions won't come through sub-agent channels. Check their files directly.
 - **They are fully siloed** — can only see their own CLAUDE.md + domain folder. Cannot read HEARTBEAT.md, MEMORY.md, other agents' files, or cross-references. **Inbox signals must be self-contained** with all relevant context inline. No "see BRENT/research/..." links.
 - **Claude Code Prome is different:** it is not a siloed market-domain agent and does not replace Telegram/OpenClaw Prome. It uses the shared `PROME/` state layer, leaves `PROME/CLAUDE_CODE_HANDOFF.md`, and does not own Will-facing approvals or final decision prompts.
@@ -30,9 +30,10 @@ Sub-agents own detail → distill upward to parents → lateral only when transm
 |-------|--------|--------|-----|
 | **LABOR** | Employment | 🟡 | Claims, NFP, JOLTS, DOGE cuts. Danger: Q2-Q3 2026 |
 | **CARL** 🖥️ | Consumer credit | 🟡 | DQ, subprime auto, phantom debt. Lags LABOR 3-6mo. Subs: POLLY, POP, GIG, DOC, NICK. **Claude Code — independent, siloed.** |
-| **REGINALD** 🖥️ | Regional banks | 🟡 | CRE, bank watchlist, FHLB. Sub: CREED (CRE). Peers: BROCK, CORAL, OZK. **Claude Code — independent, siloed.** |
+| **REGINALD** 🖥️ | Regional banks | 🟡 | Bank watchlist, FHLB, NDFI/CRE bank transmission. Peers: BROCK, CORAL, CREED, OZK. Legacy CREED sub-agent tree remains source archive only. **Claude Code — independent, siloed.** |
 | **BROCK** | BDC / private credit | 🟠 | PIK, gates, NAV, Athene/Apollo, software marks. Lateral peer to REGINALD — signals bank-PC transmission |
 | **CORAL** 🖥️ | Florida (comprehensive) | 🟠 | **Whole-Florida agent — 10 pillars:** condo/SF/CRE real estate, insurance (Citizens), FL banks (SSB/SBCF/BKU/VLY/AMTB), migration, tourism/snowbird, state fiscal & property-tax, labor/construction, coastal/climate (hurricane/sargassum). Promoted from REGINALD sub-agent 2026-06-19; scope broadened to comprehensive FL 2026-06-19. Overlaps MARCO on migration/tourism by design. **Claude Code — independent, siloed.** |
+| **CREED** 🖥️ | National CRE / CMBS | 🟡 | National CRE market-level stress, CMBS delinquency/special servicing, office/multifamily, maturity wall, mods/re-defaults, forced-sale/private-NAV risk. Feeds REGINALD/CORAL/LIQUID/CARL; does not own bank trades or Florida whole-state synthesis. Revived top-level 2026-06-21. **Claude Code roster — do not spawn without explicit Will permission.** |
 
 ## Market Structure
 
@@ -100,6 +101,7 @@ Sub-agents own detail → distill upward to parents → lateral only when transm
 ## Transmission
 ```
 LABOR → CARL → REGINALD → repricing
+CREED → REGINALD (national CRE/CMBS bank bridge) + LIQUID (refi/funding) + CARL (multifamily spillovers)
 LIQUID amplifies any stage | HENRY = speed gauge
 SAM + ZHAO + HANS = parallel global risk | HAWK = external shock
 HAWK (military) → BRENT (oil fundamentals) → CARL (gas pumps) + LIQUID (energy credit) + HENRY (inflation) + SAM (Japan energy)

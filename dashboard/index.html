@@ -1075,7 +1075,7 @@ const AGENT_GRAPH_CONFIG = {
     REGINALD: { color: '#f97316', shape: 'ellipse', size: 30 },
     OZK:      { color: '#f97316', shape: 'ellipse', size: 22 },
     CORAL:    { color: '#f97316', shape: 'ellipse', size: 24 },
-    CREED:    { color: '#71717a', shape: 'ellipse', size: 20 },
+    CREED:    { color: '#f97316', shape: 'ellipse', size: 24 },
     REITS:    { color: '#71717a', shape: 'ellipse', size: 20 },
 
     BROCK:    { color: '#f97316', shape: 'ellipse', size: 28 },
@@ -1107,7 +1107,10 @@ const EDGES = [
     { from: 'OTTO', to: 'CARL', label: 'auto DQ', color: '#a1a1aa', width: 2 },
     { from: 'CARL', to: 'REGINALD', label: 'consumer/housing losses', color: '#ef4444', width: 5 },
     { from: 'CORAL', to: 'REGINALD', label: 'FL convergence', color: '#f97316', width: 3 },
-    { from: 'CREED', to: 'REGINALD', label: 'CRE', color: '#a1a1aa', width: 2 },
+    { from: 'CREED', to: 'REGINALD', label: 'CRE/CMBS bank bridge', color: '#f97316', width: 3 },
+    { from: 'CREED', to: 'LIQUID', label: 'maturity/refi', color: '#a1a1aa', width: 2 },
+    { from: 'CREED', to: 'CARL', label: 'multifamily', color: '#a1a1aa', width: 1 },
+    { from: 'CREED', to: 'CORAL', label: 'FL overlap', color: '#a1a1aa', width: 1 },
     { from: 'REITS', to: 'REGINALD', label: 'real estate tape', color: '#a1a1aa', width: 1 },
     { from: 'OZK', to: 'REGINALD', label: 'peer bank', color: '#3f3f46', width: 1, dashes: true },
 
