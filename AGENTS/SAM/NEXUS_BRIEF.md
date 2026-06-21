@@ -5,14 +5,14 @@
 **Thesis version:** v1.5.1 + Jun-18 strip (v1.6 pending)
 **Recent thesis pivot:** v1.5 → v1.5.1 (Jun 3, carry-unwind decomposed, CH-004 close) → Jun-18 fact-strip (Warsh Fed-HIKE regime flip + Iran signing). **v1.6 re-centers the case: compression → carry-CONVEXITY-tail; Pillar 1 split structural-LEVEL (survives) vs directional-VECTOR (broke); Pillar 4 (positioning) promoted toward center.**
 **Position:** 13 sh FXY @ $58.32 avg (~−$19 / −2.5%); Jun-18 $58C expired worthless Thu; interim stop single-leg FXY ≤ $55.05 (Will-decided Jun-18). Money fields = Will's; structural detail in `thesis/THESIS.md` § Structural Pillars + `STRATEGY.md`.
-**As of:** 2026-06-21 ~5:23 PM ET (Sun FX reopen; STATUS weekend-frozen, canonical = v1.5.1+Jun-18-strip) | STATUS commit: c382ebcc
+**As of:** 2026-06-21 closeout (Sun eve ET; folded in the 48h-sweep findings — Ueda back Jun-23, Jun-24 SoO added, Fed-hike-2026 ~66%, Lebanon de-escalating; STATUS canonical v1.5.1+Jun-18-strip, weekend-flat) | STATUS commit: c382ebcc
 
 ---
 
 ## VIEW
 
-- **BOJ Jun-16 hiked to 1.00% AS PRICED — no carry unwind (CH-004 confirmed).** 7-1 vote, Asada DOVISH dissent, "not imminent" guidance (Uchida fronted; Ueda hospitalized). Yen WEAKENED on a hike to a 31-yr-high rate; FXY flat. The dominant near-term *catalyst* is spent without the violent move — the position now rides structural pillars, not a catalyst.
-- **Pillar-1 directional vector INVERTED by the Jun 16-17 sequence.** BOJ +25bp compression < Fed (Warsh) 2026 median dot +40bp (3.4→3.8, 9-of-18 see ≥1 hike) → rate-differential now WIDER than pre-Tue. **Fed-cut secondary path REPLACED by a Fed-HIKE regime** (CME July hike ~75%; Polymarket "Fed hike 2026" ~56%). Near-term yen direction inverted; structural tail intact-to-stronger.
+- **BOJ Jun-16 hiked to 1.00% AS PRICED — no carry unwind (CH-004 confirmed).** 7-1 vote, Asada DOVISH dissent, "not imminent" guidance (Uchida fronted; Ueda hospitalized — ✅ now discharged Jun-19, back at work Jun-23, leadership-overhang tail removed). Yen WEAKENED on a hike to a 31-yr-high rate; FXY flat. The dominant near-term *catalyst* is spent without the violent move — the position now rides structural pillars, not a catalyst.
+- **Pillar-1 directional vector INVERTED by the Jun 16-17 sequence.** BOJ +25bp compression < Fed (Warsh) 2026 median dot +40bp (3.4→3.8, 9-of-18 see ≥1 hike) → rate-differential now WIDER than pre-Tue. **Fed-cut secondary path REPLACED by a Fed-HIKE regime** (CME July hike ~75%; Polymarket "Fed hike 2026" ~56%→~66% post-FOMC). Near-term yen direction inverted; structural tail intact-to-stronger.
 - **CFTC fuel load maximally loaded, zero cover.** −145,818 = 81% of −180K cycle peak (Jun-9 data); amplifier +5pp + residual ON; ~7K shy of the −153K/85% escalation line. The as-priced hike did NOT light it. **Mon Jun-22 CFTC (Jun-16 data, delayed by Juneteenth) is the v1.6 EV-gate.**
 - **Channel 1 deferred multi-year — 4-of-4 institutions GREW US credit exposure** (Big 3 mutuals benign May 26 + Norinchukin record ¥10.1T CLO, +¥1.8T YoY). J-ICS lifer long-end abandonment kept LIVE as a DOMESTIC JGB 30Y/40Y mechanism (30Y 3.74% post-hike, off the 4.0% threshold).
 - **National May CPI soft** (1.5 / 1.4 / 1.8; core <2% 4th straight month, 4-yr low) — thins post-1.00% Oct-hike repricing; thesis-coherent (BOJ hiked on the wage/activity mechanism, not CPI).
@@ -65,6 +65,7 @@
 |------|-------|---------------------|
 | 🔴 **Mon Jun-22** | **CFTC COT (Jun-16 data) v1.6 EV-gate + Brent decoupling test** | cover <120K / hold 140-150K / build >153K; Brent spike vs shrug on the Iran re-closure |
 | 🟡 Tue Jun-23 | JGB 5Y auction | post-BOJ forward-path read (clean rate-expectation tell) |
+| 🟡 Wed Jun-24 | **BOJ June Summary of Opinions** (Jun 15-16 MPM) | first granular read on the 7-1 board's reaction function; hawkish-skew / oil-inflation linkage |
 | 🟡 Thu Jun-25 | JGB 20Y auction | insurer demand; strike-broadening watch |
 | 🟡 Fri Jun-26 | Tokyo June CPI | subsidy-taper passthrough; advance read for national |
 | 🟡 Tue Jun-30 | Sato Ayano takes Nakagawa's BOJ seat + JGB 2Y | active hike-dissent bloc 3→2; post-1.00% path harder |
