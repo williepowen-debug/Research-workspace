@@ -1,14 +1,14 @@
 # CREED STATUS
 
-**Updated:** 2026-06-21 13:03 ET  
-**Status:** 🟡 REVIVAL / BOOTABLE STUB — not current analytical truth yet  
-**Owner:** CREED after boot; Prome owns revival scaffolding until first CREED refresh.
+**Updated:** 2026-06-21 13:57 ET
+**Status:** 🟡 REVIVAL / PHASE 3 REFRESH DRAFTED — thesis rails not installed yet
+**Owner:** CREED after boot; Prome owns revival scaffolding until thesis rails are installed.
 
 ---
 
 ## Bottom Line
 
-CREED is being revived as the **national CRE / CMBS market-stress agent**. The top-level agent is now bootable, but its legacy data is stale. Do **not** trade from CREED until a fresh June 2026 refresh is completed.
+CREED is being revived as the **national CRE / CMBS market-stress agent**. The top-level agent is bootable and a Phase 3 refresh has been drafted, but thesis rails are not installed yet. Do **not** trade from CREED until Phase 4 turns the refresh into current thesis/decision rails.
 
 Working frame to test:
 
@@ -75,11 +75,11 @@ Use this as mechanism map only. Refresh all levels and dates before quoting.
 
 ---
 
-## First Refresh Required
+## Phase 3 Refresh
 
-Before CREED can make current claims, create a dated refresh note under the planned CREED research folder.
+Fresh data refresh drafted at `AGENTS/CREED/research/REFRESH_2026-06-21.md`. Use it as the current source pack for Phase 4; it is not yet a full thesis rewrite.
 
-Minimum data pulls:
+Refresh covered:
 
 | Area | Need |
 |---|---|
@@ -95,17 +95,16 @@ Minimum data pulls:
 
 ## Next Actions
 
-1. Build a dated CREED research refresh from current sources.
-2. Process stale inboxes only after the refresh:
+1. Process stale inboxes against the Phase 3 refresh:
    - `AGENTS/CREED/inbox/2026-02-24_signals.md`
    - `AGENTS/REGINALD/sub-agents/CREED/inbox/2026-02-27_office_reit_selloff.md`
-3. Draft current thesis rails under a planned CREED thesis folder.
-4. Ask Will before topology changes:
+2. Draft current thesis rails under a planned CREED thesis folder.
+3. Ask Will before topology changes:
    - `AGENTS.md`
    - `AGENTS_DIRECTORY.md`
    - `AGENTS/_INDEX.md`
    - `AGENTS/_NETWORK.md`
-5. Defer any migration/copy of legacy REGINALD sub-agent files until after CREED is current and topology is approved.
+4. Defer any migration/copy of legacy REGINALD sub-agent files until after CREED is current and topology is approved.
 
 ---
 
