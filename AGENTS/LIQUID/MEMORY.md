@@ -2,7 +2,7 @@
 
 ## Session Notes
 
-### CURRENT SESSION (2026-06-20 Sat — week-stale boot + full catch-up: FOMC/TIC/Hormuz; STATUS/CALENDAR/TIMELINE/KB refresh)
+### CURRENT SESSION (2026-06-20 Sat — week-stale boot + catch-up (FOMC/TIC/Hormuz), then full BOOT-PROCEDURE UPGRADE vs SAM/BRENT/VIOLET)
 
 **Context:** Will boot 5:27 PM Sat; STATUS a full week stale (6/13). Markets closed (latest: FRED 6/17-6/18, yfinance 6/19-6/20). Pull skipped — branch already synced to origin; other agents (WALTER/BROCK/BRENT) had uncommitted work outside my dir, left untouched. Ran a 5-agent background workflow (`wdgejpb2w`) for the catch-up: 3 dashboards live data + FOMC 6/17 outcome + cross-agent deltas (SAM/HAWK/BRENT/CARL/REGINALD/BROCK/NEXUS). Synthesized + rewrote state myself (delegated legwork, kept judgment).
 
@@ -18,11 +18,21 @@
 
 **Cross-agent (NO outbox — restraint):** HY 263/260 line already shared by BROCK/REGINALD/NEXUS — nothing they lack. Inbound expected: BRENT Cushing Boundary #3 (~6/24), SAM carry buckets + Mon 6/22 CFTC, HAWK Mon 6/22 Brent decoupling test.
 
+**Continuation — BOOT-PROCEDURE UPGRADE (Will-directed; compared LIQUID vs SAM/BRENT/VIOLET, then built the gaps in 5 phases + adversarial verify):**
+- **Compare/contrast** (workflow `ws938wqwa`): LIQUID's *discipline* was ahead (formal basis-canon block, 4-tier closeout — both unique to LIQUID) but *tooling* a generation behind SAM/BRENT/VIOLET — no boot.py, no single-source catalyst docket, no boot-time predictions scan.
+- **Phase 0** (`17577710`) — doc hygiene: SPAWN PROTOCOL renumber (WALTER intake → step 2, drained AFTER the read); live-event override (CLAUDE step 6 + CLOSEOUT when-to-run); CLOSEOUT git sequence fixed to pathspec (it still prescribed the forbidden `git reset HEAD` + `git add <dir>`).
+- **Phase 1** (`5ac00f34`) — **`scripts/boot.py` MVP**: one command pulls 21 load-bearing series (FRED+yfinance via FORGE `fetch.py`), alert-collapsed vs LIQUID thresholds (labels tied to real triggers KILL/CONFIRM/TRIGGER-A/UNWIND). `--verbose`/`--quick`. Replaces ~13 manual fetch calls.
+- **Phase 2** (`dc9ae11f`) — **`workbook/CATALYSTS.tsv`** (8-col BRENT schema; now 14 rows), CALENDAR bound as the human-twin (no event-set divergence).
+- **Phase 3** (`e8167fd8`) — countdown + **predictions due-scan** stages in boot.py (the scan that would've caught LIQ-02's 3-mo rot; free-text Timeframe parser, fail-loud on unparseable).
+- **Phase 4** (`db14f8b7`) — wired boot.py into **SPAWN step 1b** + FILES + CLOSEOUT-sync; `--selftest` validator.
+- **Verify pass** (`b52a3333`) — 2 adversarial reviewers (workflow `w0lbq7boo`); fixed 7 (BB-pin silent-drop, twin-rule BOTH directions, dead CUSTODIAL ref in CLOSEOUT, countdown field-count, parse_timeframe `Junk`/`Maybe` false-match, SRF partial-leg); 1 documented (exit-code = fetch-health); **1 false-positive caught** (reviewer said KEY THRESHOLDS stale — verified ALREADY refreshed before "fixing").
+- **Earlier this session:** CLAUDE.md KEY THRESHOLDS + FILES refreshed to 6/20 (`2c3abf78`) — the "6/12-stale" item is DONE.
+
 **Open follow-ups (carried):**
-- ⭐ **Mon 6/22 first move:** pull FRED 6/18-6/19 HY OAS → resolves TRIGGER A. + HAWK Brent decoupling test + SAM CFTC.
+- ⭐ **Mon 6/22 first move: run `scripts/boot.py`** (now SPAWN step 1b) — it pulls FRED 6/18-6/19 HY OAS (resolves TRIGGER A on the <260 watch), flags the 6/22 IMMINENT catalyst cluster + LIQ-03 due 6/30. Then HAWK Brent decoupling test + SAM CFTC.
 - Owed-to-BRENT HY-Energy-OAS pull DEFERRED per Will 6/20 (re-arms on a 6/22 Brent spike). Belgium TIC live pull. LIQ-03 resolves 6/30.
-- CLAUDE.md KEY THRESHOLDS table still 6/12-stale (HY 280 etc.) — Tier-2 boot-doc refresh deferred (preamble says verify-vs-STATUS, low risk).
-- **Push pending** — Saturday, no coordinated window. Session commits (decc3c6f + the STATUS/CALENDAR/TIMELINE/KB commit to follow) sweep next window.
+- **Boot-upgrade — NOT built (optional, deferred):** standing NEXUS_BRIEF every session; SCRATCH.md handoff file; propose the basis-canon block fleet-wide. Low priority.
+- **Push pending** — Saturday, no coordinated window. **9 session commits** (decc3c6f → b0a25479 → 2c3abf78 → 17577710 → 5ac00f34 → dc9ae11f → e8167fd8 → db14f8b7 → b52a3333) sweep next window.
 
 ### PRIOR SESSION (2026-06-13 Sat — boot + Fri closes + position cleanup + Orc sweep + FOMC/TIC pre-stage)
 
@@ -217,7 +227,7 @@ MEMORY.md    STATUS.md  STRATEGY.md           USER.md
 
 *(Updated 6/20 — LIQUID current through FOMC/TIC. Forward watches; positions flat — no decision items.)*
 
-1. **⭐ First move — pull FRED 6/18-6/19 HY OAS** (the <260 soft-kill resolver; 263 at 6/17, 3bps cushion, no trigger fired yet). If **<260 sustained → fire 🔴 ALL (LIQ-01 / Trigger C credit-channel kill)** — shared line LIQUID/BROCK/REGINALD/NEXUS. Genuineness test: is CCC-BB compressing with it (real) or holding wide (pin survives, KB-LIQ-058)? Also restamp 6/20 closes: 30Y vs <4.90 unwind (4.93), 10Y, USD/JPY.
+1. **⭐ First move — run `scripts/boot.py`** (now SPAWN step 1b: `.venv/bin/python3 AGENTS/LIQUID/scripts/boot.py`). It pulls **FRED 6/18-6/19 HY OAS** (the <260 soft-kill resolver; 263 at 6/17, 3bps cushion, no trigger fired yet) + all 21 series + the countdown + predictions scan in one shot. If **HY <260 sustained → fire 🔴 ALL (LIQ-01 / Trigger C credit-channel kill)** — shared line LIQUID/BROCK/REGINALD/NEXUS. Genuineness test: is CCC-BB compressing with it (real) or holding wide (pin survives, KB-LIQ-058)? Restamp 6/20 closes into STATUS: 30Y vs <4.90 unwind (4.93), 10Y, USD/JPY.
 2. **Mon 6/22 cross-agent cluster:** HAWK Brent decoupling test (Hormuz re-declared closed 6/20 declaratory — spike → watch energy-HY-OAS >300 + flight-to-safety bid; shrug → decoupling holds); SAM CFTC JPY print (Juneteenth-delayed); defer Brent price authority to BRENT.
 3. **Positions — NOTHING TO SURFACE** (book flat; HYG expired 6/19, TEN closed; APO Dec $95P is BROCK's). Do NOT re-raise HYG.
 4. **Inbound to expect:** BRENT Cushing-sub-20M Boundary #3 (~6/24 EIA WPSR); SAM carry-unwind buckets (7d/30d/60d ~8/23/32%).
