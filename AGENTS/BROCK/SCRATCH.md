@@ -48,7 +48,7 @@
 5. **BRK-14 Big-Tech Q1 capex verification** — pushed 8/31; verify MSFT/GOOG/META/AMZN/NVDA Q1 capex guides
 6. **BRK-09 HRZN merger close verification** — pushed 9/30; primary-source pull needed
 7. **Concentration-figure refresh sweep** (LESSONS #18): GCRED 24.2%, MS BCI 19.73%, CUBI 33%
-8. **BCRED "promissory + 2%" mechanic verification** — primary-source exhibit search (UNVERIFIED, do not propagate)
+8. ~~**BCRED "promissory + 2%" mechanic verification**~~ — RESOLVED 6/20: REAL but ROUTINE recurring tender boilerplate (in May 1 SC TO-I + Feb 2 SC TO-I verbatim; NOT in 6/4 amendment; NOT a stress innovation). Flag cleared. See domain/sources/BCRED_OCIC_Q1_READ_JUN04.md RESOLUTION.
 9. **Cliffwater CDLI Q1 full NAV** (~late June)
 10. **CDR NDFI 5-cat coordination** — outbox to WALTER+REGINALD
 11. **OTF software-exit reflexivity research thread**
