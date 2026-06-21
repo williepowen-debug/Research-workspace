@@ -1,14 +1,14 @@
 # CREED STATUS
 
-**Updated:** 2026-06-21 15:14 ET
-**Status:** 🟢 REVIVAL / CURRENT THESIS RAILS INSTALLED — not canonical in topology yet
-**Owner:** CREED after boot; Prome owns topology/migration decisions until Will approves canonical integration.
+**Updated:** 2026-06-21 15:32 ET
+**Status:** 🟢 REVIVAL / CURRENT THESIS RAILS + TOPOLOGY INSTALLED
+**Owner:** CREED after boot; Prome owns future topology/migration decisions only with Will approval.
 
 ---
 
 ## Bottom Line
 
-CREED is revived enough to act as the **national CRE / CMBS market-stress source pack and thesis-rails agent**. It is still **not canonical in topology** until Will approves roster/network integration.
+CREED is revived as the **national CRE / CMBS market-stress source pack and thesis-rails agent** and is integrated into the canonical roster/topology as a Claude Code roster agent. Do not spawn CREED without explicit Will permission.
 
 Current thesis:
 
@@ -77,6 +77,7 @@ Use this as mechanism map only. Refresh all levels and dates before quoting.
 - Thesis rails: `AGENTS/CREED/thesis/THESIS.md`
 - Thesis changelog: `AGENTS/CREED/thesis/CHANGELOG.md`
 - Inbox triage: `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`
+- Legacy pull-forward map: `AGENTS/CREED/archive/LEGACY_PULL_FORWARD_2026-06-21.md`
 
 Refresh covered:
 
@@ -94,13 +95,8 @@ Refresh covered:
 
 ## Next Actions
 
-1. Ask Will before topology changes:
-   - `AGENTS.md`
-   - `AGENTS_DIRECTORY.md`
-   - `AGENTS/_INDEX.md`
-   - `AGENTS/_NETWORK.md`
-2. Defer any migration/copy of legacy REGINALD sub-agent files until after topology is approved.
-3. Optional next CREED work:
+1. Leave legacy REGINALD sub-agent files in place unless old-path confusion becomes a real problem; use the legacy pull-forward map instead of copying stale dashboards wholesale.
+2. Optional next CREED work:
    - monthly CMBS tracker
    - property-type dashboard
    - handoff note to REGINALD/CORAL/LIQUID/CARL
@@ -110,7 +106,7 @@ Refresh covered:
 ## Guardrails
 
 - No trade recommendations from stale CREED numbers.
-- No file moves during revival Phase 2.
-- No topology updates without Will approval.
+- No legacy file moves unless Will explicitly approves a future migration.
+- Future topology updates require Will approval.
 - No duplication of REGINALD/CORAL mandates.
 - Current data beats legacy confidence.
