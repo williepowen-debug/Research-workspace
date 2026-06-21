@@ -41,7 +41,7 @@ Scanner reads (read budget):
   - git log --oneline -5 -- AGENTS/<NAME>/  (per agent)
   - each agent's inbox/ for unprocessed items
   - HEARTBEAT.md catalyst calendar
-  - PROME/TOSCANINI/QUEUE.md (currently stale; rebuild may be part of this)
+  - PROME/ACTIVE_DECISIONS.md + PROME/STATUS.md (open blockers/work queue)
         ↓
 Scanner writes PROME/FLEET_SCAN.md (fixed-section template)
 Scanner returns to Prome a ~10-line summary only
@@ -109,7 +109,7 @@ Will opens this file at session start. Two minutes of reading replaces an hour o
 
 ## Ranking criteria for Section 6 (Top-N Moves)
 
-Distilled from the retired `PROME/TOSCANINI/HUNTING.md` (now in `PROME/archive/TOSCANINI_2026-03/`). The fleet-scanner uses this rubric to rank candidate moves rather than eyeballing it.
+Distilled from the retired `PROME/archive/TOSCANINI_2026-03/HUNTING.md`. The fleet-scanner uses this rubric to rank candidate moves rather than eyeballing it.
 
 **Score each candidate move on six dimensions (0-3); apply weights; sum. Max 22.5.**
 

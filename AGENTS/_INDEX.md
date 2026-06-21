@@ -4,6 +4,8 @@
 
 **Important:** Canonical agent paths remain flat. Do **not** move active agent folders without a migration pass; many docs, scripts, and Claude/OpenClaw workflows reference `AGENTS/<NAME>/...` directly.
 
+Canonical topology / transmission map: [`_NETWORK.md`](./_NETWORK.md).
+
 ## Quick groups
 
 | Group | File | What it covers |

@@ -1060,59 +1060,112 @@ function renderPredictions() {
 // ============================================================
 
 const AGENT_GRAPH_CONFIG = {
-    PROME:    { color: '#3b82f6', shape: 'box', size: 35 },
-    LABOR:    { color: '#ef4444', shape: 'ellipse', size: 30 },
-    CARL:     { color: '#22c55e', shape: 'ellipse', size: 28 },
-    REGINALD: { color: '#f97316', shape: 'ellipse', size: 28 },
-    HENRY:    { color: '#ef4444', shape: 'diamond', size: 26 },
-    LIQUID:   { color: '#ef4444', shape: 'ellipse', size: 28 },
-    SAM:      { color: '#ef4444', shape: 'ellipse', size: 28 },
-    ZHAO:     { color: '#ef4444', shape: 'ellipse', size: 28 },
+    PROME:    { color: '#3b82f6', shape: 'box', size: 36 },
+    WALTER:   { color: '#0ea5e9', shape: 'box', size: 28 },
+    HERMES:   { color: '#64748b', shape: 'box', size: 20 },
+    NEXUS:    { color: '#a855f7', shape: 'box', size: 32 },
+    RED:      { color: '#ef4444', shape: 'box', size: 24 },
+    VIOLET:   { color: '#8b5cf6', shape: 'diamond', size: 26 },
+    TERRY:    { color: '#f59e0b', shape: 'box', size: 26 },
+    ORACLE:   { color: '#14b8a6', shape: 'box', size: 22 },
+
+    LABOR:    { color: '#eab308', shape: 'ellipse', size: 28 },
+    CARL:     { color: '#eab308', shape: 'ellipse', size: 28 },
+    OTTO:     { color: '#f97316', shape: 'ellipse', size: 22 },
+    REGINALD: { color: '#f97316', shape: 'ellipse', size: 30 },
+    OZK:      { color: '#f97316', shape: 'ellipse', size: 22 },
+    CORAL:    { color: '#f97316', shape: 'ellipse', size: 24 },
+    CREED:    { color: '#71717a', shape: 'ellipse', size: 20 },
+    REITS:    { color: '#71717a', shape: 'ellipse', size: 20 },
+
+    BROCK:    { color: '#f97316', shape: 'ellipse', size: 28 },
+    SHADE:    { color: '#ef4444', shape: 'ellipse', size: 24 },
+
     HAWK:     { color: '#ef4444', shape: 'ellipse', size: 28 },
-    BRENT:    { color: '#f97316', shape: 'ellipse', size: 26 },
-    BROCK:    { color: '#f97316', shape: 'ellipse', size: 24 },
-    HANS:     { color: '#f97316', shape: 'ellipse', size: 24 },
+    BRENT:    { color: '#ef4444', shape: 'ellipse', size: 28 },
+    FERT:     { color: '#f97316', shape: 'ellipse', size: 22 },
+    CRUISE:   { color: '#f97316', shape: 'ellipse', size: 22 },
     MARCO:    { color: '#f97316', shape: 'ellipse', size: 24 },
-    OTTO:     { color: '#22c55e', shape: 'ellipse', size: 24 },
-    SHADE:    { color: '#71717a', shape: 'box', size: 20 },
-    NEXUS:    { color: '#a855f7', shape: 'box', size: 28 },
-    RED:      { color: '#71717a', shape: 'box', size: 22 },
-    DARWIN:   { color: '#71717a', shape: 'box', size: 20 },
+    BARON:    { color: '#71717a', shape: 'ellipse', size: 20 },
+
+    LIQUID:   { color: '#ef4444', shape: 'ellipse', size: 30 },
+    BOND:     { color: '#ef4444', shape: 'ellipse', size: 26 },
+    HENRY:    { color: '#eab308', shape: 'diamond', size: 28 },
+    SAM:      { color: '#ef4444', shape: 'ellipse', size: 28 },
+    ZHAO:     { color: '#ef4444', shape: 'ellipse', size: 24 },
+    HANS:     { color: '#eab308', shape: 'ellipse', size: 22 },
+    FOREX:    { color: '#71717a', shape: 'ellipse', size: 20 },
+
+    DEWEY:    { color: '#64748b', shape: 'box', size: 22 },
+    ATHENA:   { color: '#64748b', shape: 'box', size: 20 },
+    BUFFER:   { color: '#64748b', shape: 'box', size: 18 },
 };
 
 const EDGES = [
-    // Core transmission chain
-    { from: 'LABOR', to: 'CARL', label: 'triggers', color: '#ef4444', width: 5 },
-    { from: 'CARL', to: 'REGINALD', label: 'converts', color: '#ef4444', width: 5 },
-    // Energy chain
-    { from: 'HAWK', to: 'BRENT', label: 'conflict→oil', color: '#f97316', width: 3 },
-    { from: 'BRENT', to: 'HENRY', label: 'NOPI', color: '#f97316', width: 3 },
+    // Credit chain
+    { from: 'LABOR', to: 'CARL', label: 'labor stress', color: '#ef4444', width: 5 },
+    { from: 'OTTO', to: 'CARL', label: 'auto DQ', color: '#a1a1aa', width: 2 },
+    { from: 'CARL', to: 'REGINALD', label: 'consumer/housing losses', color: '#ef4444', width: 5 },
+    { from: 'CORAL', to: 'REGINALD', label: 'FL convergence', color: '#f97316', width: 3 },
+    { from: 'CREED', to: 'REGINALD', label: 'CRE', color: '#a1a1aa', width: 2 },
+    { from: 'REITS', to: 'REGINALD', label: 'real estate tape', color: '#a1a1aa', width: 1 },
+    { from: 'OZK', to: 'REGINALD', label: 'peer bank', color: '#3f3f46', width: 1, dashes: true },
+
+    // Private credit / insurance
+    { from: 'BROCK', to: 'SHADE', label: 'wrapper stress', color: '#ef4444', width: 4 },
+    { from: 'SHADE', to: 'LIQUID', label: 'funding pullability', color: '#ef4444', width: 4 },
+    { from: 'BROCK', to: 'REGINALD', label: 'NDFI bridge', color: '#f97316', width: 3 },
+    { from: 'BROCK', to: 'BOND', label: 'credit stress', color: '#a1a1aa', width: 2 },
+
+    // Energy / geopolitics
+    { from: 'HAWK', to: 'BRENT', label: 'kinetic/chokepoint', color: '#ef4444', width: 5 },
+    { from: 'BRENT', to: 'HENRY', label: 'inflation / demand', color: '#f97316', width: 3 },
+    { from: 'BRENT', to: 'LIQUID', label: 'energy credit', color: '#f97316', width: 3 },
     { from: 'BRENT', to: 'CARL', label: 'gas pump', color: '#f97316', width: 2 },
-    // Amplifiers
-    { from: 'CARL', to: 'HENRY', label: 'velocity', color: '#a1a1aa', width: 2 },
-    { from: 'HENRY', to: 'LIQUID', label: 'vol regime', color: '#a1a1aa', width: 2 },
-    { from: 'LIQUID', to: 'REGINALD', label: 'amplifies', color: '#f97316', width: 4 },
-    // Japan/China → LIQUID
-    { from: 'SAM', to: 'LIQUID', label: 'UST flows', color: '#a1a1aa', width: 2 },
-    { from: 'ZHAO', to: 'LIQUID', label: 'Belgium', color: '#a1a1aa', width: 2 },
-    { from: 'SAM', to: 'HENRY', label: 'carry unwind', color: '#ef4444', width: 2 },
-    // Support flows
-    { from: 'MARCO', to: 'LABOR', label: 'migration', color: '#a1a1aa', width: 1 },
-    { from: 'OTTO', to: 'CARL', label: 'auto DQ', color: '#a1a1aa', width: 1 },
-    { from: 'BROCK', to: 'REGINALD', label: 'BDC stress', color: '#a1a1aa', width: 1 },
-    { from: 'SHADE', to: 'BROCK', label: 'captive', color: '#a1a1aa', width: 1 },
+    { from: 'BRENT', to: 'FERT', label: 'feedstock', color: '#a1a1aa', width: 2 },
+    { from: 'FERT', to: 'CARL', label: 'food CPI', color: '#a1a1aa', width: 2 },
+    { from: 'BRENT', to: 'CRUISE', label: 'fuel/Gulf', color: '#a1a1aa', width: 2 },
+    { from: 'CRUISE', to: 'CARL', label: 'tourism/ports', color: '#a1a1aa', width: 1 },
+    { from: 'MARCO', to: 'LABOR', label: 'labor supply', color: '#a1a1aa', width: 2 },
+    { from: 'MARCO', to: 'CORAL', label: 'migration', color: '#a1a1aa', width: 1 },
+    { from: 'BARON', to: 'HAWK', label: 'policy vector', color: '#3f3f46', width: 1, dashes: true },
+
+    // Funding / macro / market structure
+    { from: 'SAM', to: 'LIQUID', label: 'carry/JGB', color: '#ef4444', width: 4 },
+    { from: 'SAM', to: 'HENRY', label: 'carry vol', color: '#ef4444', width: 2 },
+    { from: 'ZHAO', to: 'LIQUID', label: 'UST demand', color: '#a1a1aa', width: 2 },
+    { from: 'ZHAO', to: 'SAM', label: 'Asia flows', color: '#3f3f46', width: 1 },
     { from: 'HANS', to: 'LIQUID', label: 'EUR/UST', color: '#a1a1aa', width: 1 },
-    // Cross-links
-    { from: 'ZHAO', to: 'SAM', color: '#3f3f46', width: 1 },
-    { from: 'HANS', to: 'SAM', color: '#3f3f46', width: 1 },
-    // PROME orchestrates
-    { from: 'PROME', to: 'NEXUS', color: '#3b82f6', width: 2 },
-    { from: 'NEXUS', to: 'LABOR', color: '#a855f7', width: 1, dashes: true },
-    { from: 'NEXUS', to: 'CARL', color: '#a855f7', width: 1, dashes: true },
-    { from: 'NEXUS', to: 'REGINALD', color: '#a855f7', width: 1, dashes: true },
-    { from: 'NEXUS', to: 'HENRY', color: '#a855f7', width: 1, dashes: true },
-    { from: 'NEXUS', to: 'SAM', color: '#a855f7', width: 1, dashes: true },
-    { from: 'NEXUS', to: 'HAWK', color: '#a855f7', width: 1, dashes: true },
+    { from: 'FOREX', to: 'LIQUID', label: 'FX', color: '#a1a1aa', width: 1 },
+    { from: 'BOND', to: 'LIQUID', label: 'auctions/issuance', color: '#f97316', width: 3 },
+    { from: 'BOND', to: 'HENRY', label: 'credit-equity lead', color: '#a1a1aa', width: 2 },
+    { from: 'LIQUID', to: 'REGINALD', label: 'funding amplifier', color: '#f97316', width: 4 },
+    { from: 'LIQUID', to: 'HENRY', label: 'plumbing regime', color: '#a1a1aa', width: 2 },
+
+    // Vol / synthesis / decision loop
+    { from: 'BOND', to: 'VIOLET', label: 'credit→vol', color: '#8b5cf6', width: 2 },
+    { from: 'BROCK', to: 'VIOLET', label: 'PC→vol', color: '#8b5cf6', width: 2 },
+    { from: 'REGINALD', to: 'VIOLET', label: 'banks→vol', color: '#8b5cf6', width: 2 },
+    { from: 'VIOLET', to: 'HENRY', label: 'vol tape', color: '#8b5cf6', width: 2 },
+    { from: 'HENRY', to: 'NEXUS', label: 'velocity', color: '#a1a1aa', width: 2 },
+    { from: 'ORACLE', to: 'NEXUS', label: 'odds', color: '#14b8a6', width: 1 },
+    { from: 'NEXUS', to: 'RED', label: 'challenge', color: '#ef4444', width: 2 },
+    { from: 'RED', to: 'NEXUS', label: 'falsify', color: '#ef4444', width: 2 },
+    { from: 'NEXUS', to: 'TERRY', label: 'setup', color: '#f59e0b', width: 3 },
+    { from: 'VIOLET', to: 'TERRY', label: 'timing', color: '#8b5cf6', width: 2 },
+    { from: 'TERRY', to: 'PROME', label: 'trade cards', color: '#f59e0b', width: 3 },
+    { from: 'NEXUS', to: 'PROME', label: 'synthesis', color: '#a855f7', width: 3 },
+
+    // Signal routing / ops
+    { from: 'PROME', to: 'WALTER', label: 'priorities', color: '#3b82f6', width: 2, dashes: true },
+    { from: 'WALTER', to: 'NEXUS', label: 'routed signals', color: '#0ea5e9', width: 2, dashes: true },
+    { from: 'WALTER', to: 'BROCK', color: '#0ea5e9', width: 1, dashes: true },
+    { from: 'WALTER', to: 'BRENT', color: '#0ea5e9', width: 1, dashes: true },
+    { from: 'WALTER', to: 'LIQUID', color: '#0ea5e9', width: 1, dashes: true },
+    { from: 'HERMES', to: 'WALTER', label: 'delivery', color: '#64748b', width: 1, dashes: true },
+    { from: 'PROME', to: 'DEWEY', label: 'research exec', color: '#64748b', width: 1, dashes: true },
+    { from: 'ATHENA', to: 'NEXUS', label: 'knowledge', color: '#64748b', width: 1, dashes: true },
+    { from: 'BUFFER', to: 'PROME', label: 'handoff', color: '#64748b', width: 1, dashes: true },
 ];
 
 function renderNetwork() {

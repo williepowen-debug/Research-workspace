@@ -320,7 +320,7 @@ Next session start:
 
 | Period | File | Coverage |
 |---|---|---|
-| 2026-05-17 → 2026-05-21 | [`PROME/archive/CC_HANDOFF_2026-05-pre-22.md`](archive/CC_HANDOFF_2026-05-pre-22.md) | First 11 sessions: Phase 3 dry-run → orchestral layer → revival proxies → BOND teams-mode → BOND matrix v2 → BROCK/REGINALD live closeouts → heaviest-coordination-day → COMM mailbox → HEARTBEAT Path B → FORGE rehab Steps 1-4 |
+| 2026-05-17 → 2026-05-21 | [`PROME/archive/CC_HANDOFF_2026-05-pre-22.md`](CC_HANDOFF_2026-05-pre-22.md) | First 11 sessions: Phase 3 dry-run → orchestral layer → revival proxies → BOND teams-mode → BOND matrix v2 → BROCK/REGINALD live closeouts → heaviest-coordination-day → COMM mailbox → HEARTBEAT Path B → FORGE rehab Steps 1-4 |
 
 > **Cross-surface housekeeping (5/24):** an OpenClaw session entry ("HAWK armed-pause consolidation" 5/22) was originally written here in error. Relocated to `PROME/HANDOFF.md` (OpenClaw's continuity surface). A breadcrumb is left in the 5/22 entries below so the audit trail still resolves. Future OpenClaw sessions should write directly to `PROME/HANDOFF.md`.
 
@@ -401,7 +401,7 @@ Pathspec commits throughout (dogfooded under live MARCO/OTTO concurrency) · no 
 
 - `AGENTS/BROCK/inbox/SIG-PROME-BROCK-2026-05-22_jun18-cluster-credit-trigger-calibration.md`
 - `AGENTS/REGINALD/inbox/SIG-PROME-REGINALD-2026-05-22_jun18-cluster-bank-trigger-calibration.md`
-- `AGENTS/HENRY/inbox/SIG-PROME-HENRY-2026-05-22_tlt-decision-and-vix-trigger-calibration.md`
+- `AGENTS/HENRY/inbox/processed/SIG-PROME-HENRY-2026-05-22_tlt-decision-and-vix-trigger-calibration.md`
 
 ### Decisions Will made this session
 
@@ -502,7 +502,7 @@ Open with Will at next-session start:
 ### Files NOT touched (other agents' scope or Will's)
 
 - `AGENTS/CARL/*` (4 modified + 5 inbox moves + dispositions file + tmp leak) — CARL recovers on next boot
-- `AGENTS/HENRY/outbox/REPLY-PROME-2026-05-22-tlt-decision.md` — HENRY's outbox, HENRY commits
+- `AGENTS/HENRY/outbox/delivered/REPLY-PROME-2026-05-22-tlt-decision.md` — HENRY's outbox, HENRY commits
 - `AGENTS/{BROCK,REGINALD,HENRY}/inbox/SIG-PROME-*` — recipients integrate + commit on their next boot
 - `WILL/share/agents capture image.JPG` — Will's file
 
@@ -562,7 +562,7 @@ Open with Will at next-session start:
 
 | Date | Thread | Outcome | Commit |
 |---|---|---|---|
-| 5/24 | HANDOFF audit + Option B archive | 5/17-5/21 entries → `archive/CC_HANDOFF_2026-05-pre-22.md` (844 lines); HANDOFF 1005 → 207 lines | `045fdc59` (after rebase: unchanged) |
+| 5/24 | HANDOFF audit + Option B archive | 5/17-5/21 entries → `PROME/archive/CC_HANDOFF_2026-05-pre-22.md` (844 lines); HANDOFF 1005 → 207 lines | `045fdc59` (after rebase: unchanged) |
 | 5/24 | Memory salvage | 4 new findings + LIAISON live-live extension; MEMORY index updated | (memory dir, outside repo) |
 | 5/24 | OpenClaw HAWK relocation | Moved 5/22 entry from CC HANDOFF to PROME/HANDOFF (category violation fix) | included in `045fdc59` |
 | 5/25 | FLEET_SCAN conflict resolution | Took origin (5/23 OpenClaw scan paired with execution-rails landing) | working-tree only |
