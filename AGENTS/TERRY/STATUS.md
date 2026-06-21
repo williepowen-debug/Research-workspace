@@ -1,5 +1,5 @@
 # TERRY STATUS
-**Updated:** 2026-06-20 (Claude Code conversational surface clarified)
+**Updated:** 2026-06-21 (old TRADES archived into Terry playbook)
 **Agent:** TERRY — trade construction / tactical execution discipline
 
 ## Mission
@@ -14,6 +14,7 @@ TERRY converts thesis into trade plans with explicit entry, invalidation, sizing
 | Templates/workflows | ✅ added | Trade-card template, position-intake form, and chart/options workflow are now explicit. |
 | Scripts/tool access | ✅ added | `boot.py` read-only boot card; `snapshot.py` price/relative-strength; `risk_calc.py` sizing math; `chain_parse.py` pasted chain parser. |
 | Live trade cards | None | No setups reviewed yet. |
+| Legacy TRADES archive | ✅ absorbed | Old `AGENTS/TRADES/JUNE_2026_CANDIDATES.md` preserved as TERRY archive/playbook; TRADES is dormant. |
 | Position truth | Unknown | Existing broker/fill/P&L state must come from Will via `POSITION_INTAKE.md` fields before firm triage. |
 | Data access | Conditional | Live prices/history via FORGE market-data wrappers; option chains require Will/broker/manual export then `chain_parse.py`. |
 | Claude Code surface | ✅ clarified | Will can open Terry directly for conversational trade-desk questions; full trade cards only when actionable. |
@@ -21,6 +22,7 @@ TERRY converts thesis into trade plans with explicit entry, invalidation, sizing
 ## First Useful Tasks
 
 1. **Postmortem old scars:** HYG Jun→Dec roll failure; TLT/FXY/HYG expiry cleanup if Will provides position truth.
+2. **Use legacy TRADES verification pattern:** candidate idea → primary-source check → aggregate check → trend check → no-trade or trade-card decision.
 2. **Build a live trade-card template on the next actionable thesis:** e.g., HY kill-line / Hormuz tape / WAL-OZK idiosyncratic bank setup.
 3. **Define default risk budget conventions:** max loss per idea, max theta bleed, event-risk sizing, no-chase rules.
 4. **First live dry run:** produce one conditional Terry card from an existing thesis without executing, using `snapshot.py` for levels, `risk_calc.py` for sizing, and `chain_parse.py` if Will provides option-chain data.

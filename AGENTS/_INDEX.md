@@ -53,7 +53,6 @@ Canonical topology / transmission map: [`_NETWORK.md`](./_NETWORK.md).
 | SENTRY | [`SENTRY/`](./SENTRY/) | Synthesis / Ops |
 | SHADE | [`SHADE/`](./SHADE/) | Private Credit |
 | TERRY | [`TERRY/`](./TERRY/) | Synthesis / Ops |
-| TRADES | [`TRADES/`](./TRADES/) | Synthesis / Ops |
 | VIOLET | [`VIOLET/`](./VIOLET/) | Synthesis / Ops |
 | WALTER | [`WALTER/`](./WALTER/) | Synthesis / Ops |
 | ZHAO | [`ZHAO/`](./ZHAO/) | Funding / Macro |
@@ -63,6 +62,7 @@ Canonical topology / transmission map: [`_NETWORK.md`](./_NETWORK.md).
 | Folder | Status | Current owner |
 |---|---|---|
 | REITS | [`REITS/`](./REITS/) source archive only | Public REIT equity tape absorbed into [`CREED/`](./CREED/) |
+| TRADES | [`TRADES/`](./TRADES/) source archive only | Superseded by [`TERRY/`](./TERRY/) |
 
 ## Maintenance rule
 

@@ -17,8 +17,13 @@ Canonical paths remain `AGENTS/<NAME>/`. This file is an index only.
 | Agent | Path | Role |
 |---|---|---|
 | TERRY | [`TERRY/`](./TERRY/) | Trade construction, sizing, invalidation, roll/no-roll rules, postmortems. |
-| TRADES | [`TRADES/`](./TRADES/) | Trade/workbook artifacts. |
 | EARNINGS | [`EARNINGS/`](./EARNINGS/) | Earnings-event surface / workbook. |
+
+## Archived / dormant
+
+| Folder | Status | Current owner |
+|---|---|---|
+| TRADES | [`TRADES/`](./TRADES/) source archive only | Superseded by [`TERRY/`](./TERRY/) |
 
 ## Operations / delivery / research
 

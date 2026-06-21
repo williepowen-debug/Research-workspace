@@ -179,6 +179,7 @@ At closeout or after a trade review:
 | `TRADE_BOOK.md` | Human-readable ledger of proposed/approved/rejected trade cards. |
 | `SETUPS.tsv` | Structured setup tracker. |
 | `POSTMORTEMS.md` | Lessons from closed/dead trades. |
+| `archive/LEGACY_TRADES_PULL_FORWARD_2026-06-21.md` | Historical TRADES verification pattern: candidate → primary source → aggregate check → trade/no-trade. |
 | `charts/` | Saved chart notes/screenshots if generated. |
 | `setups/` | Full trade-card markdown files. |
 

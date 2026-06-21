@@ -32,3 +32,13 @@ python3 AGENTS/TERRY/scripts/chain_parse.py chain.csv --underlying WAL --type pu
 ```
 
 Scripts are read-only helpers and never make execution decisions. `chain_parse.py` parses pasted/exported option-chain data; it does not fetch broker data.
+
+
+## Legacy Trade-Screening Archive
+
+Old `AGENTS/TRADES/` is archived/dormant. Useful verification lessons were pulled into:
+
+- `AGENTS/TERRY/archive/LEGACY_TRADES_PULL_FORWARD_2026-06-21.md`
+- `AGENTS/TERRY/archive/TRADES_JUNE_2026_CANDIDATES_LEGACY.md`
+
+Use these as process examples only; not active trade recommendations.

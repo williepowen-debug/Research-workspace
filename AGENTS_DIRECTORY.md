@@ -84,6 +84,7 @@ Sub-agents own detail → distill upward to parents → lateral only when transm
 | **DARWIN** | System evolution/AI | Weekly scans, improvement backlog |
 | BUFFER, EARNINGS, FOREX, OTTO | Various | Background/event-driven |
 | REITS | Archived / dormant | Public REIT tape absorbed into CREED 2026-06-21; folder remains source archive only. |
+| TRADES | Archived / dormant | Old candidate scratchpad superseded by TERRY; folder remains source archive only. |
 
 ## Trading
 
