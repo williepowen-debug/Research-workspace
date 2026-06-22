@@ -5,7 +5,7 @@
 > (1) **FOMC graded against my 3-branch tree → HYBRID, fits NEITHER branch cleanly.** Hawkish dots (toward HAWKISH-HOLD/76) + vol-absorbed, credit-tightening, equities-recovered (toward AS-PRICED/67). The substance hardened bear; the tape absorbed it. Calibration lesson: my tree conflated the *substance* dimension (dot-plot) with the *reaction* dimension (vol-snap) — reality split them. Warsh-as-Chair was un-modeled.
 > (2) **SKEW RELOADED, did not release.** I attacked VIOLET's coiled-spring as "war-premium residue that should deflate post-MOU"; live ^SKEW **146.72 (6/18→6/22)** — a June HIGH, *through* BOJ/FOMC/MOU/Brent-collapse. The deep-tail bid intensified after both the credit-FOMC and war tails resolved benign. **Acute held at 13 on this** (not cut), composition shifted credit-tail→vol-tail.
 > (3) **CCC-BB bifurcation DEMOTED** (LIQUID sweep): the 783bp tail-gap was ~781 at acute-stress (Mar: HY 319/VIX 26) AND ~789 now at risk-on (HY 266/VIX 17) → non-discriminating curve-shape artifact; already failed one out-of-sample test (Mar 781 predicted IG contagion; IG 74bps benign). One of my standing bear-confirming signals is weaker than I carried it.
-> (4) **HY OAS 266 → 6bps from the <260 capitulation falsifier (WL-04 NEAR).** FT-01 firing sustain-met (266/266/263). The single cleanest broad-credit-channel-death signal is the closest it has ever been. This is the binding near-term risk.
+> (4) **HY OAS 266 → 6bps from <260 (WL-04 NEAR).** FT-01 firing sustain-met (266/266/263). **Base-rate re-frame (S20):** sub-260 is the rarest credit regime in 30yr (only 1997/2007/2025-Jan) and 3/3 PRECEDED major widening within 3-18mo — it falsifies near-dated TIMING, NOT direction; a max-complacency marker (bear-confirming structural). True capitulation needs the conjunction (HY<260 AND structural data backs off). Corrects RED's own prior "capitulate transmission" framing. Framework: `research/HY260_CAPITULATION_FRAMEWORK.md`.
 > (5) **War de-priced (−2):** MOU signed (signing-binary→de-escalation), HAW-11 expired (no Gulf infra hit). But **OVX 51.73 NOT crushed** + war-risk insurance >1000% → oil-tail IS priced; only equity-VIX (17) complacent → **VX-RED-025 weakened** (hedge already expensive where it'd pay). Jun-20 re-closure declaratory; PGSA-OFAC insurance trap is a new structural gate.
 
 ---
@@ -67,7 +67,7 @@ The "we're wrong" case is **winning the tape**, and the 9-day window was its bes
 
 | Trigger | Action | Status |
 |---------|--------|--------|
-| **HY OAS <260 sustained 3d** | Broad-credit channel DEAD; capitulate transmission-via-credit (bear lives on bank-specific + duration only) | **266 — 6bps away, WL-04 NEAR. THE binding near-term watch. Daily.** |
+| **HY OAS <260 sustained 3d** | **NOT a thesis-capitulation** — base rate 3/3 sub-260 → major widening in 3-18mo (1997→LTCM 6.78%, 2007→GFC 8.62%, 2025-Jan→Apr-spike). Falsifies near-dated TIMING only (size long-dated); flags MAX late-cycle complacency (bear-confirm structural). **True capitulation = HY<260 AND structural data backs off (conjunction)** → `research/HY260_CAPITULATION_FRAMEWORK.md` | **266 — 6bps away, WL-04 NEAR. Daily. On a bare print → HOLD (Branch A).** |
 | **HY OAS re-cross >280 sustained 3d** | FT-01 un-fires; bifurcation re-widens | 266 — far below; firing |
 | **HY OAS >320 sustained 3d** | Path B reasserts; +3 | 266 — 54bps away |
 | **VIX <16 sustained 5d** (guard retained) | Managed-decline confirmed; −50% IF DIET not concurrently firing | 17.1 — near; **but SKEW 146.72 firing = guard HOLDS (loaded-spring, not managed)** |
@@ -99,7 +99,7 @@ The "we're wrong" case is **winning the tape**, and the 9-day window was its bes
 
 ## TOP ADVERSARIAL PRIORITIES (6/22)
 
-1. **HY OAS <260 daily watch** — 6bps away (WL-04). The cleanest broad-credit-channel-death falsifier; if it sustains, the bear case must live on bank-specific structural + duration only. Pre-write the capitulation framework BEFORE it fires.
+1. **HY OAS <260 daily watch** — 6bps away (WL-04). ✅ **Framework pre-written** (`research/HY260_CAPITULATION_FRAMEWORK.md`): sub-260 is NOT a thesis-kill (3/3 base rate precedes widening 3-18mo); on a bare print → HOLD (Branch A); capitulate only on the conjunction with structural backing-off (Branch B = WAL/OZK Q2 beat-clean + DQ decel).
 2. **WAL/OZK Q2 (~Jul 30)** — the only live-or-die catalyst before the Sep expiries. REG-24 (Office classified >$500M) near-mechanical at 70%; the loss-absorption-vs-NIM question (REGINALD sweep) resolves here. Pre-write the beat/miss × clean/dirty tree.
 3. **July CPI/PPI (Jul 10)** — CHG-RED-028 mechanism falsifier: does core/services stagflation hold while energy decelerates (Brent $77)? Stagflation-leg test.
 4. **Q2 BDC marks (~Jul 25)** — LIQUID's genuinely durable bear sub-channel (private-credit mark-to-model lag; FSK NAV −9.9%, 11 Q1 div cuts, KBRA DLD 2.3% record). The credit-stress signal that ISN'T a curve artifact.
