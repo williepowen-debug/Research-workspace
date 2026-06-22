@@ -195,6 +195,7 @@ When spawned with a task:
 - `python3 scripts/polymarket.py pull --log` — fetch every market in `watchlist.tsv`, print dashboard, append time series to `workbook/ODDS_LOG.tsv`.
 - `python3 scripts/polymarket.py search "<query>"` — discover/replace markets (pin by slug in `watchlist.tsv`).
 - `python3 scripts/polymarket.py market <slug>` / `event <slug>` — single-market / grouped-event detail.
+- `python3 scripts/polymarket.py history [--write]` — **trajectory view**: backfills the full *daily* price series (CLOB `prices-history`) for every watchlist market, prints Δ30d/Δ90d/since-creation, min–max range, an ASCII sparkline, and a ⚡spiky/round-trip flag (range >40pp & sitting near the low — headline-driven, not signal). `--write` dumps the daily series to `workbook/HISTORY.tsv`. **Use this for "how has the figure moved over time" — the durable view that survives stale point-in-time baselines** (memory: `finding_divergence_requires_fresh_likeforlike_baseline`).
 
 **Kalshi:** not yet wired (needs an API key). Recession/Fed/CPI markets there corroborate Polymarket — add when creds available.
 
@@ -236,6 +237,7 @@ Process when spawned. Integrate probability-relevant data.
 | `STATUS.md` | Live dashboard — all tracked markets, current odds, recent moves, alerts |
 | `TRADE.md` | How prediction market odds inform position decisions |
 | `workbook/ODDS_LOG.tsv` | Machine time series — one row per market per pull (odds, vol, liq, Δ) |
+| `workbook/HISTORY.tsv` | Full **daily** trajectory per market (CLOB prices-history backfill); regenerate via `polymarket.py history --write` |
 | `workbook/KB.tsv` | 13-col knowledge base — derived claims / divergences (validate vs `SCHEMA.tsv`) |
 | `workbook/SCHEMA.tsv` | 13-col schema for KB.tsv (network standard) |
 | `workbook/VX.tsv` | Tracked thresholds and state changes |
