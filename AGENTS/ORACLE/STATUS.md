@@ -38,6 +38,25 @@ My prior divergence map compared live markets against **April-vintage fleet base
 
 ---
 
+## Trajectory (daily CLOB backfill — `polymarket.py history`)
+
+The durable view: *how* each figure moved, not just today's level (survives stale point-in-time baselines). Full daily series → `workbook/HISTORY.tsv` (2,337 rows, 15 markets).
+
+| Market | Now | Δ90d | Since create | Shape |
+|--------|--:|--:|--:|------|
+| Fed: NO cuts 2026 | 81% | **+56** | +66 (Sep) | **regime shift** — market went from pricing cuts → none over 9mo |
+| NEH 2026 | 83% | **+42** | +25 (Jan) | steady complacency climb |
+| Fed: HIKE in 2026 | 62% | **+42** | +32 (Dec) | hawkish turn; flat ~11% all winter → step-up since late Mar |
+| US recession 2026 | 12% | **−21** | −32 (Sep) | **steady 9-mo slide** 46%→12% (was never near my old "76%") |
+| Fed: hike July mtg | 23% | +18 | +19 (Mar) | recent jump; crowd sees hike *later* (Oct modal 53%) |
+| Iran enrichment | 3% | −24 | −11 (Feb) | ⚡ **spiky** — twin spikes (54% Apr, 62% Jun) both round-tripped |
+| WTI $100 (war) | 3% | — | −48 (May) | ⚡ war-premium collapse |
+| Bank failure Jun30 | 9% | — | −34 (May) | ⚡ spiky, headline-driven |
+
+⚡ = `history` round-trip flag (range >40pp, now near low) → discount single prints. *Re-run: `python3 AGENTS/ORACLE/scripts/polymarket.py history --write`*
+
+---
+
 ## Thesis Divergence Map (audited 2026-06-22 — sourced current baselines)
 
 | Domain | Market (live) | **Current** fleet thesis (sourced) | Verdict |

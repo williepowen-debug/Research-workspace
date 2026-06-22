@@ -20,10 +20,12 @@ import sys, os, json, argparse, datetime
 import requests
 
 GAMMA = "https://gamma-api.polymarket.com"
+CLOB = "https://clob.polymarket.com"
 HERE = os.path.dirname(os.path.abspath(__file__))
 ORACLE_DIR = os.path.dirname(HERE)                      # AGENTS/ORACLE
 WATCHLIST = os.path.join(ORACLE_DIR, "watchlist.tsv")
 ODDS_LOG = os.path.join(ORACLE_DIR, "workbook", "ODDS_LOG.tsv")
+HISTORY = os.path.join(ORACLE_DIR, "workbook", "HISTORY.tsv")  # full daily series (CLOB backfill)
 
 THIN_LIQUIDITY = 5000.0   # USD order-book depth — below this a single $5-50K bet moves 5-10pp
 THIN_VOLUME = 5000.0      # USD lifetime volume floor
@@ -74,6 +76,11 @@ def parse_market(m):
     if vol is None:
         vol = _f(m.get("volume"))
     thin = (liq is not None and liq < THIN_LIQUIDITY) or (vol is not None and vol < THIN_VOLUME)
+    toks = m.get("clobTokenIds")
+    try:
+        toks = json.loads(toks) if isinstance(toks, str) else (toks or [])
+    except json.JSONDecodeError:
+        toks = []
     end = (m.get("endDate") or "")[:10]
     days_left = None
     if end:
@@ -99,6 +106,7 @@ def parse_market(m):
         "thin": thin,
         "resolved": resolved,
         "expiring": expiring,
+        "yes_token": toks[0] if toks else None,   # clobTokenIds[0] == YES outcome
     }
 
 
@@ -182,6 +190,121 @@ def cmd_event(args):
         print(f"   {_pct(m['yes'])}  Δ7d {_delta(m['d7'])}  {q:60} vol {_money(m['volume']):>7} liq {_money(m['liquidity']):>7}  slug={m['slug']}")
 
 
+def clob_history(token, fidelity=1440):
+    """Daily YES-price series for a CLOB token. Returns [(date, prob), ...] oldest-first."""
+    if not token:
+        return []
+    # prices-history lives on the CLOB host, not Gamma — call directly
+    last = d = None
+    for _ in range(3):
+        try:
+            r = requests.get(CLOB + "/prices-history",
+                             params={"market": token, "interval": "max", "fidelity": fidelity}, timeout=25)
+            r.raise_for_status()
+            d = r.json()
+            break
+        except Exception as e:  # noqa: BLE001
+            last = e; d = None
+    if d is None:
+        raise last
+    out = []
+    for p in d.get("history", []):
+        try:
+            day = datetime.datetime.utcfromtimestamp(p["t"]).strftime("%Y-%m-%d")
+            out.append((day, float(p["p"])))
+        except (KeyError, TypeError, ValueError):
+            continue
+    return out
+
+
+def _spark(series, width=24):
+    """ASCII sparkline of a (date,prob) series, sampled to `width` columns, scaled 0-100%."""
+    blocks = "▁▂▃▄▅▆▇█"
+    vals = [p for _, p in series]
+    if not vals:
+        return ""
+    if len(vals) > width:
+        step = len(vals) / width
+        vals = [vals[min(len(vals) - 1, int(i * step))] for i in range(width)]
+    return "".join(blocks[min(7, max(0, int(round(v * 7))))] for v in vals)  # 0-1 -> 0-7
+
+
+def _val_days_ago(series, n):
+    """Prob at the point nearest `n` days before the last point; None if series too short."""
+    if not series:
+        return None
+    last_day = datetime.date.fromisoformat(series[-1][0])
+    target = last_day - datetime.timedelta(days=n)
+    best = None
+    for day, p in series:
+        d = datetime.date.fromisoformat(day)
+        if d <= target:
+            best = p
+    return best
+
+
+def _traj_stats(series):
+    if not series:
+        return None
+    now = series[-1][1]
+    lo = min(p for _, p in series); hi = max(p for _, p in series)
+    return {
+        "now": now, "created": series[0][1], "created_day": series[0][0],
+        "d7": _val_days_ago(series, 7), "d30": _val_days_ago(series, 30), "d90": _val_days_ago(series, 90),
+        "lo": lo, "hi": hi, "n": len(series),
+        # spiky = wide range AND current sits near the low end (round-tripped)
+        "spiky": (hi - lo) > 0.40 and (now - lo) < 0.15,
+    }
+
+
+def cmd_history(args):
+    """Backfill + render full daily trajectory for every watchlist market (CLOB prices-history)."""
+    wl = _read_watchlist()
+    if not wl:
+        print(f"watchlist empty/missing: {WATCHLIST}"); return
+    rows, allseries = [], []
+    for w in wl:
+        try:
+            if w["type"] == "event":
+                e = event_by_slug(w["slug"]); mkts = e["markets"] if e else []
+                m = sorted(mkts, key=lambda x: (x["yes"] or 0), reverse=True)[:1]
+                m = m[0] if m else None
+            else:
+                m = market_by_slug(w["slug"])
+            if not m or not m.get("yes_token"):
+                print(f"  ! {w['label']}: no token"); continue
+            series = clob_history(m["yes_token"])
+            if not series:
+                print(f"  ! {w['label']}: no history"); continue
+            s = _traj_stats(series)
+            rows.append((w["label"], w["tier"], s, series))
+            for day, p in series:
+                allseries.append((w["slug"], w["label"], day, p))
+        except Exception as e:  # noqa: BLE001
+            print(f"  ! {w['label']}: {e}")
+
+    def pp(x):
+        return "  — " if x is None else f"{x*100:4.0f}"
+    print(f"\nORACLE trajectory — CLOB daily history  (now | Δ30d | Δ90d | since-create | range | spark)\n" + "-" * 110)
+    for label, tier, s, series in sorted(rows, key=lambda r: r[1]):
+        d30 = None if s["d30"] is None else (s["now"] - s["d30"]) * 100
+        d90 = None if s["d90"] is None else (s["now"] - s["d90"]) * 100
+        dcr = (s["now"] - s["created"]) * 100
+        flag = " ⚡spiky/round-trip" if s["spiky"] else ""
+        print(f"{label[:30]:30} {tier:3} {pp(s['now'])}% "
+              f"Δ30d {'  — ' if d30 is None else f'{d30:+4.0f}'} "
+              f"Δ90d {'  — ' if d90 is None else f'{d90:+4.0f}'} "
+              f"since {dcr:+4.0f}({s['created_day'][2:]})  "
+              f"[{pp(s['lo'])}-{pp(s['hi'])}] {_spark(series)}{flag}")
+    if args.write:
+        os.makedirs(os.path.dirname(HISTORY), exist_ok=True)
+        with open(HISTORY, "w") as fh:
+            fh.write("slug\tlabel\tdate\tyes_prob\n")
+            for slug, label, day, p in allseries:
+                fh.write(f"{slug}\t{label}\t{day}\t{p}\n")
+        print(f"\nwrote {len(allseries)} daily rows ({len(rows)} markets) → {HISTORY}")
+
+
 def _read_watchlist():
     rows = []
     if not os.path.exists(WATCHLIST):
@@ -254,6 +377,7 @@ def main():
     s = sub.add_parser("market"); s.add_argument("slug"); s.add_argument("--json", action="store_true"); s.set_defaults(fn=cmd_market)
     s = sub.add_parser("event"); s.add_argument("slug"); s.set_defaults(fn=cmd_event)
     s = sub.add_parser("pull"); s.add_argument("--log", action="store_true"); s.add_argument("--json", action="store_true"); s.set_defaults(fn=cmd_pull)
+    s = sub.add_parser("history"); s.add_argument("--write", action="store_true"); s.set_defaults(fn=cmd_history)
     args = ap.parse_args()
     args.fn(args)
 
