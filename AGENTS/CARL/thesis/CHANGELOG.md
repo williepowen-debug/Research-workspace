@@ -8,6 +8,33 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-06-22 PM — 6-day catch-up sweep (gather workflow w95yzkviz): FOMC Jun-17 graded HAWKISH-RELATIVE under NEW Chair Warsh; V12 4→5 + V5 4→3 paired v2.6 candidates (net 52/70 held); CRL-08 trim 55→40; CRL-07 magnitude caveat; 32 BOARD signals + 4 releases integrated; no thesis version bump (v2.5.2 holds)
+
+### Macro-regime change (not a thesis edit, but load-bearing context)
+**Kevin WARSH is Fed Chair — Jun 17 was his FIRST meeting** (Powell now a voting member). A Warsh-led Fed is structurally harder-money than Powell's; "Fed locked, no relief coming" is now a multi-meeting reaction-function reality, not a one-print event. Validates auto-memory `finding_boot_sweep_macro_regime_context` (boot baselines don't cover Fed-Chair/leadership changes — bake a regime check into boot). The boot did not catch this; the FOMC gather did.
+
+### FOMC Jun-17 GRADE → HAWKISH-RELATIVE (CARL pre-registered modal 45% — clean hit)
+HOLD 3.50-3.75% unanimous 12-0, but **dots flipped to a HIKE**: 2026 median 3.8% (Mar 3.4%; 9/18 pencil hikes, 1 cut; 17/18 inflation-risk-up); 2027 3.6%. **Stagflationary SEP:** GDP 2026 2.2% (−0.2), UR 4.3%, PCE 3.6% (+0.9), Core PCE 3.3% (+0.6). Warsh "look through energy." Market: 2Y +11-16bp (biggest Fed-day since Mar-2008), 30Y >5.00% (highest since 2007), CME hike-by-2026 47%→77%. Graded against the pre-registered tree in `FOMC_PACKET_2026-06-17.md` §3 (§6 grading stub filled). Honored pre-registration: **V12 held 4, conviction sharply UP, v2.6 upgrade (4→5) RE-ARMED** — the energy-driven UMich 5-10Y 3.4% retrace caveat that had blocked auto-upgrade is now overridden by the Fed's OWN 3.6% PCE projection (committee not believing the disinflation). KB-CARL-298.
+
+### THESIS — no version bump (v2.5.2 holds); two OFFSETTING v2.6 score candidates flagged for Will
+- **V12 Stagflation Trap / Fed Locked: 4→5 candidate.** Strongest single V12 confirmation in thesis life (FOMC published a stagflationary SEP + flipped to a hiking bias under a hard-money Chair). Held at 4 today per FOMC-packet pre-registration (a 4→5 = thesis-version v2.6, warrants its own review).
+- **V5 Gas Price Squeeze: 4→3 candidate.** Gas $3.929 (5th wk down), Islamabad MOU Jun 17 WAIVED Iran oil-export sanctions (structural supply add), CRL-08 dead-reinforced. The gas-squeeze leg is genuinely RELIEVING (counter-current to the bear thesis; mechanism intact, input turned tailwind) — RED-honest downgrade.
+- **Net: 52/70 HELD** (V12↑ and V5↓ offset). Both surfaced as the paired v2.6 score-review for Will to adjudicate, rather than silently moving the headline.
+
+### PREDICTIONS.tsv
+- **CRL-08 55→40% (re-arm + trim).** Iran oil sanctions waived + gas −5wk + Brent near pre-war = P(Brent→$105-110 in window) materially lower (−15pp). Re-arm not MISS (pass-through intact). GIG corroborates via independent EIA series (peaked $4.50 May 11, reverted).
+- **CRL-07 85% HELD + magnitude caveat.** Wave-1 cliff timing confirmed NOW (Jun 24); but FL ~8% recipiency (~42.5K active) means the income cliff is small in absolute terms — load-bearing transmission is the gig-supply-surge channel (DoorDash $100M subsidy), not aggregate UI dollars. Magnitude resolves on DQ-conversion 30-60d post-cliff.
+- **CRL-03 72% HELD** — decisive Fannie MF May print drops ~Jun 26 (Q2-window resolver; Apr 0.64% = month-1 of the <0.65%-2mo invalidation).
+- **CRL-23 70% HELD** — NAHB June (price-cutters 35%, incentives 62%, traffic 25) + national builder-overhang ~2x existing reinforce the compression baseline; FY27 tariff leg still the actual test.
+
+### Integrations (data + signals)
+- **4 fired releases:** Retail Sales May (+0.9% headline / control +0.7% / gas-padded; forced-consumption at 2.6% savings), NAHB June 35 (14th mo <40, traffic 25), Existing Home Sales May 4.17M (bounced >4.0M but low-velocity, weakest cycle appreciation), Sweet v. McMahon FIRED (~30-36K discharge emails Jun 15 — small K-shape relief pulse). KB-CARL-296/297.
+- **Student-loan defaults ~9.2M Apr — CLIMBING wall** (6.0M Aug→7.7M Dec→9.16M Apr, Bloomberg), reframes CARL's static-stock view. KB-CARL-299. New CRL-prediction candidate on next NY Fed HHDC.
+- **32 BOARD signals dispositioned** (Jun 18-22): 3 INTEGRATED CARL-lead (consumer-discretionary K-shape SIG-621-005, student-loan SIG-621-012, builder-overhang SIG-621-013), 29 REFERRED (FL→CORAL, energy→HAWK/BRENT, bank/CRE→REGINALD, vol→HENRY, Japan→SAM, private-credit→BROCK). KB-CARL-300/301. 0 undispositioned remaining.
+- **GIG refreshed** (66d gap): driver oversupply confirmed, Dave Q1 1.69% survivorship-biased (provision +151% YoY), FL UI magnitude-constrained, gas receding. SV-GIG-2026-06-22-01.
+
+---
+
 ## 2026-06-14 PM — Sun data sweep + ORC echo-verify: energy decoupling reverses V12 expectations channel; CRL-08 re-test FIRED & FAILED (trim 70→55); LEN FQ2 guide-cut integrated; UMich May-final backfill; no thesis version bump
 
 ### PREDICTIONS.tsv — CRL-08 70→55% (re-arm + trim); CRL-23 LEN datapoint (conf held)

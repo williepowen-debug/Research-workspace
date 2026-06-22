@@ -1,9 +1,4 @@
 date	event	what_to_check	threshold_signal	priority	who_cares	notes
-2026-06-15	Sweet v. McMahon Full Settlement Relief notice deadline	Notice mailing actually begins?	~170-271K cohort tradeline-deletion / bounded counter-signal	🟠	CARL,STUE	PPSL court-compelled. DOE missed both prior (Jan 28 + Apr 15). Miss = same auto-relief mechanism continues. Watch PPSL case-page Jun 15-20 window.
-2026-06-16	Retail Sales (May)	Control group; gas-station distortion	Consumer spending; forced-consumption (savings 2.6%)	🟠	CARL	~mid-month. Mar +1.7% (gas +15.5% record distortion).
-2026-06-16	NAHB HMI (June)	Headline vs 50; Future Sales	Builder sentiment <40 (Apr 34, 24th mo <50)	🟠	CARL,HOMER	~mid-month. Tariff +$10,900/home.
-2026-06-17	FOMC decision + SEP dot-plot (mtg Jun 16-17)	Dots vs market ~2-in-3 Oct-hike pricing	V12 REGIME — FIRST dot-plot post-Waller pivot	🔴	CARL,REGINALD,HENRY,SAM	Highest-leverage near-term V12 catalyst. Decision+dots+presser Jun 17.
-2026-06-19	Existing Home Sales (May, NAR)	SAAR vs 4.0M	Housing demand — Mar 3.98M <4.0M RED	🟠	CARL,HOMER	~3rd week. Approx.
 2026-06-24	FL Wave 1 UI exhaustion cliff	~4,500 workers exhaust UI	CRL-07 / DQ spike follows 30-60d	🔴	CARL,LABOR,GIG	DEO Wave 1; LABOR/GIG cross-feed.
 2026-06-24	New Home Sales (May, Census)	SAAR; inventory	Housing demand / builder pipeline	🟡	CARL,HOMER	Approx ~Jun 24.
 2026-06-25	May PCE (Personal Income & Outlays)	Core PCE MoM/YoY; savings rate; Real DPI	V12 monthly bridge; buffer-exhaustion (Apr savings 2.6%)	🟠	CARL	8:30 ET (verified Jun 25). Watch savings toward sub-2.5%.

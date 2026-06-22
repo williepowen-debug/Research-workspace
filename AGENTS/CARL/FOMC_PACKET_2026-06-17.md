@@ -56,8 +56,19 @@
 4. **SEP growth/unemployment** — downgrade or UR-uptick = dovish tell
 5. **Falsifier for the hawkish prior:** a 2026 cut retained in the dots + presser leaning dovish on growth.
 
-## 6. POST-DECISION GRADING STUB (fill Jun 17)
-Branch fired: __ · V12 moved as pre-committed? __ · market repricing direction [ref LIQUID/HENRY]: __ · one-line lesson: __
+## 6. POST-DECISION GRADING (graded Jun 22 — gather workflow w95yzkviz, primary Fed sources)
+**Branch fired: HAWKISH-RELATIVE — clean hit on the pre-registered modal (CARL 45%).** All three conditions met:
+- **Dots flipped to a hike, 2026 cuts removed:** 2026 median FFR **3.8%** (March 3.4%, +40bp — flipped from a March cut to a hike); 9 of 18 penciling hikes (6 ≥50bp, 1 at +75bp), 8 hold, 1 cut; 17/18 saw inflation risk tilted up. 2027 median 3.6% (March 3.1%, +50bp). [SEP table, federalreserve.gov, Jun 17]
+- **Stagflationary SEP:** GDP 2026 **2.2%** (−0.2 from March), UR 4.3% (−0.1), **PCE 2026 3.6% (+0.9!)**, Core PCE 3.3% (+0.6) — growth shaved, inflation marked up sharply on supply-shock/energy stickiness.
+- **Presser sticky-core + functional "look through energy":** Warsh — oil/eggs "do not have first-order consequences… [job is] make sure those changes… don't have second- and third-order effects." De-emphasized lagged payroll data.
+- **Front-end repriced UP (NOT flat → not muddle):** 2Y +11/+16bp to ~4.15-4.21% (biggest Fed-day move since Mar 2008); 10Y ~4.47%; **30Y cracked 5.00% — highest since 2007**; equities + gold down; **CME hike-by-2026 ~47%→~77%.**
+
+**⚠️ REGIME CHANGE (not in the pre-registered tree): this was Kevin WARSH's FIRST meeting as Fed Chair** (Powell now a voting member; statement notably shortened; Warsh did not submit a dot). A Warsh-led Fed is structurally harder-money than Powell's — "Fed locked, no relief coming" is now a multi-meeting reaction-function reality, not a one-print event. This is the backbone of the v2.6 case.
+
+**Decision:** HOLD 3.50-3.75%, **unanimous 12-0** (no dissents).
+**V12 moved as pre-committed?** YES — **held at 4, conviction sharply UP, v2.6 upgrade candidate RE-ARMED.** The caveat that blocked auto-upgrade (energy-driven UMich 5-10Y retrace to 3.4%) is now **overridden by the Fed's own 3.6% PCE projection** — the committee is explicitly NOT believing the disinflation. V12 4→5 deferred to a dedicated v2.6 thesis review (paired with the offsetting V5 gas-squeeze downgrade — see STATUS). No trade trigger (rate-path already in thesis; core DQ/K-shape/housing thesis is rate-path-independent).
+**Market repricing direction [ref LIQUID/HENRY]:** hawkish across assets — front-led curve flattening, 30Y >5%, equities lower. Duration risk on any refi-relief scenario INCREASED (market now prices a hike path, not a cut path).
+**One-line lesson:** the pre-registered modal (hawkish-relative, 45%) hit cleanly AND a macro-regime change (new Chair) slipped past the boot baseline — validates `finding_boot_sweep_macro_regime_context`; bake a Fed-Chair/leadership check into boot regime-context.
 
 ## CROSS-AGENT (CARL → fleet)
 CARL flags to PROME/REGINALD/HENRY: **hawkish-surprise-relative-to-pricing** is the live risk, and **"Fed looks through energy both ways"** is the lens — the energy round-trip is more decision-relevant to the market's front-end than to the Fed's dots. **Live channel tell: 30Y FRM rose to 6.52% through the energy drop — no refi relief in the housing-transmission channel regardless of Jun-17 outcome.**

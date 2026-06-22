@@ -1,5 +1,5 @@
 # CARL DOCKET — Catalyst Calendar
-**Updated:** 2026-06-14 PM (pruned LEN FQ2 [Jun 11] + UMich June prelim [Jun 12] — integrated this session)
+**Updated:** 2026-06-22 PM (catch-up sweep — pruned 5 fired: Sweet Jun-15, Retail Sales + NAHB Jun-16, FOMC Jun-17, Existing Home Sales Jun-19; all integrated to STATUS)
 
 Human-readable twin of `docket/CATALYSTS.tsv`. **The two must not diverge** — edit both together, or regenerate this from the TSV. The TSV is the machine source (read by `scripts/docket_countdown.py` at boot, SPAWN PROTOCOL step 7a).
 
@@ -12,18 +12,9 @@ Human-readable twin of `docket/CATALYSTS.tsv`. **The two must not diverge** — 
 ## This week (≤ Jun 5) — ALL FIRED & INTEGRATED Jun 5
 *(Pruned Jun 5 PM: ISM Mfg May / FL hurricane season open / JOLTS Apr / DG Q1 / ISM Svc May / NFP May — see STATUS Recently fired Jun 5 row + KB-CARL-283 through KB-CARL-287.)*
 
-## Jun 6–17
-| Date | Event | Test | Pri |
-|------|-------|------|-----|
-| **Jun 15** | **Sweet v. McMahon notice deadline** | ~170-271K cohort tradeline-deletion; PPSL court-compelled | 🟠 |
-| Jun 16 | Retail Sales (May) | Consumer spending; forced-consumption | 🟠 |
-| Jun 16 | NAHB HMI (June) | Builder <40 (May 37) | 🟠 |
-| **Jun 16-17** | **FOMC + SEP dot-plot** | **V12 REGIME — first dots post-Waller vs ~2-in-3 Oct hike** | 🔴 |
-
 ## Jun 18–30
 | Date | Event | Test | Pri |
 |------|-------|------|-----|
-| ~Jun 19 | Existing Home Sales (May, NAR) | <4.0M RED (Mar 3.98M) | 🟠 |
 | Jun 24 | FL Wave 1 UI exhaustion cliff (~4,500) | CRL-07 / DQ +30-60d | 🔴 |
 | ~Jun 24 | New Home Sales (May, Census) | Housing demand | 🟡 |
 | **Jun 25** | **May PCE (Personal Income & Outlays)** *(verified)* | V12 monthly bridge; savings-rate (Apr 2.6%) | 🟠 |
