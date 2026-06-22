@@ -14,7 +14,7 @@
 4. **Daily Mail FL price-cuts (May 1, Tier-3) → DUP-of-substance → kill_log**; its one additive aggregate (Tampa Bay ~25% of listings price-reduced, Realtor.com) + the normalization-tell (its "crash" headline contradicted by its own quoted economists) **folded into SIG-011** (enrich-not-re-dispatch).
 5. **Late 6-image batch (msgs 2581-2586):** 3 were DUPs of the 6/21 PM set → kill_log (First Squawk liquidity = SIG-009; Staunovo + Rory Johnston Brent positioning = SIG-010 — accidental-resend, caught at BOARD-grep before any verify-spawn). **3 new → 2 dispatch + 1 fold: SIG-W-20260621-012 student-loan defaults ~9.2M-in-April (Bloomberg core; @rdd147 derived %s flagged) → CARL / RED, HENRY** (fresher print on the tracked SIG-513-002 NY-Fed channel); **SIG-W-20260621-013 builder-inventory 2× existing (9.08mo near-2008 vs 4.14mo, re:venture) → CARL / REGINALD, CORAL, RED** (national counterpart to SIG-011's FL supply-elasticity factor); the WTI **"Monday = oil-futures-expiration pin"** caveat (Bento, TA) folded into the Mon-6/22 oil-read.
 
-**Push DEFERRED** — BRENT has an untracked inbox file in the tree (SAM's workbook edits cleared mid-session); 4 PM-2 commits local.
+**PUSHED + SYNCED** — Will opened the window; clean `pull --rebase --autostash` over 5 incoming, then push swept all 4 WALTER PM-2 commits + SAM's `ad3d2c16` to origin (`12399701`, 0/0). BRENT's untracked inbox file stayed local (untouched by autostash; BRENT commits it).
 
 ## CHANGED
 
@@ -35,7 +35,7 @@ A long, clean triage-stream session — the filter job at volume. Across the nig
 
 ## GAPS
 
-- **Push DEFERRED** — BRENT untracked inbox file in tree. 4 PM-2 commits local (`0bd5ce2b` Medhurst closeout · `466385de` SIG-011 · `52b0da3d` Daily Mail fold · this SIG-012/013 dispatch). Await the next Will-coordinated push window. (Prior 6/21 PM on origin — `fa5287c0`.)
+- **PUSHED + SYNCED** — the 4 WALTER PM-2 commits (`0bd5ce2b` Medhurst closeout · `466385de` SIG-011 · `52b0da3d` Daily Mail fold · `5adf2fe9` SIG-012/013 dispatch) + SAM's `ad3d2c16` swept to origin (`12399701`, 0/0) in the Will-opened window — clean `pull --rebase --autostash` over 5 incoming, no conflicts. BRENT's untracked inbox file stays local (BRENT commits it). All 12 PM-2 handoffs now on origin (delivered, pending recipient consume).
 - **12 fresh PM-2 handoffs + 22 6/18 + 34 6/21 handoffs** await recipient consume boot-steps — recipient-side + push-gated for the unpushed sets.
 - **MEMORY.md over cap** (~145 lines) + **SESSION LOG over "last 5"** — prune/trim deferred (separate careful task). Carry-forward.
 
