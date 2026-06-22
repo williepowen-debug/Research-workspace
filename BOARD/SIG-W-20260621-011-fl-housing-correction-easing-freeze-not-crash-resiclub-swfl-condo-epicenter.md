@@ -60,8 +60,16 @@ Route as **"FL price-correction INTENSITY easing (Apr ResiClub/ZHVI SA-MoM); SWF
 - CORAL STATUS 6/19 (FL #1 foreclosure; condo −6.1% YoY; bank-leg not confirming Q1; insurance EASING — note ResiClub frames insurance as a *cause* of the correction, reconcile with your easing read at the personal-lines vs condo-master layer per SIG-008).
 - MARCO (FL migration/tourism co-owner — reconcile the migration figure).
 
+## Corroboration — Daily Mail / Realtor.com (May 1; DUP-of-substance, one additive datum) [folded in 6/21 PM-2]
+
+A second Will-supplied FL piece (Daily Mail, Sadie Whitelocks, May 1 — *"Zillow listings show just how desperate sellers are getting in Florida as real estate crash begins"*) is **DUP-of-substance with this signal** — same FL-correction / Surfside-condo-distress / normalization story, from a **Tier-3 tabloid** (anecdotal listings + unverified X screenshots; logged to kill_log, NOT separately dispatched). It carries **one genuinely-additive aggregate + one source-tell worth folding in:**
+- **Repricing-intensity gauge (different metric than the ZHVI above):** **Tampa Bay metro ~1 in 4 (≈25%) of listed properties carried a price reduction** (Realtor.com, March 2026). Share-of-listings-with-a-cut — complementary to ResiClub's price-index easing; both say "softening / repricing-to-clear," not collapse.
+- **Source-tell = independent normalization corroboration:** the piece's "crash" headline is **contradicted by the two credentialed economists it quotes** — Joel Berner (Realtor.com): demand softer-than-usual, price to comps; **Nadia Evangelou (NAR): explicitly "NORMALIZATION," not a deeper downturn, correctly-priced homes moving "5× faster" than mispriced.** Independently corroborates the freeze-not-crash / SIG-008 ~70/30-normalization read — from a source whose own framing overstates.
+- **Condo-assessment severity (illustrative, unverified):** one FL building's proposed **$30M special assessment ≈ >$100K/unit** (Pfitzenreiter; building unnamed) — color on the Surfside-reserve-law cost stack, not load-bearing.
+- **Contagion (speculative, not data):** experts float FL as a coastal bellwether for CA/NY (aging stock + climate-insurance) — flagged.
+
 ## Provenance
 
-- Intake: Will Telegram msgs 2574 (digest .md) + 2575 (source .docx, same article + charts; the .docx's only other item was a contentless "D.R. Horton fiscal Q2" PRO teaser — no separate 2nd article); route-go msg 2577.
+- Intake: Will Telegram msgs 2574 (digest .md) + 2575 (source .docx, same article + charts; the .docx's only other item was a contentless "D.R. Horton fiscal Q2" PRO teaser — no separate 2nd article); route-go msg 2577. **Corroboration piece (Daily Mail, msg 2579) folded in 6/21 PM-2 (DUP-of-substance; kill_log).**
 - Pipeline: BOARD-grep (no prior ResiClub FL-correction-easing signal; overlaps SIG-008's verdict but adds the price-momentum + freeze-not-crash + ZIP-concentration deltas) + kill_log clear → credible-outlet SKIP-VERIFY (no Phase 1.5 extreme-claim trigger; staleness + single-index caveats carried) → CORROBORATION dispatch with reconcile-ask → CORAL action per ROUTING_TABLE v0.11.
 - Triage context: sent alongside the Medhurst "Petrogas-Dollar" essay (NO-ROUTE, kill_log 6/21) as part of a Will "anything useful?" triage batch; this one cleared the bar (credible + on-domain), Medhurst did not.
