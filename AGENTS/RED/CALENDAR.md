@@ -2,7 +2,7 @@
 
 *Updated each session. Adversarial perspective: what confirms, what challenges, what kills the thesis.*
 
-**Last Updated:** 2026-06-10 (Wed **Session 17** — 8-day catch-up: RED-FT-01 + RED-FT-07 BOTH FIRED 6/4 (opposite directions — bifurcation inside the credit market); NFP shock 6/5 VIX 15.4→21.5 (VIX<16 guard VINDICATED); CPI resolved 6/10 hot-as-expected (docket had it misdated 6/12 — fixed); Iran third vol leg live; Fed pricing flipped cut→HIKE; SAM pre-BOJ challenges filed, routing deadline ~6/13 blackout)
+**Last Updated:** 2026-06-22 (Mon **Session 20** — 9-day catch-up re-anchor: BOJ hiked 1.00% as-priced 6/16 (Japan trigger DEAD, VX-RED-024 confirmed); FOMC 6/17 WARSH hawkish hold (dots +40bp, core PCE 3.3%) ABSORBED — VIX 17, HY tightened 266; Iran MOU signed 6/17 (Brent −$10 to $77), Iran re-declared Hormuz closed 6/20 (declaratory, Brent shrugged); SKEW reloaded 146.72; CCC-BB bifurcation DEMOTED to artifact; ran 6-agent adversarial sweep. NB 57→56, conf 70→69.)
 
 ---
 
@@ -10,7 +10,20 @@
 
 **The full forward catalyst list (imminent → medium-term, 28 rows) now lives in `docket/CATALYSTS.tsv`** — the queryable, row-by-row-prunable source of truth for catalyst dates/thresholds (date / window / event / bear_signal / bull_signal / red_threshold / priority / status / notes). This file (CALENDAR.md) keeps the *narrative* layer below: resolved-catalyst history, the FALSIFICATION WATCH, prediction-scoring windows, and exit backstops. Adapted from SAM's `docket/CATALYSTS.tsv` pattern (S16; see MAINTENANCE.md). **Boot:** scan CATALYSTS.tsv for `status=pending` rows in the next ~14 days; read the narrative sections here for the adversarial framing.
 
-**Top imminent (next ~7d, see TSV for full):** **Jun 11 Jun-stack T-7 backstop (TOMORROW — VIX>20 window live but only WAL $85P + TLT $85P x3 have live marks)** · Jun 12 CFTC COT (VIOLET first post-spike read) · **Jun 13 SAM re-mark + BOJ blackout = RED challenge-routing deadline** · **Jun 16 BOJ (SAM 75 / mkt 96-98; modal = NO US-paper transmission, VX-RED-024)** · **Jun 17 FOMC+SEP (DIET gate #2 + VIX>23 line + dots hike-lean — RED pre-write owed)** · **Jun 18 WAL/KRE/HYG Jun expiry cluster + HYG closure owed + SAM $58C/Takaichi-disposition scoring.** Daily: Iran tit-for-tat (kinetic now, not rhetoric — but Brent still refuses; verify primary).
+**Top imminent (next ~7d, see TSV for full):** **Jun 24 EIA WPSR — Cushing sub-20M watch (BRENT ROUTING Boundary #3, WTI dislocation → LIQUID/HENRY/RED)** · **Jun 24 FL UI Wave-1 exhaustion cliff (CARL)** · **Jun 26 CFTC COT (Jun-16 data) — post-MOU forced-liquidation read + Baker Hughes (BRENT primary)** · ~Jul 3 Geneva/Switzerland round reconvene? (HAW-12; VX-RED-025 discriminator) · Jun 30 Q2 ends — RED-08/17/18 Brent preds score + IWM/KRE Jun30 expire · Jul 1 SAVE transition ends (CARL consumer cliff). **THE binding daily watch: HY OAS <260 (266 now, 6bps away — broad-credit-channel-death falsifier).**
+
+---
+
+## RESOLVED CATALYSTS (Session 17 → 20 window: 6/11 - 6/22)
+
+| Date | Event | Outcome | RED Impact |
+|------|-------|---------|-----------|
+| **Jun 16** | **BOJ meeting** | **HIKED to 1.00%** (7-1, dovish dissent) AS-PRICED; yen WEAKER (USDJPY 161.5); no carry unwind; no MOF | **VX-RED-024 CONFIRMED — Japan parallel-trigger DEAD.** SAM-21/24 ✅; SAM-23/26 ❌ (calibration wins, CH-011 direction). War-input. |
+| **Jun 17** | **FOMC + SEP** | **WARSH (new Chair, un-modeled) HAWKISH HOLD** — dots +40bp→3.8 (≥1 hike), core PCE fcst 3.3%, easing gutted; YET VIX crushed 17, HY tightened 266, equities recovered | **HYBRID vs RED 3-branch tree** (hawkish-dots toward 76 + vol-absorbed toward 67). Substance hardened bear (Stag +1); tape absorbed it. Rescue 4→3. Calibration finding ML-RED-085. |
+| **Jun 17** | **Iran "Islamabad MOU" signed** | Trump+Pezeshkian electronic; Khamenei written 6/18. Brent −$10 to $77; curve→contango | War signing-binary → de-escalation priced. RED-08/17/18 oil-bear vindicated. But 0/4 operational reopen legs, fraying. |
+| **Jun 18** | **WAL/KRE/HYG Jun expiry cluster** | Expired. WAL $85P ~$6 ITM at WAL $79 (broker confirm owed); rest dead OTM/worthless | **RED-01 RESOLVED CORRECT** — near-dated puts died before thesis. CHG-RED-018/020 closed (020 VINDICATED). |
+| **Jun 18** | **AOCI capital-rewrite comment period closes** | Closed; lands into HIKE regime (Warsh) | SVB-mechanism CET1 clawback risk via unrealized losses (REGINALD). |
+| **Jun 20** | **Iran re-declares Hormuz closed** | Declaratory (CENTCOM disputes, ~55 ships transited); Lebanon re-heated | **Brent SHRUGGED ($77).** OVX 51.7 NOT crushed (oil-tail priced) → **VX-RED-025 WEAKENED.** D-tail fatter-but-unpriced. |
 
 ---
 
@@ -53,7 +66,11 @@
 
 ---
 
-## FALSIFICATION WATCH (active triggers — refreshed 6/10 S17 with live anchors)
+## FALSIFICATION WATCH (active triggers — refreshed 6/22 S20; **live anchors are canonical in the STATUS Falsification table** — this is the narrative twin)
+
+> **S20 binding change:** **HY OAS <260 sustained 3d** is now THE near-term falsifier — 266 live, 6bps away (WL-04 NEAR). Sustain = broad-credit transmission channel DEAD → bear lives on bank-specific (WAL/OZK Q2 ~Jul 30) + duration only. BOJ/FOMC rows below are RESOLVED (see 6/11-6/22 block above). **NEW falsifier:** SKEW <138 with VIX flat = silent coiled-spring fade (Acute −2) — the GRADUAL_FADE VIOLET's own tripwires don't catch.
+
+### (historical anchors below — refreshed 6/10 S17; superseded by STATUS for live values)
 
 | Event | Impact | When to Watch |
 |-------|--------|---------------|

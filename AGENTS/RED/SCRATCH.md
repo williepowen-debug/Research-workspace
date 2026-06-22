@@ -9,47 +9,46 @@
 ## GIT STATE (one line)
 -->
 
-**Session 19 — Sat 2026-06-13 ET.** Advisor-relay re-anchor session. Will relayed 4 packets from **Orc** (orchestration/advisor layer — cannot edit the repo; RED places everything). Boot found STATUS stale-anchored 6/10 ~3PM while the war-vol tape that drove the S17 net-bear +4 had reversed over 6/11-12. Graded Orc's re-anchor + FOMC pre-write + war-tail vector; placed VX-RED-025; wrote the FOMC framework. **S19b addendum: Orc echo-verify CLEARED (NB57 / Acute13 / BE55-45 confirmed) + corrected conf 71→70 (branch-EV = 70.06, confidence-is-a-martingale — 71 was splitting the difference). Re-weight now COMMITTED to STATUS tables + CHANGELOG; loop closed. VX-025 got the resolved-lean refinement (~55/45 bull headline, not even-odds-of-paying).**
+**Session 20 — Mon 2026-06-22 ~2:30 PM ET.** 9-day catch-up re-anchor (last anchor 6/12 close, S19). Three catalysts fired and were ABSORBED while offline; ran a 6-agent adversarial network sweep + stale-challenge closure (workflow `wf_3ea13dec-167`). **conf 70→69, NB 57→56.** Bull-steelman scored; substance hardened underneath; the bifurcation widened from both sides again.
 
-## CHANGES SINCE (S18b close 6/11 PM → S19 boot 6/13)
+## CHANGES SINCE (S19 close 6/13 → S20 boot 6/22)
 
-- **Tape reversed HARD (the whole point of the session):** VIX 21.75→**17.68** (−18.7%, war-leg deflating sub-18); Brent 93.30→**87.33** (sub-88, oil-bear extending *despite* Hormuz formally declared closed 6/11 — Brent fell anyway); banks **rallied** WAL 83.67 / KRE 73.41 / OZK 52.10 (+4-5% 5d); SPY 741.75 risk-ON. The bull-steelman strengthened, not weakened.
-- **FRED 6/11 prints (boot.py live):** HY OAS **278** (<280, FT-01 firing sustain-3-not-met, trail 278/280/278); CCC **956** (ticked IN 1bp from 957 — sticky-high, NOT widening; FT-07 + WL-05>955 both firing).
-- **Verified pulls this session:** SKEW 143.08→**142.60** flat through the VIX −20% crush (coiled-spring data-confirmed). T10YIE 2.38pk→2.29(6/11)→**2.31(6/12, +2bp bounce)**.
-- **HAWK war split into TRACKS** (per Orc relay, verify in HAWK STATUS): Iran-Israel halt holds / Iran-US escalated through it (1st US aircraft down, 49 Tomahawks, Jordan new theater, Hormuz closed). Scenarios **C-grind 42 / B-deal 32 / D-reescalation 26**. "Islamabad Agreement" text claimed 6/12 (accepted-pending, not news-verified).
+- **BOJ hiked to 1.00% (6/16)** — 7-1, dovish dissent, AS-PRICED. No carry unwind, yen WEAKER (USDJPY 161.5), no MOF. **VX-RED-024 CONFIRMED — Japan parallel-trigger DEAD.** SAM-21/24 ✅; SAM-23/26 ❌ (calibration wins, CH-011 direction).
+- **FOMC 6/17 = WARSH hawkish hold** (NEW Chair, in office since ~May 22 — un-modeled by the whole network, a blind-spot). Dots +40bp→3.8 (≥1 hike, 9/18 hike, 6 see two), core PCE fcst +60bp to 3.3%, easing language gutted, unanimous. **YET VIX crushed to 17, equities recovered, HY OAS tightened to 266** (2Y +16bp, 30Y −2 bear-flattener). Substance hardened bear; tape absorbed it.
+- **Iran "Islamabad MOU" signed 6/17** → Brent −$10 to $77, curve→contango. **6/20 Iran re-declared Hormuz closed (declaratory)** → Brent SHRUGGED ($77). 0/4 operational reopen legs; Cushing ~20M floor, SPR draining; OVX 51.7 NOT crushed.
+- **Jun-18 expiry cluster expired** — banks well above strikes (WAL 79/KRE 72/OZK 50); HYG/CF/$58C worthless; WAL $85P ~$6 ITM at WAL $79 (broker confirm owed).
+- Live tape 6/22: VIX 17.1, SPY 745, KRE 72.0, WAL 79.1, OZK 49.8, TLT 86.0, 10Y 4.51, **Brent 77.76, HY OAS 266 (FRED 6/19), CCC 947, SKEW 146.72, OVX 51.7, USDJPY 161.5, claims 226K.**
 
 ## WHAT I DID
 
-1. Full boot (MEMORY index/STATUS/SCRATCH/CATALYSTS/CHANGELOG + boot.py). **Did NOT git pull** — VIOLET has uncommitted workbook/fred_cache files in the tree; pulling would risk her work (pull protocol STOP).
-2. **Graded Orc's re-anchor packet (RED-ADV-2026-06-13-01).** Accepted the direction (it caught my own failure class). Corrected Orc's stale FRED (he carried 6/10 2.80/9.57 blocked; I had FRED 6/11 278/956 live — CCC ticked IN not widening). Resolved his two flagged-unverifiable items with live pulls: SKEW (→ hold Acute 13 not 12) + breakeven (→ hold 55/45 not 60/40, refused to stack a calming inference per CHG-RED-038 symmetry). **Graded NB 59→57** (give back 2 of 4; vs Orc's 56) — the 1-pt delta = I park the marginal point in Acute (fragile-tail-bid config) not Soft (everything-absorbs).
-3. **Answered Orc's anti-anchor test** — conceded conf 72→71 (branch-EV ~70-71). Reframed War −1 as vol-de-pricing-not-de-escalation (kinetic *escalated*).
-4. **Graded + wrote FOMC 6/17 3-branch tree** → `research/FOMC_2026-06-17_FRAMEWORK.md`. Friction integers: as-priced Acute 10 (spring spent) / conf 67; dovish given a face (Resc→17). Every branch moves conf off 71.
-5. **Placed VX-RED-025** (war-tail mispricing vector) in workbook/VX.tsv — graded Orc's draft, added **independence Guard #2 he missed** (anti-correlated w/ RED's own oil-bear via the Hormuz coin; it's a HEDGE vector, not extra bear conviction) + decomposition (B32 bull / D26 bear / C42 modal=alive-unpaid, low-hit-rate tail bet).
-6. **Workbook:** VX-RED-025 appended (12-col); ML-RED-084 appended (14-col). STATUS header banner-stamped (tables left at S17, marked superseded-pending-verify).
+1. Full boot (MEMORY/STATUS/SCRATCH/CALENDAR/CATALYSTS/CHANGELOG + boot.py + BOARD scan + FIRED_LOG + PROME). **Did NOT git pull** — SAM + BRENT have uncommitted work in-tree (pull protocol STOP).
+2. **Ran adversarial network sweep** (workflow, 13 agents): 6 agent digests (VIOLET/REGINALD/CORAL/CARL/LIQUID/HAWK) + independent skeptic on each weakest assumption + stale-challenge closure. **Counter-evidence favored the BULL on 4/6**, incl. demoting RED's own CCC-BB signal.
+3. **Verified the 2 load-bearing sweep figures live** (fetch.py): SKEW 146.72 (reloaded post-catalyst — Acute HELD 13), OVX 51.73 (oil-tail priced — VX-RED-025 weakened).
+4. **Re-anchored:** Stag 37 (+1, Warsh hardened structural leg) / Mgd 37 (+1, tape absorbed) / Acute 13 (=, SKEW reload vs CCC-BB demotion) / War 6 (−2, deal signed) / Resc 3 (−1, Warsh) / Soft 4 (+1). NB 56, conf 69. FOMC graded HYBRID vs the 3-branch tree.
+5. **Write-back:** STATUS full re-anchor; CHANGELOG 6/22 entry; PREDICTIONS (RED-01/10 RESOLVED CORRECT → 7W/9C/3A); CHALLENGES batch-dispositioned (006-021 resolved, 009/019/022 re-targeted, 027 count CORRECTED to ~0.5-1 of 4, 028 re-marked, 029-038 confirmed); CATALYSTS (7 fired rows resolved + 5 new forward); CALENDAR mirror; VX (024 CONFIRMED, 025 WEAKENED, 021/015 refreshed) + VX_HISTORY; ML-RED-085/086; MEMORY one-liners + auto-memory update (discriminating-power generalized to spreads).
 
 ## NEXT SESSION (priority-ordered)
 
-1. **✅ DONE S19b — re-weight COMMITTED.** STATUS hypothesis table = 36/36/13/8/4/3 NB57, counter-signals re-anchored to 6/12, falsification as-of, CHANGELOG 2026-06-13 entry added, conf 72→70. Orc verify cleared. Nothing left here — forward focus is FOMC 6/17 / Geneva 6/19 below.
-2. **🔴 FOMC 6/17 (T-4)** — tree is written; on the day, just read which branch fired and apply the pre-committed integers. Don't improvise.
-3. **🟠 Geneva ~6/19 war sub-tree** — own clock. Dawn-5 deadline ~6/19 = VX-RED-025 confirm/flip discriminator. Verified Hormuz reopen by ~6/26 → vector dormant.
-4. **🟠 HY OAS 280 re-cross watch (daily)** — 278 on FRED 6/11, FT-01 firing sustain-not-met; WL-03 NEAR (dist −2).
-5. **🟡 Stale ACTIVE-challenge backlog** — boot.py DUE-scan flagged ~15 rows aged 31-72d (CHG-RED-006…028) with prose-dated resolution events; several look stale-resolvable. Run a closure sweep before FOMC.
-6. **🟡 Relay to Orc:** VX-025 placed w/ Guard #2 amendment (echo line drafted in-session); plus the war-tail-mispricing vector is now the RED-original edge on disk.
-7. **🟡 REGINALD/LIQUID re-pair still owed** (stale 5/21 / 5/20); Jun-stack T-5 expiry 6/18 (WAL $85P + TLT $85P x3); HYG closure write-up.
+1. **🔴 HY OAS <260 daily watch** — 266 live, 6bps away (WL-04 NEAR). THE binding falsifier; if it sustains 3d, broad-credit channel is DEAD → bear lives on bank-specific + duration only. **Pre-write the capitulation framework before it fires.**
+2. **🔴 WAL/OZK Q2 (~Jul 30)** — only live-or-die catalyst before Sep expiries. REG-24 (Office classified >$500M) near-mechanical at 70%; loss-absorption-vs-NIM resolves here. Pre-write the beat/miss × clean/dirty tree.
+3. **🟠 Jun 24 EIA WPSR** — Cushing sub-20M → BRENT ROUTING Boundary #3 (WTI dislocation → LIQUID/HENRY/RED). **🟠 Jun 24 FL UI cliff (CARL). 🟠 Jun 26 CFTC COT** (post-MOU forced-liquidation, BRENT).
+4. **🟠 July CPI/PPI (Jul 10)** — CHG-RED-028 mechanism falsifier: core/services stagflation hold while energy decelerates (Brent $77)? **🟠 Q2 BDC marks ~Jul 25** — LIQUID's non-artifact credit signal (FSK NAV −9.9%, 11 div cuts).
+5. **🟡 Re-derive VX-RED-025** — OVX 51.7 collapsed the primary mispricing leg; Geneva ~7/3 + Cushing<20M 6/24 are the discriminators. Verify Hormuz reopen by ~6/26 → dormant.
+6. **🟡 RED-18 AT-RISK** (Brent Dec26 $80-95, resolves ~7/5, ~day 50/60) — front $77.76 + contango may breach the $80 floor; cross-read BRENT Dec strip.
 
 ## OPEN THREADS
 
-- **Echo-back contract CLOSED (S19b).** Orc cleared NB57 / Acute13 / BE55-45 (both my amendments accepted, no pushback) and corrected conf 71→70 (martingale). Re-weight committed. Note for the next push window: Orc is in a SEPARATE fresh-clone checkout at origin HEAD `f36d31f` — he CANNOT see RED's local-only commits (push deferred). He's verified everything on DATA (his own primary pulls) + ACCEPTED file artifacts ON PROSE. When a push window opens, hand Orc the word and he sweeps the 4 artifacts against live diffs.
-- **VX-RED-025 is a HEDGE vector, anti-correlated with RED's own oil-bear modal.** Do NOT count Brent-sub-88-bull AND war-tail-bear as two independent book reads — one Hormuz coin. And SKEW-coiled is SHARED with Acute-13; attribute it to whichever tail (credit/FOMC or war/Geneva) fires, don't double-cite.
-- **Bull-steelman is now the scoring scenario.** Vol crush + oil dump + bank rally = exactly the de-escalation/FOMC-no-surprise path I pre-wrote. HY OAS 278 still refuses the cascade. "Right regime, possibly wrong vehicles" — intact, and the near-term tape is on the bull side into the catalysts.
-- **Orc is an advisor, not source-of-truth.** This session he was stale on FRED and missed the oil-channel anti-correlation; both caught. The anti-anchor test was a genuinely sharp catch and earned a real concession. Treat accordingly.
+- **The bull-steelman is the scoring scenario, AND the substance hardened.** This is the cleanest bifurcation print yet: a hawkish trapped Warsh Fed (core PCE fcst 3.3%, +40bp dots, no easing) met by VIX 17 + HY 266 + bank rally. "Right regime, wrong vehicles/timing" — intact. The binding number is HY 266 → 260.
+- **SKEW-reload (146.72) is the one bear-supportive survivor of the sweep — hold the mechanism LOOSELY** (borrowed from VIOLET; GEX-explanation-died lesson). New falsifier registered: SKEW <138 w/ VIX flat = silent coiled-spring fade (Acute −2) — the GRADUAL_FADE VIOLET's own tripwires don't catch.
+- **CCC-BB bifurcation is now a curve artifact, not a bear signal** (LIQUID sweep; failed its Mar IG-contagion out-of-sample test). Acute leans on the vol-tail (SKEW), NOT the credit-tail, going forward. The genuinely durable private-credit signal is the **Q2 BDC marks (~Jul 25)**, not the public CCC-BB spread.
+- **CORAL FL is NOT an independent transmission channel** — shared-antecedent with WAL/OZK CRE (collapses to 1 root); the ~12mo lag is an un-calibrated national-SFR analog. De-anchor the date, widen to 2027-28; USCB Q2 is the only orthogonal datum.
+- **Warsh-Chair blind-spot** (network-wide, ~4wk un-modeled) is logged in auto-memory [[finding_boot_sweep_macro_regime_context]] — boot should carry a regime-actor line.
 
 ## PENDING WILL-DECISIONS
 
-- **Commit the re-weight** once Orc's verify lands (or Will overrides the contract — he has the authority over Orc's protocol).
-- Jun-stack T-5 (6/18 expiry): WAL $85P A1/A2, TLT $85P x3 hold-thru-FOMC, dust sweep, HYG closure (menu in `research/POSITION_RECONCILE_2026-06-10.md`).
-- v1.6 RED-pass request from SAM (post-Jun-16-18).
+- **Broker outcomes on the Jun-18 expiry** (WAL $85P ~$6 ITM; TLT $85P x3 OTM; HYG x8 dead) — exercised/sold/expired? Position-state otherwise stale.
+- No live RED trade proposal this session (book is structural Aug-Dec core + flat near-dated). v1.6 RED-pass request from SAM still pending (post Jun-16-18 scoring).
 
 ## GIT STATE
 
-Did NOT pull (VIOLET dirty tree). S19 commit `d80432c3` (VX-025, ML-084, FOMC framework, STATUS header, SCRATCH). S19b commit (this one): full STATUS table re-weight + CHANGELOG entry + conf 71→70 corrections + VX-025/ML-084 refinements. Both **LOCAL ONLY** — push deferred for Will-coordinated window (RED never pushes solo; tree dirty with other agents' work). Orc cannot see these until pushed.
+Did NOT pull (SAM + BRENT dirty tree). S20 commit (this one): STATUS re-anchor + CHANGELOG + PREDICTIONS (01/10) + CHALLENGES batch + CATALYSTS + CALENDAR + VX/VX_HISTORY + ML-085/086 + MEMORY + SCRATCH. **LOCAL ONLY — push deferred for a Will-coordinated window** (RED never pushes solo; tree dirty with other agents' work). Auto-memory `finding_sustain_count_role_discriminating_power` updated (symlinked into repo via memory/auto/ — will sweep in the same window).

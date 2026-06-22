@@ -4,6 +4,32 @@
 
 ---
 
+## 2026-06-22 — Two Hawkish Catalysts Absorbed: Warsh FOMC + BOJ Hike + Iran MOU Signed; Bull-Steelman Scored While Substance Hardened; War De-Priced, Stagflation Substance +1 (Session 20, 9-day catch-up + adversarial network sweep)
+
+**Confidence:** 70% → **69%** (−1). **Net bear:** 57% → **56%** (−1).
+
+**What happened:** 9-day gap; three catalysts fired and were ABSORBED. (1) **BOJ hiked to 1.00% 6/16** (7-1, dovish dissent) AS-PRICED — no carry unwind, yen *weaker* (USDJPY 161.5), no MOF → **VX-RED-024 CONFIRMED, Japan parallel-trigger DEAD.** (2) **FOMC 6/17 = HAWKISH HOLD under NEW Chair WARSH** (in office since May 22 — un-modeled by the entire network, a genuine blind-spot): dots +40bp→3.8 (≥1 hike), core PCE fcst 3.3%, easing language gutted — **yet VIX crushed to 17, equities recovered, HY OAS tightened to 266.** (3) **Iran "Islamabad MOU" signed 6/17** → Brent −$10 to $77; Iran re-declared Hormuz closed 6/20 (declaratory) → Brent shrugged. **My pre-written bull-steelman (de-escalation + FOMC-no-surprise → VIX→16-17, Jun stack dies) SCORED almost completely.**
+
+**FOMC graded against the 3-branch tree → HYBRID, fits NEITHER branch.** Hawkish dots (toward HAWKISH-HOLD/NB64/conf76) + vol-absorbed/credit-tightening/equities-recovered (toward AS-PRICED/NB52/conf67). The tree conflated the *substance* dimension (dot-plot) with the *reaction* dimension (vol-snap/VIX>23) — reality split them. The 76 integer was conditioned on the Acute-snap firing; it did NOT (VIX crushed, no >23 close-hold). Calibration finding (CHG-RED-022 re-target, ML-RED-085): a cleaner tree is 2-dimensional (substance × reaction); and a regime-actor change (new Chair) needs its own branch.
+
+**Re-balance (sweep-grounded — ran a 6-agent adversarial network sweep + challenge-closure, wf_3ea13dec-167):**
+- Stagflation 36 → **37** (+1) — Warsh hardened the *structural* leg (core PCE fcst 3.3%, +40bp dots, no easing; CARL sweep: V12 stagflation-trap arguably UNDER-scored). Composition shift: now **core/services-led, NOT oil-headline** — Brent $77 + pump $3.99 deflate the forward energy channel (July CPI energy decelerates).
+- Managed 36 → **37** (+1) — tape absorbed BOJ+Warsh+Iran over 9 days; sweep verifiers tilt "bear mechanisms intact but suppressed/lagging/non-discriminating" (REGINALD: loss-absorption defanged by NIM tailwind, ~65/35 bull; LIQUID: CCC-BB a curve artifact). **Co-modal with Stag.**
+- Acute 13 → **13** (=) — **held NOT cut.** I attacked VIOLET's coiled-spring ("war-premium residue, should deflate post-MOU"); live ^SKEW **146.72** (verified fetch.py) — a June HIGH, reloaded *through* BOJ/FOMC/MOU/Brent-collapse. The deep-tail bid intensified after both credit-FOMC and war tails resolved benign. BUT the CCC-BB credit-tail leg DEMOTED (LIQUID: ~781 at acute-stress Mar AND ~789 risk-on now = non-discriminating; failed its Mar IG-contagion out-of-sample test). **Composition shifted credit-tail → vol-tail.**
+- War 8 → **6** (−2) — MOU signed (signing-binary→de-escalation, Brent −$10); HAW-11 expired (no Gulf infra hit). Offset: Jun-20 declaratory re-closure + Lebanon + PGSA-OFAC new gate + right-truncated training set (HAWK sweep: my "flat/non-positioned tape" trade-claim refuted — OVX 51.73 NOT crushed, war-risk insurance >1000%; only equity-VIX complacent → **VX-RED-025 WEAKENED**).
+- Rescue 4 → **3** (−1) — WARSH (new hawkish Chair, gutted easing) kills the dovish-pivot path; residual = forced-backstop-on-credit-event only.
+- Soft 3 → **4** (+1) — clean 9-day absorption earns a bump; capped (Warsh *forecasting rising inflation* = anti-soft-landing).
+
+**The decomposition (why −1/−1, not more):** direction REINFORCED by substance (Warsh trapped-Fed, SKEW reload, V12 under-scored), timing/transmission ERODED (HY OAS→266 toward <260 capitulation, 6bps away; CCC-BB demoted; broad credit refused through two hawkish catalysts + a war re-escalation). The only clean bull-break was the war/oil leg (deal signed) → NB only −1. The S17 war-vol +4 (55→59) is now almost fully given back (→56), *replaced* by hardened stagflation substance. **The bifurcation widened from both sides again — this is the regime, not a lag.**
+
+**Predictions resolved:** RED-01 ✅ CORRECT (June stack died before thesis — Jun-18 expired, banks well above strikes, VIX 17 — the timing-mismatch call); RED-10 ✅ CORRECT (HY OAS <400 by June — 266, 134bps below). **Tally → 7W / 9C / 3A.**
+
+**Sweep meta-lesson (the job):** I attacked five agents' weakest assumptions; the counter-evidence favored the BULL on four (VIOLET SKEW-reload refuted my deflation attack but *for* the tail; REGINALD loss-absorption ~65/35 bull; LIQUID CCC-BB ~65/35 bull; CARL energy-pipeline deflated) — including **demoting one of my own standing bear signals (CCC-BB) to a curve artifact.** CORAL (FL = shared-antecedent, NOT independent channel; lag un-calibrated) and HAWK (decoupling right-truncated) net-bear-but-suppressed. The adversarial pass cut bear-confirming weight where it was weakest — that's the mechanism working.
+
+**Artifacts:** STATUS full re-anchor; ML-RED-085/086; VX-RED-024 CONFIRMED, VX-RED-025 weakened, CCC-tail demoted; SKEW<138 fade falsifier added (NEW); CHG-RED-006…021 batch-resolved, 009/019/022/027/028 re-targeted, 029…038 confirmed RESOLVED-CONVERGED. Substance gates **WAL/OZK Q2 ~Jul 30 + July CPI/PPI Jul 10 + Q2 BDC marks ~Jul 25.**
+
+---
+
 ## 2026-06-13 — War-Vol Tape Reversal: S17 +4 Net-Bear Partially Given Back; Stag/Managed Re-Converge Co-Modal; Anti-Anchor Concession 72→70 (Session 19, advisor-relay re-anchor with Orc)
 
 **Confidence:** 72% → **70%** (−2). **Net bear:** 59% → **57%** (−2).
