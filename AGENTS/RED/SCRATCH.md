@@ -42,6 +42,7 @@
 4. **🟠 July CPI/PPI (Jul 10)** — CHG-RED-028 mechanism falsifier: core/services stagflation hold while energy decelerates (Brent $77)? **🟠 Q2 BDC marks ~Jul 25** — LIQUID's non-artifact credit signal (FSK NAV −9.9%, 11 div cuts).
 5. **🟡 Re-derive VX-RED-025** — OVX 51.7 collapsed the primary mispricing leg; Geneva ~7/3 + Cushing<20M 6/24 are the discriminators. Verify Hormuz reopen by ~6/26 → dormant.
 6. **🟡 RED-18 AT-RISK** (Brent Dec26 $80-95, resolves ~7/5, ~day 50/60) — front $77.76 + contango may breach the $80 floor; cross-read BRENT Dec strip.
+7. **🟡 SAM v1.6 convexity-tail (cross-agent monitor, post-dialogue)** — Japan directional trigger DEAD; residual = bounded MEDIUM convexity-tail (break-even EV). Tripwires: **Sep-18-2026** eligibility-window expiry (CATALYSTS); **USDJPY<155 sustained = tail firing / yen-haven re-couple (WL-12)**; CFTC build>−153K/85% (reclaim MED-HIGH) or cover<−108K (retire LOW) per VX-RED-026 Flip_If. RED finalize tilt = TRIM (≤0-EV hold).
 
 ## OPEN THREADS
 
@@ -50,12 +51,14 @@
 - **CCC-BB bifurcation is now a curve artifact, not a bear signal** (LIQUID sweep; failed its Mar IG-contagion out-of-sample test). Acute leans on the vol-tail (SKEW), NOT the credit-tail, going forward. The genuinely durable private-credit signal is the **Q2 BDC marks (~Jul 25)**, not the public CCC-BB spread.
 - **CORAL FL is NOT an independent transmission channel** — shared-antecedent with WAL/OZK CRE (collapses to 1 root); the ~12mo lag is an un-calibrated national-SFR analog. De-anchor the date, widen to 2027-28; USCB Q2 is the only orthogonal datum.
 - **Warsh-Chair blind-spot** (network-wide, ~4wk un-modeled) is logged in auto-memory [[finding_boot_sweep_macro_regime_context]] — boot should carry a regime-actor line.
+- **Japan directional trigger DEAD; SAM v1.6 = bounded convexity-tail at MEDIUM** (break-even EV, RED⇄SAM dialogue 6/22). Pillar 1 inverted post-Warsh; the bet survives only as a *non-directional* tail that retires Sep-18 absent a trigger. Reanimates on CFTC>85% or yen-haven re-couple. RED tilt = trim. Standing view = VX-RED-026.
 
 ## PENDING WILL-DECISIONS
 
 - ✅ **RESOLVED (Will 6/22):** Jun-18 strike stack is dead/sold (maybe 1-2 rolled) — GONE for all intents. Rolls (if any) live in REGINALD's Jul-17 $65P / Sep $67.5P/$70P WAL legs. No live near-dated RED book remains; structural Aug-Dec core only.
-- No live RED trade proposal this session (book is structural Aug-Dec core + flat near-dated). v1.6 RED-pass request from SAM still pending (post Jun-16-18 scoring).
+- No live RED trade proposal this session (book is structural Aug-Dec core + flat near-dated).
+- ✅ **SAM v1.6 RED-pass DONE (S20b):** dialogue CONVERGED 6/6. **Open Will-decision (SAM-side, downstream):** v1.6 finalize sizing = **(a) hold-with-tighter-stop or (d) trim** the 13 FXY shares — RED's analytical tilt is **trim** (net 60d EV break-even-to-negative); SAM holds no position change until your call. Vehicle change (b)/(c) is OFF the table unless FXY-vol prints cheap.
 
 ## GIT STATE
 
-**S20 work is PUSHED** — origin/master already carries RED's S20 re-anchor + push-window-prep commits (a Will window opened post-close and swept them along with WALTER's PM closeout; confirmed `git status -sb` clean vs origin for RED files). **S20b (this re-boot):** did NOT pull — **SAM has uncommitted `AGENTS/SAM/workbook/CFTC_JPY.tsv`** in-tree (pull-protocol STOP) + `git fetch` found nothing new on origin anyway. New S20b LOCAL commit: KB-RED-046/047 + ML-RED-088 + STATUS priorities #4/#7 + SCRATCH addendum. **LOCAL ONLY — push deferred to the next Will-coordinated window** (RED never pushes solo; SAM tree dirty). One untracked BRENT inbox file (`2026-06-18_from-HAWK...`) is not RED's to touch.
+**S20 work is on origin** (pushed in a post-close Will window). **S20b (this session) = 4 LOCAL RED-only commits, push deferred** — did NOT pull (SAM tree dirty: `AGENTS/SAM/` has uncommitted STATUS/CALENDAR/CFTC_JPY + the dialogue file he's mid-folding → pull-protocol STOP; `git fetch` found nothing new on origin): (1) `be6d1b94` 2 new signals (KB-046/047, ML-088, STATUS #4/#7); (2) `248e7b73` SAM dialogue converged (KB-048, ML-089, CHG-039, CATALYSTS Sep-18, SCRATCH); (3) `0dc7bf91` RED-view-on-SAM (VX-026, VX_HISTORY, WL-12, STATUS USD/JPY, MEMORY); (4) closeout (STATUS+CALENDAR headers, SCRATCH handoff). **Ahead 4 — push at next Will window.** Did NOT commit the dialogue file (SAM's dir — he folds it). One untracked BRENT inbox file (`2026-06-18_from-HAWK...`) not RED's to touch.

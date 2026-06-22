@@ -2,7 +2,7 @@
 
 *Updated each session. Adversarial perspective: what confirms, what challenges, what kills the thesis.*
 
-**Last Updated:** 2026-06-22 (Mon **Session 20** — 9-day catch-up re-anchor: BOJ hiked 1.00% as-priced 6/16 (Japan trigger DEAD, VX-RED-024 confirmed); FOMC 6/17 WARSH hawkish hold (dots +40bp, core PCE 3.3%) ABSORBED — VIX 17, HY tightened 266; Iran MOU signed 6/17 (Brent −$10 to $77), Iran re-declared Hormuz closed 6/20 (declaratory, Brent shrugged); SKEW reloaded 146.72; CCC-BB bifurcation DEMOTED to artifact; ran 6-agent adversarial sweep. NB 57→56, conf 70→69.)
+**Last Updated:** 2026-06-22 (Mon **Session 20** — 9-day catch-up re-anchor: BOJ hiked 1.00% as-priced 6/16 (Japan trigger DEAD, VX-RED-024 confirmed); FOMC 6/17 WARSH hawkish hold (dots +40bp, core PCE 3.3%) ABSORBED — VIX 17, HY tightened 266; Iran MOU signed 6/17 (Brent −$10 to $77), Iran re-declared Hormuz closed 6/20 (declaratory, Brent shrugged); SKEW reloaded 146.72; CCC-BB bifurcation DEMOTED to artifact; ran 6-agent adversarial sweep. NB 57→56, conf 70→69. **S20b intra-day (~5:30 PM):** +2 BOARD signals (FL-timing / Bain CLO); SAM v1.6 dialogue CONVERGED → added **2026-09-18 convexity-tail eligibility-window expiry** to `docket/CATALYSTS.tsv` (cross-agent falsification date). No RED-weight change.)
 
 ---
 
