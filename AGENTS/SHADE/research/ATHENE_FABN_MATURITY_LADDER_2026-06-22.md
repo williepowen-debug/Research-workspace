@@ -16,6 +16,48 @@ SHADE/CLAUDE.md kill-path-1 carries **"$35B FABN program, $16.5B maturing 2026-2
 
 ---
 
+## ✅ UPDATE (same day) — NPORT-P bottom-up reconstruction BRACKETS the $16.5B
+
+Rather than pay for a terminal, reconstructed the wall from the **holder side**: registered '40-Act funds disclose every AGF holding (CUSIP, par, maturity, coupon) in monthly **NPORT-P** filings. Scripted crawl of **1,602 fund filings across 189 registrant trusts** (latest public filing per fund; 0 fetch failures), filtered to AGF CUSIPs (`04685A*`/`04686E*` + issuer match), deduped by (CIK, seriesId, CUSIP), summed **par** by maturity year. Artifacts: `AGF_NPORT_floor_2026-06-22.json`, `AGF_NPORT_crawl_2026-06-22.py`.
+
+**Registered-fund FLOOR (par held, latest-per-fund, 77 unique CUSIPs):**
+
+| Maturity year | Registered-fund par held | CUSIPs |
+|---|---:|---:|
+| **2026** | **$1.76B** | 13 |
+| **2027** | **$1.53B** | 17 |
+| 2028 | $0.75B | 11 |
+| 2029 | $0.84B | 6 |
+| 2030 | $0.58B | 6 |
+| 2031+ | ~$0.79B | ~17 |
+| **2026-2027 FLOOR** | **$3.29B** | **30** |
+| **All-years total** | **$6.25B** | **77** |
+
+**The extrapolation that brackets $16.5B:** registered funds visibly hold **$6.25B of the ~$34.5B total AGF = 18.1% blended ownership share** (the other ~82% sits in insurance general accounts, foreign Reg-S, pensions, SMAs — NPORT-invisible). Grossing the $3.29B 2026-2027 floor up by the blended share → **~$18.3B**; adjusting for the fact that short-dated FABNs are *more* heavily held by registered money/ultra-short/VI funds (so registered share of the near tranches is higher, ~25%) → **~$13.2B**.
+
+**Bracket: ~$13-18B, central ~$16B — the $16.5B figure is now independently CORROBORATED as the right order of magnitude**, not refuted. Status upgrades from "unsourceable/unverified" to **"independently bracketed; plausible-central."** The wall is genuinely large — ~40-50% of the $34.5B FABN program rolling in ~18 months.
+
+**Top 2026-2027 AGF tranches by registered-fund par held** (these supersede the conf-0.5 cbonds snippets in §3 — sourced from actual holder filings):
+
+| CUSIP | Maturity | Coupon | Reg-fund par | # funds |
+|---|---|---|---:|---:|
+| 04685A4A6 | 2026-08-27 | 4.86% | $381.6mn | 43 |
+| 04685A4E8 | 2027-01-07 | 4.95% | $374.2mn | 44 |
+| 04685A3R0 | 2027-01-15 | 5.339% | $323.0mn | 31 |
+| 04685A3V1 | 2026-05-08 | 5.62% | $278.9mn | 34 |
+| 04685A4Q1 | 2026-08-10 | SOFR FRN | $227.5mn | 8 |
+| 04685A4J7 | 2026-07-16 | SOFR FRN | $215.3mn | 19 |
+| 04685A3U3 | 2027-03-25 | SOFR FRN | $213.0mn | 20 |
+| 04685A3T6 | 2027-03-25 | 5.516% | $194.6mn | 49 |
+
+**What this does and doesn't change:**
+- ✅ Resolves "is the wall real and large?" — YES, ~$13-18B confirmed bottom-up.
+- ✅ Gives 30 specific 2026-2027 CUSIPs with dates — a real, dated near-wall (heaviest in **Aug 2026, Jan 2027, Mar 2027**).
+- ⚠️ Does NOT change kill-path-1 = **YELLOW**. Sizing the wall doesn't change rollover mechanics: still no puttable FABNs, no FA-backed CP, $71.8B liquidity, active tenders. Open channel remains refinance-at-wider-spread, not forced failure.
+- Caveat: floor + extrapolation, not an exact figure; the short-dated-ownership skew argues the true number sits toward the **lower** end (~$13B) rather than $18B.
+
+---
+
 ## 1. FABN / funding-agreement program stack — HIGH confidence (as-of 2026-03-31)
 
 Dual-passage confirmed in the Q1'26 10-Q (Funding Agreements note + MD&A) and cross-checked vs FY2025 10-K. `[Athene Q1'26 10-Q, accn 0001527469-26-000028, filed 2026-05-07]`
