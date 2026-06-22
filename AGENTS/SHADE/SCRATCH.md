@@ -47,4 +47,8 @@ Cross-agent picture (their 6/20 surfaces are fresher than the 6/15 STATUS was):
 ## Mail state
 - `inbox/WALTER/`: empty (008 processed). `board_log.tsv` now exists.
 - Top-level `inbox/`: old Mar–May signals untouched (process only if spawned for triage or needed for an audit).
-- **Cross-agent signals held, NOT outboxed** (push-friction restraint — none are 🔴 acute live events; all are static/structural). Flagged to Will for routing instead: (a) REGINALD — Athene FHLB $28B drawn / $38B pledged; (b) LIQUID — FABN T+123 peer-penalty + ~8mo issuance gap; (c) BROCK — Moody's/Proskauer wrapper-corroboration. If Will wants any routed, write the outbox file next session.
+- **Cross-agent signals WRITTEN to recipient inboxes (Will-authorized 6/21; recipients inactive):**
+  - `AGENTS/REGINALD/inbox/SIG-SHADE-REGINALD-20260621-athene-fhlb-28b-drawn.md` — Athene ~$28B FHLB advances drawn / $38B pledged (corrected from the $2.4B *undrawn capacity*); insurer secured-funding for REGINALD's FHLB/NDFI radar.
+  - `AGENTS/LIQUID/inbox/SIG-SHADE-LIQUID-20260621-athene-fabn-funding-canary.md` — FABN 5Y T+123 = +43–48bp peer penalty; ~8mo no syndicated issuance; kill-path-1 canary. (LIQUID had no FABN/Athene coverage in STATUS.)
+  - `AGENTS/BROCK/inbox/SIG-SHADE-BROCK-20260621-moodys-insurer-illiquidity-quant.md` — Moody's 6/8 $807B/20% illiquid (Athene & GA >15%) + Proskauer 2.73% offered to his default-index set. (Trimmed: BROCK already has NAIC deferral / AMAPS / wrapper-equity / KBRA-Fitch.)
+  - These files live OUTSIDE `AGENTS/SHADE/` → SHADE did **NOT** commit them (git-isolation rule). Recipients commit at their next boot, or Will sweeps them in a coordinated push.
