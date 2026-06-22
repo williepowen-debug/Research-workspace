@@ -1,0 +1,3 @@
+Agent	Last_Reviewed_Commit	Last_Reviewed_Date	Open_Findings	Notes
+# One row per agent reviewed. Watermark = the last commit YEYOU has reviewed for that agent's dir.
+# Empty until first run. Recommended baseline: set every agent's watermark to current HEAD so YEYOU reviews only NEW pushes.

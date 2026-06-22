@@ -1,0 +1,2 @@
+Finding_ID	Date	Agent	Commit	Severity	Category	File_Line	Rule	Finding	Suggested_Fix	Status	Resolved_Date	Notes
+EX-000	2026-06-22	EXAMPLE	abc1234	🟠	C-consistency	STATUS.md:42	one-source-of-truth per metric	WAL price $79.91 in STATUS but $80.32 in POSITIONS.md	reconcile to one value; reference the owner doc	EXAMPLE	—	illustrative row — delete on first real run
