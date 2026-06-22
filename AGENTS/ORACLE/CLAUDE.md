@@ -15,20 +15,34 @@ You are part of a multi-agent research network tracking systemic financial risk.
 
 ## SPAWN PROTOCOL
 
-When spawned with a task:
+**Boot and closeout are ONE symmetric sequence: what you READ at boot, you WRITE BACK at closeout.** Nothing silently goes stale. (Pattern: auto-memory `finding_closeout_as_writeback_tail`; mirrors VIOLET/BRENT.)
 
-1. **Check `inbox/`** — process any pending signals. Move processed to `inbox/processed/`.
-2. **Read `STATUS.md`** — your current state, tracked markets, active alerts
-3. **Before writing to KB.tsv, read `workbook/SCHEMA.tsv`** — validate all enum fields
-3b. **Read `AGENTS/VOCABULARIES.tsv`** — use standard terms where available
-3c. **For prediction-market dislocation/anomaly work, read `PREDICTION_MARKET_METRICS.md`** — KL bits, entropy, liquidity/resolution filters, and TERRY handoff packet.
-4. **Execute the task**
-5. **Write results back to your files** — update `STATUS.md`, log to KB.tsv
-6. **If findings are relevant to another agent's domain, write to `outbox/`**
-7. **If probabilities shift significantly, update STATUS.md before finishing**
+### BOOT (read phase)
 
-⚠️ **Critical:** Always WRITE to STATUS.md. If it's not in the file, it doesn't persist.
-⚠️ **File > verbal.** Write findings to named files, don't rely on response reaching caller.
+1. **Sync git** — follow the root CLAUDE.md "Before pulling" protocol.
+2. **Check `inbox/`** (+ `inbox/WALTER/`) — process pending signals; `git mv` processed → `inbox/processed/`.
+3. **Read `SCRATCH.md`** — the canonical "where are we" handoff (NEXT SESSION queue, carry-forward, push state).
+4. **Read `STATUS.md`** — live dashboard, tracked markets, active alerts.
+5. **Before writing `KB.tsv`, read `workbook/SCHEMA.tsv`** (validate enums) + **`AGENTS/VOCABULARIES.tsv`** (standard terms).
+6. **For dislocation/anomaly work, read `PREDICTION_MARKET_METRICS.md`** — KL bits, entropy, liquidity/resolution filters, TERRY handoff.
+
+### EXECUTE
+
+7. **Run the task.** Pull live (`polymarket.py pull --log`) — never cite STATUS as the live price. **Stay open mid-event:** if a watched market is actively resolving / mid-repricing, snapshot STATUS and stay engaged — do NOT trigger full closeout mid-window (memory `boot_protocol_live_event_override`, `intra_day_closeout_discipline`).
+
+### CLOSEOUT (write-back — run at EVERY session end, even intra-day)
+
+Mirror of boot — write back what you read:
+
+8. **`STATUS.md`** — rewrite the live dashboard (alerts to top, <250 lines). *[mirror of boot 4]*
+9. **Workbook** — log derived claims/divergences to `KB.tsv` (validate vs `SCHEMA.tsv`/`VOCABULARIES.tsv`); `pull --log` already appends `ODDS_LOG.tsv`; refresh `history --write` if trajectory moved; log threshold state-changes to `VX.tsv`. **Mark superseded rows STALE — don't delete.** *[mirror of boot 5]*
+10. **`SCRATCH.md`** — full rewrite (canonical handoff): CHANGES SINCE / WHAT I DID (w/ commit hashes) / NEXT SESSION (dated, priority-flagged) / CARRY-FORWARD (incl. **Push state:** unpushed hashes) / OPEN HYPOTHESES. *[mirror of boot 3]*
+11. **`NEXUS_BRIEF.md`** — **MANDATORY every session, even no-change** (floor: bump `As of:` stamp + `STATUS commit:` hash so staleness self-corrects). The cross-agent surface NEXUS/peers read; required cross-agent-tensions line ("None active" if empty). No marks/P&L.
+12. **Roll-watch / forward docket** — near-dated resolutions (⏳/⛔ from `pull`) → re-search + re-pin in `watchlist.tsv`; carry the roll-watch in STATUS flags + NEXUS_BRIEF FORWARD CATALYSTS. *(ORACLE's analog of a predictions-due scan.)*
+13. **Promotion scan** — transferable cross-agent lesson → auto-memory (+ one-line `MEMORY.md` index, then REMOVE from local to avoid drift); ORACLE-specific durable learning → `MEMORY.md`; structural change (doc/script/protocol) → `MAINTENANCE.md` entry (Trigger / What / Files / Boot-impact).
+14. **Git** — pathspec commit, commit-locally-by-default, **defer push** to a Will-opened window; note any pending push in SCRATCH. (Root CLAUDE.md git protocol; never `git reset HEAD`, never `git add` the directory.)
+
+**Discipline overlay (applies throughout closeout):** every number carries platform/market/date/volume — **no naked numbers**; a market price is an *expectation* → anchor predictions to surprise-vs-pricing (memory `anchor_prediction_to_surprise_not_priced`); thin (<$5K liq) = ≥3-day re-check, never mark on one print; `[STALE]`-mark **>** carry-forward-as-current. **File > verbal — if it's not in the file, it didn't happen.**
 
 ---
 
