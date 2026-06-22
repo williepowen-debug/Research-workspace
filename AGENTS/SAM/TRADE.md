@@ -1,6 +1,6 @@
 # SAM — Trade Ideas
 
-**Last Updated:** 2026-06-22 Mon (**v1.6 FINALIZED** — position + stop money-fields trued-up; v1.5.1 thesis prose below is STALE pending a METSUKE drift sweep before commit). **🆕 POSITION: trim 7 of 13 → 6 sh remaining (Will-approved 2026-06-22; EXECUTES Tue Jun 23, market closed Mon PM) + stop tightened FXY ≤ $55.05 → $55.50 / USDJPY ≥162.5. Jun-18 $58C expired worthless. v1.6 re-frames the shares as carry-CONVEXITY-TAIL exposure at MEDIUM/break-even (analytically a trim signal) — full thesis `thesis/THESIS.md` v1.6; vehicle-change OFF (RED #4 gate).** | *Prior 2026-06-19 Fri (METSUKE Run-6 drift cleanup* + KURA Run-6 KB curation post post-BOJ/FOMC/Iran-deal triple cluster; money fields untouched per discipline): Carry-Unwind narrative CFTC refresh to −145,818 / 81% of cycle peak / 6th build week (Jun 9 data Sat Jun 12 release; pre-catalyst peak), next CFTC = **Sat Jun 20 (post-catalyst, v1.6 EV-gate decision-grade)**; Independent Fed Path section reframed to Fed-HIKE regime under Warsh (debut Jun 17 +40bp 2026 median dot); Channel-1-reactivates Risk Factor row flagged Norinchukin gate RESOLVED AGAINST Jun 10 + retire-vs-defer queued for v1.6. Position frozen: 13 shares @ $58.32 avg cost + 1 Jun-18 $58C @ $40 (EXPIRED worthless Jun 18); stop re-armed Step 1.5 2026-06-18 to single-leg FXY ≤ $55.05. | 2026-06-14 Sun PM prior (Brent + Ueda + 6-input re-mark integration; SAM-21 75 → ~90 CH-009; SAM-23 72 → ~30 CH-011; CFTC −129,567 → −145,818; Brent $93.25 → $87.33; buckets 14/37/49 → ~8/23/32). | 2026-06-10 evening prior (CH-032/CH-011 drift flags; SAM-23 → ~35 pending Sat Jun 13) | 2026-06-09 PM prior (Brent settle correction) | 2026-06-04 prior (Sato Jun-30) | 2026-06-03 prior (stop-spec) | 2026-06-01 prior (Iran MOU break, Channel 3 reactivated) | 2026-05-27 prior (v1.5 sync).
+**Last Updated:** 2026-06-22 Mon (**v1.6 FINALIZED** — position + stop money-fields trued-up; v1.6 stale-prose sweep DONE 2026-06-22 evening — active v1.5 framing reconciled to v1.6 (Asymmetric Setup / Fed-path / Catalyst-Sequence / TLT-watch / Hard-Trigger Fed+SAM-26 rows); the fenced Options-Layer historical bodies remain archive-compression candidates). **🆕 POSITION: trim 7 of 13 → 6 sh remaining (Will-approved 2026-06-22; EXECUTES Tue Jun 23, market closed Mon PM) + stop tightened FXY ≤ $55.05 → $55.50 / USDJPY ≥162.5. Jun-18 $58C expired worthless. v1.6 re-frames the shares as carry-CONVEXITY-TAIL exposure at MEDIUM/break-even (analytically a trim signal) — full thesis `thesis/THESIS.md` v1.6; vehicle-change OFF (RED #4 gate).** | *Prior 2026-06-19 Fri (METSUKE Run-6 drift cleanup* + KURA Run-6 KB curation post post-BOJ/FOMC/Iran-deal triple cluster; money fields untouched per discipline): Carry-Unwind narrative CFTC refresh to −145,818 / 81% of cycle peak / 6th build week (Jun 9 data Sat Jun 12 release; pre-catalyst peak), next CFTC = **Sat Jun 20 (post-catalyst, v1.6 EV-gate decision-grade)**; Independent Fed Path section reframed to Fed-HIKE regime under Warsh (debut Jun 17 +40bp 2026 median dot); Channel-1-reactivates Risk Factor row flagged Norinchukin gate RESOLVED AGAINST Jun 10 + retire-vs-defer queued for v1.6. Position frozen: 13 shares @ $58.32 avg cost + 1 Jun-18 $58C @ $40 (EXPIRED worthless Jun 18); stop re-armed Step 1.5 2026-06-18 to single-leg FXY ≤ $55.05. | 2026-06-14 Sun PM prior (Brent + Ueda + 6-input re-mark integration; SAM-21 75 → ~90 CH-009; SAM-23 72 → ~30 CH-011; CFTC −129,567 → −145,818; Brent $93.25 → $87.33; buckets 14/37/49 → ~8/23/32). | 2026-06-10 evening prior (CH-032/CH-011 drift flags; SAM-23 → ~35 pending Sat Jun 13) | 2026-06-09 PM prior (Brent settle correction) | 2026-06-04 prior (Sato Jun-30) | 2026-06-03 prior (stop-spec) | 2026-06-01 prior (Iran MOU break, Channel 3 reactivated) | 2026-05-27 prior (v1.5 sync).
 **Domain:** Japan Macro, Yen, JGBs, Carry Trade, BOJ Policy
 
 *Live prices, probabilities, threshold status, and dashboard live in `STATUS.md`. This doc owns position details + decision card — point to STATUS for live data.*
@@ -47,8 +47,8 @@
 | **MOF intervenes at 160** | ✅ FIRED twice (~¥10T / $63.5B Apr 30 + May 6); **#3 zone live but SAM-23 RE-DERIVED 72% → ~30% Sun Jun 14 per CH-011** (disorder-not-level falsified empirically: 6+ orderly sessions at 160+ no strike; Fri ranges 0.16-0.40y). Pre-meeting blackout active. $11 STEO-gap upper-bound caveat: market overpricing reopening direction per HAWK B-Reopen 32%. |
 | USDJPY sub-155 for 3+ sessions WITH oil normalizing | Not yet met (still 160+ 6+ sessions); diplomacy-track + USD-side drivers haven't pulled USDJPY toward 155 even with Brent sub-$90 ($87.33 Sun). 3-session sub-155 test still gated on a USDJPY-side catalyst; the kinetic-war risk-off bid went to USD-haven, not yen-haven. |
 | ESR <200% (Big 3 mutuals) | ✅ **RESOLVED 3-of-3 BENIGN** (Nippon 195% M&A; Meiji 208% manageable; Sumitomo 197% ↑+19pt with foreign book growing) — **Channel 1 RETIRED v1.6** (re-add only on a direct foreign-SALES print). |
-| **JGB 30Y >4.0% (v1.4)** | ✅ BREACHED May 15 (4.000%); since RETRACED below threshold (live yield in STATUS); SAM-26 still tracking FALSE at ~25%. |
-| Fed cuts via credit cascade | PENDING — **multi-month tail under v1.5** (Jun 17 FOMC reads dead: CME FedWatch >97% no-change, <10% cut odds anywhere in 2026; PC-cascade Q2 peak live but not yet forcing pivot). See Asymmetric Setup §. |
+| **JGB 30Y >4.0% (v1.4)** | ✅ BREACHED May 15 (4.000%); since RETRACED below threshold (live yield in STATUS); SAM-26 RESOLVED FALSE Jun 16 (pre-marked ~25% — calibration win; threshold-vs-mechanism). |
+| Fed cuts via credit cascade | **v1.6 TAIL route only** — Fed-cut path REPLACED by Fed-HIKE regime under Warsh (Jun-17 FOMC +40bp 2026 dot); tripwire reframed to "walk-back of the Jun-17 dot revision" (requires a US-credit cascade breaking the Warsh frame; PC-cascade Q2 peak live but labor/inflation too firm to force a pivot). See Asymmetric Setup §. |
 
 ### Why this entry (May 21) vs original May 12 plan
 
@@ -138,7 +138,7 @@
 
 ### Catalyst Sequence
 
-*Resolved-event narratives live in `thesis/timeline/TIMELINE.md`. Forward-only catalysts in `docket/CALENDAR.md` and "Key Dates" section above. The June 16 BOJ MPM is the dominant remaining near-term catalyst under v1.5 single-path.*
+*Resolved-event narratives live in `thesis/timeline/TIMELINE.md`. Forward-only catalysts in `docket/CALENDAR.md` and "Key Dates" section above. The June 16 BOJ MPM (the v1.5 single-path catalyst) RESOLVED as-priced — under v1.6 the live frame is the post-catalyst carry-convexity-tail; no fresh near-term BOJ binary before Jul 31.*
 
 ---
 
@@ -158,15 +158,15 @@
 
 ## The Asymmetric Setup
 
-### Intervention "Paradox" — v1.5.1 reconciliation (legacy framing softened)
+### Intervention "Paradox" — RECONCILED (v1.6; legacy v1.4/v1.5 framing softened then superseded)
 
 The v1.4 framing read *"MOF acts → unwind; MOF doesn't act → forced repat; either path → unwind."* **Both legs have been empirically softened** (THESIS § Channel 2 reconciliation + CHANGELOG 2026-06-03 v1.5.1):
 - *MOF acts:* CH-003 evidence (Apr 30 + May 6) — pure intervention drives 2-5y intraday spike that reclaims same-day. Unwind\|fires ~0.20 baseline, not the implicit ~0.50 the paradox assumed. Sustained-unwind requires breaking the same-day-reclaim pattern (upside tail, not base case).
-- *MOF doesn't act → forced repat:* Channel 1 deferred under v1.5 — 3-of-3 Big 3 mutual ESR window resolved without foreign bond sales; the discrete "forced" leg dissolved at the disclosure-window timescale. The slow-burn version of the mechanism (Pillar 3: hedge ratio at 14-yr low → mechanical selling sub-USDJPY 145) is intact but requires a sustained Fed-side compression, not a Jun-window force.
+- *MOF doesn't act → forced repat:* Channel 1 **RETIRED under v1.6** (was "deferred" under v1.5; 4-of-4 institutions grew US credit) — 3-of-3 Big 3 mutual ESR window resolved without foreign bond sales; the discrete "forced" leg dissolved at the disclosure-window timescale. The slow-burn version of the mechanism (Pillar 3: hedge ratio at 14-yr low → mechanical selling sub-USDJPY 145) is intact but requires a sustained Fed-side compression, not a Jun-window force.
 
-**Honest framing now:** the case for being long is **not** the paradox — it is the structural pillars (rate-diff, J-ICS, hedge-ratio, positioning) carrying the direction, with the Jun-16 hike as the dominant catalyst for resolution and Channel 3 reactivation as a near-term upside skew.
+**Honest framing now (v1.6):** the case for being long is **not** the paradox and **not** the structural-pillars-carry-the-direction frame — Pillar 1's vector inverted across Jun 16-17 and Channel 1 is RETIRED. It is a **positioning-convexity TAIL at MEDIUM**: the CFTC fuel (83.4% of peak, held *through* the spent catalyst with zero cover) pays asymmetrically only if a tail-route fires inside the LOCKED Sep-18 window — and MOF #3 is now a DECAYING ~15-20%/30d route, not a "near-term upside skew." Pillar 2 (J-ICS, DOMESTIC) is the only-pillar-still-firing. See the thesis line at top + `thesis/THESIS.md` v1.6.
 
-### "Bigger Hike" Possibility (low probability under v1.5)
+### "Bigger Hike" Possibility — ✅ RESOLVED Jun 16 (25bp not 50bp; SAM-24 CONFIRMED) *(historical — pre-event analysis below)*
 Mar 30 BOJ Summary of Opinions revealed board members debating not just WHEN to hike but HOW MUCH. Apr 28 produced 3 dissents (Takata, Tamura, Nakagawa) for 1.00% — that's where the dissenters wanted to go in April. SAM-24 @85% on 25bp (to 1.00%) rather than 50bp. 50bp would require either acute crisis (insurer ESR <150%) or full Takaichi-Ueda rupture — neither in v1.5 base case. Path-dependence favors 25bp.
 
 ### Independent Fed Path (via HANS/BROCK) — REGIME-FLIPPED to Fed-HIKE under Warsh (Jun 17 update; multi-month tail conditional on breaking Warsh frame)
@@ -195,7 +195,7 @@ Private credit cascade (APO, ARES — 9 funds gated; BCRED Q1 redemptions ~7.9%,
 
 **Thesis:** Japan is in a binary trap. 75% of mortgages are FLOATING RATE (linked to BOJ policy rate). BOJ hikes to 1.00% → immediate household stress → consumption drag → recession risk. BOJ doesn't hike → JGB crisis deepens → yen collapse → forced UST selling.
 
-**Entry Triggers (updated v1.5):**
+**Entry Triggers (updated post-Jun-16 / v1.6):**
 - [x] BOJ hikes to 1.00% ✅ (Jun 16 — hiked as-priced, SAM-21 CONFIRMED) — mortgage transmission begins
 - [x] ~~Tankan shows consumer weakness (Apr 1)~~ — Tankan BEAT (mfg 17, non-mfg 36). Not a trigger.
 - [x] ~~Q1 2026 GDP contraction~~ — Q1 GDP BEAT +2.1% ann (May 19). Not a trigger.
@@ -223,7 +223,7 @@ Private credit cascade (APO, ARES — 9 funds gated; BCRED Q1 redemptions ~7.9%,
 
 **⚠️ v1.6 note (2026-06-22):** **Channel 1 RETIRED** (was deferred) — 4-of-4 institutions (Big 3 mutuals + Norinchukin record ¥10.1T CLO, +¥1.8T YoY) GREW US credit through their 2026 disclosure windows. Re-add tripwire = a DIRECT foreign-credit SALES print across ≥2 consecutive disclosure windows at ≥2 of {Big-3 mutuals, Norinchukin} — NOT a JGB-30Y move (that's Pillar 2, domestic). The Japan-lifer UST-selling transmission is off for the foreseeable horizon. Next disclosure reads: Norinchukin interim ~Nov 2026 / FY2026 ESR May 2027.
 
-**Status:** ⏳ WATCHING — LIQUID is primary owner of this trade. SAM provides the Japan flow signal. Active near-term TLT-put thesis from Japan side **not currently warranted** under v1.5; reactivation requires new shock (JGB 30Y blowout to 4.5%+, ESR re-test sub-200% via market stress, or a Norinchukin CLO *reversal* — book is at record ¥10.1T and GROWING per FY2025, Jun 10; a genuine turn to net selling from this baseline would be high-signal).
+**Status:** ⏳ WATCHING — LIQUID is primary owner of this trade. SAM provides the Japan flow signal. Active near-term TLT-put thesis from Japan side **not currently warranted** under v1.6 (Channel 1 RETIRED); reactivation requires new shock (JGB 30Y blowout to 4.5%+, ESR re-test sub-200% via market stress, or a Norinchukin CLO *reversal* — book is at record ¥10.1T and GROWING per FY2025, Jun 10; a genuine turn to net selling from this baseline would be high-signal).
 
 ---
 
