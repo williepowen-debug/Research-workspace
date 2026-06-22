@@ -14,7 +14,7 @@
 4. **Read + analyzed the DEWEY FL-bank deliverable for Will** — router's-lens quality read (sound, correctly graded not-verified-primary; soft spots = institutional-mirror financials [EDGAR 403'd] + a borrowed national single-family lag). Not re-routed (already SIG-001).
 5. **Built DEWEY tooling under Will per-session authorization** (DEWEY inactive) — `edgar_doc.py` + `pdf2text.py`; both DEWEY BACKLOG blockers closed.
 
-**Push DEFERRED** — RED ACTIVE in tree (6 live commits) + SAM/BRENT uncommitted; closeout commits local; Will-coordinated window.
+**Push SYNCED 0/0** — the 6/22 PM commits incl. closeout (`4048d823`) + route_log fix (`41176536`) reached origin between sessions; HEAD `41176536`, nothing local-pending [corrected 6/22 PM Phase-1 truth-up].
 
 ## CHANGED
 
@@ -37,7 +37,7 @@ A productive persistent session that cleanly handled three distinct Will asks pl
 
 ## GAPS
 
-- **Push DEFERRED** — 4 WALTER/DEWEY commits (`1eb84f35` SIG-001 / `3d0948a9` SIG-002 / `1b1443e0` DEWEY tooling / `0155fac9` kill_log) + this closeout commit sit LOCAL. RED ACTIVE in tree (6 commits) + SAM/BRENT uncommitted → push deferred regardless. Tree ahead 10 / behind 0; origin not diverged → clean-FF when Will opens the window.
+- **Push SYNCED 0/0** — the 4 WALTER/DEWEY commits (`1eb84f35` / `3d0948a9` / `1b1443e0` / `0155fac9`) + the 6/22 PM closeout (`4048d823`) + route_log NUL-strip (`41176536`) all reached origin between sessions; HEAD `41176536`, nothing local-pending [resolved — corrected 6/22 PM Phase-1 truth-up].
 - **SIG-W-20260622-002 awaits recipient consume** — BROCK action + LIQUID/REGINALD/SHADE/RED info (CC pending-push). Recipient-side.
 - **~40 prior delivered_but_unconsumed** (6/18 + 6/19 + 6/21 batches) — recipient-side + push-gated. Carry-forward.
 - **MEMORY.md well over cap** (~165 lines now) + **SESSION LOG over "last 5"** (15 rows) — prune/archive deferred (separate careful task). Carry-forward.
@@ -45,7 +45,7 @@ A productive persistent session that cleanly handled three distinct Will asks pl
 
 ## WILL_NEEDS
 
-1. **Coordinated push window** — 4 commits + closeout waiting (push deferred while RED active + SAM/BRENT uncommitted).
+1. ✅ **Coordinated push — DONE** (the 6/22 commits + closeout reached origin between sessions; tree synced 0/0 at 6/22 PM boot, HEAD `41176536`).
 2. **DEWEY Prompt B** (FL property-tax amendment) — staged in `outbox/DEWEY_PROMPT_B_fl-property-tax-amendment.md`; Will spawns DEWEY when ready (Prompt A done end-to-end as the template; now with EDGAR/PDF tooling in place).
 3. **Open registry + routing decisions still parked** — TERRY tier/routing-integration; 6 dormant unregistered dirs (BUFFER/DOC/EARNINGS/FOREX/REITS/TRADES) completeness call; CRE/CMBS → CREED ROUTING_TABLE update.
 
@@ -76,7 +76,7 @@ A productive persistent session that cleanly handled three distinct Will asks pl
 12. RED-FT-01 (HY 266) + RED-FT-07 (CCC 947) continuing-fire. WAL REG-T-02 $79.11 in band. REG-T-06 FHLB / REG-T-07 OFFICE-CMBS-DQ still not in dashboard pull.
 13. RED Turn 8 / REGINALD Turn 7 LIAISON (untouched since 6/6). CARL LIAISON DORMANT. EVENT_WINDOW CLOSED (1/3 Path B; BRENT-coordinated refresh owed). HENRY/NEXUS LIAISON next-priority opens.
 
-**🔴 Infra (carried):** 3 stale feeds (news-sweep 36d / filing-watch 46d / SIGNALS 20d) = Scout-track / VPS-down; resolution = the Scout build, not a PROME escalation.
+**🔴 Infra (carried):** 3 stale feeds (news-sweep 36d / filing-watch 36d / SIGNALS 20d; news-sweep+filing-watch share mtime 2026-05-17) = Scout-track / VPS-down; resolution = the Scout build, not a PROME escalation.
 
 **Design / governance backlog (carried):** MEMORY.md cap prune (~165 lines); SESSION LOG archive-trim to last-5 (15 rows); BOARD INDEX slim-down; walter_doctor platform-map fix (CC CORAL/HENRY mislabeled OPENCLAW) + registry_lag false-positive guard; add Cushing to step-6c scan; CLAUDE.md BCS pointer hygiene; FILTER_SPEC v0.6 BODY-INACCESSIBLE-PAYWALL verdict; `valid_until` forward-expiry; VIX-spike registered trigger; COP refresh (paused); OZK Q1 post-mortem. External RESEARCHER→DEWEY refs (AGENTS/DOC/REPORT.md + PROME/CLEANUP_PLAN) — flag to owners.
 
@@ -96,4 +96,4 @@ A productive persistent session that cleanly handled three distinct Will asks pl
 
 *Maintenance note: overwritten each session per CLAUDE.md spawn protocol step 15.*
 
-*6/22 Mon PM (persistent session): 1 dispatch (SIG-W-20260622-002 first European CLO 2.0 rated-tranche default → BROCK; CORRECTED-FRAMING w/ strong CONFIRMED core 0.82; advances AI-software→PC thread MARK→REALIZED) / 1 kill (Kobeissi $165B Q2-rebalance DUP) / 2 verify-spawns / BOARD 316→317. + read/analyzed DEWEY FL-bank report for Will. + built DEWEY EDGAR/PDF tooling (edgar_doc.py + pdf2text.py; EDGAR 403 = missing-UA-header; both BACKLOG blockers DONE; committed 1b1443e0 under Will per-session auth). Step-6c no new fires (Brent $77.57 near the <75 downside falsifier). 4 commits + closeout local; push Will-coordinated (RED active in tree).*
+*6/22 Mon PM (persistent session): 1 dispatch (SIG-W-20260622-002 first European CLO 2.0 rated-tranche default → BROCK; CORRECTED-FRAMING w/ strong CONFIRMED core 0.82; advances AI-software→PC thread MARK→REALIZED) / 1 kill (Kobeissi $165B Q2-rebalance DUP) / 2 verify-spawns / BOARD 316→317. + read/analyzed DEWEY FL-bank report for Will. + built DEWEY EDGAR/PDF tooling (edgar_doc.py + pdf2text.py; EDGAR 403 = missing-UA-header; both BACKLOG blockers DONE; committed 1b1443e0 under Will per-session auth). Step-6c no new fires (Brent $77.57 near the <75 downside falsifier). Commits + closeout reached origin between sessions; tree synced 0/0 at 6/22 PM boot [corrected 6/22 PM Phase-1].*
