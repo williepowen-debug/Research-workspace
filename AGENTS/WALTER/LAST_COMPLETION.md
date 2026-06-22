@@ -101,15 +101,17 @@ A productive persistent session that cleanly handled three distinct Will asks pl
 
 ## OPEN DESIGN DECISIONS (need Will)
 
-- **TERRY tier + routing-integration** — ever a WALTER signal recipient, or purely downstream? What tier?
-- **Registry-completeness on 6 dormant dirs** — archive-as-dead vs add-dormant-rows.
-- **CRE/CMBS → CREED ROUTING_TABLE update** — route national CRE/CMBS to CREED-action?
-- **DEWEY Prompt B run** + the Prompt-A template now proven end-to-end (research-output NOT-VERIFIED-PRIMARY grade for institutional-mirror deliverables is the precedent). ✅ DEWEY EDGAR/PDF tooling now built — should resolve the institutional-mirror grade on the *next* run.
-- **DEWEY ↔ Scout consolidation scope** (lean: Scout collapses into DEWEY; scripts already homed in DEWEY).
-- **ORACLE routing convention** — prediction-market-divergence intake line, or leave peer-direct.
-- **walter_doctor registry_lag false-positive guard** + **platform inference** (CC CORAL/HENRY mislabeled OPENCLAW).
-- **Cushing as a registered threshold** (Boundary #3 <20M not in the dashboard pull / step-6c scan).
-- Carried: group-chat artifact policy; mentionPatterns shorthand; §3.4 scoped-push runbook; INDEX status-column; staleness-sweep cadence; HENRY LIAISON priority; FED_FRAMEWORK→UST_PLUMBING rename (defer); Filter v2 Segment D; COP refresh resume (paused).
+**✅ 7 decisions adjudicated by Will 2026-06-22 (Telegram):**
+- **#4 CRE/CMBS → CREED — ✅ DONE.** Will "Yes CREED should be routed to." Shipped **ROUTING_TABLE v0.12** (National CRE/CMBS market-stress carve → CREED action / REGINALD info / BROCK info; bank CRE *exposure* stays REGINALD, FL stays CORAL) + STATE §1 sync + version_drift ✓.
+- **#5 ORACLE routing convention — ✅ RESOLVED: leave alone** (no intake line; peer-direct stays). Removed from open list.
+- **#7 DEWEY Prompt B — ✅ OFF WALTER'S PLATE.** Will: "I will have DEWEY run next time I spawn him. No need for you to worry about it." (Prompt B staged in `outbox/`; Will owns the spawn.)
+- **#2 YEYOU — ✅ do NOT register.** Will: "No - unsure what YEYOU will even be yet." Recorded as a KNOWN-PENDING scaffold (seen 6/22) so the boot dir-vs-registry scan classifies it as known-not-surprise, no row until defined.
+- **#3 Dormant dirs — ✅ adjudicated.** Will: "these are all dead except for DOC." → **BUFFER / EARNINGS / FOREX / REITS / TRADES = DEAD** (no registry rows; physical removal from `AGENTS/` is a PROME/Will fleet action — WALTER does not trash other agents' dirs). **DOC = keep** (not dead). Recorded so the scan stops re-flagging them.
+
+**🟦 Still open (refined by Will 6/22):**
+- **#1 TERRY tier + routing — LEAN captured, not locked.** Will: "Unsure — maybe only information specific to timely trading information. Perhaps all the shorts on oil, or signals suggesting reversion like semiconductor RSI." → working direction = TERRY as an **INFO recipient for positioning/reversion/timing signals** (oil COT net-short, semi RSI/overbought, vol-positioning extremes). Not locked — WALTER to draft a tight proposal when it firms; no ROUTING_TABLE row yet.
+- **#6 Cushing registered threshold — APPROVED, needs data-wiring.** Will: "Okay then add it." **Boundary already exists** (ROUTING_TABLE By Boundary Threshold v0.8: "Cushing <20Mbbl single"). The gap = the **step-6c boot scan doesn't pull it** because the FRED-based dashboard config has no Cushing series. Fix = add the EIA-Cushing **FRED** series to `FORGE/tools/market-data/config.py` (no EIA API key needed — FRED carries it) + add the boundary to WALTER's step-6c metric list. **`config.py` is shared FORGE-scope** → awaiting Will's OK to edit FORGE (or flag to PROME). Until wired, Cushing stays a manual near-trigger watch in closeout (next EIA WPSR ~6/24).
+- Carried (parked, no Will input this round): **DEWEY ↔ Scout consolidation scope** (lean: Scout collapses into DEWEY); group-chat artifact policy; mentionPatterns shorthand; §3.4 scoped-push runbook; INDEX status-column; staleness-sweep cadence; HENRY LIAISON priority; FED_FRAMEWORK→UST_PLUMBING rename (defer); Filter v2 Segment D; COP refresh resume (paused). *(walter_doctor registry_lag guard + platform inference RESOLVED Phase 3.)*
 
 ---
 
