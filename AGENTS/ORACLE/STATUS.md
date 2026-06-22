@@ -97,8 +97,9 @@ The durable view: *how* each figure moved, not just today's level (survives stal
 ---
 
 ## Maintenance flags
-- **Added (6/22):** Fed-HIKE-2026 + Fed-hike-July markets (the hawkish-turn the no-cuts market alone didn't capture).
-- **Dropped (6/22):** unemployment ≥5% slug (returned a resolved Jan market) — no liquid 2026 unemployment market exists.
+- **Coverage sweep (6/22): watchlist 15→34.** +Fed-hike markets, then +13 (Taiwan, US-invade-Iran, Hormuz Dec, Iran-leadership, Russia-Ukraine, China-GDP, China-Philippines, BOJ-July, inflation>5%, Fed-funds-dist, unemployment-ladder, BTC-dip-$40K, risk-appetite) + July catalysts (June CPI, Citi/BAC Q2 provisions) + FL Cat-4/Cat-5 hurricane. See `watchlist.tsv` / `MAINTENANCE.md`.
+- **Fetcher fix (6/22):** `resolved` trusts `closed` not stale `endDate` (+⏮stale-date flag). **Corrected:** unemployment market is LIVE (10.8%, thin), not resolved — earlier drop was a stale-date false-positive; now tracked via the ladder event.
+- **Near-dated roll watch:** June CPI (7/15), Citi/BAC provisions (7/14), June Hormuz (6/30) — drop/roll after resolve.
 - **Flag to LIQUID — DELIVERED 6/22** (`LIQUID/inbox/ORACLE_2026-06-22_fed-july-hike-figure-check.md`, Will-authorized): their STATUS cites CME July-hike ~75%; the $15.3M Polymarket July-leg prices 23% (likely P(no-change) transposed). Awaiting their verify.
 - **Jun 30 / Jul 1 resolutions (8–9 days):** bank-failure, named-bank, Iran, both WTI rungs — roll to next-period when Polymarket creates them (July versions not yet listed).
 - **Baselines now sourced + dated** in the divergence map (RED 6/13, HENRY 6/15, LABOR, REGINALD 6/20, HAWK/BRENT 6/20, LIQUID 6/20). Re-audit if any domain materially re-arms.

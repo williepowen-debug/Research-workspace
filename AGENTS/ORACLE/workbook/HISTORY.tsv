@@ -489,7 +489,7 @@ will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2026-06-19	0.819
 will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2026-06-20	0.8105
 will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2026-06-21	0.811
 will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2026-06-22	0.8085
-will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2026-06-22	0.8085
+will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2026-06-22	0.807
 will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2025-09-30	0.23
 will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2025-10-01	0.165
 will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2025-10-02	0.13
@@ -909,7 +909,7 @@ fed-rate-hike-in-2026	Fed: HIKE in 2026	2026-06-19	0.555
 fed-rate-hike-in-2026	Fed: HIKE in 2026	2026-06-20	0.655
 fed-rate-hike-in-2026	Fed: HIKE in 2026	2026-06-21	0.625
 fed-rate-hike-in-2026	Fed: HIKE in 2026	2026-06-22	0.615
-fed-rate-hike-in-2026	Fed: HIKE in 2026	2026-06-22	0.61
+fed-rate-hike-in-2026	Fed: HIKE in 2026	2026-06-22	0.605
 will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-03-21	0.0405
 will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-03-22	0.052
 will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-03-23	0.0645
@@ -1029,7 +1029,7 @@ us-bank-failure-by-june-30-227	US bank failure by Jun 30	2026-06-19	0.09
 us-bank-failure-by-june-30-227	US bank failure by Jun 30	2026-06-20	0.06
 us-bank-failure-by-june-30-227	US bank failure by Jun 30	2026-06-21	0.055
 us-bank-failure-by-june-30-227	US bank failure by Jun 30	2026-06-22	0.0885
-us-bank-failure-by-june-30-227	US bank failure by Jun 30	2026-06-22	0.083
+us-bank-failure-by-june-30-227	US bank failure by Jun 30	2026-06-22	0.0815
 major-us-bank-bailout-before-2027	Major bank bailout before 2027	2025-11-13	0.535
 major-us-bank-bailout-before-2027	Major bank bailout before 2027	2025-11-14	0.215
 major-us-bank-bailout-before-2027	Major bank bailout before 2027	2025-11-15	0.17
@@ -1596,7 +1596,7 @@ us-defaults-on-debt-by-2027	US debt default by 2027	2026-06-19	0.037
 us-defaults-on-debt-by-2027	US debt default by 2027	2026-06-20	0.0325
 us-defaults-on-debt-by-2027	US debt default by 2027	2026-06-21	0.03
 us-defaults-on-debt-by-2027	US debt default by 2027	2026-06-22	0.028
-us-defaults-on-debt-by-2027	US debt default by 2027	2026-06-22	0.029
+us-defaults-on-debt-by-2027	US debt default by 2027	2026-06-22	0.028
 iran-agrees-to-end-enrichment-of-uranium-by-june-30	Iran ends enrichment by Jun 30	2026-02-13	0.145
 iran-agrees-to-end-enrichment-of-uranium-by-june-30	Iran ends enrichment by Jun 30	2026-02-14	0.185
 iran-agrees-to-end-enrichment-of-uranium-by-june-30	Iran ends enrichment by Jun 30	2026-02-15	0.22
@@ -1750,7 +1750,7 @@ will-wti-dip-to-70-in-june-2026-532-385-742-336-388-358-153-334-926	WTI dips to 
 will-wti-dip-to-70-in-june-2026-532-385-742-336-388-358-153-334-926	WTI dips to $70 (Jun) — oil-down	2026-06-20	0.325
 will-wti-dip-to-70-in-june-2026-532-385-742-336-388-358-153-334-926	WTI dips to $70 (Jun) — oil-down	2026-06-21	0.225
 will-wti-dip-to-70-in-june-2026-532-385-742-336-388-358-153-334-926	WTI dips to $70 (Jun) — oil-down	2026-06-22	0.215
-will-wti-dip-to-70-in-june-2026-532-385-742-336-388-358-153-334-926	WTI dips to $70 (Jun) — oil-down	2026-06-22	0.32
+will-wti-dip-to-70-in-june-2026-532-385-742-336-388-358-153-334-926	WTI dips to $70 (Jun) — oil-down	2026-06-22	0.325
 will-wti-reach-100-in-june-2026-823-791-134	WTI hits $100 (Jun) — war premium	2026-05-26	0.505
 will-wti-reach-100-in-june-2026-823-791-134	WTI hits $100 (Jun) — war premium	2026-05-27	0.575
 will-wti-reach-100-in-june-2026-823-791-134	WTI hits $100 (Jun) — war premium	2026-05-28	0.59
@@ -3930,7 +3930,7 @@ bank-of-japan-decision-in-july-659	BOJ July decision	2026-06-19	0.969
 bank-of-japan-decision-in-july-659	BOJ July decision	2026-06-20	0.981
 bank-of-japan-decision-in-july-659	BOJ July decision	2026-06-21	0.9695
 bank-of-japan-decision-in-july-659	BOJ July decision	2026-06-22	0.9785
-bank-of-japan-decision-in-july-659	BOJ July decision	2026-06-22	0.979
+bank-of-japan-decision-in-july-659	BOJ July decision	2026-06-22	0.9785
 will-bitcoin-dip-to-40000-by-december-31-2026-593-522-842-874-931-776-991-167	Bitcoin dip to $40K by Dec 31	2026-02-06	0.36
 will-bitcoin-dip-to-40000-by-december-31-2026-593-522-842-874-931-776-991-167	Bitcoin dip to $40K by Dec 31	2026-02-07	0.355
 will-bitcoin-dip-to-40000-by-december-31-2026-593-522-842-874-931-776-991-167	Bitcoin dip to $40K by Dec 31	2026-02-08	0.365
@@ -4212,3 +4212,449 @@ bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-06-20	0.48
 bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-06-21	0.485
 bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-06-22	0.475
 bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-06-22	0.48
+june-inflation-us-annual-20260610151727862	June CPI print (modal)	2026-06-11	0.08
+june-inflation-us-annual-20260610151727862	June CPI print (modal)	2026-06-12	0.1545
+june-inflation-us-annual-20260610151727862	June CPI print (modal)	2026-06-13	0.3345
+june-inflation-us-annual-20260610151727862	June CPI print (modal)	2026-06-14	0.393
+june-inflation-us-annual-20260610151727862	June CPI print (modal)	2026-06-15	0.3025
+june-inflation-us-annual-20260610151727862	June CPI print (modal)	2026-06-16	0.3845
+june-inflation-us-annual-20260610151727862	June CPI print (modal)	2026-06-17	0.4025
+june-inflation-us-annual-20260610151727862	June CPI print (modal)	2026-06-18	0.4115
+june-inflation-us-annual-20260610151727862	June CPI print (modal)	2026-06-19	0.4145
+june-inflation-us-annual-20260610151727862	June CPI print (modal)	2026-06-20	0.4195
+june-inflation-us-annual-20260610151727862	June CPI print (modal)	2026-06-21	0.416
+june-inflation-us-annual-20260610151727862	June CPI print (modal)	2026-06-22	0.4415
+june-inflation-us-annual-20260610151727862	June CPI print (modal)	2026-06-22	0.4305
+will-citigroup-c-q2-provision-for-credit-losses-be-above-2pt9b	Citi Q2 cr-loss prov >$2.9B	2026-05-30	0.5
+will-citigroup-c-q2-provision-for-credit-losses-be-above-2pt9b	Citi Q2 cr-loss prov >$2.9B	2026-05-31	0.49
+will-citigroup-c-q2-provision-for-credit-losses-be-above-2pt9b	Citi Q2 cr-loss prov >$2.9B	2026-06-01	0.5
+will-citigroup-c-q2-provision-for-credit-losses-be-above-2pt9b	Citi Q2 cr-loss prov >$2.9B	2026-06-02	0.53
+will-citigroup-c-q2-provision-for-credit-losses-be-above-2pt9b	Citi Q2 cr-loss prov >$2.9B	2026-06-03	0.5
+will-citigroup-c-q2-provision-for-credit-losses-be-above-2pt9b	Citi Q2 cr-loss prov >$2.9B	2026-06-04	0.255
+will-citigroup-c-q2-provision-for-credit-losses-be-above-2pt9b	Citi Q2 cr-loss prov >$2.9B	2026-06-05	0.28
+will-citigroup-c-q2-provision-for-credit-losses-be-above-2pt9b	Citi Q2 cr-loss prov >$2.9B	2026-06-06	0.49
+will-citigroup-c-q2-provision-for-credit-losses-be-above-2pt9b	Citi Q2 cr-loss prov >$2.9B	2026-06-07	0.195
+will-citigroup-c-q2-provision-for-credit-losses-be-above-2pt9b	Citi Q2 cr-loss prov >$2.9B	2026-06-08	0.515
+will-citigroup-c-q2-provision-for-credit-losses-be-above-2pt9b	Citi Q2 cr-loss prov >$2.9B	2026-06-09	0.585
+will-citigroup-c-q2-provision-for-credit-losses-be-above-2pt9b	Citi Q2 cr-loss prov >$2.9B	2026-06-10	0.385
+will-citigroup-c-q2-provision-for-credit-losses-be-above-2pt9b	Citi Q2 cr-loss prov >$2.9B	2026-06-11	0.365
+will-citigroup-c-q2-provision-for-credit-losses-be-above-2pt9b	Citi Q2 cr-loss prov >$2.9B	2026-06-12	0.48
+will-citigroup-c-q2-provision-for-credit-losses-be-above-2pt9b	Citi Q2 cr-loss prov >$2.9B	2026-06-13	0.485
+will-citigroup-c-q2-provision-for-credit-losses-be-above-2pt9b	Citi Q2 cr-loss prov >$2.9B	2026-06-14	0.465
+will-citigroup-c-q2-provision-for-credit-losses-be-above-2pt9b	Citi Q2 cr-loss prov >$2.9B	2026-06-15	0.425
+will-citigroup-c-q2-provision-for-credit-losses-be-above-2pt9b	Citi Q2 cr-loss prov >$2.9B	2026-06-16	0.505
+will-citigroup-c-q2-provision-for-credit-losses-be-above-2pt9b	Citi Q2 cr-loss prov >$2.9B	2026-06-17	0.49
+will-citigroup-c-q2-provision-for-credit-losses-be-above-2pt9b	Citi Q2 cr-loss prov >$2.9B	2026-06-18	0.48
+will-citigroup-c-q2-provision-for-credit-losses-be-above-2pt9b	Citi Q2 cr-loss prov >$2.9B	2026-06-19	0.475
+will-citigroup-c-q2-provision-for-credit-losses-be-above-2pt9b	Citi Q2 cr-loss prov >$2.9B	2026-06-20	0.49
+will-citigroup-c-q2-provision-for-credit-losses-be-above-2pt9b	Citi Q2 cr-loss prov >$2.9B	2026-06-21	0.49
+will-citigroup-c-q2-provision-for-credit-losses-be-above-2pt9b	Citi Q2 cr-loss prov >$2.9B	2026-06-22	0.53
+will-citigroup-c-q2-provision-for-credit-losses-be-above-2pt9b	Citi Q2 cr-loss prov >$2.9B	2026-06-22	0.58
+will-bank-of-america-bac-q2-provision-for-credit-losses-be-above-1pt4b	BAC Q2 cr-loss prov >$1.4B	2026-05-30	0.5
+will-bank-of-america-bac-q2-provision-for-credit-losses-be-above-1pt4b	BAC Q2 cr-loss prov >$1.4B	2026-05-31	0.49
+will-bank-of-america-bac-q2-provision-for-credit-losses-be-above-1pt4b	BAC Q2 cr-loss prov >$1.4B	2026-06-01	0.43
+will-bank-of-america-bac-q2-provision-for-credit-losses-be-above-1pt4b	BAC Q2 cr-loss prov >$1.4B	2026-06-02	0.44
+will-bank-of-america-bac-q2-provision-for-credit-losses-be-above-1pt4b	BAC Q2 cr-loss prov >$1.4B	2026-06-03	0.485
+will-bank-of-america-bac-q2-provision-for-credit-losses-be-above-1pt4b	BAC Q2 cr-loss prov >$1.4B	2026-06-04	0.475
+will-bank-of-america-bac-q2-provision-for-credit-losses-be-above-1pt4b	BAC Q2 cr-loss prov >$1.4B	2026-06-05	0.42
+will-bank-of-america-bac-q2-provision-for-credit-losses-be-above-1pt4b	BAC Q2 cr-loss prov >$1.4B	2026-06-06	0.51
+will-bank-of-america-bac-q2-provision-for-credit-losses-be-above-1pt4b	BAC Q2 cr-loss prov >$1.4B	2026-06-07	0.655
+will-bank-of-america-bac-q2-provision-for-credit-losses-be-above-1pt4b	BAC Q2 cr-loss prov >$1.4B	2026-06-08	0.325
+will-bank-of-america-bac-q2-provision-for-credit-losses-be-above-1pt4b	BAC Q2 cr-loss prov >$1.4B	2026-06-09	0.57
+will-bank-of-america-bac-q2-provision-for-credit-losses-be-above-1pt4b	BAC Q2 cr-loss prov >$1.4B	2026-06-10	0.47
+will-bank-of-america-bac-q2-provision-for-credit-losses-be-above-1pt4b	BAC Q2 cr-loss prov >$1.4B	2026-06-11	0.465
+will-bank-of-america-bac-q2-provision-for-credit-losses-be-above-1pt4b	BAC Q2 cr-loss prov >$1.4B	2026-06-12	0.455
+will-bank-of-america-bac-q2-provision-for-credit-losses-be-above-1pt4b	BAC Q2 cr-loss prov >$1.4B	2026-06-13	0.395
+will-bank-of-america-bac-q2-provision-for-credit-losses-be-above-1pt4b	BAC Q2 cr-loss prov >$1.4B	2026-06-14	0.25
+will-bank-of-america-bac-q2-provision-for-credit-losses-be-above-1pt4b	BAC Q2 cr-loss prov >$1.4B	2026-06-15	0.245
+will-bank-of-america-bac-q2-provision-for-credit-losses-be-above-1pt4b	BAC Q2 cr-loss prov >$1.4B	2026-06-16	0.255
+will-bank-of-america-bac-q2-provision-for-credit-losses-be-above-1pt4b	BAC Q2 cr-loss prov >$1.4B	2026-06-17	0.275
+will-bank-of-america-bac-q2-provision-for-credit-losses-be-above-1pt4b	BAC Q2 cr-loss prov >$1.4B	2026-06-18	0.275
+will-bank-of-america-bac-q2-provision-for-credit-losses-be-above-1pt4b	BAC Q2 cr-loss prov >$1.4B	2026-06-19	0.37
+will-bank-of-america-bac-q2-provision-for-credit-losses-be-above-1pt4b	BAC Q2 cr-loss prov >$1.4B	2026-06-20	0.375
+will-bank-of-america-bac-q2-provision-for-credit-losses-be-above-1pt4b	BAC Q2 cr-loss prov >$1.4B	2026-06-21	0.37
+will-bank-of-america-bac-q2-provision-for-credit-losses-be-above-1pt4b	BAC Q2 cr-loss prov >$1.4B	2026-06-22	0.37
+will-bank-of-america-bac-q2-provision-for-credit-losses-be-above-1pt4b	BAC Q2 cr-loss prov >$1.4B	2026-06-22	0.37
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-04-22	0.745
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-04-23	0.675
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-04-24	0.615
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-04-25	0.625
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-04-26	0.58
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-04-27	0.555
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-04-28	0.575
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-04-29	0.595
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-04-30	0.535
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-05-01	0.47
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-05-02	0.455
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-05-03	0.455
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-05-04	0.485
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-05-05	0.395
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-05-06	0.51
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-05-07	0.565
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-05-08	0.495
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-05-09	0.525
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-05-10	0.525
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-05-11	0.415
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-05-12	0.375
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-05-13	0.315
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-05-14	0.305
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-05-15	0.315
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-05-16	0.295
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-05-17	0.285
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-05-18	0.285
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-05-19	0.325
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-05-20	0.26
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-05-21	0.335
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-05-22	0.305
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-05-23	0.285
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-05-24	0.585
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-05-25	0.465
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-05-26	0.455
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-05-27	0.395
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-05-28	0.395
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-05-29	0.355
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-05-30	0.355
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-05-31	0.295
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-06-01	0.285
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-06-02	0.225
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-06-03	0.215
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-06-04	0.145
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-06-05	0.165
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-06-06	0.165
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-06-07	0.145
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-06-08	0.125
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-06-09	0.095
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-06-10	0.095
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-06-11	0.075
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-06-12	0.205
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-06-13	0.165
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-06-14	0.225
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-06-15	0.285
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-06-16	0.215
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-06-17	0.175
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-06-18	0.225
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-06-19	0.145
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-06-20	0.085
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-06-21	0.065
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-06-22	0.055
+strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	Hormuz traffic normal by Jun30	2026-06-22	0.065
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2025-12-30	0.495
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2025-12-31	0.59
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-01	0.63
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-02	0.55
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-03	0.545
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-04	0.535
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-05	0.51
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-06	0.455
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-07	0.435
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-08	0.435
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-09	0.415
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-10	0.41
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-11	0.41
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-12	0.41
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-13	0.41
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-14	0.41
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-15	0.41
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-16	0.375
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-17	0.37
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-18	0.355
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-19	0.355
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-20	0.36
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-21	0.36
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-22	0.36
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-23	0.355
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-24	0.365
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-25	0.375
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-26	0.385
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-27	0.385
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-28	0.4
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-29	0.395
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-30	0.395
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-31	0.395
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-02-01	0.395
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-02-02	0.395
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-02-03	0.39
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-02-04	0.365
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-02-05	0.355
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-02-06	0.355
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-02-07	0.355
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-02-08	0.355
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-02-09	0.34
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-02-10	0.34
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-02-11	0.335
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-02-12	0.335
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-02-13	0.335
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-02-14	0.335
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-02-15	0.335
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-02-16	0.33
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-02-17	0.335
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-02-18	0.335
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-02-19	0.34
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-02-20	0.34
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-02-21	0.335
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-02-22	0.33
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-02-23	0.325
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-02-24	0.34
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-02-25	0.33
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-02-26	0.38
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-02-27	0.38
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-02-28	0.39
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-03-02	0.39
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-03-03	0.385
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-03-04	0.385
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-03-05	0.385
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-03-06	0.39
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-03-07	0.38
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-03-08	0.38
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-03-09	0.38
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-03-10	0.385
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-03-11	0.385
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-03-12	0.385
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-03-14	0.395
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-03-15	0.385
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-03-16	0.385
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-03-17	0.38
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-03-18	0.395
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-03-19	0.395
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-03-20	0.395
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-03-21	0.395
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-03-22	0.39
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-03-23	0.39
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-03-24	0.39
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-03-25	0.39
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-03-26	0.39
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-03-27	0.39
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-03-28	0.39
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-03-29	0.39
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-03-31	0.345
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-04-02	0.33
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-04-09	0.335
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-04-19	0.355
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-04-22	0.355
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-04-23	0.32
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-04-24	0.31
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-04-25	0.315
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-04-26	0.31
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-04-27	0.315
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-04-28	0.315
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-04-29	0.35
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-04-30	0.35
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-05-01	0.35
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-05-02	0.35
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-05-03	0.35
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-05-04	0.365
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-05-05	0.365
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-05-06	0.37
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-05-07	0.375
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-05-08	0.35
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-05-09	0.355
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-05-10	0.355
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-05-11	0.355
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-05-12	0.355
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-05-13	0.395
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-05-14	0.395
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-05-15	0.38
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-05-16	0.39
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-05-17	0.385
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-05-18	0.37
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-05-19	0.39
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-05-20	0.405
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-05-21	0.41
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-05-22	0.375
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-05-23	0.35
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-05-24	0.35
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-05-25	0.345
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-05-26	0.35
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-05-27	0.355
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-05-28	0.365
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-05-29	0.31
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-05-30	0.32
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-05-31	0.32
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-06-01	0.32
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-06-02	0.325
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-06-03	0.32
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-06-04	0.31
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-06-05	0.31
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-06-06	0.275
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-06-07	0.31
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-06-08	0.325
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-06-09	0.31
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-06-10	0.3
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-06-11	0.3
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-06-12	0.38
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-06-13	0.29
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-06-14	0.275
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-06-15	0.27
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-06-16	0.28
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-06-17	0.29
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-06-18	0.29
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-06-19	0.27
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-06-20	0.295
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-06-21	0.3
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-06-22	0.31
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-06-22	0.31
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-01	0.135
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-02	0.105
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-03	0.1
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-04	0.1
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-05	0.095
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-06	0.095
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-07	0.1
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-08	0.1
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-09	0.105
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-10	0.105
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-11	0.105
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-12	0.105
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-13	0.105
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-14	0.105
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-15	0.105
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-16	0.105
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-17	0.105
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-18	0.105
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-19	0.105
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-20	0.105
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-21	0.11
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-22	0.115
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-23	0.115
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-24	0.11
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-25	0.115
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-26	0.115
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-27	0.115
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-28	0.115
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-29	0.115
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-30	0.115
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-31	0.115
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-02-01	0.115
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-02-02	0.115
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-02-03	0.115
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-02-04	0.115
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-02-05	0.125
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-02-06	0.13
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-02-07	0.12
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-02-08	0.155
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-02-09	0.14
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-02-10	0.13
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-02-11	0.14
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-02-12	0.145
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-02-13	0.145
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-02-14	0.15
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-02-15	0.145
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-02-16	0.145
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-02-17	0.14
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-02-18	0.14
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-02-19	0.12
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-02-20	0.13
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-02-21	0.12
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-02-22	0.12
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-02-23	0.12
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-02-24	0.125
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-02-25	0.115
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-02-26	0.115
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-02-27	0.115
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-02-28	0.115
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-03-01	0.115
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-03-02	0.28
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-03-03	0.17
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-03-04	0.165
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-03-05	0.15
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-03-06	0.17
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-03-07	0.165
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-03-08	0.14
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-03-09	0.145
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-03-10	0.145
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-03-11	0.16
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-03-12	0.165
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-03-14	0.17
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-03-15	0.17
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-03-16	0.155
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-03-17	0.15
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-03-18	0.15
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-03-19	0.155
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-03-20	0.155
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-03-21	0.16
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-03-22	0.15
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-03-23	0.145
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-03-24	0.155
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-03-25	0.155
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-03-26	0.155
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-03-27	0.155
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-03-28	0.16
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-03-29	0.15
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-03-30	0.13
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-03-31	0.13
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-04-01	0.135
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-04-02	0.13
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-04-03	0.13
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-04-04	0.13
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-04-06	0.13
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-04-07	0.13
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-04-08	0.135
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-04-09	0.125
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-04-10	0.13
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-04-11	0.135
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-04-13	0.11
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-04-15	0.11
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-04-16	0.105
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-04-22	0.155
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-04-23	0.145
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-04-24	0.135
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-04-25	0.135
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-04-26	0.135
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-04-27	0.135
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-04-28	0.135
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-04-29	0.14
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-04-30	0.14
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-05-01	0.235
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-05-02	0.195
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-05-03	0.165
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-05-04	0.15
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-05-05	0.15
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-05-06	0.155
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-05-07	0.145
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-05-08	0.135
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-05-09	0.125
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-05-10	0.125
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-05-11	0.09
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-05-12	0.105
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-05-13	0.105
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-05-14	0.105
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-05-15	0.095
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-05-16	0.105
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-05-17	0.105
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-05-18	0.105
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-05-19	0.105
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-05-20	0.115
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-05-21	0.115
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-05-22	0.115
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-05-23	0.1
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-05-24	0.095
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-05-25	0.105
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-05-26	0.105
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-05-27	0.105
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-05-28	0.105
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-05-29	0.11
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-05-30	0.105
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-05-31	0.105
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-06-01	0.105
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-06-02	0.105
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-06-03	0.115
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-06-04	0.12
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-06-05	0.12
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-06-06	0.12
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-06-07	0.115
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-06-08	0.115
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-06-09	0.115
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-06-10	0.12
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-06-11	0.12
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-06-12	0.12
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-06-13	0.11
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-06-14	0.11
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-06-15	0.15
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-06-16	0.125
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-06-17	0.135
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-06-18	0.13
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-06-19	0.13
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-06-20	0.15
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-06-21	0.15
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-06-22	0.15
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-06-22	0.15
