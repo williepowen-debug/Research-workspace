@@ -1,5 +1,8 @@
 # SHADE SCRATCH.md — Ephemeral Session State
-**Rewritten:** 2026-06-21 ET (first live SHADE boot — Opus 4.8 ultracode)
+**Rewritten:** 2026-06-21 ET (first live SHADE boot — Opus 4.8 ultracode) · **6/22 addendum below**
+
+## 6/22 ADDENDUM — FABN maturity ladder built (Will-requested)
+Built the Athene FABN/funding-agreement ladder → `research/ATHENE_FABN_MATURITY_LADDER_2026-06-22.md`. **Headline:** the ~$16.5B "2026-2027 FABN wall" anchoring kill-path-1 is **third-party/UNVERIFIED** — Athene Global Funding is **not an SEC filer**, **100% of the $34.5B FABN is 144A/Reg S**, and **no public FABN-only maturity ladder exists** (the only year-bucketed primary figure blends all annuities+FA+GICs, undiscounted). Re-marked everywhere (STATUS §0/§2/dashboard/calendar/next-actions; CLAUDE.md target sheet + kill-path-1 line). **Mechanism confirmed & sharper:** Q1'26 FABN gross issuance collapsed to **$2.0B vs $13.4B FY2025** ("challenging market conditions" per 10-Q MD&A), ~9-10mo since last public syndication, substitution into encumbered FHLB(+$4.9B QoQ)/FABR, ~14 tranches confirmed clustering 2026-H2/2027, **active 2027 tenders** (series 2022-6 $260.1M, 2020-5 $238.1M, dated 6/22). Verified stack: FABN $34.5B + FABR $21.5B + direct $6.1B + FHLB $28.2B + LT repo $3.2B = **~$93.5B gross**. Spread obs-date note: T+123 (May) vs T+105 (Feb) = ~+15bp peer-penalty widening. **Kill-path-1 held YELLOW** (refinance-at-wider-spread, not rollover failure). Next: close the quantum gap via NPORT-P holder CUSIPs (no terminal needed). Commit pending.
 
 ## CHANGES SINCE LAST SHADE SESSION
 Prior session = 2026-06-15 Prome architecture + live-refresh pass (STATUS rebuilt as 🟠 structural/latent). This 6/21 session is the **first agent-run SHADE boot** against that scaffold. Did NOT pull at boot — working tree had uncommitted changes outside SHADE (`memory/auto/`, `LIQUID/inbox/`), so booted off the current tree per git protocol.
@@ -26,7 +29,7 @@ Cross-agent picture (their 6/20 surfaces are fresher than the 6/15 STATUS was):
 1. Boot: STATUS → SCRATCH → MEMORY; check `board_log.tsv` + `inbox/WALTER/` for new signals; confirm canonical APO mark with BROCK (do not carry the March band).
 2. Substantive audits if decision-relevant (priority order):
    - Athene Asset Compendium / "Affiliated & Related Party Assets" deck → **locate AMAPS** in the Schedule-D/BA equivalent (resolve disclosure-channel split).
-   - Build the **Athene 2026-2027 FABN maturity ladder** (~$16.5B) from 10-K/statutory — May deck didn't break out the dollar schedule; test kill-path-1 vs the ~8mo syndicated gap.
+   - ✅ FABN ladder done (6/22). RESIDUAL: size the 2026-2027 wall bottom-up via **NPORT-P holder-level CUSIPs** (MS Inst Fund Trust CIK 0000741375, PIMCO Funds CIK 0000810893) — the only free path; or a terminal/cbonds-Pro CUSIP aggregation. Watch for any FABN spread >250bp or a pulled syndication (→ kill-path-1 red).
    - NAIC CLO C-1 Residuals & PAF comment fight (**7/6/26**) + 6/23 webex outcome.
 3. Watch the **Aug 12 2026 Egan-Jones** docket binary (defense submitted 6/16); faster enforcement track = watch for a Wells notice.
 
@@ -37,7 +40,7 @@ Cross-agent picture (their 6/20 surfaces are fresher than the 6/15 STATUS was):
 | FHLB scale correction | ✅ corrected $2.4B→$28B drawn; **REGINALD cross-flag held (see Mail state)** |
 | FABN peer-relative canary | 🟠 yellow-leaning on kill-path-1; absolute spread still green |
 | AMAPS disclosure-channel split | 🔴 watch; needs Asset Compendium pull |
-| Athene FABN maturity ladder | 🟡 ~$16.5B baseline not refreshed (web-coverage gap; needs 10-K) |
+| Athene FABN maturity ladder | ✅ built 6/22; **$16.5B re-marked third-party/UNVERIFIED** (no public ladder, 100% 144A/RegS). Quantum gap → NPORT-P holder CUSIPs next. |
 | NAIC CLO RBC slip | 🟡 7/6 comment + 6/23 webex; YE2026 at-risk |
 | Egan-Jones Aug 12 | 🟢 calendar binary; defense submitted |
 | Oaktree/Atlantic Coast Life captive | 🟡 new captive-reinsurance sub-watch |

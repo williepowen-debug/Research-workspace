@@ -4,6 +4,13 @@ Structural-change log for SHADE architecture: docs/scripts/protocol/schema chang
 
 ---
 
+### 2026-06-22 — FABN maturity ladder artifact + CLAUDE.md kill-path re-mark
+- **Trigger:** Will requested the Athene FABN maturity ladder (next-action #2 from the 6/21 boot).
+- **What changed:** Added `research/ATHENE_FABN_MATURITY_LADDER_2026-06-22.md` (program stack + maturity-dated tranche list + the structural-invisibility finding + kill-path-1 read). Re-marked the **$16.5B 2026-2027 FABN wall as third-party/unverified** across STATUS (§0/§2/dashboard/calendar/next-actions/§8) **and edited `CLAUDE.md`** (Primary Target line + kill-path-1 line) — first time SHADE's own spec doc was annotated for a verified-thesis correction.
+- **Files touched:** `research/ATHENE_FABN_MATURITY_LADDER_2026-06-22.md` (new), `STATUS.md`, `CLAUDE.md`, `SCRATCH.md`, `MEMORY.md`, `MAINTENANCE.md`; auto-memory `finding_private_by_construction_unverifiable.md` (new, + index line).
+- **Key finding:** Athene Global Funding is not an SEC filer; 100% of FABN is 144A/Reg S; no public FABN maturity ladder exists → the kill-path-1 quantum is structurally invisible (mechanism still sourceable). Recovery path logged (NPORT-P holder CUSIPs).
+- **Methodology:** 4-finder Workflow + adversarial reconcile (basis-conflation guard caught the ALL-ISC-vs-FABN trap).
+
 ### 2026-06-21 — board_log.tsv created (WALTER consumption v0.2) + first agent-run boot
 - **Trigger:** First live SHADE boot. WALTER delivery lane (`inbox/WALTER/`) held one unprocessed signal and no `board_log.tsv` existed.
 - **What changed:** Created `board_log.tsv` with the v0.2 header (`timestamp_read<TAB>signal_id<TAB>disposition<TAB>source<TAB>notes`); logged + `git mv`'d `SIG-W-20260619-008` to `inbox/WALTER/processed/`. Added `research/SHADE_BOOT_SWEEP_2026-06-21.md` (verified domain-sweep artifact). STATUS gained a top-of-file §0 verified boot-delta section (now 203 lines).
