@@ -9,6 +9,10 @@
 ## GIT STATE (one line)
 -->
 
+**S20b INTRA-DAY ADDENDUM — Mon 2026-06-22 ~4:15 PM ET (post-close re-boot).** Tape unchanged vs 2:30 PM close (VIX 17.3, Brent 78.2, banks flat, HY OAS 266 still 6/19 FRED; no NEW trigger fires — FT-01/FT-07 still firing, WL-04 HY<260 still 6bps away). Processed **2 NEW cluster_mediating BOARD signals** dispatched 1:55/2:25 PM (post-S20-boot, so missed by the sweep) — both info-cc, both VINDICATE/REFINE existing reads, **no weight change** (Stag37/Mgd37/Acute13/War6/Resc3/Soft4 hold): (1) **SIG-W-20260622-001** DEWEY FL bank-loss-transmission TIMING → VINDICATES S20 CORAL call (70/30 normalize-without-bank-loss, charge-offs 2027, ~12mo lag=national-SFR analog; cleanest counter: BKU $36M loss=C&I not FL-RE). (2) **SIG-W-20260622-002** Bain Euro CLO Class F→'D' = first European CLO 2.0 rated default → discount viral "system FAILED" framing to ~0.55 (INVERTED), but a real NON-artifact junior loss → supports Acute-hold-13. Wrote KB-RED-046/047 + ML-RED-088; annotated STATUS priorities #4/#7. **No redundant re-sweep** (both verified upstream; S20 swept 1.5h prior on same inputs). Owed forward task unchanged: WAL/OZK Q2 beat/miss × clean/dirty tree (~Jul 30).
+
+---
+
 **Session 20 — Mon 2026-06-22 ~2:30 PM ET.** 9-day catch-up re-anchor (last anchor 6/12 close, S19). Three catalysts fired and were ABSORBED while offline; ran a 6-agent adversarial network sweep + stale-challenge closure (workflow `wf_3ea13dec-167`). **conf 70→69, NB 57→56.** Bull-steelman scored; substance hardened underneath; the bifurcation widened from both sides again.
 
 ## CHANGES SINCE (S19 close 6/13 → S20 boot 6/22)
@@ -52,4 +56,4 @@
 
 ## GIT STATE
 
-Did NOT pull (SAM + BRENT dirty tree). Multiple S20 LOCAL commits: re-anchor (STATUS/CHANGELOG/PREDICTIONS/CHALLENGES/CATALYSTS/CALENDAR/VX/VX_HISTORY/ML-085-086/MEMORY/SCRATCH) + TSV fixup + Jun-18-gone + push-window-prep (HY260 framework, VX Flip_If sweep, KB-044/045, ML-087). **LOCAL ONLY — push deferred for a Will-coordinated window** (RED never pushes solo; SAM cleaning up his tree before the window opens). Auto-memory `finding_sustain_count_role_discriminating_power` updated (symlinked into repo via memory/auto/ — will sweep in the same window).
+**S20 work is PUSHED** — origin/master already carries RED's S20 re-anchor + push-window-prep commits (a Will window opened post-close and swept them along with WALTER's PM closeout; confirmed `git status -sb` clean vs origin for RED files). **S20b (this re-boot):** did NOT pull — **SAM has uncommitted `AGENTS/SAM/workbook/CFTC_JPY.tsv`** in-tree (pull-protocol STOP) + `git fetch` found nothing new on origin anyway. New S20b LOCAL commit: KB-RED-046/047 + ML-RED-088 + STATUS priorities #4/#7 + SCRATCH addendum. **LOCAL ONLY — push deferred to the next Will-coordinated window** (RED never pushes solo; SAM tree dirty). One untracked BRENT inbox file (`2026-06-18_from-HAWK...`) is not RED's to touch.
