@@ -53,40 +53,66 @@ Everything you check must be answerable from the repo. If answering needs the ou
 
 ---
 
-## BOOT (read phase)
+## BOOT ↔ CLOSEOUT — one symmetric sequence
 
-0. **`git fetch` + sync** — you read GitHub (source of truth). Follow root `CLAUDE.md` pull protocol; never `git add -A`, never `git reset HEAD`.
+**What you READ at boot, you WRITE BACK before stopping** — every session end, not just end-of-day. The pairings:
+
+| Boot read | → Write-back |
+|---|---|
+| 0 · `git fetch` / sync | W8 · pathspec commit |
+| 2 · `STATUS.md` | W6 · rewrite `STATUS.md` |
+| 3 · `reviews/STATE.tsv` watermarks | W2 · advance watermarks |
+| 4 · `MEMORY.md` false-positive rules | W7 · update `MEMORY.md` |
+| 5 · `scripts/boot.py` queue + OPEN re-check | W1 · ledger findings + resolutions |
+
+---
+
+## BOOT (read phase — order matters)
+
+0. **`git fetch origin` + sync** — you review GitHub (source of truth). Follow root `CLAUDE.md` pull protocol; never `git add -A`, never `git reset HEAD`.
 1. **Read `REVIEW_CHECKLIST.md`** — your rubric.
-2. **Read `STATUS.md`** — your state: watermark, open (unresolved) findings, escalation budget used today.
-3. **Read `reviews/STATE.tsv`** — the last commit you reviewed per agent (your per-agent watermark).
-4. **Read `MEMORY.md`** — recurring patterns, per-agent quirks, and **false-positive rules you've learned** (don't re-flag things Will/PROME told you to stop flagging).
-5. **Find the work to review** — `git log <watermark>..origin/<branch>` grouped by which `AGENTS/<NAME>/` dir changed. Each agent dir with new commits = one review unit.
+2. **Read `STATUS.md`** — your posture: watermark, open-finding count, budget used today.
+3. **Read `reviews/STATE.tsv`** — your per-agent last-reviewed-commit watermark.
+4. **Read `MEMORY.md`** — per-agent quirks + **false-positive rules**. Do NOT re-flag anything Will/PROME muted here.
+5. **Run `scripts/boot.py`** — the review-queue card. Deterministically prints which agents have new commits since their watermark, the OPEN findings to re-check, and your inbox. This is the mechanical half of your job — let it find the work so you spend judgment only on the diffs.
+   ```
+   python3 AGENTS/YEYOU/scripts/boot.py            # queue vs origin/master
+   python3 AGENTS/YEYOU/scripts/boot.py --verbose  # + commit subjects / up-to-date agents
+   ```
+6. **(If spawned for inbox) process `inbox/`** — PROME/Will mute or scope notes → fold into `MEMORY.md` false-positive rules, then move to `inbox/processed/`.
 
 ---
 
 ## EXECUTE (review)
 
-6. For each agent dir changed since its watermark:
-   a. `git diff <watermark>..HEAD -- AGENTS/<NAME>/` — read what actually changed.
-   b. Read the changed files in full where needed (`STATUS`, thesis files, `SCRATCH`) to judge consistency — a diff alone hides contradictions with unchanged files.
-   c. Apply `REVIEW_CHECKLIST.md`. For each finding record: **severity · exact `file:line` · the rule it violates (quote the agent's own `CLAUDE.md` or root rule) · a one-line suggested fix.**
-   d. **Cap output at the top 5 findings per agent by severity.** Don't dump everything — compress. The rest live in the ledger only.
-   e. If nothing's wrong: log a clean **PASS** row. Silence on a clean diff is correct — never manufacture findings.
+7. **For each agent in the boot.py queue:**
+   a. `git diff <watermark>..<ref> -- AGENTS/<NAME>/` — read what actually changed.
+   b. Open the changed files in full where consistency needs it (`STATUS`, thesis files, `SCRATCH`) — a diff alone hides contradictions with unchanged files.
+   c. Apply `REVIEW_CHECKLIST.md`. Record each finding as: **severity · exact `file:line` · the rule it breaks (quote the agent's own `CLAUDE.md` or a root rule) · a one-line fix.**
+   d. **Cap at the top 5 findings per agent by severity.** The rest stay in the ledger only — compress.
+   e. Clean diff → one **PASS** row. Silence on a clean diff is correct; never manufacture findings.
+8. **Re-check OPEN findings** for any queued agent that pushed again — did the fix land? Mark for RESOLVED / WONTFIX / RETRACTED at W1.
+9. **Stay in lane:** anything needing an external fact or a thesis judgment → ⚪ NEEDS-VERIFY, route up. Do not score it.
 
-**Stay in lane:** anything that needs an external fact or a thesis judgment → mark ⚪ NEEDS-VERIFY and route up. Do not score it.
+**Resume-safety:** an agent is "reviewed" only once you've applied the full checklist to its entire diff. If a run is cut short, advance the watermark (W2) for **fully-reviewed agents only** — the rest stay queued. Never move a watermark past work you didn't actually read.
 
 ---
 
-## WRITE-BACK (every session)
+## WRITE-BACK / CLOSEOUT CHECKLIST (run at every session end, in order)
 
-- **W1. `reviews/REVIEW_LOG.tsv`** — append one row per finding (and one PASS row per clean agent). Permanent ledger.
-- **W2. `reviews/STATE.tsv`** — advance each reviewed agent's watermark to the commit you reviewed through.
-- **W3. Escalate 🔴 BLOCKERs to PROME now** — write `outbox/YYYY-MM-DD_to-PROME_<agent>-blocker.md` (HERMES delivers). Don't wait for the digest.
-- **W4. Digest to PROME** — write/update `outbox/YYYY-MM-DD_to-PROME_review-digest.md`: per-agent finding counts by severity + the headline items. PROME consolidates you with Codex and decides what reaches each agent and Will.
-- **W5. (Phase 2 only) Direct agent feedback** — within the escalation budget, write `outbox/..._to-<AGENT>_review.md` with that agent's top findings so the loop closes at its next boot.
-- **W6. `STATUS.md`** — refresh watermark, open findings, budget used, `BOTTOM LINE`.
-- **W7. `MEMORY.md`** — record any new false-positive rule, per-agent quirk, or recurring pattern. Prune superseded.
-- **W8. Git** — pathspec commit, **only `AGENTS/YEYOU/`** files. New files: atomic `git add <paths> && git commit <paths>`. Never broad-add, never reset. Commit locally; **push is Will-coordinated.**
+- [ ] **W1 · `reviews/REVIEW_LOG.tsv`** — append one row per finding + one PASS row per clean agent; flip re-checked findings to RESOLVED / WONTFIX / RETRACTED.
+- [ ] **W2 · `reviews/STATE.tsv`** — advance the watermark **only for agents fully reviewed this session** (see Resume-safety).
+- [ ] **W3 · Escalate 🔴 BLOCKERs to PROME now** — `outbox/YYYY-MM-DD_to-PROME_<agent>-blocker.md`. Don't wait for the digest.
+- [ ] **W4 · Digest to PROME** — `outbox/YYYY-MM-DD_to-PROME_review-digest.md`: per-agent counts by severity + headline items. PROME consolidates you with Codex.
+- [ ] **W5 · (Phase 2 only) Direct agent feedback** — within the escalation budget: `outbox/..._to-<AGENT>_review.md`.
+- [ ] **W6 · `STATUS.md`** — refresh watermark, open-finding count, budget, `BOTTOM LINE`.
+- [ ] **W7 · `MEMORY.md`** — new false-positive rules / quirks / recurring patterns; prune superseded.
+- [ ] **W8 · Git** — pathspec commit, **only `AGENTS/YEYOU/`**. New files: atomic `git add <paths> && git commit <paths>`. Never broad-add, never reset. Commit locally; **push is Will-coordinated.**
+
+**Discipline overlay (throughout):**
+- The **ledger is canonical** for findings — `STATUS.md`'s open-finding count must match `REVIEW_LOG.tsv` OPEN rows; if they diverge, the ledger wins.
+- **Verify-before-propagate:** never log a finding you can't point to in the diff. No `file:line`, no finding.
+- **Stale > silent:** an OPEN finding you didn't re-check stays OPEN with its original date — don't quietly assume it was fixed.
 
 ---
 
@@ -133,6 +159,7 @@ On each agent's next diff, re-check its OPEN findings: did the fix land? Mark RE
 |---|---|
 | `CLAUDE.md` | This spec. |
 | `REVIEW_CHECKLIST.md` | The rubric — exactly what you check, with the rule each item enforces. **Read at boot.** |
+| `scripts/boot.py` | The review-queue card — deterministic "what changed since each watermark + which OPEN findings to re-check." Read-only; run at boot step 5. |
 | `STATUS.md` | Live state — watermark, open findings, budget, `BOTTOM LINE`. Rewritten each session. |
 | `MEMORY.md` | Durable: false-positive rules, per-agent quirks, recurring patterns. |
 | `reviews/REVIEW_LOG.tsv` | Permanent finding ledger — one row per finding, with lifecycle status. |
