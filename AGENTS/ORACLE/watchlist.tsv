@@ -16,4 +16,23 @@ WTI hits $100 (Jun) — war premium	market	will-wti-reach-100-in-june-2026-823-7
 AI bubble burst 2026	market	ai-industry-downturn-by-december-31-2026-857	T2	BROCK
 MicroStrategy bankruptcy by 2027	market	will-microstrategy-announce-bankruptcy-before-2027	T2	BROCK
 Nothing Ever Happens 2026	market	nothing-ever-happens-2026	T3	PROME,VIOLET
-# DROPPED 2026-06-22 — slug `will-us-unemployment-reach-at-least-5pt0-in-2026` returns a RESOLVED Jan market (end 2026-01-10); no liquid 2026 unemployment market exists. Only a thin June-rate event (june-unemployment-rate-734, $2.4K, modal 4.3%). Re-add if a liquid annual-unemployment market appears. Route: LABOR,HENRY
+# NOTE 2026-06-22 — unemployment ≥5.0% market is LIVE (closed=False, 10.8%) but carries a stale endDate (2026-01-10) that earlier false-flagged it RESOLVED (fetcher now trusts `closed`, shows ⏮stale-date). Tracked via the EVENT row below (surfaces ≥5.0% rung); per-rung liq is thin (~$1.6K) so it is low-signal — discount single prints. Route: LABOR,HENRY
+
+# ===== ADDED 2026-06-22 (sweep — coverage expansion across previously-empty themes) =====
+# Macro / Fed path
+Fed funds rate end-2026 (dist)	event	what-will-the-fed-rate-be-at-the-end-of-2026	T1	LIQUID,HENRY
+US inflation >5% in 2026	market	will-inflation-reach-more-than-5-in-2026-282-763	T1	HENRY,LIQUID
+US unemployment ladder 2026	event	how-high-will-us-unemployment-go-in-2026	T1	LABOR,CARL,REGINALD
+# Geopolitics / oil transmission
+Hormuz traffic normal by Dec 31	market	strait-of-hormuz-traffic-returns-to-normal-by-december-31	T1	HAWK,BRENT
+US invade Iran before 2027	market	will-the-us-invade-iran-before-2027	T2	HAWK,BRENT
+Iran leadership change by Dec 31	market	iran-leadership-change-by-december-31-974-976-658-482-568	T2	HAWK,BRENT
+Russia-Ukraine ceasefire by Dec 31	market	russia-x-ukraine-ceasefire-agreement-by-december-31-2026	T2	HAWK,BRENT
+China invade Taiwan before 2027	market	will-china-invade-taiwan-before-2027	T1	HAWK,PROME
+# China / Japan macro
+China annual GDP growth 2026	event	china-annual-gdp-growth-2026	T1	ZHAO
+China-Philippines clash before 2027	market	china-x-philippines-military-clash-before-2027	T2	ZHAO,HAWK
+BOJ July decision	event	bank-of-japan-decision-in-july-659	T2	SAM
+# Crypto / cross-asset risk appetite
+Bitcoin dip to $40K by Dec 31	market	will-bitcoin-dip-to-40000-by-december-31-2026-593-522-842-874-931-776-991-167	T2	RED,LIQUID,BROCK
+Best asset 2026 (SP/Gold/BTC)	event	bitcoin-vs-gold-vs-sp-500-in-2026	T3	RED,HENRY
