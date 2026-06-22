@@ -1,0 +1,8 @@
+date	topic	report_path	mode	confidence	routing	flag_id	notes
+2026-02-28	WAL base case	output/2026-02-28_WAL_base_case.md	—	—	—	—	orig build (late-Feb); pre-revival, metadata not captured
+2026-02-28	Block fintech contagion	output/2026-02-28_block_fintech_contagion.md	—	—	—	—	orig build (late-Feb)
+2026-02-28	Block layoff analyst reaction	output/2026-02-28_block_layoff_analyst_reaction.md	—	—	—	—	orig build (late-Feb)
+2026-02-28	Iran / Hormuz oil	output/2026-02-28_iran_hormuz_oil.md	—	—	—	—	orig build (late-Feb)
+2026-02-28	Military economic timing	output/2026-02-28_military_economic_timing.md	—	—	—	—	orig build (late-Feb)
+2026-02-28	WAL Stupin / Cantor	output/2026-02-28_wal_stupin_cantor.md	—	—	—	—	orig build (late-Feb)
+2026-06-21	S-FL → FL-bank loss-transmission timing	output/2026-06-21_fl-bank-loss-transmission-timing.md	Thesis	Medium	handoff:NEW→WALTER	none (WALTER Prompt A)	first post-revival run; reconstructed after session crash, ~70% source-gathering salvaged (see output/_recovered_2026-06-21_promptA/)

@@ -121,9 +121,11 @@ The Process Report is mandatory — it's how we improve DEWEY over time. Be hone
 ## CLOSEOUT (write-back tail)
 
 7. **Save the report** to `output/` (dated filename).
-8. **Hand off to WALTER** — write a brief **create-only** handoff to `AGENTS/WALTER/inbox/DEWEY/` (state = **NEW**) pointing at the `output/` report, OR if Will is routing it live, tell Will it's ready. WALTER scans that lane at boot (its spawn-protocol step 7d), routes it as a `research-output` signal (CHECKLIST Phase 2.8b), then `git mv`s your handoff to `inbox/DEWEY/processed/`. **You only ever CREATE in `inbox/DEWEY/` — never edit a handoff, never touch `processed/` (WALTER owns the move).** Do NOT route it yourself — WALTER is the single entry point. See `AGENTS/WALTER/inbox/DEWEY/README.md` for the NEW→ROUTED→PROCESSED lifecycle.
-9. **If this run answered a WALTER Phase-2.8 flag:** note the originating flag ID in the handoff so WALTER can close the `DEEP_RESEARCH_FLAGGED_LOG` row.
-10. **Git commit** your files (`AGENTS/DEWEY/`) via scoped pathspec — never `git add -A`, never `git reset HEAD` (shared index). Push is Will-coordinated; commit locally and note any pending push.
+8. **Log the run to `output/INDEX.tsv`** — append one row per delivered report (`date · topic · report_path · mode · confidence · routing · flag_id · notes`). This is DEWEY's only standing ledger — the on-demand analog of a monitor agent's workbook. It buys cross-run continuity the bare `output/` dir doesn't: dedup ("have we researched this before?"), a deliverable scoreboard, and a place WALTER/Will can see what's outstanding. Keep it to one line per report; the report itself holds the detail. *(DEWEY is stateless/on-demand — this is deliberately the ONLY state file. It does NOT keep a STATUS dashboard, SCRATCH handoff, NEXUS_BRIEF, thesis/CHANGELOG, predictions, or catalyst docket; those are continuous-monitor machinery that would only go stale here. Add one ONLY if a real need shows up — not by default.)*
+9. **Hand off to WALTER** — write a brief **create-only** handoff to `AGENTS/WALTER/inbox/DEWEY/` (state = **NEW**) pointing at the `output/` report, OR if Will is routing it live, tell Will it's ready. WALTER scans that lane at boot (its spawn-protocol step 7d), routes it as a `research-output` signal (CHECKLIST Phase 2.8b), then `git mv`s your handoff to `inbox/DEWEY/processed/`. **You only ever CREATE in `inbox/DEWEY/` — never edit a handoff, never touch `processed/` (WALTER owns the move).** Do NOT route it yourself — WALTER is the single entry point. See `AGENTS/WALTER/inbox/DEWEY/README.md` for the NEW→ROUTED→PROCESSED lifecycle.
+10. **If this run answered a WALTER Phase-2.8 flag:** note the originating flag ID in the handoff (and the `INDEX.tsv` row) so WALTER can close the `DEEP_RESEARCH_FLAGGED_LOG` row.
+11. **Promotion scan** — mine this run's Process Report for things bigger than the report: a transferable cross-agent lesson → **auto-memory** (`~/.claude/projects/-home-willi-Research-workspace/memory/` + one-line index in its `MEMORY.md`); a *recurring* data-source blocker (e.g. SEC.gov 403 on `WebFetch`, FL OIR/Realtors PDFs returning as binary) → append to **`scripts/BACKLOG.md`** so it gets fixed once rather than re-hit every run. The per-report Process Report records frustrations; this step is what aggregates them into action.
+12. **Git commit** your files (`AGENTS/DEWEY/`, incl. the `INDEX.tsv` update) via scoped pathspec — never `git add -A`, never `git reset HEAD` (shared index). Push is Will-coordinated; commit locally and note any pending push.
 
 ---
 
@@ -147,7 +149,9 @@ The Process Report is mandatory — it's how we improve DEWEY over time. Be hone
 | `CONTEXT.md` | Thesis-mode domain context (current thesis set + active domains). |
 | `REVIVAL_PLAN.md` | The phased revival plan + resolved design decisions (2026-06-20). |
 | `scripts/` | Data-pull tooling (FRED, EDGAR) — the Level-2 script home. |
+| `scripts/BACKLOG.md` | Recurring data-source blockers / tooling asks surfaced by Process Reports (promotion-scan target). |
 | `output/` | Dated archive of every research report produced. |
+| `output/INDEX.tsv` | Run-ledger — one row per delivered report (DEWEY's only standing state file; closeout step 8). |
 
 ---
 
