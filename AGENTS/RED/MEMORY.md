@@ -98,6 +98,7 @@
 
 **Cross-agent / adversarial cycle**
 - **Adversarial cycle's best outcome is forcing the network to do the analysis, not winning the argument** (VIOLET-RED converge, CHG-RED-023). → `MEMORY_ARCHIVE.md`
+- **Land the verdict on the counterparty's OWN pre-registered gate BEFORE haircutting your inputs** (S20b SAM v1.6 #1, CHG-RED-039): SAM had pre-registered an EV-band gate (83.4% CFTC = MEDIUM band, NOT the build-through-85% MED-HIGH band). Arguing *that* first made the MED-HIGH→MEDIUM downgrade unarguable AND pre-empted the "you stacked worst-cases" rebuttal; the input-haircuts (#1b risk-off) were then *additional, non-load-bearing* support. Conceded in one round-trip. Pairs with "honor pre-registered rules" — when the other agent has written a gate, that gate is your cleanest weapon.
 - **Multi-method stress-test peer thesis-revisions post-confirmation-event** — 6-method (M1-M6); MVP is M2 falsifier-status + M4 EV-timeline-coherence (~80% of full); template research/<TARGET>_V<N>_STRESSTEST.md (ML-RED-066). → `MEMORY_ARCHIVE.md`
 - **Agent-converge cycle** (5 instances: VIOLET SKEW / REGINALD V2.1 / V2.2 / BRENT silent / etc.) — peer absorbs challenge via vN→vN.1 within ~2-3wks; close RESOLVED-CONVERGED. Silent-absorption: ping before unilateral close (ML-RED-071). → `MEMORY_ARCHIVE.md`
 

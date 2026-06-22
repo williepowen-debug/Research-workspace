@@ -52,7 +52,7 @@ The "we're wrong" case is **winning the tape**, and the 9-day window was its bes
 | **CCC OAS 947** (FRED 6/19) | FT-07 firing | tail-only/idiosyncratic | tail leads index | **45/55 bear** | **DEMOTED ←35/65** (CCC-BB artifact, LIQUID) |
 | **VIX 17.12 / SKEW 146.72** (live) | VIX absorbed all 3 catalysts | event premium fully deflated; fade scored | **SKEW reloaded to June HIGH post-catalyst** = deep-tail bid intact (DIET) | **VIX 60/40 bull · SKEW 40/60 bear** | SKEW reload NEW |
 | **Warsh FOMC: dots +40bp / core PCE 3.3%** | 6/17 | confidence signal; mkt absorbed | trapped/stagflation-Fed; rescue dead; CRE refi pressure on a lag | **55/45 bear (substance)** | NEW |
-| **USD/JPY 161.5** (live) | BOJ hiked, yen weaker, no MOF | carry/differential regime, no unwind | — | **60/40 bull** | VX-RED-024 confirmed |
+| **USD/JPY 161.6** (live) | BOJ hiked, yen weaker, no MOF | carry/differential regime, no unwind | residual = bounded convexity-tail, MEDIUM/break-even — not a near-term catalyst | **60/40 bull** | VX-RED-024 confirmed; **convexity-tail MEDIUM** (RED⇄SAM dialogue 6/22 → VX-RED-026); retire Sep-18 if no trigger |
 | **Brent 77.76 / OVX 51.73** (live) | flat-price collapsed; oil-bear vindicated (RED-08/17/18) | **OVX NOT crushed + insurance >1000% = oil-tail still bid**; physical tight (Cushing ~20M, SPR draining) | **price 60/40 bull · tail-vol 50/50** | OVX caveat NEW |
 | **WAL 79.1 / KRE 72.0 / OZK 49.8** (live) | bank stress un-pricing | Q2 prints mid-late Jul = real test; REG-24 Office >$500M near-locked | **65/35 bull** | held |
 | **10Y 4.51 / TLT 86.0** (live) | term premium contained by Warsh credibility | bear-flattener (2Y +16bp); duration needs a *growth* break now | **45/55 bear** | flat |

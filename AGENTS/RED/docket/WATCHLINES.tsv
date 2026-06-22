@@ -10,3 +10,4 @@ WL-08	KRE	yf	KRE	price	1	<	67	1	Jun30 KRE puts in-frame	Position watch line
 WL-09	WAL	yf	WAL	price	1	<	74	1	Window-trigger WAL leg	Position watch line
 WL-10	SPY-DAY	yf	SPY	change_pct	1	<	-2	1	Window-trigger SPY leg (-2pct day)	Intraday change-based
 WL-11	BRENT	yf	BZ=F	price	1	<	95	1	CHG-RED-027 sub-trigger (d) price leg	Needs Hormuz >5mbpd 15d leg too — price leg only here
+WL-12	USDJPY	yf	JPY=X	price	1	<	155	3	SAM convexity-tail firing / yen-haven re-couple watch	RED cross-agent monitor of SAM v1.6 (VX-RED-026): USDJPY breaking <155 sustained = sharp yen-strengthening = convexity-tail paying / cross-pair re-coupling. Other tripwires (CFTC cover<-108K / build>-153K, Sep-18 retire-date) are CFTC/date-based -> homed in VX-RED-026 Flip_If + docket/CATALYSTS.tsv (not boot.py yf/fred-evaluable).
