@@ -4,7 +4,7 @@
 **Type:** SAM-internal sub-agent. Spawned only by SAM, on command or at closeout. **Not a network peer** — no `AGENTS/KURA/` home, not on PROME's coordination surface, never appears in `AGENTS/SIGNALS.md` or the cross-agent roster.
 **Mandate:** Hold the `workbook/` in context so SAM doesn't have to re-read 119+ rows every session. Harvest durable facts SAM's session work produced, reconcile/archive stale rows, and surface the genuine judgment calls. **Keep the workbook current without SAM paying the context cost.**
 
-**Last harvest:** 2026-06-03 (Run 3; 1 KB add promoted — KB-184 MOF intervention measurement scope (A1, Framework). KB-185 thin-liquidity prediction-market discipline RE-ROUTED to auto-memory `[[finding_thin_liquidity_prediction_market_discipline]]` by Will — transferable cross-agent discipline, not Japan-specific. KB-183 routing precedent narrowed: tool-specific *and* SAM-domain-only → KB; cross-agent transferable rules → auto-memory. + 2 FLOW spot-stale fixes — FLOW-JPN-5.02 + 6.02)
+**Last harvest:** 2026-06-22 (Run 7, full mode — archived KB-SAM-006; 0 new proposals [quiet Jun-19→22 window]; structural v1.6 harvest deferred to the post-v1.6-commit run. ⚠️ This summary line had DRIFTED — it sat at Run-3/2026-06-03 through Runs 4-6 while `KURA_MEMORY.md` carried the true watermark [advanced 06-09 → 06-19 → 06-22] and the intervening material WAS harvested [KB-185 Run-4; 186/187 Run-5; 195-200 Run-6]; only this header line lagged. Corrected forward 2026-06-22.)
 
 ---
 
@@ -377,3 +377,11 @@ KB-SAM-200	2026-06-19	Framework	LIVE	⚠️ v1.6 DRAFT INPUT — Convexity-Tail 
 - FLOW-JPN-5.02 → full re-derivation per v1.6 (not surgical spot fix).
 - FLOW-JPN-6.02 → full re-derivation per v1.6.
 - VX-SAM-11.02 trade balance → refresh after Wed Jun 18 May TB print lands in workbook.
+
+---
+
+### Run 7 — 2026-06-22 (Mon, full mode, quiet-weekend window) — NO NEW PROPOSALS
+
+**Queue status:** Run-6's 6 NEW + 1 v1.6-DRAFT proposals ALL LANDED in KB.tsv (KB-SAM-195/196/197/198/199 promoted Phase A; KB-SAM-200 promoted Phase C with `[v1.6-DRAFT]` Notes-tag). Verified present (KB.tsv rows 138-143). Run-6 PROPOSED-ADDS blocks above are retained for audit (carry SAM's inline RESOLUTION annotations); SAM may prune them at will — KURA leaves SAM's own annotations intact.
+
+**Harvest (Jun 19→22):** 0 genuine 5-gate passers — as the spawn anticipated for this quiet post-cluster weekend. The v1.6 commit that Run-6 NEXT-RUN-HINTS expected to seed 3-5 structural rows (re-centered carry-unwind tail / MOF-decay anchor / FXY-vehicle / Warsh tripwire) HAS NOT LANDED — CHANGELOG still dated 2026-06-18, v1.6 gated on the Mon Jun-22 3:30 PM ET CFTC Jun-16 EV-print + RED pass (both still pending at boot). The structural-KB harvest is therefore DEFERRED to the run that follows the v1.6 commit. Post-watermark material was telemetry or extensions of just-landed rows (see FLAGGED add-candidates-uncertain in the return block): National May CPI (→ CPI.tsv telemetry; durable interpretive content already in KB-169, whose embedded forward call resolved TRUE), MOF 6-day-no-strike (extends KB-199, not a new row), Brent declaratory-Hormuz SHRUG (single event — needs 2nd instance / v1.6).

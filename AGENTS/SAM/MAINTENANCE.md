@@ -8,6 +8,21 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
+## 2026-06-22 — RED-dialogue scaffold + doc-ownership cleanup (STATUS→TIMELINE) + steward runs
+
+**Trigger:** Will-directed housekeeping while RED catches up (8-day dark) ahead of the v1.6 convergence (gated on the Mon 3:30 PM ET CFTC Jun-16 EV-print + RED pass).
+
+1. **NEW: `V16_RED_DIALOGUE.md`** — turn-based adversarial surface for the SAM⇄RED v1.6-backbone resolution (baton header + append-only discipline + the 6 pre-registered RED challenges with per-challenge SURVIVES bars + a resolution ledger). Top-level in SAM's dir (SAM-owned/committed; RED appends — a Will-authorized exception to the don't-edit-each-other's-files rule). Temporary task artifact — archives on v1.6 finalize. Boot-impact: none (not a boot read).
+2. **STATUS doc-ownership cleanup:** the Jun 1-6 "STATE OF PLAY" play-by-play (resolved narrative) → replaced with a pointer to TIMELINE (RESOLVED blocks Jun 1 / Jun 5-6 / Jun 8-9). **STATUS 326→294 lines.** Cabling evidence retained in § BOJ ASSESSMENT; the OS.1-closure trace preserved. The banner + BOJ-ASSESSMENT-table + WHAT-TO-WATCH compression stays the v1.6 job (still >250 cap).
+3. **TIMELINE backfill:** narrated the 5 post-Jun-16 resolved events (FOMC Jun-17 / Iran deal Jun-17 / May-TB Jun-17 / National CPI Jun-19 / Hormuz re-closure Jun-20) as one newest-first block — facts + current framing, conviction re-underwrite deferred to v1.6. **TIMELINE 329→360 lines.** Fixes the stale prune-trail KOYOMI flagged (TIMELINE had been current only through Jun-16).
+4. **Steward runs:** KOYOMI Run-9 (docket prune + framing refresh; retained the CFTC peak-fuel row per directive) + KURA Run-7 (full mode; archived KB-SAM-006; watermark 06-19→06-22; surfaced that its `Last harvest:` header had drifted at Run-3/06-03). Both verified clean against ground truth; neither committed.
+
+**Boot-impact:** STATUS shorter (294 lines, still >250 cap pending v1.6); TIMELINE current through Jun-20; +1 temporary dialogue file (not a boot read).
+
+**Deferred:** the 2 minor KOYOMI docket escalations (#2 prune GEOPOLITICAL WATCH >7d resolved rows; #3 relocate the Sato row) → KOYOMI's next run. NEXUS_BRIEF refresh + the MEMORY session-notes rewrite → post-v1.6 closeout.
+
+---
+
 ## 2026-06-21 — WIRED NEXUS_BRIEF.md into the SPAWN PROTOCOL (closeout write-back + FILES + Doc-Ownership)
 
 **Trigger:** Will-directed boot-process cleanup. A 7-peer compare/contrast (BRENT/VIOLET/HENRY/CARL/HAWK/LIQUID/REGINALD, via background workflow) found SAM leads the fleet on internal apparatus (10-script boot.py actually wired + clean; calibration scoreboard preamble + PREDICTIONS_ARCHIVE; 3 stewards KOYOMI/METSUKE/KURA; evals/ + RECONCILIATION) but trails on the newer cross-agent plumbing. Specifically `NEXUS_BRIEF.md` — present since the ~Jun-6 NEXUS-schema rollout — was never wired into CLAUDE.md, so it rotted ~2wk stale (body As-of Jun-7, pre-BOJ). The brief's own footer flagged the gap verbatim: "write-back step pending CLAUDE.md amendment."

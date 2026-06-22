@@ -70,7 +70,7 @@
 **Carry-forward (post Phase A/B/C cleanup — minor items deferred to v1.6 finalize sweep):**
 
 8. METSUKE MINOR drifts (4 items): TRADE L246 Iran row stale-only ("substantively walking back / unsigned" — superseded by SIGNED); STRATEGY L122 Position A Jun-9 parenthetical; STRATEGY L183-187 Key Check Dates partial cleanup (multiple resolved forward-only refs); TRADE L42 hard-trigger subheader timestamp.
-9. KURA archive-move (6 SUPERSEDED rows ready for Run 7 `full` mode: KB-064/081/084/087/092/137).
+9. ✅ KURA archive-move DONE (Run 7, 2026-06-22): archived **KB-SAM-006** (the one genuinely-SUPERSEDED row; KB.tsv 142→141). ⚠️ The prior "6 rows ready (KB-064/081/084/087/092/137)" claim was STALE — those 6 were ALREADY in KB_ARCHIVE from a prior run (KURA flagged the discrepancy rather than forcing it). No archive backlog remains.
 10. KURA FLOW/VX full re-derivation per v1.6 finalize (FLOW-JPN-5.02 / 6.02 too much moved for surgical fix; VX-SAM-11.02 trade balance refresh).
 11. **Channel 1 disposition (Will-directed re-examination):** decide DEFERRED → RETIRED pending new mechanism (4-of-4 disconfirmations: Big 3 mutuals + Norinchukin). RED #6 challenges the honesty of "deferred pending" with no specified reactivation path.
 12. **SAM-23 framework re-anchoring CHANGELOG entry** (post v1.6 scoring; CH-011 driver/disorder + no-strike decay).

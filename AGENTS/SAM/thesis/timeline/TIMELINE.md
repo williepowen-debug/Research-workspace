@@ -1,11 +1,42 @@
 # SAM TIMELINE
 
-**Last Updated:** 2026-06-16 (BOJ hiked to 1.00% as priced — dominant catalyst spent, no carry unwind, CH-004 confirmed; 4 June predictions resolved)
+**Last Updated:** 2026-06-22 (backfilled the post-Jun-16 resolved sequence — FOMC Jun-17 Warsh-hawkish / Iran deal signed Jun-17 / May-TB Jun-17 / National CPI Jun-19 / Hormuz re-closure Jun-20; facts + current framing, conviction re-underwrite deferred to v1.6)
 **View:** Base case progression with branch points marked
 
 This document maps our forward-looking expectations — what's coming, what we think happens, and where the path could diverge. Updated as events resolve or views change.
 
 *Pre-2026-05-11 entries archived to [ARCHIVE.md](ARCHIVE.md).*
+
+---
+
+## RESOLVED — Jun 17-20 (POST-BOJ SEQUENCE: WARSH-HAWKISH FOMC RE-WIDENS PILLAR 1 · IRAN DEAL SIGNED · MAY-TB DEFICIT RE-OPENS · SOFT NATIONAL CPI · HORMUZ RE-CLOSURE SHRUG)
+
+*Backfilled 2026-06-22 (doc-ownership: these five resolved events were live in STATUS but un-narrated here; facts + current post-Jun-18-propagation framing — the conviction re-underwrite is v1.6's job). Newest-first within the block.*
+
+### Sat Jun 20 — IRAN RE-DECLARES HORMUZ CLOSED → BRENT SHRUGS (declaratory-not-physical confirmed)
+- **Event:** Iran's joint military command (Khatam al-Anbiya, via Mehr) re-declared the Strait of Hormuz CLOSED — a "first step" — citing a US/Israel breach of MOU clause-1 ("war stops on all fronts incl. Lebanon"); IRGC warned ships off. **DECLARATORY; physical effect DISPUTED** — CENTCOM reported traffic still flowing (~55 ships transited Sat), no tanker attack / mine / seizure in-window. 4th declaratory closure of the cycle (Mar 2 / Apr 18 / Jun 11 / Jun 20). Lebanon re-heated (~150 strikes / ~47 dead Jun 19); Switzerland nuclear talks still on for Sun Jun 21. (Cross-agent: BRENT THESIS v4.1 / HAWK B34/C44/D22; verified NBC/Axios/CBS/ToI.)
+- **Market verdict — the load-bearing read: SHRUG.** Mon Jun 22 was the pre-registered decoupling test — Brent did NOT spike; it fell further (~$77.7, −2.5% on the day, ~−20% cum from the $96.78 Jun-3 baseline). **Declaratory ≠ physical confirmed; the oil-in-yen channel stays dormant; the thesis holds on that leg.**
+- **SAM read — NO re-mark** (declaratory ≠ physical, [[finding_threshold_vs_mechanism]]): near-term FX direction is ambiguous-to-yen-NEGATIVE for Japan (Phase-1 supply-destruction inverts; risk-off routes to USD-haven not yen-haven — cross-pair decoupled since Jun 11; VIX subdued). Only the slow Phase-2 path is yen-bullish. Fattens the v1.6 convexity-tail "Oil/MOU re-escalation" route — TAIL only.
+
+### Fri Jun 19 — JAPAN NATIONAL MAY CPI: SOFT UNDERLYING (core held 1.4%, 4-yr low; core-core −10bp)
+- **Event:** MIC National May CPI — headline **1.5%** (↑ from 1.4% Apr, but on an energy base-effect from utility-subsidy *expiry*, not demand), core ex-fresh-food **1.4%** (held flat; 4th straight month <2% target; 4-yr low; matched forecast), core-core **1.8%** (−10bp vs Apr 1.9% / forecast 1.9% — a slight dovish miss). Verified Reuters/CNBC/Japan Times; `cpi_japan.py` was down (ESTAT_APPID unset) → pulled manually. (⚠️ The stockpil.com aggregator's 2.1% core was WRONG — see auto-memory [[feedback_suspect_fresh_pull_over_curated_record]].)
+- **Why it matters:** Confirms the post-hike disinflation trajectory — National core-core (1.8%) printed *above* Tokyo's 1.6% as expected (Tokyo subsidy-bias), but the underlying gauge is soft and easing. **Thins the post-1.00% Oct-hike repricing** (the multi-month next-hike tail is thinner). Thesis-coherent: the BOJ hiked Jun 16 on the wage/activity *mechanism*, and CPI stays soft — the mechanism-over-threshold read ([[finding_threshold_vs_mechanism]]). v1.6 input.
+- **SAM marks:** no re-mark (SAM-21/24 already resolved; this is a forward-path input). SAM-27 (April CPI <2%) stays CONFIRMED — figures re-verified Jun 20.
+
+### Wed Jun 17 — FOMC (WARSH DEBUT): HOLD 12-0 BUT 2026 MEDIAN DOT +40bp → PILLAR 1 RE-WIDENS
+- **Event:** First FOMC under new Chair **Warsh** (in seat since May 22 — a regime fact that sat un-modeled in SAM's docs for ~4wk; see [[finding_boot_sweep_macro_regime_context]]). Held 3.50-3.75% **unanimous 12-0** (Miran + the 3 April dissenters dropped once the easing language was removed). Statement gutted ~300→~130 words — removed "extent and timing of additional adjustments," removed balance-of-risks + forward easing bias; added Middle East / supply-shock inflation framing + "The Committee will deliver price stability." **The SEP was the move:** 2026 median dot **3.4% → 3.8% (+40bp), implying ≥1 hike** (9 of 18 dots hike, 6 see two; 8 hold; 1 cut); core PCE 2026 +60bp to 3.3%; 17 of 18 see inflation risks to the upside. Warsh refused to dot himself ("forward guidance not well suited") and: "no reason... to revisit [the 2% target]." No FX / coordination language. (fed.gov statement+SEP; CNBC redline; Reuters/Yahoo presser.)
+- **Why it matters — the analytically heavy one:** **Pillar 1's directional sign flipped.** BOJ +25bp (Jun 16) compressed the rate gap; the Fed-dot +40bp (Jun 17) re-widened it more — net Jun 16-17, the differential is **WIDER** than pre-Tuesday. The v1.5 "Fed-cut secondary path" is not merely dormant — its replacement, a **Fed-HIKE regime**, is operative under the Warsh frame (CME July hike ~75%; Polymarket "Fed hike 2026" ~52→56%, later ~66%). The multi-month US-credit-cascade → cuts tail survives only *theoretically* (requires breaking the Warsh frame); SAM's carry tripwire moves from "Fed-cut surprise" to **"any walk-back of the Jun-17 dot revision."**
+- **Market verdict:** DXY broke 100 (~+1%); 2Y +16bp to 4.216% (bear-flattener); S&P −1.21%; **USDJPY 160.78 Wed close → 161.34 Thu**, MOF silent 48h+ (Bloomberg "Markets Alert for Japan Intervention"; no Katayama line surfaced). The post-event intervention question is now LIVE again as a separate v1.6 scenario anchor.
+- **SAM marks:** facts logged in the Jun-18 propagation pass; **no conviction re-mark — that is the v1.6 re-underwrite's job** (re-centers the thesis from compression → carry-convexity-tail; near-term direction inverted, structural tail intact-to-stronger).
+
+### Wed Jun 17 — IRAN/US DEAL SIGNED (initial agreement; signing-binary resolved, verification leg OPEN)
+- **Event:** Trump + Pezeshkian signed an initial agreement — **electronic signing** (Iran-confirmed via Al Jazeera; NOT a Geneva/Switzerland ceremony — a Step-1.5 sweep correction); Pakistan PM Sharif "enters force immediately." Terms: **60-day toll-free Hormuz reopen, THEN Oman-administered fees**; US lifts the naval blockade; Iran dilutes HEU; sanctions waived (not terminated); 60-day nuclear-negotiation window. **Per CNN this is an *initial* agreement — "tougher talks lie ahead" on the verification leg.** The Pezeshkian electronic signature is the primary-source threshold the Jun-12 framework lacked → **signing-binary resolved**; Iran docket UNFROZEN.
+- **Implementation (Day 110+):** Hormuz reopening process begun Thu Jun 18 — initial traffic resuming (4 supertankers transiting incl. first Saudi-owned vessels since Day 1; backlog "weeks to clear"); naval blockade lifting. **Verification leg OPEN:** demining, insurance restoration, traffic normalization, Oman fee-administration (60-day toll-free closes ~Aug 16), HEU dilution compliance, sanctions-waiver rollout. (The Jun-20 declaratory re-closure above is the first verification-leg-stress data point — declaratory only.)
+- **SAM read:** Phase-1 oil-in-yen channel near-term DORMANT pending implementation (NOT formally closed). Brent's collapse is now half deal-driven, half IEA-glut (the +8 mbpd-by-2027 vs +2 demand warning) — a durable bearish-oil regime developing independent of the ME, so a verification-leg failure would only partially re-rate.
+
+### Tue Jun 17 (~7:50 PM ET) — JAPAN MAY TRADE BALANCE: DEFICIT ¥-378.7B (branch a, but exports carry it)
+- **Event:** May TB deficit **¥-378.7B** vs ¥-564.6B consensus (beat by ~33%; first deficit in 4 months). Exports **+17% YoY** (autos + semis to US/China carrying it); ME crude volumes **−57% YoY** (Hormuz disruption); US crude +24%.
+- **Diagnostic read (pre-registered branch routing):** **Branch (a) substantively confirmed** — deficit re-opens with Brent <$100 — BUT the *export* print is doing the heavy lifting, not the cost side, so it reads modestly counter-thesis to "Phase-1 fully back online." The v1.5 CHANGELOG candidate (relabel the April surplus as a one-month volume-collapse spike) is queued for v1.6. The clean Phase-1-inversion test is the next TB print.
 
 ---
 
