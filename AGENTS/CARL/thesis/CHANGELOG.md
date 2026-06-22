@@ -8,6 +8,23 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-06-22 PM-2 — THESIS v2.5.2 → v2.6 (Will-approved): paired vector re-score V12 4→5 + V5 4→3, net 52/70 held
+
+### THESIS — version bump v2.5.2 → v2.6 (minor: paired vector re-score, Will-approved)
+**Author:** CARL (executed on Will's explicit approval of the paired move surfaced in the Jun-22 catch-up).
+
+**Old → New:**
+- **V12 Stagflation Trap / Fed Locked: 4 → 5** (⬆️, first vector ever at 5). Rationale: FOMC Jun-17 (new Chair **Warsh**'s first meeting) graded hawkish-relative — dots flipped to a HIKE (2026 median 3.4%→3.8%, 9/18 pencil hikes) on a **stagflationary SEP** (GDP 2026 2.2%↓ / PCE 3.6%↑↑ / Core PCE 3.3%); Warsh "look through energy." The "locked out of easing" mechanism is now **fully fired** — the Fed is tightening into a slowdown under a hard-money Chair (multi-meeting reaction function, not a one-print event). The prior 4-score hurdles (monthly Core PCE TTM >3.0%, UMich 5-10Y triangulation) are **superseded** by harder evidence: the Fed's OWN 3.6% PCE projection + hike-bias. **Bias-against-5 discipline preserved via an explicit un-fire condition:** reverts to 4 only on a Warsh dovish pivot (a 2026 cut returns to the dots OR presser credibly signals easing, 2 consecutive meetings). Residual "could actually hike" = escalation of degree within a sprung trap, not a higher mechanism state.
+- **V5 Gas Price Squeeze: 4 → 3** (⬇️). Rationale: the gas leg of the multi-vector cost-squeeze is **relieving** — gas $3.929 falling 5th wk (−62¢ from peak), **Islamabad MOU Jun-17 waived Iran oil-export sanctions** (structural supply add), CRL-08 re-breach-via-price dead-reinforced (55→40). Mechanism intact (energy→bottom-60) but the input turned tailwind; level still elevated (+$1/gal YoY, diesel high) → "watching, elevated." Re-arm to 4 on Hormuz re-closure WITH enforcement.
+
+**Net score: 52/70 (74%) UNCHANGED.** The +1 (V12) and −1 (V5) offset exactly. Histogram shifts: 5-group {V12} (was empty), 4-group drops V5+V12 (10→8 vectors), 3-group gains V5 (4→5 vectors). This is **rebalancing, not weakening** — the bear thesis's stagflation leg hardened while its gas-cost leg eased. Still 🔴🔴 CRITICAL.
+
+**Why now (vs the V16-offset framing):** the Jun-6 v2.5.2 V16 4→3 downgrade was explicitly logged as "offset by a V12-hardening *candidate*." The FOMC Jun-17 hawkish-relative grade under Warsh **realizes** that candidate. The simultaneous V5 relief is the genuine counter-current (RED-honest) that keeps the net flat.
+
+**Files:** THESIS.md (version stamp + score-section header + 5-def [now 1 at 5] + V12/V5 matrix cells + histogram + commentary + upgrade-path + Thesis-Evolution entry), STATUS.md (Overall + top-line + V12/V5 cells + histogram + 5-def + total note), this CHANGELOG, NEXUS_BRIEF.md (re-pin), ROADMAP.md (open thread → RECENTLY RESOLVED). No PREDICTIONS change (score move is vector-level, predictions unaffected).
+
+---
+
 ## 2026-06-22 PM — 6-day catch-up sweep (gather workflow w95yzkviz): FOMC Jun-17 graded HAWKISH-RELATIVE under NEW Chair Warsh; V12 4→5 + V5 4→3 paired v2.6 candidates (net 52/70 held); CRL-08 trim 55→40; CRL-07 magnitude caveat; 32 BOARD signals + 4 releases integrated; no thesis version bump (v2.5.2 holds)
 
 ### Macro-regime change (not a thesis edit, but load-bearing context)

@@ -2,7 +2,7 @@
 **Last session:** 2026-06-22 ~18:00 ET (Mon)
 **Type:** 6-day catch-up sweep (boot + stale/dead flag → gather workflow w95yzkviz [7 research-only agents] → full CARL synthesis). FOMC Jun-17 graded HAWKISH-RELATIVE under NEW Chair Warsh; 32 BOARD + 4 releases + GIG integrated. No thesis version bump; 52/70 held.
 
-**PRIORITY-1:** **Surface the v2.6 score decision to Will** — paired **V12 4→5** (FOMC hawkish + Warsh-Fed locked, stagflationary SEP) + **V5 4→3** (gas $3.929 falling 5wk + Iran oil sanctions waived). Net-zero, headline 52/70 held; both flagged in STATUS Overall/matrix/histogram + ROADMAP open thread. If Will approves → execute as a **v2.6 thesis bump** (re-write V12+V5 framing in THESIS.md + CHANGELOG version entry). Then work the **Jun 24-26 catalyst stack** as it fires (below).
+**PRIORITY-1:** **v2.6 bump EXECUTED (Will-approved Jun 22): V12 4→5 [Fed-locked fully fired, first vector at 5] + V5 4→3 [gas relieving], 52/70 held** — written through THESIS/STATUS/CHANGELOG/NEXUS_BRIEF/ROADMAP. **Next focus = the Jun 24-26 catalyst stack:** Jun 24 FL UI Wave-1 cliff (CRL-07, magnitude-constrained by FL 8% recipiency) + New Home Sales · Jun 25 May PCE (savings sub-2.5%) · **Jun 26 Fannie MF May = CRL-03 RESOLVER** (2nd <0.65% print → CRL-03 invalidates; rebound toward 0.80% → breach back in play) + UMich June final.
 
 ---
 

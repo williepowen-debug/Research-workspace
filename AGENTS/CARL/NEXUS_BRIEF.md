@@ -1,9 +1,9 @@
 # CARL — NEXUS Brief
 
-**Status:** 🔴 Convergence 52/70 (held) — **FOMC Jun-17 confirmed the stagflation trap under NEW Chair Warsh** (dots flipped to a hike, PCE-2026 3.6%); V12 4→5 + V5 4→3 paired v2.6 candidates net-zero today. Structural consumer core (credit/K-shape/housing-deflation) intact & rate-path-independent; gas-squeeze leg relieving
+**Status:** 🔴 Convergence 52/70 (held) — **FOMC Jun-17 confirmed the stagflation trap under NEW Chair Warsh** (dots flipped to a hike, PCE-2026 3.6%); **v2.6 EXECUTED — V12 4→5 (Fed-locked fully fired, first vector at 5) + V5 4→3 (gas squeeze relieving), offset → 52/70 held.** Structural consumer core (credit/K-shape/housing-deflation) intact & rate-path-independent
 **Domain:** U.S. consumer financial stress — credit delinquencies (CC/auto/student/mortgage), housing & foreclosures, K-shape bifurcation, consumer spending, gas-pump pass-through. Transmission LABOR→**CARL**→REGINALD. **NOT mine:** labor/NFP/JOLTS → **LABOR**; bank-level impact → **REGINALD**; oil/Brent spot → **HAWK/BRENT** (I own pump + energy-CPI downstream); SPX/vol → **HENRY**.
-**Thesis version:** v2.5.2 ("Beneath the Ice")
-**Recent thesis pivot:** v2.5.2 (Jun 6) holds. **v2.6 candidates now PAIRED (Jun-22, awaiting Will):** V12 Stagflation Trap 4→5 (FOMC hawkish + Warsh-Fed locked) AND V5 Gas Squeeze 4→3 (gas relieving + Iran sanctions waived) — net-zero, headline 52/70 held.
+**Thesis version:** v2.6 ("Beneath the Ice")
+**Recent thesis pivot:** **v2.6 EXECUTED (Jun 22, Will-approved):** paired re-score V12 Stagflation Trap **4→5** (FOMC hawkish + Warsh-Fed locked = mechanism fully fired, first vector at 5) AND V5 Gas Squeeze **4→3** (gas relieving + Iran sanctions waived) — offset exactly, headline 52/70 held; rebalancing, not weakening. (Prior v2.5.2 Jun 6: V16 4→3.)
 **Position:** N/A — research domain, no direct book. Thesis expresses via REGINALD/FORGE (KRE/WAL/OZK); I do not mark positions.
 **As of:** 2026-06-22 ~6:00 PM ET (6-day catch-up sweep, STATUS data through Jun 22) | STATUS pin: Jun-22 catch-up-sweep commit (behavior-pin = latest CARL STATUS)
 
@@ -21,7 +21,7 @@
 
 ## CALIBRATION
 
-- **Conviction:** direction-HIGH · timing-MEDIUM · level-MEDIUM (52/70 v2.5.2; bias against scoring any vector 5 — 0 currently at 5).
+- **Conviction:** direction-HIGH · timing-MEDIUM · level-MEDIUM (52/70 v2.6; **1 vector now at 5 — V12 Fed-locked fully fired**, with an explicit un-fire condition [Warsh dovish pivot]; bias-against-5 preserved via that falsifier).
 - **Diverge from market by:** HY OAS 272bps GREEN-by-threshold but RED-by-late-2007-analog (Jun '07 was 260bps → 800+bps Nov, 5-mo lag). Market hasn't been *forced* to reprice structured-credit cracks; my read is the masking holds until vintage curves load through the CRL-20/21 windows. The gap is "not-yet-repriced," not disagreement on direction.
 - **Cross-agent tensions known to me:** **SAM dependency RESOLVED on my side** — post-FOMC US read is in: a **hawkish Warsh Fed (dots→hike, 30Y UST >5%) = USD strength PERSISTS**, which delays the FXY carry-unwind vehicle SAM was gating on my read. Aligned with **BRENT** (sanctions waived / crude near pre-war — no tension).
 - **Uncertain about:** (1) FOMC Jun-17 dots hawkish-*relative-to-pared-market* (I put 45% modal — see FOMC_PACKET_2026-06-17.md); (2) whether softened May core CPI (+0.2%, halved) is single-month or genuine breadth-narrowing — needs Jun print; (3) Fannie MF −14bps = extend-and-pretend vs genuine resolution (Trepp CMBS MF 7.71% ATH refutes "cooling").
@@ -53,7 +53,7 @@
 
 ## NEXT DECISION POINT
 
-- **What:** v2.6 score decision (awaiting Will) — paired **V12 4→5** (FOMC hawkish + Warsh-Fed locked) + **V5 4→3** (gas relieving + Iran sanctions waived); net-zero so headline 52/70 held. If approved → v2.6 thesis bump (re-write V12+V5 framing, CHANGELOG version entry).
+- **What:** v2.6 score bump DONE (Jun 22, Will-approved — V12→5 / V5→3). Next decision = the Jun 24-26 catalyst stack, lead resolver **Fannie MF May (~Jun 26, CRL-03)**: 2nd <0.65% print → CRL-03 invalidates; rebound toward 0.80% → breach back in play.
 - **When:** next Will-facing session; data resolvers = Fannie MF May (~Jun 26, CRL-03) + May PCE (Jun 25).
 - **What would change my view:** Hormuz re-closure WITH enforcement → re-arm CRL-08/V5 (un-pairs the move); a 2nd dovish FOMC signal (unlikely under Warsh) → V12 4→5 weakens.
 

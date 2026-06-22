@@ -1,5 +1,5 @@
 # CARL THESIS: "Beneath the Ice"
-**Version:** 2.5.2 | **Updated:** 2026-06-06 | **Status:** ACTIVE — convergence **52/70 (74%)**, Path C ACTIVE-RED (provisional pending counterfactual), cross-industry data masking confirmed. *(v2.5.2 Jun 6: V16 Employment Structural Rot 4→3, re-anchored after Jun 1-5 labor wall reversed its acute legs; mechanism intact. v2.5.1 May 3: masking narrowed 6→4 + CRL-22/23.)*
+**Version:** 2.6 | **Updated:** 2026-06-22 | **Status:** ACTIVE — convergence **52/70 (74%)**, Path C ACTIVE-RED (provisional pending counterfactual), cross-industry data masking confirmed. *(v2.6 Jun 22: paired vector re-score — **V12 Stagflation Trap/Fed-Locked 4→5** [FOMC Jun-17 hawkish-relative under NEW Chair Warsh: dots flipped to a hike on a stagflationary SEP; Fed-locked mechanism fully fired] and **V5 Gas Price Squeeze 4→3** [gas −5wk + Iran oil sanctions waived = squeeze relieving]. Net 52/70 unchanged — rebalancing, not weakening. First vector at 5. v2.5.2 Jun 6: V16 4→3 re-anchored. v2.5.1 May 3: masking narrowed 6→4 + CRL-22/23.)*
 
 ---
 
@@ -239,10 +239,10 @@ Standing list of observations the thesis predicts should be visible but aren't, 
 
 ---
 
-## Convergence Score: 52/70 *(rescaled, expanded, architecturally aligned v2.5; V16 4→3 v2.5.2 Jun 6; canonical — STATUS.md mirrors)*
+## Convergence Score: 52/70 *(rescaled, expanded, architecturally aligned v2.5; V16 4→3 v2.5.2 Jun 6; V12 4→5 + V5 4→3 paired v2.6 Jun 22; canonical — STATUS.md mirrors)*
 
 **Score definition (v2.5):**
-- **5 = Fully fired, no further upside in mechanism.** Reserved for vectors at terminal state across all relevant entities. **Currently 0 vectors at 5.**
+- **5 = Fully fired, no further upside in mechanism.** Reserved for vectors at terminal state across all relevant entities. **Currently 1 vector at 5 (V12 — Fed-locked mechanism fully fired: FOMC flipped to a hiking bias under a hard-money Chair on a stagflationary SEP; un-fires only on a Warsh dovish pivot / a cut returning to the dots).**
 - **4 = Firing, with room to escalate.** Most "active critical" vectors.
 - **3 = Watching — elevated but not at critical.**
 - **2 = Mildly relevant — supporting context, not load-bearing.**
@@ -254,14 +254,14 @@ Standing list of observations the thesis predicts should be visible but aren't, 
 | 2 | Subprime Auto 60+ | 5 | **4** ⬇️ | Strict-definition fix: EART Class E breached terminal for that tranche, but AMCAR (~2mo) and SDART (~7mo) still have cushion. 5 reserved for "all relevant trusts terminal." | Fitch ATR drops below 6.5% for 2 consecutive months OR cure mechanism reverses across 3 trusts |
 | 3 | Fannie MF DQ → GFC | 4 | 4 | Holds — 0.74% Feb (6bps from peak); March data late Apr | Drops below 0.65% for 2 consecutive months |
 | 4 | Student Loan 90+ | 5 | **4** ⬇️ | Rescaled per v2.5 def — 9.8% with cascade executing, but room to escalate to 12-15%+ historically | NY Fed quarterly drops below 9.0% OR Sweet/MOHELA tradeline corrections |
-| 5 | Gas Price Squeeze | 5 | **4** ⬇️ | Rescaled — $4.392 with $4.50/$5+ still possible | Brent <$80 AND gas <$3.50 sustained 4+ weeks AND pipeline DQ reverses ≥10bps |
+| 5 | Gas Price Squeeze | 5 | **3** ⬇️ *(4→3 Jun 22, v2.6)* | **v2.6 downgrade — squeeze RELIEVING.** Gas $3.929 falling 5th wk (−62¢ from peak), **Islamabad MOU Jun-17 waived Iran oil-export sanctions = structural supply add**, CRL-08 re-breach-via-price dead-reinforced (55→40). Mechanism intact (energy→bottom-60) but the input turned tailwind; level still elevated (+$1/gal YoY, diesel high) → "watching, elevated," not firing. | Drop to 2: gas <$3.50 sustained 4+ wk AND diesel normalizes. Re-arm to 4: Hormuz re-closure WITH enforcement OR fresh kinetic → Brent $105-110 + pass-through |
 | 6 | UI Exhaustion Wave | 5 | **4** ⬇️ | Exhaustion mechanism unverified (FL Wave 2 surface counter-thesis) | Continuing claims drop AND no DQ/spending exhaustion signal Jun-Aug 2026 |
 | 7 | FL Triple Squeeze | 4 | 4 | Holds | FL Citizens rates stabilize AND HOA assessments level off AND FL gas <$4.00 |
 | 8 | K-Shape Converging *(merged from old V8 + V9, two-step rationale)* | 5+5 | **4** ⬇️ | Step 1: merger eliminates double-count (5+5 → single 5). Step 2: magnitude-not-2008-quantified is independent calibration call (5 → 4). Two distinct moves, not conflated. | Subprime DQ stabilize 2 consecutive quarters AND prime cohort decompose shows genuine improvement AND upper-cohort pullback reverses |
 | ~~9~~ | ~~K-Shape observation~~ | ~~5~~ | — | Merged into V8 in v2.5 | — |
 | 10 | Foreclosure Acceleration | 5 | **4** ⬇️ | Rescaled — pipeline converting but absolute level still below GFC; base-effect caveat pending | Q2 2026 ATTOM REO YoY pace below +25% OR FL Q2 REO YoY below +50% |
 | 11 | SB Bankruptcy + Owner Income | 4 | **3** ⬇️ | Rescaled — SubV +67% breached but bankruptcy filings still rising (room to escalate); income destruction estimated | SubV filings drop below Q4'25 baseline OR SBA default rate falls below 3.0% |
-| 12 | Stagflation Trap / Fed Locked | 5 | **4** ⬇️ | Rescaled — un-anchored expectations + 1 quarter NIPA, but TTM not crossed; UMich triangulation pending | UMich 5-10Y exp re-anchors below 3.0% for 3 consecutive readings AND Fed credibly cuts AND TIPS 5y5y stays below 2.5% |
+| 12 | Stagflation Trap / Fed Locked | 5 | **5** ⬆️ *(4→5 Jun 22, v2.6)* | **v2.6 upgrade — Fed-locked mechanism FULLY FIRED.** FOMC Jun-17 (new Chair **Warsh**'s first meeting) graded hawkish-relative: dots flipped to a HIKE (2026 median 3.4%→3.8%, 9/18 pencil hikes) on a **stagflationary SEP** (GDP 2.2%↓ / PCE 3.6%↑↑ / Core PCE 3.3%); "look through energy." The Fed is now tightening INTO a slowdown — "locked out of easing" is maximally expressed under a hard-money Chair (multi-meeting, not one-print). Residual "could actually hike" is escalation of degree within a sprung trap, not a higher mechanism state. | **Un-fire to 4:** Warsh dovish pivot — a 2026 cut returns to the dots OR presser credibly signals easing — for 2 consecutive meetings. (Prior TTM/UMich-triangulation hurdles superseded: the Fed's OWN 3.6% PCE projection + hike-bias is the harder evidence.) |
 | 13 | **Federal Fiscal Capacity Stress** *(NEW v2.5)* | — | **3** | Watching — TGA dynamics, debt ceiling status, term-premium pressure; restrained but not at crisis | TGA stable AND debt ceiling extended without drama AND term premium <50bps |
 | 14 | **Upper-Decile Wealth Stress** *(NEW v2.5)* | — | **3** | Watching — RV crash + retail-investor pullback are early signals; SPX still near highs | Dollar Tree HH growth from >$100K reverses AND retail investor flows recover AND RV market reflates AND SPX makes ATH |
 | 16 | **Employment Structural Rot** *(NEW v2.5)* | — | **3** ⬇️ *(4→3 Jun 6, v2.5.2)* | **Re-anchored:** acute legs reversed on Jun 1-5 wall (JOLTS 0.91→1.03 inversion gone; 3-mo NFP avg 48K→188K, +93K revisions; UR 4.3% held). Structural-freeze legs survived + confirmed: hires fell 5.1M as openings jumped +731K (frozen churn); ISM Svc Emp 47.9 (3rd mo contraction); duration 25.7wk; LFPR 61.9%. Mechanism intact but escalation path receded → "watching, elevated." | Re-arm to 4: next JOLTS re-inverts OR NFP prints negative w/ downward revisions. Drop to 2: hires rate recovers >3.8% AND ISM Svc Emp back >50 AND duration falls <22wk |
@@ -270,14 +270,14 @@ Standing list of observations the thesis predicts should be visible but aren't, 
 
 | Score | Vectors | Count | Sum |
 |-------|---------|-------|-----|
-| 5 | (none) | 0 | 0 |
-| 4 | V1, V2, V3, V4, V5, V6, V7, V8, V10, V12 | 10 | 40 |
-| 3 | V11, V13, V14, V16 | 4 | 12 |
+| 5 | V12 | 1 | 5 |
+| 4 | V1, V2, V3, V4, V6, V7, V8, V10 | 8 | 32 |
+| 3 | V5, V11, V13, V14, V16 | 5 | 15 |
 | 2 | (none) | 0 | 0 |
 | 1 | (none) | 0 | 0 |
 | **Total** | **14 vectors** | **14** | **52/70** |
 
-Critical vectors (1-12 + 16): avg 3.8. Supporting vectors (13-14): avg 3.0. Spread: 0.8. The score now actually discriminates. *(V16 4→3 Jun 6 v2.5.2 — see vector #5 prose; offset by V12 hardening, an active v2.6 upgrade candidate.)*
+Critical vectors (1-12 + 16): avg 3.8. Supporting vectors (13-14): avg 3.0. Spread: 0.8. The score now actually discriminates. *(v2.6 Jun 22: V12 4→5 [Fed-locked fully fired — first vector at 5] paired with V5 4→3 [gas squeeze relieving] — net 52/70 unchanged; the V12 step-up and V5 step-down offset exactly. V16 4→3 Jun 6 v2.5.2.)*
 
 ### Honest commentary on score change (the conviction question)
 
@@ -288,14 +288,14 @@ v2.5 took the score from prior 58/60 (97%) → 53/70 (76%). Decomposing the chan
 
 Honest framing: prior 58/60 was probably overconfident. V6, V8, V12 were never really at 5 on the evidence base. 53/70 (76%) is closer to true conviction we should have had all along. This is both better calibration AND recognition of prior overconfidence.
 
-The thesis is still CRITICAL. Core credit/housing/stagflation vectors (1-10, 12) sit at 4; V11 (SB) and V16 (employment, downgraded Jun 6) sit at 3 — elevated, mechanism intact, but not firing-with-escalation-room. Conviction ~74% (was 76% pre-V16-downgrade). The V16 step-down is offset by V12 hardening (Waller pivot + sticky ISM prices + no-Fed-cut read) — a v2.6 upgrade candidate — so net thesis conviction is roughly flat: rebalancing, not weakening.
+The thesis is still CRITICAL. **v2.6 (Jun 22):** V12 Stagflation/Fed-Locked is now the lone vector at **5** (Fed-locked fully fired — FOMC flipped to a hiking bias under new Chair Warsh on a stagflationary SEP); V5 Gas Squeeze stepped down to **3** (the gas leg of the cost-squeeze is relieving — gas −5wk, Iran sanctions waived). The two moves offset exactly → 52/70 held. Core credit/housing vectors (1-4, 7, 8, 10) sit at 4; V5/V11/V16 at 3. Conviction ~74%. Net: rebalancing across vectors, not a change in aggregate conviction — the bear thesis's stagflation leg hardened while its gas-cost leg eased. (Prior: the V16 4→3 Jun-6 step-down was offset by a V12-hardening *candidate*; that candidate is now realized as V12→5.)
 
-### Upgrade path (v2.6 candidates)
+### Upgrade path (next-version candidates)
 
-- V12 → 5 — Q2 monthly Core PCE TTM crosses 3.0% AND UMich triangulation confirms (TIPS 5y5y / SPF / NY Fed 3yr in concert)
+- ✅ **V12 → 5 — DONE v2.6 (Jun 22)** via FOMC Jun-17 hawkish-relative under Chair Warsh (the TTM/UMich-triangulation path was superseded by the Fed's own hike-bias + 3.6% PCE projection).
 - V8 → 5 — Upper-cohort pullback quantified at 2008-analog magnitude
 - V6 → 5 — Exhaustion mechanism confirmed via DEO continued / DOL ETA OR FL DQ Jun-Aug
-- V5 → 5 — Gas $5+ AND demand destruction empirically observable
+- V5 → 4 (re-arm from 3) — Hormuz re-closure WITH enforcement OR fresh kinetic → Brent $105-110 + pass-through (gas $5+/demand-destruction is the further V5→5 path)
 - V10 → 5 — Foreclosure absolute level breaches GFC peaks
 - V2 → 5 — All 3 ABS trusts (EART + AMCAR + SDART) reach Class E/D terminal
 - V16 → 5 — Mass layoffs / NFP <0 sustained 2+ months (acute crack)
@@ -329,6 +329,7 @@ The thesis is still CRITICAL. Core credit/housing/stagflation vectors (1-10, 12)
 - **v2.5 (May 1 2026):** Path C ACTIVATING-RED → ACTIVE-RED (provisional). Cross-industry data masking promoted from KB-225 to thesis-level methodology with intermediate Q3 2026 + outer Q1 2027 falsification windows. Convergence matrix expanded 12→14 vectors (V8+V9 merged; V13/V14 added; V15 Refi-Window dropped as RED domain; V16 Employment added). 5-definition tightened. Score 58/60 → 53/70 (76%) — ~60% calibration + ~40% legitimate conviction reduction; prior was probably overconfident. Counter-Evidence section stripped, staged for RED. Puzzles trimmed to thesis-internal mechanism only. Trade Duration Implications section added.
 - **v2.5.1 (May 3 2026):** Masking framework narrowed 6→4 issuers (UNH/ELV + DHI/PHM relocated to K-shape Selection + Tariff Transmission section); CRL-22 + CRL-23 added. Score unchanged 53/70.
 - **v2.5.2 (Jun 6 2026):** **V16 Employment Structural Rot 4→3, re-anchored.** Jun 1-5 labor wall reversed the acute legs (JOLTS 0.91→1.03 inversion gone; 3-mo NFP avg 48K→188K on +93K revisions; UR 4.3% held) — but the structural-freeze legs survived + got cleanest confirmation (hires fell 5.1M as openings jumped +731K; ISM Svc Emp 47.9 3rd-mo contraction). Mechanism intact; escalation path receded. Score 53/70 → **52/70 (74%)**. Offset by V12 hardening (v2.6 upgrade candidate). Net conviction ~flat — rebalancing, not weakening. Still 🔴🔴 CRITICAL.
+- **v2.6 (Jun 22 2026):** **Paired vector re-score (Will-approved).** **V12 Stagflation Trap/Fed-Locked 4→5** — FOMC Jun-17 (new Chair **Warsh**'s first meeting) graded hawkish-relative: dots flipped to a HIKE (2026 median 3.4%→3.8%) on a stagflationary SEP (GDP 2.2%↓ / PCE 3.6%↑↑); the "locked out of easing" mechanism is now fully fired under a hard-money Chair (first vector ever at 5; un-fires only on a Warsh dovish pivot). **V5 Gas Price Squeeze 4→3** — gas $3.929 falling 5th wk + Islamabad MOU Jun-17 waived Iran oil-export sanctions = the gas leg of the cost-squeeze is relieving (mechanism intact, input turned tailwind). The two moves offset exactly → **score 52/70 unchanged**; rebalancing, not weakening — the stagflation leg hardened while the gas-cost leg eased. Still 🔴🔴 CRITICAL.
 
 **Current mechanism:** Cost squeeze + UI exhaustion + housing pipeline converting + Fed lock + cross-industry data masking + employment structural rot. Fed locked by un-anchored expectations + one-quarter realized NIPA (TTM not yet crossed). HY complacency gap CONFIRMING masking thesis. Issuer-level P&L will lag underlying credit by 12-24mo across multiple industries via different mechanisms. Timing: Q2-Q3 stress at macro and pipeline level; Q3 2026 intermediate test; Q1 2027 outer falsification window for masking thesis.
 
