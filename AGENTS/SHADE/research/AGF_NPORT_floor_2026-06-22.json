@@ -1,0 +1,387 @@
+{
+ "scope": "FULL latest-public-filing-per-fund (all fiscal periods)",
+ "trusts_total": 189,
+ "filings_fetched": 1602,
+ "fetch_fails": 0,
+ "unique_fund_series_lines": 1356,
+ "unique_cusips": 77,
+ "by_year": {
+  "2026": {
+   "par_usd_mn": 1755.5,
+   "val_usd_mn": 1755.7,
+   "cusips": 13
+  },
+  "2027": {
+   "par_usd_mn": 1532.0,
+   "val_usd_mn": 1547.0,
+   "cusips": 17
+  },
+  "2028": {
+   "par_usd_mn": 753.2,
+   "val_usd_mn": 747.4,
+   "cusips": 11
+  },
+  "2029": {
+   "par_usd_mn": 836.4,
+   "val_usd_mn": 836.0,
+   "cusips": 6
+  },
+  "2030": {
+   "par_usd_mn": 577.4,
+   "val_usd_mn": 572.9,
+   "cusips": 6
+  },
+  "2031": {
+   "par_usd_mn": 315.3,
+   "val_usd_mn": 300.5,
+   "cusips": 5
+  },
+  "2032": {
+   "par_usd_mn": 31.7,
+   "val_usd_mn": 37.3,
+   "cusips": 2
+  },
+  "2033": {
+   "par_usd_mn": 37.2,
+   "val_usd_mn": 38.9,
+   "cusips": 1
+  },
+  "2034": {
+   "par_usd_mn": 26.8,
+   "val_usd_mn": 27.0,
+   "cusips": 1
+  },
+  "2035": {
+   "par_usd_mn": 99.2,
+   "val_usd_mn": 100.0,
+   "cusips": 4
+  },
+  "2051": {
+   "par_usd_mn": 10.6,
+   "val_usd_mn": 7.2,
+   "cusips": 1
+  },
+  "2052": {
+   "par_usd_mn": 20.4,
+   "val_usd_mn": 12.4,
+   "cusips": 1
+  },
+  "2054": {
+   "par_usd_mn": 63.7,
+   "val_usd_mn": 60.0,
+   "cusips": 2
+  },
+  "2055": {
+   "par_usd_mn": 187.4,
+   "val_usd_mn": 182.2,
+   "cusips": 2
+  },
+  "?": {
+   "par_usd_mn": 1.3,
+   "val_usd_mn": 28.0,
+   "cusips": 5
+  }
+ },
+ "cusips_2026_2027": [
+  {
+   "cusip": "04685A3S8",
+   "par_usd_mn": 66.1,
+   "val_usd_mn": 66.2,
+   "maturity": "2026-02-23",
+   "rate": "5.68400000",
+   "kind": "Fixed",
+   "holders": 9,
+   "title": "ATHENE GLOBAL FU"
+  },
+  {
+   "cusip": "04685A3V1",
+   "par_usd_mn": 278.9,
+   "val_usd_mn": 279.6,
+   "maturity": "2026-05-08",
+   "rate": "0.05620000",
+   "kind": "Fixed",
+   "holders": 34,
+   "title": "ATHENE GLOBAL FUNDING 5.62% 05/08/2026 144A"
+  },
+  {
+   "cusip": "04685A3W9",
+   "par_usd_mn": 107.7,
+   "val_usd_mn": 107.8,
+   "maturity": "2026-05-08",
+   "rate": "0.04514475",
+   "kind": "Variable",
+   "holders": 12,
+   "title": "ATHENE GLOBAL FUNDING FRN SOFRINDX+85 05/08/2026 144A"
+  },
+  {
+   "cusip": "04685A2Z3",
+   "par_usd_mn": 96.7,
+   "val_usd_mn": 95.9,
+   "maturity": "2026-06-29",
+   "rate": "0.01608000",
+   "kind": "Fixed",
+   "holders": 25,
+   "title": "ATHENE GLOBAL FUNDING 1.608% 06/29/2026 144A"
+  },
+  {
+   "cusip": "04686E3C4",
+   "par_usd_mn": 0.9,
+   "val_usd_mn": 0.9,
+   "maturity": "2026-06-29",
+   "rate": "1.608",
+   "kind": "Fixed",
+   "holders": 1,
+   "title": "ATHENE GLOBAL FU SR SECURED REGS 06/26 1.608"
+  },
+  {
+   "cusip": "04685A4J7",
+   "par_usd_mn": 215.3,
+   "val_usd_mn": 215.4,
+   "maturity": "2026-07-16",
+   "rate": "0.04416216",
+   "kind": "Variable",
+   "holders": 19,
+   "title": "ATHENE GLOBAL FUNDING FRN SOFRINDX+75 07/16/2026 144A"
+  },
+  {
+   "cusip": "04685A4Q1",
+   "par_usd_mn": 227.5,
+   "val_usd_mn": 227.6,
+   "maturity": "2026-08-10",
+   "rate": "4.3444",
+   "kind": "Floating",
+   "holders": 8,
+   "title": "ATHENE GLOBAL FUNDING SECURED 144A 08/26 VAR"
+  },
+  {
+   "cusip": "04685A4A6",
+   "par_usd_mn": 381.6,
+   "val_usd_mn": 382.9,
+   "maturity": "2026-08-27",
+   "rate": "0.04860000",
+   "kind": "Fixed",
+   "holders": 43,
+   "title": "ATHENE GLOBAL FUNDING 4.86% 08/27/2026 144A"
+  },
+  {
+   "cusip": "04685A4B4",
+   "par_usd_mn": 198.7,
+   "val_usd_mn": 199.2,
+   "maturity": "2026-08-27",
+   "rate": "4.80520000",
+   "kind": "Floating",
+   "holders": 20,
+   "title": "ATHENE GLOBAL FU"
+  },
+  {
+   "cusip": "04686E4J8",
+   "par_usd_mn": 3.8,
+   "val_usd_mn": 3.8,
+   "maturity": "2026-08-27",
+   "rate": "4.68729",
+   "kind": "Floating",
+   "holders": 4,
+   "title": "ATHENE GLOBAL FUNDING SECURED REGS 08/26 VAR"
+  },
+  {
+   "cusip": "XS2384413311",
+   "par_usd_mn": 1.7,
+   "val_usd_mn": 2.0,
+   "maturity": "2026-09-10",
+   "rate": "0.37000000",
+   "kind": "Fixed",
+   "holders": 3,
+   "title": "Athene Global Funding"
+  },
+  {
+   "cusip": "04685A3D1",
+   "par_usd_mn": 102.3,
+   "val_usd_mn": 100.9,
+   "maturity": "2026-10-02",
+   "rate": "0.01730000",
+   "kind": "Fixed",
+   "holders": 21,
+   "title": "ATHENE GLOBAL FUNDING 1.73% 10/02/2026 144A"
+  },
+  {
+   "cusip": "04685A2K6",
+   "par_usd_mn": 74.3,
+   "val_usd_mn": 73.6,
+   "maturity": "2026-11-12",
+   "rate": "0.02950000",
+   "kind": "Fixed",
+   "holders": 14,
+   "title": "ATHENE GLOBAL FUNDING 2.95% 11/12/2026 144A"
+  },
+  {
+   "cusip": "04685A4F5",
+   "par_usd_mn": 167.9,
+   "val_usd_mn": 168.1,
+   "maturity": "2027-01-07",
+   "rate": "0.04496603",
+   "kind": "Variable",
+   "holders": 22,
+   "title": "ATHENE GLOBAL FUNDING FRN SOFRINDX+83 01/07/2027 144A"
+  },
+  {
+   "cusip": "04685A4E8",
+   "par_usd_mn": 374.2,
+   "val_usd_mn": 376.4,
+   "maturity": "2027-01-07",
+   "rate": "0.04950000",
+   "kind": "Fixed",
+   "holders": 44,
+   "title": "ATHENE GLOBAL FUNDING 4.95% 01/07/2027 144A"
+  },
+  {
+   "cusip": "04686E4Q2",
+   "par_usd_mn": 2.8,
+   "val_usd_mn": 2.8,
+   "maturity": "2027-01-07",
+   "rate": "4.50042",
+   "kind": "Floating",
+   "holders": 2,
+   "title": "ATHENE GLOBAL FUNDING SECURED REGS 01/27 VAR"
+  },
+  {
+   "cusip": "BT3337438",
+   "par_usd_mn": 7.2,
+   "val_usd_mn": 8.1,
+   "maturity": "2027-01-08",
+   "rate": "0.8320000000",
+   "kind": "Fixed",
+   "holders": 2,
+   "title": "ATHENE GLOBAL FUNDING"
+  },
+  {
+   "cusip": "04685A3R0",
+   "par_usd_mn": 323.0,
+   "val_usd_mn": 325.8,
+   "maturity": "2027-01-15",
+   "rate": "0.05339000",
+   "kind": "Fixed",
+   "holders": 31,
+   "title": "ATHENE GLOBAL FUNDING 5.339% 01/15/2027 144A"
+  },
+  {
+   "cusip": "XS2757986224",
+   "par_usd_mn": 2.5,
+   "val_usd_mn": 2.9,
+   "maturity": "2027-02-23",
+   "rate": "3.02400000",
+   "kind": "Floating",
+   "holders": 1,
+   "title": "ATH F 02/23/27 EMTN"
+  },
+  {
+   "cusip": "ACI2MZXR4",
+   "par_usd_mn": 16.7,
+   "val_usd_mn": 19.3,
+   "maturity": "2027-02-23",
+   "rate": "3.024",
+   "kind": "Floating",
+   "holders": 7,
+   "title": "ATHENE GLOBAL FUNDING SECURED REGS 02/27 VAR"
+  },
+  {
+   "cusip": "C04575AM5",
+   "par_usd_mn": 1.7,
+   "val_usd_mn": 2.0,
+   "maturity": "2027-02-23",
+   "rate": "3.024000000000",
+   "kind": "Floating",
+   "holders": 1,
+   "title": "ATH F 02/23/27 EMTN"
+  },
+  {
+   "cusip": "04685A3L3",
+   "par_usd_mn": 41.6,
+   "val_usd_mn": 41.0,
+   "maturity": "2027-03-08",
+   "rate": "3.205",
+   "kind": "Fixed",
+   "holders": 5,
+   "title": "Athene Global Funding"
+  },
+  {
+   "cusip": "04685A3T6",
+   "par_usd_mn": 194.6,
+   "val_usd_mn": 196.9,
+   "maturity": "2027-03-25",
+   "rate": "0.05516000",
+   "kind": "Fixed",
+   "holders": 49,
+   "title": "ATHENE GLOBAL FUNDING 5.516% 03/25/2027 144A"
+  },
+  {
+   "cusip": "04685A3U3",
+   "par_usd_mn": 213.0,
+   "val_usd_mn": 213.5,
+   "maturity": "2027-03-25",
+   "rate": "0.04897370",
+   "kind": "Variable",
+   "holders": 20,
+   "title": "ATHENE GLOBAL FUNDING FRN SOFRINDX+121 03/25/2027 144A"
+  },
+  {
+   "cusip": "04685A4X6",
+   "par_usd_mn": 67.4,
+   "val_usd_mn": 67.4,
+   "maturity": "2027-04-19",
+   "rate": "0.04579328",
+   "kind": "Variable",
+   "holders": 17,
+   "title": "ATHENE GLOBAL FUNDING FRN SOFR+95 04/19/2027 144A"
+  },
+  {
+   "cusip": "AU3CB0288553",
+   "par_usd_mn": 1.2,
+   "val_usd_mn": 0.8,
+   "maturity": "2027-04-21",
+   "rate": "4.76000000",
+   "kind": "Fixed",
+   "holders": 2,
+   "title": "Athene Global Funding"
+  },
+  {
+   "cusip": "04685A3X7",
+   "par_usd_mn": 106.0,
+   "val_usd_mn": 107.4,
+   "maturity": "2027-07-09",
+   "rate": "0.05349000",
+   "kind": "Fixed",
+   "holders": 38,
+   "title": "ATHENE GLOBAL FUNDING 5.349% 07/09/2027 144A"
+  },
+  {
+   "cusip": "XS2796468432",
+   "par_usd_mn": 0.1,
+   "val_usd_mn": 0.1,
+   "maturity": "2027-07-28",
+   "rate": "5.15000000",
+   "kind": "Fixed",
+   "holders": 1,
+   "title": "ATHENE GLOBAL FUNDING /GBP/ REGD REG S"
+  },
+  {
+   "cusip": "04685A2P5",
+   "par_usd_mn": 4.1,
+   "val_usd_mn": 4.0,
+   "maturity": "2027-08-20",
+   "rate": "2.450000000000",
+   "kind": "Fixed",
+   "holders": 6,
+   "title": "ATH 2.45 08/20/27 144A"
+  },
+  {
+   "cusip": "XS2264159471",
+   "par_usd_mn": 8.1,
+   "val_usd_mn": 10.5,
+   "maturity": "2027-11-24",
+   "rate": "1.75000000",
+   "kind": "Fixed",
+   "holders": 3,
+   "title": "Athene Global Funding"
+  }
+ ]
+}
