@@ -8,6 +8,31 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-06-22 — v1.5.1 → **v1.6** [MAJOR] — re-centered COMPRESSION → CARRY-CONVEXITY-TAIL; pillar audit; Channel 1 RETIRED; Channel 4 NEW; 6-of-6 RED challenges converged
+
+**Author:** SAM. **Trigger:** Will-directed v1.6 re-underwrite (drafted Jun 18 backbone → finalized post Jun-19 National CPI + the Jun-22 CFTC EV-gate + the SAM⇄RED dialogue). **Major bump (X):** structural thesis change — the dominant route is re-classified (compression → positioning-convexity) and Channel 1 is retired. **Process:** finalized by folding `V16_RED_DIALOGUE.md` (6 pre-registered RED challenges + #1a-d + the #4 gate), **converged 6-of-6 on 2026-06-22 ~5:20 PM ET** (near-full convergence in one round-trip). DRAFT (`THESIS_v1.6_DRAFT.md`) superseded → flag `git rm` at commit; v1.5.1 archived → `thesis/THESIS_v1.5.1_ARCHIVE.md`.
+
+**The decision-grade observable that gated this (CFTC Jun-16 EV-gate, in hand Mon Jun 22 3:30 PM ET):** net **−150,132 / 83.4% of cycle peak**, built −4,314 WoW, **zero cover through the catalyst.** Maps to the pre-registered HOLD-band top edge (78-83%) → **frame SURVIVES the margin test** (the decisive negative — cover <−120K → trim/close — did NOT occur), but 2,868 contracts / 1.6pp shy of the −153K/85% *strengthened* line, so the amplifier stayed +5pp (not +8-10pp). Positioning held *through* the spent catalyst = genuine empirical Pillar-4 confirmation.
+
+**Old view (v1.5.1):** yen strengthens via rate-differential COMPRESSION (BOJ hike + Fed-cut multi-month tail) + structural pillars; Channel 2 (June BOJ) = dominant remaining near-term trigger; Channel 1 = DEFERRED structural backstop; conviction direction/level HIGH, near-term timing MEDIUM.
+
+**New view (v1.6):** the compression vector is broken near-term (Pillar 1 directional vector INVERTED — BOJ +25bp < Fed Jun-17 +40bp dot; Fed-cut → Fed-HIKE regime under Warsh). The live thesis is a **carry-trade CONVEXITY TAIL**: CFTC at 83.4% peak held through the spent catalyst, pays asymmetrically IF any of N tail-routes fires inside a **bounded eligibility window (LOCKED Sep 18 2026)**. **Conviction: direction/level MEDIUM (↓ from HIGH); near-term timing LOW (↓ from MEDIUM); convexity-tail MEDIUM (new row; downgraded from the draft's MED-HIGH per RED #1 — honest net 60d EV ≈ break-even-to-slightly-negative → analytically a TRIM signal, not an add).**
+
+**The 6 folded RED verdicts (all SAM-conceded/locked, RED-ratified):**
+- **#2 (single-point-failure) — SURVIVES:** the SPF is TWO-LEGGED — cover <−108K (a tail) AND no-trigger-by-Sep-18 (the MODE, >50%). Both bounded. The binding leg is leg-2 (the window), not the cover.
+- **#3 / #5 (window) — SURVIVES:** eligibility window LOCKED **Sep 18 2026** (≈90d; captures Jul-31 BOJ + mid-Sep FOMC, neither as deadline). Disposition: ≥80% fuel AND no trigger by Sep 18 → retire to LOW; cover <−108K → LOW.
+- **#1 (convexity grade) — BROKEN at MED-HIGH / SURVIVES at MEDIUM:** my own EV-gate placed it at MEDIUM (didn't cross the 85% strengthened line); the conceded #1b haircut (+7%→+5% magnitude) takes center-case net to break-even-to-negative, failing the EV-positive bar. #1a "pick one" conceded → risk-off contributor +0.70% → ≈ +0.45% (keep +7% magnitude, drop prob to ~6-7%; the channel decoupled Jun 11). Flip-up: CFTC through −153K/85% OR yen-haven re-couples.
+- **#6 (Channel 1) — RETIRE (was "deferred"):** 4-of-4 grew US credit + no specified path = retired in all but name. Re-add tripwire = the DIRECT observable: net foreign-credit SALES across ≥2 consecutive disclosure windows at ≥2 of {Big-3 mutuals, Norinchukin}. JGB-30Y/ESR = accelerant co-conditions only (JGB-30Y is Pillar 2's DOMESTIC mechanism — re-arming Channel 1 on it double-counts Pillar 2). Closes the Will-directed deferred→retired re-examination.
+- **#4 (vehicle, GATE) — RESOLVED:** a break-even MEDIUM frame doesn't pay a vol structure's spread/theta/complexity → vehicle-change options (b) FXY-vol overlay / (c) USDJPY-put=JPY-call **do NOT propagate**. Finalize decision-set narrows to **(a) hold-with-tighter-stop / (d) trim** (Will's sizing call). Re-opens only if #1 reclaims MED-HIGH OR FXY-vol confirmed-cheap on a clean source.
+
+**Pillar audit:** P1 LEVEL alive / VECTOR broken (directional claim deleted); P2 ALIVE (only pillar still firing; DOMESTIC, multi-quarter anchor); P3 alive-in-fact / WEAKENED-in-proximity (USDJPY moved farther from <145); P4 ALIVE — promoted to the v1.6 center (Channel 4 POSITIONING-CONVEXITY).
+
+**Channel re-classification:** Ch1 → **RETIRED** (direct foreign-SALES re-add tripwire); Ch2 → **CARRY-CONVEXITY TAIL** (renamed); Ch3 → **MOF #3 DECAYING** (~15-20%/30d; reaction function = disorder-not-level); **Ch4 POSITIONING-CONVEXITY = NEW, the center.**
+
+**Surfaces touched this finalize (chunk 1):** THESIS.md (full rewrite → canonical v1.6); THESIS_v1.5.1_ARCHIVE.md (created); THESIS_v1.6_DRAFT.md (superseded banner); this CHANGELOG entry; V16_RED_DIALOGUE.md (converged/closed). **Held for Will's sizing call (chunk 2):** STATUS banner re-center, STRATEGY/TRADE position re-derive + stop, PREDICTIONS new convexity-tail tripwire rows, cross-agent SIGs (LIQUID Ch1-retired / HENRY convexity-MEDIUM + cross-pair decoupling), NEXUS_BRIEF refresh, evals re-baseline.
+
+---
+
 ## 2026-06-18 — [propagation/thesis-fact] Three verified facts landed: Warsh-Fed regime + FOMC dot revision (Pillar 1 RE-WIDENING) + Iran/US deal SIGNED — Iran docket unfrozen
 
 **Author:** SAM (Will-directed FIRST pass — facts only, no conviction/sizing change; v1.6 re-underwrite follows tonight after Fri National CPI).
