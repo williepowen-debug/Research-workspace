@@ -8,17 +8,17 @@
 
 **The persistent Will-Telegram session's "flag everything stale/inconsistent/wrong" audit → 5-phase fix plan is now executed through Phase 4. Phase 5 deferred (needs the fleet quiescent).**
 
-**DONE — 5 local commits + this closeout, NONE pushed (Will-coordinated; do NOT push):**
+**DONE — 5-commit chain + this closeout, PUSHED + SYNCED 0/0 to origin (Will-opened 6/22 PM window; clean rebase over 12 incoming from CARL/REGINALD/SAM/RED + the new YEYOU scaffold, disjoint files / zero conflicts):**
 - `ef904f1f` — **Phase 1** (doc truth-up) + **Phase 2** (Iran anchor re-stamp 6/21→**6/22**: 60-day ROADMAP corroborated multi-wire + Iran FM; **IAEA/nuclear channel-divergence** US-vs-Iran; C-Grind base + mild constructive tilt; 2 verify-agents).
 - `4e2fcf56` — **Phase 3** (walter_doctor: outbox-blind-spot fix; platform-from-REGISTRY; registry_lag false-positive guard).
 - `74efa184` — **REGISTRY Platform correction**: only PROME = OpenClaw, everyone else CC (Will 6/22).
 - `e19ac403` — state-save for the `/clear` (the prior "RESUME AT PHASE 4" handoff).
-- **Phase 4 (this) — to be committed:** MEMORY.md cap-prune **144→58 lines** (collapsed ~13 transient session-note blocks; **promoted the OCR-verify-input-first finding to auto-memory** `feedback_ocr_verify_input_first.md` + index; collapsed fully-promoted items to pointer lines; kept all durable un-promoted findings) + **STATUS SESSION LOG trim-to-5** (15→5 rows; **11 rows archived to `SESSION_LOG.md`**) + STATUS lead-header timestamp/Phase-4 note + REGISTRY WALTER-row refresh + this LAST_COMPLETION rewrite.
+- **Phase 4 (this) — committed `bc750a84`, rebased onto origin + pushed (plus this push-state truth-up on top):** MEMORY.md cap-prune **144→58 lines** (collapsed ~13 transient session-note blocks; **promoted the OCR-verify-input-first finding to auto-memory** `feedback_ocr_verify_input_first.md` + index; collapsed fully-promoted items to pointer lines; kept all durable un-promoted findings) + **STATUS SESSION LOG trim-to-5** (15→5 rows; **11 rows archived to `SESSION_LOG.md`**) + STATUS lead-header timestamp/Phase-4 note + REGISTRY WALTER-row refresh + this LAST_COMPLETION rewrite.
 
 **▶ PHASE 5 — LATER SESSION, needs other agents QUIESCENT (do NOT do while agents active):** 5-decision walkthrough (TERRY tier/routing · 6 dormant dirs keep-or-archive · CRE/CMBS→CREED routing · ORACLE routing convention · Cushing-as-registered-threshold) + Phase-2 consume-boot-step rollout to CC recipients (the ~40-unconsumed-handoff fix) + **delivery-model/push reconciliation now that fleet is all-CC** (BOARD_CONSUMPTION_SPEC §3.3 OpenClaw-path = PROME-only; push is load-bearing for ALL routing) + Scout build (3-dead-cron fix) + DEWEY Prompt B run + EVENT_WINDOW refresh (BRENT-coord).
 
 **STANDING CONTEXT:**
-- **Do NOT push** (Will-coordinated; commit local only; RED/SAM/BRENT active in tree). **Do NOT route the 6/22 Iran roadmap** (agents active; Will said hold — noted in the anchor as a downstream "surface to BRENT/HAWK/SAM").
+- **Push state: SYNCED 0/0** as of the Will-opened 6/22 PM window (the Phase-1-4 chain is on origin; next session boots synced). Push stays Will-coordinated going forward. **Do NOT route the 6/22 Iran roadmap** (agents active; Will said hold — noted in the anchor as a downstream "surface to BRENT/HAWK/SAM").
 - **root CLAUDE.md asterisk-list is stale** (omits HENRY/VIOLET, predates all-CC) — shared-scope, **flag to PROME, do NOT edit as WALTER.**
 
 ---
