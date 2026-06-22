@@ -1,6 +1,6 @@
 # REGINALD CALENDAR
 
-**Last Updated:** 2026-06-20 (CRE-DQ-by-tier drill — added Q2 BKU-past-due falsifier to July window; WAL Q2 print ~Jul 30 remains the near-term catalyst) | **View:** Forward-looking only. Past events pruned weekly.
+**Last Updated:** 2026-06-22 (boot refresh — tape to 6/22 close; **WAL $78.76 near the $78 threshold** + WAL Q2 print ~Jul 30 the near-term catalysts) | **View:** Forward-looking only. Past events pruned weekly.
 
 ---
 
@@ -14,10 +14,9 @@
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| ~~**Jun 1**~~ ✅ fired | **FL property reinsurance renewals** | FL property insurance pricing, carrier exits | Premium hikes compound SIRS + 4x CRE insurance squeeze (ML-REG-137). Outcome unverified this session — CORAL primary. | CORAL, OZK, SSB |
 | ~~**Jun 18**~~ ✅ FIRED | **Bank capital-rules comment period CLOSED** | Final rule direction now the forward catalyst | Confirmed via SIG-W-20260618-006: ~5.2% CET1 relief Cat III/IV regionals, but mandatory AOCI inclusion (SVB-2023 mechanism) is the catch into the hawkish flip; Barr 6-1 dissent (>20 deviations from Basel mins). Final-rule date TBD = next catalyst. | ALL banks |
 | ~~**Jun 18**~~ ✅ CLEARED | **Options expiry cluster** → canonical list in `POSITIONS.md` (do NOT re-list here) | **Will confirm 6/19: ALL closed out or expired worthless.** Canonical Jun-18 set per POSITIONS.md: WAL $65P/$67.5P/$77.5P/$85P · KRE $60P · EGBN $25P · FITB $45P · HYG $75P · APO $100P · ARES $95P · IWM $257P. ⚠️ **My boot list was desynced from POSITIONS** (had phantom SSB $90P, wrong IWM $250P [that's a live Jun-30 pos], missing WAL $77.5P/FITB/APO/ARES) — fixed; POSITIONS is now single-source. | FORGE, PROME |
-| **Jun 30** | **Next expiry pile** → contents canonical in `POSITIONS.md` | KRE $63P/$65P/$67P + IWM $250P (Jun-30). All deep OTM at current tape (KRE $71.72 / IWM $295.59) — default let-expire unless tape breaks. Then Jul-17: WAL $65P / FLG $13P / ZION $57.5P. | FORGE |
+| **Jun 30** | **Next expiry pile** → contents canonical in `POSITIONS.md` | KRE $63P/$65P/$67P + IWM $250P (Jun-30). All deep OTM at current tape (KRE $71.99 / IWM $298.18, 6/22) — default let-expire unless tape breaks. Then Jul-17: WAL $65P / FLG $13P / ZION $57.5P. | FORGE |
 
 ## JULY
 

@@ -18,6 +18,18 @@
 
 ---
 
+## 2026-06-22 — Boot refresh + STATUS-to-6/22 + SHADE Athene + DEWEY FL-timing
+
+**Noticed during the session:**
+- **"Oil-leg re-fire" was really a stall, not a re-fire.** Brent +3.45% on the day but ~flat vs Thursday ($80.69→$80.59) — a sharp up-day off a Friday dip, NOT a move back toward the $94 war premium. Reading the day-% as a trend would overstate it; the honest read decomposes the move from the level. Same family as the 6/19 CCC/HY-oscillation caution — don't read a single 2-day print as a trend.
+- **DEWEY FL-bank-timing independently corroborated my 6/20 drill** on the BKU-vs-AMTB attribution (two surfaces converging via different evidence — my direct 10-Q pull vs DEWEY's institutional-mirror; my drill the higher grade since EDGAR 403'd DEWEY). New datapoint it added: SBCF CRE-NOO 224% of RBC.
+- **CCC/HY tripwire flag recurring (3rd boot).** 3.56x today, oscillating in the 3.44-3.57 band every refresh. The 6/19 note flagged building a >3.6x-sustain tripwire so it stops being a prose judgment call each boot. Still flagged, not built — promote to a VX vector if it recurs once more.
+- **WAL diverged WEAKER than the cohort** (−1.44% vs KRE +0.96%) — the cleanest single-day idiosyncratic-WAL tape signal we've had; closed $0.76 from the $78 threshold.
+
+**Threads carried (all in ROADMAP):** WAL $78 threshold watch (new-live), CRE-DQ-by-tier Q2 build/revert, capital-rules final rule, MI3/FFIEC, APO Q1, OZK Call Report, CARL handover, PROME ZION-scaffold.
+
+---
+
 ## 2026-06-20 — Recovery of orphaned 6/19 BOARD rows + CRE-DQ-by-tier drill
 
 **Noticed during the session:**
@@ -39,23 +51,6 @@
 - The Trepp CRE-DQ-by-tier signal (009) *looks* like it contradicts my 6/8 cohort finding but is a different metric (DQ vs NCO). Logged the distinction explicitly in STATUS + BOARD_LOG so a future read doesn't false-flag a contradiction.
 
 **Threads carried (all in ROADMAP):** CRE-DQ-by-tier drill (new, OZK-cleanest), capital-rules final-rule watch (new), WAL $85P disposition flag (new) + prior: Juris banking, Slide 113 stress test, Slide 89 NDFI chart, Q&A transcript, life-sci #3, MI3/FFIEC, APO Q1, OZK 10-Q.
-
----
-
-## 2026-06-08 — BOARD backlog drain + v2.2.1 ship + Orchestrator audit + closeout hardening
-
-**Things noticed during the session:**
-- WAL 10-Q drill recipe (curl + XBRL strip) preserved as one-liner — moved to MEMORY Findings rather than SCRATCH on this closeout (durable enough to deserve persistent home).
-- Convergence Matrix WAL row in STATUS was caught by the drift-grep step IMMEDIATELY after I added the rule — pinned to v2.2's EV $67.98 / "Bear-medium speed" language while THESIS + SCENARIOS were on v2.2.1. **Dogfooded the rule on its first run** — concrete win for the new control.
-- Director/Orchestrator audit caught 4 distinct error-classes in one session (denominator drift, secondary-source-precision, cohort-decomp half-done, over-meta-process-design). The "who reads it?" test is a transferable inversion of the build-it-first intuition. Promoted to MEMORY Feedback.
-
-**Open threads carried (still ROADMAP-tracked):**
-- Juris banking research (from 5/1 transcript).
-- Investor Day Slide 113 stress test (5.3% loss / 9.0% CET1 stressed exceeds v2.2 Bear-fast).
-- Investor Day Slide 89 NDFI peer chart (deck PDF needed).
-- WAL Investor Day Q&A transcript hunt (downgraded priority post-v2.2.1; B1 already fired).
-- Cross-bank life-science pattern (WAL $99M + OZK IQHQ; KREF distinct mechanism; watching for #3 with pass-grade-bank-walk mechanic specifically).
-- Cohort NCO decomposition for ZION/CFG/MTB/FITB (v2.2.1 cohort framing held open pending; Hypothesis B could reverse the 30→25 Bear-medium trim).
 
 ---
 
