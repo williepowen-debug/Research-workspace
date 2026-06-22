@@ -4,6 +4,8 @@
 US recession 2026	market	us-recession-by-end-of-2026	T1	HENRY,LABOR,RED
 Fed: NO cuts 2026	market	will-no-fed-rate-cuts-happen-in-2026	T1	LIQUID,HENRY
 Fed: 1 cut 2026	market	will-1-fed-rate-cut-happen-in-2026	T1	LIQUID
+Fed: HIKE in 2026	market	fed-rate-hike-in-2026	T1	LIQUID,HENRY
+Fed: hike at July mtg	market	will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	T1	LIQUID,HENRY
 US bank failure by Jun 30	market	us-bank-failure-by-june-30-227	T1	REGINALD
 Major bank bailout before 2027	market	major-us-bank-bailout-before-2027	T1	LIQUID,BROCK
 Which banks fail by Jun 30 (top)	event	which-banks-will-fail-by-june-30	T1	REGINALD
@@ -14,4 +16,4 @@ WTI hits $100 (Jun) — war premium	market	will-wti-reach-100-in-june-2026-823-7
 AI bubble burst 2026	market	ai-industry-downturn-by-december-31-2026-857	T2	BROCK
 MicroStrategy bankruptcy by 2027	market	will-microstrategy-announce-bankruptcy-before-2027	T2	BROCK
 Nothing Ever Happens 2026	market	nothing-ever-happens-2026	T3	PROME,VIOLET
-US unemployment >=5% in 2026	market	will-us-unemployment-reach-at-least-5pt0-in-2026	T3	LABOR,HENRY
+# DROPPED 2026-06-22 — slug `will-us-unemployment-reach-at-least-5pt0-in-2026` returns a RESOLVED Jan market (end 2026-01-10); no liquid 2026 unemployment market exists. Only a thin June-rate event (june-unemployment-rate-734, $2.4K, modal 4.3%). Re-add if a liquid annual-unemployment market appears. Route: LABOR,HENRY
