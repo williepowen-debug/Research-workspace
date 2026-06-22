@@ -1,9 +1,34 @@
 # SHADE STATUS
 
-**Last Updated:** 2026-06-15 ET
+**Last Updated:** 2026-06-21 ET (Opus 4.8 ultracode boot — 5-vector SHADE-domain sweep of the 6/15→6/21 gap, adversarially verified)
 **Signal Status:** 🟠 **STRUCTURAL / LATENT INSURER-WRAPPER STRESS** — private-credit fund stress is confirmed by BROCK, but broad systemic confirmation remains unconfirmed by LIQUID credit/funding gauges. SHADE’s job is to test whether fund stress is being absorbed, hidden, financed, or amplified through PE-owned insurers, offshore/captive reinsurance, funding-agreement channels, and rated structured wrappers.
 
 **Stale-history warning:** The prior live `STATUS.md` was last updated 2026-03-26 and is archived at `AGENTS/SHADE/archive/STATUS_2026-03-26_pre_refresh.md`. Old APO price levels, Jun18 option rails, and March catalyst language are historical unless explicitly refreshed below.
+
+---
+
+## 0. 2026-06-21 boot delta (verified sweep)
+
+**Net read:** the insurer-wrapper picture shifted modestly toward **RELIEF / clock-advance, not breach**, vs 6/15. Two real moves: (1) **regulatory-capital pressure eased near-term** — NAIC CLO RBC slipped past its own 6/15 adoption gate (YE2026 effective now at-risk, YE2027 fallback stated) and **MM-CLOs — the most PE-relevant collateral — were explicitly deferred to a 2027 phase-2**; plus FSOC's 3/25 reproposal *raises* the nonbank-SIFI bar. (2) **a funding-fragility canary appeared** — Athene's own May FI deck shows a **43–48bp peer-relative FABN penalty** (5Y secondary T+123 vs IG peers T+75–80), **~8 months with no syndicated FABN issuance**, and a **$28B drawn FHLB book** ($38B pledged) that corrects the baseline's "$2.4B" (which is *undrawn capacity*, not the book). Authoritative attention is rising in chorus (Moody's $807B/20% illiquid naming Athene & GA >15%; FSB; Treasury/Bessent on $1.52T Bermuda; Proskauer 2.73% default index) but **no rating action, enforcement escalation, funding event, or insurer failure landed in-window — every threshold green/yellow, none breached.**
+
+**Verified threshold marks (this window):**
+
+| Threshold | Live / new mark | Status | Note |
+|---|---|---|---|
+| Athene FABN spread (<150 / 150–250 / >250) | 5Y secondary **T+123** to UST; **+43–48bp peer-relative** vs CRBG/EQH/PFG (T+75–80) [Athene FI deck, JPM data 5/14] | 🟢 abs / ⚠️ canary | Absolute green; load-bearing signal is the peer-relative penalty (Athene widest of large IG insurers). Unit care: 5Y-secondary-to-UST, not the generic band. |
+| HY OAS (<300 / 300–350 / >350) | **263** [FRED 6/17, via LIQUID/BROCK 6/20] | 🟢 | 37bp below 300. Owner = LIQUID/BROCK. CCC-BB tail-gap wide (783) — bifurcation in the tail. |
+| Egan-Jones SEC/DOJ (invest / indict / NRSRO revoked) | Formal-review briefing **fully submitted** (reply 6/16, file 3-22618, order 3/25); enforcement probe still investigation-stage; **Aug 12 2026 binary** ~7.5wks out | 🟢 both tracks | Clock advancing, tail open, not de-risked. A denial pressures niche-rating arbitrage but doesn't itself revoke NRSRO standing. |
+| AG55 filings (routine / gaps / restatements) | First attribution reports due **4/1/26 but disclosure-only to state regulators**; no public/SEC visibility | 🟢 routine | Visibility gap persists; deadline passed, filings non-public. |
+| NAIC SVO overrides (<5 / 5–20 / >20) | Discretion Amendment effective 1/1/26 but **NOT operationalized**; systems under development | 🟢 | Binding constraint = operationalization, not authority. |
+| NAIC CLO RBC (baseline: YE2026) | **YE2026 at-risk** (6/15 gate passed unadopted; 6/23 webex; 7/6 residual comment deadline); 2026 = BSL option-1 only; **MM-CLOs deferred to 2027**; collateral-loan code-4 look-through removed via 2026-05-CA (5/14) | 🟡 in-flux | Direction = **relief/delay** for the PE-wrapper near-term. |
+| APO stock (>120 / 100–120 / <100) — **STALE March band** | ~**$137.50** (6/18 close, per BROCK) | re-mark | NOT a "no-stress" proof; re-marked as thesis-conditional, not a tape level. See §9. |
+| Illiquidity ratio (>30% = red) — mechanism | Industry **20%** of $4T FI; top-10 = 44% of illiquid on 24% of FI; Athene & GA each **>15%** private credit [Moody's 6/8] | 🟢 surveillance | Blended below 30%; PE-cohort sub-tier runs hotter (blended-masks-bifurcation). Surveillance, not a rating action. |
+
+**Verification retractions (discipline):**
+- **RETRACT — Nationwide/MassMutual reinsurance was INVERTED:** primary (Nationwide newsroom) confirms **Nationwide is the ASSUMING party** (+$6B reserves) and **MassMutual is CEDING** a legacy fixed-UL block — a non-PE mutual *absorbing* risk, not a captive-hollowing signal. Low thesis weight either direction.
+- **DOWNGRADE framing — Egan-Jones "new 6/16 event":** the 5/18 / 6/16 briefing dates were **pre-set in the 3/25 order**, not a fresh delta; treat as procedural-on-track. Substance (defense submitted, Aug 12 binary live) holds.
+
+Full verified detail + sources: `research/SHADE_BOOT_SWEEP_2026-06-21.md`.
 
 ---
 
@@ -30,7 +55,7 @@ Apollo’s Q1 2026 transcript and Athene IR materials materially change the old 
 - Apollo says Athene’s CLO exposure has fallen from north of $40B / ~11% of the balance sheet to **below 8%**, with further decline expected. `[Apollo Q1 transcript]`
 - Apollo introduced **AMAPS** as the replacement structured-credit vehicle: Athene has **$11B / ~3%** exposure and Apollo expects it to double as CLO exposure falls. `[Apollo Q1 transcript; Apollo AMAPS article, 2026-05-06]`
 - Athene IR reports **>$445B total assets**, **$36B regulatory capital**, **$1.7B excess equity capital**, **$72B available liquidity**, and **$6.2B deployable capital** as of 2026-03-31. `[Athene IR, fetched 2026-06-15]`
-- Athene IR confirms a funding-agreement backed notes program and says liquidity includes cash, facilities, committed repos, **$2.4B FHLB borrowing capacity**, and a $53.1B highly liquid asset portfolio. `[Athene IR]`
+- Athene IR confirms a funding-agreement backed notes program and says liquidity includes cash, facilities, committed repos, FHLB access, and a $53.1B highly liquid asset portfolio. `[Athene IR]` **[CORRECTED 6/21]:** the **$2.4B is UNDRAWN available FHLB capacity, not the book** — Athene's May 2026 FI deck shows **$28B FHLB advances OUTSTANDING / $38B pledged collateral / ~135% overcollateralization / 65% WA LTV** (3/31/26). FHLB is a **$28B funded liability** (~8% of $371B gross reserve liabilities); ~$38B encumbered assets reduce the unencumbered cushion behind the $53.1B "highly liquid" figure. Separately, a **$1.7B one-time tax expense** (ACRA Bermuda CIT-election revocation → full valuation allowance on remaining Bermuda DTAs) lifted adjusted leverage to **25.9%** — a quality-of-capital nick, not a threshold breach. `[Athene FI deck, 5/14–15/26]`
 
 **SHADE read:** old “APO already cracking” language should be retired. But Apollo’s defense redirects the risk map toward **AMAPS/MAPS-type structured credit, private ratings, affiliated/originated assets, funding-agreement opacity, and insurer capital treatment**. If the next credit leg is hidden, it likely hides in the machinery Apollo is highlighting as “de-risking.”
 
@@ -39,6 +64,8 @@ Apollo’s Q1 2026 transcript and Athene IR materials materially change the old 
 Apollo describes AMAPS as a structured-credit product with thicker equity tranche, ~85% investment-grade rated collateral, CUSIPs, daily pricing/trading, and holders including sovereign wealth investors, institutions, third-party insurers, and Athene/Apollo alignment capital. `[Apollo AMAPS article, 2026-05-06]`
 
 **SHADE test:** does AMAPS genuinely reduce credit/funding risk, or does it repackage spread into a more capital-efficient insurance-balance-sheet wrapper? Track ratings, tranche thickness, collateral marks, insurer uptake, and whether MAPS-type securities spread beyond Apollo.
+
+**[6/21 update]:** AMAPS is **ABSENT from Athene's May 2026 FI deck** (zero AMAPS/MAPS mentions; CLO shown at 8% net-invested / 5% of LTM gross purchases) despite being Q1's headline CLO-replacement vehicle. Apollo markets AMAPS only in a standalone 5/6 insight (~85% IG-rated, 45–50% IG collateral, 600+ obligors, **~9x leverage vs ~12x for CLO**, 5yr; longer-duration "APADS" variant in development; held by sovereign-wealth/institutional/**third-party insurers**). The **disclosure-channel split** — Apollo-marketed but not surfaced in Athene's credit-investor deck — is itself the watch item. Next pull = Athene Asset Compendium / "Affiliated & Related Party Assets" deck to locate AMAPS in the Schedule-D/BA equivalent.
 
 ### Blue Owl / Kuvare: pattern remains, but language must be precise
 
@@ -55,11 +82,22 @@ KKR’s NAIC Spring 2026 update confirms insurance-investment regulation is acce
 
 **SHADE read:** regulatory pressure is real, but the live question is specific capital treatment of CLO/MML/non-CLO structured products and collateral loans — exactly where PE-insurer spread advantages can narrow.
 
+**[6/21 update — direction flipped to near-term RELIEF]:** the **6/15 CLO-RBC adoption gate passed unadopted** (RBC IRE WG still taking comments; **6/23 webex**; CLO C-1 Residuals & PAF comments through **7/6/26**) → **YE2026 effective now AT-RISK, with a stated YE2027 fallback.** 2026 adoption is limited to **BSL CLOs under option-1**; **MM-CLOs explicitly deferred to a 2027 phase-2** — this **resolves the baseline "do factors apply to MML-CLOs" question = NO for 2026**, leaving the most PE-relevant collateral uncharged another year. Small offsetting tightening: NAIC adopted **2026-05-CA** (5/14) removing the collateral-loan/investment-subsidiary code-4 **look-through** for Life/Fraternal filers — a reporting cycle earlier than the prior ~YE2027 expectation. Federal posture is **monitoring, not tightening**: **FSOC's 3/25 reproposal raises the nonbank-SIFI bar** (activities-based-first, "severe damage" standard, mandatory cost-benefit, 180-day off-ramp; comments due 5/14); Treasury/Bessent struck a "fit-for-purpose" tone on the **$1.52T Bermuda** book.
+
+### Systemic shadow-insurance commentary — rising chorus, no teeth yet
+
+A cluster of authoritative surveillance landed in-window — the cleanest third-party quantification of the SHADE thesis to date, but all commentary, zero enforcement/rating teeth:
+- **Moody's (6/8):** US life insurers' illiquid private/structured credit = **$807B = 20% of $4T FI** at YE2025 (up from $685B/18% YE2024, +$122B YoY); **top-10 hold 44% of the illiquid book on just 24% of industry FI**; private books riskier (43% NAIC-2 vs 36%; 9% below-IG vs 5%); **Athene & Global Atlantic each >15% private credit** (Barclays-cited); PIK 1.1% of statutory surplus flagged late-cycle.
+- **Proskauer Private Credit Default Index (Q1'26): 2.73%** (697 loans/$189.2B), a clean 3-quarter rise (1.84→2.46→2.73) — a **third** independent default series above BROCK's KBRA DLD 2.3% and Fitch BDC deterioration. `[CONF BROCK owns fund-default authority]`
+- **FSB (5/6)** + **Treasury/Bessent (5/11)** Bermuda engagement add to the chorus.
+
+**SHADE read:** the surveillance corroborates the illiquidity/concentration mechanism (the PE-cohort sub-tier runs hotter than the blended 20%), but **surveillance ≠ a rating action** — no downgrade / negative-outlook hit any watchlist PE-insurer in-window.
+
 ### Egan Jones / ratings machinery
 
-Phase 3 found no post-March resolution. SEC formal review / Aug 12, 2026 deadline remains a calendar risk. Exemptive relief denial remains part of the March baseline. `[SEC / PR refresh, 2026-06-15]`
+Phase 3 found no post-March resolution. **[6/21]:** the formal-review **briefing is now fully submitted** — SEC AP file **3-22618**, order **3/25/26**; EJR opening **5/18**, reply **6/16/26**; **Aug 12 2026** decision deadline stands. A **separate SEC enforcement probe** (improper commercial influence, origin Nov 2025) remains investigation-stage — no Wells notice / charges. `[SEC docket / refresh 2026-06-21]`
 
-**SHADE read:** keep on calendar; do not escalate without new source.
+**SHADE read:** Aug 12 is now a **hard-dated docket binary** with the defense submitted; both tracks GREEN. Pre-register: a denial pressures the niche-rating arbitrage channel industry-wide but does **not** by itself revoke existing NRSRO standing — the faster enforcement track is the one to watch for a Wells notice. (Discipline caution: the 5/18 / 6/16 dates were pre-set in the 3/25 order, not a fresh event.)
 
 ---
 
@@ -69,9 +107,9 @@ Phase 3 found no post-March resolution. SEC formal review / Aug 12, 2026 deadlin
 |---|---:|---|---|
 | **Insurer asset-transfer / affiliated exposure** | 🔴 Watch | Related-party/affiliated transfer pattern remains the key SHADE risk, but current language must distinguish proven transactions from press narratives. Blue Owl/Kuvare needs statutory tie-out; Apollo/Athene emphasizes transparency and affiliated/originated asset control. | SHADE + BROCK |
 | **AMAPS / rated structured wrappers** | 🔴 New watch | Apollo is replacing CLO exposure with AMAPS; Athene already has $11B and expects exposure to double. Treat as the new capital/rating wrapper to audit. | SHADE |
-| **Funding fragility: FABN/FHLB/funding agreements** | 🟠 | Broad plumbing clean per LIQUID, but insurer-specific funding remains the fast fuse. Apollo did no public funding agreements in Q1 due to spreads, but accessed private funding agreements; Athene has funding-agreement backed notes program and reported $72B liquidity. | SHADE + LIQUID |
-| **Regulatory capital: NAIC/PBR/AG55/SVO** | 🟠 | Regulatory workstreams active. CLO/MML/collateral-loan RBC treatment can pressure spread/capital advantages. AG55 actual public filings still need audit. | SHADE |
-| **Ratings / valuation machinery** | 🟠 | Egan Jones Aug12 remains calendar risk; private ratings and rated-feeder/CFO channel remain important but require issuer-level verification. | SHADE |
+| **Funding fragility: FABN/FHLB/funding agreements** | 🟠 (canary up) | **Athene 5Y FABN secondary T+123 = +43–48bp peer-relative penalty** (widest of large IG insurers); **no syndicated FABN since Sept 2025 (~8mo)**, issuance shifting to FHLB/FABR/private; **$28B FHLB drawn / $38B pledged** (corrects the old $2.4B = undrawn capacity). Absolute spread still green; peer-relative penalty is the yellow-leaning canary on kill-path-1. $71.8B total liquidity / $53.1B highly liquid (now net of ~$38B encumbered). | SHADE + LIQUID |
+| **Regulatory capital: NAIC/PBR/AG55/SVO** | 🟠→🟡 (net relief this window) | CLO RBC **slipped past its 6/15 gate** (YE2026 at-risk, YE2027 fallback); **MM-CLOs deferred to 2027** (worst PE-collateral uncharged another year); **FSOC SIFI bar raised**. Small offset: 2026-05-CA collateral-loan look-through removed (5/14). SVO discretion **not operationalized**. AG55 reports due 4/1 but **disclosure-only to state regulators**. | SHADE |
+| **Ratings / valuation machinery** | 🟠 | Egan-Jones **Aug 12 2026 = hard-dated docket binary** (defense submitted 6/16); Moody's 6/8 is surveillance, not a rating action; **no downgrade/neg-outlook on any watchlist PE-insurer in-window.** A-CAP/777 resolving via PE recap (Oaktree→Atlantic Coast Life 3/13). | SHADE |
 | **BROCK stress translation** | 🔴 | Fund gates/defaults/dividend cuts matter to SHADE only if insurer allocations, asset transfers, capital marks, or funding confidence are affected. | BROCK facts → SHADE implication |
 | **System transmission** | 🟡/🟠 | Broad HY/funding confirmation absent; insurer-wrapper stress remains structural/latent unless funding, rating, regulatory, or bank/NDFI bridge trigger fires. | LIQUID / REGINALD / NEXUS |
 
@@ -99,6 +137,8 @@ Phase 3 found no post-March resolution. SEC formal review / Aug 12, 2026 deadlin
 | **KKR / Global Atlantic** | Insurer wrapper for KKR credit/BDC stress; possible support/channel linkage. | Watchlist; NAIC update useful for regulatory framework, not Global Atlantic exposure. | Global Atlantic statutory/funding disclosures, KKR credit commentary. |
 | **Brookfield / AEL / XOL** | Phantom/XOL asset signal points to reinsurance accounting/counterparty hollowness. | High-risk signal but not primary-verified in Phase 3. | Statutory filings / reinsurance notes / counterparty reserve evidence. |
 | **Rated feeders / CFOs** | Capital-efficiency route for insurance investors to hold private-credit exposure. | KBRA conference recap validates product-innovation theme; full report not yet audited. | KBRA rated-feeder/CFO report and issuer-level insurer allocations. |
+| **A-CAP / 777 / Oaktree** | Realized-loss + "PE-recap absorbs quietly" pattern. | Oaktree took control of Atlantic Coast Life (3/13/26) + new captive supporting Sentinel, after AM Best's 1/23 downgrade (B++→B FSR). No fresh in-window action. | Whether the new Oaktree captive itself becomes a SHADE captive-reinsurance subject. |
+| **PHL Variable (Golden Gate)** | Realized cockroach-theory proof-of-concept. | Confirmed trajectory: rehabilitation → liquidation by end-2026, ~$2.2B hole, >$120M UL policyholder loss. | Watch for any NEW small/mid PE-owned insurer joining the realized-loss list — the single-name→cohort differentiator. |
 
 ---
 
@@ -106,10 +146,13 @@ Phase 3 found no post-March resolution. SEC formal review / Aug 12, 2026 deadlin
 
 | Date / Window | Item | SHADE read | Status |
 |---|---|---|---|
-| 2026 | NAIC CLO RBC framework | Senior IG likely manageable; MML/non-CLO applicability is the live ambiguity. | Active |
-| 2026-2027 | Collateral-loan RBC look-through | Could pressure structures backed by JV/LLC interests or residual tranches. | Active / slower fuse |
-| Q2-Q3 2026 | AG55 attribution-analysis visibility | Potential first look into offshore/captive arrangements; actual public visibility unresolved. | Needs audit |
-| 2026-08-12 | Egan Jones SEC formal-review decision deadline | Rating-machinery tail risk; no Phase 3 evidence of resolution. | Calendar risk |
+| YE2026 (AT-RISK) | NAIC CLO RBC framework | 6/15 gate passed unadopted; 2026 = BSL option-1 only; **MM-CLOs deferred to 2027**; YE2027 fallback for the whole framework. Direction = near-term relief. | Active / slipping |
+| 2026-06-23 | NAIC RBC IRE WG webex | Will signal whether YE2026 BSL option-1 holds or slips further. | New / imminent |
+| 2026-07-06 | NAIC CLO C-1 Residuals & PAF comment deadline | The option-2 thin-tranche (<4%) residual factor fight for 2027 — worst-case bucket for AMAPS-style residual exposure. | New / live comment window |
+| 2026-2027 | Collateral-loan RBC look-through | Could pressure structures backed by JV/LLC interests or residual tranches. **2026-05-CA (adopted 5/14) already removed the code-4 look-through for Life/Fraternal — a cycle earlier than expected.** | Active / partly landed |
+| 2026-04-01 (passed) | AG55 attribution-analysis reports | First reports **were due 4/1/26 but are disclosure-only to domestic state regulators** — no public/SEC visibility. The "forced-disclosure" kill-path needs a future public trigger; do not bank. | Visibility gap persists |
+| 2026-05-14 (passed) | FSOC nonbank-SIFI reproposal comment deadline | Reproposal **raises** the designation bar (activities-first, "severe damage", cost-benefit, 180-day off-ramp) → lowers odds of Fed-supervised SIFI designation for PE-insurers; oversight stays with states/NAIC. | Federal posture: loosening |
+| 2026-08-12 | Egan-Jones SEC formal-review decision | **Hard-dated docket binary; defense fully submitted (reply 6/16, file 3-22618).** A denial pressures niche-rating arbitrage industry-wide but doesn't itself revoke NRSRO standing. Separate Nov-2025 enforcement probe = watch for a Wells notice. | Calendar risk — clock advancing |
 | 2026-2027 | Athene/FABN/funding-agreement maturity and issuance windows | Fast-fuse funding/refinancing stress if spreads/rollover deteriorate; public vs private funding mix matters. | Needs ladder refresh |
 | Ongoing | SVO override / NAIC designation actions | Capital-treatment credibility channel. | Monitor |
 
@@ -141,6 +184,7 @@ Phase 3 found no post-March resolution. SEC formal review / Aug 12, 2026 deadlin
 
 - Old March 2026 SHADE status is archived at `AGENTS/SHADE/archive/STATUS_2026-03-26_pre_refresh.md`.
 - Old APO/ARES Jun18 option rows are historical; SHADE should not maintain live position rails unless Will explicitly asks.
+- **APO threshold band re-marked (6/21):** the March `>$120 green / $100–120 yellow / <$100 red` band is a **stale tape level**. APO ~$137.50 (6/18 close, defer canonical mark to BROCK) is NOT proof of "no stress" — Athene is ~60% of Apollo equity value and the wrapper risk is a balance-sheet/funding/ratings mechanism that can crack while the equity holds. Treat the band as a thesis-conditional reference only; confirm the live mark with BROCK each session rather than carrying the March band as current. (One in-window press print cited ~$104; defer to BROCK's canonical $137.50.)
 - Old urgent outbox rows are retired. Use current cross-agent dependencies instead.
 - Phase documents:
   - `AGENTS/SHADE/research/STATUS_REFRESH_PHASE1_MAP_2026-06-15.md`

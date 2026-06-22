@@ -4,6 +4,14 @@ Structural-change log for SHADE architecture: docs/scripts/protocol/schema chang
 
 ---
 
+### 2026-06-21 — board_log.tsv created (WALTER consumption v0.2) + first agent-run boot
+- **Trigger:** First live SHADE boot. WALTER delivery lane (`inbox/WALTER/`) held one unprocessed signal and no `board_log.tsv` existed.
+- **What changed:** Created `board_log.tsv` with the v0.2 header (`timestamp_read<TAB>signal_id<TAB>disposition<TAB>source<TAB>notes`); logged + `git mv`'d `SIG-W-20260619-008` to `inbox/WALTER/processed/`. Added `research/SHADE_BOOT_SWEEP_2026-06-21.md` (verified domain-sweep artifact). STATUS gained a top-of-file §0 verified boot-delta section (now 203 lines).
+- **Files touched:** `board_log.tsv` (new), `research/SHADE_BOOT_SWEEP_2026-06-21.md` (new), `STATUS.md`, `SCRATCH.md`, `MEMORY.md`, `inbox/WALTER/processed/SIG-W-20260619-008.md` (moved).
+- **Boot impact:** WALTER intake (step 4a) is now wired — future boots append to `board_log.tsv` and `git mv` consumed signals. STATUS §0 is the canonical at-top verified-delta block.
+- **Methodology note:** boot used a Workflow (5 finders → adversarial verify → synthesis). The verify pass retracted an inverted reinsurance claim — keep the verify stage on future sweeps.
+- **Still deferred:** `NEXUS_BRIEF.md`, `boot.py`. (`yfinance` not installed in `.venv/` — local `fetch.py price` fails; not blocking, owner agents supply marks.)
+
 ### 2026-06-15 — Boot architecture scaffold added
 - **Trigger:** Prome stale-agent review found SHADE very stale (last substantive status Mar 26) and architecturally behind mature agents (no SCRATCH/MEMORY/NEXUS_BRIEF/MAINTENANCE/boot protocol spine).
 - **What changed:** Added `SCRATCH.md`, `MEMORY.md`, `MAINTENANCE.md`; modernized `CLAUDE.md` with a read→write SPAWN PROTOCOL, BROCK/SHADE boundary, source-of-truth discipline, and pathspec-only git rules.
