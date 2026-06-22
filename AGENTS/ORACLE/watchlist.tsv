@@ -36,3 +36,13 @@ BOJ July decision	event	bank-of-japan-decision-in-july-659	T2	SAM
 # Crypto / cross-asset risk appetite
 Bitcoin dip to $40K by Dec 31	market	will-bitcoin-dip-to-40000-by-december-31-2026-593-522-842-874-931-776-991-167	T2	RED,LIQUID,BROCK
 Best asset 2026 (SP/Gold/BTC)	event	bitcoin-vs-gold-vs-sp-500-in-2026	T3	RED,HENRY
+
+# ===== ADDED 2026-06-22 (Will: July catalysts + FL season-watch) — NEAR-DATED, roll/drop after resolve =====
+# July prints (resolve mid-July) — front-run vs the actual release; the provision swing-rungs are the crowd's central estimate (thin per-rung, watch the drift not the level)
+June CPI print (modal)	event	june-inflation-us-annual-20260610151727862	T1	HENRY
+Citi Q2 cr-loss prov >$2.9B	market	will-citigroup-c-q2-provision-for-credit-losses-be-above-2pt9b	T1	REGINALD,CARL
+BAC Q2 cr-loss prov >$1.4B	market	will-bank-of-america-bac-q2-provision-for-credit-losses-be-above-1pt4b	T1	REGINALD,CARL
+Hormuz traffic normal by Jun30	market	strait-of-hormuz-traffic-returns-to-normal-by-end-of-june	T2	HAWK,BRENT
+# Florida hurricane season-watch (thin live depth, high lifetime vol — ≥3-day re-check, do not mark single prints)
+FL: Cat-4 hurricane by 2027	market	will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	T3	CORAL,MARCO
+FL: Cat-5 hurricane by 2027	market	will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	T3	CORAL,MARCO
