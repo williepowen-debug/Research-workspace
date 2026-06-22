@@ -4,6 +4,29 @@
 
 ---
 
+## 🔄 SESSION IN PROGRESS — RESUME AT PHASE 4 (post-/clear handoff, 2026-06-22 PM)
+
+**Persistent Will-Telegram session: boot → "flag everything stale/inconsistent/wrong" audit → a 5-phase fix plan. PAUSED here for a context `/clear`; the fresh session resumes at PHASE 4.** Read this block first.
+
+**DONE this session — 4 local commits, NONE pushed (Will-coordinated; do NOT push). Tree ~4 ahead / 0 behind origin, clean:**
+- `ef904f1f` — **Phase 1** (doc truth-up: push-state→SYNCED-0/0, filing-watch 44/46d→36d, SENTRY row 8d→20d, registry_lag refresh of SHADE/ORACLE/SAM/CORAL/TERRY, outbox cleanup) + **Phase 2** (Iran anchor re-stamp 6/21→**6/22**: 60-day ROADMAP corroborated multi-wire + Iran FM; **IAEA/nuclear channel-divergence** US-vs-Iran; C-Grind base + mild constructive tilt; 2 verify-agents).
+- `4e2fcf56` — **Phase 3** (walter_doctor: outbox-blind-spot fix; platform now derives from REGISTRY Platform col; registry_lag false-positive guard via new `_status_header_date`).
+- `74efa184` — **REGISTRY Platform correction**: only PROME = OpenClaw, everyone else CC (Will 6/22). Platform col is now load-bearing for delivery semantics.
+- *(+ this state-save commit.)*
+
+**▶ NEXT — PHASE 4 (WALTER-only; run on resume):**
+1. **MEMORY.md prune** — ~145 lines, cap 100. PROMOTE durable findings to the relevant `design/` spec or auto-memory (CLAUDE.md step-14 promotion paths), DELETE transient/per-session items, keep only un-promoted durable learnings. Promote, don't just cut — don't lose load-bearing findings.
+2. **SESSION LOG trim** — STATUS.md SESSION LOG has ~15 rows; rule is "last 5 only." Roll older rows into `SESSION_LOG.md`, keep newest 5 in STATUS.
+
+**PHASE 5 — LATER SESSION, needs other agents QUIESCENT (do NOT do while agents active):** 5-decision walkthrough (TERRY tier/routing · 6 dormant dirs keep-or-archive · CRE/CMBS→CREED routing · ORACLE routing convention · Cushing-as-registered-threshold) + Phase-2 consume-boot-step rollout to CC recipients (the ~40-unconsumed-handoff fix) + **delivery-model/push reconciliation now that fleet is all-CC** (BOARD_CONSUMPTION_SPEC §3.3 OpenClaw-path = PROME-only; push is load-bearing for ALL routing) + Scout build (3-dead-cron fix) + DEWEY Prompt B run + EVENT_WINDOW refresh (BRENT-coord).
+
+**STANDING CONTEXT for the resuming session:**
+- **Do NOT push** (Will-coordinated; commit local only). **Do NOT route the 6/22 Iran roadmap** (agents active; Will said hold — it's noted in the anchor as a downstream "surface to BRENT/HAWK/SAM").
+- **HENRY confirmed CC** (Will 6/22); registry now correct. **root CLAUDE.md asterisk-list is stale** (omits HENRY/VIOLET, predates all-CC) — shared-scope, flag to PROME, do NOT edit as WALTER.
+- No formal closeout ran yet — **Phase 4 IS partly the closeout** (MEMORY/SESSION-LOG); fold the rest of closeout (STATUS SESSION-LOG row, MEMORY CHANGES-SINCE/NEXT) into the Phase-4 wrap.
+
+---
+
 ## STATUS
 
 **2026-06-22 Mon (~2:13 PM ET → ~3:15 PM ET, Will-Telegram PERSISTENT session — "boot up… do not close out"; resumed after a system crash).** **Multi-task persistent session. 1 dispatch / 1 kill / 2 verify-spawns / BOARD 316→317 + DEWEY tooling build + DEWEY-report read.**
