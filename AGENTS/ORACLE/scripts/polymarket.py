@@ -88,8 +88,13 @@ def parse_market(m):
             days_left = (datetime.date.fromisoformat(end) - datetime.date.today()).days
         except ValueError:
             days_left = None
-    resolved = bool(m.get("closed")) or (days_left is not None and days_left < 0)
-    expiring = days_left is not None and 0 <= days_left <= 7
+    # Trust the authoritative `closed` flag — NOT a past endDate. Some live markets
+    # (e.g. distribution-event rungs) carry stale endDate metadata in the past while
+    # closed=False/active=True and still trading; inferring resolved from days_left<0
+    # false-flags those (caught 2026-06-22: China-GDP, unemployment-ladder rungs).
+    resolved = bool(m.get("closed"))
+    stale_end = (not resolved) and (days_left is not None and days_left < 0)  # past date but still open
+    expiring = (not resolved) and days_left is not None and 0 <= days_left <= 7
     return {
         "question": m.get("question"),
         "slug": m.get("slug"),
@@ -106,6 +111,7 @@ def parse_market(m):
         "thin": thin,
         "resolved": resolved,
         "expiring": expiring,
+        "stale_end": stale_end,
         "yes_token": toks[0] if toks else None,   # clobTokenIds[0] == YES outcome
     }
 
@@ -159,6 +165,8 @@ def fmt_row(label, m, tier=""):
         flag += " ⛔RESOLVED"
     elif m.get("expiring"):
         flag += f" ⏳{m['days_left']}d"
+    elif m.get("stale_end"):
+        flag += " ⏮stale-date"   # endDate in the past but still open — ignore the date
     return (f"{label[:34]:34} {tier:5} {_pct(m['yes'])}  Δ1d {_delta(m['d1'])}  Δ7d {_delta(m['d7'])}  "
             f"vol {_money(m['volume']):>7}  liq {_money(m['liquidity']):>7}  ends {m['end']}{flag}")
 

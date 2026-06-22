@@ -50,3 +50,59 @@ ts	slug	label	tier	yes_prob	volume	liquidity	d1	d7	end	thin
 2026-06-22T01:35Z	ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	T2	0.194	2297944.39955291	17426.26273	-0.0095	-0.016	2026-12-31	False
 2026-06-22T01:35Z	will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	T2	0.085	172487.07280100018	12840.5883	0.005	0.01	2026-12-31	False
 2026-06-22T01:35Z	nothing-ever-happens-2026	Nothing Ever Happens 2026	T3	0.83	621959.4370929977	34995.2392	0.005	0.085	2026-12-31	False
+2026-06-22T02:17Z	us-recession-by-end-of-2026	US recession 2026	T1	0.125	1614725.1982969986	24055.0284	None	-0.03	2027-01-31	False
+2026-06-22T02:17Z	will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	T1	0.8085	5400529.87575499	83806.88845	-0.002	0.099	2026-12-31	False
+2026-06-22T02:17Z	will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	T1	0.145	1760501.879106968	137642.527	0.01	-0.05	2026-12-31	False
+2026-06-22T02:17Z	fed-rate-hike-in-2026	Fed: HIKE in 2026	T1	0.61	2662953.4683690034	191011.1294	-0.015	0.26	2026-12-09	False
+2026-06-22T02:17Z	will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	T1	0.2315	5204142.926261066	211637.17661	0.022	0.199	2026-07-29	False
+2026-06-22T02:17Z	us-bank-failure-by-june-30-227	US bank failure by Jun 30	T1	0.0845	13480.209675	4062.1558	0.0295	-0.2555	2026-06-30	True
+2026-06-22T02:17Z	major-us-bank-bailout-before-2027	Major bank bailout before 2027	T1	0.125	3674.728546999999	1749.1289	0.005	-0.02	2026-12-31	True
+2026-06-22T02:17Z	which-banks-will-fail-by-june-30	Which banks fail by Jun 30 (top)	T1	0.0065	39925.14250800002	5103.07815	0.002	None	2026-06-30	False
+2026-06-22T02:17Z	us-defaults-on-debt-by-2027	US debt default by 2027	T2	0.028	15546.186050000002	5112.79828	-0.0015	-0.0105	2026-12-31	False
+2026-06-22T02:17Z	iran-agrees-to-end-enrichment-of-uranium-by-june-30	Iran ends enrichment by Jun 30	T2	0.0385	11241342.98262597	358748.33433	0.004	-0.2015	2026-06-30	False
+2026-06-22T02:17Z	will-wti-dip-to-70-in-june-2026-532-385-742-336-388-358-153-334-926	WTI dips to $70 (Jun) — oil-down	T2	0.305	614945.2251570012	22339.2042	0.08	0.125	2026-07-01	False
+2026-06-22T02:17Z	will-wti-reach-100-in-june-2026-823-791-134	WTI hits $100 (Jun) — war premium	T2	0.0225	818044.8833029998	119063.97971	-0.008	-0.0625	2026-07-01	False
+2026-06-22T02:17Z	ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	T2	0.194	2297944.39955291	17939.46435	-0.0095	-0.016	2026-12-31	False
+2026-06-22T02:17Z	will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	T2	0.085	172487.07280100018	12839.5883	0.005	0.01	2026-12-31	False
+2026-06-22T02:17Z	nothing-ever-happens-2026	Nothing Ever Happens 2026	T3	0.83	621959.4370929977	35492.7587	0.005	0.085	2026-12-31	False
+2026-06-22T02:17Z	what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	T1	0.307	525073.3469730008	14526.93078	0.007	-0.0545	2026-12-09	False
+2026-06-22T02:17Z	will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	T1	0.135	268993.36558399996	29600.3103	None	-0.04	2026-12-31	False
+2026-06-22T02:17Z	how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	T1	0.108	116046.4381380001	1638.48237	None	-0.057	2026-01-10	True
+2026-06-22T02:17Z	strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	T1	0.865	2623573.5011459836	327639.8973	-0.01	-0.01	2026-12-31	False
+2026-06-22T02:17Z	will-the-us-invade-iran-before-2027	US invade Iran before 2027	T2	0.14	38545682.884406686	282006.0001	0.005	0.015	2026-12-31	False
+2026-06-22T02:17Z	iran-leadership-change-by-december-31-974-976-658-482-568	Iran leadership change by Dec 31	T2	0.155	2991855.8206799733	74237.0487	None	-0.01	2026-12-31	False
+2026-06-22T02:17Z	russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefire by Dec 31	T2	0.465	1836305.8409100003	111615.9044	-0.005	-0.01	2026-12-31	False
+2026-06-22T02:17Z	will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	T1	0.0625	36335730.91525198	639832.21782	None	0.001	2026-12-31	False
+2026-06-22T02:17Z	china-annual-gdp-growth-2026	China annual GDP growth 2026	T1	0.775	166249.33753700028	12940.4427	-0.01	None	2026-01-31	False
+2026-06-22T02:17Z	china-x-philippines-military-clash-before-2027	China-Philippines clash before 2027	T2	0.165	703725.039753	98281.5802	-0.01	-0.03	2026-12-31	False
+2026-06-22T02:17Z	bank-of-japan-decision-in-july-659	BOJ July decision	T2	0.9785	7485.170236000001	6083.56874	0.0085	0.0485	2026-07-31	False
+2026-06-22T02:17Z	will-bitcoin-dip-to-40000-by-december-31-2026-593-522-842-874-931-776-991-167	Bitcoin dip to $40K by Dec 31	T2	0.285	920280.5831500004	56967.0207	-0.01	None	2027-01-01	False
+2026-06-22T02:17Z	bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	T3	0.48	176647.5078530001	24078.7552	-0.005	0.015	2026-12-31	False
+2026-06-22T02:19Z	us-recession-by-end-of-2026	US recession 2026	T1	0.125	1614725.1982969986	24055.0284	None	-0.03	2027-01-31	False
+2026-06-22T02:19Z	will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	T1	0.8085	5400529.87575499	86197.0276	-0.002	0.099	2026-12-31	False
+2026-06-22T02:19Z	will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	T1	0.145	1760501.879106968	137883.0991	0.01	-0.05	2026-12-31	False
+2026-06-22T02:19Z	fed-rate-hike-in-2026	Fed: HIKE in 2026	T1	0.61	2662953.4683690034	189583.8329	-0.015	0.26	2026-12-09	False
+2026-06-22T02:19Z	will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	T1	0.2315	5204142.926261066	211637.17661	0.022	0.199	2026-07-29	False
+2026-06-22T02:19Z	us-bank-failure-by-june-30-227	US bank failure by Jun 30	T1	0.0845	13480.209675	4062.1558	0.0295	-0.2555	2026-06-30	True
+2026-06-22T02:19Z	major-us-bank-bailout-before-2027	Major bank bailout before 2027	T1	0.125	3674.728546999999	1749.1289	0.005	-0.02	2026-12-31	True
+2026-06-22T02:19Z	which-banks-will-fail-by-june-30	Which banks fail by Jun 30 (top)	T1	0.0065	39925.14250800002	5103.07815	0.002	None	2026-06-30	False
+2026-06-22T02:19Z	us-defaults-on-debt-by-2027	US debt default by 2027	T2	0.0285	15546.186050000002	5112.77612	-0.0015	-0.0135	2026-12-31	False
+2026-06-22T02:19Z	iran-agrees-to-end-enrichment-of-uranium-by-june-30	Iran ends enrichment by Jun 30	T2	0.0385	11241342.98262597	358748.33433	0.004	-0.2015	2026-06-30	False
+2026-06-22T02:19Z	will-wti-dip-to-70-in-june-2026-532-385-742-336-388-358-153-334-926	WTI dips to $70 (Jun) — oil-down	T2	0.305	614945.2251570012	22339.2042	0.08	0.125	2026-07-01	False
+2026-06-22T02:19Z	will-wti-reach-100-in-june-2026-823-791-134	WTI hits $100 (Jun) — war premium	T2	0.0225	818044.8833029998	113583.12157	-0.008	-0.0625	2026-07-01	False
+2026-06-22T02:19Z	ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	T2	0.194	2297944.39955291	17939.46435	-0.0095	-0.016	2026-12-31	False
+2026-06-22T02:19Z	will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	T2	0.085	172487.07280100018	12839.5883	0.005	0.01	2026-12-31	False
+2026-06-22T02:19Z	nothing-ever-happens-2026	Nothing Ever Happens 2026	T3	0.83	621959.4370929977	39768.508	0.005	0.085	2026-12-31	False
+2026-06-22T02:19Z	what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	T1	0.307	525073.3469730008	14335.90736	0.007	-0.054	2026-12-09	False
+2026-06-22T02:19Z	will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	T1	0.135	268993.36558399996	32160.1199	None	-0.04	2026-12-31	False
+2026-06-22T02:19Z	how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	T1	0.108	116046.4381380001	1638.48237	None	-0.057	2026-01-10	True
+2026-06-22T02:19Z	strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	T1	0.865	2623573.5011459836	326950.5973	-0.01	-0.01	2026-12-31	False
+2026-06-22T02:19Z	will-the-us-invade-iran-before-2027	US invade Iran before 2027	T2	0.14	38545682.884406686	283962.5165	0.005	0.015	2026-12-31	False
+2026-06-22T02:19Z	iran-leadership-change-by-december-31-974-976-658-482-568	Iran leadership change by Dec 31	T2	0.155	2991855.8206799733	74237.0487	None	-0.01	2026-12-31	False
+2026-06-22T02:19Z	russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefire by Dec 31	T2	0.465	1836305.8409100003	111615.9044	-0.005	-0.01	2026-12-31	False
+2026-06-22T02:19Z	will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	T1	0.0625	36335730.91525198	639832.21782	None	0.001	2026-12-31	False
+2026-06-22T02:19Z	china-annual-gdp-growth-2026	China annual GDP growth 2026	T1	0.775	166249.33753700028	12940.4427	-0.01	None	2026-01-31	False
+2026-06-22T02:19Z	china-x-philippines-military-clash-before-2027	China-Philippines clash before 2027	T2	0.165	703725.039753	98281.5802	-0.01	-0.03	2026-12-31	False
+2026-06-22T02:19Z	bank-of-japan-decision-in-july-659	BOJ July decision	T2	0.9785	7485.170236000001	6083.56874	0.0085	0.0485	2026-07-31	False
+2026-06-22T02:19Z	will-bitcoin-dip-to-40000-by-december-31-2026-593-522-842-874-931-776-991-167	Bitcoin dip to $40K by Dec 31	T2	0.285	920280.5831500004	55659.1066	-0.01	None	2027-01-01	False
+2026-06-22T02:19Z	bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	T3	0.48	176647.5078530001	24078.7552	-0.005	0.015	2026-12-31	False
