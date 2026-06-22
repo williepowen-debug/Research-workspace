@@ -30,6 +30,8 @@
 
 Full verified detail + sources: `research/SHADE_BOOT_SWEEP_2026-06-21.md`.
 
+**6/22 addendum — FABN maturity ladder built:** the ~$16.5B "2026-2027 FABN wall" that kill-path-1 rests on **could NOT be reconciled to any primary filing** — Athene Global Funding is **not an SEC filer**, 100% of the $34.5B FABN is 144A/Reg S, and Athene publishes **no FABN-only maturity ladder anywhere**. Re-marked as **third-party/unverified**. The *mechanism* is confirmed and sharper, though: Q1'26 FABN gross issuance **collapsed to $2.0B vs $13.4B FY2025** ("challenging market conditions" per 10-Q MD&A), ~9-10mo since the last public syndication, ~14 tranches confirmed clustering in 2026-H2/2027, and Athene is **actively tendering** two 2027 series (6/22). Kill-path-1 held at **YELLOW** (refinance-at-wider-spread, not rollover failure). Detail: `research/ATHENE_FABN_MATURITY_LADDER_2026-06-22.md`.
+
 ---
 
 ## 1. Top-line read
@@ -93,6 +95,15 @@ A cluster of authoritative surveillance landed in-window — the cleanest third-
 
 **SHADE read:** the surveillance corroborates the illiquidity/concentration mechanism (the PE-cohort sub-tier runs hotter than the blended 20%), but **surveillance ≠ a rating action** — no downgrade / negative-outlook hit any watchlist PE-insurer in-window.
 
+### FABN maturity ladder — the $16.5B wall is structurally unverifiable (6/22)
+
+Built the Athene FABN/funding-agreement ladder. Verified program stack (Q1'26 10-Q, as-of 3/31/26): **FABN $34.5B** (flat QoQ; +$10.5B FY2025 build then flat) + FABR $21.5B + direct FA $6.1B + **FHLB $28.2B** (+$4.9B QoQ) + LT repo $3.2B = **~$93.5B gross FA family**. ($10.5B board FABN headroom ≈ $45B ceiling; separate $35B EMTN shelf — don't conflate. The 10-K's $71.4B "FA net reserve liabilities" is a reserve measure, NOT the gross sum.)
+
+- **The $16.5B 2026-2027 wall is third-party/UNVERIFIED.** Athene Global Funding is **not an SEC filer**; **100% of FABN is 144A/Reg S**; per-tranche principal sits in private Pricing Supplements only (cbonds/FINSIGHT paywalled). The only year-bucketed primary figure is the MD&A "Interest-sensitive contract liabilities" row, which blends annuities + ALL FA + GICs, undiscounted incl. future interest (2026=$21.3B, 2027-28=$95.4B) — **not the FABN wall**. No public FABN-only ladder exists by design.
+- **Mechanism CONFIRMED and sharper:** Q1'26 FABN gross issuance **collapsed to $2.0B vs $13.4B FY2025** (10-Q MD&A: "decrease in FABN issuance amid challenging market conditions"); ~9-10mo since last public syndication (Aug/Sep 2025); substitution into encumbered FHLB (+$5.0B Q1) / FABR; ~14 tranches confirmed clustering 2026-H2/2027; **actively tendering** series 2022-6 ($260.1M) and 2020-5 ($238.1M), both 2027 (6/22).
+- **Spread obs-date reconciliation:** T+123 (+43-48bp peer penalty) [May'26 deck] vs T+105 (+23-34bp) [Feb'26 deck] — penalty appears to have **widened ~+15bp over the quarter**; tag each reading with its date, stop carrying one number.
+- **Kill-path-1 = YELLOW** (refinance-at-wider-spread + mix-shift to encumbered funding, mechanism intact) — NOT red. Rebuttals hold: no puttable FABNs, no FA-backed CP, 89% penalty-protected funding, $71.8B liquidity, A1/A+/A+, RBC 441%. Escalate to red only on a **verified** large 2026-H2/27 concentration AND (FABN spread >250bp OR a pulled syndication). Recovery path to size the wall without a terminal: NPORT-P holder-level CUSIPs (MS Inst Fund Trust CIK 0000741375, PIMCO Funds CIK 0000810893). Detail: `research/ATHENE_FABN_MATURITY_LADDER_2026-06-22.md`.
+
 ### Egan Jones / ratings machinery
 
 Phase 3 found no post-March resolution. **[6/21]:** the formal-review **briefing is now fully submitted** — SEC AP file **3-22618**, order **3/25/26**; EJR opening **5/18**, reply **6/16/26**; **Aug 12 2026** decision deadline stands. A **separate SEC enforcement probe** (improper commercial influence, origin Nov 2025) remains investigation-stage — no Wells notice / charges. `[SEC docket / refresh 2026-06-21]`
@@ -107,7 +118,7 @@ Phase 3 found no post-March resolution. **[6/21]:** the formal-review **briefing
 |---|---:|---|---|
 | **Insurer asset-transfer / affiliated exposure** | 🔴 Watch | Related-party/affiliated transfer pattern remains the key SHADE risk, but current language must distinguish proven transactions from press narratives. Blue Owl/Kuvare needs statutory tie-out; Apollo/Athene emphasizes transparency and affiliated/originated asset control. | SHADE + BROCK |
 | **AMAPS / rated structured wrappers** | 🔴 New watch | Apollo is replacing CLO exposure with AMAPS; Athene already has $11B and expects exposure to double. Treat as the new capital/rating wrapper to audit. | SHADE |
-| **Funding fragility: FABN/FHLB/funding agreements** | 🟠 (canary up) | **Athene 5Y FABN secondary T+123 = +43–48bp peer-relative penalty** (widest of large IG insurers); **no syndicated FABN since Sept 2025 (~8mo)**, issuance shifting to FHLB/FABR/private; **$28B FHLB drawn / $38B pledged** (corrects the old $2.4B = undrawn capacity). Absolute spread still green; peer-relative penalty is the yellow-leaning canary on kill-path-1. $71.8B total liquidity / $53.1B highly liquid (now net of ~$38B encumbered). | SHADE + LIQUID |
+| **Funding fragility: FABN/FHLB/funding agreements** | 🟠 (canary up) | **FA family ~$93.5B gross** (FABN $34.5B + FABR $21.5B + direct $6.1B + FHLB $28.2B + LT repo $3.2B, 3/31/26). **Q1'26 FABN gross issuance collapsed to $2.0B vs $13.4B FY2025** ("challenging market conditions"); ~9-10mo since last public syndication; substitution into encumbered FHLB (+$4.9B QoQ) / FABR. 5Y FABN T+123 (+43-48bp peer penalty, May'26; ~+15bp wider than Feb'26). **$16.5B 2026-2027 wall = third-party/UNVERIFIED — no public FABN ladder exists (100% 144A/RegS).** Kill-path-1 = YELLOW (refinance-at-wider-spread). | SHADE + LIQUID |
 | **Regulatory capital: NAIC/PBR/AG55/SVO** | 🟠→🟡 (net relief this window) | CLO RBC **slipped past its 6/15 gate** (YE2026 at-risk, YE2027 fallback); **MM-CLOs deferred to 2027** (worst PE-collateral uncharged another year); **FSOC SIFI bar raised**. Small offset: 2026-05-CA collateral-loan look-through removed (5/14). SVO discretion **not operationalized**. AG55 reports due 4/1 but **disclosure-only to state regulators**. | SHADE |
 | **Ratings / valuation machinery** | 🟠 | Egan-Jones **Aug 12 2026 = hard-dated docket binary** (defense submitted 6/16); Moody's 6/8 is surveillance, not a rating action; **no downgrade/neg-outlook on any watchlist PE-insurer in-window.** A-CAP/777 resolving via PE recap (Oaktree→Atlantic Coast Life 3/13). | SHADE |
 | **BROCK stress translation** | 🔴 | Fund gates/defaults/dividend cuts matter to SHADE only if insurer allocations, asset transfers, capital marks, or funding confidence are affected. | BROCK facts → SHADE implication |
@@ -153,7 +164,7 @@ Phase 3 found no post-March resolution. **[6/21]:** the formal-review **briefing
 | 2026-04-01 (passed) | AG55 attribution-analysis reports | First reports **were due 4/1/26 but are disclosure-only to domestic state regulators** — no public/SEC visibility. The "forced-disclosure" kill-path needs a future public trigger; do not bank. | Visibility gap persists |
 | 2026-05-14 (passed) | FSOC nonbank-SIFI reproposal comment deadline | Reproposal **raises** the designation bar (activities-first, "severe damage", cost-benefit, 180-day off-ramp) → lowers odds of Fed-supervised SIFI designation for PE-insurers; oversight stays with states/NAIC. | Federal posture: loosening |
 | 2026-08-12 | Egan-Jones SEC formal-review decision | **Hard-dated docket binary; defense fully submitted (reply 6/16, file 3-22618).** A denial pressures niche-rating arbitrage industry-wide but doesn't itself revoke NRSRO standing. Separate Nov-2025 enforcement probe = watch for a Wells notice. | Calendar risk — clock advancing |
-| 2026-2027 | Athene/FABN/funding-agreement maturity and issuance windows | Fast-fuse funding/refinancing stress if spreads/rollover deteriorate; public vs private funding mix matters. | Needs ladder refresh |
+| 2026-H2 / 2027 | Athene FABN maturity & issuance windows | ~14 tranches confirmed clustering 2026-H2 (5/8, 8/27, 10/2, 11/12) + 2027 (1/15, 2/23, Mar, 4/21, Aug); **$16.5B quantum UNVERIFIED** (no public FABN ladder). Athene **actively tendering** 2027 series 2022-6/2020-5 (6/22). Refinance-at-wider-spread, not rollover failure. | Ladder built 6/22; quantum needs NPORT-P/terminal |
 | Ongoing | SVO override / NAIC designation actions | Capital-treatment credibility channel. | Monitor |
 
 ---
@@ -173,7 +184,7 @@ Phase 3 found no post-March resolution. **[6/21]:** the formal-review **briefing
 
 1. **Athene statutory audit:** do Schedule D/BA, related-party, ACRA, and reinsurance notes support or undermine Apollo’s “0.4% levered lending / 90% IG” defense?
 2. **AMAPS stress test:** what exactly is inside AMAPS, how are tranches rated, who holds them, and how would they behave under private-credit spread widening?
-3. **Funding opacity:** did Athene shift from public FABN/funding agreements to private funding channels because spreads were uneconomic, and what does that imply for rollover fragility?
+3. **Funding opacity** [largely answered 6/22]: YES — Athene shifted from public FABN to private/secured (FHLB/FABR) channels because spreads were uneconomic (Q1'26 FABN issuance $2.0B vs $13.4B FY25, "challenging market conditions"). Residual open question: the **dollar quantum** of the 2026-2027 FABN wall, which is 144A/Reg-S-invisible — needs NPORT-P or a terminal to size.
 4. **AG55/PBR:** are actual attribution-analysis filings visible, or is the market still relying on summaries/commentary?
 5. **Asset-transfer evidence:** beyond Kuvare’s disputed case, is there primary evidence of PE managers moving stressed private-credit assets into insurer/captive/rated structures in Q2?
 6. **Transmission threshold:** are any insurer-wrapper developments strong enough to notify LIQUID/REGINALD/NEXUS, or is this still structural watch?
@@ -197,7 +208,7 @@ Phase 3 found no post-March resolution. **[6/21]:** the formal-review **briefing
 
 **If SHADE becomes decision-relevant, do these in order:**
 1. Pull Athene statutory annual/quarterly schedules for related-party, Schedule D/BA, reinsurance, FHLB advances, and funding-agreement liabilities.
-2. Build Athene FABN/funding-agreement maturity ladder with current spreads and public/private issuance split.
+2. ✅ FABN ladder built (6/22) → `research/ATHENE_FABN_MATURITY_LADDER_2026-06-22.md`. NEXT: close the $16.5B quantum gap via NPORT-P holder-level CUSIP aggregation (MS Inst Fund Trust CIK 0000741375, PIMCO Funds CIK 0000810893) — the only free path, since FABN is 100% 144A/Reg S and Athene Global Funding isn't an SEC filer.
 3. Audit AMAPS collateral/rating/tranche structure and compare to CLO/MML capital treatment.
 4. Check AG55 attribution-analysis visibility and NAIC/SVO updates after Spring Meeting.
 5. Light-refresh Global Atlantic, Aspida, and Kuvare statutory filings only after Apollo/Athene audit is anchored.

@@ -41,12 +41,12 @@ Rule: reference BROCK for fund-level facts with `[CONF BROCK date]`; SHADE adds 
 - $70.79B reserve credit from affiliates (40%+ of total reserves)
 - $142.1B retroceded to ACRA sidecars (third-party risk)
 - $4.78B intercompany notes receivable (loans back to HoldCo)
-- $35B FABN program, $16.5B maturing 2026-2027
+- FABN **$34.5B outstanding** (3/31/26; $35B EMTN shelf / ~$45B board ceiling). ⚠️ The "$16.5B maturing 2026-2027" is **third-party/UNVERIFIED** — no public FABN maturity ladder exists (100% 144A/Reg S; Athene Global Funding not an SEC filer). See STATUS §0 / `research/ATHENE_FABN_MATURITY_LADDER_2026-06-22.md`.
 - Vermont captive (Re USA IV) failed RBC without permitted practice
 - RBC ratio 430% — but net of ACRA and permitted practices
 
 ## Kill Paths (4 Independent)
-1. **FABN rollover failure** — Aug 2026 / Mar-Aug 2027 maturity wall + spread blowout
+1. **FABN rollover failure** — Aug 2026 / Mar-Aug 2027 maturity wall + spread blowout. *(Currently YELLOW per 6/22 ladder: mechanism intact [issuance collapsed to $2.0B Q1'26, ~9-10mo syndication gap, +43-48bp peer penalty] but the wall quantum is 144A-invisible/unverified; red needs a verified concentration AND FABN spread >250bp or a pulled syndication.)*
 2. **AG 55 forced disclosure** — Q1 2026 filings revealing captive hollowness
 3. **Egan Jones indictment** — DOJ/SEC → NRSRO revoked → RBC capital call industry-wide
 4. **War/macro transmission** — oil spike → portfolio stress → private credit marks → confidence crisis
