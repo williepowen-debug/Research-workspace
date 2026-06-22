@@ -122,7 +122,7 @@ The "we're wrong" case is **winning the tape**, and the 9-day window was its bes
 ---
 
 ## MISSING DATA WANTED
-- **Broker outcomes on the Jun-18 expiry cluster** (WAL $85P was ~$6 ITM at WAL $79; TLT $85P x3 OTM at TLT $86; HYG x8 dead) — Will confirm exercised/sold/expired.
+- ~~Broker outcomes on the Jun-18 expiry cluster~~ **RESOLVED (Will 6/22): the entire Jun-18 strike stack is dead/sold (maybe 1-2 rolled) — GONE for all intents. Any rolls live in REGINALD's Jul-17 $65P / Sep $67.5P/$70P WAL legs.**
 - **WAL/OZK Q2 (~Jul 30)** + **FFIEC MI3** (still UNCOLLECTED 5+ wks overdue — REGINALD V1 Bear-fast falsifier blind).
 - LIQUID May TIC (mid-July) — 2nd FOI-demand print (Leg B kill test). BRENT Dec26 strip for RED-18.
 - USCB Q2 (CORAL's only orthogonal FL datum).

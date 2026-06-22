@@ -46,7 +46,7 @@
 
 ## PENDING WILL-DECISIONS
 
-- **Broker outcomes on the Jun-18 expiry** (WAL $85P ~$6 ITM; TLT $85P x3 OTM; HYG x8 dead) — exercised/sold/expired? Position-state otherwise stale.
+- ✅ **RESOLVED (Will 6/22):** Jun-18 strike stack is dead/sold (maybe 1-2 rolled) — GONE for all intents. Rolls (if any) live in REGINALD's Jul-17 $65P / Sep $67.5P/$70P WAL legs. No live near-dated RED book remains; structural Aug-Dec core only.
 - No live RED trade proposal this session (book is structural Aug-Dec core + flat near-dated). v1.6 RED-pass request from SAM still pending (post Jun-16-18 scoring).
 
 ## GIT STATE
