@@ -80,4 +80,4 @@
 ## URGENT
 - **Jun 24 FL UI Wave-1 (CRL-07)** + **Jun 26 Fannie MF May (CRL-03 resolver)** — near catalysts.
 - **v2.6 score decision awaiting Will** (V12↑/V5↓ paired).
-- **GIT:** all CARL files committed LOCALLY this session; **defer push** (Will-coordinated). Did NOT pull — SAM (12 files) + BRENT (1 untracked) have uncommitted work outside AGENTS/CARL/. Ride next coordinated push window.
+- **GIT:** 3 CARL/auto-mem commits LOCAL-pending, **defer push** (Will-coordinated): `d64bc4dc` (catch-up, 13 files) · `a1f111d6` (auto-mem boot-regime-context) · `df18586d` (v2.6 bump, 6 files). Did NOT pull at boot — other agents had uncommitted work outside AGENTS/CARL/ (SAM since swept by a concurrent session; REGINALD self-committed `d4cc40a0`; BRENT still has 1 untracked inbox file). CARL tree clean. Ride next coordinated push window.
