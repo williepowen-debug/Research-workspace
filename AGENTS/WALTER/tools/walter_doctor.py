@@ -15,7 +15,7 @@ Checks:
   version_drift          spec header vs STATE.md §1            (reuses version_drift_check)
   board_reconcile        ToC == section headers == SIG rows == files on disk
   cron_liveness          3 boot-triage feeds (step 7c) vs cadence
-  outbox_age             outbox/REQ-*.md older than 14d
+  outbox_age             all staged outbox files (REQ-* >14d retry; drafts surfaced)
   registry_staleness     Tier-1 REGISTRY rows with Updated >14d
   registry_lag           REGISTRY date vs agent's last STATUS commit (board-lags-agents)
   liaison_enum           LIAISON files on disk (informational)
@@ -45,10 +45,33 @@ sys.path.insert(0, str(HERE))
 HIGH, MED, LOW, INFO = "HIGH", "MED", "LOW", "INFO"
 TODAY = dt.date.today()
 
-# Claude-Code recipients (own clone → delivered = committed AND on origin).
-# Everyone else routes via the OpenClaw shared VPS clone. OZK is CC per root
-# CLAUDE.md (* = Claude Code). Source: BOARD_CONSUMPTION_SPEC v0.2 §3.3.
-CC_AGENTS = {"CARL", "REGINALD", "SAM", "RED", "OZK"}
+# Claude-Code recipients (own clone → delivered = committed AND on origin);
+# everyone else routes via the OpenClaw shared VPS clone. Derived from the
+# REGISTRY Platform column (canonical, RULE 3) rather than a hardcoded set, so a
+# new/changed CC agent is picked up automatically — the prior hardcoded
+# {CARL,REGINALD,SAM,RED,OZK} silently mislabeled HENRY/CORAL/VIOLET (all
+# Platform=CC) as OPENCLAW. Source: BOARD_CONSUMPTION_SPEC v0.2 §3.3.
+_CC_FALLBACK = {"CARL", "REGINALD", "SAM", "RED", "OZK"}
+
+
+def _cc_agents():
+    """Agents whose REGISTRY Platform column is exactly 'CC' (own CC clone).
+    'OC+CC' (PROME) → OpenClaw for delivery (its primary surface). Falls back to
+    the prior hardcoded set if the registry can't be parsed."""
+    out = set()
+    try:
+        with (WALTER / "REGISTRY.tsv").open(errors="replace") as f:
+            rdr = csv.reader(f, delimiter="\t")
+            header = next(rdr, [])
+            i_a, i_p = header.index("Agent"), header.index("Platform")
+            for row in rdr:
+                if len(row) > max(i_a, i_p) and row[i_p].strip().upper() == "CC":
+                    out.add(row[i_a].strip())
+    except (OSError, ValueError, StopIteration):
+        return set(_CC_FALLBACK)
+    return out or set(_CC_FALLBACK)
+
+
 # delivered handoff older than this (days) without being consumed → flag
 N_UNCONSUMED_DAYS = 2
 
@@ -73,6 +96,31 @@ def _git_last_commit_date(relpath: str) -> dt.date | None:
         return dt.date.fromisoformat(out) if out else None
     except ValueError:
         return None
+
+
+_UPDATED_RE = re.compile(r"(?i)\b(?:last\s+)?updated\b[\s:*]*?(\d{4}-\d{2}-\d{2})")
+
+
+def _status_header_date(agent: str) -> "dt.date | None":
+    """The agent's OWN self-declared last-update date — the first date directly
+    after an 'Updated:' / 'Last Updated:' marker in the first ~25 STATUS.md lines.
+    Distinguishes a real self-update from an incidental cross-agent commit that
+    merely touched the file (the registry_lag false-positive class, e.g. the 6/19
+    REGINALD CORAL-promotion ref-sweep). Returns None if no canonical marker is
+    found — caller then falls back to commit-date logic (no regression)."""
+    p = REPO / "AGENTS" / agent / "STATUS.md"
+    try:
+        head = p.read_text(errors="replace").splitlines()[:25]
+    except OSError:
+        return None
+    for line in head:
+        m = _UPDATED_RE.search(line)
+        if m:
+            try:
+                return dt.date.fromisoformat(m.group(1))
+            except ValueError:
+                continue
+    return None
 
 
 def _registry_rows():
@@ -194,15 +242,25 @@ def check_cron_liveness():
 
 # ── outbox queue age (boot step 9) ──────────────────────────────────────────
 def check_outbox_age():
-    reqs = sorted((WALTER / "outbox").glob("REQ-*.md"))
-    if not reqs:
+    """ALL staged outbox files, not just REQ-*.md — the REQ-only glob made staged
+    drafts (e.g. DEWEY prompts) invisible and mis-reported the outbox as "empty"
+    while items sat there. REQ-* keep the >14d retry/escalate semantics; other
+    staged drafts surface informationally (LOW only if very stale)."""
+    files = sorted(p for p in (WALTER / "outbox").glob("*")
+                   if p.is_file() and p.name != ".gitkeep" and not p.name.startswith("."))
+    if not files:
         return [(INFO, "outbox empty")]
     out = []
-    for p in reqs:
+    for p in files:
         age = _age_days(dt.date.fromtimestamp(p.stat().st_mtime))
-        sev = MED if age > 14 else INFO
-        out.append((sev, f"{p.name}: {age}d old"
-                        + (" — retry/escalate (>14d)" if age > 14 else "")))
+        if p.name.startswith("REQ-"):
+            sev = MED if age > 14 else INFO
+            out.append((sev, f"{p.name}: {age}d old (REQ)"
+                            + (" — retry/escalate (>14d)" if age > 14 else "")))
+        else:
+            sev = LOW if age > 30 else INFO
+            out.append((sev, f"{p.name}: {age}d old (staged draft)"
+                            + (" — >30d unspawned, review/clear?" if age > 30 else "")))
     return out
 
 
@@ -228,7 +286,8 @@ def check_registry_lag():
     work = a lagging row → refresh it AND don't direct that (active) agent to
     consume the board. Also separates genuinely-dormant agents (both dates old)
     from lagging ones — the distinction the manual 6/16 audit drew by hand."""
-    active_lag, stale_quiet, dormant, dir_only, uncheckable = [], [], [], [], []
+    active_lag, stale_quiet, dormant, dir_only, uncheckable, incidental = \
+        [], [], [], [], [], []
     for agent, tier, updated in _registry_rows():
         if updated is None:
             continue
@@ -246,6 +305,14 @@ def check_registry_lag():
                 dir_only.append((agent, updated, dcommit, (dcommit - updated).days))
             continue
         lag = (commit - updated).days  # >0 = registry behind the agent's last work
+        header = _status_header_date(agent)
+        # False-positive guard: a commit can touch STATUS.md without the agent
+        # self-updating (cross-agent ref-sweep / bulk commit). If the agent's OWN
+        # declared header date hasn't advanced past the registry, that commit is
+        # incidental — NOT a real lag (the 6/19 REGINALD CORAL-promotion case).
+        if lag >= 1 and header is not None and header <= updated:
+            incidental.append((agent, updated, commit, header))
+            continue
         recent = _age_days(commit) <= 14  # agent's own last activity is fresh
         if lag >= 1 and recent:
             active_lag.append((agent, updated, commit, lag))   # ahead of board NOW
@@ -274,6 +341,10 @@ def check_registry_lag():
                         for a, up, com, lag in sorted(dir_only, key=lambda x: -x[3]))
         out.append((INFO, f"no STATUS.md — dir-fallback unreliable (may be cross-agent "
                           f"commits), NOT flagged: {lst}"))
+    if incidental:
+        lst = ", ".join(f"{a} (commit {com.isoformat()} but STATUS hdr {hd.isoformat()} ≤ reg {up.isoformat()})"
+                        for a, up, com, hd in sorted(incidental))
+        out.append((INFO, f"incidental STATUS touch, not a real lag ({len(incidental)}): {lst}"))
     if uncheckable:
         out.append((INFO, f"no committed activity, lag uncheckable: {', '.join(sorted(uncheckable))}"))
     if not (active_lag or stale_quiet):
@@ -300,11 +371,12 @@ def _handoff_files():
     """Non-processed WALTER delivery handoffs: (path, recipient, relpath, platform).
     Globs AGENTS/*/inbox/WALTER/*.md, excluding anything under processed/."""
     out = []
+    cc = _cc_agents()
     for p in (REPO / "AGENTS").glob("*/inbox/WALTER/*.md"):
         if "/processed/" in p.as_posix():
             continue
         recipient = p.relative_to(REPO / "AGENTS").parts[0]
-        platform = "CLAUDE_CODE" if recipient in CC_AGENTS else "OPENCLAW"
+        platform = "CLAUDE_CODE" if recipient in cc else "OPENCLAW"
         out.append((p, recipient, str(p.relative_to(REPO)), platform))
     return out
 
