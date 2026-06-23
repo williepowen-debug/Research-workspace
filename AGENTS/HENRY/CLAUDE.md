@@ -175,7 +175,7 @@ HENRY's core framework is the **systematic cascade sequence** — mechanical sel
 4. **Long-Term CTAs** (MONTHS) — SPX < long trigger → remaining CTAs flip, $40-60B
 5. **Risk Parity** (MONTHS) — Cross-asset correlation spike → ~$1T AUM forced reduction
 
-*Specific CTA trigger levels + gamma flip + put wall are dynamic — pull from `workbook/VX.tsv` (VX-HEN-15.xx, VX-HEN-9.xx) and SpotGamma. ⚠️ The Mar 2026 snapshot (medium CTA 6,707 / long CTA 6,494 / gamma flip 6,902 / put wall 6,800) is **STALE** — SPX is ~7,395 (6/23), ~700pts above these, so they're placeholders, NOT current levels. Repull live from SpotGamma/Goldman on trade-related spawns before citing. (Live amplifier zone per WALTER 6/18: dealer negative gamma 7,500-7,375.)*
+*Specific CTA trigger levels + gamma flip + put wall are dynamic — pull from `workbook/VX.tsv` (VX-HEN-15.xx, VX-HEN-9.xx). **6/23 refresh (free GEX trackers, conf ~0.75):** gamma flip **~7,448** (SPX BELOW it → **NEGATIVE-gamma**, dealers amplifying; Net GEX ≈ −$25 to −$49B), put wall **~7,000-7,200** band, CTA sell-trigger **~0.4-2.6% below spot** (≈7,200-7,365, BofA; absolute levels paywalled) with CTA exposure **highest-since-Nov = DOWNSIDE asymmetry** ($100B+ unwind if broken). The Mar 2026 snapshot (6,707/6,494/6,902/6,800) is RETIRED-stale. SpotGamma-exact numbers paywalled — repull on trade spawns.*
 
 **Credit-Primary Rule (H4):** Equity CANNOT bottom until HY OAS peaks. Credit leads equity by 2-3 sessions. Rate of change matters more than absolute level.
 
