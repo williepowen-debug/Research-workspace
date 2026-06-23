@@ -1,18 +1,16 @@
 # LIQUID STATUS
-**Last Updated:** 2026-06-20 Sat (boot from 6/13 — full week-stale catch-up: FOMC 6/17 + TIC 6/18 + Hormuz reversal integrated; live-primary pull FRED 6/17-6/18 / yfinance 6/19-6/20) | **Agent:** LIQUID | **Status:** 🟠 **Bear thesis grinding the WRONG WAY on every active channel — risk-on/decoupling overwhelming the book.** HY OAS **263** (FRED 6/17) = **3bps from the 260 soft-kill** (no trigger fired); 30Y **4.93** = 3bps from the <4.90 unwind test; VIX 16.78; Brent sub-$90 sustained. **Only the structural pins survive: CCC-BB tail-gap held wide (783) while the index compressed; basis leverage + FOI hole intact.** Markets closed; latest HY OAS = 6/17 (6/18-6/19 pending Mon/Tue).
+**Last Updated:** 2026-06-23 Tue (boot from 6/20 — 3d refresh: FRED 6/22 / yfinance 6/23 live-primary; WALTER board lane drained 5 sigs; Mon 6/22 catalyst cluster resolved) | **Agent:** LIQUID | **Status:** 🟠 **Headline channels stayed calm — but the bear's STRUCTURAL/SUBSTANCE roots FIRMED and a fresh equity-side crack opened.** Soft-kill threat RECEDED (HY OAS bounced off the 263 low to **265** [FRED 6/22], cushion 5bps STABLE, no trigger past PRE; CCC index normalized — VIOLET; funding clean — SOFR-IORB −4bps, reserves $3.03T). **But:** CCC-BB tail-gap WIDENED to **791** (947−156); BROCK substance firmed (KBRA default **2.3% record**, BDC non-accruals up, wrapper recognition leaking); duration BACKED UP (10Y **4.51** / 30Y **4.95** / 2Y **4.24** highest since Feb-25); VIX **19.52** (+13% 6/23); and the **AI/semi unwind cracked the alts/PC complex (APO −3.4% close / −7% intraday gap, ARES −15%, HENRY)** — the candidate PC→public transmission. Oil decoupled (Brent $77, disinflationary). Excess-liquidity "bear re-arm" NOT validated. Markets open.
 > 📌 **Positions FLAT of LIQUID single-names.** HYG $75P expired worthless 6/19 as planned (do NOT re-surface); TEN closed (winner). APO Dec $95P is BROCK-owned. **No LIQUID position action gated on the kill** — this is a *thesis* event, not a position event.
-
-> ✅ **CATCH-UP (week 6/13→6/20):** FOMC 6/17 = **HAWKISH HOLD** (Warsh debut; dots flipped hike-leaning; bear-flattener; duration resolved DOWN not up). TIC April (6/18) = official FOI bid carried a private-outflow month. 20Y (6/16) + 5Y TIPS (6/18) auctions STRONG. USD/JPY blew through 160 to 161 (no intervention). Iran de-escalation REVERSED 6/20 (Hormuz re-declared closed, declaratory) — tape shrugged. **Remaining gaps:** HY OAS 6/18-6/19 (FRED lag), Belgium TIC (unconfirmed), HY-Energy-OAS (owed BRENT, deferred per Will 6/20).
 
 ---
 
-## Thesis-Kill Proximity (6/20)
+## Thesis-Kill Proximity (6/23)
 
-**HY OAS 263bps [FRED BAMLH0A0HYM2, 6/17 close]. Kill 260. Cushion: 3bps.** Sequence: 278(6/11) → 271(6/12) → 266(6/15) → 271(6/16) → **263(6/17)** — compressing back toward cycle tights *through* a Hormuz re-closure + hawkish FOMC. **NO hard trigger has cleanly fired** (KILL_MEMO ladder): PRE-TRIGGER needs <270 ×2 consecutive (6/16 printed 271, breaks it); TRIGGER A needs <265 ×2 sessions (only 6/17 so far); TRIGGER B needs <260 intraday (263 is a close). **6/18 + 6/19 FRED prints are not up yet** (T+1 + weekend) — they resolve whether TRIGGER A fires. **First-Monday-boot item: pull FRED 6/18-6/19; if <260 sustained → 🔴 ALL (shared kill across LIQUID/BROCK/REGINALD/NEXUS).**
+**HY OAS 265bps [FRED BAMLH0A0HYM2, 6/22 close]. Kill 260. Cushion: 5bps, STABLE.** Sequence: 271(6/16) → **263(6/17)** → 266(6/18) → 266(6/19) → **265(6/22)** — the 263 was a *one-print low*; it bounced and stabilized in a tight 263-266 band at cycle tights. **NO trigger advanced past PRE-TRIGGER** (KILL_MEMO ladder): PRE-TRIGGER (<270 ×2) satisfied 6/17-6/22 → "re-read positions" = **book flat, no action**; TRIGGER A (<265 ×2 consecutive) **NEVER FIRED** (6/17=263 then 6/18=266 broke the chain; 6/22=265 is not <265); TRIGGER B (<260 intraday) untouched. **The 6/20 "3bps and compressing toward the kill" framing resolved BENIGN — the spread bounced, not broke.** Re-arms only on two fresh closes <265; the shared 🔴-ALL kill (LIQUID/BROCK/REGINALD/NEXUS) is OFF the near-term table absent that. ⚠️ Note the divergence: headline bounced while **substance FIRMED** (BROCK KBRA 2.3% record default; BDC non-accruals rising) — calm index, deteriorating credit beneath.
 
-**The pin survives the compression.** CCC 939 − BB 156 = **CCC-BB 783bps [FRED 6/17]** vs 787 (6/11) — the quality tail-gap held **flat-wide** while the index compressed 15bps. CCC/HY ratio *widened* to 3.57× (from 3.44× 6/8): HY tightened faster than CCC, tail lagging the risk-on rally. **KB-LIQ-058 bifurcation intact; NEXUS R3 (credit K-split, M-08) falsifier is CCC-BB <~400 — we're at 783, nowhere near.** Channel-aggregate approaching the soft-kill ≠ thesis-kill: the bear book's surviving load-bearing root is the bifurcation, not the headline spread (THESIS §7; NEXUS 6/16).
+**The pin WIDENED.** CCC 947 − BB 156 = **CCC-BB 791bps [FRED 6/22]** vs 783 (6/17) / 787 (6/11) — the quality tail-gap widened back out while the index held flat at 265. **KB-LIQ-058 bifurcation intact and firming; NEXUS R3 (credit K-split, M-08) falsifier is CCC-BB <~400 — we're at 791, nowhere near.** The bear book's surviving load-bearing root is the bifurcation, not the headline spread (THESIS §7) — and it is the OPPOSITE of the index move: headline calm, tail wide. **This same calm-senior/wide-tail signature is now visible in three places:** (a) the HY/CCC index, (b) European CLO 2.0 — first rated-tranche default (Bain Capital Euro CLO 2018-1 Class F → 'D', Fitch 6/18; OC tests protect AAA-A while starving the junior, 3 May single-B→CCC downgrades), and (c) govvies — 2Y at 4.24 (highest since Feb-25), duration repricing without a credit blowout (WALTER 6/22 board).
 
-> **🎯 Current framing:** the bear thesis is under *broad* pressure, not channel-migrating to safety. Credit (263, toward kill), duration (30Y 4.93 / 10Y 4.49, both unwound below pivots post-FOMC), and vol (16.78) are ALL grinding the wrong way at once — risk-on/decoupling is the regime. What persists is structural: the credit K-split tail (CCC-BB 783), basis-trade leverage (latent), and the FOI demand hole (April official bid carried the month, but secular). The catalysts that would re-fire the bear are now a **growth break** (not an inflation print — the Fed locked that in) or a **credit-bifurcation transmission event** (CDLI-FSK gap, KRE roll, wrapper credit event; NEXUS test ~7/25 Q2 BDC marks).
+> **🎯 Current framing (6/23):** the acute credit-kill threat receded (HY bounced 263→265, no trigger; CCC index normalized — VIOLET Bin-B block lifted), but **the bear's structural root FIRMED, not weakened.** Three corroborations since 6/20: (1) **substance** — BROCK: KBRA default 2.3% (record-match, end-26 raised to 3.5%), Fitch BDC Q1 non-accruals rising, 11 div cuts, wrapper-equity recognition leaking (FSK −5.9%); (2) **tail** — CCC-BB widened to 791 (mirrored in the first Euro CLO 2.0 rated-tranche default + govvie term premium); (3) **fresh equity-side crack** — the AI/semi positioning unwind cracked the alts/PC complex (APO −3.4%/−7% gap, ARES −15%, 6/22-6/23; HENRY HEN-35), the candidate PC→public transmission. Headline channels (HY index, funding) stayed calm; vol (VIX 16.8→19.5) and duration (backed up) ticked the bear's way at the margin. Re-fire catalysts remain a **growth break** (May PCE 6/25, June CPI 7/14 — HENRY inverse-feedback test) or a **credit-bifurcation transmission event** (NEXUS ~7/25 Q2 BDC marks). **Excess-liquidity "negative first since 2021" (WALTER 0.55) — VALIDATED THIS SESSION: NOT a live bear re-arm** (index unidentifiable; net Fed liquidity $5.85T stable; only real residue = RRP buffer exhausted → QT now drains reserves directly, a slow Leg-A mechanic; conf 0.4).
 
 POV-arc: see `thesis/CHANGELOG.md` § POV Pivots.
 
@@ -25,37 +23,37 @@ POV-arc: see `thesis/CHANGELOG.md` § POV Pivots.
 - **Statement slashed 341→~130 words** (Greenspan-length); forward guidance removed; "**maintaining ample reserves**" reaffirmed; **no QT/balance-sheet paragraph.**
 - **🔬 NEW STANDING MONITOR — Balance-Sheet Policy task force** (1 of 5 Warsh reviews, concludes ~YE2026). Warsh views the sheet as structurally too hot → **QT pace, SRF, RRP, long-run SOMA size all "back in play."** This **REINFORCES Leg A** (thinner future buffers) — it is the *opposite* of the Leg-A kill condition (Fed expanding facilities). Multi-quarter watch, not a same-day event.
 - **Market = bear-flattener:** 2Y **+16bps** to ~4.18-4.22% (biggest Fed-day move since Mar 2008); 10Y +4 to ~4.47-4.49; **30Y −2 to ~4.90-4.93 — the long end RALLIED on anti-inflation credibility.** DXY 1yr highs (~100.8); USD/JPY held ~160.4 *despite* the BOJ hike; SPX -0.6%.
-- **⚠️ Duration resolver INVERTED my pre-staged tree.** The FOMC_TIC_DECISIONTREE mapped "Hold + hawkish dots" → ≥5 closes >5.00 *re-establishment* (30Y strengthens). Actual: hawkish dots hit the **front end** (2Y+16) while the long end took credibility as a **bull** signal and rallied toward the <4.90 *unwind* test. **Durable finding (KB candidate): a credible-hawkish Fed can RALLY the long end — hawkish dots ≠ long-end selloff; the surprise repriced the front end, not the term premium.** Duration leg now needs a *growth* break to steepen, not an inflation print.
+- **⚠️ Duration resolver INVERTED my pre-staged tree.** The FOMC_TIC_DECISIONTREE mapped "Hold + hawkish dots" → ≥5 closes >5.00 *re-establishment* (30Y strengthens). Actual: hawkish dots hit the **front end** (2Y+16) while the long end took credibility as a **bull** signal and rallied toward the <4.90 *unwind* test. **Durable finding (KB-LIQ-060, authored): a credible-hawkish Fed can RALLY the long end — hawkish dots ≠ long-end selloff; the surprise repriced the front end, not the term premium.** Duration leg now needs a *growth* break to steepen, not an inflation print.
 
 ---
 
-## Dashboard 1 — Credit Spreads (FRED 6/17 / yfinance 6/19)
+## Dashboard 1 — Credit Spreads (FRED 6/22 / yfinance 6/23)
 
 | Metric | Threshold | Current | Status |
 |--------|-----------|---------|--------|
-| **HY OAS (macro)** | confirm >320 / freeze >350 / **kill <260** | **263** [FRED 6/17] (278→271→266→271→263 over 6/11-6/17) | 🟠 **3bps from the 260 soft-kill — compressing toward it.** No KILL_MEMO trigger cleanly fired (oscillating; 6/16=271). 6/18-6/19 prints pending. 57bps below 320 confirm. |
-| **CCC-BB tail-gap** | NEXUS falsifier <~400 | **783** [CCC 939 − BB 156, FRED 6/17] (vs 787 6/11) | 🟠 **PIN INTACT — held flat-wide while index compressed.** CCC/HY 3.57× (widened from 3.44×). KB-LIQ-058 / NEXUS R3 surviving bear root. |
-| **HY Energy OAS** | >300 = energy-credit trip | ~285 (Apr 28, **53d STALE**) | 🟡 Owed-to-BRENT pull **deferred per Will 6/20**. Re-arms on a Mon 6/22 Brent spike (Hormuz decoupling test). |
-| **APO co-trigger** | >$130 ×3 closes | **$137.50** [yf 6/19] | 🟡 Co-trigger satisfied. **NOT Trigger C** — rally is AI-origination ($35B Broadcom deal per BROCK), not credit reversal; HY compressing not via PC sentiment. APO Dec $95P (BROCK) held, ~−90%; re-eval if APO>$145 OR HY<260. |
-| IG OAS | n/a | **74** [FRED 6/17] (range 73-75) | 🟢 Benign; calm IG plumbing. |
-| BIZD | mark stress | **$12.36** [yf 6/19] | 🟢→🟡 Eased just *below* the $12.50 trigger (was above 6/12). BDC complex steady. |
-| VIX | >25 | **16.78** [yf 6/19] | 🟢 Calm; 8pts of cushion. Low-vol regime intact through the Hormuz re-closure. |
-| BDC Q1 marks | rolling | FSK NAV -9.9%, div-cut trigger fired ×4 (MFIC/OCSL/OBDC/FSK) | 🟠 Marks deteriorating while equity bounces (decoupling). **Next transmission test ~7/25 Q2 marks (NEXUS-named).** See `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` |
+| **HY OAS (macro)** | confirm >320 / freeze >350 / **kill <260** | **265** [FRED 6/22] (271→263→266→266→265 over 6/16-6/22) | 🟡 **Cushion 5bps to kill, STABLE — bounced off the 263 low, no trigger past PRE.** TRIGGER A (<265 ×2) never fired. 55bps below 320 confirm. |
+| **CCC-BB tail-gap** | NEXUS falsifier <~400 | **791** [CCC 947 − BB 156, FRED 6/22] (vs 783 6/17) | 🟠 **PIN WIDENED — tail gapped out while index held flat.** KB-LIQ-058 / NEXUS R3 surviving bear root, firming. Mirrored in Euro CLO junior + govvie term premium. |
+| **HY Energy OAS** | >300 = energy-credit trip | ~285 (Apr 28, **56d STALE**) | 🟡 Owed-to-BRENT pull **deferred per Will 6/20**. Mon 6/22 Brent re-arm did NOT trigger — tape SHRUGGED the Hormuz re-closure (Brent $77.90, decoupling PASSED); no spike. Stays deferred. |
+| **APO co-trigger** | >$130 ×3 closes | **$130.61** (−3.40% 6/23; intraday gap −7%) [yf] | 🟡 Still >$130 but **FALLING toward it** (was $137.50 6/19). Part of the **AI/semi positioning unwind** cracking the alts complex (ARES −15%, HENRY) — wrapper/PC→public transmission candidate, NOT just rally fade. NOT Trigger C (no concurrent HY compression). APO Dec $95P (BROCK) held; re-eval if APO<$130 (co-trigger breaks) OR HY<260. |
+| IG OAS | n/a | **74** [FRED 6/22] (range 73-75) | 🟢 Benign; calm IG plumbing. |
+| BIZD | mark stress | **$12.30** [yf 6/23] | 🟢 Below the $12.50 trigger. BDC complex steady at the ETF level — but underlying marks deteriorating (Fitch Q1 non-accruals up). |
+| VIX | >25 | **19.52** (+13% 6/23) [yf] | 🟢→🟡 Ticked UP off the lows (16.8 6/19) into a broad 6/23 risk-off — 5.5pts below the 25 trigger but the low-vol floor is lifting (HENRY: rotated not broken, contango flattened). HENRY owns vol-regime. |
+| BDC Q1 marks | rolling | FSK NAV -9.9%, div-cut ×4; **Fitch Q1 review (6/19): 32 BDCs NAV −2%, non-accruals UP, 11 div cuts, NMFC −11.7%** | 🟠 Marks deteriorating while ETF/equity holds (decoupling). **Next transmission test ~7/25 Q2 marks (NEXUS R3).** See `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` |
 
 ---
 
-## Dashboard 2 — Domestic Plumbing (FRED 6/17-6/18 / yfinance 6/19)
+## Dashboard 2 — Domestic Plumbing (FRED 6/22 / yfinance 6/23)
 
 | Metric | Threshold | Current | Status |
 |--------|-----------|---------|--------|
-| **SOFR** | >3.70 | 3.63% [FRED 6/17] | 🟢 Clean; no FOMC move. |
-| **SOFR-IORB** | sustained >0 | **−2bps** [SOFR 3.63 / IORB 3.65, 6/17] | 🟢 Negative/clean (brief +4 on 6/15, receded). No funding stress. |
-| **10Y yield** | >4.50 sustained | **4.49%** [FRED H.15 6/17] | 🟠 **Oscillating BELOW — 0 of last 5 closed >4.50** (4.45-4.49). Cooled into/after FOMC. |
-| **30Y yield** | >5.00 sustained | **4.93%** [FRED H.15 6/17] | 🟠 **Unwound below the 5.00 pivot — last 5 sub-5.00; 3bps from the <4.90 unwind test (untouched).** Long end rallied post-hawkish-FOMC on credibility. |
-| 2Y yield | n/a | **4.20%** [FRED H.15 6/17] | 🟠 **+15-16bps on FOMC day** (front-end hawkish reprice). Bear-flattener 2Y+16/30Y-2; 2s10s ~+29bps. Watch dealer carry / basis-trade economics. |
-| TLT | level | $86.75 [yf 6/19] | 🟡 Bid (+0.49%) as long-end eased; confirms 30Y sub-5.00. |
-| RRP buffer | >$5B | **$0.251B** [FRED 6/18] | 🔴 Structural zero. 6/16-17 spike (10.7/6.8B) was transient month-end, reverted — NOT a re-activation. |
-| SRF usage | >$50B | **~$0** [RPONTSYD $0.001 + RPONMBSD $0.0, FRED 6/18] | 🟢 **UN-STALED 6/20 (was 9wk stale).** No funding stress. Newly relevant under the Warsh balance-sheet review. |
+| **SOFR** | >3.70 | 3.61% [FRED 6/22] | 🟢 Clean; drifting down (3.69→3.63→3.62→3.61). |
+| **SOFR-IORB** | sustained >0 | **−4bps** [SOFR 3.61 / IORB 3.65, 6/22] | 🟢 Negative/clean. No funding stress despite the duration back-up. |
+| **10Y yield** | >4.50 sustained | **4.51%** [FRED H.15 6/22] | 🟠 **Back ABOVE the 4.50 pivot** (4.47→4.43→4.49→4.46→4.51) — term-premium repricing higher post-FOMC, oil-decoupled. Not yet "sustained." |
+| **30Y yield** | >5.00 sustained | **4.95%** [FRED H.15 6/22] | 🟠 **Sub-5.00 oscillation, BACKED UP off the unwind** (4.97→4.93→4.93→4.90→4.95) — touched 4.90 then reversed; the <4.90 unwind did NOT confirm. Term-premium re-steepen, not a growth-break. |
+| 2Y yield | n/a | **4.24%** [FRED H.15 6/22] | 🟠 **Highest since Feb-2025** (4.07→4.05→4.20→4.19→4.24) — front end holding the FOMC hawkish reprice. 2s10s ~+27bps. Watch dealer carry / basis-trade economics. |
+| TLT | level | $86.20 [yf 6/23] | 🟡 Eased as the long end backed up; confirms the 30Y 4.95 re-steepen. |
+| RRP buffer | >$5B | **$6.48B** [FRED 6/22] | 🔴→🟡 Off the structural zero — but **quarter-end window-dressing** (6/30 Q-end + JPM ~$165B cross-border rebalance, WALTER SIG-021-008), NOT a re-activation. Watch for revert post-Q-end; sustained >$10B into July = the real tell. |
+| SRF usage | >$50B | **$0.00B** [FRED 6/22, both legs] | 🟢 No funding stress. Newly relevant under the Warsh balance-sheet review. |
 | Reserve floor | >$2.8T | **$3.033T** [WRESBAL, H.4.1 as-of Wed 6/17] | 🟢 Cushion ~$233B; choppy $3.0-3.1T, no drain. ⚠️ **REGINALD's "$2.8T bank reserves (Q4'25 FFIEC)" is a DIFFERENT measure** (bank-reported, G-SIB-concentrated) — canonical WRESBAL is clean; do NOT fire the <2.8T PROME signal on the FFIEC figure. |
 | CP-TBill | spread health | 0.11 (6/5, stale) | 🟢 Plumbing clean (last read). |
 
@@ -63,11 +61,11 @@ POV-arc: see `thesis/CHANGELOG.md` § POV Pivots.
 
 ---
 
-## Dashboard 3 — Foreign Official (FX 6/20 / auctions+TIC 6/16-6/18)
+## Dashboard 3 — Foreign Official (FX 6/23 / auctions+TIC 6/16-6/18 unchanged)
 
 | Metric | Threshold | Current | Status |
 |--------|-----------|---------|--------|
-| **USD/JPY** | >160 | **161.27** [yf 6/20 proxy; canon = 5pm ET NY close] | 🔴 **5th+ consecutive close >160 — TRIGGERED, awaiting flow confirm.** BOJ hiked to 1.00% (6/16) yet yen weaker = rate-differential/credibility, NOT repat. **No intervention (jawboning only)**; DXY 1yr highs. SAM owns: carry-fuel 81% of cycle peak, no cover; Mon 6/22 CFTC = decision-gate (Juneteenth-delayed); MOF weekly net BUYING = no repat yet. |
+| **USD/JPY** | >160 | **161.59** [yf 6/23 proxy; canon = 5pm ET NY close] | 🔴 **Sustained >160 — TRIGGERED on level, but near-term repat risk DOWNGRADED.** SAM (6/22): CFTC Jun-16 −150,132 (83.4% peak, HELD through the hike, no cover) but **carry window now LOCKED to Sep-18** — a Sep convexity tail, not a near-term catalyst; unwind buckets cut to 7d/30d/60d ~5-6/17-20/24-28%. Rate-differential/credibility (BOJ at 1.00%, Pillar-1 re-widened by the Warsh hawkish dot), NOT repat. **MOF silent 6 days at 160+, no intervention.** Next CFTC Fri 6/26; BOJ Summary of Opinions Wed 6/24. SAM owns. |
 | **Auction Indirect** | <55% sustained | **20Y 71.6%** (6/16) / **5Y TIPS 68.6%** (6/18) — accepted basis | 🟢 **STRONG — demand FIRMED.** 20Y reopen (912810UV8): indirect 71.6%, dealer 8.5%, BTC 2.75, HY 4.927% (much better than soft 30Y 59.9% on 6/11). 5Y TIPS (91282CQP9): indirect 68.6%, dealer 3.4%, BTC 2.61, real 1.955%. Both far above the floor. |
 | **April TIC** | composition | **Total net +$26.1B; LT +$206.0B (private LT +$164.4B / official +$41.6B); broad private −$23.1B OUTFLOW, official +$49.2B offset** [released 6/18] | 🟡 **Official FOI bid carried a private-outflow month** (~$184B MoM private swing). Touches Leg B kill (FOI buying resumed) — **1 of 2 prints; one-month volatile, needs May.** Routed ACTION to BOND. |
 | Japan UST | repat watch | **$1.210T** [April TIC] ↓ from ~$1.24T | 🟡 Consistent with repat watch; SAM weekly MOF = still net BUYING → leg armed-but-unfired. |
@@ -78,24 +76,25 @@ POV-arc: see `thesis/CHANGELOG.md` § POV Pivots.
 
 ---
 
-## Cross-Domain Signals (6/20)
+## Cross-Domain Signals (6/23)
 
-- **HY OAS 263 [FRED 6/17] = 3bps from the 260 soft-kill — SHARED kill/review line** across LIQUID, BROCK (APO Dec $95P hold), REGINALD (REVIEW not auto-exit), NEXUS (M-08 soft-kill). **No outbox now** (restraint — all four already cite the 263/260 line; nothing they don't have). **If FRED 6/18-6/19 confirms <260 sustained → fire 🔴 ALL (Trigger C / LIQ-01 kill).**
-- **FOMC duration resolver = bear-flattener → HENRY/BOND-interface:** 30Y unwound to 4.93 (toward <4.90), NOT re-established >5.00; 2Y +16. My pre-staged tree's "hawkish→30Y>5.00" mapping inverted. Watch whether front-end-led flattening pressures basis-trade carry economics (negative front-end carry raises long-end warehousing cost — a leverage-stress channel if it persists).
-- **Warsh Balance-Sheet Policy review → PROME/REGINALD (monitor, not signal):** QT/SRF/RRP/SOMA "back in play" YE2026 = Leg A reinforced (thinner future buffers). Added to CALENDAR.
-- **RECEIVE inbound:** BRENT Cushing-sub-20M WTI-dislocation (Boundary #3) pre-registered to LIQUID/HENRY/RED, ~6/24 EIA; SAM carry-unwind buckets (7d/30d/60d ~8/23/32%) + Mon 6/22 CFTC; HAWK Mon 6/22 Brent decoupling test (Hormuz re-closure — spike→watch energy-HY-OAS + flight-to-safety bid; shrug→decoupling holds).
-- **OWED to BRENT:** HY-Energy-OAS pull — **DEFERRED per Will 6/20** (hold, don't drop; re-arms on a 6/22 Brent spike). BRENT energy-credit vector blocked on it.
-- **NEW structural headwind (BRENT, log only):** Iran PGSA-mandated war-risk insurance is OFAC-sanctioned → Western liner legal compliance trap (8/9 majors Cape-routing); premiums 3-8% hull (~$8M/transit, >1000% vs pre-war), JWLA-033 not lifted. Hardens war-risk premiums independent of spot — in LIQUID's owned war-risk-insurance scope.
-- **No fresh escalation:** 2nd-PC-fund-gate cluster fired 6/2-6/5 but CONTAINED (no new gater; Tier-2 PE-wrapper UN-FIRED day ~12; BROCK). Reserves canonical clean.
+- **HY OAS soft-kill RESOLVED BENIGN — shared 🔴-ALL kill OFF the near-term table.** 265 (6/22), bounced off the 263 low, no trigger past PRE; LIQUID/BROCK/REGINALD/NEXUS all hold (no auto-exit). Re-arms only on two fresh closes <265. **No outbox** (restraint — resolution visible to all on the same FRED series).
+- **NEW — AI/semi positioning unwind cracking the alts/PC complex (HENRY HEN-35):** APO −3.4%/−7% gap, ARES −15%, KOSPI −9.99%, MU −11% (6/22-6/23). The "no public stress" corroboration tell BROKE — first equity-side crack in the PC/wrapper complex = the candidate PC→public transmission LIQUID has watched for. HENRY: cascade path ~30% by 7/17 opex (VIX>23 + dealer neg-gamma 7,500-7,375 + JPM $165B 6/30 rebalance). Watch BDC/wrapper marks + first HY OAS sub-265 close.
+- **SUBSTANCE firming the bear (BROCK) while the HY index stays calm:** KBRA DLD default 2.3% (record-match 6/16, end-26 raised to 3.5%) — 2nd independent broad index at record; Fitch BDC Q1 non-accruals UP + 11 div cuts; wrapper-equity recognition leaking (FSK −5.9%). Corroborates the CCC-BB 791 pin. BCRED Q2 redemptions ~10% demand vs 5% cap → ~50% pro-rata (final Aug).
+- **Oil decoupled / disinflationary (HAWK/BRENT):** decoupling test PASSED — Hormuz re-closure 6/20 declaratory/non-kinetic, tape shrugged, Brent $77.90 (lowest since early March), curve flipped to CONTANGO. **US Treasury 60-day Iran-crude license 6/22** = supply-path mechanized. Cushing 20.03M at floor → sub-20M likely 6/24 EIA = Boundary #3 (WTI dislocation) routing to LIQUID/HENRY/RED. (War-risk premiums stay hard regardless — Iran PGSA insurance OFAC-sanctioned, JWLA-033 unlifted; LIQUID-owned scope.)
+- **USD/JPY repat pushed to a Sep tail (SAM):** 161.59 triggered on level, but carry window LOCKED Sep-18; MOF silent 6d, no intervention. Leg downgraded near-term. Next CFTC 6/26; BOJ Summary 6/24.
+- **Warsh Balance-Sheet review → Leg A reinforced (monitor):** QT/SRF/RRP/SOMA "back in play" YE2026 = thinner future buffers. RRP buffer now exhausted ($6.48B, Q-end noise off ~$0) → ongoing QT drains reserves directly. Multi-quarter watch.
+- **Excess-liquidity "negative first since 2021" (WALTER SIG-009, 0.55) — VALIDATED: do NOT adopt.** Index unidentifiable; net Fed liquidity $5.85T stable; own gauges benign. Real residue = the RRP-buffer exhaustion above, not acute tightening. Conf 0.4.
+- **Gate cluster — no fresh escalation:** 2nd PE-wrapper gate UN-FIRED (BROCK day ~17; clean close ~7/3 de-escalates). NAIC capital-charge deferred to 2027 (Athene RBC pushed ~1yr). SHADE: Moody's $807B illiquid PC at life insurers (Athene/GA each >15%) — inbox item, process on inbox-spawn.
 
 ---
 
-## Active Proposals / Positions (6/20)
+## Active Proposals / Positions (6/23)
 
-**Positions: FLAT of LIQUID single-names.** HYG $75P expired worthless 6/19 (as planned; do NOT re-surface). TEN closed (winner). APO Dec $95P = BROCK-owned tail-hedge.
-- **PROPOSAL 3 — CRUDE SHORT ON HOLD.** Brent $80.59; war-premium unwound; Mon 6/22 is the live decoupling test (BRENT owns price authority).
+**Positions: FLAT of LIQUID single-names.** HYG $75P expired worthless 6/19 (do NOT re-surface). TEN closed (winner). APO Dec $95P = BROCK-owned tail-hedge (BROCK HOLD per Will 6/15; vehicle-mismatch flag — shorting APO equity fights origination tailwind).
+- **PROPOSAL 3 — CRUDE SHORT: decoupling test PASSED, channel dormant.** Brent $77.90 (BRENT); war-premium fully repriced out; the Hormuz re-closure shrugged. No LIQUID crude expression; BRENT owns price authority.
 - **PROPOSAL 4 — HYG PUT → RESOLVED (expired 6/19).** Do not re-raise.
-- **PROPOSAL 5 — BCRED Q2 HARD GATE.** BROCK owns; gate cluster contained, revisit on the Q2 redemption window.
+- **PROPOSAL 5 — BCRED Q2 HARD GATE.** BROCK owns; Q2 redemptions ~10% vs 5% cap → ~50% pro-rata (final Aug); revisit on the ~6/30 window.
 
 ---
 
@@ -103,28 +102,31 @@ POV-arc: see `thesis/CHANGELOG.md` § POV Pivots.
 
 | Window | Risk |
 |---|---|
-| **Mon 6/22** | **HAWK Brent decoupling test** (Hormuz re-declared closed 6/20 — spike vs shrug); **SAM CFTC JPY print** (Juneteenth-delayed decision-gate); **FRED posts 6/18 HY OAS** (resolves TRIGGER A on the <260 watch) |
-| **Daily** | HY OAS direction (263, <260 kill watch); 30Y <4.90 unwind test (4.93, 3bps); USD/JPY >160 follow-through + intervention risk; SOFR-IORB |
-| **Wed 6/24** | EIA WPSR — Cushing sub-20M → BRENT Boundary #3 (WTI delivery-dislocation) inbound |
-| **~Jul 25** | Q2 BDC marks — NEXUS-named credit-bifurcation transmission test (CDLI-FSK gap / mark catch-down) |
-| **Late Jul** | July FOMC — hike watch (CME ~75%); BCRED Q2 redemption window |
+| **Wed 6/24** | **EIA WPSR — Cushing sub-20M → BRENT Boundary #3 (WTI delivery-dislocation) inbound** (LIQUID/HENRY/RED); **BOJ Summary of Opinions** (SAM — next-hike cadence) |
+| **Thu 6/25** | **May PCE** (HENRY HEN-34 inverse-feedback test — soft core → front-end eases, hawkish dots unwind); late-June 2Y/5Y/7Y auction cycle (~6/25) |
+| **Daily** | HY OAS (265, two sub-265 closes re-arms the kill); 30Y <4.90 unwind vs >5.00 (4.95); 2Y (4.24); USD/JPY >160; **alts/PC complex (APO/ARES — transmission watch)**; VIX (19.5, >23 = HENRY vol-control/cascade) |
+| **~Jun 26** | SAM CFTC print (cover-tripwire <−108K); BRENT oil COT extremes |
+| **~Jun 30** | **LIQ-03 resolves** (CLO AAA vs 160bps SOFR+); BCRED Q2 redemption window; Cliffwater CDLI Q1 NAV; quarter-end (RRP revert test + JPM $165B rebalance) |
+| **~Jul 25** | Q2 BDC marks — NEXUS R3 credit-bifurcation transmission test (CDLI-FSK gap / mark catch-down) |
+| **~Jul 29** | July FOMC — hike watch (CME ~75%) |
 | **YE2026** | Warsh balance-sheet review outcome (QT pace / SRF / RRP / SOMA — Leg A buffers) |
 
 ## Active Playbooks / Monitors
 
 | File | Purpose | Active window |
 |------|---------|---------------|
-| `workbook/KILL_MEMO_HY_OAS_260.md` | Trigger ladder: <270×2 PRE / <265×2 A / <260 intraday B / <260×3 C. **Live — HY 3bps away; no LIQUID positions to cut (book flat).** | live until thesis reframed |
+| `workbook/KILL_MEMO_HY_OAS_260.md` | Trigger ladder: <270×2 PRE / <265×2 A / <260 intraday B / <260×3 C. **Live — HY 5bps away (265, bounced, no trigger past PRE); book flat.** | live until thesis reframed |
 | `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` | Public-BDC mark watch; ~7/25 Q2 marks = NEXUS transmission test | rolling |
 
 ---
 
 ## Durable Signals Log
 
-All durable findings → `workbook/KB.tsv` (KB-LIQ-001..059). Notable + this session:
-- **KB-LIQ-060 candidate (6/20)** — FOMC duration-transmission inversion: a *credible-hawkish* Fed can RALLY the long end (hawkish dots hit the front end, 2Y+16; the long end read credibility as a bull, 30Y−2). Hawkish dots ≠ long-end selloff. (To author in KB.tsv.)
+All durable findings → `workbook/KB.tsv` (KB-LIQ-001..060). Notable + this session:
+- **KB-LIQ-061 candidate (6/23)** — *A spread approaching a kill that bounces is not a kill; read the tail, not the headline.* HY OAS hit 263 (3bps from the 260 soft-kill) 6/17, then bounced 266/266/265 — TRIGGER A never fired, while CCC-BB WIDENED to 791 and substance firmed (KBRA 2.3% record). The calm-senior/wide-tail signature appeared *simultaneously* across HY index + Euro CLO 2.0 junior + govvie term premium. (To author in KB.tsv.)
+- **KB-LIQ-060** (6/20, authored) — Credible-hawkish Fed RALLIES the long end (hawkish dots hit the front end 2Y+16; long end read credibility as a bull, 30Y−2).
 - **KB-LIQ-059** (6/12) — Duration regime: oscillation not sustained (conviction 65→60)
-- **KB-LIQ-058** (6/8) — Aggregate HY masks sector/quality bifurcation (CCC-BB tail) — **confirmed 6/20: index compressed, tail-gap held wide**
+- **KB-LIQ-058** (6/8) — Aggregate HY masks sector/quality bifurcation (CCC-BB tail) — **re-confirmed 6/23: index bounced to 265 while the tail-gap WIDENED to 791**
 - **KB-LIQ-057** (5/20) — Foreign demand shows at price; term-premium digestion ≠ broken auction
 - **KB-LIQ-051/052** (5/18) — April SOFR-IORB mechanical / Duration regime break, channel migration
 
