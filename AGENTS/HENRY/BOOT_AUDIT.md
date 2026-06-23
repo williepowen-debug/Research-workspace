@@ -2,19 +2,21 @@
 
 **Date:** 2026-06-15 · **Prompted by:** Will (after this session's 5-session staleness gap + the VIOLET "stale 6/1" re-violation)
 
+**⏱️ FRESHNESS NOTE (2026-06-23):** Since this 6/15 audit, recommendations #1+#2 SHIPPED — `scripts/boot.py` ✅, `NEXUS_BRIEF.md` ✅, `MAINTENANCE.md` ✅ all exist now (the ❌ inventory cells below are flipped). The boot read-phase also gained **step 3a (WALTER intake → board_log.tsv)**, so it's no longer the bare 3-step read. The CORE gap this audit names — CLAUDE.md boot is still ~read-only with boot.py / predictions-scan NOT wired as a STEP — remains TRUE (deferred, eval-gated; see MAINTENANCE.md 6/23). #3 (CATALYSTS.tsv docket) + #4-6 still open.
+
 ## VERDICT
 HENRY runs the **leanest, most manual boot in the macro cluster** — a 3-step *read-only* boot (STATUS / LESSONS / MEMORY) with **no boot script, no live-data pull, no predictions-due scan, no catalyst countdown, and no cross-agent surface**. VIOLET, SAM, and BRENT have all moved to an **automated boot kit + symmetric read↔write closeout + NEXUS_BRIEF cross-agent feed**. HENRY's two failures this session both trace directly to these missing boot steps. HENRY has been *named as a target* for the upgrades in three fleet auto-memories and hasn't executed them (parked in MODERNIZATION_PLAN.md, "paused for market work").
 
 ## INVENTORY (the gap, at a glance)
 | Capability | HENRY | VIOLET | SAM | BRENT |
 |---|:--:|:--:|:--:|:--:|
-| `scripts/boot.py` (live tape + FRED + catalyst countdown, ~10s) | ❌ | ✅ | ✅ | ✅ |
+| `scripts/boot.py` (live tape + FRED + catalyst countdown, ~10s) | ✅ (6/15) | ✅ | ✅ | ✅ |
 | Predictions-due scan at boot | ❌ | — | ✅ (step 6, w/ calibration preamble) | ✅ (eyeball OPEN past-timeframe) |
 | Catalyst countdown / machine docket (`CATALYSTS.tsv`) | ❌ | ✅ | ✅ | ✅ |
-| `NEXUS_BRIEF.md` (cross-agent synthesis feed) | ❌ | ✅ | ✅ | ✅ |
+| `NEXUS_BRIEF.md` (cross-agent synthesis feed) | ✅ (6/15) | ✅ | ✅ | ✅ |
 | Live-event EXECUTE-stays-open override | ❌ (boot says "CLOSEOUT every session") | ✅ | ✅ | ✅ |
 | Symmetric read↔write boot/closeout framing | partial | ✅ | ✅ | ✅ (explicit pairings) |
-| `MAINTENANCE.md` structural-change log | ❌ | ✅ | ✅ | ❌ |
+| `MAINTENANCE.md` structural-change log | ✅ (6/15) | ✅ | ✅ | ❌ |
 | Internal sub-agents (docket/workbook/trade-doc stewards) | ❌ | — | ✅ (KOYOMI/METSUKE/KURA) | ✅ (FASTOW) |
 | Canonical handoff doc | LAST_COMPLETION + MEMORY | SCRATCH | MEMORY | SCRATCH (+ LAST_COMPL) |
 | State-claim convention (`[src M/D]` + `STATE [as-of @ level]`) | ✅ **(HENRY-pioneered)** | partial | partial | partial |
@@ -23,7 +25,7 @@ HENRY runs the **leanest, most manual boot in the macro cluster** — a 3-step *
 *HENRY already HAS the raw materials* — `scripts/update_data.py`, `scripts/credit_monitor.py`, and `FORGE/tools/market-data/fetch.py` — they're just **not assembled into a boot.py and not invoked as a boot step.** *(Note: `refresh_status.py` was RETIRED 2026-06-15 — stale writer with a hardcoded Signal-Status narrative; NOT usable raw material. See MAINTENANCE.md.)*
 
 ## BOOT READ-PHASE, SIDE BY SIDE
-- **HENRY (3 steps, read-only):** STATUS → LESSONS → MEMORY → *Execute*. No data is pulled, nothing is scanned. Freshness depends entirely on the operator remembering to pull live.
+- **HENRY (now ~4 steps):** STATUS → LESSONS → MEMORY → **WALTER intake (step 3a → board_log.tsv)** → *Execute*. `scripts/boot.py` exists (live tape + FRED + predictions-due scan) but is run manually, not yet a wired boot STEP. Freshness still leans on the operator running boot.py. *(Original 6/15 read below — the "no data pulled" critique held pre-boot.py.)*
 - **SAM (6 steps):** THESIS → STATUS → CALENDAR → TIMELINE → MEMORY → **PREDICTIONS scan (+calibration scoreboard)**, then `boot.py` (live data + countdown).
 - **BRENT:** STATUS-led read + `boot.py` (prices+FRED+EIA+countdown) + **eyeball OPEN predictions past timeframe**; boot/closeout declared "one symmetric sequence."
 - **VIOLET:** read phase + `boot.py` (vol surface+FRED+countdown) + **live-event override** (EXECUTE stays open through an active regime/catalyst window — don't force closeout mid-event).

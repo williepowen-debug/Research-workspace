@@ -1,8 +1,10 @@
 # HENRY MODERNIZATION PLAN
 
-**Author:** HENRY · **Date:** 2026-06-03 (drafted ~22:00 ET) · **Status:** 🔵 PROPOSAL — Will review before any execution
+**Author:** HENRY · **Date:** 2026-06-03 (drafted ~22:00 ET) · **Status:** 🟡 PARTIALLY EXECUTED (2026-06-23) — see banner below; no longer a fresh proposal
 **Scope:** Internal house-keeping only. No signals (inbox/outbox), no position work. Goal = get HENRY's own files current + restructure the tree to match SAM/BRENT.
 **Decisions locked by Will at drafting:** (1) *Plan first, don't execute.* (2) Thesis layer = **full mirror** of SAM/BRENT (THESIS + CHANGELOG + TIMELINE + PREDICTIONS_ARCHIVE).
+
+**⚠️ STATUS UPDATE (2026-06-23) — PARTIALLY EXECUTED:** Phase A largely DONE (A2 VX dup-fix; `MAINTENANCE.md`, `scripts/boot.py`, `NEXUS_BRIEF.md`, `evals/` all shipped 6/15; KB gap-filled to ML-HEN-142 on 6/23; the workbook/domain staleness this plan targets was refreshed 6/23, Will-directed — see MAINTENANCE.md 6/23). **Phase B (`thesis/`) and Phase C (`docket/CATALYSTS.tsv`, catalyst_countdown.py) are UNEXECUTED** — those dirs don't exist; `PREDICTIONS.tsv` stays in `workbook/`; `THESIS_VALIDATION.md` was refreshed IN PLACE (3-axis reframe 6/23), NOT folded into `thesis/`. The NOW/AFTER tree + row-counts below are 6/3-vintage (KB is now 114 rows / last ID ML-HEN-142).
 
 ---
 
