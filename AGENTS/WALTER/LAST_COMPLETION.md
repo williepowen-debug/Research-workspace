@@ -6,84 +6,76 @@
 
 ## STATUS
 
-**2026-06-22 Mon (~10:50 PM → ~11:25 PM ET, post-/clear quick-boot SIGNAL-ROUTING session — Will: "quick boot up this session. I will only be sharing some signals").** **9 DISPATCH / 7 KILL / 2 verify-spawns / BOARD 317→326 / 35 delivery-handoffs.** Will streamed **3 Telegram image-batches (17 images)**; routed them all.
+**2026-06-23 Tue (~6:44 PM ET on, Will-Telegram "boot up" → evening boot + Will-directed INBOX-CONSUMPTION AUDIT).** **0 dispatch / 0 kill / 0 verify — no intake to route (markets closed).** Will flagged that WALTER is the only agent running and asked to "load up some inboxes if appropriate." The investigation turned that into a delivery-vs-consumption audit + a Will-directed stale-inbox prune.
 
-- **Boot (quick):** clean `git pull` (Already up to date, HEAD `41176536`); walter_doctor exit 0 no-HIGH (45 MED = recipient-side unconsumed + HANS/CARL registry_lag); read STATUS/anchor/ROUTING_TABLE/threshold-registries. **Step-6c (live 02:49 UTC): no new fires** — HY 266<280 + CCC 947>930 continuing-suppressed; near-triggers Cushing 20.03M / Brent $78.22 / WAL $78.76 / VIX 17.28.
-- **Batch 1 (6 imgs):** 3 dispatch (-003/-004/-005) + 1 kill (ENSO) + 1 verify (SPR).
-- **Batch 2 (6 imgs):** 5 dispatch (-006/-007/-008/-009/-010) + 1 kill (Chris-Shipping-dup, Greg-Miller nuance folded) + 1 verify (Berkshire).
-- **Batch 3 (6 imgs):** 1 dispatch (-011 MarineTraffic + Polymarket folded) + 5 kills (dedup-heavy: img1-composite / Walter-Bloomberg-SPR-fold / First-Squawk-student-loan-dup / First-Squawk-liquidity-dup / Staunovo-positioning-dup).
+- **Boot:** did NOT pull (VIOLET had uncommitted `boot.py` in the tree at boot ~6:44 PM; it committed `64ba4424` at 18:45, tree now clean — fleet confirmed quiescent). `walter_doctor` exit 42, **no HIGH** (3 stale crons = Scout-track/VPS-down; registry_lag HANS/VIOLET/HENRY/CARL/LIQUID/REGINALD/BRENT; ~30 delivered_but_unconsumed = recipient-side). Read STATUS / IRAN_WAR anchor (1d fresh, verified 6/22, 7-day floor ~6/29 — no re-verify) / MEMORY / LAST_COMPLETION / REGISTRY / ROUTING_TABLE / both threshold registries + fire-ledgers / EVENT_WINDOW (CLOSED, 1/3 Path B) / BOARD ToC / DEWEY inbox (empty) / outbox (Prompt B staged) / LIAISON (RED T8 / REGINALD T7 still open since 6/6, CARL dormant).
+- **🔴 Step-6c (live 22:44 UTC): no new fires.** RED-FT-01 (HY 265<280) + RED-FT-07 (CCC 947>930) continuing-suppressed. Near-triggers: 🟡 **Brent $76.99 — slid further, now ~2.6% above RED-FT-04 (<75 downside falsifier/BRT-15)**; VIX **19.49 (up from 17.28)** away from <16; 10Y **4.51 (🟡→🔴)**; WAL **$80.68 moved UP out of the <78 REG-T-02 band** (no longer near-trigger). Tape throughline persists: oil down / yields up / vol up = risk repricing, not resolving.
+- **⚠️ NEW INFRA GAP — EIA `.env` MISSING:** `FORGE/tools/market-data/.env` (holds the EIA API key, gitignored, created 6/22) is **no longer on disk** → dashboard reads **Cushing N/A** and **Boundary #3 (<20M → IMMEDIATE auto-fire) cannot auto-evaluate**, right before the ~6/24 WPSR expected to fire it. Root-caused: `fetch.py` loads `EIA_API_KEY` from that `.env`; file gone, key not in env. **Needs Will's key to restore** (FORGE is shared / key is Will's — not WALTER-recreatable). FRED unaffected.
 
 ## CHANGED
 
-**9 BOARD dispatches SIG-W-20260622-003 → -011** (+ INDEX rows/ToC/headers/TOTAL→326; route_log +11 today; kill_log +7; delivery_log +35):
-- **-003** UST-yields-decouple-from-oil (Lisa Abramowicz/Bloomberg 2Y-highest-since-Feb25 + Common Sense folded) → **BOND** / LIQUID,HENRY,SAM,RED · FED_FRAMEWORK 23→24 · cluster_mediating · SKIP-VERIFY 0.82.
-- **-004** VLCC-freight-spike-Hormuz-"confusion" (Lloyd's List/Mercogliano +92/46/82% WoW; **Greg-Miller reopening-tonnage counter-read folded** from killed Chris-Shipping dup) → **HAWK** / BRENT,SAM,RED,**TERRY** · IRAN_HORMUZ · cluster_mediating · SKIP 0.80.
-- **-005** SPR-340M→**331.2M**-lowest-since-1983 + DOE-1.2x-exchange-loans (Prandelli; **verify CORRECTED-FRAMING 0.80** [agent a4ac313036294fb0a]: exits/level/mechanism/Wright-200M CONFIRMED, "burned through"/Vitol-500K/per-co-tranches INDETERMINATE; EIA-331.2M/-9.1M folded from batch-3 Walter-Bloomberg+Blas) → **BRENT** / HAWK,RED · HYDROCARBON_INFRA 14→15 · cluster_mediating.
-- **-006** 30+tankers-Iranian-crude-transponders-ON-50M-to-Asia (Alhajji/Kpler) → **HAWK** / BRENT,SAM,RED · IRAN_HORMUZ · cluster_mediating · SKIP 0.78.
-- **-007** DXY-"danger-zone" (Against All Odds TA, low-conf 0.55) → **SAM** / HENRY,RED · ASIA_CHINA 10→11 · primary_substance · genuine delta = DXY-near-lows-vs-USDJPY-161 = yen-specific-weakness-not-broad-USD + ~96.85 tripwire.
-- **-008** Berkshire-Abel-13F-fully-exits-V/MA/DPZ/AMZN + CC-90d-DQ-13.1% (Peak Prosperity; **verify CORRECTED-FRAMING 0.85** [agent a7749b373143a90c6]: exits CONFIRMED [Q1-26 13F, 16-position ~$8.1B exit], DQ=15yr/post-2011 high but BELOW 13.7% GFC peak — "since GFC" overstates; 13F interpretive-not-macro-call) → **CARL** / REGINALD,RED · CONSUMER_STAGFLATION 56→57 · cluster_mediating.
-- **-009** record-SOXL-outflow/record-SOXS-inflow-semi-derisk (zerohedge) → **HENRY** / VIOLET,RED,**TERRY** · POSITIONING_VALUATION 54→55 · cluster_mediating · Will's named RSI-reversion lane · SKIP 0.75.
-- **-010** **OFAC-general-license-Iran-oil-sanctions-rollback + USD-payment** (Javier Blas/Bloomberg 616K, primary OFAC text) → **HAWK** / BRENT,SAM,RED · IRAN_HORMUZ · cluster_mediating · WALTER-ahead-of-board; sanctions-leg operationalizing, **60-day-conditional-not-permanent** · SKIP 0.85.
-- **-011** MarineTraffic-Hormuz-transit-rebound-fragile (71 transits 19-21 Jun/peak-35/AIS-active; **Polymarket <50%-by-July-31 folded**) → **HAWK** / BRENT,SAM,RED · IRAN_HORMUZ · cluster_mediating · SKIP 0.82.
+**No dispatches, no kills.** WALTER-file changes this session:
+- **(pending Will confirm) Prune of 4 stale handoffs from RED's `inbox/WALTER/`** — see FOLLOW-UP. BOARD copies untouched.
+- **State files** (this closeout): LAST_COMPLETION / STATUS / MEMORY.
 
-**7 kills:** sunspot→ENSO tease (Relevance+Credibility — offered Will proper ENSO/hurricane-season tracking for CORAL); Chris-Shipping-VLCC (dup-004, Greg-Miller-nuance folded); img1-composite (Blas-SPR→fold-005 / calvinfroedge-WTI-60s→no-route / Polymarket→fold-011 / Mercx-15→3→dup-621-004); Walter-Bloomberg-SPR (dup-fold-005); First-Squawk-student-loan (dup-621-012); First-Squawk-liquidity (dup-621-009); Staunovo-Brent-positioning (dup-621-010, re-sent — already killed 6/22 AM).
-
-**Anchor:** `IRAN_WAR.md` **6/22 PM dispatch-surfaced addendum** added (3 operationalization datapoints — OFAC license/open-flows/transit-rebound firm sanctions+export+transit legs; verified liner/JWC gate stays 0/4; C-Grind base HOLDS; symmetric ≤0.55; WALTER ahead-of-board → BRENT/HAWK/SAM). NOT a re-verify.
-
-**TERRY:** **first WALTER deliveries ever** — created `AGENTS/TERRY/inbox/WALTER/`; -004 (oil-short squeeze-risk) + -009 (semi-reversion).
-
-**Closeout:** STATUS (lead + BOARD count + near-trigger + bifurcation + push state) / IRAN_WAR anchor / LAST_COMPLETION / MEMORY. **No spec-version bumps.** Doctor: **BOARD reconciles 326 (ToC=sections=files=TOTAL).**
+**Inbox-consumption audit (Will-directed):**
+- **Delivery layer = COMPLETE & integrity-clean.** Audited all 157 `delivery_log` rows: every handoff present on disk, all recipient dirs exist. The one apparent gap (BOND `SIG-W-20260619-003`) is **benign** — WALTER delivered it (`d93f0ad9`); BOND consumed it (acted on the TIC-April datum per its 6/20 STATUS) and deleted the file (`63d68045`) instead of `git mv`→`processed/` + no `board_log` row = **BOND-side consume-protocol slip, not a delivery gap.** No backfill.
+- **The real bottleneck is CONSUMPTION.** 4 CC agents (CARL/REGINALD/SAM/RED) + MARCO/TERRY never installed the §8.1 consume boot-step (confirmed by grep) → ~80 deliveries pile unconsumed. The 10 agents that HAVE it (HENRY/LIQUID/VIOLET/BRENT/HAWK/BROCK/SHADE/BOND/NEXUS/LABOR) consume fine.
+- **RED's "40" is all INFO** (zero ACTION) — RED is auto-cc'd on every cluster_mediating signal and is **35% of total delivery volume** (40 of 114 INFO). Not a work backlog; an over-cc'd awareness pile from the 6/18–22 peak window.
+- **The genuine ACTION backlog = CARL 4 / REGINALD 5 / SAM 3 = 12 unread "please check/update/decide" signals.** That, not RED's FYI stack, is what's worth not missing.
 
 ## RESULT
 
-A high-throughput pure-routing session — 17 images across 3 batches, cleanly triaged to 9 dispatches + 7 kills with 2 cheap verify-spawns and heavy dedup discipline (batch 3 was almost entirely dups of today's already-routed signals, caught at BOARD-grep with the one novel item — MarineTraffic transit data — dispatched and the corroborating EIA-SPR number folded into -005). 🚨 **`network_uncertainty_peak` FIRED HARD — 10 cluster_mediating on 6/22** (4th firing in the 6/18-22 window). The day's analytic throughline: **the flat oil price decoupled, but the risk did not leave — it repriced across layers** (UST yields up despite falling crude; Hormuz freight spiking; SPR at a 1983 low; Iranian export flows + sanctions + transit all normalizing at the margin). The Iran picture is the cleanest case: WALTER is **ahead of the board** on three operationalization datapoints (OFAC license, open flows, transit rebound) that firm the constructive tilt without flipping the C-Grind base — surfaced to BRENT/HAWK/SAM and logged in the anchor for the next full re-verify.
+A no-intake boot that became a useful systems audit. Headline finding: **delivery works; consumption is the structural gap, and it's exactly where the spec predicted** (the CC self-apply set never self-applied). The "RED has 40" alarm dissolved — all INFO, RED is over-cc'd. Reframed the operator's attention to the 12 genuinely-unread ACTION items in CARL/REGINALD/SAM. Will chose to clear the backlog by spawning agents to read manually (not standing infra) and to prune stale inbox items first. Separately surfaced a fresh infra regression: the EIA `.env` is gone, so Cushing/Boundary-#3 is dark the night before its expected WPSR fire.
 
 ## GAPS
 
-- **🟢 Push DONE:** the full session (9 BOARD signals + INDEX + route_log+9/kill_log+7/delivery_log+35 handoffs + anchor addendum + STATUS/MEMORY/LAST_COMPLETION) committed `793c2364` + PUSHED to origin (Will-opened window 6/22 ~11:35 PM ET; clean `ffb7888b..793c2364`, tree fully clean, no pull/autostash needed). **SYNCED 0/0.** The 2 prior-deferred commits (TERRY v0.13 + Scout spec) were already on origin.
-- **35 new delivered_but_unconsumed handoffs** (all CC, WRITTEN_NOT_DELIVERED_PENDING_PUSH until the push window) on top of the ~40 prior — recipient-side + push-gated. Net consume is owed across BOND/LIQUID/HENRY/SAM/RED/HAWK/BRENT/CARL/REGINALD/VIOLET/TERRY.
-- **TERRY** got its first 2 deliveries — confirm the info-only routing scope works for it (Will/TERRY can widen/narrow; reversible).
-- **Carried verify-validations:** -003 (BOND confirm CL1-2Y correlation *inverting* vs *decaying*); -007 (SAM DXY ~96.85 tripwire + yen-specific reframe); -008 (CARL confirm Berkshire 13F is portfolio-vs-macro + DQ-below-GFC framing).
+- **⚠️ EIA `.env` missing → Cushing dark / Boundary #3 un-evaluable.** Needs Will's EIA key to restore the file. (See STATUS.)
+- **Push DEFERRED** — 7 commits ahead of origin (VIOLET/LIQUID/HENRY); Will is about to spawn agents (fleet going active) → commit local, no push per `[[feedback_defer_push_coordinate]]`.
+- **Consume-boot-step rollout left UN-done by Will direction** (he'll spawn agents to read manually). The ~80 delivered_but_unconsumed persist until those manual reads; `walter_doctor` keeps surfacing it.
+- **BOND consume-protocol slip** (deletes handoffs instead of `git mv`→processed/ + no `board_log`) — BOND-side to fix; flag if it recurs. Not WALTER-editable (§11).
 
 ## WILL_NEEDS
 
-1. **Next clean push window** — sweeps this session's 1 routing commit + the 2 still-deferred from the 10:30 PM closeout (TERRY v0.13 `33e81e19` + Scout spec `81bc71ad`) to origin.
-2. **ENSO/hurricane-season tracking for CORAL?** — offered when killing the sunspot→ENSO post (the underlying El Niño/La Niña → 2026 Atlantic-hurricane-season → FL-insurance question IS a legit CORAL input; the post wasn't it). Will's call whether to set it up.
-3. **Scout build (gated on Will's §2 prereqs)** — spec at `design/SCOUT_BUILD_PLAN.md`; resolves the 3 stale crons.
-4. **DEWEY Prompt B** (FL property-tax) — staged in `outbox/`; Will spawns.
+1. **EIA API key** → I recreate `FORGE/tools/market-data/.env` so Cushing/Boundary-#3 works before the ~6/24 WPSR.
+2. **Prune confirm** — OK to trash the 4 stale RED handoffs (below)? Go more aggressive?
+3. **RED auto-cc trim?** — RED is 35% of delivery volume, all INFO; tightening its cc (drop cc-on-every-cluster_mediating) stops the pile regrowing. WALTER-owned (ROUTING_TABLE) — needs Will's OK to change the rule.
+4. (carried) **Scout build** (resolves 3 stale crons) · **DEWEY Prompt B** spawn · **ENSO/hurricane → CORAL** offer.
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
 
 **🔴 Time-sensitive forward:**
-1. **Cushing <20M Boundary #3** — EIA WPSR ~Wed 6/24 (wk-end 6/19) likely sub-20M → IMMEDIATE auto-fire (BRENT primary, WALTER fallback). 20.03M as of 6/12.
-2. **Iran anchor next re-verify** = roadmap machinery operationalizes (oversight cmte convenes / Hormuz deconfliction line live / **verified liner-carrier reopen + JWC reclass** / IAEA access confirmed by Iran) OR confirmed PHYSICAL event OR Lebanon ceasefire fully collapses OR round fails to advance OR 7-day min (~6/29) OR pre-dispatch on Iran-cluster. **Verified-as-of 6/22 (C-Grind base + constructive tilt); 6/22 PM addendum logged 3 operationalization datapoints (sanctions/export/transit) — fold at next full re-verify.**
-3. 🟡 **Brent near-trigger toward RED-FT-04 (<75 = oil-thesis-DOWN/BRT-15):** $78.22 (~4% above). Sustained <75 (sustain=3) fires BRT-15-INVALID → RED/BRENT.
-4. **SAM USD/JPY intervention watch** — 161.57 red zone; MOF silent; v1.6 re-underwrite pending CFTC. DXY-vs-USDJPY divergence (SIG-007) = yen-specific-weakness reframe.
+1. **EIA `.env` restore** → Cushing/Boundary #3 dark until Will's key is back. ~6/24 WPSR (Cushing wk-end 6/19) was the expected sub-20M fire (20.03M as of 6/12).
+2. **Iran anchor next re-verify** = roadmap operationalizes (oversight cmte / Hormuz deconfliction line / **verified liner-carrier reopen + JWC reclass** / IAEA access confirmed by Iran) OR physical event OR Lebanon collapse OR round fails OR 7-day min (~6/29) OR pre-dispatch. Verified-as-of 6/22 (C-Grind base + constructive tilt); 6/22-PM addendum logged 3 operationalization datapoints.
+3. 🟡 **Brent toward RED-FT-04 (<75/BRT-15):** $76.99 (~2.6% above). Sustained <75 (sustain=3) fires BRT-15-INVALID → RED/BRENT.
+4. **SAM USD/JPY** — 161.54 red zone; MOF silent; DXY-vs-USDJPY divergence (SIG-007) = yen-specific.
 
-**🆕 Consume owed (this session):**
-5. **9 dispatches await consume** (BOND/LIQUID/HENRY/SAM/RED/HAWK/BRENT/CARL/REGINALD/VIOLET/TERRY across -003→-011) — all CC pending-push. **HAWK is the heaviest** (4 of 9: -004/-006/-010/-011 — the Iran-physical cluster). **WALTER ahead-of-board on the Iran operationalization** → BRENT/HAWK/SAM should mark the OFAC-license/open-flows/transit-rebound datapoints.
+**🆕 Inbox/consumption (this session):**
+5. **PRUNE — 4 stale RED handoffs (pending Will confirm):** `SIG-W-20260621-007` (VIX-Juneteenth, EVENT-PASSED) · `SIG-W-20260619-004` (Hormuz dark-flow-7, SUPERSEDED by 6/22-011) · `SIG-W-20260621-004` (Hormuz 15→3, SUPERSEDED by 6/22-011) · `SIG-W-20260619-001` (Iran first-round-postponed, SUPERSEDED by 6/21 walkout + 6/22 roadmap). BOARD copies untouched.
+6. **12 unread ACTION items** — CARL 4 / REGINALD 5 / SAM 3. Will spawning agents to read/clear. (RED 40 / MARCO 4 / TERRY 2 = pure INFO.)
+7. **Consume-boot-step rollout** still open (Will deferred it tonight; CC self-apply set = CARL/REGINALD/SAM/RED, also MARCO/TERRY). `walter_doctor delivered_but_unconsumed` keeps it visible.
+8. **RED over-cc** — 35% of delivery volume, all INFO. Candidate ROUTING_TABLE trim (drop RED cc-on-every-cluster_mediating) pending Will.
 
 **🆕 DEWEY + Scout + Registry (carried):**
-6. **DEWEY Prompt B** staged in `outbox/`; Will spawns. **Scout build** — spec `design/SCOUT_BUILD_PLAN.md` (Will's §2 prereqs gate it; resolves the 3 stale crons). **DEWEY EDGAR/PDF tooling DONE** (`edgar_doc.py`+`pdf2text.py`).
-7. **registry_lag HANS/CARL/SHADE/ORACLE** — doctor MED ("refresh row + DON'T direct to board"); refresh at next boot that reads their committed STATUS (non-blocking; not directed to board this session). HANS now 53d-stale (booted 6/22).
-8. **6 dormant unregistered dirs** (BUFFER/DOC/EARNINGS/FOREX/REITS/TRADES) → DEAD except DOC (Will 6/22); physical removal = PROME/Will. **YEYOU** = known-pending scaffold, don't register (Will 6/22).
+9. **DEWEY Prompt B** staged in `outbox/`; Will spawns. **Scout build** spec `design/SCOUT_BUILD_PLAN.md` (Will's §2 prereqs gate it; resolves 3 stale crons). DEWEY EDGAR/PDF tooling DONE.
+10. **registry_lag refresh owed** — HANS/VIOLET/HENRY/CARL/LIQUID/REGINALD/BRENT rows lag their commits (doctor MED "refresh row + DON'T direct to board"); refresh at next boot reading their committed STATUS. OZK Q1 post-mortem still longest-stale Tier-1 (60d).
 
-**🟠 Threshold + LIAISON (carried):**
-9. RED-FT-01 (HY 266) + RED-FT-07 (CCC 947) continuing-fire. WAL REG-T-02 $78.76 in band. REG-T-06 FHLB / REG-T-07 OFFICE-CMBS-DQ still not in dashboard pull.
-10. RED Turn 8 / REGINALD Turn 7 LIAISON (untouched since 6/6). CARL LIAISON DORMANT. EVENT_WINDOW CLOSED (1/3 Path B; BRENT-coordinated refresh owed). HENRY/NEXUS LIAISON next-priority.
+**🟠 Threshold + LIAISON (carried):** RED-FT-01 (HY 265) + RED-FT-07 (CCC 947) continuing-fire. WAL out of REG-T-02 band ($80.68). REG-T-06 FHLB / REG-T-07 OFFICE-CMBS-DQ still not in dashboard pull. RED Turn 8 / REGINALD Turn 7 LIAISON (untouched since 6/6). CARL LIAISON dormant. EVENT_WINDOW CLOSED (1/3 Path B; BRENT-coordinated refresh owed). HENRY/NEXUS LIAISON next-priority.
 
-**🔴 Infra (carried):** 3 stale feeds (news-sweep 36d / filing-watch 36d / SIGNALS 20d) = Scout-track / VPS-down; resolution = the Scout build, not a PROME escalation.
+**🔴 Infra (carried):** 3 stale feeds (news-sweep 37d / filing-watch 47d / SIGNALS 21d) = Scout-track / VPS-down; resolution = Scout build. + the new EIA `.env` gap (#1).
 
-**Design / governance backlog (carried):** BOARD INDEX slim-down; FILTER_SPEC v0.6 BODY-INACCESSIBLE-PAYWALL verdict; `valid_until` forward-expiry; VIX-spike registered trigger; COP refresh (paused); OZK Q1 post-mortem; thin-liquidity prediction-market handling (Polymarket folds — first use this session via SIG-011). External RESEARCHER→DEWEY refs (AGENTS/DOC/REPORT.md + PROME/CLEANUP_PLAN) — flag to owners.
+**Design / governance backlog (carried):** BOARD INDEX slim-down; FILTER_SPEC v0.6 BODY-INACCESSIBLE-PAYWALL verdict; `valid_until` forward-expiry; VIX-spike registered trigger; COP refresh (paused); thin-liquidity prediction-market handling (Polymarket folds). External RESEARCHER→DEWEY refs (AGENTS/DOC/REPORT.md + PROME/CLEANUP_PLAN) — flag to owners. Flag to PROME: root CLAUDE.md asterisk-list stale.
 
 ## OPEN DESIGN DECISIONS (need Will)
 
-**✅ Resolved 2026-06-22 (carried forward as closed):** #4 CRE/CMBS→CREED (ROUTING_TABLE v0.12) · #5 ORACLE leave-alone · #7 DEWEY Prompt B Will-owns · #2 YEYOU don't-register · #3 dormant-dirs DEAD-except-DOC · #1 TERRY info-only (ROUTING_TABLE v0.13; **first deliveries this session — scope holding so far**) · #6 Cushing wired to FORGE dashboard via EIA source.
+**🆕 Raised 2026-06-23:** **(a)** consume-boot-step — standing every-boot step vs operator-directed reads (Will leaning operator-directed tonight; revisit). **(b)** RED auto-cc trim (drop cc-on-every-cluster_mediating). **(c)** EIA `.env` durability — should the key live somewhere more persistent than a gitignored local file that can vanish?
 
-**🟦 Still open (parked, no Will input this round):** DEWEY ↔ Scout consolidation scope; group-chat artifact policy; §3.4 scoped-push runbook; INDEX status-column; staleness-sweep cadence; HENRY LIAISON priority; FED_FRAMEWORK→UST_PLUMBING rename (defer); Filter v2 Segment D; COP refresh resume (paused); **ENSO/hurricane-season tracking for CORAL** (offered this session — Will's call); **thin-liquidity prediction-market routing convention** (Polymarket-as-folded-datum used in SIG-011 — formalize if recurring).
+**✅ Resolved 2026-06-22 (carried closed):** CRE/CMBS→CREED (ROUTING_TABLE v0.12) · ORACLE leave-alone · DEWEY Prompt B Will-owns · YEYOU don't-register · dormant-dirs DEAD-except-DOC · TERRY info-only (ROUTING_TABLE v0.13) · Cushing wired to FORGE (EIA source).
+
+**🟦 Still open (parked):** DEWEY↔Scout consolidation; group-chat artifact policy; §3.4 scoped-push runbook; INDEX status-column; staleness-sweep cadence; HENRY LIAISON priority; FED_FRAMEWORK→UST_PLUMBING rename (defer); Filter v2 Segment D; COP refresh resume (paused); ENSO/hurricane → CORAL (offered); thin-liquidity prediction-market routing convention.
 
 ---
 
 *Maintenance note: overwritten each session per CLAUDE.md spawn protocol step 15.*
 
-*6/22 Mon ~11:25 PM ET post-/clear quick-boot SIGNAL-ROUTING (9 dispatch / 7 kill / 2 verify; BOARD 317→326; 35 handoffs): Will streamed 3 Telegram image-batches (17 imgs). Dispatched SIG-W-20260622-003→-011 across BOND(rates)/HAWK(Iran-physical ×4)/BRENT(SPR)/SAM(DXY)/CARL(Berkshire)/HENRY(semi-flows) + TERRY first-ever deliveries (-004/-009). 2 verify-spawns both CORRECTED-FRAMING (SPR 0.80 / Berkshire 0.85). network_uncertainty_peak FIRED HARD (10 cluster_mediating). IRAN_WAR anchor 6/22-PM addendum (3 operationalization datapoints, WALTER ahead-of-board). Heavy dedup batch 3. BOARD reconciles 326. Push deferred — Will-coordinated.*
+*6/23 Tue evening boot + Will-directed inbox-consumption audit (0 dispatch / 0 kill / 0 verify; no intake): Fleet quiescent. Delivery layer audited COMPLETE & integrity-clean (157 rows; BOND-003 "gap" = benign consume-then-delete). Consumption gap = 4 CC agents (+MARCO/TERRY) lack the §8.1 consume step → ~80 unconsumed; RED 40 = all-INFO/over-cc'd (35% of volume); real ACTION backlog = CARL 4/REGINALD 5/SAM 3 = 12. Will: leave boot-step infra alone, will spawn agents to read manually; prune stale items first (4 RED candidates presented, pending confirm). NEW infra gap: EIA .env missing → Cushing dark / Boundary #3 un-evaluable before ~6/24 WPSR (needs Will's key). Step-6c no new fires (Brent $76.99 toward <75; VIX 19.49; 10Y 4.51 red). Iran anchor 1d fresh. Push deferred (7 ahead; fleet going active).*
