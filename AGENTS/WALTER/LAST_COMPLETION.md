@@ -56,17 +56,17 @@ A productive persistent session that cleanly handled three distinct Will asks pl
 
 ## GAPS
 
-- **Push SYNCED 0/0** — the 4 WALTER/DEWEY commits (`1eb84f35` / `3d0948a9` / `1b1443e0` / `0155fac9`) + the 6/22 PM closeout (`4048d823`) + route_log NUL-strip (`41176536`) all reached origin between sessions; HEAD `41176536`, nothing local-pending [resolved — corrected 6/22 PM Phase-1 truth-up].
-- **SIG-W-20260622-002 awaits recipient consume** — BROCK action + LIQUID/REGINALD/SHADE/RED info (CC pending-push). Recipient-side.
-- **~40 prior delivered_but_unconsumed** (6/18 + 6/19 + 6/21 batches) — recipient-side + push-gated. Carry-forward.
-- ✅ **MEMORY.md cap-prune + SESSION LOG trim DONE this session (Phase 4)** — MEMORY 144→58 lines (OCR finding promoted to auto-memory); SESSION LOG 15→5 rows (11 archived to `SESSION_LOG.md`). No longer carried.
-- **DEWEY Prompt B (FL Nov-2026 property-tax amendment) not yet started** — staged in `outbox/`; awaits a DEWEY run.
+- **🔴 Push DEFERRED at closeout (~10:30 PM ET):** 2 WALTER commits (TERRY v0.13 `33e81e19` + Scout spec `81bc71ad`) + this closeout sit ahead-of-origin. Deferred because **BRENT** (uncommitted `board_log.tsv` + 3 staged consume-renames) AND **HANS** (uncommitted STATUS/workbook) were both mid-work in the tree — an autostash-pull would disturb their git state (isolation rule). Origin also +2 incoming (CARL `safe-push.sh` + an auto-mem). **Next clean push-train sweeps WALTER's 2 + BRENT's 2 already-committed commits** (`ff55e0aa`/`c5cbd2c4`). Earlier evening commits (Phases 1-4, CREED v0.12, Cushing EIA, REGISTRY) already PUSHED + synced via the Will-opened window.
+- **Registry rows owed next boot:** BRENT (booted 6/22, committed STATUS/THESIS v4.2) + HANS (went active 6/22) — refresh their REGISTRY rows next boot that reads their *committed* STATUS (didn't deep-read in-flight uncommitted STATUS this session).
+- **Recipient consume (carry):** BROCK←SIG-W-20260622-002; CORAL/REGINALD←SIG-001 (REGINALD must NOT propagate AMTB=BankUnited); **~40 prior delivered_but_unconsumed** (recipient-side + push-gated). *(BRENT's 3 routes consumed live this session.)*
+- **DEWEY Prompt B** staged in `outbox/`; Will spawns.
 
 ## WILL_NEEDS
 
-1. ✅ **Coordinated push — DONE** (the 6/22 commits + closeout reached origin between sessions; tree synced 0/0 at 6/22 PM boot, HEAD `41176536`).
-2. **DEWEY Prompt B** (FL property-tax amendment) — staged in `outbox/DEWEY_PROMPT_B_fl-property-tax-amendment.md`; Will spawns DEWEY when ready (Prompt A done end-to-end as the template; now with EDGAR/PDF tooling in place).
-3. **Open registry + routing decisions still parked** — TERRY tier/routing-integration; 6 dormant unregistered dirs (BUFFER/DOC/EARNINGS/FOREX/REITS/TRADES) completeness call; CRE/CMBS → CREED ROUTING_TABLE update.
+1. **🟢 Scout build (tomorrow)** — full step-by-step spec at `design/SCOUT_BUILD_PLAN.md`. Will does the §2 prereqs (rotate the compromised `***REMOVED***` token, add `SCOUT_BOT_TOKEN`/`SCOUT_CHAT_ID` Secrets, bot-to-group, authorize WALTER/PROME on `.github/workflows/`+`FORGE/tools/`) → then WALTER/DEWEY builds §3 (`scout.yml`).
+2. **Next clean push window** — sweeps the 2 deferred WALTER commits (TERRY v0.13 + Scout spec) + this closeout to origin (BRENT's 2 committed commits ride along).
+3. **DEWEY Prompt B** (FL property-tax) — staged in `outbox/`; Will spawns when ready.
+4. **TERRY routing scope** — shipped narrow (info-only positioning/reversion/timing); correct/widen on Will or TERRY request (info-only = reversible). *(Parked decisions from the persistent session — CRE/CMBS→CREED, dormant dirs, ORACLE — all RESOLVED 6/22; see OPEN DESIGN DECISIONS.)*
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
 
@@ -117,4 +117,4 @@ A productive persistent session that cleanly handled three distinct Will asks pl
 
 *Maintenance note: overwritten each session per CLAUDE.md spawn protocol step 15.*
 
-*6/22 Mon PM (persistent session): 1 dispatch (SIG-W-20260622-002 first European CLO 2.0 rated-tranche default → BROCK; CORRECTED-FRAMING w/ strong CONFIRMED core 0.82; advances AI-software→PC thread MARK→REALIZED) / 1 kill (Kobeissi $165B Q2-rebalance DUP) / 2 verify-spawns / BOARD 316→317. + read/analyzed DEWEY FL-bank report for Will. + built DEWEY EDGAR/PDF tooling (edgar_doc.py + pdf2text.py; EDGAR 403 = missing-UA-header; both BACKLOG blockers DONE; committed 1b1443e0 under Will per-session auth). Step-6c no new fires (Brent $77.57 near the <75 downside falsifier). Commits + closeout reached origin between sessions; tree synced 0/0 at 6/22 PM boot [corrected 6/22 PM Phase-1].*
+*6/22 Mon PM POST-/CLEAR EVENING (0 dispatch / 0 kill / 0 verify): Phase 4 governance cleanup (MEMORY 144→58, SESSION LOG 15→5) → coordinated push (synced the full 6/22 chain) → 7 Will design-decisions (CREED→ROUTING_TABLE v0.12; ORACLE-leave / DEWEY-B-Will-owns / YEYOU-no-register / 5-dormant-dirs-DEAD-DOC-kept; TERRY→ROUTING_TABLE v0.13 info-only positioning/reversion/timing) → Cushing wired live into the FORGE dashboard via a new `eia` source (Will-auth FORGE edit + EIA key; FRED-dropped-Cushing caught by test-before-write → EIA v2 API; 🟡 20.03M; Boundary #3 auto-scanned; key gitignored) → Scout build-spec written + saved (`design/SCOUT_BUILD_PLAN.md`, for Will tomorrow). BRENT booted + consumed its 3 WALTER routes live (delivery loop closed). Closeout ~10:30 PM. 2 WALTER commits (TERRY v0.13 + Scout spec) + this closeout push-DEFERRED — BRENT + HANS both mid-work in tree (isolation rule); next clean push-train sweeps them + BRENT's 2 committed. Spec changes: ROUTING_TABLE v0.12 + v0.13; FORGE dashboard +eia source +Cushing.*
