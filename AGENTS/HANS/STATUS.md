@@ -71,6 +71,8 @@
 
 **Read:** Energy is **no longer an acute US-thesis stress vector.** TTF below my €50 line and far under Goldman's €74 war scenario; diesel falling = EU cost-push fading (supports the disinflation read HENRY tracks). My old "permanent loss of Qatari LNG" assumption is **reversed** — it was a temporary FM, now recovering. **Residual risk:** storage ~46% is below the seasonal norm (deficit metric is method-dependent: ~14-18pp depending on the norm/target definition) entering winter → a cold winter OR a Hormuz re-closure that *sticks* (vs the Jun-20 declaratory-only event) re-arms the gas vector in Q4. That is the trip-wire.
 
+**⚠️ 6/23 sweep update (energy axis marginally HOTTER on supply, CALM on price):** (a) **Qatar Ras Laffan explosion Jun 21-22 — 13 dead, 66 injured** at the Barzan facility *during* the LNG restart Europe is counting on (Italy 33% / Poland 25% / Belgium 16% of LNG from Qatar pre-war); Qatar calls it a technical accident, says exports unaffected — but it's a **2nd disruption at the same hub**, a real tail on the EU refill narrative `[BREAKING/UNCONFIRMED impact]`. (b) Hormuz transits collapsed to ~12 Sun (from ~35 Sat) on Iran's re-declaration, but **Geneva talks convened Jun 22 and set a safe-passage "mechanism"** + US issued a temporary Iranian-oil license → diplomacy live, strait contested-not-closed. (c) Price shrugged it off: **TTF ~€42 flat, Brent ~$78-80.** (d) The concrete re-escalation lever is the **Israel-Lebanon ceasefire fraying** (Iran's Hormuz re-declaration traces directly to Israeli S. Lebanon strikes) — **next Lebanon-Israel talks Washington Jun 23-25 = the near-term energy catalyst.**
+
 ---
 
 ## SOVEREIGN / FX / BANKS — EUROPE IS CALM
@@ -91,7 +93,7 @@
 
 ## POLITICAL / DEFENSE / TRADE — THE ONE LIVE US CHANNEL
 
-- 🟠 **JULY 4 2026 EU-US TARIFF CLIFF (~12 days out) — the single most US-market-relevant European item.** Trump set a hard Jul-4 deadline to fully implement the 15% all-inclusive cap framework or go "much higher" (autos threatened 15%→25%). EU cleared its internal hurdle May 20; vdL claims the 15% cap is binding. **Binary, dated US-equity/auto/USD risk event — Trump-policy/tape risk, not organic European macro stress.** → PROME/HENRY catalyst docket.
+- 🟡 **JULY 4 2026 EU-US TARIFF CLIFF (~12 days out) — was the single most US-market-relevant European item; now materially DE-RISKED.** Trump set a hard Jul-4 deadline to fully implement the 15% all-inclusive cap framework or go "much higher" (autos threatened 15%→25%). **6/23 sweep: European Parliament APPROVED the tariff-implementation texts Jun 16** (zero tariffs on US industrial goods; preferential US ag/seafood access) → EU on track to **beat** the deadline; only **Council formal sign-off** remains. Auto-escalation tail reduced, not eliminated (downgraded 🟠→🟡). Watch for any fresh Trump statement into Jul 4 as the only acute tail. → PROME/HENRY catalyst docket.
 - France: **Lecornu in office, stable** (survived no-confidence votes; 2026 budget passed via 49.3). OAT-Bund 72bps = NOT transmitting; fastest-repricing tail if it destabilizes.
 - Germany: **Merz coalition intact;** 2026 budget €524.5B (borrowing €174.3B, ~3× two-years-prior); defense €108.2B (€82.7B core + €25.5B Zeitenwende), ~€650B/5yr path to NATO 3.5% by 2029 — orderly, heavy long-end Bund supply.
 - EU-China: rare-earth truce (EU benefits derivatively via the US-China truce) expires ~Oct/Nov 2026; ACI threatened/under-study, NOT invoked — latent, not live.
@@ -127,8 +129,9 @@
 
 | Date | Event | Pri |
 |------|-------|-----|
+| **Jun 23-25** | **Israel-Lebanon talks (Washington)** — the live energy-re-escalation lever (Hormuz/Lebanon seam) | 🟠 |
 | **~Jun 24** | German Ifo (June) — confirm the rebound; June flash already up | 🟡 |
-| **Jul 4 2026** | **EU-US tariff implementation cliff** — 15% cap vs "much higher" | 🟠 |
+| **Jul 4 2026** | EU-US tariff cliff — **DE-RISKED** (EP approved texts Jun 16, Council sign-off pending) | 🟡 |
 | Jul 22 2026 | ECB Governing Council (no pre-commitment; Sept favored for next move) | 🟡 |
 | ~Oct/Nov 2026 | EU-China rare-earth truce expiry | 🟡 |
 
