@@ -130,21 +130,21 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 ## KEY THRESHOLDS
 
-> *"Current" column is a snapshot — verify against `STATUS.md` (live dashboards) on every boot. Last refresh: 2026-06-20. Load-bearing figures pulled from live primary (FRED/yfinance), not dashboard.py.*
+> *"Current" column is a snapshot — verify against `STATUS.md` (live dashboards) on every boot. Last refresh: 2026-06-23. Load-bearing figures pulled from live primary (FRED/yfinance), not dashboard.py.*
 > **Basis canon (binding on every count):** yields on **FRED H.15** (DGS10/DGS30; CBOE ^TNX/^TYX same-day proxy only); price-level triggers on **raw unadjusted closes** (yfinance `auto_adjust=False`, `Close` column — adjusted series mutate at ex-dates); auction percentages on **accepted basis**; **Brent on the ICE front-month SETTLE** (not a 4pm snapshot — the stagflation-ladder clause-1 clock keys off this); **USD/JPY on the 5pm ET New York close**; H.4.1 series (reserves/TREAST/WALCL) dated by their **as-of Wednesday**, not the pull date. Declare the basis when you write a number.
 
 | Metric | Current | Threshold | Implication |
 |--------|---------|-----------|-------------|
-| **HY OAS thesis-kill** | **263bps** (6/17, FRED) | **<260 sustained = KILL** (per HEARTBEAT line 80) | Cushion **3bps, COMPRESSING toward the kill** (278 6/11 → 263 6/17, *through* a Hormuz re-closure + hawkish FOMC). No hard trigger fired (oscillating; 6/16=271). **6/18-6/19 prints pending** — Trigger A (<265 ×2) one print away. No LIQUID positions to cut (book flat) |
-| **APO co-trigger** | **$137.50** (6/19, raw close) | **>$130 ×3 sessions = REASSESS** (per HEARTBEAT line 80) | 🟡 Co-trigger satisfied. **NOT Trigger C** — rally is AI-origination ($35B Broadcom deal, per BROCK), not credit reversal; HY compressing but not via PC sentiment. APO Dec $95P (BROCK) held; re-eval if APO>$145 OR HY<260. Day-counts on raw closes only |
-| HY OAS confirmation | 263bps (6/17) | **>320 = CONFIRMATION** | 57bps away. ⚠️ aggregate masks bifurcation — CCC 939, **CCC−BB 783 held WIDE while the index compressed** (KB-LIQ-058 / NEXUS R3 pin; falsifier <400, far off) |
-| **HY Energy OAS** | ~285 (Apr 28, **STALE 53d**) | **>300 = energy-credit trip** | Primed corner; live ICE/BBG pull owed to BRENT — **DEFERRED per Will 6/20**; re-arms on a Mon 6/22 Brent spike (Hormuz decoupling test) |
-| SOFR vs IORB | **-2bps** (6/17) | Sustained above ceiling | Clean; no FOMC move (held 3.50-3.75). (Apr breach resolved mechanical — KB-LIQ-051) |
-| **Duration regime (10Y/30Y)** | **10Y 4.49 / 30Y 4.93 closes 6/17** (FRED H.15) | >4.50 / >5.00 sustained | **FOMC 6/17 resolved it DOWN** — bear-flattener (2Y +16 / 30Y −2); both BELOW pivots, 30Y 3bps from the <4.90 unwind. Credible-hawkish RALLIED the long end (KB-LIQ-060); needs a *growth* break (not inflation) to re-fire |
-| USD/JPY | **5+ closes >160** (161.27, 6/20) | 160 | 🔴 **TRIGGERED — awaiting flow confirmation.** No intervention (jawboning only); BOJ hiked to 1.00% (6/16) yet yen weaker = rate-differential, not repat. SAM owns; Mon 6/22 CFTC gate |
-| SRF Usage | **~$0** (6/18; RPONTSYD $0.001 + RPONMBSD $0.0) | >$50B | 🟢 **UN-STALED 6/20.** No funding stress. Newly relevant under the Warsh balance-sheet review |
-| Reserves | **$3.033T** (WRESBAL, H.4.1 as-of Wed 6/17) | <$2.8T | 🟢 **UN-STALED 6/20.** Cushion ~$233B. ⚠️ REGINALD's "$2.8T" = FFIEC bank-reported reserves (different measure); canonical WRESBAL clean — do NOT fire on the FFIEC figure |
-| Auction Indirect | **20Y 71.6%** (6/16) / **5Y TIPS 68.6%** (6/18) | <55% sustained | STRONG — demand FIRMED vs the soft 6/11 30Y (59.9%); both far above the floor. June refunding belly/long-end both cleared |
+| **HY OAS thesis-kill** | **265bps** (6/22, FRED) | **<260 sustained = KILL** (per HEARTBEAT line 80) | Cushion **5bps, STABLE** — bounced off the 263 one-print low (271 6/16 → 263 6/17 → 266 → 266 → 265 6/22). **TRIGGER A (<265 ×2) never fired; soft-kill threat RECEDED.** Re-arms only on two fresh sub-265 closes. Book flat |
+| **APO co-trigger** | **$130.61** (6/23, −3.4%, raw close) | **>$130 ×3 sessions = REASSESS** (per HEARTBEAT line 80) | 🟡 Still >$130 but **FALLING** (was $137.50 6/19) — part of the AI/semi unwind cracking the alts/PC complex (ARES −15%, HENRY) = transmission candidate. NOT Trigger C. APO Dec $95P (BROCK) held; re-eval if APO<$130 OR HY<260. Day-counts on raw closes only |
+| HY OAS confirmation | 265bps (6/22) | **>320 = CONFIRMATION** | 55bps away. ⚠️ aggregate masks bifurcation — CCC 947, **CCC−BB 791 WIDENED while the index held flat** (KB-LIQ-058 / NEXUS R3 pin; falsifier <400, far off). Signature mirrored in Euro CLO junior + govvie term premium |
+| **HY Energy OAS** | ~285 (Apr 28, **STALE 56d**) | **>300 = energy-credit trip** | Primed corner; live ICE/BBG pull owed to BRENT — **DEFERRED per Will 6/20**. Mon 6/22 Brent re-arm did NOT trigger — tape SHRUGGED the Hormuz re-closure (Brent $77.90, decoupling PASSED) |
+| SOFR vs IORB | **-4bps** (6/22; SOFR 3.61 / IORB 3.65) | Sustained above ceiling | Clean; no funding stress despite the duration back-up. (Apr breach resolved mechanical — KB-LIQ-051) |
+| **Duration regime (10Y/30Y)** | **10Y 4.51 / 30Y 4.95 closes 6/22** (FRED H.15) | >4.50 / >5.00 sustained | 10Y back ABOVE the 4.50 pivot; 30Y BACKED UP off the <4.90 unwind (touched 4.90, reversed); 2Y 4.24 (highest since Feb-25) = term-premium re-steepen. Credible-hawkish RALLIED the long end (KB-LIQ-060); needs a *growth* break to re-fire |
+| USD/JPY | **161.59** (6/23, sustained >160) | 160 | 🔴 **TRIGGERED on level — near-term repat risk DOWNGRADED.** SAM 6/22: CFTC held (no cover) but carry window LOCKED to Sep-18 (a Sep tail). No intervention (MOF silent 6d). Rate-differential not repat. SAM owns |
+| SRF Usage | **$0.00** (6/22, both legs) | >$50B | 🟢 No funding stress. Newly relevant under the Warsh balance-sheet review |
+| Reserves | **$3.033T** (WRESBAL, H.4.1 as-of Wed 6/17; next 6/26) | <$2.8T | 🟢 Cushion ~$233B. ⚠️ REGINALD's "$2.8T" = FFIEC bank-reported reserves (different measure); canonical WRESBAL clean — do NOT fire on the FFIEC figure |
+| Auction Indirect | **20Y 71.6%** (6/16) / **5Y TIPS 68.6%** (6/18) | <55% sustained | STRONG — June refunding cleared. Late-June 2Y/5Y/7Y cycle (~6/25) is the next read |
 
 ---
 

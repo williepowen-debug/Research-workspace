@@ -122,8 +122,8 @@ POV-arc: see `thesis/CHANGELOG.md` § POV Pivots.
 
 ## Durable Signals Log
 
-All durable findings → `workbook/KB.tsv` (KB-LIQ-001..060). Notable + this session:
-- **KB-LIQ-061 candidate (6/23)** — *A spread approaching a kill that bounces is not a kill; read the tail, not the headline.* HY OAS hit 263 (3bps from the 260 soft-kill) 6/17, then bounced 266/266/265 — TRIGGER A never fired, while CCC-BB WIDENED to 791 and substance firmed (KBRA 2.3% record). The calm-senior/wide-tail signature appeared *simultaneously* across HY index + Euro CLO 2.0 junior + govvie term premium. (To author in KB.tsv.)
+All durable findings → `workbook/KB.tsv` (KB-LIQ-001..061). Notable + this session:
+- **KB-LIQ-061 (6/23, authored)** — *A spread approaching a kill that bounces is not a kill; read the tail, not the headline.* HY OAS hit 263 (3bps from the 260 soft-kill) 6/17, then bounced 266/266/265 — TRIGGER A never fired, while CCC-BB WIDENED to 791 and substance firmed (KBRA 2.3% record). The calm-senior/wide-tail signature appeared *simultaneously* across HY index + Euro CLO 2.0 junior + govvie term premium.
 - **KB-LIQ-060** (6/20, authored) — Credible-hawkish Fed RALLIES the long end (hawkish dots hit the front end 2Y+16; long end read credibility as a bull, 30Y−2).
 - **KB-LIQ-059** (6/12) — Duration regime: oscillation not sustained (conviction 65→60)
 - **KB-LIQ-058** (6/8) — Aggregate HY masks sector/quality bifurcation (CCC-BB tail) — **re-confirmed 6/23: index bounced to 265 while the tail-gap WIDENED to 791**
