@@ -37,9 +37,27 @@ from datetime import datetime
 # Config
 # ---------------------------------------------------------------------------
 
+def _load_dotenv():
+    """Populate os.environ from a gitignored .env next to this file. Secrets
+    (e.g. EIA_API_KEY) live there and are never committed. Existing env wins."""
+    envp = Path(__file__).parent / ".env"
+    if envp.exists():
+        for line in envp.read_text().splitlines():
+            line = line.strip()
+            if line and not line.startswith("#") and "=" in line:
+                k, v = line.split("=", 1)
+                os.environ.setdefault(k.strip(), v.strip())
+
+
+_load_dotenv()
+
 FRED_API_KEY = os.environ.get("FRED_API_KEY", "8ce3f08db56f151f54221a0dd12b63de")
 
 FRED_BASE = "https://api.stlouisfed.org/fred/series/observations"
+
+# EIA v2 API (weekly petroleum stocks, etc.). Key from gitignored .env / env var.
+EIA_API_KEY = os.environ.get("EIA_API_KEY", "")
+EIA_BASE = "https://api.eia.gov/v2"
 
 CACHE_DIR = Path(__file__).parent / ".cache"
 CACHE_TTL_VOLATILE = 30      # 30s for VIX, crypto
@@ -172,8 +190,8 @@ def _cache_ttl(key):
     for ticker in STANDARD_TICKERS:
         if ticker in key:
             return CACHE_TTL_STANDARD
-    # Check if it's FRED economic data
-    if "fred_" in key:
+    # Check if it's FRED / EIA economic data
+    if "fred_" in key or "eia_" in key:
         return CACHE_TTL_ECON
     # Default for historical data
     if "history" in key:
@@ -276,6 +294,49 @@ def fred_fetch(series_id, limit=5):
     result = [{"date": o["date"], "value": o["value"]} for o in obs if o["value"] != "."]
     _cache_set(f"fred_{series_id}_{limit}", result)
     _audit_log("FRED_FETCH", {"series": series_id, "observations": len(result)}, latency_ms)
+    return result
+
+
+# ---------------------------------------------------------------------------
+# EIA (v2 API — weekly petroleum stocks etc.)
+# ---------------------------------------------------------------------------
+
+def eia_fetch(series_id, route="petroleum/stoc/wstk", limit=2):
+    """Pull a weekly EIA v2 series (newest-first). Returns [{date, value}, ...]
+    mirroring fred_fetch's shape so dashboard handling is identical.
+    `route` is the EIA v2 dataset path; `series_id` is its `series` facet value."""
+    start_time = time.time()
+    cache_key = f"eia_{series_id}_{limit}"
+    cached = _cache_get(cache_key)
+    if cached:
+        _audit_log("EIA_CACHE_HIT", {"series": series_id, "limit": limit})
+        return cached
+
+    if not EIA_API_KEY:
+        return [{"error": "EIA_API_KEY not set (add to FORGE/tools/market-data/.env)"}]
+
+    params = {
+        "api_key": EIA_API_KEY,
+        "frequency": "weekly",
+        "data[0]": "value",
+        "facets[series][]": series_id,
+        "sort[0][column]": "period",
+        "sort[0][direction]": "desc",
+        "length": limit,
+    }
+    url = f"{EIA_BASE}/{route}/data/?{urllib.parse.urlencode(params)}"
+    data = _retry_request(url)
+
+    latency_ms = (time.time() - start_time) * 1000
+
+    if "error" in data:
+        _audit_log("EIA_ERROR", {"series": series_id, "error": data["error"]}, latency_ms)
+        return [{"error": data["error"]}]
+
+    rows = data.get("response", {}).get("data", [])
+    result = [{"date": r["period"], "value": r["value"]} for r in rows if r.get("value") is not None]
+    _cache_set(cache_key, result)
+    _audit_log("EIA_FETCH", {"series": series_id, "observations": len(result)}, latency_ms)
     return result
 
 

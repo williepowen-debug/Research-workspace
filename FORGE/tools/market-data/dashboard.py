@@ -25,7 +25,7 @@ import urllib.request
 from pathlib import Path
 
 from config import SERIES, classify, get_emoji, get_tier, get_agent, format_value
-from fetch import fred_fetch, price_fetch
+from fetch import fred_fetch, price_fetch, eia_fetch
 
 # ---------------------------------------------------------------------------
 # State tracking (Segment 3)
@@ -116,6 +116,18 @@ def fetch_all(series_list):
                     prev_b = float(obs_b[1]["value"])
                     entry["prev"] = round(prev_a - prev_b, 4)
                     entry["change"] = round(entry["value"] - entry["prev"], 4)
+
+        elif s["source"] == "eia":
+            obs = eia_fetch(s["id"], route=s.get("eia_route", "petroleum/stoc/wstk"), limit=2)
+            mult = s.get("multiply", 1)
+            if obs and "error" not in obs[0]:
+                entry["value"] = float(obs[0]["value"]) * mult
+                entry["date"] = obs[0]["date"]
+                if len(obs) > 1 and "error" not in obs[1]:
+                    entry["prev"] = float(obs[1]["value"]) * mult
+                    entry["change"] = entry["value"] - entry["prev"]
+            elif obs:
+                entry["error"] = obs[0].get("error", "fetch failed")
 
         # Classify
         if entry["value"] is not None:

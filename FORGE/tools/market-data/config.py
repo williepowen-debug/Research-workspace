@@ -166,6 +166,20 @@ SERIES = [
         "red": (0.25, None),
         "notes": "Reserve scarcity. >+5bps=watch, >+25bps=alarm",
     },
+    {
+        "name": "Cushing",
+        "source": "eia",
+        "id": "W_EPC0_SAX_YCUOK_MBBL",
+        "eia_route": "petroleum/stoc/wstk",
+        "agent": "BRENT",
+        "tier": 1,
+        "direction": "lower_worse",
+        "green": (25.0, None),
+        "yellow": (20.0, 25.0),
+        "red": (None, 20.0),
+        "multiply": 0.001,  # EIA returns thousand barrels -> M bbl
+        "notes": "<20M bbl = operational min / WTI dislocation (ROUTING_TABLE Boundary #3)",
+    },
 
     # ===== TIER 2 — Position Monitoring =====
 
