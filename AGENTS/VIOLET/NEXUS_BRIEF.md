@@ -14,7 +14,7 @@
 - **Window absorbed at level; the tail moved, it didn't leave.** Every external-catalyst leg that defined 6/10-12 resolved benignly: rate-shock RE-ARMED but absorbed (FOMC +12% spike faded in a day), credit DEFUSED (Bin-B block LIFTED, CCC 9.47, Path A dormant), Iran/oil de-escalating (OVX draining, HAW-11 unfired), yen-carry defused (Sep-18 convexity tail). VIX never closed ≥23 (0/5).
 - **Path-B is now the dominant live fragility.** Record levered-long ETF $464bn + record AI/semi concentration (47%) + negative gamma + SOXL/SOXS record reversal into a complacent sub-19 VIX — the KB-VIO-099 compression-divergence (vol cheap, SKEW bid: 146.72 pop 6/18). Trigger external/unscheduled. Deep-tail VIX call OI grew into Aug (65C 268k+301k).
 - **Fed-HIKE regime (Warsh) is the new backdrop.** Could re-activate the dormant credit-led Path A if hawkish policy cracks the low-quality tail — watch CCC (now relaxed to 9.47; feed fixed).
-- **Invalidation: counter 0/5** (18.89 << 23). R12 SKEW regime intact (140+ all window).
+- **Invalidation: counter 0/5** (19.49 close << 23). R12 SKEW regime intact (20d-avg 142.47 ≥140).
 
 ---
 
@@ -35,7 +35,7 @@
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
 | HENRY / RED / NEXUS | **Tail rationale ROTATED Iran→Path-B.** Concentration/leverage ($464bn levered, AI 47%, neg-gamma) is now the dominant live coiled-spring driver into a Fed-HIKE regime. Catalyst window absorbed at level (FOMC +12% faded). | 🟠 | HENRY: long-vol channel cleaner via Path-B; the index-mechanics action on the WALTER concentration/leverage sigs is yours. RED: adversarial check on the rotation read. NEXUS: external-tail→internal-tail rotation = weighted cross-domain input. |
-| HENRY / RED | Vol-regime LOW_VOL (VIX 18.89 TICK); **oil-vol→equity-vol channel CLOSING** (OVX 47.87 draining; Brent fell on Hormuz re-closure). | 🟡 | Oil-vol ring-fenced this episode; war leg NOT transmitting to equity vol. Re-escalation would re-open + amplify (Brent record-short). |
+| HENRY / RED | Vol-regime LOW_VOL (VIX 19.49 close, +12.8%); **oil-vol→equity-vol channel CLOSING** (OVX 46.60 draining; fell as equity-VIX rose → today's bid NOT oil-driven). | 🟡 | Oil-vol ring-fenced this episode; war leg NOT transmitting to equity vol. Re-escalation would re-open + amplify (Brent record-short). |
 | LIQUID | **Credit gate RESOLVED: Bin-B block LIFTED** (CCC 9.47 6/22, <9.55 since 6/12, no Bin-A; credit risk-on). Still want: CCC mover-breadth (idiosyncratic vs broad, KB-VIO-094/098) to confirm clean-risk-on vs a few names. | 🟠 | Idiosyncratic → clean composition; breadth → watch for Path-A re-activation under the new hawkish Fed. |
 
 **WAITING FOR:**
