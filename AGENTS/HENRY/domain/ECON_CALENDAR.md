@@ -4,6 +4,8 @@
 
 **Action on release days:** Check actual vs consensus. If surprise >0.1% (inflation) or >25K (jobs), flag in STATUS.md + send signal to PROME.
 
+**Standing context (as of 2026-06-23):** post-FOMC HAWKISH regime — Fed HELD 6/17 but dots flipped cut→hike (2026 median 3.8%). The live triggers are now **credit** (HY OAS AT the 265 HEN-30 trigger) + the **AI/semi positioning unwind** (HEN-35), not the rate-cut path. Mar–May tables below are historical (correctly dated); the live docket is **JUNE (tail) + JULY** below.
+
 ---
 
 ## MARCH 2026
@@ -61,9 +63,26 @@
 | Jun 5 | 8:30 | **NFP** | May | |
 | Jun 10 | 8:30 | **CPI** | May | |
 | Jun 11 | 8:30 | **PPI** | May | |
-| Jun 16-17 | — | **FOMC Meeting*** | — | SEP + dot plot. Possible first cut? |
-| Jun 25 | 8:30 | **PCE + Personal Income** | May | |
-| Jun 25 | 8:30 | GDP (3rd est) | Q1 2026 | |
+| ~~Jun 16-17~~ ✅ | — | **FOMC Meeting*** — DONE | — | **HELD 12-0 at 3.50-3.75%; SEP dots FLIPPED cut→hike** (2026 median 3.8% vs 3.4% Mar, 9/18 favor a hike); PCE↑3.6%/GDP↓2.2% stagflationary; Warsh hawkish, dropped forward guidance. Surprise hit **2Y +15bps**; 10Y −3bps (HEN-33 MISS) |
+| **Jun 24** | AMC | **MU (Micron) Earnings** | FQ3 | 🔴 AI-memory-demand pivot — extends or washes out the AI/semi positioning unwind (HEN-35) |
+| **Jun 25** | 8:30 | **PCE + Personal Income** | May | 🔴 **HEN-34** — first inflation read since the hawkish SEP; core ≥+0.3% hardens the dots, ≤+0.2% starts the energy-collapse inverse-feedback |
+| Jun 25 | 8:30 | GDP (3rd est) + Durable Goods (May) | Q1 2026 | |
+| **Jun 30** | 10:00 | JOLTS (May) + Conf Board Confidence (Jun) | May/Jun | Quarter-end: JPM ~$165B global rebalance-selling into a negative-gamma/levered-ETF tape |
+
+## JULY 2026
+
+*Dates with ~ are approximate (verify against BLS/BEA on the week).*
+
+| Date | Time (ET) | Release | Data For | Why It Matters |
+|------|-----------|---------|----------|----------------|
+| Jul 1 | 10:00 | ISM Manufacturing | Jun | Flash Mfg PMI ran hot (55.7); confirm or fade |
+| ~Jul 2 | 8:30 | **NFP** | Jun | Pulled to Thu (Jul 4 holiday). NFP ≥200K = 2nd toward LABOR Kill A (Mar rev 214K = #1) |
+| ~Jul 6 | 10:00 | ISM Services | Jun | Svc employment <47 = realization leg catching the announcements |
+| ~Jul 14 | 8:30 | **CPI** | Jun | 🔴 First CPI with the Brent $77 energy collapse in it — BRENT inverse-feedback test on the hawkish dots |
+| ~Jul 15 | 8:30 | **PPI** | Jun | Wholesale; energy passthrough direction |
+| ~Jul 28-29 | — | **FOMC Meeting** | — | No SEP. CME ~75% priced a July HIKE post-6/17 dots — the next rate-path test |
+| ~Jul 30 | 8:30 | **GDP (Advance)** | Q2 2026 | First Q2 growth read (SEP cut 2026 GDP to 2.2%) |
+| late Jul | — | **BDC Q2 + WAL Q2 Earnings** | Q2 | 🔴 Structural-axis transmission test (BROCK/REGINALD); alts already cracking ahead of it |
 
 ---
 

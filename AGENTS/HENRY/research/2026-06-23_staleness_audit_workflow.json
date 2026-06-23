@@ -1,0 +1,729 @@
+{
+  "summary": "HENRY file-hygiene audit: scan workbook TSVs + domain docs for stale/load-bearing data vs the current post-FOMC truth baseline",
+  "agentCount": 8,
+  "logs": [],
+  "result": {
+    "files": [
+      {
+        "file": "/home/willi/Research-workspace/AGENTS/HENRY/workbook/VX.tsv",
+        "overall": "20d stale (frozen 6/3, pre-FOMC/BOJ/Hormuz); the 3-row LIVE block + ATH header comments are load-bearing and rotted — VIX/USDJPY/HY values drifted and the whole regime narrative (ATH 7,565/VIX 16) reversed. The 20.xx/21.xx war-era \"LIVE\"-status rows are mislabeled-current relics of a regime that has since unwound.",
+        "stale_items": [
+          {
+            "location": "Line 6 (section header comment) + lines 7-17 preamble",
+            "in_file": "regime INVERTED: SPX now ATH 7,565 / VIX 16; these are a cascade snapshot",
+            "issue": "Load-bearing regime statement, presented as the CURRENT frame. Reversed by baseline: SPX is 7,394.78 (~-2% off the 6/15 record 7,551, NOT making new ATHs), and VIX is bid back to 18.95 (not 16). The 'SPX at ATH / vol crushed' framing is the exact read that REVERSED this session (cyclical RE-ARMED on hawkish FOMC 6/17 + AI/semi positioning unwind: KOSPI -9.99%, MU -11%, SMH -6.5%; alts cracking ARES -15%/APO -7%).",
+            "correct_current": "SPX 7,394.78 (~-2% off 6/15 record 7,551); VIX 18.95 (bid 16->19); regime = rotation/positioning-unwind, cyclical re-armed, NOT a serene ATH melt-up",
+            "severity": "HIGH",
+            "action": "update"
+          },
+          {
+            "location": "VX-HEN-4.01 (line 3) VIX Level",
+            "in_file": "Current_Value 16.28, Status GREEN, Last_Updated 2026-06-03; note 'vol-control INACTIVE-BUYING (flow-in)... VIX9D 13.96'",
+            "issue": "Load-bearing current vol level, 20d stale. VIX has reversed up from the 6/3 print; the '<15 soft-kill approach' has REVERSED and vol is bid back 16->19. The VIX9D 13.96 note is also stale (now 18.63).",
+            "correct_current": "VIX 18.95 (yf 6/23 ~1pm); VIX9D 18.63; VIX3M 20.78; VVIX 98.70; SKEW 141.85. Still GREEN (<23 vol-control) but vol bid back, contango flattened 1.21->1.10; rotation-not-cascade.",
+            "severity": "HIGH",
+            "action": "update"
+          },
+          {
+            "location": "VX-HEN-16.01 (line 5) HY OAS Absolute Level",
+            "in_file": "Current_Value 272, Status GREEN, Last_Updated 2026-06-03; note 'Compressing toward 260 kill; 5-day 272/274/272... Cushion 12bps to kill / 7bps to 265 HEN-30 trigger'",
+            "issue": "Load-bearing credit level, 20d stale AND directionally wrong. File says compressing-toward-260-kill; baseline says HY has WIDENED to the 265 HEN-30 trigger (now AT it, 5bps from the 260 kill). Direction flipped from compression to bifurcation/widening. Cushion math (12bps to kill) is wrong — it's now 5bps.",
+            "correct_current": "HY OAS 265 [FRED 6/22], AT the HEN-30 265 trigger, 5bps from 260 kill; HEN-30 now ACTIVE. BB 156, CCC 947, CCC-BB gap 791/6.07x widening (5d +13).",
+            "severity": "HIGH",
+            "action": "update"
+          },
+          {
+            "location": "VX-HEN-14.09 (line 4) USD/JPY",
+            "in_file": "Current_Value 160.02, Status YELLOW, Last_Updated 2026-06-03; carry-unwind frame (SAM)",
+            "issue": "Load-bearing FX level, 20d stale. USD/JPY has moved further into yen weakness (161.60). Also missing the GAP EVENT: BOJ hiked +25bp to 1.0% on 6/16 as-priced with NO carry unwind — material context for the carry-unwind frame this row carries.",
+            "correct_current": "USD/JPY 161.60 (yf 6/23); BOJ hiked +25bp->1.0% 6/16 as-priced, no carry unwind. Still YELLOW (>160, <162).",
+            "severity": "MED",
+            "action": "update"
+          },
+          {
+            "location": "VX-HEN-20.02 (line 55) Brent >$100 Confirmed",
+            "in_file": "Current_Value '$100+ BREACHED MAR 12', Status RED; note 'Permanent Strait closure declared Mar 12. Citi DIFC evac underway'",
+            "issue": "Status RED is presented as a live/active threshold state, but the underlying war regime has unwound. Baseline GAP EVENT: Hormuz REOPENED (6/15 deal + US Treasury Iran-crude license), Brent fell $83->$77 (now 76.87). 'Permanent Strait closure' is contradicted by the 6/15 reopen. A RED-status Brent>$100 row reads as current when Brent is $76.87.",
+            "correct_current": "Brent 76.87 (well below $100); Hormuz reopened 6/15 (deal + US Treasury Iran-crude license); 'permanent Strait closure' reversed. Should be de-RED'd / marked historical-Mar-war-relic.",
+            "severity": "HIGH",
+            "action": "update"
+          },
+          {
+            "location": "VX-HEN-20.03 (line 56) HAWK Scenario C Probability",
+            "in_file": "Current_Value '55% (base case)', Status RED; 'VIX 40-55 scenario now 55% base case'",
+            "issue": "Mar-12 war-escalation probability still flagged RED/base-case. The geopolitical driver has de-escalated (Hormuz reopen, Brent $77, VIX 19 not 40-55). A 55% VIX-40-55 base case is not the current regime.",
+            "correct_current": "Geopolitical de-escalated; VIX 18.95 (not 40-55); Hormuz reopened. Scenario C base-case probability should be marked down / archived as Mar-war-era.",
+            "severity": "MED",
+            "action": "update"
+          },
+          {
+            "location": "VX-HEN-21.05 (line 51) VIX Sprung (Mar 9)",
+            "in_file": "Current_Value '29.5 (partially sprung)', Status LIVE",
+            "issue": "Status LIVE with a 29.5 VIX value is a Mar-9 datapoint mislabeled as live. Current VIX is 18.95. A 'LIVE' status on a 29.5 print misleads.",
+            "correct_current": "VIX 18.95 (6/23); the Mar-9 29.5 spring is historical. Row is a dated observation — relabel from LIVE to historical/dated.",
+            "severity": "MED",
+            "action": "note-only"
+          },
+          {
+            "location": "VX-HEN-21.03 (line 49) WTI Staircase / VX-HEN-21.04 HY Credit Spread Lag / VX-HEN-20.04-20.05 (lines 49,50,57,58)",
+            "in_file": "Status LIVE; oil-shock-analog framework (Mar 9-12 vintage), e.g. 21.04 'Early (est 297bps)', 20.04 'peak Q1 2027'",
+            "issue": "These are Mar-9/Mar-12 oil-shock-analog framework rows carrying Status LIVE. The oil shock has materially unwound (Hormuz reopen, Brent $77). The 1979-80-analog 'we are in month 0-1 of shock / second leg higher base case' premise is undercut by the reopen. Borderline: framework is a thesis-reference, but LIVE status + 'second leg higher = base case' reads as a current call.",
+            "correct_current": "Brent 76.87, Hormuz reopened 6/15 — oil-shock 'second leg higher' base case not confirmed; HY 21.04 est 297bps superseded by HY 265 (6/22). Framework rows: relabel LIVE->historical-reference or refresh premise.",
+            "severity": "LOW",
+            "action": "note-only"
+          },
+          {
+            "location": "VX-HEN-20.06 (line 59) CCC-BB Spread Dispersion",
+            "in_file": "Current_Value '~800bps (Apr 2 est, needs refresh)', Status YELLOW, Last_Updated 2026-04-17; 'HY OAS 285 masks this dispersion'",
+            "issue": "Self-flagged needs-refresh, ~67d stale. Baseline shows the CCC-BB dispersion theme has ACCELERATED and is now quantified differently: gap 791bps, ratio 6.07x widening (5d +13), and the bifurcation thesis is explicitly a current driver. The '~800bps Apr-2 est' and 'HY OAS 285' anchor are both stale.",
+            "correct_current": "CCC-BB gap 791 / ratio 6.07x widening (Δ5d +13) [FRED 6/22]; CCC 947, BB 156. Structural credit bifurcation accelerating is a live axis. HY OAS 265 (not 285).",
+            "severity": "MED",
+            "action": "update"
+          },
+          {
+            "location": "VX-HEN-18.01 / 18.02 / 18.03 / 18.04 / 18.05 (lines 39-43) WATCHLIST",
+            "in_file": "MOVE ~110-120 (est) / VIX Term Structure UNKNOWN / CLO AAA UNKNOWN / 25-Delta skew UNKNOWN / GEX ~-$2B to -$5B (est)",
+            "issue": "Watchlist placeholders, Mar-3 vintage, still UNKNOWN/est. Baseline now provides some of these: VIX term structure is knowable (VIX9D 18.63 / VIX 18.95 / VIX3M 20.78 = contango, 3M/VIX 1.10) and SKEW 141.85 informs the 25-delta skew row. The GEX -$2B-to-$5B est conflicts with the positive-gamma regime noted elsewhere in-file (SPX well above old flip). Low load-bearing (explicitly WATCH/est), but fillable now.",
+            "correct_current": "Term structure = contango (VIX9D 18.63 < VIX 18.95 < VIX3M 20.78; 3M/VIX 1.10); SKEW 141.85; positive-gamma regime (SPX 7,395 far above old 6,902 flip). MOVE/CLO/25d still need primary pulls.",
+            "severity": "LOW",
+            "action": "note-only"
+          }
+        ],
+        "missing_coverage": "File entirely predates this session's regime shift and has zero rows for the three NEW current-truth axes: (1) hawkish FOMC 6/17 (Fed held 12-0 at 3.50-3.75% but SEP dots flipped cut->hike, 2026 median 3.8% vs 3.4% Mar, PCE^3.6%/GDP v2.2% stagflationary; 2Y +15bps/10Y -3bps curve flattening) — no FOMC/dots/curve-flattening vector exists; (2) AI/semi crowded-trade positioning unwind (KOSPI -9.99% 6/22-23, MU -11%, SMH -6.5%) — no positioning-unwind vector; (3) alts cracking (ARES -15%/APO -7%) — APO is only referenced as a Mar Beige-Book note. Also missing: 10Y at 4.48 (file has no current 10Y level row at all — major gap for a rates-tracking workbook), 2Y ~4.20, KRE 72.63 / WAL 80.55 (no current KRE level despite KRE<$60 being a documented HENRY threshold). No row reflects the BOJ 6/16 hike, Hormuz 6/15 reopen, or triple-witch 6/19 as resolved gap events. The cascade-trigger vectors (15.xx CTA levels, 9.02 gamma flip 6,902, 9.04 put wall 6,800) are correctly [STALE]-marked but un-refreshed against SPX 7,395 — no fresh Goldman CTA / SpotGamma levels supplied.",
+        "recommendation": "refresh-load-bearing-rows-only",
+        "confidence": 0.88
+      },
+      {
+        "file": "/home/willi/Research-workspace/AGENTS/HENRY/workbook/FLOW.tsv",
+        "overall": "~3.5mo stale across the board (every row stamped Mar 3-Apr 17 2026); the cascade mechanics (Pathway/Key_Insight) are durable, but the load-bearing Current_Position + Status + embedded-level Trigger fields are rotted — they cite SPX 6,785 / VIX 26.43 / cascade FIRING when SPX is 7,395 / VIX 18.95 and the cascade is dormant (rotation, not cascade). The whole file presents a March cascade-active regime that has since reversed.",
+        "stale_items": [
+          {
+            "location": "Row 7 FLOW-HEN-006 Vol-Control Deleveraging — Status + Current_Position",
+            "in_file": "Status=ACTIVE; Current_Position='VIX 26.43 — FIRING'; Trigger 'VIX >23-24'",
+            "issue": "Load-bearing: presents vol-control as actively firing. VIX is 18.95 (well below the 23-24 vol-control threshold); vol-control is NOT firing. Baseline: rotation-not-cascade, still <23 vol-control. This is the #1 stale claim — the literal first domino is marked FIRING when it is dormant.",
+            "correct_current": "VIX 18.95 (VIX9D 18.63), below 23-24 vol-control threshold; vol-control DISARMED/not firing; VIX bid back 16→19 but soft-kill <15 approach reversed",
+            "severity": "HIGH",
+            "action": "update"
+          },
+          {
+            "location": "Row 8 FLOW-HEN-007 Short-Term CTA Selling — Status + Current_Position + Trigger level",
+            "in_file": "Status=ACTIVE; Current_Position='SPX 6,785 < 6,883 — FIRING'; Trigger 'SPX close below 50-DMA (6,883)'",
+            "issue": "Load-bearing: marks short-term CTAs FIRING net-short below a 6,883 50-DMA. SPX is 7,395 — far above any plausible 50-DMA; short CTAs are long, not short. Both the spot (6,785) and the 50-DMA (6,883) are March values; 50-DMA is now well higher (off the 6/15 record 7,551). CTA layer is NOT firing.",
+            "correct_current": "SPX 7,394.78; short-term CTAs long/not net-short; 50-DMA stale at 6,883 (needs recompute, ~7,200s+)",
+            "severity": "HIGH",
+            "action": "update"
+          },
+          {
+            "location": "Row 9 FLOW-HEN-008 Medium-Term CTA Trigger — Current_Position + Trigger level",
+            "in_file": "Status=ARMED; Current_Position='SPX 6,785 — 78pts above trigger'; Trigger 'SPX sustained close below 6,707'",
+            "issue": "Load-bearing trigger level stale. The 6,707 medium-CTA trigger is the Mar-2026 Goldman level the prompt flagged as almost certainly stale. SPX 7,395 is ~688pts above 6,707, not 78pts above. The '78pts above trigger' framing implies the trigger is near-in-the-money when it is now deeply out of reach; trigger level itself needs refresh from current SpotGamma/GS.",
+            "correct_current": "SPX 7,394.78, ~688pts above the (stale) 6,707 level; medium-CTA trigger level must be repulled — Mar 6,707 is not current",
+            "severity": "HIGH",
+            "action": "update"
+          },
+          {
+            "location": "Row 14 FLOW-HEN-013 0DTE Gamma Feedback Loop — Status + Current_Position + put-wall level",
+            "in_file": "Status=ACTIVE; Current_Position='Put wall broke (SPX 6,785 < 6,800)'; Trigger 'SPX below put wall (6,800)'",
+            "issue": "Load-bearing: marks the gamma feedback loop ACTIVE with put wall BROKEN at 6,800. SPX 7,395 is ~595pts above the 6,800 put wall; the loop is not engaged, dealers not short gamma at this level. The 6,800 put wall is the Mar snapshot the prompt flagged stale; gamma flip (6,902 in Mar snapshot) also now far below spot. Needs current put-wall/gamma-flip pull.",
+            "correct_current": "SPX 7,394.78 well above the (stale) 6,800 put wall; gamma loop not engaged; put-wall/gamma-flip levels must be repulled (Mar 6,800/6,902 not current)",
+            "severity": "HIGH",
+            "action": "update"
+          },
+          {
+            "location": "Row 12 FLOW-HEN-011 Cascade Sequence (Full Order) — Status + Current_Position",
+            "in_file": "Status='ACTIVE (Steps 1-2)'; Current_Position='Steps 1-2 ACTIVE, Step 3 ARMED, Steps 4-5 building'",
+            "issue": "Load-bearing summary row: declares the full mechanical cascade live (vol-control + short CTA firing). Per baseline the cascade is dormant — current regime is rotation/positioning-unwind, not a vol-driven cascade. Vol-control (Step 1) and short CTA (Step 2) are both not firing at VIX 18.95 / SPX 7,395.",
+            "correct_current": "Cascade dormant; Steps 1-2 NOT firing (VIX 18.95 <23, SPX 7,395 above CTA triggers); current dynamic is AI/semi positioning-unwind + credit bifurcation, not the mechanical price/vol cascade",
+            "severity": "HIGH",
+            "action": "update"
+          },
+          {
+            "location": "Row 5 FLOW-HEN-004 Vol Spike / Gamma Cascade — Status + Current_Position",
+            "in_file": "Status=ACTIVE; Current_Position='VIX 26.43 — complacency OVER, now in cascade zone'",
+            "issue": "Load-bearing: VIX 26.43 cited as current and 'in cascade zone.' VIX is 18.95; the cascade-zone framing is wrong for current tape. The trigger ('VIX <18') is actually near-met now (VIX 18.95) — i.e. the regime has rotated back toward the complacency/setup side, the opposite of what the row states.",
+            "correct_current": "VIX 18.95 (near the <18 complacency trigger again), not 26.43; not in active cascade zone",
+            "severity": "HIGH",
+            "action": "update"
+          },
+          {
+            "location": "Row 11 FLOW-HEN-010 Credit Contagion Channel — Current_Position (HY OAS)",
+            "in_file": "Current_Position='HY OAS 308bps CONF, IG issuance frozen'; Status=ACTIVE",
+            "issue": "Load-bearing live credit level stale. HY OAS is now 265 (FRED 6/22), not 308. Direction matters: HY has TIGHTENED from the March 308, and 265 is exactly the HEN-30 trigger (5bps from the 260 kill) — a materially different, more nuanced credit picture than '308 confirmed contagion.' Mechanism (H4: equity can't bottom till HY peaks) is durable; the number is stale.",
+            "correct_current": "HY OAS 265 (at HEN-30 trigger, 5bps from 260 kill); BB 156, CCC 947, CCC-BB ratio 6.07x widening — bifurcation not broad contagion",
+            "severity": "HIGH",
+            "action": "update"
+          },
+          {
+            "location": "Row 13 FLOW-HEN-012 Credit-Equity Transmission — Current_Position (HY OAS)",
+            "in_file": "Current_Position='HY OAS +13bps (295→308); 2-3 session lag ELAPSED'; Status=ACTIVE",
+            "issue": "Load-bearing: cites the March 295→308 widening as the live event and declares synchronized selling underway. HY is now 265, not 308; the March widening episode is over. The '+13bps over 5 days / lag elapsed' is a dated March observation presented as current.",
+            "correct_current": "HY OAS 265 (FRED 6/22); the Mar 295→308 widening is historical; no current synchronized-selling phase",
+            "severity": "HIGH",
+            "action": "update"
+          },
+          {
+            "location": "Row 22 FLOW-HEN-021 Global Bond Selloff → Stagflation Lock — Current_Position + Trigger",
+            "in_file": "Current_Position='10Y 4.1867% Mar 8...'; Trigger 'UST 10Y breaks 4.3% on risk-off session'; Status=ACTIVE",
+            "issue": "Load-bearing: cites 10Y 4.19% (Mar 8) and frames the 4.3% break as the pending trigger. 10Y is now 4.48 — the 4.3% trigger already broke and 10Y has moved well above. The cited level and the 'will it break 4.3%' framing are both stale; post-FOMC the curve flattened (2Y +15bps, 10Y -3bps), a different regime than the simultaneous global bond-selloff described.",
+            "correct_current": "10Y 4.48, 2Y ~4.20 (curve flattened on hawkish FOMC 6/17); 4.3% trigger already exceeded; Mar-8 4.19% is historical",
+            "severity": "HIGH",
+            "action": "update"
+          },
+          {
+            "location": "Row 4 FLOW-HEN-003 Wealth Effect Reversal — Current_Position",
+            "in_file": "Current_Position='SPX -3.3% from Jan peak; Household equity 47.08%'; Status=BUILDING",
+            "issue": "Load-bearing drawdown figure stale. '-3.3% from Jan peak' is a Mar-3 reading; the relevant peak is now the 6/15 record 7,551 and SPX 7,395 is ~-2% off that. The Jan-peak/-3.3% framing no longer describes the current drawdown anchor. (Household equity 47.08% is a slow quarterly stat, OK-ish but undated against current.)",
+            "correct_current": "SPX 7,394.78, ~-2% off the 6/15 record high 7,551 (new peak anchor); Jan-peak/-3.3% is March-era",
+            "severity": "MED",
+            "action": "update"
+          },
+          {
+            "location": "Row 6 FLOW-HEN-005 Multiple Extremes Amplification — Status",
+            "in_file": "Status=ACTIVE; Current_Position='5+ metrics at ATH simultaneously'",
+            "issue": "Borderline load-bearing. Marked ACTIVE off the March confluence (concentration/margin/0DTE at ATH triggering stress now). With SPX at/near record highs and VIX 19, the 'amplified stress response is firing' read is stale; the structural extremes may persist but the ACTIVE-stress framing reflects the March cascade, not current rotation.",
+            "correct_current": "Extremes may persist but no active amplified-stress firing; regime is orderly rotation at near-record SPX, VIX 18.95",
+            "severity": "MED",
+            "action": "note-only"
+          },
+          {
+            "location": "Row 28 FLOW-HEN-027 MOVE/OAS Squeeze-Stress Bracket — Current_Position (HY OAS)",
+            "in_file": "Current_Position='HY OAS 285, MOVE collapsed... 15bps to bracket breakout'; Trigger 'HY OAS breaks above 300 ... or 340'; Status=ARMED",
+            "issue": "Load-bearing live level stale. Cites HY OAS 285 (Apr 17) and '15bps to the 300 bracket.' HY is now 265 — it has tightened away from the bracket, not toward it; the '15bps to breakout' is wrong-signed vs current. Bracket mechanism (300=stress transition, 340=stress path) is durable; the live number and proximity claim are stale.",
+            "correct_current": "HY OAS 265 (FRED 6/22), ~35bps below the 300 bracket and moving away from it; Apr-17 285 is historical",
+            "severity": "MED",
+            "action": "update"
+          },
+          {
+            "location": "Row 20 FLOW-HEN-019 Oil Shock → Equity Lag — Trigger + Current_Position",
+            "in_file": "Trigger 'Oil makes new high on second leg (above $119)'; Current_Position='Mid-crisis pullback confirmed ($119→$84)...'; Status=ACTIVE",
+            "issue": "Partly stale: oil context predates the Hormuz reopen. Brent is 76.87 (post 6/15 Hormuz deal + US Iran-crude license drove $83→$77). The $119 second-leg trigger and '$119→$84 pullback' framing are pre-reopen; the oil-shock-staircase thesis is now operating off a de-escalated oil tape. Historical analogs (1973/1979) are durable.",
+            "correct_current": "Brent 76.87; Hormuz reopened 6/15 (Brent $83→$77); $119 high and the $84 mark are pre-reopen historical context",
+            "severity": "MED",
+            "action": "update"
+          },
+          {
+            "location": "Row 21 FLOW-HEN-020 Credit Lag → HYG Re-timing — Current_Position (HY OAS)",
+            "in_file": "Current_Position='297bps current. Historically: 3-14 months lag...'",
+            "issue": "Load-bearing level stale: '297bps current' is March; HY OAS is 265. The lag framework (3-14mo oil→credit-peak, Sep/Dec expiry sizing) is durable mechanism; only the cited current spread is wrong.",
+            "correct_current": "HY OAS 265 (FRED 6/22), not 297",
+            "severity": "MED",
+            "action": "update"
+          },
+          {
+            "location": "Row 2 FLOW-HEN-001 Concentration → Correlated Selling — Current_Position",
+            "in_file": "Current_Position='Top 10 = 38.22% (ATH)'; Status=ARMED",
+            "issue": "Slow-moving structural metric, undated against current. Top-10 concentration (38.22%, Mar 3) is a quarterly-ish stat; likely still high but should be reverified, not cited as live ATH. Not a fast-rotting cascade trigger.",
+            "correct_current": "Concentration likely still elevated; 38.22% figure is Mar-3 and should be reverified before citing as current ATH",
+            "severity": "LOW",
+            "action": "note-only"
+          },
+          {
+            "location": "Row 3 FLOW-HEN-002 Valuation Compression — Current_Position",
+            "in_file": "Current_Position='CAPE 40.65 (ATH)'; Status=ARMED; ERP -1.80%",
+            "issue": "Slow-moving valuation stat undated. CAPE 40.65 / ERP -1.80% are Mar-3; with SPX +9% since (6,785→7,395) these are higher now if anything. Structural, not cascade-trigger, but stamped as live ATH.",
+            "correct_current": "CAPE/ERP likely richer than Mar-3 given SPX 6,785→7,395; 40.65 figure is Mar-era",
+            "severity": "LOW",
+            "action": "note-only"
+          },
+          {
+            "location": "Row 27 FLOW-HEN-026 Positioning Whipsaw — Current_Position",
+            "in_file": "Current_Position='GS Prime wk Apr 4... Trump Iran ceasefire trigger DEAD Apr 12 (Islamabad collapsed, Hormuz blockade)...'; Status=ACTIVE",
+            "issue": "Mostly historical (dated Apr-4/Apr-12 positioning observations — correctly dated, fine as log). BUT the embedded geopolitical state ('Hormuz blockade', ceasefire dead) is now superseded: Hormuz REOPENED 6/15. The row is marked ACTIVE off an Apr CRE-earnings catalyst (Apr 21 OZK/WAL) that is long past. Lower priority — it reads as a dated case study, but the ACTIVE status + 'Hormuz blockade' present-tense is contradicted by current state.",
+            "correct_current": "Hormuz reopened 6/15 (not blockaded); Apr 21 OZK/WAL catalyst is past; next bank-earnings catalyst is WAL/BDC Q2 late Jul",
+            "severity": "LOW",
+            "action": "note-only"
+          },
+          {
+            "location": "Row 10 FLOW-HEN-009 Risk Parity Deleveraging — Current_Position",
+            "in_file": "Current_Position='Stagflation trade building (10Y rising + SPX falling)'; Status=BUILDING",
+            "issue": "Directional read stale. Cites '10Y rising + SPX falling' as the building correlation. Currently 10Y 4.48 (rose post-FOMC) but SPX 7,395 near record (not falling) — the stocks-AND-bonds-down correlation it describes is not the current setup. Post-FOMC stagflationary SEP is a real new axis but the equity leg is opposite to what's stated.",
+            "correct_current": "SPX 7,395 near record (not falling); 10Y 4.48; the dual-down correlation described isn't the current tape, though stagflationary SEP (PCE↑/GDP↓) is a live new concern",
+            "severity": "MED",
+            "action": "update"
+          },
+          {
+            "location": "Rows 15-19, 23-26 (FLOW-HEN-014..018, 022..025) — Beige Book / structural transmission chains",
+            "in_file": "Various Mar-4/Mar-12 Current_Position cites (Beige Book districts, Hamilton lag, food/tech PCE, Gulf recycling)",
+            "issue": "Predominantly durable mechanism rows (transmission pathways, analogs, lag structures) — correctly the kind of 'old is fine' content. Their Current_Position fields lean on the Mar-4 Beige Book and Mar oil-shock framing; the mechanisms hold but the supporting snapshots are 3.5mo old and several embed pre-Hormuz-reopen oil/fertilizer assumptions (Row 23 food-inflation via Hormuz ammonia disruption is undercut by the 6/15 reopen). Flag as a batch: refresh Last_Updated context, don't rewrite mechanics.",
+            "correct_current": "Mechanisms intact; supporting Beige Book/oil snapshots are Mar-era; Row 23's Hormuz-fertilizer trigger is undercut by the 6/15 Hormuz reopen",
+            "severity": "LOW",
+            "action": "note-only"
+          }
+        ],
+        "missing_coverage": "The file has NO row for the dominant current driver: the AI/semi crowded-trade positioning-unwind (KOSPI -9.99% 6/22-23, MU -11%, SMH -6.5%) — this is the live cascade vector per baseline (NEW HEN-35 positioning-cascade prediction by 7/17) and FLOW.tsv's cascade machinery should model it. Also missing: the alts/private-credit crack (ARES -15%, APO -7%) as a discrete transmission row (Row 14 Bank→Shadow covers the mechanism but predates alts actually cracking). No row reflects the post-FOMC hawkish-dots stagflationary regime (SEP cut→hike flip, curve flattening 2Y+15/10Y-3) — Row 21/9 describe the OLD bond-selloff/stagflation framing, not the new curve-flattening one. No reflection of the CCC-BB bifurcation (ratio 6.07x widening) as the credit story replacing the March broad-contagion read. Finally, no row captures that the 6/15 'cyclical soft-kill' was REVERSED/RE-ARMED on 6/17 FOMC — the whole file's cascade-ACTIVE framing is a regime behind.",
+        "recommendation": "refresh-load-bearing-rows-only — the Current_Position/Status fields and embedded trigger levels in the MTM/credit cascade rows (FLOW-HEN-004,005,006,007,008,010,011,012,013,021 + the HY-OAS cites in 020,027) are load-bearing and rotted; refresh those to current tape (SPX 7,395 / VIX 18.95 / HY 265 / 10Y 4.48) and repull the CTA/gamma-flip/put-wall levels (Mar 6,707/6,902/6,800 all stale). Re-mark the cascade Status from ACTIVE/FIRING to dormant/rotation. Leave the durable mechanism/analog rows (Pathway, Key_Insight, Beige Book transmission chains) as historical with refreshed Last_Updated. Separately, add new rows for the AI/semi positioning-unwind and the post-FOMC stagflationary curve-flattening regime (current missing coverage). Single audit pass; do not silo each row into a separate edit.",
+        "confidence": 0.88
+      },
+      {
+        "file": "/home/willi/Research-workspace/AGENTS/HENRY/workbook/MARKET_DATA.tsv",
+        "overall": "20d stale (last row 6/3); a sparse-by-design EOD series with a load-bearing gap — it missed the ENTIRE FOMC(6/17)/BOJ(6/16)/Hormuz-reopen(6/15)/AI-unwind(6/22-23) window. Rows are dated time-series (historical-correct as logged), but the last row is the de-facto 'current' snapshot and is now wrong on Brent (-21pts), VIX, SPX, KRE, APO. Append a 6/23 row.",
+        "stale_items": [
+          {
+            "location": "Row 5 (2026-06-03), Brent column",
+            "in_file": "97.95",
+            "issue": "Brent is the single most-rotted value. The 6/3 print predates the 6/15 Hormuz reopen deal + US Treasury Iran-crude license, which took Brent $83→$77. The file's $97.95 is ~$21 (27%) above current and reflects a closed war-premium regime that has unwound.",
+            "correct_current": "Brent 76.87 (6/23 ~1pm ET)",
+            "severity": "HIGH",
+            "action": "update"
+          },
+          {
+            "location": "Row 5 (2026-06-03), SPX column",
+            "in_file": "7565.60",
+            "issue": "Last logged SPX is stale and brackets a regime turn it doesn't capture: SPX made a 6/15 record (~7,551) then fell ~2% on the hawkish FOMC + AI/semi positioning unwind (KOSPI -9.99%, MU -11%, SMH -6.5%). An analyst reading the last row would miss the -2%-off-record drawdown.",
+            "correct_current": "SPX 7,394.78 (6/23 ~1pm ET); 6/15 record ~7,551",
+            "severity": "HIGH",
+            "action": "update"
+          },
+          {
+            "location": "Row 5 (2026-06-03), VIX column",
+            "in_file": "16.28",
+            "issue": "VIX has bid back 16→19; the <15 'cyclical soft-kill' approach that the 6/3 low VIX hinted at REVERSED post-FOMC. Contango also flattened (VIX3M/VIX 1.10 from 1.21). The 16.28 reads as a calm-regime mark that no longer holds.",
+            "correct_current": "VIX 18.95 (VIX9D 18.63 / VIX3M 20.78 / VVIX 98.70 / SKEW 141.85), 6/23",
+            "severity": "HIGH",
+            "action": "update"
+          },
+          {
+            "location": "Row 5 (2026-06-03), HY_OAS column",
+            "in_file": "272",
+            "issue": "HY_OAS tightened 272→265 and is now AT the HEN-30 265 trigger, 5bps from the 260 kill — the live credit story. The CCC-BB bifurcation (gap 791, ratio 6.07x, widening) is the active signal and is entirely absent. Load-bearing: this row's 272 understates how close the credit trigger is.",
+            "correct_current": "HY 265 (at HEN-30 trigger); BB 156; CCC 947; CCC-BB gap 791 / ratio 6.07x [FRED 6/22]",
+            "severity": "HIGH",
+            "action": "update"
+          },
+          {
+            "location": "Row 5 (2026-06-03), KRE column",
+            "in_file": "68.27",
+            "issue": "KRE rallied 68.27→72.63 (+6.4%) over the dark window. The last logged regional-bank level is materially below current and would misstate REGINALD-relevant bank stress as worse than it is.",
+            "correct_current": "KRE 72.63 (6/23 ~1pm ET); WAL 80.55",
+            "severity": "MED",
+            "action": "update"
+          },
+          {
+            "location": "Row 5 (2026-06-03), APO column",
+            "in_file": "125.44",
+            "issue": "APO moved 125.44→131.57, and the alts complex is now CRACKING in the AI/positioning unwind (ARES -15%, APO -7% off recent highs). The single APO column captures neither the level move nor the new alts-stress axis; ARES is not tracked at all.",
+            "correct_current": "APO 131.57; ARES 119.20 (-15% / APO -7% in the unwind), 6/23",
+            "severity": "MED",
+            "action": "update"
+          },
+          {
+            "location": "Row 5 (2026-06-03), USDJPY column",
+            "in_file": "160.02",
+            "issue": "USDJPY 160.02→161.60. The BOJ HIKED +25bp to 1.0% on 6/16 — but as-priced, so no carry unwind fired. Modest level drift; the thesis-relevant fact (BOJ hike happened, USDJPY held) is missing but the number itself is only ~1.6 off.",
+            "correct_current": "USD/JPY 161.60 (BOJ at 1.0% post-6/16 hike, no carry unwind), 6/23",
+            "severity": "MED",
+            "action": "update"
+          },
+          {
+            "location": "Row 5 (2026-06-03), 10Y_Yield column",
+            "in_file": "4.50",
+            "issue": "10Y is the LEAST-rotted value: 4.50→4.48, basically flat. BUT the curve story changed under it — the FOMC surprise hit 2Y +15bps / 10Y -3bps (flattening, not a hike). The level is fine to cite; the missing 2Y/curve context is the gap, not the 10Y number.",
+            "correct_current": "10Y 4.48; 2Y ~4.20 (curve flattened post-FOMC), 6/23",
+            "severity": "LOW",
+            "action": "update"
+          },
+          {
+            "location": "Row 5 (2026-06-03), CCC_OAS column",
+            "in_file": "946",
+            "issue": "CCC_OAS 946→947 is effectively unchanged and remains accurate as a level. Only flagged because the meaningful CCC signal is now the widening CCC-BB GAP/ratio, not the absolute level — which the flat single-column number masks.",
+            "correct_current": "CCC 947 [FRED 6/22]; live signal is CCC-BB gap 791 / 6.07x widening",
+            "severity": "LOW",
+            "action": "note-only"
+          },
+          {
+            "location": "Rows 2-4 (2026-04-10 / 04-16 / 04-17)",
+            "in_file": "Apr time-series rows incl. Apr Brent 90-98, SPX 6650-7124",
+            "issue": "These are correctly-dated historical EOD snapshots. They are SUPPOSED to be old (this is an append-only sparse time-series). Do NOT treat as stale-current. The 'gap since 4/17 (13-day dark window)' note in row 5 is accurate provenance discipline.",
+            "correct_current": "N/A — historical rows, correct as logged",
+            "severity": "OK-historical",
+            "action": "leave"
+          }
+        ],
+        "missing_coverage": "No 6/23 (or any post-6/3) row exists, so the file omits the entire regime turn: (1) FOMC 6/17 hawkish hold (12-0 at 3.50-3.75%, dots flipped cut→hike, stagflationary SEP, 2Y +15bps); (2) BOJ +25bp→1.0% 6/16 (no carry unwind); (3) Hormuz reopen 6/15 → Brent $83→$77; (4) AI/semi positioning unwind 6/22-23 (KOSPI -9.99%, MU -11%, SMH -6.5%) + alts cracking (ARES -15%, APO -7%); (5) HY at the 265 HEN-30 trigger. The schema also has NO columns for the now-load-bearing signals: 2Y/curve, CCC-BB gap/ratio, ARES, VVIX/SKEW/term-structure. The Gas column has gone 'n/a' since 6/3 (dead since at least then).",
+        "recommendation": "update-now: append ONE 6/23 EOD row capturing the post-regime-turn snapshot — SPX 7394.78 | VIX 18.95 | Brent 76.87 | Gas n/a | 10Y 4.48 | USDJPY 161.60 | HY_OAS 265 | CCC_OAS 947 | KRE 72.63 | APO 131.57, with a Source note flagging 'post-FOMC 6/17 / Hormuz reopen 6/15 / AI-unwind 6/22-23; 20-day dark window since 6/3; HY at HEN-30 265 trigger; FRED credit 6/22'. Optionally append an interim 6/15-record marker row (SPX ~7,551 / Brent ~$83 pre-reopen) so the time-series captures the peak it currently skips over. Consider adding 2Y, CCC-BB gap, and ARES columns to the schema given they are now the live signals. (Read-only audit — no edits made.)",
+        "confidence": 0.9
+      },
+      {
+        "file": "/home/willi/Research-workspace/AGENTS/HENRY/domain/ECON_CALENDAR.md",
+        "overall": "Calendar window (Mar-Jun) has lapsed end-June; only 1 future row (Jun 25 PCE) remains. Entire July+ schedule missing + FOMC 6/17 outcome row is now wrong (described as 'possible first cut'; Fed held + flipped to hawkish/hike-bias). Load-bearing as a forward catalyst docket — needs July extension; historical month-tables are fine as-is.",
+        "stale_items": [
+          {
+            "location": "JUNE 2026 table, line 64 — FOMC Meeting row",
+            "in_file": "Jun 16-17 | FOMC Meeting* | SEP + dot plot. Possible first cut?",
+            "issue": "FOMC already happened (6/17) and the characterization is now wrong. Fed HELD 12-0 at 3.50-3.75% and SEP dots FLIPPED cut→hike (2026 median 3.8% vs 3.4% Mar; PCE up to 3.6%, GDP down to 2.2% = stagflationary). 'Possible first cut?' is the opposite of the actual hawkish surprise. This is the single most load-bearing macro event of the month and the file frames it as a dovish-lean preview.",
+            "correct_current": "Fed HELD at 3.50-3.75% (12-0); SEP dots flipped to hike-bias (2026 median 3.8%); reaction 2Y +15bps / 10Y -3bps (curve flattened, not a hike). Re-armed the cyclical soft-kill axis.",
+            "severity": "HIGH",
+            "action": "update"
+          },
+          {
+            "location": "Whole document — calendar coverage horizon",
+            "in_file": "Months covered: MARCH 2026 → JUNE 2026 only; last future row is Jun 25 PCE/GDP",
+            "issue": "Window has lapsed. Today is 6/23; June is the terminal month and only Jun 25 remains future-dated. There is NO July (or beyond) schedule. As a forward catalyst docket this file is now effectively empty going forward.",
+            "correct_current": "Need JULY 2026 forward: MU earnings 6/24, May PCE 6/25 (last June item), month-end 6/30, July NFP ~7/2-7/3, June CPI ~7/14, June PPI ~7/15, FOMC late-Jul (7/28-29), Q2 GDP advance ~7/30, BDC Q2 + WAL Q2 earnings late Jul.",
+            "severity": "HIGH",
+            "action": "update"
+          },
+          {
+            "location": "Missing future row — MU earnings",
+            "in_file": "(absent)",
+            "issue": "MU (Micron) earnings 6/24 not on calendar. Baseline flags it as a named near-term catalyst central to the NEW positioning-unwind axis (AI/semi crowded-trade unwind: KOSPI -9.99% 6/22-23, MU -11%, SMH -6.5%). High thesis relevance, missing entirely.",
+            "correct_current": "MU earnings 6/24 — read-through to AI/semi positioning-unwind axis (HBM capex / SK Hynix linkage).",
+            "severity": "HIGH",
+            "action": "update"
+          },
+          {
+            "location": "Missing future row — June CPI",
+            "in_file": "(absent)",
+            "issue": "June CPI (~7/14) not on calendar — the next CPI print after the calendar ends. Baseline names it explicitly as a catalyst ahead. Last CPI row in file is Jun 10 (May data), already released.",
+            "correct_current": "June CPI ~7/14, 8:30 ET — next inflation read post-FOMC; HEN-32 (core CPI) line continues here.",
+            "severity": "HIGH",
+            "action": "update"
+          },
+          {
+            "location": "Missing future row — July NFP",
+            "in_file": "(absent)",
+            "issue": "July (June-data) NFP ~7/2-7/3 not on calendar. Last NFP row is Jun 5 (May data, already released — and predicted MISS: HEN-28, NFP came +172K). No forward jobs print listed.",
+            "correct_current": "NFP (June data) ~7/2 or 7/3 8:30 ET — note May NFP resolved +172K (HEN-28 MISS).",
+            "severity": "MED",
+            "action": "update"
+          },
+          {
+            "location": "Missing future row — May PCE / June 25",
+            "in_file": "Jun 25 | PCE + Personal Income | May  AND  Jun 25 | GDP (3rd est) | Q1 2026",
+            "issue": "Row is present and still future-dated (correct), but not flagged as the active prediction anchor. Baseline registers NEW HEN-34 on this exact print (May PCE 6/25). The calendar shows the date but doesn't carry the live-prediction tie.",
+            "correct_current": "Jun 25 May PCE = HEN-34 active prediction resolution. Keep row; optionally annotate as the next live macro resolution.",
+            "severity": "LOW",
+            "action": "note-only"
+          },
+          {
+            "location": "Missing future row — late-July earnings (BDC Q2 / WAL Q2)",
+            "in_file": "(absent)",
+            "issue": "Calendar's bank/earnings rows stop at the April Q1 cluster (OZK/WAL/ZION/VLY/EGBN Apr 21-29). No Q2 earnings rows. Baseline names BDC Q2 + WAL Q2 late Jul as catalysts ahead — directly thesis-relevant (credit bifurcation / regional repricing).",
+            "correct_current": "BDC Q2 + WAL Q2 earnings late Jul (~3rd-4th week); WAL credit/CRE disclosure read-through.",
+            "severity": "MED",
+            "action": "update"
+          },
+          {
+            "location": "Key Thresholds table, lines 81-86",
+            "in_file": "Core CPI MoM >0.3% | NFP <100K | Claims >250K sustained etc. — presented as live trip-wires",
+            "issue": "Thresholds themselves are static/reasonable, but several have RESOLVED against the baseline and the table gives no indication of current standing. Core CPI came +0.2% (HEN-32 MISS — under the 0.3% hot threshold); NFP +172K (well above the <100K cracking line, HEN-28 MISS). An analyst reading this as 'live triggers pending' would miss that recent prints did NOT fire them.",
+            "correct_current": "Recent prints: core CPI +0.2% (below 0.3% threshold), NFP +172K (above 100K). Neither macro trip-wire fired. (Credit side IS firing — HY OAS at 265 HEN-30 trigger — but that lives outside this file.)",
+            "severity": "LOW",
+            "action": "note-only"
+          },
+          {
+            "location": "MARCH/APRIL/MAY 2026 tables (lines 9-54) and June rows through Jun 11",
+            "in_file": "All dated release rows Mar 2 → Jun 11 (ISM, NFP, CPI, PPI, PCE, FOMC, Q1 earnings)",
+            "issue": "These are correctly historical/dated schedule rows — 'old' is appropriate for a calendar log. NOT stale in the load-bearing sense; do not rewrite. Flagged here only to confirm they were reviewed and are fine as historical.",
+            "correct_current": "No change needed — historical schedule rows.",
+            "severity": "OK-historical",
+            "action": "leave"
+          }
+        ],
+        "missing_coverage": "Entire forward docket July 2026+ is absent. Specifically missing vs baseline catalysts: MU earnings 6/24; May PCE 6/25 (present but unflagged as HEN-34); month-end 6/30; July NFP ~7/2; June CPI ~7/14; June PPI ~7/15; late-July FOMC (~7/28-29, no SEP); Q2 GDP advance ~7/30; BDC Q2 + WAL Q2 earnings late Jul. Also missing: any annotation that the 6/17 FOMC resolved hawkish (held + dot-flip to hike-bias), that recent macro thresholds (core CPI +0.2%, NFP +172K) did NOT fire, and that the live credit trigger (HY OAS 265 = HEN-30) is the one actually firing. No regime context (cyclical RE-ARMED + new AI/semi positioning-unwind axis) — the file's thresholds are macro-only and don't reflect that the active stress is credit + positioning, not the inflation/jobs trip-wires listed.",
+        "recommendation": "update-now — extend calendar with a JULY 2026 (and forward) section and correct the lapsed FOMC row. Two concrete actions: (1) fix the Jun 16-17 FOMC row from 'Possible first cut?' to the actual hawkish-hold/dot-flip outcome (HIGH); (2) add July+ rows (MU 6/24, July NFP ~7/2, June CPI ~7/14, June PPI ~7/15, late-Jul FOMC, Q2 GDP advance ~7/30, BDC/WAL Q2 late Jul). Leave the Mar-May historical tables untouched (correctly dated). Optionally annotate the Thresholds table with current standing (CPI/NFP did not fire; credit HY-265 is the live trigger).",
+        "confidence": 0.9
+      },
+      {
+        "file": "/home/willi/Research-workspace/AGENTS/HENRY/workbook/THESIS_VALIDATION.md",
+        "overall": "67d stale (4/17→6/23). Two-thesis frame predates the current 3-axis regime entirely; invalidation triple-AND, cascade levels, and \"currently\" market values are load-bearing and rotted. Mar/Apr validation logs are correctly historical.",
+        "stale_items": [
+          {
+            "location": "L5-7 Primary Thesis 'The Loaded Machine' header",
+            "in_file": "Three fractures (Tech Rot, Margin Paradox, Earnings Quality Decay)... Crash risk is BINARY — stability persists until flows reverse",
+            "issue": "Whole framing predates the current 3-axis thesis. Current regime is NOT a single binary 'loaded machine' — it is (1) cyclical RE-ARMED on hawkish FOMC 6/17, (2) NEW AI/semi positioning-unwind axis (KOSPI -9.99%, MU -11%), (3) structural credit bifurcation + alts cracking (ARES -15%/APO -7%). The positioning-unwind axis is entirely absent.",
+            "correct_current": "3-axis thesis: cyclical re-armed (Fed dots flipped cut→hike, stagflationary SEP) + positioning-unwind (crowded AI/semi) + credit bifurcation/alts cracking",
+            "severity": "HIGH",
+            "action": "update"
+          },
+          {
+            "location": "L26-30 Invalidated-if TRIPLE-AND",
+            "in_file": "HY OAS <260 sustained AND VIX <15 sustained AND SPX >7,100 held 5+ sessions; OR Employment strengthens (claims <220K + NFP >200K sustained); OR BTFP 2.0",
+            "issue": "Load-bearing invalidation criteria, now mis-calibrated to a dead complacency-trap frame. SPX is 7,395 (well >7,100, held many sessions) yet thesis re-armed not invalidated — so the SPX>7,100 leg is falsified as a kill condition. VIX 18.95 (not <15). HY at 265 = AT the HEN-30 trigger, 5bps from 260 kill (credit is CONFIRMING stress, opposite of complacency). Employment leg: NFP +172K (HEN-28 MISS) is below 200K, so that falsifier didn't fire either.",
+            "correct_current": "SPX>7,100 is no longer a valid kill leg (price is 7,395 in a re-armed thesis). HY 265 near the 260 floor but widening = credit confirming, not complacent. Triple-AND needs re-derivation for the 3-axis regime.",
+            "severity": "HIGH",
+            "action": "update"
+          },
+          {
+            "location": "L33-35 Amber 'currently' market values",
+            "in_file": "SPX currently at 7,038... VIX currently 18.6 (above 15)... HY OAS 285 (above 260)",
+            "issue": "Presented AS current ('currently'). SPX 7,038 → live 7,394.78. VIX 18.6 is coincidentally near live 18.95 but the surrounding reasoning is stale. HY OAS 285 → live 265 (FRED 6/22), now AT the HEN-30 trigger. All three are load-bearing 'currently' marks an analyst would cite as live.",
+            "correct_current": "SPX 7,394.78 | VIX 18.95 | HY OAS 265 (at HEN-30 trigger, 5bps from 260 kill)",
+            "severity": "HIGH",
+            "action": "update"
+          },
+          {
+            "location": "L70-71 Cascade table Medium-Term CTA / Long-Term CTA triggers",
+            "in_file": "Medium-Term CTA SPX < 6,707 sustained ⚠️ ARMED; Long-Term CTA SPX < 6,494",
+            "issue": "Load-bearing cascade trigger levels from a Mar-2026 SPX-6,700s snapshot. SPX is 7,395 now — these 6,700s/6,494 levels are almost certainly stale (the baseline explicitly flags the Mar cascade levels as likely stale). 'ARMED' status is wrong: with SPX at 7,395, medium CTA at 6,707 is ~690pts below spot, not armed.",
+            "correct_current": "Cascade levels need refresh from current SpotGamma/VX.tsv; Mar snapshot (medium 6,707/long 6,494/gamma flip 6,902/put wall 6,800) is stale vs SPX 7,395. Status flags ('ARMED') need re-derivation.",
+            "severity": "HIGH",
+            "action": "update"
+          },
+          {
+            "location": "L68 Cascade table Vol-Control 'ACTIVE'",
+            "in_file": "1. Vol-Control | VIX >23-24 | ✅ ACTIVE",
+            "issue": "Status load-bearing and wrong. VIX is 18.95, below the 23-24 vol-control threshold. Baseline: 'still <23 vol-control; rotation-not-cascade.' Vol-control is NOT active.",
+            "correct_current": "VIX 18.95 <23 → vol-control NOT active; regime is rotation-not-cascade",
+            "severity": "HIGH",
+            "action": "update"
+          },
+          {
+            "location": "L73 Cascade table Credit Contagion 'ACTIVE'",
+            "in_file": "6. Credit Contagion | HY OAS +50bps in 5d | ✅ ACTIVE",
+            "issue": "Status stale. HY 5d delta is small/widening modestly (baseline notes CCC-BB ratio Δ5d +13, HY at 265 trigger), not a +50bps/5d contagion blast. The acute Mar credit contagion this row describes is not the current dynamic (current is slow bifurcation: CCC 947 vs BB 156, ratio 6.07x).",
+            "correct_current": "Credit dynamic now = bifurcation/slow-widen (CCC 947, BB 156, ratio 6.07x), not +50bps/5d contagion; HY at 265 trigger but not blasting",
+            "severity": "MED",
+            "action": "update"
+          },
+          {
+            "location": "L9-14 Confirmed-if criteria (PLTR $100, XLK breadth, 6,494 CTA flip)",
+            "in_file": "SPX breaks 6,494 → CTAs flip; PLTR breaks $100 → AI thematic repricing (H5); XLK breadth <40%",
+            "issue": "Confirm-criteria anchored to Mar levels and a single AI proxy (PLTR $100). The actual AI repricing is now firing through a different vector — semis (MU -11%, SMH -6.5%, KOSPI/SK Hynix), the positioning-unwind axis — not PLTR-$100. SPX 6,494 CTA-flip level is stale (spot 7,395).",
+            "correct_current": "AI repricing live via semis/positioning-unwind (MU -11%, SMH -6.5%), not PLTR<$100; 6,494 CTA level stale vs spot 7,395",
+            "severity": "MED",
+            "action": "update"
+          },
+          {
+            "location": "L83 Cross-Agent Dependencies — Carry unwind / SAM",
+            "in_file": "Carry unwind (yen strengthens) | SAM | Phase 2 → systematic deleveraging",
+            "issue": "Dependency is now resolved/dormant for the near term but still presented as an open trigger. BOJ hiked +25bp→1.0% on 6/16 as-priced with NO carry unwind; USD/JPY 161.60 (yen weak, not strengthening). The carry-unwind Phase 2 did not fire on the BOJ hike.",
+            "correct_current": "BOJ hiked to 1.0% as-priced 6/16, no carry unwind; USD/JPY 161.60. Carry-unwind dependency dormant near-term.",
+            "severity": "MED",
+            "action": "note-only"
+          },
+          {
+            "location": "L85 Cross-Agent Dependencies — Hormuz escalation / HAWK",
+            "in_file": "Hormuz escalation | HAWK | Oil >$100 → Fed hold locked → stagflation regime",
+            "issue": "Dependency direction inverted by events. Hormuz REOPENED 6/15 (deal + US Treasury Iran-crude license), Brent fell $83→$77 (live 76.87), not >$100. The oil>$100 escalation path de-armed. Note: the stagflation regime arrived anyway via the FOMC SEP, not via oil.",
+            "correct_current": "Hormuz reopened 6/15, Brent 76.87 (not >$100); oil-escalation path de-armed. Stagflation came via FOMC SEP (PCE 3.6%/GDP 2.2%), not oil.",
+            "severity": "MED",
+            "action": "note-only"
+          },
+          {
+            "location": "L41-43 Secondary Thesis 'Credit-Primary' probabilities",
+            "in_file": "Slow grind (55% probability) > fast gamma cascade (30%)",
+            "issue": "Probability split is from the Feb-27 upgrade. Current regime resolved toward a third path not in this binary: positioning-unwind/rotation (KOSPI -9.99%, semis). The 55/30 slow-grind-vs-gamma-cascade framing omits the dominant current driver.",
+            "correct_current": "Current driver is positioning-unwind/rotation (third path); slow-grind-vs-gamma-cascade probabilities predate this axis",
+            "severity": "MED",
+            "action": "update"
+          },
+          {
+            "location": "L57-60 Secondary Thesis Invalidated-if (HY 320 threshold)",
+            "in_file": "HY OAS breaks 320bps (LIQ-01 threshold)... SPX rallies >5% while HY OAS still widening",
+            "issue": "The 'SPX rallies while HY widening = decouple/invalidate' rule has effectively triggered the inverse: SPX round-tripped to 7,395 (near 6/15 record) while CCC/credit bifurcation widened — yet thesis is intact via re-arm. Confirm threshold HY>320 also stale; live HY 265 and the operative trigger moved to HEN-30 at 265/kill at 260, a tighter floor-watch than the 320 widen-watch.",
+            "correct_current": "Operative credit trigger is now HEN-30 (HY 265 trigger / 260 kill), not HY>320 widen; decouple-invalidation logic contradicted by the re-arm round-trip",
+            "severity": "MED",
+            "action": "update"
+          },
+          {
+            "location": "L16-24 'Partially validated' Mar checkmarks",
+            "in_file": "Gamma flip breached SPX below 6,902 (Mar 3); VIX 26.43 (Mar 3); HY OAS 265→284→308 (Jan→Feb→Mar); IG frozen Mar 2-3; Beige Book Mar 4",
+            "issue": "These are explicitly dated (Mar 3/Mar 4) historical validation log entries — correctly old. Not flagged as stale-presented-as-current. L37 already labels them 'historical.' Listed only to confirm they should be LEFT.",
+            "correct_current": "N/A — correctly historical, dated Mar entries",
+            "severity": "OK-historical",
+            "action": "leave"
+          },
+          {
+            "location": "L51-55 Secondary Thesis 'Partially validated' Mar checkmarks",
+            "in_file": "HY OAS 308bps; IG frozen 2 days (Mar 2-3); Beige Book (SF); MFS fraud → Jefferies/Barclays",
+            "issue": "Dated Mar validation log entries — correctly historical, not presented as current. Listed only to confirm LEAVE.",
+            "correct_current": "N/A — correctly historical Mar entries",
+            "severity": "OK-historical",
+            "action": "leave"
+          }
+        ],
+        "missing_coverage": "File has NO representation of: (1) the positioning-unwind axis (AI/semi crowded-trade unwind: KOSPI -9.99% 6/22-23, MU -11%, SMH -6.5%) — entirely absent though it is now a co-equal thesis axis; (2) alts cracking (ARES -15%/APO -7%) as a credit-bifurcation symptom; (3) the 6/17 hawkish FOMC dot-flip (cut→hike, 2026 median 3.8% vs 3.4%, stagflationary SEP) as the cyclical RE-ARM driver and its actual mechanism (2Y +15bps curve flatten, NOT a rate hike — HEN-33 10Y move MISS); (4) updated predictions HEN-28/32/33 MISS, new HEN-34 (May PCE 6/25), HEN-35 (positioning-cascade by 7/17), HEN-30 ACTIVE; (5) the 6/15→6/17 soft-kill→re-arm reversal that the whole file predates; (6) catalysts ahead (MU 6/24, PCE 6/25, month-end 6/30, June CPI 7/14, BDC/WAL Q2 late Jul); (7) gap events BOJ hike, triple-witch 6/19, Juneteenth.",
+        "recommendation": "update-now",
+        "confidence": 0.9
+      },
+      {
+        "file": "/home/willi/Research-workspace/AGENTS/HENRY/domain/REFERENCE_TABLES.md",
+        "overall": "Mostly static/structural (fine to be old); the only rot is ~3 embedded Mar-2026 SPX cascade trigger levels baked into otherwise-structural tables that now read as ~700pts stale vs spot 7,395.",
+        "stale_items": [
+          {
+            "location": "CASCADE ORDER table, line 9 (Order 2, Short-Term CTAs Trigger col)",
+            "in_file": "50-DMA breach (6,883)",
+            "issue": "Embedded SPX level baked into the trigger column reads as current. From Mar-2026 era when SPX was in the 6,700s-6,800s; spot is now 7,395 so the parenthetical 6,883 50-DMA value is stale (the structural '50-DMA breach' mechanism is fine).",
+            "correct_current": "SPX 7,394.78 (6/23 ~1pm); 50-DMA value must be re-pulled live, not 6,883. Per baseline the Mar cascade snapshot is explicitly flagged LIKELY STALE.",
+            "severity": "MED",
+            "action": "note"
+          },
+          {
+            "location": "CASCADE ORDER table, line 10 (Order 3, Medium-Term CTAs Trigger col)",
+            "in_file": "6,707 close below → $80B",
+            "issue": "Embedded medium-CTA SPX trigger from Mar-2026 STATUS snapshot, presented as a live trigger. SPX 7,395 now sits ~690pts above this; a 6,707 trigger is almost certainly stale.",
+            "correct_current": "Mar snapshot medium CTA 6,707 is stale; refresh from workbook/VX.tsv + SpotGamma against spot 7,395. Baseline flags these 6,700s-era trigger levels as 'almost certainly stale.'",
+            "severity": "MED",
+            "action": "note"
+          },
+          {
+            "location": "CASCADE ORDER table, line 11 (Order 4, Longer-Duration CTAs Trigger col)",
+            "in_file": "~6,494 sustained below",
+            "issue": "Embedded long-CTA SPX trigger from Mar-2026 snapshot, reads as current. ~900pts below spot; stale.",
+            "correct_current": "Mar snapshot long CTA 6,494 is stale; re-derive vs spot 7,395. Baseline: 6,700s-era / sub-6,500 trigger levels almost certainly stale.",
+            "severity": "MED",
+            "action": "note"
+          },
+          {
+            "location": "LEADING INDICATOR SEQUENCE block, line 22",
+            "in_file": "CTAs flip at 6,494",
+            "issue": "Same Mar-2026 long-CTA SPX level hard-coded into the otherwise-structural leading-indicator sequence; reads as a current flip level. The sequence ordering is structural/fine; only the embedded 6,494 number is stale.",
+            "correct_current": "6,494 is a Mar-era level vs spot 7,395; the SEQUENCE is static but the number should be re-pulled or genericized.",
+            "severity": "MED",
+            "action": "note"
+          },
+          {
+            "location": "Header, lines 1-2 + section structure (CREDIT-EQUITY TRANSMISSION, TRANSMISSION PATHS, SENTIMENT frameworks, data-source cadences)",
+            "in_file": "'These rarely change.' + HY-OAS bps-change→equity bands, LABOR/CARL/SAM transmission paths, 3-pillar sentiment framework, release-cadence table",
+            "issue": "Structural/static frameworks (bps-to-equity transmission bands, lead-time relationships, transmission paths, sentiment pillars, data-source cadences). No live levels embedded; sentiment section even self-flags 'don't cite the archived Jan levels.' Correctly historical/structural.",
+            "correct_current": "N/A — these are mechanism/structure, designed to be old; no staleness.",
+            "severity": "OK-historical",
+            "action": "leave"
+          }
+        ],
+        "missing_coverage": "File predates and does not reflect the post-FOMC regime shift (cyclical RE-ARM on hawkish 6/17 FOMC; NEW AI/semi positioning-unwind axis; alts cracking ARES -15%/APO -7%). But that's STATUS/regime content, not this static reference's job — no obligation here. The CASCADE ORDER table's static AUM figures (~$100B short / ~$200B medium / ~$200B+ long / ~$1T risk parity) match the CLAUDE.md cascade-mechanics framework and are structural, not stale. Note: file does NOT carry the credit-equity HY-OAS bands against the live HEN-30 265 trigger context, but that is intentionally STATUS-owned, not a gap in a static-reference doc.",
+        "recommendation": "refresh-load-bearing-rows-only — re-pull or genericize the 4 embedded Mar-2026 SPX cascade levels (6,883 / 6,707 / 6,494 / 6,494) so they don't read as live triggers ~700-900pts below spot 7,395; the canonical levels already live in workbook/VX.tsv (VX-HEN-15.xx / VX-HEN-9.xx) per CLAUDE.md, so this table should point there rather than hard-code stale numbers. All other sections are structural — leave as-is.",
+        "confidence": 0.83
+      },
+      {
+        "file": "/home/willi/Research-workspace/AGENTS/HENRY/workbook/KB.tsv",
+        "overall": "~67d stale (latest ML-HEN-136 dated 2026-04-17); as an append-log the dated rows are correctly historical, but 4 entries carry still-LIVE Status/forward-catalyst markers now resolved, AND the whole FOMC 6/17 / BOJ 6/16 / AI-semi-unwind / Hormuz-reopen gap-event cluster (mid-Apr → 6/23) has ZERO KB coverage.",
+        "stale_items": [
+          {
+            "location": "ML-HEN-118 (line 92), Status field",
+            "in_file": "Status=NEW; \"PCE prep framework built. Base case headline 2.7-2.9%... Double catalyst risk Mar 28 (PCE + strike clock T-0). March 28 = potential 3-5% SPX drawdown\"",
+            "issue": "Only row in the file still flagged Status=NEW (every other dated entry is CONFIRMED). It frames a Mar-28 forward catalyst as pending; that catalyst (PCE Feb, captured in ML-HEN-125) resolved ~3 months ago. A still-NEW status on a resolved forward-looking framework reads as live when it is fully historical.",
+            "correct_current": "Mar-28 PCE resolved (Core PCE 3.0% YoY, ML-HEN-125). Status should be CONFIRMED/RESOLVED. Current live PCE catalyst is May PCE 6/25 (new HEN-34).",
+            "severity": "MED",
+            "action": "note-only"
+          },
+          {
+            "location": "ML-HEN-108 (line 82), BOJ HOLD base case",
+            "in_file": "\"BOJ HOLD Thursday Mar 19 is now base case... Current BOJ rate: 0.75%... COND-2 pathway pushed to May-June at earliest\"",
+            "issue": "Latest KB datapoint on BOJ. Correct for its Mar-3 vintage (HOLD did happen Mar 19), BUT no later entry records the actual BOJ outcome, so this is the most-recent BOJ state in the KB and now badly trails reality.",
+            "correct_current": "BOJ HIKED +25bp to 1.0% on 6/16 (as-priced, no carry unwind). The 0.75% rate and \"hold base case\" are superseded.",
+            "severity": "MED",
+            "action": "note-only"
+          },
+          {
+            "location": "ML-HEN-101 (line 75) & ML-HEN-106 (line 80), Hormuz/Strait status",
+            "in_file": "ML-HEN-101: \"Strait permanent closure declared\"; ML-HEN-106: \"Hormuz still closed as of Mar 15 war day 14... no de-escalation pathway through FOMC week\"",
+            "issue": "These are the most-recent KB rows asserting Hormuz/Strait state and they assert permanent/structural closure. Correct as dated Mar observations, but there is no later entry recording the reopen, so the KB's standing read of the energy channel is wrong-direction vs baseline.",
+            "correct_current": "Hormuz REOPENED 6/15 (deal + US Treasury Iran-crude license); Brent $83→$77→76.87 (6/23). The fear premium unwound.",
+            "severity": "MED",
+            "action": "note-only"
+          },
+          {
+            "location": "ML-HEN-111 (line 85), carry-unwind probability",
+            "in_file": "\"Nikkei breached GPIF 52,000 trigger (51,515, -3.48%)... Carry unwind 7d probability 85%\"",
+            "issue": "Forward probability (85% carry-unwind within 7d, dated Mar 26) presented as live; the window expired ~3 months ago and the carry unwind did not fire.",
+            "correct_current": "BOJ hike 6/16 came as-priced, USD/JPY 161.60 (6/23) — NO carry unwind. The 85%/7d call MISSED.",
+            "severity": "LOW",
+            "action": "note-only"
+          },
+          {
+            "location": "Forward HEN-prediction tags embedded in KB rows (e.g. ML-HEN-120 \"HEN-22 ACTIVE\", ML-HEN-119 \"PREDICTION HEN-21\")",
+            "in_file": "Cross-link/Notes tags like \"HEN-22 ACTIVE\", \"HEN-21\", \"HEN-24/HEN-25 OZK/WAL\" carried inline as live prediction pointers",
+            "issue": "These inline ACTIVE/prediction tags point to the prediction ledger; per baseline several have since resolved (HEN-28 MISS, HEN-32 MISS, HEN-33 MISS) and new ones opened (HEN-34, HEN-35). KB inline tags are not the canonical predictions store, but a reader treating them as current would be misled. Authoritative resolution lives in PREDICTIONS.tsv, not KB.",
+            "correct_current": "Per baseline: HEN-28/-32/-33 MISS; HEN-30 ACTIVE (HY at 265 trigger); HEN-34 (May PCE 6/25) and HEN-35 (positioning-cascade by 7/17) NEW. Verify against workbook/PREDICTIONS.tsv.",
+            "severity": "LOW",
+            "action": "leave"
+          },
+          {
+            "location": "Whole-file currency / latest entry",
+            "in_file": "Latest row ML-HEN-136 dated 2026-04-17 (HEN-APR17-TRIAGE). No entries for late-Apr, May, or June.",
+            "issue": "As an append-mostly log the old rows are fine, but the ~67-day gap means none of the regime-defining June events are captured. This is a coverage gap (see missing_coverage), not stale-data-as-current per se, but it means an analyst reading KB.tsv top-to-bottom would end on an April worldview.",
+            "correct_current": "Baseline 6/23: regime reversed off hawkish FOMC 6/17 (re-arm), new AI/semi positioning-unwind axis, alts cracking. None present in KB.",
+            "severity": "HIGH",
+            "action": "update"
+          }
+        ],
+        "missing_coverage": "No KB entries exist for any event after 2026-04-17. Specifically missing the regime-defining gap cluster the baseline calls out: (1) FOMC 6/17 — Fed HELD 12-0 at 3.50-3.75% but SEP dots flipped cut→hike (2026 median 3.8% vs 3.4% Mar), stagflationary SEP (PCE↑3.6%/GDP↓2.2%), surprise hit 2Y +15bps / 10Y -3bps = curve-flattening not a hike. This re-armed the cyclical soft-kill and is the single most important missing entry. (2) BOJ +25bp→1.0% hike 6/16 (as-priced, no carry unwind) — KB's latest BOJ row (ML-HEN-108) still says 0.75%/HOLD base case. (3) NEW positioning-unwind axis — AI/semi crowded-trade unwind: KOSPI -9.99% 6/22-23 on SK Hynix HBM capex, MU -11%, SMH -6.5% — entirely absent; this is a new thesis axis with no KB footprint. (4) Hormuz reopen 6/15 (deal + US Treasury Iran-crude license, Brent $83→$77) — directly reverses ML-HEN-101/-106's \\\"permanent closure\\\" reads. (5) Alts cracking — ARES -15% / APO -7% — no entry. (6) HY OAS now at the HEN-30 265 trigger (5bps from the 260 kill), CCC-BB gap 791 / 6.07x widening — last credit-spread KB datapoint is ML-HEN-113 (HY 328, Mar 26). (7) VIX-regime reversal (the <15 soft-kill approach reversed, VIX bid 16→19, contango flattened 1.21→1.10) — though vol-broadcast is VIOLET's, HENRY retains gamma/0DTE and this regime flip has no KB note. (8) Triple-witch 6/19 + Juneteenth holiday. (9) Stale cascade levels: the Mar-2026 trigger snapshot (medium CTA 6,707 / long CTA 6,494 / gamma flip 6,902 / put wall 6,800) referenced in rows like ML-HEN-105 was for SPX in the 6,700s; SPX is 7,395 now, so any reader pulling those as current levels would be ~700pts off — no refreshed-levels entry exists.",
+        "recommendation": "refresh-load-bearing-rows-only — KB is an append-log so do NOT rewrite the historical April rows; instead (1) append new dated entries for the 6/16 BOJ hike, 6/17 FOMC re-arm, 6/15 Hormuz reopen, the AI/semi positioning-unwind axis, alts cracking, and HY-OAS-at-265 so the log catches up to 6/23; (2) optionally add a short Notes flag on ML-HEN-118 (drop Status=NEW→RESOLVED), ML-HEN-108 (BOJ now 1.0%), and ML-HEN-101/-106 (Hormuz reopened) pointing forward to the new rows. Authoritative prediction status stays in PREDICTIONS.tsv, not here.",
+        "confidence": 0.86
+      }
+    ],
+    "infra": {
+      "file": "/home/willi/Research-workspace/AGENTS/HENRY/{MODERNIZATION_PLAN.md, MAINTENANCE.md, BOOT_AUDIT.md, CLAUDE.md}",
+      "overall": "4 infra/meta docs, all dated 6/3-6/15 (8-20d stale). CLAUDE.md FILES table is the load-bearing problem: omits board_log.tsv (referenced in its own boot step 3a) + 6 other live files, undercounts KB, and carries a Mar-2026 cascade snapshot ~700 SPX-pts stale. MODERNIZATION_PLAN reads as live PROPOSAL but Phases B/C were never executed (thesis/ + docket/ dirs don't exist) and it's not marked superseded. MAINTENANCE/BOOT_AUDIT are mostly accurate dated records but their forward-looking gates/inventories are overtaken by events (FOMC passed, boot.py shipped).",
+      "stale_items": [
+        {
+          "location": "CLAUDE.md FILES table (lines 212-231) + boot step 3a (lines 26-29)",
+          "in_file": "FILES table has no board_log.tsv row, yet boot step 3a instructs creating/appending board_log.tsv",
+          "issue": "board_log.tsv EXISTS (created today 6/23, 16 rows of WALTER intake) and is load-bearing in the boot protocol, but the canonical FILES table omits it entirely. An agent reading FILES would not know it exists.",
+          "correct_current": "board_log.tsv is live at AGENTS/HENRY/board_log.tsv (v0.2 header: timestamp_read/signal_id/disposition/source/notes); add a FILES row",
+          "severity": "HIGH",
+          "action": "update"
+        },
+        {
+          "location": "CLAUDE.md FILES table — KB.tsv row (line 224)",
+          "in_file": "KB.tsv ... 88+ entries, ID format ML-HEN-xxx",
+          "issue": "KB.tsv now has 109 rows reaching ID ML-HEN-136; '88+' materially undercounts. (Note MODERNIZATION_PLAN line 36 separately calls it '137 rows' — the two docs disagree.)",
+          "correct_current": "KB.tsv = 109 rows, last ID ML-HEN-136",
+          "severity": "MED",
+          "action": "update"
+        },
+        {
+          "location": "CLAUDE.md FILES table (lines 212-231)",
+          "in_file": "Table lists STATUS/LESSONS/MEMORY/LAST_COMPLETION/inbox/outbox/PREDICTIONS/ECON_CALENDAR/BEIGE_BOOK/REFERENCE_TABLES/KB/VX/VX_HISTORY/FLOW/MARKET_DATA/THESIS_VALIDATION/sources/research — and nothing else",
+          "issue": "Omits multiple live files/dirs that exist on disk: KB_ARCHIVE.tsv, KB_AUDIT.md (workbook/), NEXUS_BRIEF.md, MAINTENANCE.md, BOOT_AUDIT.md, MODERNIZATION_PLAN.md (root), and evals/ scripts/ proposals/ dirs. FILES is the canonical map; these are invisible to a booting agent.",
+          "correct_current": "Add rows for NEXUS_BRIEF.md, MAINTENANCE.md, scripts/ (boot.py/credit_monitor.py/update_data.py), evals/, workbook/KB_ARCHIVE.tsv; optionally note BOOT_AUDIT/MODERNIZATION_PLAN/proposals as meta",
+          "severity": "MED",
+          "action": "update"
+        },
+        {
+          "location": "CLAUDE.md CORE METHODOLOGY, line 178",
+          "in_file": "Mar 2026 snapshot had medium CTA 6,707 / long CTA 6,494 / gamma flip 6,902 / put wall 6,800; refresh on trade-related spawns",
+          "issue": "These are the ONLY concrete cascade trigger numbers in the always-loaded surface. SPX is now 7,394.78 (off the 6/15 record 7,551), ~700pts above these Mar levels — every trigger is stale and below spot. The 'Mar 2026 snapshot / refresh on trade spawns' caveat mitigates but it still reads as a usable anchor. Per the prompt baseline these are explicitly LIKELY STALE.",
+          "correct_current": "SPX 7,395 now; Mar-era 6,700s triggers are stale by ~700pts. Either drop the embedded numbers (point to VX.tsv only) or restamp; current regime is rotation/positioning-unwind not the cascade",
+          "severity": "MED",
+          "action": "update"
+        },
+        {
+          "location": "MODERNIZATION_PLAN.md — Phase B (sec 3) + Phase C (sec 4), and §0/§1 target tree",
+          "in_file": "PHASE B — Thesis layer (FULL MIRROR) ... thesis/THESIS.md, CHANGELOG.md, TIMELINE.md, PREDICTIONS moved; PHASE C — docket/CATALYSTS.tsv, docket/CALENDAR.md, catalyst_countdown.py",
+          "issue": "Doc presents as a live PROPOSAL (status 'review before execution') but is 20d old and Phases B/C were NEVER executed: thesis/ and docket/ directories do not exist on disk; PREDICTIONS.tsv is still in workbook/ not thesis/; CATALYSTS.tsv/catalyst_countdown.py never built. Reader can't tell what's done vs pending. (Phase A partially done — A2 VX dup-fix marked DONE; A1 KB gap-fill diverged.)",
+          "correct_current": "Mark plan as PARTIALLY EXECUTED / superseded: Phase A mostly done (A2 done, A1 KB now at 136), MAINTENANCE.md created; Phase B (thesis/) and Phase C (docket/, catalyst_countdown.py) UNEXECUTED",
+          "severity": "MED",
+          "action": "note-only"
+        },
+        {
+          "location": "MAINTENANCE.md — last entry 'DEFERRED (post-FOMC, eval-gated)' (lines 34-37)",
+          "in_file": "DEFERRED (post-FOMC, eval-gated) — boot/closeout protocol wiring ... application gated on the evals/ baseline run",
+          "issue": "The deferral anchor ('post-FOMC') has occurred — FOMC was 6/17 (held 12-0, hawkish dot-flip). Also evals/results.tsv shows cases 01 & 02 were run 6/15 (both PASS), so the 'baseline run' the gate waits on is partially complete (2 of 3 cases). The DEFERRED block reads as if FOMC and the baseline are both still ahead.",
+          "correct_current": "FOMC passed 6/17; evals baseline 2/3 cases run+PASS 6/15 (case 03 pending). The post-FOMC, eval-gated condition is now largely unblocked — needs a status refresh",
+          "severity": "MED",
+          "action": "note-only"
+        },
+        {
+          "location": "BOOT_AUDIT.md — INVENTORY table (lines 9-23) + VERDICT (lines 5-6)",
+          "in_file": "VERDICT: 'no boot script, no live-data pull...' / INVENTORY: scripts/boot.py ❌, NEXUS_BRIEF.md ❌, MAINTENANCE.md ❌",
+          "issue": "The ❌ marks for boot.py / NEXUS_BRIEF / MAINTENANCE are overtaken by events: all three now exist on disk (and the doc's own RECOMMENDATIONS line 41 says '#1+#2 SHIPPED'). The table top half contradicts the file reality and the doc's own footnotes. (The deeper gap-claim — that CLAUDE.md boot is STILL the 3-step read-only with no boot.py/NEXUS invocation — remains TRUE, so the audit's thesis holds; only the inventory cells rot.)",
+          "correct_current": "boot.py, NEXUS_BRIEF.md, MAINTENANCE.md all exist; flip those ❌→✅ or annotate. CLAUDE.md boot itself unchanged (3-step) — that gap is genuinely still open.",
+          "severity": "LOW",
+          "action": "note-only"
+        },
+        {
+          "location": "BOOT_AUDIT.md — BOOT READ-PHASE section (line 26)",
+          "in_file": "HENRY (3 steps, read-only): STATUS -> LESSONS -> MEMORY -> Execute. No data is pulled, nothing is scanned.",
+          "issue": "CLAUDE.md boot now has a step 3a (WALTER inbox intake -> board_log.tsv), added after this 6/15 audit. The audit's '3 steps' characterization is one step behind the current protocol. (Still read-mostly; the load-bearing gap claim — no live pull/predictions scan in boot — is accurate.)",
+          "correct_current": "CLAUDE.md boot is now STATUS->LESSONS->MEMORY->WALTER intake(3a)->Execute; still no boot.py/predictions-scan wired in",
+          "severity": "LOW",
+          "action": "note-only"
+        },
+        {
+          "location": "MODERNIZATION_PLAN.md §6 git note (line 117)",
+          "in_file": "working dir currently shows SAM workbook TSVs modified (JGB_YIELDS / MOF_FLOWS / USDJPY)",
+          "issue": "A 6/3 point-in-time working-dir observation embedded in the plan; current dirty tree is VIOLET TSVs (COT_VIX/VIX_OPTIONS/VX_DAILY). Dated note, low harm, but reads as a current caution.",
+          "correct_current": "Current uncommitted files are VIOLET workbook TSVs, not SAM's; the principle (stage AGENTS/HENRY only) is still correct",
+          "severity": "OK-historical",
+          "action": "leave"
+        }
+      ],
+      "missing_coverage": "None of the 4 docs reflect the current regime at all (none need to — they're infra/meta, not state). But two load-bearing gaps: (1) CLAUDE.md FILES table never got the Phase-C 'FILES-table rewrite for the new tree' (C5) it promised, so it's missing every file added since ~Apr (board_log, NEXUS_BRIEF, MAINTENANCE, scripts/, evals/, KB_ARCHIVE). (2) No doc records that the 6/15 'cyclical soft-kill' regime read REVERSED on the hawkish FOMC 6/17 — but that's STATUS/thesis territory, correctly absent from infra docs; flagging only so the auditor of STATUS picks it up. The cascade-level snapshot in CLAUDE.md is the one place current-regime staleness leaks into an infra doc.",
+      "recommendation": "refresh-load-bearing-rows-only — Priority: (1) CLAUDE.md FILES table add board_log.tsv + the 5-6 other live files, fix KB '88+'->109, and either drop or restamp the Mar cascade levels (line 178). (2) MODERNIZATION_PLAN: add a one-line PARTIALLY-EXECUTED status banner (Phase A mostly done, B/C unexecuted) so it stops reading as a fresh proposal. (3) MAINTENANCE/BOOT_AUDIT: note-only — they are dated structural records and largely self-correct via their own SHIPPED/DONE annotations; only the 'post-FOMC deferred' gate and the inventory ❌ cells need a freshness note. Leave the historical/dated log rows as-is.",
+      "confidence": 0.88
+    }
+  }
+}

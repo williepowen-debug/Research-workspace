@@ -30,6 +30,7 @@ Caught the regime flip the 8-day-stale STATUS missed — the 6/15 "soft-kill int
 - **0DTE SPX share + GEX** — standing gap (8+ sessions). Interim: WALTER SIG-006 dealer negative-gamma 7,500-7,375 (6/18). Native wire-up backlogged.
 - **VIOLET vol read STALE** (her STATUS frozen 6/12, pre-FOMC) — she owes a post-FOMC refresh; I used my own live pull.
 - **CLAUDE.md boot/closeout wiring** still unbuilt (eval baselined 6/15) — read-peer-briefs-at-boot done manually this session, not yet codified.
+- **Staleness pass (Will-directed 6/23, "load-bearing only"):** refreshed MARKET_DATA (6/23 row), VX.tsv (LIVE block + de-RED war relics), FLOW.tsv (cascade Status/positions → dormant), ECON_CALENDAR (July docket + FOMC fix), CLAUDE.md FILES table. **Deferred** (your scope call): THESIS_VALIDATION reframe, KB catch-up rows, infra freshness notes. **CTA/gamma/put-wall levels flagged stale in 5 files — need a live SpotGamma/Goldman repull (not fabricated).** Audit archived: research/2026-06-23_staleness_audit_workflow.json.
 
 ## COMMITS
 - `d3fa6135` — HENRY 6/23 post-FOMC catch-up (22 files: STATUS rewrite, PREDICTIONS HEN-33 MISS + HEN-34/35, MEMORY/LESSONS/NEXUS_BRIEF, board_log + 15 WALTER renames, research json).
