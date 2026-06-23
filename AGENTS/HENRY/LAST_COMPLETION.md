@@ -1,47 +1,52 @@
 # HENRY — LAST COMPLETION
 
-**Session:** 2026-06-15 Mon PM re-boot (~12:45 – ~2:30 PM ET) — intraday re-boot, infra/cleanup, Will-directed (Prome/ORC dual-surface review throughout)
-**Status:** 🟡 Cyclical axis SOFT-KILLED on the CPI gate; structural credit axis confirmed-but-dormant. **Thesis UNCHANGED this session** — PM was housekeeping. FOMC 6/16-17 dots = the live re-arm (HEN-33).
+**Session:** 2026-06-23 Tue (~1:05 PM ET boot) — 8-day post-FOMC catch-up boot (STATUS was frozen pre-FOMC at 6/15)
+**Status:** 🟠 **Soft-kill REVERSED.** The cyclical axis RE-ARMED on a hawkish-but-stagflationary FOMC (6/17), and a NEW positioning-unwind axis opened (AI/semi, 6/22-23) — now the dominant near-term driver. Structural credit bifurcation accelerating + alts finally cracking.
 
 ---
 
 ## RESULT (one line)
-Closed three clean threads off the morning session — STATUS straggler sweep, eval v1 baseline banked (both cases PASS → CLAUDE.md wiring now unblocked), and the VX dup-ID collision fixed — plus caught a MARCO false alarm. All committed and pushed; tree clean for FOMC-eve.
+Caught the regime flip the 8-day-stale STATUS missed — the 6/15 "soft-kill intensifying" read is dead: the Fed HELD 6/17 but flipped the dots hawkish (cut→hike bias, stagflationary SEP), and the crowded AI/semi trade started unwinding into a fragile tape; debunked the fleet's "Fed hiked" error, resolved HEN-33 MISS, rewrote STATUS, processed 15 WALTER signals. Committed locally (`d3fa6135`); push deferred (Will-coordinated).
 
 ## CHANGED (files)
-- `STATUS.md` — 5-straggler prose sweep (6/12 FRED + HEN-33 alignment); Last-Updated + PM closeout footer.
-- `evals/results.tsv` — 2 PASS rows (Case 01 + 02). `evals/baseline_artifacts/2026-06-15_v1_responses.md` — NEW (verbatim responses).
-- `workbook/VX.tsv` — Batch-B oil-shock `19.xx→21.xx` (collision fixed). `workbook/KB.tsv` + `workbook/FLOW.tsv` — per-ref cross-link remap.
-- `MEMORY.md` — Session Notes rewritten (PM), GAPS line resolved, new workbook-maintenance finding. `MODERNIZATION_PLAN.md` — A2 marked DONE + scope correction.
-- `NEXUS_BRIEF.md` — As-of bump.
+- `STATUS.md` — **full rewrite** (205 lines) to the 3-axis post-FOMC regime (cyclical re-arm / positioning-unwind / structural credit); new LIVE TAPE, VOL REGIME, DATA LOG (FOMC/BOJ/PMI/retail/claims), thresholds, catalyst stack, predictions, bottom line.
+- `workbook/PREDICTIONS.tsv` — HEN-33 → **MISS** (with the tenor-anchoring post-mortem); **HEN-34** (May PCE 6/25) + **HEN-35** (positioning-cascade by 7/17) added.
+- `LESSONS.md` — 2 new: tenor-anchoring on a hawkish-into-slowing Fed; stunning secondary claims need primary verify.
+- `MEMORY.md` — Session Notes rewritten; 2 findings (corroboration-tell-broke; catch-up verify pass); GAPS pruned.
+- `NEXUS_BRIEF.md` — full regime rewrite + fleet FOMC fact-base correction.
+- `board_log.tsv` — **NEW** (v0.2); 15 WALTER signals logged (5 acted), all `git mv`'d to `inbox/WALTER/processed/`.
+- `research/2026-06-23_gap_catchup_workflow.json` — **NEW** (gap-research workflow output, provenance).
 
-## Session Work (phases)
-1. **Boot + live pull** — boot.py at boot (the FOMC-eve stale-snapshot trap killed); tape confirmed AM thesis intact, predictions-due clean (HEN-33 resolves 6/19).
-2. **STATUS straggler sweep** — 5 PROME/ORC nits where secondary prose lagged the 6/12 FRED fold + HEN-33 re-anchor (incl. the contradictory HEN-30 "drifting wider" row vs headline "tightening toward kill"). A live pass of the staleness discipline.
-3. **Eval v1 baseline** — Will ran Case 01 (sibling-staleness TARGET) + Case 02 (catalyst-pricing GUARDRAIL) cold; both PASS, ORC-reviewed. Logged + verbatim artifact saved. Caveat banked: example-overlap → regression baseline, not generalization.
-4. **VX dup-ID fix (modernization A2)** — renumbered Batch-B `19.xx→21.xx` in place (ORC's move-to-VX_HISTORY retracted on a schema mismatch I caught: 13-col live vs 6-col archive); per-ref KB/FLOW/internal remap with a reviewed batch-assignment table (6 split tokens).
-5. **MARCO false-alarm** — verified VX.tsv is per-agent, not shared; MARCO conflated his own file. Correction drafted for Will to relay.
+## Session Work
+1. **Boot reads** (STATUS/LESSONS/MEMORY) + git check → STATUS was 8 days stale, frozen pre-FOMC.
+2. **boot.py live pull** + credit_monitor (FRED 6/22) → tape: SPX 7,395 / VIX 18.95 / 10Y 4.48 / HY 265 / CCC−BB 791 / Brent $77 / USDJPY 161.6 / ARES −15% over gap.
+3. **Gap-research workflow** (wf_72007887, 6 agents + adversarial FOMC verify) → FOMC, BOJ, gap macro data, today's driver, froth verification.
+4. **Peer NEXUS_BRIEFs read** (VIOLET/SAM/BRENT/HAWK/LABOR; REGINALD absent) — corroborated FOMC (SAM), energy (BRENT), labor (LABOR).
+5. **WALTER board** — created board_log.tsv, dispositioned + git-mv'd 15 signals.
+6. **Resolved HEN-33** (MISS, nuanced) + **rewrote STATUS/MEMORY/NEXUS_BRIEF/LESSONS** + added HEN-34/35.
+7. **Committed** `d3fa6135` (pathspec-scoped — VIOLET's dirty workbook files untouched, no pull since at origin/master).
 
 ## GAPS / Still pending
-- **0DTE SPX share + GEX regime** — standing gap (manual estimate OK).
-- **Eval loose ends (cheap):** swap provisional `session_id`s (`cold1/cold2`) for actual clock times; add the smoke-test line to `evals/README.md`; optional Case 03 (KRE).
-- **CLAUDE.md boot/closeout wiring** — now UNBLOCKED (eval baselined); do post-FOMC. Scope around the boot-read *mechanism*; prove with a smoke-test, not the eval.
+- **0DTE SPX share + GEX** — standing gap (8+ sessions). Interim: WALTER SIG-006 dealer negative-gamma 7,500-7,375 (6/18). Native wire-up backlogged.
+- **VIOLET vol read STALE** (her STATUS frozen 6/12, pre-FOMC) — she owes a post-FOMC refresh; I used my own live pull.
+- **CLAUDE.md boot/closeout wiring** still unbuilt (eval baselined 6/15) — read-peer-briefs-at-boot done manually this session, not yet codified.
 
-## COMMITS (this session, all pushed to origin)
-`71f60467` STATUS straggler sweep · `ea3a9e43` eval v1 baseline · `47aebba8` VX dup-ID fix (renumber + remap) · `4e8e9b8a` mark VX collision resolved. (Tree clean, origin synced 0/0.)
+## COMMITS
+- `d3fa6135` — HENRY 6/23 post-FOMC catch-up (22 files: STATUS rewrite, PREDICTIONS HEN-33 MISS + HEN-34/35, MEMORY/LESSONS/NEXUS_BRIEF, board_log + 15 WALTER renames, research json).
+- `LAST_COMPLETION.md` — this file (separate closeout commit).
+- **Push DEFERRED** — Will-coordinated; note for next push window.
 
 ## NEXT SESSION FOLLOW-UP (catalyst dates)
-- **🔴 Tue-Wed 6/16-17 — FOMC + SEP/dot plot (Chair Warsh).** Live catalyst; bar = HAWKISH-OF-PRICING (0-cut already priced); reaffirmed 1-cut = dovish surprise (HEN-33, resolves 6/19). Log dots real-time; watch VIX <15 (arms soft-kill leg). **Full tape re-pull at that boot.**
-- **Tue 6/16 — BOJ** (SAM-primary; modal vol-crush, Ueda absent).
-- **Fri 6/19 — triple-witch opex** + HEN-33 resolves.
-- **~late Jul — BDC Q2 marks (BROCK)** = structural-axis test.
+- **Wed 6/24 — MU (Micron) earnings:** the AI-memory-demand pivot; extends or washes out the chip/positioning unwind (HEN-35).
+- **Thu 6/25 — May PCE** (+ GDP 3rd est, Durable Goods, claims): HEN-34 — core ≥+0.3% hardens the hawkish dots; ≤+0.2% starts the inverse-feedback (energy-collapse disinflation).
+- **Mon 6/30 — quarter-end** + JPM ~$165B global rebalance-selling into a negative-gamma/levered-ETF tape (HEN-35 cascade path).
+- **Tue 7/14 — June CPI:** first CPI with the Brent $77 collapse in it (BRENT inverse-feedback test).
+- **late Jul — BDC Q2 + WAL Q2 marks:** structural-axis transmission test (alts already cracking ahead of it).
 
-## THESIS SNAPSHOT (frozen at close ~2:30 PM)
-Unchanged from AM close. Cyclical axis soft-killed on the data (soft core CPI + collapsing energy + crushed vol + SPX fresh highs ~7,570 + 10Y 4.46); structural credit-bifurcation CONFIRMED but DORMANT (CCC−BB 786, not transmitting; KRE/WAL/APO up), headline HY 271 tightening toward the 260 soft-kill. VIX soft-kill leg closest to firing (16.04, ~1.0 above <15; VIX9D already 14.97). Live re-arm = FOMC dot plot, bar is hawkish-of-pricing.
+## THESIS SNAPSHOT (frozen at close, 6/23 ~1pm)
+Three axes. **(1) Cyclical — RE-ARMED but FRAGILE:** hawkish dots (2026 median 3.8%, hike bias) but set on hot MAY energy now collapsed (Brent $77) → inverse-feedback risk at PCE 6/25 / CPI 7/14; the hawkish surprise expressed in the 2Y (+15bps), 10Y anchored (curve flattened). **(2) Positioning — CRACKING, the live driver:** AI/semi unwind (KOSPI −9.99%, MU −11%, record SOXL-out/SOXS-in) into record concentration + negative gamma + month-end; so far a rotation (VIX 19<23, small-caps/value cushioning), not a cascade — HEN-35 @30%. **(3) Structural credit — CONFIRMED, now transmitting via alts:** CCC−BB 791 widening; ARES −15%/APO −7% (the "no public stress" tell broke). Live tape: SPX 7,395 (−2% off record), VIX 18.95, HY 265 (at HEN-30 trigger, complacent), KRE/WAL up today, USDJPY 161.6.
 
 ## WILL_NEEDS
-1. **Relay the MARCO correction** (drafted in-session) so next-MARCO doesn't burn a boot chasing a non-existent "shared VX.tsv" verify-task.
-2. **Eval session_id timestamps** — give me the two cold-session clock times and I'll swap them in (currently `cold1/cold2`).
-3. **Smoke-test line** — me adding it to `evals/README.md`, or ORC's draft? (cheap; queued either way.)
-4. **Two cross-agent signals still held** (no position work): APO→BROCK ("reassess Dec $95P") and Brent <$85→BRENT. Fire or keep holding?
-5. Nothing else outstanding. Working tree clean, all pushed.
+1. **Correction to relay (your call):** the "Fed flipped cut→HIKE 6/17" framing on the WALTER board is WRONG — the Fed HELD 12-0; the DOT PLOT flipped to a hike bias. Worth relaying so the fleet doesn't carry a phantom rate hike. (I didn't write WALTER's inbox — cross-agent exception-only.)
+2. **Outbox candidates (don't fire without OK):** (a) the FOMC correction → ALL/PROME; (b) AI/semi positioning-unwind + negative-gamma fragility → PROME/RED macro watch. (Vol broadcast is VIOLET's.)
+3. **FYI:** push deferred — `d3fa6135` + the LAST_COMPLETION commit await the next coordinated push window. VIOLET has uncommitted workbook files (a VIOLET session is likely live) — didn't touch them.
