@@ -1,85 +1,91 @@
 # Thesis Validation Criteria & Dependencies
 
----
-
-## Primary Thesis: "The Loaded Machine"
-
-Market is derivatives-driven, dealer hedging dominates short-term dynamics. Three fractures (Tech Rot, Margin Paradox, Earnings Quality Decay) create fragility. Crash risk is BINARY — stability persists until flows reverse.
-
-**Confirmed if:**
-- SPX breaks 6,494 → CTAs flip net short → $40-60B systematic selling (H1)
-- VIX >30 sustained → vol-control deleveraging becomes self-reinforcing
-- HY OAS peaks AND equity bottoms after (H4 — credit leads equity)
-- XLK breadth <40% → sector repricing begins (H7)
-- PLTR breaks $100 → AI thematic repricing (H5)
-
-**Partially validated:**
-- ✅ Gamma flip breached — SPX below 6,902 (Mar 3)
-- ✅ Put wall broken — SPX below 6,800 (Mar 3)
-- ✅ Short-term CTAs in sell mode — SPX below 50-DMA (Mar 3)
-- ✅ HY OAS floor rising — 265→284→308bps (Jan→Feb→Mar)
-- ✅ IG primary market frozen 2 consecutive days (Mar 2-3, first since COVID)
-- ✅ Credit-equity transmission ACTIVE — synchronized selling phase
-- ✅ Vol-control deleveraging ACTIVE — VIX 26.43 (Mar 3)
-- ✅ Beige Book confirms all 8 thesis pillars (Mar 4)
-
-**Invalidated if (TRIPLE-AND, per STATUS.md Apr 17 — tightened from single-condition OR):**
-- HY OAS <260 sustained **AND** VIX <15 sustained **AND** SPX >7,100 held 5+ sessions
-- OR: Employment strengthens (claims <220K + NFP >200K sustained) — independent falsifier
-- OR: BTFP 2.0 / equivalent Fed backstop announced — policy reset
-
-**Amber (partial falsification, thesis weakens but not dead):**
-- Any single condition of the triple-AND firing alone
-- SPX currently at 7,038 (above 7,000 but below 7,100 bracket) = amber-active
-- VIX currently 18.6 (above 15) = no vol-side confirmation yet
-- HY OAS 285 (above 260) = credit NOT confirming complacency
-
-**Apr 17 state:** Thesis evolved from "gamma cascade" (Mar selloff) to "complacency trap" (Apr compression). Mar validations below are historical — the live thesis is about the round-trip creating asymmetric setup for Apr 21-30 resolution window.
+*Confirm/invalidate scaffold for HENRY's live thesis + cascade & cross-agent dependencies. **Canonical live thesis = STATUS.md**; this file is the falsification layer. Reframed 2026-06-23 to the post-FOMC 3-axis regime — the prior "Loaded Machine / Credit-Primary" binary is preserved as a dated HISTORICAL log at the bottom.*
 
 ---
 
-## Secondary Thesis: "Credit-Primary" (upgraded Feb 27)
+## LIVE THESIS (as of 2026-06-23) — THREE AXES
 
-Credit stress drives equity, not the reverse. HY OAS is the primary signal. Slow grind (55% probability) > fast gamma cascade (30%).
+The 6/15 "cyclical soft-kill" read REVERSED on the hawkish FOMC 6/17 + the AI/semi positioning unwind 6/22-23. The underlying market-structure premise is unchanged (derivatives-driven, dealer-hedging-dominated, concentration-fragile — the old "Loaded Machine"); what changed is **which fractures are live**. Three axes now, each with its own falsifier.
 
-**Confirmed if:**
-- HY OAS breaks 320bps (LIQ-01 threshold)
-- Equity cannot rally while HY OAS still widening
-- IG issuance remains frozen >1 week
-- Bank credit tightening → shadow credit expansion confirmed
+### Axis 1 — CYCLICAL (rates / Fed): RE-ARMED but FRAGILE
+Hawkish-but-stagflationary FOMC (6/17): Fed HELD 12-0 but the SEP dots flipped cut→hike (2026 median 3.8% vs 3.4% Mar), PCE↑3.6% / GDP↓2.2%. The surprise hit the **2Y (+15bps)**; the 10Y anchored (curve flattened). But the dots were set on hot MAY energy that has since collapsed (Brent $77) → fragile.
+- **Confirmed if:** May core PCE (6/25) ≥+0.3% MoM **OR** June CPI (7/14) core hot → dots harden, 2Y holds/rises, July-hike pricing firms (**HEN-34**).
+- **Invalidated / softened if:** core ≤+0.2% → energy-collapse disinflation re-asserts, the hawkish dots read as over-tightening into a slowdown, front-end eases (inverse-feedback).
+- **Watch the 2Y, not the 10Y** — the tenor the hawkish surprise actually hit (HEN-33 lesson: a hawkish-into-a-GDP-cut Fed flattens the curve).
 
-**Partially validated:**
-- ✅ HY OAS 308bps, floor rising consistently
-- ✅ IG frozen 2 days (Mar 2-3)
-- ✅ Bank→shadow shift explicit in Beige Book (SF)
-- ✅ MFS fraud → Jefferies/Barclays → sector contagion pattern
+### Axis 2 — POSITIONING / FROTH (HENRY-domain): CRACKING — the live near-term driver
+AI/semi crowded-trade unwind (KOSPI −9.99% 6/22-23 on SK Hynix HBM capex; MU −11%, SMH −6.5%; record SOXL-out / SOXS-in) into record concentration (semis 18.8% of S&P, AI ~45%), record leveraged-ETF positioning, dealer negative gamma 7,500-7,375 (WALTER 6/18), + JPM ~$165B month-end rebalance into 6/30. So far a **ROTATION** (small-caps/value/Russell-record cushioning), not a cascade.
+- **Confirmed (→ cascade) if:** VIX >23 sustained (vol-control arms) + breadth collapses + levered-ETF rebalancing + negative-gamma amplification into 7,500-7,375 → the rotation becomes a systematic unwind (**HEN-35**, 30% by 7/17).
+- **Invalidated / contained if:** MU 6/24 beats + soft PCE 6/25 stabilize the AI book; VIX stays <23; small-caps/value keep absorbing → contained factor rotation, no cascade.
 
-**Invalidated if:**
-- SPX rallies >5% while HY OAS still widening (equities decouple from credit)
-- HY OAS reverses sharply without Fed intervention
-- IG issuance resumes at normal volume with no spread premium
+### Axis 3 — STRUCTURAL CREDIT: CONFIRMED, accelerating, now transmitting via alts
+CCC the sole tier widening over 1yr; **CCC−BB 791** (ratio 6.07×, Δ5d +13). The "alts = no public stress" tell BROKE this week (ARES −15% / APO −7%) — the K-split is starting to transmit.
+- **Confirmed if:** CCC−BB keeps widening + alts crack further + **BDC Q2 marks (late Jul)** show NAV / non-accrual deterioration → bifurcation transmits to equity.
+- **Invalidated if:** CCC−BB compresses back toward BB, alts re-entrench (APO sustained >$130), BDC Q2 marks benign.
+
+### WHOLE-THESIS INVALIDATION (the stress thesis dies only if ALL axes de-arm)
+Soft-kill returns across all three: **VIX <15 sustained AND HY OAS <260 sustained AND CCC−BB compressing AND SPX new highs held.**
+
+⚠️ **SPX >7,100 is NOT a kill leg.** Lesson 6/23: SPX held >7,100 the entire time (7,395 now) yet the thesis RE-ARMED — price-above-a-level does not falsify a thesis whose driver rotated to rates + positioning. The **Apr-17 triple-AND (HY<260 AND VIX<15 AND SPX>7,100) is RETIRED** — its SPX leg was empirically falsified.
+
+**Independent falsifiers (any → bearish thesis weakens):**
+- Employment strengthens decisively: claims <220K **+** NFP >200K sustained. *(State: NOT met — NFP +172K, claims 226K. But LABOR's Kill A [3× ≥200K] has Mar [revised 214K] as #1, so it's a live BULL threat, not a fired falsifier.)*
+- Fed backstop / dovish pivot — e.g., the inverse-feedback (soft PCE/CPI) forces a walk-back of the 6/17 hawkish dots.
 
 ---
 
-## Cascade Sequence Dependencies
+## CURRENT AXIS STATE [yf/FRED 6/23 ~1pm]
+
+| Axis | State | Live tape |
+|------|-------|-----------|
+| 1 — Cyclical | RE-ARMED, fragile | 10Y 4.48 / 2Y ~4.20 (+15bps on FOMC); hawkish dots vs collapsed energy ($77) |
+| 2 — Positioning | CRACKING (rotation, not yet cascade) | VIX 18.95 (<23), SPX 7,395 (−2% off the 6/15 record); semis/MU/ARES leading down |
+| 3 — Structural credit | CONFIRMED, accelerating | CCC−BB 791/6.07×, HY 265 (at HEN-30 trigger), alts cracking |
+
+---
+
+## Cascade Sequence Dependencies [refreshed 6/23 — cascade DORMANT]
 
 | Step | Trigger | Status | Depends On |
 |------|---------|--------|------------|
-| 1. Vol-Control | VIX >23-24 | ✅ ACTIVE | VX-HEN-4.01 |
-| 2. Short-Term CTA | SPX < 50-DMA (6,883) | ✅ ACTIVE | VX-HEN-15.02 |
-| 3. Medium-Term CTA | SPX < 6,707 sustained | ⚠️ ARMED | VX-HEN-15.06 |
-| 4. Long-Term CTA | SPX < 6,494 | Not triggered | H1 prediction |
-| 5. Risk Parity | Cross-asset correlation spike | 🔄 BUILDING | FLOW-HEN-009 |
-| 6. Credit Contagion | HY OAS +50bps in 5d | ✅ ACTIVE | VX-HEN-16.01, LIQUID |
+| 1. Vol-Control | VIX >23-24 | **DORMANT** (VIX 18.95, cushion 4.05) | VX-HEN-4.01 |
+| 2. Short-Term CTA | SPX < 50-DMA (level STALE — repull) | **DORMANT** (SPX 7,395 above) | VX-HEN-15.02 |
+| 3. Medium-Term CTA | SPX < medium trigger (6,707 STALE) | **DORMANT** (~688pts above the stale level) | VX-HEN-15.06 |
+| 4. Long-Term CTA | SPX < long trigger (6,494 STALE) | **DORMANT** | H1 |
+| 5. Risk Parity | Cross-asset correlation spike | **WATCH** (all-correlations-positive re-emerging — WALTER 6/22) | FLOW-HEN-009 |
+| 6. Credit Contagion | HY OAS +50bps in 5d | **DORMANT** (HY 265, complacent headline) | VX-HEN-16.01, LIQUID |
+| 7. Positioning Unwind (NEW) | VIX >23 + AI/semi breadth break + levered-ETF rebalance | **LIVE-WATCH** (rotation underway, HEN-35) | FLOW gamma layer, WALTER |
+
+⚠️ CTA/gamma trigger LEVELS (6,707 / 6,494 / 6,902 / 6,800) are STALE-pending a live SpotGamma/Goldman repull — SPX is ~700pts above them. The live amplifier zone is the **7,500-7,375 negative-gamma band** (WALTER 6/18).
 
 ---
 
-## Cross-Agent Dependencies
+## Cross-Agent Dependencies [refreshed 6/23]
 
-| Signal | Source Agent | HENRY Impact |
-|--------|-------------|-------------|
-| Employment break (claims >300K) | LABOR | Structural bid breaks → cascade acceleration |
-| HY OAS >320bps | LIQUID | Credit transmission confirmed → H4 validates |
-| Carry unwind (yen strengthens) | SAM | Phase 2 → systematic deleveraging |
-| KRE <$60 | REGINALD | Regional bank stress → credit-equity transmission |
-| Hormuz escalation | HAWK | Oil >$100 → Fed hold locked → stagflation regime |
+| Signal | Source | HENRY Impact | State |
+|--------|--------|-------------|-------|
+| Employment break (claims >300K) | LABOR | Structural bid breaks → cascade | NOT fired — claims 226K; WARN +16.3% → late-Jul watch |
+| HY OAS >320bps | LIQUID | Credit transmission → H4 validates | NOT fired — HY 265 (complacent headline); bifurcation underneath (CCC−BB 791) |
+| Carry unwind (yen strengthens) | SAM | Phase 2 → systematic deleveraging | DORMANT — BOJ hiked 1.0% as-priced 6/16, no unwind; USD/JPY 161.6 (yen weak). Re-couples on a VIX spike (SAM-31) |
+| KRE <$60 | REGINALD | Regional bank stress → credit-equity | NOT fired — KRE 72.63 |
+| Hormuz escalation → oil >$100 | HAWK | Fed hold locked → stagflation | REVERSED — Hormuz reopened 6/15, Brent $77 (disinflationary). Stagflation arrived via the FOMC SEP, not oil |
+| AI/semi positioning unwind | WALTER / HENRY | Vol-control + gamma cascade (NEW Axis 2) | LIVE — KOSPI −9.99%, MU −11%, negative gamma 7,500-7,375 |
+
+---
+
+## HISTORICAL — Mar/Apr 2026 validation log (dated; do NOT read as current)
+
+*The original framing arc: "Loaded Machine" (gamma cascade, Mar selloff) → "Complacency Trap" (Apr compression) → "Credit-Primary" (Feb-27 upgrade). Preserved as a dated validation record; superseded by the 3-axis reframe above.*
+
+**Primary "Loaded Machine" — Mar validations (historical):**
+- ✅ Gamma flip breached SPX <6,902; put wall <6,800; short CTAs <50-DMA (Mar 3)
+- ✅ HY OAS floor rising 265→284→308 (Jan→Feb→Mar); IG primary frozen 2 days (Mar 2-3, first since COVID)
+- ✅ Credit-equity transmission + vol-control deleveraging ACTIVE (VIX 26.43, Mar 3)
+- ✅ Beige Book confirmed all 8 thesis pillars (Mar 4)
+- Original confirm-if: SPX <6,494 → CTAs flip (H1); VIX >30 sustained; XLK breadth <40% (H7); PLTR <$100 (H5). *Note: the AI repricing eventually fired via SEMIS (MU/SMH/KOSPI, Axis 2), not the PLTR-$100 proxy; the 6,494 CTA level is stale.*
+
+**Secondary "Credit-Primary" (Feb 27 upgrade) — Mar validations (historical):**
+- ✅ HY OAS 308bps, floor rising; IG frozen 2 days; bank→shadow shift (SF Beige Book); MFS fraud → Jefferies/Barclays contagion
+- Original confirm/invalidate: HY >320 (LIQ-01); decouple-invalidate if SPX +5% while HY widening. *Note: the decouple rule effectively fired the OTHER way — SPX round-tripped to ~record while CCC widened, yet the thesis held via the re-arm; the operative credit trigger moved to HEN-30 (HY 265 / kill 260) + the CCC−BB bifurcation.*
+- Original probability split: slow grind 55% > fast gamma cascade 30%. *Superseded: the dominant 6/23 driver is a third path — positioning-unwind/rotation (Axis 2) — not in the original binary.*
