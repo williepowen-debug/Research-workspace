@@ -1,6 +1,6 @@
 # LIQUID — Calendar & Data Releases
 
-**Last Updated:** 2026-06-20 Sat (rolled forward from 6/12; FOMC 6/17 + TIC 6/18 + June auctions resolved → archive)
+**Last Updated:** 2026-06-23 Tue (rolled from 6/20; Mon 6/22 cluster resolved → archive: HY-OAS Trigger-A benign, Brent decoupling PASSED, CFTC held)
 
 > **Source-of-truth pairing:** `workbook/CATALYSTS.tsv` is the machine-readable forward-event docket (dated rows, consumed by the boot countdown). **This human calendar is its twin — they must not diverge in the *event set*.** When you add or resolve a dated catalyst, update both. Rolling daily watches (HY-OAS direction, 30Y <4.90 unwind, USD/JPY, SOFR-IORB) are NOT dated catalysts — they live in STATUS danger windows + `scripts/boot.py`, not CATALYSTS.tsv.
 
@@ -10,14 +10,14 @@
 
 | Date | Event | Signal Threshold | Who Cares |
 |------|-------|-----------------|-----------|
-| **Mon Jun 22** | **FRED posts 6/18 HY OAS** | Resolves TRIGGER A on the <260 watch (263 at 6/17, 3bps cushion; <260 sustained = 🔴 ALL / LIQ-01 kill) | LIQUID |
-| **Mon Jun 22** | **Brent open — Hormuz decoupling test** | Iran re-declared Strait closed 6/20 (declaratory). Spike → watch energy-HY-OAS (>300 trip) + flight-to-safety UST bid; shrug → decoupling holds. Price authority = BRENT | LIQUID, HAWK, BRENT |
-| **Mon Jun 22** | **CFTC JPY positioning** (Juneteenth-delayed) | SAM decision-gate: carry-fuel 81% of peak, no cover; USD/JPY 161 / no intervention | LIQUID, SAM |
-| Daily | **HY OAS direction** | 263 (6/17); <260 = soft-kill; >320 = confirmation. CCC-BB 783 (pin — falsifier <400) | LIQUID |
-| Daily | **30Y <4.90 unwind test** | 4.93 (6/17), 3bps away; <4.90 sustained = duration-leg unwind | LIQUID |
-| Daily | SOFR-IORB / USD/JPY >160 | −2bps clean; USD/JPY 161 triggered, intervention-risk | LIQUID, SAM |
-| **Wed Jun 24** | **EIA WPSR — Cushing** | Sub-20M → BRENT Boundary #3 (WTI delivery-dislocation) inbound to LIQUID/HENRY/RED | LIQUID, BRENT |
+| **Wed Jun 24** | **EIA WPSR — Cushing** | Sub-20M → BRENT Boundary #3 (WTI delivery-dislocation) inbound to LIQUID/HENRY/RED. Cushing 20.03M at the floor (wk-6/19) | LIQUID, BRENT, HENRY, RED |
+| **Wed Jun 24** | **BOJ Summary of Opinions** | Hike rationale + next-hike cadence (7-1 Asada dissent). Pillar-1 read for USD/JPY + Japan repat timing. SAM-primary | SAM, LIQUID |
+| **~Thu Jun 25** | **May PCE** | Soft core → front-end eases, hawkish dots unwind (HENRY HEN-34 inverse-feedback); hot core → higher-for-longer. The bear's growth/inflation re-fire gate | LIQUID, HENRY |
 | **~Thu Jun 25** | **Late-June Treasury auctions** (2Y/5Y/7Y) | Indirect <55% sustained = FOI demand-hole confirm; June refunding 20Y/5Y-TIPS were STRONG (71.6%/68.6%). Accepted basis | LIQUID |
+| Daily | **HY OAS direction** | 265 (6/22), bounced off the 263 low; <260 = soft-kill (5bps cushion); >320 = confirmation. CCC-BB 791 (pin — falsifier <400) | LIQUID |
+| Daily | **Duration** | 30Y 4.95 (backed up off the <4.90 unwind); 10Y 4.51 (above the 4.50 pivot); 2Y 4.24 (highest since Feb-25) | LIQUID |
+| Daily | **Alts/PC + vol** | APO/ARES (AI-unwind PC→public transmission watch); VIX 19.5 (>23 = HENRY vol-control/cascade) | LIQUID, HENRY |
+| Daily | SOFR-IORB / USD/JPY >160 | −4bps clean; USD/JPY 161.6 triggered (repat pushed to a Sep tail, SAM) | LIQUID, SAM |
 
 ## Later (2026)
 
@@ -39,7 +39,10 @@
 
 | Date | Event | Outcome |
 |------|-------|---------|
-| Jun 17 | **June FOMC (Warsh debut)** | **HAWKISH HOLD 3.50-3.75% unanimous 12-0.** Dots flipped hike-leaning (2026 median +~35-40bps to ~3.80%; 9/18 hike by YE; 17/18 upside inflation risk). Statement 341→130 words; "ample reserves" reaffirmed; no QT paragraph. **5 review task forces incl. Balance-Sheet Policy.** Bear-flattener: 2Y +16bps (4.18-4.22), 30Y −2 (4.90-4.93), DXY 1yr highs. Integrated 6/20 → KB-LIQ-060 candidate (duration-transmission inversion) |
+| Jun 22 | **HY OAS 6/18-6/19 prints (TRIGGER-A resolver)** | **RESOLVED BENIGN.** 263(6/17)→266(6/18)→266(6/19)→265(6/22) — the 263 was a one-print low; TRIGGER A (<265 ×2) never fired. Soft-kill threat receded, cushion 5bps stable. CCC-BB WIDENED to 791 (pin firming). → KB-LIQ-061 candidate |
+| Jun 22 | **Brent Hormuz decoupling test** | **PASSED — shrug.** Iran's 6/20 re-closure was declaratory/non-kinetic; Brent fell to $77.90 (lowest since early March), curve flipped to contango. US Treasury 60-day Iran-crude license 6/22 = disinflationary. Decoupling holds (HAWK/BRENT) |
+| Jun 22 | **CFTC JPY COT** (Juneteenth-delayed) | Net −150,132 (83.4% of peak); HELD through the BOJ hike, no cover. But carry window now LOCKED to Sep-18 (a Sep convexity tail, not near-term). No intervention (MOF silent 6d). SAM-domain |
+| Jun 17 | **June FOMC (Warsh debut)** | **HAWKISH HOLD 3.50-3.75% unanimous 12-0.** Dots flipped hike-leaning (2026 median +~35-40bps to ~3.80%; 9/18 hike by YE; 17/18 upside inflation risk). Statement 341→130 words; "ample reserves" reaffirmed; no QT paragraph. **5 review task forces incl. Balance-Sheet Policy.** Bear-flattener: 2Y +16bps (4.18-4.22), 30Y −2 (4.90-4.93), DXY 1yr highs. Integrated 6/20 → KB-LIQ-060 authored (duration-transmission inversion) |
 | Jun 18 | **May TIC (April flows)** | **Total net +$26.1B; LT +$206.0B (private LT +$164.4B / official +$41.6B); broad private −$23.1B OUTFLOW, official +$49.2B offset.** Official FOI bid carried a private-outflow month. Japan UST $1.210T↓, China $651B, UK $938B↑. Belgium unconfirmed. Touches Leg B kill (1 of 2 prints). Routed ACTION → BOND |
 | Jun 18 | **5Y TIPS reopening (91282CQP9)** | **STRONG: indirect 68.6%, dealer 3.4%, BTC 2.61, real HY 1.955%.** Accepted basis, Treasury fiscal-data API |
 | Jun 16 | **20Y reopening (912810UV8)** | **STRONG: indirect 71.6%, dealer 8.5%, BTC 2.75, HY 4.927%.** Long-end demand FIRMED vs soft 6/11 30Y (59.9%). Accepted basis |
