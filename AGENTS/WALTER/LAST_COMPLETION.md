@@ -81,7 +81,7 @@ A productive persistent session that cleanly handled three distinct Will asks pl
 6. ✅ **DEWEY EDGAR/PDF tooling DONE** (`edgar_doc.py` + `pdf2text.py`, committed `1b1443e0`) — closes the recurring bank-filing-research blocker. Next DEWEY run: read 10-Qs directly (resolve BKU-vs-AMTB attribution + FL-loan-% gaps) + parse the OIR PDF for the +18.8% uncapped figure.
 
 **🆕 DEWEY + Scout (carried):**
-7. **DEWEY Prompt B (FL property-tax amendment)** — staged in `outbox/`; Will spawns. **Scout build** — see `AGENTS/DEWEY/REVIVAL_PLAN.md` (likely consolidate scripts under DEWEY).
+7. **DEWEY Prompt B (FL property-tax amendment)** — staged in `outbox/`; Will spawns. **Scout build — full step-by-step spec written 6/22: `design/SCOUT_BUILD_PLAN.md`** (Will works it tomorrow). Gating = Will's §2 prereqs (rotate the compromised `***REMOVED***` token → BotFather; add `SCOUT_BOT_TOKEN` + `SCOUT_CHAT_ID` Secrets; add bot to WALTER+PROME group; authorize WALTER/PROME to touch `.github/workflows/` + `FORGE/tools/`). Then WALTER/DEWEY builds §3 (scout.yml Action: run sweep.py + poll_edgar.py, curl digest to group, NEVER git; actions/cache dedup). EIA/Cushing fold-in = v1.1.
 
 **🆕 Registry (carried):**
 8. **TERRY** tier/routing-integration TBC. **CRE/CMBS→CREED ROUTING_TABLE decision pending.** **6 dormant unregistered dirs** (BUFFER/DOC/EARNINGS/FOREX/REITS/TRADES) → Will completeness decision.
