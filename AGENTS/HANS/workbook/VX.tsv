@@ -23,7 +23,7 @@ VX-HANS-4.03	Fed-ECB Deposit Differential	POLICY	150	250	275	300	GREEN	HIGH	2026
 VX-HANS-4.04	ECB Balance Sheet	POLICY	6000	5700	5400	5100	GREEN	HIGH	2026-02-13	ECB	EUR billions - QT in progress, peak 8800
 VX-HANS-4.05	ECB Excess Liquidity	POLICY	2500	2200	2000	1800	GREEN	HIGH	2026-02-13	ECB/BofA	EUR billions - below 2000 = stress risk
 VX-HANS-4.06	US-German 10Y Spread	POLICY	156	150	130	110	GREEN	HIGH	2026-06-22	derived	Bps; UST 4.52 / Bund 2.96; modestly tighter as Bund sold off on ECB hike
-VX-HANS-5.01	Euro Stoxx Banks Index	BANKING	TBD	TBD	TBD	TBD	PENDING	LOW	2026-02-13	Bloomberg	Need baseline
+VX-HANS-5.01	Euro Stoxx Banks Index	BANKING	268	240	210	180	GREEN	MEDIUM	2026-06-22	STOXX/Investing	SX7E price index ~268 near cycle highs (Jun 22 risk-on rally, UK lenders +3-4%); thresholds = rough drawdown markers (~-10/-22/-33%), recalibrate
 VX-HANS-6.01	Fed Foreign Official Custody	UST_DEMAND	TBD	TBD	TBD	TBD	PENDING	MEDIUM	2026-02-13	FRED WMTSECL1	Weekly - watch for Belgium shifts
 VX-HANS-6.02	UK Pension Funding Ratio	UK_PENSIONS	95	100	105	110	GREEN	MEDIUM	2026-02-13	TPR est	Above 105% = risk asset rotation risk
 VX-HANS-6.03	UK Pension LDI Leverage	UK_PENSIONS	0.20	0.18	0.15	0.12	GREEN	LOW	2026-02-13	TPR est	Leverage as % of assets - post-crisis reduction
@@ -43,7 +43,7 @@ VX-HANS-9.01	ARA ULSD Diesel Crack vs Brent	DIESEL	21.7	25	35	45	GREEN	HIGH	2026
 VX-HANS-9.02	German Pump Diesel Price	DIESEL	1.714	1.80	2.00	2.20	YELLOW	HIGH	2026-02-18	fuel-prices.eu	EUR/liter - 15.7% above EU avg (€1.536); >€2.00 industrial crisis threshold
 VX-HANS-9.03	Russian Total Diesel Exports	DIESEL	900	800	650	500	YELLOW	HIGH	2026-02-18	Vortexa/Kpler	Thousand bpd (global, all destinations); Jan 2026 recovering from Sep 2025 low of 586k
 VX-HANS-9.04	EU ARA Diesel Stocks vs 5yr Avg	DIESEL	-20	-10	-20	-30	ORANGE	MEDIUM	2026-02-18	Euroilstocks	% vs 5-year average; ARA at 4.5-month low end Dec 2025
-VX-HANS-9.05	European Diesel Imports (ex-Russia)	DIESEL	850	800	700	600	YELLOW	HIGH	2026-02-18	IEA/Kpler	Thousand bpd; India/Turkey ~160k bpd at risk from EU 18th sanctions
+VX-HANS-9.05	European Diesel Imports (ex-Russia)	DIESEL	850	800	700	600	YELLOW	HIGH	2026-02-18	IEA/Kpler	Thousand bpd; India/Turkey ~160k bpd at risk from EU sanctions (now at 20th package, Apr 2026; value Feb-stale, refresh pending)
 VX-HANS-10.01	German IP YoY Momentum	GERMAN_INDUSTRIAL	-0.6%	<-1%	<-2%	<-3%	YELLOW	MEDIUM	2026-02-18	Destatis Dec 2025	6th consecutive YoY decline; full year 2025 = -1.1%
 VX-HANS-10.02	German Manufacturing PMI (Latest)	GERMAN_INDUSTRIAL	49.0	<48	<45	<42	GREEN	HIGH	2026-06-22	HCOB Jun flash	June flash 49.0, 34-mo high, 1st new-orders rise in >1yr; still sub-50
 VX-HANS-10.03	US ISM vs German IP Signal Gap	TRANSMISSION	+5.5 pts	>3	>5	>8	ORANGE	MEDIUM	2026-02-18	Analysis	ISM 52.6 vs German signal ~47; tariff distortion present; historically closes 1-2Q
