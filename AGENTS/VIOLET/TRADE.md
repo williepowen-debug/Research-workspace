@@ -8,6 +8,8 @@ VIX-linked positions and trade framework.
 
 **None.** Episode-17 (VIX May 19 25C) expired worthless 2026-05-19 — closed out below. *(Closeout recorded 6/9; this file had carried the position as OPEN for 3 weeks after expiry — caught by orchestrator review.)*
 
+**Pre-registered, NOT entered (pending Will approval):** **Post-Path-B Reversion Fade** — see LIVE DECISION FRAMEWORK below. Arms only AFTER Micron 6/24 clears without re-igniting the semis unwind, on a clean reversion setup. Defined-risk, starter size. The conditions are pre-registered; the trade is not pre-authorized.
+
 ---
 
 ## CLOSED POSITIONS
@@ -60,9 +62,51 @@ VIX-linked positions and trade framework.
 
 ---
 
-## LIVE DECISION FRAMEWORK — Event-Premium Fade (M2/Jul into FOMC) — NEW 6/9
+## LIVE DECISION FRAMEWORK — Post-Path-B Reversion Fade (pre-registered 2026-06-23, flat)
 
-**The decision that opens post-CPI 6/10.** Framework written BEFORE the print (8:30 ET 6/10) so the entry is pre-registered, not improvised.
+**The decision that opens after Micron 6/24.** Pre-registered while flat so the entry is disciplined, not improvised by the tape. This is VIOLET's current "fade the VIX" trigger — it supersedes the (now-closed) Event-Premium Fade below, but reuses that section's still-valid falsification architecture (credit 2-bin tree / n=5 tail-stop / time-box).
+
+**Thesis:** the 6/23 VIX +12.8% to 19.49 was the Path-B coiled-spring's FIRST partial-fire (KB-VIO-105) — a contained, ORDERLY semis/AI positioning unwind (KOSPI / SK-Hynix HBM shock), NOT broad risk-off, credit, oil, or rates (breadth held, credit tight, OVX fell, yields eased, vol structure orderly). Base rate: an orderly sub-20 vol pop on a single-sector shock mean-reverts (~2/3 back toward 16-17 within 1-2 weeks). The fade harvests that reversion + the re-steepening contango — but ONLY once the binary that can re-light it (Micron) clears and the front rolls over. Entering before that = short vol into the negative-gamma + record-leverage tail the night before a ~17%-implied AI bellwether = the textbook bad short-premium add.
+
+**THE FORK — Micron 6/24 AH decides which branch activates:**
+- **MU holds / relieves** (no semis follow-through gap-down) → this **reversion fade ARMS**.
+- **MU breaks** (semis make new lows, unwind re-accelerates) → **fade DEAD**; the OTHER branch — a small long-vol/tail hedge (HEDGING PROTOCOL, "geopolitical/▲event live" row, sized 🟡) — activates instead. Do NOT fade a re-accelerating unwind.
+
+**Entry gate (ALL required; initiate ONLY on a vol-DOWN / green day — never sell vol on a red day, per the puts-green/calls-red rule):**
+1. **Micron cleared without re-igniting** — 6/24 AH earnings past AND semis stable-or-up the next session (SOX/MU/NVDA not making new lows; HENRY read).
+2. **Vol rolling over** — VIX back below ~18 (confirming reversion off 19.49), on a green-equity / down-VIX day.
+3. **Front premium draining** — VIX9D/VIX back below ~0.95 (front hump deflating; 1.00 now) AND/OR VIX3M/VIX contango re-steepening toward ≥1.10 (flattened to 1.081 on the spike). Re-steepening contango is what the fade actually harvests.
+4. **No new fragility fire** — credit still clean (CCC <9.55, no Bin-A; fine now); OVX not re-bidding; SOXL/SOXS flows stabilized; no fresh AI-name shock.
+5. **6/30 month-end managed** — the ~$165B rebalance into negative gamma is a within-horizon amplifier: ENTER AFTER 6/30 passes cleanly (preferred), or take ≤50% size before it.
+
+**Structure (defined-risk / non-naked-short-gamma ONLY — sizing rule above):**
+1. **Primary: short-front vs long-back VIX futures calendar** (short M1/Jul vs long M2/Aug) — collects the front-hump deflation as contango re-steepens; back leg hedges parallel shifts; not naked short-gamma. Re-quote the live spread at entry (M1:M2 +6.54% on the 6/22 settle).
+2. **Alt (fully defined risk):** a VIX call credit spread (sell near-the-money, buy higher), max-loss = the risk budget; or a long VXX/UVXY put spread (decay tailwind, defined risk).
+3. **NOT:** naked short VIX futures, short straddles/strangles, SVIX holds.
+
+**Sizing:** short-premium into a fragile (Path-B-fired) regime → **starter ≤0.5% account, defined-risk** (one tier below equivalent long-vol). Scale only after reversion confirms AND the leverage/negative-gamma overhang has worked off.
+
+**Target / time-box:** VIX reverts toward the pre-spike base **~16-17** / contango back to normal. **Time-box ~2-3 weeks** — comes off by the registered window whether or not fully deflated (grind-failure class); no extension without a written re-underwrite.
+
+**Kill / falsification (any one → don't enter, or exit if on) — reuses the registered architecture from the closed framework below:**
+- **Micron breaks the tape** (pre-entry) → fade dead, flip to the tail/hedge branch.
+- **Credit (PRIMARY):** CCC ≥9.55 → 2-bin tree (KB-VIO-090); any Bin-A (HY ≥2.85 / BB ≥1.73 / CCC−BB ≥8.00 / CCC ≥9.65) → Path A confirming, FALSIFIED, full stop.
+- **VIX >23 close-and-hold n=5** (tail-stop, KB-VIO-088; counter 0/5).
+- **VIX3M/VIX inverts** (<1.0) → peak/stress being priced, no fade.
+- **VVIX >120** → vol-of-vol stress, no fade.
+- **Second Path-B leg** (semis new lows / fresh leveraged-ETF reversal / AI-name shock) → unwind live, not a fade.
+
+**Spot-conditioned kill levels derive AT pricing time (KB-VIO-099)** — do NOT hard-code a stale VIX level; set the structure's strikes/stop when the trade is actually priced, naming the computing-spot + as-of date.
+
+**Approval:** structure + size goes to Will before any execution. This pre-registers the conditions; it does NOT pre-authorize the trade.
+
+---
+
+## LIVE DECISION FRAMEWORK — Event-Premium Fade (M2/Jul into FOMC) — NEW 6/9 · **CLOSED 6/23**
+
+**STATUS: CLOSED — window passed, never entered.** Gates failed twice on 6/10 (CPI/Iran); the BOJ 6/16 + FOMC 6/17 catalyst window then resolved benignly (absorbed, counter 0/5). Superseded by the Post-Path-B Reversion Fade above. **Retained for its falsification architecture** (credit 2-bin tree KB-VIO-090, n=5 tail-stop KB-VIO-088, time-box, ladder KB-VIO-099) — which the new framework references rather than re-deriving.
+
+**The decision that opened post-CPI 6/10.** Framework written BEFORE the print (8:30 ET 6/10) so the entry is pre-registered, not improvised.
 
 **Thesis:** the 6/5 NFP spike left an event-premium hump, located (convexity_read 6/9) at the VIX9D kink (+2.27 over spot) and the M1:M2 contango (+7.50% adj). Both fade legs (rate-shock, AI-unwind) are deflating; credit never confirmed. If CPI passes non-tail, the remaining premium is fade-able into/through FOMC 6/17.
 
@@ -144,4 +188,4 @@ Inversion (VIX > VIX3M) **marks vol peaks, not onsets** (KB-VIO-034: 553 events,
 ---
 
 *Created: 2026-04-12*
-*Last Updated: 2026-06-09 PM (orchestrator-review item #2: Episode-17 closed out [expired 5/19, had sat OPEN 3 weeks]; Event-Premium Fade framework added pre-registered ahead of the 6/10 CPI decision; 94% citations re-pointed at the L1 canonical base-rate table [KB-VIO-079]; short-premium sizing column added.)*
+*Last Updated: 2026-06-23 PM (Will ask — pre-registered the **Post-Path-B Reversion Fade** trigger while flat: arms only AFTER Micron 6/24 clears without re-igniting, on a clean vol-rollover setup; defined-risk calendar or call-spread, starter ≤0.5%, target VIX 16-17, ~2-3wk time-box; Micron is the explicit fork [holds→fade / breaks→tail hedge]; reuses the closed framework's credit-tree/n=5/time-box falsification. Prior Event-Premium Fade [6/10 CPI→FOMC] marked CLOSED — never entered, window resolved benignly. Conditions pre-registered, trade NOT pre-authorized — to Will for approval. Prior: 2026-06-09 PM Episode-17 closeout + Event-Premium Fade framework.)*
