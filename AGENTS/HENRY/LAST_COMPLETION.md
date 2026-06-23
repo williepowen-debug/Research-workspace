@@ -6,7 +6,7 @@
 ---
 
 ## RESULT (one line)
-Caught the regime flip the 8-day-stale STATUS missed — the 6/15 "soft-kill intensifying" read is dead: the Fed HELD 6/17 but flipped the dots hawkish (cut→hike bias, stagflationary SEP), and the crowded AI/semi trade started unwinding into a fragile tape; debunked the fleet's "Fed hiked" error, resolved HEN-33 MISS, rewrote STATUS, processed 15 WALTER signals. Committed locally (`d3fa6135`); push deferred (Will-coordinated).
+Caught the regime flip the 8-day-stale STATUS missed — the 6/15 "soft-kill intensifying" read is dead: the Fed HELD 6/17 but flipped the dots hawkish (cut→hike bias, stagflationary SEP), and the crowded AI/semi trade started unwinding into a fragile tape; confirmed the Fed HELD (not hiked) against WALTER's ambiguous "cut→HIKE" board shorthand, resolved HEN-33 MISS, rewrote STATUS, processed 15 WALTER signals. Committed locally (`d3fa6135`); push deferred (Will-coordinated).
 
 ## CHANGED (files)
 - `STATUS.md` — **full rewrite** (205 lines) to the 3-axis post-FOMC regime (cyclical re-arm / positioning-unwind / structural credit); new LIVE TAPE, VOL REGIME, DATA LOG (FOMC/BOJ/PMI/retail/claims), thresholds, catalyst stack, predictions, bottom line.
@@ -47,6 +47,6 @@ Caught the regime flip the 8-day-stale STATUS missed — the 6/15 "soft-kill int
 Three axes. **(1) Cyclical — RE-ARMED but FRAGILE:** hawkish dots (2026 median 3.8%, hike bias) but set on hot MAY energy now collapsed (Brent $77) → inverse-feedback risk at PCE 6/25 / CPI 7/14; the hawkish surprise expressed in the 2Y (+15bps), 10Y anchored (curve flattened). **(2) Positioning — CRACKING, the live driver:** AI/semi unwind (KOSPI −9.99%, MU −11%, record SOXL-out/SOXS-in) into record concentration + negative gamma + month-end; so far a rotation (VIX 19<23, small-caps/value cushioning), not a cascade — HEN-35 @30%. **(3) Structural credit — CONFIRMED, now transmitting via alts:** CCC−BB 791 widening; ARES −15%/APO −7% (the "no public stress" tell broke). Live tape: SPX 7,395 (−2% off record), VIX 18.95, HY 265 (at HEN-30 trigger, complacent), KRE/WAL up today, USDJPY 161.6.
 
 ## WILL_NEEDS
-1. **Correction to relay (your call):** the "Fed flipped cut→HIKE 6/17" framing on the WALTER board is WRONG — the Fed HELD 12-0; the DOT PLOT flipped to a hike bias. Worth relaying so the fleet doesn't carry a phantom rate hike. (I didn't write WALTER's inbox — cross-agent exception-only.)
-2. **Outbox candidates (don't fire without OK):** (a) the FOMC correction → ALL/PROME; (b) AI/semi positioning-unwind + negative-gamma fragility → PROME/RED macro watch. (Vol broadcast is VIOLET's.)
+1. ~~Correction to relay~~ **RESOLVED — no fleet message (Will 6/23).** On checking, the fleet has the FOMC right: SAM/RED frame "cut→HIKE" as the pricing/dots flip, and REGINALD explicitly caught the WALTER shorthand via IORB (flat 3.65 → no hike). The Fed HELD; dots flipped. I over-stated this as a "fleet error" in the first pass — corrected, no action.
+2. **No outbox this session (Will 6/23 — no fleet message).** AI/semi positioning-unwind + negative-gamma fragility tracked in-domain (HEN-35). (Vol broadcast is VIOLET's; she refreshed 6/23, converges.)
 3. **FYI:** push deferred — `d3fa6135` + the LAST_COMPLETION commit await the next coordinated push window. VIOLET has uncommitted workbook files (a VIOLET session is likely live) — didn't touch them.
