@@ -2,7 +2,7 @@
 
 **Purpose:** Ephemeral session handoff — the canonical "where are we / what next" file. Read at boot (SPAWN PROTOCOL step 2), rewritten in full at closeout (step 11). Disposable. Supersedes the Jun-20 SCRATCH.
 
-**Session arc:** Booted Mon Jun 22 PM (after Will-coordinated pull — already synced). Processed 3 Jun-21 WALTER signals. Ran a verification sweep (`wf_21dca756-c61`, 4 finders + adversarial synth) to ground the Monday read — it **confirmed de-escalation** and surfaced two things I didn't have at boot: (1) the **US Treasury 60-day Iranian-crude license** + concluded 60-day roadmap = the first *supply-return mechanism*; (2) the boot $78.14 was an after-hours tick, real **settle $77.90**. Bumped **THESIS v4.1→v4.2 (minor)**, corrected STATUS, wired a real **LIVE mode into eia_weekly.py**, and closed out. **Push DEFERRED — Will-coordinated.**
+**Session arc:** Booted Mon Jun 22 PM (after Will-coordinated pull — already synced). Processed 3 Jun-21 WALTER signals. Ran a verification sweep (`wf_21dca756-c61`, 4 finders + adversarial synth) to ground the Monday read — it **confirmed de-escalation** and surfaced two things I didn't have at boot: (1) the **US Treasury 60-day Iranian-crude license** + concluded 60-day roadmap = the first *supply-return mechanism*; (2) the boot $78.14 was an after-hours tick, real **settle $77.90**. Bumped **THESIS v4.1→v4.2 (minor)**, corrected STATUS, wired a real **LIVE mode into eia_weekly.py**, and closed out. **4 session commits PUSHED to origin** — swept by a CARL/WALTER push-train (`pull --rebase` + push); SHAs rewritten, work content-verified on origin.
 
 ---
 
@@ -53,4 +53,4 @@
 ## WORKBOOK HEALTH
 - **eia_weekly.py now LIVE** — boot EIA monitor was silently reading stale Jun-5-week markdown all session; fixed (auto-LIVE via FORGE key, --local fallback). Series IDs validated 2026-06-22.
 - THESIS → v4.2 + CHANGELOG entry. PREDICTIONS unchanged this session (no BRENT resolutions; HAW-11 is HAWK's). KB/VX/FLOW remain demoted/archival.
-- **GIT:** session commits = `c5cbd2c4` (THESIS v4.2), `ff55e0aa` (STATUS v4.2), `948d5e00` (eia_weekly live) + this closeout commit (CATALYSTS/NEXUS_BRIEF/SCRATCH). **Push DEFERRED — Will-coordinated.** Other agents' commits interleaved on the shared branch (HANS, WALTER) — own-dir only, no conflict.
+- **GIT:** the 4 session commits are **PUSHED to origin** — swept by a CARL/WALTER push-train (`pull --rebase` + push), which rebased the SHAs: THESIS v4.2 → `77fc285a`, STATUS v4.2 → `b8fe5303`, eia_weekly live → `9100a576`, closeout → `a093f0d1` (original local SHAs c5cbd2c4/ff55e0aa/948d5e00/42400721 were rewritten — `[[finding_forced_update_rebase_churn]]` + `[[finding_push_train_pattern]]`). Content verified on origin (THESIS v4.2 / $77.90 STATUS / fetch_live_metrics). Local HEAD == origin/master `0f3d646d`, tree clean. This SCRATCH git-note update is a small follow-up commit — local until the next push-train sweep.
