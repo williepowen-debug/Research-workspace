@@ -26,7 +26,7 @@
 
 **No cross-agent outbox** (restraint): the alts-crack came FROM HENRY/BROCK; the excess-liquidity verdict lives in STATUS + board_log; ORACLE/SHADE integrated silently per inbox reply-criteria (no reply = received).
 
-**Push pending — the full 6/23 LIQUID commit chain** (board-intake → STATUS/synthesis → docket → CLAUDE+KB → TIMELINE/IDENTITY → MEMORY closeout → inbox → SHADE-ladder + FABN-vs-PC corrections; ~10 commits) sweeps next coordinated window. VIOLET+HENRY also have unpushed 6/23 work on the shared tree.
+**Push state:** most of the 6/23 LIQUID chain (board-intake → STATUS/synthesis → docket → CLAUDE+KB → TIMELINE/IDENTITY → MEMORY closeout → inbox → SHADE-ladder correction, through `5b820f77`) **already swept to origin** in a mid-session coordinated window (origin tip `a44c6929`, HENRY's closeout pull+push). Only the tail is still LOCAL — FABN-vs-PC read + closeout notes — sweeps next window. (Push-train pattern: another agent's push swept my committed work — `finding_push_train_pattern`.)
 
 ### PRIOR SESSION (2026-06-20 Sat — week-stale boot + catch-up (FOMC/TIC/Hormuz), then full BOOT-PROCEDURE UPGRADE vs SAM/BRENT/VIOLET)
 
