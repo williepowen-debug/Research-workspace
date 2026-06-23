@@ -10,6 +10,22 @@ Log material structural changes only — not routine content edits. Template ado
 
 ---
 
+## 2026-06-23 — Credit-gate summary wired into boot.py (closes the boot/credit blind spot)
+
+**Trigger:** At the 6/23 boot (after a 9-day dark gap spanning the BOJ/FOMC catalyst window), VIOLET mis-read the credit gate as "fred_fetch broken / gate UNCONFIRMED." The proximate bug was a read-side glob over a proliferated cache (KB-VIO-103→104, fixed same session), but the deeper gap was that **boot.py never surfaced the credit gate at all** — fred_fetch was a manual session step, so the load-bearing CCC/Bin-B verdict wasn't in the boot brief. Will-approved wiring it in. Also reconciles a doc drift: VIOLET's CLAUDE.md SPAWN step 5 already described boot.py as "live vol surface + **FRED credit** + catalyst countdown," but boot.py did not run FRED.
+
+**What changed:**
+- **`scripts/boot.py`:** added BOOT_SEQUENCE step `("Credit gate (FRED · KB-VIO-090/096)", "fred_fetch.py", ["--summary"], True)` after thresholds. Added markers to KEY_MARKERS (`CREDIT GATE`, `VERDICT`, `CCC`, `Bin-A`, `🟢`) so the gate verdict survives the collapse filter — the `🟢 BLOCK LIFTED` case wasn't a marker before and would have been hidden. Tested: collapsed boot now prints the CCC value, CCC-BB dispersion, and the `VERDICT: 🟢 BLOCK LIFTED / 🟠 BIN-B / 🔴 BIN-A` line; 2.1s cached, non-destructive (VX_DAILY 6/23 SETTLE row untouched).
+- Relies on fred_fetch's `--summary` + freshness-aware cache (KB-VIO-104): boot serves credit from cache when fresh, fetches only when stale.
+
+**Files touched:** scripts/boot.py, CALENDAR.md (Data Refresh row Manual→auto-in-boot + boot-sequence line), MAINTENANCE.md.
+
+**Boot-impact:** boot.py now prints the credit-gate verdict every session (~+2s cached). The CALENDAR "boot.py does NOT call fred_fetch" note is SUPERSEDED; the CLAUDE.md SPAWN-step-5 "FRED credit" description is now accurate (code caught up to the doc). fred_fetch stays runnable standalone (`--force --summary`) for an authoritative refresh.
+
+**Lessons:** a load-bearing input that isn't surfaced at boot is a latent blind spot — the 9-day-gap credit mis-read happened partly because the gate was never in the boot brief. Wire the load-bearing reads into the auto-boot, and keep the docs that *describe* boot in sync with what boot *runs* (the CLAUDE.md description had drifted ahead of the code; now reconciled). A new output line must also clear the output filter — adding the step without the KEY_MARKERS would have run it silently.
+
+---
+
 ## 2026-06-14 — m1m2 backfill: warn-and-proceed → hard gate (Orc verification of 6/13 commit)
 
 **Trigger:** Orc cross-container review of the pushed Friday-close work found one real gap: `backfill_m1m2()` printed the convention hazard then fell straight into the fill loop — no early return, no override gate. The skip-if-present guard only protects cells that ALREADY hold a value, so a future session running `backfill.py` (full, default) or `--m1m2-only` would still fill the ~79 blank m1m2 cells with same-day/unstamped values inconsistent with thresholds.py's T-1 series — the warning just scrolls past. The 6/13 docstring/commit said "BLOCKED"; the code only WARNED. Accident-proofing a session that never saw this thread was the whole point of the guardrail.

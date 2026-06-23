@@ -91,7 +91,7 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 | Data Source | Frequency | Tool | Last Updated |
 |-------------|-----------|------|--------------|
 | VIX/VIX9D/VIX3M/VVIX/SKEW spot | Every boot (auto in boot.py) | `scripts/thresholds.py` / yfinance | 2026-06-23 (boot, TICK; SKEW T+1) |
-| FRED credit (HY/IG/CCC + ladder BB/B/BBB + global Euro/EM) | **Manual session step**; print lands ~11:30 AM ET T+1 | `scripts/fred_fetch.py --force --summary` | 2026-06-23, data through 6/22 (FRED T-1). fred_fetch REWRITTEN this session (canonical single-file + merge-on-write + freshness cache + `--summary` gate verdict; KB-VIO-104). Gate: **Bin-B block LIFTED, CCC 9.47, no Bin-A.** |
+| FRED credit (HY/IG/CCC + ladder BB/B/BBB + global Euro/EM) | **Every boot** (auto in boot.py `--summary`, wired 6/23 — prints the KB-VIO-090/096 gate verdict; freshness-cached); FRED print lands ~11:30 AM ET T+1 | `scripts/fred_fetch.py --summary` (or `--force --summary` to force-refresh) | 2026-06-23, data through 6/22 (FRED T-1). fred_fetch REWRITTEN this session (canonical single-file + merge-on-write + freshness cache + `--summary` gate verdict; KB-VIO-104). Gate: **Bin-B block LIFTED, CCC 9.47, no Bin-A.** |
 | FRED rates (2Y/10Y/TIPS) | Manual session step | `scripts/fred_fetch.py` | 2026-06-23 (fetched; 10Y owned by HENRY) |
 | 20d SKEW avg + 5td_change | Per boot during knife-edge | inline calc | ⚠️ recompute owed (daily series backfilled thru 6/18; R12 regime intact, 140+) |
 | Catalyst countdown | Every boot (auto in boot.py) | `scripts/catalyst_countdown.py` | 2026-06-23 (boot — next 7/15) |
@@ -100,7 +100,7 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 | CFTC COT VIX futures | Weekly Fri 3:30pm ET (auto in boot.py) | `scripts/cftc_cot.py` | 2026-06-23 boot pulled 6/16 positions (Lev Money −13,295 / 79.5 ELEVATED_LONG — war now in data); next Fri 6/26 (6/23 positions) |
 | NAAIM + ICI equity positioning | Weekly Wed/Thu | `scripts/equity_positioning.py` (**not yet built**) | Not wired |
 
-**Boot sequence:** `python3 scripts/boot.py` runs thresholds + vix_options + cftc_cot + catalyst_countdown.
+**Boot sequence:** `python3 scripts/boot.py` runs thresholds + **fred_fetch --summary (credit gate)** + vix_options + cftc_cot + catalyst_countdown.
 
 ---
 

@@ -93,7 +93,7 @@
 
 | Priority | Topic | Status |
 |----------|-------|--------|
-| ✅ | **fred_fetch FIXED (6/23)** — root cause was cache-file proliferation (8/code) → ad-hoc globs read stale files (the false "broken" call). Rewrote to canonical single-file + merge-on-write + freshness cache + `latest_value()` + `--summary` gate verdict; 52 legacy files archived. **Consider wiring `--summary` into boot.py** so the gate prints every session. | DONE 6/23. |
+| ✅ | **fred_fetch FIXED (6/23)** — root cause was cache-file proliferation (8/code) → ad-hoc globs read stale files (the false "broken" call). Rewrote to canonical single-file + merge-on-write + freshness cache + `latest_value()` + `--summary` gate verdict; 52 legacy files archived. **Wired `--summary` into boot.py** (6/23) — the gate verdict now prints every session. | DONE 6/23. |
 | 🔴 | **Thesis v3.6 candidacy** — formalize the window-resolution + tail rotation (Iran/yen defused → Path-B dominant) + Fed-HIKE regime context. Decide bump vs intra-v3.5 note (CHANGELOG POV pivot written 6/23). | NEW 6/23. |
 | 🟠 | **HENRY flip-level + GEX mechanism** — HENRY partial-revived (6/15 pre-FOMC); flip level still unpublished. Re-confirm on full revival; un-stale-mark thesis mechanism if confirmed. | Carried. |
 | 🟠 | **LIQUID CCC mover-breadth** (idiosyncratic vs broad) — gate RESOLVED (block lifted, CCC 9.47, no Bin-A); breadth confirms clean risk-on vs a few names (KB-VIO-094). | Gate done 6/23; breadth pending. |

@@ -31,6 +31,7 @@ VENV_PY = WORKSPACE / ".venv" / "bin" / "python3"
 BOOT_SEQUENCE = [
     # (label, script, args, slow)
     ("Live thresholds + daily log", "thresholds.py", [], False),
+    ("Credit gate (FRED · KB-VIO-090/096)", "fred_fetch.py", ["--summary"], True),
     ("VIX options positioning",     "vix_options.py", [], False),
     ("CFTC COT VIX positioning",    "cftc_cot.py", ["--boot"], False),
     ("Catalyst countdown",          "catalyst_countdown.py", [], False),
@@ -47,6 +48,7 @@ KEY_MARKERS = (
     "Lev Money", "lev_money", "pct3y", "FLAG:", "Open Interest", "Dealer", "Asset Mgr",  # COT markers
     "EXTREME_", "ELEVATED_",  # COT flag triggers
     "📊",  # DoD OI alert
+    "CREDIT GATE", "VERDICT", "CCC", "Bin-A", "🟢",  # fred credit-gate summary (🟢 = block-lifted verdict)
     "⚠️",
     "✓ appended", "already has a row",
 )
