@@ -8,6 +8,33 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-06-22 PM — THESIS v4.1 → v4.2 (minor): Monday CONFIRMS Phase-2-in-price — US Treasury 60-day Iranian-oil license + concluded 60-day roadmap override the weekend re-closure; HAW-11 resolves UNFIRED; record-short asymmetry quantified; contango downgraded to [EST]
+
+**Author:** BRENT (Mon Jun 22 PM session, on Will's go). Verification workflow `wf_21dca756-c61`: 4 parallel finders (Monday tape / kinetic-HAW-11 / positioning / diplomacy) + adversarial synthesis. Web-tool-confirmed; settles cross-checked across Reuters/Rigzone + CNBC + BusinessToday.
+
+**Trigger:** The Jun 22 session resolved the #1 next-boot question (does the Sunday reopen gap UP on Iran's Jun-20 Hormuz re-closure?) — it did NOT; it fell. Minor (Y) bump: Monday CONFIRMS v4.1's "Phase 2 in price," does not reverse or phase-transition it. Conviction UNCHANGED.
+
+**Old view (v4.1, Jun 20 PM) → New view (v4.2, Jun 22 PM):**
+- **Price:** v4.1 carried Brent $80.57 (Jun 19 settle), Sunday reopen as the first true post-re-closure tick, direction unknown. → v4.2: **Brent SETTLED ~$77.90 Jun 22 (−3.3%, lowest since early March); WTI active-Aug ~$73.86.** Continuation DOWN, not reversal — the weekend re-closure spike (~$82 narrative) fully overridden. (Boot's $78.14/$74.21 were after-hours electronic ticks, not the settle — boot wasn't stale, just post-settle; per `[[finding_ohlc_verify_before_session_claims]]`.)
+- **NEW supply-relief mechanism (the material new fact):** v4.1 had Path A "resolved to signed," repricing on sentiment. → v4.2: a concrete step landed — **US Treasury issued a 60-day general license authorizing Iranian-crude production/delivery/sale** (incl. US import, dollar payment; ~to Aug 21), and the Switzerland round **CONCLUDED Jun 22** with a 60-day roadmap (Hormuz deconfliction line, demining coordination, IAEA re-entry, High Level Committee). First *mechanism* (not just sentiment) for sanctioned Iranian barrels to return; drove the −3.3% leg. **Sanctions relief is a distinct axis from the 4 physical-reopening legs — keep separate.**
+- **Framing correction:** v4.1 framed Jun 21 as "first Switzerland round called off / signed-but-fraying." → v4.2: the Jun-21 walkout was **TRANSIENT** — the round concluded constructively Jun 22; **de-escalation STRENGTHENED, not frayed.** (Fraying residual persists on the Lebanon seam + Trump's "take over Hormuz" re-strike threat — held as tape, `[[feedback_trump_rhetoric_tape_not_info]]`.)
+- **HAW-11 RESOLVED UNFIRED (Jun 22):** zero confirmed Gulf energy-infra damage / tanker / mine incidents Jun 20-22 across 6+ sources; Iran's Jun-20 re-closure declaratory only (CENTCOM logged ~55 transits / 17M+ bbl that Saturday). Kinetic kill-switch expired clean = de-escalation hardens. **Unfired ≠ tail retired** (physical strait still 0/4 legs; Iran enrichment red line; Trump threat).
+- **Record-short asymmetry QUANTIFIED (the one real counter):** ICE Brent money-manager net length at a **2026 low — 174,807 lots (−43,283 wk)**; Brent specs **within ~1M bbl of the Dec all-time-high short, "fastest accumulation in history"** (Rory Johnston/Commodity Context); CFTC WTI MM net +96,228 (report Jun 16). The de-escalation trade IS the crowded consensus → **violent short-covering fuel on any re-escalation spark.** ⚠️ CRITICAL TIMING: all COT is as-of **Jun 16 — BEFORE the Jun-17 MOU and the −8% week** — true post-MOU extreme still partly modeled; **first prints Fri Jun 26 (as-of Jun 23).**
+- **Contango DOWNGRADED [CONF]→[EST]:** the "6-mo curve flipped to contango first in ~2 years" claim could NOT be independently confirmed for Jun 22 (a Jun-5 snapshot still showed pronounced backwardation $94 front / $77 Dec-27). Load-bearing for "Phase 2 in price" — **re-derive from the BZQ26/BZV26 strip** before re-stamping [CONF]. Per `[[finding_number_carries_threshold_unit_source]]`.
+- **SPR refinement:** only **~17.5M bbl physically drawn vs 172M authorized** (EIA Today in Energy) — so "fully withdrawn ~early July" likely refers to the first **86M solicitation tranche**, not the full authorization. Refines the v4.1 authorization-bound runway; verify vs Jun-24 EIA.
+
+**Predictions:** No resolutions this bump (BRT-15 already FAILED v4.1). BRT-07/17 timer stays COLD — the Treasury license is *sanctions* relief, NOT one of the 4 physical-reopening legs (those unchanged: JWLA-033 unlifted, demining months out, ~22-27% dark transits per Windward). BRT-08/09 await Jun-24 datapoint #3. BRT-21 re-arm hinges on Jun-26 COT. New forward-catalyst priority: **Fri Jun 26 COT = first post-MOU positioning print** (governs the XLE stub + Trigger #3 re-arm).
+
+**Conviction:** UNCHANGED — flat-price cautious-neutral, no new flat-price longs. The Treasury license adds bearish-confirming weight to Phase-2-in-price, but the record-short asymmetry + 0/4 physical legs + Trump Hormuz-takeover threat keep me from chasing the short into a crowded book. Live gating cluster shifts forward: **Jun 24 (sub-20M Cushing) / Jun 26 (first post-MOU COT) / early-July (SPR re-auth).**
+
+**Position:** XLE $65C Sep30 — **HOLD on a short leash through Jun 26**, not lapsed. HAW-11 unfired satisfies the "don't-lapse-pre-HAW-11" pre-registration, but the ~$42 salvage is trivial against the record-short asymmetry whose true extreme prints Jun 26. Don't sell-into-vol (no bid, VIX 17.28). Reassess after Jun 26 + early-July SPR re-auth.
+
+**Cross-agent:** Treasury 60-day Iranian-oil license + verified de-escalation = broad datapoint for HENRY (disinflationary energy leg), CARL (pump relief), SAM (Japan energy), HAWK (scenario). Routed via NEXUS_BRIEF at closeout (not outbox — `[[feedback_outbox_restraint_for_push_friction]]`).
+
+**Propagation:** THESIS header + status addendum + Path A bullet + Key Thresholds (contango→[EST], Brent ~$78) + Position View (XLE) + footer. CHANGELOG (this entry). PENDING this session (Will-sequenced): STATUS corrections (4) + `eia_weekly.py` live-pull wiring + NEXUS_BRIEF + SCRATCH (closeout).
+
+---
+
 ## 2026-06-20 PM — THESIS v4.0 → v4.1 (minor): Iran officially re-declares Hormuz closed + Lebanon re-heats — D-tail fattens, HAWK cooling call de-anchored; core thesis intact (re-closure declaratory, not physical)
 
 **Author:** BRENT (Sat Jun 20 PM, on Will's flag that the situation got dicier post the AM catch-up). Verification sweep (3 finders + adjudication, conf 0.82).
