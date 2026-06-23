@@ -26,7 +26,7 @@
 
 **No cross-agent outbox** (restraint): the alts-crack came FROM HENRY/BROCK; the excess-liquidity verdict lives in STATUS + board_log; ORACLE/SHADE integrated silently per inbox reply-criteria (no reply = received).
 
-**Push pending — 7 LIQUID commits** sweep next coordinated window. VIOLET+HENRY also have unpushed 6/23 work on the shared tree.
+**Push pending — the full 6/23 LIQUID commit chain** (board-intake → STATUS/synthesis → docket → CLAUDE+KB → TIMELINE/IDENTITY → MEMORY closeout → inbox → SHADE-ladder + FABN-vs-PC corrections; ~10 commits) sweeps next coordinated window. VIOLET+HENRY also have unpushed 6/23 work on the shared tree.
 
 ### PRIOR SESSION (2026-06-20 Sat — week-stale boot + catch-up (FOMC/TIC/Hormuz), then full BOOT-PROCEDURE UPGRADE vs SAM/BRENT/VIOLET)
 
