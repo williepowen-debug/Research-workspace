@@ -19,7 +19,7 @@ POV-arc: see `thesis/CHANGELOG.md` § POV Pivots.
 ## FOMC 6/17 — Hawkish Hold (Warsh debut), integrated
 
 - **Decision:** HOLD 3.50-3.75% unanimous (12-0). Warsh's first FOMC as Chair (sworn 5/22). Hold ~99.9% priced → the **dots + the communication overhaul were the event.**
-- **Dots flipped hawkish-of-pricing:** 2026 median +~35-40bps to ~3.80% (March implied a *cut*). 9/18 project a HIKE by YE (6 see two); 17/18 judge inflation risk to the upside. CME July-hike odds ~75%. (Resolves HENRY HEN-33 — hawkish-of-pricing HIT.)
+- **Dots flipped hawkish-of-pricing:** 2026 median +~35-40bps to ~3.80% (March implied a *cut*). 9/18 project a HIKE by YE (6 see two); 17/18 judge inflation risk to the upside. **July-hike only ~23%** (the earlier "~75%" was P(hold), transposed — ORACLE 6/22 caught it); the crowd sees the hike landing **Q4** (Oct-modal ~53%, hike-by-YE ~61%), consistent with the dots. (Resolves HENRY HEN-33 — hawkish-of-pricing HIT.)
 - **Statement slashed 341→~130 words** (Greenspan-length); forward guidance removed; "**maintaining ample reserves**" reaffirmed; **no QT/balance-sheet paragraph.**
 - **🔬 NEW STANDING MONITOR — Balance-Sheet Policy task force** (1 of 5 Warsh reviews, concludes ~YE2026). Warsh views the sheet as structurally too hot → **QT pace, SRF, RRP, long-run SOMA size all "back in play."** This **REINFORCES Leg A** (thinner future buffers) — it is the *opposite* of the Leg-A kill condition (Fed expanding facilities). Multi-quarter watch, not a same-day event.
 - **Market = bear-flattener:** 2Y **+16bps** to ~4.18-4.22% (biggest Fed-day move since Mar 2008); 10Y +4 to ~4.47-4.49; **30Y −2 to ~4.90-4.93 — the long end RALLIED on anti-inflation credibility.** DXY 1yr highs (~100.8); USD/JPY held ~160.4 *despite* the BOJ hike; SPX -0.6%.
@@ -85,7 +85,8 @@ POV-arc: see `thesis/CHANGELOG.md` § POV Pivots.
 - **USD/JPY repat pushed to a Sep tail (SAM):** 161.59 triggered on level, but carry window LOCKED Sep-18; MOF silent 6d, no intervention. Leg downgraded near-term. Next CFTC 6/26; BOJ Summary 6/24.
 - **Warsh Balance-Sheet review → Leg A reinforced (monitor):** QT/SRF/RRP/SOMA "back in play" YE2026 = thinner future buffers. RRP buffer now exhausted ($6.48B, Q-end noise off ~$0) → ongoing QT drains reserves directly. Multi-quarter watch.
 - **Excess-liquidity "negative first since 2021" (WALTER SIG-009, 0.55) — VALIDATED: do NOT adopt.** Index unidentifiable; net Fed liquidity $5.85T stable; own gauges benign. Real residue = the RRP-buffer exhaustion above, not acute tightening. Conf 0.4.
-- **Gate cluster — no fresh escalation:** 2nd PE-wrapper gate UN-FIRED (BROCK day ~17; clean close ~7/3 de-escalates). NAIC capital-charge deferred to 2027 (Athene RBC pushed ~1yr). SHADE: Moody's $807B illiquid PC at life insurers (Athene/GA each >15%) — inbox item, process on inbox-spawn.
+- **Gate cluster — no fresh escalation:** 2nd PE-wrapper gate UN-FIRED (BROCK day ~17; clean close ~7/3 de-escalates). NAIC capital-charge deferred to 2027 (Athene RBC pushed ~1yr).
+- **NEW — Athene FABN funding canary (SHADE 6/21, integrated):** Athene 5Y FABN secondary at **T+123 vs IG-insurer peers T+75-80 = +43-48bp peer-relative penalty**; no syndicated FABN issuance since Sept-2025 (~8mo — shifted to FHLB/private = thinner public price discovery); ~$16.5B 2026-27 FABN maturity wall (structurally-private quantum). **Absolute level still green** (consistent with the plumbing-calm read) — but Athene would re-price FIRST among IG insurers if funding spreads widen = the canary on SHADE's FABN-rollover kill-path. **Topical now:** ties the Apollo/Athene complex to the 6/23 alts-crack (APO −3.4%) + the $807B illiquid-PC-at-life-insurers backdrop (Athene/GA each >15%). LIQUID owns broad funding/spread confirm; SHADE owns the insurer mechanism + owes a FABN maturity ladder.
 
 ---
 
@@ -108,7 +109,7 @@ POV-arc: see `thesis/CHANGELOG.md` § POV Pivots.
 | **~Jun 26** | SAM CFTC print (cover-tripwire <−108K); BRENT oil COT extremes |
 | **~Jun 30** | **LIQ-03 resolves** (CLO AAA vs 160bps SOFR+); BCRED Q2 redemption window; Cliffwater CDLI Q1 NAV; quarter-end (RRP revert test + JPM $165B rebalance) |
 | **~Jul 25** | Q2 BDC marks — NEXUS R3 credit-bifurcation transmission test (CDLI-FSK gap / mark catch-down) |
-| **~Jul 29** | July FOMC — hike watch (CME ~75%) |
+| **~Jul 29** | July FOMC — hike watch (July-hike only ~23%; modal hike Oct ~53%, hike-by-YE ~61% — ORACLE 6/22) |
 | **YE2026** | Warsh balance-sheet review outcome (QT pace / SRF / RRP / SOMA — Leg A buffers) |
 
 ## Active Playbooks / Monitors

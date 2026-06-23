@@ -30,7 +30,7 @@
 | **~Jul 16** | **June TIC** (May flows) | Belgium proxy →$500B = 🟠 SAM/PROME; Japan >$20B single-month sell = SAM route (KB-LIQ-031). April: official +$49.2B carried a private −$23.1B outflow; Belgium unconfirmed | LIQUID, SAM |
 | **~Jul 25** | **Q2 BDC marks** (FSK, OBDC) | **NEXUS-named credit-bifurcation transmission test** — CDLI-FSK gap / CCC-BB / mark catch-down. The bear book's load-bearing falsifier-or-confirm | BROCK, LIQUID, NEXUS |
 | Late Jul / Aug | Q2 10-Q cycle (broader BDC marks) | NA reversal vs compounding; div-cut cascade | BROCK, LIQUID |
-| **Late Jul** | **July FOMC — hike watch** | CME ~75% hike priced post-6/17 hawkish dots (9/18 project a hike by YE) | LIQUID, HENRY, ALL |
+| **Late Jul** | **July FOMC — hike watch** | July-hike only ~23% (the ~75% was P(hold), transposed — ORACLE 6/22); hike seen landing Q4 (Oct-modal ~53%, hike-by-YE ~61%), consistent with 9/18 dots | LIQUID, HENRY, ALL |
 | **~YE2026** | **Warsh Balance-Sheet Policy review outcome** | QT pace / SRF / RRP / long-run SOMA "back in play" — Leg A future buffers (thinner). Standing multi-quarter monitor | LIQUID, REGINALD, ALL |
 
 ---
