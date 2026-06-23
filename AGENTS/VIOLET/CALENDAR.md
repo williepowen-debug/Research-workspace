@@ -89,7 +89,7 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 | Data Source | Frequency | Tool | Last Updated |
 |-------------|-----------|------|--------------|
 | VIX/VIX9D/VIX3M/VVIX/SKEW spot | Every boot (auto in boot.py) | `scripts/thresholds.py` / yfinance | 2026-06-23 (boot, TICK; SKEW T+1) |
-| FRED credit (HY/IG/CCC + ladder BB/B/BBB + global Euro/EM) | **Manual session step**; print lands ~11:30 AM ET T+1 | `scripts/fred_fetch.py --force` | ⚠️ **2026-06-23 BROKEN** — HY+IG frozen at 2025-04-01; CCC/BB/B/BBB stuck at 6/11; only EuroHY reached 6/22. **Fix queued 🔴 (KB-VIO-103). Reference LIQUID for HY.** |
+| FRED credit (HY/IG/CCC + ladder BB/B/BBB + global Euro/EM) | **Manual session step**; print lands ~11:30 AM ET T+1 | `scripts/fred_fetch.py --force --summary` | 2026-06-23, data through 6/22 (FRED T-1). fred_fetch REWRITTEN this session (canonical single-file + merge-on-write + freshness cache + `--summary` gate verdict; KB-VIO-104). Gate: **Bin-B block LIFTED, CCC 9.47, no Bin-A.** |
 | FRED rates (2Y/10Y/TIPS) | Manual session step | `scripts/fred_fetch.py` | 2026-06-23 (fetched; 10Y owned by HENRY) |
 | 20d SKEW avg + 5td_change | Per boot during knife-edge | inline calc | ⚠️ recompute owed (daily series backfilled thru 6/18; R12 regime intact, 140+) |
 | Catalyst countdown | Every boot (auto in boot.py) | `scripts/catalyst_countdown.py` | 2026-06-23 (boot — next 7/15) |
@@ -103,4 +103,4 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 ---
 
 *Created: 2026-04-12*
-*Last Updated: 2026-06-23 (boot after 9-day dark: catalyst window 6/16-17 moved to Resolved; Powell→Warsh corrected throughout — Warsh chaired the 6/17 hawkish dot-flip; forward catalysts refreshed (next 7/15, 7/29 Warsh, 9/16); Jun 30 quarter-end rebalance added; Data Refresh re-stamped incl. fred_fetch BROKEN flag. Prior: 6/14 stale-data audit.)*
+*Last Updated: 2026-06-23 (boot after 9-day dark: catalyst window 6/16-17 moved to Resolved; Powell→Warsh corrected throughout — Warsh chaired the 6/17 hawkish dot-flip; forward catalysts refreshed (next 7/15, 7/29 Warsh, 9/16); Jun 30 quarter-end rebalance added; Data Refresh re-stamped. fred_fetch REWRITTEN + credit gate RESOLVED (Bin-B block LIFTED, CCC 9.47) later same session. Prior: 6/14 stale-data audit.)*
