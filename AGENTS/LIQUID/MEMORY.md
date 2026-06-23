@@ -22,10 +22,11 @@
 - CATALYSTS+CALENDAR docket roll (drop 3 resolved 6/22; add BOJ 6/24 + May PCE 6/25) → `a0637803`; --selftest PASS.
 - CLAUDE KEY THRESHOLDS (10 rows → 6/23) + KB-LIQ-061 authored → `dc631162`.
 - TIMELINE branch points + IDENTITY Current Focus refresh → `8cf866ab`.
+- MEMORY closeout (session note + NEXT SESSION) → `6cb81d08`; then **inbox processing — 4 signals** → `29997d58`: ORACLE July-hike figure-check ACCEPTED + propagated 5 surfaces (the "CME July-hike ~75%" was P(hold) transposed → corrected to ~23% July / Q4-modal); SHADE Athene-FABN canary integrated → Cross-Domain (T+123 vs peers, +43-48bp penalty, ~$16.5B 26-27 wall — green absolute, first-to-reprice canary, ties Apollo/Athene to the alts-crack); HAWK OFAC-toll (superseded by Treasury 60d license) + PROME FRED-convention (already adopted) noted.
 
-**No cross-agent outbox** (restraint): the alts-crack came FROM HENRY/BROCK; the excess-liquidity verdict lives in STATUS + board_log.
+**No cross-agent outbox** (restraint): the alts-crack came FROM HENRY/BROCK; the excess-liquidity verdict lives in STATUS + board_log; ORACLE/SHADE integrated silently per inbox reply-criteria (no reply = received).
 
-**Push pending — 5 LIQUID commits** sweep next coordinated window. VIOLET+HENRY also have unpushed 6/23 work on the shared tree.
+**Push pending — 7 LIQUID commits** sweep next coordinated window. VIOLET+HENRY also have unpushed 6/23 work on the shared tree.
 
 ### PRIOR SESSION (2026-06-20 Sat — week-stale boot + catch-up (FOMC/TIC/Hormuz), then full BOOT-PROCEDURE UPGRADE vs SAM/BRENT/VIOLET)
 
@@ -259,7 +260,7 @@ MEMORY.md    STATUS.md  STRATEGY.md           USER.md
 5. **~Jun 30:** LIQ-03 resolves (CLO AAA vs 160bps); BCRED Q2 (~50% pro-rata, final Aug); Cliffwater CDLI Q1; quarter-end (RRP-revert test — $6.48B is Q-end noise, sustained >$10B into July = real).
 6. **Owed/deferred:** HY-Energy-OAS pull to BRENT (DEFERRED per Will 6/20; Brent decoupled $77.90 so no re-arm fired); Belgium TIC live pull (next June TIC ~7/16).
 7. **Standing monitors:** ~7/25 Q2 BDC marks (NEXUS R3 transmission test — CCC-BB / CDLI-FSK); July FOMC ~7/29 (retests KB-LIQ-060 duration mapping); ~YE2026 Warsh balance-sheet review (Leg A).
-8. **Inbox — 2 FRESH (process on inbox-spawn):** SHADE Athene-FABN funding-canary (6/21 — LIQUID-relevant: $807B illiquid PC at life insurers, Athene/GA each >15%); ORACLE fed-July-hike figure-check (6/22). Plus 2 older: HAWK OFAC toll-risk 5/22; PROME FRED-citation 5/21.
+8. **Inbox — CLEARED 6/23** (4 processed → `29997d58`): ORACLE July-hike fix propagated; SHADE FABN canary integrated (SHADE owes a maturity ladder — pull when it lands); HAWK/PROME noted-superseded/already-adopted. Inbox empty.
 9. **Positions — NOTHING TO SURFACE** (book flat; HYG expired 6/19, TEN closed; APO Dec $95P is BROCK's). Do NOT re-raise HYG.
 
 ### PRIOR SESSION (2026-05-19 morning)
