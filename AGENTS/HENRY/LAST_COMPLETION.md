@@ -33,9 +33,8 @@ Caught the regime flip the 8-day-stale STATUS missed — the 6/15 "soft-kill int
 - **Staleness pass (Will-directed 6/23, "load-bearing only"):** refreshed MARKET_DATA (6/23 row), VX.tsv (LIVE block + de-RED war relics), FLOW.tsv (cascade Status/positions → dormant), ECON_CALENDAR (July docket + FOMC fix), CLAUDE.md FILES table, **THESIS_VALIDATION.md (3-axis reframe — retired the falsified SPX>7,100 kill leg; per-axis falsifiers; Mar/Apr log preserved as dated history)**. **Then (Will: "do the rest") — DEFERRED TIER CLEARED:** KB.tsv (6 catch-up rows ML-HEN-137..142 + 3 superseded flags); infra notes (MODERNIZATION_PLAN partially-executed banner, MAINTENANCE 6/23 entry, BOOT_AUDIT freshness); gamma/GEX REFRESHED from free trackers (gamma flip ~7,448, negative GEX, conf 0.75 — bg agent), CTA absolute levels kept retired-stale (paywalled, not fabricated), 0DTE share still unsourced. **CTA/gamma/put-wall levels flagged stale in 5 files — need a live SpotGamma/Goldman repull (not fabricated).** Audit archived: research/2026-06-23_staleness_audit_workflow.json.
 
 ## COMMITS
-- `d3fa6135` — HENRY 6/23 post-FOMC catch-up (22 files: STATUS rewrite, PREDICTIONS HEN-33 MISS + HEN-34/35, MEMORY/LESSONS/NEXUS_BRIEF, board_log + 15 WALTER renames, research json).
-- `LAST_COMPLETION.md` — this file (separate closeout commit).
-- **Push DEFERRED** — Will-coordinated; note for next push window.
+- **8 HENRY commits this session `d3fa6135` → `20959f24`:** post-FOMC catch-up (STATUS rewrite, HEN-33 MISS + HEN-34/35, board_log + 15 WALTER renames) · closeout · VIOLET-convergence fix · FOMC-overclaim downgrade · staleness pass (workbook/domain refresh) · THESIS_VALIDATION 3-axis reframe · deferred-cleanup pt1 (KB + gamma/GEX) · pt2 (infra notes).
+- **✅ PUSHED 6/23** (Will opened the window) — fast-forward `74b4364b..20959f24`, **20 commits swept to origin** (8 HENRY + 8 LIQUID + 4 VIOLET, push-train as designed); origin in sync. `memory/auto/` dirty files left for the auto-memory sweep (not mine to commit).
 
 ## NEXT SESSION FOLLOW-UP (catalyst dates)
 - **Wed 6/24 — MU (Micron) earnings:** the AI-memory-demand pivot; extends or washes out the chip/positioning unwind (HEN-35).
@@ -50,4 +49,4 @@ Three axes. **(1) Cyclical — RE-ARMED but FRAGILE:** hawkish dots (2026 median
 ## WILL_NEEDS
 1. ~~Correction to relay~~ **RESOLVED — no fleet message (Will 6/23).** On checking, the fleet has the FOMC right: SAM/RED frame "cut→HIKE" as the pricing/dots flip, and REGINALD explicitly caught the WALTER shorthand via IORB (flat 3.65 → no hike). The Fed HELD; dots flipped. I over-stated this as a "fleet error" in the first pass — corrected, no action.
 2. **No outbox this session (Will 6/23 — no fleet message).** AI/semi positioning-unwind + negative-gamma fragility tracked in-domain (HEN-35). (Vol broadcast is VIOLET's; she refreshed 6/23, converges.)
-3. **FYI:** push deferred — `d3fa6135` + the LAST_COMPLETION commit await the next coordinated push window. VIOLET has uncommitted workbook files (a VIOLET session is likely live) — didn't touch them.
+3. **✅ PUSHED 6/23** — all session work is on origin (`74b4364b..20959f24`, fast-forward; swept LIQUID + VIOLET committed work too, push-train as designed). Only `memory/auto/` has pending auto-memory writes, left for the sweep (not mine to commit). Nothing outstanding.
