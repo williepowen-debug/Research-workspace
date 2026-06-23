@@ -1,198 +1,151 @@
 # HANS STATUS.md
-**Updated:** 2026-04-30 21:50 UTC
-**Status: 🔴🔴🔴 WAR DAY 62 — PROTRACTED CONFLICT / EU COMPETITIVENESS CRISIS / CHINA ASYMMETRY WIDENING**
+**Updated:** 2026-06-22 ~22:30 ET (Will's first HANS boot — REVIVAL-BOOT, ~53-day gap since Apr 30 content)
+**Status: 🟡 DE-ESCALATION CONFIRMED — EUROPE IS A SOURCE OF CALM. #1 signal (German Mfg PMI) INFLECTED UP → COMPLICATES the US ISM-sub-49 thesis. One live US channel: Jul-4 EU-US tariff cliff.**
+
+> **Revival note:** Full-domain live refresh via workflow `wf_d99906ff` (10 agents, each dimension self-verified vs an INDEPENDENT source). **Every number below web-verified as of Jun 22 2026.** Prior STATUS (the "🔴🔴🔴 WAR DAY 62 / protracted-conflict / EU energy-crisis" frame) archived → `workbook/STATUS_archive_20260430.md`. **That frame is now directionally wrong** — the war de-escalated (Islamabad MOU signed Jun 17; Brent $111→$78), and every European stress vector I was tracking has relaxed.
 
 ---
 
-## STATE CHANGE SUMMARY — MAR 24 → APR 30
+## THE FRAME FLIP — APR 30 → JUN 22
 
-| Dimension | Mar 24 | Apr 30 | Δ |
-|-----------|--------|--------|---|
-| War Day | 25 | ~62 | +37 days |
-| Scenario D probability | 78% | **~85%** | +7pp |
-| Hormuz status | Closed + mined | **Still closed** | No change |
-| Qatar LNG | Permanent loss | **Permanent loss** | No change |
-| Brent | Mid-$90s | **~$111** (per Global Energy Flow) | +~$15-20 |
-| TTF Gas | €75-90/MWh | **€44-47/MWh** | -€30-40 (seasonal) |
-| HY OAS | 328bps | **~350+?** | Watch LIQUID/REGINALD |
-| China PMI (official) | — | **50.3** (expansion) | New data |
-| China PMI (private) | — | **52.2** (5-year high) | Strongest since Dec 2020 |
-| Germany defense spend | ~2.3% GDP | **$114B / 2.3% GDP** | 24% YoY; 3.5% by 2029 pledged |
-| Germany growth forecast | — | **0.5% (2026)** | Halved from 1% |
+| Dimension | Apr 30 (my stale frame) | Jun 22 (verified) | Read |
+|-----------|------------------------|-------------------|------|
+| War / energy axis | Protracted, Hormuz closed, Brent ~$111 | **MOU signed Jun 17; Brent $78.10** | De-escalated |
+| German Mfg PMI (#1 signal) | *no current reading* | **49.0 (June flash, 34-mo high, +0.7 MoM)** | Inflected UP, still sub-50 |
+| ECB | 2.00% on hold (assumed) | **HIKED to 2.25% Jun 11** (1st hike since 2023) | Regime flip — energy-inflation driven |
+| TTF gas | €44-47 (war-elevated) | **€42/MWh, +18% YoY** (was +47%) | Below my €50 crisis line |
+| EU gas storage | ~31% (crisis) | **~46.7%**, refill marginally AHEAD of pace | Residual winter risk only |
+| Sovereign spreads | Watching for stress | **Italy 71 / France 72 bps** — deep inside baselines | Pricing tranquility |
+| EUR/USD · DXY | 1.178 · 98.25 | **1.145 · ~101** (DXY 18-mo high) | Dollar-strength story, not euro-crisis |
+| Net European role | Stress AMPLIFIER to US thesis | **REMOVES amplifiers** | Complicates the bear case |
 
----
-
-## CHINA-EU DYNAMICS UPDATE — APR 30, 2026
-
-### (1) CHINA ENERGY COST ADVANTAGE — STILL VALID, POSSIBLY WIDENING
-
-**Verdict: ✅ 25-40% advantage confirmed, may be widening.**
-
-| Metric | China | EU (Germany/Italy) | Ratio |
-|--------|-------|-------------------|-------|
-| Industrial electricity | ~$0.08/kWh (~€0.07) | €0.20-0.28/kWh | **~3-4x EU cost** |
-| Gas (industrial) | Domestic + Russian pipeline | TTF-linked, volatile | Structural disadvantage |
-| Manufacturing cost gap | Baseline | **30-40% average, 60%+ in robotics/mechanical components** | Per French High Commission report |
-
-**Key developments:**
-- TTF gas has fallen to €44-47/MWh (from Mar spike of €75-90) due to seasonal demand, but remains **47% higher YoY** and structurally above pre-crisis levels
-- European electricity prices still tied to gas via marginal pricing — Italy 90% gas-set, Spain down to 15%
-- China's industrial electricity at ~$0.08/kWh vs EU at €0.20-0.28/kWh = **roughly 2.5-3.5x cost advantage**
-- Bloomberg (Apr 9): "Energy analysts sifting through the supply-chain detritus... concluded that China will come out on top. Deutsche Bank wrote that extreme volatility in oil and gas markets seems to be playing out to the benefit of Beijing."
-- French government advisory body: production cost gaps averaging **30-40%, exceeding 60% in industrial robotics and mechanical components**
-
-**→ The 25-40% advantage is not only still valid but the upper bound (40%+) is now documented in official EU-adjacent analysis.**
+**Bottom line (said directly, per my output rules):** European data does **not** currently supply the stress the US thesis needs. My single highest-value signal — German Mfg PMI as a ~2-month ISM lead — **inflected UP**, which argues *against* a clean US ISM break below 49. The only live European→US transmission channel is policy-driven: the **July 4 EU-US tariff implementation cliff**.
 
 ---
 
-### (2) EU-CHINA ENERGY BACK-CHANNEL — NO DIRECT DEALS, TENSIONS RISING
+## #1 SIGNAL — GERMAN PMI → US ISM (~2-MONTH LEAD)
 
-**Verdict: ❌ No evidence of back-channel energy deals. EU-China relations hardening.**
+| Metric | Latest | Prior | Source (verified) |
+|--------|--------|-------|-------------------|
+| **German Mfg PMI** | **49.0** (June flash; 34-mo high, +0.7 MoM; 1st new-orders rise in >1yr) | 48.3 May final / 47.0 Dec | HCOB/S&P Global ✓ |
+| German Services PMI | 49.4 (June flash; 3-mo high) | 47.1 May | HCOB ✓ |
+| German Composite | **50.4 — back in EXPANSION** (June flash) | 48.5 May | HCOB ✓ |
+| Eurozone Mfg PMI | 51.6 (May final) | 52.2 Apr (~4-yr high) | HCOB ✓ |
+| Eurozone Composite | 48.5 (May final, revised up from 47.5 flash) | 48.8 Apr | HCOB ✓ |
+| German Ifo | 84.9 (May; +0.4 vs Apr) | 84.5 Apr (6-yr low) | ifo ✓ |
+| German ZEW (expectations) | **10.5 (June; +20.7 MoM, 1st positive since Mar)** — explicitly Iran-de-escalation-driven | -10.2 May | ZEW ✓ |
+| ZEW current conditions | -81.0 (June; WORSENED) | -77.8 May | ZEW ✓ — hard data still lagging |
+| German IP YoY (Apr) | -0.5% (cal-adj); +0.4% MoM (1st rise of 2026) | ~-1.1% 2025 FY | Destatis ✓ |
+| German 2026 GDP forecast | **0.5%** (Council, Spring Report) — *corrected from a bad 0.4% pull; MATCHES baseline* | 0.9% (Nov) | Council of Economic Experts ✓ |
 
-- **No LNG/pipeline deals** between EU and China detected in open sources
-- Russia's Yamal LNG shipped first cargo to China since November (April 7) — **Russia pivoting LNG to China**, not EU-China cooperation
-- EU Commission China strategy debate scheduled **May 29** — hawks gaining ground per Euronews (Apr 28)
-- EU official: Chinese are "playing games"; Commission exploring **Anti-Coercion Instrument** (never used, created 2023)
-- Belgium PM Bart De Wever (Mar 18 letter to von der Leyen): "point of no return" on China; urged tougher line
-- German Chancellor Merz floated long-term trade deal with Beijing in March — **Brussels rejected**: "not so fast"
-- Macron at Davos (Jan 2026): emphasized increasing Chinese FDI in key European sectors — but this is pre-war rhetoric
-- **EU-China rare earth truce expires October 2026** — major uncertainty
-
-**→ No back-channel energy cooperation detected. EU posture is hardening, not softening toward China.**
-
----
-
-### (3) CHINESE INDUSTRIAL PRODUCTION / PMI — RESILIENT AND EXPANDING
-
-**Verdict: ✅ China manufacturing expanding strongly; EU competitiveness under pressure.**
-
-| Indicator | Reading | Context |
-|-----------|---------|---------|
-| NBS Manufacturing PMI (Apr) | **50.3** | 2nd month expansion; beat consensus 50.1 |
-| RatingDog/S&P Global PMI (Apr) | **52.2** | 5-year high; strongest since Dec 2020 |
-| Production sub-index | **51.5** | Continued pickup |
-| New export orders | **50.3** | First time above 50 in **two years** |
-| Q1 industrial output growth | **6.1% YoY** | +1.1pp vs Q4 2025 |
-| March industrial profits | **+15.8% YoY** | Fastest since September |
-| High-tech manufacturing | **+12.5%** | Leading growth |
-| Equipment manufacturing | **+8.9%** | Strong |
-| Energy-intensive industries PMI | **47.9** | Only weak segment (Hormuz impact) |
-
-**Key insight from Reuters (Apr 30):** "Manufacturers cranked up production to ship goods early to buyers worried the Iran war will further inflate costs, sending new export orders to their strongest level in two years."
-
-**→ China is front-running supply chain disruption. EU manufacturers face the opposite: input cost spikes, energy uncertainty, and demand destruction. The competitiveness gap is widening in real time.**
+**ISM-lead implication (→ HENRY):** German Mfg PMI direction is **clearly UP** (49.0, 34-mo high, first new-orders rise in >1yr) but the **level is still BELOW 50**. The ~2-month-out read (≈ August US ISM Mfg) = **stabilization in the ~49–50.5 band and rising, NOT a fresh leg down / NOT confirming a sub-49 break.** This **COMPLICATES the ISM-deterioration thesis.** Caveats: (1) still sub-50 — a less-bad inflection off a low base, not a boom; (2) it's a one-month flash, and hard data (IP, ZEW current -81) still lags negative; (3) the rebound is almost entirely a **de-escalation/sentiment** story — a Hormuz/energy re-escalation reverses it fast. *Note: my formal trigger to HENRY is "German Mfg PMI <47 sustained" — that did NOT fire; the live signal is the opposite sign.*
 
 ---
 
-### (4) EU DEFENSE SPENDING — IMPLEMENTATION UNDERWAY BUT ENERGY SHOCK DIVERTING FOCUS
+## ECB — REGIME FLIP (HIKING, NOT CUTTING)
 
-**Verdict: 🟡 Fiscal framework in place; execution lag; energy shock diverting political capital.**
+| Metric | Latest | Prior baseline | Source ✓ |
+|--------|--------|----------------|----------|
+| **ECB Deposit Rate** | **2.25%** (HIKED +25bps, eff Jun 17) — 1st hike since Sept 2023 | 2.00% on-hold (STALE) | ECB ecb.mp260611 ✓ |
+| ECB refi / marginal | 2.40% / 2.65% | — | ECB ✓ |
+| ECB 2026 inflation proj | 3.0% headline / 2.5% core (revised UP on energy) | — | ECB staff ✓ |
+| Fed Funds | 3.50–3.75% (HELD 12-0 Jun 17, Warsh's 1st mtg; 2026 dot 3.8% → hike bias) | 4.25-4.50% (STALE) | FOMC ✓ |
+| **Fed-ECB differential** | **~150bps** (compressed ~75-90bps) | 225bps | derived ✓ |
+| German 10Y Bund | 2.96% | — | TE ✓ |
+| US-German 10Y spread | ~156bps | 170 | derived ✓ |
+| ECB excess liquidity | ~€2.47tn (→ ~€2.2tn end-26); QT ongoing | ~2500 | ECB ✓ |
 
-| Program | Status |
-|---------|--------|
-| Germany €500B infrastructure fund | **Approved**; transport, digital, energy |
-| Germany defense spending | **$114B in 2025** (+24% YoY); 2.3% of GDP — first time >2% since 1990 |
-| Germany 2027 draft budget | **€118.5B total investment** (+€37.6B vs pre-reform plan) |
-| Germany 2029 target | **3.5% of GDP** pledged |
-| EU 3% GDP defense target | NATO agreed 3.5% by 2035; EU member state divergence |
-| Debt brake exemption | Military spending >1% GDP exempt from German debt brake |
-
-**Complication:** Germany's growth forecast **halved** from 1% to 0.5% for 2026. Ifo business climate index dropped to **84.4** (lowest since May 2020). Energy-intensive industries (17% of industrial GVA, ~1M jobs) under severe pressure.
-
-**CNBC (Apr 24):** "Higher energy prices are diverting the government's focus away from overdue structural reforms toward short-term support... not a very promising strategy."
-
-**→ Defense spending is legally/frameworked but execution faces headwinds from energy-driven growth collapse. Political bandwidth is split between rearmament and emergency energy relief.**
+**Read:** The "🔴 ECB emergency cut → risk-off" threshold in my playbook is now the **wrong sign** — the ECB is *hiking* on the energy-inflation passthrough, not cutting into recession. BOTH the ECB and Fed now carry a hiking bias. Differential compressed toward Europe, yet EUR is *weak* (1.145) → dollar-strength dominates the carry signal. **Key nuance:** the ECB hike was driven by the *earlier* war-inflation impulse; with Brent back at $78, that hawkish phase is likely **cresting, not accelerating** — the rates channel is near a turning point.
 
 ---
 
-### (5) BELGIUM/EUROCLEAR UST HOLDINGS — STABLE, CHINA PROXY RISK UNCHANGED
+## ENERGY — CRISIS RELIEVED
 
-**Verdict: 🟡 No significant change; attribution problem persists.**
+| Metric | Latest | Threshold | Source ✓ |
+|--------|--------|-----------|----------|
+| **TTF gas** | **€41.97/MWh** (~$13.3/MMBtu), +17.8% YoY | >€50 crisis | TE ✓ |
+| EU gas storage | **~46.7% full** (~46% across GIE/GEF); refill marginally AHEAD of required pace | <40 orange / <30 red | GIE/AGSI ✓ |
+| Qatar LNG | **FM formally extended to ~mid-Aug, but exports/transit RECOVERING** — ~300k t loaded wk to Jun 19 (most since early Mar); 4 tankers transited Hormuz | — | Bloomberg/Reuters ✓ |
+| German pump diesel | €1.795/L (-4% WoW) | >€2.00 industrial crisis | GlobalPetrolPrices ✓ |
+| Brent (cross-check) | $78.10 (-3.1% d/d) — matches BRENT | — | TE/CNBC ✓ |
 
-| Metric | Mar 24 (TIC Nov 2025) | Apr 30 (TIC Feb 2026) | Δ |
-|--------|----------------------|----------------------|---|
-| Belgium UST holdings | $481.0B | **$455B** | -$26B |
-| Luxembourg | $425.6B | $446B | +$20.4B |
-| Ireland | — | $351B | — |
-| UK | $888.5B | $897B | +$8.5B |
-| Euro Area total | — | **$2.0T (record)** | +$164B over 12mo |
-
-**Key context from Wolf Street (Apr 15):**
-- Belgium holdings at $455B (Feb 2026), down from $481B — but this is **custodial attribution**, not sovereign demand
-- "A Chinese investor holding U.S. Treasuries through a Belgian custodian appears in the Belgian total"
-- Euroclear CEO Valerie Urbain actively positioning as **"Asia-Europe bridge"** for RMB internationalization (HSBC summit, Hong Kong, Apr 14)
-- Euroclear wants China's RMB assets; building pipeline through Hong Kong
-- **Security tightened** around Euroclear (Belgian PM De Wever changed security from French to Belgian bodyguards for executives)
-
-**→ Belgium/Euroclear UST holdings are stable-to-slightly-lower in nominal terms, but the China-proxy interpretation remains valid. The bigger story is Euroclear pivoting toward RMB assets — a slow structural shift in custody flows, not an acute UST dump.**
+**Read:** Energy is **no longer an acute US-thesis stress vector.** TTF below my €50 line and far under Goldman's €74 war scenario; diesel falling = EU cost-push fading (supports the disinflation read HENRY tracks). My old "permanent loss of Qatari LNG" assumption is **reversed** — it was a temporary FM, now recovering. **Residual risk:** storage ~46% is below the seasonal norm (deficit metric is method-dependent: ~14-18pp depending on the norm/target definition) entering winter → a cold winter OR a Hormuz re-closure that *sticks* (vs the Jun-20 declaratory-only event) re-arms the gas vector in Q4. That is the trip-wire.
 
 ---
 
-## CROSS-AGENT FLAG (APR 30)
+## SOVEREIGN / FX / BANKS — EUROPE IS CALM
 
-| Agent | Signal |
-|-------|--------|
-| NEXUS | China-EU asymmetry widening = permanent industrial restructuring. Defense spending ramping but energy shock diverting focus. |
-| ZHAO | China front-running supply chain disruption; export orders strongest in 2 years. RMB internationalization via Euroclear = structural. |
-| LIQUID | Euro Area loading USTs (+$164B/12mo) while China/HK shedding (-$96B). Flow shift, not stock shift. |
-| REGINALD | German Ifo 84.4 = lowest since COVID. Energy-intensive industries under pressure. Watch for credit transmission. |
-| HENRY | Brent ~$111. EU entering refill season at ~31% storage (per Global Energy Flow, Apr 28). Winter 2026-27 math still broken. |
-| BRENT | TTF €44-47 = seasonal dip, not structural relief. Refill season stress ahead. |
-| MARCO | Germany growth halved = labor market stress incoming. Migration policy under pressure. |
+| Metric | Latest | Baseline | Source ✓ |
+|--------|--------|----------|----------|
+| Italy-Germany 10Y | **71bps** (far inside 150 stress) | 95 | countryeconomy ✓ |
+| France-Germany 10Y | **72bps** (Lecornu govt stable; compressed vs ~80 Oct peak) | 75 | ideal-investisseur ✓ |
+| EUR/USD · GBP/USD · DXY | 1.145 · ~1.32 · ~101 (DXY 18-mo high) | 1.178 · 1.26 · 98.25 | TE ✓ |
+| VSTOXX | ~20 (calm; >35 = severe) | 18 | STOXX ✓ |
+| Euro Stoxx Banks (SX7E) | near cycle highs (~268 price idx) | — | STOXX ✓ |
+| MFS fraud / UBS CRE gate | crystallized, **idiosyncratic, non-systemic, no new contagion** (Barclays £228m, Santander $267m; UBS $469m gate) | — | CNBC ✓ |
+| TIC (Apr, rel. ~Jun 18) | foreigners ADDED **+$206B** LT USTs (official +$42B) | — | Treasury sb0536 ✓ |
 
----
-
-## KEY METRICS (APR 30)
-
-### Energy
-| Metric | Current | Status |
-|--------|---------|--------|
-| Brent | ~$111/bbl | 🔴🔴 |
-| TTF Gas | €44-47/MWh | 🟡 (seasonal; still +47% YoY) |
-| EU Gas Storage | ~31% | 🔴 (59pp below Nov 1 target) |
-| ARA Diesel Crack | Widening | 🔴 |
-
-### China Manufacturing
-| Metric | Current | Status |
-|--------|---------|--------|
-| NBS PMI | 50.3 | 🟢 (expansion) |
-| Private PMI | 52.2 | 🟢 (5-year high) |
-| Industrial Output Q1 | +6.1% YoY | 🟢 |
-| Industrial Profits Mar | +15.8% YoY | 🟢 |
-| New Export Orders | 50.3 | 🟢 (first >50 in 2 years) |
-
-### EU Defense/Fiscal
-| Metric | Current | Status |
-|--------|---------|--------|
-| Germany Defense | $114B (2.3% GDP) | 🟢 (ramping) |
-| Germany Growth 2026 | 0.5% | 🔴 (halved) |
-| Germany Ifo | 84.4 | 🔴 (lowest since May 2020) |
-| EU Defense (total) | $864B (+14% YoY) | 🟢 |
-
-### UST Holdings (TIC Feb 2026)
-| Country | Holdings | 12mo Δ |
-|---------|----------|--------|
-| Belgium | $455B | -$26B |
-| Luxembourg | $446B | +$20B |
-| Ireland | $351B | — |
-| UK | $897B | +$9B |
-| Euro Area | $2.0T | +$164B |
-| China+HK | $962B | -$96B |
+**Read:** No European stress transmitting to US funding/credit — if anything Europe is a **source of calm**: benign periphery spreads, bank stocks near highs, low vol, continued foreign UST bid. The FX move is a **dollar-strength** story (hawkish Fed hold), not a euro-crisis. The **LIQUID-watched European bank-contagion channel is quiet.** Emerging wildcard *outside* core EU scope: **UK PM Starmer resigned Jun 22** (7th PM/decade) — but gilts ~4.8% / GBP ~1.32 reaction was orderly; flag, not fire.
 
 ---
 
-## SITUATION BRIEF — APR 30
+## POLITICAL / DEFENSE / TRADE — THE ONE LIVE US CHANNEL
 
-War enters day ~62. Hormuz remains closed. Brent ~$111. China's manufacturing is not just surviving the shock — it's capitalizing on it: PMI at 5-year highs, export orders strongest in 2 years, manufacturers front-running supply chain disruption. Meanwhile EU industry faces a triple squeeze: energy costs (still structurally elevated despite seasonal TTF dip), defense spending demands diverting fiscal capacity, and growth forecasts halved. The 25-40% China energy cost advantage is not only intact but documented at 30-40% average, 60%+ in key segments by EU-affiliated analysis. No EU-China energy back-channel deals detected; instead, EU posture is hardening with ACI exploration and May 29 strategy debate. Germany's €500B+ defense/infrastructure framework is approved and executing, but energy shock is diverting political bandwidth and consuming fiscal space. Belgium/Euroclear UST holdings stable; the more significant development is Euroclear's pivot toward RMB asset custody — a slow structural reconfiguration of custody flows, not an acute crisis.
+- 🟠 **JULY 4 2026 EU-US TARIFF CLIFF (~12 days out) — the single most US-market-relevant European item.** Trump set a hard Jul-4 deadline to fully implement the 15% all-inclusive cap framework or go "much higher" (autos threatened 15%→25%). EU cleared its internal hurdle May 20; vdL claims the 15% cap is binding. **Binary, dated US-equity/auto/USD risk event — Trump-policy/tape risk, not organic European macro stress.** → PROME/HENRY catalyst docket.
+- France: **Lecornu in office, stable** (survived no-confidence votes; 2026 budget passed via 49.3). OAT-Bund 72bps = NOT transmitting; fastest-repricing tail if it destabilizes.
+- Germany: **Merz coalition intact;** 2026 budget €524.5B (borrowing €174.3B, ~3× two-years-prior); defense €108.2B (€82.7B core + €25.5B Zeitenwende), ~€650B/5yr path to NATO 3.5% by 2029 — orderly, heavy long-end Bund supply.
+- EU-China: rare-earth truce (EU benefits derivatively via the US-China truce) expires ~Oct/Nov 2026; ACI threatened/under-study, NOT invoked — latent, not live.
+- Ukraine: **NO ceasefire** (Putin rejected Zelensky's early-June offer). → resolves **HNS-01 = MISS**.
 
-**Working model, not truth.** Position sizing should reflect 6-12 month disruption base case (Scenario D ~85%).
+---
+
+## CROSS-AGENT FLAGS (Jun 22)
+
+| → Agent | Signal | Pri |
+|---------|--------|-----|
+| **HENRY** | German Mfg PMI 49.0 (June flash, 34-mo high, +0.7, 1st new-orders rise in >1yr) → ~2mo-out US ISM = **stabilizing ~49-50.5 and rising, NOT a sub-49 break.** Corroborates your "cyclical axis soft-killed" read; downgrade conviction on any ISM-deterioration leg. *(Holding the outbox file pending Will — HENRY not live, signal is corroborating not threshold-breaching.)* | 🟠 |
+| HENRY | DXY ~101 (18-mo high) + Fed hold w/ hike-risk = US financial-conditions tightening impulse; energy cost-push fading (TTF +18% YoY vs +47%, diesel -4% WoW) supports disinflation | 🟡 |
+| LIQUID | European bank-contagion channel **QUIET** — MFS/UBS losses crystallized, non-systemic; ECB excess liq ~€2.47tn (>2000 floor) but draining. ECB "emergency cut" threshold now wrong-sign (ECB hiking) | 🟡 |
+| HAWK/BRENT | EU side **confirms de-escalation** — TTF €42, no EU energy-crisis vector live; Qatar LNG recovering. The whole German survey rebound is priced on Iran de-escalation → re-escalation reverses it directly | 🟡 |
+| PROME | **Jul-4 EU-US tariff cliff** = live dated US-market catalyst (~12d). HNS-01 (Ukraine ceasefire) = MISS. UK political wildcard (Starmer resigned Jun 22) | 🟠 |
+
+---
+
+## KEY THRESHOLDS (refreshed)
+
+| Metric | Current (Jun 22) | Threshold | Implication |
+|--------|------------------|-----------|-------------|
+| German Mfg PMI | **49.0** ↑ | <47 sustained → HENRY | NOT firing; inflecting up = opposite sign |
+| ECB Deposit Rate | **2.25%** (hiking) | Emergency CUT → risk-off | Wrong sign now — ECB tightening |
+| TTF gas | **€42/MWh** | >€50 → energy crisis | Below line; storage 46% = Q4 winter trip-wire |
+| Italy-Germany 10Y | **71bps** | >150 fiscal stress | Deep inside; benign |
+| EUR/USD | **1.145** | <1.05 watch / <1.00 crisis | Dollar-strength, far from stress |
+
+---
+
+## CATALYST DOCKET (forward)
+
+| Date | Event | Pri |
+|------|-------|-----|
+| **~Jun 24** | German Ifo (June) — confirm the rebound; June flash already up | 🟡 |
+| **Jul 4 2026** | **EU-US tariff implementation cliff** — 15% cap vs "much higher" | 🟠 |
+| Jul 22 2026 | ECB Governing Council (no pre-commitment; Sept favored for next move) | 🟡 |
+| ~Oct/Nov 2026 | EU-China rare-earth truce expiry | 🟡 |
+
+---
+
+## PREDICTIONS
+
+| ID | Status | Note |
+|----|--------|------|
+| **HNS-01** | **RESOLVED — MISS** (Jun 22) | "Ukraine ceasefire within 30d" (made Mar 4, resolve Apr 3). No ceasefire by Apr 3 or Jun 22; Putin rejected Zelensky's early-June offer. |
 
 ---
 
 ## TWO-SENTENCE SUMMARY
 
-China is not merely weathering the Hormuz shock but actively exploiting it — manufacturing PMI at 5-year highs, export orders surging as buyers front-run disruption, while EU industry faces a triple squeeze of structurally elevated energy costs, halved growth forecasts, and defense spending demands that divert fiscal capacity from competitiveness. The 25-40% energy cost asymmetry is widening toward 30-60% in key sectors, and with no EU-China energy cooperation on the horizon and Brussels hardening its posture, this gap is likely to drive permanent industrial capacity migration from Europe to China through 2026-27.
+The April "EU energy-crisis / protracted-war competitiveness shock" frame has de-escalated across every vector I track: German Mfg PMI inflected up to a 34-month high (49.0, Composite back in expansion), TTF gas fell to €42 (below crisis), periphery spreads are benign (Italy 71bps), the ECB *hiked* on receding war-inflation, and Europe is now a source of calm that **removes amplifiers** from the US-stress thesis rather than adding them. My single highest-value read — German PMI as a ~2-month ISM lead — therefore argues *against* a clean US ISM break below 49 over the next two months, and the only live European→US transmission channel is the policy-driven July 4 EU-US tariff cliff.
 
 ---
 
-*Previous: STATUS_archive_20260325.md | Full historical: domain/workbook/ML.tsv | Vectors: VX.tsv | Sources: domain/sources/*
+*Archives: `workbook/STATUS_archive_20260430.md` (Apr-30 war-crisis frame), `STATUS_archive_20260325.md`. Vectors: `workbook/VX.tsv`. Predictions: `workbook/PREDICTIONS.tsv`. Master log: `workbook/ML.tsv`. Refresh workflow: `wf_d99906ff`.*
