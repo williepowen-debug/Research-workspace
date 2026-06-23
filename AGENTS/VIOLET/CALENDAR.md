@@ -51,12 +51,14 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 
 | Date | Event | VIX Implication | VIOLET Checkpoint |
 |------|-------|-----------------|-------------------|
-| Jun 30 | Quarter-end rebalance (~$165B equity sell, JPM) | Recognized near-month-end vol-bump into a record-levered tape | 🟡 Watch (HENRY owns flows; WALTER SIG-008). |
+| **Jun 24** | **Micron (MU) Q3 earnings AH** | **AI-demand PIVOT into the 6/23 Path-B semis unwind (KB-VIO-105)** — ~17% implied move; capex guidance the tell | 🟠 Near-term vol gate: could extend or relieve the concentration-unwind. |
+| Jun 25 | May PCE (inflation) | Fed-HIKE regime relevant (Warsh dots 3.4→3.8%); hot print feeds hawkish repricing | 🟡 HENRY/CARL own substance. |
+| Jun 30 | Quarter-end rebalance (~$165B equity sell, JPM) | Mechanical vol-bump into a record-levered, negative-gamma tape — amplification risk if the Path-B unwind is still live | 🟠 Watch (HENRY owns flows; WALTER SIG-008). |
 | Jul 15 | VIX July expiration | Standard monthly | ⚪ Low. |
 | Jul 29 | FOMC (no SEP, Warsh) | Tests 6/17 dot-flip follow-through | 🟠 First gate of the Fed-HIKE regime. |
 | Sep 16 | FOMC + SEP + VIX Sep quarterly expiry | Quarterly dot-plot convergence | 🟠 Next major gate. |
 
-**Note:** the dominant near-term tail is now UNSCHEDULED — the Path-B concentration/leverage unwind (record $464bn levered-long, AI 47% concentration, negative gamma). No calendar date; external trigger.
+**Note:** the dominant tail — the Path-B concentration/leverage unwind — **had its first partial-fire 6/23** (semis/AI unwind, VIX +12.8%; KB-VIO-105), ORDERLY/contained so far. Its amplification gates ARE now near-term and dated: **MU 6/24, PCE 6/25, month-end 6/30** (record $464bn levered-long + negative gamma = mechanical accelerants if it spreads).
 
 **Resolved (6/16-17) — the catalyst window:**
 - **6/16 BOJ MPM:** As-priced 1.00% hike (7-1, Asada dovish dissent); yen WEAKENED to ~160.4, NO carry unwind (Aug-2024 analog did not replay). Carry → Sep-18 convexity tail (SAM; 60d unwind 24-28%). Vol-DEFUSED.

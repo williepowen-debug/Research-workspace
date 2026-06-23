@@ -29,7 +29,7 @@
 5. **Write-back:** STATUS (full rewrite to 6/23), KB-VIO-102 (window resolution + rotation) + KB-VIO-103 (fred — later CORRECTED), CATALYSTS pruned, CALENDAR rewritten, CHANGELOG POV pivot, NEXUS_BRIEF, this SCRATCH.
 6. **[Will follow-up] FIXED fred_fetch + RESOLVED credit gate.** Root cause = cache-file proliferation (8/code) → ad-hoc `glob[0]` read stale files (NOT a fetch failure). Rewrote fred_fetch.py: canonical single-file per series, merge-on-write (never truncates), freshness-aware cache, `latest_value()` helper, `--summary` mode printing the KB-VIO-090/096 gate verdict. Archived 52 legacy two-date files to `archive/_trash/`. **GATE: Bin-B block LIFTED** — CCC 9.47 (6/22), <9.55 since 6/12 (7 straight), no Bin-A, credit risk-on. KB-VIO-103 → CORRECTED; KB-VIO-104 logged. Propagated the correction across STATUS/SCRATCH/NEXUS_BRIEF/CALENDAR/CHANGELOG.
 
-7. **[Will follow-up] EOD data catch-up pass (~16:45 ET).** Markets closed; **VIX closed +12.8% at 19.49** (intraday bid HELD → highest close since the 6/10-11 war spike; OVX FELL as VIX rose = equity-internal/Path-B, not oil). Ran EOD `--supersede` (6/23 VX_DAILY TICK→SETTLE); recomputed 20d SKEW avg (142.47/+2.47, MECHANICAL); refreshed STATUS to close basis + fixed two framing precision items (SKEW is as-of 6/22 not 6/23 per yf T+1; R12 holds on the 20d-AVG ≥140, not "all daily closes 140+").
+7. **[Will follow-up] EOD data catch-up pass (~16:45 ET).** Markets closed; **VIX closed +12.8% at 19.49** (intraday bid HELD → highest close since the 6/10-11 war spike; OVX FELL as VIX rose = equity-internal/Path-B, not oil). Ran EOD `--supersede` (6/23 VX_DAILY TICK→SETTLE); recomputed 20d SKEW avg (142.47/+2.47, MECHANICAL); refreshed STATUS to close basis + fixed two framing precision items (SKEW is as-of 6/22 not 6/23 per yf T+1; R12 holds on the 20d-AVG ≥140, not "all daily closes 140+"). **Then investigated the +12.8% driver (Will ask, 4-thread workflow): the Path-B coiled-spring's FIRST partial-fire** — semis/AI concentration-unwind (KOSPI −5.7/−10% on SK-Hynix HBM capex slowdown → SOX −7.6%, MU −11%, NVDA −3.2%), ORDERLY/equity-internal (breadth held, credit tight, OVX fell, SKEW didn't lead); HENRY converged independently. KB-VIO-105; concentration vector 🟠→🔴 (matrix 20→21/45); added MU 6/24 / PCE 6/25 / 6/30 gates to CATALYSTS+CALENDAR.
 
 ## NEXT SESSION (priority-ordered)
 
@@ -44,7 +44,7 @@
 ## CARRY-FORWARD
 
 - **Push state:** committed local only this session. Shared branch active (SAM/BRENT/WALTER pushed during the gap — pulled clean at boot). Defer push to a Will-coordinated window.
-- **Regime one-liner:** LOW_VOL, fragility ROTATED external(Iran/yen)→internal(Path-B concentration/leverage), inside a NEW Fed-HIKE regime (Warsh). Tail didn't leave, it moved. No position; fade dissolved; hedge deferred/rotated.
+- **Regime one-liner:** LOW_VOL, fragility ROTATED external(Iran/yen/credit defused)→internal(Path-B), and **Path-B had its FIRST partial-fire 6/23** (semis unwind, VIX +12.8%, ORDERLY/contained). Inside a Fed-HIKE regime (Warsh). No position; fade dissolved; hedge deferred/rotated. **Key near-term gate: MU 6/24 AH (AI-demand pivot — extends or relieves the unwind); then 6/30 rebalance into negative gamma.**
 - **Data caveats live:** everything 6/23 is TICK (pre-settle) — verify at 16:15. SKEW yf is T+1. fred_fetch FIXED (credit through 6/22). 6/22 VX_DAILY row absent (yf companion lag).
 
 ## OPEN HYPOTHESES (flagged, NOT actionable until backtested)
@@ -56,4 +56,4 @@
 
 ---
 
-*Last updated: 2026-06-23 ~4:45 PM ET (boot after 9-day dark + fred_fetch fix + EOD settle pass; VIX closed 19.49 +12.8%, highest since the war spike). Catalyst window RESOLVED (BOJ as-priced/no-unwind, FOMC hawkish-dot-flip under Warsh, +12% spike faded, counter 0/5). Tail rotated (credit/Iran/yen all defused)→Path-B; Fed-HIKE regime. fred_fetch FIXED + credit gate RESOLVED (Bin-B block LIFTED, CCC 9.47); KB-VIO-103 CORRECTED → KB-VIO-104. No position; fade dissolved; hedge deferred/rotated. Top carries: thesis v3.6, HENRY flip-level, LIQUID mover-breadth. Committed local, push deferred.*
+*Last updated: 2026-06-23 ~5:15 PM ET (boot after 9-day dark + fred_fetch fix + EOD settle + driver investigation; VIX closed 19.49 +12.8% = Path-B FIRST partial-fire, KB-VIO-105). Catalyst window RESOLVED (BOJ as-priced/no-unwind, FOMC hawkish-dot-flip under Warsh, +12% spike faded, counter 0/5). Tail rotated (credit/Iran/yen all defused)→Path-B; Fed-HIKE regime. fred_fetch FIXED + credit gate RESOLVED (Bin-B block LIFTED, CCC 9.47); KB-VIO-103 CORRECTED → KB-VIO-104. No position; fade dissolved; hedge deferred/rotated. Top carries: thesis v3.6, HENRY flip-level, LIQUID mover-breadth. Committed local, push deferred.*
