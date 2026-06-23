@@ -33,7 +33,7 @@
 
 ## VOL REGIME
 
-*VIX/term-structure/VVIX/SKEW co-owned with VIOLET. ⚠️ VIOLET's published STATUS is FROZEN at 6/12 close (pre-FOMC/BOJ) — her read predates both catalysts, so it cannot serve as the current regime. Using HENRY's own live pull (boot.py 6/23 ~1pm) and flagging VIOLET stale. HENRY owns 0DTE share + GEX.*
+*VIX/term-structure/VVIX/SKEW co-owned with VIOLET. ✅ VIOLET REFRESHED concurrently this session (6/23 ~13:30 boot after 9-day dark, `1e0465b7`) and our reads CONVERGE: VIX 18.89, 3M/VIX 1.099 (contango flattened, intact), VVIX 98.72, SKEW 141.85 (popped to 146.72 on 6/18 as VIX crushed = compression-divergence fired again), M1:M2 +6.54% normalized off the complacency-top. HENRY live pull below is the spot; VIOLET's regime classification attributed. HENRY owns 0DTE share + GEX.*
 
 - **VIX:** 18.95 | **VIX9D:** 18.63 | **VIX3M:** 20.78 | **9D/VIX:** 0.983 | **3M/VIX:** 1.097 | **VVIX:** 98.70 | **SKEW:** 141.85 — yf 6/23 ~1pm live.
 - **🟠 VOL RE-BID, CONTANGO FLATTENING — but NOT a panic:** the 6/15 deep-contango complacency (VIX 16, 3M/VIX 1.21) has re-firmed: front-week vol back to ~parity (9D/VIX 0.983), contango compressed to 1.097, VVIX +7.6% (tail-hedge demand). This is the AI/semi positioning unwind + post-FOMC repricing forcing vol higher. **Still no inversion (no backwardation) and VIX 4.05 below the >23 vol-control trigger** = a de-risking jolt, not systematic deleveraging.
@@ -181,7 +181,7 @@
 | LABOR | NFP +172K hot, revisions up, **claims 226K (below trigger), continuing +24K; WARN +16.3% → late-July claims**; U-3 4.3%; realization break loading Q3 | Labor not breaking yet (no structural-bid break, U-3 <5.0%); the crack is forward (late-Jul claims) |
 | REGINALD | KRE $72.63 / WAL $80.55 (−5% over gap, up today); v2.2 Bear-medium, Q2 print late Jul | No acute bank stress; WAL weakness is the watch (Q2-gated) |
 | BROCK | PC/BDC Q2 forced marks (late Jul) — **alts now EXPRESSING stress ahead of it** (ARES −15%, APO −7%) | The structural axis is starting to transmit via the alts complex; CCC−BB 791 corroborates |
-| VIOLET | ⚠️ **STALE — published STATUS frozen 6/12 close (pre-FOMC/BOJ).** Last current read: VIX 17.68, coiled-spring/SKEW-held-142 (KB-VIO-099), Bin-B credit block governs her entry | Cannot serve as current vol regime — using HENRY live pull. VIOLET owes a post-FOMC refresh; the coiled-spring is now RESOLVING via spot vol rising to the held tail |
+| VIOLET | ✅ **REFRESHED 6/23 ~13:30 (`1e0465b7`) — CONVERGES with HENRY.** "Regime ROTATED not broken": catalyst window resolved, tail rotated Iran/yen→**Path-B structural coiled-spring INTENSIFIED** (record levered-ETF + AI/semi concentration + negative gamma into sub-19 VIX); Fed-HIKE regime re-arms her rate-shock leg. COT specs **covered hard into the 6/17 spike → ELEVATED_LONG (pct3y 79.5)**. SKEW popped 146.72 on 6/18 = compression-divergence fired | Independent convergence validates the read; the coiled-spring is resolving via spot vol rising to the held tail. *(Note: VIOLET cites the unverified "$464bn"/"47%" froth figures — HENRY's corrected to ~45%/unverified-quantum; minor, directionally aligned)* |
 
 ---
 

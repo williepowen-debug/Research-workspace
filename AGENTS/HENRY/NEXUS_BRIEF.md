@@ -20,7 +20,7 @@
 
 - **Conviction:** direction-MEDIUM (re-arm real but fragile — hawkish Fed into collapsing energy) · timing-MEDIUM (the unwind is live; MU 6/24 / PCE 6/25 / month-end 6/30 are the near gates) · level-MEDIUM
 - **Diverge from market by:** the consensus reads the hawkish dots as the story; HENRY's read is the dots are FRAGILE — set on hot May energy that has since collapsed, so a soft June CPI (Jul 14) makes them look like over-tightening into a slowdown (GDP already cut to 2.2%). The live risk is the POSITIONING unwind, not the macro path. Also: a hawkish-into-slowing Fed FLATTENS — own the 2Y, not the 10Y (HEN-33 lesson).
-- **Cross-agent tensions known to me:** None active. VIOLET's published STATUS is STALE (frozen 6/12 pre-FOMC) — she owes a post-FOMC vol refresh; I'm using my own live pull and flagging it, not contradicting her.
+- **Cross-agent tensions known to me:** None active. VIOLET refreshed concurrently (6/23, `1e0465b7`) and CONVERGES with my vol read ("regime rotated not broken"; tail rotated Iran/yen→Path-B coiled-spring). Minor: she carries the unverified "$464bn"/"47%" froth figures my research corrected (~45%/quantum-unverified) — directionally aligned, not a tension.
 - **Uncertain about:** (1) does the AI/semi unwind broaden to a vol-control cascade (HEN-35) or stay a rotation — my lane, unresolved; (2) does May core PCE validate or undercut the hawkish dots (HEN-34); (3) 0DTE/GEX gamma regime — standing gap (WALTER gave an interim negative-gamma read 7,500-7,375).
 - **Failure patterns:** tenor-anchoring on a flattening hawkish surprise (HEN-33, now in LESSONS) · stunning secondary claim needs primary verify (the "Fed hiked" catch) · data-right/positioning-early — see LESSONS + `workbook/PREDICTIONS.tsv`.
 - **RED counter-frame:** the rotation is benign — small-caps/value at records, VIX <23, credit tightening; the AI wobble is healthy breadth-broadening, not a top. My response: maybe — but record concentration + record leveraged-ETF + negative gamma + a $165B month-end rebalance is the exact dry-tinder setup where a rotation becomes a cascade; I hold HEN-35 at 30%, not dismissed.
@@ -45,7 +45,7 @@
 
 | From | Input | Expected by | Why it matters | How it changes my view |
 |------|-------|-------------|----------------|------------------------|
-| VIOLET | Post-FOMC vol refresh (her STATUS is STALE 6/12) — M1:M2, 20d-SKEW, coiled-spring read now that spot vol rose to the held tail | Her next boot | The coiled-spring (KB-VIO-099) is resolving via spot rising to SKEW, not SKEW falling | Confirms whether the vol re-bid extends or fades |
+| VIOLET | ✅ DELIVERED 6/23 (`1e0465b7`) — converges: VIX 18.89, M1:M2 +6.54% normalized, SKEW popped 146.72 on 6/18 (compression-divergence fired), COT specs covered into the spike → ELEVATED_LONG | done | The coiled-spring (KB-VIO-099) resolving via spot rising to SKEW | Confirmed: vol re-bid on the AI-unwind, tail rotated to Path-B (structural froth) |
 | BRENT | June-CPI energy direction (does the Brent $77 collapse soften the print) | June CPI Tue Jul 14 | The inverse-feedback test on the hawkish dots | Sustained energy deflation → dots look like over-tightening, front-end eases |
 | BROCK | PC/BDC Q2 forced marks | late Jul | The structural-axis transmission test — alts already cracking ahead of it | Marks confirm → K-split transmitting to equity |
 | LABOR | late-July claims (WARN +16.3% feeds ~6wk lag) | late Jul | The realization-break timing (Q3) | Claims >250K → structural-bid-break path re-opens |
