@@ -1,0 +1,218 @@
+{
+  "summary": "HENRY 8-day catch-up: FOMC/BOJ outcomes, gap macro data, today risk-off driver, froth verification, energy",
+  "agentCount": 6,
+  "logs": [],
+  "result": {
+    "fomc": {
+      "research": {
+        "decision": "HOLD (no change; unanimous 12-0)",
+        "decision_date": "2026-06-17",
+        "fed_funds_target_after": "3.50%-3.75% (3-1/2 to 3-3/4 percent), unchanged",
+        "dots_2026": "2026 median 3.8% (vs 3.625% current midpoint and 3.4% in March) = ~1 HIKE implied for rest of 2026, NOT cuts. Dot distribution: 9 of 18 above midpoint (favor a hike), 8 at midpoint (hold), 1 below (cut). 2027 median 3.6% (vs 3.1% in March), 2028 median 3.4%, longer run 3.1%. The dot plot flipped from a prior cut bias to a hike bias. Chair Warsh did NOT submit a dot (\"I did not submit a dot for me\").",
+        "warsh_presser_tone": "HAWKISH (price-stability-first, no forward guidance). Key quotes: \"members of the FOMC are unambiguous and unanimous: This Committee will deliver price stability.\" On forward guidance: \"Absent, also, is so-called 'forward guidance,' which we agreed was not well-suited to the current policy conjuncture.\" On the hawkish board / no cut discussed: \"There was one proposal on the table. There was no discussion of any other proposals... The group was unanimous and unambiguous on it.\" Revamped the statement to ~130 words (\"a bit shorter, a bit simpler—and it dispenses with some older language\"), declined to submit his own SEP dot, and announced five task forces (communications, balance sheet, data, productivity/jobs, inflation frameworks).",
+        "market_reaction": "Window 6/17 (decision day) to 6/18; 6/19 = Juneteenth market holiday (no print). FRED primaries: 10Y 4.43% (6/16) -> 4.49% (6/17, +6bps decision-day spike) -> 4.46% (6/18); net 6/16->6/18 about +3bps, decision-day +6bps. 2Y was the real move: 4.05% -> 4.20% (+15bps; ~16bps intraday, biggest Fed-day jump since Mar 2008 per CNBC) -> 4.19%. SPX 7,511.35 (6/16) -> 7,420.10 (6/17, -1.21% decision day) -> 7,500.58 (6/18, recovered, net -0.14% over 6/16->6/18; +0.93% on the week). VIX 16.41 (6/16) -> 18.44 (6/17, +2.0) -> 16.40 (6/18), spike fully retraced.",
+        "hawkish_of_pricing": true,
+        "one_line": "Warsh's debut FOMC held at 3.50-3.75% (as ~fully priced) but delivered a hawkish-of-consensus SEP — dots flipped from a 2026 cut bias to a hike bias (median 3.8%, 9 of 18 favoring a hike) — driving a 15-16bps front-end (2Y) yield surge and a -1.21% decision-day SPX drop that recovered by week's end.",
+        "sources": [
+          "FOMC statement, Fed June 17 2026: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+          "FOMC SEP projections (accessible) June 17 2026: https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm",
+          "FOMC SEP projections PDF: https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20260617.pdf",
+          "Chairman Warsh press conference transcript (PRELIMINARY) June 17 2026: https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20260617.pdf",
+          "Fed economic projections press release June 16-17 2026: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+          "FRED DGS10 (10Y yield) 6/12-6/18/2026: https://fred.stlouisfed.org/series/DGS10",
+          "FRED DGS2 (2Y yield) 6/12-6/18/2026: https://fred.stlouisfed.org/series/DGS2",
+          "FRED VIXCLS 6/12-6/19/2026: https://fred.stlouisfed.org/series/VIXCLS",
+          "FRED SP500 6/12-6/18/2026: https://fred.stlouisfed.org/series/SP500",
+          "CNBC, Fed holds rates as Warsh era begins, June 17 2026: https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html",
+          "CNBC, 2-year Treasury yield keeps rising after hawkish start to Warsh's Fed, June 18 2026: https://www.cnbc.com/2026/06/18/treasury-yields-investors-warsh-fed-interest-rates.html",
+          "StockTitan, Fed Holds Rates June 2026; Dot Plot Flips to a Hike: https://www.stocktitan.net/articles/fed-rate-decision-june-17-2026",
+          "TheStreet, Stock Market Today June 17 2026: https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-17-2026",
+          "CNN Business, Fed leaves rates unchanged but signals higher rates ahead, June 17 2026: https://www.cnn.com/2026/06/17/economy/fed-rate-decision-june-kevin-warsh",
+          "NPR, Fed holds rates steady and hints at rate hike, June 17 2026: https://www.npr.org/2026/06/17/nx-s1-5860084/fed-chief-warsh-first-fomc-meeting",
+          "Edward Jones weekly market recap (SPX +0.93% on the week; 6/19 Juneteenth holiday): https://www.edwardjones.com/us-en/market-news-insights/stock-market-news/daily-market-recap"
+        ],
+        "confidence": 0.93
+      },
+      "verdict": {
+        "claim_confirmed": false,
+        "actual_decision": "HOLD — no change. The FOMC voted 12-0 to MAINTAIN the target range for the federal funds rate at 3-1/2 to 3-3/4 percent (3.50%-3.75%), unchanged for the 4th consecutive meeting. This was Chair Kevin Warsh's first meeting. It was a HOLD-WITH-HAWKISH-DOTS, NOT a hike: the SEP dot plot flipped to a hike-leaning median (end-2026 median rose to 3.8% from 3.4% in March; 9 of 18 officials now project at least one hike by year-end). The 'Fed HIKED' claim is a misread of the dot-plot flip ('Dot Plot Flips to a Hike' headlines) as an actual policy-rate increase. Verified against the primary FOMC statement (federalreserve.gov), which reads verbatim: 'The Committee decided to maintain the target range for the federal funds rate at 3-1/2 to 3-3/4 percent.' No rate change occurred.",
+        "ten_year_move_6_17_to_6_19_bps": "-3 bps (DOWN). DGS10 (FRED primary): 6/17 close 4.49% -> 6/18 close 4.46% = -3 bps. 6/19/2026 is Juneteenth, a SIFMA-recommended FULL U.S. bond-market close, so there is NO 10Y print on 6/19 — the last print in the window is 6/18. From the 6/17 close through 6/19, the 10Y FELL ~3 bps. The 'decision-day' spike was only +6 bps (6/16 4.43% -> 6/17 4.49%), which then partly retraced. PREDICTION RESOLUTION: '10Y +10bps within 2 sessions' from the 6/17 close = MISS (10Y fell, did not rise; the real move was the 2Y front-end +15 bps to 4.20%, the biggest Fed-day jump since Mar 2008).",
+        "correction": "No correction to the first-pass research — it was accurate. First-pass already said HOLD (12-0, 3.50%-3.75% unchanged), and its FRED 10Y figures (4.43 -> 4.49 -> 4.46) and 2Y figures (4.05 -> 4.20 -> 4.19) match the primary data exactly. The only refinement: the 'stunning HIKE' claim under verification is FALSE/debunked — it conflates the hawkish dot-plot flip (median end-2026 to 3.8%) with an actual rate hike. The Fed held; the dots flipped. Also confirm: the '+10bps in 2 sessions' 10Y prediction MISSED (10Y net -3bps over the window because 6/19 is a Juneteenth bond holiday with no print and 6/18 retraced).",
+        "sources": [
+          "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm (PRIMARY FOMC statement: 'maintain the target range...at 3-1/2 to 3-3/4 percent', 12-0 vote, dated June 17 2026)",
+          "https://www.federalreserve.gov/monetarypolicy/files/monetary20260617a1.pdf (PRIMARY implementation note, 2:00 p.m. EDT June 17 2026)",
+          "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm (PRIMARY SEP/dot-plot projections — hawkish flip)",
+          "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10 (PRIMARY 10Y CMT: 6/16 4.43, 6/17 4.49, 6/18 4.46; no 6/19 print)",
+          "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2 (PRIMARY 2Y CMT: 6/16 4.05, 6/17 4.20, 6/18 4.19)",
+          "https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html (CNBC wire: 'Fed holds rates steady')",
+          "https://www.cnbc.com/2026/06/18/treasury-yields-investors-warsh-fed-interest-rates.html (CNBC: 2Y +16bps on 6/17, biggest Fed-day jump since Mar 2008)",
+          "https://www.cnn.com/2026/06/17/business/live-news/federal-reserve-interest-rate-kevin-warsh (CNN: 'leaves rates unchanged but signals higher rates ahead')",
+          "https://www.foxbusiness.com/economy/federal-reserve-interest-rate-decision-june-17-2026 (Fox Business: held 12-0, hawkish dots)",
+          "https://www.stocktitan.net/articles/fed-rate-decision-june-17-2026 (StockTitan: 'Fed Holds Rates June 2026; Dot Plot Flips to a Hike' — held, dots flipped, end-2026 median 3.8% vs 3.4% Mar)",
+          "https://www.sifma.org/news/press-releases/sifma-fixed-income-market-close-recommendation-in-the-u-s-the-u-k-and-japan-for-juneteenth-2026 (SIFMA: full U.S. bond-market close 6/19/2026 Juneteenth — confirms no 10Y print on 6/19)"
+        ],
+        "confidence": 0.98
+      }
+    },
+    "boj": {
+      "decision": "HIKE — BOJ raised the policy rate (uncollateralized overnight call rate) by 25bp to around 1.0%, the highest level since 1995. Vote 7-1; Asada Toichiro dissented (favoring a hold on Middle East downside risks). Complementary deposit facility rate set to 1.0%, basic loan rate 1.25%, effective June 17, 2026. Forward guidance retained the tightening bias (\"will continue to raise the policy interest rate\").",
+      "decision_date": "2026-06-16",
+      "usdjpy_reaction": "Yen briefly firmed on the announcement then reversed/stayed weak; USD/JPY settled ~160.2-160.3 (Nikkei reported yen ~160.22). No disorderly move. Intervention risk flagged by analysts/MUFG at the 161-162 zone; the yen's failure to strengthen kept pressure on authorities. Nikkei 225 rose ~0.5-1%; 10Y JGB yield +3bp to ~2.615%.",
+      "ueda_status": "ABSENT — hospitalized. Governor Kazuo Ueda was hospitalized on June 10, 2026 (reported infected cyst; ~two-week stay) and missed the June 15-16 meeting — the first time a BOJ governor missed a policy meeting since the current arrangement began (1998). He submitted a written policy view but did not vote (recorded as \"Absent: UEDA Kazuo\" in the BOJ statement). Deputy Governor Ryozo Himino presided over/chaired the meeting; Deputy Governor Shinichi Uchida hosted the post-meeting press conference.",
+      "vol_outcome": "VOL CRUSH / muted — the ~90%-priced, well-telegraphed hike produced no August-2024-style carry-trade unwind spike. Analysts (MUFG, investingLive) judged a disorderly unwind unlikely because the move was extensively communicated and largely anticipated; volatility expected to stay subdued through summer, with renewed carry appetite seen capable of pushing USD/JPY above 160.70. Realized reaction was contained, not a carry-unwind dislocation.",
+      "one_line": "BOJ hiked 25bp to ~1.0% on June 16, 2026 (7-1, Asada dissent) with Ueda hospitalized and absent — Himino chaired, Uchida ran the presser; the well-telegraphed move produced a vol crush (USD/JPY held ~160.2-160.3, no carry unwind) with intervention risk flagged at 161-162.",
+      "sources": [
+        "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260616a.pdf (PRIMARY — BOJ Statement, June 16 2026: 7-1 vote, ~1.0% target, Asada dissent, Ueda absent, Himino/Uchida/Nakagawa/Takata/Tamura/Koeda/Masu voting for)",
+        "https://www.cnbc.com/2026/06/16/boj-rate-hike-historic-inflation.html (CNBC — hike to 1%, yen ~160.22, Nikkei +0.46%, 10Y JGB +3bp to 2.615%)",
+        "https://www.cnbc.com/2026/06/10/bank-of-japan-governor-ueda-hospitalised-will-miss-june-meeting.html (CNBC/Reuters — Ueda hospitalized June 10, misses June meeting)",
+        "https://www.investing.com/news/economy-news/bank-of-japan-governor-ueda-hospitalised-will-miss-june-meeting-4734635 (Reuters via Investing — Himino presided, Uchida hosted presser)",
+        "https://investinglive.com/centralbank/yen-stays-weak-after-boj-hike-as-analysts-eye-intervention-risk-20260616/ (investingLive — yen stayed weak, muted reaction, intervention risk 161-162, vol subdued)",
+        "https://economy.ac/news/2026/06/202606289342 (carry-unwind fears vs. easing oil; well-telegraphed move limits disorderly reversal)"
+      ],
+      "confidence": 0.96
+    },
+    "gap_data": {
+      "releases": [
+        {
+          "name": "Empire State Manufacturing Survey (June 2026)",
+          "date": "2026-06-15",
+          "actual": "5.7 (general business conditions index)",
+          "consensus": "14.0",
+          "reaction": "Big miss — index plunged 14 pts from May's 19.6. New orders/shipments still positive; input+selling price pressure stayed elevated. Reinforced the regional-survey signal of cooling factory momentum even as national PMI ran hot. Modest market reaction (released pre-FOMC)."
+        },
+        {
+          "name": "Bank of Japan rate decision / statement (June 2026)",
+          "date": "2026-06-16",
+          "actual": "Hiked +25bp to 1.00% (7-1 vote; Asada dissent)",
+          "consensus": "Split (hike vs hold)",
+          "reaction": "Highest BOJ policy rate since Sept 1995; normalization continues on Shunto wage growth + above-target underlying inflation. BOJ flagged Middle East war risk. Carry-unwind relevant for SAM (USD/JPY) — not a US release but in-window and macro-load-bearing."
+        },
+        {
+          "name": "US Advance Retail Sales (May 2026)",
+          "date": "2026-06-17",
+          "actual": "+0.9% MoM ($763.7B); control group +0.7%; ex-autos +0.8%",
+          "consensus": "+0.5% MoM (control +0.4%)",
+          "reaction": "Hot beat — resilient consumer despite elevated fuel prices. +6.9% YoY. Hawkish data point feeding into same-day FOMC narrative; supported the higher-for-longer / hike-risk repricing."
+        },
+        {
+          "name": "FOMC decision + SEP + Warsh press conference (June 2026)",
+          "date": "2026-06-17",
+          "actual": "Held funds rate 3.50-3.75% (12-0 unanimous). SEP turned hawkish: 2026 PCE raised to 3.6% (core 3.3%), GDP cut to 2.2%, median 2026 funds rate ~3.8%; dot plot flipped from a cut to a possible HIKE — 9 of 18 officials project higher rates by year-end (6 see two 25bp hikes). Warsh (first meeting as Chair) abstained from submitting a dot, dropped forward guidance, cited Middle East conflict uncertainty + elevated inflation.",
+          "consensus": "Hold was fully priced; market expected a less hawkish dot plot",
+          "reaction": "Risk-off. S&P 500 -1.21% to 7,420.10; Dow -0.98% (-507 pts); Nasdaq -1.34% to 26,021.66. Treasury yields surged — 2Y +16bp to ~4.22%. Reaction attributed largely to the hawkish dot-plot repricing (Sahm)."
+        },
+        {
+          "name": "US Housing Starts (May 2026)",
+          "date": "2026-06-17",
+          "actual": "1.18M SAAR, -15.4% MoM (lowest since May 2020)",
+          "consensus": "~1.41M SAAR (milder decline)",
+          "reaction": "Sharp miss driven by multifamily collapse (-40.2% MoM, steepest since Apr 2009); single-family -1.9%. Housing-sector weakness; muted standalone market impact given same-day FOMC/retail dominance."
+        },
+        {
+          "name": "Initial Jobless Claims (week ending June 13, 2026)",
+          "date": "2026-06-18",
+          "actual": "226K initial (fell 4K); 4-wk avg 223,250; continuing claims 1.810M (week ending Jun 6, +24K)",
+          "consensus": "~225K initial",
+          "reaction": "In line. Initial claims eased off a four-month high but continuing claims jumped 24K (labor re-employment softening). Minor reaction; note this is the LAST claims print inside the window — the wk-ending-Jun-20 print releases Jun 25 (on deck)."
+        },
+        {
+          "name": "Philadelphia Fed Manufacturing Business Outlook Survey (June 2026)",
+          "date": "2026-06-18",
+          "actual": "10.3 (current general activity), +10.7 pts MoM",
+          "consensus": "10.0",
+          "reaction": "Slight beat; rebound from May's -0.4. Diverged from the soft Empire reading — mixed regional-survey picture. Limited market impact."
+        },
+        {
+          "name": "NAR Existing-Home Sales (May 2026)",
+          "date": "2026-06-18",
+          "actual": "4.17M SAAR, +3.2% MoM and +3.2% YoY; median price $429,300; 4.5 months inventory",
+          "consensus": "~4.0-4.1M (modest)",
+          "reaction": "Better than feared; sales rose in Northeast/Midwest/South, flat in West. Contrasted with the weak housing-starts print (existing-home turnover firm, new construction cratering). Muted market reaction."
+        },
+        {
+          "name": "S&P Global Flash US PMI (June 2026)",
+          "date": "2026-06-23",
+          "actual": "Composite Output 52.2; Manufacturing PMI 55.7; Services Business Activity 51.3 (flash; data collected mid-June)",
+          "consensus": "Composite ~50.8; Manufacturing 54.1; Services 50.9",
+          "reaction": "Hot across the board — third straight month of accelerating private-sector growth, manufacturing strongest in years (front-running orders ahead of Mideast-war supply disruptions; services aided by FIFA World Cup). Employment fell a second month as firms cut costs against rising input/energy prices. Hawkish for the rate path. BUT the tape was dominated by a tech selloff: S&P 500 / Nasdaq fell as Korea's KOSPI crashed -9.99% (chip-stock dump); Nvidia -3.2%, Micron -11.4%, SMH -6.5%. Prior values (final May): Composite 51.5, Mfg 55.1, Svc 50.7; primary flash-May release showed Composite 51.7 / Mfg 55.3 / Svc 50.9 (flash-vs-final revision noise — verify against the S&P Global PDF before treating priors as load-bearing)."
+        }
+      ],
+      "on_deck": "JUNE 24-30, 2026 (verified against BEA primary release schedule, bea.gov/news/schedule):\n- Tue Jun 24, 8:30am ET — BEA: US International Transactions + International Investment Position, Q1 2026 (+ annual update). Current-account balance.\n- Wed Jun 24 (evening, Asia) — no US release; light pre-PCE session.\n- Thu Jun 25, 8:30am ET — THE KEY DAY, quadruple drop:\n   (1) **May PCE / Personal Income & Outlays (BEA)** — the headline inflation print. April was +0.4% MoM headline / 3.8% YoY; core +0.2% MoM / 3.3% YoY. Street looking for a hot May on energy: Wells Fargo expects headline PCE +0.5% MoM (annual ~4.1%) and core +0.3% MoM / 3.4% YoY. This is the first major inflation read since the hawkish FOMC SEP (2026 PCE projected 3.6%); a hot core would harden the hike narrative.\n   (2) **GDP, Third Estimate, Q1 2026 (BEA)** — + corporate profits, state GDP/personal income.\n   (3) **Durable Goods Orders, May 2026 (Census)** — prior (April) +7.9% MoM ($346.0B).\n   (4) **Initial Jobless Claims, week ending June 20, 2026 (DOL)** — NOT yet released as of Jun 23; prior 226K / consensus had been ~225K. (Search aggregators that \"reported\" a Jun-20 number are mislabeling the Jun-13 print.)\n- Tue Jun 30, 10:00am ET — Conference Board Consumer Confidence, June 2026 (last Tuesday of month). May actual 93.1.\nNOTE: No FOMC, no NFP/CPI/PPI/ISM in this window — those are early-July. May PCE date is CONFIRMED June 25, 2026 (not June 26) per the BEA schedule.",
+      "one_line": "June 15-23 macro skewed hawkish-hot (retail +0.9%, flash Mfg PMI 55.7, Philly rebound) against a hawkish FOMC dot-plot flip (median now sees a 2026 HIKE, PCE raised to 3.6%) and a BOJ +25bp to 1.00% — but soft spots (Empire 5.7, housing starts -15.4%, continuing claims +24K) and a Jun-23 chip-led tech selloff muddy the tape; all eyes on May core PCE Thu Jun 25.",
+      "sources": [
+        "https://www.bea.gov/news/schedule (BEA primary release schedule — confirms May PCE/Personal Income & Outlays = Jun 25 2026, GDP 3rd est Q1 = Jun 25, Int'l Transactions = Jun 24)",
+        "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm (FOMC statement Jun 17 2026 — held 3.50-3.75%, 12-0)",
+        "https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20260617.pdf (FOMC SEP/dot plot Jun 17 2026 — 2026 PCE 3.6%, median funds ~3.8%)",
+        "https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20260617.pdf (Warsh press conference transcript Jun 17 2026)",
+        "https://www.census.gov/retail/marts/www/marts_current.pdf (Census advance retail sales May 2026 — +0.9% MoM, $763.7B)",
+        "https://www.census.gov/construction/nrc/pdf/newresconst.pdf (Census new residential construction May 2026 — starts 1.18M, -15.4%)",
+        "https://www.newyorkfed.org/survey/empire/empiresurvey_overview (NY Fed Empire State June 2026 = 5.7)",
+        "https://www.philadelphiafed.org/surveys-and-data/regional-economic-analysis/mbos-2026-06 (Philly Fed MBOS June 2026 = 10.3)",
+        "https://www.nar.realtor/newsroom/nar-existing-home-sales-report-shows-3-2-increase-in-may (NAR existing-home sales May 2026 = 4.17M, +3.2%)",
+        "https://www.dol.gov/ui/data.pdf (DOL UI weekly claims — wk ending Jun 13 2026 = 226K; 403 on direct fetch, figures via verifiedinvesting/Kalshi wires)",
+        "https://www.pmi.spglobal.com/Public/Home/PressRelease/d7a15ea4f43c4e3493db3814db67ad99 (S&P Global Flash US PMI — primary; May 2026 release verified Composite 51.7/Mfg 55.3/Svc 50.9 as prior anchor)",
+        "https://www.kitco.com/news/article/2026-06-23/spot-gold-rises-session-lows-flash-sp-composite-pmi-improves-522 (wire: June 2026 flash Composite 52.2, prior 51.5)",
+        "https://www.marketscreener.com/news/s-p-global-june-us-flash-manufacturing-pmi-55-7-vs-54-6-estimate-55-1-prior-ce7f5fdade88f721 (wire: June 2026 flash Mfg PMI 55.7 vs 54.1 est, 55.1 prior)",
+        "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-17-2026 (market reaction Jun 17: SPX 7,420.10 -1.21%, 2Y +16bp)",
+        "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-23-2026 (Jun 23 tech selloff: KOSPI -9.99%, NVDA -3.2%, MU -11.4%)",
+        "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260616a.pdf (BOJ June 16 2026 statement — hike to 1.00%)",
+        "https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html (CNBC FOMC coverage)",
+        "https://www.cnn.com/2026/06/17/business/live-news/federal-reserve-interest-rate-kevin-warsh (CNN: Fed holds, signals higher rates ahead)",
+        "https://www.conference-board.org/topics/consumer-confidence/ (Conference Board — June confidence due Jun 30; May 93.1)",
+        "https://www.census.gov/manufacturing/m3/adv/pdf/durgd.pdf (Census durable goods — May 2026 due Jun 25; April +7.9%)"
+      ],
+      "confidence": 0.82
+    },
+    "today_tape": {
+      "today_driver": "PRIMARY CATALYST (6/23): A global memory-chip/AI-positioning rout, not the Qatar blast or Hormuz. South Korea's KOSPI had its biggest-ever single-day drop, -9.99% to ~8,204 (\"Black Tuesday\"), with Samsung Electronics and SK Hynix both down >12%, triggering KRX circuit breakers. The proximate trigger: reports that SK Hynix would SLOW expansion of AI/HBM memory capacity and refocus on conventional DRAM — read as a crack in the AI hardware demand cycle. Compounding Korea-specific catalysts: fading MSCI developed-market inclusion hopes, fears of unrealized-capital-gains taxation, large-scale National Pension Service (NPS) rebalancing, and regulatory scrutiny of leveraged ETFs tied to Samsung/SK Hynix. This spilled into US memory/AI names: SMH -6.5%, Micron (MU) -~11% (down >12% intraday) into its 6/24 earnings, NVDA -3.2% (~$201.97), TSM -5.2% (~$443), Nasdaq ~-1.4% to -2.3%, SPX ~-0.9% to -1% (~7,395-7,403), VIX 18.89 (+9.3%). The move is framed explicitly as \"doubts about the AI trade / overstretched AI valuations,\" i.e., a positioning unwind in the most crowded longs. SECONDARY/AMPLIFIER: the 6/17 hawkish-FOMC repricing (median 2026 dot raised to 3.8%, 9/18 see a hike, ~75% odds of a Sept hike) keeps the discount-rate headwind live and removes the rate-cut cushion under high-multiple tech — so an AI-demand scare lands on an already-de-risked, higher-yield backdrop. ALTERNATIVE-MANAGER CRACK (ARES -5%, APO -2.7%): these are the high-beta expression of the same risk-off, layered on a STANDING private-credit/AI-displacement vulnerability that has hit alts all year (UBS est. 25-35% of private-credit exposed to AI-disrupted software; redemption-gate/bank-run fears since Feb-Mar 2026). MINOR/NON-DRIVER: Qatar Ras Laffan/Barzan blast (~6/22, 13+ killed) — Qatar said NO impact to LNG exports (Barzan feeds domestic power/water, not export trains); a tail geopolitical-premium item, not today's driver. Iran/Hormuz is a TAILWIND-turned-neutral (6/15 peace deal reopened Hormuz, blockade formally ended 6/18) — it removed the energy-risk premium and is not driving 6/23 risk-off. Month-end/quarter-end rebalancing is a latent flow risk into 6/30 but was not cited as today's catalyst.",
+      "week_path": "SPX path 6/18→6/23 (US sessions): 6/15 (Mon) record close ~7,554 (+1.65%) on US-Iran peace deal + Hormuz reopen. 6/16 (Tue) Dow record, SPX flat-to-soft into FOMC. 6/17 (Wed) FOMC hawkish hold (Warsh's 1st meeting): SPX -1.21% to 7,420.10; Dow -507 to 51,492; Nasdaq -1.34% to 26,021; 10Y +6.9bp to 4.497%. 6/18 (Thu) REBOUND: Russell 2000 +2.12% / Nasdaq up as yields eased and US formally ended the Iran blockade. 6/19 (Fri, Juneteenth — US markets closed). 6/22 (Mon) tech/memory selloff begins overnight, but it's a ROTATION not broad risk-off: SPX only -0.37% to 7,472.79, Dow +0.29% (+148, CAT +~4%), and Russell 2000 closes at a record >3,000 (3,004.40) for the first time ever — yet Alphabet -5%, MSFT -3%, Amazon -4.8%, Meta -2.3%; Micron actually +~7% that day. 6/23 (Tue) the rout goes GLOBAL and broad after KOSPI -9.99%: SPX intraday ~-0.9% to -1% (~7,395-7,403; full-session reads showed up to -1.5% to ~7,353), Nasdaq -1.4% to -2.3% (~25,800), Dow roughly flat/+0.2% (defensive/value bid persists). Net: SPX ~-2% to -2.5% from the 6/15 record (~7,551-7,554) into 6/23 (~7,395), a controlled de-rate concentrated in mega-cap AI/semis with small-caps and value cushioning the tape — classic mechanical-rotation-then-broadening sequence rather than a cascade. Confirm a daily close for the exact 6/23 print.",
+      "vix_path": "VIX path: subdued-to-rising, NOT a panic spike. Through the prior weeks VIX averaged ~17.4 (range ~15.18-23.34 over 5/25-6/23). 6/17 FOMC bumped vol modestly. 6/22 close 17.28 (+2.98%; range 16.49-17.92) — notably calm given the overnight chip wobble, because 6/22 was rotation (small-caps/value up) not broad risk-off. 6/23 the KOSPI crash forced a re-rate: VIX 18.89, +1.61 (+9.3%), with intraday prints ~19 (prompt's +9.7% snapshot is consistent). VVIX +7.6% (vol-of-vol rising) signals demand for convexity/tail hedges, i.e., desks paying up for protection as the AI-positioning unwind broadens. Interpretation: VIX still BELOW the 23-24 vol-control trigger and below the 30 risk-off-regime line — term structure likely still contango/flattening, not backwardated. This is a positioning/de-risking jolt, not yet a systematic-deleveraging cascade. Watch for VIX sustained >23-24 (vol-control selling) and a flip to backwardation as the escalation tell; MU earnings (6/24) is the near-term vol pivot.",
+      "sector_leaders_laggards": "LAGGARDS (6/23): Semiconductors/memory the epicenter — SMH -6.5%, Micron -~11% (>12% intraday), NVDA -3.2%, TSM -5.2%; Korea ADRs/Samsung/SK Hynix -12%. Mega-cap tech/AI broadly: Nasdaq -1.4% to -2.3%; on 6/22 Alphabet -5%, MSFT -3%, Amazon -4.8%, Meta -2.3%. Alternative-asset managers got hit hard as high-beta + private-credit/AI-software-exposure proxy: ARES -5%, APO -2.7% (peers KKR/BX/Blue Owl/TPG in the same complex, vulnerable on the standing private-credit redemption/AI-disruption theme). LEADERS / RELATIVE STRENGTH: Value/cyclicals and small-caps cushioned — Dow roughly flat-to-up (6/22 +0.29% led by Caterpillar ~+4%; 6/23 ~flat/+0.2%), Russell 2000 hit a record >3,000 on 6/22 and showed relative strength into 6/23. The tape is a within-equity rotation OUT of crowded AI/semis/long-duration growth INTO value, defensives, and small-caps — a quality/factor unwind, not indiscriminate selling. Energy a wildcard given Qatar blast headlines but Hormuz reopening capped the oil premium.",
+      "one_line": "6/23 risk-off is a global memory-chip/AI-positioning unwind (KOSPI -9.99% on SK Hynix's AI-memory capex pullback + Korea-specific MSCI/tax/pension flows), landing on a market already de-risked by the 6/17 hawkish-FOMC dot-plot repricing — semis/mega-cap AI and alt-managers lead lower while value/small-caps cushion; the Qatar LNG blast and Hormuz are tail/neutral, not the driver.",
+      "sources": [
+        "https://www.cnbc.com/2026/06/22/stock-market-today-live-updates.html",
+        "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-23-2026",
+        "https://finance.yahoo.com/economy/live/stock-market-today-nasdaq-sp-500-fall-as-global-chip-sell-off-spurs-ai-doubts-230258084.html",
+        "https://www.cnbc.com/2026/06/23/tech-stocks-sell-off-mag7-samsung-sk-hynix.html",
+        "https://www.kedglobal.com/korean-stock-market/newsView/ked202606230010",
+        "https://www.outlookbusiness.com/markets/kospi-tumbles-10-samsung-and-sk-hynix-sink-as-ai-rally-faces-reality-check",
+        "https://www.bloomberg.com/news/articles/2026-06-23/korean-stocks-fall-more-than-4-from-record-high-on-tech-selloff",
+        "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+        "https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html",
+        "https://www.cnbc.com/2026/06/18/treasury-yields-investors-warsh-fed-interest-rates.html",
+        "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-17-2026",
+        "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-18-2026",
+        "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-22-2026",
+        "https://www.bloomberg.com/news/articles/2026-06-22/qatar-expects-no-impact-on-lng-exports-from-domestic-gas-blast",
+        "https://www.aljazeera.com/economy/2026/6/22/qatar-lng-factory-explosion-injures-54-leaves-18-missing-govt-says",
+        "https://www.bloomberg.com/news/articles/2026-03-24/ares-apollo-fall-as-firms-curb-private-credit-fund-redemptions",
+        "https://www.morningstar.com/stocks/why-alts-manager-stocks-are-getting-hit-hard",
+        "https://finance.yahoo.com/quote/%5EVIX/history/",
+        "https://www.cnn.com/2026/06/23/business/stock-market-kospi-dow-nasdaq-ai"
+      ],
+      "confidence": 0.83
+    },
+    "froth": {
+      "ai_semi_concentration": "PARTIALLY CONFIRMED / MIXED.\n\nSEMICONDUCTOR SUB-CLAIM — CONFIRMED. Semiconductors at a RECORD ~18.8% of S&P 500 market cap (mid-June 2026, \"more than triple their share in 2022,\" and larger than the dot-com/tech-bubble peak) is well-corroborated and traces to Citadel Securities Global Market Intelligence. Citadel framing: \"roughly 18 cents of every dollar allocated to the S&P 500 is directed toward semiconductor companies, 33 cents flows into the Mag 7, and nearly 40 cents is concentrated in the index's ten largest holdings\" (citadelsecurities.com/news-and-insights/global-market-intelligence). The \"2.5x the dot-com peak\" multiplier is NOT the exact language used — primary/reputable sources say \"more than double\" / \"larger than during the Dot-Com era\" / \"more than triple their share in 2022.\" The 18.8% level is dated June 19, 2026 (coinpedia citing the data). YEAR CONFIRMED 2026.\n\nAI SUB-CLAIM — CORRECTED on both number and attribution. The widely-cited record figure is AI ~45% of S&P 500 market cap, NOT 47%. The 45% figure traces to The Kobeissi Letter (\"AI-linked stocks now account for a record 45% of the S&P 500's total market cap,\" reported Apr 24, 2026) and SEPARATELY to Goldman Sachs (\"AI stocks near 45% of S&P 500 weight, Goldman Sachs says,\" Seeking Alpha). Apollo/Torsten Slok IS a real AI-concentration commentator but his published figures are framed differently — top-10 stocks >40% of index market cap, and \"S&P 500 gains since January come entirely from AI + energy\" — NOT a clean \"47% of market cap\" number. So the relay's \"AI ~47% (Apollo/Slok)\" mis-states the number (45%, not 47%) and mis-attributes the headline market-cap figure (Kobeissi/Goldman, not Apollo). YEAR CONFIRMED 2026.",
+      "levered_etf": "UNCONFIRMED as stated ($464bn) — and likely a metric/scope mismatch. Could not source a Goldman \"record ~$464 billion\" leveraged/inverse ETF NET EXPOSURE figure in any reputable wire or primary. What IS confirmed from Goldman (via CNBC, June 3 2026, \"Leveraged ETF assets double in two months as investors press AI bet,\" citing Goldman's Christian Mueller-Glissmann): US leveraged EQUITY ETF net assets ~$84bn at end-May 2026 (up from ~$39bn in April), plus leveraged ETFs on South Korea/Taiwan ~$43.1bn (from ~$17bn) — i.e. assets roughly DOUBLED in two months on the AI trade. Separately, Goldman reported a record ~$90bn single-day leveraged/inverse ETF trading VOLUME. The $464bn does not match the asset figures (~$127bn combined) and is not the volume figure either; it may be a broader Goldman aggregate (total leveraged + inverse net notional/gross exposure including embedded leverage) that I could not locate at a citable primary. Treat the DIRECTION (record / fast-doubling leveraged-ETF exposure tied to the AI/semi trade) as confirmed; treat the specific $464bn quantum and \"net exposure\" label as UNVERIFIED. YEAR of the confirmed Goldman data = 2026.",
+      "soxl_soxs_reversal": "CONFIRMED (directional/superlative); exact dollar figures NOT independently re-sourced at a citable primary. ZeroHedge (verified X post dated ~June 22-23 2026, status 2069171210999435279) states verbatim: \"2nd biggest outflow from SOXL on record / biggest inflow into SOXS on record\" — exactly matching the relay's claim of 2nd-largest SOXL (3x semi bull) outflow on record and largest SOXS (3x semi bear) inflow on record. The precise amounts (~-$1,724M SOXL, ~+$437M SOXS) appear in the post's embedded chart, which search/fetch could not OCR (X returned 402/403 to direct fetch), so the exact dollars are RELAY-ONLY pending the chart, but the superlative framing is independently confirmed. This is a sharp reversal from mid-May 2026, when SOXL took a then-record +$1.03bn inflow and SOXS saw outflows (Kobeissi Letter) — consistent with a flip to bearish chip positioning around the June 22 selloff. YEAR CONFIRMED 2026.",
+      "month_end_rebalance": "CONFIRMED. JPMorgan estimates ~$165bn of global equity rebalancing-SELLING (with offsetting bond buying) into the June 30, 2026 quarter-end, described as one of the largest quarter-end rebalances JPM has flagged. Corroborated by multiple reputable outlets (Yahoo Finance / Investing.com: \"Investors could sell $165bn worth of stocks amid June quarter-end rebalancing: JPM\"). JPM's seller breakdown: Japan GPIF ~$60bn, US defined-benefit pensions ~$55bn, Norway's sovereign wealth fund ~$40bn, Swiss National Bank ~$25bn. Note the mainstream \"won't matter much\" caveat (the offsetting ~$165bn rotating INTO fixed income provides a bid; routine flow). YEAR CONFIRMED 2026 (window = last few trading days through June 30, 2026).",
+      "verdict": "3 of 4 claims substantially hold; 1 unverified on quantum.\n\n(1) AI/semi concentration — MIXED: semis ~18.8% of S&P 500 (record, Citadel Securities) CONFIRMED, but \"2.5x dot-com\" should read \"more than double\"; AI sub-claim CORRECTED to ~45% (not 47%) and re-attributed to Kobeissi Letter / Goldman, not Apollo/Slok.\n(2) Levered/inverse ETF ~$464bn net exposure (Goldman) — UNCONFIRMED quantum; Goldman's citable figures are leveraged-equity-ETF ASSETS ~$84bn US + ~$43bn KR/TW (doubled in 2mo) and a record ~$90bn single-day VOLUME. Direction confirmed, the $464bn number and \"net exposure\" label not sourced.\n(3) ~6/22 SOXL 2nd-largest outflow on record / SOXS largest inflow on record — CONFIRMED via ZeroHedge; exact $1,724M/$437M are relay/chart-only.\n(4) JPM ~$165bn quarter-end equity rebalance-selling by June 30 2026 — CONFIRMED (multiple wires, with seller breakdown).\n\nAll confirmed figures verified as 2026. Net read: the qualitative thesis the relay carries (extreme AI/semi concentration + crowded leveraged positioning flipping bearish into a heavy quarter-end rebalance) is well-supported; two specific numbers need correction/flagging before they go load-bearing — AI 47%->45% (and source), and the $464bn levered-ETF figure (unverified; do not cite as Goldman net exposure without the underlying note).",
+      "sources": [
+        "Citadel Securities — Global Market Intelligence (semis ~18% / Mag7 33c / top-10 ~40c of every S&P dollar; record semi options premium): https://www.citadelsecurities.com/news-and-insights/global-market-intelligence/july/",
+        "Coinpedia (semis record 18.8% of S&P 500, more than triple 2022, dated June 19 2026): https://coinpedia.org/crypto-live-news/semiconductor-stocks-reach-record-18-8-of-sp-500",
+        "247WallSt (Semiconductor exposure ~18%, more than double the tech-bubble peak): https://247wallst.com/investing/2026/05/18/semiconductor-exposure-in-sp-500-hits-18-thats-more-than-double-the-tech-bubble-peak/",
+        "Yahoo Finance / The Kobeissi Letter (AI-linked stocks record 45% of S&P 500 market cap, Apr 24 2026): https://finance.yahoo.com/markets/stocks/articles/ai-swallows-wall-street-stocks-094052523.html",
+        "Seeking Alpha (AI stocks near 45% of S&P 500 weight, Goldman Sachs says): https://seekingalpha.com/news/4577994-ai-stocks-near-45-of-sp-500-weight-goldman-sachs-says",
+        "Apollo Academy — Extreme AI Concentration in the S&P 500 (Slok; top-10 >40% framing): https://www.apolloacademy.com/extreme-ai-concentration-in-the-sp-500/",
+        "CNBC (Goldman/Mueller-Glissmann: leveraged ETF assets double in two months on AI bet — US ~$84bn, KR/TW ~$43.1bn, June 3 2026): https://www.cnbc.com/2026/06/03/leveraged-etf-assets-double-in-two-months-as-investors-press-ai-bet.html",
+        "ZeroHedge X post (2nd biggest SOXL outflow on record / biggest SOXS inflow on record, ~June 22 2026): https://x.com/zerohedge/status/2069171210999435279",
+        "The Kobeissi Letter X post (SOXL record +$1.03bn inflow / SOXS outflow, mid-May 2026 baseline): https://x.com/KobeissiLetter/status/2055038930978746415",
+        "Yahoo Finance / Investing.com (JPMorgan ~$165bn quarter-end equity rebalance-selling by June 30; GPIF $60bn / US DB pensions $55bn / Norway $40bn / SNB $25bn): https://finance.yahoo.com/markets/stocks/articles/investors-could-sell-165bn-worth-123854574.html",
+        "Investing.com (JPM $165bn June quarter-end rebalancing): https://www.investing.com/news/stock-market-news/investors-could-sell-165bn-worth-of-stocks-amid-june-quarterend-rebalancing-jpm-4749772",
+        "Investing.com (South Korea leveraged-ETF crisis; Goldman Korea 5%-swing ~$4.7bn dealer rebalance estimate): https://www.investing.com/news/stock-market-news/south-korea-leveraged-etf-crisis-sparks-global-chip-selloff-4755440"
+      ],
+      "confidence": 0.78
+    }
+  }
+}
