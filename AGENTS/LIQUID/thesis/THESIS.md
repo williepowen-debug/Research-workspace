@@ -1,6 +1,6 @@
 # LIQUID — Core Thesis v2.0
 
-**Last Updated:** 2026-06-12 | **Conviction:** 60% (down from 65 — the "duration matured to regime" premise failed recomputation; see CHANGELOG 6/12 pivot) | **Status:** 🟠 ACTIVE — credit channel ambiguous (HY widening 274→280; APO >$130 ×3 closes fired 6/11, NOT Trigger C — concurrency fails), duration channel oscillating around the 5.00 pivot (30Y closed 4.951 on 6/11; unwind test <4.90 untouched), testing downside into FOMC 6/17
+**Last Updated:** 2026-06-23 | **Conviction:** 60% (held — the acute credit-kill threat RECEDED, a downside risk to the bear, but the structural root FIRMED to offset; see CHANGELOG 6/23 pivot) | **Status:** 🟠 ACTIVE — headline channels calm (HY OAS bounced 263→265, no kill-trigger past PRE; funding clean) but the structural/substance roots FIRMED: CCC-BB tail WIDENED to 791 (signature mirrored in Euro CLO 2.0 junior + govvie term premium), BROCK substance firming (KBRA default 2.3% record), and a NEW AI/semi unwind cracking the alts/PC complex (APO/ARES) as the candidate PC→public transmission. Duration backed up off the <4.90 unwind (30Y 4.95, FOMC-resolved — KB-LIQ-060). Live load-bearing root = the credit-bifurcation tail (KB-LIQ-058/061)
 
 > **Read-with:** `STATUS.md` (live state), `STRATEGY.md` (playbook), `workbook/KILL_MEMO_HY_OAS_260.md` (trigger ladder), `thesis/CHANGELOG.md` (how this view evolved), `thesis/TIMELINE.md` (forward decision windows).
 
