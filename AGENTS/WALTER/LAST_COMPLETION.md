@@ -40,7 +40,7 @@ A high-throughput pure-routing session — 17 images across 3 batches, cleanly t
 
 ## GAPS
 
-- **🔴 Push DEFERRED at closeout:** the full session (9 BOARD signals + INDEX + route_log+11/kill_log+7/delivery_log+35 handoffs + anchor addendum + STATUS/MEMORY/LAST_COMPLETION) commits LOCAL; push Will-coordinated. Boot pull was clean; no fleet uncommitted work observed at boot, but defer-push standing rule applies (commit local, let the next clean window sweep it).
+- **🟢 Push DONE:** the full session (9 BOARD signals + INDEX + route_log+9/kill_log+7/delivery_log+35 handoffs + anchor addendum + STATUS/MEMORY/LAST_COMPLETION) committed `793c2364` + PUSHED to origin (Will-opened window 6/22 ~11:35 PM ET; clean `ffb7888b..793c2364`, tree fully clean, no pull/autostash needed). **SYNCED 0/0.** The 2 prior-deferred commits (TERRY v0.13 + Scout spec) were already on origin.
 - **35 new delivered_but_unconsumed handoffs** (all CC, WRITTEN_NOT_DELIVERED_PENDING_PUSH until the push window) on top of the ~40 prior — recipient-side + push-gated. Net consume is owed across BOND/LIQUID/HENRY/SAM/RED/HAWK/BRENT/CARL/REGINALD/VIOLET/TERRY.
 - **TERRY** got its first 2 deliveries — confirm the info-only routing scope works for it (Will/TERRY can widen/narrow; reversible).
 - **Carried verify-validations:** -003 (BOND confirm CL1-2Y correlation *inverting* vs *decaying*); -007 (SAM DXY ~96.85 tripwire + yen-specific reframe); -008 (CARL confirm Berkshire 13F is portfolio-vs-macro + DQ-below-GFC framing).
