@@ -2,20 +2,27 @@
 """
 BRENT EIA Weekly Petroleum Status Monitor
 
-Two modes:
-  1. LIVE (if EIA_API_KEY env var set) — pulls EIA v2 API for headline series
+Two modes (auto-selects LIVE when the EIA key is available, else LOCAL):
+  1. LIVE — pulls the EIA v2 API directly for the headline WPSR series, reusing
+     FORGE/tools/market-data/fetch.py:eia_fetch() (key from the gitignored FORGE
+     .env / EIA_API_KEY). Series IDs validated against known wk-6/12 prints on
+     2026-06-22: commercial crude, SPR, Cushing, gasoline, distillate, util, and
+     gasoline 4-wk YoY demand (−1.08% vs the published −1.1%). Default on WPSR days.
   2. LOCAL — parses the latest AGENTS/BRENT/demand_destruction/data/eia_YYYY-MM-DD.md
+     (fallback when the key/FORGE module is unavailable, or forced with --local).
 
 Key metrics tracked:
   - Commercial crude stocks (WoW change)
-  - Cushing stocks (<20M = operational minimum / WTI dislocation)
+  - Cushing stocks (<20M = operational minimum / WTI dislocation = ROUTING Boundary #3)
   - SPR level
-  - Gasoline stocks + YoY demand (-5% = Phase 2 signal)
+  - Gasoline stocks + 4-wk YoY demand (-5% = Phase 2 Trigger #2)
   - Distillate stocks
   - Refinery utilization (>95% = crack squeeze territory)
 
 Usage:
-  .venv/bin/python3 AGENTS/BRENT/scripts/eia_weekly.py
+  .venv/bin/python3 AGENTS/BRENT/scripts/eia_weekly.py           # auto (LIVE if key set)
+  .venv/bin/python3 AGENTS/BRENT/scripts/eia_weekly.py --local   # force local-file parse
+  .venv/bin/python3 AGENTS/BRENT/scripts/eia_weekly.py --live    # force live pull
 """
 
 import os
@@ -26,6 +33,29 @@ from pathlib import Path
 
 BRENT_DIR = Path(__file__).resolve().parent.parent
 EIA_DATA_DIR = BRENT_DIR / "demand_destruction" / "data"
+
+# ---- LIVE EIA v2 access: reuse FORGE's tested eia_fetch (key from gitignored .env) ----
+FORGE_MD = BRENT_DIR.parent.parent / "FORGE" / "tools" / "market-data"
+try:
+    sys.path.insert(0, str(FORGE_MD))
+    import fetch as _forge  # eia_fetch() + EIA_API_KEY + .env loader
+    HAVE_FORGE = True
+except Exception:
+    _forge = None
+    HAVE_FORGE = False
+
+# canonical metric -> (EIA v2 series_id, route, multiply-to-display-unit, compute_wow)
+# All series IDs validated against known wk-6/12 prints on 2026-06-22.
+EIA_SERIES = {
+    "commercial_crude": ("WCESTUS1",              "petroleum/stoc/wstk", 0.001, True),   # k bbl -> M
+    "spr":              ("WCSSTUS1",              "petroleum/stoc/wstk", 0.001, True),
+    "cushing":          ("W_EPC0_SAX_YCUOK_MBBL", "petroleum/stoc/wstk", 0.001, True),
+    "gasoline":         ("WGTSTUS1",              "petroleum/stoc/wstk", 0.001, True),
+    "distillate":       ("WDISTUS1",              "petroleum/stoc/wstk", 0.001, True),
+    "util":             ("WPULEUS3",              "petroleum/pnp/wiup",  1.0,   False),  # already %
+}
+# Finished motor gasoline product supplied (kbpd) — for the 4-wk YoY demand proxy (Trigger #2).
+GAS_SUPPLIED_SERIES = ("WGFUPUS2", "petroleum/cons/wpsup")
 
 # Thresholds
 CUSHING_MIN = 20.0          # M bbl — operational minimum / WTI dislocation
@@ -254,37 +284,81 @@ def status_for_spr(val):
     return "🟢", "normal"
 
 
+def fetch_live_metrics():
+    """Pull the headline WPSR series live from the EIA v2 API via FORGE's eia_fetch.
+
+    Returns a metrics dict in the SAME shape as extract_metrics() (so main()'s
+    print/status logic is identical), or None if live access is unavailable.
+    The 'gasoline' series WoW maps to the printer's 'gasoline_wow'; the gasoline
+    4-wk YoY DEMAND proxy ('gas_yoy_latest') is computed from product supplied.
+    """
+    if not HAVE_FORGE or not getattr(_forge, "EIA_API_KEY", ""):
+        return None
+    m = {}
+    for key, (sid, route, mult, want_wow) in EIA_SERIES.items():
+        rows = _forge.eia_fetch(sid, route=route, limit=2)
+        if not rows or (isinstance(rows[0], dict) and "error" in rows[0]):
+            continue
+        vals = [float(r["value"]) for r in rows if r.get("value") is not None]
+        if not vals:
+            continue
+        m[key] = vals[0] * mult
+        if want_wow and len(vals) >= 2:
+            m[f"{key}_wow"] = (vals[0] - vals[1]) * mult
+        if key == "cushing":
+            m["week_ending"] = rows[0]["date"]
+
+    # gasoline 4-wk YoY demand (Trigger #2) from product-supplied, newest-first
+    rows = _forge.eia_fetch(*GAS_SUPPLIED_SERIES, limit=60)
+    gv = [float(r["value"]) for r in rows if r.get("value") is not None]
+    if len(gv) >= 56:
+        cur4, yago4 = sum(gv[0:4]) / 4, sum(gv[52:56]) / 4
+        if yago4:
+            m["gas_yoy_latest"] = (cur4 / yago4 - 1) * 100.0
+
+    if not m:
+        return None
+    m["report_date"] = "LIVE pull (EIA v2 API)"
+    return m
+
+
 def main():
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
     print(f"\n{'='*72}")
     print(f"  BRENT EIA Weekly Monitor — {now}")
     print(f"{'='*72}")
 
-    latest = find_latest_eia_file()
-    if latest is None:
-        print(f"\n  ❌ No EIA data files found in {EIA_DATA_DIR}")
-        print(f"  Expected pattern: eia_YYYY-MM-DD.md")
-        return 1
+    force_local = "--local" in sys.argv
+    force_live = "--live" in sys.argv
 
-    # File age
-    mtime = datetime.fromtimestamp(latest.stat().st_mtime)
-    age_days = (datetime.now() - mtime).days
-    age_icon = "🟢" if age_days <= 3 else "🟠" if age_days <= 7 else "🔴"
-
-    print(f"\n  Source: {latest.name}")
-    print(f"  File age: {age_icon} {age_days} days (modified {mtime.strftime('%Y-%m-%d')})")
-
-    # Parse
-    with open(latest) as f:
-        text = f.read()
-    m = extract_metrics(text)
+    m = None
+    source = ""
+    if force_live or not force_local:
+        m = fetch_live_metrics()
+        if m:
+            source = "🟢 LIVE (EIA v2 API)"
+        elif force_live:
+            print(f"\n  ❌ --live requested but EIA key / FORGE module unavailable.")
+            return 1
 
     if not m:
-        print(f"\n  ⚠️  Could not extract metrics from {latest.name}")
-        print(f"  The file may not match expected format.")
-        return 1
+        latest = find_latest_eia_file()
+        if latest is None:
+            print(f"\n  ❌ No live EIA access and no data files in {EIA_DATA_DIR}")
+            print(f"  Set EIA_API_KEY in FORGE/.env for live, or add an eia_YYYY-MM-DD.md.")
+            return 1
+        mtime = datetime.fromtimestamp(latest.stat().st_mtime)
+        age_days = (datetime.now() - mtime).days
+        age_icon = "🟢" if age_days <= 3 else "🟠" if age_days <= 7 else "🔴"
+        source = f"{age_icon} LOCAL ({latest.name}, {age_days}d old)"
+        with open(latest) as f:
+            m = extract_metrics(f.read())
+        if not m:
+            print(f"\n  ⚠️  Could not extract metrics from {latest.name} (format mismatch).")
+            return 1
 
-    print(f"\n  Week ending:   {m.get('week_ending', 'unknown')}")
+    print(f"\n  Source: {source}")
+    print(f"  Week ending:   {m.get('week_ending', 'unknown')}")
     print(f"  Released:      {m.get('report_date', 'unknown')}")
 
     # Key metrics
@@ -302,15 +376,23 @@ def main():
     icon, note = status_for_cushing(val)
     if val is not None:
         wow_str = f"  ({wow:+.2f}M WoW)" if wow is not None else ""
-        print(f"  {icon} Cushing:         {val:>7.1f}M bbl{wow_str}  — {note}")
+        print(f"  {icon} Cushing:         {val:>7.2f}M bbl{wow_str}  — {note}")
         if wow is not None and wow < 0 and val is not None:
             weeks_to_floor = (val - CUSHING_MIN) / abs(wow)
             print(f"              At current pace: {weeks_to_floor:.1f} weeks to {CUSHING_MIN}M floor")
 
     val = m.get("spr")
+    wow = m.get("spr_wow")
     icon, note = status_for_spr(val)
     if val is not None:
-        print(f"  {icon} SPR:             {val:>7.1f}M bbl                — {note}")
+        wow_str = f"  ({wow:+.2f}M WoW)" if wow is not None else ""
+        print(f"  {icon} SPR:             {val:>7.1f}M bbl{wow_str}  — {note}")
+
+    val = m.get("distillate")
+    wow = m.get("distillate_wow")
+    if val is not None:
+        wow_str = f"  ({wow:+.2f}M WoW)" if wow is not None else ""
+        print(f"  Distillate:        {val:>7.1f}M bbl{wow_str}")
 
     wow = m.get("gasoline_wow")
     yoy = m.get("gas_yoy_latest")
@@ -334,8 +416,10 @@ def main():
     print(f"  Trigger #2 (Gas YoY ≤ -5%):  {'🔴 FIRED' if gas_trigger else '⚪ not fired'}")
     print(f"  Cushing < 20M:               {'🔴 BREACHED' if cushing_trigger else '⚪ not breached'}")
 
-    print(f"\n  NOTE: This parses local eia_*.md files written by the scheduled EIA sub-agent.")
-    print(f"  For live EIA v2 API (direct pull), set EIA_API_KEY env var (register at eia.gov/opendata).")
+    if source.startswith("🟢"):
+        print(f"\n  NOTE: LIVE pull via EIA v2 API (FORGE eia_fetch). Cross-check Cushing vs the FORGE dashboard.")
+    else:
+        print(f"  NOTE: LOCAL parse. Live needs EIA_API_KEY in FORGE/.env (then drop --local).")
     print()
     return 0
 
