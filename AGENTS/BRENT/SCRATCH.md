@@ -1,56 +1,68 @@
-# BRENT SCRATCH — Mon Jun 22, 2026 PM (Monday confirms Phase-2-in-price → THESIS v4.2)
+# BRENT SCRATCH — Wed Jun 24, 2026 (EIA wk-6/19 data pull — ROUTING BOUNDARY #3 FIRED)
 
-**Purpose:** Ephemeral session handoff — the canonical "where are we / what next" file. Read at boot (SPAWN PROTOCOL step 2), rewritten in full at closeout (step 11). Disposable. Supersedes the Jun-20 SCRATCH.
+**Purpose:** Ephemeral session handoff — the canonical "where are we / what next" file. Read at boot (SPAWN PROTOCOL step 2), rewritten in full at closeout (step 11). Disposable. Supersedes the Jun-22 SCRATCH.
 
-**Session arc:** Booted Mon Jun 22 PM (after Will-coordinated pull — already synced). Processed 3 Jun-21 WALTER signals. Ran a verification sweep (`wf_21dca756-c61`, 4 finders + adversarial synth) to ground the Monday read — it **confirmed de-escalation** and surfaced two things I didn't have at boot: (1) the **US Treasury 60-day Iranian-crude license** + concluded 60-day roadmap = the first *supply-return mechanism*; (2) the boot $78.14 was an after-hours tick, real **settle $77.90**. Bumped **THESIS v4.1→v4.2 (minor)**, corrected STATUS, wired a real **LIVE mode into eia_weekly.py**, and closed out. **4 session commits PUSHED to origin** — swept by a CARL/WALTER push-train (`pull --rebase` + push); SHAs rewritten, work content-verified on origin.
+**Session arc:** Booted Wed Jun 24 (continuation from prior context that hit the summary wall mid-rebase). The EIA WPSR for week ending Jun 19 was pulled, filed, and committed. The pre-registered ROUTING BOUNDARY #3 (Cushing sub-20M) has now FIRED. A rebase conflict was resolved (upstream fe44ae3a vs my f97f55f) and the commit pushed to origin (109fd804). PushNotification sent to Will.
 
 ---
 
 ## ⚡ NEXT BOOT FIRST MOVES
-1. 🔴 **Wed Jun 24 ~10:30 ET — EIA WPSR (wk-6/19)** — now ONE command (live): `python3 AGENTS/BRENT/scripts/eia_weekly.py`. Watch **Cushing sub-20M → Boundary #3** (flag PROME → LIQUID/HENRY/RED); **SPR remaining-authorization barrels**; **gasoline datapoint #3** (Trigger #2 clock). eia_ cache TTL 5min — run a few min after release.
-2. 🔴 **Fri Jun 26 — CFTC COT (Jun 16 data)** = the FIRST post-MOU forced-liquidation read → **XLE stub decision** + Trigger #3 re-arm. Validate the record-short washout magnitude (ICE Brent MM net length 2026-low; specs ~1M bbl from Dec ATH) against the actual print.
-3. 🟠 **Re-derive Brent 6-mo curve** from the BZQ26/BZV26 strip to confirm/deny contango — currently [EST] (a Jun-5 snapshot still showed backwardation).
+1. 🔴 **Fri Jun 27 AM — Baker Hughes rig count (BH Jun 27)** — watch oil rig direction (trough 407, threshold 457 = +50 from trough). BRT-26 slow-response frame still intact.
+2. 🔴 **Fri Jun 27 (or Sat Jun 28) — CFTC COT (Jun 23 data)** — this is the SECOND post-MOU forced-liquidation read (Jun 16 data was first, last week); critical for Trigger #3 re-arm and XLE stub decision. ~3:30pm ET Fri.
+3. 🟠 **Trigger #2 datapoint #3 CONFIRM** — the Jun 19 gasoline product supplied 4-wk YoY was NOT indexed in EIA tables at run time (WGFUPUS2 series showed only through Jun 12). Pull `https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=wgfupus2&f=W` when indexed (typically updates 2-4h after 10:30am release). Need a single-week Kbpd value to compute the 4-wk YoY and confirm magnitude vs the −5% threshold.
+4. 🟠 **Refinery utilization Jun 19** — WPULEUS3 was also not indexed at run time. Pull from EIA WPSR dashboard or series once available.
+5. 🟡 **NEXUS_BRIEF outbox routing** — Cushing breach is now live. Confirm NEXUS picks up the SENDING row at next boot (should auto-route to LIQUID/HENRY/RED via NEXUS_BRIEF updates this session).
 
-## CHANGES SINCE LAST SESSION (Jun 20 → Jun 22)
-- **Brent fell $80.57 (Jun 19) → $77.90 settle (Jun 22, −3.3%, lowest since early March)** — the Sunday reopen did NOT gap up on Iran's Jun-20 Hormuz re-closure.
-- **NEW (Jun 22): US Treasury 60-day general license authorizing Iranian-crude production/sale/transport** (~to Aug 21) + **Switzerland round CONCLUDED** with a 60-day roadmap (Hormuz deconfliction line, demining coordination, IAEA re-entry). The Jun-21 "walkout" was TRANSIENT.
-- **HAW-11 RESOLVED UNFIRED** — zero Gulf energy-infra/tanker/mine events Jun 20-22; Iran re-closure declaratory (CENTCOM ~55 transits).
-- **Record-short positioning** — ICE Brent MM net length at a 2026 low (174,807 lots, −43,283 wk); specs within ~1M bbl of the Dec ATH short (all COT as-of Jun 16, pre-MOU).
-- **WALTER coordination (via Will):** Cushing now dashboard-native (FORGE dashboard, EIA v2); EIA API key set in gitignored FORGE/.env; my eia_weekly.py "LIVE mode" was a no-op (now fixed).
+## CHANGES SINCE LAST SESSION (Jun 22 → Jun 24)
+- **EIA Jun 24 (wk-6/19) CONFIRMED:**
+  - **🚨 Cushing 18.957M (−1.077M WoW) — BELOW 20M OPERATIONAL FLOOR. ROUTING BOUNDARY #3 ACTIVE.**
+  - Commercial crude 412.134M (−6.088M, beat est −4.5M by 1.6M) — ~7% below 5yr avg
+  - SPR 331.191M (−9.109M) — 40+ yr low (lowest since ~1983); no throttle; 6th+ consecutive cycle-max draw
+  - Total crude incl SPR −15.197M WoW (2nd consecutive cycle-max week)
+  - Gasoline stocks 216.299M (+2.099M), ~6% below 5yr avg
+  - Distillate 106.116M (+3.016M), ~10% below 5yr avg
+  - Production 13,819 Kbpd (+119K est); imports 5,570 Kbpd (~−150K est)
+  - Retail gas ~$4.048/gal (Jun 22 AAA/FRED) — near $4 behavioral threshold; was $3.99 Jun 18
+- **Trigger #2 datapoint #3 PENDING** — WGFUPUS2 not indexed for wk-6/19 at run time; est ~−1.5 to −2.0% [EST] based on trend; −5% threshold still far (0/3 on 3-wk clock)
+- **Refinery util Jun 19 PENDING** — Jun 12 CONF 96.7%
+- **Git:** session committed + pushed (109fd804); prior rebase conflict resolved
 
 ## WHAT I DID THIS SESSION
-- **Processed 3 Jun-21 WALTER signals** (board_log + git mv): SIG-001 (walkout, noted), SIG-004 (Hormuz 15→3, acted), SIG-010 (spec-short washout, acted).
-- **Verification sweep** `wf_21dca756-c61` (4 finders: tape / kinetic-HAW-11 / positioning / diplomacy + adversarial synth). Web-confirmed; settles cross-checked.
-- **THESIS v4.1→v4.2 (minor)** + CHANGELOG entry (commit `c5cbd2c4`). Conviction UNCHANGED.
-- **STATUS v4.2** — 4 corrections + JUN 22 PM section + dashboard/positioning refresh, 210 lines (commit `ff55e0aa`).
-- **eia_weekly.py real LIVE mode** — full WPSR live via FORGE eia_fetch, 7 series validated, boot now live (commit `948d5e00`).
-- **Closeout:** CATALYSTS (HAW-11 RESOLVED + SPR 17.5M refinement + XLE note); NEXUS_BRIEF v4.2 (Treasury license routed to HENRY/CARL/SAM/HAWK); this SCRATCH.
+- **Pulled EIA WPSR wk-6/19** via EIA table1.csv + table4.csv [CONF]; cross-validated via TradingEconomics, Investing.com, OilPrice.com, AAA/FRED
+- **Created `data/eia_2026-06-24.md`** (158 lines; full data file)
+- **Updated `demand_destruction/TRACKER.md`**: alert block (Routing Boundary #3 + crude draw alert); header (Jun 24 / War Day ~117); Cushing tier-1 row (18.957M BREACHED); Trigger #2 row (datapoint #3 PENDING); new weekly log row (Jun 19 wk end)
+- **Resolved rebase conflict** (`git checkout --theirs` flow; prior session used `--ours` which took the upstream version; re-applied edits manually before `git rebase --continue`)
+- **Pushed** to origin master (109fd804)
+- **PushNotification sent** to Will: Routing Boundary #3 active
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **Wed Jun 24** — EIA WPSR (wk-6/19) via live eia_weekly.py: Cushing sub-20M (Boundary #3), SPR remaining, gasoline datapoint #3.
-2. **Fri Jun 26** — CFTC COT (Jun 16) forced-liquidation read → XLE stub decision + Trigger #3 re-arm; + Baker Hughes (BRT-26).
-3. **~early Jul (Jul 3 modeled)** — SPR re-auth decision; verify remaining barrels (only ~17.5M of 172M drawn) vs Jun 24 EIA.
-4. **Re-derive Jun-22 M1−M3 / 6-mo strip** to stamp contango [CONF] or correct.
-5. **Jul 8** — EIA STEO (July), first post-deal price-path revision.
+1. **Fri Jun 27** — Baker Hughes rig count + CFTC COT (Jun 23 data, first TRUE post-MOU liq read); XLE stub decision gate
+2. **Fri Jun 27 (or check asap)** — Pull WGFUPUS2 and WPULEUS3 for Jun 19 week to complete the PENDING EIA cells in TRACKER.md (Trigger #2 datapoint #3 + util Jun 19)
+3. **Wed Jul 1** — EIA WPSR (wk-6/26); watch Cushing trajectory at sub-20M pace (~18M next week if −1M/wk continues)
+4. **~early Jul (Jul 3 modeled)** — SPR re-auth decision; 172M tranche authorization exhausted; DOE re-auth required to continue draws
+5. **Fri Jul 8** — EIA STEO (July); first post-deal price-path revision
 
 ## OPEN THREADS / WATCHES
-- 🔴 **Re-escalation into a record-short book** — squeeze fuel; live vectors = Lebanon seam + Trump "take over Hormuz" threat (tape-tier). Un-invert trigger = a CONFIRMED kinetic Hormuz/energy event (vessel/mine/energy-infra strike OR JWC reclass/insurer pull).
-- 🔴 **Cushing sub-20M / Boundary #3** — fires as soon as Jun 24.
-- 🟠 **Contango UNVERIFIED [EST]** — re-derive from strip; load-bearing for Phase-2-in-price.
-- 🟠 **Hormuz physical legs (0/4)** — liners off Cape = the cleanest reopening tell; ~22-27% dark transits (Windward).
-- 🟠 **SPR re-auth (early July)** — 17.5M drawn vs 172M; "fully withdrawn" likely = first 86M tranche.
-- 🟡 **Russian crude-export channel** (HAWK KB-187) — Brent-positive on export saturation OR Ukraine pivot to crude terminals.
-- 🟡 **LIQUID HY-Energy-OAS pull** — owed, DEFERRED per Will Jun 20.
+- 🔴 **Routing Boundary #3 NOW ACTIVE** — LIQUID (WTI basis/dislocation), HENRY (physical price distortion = inflation input), RED (systemic signal) alerted via NEXUS_BRIEF
+- 🔴 **Trigger #2 datapoint #3 PENDING** — gasoline 4-wk YoY for wk-6/19 not yet indexed; confirm when WGFUPUS2 updates
+- 🔴 **Physical/price divergence at cycle maximum** — Cushing below 20M operational floor while Brent pricing PATH A normalization at $78–82; snap-back potential is highest of the cycle if Lebanon re-escalates into record-short positioning
+- 🟠 **Cushing trajectory** — at ~1M/wk draw pace, falls to ~18M next week; WTI delivery dislocation risk escalating
+- 🟠 **SPR re-auth (early July)** — 172M authorization fully withdrawn ~early Jul; DOE needs new authorization to continue ~9M/wk pace; runway to §6241 252.4M floor = ~8-9 weeks if no throttle
+- 🟠 **CFTC COT Jun 16 (first post-MOU liq read)** — Jun 26 CFTC release; critical for Trigger #3 re-arm; record-short ICE Brent MM net
+- 🟡 **Refinery util Jun 19 PENDING** — need WPULEUS3 Jun 19 value; Jun 12 was 96.7% (util >95% since Jun 5 keeps BRT-12 crack-squeeze channel active)
+- 🟡 **LIQUID HY-Energy-OAS pull** — owed, DEFERRED per Will Jun 20
 
 ## POSITION DECISIONS PENDING
-- **XLE $65C Sep 30** — HOLD on a short leash through Jun 26 (Will Jun 20 hold; v4.2 hold-not-lapse). HAW-11 unfired satisfied the "don't-lapse-pre-HAW-11" gate, but record-short asymmetry > the ~$42 salvage. **Don't sell-into-vol** (no bid, VIX 17.28). Reassess after Jun 26 COT + early-July SPR re-auth. Sell into any incident vol spike.
+- **XLE $65C Sep 30** — HOLD on a short leash through Jun 26/27 (Will Jun 20 hold; v4.2 hold-not-lapse). Routing Boundary #3 firing = physical squeeze deepening = kinetic-tail stub more justified NOT less. Reassess after Jun 27 COT (first post-MOU liq print) + early-July SPR re-auth.
 - **No new flat-price longs** — de-escalation confirmed + contango + crowded short = wrong regime to add length either way.
 
 ## MAIL STATE (one line per signal)
-- **Inbox/WALTER:** 3 Jun-21 signals processed → board_log + git mv to processed/. Lane CLEAR.
-- **Outbox:** no new acute outbox this session — the Treasury license + de-escalation routed via NEXUS_BRIEF SENDING (not outbox, per `[[feedback_outbox_restraint_for_push_friction]]`). Legacy undelivered cruft (Apr–Jun, HERMES-degraded) untouched.
+- **Inbox/WALTER:** no new signals this session; lane CLEAR from Jun-22 SCRATCH
+- **Outbox:** no new acute outbox; Routing Boundary #3 routing handled via NEXUS_BRIEF SENDING (not outbox, per outbox-restraint guidance)
 
 ## WORKBOOK HEALTH
-- **eia_weekly.py now LIVE** — boot EIA monitor was silently reading stale Jun-5-week markdown all session; fixed (auto-LIVE via FORGE key, --local fallback). Series IDs validated 2026-06-22.
-- THESIS → v4.2 + CHANGELOG entry. PREDICTIONS unchanged this session (no BRENT resolutions; HAW-11 is HAWK's). KB/VX/FLOW remain demoted/archival.
-- **GIT:** the 4 session commits are **PUSHED to origin** — swept by a CARL/WALTER push-train (`pull --rebase` + push), which rebased the SHAs: THESIS v4.2 → `77fc285a`, STATUS v4.2 → `b8fe5303`, eia_weekly live → `9100a576`, closeout → `a093f0d1` (original local SHAs c5cbd2c4/ff55e0aa/948d5e00/42400721 were rewritten — `[[finding_forced_update_rebase_churn]]` + `[[finding_push_train_pattern]]`). Content verified on origin (THESIS v4.2 / $77.90 STATUS / fetch_live_metrics). Local HEAD == origin/master `0f3d646d`, tree clean. This SCRATCH git-note update is a small follow-up commit — local until the next push-train sweep.
+- TRACKER.md updated (Jun 24 EIA data + Boundary #3 alert); data/eia_2026-06-24.md created
+- NEXUS_BRIEF updated (this session); SCRATCH written (this session)
+- THESIS unchanged (no new phase transition; conviction unchanged from v4.2)
+- PREDICTIONS: no resolutions this session; BRT-28 (Cushing <20M) was the pre-registered Boundary #3 — **FIRED** (validate against PREDICTIONS.tsv and resolve if open)
+- **GIT:** session pushed to origin/master (109fd804). Clean.
