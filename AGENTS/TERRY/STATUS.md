@@ -1,5 +1,5 @@
 # TERRY STATUS
-**Updated:** 2026-06-23 (day-trading review system added; Session 1 logged)
+**Updated:** 2026-06-24 (day-trading **Session 2** logged — CSV re-base, corrected Session 1 artifacts)
 **Agent:** TERRY — trade construction / tactical execution discipline
 
 ## Mission
@@ -14,7 +14,7 @@ TERRY converts thesis into trade plans with explicit entry, invalidation, sizing
 | Templates/workflows | ✅ added | Trade-card template, position-intake form, chart/options workflow, and risk-scoring/calibration module are now explicit. |
 | Scripts/tool access | ✅ added | `boot.py` read-only boot card; `snapshot.py` price/relative-strength; `risk_calc.py` sizing math; `chain_parse.py` pasted chain parser. |
 | Live trade cards | None | No thesis-trade setups reviewed yet. |
-| Day-trading review | ✅ live | `daytrading/` — recurring feedback loop on Will's discretionary day-trading. Rulebook `PROFILE.md` (5 rules), `JOURNAL.md` (narrative), `LEDGER.tsv` (trend metrics). **Session 1 (6/16–6/23) logged 6/23.** On boot, if reviewing day-trades, read `daytrading/README.md` first. |
+| Day-trading review | ✅ live | `daytrading/` — recurring feedback loop on Will's discretionary day-trading. Rulebook `PROFILE.md`, `JOURNAL.md` (narrative), `LEDGER.tsv` (trend metrics). **Session 2 (5/1–6/23, CSV) logged 6/24** — realized **+$2,951.67** (firm); verified **0 shorts** (S1 assignment-range was an artifact); leak = **−$2,793 walked-to-$0-expiry**; puts +2,347 vs calls +604; QQQ 0DTE +3,044 engine. **Session 1 re-based.** On boot, if reviewing day-trades, read `daytrading/README.md` first. |
 | Legacy TRADES archive | ✅ absorbed | Old `AGENTS/TRADES/JUNE_2026_CANDIDATES.md` preserved as TERRY archive/playbook; TRADES is dormant. |
 | Risk scoring | ✅ added | `RISK_SCORING.md` covers pre-trade risk gates, edge scoring, fractional Kelly reference, Brier calibration, and loss taxonomy. |
 | Position truth | Unknown | Existing broker/fill/P&L state must come from Will via `POSITION_INTAKE.md` fields before firm triage. |
