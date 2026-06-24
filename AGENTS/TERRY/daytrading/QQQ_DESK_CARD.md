@@ -13,9 +13,10 @@
 - Puts: 62 trades, **61% win, +$2,232**. Calls: 54 trades, 52% win, **+$812** (and most of your bleed).
 - A QQQ **call** is only allowed when you're *reacting to an up-move already on the tape* with a written exit. Not a bounce-guess, not a top-tick. If you're forcing a call, the honest answer is a put or **no trade**.
 
-**2. One direction only.  → No "both ways."**
-- You bought a QQQ call *and* a put on the same expiry on **17 separate days** this month — paying two spreads + double theta to be neutral. That's "I don't know," not a trade.
-- If you can't name the direction, **don't enter.** A real event-straddle is allowed only as ONE deliberately-sized, time-stopped structure — decided in advance, not legged into out of indecision.
+**2. Both-ways is a CHOP tactic, not a default.  → Only on a range read, and the call leg is junior.**
+- The numbers clear it: both-ways days were **net +$1,151, 62% day-win-rate** (vs 53% one-way). On a genuine range/chop tape, playing both sides catches the oscillation — keep it.
+- **BUT inside those days the put legs made +$1,292 and the call legs LOST −$141.** "Both ways works" = your puts work and the calls ride along negative. So: **size the call leg ≤ the put leg** — it's the scalp/hedge half, not a profit center.
+- **It loses on TRENDING days** — both-ways losers were wrong-leg-into-a-move (6/22: puts +192, calls **−407**, buying calls into the high before the crash). If the tape is trending, pick the side; both-ways is for range, not for "I don't know."
 
 **3. Size.  → 1R = $250. Hard cap 2R = ~$500 per idea.** *(empirical default — confirm w/ Will)*
 - Your median bet is $233, your 90th-percentile is $370. Anything north of ~$500 is off-pattern.
