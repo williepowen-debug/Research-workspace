@@ -37,6 +37,7 @@ Ad-hoc / "somewhat regularly." **Weekly or per-cluster** is the sweet spot — f
 | File | What |
 |---|---|
 | `PROFILE.md` | Living behavioral fingerprint + the 5 enforceable rules. The rulebook. |
+| `QQQ_DESK_CARD.md` | One-page pre-trade reference for the QQQ book (the engine). Glance before entering. Contains the no-hold-to-zero hard stop. |
 | `JOURNAL.md` | Append-only narrative, one entry per review (newest on top). |
 | `LEDGER.tsv` | Quantified metrics per review — the trend tracker. |
 

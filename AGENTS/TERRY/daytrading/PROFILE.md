@@ -40,7 +40,7 @@
 
 ## The 5 Rules (enforceable at order entry) — re-ordered by verified damage
 
-1. **Loss-side time-stop / no walk-to-zero.** *(the verified leak.)* Mirror the winner-cut reflex on reds: a directional option that's wrong by your stop comes off — it is **never** held to expiry to save a few cents of premium. −$2,793 says so.
+1. **Loss-side time-stop / no walk-to-zero.** *(the verified leak.)* Mirror the winner-cut reflex on reds: a directional option that's wrong by your stop comes off — it is **never** held to expiry to save a few cents of premium. −$2,793 says so. **Mechanical trigger (see `QQQ_DESK_CARD.md`): dead when down ≥60%, OR <60 min to expiry and OTM, OR invalidation level printed.**
 2. **No new long premium after a big move** (>5% single-name / >2% index) — you may only *exit*. Killed MRVL's entry; would have killed the 6/23 crash straddle.
 3. **Per-idea max-loss cap,** sized *below* a typical scalp stack — cap the size, cap the chase. (MRVL $1,300 was the cap-breaker.)
 4. **Don't fight what's working: protect the QQQ 0–1 DTE scalp engine.** It made +$3,044. Don't let revenge-size or expiry-bleed contaminate the one proven process.
