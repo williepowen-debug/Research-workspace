@@ -1,5 +1,5 @@
 # TERRY STATUS
-**Updated:** 2026-06-21 (risk scoring/calibration module added)
+**Updated:** 2026-06-23 (day-trading review system added; Session 1 logged)
 **Agent:** TERRY — trade construction / tactical execution discipline
 
 ## Mission
@@ -13,7 +13,8 @@ TERRY converts thesis into trade plans with explicit entry, invalidation, sizing
 | Agent scaffold | ✅ created | `CLAUDE.md`, risk rules, trade book, setup tracker, postmortems seeded. |
 | Templates/workflows | ✅ added | Trade-card template, position-intake form, chart/options workflow, and risk-scoring/calibration module are now explicit. |
 | Scripts/tool access | ✅ added | `boot.py` read-only boot card; `snapshot.py` price/relative-strength; `risk_calc.py` sizing math; `chain_parse.py` pasted chain parser. |
-| Live trade cards | None | No setups reviewed yet. |
+| Live trade cards | None | No thesis-trade setups reviewed yet. |
+| Day-trading review | ✅ live | `daytrading/` — recurring feedback loop on Will's discretionary day-trading. Rulebook `PROFILE.md` (5 rules), `JOURNAL.md` (narrative), `LEDGER.tsv` (trend metrics). **Session 1 (6/16–6/23) logged 6/23.** On boot, if reviewing day-trades, read `daytrading/README.md` first. |
 | Legacy TRADES archive | ✅ absorbed | Old `AGENTS/TRADES/JUNE_2026_CANDIDATES.md` preserved as TERRY archive/playbook; TRADES is dormant. |
 | Risk scoring | ✅ added | `RISK_SCORING.md` covers pre-trade risk gates, edge scoring, fractional Kelly reference, Brier calibration, and loss taxonomy. |
 | Position truth | Unknown | Existing broker/fill/P&L state must come from Will via `POSITION_INTAKE.md` fields before firm triage. |
