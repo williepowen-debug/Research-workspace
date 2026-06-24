@@ -11,6 +11,20 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## 2026-06-23 (Session 21 + 21b) — Crash recovery + 40-signal WALTER inbox sweep + CRLF tooling lesson
+
+**Trigger:** S21 session (6/23 ~8:38 PM) crashed mid write-back; Will then directed a chunked sweep of the WALTER inbox backlog.
+
+**(1) Crash recovery (no data loss).** The crash hit during the *atomic rename* of STATUS.md (write-to-temp → rename never landed). Recovered by completing the interrupted write from the `.tmp.<pid>` atomic-write temp (lost exactly one edit — the Brent/OVX 6/23 counter-signal row). HEAD object-integrity clean (no repeat of the SAM 6/22 git-corruption); fleet tree clean. Commit `74af4477`. Crash temp parked in session scratchpad (redundant once STATUS recovered).
+
+**(2) WALTER inbox fully drained — 40 signals → `inbox/WALTER/processed/`.** Processed in 5 themed chunks (A banks/credit 5 · B oil/Hormuz 11 · C FL/housing 5 · D Japan/FX/rates 5 · E positioning/consumer 12), each git-mv'd and committed separately (`3bac8c26`/`2928a378`/`5a144add`/`4ec9ffb2`/`0477eae6`). Analytical content → `thesis/CHANGELOG.md` (NO weight change; 3 residuals). `inbox/WALTER/` top-level now empty; processed/ holds all 40.
+
+**(3) CRLF tooling lesson (boot-relevant for any TSV editor).** RED's workbook/docket TSVs are MIXED line-endings: VX.tsv, KB.tsv, CATALYSTS.tsv, CHALLENGES.tsv are **CRLF**; ML.tsv, VX_HISTORY.tsv are **LF**. A Python *text-mode* read/write silently converts CRLF→LF across the WHOLE file → destructive whole-file diff + merge risk on the shared branch (hit once on VX.tsv mid-sweep, caught pre-commit via `grep -c $'\r'`, restored from HEAD, re-applied in **binary mode** preserving `\r`). **Rule: edit CRLF TSVs in binary mode (split on `b"\n"`, preserve trailing `b"\r"`); `printf`-appended rows (LF) into CRLF files are non-destructive (clean +N) and fine.** Promoted to auto-memory `finding_crlf_textmode_tsv_flip`.
+
+**Boot-impact: neutral.** No file added/moved/renamed structurally; STATUS/SCRATCH/CHANGELOG/CALENDAR refreshed in place; 6 KB + 5 ML + 3 catalyst + 1 challenge rows appended, VX-025 refined. Next boot's BOARD-consumption pass finds inbox/WALTER/ empty (all 40 filed).
+
+---
+
 ## 2026-06-02 (Session 16) — SAM-pattern adaptations: CATALYSTS.tsv backbone + this MAINTENANCE log + boot-slim
 
 **Trigger:** Will — "other agents developed meaningful structure; adapt some for RED." Studied SAM; adopted three patterns.
