@@ -45,6 +45,43 @@ Live px 6/25 post-close. Q2 print dates **~late Jul (exact TBC)**. Each bank's f
 
 ---
 
+## FINAL FL FILL — completes the master grid (2026-06-25)
+
+### (1) ONE reconciled FL number for the shared names (SSB, VLY)
+
+CORAL owns the bank-LEVEL FL read; REGINALD integrates fleet-wide. To avoid two divergent reads:
+
+| Bank | ONE reconciled FL number | Basis |
+|---|---|---|
+| **SSB** (SouthState, FL-HQ, multi-state SE) | **FL-attributable Q2 loss estimate ≈ $0** — classified $2.5B is rate-shock reclass (56% LTV / 98% current, "little/no loss content"); system NCO 9bps. FL exposure = investor CRE $18.3B system + ~$640M/Q FL production; **FL subset not separately disclosed** → no clean FL carve-out. | Q1'26 earnings; CORAL short retired |
+| **VLY** (Valley Nat'l, FL minority of 8-state footprint) | **No FL-specific loss carve-out — defer to REGINALD's fleet figure.** System: NPL drift $296→360→434M, NCO $17.5M (CRE charge-offs $13.8M), criticized $4.1B/8.1% (C&I-led). FL "clients confident," not separately disclosed. CORAL's FL adder = **nil isolable**; resi 11.5% / HELOC 1.4% verified (below). | Q1'26; FL not disclosed |
+
+**Net:** for both shared names CORAL's FL-specific incremental loss number is **≈ $0 / not-isolable** — REGINALD's fleet read IS the number; CORAL does not carry a divergent FL figure. (Where CORAL's distinct FL signal lives is the canaries below, not SSB/VLY.)
+
+### (2) FL-canary 30-89d leading-bucket rows — VERIFIED Q1'26 10-Q aging (the diagnostic-enabling data)
+
+Total-bank 30-89d past-due, $000s, read off the SEC EDGAR XBRL aging-detail exhibits (curl w/ declared UA; WebFetch 403'd as expected). **VERIFIED**, as-of 3-31-2026.
+
+| Bank | 30-89d Q1'26 | Q4'25 (QoQ) | Q1'25 (YoY) | Credit-risk-relevant read | Grade |
+|---|---|---|---|---|---|
+| **SBCF** | **$28,186** (30-59 $19.2M + 60-89 $9.0M) | $32,916 (**−14% QoQ**) | $17,124 (**+65% YoY**) | confirms DEWEY $17.2→28.2M, BUT **cooling QoQ off a Q4 peak — YoY-elevated, not fresh-quarter accelerating**; sharper signal is **nonaccrual $72M→$95M QoQ** + CRE-non-OO 60-89 $0.3→3.0M | VERIFIED |
+| **USCB** | **$10,100** | $2,949 (**+243% QoQ**) | $7,064 (**+43% YoY**) | CRE/multifamily-driven (MF 30-89 $0→$4.6M) off a tiny $2.2B book — clean but tiny-base; resi only $3.4M | VERIFIED |
+| **AMTB** | **$88,596** (30-59 $79.6M + 60-89 $9.0M) | $18,101 (+389% QoQ) | $83,654 (+6% YoY) | **LUMPY/SUSPECT** — $52.4M is Commercial 30-59d (quarter-end renewal/timing, a few large credits), NOT broad consumer-resi; ran $83.7→18.1→88.6M; SFR portion only $19.9M | VERIFIED (read) — signal noisy |
+| **BKU** | $234,634 (**ex-gov-insured ~$123,396**) | $250,630 (ex-gov ~$123,032) | $241,570 | **headline overstates** — dominated by US-gov-insured resi (no bank credit risk); ex-gov **flat QoQ, −3% YoY** = benign | VERIFIED |
+
+**Reading for the ≥2-bank synchronized diagnostic:** a synchronized **YoY** rise in the clean leading bucket IS present — **USCB +43% + SBCF +65%** are the two credit-risk-relevant risers (AMTB +6% and lumpy; BKU −3% ex-gov). **BUT** (a) it is **not realized NCO**, and (b) **QoQ momentum is mixed** (SBCF cooling from Q4 peak; USCB/AMTB QoQ spikes are tiny-base/commercial-timing-lumpy). So: **leading edge flickering on a YoY basis at 2 names, not a synchronized fresh-quarter realized-loss transmission.** The single sharpest fresh-quarter signal is **SBCF nonaccrual $72→95M**, not the 30-89 bucket. Consistent with H2-2026 leading-edge / 2027 NCO.
+
+### (3) Condo / SIRS-assessment leg — Q2 signal or 2027 signal?
+
+**→ 2027 charge-off event, NOT a Q2 signal** (at most a faint leading-edge tick in H2-2026). Why:
+- SIRS/SB-4-D reserve mandate + special assessments ($25K–$400K/unit) are the cost shock landing **now**; per the ~12mo lag the household-liquidity strain surfaces in 30-89d in **H2-2026 / early-2027**, then +2-4Q to NCO → **2027**.
+- The Q1'26 **residential** 30-89 buckets are still **small** (AMTB SFR $19.9M, SBCF resi ~$8.3M, USCB resi $3.4M) — the assessment-default wave has **not** hit the leading bucket yet.
+- The condo-**association master-loan** path (Coral-Bleaching core: assessment → strategic default → association revenue collapse → master-loan default → receivership → bulk-sale at 40-60% discount → bank loss) is **even slower** — a multi-quarter legal process (*Biscayne 21* still in litigation), crystallizes **2027+**.
+- **USCB**, the cleanest condo-association wire ($126M / 470+ associations), is **pristine** (zero NCO, resi 30-89 only $3.4M). First crack here = the H2-2026 tell.
+- **Verdict:** the SIRS/assessment leg does **not** show in Q2 bank prints as loss/reserve; it is a **2027** event with a possible faint 30-89d flicker late-2026.
+
+---
+
 ## Housing-secured exposure reconciliation (for CARL — net once, don't double-count)
 
 **The ask:** CARL's consumer-credit substance arrives *housing-secured* (HELOC / home-equity / resi) on this CRE/C&I set, overlapping CORAL's housing & CRE-condo leg. To net to one number, here is per-FL-bank residential-RE composition. **All figures VERIFIED off Q1'26 8-K earnings releases / 10-Q loan tables (EDGAR-with-UA + StockTitan mirrors), as-of 3-31-2026** — these are 10-Q-verified, not franchise-estimates (one exception flagged).
@@ -62,6 +99,8 @@ Live px 6/25 post-close. Q2 print dates **~late Jul (exact TBC)**. Each bank's f
 2. **CORAL-ONLY, no double-count — distinct CRE/condo path-to-break.** USCB condo-association ($126M), AMTB CRE-HFS, SBCF CRE non-OO 224% RBC, BKU FL-CRE, VLY CRE. **Commercial, not in CARL's consumer leg** → no netting needed; this is the leg the cross-bank diagnostic scores.
 3. **Pure-HELOC double-count = NEGLIGIBLE on this set.** Home-equity is NOT separately disclosed at 4 of 5 (buried inside small consumer buckets: AMTB 3.4%, SBCF 1.4%, USCB 9.3%-but-mixed); only VLY breaks it out at 1.4%. **The pure-consumer-HELOC overlap CARL flagged is structurally small here** — these are commercial banks, not retail HELOC lenders.
 
+**ABSORB note (closes REGINALD's hand-off):** the housing-secured consumer exposure REGINALD drops from these rows is **absorbed into CORAL's ONE FL number via the residential 1-4 family book** (counted once, here) — no gap, no double-count. CORAL owns the FL residential + CRE/condo read; REGINALD's row carries C&I/other. Pure-HELOC is negligible (above), so nothing falls through the crack.
+
 **Synthesis flag for the hub:** the bigger housing-secured book on AMTB/SBCF/BKU is the **residential mortgage (~25%)**, NOT the CRE/condo book. So a FL-bank loss could transmit through the **residential channel (CARL's mortgage-DQ substance) as much as the CRE/condo channel (CORAL's)** — they're *complementary paths on different books*, and at these three names the residential book is the larger one. The DEWEY ~12mo insurance→delinquency lag drives BOTH (insurance cost-push hits the household behind the 1-4 family mortgage AND the condo-association behind the master policy). Excludes multi-family (classified CRE, not resi).
 
 ---
@@ -70,7 +109,7 @@ Live px 6/25 post-close. Q2 print dates **~late Jul (exact TBC)**. Each bank's f
 
 > **Synchronized criticized/classified → realized NCO + specific reserve build across ≥2 FL banks in the same quarter.** One ticking = idiosyncratic; ≥2 synchronized = transmission.
 
-**Status at Q1 2026: NOT met.** No synchronized FL-RE realized NCO. The closest precursor is **AMTB (NPA 1.38%→1.93%) + SBCF (30-89d $17.2M→$28.2M)** both migrating in early buckets YoY — but that is **NPA/30-89d, not realized NCO**, and AMTB's driver is CRE-HFS/C&I, not condo. The one bank actually showing elevated loss (BKU $36M) is **C&I, not FL-RE** → the visible stress is *not yet the thesis mechanism*.
+**Status at Q1 2026: NOT met** (refined by the verified 30-89d pull above). No synchronized FL-RE realized NCO. The cleanest precursor is a **YoY** rise in the leading 30-89 bucket at **USCB (+43%) + SBCF (+65%)** — a ≥2-bank YoY flicker — **but** it is not realized NCO, the QoQ momentum is mixed (SBCF cooling off a Q4 peak; USCB tiny-base), AMTB's apparent spike is lumpy commercial-timing (+6% YoY, suspect), and BKU is benign ex-gov (−3% YoY). The sharpest *fresh-quarter* signal is **SBCF nonaccrual $72→95M**, not the leading bucket. The one bank with elevated realized loss (BKU $36M) is **C&I, not FL-RE** → the visible stress is *not yet the thesis mechanism*.
 
 **Predicted Q2 (~late Jul) result of the diagnostic: still NOT met** — continued early-bucket migration, not crystallized synchronized loss. **Watch-for at Q2:** rising 30-89d in FL *residential/condo* books at ≥2 of {AMTB, SBCF, USCB} for 2 consecutive quarters = the confirmer that pulls timing forward.
 
