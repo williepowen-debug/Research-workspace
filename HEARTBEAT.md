@@ -1,5 +1,5 @@
 # HEARTBEAT.md
-**Updated:** 2026-06-25 ~14:35 ET (Claude Code Prome — Desktop CC origin; 6/24 HY print = 276 + LIQUID boot-doc batch refresh)
+**Updated:** 2026-06-25 ~14:35 ET (Claude Code Prome — Desktop CC origin; 6/24 HY print = 276 + LIQUID boot-doc batch refresh) · **~16:05 ET correction:** FXY position fully closed by Will 6/25 → removed the FXY broker-truth blocker + de-positioned the MOF intervention framing (regime signal only now)
 
 ## Regime
 
@@ -13,7 +13,7 @@
 
 **May PCE (6/25):** firm (core 3.4% YoY) but as-priced — duration caught a bid, vol calm. Backward-looking; can't show the June energy washout yet. Real disinflation test = **June CPI (Jul 14)**. One-legged stagflation: rates/hawkish leg live, energy leg inverted.
 
-**Carry:** USD/JPY 161.66 / FXY red — fuel loaded, no funding crunch. MOF silent 9+ days at 161+; intervention zone ~162–163 (SAM S1) — and intervention would PAY a long-FXY position (the convexity tail).
+**Carry:** USD/JPY 161.66 / FXY red — fuel loaded, no funding crunch. MOF silent 9+ days at 161+; intervention zone ~162–163 (SAM S1) — now a SAM regime/timing signal only; the long-FXY convexity tail is given up (**FXY position fully closed by Will 6/25**).
 
 ## Stress dashboard
 
@@ -38,7 +38,7 @@ Full definitions in `FORGE/tools/market-data/config.py`. The live trigger-lines 
 |---|---|---|---|
 | **✅ RESOLVED (6/24)** | 6/24 HY OAS print | LIQUID/Prome | Posted **276** (271→276) — widened, now **4bp from the >280 X1-trigger**; kill-line reset confirmed but bear-watch tightening. Next HY print is the one to watch vs 280. |
 | **Fri 6/26** | CFTC COT (data as of 6/23 — first post-BOJ-hike + post-FOMC) | SAM/LIQUID | vs the −150,132 baseline (Jun-16 data, printed 6/22 = 83.4% of the −180K peak): build >−153K **strengthens** the carry-convexity tail; cover <−140K **de-loads** it. Verify vs CFTC primary. |
-| **Late Jun–early Jul** | MOF intervention watch (USD/JPY 162–163) | SAM | Rate-checks = pre-strike tell; intervention PAYS long-FXY. Speed not level. |
+| **Late Jun–early Jul** | MOF intervention watch (USD/JPY 162–163) | SAM | Rate-checks = pre-strike tell. Regime signal only — FXY position closed 6/25, no longer pays us. Speed not level. |
 | **Thu 7/3** | June NFP (pulled forward) | LABOR/HENRY | Soft print accelerates growth-leg + inverse-feedback. |
 | **Mon 7/14** | June CPI | HENRY/CARL/LIQUID | The real energy-washout / disinflation test (May PCE couldn't show it). |
 | **Mon 7/28** | ARCC Q2 (first read; BXSL ~early Aug) | BROCK/CARL | Top-tier/disciplined-name marks = highest-signal for wrapper-leading recognition (FSK/OBDC already priced). NA% / NAV / PIK / coverage. |
@@ -47,7 +47,6 @@ Full definitions in `FORGE/tools/market-data/config.py`. The live trigger-lines 
 
 | Pri | Decision / Work | Reference |
 |---|---|---|
-| 🔴 | **FXY position broker truth (Will).** Trim 13→6 fill unconfirmed; USD/JPY ~0.85 from the 162.5 stop. Hold-if-filled / trim-if-not; near-zone hard stop is a whipsaw trap. | `AGENTS/SAM/MOF_INTERVENTION_PLAYBOOK.md`, SAM STATUS |
 | 🟠 | **HY>280 / wrapper-leading decoupling trigger.** The live bear-root watch; both halves unfired. | `AGENTS/BROCK/domain/sources/MACRO_VS_CREDIT_DISCRIMINATOR_JUN25.md`, LIQUID |
 | 🟡 | **LIQUID energy-sector OAS** structurally unavailable from free FRED (paid sub-index); reasoned in-line-to-tighter unless Brent <$60. | LIQUID 6/25 |
 | 🔵 | **NEXUS 9d-stale** — needs the X1 don't-double-count rule + regime delta; refresh deferred (Will hold). | `AGENTS/NEXUS/STATUS.md` |
