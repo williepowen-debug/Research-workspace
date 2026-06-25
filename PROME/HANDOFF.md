@@ -8,13 +8,13 @@
 
 ## 2026-06-25 — Morning sync + curated two-branch reconciliation landed on master
 
-**Status:** Pulled master clean (10-commit FF to `329bb543`), deep-dove and landed a curated reconciliation of two unmerged `prome/*` branches, refreshed Prome state, and **pushed — origin master at `8201df84`, fully synced (`0/0`).** Both resolved `prome/*` origin branches deleted. Working tree clean; staging worktree/branch removed.
+**Status:** Pulled master clean (10-commit FF to `329bb543`), deep-dove and landed a curated reconciliation of two unmerged `prome/*` branches, refreshed Prome state, and **pushed — origin master at `da495926`, fully synced (`0/0`).** Branch list fully swept to **`master`-only (local + origin)**. Working tree clean; staging worktree/branch removed.
 
 **What landed (4 curated commits):** (A) `02474316` salvage `PROME/GIT_COORDINATION.md` + `WEEKLY_DECISION_CALENDAR_2026-06-22.md`. (B) `ca2fbb37` salvage 7 HANS `research/*.md` modules + `REVIVAL_PLAN_2026-06-22.md` + revived HANS `CLAUDE.md` — **master's newer Jun-22 22:42 PM HANS STATUS/workbook preserved untouched.** (C) `ea8f2c17` merge canonical YEYOU from `reconcile-yeyou` (REVIEW_CHECKLIST→`reviews/`, +CLOSEOUT/CROSS_SILO/COORDINATION). (D) `2ee22af4` archive dead `AGENTS/PROME/` tree (30 files) → `PROME/archive/AGENTS_PROME_LEGACY_2026-06-24/`; `_INDEX`/`_SYNTHESIS_OPS`/PROME docs updated to new layout.
 
 **Deliberately dropped:** `pending-flush`'s stale HANS STATUS/ML/VX/FLOW (master authoritative) + its superseded YEYOU portion. `pending-flush` was 111 commits behind base; never raw-merged. Build was done in an isolated git worktree — main tree never left master until the verified FF-land.
 
-**Resolved this session (2026-06-25):** coordinated push completed (origin master at `8201df84`); both origin branches `prome/pending-flush-2026-06-25` (salvaged+superseded) and `prome/reconcile-yeyou-2026-06-25` (fully merged) deleted.
+**Resolved this session (2026-06-25):** coordinated push completed (origin master at `da495926`). **Full branch sweep:** origin **14 heads → 1 (`master` only)** — deleted both `prome/*` + 11 stale `claude/*`/`brent/may4-data-pull` remotes (all merged/redundant/superseded) + the local-only `otto-backup-pre-rebase-20260415` (verified 100% redundant: post-rebase SHA-churn, all 15 commits' work confirmed on master). Before deleting `claude/todays-repo-commits-w96on7`, salvaged 2 Will-requested Jun-9 audit docs → `AUDITS/2026-06-09_{shared_state_design,signal_coherence_audit}.md`.
 
 **Risks / blockers / open:** HANS `archive/STATUS_PRE_REVIVAL_2026-06-22.md` duplicates `workbook/STATUS_archive_20260430.md` (same Apr-30 content) — HANS to dedup. Refresh dashboard/FRED before citing market levels.
 

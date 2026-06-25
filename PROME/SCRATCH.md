@@ -1,5 +1,5 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-25 (Claude Code Prome — morning sync + branch-reconciliation landing)
+**Last Updated:** 2026-06-25 (Claude Code Prome — morning sync, branch-reconciliation landing, full branch sweep)
 
 ## What Just Happened
 
@@ -11,16 +11,17 @@
   - `ea8f2c17` — merge `reconcile-yeyou` = canonical YEYOU (REVIEW_CHECKLIST→`reviews/`, +CLOSEOUT/CROSS_SILO/COORDINATION).
   - `2ee22af4` — archive dead `AGENTS/PROME/` tree (30 files) → `PROME/archive/AGENTS_PROME_LEGACY_2026-06-24/`; updated `_INDEX`/`_SYNTHESIS_OPS` + PROME docs to new layout.
 - **Deliberately dropped:** `pending-flush`'s stale HANS STATUS/ML/VX/FLOW (master authoritative) + its superseded YEYOU portion. `pending-flush` was 111 commits behind base; never raw-merged. Did NOT bring `memory/2026-06-22.md` (optional historical session note).
+- **Branch sweep (Will-directed):** cleaned ALL stale branches — origin went **14 heads → 1 (`master` only)**. Deleted the 2 `prome/*` + 11 more (merged/redundant/superseded `claude/*` + `brent/may4-data-pull`). Before deleting `claude/todays-repo-commits-w96on7`, **salvaged** 2 Will-requested Jun-9 audit docs → `AUDITS/2026-06-09_{shared_state_design,signal_coherence_audit}.md` (commit `da495926`). Also deleted local-only backup `otto-backup-pre-rebase-20260415` (verified 100% redundant — post-rebase SHA-churn; all 15 commits' work confirmed present on master).
 
 ## Current Git State
 
-- **PUSHED 2026-06-25.** Local + origin master both at **`8201df84`** — `HEAD...origin/master = 0/0`, fully synced. Includes the 4 curated-landing commits + reconcile-yeyou's 2 + SCRATCH/HANDOFF refresh + auto-mem finding.
+- **PUSHED 2026-06-25.** Local + origin master both at **`da495926`** — `HEAD...origin/master = 0/0`, fully synced. (Curated-landing + reconcile-yeyou + closeout truth-up + auto-mem + AUDITS salvage.)
 - Working tree clean. Staging worktree + branch removed.
-- Remote branches `origin/prome/pending-flush-2026-06-25` and `origin/prome/reconcile-yeyou-2026-06-25` **DELETED** on origin (both resolved: reconcile-yeyou fully merged; pending-flush salvaged+superseded).
+- **Branch list fully clean: `master` only, both locally and on origin.** All `prome/*` + 11 stale `claude/*`/`brent/*` remotes + the local Apr-15 backup deleted.
 
 ## Open Follow-ups
 
-1. ✅ **DONE 2026-06-25** — push (origin at `8201df84`) + deletion of both resolved `prome/*` origin branches.
+1. ✅ **DONE 2026-06-25** — push (origin at `da495926`), full branch sweep (origin + local now `master`-only), 2 audit docs salvaged to `AUDITS/`.
 2. **HANS dedup:** `AGENTS/HANS/archive/STATUS_PRE_REVIVAL_2026-06-22.md` duplicates master's `workbook/STATUS_archive_20260430.md` (same Apr-30 content, two paths) — HANS to reconcile to one. Kept so HANS `CLAUDE.md`/`REVIVAL_PLAN` refs resolve.
 3. **HANS workbook hygiene** (old Jun-22 SCRATCH's "Batch D"): **moot for the branch versions** — master carries the newer Jun-22 PM workbook (ML 16 rows incl. Qatar/Lebanon/Jul-4). Any further HANS workbook work is HANS-owned against master's current state, not the salvaged branch. `SOVEREIGN_LDI_MONITOR_2026-06.md` is now present (was in the salvage set).
 
