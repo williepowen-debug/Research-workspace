@@ -61,6 +61,26 @@ CORAL's chain (cost-shock-now → ~12mo lag → 30-89 past-dues H2-2026 → char
 - **FLIP RULE:** PRIMARY + ≥1 CONFIRM in the same Q2 print → unsecured channel landing H2-2026.
 - **HOLDS-to-2027 survives IFF:** NCOs print at/below the cut guides, ACL coverage stable/rising, 30+ DQ flat-to-down → the Q1 deceleration was genuine (not seasonal) and deferral holds.
 
+## RATIFIED DECISION RULE — monoline-only (stated, do NOT re-argue at print) (added 6/25, Will-approved)
+
+**The two timing axes are SEPARATE and scored independently:**
+- **Axis A — unsecured / monoline:** SYF/COF/ALLY → H2-2026 (un-maskable, FFIEC-mandated charge-off).
+- **Axis B — regional terminus / CRE:** the cluster's CRE-tilted regionals → Q1'27 (extend-and-pretend genuinely defers).
+
+**RULE:** a **monoline-only break** (SYF/COF/ALLY trip with **NO ≥2 CRE-regional confirm in the same quarter**) = **"masking holds, base case."** It **CONFIRMS Axis A (unsecured H2-2026)** and does **NOT** by itself flip the **regional-terminus diagnostic (Axis B)**. The regional terminus flips ONLY on its own bar — *synchronized criticized→realized NCO + specific reserve build across ≥2 cluster regionals in the same quarter.* **Monolines are the LEADING tell for Axis A, never a proxy for Axis B.** A monoline trip without regional confirm is expected and on-thesis — not an escalation of the regional terminus.
+
+## PRE-REGISTERED SCORED GRID ROWS — monolines, land FIRST ~Jul 15–22 (for REGINALD to wire)
+
+| Name | Threshold (metric + direction) | Axis | Report (approx) |
+|---|---|---|---|
+| **SYF** (pure unsecured card — cleanest un-maskable) | **PRIMARY:** card NCO **>5.5%** (above its *cut* FY26 guide ceiling; Q1 5.42%) **AND ACL coverage ratio DOWN QoQ** (build < burn) | **A (unsecured H2-26)** | ~Jul 22 |
+| **COF** (**DUAL-PATH — the bridge name**) | **Unsecured leg:** domestic card NCO **>5.5%** (vs 5.1% Q1) **AND 30+ DQ up ≥25bps** QoQ → Axis A. **CRE leg:** **commercial/office criticized→classified migration + specific reserve build** → Axis B | **A + B (both on one balance sheet)** | ~Jul 22–24 |
+| **ALLY** (near-prime auto — mod-accounting smoothing test) | reverses its Q1 reserve **RELEASE (−$224M) to a BUILD** **AND** retail-auto NCO **>2.1%** (vs 1.97% Q1) **AND** 30+ DQ **>4.6%** | **A (unsecured/auto H2-26)** | ~Jul 18 |
+
+**COF dual-path read — CONFIRMED.** COF out-profiles CFG as the multi-path watch: post-Discover, COF carries a **dominant pure-card book** (large, un-maskable → Axis A) **AND** a **commercial/office CRE book** (deferrable → Axis B) on **one balance sheet** = the single name where both axes are observable simultaneously and where a same-quarter card-NCO break *plus* office classified migration would be the first place the two axes visibly converge. CFG is consumer-but-housing-secured (HELOC/education-refi/Citizens Pay) → folds mostly into Axis B; it is NOT the dual-path name. **Score COF on both legs; do not collapse to one.**
+
+**CLEAN FALSIFIER (disconfirms my bifurcation, vindicates single-axis 2027):** all three (SYF/COF/ALLY) print card/auto NCO **at or below** their cut guides **with ACL coverage stable/rising and 30+ DQ flat-to-down**. Then the Q1 roll-rate deceleration was genuine (not tax-refund-seasonal), the unsecured book is NOT crystallizing in H2-2026, and the single-axis Q1'27 pin is vindicated.
+
 ## What I need from the other two legs
 - **CORAL:** FL-bank HELOC/residential exposure %s, so we reconcile the housing-secured-consumer overlap to ONE number per bank (my consumer leg vs your housing leg — same collateral, don't double-count).
 - **REGINALD:** confirm which set-banks carry material consumer books in your 8-channel loan-mix scoring, so I can replace my franchise-knowledge ranking with actual Q1-10-Q composition. CFG is the only name I'd score as a *genuinely separate* consumer path-to-break; the rest fold into the housing leg.
