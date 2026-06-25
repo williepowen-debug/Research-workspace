@@ -7,7 +7,7 @@
 
 1. **Energy de-rated.** The Jun-20 Hormuz re-closure declaration resolved **non-kinetic** — Brent FELL ~8% to ~$74 (not the threatened spike); HAW-11 kinetic leg expired unfired 6/22. Cushing breached 20M (EIA 6/24) → **BRENT Boundary #3 fired** (WTI delivery/calendar dislocation). Energy is deflated on the tape but coiled (physically tight + near-record spec short); snap-back tail only if Brent sustains <$60 or the MOU collapses.
 2. **Credit-bear PAUSED — not killed, not confirmed.** HY OAS **271 [6/23]** widened back ABOVE the <260 soft-kill (cushion doubled 5→11bp); LIQUID's two-closes-<265 Trigger A reset/broken. The "<260 kills the credit axis" scare is off — but 263→271 is risk-off *beta*, not credit-substance recognition; only faint quality dispersion (CCC ~2× HY) hints at the tail leading. **6/24 HY print due ~today** = held-or-reverted confirm.
-3. **Bank-vs-PC divergence is MACRO multiple-compression, not credit recognition (yet).** Alt-managers (APO −11% cumulative, ARES) de-rated on higher-for-longer while wrappers (ARCC/FSK/OBDC/BIZD) held ~flat and banks (KRE/OZK/WAL) rallied. Today = pause, not acceleration.
+3. **Bank-vs-PC divergence is MACRO multiple-compression, not credit recognition (yet).** Alt-managers (APO −11% cumulative, ARES) de-rated on higher-for-longer while wrappers (ARCC/FSK/OBDC/BIZD) held ~flat and banks (KRE/OZK/WAL) rallied. Today = pause, not acceleration. **Fresh substance (6/23): Apollo gated Apollo Debt Solutions (ADS) at 5% on a 17% Q2 redemption demand** — firms the credit-gate cluster, but it's redemption-*flow* (a private credit fund, not a PE-evergreen wrapper) → does NOT fire the tape trigger or the 2nd-PE-gate (un-fired; window closes ~7/3).
 
 **★ Convergence discipline (X1 — ratified by SAM + BROCK + LIQUID independently):** carry-unwind risk and PC-manager compression are **~1 root on macro/risk-off days — do NOT double-count** them as two bear confirmations. PC becomes a genuine independent bear root ONLY when the decoupling trigger fires: **wrapper basket LEADS managers down (BROCK's half) + HY OAS >280 sustained (LIQUID's half).** Both UNFIRED today (wrappers flat; HY 9bp short of 280) → root stays single/macro.
 
@@ -37,11 +37,11 @@ Full definitions in `FORGE/tools/market-data/config.py`. The live trigger-lines 
 | Date / Window | Gate | Owner(s) | Read |
 |---|---|---|---|
 | **~Today 6/25 EOD** | 6/24 HY OAS print | LIQUID/Prome | Does 271 hold or revert? Confirms the kill-line reset. |
-| **Fri 6/26** | CFTC COT (Jun-16 data) | SAM/LIQUID | First post-MOU positioning; spec-yen-short extreme = unwind-vulnerability. |
+| **Fri 6/26** | CFTC COT (data as of 6/23 — first post-BOJ-hike + post-FOMC) | SAM/LIQUID | vs the −150,132 baseline (Jun-16 data, printed 6/22 = 83.4% of the −180K peak): build >−153K **strengthens** the carry-convexity tail; cover <−140K **de-loads** it. Verify vs CFTC primary. |
 | **Late Jun–early Jul** | MOF intervention watch (USD/JPY 162–163) | SAM | Rate-checks = pre-strike tell; intervention PAYS long-FXY. Speed not level. |
 | **Thu 7/3** | June NFP (pulled forward) | LABOR/HENRY | Soft print accelerates growth-leg + inverse-feedback. |
 | **Mon 7/14** | June CPI | HENRY/CARL/LIQUID | The real energy-washout / disinflation test (May PCE couldn't show it). |
-| **~7/25+** | Q2 BDC / 10-Q marks | BROCK/CARL | Wrapper credit-substance recognition; the catalyst for the >280 + wrapper-leading trigger. |
+| **Mon 7/28** | ARCC Q2 (first read; BXSL ~early Aug) | BROCK/CARL | Top-tier/disciplined-name marks = highest-signal for wrapper-leading recognition (FSK/OBDC already priced). NA% / NAV / PIK / coverage. |
 
 ## Blocking / Pending
 
