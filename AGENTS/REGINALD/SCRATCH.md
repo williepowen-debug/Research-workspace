@@ -32,9 +32,11 @@
 - **DEFERRED, already-integrated:** 618-005/006/007/008/009 (ACTION cluster) — all live in STATUS rows (IPO / capital-rules / Office CMBS / MF starts / CRE-DQ-by-tier DRILLED 6/20). Not re-moved.
 - **DEFERRED → other agents' legs:** 619-002/007/008 + 621-011/013 + 622-001 (DEWEY) → CORAL (FL CRE/condo). 622-008 (consumer card) → CARL. 621-009 (liquidity backdrop) → LIQUID. 622-002 (AI-software CLO) → BROCK/light. None cluster-Pass-1-critical; DEWEY (622-001) already partially reflected in my STATUS CRE-DQ row.
 
-**Threads carried (ROADMAP):** await CARL consumer-leg + CORAL FL-leg inputs to fill the grid; CCC/HY tripwire daily monitor (un-fired); Q2 prints late-July; WAL $78 watch.
+**Grid FINALIZED same session** — both legs folded: CARL consumer (CFG = only separate consumer path → 3-path standout; rest housing-secured→CORAL) + CORAL FL (5 canaries verified Q1'26 10-Q, BKU/AMTB attribution fixed, two-channel resi-mortgage+condo netting, SSB FL-# [PENDING]). **Cluster verdict: diagnostic NOT-met + predicted un-met at Q2; realized synchronized NCO = 2027 event** (Q2 = leading-bucket migration). CCC/HY tripwire DORMANT (3.49×); 6/24 widening HY-led=beta. All three corroborate: nothing fires near-term, machinery pre-built for X1.
 
-**Open for next session:** Pass-2 = wire the tripwire consecutive-count check into scripts/boot.py (deferred to stay bounded); fill grid once CARL/CORAL legs return.
+**Threads carried (ROADMAP):** CCC/HY tripwire daily monitor (un-fired, 3-consec >3.6× = fire); Q2-grid watch — forward confirmer = rising 30-89d FL resi/condo at ≥2 of {AMTB,SBCF,USCB} for 2 consec Q; WAL $78 watch; SSB FL-loss # resolves at Q2/10-Q.
+
+**Open for next session:** Pass-2 = wire the tripwire consecutive-count check into scripts/boot.py (deferred to stay bounded); refresh grid [PENDING] cells at the late-July Q2 prints.
 
 ---
 
