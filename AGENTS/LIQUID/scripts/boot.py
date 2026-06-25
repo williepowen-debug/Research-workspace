@@ -13,7 +13,7 @@ PRE-TRIGGER / TRIGGER-A / UNWIND / co-trigger), not invented independently.
       .venv/bin/python3 AGENTS/LIQUID/scripts/boot.py
       .venv/bin/python3 AGENTS/LIQUID/scripts/boot.py --verbose   # every value + 6-print trend
       .venv/bin/python3 AGENTS/LIQUID/scripts/boot.py --quick     # FRED only (skip slow yfinance)
-      .venv/bin/python3 AGENTS/LIQUID/scripts/boot.py --selftest  # validate CATALYSTS/PREDICTIONS + fetch import
+      .venv/bin/python3 AGENTS/LIQUID/scripts/boot.py --selftest  # validate CATALYSTS/PREDICTIONS/KB + fetch import
 
 Basis canon (declare when citing a number downstream): FRED OAS / H.15 are end-of-day
 computed and publish T+1 — the latest print may be 1-2 sessions back, more over a
@@ -421,6 +421,29 @@ def selftest():
             print(f"  ⚠️  PREDICTIONS.tsv OPEN rows with unparseable Timeframe: {unparsed} (scan flags manual-check)")
         else:
             print("  ✓ PREDICTIONS.tsv OK (all OPEN timeframes parse)")
+
+    kb = LIQUID_DIR / "workbook" / "KB.tsv"
+    if not kb.exists():
+        print("  ⚠️  KB.tsv not found")
+    else:
+        rows = [ln for ln in kb.read_text().split("\n") if ln != ""]
+        exp = ["ID", "Date", "Group", "Entity", "Fact", "Source", "Conf",
+               "Epistemic", "Status", "Stale_By", "DerivedFrom", "Vectors", "Notes"]
+        if rows[0].split("\t") != exp:
+            print(f"  ✗ KB.tsv header mismatch ({len(rows[0].split(chr(9)))} cols, expect 13): {rows[0].split(chr(9))}")
+            ok = False
+        bad = 0
+        for i, ln in enumerate(rows[1:], 2):
+            p = ln.split("\t")
+            if len(p) != 13:
+                print(f"  ✗ KB.tsv line {i} ({p[0] if p else '?'}): {len(p)} fields (expect 13 — column drift)")
+                ok = False; bad += 1; continue
+            sid = p[0]
+            if not (sid.startswith("KB-LIQ-") and len(sid) == 10 and sid[7:].isdigit()):
+                print(f"  ✗ KB.tsv line {i}: malformed ID {sid!r}")
+                ok = False; bad += 1
+        if not bad and ok:
+            print(f"  ✓ KB.tsv OK ({len(rows) - 1} rows, 13 cols, IDs well-formed)")
 
     print(f"\n  SELFTEST: {'PASS' if ok else 'FAIL'}")
     return 0 if ok else 1

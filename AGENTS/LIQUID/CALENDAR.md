@@ -1,6 +1,6 @@
 # LIQUID — Calendar & Data Releases
 
-**Last Updated:** 2026-06-23 Tue (rolled from 6/20; Mon 6/22 cluster resolved → archive: HY-OAS Trigger-A benign, Brent decoupling PASSED, CFTC held)
+**Last Updated:** 2026-06-25 Thu (data refresh to 6/25; passed 6/24 EIA+BOJ rolled to Resolved; rolled from 6/23)
 
 > **Source-of-truth pairing:** `workbook/CATALYSTS.tsv` is the machine-readable forward-event docket (dated rows, consumed by the boot countdown). **This human calendar is its twin — they must not diverge in the *event set*.** When you add or resolve a dated catalyst, update both. Rolling daily watches (HY-OAS direction, 30Y <4.90 unwind, USD/JPY, SOFR-IORB) are NOT dated catalysts — they live in STATUS danger windows + `scripts/boot.py`, not CATALYSTS.tsv.
 
@@ -10,14 +10,12 @@
 
 | Date | Event | Signal Threshold | Who Cares |
 |------|-------|-----------------|-----------|
-| **Wed Jun 24** | **EIA WPSR — Cushing** | Sub-20M → BRENT Boundary #3 (WTI delivery-dislocation) inbound to LIQUID/HENRY/RED. Cushing 20.03M at the floor (wk-6/19) | LIQUID, BRENT, HENRY, RED |
-| **Wed Jun 24** | **BOJ Summary of Opinions** | Hike rationale + next-hike cadence (7-1 Asada dissent). Pillar-1 read for USD/JPY + Japan repat timing. SAM-primary | SAM, LIQUID |
 | **~Thu Jun 25** | **May PCE** | Soft core → front-end eases, hawkish dots unwind (HENRY HEN-34 inverse-feedback); hot core → higher-for-longer. The bear's growth/inflation re-fire gate | LIQUID, HENRY |
 | **~Thu Jun 25** | **Late-June Treasury auctions** (2Y/5Y/7Y) | Indirect <55% sustained = FOI demand-hole confirm; June refunding 20Y/5Y-TIPS were STRONG (71.6%/68.6%). Accepted basis | LIQUID |
-| Daily | **HY OAS direction** | 265 (6/22), bounced off the 263 low; <260 = soft-kill (5bps cushion); >320 = confirmation. CCC-BB 791 (pin — falsifier <400) | LIQUID |
-| Daily | **Duration** | 30Y 4.95 (backed up off the <4.90 unwind); 10Y 4.51 (above the 4.50 pivot); 2Y 4.24 (highest since Feb-25) | LIQUID |
-| Daily | **Alts/PC + vol** | APO/ARES (AI-unwind PC→public transmission watch); VIX 19.5 (>23 = HENRY vol-control/cascade) | LIQUID, HENRY |
-| Daily | SOFR-IORB / USD/JPY >160 | −4bps clean; USD/JPY 161.6 triggered (repat pushed to a Sep tail, SAM) | LIQUID, SAM |
+| Daily | **HY OAS direction** | 271 [6/23] (backed up from the 263 6/17 low; Trigger A reset); <260 = soft-kill (11bp cushion); **>280 = X1-decoupling half**; >320 = confirmation. CCC-BB 795 (pin — falsifier <400) | LIQUID |
+| Daily | **Duration** | 30Y 4.94 (~0.04 above the 4.90 unwind); 10Y 4.50 (on the pivot); 2Y 4.16 (eased off the 4.24 cycle-high) | LIQUID |
+| Daily | **Alts/PC + vol** | APO $122 / ARES $114 (**BROKE <$130** — alts-crack PC→public transmission DEEPENING); VIX 19.0 (>23 = HENRY vol-control/cascade) | LIQUID, HENRY |
+| Daily | SOFR-IORB / USD/JPY >160 | −3bps clean; USD/JPY 161.8 triggered (repat pushed to a Sep tail, SAM) | LIQUID, SAM |
 
 ## Later (2026)
 
@@ -39,6 +37,8 @@
 
 | Date | Event | Outcome |
 |------|-------|---------|
+| Jun 24 | **EIA WPSR — Cushing** | Occurred 6/24 — Cushing / WTI delivery-dislocation read owned by HAWK/BRENT (Boundary #3 routing). LIQUID basis/calendar-spread angle only; no LIQUID-domain trip |
+| Jun 24 | **BOJ Summary of Opinions** | Occurred 6/24 — hike-rationale / next-hike-cadence read owned by SAM. LIQUID tracks the Japan-UST/repat leg (armed-but-unfired; carry window LOCKED Sep-18) |
 | Jun 22 | **HY OAS 6/18-6/19 prints (TRIGGER-A resolver)** | **RESOLVED BENIGN.** 263(6/17)→266(6/18)→266(6/19)→265(6/22) — the 263 was a one-print low; TRIGGER A (<265 ×2) never fired. Soft-kill threat receded, cushion 5bps stable. CCC-BB WIDENED to 791 (pin firming). → KB-LIQ-061 candidate |
 | Jun 22 | **Brent Hormuz decoupling test** | **PASSED — shrug.** Iran's 6/20 re-closure was declaratory/non-kinetic; Brent fell to $77.90 (lowest since early March), curve flipped to contango. US Treasury 60-day Iran-crude license 6/22 = disinflationary. Decoupling holds (HAWK/BRENT) |
 | Jun 22 | **CFTC JPY COT** (Juneteenth-delayed) | Net −150,132 (83.4% of peak); HELD through the BOJ hike, no cover. But carry window now LOCKED to Sep-18 (a Sep convexity tail, not near-term). No intervention (MOF silent 6d). SAM-domain |
