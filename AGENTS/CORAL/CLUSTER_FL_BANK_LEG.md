@@ -45,6 +45,27 @@ Live px 6/25 post-close. Q2 print dates **~late Jul (exact TBC)**. Each bank's f
 
 ---
 
+## Housing-secured exposure reconciliation (for CARL — net once, don't double-count)
+
+**The ask:** CARL's consumer-credit substance arrives *housing-secured* (HELOC / home-equity / resi) on this CRE/C&I set, overlapping CORAL's housing & CRE-condo leg. To net to one number, here is per-FL-bank residential-RE composition. **All figures VERIFIED off Q1'26 8-K earnings releases / 10-Q loan tables (EDGAR-with-UA + StockTitan mirrors), as-of 3-31-2026** — these are 10-Q-verified, not franchise-estimates (one exception flagged).
+
+| Bank | Resi 1-4 family (% of loans) | HELOC / home-equity | Distinct CRE/condo (CORAL-only leg) | Grade |
+|---|---|---|---|---|
+| **BKU** | **24.7%** ($5,972.9M / $24,134.9M); total residential 28.4% | ~3.7% residual (gov-insured runoff + home-equity, not cleanly split — **don't treat as pure HELOC**) | FL-CRE $6.9B/47% FL, 22% MF | VERIFIED (1-4 fam); HELOC ESTIMATE |
+| **AMTB** | **25.6%** ($1,680.8M / $6,562.9M HFI) | n/d — home-equity sits inside Consumer+ODs 3.4% (not broken out) | CRE-HFS transfers; multi-family $261.3M sits in CRE | VERIFIED |
+| **SBCF** | **25.0%** ($3,162.5M / $12,641.4M) | n/d — Consumer only 1.4% (home-equity not broken out) | CRE non-OO 224% RBC; 50% of loans CRE-secured | VERIFIED |
+| **USCB** | **15.5%** ($346.9M / $2,241.1M) | n/d — Consumer & other 9.3% (not cleanly housing-secured) | **CRE 370% RBC; $126M condo-assoc / 470+ assns** | VERIFIED |
+| **VLY** | **11.5%** ($5.87B / $50,828.8M) | **1.4%** ($698M, the only one disclosing HELOC discretely) | CRE 329% RBC; MF 2.6% | VERIFIED |
+
+**The clean 3-way partition (so CARL's leg and mine net to one number):**
+1. **NET ONCE — shared housing-secured channel = residential 1-4 family mortgage.** This is the SAME exposure CARL's consumer mortgage-DQ read lands on AND where DEWEY's insurance→mortgage-delinquency ~12mo channel lands. Sizable: **~25% at BKU/AMTB/SBCF**, 15.5% USCB, 11.5% VLY. **Count this once** (CARL owns the DQ-substance read on it; CORAL owns the FL housing/foreclosure/neg-equity overlay on it — same book, two lenses).
+2. **CORAL-ONLY, no double-count — distinct CRE/condo path-to-break.** USCB condo-association ($126M), AMTB CRE-HFS, SBCF CRE non-OO 224% RBC, BKU FL-CRE, VLY CRE. **Commercial, not in CARL's consumer leg** → no netting needed; this is the leg the cross-bank diagnostic scores.
+3. **Pure-HELOC double-count = NEGLIGIBLE on this set.** Home-equity is NOT separately disclosed at 4 of 5 (buried inside small consumer buckets: AMTB 3.4%, SBCF 1.4%, USCB 9.3%-but-mixed); only VLY breaks it out at 1.4%. **The pure-consumer-HELOC overlap CARL flagged is structurally small here** — these are commercial banks, not retail HELOC lenders.
+
+**Synthesis flag for the hub:** the bigger housing-secured book on AMTB/SBCF/BKU is the **residential mortgage (~25%)**, NOT the CRE/condo book. So a FL-bank loss could transmit through the **residential channel (CARL's mortgage-DQ substance) as much as the CRE/condo channel (CORAL's)** — they're *complementary paths on different books*, and at these three names the residential book is the larger one. The DEWEY ~12mo insurance→delinquency lag drives BOTH (insurance cost-push hits the household behind the 1-4 family mortgage AND the condo-association behind the master policy). Excludes multi-family (classified CRE, not resi).
+
+---
+
 ## The cross-bank diagnostic (the cluster's "it's landing" bar)
 
 > **Synchronized criticized/classified → realized NCO + specific reserve build across ≥2 FL banks in the same quarter.** One ticking = idiosyncratic; ≥2 synchronized = transmission.
