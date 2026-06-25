@@ -6,6 +6,16 @@
 
 ---
 
+## 2026-06-25 ~15:55 ET — Warm-LIQUID deep-cleanup arc (11 commits, PUSHED)
+
+**Status:** Will ran a **persistent warm LIQUID #1** (directable) + a **read-only LIQ_DOCAUDIT** boot-doc auditor to get LIQUID caught up to data and its architecture working smoothly. Full arc done, independently verified at each step, **PUSHED** — origin master swept the session's 11 commits (10 LIQUID/PROME + closeout), local+origin **synced 0/0**, tree clean. Both agents released.
+
+**What landed (the arc):** PAUSED→ARMED relabel (KB-063); Track-1 STATUS reconcile + **Track-2 KB.tsv 56-row drift fix + boot.py selftest KB-guard + KB-062 backfill**; 6/24 inbox (metals = **washout-not-crunch**); **boot-doc batch — boot.py was flashing false all-clears, wired in the >280 X1 alert rung + flipped APO sub-$130 to bearish** + MEMORY 314→117 lossless split; **KILL_MEMO rebuilt two-sided** (added the >280 X1-confirm side = PROPOSE→Will never auto-execute; book-flat); VX/FLOW de-masqueraded; **thesis re-mark 60→61** (held +1 from proposed +2 per Will calibration → KB-064).
+
+**Regime delta:** **HY OAS 276 [6/24]** — the print resolved WIDER, now **4bp from the >280 X1-trigger**. Conviction **61, CONCENTRATED/higher-variance** — the bear funneled to one live root (credit-bifurcation, CCC-BB 798) while the other legs inverted/dormant (energy deflated, plumbing calm, duration dormant); X1 UNFIRED (widening is beta not substance). **FXY position FULLY CLOSED (Will 6/25)** — old open item resolved.
+
+**Next:** LIQ-03 resolves 6/30 (boot.py-tracked); BDC monitor full-populate before ~7/25 Q2 marks; auto-memory capture of the KB-064 calibration principle + X1 rule deferred pending the MEMORY.md prune (over-limit); LIQUID outbox cleanup (low). Watch the next HY print vs 280 + the wrapper basket.
+
 ## 2026-06-25 ~12:20 ET — Desktop-CC session: do-now batch + full write-back
 
 **Status:** Operating from **Desktop Claude Code** (OpenClaw/Codex degraded). Will authorized teammate-mode spawns. Ran a report-only do-now batch → follow-ups → Will-approved write-back → **regime-surface refresh** (HEARTBEAT/TODAY) → targeted intel pulls → **agent-closeout batch** (SAM/BROCK/LIQUID persisted their intel, then released/shut down). **PUSHED 2026-06-25** — origin master at `026e0c47`, local+origin **synced 0/0** (10 commits): BROCK `e11daae4`+`5a4569b8`, SAM `8e6f4350`+`df1adae5`, LIQUID `9bdf0b10`, Prome `3c03818d`+`85395063`+`4f4448c6`+closeout+STATUS.
