@@ -2,13 +2,27 @@
 
 **Purpose:** Single live continuity surface for Prome across OpenClaw and Claude Code. Keep this file short: latest 3–5 entries only. Archive older entries to `PROME/archive/`.
 
-**Archive:** Full pre-merge OpenClaw + Claude Code handoff history through 2026-06-14 is preserved in `PROME/archive/HANDOFF_2026Q2.md`.
+**Archive:** Full pre-merge OpenClaw + Claude Code handoff history through 2026-06-14 is preserved in `PROME/archive/HANDOFF_2026Q2.md` (older 2026-06 entries appended there as they roll off).
 
 ---
 
+## 2026-06-25 — Morning sync + curated two-branch reconciliation landed on master
+
+**Status:** Pulled master clean (10-commit FF to `329bb543`), then deep-dove and landed a curated reconciliation of two unmerged `prome/*` branches. Local master now at **`2ee22af4`, +6 / origin, NOT pushed** — Will-coordinated push pending. Working tree clean; staging worktree/branch removed.
+
+**What landed (4 curated commits):** (A) `02474316` salvage `PROME/GIT_COORDINATION.md` + `WEEKLY_DECISION_CALENDAR_2026-06-22.md`. (B) `ca2fbb37` salvage 7 HANS `research/*.md` modules + `REVIVAL_PLAN_2026-06-22.md` + revived HANS `CLAUDE.md` — **master's newer Jun-22 22:42 PM HANS STATUS/workbook preserved untouched.** (C) `ea8f2c17` merge canonical YEYOU from `reconcile-yeyou` (REVIEW_CHECKLIST→`reviews/`, +CLOSEOUT/CROSS_SILO/COORDINATION). (D) `2ee22af4` archive dead `AGENTS/PROME/` tree (30 files) → `PROME/archive/AGENTS_PROME_LEGACY_2026-06-24/`; `_INDEX`/`_SYNTHESIS_OPS`/PROME docs updated to new layout.
+
+**Deliberately dropped:** `pending-flush`'s stale HANS STATUS/ML/VX/FLOW (master authoritative) + its superseded YEYOU portion. `pending-flush` was 111 commits behind base; never raw-merged. Build was done in an isolated git worktree — main tree never left master until the verified FF-land.
+
+**Decisions needed from Will:** (1) coordinated push of the +6 local commits to origin. (2) After push, delete origin branches `prome/pending-flush-2026-06-25` (salvaged+superseded) and `prome/reconcile-yeyou-2026-06-25` (fully merged).
+
+**Risks / blockers:** Do not push without Will. HANS `archive/STATUS_PRE_REVIVAL_2026-06-22.md` duplicates `workbook/STATUS_archive_20260430.md` (same Apr-30 content) — HANS to dedup. Refresh dashboard/FRED before citing market levels.
+
+**Next suggested work:** continue normal Prome boot (BOOT/SYSTEM/CLAUDE_CODE_PROME docs, scan `AGENTS/*/outbox/` for to-PROME signals). HANS workbook hygiene is now HANS-owned vs master's current state, not the salvaged branch.
+
 ## 2026-06-22 ~10:14 ET — HANS revival checkpoint before clear
 
-**Status:** Local HANS revival commit exists and is **not pushed**: `94b2e475 HANS: revive Europe monitoring baseline`. Repo was clean/ahead 1 after that commit before this closeout write-back. Push remains gated by Will coordination.
+**Status:** Local HANS revival commit exists and is **not pushed**: `94b2e475 HANS: revive Europe monitoring baseline`. Repo was clean/ahead 1 after that commit before this closeout write-back. Push remains gated by Will coordination. *(Note 6/25: this work was reconciled onto master via the curated landing above — master's later Jun-22 PM HANS state is authoritative; the salvaged research modules landed at `ca2fbb37`.)*
 
 **What landed:** HANS stale Apr30 war-regime baseline was archived; HANS `CLAUDE.md`/`STATUS.md` now warn not to boot from old assumptions (Hormuz closed/mined, Qatar permanent loss, Brent $111, Scenario D 85%, HY 350+). Revival plan and research packets are in `AGENTS/HANS/REVIVAL_PLAN_2026-06-22.md` and `AGENTS/HANS/research/`. Completed packets: Batch A current snapshot + PMI scaffold, B1 ECB/Fed divergence, B2 Europe TIC/UST custody, C1 EU energy/storage, C2 EU bank/private-credit/CRE bridge. Weekly decision calendar created at `PROME/WEEKLY_DECISION_CALENDAR_2026-06-22.md`.
 
@@ -57,18 +71,5 @@
 **Next suggested work:** fresh boot should verify repo state, then choose lane. Market lane: treat `HEARTBEAT.md` as Sunday orientation only and refresh dashboard/FRED before citing fresh levels; watch Jun22 Brent/Hormuz + HY <260 + CFTC/carry. System lane: use `AGENTS/_INDEX.md` for grouped navigation and `AGENTS/_NETWORK.md` for topology.
 
 **Risks / blockers:** do not physically move agent directories without a migration pass. Do not maintain multiple live network maps. No trade/expiry action without broker/Will truth.
-
----
-## 2026-06-20 ~20:05 ET — Closeout after heartbeat/auto-memory/DEWEY cleanup + pushed-agent audit
-
-**Status:** Repo was clean/synced at closeout start. Current regime source is `HEARTBEAT.md`: signed-but-fraying MOU; Jun20 Hormuz re-closure declared; contested/not kinetic; energy tail re-fat; broad cascade unconfirmed. HY remains **263 [FRED 6/17]** near <260 kill, VIX/banks calm, carry red.
-
-**What landed:** HEARTBEAT refreshed and pushed for Jun20 Hormuz declaration; `memory/auto/MEMORY.md` compacted under the load cap with all 143 links preserved; active-agent push train pulled/audited cleanly; root DEWEY naming aligned in `HEARTBEAT.md` + `AGENTS_DIRECTORY.md`. WALTER-specific drift was identified but deliberately not edited — Will will handle with WALTER.
-
-**Files edited in this closeout:** `PROME/SCRATCH.md`, `PROME/STATUS.md`, `PROME/TODAY.md`, `PROME/ACTIVE_DECISIONS.md`, `PROME/HANDOFF.md`, `memory/2026-06-20.md`.
-
-**Next suggested work:** fresh boot should verify repo state, then use `HEARTBEAT.md` for the market frame. Market lane: Jun22 Brent/Hormuz tape response + HY <260 + CFTC/carry. System lane: wait for WALTER’s own cleanup before touching WALTER. DEWEY lane: CONTEXT refresh before first live run.
-
-**Risks / blockers:** do not repeat shared auto-memory index edits during active agent work; coordinate a push/rebase window first. Do not treat Hormuz closure as kinetic without physical/tape confirmation. No trade/expiry action without broker/Will truth.
 
 ---

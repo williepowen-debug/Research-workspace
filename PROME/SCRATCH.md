@@ -1,54 +1,33 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-22 10:14 ET (OpenClaw Prome — HANS revival checkpoint before clear)
+**Last Updated:** 2026-06-25 (Claude Code Prome — morning sync + branch-reconciliation landing)
 
 ## What Just Happened
 
-- Built and locally committed HANS revival baseline: `94b2e475 HANS: revive Europe monitoring baseline`.
-- No push. Repo was clean after commit and ahead of origin by 1.
-- HANS stale Apr30 war-regime status was archived to `AGENTS/HANS/archive/STATUS_PRE_REVIVAL_2026-06-22.md`.
-- HANS `CLAUDE.md` and `STATUS.md` now warn against booting from old assumptions: Hormuz closed/mined, Qatar permanent loss, Brent $111, Scenario D 85%, HY 350+.
-- HANS revival plan exists at `AGENTS/HANS/REVIVAL_PLAN_2026-06-22.md`.
-- Completed HANS revival packets:
-  - Batch A / Phases 1–2: current snapshot + PMI→ISM scaffold.
-  - Batch B1 / Phase 3: ECB/Fed divergence + funding monitor.
-  - Batch B2 / Phase 4: Europe UST/TIC custody flows.
-  - Batch C1 / Phase 5: EU energy/storage/industrial competitiveness.
-  - Batch C2 / Phase 6: European bank/private-credit/CRE bridge.
-- `PROME/WEEKLY_DECISION_CALENDAR_2026-06-22.md` created for this week’s macro/market gates.
+- **Morning sync:** pulled master from origin — clean 10-commit fast-forward (was `329bb543`, WALTER 6/24 + BRENT 6/24 EIA + YEYOU SOUL/IDENTITY + 9 BOARD cards). Working tree was clean; no stash needed.
+- **Scouted + deep-dove two unmerged `prome/*` branches**, then executed an approved **curated landing** on master (4 commits, isolated-worktree build, FF-landed).
+- **Master now at `2ee22af4`.** Curated commits:
+  - `02474316` — salvage `PROME/GIT_COORDINATION.md` + `WEEKLY_DECISION_CALENDAR_2026-06-22.md` (net-new; A is YEYOU's prereq).
+  - `ca2fbb37` — salvage 7 HANS `research/*.md` modules + `REVIVAL_PLAN_2026-06-22.md` + revived HANS `CLAUDE.md` + pre-revival snapshot. **Master's newer Jun-22 22:42 PM HANS STATUS/workbook left UNTOUCHED.**
+  - `ea8f2c17` — merge `reconcile-yeyou` = canonical YEYOU (REVIEW_CHECKLIST→`reviews/`, +CLOSEOUT/CROSS_SILO/COORDINATION).
+  - `2ee22af4` — archive dead `AGENTS/PROME/` tree (30 files) → `PROME/archive/AGENTS_PROME_LEGACY_2026-06-24/`; updated `_INDEX`/`_SYNTHESIS_OPS` + PROME docs to new layout.
+- **Deliberately dropped:** `pending-flush`'s stale HANS STATUS/ML/VX/FLOW (master authoritative) + its superseded YEYOU portion. `pending-flush` was 111 commits behind base; never raw-merged. Did NOT bring `memory/2026-06-22.md` (optional historical session note).
 
 ## Current Git State
 
-- Local commit exists and is **not pushed**: `94b2e475 HANS: revive Europe monitoring baseline`.
-- Expected after this closeout: a second local Prome handoff commit may exist. Do not push unless Will explicitly coordinates.
+- Local master at **`2ee22af4`, +6 / origin, NOT pushed.** Push is Will-coordinated.
+- Working tree clean. Staging worktree + branch removed.
+- Remote branches `origin/prome/pending-flush-2026-06-25` and `origin/prome/reconcile-yeyou-2026-06-25` still exist — delete on origin **after** the push (reconcile-yeyou fully merged; pending-flush salvaged+superseded).
 
-## HANS Current Read
+## Open Follow-ups
 
-- Europe is mixed/stagflationary: manufacturing not broken enough to confirm U.S. ISM weakness; services/composite weak; ECB tightened into this mix.
-- ECB/Fed: conditional renewed tightening risk; USD-over-EUR rate gap still positive; no verified funding-stress threshold fired.
-- Europe UST/TIC: neutral/noisy, not confirmed demand-hole contributor.
-- EU energy/storage: **CONDITIONAL**, not ACTIVE. Storage/refill path risk and industrial cost wedge matter, but no verified TTF/storage/Hormuz threshold fired.
-- EU bank/private-credit/CRE: **MONITOR**, not active bridge. Concentrated exposures but small vs assets/equity; upgrade only on CDS/funding/provisions/regulatory/gating thresholds.
-
-## Unfinished / Next Entry Point
-
-1. **HANS Phase 7 / Batch C3 — Sovereign Spread + UK LDI Monitor**
-   - Create `AGENTS/HANS/research/SOVEREIGN_LDI_MONITOR_2026-06.md`.
-   - Update HANS `STATUS.md` and revival plan.
-   - Answer: France/OAT and Italy/BTP spreads vs Bund, TPI risk, UK gilt/LDI stress, UST transmission.
-2. **Jun23 PMI mini-update**
-   - After Tue Jun23 flash PMIs print, update `AGENTS/HANS/research/PMI_ISM_LEAD_2026-06.md` Jun row and HANS `STATUS.md`.
-   - Outbox only if threshold fires: German mfg <48 / rapid decline → HENRY+NEXUS; >50.5 with broad strength → HENRY+NEXUS+RED.
-3. **Batch D — HANS Workbook Hygiene**
-   - Update/mark stale `AGENTS/HANS/workbook/VX.tsv`, `ML.tsv`, `FLOW.tsv`.
-   - Reclassify `FLOW-HANS-8` to CONDITIONAL.
-   - Add Jun2026 durable findings from research docs.
-   - Optionally create HANS `README.md` if boot surface still feels too scattered.
-4. **Potential cleanup after D**
-   - Process/archive stale March HANS inbox signals only if still relevant; otherwise mark stale/not live.
+1. **Coordinated push** of the +6 local commits to origin (Will window).
+2. **Remote branch cleanup** post-push (the two `prome/*` branches above).
+3. **HANS dedup:** `AGENTS/HANS/archive/STATUS_PRE_REVIVAL_2026-06-22.md` duplicates master's `workbook/STATUS_archive_20260430.md` (same Apr-30 content, two paths) — HANS to reconcile to one. Kept so HANS `CLAUDE.md`/`REVIVAL_PLAN` refs resolve.
+4. **HANS workbook hygiene** (old Jun-22 SCRATCH's "Batch D"): **moot for the branch versions** — master carries the newer Jun-22 PM workbook (ML 16 rows incl. Qatar/Lebanon/Jul-4). Any further HANS workbook work is HANS-owned against master's current state, not the salvaged branch. `SOVEREIGN_LDI_MONITOR_2026-06.md` is now present (was in the salvage set).
 
 ## Cautions
 
-- Do not push without Will’s explicit coordination.
-- Do not treat HANS workbook as current yet; research/STATUS are current, workbook still needs Batch D.
-- Do not write HANS outbox retroactively; all completed packets found no verified threshold firing.
-- If market data is cited as current, refresh dashboard/FRED first.
+- **Do not push without Will's explicit coordination.**
+- HANS STATUS/workbook on master = Jun-22 22:42 PM (authoritative). Salvaged `research/*.md` are durable scaffolding — cross-check against master STATUS before treating as live.
+- Refresh dashboard/FRED before citing current market levels (HEARTBEAT is Fri-close orientation only).
+- `git add` only specific PROME/ paths; never broad-add (per the newly-landed `PROME/GIT_COORDINATION.md`).
