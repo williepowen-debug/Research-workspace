@@ -13,7 +13,7 @@
 
 ## Regime Read (current) — see `synthesis/2026-06-25_donow_reconciliation.md` + HEARTBEAT
 - Energy tail **DEFLATED** (Brent $74, Hormuz non-kinetic; Cushing sub-20M → BRENT Boundary #3).
-- Credit-bear **PAUSED** above the <260 kill (HY 271, cushion 11bp; LIQUID: kill dead, bear not).
+- Credit-bear **ARMED — pre-trigger/entry-gated** above the <260 kill (HY 271, cushion 11bp; LIQUID: kill dead, bear not). *(Relabeled from "paused" per Will 6/25 — armed-and-accumulating, NOT shelved.)*
 - Bank-vs-PC divergence = **MACRO multiple-compression, NOT credit-substance** (wrappers flat, banks rallied). Fresh: Apollo gated ADS at 5% (6/23) — flow not mark.
 - **★ X1 rule (SAM+BROCK+LIQUID, independent):** carry-unwind + PC-compression = ~1 root on macro days — DON'T double-count. Independent PC confirmation gated on **wrapper-leading + HY OAS >280** (both UNFIRED → root single/macro).
 - May PCE firm-but-as-priced; real disinflation test = June CPI 7/14.

@@ -14,7 +14,7 @@
 | Push rule | 🔒 commit-local OK / no push until Will coordinates. |
 
 ## Regime (one-line)
-Energy tail **deflated** (Brent ~$74, Hormuz non-kinetic); credit-bear **PAUSED above the kill-line** (HY 271, 11bp cushion); live surface = **bank-vs-PC divergence but MACRO, not credit-substance**; carry red. The bear thesis funnels to **one live root — credit/CCC-BB bifurcation** — and independent confirmation is gated on the **HY>280 + wrapper-leading** trigger (both unfired).
+Energy tail **deflated** (Brent ~$74, Hormuz non-kinetic); credit-bear **ARMED but pre-trigger** (entry-gated; HY 271, 11bp cushion over the kill, NOT shelved); live surface = **bank-vs-PC divergence but MACRO, not credit-substance**; carry red. The bear thesis funnels to **one live root — credit/CCC-BB bifurcation** — and independent confirmation is gated on the **HY>280 + wrapper-leading** trigger (both unfired).
 
 ## Today's catalysts
 - **May PCE (8:30 ET)** — firm core 3.4%, as-priced. ✅ ingested (HENRY).
@@ -22,7 +22,7 @@ Energy tail **deflated** (Brent ~$74, Hormuz non-kinetic); credit-bear **PAUSED 
 
 ## Open decisions (Will)
 1. **FXY broker truth** → finalizes SAM's hold-vs-trim (did 13→6 fill 6/23? live stop level / mental?).
-2. **LIQUID** — reactivated; PAUSED verdict in. Standing Q: keep it in the rotation?
+2. **LIQUID** — ✅ stays in active rotation (Will 6/25); verdict relabeled PAUSED→**ARMED/entry-gated**. Keep spawning + accumulating; open to evolving the theory.
 3. **NEXUS refresh** — deferred (Will hold).
 
 ## Prome-owned, done today
