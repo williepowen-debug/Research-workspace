@@ -46,7 +46,6 @@ Canonical topology / transmission map: [`_NETWORK.md`](./_NETWORK.md).
 | ORACLE | [`ORACLE/`](./ORACLE/) | Synthesis / Ops |
 | OTTO | [`OTTO/`](./OTTO/) | Credit |
 | OZK | [`OZK/`](./OZK/) | Credit |
-| PROME | [`PROME/`](./PROME/) | Synthesis / Ops |
 | RED | [`RED/`](./RED/) | Synthesis / Ops |
 | REGINALD | [`REGINALD/`](./REGINALD/) | Credit |
 | SAM | [`SAM/`](./SAM/) | Funding / Macro |
@@ -63,6 +62,7 @@ Canonical topology / transmission map: [`_NETWORK.md`](./_NETWORK.md).
 |---|---|---|
 | REITS | [`REITS/`](./REITS/) source archive only | Public REIT equity tape absorbed into [`CREED/`](./CREED/) |
 | TRADES | [`TRADES/`](./TRADES/) source archive only | Superseded by [`TERRY/`](./TERRY/) |
+| PROME | historical `AGENTS/PROME/` tree archived under [`../PROME/archive/AGENTS_PROME_LEGACY_2026-06-24/`](../PROME/archive/AGENTS_PROME_LEGACY_2026-06-24/) | Live Prome state lives in root [`../PROME/`](../PROME/) |
 
 ## Maintenance rule
 

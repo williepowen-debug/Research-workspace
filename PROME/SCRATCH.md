@@ -1,45 +1,54 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-21 19:40 ET (OpenClaw Prome — post REITS/TRADES archive + ORACLE/TERRY tooling push)
+**Last Updated:** 2026-06-22 10:14 ET (OpenClaw Prome — HANS revival checkpoint before clear)
 
 ## What Just Happened
 
-- Repo was safely rebased over newer WALTER/SAM remote commits and pushed cleanly.
-- Landed pushed commits:
-  - `9cf41161 CREED: absorb REIT equity tape`
-  - `cdd6ce96 TERRY: archive legacy TRADES playbook`
-  - `6219553f TERRY: add risk scoring module`
-  - `0ad1def6 ORACLE: add prediction market metrics`
-- REITS is now archived/dormant; live public REIT equity-market tape belongs to CREED.
-- TRADES is now archived/dormant; useful legacy verification pattern belongs to TERRY.
-- TERRY now has risk scoring/calibration tooling: pre-trade gates, edge scoring, fractional Kelly reference, Brier tracking, execution-block checklist, postmortem tags.
-- ORACLE now has prediction-market metric tooling: entropy, KL bits, entropy-collapse alerts, liquidity/resolution discounts, ORACLE→TERRY handoff packet.
-- Claude Code command reference was updated earlier and now excludes REITS/TRADES launch commands.
+- Built and locally committed HANS revival baseline: `94b2e475 HANS: revive Europe monitoring baseline`.
+- No push. Repo was clean after commit and ahead of origin by 1.
+- HANS stale Apr30 war-regime status was archived to `AGENTS/HANS/archive/STATUS_PRE_REVIVAL_2026-06-22.md`.
+- HANS `CLAUDE.md` and `STATUS.md` now warn against booting from old assumptions: Hormuz closed/mined, Qatar permanent loss, Brent $111, Scenario D 85%, HY 350+.
+- HANS revival plan exists at `AGENTS/HANS/REVIVAL_PLAN_2026-06-22.md`.
+- Completed HANS revival packets:
+  - Batch A / Phases 1–2: current snapshot + PMI→ISM scaffold.
+  - Batch B1 / Phase 3: ECB/Fed divergence + funding monitor.
+  - Batch B2 / Phase 4: Europe UST/TIC custody flows.
+  - Batch C1 / Phase 5: EU energy/storage/industrial competitiveness.
+  - Batch C2 / Phase 6: European bank/private-credit/CRE bridge.
+- `PROME/WEEKLY_DECISION_CALENDAR_2026-06-22.md` created for this week’s macro/market gates.
 
 ## Current Git State
 
-- Expected after closeout write: local Prome closeout files may be ahead if committed but not pushed.
-- Last verified pre-closeout: repo clean/synced with origin after pushing ORACLE/TERRY/CREED work.
+- Local commit exists and is **not pushed**: `94b2e475 HANS: revive Europe monitoring baseline`.
+- Expected after this closeout: a second local Prome handoff commit may exist. Do not push unless Will explicitly coordinates.
 
-## Current Ownership Truth
+## HANS Current Read
 
-- **CREED** owns national CRE / CMBS **plus public REIT equity-market tape**.
-- **REITS** folder remains source archive only; do not launch unless Will explicitly revives it.
-- **TERRY** owns live trade construction and the old TRADES verification playbook.
-- **TRADES** folder remains source archive only; do not launch unless Will explicitly revives it.
-- **ORACLE** owns prediction-market diagnostics; TERRY owns tradeability; Will approves any action.
-- No auto-trading.
+- Europe is mixed/stagflationary: manufacturing not broken enough to confirm U.S. ISM weakness; services/composite weak; ECB tightened into this mix.
+- ECB/Fed: conditional renewed tightening risk; USD-over-EUR rate gap still positive; no verified funding-stress threshold fired.
+- Europe UST/TIC: neutral/noisy, not confirmed demand-hole contributor.
+- EU energy/storage: **CONDITIONAL**, not ACTIVE. Storage/refill path risk and industrial cost wedge matter, but no verified TTF/storage/Hormuz threshold fired.
+- EU bank/private-credit/CRE: **MONITOR**, not active bridge. Concentrated exposures but small vs assets/equity; upgrade only on CDS/funding/provisions/regulatory/gating thresholds.
 
-## Next Reboot Entry Point
+## Unfinished / Next Entry Point
 
-1. Verify repo state first.
-2. Read this file plus `PROME/HANDOFF.md`, `PROME/TODAY.md`, `PROME/ACTIVE_DECISIONS.md`, `PROME/STATUS.md`.
-3. If continuing system cleanup, next candidates are other dormant folders in `AGENTS_DIRECTORY.md` / `_INDEX.md` only after inspecting actual value.
-4. If market lane, refresh dashboard/FRED before citing current levels; `HEARTBEAT.md` remains Fri-close/weekend orientation until refreshed.
+1. **HANS Phase 7 / Batch C3 — Sovereign Spread + UK LDI Monitor**
+   - Create `AGENTS/HANS/research/SOVEREIGN_LDI_MONITOR_2026-06.md`.
+   - Update HANS `STATUS.md` and revival plan.
+   - Answer: France/OAT and Italy/BTP spreads vs Bund, TPI risk, UK gilt/LDI stress, UST transmission.
+2. **Jun23 PMI mini-update**
+   - After Tue Jun23 flash PMIs print, update `AGENTS/HANS/research/PMI_ISM_LEAD_2026-06.md` Jun row and HANS `STATUS.md`.
+   - Outbox only if threshold fires: German mfg <48 / rapid decline → HENRY+NEXUS; >50.5 with broad strength → HENRY+NEXUS+RED.
+3. **Batch D — HANS Workbook Hygiene**
+   - Update/mark stale `AGENTS/HANS/workbook/VX.tsv`, `ML.tsv`, `FLOW.tsv`.
+   - Reclassify `FLOW-HANS-8` to CONDITIONAL.
+   - Add Jun2026 durable findings from research docs.
+   - Optionally create HANS `README.md` if boot surface still feels too scattered.
+4. **Potential cleanup after D**
+   - Process/archive stale March HANS inbox signals only if still relevant; otherwise mark stale/not live.
 
 ## Cautions
 
-- No trade execution; TERRY proposals still require Will approval.
-- No auto-trading for ORACLE/prediction markets.
-- No REITS/TRADES launch from command reference; they are archived.
-- `AGENTS/REGINALD/sub-agents/CREED/` remains legacy source archive only.
-- Continue pathspec-only commits; no broad add/reset/stash.
+- Do not push without Will’s explicit coordination.
+- Do not treat HANS workbook as current yet; research/STATUS are current, workbook still needs Batch D.
+- Do not write HANS outbox retroactively; all completed packets found no verified threshold firing.
+- If market data is cited as current, refresh dashboard/FRED first.

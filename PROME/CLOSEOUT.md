@@ -21,7 +21,7 @@ Skip for casual one-off exchanges with no artifacts.
 ## Pre-closeout (~1 min)
 
 1. `git status --short` — review what's changed
-2. Confirm no other agents have uncommitted work outside `PROME/` and `AGENTS/PROME/` (per root CLAUDE.md "Before pulling")
+2. Confirm no other agents have uncommitted work outside `PROME/` and any explicitly scoped paths for the session. The old `AGENTS/PROME/` tree is archived and no longer a live Prome work surface.
 3. Mentally list this session's artifacts: proposals decided, files written, prototypes run, decisions made
 4. Check transcript hygiene: if the session produced huge tool dumps, preserve the durable result in files/memory and avoid restating raw output. Prefer compact summaries unless full output matters.
 5. Decide closeout scope:

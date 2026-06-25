@@ -1,6 +1,6 @@
 # AGENTS — Synthesis / Trading / Operations
 
-Canonical paths remain `AGENTS/<NAME>/`. This file is an index only.
+Canonical paths remain `AGENTS/<NAME>/` for active agents. Prome is the orchestration surface and lives in root `PROME/`; the old `AGENTS/PROME/` tree is archived.
 
 ## Synthesis and adversarial review
 
@@ -24,12 +24,13 @@ Canonical paths remain `AGENTS/<NAME>/`. This file is an index only.
 | Folder | Status | Current owner |
 |---|---|---|
 | TRADES | [`TRADES/`](./TRADES/) source archive only | Superseded by [`TERRY/`](./TERRY/) |
+| PROME | archived outside `AGENTS/` at [`../PROME/archive/AGENTS_PROME_LEGACY_2026-06-24/`](../PROME/archive/AGENTS_PROME_LEGACY_2026-06-24/) | Live Prome state uses root [`../PROME/`](../PROME/) |
 
 ## Operations / delivery / research
 
 | Agent | Path | Role |
 |---|---|---|
-| PROME | [`PROME/`](./PROME/) | Chief-of-staff/orchestration state, decisions, handoffs. |
+| PROME | [`../PROME/`](../PROME/) | Chief-of-staff/orchestration state, decisions, handoffs. |
 | WALTER | [`WALTER/`](./WALTER/) | Signal/news routing and intelligence desk. |
 | HERMES | [`HERMES/`](./HERMES/) | Signal delivery between outboxes/inboxes. |
 | DEWEY | [`DEWEY/`](./DEWEY/) | Deep research executor and data-pull script home. |

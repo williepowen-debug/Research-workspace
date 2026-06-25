@@ -6,6 +6,18 @@
 
 ---
 
+## 2026-06-22 ~10:14 ET — HANS revival checkpoint before clear
+
+**Status:** Local HANS revival commit exists and is **not pushed**: `94b2e475 HANS: revive Europe monitoring baseline`. Repo was clean/ahead 1 after that commit before this closeout write-back. Push remains gated by Will coordination.
+
+**What landed:** HANS stale Apr30 war-regime baseline was archived; HANS `CLAUDE.md`/`STATUS.md` now warn not to boot from old assumptions (Hormuz closed/mined, Qatar permanent loss, Brent $111, Scenario D 85%, HY 350+). Revival plan and research packets are in `AGENTS/HANS/REVIVAL_PLAN_2026-06-22.md` and `AGENTS/HANS/research/`. Completed packets: Batch A current snapshot + PMI scaffold, B1 ECB/Fed divergence, B2 Europe TIC/UST custody, C1 EU energy/storage, C2 EU bank/private-credit/CRE bridge. Weekly decision calendar created at `PROME/WEEKLY_DECISION_CALENDAR_2026-06-22.md`.
+
+**Current HANS read:** Europe is mixed/stagflationary; ECB/Fed divergence/funding is monitor-only; Europe UST demand is neutral/noisy; EU energy is **CONDITIONAL** not active; EU bank/private-credit/CRE is **MONITOR** not active. No HANS outbox threshold fired.
+
+**Unfinished / next entry point:** (1) HANS Phase 7 / Batch C3 — sovereign spread + UK LDI monitor. (2) Jun23 flash PMI mini-update after actuals print. (3) Batch D workbook hygiene: update or mark stale HANS `VX.tsv`, `ML.tsv`, `FLOW.tsv`; set `FLOW-HANS-8` to CONDITIONAL. (4) Optional stale March HANS inbox archive after Batch D.
+
+**Risks / blockers:** HANS workbook is not current yet; research docs + STATUS are current. Do not push without Will. Do not treat HANS old inbox/archived status as live. Refresh market/FRED before citing current prices/levels.
+
 ## 2026-06-21 ~19:40 ET — Closeout after CREED/REITS/TRADES/TERRY/ORACLE cleanup
 
 **Status:** Repo was clean/synced after rebasing over newer WALTER/SAM commits and pushing four system-cleanup commits. Closeout now updates Prome live-state surfaces. If committed after this entry, local may be ahead by one Prome closeout commit until Will pushes.

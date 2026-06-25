@@ -13,7 +13,7 @@ Will's bottleneck is not execution speed — it's **direction overhead**. The fl
 
 Will's framing: "It is hard to know how to direct the agents. There is so much data and so many threads to manage that I think I would benefit from help with an orchestral layer."
 
-Note: this is exactly the role Prome is supposed to play per `AGENTS/PROME/CLAUDE.md` ("chief of staff, coordinator, second brain"). The role is named correctly; the discipline hasn't been consistent. This document is the design for the discipline.
+Note: this is exactly the role Prome is supposed to play per the live root `PROME/` boot surfaces ("chief of staff, coordinator, second brain"). The role is named correctly; the discipline hasn't been consistent. This document is the design for the discipline.
 
 ## Goal
 
@@ -223,5 +223,5 @@ When Will + Prome review a proxy packet and find the framing useful conceptually
 
 - `PROME/scratch/teams_memory_audit_001/META_EVAL.md` — first teams test; established that adversarial-pair pattern produces measurably better output than solo for judgment-heavy bounded tasks. Same pattern proposed here for top-N refinement.
 - Auto-memory `feedback_adversarial_brief_for_pair_teams.md` — reusable lesson on how to brief adversarial teams (explicit "default to negative" + "engage genuinely, don't be agreeable" framing).
-- `AGENTS/PROME/CLAUDE.md` §"Operating Model — Chief of Staff" — names the role this design is implementing.
+- `PROME/CLAUDE.md` / root Prome boot surfaces — name the role this design is implementing. The old `AGENTS/PROME/CLAUDE.md` copy is archived.
 - `PROME/CLAUDE_CODE_PROME.md` — CC-Prome surface; orchestral layer is naturally a CC-Prome workflow.

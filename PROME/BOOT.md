@@ -18,6 +18,7 @@
 - **No trade execution.** Old trade rails remain verification-required until broker/Will reconciliation.
 - **External/public sends require approval.**
 - **Push is Will-coordinated:** committing may be okay when approved/scoped; pushing requires explicit Will approval.
+- **Shared repo coordination:** when YEYOU or another agent has local/branch work, use `PROME/GIT_COORDINATION.md` before committing, merging, or pushing.
 
 ---
 
@@ -74,7 +75,7 @@ Everything else is on-demand.
    - For repeated same-day respawns, avoid state-file churn unless a real market/system event or user decision changed.
 7. **Decide conditional reads:**
    - `PROME/FLEET_SCAN.md` only for fleet/market-state work, stale-state risk, or Will-requested audit.
-   - `AGENTS/PROME/inbox/` + `AGENTS/*/outbox/*to-PROME*` only for operational routing/signal work.
+   - `AGENTS/*/outbox/*to-PROME*` only for operational routing/signal work. The old `AGENTS/PROME/` inbox tree is archived under `PROME/archive/` and is archaeology, not live intake.
    - Claude Code Prome docs only for Claude Code Prome implementation work.
    - `PROME/CLOSEOUT.md` before `/clear`, `/new`, or durable handoff.
 8. **Declare boot state briefly:** synced/dirty, current regime source, market-data freshness posture, top pending decision/work lane, and any blocker.
