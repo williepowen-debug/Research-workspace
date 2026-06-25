@@ -6,6 +6,21 @@
 
 ---
 
+## 🆕 2026-06-25 SESSION NOTE (Desktop Claude Code; OpenClaw degraded, Prome coordinating)
+
+**LIVE MARKS (fetch.py, ~11:45 ET):** FXY **$56.74** (+0.07%) · USD/JPY **161.65** (+0.03%) — both flat. May PCE core 3.4% YoY firm but USD/JPY did NOT break → as-priced; carry steady/red, no funding crunch. MOF silent 9+d at 161+.
+
+**⚠️ FXY POSITION = PENDING BROKER RECONCILIATION (do NOT bake fill/count/P&L).** The 6/22-approved 13→6 trim was logged "executes Tue 6/23"; **as of 6/25 the fill is still UNCONFIRMED** — Will's broker is the truth source. Decision card is CONDITIONAL on the fill answer:
+- *If trim FILLED (6 sh):* **HOLD** the convexity stub, keep stop. MOF-intervention tail (silent 9d at 161+) pays the long-FXY stub. No action.
+- *If trim NOT filled (13 sh):* **EXECUTE the trim now (sell 7 → 6)** — double size, ~0.85 yen from the binding USD/JPY-162.5 stop leg, carry red, PCE as-priced. Don't carry 2× into a 53-pip stop.
+- **Stop math:** USD/JPY→162.5 = **0.85y / +0.53% away** (binding leg, fires first) · FXY→55.50 = **$1.24 / −2.19%** (deeper backstop). ⚠️ Legs disagree (FXY 55.50 ≈ USD/JPY ~165.2; USD/JPY 162.5 ≈ FXY ~$56.44) — confirm which is operative + whether stop is working-order vs mental.
+- **Broker data needed:** (1) did 7-sh trim fill 6/23 Y/N; (2) if Y, fill price + confirmed remaining count; (3) stop implementation (live order at what FXY level, or mental).
+- Unrealized ≈ −2.7% either state (FXY $56.74 vs $58.32 avg): 6 sh ≈ −$9.48 / 13 sh ≈ −$20.54 (illustrative, NOT booked).
+
+**📘 NEW DURABLE ARTIFACT → `AGENTS/SAM/MOF_INTERVENTION_PLAYBOOK.md`** — persists this session's S1 (MOF escalation ladder T0–T3 × USD/JPY zone; strike history; **speed/disorder trigger** — velocity not level; FXY-stub behavior by zone; cleanest tell = rate checks + "decisive action"; **stop-vs-payoff whipsaw** — hard 162.5 auto-stop tags at the spike high just before MOF reverses → wants discretionary/mental in the zone) + X1 (carry-vs-PC shared-antecedent: correlated-not-identical, shared root only in disorderly-unwind tail / Aug-5-2024 template, opposite-signed in base case; regime-conditional double-count rule; two decoupling tests).
+
+---
+
 ## 🔴🔴 FOMC JUN 17 RESOLVED — WARSH-CHAIRED HOLD, MEDIAN 2026 DOT +40bp (3.4 → 3.8) → Pillar-1 RE-WIDENING
 
 **Wed Jun 17 (2pm ET) — debut FOMC under Chair WARSH (since May 22; this fact sat un-modeled in SAM's docs for ~4wk — see auto-memory note logged Jun 18).** Held 3.50-3.75% **unanimous 12-0** (Miran + 3 April dissenters dropped because the easing language was removed). Statement gutted ~300 → ~130 words: removed "extent and timing of additional adjustments," removed balance-of-risks language, removed forward easing bias; added Middle East uncertainty, supply-shock inflation framing, "The Committee will deliver price stability." No FX / financial-conditions / coordination language.
