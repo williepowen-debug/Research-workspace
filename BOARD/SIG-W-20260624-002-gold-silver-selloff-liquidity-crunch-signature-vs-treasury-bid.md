@@ -46,6 +46,15 @@ The metals scramble is the market-wide version of the redemption-queue pressure 
 ### → RED (INFO, cluster_mediating auto-cc)
 Steelman: bear = "gold-down-with-stocks = the classic liquidity-crunch tell, and it's corroborated by PC gates + equity breakdown same day"; bull-counter = "crowded-metals-trade unwind; funding plumbing is calm (SOFR-IORB ample); a sarcastic X post is not a funding-stress source." The TLT bid is the datum that tips it away from a benign yields-up story toward genuine de-risking — but de-risking ≠ crisis until funding tightens.
 
+## Addendum (folded 2026-06-25 — EndGame Macro causal decomposition + China margin-hike trigger; NOT a re-dispatch)
+
+A later Will-Telegram item (EndGame Macro @onechanc… quoting Bull Theory, 6/24) elaborates the same metals selloff and adds the **mechanism that tilts this toward a positioning washout over a systemic funding crunch**:
+- **China RAISED gold + silver margin requirements** → forced leveraged longs out — the specific forced-deleveraging trigger behind the −7% silver day. A margin-driven liquidation with an identifiable cause, not (yet) a funding-plumbing crunch → **partially answers this signal's open question in the positioning-washout direction.**
+- **War-premium unwind:** the US-Iran MOU + sanctions waiver + partial Hormuz reopening are removing the immediate geopolitical inflation premium → the commodity panic bid is coming out (ties to the IRAN_WAR anchor's constructive-tilt). But "not a clean peace trade" — fragile 60-day armistice, reversible concessions; lagged supply shock still in inventories/shipping/fertilizer/industrial costs underneath.
+- **Net (EndGame framing):** metals falling not because safe-havens stopped mattering, but because the immediate fear trade is being liquidated (China margin + firm dollar + hawkish Fed + forced deleveraging) WHILE delayed real-economy damage still prices underneath. Bull Theory tally: gold −3.87% / ~$1.1T wiped over ~30 hours.
+- **Read for LIQUID:** the China-margin trigger lowers (not eliminates) the "systemic liquidity crunch" reading — still confirm funding internals (SOFR-IORB / CP-TBill) before banking either.
+
 ## Sources
 - JustDario (@DarioCpx, X), 6/24/2026 (sentiment/commentary).
+- EndGame Macro (@onechanc…) quoting Bull Theory (@BullTheoryio), 6/24/2026 (causal decomposition + China gold/silver margin-hike; folded 6/25).
 - WALTER fetch.py live pull 6/24: GLD $365.92 −3.02%, SLV $51.78 −7.09%, TLT $87.38 +1.37%, UUP $28.53 +0.28%, HYG $79.85 ~flat, BIZD $12.21 −0.73%.
