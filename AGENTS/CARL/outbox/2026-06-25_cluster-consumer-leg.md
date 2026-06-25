@@ -36,6 +36,14 @@
 > - **BOTH move** (monoline lead + regional consumer-secured confirm) → consumer substance is reaching the regional terminus = transmission.
 > - **Monoline-only** → masking still holds; consumer substance still trapped in ABS subordinate tranches (EART Class E breached) + monolines, NOT yet at the regional terminus. This is the current base case.
 
+## Timing axis — reconciliation with CORAL's DEWEY chain (added 6/25)
+
+CORAL's chain (cost-shock-now → ~12mo lag → 30-89 past-dues H2-2026 → charge-offs concentrated 2027) **aligns with my two-window structure: CRL-21 (Q3'26 leading-edge) → CRL-20 (Q1'27 crystallization).**
+
+**VERDICT: the lag HOLDS to 2027 — it does NOT compress.** The dominant force on bank-book recognition is **extend-and-pretend / mod-accounting**, which is *actively deferring* charge-offs (Trepp CMBS-MF mod regime; Fannie -14bps via extension not resolution; Rithm mod-smoothing 12-24mo). That stretches the lag if anything. Two corroborating reasons not to compress: (1) **savings just stabilized at 3.0%** (Apr revised up from 2.6%) — the acute-squeeze acceleration paused; (2) **current roll rates are decelerating, not accelerating** — Q1 NY-Fed showed the student 30-89→90+ transition DROP (16.2%→10.9%) and CC early-DQ transitions tick DOWN (8.7→8.6%). The 30-89 *stock* flickering now (CORAL's H2-2026) is the **expected leading edge — it's already in the baseline and does NOT pull charge-offs earlier.**
+
+**THE SINGLE TELL that compresses it (stock vs FLOW):** a Q2 reversal **up** in the **30-89→90+ roll / transition rate (cure rate falling)** + **SPECIFIC** (not general) reserve build on consumer/CRE books. Stock rising = on-schedule; the *roll rate* accelerating = borrowers rolling straight through to nonaccrual = extend-and-pretend breaking = the 2027 charge-off wave pulling into late-2026. Watch it in: monoline Q2 NCO breaking above guide with **ACL coverage FALLING** (SYF/COF/ALLY ~mid-Jul), then NY-Fed Q2 HHDC transition rates (~mid-Aug). Until the roll rate turns up, hold the axis at Q1'27.
+
 ## What I need from the other two legs
 - **CORAL:** FL-bank HELOC/residential exposure %s, so we reconcile the housing-secured-consumer overlap to ONE number per bank (my consumer leg vs your housing leg — same collateral, don't double-count).
 - **REGINALD:** confirm which set-banks carry material consumer books in your 8-channel loan-mix scoring, so I can replace my franchise-knowledge ranking with actual Q1-10-Q composition. CFG is the only name I'd score as a *genuinely separate* consumer path-to-break; the rest fold into the housing leg.
