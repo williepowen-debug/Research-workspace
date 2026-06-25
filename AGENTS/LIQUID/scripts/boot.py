@@ -93,7 +93,8 @@ def build_credit():
         elif bps < 270: m, n = "🟡", "PRE-TRIGGER (<270): re-read positions, check duration channel"
         elif bps > 320: m, n = "🔴", "CONFIRMATION (>320) — credit transmission; escalate ALL"
         elif bps > 300: m, n = "🟠", "approaching 320 confirmation"
-        else:           m, n = "🟢", f"cushion {bps - 260:.0f}bps to 260 kill / {320 - bps:.0f}bps to 320 confirm"
+        elif bps > 280: m, n = "🟠", "X1 DECOUPLING (>280) — LIQUID half of PC-decoupling trigger; pair w/ wrapper-leading (BROCK)"
+        else:           m, n = "🟢", f"cushion {bps - 260:.0f}bps to 260 kill / {280 - bps:.0f}bps to 280 X1-trigger / {320 - bps:.0f}bps to 320 confirm"
         add("CREDIT", "HY OAS", f"{bps:.0f}bps", m, n, d, trend_str(tr, 100, 0), headline=True)
 
     # CCC OAS — >1000 trip
@@ -211,7 +212,7 @@ def build_domestic():
 
 PRICE_SPECS = [
     # ticker, dashboard, label, check(price) -> (marker, note)
-    ("APO",  "CREDIT",  "APO",     lambda p: ("🟡", "co-trigger satisfied (>$130) — NOT Trigger C absent HY compression") if p > 130 else ("🟢", "below $130 co-trigger")),
+    ("APO",  "CREDIT",  "APO",     lambda p: ("🟡", "co-trigger satisfied (>$130) — NOT Trigger C absent HY compression") if p > 130 else ("🟠", "BROKE <$130 — alts-crack DEEPENING (PC→public transmission); recovery co-trigger moot, NOT all-clear")),
     ("BIZD", "CREDIT",  "BIZD",    lambda p: ("🟡", "above $12.50 mark-stress line") if p > 12.50 else ("🟢", "below $12.50")),
     ("^VIX", "CREDIT",  "VIX",     lambda p: ("🟠", ">25") if p > 25 else (("🟡", "elevated >20") if p > 20 else ("🟢", "calm"))),
     ("HYG",  "CREDIT",  "HYG",     lambda p: ("🟢", "(price ref — HY ETF)")),
