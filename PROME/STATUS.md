@@ -1,13 +1,13 @@
 # PROME STATUS.md
-**Updated:** 2026-06-21 19:40 ET (OpenClaw Prome — post REITS/TRADES archive + ORACLE/TERRY tooling push)
+**Updated:** 2026-06-25 ~13:10 ET (Claude Code Prome — Desktop CC; do-now batch + regime refresh + agent closeout)
 
 ## Core State
 
-**Operational priority:** System cleanup lane completed for CREED/REITS/TRADES/TERRY/ORACLE. Future sessions should boot from the new ownership truth: CREED owns REIT equity tape, TERRY supersedes TRADES, ORACLE owns prediction-market diagnostics, and no auto-trading is allowed.
+**Operational priority:** 6/25 Desktop-CC session ran a do-now batch (SAM/BROCK/HENRY/LIQUID, teams-mode) → full write-back → regime-surface refresh → agent closeout. Boot from the current regime via `PROME/SCRATCH.md` + `PROME/synthesis/2026-06-25_donow_reconciliation.md`. Prior ownership truth still holds: CREED owns REIT equity tape, TERRY supersedes TRADES, ORACLE owns prediction-market diagnostics; no auto-trading.
 
-**Current repo reality:** ORACLE/TERRY/CREED cleanup commits were rebased over newer WALTER/SAM remote work and pushed cleanly. Pre-closeout state was clean/synced with origin.
+**Current repo reality:** Clean tree; this session's work committed locally (full 9-commit ledger in `PROME/SCRATCH.md`). Pushing stays Will-coordinated.
 
-**Market priority:** unchanged from `HEARTBEAT.md`: signed-but-fraying MOU; Hormuz re-closure declared; official/declaratory/contested, not yet kinetic. Energy tail is re-fat, broad cascade still unconfirmed. Refresh dashboard/FRED before citing fresh levels.
+**Market priority:** per `HEARTBEAT.md` (6/25): energy tail **DEFLATED** (Brent ~$74, Hormuz resolved non-kinetic; Cushing sub-20M → BRENT Boundary #3); credit-bear **PAUSED** above the <260 kill (HY 271); bank-vs-PC divergence is **MACRO, not credit-substance**. Live bear-root watch = wrapper-leading + HY OAS >280 (both unfired). Refresh dashboard/FRED before citing levels.
 
 **Standing constraint:** no agent domain edits unless scoped by Will. No trade execution. Pushing should stay Will-coordinated.
 
