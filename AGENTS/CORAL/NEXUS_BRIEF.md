@@ -3,7 +3,8 @@
 **Status:** 🟠 ELEVATED — FL household/condo stress real; bank-loss transmission not yet in Q1 prints
 **Domain:** Whole-Florida stress surface — condo/SF/CRE real estate, insurance, FL banks, migration/tourism, state fiscal/property-tax, labor/construction, coastal/climate
 **Thesis version:** Coral Bleaching v1.0 — installed rails at `thesis/THESIS.md`; changelog `thesis/CHANGELOG.md`
-**As of:** 2026-06-20 14:00 ET | STATUS commit: thesis-rails install pending
+**As of:** 2026-06-25 16:30 ET | STATUS commit: cluster Pass-1 (DEWEY timing + FL-bank leg grid), local-only pending push
+**Cluster:** FL regional-bank CRE/condo leg of the transmission-terminus cluster (REGINALD hub, CARL consumer). Leg grid → `CLUSTER_FL_BANK_LEG.md`.
 
 ---
 
@@ -34,7 +35,7 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
-| REGINALD | FL bank leg not yet confirming despite household/condo stress; Q2 re-test should focus synchronized criticized/classified → NCO/reserve migration across SSB/SBCF/VLY/AMTB/USCB | 🟠 | Feeds regional-bank convergence matrix; prevents premature FL-bank loss assumption |
+| REGINALD | **FL-bank leg grid → `CLUSTER_FL_BANK_LEG.md`.** Timing: early-delinquency H2-2026 (flickering: SBCF 30-89d $17.2M→$28.2M, AMTB NPA→1.93%), synchronized NCO a **2027** event; Q2 predicted = continued migration, not crystallized loss. Diagnostic NOT met Q1. ⚠️ AMTB attribution: $24.6M/76%-cov/CET1-12.2% block = **BKU not AMTB** (don't propagate) | 🔴 | Feeds regional-bank convergence matrix; gives the bank-landing timing + prevents misattribution |
 | MARCO | Demand-engine failure is FL-localized: migration −93%, Canadian snowbird weakness, SW-FL stress stacking | 🟠 | Population-flow thesis; reconcile tourism/migration/condo inventory values |
 | CARL | Special assessments + commercial/condo insurance/property-tax burden are household cash-flow drains; bankruptcy filings +22.2% YoY are a consumer canary | 🟠 | Consumer DQ / cash-flow squeeze channel, especially FL households |
 | NEXUS | Geography-level convergence is CORAL’s edge: same metros can carry condo, SF, migration, tourism, bank, and climate stress together | 🟠 | Cross-agent synthesis of geographic concentration rather than siloed channels |

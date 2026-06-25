@@ -1,8 +1,18 @@
 # CORAL — Florida Real Estate Stress Monitor
 ## Comprehensive Florida Agent | 10 pillars (real estate · insurance · banks · migration · tourism · fiscal · labor · climate)
 
-**Last Updated:** 2026-06-20 ET (WALTER inbox integration + thesis rails installed. Thesis → `thesis/THESIS.md`; changelog → `thesis/CHANGELOG.md`; pillar map → `COVERAGE.md`; sweep detail → `research/SWEEP_2026-06-19.md`; banks → `FL_BANK_WATCHLIST.md`)
+**Last Updated:** 2026-06-25 ET (transmission-terminus cluster Pass-1 — DEWEY Phase-3 timing packet ingested; FL-bank leg grid → `CLUSTER_FL_BANK_LEG.md`. Prior: 2026-06-20 WALTER inbox + thesis rails. Thesis → `thesis/THESIS.md`; changelog → `thesis/CHANGELOG.md`; pillar map → `COVERAGE.md`; banks → `FL_BANK_WATCHLIST.md`)
 **Signal Status:** 🟠 ELEVATED — **slow broad demand-normalization, not an acute crash; THESIS SPLIT holds.** Retail/condo + single-family distress REAL (FL #1 foreclosure; condo −6.1% YoY/92% of mkts; SW-FL SF correction; ~18-20% of 2024-vintage financed buyers underwater; bankruptcy filings accelerating; demand engine — migration AND Canadian snowbirds — failing on both fronts). BUT two counter-currents keep it 🟠 not 🔴: (1) **insurance is SPLIT** — personal/reinsurance easing, but commercial/condo-association layer still rising; (2) **bank transmission NOT in Q1 2026 prints** + CRE distress is condo/residential-specific (Miami office tightest in US). Acute bank stress pushed to ~winter 2026-27 (converges with MARCO). **Biggest forward variable: Nov-3-2026 property-tax amendment** (two-sided).
+
+---
+
+## 6/25 — LOSS-TRANSMISSION TIMING (DEWEY Phase-3, cluster Pass-1) — READ FIRST
+
+**FL-bank leg of the transmission-terminus cluster → `CLUSTER_FL_BANK_LEG.md`** (grid for REGINALD). Source = DEWEY deep-research SIG-W-20260622-001: **research-output, NOT verified-primary** (EDGAR 403'd; bank financials institutional-mirror — weight mechanism/direction, treat exact timing + bank attribution as inferred).
+
+**The timing answer:** cost shock landing **now** (Citizens commercial/condo-master +10.4% + SB-4-D assessments) + **~12mo** insurance→delinquency lag → **30-89d past-dues a H2-2026 event, already flickering** (SBCF early-delinq $17.2M→$28.2M YoY; AMTB NPA 1.38%→1.93% of assets) + **~2-4Q** delinquency→NCO ⇒ **charge-offs concentrated 2027.** My ~winter-26/27 *acute* call is **defensible for the charge-off stage, slightly conservative on the leading edge.** **Blended index masks the tail** — Miami-Dade condo sub-segment (~13mo supply, ~−10% price, master-policy + SB-4-D shock) is the live vector and *leads* bank losses ~12mo. The April price-easing (ResiClub, SIG-011) is **not** contradictory: the freeze/lock-in IS the 🟠 containment; tips 🔴 only if assessment-default + negative-equity forced-sales override the lock-in. **Cross-bank diagnostic NOT met at Q1, predicted still-not-met at Q2** (~late Jul): continued early-bucket migration, not synchronized realized NCO. Two-sided ~70% normalize / ~30% sooner.
+
+**⚠️ Insurance walk-back:** the **+18.8% uncapped** commercial indication (SIG-008) could NOT be re-confirmed (unparseable OIR PDF); only **+10.4% capped** holds. Split-mark intact; lean on +10.4%, drop reliance on +18.8%.
 
 ---
 
@@ -42,7 +52,7 @@ Durable mechanism, confirm/falsify rails, timing gates, and ownership rules now 
 | Termination / receivership test | *Biscayne 21* active litigation (183/192 units developer-owned) | Real Deal / Bisnow, 2026 | 🟡 watch |
 | FL property-cat reinsurance (6/1/26) | **−15-20% risk-adjusted** across many layers | Guy Carpenter, Jun 2026 | 🟢 EASING |
 | Citizens personal lines | **294,253 policies (May 15 2026, −64% YoY)**; personal rate cut approved ~8.7-8.8% eff 6/1/26 | Insurance Business / WUSF 2026 | 🟢 EASING |
-| Citizens commercial / condo-assoc layer | **Commercial Lines +10.4% capped vs +18.8% uncapped indication**; commercial multi-peril +9.6% capped / +21.3% uncapped, wind-only +10.9% / +17.2% | Citizens 2026 filing via WALTER SIG-008, delivered Jun 19 2026 | 🟠 COST AMPLIFIER |
+| Citizens commercial / condo-assoc layer | **Commercial Lines +10.4% capped** ("below actuarially sound"); ⚠️ the **+18.8% uncapped** indication could NOT be re-confirmed (DEWEY 6/22, unparseable OIR PDF) — **lean on +10.4% capped, drop reliance on +18.8%.** Personal lines −2.6% / depop to ~385K (from ~1.42M Oct-23 peak) = the easing side | Citizens 2026 filing via WALTER SIG-008 (Jun 19); +18.8% walk-back via DEWEY SIG-W-20260622-001 (Jun 22) | 🟠 COST AMPLIFIER (diverging worse vs personal) |
 | Recent-vintage negative equity | **~18-20% of 2024-vintage financed FL buyers underwater**; 84%+ of underwater loans originated in last ~3.5 yrs; Cape Coral #1 nationally (7.8%→10.1%) | Parcl/Lewris + Cotality corroboration via WALTER SIG-002, Jun 19 2026 | 🟠 UPSTREAM COLLATERAL |
 | Bankruptcy filings | **M.D. Fla #2 / S.D. Fla #6 by volume** (12mo ended 3/31/26), true but population-weighted; FL ~190/100k vs national ~168-173; **+22.2% YoY acceleration**, consumer-led | AOUSC F-2 packet via WALTER SIG-008, Jun 19 2026 | 🟠 CONSUMER CANARY |
 | 2026 hurricane forecast | CSU **14 named / 7 hurr / 3 major** (~avg); NOAA leans below-avg; quiet so far | CSU Apr 2026 / NOAA | 🟡 |
@@ -85,7 +95,7 @@ The dashboard above is pillars 1/3/5/10 (condo, insurance, climate). The rest of
 
 ## OPEN QUESTIONS / NEXT SESSION
 
-1. **Q2 2026 FL bank earnings (~late Jul)** — does the classified-CRE "rate-shock reclass" start migrating to nonaccrual/charge-off, or keep curing? This is the bank-leg re-test. Watch SSB classified trend + SBCF's 2 commercial credits.
+1. **Q2 2026 FL bank earnings (~late Jul)** — does the classified-CRE "rate-shock reclass" start migrating to nonaccrual/charge-off, or keep curing? This is the bank-leg re-test. **DEWEY timing (6/22):** Q2 should show **continued early-bucket migration, not crystallized loss** — the leading-edge 30-89d is the tell (SBCF $17.2M→$28.2M; AMTB NPA→1.93%), realized synchronized NCO is a 2027 event. **Single diagnostic = synchronized criticized/classified→realized NCO + specific reserve build across ≥2 FL banks** (none yet; AMTB+SBCF early-bucket migration is the closest precursor, but AMTB's driver is CRE-HFS/C&I not condo). Watch SSB classified trend, SBCF 30-89d + 2 commercial credits, AMTB ACL build off thin ~45% coverage, USCB's $126M condo-assoc book for the first crack. Full grid → `CLUSTER_FL_BANK_LEG.md`.
 2. **Reconcile owner of the condo-inventory metric with MARCO** — both agents now carry 8.9mo/Miami-Dade 12.9mo (identical, good). Establish MARCO as the live owner; CORAL references. (Boundary handshake — see CLAUDE.md.)
 3. ✅ **Insurance tension RESOLVED** — personal/reinsurance channel is easing (Citizens 294,253 policies; personal rate cut; reinsurance −15-20%), but condo/commercial layer is still rising (Citizens Commercial Lines +10.4% capped / +18.8% uncapped). Monitor hurricane reversal + condo master-policy stress.
 4. **Bankruptcy tripwire** — track Ch.7 per-capita in M.D./S.D. Fla; >~230/100k would move the bankruptcy channel from canary to broader consumer stress.
