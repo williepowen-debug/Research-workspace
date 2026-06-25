@@ -20,7 +20,11 @@
 - Updated `FL_BANK_WATCHLIST.md`: SBCF → ELEVATED (30-89d flicker + 224% non-OO RBC), AMTB NPA-of-assets + thin-coverage framing, BKU-attribution note, insurance walk-back, headline.
 - Added `KB.tsv` ML-CORAL-024 (timing finding, DEWEY-grade research-not-verified-primary).
 - Refreshed `NEXUS_BRIEF.md` As-of + SENDING/VIEW for the timing read.
-- Reported to Prome (`main`) via SendMessage.
+- Reported to Prome (`team-lead`) via SendMessage.
+
+**Follow-on passes (same session, cluster iteration):**
+- **Housing-secured reconciliation** (CARL overlap): spawned sub-agent → **VERIFIED Q1'26 resi 1-4 family %loans** (AMTB 25.6 / SBCF 25.0 / BKU 24.7 / USCB 15.5 / VLY 11.5; HELOC only VLY 1.4% discrete). 3-way partition: net resi 1-4 fam ONCE (shared w/ CARL), CRE/condo CORAL-only, pure-HELOC negligible. → `CLUSTER_FL_BANK_LEG.md` + KB ML-CORAL-025. Commit 245cfc52.
+- **FINAL FL FILL** (completes master grid): spawned sub-agent → **VERIFIED 10-Q XBRL 30-89d aging**. Key refinement of DEWEY: SBCF $28.2M +65% YoY but **−14% QoQ off Q4 peak** (sharper signal = nonaccrual $72→95M); AMTB $88.6M lumpy commercial-timing (suspect); USCB +43% YoY tiny-base; BKU ex-gov benign. Cleanest ≥2-bank synced = USCB+SBCF YoY, NOT NCO → diagnostic still NOT met. SSB/VLY = $0/not-isolable (defer to REGINALD fleet). Condo/SIRS = **2027 not Q2**. → `CLUSTER_FL_BANK_LEG.md` "FINAL FL FILL" + KB ML-CORAL-026 + watchlist SBCF QoQ-correction. Commit ee8c195e.
 
 ## NEXT SESSION
 
@@ -40,5 +44,5 @@
 
 - `inbox/WALTER/`: **0 pending**; processed SIG-W-20260622-001, -011, -013 into `inbox/WALTER/processed/`.
 - Legacy `inbox/`: 1 stale REGINALD BayFirst SBA signal (2026-03-04, not processed; outside scope).
-- `outbox/`: none — cluster handoff is via `CLUSTER_FL_BANK_LEG.md` + SendMessage to `main` (not outbox).
-- **Pending push:** all commits local-only (Will-coordinated push). Note for next push window.
+- `outbox/`: none — cluster handoff is via `CLUSTER_FL_BANK_LEG.md` + SendMessage to `team-lead` (not outbox).
+- **Pending push:** all commits local-only (Will-coordinated push). **3 commits this session:** 1d371108 (Pass-1 leg grid + DEWEY timing), 245cfc52 (housing-secured reconcile), ee8c195e (FINAL FL fill). Note for next push window.
