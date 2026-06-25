@@ -3,7 +3,9 @@
 
 **Previous:** 2026-06-15 PM (Opus catch-up + Phase-3 split, preserved in git).
 **Forward-state (migrated 6/15):** dated catalysts → `docket/CATALYSTS.tsv`; FOLLOW-UP tiers + watch order + SESSION LOG + CHANGES-SINCE → `SCRATCH.md`; cross-agent view → `NEXUS_BRIEF.md`.
-**Session memos:** `domain/sources/OTF_Q1_READ_JUN04.md`, `domain/sources/BCRED_OCIC_Q1_READ_JUN04.md`. **Recent outbox:** `outbox/2026-06-04_to-OTTO_medallia-cross-fund-exposure.md` (🔴).
+**Session memos:** `domain/sources/MACRO_VS_CREDIT_DISCRIMINATOR_JUN25.md` (newest), `domain/sources/OTF_Q1_READ_JUN04.md`, `domain/sources/BCRED_OCIC_Q1_READ_JUN04.md`. **Recent outbox:** `outbox/2026-06-04_to-OTTO_medallia-cross-fund-exposure.md` (🔴).
+
+> **⚡ 6/25 POINTER (LIVE TAPE below is 6/18, stale):** alts sold off 6/20→6/25 — **APO $122.21 (−11%, BREACHED $130), ARES $113.37, BX $115.70** — while WRAPPERS held flat (ARCC $18.01, FSK $10.10, OBDC $10.72) and KRE rallied. Read: **leaning MACRO (manager multiple-compression on firm PCE / hawkish dots), NOT credit-substance recognition.** HY OAS 271 [6/23] widened AWAY from <260 kill. **APO Dec $95P recovered ~10–12× → mid ~$3.35** (176 DTE, 22.3% OTM; LIVE MARK / pending broker recon, NOT booked P&L); $130 breach re-arms the put, no forced action. Full discriminator/watch-set/X1 → the 6/25 memo; forward-state → `SCRATCH.md`.
 
 ---
 
