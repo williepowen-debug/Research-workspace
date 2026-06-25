@@ -77,4 +77,30 @@ The base-case opposite-sign relationship (higher-for-longer = carry MORE on, but
 
 ---
 
+## LIVE PLACEMENT LOG (most-recent first)
+
+### 2026-06-25 — S1 ladder: **T2-verbal but PRE-T1 operationally**
+Scan since ~6/19 (WebSearch):
+- **Jawboning elevated:** yen slid past 161, near a 40-yr low ("reviving intervention bets," CNBC 6/19). FinMin **Katayama (G7): Japan "prepared to take decisive action on speculative moves"** — T3 *vocabulary*, but the **standing recurring line → tape-not-signal**, not a fresh disorder-triggered escalation.
+- **T1 RATE CHECKS = ABSENT** (the cleanest pre-strike tell). Experts call prior intervention "largely ineffective" vs structural US-yield drivers.
+- Tape = **slow grind** (161.65, +0.03% on 6/25) → speed/disorder trigger NOT met.
+- **Net: elevated jawboning, intervention NOT imminent. Step-change to watch = a *rate-check* headline.**
+
+**BOJ SoO 6/24 (hawkish-of-priced, mild tail support):** broad hike support; oil-passthrough spreading beyond petroleum; **~90% see another hike by Dec, >⅓ October**; one member cited neutral-rate ~2% urging faster (~every few months); taper-reduction halt confirmed from Apr-2027 (one fiscal-financing-optics dissent). JGB 10Y ~2.67%. Himino: keep hiking, watch >2% underlying. → mildly supports *holding* the FXY convexity stub (hawkish-of-priced BOJ is one tail route).
+
+### CFTC COT — read framework (set 2026-06-25)
+- **Date discipline:** the **Jun-16-data COT printed Mon 6/22** (Juneteenth-delayed) → **−150,132 / 83.4% of the −180K cycle peak** (the v1.6 EV-gate). **Fri 6/26 release = data as of Tue 6/23** — first *post-BOJ-hike + post-FOMC* read; do not re-label it Jun-16. COT is Tue-data, ~3-day lagged (misses Wed-Fri).
+- **Read vs the −150,132 baseline:**
+  - **Build past −153K (>85% of peak):** amplifier escalates +5pp → +8-10pp; carry-convexity tail **STRENGTHENS** (shorts re-engaging into weakness = near-term bearish-yen confirm, tail-bullish).
+  - **Within-band −145K to −152K:** benign continuation, no re-mark; amplifier stays +5pp ON.
+  - **Cover toward <−140K and falling:** unwind fuel **de-loads** → tail **WEAKENS**.
+  - **Cover <−108K:** pre-registered **retire-to-LOW** gate.
+- **On print: verify vs CFTC primary (deafut.txt), not an aggregator headline** (provenance-asymmetry discipline).
+
+**FXY:** recommendation unchanged — still pending Will's broker truth (trim fill Y/N, fill price, stop implementation); slow grind = stop not under acute threat today.
+
+*Sources: CNBC 6/19 (yen past 161); CNBC 5/7 + Japan Times 5/9 (Katayama/intervention); investingLive 6/23-24 + Bloomberg 6/24 + FXStreet (BOJ SoO).*
+
+---
+
 *Method doc — not a live mark. Live intervention probability (SAM-23) and USD/JPY levels are in STATUS.md.*
