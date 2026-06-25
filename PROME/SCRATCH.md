@@ -14,16 +14,15 @@
 
 ## Current Git State
 
-- Local master at **`2ee22af4`, +6 / origin, NOT pushed.** Push is Will-coordinated.
+- **PUSHED 2026-06-25.** Local + origin master both at **`8201df84`** — `HEAD...origin/master = 0/0`, fully synced. Includes the 4 curated-landing commits + reconcile-yeyou's 2 + SCRATCH/HANDOFF refresh + auto-mem finding.
 - Working tree clean. Staging worktree + branch removed.
-- Remote branches `origin/prome/pending-flush-2026-06-25` and `origin/prome/reconcile-yeyou-2026-06-25` still exist — delete on origin **after** the push (reconcile-yeyou fully merged; pending-flush salvaged+superseded).
+- Remote branches `origin/prome/pending-flush-2026-06-25` and `origin/prome/reconcile-yeyou-2026-06-25` **DELETED** on origin (both resolved: reconcile-yeyou fully merged; pending-flush salvaged+superseded).
 
 ## Open Follow-ups
 
-1. **Coordinated push** of the +6 local commits to origin (Will window).
-2. **Remote branch cleanup** post-push (the two `prome/*` branches above).
-3. **HANS dedup:** `AGENTS/HANS/archive/STATUS_PRE_REVIVAL_2026-06-22.md` duplicates master's `workbook/STATUS_archive_20260430.md` (same Apr-30 content, two paths) — HANS to reconcile to one. Kept so HANS `CLAUDE.md`/`REVIVAL_PLAN` refs resolve.
-4. **HANS workbook hygiene** (old Jun-22 SCRATCH's "Batch D"): **moot for the branch versions** — master carries the newer Jun-22 PM workbook (ML 16 rows incl. Qatar/Lebanon/Jul-4). Any further HANS workbook work is HANS-owned against master's current state, not the salvaged branch. `SOVEREIGN_LDI_MONITOR_2026-06.md` is now present (was in the salvage set).
+1. ✅ **DONE 2026-06-25** — push (origin at `8201df84`) + deletion of both resolved `prome/*` origin branches.
+2. **HANS dedup:** `AGENTS/HANS/archive/STATUS_PRE_REVIVAL_2026-06-22.md` duplicates master's `workbook/STATUS_archive_20260430.md` (same Apr-30 content, two paths) — HANS to reconcile to one. Kept so HANS `CLAUDE.md`/`REVIVAL_PLAN` refs resolve.
+3. **HANS workbook hygiene** (old Jun-22 SCRATCH's "Batch D"): **moot for the branch versions** — master carries the newer Jun-22 PM workbook (ML 16 rows incl. Qatar/Lebanon/Jul-4). Any further HANS workbook work is HANS-owned against master's current state, not the salvaged branch. `SOVEREIGN_LDI_MONITOR_2026-06.md` is now present (was in the salvage set).
 
 ## Cautions
 
