@@ -16,6 +16,10 @@
 **Mistake pattern:** The "FL condo inventory >9 months = distress" threshold breached in Mar 2026 (9.1mo) then reverted to 8.9mo in April — sales rose, inventory tightened. Treating the single-month breach as confirmation of an accelerating cascade would have been wrong.
 **Rule:** Separate the durable *mechanism* (SIRS reserve gap, assessment cascade, receivership pipeline — structural) from the monthly *thermometer* (inventory months, DOM — noisy, mean-reverting). State which one moved. A one-month threshold tag is not a trend.
 
+### [Analysis] — A Falling Early-Delinquency Bucket Can Be Up-Migration, Not Cooling
+**Mistake pattern (caught in self-steelman, 2026-06-25):** I read SBCF's 30-89d past-due −14% QoQ as "cooling / benign" and led with it — while the *same* print showed nonaccrual +32% QoQ ($72→95M) and the 60-89 sub-bucket up ~10×. By the OCC bucket-migration model (loans migrate UP: 30-89 → 90+ → nonaccrual), a *falling* early bucket with a *rising* late bucket is the cascade **steepening** (loans rolling forward), not curing. Leading with the early-bucket headline inverts the signal.
+**Rule:** Never grade a delinquency trend off one bucket. Read the **whole aging ladder QoQ** (30-59 / 60-89 / 90+ / nonaccrual) together. A falling early bucket is only "cooling" if the later buckets are ALSO flat/down; if nonaccrual or 60-89 is rising, it's up-migration — flag it as the cascade advancing. The sharpest fresh-quarter signal usually sits in nonaccrual, not the headline 30-89.
+
 ### [Analysis] — FL Stress Is Timing-Delayed, Not Absent
 **Mistake pattern:** Framing the FL cascade as acute/imminent when the transmission is slow. The snowbird-$ hole and assessment-default wave land on a winter-2026-27 timeline, not Q2-Q3 2026.
 **Rule:** Date the *expected landing* of each FL channel explicitly. Don't upgrade to acute on a structural-but-slow signal. "Real but delayed" is the honest call.
