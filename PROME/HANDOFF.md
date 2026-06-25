@@ -6,6 +6,20 @@
 
 ---
 
+## 2026-06-25 ~12:20 ET — Desktop-CC session: do-now batch + full write-back
+
+**Status:** Operating from **Desktop Claude Code** (OpenClaw/Codex degraded). Will authorized teammate-mode spawns. Ran a report-only do-now batch → follow-ups → Will-approved sequenced write-back. Committed **local, unpushed** (defer to Will push window): **BROCK `e11daae4`**, **SAM `8e6f4350`**, + a Prome synthesis/SCRATCH/HANDOFF commit. Local ahead of origin `3d6091a7` by 3.
+
+**What landed:** SAM `MOF_INTERVENTION_PLAYBOOK.md` (intervention ladder + carry/PC X1 + FXY PENDING-broker). BROCK `MACRO_VS_CREDIT_DISCRIMINATOR_JUN25.md` (credit-recognition watch-set + APO Dec $95P live mark, recovered ~10–12×, pending-broker + X1). Prome `synthesis/2026-06-25_donow_reconciliation.md` (regime delta + the X1 reconciliation). **HENRY declined** the relayed write-approval (principled — a coordinator relay ≠ direct Will consent; commit is ask-first); its PCE read is captured in the Prome synthesis instead.
+
+**Key synthesis (X1):** carry-unwind risk and PC-manager multiple-compression are **~1 root on macro/risk-off days — don't double-count**; the single trigger that makes PC an independent bear confirmation is **wrapper basket leads managers down + HY OAS >280** (≡ credit-recognition ≡ decoupling marker). Today reads MACRO. Feed NEXUS; HY>280 is LIQUID's half.
+
+**Regime delta vs 6/21:** energy tail deflated (Brent $74.24, Hormuz non-kinetic), HY 271 back above the <260 kill, Cushing sub-20M fired BRENT Boundary #3, May PCE firm-but-as-priced (real disinflation test = June CPI Jul 14).
+
+**Risks / blockers / open:** (1) FXY broker truth owed by Will → relay to warm SAM. (2) LIQUID reactivation decision (now well-motivated). (3) HEARTBEAT/TODAY/NEXUS still 6/21-stale — refresh pending. (4) HENRY domain update pending direct Will confirm. (5) auto-memory finding worth capturing but MEMORY.md over-limit — prune first. (6) SAM + BROCK left warm.
+
+**Next:** relay FXY broker answer; decide LIQUID; refresh stale regime surfaces; coordinated push of the 3 unpushed commits.
+
 ## 2026-06-25 — Morning sync + curated two-branch reconciliation landed on master
 
 **Status:** Pulled master clean (10-commit FF to `329bb543`), deep-dove and landed a curated reconciliation of two unmerged `prome/*` branches, refreshed Prome state, and **pushed — origin master at `da495926`, fully synced (`0/0`).** Branch list fully swept to **`master`-only (local + origin)**. Working tree clean; staging worktree/branch removed.
