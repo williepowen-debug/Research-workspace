@@ -19,13 +19,13 @@
 - May PCE firm-but-as-priced; real disinflation test = June CPI 7/14.
 
 ## Git State (CLOSEOUT)
-- **8 commits ahead of origin `3d6091a7`, ALL UNPUSHED** (defer to Will push window). Tree clean.
+- **PUSHED 2026-06-25 ~13:15 ET** — origin master at `026e0c47` (10 commits: do-now write-back + regime refresh + agent closeout + STATUS). Local + origin **synced 0/0**, tree clean. (This truth-up swept in the same window.)
   - `e11daae4` BROCK discriminator+APO+X1 · `8e6f4350` SAM MOF playbook+X1 · `3c03818d` PROME synthesis+SCRATCH/HANDOFF · `85395063` PROME HEARTBEAT/TODAY refresh · `4f4448c6` PROME HEARTBEAT intel fix · `5a4569b8` BROCK Q2 catalyst map+ADS · `df1adae5` SAM live-placement log · `9bdf0b10` LIQUID PAUSED verdict+KB-LIQ-062.
   - (+ this SCRATCH/HANDOFF closeout commit.)
 
 ## Open Follow-ups (next session)
 1. **FXY broker truth (Will):** did 13→6 trim fill 6/23? price + count? live stop level/mental? Hold-if-filled / trim-if-not (binding stop USD/JPY 162.5; near-zone hard stop = whipsaw trap). SAM released — respawn or handle next session.
-2. **Coordinated PUSH** of the 8 local commits when Will opens a window.
+2. ✅ **PUSH DONE 2026-06-25** — origin `026e0c47`, synced 0/0.
 3. **CFTC COT Fri 6/26** (data as of 6/23, NOT Jun-16) — read framework in `AGENTS/SAM/MOF_INTERVENTION_PLAYBOOK.md` (vs −150,132 baseline).
 4. **NEXUS refresh** deferred (Will hold) — needs the X1 don't-double-count rule (it double-counts otherwise) + the regime delta.
 5. **HENRY domain update** pending direct-Will-confirm — read preserved in synthesis doc.
