@@ -57,6 +57,14 @@
 
 ---
 
+## July 2026
+
+| Date | Event | Significance | Status |
+|------|-------|--------------|--------|
+| **~late Jul** | **Q2 2026 FL-bank prints (AMTB/SBCF/USCB/BKU/VLY; exact dates TBC)** | **PRE-REGISTERED TRIGGER — grade as-written, do not re-fit.** CONFIRM transmission = ≥2 of {AMTB,SBCF,USCB} show, in the CLEAN resi/CRE-condo book (excl C&I + gov-insured): (i) nonaccrual+90+ rising QoQ AND (ii) reserve build OR positive NCO. Single sharpest tell: **SBCF nonaccrual 3rd consecutive rise >$95M + CRE-non-OO charge-off/reserve build.** FALSIFY (benign→2027) = ≥2 of 3 with 30-89 reverting + nonaccrual flat/down + no FL-RE reserve build. Full spec → `CLUSTER_FL_BANK_LEG.md` pre-registration block. | ⏳ **PRE-REGISTERED** |
+
+---
+
 ## Q3 2026
 
 | Window | Event | Significance | Status |

@@ -130,3 +130,40 @@ Total-bank 30-89d past-due, $000s, read off the SEC EDGAR XBRL aging-detail exhi
 - **CARL:** the consumer-substance read — is FL household-liquidity deterioration (the insurance→CC-delinquency channel DEWEY routed to you) *substance* or *beta*? Your May-PCE / DQ-vintage read is the input that tells me whether the ~12mo lag compresses (pulls FL-bank timing into late-2026) or holds (2027).
 
 *CORAL owns the FL bank-LEVEL read; REGINALD integrates fleet-wide. One number per FL bank — reconcile, don't silo.*
+
+---
+
+## PRE-Q2 ADVERSARIAL SELF-STEELMAN + PRE-REGISTERED TRIGGER (2026-06-25, recorded BEFORE the prints)
+
+**Mandate (Will-approved):** red-team CORAL's own "FL NOT transmitting" read before Q2. Genuine bear, no soft self-critique.
+
+### The bear case against my own benign read — and where it lands hits
+
+My benign read rested on 4 dismissals. **Three are weaker than I framed them.**
+
+1. **SBCF "cooling" is my worst error — it's up-migration, not cooling.** I led with 30-89d **−14% QoQ** as "YoY-elevated, not fresh-accelerating," and buried the real tell: nonaccrual **$72→95M = +32% QoQ**, and CRE-non-OO 60-89 **$0.3→3.0M ≈ 10×**. The OCC bucket-migration model *in DEWEY's own packet* says stress migrates UP (30-89 → 90+/nonaccrual). A **falling 30-89 + rising nonaccrual + rising 60-89 sub-bucket** is the cascade **steepening** — loans rolling forward, not curing. The "cooling" framing inverts the signal. **CONCEDE: the benign SBCF read is wrong-signed on trajectory.**
+2. **USCB "tiny base" dismisses the canary doing exactly what a canary does.** USCB is THE condo-association wire ($126M / 470+ assns). +43% YoY / +243% QoQ in 30-89, CRE/multifamily-driven ($0→$4.6M MF) off prior zero-NCO pristine. The FIRST crack in a leading indicator is ALWAYS off a tiny base — "tiny base" is how you rationalize away the leading edge; MF is condo-adjacent collateral. **CONCEDE: the single most thesis-relevant move, and I downweighted it.**
+3. **AMTB "lumpy commercial timing" is an unverified management-friendly narrative.** $88.6M 30-89 (+389% QoQ), $52M of it commercial 30-59 — my "quarter-end timing" read is plausible but I can't see the credits, and it sits on a bank whose NCO **doubled** (0.22→0.45%), NPA went 1.38→1.93%, ACL covers only ~45% of NPLs (thinnest in the set). If Q2 reprints the same "timing," the story dies; AMTB can break on its own C&I/CRE book regardless of the condo thesis. **PARTIAL CONCEDE: benign AMTB is a bet on an unverified narrative.**
+4. **BKU ex-gov benign — survives.** Gov-insured resi carries no bank credit risk; ex-gov ~$123M flat/−3% YoY is real; NPL −26% YoY, coverage 76% improving. This dismissal holds.
+5. **Lag-length: 2027 could be too slow.** The ~12mo lag is a national single-family *insurance-premium* analog (DEWEY's external-validity caveat). A $50K–$400K SB-4-D assessment is a **sudden lump-sum liquidity shock**, not a gradual premium drift — on an owner already underwater (18-20% of 2024-vintage), strategic default can happen in months. **CONCEDE: the lag could compress; weakest link.**
+
+### Does "not transmitting" survive the attack? — HONEST VERDICT
+
+**YES on the strict definition; NO on my confidence and framing.** The diagnostic is **realized NCO + specific reserve build, synchronized ≥2 banks.** Granting the bear everything — SBCF migrating to nonaccrual, USCB canary cracking, AMTB deteriorating — what exists is **pre-loss migration (early-bucket + nonaccrual), NOT charge-offs and NOT reserve builds.** Nonaccrual is one step from loss but still pre-loss. So "not transmitting AS REALIZED LOSS" survives. **BUT** the bear wins on trajectory: the correct read is not "cooling/benign" — it is **"the pre-loss cascade is migrating UP the buckets; realized loss is not here YET."** That is materially more bearish than my "cooling" verdict.
+
+**I revise my own split from ~70/30 → ~60/40** (normalize-without-bank-loss / transmitting-sooner). The realized-loss anchor is the only thing holding the benign call, and "cooling" was a genuine misread of up-migration.
+
+### PRE-REGISTERED Q2 TRIGGER (flips "not transmitting" → "transmitting")
+
+Recorded BEFORE Q2 prints (~late Jul 2026). **Clean book only — residential 1-4 family OR CRE-condo/non-owner-occupied; EXCLUDE C&I and government-insured.**
+
+**CONFIRM (transmission landing) — ≥2 of {AMTB, SBCF, USCB} each show, in the clean resi/CRE-condo book:**
+- (i) the combined **(nonaccrual + 90+) bucket rising QoQ** (Q1→Q2), AND
+- (ii) **either** a specific **reserve build** (ACL $ up, FL-RE-attributed) **or** a positive **NCO** in that segment (vs ~0 now).
+- Per-bank clean tells: **SBCF** nonaccrual extends above $95M (not reverting to $72M) + CRE-non-OO NCO/ACL build; **USCB** first NCO or classified migration in the CRE/condo-association book (any positive vs zero); **AMTB** the **residential (SFR)** bucket rises + ACL build (deterioration in resi, not just commercial-timing).
+
+**FALSIFY (benign confirmed → push to 2027) — ≥2 of 3 show:** 30-89 reverting toward year-ago **AND** nonaccrual flat/down **AND** no FL-RE reserve build. Per-bank: SBCF nonaccrual reverts toward $72M; USCB back to zero-NCO / sub-$5M 30-89; AMTB commercial 30-89 reverts to ~$18M with resi flat (confirms lumpy-timing was right).
+
+**Single datapoint that most moves me to the bear:** **SBCF Q2 nonaccrual prints a 3rd consecutive rise (>$95M) WITH a CRE-non-OO charge-off or specific reserve build** — up-migration reaching the loss end at the 100%-FL bellwether.
+
+*Pre-registration discipline: this trigger is fixed now; grade Q2 prints against it as-written, do not re-fit. Forward-logged to `workbook/FL_Forward_Log.md` for the ~late-Jul gate.*
