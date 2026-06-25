@@ -1,45 +1,42 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-25 ~12:20 ET (Claude Code Prome — Desktop CC origin; do-now batch + full write-back)
+**Last Updated:** 2026-06-25 ~13:05 ET (Claude Code Prome — Desktop CC origin; do-now batch + write-back + regime refresh + agent closeout COMPLETE)
 
 ## Session Context
-- Operating from **Desktop Claude Code**, not OpenClaw — **Codex/OpenClaw API degraded.** Prome is the live surface this session.
-- Will authorized **teammate-mode agent spawns** this session (confirmed no other agents running). **SAM + BROCK** spawned persistent (still warm/idle); HENRY one-off.
+- Operated from **Desktop Claude Code**, not OpenClaw — **Codex/OpenClaw API degraded.** Prome was the live surface.
+- Will authorized teammate-mode spawns. SAM, BROCK, LIQUID spawned (report-only → closed out → **released/shut down at session end**). HENRY one-off.
 
-## What Just Happened
-- **Boot + live-data refresh:** tree clean, synced at `3d6091a7`. Refreshed dashboard (markets open) — the 6/21 HEARTBEAT/TODAY are now **regime-stale** (see delta below).
-- **Do-now batch (report-only sub-agents):** SAM (FXY position truth-up), BROCK (APO put confirm + PC read), HENRY (May PCE ingest). Follow-ups **B1** (BROCK credit-recognition discriminator), **S1** (SAM MOF intervention playbook), **X1** (independent shared-antecedent test, both agents).
-- **Full write-back (Will-approved), sequenced, committed LOCAL (unpushed):**
-  - **BROCK `e11daae4`** — `domain/sources/MACRO_VS_CREDIT_DISCRIMINATOR_JUN25.md` (B1 watch-set + APO live mark + X1) + SCRATCH/STATUS pointers.
-  - **SAM `8e6f4350`** — `MOF_INTERVENTION_PLAYBOOK.md` (S1 + X1) + STATUS note (FXY PENDING broker recon).
-  - **HENRY — DECLINED** the relayed write-approval (principled: coordinator relay ≠ direct Will consent; commit is ask-first). No HENRY-domain commit; **its PCE read is captured in `PROME/synthesis/2026-06-25_donow_reconciliation.md`** — nothing lost.
-  - **Prome** — `synthesis/2026-06-25_donow_reconciliation.md` + this SCRATCH + HANDOFF.
+## What Happened (full session)
+- **Boot + live-data refresh:** tree clean, synced at `3d6091a7`. The 6/21 HEARTBEAT/TODAY were regime-stale; refreshed off the live tape.
+- **Do-now batch (report-only):** SAM (FXY position), BROCK (APO put + PC read), HENRY (May PCE). Follow-ups B1/S1/X1.
+- **Full write-back → regime refresh → targeted intel pulls → agent closeout batch** — all committed LOCAL, unpushed (8-commit ledger below).
+- **HENRY declined** the relayed write-approval (principled: coordinator relay ≠ direct Will consent); its PCE read lives in the synthesis doc.
 
-## Regime Delta vs 6/21 HEARTBEAT (live tape ~11:09 ET)
-- **Energy tail DEFLATED:** Brent $74.24 (−8%, Jun-20 Hormuz declaration → non-kinetic; HAW-11 expired unfired).
-- **HY OAS 271 [6/23]** — back ABOVE the <260 kill (kill-the-bear scare off; modestly bear-supportive). 6/24 print pending.
-- **Bank-vs-PC divergence but MACRO not credit:** managers (APO/ARES/BX) −11/−13% cumulative while wrappers (ARCC/FSK/OBDC/BIZD) flat, KRE rallied. Today = pause, not acceleration.
-- **Cushing sub-20M → BRENT Boundary #3 fired** (EIA 6/24).
-- **May PCE firm (core 3.4%) but as-priced** — backward-looking; real disinflation test = June CPI Jul 14.
+## Regime Read (current) — see `synthesis/2026-06-25_donow_reconciliation.md` + HEARTBEAT
+- Energy tail **DEFLATED** (Brent $74, Hormuz non-kinetic; Cushing sub-20M → BRENT Boundary #3).
+- Credit-bear **PAUSED** above the <260 kill (HY 271, cushion 11bp; LIQUID: kill dead, bear not).
+- Bank-vs-PC divergence = **MACRO multiple-compression, NOT credit-substance** (wrappers flat, banks rallied). Fresh: Apollo gated ADS at 5% (6/23) — flow not mark.
+- **★ X1 rule (SAM+BROCK+LIQUID, independent):** carry-unwind + PC-compression = ~1 root on macro days — DON'T double-count. Independent PC confirmation gated on **wrapper-leading + HY OAS >280** (both UNFIRED → root single/macro).
+- May PCE firm-but-as-priced; real disinflation test = June CPI 7/14.
 
-## ★ Crown-jewel synthesis (X1 reconciliation) — see synthesis doc
-SAM + BROCK independently converged: **carry-unwind risk and PC-manager compression are ~1 root on macro/risk-off days — DON'T double-count as two bear confirmations.** The ONE trigger that makes PC a genuine independent confirmation = **wrapper basket LEADS managers down + HY OAS >280 sustained** (≡ BROCK's "now it's credit" trigger ≡ the decoupling marker). Today reads MACRO; discount PC+carry co-move ~50%. → Feed NEXUS (it double-counts otherwise). **HY>280 is LIQUID's half — motivates LIQUID reactivation.**
+## Git State (CLOSEOUT)
+- **8 commits ahead of origin `3d6091a7`, ALL UNPUSHED** (defer to Will push window). Tree clean.
+  - `e11daae4` BROCK discriminator+APO+X1 · `8e6f4350` SAM MOF playbook+X1 · `3c03818d` PROME synthesis+SCRATCH/HANDOFF · `85395063` PROME HEARTBEAT/TODAY refresh · `4f4448c6` PROME HEARTBEAT intel fix · `5a4569b8` BROCK Q2 catalyst map+ADS · `df1adae5` SAM live-placement log · `9bdf0b10` LIQUID PAUSED verdict+KB-LIQ-062.
+  - (+ this SCRATCH/HANDOFF closeout commit.)
 
-## Current Git State
-- Local **ahead of origin by 3** (`e11daae4` BROCK, `8e6f4350` SAM, + this Prome commit) on top of origin `3d6091a7`. **All unpushed — defer to Will-coordinated push window.**
-- Working tree clean post-commits. Each agent committed own-dir only, pathspec-scoped.
+## Open Follow-ups (next session)
+1. **FXY broker truth (Will):** did 13→6 trim fill 6/23? price + count? live stop level/mental? Hold-if-filled / trim-if-not (binding stop USD/JPY 162.5; near-zone hard stop = whipsaw trap). SAM released — respawn or handle next session.
+2. **Coordinated PUSH** of the 8 local commits when Will opens a window.
+3. **CFTC COT Fri 6/26** (data as of 6/23, NOT Jun-16) — read framework in `AGENTS/SAM/MOF_INTERVENTION_PLAYBOOK.md` (vs −150,132 baseline).
+4. **NEXUS refresh** deferred (Will hold) — needs the X1 don't-double-count rule (it double-counts otherwise) + the regime delta.
+5. **HENRY domain update** pending direct-Will-confirm — read preserved in synthesis doc.
+6. **Auto-memory finding** (X1 don't-double-count rule) worth capturing — MEMORY.md over-limit (26.7KB vs 24.4KB); prune first (`MEMORY_PRUNE_PLAN_2026-06-14.md`). LIQUID already logged KB-LIQ-062 in its own KB.
+7. **Live bear-root watch:** wrapper-leading + HY>280 (both unfired). Catalysts: ARCC Q2 7/28, NFP 7/3, CPI 7/14, Q2 BDC marks ~7/25.
 
-## Open Follow-ups
-1. **FXY broker truth (Will):** did 13→6 trim fill 6/23? fill price + remaining count? live stop order at what FXY level (or mental)? → relay to warm **SAM** to finalize hold-vs-trim. Near-zone hard stop is a whipsaw trap (S1).
-2. **LIQUID reactivation (Will-decision):** now well-motivated — HY>280 is half the live bear-root trigger.
-3. **Regime-surface refresh PENDING:** HEARTBEAT + TODAY + NEXUS still on 6/21 "energy re-fat / HY-near-kill-from-below" read — now wrong. Refresh once, Prome-owned.
-4. **HENRY domain update** pending direct-Will-confirm (or next HENRY real session) — read preserved in synthesis doc.
-5. **Auto-memory finding** (don't-double-count rule, ratified by independent convergence) worth capturing — but **MEMORY.md over-limit (26.7KB vs 24.4KB); prune first** (see `MEMORY_PRUNE_PLAN_2026-06-14.md`).
-
-## Warm Agents
-- **SAM** + **BROCK** still alive (idle/available) for follow-ups (e.g. B2 late-July Q2 BDC catalyst map). Release at closeout if unused.
+## Agents
+- SAM, BROCK, LIQUID **released (shut down)** at session end after closeout. Respawn as needed next session.
 
 ## Cautions
 - **No push without Will's explicit coordination.**
 - Position truth (FXY fill, APO basis) = **broker/Will**, not these files.
-- HEARTBEAT levels are 6/21 Fri-close-stale; refresh dashboard/FRED before citing as current.
+- HEARTBEAT is now current (6/25) but refresh dashboard/FRED before re-citing levels as live.
 - `git add` only specific own-dir paths; never broad-add.

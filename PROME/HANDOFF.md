@@ -8,7 +8,7 @@
 
 ## 2026-06-25 ~12:20 ET — Desktop-CC session: do-now batch + full write-back
 
-**Status:** Operating from **Desktop Claude Code** (OpenClaw/Codex degraded). Will authorized teammate-mode spawns. Ran a report-only do-now batch → follow-ups → Will-approved sequenced write-back. Committed **local, unpushed** (defer to Will push window): **BROCK `e11daae4`**, **SAM `8e6f4350`**, + a Prome synthesis/SCRATCH/HANDOFF commit. Local ahead of origin `3d6091a7` by 3.
+**Status:** Operating from **Desktop Claude Code** (OpenClaw/Codex degraded). Will authorized teammate-mode spawns. Ran a report-only do-now batch → follow-ups → Will-approved write-back → **regime-surface refresh** (HEARTBEAT/TODAY) → targeted intel pulls → **agent-closeout batch** (SAM/BROCK/LIQUID persisted their intel, then released/shut down). **8 commits local, unpushed** on origin `3d6091a7` (defer to Will push window): BROCK `e11daae4`+`5a4569b8`, SAM `8e6f4350`+`df1adae5`, LIQUID `9bdf0b10`, Prome `3c03818d`+`85395063`+`4f4448c6` (+ this closeout commit).
 
 **What landed:** SAM `MOF_INTERVENTION_PLAYBOOK.md` (intervention ladder + carry/PC X1 + FXY PENDING-broker). BROCK `MACRO_VS_CREDIT_DISCRIMINATOR_JUN25.md` (credit-recognition watch-set + APO Dec $95P live mark, recovered ~10–12×, pending-broker + X1). Prome `synthesis/2026-06-25_donow_reconciliation.md` (regime delta + the X1 reconciliation). **HENRY declined** the relayed write-approval (principled — a coordinator relay ≠ direct Will consent; commit is ask-first); its PCE read is captured in the Prome synthesis instead.
 
@@ -18,7 +18,7 @@
 
 **Risks / blockers / open:** (1) FXY broker truth owed by Will → relay to warm SAM. (2) LIQUID reactivation decision (now well-motivated). (3) HEARTBEAT/TODAY/NEXUS still 6/21-stale — refresh pending. (4) HENRY domain update pending direct Will confirm. (5) auto-memory finding worth capturing but MEMORY.md over-limit — prune first. (6) SAM + BROCK left warm.
 
-**Next:** relay FXY broker answer; decide LIQUID; refresh stale regime surfaces; coordinated push of the 3 unpushed commits.
+**Next:** relay FXY broker answer (SAM released — respawn or handle next session); **coordinated push of the 8 unpushed commits**; CFTC COT 6/26 (data as of 6/23; framework in SAM's MOF playbook); NEXUS refresh still deferred (needs the X1 rule); auto-memory X1 don't-double-count finding + MEMORY.md prune.
 
 ## 2026-06-25 — Morning sync + curated two-branch reconciliation landed on master
 
