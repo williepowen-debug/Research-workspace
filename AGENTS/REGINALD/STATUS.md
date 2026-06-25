@@ -210,7 +210,7 @@ Three life-science CRE distress events across cohorts in 6 months:
 
 | Metric | Threshold | Current | Note |
 |--------|-----------|---------|------|
-| **WAL** | **<$78** | **$78.76** [−1.44%] | 🟡 **Above $78 by only $0.76 (~1%) — closest yet**, fell while cohort rallied. |
+| **WAL** | **<$78** | **$81.48** [6/25, +1.48%] | 🟡 **Rallied ~+3.4% off the 6/22 $78.76 → now ~$3.48 above $78** (cohort green 6/25). Tape NOT signaling the WAL bear; the live near-term expression is the **near-locked Q2 print (REG-25)**, not the tape — see `research/Q2_PREREG_ADVERSARIAL_2026-06-25.md`. |
 | KRE | <$60 | **$71.99** [+0.96%] | 🟡 Above $60 by ~20%. Cohort risk-on. |
 | HY OAS | >320bps | **266bps** [FRED 6/19] | 🟢 54bps buffer. (Backed off to 6bps from the <260 REVIEW trigger — was 3bps; see EXIT RULES.) |
 | Claims | >300K | **226K** [FRED 6/13] | 🟢 Far from trigger. |
