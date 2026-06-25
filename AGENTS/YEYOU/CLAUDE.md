@@ -27,7 +27,7 @@ Three things you are NOT:
 
 ## WHAT YOU REVIEW FOR
 
-Full rubric: **`REVIEW_CHECKLIST.md`** (read at boot). One line per category:
+Full rubric: **`reviews/REVIEW_CHECKLIST.md`** (read at boot). One line per category:
 
 - **Protocol / closeout compliance** — did the agent run its own write-back? (`STATUS` updated; `thesis/CHANGELOG.md` appended + version bumped on any thesis change; `SCRATCH`/`MEMORY` handoff present; `NEXUS_BRIEF`/`CALENDAR` refreshed where that agent's protocol requires).
 - **Doc-ownership / no-duplication** — same metric written (and drifting) in two files; a value copied that another agent owns and should be referenced.
@@ -69,8 +69,8 @@ Everything you check must be answerable from the repo. If answering needs the ou
 
 ## BOOT (read phase — order matters)
 
-0. **`git fetch origin` + sync** — you review GitHub (source of truth). Follow root `CLAUDE.md` pull protocol; never `git add -A`, never `git reset HEAD`.
-1. **Read `REVIEW_CHECKLIST.md`** — your rubric.
+0. **`git fetch origin` + sync** — you review GitHub (source of truth). Follow root `CLAUDE.md` pull protocol and `PROME/GIT_COORDINATION.md`; never `git add -A`, never `git reset HEAD`, never stash/reset unknown work.
+1. **Read `reviews/REVIEW_CHECKLIST.md`** — your rubric.
 2. **Read `STATUS.md`** — your posture: watermark, open-finding count, budget used today.
 3. **Read `reviews/STATE.tsv`** — your per-agent last-reviewed-commit watermark.
 4. **Read `MEMORY.md`** — per-agent quirks + **false-positive rules**. Do NOT re-flag anything Will/PROME muted here.
@@ -88,7 +88,7 @@ Everything you check must be answerable from the repo. If answering needs the ou
 7. **For each agent in the boot.py queue:**
    a. `git diff <watermark>..<ref> -- AGENTS/<NAME>/` — read what actually changed.
    b. Open the changed files in full where consistency needs it (`STATUS`, thesis files, `SCRATCH`) — a diff alone hides contradictions with unchanged files.
-   c. Apply `REVIEW_CHECKLIST.md`. Record each finding as: **severity · exact `file:line` · the rule it breaks (quote the agent's own `CLAUDE.md` or a root rule) · a one-line fix.**
+   c. Apply `reviews/REVIEW_CHECKLIST.md`. Record each finding as: **severity · exact `file:line` · the rule it breaks (quote the agent's own `CLAUDE.md` or a root rule) · a one-line fix.**
    d. **Cap at the top 5 findings per agent by severity.** The rest stay in the ledger only — compress.
    e. Clean diff → one **PASS** row. Silence on a clean diff is correct; never manufacture findings.
 8. **Re-check OPEN findings** for any queued agent that pushed again — did the fix land? Mark for RESOLVED / WONTFIX / RETRACTED at W1.
@@ -107,7 +107,7 @@ Everything you check must be answerable from the repo. If answering needs the ou
 - [ ] **W5 · (Phase 2 only) Direct agent feedback** — within the escalation budget: `outbox/..._to-<AGENT>_review.md`.
 - [ ] **W6 · `STATUS.md`** — refresh watermark, open-finding count, budget, `BOTTOM LINE`.
 - [ ] **W7 · `MEMORY.md`** — new false-positive rules / quirks / recurring patterns; prune superseded.
-- [ ] **W8 · Git** — pathspec commit, **only `AGENTS/YEYOU/`**. New files: atomic `git add <paths> && git commit <paths>`. Never broad-add, never reset. Commit locally; **push is Will-coordinated.**
+- [ ] **W8 · Git** — pathspec commit, **only `AGENTS/YEYOU/`**. New files: atomic `git add <paths> && git commit <paths>`. Never broad-add, never reset, never stash unknown work. Commit locally; **push is Will-coordinated** via `PROME/GIT_COORDINATION.md`.
 
 **Discipline overlay (throughout):**
 - The **ledger is canonical** for findings — `STATUS.md`'s open-finding count must match `REVIEW_LOG.tsv` OPEN rows; if they diverge, the ledger wins.
@@ -158,7 +158,8 @@ On each agent's next diff, re-check its OPEN findings: did the fix land? Mark RE
 | File | Purpose |
 |---|---|
 | `CLAUDE.md` | This spec. |
-| `REVIEW_CHECKLIST.md` | The rubric — exactly what you check, with the rule each item enforces. **Read at boot.** |
+| `CLOSEOUT.md` | End-of-session write-back procedure; use before stopping, clearing context, or handoff. |
+| `reviews/REVIEW_CHECKLIST.md` | The rubric — exactly what you check, with the rule each item enforces. **Read at boot.** |
 | `scripts/boot.py` | The review-queue card — deterministic "what changed since each watermark + which OPEN findings to re-check." Read-only; run at boot step 5. |
 | `STATUS.md` | Live state — watermark, open findings, budget, `BOTTOM LINE`. Rewritten each session. |
 | `MEMORY.md` | Durable: false-positive rules, per-agent quirks, recurring patterns. |
