@@ -153,3 +153,4 @@
 - [Incentive-Flag Source Weighting](finding_incentive_flag_source_weighting.md) — down-weight incentivized sources (attorney/regulator/broker/mgmt), up-weight realized hard-to-game metrics (NCO/call-reports/per-capita/deposits/core-CPI)
 - [CRLF Text-Mode TSV Flip](finding_crlf_textmode_tsv_flip.md) — Python text-mode write flips CRLF→LF whole-file (destructive diff + merge risk); edit CRLF state files in binary mode, grep -c $'\r' before/after
 - [TERRY Day-Trading Review System](project_terry_daytrading_review_system.md) — standing loop in AGENTS/TERRY/daytrading/ (PROFILE+JOURNAL+LEDGER); Will wants day-trades reviewed regularly to track mistakes; push for broker CSV not activity feed
+- [Curated Worktree Branch Landing](finding_curated_worktree_branch_landing.md) — reconcile a stale/divergent branch via isolated worktree: salvage net-new, drop superseded-vs-authoritative, merge clean canonical branch, guardrail-verify, FF-land
