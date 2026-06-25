@@ -34,9 +34,11 @@
 
 **Grid FINALIZED + VERIFIED-RECONCILED same session** — both legs folded then reconciled to CORAL's verified 10-Q XBRL fill (commit `ee8c195e`): CARL consumer (CFG = only separate consumer path → 3-path standout; rest housing-secured→CORAL) + CORAL FL (5 canaries, BKU/AMTB attribution fixed, two-channel resi+condo netting). **Verified 30-89d:** SBCF $28.2M (−14% QoQ off Q4 peak/+65% YoY; nonaccrual $72→95M sharper), USCB $10.1M (tiny base), AMTB $88.6M (lumpy-commercial), BKU $234M→$123M ex-gov benign. SSB FL-content ≈$0 (rate-shock reclass); VLY→fleet. **Cluster verdict: diagnostic NOT-met + predicted un-met Q2; realized synchronized NCO = 2027; condo/SIRS = 2027.** Key refinement: the only ≥2-bank synchronized = USCB+SBCF **YoY-ONLY**, NOT realized NCO, QoQ cooling. CCC/HY tripwire DORMANT (3.49×); 6/24 widening HY-led=beta. All three corroborate: nothing fires near-term, machinery pre-built for X1.
 
-**Threads carried (ROADMAP):** CCC/HY tripwire daily monitor (un-fired, 3-consec >3.6× = fire); Q2-grid watch — forward confirmer = rising 30-89d FL resi/condo at ≥2 of {AMTB,SBCF,USCB} for 2 consec Q; WAL $78 watch; SSB FL-loss # resolves at Q2/10-Q.
+**Wave-2 + adversarial pass wired same session** (`research/Q2_PREREG_ADVERSARIAL_2026-06-25.md` + grid): 3 tripwire classes (synchronized-credit / single-name-credit / **NON-CREDIT balance-sheet** ≥2 of ZION/WAL/CFG/EGBN); **monoline LEAD COF/SYF/ALLY** print FIRST ~Jul15-22 (un-maskable unsecured, all GREEN 6/25); **ZION re-registered** onto AOCI/NIM axis (10Y 4.41 [6/24], +11bp QoQ — re-pull 6/30 mark); **WAL magnitude-graded** — 40-45bps PRICED, bear-confirm >55bps+$99M-charge-off ~30-35% (NOT my prior ~70% — over-claim corrected); EGBN+AMTB ~25-35% JOINT + disjunctive (reserve-build IS Q2 transmission, realized NCO 2027).
 
-**Open for next session:** Pass-2 = wire the tripwire consecutive-count check into scripts/boot.py (deferred to stay bounded); refresh grid [PENDING] cells at the late-July Q2 prints.
+**Threads carried (ROADMAP):** CCC/HY tripwire daily monitor (un-fired, 3-consec >3.6× = fire); **monoline LEAD prints ~Jul15-22** (earliest consumer-turn read); **ZION 6/30 AOCI/TBVPS re-pull**; Q2-grid forward confirmer = rising 30-89d FL resi/condo at ≥2 of {AMTB,SBCF,USCB} 2 consec Q; WAL Q2 magnitude watch (>55bps+charge-off); SSB FL-# resolves Q2/10-Q.
+
+**Open for next session:** Pass-2 = wire CCC/HY consecutive-count check into scripts/boot.py (deferred); refresh STATUS prices (WAL $81.48 6/25, stale 6/22 block); refresh grid [PENDING] cells + AMTB/BKU 10-Q attribution at the Q2 prints; re-pull 6/30 quarter-end AOCI mark for ZION.
 
 ---
 
