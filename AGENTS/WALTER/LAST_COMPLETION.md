@@ -6,7 +6,7 @@
 
 ## STATUS
 
-**2026-06-24 Wed (~8:00 PM ET on, Will-Telegram boot → sync-check → CONCURRENT-FLEET DISPATCH SESSION).** **3 dispatch / 2 kill / 1 verify-spawn — BOARD 326→329.** Concurrent fleet flagged by Will: WALTER (CC/laptop) + PROME (Codex/OpenClaw) + YEYOU (GLM 5.5/OpenClaw) all live. Will streamed a 7-image Telegram batch = a coherent **6/24 risk-off / scramble-for-liquidity** tape.
+**2026-06-24 Wed (~8:00 PM ET on, Will-Telegram boot → sync-check → CONCURRENT-FLEET DISPATCH SESSION).** **6 dispatch / 4 kill / 2 verify-spawn / 1 fold — BOARD 326→332 (two Telegram batches).** Concurrent fleet flagged by Will: WALTER (CC/laptop) + PROME (Codex/OpenClaw) + YEYOU (GLM 5.5/OpenClaw) all live. Will streamed a 7-image Telegram batch = a coherent **6/24 risk-off / scramble-for-liquidity** tape.
 
 - **Boot (earlier, 6/23 eve carryover + 6/24 re-syncs):** booted 6/23 ~9 PM (laptop), pulled (15-then-more behind, clean FF). 6/24 PM: Will sync-check → local was 15 behind / 0 ahead → clean FF pull (`9c11c975`, BRENT fired Boundary #3 off the ~6/24 WPSR). Tree clean at dispatch time; SYNCED 0/0 before commit.
 - **Step-6c (live 01:10 UTC 6/25): no new fires.** RED-FT-01 (HY 265<280) + RED-FT-07 (CCC 947>930) continuing-suppressed. Near-triggers: 🔴 Cushing 20.03M [6/12] at the <20M Boundary-#3 floor — **BRENT already fired it earlier 6/24** (origin HEAD = its closeout); 🟡 Brent $76.72 ~2.3% above RED-FT-04 (<75); VIX 19.49 / WAL $80.68 / 10Y 4.51🔴 all away from their triggers.
@@ -14,12 +14,20 @@
 
 ## CHANGED
 
-**3 DISPATCHES (SIG-W-20260624-001 → -003):**
+**6 DISPATCHES (two batches, SIG-W-20260624-001 → -006):**
+
+*Batch 1 (7-image stream):*
 - **-001 PRIORITY → BROCK action / SHADE,LIQUID,RED info** [PC_STRESS, cluster_mediating, cluster_secondary FED_FRAMEWORK]: **sector-wide PC redemption wall** — MS North Haven PIF (tender-offer fund, $7B) 11.6% units requested / 5% cap (~43% honored) + Apollo Debt Solutions ~17% / Blue Owl OCIC 21.9% / OTIC 40.7% **ALL at the 5% cap same quarter.** Verify CONFIRMED 0.88 (agent a887fa65, primary PIF 8-K). Nuance: pre-disclosed soft caps working as designed, NOT surprise gates — but synchronized + compounding re-queue = exit demand structurally above the relief valve; ample fund liquidity (no forced sales). Extends Partners Group/Cliffwater gate thread.
 - **-002 PRIORITY → LIQUID action / RED,HENRY,BROCK info** [FED_FRAMEWORK, cluster_mediating, sec POSITIONING_VALUATION]: **gold+silver liquidity-crunch signature** (GLD −3.0% / SLV −7.1%) INTO a Treasury bid (TLT +1.37%) + soft dollar (UUP +0.28%) = de-risking/liquidity-preference, not a clean dollar/real-yields selloff. GROUNDED via fetch.py. LIQUID adjudicates vs funding internals (SOFR-IORB −0.04 ample / CP-TBill 0.10) = positioning-washout vs funding-crunch. SKIP-VERIFY 0.70.
 - **-003 PRIORITY → HENRY action / TERRY,RED info** [POSITIONING_VALUATION, cluster_mediating]: **QQQ closes below all of last-7-days' lows a day after a −3% open-gap** — rare vol-cluster (OddStats n=9 since 1999; non-bear precedents +5-10% / bear-COVID-dotcom −3 to −12%; 6/24 tagged "Nope"). Companion: +2%-gap-6/25 = 4th whipsaw. Small-n; OddStats framing-stretch prior. SKIP-VERIFY/GROUNDED 0.60.
 
-**2 KILLS:** Japan M6.9 (Iwate) + Venezuela M7.1 + tsunami warning [Relevance — off-axis; Venezuela Jose-terminal oil tail = BRENT-watch only if damage confirms] · Presidential Mountain Resort LLC Ch.11 [Relevance — $10-50M micro, RK-Consultants posts every filing].
+*Batch 2 (6-image stream, 2 DUP re-sends):*
+- **-004 PRIORITY → CREED action / REGINALD,BROCK,RED info** [BANK_COLLATERAL, primary_substance, sec PC_STRESS]: **Blackstone Mortgage Trust (BXMT) $343M loan on 1 South Wacker (Chicago Loop) maturity default 6/9** (borrower 601W; ~$159M CMBS; 73% occ; BXMT −3.7%). Verify CORRECTED-FRAMING 0.85 (agent ae6086fd) — **Blackstone = LENDER not owner**; trend-confirmation (office CMBS DQ 11.71% / SS 16.73%) not leading-edge. **CREED's first WALTER delivery** (created its inbox/WALTER).
+- **-005 PRIORITY → SHADE action / BROCK,LIQUID,RED info** [PC_STRESS, primary_substance]: **WSJ/Clearwater — ~1/4 of life insurers owning PC-fund stakes ALSO LEND to them** (double exposure) = the insurer-PC transmission channel behind the same-day redemption wall (SIG-001). SKIP-VERIFY 0.85.
+- **-006 PRIORITY → SAM action / RED,HENRY info** [ASIA_CHINA, primary_substance]: **Robin Brooks — yen REER below the Turkish lira = world's weakest currency** ("Japan in crisis"). Real-effective-rate dimension to USDJPY-161; reinforces yen-specific weakness (pairs DXY-divergence -622-007). SKIP-VERIFY 0.80.
+- **FOLD (not re-dispatch):** EndGame Macro's China-gold/silver-margin-hike causal decomposition → appended as a dated addendum to SIG-002 BOARD canonical (China RAISED gold+silver margin requirements = the forced-deleveraging trigger; tilts the metals read → margin-driven positioning-washout over systemic funding-crunch).
+
+**4 KILLS (2 batch-1 + 2 batch-2 DUP re-sends of -001/-002):** Japan M6.9 (Iwate) + Venezuela M7.1 + tsunami warning [Relevance — off-axis; Venezuela Jose-terminal oil tail = BRENT-watch only if damage confirms] · Presidential Mountain Resort LLC Ch.11 [Relevance — $10-50M micro, RK-Consultants posts every filing].
 
 **1 VERIFY-SPAWN:** MS PC gate (a887fa65) — upgraded the signal from "one MS fund" to "sector-wide Q2 redemption wave."
 
@@ -31,7 +39,7 @@ A clean concurrent-fleet dispatch: one coherent risk-off batch routed to the thr
 
 ## GAPS
 
-- **Push DEFERRED** — 2 WALTER commits ahead (`6c377aa8` dispatch + this closeout); concurrent fleet (PROME/Codex + YEYOU/GLM-5.5 live on OpenClaw) → commit local, Will-coordinated push per `[[feedback_defer_push_coordinate]]`.
+- **Push DEFERRED** — 4 WALTER commits ahead (`6c377aa8` batch-1 dispatch+handoffs / `3666d956` batch-1 closeout / `86ceabec` batch-2 dispatch+handoffs / + this batch-2 closeout); concurrent fleet (PROME/Codex + YEYOU/GLM-5.5 live on OpenClaw) → commit local, Will-coordinated push per `[[feedback_defer_push_coordinate]]`.
 - **registry_lag refresh STILL owed** (2nd session deferred) — HANS/VIOLET/HENRY/CARL/LIQUID/REGINALD/BRENT rows lag their commits; WALTER row refreshed to 6/24, others carried.
 - **delivered_but_unconsumed** grows by 11 (these handoffs) until recipients consume — the CC self-apply set still lacks the §8.1 consume boot-step.
 - kill_log pre-existing format quirk: lines 89-91 (2026-05-08) are NF=4 (old format); not WALTER-introduced, cosmetic.
