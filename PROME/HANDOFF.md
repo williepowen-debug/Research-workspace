@@ -6,6 +6,18 @@
 
 ---
 
+## 2026-06-25 ~17:30 ET — Transmission-terminus cluster orchestration + pre-Q2 adversarial stress-test (PUSHED)
+
+**Status:** Same-day continuation. Will ran an orchestration exercise — spawn 3 agents Prome directs/builds with — and chose the **transmission-terminus cluster** (CARL=consumer / CORAL=FL banks / REGINALD=bank-terminus hub) over Prome's trigger-cluster (LIQUID/BROCK/RED) pick. Full arc delivered + **PUSHED**: origin master `92a92a83`, synced **0/0**, 24 commits (22 cluster + 2 Prome: FXY/git stale-row fixes + the synthesis doc). Three agents parked warm (pending Will release).
+
+**What landed:** A Q2-Print Bank-Transmission Convergence Grid — *does credit stress LAND on bank balance sheets?* Pass-1 legs → verified 10-Q reconcile → finalized grid + CCC/HY >3.6× tripwire (VX-REG-18.04, dormant 3.49×). Then a Will-approved **pre-Q2 adversarial stress-test**: Wave-1 self-steelman (3 genuine hits — CARL category error → unsecured bifurcates H2-26; CORAL wrong-signed "cooling"; REGINALD diagnostic altitude-mismatch) + Wave-2 independent blind-spot critics + judge (non-credit channel unwatched / ZION false-control; monolines unscored; one-directional bias → WAL over-claim). Verdict **HOLDS-WITH-ADDITIONS**, all 5 additions implemented.
+
+**The read:** systemic-2027 floor holds for *realized synchronized charge-offs*, but it's **less "nothing until 2027," more "three live ~25-35% Q2-able paths the green tape isn't pricing"** — (a) synchronized reserve-build ≥2 banks IS Q2 transmission; (b) non-credit/AOCI selloff (10Y +11bp = live-but-mild; ZION re-registered off-credit); (c) WAL >55bps + $99M charge-off (~30-35%, not 70%). Two-axis model: Axis A unsecured/monoline-lead/H2-26 vs Axis B regional-terminus/Q1-27; **COF = dual-axis standout.** Durable doc: `PROME/synthesis/2026-06-25_transmission-terminus-cluster.md`; pre-registered playbook in `AGENTS/REGINALD/research/Q2_PREREG_ADVERSARIAL_2026-06-25.md`.
+
+**Regime delta:** **FXY position CLOSED (Will 6/25)** — old broker-truth open item resolved, long-FXY tail given up. HY 276 [6/24] (4bp from >280 X1), conviction 61. The non-credit/AOCI channel newly on the watch list.
+
+**Next:** Q2 forward-watch (10Y re-pull 6/30; monoline prints Jul 15-22; regionals Jul 16-30, WAL Jul 30 on magnitude; CCC/HY daily). NEXUS-handoff package ready (gated on Will's refresh-hold). Auto-memory capture + MEMORY.md prune still deferred. Three cluster agents warm pending release.
+
 ## 2026-06-25 ~15:55 ET — Warm-LIQUID deep-cleanup arc (11 commits, PUSHED)
 
 **Status:** Will ran a **persistent warm LIQUID #1** (directable) + a **read-only LIQ_DOCAUDIT** boot-doc auditor to get LIQUID caught up to data and its architecture working smoothly. Full arc done, independently verified at each step, **PUSHED** — origin master swept the session's 11 commits (10 LIQUID/PROME + closeout), local+origin **synced 0/0**, tree clean. Both agents released.
