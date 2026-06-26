@@ -18,7 +18,7 @@
 - **43 per-recipient handoffs** to `inbox/WALTER/`; route_log +12 / delivery_log +43 / kill_log +8.
 - **1 verify-research spawn** (KOSPI, agent a6eac1ea) — CONFIRMED 0.85; corrected an initial "8,199 implausible / likely fabricated" flag (stale real-world KOSPI level — it re-rated to 8,000–9,000 this cycle on the AI/semi melt-up).
 - **Commits:** `efb74155` (batches 1-3, 46 files) + a batch-4 + Tier-1-closeout commit. Push DEFERRED (fleet active).
-- **Tier-1 light closeout:** STATUS lead (12-dispatch tally + threads) + Overall live levels + BOARD count regenerated; SESSION_LOG breadcrumb prepended; this LAST_COMPLETION rewritten.
+- **Tier-2 FULL closeout** (Will end-of-day "close out + push"): STATUS lead/Overall/BOARD-count + the dedicated near-trigger & passive-scan blocks (the latter were stale on the 17:58 UTC scan — a read-only pre-push **verify-workflow**'s consistency-critic caught them) + bifurcation-count (0→2) + push-state + NETWORK AWARENESS "today's routing" all regenerated; REGISTRY refreshed (CARL→6/26 / RED→6/23 / WALTER→6/26 + workflow-gathered focus across 18 agents); MEMORY CHANGES/NEXT + 2 new findings; SESSION_LOG breadcrumb; this LAST_COMPLETION. version-drift CLEAN. **Pre-push verify-workflow:** signal-integrity CLEAN (12/12 bookkept, reconciles 347), consistency-critic ISSUES (the stale blocks, now fixed).
 
 ## RESULT
 
@@ -26,7 +26,7 @@ A high-volume, signal-dense routing session — the heaviest single-day stream i
 
 ## GAPS
 
-- **Push state:** the session's WALTER commits (`efb74155` + batch-4/closeout) are **local-pending the next coordinated push** — fleet active (SAM/HANS/ZHAO committed local 6/26; PROME pushed cutover work at 5:11 PM). Per `[[feedback_defer_push_coordinate]]`.
+- **Push state:** 🟢 **PUSHED** in Will's 6/26-PM window — `efb74155` + `5740a309` + the Tier-2 closeout commit; the push-train also swept SAM/HANS/ZHAO/PROME local commits to origin (per `[[finding_push_train_pattern]]`). Will's own `WILL/trading-journal/` edits stay uncommitted in the tree (untouched, his).
 - **Tier-1 deferred to next full closeout:** MEMORY rewrite (CHANGES/NEXT-SESSION still on the 6/26-AM design session), NETWORK AWARENESS regen, full registry refresh, STATUS lead deep-trim + SESSION-LOG trim-to-5. (≥3 `full deferred` breadcrumbs → next boot owes a Tier-2.)
 - **delivered_but_unconsumed** backlog persists (recipient-side; CC self-apply set lacks the §8.1 consume step). Today's 43 handoffs add to it until recipients boot.
 
@@ -73,4 +73,4 @@ A high-volume, signal-dense routing session — the heaviest single-day stream i
 
 ---
 
-*Maintenance note: Tier-1 light closeout per CLAUDE.md spawn-protocol Closeout section. Full Tier-2 (MEMORY rewrite / NETWORK AWARENESS regen / registry refresh / lead deep-trim) deferred — owed at next end-of-day or after ≥3 `full deferred` breadcrumbs.*
+*Maintenance note: Tier-2 FULL closeout per CLAUDE.md spawn-protocol Closeout section (Will-directed end-of-day). Steps 12-16 done + a read-only pre-push verify-workflow (signal-integrity + consistency-critic + 18-agent registry-gather). Remaining deferred (own pass, not load-bearing): STATUS lead deep-trim + BOARD-INDEX giant-line slim-down.*
