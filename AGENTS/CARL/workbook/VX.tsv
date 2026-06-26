@@ -1,3 +1,4 @@
+# FROZEN 2026-06-26 — not maintained; STATUS.md is canonical truth, do not cite rows as current
 ID	Name	Current_Value	Status	Green	Yellow	Orange	Red	Last_Updated	Source	Notes	Delegated_To
 VX-CARL-1.01	Credit Card 90+ DQ	13.1%	RED	<8%	10%	12%	13.74%	2026-06-14	NY Fed HHDC Q1 2026 (rel May 12)	95% of GFC peak (13.74%); gap collapsed 1.04pp -> 0.64pp (Q1 2026). Subprime-driven, K-shape converging downward confirmed in primary data. [dup of VX-CARL-CC-01 -- dedup pending workbook session]	
 VX-CARL-1.02	Credit Card Payment Rate	PENDING	PENDING	>22%	18-20%	15-18%	<15%	2026-02-11	ABS Framework	LEADING INDICATOR — track via ABS trustee reports	

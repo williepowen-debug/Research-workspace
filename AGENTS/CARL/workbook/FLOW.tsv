@@ -1,3 +1,4 @@
+# FROZEN 2026-06-26 — not maintained; STATUS.md is canonical truth, do not cite rows as current
 ID	Name	Speed	Status	Trigger	Current Position	Pathway	Cross-Agent	Notes
 FLOW-CARL-1.01	Employment → Consumer Distress	0-5 months	ACTIVE-ORANGE	LABOR claims >250K OR temp YoY <-6%	Temp -12%, Claims 224K, JOLTS 0.91 inverted, hires 3.1% COVID-low, LFPR 61.9%, 3mo NFP avg 68K	Job loss → Income stop → Savings depleted (0-21 days for bottom quintile) → Missed payment → Delinquency	LABOR	Hourly = 0-1mo, Salaried = 2-5mo. JOLTS inversion + hires freeze = re-employment failing. Structural rot confirmed.
 FLOW-CARL-1.02	Consumer Distress → Bank NCOs	3-6 months	ACTIVE-ORANGE	CC DQ 90+ >4% sustained	CC 90+ DQ 12.70% (92% GFC), SYF NCO 5.8% (+110bps spike), subprime auto 60+ 6.9% ATR	Missed payment → 30-day DQ → 60-day → 90-day → Charge-off → Bank NCO → Earnings miss	REGINALD	SYF near FY guidance ceiling in month 2. Q1 earnings (JPM Apr 14, SYF Apr 21) = next test.

@@ -79,6 +79,26 @@ def run_script(label, script_path, args, timeout=90):
         return False, f"  ERROR: {e}", elapsed
 
 
+LIVE_LEDGERS = [
+    ("KB.tsv",           "workbook/KB.tsv",          30),
+    ("ABS_BASELINE.tsv", "workbook/ABS_BASELINE.tsv", 30),
+]
+
+
+def check_ledger_staleness():
+    """Warn if live ledgers haven't been updated within threshold days."""
+    import os
+    alerts = []
+    for label, rel_path, warn_days in LIVE_LEDGERS:
+        p = CARL_DIR / rel_path
+        if not p.exists():
+            continue
+        age_days = (time.time() - os.path.getmtime(p)) / 86400
+        if age_days > warn_days:
+            alerts.append(f"  ⚠️  LEDGER STALE: {label} — {int(age_days)}d since last update (>{warn_days}d threshold)")
+    return alerts
+
+
 def collapse_output(output):
     """Show only lines containing key alert markers."""
     lines = output.splitlines()
@@ -110,6 +130,14 @@ def main():
         print(f"\n  [--quick mode: skipping slow scripts]")
     if skip_abs:
         print(f"\n  [--skip-abs: skipping ABS EDGAR monitor]")
+
+    staleness_alerts = check_ledger_staleness()
+    if staleness_alerts:
+        print(f"\n{'='*72}")
+        print(f"  LEDGER STALENESS ALERTS")
+        print(f"{'='*72}")
+        for alert in staleness_alerts:
+            print(alert)
 
     results = []
 
