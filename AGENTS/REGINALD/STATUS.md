@@ -45,7 +45,7 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 | PC Mainstream | Economist + Bloomberg + NPR all Apr 1. "Signs of strain" / "redemption crisis." Narrative inflection. | 🔴🔴 |
 | Blue Owl OBDC II | Permanent gating (Feb). $2.50/sh return-of-capital (~30% NAV) by Mar 31. Liquidation path. | 🔴🔴 |
 | Blue Owl OCIC/OTIC | **Apr 2:** OCIC 21.9% redemption requests, OTIC 40.7%. Both capped at 5%. $988M honored / ~$3.2B trapped (OCIC). $179M honored / ~$1B trapped (OTIC). **Apr 29 Bloomberg reframe.** OWL Q1 Apr 30 AMC. | 🔴🔴🔴 |
-| Blackstone BCRED | Q1: Record $3.7B redemption requests (~8% NAV). Exceeded 5% gate; firm committed $400M own capital. | 🔴🔴 |
+| Blackstone BCRED | **Q2 2026: FIRST-EVER GATE** — ~$4.4B redemption requests (~10% NAV on $79B fund); Blackstone capped at 5%, excess TRAPPED (Blackstone SEC 8-K Jun 4 2026). Escalation from Q1 ("committed $400M own capital to avoid gate") → structural illiquidity now confirmed. **CARL independently confirmed same primary.** | 🔴🔴🔴 |
 | **Partners Group SICAV** | **6/3 redemption cap fired** — €8.6B (~$9B) Global Value SICAV: Q2 demand 9.8-10% vs 5% gate. Sector contagion same day (EQT -6%, CVC/KKR/Bridgepoint down; Partners Group stock down 13-18% across sources — wide range, treat as approximate). Europe PC-wrapper gating event — 4th major PC vehicle to hit gate this cycle (Ares/Apollo/Blue Owl/PG). Verified Bloomberg/CNBC/swissinfo per director audit 6/8. | 🔴🔴 NEW |
 | Leveraged Loan ICR | Share with ICR <1.0x doubled to 20% (from ~10% in 2019). Forced selling by gated BDCs next. | 🔴🔴 |
 | FL Foreclosures | +35% YoY, 12th consecutive increase. FL labor 4.6% > US 4.4% (SIG-024-001). | 🔴🔴 |
@@ -84,7 +84,7 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 | Rank | Bank | Score | Primary Risk | Live Position (→ POSITIONS.md) |
 |------|------|-------|-------------|----------|
 | 1 | EGBN | 20 | CRE 547% + DC 100% + crisis state. **6/20 drill: fresh CRE nonaccrual CREEP** — IPRE +23%, constr +61%, NPA 1.04→1.31%, coverage 149→114% (one CRE office relationship → nonaccrual; worst office credit migrating *past* criticized into nonaccrual). Independent confirm of OZK-style concentration creep. | **None** (Jun-18 $25P cleared) |
-| 2 | WAL | 20 | **THESIS v2.2.1 (6/8).** Structural vectors UNCHANGED from v2.2: B1 FIRED via $99M life-science office sponsor walk-away (10-Q subseq event, late April, Pass→substandard, same mechanic as IQHQ); V2 inventory CLEAN; V3 cohort-median CONFIRMED ($14.93B NDFI, 25.2% HFI); V1 MI3 STILL PENDING FFIEC PDD; V4 Curley resignation (CBO National Business Lines). **v2.2.1:** Bear-medium 25, **EV $68.93**, overvaluation 16.3% ÷EV, PT $50-68. Cohort RESOLVED 6/8 → Hyp A (WAL bear idiosyncratic). | **Jul-17 $65P · Sep-18 $67.5P + $70P** (Sep = REINFORCED-HOLD core, catches Q2 print ~Jul 30). Jun-18 cluster (4 pos) cleared. |
+| 2 | WAL | 20 | **THESIS v2.2.1 (6/8).** Structural vectors UNCHANGED from v2.2: B1 FIRED via $99M life-science office sponsor walk-away (10-Q subseq event, late April, Pass→substandard, same mechanic as IQHQ); V2 inventory CLEAN; V3 cohort-median CONFIRMED ($14.93B NDFI, 25.2% HFI); V1 MI3 STILL PENDING FFIEC PDD; **V4: Curley resignation (CBO National Business Lines) + Vecchione consolidated CEO+Chairman (Jun 10, 2026) — board independence reduced; Bruce Beach demoted to Lead Ind Dir + insider open-market sales Gibbons 40K sh ~$82 + Mucha 5.9K sh ~$81 (Jun 8-10, Form 4) = incremental bear corroboration.** **v2.2.1:** Bear-medium 25, **EV $68.93**, overvaluation 16.3% ÷EV, PT $50-68. Cohort RESOLVED 6/8 → Hyp A (WAL bear idiosyncratic). | **Jul-17 $65P · Sep-18 $67.5P + $70P** (Sep = REINFORCED-HOLD core; **Jul-17 $65P catches ~Jul 16 print — 1-day buffer, framing corrected 6/26**). Jun-18 cluster (4 pos) cleared. |
 | 3 | CFG | 15 | BDC $12.5B + FHLB 60x + CRE nonaccruals rising | Monitoring (score 9→12 post-Q1) — no position |
 | ~~4~~ | ZION | ~~14~~ → **~8-9** | MUNI $4.27B + NDFI $2B flat 5yr + Basel III +93bps offset to AOCI | $57.5P Jul-17 — **Q1 disconfirming; monitor only** |
 | 5 | OZK | 13 | **Peer agent — positions in `../OZK/POSITIONS.md`** (REGINALD no longer owns OZK puts). Reservoir thesis: past due $207M→$465M QoQ (**6/20 drill: primary-confirmed 88% = 5 RESG/CRE loans, NCO lagging benign 0.57% — reservoir signature; NPA rose $402→$451M masked by 2 new foreclosures**); CRE 37.6% MI3; IQHQ Aug 2026; Oct 1 sub-notes reprice. *(NB: OZK files NO SEC 10-Q — primary = FDIC Call Report + Mgmt Comments.)* | → `../OZK/` |
@@ -132,7 +132,10 @@ Three life-science CRE distress events across cohorts in 6 months:
 | Date | Event |
 |------|-------|
 | **Jun 30** | Next expiry pile (KRE $63/65/67P + IWM $250P) — contents canonical in POSITIONS.md; deep OTM, default let-expire |
-| **~Jul 30** | 🔴 **WAL Q2 print — critical v2.2 second-data-point** (REG-25 NCO >40bps test / REG-24 Office classified migration / 2+ Office walk-aways = v2.5/v3). Sep tenor catches it; Jul-17 misses by ~13d. |
+| **~Jul 16** | 🔴 **WAL Q2 print — critical v2.2 second-data-point** (REG-25 NCO >40bps test / REG-24 Office classified migration / 2+ Office walk-aways = v2.5/v3). **WAL prints WITH CFG (Jul 16) — no longer the late backstop after the monoline gate.** Jul-17 $65P catches the print (1-day buffer); Sep remains core tenor. *(Q2 2025=Jul 17, Q2 2024=Jul 18; MarketBeat est. Jul 16 2026.)* |
+| **Jul 16** | 🟠 **CFG Q2 print** — first mid-July Axis-B regional read. |
+| **~Jul 21** | 🟠 **Monoline gate** (COF/SYF/ALLY Axis-A consumer). |
+| **Jul 22** | 🟠 **EGBN Q2 print** — CRE nonaccrual creep watch; does 6/20 office-relationship convert to NCO? |
 | **TBD (post-6/18)** | **Bank capital-rules FINAL rule** — AOCI-inclusion CET1 impact on WAL/OZK (affects Bear-medium capital-absorption leg) |
 | **Aug 2026** | **IQHQ loan maturity (OZK)** — sponsor support test |
 | **Oct 1, 2026** | **OZK $350M sub notes reprice (2.75%→SOFR+209) + Tier 2 -20%** |

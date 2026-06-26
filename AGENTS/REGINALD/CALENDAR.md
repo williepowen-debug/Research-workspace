@@ -1,6 +1,6 @@
 # REGINALD CALENDAR
 
-**Last Updated:** 2026-06-22 (boot refresh — tape to 6/22 close; **WAL $78.76 near the $78 threshold** + WAL Q2 print ~Jul 30 the near-term catalysts) | **View:** Forward-looking only. Past events pruned weekly.
+**Last Updated:** 2026-06-26 (Prome-directed maintenance pass — WAL Q2 print date corrected to **~Jul 16** per historical pattern + MarketBeat; CFG/EGBN dates added; BCRED gate upgrade; arch pass) | **View:** Forward-looking only. Past events pruned weekly.
 
 ---
 
@@ -22,8 +22,11 @@
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| **~Late Jul (~Jul 30)** | 🔴 **WAL Q2 print — critical v2.2 second-data-point test** | NCO ex-fraud test (REG-25); Office classified migration (REG-24); $99M life-science loan charge-off post-mortem (LGD assumption test); whether ADDITIONAL Office credits walked away in Q2 (2+ migrations = v2.5/v3 territory; only $99M = v2.2 may overstate) | If REG-25 fires (NCO >40bps) + REG-24 progresses ($476M Q2 start + further migration → $500M+) → v2.2 confirmed mechanically. A second material Office walk-away → v2.5/v3 promotion. **Note:** print date (~Jul 30) is AFTER Jul-17 monthly expiry — Jul-dated puts miss it; Sep is the print-catching tenor. | REGINALD primary; cross-flag PROME, RED |
-| **~Late Jul (Q2 prints)** | 🟠 **CRE-DQ-by-tier Q2 watch** (from 6/20 drill) | BKU + SBCF 30-89 **both tested 6/20 PM → small CRE leading-ticks (+50% / +132%); Q2 = BUILD vs quarter-end/acquired-pool lumpiness**; OZK/EGBN named-loan creep→NCO; OZK FFIEC RC-N past-due-by-category; SSB/AMTB criticized→NCO (SIG-008 bar) | Ticks build → tier-wide down-tier creep firming; revert → lumpiness, severity stays concentrated at OZK/EGBN. `research/CRE_DQ_BY_TIER_2026-06-20.md` | REGINALD primary |
+| **Jul 16** | 🟠 **CFG Q2 print** (confirmed MarketBeat/StockTitan) | NCO trajectory (5-qtr monotonic decline); CRE NCO; BDC $12.5B exposure | Axis-B standout: strong-3-path regional but collateral-backed/deferrable. CFG print alongside OZK = first mid-July data signal before monoline gate. | REGINALD monitoring |
+| **~Jul 16** | 🔴 **WAL Q2 print — critical v2.2 second-data-point test** (confirmed: historical Q2 2025=Jul 17, Q2 2024=Jul 18, Q2 2022=Jul 21; MarketBeat est. Jul 16 2026) | NCO ex-fraud test (REG-25); Office classified migration (REG-24); $99M life-science loan charge-off post-mortem (LGD assumption test); whether ADDITIONAL Office credits walked away in Q2 (2+ migrations = v2.5/v3 territory) | If REG-25 fires (NCO >40bps) + REG-24 progresses ($476M Q2 start + further migration → $500M+) → v2.2 confirmed mechanically. A second material Office walk-away → v2.5/v3 promotion. **Note:** WAL now prints WITH CFG (Jul 16), NOT as a late backstop after the monoline gate. **Jul-17 $65P CATCHES the print (1-day buffer); Sep remains core tenor.** | REGINALD primary; cross-flag PROME, RED |
+| **~Jul 21** | 🟠 **Monoline gate** (COF/SYF/ALLY Axis-A unsecured consumer prints) | Axis-A consumer turn showing? COF dual-axis read; SYF/ALLY unsecured | Axis-A break ≠ Axis-B thesis; only a dual-axis COF signal shifts the frame | CARL primary; REGINALD monitors |
+| **Jul 22** | 🟠 **EGBN Q2 print** (confirmed MarketBeat/analyst consensus) | CRE nonaccrual creep (IPRE/constr): does the office-relationship migration from 6/20 drill CONVERT to NCO? Coverage 114%→? | Forced reserve-build IS Q2 transmission; realized NCO stays 2027 thesis. Single-name credit tripwire class. | REGINALD primary |
+| **~Mid-Jul (Q2 prints)** | 🟠 **CRE-DQ-by-tier Q2 watch** (from 6/20 drill) | BKU + SBCF 30-89 **both tested 6/20 PM → small CRE leading-ticks (+50% / +132%); Q2 = BUILD vs quarter-end/acquired-pool lumpiness**; OZK/EGBN named-loan creep→NCO; OZK FFIEC RC-N past-due-by-category; SSB/AMTB criticized→NCO (SIG-008 bar) | Ticks build → tier-wide down-tier creep firming; revert → lumpiness, severity stays concentrated at OZK/EGBN. `research/CRE_DQ_BY_TIER_2026-06-20.md` | REGINALD primary |
 
 ## LATER (forward catalysts — OZK-primary, REGINALD info)
 
