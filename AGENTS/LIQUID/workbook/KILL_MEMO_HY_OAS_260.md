@@ -4,7 +4,7 @@
 
 **Purpose:** Pre-written 1-pager so the decision is mechanical when a level is touched, not re-thought under tape pressure. **Two-sided:** the **kill/exit** side (<260, original) AND the **widening/confirm-escalate** side (>280 X1 decoupling / >320 confirmation) — the live regime is now on the WIDENING side.
 **Built:** 2026-05-18 (revival session — kill side). **X1-confirm side added 2026-06-25.**
-**Current state (6/25):** HY OAS **276 [FRED 6/24]** — **16bp above the <260 kill, just 4bp below the >280 X1-decoupling trigger.** Book FLAT of LIQUID single-names; the live edge is the WIDENING side, not the kill.
+**Current state:** HY OAS sits in the 270–280 hold band, backed up off the June soft-kill low — the live edge is the WIDENING (>280 X1) side, not the kill. Book FLAT of LIQUID single-names. *(Live bps + active rung: `scripts/boot.py` / `alerts/HY_OAS_STATE`.)*
 **Trigger source:** HEARTBEAT line 80 (*"Reassess if APO >$130 for 3 sessions or HY OAS <260 sustained"*) + the X1 decoupling conjunction (KB-LIQ-062: wrapper-leads [BROCK] **AND** HY>280 [LIQUID]).
 **Why this exists:** one shock day touches a level; the memo fires *before* the breach so execution is calm — on either side.
 
@@ -19,7 +19,7 @@
 | **HY OAS >320 sustained** | 🔴 CONFIRMATION | Credit channel transmitting — systemic credit stress confirmed (LIQ-01). Escalate ALL. Propose full-scale credit-bear expression → Will. |
 | HY OAS >300 | 🟠 approaching 320 | Watch — confirmation in reach; pre-stage the >320 escalation. |
 | **HY OAS >280 sustained** | 🟠 X1 DECOUPLING (LIQUID half) | **My half of the X1 PC→public decoupling trigger.** Fires as a CONFIRM only WHEN PAIRED with BROCK's wrapper-basket-leads-managers-down (KB-LIQ-062 conjunction). On BOTH: PC becomes a genuine independent bear root → **PROPOSE a credit-bear entry/sizing-up to Will** (HYG/CDX put or BDC short per the open channel). Solo (HY>280 but wrappers flat) = LIQUID-half ARMED → log + hold for BROCK's half, do NOT propose yet. |
-| HY OAS 270–280 (hold band) | 🟢 cushion | **CURRENT: 276 [6/24]** — no rung. Watch the 4bp to 280 + BROCK's wrapper basket. |
+| HY OAS 270–280 (hold band) | 🟢 cushion | **CURRENT band — no rung active** (live bps → boot.py). Watch the gap to 280 + BROCK's wrapper basket. |
 
 ### KILL / EXIT side — credit-channel thesis weakening (these are THESIS events; book is FLAT, so the cut-list is empty)
 
@@ -30,7 +30,7 @@
 | **HY OAS <260 intraday** (single print) | 🔴 TRIGGER B | Full credit-thesis kill drill (verify per below). Do not wait for "sustained" — intraday <260 = the level itself being tested. |
 | **HY OAS <260 sustained ≥3 sessions** | 🔴 TRIGGER C (HEARTBEAT-grade) | Full credit-thesis abandonment. Write kill memo → PROME. Re-frame LIQUID around the surviving legs. |
 
-**APO co-trigger — CORRECTED 6/25 (the ">$130" framing is INVERTED/moot):** APO **BROKE <$130 (~$122, 6/25)** — the old ">$130 ×3 sessions = sentiment recovered" co-trigger is dead; PC public-equity sentiment is CRACKING, not recovering. The breakdown is **bear-confirming** (alts-crack deepening, PC→public transmission candidate) but is **NOT a Trigger-C precondition** — Trigger C still requires concurrent HY OAS *compression*, and HY is *widening* (276). Day-counts on raw closes only. *(If APO ever recovers >$130 ×3 sessions WHILE HY compresses, the old precondition re-activates.)*
+**APO co-trigger — CORRECTED 6/25 (the ">$130" framing is INVERTED/moot):** APO **BROKE <$130** — the old ">$130 ×3 sessions = sentiment recovered" co-trigger is dead; PC public-equity sentiment is CRACKING, not recovering. The breakdown is **bear-confirming** (alts-crack deepening, PC→public transmission candidate) but is **NOT a Trigger-C precondition** — Trigger C still requires concurrent HY OAS *compression*, and HY is *widening*. Day-counts on raw closes only. *(If APO ever recovers >$130 ×3 sessions WHILE HY compresses, the old precondition re-activates.)*
 
 ---
 
