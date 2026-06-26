@@ -23,8 +23,8 @@
 
 ## Forward-watch / carry
 - **Watch is automated** — `liquid-hy-watch.timer` daily 13:00 ET; next-boot echoes any between-session cross. Boot should check `AGENTS/LIQUID/alerts/HY_OAS_ALERTS.log`. Don't rebuild manual HY checks.
-- Jul-print grading is now LIVE tooling (`grade_print.py`) — CFG/OZK Jul16 → monolines Jul21 GATE → EGBN Jul22 → WAL Jul30.
-- Trade construction (b)/(c): pre-built card shelved; fires ONLY on HY>280 sustained or WAL Jul-30. $500/card. Needs live broker book at fire-time.
+- Jul-print grading is now LIVE tooling (`grade_print.py`) — CFG/OZK/**WAL** Jul16 → monolines Jul21 GATE → EGBN Jul22. [WAL corrected Jul30→Jul16 6/26 — REGINALD catch; WAL prints WITH CFG/OZK, no longer the late back-stop gate.]
+- Trade construction (b)/(c): pre-built card shelved; fires ONLY on HY>280 sustained or WAL Jul-16 print. $500/card. Needs live broker book at fire-time.
 - 10Y 6/30 re-pull scheduled (cloud routine `trig_01Ps7pv1WaupKwBG9mWds46T`).
 
 ## Repo state

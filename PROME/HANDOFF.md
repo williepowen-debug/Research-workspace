@@ -16,7 +16,7 @@
 
 **★ AUTO-PUSH MIGRATION (pilot live):** Will confirmed single-desktop → **Prome now auto-pushes at closeout** via `scripts/safe-push.sh` (ff-gated, fails safe; wired into `PROME/CLOSEOUT.md`). Canonical docs (root `CLAUDE.md` / `GIT_COORDINATION.md`) + ~17 agent CLAUDE.md **intentionally still say "Will-coordinated"** during the soak — documented divergence, NOT an oversight. Plan + next tiers: `PROME/AUTOPUSH_MIGRATION_PLAN.md` + `ACTIVE_DECISIONS`. Tripwire: a non-ff abort = 2nd machine pushed → flag Will.
 
-**Next / pending:** Nothing pending on Prome's side — all auto-pushed. `AGENTS/WALTER/REGISTRY.tsv` modified-uncommitted = WALTER's (not Prome's). WILL/trading-journal: 3 deletions + 2 JPGs = Will's. Shelved (b)/(c) card fires only on HY>280 sustained or WAL Jul-30 — $500/card. 10Y 6/30 re-pull scheduled. Auto-push fleet rollout (Tier 1+) after pilot soak.
+**Next / pending:** Nothing pending on Prome's side — all auto-pushed. `AGENTS/WALTER/REGISTRY.tsv` modified-uncommitted = WALTER's (not Prome's). WILL/trading-journal: 3 deletions + 2 JPGs = Will's. Shelved (b)/(c) card fires only on HY>280 sustained or WAL Jul-16 print (corrected from Jul-30 on 6/26 — REGINALD catch) — $500/card. 10Y 6/30 re-pull scheduled. Auto-push fleet rollout (Tier 1+) after pilot soak.
 
 ## 2026-06-26 — Verification pass (Tier-1 banks + Tier-2 labor): corrections applied + PUSHED
 
@@ -38,6 +38,6 @@
 
 **Decisions / handoffs for Will:** route (1) FORGE duration-roll, (2) REGINALD/CORAL winter-27 FL-$ ~$850M (floor ~$450-700M), (3) NEXUS feed (refresh-hold). Trade construction for (b)/(c) = the Will-gated next thread (needs the book).
 
-**Next:** Jul forward-watch via the grading instrument (CFG/OZK Jul16 → monolines+ZION Jul21 GATE → EGBN Jul22 → WAL Jul30; COF date confirm ~early Jul; 10Y re-pull 6/30). Push the 3 docs next window. Lessons captured: `feedback_warm_parked_agent_collision`, `finding_cluster_adversarial_catches_framing`. MEMORY.md prune + HANDOFF trim-debt (roll 6/21 entries) still deferred.
+**Next:** Jul forward-watch via the grading instrument (CFG/OZK Jul16 → monolines+ZION Jul21 GATE → EGBN Jul22 (WAL corrected Jul30→Jul16, prints WITH CFG/OZK — see 6/26 entry); COF date confirm ~early Jul; 10Y re-pull 6/30). Push the 3 docs next window. Lessons captured: `feedback_warm_parked_agent_collision`, `finding_cluster_adversarial_catches_framing`. MEMORY.md prune + HANDOFF trim-debt (roll 6/21 entries) still deferred.
 
 ---

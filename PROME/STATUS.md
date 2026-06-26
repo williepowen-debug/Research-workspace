@@ -34,7 +34,7 @@
 | Lane | Priority | Status / owner note |
 |---|---:|---|
 | Detection/action hardening | ✅ done 6/26 | config retune + live HY watch timer + trigger→card toolchain + grade_print; verified, pushed. |
-| Bank-put reshape card | 🟡 shelved | `PROME/proposals/2026-06-26_bank-put-reshape-roll.md`; fires ONLY on HY>280 sustained / WAL Jul-30. $500/card. Needs live broker book at fire-time. |
+| Bank-put reshape card | 🟡 shelved | `PROME/proposals/2026-06-26_bank-put-reshape-roll.md`; fires ONLY on HY>280 sustained / WAL Jul-16 print. $500/card. Needs live broker book at fire-time. |
 | Dormant-agent cleanup | ⚪ optional | Inspect before archiving; do not demote folders from vibes. |
 | CREED first real work | 🟡 if requested | Monthly CMBS/special-servicing + REIT tape tracker design. |
 | TERRY first live dry run | 🟡 if requested | Use risk scoring + snapshot/risk scripts; no execution. |

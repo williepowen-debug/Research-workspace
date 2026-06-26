@@ -23,11 +23,11 @@ Energy deflated; credit-bear **ARMED, pre-trigger**; **HY OAS 278 [6/25]** — g
 Bank-put reshape proposal (shelved) · detection/action hardening cluster (config retune + live HY watch timer + chain_fetch + grade_print + fire-card template) · 3-way arch peer-review + fix round (LIQUID de-bloat/selftest/dedupe, TERRY MEMORY+CLOSEOUT) · HEARTBEAT reconcile · full closeout (SCRATCH/HANDOFF/STATUS/ACTIVE_DECISIONS/daily-log) · 9 commits pushed.
 
 ## Open decisions (Will)
-1. **Bank-put reshape card** — shelved, fires ONLY on HY>280 sustained / WAL Jul-30. Needs live broker book at fire-time. ($500/card.)
+1. **Bank-put reshape card** — shelved, fires ONLY on HY>280 sustained / WAL Jul-16 print. Needs live broker book at fire-time. ($500/card.) [WAL date corrected Jul-30→Jul-16, 6/26]
 2. **NEXUS refresh** — deferred (Will hold).
 
 ## Watch next 24–72h
-1. HY vs 280 (278 [6/25], 2bp — now auto-watched → `AGENTS/LIQUID/alerts/`). 2. Wrapper-basket (ARCC/FSK/OBDC) vs managers. 3. 10Y 6/30 re-pull (scheduled cloud routine). 4. June CPI 7/14. 5. Jul bank prints (CFG/OZK Jul16 → monoline gate Jul21 → WAL Jul30) — use `grade_print.py`.
+1. HY vs 280 (278 [6/25], 2bp — now auto-watched → `AGENTS/LIQUID/alerts/`). 2. Wrapper-basket (ARCC/FSK/OBDC) vs managers. 3. 10Y 6/30 re-pull (scheduled cloud routine). 4. June CPI 7/14. 5. Jul bank prints (CFG/OZK/**WAL** Jul16 → monoline gate Jul21 → EGBN Jul22) — WAL now prints WITH CFG/OZK, not the late gate — use `grade_print.py`. 6. **BRK-29 PE-evergreen 2nd-gate window closes ~7/3** (BROCK-owned; Partners Group fired = 1 of 2, 2nd un-fired; clean window-close de-escalates the cross-asset vector). 7. BROCK BRK-30 credit-fund Q3 re-fire (resolve 10/15).
 
 ## Fresh-boot checklist
 1. Verify git (synced 0/0). 2. **Check `AGENTS/LIQUID/alerts/HY_OAS_ALERTS.log` for any between-session HY transition.** 3. Refresh dashboard/FRED before citing levels. 4. No agents warm — spawn fresh as needed.
