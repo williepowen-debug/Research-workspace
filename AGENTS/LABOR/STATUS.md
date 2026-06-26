@@ -25,6 +25,8 @@
 
 **Resolution (Jun 8 update):** Announcement layer (intent) keeps firing — now AI-concentrated (40% of Challenger cuts, record). Realization layer (claims, hires, U-3) is NOT just holding but **revising UP** (NFP May +172K, +93K revisions). The "frozen weak realization" read weakened — April was much stronger than first reported. Structure stays Hotel California (ISM Svs employment contracting 3rd mo, hires frozen) but the bearish realization-break is further away.
 
+> **⚠️ BULL-TILT WATCH (Jun 26) — NOT a thesis change; gates pending.** Claims reversed 229K→226K→215K (both Jun 18 + Jun 25 prints in drift band). WARN acceleration stalled (+2.0% in 10d vs +16.3% prior 15d). Realization layer softening. **Structural layer still intact** (AI displacement, ISM-emp contracting, JOLTS hires 5.1M). Gates: JOLTS May Jun 30 + NFP Jun Jul 2 + Challenger Jun Jul 3 — single-print, needs 2nd confirmation before any convergence downgrade.
+
 ---
 
 ## CONVERGENCE MATRIX (Jun 16 truth-up — 16 LABOR-owned vectors)
@@ -82,11 +84,12 @@ These are real and intact, but they are **labor-*supply* signals** that push U-3
 | Secondary U-metrics Apr | U-4 4.6%, U-5 5.3%, median duration ~11.5wk [EST], prime-age LFPR 83.8% | [CONF] BLS May 8 | 🟠 |
 | NFP sub-sectors Apr | Healthcare +37K, Federal -9K, Mfg -2K (May detail in matrix) | [CONF] BLS May 8 | 🟠 |
 | Claims history (Apr–May) | Apr 25–May 16: 189→200→211→209K; May 23 212K; May 30 225K | [CONF] FRED/archive | 🟢 |
-| **Claims w/e Jun 6 (latest)** | **229K (+4K)** — highest since Feb; upside miss (cons ~216-219K) | [CONF] DOL/FRED Jun 11 | 🟢⚠️ (drift, not break) |
-| Claims 4-wk MA | **219.0K** (was 214.75K; 3rd straight ↑: 208.25→214.75→219.0) | [CONF] FRED Jun 11 | 🟢⚠️ |
-| Continuing Claims (w/e May 30) | **1,795K** — +24K WoW vs revised 1,771K (w/e May 23 rev down from STATUS's 1,777K); above 1,771-1,785K range | [CONF] FRED Jun 11 | 🟢⚠️ |
+| Claims w/e Jun 6 | 229K (+4K) — highest since Feb; upside miss | [CONF] DOL/FRED Jun 11 | 🟢⚠️ |
+| **Claims w/e Jun 13** | **226K (-3K)** — drift band (<230K); pre-mortem = NO escalation; vector 2 held 🟡 | [CONF] DOL/FRED Jun 18 | 🟢⚠️ |
+| **Claims w/e Jun 20 (latest)** | **215K (-11K)** — reversal; lowest since early June; drift correcting | [CONF] DOL/FRED Jun 25 | 🟢 |
+| Claims 4-wk MA | **~224K** (4-wk Jun 25: 215+226+229+225=895/4≈224K; MA still elevated, momentum reversing) | [CONF] FRED Jun 25 | 🟢⚠️ |
+| Continuing Claims (w/e Jun 13) | **1,821K** (+21K WoW) — 3-month high | [CONF] FRED Jun 18 | 🟢⚠️ |
 | Insured UR | 1.2% steady | [CONF] DOL May | 🟢 |
-| Claims w/e Jun 13 | PENDING — Thu Jun 18 | — | ⏳ |
 | **JOLTS Openings Apr** | **7.6M (24-mo high)** vs cons 6.8M | [CONF] BLS Jun 2 — **+700K MoM is largest in 24+ mo; counter-trend (was declining 4 of 5 mo); composition odd (openings ↑↑, hires ↓, quits ↓); watch JOLTS May for revision** | 🔴 (anomaly) |
 | **JOLTS Hires Apr** | **5.1M** (down from 5.6M) | [CONF] BLS Jun 2 | 🔴 |
 | **JOLTS Quits Apr** | 3.0M (down from 3.2M) | [CONF] BLS Jun 2 | 🔴 |
@@ -191,8 +194,8 @@ These are real and intact, but they are **labor-*supply* signals** that push U-3
 | ✅ Jun 5 | Challenger May 97,006; AI 40% record | Highest May since '20; AI 1st time leading |
 | ✅ Jun 6 | **NFP May +172K; U-3 4.3%; +93K revisions** | Hard data strengthened; LAB-15 ❌ falsified |
 | ✅ Jun 11 | **Claims w/e Jun 6 = 229K** (highest since Feb); 4-wk MA 219K; CC 1,795K | Drift CONTINUING, not accelerating (229K in "no new info" band); Claims vector held at 2 🟡 |
-| **Jun 18** | **Claims w/e Jun 13** | **Decision tree pre-staged → `domain/CLAIMS_PREMORTEM_JUN18.md`.** <230K = drift; 230-250K = accelerating (vec→3); 251-300K single = ARM T-01 provisional (1 print ≠ sustained); >300K single = FIRE 🔴 now. |
-| Jun 23 | BLS State Emp May (FL May UR) | Track FL trajectory |
+| ✅ Jun 18 | **Claims w/e Jun 13** | **226K SA — drift band (<230K). Pre-mortem: NO escalation. Vector 2 held 🟡.** CC 1,821K (+21K WoW, 3-mo high). |
+| ✅ Jun 23 | BLS State Emp May (FL UR) | **FL UR May = 4.8%** — flat vs April; +1.1pp YoY; 5th consecutive elevated reading. No further deterioration. |
 | **Jun 30** | **JOLTS May** | LAB-16 resolution (was mis-dated "early Jul") |
 | Jul 1 | ADP + ISM Mfg + Challenger June | Triple release |
 | **Jul 2** | **NFP June + U-3** (pulled to Thu, Jul 3 holiday) | LAB-02 resolution; Kill A check #2 |
@@ -206,6 +209,8 @@ These are real and intact, but they are **labor-*supply* signals** that push U-3
 
 ## NEXT SESSION PICKUP
 
+**Jun 26 maintenance pass (Prome-directed; 10-day gap catch-up):** Integrated two claims prints (Jun 18 = 226K drift; Jun 25 = 215K reversal), FL UR May 4.8%, WARN deceleration (+2.0% in 10d vs prior +16.3%). Added bull-tilt WATCH flag. Marked Jun 18 + Jun 23 calendar rows ✅. PROME inbox corrections items 2-4 NOT FOUND in current LABOR files (STATUS, KB, VX all searched — claims likely appear in an archived/prior file; no active correction needed). BLOCK C arch: trashed root INBOX.md + OUTBOX.md, moved RECON_DRY_RUN/RECON_REPORT/SELF_AUDIT to archive/. Commit local; push Will-coordinated.
+
 **Jun 16 PM addendum (Orc/PROME work-packet + brief standup + closeout).** Executed the consolidated packet (7 items, all verified): LAB-04→CARL outbox; STATUS cosmetics; `labor_data.py` false-green fix (now fails-loud INCOMPLETE on zero data) + interpreter fallback (`PYTHON`=venv-or-system, both scripts); CATALYSTS Jun-25 single-vs-sustained banding; WARN refresh (below). **Stood up `NEXUS_BRIEF.md`** — now a **standing closeout artifact**: refresh AS-OF + STATUS-pin every closeout so NEXUS reads it FRESH (Will: LABOR gets Tier-1 brief treatment, not Tier-2 skip — see auto-mem `[[project_labor_standing_nexus_brief]]`; NEXUS to add the BRIEFS_MAP row). WARN forward-radar routed to NEXUS (🟡, not a 🔴 outbox). Closeout C1–C6 ran. **No new domain data** — next print Thu Jun 18.
 
 **Jun 16 AM session — convergence truth-up + ledger reconciliation (Orc-prompted thesis-honesty pass). NO new data** (boot clean; next print Thu Jun 18). Four changes:
@@ -218,7 +223,7 @@ These are real and intact, but they are **labor-*supply* signals** that push U-3
 
 ---
 
-**Catalyst stack next reads:** (1) **Thu Jun 18** — Claims w/e Jun 13 (pre-mortem staged; see calendar). (2) **Mon Jun 23** — BLS State Emp May / FL UR. (3) **Tue Jun 30** — JOLTS May (LAB-16). (4) **Thu Jul 2** — NFP June + U-3 (LAB-02 resolution; Kill A check #2, Mar rev 214K = #1). **Live threat to bearish thesis: the upward-revision pattern** (Kill A needs 2 more ≥200K prints).
+**Catalyst stack next reads:** ✅ (1) Jun 18 — 226K drift (no escalation); ✅ (2) Jun 23 — FL UR May 4.8% flat. **(3) Tue Jun 30 — JOLTS May** (LAB-16). **(4) Thu Jul 2 — NFP June + U-3** (LAB-02 resolution; Kill A check #2). **(5) Thu Jul 3 — Challenger June** (AI-displacement check; WATCH gate). **Live threats: (a) upward-revision pattern** (Kill A needs 2 more ≥200K) **(b) claims reversal** (215K Jun 20 — realization softening; WATCH gates apply).
 
 **Jun 14 session — Jun 11 claims integration + Orc-collab cleanup (5 commits):**
 - **Claims integrated:** w/e Jun 6 = 229K, 4-wk MA 219K, CC 1,795K across STATUS dashboard/convergence/calendar/LAB-03. Claims/shadow vector HELD at 2 🟡 (not upgraded off one +4K tick).
