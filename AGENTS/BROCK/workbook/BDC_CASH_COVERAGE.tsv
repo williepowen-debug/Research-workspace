@@ -1,3 +1,4 @@
+# FROZEN 2026-06-26 — last data 2026-02-23 (Q4 2025 / early Q1 2026; 4+ months stale). Q1 2026 10-Qs have superseded all rows. Do not cite for current values; use KB.tsv or STATUS.md convergence matrix instead.
 BDC_Ticker	BDC_Name	Report_Period	NII_Per_Share	Dividend_Per_Share	Coverage_Ratio	PIK_Pct	Status	Last_Updated	Data_Source	Notes
 MAIN	Main Street Capital	Q4_2025	$1.01-1.05	$0.75	~1.35x	LOW	GREEN	2026-02-23	Q4 Preliminary	Gold standard: NAV $33.29-33.37, ROE >17%
 ARCC	Ares Capital	Q4_2025	$0.50 Core	$0.48	1.04x	LOW	YELLOW	2026-02-23	Q4 Earnings Feb 4	NAV $19.94, portfolio $29.5B FV
