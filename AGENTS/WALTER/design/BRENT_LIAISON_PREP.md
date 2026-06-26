@@ -10,7 +10,7 @@
 
 **Domain codes:** HORMUZ, GULF_STORAGE, LNG, OPEC, SHALE, TANKERS, WAR
 **Chain:** ENERGY (upstream of SAM, FERT, RED)
-**Platform:** OC (OpenClaw) per current REGISTRY
+**Platform:** CC (single-machine desktop; OpenClaw cutover scoped 2026-06-26, see `design/OPENCLAW_CUTOVER_PLAN.md`)
 **Last STATUS update:** 2026-05-04 (Project Freedom day-of intraday — most recent agent in network)
 **Recent activity:** Active mid-session at the time of WALTER's 5/5 evening session (BRENT's working tree had unstaged SCRATCH.md + STATUS.md + workbook archive)
 **STATUS posture:** 🔴 PHASE 1 DEEPENING — PROJECT FREEDOM LAUNCHED & ACTIVELY CONTESTED

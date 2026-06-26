@@ -32,10 +32,11 @@ A clean status-boot-turned-governance-session. The load-bearing output: the misl
 
 ## WILL_NEEDS
 
-1. **Coordinated push window** when the fleet quiesces — sweeps the 3 WALTER commits + closeout.
+1. **Coordinated push window** when the fleet quiesces — sweeps the session's WALTER commits (registry refresh / light + full closeout / tiered-closeout protocol / cutover plan / cutover can-do-now).
 2. (carried) **RED auto-cc trim?** (RED ~35% of delivery volume, all-INFO; over-cc pattern persists). [The 4-handoff prune is moot.]
 3. (carried) **EIA `.env` durability** — works on the laptop; any other box runs Cushing dark.
 4. (carried) **DEWEY Prompt B** spawn · **Scout build** (resolves the 3 dark crons) · ENSO/hurricane → CORAL offer.
+5. **🔴 OpenClaw cutover** — scoped in `design/OPENCLAW_CUTOVER_PLAN.md` (9 phases; WALTER-can-do-now items done this session, incl. the v0.6 changeset + defaults memo `design/BOARD_CONSUMPTION_SPEC_v0.6_CHANGESET.md`). **Urgent regardless of timing: rotate 2 exposed secrets** (committed Telegram bot token in `FORGE/tools/news-sweep/cron_sweep.sh` + the `clawdbot-gateway.service` `CLAWDBOT_GATEWAY_TOKEN`). Phase-0 decisions await: PROME→CC, YEYOU keep/cut, Telegram ownership, Quick-WALTER, Platform/delivery_log columns, FLASH push-authority.
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
 
@@ -65,7 +66,7 @@ A clean status-boot-turned-governance-session. The load-bearing output: the misl
 
 **🆕 Raised/resolved 2026-06-26:** **Tiered-closeout Tier-2 trigger** — encoded as Will-say-so + ≥3-breadcrumb auto-backstop (Will can change to purely-manual or more-aggressive). **YEYOU tier = 1 / TERRY tier = 1** (Will-resolved this session).
 
-**🟦 Still open (parked):** RED auto-cc trim; EIA `.env` durability; DEWEY↔Scout consolidation; group-chat artifact policy; §3.4 scoped-push runbook; INDEX status-column; staleness-sweep cadence; HENRY LIAISON priority; FED_FRAMEWORK→UST_PLUMBING rename (defer); Filter v2 Segment D; COP refresh resume (paused); ENSO/hurricane → CORAL (offered); thin-liquidity prediction-market routing convention; consume-boot-step (operator-directed vs standing).
+**🟦 Still open (parked):** RED auto-cc trim; EIA `.env` durability; DEWEY↔Scout consolidation; group-chat artifact policy; INDEX status-column; staleness-sweep cadence; HENRY LIAISON priority; FED_FRAMEWORK→UST_PLUMBING rename (defer); Filter v2 Segment D; COP refresh resume (paused); ENSO/hurricane → CORAL (offered); thin-liquidity prediction-market routing convention; consume-boot-step (operator-directed vs standing).
 
 **✅ Resolved (carried closed):** registry_lag refresh DONE 6/26 · RED-prune MOOT · YEYOU/TERRY Tier-1 · tiered-closeout shipped. 6/22: CRE/CMBS→CREED (v0.12) · TERRY info-only (v0.13) · Cushing wired to FORGE · dormant-dirs DEAD-except-DOC · ORACLE leave-alone · YEYOU-register (now done).
 

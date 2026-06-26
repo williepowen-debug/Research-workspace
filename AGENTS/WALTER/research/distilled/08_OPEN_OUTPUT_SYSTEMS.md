@@ -1,5 +1,7 @@
 # Prompt 8 Distilled: Open Output Systems — What We Keep
 
+> **2026-06-26 note:** any two-platform / OpenClaw framing below is SUPERSEDED by the single-machine (desktop CC) model — see `design/OPENCLAW_CUTOVER_PLAN.md`. The open-output design principles still stand.
+
 **Source discipline:** Military COP doctrine, Blackboard Pattern (AI), IC dissemination, event-driven architecture (Kafka), wire services (AP/Reuters), cognitive load research
 **Core question answered:** Is there a better model than point-to-point inboxes where agent outputs are "out in the open" — and what kills shared displays in practice?
 

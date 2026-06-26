@@ -48,7 +48,7 @@ You maintain:
 
 ### Boot (read phase — this order matters)
 0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
-0.5. **Run `walter_doctor.py`** — read-only domain health scan (built 2026-06-16; mechanizes the manual audit). Invoke with the **portable-python fallback** (works on the VPS where `.venv` may be absent — Quick WALTER runs there):
+0.5. **Run `walter_doctor.py`** — read-only domain health scan (built 2026-06-16; mechanizes the manual audit). Invoke with the **portable-python fallback** (portable: works whether or not `.venv` is present):
    ```sh
    PYTHON="${PYTHON:-python3}"; [ -x .venv/bin/python3 ] && PYTHON=.venv/bin/python3
    $PYTHON AGENTS/WALTER/tools/walter_doctor.py
