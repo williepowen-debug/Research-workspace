@@ -247,3 +247,6 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-06-26T23:13:00Z	SIG-W-20260626-017	CORAL	action	CC	PRIORITY	AGENTS/CORAL/inbox/WALTER/SIG-W-20260626-017.md	written_not_delivered_pending_push	FL-labor pillar flag — pull FL LAUS print
 2026-06-26T23:13:00Z	SIG-W-20260626-017	CARL	info	CC	PRIORITY	AGENTS/CARL/inbox/WALTER/SIG-W-20260626-017.md	written_not_delivered_pending_push	state-level labor softening vs national U-3
 2026-06-26T23:13:00Z	SIG-W-20260626-017	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260626-017.md	written_not_delivered_pending_push	cluster / headline-only caveat
+2026-06-26T23:25:00Z	SIG-W-20260626-018	LIQUID	action	CC	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260626-018.md	written_not_delivered_pending_push	macro-warning vs liquidity-event discriminator; credit leg (HY 278) not confirming
+2026-06-26T23:25:00Z	SIG-W-20260626-018	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260626-018.md	written_not_delivered_pending_push	falsifiable tripwire structure (cluster_mediating auto-cc)
+2026-06-26T23:25:00Z	SIG-W-20260626-018	HENRY	info	CC	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260626-018.md	written_not_delivered_pending_push	rates/dollar/risk cross; cash+duration preference
