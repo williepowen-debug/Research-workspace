@@ -5,6 +5,8 @@
 
 **Stale-history warning:** The prior live `STATUS.md` was last updated 2026-03-26 and is archived at `AGENTS/SHADE/archive/STATUS_2026-03-26_pre_refresh.md`. Old APO price levels, Jun18 option rails, and March catalyst language are historical unless explicitly refreshed below.
 
+**⚠️ KB staleness flag (2026-06-26):** `domain/sources/` KB docs (01–08) are **Mar'26 vintage (>90d stale)**. Do not cite as current without a staleness check. Boot-retirement rule: if >60d + not boot-read + not referenced in a current STATUS section → `git mv` to `archive/`. Refresh cadence: only before a new cite is required; check the `LAST_REVIEWED` field in each doc header first.
+
 ---
 
 ## 0. 2026-06-21 boot delta (verified sweep)

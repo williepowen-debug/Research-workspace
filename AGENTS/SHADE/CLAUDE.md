@@ -92,14 +92,18 @@ Read→write pairings: STATUS (read 1 → write 6), SCRATCH (read 2 → write 8)
 ### Execute
 5. **Execute the task.** If boot reveals a live regulatory/funding event (NAIC/SVO action, AG 55 filing, Athene/FABN/FHLB funding stress, rating-agency action, or insurer asset-transfer story), EXECUTE stays open: snapshot STATUS as a working dashboard and stay engaged until the event stabilizes or Will signals stop. Do not prematurely close out mid-event.
 
+### Pre-closeout guard (run BEFORE any writes)
+5.5. **`git status -- AGENTS/SHADE/`** — scan for unstaged deletions (bash-mv residue), unintended modifications in other dirs, and orphaned new files before writing anything. A dangling unstaged deletion from a bash-mv will produce a separate cleanup commit in the push-train. Fix first. Also scan `inbox/WALTER/` for unprocessed signals; if any, triage now (minimum: `noted` disposition + board_log append + `git mv` to processed/) so the push-train does not carry a stale inbox.
+
 ### Closeout (write-back — run at every session end)
 6. **`STATUS.md` write-back** — update insurer-wrapper dashboard, active vectors, regulatory/funding state, and next actions. Put threshold breaches and active situations at the top. Keep BROCK facts referenced, not duplicated. Keep under ~250 lines; archive overflow to `research/`.
 7. **Research detail → `research/`** — statutory filing extracts, NAIC/SVO notes, FABN/FHLB schedules, insurer asset-transfer analysis.
 8. **Rewrite `SCRATCH.md`** — CHANGES SINCE / WHAT I DID / NEXT SESSION / OPEN THREADS / mail state. This is SHADE's canonical handoff. `LAST_COMPLETION.md` is legacy/historical.
 9. **Promotion scan** — thesis-level insurer-wrapper finding → `STATUS.md` and, when thesis scaffolding exists, thesis files; SHADE-specific durable lesson → `MEMORY.md`; transferable cross-agent lesson → auto-memory, then remove duplicate from local `MEMORY.md`.
 10. **Structural-change log** — if the session changed SHADE's architecture (doc created/retired/moved, protocol change, script/workbook/schema added), add a `MAINTENANCE.md` entry.
+10a. **Retirement scan** — any file in `research/` or `domain/sources/` that is (a) >60 days old AND (b) not actively boot-read AND (c) not referenced by a current STATUS section: `git mv` to `archive/`. `tmp_*` dirs are always session-temp — archive at every closeout. Log archived files in `MAINTENANCE.md`. For `domain/sources/` KB docs: check the `LAST_REVIEWED` field in each doc header; if >60d, flag the doc as stale at STATUS §0 and schedule a refresh before next cite.
 11. **Cross-agent signals** — steady-state cross-agent context should eventually flow through `NEXUS_BRIEF.md`; until that exists, write `outbox/` only for acute/time-sensitive insurer-wrapper signals. Do not send routine acknowledgements.
-12. **Git** — pathspec commits only, SHADE domain only. Modified files: `git commit -m "SHADE: <subject>" -- AGENTS/SHADE/<file> ...`. New files: `git add -- AGENTS/SHADE/<newfile> ...` then commit with explicit pathspecs. Never `git add AGENTS/SHADE/`, `git add .`, `git reset HEAD`, or commit outside `AGENTS/SHADE/`. Push only when Will coordinates.
+12. **Git** — pathspec commits only, SHADE domain only. Modified files: `git commit -m "SHADE: <subject>" -- AGENTS/SHADE/<file> ...`. New files: `git add -- AGENTS/SHADE/<newfile> ...` then commit with explicit pathspecs. Never `git add AGENTS/SHADE/`, `git add .`, `git reset HEAD`, or commit outside `AGENTS/SHADE/`. Push only when Will coordinates. **Always use `git mv`, not bash `mv`, when moving inbox/research files.**
 
 **Discipline overlay:** one source of truth per metric; stale-marked beats carried-forward-as-current; primary/statutory filings beat media summaries; do not let BROCK's fund-level stress substitute for SHADE's insurer-wrapper mechanism.
 

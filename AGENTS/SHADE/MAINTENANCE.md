@@ -4,6 +4,13 @@ Structural-change log for SHADE architecture: docs/scripts/protocol/schema chang
 
 ---
 
+### 2026-06-26 — Tier-1 fleet fixes applied (T1a/T1b/T1c)
+- **Trigger:** Will-directed fleet architecture review; Prome Tier-1 fixes mandated across all agents.
+- **T1a — Stale-ledger fix:** Added `LAST_REVIEWED` field to all 8 `domain/sources/` KB doc headers (Mar'26 vintage; flagged as ⚠️ >60d stale). Added KB staleness warning to STATUS §0. Note: KB-07 (FABN) is additionally superseded by `research/ATHENE_FABN_MATURITY_LADDER_2026-06-22.md` for kill-path-1 figures.
+- **T1b — Pre-closeout git-status check:** Added mandatory `git status -- AGENTS/SHADE/` scan as step 5.5 (pre-closeout guard) in CLAUDE.md spawn protocol. Catches bash-mv residue, unintended cross-dir changes, and stale inbox — run before any writes.
+- **T1c — Retirement rule + first-pass archive:** Added ">60d + not boot-read + not referenced → git mv to archive/" as step 10a in closeout protocol. First-pass archived: `LAST_COMPLETION.md` (dormant), `research/STATUS_DRAFT_2026-06-15.md`, `research/STATUS_REFRESH_PHASE1_MAP_2026-06-15.md`, `research/STATUS_REFRESH_PHASE3_SOURCES_2026-06-15.md` (stale STATUS-rebuild scaffolding), `research/tmp_aaia_extract/` (session-temp PDFs). All moved to `archive/` via `git mv`. CLAUDE.md step 12 adds explicit `git mv` mandate for inbox/research moves.
+- **Files touched:** `CLAUDE.md`, `STATUS.md`, all 8 `domain/sources/*.md`, `MAINTENANCE.md`; git-mv'd 6 files to `archive/`.
+
 ### 2026-06-22 — FABN maturity ladder artifact + CLAUDE.md kill-path re-mark
 - **Trigger:** Will requested the Athene FABN maturity ladder (next-action #2 from the 6/21 boot).
 - **What changed:** Added `research/ATHENE_FABN_MATURITY_LADDER_2026-06-22.md` (program stack + maturity-dated tranche list + the structural-invisibility finding + kill-path-1 read). Re-marked the **$16.5B 2026-2027 FABN wall as third-party/unverified** across STATUS (§0/§2/dashboard/calendar/next-actions/§8) **and edited `CLAUDE.md`** (Primary Target line + kill-path-1 line) — first time SHADE's own spec doc was annotated for a verified-thesis correction.
