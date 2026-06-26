@@ -1,5 +1,11 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-26 ~13:30 ET (Claude Code Prome — full session: reshape proposal → STANDING RULE → detection/action HARDENING cluster → arch peer-review + fix round → HEARTBEAT reconcile → full closeout → boot de-bloat thread. **All PUSHED, synced 0/0 at `260b12b2`.** Agents released.)
+**Last Updated:** 2026-06-26 ~14:35 ET (Claude Code Prome — full session: reshape proposal → STANDING RULE → detection/action HARDENING cluster → arch peer-review → HEARTBEAT reconcile → closeout → boot de-bloat thread → **AUTO-PUSH MIGRATION (pilot live)**. **All PUSHED, synced 0/0.** Agents released.)
+
+## ★ Auto-push pilot LIVE (Will 6/26) — behavior change for next Prome
+- **Prome now AUTO-PUSHES at closeout** via `./scripts/safe-push.sh` (wired into `PROME/CLOSEOUT.md` Chunk 4). No more manual "push window" for Prome. The script is **ff-gated + fails safe**: a non-ff ABORT = a 2nd machine pushed → STOP, don't force, flag Will (tripwire that single-machine was violated).
+- **Mid-pilot / soak:** canonical docs (root `CLAUDE.md`, `PROME/GIT_COORDINATION.md`) + the ~17 agent CLAUDE.md still read "Will-coordinated" — DELIBERATE divergence during soak. Don't "fix" them yet.
+- **Plan + next steps:** `PROME/AUTOPUSH_MIGRATION_PLAN.md`. After a clean soak → Tier 1 canonical policy → remaining closeouts → lazy-sweep agent files. Decisions: single-desktop ✅, closeout-step, lazy-sweep, pilot-first.
+- Precondition: single-desktop only. If you ever push from a 2nd machine, auto-push aborts safely → switch to per-agent branches.
 
 ## What happened this session (6/26)
 1. **Bank-put reshape proposal** → `PROME/proposals/2026-06-26_bank-put-reshape-roll.md`. Book dated 2026 / thesis 2027 = duration mismatch; (b) AOCI + (c) WAL live, (a) regional trimmed. **SHELVED** as the ready "if HY 280" card per the standing rule — NOT executed.
@@ -22,8 +28,8 @@
 - 10Y 6/30 re-pull scheduled (cloud routine `trig_01Ps7pv1WaupKwBG9mWds46T`).
 
 ## Repo state
-- **All pushed — local = origin = `260b12b2`, synced 0/0.** Tree clean except WILL/ items.
-- **WILL/trading-journal:** 3 journal deletions (Will intentional, old) + 2 book JPGs — UNTOUCHED, Will's to commit on his next push.
+- **All Prome work committed + auto-pushed, synced 0/0.** (Prome closeouts now self-push.)
+- **Not Prome's, left untouched:** `AGENTS/WALTER/REGISTRY.tsv` modified-uncommitted (WALTER active 6/26 afternoon — WALTER's to commit); `WILL/trading-journal/` 3 journal deletions (Will intentional) + 2 book JPGs (Will's).
 
 ## Cautions
 - Position/broker truth = Will/FORGE, not these files. Refresh dashboard/FRED before citing levels. `git add` own-dir paths only; config.py + HEARTBEAT = shared (Prome-coordinated). No push without Will window.

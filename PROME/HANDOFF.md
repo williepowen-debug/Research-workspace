@@ -6,7 +6,7 @@
 
 ---
 
-## 2026-06-26 — Standing rule + detection/action hardening + arch peer-review + boot de-bloat (PUSHED, synced 0/0)
+## 2026-06-26 — Standing rule + detection/action hardening + arch peer-review + boot de-bloat + AUTO-PUSH pilot (PUSHED, synced 0/0)
 
 **Status:** Long session off Will's current book (2 images). Arc: bank-put **reshape proposal** (shelved) → **STANDING RULE** (deploy only on a fired trigger; $500/card) → **detection/action HARDENING cluster** (LIQUID/SENTRY/TERRY, Prome-directed) → **arch peer-review + fix round** → **HEARTBEAT reconcile** → **full closeout** → **boot de-bloat thread**. **PUSHED — origin master `260b12b2`, synced 0/0.** 3 agents released.
 
@@ -14,7 +14,9 @@
 
 **The read:** no market trigger fired — a **maintenance + system-hardening** session, NOT a new-conviction entry. Live **HY 278 [6/25], 2bp from the >280 X1** (271→276→278); detection blind spot now closed (timer auto-catches a 280 cross between sessions).
 
-**Next / pending:** Nothing pending on Prome's side — all pushed. WILL/trading-journal: 3 journal deletions (Will-intentional) + 2 book JPGs untouched, Will's to commit. Shelved (b)/(c) card fires only on HY>280 sustained or WAL Jul-30 — $500/card, needs live broker book at fire-time. 10Y 6/30 re-pull scheduled.
+**★ AUTO-PUSH MIGRATION (pilot live):** Will confirmed single-desktop → **Prome now auto-pushes at closeout** via `scripts/safe-push.sh` (ff-gated, fails safe; wired into `PROME/CLOSEOUT.md`). Canonical docs (root `CLAUDE.md` / `GIT_COORDINATION.md`) + ~17 agent CLAUDE.md **intentionally still say "Will-coordinated"** during the soak — documented divergence, NOT an oversight. Plan + next tiers: `PROME/AUTOPUSH_MIGRATION_PLAN.md` + `ACTIVE_DECISIONS`. Tripwire: a non-ff abort = 2nd machine pushed → flag Will.
+
+**Next / pending:** Nothing pending on Prome's side — all auto-pushed. `AGENTS/WALTER/REGISTRY.tsv` modified-uncommitted = WALTER's (not Prome's). WILL/trading-journal: 3 deletions + 2 JPGs = Will's. Shelved (b)/(c) card fires only on HY>280 sustained or WAL Jul-30 — $500/card. 10Y 6/30 re-pull scheduled. Auto-push fleet rollout (Tier 1+) after pilot soak.
 
 ## 2026-06-26 — Verification pass (Tier-1 banks + Tier-2 labor): corrections applied + PUSHED
 
