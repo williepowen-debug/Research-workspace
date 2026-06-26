@@ -45,31 +45,11 @@ sys.path.insert(0, str(HERE))
 HIGH, MED, LOW, INFO = "HIGH", "MED", "LOW", "INFO"
 TODAY = dt.date.today()
 
-# Claude-Code recipients (own clone → delivered = committed AND on origin);
-# everyone else routes via the OpenClaw shared VPS clone. Derived from the
-# REGISTRY Platform column (canonical, RULE 3) rather than a hardcoded set, so a
-# new/changed CC agent is picked up automatically — the prior hardcoded
-# {CARL,REGINALD,SAM,RED,OZK} silently mislabeled HENRY/CORAL/VIOLET (all
-# Platform=CC) as OPENCLAW. Source: BOARD_CONSUMPTION_SPEC v0.2 §3.3.
-_CC_FALLBACK = {"CARL", "REGINALD", "SAM", "RED", "OZK"}
-
-
-def _cc_agents():
-    """Agents whose REGISTRY Platform column is exactly 'CC' (own CC clone).
-    'OC+CC' (PROME) → OpenClaw for delivery (its primary surface). Falls back to
-    the prior hardcoded set if the registry can't be parsed."""
-    out = set()
-    try:
-        with (WALTER / "REGISTRY.tsv").open(errors="replace") as f:
-            rdr = csv.reader(f, delimiter="\t")
-            header = next(rdr, [])
-            i_a, i_p = header.index("Agent"), header.index("Platform")
-            for row in rdr:
-                if len(row) > max(i_a, i_p) and row[i_p].strip().upper() == "CC":
-                    out.add(row[i_a].strip())
-    except (OSError, ValueError, StopIteration):
-        return set(_CC_FALLBACK)
-    return out or set(_CC_FALLBACK)
+# Single-machine (desktop CC) since 2026-06-26 — OpenClaw/VPS cut. Every agent
+# runs as a Claude Code session on the one shared repo, so a delivered handoff =
+# committed AND on origin for ALL recipients (no platform split). The former
+# _cc_agents()/REGISTRY-Platform-column derivation + OPENCLAW branches are gone.
+# Source: BOARD_CONSUMPTION_SPEC v0.6 §3.3 (design/OPENCLAW_CUTOVER_PLAN.md).
 
 
 # delivered handoff older than this (days) without being consumed → flag
@@ -368,16 +348,15 @@ def check_liaison_enum():
 
 # ── delivery layer: handoff discovery + git-derived sync state ──────────────
 def _handoff_files():
-    """Non-processed WALTER delivery handoffs: (path, recipient, relpath, platform).
-    Globs AGENTS/*/inbox/WALTER/*.md, excluding anything under processed/."""
+    """Non-processed WALTER delivery handoffs: (path, recipient, relpath).
+    Globs AGENTS/*/inbox/WALTER/*.md, excluding anything under processed/.
+    Single-machine: every recipient is CC → delivered = committed AND on origin."""
     out = []
-    cc = _cc_agents()
     for p in (REPO / "AGENTS").glob("*/inbox/WALTER/*.md"):
         if "/processed/" in p.as_posix():
             continue
         recipient = p.relative_to(REPO / "AGENTS").parts[0]
-        platform = "CLAUDE_CODE" if recipient in cc else "OPENCLAW"
-        out.append((p, recipient, str(p.relative_to(REPO)), platform))
+        out.append((p, recipient, str(p.relative_to(REPO))))
     return out
 
 
@@ -418,39 +397,38 @@ def _sync_state(relpath: str, origin_ref) -> str:
 
 # ── delivered-but-unconsumed (BOARD_CONSUMPTION_SPEC v0.2 §6.1) ─────────────
 def check_delivered_but_unconsumed():
-    """A delivered handoff (OpenClaw: present here; CC: on origin) sitting >N days
-    without being moved to processed/ → the recipient's Phase-2 consume boot-step
-    may not be installed. The visible Phase-2-gap telemetry."""
+    """A delivered handoff (on origin) sitting >N days without being moved to
+    processed/ → the recipient's Phase-2 consume boot-step may not be installed.
+    The visible Phase-2-gap telemetry."""
     files = _handoff_files()
     if not files:
         return [(INFO, "no WALTER handoffs in flight")]
     origin = _origin_ref()
     aged = []
-    for p, recipient, relpath, platform in files:
-        delivered = platform == "OPENCLAW" or _sync_state(relpath, origin) == "on_origin"
-        if not delivered:
+    for p, recipient, relpath in files:
+        if _sync_state(relpath, origin) != "on_origin":
             continue  # not delivered yet → written_but_undelivered owns it
         age = _age_days(dt.date.fromtimestamp(p.stat().st_mtime))
         if age > N_UNCONSUMED_DAYS:
-            aged.append((recipient, p.name, age, platform))
+            aged.append((recipient, p.name, age))
     if not aged:
         return [(INFO, f"all delivered handoffs consumed or ≤{N_UNCONSUMED_DAYS}d old "
                       f"({len(files)} in flight)")]
     return [(MED, f"{r}: {f} delivered {a}d ago, not consumed (Phase-2 consume "
-                  f"boot-step installed for {r}?) [{plat}]")
-            for r, f, a, plat in sorted(aged, key=lambda x: -x[2])]
+                  f"boot-step installed for {r}?)")
+            for r, f, a in sorted(aged, key=lambda x: -x[2])]
 
 
 # ── written-but-undelivered (BOARD_CONSUMPTION_SPEC v0.2 §6.2, git-derived) ──
 def check_written_but_undelivered():
-    """Handoff committed locally but not reachable from origin = not delivered to a
-    CC recipient (their clone can't pull it). Severity honors platform nuance §3.3."""
+    """Handoff committed locally but not reachable from origin = not delivered (the
+    recipient's next pull can't see it). Single-machine: all recipients are CC."""
     files = _handoff_files()
     if not files:
         return [(INFO, "no WALTER handoffs awaiting delivery")]
     origin = _origin_ref()
     out = []
-    for p, recipient, relpath, platform in sorted(files, key=lambda x: x[1]):
+    for p, recipient, relpath in sorted(files, key=lambda x: x[1]):
         sync = _sync_state(relpath, origin)
         if sync == "on_origin":
             continue                                   # delivered (reachable on pull)
@@ -459,15 +437,11 @@ def check_written_but_undelivered():
                               f"sync state underivable"))
         elif sync == "unknown":
             out.append((LOW, f"{recipient}: {p.name} — git sync state unknown"))
-        elif platform == "CLAUDE_CODE":
-            if sync == "ahead":
-                out.append((MED, f"{recipient}: {p.name} committed but NOT on origin — "
-                                f"CC recipient can't pull it (needs §3.4 scoped-push)"))
-            else:  # uncommitted
-                out.append((LOW, f"{recipient}: {p.name} written, uncommitted (mid-session)"))
-        else:  # OpenClaw — reaches shared clone on sync (or same-clone via Quick WALTER)
-            out.append((INFO, f"{recipient}: {p.name} not-on-origin — reaches OpenClaw shared "
-                             f"clone on sync (same-clone if written by Quick WALTER) [OPENCLAW]"))
+        elif sync == "ahead":
+            out.append((MED, f"{recipient}: {p.name} committed but NOT on origin — "
+                            f"recipient can't pull it (needs §3.4 scoped-push)"))
+        else:  # uncommitted
+            out.append((LOW, f"{recipient}: {p.name} written, uncommitted (mid-session)"))
     if not out:
         return [(INFO, "all WALTER handoffs delivered (on origin)")]
     return out

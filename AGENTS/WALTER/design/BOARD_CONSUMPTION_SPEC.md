@@ -1,9 +1,9 @@
 # BOARD Delivery + Consumption Spec
 
-**Version:** v0.5
-**Created:** 2026-04-20 (v0.1 consumption-only) · **Extended:** 2026-06-17 (v0.2 delivery layer) · **Clarified:** 2026-06-18 (v0.3 canonical-lane guardrail; v0.4 bright-line Quick-WALTER whitelist; v0.5 registry-only Quick routing + UTC stamps)
+**Version:** v0.6
+**Created:** 2026-04-20 (v0.1 consumption-only) · **Extended:** 2026-06-17 (v0.2 delivery layer) · **Clarified:** 2026-06-18 (v0.3–v0.5 Quick-WALTER tightening) · **Collapsed:** 2026-06-26 (v0.6 single-machine platform-collapse — OpenClaw cut)
 **Owner:** WALTER
-**Status:** **Delivery layer = Phase 1, ships now.** Consumption = Phase 2, time-boxed (see §8). Approved-in-principle by Will + PROME + ORC ("WALTER Routing v2 — Final Design Packet", 2026-06-17).
+**Status:** **Single-machine (desktop CC) since 2026-06-26 — OpenClaw cut; `delivered` is uniform (committed + on-origin); Quick-WALTER retired.** Delivery layer SHIPPED; consumption = Phase 2 self-apply (see §8). Approved-in-principle by Will + PROME + ORC (2026-06-17); v0.6 collapse Will-ratified 2026-06-26 (`design/OPENCLAW_CUTOVER_PLAN.md`).
 
 ---
 
@@ -22,7 +22,7 @@ Three orthogonal delivery states. **These are distinct from the signal-validity 
 | State | Definition |
 |-------|-----------|
 | **published** | Signal file in `/BOARD/` + a row in `/BOARD/INDEX.md`. (Unchanged from today.) |
-| **delivered** | Handoff file exists where the recipient will actually read it — **platform-dependent**, see §3. |
+| **delivered** | Handoff file is **committed AND on origin** (reachable on the recipient's next pull). Written-but-unpushed is NOT delivered. See §3. |
 | **consumed** | Recipient processed it: logged a disposition in its `board_log.tsv` **and** moved the handoff file to `inbox/WALTER/processed/`. |
 
 **Reporting discipline:** never report "routed to AGENT" on *published* alone; never claim *consumed* until recipient-side processing exists. WALTER can assert *published* and *delivered* (the latter via §3's git-derived check); only the recipient can assert *consumed*.
@@ -68,21 +68,20 @@ Related signals, paired dispatches, thresholds, anchor files.
 
 The kernel is a self-contained summary so the recipient can act without round-tripping to BOARD; the `BOARD:` line is the pointer to full detail.
 
-### 3.3 Platform-nuanced `delivered`
+### 3.3 `delivered` — single-machine definition
 
-| Recipient platform | Agents | `delivered` means |
-|--------------------|--------|-------------------|
-| **OpenClaw** (shared VPS clone) | BRENT, HAWK, BROCK, LIQUID, HENRY, LABOR, NEXUS, VIOLET, SHADE (+ PROME, Tier-2 OpenClaw) | Handoff file exists in the **shared clone** the recipient reads. Instant when **Quick WALTER** (which runs on the VPS) writes it. *(When **Full WALTER** writes it locally, it reaches the VPS clone only after the commit is on origin and the VPS pulls — so cross-clone delivery is on-origin-gated even for OpenClaw recipients.)* |
-| **Claude Code** (own clone) | CARL, REGINALD, SAM, RED (+ OZK per root CLAUDE.md `*`) | File written **and committed AND pushed/synced to origin** (reachable on the recipient's next pull). **Written-but-unpushed is NOT delivered.** |
+All agents run as Claude Code sessions on the one shared desktop repo (the OpenClaw/VPS platform was cut 2026-06-26 — see `design/OPENCLAW_CUTOVER_PLAN.md`). `delivered` has **one meaning for every recipient**:
 
-**Urgent fallback:** FLASH (and IMMEDIATE) to a Claude-Code recipient while sync is pending falls back to the existing **FLASH → Telegram/Will alert** path so the signal is never invisible. See §3.4 for the precedence→push handling.
+> A handoff file is **delivered** when it is **written, committed, AND pushed/synced to origin** (reachable on the recipient's next pull). **Written-but-unpushed is NOT delivered.**
 
-### 3.4 Push handling by precedence (Claude-Code recipients)
+**Urgent fallback:** FLASH (and IMMEDIATE) while a sync is pending falls back to the existing **FLASH → Telegram/Will alert** path so the signal is never invisible. See §3.4 for the precedence→push handling.
 
-Push is **not** automatic WALTER authority (see §7). The one standing auto-push authorization:
+### 3.4 Push handling by precedence
 
-- **FLASH / IMMEDIATE to a CC recipient:** PROME may perform a **clean-tree scoped commit + normal push** — *only if* there is no unrelated/uncommitted work in the shared tree and no unsafe rebase condition. Git pushes **commits, not files**, so this is: *commit only the exact WALTER / BOARD / recipient-handoff paths, verify the tree is clean/safe, `pull --rebase` if behind, push normally, never force* — NOT "push specific files." This is the **only** standing auto-push authorization; all other pushes stay Will-coordinated.
-- **PRIORITY / ROUTINE to a CC recipient:** write + commit locally, mark `written_not_delivered_pending_push`, and surface in `walter_doctor` + closeout until a Will/PROME sync window pushes it.
+Push is **not** automatic blanket WALTER authority (see §7). The one standing auto-push authorization:
+
+- **FLASH / IMMEDIATE:** WALTER may perform a **clean-tree scoped commit + push via `scripts/safe-push.sh`** (the ff-gated helper) — *only if* there is no unrelated/uncommitted work in the shared tree and no unsafe rebase condition (0g, Will-ratified 2026-06-26). Git pushes **commits, not files**, so this is: *commit only the exact WALTER / BOARD / recipient-handoff paths, verify the tree is clean/safe, `pull --rebase` if behind, push via the ff-gate, never force* — NOT "push specific files." This is the **only** standing auto-push authorization; all other pushes stay Will-coordinated.
+- **PRIORITY / ROUTINE:** write + commit locally, mark `written_not_delivered_pending_push`, and surface in `walter_doctor` + closeout until a Will sync window (or the next push-train) pushes it.
 
 ---
 
@@ -96,7 +95,7 @@ File: `AGENTS/WALTER/routed/delivery_log.tsv` — **WALTER-owned**, append-only,
 | `signal_id` | string | `SIG-W-YYYYMMDD-NNN`. |
 | `recipient` | string | Agent name. |
 | `role` | enum | `ACTION` / `INFO`. |
-| `recipient_platform` | enum | `OPENCLAW` / `CLAUDE_CODE`. |
+| `recipient_platform` | enum | `CLAUDE_CODE` (constant since the single-machine collapse, 2026-06-26). Historical `OPENCLAW` rows preserved as-is — append-only, never rewritten. |
 | `precedence` | enum | `FLASH` / `IMMEDIATE` / `PRIORITY` / `ROUTINE`. |
 | `handoff_path` | string | `AGENTS/{RECIPIENT}/inbox/WALTER/SIG-W-YYYYMMDD-NNN.md`. |
 | `written_state` | enum | `WRITTEN` (file created, uncommitted) / `COMMITTED` (committed locally). **WALTER records up to COMMITTED only.** |
@@ -147,20 +146,19 @@ timestamp_read	signal_id	disposition	source	notes
 Two read-only checks in `walter_doctor.py` (also runnable by PROME via the portable-python fallback, §10). This is the single safeguard that stops a repeat of v0.1's silent stall.
 
 ### 6.1 `delivered_but_unconsumed`
-For each `AGENTS/*/inbox/WALTER/*.md` not in `processed/`: a **delivered** handoff (OpenClaw: present in this clone; CC: on origin) older than **N days** (default **N=2**, configurable) → flag. Until the recipient's Phase-2 boot-step is installed, nothing moves to `processed/`, so this surfaces the consumption gap per recipient — exactly the intended visibility.
+For each `AGENTS/*/inbox/WALTER/*.md` not in `processed/`: a **delivered** handoff (on origin) older than **N days** (default **N=2**, configurable) → flag. Until the recipient's Phase-2 consume boot-step is installed, nothing moves to `processed/`, so this surfaces the consumption gap per recipient — exactly the intended visibility.
 
 ### 6.2 `written_but_undelivered` (git-derived)
-For each non-`processed/` handoff file: derive push/origin state **read-only from git** (a handoff in commits ahead of `origin/master`, or not reachable from origin, = not delivered). Severity by platform (honors §3.3):
-- **CC recipient + committed-but-not-on-origin** → **MED** (genuinely undelivered; needs the §3.4 push). MED escalates for FLASH/IMMEDIATE precedence.
-- **CC recipient + uncommitted (`WRITTEN`)** → LOW (mid-session transient).
-- **OpenClaw recipient + not-on-origin** → INFO (readable in the shared clone once synced; push is for cross-clone durability, not delivery to a same-clone reader).
+For each non-`processed/` handoff file: derive push/origin state **read-only from git** (a handoff in commits ahead of `origin/master`, or not reachable from origin, = not delivered):
+- **Committed-but-not-on-origin** → **MED** (genuinely undelivered; needs the §3.4 push). MED escalates for FLASH/IMMEDIATE precedence.
+- **Uncommitted (`WRITTEN`)** → LOW (mid-session transient).
 - If `origin/master` ref is unavailable (fresh/shallow clone) → INFO "origin ref unavailable, sync state underivable" (per `[[finding_shallow_clone_false_fork]]` — don't assert divergence on a missing ref).
 
 ---
 
 ## 7. Sync & push authority
 
-**Not automatic WALTER authority.** WALTER commits locally; **PROME/Will own the push decision and window.** The single exception is the §3.4 FLASH/IMMEDIATE-to-CC clean-tree scoped-push, which is the only standing auto-push authorization. Everything else rides a Will-opened window per root CLAUDE.md + auto-memory `[[feedback_defer_push_coordinate]]`.
+WALTER commits locally; **pushing is Will-coordinated** (a Will-opened window or the push-train; root CLAUDE.md + auto-memory `[[feedback_defer_push_coordinate]]`). The single standing exception is the §3.4 FLASH/IMMEDIATE clean-tree scoped-push via the `safe-push.sh` ff-gate — **WALTER-self-authorized on a verified-clean tree** (0g, Will-ratified 2026-06-26; PROME is no longer an always-on push agent).
 
 ---
 
@@ -169,8 +167,7 @@ For each non-`processed/` handoff file: derive push/origin state **read-only fro
 **Delivery ships first (Phase 1, this session).** Consumption is **Phase 2 — tracked and time-boxed**, because "define template, agents apply later" already failed once (v0.1 → the BRENT miss).
 
 - **WALTER defines** the recipient consumption boot-step template (§8.1) and does **not** edit other agents' boot docs.
-- **OpenClaw recipients:** PROME/Will install the boot step now (Prome controls those CLAUDE.md files) — **start with BRENT**, then HAWK / BROCK / LIQUID / HENRY / LABOR / NEXUS / VIOLET / SHADE.
-- **Claude-Code recipients** (CARL / REGINALD / SAM / RED): **self-apply on next spawn.**
+- **All recipients self-apply** the consume boot-step (§8.1) on next spawn — single-machine, every agent is a CC session. (The OpenClaw "PROME installs it" path is retired with the VPS.)
 - **Time-box:** the `delivered_but_unconsumed` telemetry (§6.1) makes the gap visible per recipient every boot; it is the mechanism that prevents an open-ended stall.
 
 ### 8.1 Recipient consumption boot-step (template WALTER provides; others apply)
@@ -195,20 +192,17 @@ At boot, after STATUS / MEMORY / LAST_COMPLETION:
 
 ---
 
-## 9. Two run modes — Quick vs Full WALTER
+## 9. Run mode — Full WALTER only
 
-Canonical definition lives in `AGENTS/WALTER/CLAUDE.md` (SPAWN PROTOCOL); summarized here for the delivery context.
+**Quick WALTER was RETIRED 2026-06-26** (0d, Will-ratified). It was a PROME-spawned, VPS-resident route-only mode — made moot by the OpenClaw cut. Its historical guardrails (registry-only RED-FT/REG-T/safety-net routing, canonical-lane discipline, the Iran-anchor guard, UTC-stamp discipline) live in git history; they no longer gate a live mode. UTC-`Z` timestamp discipline still applies to all BOARD/delivery artifacts.
 
-**v0.5 guardrail from the Moscow MNPZ comparison + ORC review (2026-06-18):** canonical-lane discipline is necessary but not sufficient. Mini-WALTER/PROME got the broad HAWK/BRENT triage right but still made discretionary routing/source-calibration errors (parallel artifacts, LIQUID over-route, underuse of Visegrad prior). Therefore Quick mode cannot self-judge “obvious/mechanical” news and cannot route Will-supplied novel news by exact-recipient instruction as standing authority. It may route only pre-registered RED-FT / REG-T / safety-net trigger fires where precedence/action and recipient_chain are already fixed by the owning registry/spec. Delivery repair/backfill remains allowed only for existing BOARD signals with already-named recipients, and is not a new routing decision. Everything else queues/escalates to Full WALTER. All timestamps in BOARD/delivery artifacts are UTC `Z` timestamps, never local ET-with-Z.
-
-- **Full WALTER** (Will spawns): everything — BOARD curation, registry refresh, anchor re-verify, audits, liaisons, full boot + closeout. Owns reconciliation.
-- **Quick WALTER** (PROME spawns a temporary OpenClaw copy to route one batch): constrained trigger-runner for the whitelist above. Minimal reads → registered trigger/safety-net check → canonical BOARD + delivery-lane writes → stop. Skips registry refresh / anchor re-verify (except the Iran guard) / audits / liaison discovery / MEMORY-STATUS-LAST_COMPLETION rewrites / full `walter_doctor`. **Does NOT push; commits locally only.** It must not write `FORGE/signals/` or generic recipient inbox files, must not add discretionary info recipients, and must escalate any source-calibration, confidence-scoring, or recipient-selection case to Full WALTER.
+- **Full WALTER** (Will spawns) is the **only** mode: everything — BOARD curation, registry refresh, anchor re-verify, audits, liaisons, full boot + closeout. Owns reconciliation.
 
 ---
 
 ## 10. Portability
 
-Tools may run on the VPS (Quick WALTER) where `.venv` may be absent. Invoke with the fallback (also in CLAUDE.md boot step 0.5):
+Tools invoke with the portable-python fallback (also in CLAUDE.md boot step 0.5) so they run whether or not `.venv` is present:
 
 ```sh
 PYTHON="${PYTHON:-python3}"
@@ -234,7 +228,7 @@ Auto-memory `[[project_messaging_overhaul]]` ("don't patch inbox/outbox/HERMES h
 
 ## 13. Phase-1 acceptance checks ("done")
 
-- [ ] PROME can spawn Quick WALTER; it routes a test signal → BOARD file + INDEX row + `route_log` row + delivery file(s) in each recipient's `inbox/WALTER/` + `delivery_log` row(s).
+- [x] WALTER routes a signal → BOARD file + INDEX row + `route_log` row + delivery file(s) in each recipient's `inbox/WALTER/` + `delivery_log` row(s). *(Phase-1 shipped; Quick-WALTER retired 2026-06-26.)*
 - [ ] BOARD still reconciles (ToC = sections = files).
 - [ ] `walter_doctor` runs via portable python and includes both new checks (`delivered_but_unconsumed` + git-derived `written_but_undelivered`).
 - [ ] BRENT -001 / HAWK -002 audited; backfill handoff files created (narrow — those two only).
@@ -253,5 +247,6 @@ Auto-memory `[[project_messaging_overhaul]]` ("don't patch inbox/outbox/HERMES h
 
 ## Version History
 
+- **v0.6** — 2026-06-26 — **single-machine platform-collapse** (OpenClaw/VPS cut). `delivered` collapses to one definition (committed + on-origin); §3.3 platform table retired; §3.4/§7 push authority → WALTER-self-on-clean-tree via `safe-push.sh` ff-gate (0g); §4 `recipient_platform` constant `CLAUDE_CODE` going forward (historical `OPENCLAW` rows preserved, append-only); §8 all recipients self-apply consume; §9 **Quick WALTER RETIRED** (0d); §10 VPS framing dropped. Will-ratified 2026-06-26 (Phase-0 0a/0d/0e/0f/0g). Canonical: `design/OPENCLAW_CUTOVER_PLAN.md` + `BOARD_CONSUMPTION_SPEC_v0.6_CHANGESET.md`. (v0.3–v0.5 were Quick-WALTER tightening — moot with Quick retired.)
 - **v0.2** — 2026-06-17 — Delivery layer added (`inbox/WALTER/` create-only handoff files + platform-nuanced `delivered` + `delivery_log.tsv` + git-derived sync telemetry + scoped-push policy + phased-time-boxed rollout + `board_log` `source` column + Quick/Full mode reference). Per "WALTER Routing v2 — Final Design Packet", Will + PROME + ORC approved-in-principle 2026-06-17.
 - **v0.1** — 2026-04-20 — initial consumption spec (`board_log.tsv` + BOARD-scan boot-step). Defaults approved by Will via Telegram msg 938. Propagation stalled → motivated v0.2.

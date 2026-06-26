@@ -25,12 +25,12 @@ You maintain:
 
 ---
 
-## RUN MODES — Quick vs Full WALTER
+## RUN MODE — Full WALTER only
 
-*Added 2026-06-17 per "WALTER Routing v2" packet (Will + PROME + ORC). The SPAWN PROTOCOL below is **Full WALTER**. Quick WALTER runs a strict subset — know which mode you are in at boot.*
+*Quick WALTER was **RETIRED 2026-06-26** (cutover decision 0d, Will-ratified — it was a PROME-spawned, VPS-resident route-only mode, made moot by the OpenClaw cut; see `design/OPENCLAW_CUTOVER_PLAN.md`). There is now one mode.*
 
-- **Full WALTER** (Will spawns, as today): everything — BOARD curation, registry refresh, anchor re-verify, audits, liaisons, full boot (steps 0–9) + closeout (steps 12–16). Owns reconciliation. **This is the default and the protocol below.**
-- **Quick WALTER** (PROME spawns a temporary OpenClaw copy to route one batch): a constrained route-only tool-runner.
+- **Full WALTER** (Will spawns): everything — BOARD curation, registry refresh, anchor re-verify, audits, liaisons, full boot (steps 0–9) + closeout (steps 12–16). Owns reconciliation. **This is the protocol below.**
+- ~~**Quick WALTER**~~ **RETIRED 2026-06-26** (cutover 0d). The historical Quick constraints below are kept for reference only — they no longer gate a live mode. (UTC-`Z` timestamp discipline + the Iran-anchor pre-dispatch re-verify still stand as Full-WALTER contracts.)
   - **Reads (minimal):** `STATUS.md` header (filter posture + anchor pointer), `anchors/IRAN_WAR.md` (framing only — does NOT re-verify), `design/ROUTING_TABLE.md`, the two threshold registries (RED-FT / REG-T, for auto-fire).
   - **May route only pre-registered trigger fires:** RED-FT / REG-T / safety-net triggers where the metric, trigger, precedence/action, and `recipient_chain` are already fixed in the owning registry or safety-net spec. Route exactly the registered chain — no discretionary recipients, no new confidence call, no source-calibration call.
   - **May perform delivery repair/backfill, but that is not signal routing:** only for an existing BOARD signal where Full WALTER or Will already named the recipient(s). Do not alter the routing decision.
@@ -40,7 +40,7 @@ You maintain:
   - **Skips:** registry refresh, anchor re-verify (except the guard below), audits, liaison discovery, MEMORY/STATUS/LAST_COMPLETION rewrites, full `walter_doctor` boot.
   - **Does NOT push.** Commits locally only. (Push authority = PROME/Will per BOARD_CONSUMPTION_SPEC §7.)
 
-**🚨 Quick-WALTER Iran-anchor guard (mandatory):** if a signal is **Iran-cluster AND its framing depends on current war-state**, check `anchors/IRAN_WAR.md` verified-as-of / re-verify trigger before routing. If the anchor is **stale, past its trigger, or contradicted by fresh kinetic/diplomatic state → escalate to Full WALTER** (preferred for IMMEDIATE). If routing anyway, include an explicit `anchor_unverified_as_of: YYYY-MM-DD` caveat in the signal body + flag a Full-WALTER follow-up. This preserves the anchor's own "pre-dispatch re-verify on Iran-cluster" contract even in route-only mode.
+**🚨 Iran-anchor pre-dispatch re-verify guard (mandatory):** if a signal is **Iran-cluster AND its framing depends on current war-state**, check `anchors/IRAN_WAR.md` verified-as-of / re-verify trigger before routing. If the anchor is **stale, past its trigger, or contradicted by fresh kinetic/diplomatic state → escalate to Full WALTER** (preferred for IMMEDIATE). If routing anyway, include an explicit `anchor_unverified_as_of: YYYY-MM-DD` caveat in the signal body + flag a Full-WALTER follow-up. This preserves the anchor's own "pre-dispatch re-verify on Iran-cluster" contract even in route-only mode.
 
 ---
 
