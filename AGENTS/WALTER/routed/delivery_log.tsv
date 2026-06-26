@@ -232,3 +232,7 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-06-26T22:34:00Z	SIG-W-20260626-012	CREED	ACTION	CLAUDE_CODE	PRIORITY	AGENTS/CREED/inbox/WALTER/SIG-W-20260626-012.md	WRITTEN_NOT_DELIVERED_PENDING_PUSH	ACTION: Aon Center -58% + 601W two-tower distress; push deferred
 2026-06-26T22:34:00Z	SIG-W-20260626-012	REGINALD	INFO	CLAUDE_CODE	PRIORITY	AGENTS/REGINALD/inbox/WALTER/SIG-W-20260626-012.md	WRITTEN_NOT_DELIVERED_PENDING_PUSH	INFO: trophy-office -58% + sponsor-portfolio default; push deferred
 2026-06-26T22:34:00Z	SIG-W-20260626-012	BROCK	INFO	CLAUDE_CODE	PRIORITY	AGENTS/BROCK/inbox/WALTER/SIG-W-20260626-012.md	WRITTEN_NOT_DELIVERED_PENDING_PUSH	INFO: trophy-office shadow-NAV mark -58%; push deferred
+2026-06-26T22:58:00Z	SIG-W-20260626-013	CORAL	action	CC	PRIORITY	AGENTS/CORAL/inbox/WALTER/SIG-W-20260626-013.md	written_not_delivered_pending_push	FL CRE owner (Fort Lauderdale)
+2026-06-26T22:58:00Z	SIG-W-20260626-013	CREED	info	CC	PRIORITY	AGENTS/CREED/inbox/WALTER/SIG-W-20260626-013.md	written_not_delivered_pending_push	national CRE financeability bifurcation
+2026-06-26T22:58:00Z	SIG-W-20260626-013	REGINALD	info	CC	PRIORITY	AGENTS/REGINALD/inbox/WALTER/SIG-W-20260626-013.md	written_not_delivered_pending_push	large-bank CRE credit posture (JPM lender)
+2026-06-26T22:58:00Z	SIG-W-20260626-013	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260626-013.md	written_not_delivered_pending_push	counter_evidence / framing-strip
