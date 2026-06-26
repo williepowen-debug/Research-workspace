@@ -46,35 +46,35 @@ A clean concurrent-fleet dispatch: one coherent risk-off batch routed to the thr
 ## GAPS
 
 - **Push state:** **Batches 1-2 ON ORIGIN — PROME flushed them** (`prome/pending-flush-2026-06-25` + `prome/reconcile-yeyou`; local==origin 0/0). **Batch-3 dispatch (`334e4808`) + this closeout PUSHED in a Will-authorized window 6/24 ~10 PM ET** (re-fetch + rebase-if-behind first; PROME actively reconciling). Per `[[feedback_defer_push_coordinate]]` + `[[finding_push_train_pattern]]`.
-- **registry_lag refresh STILL owed** (2nd session deferred) — HANS/VIOLET/HENRY/CARL/LIQUID/REGINALD/BRENT rows lag their commits; WALTER row refreshed to 6/24, others carried.
+- **registry_lag refresh DONE 6/26** — 8 Tier-1 rows (HANS/CARL/VIOLET/HENRY/LIQUID/REGINALD/CORAL/TERRY) → registry_lag MED 8→0, commit 6e3fd5b2; BRENT/RED left LOW within-tolerance. Also added **YEYOU** (Tier-1) + elevated **TERRY→Tier-1** per Will 6/26.
 - **delivered_but_unconsumed** grows by 11 (these handoffs) until recipients consume — the CC self-apply set still lacks the §8.1 consume boot-step.
 - kill_log pre-existing format quirk: lines 89-91 (2026-05-08) are NF=4 (old format); not WALTER-introduced, cosmetic.
 
 ## WILL_NEEDS
 
 1. **Coordinated push window** when the fleet quiesces — sweeps the 2 WALTER commits (+ whatever PROME/YEYOU committed).
-2. (carried) **Prune confirm** — 4 stale RED handoffs (6/21-007 / 6/19-004 / 6/21-004 / 6/19-001). **RED auto-cc trim?** (RED was 35% of delivery volume; today added 3 more RED INFO cc's — the over-cc pattern continues).
+2. (carried) **RED auto-cc trim?** (RED was 35% of delivery volume; over-cc pattern continues). [Prune of the 4 stale RED handoffs = MOOT — RED self-consumed all 4 to processed/ by 6/26, verified this session.]
 3. (carried) **EIA `.env` durability** — works on the laptop; any other box (VPS/Quick-WALTER) runs Cushing dark. Persistent-key decision open.
 4. (carried) Scout build · DEWEY Prompt B spawn · ENSO/hurricane → CORAL offer.
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
 
 **🔴 Time-sensitive forward:**
-1. **6/24 risk-off cluster live-watch:** does it confirm or fade? (a) **QQQ +2%-gap on 6/25** = the SIG-003 companion test (snapback fits non-bear precedent / failure tilts bear); (b) **PC redemption Q3 step-up vs fade** (SIG-001 accelerating-vs-one-off); (c) **funding internals** — if SOFR-IORB/CP-TBill tighten, SIG-002 liquidity-crunch label earns weight; (d) **HY OAS** — still 265/calm = the bifurcation holds; a break <260 (RED-FT-01 boundary) or widening would confirm credit catching down.
+1. **6/24 risk-off cluster live-watch:** does it confirm or fade? (a) **QQQ +2%-gap on 6/25** = the SIG-003 companion test (snapback fits non-bear precedent / failure tilts bear); (b) **PC redemption Q3 step-up vs fade** (SIG-001 accelerating-vs-one-off); (c) **funding internals** — if SOFR-IORB/CP-TBill tighten, SIG-002 liquidity-crunch label earns weight; (d) **HY OAS 278 (RISING, +13 off 265)** — RED-FT-01 (HY<280) fired 6/04, suppressed; HY now climbing toward its 280 EXIT = credit catching DOWN to the 6/24 risk-off (bifurcation closing); next widening fire = RED-FT-02 (HY>320). [The earlier "<260" was wrong — that's the BROCK soft-kill, not the FT-01 boundary.]
 2. **Iran anchor next re-verify** = roadmap operationalizes / verified liner+JWC reopen / IAEA-by-Iran / physical event / Lebanon collapse / 7-day min (~6/29) / pre-dispatch. Verified-as-of 6/22 (C-Grind base + constructive tilt).
-3. 🔴 **Cushing Boundary #3 FIRED by BRENT 6/24** (sub-20M WPSR) — WTI-dislocation watch now live; BRENT owns. 🟡 Brent $76.72 toward RED-FT-04 (<75).
-4. **SAM USD/JPY** 161.58 red zone; MOF silent.
+3. 🔴 **Cushing Boundary #3 FIRED by BRENT 6/24** (sub-20M WPSR) — WTI-dislocation watch now live; BRENT owns. 🔴 **Brent $72.63 — CROSSED BELOW RED-FT-04 (<75) for the first time 6/26, day-1 of sustain=3**; hand BRENT/RED per the RED-FT-04 + ROUTING_TABLE §2c row-2 (broader: +CARL/HENRY/LIQUID) chains.
+4. **SAM USD/JPY** 161.76 red zone; MOF silent.
 
 **🆕 Inbox/consumption (carried):**
-5. **PRUNE — 4 stale RED handoffs** (pending Will confirm). BOARD copies untouched.
+5. ~~PRUNE 4 stale RED handoffs~~ — MOOT/DONE (RED self-consumed all 4 to processed/ by 6/26; verified this session). BOARD copies untouched.
 6. **RED over-cc** — candidate ROUTING_TABLE trim (drop RED cc-on-every-cluster_mediating); today added 3 more RED INFO. Will's call.
 7. **Consume-boot-step rollout** still open (CC self-apply set = CARL/REGINALD/SAM/RED, also MARCO/TERRY); Will deferred 6/23 (spawns agents to read manually).
 
 **🆕 DEWEY + Scout + Registry (carried):**
 8. **DEWEY Prompt B** staged in `outbox/`; Will spawns. **Scout build** spec `design/SCOUT_BUILD_PLAN.md` (resolves 3 stale crons). DEWEY EDGAR/PDF tooling DONE.
-9. **registry_lag refresh** owed — HANS/VIOLET/HENRY/CARL/LIQUID/REGINALD/BRENT (WALTER refreshed 6/24). OZK Q1 post-mortem longest-stale Tier-1 (60d+).
+9. ~~registry_lag refresh~~ DONE 6/26 (8 rows, MED 8→0; + YEYOU row + TERRY→Tier-1). OZK Q1 post-mortem longest-stale Tier-1 (63d) — REGINALD pickup still owed.
 
-**🟠 Threshold + LIAISON (carried):** RED-FT-01 (HY 265) + RED-FT-07 (CCC 947) continuing-fire. WAL out of REG-T-02 band ($80.68). REG-T-06 FHLB / REG-T-07 OFFICE-CMBS-DQ still not in dashboard pull. RED Turn 8 / REGINALD Turn 7 LIAISON (untouched since 6/6). CARL LIAISON dormant. EVENT_WINDOW CLOSED (1/3 Path B; BRENT-coordinated refresh owed). HENRY/NEXUS LIAISON next-priority.
+**🟠 Threshold + LIAISON (carried):** RED-FT-01 (HY 278<280, fired 6/04) + RED-FT-07 (CCC 968>930, fired 6/04) continuing-fire/suppressed; **Brent $72.63 BELOW RED-FT-04 (<75) day-1 of sustain=3**. WAL out of REG-T-02 band ($81.67). REG-T-06 FHLB / REG-T-07 OFFICE-CMBS-DQ still not in dashboard pull. RED Turn 8 / REGINALD Turn 7 LIAISON (untouched since 6/6). CARL LIAISON dormant. EVENT_WINDOW CLOSED (1/3 Path B; BRENT-coordinated refresh owed). HENRY/NEXUS LIAISON next-priority.
 
 **🔴 Infra (carried):** 3 stale feeds (news-sweep/filing-watch 5/17 / SIGNALS 6/2) = Scout-track / VPS-down. EIA `.env` machine-local (durability open).
 
