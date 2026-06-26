@@ -4,9 +4,9 @@
 
 ---
 
-## 📋 Recommended-defaults memo — ratify these 3 (the low-stakes Phase-0 calls)
+## 📋 Recommended-defaults memo — ✅ RATIFIED by Will 2026-06-26
 
-Each avoids a lockstep schema migration and has near-zero blast radius. My recommendation in **bold**; say the word and they're locked.
+All three locked as recommended (keep-uniform-`CC` / keep-constant `CLAUDE_CODE` / WALTER-self-on-clean-tree via ff-gate) → **the changeset resolves with NO schema migration.** The columns stay; only the *values* and the *delivery semantics* simplify.
 
 | # | Decision | Options | Recommendation |
 |---|----------|---------|----------------|
