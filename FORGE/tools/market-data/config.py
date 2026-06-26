@@ -33,11 +33,17 @@ SERIES = [
         "agent": "REGINALD/LIQUID",
         "tier": 1,
         "direction": "higher_worse",
-        "green": (None, 300),
-        "yellow": (300, 320),
-        "red": (320, None),
-        "hysteresis": 5,  # Must move 5bps past boundary (alerts at 325/315 not 320)
-        "notes": "350=issuance freeze",
+        "green": (None, 265),
+        "yellow": (265, 280),
+        "red": (280, None),
+        "hysteresis": 5,  # Must move 5bps past boundary (alerts at 285/275 not 280)
+        # Retuned to thesis 2026-06-26 (SENTRY audit): red line = >280 X1 master
+        # credit-recognition trigger (was 320, ~40bp stale). 350=issuance freeze.
+        # SECONDARY (not encoded — single-sided classify can't be two-way):
+        #   <260, two consecutive closes = bear-axis KILL (credit thesis invalidates,
+        #   NOT a market-stress event). Check manually / via LIQUID alert wrapper.
+        "kill_below": 260,  # documented secondary check; classify() ignores this
+        "notes": "X1 >280 master; <260x2closes=bear-axis kill; 350=issuance freeze",
         "multiply": 100,
     },
     {
@@ -137,9 +143,11 @@ SERIES = [
         "tier": 1,
         "direction": "higher_worse",
         "green": (None, 4.00),
-        "yellow": (4.00, 4.50),
-        "red": (4.50, None),
-        "notes": "5.0%=danger level",
+        "yellow": (4.00, 4.40),
+        "red": (4.40, None),
+        # Retuned 2026-06-26 (SENTRY audit): red line = >4.40 sustained = AOCI
+        # path-(b) confirm (was 4.50). 5.0%=danger level.
+        "notes": ">4.40 sustained=AOCI path-(b) confirm; 5.0%=danger level",
     },
 
     {
@@ -190,10 +198,12 @@ SERIES = [
         "agent": "LIQUID",
         "tier": 2,
         "direction": "lower_worse",
-        "green": (68, None),
-        "yellow": (63, 68),
-        "red": (None, 63),
-        "notes": "$60=major support",
+        "green": (70, None),
+        "yellow": (60, 70),
+        "red": (None, 60),
+        # Re-centered 2026-06-26 (SENTRY audit) from 68/63 to current regime (~75);
+        # red = loss of $60 major support.
+        "notes": "$60=major support (red); re-centered to ~75 regime 6/26",
     },
     {
         "name": "APO",
@@ -226,10 +236,11 @@ SERIES = [
         "agent": "REGINALD",
         "tier": 2,
         "direction": "lower_worse",
-        "green": (50, None),
-        "yellow": (40, 50),
+        "green": (48, None),
+        "yellow": (40, 48),
         "red": (None, 40),
-        "notes": "Short thesis",
+        # Re-centered 2026-06-26 (SENTRY audit) to current regime (~52); 40 floor held.
+        "notes": "Short thesis; re-centered to ~52 regime 6/26",
     },
     {
         "name": "WAL",
@@ -238,23 +249,15 @@ SERIES = [
         "agent": "REGINALD",
         "tier": 2,
         "direction": "lower_worse",
-        "green": (78, None),
-        "yellow": (65, 78),
+        "green": (75, None),
+        "yellow": (65, 75),
         "red": (None, 65),
-        "notes": "Fast-transmission",
+        # Re-centered 2026-06-26 (SENTRY audit) to current regime (~82); 65 floor held.
+        # Path-(c) live single-name exception — fast-transmission.
+        "notes": "Fast-transmission; path-(c) single-name; re-centered to ~82 regime 6/26",
     },
-    {
-        "name": "FXY",
-        "source": "price",
-        "id": "FXY",
-        "agent": "SAM",
-        "tier": 2,
-        "direction": "lower_worse",
-        "green": (62, None),
-        "yellow": (57, 62),
-        "red": (None, 57),
-        "notes": "Entry card at $57.36",
-    },
+    # FXY removed 2026-06-26 (SENTRY audit): position fully closed by Will 6/25;
+    # USD/JPY (Tier 1) retained as the carry/regime signal.
     {
         "name": "TLT",
         "source": "price",
@@ -279,6 +282,52 @@ SERIES = [
         "red": (None, 15),
         "notes": "BDC ETF — ABX equivalent. NAV discount = PC stress",
     },
+
+    # ----- Wrapper basket (added 2026-06-26, SENTRY audit) -----
+    # ARCC/FSK/OBDC + BIZD = the BDC-wrapper basket. These give the basket VISIBILITY
+    # but absolute bands CANNOT encode the actual trigger, which is RELATIVE:
+    # "wrappers LEAD managers (APO/ARES) down" = BROCK's half of the X1 credit-
+    # decoupling bear-root. The decoupling COMPOSITE (basket return vs manager return,
+    # lead/lag) is a FOLLOW-ON to be built in the alert wrapper (LIQUID/BROCK own it) —
+    # not faked here. Bands below are placeholder absolute levels for single-name drift;
+    # 🔴 in isolation is NOT the decoupling trigger.
+    {
+        "name": "ARCC",
+        "source": "price",
+        "id": "ARCC",
+        "agent": "BROCK",
+        "tier": 2,
+        "direction": "lower_worse",
+        "green": (20, None),
+        "yellow": (18, 20),
+        "red": (None, 18),
+        "notes": "Wrapper basket; absolute placeholder — true trigger is RELATIVE (leads managers down)",
+    },
+    {
+        "name": "FSK",
+        "source": "price",
+        "id": "FSK",
+        "agent": "BROCK",
+        "tier": 2,
+        "direction": "lower_worse",
+        "green": (19, None),
+        "yellow": (17, 19),
+        "red": (None, 17),
+        "notes": "Wrapper basket; absolute placeholder — true trigger is RELATIVE (leads managers down)",
+    },
+    {
+        "name": "OBDC",
+        "source": "price",
+        "id": "OBDC",
+        "agent": "BROCK",
+        "tier": 2,
+        "direction": "lower_worse",
+        "green": (14, None),
+        "yellow": (13, 14),
+        "red": (None, 13),
+        "notes": "Wrapper basket; absolute placeholder — true trigger is RELATIVE (leads managers down)",
+    },
+
     {
         "name": "VIX",
         "source": "price",
@@ -386,12 +435,14 @@ if __name__ == "__main__":
 
     # Test classification
     test_cases = [
-        ("HY OAS", 321, "red"),
-        ("HY OAS", 310, "yellow"),
-        ("HY OAS", 290, "green"),
-        ("KRE", 60, "red"),
+        # Retuned 2026-06-26 (SENTRY audit): HY bands now 265/280 (X1 >280 red line)
+        ("HY OAS", 281, "red"),     # X1 master trigger fired
+        ("HY OAS", 276, "yellow"),  # current print — was GREEN under stale 300/320
+        ("HY OAS", 260, "green"),
+        # KRE re-centered to ~75 regime: green>70 / yellow 60-70 / red<60
+        ("KRE", 58, "red"),         # lost $60 major support
         ("KRE", 65, "yellow"),
-        ("KRE", 70, "green"),
+        ("KRE", 75, "green"),
     ]
     print("Classification tests:")
     for name, val, expected in test_cases:
