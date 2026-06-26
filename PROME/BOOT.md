@@ -92,7 +92,7 @@ Everything else is on-demand.
 | News routing / sweep | Use injected `TOOLS.md` if present; otherwise read `FORGE/tools/news-sweep/README.md`. Use `sweep.py` only when routing/sweeping news. |
 | Fleet scan / ranking | `PROME/FLEET_SCAN.md`, `PROME/ORCHESTRAL_LAYER_DESIGN.md` |
 | Sub-agent spawn | `AGENTS.md`, `PROME/COMPLETION_SPEC.md`; include completion instructions. |
-| Claude Code Prome | `PROME/CLAUDE.md`, `PROME/CLAUDE_CODE_PROME.md`, `PROME/CLAUDE_CODE_PROME_PLAN.md`, `PROME/CLAUDE_CODE_PROME_TASKS.md` |
+| Claude Code Prome | `PROME/CLAUDE.md`, `PROME/CLAUDE_CODE_PROME.md` (bootstrap PLAN/TASKS complete → `PROME/archive/`) |
 | Closeout | `PROME/CLOSEOUT.md` |
 | Historical handoffs | `PROME/archive/HANDOFF_2026Q2.md` — only for old-session archaeology; never normal boot. |
 | Detailed architecture | `PROME/SYSTEM.md`, `PROME/ORCHESTRAL_LAYER_DESIGN.md` |

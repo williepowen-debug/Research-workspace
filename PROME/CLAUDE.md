@@ -31,8 +31,7 @@ Do not fork memory or create a private truth layer. Shared files are the source 
    - `PROME/SYSTEM.md`
    - `PROME/HANDOFF.md`
    - `PROME/CLAUDE_CODE_PROME.md`
-   - `PROME/CLAUDE_CODE_PROME_PLAN.md`
-   - `PROME/CLAUDE_CODE_PROME_TASKS.md`
+   *(Bootstrap PLAN/TASKS are complete — archived to `PROME/archive/`; not boot-read.)*
 4. Check `git status --short` before editing.
 5. If the tree is dirty, identify which files are yours vs other agents’ work. Do not stash, reset, pull, or commit broad changes without Will approval.
 6. Work only on the scoped task Will/Prome gave you.

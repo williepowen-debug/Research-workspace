@@ -178,9 +178,4 @@ Update `PROME/HANDOFF.md` with a concise continuity entry when needed:
 
 ## Current Build State
 
-Implementation is tracked in:
-
-- `PROME/CLAUDE_CODE_PROME_PLAN.md`
-- `PROME/CLAUDE_CODE_PROME_TASKS.md`
-
-As of creation, Phase 1 is bootstrap only. Architecture integration comes later.
+Bootstrap **complete** — CC-Prome is in its persistent operating loop. The original design rationale + task ladder are archived (historical) at `PROME/archive/CLAUDE_CODE_PROME_PLAN.md` and `PROME/archive/CLAUDE_CODE_PROME_TASKS.md`.

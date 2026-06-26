@@ -33,8 +33,6 @@ Core rule:
 |---|---|---|
 | `PROME/BOOT.md` | Updated May 16 for Claude Code Prome integration | Boot sequence, doc ownership, protocol reminders. |
 | `PROME/HANDOFF.md` | Fresh May 17 10:45 ET | Clear/new-session handoff after GitHub sync and REGINALD/WALTER closeouts. |
-| `PROME/CLAUDE_CODE_PROME_PLAN.md` | Fresh May 15 | Architecture/rationale for persistent Claude Code Prome. Read before continuing that build. |
-| `PROME/CLAUDE_CODE_PROME_TASKS.md` | Fresh May 16 | Restart-safe phase/task ladder for Claude Code Prome. Current next step: Phase 3 dry run. |
 | `PROME/SCRATCH.md` | Fresh May 17 | Ephemeral session state and next best action. |
 | `PROME/TODAY.md` | Fresh May 17 | Daily catalysts/checklist and latest dashboard snapshot. |
 | `PROME/STATUS.md` | Fresh May 17 | Operational status, pending work, agent/domain notes. |
@@ -95,8 +93,6 @@ Current source files:
 
 | File | Role |
 |---|---|
-| `PROME/CLAUDE_CODE_PROME_PLAN.md` | Architecture plan and design rationale. |
-| `PROME/CLAUDE_CODE_PROME_TASKS.md` | Restart-safe task ladder and clear checkpoints. |
 | `PROME/CLAUDE.md` | Claude Code bootstrap file. |
 | `PROME/CLAUDE_CODE_PROME.md` | Longer operating manual. |
 | `PROME/HANDOFF.md` | Single live handoff for OpenClaw + Claude Code Prome sessions. |
@@ -204,8 +200,7 @@ Known current caveat:
 | `PROME/SCRATCH.md` | Fresh May 17 | Yes for current session continuity. |
 | `PROME/FLEET_SCAN.md` | On-demand | Use only after rebuilding for the current question. |
 | `FORGE/STATUS.md` | Stale per Prome inbox signal | No, refresh before using. |
-| `PROME/CLAUDE_CODE_PROME_PLAN.md` | Fresh May 15 | Yes when continuing Claude Code Prome build. |
-| `PROME/CLAUDE_CODE_PROME_TASKS.md` | Fresh May 16 | Yes; current source of truth for next implementation task. |
+| `PROME/archive/CLAUDE_CODE_PROME_{PLAN,TASKS}.md` | Archived (bootstrap complete) | No — historical only. |
 
 ---
 
@@ -233,8 +228,7 @@ Known current caveat:
 1. Commit/push the May 17 Prome/OpenClaw state refresh if Will wants it saved.
 2. Build regional-bank Monday decision prompt using REGINALD May 17 closeout.
 3. Build BDC/private-credit Monday decision prompt using FSK rails and live option pricing.
-4. Run Claude Code Prome Phase 3 dry run from `PROME/CLAUDE_CODE_PROME_TASKS.md`.
-5. Keep retired Toscanini references demoted to `PROME/archive/TOSCANINI_2026-03/` when encountered.
+4. Keep retired Toscanini references demoted to `PROME/archive/TOSCANINI_2026-03/` when encountered. *(CC-Prome bootstrap PLAN/TASKS complete — archived; the persistent operating loop is live.)*
 6. Keep `PROME/BOOT.md` aligned with the current decision-support layer.
 
 ---
