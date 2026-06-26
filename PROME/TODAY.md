@@ -1,5 +1,5 @@
 # TODAY.md — Friday June 26, 2026
-**Updated:** 2026-06-26 ~13:05 ET (Claude Code Prome — detection/action hardening cluster + arch peer-review + closeout; pushed synced 0/0 at `3d4afafa`)
+**Updated:** 2026-06-26 PM (Claude Code Prome — + 5-agent orchestration [WAL date fix · 5-fund PC gate cluster · insurer double-jeopardy] + fleet architecture review → Tier-1 + ratified closeout-addendum; auto-pushed synced 0/0; agents released)
 
 **Objective:** System-hardening session complete. Standing rule set; detection now automated. No new market position — maintenance + infra.
 

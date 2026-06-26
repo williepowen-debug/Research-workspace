@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-06-26 ~13:05 ET (Claude Code Prome — detection/action hardening cluster + arch peer-review + closeout; pushed synced 0/0)
+**Updated:** 2026-06-26 (Claude Code Prome — HEAVY session: 5-agent orchestration [WAL date fix · 5-fund PC gate cluster · insurer double-jeopardy] + fleet ARCHITECTURE REVIEW → Tier-1 self-apply + ratified closeout-addendum into root CLAUDE.md; auto-pushed synced 0/0; 5 agents released)
 
 ## Core State
 
@@ -57,4 +57,4 @@
 
 ## Next Best Action
 
-After clear, fresh Prome should check `AGENTS/LIQUID/alerts/HY_OAS_ALERTS.log` for any between-session HY transition (the watch timer runs daily 13:00 ET). Live regime: HY 278 [6/25], 2bp from the >280 X1 — watched automatically now. No action unless a trigger fires; then the shelved $500/card reshape is the ready response (needs live broker book).
+After clear, fresh Prome should check `AGENTS/LIQUID/alerts/HY_OAS_ALERTS.log` for any between-session HY transition (watch timer daily 13:00 ET). Live regime: HY 278 [6/25], 2bp from >280 X1 — auto-watched; no action unless a trigger fires (then the shelved $500/card reshape, needs live broker book). **Architecture follow-ons available** (see `PROME/cluster/2026-06-26_fleet_arch_compare.md` + SCRATCH): Tier-2 = port SHADE §-STATUS model to CARL/REGINALD, standardize board_log, port boot.py; Tier-3 = unify prediction/trigger schema, BROCK calibration loop, per-bank tiering; Tier-4 messaging held for overhaul. **Forward docket:** 10Y 6/30 · JOLTS 6/30 · NFP 7/2 · BRK-29 ~7/3 · CPI 7/14 · WAL Jul-16.

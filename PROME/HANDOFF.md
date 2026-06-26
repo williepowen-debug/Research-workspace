@@ -6,6 +6,20 @@
 
 ---
 
+## 2026-06-26 (PM) — HEAVY: 5-agent orchestration + fleet architecture review + ratified closeout-addendum (PUSHED, synced 0/0)
+
+**Status:** Long orchestration-level session, 2 arcs. **(1) Orchestration** (CARL/REGINALD/LABOR → +BROCK → +SHADE): news catch-up / staleness / arch triage → executed. **(2) Fleet ARCHITECTURE REVIEW** → Tier-1 self-apply → ratified closeout-addendum into root CLAUDE.md. All committed + **auto-pushed (2 clean ff pushes), synced 0/0. 5 agents released cleanly.** Full narrative → SCRATCH + `memory/2026-06-26.md`.
+
+**What landed — Arc 1:** WAL Q2 date **Jul-30→Jul-16** fleet-wide (reorders Jul seq, WAL prints WITH CFG/OZK); **PC gate cluster = 5-fund Q2 wave + compounding queue** (BROCK owns; BRK-29 PE-tape ~7/3, BRK-30 credit-fund 10/15); **NEW insurer-lender double-jeopardy channel** (SHADE owns; Athene/ADS lead, BCRED→Athene ruled out, trigger-gated dig lane); **LABOR bull-tilt WATCH** (claims reversed; gates JOLTS 6/30 + NFP 7/2). Clean ownership lines (CARL→BROCK, BROCK→SHADE, CARL→SHADE). 40 inbox items swept.
+
+**What landed — Arc 2:** `PROME/cluster/2026-06-26_fleet_arch_compare.md` (5-agent compare/contrast); Tier-1 self-applied by all 5 (~140 files retired, ledgers frozen/alerted, 5 CLAUDE.md hardened); **root CLAUDE.md gained a pre-commit `git status` check + a "Data Hygiene" section** (`PROME/proposals/2026-06-26_closeout_addendum.md` = APPROVED+APPLIED). The new guard validated itself 4× on first-day use (53-file index race, REG-02/04 desync, 2 residue catches).
+
+**Decisions Will made:** approved BROCK+SHADE spin-up as PC-domain owners; approved the closeout-addendum root-CLAUDE.md edits; authorized commit+push (×2).
+
+**The read:** architecture/maintenance session — **no market trigger fired**, HY 278 (verified live; REGINALD's 285 was a bad pull), wrapper-decoupling still MACRO, **no capital deployed** (standing rule held). One genuinely new structural thread (PC gate cluster + insurer double-jeopardy), all pre-registered trigger-gated.
+
+**Next:** Tier-2/3 architecture follow-ons (scoped in SCRATCH + cluster doc); forward docket 10Y 6/30 · JOLTS 6/30 · NFP 7/2 · BRK-29 ~7/3 · WAL Jul-16 · CPI 7/14. **Lesson:** a pathspec commit of a `git mv` rename needs BOTH source+dest paths or it splits the move (now a canonical guard in root CLAUDE.md).
+
 ## 2026-06-26 — Standing rule + detection/action hardening + arch peer-review + boot de-bloat + AUTO-PUSH pilot (PUSHED, synced 0/0)
 
 **Status:** Long session off Will's current book (2 images). Arc: bank-put **reshape proposal** (shelved) → **STANDING RULE** (deploy only on a fired trigger; $500/card) → **detection/action HARDENING cluster** (LIQUID/SENTRY/TERRY, Prome-directed) → **arch peer-review + fix round** → **HEARTBEAT reconcile** → **full closeout** → **boot de-bloat thread**. **PUSHED — origin master `260b12b2`, synced 0/0.** 3 agents released.
