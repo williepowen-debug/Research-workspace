@@ -250,3 +250,14 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-06-26T23:25:00Z	SIG-W-20260626-018	LIQUID	action	CC	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260626-018.md	written_not_delivered_pending_push	macro-warning vs liquidity-event discriminator; credit leg (HY 278) not confirming
 2026-06-26T23:25:00Z	SIG-W-20260626-018	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260626-018.md	written_not_delivered_pending_push	falsifiable tripwire structure (cluster_mediating auto-cc)
 2026-06-26T23:25:00Z	SIG-W-20260626-018	HENRY	info	CC	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260626-018.md	written_not_delivered_pending_push	rates/dollar/risk cross; cash+duration preference
+2026-06-26T23:39:00Z	SIG-W-20260626-019	CARL	action	CC	PRIORITY	AGENTS/CARL/inbox/WALTER/SIG-W-20260626-019.md	written_not_delivered_pending_push	real-income-negative; reconcile vs PNC 016
+2026-06-26T23:39:00Z	SIG-W-20260626-019	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260626-019.md	written_not_delivered_pending_push	bear datapoint vs PNC counter; base-effect caveat
+2026-06-26T23:39:00Z	SIG-W-20260626-020	HENRY	action	CC	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260626-020.md	written_not_delivered_pending_push	record equity inflows / positioning-extension framework
+2026-06-26T23:39:00Z	SIG-W-20260626-020	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260626-020.md	written_not_delivered_pending_push	bull-flow vs exhaustion two-sided
+2026-06-26T23:39:00Z	SIG-W-20260626-020	TERRY	info	CC	PRIORITY	AGENTS/TERRY/inbox/WALTER/SIG-W-20260626-020.md	written_not_delivered_pending_push	crowded-long positioning extreme
+2026-06-26T23:39:00Z	SIG-W-20260626-021	HENRY	action	CC	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260626-021.md	written_not_delivered_pending_push	CTA down-tape asymmetry + SPX pivots
+2026-06-26T23:39:00Z	SIG-W-20260626-021	TERRY	info	CC	PRIORITY	AGENTS/TERRY/inbox/WALTER/SIG-W-20260626-021.md	written_not_delivered_pending_push	pivots+asymmetry for entry/expiry/sizing
+2026-06-26T23:39:00Z	SIG-W-20260626-021	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260626-021.md	written_not_delivered_pending_push	mechanical-flow accelerant-if-triggered
+2026-06-26T23:39:00Z	SIG-W-20260626-022	LABOR	action	CC	PRIORITY	AGENTS/LABOR/inbox/WALTER/SIG-W-20260626-022.md	written_not_delivered_pending_push	pin the source; sectoral counter to NFP beat
+2026-06-26T23:39:00Z	SIG-W-20260626-022	CARL	info	CC	PRIORITY	AGENTS/CARL/inbox/WALTER/SIG-W-20260626-022.md	written_not_delivered_pending_push	goods-sector labor-weakness transmission
+2026-06-26T23:39:00Z	SIG-W-20260626-022	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260626-022.md	written_not_delivered_pending_push	bifurcation mfg-weak vs NFP-strong; headline-only
