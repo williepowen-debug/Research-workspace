@@ -159,3 +159,4 @@
 - [Verify Load-Bearing Figures Before Trade](finding_verify_loadbearing_before_trade.md) — verify→adversarial-repull→propagate; synthesis often cleaner than its STATUS inputs; route upstream fixes to the owner
 - [Pathspec Rename Needs Both Paths](finding_pathspec_rename_needs_both_paths.md) — a path-scoped commit of a git-mv rename must list BOTH paths or it splits into a dangling source deletion
 - [Fleet Self-Report Convergence](finding_fleet_selfreport_convergence.md) — N agents self-reporting in a common template converge on the same issues → fix at the fleet-standard layer; validate-by-use before locking
+- [Orchestration Mode-Split](feedback_orchestration_mode_split.md) — before spawning >1 agent, split fan-out (Workflow) from live (teams-mode); deliver-before-idle; go quiet while agents work — see ORCHESTRATION_PLAYBOOK

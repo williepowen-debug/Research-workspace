@@ -19,6 +19,7 @@
 - **External/public sends require approval.**
 - **Push is Will-coordinated:** committing may be okay when approved/scoped; pushing requires explicit Will approval.
 - **Shared repo coordination:** when YEYOU or another agent has local/branch work, use `PROME/GIT_COORDINATION.md` before committing, merging, or pushing.
+- **Multi-agent orchestration:** before spawning >1 agent, apply the **mode-split rule** (`PROME/ORCHESTRATION_PLAYBOOK.md`) — fan-out/Workflow for parallel-identical work, live teams-mode only for the decision spine. Carry the deliver-before-idle contract into every spawn prompt; go quiet to Will while agents work.
 
 ---
 
