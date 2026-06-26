@@ -149,3 +149,23 @@
 ## Tier-2 verdict
 
 **The labor read SURVIVES all four planks** — *2027-grind / no 4th Q2 path / ~30% Aug-7 tail / immigration-masked* — and **two corrections STRENGTHEN it** (31→37 months; claims *not* accelerating-down → no pull-forward). The structural-recession claim's dramatic *headline numbers* were inflated (31mo, sub-1M openings, 2.2M, "downward" revisions), but the **mechanism spine holds**: elevated LTU 27.5%, financial-sector −107K, real ~1.0M immigration LF floor, breakeven ~50K so +172K NFP still masks. **No new Q2 catalyst; (a) stays 2027.** The cleanest takeaway: the *synthesis* was right even where its *inputs* were wrong — the errors to fix are upstream in the STATUS files.
+
+---
+---
+
+# TIER 3 — remaining flagged-uncertain (2026-06-26, direct verify)
+**Status:** RESEARCH/DRAFT. The other 3 Tier-3 items (OZK no-10-Q, FL UR 4.8/4.9, claims velocity) were already resolved in Tiers 1–2. The two remaining both verified clean — **neither needed the unverifiable-by-construction fallback** (both had real primaries; EDGAR was reachable with declared-UA).
+
+| Figure | Claimed | Verified | Source | Verdict |
+|---|---|---|---|---|
+| **AMTB ACL** | "~45% ACL" | **ACL/NPL coverage = 45.0%** ($79.236M ÷ $176.050M) — coverage-of-NPL, **NOT ACL/total-loans** (=1.21%); reads under-reserved (~45¢ per $1 of NPL) | AMTB Q1'26 10-Q, acc 0001734342-26-000037 (filed 2026-05-01), Note 5 / MD&A | ✓ (definition clarified) |
+| **Student-loan defaults** | "~9.16M" (Bloomberg) | **9.16M borrowers in default (270+ DPD)**, Apr 2026 — real **Dept of Ed/FSA** figure, Bloomberg only relayed | FSA Data Center; trajectory 6M (Aug'25) → 7.7M (Dec'25) → ~9M (Mar-31) → 9.16M (Apr) | ✓ (provenance upgrade; minor as-of Δ) |
+
+**Two definition/provenance traps to carry forward** ([[finding_number_carries_threshold_unit_source]]):
+- **AMTB 45% = ACL/NPL coverage** (under-reserved), *not* ACL/total-loans (1.21%) — cite the denominator. Confirms the AMTB FL-resi/condo leg as under-reserved, consistent with the path-(a) 2027 read. (These belong to CARL/REGINALD upstream — refinements, not corrections.)
+- **Student-loan: cite "9.16M in default (270+ DPD), Dept of Ed/FSA, Apr 2026"** — not Bloomberg. For a Q1/Mar-31 cite use ~9.0M / $220B (~13% of the $1.64T portfolio). Do **not** sum with NY Fed's 10.3%-of-balances 90+ DPD or the 2.6M Q1 "newly-defaulting" cohort (different methodologies).
+
+**Neither figure appears verbatim in the 3 canonical synthesis docs** (AMTB/student-loan are referenced conceptually only) → no canonical stamp required.
+
+## VERIFICATION PASS COMPLETE (Tiers 1–3)
+Tier 4 (macro/regime — HY/CCC, 10Y, prices) is **live-pull-at-trade** (rule #4), not a pre-verify target. The one scheduled item is the **10Y 6/30 re-pull** (feeds AOCI path (b)). Aggregate across all three tiers: ~26 load-bearing figures checked, **both theses survive**, with the material corrections (ALLY, ZION, WAL, EGBN, +93K labor sign, 31→37, 2.2M provenance) all applied/routed.
