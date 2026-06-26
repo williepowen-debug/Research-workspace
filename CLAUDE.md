@@ -8,10 +8,10 @@ A multi-agent financial research operation tracking systemic risk transmission. 
 
 ## How The System Works
 
-Two platforms share this git repo:
+All agents run as **Claude Code sessions on one desktop**, sharing this git repo. (The OpenClaw/VPS platform was cut 2026-06-26 — see `AGENTS/WALTER/design/OPENCLAW_CUTOVER_PLAN.md`.)
 
-- **OpenClaw (VPS):** Prome (chief of staff / coordinator) runs here, assigns decision work, manages state/decision rails, and communicates with Will via Telegram. WALTER owns signal/news routing. You don't run here.
-- **Claude Code (local):** CARL, REGINALD, SAM, and RED run here as independent sessions. You are NOT spawned by Prome. You communicate with Prome and each other via inbox/outbox files.
+- **PROME** (chief of staff / coordinator) runs as a CC desktop session: assigns decision work, manages state/decision rails, and owns Will-facing synthesis via Telegram. WALTER owns signal/news routing.
+- **Domain agents** (CARL, REGINALD, SAM, RED, …) run as independent CC sessions. They are not persistently spawned by PROME; they coordinate with PROME and each other via inbox/outbox files — and via teams-mode `SendMessage` when PROME orchestrates a live multi-agent session.
 
 Coordination is file-based. Write to `AGENTS/<NAME>/outbox/` to request Prome action. Read `AGENTS/<NAME>/inbox/` for incoming signals. Prome checks these and routes accordingly.
 
@@ -21,7 +21,7 @@ Coordination is file-based. Write to `AGENTS/<NAME>/outbox/` to request Prome ac
 
 **Transmission chain:** LABOR → CARL → REGINALD → market repricing. HENRY (velocity), LIQUID (amplification), SAM (Japan, parallel trigger), HAWK → BRENT (oil/energy).
 
-**Active agents:** PROME, CARL\*, REGINALD\*, OZK\*, CORAL\*, SAM\*, RED\*, LABOR, BROCK, LIQUID, HENRY, HAWK, BRENT, NEXUS. Tier 2 (spawned as needed): ZHAO, HANS, MARCO, BARON, SHADE, HERMES, DARWIN, OTTO, ORACLE. (\* = Claude Code)
+**Active agents:** PROME, WALTER, CARL, REGINALD, OZK, CORAL, SAM, RED, LABOR, BROCK, LIQUID, HENRY, HAWK, BRENT, NEXUS. Tier 2 (spawned as needed): ZHAO, HANS, MARCO, BARON, SHADE, HERMES, DARWIN, OTTO, ORACLE. *(All agents are Claude Code sessions now.)* *(Roster refresh deferred: VIOLET/BOND/TERRY/CREED/DEWEY exist but aren't slotted here — needs a verified-active pass, not a prose guess.)*
 
 *OZK spun out from REGINALD on 2026-04-24 (promoted from REGINALD/OZK/ to AGENTS/OZK/ as a peer agent). WAL is the next candidate for promotion when ready.*
 *CORAL (Florida) spun out from REGINALD on 2026-06-19 (promoted from REGINALD/sub-agents/CORAL/ to AGENTS/CORAL/ as a peer agent). CORAL is the comprehensive whole-Florida agent (real estate, insurance, FL banks, migration, tourism, state fiscal/property-tax, labor, coastal/climate — 10 pillars; see AGENTS/CORAL/COVERAGE.md). Overlap with MARCO on FL migration/tourism is intentional — reconcile shared metrics to one number, don't silo. Florida is a top-priority geography for Will.*
