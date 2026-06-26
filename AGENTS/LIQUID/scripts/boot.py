@@ -22,7 +22,7 @@ USD/JPY JPY=X is NOT the 5pm-ET NY close. H.4.1 series (WRESBAL) are dated by th
 as-of Wednesday. Verify load-bearing triggers against the canonical basis before acting.
 
 Exit code = FETCH health only (non-zero if any series failed to pull) — NOT alert state:
-a red thesis trigger (HY <260, USD/JPY >160, SRF >50) still exits 0. Parse stdout for alerts.
+a red thesis trigger (HY >280 or <260, USD/JPY >160, SRF >50) still exits 0. Parse stdout for alerts.
 """
 
 import calendar
@@ -82,19 +82,18 @@ def trend_str(vals, mult=1.0, dp=0):
 def build_credit():
     ccc = bb = None  # for the CCC-BB tail-gap composite
 
-    # HY OAS (macro) — kill <260 / confirm >320  [headline]
+    # HY OAS (macro) — config.py bands (SENTRY retune 6/26): 🟢<265 / 🟡265-280 / 🔴>280 X1 master.
+    # <260 ×2 closes = bear-axis KILL — a TWO-WAY secondary the single-sided config.classify can't
+    # encode (config kill_below=260), overlaid here as red; mirrors the live hy_oas_watch.py.  [headline]
     v, d, tr, err = fred_series("BAMLH0A0HYM2")
     if err:
         add("CREDIT", "HY OAS", "ERR", "🔴", f"fetch error: {err}", headline=True)
     else:
         bps = v * 100
-        if bps < 260:   m, n = "🔴", "KILL (<260) — credit-channel thesis kill; escalate ALL"
-        elif bps < 265: m, n = "🟠", "TRIGGER-A zone (<265 ×2 sessions = cut credit-thesis to half)"
-        elif bps < 270: m, n = "🟡", "PRE-TRIGGER (<270): re-read positions, check duration channel"
-        elif bps > 320: m, n = "🔴", "CONFIRMATION (>320) — credit transmission; escalate ALL"
-        elif bps > 300: m, n = "🟠", "approaching 320 confirmation"
-        elif bps > 280: m, n = "🟠", "X1 DECOUPLING (>280) — LIQUID half of PC-decoupling trigger; pair w/ wrapper-leading (BROCK)"
-        else:           m, n = "🟢", f"cushion {bps - 260:.0f}bps to 260 kill / {280 - bps:.0f}bps to 280 X1-trigger / {320 - bps:.0f}bps to 320 confirm"
+        if bps >= 280:   m, n = "🔴", "X1 MASTER TRIGGER FIRED (>280) — credit-recognition; escalate ALL"
+        elif bps >= 265: m, n = "🟡", f"X1 APPROACH (265-280 band) — {280 - bps:.0f}bps to the 280 master trigger"
+        elif bps < 260:  m, n = "🔴", "BEAR-AXIS KILL (<260 ×2 closes) — credit-thesis invalidation, NOT a stress event"
+        else:            m, n = "🟢", f"green (260-265) — {bps - 260:.0f}bps to 260 kill / {280 - bps:.0f}bps to 280 X1 trigger"
         add("CREDIT", "HY OAS", f"{bps:.0f}bps", m, n, d, trend_str(tr, 100, 0), headline=True)
 
     # CCC OAS — >1000 trip
@@ -381,6 +380,24 @@ def predictions_scan():
     return overdue
 
 
+def watcher_echo():
+    """Echo the unattended hy_oas_watch.py last state — surfaces a between-session HY OAS
+    cross to a human at next boot (closes the reaches-a-human loop; P1b)."""
+    import json
+    sp = LIQUID_DIR / "alerts" / "HY_OAS_STATE"
+    if not sp.exists():
+        print("    (watcher has not run yet — no HY_OAS_STATE)")
+        return
+    try:
+        st = json.loads(sp.read_text())
+    except Exception as e:
+        print(f"    ⚠️  HY_OAS_STATE unreadable: {e}")
+        return
+    flag = "  ⚠️ ELEVATED — check alerts/HY_OAS_ALERTS.log" if st.get("sev", 0) >= 1 else ""
+    print(f"    {st.get('marker','?')} HY OAS last {st.get('zone','?')} {st.get('bps','?')}bps "
+          f"(obs {st.get('obs_date','?')}, checked {st.get('checked','?')}){flag}")
+
+
 def selftest():
     """Validate the data files + fetch import (fail-loud parser test). Returns 0 pass / 1 fail."""
     ok = True
@@ -526,6 +543,9 @@ def main():
     imminent = catalyst_countdown()
     print("\n  Predictions Due-Scan (workbook/PREDICTIONS.tsv)")
     overdue = predictions_scan()
+
+    print("\n  Unattended Watcher (AGENTS/LIQUID/alerts/HY_OAS_STATE)")
+    watcher_echo()
 
     elapsed = (datetime.now() - t0).total_seconds()
     summary(elapsed, imminent, overdue)
