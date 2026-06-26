@@ -36,7 +36,7 @@ A clean status-boot-turned-governance-session. The load-bearing output: the misl
 2. (carried) **RED auto-cc trim?** (RED ~35% of delivery volume, all-INFO; over-cc pattern persists). [The 4-handoff prune is moot.]
 3. (carried) **EIA `.env` durability** — works on the laptop; any other box runs Cushing dark.
 4. (carried) **DEWEY Prompt B** spawn · **Scout build** (resolves the 3 dark crons) · ENSO/hurricane → CORAL offer.
-5. **🔴 OpenClaw cutover** — scoped in `design/OPENCLAW_CUTOVER_PLAN.md` (9 phases; WALTER-can-do-now items done this session, incl. the v0.6 changeset + defaults memo `design/BOARD_CONSUMPTION_SPEC_v0.6_CHANGESET.md`). **Urgent regardless of timing: rotate 2 exposed secrets** (committed Telegram bot token in `FORGE/tools/news-sweep/cron_sweep.sh` + the `clawdbot-gateway.service` `CLAWDBOT_GATEWAY_TOKEN`). Phase-0 decisions await: PROME→CC, YEYOU keep/cut, Telegram ownership, Quick-WALTER, Platform/delivery_log columns, FLASH push-authority.
+5. **🔴 OpenClaw cutover** — scoped in `design/OPENCLAW_CUTOVER_PLAN.md` (9 phases; WALTER-can-do-now items done this session, incl. the v0.6 changeset + defaults memo `design/BOARD_CONSUMPTION_SPEC_v0.6_CHANGESET.md`). **Secrets:** Telegram feeds-bot token (`@Prome_research_bot`, in git history) — **Will KEEPS, no revoke** (may replace later w/ fresh bot + GitHub Secret); gateway token (`CLAWDBOT_GATEWAY_TOKEN`, local file) invalidates at Phase-9 decommission. Phase-0 decisions await: PROME→CC, YEYOU keep/cut, Telegram ownership, Quick-WALTER, Platform/delivery_log columns, FLASH push-authority.
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
 

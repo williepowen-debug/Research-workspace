@@ -23,8 +23,8 @@ Removing the cross-machine layer must NOT remove the intra-machine concurrency g
 
 ## 🔴 URGENT — do regardless of any decision (security + active breakage)
 
-1. **Two exposed secrets — rotate/invalidate now:**
-   - **Telegram bot token** committed in plaintext at `FORGE/tools/news-sweep/cron_sweep.sh:10` (and in git history). Deleting the file does NOT un-compromise it → **rotate + move to a GitHub Secret** (also a Scout prerequisite).
+1. **Two exposed secrets:**
+   - **Telegram bot token** (`@Prome_research_bot`, id `***REMOVED***` — a FEEDS bot, NOT a live chat channel) committed in plaintext at `FORGE/tools/news-sweep/cron_sweep.sh:10` (and in git history). **Will-decided 2026-06-26: KEEP — do NOT revoke (may REPLACE later).** Residual exposure accepted: the token stays harvestable from git history by anyone with repo-history access (blast radius limited — feeds bot, no sensitive inbound). Clean path when ready = **replace** the bot with a fresh one whose token lives in a GitHub Secret (never committed), then retire the old.
    - **`CLAWDBOT_GATEWAY_TOKEN=***REMOVED***…`** in plaintext in the systemd unit `~/.config/systemd/user/clawdbot-gateway.service` → invalidate when the gateway is decommissioned (Phase 9).
 2. **Dead `/home/moltbot/.openclaw/workspace` paths — broken on the desktop right now:** `dashboard/server.py` (~10 joins + `.bak`), `AGENTS/DOC/CLAUDE.md` (9 paths), `FORGE/tools/news-sweep/config.py:430`, **7 `tools/calendar/*.py`**, `FORGE/tools/market-data/cron_dashboard.sh` + `morning_briefing.sh`. Dashboard, DOC, and calendar-sync are silently broken until repointed to `/home/willi/Research-workspace` (or `__file__`/env-derived).
 
@@ -59,7 +59,7 @@ The literal OpenClaw on this box = **`clawdbot-gateway.service`** (systemd user 
 ---
 
 ## Phase 1 — Urgent hot-fixes & security (no decision; run up front, parallel with Phase 0)
-- Rotate the committed Telegram token → GitHub Secret. *(INFRA/Will)*
+- ~~Rotate the committed Telegram token~~ — **Will-decided: KEEP `@Prome_research_bot` (no revoke; may replace later with a fresh bot + GitHub Secret).** Feeds-only, not a live chat. *(Will)*
 - Repoint `dashboard/server.py` WORKSPACE off `/home/moltbot` → repo root or env-derived. *(INFRA)*
 - Migrate the 9 `/home/moltbot` paths in `AGENTS/DOC/CLAUDE.md` (route to DOC's owner). *(OTHER-AGENT)*
 - Repoint `FORGE/tools/news-sweep/config.py:430` WORKSPACE (AGENTS_DIR derives from it — a **Scout prerequisite**, not a no-op), `tools/calendar/*.py` (×7), `FORGE/tools/market-data/cron_dashboard.sh` + `morning_briefing.sh`. *(INFRA)*
@@ -98,9 +98,9 @@ The OpenClaw cut confirms single-machine **permanent**, which unblocks the alrea
 - **If KEPT:** rewrite runtime → CC (drop "on the VM/always-on/24-7 Sentinel" — a CC YEYOU is a behavior change, not a lift-and-shift), keep "Reports to PROME", collapse its branch/merge protocol into standard intra-machine pathspec+defer-push.
 
 ## Phase 7 — Always-on feeds: promote Scout, retire VPS cron + SENTRY
-- Promote `SCOUT_BUILD_PLAN.md` PLAN → BUILD (VPS cut removes the last reason to defer); verify the §2 Will-prereqs (rotated token, `SCOUT_BOT_TOKEN`/`SCOUT_CHAT_ID` Secrets, group chat_id).
+- Promote `SCOUT_BUILD_PLAN.md` PLAN → BUILD (VPS cut removes the last reason to defer); verify the §2 Will-prereqs (the `@Prome_research_bot` token [kept] or a replacement in a Secret, `SCOUT_BOT_TOKEN`/`SCOUT_CHAT_ID`, group chat_id).
 - Build the Scout GitHub Action (runs `sweep.py` + `poll_edgar.py` **after** their `config.py` WORKSPACE is repointed — Phase 1; posts a Telegram digest, never commits). Repoint WALTER step-7c + `walter_doctor` cron_liveness → Scout digest.
-- Retire `cron_sweep.sh` (dead, token rotated); `feeds.yml` (SENTRY) DELETE vs leave-INERT (SCOUT §6 = inert); kill SENTRY "Vision-via-Prome" ROADMAP items; reconcile DEWEY `REVIVAL_PLAN` Scout-track.
+- Retire `cron_sweep.sh` (dead; `@Prome_research_bot` token KEPT per Will — feeds-only, leave or scrub-to-Secret on replace); `feeds.yml` (SENTRY) DELETE vs leave-INERT (SCOUT §6 = inert); kill SENTRY "Vision-via-Prome" ROADMAP items; reconcile DEWEY `REVIVAL_PLAN` Scout-track.
 
 ## Phase 8 — Root/infra docs sweep (OpenClaw-saturated playbooks; dedup with Phase 2)
 - `docs/BUILD_AGENT.md` — RETIRE/rewrite to CC reality (build an agent = create `AGENTS/<NAME>/` + a REGISTRY row; no `openclaw.json`/`~/.openclaw`/`openclaw agents add`/hermes). Every command currently fails on the desktop.
@@ -140,7 +140,7 @@ The OpenClaw cut confirms single-machine **permanent**, which unblocks the alrea
 - Half-editing the Quick construct → dangling refs across 4+ files (rule once, sweep all).
 - Disabling the gateway before the CC Telegram poller is verified → **Will-contact blackout.**
 - Rewriting append-only history (delivery_log OPENCLAW rows) → corrupts the audit.
-- Token NOT rotated (deleting the file ≠ un-compromising it).
+- Telegram feeds-bot token KEPT per Will (residual git-history exposure accepted; the clean neutralizer if/when desired = replace the bot + Secret, not in-place revoke).
 
 ---
 
