@@ -1,0 +1,71 @@
+# Auto-Push Migration Plan
+**Created:** 2026-06-26 · **Owner:** Prome · **Status:** PLAN — awaiting Will approval before execution
+**Goal:** Replace the manual "Will-coordinated push" ceremony with **auto-push at closeout**, safely, predicated on single-machine operation.
+
+---
+
+## Diagnosis (why this is safe to do)
+- **OpenClaw is not the blocker.** Zero OpenClaw commits in the last 100; all committers are Claude Code agents. The push ceremony exists for **concurrent shared-tree/branch writers**, and the genuine hazard is **cross-MACHINE** non-fast-forward races (OpenClaw = the VPS = the 2nd machine).
+- **Collapsing to one machine removes that hazard.** Same-machine multi-session concurrency (e.g. WALTER committed between Prome's commits today) is handled by git serialization + the push-train (one push sweeps all local commits — a feature).
+- **The mechanism already exists and fails safe.** `AGENTS/CARL/scripts/safe-push.sh` is fast-forward-gated: it never pulls a shared tree, never forces, and **ABORTS cleanly if origin has commits we don't** (the cross-machine case). So even if a 2nd machine ever returns, auto-push degrades to a clean refusal, not corruption.
+
+## Precondition (Will to confirm)
+- [ ] **Single-machine operation** — all agent sessions run on this one desktop (no VPS/laptop/web-app pushing to master). If ever false → auto-push aborts safely, but we'd want per-agent branches instead.
+
+---
+
+## Change Inventory — tallied by tier
+
+### TIER 0 — Mechanism (build/promote first)
+| # | File | Action |
+|---|---|---|
+| 0.1 | `AGENTS/CARL/scripts/safe-push.sh` → promote to `scripts/safe-push.sh` | Move to a fleet-shared location (its own header says "PROME owns fleet-wide promotion"). |
+| 0.2 | `scripts/safe-push.sh` header | Reverse the "DO NOT wire into closeout/hook" prohibition → "closeout-wired; ff-gated, fails safe." Keep all the safety logic. |
+| 0.3 | Wiring | **Decision A (below):** call from `PROME/CLOSEOUT.md` Chunk 4 and/or a `Stop` hook in `.claude/settings.json`. |
+| 0.4 | `scripts/fallback/stop_sync.sh` | Reconcile — it already auto-pushes memory via `pull --rebase --autostash && push`; align it to the safe-push model (or let safe-push supersede it). |
+| 0.5 | `.claude/settings.local.json` | Push permission already allowed ✅. Add Stop hook here only if Decision A picks the hook route. |
+
+### TIER 1 — Canonical policy (the source of truth — update these, not the 17 copies)
+| # | File | Current | New |
+|---|---|---|---|
+| 1.1 | `CLAUDE.md` (root) — Git Protocol | "Pushing is Will-coordinated… commit locally" | "Auto-push at closeout via `scripts/safe-push.sh` (ff-gated); single-machine assumption." |
+| 1.2 | `PROME/GIT_COORDINATION.md` — "Push Discipline" lease model | "Push only after Will coordinates the flush" | New auto-push-at-closeout policy + the single-machine precondition + safe-push as the gate. |
+| 1.3 | `memory/auto/feedback_defer_push_coordinate.md` | "commit local, defer push until Will" | Rewrite → "auto-push at closeout (single-machine); safe-push ff-gate." **Keep the slug** (referenced by ~20 agent files — update the anchor, don't break refs). |
+| 1.4 | `memory/auto/finding_push_train_pattern.md` | push-train = manual window | Still true; note it's now automated at closeout. |
+| 1.5 | `memory/auto/MEMORY.md` | index hooks for 1.3/1.4 | Update the one-line hooks. |
+
+### TIER 2 — Closeout protocols (behavior docs that say "defer push")
+| # | File | Action |
+|---|---|---|
+| 2.1 | `PROME/CLOSEOUT.md` Chunk 4 | "push only on Will's call" → "run `scripts/safe-push.sh` as the closeout tail." |
+| 2.2 | `AGENTS/LIQUID/CLOSEOUT.md` | Same flip. |
+| 2.3 | `AGENTS/TERRY/CLOSEOUT.md` | Same flip. |
+| 2.4 | `AGENTS/YEYOU/CLOSEOUT.md` | Same flip (note YEYOU is review-only / branch model — confirm it should auto-push). |
+
+### TIER 3 — Agent CLAUDE.md copies (the big surface — ~17 files)
+BOND, BRENT, CARL, CORAL, DEWEY, HAWK, LABOR, MARCO, NEXUS, ORACLE, OTTO, OZK, RED, SHADE, TERRY, WALTER, YEYOU each carry a "don't push / Will-coordinated" git block.
+**Decision B:** big-bang sweep all 17 now, **or** update canonical (Tier 1) + add a one-line "push policy: see `GIT_COORDINATION.md` (auto-push at closeout)" and lazy-sweep each agent's full block when next touched. *Recommend lazy* — avoids a 17-file edit + the fleet-wide reference risk we hit on the git-cluster memory consolidation.
+
+### TIER 4 — Incidental mentions (NO action)
+~30 STATUS/SCRATCH/MEMORY/research/handoff files mention push-coordination in passing — historical narrative, leave them.
+
+---
+
+## Recommended sequence (pilot-first, reversible)
+1. **Will confirms single-machine** (precondition).
+2. **Tier 0:** promote `safe-push.sh`, de-prohibit header, test `--dry-run`. (No behavior change yet.)
+3. **Pilot:** wire only `PROME/CLOSEOUT.md` (Tier 2.1) to call it — Prome auto-pushes at closeout for a session or two. Watch for any non-ff aborts.
+4. **If clean:** update canonical policy (Tier 1) + remaining closeouts (Tier 2.2–2.4).
+5. **Lazy-sweep** Tier 3 agent CLAUDE.md blocks as each agent is next active (or big-bang if Will prefers).
+
+## Decisions needed from Will
+- **A — Wiring:** closeout-step (explicit, per-agent), Stop-hook (fires every session-end automatically), or both?
+- **B — Tier 3 scope:** big-bang sweep 17 agent files now, or lazy-sweep + canonical pointer?
+- **C — YEYOU:** YEYOU is repo-wide-reviewer on a branch model — keep it manual/branch, or include in auto-push?
+- **D — Pilot vs all-at-once:** Prome-pilot first (recommended), or flip the whole fleet in one pass?
+
+## Risk / rollback
+- **Primary safety:** `safe-push.sh` fails SAFE — aborts on non-ff (cross-machine), never force/pull-on-shared-tree. Worst case = a clean refusal that surfaces the problem.
+- **Rollback:** revert the closeout-step + restore the "Will-coordinated" line = one commit. Fully reversible.
+- **Accepted tradeoffs:** (1) lose the manual "is this ready?" review gate; (2) pushed history can't be cleanly amended/rebased — mitigated by pushing at *closeout* (coherent units), not per-change.
+- **Tripwire:** if a 2nd machine ever returns, safe-push starts aborting — that's the signal to switch to per-agent branches.
