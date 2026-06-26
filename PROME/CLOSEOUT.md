@@ -30,8 +30,8 @@ Skip for casual one-off exchanges with no artifacts.
 |---|---|---|---|
 | **Bounce** | Mid-day restart for config/tmux/clear/branch; you're coming right back within the hour | SCRATCH addendum (3-5 lines) | No |
 | **Light** | Short session paused for hours; 1-2 artifacts; audit can wait for end-of-day Standard | SCRATCH full rewrite + STATUS surgical | Optional |
-| **Standard** *(default)* | End-of-thread or end-of-day; multi-artifact session | All Chunk 1 + Chunk 2 daily log + Chunk 4 commit; push only if Will approves | Yes, push gated |
-| **Heavy** | Pattern-discovery session; new lessons/designs to fold | Standard + auto-memory + design-docs + Chunk 3 residuals | Yes, push gated |
+| **Standard** *(default)* | End-of-thread or end-of-day; multi-artifact session | All Chunk 1 + Chunk 2 daily log + Chunk 4 commit + `safe-push.sh` | Yes, auto-push |
+| **Heavy** | Pattern-discovery session; new lessons/designs to fold | Standard + auto-memory + design-docs + Chunk 3 residuals | Yes, auto-push |
 
 End-of-day always runs at least Standard so the audit trail catches up. 10 Bounces + 1 end-of-day Standard = no audit gap, just a rollup HANDOFF entry covering the day.
 
@@ -170,15 +170,16 @@ git commit -m "PROME: <subject>" -- PROME/<file> PROME/<file>
 git add -- PROME/<newfile> && git commit -m "PROME: <subject>" -- PROME/<newfile>
 # mixed modified + new files: add only new explicit paths first, then commit all explicit paths:
 git add -- PROME/<newfile> && git commit -m "PROME: <subject>" -- PROME/<modified> PROME/<newfile>
-git pull --rebase                                        # only if push rejected or before push when safe
-git push                                                 # only on Will's explicit push call
+./scripts/safe-push.sh                                   # AUTO-PUSH at closeout — ff-gated, fails safe (Will 6/26, single-machine)
 ```
 
-**Never `git reset HEAD`** — shared `.git/index` makes it a global unstage that races concurrent agents (auto-memory `[[finding_pathspec_commit_race_safety]]`, incident `8ac5bf71`). Matches root `CLAUDE.md` "Before committing". **Pushing is a separate gate** — commit locally freely, but push only when Will coordinates it (concurrent agents may have unpushed local commits; `[[feedback_defer_push_coordinate]]`).
+**Never `git reset HEAD`** — shared `.git/index` makes it a global unstage that races concurrent agents (auto-memory `[[finding_pathspec_commit_race_safety]]`, incident `8ac5bf71`). Matches root `CLAUDE.md` "Before committing".
+
+**Auto-push at closeout (Will 2026-06-26, single-machine).** Run `./scripts/safe-push.sh` as the closeout tail — it ff-gates the push and safely sweeps the push-train (`[[finding_push_train_pattern]]`). It **fails safe**: a non-fast-forward ABORT = a second machine pushed → stop, do not force, flag to Will (the tripwire that single-machine was violated). The script never pulls/touches a shared working tree, so other agents' uncommitted edits are never at risk. *PILOT: Prome-only ahead of the canonical docs — root `CLAUDE.md` + `PROME/GIT_COORDINATION.md` still read "Will-coordinated" until this soaks (documented divergence; see `PROME/AUTOPUSH_MIGRATION_PLAN.md`).*
 
 Commit message style: subject = `PROME: <short one-liner>`; body explains WHY not WHAT when useful. **Option order matters:** put `-m` before `--`; everything after `--` is treated as a pathspec.
 
-If working tree outside `PROME/` is dirty (other agents' uncommitted work): commit your work, defer push, note pending push in `memory/YYYY-MM-DD.md` per root CLAUDE.md.
+Other agents' uncommitted work outside `PROME/` does NOT block the push — `safe-push.sh` pushes only committed work and never touches the tree. It will sweep any other agent's committed-but-unpushed commits (the push-train — expected/correct). Only a non-ff abort stops it (cross-machine push → flag to Will).
 
 ### Session summary to Will
 

@@ -1,6 +1,18 @@
 # Auto-Push Migration Plan
-**Created:** 2026-06-26 · **Owner:** Prome · **Status:** PLAN — awaiting Will approval before execution
+**Created:** 2026-06-26 · **Owner:** Prome · **Status:** PILOT LIVE — Prome closeout wired (2026-06-26); fleet rollout pending soak
 **Goal:** Replace the manual "Will-coordinated push" ceremony with **auto-push at closeout**, safely, predicated on single-machine operation.
+
+## Decisions (Will, 2026-06-26)
+- **Precondition:** ✅ single-desktop only (no VPS/laptop/web pushing) → plan greenlit.
+- **A — Wiring:** closeout step (not a Stop hook).
+- **B — Tier 3:** lazy-sweep + canonical pointer (no 17-file big-bang).
+- **C — YEYOU:** (default) keep manual/branch model until reviewed.
+- **D — Rollout:** Prome pilot first, then fleet after soak.
+
+## Pilot status (DONE this session)
+- ✅ Tier 0.1/0.2 — `scripts/safe-push.sh` promoted (PROME-owned copy); header de-prohibited → closeout-authorized; `--dry-run` tested green.
+- ✅ Tier 2.1 — `PROME/CLOSEOUT.md` Chunk 4 wired to `safe-push.sh` + documented divergence (canonical docs unchanged during soak).
+- ⏳ NEXT (after soak): Tier 1 canonical policy (root `CLAUDE.md`, `GIT_COORDINATION.md`, 2 memories) → then Tier 2.2–2.4 closeouts → then lazy-sweep Tier 3.
 
 ---
 
