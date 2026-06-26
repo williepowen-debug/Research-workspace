@@ -160,3 +160,4 @@
 - [Pathspec Rename Needs Both Paths](finding_pathspec_rename_needs_both_paths.md) — a path-scoped commit of a git-mv rename must list BOTH paths or it splits into a dangling source deletion
 - [Fleet Self-Report Convergence](finding_fleet_selfreport_convergence.md) — N agents self-reporting in a common template converge on the same issues → fix at the fleet-standard layer; validate-by-use before locking
 - [Orchestration Mode-Split](feedback_orchestration_mode_split.md) — before spawning >1 agent, split fan-out (Workflow) from live (teams-mode); deliver-before-idle; go quiet while agents work — see ORCHESTRATION_PLAYBOOK
+- [Freshness Audit ≠ Caught Up](finding_freshness_audit_vs_caught_up.md) — mtime-fresh agent can still be behind on inbox backlog + a pending test in its own STATUS that already resolved; check both

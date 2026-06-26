@@ -27,6 +27,7 @@ Bank-put reshape proposal (shelved) · detection/action hardening cluster (confi
 2. **NEXUS refresh** — deferred (Will hold).
 
 ## Watch next 24–72h
+0. **★ AI-capex-correction convergence (NEW, 6/26 PM via WALTER signals).** HEN-35 (AI/semi positioning-unwind) raised 30%→~52-55% — KOSPI 2nd circuit-breaker + Taiwan defaults + hyperscaler-FCF→zero = fundamentally-grounded capex correction transmitting equity→PC→public-credit. **Mon transmission test: MU/SMH/SOX open + VIX vs 23.** Late-Jul Q2 (hyperscaler FCF actuals + BDC marks ~7/25) = the verification gate. A WATCH, not a deploy — nothing fired.
 1. HY vs 280 (278 [6/25], 2bp — now auto-watched → `AGENTS/LIQUID/alerts/`). 2. Wrapper-basket (ARCC/FSK/OBDC) vs managers. 3. 10Y 6/30 re-pull (scheduled cloud routine). 4. June CPI 7/14. 5. Jul bank prints (CFG/OZK/**WAL** Jul16 → monoline gate Jul21 → EGBN Jul22) — WAL now prints WITH CFG/OZK, not the late gate — use `grade_print.py`. 6. **BRK-29 PE-evergreen 2nd-gate window closes ~7/3** (BROCK-owned; Partners Group fired = 1 of 2, 2nd un-fired; clean window-close de-escalates the cross-asset vector). 7. BROCK BRK-30 credit-fund Q3 re-fire (resolve 10/15).
 
 ## Fresh-boot checklist

@@ -1,11 +1,11 @@
 # PROME STATUS.md
-**Updated:** 2026-06-26 (Claude Code Prome — HEAVY session: 5-agent orchestration [WAL date fix · 5-fund PC gate cluster · insurer double-jeopardy] + fleet ARCHITECTURE REVIEW → Tier-1 self-apply + ratified closeout-addendum into root CLAUDE.md; auto-pushed synced 0/0; 5 agents released)
+**Updated:** 2026-06-26 EVENING (Claude Code Prome — signal-coordination session: WALTER live in a separate window routed Will's 6/26 Telegram stream; Prome ran the processing side — 3 dormant-inbox triages, WALTER's 9-signal stream through 5 owners ×2 rounds, fleet staleness audit, 2 catch-up packets [OZK/HAWK]. Earlier today = separate HEAVY arch/orchestration session.)
 
 ## Core State
 
 **Operational priority:** 6/26 session ran the detection/action HARDENING cluster (LIQUID/SENTRY/TERRY, Prome-directed) + a 3-way arch peer-review + fix round. **Standing rule (Will 6/26): deploy fresh capital ONLY on a fired trigger; $500/card.** Boot from `PROME/SCRATCH.md`. Key new machinery: a LIVE `liquid-hy-watch` systemd timer auto-catches an HY>280 cross between sessions; `grade_print.py`/`chain_fetch.py`/fire-card template are the trigger→card toolchain. Prior ownership truth holds: CREED owns REIT equity tape, TERRY supersedes TRADES, ORACLE owns prediction-market diagnostics; no auto-trading.
 
-**Current repo reality:** Pushed — local+origin synced 0/0 at `3d4afafa` (9 commits this session). Only WILL/trading-journal working-tree changes remain (3 intentional deletions + 2 book JPGs — Will's, left untouched).
+**Current repo reality:** Clean tree (only WILL/trading-journal = Will's, untouched). Evening session's cross-dir commits (triage moves + 5 ingest-notes + 2 catch-up packets) all committed; WALTER pushed mid-session (swept earlier commits to origin). **2 local-ahead at closeout** (OZK + HAWK packets) → safe-push at closeout tail. Concurrency held clean (report-only sub-agents + pathspec commits, 2 live windows, zero index race).
 
 **Market priority:** per `HEARTBEAT.md` (6/25): energy tail **DEFLATED** (Brent ~$74, Hormuz resolved non-kinetic; Cushing sub-20M → BRENT Boundary #3); credit-bear **ARMED — pre-trigger/entry-gated** above the <260 kill (HY 271); bank-vs-PC divergence is **MACRO, not credit-substance**. Live bear-root watch = wrapper-leading + HY OAS >280 (both unfired). Refresh dashboard/FRED before citing levels.
 
@@ -33,7 +33,10 @@
 
 | Lane | Priority | Status / owner note |
 |---|---:|---|
-| Detection/action hardening | ✅ done 6/26 | config retune + live HY watch timer + trigger→card toolchain + grade_print; verified, pushed. |
+| WALTER 9-signal processing | ✅ done 6/26 PM | 5 owners ×2 rounds, ingest-notes committed. **HEN-35 30%→~52-55%** (AI-capex-correction convergence). Mon discriminators = MU/SMH/SOX, VIX vs 23. |
+| OZK revival (63d cold) | 🟠 packet delivered | `AGENTS/OZK/inbox/...REVIVAL-PACKET.md`. **Position-state UNSAFE** (broker reconcile needed); Q2 print ~Jul-16. OZK's next session gated on current broker book. |
+| HAWK catch-up | ✅ packet delivered | `AGENTS/HAWK/inbox/...CATCHUP-PACKET.md`. 9-sig backlog triaged (all confirm); decoupling test resolved (Brent shrug). 4 to ingest. |
+| Detection/action hardening | ✅ done 6/26 AM | config retune + live HY watch timer + trigger→card toolchain + grade_print; verified, pushed. |
 | Bank-put reshape card | 🟡 shelved | `PROME/proposals/2026-06-26_bank-put-reshape-roll.md`; fires ONLY on HY>280 sustained / WAL Jul-16 print. $500/card. Needs live broker book at fire-time. |
 | Dormant-agent cleanup | ⚪ optional | Inspect before archiving; do not demote folders from vibes. |
 | CREED first real work | 🟡 if requested | Monthly CMBS/special-servicing + REIT tape tracker design. |
@@ -57,4 +60,4 @@
 
 ## Next Best Action
 
-After clear, fresh Prome should check `AGENTS/LIQUID/alerts/HY_OAS_ALERTS.log` for any between-session HY transition (watch timer daily 13:00 ET). Live regime: HY 278 [6/25], 2bp from >280 X1 — auto-watched; no action unless a trigger fires (then the shelved $500/card reshape, needs live broker book). **Architecture follow-ons available** (see `PROME/cluster/2026-06-26_fleet_arch_compare.md` + SCRATCH): Tier-2 = port SHADE §-STATUS model to CARL/REGINALD, standardize board_log, port boot.py; Tier-3 = unify prediction/trigger schema, BROCK calibration loop, per-bank tiering; Tier-4 messaging held for overhaul. **Forward docket:** 10Y 6/30 · JOLTS 6/30 · NFP 7/2 · BRK-29 ~7/3 · CPI 7/14 · WAL Jul-16.
+After clear, fresh Prome should check `AGENTS/LIQUID/alerts/HY_OAS_ALERTS.log` for any between-session HY transition (watch timer daily 13:00 ET). Live regime: HY 278 [6/25], 2bp from >280 X1 — auto-watched; no action unless a trigger fires. **Tonight's signal-processing read:** AI-capex-correction convergence (HEN-35 ~53%) is a sharpened WATCH, not a deploy — **Mon discriminators: MU/SMH/SOX transmission + VIX vs 23 + HY vs 280.** Open own-window threads (do-not-spawn): BRENT/002 (lone counter), SAM/CARL/RED. **Architecture follow-ons** still available (Tier-2/3, see `PROME/cluster/2026-06-26_fleet_arch_compare.md`). **Forward docket:** Mon MU/semis · 10Y 6/30 · JOLTS 6/30 · NFP 7/2 · BRK-29 ~7/3 · **OZK+WAL+CFG Jul-16** · CPI 7/14 · late-Jul Q2 FCF + BDC marks ~7/25.
