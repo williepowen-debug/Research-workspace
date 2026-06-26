@@ -1,5 +1,5 @@
 # ACTIVE_DECISIONS.md
-**Updated:** 2026-06-21 10:08 ET (Prome — pre-clear hygiene; no trade decision moved)
+**Updated:** 2026-06-26 ~13:05 ET (Prome — standing rule set + bank-put reshape card shelved; detection/action hardening shipped)
 **Owner:** Prome
 **Purpose:** Boot-readable index of non-terminal decisions. Full logic stays in action cards / execution rails.
 
@@ -39,6 +39,7 @@ Key supersessions:
 | 6/18 theta-killer cluster / expiry cleanup | `WILL_APPROVED` historical rail; `VERIFICATION_REQUIRED` before use | Prome → reconcile monitor history; Will → approve any action | Do **not** roll or refresh position logic from stale May rail. This is an expiry cleanup / reconciliation problem, not an execution rail. HYG leg is dead/written-off per LIQUID. TLT/WAL/non-TLT legs require broker truth before action. | Before any 6/18 cluster decision, expiry write, or position update | `PROME/action-cards/JUN18_EXPIRY_CLUSTER_2026.md` + `FORGE/trigger-sets/JUN18_CLUSTER_2026-06-18.md` + `AGENTS/LIQUID/STATUS.md` |
 | FXY Jun 18 $58C salvage / Japan gate | `POSITION_UPDATED` / `VERIFY_BEFORE_ACTION` | Will → position decision already made; Prome/SAM → monitor TIC/expiry context | SAM says Will decided to hold the Jun18 $58C salvage. BOJ hike was as-priced; TIC Jun18 remains context. Do not infer any new action without broker/Will check. | Before any FXY expiry action or Japan-position recommendation | `AGENTS/SAM/STATUS.md` + `PROME/TODAY.md` |
 | Separate-clones fleet migration | `DEFERRED_ARCHITECTURE_DECISION` | SAM → architect; Will → decision-maker | Bundle CARL readiness + HENRY auto-memory collision proposal into one Will-decision packet only if/when Will wants the migration lane reopened. M3 atomic cutover slate remains SAM/HENRY/REGINALD/OZK/CARL. Do not do halfway. | Before any auto-memory format change or fleet-cutover scheduling | `AGENTS/SAM/proposals/2026-06-04_separate_clones_*.md` + `AGENTS/CARL/outbox/2026-06-06_to-PROME_separate_clones_CARL_readiness.md` + `AGENTS/HENRY/outbox/2026-06-06_to-PROME_automem_proposal_folder.md` |
+| Bank-put reshape / (b)(c) deploy | `PROPOSED` / `SHELVED_PENDING_TRIGGER` | Will → fire decision; Prome → monitor trigger | **Standing rule (Will 6/26): deploy fresh capital ONLY on a fired trigger; $500/card max-loss** ([[feedback_deploy_on_trigger_not_calendar]]). Reshape proposal built but SHELVED — book dated 2026 / thesis 2027 (duration mismatch); (b) AOCI + (c) WAL the live paths, (a) regional trimmed. Fires ONLY on HY>280 sustained (auto-watched by `liquid-hy-watch` timer) OR WAL Jul-30 print. Needs live broker book at fire-time (rule #4). | HY>280 sustained / WAL Jul-30 grade / monoline Jul-21 gate | `PROME/proposals/2026-06-26_bank-put-reshape-roll.md` + `AGENTS/TERRY/setups/` |
 
 ---
 

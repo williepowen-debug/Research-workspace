@@ -1,11 +1,11 @@
 # PROME STATUS.md
-**Updated:** 2026-06-25 ~13:10 ET (Claude Code Prome — Desktop CC; do-now batch + regime refresh + agent closeout)
+**Updated:** 2026-06-26 ~13:05 ET (Claude Code Prome — detection/action hardening cluster + arch peer-review + closeout; pushed synced 0/0)
 
 ## Core State
 
-**Operational priority:** 6/25 Desktop-CC session ran a do-now batch (SAM/BROCK/HENRY/LIQUID, teams-mode) → full write-back → regime-surface refresh → agent closeout. Boot from the current regime via `PROME/SCRATCH.md` + `PROME/synthesis/2026-06-25_donow_reconciliation.md`. Prior ownership truth still holds: CREED owns REIT equity tape, TERRY supersedes TRADES, ORACLE owns prediction-market diagnostics; no auto-trading.
+**Operational priority:** 6/26 session ran the detection/action HARDENING cluster (LIQUID/SENTRY/TERRY, Prome-directed) + a 3-way arch peer-review + fix round. **Standing rule (Will 6/26): deploy fresh capital ONLY on a fired trigger; $500/card.** Boot from `PROME/SCRATCH.md`. Key new machinery: a LIVE `liquid-hy-watch` systemd timer auto-catches an HY>280 cross between sessions; `grade_print.py`/`chain_fetch.py`/fire-card template are the trigger→card toolchain. Prior ownership truth holds: CREED owns REIT equity tape, TERRY supersedes TRADES, ORACLE owns prediction-market diagnostics; no auto-trading.
 
-**Current repo reality:** Clean tree; this session's work committed locally (full 9-commit ledger in `PROME/SCRATCH.md`). Pushing stays Will-coordinated.
+**Current repo reality:** Pushed — local+origin synced 0/0 at `3d4afafa` (9 commits this session). Only WILL/trading-journal working-tree changes remain (3 intentional deletions + 2 book JPGs — Will's, left untouched).
 
 **Market priority:** per `HEARTBEAT.md` (6/25): energy tail **DEFLATED** (Brent ~$74, Hormuz resolved non-kinetic; Cushing sub-20M → BRENT Boundary #3); credit-bear **ARMED — pre-trigger/entry-gated** above the <260 kill (HY 271); bank-vs-PC divergence is **MACRO, not credit-substance**. Live bear-root watch = wrapper-leading + HY OAS >280 (both unfired). Refresh dashboard/FRED before citing levels.
 
@@ -33,7 +33,8 @@
 
 | Lane | Priority | Status / owner note |
 |---|---:|---|
-| Closeout live-state refresh | 🟡 current | Update Prome handoff/scratch/status/memory after pushed cleanup work. |
+| Detection/action hardening | ✅ done 6/26 | config retune + live HY watch timer + trigger→card toolchain + grade_print; verified, pushed. |
+| Bank-put reshape card | 🟡 shelved | `PROME/proposals/2026-06-26_bank-put-reshape-roll.md`; fires ONLY on HY>280 sustained / WAL Jul-30. $500/card. Needs live broker book at fire-time. |
 | Dormant-agent cleanup | ⚪ optional | Inspect before archiving; do not demote folders from vibes. |
 | CREED first real work | 🟡 if requested | Monthly CMBS/special-servicing + REIT tape tracker design. |
 | TERRY first live dry run | 🟡 if requested | Use risk scoring + snapshot/risk scripts; no execution. |
@@ -56,4 +57,4 @@
 
 ## Next Best Action
 
-After clear, fresh Prome should verify repo state and choose lane: market refresh for Jun22 gates, or continue dormant-agent cleanup only after inspecting actual files and value.
+After clear, fresh Prome should check `AGENTS/LIQUID/alerts/HY_OAS_ALERTS.log` for any between-session HY transition (the watch timer runs daily 13:00 ET). Live regime: HY 278 [6/25], 2bp from the >280 X1 — watched automatically now. No action unless a trigger fires; then the shelved $500/card reshape is the ready response (needs live broker book).
