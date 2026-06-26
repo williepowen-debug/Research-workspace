@@ -1,3 +1,5 @@
+**Domain reassignment from CARL 6/26 — Athene/PE-insurance plumbing is SHADE's beat, not CARL consumer-credit.**
+
 # ATHENE DEPOSIT MAPPING
 _Completed: 2026-03-04 | Agent: BROCK subagent | Priority: 1_
 
