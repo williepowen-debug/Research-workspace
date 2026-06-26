@@ -1,5 +1,5 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-25 ~20:40 ET (Claude Code Prome — Desktop CC; front-half de-mask cluster + 5-lens adversarial + front↔back reconciliation + Jul-print grading instrument; 4 agents released; NOT pushed)
+**Last Updated:** 2026-06-25 ~20:55 ET (Claude Code Prome — Desktop CC; front-half de-mask cluster + 5-lens adversarial + front↔back reconciliation + Jul-print grading instrument; 4 agents released; PUSHED synced 0/0; verification-pass action-card teed up)
 
 ## Session Context
 - Desktop CC, Prome live surface. Same-day continuation of the transmission-terminus (back-half) session.
@@ -35,8 +35,9 @@
 - `finding_cluster_adversarial_catches_framing` — synthesis over-claims an elegant unification; independent adversarial+judge catches framing overreach while the trade conclusion survives.
 
 ## Carry / deferred
-- **PUSH PENDING** — 3 new PROME/synthesis docs + SCRATCH/HANDOFF committed local, not pushed. Sweep next Will push window.
-- **Trade construction for (b)/(c)** optionality = the Will-gated next thread (needs the book).
+- ▶ **NEXT SESSION #1 — VERIFICATION PASS (teed up, self-contained):** run `PROME/action-cards/VERIFICATION_PASS_2026-06-26.md` — verify the ~25 load-bearing cluster figures vs primaries (EDGAR 10-Q / FDIC Call Report / FRED / BLS-DOL) BEFORE any of this is trade-load-bearing; updates the grading-instrument baselines from "verify-before-trade" to VERIFIED/CORRECTED. Tier-1 = the 8 bank Q1 baselines the BUILD/RELEASE thresholds hang on.
+- All 2026-06-25 cluster commits **PUSHED — synced 0/0** (origin `d1a6b644`).
+- **Trade construction for (b)/(c)** optionality = the Will-gated thread (needs the book) — gate behind the verification pass.
 - MEMORY.md over-limit (+2 entries tonight) — prune still deferred (standing task).
 - HANDOFF length trim-debt persists (roll the 2026-06-21 entries to archive in a prune pass).
 - Regime carry: HY **276 [6/24]** (4bp from >280 X1); 10Y 4.39; energy deflated (Brent $75); monolines green; FXY closed.
