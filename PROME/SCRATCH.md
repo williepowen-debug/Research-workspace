@@ -1,11 +1,11 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-25 ~20:55 ET (Claude Code Prome — Desktop CC; front-half de-mask cluster + 5-lens adversarial + front↔back reconciliation + Jul-print grading instrument; 4 agents released; PUSHED synced 0/0; verification-pass action-card teed up)
+**Last Updated:** 2026-06-26 (Claude Code Prome — VERIFICATION PASS (Tier-1, 8 banks) RAN via Workflow `wzmprhwb2`; results + proposed corrections in `PROME/proposals/2026-06-26_tier1-verification-results.md`; thesis SURVIVES; 2 required canonical rewrites pending Will. Prior session: front-half de-mask cluster + adversarial + reconciliation + grading instrument, all PUSHED synced 0/0 at `8a0df2be`.)
 
 ## Session Context
 - Desktop CC, Prome live surface. Same-day continuation of the transmission-terminus (back-half) session.
 - Will ran a 2nd orchestration: the **front-half "Three Masks" de-mask cluster** as PERSISTENT teams-mode agents Prome directed live across rounds (CARL_FH=credit / LABOR=labor / MARCO=migration), then a **5-lens independent adversarial round** (verdict HOLDS-WITH-ADDITIONS), then a **full front↔back reconciliation** (REGINALD_T re-spawn), then a **Jul-print grading instrument**.
 - **4 agents RELEASED at closeout** (shutdown_request) — no warm-parking (see lesson). All were RESEARCH/DRAFT-ONLY; wrote nothing to canonical files.
-- **NOT pushed** — local PROME/ commits only; push is Will-coordinated.
+- **All prior-session cluster commits PUSHED** — local = origin = `8a0df2be`, synced 0/0. (This session's verification-results proposals doc + SCRATCH edits are local, uncommitted — Will-coordinated.)
 
 ## What landed — 4 PROME/synthesis docs
 1. `2026-06-25_front-half-demask-cluster.md` (v2, post-adversarial) — the SOURCE read.
@@ -35,7 +35,7 @@
 - `finding_cluster_adversarial_catches_framing` — synthesis over-claims an elegant unification; independent adversarial+judge catches framing overreach while the trade conclusion survives.
 
 ## Carry / deferred
-- ▶ **NEXT SESSION #1 — VERIFICATION PASS (teed up, self-contained):** run `PROME/action-cards/VERIFICATION_PASS_2026-06-26.md` — verify the ~25 load-bearing cluster figures vs primaries (EDGAR 10-Q / FDIC Call Report / FRED / BLS-DOL) BEFORE any of this is trade-load-bearing; updates the grading-instrument baselines from "verify-before-trade" to VERIFIED/CORRECTED. Tier-1 = the 8 bank Q1 baselines the BUILD/RELEASE thresholds hang on.
+- ✅ **VERIFICATION PASS — Tier-1 + Tier-2 DONE (2026-06-26):** Workflows `wzmprhwb2` (banks) + `wzlhvzlcb` (labor). Tier-1 11✓/9Δ/5✗/3? · Tier-2 8✓/5Δ/3✗/1?. **BOTH theses SURVIVE.** Results: `PROME/proposals/2026-06-26_tier1-verification-results.md`. **Tier-1 corrections APPLIED to canonical docs** (10 stamped edits; ALLY+ZION required rewrites in). **Tier-2 APPLIED (Will-approved 06-26):** 7 stamped canonical labor edits (recon:53 + demask:24/52/59×2/115/137 — 31→~37mo Information-sector; immigration 2.2M=DHS-disputed-not-CBO + ~1.0M LF; velocity +21K verified). **3 UPSTREAM route packets PLACED in inboxes** (uncommitted, other agents' dirs — next-boot SIGs): `AGENTS/LABOR/inbox/2026-06-26_from-PROME_verification-corrections.md` (+93K sign error, prof-biz <1M false, 31→37, mgmt-occ unverifiable), `AGENTS/MARCO/inbox/...immigration-magnitude.md` (2.2M=DHS-not-CBO, ~1.0M LF), `AGENTS/CORAL/inbox/...FL-labor-verification.md` (FL UR 4.8% SA resolved, +40.5K=Apr MoM). Meta-finding: synthesis docs were cleaner than their STATUS-file inputs. **NOT yet run: Tier-3/4 (macro/regime) + migration block.**
 - All 2026-06-25 cluster commits **PUSHED — synced 0/0** (origin `d1a6b644`).
 - **Trade construction for (b)/(c)** optionality = the Will-gated thread (needs the book) — gate behind the verification pass.
 - MEMORY.md over-limit (+2 entries tonight) — prune still deferred (standing task).
