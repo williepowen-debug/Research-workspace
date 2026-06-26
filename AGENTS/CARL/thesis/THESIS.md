@@ -203,6 +203,42 @@ Empirical first-wave evidence (Q1 2026):
 
 ---
 
+## Path C — Bifurcated Timing Axis *(NEW v2.6 — Jun 25, Will-approved)*
+
+Jun 25 adversarial pass on my "HOLDS to 2027" call found a **category error**: extend-and-pretend is a CRE/multifamily mechanism (balloon extensions, maturity mods). FFIEC Uniform Retail Credit Classification **mandates** charge-off at **180 DPD (open-end/card)** and **120 DPD (closed-end/auto)** — banks cannot extend-and-pretend a delinquent card. The unsecured consumer pipeline is **mechanical and fast (one-two quarters off 90+), not deferrable.** The timing axis therefore **bifurcates by collateral type:**
+
+| Axis | Channel | Key names | Timing | Mechanism |
+|------|---------|-----------|--------|-----------|
+| **A — Unsecured / monoline** | Cards + auto | SYF, COF, ALLY, DFS | H2-2026 crystallization | FFIEC-mandated charge-off — un-maskable; cannot be deferred |
+| **B — CRE / regional terminus** | Secured CRE + housing | Cluster regionals (ZION, CFG, VLY, SBCF) | Q1-2027 | Extend-and-pretend genuinely defers balloon/maturity mods |
+
+**Rule:** a **monoline-only break** (Axis A fires) with NO ≥2 CRE-regional confirm in the same quarter **CONFIRMS Axis A but does NOT flip Axis B.** The regional terminus (Axis B) flips only on its own bar: synchronized criticized→realized NCO + specific reserve build across ≥2 cluster regionals in the same quarter. **Monolines are the leading tell for Axis A — never a proxy for Axis B.** COF is the dual-path name: post-Discover it carries a dominant pure-card book (Axis A) AND a commercial/office CRE book (Axis B) on one balance sheet.
+
+**Pre-registered hard trigger — Axis A confirmation (CRL-24; Q2 monoline prints ~Jul 15-22):**
+- **PRIMARY:** SYF Q2 card NCO **>5.5%** (above its own *cut* FY26 guide ceiling; Q1 was 5.42%) **AND ACL coverage ratio DOWN QoQ** (reserve build < charge-off burn)
+- **CONFIRM (≥1):** COF domestic card NCO >5.5% with 30+ DQ up ≥25bps QoQ; OR ALLY reverses Q1 reserve release (−$224M) to a BUILD with retail-auto 30+ DQ >4.6% AND NCO >2.1%
+- **HOLDS-to-2027 survives IFF:** all three print NCOs at/below cut guides, ACL coverage stable/rising, 30+ DQ flat-to-down → Q1 deceleration was genuine, unsecured book not crystallizing H2-2026
+
+This does NOT modify CRL-21 (Q3 2026 leading-edge) or CRL-20 (Q1 2027 outer) falsification windows — those test the masking framework. CRL-24 is an earlier, higher-specificity binary for the unsecured channel alone.
+
+---
+
+## Path PC — Private Credit State *(NEW v2.6 — Jun 26)*
+
+Private credit wrappers are a **path**, not a numbered convergence vector. State as of Jun 26 2026:
+
+| Entity | State | Evidence |
+|--------|-------|---------|
+| **BCRED** (Blackstone Private Credit Fund, $79B non-traded BDC) | **Gate breached — first-ever Q2 2026 gate** | Q2 redemption requests ~10% NAV (~$4.5B); Blackstone capped at 5%. Q1 2026: breached cap (7%) via $400M Blackstone house-capital injection. Q2 that plug absent → structural gate. [SEC 8-K Jun 4 + Bloomberg] |
+| **FSK** (FS KKR Capital) | Non-accruals 4.2% Q1 2026 — above peers | [Q1 2026] |
+| **OBDC** (Blue Owl Capital) | 5th consecutive NAV decline → $14.41; 16% dividend cut; non-accruals roughly doubled | [Q1 2026] |
+
+**BCRED gate = structural illiquidity breach.** Retail investors who presumed quarterly liquidity are discovering the illiquidity premium was not priced. Differs mechanically from NAV/dividend pressure (FSK/OBDC) — a gate forecloses exit even at a discount. Cascade mechanism: BCRED gate visible to retail-channel advisors → redemption acceleration at peer non-traded BDCs → gate contagion → systemic non-traded BDC liquidity event.
+
+**Pre-registered cascade trigger (CRL-25):** If ≥2 *additional* non-traded BDCs (beyond BCRED) gate in Q3 2026, Path PC escalates from path-state to a numbered convergence vector (V17 candidate). Monitor: Owl Rock Income, Blue Owl Capital Income, Blackstone alternatives (BREIT parallel). BCRED alone = Path PC "watching, gate-breached." Second gate = escalation trigger.
+
+---
+
 ## Trade Duration Implications *(NEW v2.5)*
 
 v2.5 masking framework implies 12-24mo P&L visibility lag. Short structures need duration matching:
