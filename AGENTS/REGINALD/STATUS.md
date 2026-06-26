@@ -186,15 +186,9 @@ Three life-science CRE distress events across cohorts in 6 months:
 
 ## PREDICTIONS
 
-| # | Prediction | Timeframe | Confidence |
-|---|------------|-----------|------------|
-| REG-01 | Office CMBS DQ stays >10% | Through 2026 | 90% |
-| REG-02 | FHLB advances spike >$600B | Q2-Q3 2026 | 60% |
-| REG-03 | At least one Tier 1 bank capital raise | H2 2026 | 50% |
-| REG-04 | Chicago pattern replicates in Phoenix | H1 2026 | 65% |
-| REG-20 | WAL major stress event ✅ **CONFIRMED-PARTIAL 2026-05-08** | Apr-Jun 2026 (resolved Apr 21) | 82% — earnings-miss trigger fired (1 of 3 OR-conditions); modest tape reaction; PARTIAL credit |
-| REG-24 | WAL Office classified > $500M by Q3 2026 | Q2-Q3 2026 | 70% (v2.2 ratchet 5/21 — $99M life-science walk-away → $476M Q2 start) |
-| REG-25 | WAL ex-fraud NCO > 40bps in Q2 OR Q3 2026 | Q2-Q3 2026 | 75% (v2.2 ratchet 5/21 — $99M event mechanically crosses 40bps; near-locked) |
+> **Single source of truth: `workbook/PREDICTIONS.tsv`** (REG-01 through REG-25, 22 predictions).
+> Display copy removed 2026-06-26 — read the TSV for current confidence, status, and resolve dates.
+> Active WAL predictions: **REG-24** (Office classified >$500M by Q3, 70%) | **REG-25** (NCO >40bps Q2 or Q3, 75%) — both first-chance resolve ~Jul 16 WAL Q2 print.
 
 ---
 

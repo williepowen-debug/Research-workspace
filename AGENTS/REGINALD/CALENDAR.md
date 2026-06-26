@@ -38,10 +38,9 @@
 
 ## PREDICTION CHECKPOINTS
 
-| Window | Prediction | Confidence | What Resolves It |
-|--------|-----------|------------|-----------------|
-| Q2-Q3 2026 | **REG-24:** WAL Office classified > $500M by Q3 2026 | 70% (v2.2) | Q2 print (~Jul 30) + Q3 print (~Oct) |
-| Q2-Q3 2026 | **REG-25:** WAL ex-fraud NCO > 40bps in Q2 OR Q3 2026 | 75% (v2.2) | Q2 print (~Jul 30, first chance) |
+> **Single source of truth: `workbook/PREDICTIONS.tsv`** (REG-01 through REG-25).
+> Display copy removed 2026-06-26 — read the TSV for confidence and resolve dates.
+> Active Q2-Q3 2026: **REG-24** (WAL Office classified >$500M) | **REG-25** (WAL NCO >40bps) — first-chance resolve **~Jul 16** WAL Q2 print.
 
 ---
 

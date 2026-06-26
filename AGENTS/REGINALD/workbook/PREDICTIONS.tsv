@@ -6,8 +6,8 @@ REG-04	2026-02-23	FHLB advances spike >$600B	60%	Q2-Q3 2026	OPEN			Advances stay
 REG-05	2026-02-23	FHLB advances spike >$700B (crisis level)	40%	H2 2026	OPEN			Advances stay <$600B through 2026	LIQUID dependency
 REG-06	2026-02-23	At least one Tier 1 bank (EGBN, WAL) capital raise	50%	H2 2026	OPEN			Both avoid capital raise through 2026	
 REG-07	2026-02-23	SSB NPL migration >0.5% from substandard	68%	Q2-Q3 2026	OPEN			SSB NPLs stay <0.3%	CORAL dependency; FL UI cliff Mar 24 accelerates — UPGRADED 55→68% (2026-03-05, ML-REG-110)
-REG-08	2026-02-23	KRE breaks below $65	45%	H1 2026	OPEN			KRE holds >$70 through Q2	
-REG-09	2026-02-23	At least one Tier 2 bank (VLY, CFG, ZION) misses Q1 earnings	50%	Apr 2026	OPEN			All three beat/meet estimates	
+REG-08	2026-02-23	KRE breaks below $65	45%	H1 2026	FROZEN-FAILED	2026-06-30	❌ FAILED — KRE at ~$72 at H1 close; invalidation condition met (held >$70 through Q2)	KRE holds >$70 through Q2	FROZEN 2026-06-26: H1 2026 closed; KRE never broke $65
+REG-09	2026-02-23	At least one Tier 2 bank (VLY, CFG, ZION) misses Q1 earnings	50%	Apr 2026	FROZEN-PENDING		⏸ PENDING RESOLVE — Apr 2026 timeframe expired; retrieve Q1 EPS actuals vs estimates for VLY/CFG/ZION to close	All three beat/meet estimates	FROZEN 2026-06-26: Apr 2026 timeframe expired; resolution requires Q1 EPS data pull
 REG-10	2026-02-23	PSEC cuts dividend in 2026	65%	2026	FAILED	2026-02-10	❌ WRONG	PSEC maintains dividend	Maintained Feb 9-10. PIK elevated but NII coverage sufficient.
 REG-11	2026-02-23	At least one major BDC (PSEC, FSK, TCPC) cuts dividend	55%	H1 2026	CONFIRMED	2026-02-25	✅ CORRECT	All maintain dividends through H1	FSK div -31% confirmed Feb 25
 REG-12	2026-02-23	BDC sector average PIK exceeds 25%	60%	Q2 2026	OPEN			PIK declines to <20%	BROCK dependency
