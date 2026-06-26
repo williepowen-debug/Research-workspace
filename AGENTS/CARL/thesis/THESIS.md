@@ -235,7 +235,7 @@ Private credit wrappers are a **path**, not a numbered convergence vector. State
 
 **BCRED gate = structural illiquidity breach.** Retail investors who presumed quarterly liquidity are discovering the illiquidity premium was not priced. Differs mechanically from NAV/dividend pressure (FSK/OBDC) — a gate forecloses exit even at a discount. Cascade mechanism: BCRED gate visible to retail-channel advisors → redemption acceleration at peer non-traded BDCs → gate contagion → systemic non-traded BDC liquidity event.
 
-**Pre-registered cascade trigger (CRL-25):** If ≥2 *additional* non-traded BDCs (beyond BCRED) gate in Q3 2026, Path PC escalates from path-state to a numbered convergence vector (V17 candidate). Monitor: Owl Rock Income, Blue Owl Capital Income, Blackstone alternatives (BREIT parallel). BCRED alone = Path PC "watching, gate-breached." Second gate = escalation trigger.
+**PC-path escalation gated on BROCK's private-credit gate-count trigger — see AGENTS/BROCK/.** BROCK is the domain owner for: gate-count monitoring across non-traded BDC universe, cascade trigger registration, V17 nomination. Context: Apollo ADS gate ~Jun 23 may put the confirmed gate count at ≥2 already (BROCK to adjudicate). CARL's role: BCRED path-state note + transmission pointer (BDC wrapper illiquidity → middle-market credit withdrawal → CARL consumer-credit channels). CRL-25 in CARL's PREDICTIONS.tsv is a cross-reference pointer only, not a standalone CARL-owned trigger.
 
 ---
 
