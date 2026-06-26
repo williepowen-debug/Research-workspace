@@ -79,6 +79,17 @@ def main():
     print(f"#{'':^70}#")
     print(f"{'#'*72}")
 
+    # --- Live ledger staleness check (frozen ledgers excluded; VX/KB/FLOW are archived) ---
+    LIVE_LEDGERS = [
+        (LABOR_DIR / "workbook" / "PREDICTIONS.tsv", 14, "PREDICTIONS.tsv"),
+        (LABOR_DIR / "docket" / "CATALYSTS.tsv", 14, "CATALYSTS.tsv"),
+    ]
+    for ledger_path, max_days, name in LIVE_LEDGERS:
+        if ledger_path.exists():
+            age_days = (time.time() - ledger_path.stat().st_mtime) / 86400
+            if age_days > max_days:
+                print(f"  ⚠️  LEDGER STALE: {name} last updated {age_days:.0f}d ago (>{max_days}d) — reconcile at closeout C2/C3")
+
     results = []
     alert = False
 
