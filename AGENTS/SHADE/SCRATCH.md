@@ -1,59 +1,63 @@
 # SHADE SCRATCH.md — Ephemeral Session State
-**Rewritten:** 2026-06-21 ET (first live SHADE boot — Opus 4.8 ultracode) · **6/22 addendum below**
+**Rewritten:** 2026-06-26 ET (boot from Prome teams-mode — double-jeopardy triage mandate)
 
-## 6/22 ADDENDUM — FABN maturity ladder built (Will-requested)
-Built the Athene FABN/funding-agreement ladder → `research/ATHENE_FABN_MATURITY_LADDER_2026-06-22.md`. **Headline:** the ~$16.5B "2026-2027 FABN wall" anchoring kill-path-1 is **third-party/UNVERIFIED** — Athene Global Funding is **not an SEC filer**, **100% of the $34.5B FABN is 144A/Reg S**, and **no public FABN-only maturity ladder exists** (the only year-bucketed primary figure blends all annuities+FA+GICs, undiscounted). Re-marked everywhere (STATUS §0/§2/dashboard/calendar/next-actions; CLAUDE.md target sheet + kill-path-1 line). **Mechanism confirmed & sharper:** Q1'26 FABN gross issuance collapsed to **$2.0B vs $13.4B FY2025** ("challenging market conditions" per 10-Q MD&A), ~9-10mo since last public syndication, substitution into encumbered FHLB(+$4.9B QoQ)/FABR, ~14 tranches confirmed clustering 2026-H2/2027, **active 2027 tenders** (series 2022-6 $260.1M, 2020-5 $238.1M, dated 6/22). Verified stack: FABN $34.5B + FABR $21.5B + direct $6.1B + FHLB $28.2B + LT repo $3.2B = **~$93.5B gross**. Spread obs-date note: T+123 (May) vs T+105 (Feb) = ~+15bp peer-penalty widening. **Kill-path-1 held YELLOW** (refinance-at-wider-spread, not rollover failure).
+---
 
-**NPORT-P bottom-up done (same session):** scripted EDGAR crawl of **1,602 fund filings** (189 trusts, 0 fails, 77 CUSIPs) → registered '40-Act funds hold a **$3.29B par floor** of 2026-2027 AGF maturities (30 CUSIPs; heaviest Aug'26/Jan'27/Mar'27) + **18.1% of all AGF** ($6.25B/$34.5B) → implied true wall **~$13-18B (central ~$16B)**. **The $16.5B is now independently bracketed/corroborated**, upgraded from "unsourceable." Re-marked across STATUS/CLAUDE.md/research. Kill-path-1 still YELLOW (sizing the wall doesn't change rollover mechanics). Artifacts: `research/AGF_NPORT_floor_2026-06-22.json` + `AGF_NPORT_crawl_2026-06-22.py`. Method note: the 80/20 (3/31-only slice = $1.15B) structurally undercounts because funds have staggered fiscal-Q-ends; the full latest-per-fund crawl is the right unit. Commit pending.
+## CHANGES SINCE LAST SHADE SESSION (6/22 addendum → 6/26)
 
-## CHANGES SINCE LAST SHADE SESSION
-Prior session = 2026-06-15 Prome architecture + live-refresh pass (STATUS rebuilt as 🟠 structural/latent). This 6/21 session is the **first agent-run SHADE boot** against that scaffold. Did NOT pull at boot — working tree had uncommitted changes outside SHADE (`memory/auto/`, `LIQUID/inbox/`), so booted off the current tree per git protocol.
+- **BROCK (6/26):** gate cluster upgraded to 5-fund Q2 cluster (shared-antecedent verdict: one Q2 retail-redemption wave, 5 expression points). ADS gate (~6/23, ~17% demand, ~43% satisfied) CONFIRMED by BROCK. BRK-30 pre-registered (65%, Q3 re-cap or new gate >10%). APO breached $130 (now ~$122.21, per BROCK 6/25 pointer — BROCK owns canonical mark). WSJ/Clearwater insurer-lender finding surfaced via WALTER SIG-005 → rerouted to SHADE.
+- **ATHENE_DEPOSIT_MAP rerouted:** CARL → SHADE 6/26 (domain reassignment, Athene = SHADE beat). Absorbed: key facts re reflexivity loop, $45.9B related-party, 48% illiquid, BCRED exclusion. Filed to `inbox/processed/`. Board_log updated.
+- **SHADE spawned for:** insurer-lender double-jeopardy triage (BROCK SIG-005 → SHADE domain). Research doc written, STATUS updated with new signal dashboard row and next-action item 6.
 
-Cross-agent picture (their 6/20 surfaces are fresher than the 6/15 STATUS was):
-- **BROCK 🔴🔴 (6/20):** fund stress firmed bear — KBRA DLD 2.3% record-match + raised 3.5% end-26 forecast; Fitch BDC Q1 (6/19) NAV −2%, non-accruals up, 11 BDCs cut Q1 divs. **Wrapper-equity recognition began** (FSK −5.9%, ARCC −4.1% vs HYG flat). APO held $137.50. HY OAS 263 [6/17]. **Fed turned hawkish 6/17.**
-- **LIQUID 🟠 (6/20):** HY OAS 263 = 3bps from 260 soft-kill, no trigger; CCC-BB tail-gap wide (783). "Bear grinding the wrong way, risk-on overwhelming."
-- **REGINALD (6/20):** CRE-DQ tier-wide leading creep; Iran/Hormuz **re-escalated** 6/20.
+## WHAT I DID (2026-06-26)
 
-## WHAT I DID
-1. **WALTER intake:** created `board_log.tsv` (v0.2 header); processed `SIG-W-20260619-008` (S-FL distress deep-research, INFO role — CORAL owns action) → disposition `noted`; `git mv` to `inbox/WALTER/processed/`. SHADE takeaway logged: FL commercial/condo rate hardening (+18.8% indicated, NOT easing while wholesale eases −15-25%) = cost-push input; condo-master/association exposure undisclosed in FL bank filings = visibility gap.
-2. **Ran a 5-vector domain sweep** (Workflow, 11 agents, adversarially verified) of the 6/15→6/21 gap → `research/SHADE_BOOT_SWEEP_2026-06-21.md`. Net = **relief/clock-advance, not breach.**
-3. **Rebuilt STATUS** with a top-of-file §0 verified boot-delta (net read + threshold table + 2 retractions), corrected the FHLB scale gap, added the FABN-spread canary + AMAPS update + Egan-Jones + NAIC direction-flip + systemic-commentary blocks, updated the dashboard / calendar / watchlist, and re-marked the stale APO band. STATUS = 203 lines.
+1. **Boot reads:** CLAUDE.md, MEMORY.md, SCRATCH.md, inbox/ATHENE_DEPOSIT_MAP.md, BROCK STATUS, BROCK SCRATCH (for SIG-005/6/26 mandate context), BROCK SIG-W-20260624-005 (canonical source).
+2. **Absorbed ATHENE_DEPOSIT_MAP:** logged in board_log.tsv (disposition=acted, source=INBOX_CARL_REROUTE); git mv'd to inbox/processed/. Key facts extracted into triage research.
+3. **Wrote triage research:** `research/INSURER_LENDER_DOUBLE_JEOPARDY_2026-06-26.md` — full mechanism anatomy, exposure map (6 funds × insurer universe), Athene map contribution, scale check, SHADE next-actions, BROCK coordination flags.
+4. **Updated STATUS.md:** new row in §3 signal dashboard (insurer-lender double-jeopardy, 🟠); new item 6 in §10 next-actions.
+5. **Sent triage report** to Prome/team-lead via SendMessage (≤400 words, decision-lead).
 
-### Key verified deltas (full list in research file)
-- **Reg-capital eased:** NAIC CLO RBC slipped past 6/15 gate (YE2026 at-risk, YE2027 fallback); **MM-CLOs deferred to 2027** (resolves the MML-applicability OPEN item = NO for 2026); FSOC SIFI bar raised; small offset = 2026-05-CA collateral-loan look-through removed (5/14); SVO discretion not operationalized.
-- **Funding canary:** Athene 5Y FABN secondary **T+123 = +43–48bp peer-relative penalty** (widest of large IG insurers); **no syndicated FABN since Sept 2025 (~8mo)**; **FHLB = $28B drawn / $38B pledged** (the $2.4B was undrawn capacity, not the book); $1.7B Bermuda DTA valuation allowance → adj leverage 25.9%.
-- **AMAPS absent** from Athene's May FI deck (Apollo markets it standalone) — disclosure-channel-split watch item.
-- **Egan-Jones:** briefing fully submitted, Aug 12 2026 hard-dated docket binary; both tracks GREEN.
-- **Surveillance chorus:** Moody's 6/8 ($807B/20% illiquid, top-10=44%, Athene & GA >15%) + Proskauer 2.73% Q1'26 = third default series. No rating actions in-window.
-- **RETRACTED:** Nationwide/MassMutual reinsurance was inverted (Nationwide assuming, MassMutual ceding — not captive-hollowing).
+## KEY VERIFIED FACTS THIS SESSION
+
+- **BCRED → Athene double-jeopardy: RULED OUT** (ATHENE_DEPOSIT_MAP: Athene contagion to BCRED is sentiment/marks, not direct equity holding). Clean negative.
+- **ADS → Athene double-jeopardy: HIGH PROBABILITY hold, lend UNCONFIRMED.** ADS is Apollo-managed; Athene ~$45.9B related-party = almost certain to include ADS equity. Credit-facility counterparty not confirmed.
+- **WSJ/Clearwater sector stat ~25%** = mechanism confirmed at sector level; entity+fund mapping remains the gap.
+- **APO ~$122.21** (BROCK 6/25 pointer; APO breached $130, former exit-rule level). Confirm with BROCK at next boot — do not carry as current.
 
 ## NEXT SHADE SESSION
-1. Boot: STATUS → SCRATCH → MEMORY; check `board_log.tsv` + `inbox/WALTER/` for new signals; confirm canonical APO mark with BROCK (do not carry the March band).
-2. Substantive audits if decision-relevant (priority order):
-   - Athene Asset Compendium / "Affiliated & Related Party Assets" deck → **locate AMAPS** in the Schedule-D/BA equivalent (resolve disclosure-channel split).
-   - ✅ FABN ladder + NPORT-P bottom-up done (6/22) → wall ~$13-18B. RESIDUAL: re-run the NPORT crawl (`research/AGF_NPORT_crawl_2026-06-22.py`) each quarter only if kill-path-1 nears a trade — track whether the 2026-H2/27 floor shrinks (refinanced/tendered) or holds. Watch for any FABN spread >250bp or a pulled syndication (→ kill-path-1 red).
-   - NAIC CLO C-1 Residuals & PAF comment fight (**7/6/26**) + 6/23 webex outcome.
-3. Watch the **Aug 12 2026 Egan-Jones** docket binary (defense submitted 6/16); faster enforcement track = watch for a Wells notice.
+
+1. **Boot:** STATUS → SCRATCH → MEMORY; check board_log + inbox/WALTER/ for new signals; confirm APO mark with BROCK.
+2. **Priority 1 (double-jeopardy mapping):**
+   - Athene Iowa Q1 2026 Schedule BA → confirm/deny ADS equity holding
+   - ADS credit-facility counterparty disclosure (SEC EDGAR 8-K or 10-Q exhibit)
+   - Corebridge / F&G / Brighthouse Schedule BA for the 5 gated funds (smaller RBC buffers = higher severity)
+3. **Priority 2:** Check if any of the 5 funds name life-insurer lenders in their facility disclosures (coordinate with BROCK)
+4. **Priority 3 (ongoing):** AMAPS audit (Schedule-D/BA equivalent, Athene Asset Compendium); Egan-Jones Aug 12 binary watch; NAIC CLO 7/6 comment deadline.
+5. **DO NOT** re-run NPORT crawl unless kill-path-1 nears a trade.
 
 ## OPEN THREADS
+
 | Item | Status |
 |---|---|
-| STATUS refresh | ✅ live boot-delta added 6/21; threshold table verified |
-| FHLB scale correction | ✅ corrected $2.4B→$28B drawn; **REGINALD cross-flag held (see Mail state)** |
-| FABN peer-relative canary | 🟠 yellow-leaning on kill-path-1; absolute spread still green |
-| AMAPS disclosure-channel split | 🔴 watch; needs Asset Compendium pull |
-| Athene FABN maturity ladder | ✅ built 6/22 + NPORT-P bottom-up: **wall bracketed ~$13-18B** ($3.29B reg-fund floor; $16.5B corroborated). Re-run crawl quarterly only if kill-path-1 nears a trade. |
-| NAIC CLO RBC slip | 🟡 7/6 comment + 6/23 webex; YE2026 at-risk |
-| Egan-Jones Aug 12 | 🟢 calendar binary; defense submitted |
-| Oaktree/Atlantic Coast Life captive | 🟡 new captive-reinsurance sub-watch |
+| STATUS refresh | ✅ live (6/21 boot-delta + 6/22 FABN addendum + 6/26 double-jeopardy row) |
+| FHLB scale correction | ✅ $28B drawn vs $2.4B undrawn; REGINALD cross-flag written 6/21 |
+| FABN peer-relative canary | 🟠 YELLOW; T+123 (+43-48bp peer penalty, May'26). Watch >250bp or pulled syndication |
+| AMAPS disclosure-channel split | 🔴 watch; absent from Athene May FI deck; needs Asset Compendium pull |
+| FABN maturity ladder | ✅ built 6/22; wall ~$13-18B via NPORT-P bottom-up. Re-run crawl only if kill-path-1 nears trade |
+| NAIC CLO RBC slip | 🟡 7/6 comment + 6/23 webex; YE2026 at-risk; MM-CLOs deferred to 2027 |
+| Egan-Jones Aug 12 | 🟢 calendar binary; defense submitted 6/16 |
+| Oaktree/Atlantic Coast Life captive | 🟡 sub-watch; Oaktree took control 3/13 |
+| **Double-jeopardy mapping** | 🟠 NEW 6/26; mechanism real, entity+fund map incomplete. ADS hold probable unconfirmed; BCRED exclusion confirmed. See `research/INSURER_LENDER_DOUBLE_JEOPARDY_2026-06-26.md` |
 | NEXUS_BRIEF | 🟡 still not created; defer to next architecture pass |
-| boot.py / automated data | 🟡 not built; manual boot. (Note: `yfinance` not installed in venv — local fetch.py price cmd fails.) |
 
-## Mail state
-- `inbox/WALTER/`: empty (008 processed). `board_log.tsv` now exists.
-- Top-level `inbox/`: old Mar–May signals untouched (process only if spawned for triage or needed for an audit).
-- **Cross-agent signals WRITTEN to recipient inboxes (Will-authorized 6/21; recipients inactive):**
-  - `AGENTS/REGINALD/inbox/SIG-SHADE-REGINALD-20260621-athene-fhlb-28b-drawn.md` — Athene ~$28B FHLB advances drawn / $38B pledged (corrected from the $2.4B *undrawn capacity*); insurer secured-funding for REGINALD's FHLB/NDFI radar.
-  - `AGENTS/LIQUID/inbox/SIG-SHADE-LIQUID-20260621-athene-fabn-funding-canary.md` — FABN 5Y T+123 = +43–48bp peer penalty; ~8mo no syndicated issuance; kill-path-1 canary. (LIQUID had no FABN/Athene coverage in STATUS.)
-  - `AGENTS/BROCK/inbox/SIG-SHADE-BROCK-20260621-moodys-insurer-illiquidity-quant.md` — Moody's 6/8 $807B/20% illiquid (Athene & GA >15%) + Proskauer 2.73% offered to his default-index set. (Trimmed: BROCK already has NAIC deferral / AMAPS / wrapper-equity / KBRA-Fitch.)
-  - These files live OUTSIDE `AGENTS/SHADE/` → SHADE did **NOT** commit them (git-isolation rule). Recipients commit at their next boot, or Will sweeps them in a coordinated push.
+## MAIL STATE
+
+- `inbox/WALTER/`: empty (SIG-008 processed 6/22). `board_log.tsv` exists.
+- `inbox/ATHENE_DEPOSIT_MAP.md`: ✅ processed 6/26 → moved to `inbox/processed/`.
+- `inbox/`: legacy Mar–May signals untouched; process only if spawned.
+- **Cross-agent signals from 6/21** (written to recipients' inboxes, Will-authorized):
+  - `AGENTS/REGINALD/inbox/SIG-SHADE-REGINALD-20260621-athene-fhlb-28b-drawn.md`
+  - `AGENTS/LIQUID/inbox/SIG-SHADE-LIQUID-20260621-athene-fabn-funding-canary.md`
+  - `AGENTS/BROCK/inbox/SIG-SHADE-BROCK-20260621-moodys-insurer-illiquidity-quant.md`
+  - These live outside SHADE dir; SHADE did not commit them; recipients process at their own boot.
+- **No new cross-agent outbox signals this session** (double-jeopardy finding is mechanism-watch, not acute; coordination goes via Prome reply / BROCK SendMessage, not a separate SIG file).
