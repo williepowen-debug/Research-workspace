@@ -29,7 +29,7 @@ If ratified as above, the changeset below resolves with **no schema migration** 
 - **§6.1 / §6.2 git-derived sync telemetry** — collapse the OpenClaw INFO branch → one ladder: committed-not-on-origin = MED, uncommitted = LOW. **KEEP the shallow-clone / no-origin INFO guards** (valid git edge cases single-machine).
 - **§7 Push authority** — was "PROME/Will-scoped." → per 0g (default: WALTER-self-on-clean-tree via ff-gate for FLASH/IMMEDIATE; PRIORITY/ROUTINE ride the normal closeout push). Drop the PROME-as-push-agent premise.
 - **§8 / §8.1 Consume rollout** — drop "OpenClaw via PROME installs the boot step / CC self-apply" split → **all recipients self-apply the consume boot-step** (one platform). The per-recipient `inbox/WALTER/` consume-and-`git mv` mechanism is **UNCHANGED and STAYS** (intra-machine, platform-agnostic).
-- **§9 Quick/Full WALTER mode reference** — per Phase-0 **0d** ruling (retire vs repurpose-as-CC-route-only). If repurposed: strip "PROME spawns a temporary OpenClaw copy" → "a CC-spawned route-only session"; keep the registry-only whitelist + Iran-anchor guard.
+- **§9 Quick/Full WALTER mode reference** — **0d ruled RETIRE (Will 6/26): remove the Quick-WALTER mode entirely; only Full WALTER remains.** Sweep the dangling refs in the same lockstep landing (rule once, sweep all — don't half-edit): WALTER `CLAUDE.md` RUN MODES section, this §9, `SIGNAL_PROCESSING_CHECKLIST.md` L414, `DEEP_RESEARCH_FLAG_PROPOSAL.md` L100/172.
 - **§10 cost/rationale** — drop the VPS/shared-clone justification prose.
 
 ## Dependents that must move in the SAME lockstep landing (Phase 3)

@@ -40,7 +40,9 @@ The literal OpenClaw on this box = **`clawdbot-gateway.service`** (systemd user 
 
 ## Phase 0 — Lock the gating decisions (everything downstream inherits these)
 
-> **✅ 0e / 0f / 0g RATIFIED by Will 2026-06-26:** keep-uniform-`CC` · keep-constant `CLAUDE_CODE` · FLASH/IMMEDIATE auto-push = WALTER-self-on-verified-clean-tree via the `safe-push.sh` ff-gate. **No schema migration needed.** Remaining Phase-0 gates: **0a** PROME→CC · **0b** YEYOU keep/cut · **0c** Telegram ownership · **0d** Quick-WALTER retire/repurpose · **0h** standing over-trim instruction.
+> **✅ RATIFIED by Will 2026-06-26:** **0a** PROME→CC (keep coordinator role, drop always-on) · **0d** Quick-WALTER **RETIRE** (only Full WALTER remains) · **0e** keep-uniform-`CC` · **0f** keep-constant `CLAUDE_CODE` · **0g** FLASH/IMMEDIATE auto-push = WALTER-self-on-verified-clean-tree via the `safe-push.sh` ff-gate. **No schema migration needed.**
+> **0b** YEYOU — Will handling separately; leave its REGISTRY row + `AGENTS/YEYOU/*` untouched.
+> **⏳ Remaining gate: 0c Telegram ownership** (+ confirm **0h** over-trim standing-instruction).
 
 | # | Decision | Recommendation | Risk if unresolved |
 |---|----------|----------------|--------------------|
