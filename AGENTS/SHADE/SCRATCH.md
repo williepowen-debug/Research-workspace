@@ -3,6 +3,17 @@
 
 ---
 
+## 6/26 ADDENDUM — Prome direction received post-triage
+
+Prome (Will-approved): integrate two BROCK data points as SHADE-canonical, pre-register the 4-pull lane, do NOT run the statutory dig (no trigger fired — wrapper-decoupling unfired, HY 278; deploy-on-trigger rule stands).
+
+**Integrated to STATUS.md (6/26 second commit):**
+- **Moody's $807B / 20% insurer illiquid-PC** → now SHADE-canonical (was referenced via BROCK; BROCK references SHADE going forward). Added to §2 commentary block + cross-linked to double-jeopardy signal row for severity context.
+- **Lee Robinson $1.8T insurer-short (SIG-009)** → new 🟠 signal dashboard row. SHADE-primary. Robinson targeting insurer-exposure channel specifically = smart-money corroboration of the double-jeopardy mechanism. No primary sourcing yet — primary source pull is part of the pre-registered lane (trigger-gated).
+- **Lane pre-registered in §10 item 6** with explicit trigger condition (wrapper-decoupling OR FABN >250bp / RBC breach / enforcement escalation) and ordered 4-pull sequence. Durable; survives future SCRATCH rewrites via STATUS reference.
+
+---
+
 ## CHANGES SINCE LAST SHADE SESSION (6/22 addendum → 6/26)
 
 - **BROCK (6/26):** gate cluster upgraded to 5-fund Q2 cluster (shared-antecedent verdict: one Q2 retail-redemption wave, 5 expression points). ADS gate (~6/23, ~17% demand, ~43% satisfied) CONFIRMED by BROCK. BRK-30 pre-registered (65%, Q3 re-cap or new gate >10%). APO breached $130 (now ~$122.21, per BROCK 6/25 pointer — BROCK owns canonical mark). WSJ/Clearwater insurer-lender finding surfaced via WALTER SIG-005 → rerouted to SHADE.
