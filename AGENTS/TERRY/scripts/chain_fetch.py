@@ -1,0 +1,344 @@
+#!/usr/bin/env python3
+"""
+TERRY Live Option-Chain Fetcher.
+
+Pulls a live option chain (yfinance) and prints strike/bid/ask/mark/spread%/IV/
+volume/OI plus a moneyness column, filtered to a window around spot. Output
+columns MIRROR chain_parse.py so a fetched chain and a pasted broker chain look
+identical to downstream trade-card workflows.
+
+This is data only. It does NOT recommend or execute trades. Every actionable
+output still requires Will approval (RISK_SCORING.md).
+
+Examples:
+  python3 AGENTS/TERRY/scripts/chain_fetch.py TLT                       # list expiries, exit
+  python3 AGENTS/TERRY/scripts/chain_fetch.py TLT 2027-03-19 --type put
+  python3 AGENTS/TERRY/scripts/chain_fetch.py WAL 2026-09-18 --type put --window 0.20
+  python3 AGENTS/TERRY/scripts/chain_fetch.py TLT 2027-03-19 --type put --json --no-cache
+  python3 AGENTS/TERRY/scripts/chain_fetch.py --selftest
+
+Notes / known limits (READ THESE — rule #4, finding_option_marks_need_live_chain):
+- yfinance provides IV but NOT delta/theta (greeks absent) -> those columns are N/A.
+- Option marks go stale after-hours / weekends. Output stamps the fetch time, the
+  spot as-of, and each row's lastTradeDate, and WARNS when the freshest trade in
+  the displayed set is not "today". Re-confirm live broker marks before any fill.
+- Short ~120s cache by default; use --no-cache at fire-time for a guaranteed live pull.
+"""
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+import time
+from datetime import datetime, timezone
+from pathlib import Path
+
+SCRIPTS_DIR = Path(__file__).resolve().parent
+CACHE_DIR = SCRIPTS_DIR / ".cache"
+CACHE_TTL = 120  # seconds; chains move — short TTL, bypass with --no-cache
+
+
+# ---------------------------------------------------------------------------
+# Cache (mirrors fetch.py's tiny json-file pattern)
+# ---------------------------------------------------------------------------
+
+def _cache_path(key):
+    CACHE_DIR.mkdir(exist_ok=True)
+    safe = key.replace("/", "_").replace("^", "_").replace("=", "_").replace(":", "_")
+    return CACHE_DIR / f"chain_{safe}.json"
+
+
+def _cache_get(key):
+    p = _cache_path(key)
+    if not p.exists():
+        return None
+    try:
+        data = json.loads(p.read_text())
+    except (json.JSONDecodeError, OSError):
+        return None
+    if time.time() - data.get("ts", 0) > CACHE_TTL:
+        return None
+    return data.get("val")
+
+
+def _cache_set(key, val):
+    try:
+        _cache_path(key).write_text(json.dumps({"ts": time.time(), "val": val}))
+    except OSError:
+        pass
+
+
+# ---------------------------------------------------------------------------
+# Fetch
+# ---------------------------------------------------------------------------
+
+def fetch_spot(ticker):
+    """Live spot via yfinance fast_info (same source as fetch.py)."""
+    import yfinance as yf
+    tk = yf.Ticker(ticker)
+    info = tk.fast_info
+    return float(info["lastPrice"])
+
+
+def list_expiries(ticker):
+    import yfinance as yf
+    return list(yf.Ticker(ticker).options or [])
+
+
+def fetch_chain(ticker, expiry, opt_type):
+    """Return (rows, meta). rows = list of dicts mirroring chain_parse.py schema.
+    opt_type in {'put','call', None}. Greeks (delta/theta) are unavailable from
+    yfinance and are emitted as None."""
+    import yfinance as yf
+    tk = yf.Ticker(ticker)
+    chain = tk.option_chain(expiry)
+
+    frames = []
+    if opt_type in (None, "put"):
+        frames.append(("P", chain.puts))
+    if opt_type in (None, "call"):
+        frames.append(("C", chain.calls))
+
+    rows = []
+    latest_trade = None
+    for tletter, df in frames:
+        for _, r in df.iterrows():
+            bid = _f(r.get("bid"))
+            ask = _f(r.get("ask"))
+            last = _f(r.get("lastPrice"))
+            mark = (bid + ask) / 2 if (bid is not None and ask is not None) else None
+            spread = (ask - bid) if (bid is not None and ask is not None) else None
+            spread_pct = (spread / mark * 100) if (spread is not None and mark) else None
+            iv = _f(r.get("impliedVolatility"))
+            iv_pct = iv * 100 if iv is not None else None  # yfinance IV is a fraction
+            ltd = r.get("lastTradeDate")
+            ltd_str = _ts_str(ltd)
+            if ltd_str and (latest_trade is None or ltd_str > latest_trade):
+                latest_trade = ltd_str
+            rows.append({
+                "strike": _f(r.get("strike")),
+                "type": tletter,
+                "expiry": expiry,
+                "bid": bid, "ask": ask, "mark": mark, "last": last,
+                "delta": None, "theta": None,            # yfinance does not provide greeks
+                "iv": round(iv_pct, 2) if iv_pct is not None else None,
+                "volume": _f(r.get("volume")),
+                "open_interest": _f(r.get("openInterest")),
+                "spread_pct": round(spread_pct, 2) if spread_pct is not None else None,
+                "last_trade": ltd_str,
+                "in_the_money": bool(r.get("inTheMoney")) if r.get("inTheMoney") is not None else None,
+            })
+    meta = {"latest_trade": latest_trade}
+    return rows, meta
+
+
+def _f(x):
+    if x is None:
+        return None
+    try:
+        v = float(x)
+        if v != v:  # NaN
+            return None
+        return v
+    except (TypeError, ValueError):
+        return None
+
+
+def _ts_str(x):
+    """Normalize a pandas/py datetime to 'YYYY-MM-DD HH:MM' or None."""
+    if x is None:
+        return None
+    try:
+        if hasattr(x, "strftime"):
+            return x.strftime("%Y-%m-%d %H:%M")
+        return str(x)[:16]
+    except Exception:
+        return None
+
+
+# ---------------------------------------------------------------------------
+# Filter + display
+# ---------------------------------------------------------------------------
+
+def apply_window(rows, spot, window, min_oi):
+    if spot and window:
+        lo, hi = spot * (1 - window), spot * (1 + window)
+        rows = [r for r in rows if r["strike"] is not None and lo <= r["strike"] <= hi]
+    if min_oi is not None:
+        rows = [r for r in rows if (r["open_interest"] or 0) >= min_oi]
+    return sorted(rows, key=lambda r: (r["type"], r["strike"] if r["strike"] is not None else 0))
+
+
+def add_moneyness(rows, spot):
+    for r in rows:
+        if spot and r["strike"] is not None:
+            r["moneyness_pct"] = round((r["strike"] - spot) / spot * 100, 1)
+        else:
+            r["moneyness_pct"] = None
+    return rows
+
+
+def fmt(x, dp=2):
+    return "N/A" if x is None else f"{x:.{dp}f}"
+
+
+def display(ticker, expiry, opt_type, spot, spot_asof, rows, meta, wide_pct, thin_oi):
+    today = datetime.now().strftime("%Y-%m-%d")
+    print("TERRY live option-chain fetch")
+    print("=============================")
+    print("Data only — no broker access, no execution recommendation.\n")
+    print(f"Underlying: {ticker}  Spot: {fmt(spot)} (as-of {spot_asof})")
+    print(f"Expiry: {expiry}  Type: {opt_type or 'all'}  Rows: {len(rows)}")
+    print("Greeks (Delta/Theta): N/A — yfinance does not provide them.\n")
+    print("Strike   Mny%    T  Bid    Ask    Mark   Sprd%   IV%     Vol    OI     LastTrade")
+    print("-------  ------  -  -----  -----  -----  ------  ------  -----  -----  ----------------")
+    wide = []
+    thin = []
+    for r in rows:
+        if r["spread_pct"] is not None and r["spread_pct"] > wide_pct:
+            wide.append(r)
+        if (r["open_interest"] or 0) < thin_oi:
+            thin.append(r)
+        print(f"{fmt(r['strike']):>7}  {fmt(r.get('moneyness_pct'),1):>6}  {r['type']:<1}  "
+              f"{fmt(r['bid']):>5}  {fmt(r['ask']):>5}  {fmt(r['mark']):>5}  "
+              f"{fmt(r['spread_pct']):>6}  {fmt(r['iv']):>6}  "
+              f"{fmt(r['volume'],0):>5}  {fmt(r['open_interest'],0):>5}  {r.get('last_trade') or 'N/A'}")
+    print("\nTERRY liquidity flags")
+    print(f"- Wide spread rows >{wide_pct:.0f}% of mark: {len(wide)}")
+    print(f"- Thin OI rows <{thin_oi:.0f} OI: {len(thin)}")
+    # Freshness guard (rule #4)
+    latest = meta.get("latest_trade")
+    if latest and not latest.startswith(today):
+        print(f"\n⚠️  FRESHNESS: freshest trade in set = {latest} (NOT today {today}). "
+              f"Marks may be stale (after-hours/weekend). Re-confirm live broker marks before any fill.")
+    else:
+        print(f"\nFreshness: freshest trade in set = {latest or 'N/A'} (fetch {datetime.now().strftime('%Y-%m-%d %H:%M')}).")
+    print("Trade-card reminder: feed these into a fire card's LIVE-MARKS block; execution still requires Will approval.")
+
+
+# ---------------------------------------------------------------------------
+# Run
+# ---------------------------------------------------------------------------
+
+def run(args):
+    ticker = args.ticker.upper()
+    opt_type = ({"c": "call", "p": "put"}.get(args.type, args.type)) if args.type else None
+
+    if not args.expiry:
+        exps = list_expiries(ticker)
+        if args.json:
+            print(json.dumps({"ticker": ticker, "expiries": exps}, indent=2))
+        else:
+            print(f"{ticker} available expiries ({len(exps)}):")
+            for e in exps:
+                print(f"  {e}")
+            print("\nRe-run with an expiry, e.g.:")
+            print(f"  python3 {Path(__file__).name} {ticker} {exps[0] if exps else 'YYYY-MM-DD'} --type put")
+        return 0
+
+    cache_key = f"{ticker}_{args.expiry}_{opt_type or 'all'}"
+    cached = None if args.no_cache else _cache_get(cache_key)
+    if cached:
+        spot = cached["spot"]
+        spot_asof = cached["spot_asof"] + " (cached)"
+        rows = cached["rows"]
+        meta = cached["meta"]
+    else:
+        spot = args.spot if args.spot is not None else fetch_spot(ticker)
+        spot_asof = datetime.now().strftime("%Y-%m-%d %H:%M")
+        rows, meta = fetch_chain(ticker, args.expiry, opt_type)
+        _cache_set(cache_key, {"spot": spot, "spot_asof": spot_asof, "rows": rows, "meta": meta})
+
+    rows = add_moneyness(rows, spot)
+    rows = apply_window(rows, spot, args.window, args.min_oi)
+    if args.limit:
+        rows = rows[: args.limit]
+
+    if args.json:
+        print(json.dumps({
+            "ticker": ticker, "expiry": args.expiry, "type": opt_type,
+            "spot": spot, "spot_asof": spot_asof, "fetch_ts": datetime.now().isoformat(),
+            "latest_trade": meta.get("latest_trade"), "rows": rows,
+        }, indent=2))
+    else:
+        display(ticker, args.expiry, opt_type, spot, spot_asof, rows, meta,
+                args.wide_spread_pct, args.thin_oi)
+    return 0
+
+
+# ---------------------------------------------------------------------------
+# Self-test (offline — no network)
+# ---------------------------------------------------------------------------
+
+def selftest():
+    # Offline stub mirroring yfinance option_chain().puts row shape.
+    stub = [
+        {"strike": 80.0, "bid": 0.78, "ask": 0.82, "lastPrice": 0.80, "impliedVolatility": 0.105,
+         "volume": 120, "openInterest": 38245, "inTheMoney": False,
+         "lastTradeDate": datetime(2027, 1, 4, 15, 30, tzinfo=timezone.utc)},
+        {"strike": 85.0, "bid": 2.12, "ask": 2.17, "lastPrice": 2.15, "impliedVolatility": 0.108,
+         "volume": 60, "openInterest": 502, "inTheMoney": False,
+         "lastTradeDate": datetime(2027, 1, 4, 15, 31, tzinfo=timezone.utc)},
+    ]
+
+    # Inline the per-row transform (mirror of fetch_chain's body) so the test is network-free.
+    rows = []
+    latest_trade = None
+    for r in stub:
+        bid, ask, last = _f(r["bid"]), _f(r["ask"]), _f(r["lastPrice"])
+        mark = (bid + ask) / 2
+        spread_pct = (ask - bid) / mark * 100
+        iv_pct = _f(r["impliedVolatility"]) * 100
+        ltd = _ts_str(r["lastTradeDate"])
+        if ltd and (latest_trade is None or ltd > latest_trade):
+            latest_trade = ltd
+        rows.append({
+            "strike": _f(r["strike"]), "type": "P", "expiry": "2027-03-19",
+            "bid": bid, "ask": ask, "mark": mark, "last": last,
+            "delta": None, "theta": None, "iv": round(iv_pct, 2),
+            "volume": _f(r["volume"]), "open_interest": _f(r["openInterest"]),
+            "spread_pct": round(spread_pct, 2), "last_trade": ltd,
+        })
+
+    spot = 87.21
+    rows = add_moneyness(rows, spot)
+    rows = apply_window(rows, spot, 0.15, None)
+
+    assert len(rows) == 2, f"expected 2 rows, got {len(rows)}"
+    assert rows[0]["mark"] == 0.80, rows[0]["mark"]
+    assert rows[0]["delta"] is None and rows[0]["theta"] is None, "greeks must be N/A"
+    assert rows[0]["iv"] == 10.50, rows[0]["iv"]            # 0.105 -> 10.50%
+    assert round(rows[1]["spread_pct"], 2) == 2.33, rows[1]["spread_pct"]  # (2.17-2.12)/2.145
+    assert rows[0]["moneyness_pct"] == round((80 - 87.21) / 87.21 * 100, 1), rows[0]["moneyness_pct"]
+    # window ±15% of 87.21 = [74.13, 100.29] keeps both 80 & 85
+    assert all(74.13 <= r["strike"] <= 100.29 for r in rows)
+    print("chain_fetch.py SELFTEST: PASS")
+    print(f"  rows={len(rows)} mark0={rows[0]['mark']} iv0={rows[0]['iv']}% "
+          f"spread1={rows[1]['spread_pct']}% mny0={rows[0]['moneyness_pct']}% greeks=N/A latest_trade={latest_trade}")
+    return 0
+
+
+def main():
+    ap = argparse.ArgumentParser(description="TERRY live option-chain fetcher (yfinance)")
+    ap.add_argument("ticker", nargs="?", help="underlying ticker, e.g. TLT")
+    ap.add_argument("expiry", nargs="?", help="expiry YYYY-MM-DD; omit to list available expiries")
+    ap.add_argument("--type", choices=["put", "call", "p", "c"], help="filter to puts or calls")
+    ap.add_argument("--window", type=float, default=0.15, help="±fraction of spot to keep (default 0.15)")
+    ap.add_argument("--spot", type=float, help="override live spot (for moneyness)")
+    ap.add_argument("--min-oi", type=float, help="drop rows below this open interest")
+    ap.add_argument("--limit", type=int, default=0, help="cap displayed rows (0 = no cap)")
+    ap.add_argument("--wide-spread-pct", type=float, default=15.0)
+    ap.add_argument("--thin-oi", type=float, default=100.0)
+    ap.add_argument("--no-cache", action="store_true", help="force a live pull (fire-time)")
+    ap.add_argument("--json", action="store_true")
+    ap.add_argument("--selftest", action="store_true")
+    args = ap.parse_args()
+    if args.selftest:
+        return selftest()
+    if not args.ticker:
+        ap.error("ticker required unless --selftest")
+    return run(args)
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

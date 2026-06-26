@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "purpose": "Static config for grade_print.py — turns the Q2 bank-print grading instrument into a checkable grader.",
+    "source": "PROME/synthesis/2026-06-25_Q2-bank-print-grading-instrument.md",
+    "built": "2026-06-26",
+    "owner": "TERRY",
+    "note": "Q1 baselines = agent-curated/primary as flagged in source; verify vs 10-Q/release before any trade. No market data here — only filing numbers."
+  },
+  "master_rule": "Provision expense $ > Net charge-off $ this quarter = BUILDING (transmission live); Provision < NCO = RELEASING (mask/defer).",
+  "disc1_rule": "A build counts toward path (a) ONLY if SPECIFIC (named-credit migration / individually-evaluated reserve). COLLECTIVE / macro-overlay (CECL Q-factors, GDP/unemployment, asset-growth) = BETA, non-counting.",
+  "disc2_rule": "AOCI/NIM/TBV is a SEPARATE axis (path b). A name can print clean NCO and still transmit via rates. Grade independently.",
+  "paths": {
+    "a": {"members": ["CFG", "OZK", "EGBN", "WAL"], "need": 2, "fires": "synchronized SPECIFIC reserve-build", "base_odds": "15-22%"},
+    "b": {"members": ["ZION", "WAL", "CFG", "EGBN"], "need": 2, "fires": "non-credit AOCI/NIM/TBV selloff regardless of NCO", "base_odds": "25-30%"},
+    "c": {"members": ["WAL"], "need": 1, "fires": "WAL standalone full charge-off", "base_odds": "28-32%"}
+  },
+  "decision_rules": [
+    "1. Default (monoline beat + releases/collective-only builds): Q2 exception does NOT fire -> roll bank duration to Q1-Q2 2027, no fresh Q2 short.",
+    "2. Path (b) fires (>=2 AOCI/NIM/TBV selloffs): rates-driven exception live; most likely Q2 surprise; size ~25-30%. Watch ZION (don't mis-grade green NCO).",
+    "3. Path (a) fires (>=2 SPECIFIC builds): genuine synchronized credit transmission early -> escalate; confirm specific not collective.",
+    "4. Path (c) fires (WAL full charge-off): single-name bear-confirm.",
+    "5. COF both-segments build = strongest single signal (synchronized consumer+CRE on one balance sheet).",
+    "6. Beta guard: collective/macro-overlay builds across the board = higher-for-longer regime repricing (beta tell) -> note it, NOT a fresh-short trigger."
+  ],
+  "gate": {
+    "name": "monoline gate (Jul 21)",
+    "beat": "monoline BEAT Jul 21 -> no macro forcing function -> fade path (a) before EGBN/WAL print.",
+    "break": "monoline BREAK Jul 21 (NCO up + coverage falling, ABS-curve corroborated) -> EGBN/WAL build odds rise."
+  },
+  "names": {
+    "SYF": {
+      "print": "Jul 21", "axis": "A-consumer",
+      "q1": {"coverage_pct": 10.42, "coverage_qoq_bps": 36, "nco_trend": "improving"},
+      "thresholds": {"coverage_hold_pct": 10.42, "coverage_release_pct": 10.1},
+      "build_if": "Prov > NCO; coverage >=10.42% holds/rises vs flat-down NCO (costly confession); RSA payments falling",
+      "release_if": "Prov < NCO; coverage <=~10.1% (-30bps+); guide reaffirmed to flatter EPS",
+      "q1_posture": "BUILT +36bps->10.42% vs improving NCO -> leans transmission-live",
+      "traps": []
+    },
+    "ALLY": {
+      "print": "Jul 21", "axis": "A-consumer",
+      "q1": {"provision_m": 467, "nco_m": 417, "build_m": 50, "build_type": "collective", "retail_auto_nco_pct": 1.97, "dq30_pct": 4.60},
+      "thresholds": {"retail_auto_nco_qoq_bps_specific": 30},
+      "build_if": "SPECIFIC-cohort build (named auto/used-vehicle migration): Prov > NCO with retail-auto NCO >=+30bps QoQ",
+      "release_if": "build stays growth/collective, or ACL$ down; retail-auto NCO flat-down",
+      "q1_posture": "Q1'26 = +$50M CECL BUILD (Prov 467 > NCO ~417) but GROWTH-DRIVEN = COLLECTIVE -> NON-COUNTING (Disc-1). NOT a $224M release.",
+      "traps": ["build_type_required"]
+    },
+    "COF": {
+      "print": "~Jul 21-23", "axis": "A-card + B-commercial (BRIDGE)",
+      "q1": {"total_build_m": 230, "card_seg_m": -8, "auto_consumer_m": 155, "commercial_m": 83},
+      "thresholds": {"card_nco_qoq_bps": 25},
+      "build_if": "card-seg provision > card NCO; Card NCO >=+25bps QoQ",
+      "release_if": "ACL drawn down; Discover conforming marks used to offset",
+      "q1_posture": "BUILT $230M total but Card RELEASED $8M, Auto +$155M, Commercial +$83M -> card releasing / auto+CRE building",
+      "bridge": "Card=Axis-A consumer, Commercial=Axis-B CRE on one balance sheet. Both build = SYNCHRONIZED (decision rule 5).",
+      "traps": ["discover_conforming_flag"]
+    },
+    "CFG": {
+      "print": "Jul 16", "axis": "B-regional (a + b)",
+      "q1": {"nco_pct": 0.39, "housing_secured_pct": 38.2, "bdc_fund_fin_b": 12.85},
+      "thresholds": {"nco_pct_floor": 0.39},
+      "build_if": "Prov > NCO AND ACL/loans up QoQ AND criticized/NPL rising — reverses 5-qtr NCO decline; esp CRE or BDC fund-fin (specific)",
+      "release_if": "NCO <0.39%, release continues, ACL/loans flat-down",
+      "q1_posture": "blind first read (no gate). housing-secured 38.2% of loans.",
+      "traps": []
+    },
+    "OZK": {
+      "print": "Jul 16", "axis": "B-regional (a reservoir)",
+      "q1": {"past_due_m": 487.5, "past_due_pct": 1.48, "nco_pct": 0.5555},
+      "thresholds": {"nco_pct_fire": 0.56, "nco_guide_pct": 0.50},
+      "build_if": "past-due climbs off Q1 1.48% AND NCO >0.56% toward 50bps guide AND specific RESG reserves (IQHQ pre-position)",
+      "release_if": "past-due reverts (lumpy), NCO <=0.56%, no RESG migration",
+      "q1_posture": "RESG 88% UNVERIFIED (not a Call-Report line). OZK files NO 10-Q (FDIC Call Report). IQHQ Aug maturity is AFTER this print.",
+      "traps": ["no_10q_research_grade"]
+    },
+    "ZION": {
+      "print": "Jul 21", "axis": "B-regional (a credit + b AOCI TRAP)",
+      "q1": {"nco_pct": 0.03, "muni_afs_fv_m": 869},
+      "thresholds": {"nco_pct_trough": 0.03},
+      "build_if": "NCO turns UP off 0.03% trough AND release STOPS (provision positive) = Hyp-A heal falsified",
+      "release_if": "NCO ~0.03%, release continues = Hyp-A holds (bull-control)",
+      "q1_posture": "designated credit bull-control. path-b is the FALSE-CONTROL TRAP + highest mis-grade risk.",
+      "traps": ["total_afs_required"]
+    },
+    "EGBN": {
+      "print": "Jul 22", "axis": "B-regional (a cleanest + b)",
+      "q1": {"nonaccrual_coverage_pct": 114, "prior_coverage_pct": 149, "npa_pct": 1.31, "cre_pct_capital": 295.1, "construction_pct_capital": 75.7},
+      "thresholds": {"coverage_floor_pct": 114, "coverage_rebuild_target_pct": 149, "npa_revert_pct": 1.04},
+      "build_if": "coverage of nonaccruals keeps falling off 114% OR catch-up provision (Prov >> NCO) rebuilds toward 149% AND IPRE/office nonaccrual rises (specific)",
+      "release_if": "coverage rebuilds via NPA cure (not provision); NPA reverts toward 1.04%; no new office migration",
+      "q1_posture": "cleanest path-(a) candidate; single most likely. Gated by monoline Jul 21. CRE 295.1%/construction 75.7% now BELOW reg thresholds.",
+      "traps": []
+    },
+    "WAL": {
+      "print": "Jul 30", "axis": "c full charge-off + a build-defer + b AOCI",
+      "q1": {"nco_bps_adjusted": 39, "nco_pct_gaap": 1.45, "classified_pct": 1.08, "classified_trend_bps": -9, "life_sci_balance_m": 99},
+      "thresholds": {"exfraud_nco_bps_fire": 55, "build_defer_nco_bps_lo": 40, "build_defer_nco_bps_hi": 45, "life_sci_majority_m": 50, "office_classified_fire_m": 500},
+      "build_if": "(c) ex-fraud NCO >55bps AND majority (>$50M) of the $99M life-sci credit charged off in-Q2",
+      "release_if": "NCO <40bps, $99M cures/sponsor returns, classified continues -9bp trend, H2-decline guide affirmed",
+      "build_defer_if": "NCO 40-45bps AND $99M kept nonaccrual with larger specific reserve AND classified rises (office classified >$500M) = partial (counts toward a, not c)",
+      "q1_posture": "39bps = NON-GAAP ADJUSTED; GAAP/reported = 1.45%. $99M = OUTSTANDING BALANCE of a CRE non-owner-occ loan (life-science collateral), late-Apr subsequent event, appraisal pending — NOT a Q1 realized loss.",
+      "traps": ["basis_required"]
+    }
+  },
+  "traps": {
+    "basis_required": {
+      "applies_to": "WAL",
+      "guard": "ERROR unless --basis provided AND == 'adjusted'. Q1 39bps baseline is NON-GAAP ADJUSTED; comparing a GAAP Q2 NCO (~1.45% basis) misfires on a unit mismatch.",
+      "fix": "Provide WAL Q2 ex-fraud ADJUSTED NCO and run with --basis adjusted."
+    },
+    "total_afs_required": {
+      "applies_to": "ZION",
+      "guard": "ERROR unless --aoci-basis == 'total-afs' when grading path-b. muni-AFS ~$869M FV is NOT the mechanism (the $5.78B is TOTAL muni incl HTM/loans that DON'T flow to AOCI). Re-anchor on TOTAL AFS securities AOCI.",
+      "fix": "Use ZION's TOTAL AFS securities AOCI move (6/30 mark) with --aoci-basis total-afs."
+    },
+    "build_type_required": {
+      "applies_to": "ALLY (and any path-a member showing a build)",
+      "guard": "A build needs --build-type specific|collective. COLLECTIVE/growth-driven build = BETA -> NON-COUNTING for path (a) even though Prov>NCO. ALLY Q1 +$50M was collective.",
+      "fix": "Classify from the roll-forward language: named-cohort migration = specific; 'economic outlook/scenario/asset-growth' = collective."
+    },
+    "discover_conforming_flag": {
+      "applies_to": "COF",
+      "guard": "WARN — Discover conforming one-time ACL (~100% platform by Q3'26) can inflate the apparent build. Flag one-time-conforming vs run-rate before scoring.",
+      "fix": "Separate one-time conforming ACL from run-rate provision."
+    },
+    "no_10q_research_grade": {
+      "applies_to": "OZK",
+      "guard": "WARN — OZK files no 10-Q (FDIC Call Report). RESG 88% is UNVERIFIED. Treat as research-grade.",
+      "fix": "Source OZK from 10-K/investor deck for RESG; Call Report for past-due/NCO."
+    }
+  }
+}
