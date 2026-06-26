@@ -73,6 +73,7 @@ Agents share one working directory and branch. **GitHub is the single source of 
 2. **For new untracked files:** atomic `git add <specific files> && git commit <same specific files> -m "..."` — explicit paths only, **never `git add AGENTS/<YOUR_NAME>/` as a directory** (sweeps in unintended files).
 3. **Optional sanity check** between add and commit on new-file flows: `git diff --cached --stat`.
 4. **Never `git reset HEAD`** — shared `.git/index` makes it a global unstage that races against other agents' concurrent stages.
+5. **Pre-commit sanity check (mandatory):** before committing, run `git status -- AGENTS/<YOUR_NAME>/`. Confirm: no dangling deletions (bash-`mv` residue), no unstaged new files you meant to include, nothing staged outside your own dir. 5-second guard against the `git mv`-vs-`bash mv` residue class (auto-memory `git_mv_for_inbox_processing`) and the cross-dir-leak class. *(Validated 2026-06-26: on first use this caught 53 foreign pre-staged files mid-race + surfaced a months-old display-copy desync.)*
 
 **Before pulling:**
 1. `git status` — check for uncommitted changes **OUTSIDE** your directory
@@ -87,6 +88,14 @@ Agents share one working directory and branch. **GitHub is the single source of 
 8. Never resolve merge conflicts in another agent's files — flag to Prome
 
 **Never:** force push, commit outside your directory without instruction, resolve another agent's conflicts, pull when other agents have uncommitted local changes.
+
+## Data Hygiene
+
+Closeout discipline, fleet-wide (ratified 2026-06-26 after a 5-agent architecture review; see `PROME/cluster/2026-06-26_fleet_arch_compare.md`).
+
+- **Ledger staleness — STATUS is canonical truth.** TSV workbook ledgers (KB/VX/FLOW/etc.) silently drift behind STATUS — a *universal* fleet failure mode. Keep each ledger in one of two states, never the silent-rot middle: **(a) FROZEN** — dead ledger, prepend a banner `FROZEN <date> — not maintained; STATUS is canonical, do not cite rows as current`, and stop maintaining it; or **(b) LIVE with a boot-time mtime staleness alert** (surface "X.tsv stale Nd" at boot, not at closeout).
+- **Research/sources retirement (closeout step):** a file that is *>60 days old AND not boot-read AND not referenced by a live doc* → `git mv` to `archive/`. Prevents research-graveyard accumulation.
+- **Out of scope (do not build):** outbox-kill / new cross-agent send protocols / inbox boot-auto-triage. File-based messaging is slated for replacement (auto-memory `messaging_overhaul`) — interim is only "stop writing dead outbox files"; route messaging redesign to that effort.
 
 ## Tools
 
