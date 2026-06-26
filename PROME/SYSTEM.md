@@ -41,67 +41,29 @@ Core rule:
 
 ---
 
-## Prome Runtime Split
+## Prome Runtime
 
-Prome now has two work surfaces, not two identities.
+Prome runs as a Claude Code session on Will’s desktop — **one identity, one machine, shared files as source of truth.** (Historically Prome also ran an always-on OpenClaw/VPS surface; that platform was cut 2026-06-26 — see `AGENTS/WALTER/design/OPENCLAW_CUTOVER_PLAN.md`.)
 
-Core rule:
+Prome owns both halves of the work:
 
-> One Prome, two work surfaces. Shared files are the source of truth.
+- **Will-facing:** conversational synthesis and check-ins (via Telegram), trade/portfolio decision prompts and approval rails, agent routing, proposal ranking, the “what changed / why it matters / what to do” framing.
+- **Repo-native:** operating docs and system maps, tools/dashboards/scripts and verification gates, agent-folder audits and inbox/task packets, action-card scaffolds, handoffs.
 
-### Telegram / OpenClaw Prome
+Constant constraints: does **not** execute trades or external sends without Will approval, and does **not** fork memory into a private truth layer.
 
-Owns the Will-facing interface:
-
-- Conversational synthesis and check-ins with Will.
-- Trade/portfolio decision prompts and approval rails.
-- Agent routing, proposal ranking, and external-message discretion.
-- Final “what changed / why it matters / what to do” framing.
-
-### Claude Code Prome
-
-Owns repo-native implementation when scoped:
-
-- Prome operating docs, system maps, and handoffs.
-- Tools, dashboards, scripts, and verification gates.
-- Agent-folder audits and inbox/task packet preparation.
-- Action-card scaffolds and decision-artifact buildout.
-
-Claude Code Prome does **not** replace Telegram/OpenClaw Prome as Will-facing operator, does **not** execute trades or external sends, and does **not** fork memory into a private truth layer.
-
-### Shared State / Handoff
+### Shared state / handoff
 
 Primary shared files:
 
 - `PROME/BOOT.md` — boot sequence and ownership map.
 - `PROME/SYSTEM.md` — architecture map and trust layer.
-- `PROME/HANDOFF.md` / `PROME/SCRATCH.md` — cross-runtime Prome continuity and current session handoff.
-- `PROME/TODAY.md`, `PROME/STATUS.md`, `PROME/ACTIVE_DECISIONS.md`, `HEARTBEAT.md`, `MEMORY.md` — current-state and long-term context as their own rules define.
+- `PROME/HANDOFF.md` / `PROME/SCRATCH.md` — session continuity and current-session handoff.
+- `PROME/TODAY.md`, `PROME/STATUS.md`, `PROME/ACTIVE_DECISIONS.md`, `HEARTBEAT.md`, `MEMORY.md` — current-state and long-term context per their own rules.
 
-Split-brain prevention:
+Split-brain prevention: put facts in owner files and reference them elsewhere; update `PROME/HANDOFF.md` at the end of meaningful sessions when future-Prome continuity changes; update `PROME/SCRATCH.md` for the immediate next-session entry point.
 
-- Put facts in owner files; reference them elsewhere.
-- Claude Code Prome must update `PROME/HANDOFF.md` at the end of meaningful sessions when future Prome continuity changes.
-- If Claude Code work changes the next Telegram/OpenClaw session, also update `PROME/SCRATCH.md` as appropriate.
-- Telegram/OpenClaw Prome should read `PROME/HANDOFF.md` after clears or after known Claude Code Prome work.
-
-## Claude Code Prome
-
-Persistent **Claude Code Prome** is the repo-native work surface for the same Prome identity.
-
-Boot/operating files:
-
-| File | Role |
-|---|---|
-| `PROME/CLAUDE.md` | Claude Code bootstrap file. |
-| `PROME/CLAUDE_CODE_PROME.md` | Longer operating manual. |
-| `PROME/HANDOFF.md` | Single live handoff for OpenClaw + Claude Code Prome sessions. |
-
-Current status: **operational** — the persistent operating loop is live (bootstrap complete since mid-May; original PLAN/TASKS archived to `PROME/archive/`). Boot from `PROME/CLAUDE.md` + `PROME/CLAUDE_CODE_PROME.md`.
-
-Design rule:
-
-> One Prome, two work surfaces. Telegram/OpenClaw Prome owns Will-facing synthesis and approvals; Claude Code Prome owns repo-native implementation, tooling, audits, and handoffs when scoped.
+Boot from `PROME/CLAUDE.md` (the bootstrap). Status: **operational** — persistent operating loop live since mid-May; original bootstrap PLAN/TASKS + the old `CLAUDE_CODE_PROME.md` manual archived to `PROME/archive/`.
 
 ---
 

@@ -216,7 +216,7 @@ When Will + Prome review a proxy packet and find the framing useful conceptually
 - ✅ **TOSCANINI revival — resolved 2026-05-18.** TOSCANINI retired; FLEET_SCAN.md replaced QUEUE.md as the open-loops surface; AUTONOMY.md + COMPLETION_SPEC.md salvaged to `PROME/`; HUNTING dimensions distilled into the Section 6 ranking rubric above; remaining files in `PROME/archive/TOSCANINI_2026-03/`.
 - ✅ **Revival proxy attribution — resolved by convention 2026-05-18.** Files use `_prome-spawned.md` suffix + PROVENANCE header; real agent owns commit on next boot. Validated on LIQUID + HENRY without identity smearing.
 - ✅ **Scanner read budget — resolved 2026-05-18.** First-30-lines proved insufficient for STATUS files with current-state headers further down; v2 budget includes inbox file counts + HEARTBEAT (full) + POSITIONS head + SCRATCH. v2 production-ready.
-- **Telegram-Prome vs CC-Prome split:** Fleet scan is naturally a CC-Prome task (subagent spawning, file writes). Will-facing synthesis is naturally Telegram-Prome. The handoff between the two surfaces during a fleet-scan flow needs to be smooth — TBD how. Open.
+- ✅ **Telegram-Prome vs CC-Prome split — resolved 2026-06-26.** Moot after the single-machine cutover: one CC Prome owns both the fleet-scan (subagent spawning, file writes) and the Will-facing synthesis (via Telegram). No cross-surface handoff to smooth.
 - **Adversarial-pair on Section 6 top-N (Step 3):** Not yet prototyped. Open.
 
 ## Related artifacts
