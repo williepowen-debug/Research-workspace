@@ -1,44 +1,32 @@
 # TERRY STATUS
-**Updated:** 2026-06-24 (day-trading **Session 2** logged — CSV re-base, corrected Session 1 artifacts)
-**Agent:** TERRY — trade construction / tactical execution discipline
+**Updated:** 2026-06-26 (Fix-B: durable layer added — MEMORY + CLOSEOUT created, STATUS rewritten to live state) · **Status:** 🟡 armed — fire-card toolchain built & tested, 0 cards fired live, waiting on a trigger
+**Agent:** TERRY — trade construction / tactical execution discipline. Owns the ACTION/card side; never executes. Detection = LIQUID/SENTRY.
 
-## Mission
+> Durable mandate + lessons → `MEMORY.md`. Session-end procedure → `CLOSEOUT.md`. Role/start-here → `README.md`. Risk gates → `RISK_SCORING.md`.
 
-TERRY converts thesis into trade plans with explicit entry, invalidation, sizing, expiry/time stop, target, roll/no-roll rules, and approval gates. Terry does **not** own macro truth and never executes trades.
+## Live state
 
-## Current State
+**Standing rules (Will 2026-06-26):** fresh capital deploys ONLY on a fired trigger (no mechanical reshape; dry powder). **Max loss = $500 per card.**
 
-| Area | Status | Note |
+| Capability | State | Note |
 |---|---|---|
-| Agent scaffold | ✅ created | `CLAUDE.md`, risk rules, trade book, setup tracker, postmortems seeded. |
-| Templates/workflows | ✅ added | Trade-card template, position-intake form, chart/options workflow, and risk-scoring/calibration module are now explicit. |
-| Scripts/tool access | ✅ added | `boot.py` read-only boot card; `snapshot.py` price/relative-strength; `risk_calc.py` sizing math; `chain_parse.py` pasted chain parser. |
-| Live trade cards | None | No thesis-trade setups reviewed yet. |
-| Day-trading review | ✅ live | `daytrading/` — recurring feedback loop on Will's discretionary day-trading. Rulebook `PROFILE.md`, `JOURNAL.md` (narrative), `LEDGER.tsv` (trend metrics). **Session 2 (5/1–6/23, CSV) logged 6/24** — realized **+$2,951.67** (firm); verified **0 shorts** (S1 assignment-range was an artifact); leak = **−$2,793 walked-to-$0-expiry**; puts +2,347 vs calls +604; QQQ 0DTE +3,044 engine. **Session 1 re-based.** On boot, if reviewing day-trades, read `daytrading/README.md` first. |
-| Legacy TRADES archive | ✅ absorbed | Old `AGENTS/TRADES/JUNE_2026_CANDIDATES.md` preserved as TERRY archive/playbook; TRADES is dormant. |
-| Risk scoring | ✅ added | `RISK_SCORING.md` covers pre-trade risk gates, edge scoring, fractional Kelly reference, Brier calibration, and loss taxonomy. |
-| Position truth | Unknown | Existing broker/fill/P&L state must come from Will via `POSITION_INTAKE.md` fields before firm triage. |
-| Data access | Conditional | Live prices/history via FORGE market-data wrappers; option chains require Will/broker/manual export then `chain_parse.py`. |
-| Claude Code surface | ✅ clarified | Will can open Terry directly for conversational trade-desk questions; full trade cards only when actionable. |
+| Trigger→card toolchain | 🟢 BUILT & TESTED | the minutes-not-hours path is live end-to-end |
+| `scripts/chain_fetch.py` | 🟢 built, selftest PASS, live-validated | live option-chain CLI; marks matched the bank-put proposal exactly |
+| `scripts/grade_print.py` + `grade_config.json` | 🟢 built, selftest PASS | Q2 print grader; 3 mis-grade traps as hard guards; `--tally` rolls path (a)/(b)/(c) |
+| Fire cards | 🟢 staged, **0 fired live** | `TRADE_CARD_TEMPLATE_FIRE.md` + 2 pre-filled skeletons (HY≥280 / WAL-EGBN), $500 budget locked |
+| Day-trading review loop | 🟢 live | `daytrading/` — Session 2 logged 6/24 (+$2,951.67 realized); read `daytrading/README.md` first |
+| Older scripts | 🟢 selftested | boot.py, snapshot.py, risk_calc.py, chain_parse.py, csv_pnl.py |
+| Live thesis trade cards | ⚪ none fired | fire cards await a real trigger; POSTMORTEMS template-only (no closed trade yet) |
+| Position truth | 🟡 from Will/FORGE only | existing book in FORGE/STATUS; pull live before any fire-card sizing |
+| Risk unit for Will | 🟡 open | $/%/R preference unresolved (see MEMORY Standing Decisions) |
 
-## First Useful Tasks
+## What's pending
+- **Nothing committed this session** — Will-coordinated push; flag for next window (chain_fetch, grade_print, grade_config, fire template + 2 setups, .gitignore, MEMORY, CLOSEOUT, this STATUS).
+- **Awaiting a fired trigger** to exercise a fire card (HY OAS ≥280 sustained, or a Jul 16–30 print grading as transmission).
 
-1. **Postmortem old scars:** HYG Jun→Dec roll failure; TLT/FXY/HYG expiry cleanup if Will provides position truth.
-2. **Use legacy TRADES verification pattern:** candidate idea → primary-source check → aggregate check → trend check → no-trade or trade-card decision.
-2. **Build a live trade-card template on the next actionable thesis:** e.g., HY kill-line / Hormuz tape / WAL-OZK idiosyncratic bank setup.
-3. **Define Will-specific default risk budget conventions:** max loss per idea, max theta bleed, event-risk sizing, no-chase rules. `RISK_SCORING.md` now provides the framework; Will still needs to choose preferred risk unit.
-4. **First live dry run:** produce one conditional Terry card from an existing thesis without executing, using `snapshot.py` for levels, `risk_calc.py` for sizing, and `chain_parse.py` if Will provides option-chain data.
-
-## Open Questions for Will
-
-- Preferred default risk unit: dollar max loss, % portfolio, or “R” unit?
-- Should TERRY use 0.25x Kelly as the default ceiling for probability-style setups, or an even lower cap unless Will overrides?
-- Should Terry track approved/rejected proposals only, or also every considered setup?
-- Preferred chart horizon defaults: daily/weekly for swing trades, intraday only when explicitly requested?
+## Open questions for Will
+- Preferred default risk unit: $ max loss / % portfolio / R?
+- Track every considered setup, or approved/rejected only?
 
 ## Guardrails
-
-- No execution; approval required for every trade.
-- No stale prices/levels in actionable cards.
-- No position triage without broker/Will truth.
-- No macro re-underwriting unless asked; cite thesis owner.
+- No execution; Will approval on every trade. No stale prices/option marks in cards (pull live at fire). No position triage without broker/Will truth. No macro re-underwriting — cite the thesis owner.

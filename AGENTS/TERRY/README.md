@@ -16,7 +16,16 @@ Will can also open Terry directly in Claude Code as a conversational trading-des
 6. `CHART_OPTIONS_WORKFLOW.md` — repeatable chart/options process.
 7. `scripts/boot.py` — read-only boot card / file health / optional snapshot.
 8. `scripts/snapshot.py` — price + relative-strength snapshot via FORGE market-data.
-9. `STATUS.md` — current Terry state.
+9. `STATUS.md` — current live Terry state.
+10. `MEMORY.md` — durable mandate + accrued lessons/decisions (lean cross-session layer).
+11. `CLOSEOUT.md` — session-end write-back protocol (tiered).
+
+## Fire-ready execution (trigger → card in minutes)
+
+- `TRADE_CARD_TEMPLATE_FIRE.md` — single default card; only the LIVE-MARKS block is filled at fire.
+- `setups/PRICE-TRIGGER_HY280_regional-put.md`, `setups/PRINT-TRIGGER_WAL-EGBN-build.md` — pre-filled trigger skeletons ($500/card).
+- `scripts/chain_fetch.py` — live option-chain CLI (rule #4; never cite stored option marks).
+- `scripts/grade_print.py` + `grade_config.json` — Q2 bank-print grader; `--tally` rolls path diagnostics.
 
 ## Core output
 

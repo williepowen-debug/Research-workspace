@@ -21,7 +21,7 @@ ZONE 1 — PRE-LOCKED (do NOT re-derive at fire)
   Duration must sit PAST the print so the re-rate has room to play out.
 - **Alternatives rejected:** KRE/ETF put = dilutes the idiosyncratic signal; pre-print entry =
   gambling the grade (we deploy AFTER the grade confirms, rule: trigger-only).
-- **Max-loss budget:** [SET WITH WILL — fresh-capital tranche]
+- **Max-loss budget:** $500 per card (set by Will 2026-06-26)
 - **Invalidation (thesis/price/time):** grade = RELEASE or COLLECTIVE-only (beta) → no transmission → no trade.
   $99M cures / sponsor returns → WAL path (c) off.
 - **Kill line:** classified continues its −9bp trend + H2-decline guide affirmed → thesis defers → exit.

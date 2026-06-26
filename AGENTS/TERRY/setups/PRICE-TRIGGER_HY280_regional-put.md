@@ -17,7 +17,7 @@ ZONE 1 — PRE-LOCKED (do NOT re-derive at fire)
   the clean vehicle. Puts (not duration/TBT) because the channel is credit-spread, not rates.
 - **Alternatives rejected:** single-name (WAL/OZK) puts = idiosyncratic, miss the broad move;
   equity short = unbounded + margin; long-dated 2027 puts = wrong tenor for a momentum break.
-- **Max-loss budget:** [SET WITH WILL — e.g. $400–600 / fresh-capital tranche; dry powder, rule: trigger-only]
+- **Max-loss budget:** $500 per card (set by Will 2026-06-26)
 - **Invalidation (thesis/price/time):** HY round-trips back < 270 sustained → credit-stress false alarm.
 - **Kill line:** HY back < 270 sustained, OR KRE reclaims prior range high → exit.
 - **Confirm line:** HY sustains > 280 **and** KRE breaks key support **and** CCC-HY ratio widening

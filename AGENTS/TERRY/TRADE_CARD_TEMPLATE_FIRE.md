@@ -25,7 +25,7 @@ ZONE 1 — PRE-LOCKED (written in advance; do NOT re-derive at fire)
 - **Structure:** [instrument · expiry · strike ladder] — pre-chosen
 - **Why this expression:** [duration/convexity/liquidity rationale]
 - **Alternatives rejected:** [one line — e.g. "equity put bleeds theta; spread caps convexity"]
-- **Max-loss budget:** [$ / % / R — the cap, set in advance]
+- **Max-loss budget:** $500 per card (set by Will 2026-06-26)
 - **Invalidation (thesis/price/time):** [what proves it wrong]
 - **Kill line:** [the level/event that says STOP]
 - **Confirm line:** [the corroborator that says GO bigger / hold]
