@@ -236,3 +236,14 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-06-26T22:58:00Z	SIG-W-20260626-013	CREED	info	CC	PRIORITY	AGENTS/CREED/inbox/WALTER/SIG-W-20260626-013.md	written_not_delivered_pending_push	national CRE financeability bifurcation
 2026-06-26T22:58:00Z	SIG-W-20260626-013	REGINALD	info	CC	PRIORITY	AGENTS/REGINALD/inbox/WALTER/SIG-W-20260626-013.md	written_not_delivered_pending_push	large-bank CRE credit posture (JPM lender)
 2026-06-26T22:58:00Z	SIG-W-20260626-013	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260626-013.md	written_not_delivered_pending_push	counter_evidence / framing-strip
+2026-06-26T23:13:00Z	SIG-W-20260626-014	CARL	action	CC	PRIORITY	AGENTS/CARL/inbox/WALTER/SIG-W-20260626-014.md	written_not_delivered_pending_push	builder-margin collapse hard P&L
+2026-06-26T23:13:00Z	SIG-W-20260626-014	CORAL	info	CC	PRIORITY	AGENTS/CORAL/inbox/WALTER/SIG-W-20260626-014.md	written_not_delivered_pending_push	KBH FL exposure / FL price-cut epicenter
+2026-06-26T23:13:00Z	SIG-W-20260626-014	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260626-014.md	written_not_delivered_pending_push	cluster / idiosyncratic-vs-macro check
+2026-06-26T23:13:00Z	SIG-W-20260626-015	OTTO	action	CC	PRIORITY	AGENTS/OTTO/inbox/WALTER/SIG-W-20260626-015.md	written_not_delivered_pending_push	used-car-value / subprime-auto-ABS collateral (first WALTER delivery)
+2026-06-26T23:13:00Z	SIG-W-20260626-015	CARL	info	CC	PRIORITY	AGENTS/CARL/inbox/WALTER/SIG-W-20260626-015.md	written_not_delivered_pending_push	used-car disinflation + consumer auto-equity
+2026-06-26T23:13:00Z	SIG-W-20260626-015	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260626-015.md	written_not_delivered_pending_push	cluster / Hertz-idiosyncratic-vs-market check
+2026-06-26T23:13:00Z	SIG-W-20260626-016	CARL	action	CC	PRIORITY	AGENTS/CARL/inbox/WALTER/SIG-W-20260626-016.md	written_not_delivered_pending_push	K-shape counter — integrate/weigh, read full thread
+2026-06-26T23:13:00Z	SIG-W-20260626-016	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260626-016.md	written_not_delivered_pending_push	counter_evidence (By Tag/By Verdict)
+2026-06-26T23:13:00Z	SIG-W-20260626-017	CORAL	action	CC	PRIORITY	AGENTS/CORAL/inbox/WALTER/SIG-W-20260626-017.md	written_not_delivered_pending_push	FL-labor pillar flag — pull FL LAUS print
+2026-06-26T23:13:00Z	SIG-W-20260626-017	CARL	info	CC	PRIORITY	AGENTS/CARL/inbox/WALTER/SIG-W-20260626-017.md	written_not_delivered_pending_push	state-level labor softening vs national U-3
+2026-06-26T23:13:00Z	SIG-W-20260626-017	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260626-017.md	written_not_delivered_pending_push	cluster / headline-only caveat
