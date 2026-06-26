@@ -1,5 +1,11 @@
-# CARL TRADE.md
-**Status:** ⚠️ STALE — awaiting v2.5.1 refresh
+# ⛔ RETIRED — CARL TRADE.md
+**Status:** RETIRED (Jun 26, maintenance session). Live positions in FORGE/; thesis expression via REGINALD/OZK/HENRY. This stub pre-dates the v2.5.1 multi-vector framework and is no longer maintained.
+
+---
+
+*Original stub follows for archival context:*
+
+**Prior status:** ⚠️ STALE — awaiting v2.5.1 refresh
 **Last full version:** 2026-03-10 → `archive/TRADE_2026-03-10.md`
 
 ---

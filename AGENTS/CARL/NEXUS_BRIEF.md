@@ -5,7 +5,7 @@
 **Thesis version:** v2.6 ("Beneath the Ice")
 **Recent thesis pivot:** **v2.6 EXECUTED (Jun 22, Will-approved):** paired re-score V12 Stagflation Trap **4→5** (FOMC hawkish + Warsh-Fed locked = mechanism fully fired, first vector at 5) AND V5 Gas Squeeze **4→3** (gas relieving + Iran sanctions waived) — offset exactly, headline 52/70 held; rebalancing, not weakening. (Prior v2.5.2 Jun 6: V16 4→3.)
 **Position:** N/A — research domain, no direct book. Thesis expresses via REGINALD/FORGE (KRE/WAL/OZK); I do not mark positions.
-**As of:** 2026-06-22 ~6:00 PM ET (6-day catch-up sweep, STATUS data through Jun 22) | STATUS pin: Jun-22 catch-up-sweep commit (behavior-pin = latest CARL STATUS)
+**As of:** 2026-06-26 ET (maintenance session — stale fixes + bifurcated timing axis v2.6 promoted; BCRED gate integrated as Path PC) | STATUS pin: Jun-26 maintenance commit (behavior-pin = latest CARL STATUS)
 
 ---
 

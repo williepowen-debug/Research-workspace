@@ -1,7 +1,4 @@
 date	event	what_to_check	threshold_signal	priority	who_cares	notes
-2026-06-24	FL Wave 1 UI exhaustion cliff	~4,500 workers exhaust UI	CRL-07 / DQ spike follows 30-60d	🔴	CARL,LABOR,GIG	DEO Wave 1; LABOR/GIG cross-feed.
-2026-06-24	New Home Sales (May, Census)	SAAR; inventory	Housing demand / builder pipeline	🟡	CARL,HOMER	Approx ~Jun 24.
-2026-06-25	May PCE (Personal Income & Outlays)	Core PCE MoM/YoY; savings rate; Real DPI	V12 monthly bridge; buffer-exhaustion (Apr savings 2.6%)	🟠	CARL	8:30 ET (verified Jun 25). Watch savings toward sub-2.5%.
 2026-06-26	UMich sentiment final (June)	Confirm prelim; 5-10Y	V12 5-10Y red line	🟠	CARL	4th Fri. Confirms/revises prelim.
 2026-06-26	Fannie MF DQ (May)	MF serious DQ vs 0.80% GFC	CRL-03 — Apr REVERSED to 0.64% (Mar 0.78% near-breach)	🔴	CARL,HOMER	Monthly ~end of following month. Lumpy series; mechanism intact.
 2026-06-29	Freddie HPI (Apr)	YoY + MoM	Housing-deflation — Mar +0.7% cycle low; McBride "negative 2026"	🔴	CARL,HOMER	~late June. Cycle-low watch.
