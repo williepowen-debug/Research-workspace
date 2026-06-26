@@ -6,6 +6,16 @@
 
 ---
 
+## 2026-06-26 ~13:00 ET — Standing rule + detection/action hardening cluster + arch peer-review (committed local, push pending)
+
+**Status:** Long working session off Will's current book (2 images). Arc: bank-put **reshape proposal** built → Will set the **STANDING RULE** (deploy only on a fired trigger; $500/card) → **detection/action HARDENING cluster** (LIQUID/SENTRY/TERRY, Prome-directed teams-mode) → **arch peer-review + fix round** → **HEARTBEAT reconcile** → closeout. **All committed locally; NOT pushed** (Will-coordinated). 3 agents released.
+
+**What landed:** (1) `PROME/proposals/2026-06-26_bank-put-reshape-roll.md` — shelved as the ready "if HY 280" card. (2) Memory `feedback_deploy_on_trigger_not_calendar`. (3) **P1 detection** — `config.py` retuned (HY 265/280, 10Y 4.40, wrapper series; closes the "281 reads GREEN" hole) + **live `liquid-hy-watch` systemd timer** (Mon–Fri 13:00 ET, enabled+active, VERIFIED firing 278→amber → `AGENTS/LIQUID/alerts/`). (4) **P2/P3** — `AGENTS/TERRY/scripts/chain_fetch.py` (live chain CLI), `TRADE_CARD_TEMPLATE_FIRE.md` + 2 setups ($500), `grade_print.py` (Jul-print grader, 3 traps as hard guards). (5) **Arch fix round** — LIQUID STATUS 28→7KB + watcher `--selftest` (8 PASS) + X1 dedupe→KILL_MEMO; TERRY +MEMORY +CLOSEOUT +honest STATUS. (6) HEARTBEAT reconciled (HY→278, X1→KILL_MEMO, auto-watch noted). Records in `PROME/cluster/`.
+
+**The read:** no market trigger fired — this was a **maintenance + system-hardening** session, NOT a new-conviction entry. Live **HY 278 [6/25], 2bp from the >280 X1** (grinding 271→276→278). The detection blind spot is now closed: the timer auto-catches a 280 cross between sessions.
+
+**Next / pending:** Push the whole session (5 earlier commits + closeout batch) at the next Will window. WILL/trading-journal: 3 journal deletions (Will-intentional) + 2 book JPGs left untouched, Will's to commit. The shelved (b)/(c) card fires only on HY>280 sustained or WAL Jul-30 — max-loss $500, needs live broker book at fire-time. 10Y 6/30 re-pull still scheduled.
+
 ## 2026-06-26 — Verification pass (Tier-1 banks + Tier-2 labor): corrections applied + PUSHED
 
 **Status:** Ran the queued `VERIFICATION_PASS_2026-06-26` action-card as two verify->adversarial->propagate Workflows — `wzmprhwb2` (8 Tier-1 banks vs EDGAR 10-Q / FDIC Call Report) + `wzlhvzlcb` (5 Tier-2 labor groups vs FRED/BLS/CBO). ~24 load-bearing Q1'26 figures checked, each adversarially re-pulled. **PUSHED** — origin master `903e7f4b`, synced 0/0 (`d1cbbafe` corrections + `903e7f4b` route packets).
@@ -49,19 +59,5 @@
 **Regime delta:** **HY OAS 276 [6/24]** — the print resolved WIDER, now **4bp from the >280 X1-trigger**. Conviction **61, CONCENTRATED/higher-variance** — the bear funneled to one live root (credit-bifurcation, CCC-BB 798) while the other legs inverted/dormant (energy deflated, plumbing calm, duration dormant); X1 UNFIRED (widening is beta not substance). **FXY position FULLY CLOSED (Will 6/25)** — old open item resolved.
 
 **Next:** LIQ-03 resolves 6/30 (boot.py-tracked); BDC monitor full-populate before ~7/25 Q2 marks; auto-memory capture of the KB-064 calibration principle + X1 rule deferred pending the MEMORY.md prune (over-limit); LIQUID outbox cleanup (low). Watch the next HY print vs 280 + the wrapper basket.
-
-## 2026-06-25 ~12:20 ET — Desktop-CC session: do-now batch + full write-back
-
-**Status:** Operating from **Desktop Claude Code** (OpenClaw/Codex degraded). Will authorized teammate-mode spawns. Ran a report-only do-now batch → follow-ups → Will-approved write-back → **regime-surface refresh** (HEARTBEAT/TODAY) → targeted intel pulls → **agent-closeout batch** (SAM/BROCK/LIQUID persisted their intel, then released/shut down). **PUSHED 2026-06-25** — origin master at `026e0c47`, local+origin **synced 0/0** (10 commits): BROCK `e11daae4`+`5a4569b8`, SAM `8e6f4350`+`df1adae5`, LIQUID `9bdf0b10`, Prome `3c03818d`+`85395063`+`4f4448c6`+closeout+STATUS.
-
-**What landed:** SAM `MOF_INTERVENTION_PLAYBOOK.md` (intervention ladder + carry/PC X1 + FXY PENDING-broker). BROCK `MACRO_VS_CREDIT_DISCRIMINATOR_JUN25.md` (credit-recognition watch-set + APO Dec $95P live mark, recovered ~10–12×, pending-broker + X1). Prome `synthesis/2026-06-25_donow_reconciliation.md` (regime delta + the X1 reconciliation). **HENRY declined** the relayed write-approval (principled — a coordinator relay ≠ direct Will consent; commit is ask-first); its PCE read is captured in the Prome synthesis instead.
-
-**Key synthesis (X1):** carry-unwind risk and PC-manager multiple-compression are **~1 root on macro/risk-off days — don't double-count**; the single trigger that makes PC an independent bear confirmation is **wrapper basket leads managers down + HY OAS >280** (≡ credit-recognition ≡ decoupling marker). Today reads MACRO. Feed NEXUS; HY>280 is LIQUID's half.
-
-**Regime delta vs 6/21:** energy tail deflated (Brent $74.24, Hormuz non-kinetic), HY 271 back above the <260 kill, Cushing sub-20M fired BRENT Boundary #3, May PCE firm-but-as-priced (real disinflation test = June CPI Jul 14).
-
-**Risks / blockers / open:** (1) FXY broker truth owed by Will → relay to warm SAM. (2) LIQUID reactivation decision (now well-motivated). (3) HEARTBEAT/TODAY/NEXUS still 6/21-stale — refresh pending. (4) HENRY domain update pending direct Will confirm. (5) auto-memory finding worth capturing but MEMORY.md over-limit — prune first. (6) SAM + BROCK left warm.
-
-**Next:** relay FXY broker answer (SAM released — respawn or handle next session); CFTC COT 6/26 (data as of 6/23; framework in SAM's MOF playbook); NEXUS refresh still deferred (needs the X1 rule); auto-memory X1 don't-double-count finding + MEMORY.md prune. *(Push ✅ done — origin synced 0/0.)*
 
 ---

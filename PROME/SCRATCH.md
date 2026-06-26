@@ -1,46 +1,29 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-26 (Claude Code Prome — VERIFICATION PASS (Tier-1, 8 banks) RAN via Workflow `wzmprhwb2`; results + proposed corrections in `PROME/proposals/2026-06-26_tier1-verification-results.md`; thesis SURVIVES; 2 required canonical rewrites pending Will. Prior session: front-half de-mask cluster + adversarial + reconciliation + grading instrument, all PUSHED synced 0/0 at `8a0df2be`.)
+**Last Updated:** 2026-06-26 ~13:00 ET (Claude Code Prome — full session: bank-put reshape proposal → STANDING RULE set → detection/action HARDENING cluster (P1/P2/P3, all verified) → arch peer-review + fix round → HEARTBEAT reconcile → closeout. Agents released. Commits local, push pending.)
 
-## Session Context
-- Desktop CC, Prome live surface. Same-day continuation of the transmission-terminus (back-half) session.
-- Will ran a 2nd orchestration: the **front-half "Three Masks" de-mask cluster** as PERSISTENT teams-mode agents Prome directed live across rounds (CARL_FH=credit / LABOR=labor / MARCO=migration), then a **5-lens independent adversarial round** (verdict HOLDS-WITH-ADDITIONS), then a **full front↔back reconciliation** (REGINALD_T re-spawn), then a **Jul-print grading instrument**.
-- **4 agents RELEASED at closeout** (shutdown_request) — no warm-parking (see lesson). All were RESEARCH/DRAFT-ONLY; wrote nothing to canonical files.
-- **All prior-session cluster commits PUSHED** — local = origin = `8a0df2be`, synced 0/0. (This session's verification-results proposals doc + SCRATCH edits are local, uncommitted — Will-coordinated.)
+## What happened this session (6/26)
+1. **Bank-put reshape proposal built** → `PROME/proposals/2026-06-26_bank-put-reshape-roll.md`. Read off the verified thesis: book is dated for a 2026 event, thesis is 2027 → duration mismatch. (b) AOCI + (c) WAL the live paths; (a) regional trimmed. **SHELVED** as the ready "if HY breaks 280" card per the new standing rule — NOT executed.
+2. **★ STANDING RULE set (Will 6/26):** fresh capital deploys ONLY on a fired trigger, never mechanical book-reshape; limited funds = preserve dry powder. Memory: `feedback_deploy_on_trigger_not_calendar`. **Max-loss = $500/card.**
+3. **Detection/action HARDENING cluster** (LIQUID/SENTRY/TERRY, teams-mode, Prome-directed):
+   - **P1 detection** — `config.py` retuned to thesis lines (HY 265/280, 10Y 4.40, wrapper series ARCC/FSK/OBDC, FXY dropped) + **LIVE systemd --user watch timer** `liquid-hy-watch` (Mon–Fri 13:00 ET, enabled+active, VERIFIED firing 278→amber). Closes the "HY 281 reads GREEN / nobody pulled FRED" blind spot.
+   - **P2 action** — `AGENTS/TERRY/scripts/chain_fetch.py` (live chain CLI) + `TRADE_CARD_TEMPLATE_FIRE.md` + 2 pre-locked setups ($500 locked).
+   - **P3 grading** — `AGENTS/TERRY/scripts/grade_print.py` + config (Jul-print grader, 3 mis-grade traps as hard guards).
+4. **Arch peer-review** (3-way, `PROME/cluster/2026-06-26_arch_review_synthesis.md`) → **fix round**: LIQUID STATUS de-bloat (28→7KB) + watcher `--selftest` added (8 assertions PASS) + X1 dedupe to KILL_MEMO; TERRY added MEMORY.md + CLOSEOUT.md + honest live STATUS.
+5. **HEARTBEAT reconciled** (Prome, shared file): HY 276→278 [6/25], cushions corrected (2bp from 280 / 18bp from kill), X1/kill def → canonical KILL_MEMO, auto-watch noted.
 
-## What landed — 4 PROME/synthesis docs
-1. `2026-06-25_front-half-demask-cluster.md` (v2, post-adversarial) — the SOURCE read.
-2. `2026-06-25_front-back-reconciliation.md` — source × terminus.
-3. `2026-06-25_Q2-bank-print-grading-instrument.md` — ready-to-grade Jul 16-30 card.
-(+ yesterday's `2026-06-25_transmission-terminus-cluster.md` = the back-half.)
+## Live regime (verified this session)
+- **HY OAS 278 [6/25]** — grinding up 271→276→278, **2bp from the >280 X1-trigger** (closest yet; NOT fired). The new watch timer auto-catches a 280 cross between sessions → `AGENTS/LIQUID/alerts/`.
+- 10Y ~4.39. Wrapper-decoupling half (BROCK) still unfired. Energy deflated. Banks green.
 
-## The read (durable)
-- **Source = a 2027 story.** Calm ~50-55% genuine; masks roll forward; Jul prints likely reinforce the all-clear → **roll duration to Q1-Q2 2027, no Q2 short.**
-- **Reconciliation key result:** the front/back "conflict" was a **ledger-line artifact** — provision/ACL **BUILD = Q2-visible (does NOT defer)**; realized **NCO = defers to 2027**. Q2 reserve-build IS genuinely Q2-able. The front-half **TRIMS the one consumer-source path** (a ~25-35%→~15-22%) and leaves the two NON-source paths: **(b) AOCI/rates ~25-30% + (c) WAL single-name ~28-32% = the live Q2 exception the tape isn't pricing.**
-- **Single Q2 grade = Provision$ vs NCO$ (BUILD/RELEASE) + specific-vs-collective** (specific=transmission; collective/macro-overlay=beta, doesn't count). AOCI = separate axis.
-- **LABOR r4:** labor = ~70% white-collar structural GRIND → 2027-diffuse, no 4th Q2 path, ~30% Aug-7 pull-forward option. (Real white-collar recession, 31mo, masked by the immigration supply floor.)
-- **COF = bridge instrument** (segment provision split: Card=Axis A consumer, Commercial=Axis B CRE). **ZION muni/AOCI = highest mis-grade risk** (green NCO ≠ thesis-clear).
+## Forward-watch / carry
+- **The watch is now automated** — `liquid-hy-watch.timer` fires daily 13:00 ET; next-boot echoes any between-session cross. Don't re-build manual HY checks.
+- Jul-print grading instrument is now LIVE tooling (`grade_print.py`) — use it on CFG/OZK Jul16 → monolines Jul21 GATE → EGBN Jul22 → WAL Jul30.
+- Trade construction (b)/(c): pre-built card on the shelf; fires ONLY on HY>280 sustained (or WAL Jul-30 print). Max-loss $500/card. Needs live broker book at fire-time.
+- 10Y 6/30 re-pull still scheduled (cloud routine `trig_01Ps7pv1WaupKwBG9mWds46T`).
 
-## Jul forward-watch (grading instrument is the tool)
-- Calendar: CFG/OZK **Jul 16** (blind) → SYF/ALLY/ZION + COF **Jul 21** (the monoline GATE) → EGBN **Jul 22** → WAL **Jul 30**. COF date IR-soft, confirm ~early Jul.
-- Gate: monoline BEAT Jul 21 → fade (a) before EGBN/WAL; BREAK → re-arm.
-- Re-pull 10Y at the **6/30** mark (AOCI path b; 4.30[3/31]→4.41[6/24]).
-
-## Handoffs to ROUTE (flagged for Will; NOT auto-routed)
-1. **FORGE/TERRY** — roll bank puts (KRE/WAL, Dec-26) toward Q1-Q2 2027 (PROPOSE; needs broker truth).
-2. **REGINALD/CORAL** — winter-27 FL-$ hole ~$850M (floor ~$450-700M capacity-locked) → FL bank earnings Q1-Q2 2027.
-3. **NEXUS** — the reconciliation + grading instrument (gated on Will's NEXUS refresh-hold).
-
-## Lessons captured (memory)
-- `feedback_warm_parked_agent_collision` — warm-parked named agents collide on next-session same-name spawn + die to cleanup sweeps; release at closeout or use collision-proof aliases. (Tonight's CARL kill.)
-- `finding_cluster_adversarial_catches_framing` — synthesis over-claims an elegant unification; independent adversarial+judge catches framing overreach while the trade conclusion survives.
-
-## Carry / deferred
-- ✅ **VERIFICATION PASS — Tier-1 + Tier-2 DONE (2026-06-26):** Workflows `wzmprhwb2` (banks) + `wzlhvzlcb` (labor). Tier-1 11✓/9Δ/5✗/3? · Tier-2 8✓/5Δ/3✗/1?. **BOTH theses SURVIVE.** Results: `PROME/proposals/2026-06-26_tier1-verification-results.md`. **Tier-1 corrections APPLIED to canonical docs** (10 stamped edits; ALLY+ZION required rewrites in). **Tier-2 APPLIED (Will-approved 06-26):** 7 stamped canonical labor edits (recon:53 + demask:24/52/59×2/115/137 — 31→~37mo Information-sector; immigration 2.2M=DHS-disputed-not-CBO + ~1.0M LF; velocity +21K verified). **4 UPSTREAM route packets SENT** (committed + PUSHED; next-boot SIGs): `AGENTS/LABOR/inbox/...verification-corrections.md` (+93K sign error, prof-biz <1M false, 31→37, mgmt-occ unverifiable), `AGENTS/MARCO/inbox/...immigration-magnitude.md` (2.2M=DHS-not-CBO, ~1.0M LF), `AGENTS/CORAL/inbox/...FL-labor-verification.md` (FL UR 4.8% SA resolved, +40.5K=Apr MoM), `AGENTS/OZK/inbox/...resg-verification.md` (RESG 88% UNVERIFIED via Call Report → OZK verify vs its investor-deck/10-K; the one genuinely-open Tier-3 item). Meta-finding: synthesis docs were cleaner than their STATUS-file inputs. **Tier-3 DONE (2026-06-26):** the 2 remaining figures both verified ✓ (AMTB "45% ACL" = ACL/NPL coverage 45.0%, under-reserved, def-clarified; student-loan 9.16M = real Dept-of-Ed/FSA Apr-2026 default count, 270+ DPD, provenance-upgraded from Bloomberg); neither needed unverifiable-by-construction; neither appears verbatim in canonical docs (upstream CARL/REGINALD). **VERIFICATION PASS COMPLETE (Tiers 1–3).** Tier-4 = live-pull-at-trade. **10Y 6/30 re-pull SCHEDULED** as a one-time cloud routine (`trig_01Ps7pv1WaupKwBG9mWds46T`, fires 2026-06-30 21:00 UTC / 5pm ET; read-only; result on the claude.ai routines page — pulls DGS10, marks AOCI/path-(b) delta off 4.30[3/31]→4.41[6/24]).
-- All 2026-06-25 cluster commits **PUSHED — synced 0/0** (origin `d1a6b644`).
-- **Trade construction for (b)/(c)** optionality = the Will-gated thread (needs the book) — gate behind the verification pass.
-- ✅ MEMORY.md pruned (06-26): 25.9→23.0KB under cap, 158 links preserved; new entry `finding_verify_loadbearing_before_trade` added.
-- ✅ HANDOFF trimmed (06-26): rolled 06-21×3 / 06-22 / 06-25-morning to archive; kept latest 5 (+ new 06-26 verification entry).
-- Regime carry: HY **276 [6/24]** (4bp from >280 X1); 10Y 4.39; energy deflated (Brent $75); monolines green; FXY closed.
+## Pending push (Will-coordinated)
+- This session: 5 earlier commits (`029957a3`..`c993b8a8`) + closeout batch (HEARTBEAT + LIQUID fixes + TERRY durable-layer + arch docs + SCRATCH/HANDOFF). **NOT pushed.**
+- **WILL/trading-journal:** 3 journal deletions (Will intentional, old) + 2 book JPGs — left UNTOUCHED, Will's to commit on his push.
 
 ## Cautions
-- Position/broker truth = Will/FORGE, not these files. Refresh dashboard/FRED before re-citing levels. `git add` own-dir paths only; no push.
+- Position/broker truth = Will/FORGE, not these files. `git add` own-dir paths only. config.py + HEARTBEAT = shared (Prome-coordinated). No push without Will window.
