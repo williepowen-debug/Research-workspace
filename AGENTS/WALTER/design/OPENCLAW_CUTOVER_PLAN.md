@@ -43,6 +43,7 @@ The literal OpenClaw on this box = **`clawdbot-gateway.service`** (systemd user 
 > **✅ RATIFIED by Will 2026-06-26:** **0a** PROME→CC (keep coordinator role, drop always-on) · **0d** Quick-WALTER **RETIRE** (only Full WALTER remains) · **0e** keep-uniform-`CC` · **0f** keep-constant `CLAUDE_CODE` · **0g** FLASH/IMMEDIATE auto-push = WALTER-self-on-verified-clean-tree via the `safe-push.sh` ff-gate. **No schema migration needed.**
 > **0b** YEYOU — Will handling separately; leave its REGISTRY row + `AGENTS/YEYOU/*` untouched.
 > **⏳ Remaining gate: 0c Telegram ownership** (+ confirm **0h** over-trim standing-instruction).
+> **0c discovery (2026-06-26):** the fleet already uses **per-agent bots with separate tokens** (`~/.claude/channels/telegram-<agent>/.env`; WALTER=`***REMOVED***`, and CARL/SAM/BRENT/RED/REGINALD/BROCK/LABOR/LIQUID each distinct) → the critic's "two-pollers-one-token `getUpdates` collision" risk **does NOT apply** to the current design. The committed/leaked `***REMOVED***` = **`@Prome_research_bot`, a dedicated FEEDS bot** (referenced only in the dead VPS crons + `SCOUT_BUILD_PLAN` + `dashboard.py`/`server.py`; NOT wired into any live channel) → **safe to rotate, won't drop any live chat.** Gap: **no `telegram-prome` channel exists yet** — when PROME→CC, give it its own bot/channel (mirrors the others, collision-free) or route PROME-comms through WALTER.
 
 | # | Decision | Recommendation | Risk if unresolved |
 |---|----------|----------------|--------------------|
