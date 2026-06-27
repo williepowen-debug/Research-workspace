@@ -117,10 +117,20 @@ def run(args):
         print(f"  ⚠ {e}")
 
     sig_rows, sig_errors = signals()
-    active = [r for r in sig_rows if (r.get("status") or "").upper() in {"LIVE", "LIVE-WEAK", "DECAYING"}]
-    print("\nSignals (positioning/timing context — see SIGNALS.tsv):")
-    print(f"  active rows: {len(active)} of {len(sig_rows)}")
     today = date.today()
+    pins = [r for r in sig_rows if (r.get("status") or "").upper() == "PIN"]
+    active = [r for r in sig_rows if (r.get("status") or "").upper() in {"LIVE", "LIVE-WEAK", "DECAYING"}]
+    print("\nSignals (trade-construction context — see SIGNALS.tsv):")
+    for r in pins:
+        d = _parse_date(r.get("as_of"))
+        if not d:
+            note = "  ⚠ UNSET — pull from NEXUS"
+        elif (today - d).days > SIGNAL_STALE_DAYS:
+            note = f"  ⚠ {(today - d).days}d old — refresh from NEXUS"
+        else:
+            note = ""
+        print(f"  ★ PIN {r.get('cluster')} [{r.get('source')}]: {r.get('key_level')}{note}")
+    print(f"  active rows: {len(active)} of {len(sig_rows)}")
     for r in active:
         st = (r.get("status") or "").upper()
         d = _parse_date(r.get("as_of"))
@@ -132,7 +142,7 @@ def run(args):
                 flag = "  ⚠ STALE >21d — re-verify or retire"
             elif st == "DECAYING" and days > SIGNAL_STALE_DAYS:
                 flag = "  ⚠ decaying >21d — reconfirm before use"
-        print(f"  - {r.get('signal_id')} [{st}] {r.get('bears_on')} | {r.get('key_level')} | as_of {r.get('as_of')} ({age}){flag}")
+        print(f"  - [{r.get('source')}] {r.get('signal_id')} [{st}] {r.get('bears_on')} | {r.get('key_level')} | as_of {r.get('as_of')} ({age}){flag}")
     for e in sig_errors:
         print(f"  ⚠ {e}")
 

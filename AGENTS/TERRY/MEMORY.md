@@ -38,7 +38,7 @@ Detection (HY-280 break, print alerts) is LIQUID/SENTRY; TERRY owns everything A
 - **Day-trading (Session 2, 5/1–6/23):** realized +$2,951.67; 0 shorts; leak = −$2,793 walked-to-$0-expiry;
   puts +2,347 vs calls +604; QQQ 0DTE +3,044 engine. Detail in daytrading/.
 - **No closed Terry-reviewed thesis trades yet** — POSTMORTEMS.md is template-only until one closes.
-- **Routed positioning/timing INFO lands in `SIGNALS.tsv`, not STATUS/MEMORY** (Will 6/27: "store in lasting memory, don't put everything of value in STATUS"). Decay-tracked ledger (as_of/decay/conf/status/bears_on); `boot.py` surfaces active rows + flags any >21d for re-verify/retire. STATUS keeps only a one-line current read + the durable level map. New WALTER/INFO signal → add a row; recall the cluster at fire-time when sizing.
+- **`SIGNALS.tsv` = the trade-construction context ledger** (Will 6/27, "store in lasting memory, don't put everything of value in STATUS" → option B). Durable home for anything that shapes timing/sizing/structure but isn't the thesis. `source` column spans WALTER (routed INFO), TERRY-chart (my own levels/IV/expected-move), and thesis-owner timing notes (REGINALD/CARL/LIQUID/… scaffolding, NOT their thesis truth). NEXUS regime = one **PIN** row (denominator), refreshed not streamed. Decay-tracked (as_of/decay/conf/status); `boot.py` surfaces PIN + active rows, flags >21d for re-verify/retire. OUT of scope: thesis truth + raw catalyst calendar. STATUS keeps only a one-line read + pointer. New context → add a row; recall at fire-time.
 
 ---
 

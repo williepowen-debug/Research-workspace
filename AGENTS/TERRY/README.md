@@ -27,9 +27,21 @@ Will can also open Terry directly in Claude Code as a conversational trading-des
 - `scripts/chain_fetch.py` — live option-chain CLI (rule #4; never cite stored option marks).
 - `scripts/grade_print.py` + `grade_config.json` — Q2 bank-print grader; `--tally` rolls path diagnostics.
 
-## Routed-signal context (decay-tracked)
+## Trade-construction context ledger (decay-tracked)
 
-`SIGNALS.tsv` — durable home for positioning/timing INFO routed to TERRY (WALTER signals, etc.). Each row carries `as_of` + `decay` + `conf` + `status` (LIVE / LIVE-WEAK / DECAYING / PARKED / RETIRED) + what it `bears_on`. `boot.py` surfaces active rows and flags any past 21d for re-verify/retire (anti-rot). **STATUS holds only the one-line current read + pointer — evidence rows live here, not in STATUS.** New routed INFO → add a row; recall the cluster at fire-time when sizing a card.
+`SIGNALS.tsv` — durable home for any input that shapes how I time/size/structure a trade *without being the thesis itself*. The `source` column spans:
+- **WALTER** — routed positioning/timing INFO signals.
+- **TERRY-chart** — my own observations: key levels, IV percentile, expected move, vol/tape reads (use a local id like `TERRY-CHART-YYYYMMDD-NN`).
+- **thesis-owner timing notes** — REGINALD/CARL/LIQUID/SAM/etc.'s *timing/structure scaffolding* (print dates, repricing lags, detection triggers), never their thesis truth.
+
+Each row: `source` · `as_of` · `decay` · `conf` · `status` (PIN / LIVE / LIVE-WEAK / DECAYING / PARKED / RETIRED) · `bears_on` · `key_level` · `ref`.
+
+- **PIN** = the NEXUS regime denominator — one pinned row (risk-on/off, vol, bull/bear) that conditions every timing read; *refreshed, not streamed*. `boot.py` surfaces it first and flags it UNSET/stale.
+- `boot.py` surfaces PIN + active rows and flags any active row past 21d for re-verify/retire (anti-rot).
+- **Out of scope (don't duplicate here):** thesis truth (owned by domain agents/NEXUS — reference, don't copy) and the raw event/catalyst calendar.
+- **STATUS holds only the one-line current read + pointer — evidence rows live here, not in STATUS.**
+
+New context → add a row; recall the cluster at fire-time when sizing a card.
 
 ## Core output
 
