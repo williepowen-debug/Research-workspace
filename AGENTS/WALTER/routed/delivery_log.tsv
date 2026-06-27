@@ -304,3 +304,14 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-06-27T13:43:00Z	SIG-W-20260627-002	HENRY	action	CC	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260627-002.md	written_not_delivered_pending_push	single-name froth marker on AI/semi axis (SNDK RSI 99)
 2026-06-27T13:43:00Z	SIG-W-20260627-002	TERRY	info	CC	PRIORITY	AGENTS/TERRY/inbox/WALTER/SIG-W-20260627-002.md	written_not_delivered_pending_push	named semiconductor-RSI-reversion lane
 2026-06-27T13:43:00Z	SIG-W-20260627-002	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260627-002.md	written_not_delivered_pending_push	cluster_mediating — continuation vs reversion
+2026-06-27T13:52:00Z	SIG-W-20260627-003	CORAL	action	CC	PRIORITY	AGENTS/CORAL/inbox/WALTER/SIG-W-20260627-003.md	written_not_delivered_pending_push	FL fire-sale map; reconcile vs SIG-621-011/626-011
+2026-06-27T13:52:00Z	SIG-W-20260627-003	REGINALD	info	CC	PRIORITY	AGENTS/REGINALD/inbox/WALTER/SIG-W-20260627-003.md	written_not_delivered_pending_push	FL->bank-collateral leg
+2026-06-27T13:52:00Z	SIG-W-20260627-003	CARL	info	CC	PRIORITY	AGENTS/CARL/inbox/WALTER/SIG-W-20260627-003.md	written_not_delivered_pending_push	consumer wealth-effect
+2026-06-27T13:53:00Z	SIG-W-20260627-004	BROCK	action	CC	PRIORITY	AGENTS/BROCK/inbox/WALTER/SIG-W-20260627-004.md	written_not_delivered_pending_push	FS KKR junk-rated BDC deal; funding-side sequel to SIG-511-038
+2026-06-27T13:53:00Z	SIG-W-20260627-004	LIQUID	info	CC	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260627-004.md	written_not_delivered_pending_push	funding-market tell (IG->HY BDC funding)
+2026-06-27T13:53:00Z	SIG-W-20260627-004	REGINALD	info	CC	PRIORITY	AGENTS/REGINALD/inbox/WALTER/SIG-W-20260627-004.md	written_not_delivered_pending_push	bank->PC funding-strain transmission
+2026-06-27T13:54:00Z	SIG-W-20260627-005	CARL	action	CC	PRIORITY	AGENTS/CARL/inbox/WALTER/SIG-W-20260627-005.md	written_not_delivered_pending_push	ISM 4-yr-high vs IP-flat; contradicts held ISM-sub-49
+2026-06-27T13:54:00Z	SIG-W-20260627-005	HENRY	info	CC	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260627-005.md	written_not_delivered_pending_push	manufacturing soft-vs-hard divergence
+2026-06-27T13:54:00Z	SIG-W-20260627-005	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260627-005.md	written_not_delivered_pending_push	cluster_mediating bull-counter vs held view
+2026-06-27T13:55:00Z	SIG-W-20260627-006	CARL	action	CC	PRIORITY	AGENTS/CARL/inbox/WALTER/SIG-W-20260627-006.md	written_not_delivered_pending_push	21.3% cardholders >$10K balances (record)
+2026-06-27T13:55:00Z	SIG-W-20260627-006	REGINALD	info	CC	PRIORITY	AGENTS/REGINALD/inbox/WALTER/SIG-W-20260627-006.md	written_not_delivered_pending_push	card-book exposure
