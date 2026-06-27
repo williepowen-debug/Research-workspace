@@ -7,8 +7,13 @@
 DIR="$(cd "$(dirname "$0")" && pwd)"
 LOCK_FILE="$DIR/.cache/cron.lock"
 LOG_FILE="$DIR/.cache/cron.log"
-TELEGRAM_BOT_TOKEN="***REMOVED***:***REMOVED***"
-TELEGRAM_CHAT_ID="8463631023"
+# Secrets loaded from gitignored .env — NEVER hardcode the bot token in this
+# git-tracked file. The previously hardcoded token was exposed in git history →
+# rotate it via BotFather, then put the new value in FORGE/tools/news-sweep/.env
+# (see .env.example). $DIR is set above.
+[ -f "$DIR/.env" ] && . "$DIR/.env"
+: "${TELEGRAM_BOT_TOKEN:?set TELEGRAM_BOT_TOKEN in FORGE/tools/news-sweep/.env}"
+: "${TELEGRAM_CHAT_ID:?set TELEGRAM_CHAT_ID in FORGE/tools/news-sweep/.env}"
 
 mkdir -p "$DIR/.cache"
 
