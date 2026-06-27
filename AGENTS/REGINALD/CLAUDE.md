@@ -80,7 +80,7 @@ Before ending, complete in order:
   - **New files:** atomic `git add <specific files> && git commit <same paths> -m "..."` — explicit paths only, never `git add AGENTS/REGINALD/` as a directory
   - Optional `git diff --cached --stat` sanity check between add and commit
   - Never commit files outside `AGENTS/REGINALD/`
-  - Push-train pattern applies (per auto-memory `[[finding_push_train_pattern]]`): if blocked by other agents' uncommitted work, note pending push in MEMORY Session Notes and defer
+  - **Commit locally with pathspec, then auto-push at closeout via `scripts/safe-push.sh`** (ff-gated, fails safe; single-machine — `[[feedback_defer_push_coordinate]]`). One push sweeps all agents' local commits (`[[finding_push_train_pattern]]`). **If safe-push aborts non-ff, do NOT force** — note it in MEMORY Session Notes and flag PROME/Will (a 2nd machine pushed = the tripwire).
 
 **Discipline overlay (applies throughout closeout — per Orchestrator audit 6/8):**
 - **One source of truth per metric.** Don't write the same value in two docs. Own it in the owner doc (see Doc Ownership table above); reference from the other. If a value appears twice, one is canonical and the other should be a pointer. *Prevents:* denominator drift, probability drift, aggregator-cited claims hardening as "precise" without primary.

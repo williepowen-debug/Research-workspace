@@ -73,7 +73,7 @@ If a tier-1 macro event is firing during boot (NFP / CPI / FOMC / tier-1 auction
     - **New files:** atomic `git add <specific files> && git commit <same specific files> -m "..."` — explicit paths only, never `git add AGENTS/NEXUS/` as a directory (sweeps unintended files).
     - **Optional sanity check** between add and commit: `git diff --cached --stat`.
     - **Never commit files outside `AGENTS/NEXUS/`** unless Will explicitly authorizes a cross-agent move (e.g. the 2026-06-07 schema relocation to `templates/`).
-    - **Push deferred by default** per `[[feedback_defer_push_coordinate]]` — commit locally, Will coordinates the push. Push-train pattern (`[[finding_push_train_pattern]]`) often resolves pending pushes on the next clean-closing agent.
+    - **Commit locally with pathspec, then auto-push at closeout via `scripts/safe-push.sh`** (ff-gated, fails safe; single-machine — `[[feedback_defer_push_coordinate]]`). One push sweeps all agents' local commits (`[[finding_push_train_pattern]]`). **If safe-push aborts non-ff, do NOT force** — note it in `LAST_COMPLETION.md` and flag PROME/Will (a 2nd machine pushed = the tripwire).
 
 **Discipline overlay (applies throughout closeout):** *Stale-marked beats carried-forward-as-current.* If a STATUS value, threshold mark, or prediction can't be refreshed this session, mark it `[STALE YYYY-MM-DD]` rather than presenting it as live. The Δ-column convention covers most of this for matrix rows; the overlay catches one-off marks (threshold table, transmission chain timestamps) that don't have a Δ column.
 

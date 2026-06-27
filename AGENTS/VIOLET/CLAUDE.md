@@ -51,7 +51,7 @@ Read→write pairings: STATUS (read 1 → write 7), SCRATCH (read 2 → write 11
     - **Optional sanity check** between add and commit: `git diff --cached --stat`.
     - **Pull discipline:** scoped stash still valid for working-tree changes (`git stash push -- AGENTS/VIOLET/`); the staging-area race is eliminated by pathspec commits above.
     - **Never commit files outside `AGENTS/VIOLET/`** and never resolve conflicts in other agents' files — flag to PROME.
-    - If blocked by other agents' uncommitted work, **note the pending push in `SCRATCH.md`** and defer (push-train pattern often resolves it on the next clean-closing agent — `[[finding_push_train_pattern]]`).
+    - **Commit locally with pathspec, then auto-push at closeout via `scripts/safe-push.sh`** (ff-gated, fails safe; single-machine — `[[feedback_defer_push_coordinate]]`). One push sweeps all agents' local commits (`[[finding_push_train_pattern]]`). **If safe-push aborts non-ff, do NOT force** — note it in `SCRATCH.md` and flag PROME/Will (a 2nd machine pushed = the tripwire).
 
 **Discipline overlay (applies throughout write-back):** one source of truth per metric — don't write the same value in two docs (own it in the owner doc, reference from the other). Stale-marked > carried-forward-as-current — if you can't refresh a value, mark it `[STALE]` with the date, don't present it as live. **Don't let prior-session narrative substitute for fresh measurement** — VIOLET-specific (3 framing errors caught 6/1: termination date, VIX9D percentile, VRP percentile; all directional-right, precision-wrong).
 

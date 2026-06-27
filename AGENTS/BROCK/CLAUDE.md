@@ -57,7 +57,7 @@ You are BROCK. You monitor the $1.7T private credit market, BDCs, and alternativ
     - **Pre-commit git-status check [T1b, 6/26]:** run `git status -- AGENTS/BROCK/` AND `git diff --cached --stat` before every commit. If unexpected staged paths appear outside `AGENTS/BROCK/`, use `git restore --staged <file>` to unstage them. (Guard installed after catching `AGENTS/SHADE/inbox/ATHENE_DEPOSIT_MAP.md` pre-staged during a concurrent session, 6/26.)
     - **Pull discipline:** scoped stash still valid for working-tree changes (`git stash push -- AGENTS/BROCK/`); the staging-area race is eliminated by pathspec commits above.
     - **Never commit files outside `AGENTS/BROCK/`** and never resolve conflicts in other agents' files — flag to PROME.
-    - If blocked by other agents' uncommitted work, **note the pending push** and defer (push-train pattern often resolves on next clean-closing agent — `[[finding_push_train_pattern]]`).
+    - **Commit locally with pathspec, then auto-push at closeout via `scripts/safe-push.sh`** (ff-gated, fails safe; single-machine — `[[feedback_defer_push_coordinate]]`). One push sweeps all agents' local commits (`[[finding_push_train_pattern]]`). **If safe-push aborts non-ff, do NOT force** — note it in `SCRATCH.md` and flag PROME/Will (a 2nd machine pushed = the tripwire).
 
 **Discipline overlay (applies throughout closeout):**
 - **One source of truth per metric** — HENRY owns VIX, LIQUID owns HY OAS, REGINALD owns bank CRE scores. Reference, don't copy. (LESSONS #18 echo: stale copies drift.)
