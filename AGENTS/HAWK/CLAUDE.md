@@ -23,38 +23,37 @@ Geopolitical risk is binary in ways domestic stress isn't. Wars start on specifi
 
 ## SPAWN PROTOCOL
 
-When spawned with a task:
+**Boot and closeout are one symmetric sequence: what you READ at boot, you WRITE BACK at closeout.** The CLOSEOUT phase (steps 9-15) is the write-back tail — run it at **EVERY session end, not just end-of-day** (per auto-memory `[[feedback_intra_day_closeout_discipline]]`). It is not optional; it is the back half of this protocol. Read→write pairings: STATUS (read 1 → write 9), SCRATCH (read 2 → write 13), predictions (surface 5 → resolve 10), NEXUS_BRIEF (cross-agent synthesis twin of SCRATCH → write 14, **mandatory every session**). The **EXIT RULES (Falsification)** section below is the standing falsification layer — closeout *references* it (step 11), does not duplicate it.
 
+### BOOT (read phase)
 0. **`git pull`** — sync from GitHub before reading anything (follow the pull protocol in root `CLAUDE.md`); GitHub is the source of truth.
-1. **Check `inbox/`** — process any pending signals (INTEGRATE, LOG, or DISCARD). **For each signal, log a one-line entry to KB.tsv** using the 13-column schema. Move processed signals to `inbox/processed/`.
-2. **Read `STATUS.md`** — situation tiers, scenario framework, transmission paths
-2b. **BOARD signal intake** — scan BOARD for signals new to you:
-   - If `AGENTS/HAWK/board_log.tsv` does not exist, create it with the v0.2 header: `timestamp_read	signal_id	disposition	source	notes`
-   - If `board_log.tsv` still has the legacy v0.1 4-column header (`timestamp_read	signal_id	disposition	notes`), upgrade it once by inserting `source` as column 4 and setting existing rows to `BOARD_SCAN`.
-   - Read `/BOARD/INDEX.md` — note rows naming HAWK in `to` (action) or `info` (awareness) column
-   - Read your own `board_log.tsv` — note which `signal_id` values are already logged with `source=BOARD_SCAN`
-   - For each INDEX row naming HAWK NOT yet logged from `BOARD_SCAN`: read `/BOARD/<signal_id>-<slug>.md`, decide disposition (`acted`/`noted`/`deferred`/`info-only`/`skipped`), append one row with `source=BOARD_SCAN`
-   - Let `acted` signals inform this session's work
-   - Spec: `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` v0.2
-2c. **WALTER signal intake (`inbox/WALTER/` delivery lane)** — process WALTER-delivered handoffs:
-   - List `AGENTS/HAWK/inbox/WALTER/*.md` not yet logged with `source=INBOX_WALTER` in `board_log.tsv`.
-   - For each file: read it, decide disposition (`acted` / `noted` / `deferred` / `info-only` / `skipped`), append a row to `board_log.tsv` with `source=INBOX_WALTER`, then `git mv` the file to `AGENTS/HAWK/inbox/WALTER/processed/`.
-   - Let `acted` items inform this session. Do not use bash `mv`; use `git mv` so the consume move is staged correctly.
-2d. **Scan `workbook/PREDICTIONS.tsv` for due/stale predictions** — flag any whose Timeframe has passed or whose Status can now be resolved; resolve them in write-back step 7a. Separate mechanism-intact from threshold-stuck/breached per `[[finding_threshold_vs_mechanism]]`. Don't leave a prediction OPEN-but-stale. (Full resolution protocol in OUTPUT RULES.)
-3. **Before writing to KB.tsv, read `workbook/SCHEMA.tsv`** — validate all enum fields (Conf, Epistemic, Status) against `allowed_values`. Use `default` values when unsure.
-3b. **Read `AGENTS/VOCABULARIES.tsv`** — use NETWORK_GROUPS for Group field, CANONICAL_ENTITIES for Entity field, SOURCE_TAGS for Source field. If no match exists, use closest term and note the gap.
-4. **Read `LESSONS.md`** if it exists — mistake patterns to avoid
-5. **Use `web_search` for latest developments** — your domain moves fast. Never rely solely on the task prompt for current events. Search before updating.
-6. **Execute the task**
-7. **Write results back to `STATUS.md`** — update scenario probabilities, situation tiers, cross-agent flags
-7a. **Resolve predictions flagged due at boot (step 2c)** in `workbook/PREDICTIONS.tsv` — set Status (CONFIRMED/FAILED/PARTIALLY/EXPIRED), fill Date_Resolved + Outcome, log the resolution to KB.tsv. Never leave OPEN-but-stale.
-8. **Log significant findings to workbook TSV files** — KB.tsv for facts, VX.tsv for vector state changes, FLOW.tsv for transmission pathway updates. STATUS gets rewritten; workbook entries are permanent.
-9. **Research detail → `domain/sources/` (external source material) or `research/` (deep dives)**
-10. **Cross-agent signals → `outbox/`** — see the ⚠️ messaging-overhaul note under MAIL (HERMES is unreliable).
+1. **Read `STATUS.md`** — situation tiers, scenario framework (A/B/C/D), convergence matrix, transmission paths, predictions. *(Mirror of closeout step 9.)*
+2. **Read `SCRATCH.md`** — ephemeral handoff from last session (CHANGES SINCE / WHAT I DID / NEXT SESSION / OPEN THREADS). The canonical "where are we" file. *(Mirror of closeout step 13.)*
+3. **Read `LESSONS.md`** — mistake patterns to avoid.
+4. **Read `AGENTS/VOCABULARIES.tsv` + `workbook/SCHEMA.tsv` before any KB write** — VOCABULARIES: NETWORK_GROUPS (Group), CANONICAL_ENTITIES (Entity), SOURCE_TAGS (Source); use closest term + note the gap if no match. SCHEMA: validate enum fields (Conf, Epistemic, Status) against `allowed_values`, use `default` when unsure.
+5. **Surface due/stale predictions** — scan `workbook/PREDICTIONS.tsv` for any whose Timeframe has passed or whose Status can now be resolved; flag for resolution at closeout step 10. Separate mechanism-intact from threshold-stuck/breached per `[[finding_threshold_vs_mechanism]]`. Don't leave a prediction OPEN-but-stale.
+6. **Signal intake** *(only when pending or when spawned specifically for inbox processing — see MAIL):*
+   - **a. `inbox/`** — cross-agent signals (INTEGRATE / LOG / DISCARD); log a one-line KB.tsv entry per integrated signal; `git mv` to `inbox/processed/`.
+   - **b. BOARD scan** — if `board_log.tsv` missing, create with v0.2 header `timestamp_read\tsignal_id\tdisposition\tsource\tnotes` (upgrade legacy v0.1 4-col once by inserting `source` col 4 = `BOARD_SCAN`). Read `/BOARD/INDEX.md` for rows naming HAWK in `to`/`info`; for each not yet logged `source=BOARD_SCAN`, read the signal, decide disposition (`acted`/`noted`/`deferred`/`info-only`/`skipped`), append a row. Spec: `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` v0.2.
+   - **c. WALTER lane** — list `inbox/WALTER/*.md` not yet logged `source=INBOX_WALTER`; for each, read → decide disposition → append `board_log.tsv` row → **`git mv`** (never bash `mv`) to `inbox/WALTER/processed/`.
+   - Let `acted` items inform this session.
+7. **`web_search` for latest developments** — your domain moves fast; never rely solely on the task prompt for current events. Search before updating.
 
-**MAIL:** Do NOT process inbox on normal spawns unless Step 1 finds pending signals. Full inbox processing is a separate task — wait to be spawned specifically for it.
+### EXECUTE
+8. **Execute the task.**
 
-**⚠️ Messaging system status:** File-based mail is being overhauled (auto-memory `[[project_messaging_overhaul]]`). HERMES delivery is unreliable — outbox writes may sit undelivered (confirmed Jun 8 2026: HERMES had not swept since March). Don't invest in inbox/outbox hygiene infrastructure. For time-sensitive cross-agent signals, prefer **Convention B** (own-outbox routing, scanned by PROME at boot), direct-drop into the target inbox **with Will's explicit authorization** (per `[[feedback_cross_agent_inbox_writes]]`), or surface to Will directly. *HAWK has no `NEXUS_BRIEF.md` yet — creating one is a Tier 2 upgrade item (SAM/BRENT route cross-agent synthesis through it).*
+### CLOSEOUT (write-back — run at EVERY session end)
+9. **`STATUS.md`** — write the dashboard back: scenario probabilities, situation tiers, convergence matrix, cross-agent flags. Threshold breaches + active decisions go to the top. Keep under 250 lines (archive overflow to `domain/sources/` or `research/`). *(Mirror of boot step 1.)*
+10. **Workbook / ledgers + predictions** — log new facts → `workbook/KB.tsv` (13-col schema); vector state changes → `workbook/VX.tsv`; transmission-pathway updates → `workbook/FLOW.tsv` (STATUS gets rewritten; workbook is the permanent record). **Resolve every prediction flagged DUE at boot** in `workbook/PREDICTIONS.tsv`: set Status (CONFIRMED/FAILED/PARTIALLY/EXPIRED), fill Date_Resolved + Outcome, log the resolution to KB.tsv — never leave OPEN-but-stale. Separate mechanism-intact from threshold-stuck (`[[finding_threshold_vs_mechanism]]`).
+11. **Falsification check** — re-read the **EXIT RULES (Falsification)** section below against this session's state: did any Thesis-Kill / Scenario-Downgrade / Cross-Agent-Threshold / Time-Based trigger fire? Apply it. (Reference that section + `workbook/EXIT_PROTOCOL.md` / `workbook/CEASEFIRE_FADE_PROTOCOL.md` — do not duplicate their content here.)
+12. **Forward-state** — update CONVERGENCE MATRIX `Last Updated` cells; refresh the cross-theater energy-strike ledger (`domain/energy-strikes/STRIKES.tsv` + `SUMMARY.md`) if a strike was logged this session. Research detail → `domain/sources/` (source material) or `research/` (deep dives).
+13. **Rewrite `SCRATCH.md`** using `templates/SCRATCH.template.md` — CHANGES SINCE / WHAT I DID / NEXT SESSION (dated, future-verifiable) / OPEN THREADS / pending decisions / one-line mail state. This is the **canonical session handoff** (it replaces the retired `LAST_COMPLETION.md`; `MEMORY.md` holds persistent learnings, NOT the per-session handoff). *(Mirror of boot step 2.)*
+14. **`NEXUS_BRIEF.md`** — write-back the cross-agent synthesis brief (the external twin of SCRATCH; schema `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md`). **Mandatory every session, even no-change** — minimum is refreshing the `As of:` stamp + `STATUS commit:` hash so staleness self-corrects. Material STATUS change → brief content updates same session. NEXUS reads this at its boot in place of raw STATUS.
+15. **Promotion scan + Git** — thesis-level finding → `thesis/`; transferable cross-agent lesson → auto-memory; HAWK-specific durable learning → local `MEMORY.md` (remove from MEMORY.md after promoting to auto-memory). Cross-agent signals → `outbox/` (see Outbox Protocol). **Git: pathspec commits, never `git reset HEAD`; commit locally, defer push** unless Will opens a push window — see the **Git** subsection below.
+
+**MAIL:** Do NOT process inbox on normal spawns unless boot step 6 finds pending signals. Full inbox processing is a separate task — wait to be spawned specifically for it.
+
+**⚠️ Messaging system status:** File-based mail is being overhauled (auto-memory `[[project_messaging_overhaul]]`). HERMES delivery is unreliable — outbox writes may sit undelivered (confirmed Jun 8 2026: HERMES had not swept since March). Don't invest in inbox/outbox hygiene infrastructure. For time-sensitive cross-agent signals, prefer **Convention B** (own-outbox routing, scanned by PROME at boot), direct-drop into the target inbox **with Will's explicit authorization** (per `[[feedback_cross_agent_inbox_writes]]`), or surface to Will directly. **Steady-state cross-agent synthesis flows through `NEXUS_BRIEF.md` (refreshed at closeout step 14)** — that is the primary cross-agent surface; outbox is reserved for 🔴 acute signals.
 
 All mail lives under `AGENTS/HAWK/`:
 - **Inbox:** `inbox/` — inbound signals from other agents (historically delivered by HERMES)
@@ -261,7 +260,10 @@ Every STATUS.md update must end with a `## BOTTOM LINE` section: 2-4 sentences. 
 
 | File | Purpose |
 |------|---------|
-| `STATUS.md` | Live state — dashboard, active situations, predictions. **Primary memory. Gets rewritten.** |
+| `STATUS.md` | Live state — dashboard, active situations, predictions. **Primary memory. Gets rewritten.** (boot 1 / closeout 9) |
+| `SCRATCH.md` | **Canonical session handoff** — ephemeral "where are we / what next." Read at boot (2), rewritten in full at closeout (13). Disposable; replaces the retired `LAST_COMPLETION.md`. Template: `templates/SCRATCH.template.md`. |
+| `MEMORY.md` | **Durable cross-session learnings ONLY** (feedback / findings / references) — NOT the per-session handoff (that's SCRATCH). Cap ~100 lines; promote to thesis or auto-memory, never just accumulate. |
+| `NEXUS_BRIEF.md` | Cross-agent synthesis brief — the external twin of SCRATCH; NEXUS reads it at its boot. **Refreshed every session at closeout (14)** (min: As-of stamp + STATUS commit hash). Schema: `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md`. |
 | `workbook/KB.tsv` | Knowledge base — 13-column factual claims with reliability, epistemic type, staleness, provenance, and thesis links. **Permanent record.** |
 | `workbook/SCHEMA.tsv` | Data dictionary — defines every KB column: name, type, allowed values, defaults. Read before writing to KB.tsv. |
 | `workbook/VX.tsv` | Vectors — tracked geopolitical risk indicators with escalation thresholds (Green/Yellow/Orange/Red) |

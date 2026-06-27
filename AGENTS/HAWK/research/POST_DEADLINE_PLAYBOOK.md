@@ -173,7 +173,7 @@ Any ONE of these → move to CONTAINMENT playbook (thesis partial kill):
 
 ## 7. HANDOFF PROTOCOL — If HAWK session ends before Fri close
 
-Write to `AGENTS/HAWK/LAST_COMPLETION.md` before session end:
+Write the handoff to `AGENTS/HAWK/SCRATCH.md` at closeout (LAST_COMPLETION.md was retired 2026-06-26; SCRATCH is the canonical session handoff — see CLAUDE.md SPAWN PROTOCOL step 13). Use this state block:
 
 ```
 ## HAWK Handoff — [Date] [Time ET]
