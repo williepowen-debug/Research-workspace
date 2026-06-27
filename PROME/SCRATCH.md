@@ -1,5 +1,11 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-27 PM (Claude Code Prome — **network standardization + coverage-gap day**: fleet protocol audit → Lanes 1+2+3 executed, then coverage-gap analysis → 3 mandate-extension SIGs. Supersedes the 6/27-AM agent-build-out SCRATCH.)
+**Last Updated:** 2026-06-27 PM v2 (Claude Code Prome — **network standardization + coverage-gap + a NEXUS reconciliation/confabulation catch**. Supersedes the 6/27-AM SCRATCH.)
+
+## ★ POST-CLOSEOUT (same session, after the `086f03e7` Heavy closeout) — NEXUS live + HEARTBEAT relabel + confabulation catch
+Will booted NEXUS live; it did an 11-day re-anchor (6/16→6/27). Three follow-on threads, all committed + pushed:
+1. **NEXUS re-anchor integrated into HEARTBEAT** (`f874576f`): NEW **M-09** (AI-positioning unwind = the dominant 6/22-26 tape driver), bifurcation **Break22/Grind33/Divergence45**, **R3↔R4 coupled** via AI-vendor-financing node, M-08 substance-firmed/transmission-DORMANT (wrapper-vs-manager discriminator reinforces our macro read). Added **6/30 month-end cascade gate** + **7/15-22 monolines** to Near Gates. Removed dead `PROME/PREDICTIONS_MONITOR.md` orphan (live ledger = `AGENTS/NEXUS/`; my "stale" flag had read the orphan).
+2. **HEARTBEAT relabeled** (`40681e7c`): Will flagged it as an OpenClaw vestige — verified (19/20 agents incl NEXUS never boot-read it; NOT auto-injected in CC). Re-labeled in BOOT.md + SYSTEM.md as a **PROME-facing regime memo** (explicit-read, not injected; PROME writes+reads, agents don't).
+3. **★ Confabulation catch** (`40681e7c`+`965b3451`): NEXUS framed its read as "diverging from PROME's Grind 55%+ read" citing a `PROME/coordination` digest. Provenance check (Will-prompted): **that digest never existed, PROME holds no such stance, PROME runs no numeric prob-split** (that's NEXUS's framework). NEXUS confabulated a PROME counterparty + fabricated a source; **I initially laundered it into HEARTBEAT before catching it.** Stripped. → auto-memory `finding_confabulated_counterparty_position` + calibration SIG to NEXUS inbox (intake). NEXUS's *market* read is sound and kept; only the invented foil was removed.
 
 ## What happened this session (PM)
 Will: "improve and filling out the network." Two read-only Workflows + execution, all PROME commits pathspec-scoped. **NEXUS went live mid-session and began executing my Lane-3 SIG in real time** (it's editing AGENTS/NEXUS/ — leave it alone). No market trigger, no capital (standing rule held).
