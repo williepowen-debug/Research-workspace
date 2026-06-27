@@ -1,3 +1,19 @@
+# HAWK Predictions — Calibration Record
+# As of 2026-06-26: 4 CONFIRMED / 4 FAILED / 1 PARTIALLY / 1 VOIDED / 5 OPEN. Relocated workbook/ -> thesis/ 2026-06-26 (SAM thesis-bundle model: predictions now bundle with THESIS.md + CHANGELOG.md + TIMELINE.md). HAW-11 FAILED 6/22 (decoupling kill-switch unfired = thesis reinforced). 5 OPEN: HAW-10 (Bab-al-Mandab, Jul 1), HAW-12 (Switzerland round, Jul 3), HAW-13 (harder Hormuz gate, Jul 4 — toward_fail), HAW-14 (Iran no-direct-kinetic-over-Lebanon, Jul 19 — toward_confirm), HAW-15 (Ukraine no crude-export strike, Jul 15).
+#
+# HIGH-CONFIDENCE FAILURES (calibration warning — read before writing the next prediction):
+#   HAW-03 @ 95% — "No Venezuela intervention 2026" → intervention ALREADY occurred (Op Absolute Resolve Jan 3); STATUS carried "rhetoric only" ~5.5mo stale = dormant-secondary-vector never re-swept while Iran absorbed bandwidth (see LESSONS).
+#   HAW-06 @ 70% — "Ceasefire lapses Apr 21 w/o extension" → CALIBRATION ANCHOR: this conflict produces armed pauses via ally-request DEFERRALS, not clean breaks (Trump extended Apr 21 at Munir/Sharif request). Don't over-predict clean state-changes on deadline-shaped events.
+#   HAW-04 @ 55% — "Scenario B base case through Q2" → B broke by Apr 1, D base by Apr 20 (Phase-3 infra campaign + Hormuz reclosure).
+#
+# CALIBRATION DISCIPLINE NOTES:
+#   HAW-07 VOIDED — conditional whose premise (HAW-06 Apr-21 lapse) failed. VOIDED is the correct disposition for premise-failed conditionals; CONFIRMED would over-credit incidental directional accuracy (Brent did hit $109 for UNRELATED reasons). No right-for-wrong-reasons credit. Unconditional predictions have NO void path (only CONFIRMED/FAILED/PARTIALLY).
+#   HAW-08/HAW-09 CONFIRMED on pre-registered, action-based rubrics set BEFORE evidence search (HAW-08 drones-at-US-ships = direct kinetic; HAW-09 "agreed MOU text" = partial-MOU-confirm). Pre-registration discipline + 2nd-independent-path neutralized a contamination caveat on HAW-09.
+#
+# FAILURE PATTERN: failures cluster on (1) stale dormant-secondary-vectors not re-swept (HAW-03 Venezuela ~5.5mo stale), (2) clean-state-change over-prediction on deadline events when the base rate is deferred armed pauses (HAW-06 anchor), (3) scenario-base-case calls outrun by faster infra-campaign escalation (HAW-04).
+#
+# DATA NOTE (for the separate cruft-sweep, NOT re-grading): HAW-10 row has 9 tab-cols, HAW-11 row has 11 (pre-existing stray-tab glitches; rows preserved verbatim in this move).
+# Closed-prediction full post-mortems live in thesis/PREDICTIONS_ARCHIVE.md (reference-only, NOT loaded at boot); each closed row keyed by #hawk-NN anchor. Live rows below preserved verbatim from the workbook/ original.
 Pred_ID	Date_Made	Prediction	Confidence	Timeframe	Status	Date_Resolved	Outcome	Invalidation	Notes
 HAW-01	2026-02-18	US strikes Iranian nuclear facilities before end Q1 2026	25%	Q1 2026	CONFIRMED	2026-02-28	Operation Epic Fury launched		Originally HAWK-01
 HAW-02	2026-02-18	Iran retaliates by disrupting Hormuz within 72h of US strike	60%	Conditional	CONFIRMED	2026-03-03	Hormuz closed, fire-upon warning		Originally HAWK-02

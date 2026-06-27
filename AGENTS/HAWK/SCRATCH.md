@@ -15,7 +15,7 @@
 ## WHAT I DID THIS SESSION
 - Processed 9-signal WALTER backlog (6/21–26) via PROME catch-up packet — all confirm C-Grind/decoupling, NONE re-mark. Marks HELD B34/C44/D22 (re-stamped 6/20→6/26).
 - Ingested 4 flagged signals into STATUS B-ladder + KB-201..205: 71-transit anchor (6622-011), OFAC license = new Regulatory sub-gate (6622-010), near-record-short positioning asymmetry (6621-010), SPR 40-yr-low (6622-005). Stamped 5 confirms-in-place.
-- Resolved **HAW-11 FAILED** (no Gulf infra hit by 6/22 = kill-switch unfired = decoupling reinforced) in STATUS + PREDICTIONS.tsv. HAW-14 nudged back toward_confirm.
+- Resolved **HAW-11 FAILED** (no Gulf infra hit by 6/22 = kill-switch unfired = decoupling reinforced) in STATUS + `thesis/PREDICTIONS.tsv`. HAW-14 nudged back toward_confirm.
 - Convergence eased 23→22/50 (Hormuz vector 4→3). Archived stale pre-MOU sections (Executive Read Jun-18 + delta) → `domain/sources/STATUS_archive_20260626.md`; STATUS now 130 lines.
 - **Session-spine architecture port** (this session): symmetric BOOT/CLOSEOUT in CLAUDE.md; created SCRATCH + template; demoted MEMORY to durable-only; refreshed NEXUS_BRIEF; retired LAST_COMPLETION (×3 → archive/).
 

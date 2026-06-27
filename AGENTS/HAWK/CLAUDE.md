@@ -31,7 +31,7 @@ Geopolitical risk is binary in ways domestic stress isn't. Wars start on specifi
 2. **Read `SCRATCH.md`** — ephemeral handoff from last session (CHANGES SINCE / WHAT I DID / NEXT SESSION / OPEN THREADS). The canonical "where are we" file. *(Mirror of closeout step 13.)*
 3. **Read `LESSONS.md`** — mistake patterns to avoid.
 4. **Read `AGENTS/VOCABULARIES.tsv` + `workbook/SCHEMA.tsv` before any KB write** — VOCABULARIES: NETWORK_GROUPS (Group), CANONICAL_ENTITIES (Entity), SOURCE_TAGS (Source); use closest term + note the gap if no match. SCHEMA: validate enum fields (Conf, Epistemic, Status) against `allowed_values`, use `default` when unsure.
-5. **Surface due/stale predictions** — scan `workbook/PREDICTIONS.tsv` for any whose Timeframe has passed or whose Status can now be resolved; flag for resolution at closeout step 10. Separate mechanism-intact from threshold-stuck/breached per `[[finding_threshold_vs_mechanism]]`. Don't leave a prediction OPEN-but-stale.
+5. **Surface due/stale predictions** — scan `thesis/PREDICTIONS.tsv` for any whose Timeframe has passed or whose Status can now be resolved; flag for resolution at closeout step 10. **Read the calibration scoreboard preamble** (`#`-comment block at top: as-of summary, high-confidence failures, failure-pattern synthesis) — load-bearing calibration warning before writing any new prediction. Separate mechanism-intact from threshold-stuck/breached per `[[finding_threshold_vs_mechanism]]`. Don't leave a prediction OPEN-but-stale. (Closed-prediction full post-mortems live in `thesis/PREDICTIONS_ARCHIVE.md` — reference-only, NOT loaded at boot; keyed by `#hawk-NN` anchor.)
 6. **Signal intake** *(only when pending or when spawned specifically for inbox processing — see MAIL):*
    - **a. `inbox/`** — cross-agent signals (INTEGRATE / LOG / DISCARD); log a one-line KB.tsv entry per integrated signal; `git mv` to `inbox/processed/`.
    - **b. BOARD scan** — if `board_log.tsv` missing, create with v0.2 header `timestamp_read\tsignal_id\tdisposition\tsource\tnotes` (upgrade legacy v0.1 4-col once by inserting `source` col 4 = `BOARD_SCAN`). Read `/BOARD/INDEX.md` for rows naming HAWK in `to`/`info`; for each not yet logged `source=BOARD_SCAN`, read the signal, decide disposition (`acted`/`noted`/`deferred`/`info-only`/`skipped`), append a row. Spec: `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` v0.2.
@@ -44,7 +44,7 @@ Geopolitical risk is binary in ways domestic stress isn't. Wars start on specifi
 
 ### CLOSEOUT (write-back — run at EVERY session end)
 9. **`STATUS.md`** — write the dashboard back: scenario probabilities, situation tiers, convergence matrix, cross-agent flags. Threshold breaches + active decisions go to the top. Keep under 250 lines (archive overflow to `domain/sources/` or `research/`). *(Mirror of boot step 1.)*
-10. **Workbook / ledgers + predictions** — log new facts → `workbook/KB.tsv` (13-col schema); vector state changes → `workbook/VX.tsv`; transmission-pathway updates → `workbook/FLOW.tsv` (STATUS gets rewritten; workbook is the permanent record). **Resolve every prediction flagged DUE at boot** in `workbook/PREDICTIONS.tsv`: set Status (CONFIRMED/FAILED/PARTIALLY/EXPIRED), fill Date_Resolved + Outcome, log the resolution to KB.tsv — never leave OPEN-but-stale. Separate mechanism-intact from threshold-stuck (`[[finding_threshold_vs_mechanism]]`).
+10. **Workbook / ledgers + predictions** — log new facts → `workbook/KB.tsv` (13-col schema); vector state changes → `workbook/VX.tsv`; transmission-pathway updates → `workbook/FLOW.tsv` (STATUS gets rewritten; workbook is the permanent record). **Resolve every prediction flagged DUE at boot** in `thesis/PREDICTIONS.tsv`: set Status (CONFIRMED/FAILED/PARTIALLY/EXPIRED), fill Date_Resolved + Outcome, log the resolution to KB.tsv — never leave OPEN-but-stale. For a closed row, move its blow-by-blow post-mortem to `thesis/PREDICTIONS_ARCHIVE.md#hawk-NN` and keep a one-line lesson inline. Separate mechanism-intact from threshold-stuck (`[[finding_threshold_vs_mechanism]]`).
 11. **Falsification check** — re-read the **EXIT RULES (Falsification)** section below against this session's state: did any Thesis-Kill / Scenario-Downgrade / Cross-Agent-Threshold / Time-Based trigger fire? Apply it. (Reference that section + `workbook/EXIT_PROTOCOL.md` / `workbook/CEASEFIRE_FADE_PROTOCOL.md` — do not duplicate their content here.)
 12. **Forward-state** — update CONVERGENCE MATRIX `Last Updated` cells; refresh the cross-theater energy-strike ledger (`domain/energy-strikes/STRIKES.tsv` + `SUMMARY.md`) if a strike was logged this session. Research detail → `domain/sources/` (source material) or `research/` (deep dives).
 13. **Rewrite `SCRATCH.md`** using `templates/SCRATCH.template.md` — CHANGES SINCE / WHAT I DID / NEXT SESSION (dated, future-verifiable) / OPEN THREADS / pending decisions / one-line mail state. This is the **canonical session handoff** (it replaces the retired `LAST_COMPLETION.md`; `MEMORY.md` holds persistent learnings, NOT the per-session handoff). *(Mirror of boot step 2.)*
@@ -103,7 +103,7 @@ Follow the **Git Protocol** in root `CLAUDE.md`, with these HAWK overrides per a
 - Use tier system: 🟢 GREEN / 🟡 YELLOW / 🟠 ORANGE / 🔴 RED for each situation.
 - **Source tags on all data points.** Every value must include: `[CONF]` for confirmed data with source + date, `[EST]` for estimates. Example: `**Brent $90** | [CONF] ICE Mar 6` or `**~$95** | [EST] model-implied`. No naked numbers.
 - **Prediction ID format:** All predictions use `HAW-xx` (e.g., `HAW-01`, `HAW-04`). No bare numbers. Prevents ID collisions when cross-referencing across agents.
-- **PREDICTIONS.tsv resolution protocol:** At session boot, scan for entries whose Timeframe has passed or whose Status can be resolved. Update Status to CONFIRMED, FAILED, PARTIALLY, or EXPIRED. Fill Date_Resolved and Outcome. Log resolution to KB.tsv. Post significant resolutions to `outbox/`.
+- **`thesis/PREDICTIONS.tsv` resolution protocol:** At session boot, scan for entries whose Timeframe has passed or whose Status can be resolved. Update Status to CONFIRMED, FAILED, PARTIALLY, or EXPIRED. Fill Date_Resolved and Outcome. Log resolution to KB.tsv. Closed-row blow-by-blow → `thesis/PREDICTIONS_ARCHIVE.md#hawk-NN` (one-line lesson stays inline). Post significant resolutions to `outbox/`.
 - **Don't maintain stale copies.** If another agent owns a data point (HENRY owns VIX, LIQUID owns HY OAS), reference their value with `[CONF HENRY Mar 6]` rather than keeping your own copy that drifts. One source of truth per metric.
 
 ---
@@ -117,7 +117,7 @@ Your workbook is the permanent structured record. STATUS.md gets rewritten; work
 | `KB.tsv` | Any new data point with a source — military event, diplomatic development, intelligence report, price move, policy action. Timestamped factual claims with metadata. | "Is this a new piece of evidence?" |
 | `VX.tsv` | When a tracked vector changes state (YELLOW→ORANGE, ORANGE→RED, new vector identified, or threshold crossed) | "Did a risk indicator move?" |
 | `FLOW.tsv` | When a transmission channel is confirmed, changes speed, or a new pathway is identified | "Did we learn something about HOW geopolitical stress reaches markets?" |
-| `PREDICTIONS.tsv` | Falsifiable predictions with confidence, timeframe, and resolution tracking | "What do I think happens next in my domain?" |
+| `thesis/PREDICTIONS.tsv` *(NOT in workbook/ — bundled with thesis since 2026-06-26, SAM model)* | Falsifiable predictions with confidence, timeframe, and resolution tracking; closed-row post-mortems → `thesis/PREDICTIONS_ARCHIVE.md` | "What do I think happens next in my domain?" |
 
 **When NOT to log:** Routine status updates, unchanged metrics, restatements of known facts. Those go in STATUS.md only.
 
@@ -268,7 +268,8 @@ Every STATUS.md update must end with a `## BOTTOM LINE` section: 2-4 sentences. 
 | `workbook/SCHEMA.tsv` | Data dictionary — defines every KB column: name, type, allowed values, defaults. Read before writing to KB.tsv. |
 | `workbook/VX.tsv` | Vectors — tracked geopolitical risk indicators with escalation thresholds (Green/Yellow/Orange/Red) |
 | `workbook/FLOW.tsv` | Transmission pathways — how geopolitical stress reaches markets (Speed/Status/Trigger/Pathway) |
-| `workbook/PREDICTIONS.tsv` | Falsifiable forecasts with confidence, timeframe, invalidation, and resolution tracking |
+| `thesis/PREDICTIONS.tsv` | Falsifiable forecasts with confidence, timeframe, invalidation, and resolution tracking. **Bundled with thesis** (THESIS.md + CHANGELOG.md + TIMELINE.md), SAM model since 2026-06-26 (was `workbook/`). Scan at boot (step 5); read the scoreboard preamble. |
+| `thesis/PREDICTIONS_ARCHIVE.md` | Verbatim post-mortems for closed (CONFIRMED/FAILED/PARTIALLY/VOIDED) predictions. Reference-only — NOT loaded at boot. Anchors `#hawk-NN` referenced from PREDICTIONS.tsv. |
 | `domain/sources/` | Research archives, STATUS backups |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
 | `outbox/` | Outbound signals for other agents. One file per signal. HERMES delivers. |

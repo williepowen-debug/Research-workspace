@@ -188,7 +188,7 @@ Write the handoff to `AGENTS/HAWK/SCRATCH.md` at closeout (LAST_COMPLETION.md wa
 ### Cross-agent signals sent
 - [Agent]: [filename in outbox/]
 ### Next session must do
-1. Resolve PREDICTIONS.tsv entries whose Timeframe has passed
+1. Resolve `thesis/PREDICTIONS.tsv` entries whose Timeframe has passed
 2. Check inbox/ for replies from [agents]
 3. Read §[N] of POST_DEADLINE_PLAYBOOK.md for current hour context
 4. Verify Brent/VIX/HY OAS against live sources, not STATUS
