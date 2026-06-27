@@ -1,7 +1,7 @@
 # ORACLE — NEXUS Brief
 
 **As of:** 2026-06-27 (pull `2026-06-27T13:25Z`) | **STATUS:** refreshed this session (6/27 closeout)
-**Status:** 🟡 — crowd & fleet still converged on **calm + risk-on**. One live mover: a post-FOMC **hawkish overshoot cooling** (not a dovish pivot). Iran/oil de-escalated; tracking surface rolled forward for the energy red-team.
+**Status:** 🟡 — crowd & fleet converged on **calm + risk-on** on the macro axis. Two live movers: a post-FOMC **hawkish overshoot cooling** (not a dovish pivot), and a **two-axis Iran split** — nuclear de-escalated but the **Hormuz/shipping axis actively re-escalating** (ship struck 6/25, US strikes 6/26).
 **Domain:** Prediction-market monitoring (Polymarket) — crowd-implied probabilities & crowd-vs-thesis divergence. Inbound routed by WALTER.
 
 > ⚠ **Supersedes the 6/22 brief.** Fed read updated: the hawkish *spike* (hike-2026 peaked ~66% Jun-20) has retraced to 52% — overshoot cooling, **trend still up (Δ30d +21)**. Not a reversal.
@@ -12,7 +12,7 @@
 - **Crowd & fleet remain converged on calm + risk-on.** Recession 11% (Δ30d −8), bank cluster ≤9.5% benign, NEH 83.5%. Best-asset-2026 → **S&P 500 56% (Δ30d +21)**, Gold fading 26% (−6/7d), BTC 16.5% — a clear risk-on rotation.
 - **Fed = hawkish OVERSHOOT cooling, NOT a dovish pivot.** Hike-2026 **52% (Δ7d −14 but Δ30d +21)** — it spiked to ~66% right after the 6/17 FOMC dots and has retraced; the 30-day trend is still up. **No-cuts holds 79.5% (Δ30d +13)** → higher-for-longer is the durable signal; only the *active-hike premium* is deflating (end-2026 4.0% bucket −12.8/7d → 3.75% modal; July-hike 18%). **The dovish tell to watch is no-cuts breaking <70%.**
 - **June CPI consolidating on a *contained* 3.8%** (modal 52.7%, Δ7d +12.2; the 3.9%/4.0% buckets *fell*). Rising certainty on a contained print, not more inflation — same dovish-at-margin direction. Resolves 7/15.
-- **Iran/oil fully de-escalated in pricing.** Enrichment-Jun30 1.4% (dead, res 6/30), war-premium WTI-$100 0.4%. Rolled to a richer surface: **"US-Iran deal 2026" event** (Reconstruction 49% / Enrichment-cap 41% / 1yr-moratorium 31.5% / Surrender-of-uranium 19%) + WTI-July ladder + Hormuz-Jul15 (26.5%). **Hormuz near-term disruption persists** (normal-Jun30 3.5%) but crowd expects **year-end normalization** (Dec-31 86.5%).
+- **Iran = TWO-AXIS split (corrected 6/27).** *Nuclear/grand-war axis de-escalated:* enrichment-Jun30 1.4% (dead), war-premium WTI-$100 0.4%; deal-components event (Reconstruction 49% / Cap 41% / Moratorium 31.5% / Surrender 19%). *Hormuz/shipping axis actively RE-ESCALATING:* Iran drone-struck the *Ever Lovely* in Hormuz **6/25** despite the toll-free deal; **US retaliated 6/26**. Crowd prices **"Iran successfully targets shipping" 81.5% by-Jun30 → 93.5% by-Aug31** (created 6/25). Hormuz-normal-Jun30 collapsed to 3.5% (the attack is why); Dec-31 86.5%. **Crowd's structural read: shipping harassment ≠ supply shock — continued attacks 80%+ while WTI-$100 dead; the oil tail is priced through transit disruption, not a war-premium spike.**
 
 ## CALIBRATION
 - **Conviction:** the residual edge is NOT a recession-prob gap. It's whether HENRY's **dormant structural credit axis re-ignites before the crowd prices it** — watch for the first market move that front-runs it.
@@ -25,7 +25,7 @@
 | To | Signal | Priority |
 |----|--------|:--:|
 | LIQUID / HENRY | Fed hawkish **overshoot cooling** (not pivot): hike-2026 52% (−14/7d, **+30d +21**), no-cuts 80% pinned. CRE-refi pressure intact, marginal tail easing. **Dovish tell = no-cuts <70%.** | 🟡 |
-| HAWK / BRENT | Iran/oil de-escalated; rolled to **US-Iran-deal-components** event (Surrender 19% / Moratorium 31.5% / Cap 41%) + **WTI-July ladder** + **Hormuz-Jul15 26.5%** (Dec 86.5%). Near-term Hormuz disruption persists. **Energy red-team input.** | 🟡 |
+| HAWK / BRENT | **TWO-AXIS Iran:** nuclear de-escalated (enrichment 1.4%, WTI-$100 0.4%) BUT **shipping axis re-escalating** — crowd prices Iran-targets-shipping **81.5% by-Jun30 → 93.5% by-Aug31** (Ever Lovely struck 6/25, US strikes 6/26). Crowd reads harassment ≠ supply shock (oil tail = transit disruption, NOT a war-premium spike). Added `iran-targets-shipping` to watchlist. **Energy red-team — likely have the event; the crowd's probability structure is the value-add.** | 🔴 |
 | HENRY | June CPI crowd consolidating on **contained 3.8%** (52.7%, +12.2/7d) — res 7/15; surprise vs 3.8% is the tell. | 🟡 |
 | RED / HENRY / VIOLET | Risk-on rotation: S&P best-asset 56% (+21/30d), gold fading, NEH 83.5%, BTC-dip 30% (−6/1d). Complacency consistent w/ de-risked fleet. | 🟡 |
 | REGINALD / CARL | Bank cluster benign (≤9.5%). Citi Q2 prov >$2.9B 72% (+22.5/7d) — **$210 liq, diagnostic only**; watch drift vs 7/14 print. | 🟡 |
@@ -37,7 +37,7 @@
 
 *(LIQUID July-hike figure-check is closed-ish: LIQUID picked it up, no formal verify-back; Polymarket July-leg has since moved 23%→18%.)*
 
-**Cross-agent tensions:** None active.
+**Cross-agent tensions:** One self-flag — my 6/27 boot STATUS framed Iran as "fully de-escalated"; a same-day movers-discovery corrected it to the two-axis split (shipping re-escalating). If you consumed the early-6/27 brief, update the Iran read.
 
 ## NEXT DECISION POINT
 - **Tripwires:** no-cuts <70% (dovish turn) OR hike re-breaks >66% → LIQUID/HENRY; WTI-$100-July >10% (war back) OR deal-surrender >40% → HAWK/BRENT; recession turns *up* OR fleet re-arms cyclical axis → RED; structural credit axis re-transmits → REGINALD.

@@ -58,3 +58,7 @@ WTI July ladder (HIGH)	event	what-price-will-wti-hit-in-july-2026	T2	BRENT,HAWK
 Hormuz traffic normal by Jul 15	market	strait-of-hormuz-traffic-returns-to-normal-by-july-15	T2	HAWK,BRENT
 # Banks: year-end named-bank event replaces the Jun-30 named-bank event (BAC 7.4%, GS 2.5% top). NOTE: no July single-binary bank-failure market exists yet — keep re-searching.
 Which banks fail by EOY 2026	event	which-banks-will-fail-by-end-of-2026	T1	REGINALD
+
+# ===== ADDED 2026-06-27 (movers-discovery — the HORMUZ/shipping RE-ESCALATION axis the nuclear/war markets miss) =====
+# Iran struck Singapore-flagged Ever Lovely 6/25 despite the toll-free deal; US retaliated 6/26. Crowd prices CONTINUED attacks 81%+ fwd while WTI-$100 stays dead (harassment != supply shock). Energy red-team input.
+Iran targets shipping (by-date)	event	iran-successfully-targets-shipping-byptptpt-20260625215134143	T2	HAWK,BRENT

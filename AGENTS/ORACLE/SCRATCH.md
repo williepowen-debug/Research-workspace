@@ -7,7 +7,7 @@
 - **Fed hike-2026 51.5% (Δ7d −14)** — BUT `history` shows Δ30d **+21**: it spiked to a ~66% peak ~6/20 (post-FOMC dots) and retraced. My 6/22 reading (61.5%) was near that peak → the −14 is a *pullback within an uptrend*, not a reversal. No-cuts holds 79.5% (Δ30d +13). End-2026 4.0% bucket −12.8/7d → 3.75% modal. July-hike 18.1% (−6.6).
 - **June CPI modal "3.8%" 52.7% (Δ7d +12.2)** while 3.9%/4.0% buckets *fell* — crowd consolidating on a *contained* print (not more inflation). Resolves 7/15.
 - **Risk-on rotation:** best-asset → S&P 500 56% (Δ30d +21), Gold fading 26% (−6/7d), BTC 16.5%. NEH 83.5%. BTC-dip-$40K 30% (−6/1d).
-- **Iran/oil fully de-escalated in pricing:** enrichment-Jun30 1.4% (dead), WTI-$100 0.4%. Hormuz near-term disruption persists (normal-Jun30 3.5%, −7.3/1d) but year-end normalization expected (Dec 86.5%).
+- **Iran = TWO-AXIS (corrected intra-session 6/27):** nuclear/war de-escalated (enrichment-Jun30 1.4%, WTI-$100 0.4%) BUT **Hormuz/shipping axis RE-ESCALATING** — Iran struck the *Ever Lovely* 6/25, US retaliated 6/26; crowd prices "Iran targets shipping" 81.5% by-Jun30 → 93.5% by-Aug31. Hormuz-normal-Jun30 collapsed to 3.5% (this attack is why). Crowd: harassment ≠ supply shock (WTI-$100 stays dead).
 
 ## WHAT I DID (this closeout)
 1. Live `pull --log` (33 mkts → ODDS_LOG) + `history --write` (HISTORY.tsv now 4,796 rows / 33 mkts).
@@ -18,7 +18,8 @@
 6. **STATUS + NEXUS_BRIEF** full rewrites (current state, alerts to top).
 7. **Outbox cleanup:** archived 3 stranded 6/18 files → `outbox/delivered/` (2 retracted/wrong: Iran-deescalation, recession-divergence; 1 satisfied: wire-into-fleet — ORACLE now in WALTER REGISTRY + PROME STATUS).
 8. **CLAUDE.md step 14** swapped "defer push" → "auto-push at closeout via safe-push.sh" (lazy-swept to the 6/26 single-machine policy).
-9. Auto-memory: `finding_delta_vs_own_prior_reading_local_extreme` (trajectory-context before calling a reversal).
+9. Auto-memory: `finding_delta_vs_own_prior_local_extreme` (trajectory-context before calling a reversal).
+10. **Movers-discovery (Will-asked, post-closeout):** scanned Polymarket beyond watchlist (scratchpad `movers*.py` — order-by-volume + order-by-price-change, domain-filtered). Findings: (a) macro board dead-flat (no fed/recession/bank/inflation movers — confirms calm); (b) **Iran-targets-shipping** event 81%+ fwd (Ever Lovely struck 6/25, US strikes 6/26) → added to watchlist + corrected STATUS/NEXUS/KB-018 to two-axis; VX-ORC-04 re-armed 🟠; (c) Venezuela "US forces again" 99% (+94/7d) = **earthquake disaster relief**, NOT oil escalation (news-checked) — not added. Most other big movers = mechanical month-end crypto/silver/WTI settlement resolutions.
 
 ## NEXT SESSION (priority order)
 1. **🟡 RED** — still owed a *current* GDP/NBER-comparable fleet recession number (carried since 6/13). Divergence math depends on it.

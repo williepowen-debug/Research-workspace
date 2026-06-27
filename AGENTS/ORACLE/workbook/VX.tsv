@@ -2,7 +2,7 @@ ID	Market	Current	State	Watch	Alert	Critical	Next_Trigger	Updated
 VX-ORC-01	Bank failure (monthly)	6.1%	🟢	>15%	>25%	>40%	>25% OR vol>$50K → REGINALD	2026-06-27
 VX-ORC-02	Recession 2026 (divergence vs thesis)	11.0%	⚪	gap>20pp	gap>40pp	gap>60pp	divergence RETRACTED 6/22 — crowd & fleet converged; re-arm only if market turns up OR fleet re-arms cyclical axis	2026-06-27
 VX-ORC-03	Fed no-cuts 2026	79.5%	🟠	>60%	>80%	>90%	>90% (more hawkish) OR <70% (dovish turn) → LIQUID	2026-06-27
-VX-ORC-04	Iran enrichment / de-escalation	1.4%	⚪	Δ>10pp/wk	Δ>20pp/wk	—	enrichment-Jun30 dead (res 6/30); rolled to US-Iran-deal-components event + Hormuz-Jul15. Re-arm on deal-surrender >40% OR Hormuz re-disruption → HAWK,BRENT	2026-06-27
+VX-ORC-04	Iran shipping re-escalation	81.5%	🟠	Δ>10pp/wk	Δ>20pp/wk	WTI-$100 supply shock	SHIPPING AXIS FIRED — targets-shipping 81.5% by-Jun30 -> 93.5% by-Aug31 (Ever Lovely 6/25, US strikes 6/26); nuclear axis dead (enrich 1.4%). Critical re-arm on WTI-$100 >10% OR strait full-closure → HAWK,BRENT	2026-06-27
 VX-ORC-05	Nothing Ever Happens 2026	83.5%	🟠	>70% or <30%	—	—	complacency extreme; <30% (tails pricing in) → VIOLET	2026-06-27
 VX-ORC-06	AI bubble burst 2026	18.6%	🟡	>30%	>40%	—	>40% → BROCK	2026-06-27
 VX-ORC-07	Any tracked market 48h move	—	—	>5pp	>10pp	>20pp	none fired this pull (Fed hike −14 was 7d, not 48h)	2026-06-27
