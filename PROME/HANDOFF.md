@@ -6,6 +6,18 @@
 
 ---
 
+## 2026-06-27 (Sat) — Agent build-out: auto-push migration COMPLETE + roster refresh + pre-closeout staleness audit (pushed via train)
+
+**Status:** Will-directed Saturday agent-infrastructure day. ORACLE/TERRY/WALTER live in separate windows throughout — file-based coordination, pathspec commits, zero index race. Full narrative → SCRATCH + `memory/2026-06-27.md`.
+
+**What landed:** (1) **★ Auto-push migration COMPLETE** — swept 8 agent CLAUDE.md (BOND/CARL/CORAL/DEWEY/HENRY/LABOR/MARCO/OZK; `07d04796`), **OZK full git-block rehab** (forbidden `git reset HEAD` ×2 removed — 63d-cold pre-reform block), HENRY stale-note fix; **ORACLE self-flipped mid-session** (`824a713e` — design working); LIQUID/CLOSEOUT.md + bookkeeping (`24fd1ef2`). **Net 18/21**; 3 deliberate holdouts (TERRY/WALTER/YEYOU). Migration thread retired. (2) **★ Roster refresh** (verified-active pass, `bc35fdc4`) — commit-activity map → root CLAUDE.md (Active=20/Tier-2=4) + new **`PROME/ROSTER.md`**. VIOLET→Active (118/30d, was unslotted), OZK→Dormant, DARWIN removed (phantom), 4 scaffolds retired→`AGENTS/_archive/`. (3) **Pre-closeout staleness audit** (`7aff8de0`+`0299c267`) — ACTIVE_DECISIONS (HY 263→HEARTBEAT-ref; energy deflated), CLOSEOUT/HANDOFF de-OpenClaw'd. (4) **Archive sweep** — CLEANUP_PLAN→archive; PREDICTIONS_MONITOR retained + flagged (NEXUS's live ledger, mislocated/stale).
+
+**Decisions Will made:** sweep agents / skip-live / leave-WALTER; retire scaffolds + SENTRY dormant + write root+ROSTER.md; pre-closeout audit + archive sweeps + Heavy closeout.
+
+**The read:** pure agent-infrastructure day — **no trigger fired, no capital deployed** (standing rule held). Two clean system improvements + boot/closeout hygiene.
+
+**Next / pending:** **PREDICTIONS_MONITOR.md → NEXUS** (stale April ledger, mislocated in PROME/ — refresh/migrate). Energy: BRENT processes RED SIG on Jul-1/Jul-3. Docket: 10Y 6/30 · JOLTS 6/30 · EIA 7/1 · NFP 7/3 · CFTC COT 7/3 · OZK+WAL+CFG Jul-16 · CPI 7/14. **Lesson → auto-memory:** `finding_verify_roster_by_commit_activity`.
+
 ## 2026-06-26 (LATE-NIGHT) — HAWK+RED spawn + energy red-team routed to BRENT + AUTO-PUSH promoted off soak (PUSHED, synced 0/0)
 
 **Status:** Fresh boot (5th respawn of 6/26). Will-directed: spawn HAWK (2 follow-ups) + RED (energy red-team), then promote RED/HAWK to the new auto-push system. Full narrative → SCRATCH + `memory/2026-06-26.md`.

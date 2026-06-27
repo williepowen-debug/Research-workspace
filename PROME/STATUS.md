@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-06-26 LATE-NIGHT (Claude Code Prome — HAWK+RED spawn session: HAWK 2 follow-ups done, RED energy red-team DOWNGRADED the decoupling "STRUCTURAL settled"→"structural LEAN, unconfirmed" → routed to BRENT inbox SIG; **auto-push migration promoted off soak** [Tier-1 canonical + RED/HAWK swept] + safe-push validated live. Synced 0/0. Earlier today = BRENT+HAWK · signal-coordination · HEAVY arch sessions.)
+**Updated:** 2026-06-27 (Claude Code Prome — Sat agent-build-out: **auto-push migration COMPLETE [18/21]** + **roster refresh** [→`PROME/ROSTER.md`] + pre-closeout staleness audit + archive sweep. ORACLE/TERRY/WALTER live in separate windows; pushed via train. No trigger fired, no capital deployed.)
 
 ## Core State
 
@@ -44,7 +44,9 @@
 | ORACLE metrics implementation | ⚪ optional | Metrics doc exists; future script integration could compute entropy/KL from ODDS_LOG. |
 | Energy decoupling adjudication | ⚠️ RE-OPENED 6/26 LATE-NIGHT | RED red-team **DOWNGRADED** "STRUCTURAL settled" → **"structural LEAN, unconfirmed"** (~0.55 on regime; 0.63 fair only as a 2-wk price call). Catches: decisive COT graded 1/2 by BRENT's own trigger (same datum, two standards), declaratory-not-kinetic test, unverified contango. Routed → BRENT inbox SIG. **Discriminators: Jul-1 EIA WPSR Cushing + re-derive prompt-spread; Jul-3 CFTC COT 2nd-week test.** BRENT processes on its Jul-1/Jul-3 docket. |
 | HAWK 2 follow-ups | ✅ done 6/26 LATE-NIGHT | PREDICTIONS.tsv tab fix (HAW-10/11 delimiter-only, byte-identical) + SOURCES.md refresh-not-retire. Committed+pushed. |
-| Auto-push migration | ✅ promoted off soak 6/26 LATE-NIGHT | Tier-1 canonical flipped (root CLAUDE.md, GIT_COORDINATION, `feedback_defer_push_coordinate` slug-kept, `finding_push_train_pattern`, MEMORY); RED+HAWK swept; 16 agents lazy-sweep; YEYOU manual. safe-push validated live. See `PROME/AUTOPUSH_MIGRATION_PLAN.md`. |
+| Auto-push migration | ✅ COMPLETE 6/27 | **18/21 CLAUDE.md flipped** (8 swept incl. OZK git-rehab + ORACLE self-flip + LIQUID/CLOSEOUT.md). 3 deliberate holdouts: TERRY (live/self-sweep), WALTER (architectural), YEYOU (manual). See `PROME/ROSTER.md` + `AUTOPUSH_MIGRATION_PLAN.md`. |
+| Roster refresh | ✅ done 6/27 | Verified-active pass (commit-activity map). root CLAUDE.md Active=20/Tier-2=4 + new `PROME/ROSTER.md`. VIOLET→Active (was unslotted), OZK→Dormant, DARWIN removed, 4 scaffolds retired→`AGENTS/_archive/`. |
+| PREDICTIONS_MONITOR → NEXUS | 🟡 flagged 6/27 | `PROME/PREDICTIONS_MONITOR.md` is NEXUS's live boot-read ledger (mislocated in PROME/, stale April rows). NEXUS to refresh + consider migrating to `AGENTS/NEXUS/`. |
 | HY <260 / post-FOMC confirmation | 🔴 next market lane | Latest HEARTBEAT level stale/Fri-close orientation. |
 | Position-state reconciliation | 🟠 pending | Broker/Will truth required. |
 
@@ -62,4 +64,4 @@
 
 ## Next Best Action
 
-After clear, fresh Prome should check `AGENTS/LIQUID/alerts/HY_OAS_ALERTS.log` for any between-session HY transition (watch timer daily 13:00 ET). Live regime: HY 278 [6/25], 2bp from >280 X1 — auto-watched; no action unless a trigger fires. **Energy is now a LEAN, unconfirmed structural read** (RED de-hardened the BRENT/HAWK "settled" framing) — BRENT processes the RED SIG on its **Jul-1 EIA WPSR / Jul-3 COT** docket (downgrade label + re-derive curve). AI-capex convergence (HEN-35 ~53%) = sharpened WATCH — **Mon: MU/SMH/SOX + VIX vs 23 + HY vs 280.** **Auto-push lazy-sweep** continues per-agent as each goes active (16 remain; YEYOU manual). **Forward docket:** Mon MU/semis · 10Y 6/30 · JOLTS 6/30 · NFP 7/2 · **EIA 7/1 · SPR re-auth ~7/3 · CFTC COT 7/3 · OZK+WAL+CFG Jul-16** · CPI 7/14 · late-Jul Q2 FCF + BDC marks ~7/25.
+After clear, fresh Prome should check `AGENTS/LIQUID/alerts/HY_OAS_ALERTS.log` for any between-session HY transition (watch timer daily 13:00 ET). Live regime: HY 278 [6/25] Fri-close, 2bp from >280 X1 — auto-watched; no action unless a trigger fires. **Auto-push migration + roster refresh COMPLETE this session** (see `PROME/ROSTER.md`). **Flag to NEXUS:** `PROME/PREDICTIONS_MONITOR.md` is NEXUS's live boot-read ledger (mislocated in PROME/, stale April rows) — NEXUS to refresh/migrate. **Energy is a LEAN, unconfirmed structural read** — BRENT processes the RED SIG on its **Jul-1 EIA WPSR / Jul-3 COT** docket. AI-capex (HEN-35 ~53%) = **Mon: MU/SMH/SOX + VIX vs 23 + HY vs 280.** **Forward docket:** Mon MU/semis · 10Y 6/30 · JOLTS 6/30 · NFP 7/3 · **EIA 7/1 · SPR re-auth ~7/3 · CFTC COT 7/3 · OZK+WAL+CFG Jul-16** · CPI 7/14 · late-Jul Q2 FCF + BDC marks ~7/25.

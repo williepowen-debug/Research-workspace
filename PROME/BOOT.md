@@ -92,6 +92,7 @@ Everything else is on-demand.
 | Market prices / dashboard | Use injected `TOOLS.md` if present; otherwise read `FORGE/tools/market-data/README.md`. Run `dashboard.py` / `fetch.py` before citing levels. |
 | News routing / sweep | Use injected `TOOLS.md` if present; otherwise read `FORGE/tools/news-sweep/README.md`. Use `sweep.py` only when routing/sweeping news. |
 | Fleet scan / ranking | `PROME/FLEET_SCAN.md`, `PROME/ORCHESTRAL_LAYER_DESIGN.md` |
+| Agent roster / classification | `PROME/ROSTER.md` — verified Active/Tier-2/Dormant/Retired + commit-activity evidence (refresh by re-running the activity map; `[[finding_verify_roster_by_commit_activity]]`) |
 | Sub-agent spawn | `AGENTS.md`, `PROME/COMPLETION_SPEC.md`; include completion instructions. |
 | Multi-agent orchestration (>1 agent) | `PROME/ORCHESTRATION_PLAYBOOK.md` — apply the mode-split rule (fan-out/Workflow vs live) BEFORE spawning. |
 | Prome implementation / identity | `PROME/CLAUDE.md` + `PROME/SYSTEM.md` (old `CLAUDE_CODE_PROME.md` manual + bootstrap PLAN/TASKS retired → `PROME/archive/`) |
