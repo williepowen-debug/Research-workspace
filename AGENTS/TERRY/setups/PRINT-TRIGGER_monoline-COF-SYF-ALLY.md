@@ -30,7 +30,7 @@ ZONE 1 — PRE-LOCKED (do NOT re-derive at fire)
 ZONE 2 — LIVE MARKS (fill ONLY this at fire — rule #4)
 ══════════════════════════════════════════════════════════════
 - **Timestamp (ET):** ____
-- **Trigger-level confirm:** `grade_print.py <COF|SYF|ALLY> …` verdict = ____ · un-mask tells met ___/4 (list which) · book Δ (shrinking? ___) · ⚠️ grade_config path-(a) tally is REGIONAL {CFG,OZK,EGBN,WAL} — monolines classify but don't tally there; use THIS card's un-mask criteria above.
+- **Trigger-level confirm:** `grade_print.py <COF|SYF|ALLY> --provision _ --nco _ --book-direction <shrinking|flat|growing> [--nco-guide raised] [--dq-formation rising] [--build-type specific|collective]` → **PATH(m)** verdict = ____ · un-mask tells ___/4 · then `grade_print.py --tally` → path (m) FIRES? (≥2 names, or 1 strong-single ≥2 tells). *(Monoline path-(m) tally is built into the grader as of 2026-06-27 — book-on-shrinking build / guide-raise / DQ-formation are the un-mask discriminators; headline NCO does NOT count.)*
 - **Spot:** <NAME> $____ as-of ____ · `fetch.py price <NAME> --json` · print-reaction so far: ___% (under-reacted? Y/N)
 - **Green/red day check (rule #6):** <NAME> today ___% → puts on green ✓ / breaking & why: ____
 - **Chain marks:** `chain_fetch.py <NAME> <EXPIRY> --type put --no-cache`
@@ -54,4 +54,4 @@ ZONE 3 — TRIGGER CONFIRM + DECISION
 **APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**
 
 ---
-*Follow-up (not blocking): add a monoline un-mask tally to `grade_config.json` so `grade_print.py` scores COF/SYF/ALLY as signal, not just regional-gate. Tracked in STATUS/MEMORY.*
+*Grader: monoline un-mask tally is BUILT — `grade_config.json` path **m** (members SYF/COF/ALLY, need 2 or 1 strong-single) + `grade_print.py --book-direction/--nco-guide/--dq-formation` (selftest PASS, 2026-06-27). COF/SYF/ALLY now score as signal, not just regional-gate.*

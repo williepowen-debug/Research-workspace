@@ -9,10 +9,12 @@
   "master_rule": "Provision expense $ > Net charge-off $ this quarter = BUILDING (transmission live); Provision < NCO = RELEASING (mask/defer).",
   "disc1_rule": "A build counts toward path (a) ONLY if SPECIFIC (named-credit migration / individually-evaluated reserve). COLLECTIVE / macro-overlay (CECL Q-factors, GDP/unemployment, asset-growth) = BETA, non-counting.",
   "disc2_rule": "AOCI/NIM/TBV is a SEPARATE axis (path b). A name can print clean NCO and still transmit via rates. Grade independently.",
+  "disc3_rule": "MONOLINE UN-MASK (path m): monolines composition-mask — book-shrinkage/survivor-pool suppresses headline NCO. Grade the un-maskable sub-signals, NOT headline NCO: a BUILD on a FLAT/SHRINKING book is unambiguous deterioration (cannot be growth-beta); a RAISED NCO guide or RISING early-DQ formation are masking-proof tells.",
   "paths": {
     "a": {"members": ["CFG", "OZK", "EGBN", "WAL"], "need": 2, "fires": "synchronized SPECIFIC reserve-build", "base_odds": "15-22%"},
     "b": {"members": ["ZION", "WAL", "CFG", "EGBN"], "need": 2, "fires": "non-credit AOCI/NIM/TBV selloff regardless of NCO", "base_odds": "25-30%"},
-    "c": {"members": ["WAL"], "need": 1, "fires": "WAL standalone full charge-off", "base_odds": "28-32%"}
+    "c": {"members": ["WAL"], "need": 1, "fires": "WAL standalone full charge-off", "base_odds": "28-32%"},
+    "m": {"members": ["SYF", "COF", "ALLY"], "need": 2, "fires": "un-masked consumer-credit deterioration across >=2 monolines (synchronized), OR 1 monoline with >=2 un-mask tells", "base_odds": "monoline LEAD block, earliest Q2 tell ~Jul 18-23", "unmask_tells": ["build-on-flat/shrinking-book", "specific-build", "nco-guide-raised", "dq-formation-rising"]}
   },
   "decision_rules": [
     "1. Default (monoline beat + releases/collective-only builds): Q2 exception does NOT fire -> roll bank duration to Q1-Q2 2027, no fresh Q2 short.",
@@ -20,7 +22,8 @@
     "3. Path (a) fires (>=2 SPECIFIC builds): genuine synchronized credit transmission early -> escalate; confirm specific not collective.",
     "4. Path (c) fires (WAL full charge-off): single-name bear-confirm.",
     "5. COF both-segments build = strongest single signal (synchronized consumer+CRE on one balance sheet).",
-    "6. Beta guard: collective/macro-overlay builds across the board = higher-for-longer regime repricing (beta tell) -> note it, NOT a fresh-short trigger."
+    "6. Beta guard: collective/macro-overlay builds across the board = higher-for-longer regime repricing (beta tell) -> note it, NOT a fresh-short trigger.",
+    "7. Monoline path (m) fires (un-masked consumer deterioration): the EARLIEST leading tell -> escalate the consumer leg; monoline fire card TRY-FIRE-003 is live. A monoline BREAK also raises regional build odds (gate); a BEAT fades path (a)."
   ],
   "gate": {
     "name": "monoline gate (Jul 21)",

@@ -116,6 +116,7 @@ def grade(name, cfg, args):
         "name": name, "print": nmeta.get("print"),
         "warnings": warnings, "notes": args.note,
         "master": None, "disc1": None, "path_a": None, "path_b": None, "path_c": None,
+        "path_m": None, "path_m_tells": 0,
     }
 
     # MASTER — provision vs NCO
@@ -185,6 +186,32 @@ def grade(name, cfg, args):
     else:
         result["path_c"] = "n/a (path-(c) is WAL only)"
 
+    # path (m) — MONOLINE un-mask tally (SYF/COF/ALLY): grade un-maskable sub-signals, NOT headline NCO.
+    # Monolines composition-mask (book-shrinkage suppresses NCO), so a build on a flat/shrinking book is
+    # unambiguous deterioration (not growth-beta); a raised NCO guide or rising DQ formation are mask-proof.
+    if name in paths.get("m", {}).get("members", []):
+        book = (args.book_direction or "")
+        tells = []
+        if is_build and book in ("shrinking", "flat"):
+            tells.append(f"build-on-{book}-book")
+        elif is_build and args.build_type == "specific":
+            tells.append("specific-build")
+        if args.nco_guide == "raised":
+            tells.append("nco-guide-raised")
+        if args.dq_formation == "rising":
+            tells.append("dq-formation-rising")
+        result["path_m_tells"] = len(tells)
+        if tells:
+            result["path_m"] = f"COUNTS (un-masked: {', '.join(tells)}) -> monoline tally fires"
+        elif is_build and book == "growing" and args.build_type != "specific":
+            result["path_m"] = "NON-COUNTING (build on a GROWING book w/o specific = growth-beta mask)"
+        elif is_build and not book:
+            result["path_m"] = "build present but --book-direction unknown -> cannot classify (growth-beta vs deterioration)"
+        else:
+            result["path_m"] = "NON-COUNTING (release/clean headline = masked; no un-mask tell)"
+    else:
+        result["path_m"] = f"n/a (not a monoline tally member; members={paths.get('m', {}).get('members', [])})"
+
     return result
 
 
@@ -210,6 +237,7 @@ def print_grade(result, cfg):
     print(f"  PATH(a) : {result['path_a']}")
     print(f"  PATH(b) : {result['path_b']}")
     print(f"  PATH(c) : {result['path_c']}")
+    print(f"  PATH(m) : {result['path_m']}")
     for w in result["warnings"]:
         print(f"  {w}")
     if result.get("notes"):
@@ -242,9 +270,15 @@ def tally(cfg):
               if n in paths["b"]["members"] and "DETERIORATION" in (g.get("path_b") or "")]
     c_hit = ["WAL"] if "WAL" in graded and "FULL CHARGE-OFF" in (graded["WAL"].get("path_c") or "") else []
 
+    m_members = paths.get("m", {}).get("members", [])
+    m_hits = [n for n, g in graded.items()
+              if n in m_members and "COUNTS" in (g.get("path_m") or "")]
+    m_strong = [n for n in m_hits if (graded[n].get("path_m_tells") or 0) >= 2]
+
     a_fires = len(a_hits) >= paths["a"]["need"]
     b_fires = len(b_hits) >= paths["b"]["need"]
     c_fires = len(c_hit) >= paths["c"]["need"]
+    m_fires = bool(m_members) and (len(m_hits) >= paths["m"]["need"] or len(m_strong) >= 1)
 
     print(f"  PATH (a) SPECIFIC-build [{paths['a']['base_odds']}]: {len(a_hits)}/{paths['a']['need']} "
           f"{a_hits} -> {'FIRES' if a_fires else 'no'}")
@@ -252,6 +286,10 @@ def tally(cfg):
           f"{b_hits} -> {'FIRES' if b_fires else 'no'}")
     print(f"  PATH (c) WAL standalone[{paths['c']['base_odds']}]: {len(c_hit)}/{paths['c']['need']} "
           f"{c_hit} -> {'FIRES' if c_fires else 'no'}")
+    if m_members:
+        strong = f" +strong-single{m_strong}" if m_strong else ""
+        print(f"  PATH (m) monoline un-mask [{paths['m']['base_odds']}]: {len(m_hits)}/{paths['m']['need']} "
+              f"{m_hits}{strong} -> {'FIRES' if m_fires else 'no'}")
 
     # COF bridge
     if "COF" in graded:
@@ -260,13 +298,15 @@ def tally(cfg):
 
     print("\n  DECISION RULE TRIGGERED:")
     rules = cfg["decision_rules"]
+    if m_fires and len(rules) > 6:
+        print(f"    -> {rules[6]}")
     if c_fires:
         print(f"    -> {rules[3]}")
     if a_fires:
         print(f"    -> {rules[2]}")
     if b_fires:
         print(f"    -> {rules[1]}")
-    if not (a_fires or b_fires or c_fires):
+    if not (a_fires or b_fires or c_fires or m_fires):
         print(f"    -> {rules[0]}")
         print(f"    (beta guard) {rules[5]}")
     print("\n  PROPOSE-only -> Will/FORGE. Confirm builds specific-not-collective before escalating.")
@@ -284,6 +324,7 @@ def selftest():
         provision = nco = nco_bps = None
         build_type = aoci_direction = tbv_direction = aoci_basis = basis = None
         life_sci_chargeoff = note = None
+        book_direction = nco_guide = dq_formation = None
 
     # 1) ALLY Q1: +$50M collective build -> BUILD but path-a NON-COUNTING
     a = A(); a.provision = 467; a.nco = 417; a.build_type = "collective"
@@ -336,11 +377,39 @@ def selftest():
     re = grade("EGBN", cfg, e2)
     assert "COUNTS" in re["path_a"], re["path_a"]
 
+    # 9) SYF build on a SHRINKING book -> path(m) COUNTS (un-masked, not growth-beta)
+    s = A(); s.provision = 50; s.nco = 40; s.book_direction = "shrinking"
+    rs = grade("SYF", cfg, s)
+    assert "COUNTS" in rs["path_m"], rs["path_m"]
+    assert rs["path_m_tells"] >= 1, rs["path_m_tells"]
+
+    # 10) SYF build on a GROWING book, collective -> path(m) NON-COUNTING (growth-beta mask)
+    s2 = A(); s2.provision = 50; s2.nco = 40; s2.book_direction = "growing"; s2.build_type = "collective"
+    rs2 = grade("SYF", cfg, s2)
+    assert "NON-COUNTING" in rs2["path_m"], rs2["path_m"]
+
+    # 11) COF release (clean masked headline) -> path(m) NON-COUNTING
+    c = A(); c.provision = 30; c.nco = 50
+    rc = grade("COF", cfg, c)
+    assert "NON-COUNTING" in rc["path_m"], rc["path_m"]
+
+    # 12) SYF two tells (build-on-flat-book + guide raised) -> strong single (tells >= 2)
+    s3 = A(); s3.provision = 50; s3.nco = 40; s3.book_direction = "flat"; s3.nco_guide = "raised"
+    rs3 = grade("SYF", cfg, s3)
+    assert rs3["path_m_tells"] >= 2, rs3["path_m_tells"]
+
+    # 13) ALLY build on shrinking book, specific -> path(m) COUNTS (build-type clears the ALLY trap)
+    al = A(); al.provision = 60; al.nco = 40; al.book_direction = "shrinking"; al.build_type = "specific"
+    ral = grade("ALLY", cfg, al)
+    assert "COUNTS" in ral["path_m"], ral["path_m"]
+
     print("grade_print.py SELFTEST: PASS")
     print("  ALLY collective build -> BUILD + path-a NON-COUNTING ✓")
     print("  ALLY no build-type -> TRAP ✓ | WAL --basis gaap -> TRAP ✓ | ZION muni -> TRAP ✓")
     print("  WAL 58bps+chargeoff -> path(c) FULL CHARGE-OFF ✓ | WAL 42bps -> BUILD-BUT-DEFER ✓")
     print("  ZION total-afs worse -> path(b) DETERIORATION ✓ | EGBN specific -> path(a) COUNTS ✓")
+    print("  SYF build-on-shrinking-book -> path(m) COUNTS ✓ | growing+collective -> NON-COUNTING ✓")
+    print("  COF release -> path(m) NON-COUNTING ✓ | SYF 2-tells -> strong-single ✓ | ALLY shrinking+specific -> COUNTS ✓")
     return 0
 
 
@@ -360,6 +429,10 @@ def main():
     ap.add_argument("--aoci-basis", choices=["total-afs", "muni"], help="ZION path-b basis (must be total-afs)")
     ap.add_argument("--basis", choices=["adjusted", "gaap"], help="WAL NCO basis (must be adjusted)")
     ap.add_argument("--life-sci-chargeoff", help="WAL: was majority of $99M life-sci charged off? yes/no")
+    ap.add_argument("--book-direction", choices=["shrinking", "flat", "growing"],
+                    help="monoline (path-m) receivables trajectory — build on shrinking/flat = deterioration, not growth-beta")
+    ap.add_argument("--nco-guide", choices=["raised", "affirmed", "cut"], help="monoline (path-m) NCO guidance change — raised = un-mask tell")
+    ap.add_argument("--dq-formation", choices=["rising", "stable", "falling"], help="monoline (path-m) early-stage DQ formation QoQ ex-seasonal — rising = un-mask tell")
     ap.add_argument("--note", help="free-text grader note")
     ap.add_argument("--no-save", action="store_true", help="grade without persisting to grades/")
     ap.add_argument("--tally", action="store_true", help="roll all saved grades into path diagnostics")
