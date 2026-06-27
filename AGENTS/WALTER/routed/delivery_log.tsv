@@ -288,3 +288,8 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-06-27T01:20:00Z	SIG-W-20260626-030	CARL	action	CC	PRIORITY	AGENTS/CARL/inbox/WALTER/SIG-W-20260626-030.md	written_not_delivered_pending_push	Q1 update breaks 5.27% max; confirm vs NY Fed primary
 2026-06-27T01:20:00Z	SIG-W-20260626-030	OTTO	info	CC	PRIORITY	AGENTS/OTTO/inbox/WALTER/SIG-W-20260626-030.md	written_not_delivered_pending_push	subprime-auto backdrop; pairs Hertz -015
 2026-06-27T01:20:00Z	SIG-W-20260626-030	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260626-030.md	written_not_delivered_pending_push	record-claim, confirm number + measure
+2026-06-27T01:46:00Z	SIG-W-20260626-031	BROCK	action	CC	PRIORITY	AGENTS/BROCK/inbox/WALTER/SIG-W-20260626-031.md	written_not_delivered_pending_push	AI-capex-funded-by-debt realized; confirm vs Oracle 10-K
+2026-06-27T01:46:00Z	SIG-W-20260626-031	HENRY	info	CC	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260626-031.md	written_not_delivered_pending_push	capex bill hitting equity; ORCL/AVGO no-raise selloff
+2026-06-27T01:46:00Z	SIG-W-20260626-031	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260626-031.md	written_not_delivered_pending_push	capex-cycle two-sided; confirm -23.7B
+2026-06-27T01:47:00Z	SIG-W-20260626-032	CARL	action	CC	PRIORITY	AGENTS/CARL/inbox/WALTER/SIG-W-20260626-032.md	written_not_delivered_pending_push	revolving +10.4% composes w/ DQ records
+2026-06-27T01:47:00Z	SIG-W-20260626-032	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260626-032.md	written_not_delivered_pending_push	one-month-SAAR caveat
