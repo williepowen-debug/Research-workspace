@@ -6,7 +6,7 @@
 
 ## STATUS
 
-**2026-06-27 ~4:30 PM ET (Sat — post-crash RECOVERY + DEWEY REQ-001 routing + closeout completion).** The machine crashed mid-SESSION-3-closeout (~4:11 PM — STATUS written but not yet committed). Will reopened: *"recover what you were working on"* → *"route the DEWEY deliverable and finish the closeout."* Recovered the uncommitted closeout STATUS (`d2b10c5c`), routed the just-returned DEWEY REQ-001 deliverable as **SIG-W-20260627-033**, closed the ledger, and finished the deferred closeout tail. **1 DISPATCH (SIG-033) / 0 KILL → DAY TOTAL 33 dispatch / 36 kill / BOARD 400→401.**
+**2026-06-27 ~4:30 PM ET (Sat — post-crash RECOVERY + DEWEY REQ-001 routing + closeout completion).** The machine crashed mid-SESSION-3-closeout (~4:11 PM — STATUS written but not yet committed). Will reopened: *"recover what you were working on"* → *"route the DEWEY deliverable and finish the closeout."* Recovered the uncommitted closeout STATUS (`d2b10c5c`), routed the just-returned DEWEY REQ-001 deliverable as **SIG-W-20260627-033**, closed the ledger, and finished the deferred closeout tail. Then (Will *"route it"* again) routed the just-returned **DEWEY REQ-002** deliverable as **SIG-W-20260627-034**. **2 DISPATCH (SIG-033 + SIG-034) / 0 KILL → DAY TOTAL 34 dispatch / 36 kill / BOARD 400→402.**
 
 *(SESSION-3 itself, never captured here — Tier-1 light closeout deferred this rewrite: 4 dispatch SIG-029→032 [Damac→HENRY / flood-insurance→CORAL verify-CONFIRMED / ICE-DQ→CARL / DRAFT-GSE-bill→CARL] + 2 design refinements [ROUTING_TABLE v0.15 muni-routing, CHECKLIST v0.22 investigation-routing] + 4 DEWEY prompts queued.)*
 
@@ -28,13 +28,13 @@
 
 - **Push:** 🔴 DEFERRED — origin behind by 3 (`70b2f9d0` CHECKLIST v0.22 + `d2b10c5c` STATUS-recovery + this DEWEY-routing/closeout commit). PROME (`PROME/HANDOFF.md`/`SCRATCH.md`) + Will's `WILL/trading-journal/` files uncommitted in tree → did NOT pull, no auto-push, per `[[feedback_defer_push_coordinate]]`. Next clean-tree session or PROME safe-push sweeps the train.
 - **delivered_but_unconsumed** +4 (SIG-033 → HENRY/BROCK/SHADE/RED, CC pending-push) on top of the session-1/2 backlog.
-- **3 DEWEY prompts still PENDING** (REQ-002 ex-AI-GDP / REQ-003 muni-fiscal / REQ-004 housing-distress) — Will runs DEWEY; returns via `inbox/DEWEY/`, WALTER routes per Phase 2.8b + closes ledger rows.
+- **2 DEWEY prompts still PENDING** (REQ-003 muni-fiscal / REQ-004 housing-distress; REQ-001 + REQ-002 now DELIVERED + routed as SIG-033 / SIG-034) — Will runs DEWEY; returns via `inbox/DEWEY/`, WALTER routes per Phase 2.8b + closes ledger rows.
 - **Cushing N/A** (EIA `.env` machine-local gone — Boundary #3 dark this box).
 - **SESSION-LOG trim-to-5 + footer-archive** backlog grown again (recovery row added).
 
 ## WILL_NEEDS
 
-1. **3 PENDING DEWEY prompts** (REQ-002 ex-AI-GDP / REQ-003 muni-fiscal / REQ-004 housing-distress) — open a DEWEY session per prompt when ready; deliverables route on return.
+1. **2 PENDING DEWEY prompts** (REQ-003 muni-fiscal / REQ-004 housing-distress) — open a DEWEY session per prompt when ready; deliverables route on return. (REQ-001 + REQ-002 delivered + routed → SIG-033 / SIG-034.)
 2. (carried) **RED auto-cc trim?** — RED on the info line of most cluster_mediating dispatches (incl. SIG-033).
 3. (carried) **EIA `.env` durability** (Cushing dark) · **Scout build** (3 dark crons) · **OZK** Q1 post-mortem (longest-stale Tier-1, 64d).
 4. (carried) **🔴 OpenClaw cutover** — `design/OPENCLAW_CUTOVER_PLAN.md` Phase-0 decisions.
@@ -52,6 +52,9 @@
 6. **BROCK** (action) — >$120B off-BS/18mo; Hyperion $27.3B; Anthropic $35B SPV (Atlas SP/Apollo, Athene "sizable portion"); off-BS reversible; chips = Google TPU not Nvidia GPU.
 7. **SHADE** (action) — insurer-leg escalation ANSWERED: real+growing (L3 +49% YoY) but AI-collateral linkage UNDISCLOSED/inferential → test vs 10-K FV footnote; Burry figs dated/bounded.
 8. **RED** (info) — two-sided: refuted-as-fact(0-3)/accepted-as-attribution(3-0); L3 = observability not quality; off-BS reversible; backstops conditional; structure ≠ bubble verdict.
+
+**🟠 SIG-034 callbacks owed (DEWEY REQ-002 ex-AI-GDP, 4 await consume, CC pending-push):**
+8b. **CARL** (action) — "ex-AI −1.1%" = artifact (stale +1.6% 2nd-est; final +2.1%); ex-AI ~+0.5-0.8% decelerating-not-contracting; **REAL signal = PCE-contribution collapse +2.34→+0.37 ppt**; the headline upgrade came from a downward import revision, not domestic demand. · **HENRY/RED/BROCK** (info) — AI-capex re-accelerated 0.48→~1.50 ppt (economy MORE capex-dependent, not less); −1.1% vintage-fragile; capex-negative-without-AI; ConstructConnect single-vendor down-weight.
 
 **🟠 SESSION-3 dispatch callbacks owed (4 SIG-029→032, CC pending-push):**
 9. **HENRY** (029 Damac — dated ~early-2025 pledge, not deployed capex; confirm realized spend not headline).
