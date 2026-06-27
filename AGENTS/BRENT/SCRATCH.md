@@ -1,68 +1,55 @@
-# BRENT SCRATCH — Wed Jun 24, 2026 (EIA wk-6/19 data pull — ROUTING BOUNDARY #3 FIRED)
+# BRENT SCRATCH — Fri Jun 26, 2026 (STRUCTURAL vs COILED-SPRING decision + COT/rig pull + WALTER inbox drain)
 
-**Purpose:** Ephemeral session handoff — the canonical "where are we / what next" file. Read at boot (SPAWN PROTOCOL step 2), rewritten in full at closeout (step 11). Disposable. Supersedes the Jun-22 SCRATCH.
+**Purpose:** Ephemeral session handoff — canonical "where are we / what next". Read at boot (step 2), rewritten at closeout (step 11). Supersedes the Jun-24 SCRATCH.
 
-**Session arc:** Booted Wed Jun 24 (continuation from prior context that hit the summary wall mid-rebase). The EIA WPSR for week ending Jun 19 was pulled, filed, and committed. The pre-registered ROUTING BOUNDARY #3 (Cushing sub-20M) has now FIRED. A rebase conflict was resolved (upstream fe44ae3a vs my f97f55f) and the commit pushed to origin (109fd804). PushNotification sent to Will.
+**Session arc:** Live scoped session (Prome-spawned, HAWK concurrent). Adjudicated the Nuttall/Hedgeye coiled-spring counter (SIG-W-20260626-002) against own live data; pulled + confirmed the two newest catalysts (Baker Hughes rigs, CFTC COT Jun-23 first-true-post-MOU read); drained the full WALTER inbox (6 signals → processed). NO COMMIT this session — Prome commits BRENT dir sequentially to avoid shared-index race with HAWK.
 
 ---
 
 ## ⚡ NEXT BOOT FIRST MOVES
-1. 🔴 **Fri Jun 27 AM — Baker Hughes rig count (BH Jun 27)** — watch oil rig direction (trough 407, threshold 457 = +50 from trough). BRT-26 slow-response frame still intact.
-2. 🔴 **Fri Jun 27 (or Sat Jun 28) — CFTC COT (Jun 23 data)** — this is the SECOND post-MOU forced-liquidation read (Jun 16 data was first, last week); critical for Trigger #3 re-arm and XLE stub decision. ~3:30pm ET Fri.
-3. 🟠 **Trigger #2 datapoint #3 CONFIRM** — the Jun 19 gasoline product supplied 4-wk YoY was NOT indexed in EIA tables at run time (WGFUPUS2 series showed only through Jun 12). Pull `https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=wgfupus2&f=W` when indexed (typically updates 2-4h after 10:30am release). Need a single-week Kbpd value to compute the 4-wk YoY and confirm magnitude vs the −5% threshold.
-4. 🟠 **Refinery utilization Jun 19** — WPULEUS3 was also not indexed at run time. Pull from EIA WPSR dashboard or series once available.
-5. 🟡 **NEXUS_BRIEF outbox routing** — Cushing breach is now live. Confirm NEXUS picks up the SENDING row at next boot (should auto-route to LIQUID/HENRY/RED via NEXUS_BRIEF updates this session).
+1. 🔴 **Wed Jul 1 — EIA WPSR (wk-6/26)** — Cushing trajectory at sub-20M (~18M if −1M/wk holds); watch crude draw vs cycle-max pace. Also re-pull WGFUPUS2 (gasoline 4-wk YoY, Trigger #2 datapoint #3 still PENDING from wk-6/19) + WPULEUS3 refinery util Jun-19 — both were unindexed at the Jun-24 run.
+2. 🔴 **Re-pull ICE Brent main MM net (Jun-23 data)** — got NYMEX WTI cleanly (+82,872, liquidating) but did NOT cleanly pull main ICE Brent net this session (macromicro 403'd; Brent-Last-Day NYMEX mini only). Need it vs Jun-16 174,807 lots to fully close the discriminator. Try barchart COT or CFTC disaggregated petroleum.
+3. 🟠 **~Jul 3 — SPR 172M emergency-release authorization fully withdrawn → DOE re-auth decision** — first tranche exhaustion gate; charged by re-closure risk.
+4. 🟠 **Jul 8 — EIA STEO (July)** — first post-deal price-path revision (June STEO $105 closed-Hormuz already superseded by realized ~$73).
+5. 🟡 **Verify Hedgeye Japanese crude drawdown** (~360→280M Mar-Jun, Kpler/Commodity Context) — left [UNVERIFIED] this session; directionally consistent w/ tightness.
 
-## CHANGES SINCE LAST SESSION (Jun 22 → Jun 24)
-- **EIA Jun 24 (wk-6/19) CONFIRMED:**
-  - **🚨 Cushing 18.957M (−1.077M WoW) — BELOW 20M OPERATIONAL FLOOR. ROUTING BOUNDARY #3 ACTIVE.**
-  - Commercial crude 412.134M (−6.088M, beat est −4.5M by 1.6M) — ~7% below 5yr avg
-  - SPR 331.191M (−9.109M) — 40+ yr low (lowest since ~1983); no throttle; 6th+ consecutive cycle-max draw
-  - Total crude incl SPR −15.197M WoW (2nd consecutive cycle-max week)
-  - Gasoline stocks 216.299M (+2.099M), ~6% below 5yr avg
-  - Distillate 106.116M (+3.016M), ~10% below 5yr avg
-  - Production 13,819 Kbpd (+119K est); imports 5,570 Kbpd (~−150K est)
-  - Retail gas ~$4.048/gal (Jun 22 AAA/FRED) — near $4 behavioral threshold; was $3.99 Jun 18
-- **Trigger #2 datapoint #3 PENDING** — WGFUPUS2 not indexed for wk-6/19 at run time; est ~−1.5 to −2.0% [EST] based on trend; −5% threshold still far (0/3 on 3-wk clock)
-- **Refinery util Jun 19 PENDING** — Jun 12 CONF 96.7%
-- **Git:** session committed + pushed (109fd804); prior rebase conflict resolved
+## CHANGES SINCE LAST SESSION (Jun 24 → Jun 26)
+- **Brent $73.57 (−2.56%) / WTI $70.24 (−2.34%) [CONF boot.py Jun-26]** — Brent now ~day-2 BELOW $75 = RED-FT-04 thesis-down level breached. WTI right at $70 threshold.
+- **Baker Hughes oil rigs 440 (+7 WoW from 433) [CONF TradingEconomics wk-6/26]** — climbing toward 457 (+50 from trough 407); 17 to go. Supply response building = structural/bearish-medium. BRT-26 intact. (Total US rigs 573 +10.)
+- **CFTC COT Jun-23 (first TRUE post-MOU forced-liquidation read) [CONF CFTC]:** NYMEX WTI Light Sweet (067651) MM Long 209,683 / Short 126,811 / **net +82,872** (vs Jun-16 +96,228 → **−13,356 wk**, driven by **long liquidation −10,490**, shorts +2,866). ICE WTI Europe mini MM net −18,387. = **CONTINUED DE-RISKING / FORCED LIQUIDATION, NOT short-covering → STRUCTURAL.**
+- **Crack spreads [CONF RBN, Jun]:** COOLED from spring peak — diesel $66(Mar)→$56(Jun), gasoline $46(May)→$40(Jun); still +122%/+104% YoY. Strong but OFF highs ⇒ Nuttall "crack ATH" claim STALE.
+- **VLCC tape rolled over:** Frontline −7.67%, DHT −2.38%, STNG −3.82% on Jun-26 → the Jun-22 +82-92% VLCC spike (SIG-004) faded = thin-tape noise, decoupling intact.
 
 ## WHAT I DID THIS SESSION
-- **Pulled EIA WPSR wk-6/19** via EIA table1.csv + table4.csv [CONF]; cross-validated via TradingEconomics, Investing.com, OilPrice.com, AAA/FRED
-- **Created `data/eia_2026-06-24.md`** (158 lines; full data file)
-- **Updated `demand_destruction/TRACKER.md`**: alert block (Routing Boundary #3 + crude draw alert); header (Jun 24 / War Day ~117); Cushing tier-1 row (18.957M BREACHED); Trigger #2 row (datapoint #3 PENDING); new weekly log row (Jun 19 wk end)
-- **Resolved rebase conflict** (`git checkout --theirs` flow; prior session used `--ours` which took the upstream version; re-applied edits manually before `git rebase --continue`)
-- **Pushed** to origin master (109fd804)
-- **PushNotification sent** to Will: Routing Boundary #3 active
+- **Rendered the decision:** sub-$75 = STRUCTURAL base case, **P(holds<$75 over 1-2wk)=0.63, lean STRUCTURAL**, fat re-escalation tail. Written to STATUS Jun-26 PM section (v4.3 minor) w/ full Nuttall adjudication table + flip-conditions each way + HAWK reconciliation hook + XLE stub call.
+- **Drained WALTER inbox (6 signals → processed/, board_log rows):** 002 (Nuttall counter, acted/adjudicated); 004 (VLCC spike, noted/faded); 005 (SPR 1983-low, acted/already-integrated); 006 (Iranian tankers, noted); 010 (OFAC license, acted/already-integrated); 011 (Hormuz transit rebound, noted). inbox/WALTER now CLEAR.
+- **XLE $65C Sep-30 call:** LAPSE-LEANING HOLD (passive) — premise broken, today's COT = structural = path-to-pay less supported; salvage negligible so nothing to trim; keep as kinetic-tail lottery into a vol spike only.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **Fri Jun 27** — Baker Hughes rig count + CFTC COT (Jun 23 data, first TRUE post-MOU liq read); XLE stub decision gate
-2. **Fri Jun 27 (or check asap)** — Pull WGFUPUS2 and WPULEUS3 for Jun 19 week to complete the PENDING EIA cells in TRACKER.md (Trigger #2 datapoint #3 + util Jun 19)
-3. **Wed Jul 1** — EIA WPSR (wk-6/26); watch Cushing trajectory at sub-20M pace (~18M next week if −1M/wk continues)
-4. **~early Jul (Jul 3 modeled)** — SPR re-auth decision; 172M tranche authorization exhausted; DOE re-auth required to continue draws
-5. **Fri Jul 8** — EIA STEO (July); first post-deal price-path revision
+1. **Wed Jul 1** — EIA WPSR wk-6/26 (Cushing ~18M watch) + clear the 2 PENDING wk-6/19 cells (WGFUPUS2, WPULEUS3).
+2. **~Jul 3** — SPR 172M auth exhaustion → DOE re-auth decision gate.
+3. **Jul 8** — EIA STEO (July) first post-deal price path.
+4. **Each Fri** — CFTC COT: track whether NYMEX WTI MM net continues bleeding toward zero (structural-confirm) or reverses to covering (spring).
 
 ## OPEN THREADS / WATCHES
-- 🔴 **Routing Boundary #3 NOW ACTIVE** — LIQUID (WTI basis/dislocation), HENRY (physical price distortion = inflation input), RED (systemic signal) alerted via NEXUS_BRIEF
-- 🔴 **Trigger #2 datapoint #3 PENDING** — gasoline 4-wk YoY for wk-6/19 not yet indexed; confirm when WGFUPUS2 updates
-- 🔴 **Physical/price divergence at cycle maximum** — Cushing below 20M operational floor while Brent pricing PATH A normalization at $78–82; snap-back potential is highest of the cycle if Lebanon re-escalates into record-short positioning
-- 🟠 **Cushing trajectory** — at ~1M/wk draw pace, falls to ~18M next week; WTI delivery dislocation risk escalating
-- 🟠 **SPR re-auth (early July)** — 172M authorization fully withdrawn ~early Jul; DOE needs new authorization to continue ~9M/wk pace; runway to §6241 252.4M floor = ~8-9 weeks if no throttle
-- 🟠 **CFTC COT Jun 16 (first post-MOU liq read)** — Jun 26 CFTC release; critical for Trigger #3 re-arm; record-short ICE Brent MM net
-- 🟡 **Refinery util Jun 19 PENDING** — need WPULEUS3 Jun 19 value; Jun 12 was 96.7% (util >95% since Jun 5 keeps BRT-12 crack-squeeze channel active)
-- 🟡 **LIQUID HY-Energy-OAS pull** — owed, DEFERRED per Will Jun 20
+- 🔴 **RED-FT-04 breached** — Brent ~day-2 sub-$75; if it HOLDS through next 1-2wk = structural confirmed (my 0.63 base). Flip-up trigger = confirmed kinetic Hormuz/Gulf energy-infra event.
+- 🔴 **Discriminator on next COT** — NYMEX WTI MM net +82,872 still has long to shed; watch toward/through zero (structural) vs short-covering reversal (spring). Need clean ICE Brent main net too.
+- 🟠 **Rigs 440 → 457** — 17 from shale-response threshold; supply add building.
+- 🔴 **Snap-back tail remains highest of cycle** — record-low stocks (SPR 40yr-low, Cushing breached) + still-net-long WTI = violent snap IF HAWK D-tail fires (Lebanon seam / demining incident). Tail real even though base case structural.
+- 🟡 **Trigger #2 datapoint #3** (gasoline 4-wk YoY wk-6/19) still PENDING (WGFUPUS2 unindexed Jun-24); 🟡 refinery util Jun-19 PENDING.
+- 🟡 **LIQUID HY-Energy-OAS pull** — owed, DEFERRED per Will Jun 20.
 
 ## POSITION DECISIONS PENDING
-- **XLE $65C Sep 30** — HOLD on a short leash through Jun 26/27 (Will Jun 20 hold; v4.2 hold-not-lapse). Routing Boundary #3 firing = physical squeeze deepening = kinetic-tail stub more justified NOT less. Reassess after Jun 27 COT (first post-MOU liq print) + early-July SPR re-auth.
-- **No new flat-price longs** — de-escalation confirmed + contango + crowded short = wrong regime to add length either way.
+- **XLE $65C Sep 30** — LAPSE-LEANING HOLD (passive). Premise (sustained $90+ Brent) BROKEN; today's continued-liquidation COT = structural = re-escalation path-to-pay LESS supported. Deep OTM (XLE $53.84 vs $65, ~21%), salvage negligible → nothing to trim. Keep as kinetic-tail lottery; close ONLY into a Lebanon/Hormuz vol spike; else let lapse. Re-arm = confirmed kinetic event.
+- **No new flat-price longs** — de-escalation confirmed + de-risking COT + rigs rising = wrong regime to add length.
 
 ## MAIL STATE (one line per signal)
-- **Inbox/WALTER:** no new signals this session; lane CLEAR from Jun-22 SCRATCH
-- **Outbox:** no new acute outbox; Routing Boundary #3 routing handled via NEXUS_BRIEF SENDING (not outbox, per outbox-restraint guidance)
+- **Inbox/WALTER:** CLEAR — all 6 drained to processed/ this session (002/004/005/006/010/011); board_log updated.
+- **Outbox:** none new; HAWK reconciliation hook written into STATUS Jun-26 PM (Prome running HAWK concurrently — routed via STATUS, not outbox).
 
 ## WORKBOOK HEALTH
-- TRACKER.md updated (Jun 24 EIA data + Boundary #3 alert); data/eia_2026-06-24.md created
-- NEXUS_BRIEF updated (this session); SCRATCH written (this session)
-- THESIS unchanged (no new phase transition; conviction unchanged from v4.2)
-- PREDICTIONS: no resolutions this session; BRT-28 (Cushing <20M) was the pre-registered Boundary #3 — **FIRED** (validate against PREDICTIONS.tsv and resolve if open)
-- **GIT:** session pushed to origin/master (109fd804). Clean.
+- STATUS updated (Jun-26 PM section + header v4.3); SCRATCH rewritten (this session); board_log +6 rows.
+- THESIS: no version bump warranted yet (decision is a confidence-render on existing v4.x inverted-divergence frame, not a phase transition) — consider folding the structural-vs-spring adjudication into THESIS/CHANGELOG next full closeout if base case holds.
+- PREDICTIONS: BRT-28 (Cushing <20M) already FIRED Jun-24; no new resolutions this session.
+- NEXUS_BRIEF: NOT refreshed this session (scoped live session) — refresh As-of/STATUS-commit stamp next boot.
+- **GIT: NOT committed/pushed this session — Prome commits BRENT dir sequentially (HAWK concurrent). Edits left in working tree:** STATUS.md, SCRATCH.md, board_log.tsv, + 6 files git-mv'd to inbox/WALTER/processed/.
