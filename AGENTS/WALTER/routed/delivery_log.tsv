@@ -267,3 +267,8 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-06-27T00:19:00Z	SIG-W-20260626-024	CREED	action	CC	PRIORITY	AGENTS/CREED/inbox/WALTER/SIG-W-20260626-024.md	written_not_delivered_pending_push	MF+2024-vintage distressed comp; verify auction/holder on pickup
 2026-06-27T00:19:00Z	SIG-W-20260626-024	REGINALD	info	CC	PRIORITY	AGENTS/REGINALD/inbox/WALTER/SIG-W-20260626-024.md	written_not_delivered_pending_push	bank-transmission: who holds the ~$50.2M loan
 2026-06-27T00:19:00Z	SIG-W-20260626-024	BROCK	info	CC	PRIORITY	AGENTS/BROCK/inbox/WALTER/SIG-W-20260626-024.md	written_not_delivered_pending_push	securitized/bridge-debt-fund overlap; 2024 floating-bridge
+2026-06-27T00:31:00Z	SIG-W-20260626-025	HENRY	action	CC	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260626-025.md	written_not_delivered_pending_push	named market-top scorecard; regime not timing
+2026-06-27T00:31:00Z	SIG-W-20260626-025	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260626-025.md	written_not_delivered_pending_push	cluster_mediating; small/padded peak sample, lead-time variance
+2026-06-27T00:32:00Z	SIG-W-20260626-026	HENRY	action	CC	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260626-026.md	written_not_delivered_pending_push	median single-stock SI breadth, distinct from aggregate 604-008
+2026-06-27T00:32:00Z	SIG-W-20260626-026	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260626-026.md	written_not_delivered_pending_push	cluster_mediating; two-sided bear-vs-squeeze
+2026-06-27T00:32:00Z	SIG-W-20260626-026	TERRY	info	CC	PRIORITY	AGENTS/TERRY/inbox/WALTER/SIG-W-20260626-026.md	written_not_delivered_pending_push	squeeze-risk on shorts; size for it
