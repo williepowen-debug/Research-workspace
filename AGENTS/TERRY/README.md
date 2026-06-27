@@ -27,6 +27,10 @@ Will can also open Terry directly in Claude Code as a conversational trading-des
 - `scripts/chain_fetch.py` — live option-chain CLI (rule #4; never cite stored option marks).
 - `scripts/grade_print.py` + `grade_config.json` — Q2 bank-print grader; `--tally` rolls path diagnostics.
 
+## Routed-signal context (decay-tracked)
+
+`SIGNALS.tsv` — durable home for positioning/timing INFO routed to TERRY (WALTER signals, etc.). Each row carries `as_of` + `decay` + `conf` + `status` (LIVE / LIVE-WEAK / DECAYING / PARKED / RETIRED) + what it `bears_on`. `boot.py` surfaces active rows and flags any past 21d for re-verify/retire (anti-rot). **STATUS holds only the one-line current read + pointer — evidence rows live here, not in STATUS.** New routed INFO → add a row; recall the cluster at fire-time when sizing a card.
+
 ## Core output
 
 Full trade cards go in `setups/`; summaries go to `TRADE_BOOK.md` and `SETUPS.tsv`.

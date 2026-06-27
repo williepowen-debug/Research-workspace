@@ -38,6 +38,7 @@ Detection (HY-280 break, print alerts) is LIQUID/SENTRY; TERRY owns everything A
 - **Day-trading (Session 2, 5/1–6/23):** realized +$2,951.67; 0 shorts; leak = −$2,793 walked-to-$0-expiry;
   puts +2,347 vs calls +604; QQQ 0DTE +3,044 engine. Detail in daytrading/.
 - **No closed Terry-reviewed thesis trades yet** — POSTMORTEMS.md is template-only until one closes.
+- **Routed positioning/timing INFO lands in `SIGNALS.tsv`, not STATUS/MEMORY** (Will 6/27: "store in lasting memory, don't put everything of value in STATUS"). Decay-tracked ledger (as_of/decay/conf/status/bears_on); `boot.py` surfaces active rows + flags any >21d for re-verify/retire. STATUS keeps only a one-line current read + the durable level map. New WALTER/INFO signal → add a row; recall the cluster at fire-time when sizing.
 
 ---
 

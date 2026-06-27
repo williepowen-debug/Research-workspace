@@ -12,6 +12,7 @@ import argparse
 import csv
 import subprocess
 import sys
+from datetime import date
 from pathlib import Path
 
 SCRIPTS_DIR = Path(__file__).resolve().parent
@@ -20,9 +21,12 @@ WORKSPACE = SCRIPTS_DIR.parents[2]
 
 REQUIRED = [
     "CLAUDE.md", "README.md", "STATUS.md", "RISK_RULES.md", "TRADE_CARD_TEMPLATE.md",
-    "POSITION_INTAKE.md", "CHART_OPTIONS_WORKFLOW.md", "TRADE_BOOK.md", "SETUPS.tsv", "POSTMORTEMS.md",
+    "POSITION_INTAKE.md", "CHART_OPTIONS_WORKFLOW.md", "TRADE_BOOK.md", "SETUPS.tsv", "SIGNALS.tsv", "POSTMORTEMS.md",
     "scripts/boot.py", "scripts/snapshot.py", "scripts/risk_calc.py", "scripts/chain_parse.py",
 ]
+
+# Active rows older than this many days get a re-verify / retire flag at boot (anti-rot).
+SIGNAL_STALE_DAYS = 21
 
 
 def sh(cmd):
@@ -58,6 +62,30 @@ def setups():
     return openish, errors
 
 
+def _parse_date(s):
+    try:
+        y, m, d = (s or "").strip().split("-")
+        return date(int(y), int(m), int(d))
+    except Exception:
+        return None
+
+
+def signals():
+    """Positioning/timing context ledger (WALTER INFO + other routed context). Decay-aware."""
+    p = TERRY_DIR / "SIGNALS.tsv"
+    if not p.exists():
+        return [], ["SIGNALS.tsv missing"]
+    errors = []
+    with p.open(newline="") as f:
+        rows = list(csv.DictReader(f, delimiter="\t"))
+    lines = p.read_text().splitlines()
+    cols = len(lines[0].split("\t")) if lines else 0
+    bad = [i for i, line in enumerate(lines[1:], 2) if line and len(line.split("\t")) != cols]
+    if bad:
+        errors.append(f"SIGNALS.tsv bad column count on lines: {bad[:8]}")
+    return rows, errors
+
+
 def latest_status_head(lines=18):
     p = TERRY_DIR / "STATUS.md"
     if not p.exists():
@@ -88,6 +116,26 @@ def run(args):
     for e in errors:
         print(f"  ⚠ {e}")
 
+    sig_rows, sig_errors = signals()
+    active = [r for r in sig_rows if (r.get("status") or "").upper() in {"LIVE", "LIVE-WEAK", "DECAYING"}]
+    print("\nSignals (positioning/timing context — see SIGNALS.tsv):")
+    print(f"  active rows: {len(active)} of {len(sig_rows)}")
+    today = date.today()
+    for r in active:
+        st = (r.get("status") or "").upper()
+        d = _parse_date(r.get("as_of"))
+        age, flag = "", ""
+        if d:
+            days = (today - d).days
+            age = f"{days}d"
+            if st in {"LIVE", "LIVE-WEAK"} and days > SIGNAL_STALE_DAYS:
+                flag = "  ⚠ STALE >21d — re-verify or retire"
+            elif st == "DECAYING" and days > SIGNAL_STALE_DAYS:
+                flag = "  ⚠ decaying >21d — reconfirm before use"
+        print(f"  - {r.get('signal_id')} [{st}] {r.get('bears_on')} | {r.get('key_level')} | as_of {r.get('as_of')} ({age}){flag}")
+    for e in sig_errors:
+        print(f"  ⚠ {e}")
+
     print("\nSTATUS head:")
     for line in latest_status_head():
         print("  " + line)
@@ -116,6 +164,8 @@ def selftest():
         print(f"SELFTEST FAIL missing/empty: {missing}")
         return 1
     _, errors = setups()
+    _, sig_errors = signals()
+    errors = errors + sig_errors
     if errors:
         print(f"SELFTEST FAIL: {errors}")
         return 1
