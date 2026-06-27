@@ -100,7 +100,7 @@ Complete the auto-push lazy-sweep on the 7 drift agents (NEXUS, BRENT, VIOLET, R
 
 ### Still open (not in Lanes 1+2)
 - **Wiring the alert into agent boots** — ✅ DONE for the 6 rotting agents (BRENT/REGINALD/BROCK/HAWK/RED/CARL; commit `63e90d53`, Will-directed targeted wiring). Each now runs `ledger_staleness.py <NAME> --quiet` at boot. Fleet-wide wiring (the other 13 active agents) remains optional/later.
-- **Lane 3 (deferred):** NEXUS (LAST_COMPLETION→SCRATCH, drop HERMES/DARWIN, refresh spine — bundle w/ PREDICTIONS_MONITOR migration), HENRY (LAST_COMPLETION), BOND (HERMES-live refs).
+- **Lane 3 — ✅ ROUTED 2026-06-27 PM** (commit `7496b81e`): owner-SIGs in NEXUS/HENRY/BOND inboxes (intake, next-boot). NEXUS (LAST_COMPLETION→SCRATCH-or-document, drop HERMES/DARWIN, refresh spine, refresh+migrate PREDICTIONS_MONITOR); HENRY (document LAST_COMPLETION as deliberate Will-facing + refresh NEXUS_BRIEF); BOND (drop HERMES-live refs). Owners apply at their next session.
 - **Lane 4:** owner brief/STATUS-spine refreshes (BRENT/LABOR/BROCK/REGINALD).
 - **CREED Tier-2** CLAUDE.md has no git-protocol section (low-pri).
 - **PROME self-notes:** CLAUDE.md "ask before push" vs auto-push reconcile; CLOSEOUT.md stale "COMM" ref.
