@@ -346,3 +346,13 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-06-27T15:17:00Z	SIG-W-20260627-017	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260627-017.md	written_not_delivered_pending_push	headline-positive vs ex-AI-contraction
 2026-06-27T15:18:00Z	SIG-W-20260627-018	HENRY	action	CC	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260627-018.md	written_not_delivered_pending_push	Apple-CXMT DRAM; AI-memory cost-inflation acute
 2026-06-27T15:18:00Z	SIG-W-20260627-018	SAM	info	CC	PRIORITY	AGENTS/SAM/inbox/WALTER/SIG-W-20260627-018.md	written_not_delivered_pending_push	Samsung/SK Hynix dependence-reduction headwind
+2026-06-27T15:59:00Z	SIG-W-20260627-019	HENRY	action	CC	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260627-019.md	written_not_delivered_pending_push	124GW on-site gas / 40% undated cancellation-risk
+2026-06-27T15:59:00Z	SIG-W-20260627-019	BRENT	info	CC	PRIORITY	AGENTS/BRENT/inbox/WALTER/SIG-W-20260627-019.md	written_not_delivered_pending_push	124GW on-site gas / 40% undated cancellation-risk
+2026-06-27T15:59:00Z	SIG-W-20260627-019	LIQUID	info	CC	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260627-019.md	written_not_delivered_pending_push	124GW on-site gas / 40% undated cancellation-risk
+2026-06-27T15:59:00Z	SIG-W-20260627-019	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260627-019.md	written_not_delivered_pending_push	124GW on-site gas / 40% undated cancellation-risk
+2026-06-27T15:59:00Z	SIG-W-20260627-020	CARL	action	CC	PRIORITY	AGENTS/CARL/inbox/WALTER/SIG-W-20260627-020.md	written_not_delivered_pending_push	homeownership total cost +39% to $28,596
+2026-06-27T15:59:00Z	SIG-W-20260627-020	CORAL	info	CC	PRIORITY	AGENTS/CORAL/inbox/WALTER/SIG-W-20260627-020.md	written_not_delivered_pending_push	homeownership total cost +39% to $28,596
+2026-06-27T15:59:00Z	SIG-W-20260627-020	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260627-020.md	written_not_delivered_pending_push	homeownership total cost +39% to $28,596
+2026-06-27T15:59:00Z	SIG-W-20260627-021	VIOLET	action	CC	ROUTINE	AGENTS/VIOLET/inbox/WALTER/SIG-W-20260627-021.md	written_not_delivered_pending_push	PE/VIX spread vol-expansion analog (stale-caveat)
+2026-06-27T15:59:00Z	SIG-W-20260627-021	HENRY	info	CC	ROUTINE	AGENTS/HENRY/inbox/WALTER/SIG-W-20260627-021.md	written_not_delivered_pending_push	PE/VIX spread vol-expansion analog (stale-caveat)
+2026-06-27T15:59:00Z	SIG-W-20260627-021	RED	info	CC	ROUTINE	AGENTS/RED/inbox/WALTER/SIG-W-20260627-021.md	written_not_delivered_pending_push	PE/VIX spread vol-expansion analog (stale-caveat)
