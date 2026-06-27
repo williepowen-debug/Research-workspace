@@ -32,6 +32,7 @@ SPECS = [
     "design/FILTER_SPEC.md",
     "design/SIGNAL_PROCESSING_CHECKLIST.md",
     "design/CLUSTER_TAXONOMY.md",
+    "design/BOARD_CONSUMPTION_SPEC.md",
 ]
 
 # version token: title form `# ... vX.Y` OR `**Version:** [v]X.Y`

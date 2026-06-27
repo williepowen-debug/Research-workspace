@@ -26,7 +26,7 @@
 
 ## GAPS
 
-- **Push:** 🔴 DEFERRED — origin behind by 3 (`70b2f9d0` CHECKLIST v0.22 + `d2b10c5c` STATUS-recovery + this DEWEY-routing/closeout commit). PROME (`PROME/HANDOFF.md`/`SCRATCH.md`) + Will's `WILL/trading-journal/` files uncommitted in tree → did NOT pull, no auto-push, per `[[feedback_defer_push_coordinate]]`. Next clean-tree session or PROME safe-push sweeps the train.
+- **Push:** 🟢 CLEAN — the recovery train swept (`70b2f9d0`/`d2b10c5c`/`1d458b23` all on origin); origin synced. Boot session ahead 1 (`dae7ba99` BOARD-INDEX reconcile) — sweeps next safe-push. *(The "origin behind 3 / files uncommitted" GAPS note was the mid-recovery state, resolved at the 6/27 boot.)*
 - **delivered_but_unconsumed** +4 (SIG-033 → HENRY/BROCK/SHADE/RED, CC pending-push) on top of the session-1/2 backlog.
 - **2 DEWEY prompts still PENDING** (REQ-003 muni-fiscal / REQ-004 housing-distress; REQ-001 + REQ-002 now DELIVERED + routed as SIG-033 / SIG-034) — Will runs DEWEY; returns via `inbox/DEWEY/`, WALTER routes per Phase 2.8b + closes ledger rows.
 - **Cushing N/A** (EIA `.env` machine-local gone — Boundary #3 dark this box).
