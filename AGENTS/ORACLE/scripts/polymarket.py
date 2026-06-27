@@ -397,6 +397,9 @@ MOVERS_EXCLUDE = (
     "time person", " vs ", " vs.", "epstein", "nomination", "prime minister", "president of",
     "presidential election", "speaker of", "mayor", "governor", "senate seat", "parliament",
     "coach", "manager", "up or down", "up/down",  # daily coin-flip direction bets = noise
+    # daily/sports/misc noise that leaked through --all (matched against question + slug):
+    "temperature", "rainfall", "win by", "o/u", "total games", "games total", "the fight",
+    " rounds", "earthquake", "trailer", "npb", "cs2-", "atp-", "wta-", "-lol-", "dota",
 )
 
 
@@ -421,7 +424,10 @@ def cmd_movers(args):
                 if slug in known and not args.tracked:
                     continue
                 q = (m.get("question") or "").lower()
-                if any(x in q for x in MOVERS_EXCLUDE):
+                # check EXCLUDE against question + slug (sports/esports markets often have a
+                # generic question like "O/U 1.5 Rounds" — the league is only in the slug)
+                hay = q + " " + slug.lower().replace("-", " ")
+                if any(x.replace("-", " ") in hay for x in MOVERS_EXCLUDE):
                     continue
                 if not args.all and not any(x in q for x in MOVERS_INCLUDE):
                     continue
