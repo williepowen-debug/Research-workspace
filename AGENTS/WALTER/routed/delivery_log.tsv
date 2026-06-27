@@ -337,3 +337,7 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-06-27T14:24:00Z	SIG-W-20260627-013	BROCK	info	CC	PRIORITY	AGENTS/BROCK/inbox/WALTER/SIG-W-20260627-013.md	written_not_delivered_pending_push	CMBS mezz/B-piece securitized-credit overlap
 2026-06-27T14:25:00Z	SIG-W-20260627-014	SAM	action	CC	PRIORITY	AGENTS/SAM/inbox/WALTER/SIG-W-20260627-014.md	written_not_delivered_pending_push	Korea seniors 60% of margin book doubled YoY
 2026-06-27T14:25:00Z	SIG-W-20260627-014	HENRY	info	CC	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260627-014.md	written_not_delivered_pending_push	leverage-unwind accelerant (forced-seller demographic)
+2026-06-27T15:08:00Z	SIG-W-20260627-015	SAM	action	CC	PRIORITY	AGENTS/SAM/inbox/WALTER/SIG-W-20260627-015.md	written_not_delivered_pending_push	Japan bridging-bonds off-balance-sheet framework
+2026-06-27T15:08:00Z	SIG-W-20260627-015	LIQUID	info	CC	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260627-015.md	written_not_delivered_pending_push	off-balance-sheet sovereign debt
+2026-06-27T15:09:00Z	SIG-W-20260627-016	CARL	action	CC	PRIORITY	AGENTS/CARL/inbox/WALTER/SIG-W-20260627-016.md	written_not_delivered_pending_push	April PCE + Timiraos 3mo-annualized 6% momentum
+2026-06-27T15:09:00Z	SIG-W-20260627-016	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260627-016.md	written_not_delivered_pending_push	soft-print vs hot-momentum cluster_mediating
