@@ -378,6 +378,85 @@ def cmd_pull(args):
         print(f"\nlogged {len(logrows)} rows → {ODDS_LOG}")
 
 
+# --- `movers` discovery: macro/finance/geopolitics filter; skip sports/elections noise ---
+MOVERS_INCLUDE = (
+    "fed", "interest rate", "rate cut", "rate hike", "inflation", "cpi", "pce", "recession", "gdp",
+    "unemploy", "jobless", "payroll", "bank", "bailout", "default", "debt ceiling", "treasury", "yield",
+    "credit", "powell", "tariff", "trade deal", "trade war", "trump", "economy", "stock", "s&p", "sp 500",
+    "nasdaq", "dow", "vix", "gold", "silver", "oil", "wti", "brent", "opec", "bitcoin", "btc", "ethereum",
+    "eth", "crypto", "microstrategy", "mstr", "china", "taiwan", "russia", "ukraine", "iran", "israel",
+    "north korea", "venezuela", "nuclear", "ceasefire", "war", "strike", "hormuz", "invade", "shutdown",
+    "supreme court", "greenland", "gaza", "hezbollah", "houthi", "nato", "sanction", "fannie", "freddie",
+    "moody", "downgrade", "emergency", "quantitative", "mortgage", "housing", "layoff", "hurricane",
+    "dollar", "yuan", "yen", "copper", "opec", "saudi", "fed funds",
+)
+MOVERS_EXCLUDE = (
+    "world cup", "fifa", "win the", "super bowl", " nba", " nfl", " mlb", " nhl", "premier league",
+    "champions league", "ballon", "mvp", "grand prix", " f1 ", "tennis", "golf", "ufc", "boxing",
+    "olympic", "oscar", "grammy", "album", "movie", "box office", "rotten tomato", "nobel",
+    "time person", " vs ", " vs.", "epstein", "nomination", "prime minister", "president of",
+    "presidential election", "speaker of", "mayor", "governor", "senate seat", "parliament",
+    "coach", "manager", "up or down", "up/down",  # daily coin-flip direction bets = noise
+)
+
+
+def cmd_movers(args):
+    """Discover the biggest-moving markets we are NOT already tracking. Queries Gamma
+    ordered directly by price-change (catches news-reactive movers regardless of lifetime
+    volume), filters to our domain, excludes sports/elections, and flags near-resolve
+    (likely-mechanical) convergence so it doesn't read as signal."""
+    known = {w["slug"] for w in _read_watchlist()}
+    rows, seen = {}, set()
+    for field in ("oneDayPriceChange", "oneWeekPriceChange"):
+        for asc in ("false", "true"):
+            try:
+                d = _get("/markets", {"closed": "false", "active": "true",
+                                      "order": field, "ascending": asc, "limit": args.scan})
+            except Exception:  # noqa: BLE001
+                continue
+            for m in (d or []):
+                slug = m.get("slug") or ""
+                if not slug or slug in seen:
+                    continue
+                if slug in known and not args.tracked:
+                    continue
+                q = (m.get("question") or "").lower()
+                if any(x in q for x in MOVERS_EXCLUDE):
+                    continue
+                if not args.all and not any(x in q for x in MOVERS_INCLUDE):
+                    continue
+                pm = parse_market(m)
+                if pm["yes"] is None:
+                    continue
+                if (pm["liquidity"] or 0) < args.min_liq and (pm["volume"] or 0) < args.min_vol:
+                    continue
+                mv = max(abs(pm["d1"] or 0), abs(pm["d7"] or 0))
+                if mv < args.min / 100.0:
+                    continue
+                seen.add(slug)
+                rows[slug] = (mv, pm)
+    ranked = sorted(rows.values(), key=lambda r: -r[0])
+    scope = "ALL non-sports" if args.all else "domain (macro/finance/geopolitics)"
+    print(f"Polymarket movers — {scope}; ≥{args.min:g}pp 1d|7d; liq≥${args.min_liq/1000:.0f}K or vol≥${args.min_vol/1000:.0f}K"
+          + ("; incl. tracked" if args.tracked else "; excl. tracked") + f"  [{len(ranked)} hits]\n")
+    print(f"{'YES':>6} {'Δ1d':>6} {'Δ7d':>6} {'vol':>7} {'liq':>7}  question  [slug]")
+    print("-" * 124)
+    for mv, pm in ranked[:args.top]:
+        flag = ""
+        if pm.get("resolved"):
+            flag = " ⛔res"
+        elif pm.get("days_left") is not None and 0 <= pm["days_left"] <= 3:
+            flag = f" ⚙{pm['days_left']}d"   # near-resolve → likely mechanical convergence, not signal
+        print(f"{_pct(pm['yes'])} {_delta(pm['d1'])} {_delta(pm['d7'])} "
+              f"{_money(pm['volume']):>7} {_money(pm['liquidity']):>7}  "
+              f"{(pm['question'] or '')[:60]}{flag}  [{(pm['slug'] or '')[:40]}]")
+    if not ranked:
+        print("(no movers cleared the filters — try --min 3, --all, or --tracked)")
+    elif not args.all:
+        print("\n⚙ = resolves ≤3d (likely mechanical convergence, eyeball not signal). "
+              "--all drops the domain filter · --tracked includes watchlist markets.")
+
+
 def main():
     ap = argparse.ArgumentParser(description="ORACLE Polymarket fetcher")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -386,6 +465,15 @@ def main():
     s = sub.add_parser("event"); s.add_argument("slug"); s.set_defaults(fn=cmd_event)
     s = sub.add_parser("pull"); s.add_argument("--log", action="store_true"); s.add_argument("--json", action="store_true"); s.set_defaults(fn=cmd_pull)
     s = sub.add_parser("history"); s.add_argument("--write", action="store_true"); s.set_defaults(fn=cmd_history)
+    s = sub.add_parser("movers")
+    s.add_argument("--min", type=float, default=5.0, help="min 1d|7d move in pp (default 5)")
+    s.add_argument("--top", type=int, default=30, help="rows to show (default 30)")
+    s.add_argument("--scan", type=int, default=250, help="markets per Gamma query (default 250)")
+    s.add_argument("--min-liq", type=float, default=5000.0, dest="min_liq")
+    s.add_argument("--min-vol", type=float, default=30000.0, dest="min_vol")
+    s.add_argument("--all", action="store_true", help="drop the domain filter (still skips sports/elections)")
+    s.add_argument("--tracked", action="store_true", help="include markets already in watchlist")
+    s.set_defaults(fn=cmd_movers)
     args = ap.parse_args()
     args.fn(args)
 
