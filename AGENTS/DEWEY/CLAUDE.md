@@ -98,7 +98,7 @@ The Process Report is mandatory — it's how we improve DEWEY over time. Be hone
 
 ## TOOLS
 
-- **Engine:** the `/deep-research` skill (primary, for depth).
+- **Engine:** the `/deep-research` skill (primary, for depth) — it now runs as a **background Workflow** (fan-out searches → fetch sources → adversarially verify → synthesize; notifies you on completion, raw synthesized output lands in `/tmp/<munged-cwd>/<session>/tasks/<id>.output`). Layer DEWEY discipline + an independent primary-source pass (your `scripts/`) on the load-bearing numbers on top of whatever it returns — the skill is broad; your primary pull is the verification.
 - **Data-pull scripts** (`AGENTS/DEWEY/scripts/`): `fred_pull.py` (FRED series), `edgar_fetch.py` (SEC filings). These are the data-pull home (your Level-2 role).
 - **Richer market data:** `FORGE/tools/market-data/` — `dashboard.py` (full stress dashboard), `fetch.py price TICKER` (live equity/ETF). Prefer FORGE for live prices/credit; use your own `scripts/` for targeted FRED/EDGAR pulls.
 - **Web:** WebSearch / WebFetch (the skill uses these internally; you can also use them directly for focused lookups).
@@ -108,10 +108,10 @@ The Process Report is mandatory — it's how we improve DEWEY over time. Be hone
 
 ## BOOT (when Will launches you)
 
-1. **`git pull`** — sync from GitHub (source of truth). Follow the pull protocol in root `CLAUDE.md`.
+1. **`git pull`** — sync from GitHub (source of truth). Follow the pull protocol in root `CLAUDE.md`. **If you're resuming after a crash** (Will says so, or you see your own uncommitted/unpushed work): before re-running anything, check `git status` + `git log` for in-flight commits and salvage any crashed `/deep-research` scratch — `[[finding_workflow_scratch_crash_recovery]]`. DEWEY has crashed mid-run before; the finished work is often already saved/committed, so verify state before redoing it.
 2. **Read this `CLAUDE.md`** (you're doing it).
-3. **Read `CONTEXT.md`** — current thesis-mode domain context (the 11-cluster thesis set + active agent domains). **🔴 Phase-3 hard gate (first live run): CONTEXT.md MUST be refreshed before your first revived research run.** As of 2026-06-20 its Iran/geopolitics framing is STALE — it pre-dates the 6/20 Hormuz re-closure re-stamp in `AGENTS/WALTER/anchors/IRAN_WAR.md`. If `CONTEXT.md` is older than the live thesis state, refresh it from `AGENTS/WALTER/design/CLUSTER_TAXONOMY.md` + `AGENTS/WALTER/REGISTRY.tsv` + the IRAN_WAR anchor BEFORE running research that touches a stale domain. (Per Will 2026-06-20: don't block Phase-2 wiring on this, but it is REQUIRED before the first live run.)
-4. **Read the question/prompt Will gave you.** If it came from a WALTER Phase-2.8 flag, the prompt is already decision-led + scoped — follow it.
+3. **Read `CONTEXT.md`** — thesis-mode domain context (the 11-cluster thesis set + active agent domains). Steady-state file now (the one-time revival refresh gate is cleared — last refreshed 2026-06-21, multiple live runs since). If it's materially older than the live thesis state — especially on a fast-moving domain the question touches — refresh it from `AGENTS/WALTER/design/CLUSTER_TAXONOMY.md` + `AGENTS/WALTER/REGISTRY.tsv` (+ the relevant `AGENTS/WALTER/anchors/` file) before running research on that domain.
+4. **Get the question.** First scan `AGENTS/DEWEY/inbox/WALTER/` for queued `DEEP-RESEARCH-PROMPT-*.md` files (state NEW = present in the lane, not yet in `processed/`) — WALTER drops Will-approved Phase-2.8 prompts there; surface any standing queue to Will. Then take the specific question Will gave you (it may be one of those, or a fresh ask). Phase-2.8 prompts are already decision-led + scoped — follow them. On consume, `git mv` the prompt to `inbox/WALTER/processed/` at closeout.
 5. **Pick mode** (Cold vs Thesis) and **pick engine** (full `/deep-research` skill vs targeted tools) based on the question's depth.
 
 ## EXECUTE

@@ -9,4 +9,4 @@
 
 **Rules:** WALTER only ever CREATES here; DEWEY/Will move to `processed/` on consume. The matching `AGENTS/WALTER/registry/DEEP_RESEARCH_FLAGGED_LOG.tsv` row (WALTER-owned) tracks disposition; WALTER closes it when the report returns (CHECKLIST Phase 2.8b).
 
-*Created 2026-06-27 — first WALTER→DEWEY queued batch (3 prompts, Will-approved). DEWEY boot does not yet auto-scan this lane; Will points DEWEY here ("run your inbox/WALTER/ prompts") until/unless a boot-step is added to DEWEY's CLAUDE.md.*
+*Created 2026-06-27 — first WALTER→DEWEY queued batch (3 prompts, Will-approved). **Boot-scan added 2026-06-27** (DEWEY CLAUDE.md BOOT step 4): DEWEY now scans this lane at boot and surfaces any standing queue to Will; the consumed prompt is `git mv`'d to `processed/` at closeout. Will can still point DEWEY at a specific prompt directly.*
