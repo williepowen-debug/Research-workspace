@@ -1,5 +1,9 @@
 # HAWK SOURCES
 
+> **Reference index — NOT boot-read.** Consulted ad hoc when running a theater scan; not part of the BOOT sequence (STATUS/SCRATCH/LESSONS/predictions). Sources below are evergreen monitoring endpoints — refreshed, not rebuilt.
+> **Last refreshed:** 2026-06-26 (created 2026-02-18).
+> **Oil handoff (Mar 6 2026):** oil prices / storage / tanker *markets* are **BRENT's** lane. HAWK owns military ops, chokepoint *transit* tracking, escalation indicators, and geopolitical catalysts — see the Energy/Commodity section for the split.
+
 Monitored sources for geopolitical and military risk.
 
 ---
@@ -73,13 +77,16 @@ Key accounts for real-time military tracking:
 
 ---
 
-## Energy/Commodity Impact
+## Energy/Commodity Impact — **BRENT-owned (defer)**
 
-| Source | URL | Focus | Signal Quality |
-|--------|-----|-------|----------------|
-| TankerTrackers | https://tankertrackers.com | Oil shipping | High |
-| Kpler | https://www.kpler.com | Commodity flows | High |
-| S&P Global Platts | https://www.spglobal.com/platts | Energy pricing | High |
+> Oil pricing, storage, tanker-market rates → **BRENT** owns these; reference BRENT's values, don't re-derive (Mar 6 2026 handoff). HAWK's use of the flow trackers below is narrow: **chokepoint military-transit monitoring** (Hormuz/Bab-al-Mandab vessel counts, AIS dark-transit, naval blockade status) — not oil-price formation.
+
+| Source | URL | Focus | HAWK use |
+|--------|-----|-------|----------|
+| TankerTrackers | https://tankertrackers.com | Oil shipping / AIS | Chokepoint transit counts only |
+| Kpler | https://www.kpler.com | Commodity flows | Hormuz throughput / dark-transit |
+| MarineTraffic | https://www.marinetraffic.com | Vessel AIS | Naval + transit tracking (also Military) |
+| S&P Global Platts | https://www.spglobal.com/platts | Energy pricing | → BRENT (reference only) |
 
 ---
 
@@ -100,6 +107,10 @@ Key accounts for real-time military tracking:
 - Kyiv Independent: https://kyivindependent.com
 - Meduza: https://meduza.io/en
 
+### Venezuela / Latin America
+- Reuters/AP world wires (above) — primary
+- InSight Crime: https://insightcrime.org — regional security/sanctions
+
 ---
 
 ## Scan Frequency
@@ -111,4 +122,8 @@ Key accounts for real-time military tracking:
 | 🟠 ORANGE | Daily |
 | 🔴 RED | Continuous / multiple daily |
 
-**Current:** 🔴 RED (Iran) — Daily scans minimum
+**Current posture (2026-06-26):**
+- **Iran / Gulf — 🟠 ORANGE** (down from 🔴; Jun 17 ceasefire/MOU signed, kinetic halted, decoupling test passed Jun 22 — escalation re-engaged sub-kinetic but quiescent). Daily scans.
+- **Russia/Ukraine — 🟠** (at peak separately; oil-infrastructure strikes feed BRENT).
+- Venezuela / Taiwan / trade war — 🟡 secondary watch.
+> Canonical tier truth lives in `STATUS.md`, not here — this footer is a quick-reference snapshot, refresh at closeout if posture shifts a tier.
