@@ -50,7 +50,7 @@ Detection (HY-280 break, print alerts) is LIQUID/SENTRY; TERRY owns everything A
 - `.gitignore` (scripts/.cache/ + grades/). Arch peer-review vs LIQUID → PROME/cluster/.
 - This Fix-B durable layer: MEMORY.md + CLOSEOUT.md created; STATUS.md rewritten to live state.
 
-**Pending:** nothing committed (Will-coordinated push — flag for next window). $500/card set by Will.
+**Status (truth-up 6/27):** all delivered — committed (`1fa1ca23` + `d9498dfd`) and pushed via WALTER's push-train; synced 0/0. $500/card set by Will.
 
 ---
 

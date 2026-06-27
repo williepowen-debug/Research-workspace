@@ -1,5 +1,5 @@
 # TERRY STATUS
-**Updated:** 2026-06-26 (Fix-B: durable layer added — MEMORY + CLOSEOUT created, STATUS rewritten to live state) · **Status:** 🟡 armed — fire-card toolchain built & tested, 0 cards fired live, waiting on a trigger
+**Updated:** 2026-06-27 (boot truth-up: 6/26 toolchain confirmed committed+pushed; folded 7 WALTER INFO signals into squeeze-risk context) · **Status:** 🟡 armed — fire-card toolchain built & tested, 0 cards fired live, waiting on a trigger
 **Agent:** TERRY — trade construction / tactical execution discipline. Owns the ACTION/card side; never executes. Detection = LIQUID/SENTRY.
 
 > Durable mandate + lessons → `MEMORY.md`. Session-end procedure → `CLOSEOUT.md`. Role/start-here → `README.md`. Risk gates → `RISK_SCORING.md`.
@@ -21,8 +21,9 @@
 | Risk unit for Will | 🟡 open | $/%/R preference unresolved (see MEMORY Standing Decisions) |
 
 ## What's pending
-- **Nothing committed this session** — Will-coordinated push; flag for next window (chain_fetch, grade_print, grade_config, fire template + 2 setups, .gitignore, MEMORY, CLOSEOUT, this STATUS).
+- **6/26 toolchain landed** — committed (`1fa1ca23` tooling + `d9498dfd` durable layer) and swept to origin by WALTER's push-train; synced 0/0. No push pending.
 - **Awaiting a fired trigger** to exercise a fire card (HY OAS ≥280 sustained, or a Jul 16–30 print grading as transmission).
+- **Squeeze-risk context (WALTER INFO, 6/26–27):** crowded-long extreme — $884B 12-mo equity inflows (record, 2×), median single-stock SI at 15yr/GFC high, GS-CTA pivots short 7,352 / mid 7,063 / long 6,642 (down-tape −$40bn vs melt-up +$6.7bn), breadth top-tell. Net: any near-term short-side fire card carries elevated squeeze risk — size for it; CTA mechanical-sell window opens only below 7,352.
 
 ## Open questions for Will
 - Preferred default risk unit: $ max loss / % portfolio / R?
