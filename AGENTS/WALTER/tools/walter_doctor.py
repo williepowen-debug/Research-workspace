@@ -13,8 +13,11 @@ surfaced for awareness.
 
 Checks:
   version_drift          spec header vs STATE.md §1            (reuses version_drift_check)
+  claude_md_version_drift  CLAUDE.md spec-version citations vs spec headers (the boot doc nothing else watched)
   board_reconcile        ToC == section headers == SIG rows == files on disk
+  log_reconcile          route_log / delivery_log SIG-ids ↔ BOARD files (orphans / missing)
   cron_liveness          3 boot-triage feeds (step 7c) vs cadence
+  cushing_capability     EIA .env / key present → Boundary-#3 (Cushing) auto-fire live (silent-death guard)
   outbox_age             all staged outbox files (REQ-* >14d retry; drafts surfaced)
   registry_staleness     Tier-1 REGISTRY rows with Updated >14d
   registry_lag           REGISTRY date vs agent's last STATUS commit (board-lags-agents)
@@ -22,6 +25,7 @@ Checks:
   delivered_but_unconsumed  inbox/WALTER/ handoff delivered but not moved to processed/ (>N days)
   written_but_undelivered   inbox/WALTER/ handoff committed-local but not on origin (git-derived)
   deep_research_pending_overdue  DEEP_RESEARCH_FLAGGED_LOG row PENDING past its deadline (or stale open >30d)
+  staleness_sweep_overdue  last STALENESS_SWEEP_*.tsv vs 14d cadence (lifecycle-tagging lapse guard)
 
 The two delivery checks mechanize BOARD_CONSUMPTION_SPEC v0.2 §6 (the anti-rot
 safeguard for the WALTER Routing v2 delivery layer). Sync/origin state is derived
@@ -484,10 +488,129 @@ def check_deep_research_pending_overdue():
     return out
 
 
+# ── CLAUDE.md spec-version citations (the auto-loaded boot doc nothing else watched) ─
+def check_claude_md_version_drift():
+    """version_drift_check guards spec headers vs STATE.md §1, but nothing watched
+    CLAUDE.md — the most-read doc — so its 'BOARD_CONSUMPTION_SPEC v0.2' KEY-DESIGN-
+    FILES row sat 4 versions stale (caught only by the 2026-06-27 6-agent self-audit).
+    Scoped to the ONE unambiguous current-version-claim location: a KEY DESIGN FILES
+    table row whose first cell is `design/<SPEC>.md` and whose description cell LEADS
+    with `vN.M`. Historical 'feature X landed in FORMAT_SPEC v0.8' provenance (the
+    CANONICAL-SOURCE table — filename in one cell, version in another) is deliberately
+    NOT matched, so the check stays low-noise (a noisy check gets ignored)."""
+    from version_drift_check import SPECS, spec_version
+    try:
+        claude = (WALTER / "CLAUDE.md").read_text(errors="replace")
+    except OSError:
+        return [(LOW, "CLAUDE.md unreadable — skipped")]
+    out = []
+    for rel in SPECS:
+        base = Path(rel).name
+        hv = spec_version(WALTER / rel)
+        if hv is None:
+            continue
+        # | `design/<base>` | **vN.M ...  — filename in cell-1, version leads cell-2
+        m = re.search(rf"^\|\s*`?[^|]*{re.escape(base)}[^|]*`?\s*\|\s*\*{{0,2}}v(\d+\.\d+)",
+                      claude, re.M)
+        if m and m.group(1) != hv:
+            out.append((MED, f"CLAUDE.md KEY DESIGN FILES row cites {base} at v{m.group(1)} "
+                            f"but spec header is v{hv} — update the boot doc"))
+    if not out:
+        out.append((INFO, "CLAUDE.md KEY-DESIGN-FILES version claims match spec headers"))
+    return out
+
+
+# ── log↔BOARD reconciliation (route_log / delivery_log audit trails) ─────────
+def check_log_reconcile():
+    """board_reconcile checks INDEX↔files; this checks the AUDIT TRAILS that prove a
+    signal actually routed/delivered. Orphan (logged, no BOARD file) or missing
+    (BOARD file, never logged) = drift nothing else catches. delivery_log only covers
+    post-2026-06-17 (Routing v2), so we check subset-containment, not raw counts."""
+    board_ids = set()
+    for p in BOARD.glob("SIG-W-*.md"):
+        m = re.match(r"(SIG-W-\d{8}-\d{3})", p.name)
+        if m:
+            board_ids.add(m.group(1))
+
+    def log_ids(relpath):
+        p = WALTER / relpath
+        if not p.exists():
+            return None
+        ids = set()
+        for line in p.read_text(errors="replace").splitlines()[1:]:
+            m = re.search(r"SIG-W-\d{8}-\d{3}", line)
+            if m:
+                ids.add(m.group(0))
+        return ids
+
+    out = []
+    route = log_ids("routed/route_log.tsv")
+    if route is not None:
+        orphan = sorted(route - board_ids)
+        missing = sorted(board_ids - route)
+        if orphan:
+            out.append((MED, f"route_log: {len(orphan)} SIG-id(s) with NO BOARD file "
+                            f"({', '.join(orphan[:4])}{'…' if len(orphan) > 4 else ''})"))
+        if missing:
+            out.append((MED, f"{len(missing)} BOARD file(s) never in route_log "
+                            f"({', '.join(missing[:4])}{'…' if len(missing) > 4 else ''})"))
+        if not orphan and not missing:
+            out.append((INFO, f"route_log reconciles with BOARD ({len(board_ids)} signals)"))
+    deliv = log_ids("routed/delivery_log.tsv")
+    if deliv is not None:
+        d_orphan = sorted(deliv - board_ids)
+        if d_orphan:
+            out.append((MED, f"delivery_log: {len(d_orphan)} delivered SIG-id(s) with NO "
+                            f"BOARD file ({', '.join(d_orphan[:4])})"))
+        else:
+            out.append((INFO, f"delivery_log: all {len(deliv)} delivered SIG-ids have a "
+                            f"BOARD file (post-6/17 coverage)"))
+    return out
+
+
+# ── Cushing/Boundary-#3 capability (silent-death of a wired auto-fire) ───────
+def check_cushing_capability():
+    """Boot step-6c claims Cushing (ROUTING_TABLE Boundary #3, <20M → IMMEDIATE) is
+    auto-scanned, but the EIA key lives in a gitignored machine-local .env that does
+    not survive a box change — so the trigger goes silently dark (reads N/A). Cheap
+    file probe (no 30s dashboard pull) so the silent-death becomes a loud boot flag."""
+    env = REPO / "FORGE" / "tools" / "market-data" / ".env"
+    if not env.exists():
+        return [(MED, "Cushing/Boundary-#3 DARK: FORGE/tools/market-data/.env missing "
+                     "(EIA key gone — step-6c Cushing scan reads N/A)")]
+    try:
+        if "EIA_API_KEY" not in env.read_text(errors="replace"):
+            return [(MED, ".env present but no EIA_API_KEY → Cushing/Boundary-#3 scan dark")]
+    except OSError:
+        return [(LOW, ".env unreadable — Cushing capability unverifiable")]
+    return [(INFO, "EIA key present (Cushing/Boundary-#3 scan live)")]
+
+
+# ── staleness-sweep cadence (lifecycle tagging keeping pace with BOARD growth) ─
+def check_staleness_sweep_overdue():
+    """The SUPERSEDED/FALSIFIED/EVENT-PASSED sweep runs ad-hoc; nothing alarmed when
+    it lapsed. Cadence codified here at 14d (was an open design decision). Backstop is
+    the INDEX section-preamble blanket-discount, so MED not HIGH."""
+    sweeps = sorted((WALTER / "registry").glob("STALENESS_SWEEP_*.tsv"))
+    if not sweeps:
+        return [(LOW, "no STALENESS_SWEEP records yet")]
+    m = re.search(r"\d{4}-\d{2}-\d{2}", sweeps[-1].name)
+    if not m:
+        return [(INFO, "staleness sweep present (undated filename)")]
+    age = _age_days(dt.date.fromisoformat(m.group(0)))
+    if age > 14:
+        return [(MED, f"staleness sweep {age}d overdue (last {m.group(0)}, cadence 14d) "
+                     f"— stale-frame BOARD signals may sit untagged")]
+    return [(INFO, f"staleness sweep {age}d ago (last {m.group(0)}, ≤14d)")]
+
+
 CHECKS = [
     ("version_drift", check_version_drift),
+    ("claude_md_version_drift", check_claude_md_version_drift),
     ("board_reconcile", check_board_reconcile),
+    ("log_reconcile", check_log_reconcile),
     ("cron_liveness", check_cron_liveness),
+    ("cushing_capability", check_cushing_capability),
     ("outbox_age", check_outbox_age),
     ("registry_staleness", check_registry_staleness),
     ("registry_lag", check_registry_lag),
@@ -495,6 +618,7 @@ CHECKS = [
     ("delivered_but_unconsumed", check_delivered_but_unconsumed),
     ("written_but_undelivered", check_written_but_undelivered),
     ("deep_research_pending_overdue", check_deep_research_pending_overdue),
+    ("staleness_sweep_overdue", check_staleness_sweep_overdue),
 ]
 
 MARK = {HIGH: "✗", MED: "⚠", LOW: "·", INFO: "✓"}
