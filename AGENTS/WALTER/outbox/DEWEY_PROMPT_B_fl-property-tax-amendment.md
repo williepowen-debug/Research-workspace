@@ -1,3 +1,5 @@
+> ✅ **EXECUTED 2026-06-26** (Will "DEWEY prompt B yes") via `/deep-research` in the WALTER session → report `AGENTS/DEWEY/output/2026-06-26_fl-property-tax-amendment.md`, routed as **SIG-W-20260626-033** (CORAL action / MARCO,REGINALD,CARL,RED info). No DEEP_RESEARCH_FLAGGED_LOG row (WALTER/Will-drafted brief, not a Phase-2.8 T-trigger flag). This brief is retained for provenance.
+
 # DEEP-RESEARCH BRIEF — FL Nov-3-2026 property-tax amendment
 
 **Requested by:** WALTER (routing) for CORAL + MARCO · drafted 2026-06-21
