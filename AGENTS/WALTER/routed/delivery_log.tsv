@@ -341,3 +341,8 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-06-27T15:08:00Z	SIG-W-20260627-015	LIQUID	info	CC	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260627-015.md	written_not_delivered_pending_push	off-balance-sheet sovereign debt
 2026-06-27T15:09:00Z	SIG-W-20260627-016	CARL	action	CC	PRIORITY	AGENTS/CARL/inbox/WALTER/SIG-W-20260627-016.md	written_not_delivered_pending_push	April PCE + Timiraos 3mo-annualized 6% momentum
 2026-06-27T15:09:00Z	SIG-W-20260627-016	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260627-016.md	written_not_delivered_pending_push	soft-print vs hot-momentum cluster_mediating
+2026-06-27T15:17:00Z	SIG-W-20260627-017	CARL	action	CC	PRIORITY	AGENTS/CARL/inbox/WALTER/SIG-W-20260627-017.md	written_not_delivered_pending_push	ex-AI Q1 economy contracted -1.1% (AI-capex-masking)
+2026-06-27T15:17:00Z	SIG-W-20260627-017	HENRY	info	CC	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260627-017.md	written_not_delivered_pending_push	AI capex = only growth engine; macro stakes of AI bear
+2026-06-27T15:17:00Z	SIG-W-20260627-017	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260627-017.md	written_not_delivered_pending_push	headline-positive vs ex-AI-contraction
+2026-06-27T15:18:00Z	SIG-W-20260627-018	HENRY	action	CC	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260627-018.md	written_not_delivered_pending_push	Apple-CXMT DRAM; AI-memory cost-inflation acute
+2026-06-27T15:18:00Z	SIG-W-20260627-018	SAM	info	CC	PRIORITY	AGENTS/SAM/inbox/WALTER/SIG-W-20260627-018.md	written_not_delivered_pending_push	Samsung/SK Hynix dependence-reduction headwind
