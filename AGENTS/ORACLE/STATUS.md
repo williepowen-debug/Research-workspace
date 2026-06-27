@@ -1,6 +1,6 @@
 # ORACLE STATUS
 
-**Updated:** 2026-06-27 13:25Z — live pull + trajectory refresh + roll-watch | prior: 2026-06-22
+**Updated:** 2026-06-27 (session-end) — live pull + trajectory + roll-watch + **Iran two-axis correction** + **Kalshi wired** + `movers` command | prior: 2026-06-22
 **Domain:** Prediction-market monitoring (Polymarket) — crowd-implied probabilities & crowd-vs-thesis divergence
 **Data:** live via `scripts/polymarket.py pull --log` (Gamma API). Time series → `workbook/ODDS_LOG.tsv`; daily trajectory → `workbook/HISTORY.tsv` (4,796 rows, 33 mkts). Cross-agent surface → `NEXUS_BRIEF.md`. Metrics → `PREDICTION_MARKET_METRICS.md`.
 **State:** 🟡 — crowd & fleet still converged on **calm + risk-on** on the macro axis. Two moving pieces: (1) the Fed — a post-FOMC **hawkish overshoot is cooling** (hike-2026 off its ~66% peak to 52%) while higher-for-longer stays pinned (no-cuts 80%); (2) **Iran is a TWO-AXIS split** — nuclear/war de-escalated, but the **Hormuz/shipping axis is actively re-escalating** (Iran struck a ship 6/25, US retaliated 6/26; crowd prices continued attacks 80%+). Macro calm, geopolitical-oil tail live.

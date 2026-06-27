@@ -1,6 +1,6 @@
 # ORACLE — NEXUS Brief
 
-**As of:** 2026-06-27 (pull `2026-06-27T13:25Z`) | **STATUS:** refreshed this session (6/27 closeout)
+**As of:** 2026-06-27 (session-end; last pull `2026-06-27T13:25Z`) | **STATUS:** refreshed this session — Iran two-axis + Kalshi second-source wired
 **Status:** 🟡 — crowd & fleet converged on **calm + risk-on** on the macro axis. Two live movers: a post-FOMC **hawkish overshoot cooling** (not a dovish pivot), and a **two-axis Iran split** — nuclear de-escalated but the **Hormuz/shipping axis actively re-escalating** (ship struck 6/25, US strikes 6/26).
 **Domain:** Prediction-market monitoring (Polymarket) — crowd-implied probabilities & crowd-vs-thesis divergence. Inbound routed by WALTER.
 
