@@ -1,35 +1,30 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-26 EVENING (Claude Code Prome — signal-coordination session: WALTER ran live in a separate window routing Will's 6/26 Telegram stream; Prome coordinated the processing side. Triaged 3 dormant inboxes → processed WALTER's 9-signal stream through 5 owners ×2 rounds → fleet staleness audit → 2 catch-up packets [OZK, HAWK]. Earlier today = separate HEAVY arch/orchestration session, see HANDOFF.)
+**Last Updated:** 2026-06-26 LATE (Claude Code Prome — BRENT+HAWK session: energy adjudication then agent-architecture work, Will-directed "analysis then cleanup". WALTER live in a separate window throughout; coordination file-based via shared repo. Supersedes the earlier 6/26 evening signal-coordination SCRATCH.)
 
-## What happened this session (evening signal-coordination arc)
-**Setup:** Will spawned WALTER in a separate CC window to read+route signals; Prome owned the processing side. Key realization: **same shared local repo → Prome has full live visibility into WALTER's writes** (no SendMessage needed; watch the tree by mtime-diff). All sub-agents run **report-only / no-commit** to stay concurrency-safe against WALTER's live commits; pathspec commits exclude WALTER's untracked files.
+## What happened this session (BRENT + HAWK arc)
+Will: "continue working on our network… work on BRENT and HAWK." Chose **both — analysis first, then cleanup.** Ran BRENT + HAWK as parallel sub-agent sessions (report-only/no-commit; Prome committed each dir sequentially via pathspec to dodge the index race with the live WALTER window), then iterated HAWK across 4 more rounds via its warm agentId.
 
-1. **Backlog triage — ZHAO / HANS / SAM** (Mode-A Workflow, propose-only): 24 items, 5 LIVE survive, 18 cleared. Executed: git mv 18 stale → `processed/`, trashed 1 artifact, 3 commits. ZHAO 2 LIVE Hormuz survivors flagged; HANS inbox cleared (both March sigs superseded in its 6/22 revival); SAM `Ideas.docx` captured → `AGENTS/SAM/INFRA_AGENDA.md` (4-part infra spec, Will to scope), 2 LIVE WALTER sigs flagged.
-2. **WALTER 9-signal stream processed** (2 rounds, 5 spawnable owners): HENRY/BROCK/CORAL/LIQUID/CREED, report-only. Ingest-notes committed to each inbox.
-   - **★ One thesis-mover: HENRY HEN-35 (AI/semi positioning-unwind) 30% → ~52–55%.** KOSPI 2nd circuit-breaker (real-money) + Taiwan defaults (009) + hyperscaler FCF→zero (008) = a **fundamentally-grounded AI-capex-cycle correction**, not just a flow air-pocket. HBM chain makes US-semi transmission base case. Discriminator: **Mon MU/SMH/SOX + VIX vs 23.**
-   - Confirms (no score move): BROCK PC NAV-understatement LEADING (Stone Ridge 4-yr gate = redemption-wall empirical; multi-year persistence tail); CORAL FL builder fire-sales lead price discovery; LIQUID muni channel NEW but long-clock + HY 278 2bp from X1; CREED Galveston scrap = tail outlier.
-   - **Meta-read: AI-capex correction transmitting equity→private-credit→public-credit** (HENRY+BROCK+LIQUID converge). WALTER's label: "fragile calm cracking." Catalysts: Mon discriminators + **late-July Q2 earnings** (hyperscaler FCF actuals + BDC marks ~7/25).
-3. **Fleet staleness audit** (Prome direct, no spawn): most load-bearing fleet is FRESH. Genuine gaps narrow → 2 catch-up packets written:
-   - **OZK** (63d cold, real revival): position-state UNSAFE flag (May expiries + roll deadline 7wk past — needs broker/Will reconcile), regime inverted on its view, **Q2 print ~Jul-16** (3wk), RESG-88% verify open. Packet → OZK inbox.
-   - **HAWK** (6d, not stale — backlog triage): 9 sigs ALL confirm C-Grind/decoupling; the **Mon-6/22 decoupling test it was waiting on RESOLVED in its favor** (Brent shrugged the re-closure, deflated ~$73–78). 4 to ingest. Packet → HAWK inbox.
-
-## Live regime (Fri-close orientation — refresh before citing)
-- **HY OAS 278 [6/25]** — 2bp from >280 X1, auto-watched (`liquid-hy-watch`). NO trigger fired. Energy deflated (Brent ~$73–78). **No capital deployed** (standing rule held; nothing fired). HEN-35 at ~53% is a sharpened WATCH, not a deploy.
+1. **★ Energy adjudication — the lone disconfirming signal (BRENT/002 Nuttall counter) RESOLVED.** Sub-$75 Brent is **STRUCTURAL, not a coiled spring.** Decisive new fact = today's **first-true-post-MOU CFTC COT** shows continued long-liquidation (NYMEX WTI MM still +82,872 net long, shedding −13,356/wk) = de-risking, NOT short-covering. Nuttall downgraded to "real tail, wrong base case" (physical IS tight — Cushing<20M, SPR 40-yr-low — but cracks COOLED off the spring peak + positioning half-washed). BRENT P(holds <$75, 1–2wk)=**0.63**. HAWK marks HOLD **B34/C44/D22** (6/20 Hormuz re-closure → Brent shrug = hardest decoupling test, passed; HAW-11 resolved FAILED). XLE $65C Sep-30 = **lapse-leaning hold** (kinetic-tail lottery only). **RED-FT-04 confirmed.** No new-capital trigger fired.
+2. **Both STATUS trimmed** — BRENT 242→202 (archived Jun17/20/22 narrative + refreshed the stale Jun-20/22 spine to Jun-26; re-graded BRT-21/26/12/16), HAWK 154→130 (archived pre-MOU narrative).
+3. **Both inboxes CLEAN** — HAWK empty; BRENT filed 2 strays (russian-crude already in STATUS; NEXUS pilot-review superseded).
+4. **Sibling architecture compare/contrast** — BRENT ahead on session-spine, HAWK ahead on domain machinery (opposite axes). → 3 HAWK upgrades:
+   - **Protocol port:** HAWK adopted BRENT's modern spine (SCRATCH-as-handoff [new file], symmetric BOOT/EXECUTE/CLOSEOUT w/ read→write pairings, mandatory NEXUS_BRIEF refresh + refreshed the 18d-stale brief, retired 3× LAST_COMPLETION). Domain sections preserved.
+   - **Cruft-sweep:** archived 8 stale artifacts (audit/, recon/+RECON_REPORT, dead INBOX.md, PREDICTIONS.tsv.bak, 3× _old TSVs) + removed 3 stray dirs; consolidated sources/ → domain/sources/.
+   - **Predictions-home reconciliation:** Will chose the **SAM thesis-bundle model**; HAWK moved workbook/PREDICTIONS.tsv → thesis/PREDICTIONS.tsv + new thesis/PREDICTIONS_ARCHIVE.md (#hawk-NN post-mortems) + SAM-style calibration preamble; repointed all refs (scripts confirmed predictions-free). Now matches BRENT + SAM.
 
 ## Repo state
-- Clean tree (only WILL/trading-journal = Will's). This session's many cross-dir commits (triage moves + ingest-notes + 2 packets) all committed; WALTER pushed mid-session (swept earlier commits to origin). **2 local-ahead at closeout** (OZK + HAWK packets) → safe-push at closeout.
-- Concurrency held clean: report-only sub-agents + pathspec commits + excluding WALTER's untracked files = zero index race despite 2 live windows committing.
+**Synced 0/0 with origin.** Everything committed + pushed (WALTER's mid-session pushes swept most; final HAWK-predictions commit `34637853` pushed via safe-push, clean ff). All commits pathspec-scoped to BRENT/HAWK/memory-mirror; WALTER's live files + WILL/trading-journal untouched throughout.
 
 ## Next planned work / open threads (not lost)
-- **Pending own-windows (do-not-spawn):** BRENT/002 (the lone disconfirming signal — oil counter to RED-FT-04, highest-value), SAM (001/009 Asia→yen-carry), CARL (004 national builder), RED (18-item steelman backlog = doubles as the convergence red-team), REGINALD (006).
-- **Adversarial red-team on the convergence** (declined tonight) — the elegant "all 9 confirm AI-capex correction" story wants an independence/shared-antecedent + disconfirmation check before it hardens.
-- **OZK next session:** gated on the current broker book (else stalls at boot step 4). Jul-16 catalyst, 3wk.
-- **SAM INFRA_AGENDA** (Will to scope; #3 observability is fleet-relevant).
-- **Still-pending from earlier today (morning arc — see HANDOFF):** Tier-2/3 architecture follow-ons; OpenClaw cutover REMAINING (A3/autopush Phase-5; Phase-9 runtime cut GATED on verified telegram-prome poller; roster refresh).
+- **2 HAWK follow-ups flagged (separate pass):** (a) pre-existing tab glitches in the live predictions TSV — HAW-10 row = 9 cols, HAW-11 = 11 cols (stray/missing tabs, predate the move, preserved verbatim); (b) root `SOURCES.md` = stale unreferenced watchlist → refresh-not-retire at HAWK's next closeout.
+- **Energy forward (BRENT's docket):** Wed Jul-1 EIA WPSR (Cushing sub-20M trajectory) · ~Jul-3 SPR 172M re-auth decision · Jul-8 STEO. Re-pull main ICE Brent COT (macromicro 403'd) to fully close the discriminator. Verify Hedgeye Japanese-drawdown figure. Discriminator stays: **does Brent hold <$75** (currently yes, day-2).
+- **Adversarial red-team on the structural-decoupling convergence** (declined) — the "COT mid-wash not a trend" counter is the cleanest check if Will wants the verdict hardened.
+- **Still pending from prior sessions:** OZK next session gated on broker book (Q2 ~Jul-16); SAM INFRA_AGENDA to scope; Tier-2/3 fleet-arch follow-ons; OpenClaw cutover remaining (A3/autopush Phase-5, Phase-9 runtime cut GATED on verified telegram-prome poller, roster refresh).
 
 ## Forward docket
-Mon: MU/SMH/SOX (HEN-35 transmission test) · VIX vs 23 · HY vs 280. Then 10Y 6/30 · JOLTS 6/30 · NFP 7/2 · BRK-29 ~7/3 · **OZK + WAL + CFG Jul-16** · CPI 7/14 · late-Jul Q2 hyperscaler FCF + BDC marks (~7/25).
+Mon MU/SMH/SOX (HEN-35 transmission) · VIX vs 23 · HY vs 280 · 10Y 6/30 · JOLTS 6/30 · NFP 7/2 · BRK-29 ~7/3 · **EIA 7/1 · SPR re-auth ~7/3 · OZK+WAL+CFG Jul-16** · STEO 7/8 · CPI 7/14 · late-Jul Q2 hyperscaler FCF + BDC marks ~7/25.
 
 ## Cautions
-- Position/broker truth = Will/FORGE, not these files. OZK ladder is 63d stale — DO NOT cite. Refresh dashboard/FRED before any level. Standing rule: deploy only on a fired trigger, $500/card.
-- yfinance not wired into the plain shell this session (after-hours anyway) — agents pull their own live data at boot.
+- Position/broker truth = Will/FORGE, not these files. Refresh dashboard/FRED (venv: `source .venv/bin/activate`; plain shell lacks yfinance) before any level.
+- Standing rule held: deploy only on a fired trigger, $500/card. Nothing fired this session.
+- HAWK was iterated heavily via warm agentId — if reused next session, confirm it's not a stale warm-park collision.

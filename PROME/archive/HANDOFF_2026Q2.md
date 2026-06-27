@@ -9,6 +9,20 @@
 
 # PROME HANDOFF
 
+## 2026-06-25 ~20:40 ET — Front-half "Three Masks" de-mask cluster + adversarial + reconciliation + Jul grading instrument (PUSHED)
+
+**Status:** 2nd orchestration of the day. Will ran the **front-half de-mask cluster** as PERSISTENT teams-mode agents Prome directed live across rounds (CARL_FH=credit / LABOR=labor / MARCO=migration), + a **5-lens independent adversarial round** (HOLDS-WITH-ADDITIONS), + a **full front↔back reconciliation** (REGINALD_T re-spawn), + a **Jul-print grading instrument**. **4 agents RELEASED at closeout** (no warm-parking — new lesson after tonight's CARL name-collision sweep). RESEARCH/DRAFT-ONLY throughout; wrote nothing canonical. Committed local; **push pending** (Will-coordinated).
+
+**What landed — 3 new `PROME/synthesis/` docs:** `2026-06-25_front-half-demask-cluster.md` (v2, post-adversarial), `_front-back-reconciliation.md`, `_Q2-bank-print-grading-instrument.md`.
+
+**The read:** the consumer/labor/migration SOURCE is a **2027 story** (calm ~50-55% genuine; masks roll forward; Jul prints likely reinforce the all-clear → roll duration to Q1-27, no Q2 short). **Reconciliation key result:** the front/back "conflict" was a **ledger-line artifact** — provision/ACL **BUILD = Q2-visible** (doesn't defer); realized **NCO = 2027**. The front-half **TRIMS the consumer-source path** (a ~25-35%→~15-22%) and leaves **(b) AOCI/rates ~25-30% + (c) WAL ~28-32% = the live Q2 exception.** Single grade = **Provision$ vs NCO$ (BUILD/RELEASE) + specific-vs-collective**(=beta). LABOR: labor = white-collar structural GRIND → 2027-diffuse, ~30% Aug-7 option (a real 31-mo white-collar recession masked by the immigration supply floor). **COF = the bridge** (segment provision split: Card=Axis A / Commercial=Axis B); **ZION muni/AOCI = top mis-grade risk.**
+
+**Decisions / handoffs for Will:** route (1) FORGE duration-roll, (2) REGINALD/CORAL winter-27 FL-$ ~$850M (floor ~$450-700M), (3) NEXUS feed (refresh-hold). Trade construction for (b)/(c) = the Will-gated next thread (needs the book).
+
+**Next:** Jul forward-watch via the grading instrument (CFG/OZK Jul16 → monolines+ZION Jul21 GATE → EGBN Jul22; COF date confirm ~early Jul; 10Y re-pull 6/30). Push the 3 docs next window. Lessons captured: `feedback_warm_parked_agent_collision`, `finding_cluster_adversarial_catches_framing`.
+
+---
+
 ## 2026-06-25 ~17:30 ET — Transmission-terminus cluster orchestration + pre-Q2 adversarial stress-test (PUSHED)
 
 **Status:** Same-day continuation. Will ran an orchestration exercise — spawn 3 agents Prome directs/builds with — and chose the **transmission-terminus cluster** (CARL=consumer / CORAL=FL banks / REGINALD=bank-terminus hub) over Prome's trigger-cluster (LIQUID/BROCK/RED) pick. Full arc delivered + **PUSHED**: origin master `92a92a83`, synced **0/0**, 24 commits (22 cluster + 2 Prome: FXY/git stale-row fixes + the synthesis doc). Three agents parked warm (pending Will release).

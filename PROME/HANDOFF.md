@@ -6,6 +6,18 @@
 
 ---
 
+## 2026-06-26 (LATE) — BRENT+HAWK: energy adjudication + agent-architecture upgrade (PUSHED, synced 0/0)
+
+**Status:** Will-directed "work on BRENT and HAWK… analysis then cleanup." WALTER live in a separate window throughout; coordination file-based via shared repo; all sub-agent work report-only/no-commit, Prome committed each dir sequentially (pathspec, zero index race). Full narrative → SCRATCH + `memory/2026-06-26.md` (LATE).
+
+**What landed:** (1) **★ Energy adjudication — BRENT/002 (the lone disconfirming Nuttall counter) RESOLVED: sub-$75 Brent = STRUCTURAL, not coiled-spring** (decisive: first-true-post-MOU CFTC COT = continued long-liquidation, not short-covering). BRENT P(holds<$75)=0.63; HAWK marks HOLD B34/C44/D22 (decoupling test passed); XLE $65C lapse-leaning hold; **RED-FT-04 confirmed**; no trigger fired. (2) Both STATUS trimmed (BRENT 242→202 + spine-refresh; HAWK 154→130). (3) Both inboxes clean. (4) **HAWK brought up to BRENT/SAM conventions** via 3 ports: session-spine (SCRATCH handoff + symmetric closeout + mandatory NEXUS_BRIEF refresh + retired 3× LAST_COMPLETION); cruft-sweep (8 artifacts + 3 dirs archived); predictions → SAM thesis-bundle model (workbook→thesis/ + ARCHIVE + calibration preamble).
+
+**The read:** energy thread = analysis + a confirmed thesis (decoupling holds, oil down); the rest = pure agent-architecture hardening. **No market trigger fired, no capital deployed** (standing rule held).
+
+**Decisions Will made:** "both — analysis then cleanup"; chose the **SAM thesis-bundle model** for predictions (over the 16-agent workbook majority — better design); opened the push window.
+
+**Pending / next:** 2 HAWK follow-ups flagged (live-TSV tab glitches HAW-10/11; SOURCES.md refresh) — separate pass. Energy docket: EIA 7/1, SPR re-auth ~7/3, STEO 7/8; re-pull ICE Brent COT. Optional: adversarial red-team on the convergence. **3 lessons → auto-memory:** `finding_status_spine_staleness_under_appended_top`, `finding_sibling_agent_protocol_drift`, `finding_freshness_audit_vs_caught_up` (prior). **Method note:** a sibling-diff (compare two template-descended agents side-by-side) surfaces protocol drift a per-agent review misses.
+
 ## 2026-06-26 (LATE PM) — Signal-coordination session: WALTER live (separate window) + Prome processing side (2 local-ahead at closeout)
 
 **Status:** Will spawned WALTER in a separate CC window to route his 6/26 Telegram stream (9 dispatches); Prome ran the processing side. Coordination **file-based via shared local repo** (live visibility by mtime-diff, no SendMessage). 3 dormant-inbox triages → WALTER's 9 signals through 5 owners ×2 rounds → fleet staleness audit → 2 catch-up packets. **All sub-agents report-only/no-commit → zero index race despite 2 live windows.** Full narrative → SCRATCH + `memory/2026-06-26.md` (LATE EVENING).
@@ -56,16 +68,4 @@
 
 **Decisions / next:** Tier 3/4 (macro/regime — HY/CCC, the 10Y 6/30 re-pull for path (b), bank prices) deliberately NOT run; those are live-pull-at-trade levels (rule #4), not static baselines. The 3 route packets await LABOR/MARCO/CORAL next-boot processing. Housekeeping this session: MEMORY.md pruned 25.9->23.0KB (under the load cap, all 158 links preserved); HANDOFF rolled the 06-21 x3 / 06-22 / 06-25-morning entries to `archive/HANDOFF_2026Q2.md`.
 
-## 2026-06-25 ~20:40 ET — Front-half "Three Masks" de-mask cluster + adversarial + reconciliation + Jul grading instrument (PUSHED)
-
-**Status:** 2nd orchestration of the day. Will ran the **front-half de-mask cluster** as PERSISTENT teams-mode agents Prome directed live across rounds (CARL_FH=credit / LABOR=labor / MARCO=migration), + a **5-lens independent adversarial round** (HOLDS-WITH-ADDITIONS), + a **full front↔back reconciliation** (REGINALD_T re-spawn), + a **Jul-print grading instrument**. **4 agents RELEASED at closeout** (no warm-parking — new lesson after tonight's CARL name-collision sweep). RESEARCH/DRAFT-ONLY throughout; wrote nothing canonical. Committed local; **push pending** (Will-coordinated).
-
-**What landed — 3 new `PROME/synthesis/` docs:** `2026-06-25_front-half-demask-cluster.md` (v2, post-adversarial), `_front-back-reconciliation.md`, `_Q2-bank-print-grading-instrument.md`.
-
-**The read:** the consumer/labor/migration SOURCE is a **2027 story** (calm ~50-55% genuine; masks roll forward; Jul prints likely reinforce the all-clear → roll duration to Q1-27, no Q2 short). **Reconciliation key result:** the front/back "conflict" was a **ledger-line artifact** — provision/ACL **BUILD = Q2-visible** (doesn't defer); realized **NCO = 2027**. The front-half **TRIMS the consumer-source path** (a ~25-35%→~15-22%) and leaves **(b) AOCI/rates ~25-30% + (c) WAL ~28-32% = the live Q2 exception.** Single grade = **Provision$ vs NCO$ (BUILD/RELEASE) + specific-vs-collective**(=beta). LABOR: labor = white-collar structural GRIND → 2027-diffuse, ~30% Aug-7 option (a real 31-mo white-collar recession masked by the immigration supply floor). **COF = the bridge** (segment provision split: Card=Axis A / Commercial=Axis B); **ZION muni/AOCI = top mis-grade risk.**
-
-**Decisions / handoffs for Will:** route (1) FORGE duration-roll, (2) REGINALD/CORAL winter-27 FL-$ ~$850M (floor ~$450-700M), (3) NEXUS feed (refresh-hold). Trade construction for (b)/(c) = the Will-gated next thread (needs the book).
-
-**Next:** Jul forward-watch via the grading instrument (CFG/OZK Jul16 → monolines+ZION Jul21 GATE → EGBN Jul22 (WAL corrected Jul30→Jul16, prints WITH CFG/OZK — see 6/26 entry); COF date confirm ~early Jul; 10Y re-pull 6/30). Push the 3 docs next window. Lessons captured: `feedback_warm_parked_agent_collision`, `finding_cluster_adversarial_catches_framing`. MEMORY.md prune + HANDOFF trim-debt (roll 6/21 entries) still deferred.
-
----
+*(Older entries archived to `PROME/archive/HANDOFF_2026Q2.md` — incl. 2026-06-25 front-half de-mask cluster.)*

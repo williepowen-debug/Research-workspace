@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-06-26 EVENING (Claude Code Prome — signal-coordination session: WALTER live in a separate window routed Will's 6/26 Telegram stream; Prome ran the processing side — 3 dormant-inbox triages, WALTER's 9-signal stream through 5 owners ×2 rounds, fleet staleness audit, 2 catch-up packets [OZK/HAWK]. Earlier today = separate HEAVY arch/orchestration session.)
+**Updated:** 2026-06-26 LATE (Claude Code Prome — BRENT+HAWK session: energy adjudication [BRENT/002 Nuttall counter RESOLVED → decoupling STRUCTURAL] then agent-architecture work [STATUS trims, HAWK protocol-port + cruft-sweep + predictions→SAM model]. WALTER live separate window throughout; synced 0/0. Earlier today = signal-coordination + HEAVY arch sessions.)
 
 ## Core State
 
@@ -42,7 +42,8 @@
 | CREED first real work | 🟡 if requested | Monthly CMBS/special-servicing + REIT tape tracker design. |
 | TERRY first live dry run | 🟡 if requested | Use risk scoring + snapshot/risk scripts; no execution. |
 | ORACLE metrics implementation | ⚪ optional | Metrics doc exists; future script integration could compute entropy/KL from ODDS_LOG. |
-| Jun22 Brent / Hormuz tape test | 🔴 next market lane | Refresh live data before citing current levels. |
+| Energy decoupling adjudication | ✅ done 6/26 LATE | **BRENT/002 Nuttall counter RESOLVED: sub-$75 = STRUCTURAL** (post-MOU COT = continued long-liquidation, not short-covering). BRENT P(holds<$75)=0.63; HAWK B34/C44/D22; XLE 65C lapse-leaning hold; RED-FT-04 confirmed. Discriminator stays: does Brent hold <$75 (day-2 yes). |
+| BRENT+HAWK architecture | ✅ done 6/26 LATE | STATUS trims (242→202 / 154→130); HAWK ported BRENT's session-spine + cruft-swept + predictions→SAM thesis-bundle model. 2 HAWK follow-ups flagged (live-TSV tab glitches HAW-10/11; SOURCES.md refresh). |
 | HY <260 / post-FOMC confirmation | 🔴 next market lane | Latest HEARTBEAT level stale/Fri-close orientation. |
 | Position-state reconciliation | 🟠 pending | Broker/Will truth required. |
 
@@ -60,4 +61,4 @@
 
 ## Next Best Action
 
-After clear, fresh Prome should check `AGENTS/LIQUID/alerts/HY_OAS_ALERTS.log` for any between-session HY transition (watch timer daily 13:00 ET). Live regime: HY 278 [6/25], 2bp from >280 X1 — auto-watched; no action unless a trigger fires. **Tonight's signal-processing read:** AI-capex-correction convergence (HEN-35 ~53%) is a sharpened WATCH, not a deploy — **Mon discriminators: MU/SMH/SOX transmission + VIX vs 23 + HY vs 280.** Open own-window threads (do-not-spawn): BRENT/002 (lone counter), SAM/CARL/RED. **Architecture follow-ons** still available (Tier-2/3, see `PROME/cluster/2026-06-26_fleet_arch_compare.md`). **Forward docket:** Mon MU/semis · 10Y 6/30 · JOLTS 6/30 · NFP 7/2 · BRK-29 ~7/3 · **OZK+WAL+CFG Jul-16** · CPI 7/14 · late-Jul Q2 FCF + BDC marks ~7/25.
+After clear, fresh Prome should check `AGENTS/LIQUID/alerts/HY_OAS_ALERTS.log` for any between-session HY transition (watch timer daily 13:00 ET). Live regime: HY 278 [6/25], 2bp from >280 X1 — auto-watched; no action unless a trigger fires. **Tonight's signal-processing read:** AI-capex-correction convergence (HEN-35 ~53%) is a sharpened WATCH, not a deploy — **Mon discriminators: MU/SMH/SOX transmission + VIX vs 23 + HY vs 280.** Open own-window threads (do-not-spawn): SAM/CARL/RED (BRENT/002 RESOLVED 6/26 LATE — decoupling structural). **Architecture follow-ons** still available (Tier-2/3, see `PROME/cluster/2026-06-26_fleet_arch_compare.md`); sibling-diff method (BRENT↔HAWK) is now a proven fleet tool for protocol drift. **Forward docket:** Mon MU/semis · 10Y 6/30 · JOLTS 6/30 · NFP 7/2 · BRK-29 ~7/3 · **OZK+WAL+CFG Jul-16** · CPI 7/14 · late-Jul Q2 FCF + BDC marks ~7/25.

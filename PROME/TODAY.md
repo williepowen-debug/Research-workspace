@@ -1,7 +1,7 @@
 # TODAY.md — Friday June 26, 2026
-**Updated:** 2026-06-26 PM (Claude Code Prome — + 5-agent orchestration [WAL date fix · 5-fund PC gate cluster · insurer double-jeopardy] + fleet architecture review → Tier-1 + ratified closeout-addendum; auto-pushed synced 0/0; agents released)
+**Updated:** 2026-06-26 LATE (Claude Code Prome — 4 sessions today: AM hardening · PM 5-agent orchestration/fleet-arch · EVE signal-coordination · LATE BRENT+HAWK [energy adjudication + agent-architecture upgrade]. Synced 0/0.)
 
-**Objective:** System-hardening session complete. Standing rule set; detection now automated. No new market position — maintenance + infra.
+**Objective:** Multi-session day, all maintenance/analysis — no new market position. **Latest:** energy decoupling adjudicated **STRUCTURAL** (BRENT/002 resolved); HAWK upgraded to BRENT/SAM conventions.
 
 ---
 
@@ -9,7 +9,7 @@
 | Item | State |
 |---|---|
 | Origin | Desktop Claude Code (Prome live surface). |
-| Git | **Synced 0/0 with origin** — 9 commits pushed (tip `3d4afafa`). Only WILL/ working-tree changes remain (Will's). |
+| Git | **Synced 0/0 with origin** — all sessions pushed (WALTER swept most; final HAWK-predictions commit via safe-push). Only WILL/ + WALTER-live working-tree changes remain (theirs). |
 | Agents | LIQUID/SENTRY/TERRY **released** at closeout (not warm-parked). |
 | Push rule | 🔒 commit-local OK / push only on Will's window (today's window used). |
 
