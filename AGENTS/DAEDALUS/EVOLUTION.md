@@ -7,6 +7,12 @@ Newest first. Keep entries terse; archive build minutiae to `FLEET_MAP.tsv`.
 
 ## Changelog
 
+### 2026-06-27 — Phase 3 (partial): market-agent gold-standard blueprint composed
+- **What:** Assembled `BLUEPRINTS/market-agent.md` best-of-breed from the harvest — each section sourced to the agent that does it best (REGINALD/LIQUID/OTTO structure, BOND/NEXUS scoring, HENRY/LIQUID thresholds, LIQUID/HENRY/BRENT exit, OTTO/CARL/VIOLET predictions, MARCO routing).
+- **Design call (not harvested):** reconciled BOND-vs-HENRY threshold conflict via durable-rule-vs-live-value split (§3) — flagged for Will veto.
+- **Held firm:** the universal 5-pt convergence scale is non-negotiable (cross-agent backbone); HENRY's loss of it is the cautionary tale.
+- **Next:** utility-agent blueprint (WALTER/NEXUS/RED/YEYOU sources); then bring `templates/CLAUDE_TEMPLATE.md` under BLUEPRINTS ownership.
+
 ### 2026-06-27 — Best-practices harvest (full fleet structural survey)
 - **What:** Surveyed 23 agents' STATUS structures (5 parallel reads) for best-of-breed patterns per dimension → `BLUEPRINTS/BEST_PRACTICES.md`.
 - **Key finding:** the fleet has collectively out-designed the original template; **no single agent is the whole standard** (PAT-011). Best-of-breed is scattered: LIQUID (exit/migration), OTTO (predictions/transmission stages), BOND (comparable scoring), MARCO (routing/mechanism-split), NEXUS (synthesis discipline), REGINALD (cluster grid).
