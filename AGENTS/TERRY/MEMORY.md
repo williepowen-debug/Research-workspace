@@ -63,7 +63,7 @@ Detection (HY-280 break, print alerts) is LIQUID/SENTRY; TERRY owns everything A
 ## Next Session
 
 1. **No cards fired live yet** — fire cards staged, waiting on a real LIQUID/SENTRY trigger (HY≥280 or a Jul print).
-2. **Jul print week (16–30):** print lands → `grade_print.py NAME …` then `--tally`; if transmission grades, the PRINT-TRIGGER skeleton is the card.
+2. **Jul print week:** MONOLINES print FIRST (~Jul 18–23: COF/SYF/ALLY — `setups/PRINT-TRIGGER_monoline-COF-SYF-ALLY.md`, the earliest un-maskable tell), then regionals (~Jul 22–30). Print lands → `grade_print.py NAME …`; if transmission grades, the matching PRINT-TRIGGER skeleton is the card. **Follow-up: add a monoline un-mask tally to `grade_config.json`** (currently path-(a) tally is regional-only; monolines classify but don't score).
 3. **HY≥280 sustained:** PRICE-TRIGGER skeleton → fill ZONE 2 → present.
 4. **Refresh the NEXUS regime PIN** in `SIGNALS.tsv` once Will re-anchors NEXUS post-FOMC (currently the 6/16 pre-FOMC read, stale-stamped).
 5. **Day-trading S3 carries:** request a **timestamped order export** (confirms RH auto-close + closes the churn/cancel gap); Monday-mark the open book (WAL 9/18 75P = THESIS/FORGE-scope, WEN 7/2 8.50P).
