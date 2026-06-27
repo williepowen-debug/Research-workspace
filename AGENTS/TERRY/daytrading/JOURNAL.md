@@ -4,6 +4,62 @@ Append-only. **Newest on top.** One entry per review. Metrics mirror to `LEDGER.
 
 ---
 
+## Session 3 — 6/24–6/26/2026 (3 trading days) · reviewed 6/27 · **extends Session 2 (3 new days, same account)**
+
+**Intake:** Robinhood **CSV export** covering the full 5/1→6/26 window (520 rows). The 5/1–6/23 portion reproduces Session 2 to the penny (+$2,951.67, 148 closed threads) — which validates the method, so the new number is trustworthy. **New content = the 3 days 6/24–6/26.** **Marks:** yfinance live this session (worked, unlike S2) — used to verify intraday tape + settlement values.
+
+### Headline P&L (FIRM — 0 STO, all long)
+
+**New window 6/24–6/26: −$3,968.84 realized over 52 closed threads.** That **erased the entire +$2,951.67** from the prior 7 weeks. **Cumulative 5/1→6/26 is now −$1,017.17.**
+
+- **Losses ESCALATED daily:** 6/24 −$425 → 6/25 −$1,443 → 6/26 −$2,100. Getting worse, not stabilizing — a revenge cycle, confirmed by **two intraday ACH deposits ($200 + $100) mid-session on 6/26**, the worst day. Funding a losing day to keep trading is a **new tendency** (not seen in S1/S2).
+- **The QQQ 0DTE engine ran in REVERSE.** In S2 it was the +$3,044 engine; in 3 days it gave all of that back and more. Worst threads are QQQ 0DTE **puts AND calls on the same days**, both losing.
+
+### Root cause #1 — both-ways tactic into a whipsaw tape (the bulk of the loss)
+
+Will's stated plan: *"trying to catch movement going either way."* Intentional both-ways (28 call + 30 put BTO entries; both-sided all 3 days). But the tape wasn't chop — it was **whipsaw**, and both-ways is built for chop, not whipsaw:
+
+| Day | QQQ path |
+|---|---|
+| 6/24 | 715 → **704** → 710 |
+| 6/25 | **726 → 705** → 716 (21-pt round trip) |
+| 6/26 | 707 → 715 → **702** → 706 |
+
+Three days of 2–3% intraday reversals that round-tripped *through* the strikes in both directions → full premium paid on both legs, both decayed/stopped. **The tactic was wrong for the tape, independent of anything else.**
+
+### Root cause #2 — EXECUTION TRAP (not a discipline failure): RH 0DTE auto-liquidation
+
+Will flagged a "sudden EOD drop, but my puts had already auto-sold — almost seemed engineered." **Verified real, with a number:**
+- 6/26 final 5 min (3:55–4:00pm ET): QQQ **709 → 705.21**, closed ~705.5. A genuine close-of-day flush.
+- **QQQ 6/26 $709 Put:** bought $292, exited at ~$19 (−$273) — but at the 705.54 settlement it was ~$3.46 ITM = **~$346**. Hold-to-settlement was a **+$54 winner**; the early exit made it a −$273 loser. **~$327 swung against him on that one contract** in the final minutes.
+- **Mechanism, not conspiracy:** the EOD move is dealer-gamma + MOC-imbalance flow (mechanical, concentrates in the last 10 min); the exit is **Robinhood's expiration-day auto-liquidation** force-closing 0DTE longs before settlement. Not aimed at Will — but it *is* systematic, which means avoidable. **This bucket is an execution-rail problem (TERRY's lane), separate from discipline.**
+- **Caveat:** CSV has no intraday timestamps → can't *prove* auto-close vs. a resting order; the price math ($19 vs ~$346) is certain, the auto-close *cause* is likely-but-unconfirmed. An order-level/timestamped export would nail it.
+
+### The validated leak fired again — CONFIRMED REPEAT
+
+**Walk-to-zero (S2's one convicted leak): −$1,624 across 5 expired-worthless threads** — MRVL 6/26 260P −$720, QQQ 6/25 705P −$651, USO 108C/110C, WEN 8C. Plus **overnight 4W/13L** this window (vs S2's +$3,464 16W/6L) — but that's the *same* walk-to-zero leak in an overnight costume (multi-day holds carried to $0), not a separate overnight problem. **Second review running = this is now a confirmed pattern, not a one-off.**
+
+### Rule scorecard (current PROFILE rules)
+
+- **R1 Loss-side time-stop / no walk-to-zero:** ✗✗ −$1,624 to $0 again. *The repeat.*
+- **R2 No new premium after a big move:** ✗ chased both sides of the 6/24 gap + intraday reversals.
+- **R3 Per-idea max-loss cap:** ✗ MRVL $720; four QQQ threads >$400.
+- **R4 Protect the QQQ engine:** ✗ revenge-size turned the one proven process into the wreck.
+- **R5 Pre-register overnight holds:** ⚠ 13 overnight losers + WAL/WEN open — decisions or defaults?
+
+### Open book at 6/26 (cost basis — need Monday marks)
+
+- **WAL 9/18 75P (−$360 cost)** — *thesis-aligned* (REGINALD WAL bear; ~mid-July print test). **NOT day-trade scope** — belongs to the thesis book, flag to FORGE.
+- WEN 7/2 8.50P (−$132), TZA/JETD tiny stock.
+
+**New rule this session earns (execution — see PROFILE R6):** don't hold 0DTE into RH's auto-liquidation window (~3pm ET on) with a directional lean into the close — exit on your terms before 3pm, or hold to settlement *with* buying power, or don't run 0DTE you mean to carry to the bell.
+
+**Biggest mistake (discipline):** running the chop tactic (both-ways) into a whipsaw, then revenge-funding the worst day.
+**Not-your-fault loss:** RH force-closing the 709P before a settlement it would have won (~$327).
+**Watch next review:** Did both-ways get throttled in whipsaw tape? Did the 0DTE auto-liquidation rule hold? Did escalation/revenge-funding stop? Provide a **timestamped order export** to confirm the auto-close mechanism.
+
+---
+
 ## Session 2 — 5/1–6/23/2026 (29 trading days) · reviewed 6/24 · **re-bases Session 1**
 
 **Intake:** Robinhood **CSV export** (`May_1_2026—Jun_23_2026.csv`), 357 option/stock fills, 155 distinct contracts. This is the cleaner-data re-run Session 1 asked for, and it extends the window back to 5/1. **Marks:** live data unavailable this session (no yfinance / Yahoo 429) — open book marked qualitatively vs the 6/23 crash closes; exact option marks flagged for Will.
