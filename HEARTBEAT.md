@@ -1,7 +1,16 @@
 # HEARTBEAT.md
-**Updated:** 2026-06-25 ~14:35 ET (Claude Code Prome — Desktop CC origin; 6/24 HY print = 276 + LIQUID boot-doc batch refresh) · **~16:05 ET correction:** FXY position fully closed by Will 6/25 → removed the FXY broker-truth blocker + de-positioned the MOF intervention framing (regime signal only now) · **2026-06-26 reconcile (Prome):** HY 276→**278 [6/25]** (2bp from >280); X1/kill definition now points to canonical `KILL_MEMO`; HY auto-watched between sessions (LIQUID systemd timer) · **2026-06-26 orchestration (Prome):** PC gate-cluster refreshed → 5-fund Q2 wave + compounding-queue mechanic + BROCK BRK-29/BRK-30 trigger split (see §Regime.3); WAL Q2 date corrected Jul-30→Jul-16
+**Updated:** 2026-06-25 ~14:35 ET (Claude Code Prome — Desktop CC origin; 6/24 HY print = 276 + LIQUID boot-doc batch refresh) · **~16:05 ET correction:** FXY position fully closed by Will 6/25 → removed the FXY broker-truth blocker + de-positioned the MOF intervention framing (regime signal only now) · **2026-06-26 reconcile (Prome):** HY 276→**278 [6/25]** (2bp from >280); X1/kill definition now points to canonical `KILL_MEMO`; HY auto-watched between sessions (LIQUID systemd timer) · **2026-06-26 orchestration (Prome):** PC gate-cluster refreshed → 5-fund Q2 wave + compounding-queue mechanic + BROCK BRK-29/BRK-30 trigger split (see §Regime.3); WAL Q2 date corrected Jul-30→Jul-16 · **2026-06-27 NEXUS re-anchor INTEGRATED (Prome):** 11-day NEXUS catch-up folded in — regime rotated 6/22-26 (NEW M-09 AI-positioning unwind); bifurcation read updated (Break22/Grind33/Divergence45, supersedes the 6/25 "Grind 55%+" lean); R3↔R4 coupled; M-08 substance-firmed/transmission-dormant. Canonical: `AGENTS/NEXUS/STATUS.md`. **Weekend — levels are 6/26 Fri-close; refresh before re-citing.**
 
 ## Regime
+
+**★ 2026-06-27 — NEXUS 11-day re-anchor INTEGRATED (canonical synthesis: `AGENTS/NEXUS/STATUS.md`).** The §1-3 read below (6/25) holds on the *credit* call but UNDER-weighted the back-half rotation. NEXUS (the synthesis authority) re-anchored 6/16→6/27; PROME had no counter-evidence (infra weekend) → its read is integrated, not overruled:
+- **NEW M-09 — AI/factor positioning unwind, LIVE (the dominant back-half tape driver).** 6/22-26: KOSPI 2 circuit-breakers (−9.99% 6/23 / −8.19% 6/26), MU −11%, SMH −6.5%, ARES/APO −14-17%, negative-gamma regime LIVE (Net GEX −$25→−$49B), record levered-long $464bn / AI 47% concentration. **Rotation, NOT cascade — so far** (banks bid, HY un-capitulated, breadth held, VIX <20, hyperscaler capex still RISING → positioning unwind, not demand collapse).
+- **Bifurcation widened BOTH ways → Break 22% / Grind-lasts 33% (↓14pp) / Unresolved-divergence 45%** (NEXUS 6/27, 2-6wk). **Supersedes PROME's 6/25 "flip to Grind 55%+" lean** (anchored to the first-half tape, pre-dates the unwind). The smooth-grind read is dead.
+- **R3↔R4 now COUPLED** via the AI-vendor-financing node (APO/ARES = origination franchise + AI-credit book + crowded-long, one name). The AI-unwind is the **leading TRIGGER candidate to unmask M-08 credit — but hasn't yet.** *Discipline: do NOT tally AI-unwind + credit-K-split as independent convergence votes (shared node).*
+- **M-08 credit: substance FIRMED (BCRED first-ever gate, KBRA/Proskauer/Fitch records), transmission STILL DORMANT** — REGINALD's CCC/HY tripwire (3.6×) never fired, ratio COMPRESSED to 3.49× (HY-led beta); wrappers flat. **This REINFORCES the "MACRO not credit-substance" read below — NEXUS agrees via the wrapper-vs-manager discriminator.** Real transmission test = monolines **7/15-22** (un-maskable) → BDC Q2 marks **7/25-28**.
+- **Forward (NEXUS):** **6/30 month-end $165B rebalance into the live negative-gamma tape = cascade-vs-rotation gate** (next NEXUS trigger), then the 7/15-28 Q2-print cluster.
+
+---
 
 **Energy tail deflated; credit-bear ARMED but pre-trigger (entry-gated, kill receded — NOT shelved); the live transmission surface is bank-vs-private-credit — but MACRO, not yet credit-substance.** Resolved since the 6/21 read:
 
@@ -39,8 +48,10 @@ Full definitions in `FORGE/tools/market-data/config.py`. The live trigger-lines 
 | **✅ RESOLVED (6/24)** | 6/24 HY OAS print | LIQUID/Prome | Posted **276** (271→276) — widened; 6/25 followed at **278**, now **2bp from the >280 X1-trigger**; kill-line reset but bear-watch tightening. Next HY print is the one to watch vs 280. |
 | **Fri 6/26** | CFTC COT (data as of 6/23 — first post-BOJ-hike + post-FOMC) | SAM/LIQUID | vs the −150,132 baseline (Jun-16 data, printed 6/22 = 83.4% of the −180K peak): build >−153K **strengthens** the carry-convexity tail; cover <−140K **de-loads** it. Verify vs CFTC primary. |
 | **Late Jun–early Jul** | MOF intervention watch (USD/JPY 162–163) | SAM | Rate-checks = pre-strike tell. Regime signal only — FXY position closed 6/25, no longer pays us. Speed not level. |
+| **Mon 6/30** | Month-end $165B rebalance into a live negative-gamma tape | NEXUS/VIOLET/HENRY | **Cascade-vs-rotation gate** (next NEXUS trigger) — does the M-09 positioning unwind cascade or get absorbed? Net GEX −$25→−$49B = amplification fuel. |
 | **Thu 7/3** | June NFP (pulled forward) | LABOR/HENRY | Soft print accelerates growth-leg + inverse-feedback. |
 | **Mon 7/14** | June CPI | HENRY/CARL/LIQUID | The real energy-washout / disinflation test (May PCE couldn't show it). |
+| **7/15-22** | Q2 monolines / Axis-A (SYF/ALLY/COF) | REGINALD/CARL/NEXUS | NEXUS's first **un-maskable** M-08 transmission test (unsecured consumer — can't mask deterioration on a shrinking base). Precedes BDC marks 7/25-28. |
 | **Mon 7/28** | ARCC Q2 (first read; BXSL ~early Aug) | BROCK/CARL | Top-tier/disciplined-name marks = highest-signal for wrapper-leading recognition (FSK/OBDC already priced). NA% / NAV / PIK / coverage. |
 
 ## Blocking / Pending
@@ -49,7 +60,7 @@ Full definitions in `FORGE/tools/market-data/config.py`. The live trigger-lines 
 |---|---|---|
 | 🟠 | **HY>280 / wrapper-leading decoupling trigger.** The live bear-root watch; both halves unfired. | `AGENTS/BROCK/domain/sources/MACRO_VS_CREDIT_DISCRIMINATOR_JUN25.md`, LIQUID |
 | 🟡 | **LIQUID energy-sector OAS** structurally unavailable from free FRED (paid sub-index); reasoned in-line-to-tighter unless Brent <$60. | LIQUID 6/25 |
-| 🔵 | **NEXUS 9d-stale** — needs the X1 don't-double-count rule + regime delta; refresh deferred (Will hold). | `AGENTS/NEXUS/STATUS.md` |
+| 🟢 | **NEXUS re-anchored 6/27** (11-day catch-up; M-09 + R3↔R4 coupling + bifurcation integrated into §Regime). Current — refresh no longer pending. | `AGENTS/NEXUS/STATUS.md` |
 
 ## Pointers
 - Operator card → `PROME/TODAY.md` · Working state → `PROME/SCRATCH.md` · Session synthesis → `PROME/synthesis/2026-06-25_donow_reconciliation.md`
