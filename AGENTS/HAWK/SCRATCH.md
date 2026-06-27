@@ -7,6 +7,11 @@
 ## CURRENT MARKS (one line)
 - Scenario: **B 34% / C 44% (BASE) / D 22%** · Convergence **22/50 🟠** · Kinetic risk **🟠** (sub-kinetic, quiescent) · Brent ref **~$73.7 (below $75, war premium drained)** [defer price to BRENT]
 
+## MAINTENANCE LOG (PROME scoped follow-ups, 2026-06-26 post-LATE)
+- **PREDICTIONS.tsv tab fix** — HAW-10 (9→10 cols: inserted empty `Outcome` field, Status=OPEN) + HAW-11 (11→10 cols: merged stray-tab-split `Notes`). Delimiter-only; tab-strip byte-compare vs HEAD = identical (zero content change). All rows 17–32 now 10 cols. Commit `830756ed` (local).
+- **SOURCES.md refresh** (refresh-not-retire) — added reference-index banner (NOT boot-read) + as-of stamp, applied Mar-6 BRENT oil handoff to Energy section, added Venezuela theater, updated posture footer 🔴→🟠 (STATUS canonical). Commit `c25f8051` (local).
+- **PENDING PUSH:** both commits local-only — sweep in next Will-coordinated push window.
+
 ## CHANGES SINCE LAST SESSION
 - **Decoupling test RESOLVED = SHRUG (thesis HOLDS).** 6/20 Hormuz re-closure repriced to ZERO at Mon 6/22 open; Brent deflated $80.57 (6/19) → ~$73.7 (6/26), −19% on the month. Hardest decoupling test of the war passed.
 - Iran's 6/20 "first step" stayed coercive/non-kinetic and did NOT climb to a second step through 6/26. Hormuz transits rebounded (71/3d, peak 35) then faded to ~3/day; open Iranian export flow ~50M bbl transponders-ON; OFAC Iran-oil general license landed as primary text.
