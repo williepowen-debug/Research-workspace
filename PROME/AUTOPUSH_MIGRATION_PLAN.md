@@ -1,8 +1,10 @@
 # Auto-Push Migration Plan
-**Created:** 2026-06-26 · **Owner:** Prome · **Status:** TIER 1 PROMOTED (canonical flipped 2026-06-26, soak passed) — RED + HAWK swept; 16 agents remain on lazy-sweep
+**Created:** 2026-06-26 · **Owner:** Prome · **Status:** TIER 1 PROMOTED (canonical flipped 2026-06-26, soak passed). **Lazy-sweep effectively COMPLETE 2026-06-27: 18/21 agent CLAUDE.md flipped** — only 3 OLD-language holdouts remain, all deliberate (TERRY = live/self-sweep, WALTER = architectural, YEYOU = manual). See the 2026-06-27 progress note below.
 **Goal:** Replace the manual "Will-coordinated push" ceremony with **auto-push at closeout**, safely, predicated on single-machine operation.
 
 > **2026-06-26 promotion (Will-approved, full):** Soak passed (multiple clean ff pushes, zero tripwire). Tier 1 canonical flipped — root `CLAUDE.md` Git Protocol, `PROME/GIT_COORDINATION.md` Push Discipline, `memory/auto/feedback_defer_push_coordinate.md` (rewritten, slug kept), `finding_push_train_pattern.md` (re-automated), `MEMORY.md` hooks. Tier 3 sweep STARTED: **RED + HAWK** flipped (both active this session). **Remaining Tier-3 (16):** BOND, BRENT, CARL, CORAL, DEWEY, LABOR, MARCO, NEXUS, ORACLE, OTTO, OZK, SHADE, TERRY, WALTER, + their CLOSEOUT.md (Tier 2.2–2.4 LIQUID/TERRY/YEYOU) — lazy-swept when next active. YEYOU stays manual/branch (Decision C). Un-swept agents are safe: they commit-local and ride the next agent's auto-push.
+
+> **2026-06-27 progress (PROME, Will-approved):** Lazy-sweep effectively COMPLETE. Swept this session: **BOND, CARL, CORAL, DEWEY, HENRY, LABOR, MARCO, OZK** (8 — commit `07d04796`; **OZK got a full git-block rehab**, removing forbidden `git reset HEAD` ×2 + dir-`add`). **ORACLE self-flipped** its own block mid-session (commit `824a713e`) — the lazy-sweep design working as intended. **Tier-2: `LIQUID/CLOSEOUT.md` flipped** this session. Net: **18/21 CLAUDE.md flipped**; the only OLD-language holdouts are **TERRY** (live → self-sweeps), **WALTER** (architectural no-push, `BOARD_CONSUMPTION_SPEC §7` — left by design), **YEYOU** (manual/branch, Decision C). Remaining optional: `TERRY/`+`YEYOU/CLOSEOUT.md` per disposition (YEYOU's manual language is arguably correct as-is).
 
 ## Decisions (Will, 2026-06-26)
 - **Precondition:** ✅ single-desktop only (no VPS/laptop/web pushing) → plan greenlit.
