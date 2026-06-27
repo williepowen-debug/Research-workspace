@@ -1,7 +1,7 @@
 # TODAY.md — Saturday June 27, 2026
-**Updated:** 2026-06-27 (Claude Code Prome — Sat agent-build-out day: auto-push migration COMPLETE + roster refresh + pre-closeout staleness audit + archive sweep. Weekend; levels are 6/25 Fri-close orientation. ORACLE/TERRY/WALTER live in separate windows. Pushed via train.)
+**Updated:** 2026-06-27 PM (Claude Code Prome — Sat network day. AM: roster refresh + auto-push sweep. PM: **fleet protocol audit → Lanes 1+2+3** + **coverage-gap analysis → 3 mandate-extension SIGs**. Weekend; levels are 6/25 Fri-close orientation. NEXUS live PM (executing Lane-3); ORACLE/TERRY/WALTER live AM. Pushed via safe-push at closeout.)
 
-**Objective:** Agent-infrastructure day — no new market position. Three system improvements + a pre-closeout staleness audit landed. **No trigger fired** (standing rule held).
+**Objective:** "Improve + fill out the network" day — no new market position. AM: roster + auto-push. PM: fleet protocol standardization (Lanes 1-3) + a coverage-gap analysis that verified the network is well-covered (no new agent) and routed funding-plumbing + secondary mandate extensions. **No trigger fired** (standing rule held).
 
 ---
 
@@ -20,7 +20,8 @@ Energy deflated; credit-bear **ARMED, pre-trigger**; **HY OAS 278 [6/25]** — 2
 **Deploy fresh capital ONLY on a fired trigger; $500/card max-loss.** No mechanical book-reshape. ([[feedback_deploy_on_trigger_not_calendar]])
 
 ## Prome-owned, done today (6/27)
-**Auto-push migration COMPLETE** (8 agents swept + OZK git-block rehab + ORACLE self-flip + LIQUID/CLOSEOUT.md → 18/21; 3 deliberate holdouts) · **Roster refresh** (verified-active pass → root CLAUDE.md + new `PROME/ROSTER.md`; VIOLET→Active, OZK→Dormant, DARWIN removed, 4 scaffolds retired) · **Pre-closeout staleness audit** (de-staled ACTIVE_DECISIONS/CLOSEOUT/HANDOFF) · **Archive sweep** (CLEANUP_PLAN→archive; PREDICTIONS_MONITOR flagged for NEXUS).
+**AM** — Auto-push migration sweep (8 agents + OZK rehab) · Roster refresh (→ root CLAUDE.md + `PROME/ROSTER.md`) · staleness audit · archive sweep.
+**PM** — **Fleet protocol audit** (20-agent Workflow) → **Lane 1** (7 agents swept to auto-push; corrected the over-counted "18/21" → real 17+2-holdouts) · **Lane 2** (`scripts/ledger_staleness.py` built + wired into 6 rotting agents; froze REGINALD's 4 orphan feeds) · **Lane 3** (hygiene SIGs → NEXUS/HENRY/BOND). **Coverage-gap analysis** (6-lens Workflow) → network verified well-covered, **no new agent**; routed 3 mandate-extension SIGs (LIQUID funding-plumbing + BOND MBS/FHLB+EU + HENRY semis). Docs in `PROME/cluster/`.
 
 ## Open decisions (Will)
 1. **Bank-put reshape card** — shelved; fires ONLY on HY>280 sustained / WAL Jul-16 print. Needs live broker book at fire-time. ($500/card.)

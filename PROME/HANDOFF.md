@@ -6,6 +6,18 @@
 
 ---
 
+## 2026-06-27 (Sat PM) — Network standardization (fleet audit → Lanes 1-3) + coverage-gap analysis → mandate extensions (closeout safe-push; 0-behind/3-ahead clean ff)
+
+**Status:** Will-directed "improve and fill out the network." Two read-only Workflows + execution. **NEXUS went live mid-session and began executing my Lane-3 SIG in real time** (validated the routing). All PROME commits pathspec; no market trigger, no capital (standing rule held). Full narrative → SCRATCH + `memory/2026-06-27.md` (PM).
+
+**What landed:** (1) **★ Fleet protocol audit** (20-agent Workflow; `PROME/cluster/2026-06-27_fleet_protocol_audit.md`) → **Lane 1** (`c7d216e1`): swept **7 agents still on defer-push** (NEXUS/BRENT/VIOLET/REGINALD/BROCK/HAWK/SHADE) → auto-push; **corrected my own false "18/21 complete"** (root cause: VIOLET/REGINALD/BROCK were never in the migration inventory → never swept). **Lane 2** (`4a9e70cd`/`63e90d53`): built `scripts/ledger_staleness.py` (the enforcement the root Data-Hygiene rule never had), froze REGINALD's 4 verified-orphaned feeds, **held its live FLOW/KB + BROCK matrix** (demote-by-verification), wired the check into 6 rotting agents. **Lane 3** (`7496b81e`): hygiene SIGs → NEXUS/HENRY/BOND. (2) **★ Coverage-gap analysis** (6-lens Workflow; `PROME/cluster/2026-06-27_coverage_gap_analysis.md`) → **network verified well-covered, NO new agent warranted** (downgraded synthesis' G-SIB + Pension-LDI picks with reasoning). #1 blind spot = **funding-market plumbing** (load-bearing to HY>280). Routed **3 mandate-extension SIGs** (Will-approved): LIQUID (funding-plumbing+IG+EU-credit), BOND (MBS/FHLB+EU-rates), HENRY (Taiwan/Korea semis → HEN-35).
+
+**Decisions Will made:** fleet protocol standardization lane → Lanes 1+2 → +Lane 3 → coverage-gap analysis → wire the checker into rotting agents → route LIQUID-extension + secondary extensions → closeout.
+
+**The read:** pure network-infrastructure day — **no trigger fired, no capital deployed.** Two system improvements (uniform push protocol; self-correcting ledger tripwire) + a sharpened coverage map + an integrity fix to my own over-counted record. Anti-proliferation discipline held (20-agent network stays 20).
+
+**Next / pending:** 6 SIGs are **intake-only** — owners (NEXUS [live], HENRY, BOND, LIQUID) apply at next boot; **don't chase**. Optional: fleet-wide ledger-checker wiring; CREED git section (low-pri). Downgraded G-SIB/Pension-LDI recorded for revisit. **Lesson → auto-memory:** `finding_migration_tally_inventory_incomplete`.
+
 ## 2026-06-27 (Sat) — Agent build-out: auto-push migration COMPLETE + roster refresh + pre-closeout staleness audit (pushed via train)
 
 **Status:** Will-directed Saturday agent-infrastructure day. ORACLE/TERRY/WALTER live in separate windows throughout — file-based coordination, pathspec commits, zero index race. Full narrative → SCRATCH + `memory/2026-06-27.md`.
@@ -54,32 +66,4 @@
 
 **Pending / next:** **2 packet commits local-ahead** → safe-push at closeout. Own-window threads (do-not-spawn): **BRENT/002 (lone disconfirming signal — top priority)**, SAM/CARL/RED (steelman backlog = the red-team). OZK next session gated on current broker book. SAM INFRA_AGENDA to scope. **Lesson:** mtime-freshness ≠ caught-up (`finding_freshness_audit_vs_caught_up`).
 
-## 2026-06-26 (PM) — HEAVY: 5-agent orchestration + fleet architecture review + ratified closeout-addendum (PUSHED, synced 0/0)
-
-**Status:** Long orchestration-level session, 2 arcs. **(1) Orchestration** (CARL/REGINALD/LABOR → +BROCK → +SHADE): news catch-up / staleness / arch triage → executed. **(2) Fleet ARCHITECTURE REVIEW** → Tier-1 self-apply → ratified closeout-addendum into root CLAUDE.md. All committed + **auto-pushed (2 clean ff pushes), synced 0/0. 5 agents released cleanly.** Full narrative → SCRATCH + `memory/2026-06-26.md`.
-
-**What landed — Arc 1:** WAL Q2 date **Jul-30→Jul-16** fleet-wide (reorders Jul seq, WAL prints WITH CFG/OZK); **PC gate cluster = 5-fund Q2 wave + compounding queue** (BROCK owns; BRK-29 PE-tape ~7/3, BRK-30 credit-fund 10/15); **NEW insurer-lender double-jeopardy channel** (SHADE owns; Athene/ADS lead, BCRED→Athene ruled out, trigger-gated dig lane); **LABOR bull-tilt WATCH** (claims reversed; gates JOLTS 6/30 + NFP 7/2). Clean ownership lines (CARL→BROCK, BROCK→SHADE, CARL→SHADE). 40 inbox items swept.
-
-**What landed — Arc 2:** `PROME/cluster/2026-06-26_fleet_arch_compare.md` (5-agent compare/contrast); Tier-1 self-applied by all 5 (~140 files retired, ledgers frozen/alerted, 5 CLAUDE.md hardened); **root CLAUDE.md gained a pre-commit `git status` check + a "Data Hygiene" section** (`PROME/proposals/2026-06-26_closeout_addendum.md` = APPROVED+APPLIED). The new guard validated itself 4× on first-day use (53-file index race, REG-02/04 desync, 2 residue catches).
-
-**Decisions Will made:** approved BROCK+SHADE spin-up as PC-domain owners; approved the closeout-addendum root-CLAUDE.md edits; authorized commit+push (×2).
-
-**The read:** architecture/maintenance session — **no market trigger fired**, HY 278 (verified live; REGINALD's 285 was a bad pull), wrapper-decoupling still MACRO, **no capital deployed** (standing rule held). One genuinely new structural thread (PC gate cluster + insurer double-jeopardy), all pre-registered trigger-gated.
-
-**Next:** Tier-2/3 architecture follow-ons (scoped in SCRATCH + cluster doc); forward docket 10Y 6/30 · JOLTS 6/30 · NFP 7/2 · BRK-29 ~7/3 · WAL Jul-16 · CPI 7/14. **Lesson:** a pathspec commit of a `git mv` rename needs BOTH source+dest paths or it splits the move (now a canonical guard in root CLAUDE.md).
-
-**Post-closeout addendum (same session):** (1) **Orchestration debrief + `PROME/ORCHESTRATION_PLAYBOOK.md`** — mode-split rule (Workflow fan-out vs live teams-mode), 3-layer discoverability wired (BOOT Non-Negotiable + root CLAUDE.md delivery-contract + auto-memory `feedback_orchestration_mode_split`). (2) **OpenClaw cutover Sections A+B EXECUTED** (WALTER's plan, Will-approved): root CLAUDE.md "two platforms"→one-desktop; PROME dual-surface collapsed (`CLAUDE.md`/`SYSTEM.md`; `CLAUDE_CODE_PROME.md`+`COMM/` retired→archive; separate-clones→worktree-isolation amendment; Quick-WALTER retired 0d). All pushed, synced 0/0. **Remaining cutover (deferred):** A3/autopush Phase-5; **Phase-9 runtime cut — GATED on a verified `telegram-prome` poller (the one real risk — don't kill the gateway before Will-comms proven)**; roster refresh; Phase-1 desktop hot-fixes (WALTER/infra). Map: `AGENTS/WALTER/design/OPENCLAW_CUTOVER_PLAN.md`.
-
-## 2026-06-26 — Standing rule + detection/action hardening + arch peer-review + boot de-bloat + AUTO-PUSH pilot (PUSHED, synced 0/0)
-
-**Status:** Long session off Will's current book (2 images). Arc: bank-put **reshape proposal** (shelved) → **STANDING RULE** (deploy only on a fired trigger; $500/card) → **detection/action HARDENING cluster** (LIQUID/SENTRY/TERRY, Prome-directed) → **arch peer-review + fix round** → **HEARTBEAT reconcile** → **full closeout** → **boot de-bloat thread**. **PUSHED — origin master `260b12b2`, synced 0/0.** 3 agents released.
-
-**What landed:** (1) `PROME/proposals/2026-06-26_bank-put-reshape-roll.md` — shelved "if HY 280" card. (2) Memory `feedback_deploy_on_trigger_not_calendar` ($500/card). (3) **Detection** — `config.py` retuned (HY 265/280, 10Y 4.40, wrapper series) + **live `liquid-hy-watch` systemd timer** (Mon–Fri 13:00 ET, VERIFIED firing 278→amber → `AGENTS/LIQUID/alerts/`). (4) **Action/grading** — TERRY `chain_fetch.py`, `TRADE_CARD_TEMPLATE_FIRE.md` (+2 setups, $500), `grade_print.py` (Jul grader, 3 traps). (5) **Arch fix round** — LIQUID STATUS 28→7KB + watcher `--selftest` + X1 dedupe→KILL_MEMO; TERRY +MEMORY +CLOSEOUT. (6) HEARTBEAT reconciled (HY→278, X1→KILL_MEMO). (7) **Boot de-bloat** — pruned/condensed 2 stale memories; **archived CC-Prome PLAN/TASKS off the boot path**; **SYSTEM.md surgical refresh** (de-date-pinned, CC-Prome→operational). Boot-read weight ~117→95 KB (~18% lighter). Records in `PROME/cluster/`.
-
-**The read:** no market trigger fired — a **maintenance + system-hardening** session, NOT a new-conviction entry. Live **HY 278 [6/25], 2bp from the >280 X1** (271→276→278); detection blind spot now closed (timer auto-catches a 280 cross between sessions).
-
-**★ AUTO-PUSH MIGRATION (pilot live):** Will confirmed single-desktop → **Prome now auto-pushes at closeout** via `scripts/safe-push.sh` (ff-gated, fails safe; wired into `PROME/CLOSEOUT.md`). Canonical docs (root `CLAUDE.md` / `GIT_COORDINATION.md`) + ~17 agent CLAUDE.md **intentionally still say "Will-coordinated"** during the soak — documented divergence, NOT an oversight. Plan + next tiers: `PROME/AUTOPUSH_MIGRATION_PLAN.md` + `ACTIVE_DECISIONS`. Tripwire: a non-ff abort = 2nd machine pushed → flag Will.
-
-**Next / pending:** Nothing pending on Prome's side — all auto-pushed. `AGENTS/WALTER/REGISTRY.tsv` modified-uncommitted = WALTER's (not Prome's). WILL/trading-journal: 3 deletions + 2 JPGs = Will's. Shelved (b)/(c) card fires only on HY>280 sustained or WAL Jul-16 print (corrected from Jul-30 on 6/26 — REGINALD catch) — $500/card. 10Y 6/30 re-pull scheduled. Auto-push fleet rollout (Tier 1+) after pilot soak.
-
-*(Older entries — incl. the 2026-06-26 Tier-1/Tier-2 verification pass and the 06-25 front-half de-mask cluster — archived to `PROME/archive/HANDOFF_2026Q2.md`.)*
+*(Rolled off this closeout — full detail in `memory/2026-06-26.md`: **2026-06-26 (PM) HEAVY** (5-agent orchestration + fleet arch review → root CLAUDE.md pre-commit-check + Data-Hygiene section; PC gate cluster + insurer double-jeopardy; ORCHESTRATION_PLAYBOOK; OpenClaw cutover A+B) and **2026-06-26 standing-rule** (deploy-on-trigger $500/card; detection/action hardening — `liquid-hy-watch` timer + TERRY grade/chain tooling; AUTO-PUSH pilot). Older entries — incl. the 2026-06-26 Tier-1/2 verification pass and the 06-25 de-mask cluster — in `PROME/archive/HANDOFF_2026Q2.md`.)*

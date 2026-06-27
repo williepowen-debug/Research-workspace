@@ -1,35 +1,33 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-27 (Claude Code Prome — Sat agent-build-out day: **auto-push migration COMPLETED + roster refresh + pre-closeout staleness audit + archive sweep**. Supersedes the 6/26 LATE-NIGHT SCRATCH.)
+**Last Updated:** 2026-06-27 PM (Claude Code Prome — **network standardization + coverage-gap day**: fleet protocol audit → Lanes 1+2+3 executed, then coverage-gap analysis → 3 mandate-extension SIGs. Supersedes the 6/27-AM agent-build-out SCRATCH.)
 
-## What happened this session
-Boot + a full agent-infrastructure day (4 threads, all closed). **ORACLE/TERRY/WALTER live in separate windows throughout** — coordination file-based; all my commits pathspec-scoped → zero index race despite 3 live windows. No market trigger fired, no capital deployed (standing rule held).
+## What happened this session (PM)
+Will: "improve and filling out the network." Two read-only Workflows + execution, all PROME commits pathspec-scoped. **NEXUS went live mid-session and began executing my Lane-3 SIG in real time** (it's editing AGENTS/NEXUS/ — leave it alone). No market trigger, no capital (standing rule held).
 
-1. **Auto-push migration — COMPLETE (the 6/26 headline leftover).**
-   - Swept 8 agent CLAUDE.md to auto-push-at-closeout: BOND/CARL/CORAL/DEWEY/HENRY/LABOR/MARCO/OZK (commit `07d04796`). **OZK got a full git-block rehab** — it still taught forbidden `git reset HEAD` ×2 (63d-cold, pre-pathspec-reform); both fixed. HENRY stale interim-note corrected.
-   - **ORACLE self-flipped its own block mid-session** (commit `824a713e`) — lazy-sweep design working as intended; confirmed why we skip live agents.
-   - Tier-2: **LIQUID/CLOSEOUT.md flipped** + bookkeeping refreshed (`24fd1ef2`).
-   - **Net: 18/21 CLAUDE.md on auto-push.** 3 holdouts all deliberate: TERRY (live/self-sweep), WALTER (architectural, BOARD_CONSUMPTION_SPEC §7), YEYOU (manual/branch). **Migration thread RETIRED.**
+**(A) Fleet protocol standardization** — 20-agent read-only audit (`wf_da8e8837`; doc `PROME/cluster/2026-06-27_fleet_protocol_audit.md`):
+- **Lane 1** (`c7d216e1`,`51d03d42`): 7 agents still on defer-push (NEXUS/BRENT/VIOLET/REGINALD/BROCK/HAWK/SHADE) swept → auto-push (residual=0). **Corrected my false "18/21 complete"** → real 17 auto + 2 intentional holdouts (TERRY/WALTER). Root cause: VIOLET/REGINALD/BROCK never in the migration inventory.
+- **Lane 2** (`4a9e70cd`,`63e90d53`,`b9d84e4a`): built `scripts/ledger_staleness.py` (boot-time mtime alert, FROZEN-aware, 30d default). Froze REGINALD's 4 orphaned feeds; **held REGINALD FLOW/KB + BROCK matrix for owners** (demote-by-verification). Wired into 6 rotting agents (BRENT/REGINALD/BROCK/HAWK/RED/CARL).
+- **Lane 3** (`7496b81e`,`be92b6a1`): hygiene SIGs → NEXUS / HENRY / BOND inboxes.
 
-2. **Roster refresh — verified-active pass (commit `bc35fdc4`).** Built a commit-activity map (the real "is it running" signal). Corrections vs the old prose roster: **VIOLET slotted Active** (118 commits/30d — was unslotted!); **OZK Active→Dormant** (0/60d, Q2-gated); **DARWIN removed** (phantom — already in `_archive`); BOND/TERRY→Active; MARCO/ORACLE/SHADE promoted; CREED/DEWEY→Tier-2. **Retired 4 scaffolds** (BUFFER/DOC/EARNINGS/FOREX — skeleton, never launched) → `AGENTS/_archive/`. Wrote root CLAUDE.md (Active=20, Tier-2=4) + new **`PROME/ROSTER.md`** (durable verified classification + activity evidence).
-
-3. **Pre-closeout staleness audit (commits `7aff8de0` + `0299c267`).** Fixed durable boot/closeout docs: ACTIVE_DECISIONS top row + preamble (stale `HY 263 [6/17]` → now references HEARTBEAT; "Hormuz re-fattened energy tail" → deflated); CLOSEOUT.md (auto-push status → complete 18/21; de-OpenClaw); HANDOFF.md (de-OpenClaw). Session-state files refreshed in this closeout.
-
-4. **Archive sweep (this closeout).** `CLEANUP_PLAN_2026-05-07` → `PROME/archive/` (clean, no refs). **`PREDICTIONS_MONITOR.md` NOT archived** — reference check found it's **NEXUS's LIVE boot-read prediction ledger** (NEXUS/CLAUDE.md boot step 3 + doc-ownership table), mislocated in PROME/. Flagged for NEXUS.
+**(B) Coverage-gap analysis** (`8c2b53c9`,`95a29aac`; doc `PROME/cluster/2026-06-27_coverage_gap_analysis.md`): 6-lens sweep (`wf_1c84f2f1`). **Network well-covered, NO new agent warranted** — downgraded both synthesis picks (G-SIB = late absorber; Pension-LDI = trigger-gated tail). #1 blind spot = **funding-market plumbing** (load-bearing to HY>280). Routed 3 **mandate-extension** SIGs (Will-approved): LIQUID (funding-plumbing+IG-basis+EU-credit), BOND (MBS/FHLB+EU-rates), HENRY (Taiwan/Korea semis → HEN-35).
 
 ## Repo state
-Clean; all PROME work committed + pushed via the train (ORACLE's mid-session safe-push swept the first two commits earlier; closeout safe-push sweeps the rest). Only working-tree dirt = `WILL/trading-journal/` (Will's).
+Clean for PROME; all PROME work committed + (closeout) pushed via safe-push. **NEXUS live** with uncommitted AGENTS/NEXUS/ work (executing Lane-3) — do NOT pull, do NOT touch. WILL/trading-journal dirt = Will's. Was 0-behind/3-ahead at closeout → clean ff.
 
 ## Next planned work / open threads
-- **PREDICTIONS_MONITOR.md → NEXUS:** flag that its prediction ledger is stale (April rows) AND cross-dir-located in PROME/; NEXUS should refresh + consider migrating it into `AGENTS/NEXUS/`.
-- **Auto-push remainder (optional):** TERRY/YEYOU CLOSEOUT.md (TERRY self-sweeps; YEYOU manual-by-design = arguably correct as-is).
-- **Energy (BRENT's lane):** BRENT processes the RED SIG on Jul-1 EIA WPSR / Jul-3 COT (downgrade "STRUCTURAL settled"→"structural LEAN"; re-derive curve).
-- **Still pending (prior):** OZK revival gated on broker book (Q2 ~Jul-16); HEN-35 AI-capex Mon transmission test (MU/SMH/SOX + VIX vs 23); bank-put reshape card fires only on HY>280 sustained / WAL Jul-16.
+- **Owner pickup pending** (next-boot intake — don't chase): NEXUS (Lane-3, already started live), HENRY (Lane-3 + coverage), BOND (Lane-3 + coverage), LIQUID (funding-plumbing extension = the highest-value one). Monitor integration; don't re-send.
+- **Lane 4** (owner-lane, no PROME action): stale NEXUS_BRIEF/STATUS-spine refreshes (BRENT/LABOR/BROCK/REGINALD).
+- **CREED** Tier-2 CLAUDE.md has no git-protocol section (low-pri).
+- **Downgraded-but-recorded:** G-SIB + Pension-LDI new-agent candidates (in coverage doc) — revisit only if Will disagrees with the downgrade or a rate-spike scenario arms the pension tail.
+- **Optional:** wire ledger-staleness fleet-wide (only 6 rotting agents wired so far).
+- **Prior open (unchanged):** BRENT processes RED energy SIG on Jul-1/Jul-3; OZK revival gated on broker book (Q2 ~Jul-16); HEN-35 Mon transmission test (MU/SMH/SOX + VIX vs 23); bank-put reshape fires only on HY>280 sustained / WAL Jul-16.
 
 ## Forward docket
-Mon MU/SMH/SOX (HEN-35) · VIX vs 23 · HY vs 280 (auto-watched) · 10Y 6/30 · JOLTS 6/30 · EIA 7/1 · NFP 7/3 · SPR re-auth ~7/3 · CFTC COT 7/3 (BRENT 2nd-week test) · STEO 7/8 · OZK+WAL+CFG Jul-16 · CPI 7/14 · late-Jul Q2 hyperscaler FCF + BDC marks ~7/25.
+Mon MU/SMH/SOX (HEN-35) · VIX vs 23 · HY vs 280 (auto-watched `liquid-hy-watch`) · 10Y 6/30 · JOLTS 6/30 · EIA 7/1 · NFP 7/3 · CFTC COT 7/3 (BRENT 2nd-week test) · OZK+WAL+CFG Jul-16 · CPI 7/14 · late-Jul Q2 hyperscaler FCF + BDC marks ~7/25.
 
 ## Cautions
-- Position/broker truth = Will/FORGE. Refresh dashboard/FRED (venv) before any level — **weekend; levels are 6/25 Fri-close orientation.**
-- Standing rule held: deploy only on a fired trigger, $500/card. Nothing fired — pure agent-infrastructure day.
-- Auto-push at closeout is canonical (`safe-push.sh`). Non-ff abort = 2nd machine → flag Will, do NOT force.
-- 3 live windows (ORACLE/TERRY/WALTER) were active this session — they self-manage; don't assume warm next session.
+- Position/broker truth = Will/FORGE. Refresh dashboard/FRED before any level — **weekend; levels are 6/25 Fri-close orientation.**
+- Standing rule held: deploy only on a fired trigger, $500/card. Pure infrastructure session.
+- Auto-push at closeout (`safe-push.sh`); non-ff abort = 2nd machine → flag Will, do NOT force.
+- **NEXUS live** this session (+ ORACLE/TERRY/WALTER were earlier) — don't assume warm next session; spawn fresh.
+- 6 coverage/hygiene SIGs are **intake-only** — owners apply at their own next boot; don't re-route or chase.
