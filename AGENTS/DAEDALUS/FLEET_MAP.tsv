@@ -1,7 +1,7 @@
 Agent	Class	Level	Conf	Classification_ref	Last_scored	Gaps	Next_upgrade	Notes
 DAEDALUS	Meta	L3	H	ROSTER:new	2026-06-27	—	EVOLUTION roadmap executing → L4 on first build/retire	Self-row. Scoring engine built + first fleet scan run this session.
 REGINALD	Market	L4	H	ROSTER:active	2026-06-27	no BOTTOM LINE	add BOTTOM LINE → L4 clean; sustain pred resolution → L5	Read-verified. Transmission hub; conv-matrix + exit rules + DFAST + 6 pred resolved + TRADE. Fleet exemplar.
-HENRY	Market	L3	M	ROSTER:active	2026-06-27	uses own trigger/vector titling not template conv-matrix/exit headings	decide enforce-vs-accept titling (EVOLUTION); then L4	Read-verified. 22 pred resolved = top discipline. "gaps" are grep-title misses, not substance.
+HENRY	Market	L3	H	ROSTER:active	2026-06-27	strong falsification(TRIAD)+banded-routing but WEAK on cross-agent-comparable scoring (no universal 5-pt composite)	add BOND-style 5-pt composite to its axes → cross-comparable → L4	Survey-verified. 22 pred resolved. Not the fleet exemplar — best-of-breed is distributed (see BEST_PRACTICES.md).
 CARL	Market	L3	M	ROSTER:active	2026-06-27	no BOTTOM LINE; no prediction track	add predictions + BOTTOM LINE → L4	297 KB rows, conv+exit present, TRADE. Strong structure, thin falsification loop.
 BROCK	Market	L3	M	ROSTER:active	2026-06-27	—	add TRADE.md + sustain pred resolution → L4	conv+exit+1 pred resolved; clean conformance. No TRADE.md caps at L3.
 LABOR	Market	L3	M	ROSTER:active	2026-06-27	—	lift commit cadence → L4	conv+exit+2 pred resolved+TRADE, clean. Low 30d cadence only.
