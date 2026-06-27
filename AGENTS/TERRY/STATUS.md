@@ -1,5 +1,5 @@
 # TERRY STATUS
-**Updated:** 2026-06-27 Sat (closeout: `SIGNALS.tsv` context ledger built+broadened, `inbox/WILL/` drop-zone added, NEXUS regime PIN flagged stale, day-trading Session 3 logged) · **Status:** 🟡 armed — fire-card toolchain built & tested, 0 cards fired live, waiting on a trigger
+**Updated:** 2026-06-27 Sat closeout (full session: SIGNALS ledger + NEXUS PIN, `inbox/WILL/` drop-zone, day-trading S3 + side-project reframe, **monoline card TRY-FIRE-003 + grader path-(m)**, `FIRE_CARDS_LADDER.md`) · **Status:** 🟡 armed — fire-card toolchain built & tested, 0 cards fired live, waiting on a trigger
 **Agent:** TERRY — trade construction / tactical execution discipline. Owns the ACTION/card side; never executes. Detection = LIQUID/SENTRY.
 
 > Durable mandate + lessons → `MEMORY.md`. Session-end procedure → `CLOSEOUT.md`. Role/start-here → `README.md`. Risk gates → `RISK_SCORING.md`.

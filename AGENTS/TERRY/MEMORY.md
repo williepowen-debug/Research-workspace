@@ -55,8 +55,10 @@ Detection (HY-280 break, print alerts) is LIQUID/SENTRY; TERRY owns everything A
 - **NEXUS diagnosed 11d-dark / pre-FOMC stale** — populated PIN with the 6/16 read (stale-stamped); wrote `outbox/2026-06-27_to-NEXUS_post-fomc-reanchor-flag.md` (3 unprocessed gates: FOMC 6/17, Iran 6/19, OPEX 6/19). Will refreshing NEXUS soon.
 - **`inbox/WILL/` drop zone** — Will's reserved trading-data drop; raw gitignored (local), boot-surfaced.
 - **Day-trading Session 3 logged** (JOURNAL/LEDGER/PROFILE) off Will's Robinhood CSV: −$3,969 / 3 days; see day-trading Durable Finding above.
+- **Day-trading reframed = bounded SIDE project** (Will 6/27, now in Standing Decisions) — subordinate to the thesis system; must not displace it.
+- **Thesis desk (primary):** assessed fleet trade-readiness → the regional/credit **Q2-print complex** is closest-to-tradeable (REGINALD/LIQUID; owners flag Q2 modest, 2027 = realized event). Built **monoline fire card TRY-FIRE-003** (COF/SYF/ALLY, earliest un-maskable tell) + extended `grade_print.py`/`grade_config.json` with **path (m) un-mask tally** (`--book-direction`/`--nco-guide`/`--dq-formation`; selftest PASS) + **`setups/FIRE_CARDS_LADDER.md`** (3-card comparison + July print calendar + monoline→regional gate link).
 
-**Status:** all committed; rides the push-train. NEXUS PIN refresh + a day-trade timestamped-export are the open carries.
+**Status:** all committed + pushed (synced 0/0). Open carries: NEXUS PIN refresh (Will re-anchoring NEXUS) + a day-trade timestamped order export.
 
 ---
 
