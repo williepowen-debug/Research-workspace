@@ -67,8 +67,27 @@ The APO −14% / BIZD breach / HY widening **looks like M-08 finally transmittin
 5. **OZK revived 6/26 but position-state UNSAFE** (May expirations status unknown) — PROME handling; affects M-08 candidate.
 6. **WALTER routing-health unread** (reader failed) — low synthesis value but unscanned; multifamily SIG-W-20260627-025 (rent concessions 16.9%, shelter-disinflation) routed to CARL/REGINALD/CORAL, consistent with CARL housing-deflation.
 
+## WU2 — Brief-intake model shift (Will-tasked: "more agents have NEXUS briefs than you check for")
+
+Verified Will's instinct (didn't propagate the hypothesis — scanned the tree first). **Fleet-wide `NEXUS_BRIEF.md` scan: 12 agents now maintain one** (BRENT/BROCK/CARL/CORAL/HAWK/HENRY/LABOR/MARCO/ORACLE/OTTO/SAM/VIOLET). The brief is now fleet-standard; my read-model was a frozen hardcoded Tier-1 list (half of which is brief-less) — **stale by construction.**
+
+**Two genuine gaps found + closed:**
+- **CORAL** (whole-Florida geography-convergence, fresh 6/25) — was OFF my read-list entirely (newer agent, spun from REGINALD 6/19). Top-priority geography, FL leg of the REGINALD/CARL transmission cluster, routes a signal explicitly TO NEXUS. **Added Tier-1.**
+- **ORACLE** (prediction-market crowd lens, fresh 6/27) — I had it marked DORMANT since 4/02; it's active and is literally my Discipline-D (market-verdict counter-signal) + Discipline-E (thin-liquidity) feed. **Added Tier-1 / cross-cutting. Reclassified from dormant.**
+
+**Model change:** read-set is now **brief-existence-driven, not a frozen list** — read every extant brief (Tier-1 in full each pass), fall back to STATUS for the brief-less.
+
+**Signal integrated into STATUS (the payoff of adding them):**
+- **ORACLE Iran two-axis (newer than the fleet scan):** nuclear/supply-shock axis dead (crowd WTI-$100 0.4%) BUT shipping/kinetic axis re-escalating (Ever Lovely struck 6/25, US strikes 6/26); crowd reads harassment ≠ supply shock → why Brent held $72 through kinetic events. M-06 tail refined to "kinetic-WARM but supply-shock-priced-out."
+- **ORACLE crowd risk-on** (S&P best-asset 56% +21/30d, recession 11%, no-cuts 80% pinned) → clean Narrative-Gap market-verdict counter-signal; the crowd is *more* risk-on than agent-data, and has NOT priced the dormant credit axis (the live edge).
+- **CORAL FL leg** → M-05: FL household/condo stress confirming, bank-loss 2027 — corroborates REGINALD's 2027 timing (flagged NOT independent — both read the same Q1 FL 10-Qs, Discipline F).
+
+**Files changed (WU2):** `CLAUDE.md` (BOOT step 6 reframed brief-existence-driven + WHAT-YOU-READ row), `BRIEFS_MAP.md` (★6/27 inventory note: 12 briefs + CORAL/ORACLE added Tier-1 + ORACLE un-dormant'd + superseded-snapshot marker), `STATUS.md` (M-05 CORAL leg, M-06 two-axis, Narrative-Gap crowd counter-signal, header LAST-RUN WU2).
+
+**Carry-forward (WU2):** REGINALD + RED are the highest-value remaining brief-gaps (both load-bearing, both brief-less) — worth a brief stand-up request via PROME. WALTER routing-health still unread.
+
 ## Next Step
 
-Next trigger = **6/30 month-end** (does the rotation cascade) or any tier-1 inbox arrival. Then the **7/15-28 Q2-print cluster** is THE M-08 transmission test. Hold the synthesis discipline: do NOT re-read a positioning move as credit transmission without the wrapper-vs-manager / CCC-HY-ratio discriminators.
+Next trigger = **6/30 month-end** (does the rotation cascade) or any tier-1 inbox arrival. Then the **7/15-28 Q2-print cluster** is THE M-08 transmission test. Hold the synthesis discipline: do NOT re-read a positioning move as credit transmission without the wrapper-vs-manager / CCC-HY-ratio discriminators. **ORACLE gives a new live tell:** watch for the first crowd/market move that front-runs the dormant R3/M-08 axis.
 
 Git: committing this pass with pathspec discipline; auto-push at closeout via safe-push.sh (sweeps the unpushed TERRY commit too — push-train).

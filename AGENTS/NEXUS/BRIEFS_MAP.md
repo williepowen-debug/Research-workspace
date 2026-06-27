@@ -3,11 +3,26 @@
 **Updated:** 2026-06-27 Sat (11-day re-anchor freshness sweep — see note below; table rows pre-date this and carry 6/16 dates, trust the note for current state).
 **Schema reference:** `templates/NEXUS_BRIEF_SCHEMA.md` §4.4 fallback triggers (a/b/c) + `brief_fallback_log.tsv` for run-time instrumentation.
 
-> **2026-06-27 re-anchor freshness (authoritative over the table rows below until next full table rewrite):**
-> - **FRESH (read this pass via fan-out):** CARL (brief 6/26), HAWK (6/26), BRENT (6/25), SAM (6/22), VIOLET (6/23), LABOR (standing brief fresh). BROCK brief 6/20 slightly behind STATUS 6/26 (PIN-STALE — read raw STATUS for BCRED gate).
-> - **STATUS-STALE (flag to owner):** HENRY STATUS 6/23 missing 6/24-27 (MU/PCE/KOSPI-2nd-CB) — flagged to HENRY. REGINALD STATUS header stuck 6/22 though content fresh to 6/25.
-> - **Still MISSING brief:** REGINALD, RED, WALTER (RED STATUS 6/23 fresh; WALTER active routing 6/27; both read raw). OZK dormant→revived 6/26 (position-state UNSAFE). LIQUID dormant 5/21.
-> - **Coverage Tier-1: 8/12** (CARL/HENRY/BROCK/HAWK/BRENT/VIOLET/SAM/LABOR have briefs; HENRY's is stale). Missing 4: REGINALD, RED, WALTER, OZK(+LIQUID dormant).
+> **★ 2026-06-27 — MODEL SHIFT: the brief is now FLEET-STANDARD; read-set is BRIEF-EXISTENCE-DRIVEN, not a frozen Tier-1 list.**
+> A fleet-wide scan found **12 agents now maintain `NEXUS_BRIEF.md`** — beyond the original hardcoded Tier-1. Two were OFF NEXUS's read-list and are now added: **CORAL** (whole-Florida geography-convergence, fresh 6/25 — top-priority geography, FL leg of the REGINALD/CARL transmission cluster, routes explicitly TO NEXUS) and **ORACLE** (prediction-market crowd lens, fresh 6/27 — the market-verdict counter-signal / Discipline-D + thin-liquidity Discipline-E feed; was wrongly marked DORMANT since 4/02). CLAUDE.md BOOT step 6 reframed: read every extant brief (Tier-1 in full each pass), fall back to STATUS for the brief-less.
+>
+> **The 12 extant briefs (last commit / STATUS / drift, scanned 6/27):**
+> | Agent | Brief | STATUS | Drift | Read-tier |
+> |---|---|---|---:|---|
+> | CARL | 6/26 | 6/26 | 0 | T1 (R3 consumer) ✅FRESH |
+> | HAWK | 6/26 | 6/26 | 0 | T1 (R2 geopol) ✅FRESH |
+> | CORAL | 6/25 | 6/25 | 0 | **T1 NEW (R3 FL geography-convergence)** ✅FRESH |
+> | BRENT | 6/24 | 6/26 | 2 | T1 (R2/R5 energy) — pin-stale, content fresh |
+> | HENRY | 6/23 | 6/23 | 0 | T1 (tape/vol) — STATUS itself stale (missing 6/24-27) |
+> | VIOLET | 6/23 | 6/23 | 1 | T1 (vol structure) ✅FRESH |
+> | SAM | 6/22 | 6/25 | 3 | T1 (R6 Japan) — content fresh, pin-stale |
+> | BROCK | 6/20 | 6/26 | 6 | T1 (R3 private credit) — PIN-STALE, read raw for BCRED gate |
+> | ORACLE | 6/27 | 6/27 | 0 | **T1 NEW (cross-cutting: crowd/market-verdict)** ✅FRESH |
+> | LABOR | 6/16 | 6/26 | 2 | T1-standing (chain-head) — refreshed every closeout |
+> | MARCO | 6/15 | 6/15 | 0 | T2 (FL migration/population) |
+> | OTTO | 6/09 | 6/09 | 0 | T2 (internal-ops; read on doc-system synthesis only) |
+>
+> **Brief-LESS (read raw STATUS when domain live, flag if load-bearing):** REGINALD (M-02/M-05 hub — biggest brief-gap), RED (adversarial — Discipline-D), WALTER (routing), LIQUID (dormant 5/21), OZK (revived 6/26, position UNSAFE), BOND. **Tier-1 brief coverage: 10/~14 priority agents.** REGINALD + RED are the highest-value remaining gaps (both load-bearing, both brief-less).
 
 ---
 
@@ -23,7 +38,9 @@
 
 ---
 
-## Tier-1 (12 agents — primary brief intake per CLAUDE.md BOOT step 6)
+## Tier-1 — per-agent detail
+
+> ⚠️ **The per-agent rows in this section + the tables below are the 2026-06-16 snapshot** (drift formulas, legend, and maintenance rules remain canonical; the per-agent freshness/classification is superseded by the ★ 2026-06-27 inventory note at the top). Notably: **CORAL and ORACLE now have fresh briefs and are Tier-1** (not reflected in the rows below); ORACLE is no longer dormant.
 
 | Agent | Brief | Brief date | STATUS-pin | STATUS HEAD | Drift | Status | Notes |
 |---|---|---|---|---|---:|---|---|
@@ -65,7 +82,7 @@
 | HANS | 2026-04-30 | ⚪ DORMANT (5+ wk stale) | Geopolitical analysis. Spawn-on-need. |
 | BARON | none | dormant | — |
 | SHADE | 2026-03-27 | ⚪ DORMANT (10+ wk stale) | — |
-| ORACLE | 2026-04-02 | ⚪ DORMANT (9+ wk stale) | — |
+| ORACLE | 2026-06-27 | 🟢 **ACTIVE — Tier-1 (reclassified 6/27)** | Prediction-market crowd lens (Polymarket + Kalshi). Fresh brief 6/27 = market-verdict counter-signal (Discipline D) + thin-liquidity (Discipline E). See top inventory note. |
 
 ---
 

@@ -23,7 +23,7 @@ You do NOT generate original research. You do NOT own any domain. You read what 
 3. **Resolve past-trigger predictions** — open `PREDICTIONS_MONITOR.md`, scan for items whose trigger date has passed. For each: mark HIT / MISS / TRUE-in-letter-FALSE-in-spirit / RESOLUTION-UNVERIFIED. If HIT and convergence-level → promote one-liner to `CONFIRMED.md`. Apply Synthesis Disciplines.
 4. **Scan `inbox/`** — directory of dated routed-signal files since last run. Primary signal source.
 5. **Read `SIGNALS.md`** — live unresolved cross-agent signals (only items not yet absorbed into STATUS).
-6. **Consult `BRIEFS_MAP.md` first** for current brief coverage + freshness/drift state across the fleet. Then **read each Tier-1 agent's `NEXUS_BRIEF.md`** (CARL, REGINALD, OZK, SAM, RED, BROCK, LIQUID, HENRY, HAWK, BRENT, VIOLET, WALTER). Fall back to raw `STATUS.md` ONLY when one of these triggers fires (per `templates/NEXUS_BRIEF_SCHEMA.md` §4.4):
+6. **Consult `BRIEFS_MAP.md` first** — it is the authoritative, live index of which agents maintain a `NEXUS_BRIEF.md` + freshness/drift. **The brief is now the fleet standard (12 agents as of 2026-06-27); the read-set is BRIEF-EXISTENCE-DRIVEN, not a frozen Tier-1 list.** Read every extant brief — in full for the **Tier-1 / load-bearing set** each pass (currently CARL, BROCK, HENRY, VIOLET, HAWK, BRENT, SAM, **CORAL** [whole-Florida geography-convergence], **ORACLE** [prediction-market crowd / market-verdict counter-signal], LABOR), and opportunistically for **Tier-2** when their domain is live (MARCO, OTTO). **Fall back to raw `STATUS.md`** for (i) **brief-less agents** — REGINALD, RED, WALTER, LIQUID, OZK, BOND — read their STATUS directly when their domain is live (and flag the brief-gap if they're load-bearing); and (ii) any of these triggers (per `templates/NEXUS_BRIEF_SCHEMA.md` §4.4):
    - **(a) Mechanical staleness:** brief's STATUS-commit hash is >1 commit behind current STATUS HEAD for that agent's directory.
    - **(b) Convergence drill-down:** two or more briefs hint at a thread neither explicitly names — read both raw STATUSes to chase the connection.
    - **(c) Cross-domain uncertainty:** a brief's CALIBRATION "uncertain about" names something in another agent's domain → read that other agent's STATUS to see if the uncertainty resolves there.
@@ -162,7 +162,7 @@ Generic intake — "routed signals, however delivered":
 |--------|-------------|-------|
 | `inbox/` (NEXUS) | Routed-signal files (dated) | Full — primary signal source |
 | `AGENTS/SIGNALS.md` | Supplementary cross-agent log | Scan for new entries |
-| `AGENTS/<TIER-1>/NEXUS_BRIEF.md` | Per-agent NEXUS-targeted brief (VIEW / CALIBRATION / CROSS-DOMAIN / NEXT / FORWARD CATALYSTS) | **Primary cross-agent intake** — read all Tier-1 briefs per BOOT step 6 |
+| `AGENTS/<AGENT>/NEXUS_BRIEF.md` | Per-agent NEXUS-targeted brief (VIEW / CALIBRATION / CROSS-DOMAIN / NEXT / FORWARD CATALYSTS) | **Primary cross-agent intake** — read ALL extant briefs (brief-existence-driven, fleet-standard 6/27); Tier-1 in full each pass per BOOT step 6 |
 | `AGENTS/*/STATUS.md` | Raw state file | **Fallback only** — read when trigger (a)(b)(c) fires per BOOT step 6 |
 | `memory/auto/` (recent) | Recent findings/feedback that may change framework | Scan since last NEXUS run |
 | `PROME/STATUS.md` (if present) | Active positions, priorities | Positions + watchlist |
