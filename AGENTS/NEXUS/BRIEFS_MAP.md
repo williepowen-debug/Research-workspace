@@ -1,7 +1,13 @@
 # NEXUS — Fleet Brief Map
 **Purpose:** Single index of `NEXUS_BRIEF.md` status across the fleet. NEXUS reads this at BOOT step 6 to decide where the brief read-flow applies vs where raw STATUS fallback is mandatory.
-**Updated:** 2026-06-16 Tue PM (CARL brief landed 10:55 + re-scoped to consumer-stress; coverage 6/12 → 7/12)
+**Updated:** 2026-06-27 Sat (11-day re-anchor freshness sweep — see note below; table rows pre-date this and carry 6/16 dates, trust the note for current state).
 **Schema reference:** `templates/NEXUS_BRIEF_SCHEMA.md` §4.4 fallback triggers (a/b/c) + `brief_fallback_log.tsv` for run-time instrumentation.
+
+> **2026-06-27 re-anchor freshness (authoritative over the table rows below until next full table rewrite):**
+> - **FRESH (read this pass via fan-out):** CARL (brief 6/26), HAWK (6/26), BRENT (6/25), SAM (6/22), VIOLET (6/23), LABOR (standing brief fresh). BROCK brief 6/20 slightly behind STATUS 6/26 (PIN-STALE — read raw STATUS for BCRED gate).
+> - **STATUS-STALE (flag to owner):** HENRY STATUS 6/23 missing 6/24-27 (MU/PCE/KOSPI-2nd-CB) — flagged to HENRY. REGINALD STATUS header stuck 6/22 though content fresh to 6/25.
+> - **Still MISSING brief:** REGINALD, RED, WALTER (RED STATUS 6/23 fresh; WALTER active routing 6/27; both read raw). OZK dormant→revived 6/26 (position-state UNSAFE). LIQUID dormant 5/21.
+> - **Coverage Tier-1: 8/12** (CARL/HENRY/BROCK/HAWK/BRENT/VIOLET/SAM/LABOR have briefs; HENRY's is stale). Missing 4: REGINALD, RED, WALTER, OZK(+LIQUID dormant).
 
 ---
 

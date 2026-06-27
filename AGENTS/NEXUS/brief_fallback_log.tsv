@@ -10,3 +10,8 @@ date	agent	cause	note
 2026-06-16	SAM	stale	brief 6/7 but STATUS 6/15 (BOJ live); read STATUS+TIMELINE direct for hike outcome
 2026-06-16	CARL	stale	no brief exists; read FOMC_PACKET_2026-06-17 + STATUS direct for CPI/labor/Fed read
 2026-06-16	HAWK	convergence	brief 6/8 stale vs Dawn-#5; chased Iran de-escalation thread via BRENT/SAM STATUS
+2026-06-27	BROCK	stale	brief 6/20 behind STATUS 6/26 (BCRED gate-cluster + KBRA record landed after brief); 11-day re-anchor fan-out read raw STATUS
+2026-06-27	HENRY	stale	STATUS itself stale 6/23 (missing 6/24-27 MU/PCE/KOSPI-2nd-CB); no fresh brief; read raw + flagged HENRY STATUS lag to owner
+2026-06-27	VIOLET	stale	brief 6/23 4d stale into 6/27; read raw STATUS for R7 Path-B + negative-gamma detail
+2026-06-27	REGINALD	stale	no NEXUS_BRIEF exists; raw STATUS only (CCC/HY tripwire + Q2 convergence grid)
+2026-06-27	LIQUID	stale	dormant since 5/21; HY OAS/credit covered via OZK/REGINALD/RED/FRED-WebSearch

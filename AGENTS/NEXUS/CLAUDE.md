@@ -29,7 +29,7 @@ You do NOT generate original research. You do NOT own any domain. You read what 
    - **(c) Cross-domain uncertainty:** a brief's CALIBRATION "uncertain about" names something in another agent's domain → read that other agent's STATUS to see if the uncertainty resolves there.
    - Trigger (a) is mechanical / always fires. (b) and (c) require NEXUS-side judgment — exactly the Type B work this layer is for.
    - **Drill-down is for chasing cross-agent threads, NOT for auditing within-domain work.** Reading raw STATUS to second-guess CARL's US-macro detail is the anti-pattern; reading it to chase a convergence neither CARL nor BRENT named is correct.
-   - **Tier-2 agents** (LABOR, HERMES, DARWIN, ZHAO, etc.) — no brief required; read STATUS directly when they're active in a pass.
+   - **Tier-2 agents** (LABOR, ZHAO, CREED, DEWEY, HANS, OTTO — per `PROME/ROSTER.md`; HERMES deprecated + DARWIN archived, dropped 2026-06-27) — no brief required; read STATUS directly when they're active in a pass.
    - **Instrumentation:** *(added 2026-06-07 via BRENT-orchestrated proxy at Will's direction; spec at `AGENTS/BRENT/outbox/2026-06-07_to-NEXUS_fallback_rate_instrumentation.md` — live NEXUS: review/adjust on next boot.)* Every time you fall back to raw STATUS for an agent, append one row to `brief_fallback_log.tsv` — `date · agent · cause · one-line note`. Classify `cause`: `stale` = trigger (a), `convergence` = trigger (b), `uncertainty` = trigger (c), or **`brief-gap`** = NEW (brief was fresh AND this was NOT a (b)/(c) cross-agent chase — it should have been in the brief and wasn't). **`brief-gap` is the quality signal**; the other three are freshness / healthy-synthesis and must NOT be read as brief defects.
 7. **WALTER signal intake (`inbox/WALTER/` delivery lane)** — process WALTER-delivered handoffs:
    - List `AGENTS/NEXUS/inbox/WALTER/*.md` not yet logged in `AGENTS/NEXUS/board_log.tsv`. If `board_log.tsv` does not exist, create it with the v0.2 header: `timestamp_read<TAB>signal_id<TAB>disposition<TAB>source<TAB>notes`.
@@ -180,7 +180,7 @@ Generic intake — "routed signals, however delivered":
 | `CONFIRMED.md` | Confirmed/triggered convergences — thesis scorecard (trophy case). Promote one-liner when PREDICTION confirms and is convergence-level. |
 | `SIGNALS.md` | Live unresolved cross-agent signals waiting to be absorbed. **Not a copy of STATUS matrix.** Absorbed → archive to `signals_archive/` with C/M mapping. |
 | `PREDICTIONS_MONITOR.md` | Falsifiable predictions ledger (granular). Includes HIT / MISS / TRUE-in-letter-FALSE-in-spirit / falsified — falsification log is a discipline asset, not a stigma. |
-| `LAST_COMPLETION.md` | Pass output + files-touched + blockers + next step. |
+| `LAST_COMPLETION.md` | Pass output + files-touched + blockers + next step. **Intentional divergence from fleet `SCRATCH.md` standard (documented 2026-06-27 per protocol-audit SIG + `[[finding_documented_divergence_as_discipline]]`):** NEXUS keeps `LAST_COMPLETION.md` as its canonical session-handoff — it is deeply wired into boot step (read) + closeout step 15 (write) and serves the same role SCRATCH does for other agents. Not a defect; do not re-flag. (Auto-push abort-note → record here.) |
 | `research/` | Synthesis reports and deep-dive analysis. |
 | `signals_archive/` | Consumed/resolved signals with mapping to convergences. |
 | `archive/` | Old STATUS snapshots, structural artifacts. |
