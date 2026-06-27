@@ -1,3 +1,9 @@
 # TERRY runtime outputs — never commit (regenerated on demand)
 scripts/.cache/
 grades/
+
+# Will's trading-data drop zone — raw broker/account exports stay LOCAL (never pushed).
+# Only processed analysis (daytrading/JOURNAL,LEDGER; POSTMORTEMS) is committed.
+inbox/WILL/*
+!inbox/WILL/.gitkeep
+!inbox/WILL/README.md

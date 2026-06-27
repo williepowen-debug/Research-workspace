@@ -86,6 +86,15 @@ def signals():
     return rows, errors
 
 
+def will_drops():
+    """Files in Will's reserved drop zone awaiting review (gitignored — invisible to git status)."""
+    d = TERRY_DIR / "inbox" / "WILL"
+    if not d.exists():
+        return []
+    skip = {".gitkeep", "README.md"}
+    return sorted(p.name for p in d.iterdir() if p.is_file() and p.name not in skip)
+
+
 def latest_status_head(lines=18):
     p = TERRY_DIR / "STATUS.md"
     if not p.exists():
@@ -145,6 +154,13 @@ def run(args):
         print(f"  - [{r.get('source')}] {r.get('signal_id')} [{st}] {r.get('bears_on')} | {r.get('key_level')} | as_of {r.get('as_of')} ({age}){flag}")
     for e in sig_errors:
         print(f"  ⚠ {e}")
+
+    drops = will_drops()
+    print(f"\nWill drop zone (inbox/WILL/): {len(drops)} file(s) awaiting review")
+    for name in drops:
+        print(f"  📥 {name}")
+    if drops:
+        print("  → run the day-trading review loop (daytrading/) or position triage on these.")
 
     print("\nSTATUS head:")
     for line in latest_status_head():
