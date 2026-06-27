@@ -28,7 +28,7 @@ You are part of a multi-agent research network tracking systemic financial risk.
 
 ### EXECUTE
 
-7. **Run the task.** Pull live (`polymarket.py pull --log`) — never cite STATUS as the live price. **Stay open mid-event:** if a watched market is actively resolving / mid-repricing, snapshot STATUS and stay engaged — do NOT trigger full closeout mid-window (memory `boot_protocol_live_event_override`, `intra_day_closeout_discipline`).
+7. **Run the task.** Pull live — `polymarket.py pull --log` **and** `kalshi.py pull --log` (two real-money sources; cross-platform agreement raises confidence, divergence is itself a signal) — never cite STATUS as the live price. **Stay open mid-event:** if a watched market is actively resolving / mid-repricing, snapshot STATUS and stay engaged — do NOT trigger full closeout mid-window (memory `boot_protocol_live_event_override`, `intra_day_closeout_discipline`).
 
 ### CLOSEOUT (write-back — run at EVERY session end, even intra-day)
 
@@ -211,7 +211,7 @@ Mirror of boot — write back what you read:
 - `python3 scripts/polymarket.py market <slug>` / `event <slug>` — single-market / grouped-event detail.
 - `python3 scripts/polymarket.py history [--write]` — **trajectory view**: backfills the full *daily* price series (CLOB `prices-history`) for every watchlist market, prints Δ30d/Δ90d/since-creation, min–max range, an ASCII sparkline, and a ⚡spiky/round-trip flag (range >40pp & sitting near the low — headline-driven, not signal). `--write` dumps the daily series to `workbook/HISTORY.tsv`. **Use this for "how has the figure moved over time" — the durable view that survives stale point-in-time baselines** (memory: `finding_divergence_requires_fresh_likeforlike_baseline`).
 
-**Kalshi:** not yet wired (needs an API key). Recession/Fed/CPI markets there corroborate Polymarket — add when creds available.
+**Kalshi:** WIRED 2026-06-27 — `scripts/kalshi.py` (trade-api v2, RSA-PSS signed, **read-only by use**). CFTC-regulated US exchange = independent real-money corroboration of Polymarket + macro/credit gap-fill. Creds in `~/.config/kalshi/{key_id.txt,private_key.pem}` (chmod 600, **NEVER in repo**; env override `KALSHI_KEY_ID`/`KALSHI_PRIVATE_KEY_PATH`). `python3 scripts/kalshi.py pull --log` → `workbook/KALSHI_ODDS_LOG.tsv` (separate schema from Polymarket's ODDS_LOG). Base `api.elections.kalshi.com/trade-api/v2`; live fields are `*_dollars` (0-1) / `*_fp` (counts); **depth proxy = open interest** (macro markets often show $0 resting liq but large OI). Discovery: `kalshi.py series --category Economics|Financials`, `kalshi.py event <EVENT_TICKER>`. Boot corroboration: recession Kalshi 10% vs PM 11% (Kalshi 2.6M vol); July-hike 18% vs PM 18.1%. **No standalone VIX market on Kalshi** (gap persists). High-value gap-fills to pin when their events open: CRE default (KXCREDEFMAX), credit-card delinquency/charge-off (KXCCDELINQ/KXCCCHGOFF), Fed facility (KXFEDFACILITY).
 
 **Thin-liquidity guardrail (baked into the fetcher):** markets < $5K liquidity are flagged ⚠️ `thin`. A single $5–50K bet moves a thin contract 5–10pp and retraces in 24–48h — do **not** mark on one print; require a ≥3-day re-check + an independent source (memory: `finding_thin_liquidity_prediction_market_discipline`).
 
@@ -246,8 +246,11 @@ Process when spawned. Integrate probability-relevant data.
 
 | File | Purpose |
 |------|---------|
-| `scripts/polymarket.py` | The fetcher — search / market / event / pull (see DATA COLLECTION METHOD) |
-| `watchlist.tsv` | Markets pulled every session (label, type, slug, tier, route) |
+| `scripts/polymarket.py` | The Polymarket fetcher — search / market / event / pull (see DATA COLLECTION METHOD) |
+| `scripts/kalshi.py` | The Kalshi fetcher — status / search / market / event / series / pull (RSA-PSS signed, read-only) |
+| `watchlist.tsv` | Polymarket markets pulled every session (label, type, slug, tier, route) |
+| `kalshi_watchlist.tsv` | Kalshi markets pulled every session (label, type, ticker, tier, route) |
+| `workbook/KALSHI_ODDS_LOG.tsv` | Kalshi machine time series (ts, ticker, yes_prob, vol, OI, liq, Δprev, close) |
 | `STATUS.md` | Live dashboard — all tracked markets, current odds, recent moves, alerts |
 | `TRADE.md` | How prediction market odds inform position decisions |
 | `workbook/ODDS_LOG.tsv` | Machine time series — one row per market per pull (odds, vol, liq, Δ) |

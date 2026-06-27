@@ -1,0 +1,26 @@
+# ORACLE Kalshi watchlist — markets pulled every `kalshi.py pull`.
+# cols: label <tab> type(market|event) <tab> ticker <tab> tier(T1|T2|T3) <tab> route(comma agents)
+# Created 2026-06-27. Kalshi = CFTC-regulated US exchange; independent real-money corroboration of Polymarket + macro/credit gap-fill.
+# Prices are last-trade (cents->prob); depth proxy = open interest (OI), since macro markets often show $0 resting liquidity but large OI.
+#
+# ===== CORROBORATION SET (cross-check vs Polymarket) =====
+Recession 2026 (NBER)	market	KXRECSSNBER-26	T1	HENRY,LABOR,RED
+Fed hike by July (>3.75%)	market	KXFED-26JUL-T3.75	T1	LIQUID,HENRY
+Fed >4.00% after July	market	KXFED-26JUL-T4.00	T1	LIQUID,HENRY
+# Near-dated (resolve mid-July — roll after print):
+June CPI YoY >3.5%	market	KXCPIYOY-26JUN-T3.5	T1	HENRY
+June CPI YoY >3.6%	market	KXCPIYOY-26JUN-T3.6	T1	HENRY
+June CPI YoY >3.8%	market	KXCPIYOY-26JUN-T3.8	T1	HENRY
+June U3 unemployment >4.2%	market	KXU3-26JUN-T4.2	T1	LABOR,HENRY
+June U3 unemployment >4.3%	market	KXU3-26JUN-T4.3	T1	LABOR,HENRY
+#
+# ===== WATCH / DISCOVERY (series exist; no OPEN event as of 2026-06-27 — re-check & pin when listed) =====
+# These are the high-value GAP-FILLS Polymarket lacks — pin specific tickers once Kalshi opens the next event:
+#   KXCREDEFMAX  — Commercial real estate highest default rate   (CRE/structural-credit axis -> REGINALD,CARL)
+#   KXCCDELINQ   — Credit-card delinquency rate above X% in QX    (consumer-credit stress -> CARL,LABOR)
+#   KXCCCHGOFF   — Credit-card charge-off rate above X% in QX     (consumer-credit stress -> CARL)
+#   KXFEDFACILITY/KXBALANCESHEET — Fed facility / balance sheet   (BTFP-2.0 backstop tell -> LIQUID,REGINALD)
+#   KXGDPUSMIN   — Negative US GDP growth                         (recession corroboration -> HENRY,RED)
+#   KXYINVERT / KX10Y2Y — yield-curve inversion / 10Y-2Y spread   (rates/recession -> LIQUID,HENRY)
+# NOTE: no standalone VIX market found on Kalshi (2026-06-27 sweep) — VIX/vol remains a gap. S&P/Nasdaq RANGE markets exist
+#   (KXINX daily, KXINXY yearly, KXINXEOYCLOSE) but daily ranges are too short-dated/noisy to track as signal.

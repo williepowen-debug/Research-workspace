@@ -111,6 +111,7 @@ The durable view — *how* each figure moved, not just today's level (survives s
 - **ORACLE now wired into fleet** (WALTER REGISTRY tier-2 row + PROME ownership statement) — the 6/18 wire-in ask is satisfied; 3 stranded 6/18 outbox files archived to `delivered/`.
 - **Stale-date markets** (China-GDP, unemployment ladder) shown ⏮ not RESOLVED — don't roll on the bogus endDate.
 - **Push policy:** auto-push at closeout via `scripts/safe-push.sh` (ff-gated, single-machine) — CLAUDE.md step 14 updated to match.
+- **Kalshi WIRED (6/27):** 2nd real-money source (`scripts/kalshi.py`, `kalshi_watchlist.tsv`, `KALSHI_ODDS_LOG.tsv`). Corroborates Polymarket (recession 10 vs 11, July-hike 18 vs 18) + adds clean U3/CPI reads. Creds outside repo. EXECUTE now runs both fetchers. Gap-fills (CRE default, CC delinquency, Fed facility) pending event-open; no VIX on Kalshi.
 
 ---
 

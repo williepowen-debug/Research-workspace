@@ -18,6 +18,7 @@
 - **Conviction:** the residual edge is NOT a recession-prob gap. It's whether HENRY's **dormant structural credit axis re-ignites before the crowd prices it** — watch for the first market move that front-runs it.
 - **Discipline (new this session):** a Δ measured against your *own prior reading* misleads if that prior was a local extreme — the −14/7d Fed move looked like a reversal until the trajectory showed my 6/22 baseline (61.5%) sat near a ~66% peak. Always contextualize a short-window delta against the medium-term trajectory before calling a reversal.
 - **Live tell:** bank Q2 credit-provisions into 7/14 — Citi >$2.9B 72% (Δ7d +22.5), BAC >$1.4B 38%. Both **thin (≤$578 liq)** = diagnostic only; watch the drift vs the actual print, not the level.
+- **Second real-money source wired (NEW 6/27):** **Kalshi** (CFTC exchange) now pulled alongside Polymarket. Corroborates the calm-macro consensus — recession Kalshi 10% vs PM 11% (Kalshi far deeper, 2.6M vol), July-hike 18% vs PM 18.1% — and adds clean reads PM prices thin: June U3 modal ~4.2%, June CPI contained (>3.6% 97%, >3.8% 27%). Cross-platform **divergence** will be flagged as signal going forward. Macro/credit gap-fills (CRE default, credit-card delinquency, Fed facility) pending Kalshi event-open.
 
 ## CROSS-DOMAIN
 
