@@ -4,6 +4,8 @@
 
 **Scope:** Day-trading only. Thesis/position trades live in `FORGE/` + domain-agent STATUS files. Don't mix them here.
 
+**Priority (Will 6/27):** This is a **bounded side project** — its job is to plug the discretionary-scalp leaks so it can *fund dry powder* for the **researched** thesis trades. It is **subordinate to TERRY's core thesis/fire-card work and must not displace it.** Don't let the journal become the system.
+
 ---
 
 ## The loop (what happens each review)

@@ -14,7 +14,7 @@
 | `scripts/chain_fetch.py` | 🟢 built, selftest PASS, live-validated | live option-chain CLI; marks matched the bank-put proposal exactly |
 | `scripts/grade_print.py` + `grade_config.json` | 🟢 built, selftest PASS | Q2 print grader; 3 mis-grade traps as hard guards; `--tally` rolls path (a)/(b)/(c) |
 | Fire cards | 🟢 staged, **0 fired live** | `TRADE_CARD_TEMPLATE_FIRE.md` + 2 pre-filled skeletons (HY≥280 / WAL-EGBN), $500 budget locked |
-| Day-trading review loop | 🟢 live | `daytrading/` — **Session 3 logged 6/27**: 6/24–26 **−$3,969** (wiped S2; cumulative 5/1–6/26 −$1,017); new R6 (0DTE auto-liquidation). Read `daytrading/README.md` first |
+| Day-trading review loop | 🟢 live · **SIDE tool** | dry-powder feeder, **subordinate to the thesis system** (Will 6/27) — must not displace the core work. S3 6/24–26 **−$3,969** (wiped S2; cumulative −$1,017) = funding nothing; plug the leak, keep it small. `daytrading/` |
 | `SIGNALS.tsv` context ledger | 🟢 NEW, live | trade-construction context (WALTER INFO / my chart obs / thesis-owner timing); decay-tracked, boot-surfaced. **NEXUS regime PIN = STALE (6/16 pre-FOMC), refresh owed** |
 | `inbox/WILL/` drop zone | 🟢 NEW, live | Will's reserved trading-data drop; raw gitignored (stays local), boot-surfaced; feeds the day-trading review |
 | Older scripts | 🟢 selftested | boot.py (now surfaces signals + drop zone), snapshot.py, risk_calc.py, chain_parse.py, csv_pnl.py |

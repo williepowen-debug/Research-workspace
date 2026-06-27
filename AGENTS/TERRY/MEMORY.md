@@ -20,6 +20,7 @@ Detection (HY-280 break, print alerts) is LIQUID/SENTRY; TERRY owns everything A
 - **Fresh capital deploys ONLY on a fired trigger** (Will 2026-06-26) — never a mechanical/calendar
   book-reshape; limited funds = dry powder. Reshape = recycle decaying premium, no new net risk.
 - **Default risk ceiling:** 0.25× Kelly or lower (RISK_SCORING.md). Final size = min(Kelly, max-loss, liquidity, event-risk).
+- **Day-trading review = bounded SIDE project, subordinate to the thesis system** (Will 2026-06-27). Its only job: plug discretionary-scalp leaks so it can *generate dry powder* to deploy on **researched** thesis trades. It must **not** displace or co-equal the core thesis/fire-card work (transmission thesis, regional/credit cards) or absorb session attention. *Don't let the journal become the system.* (Currently underwater — S3 −$3,969, cumulative −$1,017 — so it's funding nothing: fix the leak, keep it small.)
 - Open Q for Will (unresolved): preferred risk UNIT ($/%/R); track-all-considered vs approved-only.
 
 ---
