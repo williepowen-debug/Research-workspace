@@ -7,7 +7,7 @@
 
 ## Current Mode — Verification Required
 
-Prome state has been cleaned up for reboot, but position/trade rails remain **verification-required**. Do not act from old `BROKER_PENDING`, May-roll, Jun18-trigger, CPI/refunding, or HYG language without fresh broker/Will reconciliation. CPI/refunding/BOJ/FOMC have passed; Geneva de-escalation fired but Jun20 Hormuz re-closure re-fattened the energy tail; claims/FRED HY update arrived; CFTC/FXY and expiry cleanup remain context only unless Will/broker truth is provided.
+Prome state has been cleaned up for reboot, but position/trade rails remain **verification-required**. Do not act from old `BROKER_PENDING`, May-roll, Jun18-trigger, CPI/refunding, or HYG language without fresh broker/Will reconciliation. CPI/refunding/BOJ/FOMC have passed; Geneva de-escalation fired and the Jun-20 Hormuz re-closure then resolved **non-kinetic** (Brent fell ~8%, energy tail deflated); claims/FRED HY update arrived; CFTC/FXY and expiry cleanup remain context only unless Will/broker truth is provided.
 
 Key supersessions:
 - **HYG Jun $75P:** LIQUID says written off / let expire 6/19. **Stop surfacing as actionable.**
