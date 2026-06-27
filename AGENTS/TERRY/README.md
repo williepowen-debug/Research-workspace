@@ -22,10 +22,11 @@ Will can also open Terry directly in Claude Code as a conversational trading-des
 
 ## Fire-ready execution (trigger → card in minutes)
 
+- `setups/FIRE_CARDS_LADDER.md` — **side-by-side index of all staged fire cards** (comparison table + July print calendar + monoline→regional gate link). Start here for the fire-card overview.
 - `TRADE_CARD_TEMPLATE_FIRE.md` — single default card; only the LIVE-MARKS block is filled at fire.
-- `setups/PRICE-TRIGGER_HY280_regional-put.md`, `setups/PRINT-TRIGGER_WAL-EGBN-build.md` — pre-filled trigger skeletons ($500/card).
+- `setups/PRICE-TRIGGER_HY280_regional-put.md`, `setups/PRINT-TRIGGER_WAL-EGBN-build.md`, `setups/PRINT-TRIGGER_monoline-COF-SYF-ALLY.md` — pre-filled trigger skeletons ($500/card).
 - `scripts/chain_fetch.py` — live option-chain CLI (rule #4; never cite stored option marks).
-- `scripts/grade_print.py` + `grade_config.json` — Q2 bank-print grader; `--tally` rolls path diagnostics.
+- `scripts/grade_print.py` + `grade_config.json` — Q2 bank-print grader; paths a/b/c (regional) + **m (monoline un-mask)**; `--tally` rolls path diagnostics.
 
 ## Trade-construction context ledger (decay-tracked)
 
