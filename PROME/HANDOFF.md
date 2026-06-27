@@ -1,6 +1,6 @@
 # PROME HANDOFF
 
-**Purpose:** Single live continuity surface for Prome across OpenClaw and Claude Code. Keep this file short: latest 3–5 entries only. Archive older entries to `PROME/archive/`.
+**Purpose:** Single live continuity surface for Prome across sessions. Keep this file short: latest 3–5 entries only. Archive older entries to `PROME/archive/`.
 
 **Archive:** Full pre-merge OpenClaw + Claude Code handoff history through 2026-06-14 is preserved in `PROME/archive/HANDOFF_2026Q2.md` (older 2026-06 entries appended there as they roll off).
 

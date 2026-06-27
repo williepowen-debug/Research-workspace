@@ -2,7 +2,7 @@
 
 **Created:** 2026-05-18
 **Owner:** Prome
-**Purpose:** Repeatable session-end procedure to maintain consistency across OpenClaw + Claude Code Prome sessions. Run before `/clear`, `/new`, or session handoff.
+**Purpose:** Repeatable session-end procedure to keep Prome's state files consistent across sessions. Run before `/clear`, `/new`, or session handoff.
 
 > Companion to `PROME/BOOT.md` (session start) and `PROME/CLAUDE.md` (CC-Prome bootstrap). Follow root `CLAUDE.md` for git protocol details.
 
@@ -175,7 +175,7 @@ git add -- PROME/<newfile> && git commit -m "PROME: <subject>" -- PROME/<modifie
 
 **Never `git reset HEAD`** — shared `.git/index` makes it a global unstage that races concurrent agents (auto-memory `[[finding_pathspec_commit_race_safety]]`, incident `8ac5bf71`). Matches root `CLAUDE.md` "Before committing".
 
-**Auto-push at closeout (Will 2026-06-26, single-machine).** Run `./scripts/safe-push.sh` as the closeout tail — it ff-gates the push and safely sweeps the push-train (`[[finding_push_train_pattern]]`). It **fails safe**: a non-fast-forward ABORT = a second machine pushed → stop, do not force, flag to Will (the tripwire that single-machine was violated). The script never pulls/touches a shared working tree, so other agents' uncommitted edits are never at risk. *CANONICAL as of 2026-06-26 — soak passed, Tier-1 promoted: root `CLAUDE.md` + `PROME/GIT_COORDINATION.md` + `[[feedback_defer_push_coordinate]]` now all say auto-push-at-closeout. RED + HAWK swept; remaining agents lazy-sweep; YEYOU stays manual. See `PROME/AUTOPUSH_MIGRATION_PLAN.md`.*
+**Auto-push at closeout (Will 2026-06-26, single-machine).** Run `./scripts/safe-push.sh` as the closeout tail — it ff-gates the push and safely sweeps the push-train (`[[finding_push_train_pattern]]`). It **fails safe**: a non-fast-forward ABORT = a second machine pushed → stop, do not force, flag to Will (the tripwire that single-machine was violated). The script never pulls/touches a shared working tree, so other agents' uncommitted edits are never at risk. *CANONICAL since 2026-06-26 — soak passed, Tier-1 promoted: root `CLAUDE.md` + `PROME/GIT_COORDINATION.md` + `[[feedback_defer_push_coordinate]]` all say auto-push-at-closeout. Lazy-sweep COMPLETE 2026-06-27 (18/21 agent CLAUDE.md flipped; 3 deliberate holdouts: TERRY self-sweep, WALTER architectural, YEYOU manual). See `PROME/ROSTER.md` + `PROME/AUTOPUSH_MIGRATION_PLAN.md`.*
 
 Commit message style: subject = `PROME: <short one-liner>`; body explains WHY not WHAT when useful. **Option order matters:** put `-m` before `--`; everything after `--` is treated as a pathspec.
 
