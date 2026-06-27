@@ -27,14 +27,14 @@ The audit's headline: **the cobbler's-children gap** — WALTER polices the netw
 ## GAPS
 
 - **🔴 Bot-token full secret STILL in 3 non-FORGE files** — `dashboard/server.py` (+.bak, **live web-dashboard service**) + `config/openclaw-multiagent.json5`. Outside Will's FORGE auth → flagged, not edited. **ROTATION (Will, via BotFather) is the only real fix** (it's in git history everywhere); de-hardcoding those 2 needs auth beyond FORGE.
-- **Held big-surgery** (need Will / care): BOARD/INDEX ToC slim (530KB; needs keep-vs-drop nod on the curated batch-blurbs) · IRAN_WAR.md history-split (42% pre-6/18 prior-blocks; do with a full read, it's the load-bearing macro anchor).
+- **Held big-surgery** (need Will / care): IRAN_WAR.md history-split (42% pre-6/18 prior-blocks; do with a full read, it's the load-bearing macro anchor). *(BOARD ToC slim DONE 6/27, Will-approved — 73KB→2.3KB cells, blurbs→EOF archive, board_reconcile 402 intact.)*
 - **debug/** ~1500 gitignored capture JSONs + a still-writing hook — couldn't `trash` (no trash cmd; rm forbidden) → Will settings cleanup.
 - **OZK** still longest-stale Tier-1 (64d, dormant — REGINALD Q1 post-mortem owed; not refreshed).
 
 ## WILL_NEEDS
 
 1. **🔴 Rotate the Telegram bot token** via BotFather (check it's not the live-channel bot first), then authorize WALTER to de-hardcode `dashboard/server.py` + `config/` (beyond-FORGE edit).
-2. **5 held decisions** (no rush): COP retire/resume · Filter-v2 Segment D ship/kill · handoff_RED open-loop (re-deliver vs retire) · BOARD ToC slim keep-vs-drop · Scout build go (replaces 3 dark crons; blocked on your token-rotate + GitHub Secrets + bot-to-group).
+2. **5 held decisions** (no rush): COP retire/resume · Filter-v2 Segment D ship/kill · handoff_RED open-loop (re-deliver vs retire) · Scout build go (replaces 3 dark crons; blocked on your token-rotate + GitHub Secrets + bot-to-group).
 3. **debug/ capture hook** — disable/trim (it re-writes gitignored JSONs each turn).
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
@@ -47,7 +47,7 @@ The audit's headline: **the cobbler's-children gap** — WALTER polices the netw
 
 **🔴 Security (carry until resolved):** bot-token rotation (Will) + de-hardcode dashboard/server.py + config/ (post-auth).
 
-**🟠 Autonomous-available next session (no decision needed):** OPEN-DECISIONS triage → execute the WALTER-resolvable ones · consume-boot-step for the CC self-apply set (CARL/REGINALD/SAM/RED — closes most delivered_but_unconsumed) · fix 19 dangling JOINT_PROPOSAL_*_walter_carl_brent refs (file is *_walter_sections.md) · BOARD ToC slim + IRAN history-split (on Will's nod).
+**🟠 Autonomous-available next session (no decision needed):** OPEN-DECISIONS triage → execute the WALTER-resolvable ones · consume-boot-step for the CC self-apply set (CARL/REGINALD/SAM/RED — closes most delivered_but_unconsumed) · fix 19 dangling JOINT_PROPOSAL_*_walter_carl_brent refs (file is *_walter_sections.md) · IRAN history-split (on Will's nod).
 
 **🟠 Consume callbacks owed (carried from 6/27 routing — 28+ dispatches await recipient consume, CC self-apply set):** see SESSION_LOG 6/27 rows. SIG-033/034 (HENRY/BROCK/SHADE/RED/CARL) · SIG-029→032 (HENRY/CORAL/CARL/REGINALD) · session-1/2 backlog.
 
@@ -61,7 +61,7 @@ The audit's headline: **the cobbler's-children gap** — WALTER polices the netw
 
 **🟦 Still open (parked — NEEDS A TRIAGE PASS next session, several are WALTER-resolvable-now):** RED auto-cc trim · EIA `.env` durability · DEWEY↔Scout consolidation · group-chat artifact policy · INDEX status-column · HENRY LIAISON priority · FED_FRAMEWORK→UST_PLUMBING rename (defer) · Filter v2 Segment D · COP refresh resume (paused) · thin-liquidity prediction-market routing · consume-boot-step rollout (CC self-apply set) · delivery_log written_state enum (spec-vs-practice: align spec to practice or strip delivery-states). *(staleness-sweep cadence RESOLVED → codified 14d in walter_doctor this session.)*
 
-**✅ Resolved this session:** BOARD INDEX reconcile · push-state truth-up · CLAUDE.md version-drift → v0.6 + version_drift guard extended · TSV schema hygiene · +4 doctor self-checks · design/research archival · registry_lag ×4 · STATUS lead-trim + SESSION-LOG trim-to-5 (giant-row backlog) · FORGE bot-token de-hardcode (3 files) · staleness-sweep cadence.
+**✅ Resolved this session:** BOARD INDEX reconcile · push-state truth-up · CLAUDE.md version-drift → v0.6 + version_drift guard extended · TSV schema hygiene · +4 doctor self-checks · design/research archival · registry_lag ×4 · STATUS lead-trim + SESSION-LOG trim-to-5 (giant-row backlog) · FORGE bot-token de-hardcode (3 files) · staleness-sweep cadence · BOARD INDEX ToC slim (fast-scan restored).
 
 ---
 
