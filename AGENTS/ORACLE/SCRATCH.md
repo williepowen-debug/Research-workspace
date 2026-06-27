@@ -27,7 +27,7 @@
 3. **Fed dovish-tell watch:** if **no-cuts breaks <70%** that's the real dovish turn (vs the current overshoot-cooling). Hike re-break >66% = hawkish re-arm. → LIQUID/HENRY.
 4. **Energy red-team (HAWK+RED, spawned 6/26):** the new US-Iran-deal-components event + WTI-July ladder + Hormuz-Jul15 are their best crowd surfaces — surfaced in NEXUS_BRIEF FORWARD CATALYSTS. Feed actively if they pull me in.
 5. **Jul 14 Citi/BAC provisions, Jul 15 June-CPI:** crowd central estimate vs actual prints. Citi-prov is $210-liq — diagnostic only.
-6. **Kalshi** still unwired — VIX/vol + recession/Fed corroboration. Ask Will for creds.
+6. **Kalshi wiring IN-FLIGHT (Will sourcing creds, 6/27).** The other real-money exchange we lack. On receipt of API Key ID + RSA private key → build `kalshi.py` (mirror `polymarket.py`: search/market/pull/log), add a `platform` col to ODDS_LOG, tag watchlist rows by platform. Fills the VIX/vol + S&P-range gap; gives independent corroboration of Polymarket. Verify current auth scheme vs Kalshi live docs before building.
 
 ## CARRY-FORWARD
 - **Push state:** this closeout committed + auto-pushed via `scripts/safe-push.sh` (ff-gated, single-machine). If safe-push aborted non-ff (cross-machine), commits are local-only — flag Will, do NOT force.
