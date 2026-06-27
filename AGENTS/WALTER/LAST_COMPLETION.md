@@ -25,7 +25,7 @@ Both of Will's parked-item approvals fully landed + delivered via Telegram.
 
 ## GAPS
 
-- **Push state:** ENSO commit `71dd9826` ON ORIGIN (PROME auto-push swept it). DEWEY commit `e445f061` LOCAL-AHEAD (1 ahead) — PROME's next auto-push or Will's window sweeps it. **Did NOT manually push** (PROME mid-operation; defer-push discipline).
+- **Push state:** ✅ **ALL PUSHED + SYNCED 0/0** in Will's "push now" window (02:58 ET). ENSO `71dd9826` (already on origin via PROME auto-push) + DEWEY `e445f061` + closeout `97aeed5a` all on origin — clean fast-forward `f0ae5d26..97aeed5a`, origin had not diverged, tree only held Will's own journal files (left uncommitted).
 - **delivered_but_unconsumed** +5 (CORAL/MARCO/REGINALD/CARL/RED; recipient-side consume-step gap).
 - **Tier-2 narrative deferred** (full registry refresh / NETWORK AWARENESS regen / STATUS lead deep-trim / MEMORY full rewrite). **3rd `light-closeout — full deferred` breadcrumb now stacked — ≥3 backstop reached; next boot should weigh Tier-2.**
 - **BRENT/HAWK registry_lag** NOT refreshed this session — deliberately: PROME just spawned HAWK+RED (mid-flux STATUS); refreshing a row from a mid-work agent risks capturing a transient. Defer to when they're quiescent.
@@ -73,4 +73,4 @@ Both of Will's parked-item approvals fully landed + delivered via Telegram.
 
 ---
 
-*Maintenance note: Tier-1 LIGHT closeout (non-routing design+research session at a natural breakpoint). Load-bearing state touched (STATUS lead + this LAST_COMPLETION full carry-forward + MEMORY session-notes + SESSION_LOG breadcrumb); full registry refresh / NETWORK-AWARENESS regen / lead deep-trim deferred. **3rd `full deferred` breadcrumb stacked — next boot should run Tier-2 (≥3 backstop).** All artifacts persisted to BOARD + logs + DEWEY/output + committed (Tier-0); ENSO on origin, DEWEY local-ahead.*
+*Maintenance note: Tier-1 LIGHT closeout (non-routing design+research session at a natural breakpoint). Load-bearing state touched (STATUS lead + this LAST_COMPLETION full carry-forward + MEMORY session-notes + SESSION_LOG breadcrumb); full registry refresh / NETWORK-AWARENESS regen / lead deep-trim deferred. **3rd `full deferred` breadcrumb stacked — next boot should run Tier-2 (≥3 backstop).** All artifacts persisted to BOARD + logs + DEWEY/output + committed (Tier-0) + **all PUSHED + SYNCED 0/0** in Will's "push now" window.*
