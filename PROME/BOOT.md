@@ -2,7 +2,9 @@
 
 **Goal:** become operational fast without loading manuals.
 
-**Injected context:** `AGENTS.md`, `SOUL.md`, `USER.md` are already loaded. In main sessions `HEARTBEAT.md` + `MEMORY.md` are also injected; workspace context may also include `TOOLS.md` / `IDENTITY.md`. **Do not re-read injected files unless debugging drift.**
+**Injected context:** `AGENTS.md`, `SOUL.md`, `USER.md`, and auto-memory `MEMORY.md` are auto-loaded in main sessions; workspace context may also include `TOOLS.md` / `IDENTITY.md`. **Do not re-read these genuinely-injected files unless debugging drift.**
+
+> ⚠️ **`HEARTBEAT.md` is NOT auto-injected in Claude Code** (that was the OpenClaw always-on model — the line that used to claim it is removed). It is a **PROME-facing regime memo** that PROME must explicitly `Read` at boot (step 6). Don't assume it's already in context. Domain agents do not read it.
 
 ---
 
@@ -47,7 +49,7 @@ If the same fact appears in two docs, put it in the owner doc and reference it e
 | `PROME/TODAY.md` | Operator card: today’s catalysts, tasks, notable shifts. |
 | `PROME/ACTIVE_DECISIONS.md` | Non-terminal decision safety index. |
 | `PROME/STATUS.md` | Agent/system health, work queue, quality notes. |
-| `HEARTBEAT.md` *(injected)* | Regime, thresholds, near gates, pending position decisions. |
+| `HEARTBEAT.md` *(PROME-facing regime memo; explicit-read, NOT injected)* | PROME's own regime / thresholds / near-gates orientation. PROME writes + reads it; domain agents do not. |
 | `MEMORY.md` *(injected)* | Curated durable insights and system lessons. |
 | `memory/YYYY-MM-DD.md` | Daily session log; activity detail, not root-memory insight. |
 

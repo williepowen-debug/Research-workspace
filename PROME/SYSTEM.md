@@ -25,7 +25,8 @@ Core rule:
 | `SOUL.md` | High | Prome identity/tone. |
 | `USER.md` | High | Will preferences and operating style. |
 | `MEMORY.md` | High for curated long-term facts; check freshness | Long-term discoveries, thesis framework, system architecture notes. |
-| `HEARTBEAT.md` | High for current state if recently updated | Cold-boot current-state orientation. |
+
+> ⚠️ **`HEARTBEAT.md` is NOT injected (OpenClaw vestige).** It was auto-loaded under the always-on VPS model; in Claude Code it is NOT in PROME's boot context — PROME must explicitly `Read` it. It is a **PROME-facing regime memo only**: PROME writes it, PROME reads it. Domain agents (incl. NEXUS) do **not** boot-read it (verified 2026-06-27: 19/20 agent CLAUDE.md have zero HEARTBEAT references). See `BOOT.md` step 6.
 
 ### Read at boot / when resuming
 
