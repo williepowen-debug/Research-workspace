@@ -13,7 +13,7 @@
 | Trigger→card toolchain | 🟢 BUILT & TESTED | the minutes-not-hours path is live end-to-end |
 | `scripts/chain_fetch.py` | 🟢 built, selftest PASS, live-validated | live option-chain CLI; marks matched the bank-put proposal exactly |
 | `scripts/grade_print.py` + `grade_config.json` | 🟢 built, selftest PASS | Q2 print grader; 3 mis-grade traps as hard guards; `--tally` rolls path (a)/(b)/(c) |
-| Fire cards | 🟢 staged, **0 fired live** | `TRADE_CARD_TEMPLATE_FIRE.md` + **3** skeletons (HY≥280 / WAL-EGBN / **monoline COF-SYF-ALLY** = earliest Q2 tell ~Jul 18–23, grades UN-MASK not headline-NCO), $500 budget locked |
+| Fire cards | 🟢 staged, **0 fired live** | `TRADE_CARD_TEMPLATE_FIRE.md` + **3** skeletons (HY≥280 / WAL-EGBN / **monoline COF-SYF-ALLY**), $500 budget locked · side-by-side: `setups/FIRE_CARDS_LADDER.md` |
 | Day-trading review loop | 🟢 live · **SIDE tool** | dry-powder feeder, **subordinate to the thesis system** (Will 6/27) — must not displace the core work. S3 6/24–26 **−$3,969** (wiped S2; cumulative −$1,017) = funding nothing; plug the leak, keep it small. `daytrading/` |
 | `SIGNALS.tsv` context ledger | 🟢 NEW, live | trade-construction context (WALTER INFO / my chart obs / thesis-owner timing); decay-tracked, boot-surfaced. **NEXUS regime PIN = STALE (6/16 pre-FOMC), refresh owed** |
 | `inbox/WILL/` drop zone | 🟢 NEW, live | Will's reserved trading-data drop; raw gitignored (stays local), boot-surfaced; feeds the day-trading review |
