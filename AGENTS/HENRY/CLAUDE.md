@@ -49,10 +49,10 @@ Follow root `CLAUDE.md` Git Protocol. Key rules for HENRY:
    - New (untracked) files: `git add <files> && git commit <same files> -m "..."` — atomic in one `&&` chain.
    - Never `git add .` / `git add -A` (sweeps other agents' work).
 2. Never commit files outside `AGENTS/HENRY/`
-3. If other agents have uncommitted work: Option A flag to Will, or Option B commit locally + note pending push in MEMORY.md NEXT SESSION
+3. **Commit locally, then auto-push at closeout via `scripts/safe-push.sh`** (ff-gated, fails safe; single-machine — `[[feedback_defer_push_coordinate]]`); one push sweeps all agents' local commits (`[[finding_push_train_pattern]]`). If safe-push aborts non-ff, do NOT force — note it in MEMORY.md NEXT SESSION and flag PROME/Will (a 2nd machine pushed = the tripwire).
 4. Never resolve conflicts in other agents' files — flag to PROME
 
-*Interim only. Full fix = separate-clones-per-agent (SAM proposal, Will+PROME decision, post-Jun-16). Two-machine note: one agent runs in one live clone at a time. Root CLAUDE.md still says `git reset HEAD` — PROME owns that fleet-wide edit, not HENRY.*
+*(Single-machine operation as of 2026-06-26; the separate-clones-per-agent proposal is superseded. Root CLAUDE.md now mandates pathspec commits — the `git reset HEAD` guidance is fully retired fleet-wide.)*
 
 **MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
 

@@ -67,12 +67,11 @@ Before ending, complete in order:
   - **Feedback:** add a row when Will corrected an approach ("don't do X") OR confirmed an unusual choice ("yes exactly, keep doing that"). Not every session earns one.
   - **Findings:** add a row when you learned a concrete technical fact about tools, data sources, or domain mechanics that future sessions will need (e.g., "IR page 403s to scripted pulls — user must browser-pull"). Not opinions or analysis — those belong in `research/` or KB.
   - **Prune:** drop entries that turned out wrong or got superseded. MEMORY is not append-only.
-- [ ] **Git commit + push** — five-step safety sequence:
-  1. `git reset HEAD` then `git add AGENTS/OZK/<paths>` — stage only your files. Never `git add .` or `-A`.
-  2. `git diff --cached --stat` — verify ONLY `AGENTS/OZK/` paths appear. If anything else shows up, `git restore --staged <path>` it.
-  3. `git status` — scan for uncommitted work in OTHER agents' directories. If present, follow root CLAUDE.md pull protocol (flag to Will, or defer push and note in MEMORY).
-  4. `git commit` (per root CLAUDE.md HEREDOC format), then pre-push sanity check: `git diff origin/master..HEAD --name-only | grep -v '^AGENTS/OZK/'` — MUST be empty. If not, your commit chain touches non-OZK paths — STOP and investigate.
-  5. `git push`. If rejected, follow pull protocol — never `--force`. Confirm `git status` shows working tree clean and "up to date with origin/master" after push.
+- [ ] **Git — pathspec commits, never `git reset HEAD`** (shared `.git/index` → a global unstage that clobbers other agents' concurrent stages; `[[finding_pathspec_commit_race_safety]]`):
+  1. **Modified files:** `git commit AGENTS/OZK/<file> -m "..."` — path-scoped, no separate staging step.
+  2. **New untracked files:** atomic `git add <specific files> && git commit <same files> -m "..."` — explicit paths only, **never** `git add AGENTS/OZK/` as a directory or `git add .`/`-A`. Optional sanity check between add and commit: `git diff --cached --stat`.
+  3. **Pre-commit check:** `git status -- AGENTS/OZK/` — confirm no dangling deletions and nothing staged outside your dir.
+  4. **Commit locally, then auto-push at closeout via `scripts/safe-push.sh`** (ff-gated, fails safe; single-machine — `[[feedback_defer_push_coordinate]]`). One push sweeps all agents' local commits (`[[finding_push_train_pattern]]`). **If safe-push aborts non-ff, do NOT force** — note it in MEMORY and flag PROME/Will (a 2nd machine pushed = the tripwire). Never resolve another agent's conflicts (`[[feedback_agent_git_isolation]]`).
 
 **MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
 
@@ -210,8 +209,8 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 **Stage only `AGENTS/OZK/`.** Never `AGENTS/REGINALD/` or any other agent path. Never `git add .` or `-A`.
 
 At session start and end, follow root CLAUDE.md pull/commit protocol:
-- **Before pulling:** `git status` for uncommitted work OUTSIDE your directory. If other agents have unstaged changes, do NOT pull — flag to Will or defer push per root protocol.
-- **Before committing:** `git reset HEAD` to clear stage, then `git add AGENTS/OZK/<paths>`, then `git diff --cached --stat` to verify.
+- **Before pulling:** `git status` for uncommitted work OUTSIDE your directory. If other agents have unstaged changes, do NOT pull — flag to Will.
+- **Before committing:** use pathspec commits — `git commit AGENTS/OZK/<file> -m "..."` for modified files; atomic `git add <specific files> && git commit <same files>` for new files. **Never `git reset HEAD`** (shared `.git/index` → global unstage). Sanity check: `git diff --cached --stat`.
 - **Never:** force push, commit outside your directory without instruction, resolve another agent's conflicts, pull when other agents have uncommitted local changes.
 
 ---

@@ -198,11 +198,11 @@ You own the full Florida stress surface. Coverage map + live state per pillar �
 **Stage only `AGENTS/CORAL/`.** Never another agent's path. Never `git add .` or `-A`.
 
 Follow root CLAUDE.md pull/commit protocol (pathspec pattern — avoids the shared `.git/index` race):
-- **Before pulling:** `git status` for uncommitted work OUTSIDE your directory. If other agents have unstaged changes, do NOT pull — flag to Will or defer push per root protocol.
+- **Before pulling:** `git status` for uncommitted work OUTSIDE your directory. If other agents have unstaged changes, do NOT pull — flag to Will.
 - **Modified files:** `git commit AGENTS/CORAL/<file> -m "…"` (path-scoped, no separate staging step).
 - **New untracked files:** atomic `git add <specific files> && git commit <same paths> -m "…"` — explicit paths only, never `git add AGENTS/CORAL/` as a directory.
 - **Never** `git reset HEAD` (shared index → global unstage), force push, commit outside your directory without instruction, or resolve another agent's conflicts.
-- **Push is Will-coordinated** — commit locally and note any pending push in MEMORY; it goes to origin in a coordinated window.
+- **Auto-push at closeout** via `scripts/safe-push.sh` (ff-gated, fails safe; single-machine — `[[feedback_defer_push_coordinate]]`). One push sweeps all agents' local commits (`[[finding_push_train_pattern]]`). If safe-push aborts non-ff, do NOT force — flag PROME/Will (a 2nd machine pushed = the tripwire).
 
 ---
 
