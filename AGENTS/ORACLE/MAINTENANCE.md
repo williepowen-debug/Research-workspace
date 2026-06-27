@@ -40,3 +40,8 @@ Polymarket slugs **rot**: markets resolve at their end-date and drop off. Every 
 - **What changed:** `CLAUDE.md` SPAWN PROTOCOL restructured into symmetric **BOOT (read) / EXECUTE / CLOSEOUT (write-back)** — 7-step closeout mirroring boot (STATUS, workbook/KB, SCRATCH rewrite, NEXUS_BRIEF mandatory-refresh, roll-watch docket, promotion scan, pathspec-commit/defer-push) + a discipline overlay. Mirrors VIOLET/BRENT (memory `finding_closeout_as_writeback_tail`).
 - **Remediation:** refreshed the two stale artifacts as the first run — `SCRATCH.md` (full handoff) + `NEXUS_BRIEF.md` (supersede-6/18 banner + corrected converged read).
 - **Files:** `CLAUDE.md`, `SCRATCH.md`, `NEXUS_BRIEF.md`, this file. **Boot-impact:** next boot reads SCRATCH first (now canonical); every future session must refresh NEXUS_BRIEF even if no-change. **Note:** no `LAST_COMPLETION.md` added — retired fleet-wide; SCRATCH is the handoff.
+
+### 2026-06-27 — push-policy lazy-swap to auto-push (single-machine)
+- **Trigger:** boot found origin moved to 6/26-LATE (OpenClaw/VPS cut 6/26; auto-push promoted fleet-wide via `scripts/safe-push.sh`). ORACLE's CLAUDE.md step 14 still said "defer push to a Will-opened window" — the lazy-sweep candidate state.
+- **What changed:** CLAUDE.md CLOSEOUT step 14 swapped "defer push" → **auto-push at closeout via `scripts/safe-push.sh`** (ff-gated, fails safe; non-ff abort = do NOT force, flag Will). Validated this session — safe-push ff'd 3 commits (mine + 2 TERRY) in one push (push-train).
+- **Files:** `CLAUDE.md`, this file. **Boot-impact:** future closeouts auto-push instead of deferring; SCRATCH push-state should normally read `ahead=0`.
