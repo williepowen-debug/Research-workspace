@@ -1,0 +1,4 @@
+Agent	Class	Level	Classification_ref	Last_scored	Gap	Next_upgrade	Notes
+DAEDALUS	Meta	L1	ROSTER:new	2026-06-27	Memory files seeded but no fleet scan run yet; scoring script not built	Run first fleet scan (Phase 2)	Self-row. Built Phase 1. Oversight: Will+PROME.
+# --- Phase 2 will populate one row per agent below, scored on the per-class ladder. ---
+# Class ∈ {Market, Utility, Meta}. Level ∈ {L0..L5}. Classification_ref = defer to PROME/ROSTER.md (active/dormant) — do not restate here.
