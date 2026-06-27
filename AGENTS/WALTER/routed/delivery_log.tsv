@@ -272,3 +272,8 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-06-27T00:32:00Z	SIG-W-20260626-026	HENRY	action	CC	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260626-026.md	written_not_delivered_pending_push	median single-stock SI breadth, distinct from aggregate 604-008
 2026-06-27T00:32:00Z	SIG-W-20260626-026	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260626-026.md	written_not_delivered_pending_push	cluster_mediating; two-sided bear-vs-squeeze
 2026-06-27T00:32:00Z	SIG-W-20260626-026	TERRY	info	CC	PRIORITY	AGENTS/TERRY/inbox/WALTER/SIG-W-20260626-026.md	written_not_delivered_pending_push	squeeze-risk on shorts; size for it
+2026-06-27T00:44:00Z	SIG-W-20260626-027	CORAL	action	CC	PRIORITY	AGENTS/CORAL/inbox/WALTER/SIG-W-20260626-027.md	written_not_delivered_pending_push	migration/out-flow leg; reconcile vs FREEZE-not-crash
+2026-06-27T00:44:00Z	SIG-W-20260626-027	MARCO	info	CC	PRIORITY	AGENTS/MARCO/inbox/WALTER/SIG-W-20260626-027.md	written_not_delivered_pending_push	FL migration co-own; reconcile to one number
+2026-06-27T00:44:00Z	SIG-W-20260626-027	REGINALD	info	CC	PRIORITY	AGENTS/REGINALD/inbox/WALTER/SIG-W-20260626-027.md	written_not_delivered_pending_push	FL-bank demand-erosion leg
+2026-06-27T00:44:00Z	SIG-W-20260626-027	CARL	info	CC	PRIORITY	AGENTS/CARL/inbox/WALTER/SIG-W-20260626-027.md	written_not_delivered_pending_push	cost-of-living out-migration; K-shape
+2026-06-27T00:44:00Z	SIG-W-20260626-027	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260626-027.md	written_not_delivered_pending_push	cluster_mediating; BofA-internal unverifiable, rank!=magnitude
