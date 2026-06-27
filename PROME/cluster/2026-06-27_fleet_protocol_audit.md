@@ -99,7 +99,7 @@ Complete the auto-push lazy-sweep on the 7 drift agents (NEXUS, BRENT, VIOLET, R
 **Judgment surfaced to Will:** I deliberately did NOT blind-freeze the live/documented ledgers (REGINALD FLOW+KB, BROCK matrix) despite the Lane-2 "freeze REGINALD/BROCK" framing — `[[finding_workbook_demote_by_verification]]`: a consumer-grep proved FLOW/KB are live and BROCK matrix is documented. Freezing them would have been wrong. Only the 4 verified-orphaned feeds were frozen.
 
 ### Still open (not in Lanes 1+2)
-- **Wiring the alert into agent boots** — the mechanism is built + validated but inert until each agent calls it at boot. This is the deploy step (Lane-1-style cross-agent edits or owner-routed). **Decision pending with Will.**
+- **Wiring the alert into agent boots** — ✅ DONE for the 6 rotting agents (BRENT/REGINALD/BROCK/HAWK/RED/CARL; commit `63e90d53`, Will-directed targeted wiring). Each now runs `ledger_staleness.py <NAME> --quiet` at boot. Fleet-wide wiring (the other 13 active agents) remains optional/later.
 - **Lane 3 (deferred):** NEXUS (LAST_COMPLETION→SCRATCH, drop HERMES/DARWIN, refresh spine — bundle w/ PREDICTIONS_MONITOR migration), HENRY (LAST_COMPLETION), BOND (HERMES-live refs).
 - **Lane 4:** owner brief/STATUS-spine refreshes (BRENT/LABOR/BROCK/REGINALD).
 - **CREED Tier-2** CLAUDE.md has no git-protocol section (low-pri).
