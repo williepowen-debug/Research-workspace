@@ -147,7 +147,7 @@ def main():
     ap = argparse.ArgumentParser(description="Workbook-ledger staleness alert (Data Hygiene enforcement).")
     ap.add_argument("agent", nargs="?", help="agent name (REGINALD) or path (AGENTS/REGINALD)")
     ap.add_argument("--all", action="store_true", help="scan every AGENTS/*/ with a workbook/")
-    ap.add_argument("--days", type=int, default=14, help="staleness threshold in days behind STATUS (default 14)")
+    ap.add_argument("--days", type=int, default=30, help="staleness threshold in days behind STATUS (default 30 = rot, not mild drift)")
     ap.add_argument("--glob", default="workbook/*.tsv", help="ledger glob relative to agent dir (default workbook/*.tsv)")
     ap.add_argument("--quiet", action="store_true", help="print only agents with stale ledgers (one line each)")
     ap.add_argument("--strict", action="store_true", help="disable by-name exemptions (schema/archive/backup/history/etc.)")

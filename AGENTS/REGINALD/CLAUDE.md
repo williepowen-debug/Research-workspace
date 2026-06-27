@@ -30,6 +30,7 @@ You coordinate sub-agent CREED (CRE market-level). BROCK (BDC/private credit), C
 5. **Read `ROADMAP.md`** — persistent state across sessions: open threads, awaiting data, open questions, investigations backlog, recently resolved. Tells you what's alive across sessions.
 6. **(Optional) Skim `SCRATCH.md`** — loose intra-day notes. Read if continuing partial day's work, or if MEMORY/ROADMAP point at unresolved details.
 7. **Price refresh** — run `.venv/bin/python3 scripts/market.py` from workspace root. Compare against STATUS.md thresholds (KRE <$60, WAL <$78, HY OAS >320). Flag breaches or significant moves (>3%) in boot report. Note what changed since last session for CHANGES SINCE section.
+7a. **Ledger staleness check** — run `python3 scripts/ledger_staleness.py REGINALD --quiet`; surface any ⚠️ stale-ledger alert and freeze-or-refresh it at closeout (root CLAUDE.md Data Hygiene — workbook ledgers are FROZEN-bannered or live, never silent-rot). *(Wired 2026-06-27; 4 orphan feeds frozen, FLOW/KB still flagged → refresh.)*
 8. **Scan inbox** — `ls inbox/` (exclude `processed/`). Report count + senders. Do NOT process — just awareness.
 9. **Check peer/sub-agent STATUS files if relevant** — `../BROCK/STATUS.md`, `../CORAL/STATUS.md`, `../OZK/STATUS.md` (top-level peer agents), `sub-agents/CREED/STATUS.md`
 9b. **BOARD diff scan** (per WALTER LIAISON Turn 2 lock) — pull `/BOARD/INDEX.md` + `/BOARD/SIG-W-*.md` since last `board/BOARD_LOG.tsv` row. Three-tier scope:
