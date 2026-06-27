@@ -261,3 +261,9 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-06-26T23:39:00Z	SIG-W-20260626-022	LABOR	action	CC	PRIORITY	AGENTS/LABOR/inbox/WALTER/SIG-W-20260626-022.md	written_not_delivered_pending_push	pin the source; sectoral counter to NFP beat
 2026-06-26T23:39:00Z	SIG-W-20260626-022	CARL	info	CC	PRIORITY	AGENTS/CARL/inbox/WALTER/SIG-W-20260626-022.md	written_not_delivered_pending_push	goods-sector labor-weakness transmission
 2026-06-26T23:39:00Z	SIG-W-20260626-022	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260626-022.md	written_not_delivered_pending_push	bifurcation mfg-weak vs NFP-strong; headline-only
+2026-06-27T00:18:00Z	SIG-W-20260626-023	HENRY	action	CC	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260626-023.md	written_not_delivered_pending_push	internal breadth divergence; pairs froth thread; small-n
+2026-06-27T00:18:00Z	SIG-W-20260626-023	TERRY	info	CC	PRIORITY	AGENTS/TERRY/inbox/WALTER/SIG-W-20260626-023.md	written_not_delivered_pending_push	market-top-conditional timing lean only; n=9
+2026-06-27T00:18:00Z	SIG-W-20260626-023	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260626-023.md	written_not_delivered_pending_push	cluster_mediating; small-n base-rate skepticism
+2026-06-27T00:19:00Z	SIG-W-20260626-024	CREED	action	CC	PRIORITY	AGENTS/CREED/inbox/WALTER/SIG-W-20260626-024.md	written_not_delivered_pending_push	MF+2024-vintage distressed comp; verify auction/holder on pickup
+2026-06-27T00:19:00Z	SIG-W-20260626-024	REGINALD	info	CC	PRIORITY	AGENTS/REGINALD/inbox/WALTER/SIG-W-20260626-024.md	written_not_delivered_pending_push	bank-transmission: who holds the ~$50.2M loan
+2026-06-27T00:19:00Z	SIG-W-20260626-024	BROCK	info	CC	PRIORITY	AGENTS/BROCK/inbox/WALTER/SIG-W-20260626-024.md	written_not_delivered_pending_push	securitized/bridge-debt-fund overlap; 2024 floating-bridge
