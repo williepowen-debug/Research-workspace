@@ -1,6 +1,8 @@
 # Auto-Push Migration Plan
-**Created:** 2026-06-26 · **Owner:** Prome · **Status:** PILOT LIVE — Prome closeout wired (2026-06-26); fleet rollout pending soak
+**Created:** 2026-06-26 · **Owner:** Prome · **Status:** TIER 1 PROMOTED (canonical flipped 2026-06-26, soak passed) — RED + HAWK swept; 16 agents remain on lazy-sweep
 **Goal:** Replace the manual "Will-coordinated push" ceremony with **auto-push at closeout**, safely, predicated on single-machine operation.
+
+> **2026-06-26 promotion (Will-approved, full):** Soak passed (multiple clean ff pushes, zero tripwire). Tier 1 canonical flipped — root `CLAUDE.md` Git Protocol, `PROME/GIT_COORDINATION.md` Push Discipline, `memory/auto/feedback_defer_push_coordinate.md` (rewritten, slug kept), `finding_push_train_pattern.md` (re-automated), `MEMORY.md` hooks. Tier 3 sweep STARTED: **RED + HAWK** flipped (both active this session). **Remaining Tier-3 (16):** BOND, BRENT, CARL, CORAL, DEWEY, LABOR, MARCO, NEXUS, ORACLE, OTTO, OZK, SHADE, TERRY, WALTER, + their CLOSEOUT.md (Tier 2.2–2.4 LIQUID/TERRY/YEYOU) — lazy-swept when next active. YEYOU stays manual/branch (Decision C). Un-swept agents are safe: they commit-local and ride the next agent's auto-push.
 
 ## Decisions (Will, 2026-06-26)
 - **Precondition:** ✅ single-desktop only (no VPS/laptop/web pushing) → plan greenlit.

@@ -1,12 +1,12 @@
 # Git Coordination
 
 **Owner:** Prome  
-**Status:** Live coordination rail as of 2026-06-24  
+**Status:** Live coordination rail; push policy updated to auto-push 2026-06-26  
 **Scope:** Prome, YEYOU, and any future agent operating in this shared repo/worktree.
 
 ## Purpose
 
-Keep multiple OpenClaw/Claude agents from clobbering one another through shared-index git operations, stale Prome paths, or uncoordinated pushes.
+Keep multiple concurrent Claude Code agents from clobbering one another through shared-index git operations, stale Prome paths, or unsafe pushes. *(All agents are single-machine Claude Code sessions now; OpenClaw/VPS was cut 2026-06-26.)*
 
 This doc is the canonical coordination surface. The old `AGENTS/PROME/` tree is archived at `PROME/archive/AGENTS_PROME_LEGACY_2026-06-24/` and is not live intake, boot, or git protocol.
 
@@ -16,7 +16,7 @@ This doc is the canonical coordination surface. The old `AGENTS/PROME/` tree is 
 - Never use broad index operations: no `git add .`, no `git add -A`, no `git reset HEAD`, no force-push, no broad checkout.
 - Dirty tree means inspect and triage. Do not stash, reset, or pull to make the dirt disappear.
 - Use explicit pathspecs for adds and commits.
-- Local scoped commits are allowed when approved/scoped; GitHub pushes require Will-coordinated flush.
+- Local scoped commits use explicit pathspecs; **push is automated at closeout via `scripts/safe-push.sh`** (ff-gated, fails safe; single-machine predicate). YEYOU stays manual/branch (see Push Discipline).
 - No trade execution or external/public sends are authorized by this document.
 
 ## Ownership
@@ -73,15 +73,15 @@ git commit -m "YEYOU: <subject>" -- AGENTS/YEYOU/<newfile>
 
 ## Push Discipline
 
-Pushes use a lease model:
+Push is **automated at closeout** via `scripts/safe-push.sh`, predicated on **single-machine operation** (Decision, Will 2026-06-26 — OpenClaw/VPS cut). The script:
 
-1. `git status --short --branch`
-2. `git fetch`
-3. `git rev-list --left-right --count HEAD...origin/master`
-4. Inspect dirty and staged paths.
-5. Push only after Will coordinates the flush.
+1. `git status --short --branch` + `git fetch` + `git rev-list --left-right --count HEAD...origin/master`.
+2. Pushes only on a clean **fast-forward**; **aborts cleanly if origin has commits we don't** (never force, never pull a shared tree).
+3. One closeout push sweeps all agents' local commits — the push-train, now automated.
 
-YEYOU may commit locally and branch locally, but may not push to GitHub until Will/Prome coordinates the flush.
+**Tripwire:** a non-ff abort = a 2nd machine pushed to origin → stop, flag Will, switch to per-agent branches. Fully reversible (revert the closeout step + restore the manual line = one commit).
+
+**YEYOU exception (Decision C, Will 2026-06-26):** YEYOU is a repo-wide reviewer on a branch model — it stays **manual/branch** (commits and branches locally, does **not** auto-push) until Will reviews. Its current landing rail is unchanged (below).
 
 ## Current YEYOU Landing Rail
 

@@ -57,7 +57,7 @@ Agent state lives at `AGENTS/<NAME>/STATUS.md`. Trade execution at `FORGE/STATUS
 
 ## Git Protocol
 
-Agents share one working directory and branch. **GitHub is the single source of truth.** All agents pull at session start and **commit locally** at session end. **Pushing is Will-coordinated — not an automatic session-end step:** the shared branch means a per-agent closeout push races other agents' unpushed commits and dirty trees. Commit your work locally so it's preserved; it goes to origin when Will opens a coordinated push window.
+Agents share one working directory and branch. **GitHub is the single source of truth.** All agents pull at session start and **commit locally** at session end. **Push is automated at closeout via `scripts/safe-push.sh`** (fast-forward-gated, fails safe) — predicated on **single-machine operation** (no VPS/laptop/web pushing; OpenClaw/VPS was cut 2026-06-26). safe-push never force-pushes and **aborts cleanly if origin has commits we don't** (the cross-machine case), so one agent's closeout push safely sweeps everyone's local commits — the push-train, now automated rather than gated on a manual Will window.
 
 > **`git add` ONLY files inside your own `AGENTS/<NAME>/` directory.** Never `git add .` or `git add -A`. If you need to commit a shared file (HEARTBEAT, FORGE, etc.), flag it to Prome — don't commit it yourself.
 
@@ -67,8 +67,8 @@ Agents share one working directory and branch. **GitHub is the single source of 
 
 **At session end:**
 1. Commit your files locally (follow "Before committing" below).
-2. **Do NOT push by default.** Pushing is Will-coordinated — push only inside a window Will has opened. A session-end push races other agents' unpushed commits / dirty trees on the shared branch. (When Will opens a push, one agent's push sweeps everyone's committed-but-unpushed work — see auto-memory `finding_push_train_pattern`.)
-3. Note any pending push in your session notes so the next coordinated push window sweeps it.
+2. **Auto-push at closeout** via `scripts/safe-push.sh` (ff-gated, fails safe) — wired into your closeout protocol. It sweeps all local commits in one fast-forward push (the push-train, now automated — see auto-memory `finding_push_train_pattern`). *(Rollout in progress: agents whose closeout/CLAUDE.md still say "defer push" simply commit-local and conservative — their commits ride the next agent's auto-push. Each is lazy-swept to this policy when next active.)*
+3. **If safe-push aborts (non-ff), do NOT force — note it and flag Will.** A non-ff abort means origin diverged (a 2nd machine pushed) — the tripwire to switch to per-agent branches.
 
 **Before committing:** (pathspec pattern — avoids the shared-`.git/index` race; see auto-memory `finding_pathspec_commit_race_safety`, incident `8ac5bf71` Jun 4 2026)
 1. **For modified files:** `git commit AGENTS/<YOUR_NAME>/<file> -m "..."` — path-scoped commit, no separate staging step.

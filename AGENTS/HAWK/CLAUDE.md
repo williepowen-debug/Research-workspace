@@ -84,13 +84,13 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 | DATE | HAWK | TARGET | 🔴/🟠 | Description |
 ```
 
-### Git (when asked to commit/push)
+### Git (commit + auto-push at closeout)
 
 Follow the **Git Protocol** in root `CLAUDE.md`, with these HAWK overrides per auto-memory `[[finding_pathspec_commit_race_safety]]`:
 1. **Use pathspec commits — never `git reset HEAD`.** A shared `.git/index` makes `reset` a global op that clobbers other agents' staged work. For modified files: `git commit AGENTS/HAWK/<file> -m "..."`. For new untracked files: atomic `git add <specific files> && git commit <same specific files> -m "..."` — explicit paths only, **never `git add AGENTS/HAWK/` as a directory** (sweeps in unintended files). Optional sanity check between add and commit: `git diff --cached --stat`.
 2. **Never commit files outside `AGENTS/HAWK/`.** Signals you deliver into another agent's inbox stay untracked — flag them to Will rather than committing them yourself.
 3. **Pull discipline:** scoped stash for working-tree changes (`git stash push -- AGENTS/HAWK/`); the staging-area race is eliminated by pathspec commits above.
-4. **Commit locally, defer push** unless Will coordinates the push (concurrent agents) — note any pending push in `MEMORY.md`. Never resolve conflicts in another agent's files — flag to PROME.
+4. **Commit locally with pathspec, then auto-push at closeout via `scripts/safe-push.sh`** (ff-gated, fails safe; single-machine — `[[feedback_defer_push_coordinate]]`). One push sweeps all agents' local commits (`[[finding_push_train_pattern]]`). **If safe-push aborts non-ff, do NOT force — note it in `SCRATCH.md` and flag PROME/Will** (a 2nd machine pushed = the tripwire). Never resolve conflicts in another agent's files — flag to PROME.
 
 ---
 

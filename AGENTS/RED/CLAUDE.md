@@ -65,9 +65,9 @@ W7. **`MEMORY.md` + promotion scan** — transferable cross-agent lesson → aut
 W8. **Reports & routing** — long reports → `reports/` or `challenges/`; PROME-facing signals → `OUTBOX.md` (COMPELLING counter-evidence = immediate alert; time-boxed items get explicit deadlines). Never write into another agent's directory.
 W9. **Structural change** (file created/retired/moved, schema change, protocol/CLAUDE.md amendment, tooling) → `MAINTENANCE.md` entry (Trigger / What changed / Files touched / Boot-impact). Analytical changes stay in `thesis/CHANGELOG.md`.
 W10. **Git — pathspec commits, never `git reset HEAD`** (shared `.git/index`; auto-memory `[[finding_pathspec_commit_race_safety]]`).
-    - **Default: commit locally only. Push only inside a Will-opened push window** (`[[feedback_defer_push_coordinate]]`).
+    - **Commit locally with pathspec, then auto-push at closeout via `scripts/safe-push.sh`** as the write-back tail (ff-gated, fails safe; single-machine — `[[feedback_defer_push_coordinate]]`). One push sweeps all agents' local commits (`[[finding_push_train_pattern]]`). **If safe-push aborts non-ff, do NOT force — note it in `SCRATCH.md` and flag PROME/Will** (a 2nd machine pushed = the tripwire).
     - Modified files: `git commit AGENTS/RED/<file> -m "..."`. New untracked files: atomic `git add <specific files> && git commit <same specific files> -m "..."` — explicit paths only, never `git add AGENTS/RED/` as a directory. Sanity check between add and commit: `git diff --cached --stat`.
-    - Never commit outside `AGENTS/RED/`; never resolve other agents' conflicts — flag to PROME. If blocked by other agents' uncommitted work, note the pending push in `SCRATCH.md` and defer.
+    - Never commit outside `AGENTS/RED/`; never resolve other agents' conflicts — flag to PROME.
 
 **Discipline overlay (applies throughout write-back):** one source of truth per metric — own it in the owner doc, reference it from the other. Stale-marked > carried-forward-as-current — if you can't refresh a value, mark it `[STALE <date>]`, don't present it as live. Don't let prior-session narrative substitute for fresh measurement — re-pull, then write.
 
