@@ -385,3 +385,4 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-06-27T17:19:00Z	SIG-W-20260627-027	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260627-027.md	written_not_delivered_pending_push	FL property-tax amendment burden-shift to CRE/MF/business
 2026-06-27T17:19:00Z	SIG-W-20260627-028	CORAL	action	CC	ROUTINE	AGENTS/CORAL/inbox/WALTER/SIG-W-20260627-028.md	written_not_delivered_pending_push	NIST Surfside forensic report; FL condo-reserve-mandate durability
 2026-06-27T17:19:00Z	SIG-W-20260627-028	RED	info	CC	ROUTINE	AGENTS/RED/inbox/WALTER/SIG-W-20260627-028.md	written_not_delivered_pending_push	NIST Surfside forensic report; FL condo-reserve-mandate durability
+2026-06-27T17:35:00Z	SIG-W-20260627-029	HENRY	action	CC	ROUTINE	AGENTS/HENRY/inbox/WALTER/SIG-W-20260627-029.md	written_not_delivered_pending_push	Damac/Sajwani $20B US data-center pledge; foreign Gulf equity in AI-infra; DATED + pledge-not-realized
