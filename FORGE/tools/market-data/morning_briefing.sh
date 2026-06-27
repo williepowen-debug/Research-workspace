@@ -35,8 +35,10 @@ ${OUTPUT}
 
 ${SUMMARY}"
 
-# Send to Telegram
-curl -s -X POST "https://api.telegram.org/bot***REMOVED***:***REMOVED***/sendMessage" \
+# Send to Telegram (token from gitignored .env — never hardcode in this tracked file;
+# rotate via BotFather, the prior literal was exposed in git history. This script is DISABLED above.)
+[ -f "$DIR/.env" ] && . "$DIR/.env"
+curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
     -H "Content-Type: application/json" \
     -d "{\"chat_id\": \"8463631023\", \"text\": $(echo "$MESSAGE" | python3 -c 'import sys,json; print(json.dumps(sys.stdin.read()))'), \"parse_mode\": \"Markdown\"}" \
     > /dev/null 2>&1

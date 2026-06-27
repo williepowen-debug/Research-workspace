@@ -19,6 +19,7 @@ Exit codes:
 import argparse
 import datetime
 import json
+import os
 import sys
 import time
 import urllib.request
@@ -34,8 +35,11 @@ from fetch import fred_fetch, price_fetch, eia_fetch
 STATE_FILE = Path(__file__).parent / ".cache" / "last_run.json"
 LOG_FILE = Path(__file__).parent / ".cache" / "dashboard_log.jsonl"
 
-TELEGRAM_BOT_TOKEN = "***REMOVED***:***REMOVED***"
-TELEGRAM_CHAT_ID = "8463631023"
+# De-hardcoded 2026-06-27 (token was exposed in git history → rotate via BotFather).
+# send_telegram() is DISABLED in main(); if re-enabling, put the rotated token in a
+# gitignored .env and export it. Read from env so the literal never re-enters this tracked file.
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
+TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "8463631023")
 
 
 def load_last_state():
