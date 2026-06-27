@@ -6,75 +6,63 @@
 
 ## STATUS
 
-**2026-06-27 ~4:30 PM ET (Sat — post-crash RECOVERY + DEWEY REQ-001 routing + closeout completion).** The machine crashed mid-SESSION-3-closeout (~4:11 PM — STATUS written but not yet committed). Will reopened: *"recover what you were working on"* → *"route the DEWEY deliverable and finish the closeout."* Recovered the uncommitted closeout STATUS (`d2b10c5c`), routed the just-returned DEWEY REQ-001 deliverable as **SIG-W-20260627-033**, closed the ledger, and finished the deferred closeout tail. Then (Will *"route it"* again) routed the just-returned **DEWEY REQ-002** deliverable as **SIG-W-20260627-034**. **2 DISPATCH (SIG-033 + SIG-034) / 0 KILL → DAY TOTAL 34 dispatch / 36 kill / BOARD 400→402.**
-
-*(SESSION-3 itself, never captured here — Tier-1 light closeout deferred this rewrite: 4 dispatch SIG-029→032 [Damac→HENRY / flood-insurance→CORAL verify-CONFIRMED / ICE-DQ→CARL / DRAFT-GSE-bill→CARL] + 2 design refinements [ROUTING_TABLE v0.15 muni-routing, CHECKLIST v0.22 investigation-routing] + 4 DEWEY prompts queued.)*
+**2026-06-27 ~7:00 PM ET (Sat — self-audit + organize session).** Will: *"let's take a moment to get WALTER organized… run through your files and processes and let me know if anything needs attention."* Ran a **6-agent read-only Workflow self-audit** over WALTER's full file tree (core state / design specs / BOARD+anchor / logs+ledgers / cruft+archival / processes+protocols), 40+ findings each consumer-grep-checked, then executed the safe-fix batch with Will's "fire and fix what you can" greenlight. **0 dispatch / 0 kill / 0 verify** (WALTER-internal session). **10 commits, safe-push at closeout.**
 
 ## CHANGED
 
-- **Recovery commit `d2b10c5c`** — the session-3 closeout STATUS write was complete in the working tree but uncommitted at crash; committed as-is. Confirmed 5 of the 6 session-3 commits had already reached origin via the push-train (only `70b2f9d0` CHECKLIST v0.22 was still local).
-- **Routed DEWEY REQ-001 → 1 BOARD signal SIG-W-20260627-033** (research-output; AI-infra circular/vendor financing + Apollo→Athene insurer-leg verification). Full packet embedded verbatim + per-recipient genuine-delta wrapper → **HENRY/BROCK/SHADE action, RED info.** Phase 2.8b: split-test S1–S4 on the insurer-leg finding all FAIL → kept-in + elevated as the SHADE wrapper-delta (mirrors SIG-619-008). BOARD 400→401.
-- **INDEX** (AI_INFRA_CAPEX 17→18: ToC count/anchor + entry + section header + table row) · **route_log +1** · **delivery_log +4** · **4 per-recipient `inbox/WALTER/` handoffs** (HENRY/BROCK/SHADE/RED).
-- **DEEP_RESEARCH_FLAGGED_LOG REQ-001 row CLOSED** — disposition RESOLVED / outcome "DELIVERED as SIG-033" / executor DEWEY + verdict in notes. Handoff `git mv`→`inbox/DEWEY/processed/` (NEW→ROUTED→PROCESSED).
-- **Closeout tail completed:** STATUS lead/BOARD/callbacks/push-state/SESSION-LOG refreshed + this LAST_COMPLETION rewrite + MEMORY handoff + **auto-memory promotion of the 2 session-3 refinements** → `[[finding_investigation_routing_discriminator]]` (DEWEY already promoted the insurer-scope lesson → `[[finding_insurer_entity_scope_trap]]`). No new spec bumps.
+- **`dae7ba99`** — BOARD INDEX TOTAL row 400→402 (boot doctor HIGH; reconciles now).
+- **`88da8c27`** — correctness: push-state stale-WRONG across STATUS/MEMORY/LAST_COMPLETION ("origin behind 3/DEFERRED"; tree was clean, train swept) → corrected; STATUS stale Brent $72.63→$71.99; version_drift_check.py now guards BOARD_CONSUMPTION_SPEC.
+- **`3d6c6b8d`** — CLAUDE.md + STATUS de-stale: 5× BOARD_CONSUMPTION v0.2→v0.6, cut-OpenClaw two-platform delivery prose → uniform single-machine, RULE 10 push-rule → root safe-push-at-closeout canon, FORMAT_SPEC v0.10→v0.11.
+- **`ab97286d`** — TSV hygiene: 6 malformed kill_log rows padded to 6-col; 199 delivery_log written_state values case-normalized (LF preserved, line counts unchanged).
+- **`ba7dfc82`** — +4 walter_doctor checks (10→14): claude_md_version_drift / log_reconcile / cushing_capability / staleness_sweep_overdue + boot-doc count update.
+- **`eaf25a90`** — archival: design/ 24→18 live (3 converged JOINT_PROPOSALs + BRENT_LIAISON_PREP + v0.6 changeset + cluster_assignment_v1 → design/history/); 20 research masters → research/_archive/ (distilled/ kept). +design/history/README.
+- **`55f91f05` + `5ce95519`** — SECURITY (Will-auth FORGE): de-hardcoded the plaintext bot token from cron_sweep.sh, dashboard.py, morning_briefing.sh → gitignored .env + .env.example. dashboard.py verified still runs.
+- **`[token-redact]`** — checked WALTER design docs (only abbreviated refs, no full secret — no change needed).
+- **`[closeout]`** — registry refresh (BRENT/HAWK/NEXUS/ORACLE — registry_lag MED cleared for those 4); STATUS lead deep-trim (6.4KB→1.3KB) + SESSION-LOG trim-to-5 (8 rows→SESSION_LOG.md, 224→236) + NETWORK-AWARENESS regen + dropped stale 6/16 deltas block; MEMORY (2 findings + notes); this rewrite.
 
 ## RESULT
 
-**The DEWEY verdict (SIG-033):** the 2024–26 AI buildout is **pervasively vendor-financed / round-tripped — STRUCTURE primary-confirmed** (Nvidia per-GW OpenAI disbursement + anchor-LP in the $5.4B Valor SPV buying its own GB200s + $6.3B CoreWeave backstop; **>$120B moved off-balance-sheet in ~18mo**; Hyperion $27.3B = largest project-finance bond on record; CoreWeave $24.9B debt / ~5.4× D/E / interest 25.8% of rev). The **Apollo→Athene insurer leg is structurally real and growing** (Level-3 ~$154.8B Q1-26, **+49% YoY**) — but the **Burry figures are dated/definition-bounded** ($103B/34.7% = YE2024-vintage now stale-low; **16.6× NOT reproducible** [13.3× standalone]; $217B = net vs $315B gross AARe) AND **no primary disclosure ties Athene's L3 to AI/data-center collateral** → **qualified-yes-on-structure / not-yet-on-AI-specificity** (SHADE: test vs the FY2024 10-K fair-value footnote). Magnitude caveat for HENRY: Nvidia-OpenAI "$100B" = soft LOI (~$30B finalized); no public denominator → no vendor-vs-end-demand ratio. VERIFIED-PRIMARY with an attribution-vs-fact split (refuted-as-fact 0-3 / accepted-as-attribution 3-0).
-
-**Recovery judgment:** the only uncommitted artifact at crash was the closeout STATUS (durable data layer — BOARD + logs + per-recipient handoffs — was already committed Tier-0, so nothing was lost). DEWEY's deliverable landed at 4:06 PM *after* Will's "close out" instruction, so the crash simply beat WALTER's step-7d boot-scan to it — not lost work, just pending intake, now consumed.
+The audit's headline: **the cobbler's-children gap** — WALTER polices the network's signal hygiene but its own self-diagnostic (walter_doctor) watched the DATA layer, not WALTER's own instruction/summary docs, so CLAUDE.md drifted 4 spec-versions, the BOARD INDEX bloated to 530KB (un-Read-able), the STATUS lead to 6.4KB, and a plaintext bot token sat committed — none alarmed at boot. **The durable win isn't the cleanup, it's the +4 doctor checks: that rot now self-alarms instead of needing a 6-agent sweep to find.** STATUS shrank 66KB→40KB; design/ 24→18 live files; doctor exit now surfaces the genuinely-actionable (3 dark crons, Cushing-dark, recipient-unconsumed) cleanly.
 
 ## GAPS
 
-- **Push:** 🟢 CLEAN — the recovery train swept (`70b2f9d0`/`d2b10c5c`/`1d458b23` all on origin); origin synced. Boot session ahead 1 (`dae7ba99` BOARD-INDEX reconcile) — sweeps next safe-push. *(The "origin behind 3 / files uncommitted" GAPS note was the mid-recovery state, resolved at the 6/27 boot.)*
-- **delivered_but_unconsumed** +4 (SIG-033 → HENRY/BROCK/SHADE/RED, CC pending-push) on top of the session-1/2 backlog.
-- **2 DEWEY prompts still PENDING** (REQ-003 muni-fiscal / REQ-004 housing-distress; REQ-001 + REQ-002 now DELIVERED + routed as SIG-033 / SIG-034) — Will runs DEWEY; returns via `inbox/DEWEY/`, WALTER routes per Phase 2.8b + closes ledger rows.
-- **Cushing N/A** (EIA `.env` machine-local gone — Boundary #3 dark this box).
-- **SESSION-LOG trim-to-5 + footer-archive** backlog grown again (recovery row added).
+- **🔴 Bot-token full secret STILL in 3 non-FORGE files** — `dashboard/server.py` (+.bak, **live web-dashboard service**) + `config/openclaw-multiagent.json5`. Outside Will's FORGE auth → flagged, not edited. **ROTATION (Will, via BotFather) is the only real fix** (it's in git history everywhere); de-hardcoding those 2 needs auth beyond FORGE.
+- **Held big-surgery** (need Will / care): BOARD/INDEX ToC slim (530KB; needs keep-vs-drop nod on the curated batch-blurbs) · IRAN_WAR.md history-split (42% pre-6/18 prior-blocks; do with a full read, it's the load-bearing macro anchor).
+- **debug/** ~1500 gitignored capture JSONs + a still-writing hook — couldn't `trash` (no trash cmd; rm forbidden) → Will settings cleanup.
+- **OZK** still longest-stale Tier-1 (64d, dormant — REGINALD Q1 post-mortem owed; not refreshed).
 
 ## WILL_NEEDS
 
-1. **2 PENDING DEWEY prompts** (REQ-003 muni-fiscal / REQ-004 housing-distress) — open a DEWEY session per prompt when ready; deliverables route on return. (REQ-001 + REQ-002 delivered + routed → SIG-033 / SIG-034.)
-2. (carried) **RED auto-cc trim?** — RED on the info line of most cluster_mediating dispatches (incl. SIG-033).
-3. (carried) **EIA `.env` durability** (Cushing dark) · **Scout build** (3 dark crons) · **OZK** Q1 post-mortem (longest-stale Tier-1, 64d).
-4. (carried) **🔴 OpenClaw cutover** — `design/OPENCLAW_CUTOVER_PLAN.md` Phase-0 decisions.
+1. **🔴 Rotate the Telegram bot token** via BotFather (check it's not the live-channel bot first), then authorize WALTER to de-hardcode `dashboard/server.py` + `config/` (beyond-FORGE edit).
+2. **5 held decisions** (no rush): COP retire/resume · Filter-v2 Segment D ship/kill · handoff_RED open-loop (re-deliver vs retire) · BOARD ToC slim keep-vs-drop · Scout build go (replaces 3 dark crons; blocked on your token-rotate + GitHub Secrets + bot-to-group).
+3. **debug/ capture hook** — disable/trim (it re-writes gitignored JSONs each turn).
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
 
-**🔴 Time-sensitive forward (live-watch — UNCHANGED, markets closed Sat → Fri-close levels):**
-1. **Brent <75 sustain-watch** — day-1 of 3 ($71.99). Holds Mon+Tue → ROUTING_TABLE §2c IMMEDIATE → BRENT/CARL,HENRY,LIQUID,RED. SIG-626-002 oil-bull COUNTER = BRENT's discriminator.
+**🔴 Time-sensitive (live-watch — markets closed Sat → Fri-close levels):**
+1. **Brent <75 sustain-watch** — day-1 of 3 ($71.99). Holds Mon+Tue → RED-FT-04 fire (BRENT-owned).
 2. **HY OAS 278 — cross >280?** un-fires RED-FT-01; next UPSIDE widening fire = RED-FT-02/REG-T-03 (>320). CCC 968 suppressed.
-3. **Iran anchor re-verify ~6/29** (7-day min) — verified 6/22 C-Grind; no Iran intake 6/27. Brent <75 = spike premise inverted.
-4. **SAM USD/JPY** 161.7 red zone; MOF silent.
+3. **Iran anchor re-verify ~6/29** (7-day min; verified 6/22 C-Grind). No Iran intake 6/27.
+4. **SAM USD/JPY** 161.7 red zone.
 
-**🟠 SIG-033 callbacks owed (4 await consume, CC pending-push):**
-5. **HENRY** (action) — circular/vendor-financing structure primary-confirmed; Nvidia-OpenAI $100B = soft LOI; no vendor-vs-end-demand ratio (no denominator).
-6. **BROCK** (action) — >$120B off-BS/18mo; Hyperion $27.3B; Anthropic $35B SPV (Atlas SP/Apollo, Athene "sizable portion"); off-BS reversible; chips = Google TPU not Nvidia GPU.
-7. **SHADE** (action) — insurer-leg escalation ANSWERED: real+growing (L3 +49% YoY) but AI-collateral linkage UNDISCLOSED/inferential → test vs 10-K FV footnote; Burry figs dated/bounded.
-8. **RED** (info) — two-sided: refuted-as-fact(0-3)/accepted-as-attribution(3-0); L3 = observability not quality; off-BS reversible; backstops conditional; structure ≠ bubble verdict.
+**🔴 Security (carry until resolved):** bot-token rotation (Will) + de-hardcode dashboard/server.py + config/ (post-auth).
 
-**🟠 SIG-034 callbacks owed (DEWEY REQ-002 ex-AI-GDP, 4 await consume, CC pending-push):**
-8b. **CARL** (action) — "ex-AI −1.1%" = artifact (stale +1.6% 2nd-est; final +2.1%); ex-AI ~+0.5-0.8% decelerating-not-contracting; **REAL signal = PCE-contribution collapse +2.34→+0.37 ppt**; the headline upgrade came from a downward import revision, not domestic demand. · **HENRY/RED/BROCK** (info) — AI-capex re-accelerated 0.48→~1.50 ppt (economy MORE capex-dependent, not less); −1.1% vintage-fragile; capex-negative-without-AI; ConstructConnect single-vendor down-weight.
+**🟠 Autonomous-available next session (no decision needed):** OPEN-DECISIONS triage → execute the WALTER-resolvable ones · consume-boot-step for the CC self-apply set (CARL/REGINALD/SAM/RED — closes most delivered_but_unconsumed) · fix 19 dangling JOINT_PROPOSAL_*_walter_carl_brent refs (file is *_walter_sections.md) · BOARD ToC slim + IRAN history-split (on Will's nod).
 
-**🟠 SESSION-3 dispatch callbacks owed (4 SIG-029→032, CC pending-push):**
-9. **HENRY** (029 Damac — dated ~early-2025 pledge, not deployed capex; confirm realized spend not headline).
-10. **CORAL** (030 flood-insurance-gap→mortgage-credit, FL-heaviest ~18% NFIP, structural/event-gated-by-landfall; verify-CONFIRMED 0.85).
-11. **CARL** (031 pull canonical ICE-May-DQ print / 032 GSE-construction-bill DRAFT-watch) · **REGINALD** (030/031/032 info).
+**🟠 Consume callbacks owed (carried from 6/27 routing — 28+ dispatches await recipient consume, CC self-apply set):** see SESSION_LOG 6/27 rows. SIG-033/034 (HENRY/BROCK/SHADE/RED/CARL) · SIG-029→032 (HENRY/CORAL/CARL/REGINALD) · session-1/2 backlog.
 
-**🟠 Session-1/2 callbacks (carried — 28 dispatches await consume):** CARL (005/006/007/012/016/017) · HENRY (002/010/018) · BROCK (004/008/009/011) · SHADE (008 Athene — now superseded/answered by SIG-033) · CREED (001/013/022/023/024/025/027) · CORAL (003/026/027/028) · LIQUID (010/015/019) · SAM (014/015/018) · MARCO (024 World-Cup-masks / 026) · LABOR (007).
+**🟠 Cross-agent / LIAISON (carried):** RED Turn 8 / REGINALD Turn 7 LIAISON (untouched since 6/6). CARL LIAISON DORMANT. BRENT CLOSED. EVENT_WINDOW CLOSED (1/3 Path B; BRENT-coordinated refresh owed — Brent <75 inverted the spike premise). 2 DEWEY prompts PENDING (REQ-003 muni / REQ-004 housing — Will runs; route on return).
 
-**🟠 Cross-agent flags + threshold + LIAISON (carried):** RED-FT-01 (HY 278<280) + RED-FT-07 (CCC 968>930) continuing-suppressed; Brent $71.99 <75 day-1. WAL out of REG-T-02 ($82). RED Turn 8 / REGINALD Turn 7 LIAISON (untouched since 6/6). CARL LIAISON DORMANT. BRENT LIAISON CLOSED. EVENT_WINDOW CLOSED (1/3 Path B; BRENT-coordinated refresh owed — Brent <75 inverted the spike premise). BRENT/HAWK/ORACLE registry_lag refresh when next read.
+**🔴 Infra (carried):** 3 dark crons (news-sweep/filing-watch/SIGNALS — Scout-track). EIA `.env` machine-local (Cushing dark — now doctor-flagged via cushing_capability).
 
-**🔴 Infra (carried):** 3 dark feeds (news-sweep/filing-watch/SIGNALS = Scout-track/VPS-down). EIA `.env` machine-local (Cushing N/A this box).
-
-**Design / governance backlog (carried):** STATUS SESSION-LOG trim-to-5 + ancient-footer archive (giant-row surgery — now LONGER after session-1/2/3 + recovery rows; highest-priority next-Tier-2 item); BOARD INDEX ToC-line slim-down (cluster cells huge); MEMORY periodic prune; **auto-memory MEMORY.md index over its size limit** (trim index entries / move detail to topic files); FILTER_SPEC v0.6 BODY-INACCESSIBLE-PAYWALL verdict; `valid_until` forward-expiry; VIX-spike registered trigger; thin-liquidity prediction-market handling.
+**Design/governance backlog (carried):** MEMORY auto-memory index over size-limit (trim before promoting the 2 new [2026-06-27] findings). [STATUS giant-row backlog + version-drift-guard gaps RESOLVED this session.]
 
 ## OPEN DESIGN DECISIONS (need Will)
 
-**🟦 Still open (parked, carried):** RED auto-cc trim; EIA `.env` durability; DEWEY↔Scout consolidation; group-chat artifact policy; INDEX status-column; staleness-sweep cadence; HENRY LIAISON priority; FED_FRAMEWORK→UST_PLUMBING rename (defer); Filter v2 Segment D; COP refresh resume (paused); thin-liquidity prediction-market routing; consume-boot-step rollout (CC self-apply set).
+**🟦 Still open (parked — NEEDS A TRIAGE PASS next session, several are WALTER-resolvable-now):** RED auto-cc trim · EIA `.env` durability · DEWEY↔Scout consolidation · group-chat artifact policy · INDEX status-column · HENRY LIAISON priority · FED_FRAMEWORK→UST_PLUMBING rename (defer) · Filter v2 Segment D · COP refresh resume (paused) · thin-liquidity prediction-market routing · consume-boot-step rollout (CC self-apply set) · delivery_log written_state enum (spec-vs-practice: align spec to practice or strip delivery-states). *(staleness-sweep cadence RESOLVED → codified 14d in walter_doctor this session.)*
 
-**✅ Resolved (carried closed):** **Muni-fiscal coverage gap → ROUTING_TABLE v0.15 (CARL-national / CORAL-FL, no new agent; Will-approved 6/27 session-3)** · **Damac $20B US data-center → routed SIG-029 → HENRY (Will-directed 6/27 session-3)** · **DEWEY REQ-001 AI-circular-financing → DELIVERED + routed SIG-033 (6/27 recovery)** · WALTER-posture-under-PROME-auto-push CONFIRMED (6/27) · Tier-2 lead deep-trim (6/27 AM) · tiered-closeout shipped · ENSO/hurricane→CORAL (v0.14) · registry_lag refresh 6/26 · YEYOU/TERRY Tier-1 · CRE/CMBS→CREED (v0.12) · Cushing wired to FORGE · FERT archived.
+**✅ Resolved this session:** BOARD INDEX reconcile · push-state truth-up · CLAUDE.md version-drift → v0.6 + version_drift guard extended · TSV schema hygiene · +4 doctor self-checks · design/research archival · registry_lag ×4 · STATUS lead-trim + SESSION-LOG trim-to-5 (giant-row backlog) · FORGE bot-token de-hardcode (3 files) · staleness-sweep cadence.
 
 ---
 
-*Maintenance note: post-crash recovery session (Will "recover what you were working on" → "route the DEWEY deliverable and finish the closeout"). Recovered + committed the uncommitted session-3 closeout STATUS (`d2b10c5c`); routed DEWEY REQ-001 as SIG-W-20260627-033 (Phase 2.8b — verbatim packet embed + per-recipient delta + INDEX + route_log + delivery_log×4 + 4 inbox/WALTER handoffs + ledger row closed + handoff→processed/); completed the deferred closeout tail (STATUS / this LAST_COMPLETION / MEMORY handoff / auto-memory promotion). All artifacts persisted to BOARD + logs + per-recipient inbox/WALTER, committed (Tier-0). Push DEFERRED (PROME + Will files uncommitted; origin behind 3). No new spec-version bumps (CHECKLIST v0.22 + ROUTING_TABLE v0.15 already committed session-3). Backlog: SESSION-LOG trim-to-5 + footer-archive (giant-row surgery, now longer) + auto-memory index over-limit.*
+*Maintenance note: self-audit + organize session (Will "get WALTER organized"). 6-agent read-only Workflow audit → ranked findings → safe-fix batch (10 commits) executed under Will's "fire and fix what you can" greenlight. Highest-leverage output = the +4 walter_doctor checks (rot now self-alarms at boot). Security: bot token de-hardcoded from all FORGE files (Will-auth); full secret remains in dashboard/server.py + config/ (non-FORGE) pending Will rotation. Held for Will: BOARD ToC slim, IRAN history-split, COP, Filter-v2-D, handoff_RED, Scout. Tree + origin clean; safe-push at closeout.*
