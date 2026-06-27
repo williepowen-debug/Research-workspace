@@ -1,5 +1,5 @@
 # TERRY STATUS
-**Updated:** 2026-06-27 (boot truth-up: 6/26 toolchain confirmed committed+pushed; logged 7 WALTER INFO signals to new `SIGNALS.tsv` ledger) · **Status:** 🟡 armed — fire-card toolchain built & tested, 0 cards fired live, waiting on a trigger
+**Updated:** 2026-06-27 Sat (closeout: `SIGNALS.tsv` context ledger built+broadened, `inbox/WILL/` drop-zone added, NEXUS regime PIN flagged stale, day-trading Session 3 logged) · **Status:** 🟡 armed — fire-card toolchain built & tested, 0 cards fired live, waiting on a trigger
 **Agent:** TERRY — trade construction / tactical execution discipline. Owns the ACTION/card side; never executes. Detection = LIQUID/SENTRY.
 
 > Durable mandate + lessons → `MEMORY.md`. Session-end procedure → `CLOSEOUT.md`. Role/start-here → `README.md`. Risk gates → `RISK_SCORING.md`.
@@ -14,19 +14,22 @@
 | `scripts/chain_fetch.py` | 🟢 built, selftest PASS, live-validated | live option-chain CLI; marks matched the bank-put proposal exactly |
 | `scripts/grade_print.py` + `grade_config.json` | 🟢 built, selftest PASS | Q2 print grader; 3 mis-grade traps as hard guards; `--tally` rolls path (a)/(b)/(c) |
 | Fire cards | 🟢 staged, **0 fired live** | `TRADE_CARD_TEMPLATE_FIRE.md` + 2 pre-filled skeletons (HY≥280 / WAL-EGBN), $500 budget locked |
-| Day-trading review loop | 🟢 live | `daytrading/` — Session 2 logged 6/24 (+$2,951.67 realized); read `daytrading/README.md` first |
-| Older scripts | 🟢 selftested | boot.py, snapshot.py, risk_calc.py, chain_parse.py, csv_pnl.py |
+| Day-trading review loop | 🟢 live | `daytrading/` — **Session 3 logged 6/27**: 6/24–26 **−$3,969** (wiped S2; cumulative 5/1–6/26 −$1,017); new R6 (0DTE auto-liquidation). Read `daytrading/README.md` first |
+| `SIGNALS.tsv` context ledger | 🟢 NEW, live | trade-construction context (WALTER INFO / my chart obs / thesis-owner timing); decay-tracked, boot-surfaced. **NEXUS regime PIN = STALE (6/16 pre-FOMC), refresh owed** |
+| `inbox/WILL/` drop zone | 🟢 NEW, live | Will's reserved trading-data drop; raw gitignored (stays local), boot-surfaced; feeds the day-trading review |
+| Older scripts | 🟢 selftested | boot.py (now surfaces signals + drop zone), snapshot.py, risk_calc.py, chain_parse.py, csv_pnl.py |
 | Live thesis trade cards | ⚪ none fired | fire cards await a real trigger; POSTMORTEMS template-only (no closed trade yet) |
 | Position truth | 🟡 from Will/FORGE only | existing book in FORGE/STATUS; pull live before any fire-card sizing |
 | Risk unit for Will | 🟡 open | $/%/R preference unresolved (see MEMORY Standing Decisions) |
 
 ## What's pending
-- **6/26 toolchain landed** — committed (`1fa1ca23` tooling + `d9498dfd` durable layer) and swept to origin by WALTER's push-train; synced 0/0. No push pending.
-- **Awaiting a fired trigger** to exercise a fire card (HY OAS ≥280 sustained, or a Jul 16–30 print grading as transmission).
-- **Positioning backdrop (current read):** crowded-long / froth → squeeze risk **elevated on any short**. Evidence + decay tracked in `SIGNALS.tsv` (boot surfaces it; don't re-list rows here). Durable level map worth keeping in front: GS-CTA SPX **7,352 / 7,063 / 6,642** — mechanical-sell window opens <7,352.
+- **Awaiting a fired trigger** to exercise a fire card (HY OAS ≥280 sustained, or a Jul 16–30 print grading as transmission). Detection = LIQUID/SENTRY.
+- **NEXUS regime PIN stale** — `SIGNALS.tsv` carries NEXUS's 6/16 *pre-FOMC* read; refresh owed (flag in `outbox/2026-06-27_to-NEXUS_post-fomc-reanchor-flag.md`). Will refreshing NEXUS soon → re-stamp the PIN then.
+- **Day-trading S3 carries:** (1) request a timestamped order export (confirms RH auto-close + closes churn/cancel gap); (2) Monday-mark the open book — WAL 9/18 75P (**THESIS-scope → FORGE, not day-trade**), WEN 7/2 8.50P.
+- **Positioning backdrop (current read):** crowded-long / froth → squeeze risk **elevated on any short**. Evidence + decay in `SIGNALS.tsv` (boot surfaces it; don't re-list rows here). Durable level map: GS-CTA SPX **7,352 / 7,063 / 6,642** — mechanical-sell window opens <7,352.
 
 ## Open questions for Will
-- Preferred default risk unit: $ max loss / % portfolio / R?
+- Preferred default risk unit: $ max loss / % portfolio / R? (Day-trade Rule 3 cap needs a number to be enforceable.)
 - Track every considered setup, or approved/rejected only?
 
 ## Guardrails
