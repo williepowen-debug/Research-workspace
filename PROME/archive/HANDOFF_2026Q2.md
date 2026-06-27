@@ -1059,3 +1059,15 @@ Open with Will at next-session start (Wed 5/27 AM):
 **Risks / blockers:** do not physically move agent directories without a migration pass. Do not maintain multiple live network maps. No trade/expiry action without broker/Will truth.
 
 ---
+
+## 2026-06-26 — Verification pass (Tier-1 banks + Tier-2 labor): corrections applied + PUSHED
+
+**Status:** Ran the queued `VERIFICATION_PASS_2026-06-26` action-card as two verify->adversarial->propagate Workflows — `wzmprhwb2` (8 Tier-1 banks vs EDGAR 10-Q / FDIC Call Report) + `wzlhvzlcb` (5 Tier-2 labor groups vs FRED/BLS/CBO). ~24 load-bearing Q1'26 figures checked, each adversarially re-pulled. **PUSHED** — origin master `903e7f4b`, synced 0/0 (`d1cbbafe` corrections + `903e7f4b` route packets).
+
+**What landed:** 17 stamped `[CORRECTED/VERIFIED 06-26]` edits across the 3 synthesis docs + `PROME/proposals/2026-06-26_tier1-verification-results.md` (full scorecard). Tier-1: 11 ok / 9 delta / 5 conflict / 3 unverifiable. Tier-2: 8 ok / 5 delta / 3 conflict / 1 unverifiable. 3 upstream route packets placed in LABOR/MARCO/CORAL inboxes (next-boot SIGs).
+
+**The read:** **both theses SURVIVE.** (b) AOCI + (c) WAL stay the live Q2 exception; (a) consumer-source + labor stay 2027. Material catches (none move a path's odds): ALLY "released $224M" -> +$50M BUILD (growth-driven=collective, non-counting); ZION muni "$5.78B AFS" -> ~$869M (re-anchored on total AFS); WAL "$99M charge-off" -> outstanding CRE loan balance, appraisal-pending (not a realized loss); WAL 39bps = NON-GAAP adjusted (GAAP 1.45%); EGBN CRE 547% -> 295.1% (now below the 300% threshold); labor +93K revisions were UP not down, "31-mo" -> ~37-mo Information-sector, prof-biz openings "<1M" false, 2.2M removals = DHS-disputed not CBO (realized LF ~1.0M). **Meta-finding: the synthesis docs were CLEANER than their STATUS-file inputs** — most labor errors lived upstream in LABOR/CORAL/MARCO, the synthesis layer had already filtered them.
+
+**Decisions / next:** Tier 3/4 (macro/regime — HY/CCC, the 10Y 6/30 re-pull for path (b), bank prices) deliberately NOT run; those are live-pull-at-trade levels (rule #4), not static baselines. The 3 route packets await LABOR/MARCO/CORAL next-boot processing. Housekeeping this session: MEMORY.md pruned 25.9->23.0KB (under the load cap, all 158 links preserved); HANDOFF rolled the 06-21 x3 / 06-22 / 06-25-morning entries to `archive/HANDOFF_2026Q2.md`.
+
+---

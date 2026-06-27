@@ -1,30 +1,32 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-26 LATE (Claude Code Prome — BRENT+HAWK session: energy adjudication then agent-architecture work, Will-directed "analysis then cleanup". WALTER live in a separate window throughout; coordination file-based via shared repo. Supersedes the earlier 6/26 evening signal-coordination SCRATCH.)
+**Last Updated:** 2026-06-26 LATE-NIGHT (Claude Code Prome — HAWK+RED spawn session → energy red-team routed to BRENT → **auto-push migration promoted off soak**. Supersedes the earlier 6/26 BRENT+HAWK SCRATCH.)
 
-## What happened this session (BRENT + HAWK arc)
-Will: "continue working on our network… work on BRENT and HAWK." Chose **both — analysis first, then cleanup.** Ran BRENT + HAWK as parallel sub-agent sessions (report-only/no-commit; Prome committed each dir sequentially via pathspec to dodge the index race with the live WALTER window), then iterated HAWK across 4 more rounds via its warm agentId.
+## What happened this session
+Fresh boot (5th respawn of 6/26; synced 0/0). Two threads, both closed:
 
-1. **★ Energy adjudication — the lone disconfirming signal (BRENT/002 Nuttall counter) RESOLVED.** Sub-$75 Brent is **STRUCTURAL, not a coiled spring.** Decisive new fact = today's **first-true-post-MOU CFTC COT** shows continued long-liquidation (NYMEX WTI MM still +82,872 net long, shedding −13,356/wk) = de-risking, NOT short-covering. Nuttall downgraded to "real tail, wrong base case" (physical IS tight — Cushing<20M, SPR 40-yr-low — but cracks COOLED off the spring peak + positioning half-washed). BRENT P(holds <$75, 1–2wk)=**0.63**. HAWK marks HOLD **B34/C44/D22** (6/20 Hormuz re-closure → Brent shrug = hardest decoupling test, passed; HAW-11 resolved FAILED). XLE $65C Sep-30 = **lapse-leaning hold** (kinetic-tail lottery only). **RED-FT-04 confirmed.** No new-capital trigger fired.
-2. **Both STATUS trimmed** — BRENT 242→202 (archived Jun17/20/22 narrative + refreshed the stale Jun-20/22 spine to Jun-26; re-graded BRT-21/26/12/16), HAWK 154→130 (archived pre-MOU narrative).
-3. **Both inboxes CLEAN** — HAWK empty; BRENT filed 2 strays (russian-crude already in STATUS; NEXUS pilot-review superseded).
-4. **Sibling architecture compare/contrast** — BRENT ahead on session-spine, HAWK ahead on domain machinery (opposite axes). → 3 HAWK upgrades:
-   - **Protocol port:** HAWK adopted BRENT's modern spine (SCRATCH-as-handoff [new file], symmetric BOOT/EXECUTE/CLOSEOUT w/ read→write pairings, mandatory NEXUS_BRIEF refresh + refreshed the 18d-stale brief, retired 3× LAST_COMPLETION). Domain sections preserved.
-   - **Cruft-sweep:** archived 8 stale artifacts (audit/, recon/+RECON_REPORT, dead INBOX.md, PREDICTIONS.tsv.bak, 3× _old TSVs) + removed 3 stray dirs; consolidated sources/ → domain/sources/.
-   - **Predictions-home reconciliation:** Will chose the **SAM thesis-bundle model**; HAWK moved workbook/PREDICTIONS.tsv → thesis/PREDICTIONS.tsv + new thesis/PREDICTIONS_ARCHIVE.md (#hawk-NN post-mortems) + SAM-style calibration preamble; repointed all refs (scripts confirmed predictions-free). Now matches BRENT + SAM.
+1. **Spawned HAWK + RED (teams-mode, parallel).**
+   - **HAWK** — the 2 closeout follow-ups from last session: PREDICTIONS.tsv tab glitches (HAW-10 9→10 cols, HAW-11 11→10 cols; delimiter-only, byte-identical content verified) + SOURCES.md refresh-not-retire (reference-index banner, BRENT oil-ownership handoff applied, Venezuela theater added, posture 🔴→🟠). 3 local commits. Clean deliver-before-idle.
+   - **RED** — adversarial red-team on the 6/26 energy structural-decoupling adjudication. **Verdict: survives PARTIALLY.** 0.63 ≈ fair as a 2-wk flat-price call; **over-claimed as a settled "STRUCTURAL" regime label** (RED marks ~0.55 on regime). Three thinned pillars: (a) the decisive COT print is graded 1/2 by BRENT's own Trigger #3 = same datum at two evidentiary standards; (b) the "decoupling test passed" was declaratory not kinetic; (c) the contango is `[EST]`/unverified, possibly backwardated. Bigger miss = tail under-sized (convex +$15–25 snap vs −$3–5 grind). Steelman intact: BRENT got the WTI venue-split right, demand-softness legs structural. Sharpest discriminator = **Fri Jul-3 CFTC COT (2nd-week test)**, backstop **Wed Jul-1 EIA WPSR Cushing + re-derive prompt spread.** RED committed to `AGENTS/RED/challenges/` + CHG-RED-041.
+
+2. **Routed RED's verdict → BRENT inbox SIG** (Will-approved cross-agent write): downgrade "STRUCTURAL settled"→"structural LEAN, unconfirmed", re-derive curve before citing contango. Timing aligns — BRENT naturally re-opens on its Jul-1/Jul-3 docket. File: `AGENTS/BRENT/inbox/2026-06-26_from-RED-via-PROME_structural-decoupling-redteam.md`.
+
+3. **★ Auto-push migration PROMOTED off soak (Will-approved FULL promotion).** Soak passed (clean ff pushes, zero tripwire). Flipped **Tier-1 canonical**: root `CLAUDE.md` Git Protocol, `PROME/GIT_COORDINATION.md` Push Discipline (+ YEYOU manual exception, de-OpenClaw), `feedback_defer_push_coordinate` memory (rewritten, **slug kept** — ~20 refs intact), `finding_push_train_pattern` (re-automated), MEMORY hooks. **Tier-3 swept RED + HAWK** (both active). 16 agents remain lazy-sweep; un-swept agents are safe (commit-local, ride next auto-push). Bookkeeping: AUTOPUSH_MIGRATION_PLAN + ACTIVE_DECISIONS → TIER_1_PROMOTED. Updated CLOSEOUT.md line 178 (stale PILOT/divergence note → resolved).
+
+4. **safe-push validated live** — ran `scripts/safe-push.sh` at Will's go: ff-pushed a **7-commit train** (HAWK ×3, RED ×1, BRENT SIG, migration, + a stray WALTER commit from its own window), exit 0, zero tripwire. The automated push-train works end-to-end.
 
 ## Repo state
-**Synced 0/0 with origin.** Everything committed + pushed (WALTER's mid-session pushes swept most; final HAWK-predictions commit `34637853` pushed via safe-push, clean ff). All commits pathspec-scoped to BRENT/HAWK/memory-mirror; WALTER's live files + WILL/trading-journal untouched throughout.
+**Clean, synced 0/0 to origin.** Everything committed + pushed via the new auto-push path. Only working-tree dirt = WILL/trading-journal (3 deletions + 2 JPGs) — Will's, untouched throughout.
 
-## Next planned work / open threads (not lost)
-- **2 HAWK follow-ups flagged (separate pass):** (a) pre-existing tab glitches in the live predictions TSV — HAW-10 row = 9 cols, HAW-11 = 11 cols (stray/missing tabs, predate the move, preserved verbatim); (b) root `SOURCES.md` = stale unreferenced watchlist → refresh-not-retire at HAWK's next closeout.
-- **Energy forward (BRENT's docket):** Wed Jul-1 EIA WPSR (Cushing sub-20M trajectory) · ~Jul-3 SPR 172M re-auth decision · Jul-8 STEO. Re-pull main ICE Brent COT (macromicro 403'd) to fully close the discriminator. Verify Hedgeye Japanese-drawdown figure. Discriminator stays: **does Brent hold <$75** (currently yes, day-2).
-- **Adversarial red-team on the structural-decoupling convergence** (declined) — the "COT mid-wash not a trend" counter is the cleanest check if Will wants the verdict hardened.
-- **Still pending from prior sessions:** OZK next session gated on broker book (Q2 ~Jul-16); SAM INFRA_AGENDA to scope; Tier-2/3 fleet-arch follow-ons; OpenClaw cutover remaining (A3/autopush Phase-5, Phase-9 runtime cut GATED on verified telegram-prome poller, roster refresh).
+## Next planned work / open threads
+- **Energy (BRENT's lane, next session):** BRENT processes the RED SIG on its Jul-1/Jul-3 docket — downgrade the label, re-derive the curve. Discriminators: **EIA WPSR Jul-1, SPR ~172M re-auth ~Jul-3, CFTC COT Jul-3 (2nd-week test), STEO Jul-8.**
+- **Auto-push lazy-sweep:** remaining 16 agent CLAUDE.md + Tier-2 closeouts (LIQUID/TERRY/YEYOU) flip when next active. YEYOU stays manual/branch.
+- **Still pending (prior):** OZK revival gated on broker book (Q2 ~Jul-16); SAM INFRA_AGENDA to scope; HEN-35 AI-capex convergence Mon transmission test (MU/SMH/SOX + VIX vs 23); bank-put reshape card fires only on HY>280 sustained / WAL Jul-16.
 
 ## Forward docket
-Mon MU/SMH/SOX (HEN-35 transmission) · VIX vs 23 · HY vs 280 · 10Y 6/30 · JOLTS 6/30 · NFP 7/2 · BRK-29 ~7/3 · **EIA 7/1 · SPR re-auth ~7/3 · OZK+WAL+CFG Jul-16** · STEO 7/8 · CPI 7/14 · late-Jul Q2 hyperscaler FCF + BDC marks ~7/25.
+Mon MU/SMH/SOX (HEN-35) · VIX vs 23 · HY vs 280 (auto-watched) · 10Y 6/30 · JOLTS 6/30 · NFP 7/2 · **EIA 7/1 · SPR re-auth ~7/3 · CFTC COT 7/3 (BRENT 2nd-week test) · OZK+WAL+CFG Jul-16** · STEO 7/8 · CPI 7/14 · late-Jul Q2 hyperscaler FCF + BDC marks ~7/25.
 
 ## Cautions
-- Position/broker truth = Will/FORGE, not these files. Refresh dashboard/FRED (venv: `source .venv/bin/activate`; plain shell lacks yfinance) before any level.
+- Position/broker truth = Will/FORGE, not these files. Refresh dashboard/FRED (venv) before any level.
 - Standing rule held: deploy only on a fired trigger, $500/card. Nothing fired this session.
-- HAWK was iterated heavily via warm agentId — if reused next session, confirm it's not a stale warm-park collision.
+- **New push reality:** auto-push at closeout is now canonical — `scripts/safe-push.sh` runs as the closeout tail. A non-ff abort = 2nd machine returned → flag Will, do NOT force.
+- HAWK + RED were spawned teams-mode this session — released at closeout (don't assume warm next session; re-spawn fresh).

@@ -1,7 +1,7 @@
 # TODAY.md — Friday June 26, 2026
-**Updated:** 2026-06-26 LATE (Claude Code Prome — 4 sessions today: AM hardening · PM 5-agent orchestration/fleet-arch · EVE signal-coordination · LATE BRENT+HAWK [energy adjudication + agent-architecture upgrade]. Synced 0/0.)
+**Updated:** 2026-06-26 LATE-NIGHT (Claude Code Prome — 5 sessions today: AM hardening · PM 5-agent orchestration/fleet-arch · EVE signal-coordination · LATE BRENT+HAWK · LATE-NIGHT HAWK+RED spawn + auto-push promotion. Synced 0/0.)
 
-**Objective:** Multi-session day, all maintenance/analysis — no new market position. **Latest:** energy decoupling adjudicated **STRUCTURAL** (BRENT/002 resolved); HAWK upgraded to BRENT/SAM conventions.
+**Objective:** Multi-session day, all maintenance/analysis — no new market position. **Latest:** RED red-team **DOWNGRADED** the energy decoupling from "STRUCTURAL settled" → "structural LEAN, unconfirmed" (pending Jul-1/Jul-3) and routed the fix to BRENT; **auto-push migration promoted off soak** (Tier-1 canonical + RED/HAWK swept).
 
 ---
 
@@ -11,7 +11,7 @@
 | Origin | Desktop Claude Code (Prome live surface). |
 | Git | **Synced 0/0 with origin** — all sessions pushed (WALTER swept most; final HAWK-predictions commit via safe-push). Only WILL/ + WALTER-live working-tree changes remain (theirs). |
 | Agents | LIQUID/SENTRY/TERRY **released** at closeout (not warm-parked). |
-| Push rule | 🔒 commit-local OK / push only on Will's window (today's window used). |
+| Push rule | ♻️ **AUTO-PUSH at closeout** via `scripts/safe-push.sh` (ff-gated, single-machine) — promoted off soak 6/26, now canonical. Non-ff abort = 2nd machine → flag Will. |
 
 ## Regime (one-line)
 Energy deflated; credit-bear **ARMED, pre-trigger**; **HY OAS 278 [6/25]** — grinding 271→276→278, now **2bp from the >280 X1-trigger** (NOT fired); bank-vs-PC divergence still MACRO. Independent confirmation gated on **HY>280 + wrapper-leading** (both unfired). **HY is now auto-watched between sessions** (`liquid-hy-watch` timer).
@@ -20,7 +20,7 @@ Energy deflated; credit-bear **ARMED, pre-trigger**; **HY OAS 278 [6/25]** — g
 **Deploy fresh capital ONLY on a fired trigger; $500/card max-loss.** No mechanical book-reshape. ([[feedback_deploy_on_trigger_not_calendar]])
 
 ## Prome-owned, done today
-Bank-put reshape proposal (shelved) · detection/action hardening cluster (config retune + live HY watch timer + chain_fetch + grade_print + fire-card template) · 3-way arch peer-review + fix round (LIQUID de-bloat/selftest/dedupe, TERRY MEMORY+CLOSEOUT) · HEARTBEAT reconcile · full closeout (SCRATCH/HANDOFF/STATUS/ACTIVE_DECISIONS/daily-log) · 9 commits pushed.
+Bank-put reshape proposal (shelved) · detection/action hardening cluster (config retune + live HY watch timer + chain_fetch + grade_print + fire-card template) · 3-way arch peer-review + fix round (LIQUID de-bloat/selftest/dedupe, TERRY MEMORY+CLOSEOUT) · HEARTBEAT reconcile · BRENT+HAWK energy adjudication + HAWK arch upgrade · **HAWK 2 follow-ups + RED energy red-team (spawned/delivered) · RED→BRENT SIG routed · auto-push migration promoted off soak (Tier-1 + RED/HAWK) + safe-push validated live (7-commit train).**
 
 ## Open decisions (Will)
 1. **Bank-put reshape card** — shelved, fires ONLY on HY>280 sustained / WAL Jul-16 print. Needs live broker book at fire-time. ($500/card.) [WAL date corrected Jul-30→Jul-16, 6/26]

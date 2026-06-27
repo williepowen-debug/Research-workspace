@@ -6,6 +6,18 @@
 
 ---
 
+## 2026-06-26 (LATE-NIGHT) — HAWK+RED spawn + energy red-team routed to BRENT + AUTO-PUSH promoted off soak (PUSHED, synced 0/0)
+
+**Status:** Fresh boot (5th respawn of 6/26). Will-directed: spawn HAWK (2 follow-ups) + RED (energy red-team), then promote RED/HAWK to the new auto-push system. Full narrative → SCRATCH + `memory/2026-06-26.md`.
+
+**What landed:** (1) **HAWK** — 2 follow-ups done (PREDICTIONS.tsv tab fix HAW-10/11 delimiter-only byte-identical; SOURCES.md refresh-not-retire). (2) **RED** — adversarial red-team on the energy structural-decoupling adjudication: **survives PARTIALLY** — 0.63 ≈ fair as a 2-wk price call, **over-claimed as a settled "STRUCTURAL" regime label** (~0.55 on regime); the decisive COT print is graded 1/2 by BRENT's own trigger (same datum, two evidentiary standards), the decoupling test was declaratory-not-kinetic, the contango is unverified. Steelman intact (WTI venue-split right). Sharpest discriminator = **Jul-3 COT 2nd-week test** + **Jul-1 Cushing/prompt-spread**. (3) **Routed RED→BRENT inbox SIG** (Will-approved): downgrade label + re-derive curve. (4) **★ AUTO-PUSH MIGRATION PROMOTED off soak (Will-approved full):** Tier-1 canonical flipped (root CLAUDE.md, GIT_COORDINATION, `feedback_defer_push_coordinate` rewritten w/ slug kept, `finding_push_train_pattern` re-automated, MEMORY hooks); **RED + HAWK swept**; 16 agents lazy-sweep; YEYOU stays manual. (5) **safe-push validated live** — ff-pushed a 7-commit train (incl. a stray WALTER commit), exit 0, zero tripwire.
+
+**Decisions Will made:** spawn both; route RED→BRENT via inbox SIG; **full promotion** (Tier-1 canonical + RED/HAWK) over the narrower options; run safe-push now.
+
+**The read:** maintenance + system-hardening session — **no market trigger fired, no capital deployed** (standing rule held). The energy thread is now a *lean, unconfirmed* structural read pending Jul-1/Jul-3 (RED correctly de-hardened the BRENT/HAWK "settled" framing). The manual push ceremony is retired fleet-canonical; auto-push at closeout is live.
+
+**Next / pending:** BRENT processes the RED SIG on its Jul-1/Jul-3 energy docket (downgrade + re-derive). Auto-push lazy-sweep continues per-agent as active. **Lesson → auto-memory:** `finding_same_datum_two_evidentiary_standards` (a thesis citing one datum as decisive in prose while its own trigger grades it partial = confidence outran evidence; trust the trigger rail).
+
 ## 2026-06-26 (LATE) — BRENT+HAWK: energy adjudication + agent-architecture upgrade (PUSHED, synced 0/0)
 
 **Status:** Will-directed "work on BRENT and HAWK… analysis then cleanup." WALTER live in a separate window throughout; coordination file-based via shared repo; all sub-agent work report-only/no-commit, Prome committed each dir sequentially (pathspec, zero index race). Full narrative → SCRATCH + `memory/2026-06-26.md` (LATE).
@@ -58,14 +70,4 @@
 
 **Next / pending:** Nothing pending on Prome's side — all auto-pushed. `AGENTS/WALTER/REGISTRY.tsv` modified-uncommitted = WALTER's (not Prome's). WILL/trading-journal: 3 deletions + 2 JPGs = Will's. Shelved (b)/(c) card fires only on HY>280 sustained or WAL Jul-16 print (corrected from Jul-30 on 6/26 — REGINALD catch) — $500/card. 10Y 6/30 re-pull scheduled. Auto-push fleet rollout (Tier 1+) after pilot soak.
 
-## 2026-06-26 — Verification pass (Tier-1 banks + Tier-2 labor): corrections applied + PUSHED
-
-**Status:** Ran the queued `VERIFICATION_PASS_2026-06-26` action-card as two verify->adversarial->propagate Workflows — `wzmprhwb2` (8 Tier-1 banks vs EDGAR 10-Q / FDIC Call Report) + `wzlhvzlcb` (5 Tier-2 labor groups vs FRED/BLS/CBO). ~24 load-bearing Q1'26 figures checked, each adversarially re-pulled. **PUSHED** — origin master `903e7f4b`, synced 0/0 (`d1cbbafe` corrections + `903e7f4b` route packets).
-
-**What landed:** 17 stamped `[CORRECTED/VERIFIED 06-26]` edits across the 3 synthesis docs + `PROME/proposals/2026-06-26_tier1-verification-results.md` (full scorecard). Tier-1: 11 ok / 9 delta / 5 conflict / 3 unverifiable. Tier-2: 8 ok / 5 delta / 3 conflict / 1 unverifiable. 3 upstream route packets placed in LABOR/MARCO/CORAL inboxes (next-boot SIGs).
-
-**The read:** **both theses SURVIVE.** (b) AOCI + (c) WAL stay the live Q2 exception; (a) consumer-source + labor stay 2027. Material catches (none move a path's odds): ALLY "released $224M" -> +$50M BUILD (growth-driven=collective, non-counting); ZION muni "$5.78B AFS" -> ~$869M (re-anchored on total AFS); WAL "$99M charge-off" -> outstanding CRE loan balance, appraisal-pending (not a realized loss); WAL 39bps = NON-GAAP adjusted (GAAP 1.45%); EGBN CRE 547% -> 295.1% (now below the 300% threshold); labor +93K revisions were UP not down, "31-mo" -> ~37-mo Information-sector, prof-biz openings "<1M" false, 2.2M removals = DHS-disputed not CBO (realized LF ~1.0M). **Meta-finding: the synthesis docs were CLEANER than their STATUS-file inputs** — most labor errors lived upstream in LABOR/CORAL/MARCO, the synthesis layer had already filtered them.
-
-**Decisions / next:** Tier 3/4 (macro/regime — HY/CCC, the 10Y 6/30 re-pull for path (b), bank prices) deliberately NOT run; those are live-pull-at-trade levels (rule #4), not static baselines. The 3 route packets await LABOR/MARCO/CORAL next-boot processing. Housekeeping this session: MEMORY.md pruned 25.9->23.0KB (under the load cap, all 158 links preserved); HANDOFF rolled the 06-21 x3 / 06-22 / 06-25-morning entries to `archive/HANDOFF_2026Q2.md`.
-
-*(Older entries archived to `PROME/archive/HANDOFF_2026Q2.md` — incl. 2026-06-25 front-half de-mask cluster.)*
+*(Older entries — incl. the 2026-06-26 Tier-1/Tier-2 verification pass and the 06-25 front-half de-mask cluster — archived to `PROME/archive/HANDOFF_2026Q2.md`.)*
