@@ -36,9 +36,16 @@ Apr 21 ceasefire-extend (HAW-06 FAILED) → May armed-pause + 14-pt MOU draft (n
 - **KB +7** (194-200). **BRENT** cross-read + outbox sync note; BRENT independently confirmed the re-closure (their THESIS v4.1, conf 0.82) — fleet converged.
 - **Commits e3f3a8cb / baf55b3c / 764fe4da — ALL LOCAL, UNPUSHED.** ⚠️ **PENDING PUSH (Will-coordinated).** Branch ahead 6 (HAWK 3 + BRENT + SAM); own-dir disjoint = clean merge.
 
-### NEXT SESSION (Monday Jun 22 — priority order)
-1. **🔴 MONDAY-OPEN DECOUPLING TEST** — Brent reprices the Jun-20 Hormuz re-closure: **spike = thesis BREAKS (toward D); shrug = HOLDS (toward C).** Read the open against B34/C44/D22. Defer price to BRENT; I read the geopolitical verdict.
-2. **HAW-11 resolves Jun 22** — Gulf energy-infra-hit window closes; EXPIRE-leaning (no hit Jun 13-20) but re-closure raises final-day tail-risk. Resolve at boot.
-3. **Hormuz** — did the re-closure stay declaratory (CENTCOM: traffic flows) or get enforced (mine/kinetic)? UKMTO/ship-tracking. Did the **Switzerland round convene** (HAW-12, targeting wk-Jun22)?
-4. **Lebanon** — hold-fire hold or break? Iran "second step" → kinetic (HAW-14 FAIL) or stays sub-kinetic?
-5. **Carry-over backlog:** THESIS.md rewrite (badly stale, v1.2 frozen Apr-20); HAWK CLAUDE.md Tier-2 (boot.py / docket/CATALYSTS.tsv / NEXUS_BRIEF write-back into SPAWN PROTOCOL); Kharg/US-strikes-on-Iranian-energy-infra channel still has no HAW-xx coverage.
+### LAST SESSION (Jun 26 Fri — PROME catch-up packet, backlog triage)
+- **🟢 DECOUPLING TEST RESOLVED = SHRUG (thesis HOLDS).** 6/20 Hormuz re-closure repriced to ZERO at Mon 6/22 open; Brent deflated $80.57→~$73.7 by 6/26 (−19%/mo, war premium drained). Hardest decoupling test of the war passed. Verdict written to STATUS Bottom Line + BRENT cross-row.
+- **Processed 9 WALTER signals** (6/21–26), ALL confirm C-Grind/decoupling, NONE re-mark. **Marks HOLD B34/C44/D22** (re-stamped 6/20→6/26). Convergence eased 23→22/50 (Hormuz 4→3, declaratory + transits rebounded-then-faded).
+- **4 INGESTED into STATUS B-ladder + KB-201..205:** 6622-011 (71-transit anchor, peak 35→fade 3), 6622-010 (OFAC license = NEW Regulatory sub-gate), 6621-010 (specs near-record SHORT = positioning asymmetry/coiled-spring channel), 6622-005 (SPR 340.3M = 40-yr low). 5 stamped confirms-in-place.
+- **HAW-11 RESOLVED FAILED** (no Gulf infra hit by 6/22 = kill-switch unfired = decoupling reinforced) — STATUS + PREDICTIONS.tsv. HAW-14 nudged back toward_confirm (no "second step" through 6/26).
+- **Reconciliation w/ BRENT (Nuttall coiled-spring):** my geopolitical read = STRUCTURAL drain (the lever Nuttall needs to re-arm just failed to move the tape); CONVERGE w/ coiled-spring only on POSITIONING (near-record-short = amplified re-escalation), not geopolitics. Price authority deferred to BRENT (discriminator: Brent holds <$75). D-tail (~20-25%) = Iran "second step" kinetic on Israel/US over Lebanon (HAW-14 fail).
+- **NOT COMMITTED** — left in working tree per packet (PROME committing HAWK dir sequentially alongside BRENT to avoid shared-index race). All changes scoped to AGENTS/HAWK/.
+
+### NEXT SESSION (priority order)
+1. **Structural-vs-coiled-spring watch:** does Brent hold <$75 (my structural read) or snap back (Nuttall, on tight physicals + short book)? Defer price to BRENT; I read the geopolitical re-arm catalysts (Lebanon kinetic / Hormuz enforcement).
+2. **Lebanon → HAW-14:** Israel ~20% S.Lebanon occupation = live fail-path; watch for Iran "second step" going kinetic. 6 days quiet = drift toward confirm.
+3. **HAW-12 (Switzerland round firm date by Jul 3); HAW-13 (harder Hormuz gate by Jul 4, toward_fail); HAW-10 (Bab-al-Mandab by Jul 1).**
+4. **Carry-over backlog:** THESIS.md rewrite (stale, v1.2 frozen Apr-20); HAWK CLAUDE.md Tier-2 (boot.py / NEXUS_BRIEF write-back); Kharg/US-strikes-on-Iranian-energy-infra channel still has no HAW-xx coverage.
