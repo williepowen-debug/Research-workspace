@@ -162,3 +162,4 @@
 - [Orchestration Mode-Split](feedback_orchestration_mode_split.md) — before spawning >1 agent, split fan-out (Workflow) from live (teams-mode); deliver-before-idle; go quiet while agents work — see ORCHESTRATION_PLAYBOOK
 - [Freshness Audit ≠ Caught Up](finding_freshness_audit_vs_caught_up.md) — mtime-fresh agent can still be behind on inbox backlog + a pending test in its own STATUS that already resolved; check both
 - [STATUS Spine Staleness Under Appended Top](finding_status_spine_staleness_under_appended_top.md) — append-on-top STATUS leaves a stale spine reading as current; the refresh half is the owner's lane, not PROME's
+- [Sibling Agent Protocol Drift](finding_sibling_agent_protocol_drift.md) — template-sibling agents drift on session-spine vs domain machinery (opposite directions); a sibling-diff catches what per-agent review misses
