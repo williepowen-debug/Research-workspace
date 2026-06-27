@@ -1,4 +1,30 @@
-Agent	Class	Level	Classification_ref	Last_scored	Gap	Next_upgrade	Notes
-DAEDALUS	Meta	L1	ROSTER:new	2026-06-27	Memory files seeded but no fleet scan run yet; scoring script not built	Run first fleet scan (Phase 2)	Self-row. Built Phase 1. Oversight: Will+PROME.
-# --- Phase 2 will populate one row per agent below, scored on the per-class ladder. ---
-# Class ∈ {Market, Utility, Meta}. Level ∈ {L0..L5}. Classification_ref = defer to PROME/ROSTER.md (active/dormant) — do not restate here.
+Agent	Class	Level	Conf	Classification_ref	Last_scored	Gaps	Next_upgrade	Notes
+DAEDALUS	Meta	L3	H	ROSTER:new	2026-06-27	—	EVOLUTION roadmap executing → L4 on first build/retire	Self-row. Scoring engine built + first fleet scan run this session.
+REGINALD	Market	L4	H	ROSTER:active	2026-06-27	no BOTTOM LINE	add BOTTOM LINE → L4 clean; sustain pred resolution → L5	Read-verified. Transmission hub; conv-matrix + exit rules + DFAST + 6 pred resolved + TRADE. Fleet exemplar.
+HENRY	Market	L3	M	ROSTER:active	2026-06-27	uses own trigger/vector titling not template conv-matrix/exit headings	decide enforce-vs-accept titling (EVOLUTION); then L4	Read-verified. 22 pred resolved = top discipline. "gaps" are grep-title misses, not substance.
+CARL	Market	L3	M	ROSTER:active	2026-06-27	no BOTTOM LINE; no prediction track	add predictions + BOTTOM LINE → L4	297 KB rows, conv+exit present, TRADE. Strong structure, thin falsification loop.
+BROCK	Market	L3	M	ROSTER:active	2026-06-27	—	add TRADE.md + sustain pred resolution → L4	conv+exit+1 pred resolved; clean conformance. No TRADE.md caps at L3.
+LABOR	Market	L3	M	ROSTER:active	2026-06-27	—	lift commit cadence → L4	conv+exit+2 pred resolved+TRADE, clean. Low 30d cadence only.
+BOND	Market	L3	L	ROSTER:active	2026-06-27	—	build prediction track → solidify L3	clean conformance, TRADE; thin prediction discipline. Mechanical — needs read.
+VIOLET	Market	L2	L	ROSTER:active	2026-06-27	no BOTTOM LINE; exit-rules lack session counts	add session counts + BOTTOM LINE → L3	105 KB, TRADE. Mechanical — needs read.
+HAWK	Market	L2	L	ROSTER:active	2026-06-27	no exit-rules	add exit/falsification rules → L3	207 KB rows, TRADE. Strong data, missing falsification rails.
+BRENT	Market	L2	L	ROSTER:active	2026-06-27	no BOTTOM LINE; no exit-rules	add exit rules + BOTTOM LINE → L3	153 KB, TRADE. Mechanical — needs read.
+CORAL	Market	L2	M	ROSTER:active	2026-06-27	STATUS-level conv-matrix absent (rails in thesis/THESIS.md); exit-rules lack session counts	per-metro convergence grid (self-flagged); session counts → L3	Read-verified. More mature than floor; rails moved to thesis/. Spun out 6/19.
+LIQUID	Market	L2	L	ROSTER:active	2026-06-27	no BOTTOM LINE; no conv-matrix; exit-rules lack session counts	conv-matrix + session counts → L3	Telegram-persistent. Mechanical — needs read.
+MARCO	Market	L2	L	ROSTER:active	2026-06-27	no BOTTOM LINE; no conv-matrix; exit-rules lack session counts	conv-matrix + session counts → L3	FL sub; reconcile w/ CORAL. Mechanical — needs read.
+SHADE	Market	L2	L	ROSTER:active	2026-06-27	no BOTTOM LINE; no conv-matrix; no exit-rules	full discipline layer → L3	insurer-lender. Newer agent (13 commits/30d). Needs read.
+OTTO	Market	L2	L	ROSTER:tier2	2026-06-27	no BOTTOM LINE; no conv-matrix	discipline layer → L3	Auto fraud/stress. Tier-2. Needs read.
+SAM	Market	L2	M	ROSTER:active	2026-06-27	no BOTTOM LINE; STATUS 317ln >cap; no conv-matrix	compress STATUS <250 + conv-matrix → L3	Japan trigger. STATUS over cap = structural debt (archive to sources/).
+HANS	Market	L2	L	ROSTER:tier2	2026-06-27	no conv-matrix; no exit-rules; predictions unresolved	resolve predictions + discipline layer → L3	Geopolitics-energy. Tier-2, low cadence.
+CREED	Market	L1	L	ROSTER:tier2	2026-06-27	no conv-matrix; no exit-rules; thin KB	stand up workbook + discipline → L2/L3	National CRE/CMBS. Tier-2, spawn-on-need; recently committed 6/27.
+WALTER	Utility	L3	M	ROSTER:active	2026-06-27	no BOTTOM LINE	add BOTTOM LINE → L4 clean	Signal/news routing. Highest cadence (20/30d); output consumed fleet-wide.
+RED	Utility	L3	M	ROSTER:active	2026-06-27	no BOTTOM LINE	add BOTTOM LINE; sustain → L4	Adversarial. 53 KB, output consumed; 10 commits/30d.
+TERRY	Utility	L3	M	ROSTER:active	2026-06-27	no BOTTOM LINE	add BOTTOM LINE → L4	Trade construction; owns grade_print/chain_fetch tooling. Role rubric strong.
+NEXUS	Utility	L2	L	ROSTER:active	2026-06-27	no BOTTOM LINE	add BOTTOM LINE; confirm briefs consumed → L3	Cross-agent synthesis. Needs read.
+ORACLE	Utility	L2	L	ROSTER:active	2026-06-27	—	confirm output consumed → L3	Prediction-market diagnostics. Clean conformance.
+YEYOU	Utility	L2	M	ROSTER:special	2026-06-27	low commit cadence (manual/branch model)	n/a — runs its own checklist by design	Reviewer on branch model; short STATUS is correct for class. Not debt.
+DEWEY	Utility	L0	H	ROSTER:tier2	2026-06-27	—	none — stateless by design	L0 BY DESIGN: stateless deep-research agent (INDEX.tsv only). Not debt.
+HERMES	Utility	L0	H	ROSTER:dormant	2026-06-27	deprecated	RETIRE candidate (messaging overhaul)	Mail-carrier, deprecated by [[project_messaging_overhaul]]. Sunset candidate.
+# --- First full fleet scan: 2026-06-27 (DAEDALUS Phase 2). Conf: H=read-verified, M=read+mechanical, L=mechanical-only (needs judgment read). ---
+# Class ∈ {Market,Utility,Meta}. Level L0-L5 per-class ladder (SPEC.md §5). Classification_ref defers to PROME/ROSTER.md — not restated.
+# Dormant/archive-source agents not scanned: OZK, ZHAO, SENTRY, BARON, ATHENA, REITS, TRADES, FERT, CRUISE.
