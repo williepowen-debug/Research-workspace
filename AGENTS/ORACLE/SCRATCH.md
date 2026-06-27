@@ -1,38 +1,42 @@
 # ORACLE — SCRATCH (canonical session handoff)
 
-**Session arc:** 2026-06-21 PM → 06-22 — first true boot (prior: revival 6/18). Pull live → caught Iran reversal → audited & **retracted** the headline divergences → built trajectory tracking → swept coverage 15→34 → hardened closeout. All committed + on origin.
-**Last updated:** 2026-06-22
+**Session arc:** 2026-06-27 (Sat) — routine boot. Synced (origin==HEAD), inbox empty, live pull (33 mkts), trajectory refresh, **roll-watch executed** (5 June markets resolve 6/30-7/1 → replacements located + added), workbook + cross-agent surface rewritten. Headline: the post-FOMC **hawkish overshoot is cooling, not a dovish pivot** — caught by the trajectory check.
+**Last updated:** 2026-06-27
 
-## CHANGES SINCE (what moved)
-- **Iran enrichment 62.5%→3.4%** in 3 days (deep $11.2M) — the enrichment-endgame *clause* priced out (framework MOU signed 6/17 stands); NOT war (WTI-$100 still 2.6%). HAWK/BRENT (6/20): armed-stalemate base, re-escalation tail *fattening* off the Jun-20 Hormuz re-closure.
-- **Fed hawkish turn now priced by the crowd:** hike-2026 **61.5% (+26.5/7d)**, no-cuts 80.8%. Confirms FOMC 6/17 dots.
-- **Recession crowd still 12%** and falling — but see audit: the fleet has converged *toward* this, not away.
+## CHANGES SINCE (what moved, 6/22 → 6/27)
+- **Fed hike-2026 51.5% (Δ7d −14)** — BUT `history` shows Δ30d **+21**: it spiked to a ~66% peak ~6/20 (post-FOMC dots) and retraced. My 6/22 reading (61.5%) was near that peak → the −14 is a *pullback within an uptrend*, not a reversal. No-cuts holds 79.5% (Δ30d +13). End-2026 4.0% bucket −12.8/7d → 3.75% modal. July-hike 18.1% (−6.6).
+- **June CPI modal "3.8%" 52.7% (Δ7d +12.2)** while 3.9%/4.0% buckets *fell* — crowd consolidating on a *contained* print (not more inflation). Resolves 7/15.
+- **Risk-on rotation:** best-asset → S&P 500 56% (Δ30d +21), Gold fading 26% (−6/7d), BTC 16.5%. NEH 83.5%. BTC-dip-$40K 30% (−6/1d).
+- **Iran/oil fully de-escalated in pricing:** enrichment-Jun30 1.4% (dead), WTI-$100 0.4%. Hormuz near-term disruption persists (normal-Jun30 3.5%, −7.3/1d) but year-end normalization expected (Dec 86.5%).
 
-## WHAT I DID
-1. Live pull; verified Iran reversal on direct pull → reframed STATUS to stalemate. (`3075b037`, `7ed49c95`)
-2. **Fleet-baseline audit (workflow):** RETRACTED the recession (−64pp) and bank divergences — they were **stale April strawmen**. No fleet file holds ~76%; RED net-bear 57% (6/13) is a regime *blend*, not GDP/NBER. HENRY soft-killed cyclical axis; REGINALD narrowed to idiosyncratic-WAL/CRE grind. Crowd & fleet have **converged on calm**. (`7ed49c95`)
-3. Built **`history`** capability — daily CLOB `prices-history` backfill → `HISTORY.tsv` (4659 rows), Δ30/90d + sparkline + ⚡spiky flag. (`9a77fa53`)
-4. Auto-memory `finding_divergence_requires_fresh_likeforlike_baseline`. (`adc88d60`)
-5. **LIQUID figure-check** delivered to `LIQUID/inbox/` (Will-authorized): their CME July-hike ~75% vs $15.3M Polymarket July-leg 23% — likely P(no-change) transposed. (`69facd88`)
-6. **Coverage sweep (workflow):** +13 markets across empty themes (Taiwan, China-GDP/Philippines, BOJ, US-invade-Iran, Hormuz-Dec, Russia-Ukraine, Iran-leadership, inflation>5%, Fed-funds-dist, unemployment-ladder, BTC-dip-$40K, risk-appetite). (`d4eaff9c`)
-7. **Fetcher fix:** `resolved` trusts `closed` over stale `endDate` (+`⏮stale-date` flag) — corrected my own boot-time mis-drop of the *live* unemployment market. (`d4eaff9c`)
-8. **+6 (Will a+b):** July catalysts (June CPI, Citi/BAC Q2 credit-provision swing rungs) + FL Cat-4/Cat-5 hurricane season-watch. Watchlist **15→34**. (`ab18bdc3`)
-9. **Closeout hardening:** added a symmetric BOOT/EXECUTE/CLOSEOUT protocol to CLAUDE.md (was implicit steps 5–7; matches VIOLET/BRENT); refreshed this SCRATCH + NEXUS_BRIEF.
+## WHAT I DID (this closeout)
+1. Live `pull --log` (33 mkts → ODDS_LOG) + `history --write` (HISTORY.tsv now 4,796 rows / 33 mkts).
+2. **Decoded the "(top)" event markets:** June-CPI (modal 3.8%), Fed-funds-dist (modal slid to 3.75%, 4.0% bucket −12.8/7d), best-asset (S&P leads). Resolved the CPI-vs-hike "paradox" — both point dovish-at-margin.
+3. **Trajectory check** reframed the Fed move from "reversal" → "overshoot cooling" (the −14/7d sat against a peak baseline).
+4. **Roll-watch executed** — located + added 6 replacement surfaces to `watchlist.tsv`: Iran-enrich Jul-31 + Dec-31 + **US-Iran-deal-2026 components event**; **WTI-July ladder event**; **Hormuz-Jul-15**; **which-banks-fail-by-EOY-2026 event**. (No July single-binary bank-failure market exists yet.)
+5. **Workbook:** KB-ORC-014/015/016/017 appended; KB-ORC-009 & 011 marked SUPERSEDED. VX.tsv refreshed to current (all rows 6/27, +new VX-ORC-08 Fed-hike).
+6. **STATUS + NEXUS_BRIEF** full rewrites (current state, alerts to top).
+7. **Outbox cleanup:** archived 3 stranded 6/18 files → `outbox/delivered/` (2 retracted/wrong: Iran-deescalation, recession-divergence; 1 satisfied: wire-into-fleet — ORACLE now in WALTER REGISTRY + PROME STATUS).
+8. **CLAUDE.md step 14** swapped "defer push" → "auto-push at closeout via safe-push.sh" (lazy-swept to the 6/26 single-machine policy).
+9. Auto-memory: `finding_delta_vs_own_prior_reading_local_extreme` (trajectory-context before calling a reversal).
 
 ## NEXT SESSION (priority order)
-1. **🟠 RED** — still owed a *current* fleet recession probability (GDP/NBER-comparable). The divergence math depends on it; carrying "RED 57% net-bear = regime blend, not recession-P."
-2. **Roll-watch (near-dated):** Jun 30 resolves — Iran enrichment, bank-failure, named-bank, June Hormuz; Jul 1 — both WTI rungs. Jul 14 — Citi/BAC Q2 provisions. Jul 15 — June CPI. Jul 29 — Fed-July-hike + BOJ-July. **Re-search July replacements before they resolve** (`pull` will flag ⏳ at ≤7d).
-3. **LIQUID** — await their verify on the July-hike figure-check (`LIQUID/inbox/ORACLE_2026-06-22_...`).
-4. **Kalshi** still unwired — VIX/vol + recession/Fed corroboration. Ask Will for creds.
-5. **Fleet-wiring:** 3 stranded `outbox/` signals from 6/18 still unpicked; ORACLE not in FLEET_SCAN/HEARTBEAT/dashboard (PROME action). WALTER REGISTRY row → ACTIVE.
+1. **🟡 RED** — still owed a *current* GDP/NBER-comparable fleet recession number (carried since 6/13). Divergence math depends on it.
+2. **Roll-watch / drop resolved:** after 6/30-7/1, comment out the resolved June rows in `watchlist.tsv` (Iran-Jun30, bank-failure-Jun30, named-bank-Jun30, Hormuz-Jun30, WTI-$100-Jun). Replacements already tracking. Re-search a July single-binary bank-failure market (none existed 6/27).
+3. **Fed dovish-tell watch:** if **no-cuts breaks <70%** that's the real dovish turn (vs the current overshoot-cooling). Hike re-break >66% = hawkish re-arm. → LIQUID/HENRY.
+4. **Energy red-team (HAWK+RED, spawned 6/26):** the new US-Iran-deal-components event + WTI-July ladder + Hormuz-Jul15 are their best crowd surfaces — surfaced in NEXUS_BRIEF FORWARD CATALYSTS. Feed actively if they pull me in.
+5. **Jul 14 Citi/BAC provisions, Jul 15 June-CPI:** crowd central estimate vs actual prints. Citi-prov is $210-liq — diagnostic only.
+6. **Kalshi** still unwired — VIX/vol + recession/Fed corroboration. Ask Will for creds.
 
 ## CARRY-FORWARD
-- **Push state:** all 7 session commits on origin (swept by a push train; `ahead=0`, latest `ab18bdc3`). **Nothing pending.**
-- **LIQUID inbox flag** left uncommitted in `LIQUID/inbox/` (LIQUID commits on pickup — not my dir).
-- Watchlist **34 markets**; `HISTORY.tsv` 4659 daily rows. `history --write` to refresh trajectory.
-- Two live markets carry stale endDates (China-GDP, unemployment ≥5%) — shown `⏮stale-date`, not RESOLVED. Don't roll them on the bogus date.
+- **Push state:** this closeout committed + auto-pushed via `scripts/safe-push.sh` (ff-gated, single-machine). If safe-push aborted non-ff (cross-machine), commits are local-only — flag Will, do NOT force.
+- **Watchlist now ~39 markets** (34 + 6 roll replacements − overlap); June rows still tracking through 6/30 resolution. `HISTORY.tsv` 4,796 daily rows.
+- **Stale-date markets** (China-GDP, unemployment ladder) shown ⏮ not RESOLVED — don't roll on the bogus endDate.
+- **Unemployment ladder top +8.6/1d** was a thin ($1.6K) single-print spike — discounted, not marked.
+- **LIQUID figure-check** closed-ish (picked up, no verify-back; market moved 23%→18%).
 
 ## OPEN HYPOTHESES
-- **The residual edge isn't a recession-prob gap** (crowd & fleet converged). It's whether HENRY's **dormant structural credit axis re-ignites before the crowd prices it** — watch for the first market move that front-runs it.
-- **South China Sea > Taiwan:** China-Philippines clash 16.5% prices *above* Taiwan-invasion 6.2% — the crowd's real near-term China flashpoint.
-- **Bank Q2 provisions repricing up into 7/14 earnings** (Citi >$2.9B 58%, +15.5/7d; BAC >$1.4B 37%, +12.5/7d) — a credit-deterioration tell; cross-check vs the actual reported provisions.
+- **The dovish turn hasn't started yet** — the Fed move is overshoot-correction (no-cuts still 80%). The real signal would be **no-cuts <70%**. Watch that line, not the noisier hike-2026 series.
+- **Residual edge = dormant structural credit axis** (HENRY) re-igniting before the crowd prices it — watch for the first market move that front-runs it (Citi/BAC provisions into 7/14 are the nearest candidate, but thin).
+- **South China Sea > Taiwan** still holds: China-Philippines clash 13.5% prices above Taiwan-invasion 5.5% — the crowd's near-term China flashpoint.
+- **Risk-on may be over-extended:** S&P best-asset +21/30d + NEH 83.5% = a lot of complacency to unwind if the dormant axis fires.

@@ -46,3 +46,15 @@ Hormuz traffic normal by Jun30	market	strait-of-hormuz-traffic-returns-to-normal
 # Florida hurricane season-watch (thin live depth, high lifetime vol — ≥3-day re-check, do not mark single prints)
 FL: Cat-4 hurricane by 2027	market	will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	T3	CORAL,MARCO
 FL: Cat-5 hurricane by 2027	market	will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	T3	CORAL,MARCO
+
+# ===== ADDED 2026-06-27 (roll-watch replacements — June markets resolve 6/30-7/1; these are the next-period surfaces) =====
+# Iran: roll the dead June binary into July-31 + Dec-31 + the richer deal-components event (best surface for the HAWK+RED energy red-team)
+Iran ends enrichment by Jul 31	market	iran-agrees-to-end-enrichment-of-uranium-by-july-31	T2	HAWK,BRENT
+Iran ends enrichment by Dec 31	market	iran-agrees-to-end-enrichment-of-uranium-by-december-31	T2	HAWK,BRENT
+US-Iran deal 2026 (components)	event	what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	T2	HAWK,BRENT
+# Oil: full July WTI ladder replaces the single $100 binary (thin total ~$3.5K — watch the ladder shape, not single rungs)
+WTI July ladder (HIGH)	event	what-price-will-wti-hit-in-july-2026	T2	BRENT,HAWK
+# Hormuz: near-term normalization re-clock (deep $4.5M) replaces the Jun-30 one
+Hormuz traffic normal by Jul 15	market	strait-of-hormuz-traffic-returns-to-normal-by-july-15	T2	HAWK,BRENT
+# Banks: year-end named-bank event replaces the Jun-30 named-bank event (BAC 7.4%, GS 2.5% top). NOTE: no July single-binary bank-failure market exists yet — keep re-searching.
+Which banks fail by EOY 2026	event	which-banks-will-fail-by-end-of-2026	T1	REGINALD
