@@ -277,3 +277,7 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-06-27T00:44:00Z	SIG-W-20260626-027	REGINALD	info	CC	PRIORITY	AGENTS/REGINALD/inbox/WALTER/SIG-W-20260626-027.md	written_not_delivered_pending_push	FL-bank demand-erosion leg
 2026-06-27T00:44:00Z	SIG-W-20260626-027	CARL	info	CC	PRIORITY	AGENTS/CARL/inbox/WALTER/SIG-W-20260626-027.md	written_not_delivered_pending_push	cost-of-living out-migration; K-shape
 2026-06-27T00:44:00Z	SIG-W-20260626-027	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260626-027.md	written_not_delivered_pending_push	cluster_mediating; BofA-internal unverifiable, rank!=magnitude
+2026-06-27T00:55:00Z	SIG-W-20260626-028	BROCK	action	CC	PRIORITY	AGENTS/BROCK/inbox/WALTER/SIG-W-20260626-028.md	written_not_delivered_pending_push	BCRED 5% cap binding first time; wave origin Jun3-4
+2026-06-27T00:55:00Z	SIG-W-20260626-028	SHADE	info	CC	PRIORITY	AGENTS/SHADE/inbox/WALTER/SIG-W-20260626-028.md	written_not_delivered_pending_push	Partners Group PC→PE spread; insurer-PE nexus
+2026-06-27T00:55:00Z	SIG-W-20260626-028	LIQUID	info	CC	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260626-028.md	written_not_delivered_pending_push	synchronized evergreen redemption pulse same week
+2026-06-27T00:55:00Z	SIG-W-20260626-028	RED	info	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260626-028.md	written_not_delivered_pending_push	cluster_mediating; gate-worked vs binding-first-time
