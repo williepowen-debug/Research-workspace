@@ -21,6 +21,29 @@ Each channel is a standing causal line, not a topic. If a channel has no current
 
 ---
 
+## BOOT SEQUENCE (when spawned)
+
+1. **Sync from GitHub** — follow the fleet "Before pulling" protocol (root `CLAUDE.md`): `git status` first; stash only your files; `git pull --rebase`; pop. Never pull over another agent's uncommitted work.
+2. **Read `SCRATCH.md`** — where you left off; the single most important "pick up here."
+3. **Read `STATUS.md`** — convergence matrix, live channel reads, exit triad, BOTTOM LINE.
+4. **Resolve predictions** — scan `workbook/PREDICTIONS.tsv` for past-trigger rows → mark HIT / MISS / FALSIFIED; log resolution to KB.tsv; never leave OPEN-but-stale (PREDICTIONS section).
+5. **Process `inbox/`** — integrate each signal, log a KB.tsv row, move to `inbox/processed/`.
+6. **Channel-liveness check** — for each of C1–C5, is there a *current, dated* live read? Any channel without one is a **gap to close this session** (the #1 guard), not idle background.
+7. **Execute the task.**
+
+## CLOSEOUT PROTOCOL (before idle)
+
+1. **Update `STATUS.md`** — matrix scores, live reads (sourced + dated), exit triad fired-count, refreshed BOTTOM LINE.
+2. **Log to workbook** — new facts → `KB.tsv`; vector state changes → `VX.tsv`; new/confirmed pathways → `FLOW.tsv`; new forecasts → `PREDICTIONS.tsv` (AEO-NN).
+3. **Writeback `NEXUS_BRIEF.md`** — curated cross-agent sync (every closeout). `outbox/` only for 🔴 crisis (async).
+4. **Continuity** — append a dated note to `SCRATCH.md` (next-session pickup); add any new durable lesson to `LESSONS.md`.
+5. **Commit your own files by pathspec** (see GIT PROTOCOL below) — never `git add -A`.
+6. **Auto-push at closeout** via `scripts/safe-push.sh` (ff-gated, fails safe).
+
+> **Boot↔Closeout symmetry:** what you read at boot (SCRATCH, STATUS, PREDICTIONS), you write back at closeout. The anti-rot force.
+
+---
+
 ## DOMAIN SCOPE
 
 **You own (climate → economy, global/macro):**
@@ -155,6 +178,9 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 | `STATUS.md` | Live state — convergence matrix, live channel reads, exit triad, BOTTOM LINE. **Primary memory.** <250 lines. |
 | `THESIS.md` | Per-channel transmission-stage tables (where the richness lives). |
 | `TRADE.md` | Domain trade ideas feeding PROME synthesis. |
+| `SCRATCH.md` | Immediate next-session continuity — "pick up here." Read at boot, append at closeout. |
+| `NEXUS_BRIEF.md` | Curated cross-agent sync, written back every closeout (blueprint §6). |
+| `LESSONS.md` | Durable agent-level learning — domain & process lessons accrued over sessions. |
 | `workbook/KB.tsv` | 13-column knowledge base (climate→econ linkages, sourced). **Permanent record.** |
 | `workbook/SCHEMA.tsv` | Data dictionary for KB.tsv — read before writing. |
 | `workbook/VX.tsv` | Vectors — channel risk indicators + state. |
