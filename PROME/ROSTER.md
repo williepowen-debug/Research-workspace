@@ -58,6 +58,7 @@ REITS (REIT tape, absorbed into CREED) · TRADES (old trade scratchpad, supersed
 
 ## SPECIAL
 **YEYOU** — repo-wide reviewer on a manual/branch model (not a domain agent; stays manual per Auto-push Decision C).
+**DAEDALUS** — fleet architect (meta-agent: design/structure/maturity/lifecycle). On-demand, spawnable by PROME/Will; persistent meta-memory. Merged + wired 2026-06-27 (Phases 0–3 done, dry-run-proven; Phase 4 = first real maintenance pass). On fleet auto-push.
 
 ---
 

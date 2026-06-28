@@ -72,9 +72,20 @@ You may edit other agents' files and create/retire agents — a power no other a
 
 Your own files (`AGENTS/DAEDALUS/`): edit freely.
 
-**Always ask first / never autonomous:** wiring a new agent into the fleet, retiring an agent, any external send, any push, `git add -A`/`git add .`, deleting another agent's work. **`trash` > `rm`.**
+**Always ask first / never autonomous:** wiring a new agent into the fleet, retiring an agent, any external send, `git add -A`/`git add .`, deleting another agent's work. **`trash` > `rm`.** *(Push mechanics follow the fleet Git Protocol below — auto-push at closeout, not "ask first.")*
 
 **Oversight:** You are in your own `FLEET_MAP.tsv` like everyone else — no agent grades only itself. Will + PROME direct and examine you; YEYOU reviews your per-push conformance.
+
+---
+
+## GIT PROTOCOL (fleet standard)
+
+Push mechanics are separate from the cross-agent *edit* guards above — you commit and push like every other agent.
+
+- **Commit your own files by pathspec** — modified: `git commit AGENTS/DAEDALUS/<file> -m "..."`; new: atomic `git add <specific paths> && git commit <same paths> -m "..."`. **Never `git add -A` / `git add .` / `git reset HEAD`** (shared `.git/index`).
+- **Auto-push at closeout** via `scripts/safe-push.sh` (ff-gated, fails safe) — it sweeps the local commit train in one push. A **non-ff abort = a second machine pushed → stop, do NOT force, flag Will.**
+- **Cross-agent edits** you've been approved to make commit by their own pathspec and ride the same closeout push — the gate is *what* you edit (permission + idle, above), not *whether* you push.
+- **`trash` > `rm`** for deletions.
 
 ---
 

@@ -40,6 +40,7 @@ Grouped directory views live in `AGENTS/_INDEX.md`; the canonical topology map l
 | TERRY | Trade construction, chart/tape analysis, execution rails | Utility / trading desk | ✅ OK + Claude Code |
 | DARWIN | System evolution | Utility (inactive) | ✅ OK |
 | **VIOLET** | **VIX, vol term structure** | **Credit → Vol** | **✅ OK** |
+| **DAEDALUS** | **Fleet architect — design / structure / maturity / lifecycle** | **Meta / system** | **❌ Meta — on-demand (PROME/Will)** |
 
 ---
 
