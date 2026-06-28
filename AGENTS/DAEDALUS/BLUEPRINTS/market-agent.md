@@ -6,6 +6,8 @@
 
 > Composed, not cloned. Each section is the fleet's best pattern for that job, attributed to its source agent. No single agent is the whole standard (PAT-011). Where winners conflicted, the reconciliation is noted in *italics*.
 
+> **Governing principle — FLOOR, NOT CEILING (PAT-015).** This blueprint defines a *required minimum interface*, never a cap on expression. Agents MUST expose the comparable handles below (5-pt score, session counts, BOTTOM LINE, sourced thresholds) so the fleet can be stacked — but are FREE to keep any richer local representation above that line. Never strip an agent's nuance to satisfy the standard. The handle is added *alongside* the rich version, never *instead of* it. If enforcing a section would delete valuable local context, the enforcement is wrong, not the agent.
+
 ---
 
 ## Section sources at a glance
@@ -32,12 +34,15 @@ Decompose the thesis into **independent causal channels** — not correlated ris
 
 ## 2. CONVERGENCE MATRIX (BOND / NEXUS) — the cross-agent backbone
 
-**Non-negotiable: the universal 5-point scale.** This is what lets PROME/NEXUS stack agents against each other. Losing it (HENRY's one weakness) breaks fleet comparability.
+**Required handle: a universal 5-point score, ADDED alongside (never replacing) your richer local representation.** The 5-pt is the comparable handle that lets PROME/NEXUS stack agents and know *where to look*; your local labels (HENRY's CRACKING/RE-ARMED, VIOLET's 45-pt, LIQUID's DORMANT→TRIGGERED states) carry *what it means* and stay canonical. The 5-pt is a lossy triage projection of the rich state — that loss is acceptable *because* it routes attention back to the nuance, it doesn't substitute for it.
 
-Required columns: `# | Vector | Score (1–5) | Status | Independence | Key Signal | Upgrade Trigger`
-- **Score 1–5** on the universal scale (5 🔴🔴 firing → 1 ⚪ dormant).
-- **Composite** stated as transparent arithmetic (BOND): e.g. `Total 42/70`. No hidden weighting.
-- **Independence column** (NEXUS): note shared antecedents — two vectors on the same root count once, not twice. Guards "1 root in 6 costumes."
+- **Keep your local scoring** at whatever granularity your domain needs. Do not flatten it.
+- **Add a `Score (1–5)`** column mapping that local state onto the universal scale (5 🔴🔴 firing → 1 ⚪ dormant) — the shared interface.
+- **Composite** as transparent arithmetic (BOND): e.g. `Total 42/70`. No hidden weighting.
+- **Independence column** (NEXUS): note shared antecedents — two vectors on the same root count once.
+- Required columns (interface minimum): `# | Vector | Score (1–5) | [your local state] | Independence | Key Signal | Upgrade Trigger`.
+
+*HENRY's one real gap was having NO comparable handle at all — not having rich local labels. The fix is to ADD the 5-pt, not remove the labels.*
 
 ## 3. THRESHOLDS (HENRY / LIQUID / BOND)
 
