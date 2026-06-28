@@ -6,7 +6,7 @@
 
 ---
 
-## 2026-06-27 (LATE PM, LAPTOP) — Telegram bot-token leak closed + PROME's own bot stood up (Will-directed; committed + pushed)
+## 2026-06-27 (LATE PM, LAPTOP) — Telegram leak fix + auto-memory trim + DAEDALUS onboarding (Will-directed; all committed + pushed, 0/0)
 
 **Machine note:** First **laptop** session — desktop fully closed out + off, laptop pulled fresh (0/0 clean). **Single-machine baton intact** (laptop = sole writer; auto-push stays valid). No protocol change — invariant is *one writer at a time from a fully-pushed origin*. Baton rule: a machine must be `0 ahead` before it goes dark; the next machine pulls first.
 
@@ -16,7 +16,9 @@
 
 **Open follow-ups:** (1) **desktop** needs `telegram-prome/.env` re-created with same token (per-machine, off-repo); (2) repo scrub of the now-DEAD literal in `dashboard/server.py`+`.bak`+`config/openclaw-multiagent.json5` = cosmetic, **WALTER's lane**; (3) Scout needs its own fresh feeds bot now; (4) 2nd secret `CLAWDBOT_GATEWAY_TOKEN` (systemd) separate/desktop/dead. **PROME go-live:** `TELEGRAM_STATE_DIR="$HOME/.claude/channels/telegram-prome" claude --channels plugin:telegram@claude-plugins-official`. *(HANDOFF now 6 entries — trim oldest next closeout.)*
 
-**The read:** pure security-hygiene session on the laptop — leak closed, PROME messaging channel created, no market trigger / no capital (standing rule held).
+**Also landed (same laptop session):** **(2) Auto-memory trim** (`d2a2d918`+`90332670`) — index 28.6KB→23.0KB (under limit, ~6% headroom): 176 hooks→≤50ch, +1 orphan re-added, −1 dead pruned, **0 merges** (all 22 adversarially rejected = corpus non-redundant); +2 auto-memories (`workflow-subagent-repo-sandbox`, `automem-hardlink-inplace-edit`). **(3) DAEDALUS onboarded** (`d13d34c6`; Will merged `aed753c5`) — new **meta-agent** (fleet architect), reviewed + methodology-verified (`maturity_scan.py` reproduces, accurate), git-aligned to fleet auto-push, wired into root `CLAUDE.md`/`ROSTER`(SPECIAL)/`AGENTS.md`, SPEC→APPROVED, inbox note. **PROME stance:** its maturity map = a hygiene-layer *input*, kept subordinate to analytical quality (don't let "L4" become the scoreboard); only agent with cross-agent edit power → **watch its first REAL pass.** **Next:** DAEDALUS Phase-4 BOTTOM-LINE batch (14 agents) needs Will approval + idle targets.
+
+**The read:** pure infra/maintenance laptop night — security leak closed, memory trimmed under limit, a new meta-agent reviewed + onboarded; no market trigger / no capital (standing rule held). Full detail → SCRATCH + `memory/2026-06-27.md`. *(HANDOFF now 7 entries — trim oldest next closeout.)*
 
 ## 2026-06-27 (Sat PM) — Network standardization (fleet audit → Lanes 1-3) + coverage-gap analysis → mandate extensions (closeout safe-push; 0-behind/3-ahead clean ff)
 

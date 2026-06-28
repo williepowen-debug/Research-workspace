@@ -1,10 +1,19 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-27 LATE PM — **LAPTOP session** (Claude Code Prome — Telegram bot-token leak closed + PROME's own bot stood up. The 6/27-PM block below stays as context.)
+**Last Updated:** 2026-06-27 LATE PM — **LAPTOP session closeout** (Claude Code Prome — 3 threads: Telegram leak fix · auto-memory trim · DAEDALUS onboarding. The 6/27-PM block below stays as historical context.)
 
-## ★ LATEST (laptop, late 6/27) — Telegram security fix
-**Machine switch:** First laptop session. Desktop fully closed out + off; laptop pulled fresh (0/0 clean). **Single-machine baton intact** — laptop = sole writer, auto-push valid. When switching back: the machine going dark must read `0 ahead` first (`git rev-list --count @{u}..HEAD`); the booting machine pulls first. Desktop-only automation (`liquid-hy-watch` timer, news-sweep cron) is paused while on laptop.
-**Done:** Resolved WALTER's flagged Telegram token leak. The leaked `***REMOVED***` token = **@Prome_research_bot** (legacy OpenClaw FEEDS bot — **not** the live channel; live = @WALTER_RESEARCH_BOT ***REMOVED***, off-repo, never leaked). Repo private. **Will rotated via BotFather → old token DEAD (401)**; new token → `~/.claude/channels/telegram-prome/.env` (off-repo, 600) + pre-seeded `access.json` → **PROME has its own bot now** (no pairing). Verified 0 repo matches (tree + history); same safe model as WALTER. **Supersedes 6/26 "KEEP/do-not-revoke."**
-**Open:** (1) desktop needs `telegram-prome/.env` re-created with same token (per-machine, off-repo); (2) dead-literal repo scrub in `dashboard/server.py`+`.bak`+`config/openclaw-multiagent.json5` = WALTER's lane (cosmetic, no history rewrite); (3) Scout needs own fresh bot; (4) `CLAWDBOT_GATEWAY_TOKEN` (systemd) separate/desktop/dead; (5) new token in this session's local transcript (low-risk). **PROME go-live:** `TELEGRAM_STATE_DIR="$HOME/.claude/channels/telegram-prome" claude --channels plugin:telegram@claude-plugins-official`.
+## ★ LATEST (laptop, late 6/27) — full arc: Telegram fix · memory trim · DAEDALUS onboard
+**Machine switch / baton:** First laptop session. Desktop fully closed out + off; laptop is **sole writer**. All work committed + pushed, **0/0 with origin**. Switching back: the machine going dark must read `0 ahead` first (`git rev-list --count @{u}..HEAD`); the booting machine pulls first. Desktop-only automation (`liquid-hy-watch` timer, news-sweep cron) **paused** while on laptop — re-check HY on desktop return. No market trigger, no capital (standing rule held) — pure infra/maintenance night.
+
+**1. Telegram leak fix (`d420f646`).** Leaked `***REMOVED***` = **@Prome_research_bot** (legacy OpenClaw FEEDS bot — NOT the live channel; live = @WALTER_RESEARCH_BOT `***REMOVED***`, off-repo, never leaked). Will rotated via BotFather → **old token DEAD (401)**; new token → `~/.claude/channels/telegram-prome/.env` (off-repo, 600, pre-seeded access) → **PROME has its own bot** (go-live: `TELEGRAM_STATE_DIR="$HOME/.claude/channels/telegram-prome" claude --channels plugin:telegram@claude-plugins-official`). Supersedes 6/26 "do-not-revoke." Detail → `memory/2026-06-27.md`.
+
+**2. Auto-memory trim (`d2a2d918`+`90332670`).** Index 28.6KB→23.0KB (under limit, ~6% headroom): 176 hooks cut to ≤50ch, +1 orphan re-added, −1 dead pruned; **0 merges** (all 22 adversarially rejected — corpus non-redundant). +2 auto-memories (`workflow-subagent-repo-sandbox`, `automem-hardlink-inplace-edit`).
+
+**3. DAEDALUS onboarding (`d13d34c6`; Will merged branch as `aed753c5`).** New **meta-agent** (fleet architect) reviewed + methodology-verified (`maturity_scan.py` reproduces read-only, accurate) + onboarded: git-aligned to fleet auto-push, wired into root `CLAUDE.md`/`ROSTER.md`(SPECIAL)/`AGENTS.md`, SPEC DRAFT→APPROVED, inbox note. **PROME stance:** treat its maturity map as an *input/hygiene layer*, kept subordinate to analytical quality/track-record — don't let "L4" become the scoreboard. Only agent with cross-agent edit power → **watch its first REAL (non-dry-run) pass.**
+
+**Open / next-session:**
+- **DAEDALUS Phase 4** = first real maintenance pass; obvious first job = its **Rec 1 BOTTOM-LINE batch** (14 agents missing it) — needs **Will approval + idle targets** before it edits live agents. Spawn DAEDALUS when Will wants it; it self-fixes its "13→14" map typo + refreshes STATUS on first boot (routed via inbox).
+- **Desktop return:** re-create `~/.claude/channels/telegram-prome/.env` with the same token (per-machine, off-repo). Dead-literal repo scrub (`dashboard/server.py`+`.bak`+`config/openclaw json5`) = WALTER's lane (cosmetic; no history rewrite). Scout build now needs its own fresh feeds bot.
+- **Memory:** ~6% headroom only — re-run the trim recipe (audit → ≤50ch hooks) if the boot warning re-fires.
 
 ---
 
