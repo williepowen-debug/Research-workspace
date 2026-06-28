@@ -1,5 +1,17 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-28 (Sun, LAPTOP) — boot recovery of a disrupted 6/28 WALTER routing session + recorded the FORGE position-truth decision (option a). The 6/27 blocks below stay as historical context.
+**Last Updated:** 2026-06-28 (Sun, LAPTOP) — **Iran RE-ESCALATION → 6PM ET oil decoupling test pre-registered (BRENT+HAWK)** + boot recovery + FORGE decision (a). The 6/27 blocks below stay as historical context.
+
+## ★★ 6/28 ~10:30 ET — IRAN RE-ESCALATION: 6PM CME oil test PRE-REGISTERED (BRENT+HAWK fan-out)
+**Confirmed kinetic re-escalation** (WALTER SIG-003): tanker struck exiting Hormuz ~6/25 → US strikes Iran 6/26+6/27 → Iran→US-Gulf-bases retaliation 6/28 (intercepted, no casualties) → Trump "complete the job." VERTICAL, not a land war. **Decoupling HELD at last print** (Brent $71.99 [6/26 Fri], FELL −4.34% as US struck). Regime rail flipped (HEARTBEAT + ACTIVE_DECISIONS: deflated→re-arming).
+
+**THE PRE-REGISTERED 6PM ET DECISION (grade the SUSTAIN, not the Sunday gap):**
+- **HOLDS** = Brent opens/stays **<$74** (WTI <$71) → thesis survives + *strengthens*; **no action**, XLE $65C Sep stub more lapse-leaning. BRENT ~0.45.
+- **AMBER** = **$74-76** → partial, not decisive; thin Sunday tape — **wait, don't chase.** BRENT ~0.30.
+- **CRACKS** = Brent **>$76**, OR a $74-76 gap that **SUSTAINS >$75 into Mon Asia→London cash (~6-12h)** → RED-FT-04 inverts → re-arm. BRENT ~0.25.
+  - **Re-arm (proposal, AFTER the sustain — not on the gap):** USO call spread 45-60 DTE, long ~5%/short ~12-15% OTM, debit **≤$500**; existing XLE $65C stub flips lapse→live hold. Will-approval required.
+- **Why base = HOLD (BRENT+HAWK converge):** tape already refused to reprice Fri; Iran retaliation = calibrated Jan-2020 Ain-al-Asad template (round-tripped 24-48h then); market reads Hormuz as *premium/fear, not barrels* (tanker+mines were in Fri's set, oil still fell). 2026≠2020 only if physical bites (2nd vessel struck / mine detonation on hull / P&I-insurer pull / transit collapse).
+- **HAWK scenarios:** B-Deal **20** (−14) / C-Grind **44** (0, BASE) / D-Reescalation **36** (+14). D capped mid-30s (face-saving form + un-repriced tape); 6PM oil = tie-breaker.
+- **Files (uncommitted, agent dirs):** `AGENTS/BRENT/PREREG_20260628_CME_reopen.md` · `AGENTS/HAWK/REMARK_20260628.md`. **Flags:** SIG-003 left unconsumed in BRENT+HAWK `inbox/WALTER/` (consume-move = git op, agents barred — PROME commit pass owes it); HAWK `HAW-14` threshold breached via off-path route → re-word at HAWK closeout.
 
 ## ★ 6/28 (Sun, LAPTOP) — boot recovery + FORGE position-truth decision (a)
 **Boot context:** the prior 6/28 WALTER routing session was disrupted mid-flight; recovered cleanly — **sync 0/0, nothing committed was lost.** Trace it left: muni `BOARD/SIG-W-20260628-001` written-but-uncommitted (WALTER owns); housing `SIG-W-20260628-002` never written (its DEWEY handoff still sits in `AGENTS/WALTER/inbox/DEWEY/`); registry/processed not updated. **WALTER is LIVE again now** (IRAN_WAR.md edited 10:07 ET + market-data CLI running) finishing its own routing → **hands-off**: do NOT commit its BOARD file, pull/stash, or edit `AGENTS/WALTER/`. Still on **laptop** (sole writer); desktop later today → `telegram-prome/.env` re-create + `liquid-hy-watch` re-check owed then.
