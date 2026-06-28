@@ -51,6 +51,8 @@ The audit's headline: **the cobbler's-children gap** — WALTER polices the netw
 
 **🟠 Consume callbacks owed (carried from 6/27 routing — 28+ dispatches await recipient consume, CC self-apply set):** see SESSION_LOG 6/27 rows. SIG-033/034 (HENRY/BROCK/SHADE/RED/CARL) · SIG-029→032 (HENRY/CORAL/CARL/REGINALD) · session-1/2 backlog.
 
+**🟠 FORGE (6/28, Will-directed):** dead trade-execution layer archived → `FORGE/_archive/` (recoverable; per-trade folders + ACTIVE_TRADES/JOURNAL/WATCHLIST/PROTOCOL/INBOX + snapshots/scratch + old thesis docs). KEPT: `tools/` + `STATUS`/`PORTFOLIO` (position-truth) + research corpora. **PROME owes the position-truth architecture decision** — signal sent (`AGENTS/PROME/inbox/SIG-WALTER-PROME-20260628-forge-position-truth-decision.md`): where structured positions live now that book=WILL/trading-journal photos + TERRY=trade-layer; root CLAUDE.md FORGE description now stale (PROME-owned).
+
 **🟠 Cross-agent / LIAISON (carried):** RED Turn 8 / REGINALD Turn 7 LIAISON (untouched since 6/6). CARL LIAISON DORMANT. BRENT CLOSED. EVENT_WINDOW CLOSED (1/3 Path B; BRENT-coordinated refresh owed — Brent <75 inverted the spike premise). 2 DEWEY prompts PENDING (REQ-003 muni / REQ-004 housing — Will runs; route on return).
 
 **🔴 Infra (carried):** 3 dark crons (news-sweep/filing-watch/SIGNALS — Scout-track). EIA `.env` machine-local (Cushing dark — now doctor-flagged via cushing_capability).
