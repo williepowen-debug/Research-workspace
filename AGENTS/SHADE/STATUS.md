@@ -131,6 +131,24 @@ Phase 3 found no post-March resolution. **[6/21]:** the formal-review **briefing
 
 ## 3. Signal dashboard
 
+**Convergence index (5-pt stackable handle — added 2026-06-28 per DAEDALUS BATCH_01; maps the detailed dashboard below for NEXUS/PROME).** Scale: 5 🔴🔴 firing → 4 🔴 → 3 🟠 → 2 🟡 → 1 ⚪/🟢 dormant. Independence = shared-antecedent flag (count a shared root once). *Handle only — the detailed dashboard remains canonical.*
+
+| # | Vector | Score | Independence (shared-antecedent) |
+|---|---|---:|---|
+| 1 | Insurer asset-transfer / affiliated exposure | 4 | Independent (transfer mechanism) |
+| 2 | AMAPS / rated structured wrappers | 4 | Independent (capital-wrapper mechanism) |
+| 3 | Funding fragility: FABN/FHLB | 3 | Independent (funding mechanism) |
+| 4 | Regulatory capital: NAIC/AG55/SVO | 2 | Independent (net relief this window) |
+| 5 | Ratings / valuation machinery | 3 | Independent (Egan-Jones 8/12 binary) |
+| 6 | BROCK stress translation | 4 | ⟂ DEPENDENCY (BROCK-owned); shares the ONE Q2 retail-redemption wave w/ #7,#8 — not a SHADE-independent root |
+| 7 | Insurer-lender double-jeopardy | 3 | ⟂ shares the Q2-wave antecedent w/ #6,#8 → count the wave ONCE |
+| 8 | Lee Robinson $1.8T insurer-short | 3 | ⟂ corroborates #7's mechanism — not an independent root |
+| 9 | System transmission | 2 | ⟂ DEPENDENCY (LIQUID/REGINALD/NEXUS-owned) — not a SHADE root |
+
+**Composite (SHADE-owned independent roots #1–5,7; #6/#8/#9 excluded as shared/dependency): 19/30** (4+4+3+2+3+3). Read: **elevated-but-latent** — weight concentrates in the asset-transfer / AMAPS wrapper mechanisms (the 4s); none firing (no 5).
+
+**Detailed dashboard (canonical):**
+
 | Vector | Status | Current read | Owner / source |
 |---|---:|---|---|
 | **Insurer asset-transfer / affiliated exposure** | 🔴 Watch | Related-party/affiliated transfer pattern remains the key SHADE risk, but current language must distinguish proven transactions from press narratives. Blue Owl/Kuvare needs statutory tie-out; Apollo/Athene emphasizes transparency and affiliated/originated asset control. | SHADE + BROCK |
@@ -235,3 +253,11 @@ Phase 3 found no post-March resolution. **[6/21]:** the formal-review **briefing
 4. Check AG55 attribution-analysis visibility and NAIC/SVO updates after Spring Meeting.
 5. Light-refresh Global Atlantic, Aspida, and Kuvare statutory filings only after Apollo/Athene audit is anchored.
 6. **PRE-REGISTERED LANE — next session, deploy-on-trigger (not calendar):** double-jeopardy entity+fund mapping. Trigger condition: wrapper-decoupling fires (wrapper basket leads managers down + HY >280) OR a new insurer-wrapper stress event (FABN >250bp, RBC breach, enforcement escalation). **[6/28 trigger proximity: HY 278 = 2bp from the >280 level leg, BUT the wrapper-led leg is NOT met (managers led down, wrappers flat = MACRO multiple-compression per NEXUS) → trigger UNFIRED, HOLD the dig. Re-arm watch: wrappers (ARCC/FSK/OBDC) START leading the basket down WHILE HY crosses 280.]** On trigger — execute in order: (a) Athene Iowa Q1-26 Schedule BA → confirm/deny ADS equity holding (NAIC statutory viewer); (b) ADS SEC credit-facility counterparty disclosure (8-K or credit-agreement exhibit in 10-Q); (c) Corebridge/F&G/Brighthouse Schedule BA for the 5 gated funds (prioritize by RBC-buffer fragility: F&G > Brighthouse > Corebridge); (d) cross-check with BROCK whether the 5 funds name insurer-lenders in their borrowings disclosures. Also: primary sourcing on Lee Robinson $1.8T insurer-short (what specific exposures, vehicles, timeline?). Standing rule: no dig absent a trigger. Dry powder.
+
+---
+
+## BOTTOM LINE
+
+Insurer-wrapper stress is **structural/latent, not breaching** — every threshold green/yellow, none crossed. The 6/22–26 alt-manager de-rate (APO ~$137.50→$121.64) was an AI-positioning unwind + macro multiple-compression (managers led down, wrappers flat), **NOT** credit-substance recognition — the wrapper-decoupling trigger is **UNFIRED** (HY 278 is 2bp from the >280 level leg, but the wrapper-led leg is not met). The real un-maskable M-08 test is forward: **monolines 7/15–22 → BDC Q2 marks 7/25–28**. Highest-value live thread = insurer-lender **double-jeopardy** (SHADE-canonical); the statutory entity+fund dig stays trigger-gated. Convergence composite **19/30 (elevated-but-latent)**.
+
+*(Updated every session; mirrors §0a "Net read". BOTTOM LINE handle added 2026-06-28 — DAEDALUS BATCH_01.)*
