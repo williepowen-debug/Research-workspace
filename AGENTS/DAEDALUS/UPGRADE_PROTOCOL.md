@@ -14,9 +14,19 @@
 - **Respects floor-not-ceiling (PAT-015):** each section is judged on its own — "does this section even apply to this agent?" — so we never force-fit a whole template.
 - **Concurrency-safe (PAT-004):** small idle-window edits, or one task-packet per section to a live agent.
 
+## Step 0 — COMPREHEND first (prerequisite for heavy agents)
+
+**You cannot section-task an agent you don't understand, and you can't hold a heavy agent in one context.** Before any upgrade work, build (or refresh) the agent's **Profile** — `profiles/<AGENT>.md` (template: `profiles/_TEMPLATE.md`). It maps the labyrinth: file anatomy, where the richness lives, how the agent expresses each dimension in its own words, and what not to touch.
+
+- **How to build one on a heavy agent:** fan-out readers over file-clusters (Mode-A), each returning a structured profile-slice → synthesize into one compressed, faithful Profile. (Same method as the best-practices harvest.)
+- **Then every section-task reads the relevant Profile slice**, not the raw heavy agent — the Profile is the durable understanding that makes section-by-section feasible at scale.
+- The Profile is compressed; when you actually *apply* a change, re-read the specific file (PAT-009: don't trust a summary for the edit).
+
+Flow per agent: **COMPREHEND (profile) → DECOMPOSE (upgrade card) → SECTION-TASKS.**
+
 ## The section-task lifecycle (7 steps)
 
-For one agent, one blueprint section:
+For one agent, one blueprint section (operating against the Profile from Step 0):
 
 1. **READ** — current state of that section in the agent, *including where its richness lives* (e.g. `thesis/THESIS.md`, `COVERAGE.md`). Don't grep STATUS only (PAT-009).
 2. **GRADE** — vs the blueprint section. Classify the gap: **missing handle** (cheap, additive) vs **missing substance** (real work) vs **conformant**.

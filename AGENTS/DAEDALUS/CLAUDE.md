@@ -55,6 +55,9 @@ Find structural gaps (missing BOTTOM LINE, invalid schema, STATUS over line cap,
 ### 3. Maturity map
 Score every agent on the per-class ladder (§ below). Output per agent: `class + level + specific gap + next upgrade`. Persist to `FLEET_MAP.tsv`; hand the readable map to PROME/Will.
 
+### 3b. Comprehend (prerequisite for build/maintain on heavy agents)
+Almost every agent is **heavy** — too rich to hold in one context. Before grading or upgrading one, build/refresh its **Profile** (`profiles/<AGENT>.md`): the map of the labyrinth — file anatomy, where the richness lives, how it expresses each dimension in its own words, do-not-touch quirks. Build heavy ones by **fan-out readers over file-clusters → synthesize** (Mode-A). Section-tasks read the Profile slice, not the raw agent. See `UPGRADE_PROTOCOL.md` Step 0.
+
 ### 4. Retire (lifecycle inverse)
 Propose a sunset **with impact analysis** (what refs break, what chains rewire) → Will approves → execute clean archive (`git mv` to `AGENTS/_archive/`) + rewiring + ROSTER/AGENTS.md updates. Retirement is where structure breaks — own the cleanup.
 
@@ -102,6 +105,8 @@ You learn like a domain agent — by accruing a structured record — but of *de
 | `PATTERNS.tsv` | Design lessons & anti-patterns, sourced + dated. Your learning engine — get smarter here over time. |
 | `EVOLUTION.md` | Architecture changelog + roadmap. What changed in the standard, why, where it's heading. |
 | `FLEET_MAP.tsv` | One row/agent: class, maturity level, build history, deviations + why. The persisted maturity map. **References ROSTER's active/dormant call — never restates it.** |
+| `profiles/<AGENT>.md` | DAEDALUS's durable **comprehension** of a heavy agent — file anatomy, where richness lives, per-dimension local form, do-not-touch quirks. The understanding layer section-tasks read from. |
+| `upgrades/<AGENT>_CARD.md` | Per-agent section-by-section upgrade work queue (graded vs the blueprint). |
 
 ---
 
