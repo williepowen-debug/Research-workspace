@@ -26,7 +26,7 @@
 
 | Item | State | Notes |
 |------|-------|-------|
-| `design/SIGNAL_REGISTRY_DRAFT_A.md` | 📋 Draft A | Architecture only — SQLite / superevent system deferred to v2. |
+| `design/history/SIGNAL_REGISTRY_DRAFT_A.md` | 📋 Draft A (archived) | Architecture only — SQLite / superevent system deferred to v2; archived to `design/history/` 2026-06-28. |
 | `queue/` directory | ❌ Not created | Deferred until MINIMIZE mode needed (no FLASH-batched scenarios to date). |
 | FORMAT_SPEC v0.8 | ✅ SHIPPED 2026-05-08 | 5 optional fields landed per JOINT_PROPOSAL §2a + §2d.5; Will-approved 2026-05-08; CARL+BRENT pre-cosigned via 5/5-5/6 LIAISON. Forward-only adoption; no retro-fit. v0.7 prose-tag interim discipline RETIRED. |
 | FORMAT_SPEC v0.9 | ✅ SHIPPED 2026-06-06 | `narrative_channel` field (Iran-cluster mandatory, 7-val) + INFLATION_TRANSMISSION cluster, per 5-decision-walkthrough closeout. **NOTE: this is NOT the `design/V0_9_STACK.md` candidate stack** — that `unanimity_state`/`event_anchored` set never shipped under the v0.9 label (see §1 V0_9_STACK row). |

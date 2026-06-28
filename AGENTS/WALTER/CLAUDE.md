@@ -179,7 +179,7 @@ You maintain:
 | `FORGE/tools/news-sweep/latest.md` | **Cron-driven news scanner output** — 15 Google News RSS thesis-specific queries, M-F 8:30 AM ET. NOT WALTER-owned; WALTER reads at boot (step 7c) for triage of items not yet in BOARD/kill_log. |
 | `FORGE/tools/filing-watch/latest.md` | **EDGAR filing radar output** — PROME MVP polls SEC submissions API for 10-K / 10-Q / 8-K / NT / Form 4 / SC 13D / SC 13G on watched companies. NOT WALTER-owned; WALTER reads at boot (step 7c). |
 | `SIGNALS/inbound.md` | **SENTRY-owned RSS/Atom feed scanner output** — EIA Today in Energy + SEC EDGAR getcurrent + more, GitHub Action twice daily 10:00 + 22:00 UTC. NOT WALTER-owned; WALTER reads at boot (step 7c) only. |
-| `design/SIGNAL_REGISTRY_DRAFT_A.md` | Signal registry architecture (v2 deferred) |
+| `design/history/SIGNAL_REGISTRY_DRAFT_A.md` | Signal registry architecture (v2 deferred — archived to `design/history/` 2026-06-28) |
 
 ---
 
