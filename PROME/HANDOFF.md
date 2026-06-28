@@ -6,6 +6,18 @@
 
 ---
 
+## 2026-06-27 (LATE PM, LAPTOP) — Telegram bot-token leak closed + PROME's own bot stood up (Will-directed; committed + pushed)
+
+**Machine note:** First **laptop** session — desktop fully closed out + off, laptop pulled fresh (0/0 clean). **Single-machine baton intact** (laptop = sole writer; auto-push stays valid). No protocol change — invariant is *one writer at a time from a fully-pushed origin*. Baton rule: a machine must be `0 ahead` before it goes dark; the next machine pulls first.
+
+**What landed:** Resolved the Telegram bot-token leak WALTER flagged (6/27 self-audit). **Ground truth (`getMe`):** the committed `***REMOVED***` token = **@Prome_research_bot**, a legacy OpenClaw **feeds** bot — **NOT** the live channel (live = **@WALTER_RESEARCH_BOT ***REMOVED*****, token off-repo, never leaked). Repo private → contained but real. **Will rotated via BotFather → old token DEAD (401)**; leak neutralized in history + working-tree at once (those copies are now worthless strings). New token → `~/.claude/channels/telegram-prome/.env` (off-repo, perms 600), `access.json` pre-seeded (no pairing) → **PROME now has its own bot** (fills the "no telegram-prome channel" gap). Verified: new token **0 matches** in repo tree + history; same safe model as WALTER.
+
+**Decision (Will):** rotate + repurpose @Prome_research_bot as PROME's live bot — **supersedes the 6/26 "KEEP, do-NOT-revoke"** (WALTER cutover plan + PROME inbox SIG).
+
+**Open follow-ups:** (1) **desktop** needs `telegram-prome/.env` re-created with same token (per-machine, off-repo); (2) repo scrub of the now-DEAD literal in `dashboard/server.py`+`.bak`+`config/openclaw-multiagent.json5` = cosmetic, **WALTER's lane**; (3) Scout needs its own fresh feeds bot now; (4) 2nd secret `CLAWDBOT_GATEWAY_TOKEN` (systemd) separate/desktop/dead. **PROME go-live:** `TELEGRAM_STATE_DIR="$HOME/.claude/channels/telegram-prome" claude --channels plugin:telegram@claude-plugins-official`. *(HANDOFF now 6 entries — trim oldest next closeout.)*
+
+**The read:** pure security-hygiene session on the laptop — leak closed, PROME messaging channel created, no market trigger / no capital (standing rule held).
+
 ## 2026-06-27 (Sat PM) — Network standardization (fleet audit → Lanes 1-3) + coverage-gap analysis → mandate extensions (closeout safe-push; 0-behind/3-ahead clean ff)
 
 **Status:** Will-directed "improve and fill out the network." Two read-only Workflows + execution. **NEXUS went live mid-session and began executing my Lane-3 SIG in real time** (validated the routing). All PROME commits pathspec; no market trigger, no capital (standing rule held). Full narrative → SCRATCH + `memory/2026-06-27.md` (PM).

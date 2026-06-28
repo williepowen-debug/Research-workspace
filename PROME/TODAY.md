@@ -1,5 +1,5 @@
 # TODAY.md — Saturday June 27, 2026
-**Updated:** 2026-06-27 PM (Claude Code Prome — Sat network day. AM: roster refresh + auto-push sweep. PM: **fleet protocol audit → Lanes 1+2+3** + **coverage-gap analysis → 3 mandate-extension SIGs**. Weekend; levels are 6/25 Fri-close orientation. NEXUS live PM (executing Lane-3); ORACLE/TERRY/WALTER live AM. Pushed via safe-push at closeout.)
+**Updated:** 2026-06-27 PM (Claude Code Prome — Sat network day. AM: roster refresh + auto-push sweep. PM: **fleet protocol audit → Lanes 1+2+3** + **coverage-gap analysis → 3 mandate-extension SIGs**. Weekend; levels are 6/25 Fri-close orientation. NEXUS live PM (executing Lane-3); ORACLE/TERRY/WALTER live AM. Pushed via safe-push at closeout.) **LATE PM (LAPTOP — machine switch, desktop off):** Telegram bot-token leak closed + PROME's own bot stood up.
 
 **Objective:** "Improve + fill out the network" day — no new market position. AM: roster + auto-push. PM: fleet protocol standardization (Lanes 1-3) + a coverage-gap analysis that verified the network is well-covered (no new agent) and routed funding-plumbing + secondary mandate extensions. **No trigger fired** (standing rule held).
 
@@ -22,6 +22,7 @@ Energy deflated; credit-bear **ARMED, pre-trigger**; **HY OAS 278 [6/25]** — 2
 ## Prome-owned, done today (6/27)
 **AM** — Auto-push migration sweep (8 agents + OZK rehab) · Roster refresh (→ root CLAUDE.md + `PROME/ROSTER.md`) · staleness audit · archive sweep.
 **PM** — **Fleet protocol audit** (20-agent Workflow) → **Lane 1** (7 agents swept to auto-push; corrected the over-counted "18/21" → real 17+2-holdouts) · **Lane 2** (`scripts/ledger_staleness.py` built + wired into 6 rotting agents; froze REGINALD's 4 orphan feeds) · **Lane 3** (hygiene SIGs → NEXUS/HENRY/BOND). **Coverage-gap analysis** (6-lens Workflow) → network verified well-covered, **no new agent**; routed 3 mandate-extension SIGs (LIQUID funding-plumbing + BOND MBS/FHLB+EU + HENRY semis). Docs in `PROME/cluster/`.
+**LATE PM (laptop — machine switch, desktop off)** — **Telegram security fix:** WALTER-flagged bot-token leak closed (Will rotated @Prome_research_bot via BotFather → old token dead/401); new token installed off-repo + PROME's own `telegram-prome` channel stood up (same safe model as WALTER, 0 repo matches). Supersedes 6/26 "do-not-revoke." Committed + pushed.
 
 ## Open decisions (Will)
 1. **Bank-put reshape card** — shelved; fires ONLY on HY>280 sustained / WAL Jul-16 print. Needs live broker book at fire-time. ($500/card.)

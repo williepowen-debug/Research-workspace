@@ -1,5 +1,12 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-27 PM v2 (Claude Code Prome — **network standardization + coverage-gap + a NEXUS reconciliation/confabulation catch**. Supersedes the 6/27-AM SCRATCH.)
+**Last Updated:** 2026-06-27 LATE PM — **LAPTOP session** (Claude Code Prome — Telegram bot-token leak closed + PROME's own bot stood up. The 6/27-PM block below stays as context.)
+
+## ★ LATEST (laptop, late 6/27) — Telegram security fix
+**Machine switch:** First laptop session. Desktop fully closed out + off; laptop pulled fresh (0/0 clean). **Single-machine baton intact** — laptop = sole writer, auto-push valid. When switching back: the machine going dark must read `0 ahead` first (`git rev-list --count @{u}..HEAD`); the booting machine pulls first. Desktop-only automation (`liquid-hy-watch` timer, news-sweep cron) is paused while on laptop.
+**Done:** Resolved WALTER's flagged Telegram token leak. The leaked `***REMOVED***` token = **@Prome_research_bot** (legacy OpenClaw FEEDS bot — **not** the live channel; live = @WALTER_RESEARCH_BOT ***REMOVED***, off-repo, never leaked). Repo private. **Will rotated via BotFather → old token DEAD (401)**; new token → `~/.claude/channels/telegram-prome/.env` (off-repo, 600) + pre-seeded `access.json` → **PROME has its own bot now** (no pairing). Verified 0 repo matches (tree + history); same safe model as WALTER. **Supersedes 6/26 "KEEP/do-not-revoke."**
+**Open:** (1) desktop needs `telegram-prome/.env` re-created with same token (per-machine, off-repo); (2) dead-literal repo scrub in `dashboard/server.py`+`.bak`+`config/openclaw-multiagent.json5` = WALTER's lane (cosmetic, no history rewrite); (3) Scout needs own fresh bot; (4) `CLAWDBOT_GATEWAY_TOKEN` (systemd) separate/desktop/dead; (5) new token in this session's local transcript (low-risk). **PROME go-live:** `TELEGRAM_STATE_DIR="$HOME/.claude/channels/telegram-prome" claude --channels plugin:telegram@claude-plugins-official`.
+
+---
 
 ## ★ POST-CLOSEOUT (same session, after the `086f03e7` Heavy closeout) — NEXUS live + HEARTBEAT relabel + confabulation catch
 Will booted NEXUS live; it did an 11-day re-anchor (6/16→6/27). Three follow-on threads, all committed + pushed:
