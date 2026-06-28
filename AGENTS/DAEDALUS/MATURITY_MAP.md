@@ -32,7 +32,7 @@
 
 ## Systemic findings (fleet-wide, not per-agent)
 
-**1. The "no BOTTOM LINE" epidemic — 13 agents.** The template *requires* every STATUS.md to end with a BOTTOM LINE; 13 don't (REGINALD, CARL, BRENT, CORAL, LIQUID, MARCO, SHADE, VIOLET, OTTO, SAM, WALTER, RED, TERRY, NEXUS). This is the single highest-value, lowest-effort fix in the fleet — and a textbook **batch changelist** (see Recommendation 1). It does NOT lower their level (it's a conformance gap, not a skeleton signal — see PAT-007), but it's exactly the kind of drift DAEDALUS exists to catch.
+**1. The "no BOTTOM LINE" epidemic — 14 agents.** The template *requires* every STATUS.md to end with a BOTTOM LINE; 14 don't (REGINALD, CARL, BRENT, CORAL, LIQUID, MARCO, SHADE, VIOLET, OTTO, SAM, WALTER, RED, TERRY, NEXUS). This is the single highest-value, lowest-effort fix in the fleet — and a textbook **batch changelist** (see Recommendation 1). It does NOT lower their level (it's a conformance gap, not a skeleton signal — see PAT-007), but it's exactly the kind of drift DAEDALUS exists to catch.
 
 **2. Exit rules without session counts — 5 agents.** CORAL, LIQUID, MARCO, VIOLET (+others) have exit rules but lack the required "N+ sessions" specificity. Falsification you can't time isn't falsification.
 
@@ -58,7 +58,7 @@ My lean: **(b) accept equivalents, but require a one-line pointer** in STATUS ("
 
 | # | Action | Effort | Value | First step |
 |---|---|---|---|---|
-| 1 | **Batch: add BOTTOM LINE to the 13** | Low | High | DAEDALUS drafts the 13 one-liners from each agent's current STATUS; you approve the batch; apply only to idle agents, task-packet the live ones |
+| 1 | **Batch: add BOTTOM LINE to the 14** | Low | High | DAEDALUS drafts the 14 one-liners from each agent's current STATUS; you approve the batch; apply only to idle agents, task-packet the live ones |
 | 2 | Batch: add session counts to the 5 exit-rule gaps | Low | Med | Draft proposed counts per agent for review |
 | 3 | SAM STATUS compression <250 | Low | Med | Task-packet SAM (it owns its content) |
 | 4 | Decide standards question (a)/(b) above | — | High | One-line ruling → record in EVOLUTION.md |

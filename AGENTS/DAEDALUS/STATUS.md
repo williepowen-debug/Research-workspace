@@ -22,7 +22,7 @@ DAEDALUS can now see the whole fleet. Phases 0–2 done: spec locked, skeleton +
 ## Headline from the scan
 
 - **1×L4** (REGINALD, exemplar) · **8×L3** · **12×L2** · HERMES = retire candidate · DEWEY L0-by-design.
-- **Systemic: 13 agents missing the required BOTTOM LINE** → top batch-fix candidate (Rec 1, needs Will approval + idle targets).
+- **Systemic: 14 agents missing the required BOTTOM LINE** → top batch-fix candidate (Rec 1, needs Will approval + idle targets).
 - **Standards decision pending for Will:** enforce section-titling vs. accept own-titled equivalents (HENRY case) — see MATURITY_MAP.md.
 
 ## Open / structural debt

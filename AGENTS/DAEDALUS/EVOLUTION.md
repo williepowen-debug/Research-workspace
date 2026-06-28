@@ -29,7 +29,7 @@ Newest first. Keep entries terse; archive build minutiae to `FLEET_MAP.tsv`.
 
 ### 2026-06-27 — Phase 2: maturity engine + first full fleet scan
 - **What:** Built `scripts/maturity_scan.py` (objective L0–L2 floor + structural flags) and ran the first full scan of 26 agents → `FLEET_MAP.tsv` + readable `MATURITY_MAP.md`.
-- **Findings:** REGINALD L4 (exemplar); 8×L3; 12×L2; HERMES retire-candidate; DEWEY L0-by-design. Systemic: **13 agents missing the required BOTTOM LINE** (batch-fixable); 5 with session-count-less exit rules; SAM over line cap.
+- **Findings:** REGINALD L4 (exemplar); 8×L3; 12×L2; HERMES retire-candidate; DEWEY L0-by-design. Systemic: **14 agents missing the required BOTTOM LINE** (batch-fixable); 5 with session-count-less exit rules; SAM over line cap.
 - **Self-dogfood:** the engine caught two bugs in its own scoring logic (PAT-007 missing-section≠skeleton; PAT-008 class-aware records) before they shipped — building the scorer hardened the ladder.
 - **Open standard decision for Will:** enforce template section-titling vs. accept own-titled equivalents (HENRY case). See `MATURITY_MAP.md`.
 
