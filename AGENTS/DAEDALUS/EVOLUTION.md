@@ -7,6 +7,13 @@ Newest first. Keep entries terse; archive build minutiae to `FLEET_MAP.tsv`.
 
 ## Changelog
 
+### 2026-06-28 — utility-agent blueprint built (DRAFT) + YEYOU resolved → utility; **variant set complete**
+- **What:** Authored `BLUEPRINTS/utility-agent.md` (🟡 DRAFT → PROME review before it supersedes the template / becomes the grading standard). **Led by the OUTPUT-CONSUMPTION CONTRACT** (produces / consumed-by / proof-of-consumption) per PROME framing — uniform coordination visibility across WALTER/NEXUS/RED/TERRY/ORACLE/YEYOU is the payoff; accurate grading is the byproduct. Thin shared floor + role-specific ceiling, with the **DARWIN lesson applied to its own rollout** (it grades, it does not mandate machinery to hit an L-number).
+- **Completes the variant set:** market + meta + **utility** — every class now has a standard. Closes the long-open roadmap item.
+- **Class call (PROME #3):** resolved YEYOU's double-bucket → **UTILITY** — read-only, flag-never-fix, produces consumed review verdicts (the per-push analogue of RED). New **PAT-027**: the meta-vs-utility discriminator is *mutation-authority*, not subject-matter. Fixed the stray YEYOU example in `meta-agent.md`.
+- **Deflation (PROME #4):** the "2×L4 → ≥9×L4" firming result is a **mislabel correction, not a capability gain** — the agents are exactly as capable as before; the map was wrong. The win is (a) not wasting effort firming already-mature agents and (b) consumable outputs — not the L-count. The map stays a hygiene input, never the scoreboard.
+- **Next:** PROME activates → supersede the utility half of `templates/CLAUDE_TEMPLATE.md`; then firm the utility cohort (NEXUS/RED/TERRY/YEYOU) against a real standard. (Sequenced ahead of the fleet-wide TRADE.md staleness sweep, per PROME.)
+
 ### 2026-06-28 — Firming pass begins: SHADE / BROCK / CREED read-verified (first false-negative caught)
 - **What:** First judgment-read firming batch — comprehend → grade vs `market-agent.md` → adversarial-verify, 3 agents (workflow `grade-shade-brock-creed`, 6 agents / 624k tok). Persisted `profiles/{SHADE,BROCK,CREED}.md` + `upgrades/{…}_CARD.md` + 3 re-scored FLEET_MAP rows.
 - **Maturity-map correction:** **BROCK L3 → L4** — the 6/27 mechanical scan carried a false-negative ("No TRADE.md caps at L3"; `trade/TRADE.md` exists, 275 ln, feeds a live position + signals flowing). SHADE L2 / CREED L1 *confirmed* but firmed Conf L→H / L→M with corrected notes (SHADE commit-count 13→28; CREED "thin KB" → frozen-legacy pull-forward).

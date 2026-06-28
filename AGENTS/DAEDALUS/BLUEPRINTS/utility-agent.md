@@ -1,0 +1,71 @@
+# BLUEPRINT — Utility-Agent
+
+**Owner:** DAEDALUS · **Status:** 🟡 DRAFT (built 2026-06-28) — routed to PROME for review **before** it supersedes the template or becomes the grading standard.
+**Assembled best-of-breed from** `BEST_PRACTICES.md` (the 2026-06-27 fleet harvest). Composed, not cloned.
+**Use for:** agents that produce a **service the fleet consumes**, not a market thesis — **WALTER, NEXUS, RED, TERRY, ORACLE, YEYOU.** Not market (owns a thesis → `market-agent.md`); not meta (authority to *change* the system's structure → `meta-agent.md`). *(Class discriminator at the bottom.)*
+
+> **Governing principle — THIN FLOOR + ROLE CEILING (PAT-015 + the DARWIN lesson, PAT-001).** This blueprint exists *because* forcing market machinery (KB/VX/convergence-matrix/TRADE.md) onto a non-market agent produces dead, never-filled files and kills it (DARWIN). So it is a **thin shared floor** every utility agent meets + a **role-specific ceiling** that varies by agent. It **GRADES; it does not MANDATE** — never bolt machinery onto RED/TERRY/ORACLE to hit an L-number. Edits off it stay *encode-existing-handles-only*.
+
+---
+
+## THE SPINE — the OUTPUT-CONSUMPTION CONTRACT (lead here, not the L-labels)
+
+A utility agent's whole reason to exist is an output other agents consume. The ONE thing this blueprint standardizes — **uniformly, across every utility agent** — so PROME and the fleet can see it *without spawning the agent*:
+
+**Every utility agent carries a CONTRACT block** (in `CLAUDE.md` or `STATUS.md`), three lines:
+- **PRODUCES** — the named artifact/service (a routing disposition + BOARD; a `NEXUS_BRIEF`; a steelman + honest odds; a trade construction; a probability read; a review verdict).
+- **CONSUMED BY** — which agents / Will, via which surface (the brief, an inbox, the board, the digest).
+- **PROOF OF CONSUMPTION** — evidence it was actually received & used: telemetry (WALTER's `produced ≠ received ≠ consumed`), a consumer citing it, a `board_log`/ledger row. **Absence of proof IS the gap.**
+
+This is the **L4 gate** *and* the payoff: uniform coordination visibility is the load-bearing knowledge for the coordinator. Accurate grading is a byproduct — lead with the contract, not the level.
+
+---
+
+## REQUIRED SECTIONS — the shared FLOOR (every utility agent)
+
+1. **Header + IDENTITY** — class (Utility), the role it owns, a "where it sits / no-overlap" table, the `File > verbal` rule.
+2. **THE CONTRACT** — produces / consumed-by / proof-of-consumption (above). *The defining handle.*
+3. **Role rubric** — the explicit, consistently-applied criteria for its function. *(L3 gate: "rubric applied consistently.")*
+4. **Structured record (logging)** — a valid, accruing, **class-aware** record of what it did (NOT KB/VX/FLOW). *(L2 floor, PAT-008.)*
+5. **Standing disciplines** — boot↔closeout symmetry + 3-col Δ-discipline (`metric · Δ signed pp · last-updated`) + the role's anti-bias rule.
+6. **Cross-agent routing** — standing route-matrix + `NEXUS_BRIEF` writeback + crisis-only outbox. *(Utility agents are defined by routing.)*
+7. **AUTHORITY & SAFETY** — *only if it has cross-fleet write power.* State the guards (permission + idle, batched) — **or** state the read-only boundary explicitly (YEYOU: *flag, never fix*).
+8. **BOTTOM LINE** — required; STATUS under the agent's line cap.
+
+### WHAT IT DOES NOT GET — the DARWIN guard
+**No convergence matrix · no TRADE.md · no thesis-predictions ledger.** Those are market constructs; forcing them produces dead files. The utility analogue of "predictions resolving" is a **role-calibration loop** (below), not a market ledger.
+
+---
+
+## ROLE-SPECIFIC CEILING (varies by agent — do NOT mandate across roles)
+
+The floor above is shared; the ceiling is per-role. Each agent's rubric, output, and calibration loop are its own:
+
+| Agent | Role | PRODUCES | Role rubric | Calibration loop |
+|---|---|---|---|---|
+| **WALTER** | signal/news routing | dispatch+kill dispositions + BOARD | KILL/DISPATCH rules; read full body before KILL (no-kill-on-lede) | `delivered_but_unconsumed` telemetry |
+| **NEXUS** | cross-agent synthesis | `NEXUS_BRIEF` | independence re-test; citation-vs-observation guard | brief vs peer-brief diff; mined-edges |
+| **RED** | adversarial review | strongest steelman → honest odds | lead with the strongest bull case, *then* odds | steelman / odds hit-rate |
+| **TERRY** | trade construction | trade structures + tooling (`grade_print`/`chain_fetch`) | construction rubric; live-chain marks | realized vs constructed |
+| **ORACLE** | prediction-market diagnostics | probability reads / `NEXUS_BRIEF` | crowd-signal weighting; thin-liquidity discipline | Brier scoreboard |
+| **YEYOU** | per-push conformance review | review verdicts/flags + finding ledger | the REVIEW_CHECKLIST; flag-never-fix; escalation budget | flag accuracy / false-positive rate |
+
+*The calibration column is the role's truth-loop — the utility analogue of a market predictions ledger. Build it to the role's cadence; never force a market shape.*
+
+---
+
+## CLASS DISCRIMINATOR (resolves meta-vs-utility — PAT-027)
+
+The subject being "the system" does **not** make an agent meta — WALTER and NEXUS act on the fleet too. The discriminator is **authority to change the system's structure:**
+- **Meta** (→ `meta-agent.md`): authority to *mutate* the system — build/edit/retire agents (DAEDALUS); orchestrate/task/prioritize (PROME).
+- **Utility** (→ here): produces a *consumed service/output*, **no structure-mutation authority.**
+
+**YEYOU → Utility** (resolved 2026-06-28): it produces review verdicts consumed by PROME (+ agents in Phase 2), is read-only ("flag, never fix; never the final word"), and holds no authority to change structure. It is the per-push analogue of RED (which is utility). *(YEYOU's own "meta-agent exemptions" note means "non-market exemptions" — they apply to every utility agent.)*
+
+---
+
+## MATURITY CEILING (per `SPEC.md §5`)
+**L3** role rubric applied consistently · **L4** output consumed by others (the CONTRACT proven) · **L5** clean closeouts, zero YEYOU flags, current. Floor L0–L2 universal (skeleton → live STATUS+BOTTOM LINE → accruing structured record).
+
+## SOURCING (best-of-breed)
+WALTER (delivery infra + telemetry, exemplar) · NEXUS (synthesis disciplines + independence) · RED (adversarial structure) · YEYOU (severity scale + escalation budget + ledger) · ORACLE (boot↔closeout + calibration). No single agent is the whole standard.

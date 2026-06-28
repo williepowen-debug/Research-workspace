@@ -1,7 +1,7 @@
 # BLUEPRINT — Meta-Agent
 
 **Owner:** DAEDALUS · **First worked example:** DAEDALUS itself (extracted 2026-06-27)
-**Use for:** agents that act on the *system* (other agents, tooling, structure) rather than markets — e.g. DAEDALUS, YEYOU, DARWIN(archived). NOT for domain or trade agents.
+**Use for:** agents with **authority to *change* the system's structure** (build/edit/retire agents; orchestrate/task/prioritize) rather than markets — e.g. DAEDALUS, PROME. NOT domain/trade agents, and **NOT review/synthesis *services*** (YEYOU/NEXUS/RED produce a consumed output with no structure-mutation authority → `utility-agent.md`). The discriminator is mutation-authority, not subject-matter (PAT-027). *(DARWIN, archived, was an early meta attempt.)*
 
 > A meta-agent is a deliberate exception to the market template. It does NOT get KB/VX/FLOW, a convergence matrix, exit/falsification rules, or TRADE.md — those are market constructs and forcing them on a meta-agent produces dead, never-filled files (the DARWIN failure). It gets a *meta-shaped* memory instead.
 
