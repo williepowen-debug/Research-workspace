@@ -6,6 +6,22 @@
 
 ---
 
+## 2026-06-28 (Sun, LAPTOP) — Iran RE-ESCALATION + 6PM oil pre-registration · FORGE decision (a) · AEOLUS pulled (boot-recovery start; synced 0/0, pushed)
+
+**Boot context:** booted to a disrupted 6/28 WALTER routing session — recovered clean (nothing committed lost; only an untracked board signal + an inbox decision survived). WALTER then self-finished its own closeout live (muni 001 / housing 002 / Iran 003 committed+pushed).
+
+**What landed:** (1) **★ Iran RE-ESCALATION** (WALTER SIG-003, confirmed kinetic — 2-night US↔Iran air exchange + Iran→Gulf-bases retaliation + Hormuz tanker/~80 mines; VERTICAL not land-war; supersedes the 6/22 de-escalation). Decoupling **HELD at last print** (Brent $71.99 [6/26 Fri] fell as US struck). Spawned **BRENT+HAWK fan-out** → **pre-registered the ~6PM ET CME-reopen decision** (HOLDS<$74 / AMBER $74-76 / CRACKS >$76-or-sustain->$75 → re-arm USO ≤$500 AFTER the sustain; HAWK B20/C44/D36). Regime rail flipped deflated→re-arming (HEARTBEAT + ACTIVE_DECISIONS). (2) **FORGE position-truth = option (a)** (Will-approved): keep FORGE/STATUS structured surface + Will-as-refresher (not TERRY yet). (3) **AEOLUS pulled** — DAEDALUS's first real build (climate→economy agent, via the online app); reviewed = strong (fleet disciplines baked in, no red flags).
+
+**Decisions Will made:** FORGE option (a); spawn BRENT+HAWK fan-out; push the pre-reg to origin; close out.
+
+**Decisions needed from Will:** the **~6PM ET oil grade** (next session) — act only on a *sustained* >$75 crack, then I bring the USO proposal.
+
+**Risks/blockers:** **online/web Claude Code app is now a live 2nd writer** (DAEDALUS/AEOLUS pushed from it) — baton discipline: pull before committing; safe-push ff-aborts on divergence. Will switching laptop→desktop later today.
+
+**Next suggested work / carry-forward:** grade the 6PM open (SCRATCH = entry point); deferred root `CLAUDE.md` FORGE-ref sweep still owed; owner-lane — CORAL/MARCO process AEOLUS handshakes, CARL/CORAL the muni/housing deliverables. Full detail → SCRATCH + `memory/2026-06-28.md`.
+
+**Rules held:** no trade executed (pre-registration only; $500/card intact); pathspec commits; spawned agents scoped no-git (PROME committed their output on-behalf); re-verified sync before each commit (2nd-writer aware); shared root `CLAUDE.md` FORGE edit deferred (not auto-edited). *(HANDOFF trimmed toward latest-5; older 6/26 detail lives in `memory/2026-06-26.md`.)*
+
 ## 2026-06-27 (LATE PM, LAPTOP) — Telegram leak fix + auto-memory trim + DAEDALUS onboarding (Will-directed; all committed + pushed, 0/0)
 
 **Machine note:** First **laptop** session — desktop fully closed out + off, laptop pulled fresh (0/0 clean). **Single-machine baton intact** (laptop = sole writer; auto-push stays valid). No protocol change — invariant is *one writer at a time from a fully-pushed origin*. Baton rule: a machine must be `0 ahead` before it goes dark; the next machine pulls first.
@@ -69,17 +85,5 @@
 **Decisions Will made:** "both — analysis then cleanup"; chose the **SAM thesis-bundle model** for predictions (over the 16-agent workbook majority — better design); opened the push window.
 
 **Pending / next:** 2 HAWK follow-ups flagged (live-TSV tab glitches HAW-10/11; SOURCES.md refresh) — separate pass. Energy docket: EIA 7/1, SPR re-auth ~7/3, STEO 7/8; re-pull ICE Brent COT. Optional: adversarial red-team on the convergence. **3 lessons → auto-memory:** `finding_status_spine_staleness_under_appended_top`, `finding_sibling_agent_protocol_drift`, `finding_freshness_audit_vs_caught_up` (prior). **Method note:** a sibling-diff (compare two template-descended agents side-by-side) surfaces protocol drift a per-agent review misses.
-
-## 2026-06-26 (LATE PM) — Signal-coordination session: WALTER live (separate window) + Prome processing side (2 local-ahead at closeout)
-
-**Status:** Will spawned WALTER in a separate CC window to route his 6/26 Telegram stream (9 dispatches); Prome ran the processing side. Coordination **file-based via shared local repo** (live visibility by mtime-diff, no SendMessage). 3 dormant-inbox triages → WALTER's 9 signals through 5 owners ×2 rounds → fleet staleness audit → 2 catch-up packets. **All sub-agents report-only/no-commit → zero index race despite 2 live windows.** Full narrative → SCRATCH + `memory/2026-06-26.md` (LATE EVENING).
-
-**What landed:** (1) ZHAO/HANS/SAM backlog triaged (18 cleared, 5 LIVE; SAM `Ideas.docx` → `AGENTS/SAM/INFRA_AGENDA.md`). (2) WALTER 9-signal stream processed — **★ HEN-35 (AI/semi unwind) 30%→~52-55%** off KOSPI/Taiwan/hyperscaler-FCF = a fundamentally-grounded AI-capex correction transmitting equity→PC→public-credit; others confirm-no-move; ingest-notes committed to 5 owner inboxes. (3) Fleet audit → 2 packets: **OZK** (63d cold — position-state UNSAFE, Q2 ~Jul-16, broker-reconcile gated) + **HAWK** (not stale — backlog all-confirm, its pending decoupling test already resolved). Packets are intake-only.
-
-**The read:** **no trigger fired, no capital deployed** (standing rule held). HY 278, energy deflated. HEN-35 ~53% = a sharpened WATCH — **Mon transmission test: MU/SMH/SOX + VIX vs 23.** Convergence wants an adversarial red-team (declined tonight) before it hardens.
-
-**Decisions Will made:** approved the ZHAO/HANS/SAM + 5-owner spawns; approved writing the ingest-notes + both catch-up packets; called the session here.
-
-**Pending / next:** **2 packet commits local-ahead** → safe-push at closeout. Own-window threads (do-not-spawn): **BRENT/002 (lone disconfirming signal — top priority)**, SAM/CARL/RED (steelman backlog = the red-team). OZK next session gated on current broker book. SAM INFRA_AGENDA to scope. **Lesson:** mtime-freshness ≠ caught-up (`finding_freshness_audit_vs_caught_up`).
 
 *(Rolled off this closeout — full detail in `memory/2026-06-26.md`: **2026-06-26 (PM) HEAVY** (5-agent orchestration + fleet arch review → root CLAUDE.md pre-commit-check + Data-Hygiene section; PC gate cluster + insurer double-jeopardy; ORCHESTRATION_PLAYBOOK; OpenClaw cutover A+B) and **2026-06-26 standing-rule** (deploy-on-trigger $500/card; detection/action hardening — `liquid-hy-watch` timer + TERRY grade/chain tooling; AUTO-PUSH pilot). Older entries — incl. the 2026-06-26 Tier-1/2 verification pass and the 06-25 de-mask cluster — in `PROME/archive/HANDOFF_2026Q2.md`.)*

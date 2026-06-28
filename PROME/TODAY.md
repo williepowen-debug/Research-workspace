@@ -1,37 +1,36 @@
-# TODAY.md — Saturday June 27, 2026
-**Updated:** 2026-06-27 PM (Claude Code Prome — Sat network day. AM: roster refresh + auto-push sweep. PM: **fleet protocol audit → Lanes 1+2+3** + **coverage-gap analysis → 3 mandate-extension SIGs**. Weekend; levels are 6/25 Fri-close orientation. NEXUS live PM (executing Lane-3); ORACLE/TERRY/WALTER live AM. Pushed via safe-push at closeout.) **LATE PM (LAPTOP — machine switch, desktop off):** Telegram leak closed + PROME's own bot · auto-memory index trimmed 28.6→23.0KB · DAEDALUS meta-agent reviewed + onboarded.
+# TODAY.md — Sunday June 28, 2026
+**Updated:** 2026-06-28 (Sun, LAPTOP) closeout — **Iran RE-ESCALATION day.** Booted to a disrupted WALTER session (recovered clean); confirmed kinetic re-escalation (SIG-003) flipped the energy regime deflated→re-arming; spawned BRENT+HAWK → **pre-registered the ~6PM ET CME oil decoupling test.** Also: FORGE position-truth decision (a); AEOLUS (new climate→economy agent) pulled + reviewed. Synced 0/0, pushed. **No trade executed** (pre-registration only; standing rule held). Weekend — Brent $71.99 is 6/26 Fri-close.
 
-**Objective:** "Improve + fill out the network" day — no new market position. AM: roster + auto-push. PM: fleet protocol standardization (Lanes 1-3) + a coverage-gap analysis that verified the network is well-covered (no new agent) and routed funding-plumbing + secondary mandate extensions. **No trigger fired** (standing rule held).
+**Objective:** position for the ~6PM ET oil reopen (the day's live event) without front-running it — pre-register, then grade the *sustain*. Everything else (FORGE decision, AEOLUS review, boot recovery) was coordination.
 
 ---
+
+## ⏰ THE LIVE EVENT — ~6:00 PM ET CME oil reopen (grade next session)
+| If Brent... | Read | Action |
+|---|---|---|
+| **<$74** HOLDS (~45%) | decoupling survived; thesis *strengthens* | none (XLE $65C stub more lapse-leaning) |
+| **$74-76** AMBER (~30%) | partial, thin Sunday tape | **wait, don't chase** |
+| **>$76, or $74-76 sustaining >$75 into Mon London** CRACKS (~25%) | RED-FT-04 inverts | **re-arm** → USO call-spread ≤$500, to Will AFTER the sustain |
+
+**Grade the sustain, not the gap.** Leading tell (premium→barrels): 2nd vessel struck / mine detonation on a hull / P&I-insurer pull / transit collapse. Pre-reg detail: `AGENTS/BRENT/PREREG_20260628_CME_reopen.md` · `AGENTS/HAWK/REMARK_20260628.md`. HAWK scenarios B20/C44/D36 (was 34/44/22).
 
 ## Session Posture
 | Item | State |
 |---|---|
-| Origin | Desktop Claude Code (Prome live surface). |
-| Git | All PROME work committed + pushed via the train (ORACLE's mid-session safe-push + closeout safe-push). Only `WILL/` working-tree changes remain (Will's). |
-| Agents | ORACLE/TERRY/WALTER live in separate windows this session — self-managing; **not** warm-parked for next Prome. |
-| Push rule | ♻️ AUTO-PUSH at closeout via `scripts/safe-push.sh` (ff-gated, single-machine). Non-ff abort = 2nd machine → flag Will. |
+| Origin | Laptop Claude Code (sole writer); desktop later today. |
+| Git | Clean, synced 0/0, all pushed. **Online/web CC app is now a live 2nd writer** (AEOLUS pushed from it) — pull before committing; safe-push ff-aborts on divergence. |
+| Agents | BRENT+HAWK spawned (fan-out, delivered, idle). WALTER ran live earlier (self-closed). Not warm — spawn fresh next session. |
+| Push rule | AUTO-PUSH at closeout via `safe-push.sh` (ff-gated). Non-ff abort = 2nd writer → flag Will, don't force. |
 
-## Regime (one-line) — weekend, 6/25 Fri-close orientation
-Energy deflated; credit-bear **ARMED, pre-trigger**; **HY OAS 278 [6/25]** — 2bp from the >280 X1-trigger (NOT fired); bank-vs-PC divergence still MACRO. Independent confirmation gated on **HY>280 + wrapper-leading** (both unfired). HY auto-watched between sessions (`liquid-hy-watch`). **Refresh dashboard/FRED before citing any level as live.**
+## Regime (one-line) — weekend, 6/26 Fri-close orientation
+**Energy tail RE-ARMING** (Iran re-escalated 6/28, confirmed kinetic) — but **decoupling held at last print** (Brent $71.99 fell as US struck); the ~6PM open is the live test. Credit-bear **ARMED, pre-trigger**; HY 278 [6/25], 2bp from >280 (auto-watched). **Refresh dashboard/FRED before citing any level live.**
 
 ## Standing rule (Will 6/26)
-**Deploy fresh capital ONLY on a fired trigger; $500/card max-loss.** No mechanical book-reshape. ([[feedback_deploy_on_trigger_not_calendar]])
+Deploy fresh capital ONLY on a fired (sustained) trigger; $500/card max-loss. No mechanical book-reshape. ([[feedback_deploy_on_trigger_not_calendar]])
 
-## Prome-owned, done today (6/27)
-**AM** — Auto-push migration sweep (8 agents + OZK rehab) · Roster refresh (→ root CLAUDE.md + `PROME/ROSTER.md`) · staleness audit · archive sweep.
-**PM** — **Fleet protocol audit** (20-agent Workflow) → **Lane 1** (7 agents swept to auto-push; corrected the over-counted "18/21" → real 17+2-holdouts) · **Lane 2** (`scripts/ledger_staleness.py` built + wired into 6 rotting agents; froze REGINALD's 4 orphan feeds) · **Lane 3** (hygiene SIGs → NEXUS/HENRY/BOND). **Coverage-gap analysis** (6-lens Workflow) → network verified well-covered, **no new agent**; routed 3 mandate-extension SIGs (LIQUID funding-plumbing + BOND MBS/FHLB+EU + HENRY semis). Docs in `PROME/cluster/`.
-**LATE PM (laptop — machine switch, desktop off)** — **Telegram security fix:** WALTER-flagged bot-token leak closed (Will rotated @Prome_research_bot via BotFather → old token dead/401); new token installed off-repo + PROME's own `telegram-prome` channel stood up (same safe model as WALTER, 0 repo matches). Supersedes 6/26 "do-not-revoke." Committed + pushed.
-**LATE PM (laptop) cont.** — **Auto-memory trim:** index 28.6KB→23.0KB under limit (176 hooks→≤50ch via 3-workflow audit; +1 orphan, −1 dead prune; **0 merges survived adversarial verify**; +2 auto-memories). **DAEDALUS onboarding:** Will merged the new **meta-agent** (fleet architect); PROME reviewed + verified its `maturity_scan.py` (accurate) + git-aligned + roster-wired it (root `CLAUDE.md`/`ROSTER`/`AGENTS.md`). Phase-4 BOTTOM-LINE batch (14 agents) pending Will approval + idle targets.
-
-## Open decisions (Will)
-1. **Bank-put reshape card** — shelved; fires ONLY on HY>280 sustained / WAL Jul-16 print. Needs live broker book at fire-time. ($500/card.)
-2. **NEXUS refresh** — deferred (Will hold). *(New: `PREDICTIONS_MONITOR.md` = NEXUS's stale boot ledger, mislocated in PROME/ — flagged this session.)*
-
-## Watch next 24–72h
-0. **AI-capex-correction convergence** — HEN-35 (~52-55%). **Mon transmission test: MU/SMH/SOX open + VIX vs 23.** A WATCH, not a deploy.
-1. HY vs 280 (278 [6/25], 2bp — auto-watched). 2. Wrapper-basket (ARCC/FSK/OBDC) vs managers. 3. 10Y 6/30 re-pull. 4. JOLTS 6/30 · NFP 7/3. 5. **Energy: EIA 7/1 · SPR ~7/3 · CFTC COT 7/3** — BRENT processes the RED SIG (downgrade label + re-derive curve). 6. Jul bank prints (CFG/OZK/WAL Jul-16). 7. June CPI 7/14.
+## Watch next 24-72h
+0. **~6PM ET oil reopen** (above) — the live one.
+1. HY vs 280 (278 [6/25], auto-watched). 2. 10Y 6/30 · JOLTS 6/30. 3. EIA 7/1 · NFP 7/3 · CFTC COT 7/3. 4. Bank prints OZK/WAL/CFG Jul-16. 5. June CPI 7/14.
 
 ## Fresh-boot checklist
-1. Verify git (synced via train). 2. Check `AGENTS/LIQUID/alerts/HY_OAS_ALERTS.log` for any between-session HY transition. 3. Refresh dashboard/FRED before citing levels. 4. No agents warm — spawn fresh as needed.
+1. Verify git sync — **2nd writer live (online app); pull first.** 2. **Grade the 6PM oil open** if it's past ~6PM ET (SCRATCH = entry point). 3. Refresh dashboard/FRED before citing levels. 4. Deferred root `CLAUDE.md` FORGE-ref sweep still owed. 5. No agents warm — spawn fresh.
