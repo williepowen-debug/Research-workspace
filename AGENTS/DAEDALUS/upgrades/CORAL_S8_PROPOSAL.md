@@ -1,6 +1,6 @@
 # Section-Task Proposal — CORAL §8 (BOTTOM LINE)
 
-**By:** DAEDALUS · **Date:** 2026-06-27 · **Status:** 🟡 PROPOSED — awaiting Will approval. **NOTHING APPLIED to CORAL.**
+**By:** DAEDALUS · **Date:** 2026-06-27 · **Status:** 🟢 APPROVED (Will chose **option (a)** — add labeled `## BOTTOM LINE` at end, as drafted). **Apply pending idle-confirmation. NOTHING APPLIED to CORAL yet.**
 **Blueprint:** `market-agent.md` §8 · **Profile:** `profiles/CORAL.md` · **Card row:** §8
 
 ## Lifecycle checkpoint
