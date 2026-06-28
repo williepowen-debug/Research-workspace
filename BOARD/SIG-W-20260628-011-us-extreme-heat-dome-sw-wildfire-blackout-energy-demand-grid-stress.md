@@ -10,7 +10,7 @@ info: [HENRY, RED]
 
 signal_type: catalyst
 domain: CLIMATE_MACRO
-cluster: MISC
+cluster: CLIMATE_MACRO
 signal_role: thesis_support
 confidence: 0.65
 confidence_language: assessed
@@ -28,4 +28,4 @@ Two same-week US extreme-heat items, folded:
 ## Why this routes (AEOLUS — energy-demand + property/physical channels)
 - **The "heat-building" in your C3 energy-demand channel materializing:** a record eastern-US heat dome next week = a **cooling-demand / nat-gas power-burn / electricity-price** forward catalyst, plus SW **grid-stress + wildfire physical-risk** (utility-liability / insurance tail). This is the near-term firing of the energy-demand channel your 6/28 read had as "benign-now/heat-building."
 - **HENRY (info):** nat-gas (dashboard 3.91) / power / utilities demand spike potential. **RED (info):** counter — heat-dome forecasts are weather (days-out, can bust); "record" claims need the realized print. Don't price a forecast as an event.
-- **Cluster note:** filed MISC pending a possible CLIMATE_MACRO cluster (AEOLUS now generating climate signals — taxonomy gap flagged to Will).
+- **Cluster:** CLIMATE_MACRO (the new 12th cluster — CLUSTER_TAXONOMY v0.3 / FORMAT_SPEC v0.12 / ROUTING_TABLE v0.16, added Will-approved 2026-06-28 as AEOLUS's home; this signal seeded it).

@@ -10,7 +10,7 @@ info: [CORAL, RED]
 
 signal_type: context
 domain: CLIMATE_MACRO
-cluster: MISC
+cluster: CLIMATE_MACRO
 signal_role: thesis_support
 confidence: 0.70
 confidence_language: assessed

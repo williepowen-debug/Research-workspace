@@ -1,8 +1,8 @@
 # WALTER Cluster Taxonomy
 
-**Version:** v0.2 | **Date:** 2026-06-06 (CONSUMER_STAGFLATION split — INFLATION_TRANSMISSION carved out; AI_INFRA_CAPEX soft-cap raised to 15)
+**Version:** v0.3 | **Date:** 2026-06-28 (CLIMATE_MACRO added as the 12th cluster — home for AEOLUS climate→economy signals; Will sign-off 2026-06-28 Telegram. Propagates to FORMAT_SPEC v0.12 cluster enum + CLIMATE_MACRO domain code + ROUTING_TABLE v0.16 routing row + STATE §1.)
 
-**Prior:** v0.1 (2026-05-05) — 10-bucket taxonomy locked.
+**Prior:** v0.2 (2026-06-06) — CONSUMER_STAGFLATION split (INFLATION_TRANSMISSION carved out as 11th; AI_INFRA_CAPEX soft-cap raised to 15). v0.1 (2026-05-05) — 10-bucket taxonomy locked.
 
 **Purpose:** Canonical source for cluster names used to categorize dispatched signals in `/BOARD/INDEX.md`. Cluster names also appear (and previously drifted) in `STATUS.md`, signal bodies, and MEMORY.md `Findings`. This file is the single source of truth — other docs reference these names, never invent.
 
@@ -20,7 +20,7 @@ Sectioning the INDEX by cluster makes themes first-class. It also gives WALTER a
 
 ---
 
-## The 11 clusters (v0.2)
+## The 12 clusters (v0.3)
 
 Cluster names use `UPPER_SNAKE_CASE`, kept short for INDEX section headings.
 
@@ -37,6 +37,7 @@ Cluster names use `UPPER_SNAKE_CASE`, kept short for INDEX section headings.
 | 9 | **ASIA_CHINA** | China / HK / EM-Asia contagion — China trade-surplus dynamics, export controls, residential property collapse, peg fragility, JGB unwind, supply-chain coercion. | 3 | 414-010 (FT China Shock 2.0), 414-011 (export controls tripled), 428-001 (China FRED residential) |
 | 10 | **FED_FRAMEWORK** | Fed operating-framework regime shift / UST-foreign holder composition. Beckworth Mercatus / Apollo private-vs-CB / Fed-balance-sheet-reduction policy. | 2 | 426-001 (Beckworth framework), 426-010 (Apollo private-vs-CB) |
 | 11 | **INFLATION_TRANSMISSION** | Forward goods-CPI / supply-chain cost-push transmission — freight indices, port congestion, pump-pass-through, tariff front-loading, supply-chain disruption with 3-6 month CPI lag. *Distinct from CONSUMER_STAGFLATION (which is regime-stratification, tier-divergence) — INFLATION_TRANSMISSION is mechanism (cost-push pipeline). Carved out 2026-06-06 from CONSUMER_STAGFLATION as freight axis [SIG-W-20260604-012 CCFI +114%] introduced distinct cost-push mechanism. New cluster starts forward — pre-2026-06-06 CONSUMER_STAGFLATION signals grandfathered (see Maintenance rules).* | 1 | 604-012 (Hedgeye CCFI +114%) |
+| 12 | **CLIMATE_MACRO** | Macro climate→economy transmission — ENSO/El-Niño state, energy demand (heat-dome/cooling/power-burn), ag/food, insurance/reinsurance, property/physical risk, supply-chain/logistics (freight/water-levels), on a tiered weather→structural horizon. AEOLUS's home cluster. *Distinct from INFLATION_TRANSMISSION (cost-push pipeline) — CLIMATE_MACRO is the climate DRIVER upstream of multiple channels (energy/ag/insurance/supply-chain). FL-specific climate stays CORAL (reconcile FL numbers to AEOLUS's one ENSO figure, don't silo). Pure climate-science with no economic-transmission channel still KILLS (Relevance gate) — the discriminator is a concrete economic channel within the thesis horizon, not the word "climate." Created 2026-06-28 with AEOLUS's first routed signals; Will sign-off.* | 2 | 628-011 (US heat-dome+SW wildfire), 628-012 (El Niño record-strength) |
 
 **Total:** ~99 signals (matches BOARD count post-CCFI re-tag).
 
