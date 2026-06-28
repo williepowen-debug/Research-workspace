@@ -12,6 +12,7 @@ Newest first. Keep entries terse; archive build minutiae to `FLEET_MAP.tsv`.
 - **Design (Will-decided):** channels-first (insurance / ag-food / energy-demand core; property + supply-chain tier-2), tiered horizon (live weather over structural backdrop), CORAL keeps Florida.
 - **New patterns:** PAT-018 (bake the anti-drift guard into structure — empty-channel-is-failure — the operationalized DARWIN antidote); PAT-019 (new agent has no commit history → annotate ROSTER honestly, don't fake a cadence).
 - **Self-level:** L4 trigger met — first build executed clean. Spec: `builds/AEOLUS_SPEC.md`.
+- **Same-day amendment:** Will promoted both Tier-2 channels (C4 property, C5 supply-chain) to core → AEOLUS runs **5 core channels** (C1–C5). Built to full parity (transmission tables, thresholds, exit triad, matrix). Tradeoff noted: 5 channels = more live reads to keep current (PAT-018 upkeep), accepted for coverage of the climate→credit chain (C4) + tradeable freight events (C5).
 - **Next:** AEOLUS's first live data pass (its own job); utility-agent blueprint; bring `templates/CLAUDE_TEMPLATE.md` under BLUEPRINTS ownership (it still references deprecated HERMES).
 
 ### 2026-06-27 — Phase 3 (partial): market-agent gold-standard blueprint composed

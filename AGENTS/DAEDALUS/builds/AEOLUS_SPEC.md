@@ -38,7 +38,7 @@ Each channel is a standing `event → mechanism → repricing` transmission line
 | C4 | **Property / physical assets** | Chronic peril (SLR, wildfire, flood) → property values ↓ → mortgage/CRE/muni credit risk | CORAL, REGINALD, CREED |
 | C5 | **Supply chain / logistics** | Drought (Panama Canal), low rivers (Rhine/Mississippi), storms → freight disruption → goods inflation | MARCO |
 
-*Open for Will: confirm the core-3 selection and ordering, or swap a Tier-2 channel up.*
+*Resolved 2026-06-28: Will promoted BOTH C4 and C5 from Tier-2 to core — AEOLUS now runs **5 core channels** (C1–C5). No Tier-2 expansion queued. Files updated to full core parity (transmission tables, thresholds, exit triad, matrix rows).*
 
 ---
 

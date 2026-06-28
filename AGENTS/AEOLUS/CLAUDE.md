@@ -24,7 +24,7 @@ Each channel is a standing causal line, not a topic. If a channel has no current
 ## DOMAIN SCOPE
 
 **You own (climate → economy, global/macro):**
-- The transmission channels below (C1–C3 core; C4–C5 Tier-2 expansion).
+- The transmission channels below (C1–C5, all core as of 2026-06-28).
 - Tier-1 live weather signal (seasonal forecasts, ENSO state, storm/heat/freeze events, hurricane-season outlook).
 - Tier-2 structural-climate backdrop (insurance retreat, SLR, chronic drought, water stress, climate migration) — the slow thesis the live events test.
 
@@ -38,17 +38,17 @@ Each channel is a standing causal line, not a topic. If a channel has no current
 
 ---
 
-## THE CHANNELS (channels-first core)
+## THE CHANNELS (channels-first core — 5 channels)
 
-Each is `event → mechanism → repricing`, with a live read maintained in STATUS.md. THESIS.md holds the full per-channel transmission-stage tables.
+Each is `event → mechanism → repricing`, with a live read maintained in STATUS.md. THESIS.md holds the full per-channel transmission-stage tables. *(C4/C5 promoted from Tier-2 to core 2026-06-28 by Will — keep all five live; an empty channel is a gap, not idle.)*
 
 | # | Channel | event → mechanism → repricing | Tradeable surface | Routes to |
 |---|---|---|---|---|
 | **C1** | Insurance / reinsurance | cat losses → rate-on-line ↑ → primary insurer solvency + coastal insurability | reinsurers, P&C, coastal carriers | CORAL (FL), REGINALD (bank exposure) |
 | **C2** | Agriculture / food | drought·heat·flood → crop yield ↓ → grain & softs ↑ → food CPI + fertilizer demand | ag commodities, food producers, fertilizer | MARCO (CPI bridge) |
 | **C3** | Energy demand | heat dome → cooling/power demand ↑; polar vortex → heating demand ↑ (Uri-style nat-gas spike) | nat gas, power, utilities | BRENT, HAWK |
-| C4 *(Tier-2)* | Property / physical assets | chronic peril (SLR, wildfire, flood) → property values ↓ → mortgage/CRE/muni risk | regional banks, REITs, munis | CORAL, REGINALD, CREED |
-| C5 *(Tier-2)* | Supply chain / logistics | drought (Panama), low rivers (Rhine/Mississippi), storms → freight disruption → goods inflation | shipping, freight | MARCO |
+| **C4** | Property / physical assets | chronic peril (SLR, wildfire, flood) → insurability loss + property values ↓ → mortgage/CRE/muni credit risk | regional banks, REITs, munis | CORAL (FL), REGINALD, CREED |
+| **C5** | Supply chain / logistics | drought (Panama), low rivers (Rhine/Mississippi), storms → chokepoint/freight disruption → goods inflation | shipping, freight, goods-CPI | MARCO, HENRY |
 
 ---
 
@@ -87,6 +87,10 @@ Durable banded rules live here; the live read lives in STATUS with `[src M/D]` +
 | Reinsurance rate-on-line (Jan/Jun renewal) | +5% YoY | +15% | +25% | C1 → SHADE/REGINALD |
 | US crop condition (good/excellent %) | <55% | <45% | <35% | C2 → MARCO |
 | CDD/HDD vs 10-yr normal (region) | ±10% | ±20% | ±30% sustained | C3 → BRENT |
+| Property insurance non-renewal rate (peril region) | +10% YoY | +25% | +40% / carrier exit | C4 → CORAL/REGINALD/CREED |
+| NOAA billion-$ disaster count (YTD vs 10-yr avg) | ≥110% | ≥130% | ≥150% | C4 → REGINALD/CREED |
+| Panama Canal daily transits (vs ~36 normal) | ≤32 | ≤27 | ≤22 (draft-restricted) | C5 → MARCO |
+| Rhine/Mississippi level vs navigable minimum | within 20% | within 10% | below minimum | C5 → MARCO/HENRY |
 | ENSO ONI index | ±0.5 | ±1.0 | ±1.5 (strong) | all channels (shared antecedent) |
 
 *Conjunction triggers (LIQUID): fire on `A AND B` where a single metric would knee-jerk (e.g. strong La Niña AND <45% crop condition). Verify live values before any band call — no naked numbers.*
@@ -114,7 +118,8 @@ Weather resolves on a **fixed clock** (forecasts verify on schedule) — uniquel
 | FL hurricane/flood/insurance signal | CORAL | 🔴/🟠 |
 | Weather-driven nat-gas / power demand shock | BRENT (+ HAWK if geopolitical) | 🔴/🟠 |
 | Crop/drought → food-CPI signal | MARCO | 🟠 |
-| Coastal property → bank/CRE/muni exposure | REGINALD / CREED | 🟠 |
+| Coastal/peril property → bank/CRE/muni exposure | REGINALD / CREED (CORAL if FL) | 🟠 |
+| Chokepoint/freight disruption → goods-CPI | MARCO (+ HENRY macro) | 🟠 |
 | Cross-agent synthesis (every closeout) | NEXUS_BRIEF writeback | curated |
 
 Route to the **domain owner**, not the transmission-adjacent agent. Outbox = crisis-only (🔴 async); NEXUS_BRIEF = curated sync every closeout.

@@ -47,6 +47,36 @@
 **Tradeable surface:** nat gas, power, utilities. **Owner handoff:** energy pricing → BRENT; geopolitical energy → HAWK.
 **Bidirectional flip:** *bear-kill* = CDD/HDD within ±10% normal 4+ sessions; *bull-confirm* = ±30% sustained with low storage.
 
+## C4 — PROPERTY / PHYSICAL ASSETS
+
+**Line:** chronic peril (SLR, wildfire, flood, repeat hurricane) → insurability loss + property-value impairment → mortgage/CRE/muni collateral & credit risk → repricing of peril-exposed regional banks, REITs, munis.
+*Promoted Tier-2 → core 2026-06-28. The deepest systemic link — plugs climate into the operation's core credit chain.*
+
+| Stage | Mechanism | State (confirmed/open/falsified) |
+|---|---|---|
+| 1 | Peril trend/event (wildfire acreage, flood, SLR, repeat landfall) → physical-risk repricing of a region | open — unseeded |
+| 2 | Insurers raise rates / non-renew / exit → insurability gap | open (links to C1 stage 3) |
+| 3 | Uninsurable/underinsured property → value impairment + financing harder | open |
+| 4 | Collateral impairment → mortgage/CRE/muni credit risk → bank/REIT/muni repricing | open → REGINALD/CREED (CORAL if FL) |
+
+**Tradeable surface:** peril-exposed regional banks, REITs, munis. **Owner handoffs:** FL → CORAL; bank exposure → REGINALD; CRE/CMBS → CREED. **Links to C1** (insurability is the shared hinge — count the shared root once).
+**Bidirectional flip:** *bear-kill* = NOAA billion-$ disaster count <110% of 10-yr avg AND non-renewal rates stable for 2+ quarters; *bull-confirm* = accelerating non-renewals (+40% YoY / carrier exit) with measurable property-value declines in peril zones.
+
+## C5 — SUPPLY CHAIN / LOGISTICS
+
+**Line:** drought / low-water / storms → chokepoint capacity cut + freight disruption → shipping-rate spike + goods delays → goods-price pass-through → goods CPI.
+*Promoted Tier-2 → core 2026-06-28. Most event-driven/tradeable of the structural channels (Panama 2023–24 was a real repricing event).*
+
+| Stage | Mechanism | State |
+|---|---|---|
+| 1 | Hydrological/storm event (Panama drought, Rhine/Mississippi low water, port storm) | open — unseeded |
+| 2 | Chokepoint capacity cut (draft restrictions, transit caps) or route closure | open |
+| 3 | Freight rates spike + delivery delays | open |
+| 4 | Goods-price pass-through → goods CPI | open → MARCO (CPI bridge), HENRY (macro velocity) |
+
+**Tradeable surface:** shipping/freight names, goods-CPI-sensitive trades. **Owner handoffs:** goods-CPI → MARCO; macro pass-through → HENRY.
+**Bidirectional flip:** *bear-kill* = chokepoints at normal capacity (Panama ≥32 transits) AND freight index normalized for 3+ sessions; *bull-confirm* = sustained draft restrictions (≤22 transits) with a freight-rate spike.
+
 ---
 
 ## TIER-2 BACKDROP (structural, multi-year — slow thesis, tested by Tier-1 events)
@@ -59,8 +89,5 @@ EXPECTED_SIGNALS discipline: if the structural thesis holds, these should appear
 
 ---
 
-## TIER-2 EXPANSION CHANNELS (specced, not yet built)
-- **C4 Property / physical assets:** chronic peril → property values → mortgage/CRE/muni risk → CORAL/REGINALD/CREED.
-- **C5 Supply chain / logistics:** drought (Panama Canal), low rivers (Rhine/Mississippi), storms → freight disruption → goods inflation → MARCO.
-
-Promote C4/C5 to core only when a core channel goes durably dormant OR a Tier-2 line shows a live tradeable read (deliberate promotion — never drift).
+## CHANNEL ROSTER NOTE
+All five channels (C1–C5) are **core** as of 2026-06-28 (C4/C5 promoted from Tier-2 by Will). There are no Tier-2 expansion channels currently queued. Any *new* channel beyond C5 must be added deliberately — by an explicit promotion decision, never by drift (PAT-018). Candidate future lines if ever needed: tourism/coastal-recreation weather, water-utility stress, labor-productivity heat effects.
