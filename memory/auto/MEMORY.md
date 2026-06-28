@@ -175,3 +175,5 @@
 - [Series Reconstruction + Extension](finding_series_reconstruction_extension.md) — rebuild capped series from primaries+validate
 - [Deep-Research Stale-Vintage Headline](finding_deep_research_stale_vintage_headline.md) — refresh load-bearing headline to latest print
 - [Fail Loud On Incomplete Data](finding_fail_loud_on_incomplete_data.md) — gate all-clear on zero failures AND zero flags
+- [Workflow Subagent Repo Sandbox](finding_workflow_subagent_repo_sandbox.md) — workflow subagents: repo-paths only, hardcode args
+- [Auto-Memory Hardlink In-Place Edit](finding_automem_hardlink_inplace_edit.md) — edit memory/auto in-place (>) to keep hardlink
