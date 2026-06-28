@@ -7,7 +7,12 @@
 
 ## Current state
 
-DAEDALUS can now see the whole fleet. Phases 0–2 done: spec locked, skeleton + meta-memory live, scoring engine built and run across 26 agents. Still **read-only** — nothing wired into the live fleet, no agent files touched. The first maturity map is in `MATURITY_MAP.md` (readable) + `FLEET_MAP.tsv` (data).
+DAEDALUS can see the whole fleet and has executed its first real build (AEOLUS, 6/28). The first maturity map is in `MATURITY_MAP.md` (readable) + `FLEET_MAP.tsv` (data). **Now underway: the judgment-read firming pass** — converting the 12 mechanical-only (Conf L) FLEET_MAP rows into read-verified grades, and catching the false-negatives the mechanical scan baked in.
+
+**Latest session (6/28) — first firming batch: SHADE / BROCK / CREED** (comprehend → grade vs blueprint → adversarial verify; workflow `grade-shade-brock-creed`, 6 agents). Persisted: `profiles/{SHADE,BROCK,CREED}.md` (durable comprehension) + `upgrades/{SHADE,BROCK,CREED}_CARD.md` (section work queues) + 3 re-scored FLEET_MAP rows + PAT-020/021/022.
+- **BROCK L3 → L4** — false-negative corrected: `trade/TRADE.md` (275 ln) exists + feeds a live position + signals flowing → both L4 criteria already met. The mechanical scan looked for TRADE.md at the wrong path (PAT-020).
+- **SHADE L2 confirmed** (Conf L → H) — rich L2 held below L3 by missing *handles* not substance (PAT-022); cheap climb. Also fixed: commit count 13 → 28/30d; "no exit-rules" overstated.
+- **CREED L1 confirmed** (Conf L → M) — "thin KB" misleading: rich KB is *frozen legacy* un-pulled-forward under REGINALD/sub-agents (PAT-021); L2 climb is a rehab, not a build.
 
 ## Build progress
 
@@ -21,23 +26,28 @@ DAEDALUS can now see the whole fleet. Phases 0–2 done: spec locked, skeleton +
 
 ## Headline from the scan
 
-- **1×L4** (REGINALD, exemplar) · **8×L3** · **12×L2** · HERMES = retire candidate · DEWEY L0-by-design.
+- **2×L4** (REGINALD + **BROCK** [corrected 6/28]) · **7×L3** · **12×L2** · HERMES = retire candidate · DEWEY L0-by-design. *(Was 1×L4/8×L3 in the 6/27 scan — BROCK moved up on read-verification.)*
 - **Systemic: 14 agents missing the required BOTTOM LINE** → top batch-fix candidate (Rec 1, needs Will approval + idle targets).
 - **Standards decision pending for Will:** enforce section-titling vs. accept own-titled equivalents (HENRY case) — see MATURITY_MAP.md.
+- **First firming finding:** the 6/27 mechanical scan carried false-negatives — BROCK was under-rated a full level on a path-blind "No TRADE.md" read. The Conf-L rows are guesses until read-verified (PAT-020).
 
 ## Open / structural debt
 
-- Blueprint variant set incomplete: only `meta-agent.md`. Extract `market-agent` (from REGINALD — the scan's exemplar) + `utility-agent` (from WALTER/RED) in Phase 3.
-- 12 FLEET_MAP rows are mechanical-only (Conf L) — a judgment-read pass would firm them up.
-- `templates/CLAUDE_TEMPLATE.md` not yet brought under BLUEPRINTS ownership (Phase 3).
+- **`scripts/maturity_scan.py` is path-blind (PAT-020):** it looks for TRADE.md / workbook / predictions at FIXED paths and misses nested ones (BROCK's `trade/TRADE.md`). HARDEN it to search recursively, OR treat every L3+ mechanical grade as PROVISIONAL until a judgment-read confirms. **New structural-debt item from this session.**
+- **9 FLEET_MAP rows still mechanical-only (Conf L)** — down from 12 (SHADE→H, CREED→M, BROCK→H this session). The judgment-read firming pass continues.
+- Blueprint variant set incomplete: `meta-agent.md` + `market-agent.md` done; **`utility-agent` still missing** (sources WALTER/NEXUS/RED/YEYOU).
+- Frozen-legacy ledgers without a FROZEN banner (e.g. CREED's legacy KB/VX/FLOW under REGINALD/sub-agents) — prose-pointer firewall only; fold into the conformance batch.
+- `templates/CLAUDE_TEMPLATE.md` not yet brought under BLUEPRINTS ownership (still references deprecated HERMES).
 
 ## Next actions
 
-1. **Await Will:** the standards decision + approval on Recommendation 1 (BOTTOM LINE batch).
-2. **Phase 3:** extract `market-agent`/`utility-agent` blueprints (REGINALD/WALTER as sources) + build the scaffold-a-new-agent workflow.
+1. **Await Will:** standards decision + approval on Recommendation 1 (BOTTOM LINE batch) + idle targets. (SHADE/CREED/BROCK BOTTOM-LINE + handle adds fold into this batch.)
+2. **Continue the firming pass** over the remaining ~9 Conf-L rows (the next small batch — Will to pick which agents, or default to the highest-traffic transmitters).
+3. **Harden `maturity_scan.py`** for path-blindness (PAT-020) so re-scans stop manufacturing false-negatives.
+4. **Extract the `utility-agent` blueprint** (WALTER/NEXUS/RED/YEYOU) — completes the variant set.
 
 ---
 
 ## BOTTOM LINE
 
-DAEDALUS executed its **first real build** on 2026-06-28: **AEOLUS**, the fleet's macro climate→economy agent — scaffolded from the market-agent blueprint and wired live into ROSTER, root CLAUDE.md, the index/group files, and the transmission chain (`AEOLUS → {BRENT, CORAL, MARCO}`), with a CORAL boundary task-packet (CORAL keeps Florida). Design was Will-decided: channels-first (insurance/ag-food/energy-demand), tiered weather/structural horizon — with the DARWIN anti-drift guard baked into the structure (empty-channel = failure signal; PAT-018). This proves Phase 3 (build pipeline) and exercises Phase 4 wiring; **self-level → L4** (first build clean). Next: AEOLUS runs its own first live data pass; DAEDALUS's open threads = utility-agent blueprint + the still-pending BOTTOM-LINE conformance batch (needs Will + idle targets).
+The fleet's structure is healthy; the dominant debt is conformance, not architecture. After the first real build (AEOLUS, 6/28), DAEDALUS has begun the **judgment-read firming pass** that turns the maturity map from mechanical guesses into read-verified grades — and the first batch (SHADE/BROCK/CREED, comprehend→grade→adversarial-verify) immediately paid off: **BROCK was under-rated a full level (L3→L4)** on a path-blind "No TRADE.md" false-negative, and the "thin KB" (CREED) / "no exit-rules" (SHADE) notes were misleading. Each now has a durable `profiles/` map + a section-by-section `upgrades/` card; the net new ask for Will is approving the BOTTOM-LINE + cheap-handle batch (+ idle targets) these feed into. **The single most important structural fix surfaced this session: harden `scripts/maturity_scan.py` for path-blindness (PAT-020)** so re-scans stop manufacturing false-negatives. Next: continue firming the remaining ~9 Conf-L rows; utility-agent blueprint still open.

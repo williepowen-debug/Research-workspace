@@ -7,6 +7,12 @@ Newest first. Keep entries terse; archive build minutiae to `FLEET_MAP.tsv`.
 
 ## Changelog
 
+### 2026-06-28 — Firming pass begins: SHADE / BROCK / CREED read-verified (first false-negative caught)
+- **What:** First judgment-read firming batch — comprehend → grade vs `market-agent.md` → adversarial-verify, 3 agents (workflow `grade-shade-brock-creed`, 6 agents / 624k tok). Persisted `profiles/{SHADE,BROCK,CREED}.md` + `upgrades/{…}_CARD.md` + 3 re-scored FLEET_MAP rows.
+- **Maturity-map correction:** **BROCK L3 → L4** — the 6/27 mechanical scan carried a false-negative ("No TRADE.md caps at L3"; `trade/TRADE.md` exists, 275 ln, feeds a live position + signals flowing). SHADE L2 / CREED L1 *confirmed* but firmed Conf L→H / L→M with corrected notes (SHADE commit-count 13→28; CREED "thin KB" → frozen-legacy pull-forward).
+- **New patterns:** PAT-020 (scanner **path-blindness** — harden `maturity_scan.py` to search recursively, or treat L3+ mechanical grades as provisional); PAT-021 (frozen-legacy KB ≠ thin — it's a pull-forward, not a build); PAT-022 (grade gaps as **missing-handle vs missing-substance** — predicts the climb cost).
+- **Standard direction:** the firming pass is now the method for converting Conf-L rows to verified; the scanner needs the recursive-search fix *before* the next re-scan or it will keep manufacturing false-negatives.
+
 ### 2026-06-28 — Phase 3/4: first REAL build executed — AEOLUS (climate → economy)
 - **What:** Built + wired AEOLUS, the fleet's macro climate→economy agent — DAEDALUS's first non-dry-run build (the build pipeline's maiden real use). Scaffolded `AGENTS/AEOLUS/` (CLAUDE.md, STATUS, THESIS, TRADE, full workbook) from `BLUEPRINTS/market-agent.md`, then wired into `PROME/ROSTER.md`, root `CLAUDE.md`, `_INDEX.md`, `_ENERGY.md`, transmission chain (`AEOLUS → {BRENT, CORAL, MARCO}`), + CORAL boundary task-packet.
 - **Design (Will-decided):** channels-first (insurance / ag-food / energy-demand core; property + supply-chain tier-2), tiered horizon (live weather over structural backdrop), CORAL keeps Florida.
