@@ -1,74 +1,62 @@
 # SHADE SCRATCH.md — Ephemeral Session State
-**Rewritten:** 2026-06-26 ET (boot from Prome teams-mode — double-jeopardy triage mandate)
+**Rewritten:** 2026-06-28 ~3PM ET (PROME catch-up spawn — inbox-backlog triage + 6/21→6/28 regime reconcile + ownership formalization; weekend, markets closed, no live pull)
 
 ---
 
-## 6/26 ADDENDUM — Prome direction received post-triage
+## TOP VERDICT (6/28)
+Insurer-wrapper transmission stays **structural/latent — no breach.** The 6/22-26 alt-manager crack is **AI-positioning unwind + macro multiple-compression (managers led, wrappers flat), NOT credit-substance recognition** — so my pre-registered wrapper-decoupling trigger has NOT fired even with HY 278 (2bp from the >280 level leg), because the wrapper-led leg is unmet. **Hold the statutory dig; the un-maskable test is forward (monolines 7/15-22 → BDC marks 7/25-28).**
 
-Prome (Will-approved): integrate two BROCK data points as SHADE-canonical, pre-register the 4-pull lane, do NOT run the statutory dig (no trigger fired — wrapper-decoupling unfired, HY 278; deploy-on-trigger rule stands).
+## CHANGES SINCE LAST SHADE SESSION (6/26 → 6/28)
+- **Regime (via NEXUS 6/27):** M-08 credit SUBSTANCE firmed (BCRED first-ever redemption gate; KBRA/Fitch/Proskauer records) but **transmission DORMANT**. NEW **M-09 AI-positioning unwind LIVE** (KOSPI 2 circuit-breakers 6/23+6/26, MU −11%, negative-gamma regime). R3↔R4 now COUPLED via the AI-vendor-financing node (APO/ARES = origination + AI-credit book + crowded-long). The AI-unwind is the leading candidate to *unmask* M-08 but has NOT fired.
+- **Marks:** HY OAS **278** [FRED 6/25] (was 263 6/17) — 2bp from >280 decoupling trigger; <260 kill reset. APO **$121.64**, ARES **$112.54**, BIZD **$12.19** (~6/26) — 12-14% alt-mgr de-rate, MACRO not insurer-wrapper.
+- **5-fund Q2 gate cluster = ONE shared-antecedent wave** (BROCK 6/26) — raises double-jeopardy correlation, not N independent roots.
+- **OWNERSHIP:** SHADE now canonical **insurer-exposure owner** (BROCK ceded 6/26, Will-approved, commit 29633416). BROCK keeps gate *mechanism*; SHADE owns insurer figures + **insurer-lender double-jeopardy** thread.
 
-**Integrated to STATUS.md (6/26 second commit):**
-- **Moody's $807B / 20% insurer illiquid-PC** → now SHADE-canonical (was referenced via BROCK; BROCK references SHADE going forward). Added to §2 commentary block + cross-linked to double-jeopardy signal row for severity context.
-- **Lee Robinson $1.8T insurer-short (SIG-009)** → new 🟠 signal dashboard row. SHADE-primary. Robinson targeting insurer-exposure channel specifically = smart-money corroboration of the double-jeopardy mechanism. No primary sourcing yet — primary source pull is part of the pre-registered lane (trigger-gated).
-- **Lane pre-registered in §10 item 6** with explicit trigger condition (wrapper-decoupling OR FABN >250bp / RBC breach / enforcement escalation) and ordered 4-pull sequence. Durable; survives future SCRATCH rewrites via STATUS reference.
-
----
-
-## CHANGES SINCE LAST SHADE SESSION (6/22 addendum → 6/26)
-
-- **BROCK (6/26):** gate cluster upgraded to 5-fund Q2 cluster (shared-antecedent verdict: one Q2 retail-redemption wave, 5 expression points). ADS gate (~6/23, ~17% demand, ~43% satisfied) CONFIRMED by BROCK. BRK-30 pre-registered (65%, Q3 re-cap or new gate >10%). APO breached $130 (now ~$122.21, per BROCK 6/25 pointer — BROCK owns canonical mark). WSJ/Clearwater insurer-lender finding surfaced via WALTER SIG-005 → rerouted to SHADE.
-- **ATHENE_DEPOSIT_MAP rerouted:** CARL → SHADE 6/26 (domain reassignment, Athene = SHADE beat). Absorbed: key facts re reflexivity loop, $45.9B related-party, 48% illiquid, BCRED exclusion. Filed to `inbox/processed/`. Board_log updated.
-- **SHADE spawned for:** insurer-lender double-jeopardy triage (BROCK SIG-005 → SHADE domain). Research doc written, STATUS updated with new signal dashboard row and next-action item 6.
-
-## WHAT I DID (2026-06-26)
-
-1. **Boot reads:** CLAUDE.md, MEMORY.md, SCRATCH.md, inbox/ATHENE_DEPOSIT_MAP.md, BROCK STATUS, BROCK SCRATCH (for SIG-005/6/26 mandate context), BROCK SIG-W-20260624-005 (canonical source).
-2. **Absorbed ATHENE_DEPOSIT_MAP:** logged in board_log.tsv (disposition=acted, source=INBOX_CARL_REROUTE); git mv'd to inbox/processed/. Key facts extracted into triage research.
-3. **Wrote triage research:** `research/INSURER_LENDER_DOUBLE_JEOPARDY_2026-06-26.md` — full mechanism anatomy, exposure map (6 funds × insurer universe), Athene map contribution, scale check, SHADE next-actions, BROCK coordination flags.
-4. **Updated STATUS.md:** new row in §3 signal dashboard (insurer-lender double-jeopardy, 🟠); new item 6 in §10 next-actions.
-5. **Sent triage report** to Prome/team-lead via SendMessage (≤400 words, decision-lead).
+## WHAT I DID (2026-06-28)
+1. **Boot:** CLAUDE.md, STATUS, SCRATCH, MEMORY, double-jeopardy research doc, board_log; targeted reads of NEXUS/STATUS (regime) + BROCK/STATUS (cede confirmation, line 124).
+2. **Triaged 8-item legacy inbox backlog** (3/26→5/9): 2 INGEST, 4 ARCHIVE, 2 DISCARD. Files LEFT IN PLACE (PROME to git mv). Dispositions logged to `board_log.tsv` (source=INBOX_LEGACY).
+3. **STATUS.md updated** — new §0a 6/28 catch-up block (net read, marks, ownership); reconciled in-place: §0 HY-OAS row 263→278, §3 double-jeopardy row (SHADE-owned + shared-antecedent correlation + trigger sign-check), §5 watchlist (CFO→AMAPS bridge ingest; AEL/Hanover XOL allegation-grade lead ingest), §6 calendar (+monolines 7/15-22, +BDC marks 7/25-28), §9 (APO de-rate note), §10 item-6 (trigger-proximity status: UNFIRED, hold dig).
+4. **Double-jeopardy:** confirmed SHADE owns it; routing gap already closed (landed 6/26 via ATHENE_DEPOSIT_MAP reroute + BROCK SIG-005). Developed the shared-antecedent correlation point.
 
 ## KEY VERIFIED FACTS THIS SESSION
-
-- **BCRED → Athene double-jeopardy: RULED OUT** (ATHENE_DEPOSIT_MAP: Athene contagion to BCRED is sentiment/marks, not direct equity holding). Clean negative.
-- **ADS → Athene double-jeopardy: HIGH PROBABILITY hold, lend UNCONFIRMED.** ADS is Apollo-managed; Athene ~$45.9B related-party = almost certain to include ADS equity. Credit-facility counterparty not confirmed.
-- **WSJ/Clearwater sector stat ~25%** = mechanism confirmed at sector level; entity+fund mapping remains the gap.
-- **APO ~$122.21** (BROCK 6/25 pointer; APO breached $130, former exit-rule level). Confirm with BROCK at next boot — do not carry as current.
+- **BROCK cede CONFIRMED** in BROCK/STATUS line 124: "Insurer-exposure numbers (Moody's $807B/20% FI, Athene/GA holdings, Schedule-BA) → AGENTS/SHADE (canonical owner per Will 6/26)."
+- **Decoupling trigger is a two-part AND** — HY>280 AND wrapper-basket-leads-managers-down. HY 278 near; wrapper-led leg NOT met (managers led, wrappers flat). Trigger UNFIRED.
+- **Double-jeopardy thread DID land** (6/26) — fleet memo's "never landed in inbox" is stale.
 
 ## NEXT SHADE SESSION
-
-1. **Boot:** STATUS → SCRATCH → MEMORY; check board_log + inbox/WALTER/ for new signals; confirm APO mark with BROCK.
-2. **Priority 1 (double-jeopardy mapping):**
-   - Athene Iowa Q1 2026 Schedule BA → confirm/deny ADS equity holding
-   - ADS credit-facility counterparty disclosure (SEC EDGAR 8-K or 10-Q exhibit)
-   - Corebridge / F&G / Brighthouse Schedule BA for the 5 gated funds (smaller RBC buffers = higher severity)
-3. **Priority 2:** Check if any of the 5 funds name life-insurer lenders in their facility disclosures (coordinate with BROCK)
-4. **Priority 3 (ongoing):** AMAPS audit (Schedule-D/BA equivalent, Athene Asset Compendium); Egan-Jones Aug 12 binary watch; NAIC CLO 7/6 comment deadline.
-5. **DO NOT** re-run NPORT crawl unless kill-path-1 nears a trade.
+1. **Boot:** STATUS → SCRATCH → MEMORY; check board_log + inbox/WALTER/; confirm HY OAS + APO live marks (weekend figures above carry as-of dates — re-pull Monday before citing as current).
+2. **Trigger watch (deploy-on-trigger, §10 item 6):** does HY cross 280 AND do wrappers (ARCC/FSK/OBDC) START leading the basket down? If BOTH → fire the 4-pull statutory dig (Athene Iowa Schedule BA → ADS equity; ADS credit-facility counterparties; Corebridge/F&G/Brighthouse Schedule BA; cross-check BROCK fund borrowings disclosures). Until then: dry powder.
+3. **Forward dates:** monolines 7/15-22 (un-maskable Axis-A) → BDC marks 7/25-28 (M-08 test) → ARCC Q2 7/28. Egan-Jones 8/12 binary. NAIC CLO 7/6 comment deadline.
+4. **DO NOT** re-run NPORT crawl unless kill-path-1 nears a trade.
 
 ## OPEN THREADS
-
 | Item | Status |
 |---|---|
-| STATUS refresh | ✅ live (6/21 boot-delta + 6/22 FABN addendum + 6/26 double-jeopardy row) |
-| FHLB scale correction | ✅ $28B drawn vs $2.4B undrawn; REGINALD cross-flag written 6/21 |
-| FABN peer-relative canary | 🟠 YELLOW; T+123 (+43-48bp peer penalty, May'26). Watch >250bp or pulled syndication |
-| AMAPS disclosure-channel split | 🔴 watch; absent from Athene May FI deck; needs Asset Compendium pull |
-| FABN maturity ladder | ✅ built 6/22; wall ~$13-18B via NPORT-P bottom-up. Re-run crawl only if kill-path-1 nears trade |
-| NAIC CLO RBC slip | 🟡 7/6 comment + 6/23 webex; YE2026 at-risk; MM-CLOs deferred to 2027 |
+| Insurer-exposure ownership | ✅ formalized in STATUS §0a/§3 (BROCK ceded 6/26) |
+| Double-jeopardy | 🟠 SHADE-OWNED; mechanism real, entity+fund map incomplete; trigger-gated (HOLD dig). `research/INSURER_LENDER_DOUBLE_JEOPARDY_2026-06-26.md` |
+| HY OAS decoupling trigger | ⚠️ 278, 2bp from >280 level leg; wrapper-led leg UNMET → unfired |
+| FABN peer-relative canary | 🟠 YELLOW; T+123 (+43-48bp). Watch >250bp or pulled syndication |
+| AMAPS / CFO-arbitrage wrapper | 🔴 watch; CFO→AMAPS bridge now in §5; needs Asset Compendium pull |
+| AEL/Hanover XOL phantom lead | 🟡 allegation-grade verification target (§5); NOT fact |
+| NAIC CLO RBC slip | 🟡 7/6 comment; YE2026 at-risk; MM-CLOs deferred to 2027 |
 | Egan-Jones Aug 12 | 🟢 calendar binary; defense submitted 6/16 |
-| Oaktree/Atlantic Coast Life captive | 🟡 sub-watch; Oaktree took control 3/13 |
-| **Double-jeopardy mapping** | 🟠 NEW 6/26; mechanism real, entity+fund map incomplete. ADS hold probable unconfirmed; BCRED exclusion confirmed. See `research/INSURER_LENDER_DOUBLE_JEOPARDY_2026-06-26.md` |
-| NEXUS_BRIEF | 🟡 still not created; defer to next architecture pass |
+| Lee Robinson $1.8T insurer-short | 🟠 SHADE-primary; no primary sourcing yet (trigger-gated) |
+| NEXUS_BRIEF | 🟡 still not created; defer to architecture pass |
+
+## INBOX DISPOSITION (8 legacy items — files LEFT IN PLACE for PROME git mv)
+| File | Disp | Why |
+|---|---|---|
+| SIG-...20260326-cfo-insurance-capital-efficiency | INGEST | CFO/rated-feeder = AMAPS mechanism; folded bridge to §5 |
+| SIG-...20260326-nonbank-sifi-deregulation | ARCHIVE | Superseded by FSOC 3/25 reproposal (in §2/§6); 5/14 passed |
+| SIG-...20260327-mfs-bloomberg | ARCHIVE | Already in CLAUDE.md precedents; no live action |
+| BROCK_ROUTING_20260401 | ARCHIVE | Date-stamped urgent expired; FSOC thread matured (§6) |
+| signal_...04-06_holdout_trade | DISCARD | LME/credit-doc = BROCK; thin insurer hook → route BROCK |
+| signal_...04-06_insurance_phantom_assets | INGEST | Core domain; AEL/Hanover XOL lead to §5 as verify-target |
+| signal_...04-06_pc_meltdown | ARCHIVE | Gate cascade=BROCK superseded; FHLB $23.3B→$28.2B; pattern in §3/§5 |
+| signal_...05-09_blackrock-metcold | DISCARD | PC-recovery=BROCK, China=ZHAO; immaterial; no insurer-wrapper |
 
 ## MAIL STATE
-
-- `inbox/WALTER/`: empty (SIG-008 processed 6/22). `board_log.tsv` exists.
-- `inbox/ATHENE_DEPOSIT_MAP.md`: ✅ processed 6/26 → moved to `inbox/processed/`.
-- `inbox/`: legacy Mar–May signals untouched; process only if spawned.
-- **Cross-agent signals from 6/21** (written to recipients' inboxes, Will-authorized):
-  - `AGENTS/REGINALD/inbox/SIG-SHADE-REGINALD-20260621-athene-fhlb-28b-drawn.md`
-  - `AGENTS/LIQUID/inbox/SIG-SHADE-LIQUID-20260621-athene-fabn-funding-canary.md`
-  - `AGENTS/BROCK/inbox/SIG-SHADE-BROCK-20260621-moodys-insurer-illiquidity-quant.md`
-  - These live outside SHADE dir; SHADE did not commit them; recipients process at their own boot.
-- **No new cross-agent outbox signals this session** (double-jeopardy finding is mechanism-watch, not acute; coordination goes via Prome reply / BROCK SendMessage, not a separate SIG file).
+- `inbox/WALTER/`: empty (SIG-008 processed 6/22). `board_log.tsv` exists + 8 legacy rows appended 6/28.
+- `inbox/` legacy: 8 items triaged 6/28, **left in place** (PROME serializes git mv per spawn guardrail). Dispositions in board_log + table above.
+- `inbox/processed/`: ATHENE_DEPOSIT_MAP (6/26).
+- **No new cross-agent outbox files this session** (per guardrail: edits SHADE-dir-only; cross-agent items reported to PROME as routing flags, not written into other agents' inboxes).
