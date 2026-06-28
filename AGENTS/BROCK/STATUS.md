@@ -133,6 +133,16 @@ Full dated docket + resolved Q1 10-Q verdicts → `docket/CATALYSTS.tsv` (FASTOW
 | **Tape-substance divergence** | 🔴(4) | **🔴(4)** | — | **Re-MACRO 6/28:** the 6/20 wrapper-leak was a 1-week blip — 6/20→6/28 alt-MANAGERS sold ~−11% (APO/ARES multiple-compression) while WRAPPERS held FLAT and banks bid. That is the OPPOSITE composition of credit-substance recognition → reads MACRO. HY OAS 278 [6/25] (2bp from >280) NOT confirming. Trap-clinch persists: spreads complacent, no wrapper-leading decouple | **X1 decouple = wrapper basket (ARCC/FSK/OBDC/BIZD) LEADS managers down + HY OAS >280 sustained.** Until then, alts selloff = macro | 6/28 |
 | Cross-asset-class wrapper contagion | 🔴🔴(5) | **🔴🔴(5)** | — | **STILL NOT escalating 6/28:** 2nd PE-wrapper gate (BRK-29) UN-FIRED **day ~25** of ~7/3 window (leans LAPSE; 6/30 quarter-end = live tail); ADS (~6/23) is a CREDIT fund — does NOT count. **NEXUS M-09 AI-positioning-unwind LIVE is the leading TRIGGER candidate to unmask this via the shared APO/ARES AI-vendor-financing node — but UN-FIRED (rotation, banks bid, HY 278 un-capitulated). ⚠️ AI-unwind + credit-K-split share ONE node → already counted here; do NOT add a 2nd independent convergence vote.** | 2nd alt-mgr PE-wrapper gate by ~7/3 → escalate; clean window-close → de-escalate | 6/28 |
 
+**Independence map (shared-antecedent handle — added 2026-06-28 per DAEDALUS BATCH_01; lifts the "score once" discipline already in the matrix/BOTTOM LINE into a structured form so the 60/70 composite isn't double-counted — for NEXUS/PROME stacking).**
+
+| Shared antecedent | Vectors it drives | Counting rule |
+|---|---|---|
+| **AI-unwind / credit-K-split node** (APO/ARES = origination franchise + AI-credit book + crowded long, one name) | Cross-asset-class wrapper contagion · Tape-substance divergence · NEXUS M-09 | **ONE vote** — counted inside the cross-asset row; the AI-unwind adds NO independent vote |
+| **Q2 retail-redemption wave** (Cliffwater/PG-PE/BCRED/Monroe/ADS — 5 expression points) | Non-traded BDC redemption gates | **ONE vote** — 5 funds = one wave, not 5 independent roots |
+| The other 12 vectors | — | Independent roots (distinct mechanisms: default indices, NAV discount, PIK, software marks, NDFI, regulatory, narrative, sponsor-bifurcation, duration, Athene, Blue Owl) |
+
+*The 60/70 already reflects this (AI-unwind adds no vote; the 5-fund wave is one row). This map makes the independence handle explicit; it does not change the score.*
+
 **Convergence: 60/70 🔴🔴** (flat — 5+5+4+4+**4**+3+5+5+3+5+5+3+**4**+5=60; no score moved 6/20→6/28). **6/28 read: substance FIRMED but transmission DORMANT — and crucially the AI-unwind does NOT add a vote.** NEXUS M-09 (AI-positioning unwind) is the most plausible trigger to flip macro→credit, but it is COUPLED to the credit-K-split through the single APO/ARES AI-vendor-financing node — per shared-antecedent discipline it is counted ONCE (inside the cross-asset row), not as an independent escalation. The tape re-resolved MACRO this week (managers down, wrappers flat) — no decouple. **Score holds at 60; the genuine escalation lever is the un-maskable monoline/BDC-mark window (7/15-28), not the score. Reversible scoring calls — flagged for Will veto.**
 
 ---
