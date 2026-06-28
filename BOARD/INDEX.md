@@ -36,7 +36,7 @@ Sorted by signal count descending. Cluster definitions in [`AGENTS/WALTER/design
 | Cluster | Count | Latest signal | Theme |
 |---------|------:|---------------|-------|
 | [IRAN_HORMUZ](#iran_hormuz-69) | 69 | 2026-06-28 · SIG-W-20260628-006 | Iran war / Hormuz chokepoint / GEOPOL_ENERGY supply / sanctions / state-response |
-| [POSITIONING_VALUATION](#positioning_valuation-64) | 64 | 2026-06-28 · SIG-W-20260628-004 | Equity positioning extremes / vol regime / breadth / fund flows / call-put skew / corporate-hedger positioning / bullish-counter-evidence |
+| [POSITIONING_VALUATION](#positioning_valuation-67) | 67 | 2026-06-28 · SIG-W-20260628-010 | Equity positioning extremes / vol regime / breadth / fund flows / call-put skew / corporate-hedger positioning / bullish-counter-evidence |
 | [CONSUMER_STAGFLATION](#consumer_stagflation-80) | 80 | 2026-06-28 · SIG-W-20260628-002 | Sentiment / inflation expectations / CC delinq / labor weakness / consumer fuel-cost transmission / discretionary-demand-destruction |
 | [BANK_COLLATERAL](#bank_collateral-65) | 65 | 2026-06-27 · SIG-W-20260627-030 | Distressed CRE / residential housing / office vacancy / regulatory shocks affecting bank collateral / threshold-fire-events |
 | [MISC](#misc-13) | 13 | 2026-06-28 · SIG-W-20260628-007 | Singletons / market-structure / adversarial-meta / counter-evidence-without-cluster-home |
@@ -46,7 +46,7 @@ Sorted by signal count descending. Cluster definitions in [`AGENTS/WALTER/design
 | [ASIA_CHINA](#asia_china-17) | 17 | 2026-06-28 · SIG-W-20260628-005 | China / HK / EM-Asia contagion — trade dynamics / export controls / property collapse / peg fragility / state-level demand destruction / RMB internationalization / Japan BOJ dynamics |
 | [INFLATION_TRANSMISSION](#inflation_transmission-3) | 3 | 2026-06-26 · SIG-W-20260626-029 | Forward goods-CPI / supply-chain cost-push transmission — freight indices, port congestion, pump-pass-through, tariff front-loading, supply-chain disruption with 3-6 month CPI lag |
 | [AI_INFRA_CAPEX](#ai_infra_capex-18) | 18 | 2026-06-27 · SIG-W-20260627-033 | AI infrastructure capex sustainability / hyperscaler guidance / leveraged equity collateral on AI names |
-| **TOTAL** | **409** | | |
+| **TOTAL** | **412** | | |
 
 ---
 
@@ -131,7 +131,7 @@ Sorted by signal count descending. Cluster definitions in [`AGENTS/WALTER/design
 ---
 
 
-## POSITIONING_VALUATION (64)
+## POSITIONING_VALUATION (67)
 
 *Equity positioning extremes, valuation indicators, vol regime, breadth, fund flows, MMF-rolldown, short-cover, options skew, call/put extremity. Counter-evidence within cluster lives here too. Rows are dispatch-time snapshots — older rows may carry framing superseded by later signals or current domain-agent state; do not treat row framing as current without checking it. Full description in [`AGENTS/WALTER/design/CLUSTER_TAXONOMY.md`](../AGENTS/WALTER/design/CLUSTER_TAXONOMY.md).*
 
@@ -204,6 +204,9 @@ Sorted by signal count descending. Cluster definitions in [`AGENTS/WALTER/design
 | SIG-W-20260627-002 | 2026-06-27 | MARKET_VOL | PRIORITY | HENRY → TERRY, RED | **SanDisk $SNDK prints a 99.01 RSI on the MONTHLY chart** — Barchart "one of the most overbought levels ever recorded for any asset in history" — after a near-vertical 12-mo run to ~$1,761; Mizuho PT raised to $1,825. Single-name positioning/reversion extreme on the AI-memory/NAND melt-up; **two-sided** (blow-off-top reversion that could pin a broader semi de-risk vs melt-up-regime where overbought persists + sell-side keeps chasing PTs). TERRY = Will's named semiconductor-RSI-reversion lane (trigger = a reversal confirmation, not the RSI level alone; wide invalidation on a parabolic name). Extends the AI/semi positioning thread (KOSPI multi-circuit-breaker SIG-626-001 + SOXL/SOXS de-risk SIG-622-009). cluster_secondary AI_INFRA_CAPEX; cluster_mediating. GROUNDED 0.80 (chart-fact, no verify) | [SIG-W-20260627-002-sndk-sandisk-99-rsi-monthly-most-overbought-ever-mizuho-pt-1825.md](SIG-W-20260627-002-sndk-sandisk-99-rsi-monthly-most-overbought-ever-mizuho-pt-1825.md) |
 | SIG-W-20260627-021 | 2026-06-27 | MARKET_VOL | ROUTINE | VIOLET → HENRY, RED | **S&P 500 forward-P/E minus VIX spread widened back to ~6 points** (SentimenTrader, post dated 5/28/26) — historically SPX higher 81% of the time 1yr later but VIX +47% median over the next 3mo ("higher, bumpier"). Forward-vol-expansion / complacency analog for VIOLET’s catalog. STALE caveat: reading at VIX~16, now 18.4 → predicted expansion partially realized. cluster_mediating. SKIP-VERIFY 0.65. | [SIG-W-20260627-021-sp500-forward-pe-vs-vix-spread-6pts-vol-expansion-analog-sentimentrader.md](SIG-W-20260627-021-sp500-forward-pe-vs-vix-spread-6pts-vol-expansion-analog-sentimentrader.md) |
 | SIG-W-20260628-004 | 2026-06-28 | MARKET_VOL | PRIORITY | HENRY → RED, TERRY | **S&P 500 Q2-2026 gained >10% → bullish Q3/full-year seasonality (n=10 since 1950).** @Bluekurtic: Q3 positive 8/9 (median +7%); full year median +26% / 100% hit rate (lone Q3 red 1975). A bull *counter* to the dense bear-positioning thread (inflows -020 / CTA -021 / breadth -023 / signposts -025 / short-interest -026); soft spot = small-n + post-hoc / regime-confound (RED owns). signal_role counter_evidence; SKIP-VERIFY 0.55 | [SIG-W-20260628-004-sp500-q2-gain-over-10pct-bullish-seasonality-bluekurtic.md](SIG-W-20260628-004-sp500-q2-gain-over-10pct-bullish-seasonality-bluekurtic.md) |
+| SIG-W-20260628-008 | 2026-06-28 | MARKET_VOL | PRIORITY | HENRY → RED, TERRY | **US tech-sector fund-flow whipsaw — record −$15B weekly outflow (largest ≥2.5yr, +100% over prior record) right after a record +$19B inflow; US equity −$8.5B this wk after +$119B; YTD +$332B.** @Kobeissi. The distribution TURN (record-in→record-out) vs the 12-mo froth (SIG-626-020 still standing); marginal buyer flipping to seller at highs. cluster_mediating; SKIP-VERIFY 0.70 (Kobeissi precision caveat) | [SIG-W-20260628-008-kobeissi-tech-fund-flows-whipsaw-record-15b-outflow.md](SIG-W-20260628-008-kobeissi-tech-fund-flows-whipsaw-record-15b-outflow.md) |
+| SIG-W-20260628-009 | 2026-06-28 | MARKET_VOL | ROUTINE | HENRY → VIOLET, RED, TERRY | **Put/call ratio near year-high "Extreme Fear" (~0.85) while indices near ATH + small-caps/Dow break out — positioning-vs-tape divergence.** @stockdatamarket (CNN F&G). Two-sided: bullish wall-of-worry + breadth-broadening (pairs -004/-010 bull-counters) vs hedges-right vol-expansion (echoes -627-021). cluster_mediating; SKIP-VERIFY 0.65 | [SIG-W-20260628-009-dds-put-call-ratio-extreme-fear-vs-ath-breadth-broadening.md](SIG-W-20260628-009-dds-put-call-ratio-extreme-fear-vs-ath-breadth-broadening.md) |
+| SIG-W-20260628-010 | 2026-06-28 | MARKET_VOL | ROUTINE | HENRY → RED, TERRY | **SPX 4 straight down days but shallow (>−2% total) → bullish forward base-rate in the 0DTE era (n=6): median 1wk +2.01% (100% pos), 1mo +4.41% (83%).** @OddStats. Session's 2nd bull-counter (pairs -004 seasonality); soft spot small-n/post-hoc/0DTE-era-only sample (RED owns). signal_role counter_evidence; SKIP-VERIFY 0.55 | [SIG-W-20260628-010-oddstats-spx-four-down-days-shallow-bullish-base-rate-0dte.md](SIG-W-20260628-010-oddstats-spx-four-down-days-shallow-bullish-base-rate-0dte.md) |
 ---
 
 
