@@ -20,7 +20,7 @@
 Clean, synced 0/0, all pushed. **The online/web Claude Code app is now a live 2nd writer** (DAEDALUS/AEOLUS pushed from it). Baton discipline: one writer at a time; **pull before committing if the app may have pushed** (safe-push ff-aborts on divergence → flag Will, don't force). Will switching laptop→desktop later today — desktop pulls fresh (gets everything incl. the 6PM pre-reg).
 
 ## Pending / carry-forward (no rush)
-- **Deferred (still owed): root `CLAUDE.md` FORGE-ref sweep** (option-(a) follow-up) — line ~30 ("Trade execution at FORGE/STATUS.md") + line ~51 (FORGE table "per-trade folders KRE/WAL/OZK", now archived to `FORGE/_archive/`; live record = `WILL/trading-journal/`). Shared file → re-pull first, edit carefully. Recorded in ACTIVE_DECISIONS.
+- **✅ DONE 6/28 desktop (b169e149, pushed): root `CLAUDE.md` FORGE-ref sweep + FORGE/STATUS staleness banner** (option-(a) follow-up). Swept L30/L51 (per-trade KRE/WAL/OZK + exec ledger → `FORGE/_archive/`, live book = `WILL/trading-journal/`, structured mirror = FORGE/STATUS+PORTFOLIO; every claim filesystem-verified before writing to canonical doc). Only open piece left = Will reconciles FORGE/STATUS marks on next broker export (stale since 5/21).
 - Owner-lane (don't chase): CORAL processes AEOLUS FL boundary handshake; MARCO gets AEOLUS C5 supply-chain note; muni(001)/housing(002) DEWEY deliverables → CARL/CORAL.
 - HAWK `HAW-14` prediction threshold breached via off-path route → re-word at HAWK's own closeout (HAWK-owned).
 - Desktop return: re-create `~/.claude/channels/telegram-prome/.env`; re-check `liquid-hy-watch` HY timer (desktop-only, paused on laptop).

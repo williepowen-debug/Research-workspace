@@ -33,4 +33,4 @@ Deploy fresh capital ONLY on a fired (sustained) trigger; $500/card max-loss. No
 1. HY vs 280 (278 [6/25], auto-watched). 2. 10Y 6/30 · JOLTS 6/30. 3. EIA 7/1 · NFP 7/3 · CFTC COT 7/3. 4. Bank prints OZK/WAL/CFG Jul-16. 5. June CPI 7/14.
 
 ## Fresh-boot checklist
-1. Verify git sync — **2nd writer live (online app); pull first.** 2. **Grade the 6PM oil open** if it's past ~6PM ET (SCRATCH = entry point). 3. Refresh dashboard/FRED before citing levels. 4. Deferred root `CLAUDE.md` FORGE-ref sweep still owed. 5. No agents warm — spawn fresh.
+1. Verify git sync — **2nd writer live (online app); pull first.** 2. **Grade the 6PM oil open** if it's past ~6PM ET (SCRATCH = entry point). 3. Refresh dashboard/FRED before citing levels. 4. ✅ Root `CLAUDE.md` FORGE-ref sweep + FORGE/STATUS staleness banner DONE 6/28 desktop (b169e149). 5. No agents warm — spawn fresh.
