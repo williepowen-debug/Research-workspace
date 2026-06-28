@@ -14,6 +14,9 @@ DAEDALUS can see the whole fleet and has executed its first real build (AEOLUS, 
 - **SHADE L2 confirmed** (Conf L → H) — rich L2 held below L3 by missing *handles* not substance (PAT-022); cheap climb. Also fixed: commit count 13 → 28/30d; "no exit-rules" overstated.
 - **CREED L1 confirmed** (Conf L → M) — "thin KB" misleading: rich KB is *frozen legacy* un-pulled-forward under REGINALD/sub-agents (PAT-021); L2 climb is a rehab, not a build.
 
+**Same session — Will + PROME approved, scoped:** (1) **hardened the scanner** — `maturity_scan.py` now recursive + reads PREDICTIONS_ARCHIVE + marks every L3+ PROVISIONAL `⚠needs-read` (PAT-020 closed). (2) Drafted the gated **`upgrades/BATCH_01_handles.md`** (8 encode-existing-reasoning handles, additive only) + routed to PROME (`outbox/`); **not applied** — awaiting approval + idle-check. (3) Banked **PAT-023** (TRADE.md staleness hygiene) → blueprint §8. (4) Round-two items (new SHADE/CREED ledger machinery) held for a separate justification. (5) BROCK position-truth = PROME's lane (FORGE decision-a), not mine.
+- **⚠ The scanner fix surfaced more false-negatives:** the recursive re-scan flags **BRENT, CARL, HAWK, LABOR, BOND** as provisional `L4? ⚠needs-read` — the path-blind scan likely under-rated several. **These are the next firming-batch targets.**
+
 ## Build progress
 
 | Phase | Deliverable | State |
@@ -33,7 +36,7 @@ DAEDALUS can see the whole fleet and has executed its first real build (AEOLUS, 
 
 ## Open / structural debt
 
-- **`scripts/maturity_scan.py` is path-blind (PAT-020):** it looks for TRADE.md / workbook / predictions at FIXED paths and misses nested ones (BROCK's `trade/TRADE.md`). HARDEN it to search recursively, OR treat every L3+ mechanical grade as PROVISIONAL until a judgment-read confirms. **New structural-debt item from this session.**
+- **`scripts/maturity_scan.py` path-blindness — FIXED 6/28 (PAT-020 closed):** now recursive artifact detection (live subtrees only) + reads PREDICTIONS_ARCHIVE + every L3+ emitted PROVISIONAL `⚠needs-read`. **Follow-on debt:** the re-scan now flags BRENT/CARL/HAWK/LABOR/BOND as provisional `L4?` — likely under-rated by the old scan; read-verify them next.
 - **9 FLEET_MAP rows still mechanical-only (Conf L)** — down from 12 (SHADE→H, CREED→M, BROCK→H this session). The judgment-read firming pass continues.
 - Blueprint variant set incomplete: `meta-agent.md` + `market-agent.md` done; **`utility-agent` still missing** (sources WALTER/NEXUS/RED/YEYOU).
 - Frozen-legacy ledgers without a FROZEN banner (e.g. CREED's legacy KB/VX/FLOW under REGINALD/sub-agents) — prose-pointer firewall only; fold into the conformance batch.
@@ -50,4 +53,4 @@ DAEDALUS can see the whole fleet and has executed its first real build (AEOLUS, 
 
 ## BOTTOM LINE
 
-The fleet's structure is healthy; the dominant debt is conformance, not architecture. After the first real build (AEOLUS, 6/28), DAEDALUS has begun the **judgment-read firming pass** that turns the maturity map from mechanical guesses into read-verified grades — and the first batch (SHADE/BROCK/CREED, comprehend→grade→adversarial-verify) immediately paid off: **BROCK was under-rated a full level (L3→L4)** on a path-blind "No TRADE.md" false-negative, and the "thin KB" (CREED) / "no exit-rules" (SHADE) notes were misleading. Each now has a durable `profiles/` map + a section-by-section `upgrades/` card; the net new ask for Will is approving the BOTTOM-LINE + cheap-handle batch (+ idle targets) these feed into. **The single most important structural fix surfaced this session: harden `scripts/maturity_scan.py` for path-blindness (PAT-020)** so re-scans stop manufacturing false-negatives. Next: continue firming the remaining ~9 Conf-L rows; utility-agent blueprint still open.
+The fleet's structure is healthy; the dominant debt is conformance, not architecture. DAEDALUS's first firming batch (SHADE/BROCK/CREED — comprehend→grade→adversarial-verify) corrected a full-level false-negative (**BROCK L3→L4**), **hardened the path-blind scanner that caused it** (PAT-020 — now recursive + marks every L3+ provisional), and produced a gated, encode-existing-reasoning handle-batch (`upgrades/BATCH_01_handles.md`) now **routed to PROME for approval** (nothing applied — idle-check pending). The scanner fix immediately showed BROCK wasn't alone: **BRENT/CARL/HAWK/LABOR/BOND now flag provisional `L4?` and are the next firming targets.** New per-session ledger machinery (SHADE/CREED) is held for a round-two justification; BROCK position-truth is PROME's lane. Next: PROME/Will approve batch-1 → apply to idle agents; firm the newly-flagged `L4?` agents; utility-agent blueprint still open.

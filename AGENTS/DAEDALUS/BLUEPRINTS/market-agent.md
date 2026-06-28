@@ -84,6 +84,8 @@ Decompose the thesis into **independent causal channels** — not correlated ris
 
 End STATUS.md with 2–4 plain-language sentences: domain state now, the single most important thing, what's next. Update every session. STATUS under 250 lines — archive overflow to `domain/sources/`.
 
+- **Ledger/trade-surface staleness (hygiene — DAEDALUS's lane).** Any structured ledger **and the agent-level `TRADE.md`** carries either a `FROZEN <date>` banner or a live boot-time mtime alert — **never the silent-rot middle.** A trade surface anchored to an old marks-date with no banner reads as current when it isn't. Extends the root Data Hygiene rule (KB/VX/FLOW/etc.) to the trade surface. (PAT-023)
+
 ---
 
 *Open for Will: §3 reconciliation (durable-rule-vs-live-value split) is a design call, not a harvested fact — veto-able.*

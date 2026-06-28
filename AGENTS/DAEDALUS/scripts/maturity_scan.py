@@ -6,6 +6,16 @@ Read-only. Computes the deterministic, rerunnable layer of the fleet maturity ma
 (SPEC.md §5). It does NOT make quality judgments — it reports presence/shape/recency
 signals; DAEDALUS (the agent) judges the L3-L5 ceiling from these.
 
+PAT-020 (2026-06-28) — PATH-BLINDNESS FIX. The first version looked for TRADE.md /
+KB / PREDICTIONS at FIXED paths and missed agents that NEST them (BROCK keeps its book
+at trade/TRADE.md, its resolved predictions in workbook/PREDICTIONS_ARCHIVE.tsv) —
+under-rating BROCK a full level. Two guards now:
+  (1) Artifact detection is RECURSIVE over the agent tree, excluding archive/sources/
+      inbox/outbox/processed (live artifacts only).
+  (2) Every L3+ mechanical hint is emitted as PROVISIONAL (⚠needs-read) — the script is
+      a floor+flag generator; own-titled / nested discipline (PAT-009) means an L3+ grade
+      is NEVER final until DAEDALUS reads the agent.
+
 Usage:
     python3 AGENTS/DAEDALUS/scripts/maturity_scan.py            # markdown table to stdout
     python3 AGENTS/DAEDALUS/scripts/maturity_scan.py --tsv      # tsv (FLEET_MAP signal rows)
@@ -29,6 +39,10 @@ CLASS = {
 }
 # Dirs that are not live agents (archives, sources, scaffolds).
 SKIP = {"ATHENA", "BARON", "CRUISE", "FERT", "REITS", "TRADES", "SENTRY", "OZK", "ZHAO"}
+
+# Subtrees that are NOT live artifacts — pruned from recursive artifact detection (PAT-020).
+EXCLUDE_DIRS = {"archive", "_archive", "sources", "processed", "delivered",
+                "inbox", "outbox", ".git", "node_modules"}
 
 def sh(args):
     return subprocess.run(args, capture_output=True, text=True, cwd=REPO).stdout
@@ -54,7 +68,7 @@ def read(path):
     try:
         with open(path, encoding="utf-8", errors="ignore") as f:
             return f.read()
-    except FileNotFoundError:
+    except (FileNotFoundError, IsADirectoryError):
         return None
 
 def tsv_rows(path):
@@ -63,17 +77,42 @@ def tsv_rows(path):
         return 0
     return max(0, len([l for l in txt.splitlines() if l.strip() and not l.startswith("#")]) - 1)
 
-def days_behind_head(name):
-    ts = sh(["git", "log", "-1", "--format=%ct", "--", f"AGENTS/{name}"]).strip()
-    if not ts:
-        return None
-    return round((HEAD_EPOCH - int(ts)) / 86400, 1)
+def find_live(root, filename):
+    """All paths to `filename` under root, EXCLUDING archive/sources/inbox/etc (PAT-020).
+    Live artifacts only — a TRADE.md in archive/ does not count as a live trade surface."""
+    hits = []
+    for dirpath, dirnames, filenames in os.walk(root):
+        dirnames[:] = [dn for dn in dirnames
+                       if dn not in EXCLUDE_DIRS and not dn.startswith("tmp")]
+        if filename in filenames:
+            hits.append(os.path.join(dirpath, filename))
+    return hits
 
-def commits_30d(name):
-    # commits to this agent's path within ~30 days of HEAD date
-    since = HEAD_EPOCH - 30 * 86400
-    log = sh(["git", "log", f"--since={since}", "--format=%h", "--", f"AGENTS/{name}"])
-    return len([l for l in log.splitlines() if l.strip()])
+def has_live_dir(root, dirname):
+    for dirpath, dirnames, _ in os.walk(root):
+        dirnames[:] = [dn for dn in dirnames
+                       if dn not in EXCLUDE_DIRS and not dn.startswith("tmp")]
+        if dirname in dirnames:
+            return True
+    return False
+
+def discipline_corpus(d):
+    """Where falsification/convergence rails legitimately live: STATUS + thesis/*.md +
+    EXPECTED_SIGNALS.md (PAT-009 broadening — rails homes, not intent-description files).
+    Deliberately EXCLUDES CLAUDE.md to avoid matching instruction-language as substance."""
+    parts = []
+    for rel in ("STATUS.md", "EXPECTED_SIGNALS.md"):
+        t = read(os.path.join(d, rel))
+        if t:
+            parts.append(t)
+    thesis = os.path.join(d, "thesis")
+    if os.path.isdir(thesis):
+        for f in sorted(os.listdir(thesis)):
+            if f.endswith(".md"):
+                t = read(os.path.join(thesis, f))
+                if t:
+                    parts.append(t)
+    return "\n".join(parts)
 
 def scan(name):
     d = os.path.join(AGENTS, name)
@@ -81,31 +120,57 @@ def scan(name):
     claude = read(os.path.join(d, "CLAUDE.md"))
     status = read(os.path.join(d, "STATUS.md"))
     s = status or ""
-    wb = os.path.join(d, "workbook")
+    corpus = discipline_corpus(d)
+
+    # --- recursive artifact detection (PAT-020) ---
+    kb_paths = find_live(d, "KB.tsv")
+    pred_paths = find_live(d, "PREDICTIONS.tsv")
+    pred_arch_paths = find_live(d, "PREDICTIONS_ARCHIVE.tsv")
+    trade_paths = find_live(d, "TRADE.md")
+    # resolved predictions live in the live ledger AND/OR the archive (OTTO pattern)
+    resolved_txt = "".join((read(p) or "") for p in pred_paths + pred_arch_paths)
+    pred_resolved = len(re.findall(
+        r"\b(CONFIRMED|FAILED|PARTIAL|PARTIALLY|EXPIRED|HIT|MISS|RESOLVED|FALSIFIED)\b",
+        resolved_txt))
+    has_scoreboard = bool(find_live(d, "PREDICTIONS_SCOREBOARD.md"))
+
     sig = {
         "agent": name, "class": cls,
         "has_claude": claude is not None,
         "has_status": status is not None,
         "status_lines": len(s.splitlines()) if status else 0,
-        "bottom_line": bool(re.search(r"BOTTOM LINE", s, re.I)),
-        "convergence": bool(re.search(r"convergence matrix", s, re.I)),
-        "exit_rules": bool(re.search(r"\b(exit|falsif)", s, re.I)),
-        "session_counts": bool(re.search(r"\b\d+\+?\s*sessions?\b", s, re.I)),
-        "has_workbook": os.path.isdir(wb),
+        "bottom_line": bool(re.search(r"BOTTOM LINE", s, re.I)),          # STATUS-only (required there)
+        "convergence": bool(re.search(r"convergence matrix", corpus, re.I)),
+        "exit_rules": bool(re.search(r"\b(exit|falsif|invalidat|counter-signal)", corpus, re.I)),
+        "session_counts": bool(re.search(r"\b\d+\+?\s*(?:consecutive\s+)?(?:sessions?|prints?|months?)\b", corpus, re.I)),
+        "has_workbook": has_live_dir(d, "workbook") or bool(kb_paths),
         "tsv_records": sum(tsv_rows(os.path.join(d, f)) for f in os.listdir(d)
                            if f.endswith(".tsv")) if os.path.isdir(d) else 0,
-        "kb_rows": tsv_rows(os.path.join(wb, "KB.tsv")),
-        "pred_rows": tsv_rows(os.path.join(wb, "PREDICTIONS.tsv")),
-        "pred_resolved": len(re.findall(r"\b(CONFIRMED|FAILED|PARTIALLY|EXPIRED)\b",
-                                        read(os.path.join(wb, "PREDICTIONS.tsv")) or "")),
-        "has_trade": os.path.exists(os.path.join(d, "TRADE.md")),
+        "kb_rows": sum(tsv_rows(p) for p in kb_paths),
+        "pred_rows": sum(tsv_rows(p) for p in pred_paths),
+        "pred_resolved": pred_resolved + (1 if has_scoreboard and pred_resolved == 0 else 0),
+        "has_scoreboard": has_scoreboard,
+        "has_trade": bool(trade_paths),
+        "trade_path": (os.path.relpath(trade_paths[0], d) if trade_paths else "-"),
         "days_behind": days_behind_head(name),
         "commits_30d": commits_30d(name),
     }
     sig["floor"] = floor_level(sig)
     sig["gaps"] = conformance_gaps(sig)
     sig["proposed"] = proposed_level(sig)
+    sig["provisional"] = sig["proposed"].endswith("?")   # any L3+ hint is read-pending (PAT-020)
     return sig
+
+def days_behind_head(name):
+    ts = sh(["git", "log", "-1", "--format=%ct", "--", f"AGENTS/{name}"]).strip()
+    if not ts:
+        return None
+    return round((HEAD_EPOCH - int(ts)) / 86400, 1)
+
+def commits_30d(name):
+    since = HEAD_EPOCH - 30 * 86400
+    log = sh(["git", "log", f"--since={since}", "--format=%h", "--", f"AGENTS/{name}"])
+    return len([l for l in log.splitlines() if l.strip()])
 
 def floor_level(s):
     """Objective L0-L2 — class-independent STRUCTURAL PRESENCE (not conformance).
@@ -139,7 +204,8 @@ def conformance_gaps(s):
     return "; ".join(g) or "—"
 
 def proposed_level(s):
-    """Mechanical hint toward L3-L5 from structural markers. DAEDALUS finalizes by judgment."""
+    """Mechanical hint toward L3-L5 from structural markers. ALWAYS provisional for L3+
+    (trailing '?') — DAEDALUS finalizes by reading (PAT-009/PAT-020)."""
     base = s["floor"]
     if base not in ("L2",):
         return base
@@ -148,7 +214,6 @@ def proposed_level(s):
         l3 = s["convergence"] and s["exit_rules"] and s["pred_resolved"] > 0
         l4 = l3 and s["has_trade"] and fresh
         return "L4?" if l4 else ("L3?" if l3 else "L2")
-    # Utility / Meta: role discipline proxied by freshness + bottom line + record
     if s["class"] in ("Utility", "Meta"):
         l3 = s["bottom_line"] and fresh
         l4 = l3 and (s["commits_30d"] or 0) >= 15
@@ -159,20 +224,24 @@ def main():
     rows = [scan(n) for n in agent_dirs() if n not in SKIP]
     rows.sort(key=lambda r: (r["class"], -(r["commits_30d"] or 0)))
     if "--tsv" in sys.argv:
-        print("Agent\tClass\tFloor\tProposed\tStatusLines\tKB\tPredResolved\tTrade\tDaysBehind\tCommits30d")
+        print("Agent\tClass\tFloor\tProposed\tNeedsRead\tStatusLines\tKB\tPredResolved\tTrade\tTradePath\tDaysBehind\tCommits30d")
         for r in rows:
-            print(f"{r['agent']}\t{r['class']}\t{r['floor']}\t{r['proposed']}\t{r['status_lines']}"
+            print(f"{r['agent']}\t{r['class']}\t{r['floor']}\t{r['proposed']}"
+                  f"\t{'Y' if r['provisional'] else '-'}\t{r['status_lines']}"
                   f"\t{r['kb_rows']}\t{r['pred_resolved']}\t{'Y' if r['has_trade'] else '-'}"
-                  f"\t{r['days_behind']}\t{r['commits_30d']}")
+                  f"\t{r['trade_path']}\t{r['days_behind']}\t{r['commits_30d']}")
         return
     print(f"# Fleet maturity scan (objective layer) — {len(rows)} agents · HEAD-relative staleness\n")
     print("| Agent | Class | Floor | →L3-5? | 30d | Conformance gaps |")
     print("|---|---|---|---|---:|---|")
     for r in rows:
-        print(f"| {r['agent']} | {r['class']} | {r['floor']} | {r['proposed']} "
+        prop = r["proposed"] + (" ⚠needs-read" if r["provisional"] else "")
+        print(f"| {r['agent']} | {r['class']} | {r['floor']} | {prop} "
               f"| {r['commits_30d']} | {r['gaps']} |")
     print("\n_Floor = objective structural presence (L0 skeleton · L1 live STATUS · L2 +structured record). "
-          "→L3-5? = mechanical hint; DAEDALUS finalizes by reading. Gaps = conformance debt, independent of level._")
+          "→L3-5? = mechanical hint; **every L3+ is PROVISIONAL (⚠needs-read) until DAEDALUS reads the agent** "
+          "(PAT-009/PAT-020). Artifact detection is recursive (live subtrees only). "
+          "Gaps = conformance debt, independent of level._")
 
 if __name__ == "__main__":
     main()
