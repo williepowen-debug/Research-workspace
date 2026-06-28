@@ -1,5 +1,12 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-27 LATE PM — **LAPTOP session closeout** (Claude Code Prome — 3 threads: Telegram leak fix · auto-memory trim · DAEDALUS onboarding. The 6/27-PM block below stays as historical context.)
+**Last Updated:** 2026-06-28 (Sun, LAPTOP) — boot recovery of a disrupted 6/28 WALTER routing session + recorded the FORGE position-truth decision (option a). The 6/27 blocks below stay as historical context.
+
+## ★ 6/28 (Sun, LAPTOP) — boot recovery + FORGE position-truth decision (a)
+**Boot context:** the prior 6/28 WALTER routing session was disrupted mid-flight; recovered cleanly — **sync 0/0, nothing committed was lost.** Trace it left: muni `BOARD/SIG-W-20260628-001` written-but-uncommitted (WALTER owns); housing `SIG-W-20260628-002` never written (its DEWEY handoff still sits in `AGENTS/WALTER/inbox/DEWEY/`); registry/processed not updated. **WALTER is LIVE again now** (IRAN_WAR.md edited 10:07 ET + market-data CLI running) finishing its own routing → **hands-off**: do NOT commit its BOARD file, pull/stash, or edit `AGENTS/WALTER/`. Still on **laptop** (sole writer); desktop later today → `telegram-prome/.env` re-create + `liquid-hy-watch` re-check owed then.
+
+**Decision recorded (Will 6/28): FORGE position-truth = option (a)** — keep `FORGE/STATUS`(+PORTFOLIO) as the structured position surface; refresher = Will-on-broker-export (NOT TERRY yet; revisit (b) when TERRY runs live exec). Zero ref churn (TERRY/REGINALD/CARL keep their pointer). Logged in `ACTIVE_DECISIONS.md`.
+
+**DEFERRED — do after WALTER closeout (shared files):** sweep root `CLAUDE.md` FORGE refs — line ~29 ("Trade execution at FORGE/STATUS.md") + line ~50 (FORGE table "per-trade folders KRE/WAL/OZK", now archived to `FORGE/_archive/`; live exec record = `WILL/trading-journal/`). Optional: staleness banner on `FORGE/STATUS` (last reconcile 5/21). **Execute-trigger:** `git status` shows no `AGENTS/WALTER/` or `BOARD/` dirt AND the BOARD muni signal is committed (= WALTER closed out).
 
 ## ★ LATEST (laptop, late 6/27) — full arc: Telegram fix · memory trim · DAEDALUS onboard
 **Machine switch / baton:** First laptop session. Desktop fully closed out + off; laptop is **sole writer**. All work committed + pushed, **0/0 with origin**. Switching back: the machine going dark must read `0 ahead` first (`git rev-list --count @{u}..HEAD`); the booting machine pulls first. Desktop-only automation (`liquid-hy-watch` timer, news-sweep cron) **paused** while on laptop — re-check HY on desktop return. No market trigger, no capital (standing rule held) — pure infra/maintenance night.
