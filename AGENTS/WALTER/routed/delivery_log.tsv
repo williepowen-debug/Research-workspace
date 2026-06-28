@@ -444,3 +444,7 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-06-28T23:02:00Z	SIG-W-20260628-012	AEOLUS	ACTION	CC	ROUTINE	AGENTS/AEOLUS/inbox/WALTER/SIG-W-20260628-012.md	written_not_delivered_pending_push	firming datapoint for master variable; likely already held (latest print)
 2026-06-28T23:02:00Z	SIG-W-20260628-012	CORAL	INFO	CC	ROUTINE	AGENTS/CORAL/inbox/WALTER/SIG-W-20260628-012.md	written_not_delivered_pending_push	Atlantic-hurricane-suppression prior for FL; reconcile to AEOLUS ENSO figure
 2026-06-28T23:02:00Z	SIG-W-20260628-012	RED	INFO	CC	ROUTINE	AGENTS/RED/inbox/WALTER/SIG-W-20260628-012.md	written_not_delivered_pending_push	counter: record-for-time-of-year != absolute; ENSO->economy lead long
+2026-06-28T23:58:00Z	SIG-W-20260628-013	CARL	ACTION	CC	PRIORITY	AGENTS/CARL/inbox/WALTER/SIG-W-20260628-013.md	written_not_delivered_pending_push	gold-export distortion; read net-exports ex-gold before banking export strength
+2026-06-28T23:58:00Z	SIG-W-20260628-013	BOND	INFO	CC	PRIORITY	AGENTS/BOND/inbox/WALTER/SIG-W-20260628-013.md	written_not_delivered_pending_push	gold-flow/trade-balance/de-dollar; pairs SIG-606-001
+2026-06-28T23:58:00Z	SIG-W-20260628-013	HENRY	INFO	CC	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260628-013.md	written_not_delivered_pending_push	capital-goods + computers +$12B = AI-hardware export leg
+2026-06-28T23:58:00Z	SIG-W-20260628-013	RED	INFO	CC	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260628-013.md	written_not_delivered_pending_push	cluster_mediating: separate gold distortion from real signal
