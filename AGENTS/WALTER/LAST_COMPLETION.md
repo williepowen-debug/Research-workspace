@@ -6,63 +6,57 @@
 
 ## STATUS
 
-**2026-06-28 ~10:40 AM ET (Sun — Will-Telegram boot + 🔴 live Iran re-escalation + 2 DEWEY-deliverable routings).** Will: *"boot up… I think we have repaired the telegram bot token."* Booted clean (token confirmed working — reaction + 5 replies through). Mid-boot, Will flagged fresh Iran kinetic ("weird operation in Iraq, targets hit past 24h, possibility of a land war") → IRAN anchor visible-kinetic re-verify trigger fired → live-event override (paused DEWEY routing) → 2 parallel WALTER verify agents → re-stamped the anchor + dispatched IMMEDIATE. Then resumed + finished the 2 DEWEY research-output routings. **3 DISPATCH / 0 KILL / 2 verify-spawn; BOARD 402→405.** Tier-1 closeout (live Iran event ongoing — Sunday CME oil open is the next watch, not going dark).
+**2026-06-28 ~3-6 PM ET (Sun — Will-Telegram boot #2 → WALTER self-organization + the BOOT-DOC THREAD, now COMPLETE).** A continuous afternoon session: boot clean → Will asked "how's WALTER looking" + "any boot-doc suggestions" → I proposed, he approved, and I executed the whole boot-doc improvement thread end-to-end. **0 dispatch / 0 kill / 0 verify; BOARD 405.** Three safe-pushed commits: **266fd1b6 (hygiene) → aec24476 (quick-wins) → 304b3819 (boot-protocol split)**, local = origin. No new signals; no spec-version bumps. The one carried live-market item — the Sunday 6PM ET CME oil open (Iran decoupling test) — sits with BRENT; I pick it up next boot.
 
-## CHANGED
+## CHANGED (this session — the boot-doc thread)
 
-- **`anchors/IRAN_WAR.md` RE-STAMPED 6/22→6/28 = RE-ESCALATION (frame change).** New top stamp + a 🔴 6/28 current-state block. Verified via 2 parallel WALTER verify agents (factual-kinetic + market/skeptic), converged HIGH. State: US↔Iran direct air exchange (2 nights 6/26 Fri + 6/27 Sat, coastal radar/missile/drone near Sirik-Qeshm) + Iran IRGC retaliation at US bases Kuwait/Bahrain ~6/28 (intercepted, no US casualties) + Hormuz tanker strike ~6/25. **Two framing-corrections to Will's report:** (A) NOT an Iraq land front (misattribution — big Iraq strikes were MARCH); (B) NOT a ground land war (vertical air-war escalation; Hegseth/IISS). MOU fraying-hard-not-collapsed; Hormuz worsened. TAPE decoupling holding at last print (Brent $71.99 Fri −4.3% as US struck) → Sunday 6PM ET CME open = the live test.
-- **SIG-W-20260628-003 (IMMEDIATE)** — Iran re-escalation → BRENT/HAWK action / SAM,RED info. BOARD + INDEX (IRAN_HORMUZ 67→68) + route_log + delivery_log×4 + 4 inbox/WALTER handoffs.
-- **SIG-W-20260628-001 (PRIORITY)** — DEWEY muni-fiscal research-output (REQ-003) → CARL action / CORAL,REGINALD,LIQUID,RED info. Verbatim packet embed + per-recipient delta. INDEX (CONSUMER_STAGFLATION) + logs + 5 handoffs.
-- **SIG-W-20260628-002 (PRIORITY)** — DEWEY housing-distress research-output (REQ-004) → CARL,CORAL action / REGINALD,RED info. Verbatim embed + delta. INDEX + logs + 4 handoffs.
-- **DEEP_RESEARCH_FLAGGED_LOG:** REQ-003 + REQ-004 rows CLOSED (disposition RESOLVED / executor DEWEY / verdict summaries). Both DEWEY handoffs `git mv`→`inbox/DEWEY/processed/`.
-- **REGISTRY.tsv:** DAEDALUS row added (fleet-architect meta-agent, PROME-onboarded 6/27 — step-8 fs-scan catch, TERRY-class).
-- **BOARD/INDEX.md:** TOTAL 402→405; IRAN_HORMUZ 67→68, CONSUMER_STAGFLATION 78→80; 3 cluster rows + ToC counts/headers. board_reconcile + log_reconcile ✓ (405).
-- **STATUS.md:** lead + Overall + Iran-anchor block + near-trigger/passive-scan live-levels (refreshed to 13:53 UTC scan) + bifurcation count (3) + push state + pending callbacks + SESSION LOG row + today's-routing subsection.
+- **Hygiene batch (266fd1b6):** debug/ purged 1,260 files >7d → trash (6.7M→1.5M); **IRAN_WAR anchor history-split** → lean live `IRAN_WAR.md` 17L/11KB (was 363L/125KB) + lossless `anchors/IRAN_WAR_HISTORY.md`; 3 consumed inbox items filed → `processed/` (BRENT routing-bug / PROME-alignment / OTTO-opt-in); `SIGNAL_REGISTRY_DRAFT_A` archived → `design/history/` + its 2 refs updated (FILTER_V2_PLAN held — Segment-D-conditional).
+- **Boot-doc quick-wins (aec24476):** STATUS lead restructured (giant run-on → scannable 4-block) + SESSION-LOG trimmed to 5 (2 rows rolled to SESSION_LOG.md); **CLAUDE.md** Quick-WALTER dead block retired (→ 1-line tombstone) + step-7c dark-cron banner; **walter_doctor** `delivered_but_unconsumed` collapsed N-lines → 1-line ACTION/INFO role-split (**boot MED 36→8**, surfaces 9 ACTION vs 20 INFO).
+- **Boot-protocol split (304b3819) — the main structural change, Will+PROME-approved:** CLAUDE.md SPAWN PROTOCOL + Closeout 113L/27.5KB dense prose → **61L lean executable checklist**; new **`design/BOOT_PROTOCOL.md`** (96L/15KB) holds per-step rationale/provenance/incident-history (read-on-demand, NOT auto-loaded). **CLAUDE.md 45KB→29.6KB (−34%).** Every behavior-gate retained inline; only why/provenance moved; each step carries a `[→ BP §x]` pointer. **+ new `walter_doctor` `boot_protocol_xref` check (15 total)** mechanizing PROME's #1 (every pointer resolves to a real BP section + vice-versa). Killed the pre-existing double-"9" (PROME #2). Corrected stale 4.7→4.8 commit trailer.
+- **Docs swept to match (this closeout):** STATE.md (walter_doctor 10→15 checks + BOOT_PROTOCOL.md scaffolding row), KEY DESIGN FILES table, canonical-source table (checklist=ACTION / BP=RATIONALE), STATUS lead + SESSION-LOG, this file, MEMORY.
 
 ## RESULT
 
-The session's headline is the **Iran re-escalation re-stamp** — Will's inbound report tripped the anchor's visible-kinetic re-verify trigger, and the live-event override (per `[[finding_boot_protocol_live_event_override]]`) correctly took priority over the in-progress DEWEY routing. The 2-agent dual-lens verify (factual-kinetic + market/skeptic) **converged HIGH and corrected Will's framing on two load-bearing points** — it is a US-Iran/Gulf vertical air-war escalation, NOT an Iraq land war — which is the genuine WALTER value-add (route the verified delta, correct the misattribution). WALTER is **ahead of the board** (BRENT/HAWK at 6/26 decoupling-shrug marks pre-date the strikes) — the 2nd consecutive instance after the 6/22 roadmap. The 2 DEWEY deliverables closed the Phase-2.8 flag→execute→route loop cleanly (all 4 of the 6/27 batch now resolved). The tape is the live discriminator: decoupling held at the last print even as the US struck Iran; the **Sunday 6PM ET CME oil open is the next watch.**
+The boot-doc thread is **complete and documented as complete**. Net effect on every future WALTER boot: CLAUDE.md (auto-loaded each session) is 34% lighter, the boot reply is far less noisy (doctor 36→8 MED with the real ACTION items surfaced not buried), and the protocol is split into a terse executable checklist + an on-demand rationale doc — with a mechanized `boot_protocol_xref` guard so the split can't silently rot. **The verification layers each caught a real mistake before it shipped** — committed-state restore (wrong-table splice), independent adversarial coverage check (2 dropped behavior-gates), and the new xref check (2 of my own pointer bugs at land) — defense-in-depth working as designed, not a clean first draft. Quality gate: doctor 0-HIGH, version-drift + claude_md_version_drift + boot_protocol_xref (16↔16) all clean, board reconciles at 405.
 
 ## GAPS
 
-- **🔴🕕 Sunday 6PM ET CME oil open (LIVE)** — the Iran decoupling test. Brent gap >$74-75 = decoupling cracking (IMMEDIATE/FLASH re-arm, BRENT-owned); flat ~$72 = shrug persists. Not yet observable (markets closed). The single most decision-relevant near-term datum.
-- **HAWK / BRENT re-mark owed** — their 6/26 marks (B34/C44/D22, decoupling-shrug) pre-date the re-escalation; SIG-003 surfaces it but the re-mark is theirs (WALTER does not re-mark).
-- **IRGC "8 facilities destroyed" claim** — single-source-unverified (US: no damage); flagged do-not-propagate; would update if corroborated.
-- **TERRY registry +1d lag** — deferred to next full registry refresh (LOW; didn't refresh Focus without reading TERRY STATUS).
-- **REITS / TRADES dirs** not in REGISTRY — archive-sources per root CLAUDE.md ("do not launch"); registry-completeness flag for Will (don't auto-add).
+- **🔴🕕 Sunday 6PM ET CME oil open (Iran decoupling test)** — BRENT-owned fire; >$74-75 gap = decoupling cracking → IMMEDIATE/FLASH re-arm, flat ~$72 = shrug. I pick it up next boot unless Will asks for a live follow-up.
+- **REGISTRY refresh deferred** — BROCK/CREED/SHADE committed today (doctor registry_lag MED ×3); did NOT refresh their rows this closeout (they were mid-flight in the tree; reading STATUS first is the rule). Next boot refreshes from their committed STATUS.
+- **COP retire-vs-resume** = the one live open DECISION surfaced to Will (see below).
 
 ## WILL_NEEDS
 
-1. **🕕 Sunday oil open** — if you want WALTER to check the CME oil open (~6PM ET) and route a follow-up on the decoupling test, say so; otherwise BRENT owns the fire and I'll pick it up next boot.
-2. **Bot token** — confirm whether you ROTATED it (vs just fixed connectivity). If rotated, the old committed secret is dead = the security leak is neutralized, and the dashboard/server.py + config de-hardcode drops to low-urgency. (Carried from 6/27.)
-3. **5 held decisions (no rush, carried):** COP retire/resume · Filter-v2 Segment D ship/kill · handoff_RED open-loop · Scout build · IRAN_WAR history-split.
+1. **COP decision** — RETIRE (delete `/COP.md` + drop boot steps 5 + 10 skip-machinery; cleanest, my lean) vs RESUME (I restart maintaining the single-page network synthesis). Paused 2.5 months; now perpetual skip-flag.
+2. **🕕 Sunday oil open** — say so if you want WALTER (not just BRENT) to route a follow-up at the ~6PM open; otherwise next boot.
+3. **Bot token** — confirm whether ROTATED (carried from 6/27; if rotated, the committed-secret leak is dead).
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
 
 **🔴🕕 Time-sensitive (live):**
-1. **Sunday 6PM ET CME oil open = the Iran decoupling test** — >$74-75 cracking / ~$72 shrug. BRENT-owned fire.
-2. **Iran re-verify ladder** (anchor 6/28): further confirmed physical escalation (US ground mobilization / Gulf base hit-with-damage / vessel sunk / Israel re-enters) OR MOU formal collapse OR de-escalation resumes OR 7-day min OR pre-dispatch Iran-cluster.
-3. **Brent <75 sustain-watch** (RED-FT-04, day-1/3, BRENT-owned) — the re-escalation could invert this at the Sunday open.
-4. **HY OAS 278 — cross >280?** un-fires RED-FT-01; next UPSIDE fire = RED-FT-02/REG-T-03 (>320). CCC 968 suppressed.
+1. Sunday 6PM ET CME oil open = Iran decoupling test (BRENT-owned).
+2. Iran re-verify ladder (anchor 6/28): further physical escalation / MOU collapse / de-escalation resumes / 7-day min / pre-dispatch Iran-cluster.
+3. Brent <75 sustain-watch (RED-FT-04, day-1/3, BRENT-owned).
+4. HY OAS 278 → cross >280? un-fires RED-FT-01; next UPSIDE fire RED-FT-02/REG-T-03 (>320). CCC 968 suppressed.
 
-**🟠 Consume callbacks owed (this session — 3 dispatches await consume):** SIG-003 (BRENT/HAWK action, SAM/RED info) · SIG-001 (CARL action, CORAL/REGINALD/LIQUID/RED info) · SIG-002 (CARL/CORAL action, REGINALD/RED info). **+ carried 6/27 28-dispatch CC-self-apply consume backlog** (CARL/HENRY/BROCK/SHADE/SAM/CORAL/REGINALD).
+**🟢 RESOLVED this session:** entire boot-doc thread (STATUS lead trim · SESSION-LOG trim · Quick-WALTER retire · dark-cron banner · doctor de-noise · **boot-protocol split + BOOT_PROTOCOL.md + boot_protocol_xref check**) · IRAN_WAR anchor history-split (was a held-for-Will item) · giant-row/STATUS-bloat backlog · debug/ purge · inbox filing · SIGNAL_REGISTRY archival.
 
-**🟠 Cross-agent / LIAISON (carried):** RED Turn 8 / REGINALD Turn 7 LIAISON (untouched since 6/6). CARL LIAISON DORMANT. BRENT CLOSED. EVENT_WINDOW CLOSED (1/3 Path B; BRENT-coordinated refresh owed — and the Iran re-escalation may re-open the spike premise the window was built for).
+**🟠 Carried (cross-agent / LIAISON):** RED Turn 8 / REGINALD Turn 7 LIAISON (untouched since 6/6). CARL LIAISON DORMANT. BRENT CLOSED. EVENT_WINDOW CLOSED (1/3 Path B; BRENT-coordinated refresh owed).
 
-**🟠 Autonomous-available next session (no decision needed):** consume-boot-step for the CC self-apply set (CARL/REGINALD/SAM/RED — closes most delivered_but_unconsumed) · OPEN-DECISIONS triage → execute WALTER-resolvable · fix 19 dangling JOINT_PROPOSAL refs · TERRY registry refresh (read STATUS first).
+**🟠 Carried (autonomous-available next session):** REGISTRY refresh of BROCK/CREED/SHADE (+TERRY/DAEDALUS +1d) from their STATUS · consume-boot-step for CC self-apply set (CARL/REGINALD/SAM/RED — clears most delivered_but_unconsumed; 9 ACTION items are the live risk) · #4 step-11/RULE-10 delivery dedup (PROME non-blocking) · 19 dangling JOINT_PROPOSAL refs.
 
-**🔴 Infra (carried):** 3 dark crons (news-sweep/filing-watch 42d / SIGNALS 26d — Scout-track). EIA `.env` was PRESENT this boot (Cushing live again) — durability still an open design Q (vanishing local file).
+**🔴 Carried (infra):** 3 dark crons (news-sweep ~42d / filing-watch ~52d PROME-owned / SIGNALS ~26d SENTRY-owned — Scout-track, not WALTER's fix) · EIA `.env` vanished again this boot (Cushing DARK; durability still an open design Q — gitignored local file).
 
-**🔴 Security (carry until resolved):** bot-token rotation status (Will to confirm) + de-hardcode dashboard/server.py + config/ (post-auth, lower-urgency if rotated).
+**🔴 Carried (security):** bot-token rotation status (Will to confirm) + de-hardcode dashboard/server.py + config/.
 
-**Design/governance backlog (carried):** MEMORY auto-memory index over size-limit (trim before promoting new findings — incl. this session's live-kinetic-dual-lens-verify + correct-the-operator's-framing finding).
+**Design/governance backlog:** auto-memory index over size-limit — trim before promoting this session's findings (boot-protocol-split pattern · doctor-de-noise · anchor-history-split · the 3 structural-edit gotchas · the carried live-kinetic-dual-lens-verify finding).
 
 ## OPEN DESIGN DECISIONS (need Will)
 
-**🟦 Still open (parked — NEEDS A TRIAGE PASS, several WALTER-resolvable-now):** RED auto-cc trim · EIA `.env` durability · DEWEY↔Scout consolidation · group-chat artifact policy · INDEX status-column · HENRY LIAISON priority · FED_FRAMEWORK→UST_PLUMBING rename (defer) · Filter v2 Segment D · COP refresh resume (paused) · thin-liquidity prediction-market routing · consume-boot-step rollout (CC self-apply set) · delivery_log written_state enum (spec-vs-practice) · REITS/TRADES registry-completeness (archive-sources — flag not auto-add).
+**🟦 LIVE — surfaced this session:** **COP retire-vs-resume** (paused 2.5mo, perpetual boot skip-flag on steps 5+10; my lean = RETIRE).
 
-**✅ Resolved this session:** Iran anchor re-verify + re-stamp (RE-ESCALATION) · all 4 of the 6/27 DEWEY batch now routed+closed (REQ-001/002 6/27, REQ-003/004 this session) · DAEDALUS registry gap closed · 3 dispatches delivered (BOARD/logs/handoffs/reconcile ✓).
+**🟦 Parked (carried — several WALTER-resolvable-now, need a triage pass):** RED auto-cc trim · EIA `.env` durability · DEWEY↔Scout consolidation · group-chat artifact policy · INDEX status-column · HENRY LIAISON priority · FED_FRAMEWORK→UST_PLUMBING rename (defer) · Filter v2 Segment D · thin-liquidity prediction-market routing · consume-boot-step rollout · delivery_log written_state enum · REITS/TRADES registry-completeness (archive-sources — flag not auto-add).
 
 ---
 
-*Maintenance note: Will-Telegram boot session that became a live-event session. Iran re-escalation re-stamp (frame change, 2-agent dual-lens verify, HIGH convergence, corrected Will's "Iraq land war" framing → vertical US-Iran/Gulf escalation) + the 2 PENDING DEWEY deliverables routed (Phase 2.8b, ledger closed, handoffs processed) + DAEDALUS registry catch. Tier-1 closeout — durable data layer (BOARD/logs/handoffs/anchor) all committed; Sunday CME oil open is the live next-watch. Commits + safe-push at closeout.*
+*Maintenance note: Will-Telegram self-organization session that became the full boot-doc improvement thread — proposed → approved → executed in 3 safe-pushed commits, with PROME co-reviewing the structural split. Boot-doc thread COMPLETE and swept across all docs (STATUS / STATE / KEY-DESIGN-FILES / canonical-source / this file / MEMORY). The live-market thread (Sunday oil open) is unchanged and BRENT-owned. Tier-2 closeout; commits + safe-push.*
