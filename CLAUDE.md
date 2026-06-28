@@ -96,7 +96,7 @@ Agents share one working directory and branch. **GitHub is the single source of 
 
 Closeout discipline, fleet-wide (ratified 2026-06-26 after a 5-agent architecture review; see `PROME/cluster/2026-06-26_fleet_arch_compare.md`).
 
-- **Ledger staleness — STATUS is canonical truth.** TSV workbook ledgers (KB/VX/FLOW/etc.) silently drift behind STATUS — a *universal* fleet failure mode. Keep each ledger in one of two states, never the silent-rot middle: **(a) FROZEN** — dead ledger, prepend a banner `FROZEN <date> — not maintained; STATUS is canonical, do not cite rows as current`, and stop maintaining it; or **(b) LIVE with a boot-time mtime staleness alert** (surface "X.tsv stale Nd" at boot, not at closeout).
+- **Ledger staleness — STATUS is canonical truth.** TSV workbook ledgers (KB/VX/FLOW/etc.) **and agent-level position / `TRADE.md` surfaces** (e.g. `FORGE/STATUS.md`) silently drift behind STATUS — a *universal* fleet failure mode. Keep each ledger in one of two states, never the silent-rot middle: **(a) FROZEN** — dead ledger, prepend a banner `FROZEN <date> — not maintained; STATUS is canonical, do not cite rows as current`, and stop maintaining it; or **(b) LIVE with a boot-time mtime staleness alert** (surface "X.tsv stale Nd" at boot, not at closeout).
 - **Research/sources retirement (closeout step):** a file that is *>60 days old AND not boot-read AND not referenced by a live doc* → `git mv` to `archive/`. Prevents research-graveyard accumulation.
 - **Out of scope (do not build):** outbox-kill / new cross-agent send protocols / inbox boot-auto-triage. File-based messaging is slated for replacement (auto-memory `messaging_overhaul`) — interim is only "stop writing dead outbox files"; route messaging redesign to that effort.
 
