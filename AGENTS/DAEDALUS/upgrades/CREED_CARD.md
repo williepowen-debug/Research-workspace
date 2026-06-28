@@ -4,7 +4,7 @@
 **Method:** `UPGRADE_PROTOCOL.md` (one section at a time) · graded vs `BLUEPRINTS/market-agent.md` · comprehension in `profiles/CREED.md`
 **Verdict: L1 (conf M), adversarially verified.** CREED is a **well-built revival, NOT a skeleton** — exemplary stale-data hygiene + an L3-flavored thesis. It grades L1 only because the **L2 gate (a live accruing ledger) is unmet**: its structured records are FROZEN Feb'26 legacy un-pulled-forward. The climb is a **PULL-FORWARD / rehab, not a build-from-scratch** (PAT-021). Graded floor-not-ceiling for a spawn-on-need agent. Nothing applied.
 
-**↳ PROME scoping (6/28):** batch-1 (gated, `BATCH_01_handles.md`) = BOTTOM LINE (§8) + 5-pt convergence over the 8 Expected Signals (§2) + one-table routing consolidation (§6). **HELD for round two:** live-workbook stand-up / PREDICTIONS rehab (§5) — justify accruing machinery on a spawn-on-need agent first. Apply only after PROME/Will approve + idle-check.
+**↳ PROME scoping (6/28) — ✅ APPLIED 6/28 (commit 4fa5eb21):** batch-1 (gated, `BATCH_01_handles.md`) = BOTTOM LINE (§8) + 5-pt convergence over the 8 Expected Signals (§2) + one-table routing consolidation (§6). **HELD for round two:** live-workbook stand-up / PREDICTIONS rehab (§5) — justify accruing machinery on a spawn-on-need agent first. Apply only after PROME/Will approve + idle-check.
 
 ---
 

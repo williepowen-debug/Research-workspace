@@ -4,7 +4,7 @@
 **Method:** `UPGRADE_PROTOCOL.md` (one section at a time) · graded vs `BLUEPRINTS/market-agent.md` · comprehension in `profiles/SHADE.md`
 **Verdict: L2 (conf H), adversarially verified** ("generous, not overstating"). SHADE is a **richly-built, forensically-distinctive L2** — thesis, thresholds and standing disciplines are already at/near L3 grade. It is held below L3 by missing the discipline-layer **HANDLES**, and **most are missing-handle, not missing-substance** (PAT-022) → the climb is cheap. Every proposal is *additive*; nothing applied.
 
-**↳ PROME scoping (6/28):** batch-1 (gated, `BATCH_01_handles.md`) = trailing BOTTOM LINE (§8) + Score(1-5)/Independence cols on §3 (§2) only. **HELD for round two:** full PREDICTIONS.tsv (§5) + standing exit-triad (§4) — justify the ledger cadence on a watch agent first. Apply only after PROME/Will approve + idle-check.
+**↳ PROME scoping (6/28) — ✅ APPLIED 6/28 (commit c294b663):** batch-1 (gated, `BATCH_01_handles.md`) = trailing BOTTOM LINE (§8) + Score(1-5)/Independence cols on §3 (§2) only. **HELD for round two:** full PREDICTIONS.tsv (§5) + standing exit-triad (§4) — justify the ledger cadence on a watch agent first. Apply only after PROME/Will approve + idle-check.
 
 ---
 

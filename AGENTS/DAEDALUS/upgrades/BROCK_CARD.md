@@ -4,7 +4,7 @@
 **Method:** `UPGRADE_PROTOCOL.md` (one section at a time) · graded vs `BLUEPRINTS/market-agent.md` · comprehension in `profiles/BROCK.md`
 **Verdict: L4 (conf H), adversarially verified.** BROCK is among the most complete market agents in the fleet — **conformant or exemplary on 6 of 8 sections**. The FLEET_MAP previously under-rated it L3 on a **false "No TRADE.md" premise** (corrected; see PAT-020). Every proposal below is an *added handle* or a *staleness refresh*, never a rewrite. Nothing applied — this is the queue.
 
-**↳ PROME scoping (6/28):** batch-1 (gated, `BATCH_01_handles.md`) = Independence col (§2) + if-falsified ACTION col (§5) + BANK_BDC_MATRIX freeze. **Position-truth (stale TRADE.md marks) = PROME's lane, NOT DAEDALUS** (FORGE decision-a) — do not route or edit marks. Apply only after PROME/Will approve + idle-check.
+**↳ PROME scoping (6/28) — ✅ APPLIED 6/28 (commit 7435022d; item5 routed to BROCK inbox):** batch-1 (gated, `BATCH_01_handles.md`) = Independence col (§2) + if-falsified ACTION col (§5) + BANK_BDC_MATRIX freeze. **Position-truth (stale TRADE.md marks) = PROME's lane, NOT DAEDALUS** (FORGE decision-a) — do not route or edit marks. Apply only after PROME/Will approve + idle-check.
 
 ---
 
