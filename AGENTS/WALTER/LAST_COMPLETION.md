@@ -20,6 +20,8 @@
 - **`[token-redact]`** — checked WALTER design docs (only abbreviated refs, no full secret — no change needed).
 - **`[closeout]`** — registry refresh (BRENT/HAWK/NEXUS/ORACLE — registry_lag MED cleared for those 4); STATUS lead deep-trim (6.4KB→1.3KB) + SESSION-LOG trim-to-5 (8 rows→SESSION_LOG.md, 224→236) + NETWORK-AWARENESS regen + dropped stale 6/16 deltas block; MEMORY (2 findings + notes); this rewrite.
 
+- **`55f91f05`→`5cbe5b54` (post-Tier-2, Will-directed continuations):** de-hardcoded the bot token from 3 FORGE files (Will-auth); BOARD INDEX ToC slim (73KB→2.3KB, blurbs→EOF archive, reconcile 402); FORGE dead-execution archived→`FORGE/_archive/` (tools/+STATUS/PORTFOLIO kept) + PROME position-truth signal. All on origin.
+
 ## RESULT
 
 The audit's headline: **the cobbler's-children gap** — WALTER polices the network's signal hygiene but its own self-diagnostic (walter_doctor) watched the DATA layer, not WALTER's own instruction/summary docs, so CLAUDE.md drifted 4 spec-versions, the BOARD INDEX bloated to 530KB (un-Read-able), the STATUS lead to 6.4KB, and a plaintext bot token sat committed — none alarmed at boot. **The durable win isn't the cleanup, it's the +4 doctor checks: that rot now self-alarms instead of needing a 6-agent sweep to find.** STATUS shrank 66KB→40KB; design/ 24→18 live files; doctor exit now surfaces the genuinely-actionable (3 dark crons, Cushing-dark, recipient-unconsumed) cleanly.
