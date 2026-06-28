@@ -646,6 +646,44 @@ def check_staleness_sweep_overdue():
     return [(INFO, f"staleness sweep {age}d ago (last {m.group(0)}, ≤14d)")]
 
 
+# ── boot-protocol cross-ref integrity (lean-checklist ↔ rationale-doc split) ─────
+def check_boot_protocol_xref():
+    """The CLAUDE.md boot checklist points to per-step rationale in
+    design/BOOT_PROTOCOL.md via [→ BP §x] tags. Two synced docs drift: a renumbered
+    step or renamed §x silently orphans a pointer. Mechanize it (same philosophy as
+    claude_md_version_drift) — every pointer must resolve to a real section, and every
+    section should be pointed-to. Added 2026-06-28 (PROME review of the split)."""
+    claude = WALTER / "CLAUDE.md"
+    bp = WALTER / "design" / "BOOT_PROTOCOL.md"
+    try:
+        ctext = claude.read_text(encoding="utf-8", errors="replace")
+    except OSError:
+        return [(LOW, "CLAUDE.md unreadable — boot-protocol xref unverifiable")]
+    ptrs = set(re.findall(r"\[→ BP §(\S+?)[\]\s]", ctext))
+    if not bp.exists():
+        if not ptrs:
+            return [(INFO, "no boot-protocol split in use (no [→ BP §x] pointers)")]
+        return [(MED, f"{len(ptrs)} [→ BP §x] pointer(s) but design/BOOT_PROTOCOL.md is MISSING")]
+    btext = bp.read_text(encoding="utf-8", errors="replace")
+    secs = set()
+    for h in re.findall(r"^## §(.+?)\s+—", btext, flags=re.M):
+        for part in h.split("/"):  # combined headers like "§5 / §10" carry § on each part
+            secs.add(part.strip().lstrip("§").strip())
+    dangling = sorted(p for p in ptrs if p not in secs)
+    orphan = sorted(s for s in secs if s not in ptrs)
+    out = []
+    if dangling:
+        out.append((MED, f"boot-protocol xref: {len(dangling)} pointer(s) resolve to NO section: "
+                         f"{', '.join('§' + d for d in dangling)} — fix the [→ BP §x] tag or the "
+                         f"BOOT_PROTOCOL header"))
+    if orphan:
+        out.append((LOW, f"boot-protocol xref: {len(orphan)} section(s) with no inbound pointer: "
+                         f"{', '.join('§' + o for o in orphan)} (orphaned rationale)"))
+    if not out:
+        out.append((INFO, f"boot-protocol xref clean ({len(ptrs)} pointers ↔ {len(secs)} sections)"))
+    return out
+
+
 CHECKS = [
     ("version_drift", check_version_drift),
     ("claude_md_version_drift", check_claude_md_version_drift),
@@ -661,6 +699,7 @@ CHECKS = [
     ("written_but_undelivered", check_written_but_undelivered),
     ("deep_research_pending_overdue", check_deep_research_pending_overdue),
     ("staleness_sweep_overdue", check_staleness_sweep_overdue),
+    ("boot_protocol_xref", check_boot_protocol_xref),
 ]
 
 MARK = {HIGH: "✗", MED: "⚠", LOW: "·", INFO: "✓"}
