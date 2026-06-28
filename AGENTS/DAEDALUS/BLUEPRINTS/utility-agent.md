@@ -1,6 +1,6 @@
 # BLUEPRINT — Utility-Agent
 
-**Owner:** DAEDALUS · **Status:** 🟡 DRAFT (built 2026-06-28) — routed to PROME for review **before** it supersedes the template or becomes the grading standard.
+**Owner:** DAEDALUS · **Status:** 🟢 ACTIVE (built + activated 2026-06-28, Will + PROME approved) — the grading standard for utility agents. *(Supersedes the utility half of `templates/CLAUDE_TEMPLATE.md`; the template redirect is tracked as a follow-up cleanup.)*
 **Assembled best-of-breed from** `BEST_PRACTICES.md` (the 2026-06-27 fleet harvest). Composed, not cloned.
 **Use for:** agents that produce a **service the fleet consumes**, not a market thesis — **WALTER, NEXUS, RED, TERRY, ORACLE, YEYOU.** Not market (owns a thesis → `market-agent.md`); not meta (authority to *change* the system's structure → `meta-agent.md`). *(Class discriminator at the bottom.)*
 
@@ -16,6 +16,8 @@ A utility agent's whole reason to exist is an output other agents consume. The O
 - **PRODUCES** — the named artifact/service (a routing disposition + BOARD; a `NEXUS_BRIEF`; a steelman + honest odds; a trade construction; a probability read; a review verdict).
 - **CONSUMED BY** — which agents / Will, via which surface (the brief, an inbox, the board, the digest).
 - **PROOF OF CONSUMPTION** — evidence it was actually received & used: telemetry (WALTER's `produced ≠ received ≠ consumed`), a consumer citing it, a `board_log`/ledger row. **Absence of proof IS the gap.**
+
+> **Refinement — the gate must not recreate the false-negative it exists to prevent (PAT-028).** Some utility output is consumed *informally*, with no ledger row possible — RED's steelman shifts a decision, TERRY's construction gets traded. **Qualitative proof counts** (a consumer citing it; a decision that visibly moved). Where consumption is genuinely *un-instrumentable*, that is a **structural-ceiling NOTE, not a fix-it debt** — do NOT grade the agent down for telemetry it cannot have. Apply this blueprint's own anti-DARWIN logic to its own L4 gate.
 
 This is the **L4 gate** *and* the payoff: uniform coordination visibility is the load-bearing knowledge for the coordinator. Accurate grading is a byproduct — lead with the contract, not the level.
 
@@ -65,7 +67,7 @@ The subject being "the system" does **not** make an agent meta — WALTER and NE
 ---
 
 ## MATURITY CEILING (per `SPEC.md §5`)
-**L3** role rubric applied consistently · **L4** output consumed by others (the CONTRACT proven) · **L5** clean closeouts, zero YEYOU flags, current. Floor L0–L2 universal (skeleton → live STATUS+BOTTOM LINE → accruing structured record).
+**L3** role rubric applied consistently · **L4** output consumed by others (the CONTRACT proven — *qualitative proof counts; un-instrumentable consumption is a ceiling NOTE, not a debt, PAT-028*) · **L5** clean closeouts, zero YEYOU flags, current. Floor L0–L2 universal (skeleton → live STATUS+BOTTOM LINE → accruing structured record).
 
 ## SOURCING (best-of-breed)
 WALTER (delivery infra + telemetry, exemplar) · NEXUS (synthesis disciplines + independence) · RED (adversarial structure) · YEYOU (severity scale + escalation budget + ledger) · ORACLE (boot↔closeout + calibration). No single agent is the whole standard.
