@@ -177,3 +177,4 @@
 - [Fail Loud On Incomplete Data](finding_fail_loud_on_incomplete_data.md) — gate all-clear on zero failures AND zero flags
 - [Workflow Subagent Repo Sandbox](finding_workflow_subagent_repo_sandbox.md) — workflow subagents: repo-paths only, hardcode args
 - [Auto-Memory Hardlink In-Place Edit](finding_automem_hardlink_inplace_edit.md) — edit memory/auto in-place (>) to keep hardlink
+- [DAEDALUS Maturity Map = Hygiene Input](project_daedalus_maturity_map_hygiene_input.md) — L-levels are hygiene, not the scoreboard

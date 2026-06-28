@@ -6,6 +6,20 @@
 
 ---
 
+## 2026-06-28 (Sun, DESKTOP) — infra/coordination: FORGE-sweep · 3-agent catch-up · DAEDALUS maturity thread · WALTER boot-split · COP retired (6PM oil LEFT UNGRADED)
+
+**What landed:** (1) **FORGE-ref sweep DONE** (b169e149) — closed the option-(a) follow-up (root CLAUDE.md L30/L51 + FORGE/STATUS staleness banner). (2) **SHADE/CREED/BROCK catch-up** (fan-out, no-git, PROME-committed 89c1e885/6eb7b695/eaca6795) — inboxes cleared, **SHADE = canonical insurer-exposure owner**, BROCK BRK-29 leans LAPSE. (3) **★ DAEDALUS maturity thread** — reviewed+approved BATCH_01 (DAEDALUS applied to all 3); its hardened scanner exposed the cohort was under-rated → **firm-next-7 all came back L4** (I corrected its scope 5→7, caught the REGINALD+ORACLE omission); **BATCH_02 in my review queue**; **utility-agent blueprint greenlit** (output-consumption contract, thin floor, resolve YEYOU first). Root CLAUDE.md Data Hygiene now names `TRADE.md` (2c280a40). (4) **WALTER boot-protocol split** reviewed → WALTER landed both my fixes (`boot_protocol_xref` doctor-check + double-9) → verified clean (304b3819). (5) **COP RETIRED** (Will's call). (6) **WALTER Galveston $/SF cross-flag** routed (91c77b78).
+
+**Decisions Will made:** route Galveston→WALTER; approve+apply BATCH_01; greenlight firm-next-7 + utility blueprint; **RETIRE COP**; close out (leaving the 6PM oil ungraded).
+
+**Decisions needed from Will:** the **6PM oil grade** (carried — act only on a *sustained* >$75 crack, then the USO proposal); the 2 dark PROME-owned feeds (revive-as-bridge vs cede-to-Scout — I lean cede).
+
+**Risks/blockers:** **3 concurrent writers** today (DAEDALUS/WALTER/PROME), all clean (pathspec + safe-push rebase, no force); **WALTER live mid-Tier-2-closeout at this handoff** (uncommitted+staged incl. COP renames) → PROME committed PROME/ only, safe-push pushes the committed train (3 DAEDALUS commits ride it). telegram-prome/.env still missing on desktop (needs Will + off-repo token).
+
+**Next:** grade 6PM oil (SCRATCH = entry point); PROME pending lane = BATCH_02 review + AEOLUS→MARCO routing + BROCK position-truth packet; incoming = DAEDALUS utility-blueprint draft. Full detail → SCRATCH + `memory/2026-06-28.md`.
+
+**Rules held:** no trade executed (standing rule); pathspec commits (PROME/ + Will-authorized cross-agent routings only); catch-up agents scoped no-git (PROME committed on-behalf); verified every load-bearing claim vs filesystem before editing canonical docs; flagged (not auto-acted) the cron-revive + oil-grade calls to Will. *(HANDOFF now 7 entries — rotate oldest 6/26 next closeout.)*
+
 ## 2026-06-28 (Sun, LAPTOP) — Iran RE-ESCALATION + 6PM oil pre-registration · FORGE decision (a) · AEOLUS pulled (boot-recovery start; synced 0/0, pushed)
 
 **Boot context:** booted to a disrupted 6/28 WALTER routing session — recovered clean (nothing committed lost; only an untracked board signal + an inbox decision survived). WALTER then self-finished its own closeout live (muni 001 / housing 002 / Iran 003 committed+pushed).

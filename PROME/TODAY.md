@@ -1,11 +1,11 @@
 # TODAY.md — Sunday June 28, 2026
-**Updated:** 2026-06-28 (Sun, LAPTOP) closeout — **Iran RE-ESCALATION day.** Booted to a disrupted WALTER session (recovered clean); confirmed kinetic re-escalation (SIG-003) flipped the energy regime deflated→re-arming; spawned BRENT+HAWK → **pre-registered the ~6PM ET CME oil decoupling test.** Also: FORGE position-truth decision (a); AEOLUS (new climate→economy agent) pulled + reviewed. Synced 0/0, pushed. **No trade executed** (pre-registration only; standing rule held). Weekend — Brent $71.99 is 6/26 Fri-close.
+**Updated:** 2026-06-28 (Sun, DESKTOP) closeout ~17:50 ET — infra/coordination day. Laptop AM pre-registered the 6PM oil test; desktop PM did: FORGE-ref sweep, SHADE/CREED/BROCK catch-up, the **DAEDALUS maturity thread** (BATCH_01 applied, firm-next-7 all→L4, BATCH_02 queued, utility-blueprint greenlit), **WALTER boot-split** (landed+verified), and **COP retired** (Will's call). **No trade executed** (standing rule held). Weekend — Brent $71.99 is 6/26 Fri-close. **⚠ The 6PM oil grade was LEFT UNDONE — closed out ~12m before the reopen; it's the #1 next-session item.**
 
-**Objective:** position for the ~6PM ET oil reopen (the day's live event) without front-running it — pre-register, then grade the *sustain*. Everything else (FORGE decision, AEOLUS review, boot recovery) was coordination.
+**Objective:** the day's live event was the ~6PM oil reopen — pre-registered AM, but **left ungraded** at this close. Everything else (FORGE, catch-up, DAEDALUS/WALTER architecture) was coordination/infra.
 
 ---
 
-## ⏰ THE LIVE EVENT — ~6:00 PM ET CME oil reopen (grade next session)
+## ⏰ THE LIVE EVENT — ~6:00 PM ET CME oil reopen (LIVE NOW — UNGRADED; grade FIRST next session)
 | If Brent... | Read | Action |
 |---|---|---|
 | **<$74** HOLDS (~45%) | decoupling survived; thesis *strengthens* | none (XLE $65C stub more lapse-leaning) |
