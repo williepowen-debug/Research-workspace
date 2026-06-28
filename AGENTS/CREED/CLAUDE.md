@@ -34,6 +34,23 @@ Do **not** own:
 
 ---
 
+## Cross-Agent Route Matrix (condition → target → priority)
+
+*Consolidated 2026-06-28 per DAEDALUS BATCH_01 — single lookup; the per-signal Response lines in `thesis/THESIS.md` §Expected Signals + §Agent Handoffs stay canonical for detail.*
+
+| Condition (CREED signal fires) | → Target | Priority | What CREED sends |
+|---|---|---|---|
+| Bank CRE convergence (S3): FDIC non-owner CRE PDNA re-rising; reserve-coverage deterioration; CRE provisions/charge-offs across watchlist banks | REGINALD | 🔴 | bank-size CRE PDNA + reserve-coverage; property/metro map; mod-exhaustion / re-default evidence |
+| Maturity-default wave (S2) / office CMBS re-accelerates (S1) with bank-exposed metro overlap | REGINALD (+ LIQUID if refi-driven) | 🔴 | property/metro stress map; maturity-wall timing |
+| Forced-sale / NAV recognition (S6); maturity-wall funding/refi pressure; lender-appetite / credit-closure signs | LIQUID | 🟠 | forced-sale comps; funding/refi pressure; NAV-cascade evidence |
+| Multifamily term-default broadening (S5); property-level stress with household spillover | CARL | 🟠 | multifamily term-default evidence; rent/occupancy/property-level stress |
+| Florida-specific CMBS / hotel / multifamily / condo stress | CORAL | 🟠 | FL-specific stress only (reconcile to one number; CORAL owns whole-FL) |
+| Forced-sale LGD comp (e.g. Galveston) | REGINALD | 🟡 | recovery-rate / LGD input for office-workout modeling |
+
+Standing rule: route to the **domain owner**, one signal at a time, transmission-relevant only. CREED reports inbox dispositions; PROME `git mv`s. No outbox spam.
+
+---
+
 ## Canonical Boot Order
 
 1. Read this file.

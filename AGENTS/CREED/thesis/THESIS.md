@@ -184,6 +184,25 @@ Response:
 
 ---
 
+## Convergence Matrix (5-pt stackable handle)
+
+*Added 2026-06-28 per DAEDALUS BATCH_01.* Maps the 8 Expected Signals onto the universal 5-pt scale so NEXUS/PROME can stack CREED's national-CRE read **without spawning the tier-2 agent**. Scale: 5 firing → 4 🔴 elevated → 3 🟠 building/near-trigger → 2 🟡 latent → 1 ⚪ dormant. Independence = shared-antecedent flag (count a shared root once). *Current reads carry as-of dates — refresh on the Monday pulls before re-scoring.*
+
+| # | Vector (Expected Signal) | Score | Local state / current read [as-of] | Independence | Upgrade trigger |
+|---|---|---:|---|---|---|
+| 1 | Office CMBS stress re-accelerates | 3 | delinq 11.53% / SS 16.75% [Trepp May] — elevated, near the >12%/>18% trigger, not fired | ⟂ shares maturity-wall/refi-gap root w/ #2 | delinq >12% & holds OR SS >18% |
+| 2 | Maturity-default wave confirms | 3 | wall live (>$100B, >50% exp. non-repay; $76.6B hard, 39% Q4) — building, not yet majority of new delinq | ⟂ shares maturity-wall root w/ #1 | matured-balloon = majority of new delinq 2 consec mo |
+| 3 | Bank CRE convergence | 2 | FDIC Q1 large-bank non-owner CRE PDNA **improved** to 3.40% — counter-direction | ⟂ DOWNSTREAM of #1/#2 (transmission, not an independent root) | FDIC PDNA re-rising + reserve-coverage deterioration |
+| 4 | Modification exhaustion / re-default | 2 | no current evidence | Independent (mod mechanism) | re-default / 2nd-mod rates rise |
+| 5 | Multifamily term-default broadening | 2 | multifamily delinq 6.95% [Trepp May], some cure — not broadening | Independent (property-level) | term-defaults dominate outside NY/NJ/Houston |
+| 6 | Forced-sale / private-NAV recognition | 2 | Galveston = single instance, NOT a cluster | Independent (LGD/recognition) | sale >30% below basis as a CLUSTER; open-end fund gates |
+| 7 | Office-demand structural hit (tape-confirmed) | 2 | AI-narrative only; data-center demand is a STRENGTH counter-signal (capex rising) | ⟂ shares office-demand root w/ #8 | REIT selloff + direct tenant-demand impairment |
+| 8 | Public REIT equity tape confirms | 2 | VNQ vs SPY not confirmed; Monday pull owed | ⟂ equity-tape read of #7's fundamental | VNQ −10% vs SPY/3mo + confirming fundamentals |
+
+**Composite: 18/40 (low-moderate).** Base case *selective recognition accelerating* holds — nothing fired; office-CMBS (S1) is the hottest at near-trigger. **Counting once for shared antecedents** (maturity-wall root S1+S2; office-demand root S7+S8; S3 downstream) = **~4 independent roots elevated, not 8** — do not read 18/40 as broad confirmation.
+
+---
+
 ## Counter-Signals
 
 Signals that weaken CREED bear intensity:
