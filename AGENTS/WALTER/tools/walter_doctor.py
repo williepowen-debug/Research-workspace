@@ -400,6 +400,23 @@ def _sync_state(relpath: str, origin_ref) -> str:
 
 
 # ── delivered-but-unconsumed (BOARD_CONSUMPTION_SPEC v0.2 §6.1) ─────────────
+def _delivery_roles():
+    """{(signal_id, RECIPIENT_UPPER): ROLE_UPPER} from delivery_log.tsv — lets the
+    unconsumed check split ACTION (the real risk) from the INFO cc-pile (low-stakes
+    per the 2026-06-23 delivery-telemetry calibration finding)."""
+    out = {}
+    log = WALTER / "routed" / "delivery_log.tsv"
+    try:
+        rows = log.read_text(encoding="utf-8").splitlines()
+    except OSError:
+        return out
+    for ln in rows[1:]:
+        c = ln.split("\t")
+        if len(c) >= 4:
+            out[(c[1].strip(), c[2].strip().upper())] = c[3].strip().upper()
+    return out
+
+
 def check_delivered_but_unconsumed():
     """A delivered handoff (on origin) sitting >N days without being moved to
     processed/ → the recipient's Phase-2 consume boot-step may not be installed.
@@ -414,13 +431,38 @@ def check_delivered_but_unconsumed():
             continue  # not delivered yet → written_but_undelivered owns it
         age = _age_days(dt.date.fromtimestamp(p.stat().st_mtime))
         if age > N_UNCONSUMED_DAYS:
-            aged.append((recipient, p.name, age))
+            sig = p.name[:-3] if p.name.endswith(".md") else p.name
+            aged.append((recipient, sig, age))
     if not aged:
         return [(INFO, f"all delivered handoffs consumed or ≤{N_UNCONSUMED_DAYS}d old "
                       f"({len(files)} in flight)")]
-    return [(MED, f"{r}: {f} delivered {a}d ago, not consumed (Phase-2 consume "
-                  f"boot-step installed for {r}?)")
-            for r, f, a in sorted(aged, key=lambda x: -x[2])]
+    # Collapse to a role-split summary (ACTION = the real risk; INFO cc-pile =
+    # low-stakes per the 2026-06-23 delivery-telemetry calibration) — one line,
+    # not one per item, so genuine boot findings aren't buried under the cc-pile.
+    roles = _delivery_roles()
+    by_rcpt, action_total = {}, 0
+    for recipient, sig, age in aged:
+        role = roles.get((sig, recipient.upper()), "?")
+        a, i, mx = by_rcpt.get(recipient, (0, 0, 0))
+        if role == "ACTION":
+            a += 1
+            action_total += 1
+        else:
+            i += 1
+        by_rcpt[recipient] = (a, i, max(mx, age))
+    oldest = max(x[2] for x in aged)
+    parts = [f"{r} {by_rcpt[r][0] + by_rcpt[r][1]}"
+             + (f"({by_rcpt[r][0]}A/{by_rcpt[r][1]}I)" if by_rcpt[r][0] else "")
+             for r in sorted(by_rcpt, key=lambda r: -(by_rcpt[r][0] * 100 + by_rcpt[r][1]))]
+    info_total = len(aged) - action_total
+    summary = (f"{len(aged)} delivered-but-unconsumed across {len(by_rcpt)} agents, "
+               f"oldest {oldest}d — {action_total} ACTION / {info_total} INFO: "
+               f"{'; '.join(parts)}")
+    if action_total:
+        return [(MED, summary + " — ACTION items are the risk; install recipient "
+                      "consume boot-step (CC self-apply set) to clear")]
+    return [(LOW, summary + " — all-INFO cc-pile, low-stakes; clears when the "
+                  "consume boot-step is installed")]
 
 
 # ── written-but-undelivered (BOARD_CONSUMPTION_SPEC v0.2 §6.2, git-derived) ──
