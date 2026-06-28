@@ -1,5 +1,7 @@
 # FORGE — Trading Operations
 
+> ⚠️ **STALE — structured position-truth mirror, last reconciled 2026-05-21 (broker export); 5+ weeks old.** Decision (a), 2026-06-28: `FORGE/STATUS.md`+`PORTFOLIO.md` are KEPT as the fleet's *structured* position surface (TERRY/REGINALD/CARL read them); **live book = `WILL/trading-journal/` photos (broker truth)**; refresher = Will-on-broker-export (not TERRY yet — revisit when TERRY runs live execution). **Do NOT cite marks / P&L / cost-basis below as current** without a fresh broker reconcile. (Old execution ledger + per-trade KRE/WAL/OZK folders → `FORGE/_archive/`.)
+
 **Updated:** 2026-05-21 ~14:03 ET (Fidelity export) | **Cash:** $25,138.80 (55.17%) | **Pending:** -$288.28 | **Account total:** see broker for live
 
 *Reconciled against Fidelity CSV 2026-05-21 14:03 ET (account 216461326 Traditional IRA) + SAM TRADE.md v1.4. Recon worksheet: `FORGE/scratch/REHAB_RECON_2026-05-21.md`. Per-trade folders KRE/WAL/OZK are Mar 17 historical reference, not refreshed in this pass.*
