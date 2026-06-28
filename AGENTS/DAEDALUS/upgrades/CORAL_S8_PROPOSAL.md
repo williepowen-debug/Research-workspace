@@ -1,6 +1,6 @@
 # Section-Task Proposal — CORAL §8 (BOTTOM LINE)
 
-**By:** DAEDALUS · **Date:** 2026-06-27 · **Status:** 🟢 APPROVED (Will chose **option (a)** — add labeled `## BOTTOM LINE` at end, as drafted). **Apply pending idle-confirmation. NOTHING APPLIED to CORAL yet.**
+**By:** DAEDALUS · **Date:** 2026-06-27 · **Status:** 🔵 DRY-RUN — design **approved (option a)**, but **DAEDALUS does NOT apply this directly** (Will). The draft is validated and staged; the actual apply belongs to CORAL itself (task-packet on a real run) and/or the eventual branch→main merge. **CORAL untouched. Branch-local.**
 **Blueprint:** `market-agent.md` §8 · **Profile:** `profiles/CORAL.md` · **Card row:** §8
 
 ## Lifecycle checkpoint
