@@ -10,6 +10,13 @@
 - **Grade the SUSTAIN, not the opening gap.** **Leading tell (premium→barrels):** 2nd vessel struck / mine detonation on a hull / P&I-insurer pull / transit collapse — that's what converts a spike into a hold.
 - HAWK scenarios: **B20 / C44 (base) / D36** (was 34/44/22). Detail: `AGENTS/BRENT/PREREG_20260628_CME_reopen.md` · `AGENTS/HAWK/REMARK_20260628.md` · HEARTBEAT Near-Gates.
 
+## Desktop session adds (6/28 PM) — pre-6PM-oil work (all committed + pushed; synced 0/0)
+1. **FORGE-ref sweep DONE** (b169e149) — root CLAUDE.md L30/L51 + FORGE/STATUS staleness banner; option-(a) follow-up closed (only Will's broker reconcile remains open).
+2. **Fleet inbox sweep** — 31 inboxes surveyed; most "pending" = designed 6/26-27 routing queue (don't chase). Real flags were SHADE (8-deep) + WALTER (3 stale, its lane).
+3. **SHADE/CREED/BROCK catch-up** (fan-out spawn, no-git, PROME-committed 89c1e885/6eb7b695/eaca6795) — inboxes cleared, STATUS reconciled to 6/28, SHADE = canonical insurer-exposure owner, BROCK BRK-29 leans LAPSE (~7/3). **No triggers fired.** Detail → PROME/STATUS work-queue row + each agent's LAST_COMPLETION.
+4. **WALTER routing** (91c77b78, Will-authorized) — Galveston SIG-W-20260626-006 $/SF data-inconsistency (BROCK+CREED cross-flag) → WALTER inbox to fix canonical figure.
+5. **2nd/3rd writers live this session** — DAEDALUS + WALTER both committed/pushed concurrently on the shared desktop tree; all handled clean (pathspec commits + safe-push rebase, no divergence, no force). WALTER booted/running in another window.
+
 ## What happened this session (6/28 Sun, laptop)
 1. **Boot recovery** — prior 6/28 WALTER routing session was disrupted; recovered clean (sync 0/0, nothing committed lost). WALTER then self-finished its closeout live (muni 001 / housing 002 / Iran 003 all committed+pushed).
 2. **★ Iran RE-ESCALATION (WALTER SIG-003, confirmed kinetic)** — 2-night US↔Iran air exchange (6/26-27) + Iran→Gulf-bases retaliation (6/28, intercepted) + Hormuz tanker strike + ~80 mines; VERTICAL, not a land war. Supersedes the 6/22 de-escalation tilt. **Decoupling HELD at last print** (Brent $71.99 [6/26 Fri] fell as US struck). Spawned **BRENT+HAWK fan-out** → pre-registered the 6PM test (above). Regime rail flipped (HEARTBEAT + ACTIVE_DECISIONS: deflated→re-arming).
