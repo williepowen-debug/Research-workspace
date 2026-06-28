@@ -1,1 +1,5 @@
 ID	Date	Prediction	Channel	Confidence	Tier	Timeframe	Resolution_Criteria	If_Falsified	Status	Date_Resolved	Outcome
+AEO-01	2026-06-28	2026 Atlantic hurricane season finishes below-normal (El Niño shear suppression)	C1	65%	PROVISIONAL	2026-11-30	ACE <90% of 1991-2020 normal AND ≤7 hurricanes by season end	C1 upgrade; soft-reinsurance asymmetry breaks → flag CORAL/REGINALD	OPEN
+AEO-02	2026-06-28	El Niño strengthens to at least "strong" (Niño-3.4 ≥1.5 °C) by NDJ 2026-27	ENSO/all	70%	PROVISIONAL	2026-12-31	NOAA ONI/Niño-3.4 ≥1.5 °C in a NDJ season	Regime read driving all channels must be revisited	OPEN
+AEO-03	2026-06-28	Property-cat reinsurance stays soft at Jan 1 2027 renewal (ROL flat-to-down YoY)	C1/C4	55%	PROVISIONAL	2027-01-15	Jan'27 property-cat ROL ≤ +5% YoY	Insurability hinge tightening → C4 upgrade	OPEN
+AEO-04	2026-06-28	Panama Canal reinstates draft/transit restriction by Q4 2026 on El Niño drought	C5	45%	ASSUMPTION	2026-12-31	ACP announces a draft or daily-transit restriction	C5 climate leg weaker than modeled; lower El Niño hydrological impact	OPEN

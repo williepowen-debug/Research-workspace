@@ -1,1 +1,7 @@
 ID	Date	Vector	Channel	Old_State	New_State	Score	Trigger	Notes
+VX-AEO-01	2026-06-28	ENSO regime	ALL	unseeded	EL_NINO_STRENGTHENING	3	Niño-3.4 +0.7 °C, El Niño Advisory	Master variable; suppresses C1/C4, lifts C3/C5. Score the root once.
+VX-AEO-02	2026-06-28	Insurance/reinsurance	C1	unseeded	BENIGN_SOFT	2	below-normal season + ROL -15/-30%	Unpriced-tail asymmetry: one surprise landfall reprices a soft market.
+VX-AEO-03	2026-06-28	Agriculture/food	C2	unseeded	BENIGN	2	corn 68% G/E, prices soft	Watch early-July heat + High Plains drought.
+VX-AEO-04	2026-06-28	Energy demand	C3	unseeded	BENIGN_WATCH	2	storage +6%, June CDD -15%	Forward stress: heat dome building into July; upgrade to 3 if sustained.
+VX-AEO-05	2026-06-28	Property/physical	C4	unseeded	SOFT_CA_WATCH	2	light H1 losses, FL stabilizing	CA residual stress (FAIR Plan, moratorium lapsed). FL → CORAL.
+VX-AEO-06	2026-06-28	Supply chain/logistics	C5	unseeded	RISING_STRESS	3	freight +40% YoY, Rhine/Miss. low	The live channel. Separate climate leg (rivers/Panama) from tariff/demand thermometer.

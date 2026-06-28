@@ -111,7 +111,7 @@ Durable banded rules live here; the live read lives in STATUS with `[src M/D]` +
 | US crop condition (good/excellent %) | <55% | <45% | <35% | C2 → MARCO |
 | CDD/HDD vs 10-yr normal (region) | ±10% | ±20% | ±30% sustained | C3 → BRENT |
 | Property insurance non-renewal rate (peril region) | +10% YoY | +25% | +40% / carrier exit | C4 → CORAL/REGINALD/CREED |
-| NOAA billion-$ disaster count (YTD vs 10-yr avg) | ≥110% | ≥130% | ≥150% | C4 → REGINALD/CREED |
+| Reinsurer cat-loss tally (Gallagher Re/Munich Re, YTD vs 10-yr avg) | ≥110% | ≥130% | ≥150% | C4 → REGINALD/CREED |
 | Panama Canal daily transits (vs ~36 normal) | ≤32 | ≤27 | ≤22 (draft-restricted) | C5 → MARCO |
 | Rhine/Mississippi level vs navigable minimum | within 20% | within 10% | below minimum | C5 → MARCO/HENRY |
 | ENSO ONI index | ±0.5 | ±1.0 | ±1.5 (strong) | all channels (shared antecedent) |

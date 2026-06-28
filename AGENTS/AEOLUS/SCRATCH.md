@@ -6,20 +6,22 @@
 
 ## NEXT SESSION — START HERE
 
-**First live data pass (the build is structurally complete; nothing is scored yet).** Seed all five channels and replace every `TBD` in STATUS.md:
-1. **ENSO / ONI state** (NOAA CPC) — the matrix backbone; drives C2/C3/C5.
-2. **Insurability hinge** — couples C1↔C4; establish current reinsurance ROL + non-renewal trend.
-3. **2026 Atlantic hurricane outlook** (CSU/NOAA, already issued) — seed C1 + first prediction (AEO-01).
-4. **US crop-condition baseline** (USDA) — C2.
-5. **Summer CDD anomaly** (NOAA) — C3.
-6. **NOAA billion-$ disaster count YTD** — C4.
-7. **Panama Canal transit status** — C5.
+First live pass is done; all 5 channels scored (composite 11/25). Next session priorities:
 
-Then: score the 5-channel convergence matrix (remember to count shared roots once), and write the first NEXUS_BRIEF.
+1. **Resolve nothing yet** — predictions AEO-01..04 all OPEN (earliest resolves 2026-11-30). At boot, only re-check if any timeframe passed.
+2. **C5 is the live channel — deepen it.** Re-pull Drewry WCI, Rhine (Kaub) + Mississippi gauges, Panama transit/draft status. Separate the **climate leg** (rivers/Panama) from the **tariff/World Cup demand** confound (mechanism-vs-thermometer). If the climate leg alone tightens → upgrade C5 toward 4.
+3. **Watch the El Niño → C3 handoff.** If the early-July heat dome sustains (CDD swings from −15% to +20%), upgrade C3 2→3. Check EIA STEO + CDD anomaly.
+4. **C1 season tracking.** Pre-peak. Watch for the first named-storm activity and any landfall — the soft-market asymmetry is the key trade flag to CORAL/REGINALD. AEO-01 (below-normal season) is the anchor prediction.
+5. **Refresh data staleness:** KB rows have Stale_By dates in early-mid July — re-verify ENSO (7/15), crops (7/7), gas/CDD (7/10).
+
+Standing data sources: NOAA CPC (ENSO), CSU TCRAMS + NOAA (hurricane), USDA NASS (crops), US Drought Monitor, EIA (gas/CDD/STEO), Gallagher Re/Artemis (cat loss + ROL), Drewry (freight), Panama Canal Authority. *(Consider building a DATA_SOURCES.md if this list grows.)*
 
 ---
 
 ## SESSION LOG (newest first)
 
-### 2026-06-28 — built + boot/closeout layer completed (DAEDALUS)
-AEOLUS scaffolded, wired into the fleet, merged to master. C4/C5 promoted to core (5 channels). Boot/closeout ritual layer added (this file, NEXUS_BRIEF, LESSONS, + BOOT/CLOSEOUT sections in CLAUDE.md). **Status: structurally complete skeleton — zero live data.** Next session = first live data pass (above).
+### 2026-06-28 (pass 2) — first live data pass (run via DAEDALUS bootstrap)
+3 parallel research agents gathered current June 2026 data across all 5 channels. **Master read: strengthening El Niño** (Niño-3.4 +0.7 °C). Scored matrix 11/25 — C5 🟠 (live), C1-C4 🟡. Seeded KB (15 rows), PREDICTIONS (AEO-01..04), VX (6 rows). Wrote NEXUS_BRIEF; routed C5 → MARCO. Found + fixed C4 data-source (NOAA NCEI DB discontinued → reinsurer tallies; LESSON L-05). **Self-level → L2.**
+
+### 2026-06-28 (pass 1) — built + boot/closeout layer completed (DAEDALUS)
+AEOLUS scaffolded, wired, merged to master. C4/C5 promoted to core (5 channels). Boot/closeout ritual layer added.
