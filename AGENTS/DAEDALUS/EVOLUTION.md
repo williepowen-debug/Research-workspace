@@ -7,6 +7,13 @@ Newest first. Keep entries terse; archive build minutiae to `FLEET_MAP.tsv`.
 
 ## Changelog
 
+### 2026-06-28 — Phase 3/4: first REAL build executed — AEOLUS (climate → economy)
+- **What:** Built + wired AEOLUS, the fleet's macro climate→economy agent — DAEDALUS's first non-dry-run build (the build pipeline's maiden real use). Scaffolded `AGENTS/AEOLUS/` (CLAUDE.md, STATUS, THESIS, TRADE, full workbook) from `BLUEPRINTS/market-agent.md`, then wired into `PROME/ROSTER.md`, root `CLAUDE.md`, `_INDEX.md`, `_ENERGY.md`, transmission chain (`AEOLUS → {BRENT, CORAL, MARCO}`), + CORAL boundary task-packet.
+- **Design (Will-decided):** channels-first (insurance / ag-food / energy-demand core; property + supply-chain tier-2), tiered horizon (live weather over structural backdrop), CORAL keeps Florida.
+- **New patterns:** PAT-018 (bake the anti-drift guard into structure — empty-channel-is-failure — the operationalized DARWIN antidote); PAT-019 (new agent has no commit history → annotate ROSTER honestly, don't fake a cadence).
+- **Self-level:** L4 trigger met — first build executed clean. Spec: `builds/AEOLUS_SPEC.md`.
+- **Next:** AEOLUS's first live data pass (its own job); utility-agent blueprint; bring `templates/CLAUDE_TEMPLATE.md` under BLUEPRINTS ownership (it still references deprecated HERMES).
+
 ### 2026-06-27 — Phase 3 (partial): market-agent gold-standard blueprint composed
 - **What:** Assembled `BLUEPRINTS/market-agent.md` best-of-breed from the harvest — each section sourced to the agent that does it best (REGINALD/LIQUID/OTTO structure, BOND/NEXUS scoring, HENRY/LIQUID thresholds, LIQUID/HENRY/BRENT exit, OTTO/CARL/VIOLET predictions, MARCO routing).
 - **Design call (not harvested):** reconciled BOND-vs-HENRY threshold conflict via durable-rule-vs-live-value split (§3) — flagged for Will veto.

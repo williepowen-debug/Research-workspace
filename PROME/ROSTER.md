@@ -7,7 +7,7 @@
 
 ---
 
-## ACTIVE — persistent domain owners (20)
+## ACTIVE — persistent domain owners (21)
 Verified by recent commit cadence; each runs as its own Claude Code session.
 
 | Agent | Domain | 30d commits |
@@ -32,6 +32,9 @@ Verified by recent commit cadence; each runs as its own Claude Code session.
 | CORAL | Florida (whole-state, 10 pillars) | 19 |
 | ORACLE | Prediction-market diagnostics | 16 |
 | SHADE | Insurer-lender / PE-insurance-captive | 13 |
+| AEOLUS | Climate → economy (macro; insurance/ag/energy-demand channels) | new |
+
+> **AEOLUS** built + wired by DAEDALUS 2026-06-28 (spec: `AGENTS/DAEDALUS/builds/AEOLUS_SPEC.md`). Listed ACTIVE by intent (persistent domain owner); has no commit history yet — reconcile its row on the next commit-activity pass. Macro climate owner; CORAL keeps Florida (reconcile FL numbers upward).
 
 ## TIER-2 — spawned as needed (4)
 | Agent | Domain | Note |
@@ -63,4 +66,4 @@ REITS (REIT tape, absorbed into CREED) · TRADES (old trade scratchpad, supersed
 ---
 
 ## Transmission chain (reference)
-LABOR → CARL → REGINALD → market repricing. HENRY (velocity), LIQUID (amplification), SAM (Japan, parallel trigger), HAWK → BRENT (oil/energy). VIOLET (vol regime), BOND (rates/auctions), BROCK → SHADE (private credit → insurer-lender double-jeopardy), CORAL / MARCO (Florida).
+LABOR → CARL → REGINALD → market repricing. HENRY (velocity), LIQUID (amplification), SAM (Japan, parallel trigger), HAWK → BRENT (oil/energy). VIOLET (vol regime), BOND (rates/auctions), BROCK → SHADE (private credit → insurer-lender double-jeopardy), CORAL / MARCO (Florida). AEOLUS → {BRENT (energy demand), CORAL (FL insurance/property), MARCO (food-CPI/migration)} (climate → economy).

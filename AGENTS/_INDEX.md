@@ -20,6 +20,7 @@ Canonical topology / transmission map: [`_NETWORK.md`](./_NETWORK.md).
 
 | Agent | Canonical path | Primary group |
 |---|---|---|
+| AEOLUS | [`AEOLUS/`](./AEOLUS/) | Energy / Commodities (climate→economy; cross-links Credit, Funding/Macro) |
 | ATHENA | [`ATHENA/`](./ATHENA/) | Synthesis / Ops |
 | BARON | [`BARON/`](./BARON/) | Energy / Geopolitics |
 | BOND | [`BOND/`](./BOND/) | Funding / Macro |

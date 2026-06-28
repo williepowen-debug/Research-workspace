@@ -1,6 +1,6 @@
 # BUILD SPEC — AEOLUS (climate → economy agent)
 
-**Status:** 🟡 DRAFT — pending Will approval to scaffold + wire
+**Status:** 🟢 EXECUTED — Will approved 2026-06-28; scaffolded + wired this session. AEOLUS is live (awaiting its own first data pass).
 **Owner:** DAEDALUS (design + build) / Will (decisions)
 **Created:** 2026-06-28 · **Branch:** `claude/climate-economy-agent-t8xdwj`
 **Class:** Market-agent (forms theses, scores risk vectors, feeds trades) → graded against `BLUEPRINTS/market-agent.md`

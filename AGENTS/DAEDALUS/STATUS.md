@@ -1,7 +1,7 @@
 # DAEDALUS STATUS
 
-**Last Updated:** 2026-06-27 · **Status:** 🟢 Phase 2 complete — maturity engine live, first full fleet scan run
-**Class:** Meta-agent (fleet architect) · **Spawnable by:** PROME or Will · **Self-level:** L3
+**Last Updated:** 2026-06-28 · **Status:** 🟢 Phase 3/4 — first REAL build executed (AEOLUS, climate→economy)
+**Class:** Meta-agent (fleet architect) · **Spawnable by:** PROME or Will · **Self-level:** L4 (first build executed clean)
 
 ---
 
@@ -16,8 +16,8 @@ DAEDALUS can now see the whole fleet. Phases 0–2 done: spec locked, skeleton +
 | 0 — Spec | `SPEC.md` | ✅ `80efdbe` |
 | 1 — Skeleton + memory | CLAUDE.md, BLUEPRINTS/meta-agent.md, PATTERNS/EVOLUTION/FLEET_MAP, STATUS | ✅ `e262e86` |
 | 2 — Maturity engine | `scripts/maturity_scan.py` + first full fleet scan → MATURITY_MAP.md / FLEET_MAP.tsv | ✅ this session |
-| 3 — Build pipeline | "scaffold a new agent" workflow, tested on one rebuild | ⬜ next |
-| 4 — Maintenance + wiring | conformance batch; lifecycle; wire into ROSTER/AGENTS.md/YEYOU/PROME | ⬜ |
+| 3 — Build pipeline | "scaffold a new agent" workflow — **proven by first real build: AEOLUS** (climate→economy) | ✅ 2026-06-28 |
+| 4 — Maintenance + wiring | conformance batch; lifecycle; wire into ROSTER/AGENTS.md/YEYOU/PROME | 🟡 wiring exercised (AEOLUS); conformance batch still pending Will |
 
 ## Headline from the scan
 
@@ -40,4 +40,4 @@ DAEDALUS can now see the whole fleet. Phases 0–2 done: spec locked, skeleton +
 
 ## BOTTOM LINE
 
-DAEDALUS is built and its full pipeline is **proven end-to-end as a dry run**: scan → comprehend (CORAL Profile via fan-out) → decompose (CORAL upgrade card) → draft a real section-task (CORAL §8 BOTTOM LINE, approved option-a). Along the way it produced the fleet maturity map (REGINALD L4 exemplar, 8×L3, the 13-missing-BOTTOM-LINE finding), composed the best-of-breed market blueprint, and self-corrected its own scoring/plan twice (PAT-007/008, and 3 CORAL card rows). **It has never touched a file outside `AGENTS/DAEDALUS/` — by Will's instruction DAEDALUS does not apply to other agents directly.** Everything is **branch-local on `claude/agent-system-review-6xhbl7`, pending an eventual merge to main.** Open future steps: utility-agent blueprint; merge to main; first *real* (non-dry-run) section-task once merged.
+DAEDALUS executed its **first real build** on 2026-06-28: **AEOLUS**, the fleet's macro climate→economy agent — scaffolded from the market-agent blueprint and wired live into ROSTER, root CLAUDE.md, the index/group files, and the transmission chain (`AEOLUS → {BRENT, CORAL, MARCO}`), with a CORAL boundary task-packet (CORAL keeps Florida). Design was Will-decided: channels-first (insurance/ag-food/energy-demand), tiered weather/structural horizon — with the DARWIN anti-drift guard baked into the structure (empty-channel = failure signal; PAT-018). This proves Phase 3 (build pipeline) and exercises Phase 4 wiring; **self-level → L4** (first build clean). Next: AEOLUS runs its own first live data pass; DAEDALUS's open threads = utility-agent blueprint + the still-pending BOTTOM-LINE conformance batch (needs Will + idle targets).
