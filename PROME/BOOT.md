@@ -92,7 +92,7 @@ Everything else is on-demand.
 | Need | Read / Use |
 |---|---|
 | Market prices / dashboard | Use injected `TOOLS.md` if present; otherwise read `FORGE/tools/market-data/README.md`. Run `dashboard.py` / `fetch.py` before citing levels. |
-| News routing / sweep | Use injected `TOOLS.md` if present; otherwise read `FORGE/tools/news-sweep/README.md`. Use `sweep.py` only when routing/sweeping news. |
+| News routing / data feeds | Always-on collection now runs in the **RESEARCH-INTAKE** repo (GitHub Actions; `[[project_research_intake_collection_lane]]`). The local `FORGE/tools/news-sweep/sweep.py` cron is dead (cut VPS) — its fetch/classify logic is revived in the lane. Boot-*read* the lane only once the consumer side is wired; until then, `sweep.py` is for editing the entity index only. |
 | Fleet scan / ranking | `PROME/FLEET_SCAN.md`, `PROME/ORCHESTRAL_LAYER_DESIGN.md` |
 | Agent roster / classification | `PROME/ROSTER.md` — verified Active/Tier-2/Dormant/Retired + commit-activity evidence (refresh by re-running the activity map; `[[finding_verify_roster_by_commit_activity]]`) |
 | Sub-agent spawn | `AGENTS.md`, `PROME/COMPLETION_SPEC.md`; include completion instructions. |

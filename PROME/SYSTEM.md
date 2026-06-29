@@ -135,9 +135,10 @@ Important current example:
 
 | Tool / path | Role | Rule |
 |---|---|---|
+| **`RESEARCH-INTAKE` repo** (clone `/home/willi/Research-Intake`) | **Always-on data-collection lane** — 6 feeds via GitHub Actions (EIA · EDGAR-8K · Treasury · CFTC-VIX · FRED · news-sweep), weekday-daily, agents read-only. | The autonomous collection surface: `liveness.json` + `SUMMARY.md` at root, `data/<UTC-date>/*.json`. Consumer-wiring is the open follow-up. [[project_research_intake_collection_lane]] |
 | `FORGE/tools/market-data/dashboard.py` | Live stress dashboard. | Run before citing current market levels. |
 | `FORGE/tools/market-data/fetch.py` | Live prices / FRED series. | Use for individual live data pulls. |
-| `FORGE/tools/news-sweep/sweep.py` | Thesis-tagged news sweep + routing. | Prome maintains entity index and WATCH_FOR lists. |
+| `FORGE/tools/news-sweep/sweep.py` | Thesis-tagged news sweep + routing (entity index / WATCH_FOR lists). | **Local cron is dead** (cut VPS); the fetch+classify logic is **revived in RESEARCH-INTAKE** (routing dropped). Use this copy mainly to edit the entity index. |
 | `dashboard/server.py` | Local web/API dashboard on `:8080`. | Use API endpoints if CLI is inconvenient. |
 | `FORGE/tools/filing-watch/` | EDGAR filing monitoring. | Useful for Qs/10-Q catalysts and Call Reports. |
 
@@ -164,6 +165,8 @@ Trust each file's own `Updated:` stamp over any table here (behavior-language be
 2. **File-based messaging is in use but being replaced.** Don't patch inbox/outbox/HERMES hygiene gaps — flag and let them ride ([[project_messaging_overhaul]]).
 
 3. **Execution truth lives outside these docs.** `FORGE/STATUS.md` + broker = ground truth; refresh before use. Retired Toscanini refs → `PROME/archive/TOSCANINI_2026-03/` (historical only).
+
+4. **Always-on collection now lives in the RESEARCH-INTAKE repo (2026-06-29).** Built as **GitHub Actions in a dedicated private repo, NOT a VPS** — collectors write only there, agents read read-only (no working-branch divergence by construction). 6 feeds weekday-daily; replaces the dead `/home/moltbot` VPS crons (news-sweep / dashboard). Open follow-up: consumer-wiring (an agent reading the lane + its `liveness` staleness check). [[project_research_intake_collection_lane]].
 
 ---
 
