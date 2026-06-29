@@ -1,36 +1,24 @@
-# TODAY.md — Sunday June 28, 2026
-**Updated:** 2026-06-28 (Sun, DESKTOP) closeout ~17:50 ET — infra/coordination day. Laptop AM pre-registered the 6PM oil test; desktop PM did: FORGE-ref sweep, SHADE/CREED/BROCK catch-up, the **DAEDALUS maturity thread** (BATCH_01 applied, firm-next-7 all→L4, BATCH_02 queued, utility-blueprint greenlit), **WALTER boot-split** (landed+verified), and **COP retired** (Will's call). **No trade executed** (standing rule held). Weekend — Brent $71.99 is 6/26 Fri-close. **⚠ The 6PM oil grade was LEFT UNDONE — closed out ~12m before the reopen; it's the #1 next-session item.**
+# TODAY.md — Monday June 29, 2026
+**Updated:** 2026-06-29 (Mon, DESKTOP) closeout — built the **RESEARCH-INTAKE collection lane** (6 feeds live) + graded the carried 6PM oil reopen = **HOLDS / no action**. No trade executed (standing rule held).
 
-**Objective:** the day's live event was the ~6PM oil reopen — pre-registered AM, but **left ungraded** at this close. Everything else (FORGE, catch-up, DAEDALUS/WALTER architecture) was coordination/infra.
+**Objective:** today was infrastructure — stood up an always-on data-collection lane (GitHub Actions in a separate repo, agents read-only, not a VPS). The carried market event (6PM oil) resolved cleanly: decoupling held.
 
 ---
 
-## ⏰ THE LIVE EVENT — ~6:00 PM ET CME oil reopen (LIVE NOW — UNGRADED; grade FIRST next session)
-| If Brent... | Read | Action |
-|---|---|---|
-| **<$74** HOLDS (~45%) | decoupling survived; thesis *strengthens* | none (XLE $65C stub more lapse-leaning) |
-| **$74-76** AMBER (~30%) | partial, thin Sunday tape | **wait, don't chase** |
-| **>$76, or $74-76 sustaining >$75 into Mon London** CRACKS (~25%) | RED-FT-04 inverts | **re-arm** → USO call-spread ≤$500, to Will AFTER the sustain |
+## ✅ Today's resolved event — 6PM CME oil reopen = HOLDS / no action
+Brent **$73.30** (Mon), below the $74 line through the whole Sun-reopen → Mon-London sustain window *despite* the 6/27-28 US↔Iran strike exchange. Decoupling survived its hardest kinetic test; no trigger fired. Tail downgraded to **fragile-watch** (commercial P&I still not resumed). BRENT owns the thesis-integrity follow-up (durable normalization vs head-fake). Detail: `AGENTS/BRENT/PREREG_20260628_CME_reopen.md`.
 
-**Grade the sustain, not the gap.** Leading tell (premium→barrels): 2nd vessel struck / mine detonation on a hull / P&I-insurer pull / transit collapse. Pre-reg detail: `AGENTS/BRENT/PREREG_20260628_CME_reopen.md` · `AGENTS/HAWK/REMARK_20260628.md`. HAWK scenarios B20/C44/D36 (was 34/44/22).
+## ★ New infra — RESEARCH-INTAKE (built today)
+Always-on data lane, separate private repo `williepowen-debug/RESEARCH-INTAKE` (clone `/home/willi/Research-Intake`). **6 feeds weekday-daily:** EIA petroleum · EDGAR 8-K · Treasury auctions · CFTC COT (VIX) · FRED (15 series) · news-sweep. liveness silent-death guard + cross-run news dedup + `SUMMARY.md` digest + per-feed retry. **#1 next: wire the consumer side (an agent reads the lane).** See SCRATCH ★ + [[project_research_intake_collection_lane]].
 
-## Session Posture
-| Item | State |
-|---|---|
-| Origin | Laptop Claude Code (sole writer); desktop later today. |
-| Git | Clean, synced 0/0, all pushed. **Online/web CC app is now a live 2nd writer** (AEOLUS pushed from it) — pull before committing; safe-push ff-aborts on divergence. |
-| Agents | BRENT+HAWK spawned (fan-out, delivered, idle). WALTER ran live earlier (self-closed). Not warm — spawn fresh next session. |
-| Push rule | AUTO-PUSH at closeout via `safe-push.sh` (ff-gated). Non-ff abort = 2nd writer → flag Will, don't force. |
-
-## Regime (one-line) — weekend, 6/26 Fri-close orientation
-**Energy tail RE-ARMING** (Iran re-escalated 6/28, confirmed kinetic) — but **decoupling held at last print** (Brent $71.99 fell as US struck); the ~6PM open is the live test. Credit-bear **ARMED, pre-trigger**; HY 278 [6/25], 2bp from >280 (auto-watched). **Refresh dashboard/FRED before citing any level live.**
+## Regime (one-line) — refresh before citing levels
+Energy tail **fragile-watch** (decoupling held at Brent ~$73 through the strikes; PATH-A reopening ahead of model — Hormuz ~75% prewar). Credit-bear **ARMED, pre-trigger** — HY vs >280 auto-watched by `liquid-hy-watch`. **Refresh dashboard/FRED before any market claim.**
 
 ## Standing rule (Will 6/26)
-Deploy fresh capital ONLY on a fired (sustained) trigger; $500/card max-loss. No mechanical book-reshape. ([[feedback_deploy_on_trigger_not_calendar]])
+Deploy fresh capital ONLY on a fired (sustained) trigger; $500/card max-loss. ([[feedback_deploy_on_trigger_not_calendar]])
 
 ## Watch next 24-72h
-0. **~6PM ET oil reopen** (above) — the live one.
-1. HY vs 280 (278 [6/25], auto-watched). 2. 10Y 6/30 · JOLTS 6/30. 3. EIA 7/1 · NFP 7/3 · CFTC COT 7/3. 4. Bank prints OZK/WAL/CFG Jul-16. 5. June CPI 7/14.
+1. **RESEARCH-INTAKE consumer wiring** (#1 PROME lane). 2. HY vs 280 (auto-watched). 3. 10Y auction + JOLTS 6/30. 4. EIA 7/1 · NFP + CFTC COT 7/3. 5. OZK/WAL/CFG Jul-16 · CPI 7/14.
 
 ## Fresh-boot checklist
-1. Verify git sync — **2nd writer live (online app); pull first.** 2. **Grade the 6PM oil open** if it's past ~6PM ET (SCRATCH = entry point). 3. Refresh dashboard/FRED before citing levels. 4. ✅ Root `CLAUDE.md` FORGE-ref sweep + FORGE/STATUS staleness banner DONE 6/28 desktop (b169e149). 5. No agents warm — spawn fresh.
+1. Verify git sync — RESEARCH-INTAKE Action is a co-writer to its *own* repo; working repo pushes via `safe-push.sh`. 2. Refresh dashboard/FRED before citing levels. 3. SCRATCH = entry point (consumer wiring #1). 4. No agents warm — spawn fresh.

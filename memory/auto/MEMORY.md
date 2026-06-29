@@ -179,3 +179,4 @@
 - [Auto-Memory Hardlink In-Place Edit](finding_automem_hardlink_inplace_edit.md) — edit memory/auto in-place (>) to keep hardlink
 - [DAEDALUS Maturity Map = Hygiene Input](project_daedalus_maturity_map_hygiene_input.md) — L-levels are hygiene, not the scoreboard
 - [RESEARCH-INTAKE Collection Lane](project_research_intake_collection_lane.md) — always-on data lane: GH Actions, separate repo, agents read-only
+- [gh run watch Exit Status Unreliable](finding_gh_run_watch_exit_status_unreliable.md) — gh run watch can exit 1 on a successful run; verify via gh run view --json conclusion
