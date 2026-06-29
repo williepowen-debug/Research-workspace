@@ -8,6 +8,18 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-06-29 — POSITION RECONCILED TO FLAT (no version change) + new primary thread: JGB long-end supply/demand
+
+**Author:** SAM. **Trigger:** Will confirmed 2026-06-29 that SAM holds **NO current FXY position** (the docs had carried a phantom 6-sh post-trim stub since the 6/22 trim, fill "unconfirmed" 6/25). **No analytical/conviction change** — the v1.6 carry-convexity-tail is unchanged as a *view*; only the operative posture flips.
+
+**THESIS edit:** added a FLAT banner to § POSITION VIEW — the section is now the WATCH-FOR-ENTRY / re-entry reference, not a live holding. At MEDIUM/break-even the tail is NOT EV-positive to initiate; re-entry gated on a fired trigger (disorderly MOF spike / CFTC through −153K/85% / risk-off yen-haven re-couple / Fed-dot walk-back). SAM-28..31 reframed as entry-triggers. Reconciled across all live surfaces (STATUS/TRADE/NEXUS_BRIEF/STRATEGY); **no money fields fabricated.**
+
+**Direction pivot:** with the carry trade spent/break-even and SAM flat, effort pivots to the only-pillar-still-firing — **Pillar 2 (J-ICS lifer long-end abandonment) + the reflationist-board/Takaichi fiscal supply side = a DOMESTIC JGB long-end supply/demand thesis** (scoping: `research/outputs/JGB_SUPPLY_DEMAND_THESIS.md`; gated on tradeability + the BOJ-backstop question). Best *current* actionable idea assessed = non-directional **long JPY vol** IF it prices cheap on a clean source (FXY proxy 11.78%, up off the 9.40 post-FOMC trough — unconfirmed); directional trades all break-even / negatively-skewed / gated / un-triggered.
+
+**Data this session (no re-mark — within-band / confirmatory):** CFTC Jun-23 −146,104/81.2% (first cover off the 83.4% top); Tokyo Jun CPI core-core 1.9% sticky; BOJ SoO hawkish-of-priced; USD/JPY 161.96 (40-yr low, orderly grind); Brent $73.85.
+
+---
+
 ## 2026-06-22 — v1.5.1 → **v1.6** [MAJOR] — re-centered COMPRESSION → CARRY-CONVEXITY-TAIL; pillar audit; Channel 1 RETIRED; Channel 4 NEW; 6-of-6 RED challenges converged
 
 **Author:** SAM. **Trigger:** Will-directed v1.6 re-underwrite (drafted Jun 18 backbone → finalized post Jun-19 National CPI + the Jun-22 CFTC EV-gate + the SAM⇄RED dialogue). **Major bump (X):** structural thesis change — the dominant route is re-classified (compression → positioning-convexity) and Channel 1 is retired. **Process:** finalized by folding `V16_RED_DIALOGUE.md` (6 pre-registered RED challenges + #1a-d + the #4 gate), **converged 6-of-6 on 2026-06-22 ~5:20 PM ET** (near-full convergence in one round-trip). DRAFT (`THESIS_v1.6_DRAFT.md`) superseded → flag `git rm` at commit; v1.5.1 archived → `thesis/THESIS_v1.5.1_ARCHIVE.md`.
