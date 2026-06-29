@@ -127,18 +127,9 @@
 
 ---
 
-## POSITIONS
+## POSITIONS → see `TRADE.md` (canonical trade surface)
 
-**Source:** root portfolio snapshot + Will confirms. Do NOT cite cost-basis from state files (`[[feedback_position_cost_basis_not_authoritative]]`).
-
-| Position | Type | Live mark | Status |
-|----------|------|-----------|--------|
-| **XLE $65C Sep 30** | Call (2) | deep OTM (~20% to strike); salvage ~$0 | **LAPSE (v5.0).** Its narrow re-escalation-snap path fired Jun 27-28 (kinetic test) and did NOT pay. Now the **deep-OTM lapse-backstop to the new defined-risk convex expression** — do NOT defend/add; re-arm only on a DURABLE ceasefire collapse. |
-| **CF $130C Jun 18** | Call (1) | — | **EXPIRED WORTHLESS Jun 18** (was zero-bid). Closed; record only. |
-
-**Tanker (BRT-15) — RESOLVED FAILED.** Hardened signing Jun 17 + STNG +5.79% (not −10%) → reopen was tanker-*bullish* (ton-mile normalization). No equity position was taken (initiate-on-signature discipline).
-
-**⚑ v5.0 POSITIONING STANCE: no flat-price length EITHER WAY (no new longs, no fresh shorts).** The asymmetry flipped to upside-convex → the forward expression is **defined-risk long-convexity, deploy-on-trigger** (USO/XLE call spread, max-loss-capped; pre-reg `PREREG_20260629_convex_arm.md` to be written). Arm triggers — Tier-1: HAW-15 crude-export pivot / reopening-stalls-while-buffers-empty; Tier-2: Brent sustains >$75 ×2 closes / durable ceasefire collapse. **No capital deployed today** (deploy-on-trigger; Will [Approve] at fire). XLE $65C = the deep-OTM lapse-backstop. _Skew flip, NOT a direction call — not calling oil up._
+**Positions, the v5.0 convex-arm trade plan, triggers, and execution log now live in `AGENTS/BRENT/TRADE.md`** (moved out of STATUS Jun-29 per Will). One-line state: **XLE $65C Sep-30 = LAPSE** (deep-OTM backstop); **no flat-price length either way**; forward expression = **defined-risk long-convexity, deploy-on-trigger** (ARMED, no capital today; Will [Approve] at fire). _Skew flip, NOT a direction call._ Do NOT cite cost-basis from state files (`[[feedback_position_cost_basis_not_authoritative]]`).
 
 ---
 

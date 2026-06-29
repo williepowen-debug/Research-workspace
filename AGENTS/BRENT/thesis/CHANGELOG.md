@@ -22,7 +22,7 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 **Old view (v4.4) → New view (v5.0):**
 - **Conviction:** "flat-price cautious-neutral; no new longs; two-sided edges (Phase-2 short / kinetic snapback)" → **"direction-neutral near-term, risk-skew asymmetric to the UPSIDE medium-term; Phase-2-short bias RETIRED; no fresh shorts; express via defined-risk long-convexity, deploy-on-trigger; SKEW flip NOT a price-forecast flip."**
-- **Forward expression:** the Phase-2 SHORT PLAYBOOK is DEMOTED to conditional (fires only if reopening fully completes + locks lower-for-longer). NEW PRIMARY = defined-risk long-oil-convexity (USO/XLE call spread, ~45-90 DTE, vol-aware, max-loss-capped), **deploy-on-trigger** (Tier-1: HAW-15 pivot / reopening-stalls-while-buffers-empty; Tier-2: Brent sustains >$75 / durable ceasefire collapse). Full structure in `PREREG_20260629_convex_arm.md` (next). Execution still needs Will [Approve] at trigger.
+- **Forward expression:** the Phase-2 SHORT PLAYBOOK is DEMOTED to conditional (fires only if reopening fully completes + locks lower-for-longer). NEW PRIMARY = defined-risk long-oil-convexity (USO/XLE call spread, ~45-90 DTE, vol-aware, max-loss-capped), **deploy-on-trigger** (Tier-1: HAW-15 pivot / reopening-stalls-while-buffers-empty; Tier-2: Brent sustains >$75 / durable ceasefire collapse). Full structure in `TRADE.md` (the convex-arm plan, folded into the live trade surface — not a separate pre-reg file; Will: USO call spread / ~$500 / pre-negotiated-proposal authority). Execution still needs Will [Approve] at trigger.
 - **Thresholds:** "<$75 sustained = thesis break (squeeze failed)" RETIRED — sub-$75 = structural decoupling. Added upside re-arm (>$75 ×2 closes = RED-FT-04 invert = Tier-2 arm); downside break redefined to <$70 on DEMAND collapse.
 - **Risk Factors:** re-weighted to PRICE-OUTCOMES (BRENT's mapping; HAWK owns scenario %s B20/C44/D36) — re-squeeze/up-whipsaw elevated to "the convex tail we position for."
 - **Position:** XLE $65C Sep-30 → LAPSE (narrow re-escalation-snap path fired Jun 27-28 and didn't pay) — now the deep-OTM lapse-backstop to the convex expression.
@@ -33,7 +33,7 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 **Predictions:** no BRT-xx resolution; BRT-21 (Phase-2-short) reframed as *conditional*. BRT-07/17 timer = the reopening-completeness gate that adjudicates gentle-normalization vs re-squeeze.
 
-**Propagation:** THESIS header (Status+Conviction) + TWO-PHASES reframe subsection + Phase-1 break-line + SHORT PLAYBOOK demote + new PRIMARY EXPRESSION + Position View + Thresholds + Risk Factors + footer. CHANGELOG (this). STATUS + NEXUS_BRIEF + SCRATCH pointers. Next: write `PREREG_20260629_convex_arm.md`.
+**Propagation:** THESIS header (Status+Conviction) + TWO-PHASES reframe subsection + Phase-1 break-line + SHORT PLAYBOOK demote + new PRIMARY EXPRESSION + Position View + Thresholds + Risk Factors + footer. CHANGELOG (this). STATUS + NEXUS_BRIEF + SCRATCH pointers. Convex-arm plan folded into the new `TRADE.md` (trade content moved out of STATUS per Will).
 
 ---
 
