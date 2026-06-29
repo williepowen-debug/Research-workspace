@@ -1,5 +1,8 @@
 # BRENT PRE-REGISTRATION — Sun 6/28 ~6:00 PM ET CME oil-futures reopen
 
+> ## ✅ RESOLVED 2026-06-29 (Mon AM) → **HOLDS branch.**
+> Brent opened ~$72 and stayed **<$74** across the Sun-reopen → Mon-London window (now $73.53, +1.28%, ~10:25 ET); WTI ~$70.30 (<$71). **No gap, no sustain >$75 → HOLDS, not CRACKS.** Structural read CONFIRMED through its hardest kinetic test; P(holds <$75 over 1-2wk) raised 0.63→0.70. **No action** (standing rule held — no trigger fired, no trade); XLE $65C → lapse (its payoff path fired and failed). PROME independently graded HOLDS/no-action (`PROME/SCRATCH.md`); HAWK re-mark B20/C44/D36 (6/28) → outcome = scenario C-absorb, HAWK's own "D maybe slightly high" branch. Full write-up: STATUS "JUN 29 AM" section.
+
 **Written:** 2026-06-28 PM ET, BEFORE the print (markets closed since Fri 6/26).
 **Operative last print:** Brent **$71.99** [6/26 Fri close, −4.34%] · WTI **~$69** (lowest since Feb-26).
 *(My 6/26 STATUS pull caught an earlier-session $73.57/−2.56%; $71.99 is the FINAL Fri close per TradingEconomics/board. Reconciles to the same down-day — not level-load-bearing for thresholds below.)*
