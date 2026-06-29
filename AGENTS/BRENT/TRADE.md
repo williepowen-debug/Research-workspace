@@ -48,6 +48,31 @@
 
 **Why convex, not flat-price:** the upside is a TAIL that *just failed a live test* (Jun 27-28 — price fell through a tanker strike). We capture the up-skew with limited premium; if it never fires we lose only the debit. The plan *survives its own steelman*.
 
+**Entry timing:** it's a CALL spread → prefer a **RED (oil-down) day** for the fill (calls on red days); don't chase a green-day pop.
+
+---
+
+## DORMANT / CONDITIONAL — Phase-2 short (the other branch)
+
+**Status: ⚪ DORMANT — do NOT initiate.** The Phase-2 demand-destruction short is RETIRED as the forward bias (v5.0) but survives as a *conditional*: it fires ONLY if the reopening **fully completes** (P&I resumes + liners off Cape + sustained transits) AND price locks lower-for-longer toward STEO's ~$79. Vehicle then = **bear put spread** (NOT naked puts — vol crush, LESSONS #15), 60–90 DTE, 10–15% OTM, 3:1 R:R. A fresh short *now* fights BOTH the priced-in reopening AND the upside skew — stays dormant until the reopening verifiably completes. The down-tail beyond that (Brent <$70 on a confirmed **demand collapse**/recession) is the only other thing that revives a short. (Detail: THESIS SHORT PLAYBOOK.)
+
+---
+
+## DECISIONS ON RECORD
+
+- **Considered & DECLINED (Jun 29): a small pre-trigger convex starter** (~$300 of cheap vol bought now while calm). Chose **deploy-on-trigger** instead — the near-term base case is still the calm hold (theta would bleed), and the XLE $65C stub just demonstrated a pre-emptive tail-buy decaying to ~$0. Re-open this only if Will wants to pre-buy cheap convexity.
+- **Authority = pre-negotiated proposal** (Will, Jun 29 — chosen over pre-authorize-to-cap). **Vehicle = USO** (over XLE). **Max-loss ~$500.**
+
+---
+
+## CROSS-AGENT (what strengthens / weakens the arm)
+
+| Input | Strengthens (arm → fire) | Weakens (→ disarm) |
+|-------|--------------------------|--------------------|
+| **HAWK** | HAW-15 crude-export pivot fires; ceasefire re-breaks; new Hormuz kinetic | reopening verifies (liners off Cape, P&I resumes, sustained transits) |
+| **LIQUID** | energy HY-OAS widens (credit pricing supply risk) | energy credit calm |
+| **HENRY** | energy-CPI re-accel risk (a snap feeds inflation) | demand-collapse disinflation (the down-tail) |
+
 ---
 
 ## EXECUTION LOG
