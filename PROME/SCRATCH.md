@@ -1,14 +1,21 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-28 (Sun, DESKTOP) closeout ~17:50 ET — infra/coordination session (FORGE sweep · 3-agent catch-up · WALTER routing · DAEDALUS maturity thread · WALTER boot-split · COP retired). No trade executed; **6PM oil grade NOT done — carried forward (see ⏰).**
+**Last Updated:** 2026-06-29 (Mon, DESKTOP) — graded 6PM oil reopen = HOLDS/no-action; **built RESEARCH-INTAKE collection lane — 6 feeds LIVE (see ★).** Prior session (6/28): FORGE sweep · 3-agent catch-up · DAEDALUS maturity thread · WALTER boot-split · COP retired.
 
-## ⏰ NEXT-SESSION ENTRY POINT — GRADE THE ~6PM CME OIL REOPEN (now live; was not graded this session)
-**Markets reopened ~6PM ET Sun 6/28.** This was the day's pre-registered event and it was **left ungraded** (closed out at 5:48, ~12m before reopen). Do this FIRST next session:
-- Pull live Brent/WTI, grade vs the pre-registered table — **grade the SUSTAIN, not the opening gap:**
-  - **HOLDS** Brent **<$74** → decoupling survived its hardest kinetic test; thesis strengthens; **no action** (BRENT ~0.45).
-  - **AMBER** **$74–76** → partial; **wait, don't chase** thin tape (BRENT ~0.30).
-  - **CRACKS** Brent **>$76**, OR a $74–76 gap that **SUSTAINS >$75 into Mon Asia→London (~6–12h)** → RED-FT-04 inverts → **re-arm = PROPOSAL to Will AFTER the sustain:** USO call-spread 45–60 DTE, ≤$500 max-loss (BRENT ~0.25).
-- Leading tell (premium→barrels): 2nd vessel struck / mine detonation on a hull / P&I pull / transit collapse. Detail: `AGENTS/BRENT/PREREG_20260628_CME_reopen.md` · `AGENTS/HAWK/REMARK_20260628.md` · HEARTBEAT Near-Gates. HAWK B20/C44/D36. Standing rule: deploy only on a *sustained* trigger, $500/card.
-- If grading well after the open: also check whether Mon levels moved; don't grade a stale Sunday gap.
+## ✅ GRADED 2026-06-29 (Mon AM) — 6PM CME OIL REOPEN = **HOLDS / NO ACTION**
+**Outcome: decoupling SURVIVED its hardest kinetic test.** Brent **$73.30** live [BZ=F, Mon 6/29 ~10:20 ET, +1.82% relief bounce off a 4-mo low] — **below the $74 HOLDS line** across the whole Sun-reopen → Mon-London sustain window. Brent posted a >10%/wk loss (wk of 6/22-27) and hit a 4-month low **despite** the two-sided US↔Iran strike exchange 6/27-28 — premium did NOT cross to barrels. **No trigger fired → no trade** (standing rule held). RED-FT-04 did NOT invert. (HAWK was B20/C44/D36 → outcome = scenario B, decoupling holds.)
+- **Why it held:** PATH-A physical reopening is delivering faster than modeled — Hormuz transits ~75% of prewar, Ras Tanura loading resumed, curve in deep contango (M1-M3 ~-$1 to -$3 [EST]). Supply returning, not a squeeze.
+- **Tail NOT dead — DOWNGRADED to fragile-watch:** ceasefire genuinely fragile (two-sided strikes 10d post-signing; P&I commercial coverage still NOT resumed). Re-arm tell unchanged: 2nd vessel struck / P&I pull / transit collapse → then re-pull the pre-reg table.
+- **Open (BRENT's lane, not chased):** BRENT flags a thesis-integrity question — durable Phase-2 normalization vs ceasefire-fragility head-fake (`AGENTS/BRENT/demand_destruction/data/monday_2026-06-29.md`). Domain call, low urgency.
+- Source pre-reg: `AGENTS/BRENT/PREREG_20260628_CME_reopen.md` · `AGENTS/HAWK/REMARK_20260628.md`.
+
+## ★ NEW INFRA — RESEARCH-INTAKE collection lane (built 6/29, LIVE)
+**Always-on data collection in a separate private repo `williepowen-debug/RESEARCH-INTAKE`** (local clone `/home/willi/Research-Intake`). **Architecture (Will-decided 6/29): GitHub Actions in a dedicated repo, NOT a VPS** — collectors write only to that repo; research agents read it read-only → no working-branch divergence by construction. *(Rejected VPS+LLM always-on: news-sweep's cron died exactly because collection lived on the cut VPS; Actions can't silently rot. The GLM/Codex "watch-and-react" pair is parked as a future thread.)* See [[project_research_intake_collection_lane]].
+- **6 feeds LIVE + validated, weekday-daily** (`cron 0 15 * * 1-5` = 11:00 ET; manual = Actions tab → collect → Run workflow, or `gh workflow run`): **EIA petroleum** (Cushing 18.96M) · **EDGAR 8-K** (WAL/OZK/EGBN/ZION/VLY) · **Treasury auctions** · **CFTC COT (VIX)** · **FRED** (15 series — claims/consumer/inflation/rates) · **news-sweep** (Google News+RSS, classified via verbatim-copied entity index/WATCH_FOR; routing dropped).
+- **Secrets** (GH Actions, set via the stored git token w/ repo+workflow scope): `EIA_API_KEY`, `FRED_API_KEY`. FRED key also written to local gitignored `FORGE/tools/market-data/.env` (fixed BRENT/FORGE EIA+FRED tooling that was missing it).
+- **`liveness.json`** = silent-death guard (timestamp every run; consumer flags if stale). Each fetcher = standalone `scripts/fetch_<x>.py` + 1 line in `collect.py` FETCHERS registry → adding a feed = 1 file + 1 line.
+- **★ KEY FOLLOW-UP (consumer side — NOT built):** nothing reads the lane yet. Wire WALTER boot → `git fetch` RESEARCH-INTAKE + read `data/<date>/*` + the liveness staleness check. Without it, 6 feeds collect unread = the COP failure mode.
+- **Remaining feed menu:** crude/energy CFTC COT (disagg report, needs live-verify) · SAM Japan suite (4 scrapers) · broader EDGAR filing-watch (20+ watchlist) · Polymarket/Kalshi.
+- **Hygiene flag (separate task):** hardcoded keys in tracked files — FRED/BLS low-risk, but `config/openclaw-multiagent.json5` LLM apiKeys (dead OpenClaw) + a Google OAuth `client_secret` are sensitive → rotate/clean pass owed.
 
 ## What happened this session (6/28 PM, desktop)
 1. **FORGE-ref sweep DONE** (b169e149) — root CLAUDE.md L30/L51 + FORGE/STATUS staleness banner; option-(a) follow-up closed. Only open piece = Will's broker reconcile of FORGE/STATUS marks (Will-owned, open-ended).
@@ -24,7 +31,8 @@
 PROME work committed + pushed through the session (behavior-language: clean PROME tree, pathspec commits, safe-push ff-clean each time). **3 concurrent writers today (DAEDALUS, WALTER, PROME)** — all handled clean (pathspec + safe-push rebase, no divergence, no force). At this closeout: **WALTER is LIVE mid-Tier-2-closeout** (uncommitted+staged WALTER files incl. COP-retirement renames) — PROME committed PROME/ only via pathspec; safe-push pushes committed work (incl. 3 unpushed DAEDALUS commits) and never touches WALTER's tree. If safe-push ff-aborted at close → WALTER pushed concurrently → next clean push sweeps the train (no force).
 
 ## Pending / carry-forward (PROME's lane)
-- **★ 6PM oil grade** (above) — #1.
+- **★ RESEARCH-INTAKE consumer wiring (#1 new)** — wire WALTER (or a standalone check) to read the lane (`git fetch` RESEARCH-INTAKE → `data/<date>/*`) + the liveness staleness check; then work the remaining feed menu. See ★ section above.
+- ~~6PM oil grade~~ **DONE** (HOLDS / no-action, above).
 - **BATCH_02 review** (mine) — DAEDALUS routed 6 encode-existing handles (REGINALD/CARL/BOND/LABOR) + 4 PAT-023 hygiene fixes to `AGENTS/DAEDALUS/outbox/` → review like BATCH_01 (faithful-scope/gate-held), then greenlight apply. ORACLE calibration scoreboard + BOND NEXUS_BRIEF held-for-justification.
 - **AEOLUS→MARCO handshake** (found gap, mine to route) — `AGENTS/AEOLUS/outbox/2026-06-28_to-MARCO_C5-supply-chain-goods-cpi.md` was authored but never delivered to MARCO's inbox (CORAL's was). Route it.
 - **BROCK position-truth packet** (mine, claimed) — route BROCK a refresh task-packet for its 5/21-stale `trade/TRADE.md` (~90%-loss residuals); NEVER touch marks (truth = WILL/trading-journal + broker export). FORGE decision-(a) lane.

@@ -6,6 +6,18 @@
 
 ---
 
+## 2026-06-29 (Mon, DESKTOP) — graded 6PM oil (HOLDS/no-action) + BUILT the RESEARCH-INTAKE collection lane (6 feeds live)
+
+**What landed:** (1) **Graded the carried 6PM oil reopen = HOLDS / no action** — Brent $73.30 live, below the $74 line through the whole sustain window *despite* the 6/27-28 US↔Iran strike exchange; decoupling survived its hardest kinetic test, no trigger fired (standing rule held). Tail downgraded to fragile-watch (commercial P&I still not resumed). (2) **★ Built RESEARCH-INTAKE** — a new always-on data-collection lane. **Architecture (Will-decided): GitHub Actions in a dedicated private repo, NOT a VPS** — collectors write only there, research agents read read-only → no working-branch divergence by construction (the old news-sweep cron died precisely *because* it lived on the cut VPS; Actions can't silently rot). **6 feeds LIVE + validated, weekday-daily:** EIA petroleum, EDGAR 8-K (thesis banks), Treasury auctions, CFTC COT (VIX), FRED (15 series), news-sweep (classified; routing dropped). `liveness.json` silent-death guard; fetcher registry (1 file + 1 line per feed). Secrets EIA/FRED set via the stored git token; FRED key also restored to local `FORGE/.env` (fixed BRENT/FORGE tooling). See [[project_research_intake_collection_lane]].
+
+**Decisions Will made:** collection lane = GH Actions + separate repo (NOT VPS/LLM); name `RESEARCH-INTAKE`; do the quick FRED batch + revive news-sweep; weekday-daily schedule; record it in state docs.
+
+**Decisions needed from Will:** none open. (BRENT's thesis-integrity question — durable normalization vs head-fake — is BRENT's domain lane.)
+
+**Risks/blockers:** none — the lane is isolated by construction. GLM/Codex "watch-and-react" pair parked as a future thread (not needed now).
+
+**Next:** **★ consumer wiring** — WALTER reads the lane + the liveness staleness check; without it 6 feeds collect *unread* = the COP failure mode. Then remaining feed menu (crude/energy CFTC COT, SAM Japan suite, broader EDGAR filing-watch, Polymarket/Kalshi). Separate hygiene: rotate hardcoded LLM/Google secrets in tracked files. Prior PROME lane still open: DAEDALUS BATCH_02 review, AEOLUS→MARCO routing, BROCK position-truth packet. Full detail → SCRATCH. *(HANDOFF now 8 entries — rotate oldest next closeout.)*
+
 ## 2026-06-28 (Sun, DESKTOP) — infra/coordination: FORGE-sweep · 3-agent catch-up · DAEDALUS maturity thread · WALTER boot-split · COP retired (6PM oil LEFT UNGRADED)
 
 **What landed:** (1) **FORGE-ref sweep DONE** (b169e149) — closed the option-(a) follow-up (root CLAUDE.md L30/L51 + FORGE/STATUS staleness banner). (2) **SHADE/CREED/BROCK catch-up** (fan-out, no-git, PROME-committed 89c1e885/6eb7b695/eaca6795) — inboxes cleared, **SHADE = canonical insurer-exposure owner**, BROCK BRK-29 leans LAPSE. (3) **★ DAEDALUS maturity thread** — reviewed+approved BATCH_01 (DAEDALUS applied to all 3); its hardened scanner exposed the cohort was under-rated → **firm-next-7 all came back L4** (I corrected its scope 5→7, caught the REGINALD+ORACLE omission); **BATCH_02 in my review queue**; **utility-agent blueprint greenlit** (output-consumption contract, thin floor, resolve YEYOU first). Root CLAUDE.md Data Hygiene now names `TRADE.md` (2c280a40). (4) **WALTER boot-protocol split** reviewed → WALTER landed both my fixes (`boot_protocol_xref` doctor-check + double-9) → verified clean (304b3819). (5) **COP RETIRED** (Will's call). (6) **WALTER Galveston $/SF cross-flag** routed (91c77b78).
