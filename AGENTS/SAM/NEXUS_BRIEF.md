@@ -4,8 +4,8 @@
 **Domain:** Japan macro — JGBs, BOJ policy, yen, carry trade, institutional flows; transmission to U.S. via UST demand (LIQUID), carry unwind (HENRY)
 **Thesis version:** v1.6 (`thesis/THESIS.md`; v1.5.1 archived `thesis/THESIS_v1.5.1_ARCHIVE.md`; CHANGELOG 2026-06-22 [MAJOR])
 **Recent thesis pivot:** v1.5.1 → **v1.6 [MAJOR]**: re-centered rate-differential COMPRESSION (broke — Pillar 1 vector inverted) → carry-CONVEXITY TAIL (Pillar 4 positioning = new center, Channel 4); Channel 1 RETIRED (was deferred); window locked Sep-18; vehicle-change gated OFF.
-**Position:** **6 sh FXY post-trim** (trim 7 of 13 Will-approved 2026-06-22, executes Tue Jun 23 — market closed Mon PM); Jun-18 $58C expired worthless; **stop tightened FXY ≤ $55.50 / USDJPY ≥162.5** (from $55.05). Money fields = Will's (fill price TBD tomorrow); detail in `thesis/THESIS.md` v1.6 + `STRATEGY.md`.
-**As of:** 2026-06-22 ~5:40 PM ET (v1.6 finalize — post CFTC EV-gate + RED convergence + Will sizing call) | STATUS: uncommitted (local; coordinated-push pending)
+**Position:** 🟢 **FLAT — no FXY position (Will-confirmed 2026-06-29).** Prior docs carried a 6-sh post-trim stub (13→6 trim, fill "unconfirmed" 6/25); Will confirms none held. Carry-convexity-tail is now a **watch-for-entry thesis on a flat book** — NOT EV-positive to initiate at MEDIUM/break-even; deploy only on a fired trigger (disorderly MOF spike / CFTC through −153K/85% / risk-off yen-haven re-couple / Fed-dot walk-back). Vehicle reopens (defined-risk options > spot). No realized-P&L recorded (TBD from Will).
+**As of:** 2026-06-29 ~2:45 PM ET (boot + position reconciled to FLAT; CFTC Jun-23 −146,104/81.2% first cover; Tokyo Jun CPI core-core 1.9% sticky) | STATUS: uncommitted (local; this-session reconcile)
 
 ---
 
@@ -53,9 +53,9 @@
 
 ## NEXT DECISION POINT
 
-- **What:** v1.6 is finalized; sizing decided (trim 7→6 + stop $55.50, vehicle OFF). **Next = execute the trim Tue Jun 23 (market closed Mon)**, then monitor the convexity-tail tripwires through the Sep-18 window: leg-1 cover <−108K → LOW; leg-2 no-trigger by Sep-18 → LOW; reclaim if CFTC through −153K/85% OR yen-haven re-couples.
-- **When:** trim executes Tue Jun 23; tripwire window runs to Sep-18-2026 (captures Jul-31 BOJ + mid-Sep FOMC).
-- **What would change the view:** a tail-route firing (SAM-28) → frame pays / reclaims; CFTC cover <−108K → frame → LOW; CFTC through −153K/85% or yen-haven re-couple → reclaims MED-HIGH.
+- **What:** **Position FLAT (Will-confirmed 2026-06-29).** No sizing decision live. The convexity tail is **watch-for-entry**: at MEDIUM/break-even it is NOT EV-positive to initiate — do not chase the slow grind to the 40-yr low. **Re-entry gated on a fired trigger** (disorderly MOF spike / CFTC through −153K/85% / risk-off yen-haven re-couple / Fed-dot walk-back); SAM-28..31 now read as entry-triggers. Vehicle reopens cleanly (defined-risk options > spot).
+- **When:** trigger-driven, not calendar. Watch window runs to Sep-18-2026 (captures Jul-31 BOJ + mid-Sep FOMC); next CFTC Fri Jul 3 (Jun-30 data).
+- **What would change the view:** a tail-route firing (SAM-28) → entry case activates; CFTC through −153K/85% (SAM-30) or yen-haven re-couple (SAM-31) → reclaims MED-HIGH (EV-positive entry); CFTC cover <−108K (SAM-29) → thesis → LOW (stand down the watch).
 
 ---
 
@@ -63,10 +63,7 @@
 
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
-| 🟡 Tue Jun-23 | JGB 5Y auction + **execute trim 7→6** | post-BOJ forward-path read (clean rate-expectation tell) |
-| 🟡 Wed Jun-24 | **BOJ June Summary of Opinions** (Jun 15-16 MPM) | first granular read on the 7-1 board's reaction function; hawkish-skew / oil-inflation linkage |
-| 🟡 Thu Jun-25 | JGB 20Y auction | insurer demand; strike-broadening watch |
-| 🟡 Fri Jun-26 | Tokyo June CPI + CFTC COT (Jun-23 data) | subsidy-taper passthrough; next CFTC vs the −108K/−153K tripwires |
+| ✅ Jun 24-26 | BOJ SoO (hawkish-of-priced) · Tokyo Jun CPI (core-core **1.9% sticky**) · CFTC Jun-23 (**−146,104 / 81.2%, first cover**) | all RESOLVED — confirmatory, no re-mark; detail in STATUS 6/29 note |
 | 🟡 Tue Jun-30 | Sato Ayano takes Nakagawa's BOJ seat + JGB 2Y | active hike-dissent bloc 3→2; post-1.00% path harder |
 | 🟠 Wed Jul-1 | Tankan Q2 (June survey) | DI + capex + price expectations; supports/undercuts post-Jun-16 trajectory |
 | 🟠 Tue Jul-7 | JGB 30Y auction | first post-BOJ super-long; J-ICS abandonment re-test |
@@ -75,4 +72,4 @@
 
 ---
 
-*Brief format follows the NEXUS_BRIEF schema (NEXUS R3 + amendment 7: RECENT THESIS PIVOT required; cross-agent tensions; FORWARD CATALYSTS; emoji per CLAUDE.md key; Tier-1 only; WAITING-FOR "Expected by" column). Single SENDING table. Updated at every SAM closeout per SPAWN PROTOCOL write-back step 13a. This 2026-06-22 refresh brings the brief to canonical v1.6 (carry-convexity-tail; conviction MEDIUM/LOW/MEDIUM; buckets ~5-6/17-20/24-28; Channel 1 RETIRED; position trimmed 7→6 + stop $55.50; vehicle OFF) — all marks now SETTLED, not in-progress.*
+*Brief format follows the NEXUS_BRIEF schema (NEXUS R3 + amendment 7: RECENT THESIS PIVOT required; cross-agent tensions; FORWARD CATALYSTS; emoji per CLAUDE.md key; Tier-1 only; WAITING-FOR "Expected by" column). Single SENDING table. Updated at every SAM closeout per SPAWN PROTOCOL write-back step 13a. This 2026-06-22 refresh brought the brief to canonical v1.6 (carry-convexity-tail; conviction MEDIUM/LOW/MEDIUM; buckets ~5-6/17-20/24-28; Channel 1 RETIRED; vehicle OFF). **2026-06-29 reconcile:** position → **FLAT** (Will-confirmed; the v1.6 thesis stands as a watch-for-entry); CFTC Jun-23 first cover (81.2%); Tokyo Jun CPI core-core 1.9% sticky; past forward-catalysts pruned.*

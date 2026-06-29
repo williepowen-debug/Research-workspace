@@ -190,6 +190,8 @@ Structural levels that gate thesis paths. *Current values + breach status live i
 
 ## POSITION VIEW (v1.6)
 
+> **🟢 POSITION FLAT (Will-confirmed 2026-06-29) — this section is now the WATCH-FOR-ENTRY / re-entry reference, not a live holding.** SAM carries no FXY position. The v1.6 thesis stands as a *view*; at MEDIUM/break-even it is NOT EV-positive to initiate — re-entry is gated on a fired trigger (disorderly MOF spike / CFTC through −153K/85% / risk-off yen-haven re-couple / Fed-dot walk-back), not on the level. Vehicle reopens cleanly (no legacy spot) → defined-risk options > spot when a trigger fires. The sizing decisions + stop levels below are HISTORICAL (the prior position's framing).
+
 **Vehicle:** FXY (long), **re-framed as CARRY-CONVEXITY TAIL EXPOSURE** — no longer a directional/structural-compression bet. Accepts the modal-direction bleed in exchange for participation if any tail-route fires inside the Sep-18 window. **Stop (interim, Will-decided 2026-06-18, Step 1.5 re-arm):** single-leg FXY ≤ $55.05 (the original AND-spec's BOJ-dovish leg is permanently false post-hike → collapsed to single-leg).
 
 *Current size, blended entry, tranche state live in `STATUS.md` + `TRADE.md`. Decision playbook lives in `STRATEGY.md`.*

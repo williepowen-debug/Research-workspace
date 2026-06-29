@@ -31,45 +31,36 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (Sun Jun 21 ~5:23 PM ET closeout → Mon Jun 22 ~4:11 PM ET boot)
+### CHANGES SINCE LAST SESSION (Mon Jun 22 closeout / 6/25 note → Mon Jun 29 ~2:29 PM ET boot)
 
-- **🔴 CFTC Jun-16 print landed (3:30 PM ET Mon) — the EV-gate observable:** net **−150,132 / 83.4% of cycle peak**, built −4,314 WoW, **zero cover through the catalyst** → pre-registered HOLD-band top edge: **frame SURVIVES the margin test** (decisive negative — cover <−120K → trim/close — did NOT occur), 1.6pp shy of the −153K/85% strengthened line so amplifier stays +5pp. Genuine Pillar-4 confirmation.
-- **🟢 Brent decoupling test = SHRUG:** Sat Jun-20 Iran *declaratory* Hormuz re-closure produced NO spike (Brent ~$78, −2% day, ~−19% cum from $96.78 Jun-3) → declaratory-not-physical confirmed; oil-in-yen stays dormant.
-- **Levels flat-to-marginally-weaker-yen:** USDJPY 161.58 (MOF silent 6d at 160+; 162 within 0.3%), FXY $56.79, JGB 10Y 2.656 / 30Y 3.786 / 40Y 3.741 (MOF Jun-19 pub — long-end drifted ↑~2-4bp on the week, no stress; below the TE-aggregator 3.84% carry-note). National May CPI soft (verified Sat: 1.5 / 1.4 / 1.8).
+- **🟢 POSITION CONFIRMED FLAT by Will (6/29) — the biggest change.** SAM's docs had carried a phantom 6-sh post-trim FXY stub (13→6 trim, fill "unconfirmed" since 6/25); **Will confirms NO current FXY position.** Reconciled all live surfaces to FLAT this session.
+- **CFTC Jun-23 (rel Fri 6/26): −146,104 / 81.2% — FIRST COVER off the 83.4% top** (+4,028 WoW; longs −3,677, shorts −7,705). Still deep HOLD band, amplifier +5pp ON. SAM-29 leg-1 holds (~32K room); SAM-30 reclaim moved away (3.8pp shy). No bucket re-mark.
+- **USD/JPY 161.96 — weakest since ~1986 (40-yr low)** via slow ORDERLY grind (+0.09% on the day); MOF silent 13d at 160+. Brent $73.85 (~−24% cum). JGB 10Y 2.611% (Jun-26 pub, ↓). MOF weekly net BUYING.
+- **Tokyo Jun CPI (6/26): core-core 1.9% sticky** (+30bp vs May 1.6); BOJ SoO (6/24) hawkish-of-priced. Mild hawkish ticks; confirmatory only.
 
-### LAST SESSION (Mon Jun 22 ~4:11 PM ET boot → closeout — THE v1.6 FINALIZE ARC; Will-driven, multi-turn)
+### LAST SESSION (Mon Jun 29 boot — yen-40yr-low question + POSITION RECONCILED TO FLAT; Will-driven)
 
-**This session bumped the thesis v1.5.1 → v1.6 [MAJOR] (re-centered COMPRESSION → CARRY-CONVEXITY-TAIL) and trimmed the position. Money fields = Will's ground truth (see NEXT #1 — trim executes Tue Jun 23).**
-
-- **Booted + caught the CFTC EV-gate** (the convergence point Will timed the boot for): −150,132 / 83.4%, held through the catalyst, no cover → HOLD-band, frame survives margin. Wrote to STATUS + CALENDAR (EV-gate row resolved). Brent decoupling test = SHRUG.
-- **Refreshed the `V16_RED_DIALOGUE` scaffold** with the resolved CFTC print (anchor was pre-3:30), then ran the **SAM⇄RED adversarial dialogue** (Will relayed RED's turns). **Converged 6-of-6 in one round-trip:** #1 BROKEN@MED-HIGH / SURVIVES@MEDIUM (net EV break-even-to-negative → trim signal); #2 two-legged SPF (cover<−108K tail / no-trigger-by-Sep-18 MODE); #3+#5 window LOCKED **Sep-18-2026**; #6 Channel 1 **RETIRE** (direct foreign-SALES re-add tripwire); #4 vehicle gate → (b)/(c) OFF, finalize = (a)/(d).
-- **Finalized THESIS v1.6** — canonical rewritten (carry-convexity-tail; Pillar audit; Channel 1 RETIRED, Channel 4 NEW center); v1.5.1 → `thesis/THESIS_v1.5.1_ARCHIVE.md`; DRAFT superseded (git rm at commit); CHANGELOG **[MAJOR]** entry.
-- **Propagated v1.6** across STATUS (banner/position/stop/buckets/thresholds), TRADE, STRATEGY, PREDICTIONS (4 OPEN tripwires SAM-28..31), NEXUS_BRIEF (cross-agent re-marks shipped).
-- **Position — Will-approved trim:** 7 of 13 → **6 sh** + stop tightened $55.05 → **$55.50 / USDJPY ≥162.5**; vehicle OFF. Market closed Mon PM → **executes Tue Jun 23** (fill TBD = Will's ground truth; recorded as decision, not fabricated).
-- **METSUKE Run-7 drift sweep** (post-MAJOR-bump): 18 flags, **all 18 applied** (TRADE/STRATEGY deep v1.5.1 prose converted to v1.6 — Risk Factors/Key Dates rebuilt, Options/reconciled/Takaichi sections marked RESOLVED/closed) + 5 stragglers caught on a post-apply grep; SAM-applied logged in METSUKE_MEMORY.
-- **Committed** the full finalize locally (pathspec, SAM dir only; push deferred to a coordinated window).
+- **Booted** (git clean 0/0; left PROME's uncommitted SCRATCH.md alone), ran full Monday boot.py sweep, refreshed STATUS market data + carry anchor (CFTC Jun-23 81.2%).
+- **Will flagged "yen crashed to 40-yr low — surely this matters?"** Verified the live tape (161.96, **+0.09% — orderly grind, NOT a crash**); checked for fresh MOF reaction (none; $72.5B May intervention "largely ineffective — drivers structural" per CNBC). Gave the honest read: **yen-weak is AGAINST a long-yen book**; the level isn't the trigger, *velocity* is; orderly grind = no near-term catalyst. (Discipline: verified live print before answering the headline.)
+- **Will: "We do not have any current FXY positions."** → **Reconciled ALL live surfaces to FLAT** (STATUS / TRADE / NEXUS_BRIEF / THESIS §POSITION / STRATEGY). Preserved every position-independent analysis (thesis/channels/pillars/predictions/watchlist); **reframed the carry-convexity-tail as a watch-for-entry thesis** (NOT EV-positive to initiate at MEDIUM/break-even — deploy only on a fired trigger). **Did NOT fabricate a close price/date** (none provided). Historical/audit files (MAINTENANCE, *_MEMORY, CHANGELOG) left intact.
+- **Defaults set (Will can flip either):** record = FLAT-from-here, no exit detail; forward = keep thesis warm as watch-for-entry.
 
 ### NEXT SESSION
 
-**Imminent — execute the trim + watch the v1.6 tripwires:**
+**🆕 NEW PRIMARY THREAD (Will-directed 2026-06-29): develop the JGB long-end SUPPLY/DEMAND thesis.** SAM is flat + the carry-tail is break-even, so effort pivots to the only-pillar-still-firing (Pillar 2 J-ICS lifer abandonment) + the reflationist-board / Takaichi fiscal supply side = a DOMESTIC JGB/curve thesis needing no carry trade. **Scoping doc written: `research/outputs/JGB_SUPPLY_DEMAND_THESIS.md`.** Execute gated on Q1 = **TRADEABILITY** (resolve FIRST — is there a Will-accessible vehicle for "long-end yields rise," or is this a signal thesis that feeds LIQUID?). Then BOJ-backstop reaction-function → supply quantification → demand depth. Frame as MECHANISM/CURVE, NOT a 4.0% threshold (SAM-26 trap). Catalysts: Jun-30 Sato seats · Jul-7 30Y / Jul-22 40Y auctions · Jul-31 BOJ FY2027 purchase-plan. *(Keep carry watch-for-entry low-touch alongside.)*
 
-1. **🔴 EXECUTE THE TRIM Tue Jun 23** (market was closed Mon PM): sell 7 → 6 sh at the open. **True up the realized P&L + exact fill** across STATUS § FXY POSITIONING + TRADE (money fields = Will's ground truth — I recorded the decision, NOT a fill price). **Flag `FORGE/STATUS.md` update to PROME** (shared file; don't self-edit). Stop is $55.50 / USDJPY ≥162.5.
-2. **Monitor the convexity-tail tripwires (SAM-28..31) through the LOCKED Sep-18 window:** leg-1 cover <−108K → frame LOW (SAM-29); leg-2 no eligible trigger by Sep-18 → LOW (SAM-28); reclaim MED-HIGH if CFTC builds through −153K/85% (SAM-30, by Jul-31) OR cross-pair yen-haven re-couples (SAM-31). These are the live forward observables now.
-3. **Next CFTC = Fri Jun 26** (Jun-23 data) — first post-trim read; watch vs the −108K/−153K tripwires.
-4. **Wed Jun 24 BOJ Summary of Opinions** — first granular read on the 7-1 board reaction function (Asada dovish-dissent rationale; oil-inflation linkage; Q4-vs-later next-hike read). Then Jun-26 Tokyo CPI + Jun-30 Sato seat + Jul-1 Tankan + Jul-7/22 super-long auctions + Jul-31 BOJ.
-
-**v1.6 finalize cleanup (low-priority tail):**
-
-5. **evals re-baseline** (Will runs, fresh skip-boot session) — v1.6 changed load-bearing structure; the frozen-scenario suite needs re-baselining per `evals/README.md`.
-6. **Run-8 METSUKE straggler grep** on TRADE/STRATEGY (`single-path|Channel 1 deferred|under v1.5|multi-month tail`) — 4 low-signal framing residues SAM deferred this session — + **archive-compress the historical bodies** (TRADE Options Layer, STRATEGY OPTIONS RULES / JUN-16 RECONCILED / TAKAICHI DISPOSITION — all marked SUPERSEDED at their heads this session, bodies retained for one cycle).
-7. **KURA FLOW/VX full re-derivation** per the v1.6 finalize (FLOW-JPN-5.02 / 6.02 / VX-SAM-11.02 trade-balance refresh) — too much moved for a surgical fix.
-8. **Auto-memory candidates (un-promoted, pending Will endorsement):** (a) the source-discipline finding (Findings 6/20); (b) NEW candidate — the RED-dialogue-scaffold (pre-registered SURVIVES-bars + interlocked-cluster resolution: locking the Sep-18 window resolved #2/#3/#5 together) converged a MAJOR thesis bump in ONE round-trip — assess vs [[finding_liaison_convergence_pattern]] / [[finding_adversarial_brief_for_pair_teams]] before promoting (may be incremental).
+1. **If Will provides exit detail** (close price/date/realized P&L) → log it in TRADE Entry Decision Card + CHANGELOG; it's the one money fact still TBD. Otherwise FLAT-from-here stands. (Note: SAM's docs had carried the position as live for ~1wk — a real data-integrity miss; positions are Will's truth.)
+2. **Watch-for-entry monitoring** — SAM-28..31 now read as ENTRY-triggers, not position-tripwires. Re-entry case activates ONLY on a fired trigger: disorderly MOF spike · CFTC build through −153K/85% (SAM-30) · risk-off yen-haven re-couple (SAM-31) · Fed-dot walk-back. Don't chase the grind to the 40-yr low.
+3. **Next CFTC = Fri Jul 3** (Jun-30 data). **Tomorrow Jun 30: Sato takes Nakagawa's BOJ seat (dissent bloc 3→2) + JGB 2Y.** Then Jul 1 Tankan, Jul 7 30Y auction, Jul 31 BOJ.
+4. **CALENDAR prune (deferred this session):** clear resolved 6/23-6/26 events (SoO / Tokyo CPI / 5Y+20Y auctions / CFTC) from the forward tables → KOYOMI or inline.
+5. **Carried from Jun-22 (still open):** evals re-baseline (v1.6 structure changed); KURA FLOW/VX re-derivation; archive-compress the SUPERSEDED historical bodies (TRADE Options Layer / STRATEGY OPTIONS-RULES / JUN-16-RECONCILED / TAKAICHI).
+6. **Auto-memory candidate:** phantom-position reconciliation pattern (docs carried a position Will didn't hold → flag-then-confirm-then-reconcile-to-FLAT *without* fabricating money fields). Assess vs [[feedback_position_cost_basis_not_authoritative]] before promoting — likely a clean application, not net-new.
 
 **Research backlog (Tier 2/3 un-pulled, Will Jun-15 brainstorm — still open):** GPIF/pension flows; fiscal/Takaichi trajectory + JGB supply; digital deficit; BIS yen carry (beyond CFTC); Taiwan/China→Japan tail; Japan semis/AI capex.
 
 **⏸️ DEFERRED:** Layer B cross-agent (BROCK/HANS PC-cascade pull); KB cleanup tier-2; insurer profiles audit; Japanese-source pipeline retire; SIGNAL_INTAKE archive.
 
-**Closeout (Mon Jun 22):** the v1.6 MAJOR finalize — committed locally (pathspec, SAM dir only; push deferred to a coordinated window). Surfaces: THESIS v1.6 (+ v1.5.1 archive + DRAFT git-rm) / CHANGELOG / STATUS / TRADE / STRATEGY / PREDICTIONS / NEXUS_BRIEF / V16_RED_DIALOGUE / METSUKE_MEMORY (Run-7) + this MEMORY closeout. SAM⇄RED converged 6-of-6; METSUKE Run-7 18/18 applied. **Channel 1 disposition RESOLVED this session: RETIRED** (closes the prior Will-directed re-examination). **Pending push:** all of the above — next coordinated window sweeps it.
+**Closeout (Mon Jun 29):** boot + the FLAT reconciliation (5 live surfaces) + STATUS market refresh. NOT yet committed (this turn ongoing). **Note:** the Jun-22 v1.6 finalize closeout said "pending push" — verify at this closeout whether those commits have shipped (git log) before committing this session's reconciliation.
 
 ### NEXT INFRA SESSION (script build queue — re-prioritized Jun 10)
 

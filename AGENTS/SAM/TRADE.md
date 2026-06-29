@@ -1,6 +1,6 @@
 # SAM — Trade Ideas
 
-**Last Updated:** 2026-06-22 Mon (**v1.6 FINALIZED** — position + stop money-fields trued-up; v1.6 stale-prose sweep DONE 2026-06-22 evening — active v1.5 framing reconciled to v1.6 (Asymmetric Setup / Fed-path / Catalyst-Sequence / TLT-watch / Hard-Trigger Fed+SAM-26 rows); the fenced Options-Layer historical bodies remain archive-compression candidates). **🆕 POSITION: trim 7 of 13 → 6 sh remaining (Will-approved 2026-06-22; EXECUTES Tue Jun 23, market closed Mon PM) + stop tightened FXY ≤ $55.05 → $55.50 / USDJPY ≥162.5. Jun-18 $58C expired worthless. v1.6 re-frames the shares as carry-CONVEXITY-TAIL exposure at MEDIUM/break-even (analytically a trim signal) — full thesis `thesis/THESIS.md` v1.6; vehicle-change OFF (RED #4 gate).** | *Prior 2026-06-19 Fri (METSUKE Run-6 drift cleanup* + KURA Run-6 KB curation post post-BOJ/FOMC/Iran-deal triple cluster; money fields untouched per discipline): Carry-Unwind narrative CFTC refresh to −145,818 / 81% of cycle peak / 6th build week (Jun 9 data Sat Jun 12 release; pre-catalyst peak), next CFTC = **Sat Jun 20 (post-catalyst, v1.6 EV-gate decision-grade)**; Independent Fed Path section reframed to Fed-HIKE regime under Warsh (debut Jun 17 +40bp 2026 median dot); Channel-1-reactivates Risk Factor row flagged Norinchukin gate RESOLVED AGAINST Jun 10 + retire-vs-defer queued for v1.6. Position frozen: 13 shares @ $58.32 avg cost + 1 Jun-18 $58C @ $40 (EXPIRED worthless Jun 18); stop re-armed Step 1.5 2026-06-18 to single-leg FXY ≤ $55.05. | 2026-06-14 Sun PM prior (Brent + Ueda + 6-input re-mark integration; SAM-21 75 → ~90 CH-009; SAM-23 72 → ~30 CH-011; CFTC −129,567 → −145,818; Brent $93.25 → $87.33; buckets 14/37/49 → ~8/23/32). | 2026-06-10 evening prior (CH-032/CH-011 drift flags; SAM-23 → ~35 pending Sat Jun 13) | 2026-06-09 PM prior (Brent settle correction) | 2026-06-04 prior (Sato Jun-30) | 2026-06-03 prior (stop-spec) | 2026-06-01 prior (Iran MOU break, Channel 3 reactivated) | 2026-05-27 prior (v1.5 sync).
+**Last Updated:** 2026-06-22 Mon (**v1.6 FINALIZED** — position + stop money-fields trued-up; v1.6 stale-prose sweep DONE 2026-06-22 evening — active v1.5 framing reconciled to v1.6 (Asymmetric Setup / Fed-path / Catalyst-Sequence / TLT-watch / Hard-Trigger Fed+SAM-26 rows); the fenced Options-Layer historical bodies remain archive-compression candidates). **🟢 POSITION: FLAT — no FXY position (Will-confirmed 2026-06-29).** SAM carries no current FXY position; the prior 6-sh post-trim stub (13→6 trim Will-approved 2026-06-22, fill logged "unconfirmed" 6/25) is superseded by Will's 6/29 confirmation. No realized-P&L recorded (TBD from Will). The carry-CONVEXITY-TAIL is now a **watch-for-entry thesis on a flat book** — NOT EV-positive to initiate at MEDIUM/break-even; deploy only on a fired trigger; vehicle reopens (defined-risk options > spot). **The position cells / Entry Decision Card below are HISTORICAL (the decision record), not a live position.** Full thesis `thesis/THESIS.md` v1.6. | *Prior 2026-06-19 Fri (METSUKE Run-6 drift cleanup* + KURA Run-6 KB curation post post-BOJ/FOMC/Iran-deal triple cluster; money fields untouched per discipline): Carry-Unwind narrative CFTC refresh to −145,818 / 81% of cycle peak / 6th build week (Jun 9 data Sat Jun 12 release; pre-catalyst peak), next CFTC = **Sat Jun 20 (post-catalyst, v1.6 EV-gate decision-grade)**; Independent Fed Path section reframed to Fed-HIKE regime under Warsh (debut Jun 17 +40bp 2026 median dot); Channel-1-reactivates Risk Factor row flagged Norinchukin gate RESOLVED AGAINST Jun 10 + retire-vs-defer queued for v1.6. Position frozen: 13 shares @ $58.32 avg cost + 1 Jun-18 $58C @ $40 (EXPIRED worthless Jun 18); stop re-armed Step 1.5 2026-06-18 to single-leg FXY ≤ $55.05. | 2026-06-14 Sun PM prior (Brent + Ueda + 6-input re-mark integration; SAM-21 75 → ~90 CH-009; SAM-23 72 → ~30 CH-011; CFTC −129,567 → −145,818; Brent $93.25 → $87.33; buckets 14/37/49 → ~8/23/32). | 2026-06-10 evening prior (CH-032/CH-011 drift flags; SAM-23 → ~35 pending Sat Jun 13) | 2026-06-09 PM prior (Brent settle correction) | 2026-06-04 prior (Sato Jun-30) | 2026-06-03 prior (stop-spec) | 2026-06-01 prior (Iran MOU break, Channel 3 reactivated) | 2026-05-27 prior (v1.5 sync).
 **Domain:** Japan Macro, Yen, JGBs, Carry Trade, BOJ Policy
 
 *Live prices, probabilities, threshold status, and dashboard live in `STATUS.md`. This doc owns position details + decision card — point to STATUS for live data.*
@@ -9,9 +9,11 @@
 
 ## Active Positions
 
-### 🔴 FXY (Yen ETF) — LONG (Shares + Calls)
+> **🟢 FLAT — no active FXY position (Will-confirmed 2026-06-29).** The detail below is the HISTORICAL position/decision record (preserved for audit + as the re-entry reference), not a live holding. Watch-for-entry only; see top banner.
 
-**Shares:** **6 @ $58.32 avg cost** post-trim (trim 7 of 13 Will-approved 2026-06-22, **executes Tue Jun 23 — market closed Mon PM**; avg unchanged by the sale; = Will's ground truth 2026-05-28). Realized P&L on the 7 sold = TBD at tomorrow's fill — do NOT book a fill price yet. *(Pre-trim baseline 13 @ $58.32.)*
+### ⚪ FXY (Yen ETF) — FLAT *(historical: was LONG shares + calls)*
+
+**Shares:** 🟢 **FLAT — 0 shares (Will-confirmed 2026-06-29).** *(Historical: a 6-share post-trim stub @ $58.32 avg — trim 7 of 13 Will-approved 2026-06-22; fill logged "unconfirmed" 6/25; Will confirms none now held. No realized-P&L recorded; pre-trim baseline 13 @ $58.32. Avg cost $58.32 = Will's ground truth 2026-05-28.)*
 **Calls:** 1 × June 18 2026 $58 call @ $0.40 premium ($40 total cost). Executed May 21 pre-CPI. **EXPIRED WORTHLESS Jun 18** (strike $58 vs spot ~$56.86).
 **Entry context (Tranche 1):** USD/JPY at 160 handle, pre-intervention, pre-BOJ hike cycle.
 **Entry context (Tranche 2):** Post Apr 30 + May 6 MOF interventions (~¥10T combined), v1.4 thesis bump confirming JGB 30Y at 4.0% via J-ICS lifer abandonment. Better entry than original May 12 $58.00 limit.
@@ -23,7 +25,7 @@
 
 ## 🔴🔴 FXY Entry Decision Card (entered May 21 under v1.4; refreshed Jun 1)
 
-### DECISION: 13 SHARES + 1 JUNE $58 CALL — EXECUTED MAY 21
+### DECISION: 13 SHARES + 1 JUNE $58 CALL — EXECUTED MAY 21 *(⚪ NOW FLAT — position closed/exited per Will 2026-06-29; card retained as the historical decision + re-entry reference)*
 
 | Parameter | Value | Notes |
 |-----------|-------|-------|
@@ -34,7 +36,7 @@
 | **Price target (6-month)** | FXY ~$60–62 / USD/JPY ~148–152 | Post-BOJ hike + carry unwind + oil stabilization |
 | **Avg cost (shares)** | **$58.32** | Will's ground truth 2026-05-28. ⚠️ Prior figure "~$57.48 blend (8 × $57.36 + 5 × $57.66)" was inaccurate — did not reconcile (avg > both stated fills). Per-tranche fills unverified; use $58.32 avg only. |
 | **R:R (v1.6, 6 sh post-trim)** | From FXY $56.79: risk **$1.29/sh to stop $55.50** (≈ $7.7 on 6 sh); the payoff is the asymmetric CONVEXITY TAIL (+5-7% FXY if a route fires by Sep-18), NOT a point target. v1.6 modal band ≈ FXY $57.5-59.5 (CH-032); $60-62 = conditional-tail ~25-30%. | Net 60d EV ≈ break-even-to-slightly-negative (RED #1) — a small tail-hold, not an edge-positive bet. No option layer (Jun-18 $58C expired). |
-| **Live P/L (shares)** | post-trim **6 sh ≈ −$9** at FXY $56.79 (−2.6% vs $58.32 avg); breakeven $58.32, above spot | See STATUS for live mark |
+| **Live P/L (shares)** | 🟢 **N/A — FLAT** (no position; Will-confirmed 2026-06-29). No realized-P&L recorded. | *(Historical: 6 sh ≈ −$9 at FXY $56.79.)* |
 | **Call max loss** | $40 (sunk if FXY <$58 at June 18 expiry) | 5.3% of share notional |
 | **Call payoff @ $60 (target lower)** | ~$160 = 4x | Triggers if BOJ hikes + small post-event move |
 | **Call payoff @ $62 (target upper)** | ~$360 = 9x | Triggers if BOJ + intervention #3 or partial unwind |
@@ -178,6 +180,8 @@ Private credit cascade (APO, ARES — 9 funds gated; BCRED Q1 redemptions ~7.9%,
 
 ## Risk Factors (Bear Case — v1.6 carry-convexity-tail)
 
+> *Position is FLAT (Will-confirmed 2026-06-29). The risks below are thesis-level and valid for watch-for-entry; the "Mitigation" column references the prior position (6 sh / $55.50 stop) — for a flat book read these as "what would bound a re-entry," not active risk controls.*
+
 | Risk | Probability | FXY Impact | Mitigation |
 |------|-------------|-----------|-----------|
 | **No trigger fires by Sep 18 (the MODE — leg-2 SPF)** | **>50%** (the central case) | Modal bleed; convexity-tail retires to LOW | Window time-boxed (Sep 18); bleed bounded by small size (6 sh) + tightened stop FXY ≤ $55.50; pre-registered retire disposition (SAM-28). The honest base case — this is a tail-hold, not a directional bet. |
@@ -246,7 +250,7 @@ Private credit cascade (APO, ARES — 9 funds gated; BCRED Q1 redemptions ~7.9%,
 
 | Date | Event | Impact |
 |------|-------|--------|
-| **🔴 ongoing** | **CFTC JPY weekly** (next Fri Jun 26, Jun-23 data) | −150,132 / 83.4% of peak (Jun-16, held through catalyst, no cover); amplifier +5pp ON. Tripwires: cover <−108K → frame LOW (SAM-29); build through −153K/85% → reclaims MED-HIGH (SAM-30). |
+| **🔴 ongoing** | **CFTC JPY weekly** (latest Jun-23 data, rel Fri Jun 26) | **−146,104 / 81.2% of peak** (first cover off the 83.4% top, +4,028 WoW); amplifier +5pp ON. Entry-triggers (flat book): cover <−108K → frame LOW (SAM-29; ~32K room) · build through −153K/85% → reclaims MED-HIGH (SAM-30; moved away, 3.8pp shy). Next print Fri Jul 3 (Jun-30 data). |
 | **🔴 ~Sep 18 2026** | **Convexity-tail window-end (LOCKED)** | No eligible trigger fired by Sep-18 + ≥80% fuel → retire convexity-tail to LOW (SAM-28). Window captures Jul-31 BOJ + mid-Sep FOMC, neither as deadline. |
 | 🟡 Wed Jun 24 | **BOJ June Summary of Opinions** (Jun 15-16 MPM) | First granular read on the 7-1 board's reaction function; Asada dovish-dissent rationale; oil-inflation linkage / Q4-vs-later next-hike read. |
 | 🟡 Jun 23/25/30 | JGB 5Y / 20Y / 2Y auctions | Post-BOJ forward-path reads (belly / insurer-strike-broadening / front-end). |
