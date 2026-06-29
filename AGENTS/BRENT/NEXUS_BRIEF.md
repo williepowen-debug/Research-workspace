@@ -5,7 +5,7 @@
 **Thesis version:** **v5.0 (Jun 29 PM — MAJOR, asymmetry flip)** ← v4.4 (kinetic test passed, P 0.63→0.70) ← v4.3 (structural adjudication) ← v4.2 (Phase-2-in-price). Full THESIS.md.
 **⚑ v5.0 — the asymmetry flipped to UPSIDE-CONVEX (positioning reversal, NOT a price-forecast reversal).** Central forecast unchanged (calm hold near-term); what flipped is the SKEW — downside capped (record-low inventories + SPR-refill bid), upside tail fat AND RISING (reopening weeks-to-MONTHS, two rising Russian crude fuses, spent buffers, near-record spec short = squeeze fuel). **Phase-2-short bias RETIRED; no fresh shorts; we are NOT calling oil up — the convexity is up, not the forecast.** Two-phase reframe: physically still Phase 1 (squeeze unresolved), so the dominant medium-term risk re-rotated to a Phase-1 RE-SQUEEZE (reopening-failure-up), not Phase-2 (demand-down).
 **Position:** **v5.0 stance: no flat-price length either way; forward expression = defined-risk long-convexity, deploy-on-trigger** (USO call spread, ~$500 max-loss, pre-negotiated-proposal authority; full plan in `TRADE.md`; Will [Approve] at fire; no capital today). **XLE $65C Sep-30 → LAPSE** = deep-OTM backstop. CF $130C expired Jun 18. Positions + plan in `TRADE.md`; live prices in STATUS; no P/L here.
-**As of:** 2026-06-29 Mon ~10:25 ET (kinetic-test adjudication; boot.py live pull) | STATUS commit: this session (Jun-29 v4.4, "JUN 29 AM" section)
+**As of:** 2026-06-29 Mon PM ET (full session: kinetic test → THESIS v5.0 asymmetry-flip → TRADE.md migration) | STATUS commit: Jun-29 v5.0; positions/trade plan now in `TRADE.md`
 
 ---
 
