@@ -32,53 +32,21 @@
 
 > **⚠️ SUPERSEDED 2026-06-29 — the conditional position decision card below (6-vs-13 sh, fill, stop) is MOOT: Will confirmed SAM is FLAT (no FXY position). Retained as the historical record of the 6/25 read. See the 6/29 SESSION NOTE above.**
 
-**LIVE MARKS (fetch.py, ~11:45 ET):** FXY **$56.74** (+0.07%) · USD/JPY **161.65** (+0.03%) — both flat. May PCE core 3.4% YoY firm but USD/JPY did NOT break → as-priced; carry steady/red, no funding crunch. MOF silent 9+d at 161+.
-
-**⚠️ FXY POSITION = PENDING BROKER RECONCILIATION (do NOT bake fill/count/P&L).** The 6/22-approved 13→6 trim was logged "executes Tue 6/23"; **as of 6/25 the fill is still UNCONFIRMED** — Will's broker is the truth source. Decision card is CONDITIONAL on the fill answer:
-- *If trim FILLED (6 sh):* **HOLD** the convexity stub, keep stop. MOF-intervention tail (silent 9d at 161+) pays the long-FXY stub. No action.
-- *If trim NOT filled (13 sh):* **EXECUTE the trim now (sell 7 → 6)** — double size, ~0.85 yen from the binding USD/JPY-162.5 stop leg, carry red, PCE as-priced. Don't carry 2× into a 53-pip stop.
-- **Stop math:** USD/JPY→162.5 = **0.85y / +0.53% away** (binding leg, fires first) · FXY→55.50 = **$1.24 / −2.19%** (deeper backstop). ⚠️ Legs disagree (FXY 55.50 ≈ USD/JPY ~165.2; USD/JPY 162.5 ≈ FXY ~$56.44) — confirm which is operative + whether stop is working-order vs mental.
-- **Broker data needed:** (1) did 7-sh trim fill 6/23 Y/N; (2) if Y, fill price + confirmed remaining count; (3) stop implementation (live order at what FXY level, or mental).
-- Unrealized ≈ −2.7% either state (FXY $56.74 vs $58.32 avg): 6 sh ≈ −$9.48 / 13 sh ≈ −$20.54 (illustrative, NOT booked).
+**6/25 marks (historical):** FXY $56.74 / USD/JPY 161.65 (flat); May PCE core 3.4% YoY firm but USD/JPY held → as-priced; MOF silent 9d at 161+. **Position was then PENDING broker reconciliation** (13→6 trim fill unconfirmed) — **resolved 2026-06-29 → FLAT** (see 6/29 note). *The moot conditional decision card (6-vs-13 sh / stop-math) is dropped; the durable MOF stop-whipsaw + ladder findings are retained below.*
 
 **📘 NEW DURABLE ARTIFACT → `AGENTS/SAM/MOF_INTERVENTION_PLAYBOOK.md`** — persists this session's S1 (MOF escalation ladder T0–T3 × USD/JPY zone; strike history; **speed/disorder trigger** — velocity not level; FXY-stub behavior by zone; cleanest tell = rate checks + "decisive action"; **stop-vs-payoff whipsaw** — hard 162.5 auto-stop tags at the spike high just before MOF reverses → wants discretionary/mental in the zone) + X1 (carry-vs-PC shared-antecedent: correlated-not-identical, shared root only in disorderly-unwind tail / Aug-5-2024 template, opposite-signed in base case; regime-conditional double-count rule; two decoupling tests). **Appended 6/25 LIVE PLACEMENT LOG:** S1 ladder = **T2-verbal but PRE-T1** (jawboning elevated — Katayama "decisive action" = standing line/tape-not-signal — but NO rate checks + slow grind → intervention NOT imminent; watch for rate-check headlines) · **CFTC COT framework** (Jun-16 data already printed 6/22 at −150,132/83.4%; Fri 6/26 = 6/23 data; build >−153K strengthens tail / cover <−108K = retire-to-LOW gate; verify vs primary) · **BOJ SoO 6/24** hawkish-of-priced (~90% hike-by-Dec, neutral-2% urging faster, taper-halt Apr-2027) = mild hold-support for the convexity stub.
 
 ---
 
-## 🔴🔴 FOMC JUN 17 RESOLVED — WARSH-CHAIRED HOLD, MEDIAN 2026 DOT +40bp (3.4 → 3.8) → Pillar-1 RE-WIDENING
+## 🔴 FOMC Jun-17 RESOLVED (Warsh debut) — Pillar-1 RE-WIDENING [narrative → TIMELINE]
 
-**Wed Jun 17 (2pm ET) — debut FOMC under Chair WARSH (since May 22; this fact sat un-modeled in SAM's docs for ~4wk — see auto-memory note logged Jun 18).** Held 3.50-3.75% **unanimous 12-0** (Miran + 3 April dissenters dropped because the easing language was removed). Statement gutted ~300 → ~130 words: removed "extent and timing of additional adjustments," removed balance-of-risks language, removed forward easing bias; added Middle East uncertainty, supply-shock inflation framing, "The Committee will deliver price stability." No FX / financial-conditions / coordination language.
-
-**The SEP was the move:**
-- **2026 median dot 3.4% → 3.8% (+40bp)** — implies **≥1 hike**. Distribution: **9 of 18 hike (6 see two)**, 8 hold, **1 cut**.
-- **Core PCE 2026 +60bp to 3.3%; headline PCE +90bp to 3.6%.** 17 of 18 see inflation risks to upside.
-- 2027 median 3.6%; long-run ~3.1% (modestly up). U/E cut to 4.3%.
-
-**Warsh presser:** refused to dot himself ("forward guidance not well suited"); on 2% target — "I see no reason, until we have reestablished our commitment and ability to deliver on the 2% inflation objective, to revisit that." Did NOT touch FX/coordination.
-
-**Reaction (Wed close):** DXY ~100.40 (broke 100, ~+1%); **2Y 4.216% (+16bp)**; 10Y 4.49% (+6bp); 30Y 4.93% up (bear flattener); S&P 7,420 (−1.21%); Nasdaq 26,022 (−1.34%); gold $4,275 (lower); **USDJPY 160.78 Wed close** (high 160.79 — DID NOT break 161 Wed). **161.34 was Thu continuation.** CME FedWatch July hike ~75%; Polymarket "Fed hike 2026" ~52% → ~56%.
-
-**SAM-relevant facts (no conviction re-mark in this pass — v1.6 does that):**
-- **Pillar 1 directional sign flipped.** BOJ +25bp (Jun 16) compressed; Fed-dot +40bp (Jun 17) re-widened. **Net Jun 16-17: rate-differential WIDER than pre-Tue.**
-- **Secondary-path FED-CUT regime is replaced by FED-HIKE regime** (operative under Warsh frame). Multi-month US-credit-cascade tail still live theoretically.
-- **MOF silent for 48h+ at USDJPY 160.78 → 161.34** (Bloomberg Wed flagged "Markets Alert for Japan Intervention"; no Katayama "decisive action" line surfaced Jun 17-18). Post-event intervention question now LIVE again — separate scenario-weighted anchor pending in v1.6.
-- **The dovish-surprise leg of the carry-unwind thesis did not fire — opposite occurred.** Near-term direction inverted; CFTC 81% fuel load unchanged ("shorts growing" per boot.py); structural-tail severity intact.
-
-**Sources:** fed.gov statement + SEP; CNBC redline; FXStreet (DXY); investingLive (USDJPY); Bloomberg (intervention alert); Reuters/Yahoo (Warsh presser).
+Held 3.50-3.75% (12-0); **2026 median dot +40bp (3.4→3.8), ≥1 hike implied** (9-of-18 hike, 1 cut); core PCE 2026 +60bp to 3.3%; statement gutted of forward easing. **Net effect on SAM: Pillar 1's directional vector INVERTED** (BOJ +25bp < Fed +40bp → rate gap WIDER); the secondary Fed-CUT path is replaced by a **Fed-HIKE regime** under Warsh — carry tripwire now = "walk-back of the Jun-17 dots" (BofA Jun-22 sees 3 hikes → 4.25-4.5%). Full narrative → `thesis/timeline/TIMELINE.md` (Jun-17 block) + `thesis/CHANGELOG.md` 2026-06-18.
 
 ---
 
-## 🔴🔴 BOJ JUN 16 RESOLVED — HIKED TO 1.00% (as priced; NO carry unwind)
+## 🔴 BOJ Jun-16 RESOLVED — HIKED to 1.00% as-priced, NO carry unwind [narrative → TIMELINE]
 
-**Tue Jun 16 (decision out ~midday JST / overnight ET — this is the "movement on JGB numbers" Will flagged).** BOJ **hiked 25bp → 1.00%** — highest since 1995, first hike since Dec 0.75%. Vote **7-1, Asada dissenting for a HOLD** (DOVISH dissent — the *opposite* of the Apr-28 3-hawkish-dissent shape). Growth + inflation outlook **RAISED**. **Ueda absent (hospitalized); Deputy Gov Uchida fronted the presser** — FX comment boilerplate ("watching, don't target exchange rates"), forward guidance read "further hikes expected but **not imminent**" (ING). **This is the MODAL delivered-as-priced package — NOT the hawkish-of-pricing tail (no 50bp, no accelerated-QT surprise, dovish dissent + soft guidance).**
-
-**Reaction (live, ~9:40 AM ET Jun 16):** USDJPY **160.36 (+0.25%)** — yen WEAKENED on a hike to a 31-yr-high rate; FXY **$57.22** flat; JGB **post-decision level NOT yet authoritatively confirmed** — MOF CSV updates ~Jun 17, boot.py still shows the *pre-decision* Jun-15 pub (10Y 2.589 / 30Y 3.725); wire reads small (~±few bp), and the QT-soften / taper-end signal argues a mild *rally* (yields down). Don't assert direction until the MOF CSV prints. Brent **$80.51 (−3.2%, sub-$81)**. **Confirms CH-004: a fully-priced hike does not unwind carry (buy-rumor-sell-fact).** No unwind fired; carry-unwind buckets (§ below) hold their Sun Jun 14 levels — the dominant near-term *trigger* is now spent without a violent move.
-
-**Predictions resolved (see PREDICTIONS.tsv):** SAM-21 (June hike) ✅ **CONFIRMED** · SAM-24 (25bp not 50bp) ✅ **CONFIRMED** · SAM-23 (MOF intervention #3 by June BOJ) ❌ **FAILED** — 159+ held 8+ orderly sessions, no strike; *calibration win*, pre-marked 72%→~30% on CH-011 · SAM-26 (30Y ≥4.0% through meeting) ❌ **FAILED** — pre-marked 70%→~25%, threshold-vs-mechanism. **0 OPEN predictions remain.**
-
-**Position (UNCHANGED — money fields are Will's call):** 13 shares @ $58.32 avg (FXY $57.22, ≈−$14 unrealized) **HOLD** — structural-pillar bet, unaffected by the as-priced delivery. **Jun-18 $58C: salvage thesis WEAKENED** — the pre-registered "sell-into-the-Tuesday-IV-pop" exit assumed a pop; there is none (FXY flat-to-down, ATM IV crushing into Thu expiry), strike $58 vs spot $57.22 with 2 days left → now reads as likely near-total loss rather than the modeled $5-10 recovery. **Flagging, not acting.** **Stop status (Step 1.5 re-arm Will-decided 2026-06-18):** the original AND-spec is structurally defunct (BOJ-dovish leg permanently false post-hike → AND can never fire → shares were operationally unprotected). **Will collapsed the dead leg out — current stop is single-leg FXY ≤ $55.05** (interim). **[v1.6 SUPERSEDED 2026-06-22: stop tightened → FXY ≤ $55.50 / USDJPY ≥162.5 + position trimmed ~half, Will-approved — see v1.6 banner / § FXY POSITIONING.]**
-
-**Next:** 🔴 FOMC + dots Wed Jun 17 2pm ET (watch dots for HIKE-lean, not rescue) · 🟠 Japan May trade balance **tonight ~7:50 PM ET** (branch a/b/c per CALENDAR; diplomacy + Hormuz-still-closed biases branch c) · 🟡 National May CPI Fri Jun 19 · v1.6 re-underwrite post Jun-18 settle. **Full event narrative → TIMELINE.md.**
+Hiked 25bp → 1.00% (highest since 1995); vote 7-1, Asada DOVISH-dissent for hold; Uchida fronted the presser (Ueda hospitalized), "further hikes not imminent." **Modal as-priced package — confirms CH-004: a fully-priced hike does NOT unwind carry** (USDJPY *weakened* to 160.36, FXY flat). Predictions resolved: SAM-21 ✅ / SAM-24 ✅ CONFIRMED; SAM-23 ❌ / SAM-26 ❌ FAILED (both pre-marked down — calibration wins). Full narrative → `thesis/timeline/TIMELINE.md` (Jun-16 block); mark histories → `thesis/PREDICTIONS.tsv`.
 
 ---
 
@@ -155,115 +123,32 @@
 
 ---
 
-## INTERVENTION STATUS — SAM-23 72% → ~30% Sun Jun 14 (CH-011 APPLIED, mid-low of band)
+## INTERVENTION STATUS — MOF posture (SAM-23 resolved FALSE; derivation → TIMELINE/PREDICTIONS)
 
-**Apr 30 + May 6 fired. USDJPY held 160+ for 6+ orderly trading days (Jun 5 onward, peak Thu 160.57) with NO 3rd MOF strike — empirically confirms CH-011 disorder-not-level read. Brent collapsed sub-$90 Sun Jun 14 ($87.33, ~−10% cum from $96.78) on Mehr News 14-point Pakistan-mediated draft + Bessent "signing weekend" 80% odds; Trump pushback "draft doesn't reflect agreed terms" leaves it paused-via-diplomacy, unsigned. (ii)-leg of Jun-4 mark-DOWN substantively MET via mediator/Bessent + market-priced de-escalation — NOT Tehran-issued (Iran has not confirmed; per BRENT THESIS v3.1). Pre-meeting blackout active.**
+**Live posture: disorder-not-level (CH-011)** — MOF fires on gap-speed/range, NOT level. USD/JPY has held 160+ for 13d (now 161.96, 40-yr low) with NO 3rd strike → tolerating the orderly grind; only a *disorderly* move triggers #3. **US-Japan FX coordination stepped up** (Katayama-Bessent "aligned / bold steps", Jun-22 — raises the MOF-spike watch-for-entry route; watch for rate-check headlines). MOF #3 = DECAYING ~15-20%/30d.
 
-| Date | Size | USDJPY intraday | Outcome |
+**MOF op history (reference):**
+| Date | Size | USD/JPY | Outcome |
 |---|---|---|---|
-| Apr 30 | ~¥5.48T ($35B) est. | 160.70 → 155.55 | Same-day reclaim |
-| May 6 (Golden Week) | ~¥4.3T ($28B) est. | 157.89 → 155.05 | Same-day reclaim |
-| **Combined (named-op estimate)** | **~¥10T ($63.5B)** | — | Reuters/BofA back-out from BOJ daily settlement balances |
-| **MOF official aggregate (Apr 28–May 27)** | **¥11,734.9B (¥11.73T)** | — | MOF monthly release 2026-05-29 — authoritative. Delta ~¥1.95T = est. slippage on the two named ops and/or small unflagged smoothing op. No per-op breakdown until quarterly detail release. Net read unchanged: largest round since 2022. |
+| Apr 30 | ~¥5.48T ($35B) | 160.70→155.55 | same-day reclaim |
+| May 6 | ~¥4.3T ($28B) | 157.89→155.05 | same-day reclaim |
+| **Official aggregate Apr 28–May 27** | **¥11,734.9B ($73B)** | — | MOF monthly 2026-05-29; largest round since 2022 |
 
-**Re-engagement watch:** USDJPY tagged hard #3 trigger Jun 5 (160.20), held 160+ for 6+ orderly trading days (peak Thu 160.57) — NO 3rd MOF strike. Fri close 160.13 / Sun boot 160.19. **SAM-23 RE-DERIVED 72% → ~30%** per CH-011 — see below. Pre-meeting blackout active.
-
-**SAM-23 application — Sun Jun 14 (CH-011 re-derivation; sit at ~30 mid-low of 25-45 band):**
-
-**Primary driver: disorder-not-level FALSIFIED empirically.** 6+ orderly sessions at 160+ (Fri ranges 0.16-0.40y) with no strike confirms CH-011's read that MOF #3 fires on disorder not level proximity. CH-011 voids check — (a) MOF strike before Sat ❌; (b) disorderly session ❌; (c) 161.5+ ❌ (Thu peak 160.57). **All voids clean → re-derivation applies → SAM-23 72% → ~30%.**
-
-**Secondary driver: de-escalation removes oil→yen-weak forcing.** 14-point Pakistan-mediated draft + Bessent "signing weekend" 80% + Brent sub-$90 substantively replaces the Jun-1 "MOU break → oil snap → USDJPY upside" path that drove the original 55→72 mark-up.
-
-**Caveat preventing over-mark-down (sit at ~30, not 25):** The $94 MTD vs STEO-$105 "**$11 reopening gap**" (per BRENT THESIS v3.1) is an **UPPER BOUND** on how much de-escalation is priced. SPR drain-through suppresses Brent independently (DOE chose price-suppression over conventional-floor protection); China demand at 10-year lows suppresses independently as well. So **less than $11/bbl** is actual de-escalation premium → the tape has priced LESS de-escalation than a low-band SAM-23 read would imply. Cross-confirm via HAWK B-Reopen 32% — independent agent reads the deal as 68% non-reopen weighted, also consistent with market overpricing the reopening direction. **Net: ~30 (mid-low), not 25.**
-
-**⚠️ Scope discipline:** this ~30% is intervention-BY-Jun-16. **Post-event** intervention risk is a SEPARATE scenario-weighted anchor (high-if-hold / low-if-hike) — do not conflate. Original Jun-4 strict-conjunction conjunction status (i) ✅ Brent down cum ~−10%; (ii) ✅ substantively met via mediator/market, NOT Tehran-issued; (iii) ❌ USDJPY <159.50 (kinetic-war risk-off bid went USD-haven, not yen-haven) — strict 2-of-3, CH-011 supersedes as operative mark.
-
-**Catalyst-path analytical note (CHANGELOG candidate post-BOJ):** the original Jun-4 framework anchored on MOU-break → oil → yen-weak → USDJPY upside → MOF. The Jun 5 USDJPY 160.20 print routed through USD-side NFP. The Jun 11 kinetic-war risk-off bid went to USD-haven not yen-haven (rate-differential + oil-import-weakness offset the carry-trade yen-haven channel). The path-dependency assumption has decoupled — USDJPY now moves through independent USD drivers in both directions. Re-anchoring entry queued for post-BOJ v1.6 CHANGELOG.
+*SAM-23 (intervention #3 by June BOJ) resolved FALSE — pre-marked 72%→~30% on CH-011 (calibration win). Full derivation + the catalyst-path-decoupling note → `thesis/timeline/TIMELINE.md` + PREDICTIONS SAM-23. Compressed 2026-06-29 (Phase 3).*
 
 ---
 
-## BOJ ASSESSMENT — JUNE 16 ✅ RESOLVED (hiked 1.00% as-priced; pre-event derivation retained below, compression → Phase 3)
+## BOJ ASSESSMENT — post-hike stance (Jun-16 hike RESOLVED; derivation → TIMELINE/PREDICTIONS)
 
-**June 16 is now single-path under v1.5. Position structure assumes this prints hike.**
+**Live stance:** policy rate **1.00%** (hiked Jun-16, as-priced). **Next hike:** consensus ~90% hike-by-Dec (Reuters poll median 1.25% by year-end); **SoO Jun-24 hawkish-of-priced** (neutral-2% urging faster; taper-halt Apr-2027). **Board tilting dovish on the PATH:** Sato (seats Jun-30) + Asada are reflationists → the Apr-28 hike-dissent bloc drops 3→2; the **Takaichi political ceiling now governs the NEXT hike**, not the June one. Ueda back at work Jun-23 (post-hospitalization; leadership-overhang tail removed). Underlying inflation: official core soft (1.4%) but the subsidy-stripped trend gauge ran 2.8% (Apr) — the wage/activity *mechanism*, not spot CPI, is what the BOJ acts on ([[finding_threshold_vs_mechanism]]).
 
-### 🔴🔴 GOVERNOR UEDA ABSENT — Jun 16 MPM (S7, Sun Jun 14)
-
-**Hospitalized Jun 10** (infected hepatic cyst). **First sitting BOJ Governor to miss an MPM since the 1998 framework** (Bloomberg/Reuters/Jiji/Nippon.com/Japan Times Jun 10). **Himino (Deputy Gov) presided; Uchida (Deputy Gov) hosted the post-decision presser; Ueda submitted a written view, did NOT vote.** Cabinet (Katayama Jun 12, FXStreet paraphrase): no impact on the meeting. **✅ UPDATE (Jun-21 sweep, source-verified):** Ueda **discharged Fri Jun-19, returned to work Tue Jun-23** (continues outpatient treatment ~2wk while working) — Bloomberg/Reuters/Japan Times Jun-19. **Earlier than the originally-modeled ~Jul-30/31 return → back well before the Jul-31 MPM; the leadership-overhang / stand-in-presser tail is removed** (Ueda's own hawkish "oil shock could fuel underlying inflation" framing is the live guidance into the Jun-24 SoO / Jul-31).
-
-**Market impact = guidance clarity, NOT hike probability:**
-- Reuters Jun 11 ("BOJ's pivotal moment muddied by Ueda's absence"): decision "appears largely settled" at 1.0%
-- Bloomberg Jun 11 ("Ueda's Absence Fuels Market Nerves Over Press Conference"): presser-tone risk, not policy risk
-- Hike binary intact: Polymarket 99.2% Sun (+1.7pp drift vs Thu); swaps 93%; Bloomberg 49/51 economists for 25bp → 1.00% (Jun 9 piece); Reuters poll 94%
-- No source-named dovish leak / hold story Thu-PM → Sun
-
-**Two reads for SAM/STRATEGY:**
-1. **Vol-crush assumption is questionable.** Uchida deputy-presser → muddier post-decision signal → wider plausible-path range → IV may NOT collapse cleanly to 3-5%. STRATEGY § JUN-16 RECONCILED EXPECTATION sell-into-pop trigger should fire on the **Tuesday event-vol spike itself**, not condition on a clean post-presser repricing that may not arrive. Muddy comms may actually mean a LARGER Tuesday IV-pop to sell into — reinforces (not weakens) sell-into-pop.
-2. **$58C tail thinning vs distribution fattening = wash.** Clean hawkish-of-priced FORWARD-guidance signal less likely from a stand-in (thins the hawkish tail). Wider plausible-path distribution slightly fattens the option tail. Net effect: ambiguous/wash for the $58C option-EV — leave at $20-25 modeled, full re-derive v1.6. Tuesday sell-into-pop remains the salvage path; don't ride to Thu expiry.
-
-**Himino-precedent caveat:** Apr-13 Himino-for-Ueda speech was DOVISH cover (market hike-bets collapsed 70% → 3-10%). That precedent is a real watch-item for Jun 16-17 presser tone. However: (a) Apr-13 was a speech, not an MPM; (b) hike priced ~96-99% vs Apr-13 ~70% — market isn't pricing a hold; (c) Himino chairs but Uchida fronts the presser, so the dovish-cover lever runs through Uchida-tone not Himino. Net: residual ~5-7pp dovish-presser risk inside the ~10% SAM-21 tail, not a separate mark.
-
-| Date | Significance |
-|---|---|
-| Apr 28 ✅ | Hold 0.75% + 3 dissents for 1.00%; GDP cut FY26 1.0%→0.5%; inflation upgrade |
-| May 22 ✅ | April core CPI 1.4% MISS — swap pricing softened 74% → 55-65% |
-| May 28 ✅ | **Tokyo May CPI DOVISH MISS — core-core 1.6% (−30bp, breaches 1.9% threshold). SAM-21 marked ~57% → ~50%.** Tokyo-subsidy-bias caveat applies vs national. |
-| May 29 ✅ | **April activity data BEAT — HAWKISH counterweight.** IP +0.8% MoM (vs −0.4% exp, semis/AI capex; May guide +5.1%); retail sales +2.1% YoY (vs +1.4% exp); unemployment steady. Real economy not rolling over with disinflation. |
-| **May 31** ✅ | **🆕 MARKET REPRICED HIKE TO ~88%** — Polymarket 88.2% / swaps ~87.5% (sustained ~60% May 22 → 88%, held through both CPI misses). Market siding with wage/activity mechanism over CPI threshold. **SAM-21 marked ~50% → 70%.** |
-| **Jun 3** ⚠️ | Polymarket BOJ hike **94.8%** (+7pp in 24h vs Tue 87.6%) on USDJPY 160 break + intervention-watch dominance. **SAM-21 HELD 70%** — single-print move, not a "holds" — see trigger below. |
-| **Jun 3** 🔴 | **Ueda Kisaragi-kai speech** (final scheduled pre-blackout event): "BOJ will continue to raise the policy interest rate at an appropriate pace… upside risks to prices appear to be greater overall and are likely to emerge sooner." Explicit hawkish-of-pricing pre-blackout placement. |
-| **Jun 3** 🟠 | **Takaichi verbal at USDJPY ~160.07 high:** govt "stands ready to respond to excessive exchange-rate movements when necessary." Yen recovered to 159.66 intraday. **Reads as intervention-permission, NOT Takaichi-ceiling pushback on the hike** — closes one of the two pre-conditions of the Jun-9 mechanical trigger (no Takaichi/cabinet pushback). |
-| **Jun 4** 🔴 | **Bloomberg sourced reporting:** "BOJ Is Said to Mull June Rate Hike With Another Possible in 2026" — officials see scope for additional hikes beyond 1.00%; deliberate pre-blackout placement. Substantive primary-source leak, not common rumor. |
-| **Jun 4** 🟢 | **Polymarket built 94.8% → 96.9%** — 3rd sequential build (Tue 87.6 → Wed 94.8 → Thu 96.9). Swap pricing ~86%, Kalshi ~80%. Polymarket-vs-swap gap ~11pp but both moving same direction; no print regression. **SAM-21 HELD 70%** per discipline. |
-| **Jun 5** 🟢 | **Polymarket 96.3% — held through Fri NFP USD-rally** (-0.6pp from Thu, within noise). No dovish capitulation from BOJ market despite Fed-cut path locking dead. Strengthens the Jun-9 mechanical trigger condition. **SAM-21 HELD 70%.** |
-| **Jun 8** 🟢 | **Takaichi Jun 8 remarks FX-side only** — yen confidence, supply chains; Katayama reiterated intervention readiness. Pushback leg of Jun-9 trigger remains AFFIRMATIVELY CLOSED (intervention-permission framing reinforced, not walked back). |
-| **Jun 8 (JST)** 🟡 | **Q1 GDP revised +1.8% annualized** (vs +2.1% prelim, −0.3pp). Composition hike-tolerant — private consumption revised **UP** (0.35% vs 0.27%), capex revised **DOWN** (−0.7% vs +0.3%, software/machinery weak). Headline-soft mechanism-firm; no material USDJPY reaction (~160.1). Non-blocking for SAM-21 trigger. |
-| **Jun 9** 🔴 | **🔴🔴 SAM-21 MECHANICAL TRIGGER FIRED → 70% → 75%.** Polymarket **98.2%** (Tue Jun 9 mid-day, +1.9pp vs Fri 96.3%, volume $403K up from $304K — 5th sequential ≥90% read, continued grind no retrace); Takaichi/cabinet pushback NONE (Reuters "refrained from vocally pushing back"); Q1 GDP composition non-blocking. Both pre-conditions cleanly met per Jun-3 pre-registered spec. Earned discount vs market widened to 23pp (75 vs 98.2) — discipline-preserving calibration not directional disagreement; failed-twice-too-hawkish Takaichi-ceiling discount retained for ~25% tail. Multi-source corroboration (Bloomberg Jun 4 sources leak + Ueda Jun 3 Kisaragi-kai explicit hawkish-of-pricing) overdetermines beyond Polymarket-only condition. |
-| **Jun 9 PM** 🟠 | **Reuters-sourced: BOJ to consider PAUSING bond taper from FY2027** — Jun 15-16 meeting lays out FY2027+ purchase plan; option = open-ended ~¥2.1T/mo (current pace; prior SAM ¥2.5T cite stale, fixed); board split. **Modal package shifts toward hike + QT-soften = balanced fully-priced delivery → hawkish-tail (accelerated-QT) mass shrinks; vol-crush/sell-the-pop exit case strengthens; taper pause = J-ICS long-end relief (D2-lean without YCC).** No re-mark — sourced, pre-meeting. |
-| **Jun 10 (JST)** 🔴 | **May PPI +6.3% YoY** (vs 5.6% exp, accel from 5.3%; fastest since Mar 2023; Hormuz energy passthrough). Pairs with **BOJ trend gauge 2.8% April** (subsidy-stripped; Feb 2.2 → Mar 2.5 → Apr 2.8 vs official core 1.4%) — the subsidy-mask wedge SAM's hike case rests on, now quantified and accelerating. Hawkish-mechanism side; supports the priced hike. |
-| **Jun 10** 🔴🔴 | **Ueda hospitalized (infected hepatic cyst, ~2wk)** — first sitting Governor to miss MPM since 1998 framework. Himino chairs, Uchida fronts presser, Ueda submits written view + does NOT vote. 5-source verified (Bloomberg/Reuters/Jiji/Nippon.com/Japan Times). Polymarket/swaps held 96%+ through news — guidance clarity risk, NOT hike risk. See § GOVERNOR UEDA ABSENT above. |
-| **Jun 12** 🟢 | **Katayama (cabinet, FXStreet paraphrase):** "no impact expected on policy meeting after Ueda hospitalized." Greenlights hike path; cabinet not invoking absence as cover for hold. |
-| **Jun 14** 🔴 | **🔴🔴 SAM-21 75% → ~90% (CH-009 APPLIED Sun Jun 14)** — S4 void-gate clear (no dovish leak / swaps >85%). Polymarket 99.2% (+1.7pp hawkish drift vs Thu 97.5%, $584K vol active conviction); swaps 93% Jun-9; Bloomberg 49/51 (Jun-9 piece); Reuters poll 94%. Ueda absence DOES NOT void the trigger — health event, not dovish signal. Residual ~10% = political-Takaichi + 2-day binary surprise. See § SAM-21 SECTION below. |
-| **Jun 16** ✅ | **RESOLVED — HIKED to 1.00%** (25bp, 7-1, Asada dovish dissent, taper-end-FY2027). As-priced, no carry unwind (CH-004). SAM-21 ✅ CONFIRMED. Detail → TIMELINE Jun 16. |
-| Jun 16-17 | BOJ interim QT assessment |
-| **Jun 30** 🟡 | **Sato (Ayano, Aoyama Gakuin Univ. law prof, reflationist) takes Nakagawa's seat** (Nakagawa term expires Jun 29). **Material dovish shift in marginal-vote count:** Nakagawa was one of the 3 Apr 28 dissenters who actively voted for the 1.00% hike (alongside Takata, Tamura). Apr-28-style dissent bloc drops from 3 → 2 unless Sato surprises. Post-June PATH/CEILING implication — beyond 1.00% gets harder. *(Date corrected Jun 4 from prior "Jun 16" entry — separate event from BOJ MPM.)* |
-
-**SAM-21 CH-009 application (Sun Jun 14 — pre-blackout consolidated re-mark):** 75% → **~90%**.
-- **Polymarket leg ✅:** 9th sequential ≥90% read; Sun 99.2% (+1.7pp vs Thu 97.5%, +5.4pp vs Mon 93.8% baseline), $584K volume vs $403K Tue Jun 9 = active conviction (not stale liquidity).
-- **Swap leg ✅:** 93% (Tokyo Tanshi Jun 9; no fresher contradicting print Thu PM → Sun). >85% void threshold safely clear.
-- **Bloomberg leg ✅:** 49 of 51 economists for 25bp → 1.00% Jun 16 (Bloomberg "BOJ Watchers See Two Rate Hikes in 2026, Starting With Next Week," **Jun 9** — date corrected from earlier loose "Jun 13-14" stamp). Reuters poll 94%.
-- **Void-clause check ✅:** (1) "dovish leak Jun 11-12" → NONE found; coverage uniformly says decision intact. (2) "swaps <85%" → NOT TRIGGERED. Ueda hospitalization is a health event, NOT a dovish policy signal — Reuters Jun 11 explicitly: decision "appears largely settled at 1.0%."
-- **Pre-fire stress tests passed:** CFTC build to −145,818 (81% of cycle peak, METHOD residual stays ON); Bloomberg/Reuters all reinforce "baked in" framing through Jun 11; no Takaichi pushback (last cluster Jun 8 was FX-side intervention-permission, not policy ceiling).
-- **Net:** SAM-21 75% → **~90%** per CH-009 spec. Residual ~10% = (a) political-Takaichi surprise / secret YCC-style cap (~5-7pp); (b) 2-day binary surprise via Uchida-presser dovish-cover (~3-5pp, Apr-13 Himino precedent informs this).
-
-**SAM-21 honesty caveat (for HENRY/LIQUID consumers):** The ~90% mark is the CH-009 application of the conservative-discount-policy applied to fresh tape evidence. It now sits within ~9pp of Polymarket and aligns with the Bloomberg economist consensus. **Direction unchanged; magnitude moved to reflect S4 void-gate clearing.** Don't read hike-doubt into the residual — most of the 10% is non-hike-related (political ceiling tail, presser-tone tail) rather than a clean hold scenario.
-
-**Counterweights to dovish CPI:**
-- **April activity data (May 29): IP +0.8% MoM vs −0.4% exp; retail sales +2.1% YoY vs +1.4% exp** — real economy firm; BOJ normalization bias is activity/wage-driven, not spot-CPI driven (Ueda: temporary downward pressure won't prevent hikes)
-- ING desk (May 22): June hike base case held; calls miss "subsidy + base-effect noise"
-- Q1 GDP +2.1% beat (May 19)
-- April exports +14.8% YoY (broad strength)
-- BOJ April Summary of Opinions: "quite possible" to hike "from next MPM" (hawkish anchor)
-- Apr 28 dissent split intact (Takata, Tamura, Nakagawa for 1.00%)
-
-**Resolved (May 28-31):** Tokyo May CPI core-core slipped to 1.6% (−30bp) — dovish *price* break. April activity data (May 29) firmed the *quantity* side (IP +0.8%, retail +2.1%). **Then the market broke the tie decisively on May 31 — repricing the hike to ~88% straight through the dovish CPI**, confirming the BOJ-relevant read is the wage/activity mechanism, not the spot-CPI threshold. SAM-21 marked ~50% → 70% (held below 88% for the live Takaichi-ceiling tail). National May CPI (Jun 19, post-BOJ) is the next CPI read — watch whether national core-core holds above Tokyo's 1.6% (Tokyo subsidy-bias should keep it higher). *Fiscal context: Takaichi ¥3T ($19B) supplementary budget (May 25) funds fuel subsidies — the same subsidies suppressing CPI prints — with "no extra borrowing overall" reassurance, though fresh-debt reports pushed 10Y to ~2.8% intraday last week (long-end fiscal-supply pressure ties to the J-ICS mechanism).*
+*Full resolved derivation (Ueda absence; the Apr 28→Jun 16 dated event table; the SAM-21 50→70→75→90 CH-009 mark history; the dovish-CPI counterweights) → `thesis/timeline/TIMELINE.md` + `thesis/PREDICTIONS.tsv` (SAM-21 row). Compressed 2026-06-29 (Phase 2).*
 
 ---
 
-## SECONDARY PATH — FED CUT → FED HIKE REGIME (Jun 17 FOMC: SEP confirmed the regime flip; "secondary CUT path" is now operationally a FED-HIKE path)
+## SECONDARY PATH — Fed-HIKE regime under Warsh (Jun-17 FOMC RESOLVED; → § FOMC above)
 
-**🔴🔴 2026-06-18 [thesis-fact] — RESOLVED hawkish.** Wed Jun 17 FOMC under new Chair **Warsh** (debut, May 22 onward) held unanimous 12-0 but **raised the 2026 median dot +40bp to 3.8% (9-of-18 dots see ≥1 hike, 6 see two; only 1 cut)** and lifted core PCE 2026 +60bp to 3.3%. Statement gutted of forward easing. CME FedWatch July hike ~75%; Polymarket "Fed hike 2026" ~52%→~56%. **The directional reversal of Pillar 1 is now empirically confirmed, not just priced.** Multi-month US-credit-cascade tail still exists *theoretically* (BCRED ~12%, Ares ~14% Q2 redemption peak live) but requires breaking the new Warsh frame — Powell-era cut-pricing dynamics no longer apply. SAM-side carry tripwire moves from "Fed-cut surprise" to **"any walk-back of the Jun-17 dot revision."** Detail → § FOMC JUN 17 RESOLVED at top.
-
-*Jun 10 carry (superseded by Jun 18): May CPI printed hot-as-expected (headline 4.2%, third consecutive acceleration; energy passthrough) — the soft-surprise tail that could have opened the cut path did NOT fire. Polymarket prices ~52% odds of a Fed HIKE in 2026 (October frontrunner ~50%); futures embed roughly even odds of at least one 25bp hike by year-end. PC cascade Q2 peak (BCRED ~12%, Ares ~14%) live but labor/inflation too firm to force a pivot.*
-
-| Tripwire | Current read (Thu Jun 18) | Status |
-|---|---|---|
-| USD/JPY vs 145 target | 161.34 Thu (~16 figures above) | 🟢 far from secondary-path zone; **direction moved AWAY from target** since BOJ |
-| FOMC Jun 17 dots | ✅ RESOLVED — **median 2026 dot +40bp to 3.8%; 9-of-18 see ≥1 hike (6 see two)** | 🔴🔴 **HIKE-lean confirmed, not "watch for"** — Pillar 1 directional vector inverted |
-| Fed pricing direction | **CME FedWatch July hike ~75%; Polymarket "Fed hike 2026" ~52% → ~56%** | 🔴🔴 **Regime flip MATURED + confirmed at meeting**; cut path operationally closed |
-| US 2Y / 10Y / 30Y yields | 4.216% (+16bp Wed) / 4.49% (+6bp) / 4.93% — **bear flattener** | 🔴 short end re-priced hawkish; long end barely moved (term-premium-add cap?) |
-| US CPI (May) — Jun 10 ✅ | headline 4.2% / core 2.9%, hot-as-expected; core MoM 0.2% mildly soft | 🔴 RESOLVED — no soft surprise; gate closed per pre-registration |
-| PC-cascade escalation | Q2 peak ~mid-month: BCRED ~12%, Ares ~14%, gating live | 🟠 still live; tripwire reframes to **"walk-back of Jun-17 dot revision"** as the only Fed-side path to compression |
-| 🆕 Fed Chair regime | **Warsh since May 22** (statement-gutting hawkish; refuses to dot himself) | 🔴 month-old fact, un-modeled in SAM docs until Jun 18 sweep — see auto-memory note |
+The v1.5 "Fed-cut secondary path" is INVERTED — Jun-17 FOMC (Warsh) raised the 2026 median dot +40bp = a **Fed-HIKE regime** (BofA Jun-22 sees 3 hikes → 4.25-4.5%). **Live tripwire (watch-for-entry route 4):** *any walk-back of the Jun-17 dot revision* — the only Fed-side path back to rate-gap compression; requires a US-credit cascade breaking the Warsh frame (PC redemption Q2 peak — BCRED ~12% / Ares ~14% — live, but labor/inflation too firm to force a pivot pre-Jul-29 FOMC). USD/JPY 161.96 sits ~17 figures above the <145 secondary-path zone (direction moved AWAY). Full FOMC detail → § FOMC Jun-17 above + `thesis/timeline/TIMELINE.md`.
 
 ---
 
