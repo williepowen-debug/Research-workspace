@@ -35,6 +35,7 @@
 
 ## OPEN THREADS / WATCHES
 - 🔴 **Structural confirmed, tail re-armed at a higher bar.** A one-off kinetic spark has been tested (Jun 27-28) and did NOT re-couple price. The snap now requires a DURABLE ceasefire collapse + operational re-closure of the strait. Physical danger HIGHER (tankers hit, mines, IMO evac-halt); price danger LOWER.
+- 🔴 **⚑ TIMED RACE frame (new this session → THESIS v4.4 core).** Price has decoupled from a physical market STILL in deficit (cycle-max draws) — low price leans on a *temporary* buffer release (SPR auth withdrawn ~Jul 3) + an *expected* reopening not physically validated + demand softness. **Race = deficit-closing vs buffer-exhaustion.** Near-term (1-2wk) robust = 0.70; medium-term (1-3mo) the race resolves, whipsaw a bigger share of THAT distribution. The decisive leading tells (price is lagging): reopening 2nd-derivative (climbing past 75% or stalled?), P&I resumption, global floating-storage builds. Dangerous config = reopening-stalls-while-buffers-empty.
 - 🔴 **P&I commercial insurance still NOT resumed** = the last "fully reopened" leg; DFC political-risk substitute only. The BRT-07/17 start-gun. Watch for resumption notices.
 - 🟠 **Reopening legs now MOVING** (~75% transits, Ras Tanura, JMIC route) — vs 0/4 Jun-17. ~2-3/4. Liners off Cape = the cleanest remaining tell.
 - 🟡 **Trigger #2 datapoint #3** (gasoline 4-wk YoY wk-6/19, WGFUPUS2) + refinery util Jun-19 (WPULEUS3) STILL PENDING since Jun-24.

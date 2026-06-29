@@ -8,6 +8,30 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-06-29 AM — THESIS v4.2 → v4.4 (minor ×2, consolidated): kinetic test PASSED → structural CONFIRMED; + "TIMED RACE" core frame
+
+**Author:** BRENT (Mon Jun 29 AM session, on Will's prompt about the weekend ceasefire/strike-exchange + a follow-on Q on the SPR/buffer whipsaw risk). **This entry catches up TWO bumps that were written into STATUS but never logged here (v4.3 Jun-26, v4.4 Jun-29)** — THESIS.md + CHANGELOG.md had drifted 2 versions behind STATUS (`[[finding_ledger_drift_behind_narrative]]`). Both minor (Y): confidence-renders + a framing addition on the existing structural-decoupling frame, NOT a phase transition. Conviction lean strengthened, not reversed.
+
+**v4.2 (Jun-22) → v4.3 (Jun-26): structural-vs-coiled-spring adjudicated → STRUCTURAL base.**
+- The first true post-MOU COT (Jun-23) showed **continued forced long-liquidation, NOT short-covering** (NYMEX WTI MM net +82,872, −13,356 wk driven by longs −10,490) = de-risking = the cleanest structural discriminator. Rigs 440 (+7); cracks softening from spring peak.
+- Adjudicated the Nuttall/Hedgeye coiled-spring counter (SIG-W-20260626-002) **PARTIAL** — inventories-tight leg TRUE (own data: SPR 40-yr low, Cushing 18.957M sub-floor breached, cycle-max draws), crack-ATH claim STALE/overstated (diesel 66→56, gasoline 46→40, off highs), positioning-washout HALF (ICE-Brent supports him, NYMEX-WTI still net long & liquidating refutes). **Verdict: STRUCTURAL base, P(holds <$75 over 1-2wk) = 0.63, fat re-escalation tail.**
+
+**v4.3 (Jun-26) → v4.4 (Jun-29): the kinetic test PASSED.**
+- **The pre-registered coiled-spring flip-up trigger fired in full.** Jun 27-28 US↔Iran two-sided strike exchange (US air strikes on Iranian military/minelayer sites; Iran missiles at US bases Kuwait+Bahrain) + **a confirmed tanker hit (VLCC Kiku, Iranian UAV, ~9nm N of Khasab, Jun 27** [CONF Wikipedia/CENTCOM, web-verified]). My pre-reg (`PREREG_20260628_CME_reopen.md`) named exactly this — "vessel targeted/seized/mined, new infra strike" — as the CRACKS/flip-up condition.
+- **OUTCOME: Brent did NOT snap. It printed a ~$72 4-mo low and stayed <$74 the whole Sun-reopen → Mon-London window (now $73.53).** Resolved to the pre-reg's **HOLDS branch.** Why: supply normalization overwhelmed the war premium — Hormuz ~75% prewar transits, Ras Tanura loading resumed Jun 26, JMIC widened transit route. **Structural read confirmed BEHAVIORALLY** (survived the event class that would have flipped it), not just by positioning. **P 0.63 → 0.70.**
+- **Reopening reclassified `signed-but-0/4-legs` → `operationally advancing ~2-3/4 legs`** (P&I insurance the last leg open). Tanker equity DOWN into the reopening (STNG −1.54%) = LESSONS #19 sanity check now confirms a REAL ton-mile compression, opposite Jun-17's STNG +5.79%.
+- **HAWK re-mark (6/28, off 6/26 B34/C44/D22): B20 / C44(base) / D36** — D-tail fattened +14 (3 of 4 D-flip conditions fired) **even as price held** = escalation odds UP, price danger DOWN (the divergence quantified). HAWK deferred price authority to BRENT; outcome = scenario C-absorb / HAWK's own "D maybe slightly high" branch. PROME independently graded the carried item HOLDS/no-action (clean cross-agent convergence).
+
+**NEW core frame (v4.4): the structural case is a TIMED RACE.** Price has decoupled from a physical market STILL in deficit (inventories drawing at cycle-max). The low price rests on (1) a temporary buffer release (SPR ~9M/wk, authorization withdrawn ~Jul 3), (2) the market PRICING an expected reopening not yet physically validated, (3) genuine demand softness. → a **race between the deficit closing (Gulf normalizes + sanctioned/Russian replacement barrels land, showing up *offshore*/floating-storage +25%) and the buffers hitting hard floors.** Deficit-closes-first → gentle normalization (refill demand + ~133M returnable swap firm price toward high-$70s/$80, NOT a whipsaw); buffers-empty-first-while-reopening-stalls → sharp up-whipsaw (no cushion left). Near-term (1-2wk) robust = 0.70; medium-term (1-3mo) the race resolves, whipsaw a bigger share of THAT distribution. Decisive variable = RATE of reopening vs RATE of depletion; price is the lagging tell, leading tells = reopening 2nd-derivative / P&I resumption / floating-storage builds.
+
+**Predictions:** structural-vs-spring KEY-OPEN-ITEM RESOLVED STRUCTURAL (STATUS-level discriminator, not a BRT-xx). BRT-21 strengthened (Phase-2 short, structural read confirmed by the kinetic test). BRT-07/17 timer WARMING (legs moving, P&I the holdout). No BRT-xx resolutions logged.
+
+**Conviction:** flat-price cautious-neutral; **structural-lean strengthened** (confirmed behaviorally). No new flat-price longs. **XLE $65C Sep-30 → LAPSE** — its re-escalation-snap payoff path fired Jun 27-28 and did not pay (~$0 salvage); re-arm only on a DURABLE ceasefire collapse, not a one-off exchange.
+
+**Propagation:** THESIS header (Status+Conviction→v4.4) + new TIMED-RACE core subsection + superseded-vintage banner on the v4.0-v4.2 body + one-liner + footer. CHANGELOG (this entry). STATUS (Jun-29 AM section, already carried v4.3/v4.4) + race-frame add. NEXUS_BRIEF + SCRATCH refreshed. PREREG_20260628 resolved → HOLDS banner.
+
+---
+
 ## 2026-06-22 PM — THESIS v4.1 → v4.2 (minor): Monday CONFIRMS Phase-2-in-price — US Treasury 60-day Iranian-oil license + concluded 60-day roadmap override the weekend re-closure; HAW-11 resolves UNFIRED; record-short asymmetry quantified; contango downgraded to [EST]
 
 **Author:** BRENT (Mon Jun 22 PM session, on Will's go). Verification workflow `wf_21dca756-c61`: 4 parallel finders (Monday tape / kinetic-HAW-11 / positioning / diplomacy) + adversarial synthesis. Web-tool-confirmed; settles cross-checked across Reuters/Rigzone + CNBC + BusinessToday.

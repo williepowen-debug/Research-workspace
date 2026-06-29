@@ -68,9 +68,11 @@
 
 ---
 
-## 🟠 STATE — THE DIVERGENCE INVERTED (now: structural decoupling)
+## 🟠 STATE — THE DIVERGENCE INVERTED (now: structural decoupling = a TIMED RACE)
 
-**Earlier in June:** price *lagged* physical tightness (tape discounting de-escalation EIA wouldn't model). **Now:** the signed MOU re-priced the whole ~$25 closed-Hormuz premium OUT and flipped the curve to contango; price ($73.57) has decoupled fully from a still-tight physical (SPR 40-yr low, Cushing sub-floor, −15.2M cycle-max draw, liners on Cape, demining 30+ days). **The decoupling held through 2+ weeks** — that durability is what makes the read STRUCTURAL not transient. New stored energy = a market positioned for normalization that hasn't physically occurred → **re-escalation is the asymmetric (fat) tail** (HAWK D22; Lebanon seam live; demining-incident risk during reopening).
+**⚑ The structural read is a TIMED RACE (full frame: `thesis/THESIS.md` v4.4 core).** Price has decoupled from a physical market STILL in deficit (cycle-max inventory draws) — so the low price rests on a *temporary* buffer release (SPR ~9M/wk, auth withdrawn ~Jul 3) + the market *pricing* an expected reopening not yet physically validated + real demand softness. It holds only IF the deficit closes (Gulf normalizes past 75% + sanctioned/Russian replacement barrels land — currently showing up *offshore*, floating storage +25%) BEFORE the buffers hit hard floors. **Near-term (1-2wk) robust = the 0.70 hold; medium-term (1-3mo) the race resolves and the up-whipsaw is a live, less-cushioned branch** gated on reopening completeness. Decisive variable = rate-of-reopening vs rate-of-depletion; price is the lagging tell — watch the reopening 2nd-derivative, P&I resumption, floating-storage builds.
+
+**Earlier in June:** price *lagged* physical tightness (tape discounting de-escalation EIA wouldn't model). **Now:** the signed MOU re-priced the whole ~$25 closed-Hormuz premium OUT and flipped the curve to contango; price ($73.53) has decoupled fully from a still-tight physical (SPR 40-yr low, Cushing sub-floor, −15.2M cycle-max draw). **The decoupling held through 2+ weeks AND through the Jun 27-28 kinetic test** — that durability is what makes the read STRUCTURAL not transient. New stored energy = a market positioned for normalization that hasn't physically occurred → **re-escalation is the asymmetric (fat) tail** (HAWK D36; ceasefire fragile; demining-incident risk during reopening).
 
 **Macro (BRT-16):** oil→CPI printed in May CPI, but the premise "$90+ sustained through Q2" has DECISIVELY FAILED on the price side ($73, Q2 ends Jun 30) → converting to consumer relief (retail gas broke <$4). Inverse-feedback test Jul 14.
 
