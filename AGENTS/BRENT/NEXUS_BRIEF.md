@@ -49,7 +49,8 @@
 | From | Input | Expected by | Why it matters | How it changes my view |
 |------|-------|-------------|----------------|------------------------|
 | HAWK | Ceasefire-durability read post Jun-27/28 — is this a contained exchange or the start of a durable breakdown? | Daily | The one path that re-arms the snap tail (DURABLE physical re-closure) | Durable collapse + operational re-closure → snap, amplified by record-low stocks; contained → structural holds |
-| HAWK | Hormuz physical-reopening adjudication (P&I resumption, liners off Cape, mine-clearance) | Rolling | The BRT-07 start-gun; P&I is the last leg | P&I resumes → durable Phase-2 short; mines/strikes choke flow → reopening stalls |
+| HAWK | Hormuz physical-reopening adjudication (P&I resumption, liners off Cape, mine-clearance) | Rolling | The BRT-07 start-gun; verified legs ~0-1/4, full normalization weeks-to-MONTHS (Pentagon demining ≤6mo), transit recovery spike-then-fade | P&I resumes → durable Phase-2 short; mines/strikes/fade → reopening stalls → tightens the race toward whipsaw |
+| **HAWK** | **HAW-15 crude-export pivot — RE-VERIFY.** 2026 campaign trending toward export infra (Primorsk/Ust-Luga/Novorossiysk hit); HAWK marks UNFIRED as of Jun-26 (3d stale) | **Near-term** | The product→Brent flip: firing REMOVES Russian crude exports = the deficit harder to close = bullish-crude fuse | Confirmed pivot → raise Brent-supply-risk + medium-term whipsaw weight materially |
 | HAWK | ~80-mines / IMO-evac-halt confirmation (SIG-006 partial) | Near-term | Sizing the physical-disruption risk under the price decoupling | Confirmed heavy mining → reopening fragility higher even if price ignores |
 
 ---
