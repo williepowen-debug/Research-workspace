@@ -44,8 +44,9 @@
 - 🟡 **LIQUID HY-Energy-OAS pull** — owed, DEFERRED per Will Jun 20.
 
 ## POSITION DECISIONS PENDING
-- **XLE $65C Sep 30** — LAPSE (firmer than Jun-26's "lapse-leaning"). Its entire payoff path = a re-escalation snap, which just got its best live test (Jun 27-28 tanker hit + two-sided strikes) and DID NOT fire. ~20% OTM, ~3mo theta, salvage ~$0. VIX 18.92 small vol bid — not enough to defend. Keep ONLY as a lottery on a DURABLE ceasefire collapse; re-arm ≠ a one-off exchange.
-- **No new flat-price longs** — de-escalation/reopening confirmed + structural read = wrong regime to add length either way.
+- **⚑ THESIS v5.0 (MAJOR — asymmetry flip, Will chose "Option A" this session).** Risk-skew flipped to UPSIDE-CONVEX (positioning reversal, NOT a price-forecast call — central forecast stays neutral). **Phase-2-short bias RETIRED; no flat-price length either way.** Forward expression = **defined-risk long-convexity, deploy-on-trigger** (USO/XLE call spread, max-loss-capped). **→ NEXT ACTION: write `PREREG_20260629_convex_arm.md`** (structure/sizing/triggers/authority/disarm) — Will confirmed Option A but still owes the 3 design inputs: (1) execution authority (pre-negotiated-proposal [rec] vs pre-authorize-to-cap), (2) vehicle (USO [rec] vs XLE), (3) max-loss (~$500). **No capital deployed today** (deploy-on-trigger; Will [Approve] at fire).
+- **Arm triggers (tiered):** Tier-1 = HAW-15 crude-export pivot / reopening-stalls-while-buffers-empty; Tier-2 = Brent sustains >$75 ×2 closes (RED-FT-04 invert) / durable ceasefire collapse.
+- **XLE $65C Sep 30** — LAPSE; now the deep-OTM backstop to the convex expression. Re-arm only on a DURABLE collapse.
 
 ## MAIL STATE (one line per signal)
 - **Inbox/WALTER:** CLEAR — all 5 drained to processed/ this session (003/006/007/019/029); board_log +5 rows.

@@ -8,6 +8,35 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-06-29 PM — THESIS v4.4 → v5.0 (MAJOR — asymmetry flip): risk-skew flips to UPSIDE-CONVEX; Phase-2-short bias RETIRED
+
+**Author:** BRENT (Mon Jun 29 PM, on Will's explicit call — he chose "Option A: full v5.0 reframe" after a multi-turn stress-test of the structural case). **MAJOR (X) bump** = a positioning-conviction reversal (the standing "cautious-neutral / no-longs / lean-Phase-2-short" posture that's held since v4.0 is reversed). **NOT a price-forecast reversal** — the near-term central forecast is unchanged (calm structural hold, sub-$75, P 0.70).
+
+**What flipped (precise):** the **risk SKEW / positioning bias**, not the central forecast.
+- **Did NOT flip:** near-term modal path = the calm structural hold. We are NOT calling oil up.
+- **DID flip:** the asymmetry. Downside is capped (record-low inventories + SPR-refill bid → gentle-normalization floor ~high-$70s/$80); the **medium-term upside tail is fat AND RISING** — reopening weeks-to-MONTHS (Pentagon demining ≤6mo, transit recovery spike-then-fade), two rising Russian crude fuses (HAW-15 export-pivot trend, storage saturation), buffers nearly spent (no cushion), near-record spec short (squeeze fuel). **The central forecast is neutral; the convexity is up.**
+
+**What drove it (this session's evidence — Will's stress-test):** (1) the reopening is slower/weaker than the 75% headline (verified institutional legs P&I/liners/JWC still ~0-1/4; spike-then-fade per HAWK; Pentagon ≤6mo demining); (2) the Russian channel is a PRODUCT story (crude soft-bearish via freed exports) BUT with two *rising* bullish-crude fuses that would remove Russian crude. Both tighten the deficit-closing side of the TIMED RACE → medium-term whipsaw rose from thin-tail to ~coin-flip-vs-gentle-normalization.
+
+**The reframe (two-phase identity):** Phase 2 arrived **in price only**; physically we never left Phase 1 (squeeze unresolved, inventories still drawing); the buffer that bridged the gap is nearly spent → the dominant medium-term risk re-rotated from Phase-2-continuation (demand-down) to a **Phase-1 RE-SQUEEZE (reopening-failure-up)**. The coiled spring goes from "fat tail" to "the asymmetric risk we position for."
+
+**Old view (v4.4) → New view (v5.0):**
+- **Conviction:** "flat-price cautious-neutral; no new longs; two-sided edges (Phase-2 short / kinetic snapback)" → **"direction-neutral near-term, risk-skew asymmetric to the UPSIDE medium-term; Phase-2-short bias RETIRED; no fresh shorts; express via defined-risk long-convexity, deploy-on-trigger; SKEW flip NOT a price-forecast flip."**
+- **Forward expression:** the Phase-2 SHORT PLAYBOOK is DEMOTED to conditional (fires only if reopening fully completes + locks lower-for-longer). NEW PRIMARY = defined-risk long-oil-convexity (USO/XLE call spread, ~45-90 DTE, vol-aware, max-loss-capped), **deploy-on-trigger** (Tier-1: HAW-15 pivot / reopening-stalls-while-buffers-empty; Tier-2: Brent sustains >$75 / durable ceasefire collapse). Full structure in `PREREG_20260629_convex_arm.md` (next). Execution still needs Will [Approve] at trigger.
+- **Thresholds:** "<$75 sustained = thesis break (squeeze failed)" RETIRED — sub-$75 = structural decoupling. Added upside re-arm (>$75 ×2 closes = RED-FT-04 invert = Tier-2 arm); downside break redefined to <$70 on DEMAND collapse.
+- **Risk Factors:** re-weighted to PRICE-OUTCOMES (BRENT's mapping; HAWK owns scenario %s B20/C44/D36) — re-squeeze/up-whipsaw elevated to "the convex tail we position for."
+- **Position:** XLE $65C Sep-30 → LAPSE (narrow re-escalation-snap path fired Jun 27-28 and didn't pay) — now the deep-OTM lapse-backstop to the convex expression.
+
+**The honest steelman against (held, not skipped):** the upside spring JUST failed a live test (Jun 27-28); slow reopening ≠ failed reopening (modal path is still gentle normalization); HAW-15 is UNFIRED (don't bank an unpassed forecast); demand could deepen (downside not fully capped). **Resolution:** the up-skew is real but uncertain → we express it via DEFINED-RISK convexity, deploy-on-trigger, which *survives* the steelman (if the tail never fires we lose only a small premium). The flip is safe to adopt BECAUSE the expression is convex, never flat-price length.
+
+**Conviction:** positioning reversed (short bias retired → upside-convex-skew, deploy-on-trigger). Directional price view UNCHANGED (neutral near-term). No capital deployed today (deploy-on-trigger; Will approves at fire).
+
+**Predictions:** no BRT-xx resolution; BRT-21 (Phase-2-short) reframed as *conditional*. BRT-07/17 timer = the reopening-completeness gate that adjudicates gentle-normalization vs re-squeeze.
+
+**Propagation:** THESIS header (Status+Conviction) + TWO-PHASES reframe subsection + Phase-1 break-line + SHORT PLAYBOOK demote + new PRIMARY EXPRESSION + Position View + Thresholds + Risk Factors + footer. CHANGELOG (this). STATUS + NEXUS_BRIEF + SCRATCH pointers. Next: write `PREREG_20260629_convex_arm.md`.
+
+---
+
 ## 2026-06-29 AM — THESIS v4.2 → v4.4 (minor ×2, consolidated): kinetic test PASSED → structural CONFIRMED; + "TIMED RACE" core frame
 
 **Author:** BRENT (Mon Jun 29 AM session, on Will's prompt about the weekend ceasefire/strike-exchange + a follow-on Q on the SPR/buffer whipsaw risk). **This entry catches up TWO bumps that were written into STATUS but never logged here (v4.3 Jun-26, v4.4 Jun-29)** — THESIS.md + CHANGELOG.md had drifted 2 versions behind STATUS (`[[finding_ledger_drift_behind_narrative]]`). Both minor (Y): confidence-renders + a framing addition on the existing structural-decoupling frame, NOT a phase transition. Conviction lean strengthened, not reversed.
