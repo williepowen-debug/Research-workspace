@@ -1,56 +1,57 @@
 # DAEDALUS STATUS
 
-**Last Updated:** 2026-06-28 · **Status:** 🟢 Phase 3/4 — first REAL build executed (AEOLUS, climate→economy)
-**Class:** Meta-agent (fleet architect) · **Spawnable by:** PROME or Will · **Self-level:** L4 (first build executed clean)
+**Last Updated:** 2026-06-29 (boot) · **Status:** 🟢 Phase 4 — variant set complete + ACTIVE; firming pass mid-stream
+**Class:** Meta-agent (fleet architect) · **Spawnable by:** PROME or Will · **Self-level:** L4 (first real build AEOLUS executed clean, 6/28)
 
 ---
 
 ## Current state
 
-DAEDALUS can see the whole fleet and has executed its first real build (AEOLUS, 6/28). The first maturity map is in `MATURITY_MAP.md` (readable) + `FLEET_MAP.tsv` (data). **Now underway: the judgment-read firming pass** — converting the 12 mechanical-only (Conf L) FLEET_MAP rows into read-verified grades, and catching the false-negatives the mechanical scan baked in.
+DAEDALUS sees the whole fleet, has one real build behind it (AEOLUS, 6/28), and now owns a **complete + ACTIVE blueprint variant set** — `market-agent.md` · `meta-agent.md` · `utility-agent.md` (all Will+PROME approved). The maturity map is in `MATURITY_MAP.md` (readable) + `FLEET_MAP.tsv` (data). The **judgment-read firming pass** that converts mechanical-only (Conf L) rows into read-verified grades is mid-stream and has already rewritten the fleet's maturity picture (PAT-024: the mechanical scan *systematically under-rated* mature agents).
 
-**Latest session (6/28) — first firming batch: SHADE / BROCK / CREED** (comprehend → grade vs blueprint → adversarial verify; workflow `grade-shade-brock-creed`, 6 agents). Persisted: `profiles/{SHADE,BROCK,CREED}.md` (durable comprehension) + `upgrades/{SHADE,BROCK,CREED}_CARD.md` (section work queues) + 3 re-scored FLEET_MAP rows + PAT-020/021/022.
-- **BROCK L3 → L4** — false-negative corrected: `trade/TRADE.md` (275 ln) exists + feeds a live position + signals flowing → both L4 criteria already met. The mechanical scan looked for TRADE.md at the wrong path (PAT-020).
-- **SHADE L2 confirmed** (Conf L → H) — rich L2 held below L3 by missing *handles* not substance (PAT-022); cheap climb. Also fixed: commit count 13 → 28/30d; "no exit-rules" overstated.
-- **CREED L1 confirmed** (Conf L → M) — "thin KB" misleading: rich KB is *frozen legacy* un-pulled-forward under REGINALD/sub-agents (PAT-021); L2 climb is a rehab, not a build.
+**Done so far in the firming pass (6/28):**
+- **Batch 1 — SHADE / BROCK / CREED** comprehend→grade→adversarial-verify. **BATCH_01 handles APPLIED** (Will+PROME approved) to idle SHADE/BROCK/CREED. **BROCK L3→L4** (false-negative corrected, PAT-020). SHADE L2 (Conf L→H), CREED L1 (Conf L→M) confirmed+firmed. Persisted `profiles/{SHADE,BROCK,CREED}.md` + `upgrades/{…}_CARD.md` + FLEET_MAP rows + PAT-020/021/022/023.
+- **firm-next7 — BRENT / CARL / REGINALD / HAWK / LABOR / BOND / ORACLE.** 7/7 → L4, all adversarially confirmed, **zero downgrades.** Six were under-rated (BRENT+HAWK L2→L4 = two levels; CARL/LABOR/BOND L3→L4; ORACLE L2→L4). REGINALD "79d stale" flag = false alarm (79 = commits/30d, freshest agent). → **the fleet is far more mature than the 6/27 map said (2×L4 → ≥9×L4).** PAT-024/025/026 banked. **This is a hygiene/mislabel fix, NOT a capability gain** (PROME deflation — the map was wrong, the agents are unchanged).
+- **Variant set completed:** `utility-agent.md` built + ACTIVATED (led by the output-consumption contract; PROME's proof-of-consumption refinement baked in, PAT-028). **YEYOU resolved → utility** (PAT-027). Fixed stray YEYOU example in `meta-agent.md`.
 
-**Same session — Will + PROME approved, scoped:** (1) **hardened the scanner** — `maturity_scan.py` now recursive + reads PREDICTIONS_ARCHIVE + marks every L3+ PROVISIONAL `⚠needs-read` (PAT-020 closed). (2) Drafted the gated **`upgrades/BATCH_01_handles.md`** (8 encode-existing-reasoning handles, additive only) + routed to PROME (`outbox/`); **not applied** — awaiting approval + idle-check. (3) Banked **PAT-023** (TRADE.md staleness hygiene) → blueprint §8. (4) Round-two items (new SHADE/CREED ledger machinery) held for a separate justification. (5) BROCK position-truth = PROME's lane (FORGE decision-a), not mine.
-- **⚠ The scanner fix surfaced more false-negatives:** the recursive re-scan flags **BRENT, CARL, HAWK, LABOR, BOND** as provisional `L4? ⚠needs-read` — the path-blind scan likely under-rated several. **These are the next firming-batch targets.**
+**Open loop — waiting on PROME:** **BATCH_02 routed 6/28** (`upgrades/BATCH_02_handles.md` + `outbox/…BATCH_02…`), **still pending PROME+Will review** (PROME's 6/29 commits were all RESEARCH-INTAKE; no BATCH_02 response yet). Nothing applied — gated, correctly.
 
 ## Build progress
 
 | Phase | Deliverable | State |
 |---|---|---|
 | 0 — Spec | `SPEC.md` | ✅ `80efdbe` |
-| 1 — Skeleton + memory | CLAUDE.md, BLUEPRINTS/meta-agent.md, PATTERNS/EVOLUTION/FLEET_MAP, STATUS | ✅ `e262e86` |
-| 2 — Maturity engine | `scripts/maturity_scan.py` + first full fleet scan → MATURITY_MAP.md / FLEET_MAP.tsv | ✅ this session |
-| 3 — Build pipeline | "scaffold a new agent" workflow — **proven by first real build: AEOLUS** (climate→economy) | ✅ 2026-06-28 |
-| 4 — Maintenance + wiring | conformance batch; lifecycle; wire into ROSTER/AGENTS.md/YEYOU/PROME | 🟡 wiring exercised (AEOLUS); conformance batch still pending Will |
+| 1 — Skeleton + memory | CLAUDE.md, BLUEPRINTS, PATTERNS/EVOLUTION/FLEET_MAP, STATUS | ✅ `e262e86` |
+| 2 — Maturity engine | `scripts/maturity_scan.py` (hardened, recursive, PAT-020 fixed) + full fleet scan → MATURITY_MAP.md / FLEET_MAP.tsv | ✅ |
+| 3 — Build pipeline | proven by first real build: AEOLUS (climate→economy) | ✅ 2026-06-28 |
+| 3b — Blueprint variant set | market + meta + utility — all built + ACTIVE | ✅ 2026-06-28 |
+| 4 — Maintenance + wiring | BATCH_01 applied; BATCH_02 routed (pending); firming pass mid-stream; conformance sweep ongoing | 🟡 in progress |
 
-## Headline from the scan
+## Maturity headline (post-firming)
 
-- **2×L4** (REGINALD + **BROCK** [corrected 6/28]) · **7×L3** · **12×L2** · HERMES = retire candidate · DEWEY L0-by-design. *(Was 1×L4/8×L3 in the 6/27 scan — BROCK moved up on read-verification.)*
-- **Systemic: 14 agents missing the required BOTTOM LINE** → top batch-fix candidate (Rec 1, needs Will approval + idle targets).
-- **Standards decision pending for Will:** enforce section-titling vs. accept own-titled equivalents (HENRY case) — see MATURITY_MAP.md.
-- **First firming finding:** the 6/27 mechanical scan carried false-negatives — BROCK was under-rated a full level on a path-blind "No TRADE.md" read. The Conf-L rows are guesses until read-verified (PAT-020).
+- **≥9×L4** (REGINALD, CARL, BROCK, LABOR, BOND, HAWK, BRENT, ORACLE + DAEDALUS-self) · **HENRY L3** · L2 cohort + tier-2 below. *(Was 2×L4 in the 6/27 map — the gap was mislabeling, not capability; PAT-024.)*
+- **The map is a hygiene input, NEVER the scoreboard** (PROME deflation, [[project_daedalus_maturity_map_hygiene_input]]). The win is fleet-consumable handles + not wasting effort firming already-mature agents — not the L-count.
+- **6 Conf-L rows remain** (mechanical-only, need read): VIOLET, LIQUID, MARCO, OTTO, HANS (market) + NEXUS (utility). *(Down from 12 → SHADE/CREED/BROCK + firm-next7 cleared the rest.)*
 
 ## Open / structural debt
 
-- **`scripts/maturity_scan.py` path-blindness — FIXED 6/28 (PAT-020 closed):** now recursive artifact detection (live subtrees only) + reads PREDICTIONS_ARCHIVE + every L3+ emitted PROVISIONAL `⚠needs-read`. **Follow-on debt:** the re-scan now flags BRENT/CARL/HAWK/LABOR/BOND as provisional `L4?` — likely under-rated by the old scan; read-verify them next.
-- **9 FLEET_MAP rows still mechanical-only (Conf L)** — down from 12 (SHADE→H, CREED→M, BROCK→H this session). The judgment-read firming pass continues.
-- **Blueprint variant set COMPLETE + LIVE** (market + meta + utility): `utility-agent.md` 🟢 **ACTIVE** 6/28 (Will+PROME approved) — the grading standard for the utility cohort; PROME's proof-of-consumption refinement baked in (PAT-028). Remaining template cleanup: bring `templates/CLAUDE_TEMPLATE.md` under BLUEPRINTS ownership (redirect + drop HERMES refs). YEYOU → utility (PAT-027).
-- Frozen-legacy ledgers without a FROZEN banner (e.g. CREED's legacy KB/VX/FLOW under REGINALD/sub-agents) — prose-pointer firewall only; fold into the conformance batch.
-- `templates/CLAUDE_TEMPLATE.md` not yet brought under BLUEPRINTS ownership (still references deprecated HERMES).
+- **BATCH_02 pending PROME review** (the one external-gated loop). Contains: A) 6 encode-existing-reasoning handles (REGINALD 5-pt+NEXUS_BRIEF+BOTTOM LINE; CARL BOTTOM LINE; BOND Independence col; LABOR re-pin NEXUS_BRIEF); B) 4 hygiene/PAT-023 (BRENT+HAWK TRADE.md FROZEN-banner; HAWK dangling `ledger_staleness.py` ref; LABOR re-home orphaned bands); C) 2 HELD builds (ORACLE calibration scoreboard; BOND NEXUS_BRIEF — justify vs messaging-overhaul first).
+- **Utility cohort un-firmed against the now-live standard:** WALTER, RED, TERRY, NEXUS, YEYOU graded before `utility-agent.md` existed (ORACLE already firmed L4). The named DAEDALUS-lane next.
+- **`templates/CLAUDE_TEMPLATE.md` not yet under BLUEPRINTS ownership** — still references deprecated HERMES; redirect + strip stale refs.
+- **profiles/cards fast-follow** for the 7 firm-next7 agents (only SHADE/BROCK/CREED + CORAL have profiles so far).
+- **Fleet-wide TRADE.md/ledger staleness sweep (PAT-025)** — confirmed fleet-wide (BRENT/HAWK violations + REGINALD KB/FLOW). Candidate: promote `ledger_staleness.py` to a shared script. Separate gated proposal.
+- Frozen-legacy ledgers lacking FROZEN banners (CREED legacy VX/FLOW under REGINALD/sub-agents) — fold into conformance batch.
 
 ## Next actions
 
-1. **Await Will:** standards decision + approval on Recommendation 1 (BOTTOM LINE batch) + idle targets. (SHADE/CREED/BROCK BOTTOM-LINE + handle adds fold into this batch.)
-2. **Continue the firming pass** over the remaining ~9 Conf-L rows (the next small batch — Will to pick which agents, or default to the highest-traffic transmitters).
-3. **Harden `maturity_scan.py`** for path-blindness (PAT-020) so re-scans stop manufacturing false-negatives.
-4. **Extract the `utility-agent` blueprint** (WALTER/NEXUS/RED/YEYOU) — completes the variant set.
+1. **DAEDALUS-lane (ungated, can run now):** firm the **utility cohort** (WALTER/RED/TERRY/NEXUS/YEYOU) against the live `utility-agent.md` — read-only assessment → gated handle proposals (the firm-next7 pattern; assessment touches nothing).
+2. **Await PROME:** BATCH_02 review. (When approved: apply to idle targets / task-packet REGINALD since it's heavily active.)
+3. **Template cleanup:** bring `templates/CLAUDE_TEMPLATE.md` under BLUEPRINTS ownership (redirect + drop HERMES).
+4. **profiles/cards fast-follow** for the 7 firmed agents.
+5. **Draft the fleet-wide TRADE.md staleness sweep proposal** (PAT-025).
 
 ---
 
 ## BOTTOM LINE
 
-The fleet's structure is healthy; dominant debt is conformance, not architecture. **BATCH_01 is APPLIED** (Will+PROME approved) — encode-existing-reasoning handles landed on idle SHADE (convergence index 19/30 + BOTTOM LINE), BROCK (matrix Independence map + PREDICTIONS ACTION col; BANK_BDC_MATRIX freeze routed to owner), CREED (BOTTOM LINE + 5-pt convergence 18/40 + route-matrix); each re-scored in FLEET_MAP. The path-blind scanner that under-rated BROCK is fixed (PAT-020). firm-next7 corrected a systematically under-rated cohort (all 7 → L4, adversarially confirmed; **a hygiene/mislabel fix, NOT a capability gain** — the agents are as capable as before, the map was wrong; PAT-024); FLEET_MAP fixed, PAT-024/025/026 banked, **BATCH_02 routed to PROME** (gated). Then **the variant set was completed: `utility-agent.md` built 6/28** (DRAFT → PROME review), led by the output-consumption contract; **YEYOU resolved → utility** (PAT-027); market/meta/utility now cover every class — **`utility-agent.md` is 🟢 ACTIVE** (Will+PROME approved; PROME's proof-of-consumption refinement baked in, PAT-028). **In PROME's queue:** BATCH_02 review. **DAEDALUS-lane next:** firm the utility cohort (NEXUS/RED/TERRY/YEYOU) against the live standard; bring `templates/CLAUDE_TEMPLATE.md` under BLUEPRINTS ownership; then the fleet-wide TRADE.md staleness sweep (PAT-025); per-agent profiles/cards for the 7 firmed agents = fast-follow.
+The fleet's structure is healthy; dominant debt is **conformance + map-accuracy, not architecture.** The blueprint **variant set is complete and ACTIVE** (market/meta/utility), and the firming pass has corrected a systematically-under-rated map (2×L4 → ≥9×L4 — a *mislabel fix, not a capability gain*; the map is a hygiene input, never the scoreboard). **One external loop is open: BATCH_02 awaits PROME+Will review** (nothing applied — correctly gated). The clear ungated next is the **utility-cohort firming pass** (WALTER/RED/TERRY/NEXUS/YEYOU) against the now-live `utility-agent.md`, which is exactly why that blueprint was built. 6 Conf-L rows remain. (Boot 6/29: reconciled this STATUS's own stale spine — the body had drifted behind the BOTTOM LINE, my own [[finding_status_spine_staleness_under_appended_top]] case.)
