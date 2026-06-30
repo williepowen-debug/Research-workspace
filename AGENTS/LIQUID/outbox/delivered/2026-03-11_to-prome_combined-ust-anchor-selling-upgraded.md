@@ -1,5 +1,0 @@
-## 2026-03-11 — To: PROME
-**Signal:** Combined UST anchor selling upgraded to $40-72B/month — 4th anchor (Gulf petrodollar recycling) now modeled as active
-**Detail:** Gulf states (Saudi, UAE, Kuwait, Qatar, Iraq) normally recycle ~$125-150B/yr into Treasuries. Hormuz -92% transits + Iraq 70% shut-in collapses export revenue 60-80%. Gulf recycling reduction: ~$12B/mo (central), $25-45B/qtr. Saudi below $80/bbl fiscal breakeven = likely net SWF drawdown. Prior combined estimate: $30-55B/month (Japan + China + Korea). **Upgraded: $40-72B/month (4 anchors)**. This is involuntary and additive — not policy discretion. FLOW-ZHAO-12 status changed UNMODELED → ACTIVE. Demand hole at 10Y/30Y auctions is materially larger than prior model. Combined with: LIQ-01 at 319bps, RRP at $0.278B, CLO AAA at 125bps, Blue Owl permanent freeze, BCRED Q2 gate risk — the funding system has fewer and fewer backstops.
-**Source:** ZHAO model (PROME Mar 9 delivery), @abcampbell "Strip vs Strait" Mar 8, Gulf sovereign data
-**Priority:** 🔴
