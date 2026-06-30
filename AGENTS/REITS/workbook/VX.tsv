@@ -1,8 +1,0 @@
-Vector_ID	Name	Category	Current_Value	Yellow	Orange	Red	Status	Confidence	Last_Updated	Source	Notes
-VX-REITS-001	VNQ ETF	Broad Sector	$90.54	<$85	<$80	<$75	GREEN	80%	2026-01-26	Yahoo Finance	YTD +2.3%; 2025 -3.6%; yield 3.9%; P/E 32x. Public REITs at significant discount to private values.
-VX-REITS-002	Office NAV Discount	Office	30-40%	>40%	>50%	>60%	ORANGE	85%	2026-01-26	Green Street	SLG -29% YoY; BXP -21% YoY; VNO at $40. WFH secular headwind; vacancy ~20%. Leasing improving but weak.
-VX-REITS-003	mREIT Book Value	mREIT	$8.28 (AGNC)	<$8.00	<$7.50	<$7.00	GREEN	75%	2026-01-26	Company Reports	AGNC +6% QoQ BV; +40% 1Y return; yield 12.4%. NLY at 0.98x book. Dividends maintained. Buybacks active.
-VX-REITS-004	Dividend Coverage	Sustainability	~1.2x avg	<1.1x	<1.0x	<0.9x	YELLOW	70%	2026-01-26	Company Reports	Sector avg adequate; Office coverage ~1.0x (thin). Watch for cuts if rates stay elevated.
-VX-REITS-005	Cap Rate Spread	Valuation	7.7% implied	<200bps vs TSY	<150bps	<100bps	GREEN	75%	2026-01-26	NAREIT	Spread vs Treasuries attractive; value opportunity cited. Higher-for-longer creates buying opportunity.
-VX-REITS-006	Office Vacancy	Demand	~20%	>22%	>25%	>30%	ORANGE	80%	2026-01-26	CoStar	Secular WFH pressure. Class A outperforming B/C. Tariff concerns add layoff risk.
-VX-REITS-007	Retail REIT Health	Consumer	Stable	Foot traffic -5%	-10%	-15%	GREEN	70%	2026-01-26	Placer.ai	SPG stable; bifurcation ongoing. Consumer spending link to CARL.
