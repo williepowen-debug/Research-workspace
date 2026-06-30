@@ -1,11 +1,11 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-29 (Mon, DESKTOP) closeout — **built the RESEARCH-INTAKE data-collection lane (6 feeds live)** + graded the carried 6PM oil reopen (HOLDS/no-action). No trade executed (standing rule held).
+**Last Updated:** 2026-06-30 (Prome) — **RESEARCH-INTAKE consumer wiring DECIDED (option A) + ROUTED to WALTER** + **EIA/CFTC lane-alert layer SHIPPED** (pushed to intake repo `aa3da38`). Prior 6/29: built the lane (6 feeds live) + graded 6PM oil = HOLDS. No trade executed (standing rule held).
 
-## ⏰ NEXT-SESSION ENTRY POINT — RESEARCH-INTAKE consumer wiring (#1)
-The lane collects 6 feeds autonomously but **nothing reads it yet.** Wire the consumer side:
-- WALTER boot (or a standalone check) → `git fetch` the `RESEARCH-INTAKE` repo → read `data/<UTC-date>/*.json` + `SUMMARY.md`, and run the `liveness.json` staleness check ("collector stale Nd").
-- Without this, 6 feeds collect *unread* = the COP failure mode. Single highest-value follow-up.
-- After it: remaining feed menu — crude/energy CFTC COT (disagg report, needs live-verify) · SAM Japan suite · broader EDGAR filing-watch (20+ watchlist) · Polymarket/Kalshi. Optional: Node-20 action-version bump (skipped — needs verifying the right tags).
+## ⏰ NEXT-SESSION ENTRY POINT — RESEARCH-INTAKE wiring is ROUTED; PROME lane reverts to carried items
+**Consumer wiring DECIDED + ROUTED — no longer PROME's to build.** Design (Will, option A): WALTER reads the lane and routes **lane-flagged breaches** through its **existing delivery lane** (gated to significance + de-duped on persistence — explicitly NOT a passive dashboard; COP + BOARD-v0.1 both rotted read-side). Task packet sits in `AGENTS/WALTER/inbox/2026-06-29_from-PROME_research-intake-consumer-wiring.md` → **WALTER implements at its next boot.**
+- **DONE this session (PROME):** the lane now emits a uniform `alerts` vocabulary on all 6 feeds — EIA Cushing<20M=Boundary#3(red)/<21M(orange) + crude-WoW≥8M(orange) **live + offline-tested**; CFTC scaffolded **track-only** (VIX band is VIOLET/SAM's — note routed `AGENTS/VIOLET/inbox/2026-06-30...`); EIA-band confirm routed to BRENT.
+- **Still open (not PROME-blocking):** WALTER implements the consumer; VIOLET sets the VIX band → I flip `VIX_LEV_NET_BAND` (1 line); then the remaining feed menu (crude/energy disagg COT [needs live-verify] · SAM Japan suite · broader EDGAR 20+ watchlist · Polymarket/Kalshi). Optional auto-generated glance-digest **deferred** (Will: skip for now).
+- **So next session, PROME's actual lane = the carried items below** (DAEDALUS BATCH_02 review, AEOLUS→MARCO routing, BROCK position-truth packet) unless WALTER's implementation needs review.
 
 ## ★ RESEARCH-INTAKE — the lane (built 6/29, LIVE)
 **Separate private repo `williepowen-debug/RESEARCH-INTAKE`** (local clone `/home/willi/Research-Intake`). **Architecture (Will-decided): GitHub Actions in a dedicated repo, NOT a VPS** — collectors write only there; agents read read-only → no working-branch divergence by construction. See [[project_research_intake_collection_lane]].
