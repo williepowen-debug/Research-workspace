@@ -6,6 +6,20 @@
 
 ---
 
+## 2026-06-30 (Tue) — RESEARCH-INTAKE consumer wiring (option A → WALTER) + EIA/CFTC lane-alerts shipped + assessed Will's public-prep repo cleanup
+
+**What landed:** (1) **RESEARCH-INTAKE consumer wiring DECIDED = option A** — WALTER reads the lane + routes **lane-flagged breaches** through its existing delivery lane (gated to significance + de-duped on persistence), explicitly **NOT a passive dashboard** (COP + BOARD-v0.1 both rotted read-side → push+telemetry+significance-gating is the proven pattern; `[[finding_passive_surface_rot_push_not_dashboard]]`). Task packet routed → WALTER inbox; WALTER implements next boot. (2) **EIA/CFTC lane-alert layer shipped + pushed** (intake repo) — all 6 feeds now emit a uniform `alerts` vocabulary; EIA Cushing<20M=Boundary#3(red) + crude-WoW bands live + offline-tested; CFTC track-only pending VIOLET/SAM VIX band; confirm-asks routed to BRENT + VIOLET. (3) **Assessed Will's repo cleanup** (19 web-UI commits, public-prep) — all intentional + verified safe (live FORGE tooling intact); only real loss = 2 `trading-journal` broker photos (6/27-fresh, private → correctly removed). **Corrected my own overstatement:** SOUL.md was never actually injected (vestige, like HEARTBEAT) → harmless to delete.
+
+**Decisions Will made:** option A (gated-delivery, not dashboard); ship the EIA/CFTC enhancement; prune the repo for a public-facing role; secure my work + close out (paused the public-prep tasks).
+
+**Decisions needed from Will:** none open. Public-prep tasks queued, not blocking.
+
+**Risks/blockers:** **position truth now OFF-repo** (`WILL/trading-journal/` deleted) → re-route the on-repo pointers. **git-HISTORY still holds the deleted private data** (broker photos, old leaked tokens, Google OAuth secret) → a history scrub (filter-repo/BFG) is the real gate before publishing — NOT done by file deletion alone.
+
+**Next:** SCRATCH = entry point — public-prep sweep (a, re-route + SOUL-claim fix) + secret/history scrub (b); RESEARCH-INTAKE awaits WALTER + VIOLET band; carried lane = DAEDALUS BATCH_02 / AEOLUS→MARCO / BROCK packet.
+
+**Rules held:** no trade (standing rule); rebased-not-forced onto Will's 19 commits (safe-push ff, zero conflicts — isolated PROME/ scope); verified before asserting (caught + corrected my own SOUL "load-bearing" error before propagating). *(HANDOFF trimmed to latest ~6 — the two 2026-06-26 entries rolled off → `memory/2026-06-26.md`.)*
+
 ## 2026-06-29 (Mon, DESKTOP) — graded 6PM oil (HOLDS/no-action) + BUILT the RESEARCH-INTAKE collection lane (6 feeds live)
 
 **What landed:** (1) **Graded the carried 6PM oil reopen = HOLDS / no action** — Brent $73.30 live, below the $74 line through the whole sustain window *despite* the 6/27-28 US↔Iran strike exchange; decoupling survived its hardest kinetic test, no trigger fired (standing rule held). Tail downgraded to fragile-watch (commercial P&I still not resumed). (2) **★ Built RESEARCH-INTAKE** — a new always-on data-collection lane. **Architecture (Will-decided): GitHub Actions in a dedicated private repo, NOT a VPS** — collectors write only there, research agents read read-only → no working-branch divergence by construction (the old news-sweep cron died precisely *because* it lived on the cut VPS; Actions can't silently rot). **6 feeds LIVE + validated, weekday-daily:** EIA petroleum, EDGAR 8-K (thesis banks), Treasury auctions, CFTC COT (VIX), FRED (15 series), news-sweep (classified; routing dropped). `liveness.json` silent-death guard; fetcher registry (1 file + 1 line per feed). Secrets EIA/FRED set via the stored git token; FRED key also restored to local `FORGE/.env` (fixed BRENT/FORGE tooling). **Hardened same session:** weekday-daily schedule, cross-run news dedup (news = deltas only, verified 172→12 new), `SUMMARY.md` human digest each run, per-feed retry (transient blips self-heal). See [[project_research_intake_collection_lane]].
@@ -88,28 +102,4 @@
 
 **Next / pending:** **PREDICTIONS_MONITOR.md → NEXUS** (stale April ledger, mislocated in PROME/ — refresh/migrate). Energy: BRENT processes RED SIG on Jul-1/Jul-3. Docket: 10Y 6/30 · JOLTS 6/30 · EIA 7/1 · NFP 7/3 · CFTC COT 7/3 · OZK+WAL+CFG Jul-16 · CPI 7/14. **Lesson → auto-memory:** `finding_verify_roster_by_commit_activity`.
 
-## 2026-06-26 (LATE-NIGHT) — HAWK+RED spawn + energy red-team routed to BRENT + AUTO-PUSH promoted off soak (PUSHED, synced 0/0)
-
-**Status:** Fresh boot (5th respawn of 6/26). Will-directed: spawn HAWK (2 follow-ups) + RED (energy red-team), then promote RED/HAWK to the new auto-push system. Full narrative → SCRATCH + `memory/2026-06-26.md`.
-
-**What landed:** (1) **HAWK** — 2 follow-ups done (PREDICTIONS.tsv tab fix HAW-10/11 delimiter-only byte-identical; SOURCES.md refresh-not-retire). (2) **RED** — adversarial red-team on the energy structural-decoupling adjudication: **survives PARTIALLY** — 0.63 ≈ fair as a 2-wk price call, **over-claimed as a settled "STRUCTURAL" regime label** (~0.55 on regime); the decisive COT print is graded 1/2 by BRENT's own trigger (same datum, two evidentiary standards), the decoupling test was declaratory-not-kinetic, the contango is unverified. Steelman intact (WTI venue-split right). Sharpest discriminator = **Jul-3 COT 2nd-week test** + **Jul-1 Cushing/prompt-spread**. (3) **Routed RED→BRENT inbox SIG** (Will-approved): downgrade label + re-derive curve. (4) **★ AUTO-PUSH MIGRATION PROMOTED off soak (Will-approved full):** Tier-1 canonical flipped (root CLAUDE.md, GIT_COORDINATION, `feedback_defer_push_coordinate` rewritten w/ slug kept, `finding_push_train_pattern` re-automated, MEMORY hooks); **RED + HAWK swept**; 16 agents lazy-sweep; YEYOU stays manual. (5) **safe-push validated live** — ff-pushed a 7-commit train (incl. a stray WALTER commit), exit 0, zero tripwire.
-
-**Decisions Will made:** spawn both; route RED→BRENT via inbox SIG; **full promotion** (Tier-1 canonical + RED/HAWK) over the narrower options; run safe-push now.
-
-**The read:** maintenance + system-hardening session — **no market trigger fired, no capital deployed** (standing rule held). The energy thread is now a *lean, unconfirmed* structural read pending Jul-1/Jul-3 (RED correctly de-hardened the BRENT/HAWK "settled" framing). The manual push ceremony is retired fleet-canonical; auto-push at closeout is live.
-
-**Next / pending:** BRENT processes the RED SIG on its Jul-1/Jul-3 energy docket (downgrade + re-derive). Auto-push lazy-sweep continues per-agent as active. **Lesson → auto-memory:** `finding_same_datum_two_evidentiary_standards` (a thesis citing one datum as decisive in prose while its own trigger grades it partial = confidence outran evidence; trust the trigger rail).
-
-## 2026-06-26 (LATE) — BRENT+HAWK: energy adjudication + agent-architecture upgrade (PUSHED, synced 0/0)
-
-**Status:** Will-directed "work on BRENT and HAWK… analysis then cleanup." WALTER live in a separate window throughout; coordination file-based via shared repo; all sub-agent work report-only/no-commit, Prome committed each dir sequentially (pathspec, zero index race). Full narrative → SCRATCH + `memory/2026-06-26.md` (LATE).
-
-**What landed:** (1) **★ Energy adjudication — BRENT/002 (the lone disconfirming Nuttall counter) RESOLVED: sub-$75 Brent = STRUCTURAL, not coiled-spring** (decisive: first-true-post-MOU CFTC COT = continued long-liquidation, not short-covering). BRENT P(holds<$75)=0.63; HAWK marks HOLD B34/C44/D22 (decoupling test passed); XLE $65C lapse-leaning hold; **RED-FT-04 confirmed**; no trigger fired. (2) Both STATUS trimmed (BRENT 242→202 + spine-refresh; HAWK 154→130). (3) Both inboxes clean. (4) **HAWK brought up to BRENT/SAM conventions** via 3 ports: session-spine (SCRATCH handoff + symmetric closeout + mandatory NEXUS_BRIEF refresh + retired 3× LAST_COMPLETION); cruft-sweep (8 artifacts + 3 dirs archived); predictions → SAM thesis-bundle model (workbook→thesis/ + ARCHIVE + calibration preamble).
-
-**The read:** energy thread = analysis + a confirmed thesis (decoupling holds, oil down); the rest = pure agent-architecture hardening. **No market trigger fired, no capital deployed** (standing rule held).
-
-**Decisions Will made:** "both — analysis then cleanup"; chose the **SAM thesis-bundle model** for predictions (over the 16-agent workbook majority — better design); opened the push window.
-
-**Pending / next:** 2 HAWK follow-ups flagged (live-TSV tab glitches HAW-10/11; SOURCES.md refresh) — separate pass. Energy docket: EIA 7/1, SPR re-auth ~7/3, STEO 7/8; re-pull ICE Brent COT. Optional: adversarial red-team on the convergence. **3 lessons → auto-memory:** `finding_status_spine_staleness_under_appended_top`, `finding_sibling_agent_protocol_drift`, `finding_freshness_audit_vs_caught_up` (prior). **Method note:** a sibling-diff (compare two template-descended agents side-by-side) surfaces protocol drift a per-agent review misses.
-
-*(Rolled off this closeout — full detail in `memory/2026-06-26.md`: **2026-06-26 (PM) HEAVY** (5-agent orchestration + fleet arch review → root CLAUDE.md pre-commit-check + Data-Hygiene section; PC gate cluster + insurer double-jeopardy; ORCHESTRATION_PLAYBOOK; OpenClaw cutover A+B) and **2026-06-26 standing-rule** (deploy-on-trigger $500/card; detection/action hardening — `liquid-hy-watch` timer + TERRY grade/chain tooling; AUTO-PUSH pilot). Older entries — incl. the 2026-06-26 Tier-1/2 verification pass and the 06-25 de-mask cluster — in `PROME/archive/HANDOFF_2026Q2.md`.)*
+*(Older entries rolled off → `memory/2026-06-26.md` + `PROME/archive/HANDOFF_2026Q2.md`: the two **2026-06-26** sessions — HAWK+RED spawn + AUTO-PUSH promotion (`finding_same_datum_two_evidentiary_standards`); BRENT+HAWK energy adjudication (sub-$75 Brent = STRUCTURAL) — plus the 6/26 PM HEAVY / standing-rule / Tier-1-2 verification / 6-25 de-mask clusters.)*
