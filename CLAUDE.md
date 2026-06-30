@@ -54,7 +54,7 @@ Agent state lives at `AGENTS/<NAME>/STATUS.md`. Position truth: live book = `WIL
 | memory/ | Daily session notes (YYYY-MM-DD.md) |
 | PROME/ | Coordinator state (SCRATCH, STATUS, FLEET_SCAN, ORCHESTRAL_LAYER_DESIGN, AUTONOMY) |
 | WILL/ | Will's journal, ideas, trading journal |
-| docs/ | OPERATIONS.md, ARCHITECTURE.md |
+| docs/ | AUTO_MEMORY.md (auto-memory git-sync system) |
 
 ## Git Protocol
 
