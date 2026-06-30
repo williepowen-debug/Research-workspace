@@ -256,7 +256,7 @@ The asymmetry is no longer "compression delivers via the catalyst" — it's a **
 | **MODAL — no trigger fires (the >50% case)** | Bleed: Warsh-hawkish + USD-haven drift toward 162-167; carry accrues to shorts | **−2 to −3%** (tests $55.50 stop on the deep path) → frame retires to LOW | mode |
 | **Risk-off shock** (yen-haven re-couples) | VIX spike → safe-haven yen bid (Aug-2024-flavored when it fires) | **+7% conditional** | ~6-7% |
 | **Residual positioning cascade** | At 83.4% peak, any trigger → move dominated by the unwind | **+5%** | ~10% |
-| **🆕 JGB-disorderly (30Y 4.5%)** | Forced lifer selling + BOJ loses long-end grip → fiscal-dominance risk-off → carry unwind (the candidate most able to re-couple SAM-31) | folded into risk-off/residual | — (un-fired; 30Y ~3.76% orderly) |
+| **JGB-disorderly (30Y 4.5%) — ⚠️ thin tail (RED CH-011)** | Disorderly JGB break → risk-off → carry unwind, BUT the BOJ truncates the disorder the route needs → survives only in a narrow Aug-2024 sliver (not a clean trigger) | folded into risk-off/residual | — (un-fired; 30Y ~3.76% orderly) |
 | **Fed walk-back of Jun-17 dots** | US-credit cascade forces the Warsh frame to break → USD compression | +5% | 5% |
 | **Hawkish-of-priced BOJ** (next meeting, 50bp/accelerated-QT) | Surprise component lights the fuel | +4% blended | 8% |
 | **MOF #3 sustained** / **oil-MOU re-escalation** | CH-003 same-day-reclaim (unwind\|fires ~0.20) / Phase-2 yen bid | +2% / +3% | 10% / 8% |

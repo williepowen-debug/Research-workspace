@@ -14,6 +14,18 @@ It's a **mechanism/curve** thesis (the demand vacuum + the 4.5% reflexivity), de
 
 ---
 
+## ⚠️ RED CORRECTION (2026-06-30 adversarial pass — `red/CHALLENGES.md`)
+
+RED ran a 5-axis adversarial sweep on this thesis. **The demand-reduction observation + the slow grind + the supply/demand reconciliation survive; several over-claims (above and below) are walked back. Read this package through these corrections:**
+
+- **(CH-009, base-rate 🔴) SLOW STRUCTURAL GRIND, not a "one-way reflexive street."** The demand vacuum has been live ~13 months (30Y record 3.20% → 3.76%, +56bp) and produced an *orderly* drift with the carry trade *thriving* (USD/JPY 162.40, 40-yr high), no break, auctions still covered. The "no clearing price / acceleration" strong form is over-claimed — the orderly grind IS the realized base case.
+- **(CH-010, sign-tension 🔴) The 30Y-4.5% forced-SELLER mechanism (Leg 3) is CONTESTED.** Under economic-value J-ICS, a duration-short lifer's solvency *improves* on a rate rise (textbook → duration-gap-closing BUYING — the opposite of forced selling). SAM's read — the binding constraint is the *reported/accounting* asset-markdown (J-GAAP statutory: liabilities locked, AFS assets marked) — is supported by the observed net-selling + Nippon's −¥5.73T JGB unrealized loss, BUT the specific 4.5% *acceleration* is single-sourced (one trade-press analyst) and the sign is unresolved pending the accounting basis. **Keep the demand-reduction; treat the 4.5% acceleration as contested, not established.**
+- **(CH-011, logic 🔴) The disorderly-JGB → carry-unwind route is a THIN timing-window tail, not a clean trigger** — the BOJ truncates the disorder the route needs (Leg 1); it survives only in the narrow Aug-2024 sliver (yen spasms before the BOJ caps the JGB move).
+- **(CH-012, reflexivity 🟠) This is a regime-MAP, not a mispricing edge** — the vacuum is consensus (MOF already cut issuance to ¥17.4T to match it). Value = transmission/regime understanding (→ BOND, → the carry link), not alpha.
+- **(CH-013, evidence 🟠) Load-bearing GAPS:** GPIF's super-long stance (could invert the marginal-buyer read — see OPEN GAP below), a 2nd-month lifer-flow confirmation, and the unverified Uchida let-run quote. Not optional.
+
+---
+
 ## LEG 1 — BOJ BACKSTOP (the central risk) → CONDITIONAL LET-RUN
 
 The one thing that could cap this thesis is the BOJ. It won't, for a gradual move.

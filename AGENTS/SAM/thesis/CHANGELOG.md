@@ -8,6 +8,25 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-06-30 — v1.6.1 → **v1.6.2** [MINOR, correction] — RED adversarial pass walks back the JGB over-claims
+
+**Author:** SAM (applying RED's 2026-06-30 JGB demand-vacuum pass; Will-approved). **Trigger:** Will spawned RED (Opus) on the never-reviewed JGB thesis; RED returned a 5-axis sweep (7 challenges, `red/CHALLENGES.md` + `red/COUNTER_THESIS.md`). SAM resolved each honestly and applied the concessions.
+
+**Conceded + applied:**
+- **CH-009 (base-rate) 🔴:** "no yield brings the buyer back / one-way reflexive street" is the widow-maker over-claim — the demand vacuum has been LIVE ~13 months (30Y record 3.20% → 3.76%, +56bp) producing an **orderly grind with carry thriving**, not a break. → "slow structural grind / orderly base case; acceleration is a tail, not the mode."
+- **CH-010 (sign-tension) 🔴:** the **4.5% forced-SELLER mechanism is CONTESTED** — under economic-value J-ICS a duration-short lifer's solvency *improves* on a rate rise (textbook = duration-gap-closing BUYING). SAM's rebuttal (binding constraint = the *reported/accounting* asset-markdown, supported by observed net-selling + Nippon's −¥5.73T JGB unrealized loss) keeps the demand-*reduction*, but the specific 4.5% *acceleration* is single-sourced and the sign is unresolved pending the accounting basis. → flagged CONTESTED.
+- **CH-011 (self-defeating route) 🔴:** the 30Y-4.5%-disorderly → carry-unwind route needs a *disorderly* spike, but the BOJ truncates disorder → **a thin Aug-2024-timing-window tail, not a named clean trigger.**
+- **CH-012 (reflexivity) 🟠:** the vacuum is **consensus** (MOF already cut issuance to match it) → labeled a **regime-MAP, not a mispricing edge.**
+- **CH-013 (thin evidence) 🟠:** ¥201B = one month/one B2 source; Uchida quote unverified; GPIF an admitted gap → flagged **load-bearing gaps** (not optional).
+- **CH-014 (SAM-26 trap) 🟠:** re-installed a "30Y 4.5%" KEY THRESHOLD → **demoted to a contested-mechanism note.**
+- **CH-015 (fuzzy falsifier) 🟡:** SAM-32's "intermittent doesn't count" → added a pre-registered ¥/month bright line.
+
+**Survives:** the demand-*reduction* observation, the supply/demand reconciliation insight, the 2025 BOJ let-run precedent, and **SAM-32** (no *sustained* lifer re-entry through Dec-2026 — the slow grind, not the break). **Net altitude: "sharp new edge" → "sound but consensus regime-map with one over-claimed mechanism (4.5%) now contested."**
+
+**Edits:** THESIS v1.6.2 (Pillar 2 RED-correction; KEY THRESHOLD demoted; tail-route downgraded); JGB package § RED CORRECTION; PREDICTIONS SAM-32 bright-line; KB-202 CONTESTED-flagged; STATUS/NEXUS/TRADE/STRATEGY/MEMORY softened; HENRY route-correction sent; `red/` files committed. **RED self-calibration:** flagged its own v1.5 CH-008 miss (called "BOJ frozen" → BOJ hiked, RESOLVED-DISMISSED); consciously avoided reflexive contrarianism this pass.
+
+---
+
 ## 2026-06-30 — v1.6 → **v1.6.1** [MINOR] — JGB long-end DEMAND-VACUUM thesis EXECUTED; new carry-tail route + KEY THRESHOLD
 
 **Author:** SAM. **Trigger:** Will-directed execution of the JGB long-end thread (scoped 6/29). Ran 3 parallel primary-source research legs (BOJ reaction function / MOF supply / lifer demand). **Minor bump (Y):** refinement — deepens Pillar 2 and adds a named carry-tail route + threshold; **no structural change** to the v1.6 carry-convexity-tail frame.
