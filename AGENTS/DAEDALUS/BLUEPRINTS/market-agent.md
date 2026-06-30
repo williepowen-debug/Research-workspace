@@ -39,7 +39,7 @@ Decompose the thesis into **independent causal channels** — not correlated ris
 - **Keep your local scoring** at whatever granularity your domain needs. Do not flatten it.
 - **Add a `Score (1–5)`** column mapping that local state onto the universal scale (5 🔴🔴 firing → 1 ⚪ dormant) — the shared interface.
 - **Composite** as transparent arithmetic (BOND): e.g. `Total 42/70`. No hidden weighting.
-- **Independence column** (NEXUS): note shared antecedents — two vectors on the same root count once.
+- **Independence column** (NEXUS): note shared antecedents — two vectors on the same root count once. *(Conformance: the most-commonly-missing handle in pre-2026-06-27 agents — check it first when firming; tracked fleet-wide in `upgrades/HANDLE_SWEEP_independence-action.md`. N/A for genuinely single-channel agents.)*
 - Required columns (interface minimum): `# | Vector | Score (1–5) | [your local state] | Independence | Key Signal | Upgrade Trigger`.
 
 *HENRY's one real gap was having NO comparable handle at all — not having rich local labels. The fix is to ADD the 5-pt, not remove the labels.*
@@ -63,7 +63,7 @@ Decompose the thesis into **independent causal channels** — not correlated ris
 ## 5. PREDICTIONS (OTTO / CARL / VIOLET)
 
 - **Ledger + archive + calibration scoreboard** (OTTO): `PREDICTIONS.tsv` live; resolved rows → `PREDICTIONS_ARCHIVE.md` with post-mortems; **failure-pattern synthesis fed back into the thesis** as rules gating future predictions. (This is the agent's institutional-learning loop — the market-agent analogue of DAEDALUS's own PATTERNS.tsv.)
-- **If-falsified action column** (CARL): every prediction carries its position consequence (`→ trim 25%, extend duration, −25pp conf`), not just a confidence number.
+- **If-falsified action column** (CARL): every prediction carries its position consequence (`→ trim 25%, extend duration, −25pp conf`), not just a confidence number. *(Conformance: commonly missing in pre-standard agents; tracked in `upgrades/HANDLE_SWEEP_independence-action.md`. N/A for no-book / utility agents — CARL is the named source.)*
 - **Confidence tiers** (VIOLET): `EMPIRICAL / PROVISIONAL / ASSUMPTION` — never load-bear on N=1.
 - **Boot resolution**: scan past-trigger rows at boot; resolve HIT/MISS/TRUE-letter-FALSE-spirit/FALSIFIED; never leave OPEN-but-stale.
 

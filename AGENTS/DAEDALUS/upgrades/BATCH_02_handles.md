@@ -29,11 +29,11 @@
 ### A. Encode-existing-reasoning handles (additive — same class as BATCH_01)
 | # | Agent | File · change | Encodes | Effort |
 |---|---|---|---|---|
-| 1 | **REGINALD** | STATUS 8-channel table — add `Score(1-5)` + `Independence/Cluster` + `Upgrade Trigger` cols | the 4-cluster independence analysis already in thesis/THESIS.md §1 | S |
+| 1 | **REGINALD** | STATUS 8-channel table — add `Score(1-5)` + `Independence/Cluster` + `Upgrade Trigger` cols *(Independence sub-part → folded into `HANDLE_SWEEP_independence-action.md`; Score+Upgrade-Trigger stay here)* | the 4-cluster independence analysis already in thesis/THESIS.md §1 | S |
 | 2 | **REGINALD** | add `NEXUS_BRIEF.md` writeback each closeout (1-para digest + 8-channel 5-pt + freshest deltas) | the convergence hub everyone needs to read without spawning | M |
 | 3 | **REGINALD** | STATUS — add trailing labeled `## BOTTOM LINE` (substance exists in lead-summary + "Macro read") | existing top/'Macro read' synthesis | S |
 | 4 | **CARL** | STATUS — add trailing labeled `## BOTTOM LINE` (the one real floor gap) | 52/70 composite + NEXUS_BRIEF.VIEW already exist | S |
-| 5 | **BOND** | STATUS convergence matrix — add `Independence` column | the VX-08..16 sub-vector "not double-counted" note already in the composite | S |
+| 5 | **BOND** | STATUS convergence matrix — add `Independence` column *(→ folded into `HANDLE_SWEEP_independence-action.md`; review the handle there)* | the VX-08..16 sub-vector "not double-counted" note already in the composite | S |
 | 6 | **LABOR** | re-pin `NEXUS_BRIEF.md` each closeout (declared standing brief, not re-pinned 6/26) | existing brief, just stale | S |
 
 ### B. Hygiene (PAT-023/025 — the staleness rule I own)
