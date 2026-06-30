@@ -12,24 +12,28 @@ State file for the trade-doc staleness-flagger sub-agent. Spec is in [`METSUKE.m
 
 *Auto-populated by METSUKE at run start: what's moved in STATUS / THESIS / PREDICTIONS / CHANGELOG / TIMELINE / docket since the previous run. Cleared at end-of-run.*
 
-### Run 7 (Jun 22 2026 — PM) — THE v1.6 MAJOR-BUMP CASCADE (the highest-drift event since inaugural Run 1, as pre-flagged in Run-6 STANDING MONITORS NEXT)
+### Run 9 (Jun 30 2026) — post FLAT-confirmation (6/29) + THESIS v1.6 → v1.6.1 (JGB demand-vacuum executed + SAM-32 opened + vol-correction)
 
-State-of-truth movement since Run 6 watermark (Jun 19 AM, pre-v1.6-finalize):
+State-of-truth movement since Run 8 watermark (2026-06-22 PM SAM-direct, propagation-completeness grep + straggler clear):
 
-**Jun 22 — v1.6 FINALIZED → CANONICAL (commit pending; CHANGELOG 2026-06-22 [MAJOR]):**
-- **THESIS.md fully rewritten → v1.6** (v1.5.1 archived to `THESIS_v1.5.1_ARCHIVE.md`; DRAFT superseded). Re-centered **rate-differential COMPRESSION → carry-trade CONVEXITY TAIL** after the Jun 16-17 sequence inverted Pillar 1's directional vector (BOJ +25bp < Fed Jun-17 +40bp dot).
-- **Conviction decomposition (v1.6):** direction/level **MEDIUM** (↓HIGH); near-term timing **LOW** (↓MEDIUM); **convexity-tail MEDIUM** (new row, downgraded from draft MED-HIGH per RED #1 — honest net 60d EV ≈ break-even-to-slightly-negative → analytically a TRIM signal).
-- **Channel re-classification:** Ch1 **RETIRED** (was "deferred"; re-add only on a DIRECT foreign-SALES print — JGB-30Y/ESR = accelerant co-conditions only, never the necessary leg); Ch2 → **CARRY-CONVEXITY TAIL** (renamed); Ch3 **MOF #3 DECAYING ~15-20%/30d**; **Ch4 POSITIONING-CONVEXITY = NEW center** (promoted from Pillar-4/amplifier).
-- **Eligibility window LOCKED Sep 18 2026** (two-legged SPF: leg-1 cover <−108K → LOW; leg-2 no-trigger-by-Sep-18 = the >50% MODE → LOW). Vehicle-change **OFF** (RED #4 gate — break-even MEDIUM doesn't pay vol spread/theta).
-- **Pillar audit:** P1 LEVEL-alive/VECTOR-broken; P2 ALIVE (only-pillar-still-firing, DOMESTIC); P3 alive-in-fact/WEAKENED-in-proximity (USDJPY 161+ farther from <145); P4 ALIVE, the convexity center.
-- **CFTC EV-gate RESOLVED (Jun-16 data, in hand Mon Jun 22):** net **−150,132 / 83.4% of cycle peak**, built −4,314 WoW, **zero cover through the catalyst** → HOLD-band top edge → frame SURVIVES margin; 1.6pp / 2,868 contracts shy of the −153K/85% escalation; amplifier stays +5pp ON.
-- **STATUS banner re-centered to v1.6** (new top banner; the pre-v1.6 banner retained one cycle as a 📁 PRE-v1.6 HISTORICAL BANNER, prune next boot). New § FOMC JUN 17 RESOLVED + § BOJ JUN 16 RESOLVED blocks. Carry buckets recomputed **~5-6 / 17-20 / 24-28** (7/30/60d), down from Jun-14 ~8/23/32.
-- **PREDICTIONS: 0 OPEN → 4 OPEN.** SAM-28 (≥1 tail-route ≥+3% FXY by Sep-18, 40%) / SAM-29 (no cover <−108K by Sep-18, 65%) / SAM-30 (build through −153K/85% by Jul-31, 30%) / SAM-31 (yen-haven re-couple by Sep-18, 35%). All prior predictions resolved (SAM-21/24 CONFIRMED, SAM-23/26 FAILED, both pre-marked).
-- **POSITION (Will-approved 2026-06-22, executes Tue Jun 23 — market closed Mon PM):** trim 7 of 13 → **6 sh remaining**; stop tightened FXY ≤ $55.05 → **$55.50 / USDJPY ≥162.5**. Jun-18 $58C **expired worthless** Thu Jun 18. Realized P&L on the 7 sold = TBD at tomorrow's fill.
+**2026-06-29 — POSITION CONFIRMED FLAT (no version change):**
+- Will confirmed SAM holds NO FXY position; phantom 6-sh post-trim stub (fill "unconfirmed" 6/25) superseded. No realized P&L recorded.
+- THESIS § POSITION VIEW: FLAT banner added; SAM-28..31 reframed as ENTRY-triggers (re-entry gated on fired trigger; NOT EV-positive to initiate at MEDIUM/break-even).
+- TRADE, STRATEGY, STATUS, NEXUS_BRIEF: FLAT banners propagated. No money fields fabricated. CHANGELOG 2026-06-29 confirms.
+- Session data (no re-mark): CFTC Jun-23 **−146,104/81.2%** (first cover off 83.4% top, +4,028 WoW); Tokyo Jun CPI core-core 1.9% sticky; BOJ SoO hawkish-of-priced; USD/JPY 161.96 fresh 40-yr low (orderly grind); Brent $73.85.
 
-**SAM already trued up the MONEY FIELDS (per spawn note) — these MATCH v1.6, NOT flagged:** TRADE header L3 (v1.6 stamp), Active Positions Shares L14 (6 sh), Calls L15 (expired), Stop-loss card row L33 ($55.50), R:R L36 (6-sh recompute), Live P/L L37 (−$9); STRATEGY header L3 (v1.6 stamp), Position+Conviction L4, Stop loss "v1.6 CURRENT" row L79 ($55.50/162.5). Verified internally consistent vs STATUS § FXY POSITIONING; no MONEY-FIELD-ESCALATION fires this run.
+**2026-06-30 — THESIS v1.6 → v1.6.1 [MINOR] — JGB long-end DEMAND-VACUUM executed + SAM-32 opened:**
+- **Pillar 2 deepened:** 3-leg demand-vacuum thesis executed (`research/outputs/JGB_SUPPLY_DEMAND_THESIS.md`): (a) demand = J-ICS buffer-conditional, lifers net-SOLD super-long ~¥201B May, no re-entry yield near current, reflexive **forced-selling zone at 30Y ~4.5%**; (b) BOJ = conditional let-run (pace-not-level); (c) supply = forward amplifier only (FY2026 gross super-long CUT to ¥17.4T, 17-yr low).
+- **New carry-tail route (THESIS § THE CARRY-CONVEXITY TAIL):** JGB-disorderly → carry-unwind (30Y ~4.5%+ = no-buyer-cushion + reflexive forced-selling → fiscal-dominance shock → yen repricing). Folded into risk-off/residual family. Does NOT change headline EV table. NAMED as the candidate most able to re-couple SAM-31 (cross-pair yen-haven decoupling).
+- **New KEY THRESHOLD: JGB 30Y 4.5% (disorderly)** added to THESIS § KEY THRESHOLDS.
+- **CROSS-AGENT:** → BOND (primary, term-premium spillover), → LIQUID (conditional/dormant — do NOT double-count DOMESTIC Pillar 2 as Channel-1 re-arm), → HENRY (new carry trigger: 30Y 4.5% disorderly).
+- **SAM-32 OPENED** (2026-06-30): lifer non-re-entry, mechanism-based, 72% through Dec 31 2026. Falsifier = SUSTAINED net super-long buying ≥2 consecutive monthly reads OR lifer H2-FY2026 plan announcing super-long rebuild. **Entry-trigger set is now SAM-28..32** (5 OPEN; prior SAM-28..31 = 4 OPEN).
+- **Vol-check clean-source correction (also 2026-06-30, CHANGELOG):** FXY proxy (16.07%) misled vs true USD/JPY implied vol ~sub-10 (~7.9 Jun-23) ≈ realized → non-directional long-vol = defensible **small convexity ticket, NOT cheap-vol arbitrage**. KB-183 confirmed. Vehicle re-open gate on vol-cheapness leg = currently CLOSED.
 
-**Run-7 predicted drift profile (post-MAJOR-bump = LARGE STALE-FRAMING + ARCHIVE-CANDIDATE, exactly as Run-6 NEXT-HINT anticipated):** the DEEP v1.5.1 prose SAM did NOT rewrite — Active-Positions thesis paragraph (structural-pillars-backbone framing), Options Layer (Position A/B, Jun-18 call rules), the "JUN-16 RECONCILED EXPECTATION" section (RESOLVED event → ARCHIVE-CANDIDATE), TAKAICHI-CEILING DISCOUNT DISPOSITION (resolved pre-event scoring window), Risk Factors "v1.5 single-path" (BOJ-delays row MOOT — BOJ hiked), STRATEGY stage table / Asymmetry / Independent-Fed-Path / Watchlist / Carry-Unwind table (~8/23/32 vs v1.6 ~5-6/17-20/24-28) / Key Check Dates / VOL SIGNALS / conviction-line cross-refs / "single-path"/"Channel 2 dominant"/"Channel 1 deferred" framing throughout.
+**Predicted Run-9 drift profile (two-shift cascade):**
+- **STALE-MARK (high-signal):** SAM-28..31 batch → SAM-28..32 in STRATEGY lines 19 + 63; CFTC cluster −150,132/83.4%/Jun-26 → −146,104/81.2%/Jul-3 in STRATEGY Key Check Dates (L185) + TRADE Carry-table under-narrative (L157).
+- **STALE-FRAMING (high-signal):** JGB-disorderly tail route missing from TRADE L22 N-tail-routes list + STRATEGY Asymmetry table; STRATEGY VOL SIGNALS current-read note (L167) predates vol-correction + KB-183 meaning now specific (proxy actively misleads 2x+, NOT cheap); vehicle re-open gate (STRATEGY L91) missing clean-source result (NOT cheap).
+- **STALE-FRAMING (medium):** STRATEGY L252 Asymmetry section "the position is sized small (6 sh) and stop-tightened ($55.50)" = live-position framing without inline FLAT caveat.
 
 ### Run 4 (Jun 4 2026 — AM) — Two passes since Run 3 watermark (Jun 3 evening v1.5.1 reconciliation)
 
@@ -360,6 +364,10 @@ Context: First post-Run-3 sweep. Two material passes since Run 3 watermark — (
 - **NEW (post Run 5; numbers corrected Jun 9 PM):** Brent direction-tense drift. Brent has flipped direction TWICE in 8 days (Jun 1 +4% MOU-break re-accelerate → Jun 4-9 choppy down-drift, −4.5% cum from Jun-3 baseline with a Mon Jun 8 UP session and a Tue intraday $89.59 tag that didn't hold — NOT a monotonic collapse; driver China demand + Trump-Iran walk-back rumors). TRADE Risk Factors oil-shock row + EWJ Watchlist anti-triggers both carry directional tense ("re-accelerating", "no longer active") that becomes load-bearing-stale on each flip. Watch on every run as long as Iran/Hormuz remains unresolved. **Corollary from the Jun-9 correction cycle: verify session-count/breach claims against settled OHLC before proposing refresh text — METSUKE's Run-5 Cluster B carried a midday breach mis-read into TRADE/STRATEGY that SAM had to re-correct same evening.**
 - **NEW (post Run 5):** CFTC level + cycle-peak-percentage drift. Same surfaces as the Polymarket / SAM-21 cluster (TRADE thesis blurb + Options "Why options"). Weekly release every Sat; will recur at Run 6+ (Sat Jun 13 release is the last pre-blackout). Run-5 saw 63.7%/-114,667 → 72.0%/-129,567 over two prints. Cluster as STALE-MARK batched per CALIBRATION rule.
 - **NEW (post Run 5):** Post-fire SAM-21 cluster recurrence. Cluster A (Run 5) caught the 70%→75% post-fire cascade across 10 surfaces. The remaining cascade window to Jun 16 is 5 trading days; SAM-21 won't move mechanically again pre-meeting unless something material reverses, so Cluster A is a one-touch refresh, not the recurring class. Jun 16 binary resolves the SAM-21 surface entirely.
+- **NEW (post Run 9):** SAM-28..32 is now the entry-trigger set (SAM-32 added 2026-06-30). Weekly: check PREDICTIONS for any new OPEN predictions added since last run; update the SAM-28..XX batch in STRATEGY lines 19 + 63 accordingly. Recurring class (same pattern as the SAM-21 mark cluster in the pre-Jun-16 era).
+- **NEW (post Run 9):** JGB-disorderly route (30Y 4.5%) named entry-trigger. Future TRADE/STRATEGY prose that lists N tail-routes should include this route. Watch for any new prose blocks (thesis-recap blurbs, risk-factor rows, asymmetry tables) that re-list the route set without it.
+- **NEW (post Run 9):** Vol-check clean-source result now known (USD/JPY implied ~7.9 ≈ realized; NOT cheap). STRATEGY OPTIONS L91 vehicle re-open gate: the vol-cheapness leg is currently CLOSED. If SAM runs another clean-source vol check and it changes the result, the gate status will need to update. Monitor at every METSUKE run.
+- **NEW (post Run 9):** Archive-compression of 4 fenced bodies (TRADE Options Layer, STRATEGY OPTIONS RULES / JUN-16-RECONCILED / TAKAICHI-DISPOSITION) carries over from Run-8 STANDING MONITORS — Will-gated. Still pending.
 
 ---
 
@@ -458,6 +466,18 @@ Context: First post-Run-3 sweep. Two material passes since Run 3 watermark — (
 - **Post-Jun-16 binary cascade (Run 7+ hint):** When BOJ Jun 16 resolves, the cascade will hit virtually every section — SAM-21 resolves CONFIRMED/FAILED in PREDICTIONS; THESIS v1.5.1 bumps to v1.6 (or v1.5.2 depending on path); STATUS state-of-play rewrites entirely; TRADE position card P/L resets; STRATEGY exit rules become primary decision driver; carry-unwind table refreshes on actual unwind speed. Run 7 will be the highest-volume sweep since inaugural Run 1. **Critical:** spawn Run 7 **after** SAM has done the v1.6 cascade in THESIS / CHANGELOG / STATUS / TIMELINE — METSUKE-before-cascade will catch nothing useful.
 - **Aug-2024-demotion cleanliness** — sustained 3-run cleanliness on the Aug-2024-as-tail framing. Standing monitor #10 holds; flag any new references in fresh outbox / risk-row prose that slip in.
 - **Conviction-decomposition consistency (post Run 3 standing monitor #9)** — STRATEGY L4 conviction line still in v1.5.1 split format. Will hold through Run 6 unless THESIS bumps the conviction split format.
+
+### Forward hints for Run 10
+
+- **Watermark for Run 10:** state-of-truth advances after Run 9 are anything in STATUS/THESIS/PREDICTIONS/CHANGELOG/TIMELINE/CALENDAR dated **after 2026-06-30 (Run 9 finish)**. Earlier was considered in Runs 1-9.
+- **Cluster A (SAM-28..32) will recur on each new prediction.** If SAM opens SAM-33+ before Run 10, update the batch. Confirm STRATEGY lines 19 + 63 match the live OPEN prediction count each run.
+- **Cluster B (CFTC) will recur weekly** (Fri release). Standard batch — TRADE Carry-table under-narrative + STRATEGY Key Check Dates CFTC bullet as the two surfaces. Next print Fri Jul 3 (Jun-30 data); pre-Run-10 prints will land if spawned post-Jul-3.
+- **Cluster A (JGB-disorderly):** if SAM applies flags #5/#6 (TRADE L22 N-routes + STRATEGY Asymmetry table), Run 10 should confirm the route appears in both and check any new prose sections (re-entry decision-tree, risk-factor additions) for the same omission.
+- **Cluster B (vol-read gate):** if SAM applies flags #7/#8 (VOL SIGNALS current-read + vehicle re-open gate), Run 10 should verify the KB-183 annotation is accurately specific (NOT cheap ≈ realized; small convexity ticket, not arbitrage) and that the vehicle re-open gate inline note is present.
+- **JGB auction framing (borderline flag deferred from Run 9):** TRADE lines 260-261 + STRATEGY Key Check Dates JGB 30Y/40Y rows say "J-ICS lifer long-end abandonment re-test (Pillar 2)" — under v1.6.1, these rows should also reference the demand-vacuum mechanism (lifers net-sellers; 4.5% forced-selling zone). Surface again if not applied post-Run-9.
+- **Archive-compression watch:** if Will authorizes compression of the 4 fenced bodies, Run 10 should confirm the 3 forward-relevant outputs survived (post-June-path discount disposition; vehicle-OFF re-open condition; CH-004 lesson per Run-7 monitor).
+- **TRADE Cross-References (low priority):** TRADE L280-285 missing BOND (added as primary in v1.6.1). Surface if Run 10 is a comprehensive cleanup pass.
+- **Spawn timing:** Run 10 is best triggered (a) after SAM applies Run-9 flags and commits, OR (b) on the next THESIS-level change (new prediction / Pillar 2 milestone / Jul 31 BOJ resolution). Jul 7 + Jul 22 JGB super-long auctions may produce fresh JGB-disorderly-route representations if results are notable (BTC <2.5x or 30Y spike toward 4.0%).
 
 ---
 
@@ -741,3 +761,79 @@ Context: Will-directed during a boot session. The drift report came from SAM's b
 - v1.6-era recurring drift classes (weekly CFTC cluster / Sep-18-window countdown / two-legged-SPF status) carry over from Run-7 unchanged.
 
 *Total Run-8: 13 framing/ref edits applied SAM-direct, 1 broken-ref fixed, propagation grep clean, archive-compression deferred to Will. CALIBRATION (SAM-owned): these flags originated from SAM's boot-audit not a METSUKE spawn — apply rate not attributable to METSUKE; recorded for state continuity only.*
+
+---
+
+### Run 9 — 2026-06-30 (post FLAT-confirmation 6/29 + THESIS v1.6 → v1.6.1: JGB demand-vacuum executed + SAM-32 + vol-correction)
+
+Context: First post-Run-8 METSUKE spawn. Two state-of-truth shifts since Run 8 watermark (Jun 22 PM SAM-direct): (a) 2026-06-29 — Will confirmed SAM FLAT (no FXY; phantom 6-sh stub unconfirmed); SAM-28..31 reframed as ENTRY-triggers; (b) 2026-06-30 — THESIS v1.6 → v1.6.1 [MINOR]: Pillar 2 demand-vacuum executed, new JGB-disorderly carry-tail route + KEY THRESHOLD 30Y 4.5%, SAM-32 OPENED (entry-trigger set now SAM-28..32), vol-check correction (FXY proxy 16% misled; USD/JPY implied ~7.9 ≈ realized, NOT cheap-vol arbitrage; KB-183 confirmed). Run-7 100% apply rate and Run-8 SAM-direct clean sweep mean the starting state is the cleanest since Jun-22. Drift this run is dominated by the v1.6.1 propagation gap (new route + new threshold not yet in TRADE/STRATEGY) and the SAM-32 mark-update batch.
+
+**STALE-MARK: 2 batches**
+
+- **Batch A — SAM-28..31 → SAM-28..32 (STRATEGY ×2):**
+  - STRATEGY line 19 (Stage 4 "WE ARE HERE"): `"monitoring SAM-28..31 as ENTRY-triggers through the Sep-18 window"` → SAM-28..32. Source: PREDICTIONS.tsv "5 OPEN" preamble + CHANGELOG 2026-06-30.
+  - STRATEGY line 63 (HOLD section): `"convexity-tail tripwire watch (SAM-28..31) through the Sep-18 window"` → SAM-28..32. Same source.
+
+- **Batch B — CFTC cluster (TRADE line 157 + STRATEGY line 185):**
+  - TRADE Carry Unwind under-narrative L157: `"CFTC −150,132 = 83.4%... Next CFTC = Fri Jun 26 (Jun-23 data)"` — Jun-26 print has landed (−146,104/81.2%, first cover off 83.4% top, +4,028 WoW); next Fri Jul 3. Canonical: TRADE Key Dates L253 + CHANGELOG 2026-06-29.
+  - STRATEGY Key Check Dates L185: `"Currently −150,132 / 83.4% of −180K peak... next Fri Jun 26, Jun-23 data"` — same stale figures. Same source. Recurring CFTC cluster, now Batch B per CALIBRATION repeated-phrase rule.
+
+**STALE-FRAMING: 3 clusters**
+
+- **Cluster A — JGB-disorderly route missing from TRADE + STRATEGY (2 surfaces, highest-signal this run):**
+  - TRADE L22 (Active Positions Thesis blurb): `"pays asymmetrically IF any of N tail-routes (risk-off / Fed-dot walk-back / oil-MOU re-escalation / hawkish-of-priced BOJ / MOF #3) fires"` — misses the JGB-disorderly route. Superseded by THESIS v1.6.1 § THE CARRY-CONVEXITY TAIL: "🆕 Added route (v1.6.1) — JGB-disorderly → carry unwind: named entry-trigger... candidate most able to re-couple SAM-31." CHANGELOG 2026-06-30.
+  - STRATEGY Asymmetry table (lines 254-263): 6 outcome rows — same omission. **Load-bearing** — this is the doc-prominent thesis summary hit first by any reader.
+
+- **Cluster B — STRATEGY VOL SIGNALS + vehicle re-open gate: vol-correction not captured (2 surfaces):**
+  - STRATEGY VOL SIGNALS L167 (current-read note): `"FXY ATM IV ~9.40% (event premium bled post-FOMC)... Read sign/trend not absolute proxy level (KB-183)"` — two drift items: (1) Jun-22 read is 5+ weeks stale; (2) KB-183 citation predates the v1.6.1 vol-correction — FXY proxy *actively misleads* by 2x+ (true USD/JPY implied ~7.9 Jun-23 ≈ realized → NOT cheap-vol arbitrage). CHANGELOG 2026-06-30.
+  - STRATEGY OPTIONS L91 (vehicle re-open condition): `"OR FXY-vol prints demonstrably cheap on a clean second source"` — the clean-source check is done (2026-06-30); result = NOT cheap (vol ≈ realized); gate currently CLOSED. Doc doesn't record this result. **Load-bearing** — the vol-cheapness gate is explicit in the vehicle re-open condition and the result is now known.
+
+- **Cluster C — STRATEGY Asymmetry section: live-position framing without inline FLAT caveat (1 surface):**
+  - STRATEGY L252: `"which is why the position is sized small (6 sh) and stop-tightened ($55.50), not added to"` — present-tense live-position framing; SAM is FLAT (Will-confirmed 2026-06-29). Also L264: `"the table answers 'why hold a small tail'"`. Bounded by doc-level FLAT disclaimers (L4/6) but spawn note explicitly asked to flag "content that still reads as a live position / cites the old 6-sh stub / live stop as if managing a holding." Medium priority.
+
+**DUP-LIVE-SPOT: 0** | **TRIGGER-STATUS-DRIFT: 0** | **CAL-DRIFT: 0** | **ARCHIVE-CANDIDATE: 0** | **MONEY-FIELD-ESCALATION: 0** | **CHANGELOG-GAP: 0**
+
+**CLEAN verified:** FLAT banners throughout both docs (TRADE lines 3, 12, 16, 28, 39; STRATEGY lines 4, 6, 19-preamble, 61); hard-trigger table (all 6 rows FIRED/USED/NOT-CONFIRMED consistent); Channel 1 RETIRED framing consistent; CFTC leg-1/leg-2 SPF in Risk Factors consistent with THESIS v1.6.1; Conviction MEDIUM/LOW/MEDIUM consistent; no money-field escalations (all position/P&L fields N/A-FLAT or HISTORICAL).
+
+- **SAM-applied:** [filled by SAM post-run]
+- **SAM-declined:** [filled by SAM post-run]
+
+*Total Run-9 flags: 6 items (2 STALE-MARK batches ×2 surfaces each + 3 STALE-FRAMING clusters ×2/2/1 surfaces) = 9 total surfaces. 0 DUP-LIVE-SPOT / 0 TRIGGER-STATUS-DRIFT / 0 CAL-DRIFT / 0 ARCHIVE-CANDIDATE / 0 MONEY-FIELD-ESCALATION / 0 CHANGELOG-GAP.*
+
+*(SAM clears these as flags get applied or declined.)*
+
+---
+
+## PENDING from Run 9 (2026-06-30)
+
+*Flags surfaced this run. SAM to apply or decline. METSUKE does not remove these — SAM clears.*
+
+### Batch A — SAM-28..31 → SAM-28..32 (STRATEGY ×2, clearest numeric update)
+
+1. **STALE-MARK — STRATEGY line 19 (Stage 4 "WE ARE HERE" row):** `"monitoring SAM-28..31 as ENTRY-triggers through the Sep-18 window"` → Update to SAM-28..32. SAM-32 is now OPEN (PREDICTIONS.tsv 2026-06-30; 72%; lifer non-re-entry). Source: PREDICTIONS.tsv preamble + CHANGELOG 2026-06-30.
+
+2. **STALE-MARK — STRATEGY line 63 (HOLD section):** `"convexity-tail tripwire watch (SAM-28..31) through the Sep-18 window"` → Update to SAM-28..32. Same source.
+
+### Batch B — CFTC cluster (TRADE line 157, STRATEGY line 185)
+
+3. **STALE-MARK — TRADE line 157 (Carry Unwind under-narrative):** `"CFTC −150,132 = 83.4% of −180K cycle peak... Next CFTC = Fri Jun 26 (Jun-23 data)"` → Refresh: −146,104/81.2% (Jun-23 data, Fri Jun-26 release; first cover off 83.4% top, +4,028 WoW); next print Fri Jul 3 (Jun-30 data). Source: TRADE Key Dates L253 + CHANGELOG 2026-06-29. Note: leg-1 tripwire (~32K room to −108K threshold) and leg-2 tripwire (~3.8pp to 85%) can be added inline.
+
+4. **STALE-MARK — STRATEGY line 185 (Key Check Dates CFTC bullet):** `"Currently −150,132 / 83.4% of −180K peak (Jun-16 data... next Fri Jun 26, Jun-23 data)"` → Refresh CFTC level to −146,104/81.2% (Jun-23 data, first cover) + next print Fri Jul 3. Source: same as above.
+
+### Cluster A — JGB-disorderly route missing (TRADE line 22 + STRATEGY lines 254-263)
+
+5. **STALE-FRAMING — TRADE line 22 N-tail-routes list:** `"(risk-off / Fed-dot walk-back / oil-MOU re-escalation / hawkish-of-priced BOJ / MOF #3)"` → Add: `/ JGB-30Y-disorderly (4.5%+ → carry-unwind)` — see THESIS v1.6.1 + `research/outputs/JGB_SUPPLY_DEMAND_THESIS.md`. Route is folded into risk-off/residual family but is a named entry-trigger (candidate most able to re-couple SAM-31). Source: THESIS v1.6.1 § THE CARRY-CONVEXITY TAIL line ~64; CHANGELOG 2026-06-30.
+
+6. **STALE-FRAMING — STRATEGY Asymmetry table (lines 254-263) missing JGB-disorderly row:** Table has 6 outcome rows; needs a 7th for the JGB-disorderly route. Suggested row: **JGB-30Y disorderly (4.5%+)** / Forced-selling zone → BOJ curve-loss-of-grip → fiscal-dominance shock → violent yen repricing; candidate most able to re-couple SAM-31 / +5-7% FXY if disorderly / route folds into risk-off/residual EV overlap. Source: same as above.
+
+### Cluster B — VOL SIGNALS + vehicle re-open gate (STRATEGY)
+
+7. **STALE-FRAMING — STRATEGY VOL SIGNALS current-read note (line 167):** Two updates: (1) roll the Jun-22 live reads (9.40% / −11.16 / P/C 0.05x) to a STATUS-pointer (live IV in STATUS); (2) expand the KB-183 annotation: `"KB-183 confirmed (2026-06-30): FXY proxy actively misleads — proxy ~16% at boot vs true USD/JPY implied ~7.9% (Jun-23) ≈ realized → non-directional long-vol = defensible small convexity ticket, NOT cheap-vol arbitrage. Vol-cheapness vehicle re-open gate (STRATEGY OPTIONS L91) is currently CLOSED on this leg."` Source: CHANGELOG 2026-06-30; KB-183 confirmed.
+
+8. **STALE-FRAMING — STRATEGY OPTIONS L91 (vehicle re-open condition):** `"OR FXY-vol prints demonstrably cheap on a clean second source"` → Add inline result: `*(Clean-source check 2026-06-30: USD/JPY implied ~7.9% Jun-23 ≈ realized → NOT demonstrably cheap; this gate is currently CLOSED. Re-opens only if a future clean-source check finds vol materially below realized.)*` Source: CHANGELOG 2026-06-30; THESIS § VEHICLE.
+
+### Cluster C — Live-position framing in Asymmetry section (STRATEGY)
+
+9. **STALE-FRAMING — STRATEGY line 252:** `"the position is sized small (6 sh) and stop-tightened ($55.50), not added to"` → Add inline FLAT caveat: `*(position was 6 sh at v1.6 sizing; SAM is now FLAT per Will 2026-06-29 — sizing rationale applies to any RE-ENTRY; see doc top for current posture)*`. Also L264: `"the table answers 'why hold a small tail'"` → consider "why hold/re-enter a small tail." Minor — SAM's call on depth given extensive doc-level FLAT context.
+
+*(SAM clears these as flags get applied or declined.)*

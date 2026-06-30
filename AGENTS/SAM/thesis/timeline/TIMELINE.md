@@ -1,11 +1,23 @@
 # SAM TIMELINE
 
-**Last Updated:** 2026-06-22 (backfilled the post-Jun-16 resolved sequence — FOMC Jun-17 Warsh-hawkish / Iran deal signed Jun-17 / May-TB Jun-17 / National CPI Jun-19 / Hormuz re-closure Jun-20; facts + current framing, conviction re-underwrite deferred to v1.6)
+**Last Updated:** 2026-06-30 (added the Jun 22-30 confirmatory cluster — v1.6 finalize / SoO / Tokyo CPI / CFTC first cover / position FLAT / Sato seated / JGB demand-vacuum thesis executed). Prior 2026-06-22: backfilled the post-Jun-16 resolved sequence (FOMC Jun-17 Warsh / Iran deal Jun-17 / May-TB / National CPI / Hormuz re-closure)
 **View:** Base case progression with branch points marked
 
 This document maps our forward-looking expectations — what's coming, what we think happens, and where the path could diverge. Updated as events resolve or views change.
 
 *Pre-2026-05-11 entries archived to [ARCHIVE.md](ARCHIVE.md).*
+
+---
+
+## RESOLVED — Jun 22-30 (v1.6 FINALIZED · SoO HAWKISH-OF-PRICED · TOKYO CPI STICKY · CFTC FIRST COVER · POSITION FLAT · SATO SEATED · JGB DEMAND-VACUUM THESIS EXECUTED)
+
+*Compact entry — these are confirmatory events; full data in STATUS 6/29-6/30 notes + CHANGELOG 2026-06-22/29/30. No conviction re-mark beyond the v1.6 → v1.6.1 refinement.*
+
+- **Jun 22 — v1.6 FINALIZED** (SAM⇄RED 6-of-6 converged): re-centered COMPRESSION → CARRY-CONVEXITY-TAIL; the **CFTC EV-gate resolved −150,132 / 83.4%, held *through* the spent catalyst with zero cover** → HOLD-band, frame SURVIVES the margin test. Mon Jun-22 Brent decoupling test = SHRUG (declaratory Hormuz re-closure → no spike; oil-in-yen stays dormant).
+- **Jun 24 — BOJ June SoO: hawkish-of-priced** (~90% hike-by-Dec; neutral-2% urging faster; taper-halt Apr-2027). Mild hold-support for the convexity stub.
+- **Jun 26 — Tokyo June CPI: core-core 1.9% sticky** (+30bp vs May 1.6). Mild hawkish tick; confirmatory.
+- **Jun 29 — POSITION RECONCILED TO FLAT** (Will-confirmed no FXY position; the docs had carried a phantom 6-sh stub). Carry-convexity-tail reframed to a watch-for-entry thesis. CFTC Jun-23 **−146,104 / 81.2%** = first cover off the 83.4% top.
+- **Jun 30 — USD/JPY fresh 40-yr low 162.40** (orderly grind; market intervention-line re-anchored 160→162; MOF silent 14d). **JGB long-end DEMAND-VACUUM thesis EXECUTED** (→ THESIS v1.6.1; `research/outputs/JGB_SUPPLY_DEMAND_THESIS.md`): structurally bearish demand-vacuum steepener (lifer bid structurally gone, no re-entry near current, 30Y-4.5% forced-selling zone), BOJ conditional-let-run, supply forward-amplifier; **SIGNAL-ONLY** → routed BOND/LIQUID/HENRY; new SAM-32 + the 30Y-4.5%-disorderly carry-tail route. **Sato Ayano seated** (reflationist; hike-dissent bloc 3→2). Vol-check: true USD/JPY implied ~sub-10 ≈ realized → long-vol = a small convexity ticket, not cheap-vol arbitrage (KB-183 confirmed).
 
 ---
 

@@ -14,6 +14,8 @@
 
 **TODAY (catalyst day for the JGB-supply thread):** Sato Ayano takes Nakagawa's BOJ seat (reflationist — "weak yen good," "issue more JGBs"; hike-dissent bloc 3→2, feeds Pillar 2 long-end supply) + **JGB 2Y auction** (first post-Jun-16-MPM front-end read). Wed Jul 1 Tankan Q2.
 
+**🆕 SESSION ANALYTICAL OUTPUT (Will-directed):** (1) **JGB long-end DEMAND-VACUUM thesis EXECUTED** (3 primary-source legs: BOJ conditional-let-run / supply forward-amplifier / demand structural-vacuum) → **THESIS v1.6.1** + `research/outputs/JGB_SUPPLY_DEMAND_THESIS.md` (promoted scoping→executed) + new **SAM-32** (lifer non-re-entry, mechanism-based) + new **30Y JGB 4.5% disorderly** carry-tail trigger. **SIGNAL-ONLY** (no Will-tradeable JGB-bear vehicle); routed direct to **BOND** (primary, term-premium) / **LIQUID** (conditional, repatriation-DORMANT) / **HENRY** (carry trigger) inboxes. (2) **Vol-check clean-source correction:** the FXY proxy (16.07%) misled — true USD/JPY implied vol **~sub-10 (~7.9 Jun-23) ≈ realized** → non-directional long-vol = a *defensible SMALL convexity ticket, NOT cheap-vol arbitrage* (KB-183 confirmed; thin FXY options eat the edge). No directional trade; flat remains correct.
+
 ---
 
 ## 🆕 2026-06-29 SESSION NOTE (Mon 2:29 PM ET boot — full Monday sweep; data-only, no analytical re-mark)
@@ -181,9 +183,9 @@ Per **STRATEGY.md** + v1.6 position logic (carry-convexity-tail):
 
 ## WHAT TO WATCH
 
-**Forward catalysts** (full docket → `docket/CALENDAR.md`): Jun 30 Sato seats + JGB 2Y · Jul 1 Tankan Q2 · Jul 7 JGB 30Y / Jul 22 40Y (J-ICS super-long re-test) · Jul 29 FOMC · Jul 31 BOJ MPM (next-hike) · ~Sep 18 convexity-tail window-end.
+**Forward catalysts** (full docket → `docket/CALENDAR.md`): Jun 30 Sato seats + JGB 2Y · Jul 1 Tankan Q2 · **Jul 7 JGB 30Y / Jul 22 40Y (JGB demand-vacuum tests — auction BTC/tail trajectory; SAM-32)** · Jul 29 FOMC · **Jul 31 BOJ MPM (next-hike + FY2027 purchase-plan = the JGB-supply read)** · ~Sep 18 convexity-tail window-end.
 
-**Watch-for-entry triggers (flat book — SAM-28..31):** disorderly MOF intervention spike · CFTC re-build through −153K/85% (SAM-30) · risk-off yen-haven re-couple / VIX-spike (SAM-31) · Fed-dot walk-back (SAM-28). Next CFTC Fri Jul 3 (Jun-30 data).
+**Watch-for-entry triggers (flat book — SAM-28..32):** disorderly MOF intervention spike · CFTC re-build through −153K/85% (SAM-30) · risk-off yen-haven re-couple / VIX-spike (SAM-31) · Fed-dot walk-back (SAM-28) · 🆕 **30Y JGB 4.5% disorderly** (v1.6.1 — forced lifer selling → risk-off → carry unwind; the route most able to re-couple SAM-31). Next CFTC Fri Jul 3 (Jun-30 data); JGB demand-vacuum tests = Jul 7 30Y / Jul 22 40Y auctions.
 
 *(Resolved Jun-1→16 event log moved to `thesis/timeline/TIMELINE.md` — Doc Ownership: WHAT TO WATCH is forward-only.)*
 

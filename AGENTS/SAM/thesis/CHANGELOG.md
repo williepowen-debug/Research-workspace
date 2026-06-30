@@ -8,6 +8,23 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-06-30 — v1.6 → **v1.6.1** [MINOR] — JGB long-end DEMAND-VACUUM thesis EXECUTED; new carry-tail route + KEY THRESHOLD
+
+**Author:** SAM. **Trigger:** Will-directed execution of the JGB long-end thread (scoped 6/29). Ran 3 parallel primary-source research legs (BOJ reaction function / MOF supply / lifer demand). **Minor bump (Y):** refinement — deepens Pillar 2 and adds a named carry-tail route + threshold; **no structural change** to the v1.6 carry-convexity-tail frame.
+
+**What the research established (→ `research/outputs/JGB_SUPPLY_DEMAND_THESIS.md`, promoted scoping→executed):**
+- **Demand (the driver):** J-ICS makes the lifer super-long bid *buffer-conditional* (rising yields mark down legacy low-coupon books *before* helping). Lifers turned net-SELLERS of super-long ~¥201B in May 2026; foreigners net-sellers (first outflow in 16mo). **No re-entry yield near current** (re-entry = 2-3yr rollover); reflexive **forced-selling zone at 30Y ~4.5%** = no buyer cushion + a self-reinforcing seller trigger above. Auctions confirm (30Y BTC 2.94x Jun-10; 40Y 2.54-2.76x 2026).
+- **BOJ backstop (central risk) = conditional LET-RUN:** pace-not-level reaction function; lets a gradual move through 4.0% (2025 precedent: let 30Y run +100bp to a record uncapped), caps only a *disorderly* spike. Risk survives but is velocity-conditional.
+- **Supply = forward amplifier, NOT the current cause:** FY2026 gross super-long CUT to ¥17.4T (17-yr low) to match dead demand → net supply *lower* YoY; reloads FY2027+ (taper-pause floor + Takaichi fiscal + reflationist board). The "supply shock" is a DEMAND collapse dressed as supply.
+
+**THESIS edits (v1.6.1):** (1) Pillar 2 — new bullet recording the executed demand-vacuum thesis (demand/BOJ/supply legs + signal-only + routing). (2) § THE CARRY-CONVEXITY TAIL — added the **JGB-disorderly → carry-unwind route** (folded into the risk-off/residual family; does NOT change the headline EV table; the candidate most able to re-couple SAM-31). (3) KEY THRESHOLDS — new row **JGB 30Y 4.5% (disorderly)**. (4) CROSS-AGENT LINKS — added → BOND (primary), annotated → LIQUID (conditional/dormant). **Tradeability = SIGNAL-ONLY** (no Will-tradeable JGB-bear vehicle).
+
+**Cross-agent:** routed 2026-06-30 (direct to inboxes, Will-authorized) → **BOND** (primary, term-premium spillover) / **LIQUID** (conditional — repatriation leg DORMANT, don't double-count Pillar 2 as a Channel-1 re-arm) / **HENRY** (new carry trigger: 30Y 4.5% disorderly). **New OPEN prediction SAM-32** (lifer non-re-entry; mechanism-based, not a threshold bet).
+
+**Also this session (no thesis change):** vol-check clean-source correction — the FXY proxy (16.07%) misled; true USD/JPY implied vol ~sub-10 (~7.9 Jun-23) ≈ realized → long-vol is a *defensible small convexity ticket, not cheap-vol arbitrage* (KB-183 confirmed). USD/JPY 162.40 fresh 40-yr low via orderly grind; intervention line re-anchored 160→162 (ING); MOF silent 14d. No re-mark.
+
+---
+
 ## 2026-06-29 — POSITION RECONCILED TO FLAT (no version change) + new primary thread: JGB long-end supply/demand
 
 **Author:** SAM. **Trigger:** Will confirmed 2026-06-29 that SAM holds **NO current FXY position** (the docs had carried a phantom 6-sh post-trim stub since the 6/22 trim, fill "unconfirmed" 6/25). **No analytical/conviction change** — the v1.6 carry-convexity-tail is unchanged as a *view*; only the operative posture flips.

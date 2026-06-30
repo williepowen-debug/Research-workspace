@@ -1,7 +1,8 @@
-# SAM THESIS — v1.6
+# SAM THESIS — v1.6.1
 
-**Version:** 1.6
-**Last Updated:** 2026-06-22 (v1.6 finalized — re-centered from rate-differential COMPRESSION to carry-trade CONVEXITY-TAIL after the Jun 16-17 sequence inverted Pillar 1's directional vector; folded the SAM⇄RED v1.6 backbone dialogue, 6-of-6 challenges converged 2026-06-22 ~5:20 PM ET — see `CHANGELOG.md` 2026-06-22 + `V16_RED_DIALOGUE.md`). Supersedes v1.5.1 (archived `thesis/THESIS_v1.5.1_ARCHIVE.md`).
+**Version:** 1.6.1
+**Last Updated:** 2026-06-30 (v1.6.1 refinement — executed the JGB long-end DEMAND-VACUUM thesis [3 primary-source legs; `research/outputs/JGB_SUPPLY_DEMAND_THESIS.md`]: deepens Pillar 2, adds the **30Y JGB 4.5% disorderly** carry-tail trigger route, adds the KEY THRESHOLD; routed → BOND/LIQUID/HENRY. No structural change to the v1.6 carry-convexity-tail frame. See `CHANGELOG.md` 2026-06-30.)
+**Prior:** 1.6 finalized 2026-06-22 (re-centered from rate-differential COMPRESSION to carry-trade CONVEXITY-TAIL after the Jun 16-17 sequence inverted Pillar 1's directional vector; SAM⇄RED 6-of-6 converged — see `CHANGELOG.md` 2026-06-22 + `V16_RED_DIALOGUE.md`). Supersedes v1.5.1 (archived `thesis/THESIS_v1.5.1_ARCHIVE.md`).
 **Status:** 🟠 **CARRY-CONVEXITY TAIL** — yen-direction near-term inverted (Pillar 1 re-widening under Warsh-Fed-hawkish + as-priced BOJ hike spent without unwind); the live thesis is a positioning-convexity TAIL: CFTC at 83.4% of cycle peak (Jun-16 data), held *through* the spent catalyst with no cover, pays asymmetrically IF any of N tail-routes fires inside a bounded eligibility window. **Frame survives at MEDIUM (not MEDIUM-HIGH) — honest net 60d EV ≈ break-even-to-slightly-negative → analytically a TRIM signal, not an add.**
 
 ## CONVICTION DECOMPOSITION (v1.6)
@@ -60,6 +61,8 @@ Flip-condition on the window: it may move only if (i) ≤90d AND (ii) it carries
 | Oil/MOU re-escalation | Deal SIGNED Jun 17, verification leg OPEN; Brent already ~−19%; Sat Jun-20 declaratory Hormuz re-closure = SHRUG (decoupling test) → TAIL only | 8% | +3% | +0.24% |
 | **Residual positioning cascade** | The convexity itself — at 83.4% peak, any trigger lights a move dominated by the unwind, not the trigger's direct mechanism | 10% | +5% | +0.50% |
 
+**🆕 Added route (v1.6.1) — JGB-disorderly → carry unwind:** a *disorderly* break of the Japanese long end (forced lifer selling at 30Y ~4.5% + BOJ losing grip on the curve) is a fiscal-dominance shock that historically forces a violent yen repricing (JGB stress → risk-off → carry unwind). It is a **named entry-trigger** for the convexity tail and the candidate catalyst most able to *re-couple* the decoupled cross-pair yen-haven channel (SAM-31). Folded into the **risk-off / residual-cascade family** (does NOT change the headline EV table — magnitude conditional, currently un-fired; 30Y ~3.76% orderly). Mechanism + the 4.5% reflexivity detailed in `research/outputs/JGB_SUPPLY_DEMAND_THESIS.md`.
+
 **#1a "pick one" (RED #1a — conceded):** you cannot keep both the 10% risk-off probability AND the +7% magnitude while the yen-haven channel is decoupled — high prob assumes re-snap is easy, high magnitude assumes it is violent & rare. v1.6 keeps the **+7% conditional magnitude** (a *true* yen-haven risk-off is Aug-2024-flavored when it fires) and drops the **probability to ~6-7%** (most risk-off currently routes USD-haven; only the severe subset flips flows back to yen). Robust to the choice — the mirror (10% × +5%) lands ≈ +0.50%; the verdict is identical.
 
 ### EV — honest, marginal, break-even-to-negative (RED #1 — BROKEN at MED-HIGH / SURVIVES at MEDIUM)
@@ -99,6 +102,7 @@ Flip-condition on the window: it may move only if (i) ≤90d AND (ii) it carries
 ### Pillar 2 — J-ICS lifer long-end abandonment (DOMESTIC) — **ALIVE, only-pillar-still-firing**
 - J-ICS makes long-duration JGB purchases punitive for solvency (regime unchanged); mid-size lifers (Fukoku, Asahi) pivoted 30/40Y → 10-15Y (Jun-10 30Y auction softening: BTC 2.936 vs 3.115, tail 2.8bp vs 1.3bp). Lifer absence is the *cause* of the long-end blowout, not the consequence.
 - **DOMESTIC** — does NOT transmit to foreign-asset selling at the lifer-disclosure timescale (4-of-4 institutions grew US credit through their 2026 windows). This is the anchor of the yen-LEVEL story (JGB yields → BOJ pressure → eventual normalization-overshoot), multi-quarter, not 3-6mo.
+- **🆕 EXECUTED as a standalone DEMAND-VACUUM thesis 2026-06-30** (`research/outputs/JGB_SUPPLY_DEMAND_THESIS.md`, 3 primary-source legs): (a) **Demand** — J-ICS makes the lifer bid *buffer-conditional*; lifers turned net-SELLERS of super-long ~¥201B in May, foreign net-sellers (first outflow in 16mo); **no re-entry yield near current** (re-entry = 2-3yr rollover), and a reflexive **forced-selling zone at 30Y ~4.5%** (legacy-book impairment → sell, not buy) = no buyer cushion + a self-reinforcing seller trigger above. (b) **BOJ** — *conditional let-run*: pace-not-level reaction function, lets a gradual move through 4.0% (2025 precedent: let 30Y run +100bp to a record uncapped), caps only a *disorderly* spike. (c) **Supply** — *forward* amplifier only: FY2026 gross super-long actually CUT to ¥17.4T (17-yr low) to match dead demand → net supply lower YoY now; reloads FY2027+ (taper-pause floor + Takaichi fiscal + reflationist board). **Tradeability = SIGNAL-ONLY** (no Will-tradeable JGB-bear vehicle) → routed to BOND (primary, term-premium) / LIQUID (conditional, repatriation-DORMANT — do NOT double-count this DOMESTIC mechanism as a Channel-1 re-arm) / HENRY (carry trigger). The disorderly version is a carry-tail route (below).
 
 ### Pillar 3 — Hedge ratio at 14-year low — **ALIVE in fact / WEAKENED in proximity**
 - 44.4% (Mar 2025, 14-yr low); ~55% of foreign bonds (~$370-550B) unhedged; vol-weighted entry USDJPY 135-145; mechanical-selling threshold USDJPY <145 — all unchanged.
@@ -165,6 +169,7 @@ Structural levels that gate thesis paths. *Current values + breach status live i
 | USD/JPY 130-135 | Life insurer forced systematic selling (unhedged avg entry) |
 | JGB 10Y 2.40% | Stress crossover |
 | JGB 30Y 4.0% | Severe insurer stress / J-ICS acceleration zone |
+| **JGB 30Y 4.5% (disorderly)** | **Lifer impairment / forced-selling reflexive zone — carry-tail disorderly trigger (JGB stress → risk-off → carry unwind). No buyer cushion below; self-reinforcing seller above. See JGB_SUPPLY_DEMAND_THESIS.** |
 | Brent $120 | Kharg-scenario Phase 1 oil shock |
 | BOJ rate 0.75% | (breached — now 1.00%) Takaichi mortgage-ceiling collision zone for the *next* hike |
 | **CFTC −108K / 60%** | **Convexity-tail leg-1 invalidation (cover → LOW)** |
@@ -213,7 +218,8 @@ Structural levels that gate thesis paths. *Current values + breach status live i
 
 ## CROSS-AGENT LINKS
 
-- **→ LIQUID:** Channel 1 **RETIRED** (4-of-4 grew US credit; re-add only on a direct foreign-SALES print). Norinchukin CLO record ¥10.1T +¥1.8T YoY = demand-side signal, not seller-overhang. Japan holds $1,239.3B USTs (Feb 2026). No acute UST sell signal from the Japan lifer side. JGB 30Y mechanism (Pillar 2) intact but DOMESTIC — does not transmit to UST demand on the prior-framed timescale.
+- **→ BOND (🆕 v1.6.1, primary recipient of the JGB thesis):** Japan long-end = a DEMAND-VACUUM bear-steepener (structural mirror of the supply/term-premium bear-steepener BOND tracks). Open question routed to BOND: does it transmit to US term premium / the global long-end, or is it ring-fenced (JGB↔UST correlation low; repatriation leg dormant)? See `research/outputs/JGB_SUPPLY_DEMAND_THESIS.md`.
+- **→ LIQUID:** Channel 1 **RETIRED** (4-of-4 grew US credit; re-add only on a direct foreign-SALES print). Norinchukin CLO record ¥10.1T +¥1.8T YoY = demand-side signal, not seller-overhang. Japan holds $1,239.3B USTs (Feb 2026). No acute UST sell signal from the Japan lifer side. JGB 30Y mechanism (Pillar 2) intact but DOMESTIC — does not transmit to UST demand on the prior-framed timescale. **JGB thesis routed to LIQUID as a *conditional* watch only** (repatriation leg re-arms on a disorderly forced-selling event; not a live UST-demand signal today — don't double-count the DOMESTIC Pillar 2 as a Channel-1 re-arm).
 - **→ HENRY:** Carry-unwind = **convexity TAIL at MEDIUM** (not a near-term directional bet). CFTC 83.4% held through the catalyst (Pillar 4 confirmed). **Cross-pair yen-haven channel DECOUPLED Jun 11** (risk-off → USD-haven) — track whether it re-couples on a VIX-spike. Aug-2024 speed is the upside-tail conditional on a hawkish-of-pricing trigger + at-peak positioning, NOT a base-case property. Live buckets in STATUS.
 - **← HAWK / BRENT:** Iran deal SIGNED Jun 17 (verification leg open); oil-in-yen DORMANT; re-escalation = TAIL route 5. Declaratory ≠ physical (Jun-20 shrug).
 - **← HANS/BROCK:** US private-credit cascade → Fed walk-back of Jun-17 dots → USD/JPY compression independent of BOJ = tail route 4 (requires breaking the Warsh frame; PC redemption peak Q2 live but labor/inflation too firm pre-Jul-29).

@@ -16,7 +16,7 @@
 | 1. Smart money exits quietly | Early voluntary insurer selling, positions being built | ✅ Confirmed Q1-Apr |
 | 2. Pre-trigger setup | BOJ hawkish hold (Apr 28 — 3 dissents, biggest split since 2016); June hike at 74% swap | ✅ Confirmed Apr 28 |
 | **3. Triggers firing (single-path, market-confirmed base case under v1.5) — ✅ RESOLVED Jun 16-17** | Run-5 pre-event narrative (MOF #1/#2 Apr 30/May 6; ESR Big-3 3-of-3 May 26 benign; SAM-21 reprice May 22 → Jun 9 60% → 98%; Iran/Hormuz MOU break Jun 1; Channel 3 reactivated; CFTC 81% peak; Brent choppy decline) → archived to TIMELINE. **Resolution:** BOJ hiked 25bp → 1.00% Jun 16 as-priced (no carry unwind, CH-004 confirmed); FOMC Jun 17 +40bp 2026 dot (Pillar 1 directional vector inverted under Warsh-Fed regime); Iran/US deal SIGNED Jun 17 electronic (initial agreement, verification leg OPEN). SAM-21/SAM-24 ✅ CONFIRMED; SAM-23/SAM-26 ❌ FAILED (both pre-marked down, calibration wins). 0 OPEN predictions remain. | **✅ Stage 3 RESOLVED Jun 16-17** |
-| **4. Post-catalyst convexity-tail (v1.6 FINALIZED 2026-06-22)** | Catalyst spent without violence; Pillar 1 directional vector broken; Pillar 2 only-pillar-still-firing; Pillar 4 (CFTC 83.4% peak, held *through* the catalyst, zero cover) = the convexity center (Channel 4). Position re-framed as carry-convexity-tail exposure (shares = tail-exposure, not a directional bet); $58C expired worthless Jun 18; **trimmed 7 of 13 → 6 sh + stop tightened to FXY ≤ $55.50** (Will-approved 2026-06-22, executes Tue Jun 23). EV (RED #1, honest inputs): net 60d ≈ **break-even-to-slightly-NEGATIVE (−0.2% to +0.05%)** — a small tail-hold, not edge-positive → trim signal. **Frame survives at MEDIUM; pays only if a tail-route fires by the LOCKED Sep-18-2026 window, retires to LOW otherwise.** | **WE ARE HERE — POSITION FLAT (Will-confirmed 2026-06-29); v1.6 thesis intact as a watch-for-entry; monitoring SAM-28..31 as ENTRY-triggers through the Sep-18 window. *(Historical: trim 7→6 + stop $55.50 approved 6/22; Will confirms no position held.)*** |
+| **4. Post-catalyst convexity-tail (v1.6 FINALIZED 2026-06-22)** | Catalyst spent without violence; Pillar 1 directional vector broken; Pillar 2 only-pillar-still-firing; Pillar 4 (CFTC 83.4% peak, held *through* the catalyst, zero cover) = the convexity center (Channel 4). Position re-framed as carry-convexity-tail exposure (shares = tail-exposure, not a directional bet); $58C expired worthless Jun 18; **trimmed 7 of 13 → 6 sh + stop tightened to FXY ≤ $55.50** (Will-approved 2026-06-22, executes Tue Jun 23). EV (RED #1, honest inputs): net 60d ≈ **break-even-to-slightly-NEGATIVE (−0.2% to +0.05%)** — a small tail-hold, not edge-positive → trim signal. **Frame survives at MEDIUM; pays only if a tail-route fires by the LOCKED Sep-18-2026 window, retires to LOW otherwise.** | **WE ARE HERE — POSITION FLAT (Will-confirmed 2026-06-29); v1.6.1 thesis intact as a watch-for-entry; monitoring SAM-28..32 as ENTRY-triggers through the Sep-18 window (SAM-32 = JGB demand-vacuum; the new 30Y-4.5%-disorderly route can re-couple SAM-31). *(Historical: trim 7→6 + stop $55.50 approved 6/22; Will confirms no position held.)*** |
 | 5. Spiral | Yen strengthens, carry unwind cascades. **Aug-2024-speed (hours not days) is the upside-tail path, conditional on hawkish-of-pricing trigger + at-peak positioning (per CH-004 METHOD — a fully-priced hike doesn't unwind, only the hawkish-tail subset does).** Base-case speed for a delivered-as-priced 25bp hike is days-to-weeks, not Aug-2024-hours. | Days to weeks post-trigger |
 | 6. Target zone | USD/JPY 148-152, FXY $60-62 | 2-4 weeks post-trigger |
 
@@ -60,7 +60,7 @@
 - The directional case is INVERTED near-term; what's held is a **positioning-convexity TAIL at MEDIUM** — the spent BOJ catalyst is gone, the live frame is Channel 4 (CFTC fuel firing on ANY of N tail-routes by the Sep-18 window), not a single-path catalyst.
 - Position now **FLAT** (Will-confirmed 2026-06-29). *(Historical: trim 7 of 13 → 6 sh + stop tightened to FXY ≤ $55.50 / USDJPY ≥162.5, Will-approved 2026-06-22 — the v1.6 Option-(b) level.)* For a re-entry, the same small-size + bounded-stop discipline applies; see EXIT rules below.
 - Hold = participation in the tail; the modal path (no trigger by Sep-18) bleeds and retires the frame to LOW. This is a tail-hold, not a conviction-add (net EV ≈ break-even-to-slightly-negative, RED #1).
-- **✅ Stage-3 + v1.6-finalize gating reads ALL RESOLVED** (Jun 9 SAM-21 fire / Jun 10 US CPI hot-as-expected / Jun 12 + Jun 22 CFTC [−150,132 / 83.4%, held through catalyst, no cover — EV-gate HOLD-band] / Jun 19 National CPI soft / SAM⇄RED 6-of-6 converged). **v1.6 is FINALIZED; sizing decided (trim 7→6 + stop $55.50, vehicle OFF).** Forward reads now = the convexity-tail tripwire watch (SAM-28..31) through the **Sep-18 window** — see § Key Check Dates above (Jun-24 SoO / Jun-26 Tokyo CPI + CFTC / Jun-30 Sato / Jul-1 Tankan / Jul-7+22 super-long auctions / Jul-31 BOJ). **No fresh near-term BOJ-binary catalyst** before Jul 31.
+- **✅ Stage-3 + v1.6-finalize gating reads ALL RESOLVED** (Jun 9 SAM-21 fire / Jun 10 US CPI hot-as-expected / Jun 12 + Jun 22 CFTC [−150,132 / 83.4%, held through catalyst, no cover — EV-gate HOLD-band] / Jun 19 National CPI soft / SAM⇄RED 6-of-6 converged). **v1.6 is FINALIZED; sizing decided (trim 7→6 + stop $55.50, vehicle OFF).** Forward reads now = the convexity-tail tripwire watch (SAM-28..32) through the **Sep-18 window** — see § Key Check Dates above (Jun-24 SoO / Jun-26 Tokyo CPI + CFTC / Jun-30 Sato / Jul-1 Tankan / Jul-7+22 super-long auctions / Jul-31 BOJ). **No fresh near-term BOJ-binary catalyst** before Jul 31.
 
 ### When to EXIT (shares)
 
@@ -88,7 +88,7 @@
 
 ## OPTIONS DECISION RULES — ✅ CLOSED / SUPERSEDED by v1.6 (2026-06-22)
 
-> **No live option layer.** Jun-18 $58C EXPIRED WORTHLESS Jun 18; Position A (Sep $60) was NOT WARRANTED, moot. **v1.6 vehicle decision = vehicle-change OFF (RED #4 gate)** — a break-even MEDIUM convexity frame doesn't pay a vol structure's spread/theta/complexity. Re-opens ONLY if convexity reclaims MED-HIGH (CFTC through −153K/85% OR yen-haven re-couple) OR FXY-vol prints demonstrably cheap on a clean second source. See `thesis/THESIS.md` § VEHICLE. **The detail below is historical (pre-Jun-18) — candidate for archive-compression next cleanup.**
+> **No live option layer.** Jun-18 $58C EXPIRED WORTHLESS Jun 18; Position A (Sep $60) was NOT WARRANTED, moot. **v1.6 vehicle decision = vehicle-change OFF (RED #4 gate)** — a break-even MEDIUM convexity frame doesn't pay a vol structure's spread/theta/complexity. Re-opens ONLY if convexity reclaims MED-HIGH (CFTC through −153K/85% OR yen-haven re-couple) OR FXY-vol prints demonstrably cheap on a clean second source. See `thesis/THESIS.md` § VEHICLE. **[🆕 Clean-source vol check RUN 2026-06-30: true USD/JPY implied ~sub-10 ≈ realized = NOT demonstrably cheap → this gate is CLOSED; vehicle-change stays OFF.]** **The detail below is historical (pre-Jun-18) — candidate for archive-compression next cleanup.**
 
 ### Current options layer *(HISTORICAL — pre-Jun-18)*
 
@@ -164,7 +164,7 @@ Three lenses on the same risk. Full technical detail: `research/outputs/VOL_OPTI
 | 2 of 3 | Institutional pre-positioning starting | High alert. Prepare for trigger. |
 | 3 of 3 | Market front-running the thesis | Highest conviction zone. When hard trigger fires, act immediately. |
 
-*Live read in STATUS (Mon Jun 22): FXY ATM IV ~9.40% (event premium bled post-FOMC) / 25d RR −11.16 (calls bid = yen-strength convexity demand intact, thesis-side) / P/C 0.05x call-heavy. The BOJ-Jun-16 "act-immediately-on-trigger" anchor is RESOLVED (catalyst spent). Under v1.6 the vol read informs the tail-route watch (esp. risk-off re-couple), not a near-term directional trigger; vehicle-change OFF (RED #4). Read sign/trend not absolute proxy level (KB-183).*
+*Live read (Tue Jun 30): FXY-proxy ATM IV ~16% / 25d RR −4.49 — but the **proxy MISLEADS at the level** (KB-183 confirmed 2026-06-30): the clean CME USD/JPY implied-vol index was **~7.9 on Jun-23 (sub-10) ≈ realized vol** → vol is NOT cheap-vol arbitrage; non-directional long-vol is at best a small convexity ticket, fairly priced vs the grind. Read the proxy's sign/trend ONLY, never its level. Under v1.6 the vol read informs the tail-route watch (esp. risk-off re-couple), not a near-term directional trigger; vehicle-change OFF (RED #4).*
 
 ### Three Use Cases
 
@@ -182,7 +182,7 @@ Three lenses on the same risk. Full technical detail: `research/outputs/VOL_OPTI
 - If vol is moderate at target = move may have more to go = hold
 
 ### Key Check Dates (forward-only; resolved events pruned — full operational calendar in docket/CALENDAR.md)
-- **🔴 ongoing:** CFTC weekly (next Fri Jun 26, Jun-23 data). Currently **−150,132 / 83.4% of −180K peak (Jun-16 data, held *through* the catalyst, zero cover; amplifier +5pp ON, residual ON).** Tripwires: cover <−108K → frame LOW (SAM-29); build through −153K/85% → reclaims MED-HIGH (SAM-30).
+- **🔴 ongoing:** CFTC weekly (next Fri Jul 3, Jun-30 data). Currently **−146,104 / 81.2% of −180K peak (Jun-23 data; first cover off the 83.4% top, +4,028 WoW, HOLD band; amplifier +5pp ON, residual ON).** Tripwires: cover <−108K → frame LOW (SAM-29); build through −153K/85% → reclaims MED-HIGH (SAM-30).
 - **🔴 ~Sep 18 2026:** **Convexity-tail window-end (LOCKED).** No eligible trigger fired by Sep-18 + ≥80% fuel → retire to LOW (SAM-28). Captures Jul-31 BOJ + mid-Sep FOMC, neither as deadline.
 - **🟡 Wed Jun 24:** BOJ June Summary of Opinions — first granular read on the 7-1 board reaction function; Asada dovish-dissent rationale; oil-inflation linkage / Q4-vs-later next-hike read.
 - **🟡 Jun 23/25/30:** JGB 5Y / 20Y / 2Y auctions — post-BOJ forward-path reads.
@@ -249,13 +249,14 @@ Three lenses on the same risk. Full technical detail: `research/outputs/VOL_OPTI
 
 ## THE ASYMMETRY (v1.6 — convexity tail vs modal bleed)
 
-The asymmetry is no longer "compression delivers via the catalyst" — it's a **positioning-convexity TAIL**: a small, bounded modal bleed paid in exchange for participation if ANY of N tail-routes fires inside the Sep-18 window. **Net 60d EV ≈ break-even-to-slightly-negative (RED #1)** — the asymmetry is real but marginal, which is why the position is sized small (6 sh) and stop-tightened ($55.50), not added to.
+The asymmetry is no longer "compression delivers via the catalyst" — it's a **positioning-convexity TAIL**: a small, bounded modal bleed paid in exchange for participation if ANY of N tail-routes fires inside the Sep-18 window. **Net 60d EV ≈ break-even-to-slightly-negative (RED #1)** — the asymmetry is real but marginal. *(Position is FLAT, Will-confirmed 2026-06-29; the "sized small at 6 sh, stop $55.50" framing is the historical re-entry reference, not a live holding.)*
 
 | Outcome (by Sep-18 window) | Path | FXY outcome | P(60d) |
 |----------|------|-------------|--------|
 | **MODAL — no trigger fires (the >50% case)** | Bleed: Warsh-hawkish + USD-haven drift toward 162-167; carry accrues to shorts | **−2 to −3%** (tests $55.50 stop on the deep path) → frame retires to LOW | mode |
 | **Risk-off shock** (yen-haven re-couples) | VIX spike → safe-haven yen bid (Aug-2024-flavored when it fires) | **+7% conditional** | ~6-7% |
 | **Residual positioning cascade** | At 83.4% peak, any trigger → move dominated by the unwind | **+5%** | ~10% |
+| **🆕 JGB-disorderly (30Y 4.5%)** | Forced lifer selling + BOJ loses long-end grip → fiscal-dominance risk-off → carry unwind (the candidate most able to re-couple SAM-31) | folded into risk-off/residual | — (un-fired; 30Y ~3.76% orderly) |
 | **Fed walk-back of Jun-17 dots** | US-credit cascade forces the Warsh frame to break → USD compression | +5% | 5% |
 | **Hawkish-of-priced BOJ** (next meeting, 50bp/accelerated-QT) | Surprise component lights the fuel | +4% blended | 8% |
 | **MOF #3 sustained** / **oil-MOU re-escalation** | CH-003 same-day-reclaim (unwind\|fires ~0.20) / Phase-2 yen bid | +2% / +3% | 10% / 8% |
