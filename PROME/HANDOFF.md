@@ -6,6 +6,20 @@
 
 ---
 
+## 2026-06-30 (Tue, PM-2) — ★ Track B history scrub COMPLETE + verified (repo safe to flip public)
+
+**What landed:** Executed the git-history scrub — the real go-public gate. Plan/manifest → `PROME/public-prep/HISTORY_SCRUB_PLAN.md`. **Method:** `git filter-repo` from a pristine mirror backup; sidecar-rewrite → exhaustive verify → ONE force-push (**Landing A** — repo preserved; Will declined delete/recreate) → re-sync live + gc → fresh-clone proof; done while PRIVATE. **Removed from ALL history:** `WILL/trading-journal/` (private financial), `tools/calendar/` (Google `GOCSPX` OAuth secret + pickled tokens), `.venv/`+`*.pyc`/`__pycache__` (bloat 225M→131M), dead telegram token (id+secret), gateway token, WALTER live bot-ID (Will opted in). **★ The Will-requested double-check caught a real miss:** pass 1 scrubbed the bot-ID but left the dead token's 35-char SECRET half (old `cron_sweep.sh` hardcode) — caught by reading edited content + a blob-level secret enumeration; pass 2 (corrected, fresh from backup) scrubbed the whole credential. **Final:** origin==local==fresh-clone `b01c0346`; all targets 0; broad credential sweep 0; CASCADE research image byte-identical (base64 coincidence correctly NOT scrubbed); fsck clean; 3,465 commits / 5-mo history intact.
+
+**Decisions Will made:** objective buckets only (skip subjective); file-contents not commit-messages; OAuth already dead; Landing A (force-push, keep repo); scrub the live WALTER bot-ID too; double-check before flipping; run closeout housekeeping.
+
+**Decisions needed from Will:** flip repo → Public (his action, when ready); finalize essay edits.
+
+**Risks/blockers:** none open. WALTER/fleet Telegram UNAFFECTED (live tokens off-repo `~/.claude/channels/telegram-*`, untouched). Accepted Landing-A residue: old commits reachable on GitHub only by exact 40-char SHA until GC (harmless — never public, dead secrets). Mirror backup `~/Research-workspace-PRESCRUB-BACKUP-20260630.git` retained as rollback until Will confirms.
+
+**Next:** Will flips public → then delete the mirror backup. Carried: essay revise; BOARD→WALTER thinning; phase-2 archive surgery. Full detail → SCRATCH + [[project_public_prep_anthropic_fellows]]. **Lesson → [[finding_history_scrub_verify_by_content_not_pickaxe]].**
+
+**Rules held:** no trade (standing rule); backup before destructive op (3 recovery points held); verify-before-force-push (exhaustive, twice); pathspec commits; the force-push was the intended + Will-approved destructive op (history rewrite), not a protocol breach.
+
 ## 2026-06-30 (Tue, PM) — PUBLIC-PREP launched: framing + Track A declutter (DONE) + README fix + essay draft
 
 **What landed:** Will identified the target — **Anthropic Fellows Program, Economics & Policy** (job 5183053008) — and this repo is his centerpiece artifact. (1) **Framing agreed:** present as a multi-agent AI-orchestration system + case study in AI-augmented economic knowledge work; methodology forward, trading = testbed. Honest fit read: aligns on method/temperament, not the AI-economics *subject* → bridge via the essay. (2) **Essay drafted** (`PROME/drafts/essay_conservation_of_cost.md`) — "conservation of organizing cost," steelman-hardened, safety payload foregrounded; **Will reviewing.** (3) **Decision: clean-in-place, NOT a fresh repo** — preserve the ~3,465-commit / 5-month longevity (history ≠ tree-cleanliness). (4) **Track A (readability) DONE** — 5,303 → ~3,920 tracked files (~26%), 9 commits: OpenClaw docs/`dashboard`/`TOOLS.md`, junk, emptied `processed/`+`delivered/` containers (kept via `.gitkeep` per Will), 0-ref archives, SAM sweep. (5) **README overhauled + fixed** (markdown structure, dead `.clawhub/` citation → real Feb evidence, commit# rounded; prose verbatim).

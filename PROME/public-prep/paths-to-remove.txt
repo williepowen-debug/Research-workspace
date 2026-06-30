@@ -1,0 +1,5 @@
+WILL/trading-journal/
+tools/calendar/
+.venv/
+glob:*.pyc
+glob:*__pycache__*

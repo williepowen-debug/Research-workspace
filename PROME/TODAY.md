@@ -5,8 +5,8 @@
 
 ---
 
-## ★ Repo going public — prep in progress
-Will is deleting OpenClaw vestiges + retired agents + the private `WILL/` journal via the GitHub web UI (19 commits, verified safe — live FORGE tooling intact). **PROME queued:** (a) dangling-ref sweep (re-route the position-truth pointer + fix `SOUL.md` "injected" claims); (b) **secret + git-history scrub before publishing** — the real gate (deleted private data still lives in history). See SCRATCH ★ + ACTIVE_DECISIONS.
+## ★ Repo going public — Track B history scrub DONE (6/30 PM-2)
+**Track A (readability) DONE · Track B (git-history secret/private scrub) DONE + fresh-clone verified (`b01c0346`).** Repo on GitHub now provably clean (all secrets/private data gone from all 3,465 commits; history intact). **Remaining gate = Will flips repo → Public** (his action). Mirror backup retained until he confirms. Full record → `PROME/public-prep/HISTORY_SCRUB_PLAN.md`; lesson → `finding_history_scrub_verify_by_content_not_pickaxe`. (Lower-pri carry: essay revise; the (a) dangling-ref sweep of current docs; BOARD→WALTER thinning.)
 
 ## RESEARCH-INTAKE wiring — routed (option A)
 WALTER reads the lane + routes lane-flagged breaches via its existing delivery lane (gated + de-duped). Packet in WALTER's inbox → implements next boot. EIA/CFTC uniform-alerts pushed to the intake repo (Cushing<20M=Boundary#3 live; CFTC track-only pending VIOLET band).

@@ -1,30 +1,30 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-30 (Prome, PM) closeout — **PUBLIC-PREP LAUNCHED.** Target identified (Anthropic Fellows — Economics & Policy). **Track A (readability) DONE** (~26% file cut). README overhauled + fixed. Reflective essay drafted (Will reviewing). **Track B (history scrub) = the next gate.** All committed + pushed.
+**Last Updated:** 2026-06-30 (Prome, PM-2) — **★ TRACK B (history scrub) DONE + verified.** Repo on GitHub is now provably clean of all secrets/private data, full 3,465-commit / 5-month history intact. **Repo is SAFE TO FLIP PUBLIC** (Will's action, when ready). Public-prep is essentially complete pending the flip.
 
-## ⏰ NEXT-SESSION ENTRY POINT — repo is going PUBLIC as a portfolio piece
-**Target:** Will is applying to the **Anthropic Fellows Program — Economics & Policy** (greenhouse job 5183053008); this repo is his centerpiece artifact. Full durable context → [[project_public_prep_anthropic_fellows]].
+## ⏰ NEXT-SESSION ENTRY POINT — repo is clean; only the public-flip remains
+**Target:** Will applying to **Anthropic Fellows — Economics & Policy** (job 5183053008); this repo = centerpiece artifact. Durable context → [[project_public_prep_anthropic_fellows]]. Full scrub record → `PROME/public-prep/HISTORY_SCRUB_PLAN.md`.
 
-**Framing (agreed):** multi-agent AI-orchestration system + primary-source case study in AI-augmented economic knowledge work; methodology forward, trading = "the testbed." **Clean-in-place (NOT a fresh repo** — preserve the ~3,465-commit / 5-month longevity; history ≠ tree-cleanliness). Will's two concerns: **(a) readable TODAY, (b) private/unprofessional OUT of history.**
+## ✅ This session (PM-2) — Track B history scrub COMPLETE
+- **Method:** `git filter-repo` from a pristine mirror backup; sidecar-rewrite → verify → ONE force-push (Landing A — repo preserved, NOT delete/recreate) → re-sync live → fresh-clone proof. Done while PRIVATE.
+- **Removed from ALL history:** `WILL/trading-journal/` (private financial), `tools/calendar/` (Google OAuth `GOCSPX` secret + pickled tokens), `.venv/` + `*.pyc`/`__pycache__` (bloat 225M→131M), dead telegram token (id+secret), gateway token, **WALTER live bot-ID** (Will opted in).
+- **★ The double-check earned its keep:** pass 1 scrubbed the bot-**ID** but left the dead token's **35-char secret half** (old `cron_sweep.sh` hardcode). Caught by reading edited content + a blob-level secret enumeration over kept history. Pass 2 (corrected, fresh from backup) scrubbed the whole credential. Lesson → [[finding_history_scrub_verify_by_content_not_pickaxe]].
+- **Final state:** origin == local == fresh-clone = `b01c0346`; all targets 0; broad credential sweep 0; CASCADE research image byte-identical (a base64 coincidence, correctly NOT scrubbed); fsck clean; README+essay intact.
+- **WALTER/fleet Telegram UNAFFECTED** — live tokens are off-repo (`~/.claude/channels/telegram-*`), never in repo; scrub only edited 7 `.md` docs.
 
-## ✅ This session (PM) — what landed
-- **Framing + honest fit assessment** — repo aligns on method/temperament, not on the AI-economics *subject*; bridge = the essay.
-- **Essay drafted** → `PROME/drafts/essay_conservation_of_cost.md` ("conservation of organizing cost"; steelman-hardened; safety payload foregrounded). **Will reviewing/editing — NOT final.**
-- **Track A (readability) DONE** — 5,303 → ~3,920 tracked files (~26%), 9 commits: `/docs` (8 OpenClaw docs), `dashboard/` + `TOOLS.md` (dead infra), junk, emptied `processed/`+`delivered/` (915 signals; KEPT containers via `.gitkeep`), 0-ref archives (~320), SAM sweep. KEPT: referenced archives, `BOARD/` (→WALTER), memory daily logs, current inbox.
-- **README fixed** (`README.md`) — markdown structure (was a renderless flat wall + code-block lists), dead `.clawhub/` citation → real Feb evidence, commit# rounded. Prose preserved verbatim. Strong doc; no rewrite needed.
-
-## ⭐ NEXT — Track B: history scrub (the real go-public gate)
-filter-repo (targeted) to remove from ALL history: secrets (telegram tokens, Google OAuth `client_secret`, `.env`) + private financial data (`WILL/trading-journal` photos — gone from tree, still in history; positions; broker) + "unprofessional" content (**Will must DEFINE criteria**). Process: read-only inventory → manifest → Will-approve → ONE filter-repo pass → flip public. Do while repo PRIVATE. I offered to run the objective inventory next.
+## ⭐ REMAINING for going public
+1. **Will flips repo → Public** (GitHub Settings → Visibility). Nothing else gates it. *(Accepted Landing-A residue: GitHub may keep old commits reachable only by exact 40-char SHA until its GC — harmless, repo never public, secrets dead.)*
+2. After Will confirms public looks right → delete the mirror backup `~/Research-workspace-PRESCRUB-BACKUP-20260630.git` (the rollback net).
 
 ## Also pending (lower)
-- `BOARD/` (416 files, live) — route to WALTER to thin its consumed entries (same pattern as processed/).
-- Phase-2 archives — ref-surgery to cut the ~370 referenced archives if going deeper.
-- Essay: Will's edits → I revise.
-- root `MEMORY.md` has OpenClaw-vestige lines (45–46) — refresh pass.
+- **Essay** (`PROME/drafts/essay_conservation_of_cost.md`) — Will reviewing/editing; revise on his edits.
+- `BOARD/` (live, ~416 files) — route to WALTER to thin consumed entries (same pattern as processed/).
+- Phase-2 archives — ref-surgery to cut ~370 referenced archives if going deeper on declutter.
+- root `MEMORY.md` lines 45–46 OpenClaw-vestige — refresh pass.
 
 ## Git / repo state
-Clean, pushed. The **6/30 AM session** threads still stand (RESEARCH-INTAKE consumer wiring routed to WALTER + EIA/CFTC alerts shipped — see HANDOFF 6/30 AM entry). Repo is **PRIVATE** (public flip is post-Track-B).
+Clean. Track-B force-pushes done (`bec24b60 → 9b7d3290 → b01c0346`). Live working dir synced + gc'd (.git 133M). Closeout commit = PROME/public-prep artifacts + state docs + daily log + 1 auto-memory.
 
 ## Cautions
-- **Position truth OFF-repo** (`WILL/trading-journal` deleted from tree; still in history → Track B).
-- **Refresh dashboard/FRED before citing levels.** Live read this AM: HY OAS 280 (at the >280 trigger line but *tightening* −3, not firing), VIX 17 calm, Brent $74.18, USD/JPY 162.
-- STATUS.md / TODAY.md carry the AM RESEARCH-INTAKE state — slightly behind this PM session; refresh next session if needed.
+- **Position truth OFF-repo** (`WILL/trading-journal` gone from tree AND history now).
+- **Refresh dashboard/FRED before citing levels** — no market read since 6/30 AM (HY OAS ~280 at-line tightening, VIX ~17, Brent ~$74, USD/JPY ~162).
+- Mirror backup still on disk = rollback until Will confirms; don't delete prematurely.
