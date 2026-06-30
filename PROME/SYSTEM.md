@@ -17,14 +17,14 @@ Core rule:
 
 ## Boot Trust Stack
 
-### Always injected in main sessions
+### Auto-loaded each session (Claude Code)
 
 | File | Trust | Role |
 |---|---|---|
-| `AGENTS.md` | High | Agent roster, transmission chains, spawn restrictions. |
-| `SOUL.md` | High | Prome identity/tone. |
-| `USER.md` | High | Will preferences and operating style. |
-| `MEMORY.md` | High for curated long-term facts; check freshness | Long-term discoveries, thesis framework, system architecture notes. |
+| `CLAUDE.md` (root + `PROME/`) | High | Repo + PROME operating rules — the only docs Claude Code genuinely auto-injects. |
+| `MEMORY.md` (auto-memory, off-repo) | High for curated lessons; check freshness | Operating lessons / findings / feedback index — the genuinely-injected memory layer. |
+
+*(`AGENTS.md` + `USER.md` are **explicit boot-reads**, not injected — see the next table. `SOUL.md` + `IDENTITY.md` were deleted root-level in the 2026-06-30 public-prep cleanup.)*
 
 > ⚠️ **`HEARTBEAT.md` is NOT injected (OpenClaw vestige).** It was auto-loaded under the always-on VPS model; in Claude Code it is NOT in PROME's boot context — PROME must explicitly `Read` it. It is a **PROME-facing regime memo only**: PROME writes it, PROME reads it. Domain agents (incl. NEXUS) do **not** boot-read it (verified 2026-06-27: 19/20 agent CLAUDE.md have zero HEARTBEAT references). See `BOOT.md` step 6.
 
@@ -32,6 +32,8 @@ Core rule:
 
 | File | Cadence | Role |
 |---|---|---|
+| `USER.md` | Each fresh session (stable) | Will's operator model — communication/thinking style, edge, psychology. The operator manual for Will-facing work. |
+| `AGENTS.md` | When roster/routing relevant | Agent roster, transmission chains, spawn restrictions. |
 | `PROME/BOOT.md` | Maintained | Boot sequence, doc ownership, protocol reminders. |
 | `PROME/HANDOFF.md` | Refreshed each closeout (latest 3–5 entries) | Cross-runtime continuity. |
 | `PROME/SCRATCH.md` | Full rewrite each closeout | Ephemeral session state + next-session entry point. |
@@ -39,6 +41,7 @@ Core rule:
 | `PROME/STATUS.md` | Surgical at closeout | Operational status, work queue, agent/system health. |
 | `PROME/ACTIVE_DECISIONS.md` | Surgical when a decision moves | Non-terminal decision safety index. |
 | `PROME/FLEET_SCAN.md` | On-demand | Fleet/agent stale-state scan and ranked candidate moves. |
+| `KERNELS.md` | On-demand reference | Thesis-spine: compressed transmission map + durable system lessons (renamed from root `MEMORY.md` 6/30; not injected). |
 
 ---
 

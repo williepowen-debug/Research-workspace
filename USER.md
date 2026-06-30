@@ -6,14 +6,16 @@
 ---
 
 ## Purpose
-System exists to generate **actionable trade positioning** from public data. Falsifiable predictions, direct analysis, signal-before-consensus tracking. Income matters — not academic exercise.
+System exists to generate **actionable trade positioning** from public data. Falsifiable predictions, direct analysis, signal-before-consensus tracking. Actionable over academic — outputs must be usable, not theoretical.
+
+It is also a working case study in **AI-augmented research** — a multi-agent operation Will architects and runs as proof-of-work for an AI-native research/operations practice. Trading is the testbed; the method is the point.
 
 ## Communication & Style
 
-- Telegram for research. Audio briefings while walking (5-10 min).
+- Telegram for research. Likes absorbing information by listening — audio briefings are a good option to offer (latent preference, currently dormant).
 - Direct analysis, no hedging. Epistemic humility: "working model, not truth."
 - Values brutal honesty over reassurance. Probabilistic thinking.
-- Early riser (~6 AM ET). Approves proposals via inline buttons.
+- Early riser (~6 AM ET). Approves proposals explicitly (in-session or via Telegram) — never assume approval.
 - Comfortable with autonomous ops. Permission to edit USER.md, LESSONS.md, MEMORY.md without asking.
 - Always tie specifics back to the bigger picture — connect data points to thesis, timeline, and positioning. Make the link explicit.
 - Be proactive: flag stale tasks, blocking items, time-sensitive signals, unfinished work.
@@ -34,8 +36,12 @@ System exists to generate **actionable trade positioning** from public data. Fal
 - Will's edge is narrative-level synthesis across domains: he can often detect the causal story before agents formalize it. Do not override this with generic probabilistic hedging unless the thesis itself is broken.
 - Story is compression, not simplification. Make mechanisms intuitive and causal without dumbing them down.
 - Attention is a scarce resource. Bad outputs are not just wrong; they consume direction, focus, and decision bandwidth.
-- Income pressure is real: research should respect runway, opportunity cost, and trade/monetization relevance. Avoid academic rabbit holes unless they plausibly create edge or proof-of-work.
+- Opportunity cost is real: research should respect time, focus, and relevance to edge. Avoid academic rabbit holes unless they plausibly create edge or proof-of-work.
 - Autonomy model: bold internally, cautious externally, no trade execution without approval. Mid-session ideas should usually be captured first, not executed immediately.
-- The system itself is also proof-of-work for a possible AI-native research/operations career path, not only a trading tool.
+- Because the system is also career proof-of-work, the bar on rigor, calibration, and presentation is higher than a private tool would require.
 
-*Background & journey → `WILL/BACKGROUND.md` | Agent roster → `AGENTS_DIRECTORY.md`*
+## Background
+
+Will comes to markets from a **literature background** — a narrative thinker who frames systems as stories and transmission chains. Largely self-directed across trading, systems design, and AI orchestration, he built and runs this multi-agent research operation as both a trading edge and proof-of-work toward an AI-native research/operations practice.
+
+*Agent roster → `AGENTS_DIRECTORY.md`*

@@ -121,7 +121,7 @@ Cross-runtime Prome continuity role. Light skips unless future Prome state mater
 
 ### `memory/YYYY-MM-DD.md` — daily session log
 
-Per `BOOT.md` doc-ownership: daily session detail goes here, not in root `MEMORY.md`.
+Per `BOOT.md` doc-ownership: daily session detail goes here, not in root `KERNELS.md` (the thesis-spine reference).
 - Create if doesn't exist for today
 - Bullet log: what was done, files changed, prototypes tested, key decisions
 - Append (don't overwrite) if multiple sessions land on the same date

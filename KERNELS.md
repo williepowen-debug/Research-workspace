@@ -1,8 +1,10 @@
-# MEMORY — Durable Kernels
+# Durable Kernels
 
-**Last Updated:** 2026-06-21
+*Thesis-spine reference — the compressed transmission map + durable system lessons. Consulted on demand; **not** auto-injected. Distinct from the off-repo auto-memory index (`~/.claude/.../memory/MEMORY.md`, which holds operating lessons). Renamed from `MEMORY.md` 2026-06-30 to end the name collision.*
 
-**Positions → `PROME/POSITIONS.md`** | **Agent roster → `AGENTS_DIRECTORY.md` / `AGENTS.md`** | **Background → `WILL/BACKGROUND.md`**
+**Last Updated:** 2026-06-30
+
+**Positions → off-repo (Will/broker direct); structured mirror `FORGE/STATUS.md`** | **Agent roster → `AGENTS_DIRECTORY.md` / `AGENTS.md`** | **Background → `USER.md`**
 **Pre-prune archive:** `memory/archive/MEMORY_ROOT_PRE_PRUNE_2026-06-14.md`
 
 ---
@@ -42,11 +44,11 @@
 *Operating procedures live in `PROME/BOOT.md` / `PROME/CLOSEOUT.md`; tool details live in each tool's `README.md` (`FORGE/tools/…`). Only durable lessons below.*
 
 - **Persistent Agents — Do Not Spawn** — Persistent agents have their own workflows; do not casually spawn replacements. Use `AGENTS.md` as the current source for spawn restrictions and roster. → `AGENTS.md`
-- **Real Agent-Work Surface Is Claude Code** — Domain-agent work mostly happens in desktop/laptop Claude Code; VPS/OpenClaw is Prome’s Telegram orchestration layer. WALTER/file deliveries must be committed/pushed before Claude Code agents can see them.
-- **Claude Subscription Economics Govern Architecture** — Flat-rate Claude Code is the economic default for Claude-grade work; metered Anthropic API on VPS is technically possible but wrong by default. Treat VPS/OpenClaw as Codex/Prome orchestration unless Will changes the cost model.
+- **Real Agent-Work Surface Is Claude Code** — All agents run as Claude Code sessions on Will’s desktop sharing one git repo (the OpenClaw/VPS orchestration layer was cut 2026-06-26). WALTER/file deliveries must be committed/pushed before other agents’ sessions can see them.
+- **Claude Subscription Economics Govern Architecture** — Flat-rate Claude Code is the economic default for Claude-grade work; metered Anthropic API is the wrong default. (The VPS/OpenClaw orchestration this once justified was cut 2026-06-26 — single-machine Claude Code is the model now.)
 - **Agent Domain-Only Edit Standard** — Agents edit only inside their domain unless Will approves otherwise. Merge/push hygiene should default to domain-scoped pathspecs.
 - **Verify Agent-Reported Data Against Filings** — Agent-reported numbers can hallucinate; cross-check any trade-relevant data against primary filings/source documents before acting. → root `CLAUDE.md` Critical Rule #3
-- **News Sweep Exists, But Tools Own Details** — News monitoring is live; commands/config belong in the tools' READMEs (`FORGE/tools/…`), not root memory.
+- **Collection Lane Owns Data Intake** — Always-on collection runs in the RESEARCH-INTAKE repo (GitHub Actions, 6 feeds, weekday-daily); agents read it read-only. The old local news-sweep cron died with the VPS. Tool/config details live with the lane, not here.
 - **Dealer Capacity Nonlinearity** — Treasury clearing can turn nonlinear under dealer constraints; SLR/eSLR policy may be decisive. Use source research for current numbers. → `FORGE/timing/research/DEALER_CAPACITY_RESPONSE_1B_PERPLEXITY.md`
 - **Domain Audits via Cold Subagent Are High Value** — A cold-boot agent reading a full domain catches staleness, orphan files, and evidence gaps the daily operator misses.
 - **Three-Source Convergence Method** — Use Perplexity + Claude + Gemini/deep research when warranted; weight methodology and primary-source citations over confidence tone.

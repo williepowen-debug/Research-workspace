@@ -24,7 +24,7 @@ Prome’s work spans **Will-facing coordination** (synthesis, approvals, decisio
 ## Boot Sequence
 
 1. Read root `CLAUDE.md` for repo-wide Claude Code rules.
-2. Read `AGENTS.md`, `SOUL.md`, and `USER.md` if available in context or files.
+2. **Read `USER.md`** at boot — Will's operator model (explicit read; NOT auto-injected). Read `AGENTS.md` when roster/routing is relevant. *(`SOUL.md` no longer exists — deleted in the 2026-06-30 cleanup.)*
 3. Read:
    - `PROME/BOOT.md`
    - `PROME/SYSTEM.md`

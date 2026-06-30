@@ -2,7 +2,7 @@
 
 **Goal:** become operational fast without loading manuals.
 
-**Injected context:** `AGENTS.md`, `SOUL.md`, `USER.md`, and auto-memory `MEMORY.md` are auto-loaded in main sessions; workspace context may also include `IDENTITY.md`. **Do not re-read these genuinely-injected files unless debugging drift.**
+**Auto-loaded context (Claude Code):** only the `CLAUDE.md` files (root + `PROME/`, plus any `~/.claude/CLAUDE.md`) and the auto-memory `MEMORY.md` are genuinely auto-injected each session — don't re-read *those* unless debugging drift. **`AGENTS.md` and `USER.md` are NOT auto-loaded** (OpenClaw vestige — confirm by their absence from fresh boot context); `Read` them explicitly when a task needs them. (`SOUL.md` + `IDENTITY.md` no longer exist — deleted root-level in the 2026-06-30 public-prep cleanup.)
 
 > ⚠️ **`HEARTBEAT.md` is NOT auto-injected in Claude Code** (that was the OpenClaw always-on model — the line that used to claim it is removed). It is a **PROME-facing regime memo** that PROME must explicitly `Read` at boot (step 6). Don't assume it's already in context. Domain agents do not read it.
 
@@ -50,7 +50,8 @@ If the same fact appears in two docs, put it in the owner doc and reference it e
 | `PROME/ACTIVE_DECISIONS.md` | Non-terminal decision safety index. |
 | `PROME/STATUS.md` | Agent/system health, work queue, quality notes. |
 | `HEARTBEAT.md` *(PROME-facing regime memo; explicit-read, NOT injected)* | PROME's own regime / thresholds / near-gates orientation. PROME writes + reads it; domain agents do not. |
-| `MEMORY.md` *(injected)* | Curated durable insights and system lessons. |
+| `KERNELS.md` *(thesis-spine reference; explicit-read, NOT injected — renamed from root `MEMORY.md` 6/30)* | Compressed thesis/transmission map + durable system lessons. Consult on demand. |
+| auto-memory `MEMORY.md` *(genuinely injected — off-repo `~/.claude/.../memory/`)* | Curated operating lessons / findings / feedback index. |
 | `memory/YYYY-MM-DD.md` | Daily session log; activity detail, not root-memory insight. |
 
 Everything else is on-demand.
