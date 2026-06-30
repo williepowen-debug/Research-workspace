@@ -1,5 +1,0 @@
-## 2026-04-05 — To: LIQUID
-**Signal:** Life insurer hedge ratio collapse + Norinchukin CLO shrinkage — new repatriation data
-**Detail:** New research reveals nine major life insurers' hedge ratio fell to 44.4% (Mar 2025) — 14-year low. ~55% of foreign bonds ($370-550B) are UNHEDGED with avg FX entry USD/JPY 135-145. Critical forced-selling threshold: USD/JPY <130-135. Separately, Norinchukin (world's largest CLO investor, ¥9.7T/$65B AAA CLOs) reduced ¥500B in Q1 2026 — "fastest decline on record." Japan total UST holdings: $1,185.5B (Dec 2025). Total institutional foreign portfolio subject to repatriation: ~$3.0-3.5T. GPIF is NOT a forced-selling risk (±6-7% deviation bands, rebalances by buying foreign assets on yen appreciation). Key near-term catalysts: BOJ Apr 23-24 (hike live), Norinchukin FY2025 results (May-Jun), Big 4 insurer FY2026 plans (Apr 7-14). Full research attached as reference: Norinchukin CLO contagion chain analysis.
-**Source:** Norinchukin CLO research package (Apr 2026), cross-referenced with BOJ Financial System Report, GPIF allocation data
-**Priority:** 🟠
