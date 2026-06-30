@@ -12,7 +12,7 @@
 - **WALTER/fleet Telegram UNAFFECTED** — live tokens are off-repo (`~/.claude/channels/telegram-*`), never in repo; scrub only edited 7 `.md` docs.
 
 ## ⭐ REMAINING for going public
-1. **Will flips repo → Public** (GitHub Settings → Visibility). Nothing else gates it. *(Accepted Landing-A residue: GitHub may keep old commits reachable only by exact 40-char SHA until its GC — harmless, repo never public, secrets dead.)*
+1. **Will flips repo → Public** (GitHub Settings → Visibility). **Will reviewed the scrubbed repo 6/30 PM-2 = "looks right"; deliberately deferring the flip (his timing).** This is a DELIBERATE WAIT, not an open task — do not nag. Nothing else gates it. *(Accepted Landing-A residue: GitHub may keep old commits reachable only by exact 40-char SHA until its GC — harmless, repo never public, secrets dead.)*
 2. After Will confirms public looks right → delete the mirror backup `~/Research-workspace-PRESCRUB-BACKUP-20260630.git` (the rollback net).
 
 ## Also pending (lower)
