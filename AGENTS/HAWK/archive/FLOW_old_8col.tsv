@@ -1,9 +1,0 @@
-ID	FROM	TO	MECHANISM	SPEED	CURRENT_STATE	EVIDENCE	UPDATED
-FLOW-HAWK-01	Hormuz Closure	Oil Price	Supply disruption → spot price	Immediate	🔴 ACTIVE — Brent $90	Kuwait/Qatar curtailing, storage filling	2026-03-06
-FLOW-HAWK-02	Oil Price	Consumer (CARL)	Pump prices lag 2-3 weeks	2-3 weeks	🔴 Brent >$85 threshold breached	Gas prices will follow with lag	2026-03-06
-FLOW-HAWK-03	Oil Price	Japan (SAM)	90% ME oil dependency → JPY/trade balance	1-2 weeks	🔴 Activated	Nikkei -6.5%, carry unwind	2026-03-06
-FLOW-HAWK-04	War Escalation	VIX (HENRY)	Risk-off → vol regime shift	Immediate	🔴 ACTIVE	Sustained elevated vol	2026-03-01
-FLOW-HAWK-05	War Escalation	Credit (LIQUID)	Flight to safety + HY widening	Days	🟠 In progress	HY OAS moving toward 320	2026-03-01
-FLOW-HAWK-06	Gulf Production Shutdown	Global Supply	Storage full → wells shut → slow restart	Weeks-months	🔴 NEW — Kuwait/Qatar curtailing	Storage crisis emerging	2026-03-06
-FLOW-HAWK-07	Shadow Fleet Disruption	Russian Revenue	Seizures + enforcement → export decline	Months	🟠 20% fleet halted	$5.1B Jan revenue (-50% YoY)	2026-02-19
-FLOW-HAWK-08	Ukraine Refinery Campaign	Russian Products	Refinery hits → product shortage, crude export up	Weeks	🟠 38% capacity hit	Russia banned gasoline exports	2026-03-01
