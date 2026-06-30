@@ -27,7 +27,7 @@ Coordination is file-based. Write to `AGENTS/<NAME>/outbox/` to request Prome ac
 *CORAL (Florida) spun out from REGINALD on 2026-06-19 (promoted from REGINALD/sub-agents/CORAL/ to AGENTS/CORAL/ as a peer agent). CORAL is the comprehensive whole-Florida agent (real estate, insurance, FL banks, migration, tourism, state fiscal/property-tax, labor, coastal/climate — 10 pillars; see AGENTS/CORAL/COVERAGE.md). Overlap with MARCO on FL migration/tourism is intentional — reconcile shared metrics to one number, don't silo. Florida is a top-priority geography for Will.*
 *AEOLUS (climate → economy) built + wired by DAEDALUS 2026-06-28 — macro climate owner scoped channels-first (insurance, ag/food, energy demand) on a tiered weather/structural horizon (spec: `AGENTS/DAEDALUS/builds/AEOLUS_SPEC.md`). CORAL keeps Florida climate/coastal; reconcile FL numbers to one figure, don't silo (same pattern as CORAL/MARCO).*
 
-Agent state lives at `AGENTS/<NAME>/STATUS.md`. Position truth: live book = `WILL/trading-journal/` (broker photos); `FORGE/STATUS.md` + `FORGE/PORTFOLIO.md` = the structured mirror (broker-export refreshed, currently stale); trade construction = TERRY.
+Agent state lives at `AGENTS/<NAME>/STATUS.md`. Position truth is **off-repo** (Will/broker direct — the on-repo `WILL/trading-journal/` photos were removed in the 2026-06 public-prep cleanup); `FORGE/STATUS.md` + `FORGE/PORTFOLIO.md` = the structured mirror (broker-export refreshed, currently stale); trade construction = TERRY.
 
 ## Critical Rules
 
@@ -53,7 +53,6 @@ Agent state lives at `AGENTS/<NAME>/STATUS.md`. Position truth: live book = `WIL
 | FORGE/tools/market-data/ | Live data CLI: `python3 fetch.py price KRE`, `python3 dashboard.py` |
 | memory/ | Daily session notes (YYYY-MM-DD.md) |
 | PROME/ | Coordinator state (SCRATCH, STATUS, FLEET_SCAN, ORCHESTRAL_LAYER_DESIGN, AUTONOMY) |
-| WILL/ | Will's journal, ideas, trading journal |
 | docs/ | AUTO_MEMORY.md (auto-memory git-sync system) |
 
 ## Git Protocol
