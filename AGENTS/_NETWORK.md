@@ -2,7 +2,7 @@
 
 **Purpose:** canonical topology for agent transmission, synthesis, and routing.
 
-**Status:** live map source. Historical visual maps live in `PROME/archive/agent_network.*`. The main dashboard network tab should mirror this structure; do not maintain separate live topologies.
+**Status:** live map source. Historical visual maps live in `PROME/archive/agent_network.*`. Do not maintain separate live topologies.
 
 ## Core model
 
@@ -158,4 +158,3 @@ flowchart LR
 - `AGENTS/_INDEX.md` owns grouped directory navigation.
 - This file owns the live topology map.
 - `AGENTS_DIRECTORY.md` owns runtime architecture and operational notes.
-- `dashboard/index.html` should mirror this map visually; `dashboard/network.html` is a pointer, not a separate source.

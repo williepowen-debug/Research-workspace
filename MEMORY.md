@@ -39,14 +39,14 @@
 
 ## SYSTEM ARCHITECTURE
 
-*Operating procedures live in `PROME/BOOT.md` / `PROME/CLOSEOUT.md`; tool details live in `TOOLS.md`. Only durable lessons below.*
+*Operating procedures live in `PROME/BOOT.md` / `PROME/CLOSEOUT.md`; tool details live in each tool's `README.md` (`FORGE/tools/…`). Only durable lessons below.*
 
 - **Persistent Agents — Do Not Spawn** — Persistent agents have their own workflows; do not casually spawn replacements. Use `AGENTS.md` as the current source for spawn restrictions and roster. → `AGENTS.md`
 - **Real Agent-Work Surface Is Claude Code** — Domain-agent work mostly happens in desktop/laptop Claude Code; VPS/OpenClaw is Prome’s Telegram orchestration layer. WALTER/file deliveries must be committed/pushed before Claude Code agents can see them.
 - **Claude Subscription Economics Govern Architecture** — Flat-rate Claude Code is the economic default for Claude-grade work; metered Anthropic API on VPS is technically possible but wrong by default. Treat VPS/OpenClaw as Codex/Prome orchestration unless Will changes the cost model.
 - **Agent Domain-Only Edit Standard** — Agents edit only inside their domain unless Will approves otherwise. Merge/push hygiene should default to domain-scoped pathspecs.
 - **Verify Agent-Reported Data Against Filings** — Agent-reported numbers can hallucinate; cross-check any trade-relevant data against primary filings/source documents before acting. → root `CLAUDE.md` Critical Rule #3
-- **News Sweep Exists, But Tools Own Details** — News monitoring is live; commands/config belong in `TOOLS.md` and `FORGE/tools/news-sweep/`, not root memory.
+- **News Sweep Exists, But Tools Own Details** — News monitoring is live; commands/config belong in the tools' READMEs (`FORGE/tools/…`), not root memory.
 - **Dealer Capacity Nonlinearity** — Treasury clearing can turn nonlinear under dealer constraints; SLR/eSLR policy may be decisive. Use source research for current numbers. → `FORGE/timing/research/DEALER_CAPACITY_RESPONSE_1B_PERPLEXITY.md`
 - **Domain Audits via Cold Subagent Are High Value** — A cold-boot agent reading a full domain catches staleness, orphan files, and evidence gaps the daily operator misses.
 - **Three-Source Convergence Method** — Use Perplexity + Claude + Gemini/deep research when warranted; weight methodology and primary-source citations over confidence tone.

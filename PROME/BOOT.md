@@ -2,7 +2,7 @@
 
 **Goal:** become operational fast without loading manuals.
 
-**Injected context:** `AGENTS.md`, `SOUL.md`, `USER.md`, and auto-memory `MEMORY.md` are auto-loaded in main sessions; workspace context may also include `TOOLS.md` / `IDENTITY.md`. **Do not re-read these genuinely-injected files unless debugging drift.**
+**Injected context:** `AGENTS.md`, `SOUL.md`, `USER.md`, and auto-memory `MEMORY.md` are auto-loaded in main sessions; workspace context may also include `IDENTITY.md`. **Do not re-read these genuinely-injected files unless debugging drift.**
 
 > ⚠️ **`HEARTBEAT.md` is NOT auto-injected in Claude Code** (that was the OpenClaw always-on model — the line that used to claim it is removed). It is a **PROME-facing regime memo** that PROME must explicitly `Read` at boot (step 6). Don't assume it's already in context. Domain agents do not read it.
 
@@ -91,7 +91,7 @@ Everything else is on-demand.
 
 | Need | Read / Use |
 |---|---|
-| Market prices / dashboard | Use injected `TOOLS.md` if present; otherwise read `FORGE/tools/market-data/README.md`. Run `dashboard.py` / `fetch.py` before citing levels. |
+| Market prices / dashboard | Read `FORGE/tools/market-data/README.md`. Run `dashboard.py` / `fetch.py` before citing levels. |
 | News routing / data feeds | Always-on collection now runs in the **RESEARCH-INTAKE** repo (GitHub Actions; `[[project_research_intake_collection_lane]]`). The local `FORGE/tools/news-sweep/sweep.py` cron is dead (cut VPS) — its fetch/classify logic is revived in the lane. Boot-*read* the lane only once the consumer side is wired; until then, `sweep.py` is for editing the entity index only. |
 | Fleet scan / ranking | `PROME/FLEET_SCAN.md`, `PROME/ORCHESTRAL_LAYER_DESIGN.md` |
 | Agent roster / classification | `PROME/ROSTER.md` — verified Active/Tier-2/Dormant/Retired + commit-activity evidence (refresh by re-running the activity map; `[[finding_verify_roster_by_commit_activity]]`) |

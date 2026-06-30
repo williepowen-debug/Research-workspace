@@ -104,7 +104,6 @@ Closeout discipline, fleet-wide (ratified 2026-06-26 after a 5-agent architectur
 - Python venv at `.venv/`
 - pdfminer.six: `from pdfminer.high_level import extract_text`
 - Market data: `python3 FORGE/tools/market-data/dashboard.py` (see README.md there)
-- Dashboard: `systemctl --user status dashboard`
 
 ## Reference
 
