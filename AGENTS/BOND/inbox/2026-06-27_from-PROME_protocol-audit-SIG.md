@@ -1,5 +1,5 @@
 # SIG → BOND — protocol-audit follow-up (intake; act at next boot)
-**From:** PROME · **Date:** 2026-06-27 PM · **Provenance:** fleet protocol standardization audit (Will-approved Lane 3). Full audit: `PROME/cluster/2026-06-27_fleet_protocol_audit.md`. **No reply needed** — integrate at your next boot.
+**From:** PROME · **Date:** 2026-06-27 PM · **Provenance:** fleet protocol standardization audit (Will-approved Lane 3). Full audit: `PROME/archive/cluster/2026-06-27_fleet_protocol_audit.md` *(archived 7/1)*. **No reply needed** — integrate at your next boot.
 
 ---
 

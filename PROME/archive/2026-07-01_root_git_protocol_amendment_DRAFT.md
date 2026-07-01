@@ -1,5 +1,5 @@
 # DRAFT — Root CLAUDE.md Git Protocol amendment (serial multi-machine + git-cwd canon)
-**Author:** PROME 2026-07-01 · **Status:** DRAFT — awaiting Will review (root `CLAUDE.md` is Will-gated). Task 2 of the 7/1 machine-protocol package.
+**Author:** PROME 2026-07-01 · **Status:** LANDED 2026-07-01 (Will-approved) — all three edits live in root `CLAUDE.md` via `dc2a0242`; follow-on mirror sweep complete. Archived 2026-07-01 (applied draft; retained for before/after wording provenance). Task 2 of the 7/1 machine-protocol package.
 
 **What this fixes:** (1) the protocol's "single-machine operation" premise is stale — Will runs desktop ⇄ laptop serially (one at a time, close-out-push before switching), so a non-ff abort is usually *routine*, not a tripwire; (2) the git recipes assume repo-root cwd, and from an agent's own-dir launch cwd the mandatory pre-commit guard `git status -- AGENTS/<NAME>/` **silently false-passes** (pathspecs are cwd-relative) — found by the 7/1 18-reader audit across ~12 agent docs that mirror root canon.
 
