@@ -15,31 +15,33 @@ NEXUS synthesizes across all chains. MARCO feeds immigration/labor supply into L
 
 Grouped directory views live in `AGENTS/_INDEX.md`; the canonical topology map lives in `AGENTS/_NETWORK.md`. Canonical agent paths remain flat as `AGENTS/<NAME>/` to avoid breaking existing scripts, docs, and Claude Code workflows.
 
-| Agent | Domain | Chain | Spawn? |
-|-------|--------|-------|--------|
-| LABOR | Employment, claims | Credit | ❌ Persistent (Telegram) |
-| CARL | Consumer credit, housing | Credit | ❌ Persistent (Claude Code/Telegram) |
-| REGINALD | Regional banks (OZK, WAL) | Credit | ❌ Persistent (Claude Code/Telegram) |
-| CORAL | Florida real estate, insurance, FL banks, migration/tourism | Credit (geo convergence) | ❌ Persistent (Claude Code) |
-| CREED | National CRE / CMBS + public REIT equity tape | Credit (CRE→bank bridge) | ❌ Claude Code roster — explicit permission only |
-| HENRY | Market structure, econ data | Credit (velocity) | ✅ OK |
-| LIQUID | Funding, Treasury, spreads | All (amplification) | ❌ Persistent (Telegram) |
-| BOND | US bond market structure, auctions, issuance, CDX/cash | Credit + funding bridge | ✅ OK |
-| BROCK | BDC, private credit, CLOs | PC cascade | ❌ Persistent (Telegram) |
-| SHADE | PE-insurance-captive | PC cascade | ✅ OK |
-| SAM | Japan, BOJ, carry trade | Japan | ❌ Persistent (Claude Code/Telegram) |
-| HAWK | Geopolitical, military | Energy | ✅ OK |
-| BRENT | Oil, energy markets | Energy | ❌ Persistent (Telegram) |
-| RED | Adversarial analysis | All | ❌ Persistent (Claude Code/Telegram) |
-| MARCO | Migration, labor supply | Credit + Energy | ✅ OK |
-| ZHAO | China, capital flows | Japan + PC | ✅ OK |
-| OTTO | Auto, consumer DQ | Credit (→ CARL) | ✅ OK |
-| NEXUS | Cross-agent synthesis | All | ✅ OK |
-| ORACLE | Prediction markets | Utility | ✅ OK |
-| TERRY | Trade construction, chart/tape analysis, execution rails | Utility / trading desk | ✅ OK + Claude Code |
-| **VIOLET** | **VIX, vol term structure** | **Credit → Vol** | **✅ OK** |
-| **AEOLUS** | **Climate → economy (insurance, ag/food, energy demand)** | **Climate → {BRENT, CORAL, MARCO}** | **❌ Persistent (Claude Code)** |
-| **DAEDALUS** | **Fleet architect — design / structure / maturity / lifecycle** | **Meta / system** | **❌ Meta — on-demand (PROME/Will)** |
+**Run model (all agents):** every agent is a Claude Code session — launch it from its own dir (`cd AGENTS/<NAME> && claude`), or PROME spawns it via teams-mode when orchestrating (mode-split rule → `PROME/ORCHESTRATION_PLAYBOOK.md`). Live vs Tier-2 vs dormant classification → `PROME/ROSTER.md` (single source of truth — dormant/retired agents do not launch unless Will revives). **Exceptions:** CREED = explicit-permission only; DAEDALUS = on-demand meta-agent (PROME/Will). *(The old per-agent "Spawn?" column — OpenClaw-era "Persistent (Telegram)" framing — was retired 2026-07-01; the spawnable-vs-persistent split no longer exists.)*
+
+| Agent | Domain | Chain |
+|-------|--------|-------|
+| LABOR | Employment, claims | Credit |
+| CARL | Consumer credit, housing | Credit |
+| REGINALD | Regional banks (OZK, WAL) | Credit |
+| CORAL | Florida real estate, insurance, FL banks, migration/tourism | Credit (geo convergence) |
+| CREED | National CRE / CMBS + public REIT equity tape | Credit (CRE→bank bridge) |
+| HENRY | Market structure, econ data | Credit (velocity) |
+| LIQUID | Funding, Treasury, spreads | All (amplification) |
+| BOND | US bond market structure, auctions, issuance, CDX/cash | Credit + funding bridge |
+| BROCK | BDC, private credit, CLOs | PC cascade |
+| SHADE | PE-insurance-captive | PC cascade |
+| SAM | Japan, BOJ, carry trade | Japan |
+| HAWK | Geopolitical, military | Energy |
+| BRENT | Oil, energy markets | Energy |
+| RED | Adversarial analysis | All |
+| MARCO | Migration, labor supply | Credit + Energy |
+| ZHAO | China, capital flows | Japan + PC |
+| OTTO | Auto, consumer DQ | Credit (→ CARL) |
+| NEXUS | Cross-agent synthesis | All |
+| ORACLE | Prediction markets | Utility |
+| TERRY | Trade construction, chart/tape analysis, execution rails | Utility / trading desk |
+| **VIOLET** | **VIX, vol term structure** | **Credit → Vol** |
+| **AEOLUS** | **Climate → economy (insurance, ag/food, energy demand)** | **Climate → {BRENT, CORAL, MARCO}** |
+| **DAEDALUS** | **Fleet architect — design / structure / maturity / lifecycle** | **Meta / system** |
 
 ---
 
