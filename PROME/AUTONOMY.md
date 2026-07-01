@@ -1,34 +1,30 @@
 # AUTONOMY TIERS
 
-**Created:** 2026-03-25 · **Updated:** 2026-07-01 (git/commit/push autonomy explicitly ceded to root `CLAUDE.md` Git Protocol; OpenClaw-staleness flagged)
+**Created:** 2026-03-25 · **Updated:** 2026-07-01 PM (de-OpenClaw refresh executed — hygiene pass, Will-approved: stale TOSCANINI/OpenClaw capability examples replaced, dead pointers re-anchored, change log brought current; earlier 7/1: git/commit/push autonomy explicitly ceded to root `CLAUDE.md` Git Protocol)
 **Purpose:** What Prome can do without asking, what needs approval, and the gray zone.
 
-> **Git / commit / push autonomy is owned by root `CLAUDE.md` Git Protocol** (auto-push at closeout via ff-gated `safe-push.sh`; non-ff abort → flag Will), **not this doc** — don't re-add a git rule here. This file owns the *general* Tier 1/2/3 logic below.
-> ⚠️ **Partly OpenClaw-era (2026-03, pre-VPS-cutover).** Some capability examples are stale (e.g. Tier 1 "HERMES delivery via cron" — that cron died with the 2026-06-26 VPS cutover). Due for a de-OpenClaw refresh; treat the *tier logic* as sound but *individual capability examples* as verify-first.
+> **Git / commit / push autonomy is owned by root `CLAUDE.md` Git Protocol** (auto-push at closeout via ff-gated `safe-push.sh`; non-ff abort = **routine** under serial multi-machine — `git pull --rebase` + re-push, escalate only on simultaneous-use signatures), **not this doc** — don't re-add a git rule here. This file owns the *general* Tier 1/2/3 logic below.
+> *(The March-era OpenClaw staleness warning is retired — this file was de-OpenClaw refreshed 2026-07-01. Tier logic unchanged; capability examples now current.)*
 
 ---
 
 ## Tier 1 — FREE (no approval needed)
 
-These are internal actions that don't change thesis, don't touch positions, and don't go external.
+These are internal actions that don't change thesis, don't touch positions, don't edit other agents' files, and don't go external.
 
 - Read any file in the workspace
 - Search the web for public information
-- Update STATUS.md, SCRATCH.md, memory files
-- Process agent inboxes (route signals, update tracking)
-- Refresh stale agent STATUS files with current data
-- Log signals to KB.tsv entries
-- Run HERMES delivery (already automated via cron)
-- Fix errors, typos, stale data in any agent file
-- Archive resolved items from STATUS to workbook
-- Prune STATUS files under 250-line limit
+- Update Prome's own state: `PROME/` docs (STATUS, SCRATCH, HANDOFF, etc.) + `memory/YYYY-MM-DD.md` + auto-memory
+- Scan/triage to-PROME signals (`AGENTS/*/outbox/*to-PROME*` at boot) and Prome's own intake; route operational **task packets** to domain agents. *(WALTER owns signal/news routing; cross-agent **inbox** writes are exception-only, Will-authorized — `[[feedback_cross_agent_inbox_writes]]`.)*
+- **Flag** stale/erroneous content in another agent's files to its owner (SIG/packet) — *editing* another agent's files is Will-scoped per root canon, not Tier 1 *(March-era "fix any agent file" grant removed 7/1 — it contradicted the live "no agent domain edits unless scoped" constraint)*
+- Archive resolved Prome items to `PROME/archive/` (rotation discipline: HANDOFF, drafts, served-purpose reports)
 - Cross-reference and link existing research
 - **Build architecture required by in-progress work** (e.g., signal processing needs a folder → build it, don't stop to propose)
 - **Follow-up spawns within an already-approved workstream** (same direction, not new direction)
-- **AGENT OPS spawns** — inbox processing, KB updates, STATUS refreshes for any agent. 17/17 approvals across sessions proved this is autonomous-tier work. Report in Session Report, not individual proposals.
-- **Prome inbox triage** — reading, summarizing, and archiving Prome's own inbox. Housekeeping, not a proposal.
+- **Research/verification sub-agent spawns** (read-only fan-outs, verify passes, catch-up proxies) — report at closeout, not per-spawn
+- **Prome inbox triage** — reading, summarizing, and archiving Prome's own intake. Housekeeping, not a proposal.
 
-**Visibility rule (early phase):** Tier 1 work is done freely. Instead of individual FYI pings, Prome batches all Tier 1 actions into a **Session Report** delivered at session end (or on handoff). One summary of what was done in the background — keeps Will informed without cluttering Telegram mid-session. Exception: if a Tier 1 action surfaces something unexpected or thesis-relevant, flag it immediately.
+**Visibility rule:** Tier 1 work is done freely and batched into the **closeout synthesis** (HANDOFF/SCRATCH update + Will-facing summary) rather than individual mid-session FYI pings. Exception: if a Tier 1 action surfaces something unexpected or thesis-relevant, flag it immediately.
 
 ---
 
@@ -38,11 +34,11 @@ These change structure, create new work streams, or have cost implications.
 
 - **New research folders/architecture that are NOT required by in-progress work** (proactive structure changes)
 - **New agent spawn for research** (costs tokens, takes time)
-- **New tracking frameworks** (new TSVs, new monitoring protocols)
+- **New tracking frameworks** (new TSVs, new monitoring protocols — note the data-hygiene FROZEN/LIVE ledger rule in root `CLAUDE.md`)
 - **Protocol changes** (modifying how agents operate, new rules)
 - **Thesis-level conclusions** (upgrading/downgrading confidence, changing scenarios)
 - **Cross-agent signal routing** that changes an agent's priority or focus
-- **Refreshing agents that are 5+ signals behind** (big spawn, high cost)
+- **Reviving / catching-up stale agents** (revival packets, multi-agent catch-up spawns — high cost; `[[finding_revival_proxy_pattern]]`)
 
 ---
 
@@ -71,10 +67,11 @@ When unsure, ask yourself:
 
 ## Trust Evolution
 
-This doc should get MORE permissive over time. As patterns emerge in DECISIONS.md:
+This doc should get MORE permissive over time. As patterns emerge (in the Change Log below + HANDOFF / daily `memory/` records):
 - If Will approves the same type of proposal 5+ times → consider moving to Tier 1
 - If Will rejects a category consistently → note it here as "don't propose"
-- Review quarterly (or when it feels stale)
+- Review quarterly (or when it feels stale) — **last full review: 2026-07-01 (this refresh)**
+- **Behavior-changing grants/revokes also propagate to the auto-loaded `PROME/CLAUDE.md` Ask-First section** (that's what's actually read every boot) — log here, mirror there.
 
 **Trust goes both ways.** Track demotions too — if Prome screws up a Tier 1 action and it should've been Tier 2, log it. Accountability builds trust faster than optimism.
 
@@ -85,5 +82,10 @@ This doc should get MORE permissive over time. As patterns emerge in DECISIONS.m
 | 2026-03-25 | Mid-flow architecture → Tier 1 | ⬆️ Promotion | Stopping to propose kills momentum during signal processing |
 | 2026-03-25 | Follow-up spawns (same workstream) → Tier 1 | ⬆️ Promotion | Pre-authorized by design — new direction still Tier 2 |
 | 2026-03-25 | Tier 1 FYI receipts (early phase) | 📋 Process | Over-communicate until trust calibrates |
-| 2026-03-26 | AGENT OPS spawns → Tier 1 | ⬆️ Promotion | 17/17 approvals across 2 sessions. Zero rejections. Report in Session Report. |
-| 2026-03-26 | Prome inbox triage → Tier 1 | ⬆️ Promotion | Housekeeping, not proposal-worthy. Most signals already consumed by owning agents. |
+| 2026-03-26 | AGENT OPS spawns → Tier 1 | ⬆️ Promotion | 17/17 approvals across 2 sessions. Zero rejections. |
+| 2026-03-26 | Prome inbox triage → Tier 1 | ⬆️ Promotion | Housekeeping, not proposal-worthy. |
+| 2026-06-26 | Signal/news routing → **WALTER-owned** (Quick-WALTER retired) | ➡️ Ownership move | WALTER owns ingest/filter/dedupe/route; Prome = operational tasking + Will-facing synthesis |
+| 2026-06-26 | Commit-local + **auto-push at closeout** → root `CLAUDE.md` Git Protocol | ⬆️ Promotion | Will-approved after soak; push-train automated (`safe-push.sh`, ff-gated) |
+| 2026-07-01 | Non-ff push abort = **routine rebase** (serial multi-machine amendment) | ⬆️ Promotion | Root Git Protocol amendment, Will-approved — was "stop, flag Will" |
+| 2026-07-01 | Tier-1 "refresh/fix any agent file" grant **removed** | ⬇️ Demotion | March grant contradicted the live "no agent domain edits unless scoped by Will" constraint; flag-to-owner replaces it |
+| 2026-07-01 | De-OpenClaw refresh (HERMES cron, KB.tsv logging, 250-line prune, Session Report → retired/replaced) | 📋 Process | 24-file PROME .md audit (Will-approved hygiene pass); mechanisms without live substrate removed |
