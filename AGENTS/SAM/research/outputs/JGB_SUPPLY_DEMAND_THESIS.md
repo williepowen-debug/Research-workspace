@@ -8,7 +8,7 @@
 
 ## PUNCHLINE
 
-Japan's market for super-long JGBs (30Y/40Y) has structurally lost its buyer, and — unlike a normal market — **no yield near current levels brings it back.** The traditional anchor (life insurers) is now buffer-conditional under the J-ICS solvency regime and is already net-*selling*; there is **no buyer cushion** and a **self-reinforcing *seller* trigger at 30Y ~4.5%** (impairment-driven forced selling); the BOJ has signaled it will **let a gradual move run** (cap only a disorderly spike). The result is a structurally one-way path toward higher long-end yields / a steeper curve — a **grind, with a possible acceleration zone through 4.5%**, the violent tail BOJ-truncated. Live (MOF): 10Y **2.644%** (Jun-29 pub) / 30Y **~3.76%** / 40Y **~3.69%** (Jun-26 pub).
+Japan's market for super-long JGBs (30Y/40Y) has structurally lost its buyer, and — unlike a normal market — **no yield near current levels brings it back.** The traditional anchor (life insurers) is now buffer-conditional under the J-ICS solvency regime and is already net-*selling*; there is **no buyer cushion** and a **self-reinforcing *seller* trigger at 30Y ~4.5%** (impairment-driven forced selling); the BOJ has signaled it will **let a gradual move run** (cap only a disorderly spike). The result is a structurally one-way path toward higher long-end yields / a steeper curve — a **grind, with a possible acceleration zone through 4.5%**, the violent tail BOJ-truncated. Live (MOF Jun-30 pub): 10Y **2.690%** / 30Y **3.873%** (bear-steepening, +11bp over 2 pubs, ~13bp below 4.0%) / 40Y **3.792%** — front end anchored (2Y 1.382, −3bp; Jun-30 2Y auction BTC 4.82x strong).
 
 It's a **mechanism/curve** thesis (the demand vacuum + the 4.5% reflexivity), deliberately NOT a "30Y hits X by date" threshold bet — SAM-26 already failed that trap ([[finding_threshold_vs_mechanism]]).
 
@@ -87,6 +87,35 @@ No clean US-retail vehicle for "long-end JGB yields rise / curve steepens": no U
 1. **→ BOND (primary):** a demand-vacuum long-end blowout in the world's 2nd-biggest govvie market is a global-term-premium input — does it transmit to US term premium / the bear-steepener BOND tracks?
 2. **→ LIQUID (conditional):** the lifer→UST repatriation channel is currently DORMANT on SAM's side (Channel 1 RETIRED — 4-of-4 grew US credit; MOF weekly net-buying). Re-arms only on a *direct foreign-SALES* print or disorderly forced selling. Do NOT double-count Pillar 2 (DOMESTIC) under a Channel-1 label.
 3. **→ SAM's own book (the payoff):** the **disorderly** version (forced lifer selling at 30Y 4.5% + BOJ losing grip) is a fiscal-dominance shock that historically forces a violent yen repricing (JGB stress → risk-off → carry unwind). So **30Y JGB 4.5% (disorderly) is now a named entry-trigger for the carry-convexity-tail / long-JPY-vol position** (the only *Will-tradeable* expression of "the Japan long-end breaks"). #1 tells us *what* breaks Japan; #2 is *how you'd own it*.
+
+---
+
+## US-TRANSMISSION MAP (2026-07-01) — answers the → BOND question
+
+**Method:** live US levels + BOND/LIQUID/HENRY state pulled 2026-07-01 (multi-agent gather + adversarial synthesis). The peer reads are their *pre-existing* framing — none has processed SAM's Jun-30 signal yet (see § INTEGRATION).
+
+**Headline:** the demand-vacuum transmits to the US **diffusely, via correlated global term premium — NOT via repatriation** (Japan is a net UST *buyer*). Both generalist reflexes — "Japan dumps USTs" and "imminent carry crash" — are wrong right now, and the one mechanically-live Japan→US channel has the *opposite* (risk-positive) sign. Live: US 30Y **4.96%** (near cycle highs) drifting UP *with* JGB 30Y, the US curve itself mildly bear-steepening (~50bp) — but on a *shared* driver, so Japan is a co-symptom, not the vector. Tape calm (VIX 16, MOVE ~68, S&P near highs).
+
+| Channel | Status | Read (2026-07-01) |
+|---|---|---|
+| **A. Repatriation** (Japan sells USTs → buy JGBs) | **DORMANT** | Not transmitting. Vacuum is domestic / super-long-specific; doesn't force UST sales. TIC-April: Japan *added* USTs; MOF weekly net-buying; 4/4 institutions grew US credit. BOND + LIQUID independently corroborate. Re-arms only on a *direct foreign-SALES* print. |
+| **B. Term premium / global long-end** (BOND) | **DIFFUSE→correlated** | The real live channel — but via a shared factor (fiscal supply + sticky inflation), not a Japan→US push. US 30Y 4.96% co-moving up; lands on *softer* US ground than "anchored" implies: NY Fed ACM 10Y term premium **+0.73%** (positive 1st time since 2023), secular auction-BTC decay to ~2.5x, dealer 11-21Y inventory at an ATH (thin backstop). |
+| **C. Carry unwind → risk-off/VIX** (HENRY, Aug-2024) | **TAIL** | Not arming — MOVE 68, VIX 16, haven decoupled (risk-off→USD not yen since Jun-11). Needs a *disorderly* break (BOJ-truncated) AND a yen re-couple. |
+| **D. Capital export** (weak yen → Japan funds US assets) | **LIVE** | The only mechanically-live flow, and RISK-POSITIVE: wide differential + 40-yr-low yen = carry intact = Japan exports capital into US risk/credit = mild tailwind. |
+
+**Counterintuitive core:** the one thing genuinely co-moving (US 30Y up with JGB 30Y) is NOT Japan causing the US — it's the same global term-premium disease in both. Japan is a *symptom*, not the transmission vector. The subtle real danger sits where the generalist isn't looking: because the two long ends now share that driver, a *disorderly* JGB super-long break could drag the US long end up **via correlation alone, no repatriation flow needed**, onto demonstrably softer US ground.
+
+**Where the benign read is fragile (adversarial):**
+1. **Repatriation-dormancy shares the CONTESTED J-ICS sign (CH-010).** If RED's economic-value read is right (higher yields → duration-gap-closing lifer BUYING of JGBs), a high enough 30Y *could* pull the bid home — which IS repatriation re-arming (funded by trimming US holdings). So A isn't "dormant forever"; it's "dormant unless the 4.5% mechanism resolves toward buying."
+2. **Correlation TIGHTENS in stress.** In calm, B is diffuse; a failed JGB 30Y/40Y auction is a global "the marginal long-end buyer is gone everywhere" risk-sentiment trigger — correlations → 1 at the tail.
+3. **The carry tail is less de-fanged for a JGB-SOURCED trigger.** The haven-decoupling protects against *US-sourced* risk-off; a JGB-sourced disorderly break strengthens the yen *directly* (funding-leg blowup / short-cover), bypassing the haven-routing question.
+4. **D is the fuel for C (reflexive).** The bigger the exported-capital stock (D, calm state), the more violent the unwind (C, stress state) — the tailwind IS the tail risk's fuel.
+
+**What to watch (US-side tells transmission is turning on):** US 30Y >5.00% / 10Y >4.60% (BOND re-arm gates) · MOVE >80 (orderly→disorderly) · DFII10 → 2.5% (real-rate-led = term-premium not inflation) · JPY-up + DXY-down + SPX-down triad (yen-haven re-couple / carry ignition) · VIX >23 with a yen spike (Aug-2024 template live) · a direct MOF/TIC foreign-SALES print (the ONLY re-arm for A).
+
+**INTEGRATION status (2026-07-01):** SAM's Jun-30 signals sit UNPROCESSED in BOND/LIQUID/HENRY inboxes; all three STATUS files predate them. So the peer corroboration above = convergent priors, not confirmed integration. **BOND (primary) has not yet evaluated the JGB→term-premium question** — and BOND's own state shows a US that's *more* term-premium-sensitive than its "expensive, not broken" headline. Sharpened question for BOND when it boots: *does a disorderly JGB super-long break transmit to the US long end via correlated term premium, given ACM just turned positive and the dealer backstop is thin?*
+
+**Live US levels (2026-07-01, fetch.py + web):** US 10Y ~4.46% · US 30Y 4.96% · US 5Y 4.21% · VIX 16.09 · MOVE ~68 · DXY 101.34 · S&P 7,517.82. (vs JGB 10Y 2.690 / 30Y 3.873.)
 
 ---
 

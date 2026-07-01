@@ -1,6 +1,6 @@
 # SAM TIMELINE
 
-**Last Updated:** 2026-06-30 (added the Jun 22-30 confirmatory cluster — v1.6 finalize / SoO / Tokyo CPI / CFTC first cover / position FLAT / Sato seated / JGB demand-vacuum thesis executed). Prior 2026-06-22: backfilled the post-Jun-16 resolved sequence (FOMC Jun-17 Warsh / Iran deal Jun-17 / May-TB / National CPI / Hormuz re-closure)
+**Last Updated:** 2026-07-01 (added the Jul-1 line — JGB bear-steepener toward 4.0% orderly / Tankan +22 beat / strong 2Y auction / JGB→US transmission map / bear-steepener action-review HOLD). Prior 2026-06-30: added the Jun 22-30 confirmatory cluster (v1.6 finalize / SoO / Tokyo CPI / CFTC first cover / position FLAT / Sato seated / JGB demand-vacuum thesis executed). Prior 2026-06-22: backfilled the post-Jun-16 resolved sequence (FOMC Jun-17 Warsh / Iran deal Jun-17 / May-TB / National CPI / Hormuz re-closure)
 **View:** Base case progression with branch points marked
 
 This document maps our forward-looking expectations — what's coming, what we think happens, and where the path could diverge. Updated as events resolve or views change.
@@ -9,7 +9,7 @@ This document maps our forward-looking expectations — what's coming, what we t
 
 ---
 
-## RESOLVED — Jun 22-30 (v1.6 FINALIZED · SoO HAWKISH-OF-PRICED · TOKYO CPI STICKY · CFTC FIRST COVER · POSITION FLAT · SATO SEATED · JGB DEMAND-VACUUM THESIS EXECUTED)
+## RESOLVED — Jun 22 - Jul 1 (v1.6 FINALIZED · SoO HAWKISH-OF-PRICED · TOKYO CPI STICKY · CFTC FIRST COVER · POSITION FLAT · SATO SEATED · JGB DEMAND-VACUUM THESIS EXECUTED · JGB→US TRANSMISSION MAP)
 
 *Compact entry — these are confirmatory events; full data in STATUS 6/29-6/30 notes + CHANGELOG 2026-06-22/29/30. No conviction re-mark beyond the v1.6 → v1.6.1 refinement.*
 
@@ -18,6 +18,7 @@ This document maps our forward-looking expectations — what's coming, what we t
 - **Jun 26 — Tokyo June CPI: core-core 1.9% sticky** (+30bp vs May 1.6). Mild hawkish tick; confirmatory.
 - **Jun 29 — POSITION RECONCILED TO FLAT** (Will-confirmed no FXY position; the docs had carried a phantom 6-sh stub). Carry-convexity-tail reframed to a watch-for-entry thesis. CFTC Jun-23 **−146,104 / 81.2%** = first cover off the 83.4% top.
 - **Jun 30 — USD/JPY fresh 40-yr low 162.40** (orderly grind; market intervention-line re-anchored 160→162; MOF silent 14d). **JGB long-end DEMAND-VACUUM thesis EXECUTED** (→ THESIS v1.6.1; `research/outputs/JGB_SUPPLY_DEMAND_THESIS.md`): structurally bearish demand-vacuum steepener (lifer bid structurally gone, no re-entry near current, 30Y-4.5% forced-selling zone), BOJ conditional-let-run, supply forward-amplifier; **SIGNAL-ONLY** → routed BOND/LIQUID/HENRY; new SAM-32 + the 30Y-4.5%-disorderly carry-tail route. **Sato Ayano seated** (reflationist; hike-dissent bloc 3→2). Vol-check: true USD/JPY implied ~sub-10 ≈ realized → long-vol = a small convexity ticket, not cheap-vol arbitrage (KB-183 confirmed).
+- **Jul 1 — JGB long-end bear-steepens toward 4.0% (orderly); Tankan beat; strong 2Y auction; JGB→US transmission map built.** USD/JPY 162.43 (40-yr-low zone, MOF silent 15d). **JGB bear-steepener** (MOF Jun-30 pub): 2Y −3bp (anchored), 20/30/40Y +8-11bp → **30Y 3.873%, ~13bp below 4.0%, ~8bp/day GRADUAL** (SAM-33 let-run test, not disorderly). **Tankan Q2 +22** (beat +16, highest since Mar-2018, firms lifted inflation expectations — mild hawkish) + **JGB 2Y auction BTC 4.82x/tail 0.3bp** (strong; front-end fine — confirms super-long-specific vacuum). **Bear-steepener action review = HOLD** (no vehicle/no trigger/within routed frame; decision nodes Jul-3 CFTC + Jul-7 30Y auction). **JGB→US TRANSMISSION MAP built** (`research/outputs/JGB_SUPPLY_DEMAND_THESIS.md` § US-TRANSMISSION): transmits diffusely via correlated global term premium NOT repatriation (US 30Y 4.96% co-moving up; ACM term premium +0.73% = softer US ground; tape calm); capital-export (Ch D) = only live flow, risk-positive; disorderly-break tail drags US long end via correlation alone. Peers (BOND/LIQUID/HENRY) have NOT processed SAM's Jun-30 signal. No re-mark (confirmatory).
 
 ---
 

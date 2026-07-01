@@ -8,6 +8,16 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-07-01 — [no version bump — evidence enrichment] — JGB→US TRANSMISSION MAP; bear-steepener action-review; drift true-up
+
+**Author:** SAM. **Trigger:** Will asked (a) what to do about the JGB bear-steepener and (b) how it transmits to US markets, ahead of spawning BOND/LIQUID/HENRY today. **No conviction/thesis change** — the v1.6.2 frame stands; this enriches the → BOND cross-link with the live transmission answer and trues up drift.
+
+- **Bear-steepener action-review = HOLD** (multi-lens panel + act-now adversary, unanimous). No Will-tradeable JGB vehicle (signal-only); the *gradual* (~8bp/day) move fires no carry-tail trigger; pre-positioning fails deploy-on-trigger + the break-even-MEDIUM frame (the adversary's best case — a small premium-only long-vol ticket on the unwind-speed asymmetry — didn't clear: negative EV isn't cured by defined-risk, vol not cheap per KB-183). Decision nodes = Fri Jul-3 CFTC + Tue Jul-7 30Y auction. No re-mark.
+- **JGB→US TRANSMISSION MAP built** (`research/outputs/JGB_SUPPLY_DEMAND_THESIS.md` § US-TRANSMISSION; multi-agent gather of live US levels + BOND/LIQUID/HENRY state + adversarial synthesis) — answers the → BOND question SAM routed Jun-30. **Finding:** transmits DIFFUSELY via correlated global term premium, NOT repatriation (Ch A dormant — Japan a net UST buyer; US 30Y 4.96% co-moving up on a shared driver, softer US ground — ACM 10Y term premium +0.73%; Ch C carry-unwind = tail; Ch D capital-export = only live flow, risk-positive). Tail = a disorderly JGB break dragging the US long end via correlation alone. **Peers have NOT processed SAM's Jun-30 signal** → corroboration = convergent priors.
+- **Edits:** THESIS § CROSS-AGENT LINKS → BOND (partial-answer pointer); TIMELINE Jul-1 line; JGB package § US-TRANSMISSION MAP + PUNCHLINE marks refreshed; STATUS 7/1 note + market tables; NEXUS_BRIEF (transmission finding + BOND sharpened-Q + **drift true-up: v1.6.1→v1.6.2, "5 OPEN"→7 OPEN [SAM-33/34 added], marks**); CALENDAR (Jun-30 2Y auction + Jul-1 Tankan → RESOLVED). MOF Jun-30 pub marks: 10Y 2.690 / 30Y 3.873 / 40Y 3.792.
+
+---
+
 ## 2026-06-30 — v1.6.1 → **v1.6.2** [MINOR, correction] — RED adversarial pass walks back the JGB over-claims
 
 **Author:** SAM (applying RED's 2026-06-30 JGB demand-vacuum pass; Will-approved). **Trigger:** Will spawned RED (Opus) on the never-reviewed JGB thesis; RED returned a 5-axis sweep (7 challenges, `red/CHALLENGES.md` + `red/COUNTER_THESIS.md`). SAM resolved each honestly and applied the concessions.

@@ -1,12 +1,26 @@
 # SAM STATUS
 
-**Signal Status:** 🟠 **v1.6 CANONICAL — CARRY-CONVEXITY TAIL (finalized 2026-06-22; SAM⇄RED 6-of-6 converged).** Near-term yen-direction is INVERTED (Pillar 1 re-widening under Warsh-hawkish Fed; the as-priced BOJ hike was spent without an unwind). The live thesis is a **positioning-convexity TAIL at MEDIUM** — *not* MED-HIGH: honest net 60d EV ≈ break-even-to-slightly-negative, analytically a TRIM signal. It pays only if a tail-route (risk-off / Fed-dot walk-back / oil-MOU re-escalation / hawkish-of-priced BOJ / MOF #3) fires by the **LOCKED Sep-18-2026 window**; retires to LOW if no trigger by then OR CFTC covers <−108K. Frame *survives* on the Jun-16 CFTC EV-gate (83.4%, held through the catalyst, zero cover). **Conviction: direction/level MEDIUM (↓HIGH) · near-term timing LOW (↓MEDIUM) · convexity-tail MEDIUM.** Full → `thesis/THESIS.md` v1.6; audit → CHANGELOG 2026-06-22 + `V16_RED_DIALOGUE.md`. | **POSITION: 🟢 FLAT — no FXY position (Will-confirmed 2026-06-29).** Prior docs carried a 6-sh post-trim stub (13→6 trim, fill logged "unconfirmed" 6/25); Will confirms none held. No realized-P&L recorded (TBD from Will). The carry-convexity-tail is now a **WATCH-FOR-ENTRY thesis on a flat book** — NOT EV-positive to initiate at MEDIUM/break-even; deploy only on a FIRED trigger (disorderly MOF spike / CFTC through −153K/85% / risk-off yen-haven re-couple / Fed-dot walk-back), not on the slow grind to the 40-yr low. Vehicle reopens cleanly (defined-risk options > spot). See 6/29 SESSION NOTE + § FXY POSITIONING. | **CHANNELS:** Ch1 **RETIRED** (re-add only on a *direct foreign-SALES* print; JGB-30Y/ESR = accelerant only) · Ch2 = carry-convexity-tail · Ch3 MOF #3 **DECAYING** ~15-20%/30d · Ch4 **POSITIONING-CONVEXITY = NEW center**. | **KEY LIVE (Tue Jun 30 ~10:23 AM ET):** USDJPY **162.40** (🔴 fresh 40-yr low, +0.31%; MOF silent 14d at 160+, orderly grind; mkt intervention-line re-anchored 160→162 per ING Jun-26) · FXY **$56.49** · Brent **$74.25** (~−23% cum; oil-in-yen dormant) · CFTC **−146,104 / 81.2%** (Jun-23, unchanged; next print Fri Jul 3) · JGB 10Y **2.644%** (MOF Jun-29 pub). | **RESOLVED-event detail (compressed to pointers 2026-06-29):** § FOMC Jun-17 / § BOJ Jun-16 / § INTERVENTION / § BOJ ASSESSMENT below — full narrative → `thesis/timeline/TIMELINE.md`.
+**Signal Status:** 🟠 **v1.6 CANONICAL — CARRY-CONVEXITY TAIL (finalized 2026-06-22; SAM⇄RED 6-of-6 converged).** Near-term yen-direction is INVERTED (Pillar 1 re-widening under Warsh-hawkish Fed; the as-priced BOJ hike was spent without an unwind). The live thesis is a **positioning-convexity TAIL at MEDIUM** — *not* MED-HIGH: honest net 60d EV ≈ break-even-to-slightly-negative, analytically a TRIM signal. It pays only if a tail-route (risk-off / Fed-dot walk-back / oil-MOU re-escalation / hawkish-of-priced BOJ / MOF #3) fires by the **LOCKED Sep-18-2026 window**; retires to LOW if no trigger by then OR CFTC covers <−108K. Frame *survives* on the Jun-16 CFTC EV-gate (83.4%, held through the catalyst, zero cover). **Conviction: direction/level MEDIUM (↓HIGH) · near-term timing LOW (↓MEDIUM) · convexity-tail MEDIUM.** Full → `thesis/THESIS.md` v1.6; audit → CHANGELOG 2026-06-22 + `V16_RED_DIALOGUE.md`. | **POSITION: 🟢 FLAT — no FXY position (Will-confirmed 2026-06-29).** Prior docs carried a 6-sh post-trim stub (13→6 trim, fill logged "unconfirmed" 6/25); Will confirms none held. No realized-P&L recorded (TBD from Will). The carry-convexity-tail is now a **WATCH-FOR-ENTRY thesis on a flat book** — NOT EV-positive to initiate at MEDIUM/break-even; deploy only on a FIRED trigger (disorderly MOF spike / CFTC through −153K/85% / risk-off yen-haven re-couple / Fed-dot walk-back), not on the slow grind to the 40-yr low. Vehicle reopens cleanly (defined-risk options > spot). See 6/29 SESSION NOTE + § FXY POSITIONING. | **CHANNELS:** Ch1 **RETIRED** (re-add only on a *direct foreign-SALES* print; JGB-30Y/ESR = accelerant only) · Ch2 = carry-convexity-tail · Ch3 MOF #3 **DECAYING** ~15-20%/30d · Ch4 **POSITIONING-CONVEXITY = NEW center**. | **KEY LIVE (Wed Jul 1 ~11:32 AM ET):** USDJPY **162.43** (🔴 40-yr-low zone, +0.32%; ≈matches Jun-30 162.40; MOF silent **15d** at 160+, orderly grind; mkt intervention-line re-anchored 160→162 per ING) · FXY **$56.49** · Brent **$71.37** (−2.1% day, ~−26% cum; oil-in-yen deeper dormant) · CFTC **−146,104 / 81.2%** (Jun-23, unchanged; next print Fri Jul 3) · **JGB bear-steepener: 10Y 2.690% / 30Y 3.873% (MOF Jun-30 pub; long-end +8-11bp, 2Y −3bp — demand-vacuum thread live; 30Y ~13bp below 4.0%)**. **Tankan Q2 +22 (beat +16, highest since Mar-2018)** + **JGB 2Y auction BTC 4.82x/tail 0.3bp (strong; front-end anchored)** = confirmatory, no re-mark. | **RESOLVED-event detail (compressed to pointers 2026-06-29):** § FOMC Jun-17 / § BOJ Jun-16 / § INTERVENTION / § BOJ ASSESSMENT below — full narrative → `thesis/timeline/TIMELINE.md`.
 
 **📁 Pre-v1.6 historical banner pruned 2026-06-29** — was a Jun-14→22 pre-event / pre-v1.6 / pre-FLAT framing block (BOJ-Jun-16 hike, Iran/Brent, Ueda absence, SAM-21/23 marks, CFTC build, the old 13-sh position, v1.6-finalize stamps), fully superseded. Narrative preserved in `thesis/timeline/TIMELINE.md`, `thesis/CHANGELOG.md`, `thesis/PREDICTIONS.tsv` (and the compressed § pointers below). Current state = the top Signal Status line + the **6/29 SESSION NOTE** below.
 
 ---
 
-## 🆕 2026-06-30 SESSION NOTE (Tue 10:23 AM ET boot — yen fresh 40-yr high, continued ORDERLY grind; data refresh, no re-mark)
+## 🆕 2026-07-01 SESSION NOTE (Wed 11:32 AM ET boot — JGB long-end bear-steepens toward 4.0%; Tankan beat + strong 2Y auction; data refresh, no re-mark)
+
+**LIVE MARKS (fetch.py 11:32 AM ET / boot.py sweep):** USD/JPY **162.43** (+0.32%, 40-yr-low zone, ≈matches Jun-30's 162.40) · FXY **$56.49** (+0.08%) · EUR/JPY 184.92 · GBP/JPY 215.59 · AUD/JPY 112.09 (broad mild yen softness; haven channel still decoupled) · Brent **$71.37** (−2.1% day; oil-in-yen deeper dormant, ~−26% cum) · **JGB (MOF Jun-30 pub) bear-steepener:** 2Y **1.382** (−3bp) / 5Y 1.937 / 10Y **2.690** (+4.6bp) / 20Y 3.625 (+8.5bp) / 30Y **3.873** (+8.8bp; +11.4bp over 2 pubs) / 40Y 3.792 (+7.7bp) · CFTC unchanged (Jun-23 −146,104/81.2%; next print Fri Jul 3) · FXY proxy ATM IV **12.72%** (Jul-17 ~16d) / 25d RR **−16.89** (calls bid = yen-strength demand, thesis-side; KB-183 caveat — read sign not level).
+
+**READ — JGB long-end drift is THE development; still an ORDERLY grind (SAM stays FLAT / watch-for-entry).** The curve **bear-steepened**: front end anchored (2Y −3bp, and the Jun-30 2Y auction cleared BTC **4.82x** / tail **0.3bp** = strong, no front-end stress), long end +8-11bp with **30Y at 3.873% — ~13bp below the 4.0% J-ICS/SAM-33 zone.** This is the v1.6.1/1.6.2 **demand-vacuum bear-steepener progressing** (lifer bid gone at the super-long; front end fine) — the strong 2Y auction *confirms* the buyer-strike is super-long-specific (echoes SAM-16). Pace ~8bp/day = GRADUAL, not disorderly (SAM-33 disorderly = ≥20-40bp/session) → tests the BOJ **let-run** reaction function, not a cap. **No re-mark:** 30Y-4.0% is not a clean trigger (SAM-26 trap / CH-014); the mechanism (SAM-32/33) advances but no eligible carry-tail trigger fired. USD/JPY within-band → carry buckets unchanged.
+
+**RESOLVED CATALYSTS:** (1) **Tankan Q2 (June survey)** — large-mfg DI **+22** (beat +16 consensus, ↑ from +17; **highest since Mar 2018**; 5th straight quarterly rise; semis/AI demand; **firms lifted inflation expectations**; outlook +17 vs +13 fcst, eases to +17 by Sep). Mild **HAWKISH** — supports the post-Jun-16 normalization trajectory; a modest nudge to the **SAM-34 July-hike tail-watch** (still consensus-Q4; re-verify July-hike pricing by mid-July per the pre-registered spec — a firm Tankan is a reason to check, not yet a re-mark). (2) **JGB 2Y auction (Jun 30)** — BTC 4.82x / tail 0.3bp / WA 1.407% (vs May 1.369%): strong; confirmatory-of-structure (front-end demand intact).
+
+**🆕 SESSION ANALYSIS (Will-directed; no position/thesis change):** (1) **Bear-steepener action review** — full action-space panel (trade / prediction / cross-agent lenses + act-now adversary): unanimous **HOLD**. No Will-tradeable JGB vehicle (signal-only); the gradual move fires no carry-tail trigger; pre-positioning fails deploy-on-trigger + the break-even-MEDIUM frame (the adversary's best case — a small premium-only long-vol ticket on the unwind-speed asymmetry — didn't clear: negative EV isn't cured by defined-risk + vol not cheap). Decision nodes = **Fri Jul-3 CFTC** + **Tue Jul-7 30Y auction**. (2) **JGB→US TRANSMISSION MAP built** (`research/outputs/JGB_SUPPLY_DEMAND_THESIS.md` § US-TRANSMISSION; answers the → BOND question): transmits **diffusely via correlated global term premium, NOT repatriation** (Japan a net UST buyer; **US 30Y 4.96% co-moving UP** with JGB on a shared driver, onto *softer* US ground — ACM 10Y term premium +0.73%, positive 1st time since 2023; tape calm VIX 16 / MOVE ~68). Channel D (capital export) = the only mechanically-live flow, risk-POSITIVE (mild tailwind); the tail = a *disorderly* JGB break dragging the US long end via correlation ALONE. **Peers (BOND/LIQUID/HENRY) have NOT processed SAM's Jun-30 signal** (unprocessed inboxes; STATUS files predate it) → corroboration = convergent priors, not confirmed integration.
+
+**TODAY/IMMINENT:** Thu Jul 2 JGB 10Y auction · **Tue Jul 7 JGB 30Y auction (demand-vacuum test, SAM-32)** · Thu Jul 9 5Y · Fri Jul 3 next CFTC print (Jun-30 data). No re-entry trigger fired (SAM-28..33 quiet).
+
+---
+
+## 2026-06-30 SESSION NOTE (Tue 10:23 AM ET boot — yen fresh 40-yr high, continued ORDERLY grind; data refresh, no re-mark)
 
 **LIVE MARKS (boot.py 10:23 AM ET):** USD/JPY **162.40** (+0.31%, fresh 40-yr high / weakest since 1986) · FXY **$56.49** (−0.29%) · EUR/JPY 185.38 · GBP/JPY 215.09 · AUD/JPY 112.19 (broad mild yen softness; haven channel still decoupled) · Brent **$74.25** (+0.46%; oil-in-yen dormant) · JGB 10Y **2.644%** (MOF Jun-29 pub, ↑ from 2.611) · CFTC unchanged (Jun-23 −146,104/81.2%; next print Fri Jul 3) · FXY proxy ATM IV **16.07%** / 25d RR **−4.49** (IV ticked up vs 11.78 on 6/29 — KB-183 caveat, read sign not level; RR *less* negative = yen-strength call-skew softened).
 
@@ -68,18 +82,19 @@ Hiked 25bp → 1.00% (highest since 1995); vote 7-1, Asada DOVISH-dissent for ho
 
 ---
 
-## MARKET DATA — Tue Jun 30 ~10:23 AM ET (boot.py full sweep)
+## MARKET DATA — Wed Jul 1 ~11:32 AM ET (boot.py full sweep + fetch.py live)
 
 | Metric | Value | Source | Status |
 |--------|-------|---------|--------|
-| USD/JPY | **162.40** | Jun 30 boot.py | 🔴🔴 **fresh 40-yr low** (weakest since ~1986); MOF silent **14d** at 160+, orderly grind (+0.31% day); 🟠 mkt intervention-line re-anchored 160→162 (ING) |
-| EUR/JPY · GBP/JPY · AUD/JPY | 185.38 · 215.09 · 112.19 | Jun 30 | 🟡 broad mild yen softness (crosses +0.2–0.65%); yen-haven channel still decoupled |
-| FXY | **$56.49** | Jun 30 boot.py | 🟢 **SAM FLAT** — watch-for-entry only, no position math |
-| CFTC JPY net | **−146,104 / 81.2%** of peak | Jun 23 data (rel Jun 26) | 🟡 **first cover off the 83.4% top** (+4,028 WoW); HOLD-band, amplifier +5pp ON. Leg-1 (−108K) ~32K away; reclaim (−153K/85%) 3.8pp away. **Next print Fri Jul 3 (Jun-30 data)** |
-| JGB curve | 10Y **2.644** (MOF Jun-29 pub, ↑ from 2.611) · long-end Jun-26 pub: 30Y **3.759** / 40Y 3.694 / 20Y 3.506 / 5Y 1.915 / 2Y 1.409 | MOF CSV | 🔴 10Y > 2.40 stress; 🟠 30Y ~24bp below 4.0 (SAM-26 FALSE); long-end no stress |
-| Brent | **~$74.25** | Jun 30 boot.py | 🟢 ~−23% cum from $96.78 Jun-3; oil-in-yen dormant (Iran deal + IEA glut) |
+| USD/JPY | **162.43** | Jul 1 fetch.py | 🔴🔴 **40-yr-low zone** (≈matches Jun-30 162.40; +0.32% day); MOF silent **15d** at 160+, orderly grind; 🟠 mkt intervention-line re-anchored 160→162 (ING) |
+| EUR/JPY · GBP/JPY · AUD/JPY | 184.92 · 215.59 · 112.09 | Jul 1 | 🟡 broad mild yen softness (crosses +0.0–0.6%); yen-haven channel still decoupled |
+| FXY | **$56.49** | Jul 1 fetch.py | 🟢 **SAM FLAT** — watch-for-entry only, no position math |
+| CFTC JPY net | **−146,104 / 81.2%** of peak | Jun 23 data (rel Jun 26) | 🟡 first cover off the 83.4% top; HOLD-band, amplifier +5pp ON. Leg-1 (−108K) ~32K away; reclaim (−153K/85%) 3.8pp away. **Next print Fri Jul 3 (Jun-30 data)** |
+| JGB curve (bear-steepener) | **2Y 1.382 (−3bp)** / 5Y 1.937 / **10Y 2.690 (+4.6bp)** / 20Y 3.625 (+8.5bp) / **30Y 3.873 (+8.8bp)** / 40Y 3.792 (+7.7bp) | MOF Jun-30 pub | 🔴 10Y > 2.40 stress; 🟠 **30Y ~13bp below 4.0 (climbing; demand-vacuum thread SAM-32/33)**; front-end anchored (strong Jun-30 2Y auction BTC 4.82x/tail 0.3bp) |
+| Brent | **~$71.37** | Jul 1 fetch.py | 🟢 −2.1% day, ~−26% cum from $96.78 Jun-3; oil-in-yen deeper dormant (Iran deal + IEA glut) |
 | MOF LT-debt net | Net BUYING (Jun 14–20) | MOF weekly | 🟢 no repatriation signal at weekly level |
-| FXY vol (proxy) | ATM IV **16.07%** / 25d RR **−4.49** / P/C 0.05x | Jun 30 boot.py | 🟢 calls bid (thesis-side); IV ticked up vs 11.78 (6/29) but RR less-negative (call-skew softened) — KB-183 caveat (read sign, not level) |
+| FXY vol (proxy) | ATM IV **12.72%** (Jul-17 ~16d) / 25d RR **−16.89** / P/C 0.04x | Jul 1 boot.py | 🟢 calls bid (yen-strength demand, thesis-side); RR re-steepened negative vs −4.49 (6/30) — KB-183 caveat (read sign, not level) |
+| Tankan Q2 (June survey) | large-mfg DI **+22** (beat +16; ↑ from +17) / outlook +17 | BOJ Jun-30 (JST Jul-1) | 🟠 **highest since Mar 2018, 5th straight rise; firms lifted inflation expectations** — mild hawkish, supports normalization trajectory |
 | DXY · US 2Y/10Y/30Y | 100.40 · 4.216/4.49/4.93 | ⚠️ Wed Jun 17 FOMC close | 🔴 stale (boot.py doesn't pull US; bear-flattener post-Warsh) |
 | Japan National May CPI | 1.5 / core 1.4 / core-core 1.8 | MIC Jun 19 | 🟠 soft underlying (core <2% 4th mo, 4-yr low) |
 | Tokyo June CPI | 1.7 / core 1.6 / core-core 1.9 | MIC Jun 26 | 🟠 core-core sticky (+30bp vs May 1.6) — mild hawkish tick |
@@ -165,17 +180,17 @@ Per **STRATEGY.md** + v1.6 position logic (carry-convexity-tail):
 
 ## KEY THRESHOLDS
 
-| Level | Significance | Status (Tue Jun 30 ~10:23 AM ET; JGB = MOF Jun-29 pub; DXY = Jun-17 FOMC close ⚠️stale) |
+| Level | Significance | Status (Wed Jul 1 ~11:32 AM ET; JGB = MOF Jun-30 pub; DXY = Jun-17 FOMC close ⚠️stale) |
 |-------|-------------|--------|
-| USD/JPY 160 | MOF intervention | 🔴🔴 **TRADING ABOVE — 162.40 (fresh 40-yr low); MOF silent 14d at 160+, NO 3rd strike; mkt line re-anchored 160→162 (ING)** |
+| USD/JPY 160 | MOF intervention | 🔴🔴 **TRADING ABOVE — 162.43 (40-yr-low zone); MOF silent 15d at 160+, NO 3rd strike; mkt line re-anchored 160→162 (ING)** |
 | USD/JPY 155 | Phase 2 onset | NEAR-MISS twice (Apr 30 155.55, May 6 155.05); **direction moved AWAY post Jun 16-17 sequence** |
 | USD/JPY 147 | Forced unwind | SET |
 | USD/JPY 145 | Mechanical selling | SET |
-| JGB 10Y 2.40% | Stress crossover | 🔴 BREACHED — **2.644% (MOF Jun-29 pub, ↑)** |
-| JGB 30Y 4.0% | Severe insurer stress | 🟠 **3.759% (MOF Jun-26 pub); SAM-26 FALSE (pre-marked 70%→~25%, calibration win)** |
-| JGB 40Y | — | 🟠 **3.694% (MOF Jun-26 pub)** |
-| Brent $120 | Kharg scenario | 🟢 **~$73.8** — Phase 1 oil pressure dormant |
-| Brent $90 | Headwind resolved | 🟢 **BREACHED ~$73.8** (~−24% cum from $96.78 Jun-3). Decoupling shrug (Sat declaratory Hormuz re-closure → no spike); durable bearish-oil regime (Iran deal + IEA glut +8 mbpd by 2027 vs +2). |
+| JGB 10Y 2.40% | Stress crossover | 🔴 BREACHED — **2.690% (MOF Jun-30 pub, ↑ +4.6bp)** |
+| JGB 30Y 4.0% | Severe insurer stress / J-ICS acceleration zone | 🟠 **3.873% (MOF Jun-30 pub, ↑ +11bp over 2 pubs; ~13bp below 4.0, climbing — demand-vacuum bear-steepener SAM-32/33). Gradual (~8bp/day) = SAM-33 let-run test, NOT a clean 30Y trigger (SAM-26 trap / CH-014).** |
+| JGB 40Y | — | 🟠 **3.792% (MOF Jun-30 pub, ↑ +7.7bp)** |
+| Brent $120 | Kharg scenario | 🟢 **~$71.4** — Phase 1 oil pressure dormant |
+| Brent $90 | Headwind resolved | 🟢 **BREACHED ~$71.4** (~−26% cum from $96.78 Jun-3). Decoupling shrug (Sat declaratory Hormuz re-closure → no spike); durable bearish-oil regime (Iran deal + IEA glut +8 mbpd by 2027 vs +2). |
 | CFTC % of cycle peak | METHOD residual gate | 🔴 **81.2% (Jun-23; FIRST cover off the 83.4% top)** — amplifier +5pp ON, residual ON; 3.8pp shy of the 85%/−153K escalation; leg-1 (−108K) ~32K away |
 | DXY | USD-side carry signal | 🔴 **100.40 (Wed Jun 17 FOMC close)** — broke 100 on Warsh-hawkish FOMC; ⚠️ stale (not re-pulled by boot.py) |
 
@@ -183,7 +198,7 @@ Per **STRATEGY.md** + v1.6 position logic (carry-convexity-tail):
 
 ## WHAT TO WATCH
 
-**Forward catalysts** (full docket → `docket/CALENDAR.md`): Jun 30 Sato seats + JGB 2Y · Jul 1 Tankan Q2 · **Jul 7 JGB 30Y / Jul 22 40Y (JGB demand-vacuum tests — auction BTC/tail trajectory; SAM-32)** · Jul 29 FOMC · **Jul 31 BOJ MPM (next-hike + FY2027 purchase-plan = the JGB-supply read)** · ~Sep 18 convexity-tail window-end.
+**Forward catalysts** (full docket → `docket/CALENDAR.md`): Thu Jul 2 JGB 10Y auction · Fri Jul 3 CFTC (Jun-30 data) · **Jul 7 JGB 30Y / Jul 22 40Y (JGB demand-vacuum tests — auction BTC/tail trajectory; SAM-32)** · Jul 29 FOMC · **Jul 31 BOJ MPM (next-hike [SAM-34 hold 85%] + FY2027 purchase-plan = the JGB-supply read)** · ~Sep 18 convexity-tail window-end. *(Resolved Jun-30/Jul-1: Sato seated · JGB 2Y BTC 4.82x strong · Tankan Q2 +22 beat.)*
 
 **Watch-for-entry triggers (flat book — SAM-28..32):** disorderly MOF intervention spike · CFTC re-build through −153K/85% (SAM-30) · risk-off yen-haven re-couple / VIX-spike (SAM-31) · Fed-dot walk-back (SAM-28) · **30Y JGB 4.5% disorderly** (⚠️ thin timing-window tail — RED CH-011 v1.6.2: the BOJ truncates the disorder this route needs; a precursor to watch, not a clean trigger). Next CFTC Fri Jul 3 (Jun-30 data); JGB demand-vacuum tests = Jul 7 30Y / Jul 22 40Y auctions.
 
