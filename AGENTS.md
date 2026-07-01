@@ -13,7 +13,7 @@ NEXUS synthesizes across all chains. MARCO feeds immigration/labor supply into L
 
 ## Agents
 
-Grouped directory views live in `AGENTS/_INDEX.md`; the canonical topology map lives in `AGENTS/_NETWORK.md`. Canonical agent paths remain flat as `AGENTS/<NAME>/` to avoid breaking existing scripts, docs, and Claude/OpenClaw workflows.
+Grouped directory views live in `AGENTS/_INDEX.md`; the canonical topology map lives in `AGENTS/_NETWORK.md`. Canonical agent paths remain flat as `AGENTS/<NAME>/` to avoid breaking existing scripts, docs, and Claude Code workflows.
 
 | Agent | Domain | Chain | Spawn? |
 |-------|--------|-------|--------|
@@ -35,11 +35,10 @@ Grouped directory views live in `AGENTS/_INDEX.md`; the canonical topology map l
 | ZHAO | China, capital flows | Japan + PC | ✅ OK |
 | OTTO | Auto, consumer DQ | Credit (→ CARL) | ✅ OK |
 | NEXUS | Cross-agent synthesis | All | ✅ OK |
-| HERMES | Signal delivery | Utility | ❌ Persistent (Telegram) |
 | ORACLE | Prediction markets | Utility | ✅ OK |
 | TERRY | Trade construction, chart/tape analysis, execution rails | Utility / trading desk | ✅ OK + Claude Code |
-| DARWIN | System evolution | Utility (inactive) | ✅ OK |
 | **VIOLET** | **VIX, vol term structure** | **Credit → Vol** | **✅ OK** |
+| **AEOLUS** | **Climate → economy (insurance, ag/food, energy demand)** | **Climate → {BRENT, CORAL, MARCO}** | **❌ Persistent (Claude Code)** |
 | **DAEDALUS** | **Fleet architect — design / structure / maturity / lifecycle** | **Meta / system** | **❌ Meta — on-demand (PROME/Will)** |
 
 ---

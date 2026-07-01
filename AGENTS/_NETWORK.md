@@ -157,4 +157,4 @@ flowchart LR
 - `AGENTS.md` owns compact roster, spawn restrictions, and canonical transmission chains.
 - `AGENTS/_INDEX.md` owns grouped directory navigation.
 - This file owns the live topology map.
-- `AGENTS_DIRECTORY.md` owns runtime architecture and operational notes.
+- Runtime architecture / operating model → root `CLAUDE.md` ("How The System Works") + `PROME/SYSTEM.md`. *(`AGENTS_DIRECTORY.md` retired → `archive/` 2026-06-30.)*

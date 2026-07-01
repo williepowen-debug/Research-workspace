@@ -44,4 +44,4 @@ It is also a working case study in **AI-augmented research** — a multi-agent o
 
 Will comes to markets from a **literature background** — a narrative thinker who frames systems as stories and transmission chains. Largely self-directed across trading, systems design, and AI orchestration, he built and runs this multi-agent research operation as both a trading edge and proof-of-work toward an AI-native research/operations practice.
 
-*Agent roster → `AGENTS_DIRECTORY.md`*
+*Agent roster → `AGENTS.md` (routing) · `PROME/ROSTER.md` (verified classification)*

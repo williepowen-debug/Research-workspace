@@ -4,7 +4,7 @@
 
 **Last Updated:** 2026-06-30
 
-**Positions → off-repo (Will/broker direct); structured mirror `FORGE/STATUS.md`** | **Agent roster → `AGENTS_DIRECTORY.md` / `AGENTS.md`** | **Background → `USER.md`**
+**Positions → off-repo (Will/broker direct); structured mirror `FORGE/STATUS.md`** | **Agent roster → `AGENTS.md` / `PROME/ROSTER.md`** | **Background → `USER.md`**
 **Pre-prune archive:** `memory/archive/MEMORY_ROOT_PRE_PRUNE_2026-06-14.md`
 
 ---

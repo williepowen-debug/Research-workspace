@@ -71,4 +71,4 @@ When adding a new agent:
 1. Create the canonical folder as `AGENTS/<NAME>/`.
 2. Add it to this roster.
 3. Add it to exactly one primary group file, plus cross-links if it bridges domains.
-4. Update `AGENTS_DIRECTORY.md` if it is an operational agent, not just an experimental/workbook folder.
+4. Update `PROME/ROSTER.md` (verified classification) + `AGENTS.md` (routing table) if it is an operational agent, not just an experimental/workbook folder.
