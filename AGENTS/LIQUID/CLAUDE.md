@@ -167,7 +167,7 @@ Don't mix categories. A CLO spread doesn't belong in the domestic plumbing dashb
 | `MEMORY.md` | Cross-session memory: current/next/prior session notes, durable findings, operating notes. |
 | `CLOSEOUT.md` | Session-end procedure: 4-tier model (Bounce/Light/Standard/Heavy), chunked steps, file-ownership reference. Run before `/clear` or session handoff. |
 | `CALENDAR.md` | Upcoming data releases, events, danger windows. **Human twin of `workbook/CATALYSTS.tsv` — must not diverge in event set.** |
-| `scripts/boot.py` | **Boot live-sweep tool** (run at SPAWN step 1b). One command: 3-dashboard live pull (FRED+yfinance via FORGE `fetch.py`) + catalyst countdown + predictions due-scan, alert-collapsed vs LIQUID thresholds. `.venv/bin/python3 …boot.py` — `--verbose`/`--quick`/`--selftest`. |
+| `scripts/boot.py` | **Boot live-sweep tool** (run at SPAWN step 1b). One command: 3-dashboard live pull (FRED+yfinance via FORGE `fetch.py`) + catalyst countdown + predictions due-scan, alert-collapsed vs LIQUID thresholds. Run via the cwd-proof form at SPAWN step 1b (2026-07-01) — `--verbose`/`--quick`/`--selftest`. |
 | `IDENTITY.md` | Agent persona / role / vibe. Boot doc. |
 | `USER.md` | Will profile and communication preferences. Boot doc. |
 | `STRATEGY.md` | Decision playbook — escalation triggers, position framework. |

@@ -114,7 +114,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 ### Stale Data Rules
 
-- **STATUS.md price >24h old:** Pull live via `scripts/market.py` before citing. OZK price can move 3-5% in a session.
+- **STATUS.md price >24h old:** Pull live via `(cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 scripts/market.py)` *(cwd-proof form — matches boot step 5)* before citing. OZK price can move 3-5% in a session.
 - **Call Report data:** Always note the quarter (e.g., "Q4 2025 Call Report", "Q1 2026 FFIEC filed May 1-10"). Never present last quarter's ratios as current.
 - **LTV / appraisal data:** These have a date (e.g., "Mar '26 appraisal"). Cite the date. Old appraisals on stressed credits are unreliable leading indicators.
 - **Insider activity:** FDIC EFR updates on filing. Check cert #110 quarterly at minimum.
