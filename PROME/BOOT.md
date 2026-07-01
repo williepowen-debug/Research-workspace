@@ -102,7 +102,7 @@ Everything else is on-demand.
 | Closeout | `PROME/CLOSEOUT.md` |
 | Historical handoffs | `PROME/archive/HANDOFF_2026Q2.md` — only for old-session archaeology; never normal boot. |
 | Detailed architecture | `PROME/SYSTEM.md`, `PROME/ORCHESTRAL_LAYER_DESIGN.md` |
-| Position reconciliation | `PROME/ACTIVE_DECISIONS.md`, `PROME/TRADE_DECISIONS.md`, relevant action cards, broker/Will truth |
+| Position reconciliation | `PROME/ACTIVE_DECISIONS.md`, relevant action cards, `FORGE/STATUS.md` + broker/Will truth (position truth is off-repo) |
 
 ---
 

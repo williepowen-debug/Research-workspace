@@ -86,11 +86,10 @@ Event Pre-Build
 
 | File / directory | Owner | Role |
 |---|---|---|
-| `PROME/DECISION_FLOW.md` | Prome | Architecture/spec for the decision workflow. |
+| `PROME/archive/DECISION_FLOW.md` | Prome | Architecture/spec for the decision workflow *(archived 2026-06-30)*. |
 | `PROME/action-cards/` | Prome | Event-specific branch-to-action cards. Temporary/current decision artifacts. |
 | `PROME/action-cards/FSK_MAY11_ACTION_CARD.md` | Prome | First concrete action card; maps FSK branches to allowed/forbidden actions. |
-| `PROME/TRADE_DECISIONS.md` | Prome | Permanent log of Will’s trade/portfolio decisions and outcomes. |
-| `PROME/POSITIONS.md` | Prome | Current position snapshot, sizing, P/L, OCR caveats. |
+| `PROME/archive/TRADE_DECISIONS.md` | Prome | Historical log of Will’s trade/portfolio decisions *(archived 2026-06-30; live truth = FORGE/TERRY + broker)*. |
 | `HEARTBEAT.md` | Prome/root | Current-state pointer layer. Should reference action cards, not contain full action logic. |
 
 Design principle:
@@ -156,7 +155,7 @@ Known current caveat:
 Trust each file's own `Updated:` stamp over any table here (behavior-language beats date-pinning — stamps decay). At boot, refresh in order: `HEARTBEAT.md` (regime) → `PROME/SCRATCH.md` + `HANDOFF.md` (session continuity) → `STATUS.md` / `TODAY.md` / `ACTIVE_DECISIONS.md` (state).
 
 - **Live market levels:** always re-run `FORGE/tools/market-data/dashboard.py` / `fetch.py` before citing — never quote levels from state files.
-- **Position / execution truth:** Will + FORGE, not these docs. `PROME/POSITIONS.md` + `PROME/TRADE_DECISIONS.md` are superseded by FORGE + **TERRY** (trade construction / risk). `FORGE/STATUS.md` refresh before use.
+- **Position / execution truth:** Will + FORGE, not these docs — position truth is **off-repo** (Will/broker direct). The legacy `POSITIONS.md`/`TRADE_DECISIONS.md` decision-support docs were retired 2026-06-30 (POSITIONS deleted — held a broker balance; TRADE_DECISIONS → `PROME/archive/`), superseded by FORGE + **TERRY** (trade construction / risk). `FORGE/STATUS.md` refresh before use.
 - **On-demand:** `PROME/FLEET_SCAN.md` — rebuild for the current question before trusting.
 
 ---

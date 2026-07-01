@@ -52,7 +52,7 @@ FOLLOW-UP: ARESSI data drops Wed — spawn BROCK again to integrate when availab
 1. Read COMPLETION block from sub-agent output.
 2. If WILL_NEEDS is not "None" → add the blocker to `PROME/ACTIVE_DECISIONS.md` or `PROME/STATUS.md`, then surface to Will when relevant.
 3. If FOLLOW-UP is not "None" → capture the next action in the owner file (`PROME/SCRATCH.md` for immediate continuity, `PROME/STATUS.md` for work queue, or an agent inbox for routed domain work).
-4. If the work produced a system/process decision, log it in the appropriate live owner file. Trade/portfolio decisions go to `PROME/TRADE_DECISIONS.md`; non-trade architecture/state decisions go to `PROME/STATUS.md`/`PROME/HANDOFF.md` as appropriate.
+4. If the work produced a system/process decision, log it in the appropriate live owner file. Trade/portfolio decisions go to FORGE/TERRY + broker truth *(the legacy `PROME/TRADE_DECISIONS.md` log was archived 2026-06-30)*; non-trade architecture/state decisions go to `PROME/STATUS.md`/`PROME/HANDOFF.md` as appropriate.
 5. If STATUS is ❌ BLOCKED → surface to Will immediately.
 6. **Post-completion routing** — scan RESULT for cross-agent references. If agent A's output names agent B (e.g., "OTTO mapped exposure chain → WAL → REGINALD should integrate"), write a routing signal to `AGENTS/{B}/inbox/` with the key finding. This is Tier 1 — no proposal needed.
 
