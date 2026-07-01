@@ -21,7 +21,7 @@ Coordination is file-based. Write to `AGENTS/<NAME>/outbox/` to request Prome ac
 
 **Transmission chain:** LABOR → CARL → REGINALD → market repricing. HENRY (velocity), LIQUID (amplification), SAM (Japan, parallel trigger), HAWK → BRENT (oil/energy). AEOLUS → {BRENT, CORAL, MARCO} (climate → economy).
 
-**Active agents (verified 2026-06-27 — full classification + activity evidence in `PROME/ROSTER.md`):** PROME, WALTER, SAM, VIOLET, BRENT, CARL, LIQUID, RED, REGINALD, HENRY, LABOR, MARCO, BROCK, HAWK, NEXUS, BOND, TERRY, CORAL, ORACLE, SHADE, AEOLUS. **Tier 2 (spawned as needed):** CREED, DEWEY, HANS, OTTO. *(All agents are Claude Code sessions now.)* *(Dormant — revive on need: OZK [Q2-gated], SENTRY, BARON, ZHAO, HERMES [deprecated]. Retired 2026-06-27 → `AGENTS/_archive/`: BUFFER, DOC, EARNINGS, FOREX, DARWIN. Archive sources [do not launch]: REITS, TRADES, FERT, CRUISE, ATHENA. YEYOU = repo-wide reviewer, branch model. DAEDALUS = fleet architect [meta: design/structure/maturity/lifecycle], on-demand, merged 2026-06-27.)*
+**Active agents (verified 2026-06-27 — full classification + activity evidence in `PROME/ROSTER.md`):** PROME, WALTER, SAM, VIOLET, BRENT, CARL, LIQUID, RED, REGINALD, HENRY, LABOR, MARCO, BROCK, HAWK, NEXUS, BOND, TERRY, CORAL, ORACLE, SHADE, AEOLUS. **Tier 2 (spawned as needed):** CREED, DEWEY, HANS, OTTO. **Special:** YEYOU (repo-wide reviewer, manual/branch model), DAEDALUS (fleet architect meta-agent — design/structure/maturity/lifecycle, on-demand). *(All agents are Claude Code sessions now.)* *(Dormant / Retired / Archive-source taxonomy → `PROME/ROSTER.md` — the single source of truth for who's live vs. shelved.)*
 
 *OZK spun out from REGINALD on 2026-04-24 (promoted from REGINALD/OZK/ to AGENTS/OZK/ as a peer agent). WAL is the next candidate for promotion when ready.*
 *CORAL (Florida) spun out from REGINALD on 2026-06-19 (promoted from REGINALD/sub-agents/CORAL/ to AGENTS/CORAL/ as a peer agent). CORAL is the comprehensive whole-Florida agent (real estate, insurance, FL banks, migration, tourism, state fiscal/property-tax, labor, coastal/climate — 10 pillars; see AGENTS/CORAL/COVERAGE.md). Overlap with MARCO on FL migration/tourism is intentional — reconcile shared metrics to one number, don't silo. Florida is a top-priority geography for Will.*
@@ -49,7 +49,7 @@ Agent state lives at `AGENTS/<NAME>/STATUS.md`. Position truth is **off-repo** (
 |------|---------|
 | AGENTS/ | All agent domains, STATUS files, knowledge bases |
 | FORGE/ | Structured position surface (`STATUS.md`+`PORTFOLIO.md`) + market-data tools, signals, research/timing corpora. Retired execution ledger + per-trade KRE/WAL/OZK folders → `FORGE/_archive/` |
-| FORGE/timing/ | Thesis timing research, convergence timeline, 44-file research corpus |
+| FORGE/timing/ | Thesis timing research, convergence timeline, research corpus |
 | FORGE/tools/market-data/ | Live data CLI: `python3 fetch.py price KRE`, `python3 dashboard.py` |
 | memory/ | Daily session notes (YYYY-MM-DD.md) |
 | PROME/ | Coordinator state (SCRATCH, STATUS, FLEET_SCAN, ORCHESTRAL_LAYER_DESIGN, AUTONOMY) |
