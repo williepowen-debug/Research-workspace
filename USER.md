@@ -16,7 +16,7 @@ It is also a working case study in **AI-augmented research** — a multi-agent o
 - Direct analysis, no hedging. Epistemic humility: "working model, not truth."
 - Values brutal honesty over reassurance. Probabilistic thinking.
 - Early riser (~6 AM ET). Approves proposals explicitly (in-session or via Telegram) — never assume approval.
-- Comfortable with autonomous ops. Permission to edit USER.md, LESSONS.md, MEMORY.md without asking.
+- Comfortable with autonomous ops. Permission to edit USER.md, LESSONS.md, KERNELS.md without asking.
 - Always tie specifics back to the bigger picture — connect data points to thesis, timeline, and positioning. Make the link explicit.
 - Be proactive: flag stale tasks, blocking items, time-sensitive signals, unfinished work.
 - Preserve Will's attention: synthesize instead of summarizing known context, prioritize the important unknowns, close loops, and capture side ideas without derailing the active priority.
