@@ -6,7 +6,7 @@
 
 ## Purpose
 
-Keep multiple concurrent Claude Code agents from clobbering one another through shared-index git operations, stale Prome paths, or unsafe pushes. *(All agents are single-machine Claude Code sessions now; OpenClaw/VPS was cut 2026-06-26.)*
+Keep multiple concurrent Claude Code agents from clobbering one another through shared-index git operations, stale Prome paths, or unsafe pushes. *(All agents are Claude Code sessions under **serial multi-machine** operation — Will runs one box at a time, desktop ⇄ laptop, close-out-push before switching; OpenClaw/VPS was cut 2026-06-26. Machine-local inventory → `PROME/MACHINE_LOCAL.md`.)*
 
 This doc is the canonical coordination surface. The old `AGENTS/PROME/` tree is archived at `PROME/archive/AGENTS_PROME_LEGACY_2026-06-24/` and is not live intake, boot, or git protocol.
 
@@ -16,7 +16,7 @@ This doc is the canonical coordination surface. The old `AGENTS/PROME/` tree is 
 - Never use broad index operations: no `git add .`, no `git add -A`, no `git reset HEAD`, no force-push, no broad checkout.
 - Dirty tree means inspect and triage. Do not stash, reset, or pull to make the dirt disappear.
 - Use explicit pathspecs for adds and commits.
-- Local scoped commits use explicit pathspecs; **push is automated at closeout via `scripts/safe-push.sh`** (ff-gated, fails safe; single-machine predicate). YEYOU stays manual/branch (see Push Discipline).
+- Local scoped commits use explicit pathspecs; **push is automated at closeout via `scripts/safe-push.sh`** (ff-gated, fails safe; serial multi-machine predicate). YEYOU stays manual/branch (see Push Discipline).
 - No trade execution or external/public sends are authorized by this document.
 
 ## Ownership
@@ -99,13 +99,13 @@ Push is auto at closeout via ff-gated `scripts/safe-push.sh` (see Push Disciplin
 
 ## Push Discipline
 
-Push is **automated at closeout** via `scripts/safe-push.sh`, predicated on **single-machine operation** (Decision, Will 2026-06-26 — OpenClaw/VPS cut). The script:
+Push is **automated at closeout** via `scripts/safe-push.sh`, predicated on **serial multi-machine operation** (Will 2026-07-01: one machine at a time, close-out-push before switching; original single-machine decision Will 2026-06-26 — OpenClaw/VPS cut). The script:
 
 1. `git status --short --branch` + `git fetch` + `git rev-list --left-right --count HEAD...origin/master`.
 2. Pushes only on a clean **fast-forward**; **aborts cleanly if origin has commits we don't** (never force, never pull a shared tree).
 3. One closeout push sweeps all agents' local commits — the push-train, now automated.
 
-**Tripwire:** a non-ff abort = a 2nd machine pushed to origin → stop, flag Will, switch to per-agent branches. Fully reversible (revert the closeout step + restore the manual line = one commit).
+**Non-ff abort (updated 2026-07-01):** = the other machine pushed since this clone last pulled — **routine** under serial multi-machine. Do NOT force; `git pull --rebase` + re-push. **Tripwire (escalate to Will, consider per-agent branches):** rebase conflicts outside your own dir, or non-ff recurring mid-session — the signatures of two machines running simultaneously, which the protocol forbids. Fully reversible (revert the closeout step + restore the manual line = one commit).
 
 **YEYOU exception (Decision C, Will 2026-06-26):** YEYOU is a repo-wide reviewer on a branch model — it stays **manual/branch** (commits and branches locally, does **not** auto-push) until Will reviews. Its current landing rail is unchanged (below).
 

@@ -97,7 +97,7 @@
 - [Verify existence via external primaries](feedback_verify_existence_external_primaries.md) — fleet silence ≠ didn't happen; check primaries
 - [YoY base-effect → use multi-year stack](feedback_yoy_baseeffect_use_multiyear_stack.md) — YoY laps a break: read multi-year stack, not YoY
 - [Don't bank an unpassed forecast](feedback_dont_bank_unpassed_forecast.md) — keep pending forecasts in docket, not as fact
-- [Commit local, auto-push at closeout](feedback_defer_push_coordinate.md) — auto-push closeout; non-ff abort=2nd-machine flag
+- [Commit local, auto-push at closeout](feedback_defer_push_coordinate.md) — auto-push closeout; non-ff=routine rebase (serial multi-machine)
 - [Sub-agent propagation gap](feedback_subagent_propagation_gap.md) — closeout: diff subagent KB for unpropagated facts
 - [Use canonical measure for predictions](feedback_prediction_canonical_measure.md) — revise predictions off canonical series not proxy
 - [Single-month sub-component skepticism](feedback_single_month_subcomponent_skepticism.md) — single-month subcomponent: await 2nd-print confirm

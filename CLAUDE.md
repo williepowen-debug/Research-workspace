@@ -59,7 +59,7 @@ Agent state lives at `AGENTS/<NAME>/STATUS.md`. Position truth is **off-repo** (
 
 ## Git Protocol
 
-Agents share one working directory and branch. **GitHub is the single source of truth.** All agents pull at session start and **commit locally** at session end. **Push is automated at closeout via `scripts/safe-push.sh`** (fast-forward-gated, fails safe) — predicated on **single-machine operation** (no VPS/laptop/web pushing; OpenClaw/VPS was cut 2026-06-26). safe-push never force-pushes and **aborts cleanly if origin has commits we don't** (the cross-machine case), so one agent's closeout push safely sweeps everyone's local commits — the push-train, now automated rather than gated on a manual Will window.
+Agents share one working directory and branch. **GitHub is the single source of truth.** All agents pull at session start and **commit locally** at session end. **Push is automated at closeout via `scripts/safe-push.sh`** (fast-forward-gated, fails safe) — predicated on **serial multi-machine operation**: Will runs ONE machine at a time (desktop ⇄ laptop), closing out + pushing all agents before switching, so origin is always the handoff point (OpenClaw/VPS was cut 2026-06-26; machine-local infra inventory + switching checklist → `PROME/MACHINE_LOCAL.md`). safe-push never force-pushes and **aborts cleanly if origin has commits we don't**, so one agent's closeout push safely sweeps everyone's local commits — the push-train, now automated rather than gated on a manual Will window.
 
 > **`git add` ONLY files inside your own `AGENTS/<NAME>/` directory.** Never `git add .` or `git add -A`. If you need to commit a shared file (HEARTBEAT, FORGE, etc.), flag it to Prome — don't commit it yourself.
 
@@ -72,9 +72,10 @@ Agents share one working directory and branch. **GitHub is the single source of 
 **At session end:**
 1. Commit your files locally (follow "Before committing" below).
 2. **Auto-push at closeout** via `scripts/safe-push.sh` (ff-gated, fails safe) — wired into your closeout protocol. It sweeps all local commits in one fast-forward push (the push-train, now automated — see auto-memory `finding_push_train_pattern`). *(Rollout in progress: agents whose closeout/CLAUDE.md still say "defer push" simply commit-local and conservative — their commits ride the next agent's auto-push. Each is lazy-swept to this policy when next active.)*
-3. **If safe-push aborts (non-ff), do NOT force — note it and flag Will.** A non-ff abort means origin diverged (a 2nd machine pushed) — the tripwire to switch to per-agent branches.
+3. **If safe-push aborts (non-ff), do NOT force.** First response: `git pull --rebase`, then re-push — under serial multi-machine this is **routine** (the other machine pushed since this clone last pulled). **Escalate to Will (per-agent-branches tripwire) only if** the rebase hits conflicts outside your own dir, or non-ff recurs mid-session — either means two machines ran simultaneously, which the protocol forbids.
 
 **Before committing:** (pathspec pattern — avoids the shared-`.git/index` race; see auto-memory `finding_pathspec_commit_race_safety`, incident `8ac5bf71` Jun 4 2026)
+0. **Run ALL git operations (and `scripts/safe-push.sh`) from the repo root:** `cd "$(git rev-parse --show-toplevel)"` first. Git pathspecs resolve relative to cwd — from an agent's launch dir (`AGENTS/<NAME>/`), `git commit AGENTS/<NAME>/<file>` fails loudly, but **`git status -- AGENTS/<NAME>/` silently shows nothing** (a false-clean pre-commit check). Every `AGENTS/<NAME>/…` recipe below assumes root cwd.
 1. **For modified files:** `git commit AGENTS/<YOUR_NAME>/<file> -m "..."` — path-scoped commit, no separate staging step.
 2. **For new untracked files:** atomic `git add <specific files> && git commit <same specific files> -m "..."` — explicit paths only, **never `git add AGENTS/<YOUR_NAME>/` as a directory** (sweeps in unintended files).
 3. **Optional sanity check** between add and commit on new-file flows: `git diff --cached --stat`.

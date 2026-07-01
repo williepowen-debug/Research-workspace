@@ -19,7 +19,7 @@
 - **No agent edits** unless Will explicitly approves.
 - **No trade execution.** Old trade rails remain verification-required until broker/Will reconciliation.
 - **External/public sends require approval.**
-- **Push is auto at closeout** via ff-gated `scripts/safe-push.sh` (single-machine canon, per root `CLAUDE.md` Git Protocol) — *not* per-push Will approval. Committing your own `PROME/` files is fine; **shared/root** docs still need Will scope/approval. A **non-ff abort = 2nd machine pushed → stop, do NOT force, flag Will.**
+- **Push is auto at closeout** via ff-gated `scripts/safe-push.sh` (single-machine canon, per root `CLAUDE.md` Git Protocol) — *not* per-push Will approval. Committing your own `PROME/` files is fine; **shared/root** docs still need Will scope/approval. A **non-ff abort = the other machine pushed** (serial multi-machine, routine) → **do NOT force; `git pull --rebase` + re-push**; escalate to Will only on out-of-dir conflicts or mid-session recurrence.
 - **Shared repo coordination:** when YEYOU or another agent has local/branch work, use `PROME/GIT_COORDINATION.md` before committing, merging, or pushing.
 - **Multi-agent orchestration:** before spawning >1 agent, apply the **mode-split rule** (`PROME/ORCHESTRATION_PLAYBOOK.md`) — fan-out/Workflow for parallel-identical work, live teams-mode only for the decision spine. Carry the deliver-before-idle contract into every spawn prompt; go quiet to Will while agents work.
 
