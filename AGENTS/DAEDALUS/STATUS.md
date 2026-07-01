@@ -16,7 +16,7 @@ DAEDALUS sees the whole fleet, has one real build behind it (AEOLUS, 6/28), and 
 
 **6/29 — firm-next7 comprehension persisted:** wrote `profiles/` + `upgrades/` cards for all 7 (REGINALD/CARL/LABOR/BOND/HAWK/BRENT/ORACLE) via workflow `firm7-profiles-cards` (14 agents, comprehend→grade). The live re-read **obsoleted BATCH_02 item 7** (BRENT migrated TRADE.md to a live surface 6/29 → freezing it would be wrong; struck + flagged PROME), corrected REGINALD KB/FLOW to refresh-not-freeze, and routed 3 domain-lane drifts to owners (HAWK/BOND/LABOR). Banked **PAT-029** (re-read obsoletes in-flight batch items) + **PAT-030** (repurposed market-surface ≠ DARWIN debt). FLEET_MAP rows re-scored 6/29.
 
-**Open loop — waiting on PROME:** **BATCH_02 routed 6/28** (`upgrades/BATCH_02_handles.md` + `outbox/…BATCH_02…`), **still pending PROME+Will review** (PROME's 6/29 commits were all RESEARCH-INTAKE; no BATCH_02 response yet). Nothing applied — gated, correctly.
+**Open loop — RESOLVED 2026-07-01 (PROME review + Will-approved disposition).** BATCH_02 + HANDLE_SWEEP verified against live files (5-agent read-only workflow). **3 APPLIED by PROME on DAEDALUS's behalf** (CARL-4 BOTTOM LINE, BOND-SWEEP-A Independence col, HAWK-8 TRADE.md FROZEN); **1 STRUCK** (HAWK-9 misdiagnosis → re-filed as the boot-path fix below); **REG-2 HELD**; **CARL-SWEEP-B + HAWK-SWEEP verified NO-OP**; **rest task-packeted to owners** (REGINALD/LABOR/CARL/BOND — bundled with domain-drift). Full disposition banner in `upgrades/BATCH_02_handles.md`. **Lesson: several "encode-existing" self-labels were partial builds — read-verify before apply.**
 
 ## Build progress
 
@@ -41,7 +41,8 @@ DAEDALUS sees the whole fleet, has one real build behind it (AEOLUS, 6/28), and 
 - **Utility cohort un-firmed against the now-live standard:** WALTER, RED, TERRY, NEXUS, YEYOU graded before `utility-agent.md` existed (ORACLE already firmed L4). The named DAEDALUS-lane next.
 - **`templates/CLAUDE_TEMPLATE.md` not yet under BLUEPRINTS ownership** — still references deprecated HERMES; redirect + strip stale refs.
 - ~~profiles/cards fast-follow for the 7 firm-next7 agents~~ — ✅ **DONE 6/29** (all 7 profiled + carded; FLEET_MAP re-scored). Remaining un-profiled: the L2 market cohort (VIOLET/LIQUID/MARCO/OTTO/HANS/SAM) + the utility cohort (WALTER/RED/TERRY/NEXUS/YEYOU).
-- **Fleet-wide TRADE.md/ledger staleness sweep (PAT-025)** — confirmed fleet-wide (BRENT/HAWK violations + REGINALD KB/FLOW). Candidate: promote `ledger_staleness.py` to a shared script. Separate gated proposal.
+- **Fleet-wide TRADE.md/ledger staleness sweep (PAT-025)** — confirmed fleet-wide (BRENT/HAWK violations + REGINALD KB/FLOW). ~~Candidate: promote `ledger_staleness.py` to a shared script~~ — **CORRECTION (PROME 7/1): it is ALREADY a shared repo-root script** (`scripts/ledger_staleness.py`), called identically by 6 agents (CARL/REGINALD/BROCK/HAWK/BRENT/RED). Separate gated proposal for the *sweep* still stands.
+- **★ NEW (7/1, from the HAWK-9 strike) — ledger_staleness boot-path anchoring (fleet, ≈1 line × 6 files).** The 6 boot calls use a repo-root-relative path (`python3 scripts/ledger_staleness.py <NAME>`) with no `cd` to root, yet root CLAUDE.md launches agents from their OWN dir → the relative path may not resolve at boot = the staleness guard silently no-ops (worse than absent: false coverage). Fix = anchor the invocation (e.g. `$(git rev-parse --show-toplevel)/scripts/…` or absolute). Touches 6 agents' `CLAUDE.md` boot steps → gated (PROME/owner or DAEDALUS-lane). Verify by actually booting one agent from its own dir before/after.
 - Frozen-legacy ledgers lacking FROZEN banners (CREED legacy VX/FLOW under REGINALD/sub-agents) — fold into conformance batch.
 
 ## Next actions

@@ -57,15 +57,16 @@ Unanimous 12-0 hold at 3.50–3.75%; **hawkish pivot**: dot median +40bp (3.4→
 
 ## Convergence Matrix
 
-| Vector | Score | Status | Evidence | Upgrade Trigger |
-|---|---:|---|---|---|
-| Treasury auction health | 2 | 🟡 | June refunding cleared + **6/16 20Y STRONG** (BTC 2.75) + 6/18 TIPS solid — 3 clean-to-strong prints. | 2+ weak same-tenor OR >2bp tail at the **end-June 2Y/5Y/7Y** cluster. |
-| HY market function | 1 | 🟢 | HY OAS 263 (tighter). Bifurcation caveat (CCC/HY 3.57x widening; energy HY stale). | HY >300 watch; >350 + pulled deals = red. |
-| IG market function | 1 | 🟢 | IG OAS 74; no freeze. | +20bps/wk OR clustered pulled deals. |
-| Dealer absorption | **3** | 🟠 | FR2004 (5/27) long-end inventory near/at record (11–21Y $67.0B all-time high) — *stock*. June auction *flow* benign (20Y PD 8.5%, 10Y 9.4%). | Forced inventory decline in a selloff OR FR2004 fresh highs + weak auction. |
-| Long-end / duration | **2** | 🟡 | 10Y 4.45 / 30Y 4.90 below thresholds; **held below through the hawkish FOMC** (bear-flattener). Real-rate side rising (DFII10 2.23). | 10Y >4.6 OR 30Y >5.0 held **5 sessions** + weak auction, **OR DFII10 >2.5**. |
-| CDX-cash basis | 1 | 🟢 | Proxy (`monitors/cdx_proxy.py`) no divergence at cash. | Proxy z20 < −1.5 while HY tight, OR VIOLET reports skew steepening. |
-| Credit-equity lead | 1 | 🟢 | HY tight, VIX 16.8 — setup inactive. | HY OAS +75–100bp from trough while VIX <20. |
+| Vector | Score | Independence | Status | Evidence | Upgrade Trigger |
+|---|---:|---|---|---|---|
+| Treasury auction health | 2 | VX-08 (indirect), VX-09 (tail), VX-13 (FOI/TIC) roll up here — primary-demand; counted once. | 🟡 | June refunding cleared + **6/16 20Y STRONG** (BTC 2.75) + 6/18 TIPS solid — 3 clean-to-strong prints. | 2+ weak same-tenor OR >2bp tail at the **end-June 2Y/5Y/7Y** cluster. |
+| HY market function | 1 | VX-11 (CCC quality-tail) rolls up; HY-spread root; counted once. | 🟢 | HY OAS 263 (tighter). Bifurcation caveat (CCC/HY 3.57x widening; energy HY stale). | HY >300 watch; >350 + pulled deals = red. |
+| IG market function | 1 | VX-10 (IG primary) rolls up; IG-spread root; counted once. | 🟢 | IG OAS 74; no freeze. | +20bps/wk OR clustered pulled deals. |
+| Dealer absorption | **3** | VX-16 (buyback offer/accept) rolls up; dealer-stock root; counted once. | 🟠 | FR2004 (5/27) long-end inventory near/at record (11–21Y $67.0B all-time high) — *stock*. June auction *flow* benign (20Y PD 8.5%, 10Y 9.4%). | Forced inventory decline in a selloff OR FR2004 fresh highs + weak auction. |
+| Long-end / duration | **2** | VX-12 (term prem), VX-14 (real/BE), VX-15 (5Y5Y) roll up; duration root; counted once. | 🟡 | 10Y 4.45 / 30Y 4.90 below thresholds; **held below through the hawkish FOMC** (bear-flattener). Real-rate side rising (DFII10 2.23). | 10Y >4.6 OR 30Y >5.0 held **5 sessions** + weak auction, **OR DFII10 >2.5**. |
+| CDX-cash basis | 1 | Standalone proxy; no sub-vector feeder; not double-counted. | 🟢 | Proxy (`monitors/cdx_proxy.py`) no divergence at cash. | Proxy z20 < −1.5 while HY tight, OR VIOLET reports skew steepening. |
+| Credit-equity lead | 1 | Timing lens keyed off HY OAS (trigger = HY +75-100bp from trough; shares V2's root) — setup read, not an added level. | 🟢 | HY tight, VIX 16.8 — setup inactive. | HY OAS +75–100bp from trough while VIX <20. |
+<!-- Independence column added 2026-07-01 by PROME on DAEDALUS's behalf (HANDLE_SWEEP item BOND-SWEEP-A, Will-approved); encode-existing lift of the VX-08..16 sub-vector→headline feed mapping (composite note below) — no new analysis, composite 11/35 unchanged. -->
 
 **Composite: 11/35** (flat vs 6/15) — *scores the 7 headline vectors above; workbook `VX.tsv` also tracks 9 sub-dimension vectors (VX-08…16) that feed these, not double-counted into the composite.* The live gate was a net wash on the composite: a hawkish FOMC + strong 20Y + declaratory-Iran cancelled out. The narrative shift: **risk migrated to the front-end (Fed-path, HENRY's lane); BOND's long-end stayed anchored.** Dealer-inventory *stock* is the one durable elevated vector (re-pull FR2004 ~6/23). The single BOND-domain metric escalating is **DFII10 real yield (2.23, rising)** — the cleanest re-arm watch. *Structural backdrop (sweep 6/20, KB-053): NY Fed ACM 10Y term premium turned **+0.73% — positive first time since 2023**, and GAO data shows note/bond BTC has secularly declined 3.0x→2.5x — i.e., the 2.3x demand-hole threshold now sits just under the new structural norm, so a 2.3–2.4 print reads "below new-normal," not "fine."*
 

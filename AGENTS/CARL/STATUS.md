@@ -249,3 +249,13 @@ V9 merged into V8 (May 1). V15 Refi-Window dropped (RED domain).
 
 *Next catalysts: full dated feed in **`docket/CALENDAR.md`** (run `scripts/docket_countdown.py`). Highest-leverage near-term: **Jun 16-17 FOMC + SEP** — first dot-plot post-Waller, market pricing ~2-in-3 Oct hike vs Fed dots. Next breach test: **~mid-Aug NY Fed Q2 HHDC** (CRL-05 direct).*
 *Key docs: `thesis/THESIS.md` | `thesis/PREDICTIONS.tsv` | `thesis/CHANGELOG.md` | `workbook/KB.tsv` | `domain/sources/CVNA_FRAUD_WATCH.md` | `workbook/ABS_BASELINE.tsv` | `workbook/STATE_DIFFUSION.tsv`*
+
+---
+
+## BOTTOM LINE
+*As-of 2026-06-26 (this STATUS's session date — lead block carries full detail; not a fresh-data restamp).*
+
+**Convergence 52/70 (74%) — 🔴🔴 CRITICAL; thesis v2.6, Path C ACTIVE-RED (provisional).** The 6/22 paired re-score offset exactly — **V12 Fed-locked 4→5** (FOMC Jun-17 hawkish-relative + stagflationary SEP + a Warsh Fed = "locked, no relief"; first vector at 5) against **V5 Gas Squeeze 4→3** (gas falling 5 wks + Iran sanctions waived) — so the score **held by rebalancing, not weakening.** The live story: **energy disinflation is reversing the V12 expectations channel** (UMich 5-10Y back below the 3.5% Fed red line, sentiment bouncing) **while the core / PPI-6.5%-pipeline stagflation stays intact** — one-legged stagflation, rates leg live, energy leg inverted. Next breach test: **~mid-Aug NY Fed Q2 HHDC** (CRL-05 direct).
+
+<!-- BOTTOM LINE handle added 2026-07-01 by PROME on DAEDALUS's behalf (BATCH_02 item CARL-4, Will-approved); encode-existing synthesis of the lead block — no new analysis. -->
+

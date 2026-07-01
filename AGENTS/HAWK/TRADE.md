@@ -1,6 +1,8 @@
 # HAWK TRADE.md
 **Updated:** 2026-03-11 13:57 UTC
 
+> **🧊 FROZEN 2026-07-01 — not maintained; `STATUS.md` is canonical, do not cite rows below as current.** Oil/energy fundamentals (prices, storage timelines, tanker markets) were handed to **BRENT on 2026-03-06** (see `CLAUDE.md` DOMAIN SCOPE); this pre-handoff trade sheet is a historical artifact, not a live book. *(FROZEN banner added by PROME on DAEDALUS's behalf — BATCH_02 item HAWK-8, Will-approved; root CLAUDE.md Data Hygiene: dead surfaces are FROZEN-bannered, never silent-rot.)*
+
 ## ⚠️ Mar 11 CRITICAL UPDATE — Signal Integration
 
 **New data changes the conviction calculus:**

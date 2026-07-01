@@ -3,6 +3,14 @@
 **By:** DAEDALUS · **Date:** 2026-06-28 · **Status:** 🟡 DRAFT — routed to PROME (+Will) for review; **NOT applied.**
 **Source:** firm-next7 workflow (14 agents: 7 grade + 7 adversarial verify). Same gate as BATCH_01 (assess → propose → PROME review → apply; never auto-apply).
 
+> **↳ PROME REVIEW + DISPOSITION — 2026-07-01 (Will-approved).** Verified every item against the LIVE files via a 5-agent read-only workflow (one verifier per target agent). Outcome:
+> - **✅ APPLIED (3 — clean encode-existing, idle targets):** CARL-4 (STATUS BOTTOM LINE), BOND-SWEEP-A (Independence column), HAWK-8 (TRADE.md FROZEN banner). Applied by PROME **on DAEDALUS's behalf** (DAEDALUS offline); provenance stamped in each file + here.
+> - **✂️ STRUCK (1 — misdiagnosis):** HAWK-9 (see item 9). The script isn't missing; the real issue is a fleet-wide boot-path question, re-filed → DAEDALUS-lane.
+> - **📦 TASK-PACKETED (owner-judgment — heavy-churn or net-new derivation, not a clean lift):** REG-1 (partial *build* — the 1-5 score doesn't exist yet), REG-3, REG-SWEEP-A/B, LABOR-6, LABOR-10, LABOR-SWEEP-A/B, CARL-SWEEP-A, BOND-SWEEP-B → one bundled packet per agent (REGINALD/LABOR/CARL/BOND), each incl. that agent's domain-lane drift.
+> - **⏸ HELD:** REG-2 (NEXUS_BRIEF is a *build*, not a lift — justify vs the messaging-overhaul, same class as §C).
+> - **⭕ VERIFIED NO-OP:** CARL-SWEEP-B (already the blueprint exemplar — CRL-21 position-action), HAWK-SWEEP (§2/§5 N/A-by-design holds).
+> - **Lesson:** several items self-labeled "encode-existing" were actually partial builds (REG-1/REG-2, the net-new Independence/ACTION columns); the read-verify is what separated the clean lifts from the builds. Encode-existing self-labels need a live read before apply.
+
 > **↳ Re-validated 2026-06-29 (firm7-profiles-cards profile/card pass).** Two items changed since drafting: **item 7 (BRENT TRADE.md) is now OBSOLETE — strike it** (BRENT migrated TRADE.md to a live boot/closeout-wired surface 6/29, PAT-023 resolved; freezing a live surface would be wrong). **§D utility-agent.md is DONE** (built + ACTIVE 6/28). All other items stand. The pass also surfaced **net-new handles for a candidate BATCH_03** (catalogued in each agent's `upgrades/<A>_CARD.md`): REGINALD §5 If-Falsified ACTION + TRADE.md banner/refresh · CARL/LABOR/BRENT §2 Independence col · BOND/LABOR §5 ACTION col · HAWK 2nd dangling ref `CEASEFIRE_FADE_PROTOCOL.md` · BRENT CLAUDE threshold-drift line 168 · ORACLE §2 CONTRACT block. Plus **domain-lane drifts routed to owners via PROME** (not DAEDALUS edits): HAWK STATUS un-absorbed REMARK_20260628 (HAW-14 breached) · BOND unprocessed Will-approved coverage-extension SIG · LABOR spine-date + imminent Jun-30/Jul-2 catalyst cluster.
 
 ---
@@ -41,7 +49,7 @@
 |---|---|---|---|
 | 7 | ~~**BRENT** `TRADE.md` FROZEN banner~~ | **OBSOLETE — STRIKE.** BRENT migrated TRADE.md to a LIVE boot/closeout-wired surface 6/29 (commit 6b4f99ef); PAT-023 RESOLVED. Freezing a live surface would be wrong — no replacement. | — |
 | 8 | **HAWK** | `TRADE.md` — FROZEN banner (vestigial; oil handed to BRENT Mar-6) | S |
-| 9 | **HAWK** | fix dangling boot ref: `scripts/ledger_staleness.py` absent (CLAUDE boot step 5a calls it) — copy the working REGINALD one or remove the call | S |
+| 9 | ~~**HAWK** `ledger_staleness.py`~~ | **✂️ STRUCK 2026-07-01 (misdiagnosis, PROME-verified).** The script is NOT absent — it's a SHARED repo-root tool `scripts/ledger_staleness.py`, parameterized by agent name; 6 agents (CARL/REGINALD/BROCK/HAWK/BRENT/RED) call it identically. There is **no** `AGENTS/REGINALD/scripts/` copy to copy, and copying it into HAWK would create 6 divergent copies (anti-pattern). Verified it RUNS for HAWK (surfaced a real stale ledger, PRICE_BREACHES.tsv +67d). **Real residual (fleet-wide → re-filed DAEDALUS-lane):** the boot call is a repo-root-relative path with no `cd` to root, yet agents launch from their own dir → the path may not resolve at boot (silent no-op). Fix = anchor the path (≈1 line × 6 files), NOT a HAWK-local copy-in. | — |
 | 10 | **LABOR** | re-home the durable Green/Yellow/Orange/Red threshold bands (orphaned when VX.tsv was FROZEN — now only in a do-not-cite frozen ledger / Feb-stale EXPECTED_SIGNALS) into a live durable doc | M |
 
 *Items 7–9 touch other agents' data/config; for the FROZEN-vs-refresh data-liveness call, prefer routing a task-packet to the owner (as with BROCK item 5) unless it's an unambiguous banner.*
