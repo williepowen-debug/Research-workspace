@@ -23,10 +23,6 @@ node_modules/
 
 # Logs that shouldn't be versioned
 *.log
-tools/calendar/credentials.json
-tools/calendar/token.json
-tools/calendar/auth_state.json
-tools/calendar/flow_state.pkl
 .venv/
 
 # Windows download metadata
@@ -43,3 +39,7 @@ AGENTS/REGINALD/*/sources/q[1-4]_*/*
 # Local large/source artifacts — keep raw statutory PDFs out of Git
 AGENTS/SHADE/sources/athene_statutory_2026-06-15/*.pdf
 AGENTS/SHADE/research/tmp_aaia_extract/venv/
+
+# Sensitive material removed in the 2026-06 public-prep scrub — keep it out for good
+WILL/trading-journal/
+*.pkl
