@@ -12,7 +12,6 @@ Canonical paths remain `AGENTS/<NAME>/`. This file is an index only.
 | SAM | [`SAM/`](./SAM/) | Japan/BOJ/JGB/carry-unwind risk. |
 | ZHAO | [`ZHAO/`](./ZHAO/) | China, TIC, foreign UST demand, capital flows, HK peg. |
 | HANS | [`HANS/`](./HANS/) | Europe through US-risk lens: ECB, sovereign spreads, UST demand. |
-| FOREX | [`FOREX/`](./FOREX/) | FX workbook / currency transmission surface. |
 
 ## Transmission map
 
@@ -21,6 +20,10 @@ SAM / ZHAO / HANS → LIQUID
 BOND ↔ LIQUID ↔ HENRY
 Credit / energy shocks become systemic when LIQUID confirms funding amplification.
 ```
+
+## Archived / retired
+
+- **FOREX** retired → `AGENTS/_archive/FOREX/` (FX workbook scaffold, never launched). Residual FX/flows covered by ZHAO (TIC) + BOND.
 
 ## Closest bridges
 

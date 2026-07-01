@@ -1,5 +1,5 @@
 # PROME/ROSTER.md — Verified Agent Roster
-**Owner:** Prome · **Last verified:** 2026-06-27 (commit-activity + STATUS-recency pass)
+**Owner:** Prome · **Last verified:** 2026-06-27 (commit-activity + STATUS-recency pass) · folder-existence reconciled 2026-06-30
 
 **Method:** classification by **30/60-day git-commit activity** (the "is it actually running" signal) + STATUS mtime + self-declared domain — *not* a prose guess. Re-verify by re-running the activity map (`git log --since=<60d> --pretty=%s | grep -cE '^NAME'` per agent) and diffing against this table.
 
@@ -44,20 +44,19 @@ Verified by recent commit cadence; each runs as its own Claude Code session.
 | HANS | Geopolitics (energy-geo) | ~4 commits/30d |
 | OTTO | Auto-industry fraud & stress | 13/30d; STATUS 6/09 |
 
-## DORMANT — revive only on explicit need (5)
+## DORMANT — revive only on explicit need (4)
 | Agent | Domain | Why dormant |
 |---|---|---|
 | OZK | Bank OZK specialist | 0 commits/60d, cold since 4/24; revival-gated on Q2 print ~Jul-16 + live broker book |
 | SENTRY | Cross-domain signal pipeline | CI pipeline live but human-idle since 6/02; STATUS frozen 5/09 (Will → dormant 6/27) |
 | BARON | Trump financial-policy network | dormant since 5/08 |
 | ZHAO | China macro | last real work pre-April; only triage-touched 6/26 |
-| HERMES | Mail-carrier | deprecated by the messaging overhaul (`[[project_messaging_overhaul]]`) |
 
-## RETIRED — archived 2026-06-27 → `AGENTS/_archive/`
-**BUFFER** (shock-absorber / containment), **DOC** (system-health monitor), **EARNINGS** (corporate-earnings monitor), **FOREX** (FX monitor) — scaffolded but never launched (skeleton + empty workbooks, no STATUS, zero session commits). **DARWIN** was archived earlier (already in `AGENTS/_archive/`).
+## RETIRED — moved out of the live tree
+**In `AGENTS/_archive/`** (archived 2026-06-27): **BUFFER** (shock-absorber / containment), **DOC** (system-health monitor), **EARNINGS** (corporate-earnings monitor), **FOREX** (FX monitor) — scaffolded but never launched (skeleton + empty workbooks, no STATUS, zero session commits); **DARWIN** (archived earlier). **Folders removed entirely** (2026-06 public-prep prune; recoverable from git history): **HERMES** (mail-carrier, deprecated by the messaging overhaul `[[project_messaging_overhaul]]`), **REITS** (REIT tape → absorbed into CREED), **TRADES** (trade scratchpad → superseded by TERRY).
 
-## ARCHIVE SOURCES — do not launch (left in place)
-REITS (REIT tape, absorbed into CREED) · TRADES (old trade scratchpad, superseded by TERRY) · FERT · CRUISE (Will's personal-interest) · ATHENA (reading / knowledge).
+## ARCHIVE SOURCES — do not launch (folder left in place)
+FERT · CRUISE (Will's personal-interest) · ATHENA (reading / knowledge).
 
 ## SPECIAL
 **YEYOU** — repo-wide reviewer on a manual/branch model (not a domain agent; stays manual per Auto-push Decision C).
