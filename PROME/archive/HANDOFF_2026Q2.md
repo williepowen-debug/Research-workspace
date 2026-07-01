@@ -1162,3 +1162,16 @@ Open with Will at next-session start (Wed 5/27 AM):
 
 **Next:** **★ consumer wiring** — WALTER reads the lane + the liveness staleness check; without it 6 feeds collect *unread* = the COP failure mode. Then remaining feed menu (crude/energy CFTC COT, SAM Japan suite, broader EDGAR filing-watch, Polymarket/Kalshi). Separate hygiene: rotate hardcoded LLM/Google secrets in tracked files. Prior PROME lane still open: DAEDALUS BATCH_02 review, AEOLUS→MARCO routing, BROCK position-truth packet. Full detail → SCRATCH. *(HANDOFF now 8 entries — rotate oldest next closeout.)*
 
+## 2026-06-30 (Tue) — RESEARCH-INTAKE consumer wiring (option A → WALTER) + EIA/CFTC lane-alerts shipped + assessed Will's public-prep repo cleanup
+
+**What landed:** (1) **RESEARCH-INTAKE consumer wiring DECIDED = option A** — WALTER reads the lane + routes **lane-flagged breaches** through its existing delivery lane (gated to significance + de-duped on persistence), explicitly **NOT a passive dashboard** (COP + BOARD-v0.1 both rotted read-side → push+telemetry+significance-gating is the proven pattern; `[[finding_passive_surface_rot_push_not_dashboard]]`). Task packet routed → WALTER inbox; WALTER implements next boot. (2) **EIA/CFTC lane-alert layer shipped + pushed** (intake repo) — all 6 feeds now emit a uniform `alerts` vocabulary; EIA Cushing<20M=Boundary#3(red) + crude-WoW bands live + offline-tested; CFTC track-only pending VIOLET/SAM VIX band; confirm-asks routed to BRENT + VIOLET. (3) **Assessed Will's repo cleanup** (19 web-UI commits, public-prep) — all intentional + verified safe (live FORGE tooling intact); only real loss = 2 `trading-journal` broker photos (6/27-fresh, private → correctly removed). **Corrected my own overstatement:** SOUL.md was never actually injected (vestige, like HEARTBEAT) → harmless to delete.
+
+**Decisions Will made:** option A (gated-delivery, not dashboard); ship the EIA/CFTC enhancement; prune the repo for a public-facing role; secure my work + close out (paused the public-prep tasks).
+
+**Decisions needed from Will:** none open. Public-prep tasks queued, not blocking.
+
+**Risks/blockers:** **position truth now OFF-repo** (`WILL/trading-journal/` deleted) → re-route the on-repo pointers. **git-HISTORY still holds the deleted private data** (broker photos, old leaked tokens, Google OAuth secret) → a history scrub (filter-repo/BFG) is the real gate before publishing — NOT done by file deletion alone.
+
+**Next:** SCRATCH = entry point — public-prep sweep (a, re-route + SOUL-claim fix) + secret/history scrub (b); RESEARCH-INTAKE awaits WALTER + VIOLET band; carried lane = DAEDALUS BATCH_02 / AEOLUS→MARCO / BROCK packet.
+
+**Rules held:** no trade (standing rule); rebased-not-forced onto Will's 19 commits (safe-push ff, zero conflicts — isolated PROME/ scope); verified before asserting (caught + corrected my own SOUL "load-bearing" error before propagating). *(HANDOFF trimmed to latest ~6 — the two 2026-06-26 entries rolled off → `memory/2026-06-26.md`.)*

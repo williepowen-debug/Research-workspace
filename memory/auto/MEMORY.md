@@ -188,3 +188,5 @@
 - [DAEDALUS Encode-Existing Needs Live Read](finding_daedalus_encode_existing_needs_live_read.md) — read-verify each handle vs live file; self-labeled "lifts" are often partial builds
 - [Verify Runtime Context Before Tool Broken](finding_verify_runtime_context_before_tool_broken.md) — reproduce from the ACTUAL launch cwd both ways; test "convention" claims empirically
 - [Verify Recommended Fix Not Just Finding](finding_verify_recommended_fix_not_just_finding.md) — an audit's fix can contradict governance; verify the remedy separately, esp. if it expands autonomy
+- [Credential Scrub Needs Env-Stripped Verify](finding_credential_scrub_envstripped_verify.md) — grep ALL copies; test with key source stripped (soft-fail scripts blank silently)
+- [Write-Behavior Check Before Agent-Tool Run](finding_write_behavior_check_before_agent_tool_run.md) — grep an agent tool for writes before test-running it; boot kits mutate

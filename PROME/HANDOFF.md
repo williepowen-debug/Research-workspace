@@ -6,6 +6,14 @@
 
 ---
 
+## 2026-07-01 (Wed, PM) — cwd-proof fleet sweep + serial-multi-machine protocol + HY watch machine-independent + FRED key scrub
+
+**What landed:** (1) **BRENT's "script missing" signal exposed that the AM boot-path retraction over-corrected** — the bug was REAL (rc=2 from own-dir launch cwd; BRENT hit it in production) → Will-approved **cwd-proof sweep across 20 agents' boot/tool lines** (rev-parse/subshell idiom; every line executed from its breaking-direction cwd pre-commit), then an **18-reader full-file audit** (15 clean; 3 fixed incl. my own wrong cross-ref, CARL's broken-from-every-cwd BOARD diff, WALTER's silent false-all-clear scans); pattern-encode packet → DAEDALUS. (2) **NFP docket corrected**: 7/3 → **Thu 7/2 8:30 ET** (BLS-verified; COT → Mon 7/6). (3) **Serial multi-machine recognized** (Will: one box at a time) — this box lacks kalshi creds / HY timer / intake clone / mirror backup / gh → **`PROME/MACHINE_LOCAL.md`** inventory + switching checklist, boot-surfaced. (4) **HY>280/<260 watch re-based to RESEARCH-INTAKE** (GH Actions = machine-independent primary, intake `89b2e31`; live test caught a %→bps unit bug pre-ship; WALTER packet §8 routes; desktop timer = redundancy). (5) **Root Git Protocol amendment landed**: serial-multi-machine premise; non-ff = routine rebase; NEW step 0 = git ops from repo root (kills the silent false-pass of `git status -- AGENTS/<X>/`); mirrors swept (PROME docs + CLOSEOUT + memory). (6) **FRED key scrubbed from 10 files** → single per-machine home (gitignored FORGE `.env`); **env-stripped verify caught the soft-fail** (scripts reported success with FRED data silently blank) → `.env`-fallback loaders + loud warns; still-works proven env-stripped.
+
+**Decisions Will made:** boot-line fix package + fleet-wide extension; audit-driven fixes; tasks 1–3 (HY lane / amendment draft / MACHINE_LOCAL); land the amendment; scrub the FRED key; closeout+push. **Open for Will:** desktop `.env` one-liner; **rotate the FRED key** (literal persists in git history, repo flip-public bound); confirm box labels + desktop timer; kalshi creds copy (optional); public-flip (unchanged wait). **Incidents (restored + memoried):** VIOLET workbook + CARL GAS_TRACKER mutated by test-running agent tools → write-behavior check now precedes any agent-tool run.
+
+**Rules held:** every fix executed from its breaking-direction context before commit; independent full-file audit over self-verify; agent-file edits only under per-instance Will approval (named in commit bodies); pathspec commits from repo root throughout; foreign data restored, never committed.
+
 ## 2026-07-01 (Wed) — BATCH_02 dispositioned/applied/audited + CLOSEOUT procedure hardened (false alarm caught & retracted)
 
 **What landed:** Reviewed the parked DAEDALUS BATCH_02 (+HANDLE_SWEEP) via a 5-agent read-only verify workflow, then executed the Will-approved disposition on DAEDALUS's behalf (offline): **3 handles APPLIED** (CARL STATUS BOTTOM LINE · BOND convergence-matrix Independence column · HAWK TRADE.md FROZEN banner — idle targets, encode-existing, pathspec-committed leaving BRENT's concurrent live work untouched); **HAWK-9 STRUCK** (DAEDALUS misdiagnosis — `ledger_staleness.py` is the shared repo-root tool, nothing to copy); **REG-2 HELD** (build not lift); **CARL-SWEEP-B + HAWK-SWEEP NO-OP**; **rest task-packeted** to REGINALD/LABOR/CARL/BOND (bundled with each agent's domain-drift) + a HAWK STATUS-reconcile note (5d stale vs the live energy arc). Commits `bab38ebe`/`90cbf21b`/`38edde37` (+ memory), all swept to origin by BRENT's closeout push-train.
@@ -60,16 +68,3 @@
 
 **Rules held:** pathspec commits throughout (SAM never clobbered — verified each commit); read-before-delete (caught that `BOARD/` is live not retired → deferred it); all cuts recoverable from history; no trade (standing rule).
 
-## 2026-06-30 (Tue) — RESEARCH-INTAKE consumer wiring (option A → WALTER) + EIA/CFTC lane-alerts shipped + assessed Will's public-prep repo cleanup
-
-**What landed:** (1) **RESEARCH-INTAKE consumer wiring DECIDED = option A** — WALTER reads the lane + routes **lane-flagged breaches** through its existing delivery lane (gated to significance + de-duped on persistence), explicitly **NOT a passive dashboard** (COP + BOARD-v0.1 both rotted read-side → push+telemetry+significance-gating is the proven pattern; `[[finding_passive_surface_rot_push_not_dashboard]]`). Task packet routed → WALTER inbox; WALTER implements next boot. (2) **EIA/CFTC lane-alert layer shipped + pushed** (intake repo) — all 6 feeds now emit a uniform `alerts` vocabulary; EIA Cushing<20M=Boundary#3(red) + crude-WoW bands live + offline-tested; CFTC track-only pending VIOLET/SAM VIX band; confirm-asks routed to BRENT + VIOLET. (3) **Assessed Will's repo cleanup** (19 web-UI commits, public-prep) — all intentional + verified safe (live FORGE tooling intact); only real loss = 2 `trading-journal` broker photos (6/27-fresh, private → correctly removed). **Corrected my own overstatement:** SOUL.md was never actually injected (vestige, like HEARTBEAT) → harmless to delete.
-
-**Decisions Will made:** option A (gated-delivery, not dashboard); ship the EIA/CFTC enhancement; prune the repo for a public-facing role; secure my work + close out (paused the public-prep tasks).
-
-**Decisions needed from Will:** none open. Public-prep tasks queued, not blocking.
-
-**Risks/blockers:** **position truth now OFF-repo** (`WILL/trading-journal/` deleted) → re-route the on-repo pointers. **git-HISTORY still holds the deleted private data** (broker photos, old leaked tokens, Google OAuth secret) → a history scrub (filter-repo/BFG) is the real gate before publishing — NOT done by file deletion alone.
-
-**Next:** SCRATCH = entry point — public-prep sweep (a, re-route + SOUL-claim fix) + secret/history scrub (b); RESEARCH-INTAKE awaits WALTER + VIOLET band; carried lane = DAEDALUS BATCH_02 / AEOLUS→MARCO / BROCK packet.
-
-**Rules held:** no trade (standing rule); rebased-not-forced onto Will's 19 commits (safe-push ff, zero conflicts — isolated PROME/ scope); verified before asserting (caught + corrected my own SOUL "load-bearing" error before propagating). *(HANDOFF trimmed to latest ~6 — the two 2026-06-26 entries rolled off → `memory/2026-06-26.md`.)*
