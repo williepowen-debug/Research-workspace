@@ -1,15 +1,15 @@
 # ORCHESTRAL LAYER DESIGN
 
 **Date drafted:** 2026-05-18
-**Last updated:** 2026-05-19 (v3 brief-spec folded in after LIQUID + HENRY proxy prototypes)
-**Status:** design + Step 1 (fleet-scan) + Step 4 (revival-proxy) prototyped; iterating on revival-proxy v3 brief spec
+**Last updated:** 2026-07-01 (hygiene trim: prototype narrative compressed to a record block, dead pointers fixed, counts/claims re-based; design content unchanged). Substantive design last touched 2026-05-19 (v3 brief-spec folded in after LIQUID + HENRY proxy prototypes).
+**Status:** standing design reference — fleet-scan (Step 1) + revival-proxy (Step 4) validated 2026-05; adversarial-pair top-N (Step 3) still unprototyped/open
 **Drafted in:** Prome theory-crafting session with Will, post-memory-audit-001
 
 ---
 
 ## Problem statement
 
-Will's bottleneck is not execution speed — it's **direction overhead**. The fleet has ~13 active agents plus catalysts, open proposals, contradictions, and stale states. Tracking what each agent should be doing requires Will to carry the full landscape in his head every session, which doesn't scale.
+Will's bottleneck is not execution speed — it's **direction overhead**. The fleet has ~13 active agents *(at drafting, 2026-05; 21 verified active as of 2026-06-27 — `PROME/ROSTER.md`)* plus catalysts, open proposals, contradictions, and stale states. Tracking what each agent should be doing requires Will to carry the full landscape in his head every session, which doesn't scale.
 
 Will's framing: "It is hard to know how to direct the agents. There is so much data and so many threads to manage that I think I would benefit from help with an orchestral layer."
 
@@ -105,7 +105,7 @@ Each layer protects Prome's context:
 | Proposal | Agent | Status | Next action |
 ```
 
-Will opens this file at session start. Two minutes of reading replaces an hour of carrying state in head.
+The scan is rebuilt on demand (BOOT conditional read — between rebuilds `PROME/FLEET_SCAN.md` carries a superseded-snapshot header; rebuild before trusting). Two minutes of reading replaces an hour of carrying state in head.
 
 ## Ranking criteria for Section 6 (Top-N Moves)
 
@@ -130,37 +130,15 @@ Distilled from the retired `PROME/archive/TOSCANINI_2026-03/HUNTING.md`. The fle
 - **Completionism** — not every gap needs filling. Stale agents whose domain isn't active stay stale.
 - **Recency bias** — the signal that arrived 10 minutes ago isn't automatically more important than the one from two days ago still unprocessed.
 
-## Prototype path (5 steps)
+## Prototype record (2026-05-18/19 — validated; compressed 2026-07-01)
 
-1. **Step 1 ✅ Prototyped 2026-05-18 (v1 + v2):** Spawned fleet-scanner subagent (general-purpose, foreground). v1 produced `PROME/FLEET_SCAN.md`; Will feedback drove v2 with six improvements (two-column staleness — header age vs self-commit age; dormant pre-filter; merged open-loops section; explicit HUNTING-math; math discipline; as-of price labels). v2 is the live working surface.
+1. **Step 1 — fleet-scan: ✅ prototyped** (v1+v2 same day; Will's feedback drove six v2 improvements: two-column staleness, dormant pre-filter, merged open-loops, explicit HUNTING-math, math discipline, as-of price labels).
+2. **Step 2 — template iteration: ✅** v2 production-ready; the deferred v3 items were codified into the Revival-proxy v3 brief spec below (they apply identically to proxies and Section-6 ranking inputs).
+3. **Step 3 — adversarial-pair on top-N: NOT yet prototyped. Still open.**
+4. **Step 4 — revival-proxy: ✅ prototyped 2×** — LIQUID (validated the pattern) + HENRY (validated generalization; introduced the framing-precision overlay). Both fed the v3 brief spec below.
+5. **Step 5 — cadence: on-request** is the standing mode; revisit (ritual / scheduled / Telegram-push) only if Will asks.
 
-2. **Step 2 ✅ In progress:** Template iteration ongoing. v2 production-ready; v3 fleet-scan items deferred (directional semantics of kill levels; 5-7-point time series in pass-through; sweep-file internal triage; closeout-authorization of prior open questions) — **now codified into the Revival-proxy v3 brief spec below, since they apply identically to revival proxies and Section 6 ranking inputs.**
-
-3. **Step 3:** Layer adversarial-pair team on the top-N section. Scanner produces unranked candidates; pair refines to forced-rank top 3 with reasoning. (Same pattern as memory-audit-001.) **Not yet prototyped.**
-
-4. **Step 4 ✅ Prototyped 2× (2026-05-18):**
-   - **LIQUID** (plumbing/funding agent) — first prototype. Validated pattern. Headline diagnostic: bear thesis migrated PLUMBING → DURATION (10Y +30bps over 32d, TLT broke 🔴) not CREDIT (HY OAS only -5bps). Returned 4 v2 improvements (now in v3 brief spec).
-   - **HENRY** (market-structure agent) — second prototype, tests generalization from plumbing → market-structure. Validated pattern transfer. Headline diagnostic: COMPLACENCY TRAP invalidation triad approaching firing while substance accelerates the wrong way → trap clinching, not dying. Returned 5 additional v3 improvements (now in v3 brief spec). Also introduced **framing-precision overlay** as a new artifact type — see v3 spec.
-
-5. **Step 5:** Once Will finds the manual flow valuable, decide on cadence:
-   - On-request (current plan)
-   - Session-start ritual
-   - Daily scheduled routine
-   - Telegram push for exception alerts only
-
-## Next session entry point
-
-When Prome next boots, the entry point for this work is **Step 1**:
-- Will requests fleet scan (or Prome offers if no other priority displaces it)
-- Prome spawns a fleet-scanner subagent with the template above as its brief
-- Subagent produces `PROME/FLEET_SCAN.md` v1
-- Will and Prome review; iterate template
-
-Subagent brief should specify:
-- Output: `PROME/FLEET_SCAN.md` with the 7 fixed sections from the template above
-- Coverage: all `AGENTS/<NAME>/` directories present in the repo
-- Read budget: first 30 lines per STATUS; last 5 commits per agent dir; inbox file counts; HEARTBEAT catalyst calendar; TOSCANINI QUEUE
-- Return to Prome: ~10-line summary only (full output to file)
+**To run a scan today:** spawn a fleet-scanner sub-agent briefed with the template above — output → `PROME/FLEET_SCAN.md` (7 fixed sections), coverage = all `AGENTS/<NAME>/` dirs, ~10-line summary back to Prome. Read budget per the template header; open-loops inputs are `ACTIVE_DECISIONS`/`STATUS` (the old TOSCANINI QUEUE input is retired). For >1 agent, apply the mode-split rule first (`PROME/ORCHESTRATION_PLAYBOOK.md`).
 
 ## Revival-proxy v3 brief spec
 
@@ -216,12 +194,11 @@ When Will + Prome review a proxy packet and find the framing useful conceptually
 - ✅ **TOSCANINI revival — resolved 2026-05-18.** TOSCANINI retired; FLEET_SCAN.md replaced QUEUE.md as the open-loops surface; AUTONOMY.md + COMPLETION_SPEC.md salvaged to `PROME/`; HUNTING dimensions distilled into the Section 6 ranking rubric above; remaining files in `PROME/archive/TOSCANINI_2026-03/`.
 - ✅ **Revival proxy attribution — resolved by convention 2026-05-18.** Files use `_prome-spawned.md` suffix + PROVENANCE header; real agent owns commit on next boot. Validated on LIQUID + HENRY without identity smearing.
 - ✅ **Scanner read budget — resolved 2026-05-18.** First-30-lines proved insufficient for STATUS files with current-state headers further down; v2 budget includes inbox file counts + HEARTBEAT (full) + POSITIONS head + SCRATCH. v2 production-ready.
-- ✅ **Telegram-Prome vs CC-Prome split — resolved 2026-06-26.** Moot after the single-machine cutover: one CC Prome owns both the fleet-scan (subagent spawning, file writes) and the Will-facing synthesis (via Telegram). No cross-surface handoff to smooth.
+- ✅ **Telegram-Prome vs CC-Prome split — resolved 2026-06-26.** Moot after the OpenClaw cutover: one CC Prome (one machine at a time — serial multi-machine since 7/1) owns both the fleet-scan (subagent spawning, file writes) and the Will-facing synthesis (via Telegram). No cross-surface handoff to smooth.
 - **Adversarial-pair on Section 6 top-N (Step 3):** Not yet prototyped. Open.
 
 ## Related artifacts
 
 - `PROME/archive/teams_memory_audit_001/META_EVAL.md` — first teams test; established that adversarial-pair pattern produces measurably better output than solo for judgment-heavy bounded tasks. Same pattern proposed here for top-N refinement.
 - Auto-memory `feedback_adversarial_brief_for_pair_teams.md` — reusable lesson on how to brief adversarial teams (explicit "default to negative" + "engage genuinely, don't be agreeable" framing).
-- `PROME/CLAUDE.md` / root Prome boot surfaces — name the role this design is implementing. The old `AGENTS/PROME/CLAUDE.md` copy is archived.
-- `PROME/CLAUDE_CODE_PROME.md` — CC-Prome surface; orchestral layer is naturally a CC-Prome workflow.
+- `PROME/CLAUDE.md` / root Prome boot surfaces — name the role this design is implementing. The old `AGENTS/PROME/CLAUDE.md` copy is archived, and the old `CLAUDE_CODE_PROME.md` manual was retired to `PROME/archive/` 2026-06-26 (pre-cutover two-surface framing — there is one Prome now).

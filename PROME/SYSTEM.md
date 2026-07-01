@@ -1,5 +1,5 @@
 # Prome System Map
-**Created:** 2026-05-08 21:28 ET · **Updated:** 2026-06-26 (surgical refresh — de-date-pinned to behavior-language; CC-Prome status → operational; stale May action-items cleared)  
+**Created:** 2026-05-08 21:28 ET · **Updated:** 2026-07-01 (hygiene trim: dead `dashboard/server.py` row cut; OpenClaw spawn-prohibition → teams-mode reality; serial-multi-machine phrasing; HY-watch → intake-lane primary; FSK example marked historical; FORGE/STATUS caveat re-based). Prior: 2026-06-26 surgical refresh.  
 **Owner:** Prome  
 **Purpose:** Current architecture map for Prome’s operating system — what each file owns, what to trust, and where future Prome should look first.
 
@@ -47,7 +47,7 @@ Core rule:
 
 ## Prome Runtime
 
-Prome runs as a Claude Code session on Will’s desktop — **one identity, one machine, shared files as source of truth.** (Historically Prome also ran an always-on OpenClaw/VPS surface; that platform was cut 2026-06-26 — see `AGENTS/WALTER/design/OPENCLAW_CUTOVER_PLAN.md`.)
+Prome runs as a Claude Code session on Will’s current box — **one identity, one machine *at a time* (serial multi-machine, desktop ⇄ laptop — `PROME/MACHINE_LOCAL.md`), shared files as source of truth.** (Historically Prome also ran an always-on OpenClaw/VPS surface; that platform was cut 2026-06-26 — see `AGENTS/WALTER/design/OPENCLAW_CUTOVER_PLAN.md`.)
 
 Prome owns both halves of the work:
 
@@ -63,7 +63,7 @@ Primary shared files:
 - `PROME/BOOT.md` — boot sequence and ownership map.
 - `PROME/SYSTEM.md` — architecture map and trust layer.
 - `PROME/HANDOFF.md` / `PROME/SCRATCH.md` — session continuity and current-session handoff.
-- `PROME/STATUS.md`, `PROME/ACTIVE_DECISIONS.md`, `HEARTBEAT.md`, `MEMORY.md` — current-state and long-term context per their own rules.
+- `PROME/STATUS.md`, `PROME/ACTIVE_DECISIONS.md`, `HEARTBEAT.md`, auto-memory `MEMORY.md` (index; the old root `MEMORY.md` is now `KERNELS.md`) — current-state and long-term context per their own rules.
 
 Split-brain prevention: put facts in owner files and reference them elsewhere; update `PROME/HANDOFF.md` at the end of meaningful sessions when future-Prome continuity changes; update `PROME/SCRATCH.md` for the immediate next-session entry point.
 
@@ -113,10 +113,10 @@ Design principle:
 | `FORGE/research/` | Prome / domain-dependent | Thesis research outside a single agent. |
 | `FORGE/timing/` | Prome / timing thesis | Timing frameworks, changelog-first thesis files. |
 
-Important current example:
+Historical example of the ownership split (FSK May-11 event; card archived):
 
-- `AGENTS/BROCK/domain/sources/FSK_PREBUILD_MAY11.md` owns the FSK event framework.
-- `PROME/archive/action-cards/FSK_MAY11_ACTION_CARD.md` owns the portfolio/action mapping.
+- `AGENTS/BROCK/domain/sources/FSK_PREBUILD_MAY11.md` owned the event framework.
+- `PROME/archive/action-cards/FSK_MAY11_ACTION_CARD.md` owned the portfolio/action mapping.
 
 ---
 
@@ -141,12 +141,11 @@ Important current example:
 | `FORGE/tools/market-data/dashboard.py` | Live stress dashboard. | Run before citing current market levels. |
 | `FORGE/tools/market-data/fetch.py` | Live prices / FRED series. | Use for individual live data pulls. |
 | `FORGE/tools/news-sweep/sweep.py` | Thesis-tagged news sweep + routing (entity index / WATCH_FOR lists). | **Local cron is dead** (cut VPS); the fetch+classify logic is **revived in RESEARCH-INTAKE** (routing dropped). Use this copy mainly to edit the entity index. |
-| `dashboard/server.py` | Local web/API dashboard on `:8080`. | Use API endpoints if CLI is inconvenient. |
 | `FORGE/tools/filing-watch/` | EDGAR filing monitoring. | Useful for Qs/10-Q catalysts and Call Reports. |
 
 Known current caveat:
 
-- `FORGE/STATUS.md` was flagged stale by inbox signal; do not use it as fresh source until refreshed.
+- `FORGE/STATUS.md` (+`PORTFOLIO.md`) is the broker-export-refreshed structured position mirror — carries a STALE banner (last export 5/21); position truth is off-repo (Will/broker direct). Never cite its marks as current.
 
 ---
 
@@ -175,7 +174,7 @@ Trust each file's own `Updated:` stamp over any table here (behavior-language be
 
 ## Current Architecture Notes
 
-1. **Detection/action layer is now automated (2026-06-26).** Trigger detection runs unattended — LIQUID's `liquid-hy-watch` systemd timer (Mon–Fri 13:00 ET) classifies HY OAS against `config.py` bands and writes transitions to `AGENTS/LIQUID/alerts/`. The trigger→card path is tooled: `AGENTS/TERRY/scripts/{chain_fetch,grade_print}.py` + `TRADE_CARD_TEMPLATE_FIRE.md`. Standing rule: deploy fresh capital only on a fired trigger ([[feedback_deploy_on_trigger_not_calendar]]).
+1. **Detection/action layer is now automated (2026-06-26; re-based 2026-07-01).** Trigger detection runs unattended — the **RESEARCH-INTAKE lane is the machine-independent PRIMARY** for the HY OAS watch (GH Actions, weekday-daily, bands + named ≥280 X1-breach / <260 re-kill alerts); LIQUID's desktop `liquid-hy-watch` systemd timer is machine-local **redundancy** (dark when that box is off). The trigger→card path is tooled: `AGENTS/TERRY/scripts/{chain_fetch,grade_print}.py` + `TRADE_CARD_TEMPLATE_FIRE.md`. Standing rule: deploy fresh capital only on a fired trigger ([[feedback_deploy_on_trigger_not_calendar]]).
 
 2. **File-based messaging is in use but being replaced.** Don't patch inbox/outbox/HERMES hygiene gaps — flag and let them ride ([[project_messaging_overhaul]]).
 
@@ -199,5 +198,5 @@ Trust each file's own `Updated:` stamp over any table here (behavior-language be
 - External sends/posts/public actions require asking first.
 - Trade proposals require Will’s explicit approval. Never execute.
 - Use `trash` over `rm` for deletion.
-- Do not spawn persistent/managed agents: CARL, REGINALD, SAM, RED, BRENT.
+- All agents are Claude Code sessions (no persistent/managed agents — OpenClaw vestige removed 7/1). PROME may spawn domain agents via teams-mode when orchestrating; apply the mode-split rule (`PROME/ORCHESTRATION_PLAYBOOK.md`) before spawning >1, and release/alias warm-parked agents at closeout.
 - Before citing live prices, run the market-data dashboard or fetch tool.
