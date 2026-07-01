@@ -161,17 +161,24 @@ If none triggered, skip.
 ### Git sequence
 
 ```
-git status --short                                       # check scope
+git status --short                                       # overview of everything that changed this session
+git status -- PROME/ memory/                             # ⚠️ MANDATORY pre-commit check (root CLAUDE.md "Before committing" item 5):
+                                                         #    no dangling deletions (bash-mv residue), no forgotten new files, nothing staged outside scope
 # modified files — path-scoped commit, NO staging step (never `git reset HEAD`):
 git commit -m "PROME: <subject>" -- PROME/<file> PROME/<file>
 # new untracked files — atomic add+commit of EXPLICIT paths (never `git add PROME/` as a directory):
 git add -- PROME/<newfile> && git commit -m "PROME: <subject>" -- PROME/<newfile>
 # mixed modified + new files: add only new explicit paths first, then commit all explicit paths:
 git add -- PROME/<newfile> && git commit -m "PROME: <subject>" -- PROME/<modified> PROME/<newfile>
+# ⚠️ Chunk 2 outputs live OUTSIDE PROME/ — commit them too, or the memory/daily-log you just wrote never ships:
+git add -- memory/auto/<slug>.md && git commit -m "PROME: <subject>" -- memory/YYYY-MM-DD.md memory/auto/<slug>.md memory/auto/MEMORY.md
 ./scripts/safe-push.sh                                   # AUTO-PUSH at closeout — ff-gated, fails safe (Will 6/26, single-machine)
+# ⚠️ POST-PUSH VERIFY — do NOT assume it landed:
+#    "Pushed." (exit 0) = good · "ABORT: non-ff" = 2nd machine → do NOT force, flag Will · "Nothing to push" when you expected commits = you forgot to commit, go back
+git status --short --branch                              # final: confirm clean tree + "ahead 0, behind 0" BEFORE reporting "synced to origin"
 ```
 
-**Never `git reset HEAD`** — shared `.git/index` makes it a global unstage that races concurrent agents (auto-memory `[[finding_pathspec_commit_race_safety]]`, incident `8ac5bf71`). Matches root `CLAUDE.md` "Before committing".
+**Never `git reset HEAD`** — shared `.git/index` makes it a global unstage that races concurrent agents (auto-memory `[[finding_pathspec_commit_race_safety]]`, incident `8ac5bf71`). The scoped `git status -- PROME/ memory/` in the sequence above **is** root `CLAUDE.md`'s mandatory pre-commit check (item 5) — run it every time; see root `CLAUDE.md` "Before committing" for the full 5-step protocol.
 
 **Auto-push at closeout (Will 2026-06-26, single-machine).** Run `./scripts/safe-push.sh` as the closeout tail — it ff-gates the push and safely sweeps the push-train (`[[finding_push_train_pattern]]`). It **fails safe**: a non-fast-forward ABORT = a second machine pushed → stop, do not force, flag to Will (the tripwire that single-machine was violated). The script never pulls/touches a shared working tree, so other agents' uncommitted edits are never at risk. *CANONICAL since 2026-06-26 — soak passed, Tier-1 promoted: root `CLAUDE.md` + `PROME/GIT_COORDINATION.md` + `[[feedback_defer_push_coordinate]]` all say auto-push-at-closeout. Lazy-sweep COMPLETE 2026-06-27 (18/21 agent CLAUDE.md flipped; 3 deliberate holdouts: TERRY self-sweep, WALTER architectural, YEYOU manual). See `PROME/ROSTER.md`.*
 
@@ -214,8 +221,8 @@ One short message:
 | `PROME/STATUS.md` | Surgical update |
 | `PROME/ACTIVE_DECISIONS.md` | Surgical if a decision moved (boot decisions-read pair) |
 | `PROME/HANDOFF.md` | Append/rotate concise cross-runtime continuity entry when needed |
-| `memory/YYYY-MM-DD.md` | Create or append |
-| `~/.claude/.../memory/` (auto-memory) | Selective add only |
+| `memory/YYYY-MM-DD.md` | Create or append; **commit at closeout** (outside `PROME/` — see Chunk 4 git sequence) |
+| `memory/auto/` (auto-memory; `~/.claude/.../memory/` is a symlink to it) | Selective add only; **commit + push at closeout** (canonical git-tracked home is `memory/auto/`, outside `PROME/` — see Chunk 4) |
 | `PROME/BOOT.md` | Only if boot sequence / conditional modules changed |
 | `PROME/SYSTEM.md` | Only if architecture / Boot Trust Stack (doc-ownership) changed |
 | `PROME/AUTONOMY.md` | Only if autonomy changed |
