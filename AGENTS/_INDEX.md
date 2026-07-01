@@ -2,7 +2,7 @@
 
 **Purpose:** Human-friendly organization layer for the flat `AGENTS/<NAME>/` directory.
 
-**Important:** Canonical agent paths remain flat. Do **not** move active agent folders without a migration pass; many docs, scripts, and Claude/OpenClaw workflows reference `AGENTS/<NAME>/...` directly.
+**Important:** Canonical agent paths remain flat. Do **not** move active agent folders without a migration pass; many docs, scripts, and Claude Code workflows reference `AGENTS/<NAME>/...` directly.
 
 Canonical topology / transmission map: [`_NETWORK.md`](./_NETWORK.md).
 
@@ -12,58 +12,60 @@ Canonical topology / transmission map: [`_NETWORK.md`](./_NETWORK.md).
 |---|---|---|
 | Credit / Consumer / Banks | [`_CREDIT.md`](./_CREDIT.md) | Labor, consumer credit, housing, banks, Florida, REIT/CRE |
 | Private Credit / Insurance | [`_PRIVATE_CREDIT.md`](./_PRIVATE_CREDIT.md) | BDCs, CLOs, PE-insurance wrappers |
-| Energy / Geopolitics / Commodities | [`_ENERGY.md`](./_ENERGY.md) | Military shocks, oil, fertilizer, cruise/tourism, policy/geopolitical vectors |
+| Energy / Geopolitics / Commodities | [`_ENERGY.md`](./_ENERGY.md) | Military shocks, oil, climate→economy, fertilizer, cruise/tourism, policy/geopolitical vectors |
 | Funding / Macro / Market Structure | [`_FUNDING_MACRO.md`](./_FUNDING_MACRO.md) | Treasury plumbing, rates, Japan/China/Europe, FX, econ tape |
 | Synthesis / Trading / Operations | [`_SYNTHESIS_OPS.md`](./_SYNTHESIS_OPS.md) | Cross-agent synthesis, adversarial review, trade construction, delivery, research ops |
 
-## Canonical roster
+## Canonical roster (live)
+
+Active + Tier-2 domain owners and meta-agents with live folders. Full verified classification + evidence → [`../PROME/ROSTER.md`](../PROME/ROSTER.md).
 
 | Agent | Canonical path | Primary group |
 |---|---|---|
 | AEOLUS | [`AEOLUS/`](./AEOLUS/) | Energy / Commodities (climate→economy; cross-links Credit, Funding/Macro) |
-| ATHENA | [`ATHENA/`](./ATHENA/) | Synthesis / Ops |
-| BARON | [`BARON/`](./BARON/) | Energy / Geopolitics |
 | BOND | [`BOND/`](./BOND/) | Funding / Macro |
 | BRENT | [`BRENT/`](./BRENT/) | Energy / Geopolitics |
 | BROCK | [`BROCK/`](./BROCK/) | Private Credit |
-| BUFFER | [`BUFFER/`](./BUFFER/) | Synthesis / Ops |
 | CARL | [`CARL/`](./CARL/) | Credit |
 | CORAL | [`CORAL/`](./CORAL/) | Credit |
-| CREED | [`CREED/`](./CREED/) | Credit |
-| CRUISE | [`CRUISE/`](./CRUISE/) | Energy / Geopolitics |
-| DEWEY | [`DEWEY/`](./DEWEY/) | Synthesis / Ops |
-| DOC | [`DOC/`](./DOC/) | Credit |
-| EARNINGS | [`EARNINGS/`](./EARNINGS/) | Synthesis / Ops |
-| FERT | [`FERT/`](./FERT/) | Energy / Geopolitics |
-| FOREX | [`FOREX/`](./FOREX/) | Funding / Macro |
-| HANS | [`HANS/`](./HANS/) | Funding / Macro |
+| CREED | [`CREED/`](./CREED/) | Credit · Tier-2 (explicit-permission spawn) |
+| DAEDALUS | [`DAEDALUS/`](./DAEDALUS/) | Meta — fleet architect (on-demand) |
+| DEWEY | [`DEWEY/`](./DEWEY/) | Synthesis / Ops · Tier-2 |
+| HANS | [`HANS/`](./HANS/) | Funding / Macro · Tier-2 |
 | HAWK | [`HAWK/`](./HAWK/) | Energy / Geopolitics |
 | HENRY | [`HENRY/`](./HENRY/) | Funding / Macro |
-| HERMES | [`HERMES/`](./HERMES/) | Synthesis / Ops |
 | LABOR | [`LABOR/`](./LABOR/) | Credit |
 | LIQUID | [`LIQUID/`](./LIQUID/) | Funding / Macro |
 | MARCO | [`MARCO/`](./MARCO/) | Energy / Geopolitics / Credit bridge |
 | NEXUS | [`NEXUS/`](./NEXUS/) | Synthesis / Ops |
 | ORACLE | [`ORACLE/`](./ORACLE/) | Synthesis / Ops |
-| OTTO | [`OTTO/`](./OTTO/) | Credit |
-| OZK | [`OZK/`](./OZK/) | Credit |
+| OTTO | [`OTTO/`](./OTTO/) | Credit · Tier-2 |
 | RED | [`RED/`](./RED/) | Synthesis / Ops |
 | REGINALD | [`REGINALD/`](./REGINALD/) | Credit |
 | SAM | [`SAM/`](./SAM/) | Funding / Macro |
-| SENTRY | [`SENTRY/`](./SENTRY/) | Synthesis / Ops |
 | SHADE | [`SHADE/`](./SHADE/) | Private Credit |
 | TERRY | [`TERRY/`](./TERRY/) | Synthesis / Ops |
 | VIOLET | [`VIOLET/`](./VIOLET/) | Synthesis / Ops |
 | WALTER | [`WALTER/`](./WALTER/) | Synthesis / Ops |
-| ZHAO | [`ZHAO/`](./ZHAO/) | Funding / Macro |
+| YEYOU | [`YEYOU/`](./YEYOU/) | Meta — repo-wide reviewer (manual/branch) |
 
-## Archived / dormant folders
+*PROME runs from root [`../PROME/`](../PROME/); the historical `AGENTS/PROME/` tree is archived under [`../PROME/archive/AGENTS_PROME_LEGACY_2026-06-24/`](../PROME/archive/AGENTS_PROME_LEGACY_2026-06-24/).*
 
-| Folder | Status | Current owner |
+## Dormant / archive-source folders — present, do not launch without cause
+
+| Folder | Tier | Note |
 |---|---|---|
-| REITS | [`REITS/`](./REITS/) source archive only | Public REIT equity tape absorbed into [`CREED/`](./CREED/) |
-| TRADES | [`TRADES/`](./TRADES/) source archive only | Superseded by [`TERRY/`](./TERRY/) |
-| PROME | historical `AGENTS/PROME/` tree archived under [`../PROME/archive/AGENTS_PROME_LEGACY_2026-06-24/`](../PROME/archive/AGENTS_PROME_LEGACY_2026-06-24/) | Live Prome state lives in root [`../PROME/`](../PROME/) |
+| [`OZK/`](./OZK/) | dormant | Bank-OZK specialist; revive on Q2 print (~Jul-16) + live broker book |
+| [`SENTRY/`](./SENTRY/) | dormant | Cross-domain signal pipeline; human-idle since 6/02 |
+| [`BARON/`](./BARON/) | dormant | Trump financial-policy network; dormant since 5/08 |
+| [`ZHAO/`](./ZHAO/) | dormant | China macro / TIC / capital flows |
+| [`FERT/`](./FERT/) | archive-source | Fertilizer / food security — do not launch |
+| [`CRUISE/`](./CRUISE/) | archive-source | Cruise / tourism canary (Will's personal interest) — do not launch |
+| [`ATHENA/`](./ATHENA/) | archive-source | Reading / knowledge companion — do not launch |
+
+## Retired → `AGENTS/_archive/`
+
+BUFFER · DOC · EARNINGS · FOREX · DARWIN — scaffolded-but-never-launched or superseded; moved out of the live tree 2026-06-27. **HERMES** folder removed (mail-carrier deprecated by the messaging overhaul). **REITS** (REIT tape → [`CREED/`](./CREED/)) and **TRADES** (→ [`TERRY/`](./TERRY/)) folders were pruned in the 2026-06 public-prep cleanup.
 
 ## Maintenance rule
 

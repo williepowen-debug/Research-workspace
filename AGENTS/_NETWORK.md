@@ -2,7 +2,7 @@
 
 **Purpose:** canonical topology for agent transmission, synthesis, and routing.
 
-**Status:** live map source. Historical visual maps live in `PROME/archive/agent_network.*`. Do not maintain separate live topologies.
+**Status:** live map source. Historical visual maps live in `PROME/archive/agent_network.*`. Do not maintain separate live topologies. Dormant / archive-source / retired agents are omitted here (they don't currently transmit) — full roster + tiers → [`_INDEX.md`](./_INDEX.md) + [`../PROME/ROSTER.md`](../PROME/ROSTER.md).
 
 ## Core model
 
@@ -12,7 +12,6 @@ Prome is the chief-of-staff/orchestration layer. Domain agents own source-detail
 flowchart LR
     PROME[[PROME<br/>Chief of staff / orchestration]]
     WALTER[[WALTER<br/>Signal/news routing]]
-    HERMES[[HERMES<br/>Delivery utility]]
     NEXUS[[NEXUS<br/>Cross-agent synthesis]]
     RED[[RED<br/>Adversarial review]]
     VIOLET[[VIOLET<br/>Credit → vol lag]]
@@ -34,12 +33,11 @@ flowchart LR
         SHADE[SHADE<br/>PE-insurance wrappers]
     end
 
-    subgraph ENERGY[Energy / geopolitics / commodities]
+    subgraph ENERGY[Energy / geopolitics / commodities / climate]
         HAWK[HAWK<br/>Geopolitical / military]
         BRENT[BRENT<br/>Oil / energy markets]
-        FERT[FERT<br/>Fertilizer / food security]
-        CRUISE[CRUISE<br/>Cruise / tourism canary]
         MARCO[MARCO<br/>Migration / labor supply]
+        AEOLUS[AEOLUS<br/>Climate → economy]
         BARON[BARON<br/>Policy network]
     end
 
@@ -50,13 +48,10 @@ flowchart LR
         SAM[SAM<br/>Japan / BOJ / carry]
         ZHAO[ZHAO<br/>China / TIC / capital flows]
         HANS[HANS<br/>Europe / UST demand]
-        FOREX[FOREX<br/>FX workbook]
     end
 
     subgraph RESEARCH[Research / ops]
         DEWEY[DEWEY<br/>Deep research executor]
-        ATHENA[ATHENA<br/>Reading / knowledge]
-        BUFFER[BUFFER<br/>Handoffs / workbuffer]
     end
 
     %% Primary transmission chains
@@ -79,20 +74,18 @@ flowchart LR
     BRENT -->|inflation / demand destruction| HENRY
     BRENT -->|energy credit / funding shock| LIQUID
     BRENT -->|gas pump / consumer pressure| CARL
-    BRENT -->|feedstock shock| FERT
-    FERT -->|food CPI / affordability| CARL
-    BRENT -->|fuel / Gulf itineraries| CRUISE
-    CRUISE -->|tourism / port labor| CARL
     MARCO -->|labor supply / migration| LABOR
     MARCO -->|tourism / migration bridge| CORAL
     BARON -->|policy vector| HAWK
+    AEOLUS -->|energy demand| BRENT
+    AEOLUS -->|FL insurance / property| CORAL
+    AEOLUS -->|food CPI / migration| MARCO
 
     SAM -->|carry unwind / JGB stress| LIQUID
     SAM -->|carry volatility| HENRY
     ZHAO -->|foreign UST demand / capital flows| LIQUID
     ZHAO -->|Asia flow feedback| SAM
     HANS -->|Europe / UST demand| LIQUID
-    FOREX -->|currency transmission| LIQUID
     BOND -->|auctions / issuance / CDX-cash| LIQUID
     BOND -->|credit-equity lead| HENRY
     LIQUID -->|funding amplification| REGINALD
@@ -108,7 +101,6 @@ flowchart LR
     WALTER -->|routed signals| BRENT
     WALTER -->|routed signals| LIQUID
     WALTER -->|routed signals| NEXUS
-    HERMES -. delivery .-> WALTER
 
     LABOR --> NEXUS
     CARL --> NEXUS
@@ -138,8 +130,6 @@ flowchart LR
     NEXUS -->|decision synthesis| PROME
     PROME -->|tasking / priorities| WALTER
     PROME -->|research execution| DEWEY
-    ATHENA -->|knowledge cross-pollination| NEXUS
-    BUFFER -->|handoff support| PROME
 ```
 
 ## Chain summary
@@ -149,6 +139,7 @@ flowchart LR
 | Credit | LABOR → CARL → REGINALD → HENRY/LIQUID, with CREED feeding CRE/CMBS and public REIT tape bank-bridge stress | Claims/payroll composition, consumer DQ/housing, CRE maturity/default recognition, REIT equity/NAV/dividend stress, bank loss recognition, market repricing |
 | Private credit | BROCK → SHADE → LIQUID / REGINALD | Gates, PIK/NAV stress, insurer wrapper funding, NDFI bank bridge |
 | Energy shock | HAWK → BRENT → HENRY/LIQUID/CARL | Kinetic/chokepoint events, Brent/storage/insurance, inflation/demand destruction, energy credit |
+| Climate → economy | AEOLUS → BRENT / CORAL / MARCO | Insurance losses, ag/food supply shifts, energy-demand swings on a weather/structural horizon |
 | Japan/carry | SAM → LIQUID/HENRY | JGB/BOJ/carry unwind, USDJPY/FXY, global funding volatility |
 | Credit-to-vol | BOND/BROCK/REGINALD → VIOLET → HENRY/LIQUID/RED | Credit spreads or bank stress widen before VIX/vol catches up |
 
