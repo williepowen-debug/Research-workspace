@@ -6,7 +6,7 @@
 ---
 
 ## ★ Repo going public — Track B history scrub DONE (6/30 PM-2)
-**Track A (readability) DONE · Track B (git-history secret/private scrub) DONE + fresh-clone verified (`b01c0346`).** Repo on GitHub now provably clean (all secrets/private data gone from all 3,465 commits; history intact). **Remaining gate = Will flips repo → Public** (his action). Mirror backup retained until he confirms. Full record → `PROME/public-prep/HISTORY_SCRUB_PLAN.md`; lesson → `finding_history_scrub_verify_by_content_not_pickaxe`. (Lower-pri carry: essay revise; the (a) dangling-ref sweep of current docs; BOARD→WALTER thinning.)
+**Track A (readability) DONE · Track B (git-history secret/private scrub) DONE + fresh-clone verified (`b01c0346`).** Repo on GitHub now provably clean (all secrets/private data gone from all 3,465 commits; history intact). **Remaining gate = Will flips repo → Public** (his action). Mirror backup retained until he confirms. Full record → `PROME/public-prep/HISTORY_SCRUB_PLAN.md`; lesson → `finding_history_scrub_verify_by_content_not_pickaxe`. **★ 6/30 PM-3: root-doc review sweep of every root `.md` + roster-surface consolidation DONE** — repo now vestige-clean + roster-consistent (single source of truth = `PROME/ROSTER.md`). Lower-pri carry: essay revise; BOARD→WALTER thinning.
 
 ## RESEARCH-INTAKE wiring — routed (option A)
 WALTER reads the lane + routes lane-flagged breaches via its existing delivery lane (gated + de-duped). Packet in WALTER's inbox → implements next boot. EIA/CFTC uniform-alerts pushed to the intake repo (Cushing<20M=Boundary#3 live; CFTC track-only pending VIOLET band).

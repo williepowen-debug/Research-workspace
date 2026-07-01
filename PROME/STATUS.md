@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-06-30 (Prome) — **RESEARCH-INTAKE consumer wiring routed to WALTER (option A) + EIA/CFTC lane-alerts shipped**; assessed Will's public-prep repo cleanup (19 web deletions, verified safe). Prior 6/29: built the lane + graded 6PM oil = HOLDS. No trade executed (standing rule held). *Older infra detail → HANDOFF + memory.*
+**Updated:** 2026-06-30 (Prome, PM-3) — **root-doc review sweep COMPLETE** (every root `.md` cleaned for public; all roster surfaces consolidated to `PROME/ROSTER.md`). Prior PM: RESEARCH-INTAKE consumer wiring routed to WALTER + EIA/CFTC lane-alerts shipped; Track B history scrub done+verified. No trade (standing rule held). *Older infra detail → HANDOFF + memory.*
 
 ## Core State
 
@@ -73,4 +73,4 @@
 
 ## Next Best Action
 
-**Next session = PUBLIC-PREP (when Will resumes the thread):** (a) dangling-ref sweep — re-route the position-truth pointer now that `WILL/trading-journal/` is deleted + fix the `SOUL.md` "always injected" claims (vestige); (b) **secret + git-history scrub before publishing** (filter-repo/BFG — the real gate; deleted private data still in history). RESEARCH-INTAKE consumer wiring is **routed** (WALTER implements; VIOLET to set the VIX band) — not PROME-blocking. **Carried PROME lane:** DAEDALUS BATCH_02 review + utility-blueprint; route AEOLUS→MARCO C5 handshake; BROCK packet (note: its position-truth source `WILL/trading-journal/` is now deleted — reframe to off-repo/broker). **Forward docket:** 10Y/JOLTS + month-end rebalance 6/30 · EIA 7/1 · NFP+COT 7/3 · monolines 7/15-22 · Jul-16 banks · CPI 7/14. **Prior open:** credit-bear HY>280/wrapper-leading auto-watched; OZK Q2 ~Jul-16.
+**Public-prep essentially COMPLETE — only Will's public-flip remains** (his action/timing; DELIBERATE WAIT, don't nag). Done: Track B history scrub (verified `b01c0346`) + every root `.md` reviewed/cleaned + roster surfaces consolidated to `PROME/ROSTER.md` + `.gitignore` scrub-guards. After Will confirms public → delete the mirror backup. **Carried (parked, not blocking):** essay revise; BOARD→WALTER thinning; DAEDALUS BATCH_02 review; AEOLUS→MARCO handshake; BROCK reframe (position-truth off-repo); RESEARCH-INTAKE consumer wiring (WALTER implements; VIOLET sets VIX band). **Forward docket:** EIA 7/1 · NFP+COT 7/3 · monolines 7/15-22 · Jul-16 banks · CPI 7/14. Credit-bear HY>280/wrapper-leading auto-watched; OZK Q2 ~Jul-16.

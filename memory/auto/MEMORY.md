@@ -184,3 +184,4 @@
 - [Injection Claim Is OpenClaw Vestige](finding_injection_claim_is_openclaw_vestige.md) — verify a file is actually boot-loaded before calling it load-bearing
 - [Public-Prep for Anthropic Fellows](project_public_prep_anthropic_fellows.md) — repo→public portfolio; Track A done, Track B (history scrub) pending
 - [History-Scrub Verify by Content not Pickaxe](finding_history_scrub_verify_by_content_not_pickaxe.md) — read edited lines + blob-enumerate; scrub whole credential not half
+- [Roster Change Propagates to All Surfaces](finding_roster_change_propagates_to_all_surfaces.md) — roster edit? sweep every mirror + verify folders; point don't duplicate churny lists

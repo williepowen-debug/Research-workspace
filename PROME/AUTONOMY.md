@@ -50,7 +50,7 @@ These are never autonomous regardless of trust level.
 - Anything external (emails, messages to people, public posts)
 - Position recommendations or trade proposals
 - Deleting files (trash > rm, but still ask)
-- Modifying SOUL.md, USER.md, or AGENTS.md core sections
+- Modifying `AGENTS.md` core sections (roster / routing / spawn rules) or other agents' core/identity docs
 - Spending money (API calls with cost, marketplace purchases)
 - Contacting anyone on Will's behalf
 

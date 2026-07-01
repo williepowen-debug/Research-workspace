@@ -6,6 +6,20 @@
 
 ---
 
+## 2026-06-30 (Tue, PM-3) — root-doc review sweep (every root .md, public-prep) + roster-surface consolidation
+
+**What landed:** Will-directed file-by-file review of **every root `.md`** for the public-facing repo. **11 commits, all pushed, 0/0 throughout, no trade.** (1) **LESSONS.md** refreshed (de-OpenClaw #1/#11, renumber, +2 lessons, fix #12 injection claim). (2) **CALENDAR.md** retired → `archive/` (98d dead, superseded). (3) **★ Roster-surface consolidation (A+B+C+C2)** — the 6/27 retired-agent purge had never propagated; fixed across ALL surfaces: retired `AGENTS_DIRECTORY.md`, refreshed `AGENTS.md`, rebuilt `_INDEX`+`_NETWORK` (mermaid validated), swept the 5 `_*.md` group files, reconciled `PROME/ROSTER.md` folder-existence (HERMES/REITS/TRADES folders GONE). ROSTER = single roster source-of-truth; others point to it. (4) **.gitignore** — trimmed dead tools/calendar rules + defensive `WILL/trading-journal/`+`*.pkl` scrub-guards. (5) **README.md** assessed — kept (landing page, roster-consistent). (6) **CLAUDE.md** de-rot'd (stale count; roster drift → ROSTER pointer). (7) **HEARTBEAT.md** regime-state correction to canonical 6/29 record (energy tail → FRAGILE-WATCH, 6/28 oil HOLDS, 6/30 rebalance past; no fabricated levels). Also answered Will's memory-surface question (KERNELS = thesis spine vs `memory/auto/MEMORY.md` = injected findings index, 188 files intact).
+
+**Decisions Will made:** refresh LESSONS in place (all 5); retire CALENDAR; roster consolidation A+B → C → C2; .gitignore trim + defensive adds; keep README; CLAUDE.md A+B (slim); HEARTBEAT regime-state correction; close out (Heavy).
+
+**Decisions needed from Will:** flip repo → Public (his action/timing — DELIBERATE WAIT, don't nag); finalize essay edits.
+
+**Risks/blockers:** none open. Public-prep essentially complete (Track B scrub + every root doc clean). Mirror backup retained until Will confirms public. `memory/` + `memory/auto/` go public on flip (Will declined an audit for now — offer stands).
+
+**Next:** Will flips public → delete mirror backup. Carried (parked): essay revise; BOARD→WALTER thinning; DAEDALUS BATCH_02 / AEOLUS→MARCO / BROCK reframe; RESEARCH-INTAKE consumer wiring (WALTER). Full detail → SCRATCH + `memory/2026-06-30.md`. **Lesson → [[finding_roster_change_propagates_to_all_surfaces]].** *(HANDOFF now 10 — trim the three 6/27 entries → Q2 archive next closeout.)*
+
+**Rules held:** no trade (standing rule); pathspec commits (PROME/ + root docs, Will-approved each step); read-before-edit on every file; verified load-bearing claims vs filesystem before editing (folder existence, file counts, mermaid validation); no fabricated market levels in HEARTBEAT (corrected only to canonical internal record).
+
 ## 2026-06-30 (Tue, PM-2) — ★ Track B history scrub COMPLETE + verified (repo safe to flip public)
 
 **What landed:** Executed the git-history scrub — the real go-public gate. Plan/manifest → `PROME/public-prep/HISTORY_SCRUB_PLAN.md`. **Method:** `git filter-repo` from a pristine mirror backup; sidecar-rewrite → exhaustive verify → ONE force-push (**Landing A** — repo preserved; Will declined delete/recreate) → re-sync live + gc → fresh-clone proof; done while PRIVATE. **Removed from ALL history:** `WILL/trading-journal/` (private financial), `tools/calendar/` (Google `GOCSPX` OAuth secret + pickled tokens), `.venv/`+`*.pyc`/`__pycache__` (bloat 225M→131M), dead telegram token (id+secret), gateway token, WALTER live bot-ID (Will opted in). **★ The Will-requested double-check caught a real miss:** pass 1 scrubbed the bot-ID but left the dead token's 35-char SECRET half (old `cron_sweep.sh` hardcode) — caught by reading edited content + a blob-level secret enumeration; pass 2 (corrected, fresh from backup) scrubbed the whole credential. **Final:** origin==local==fresh-clone `b01c0346`; all targets 0; broad credential sweep 0; CASCADE research image byte-identical (base64 coincidence correctly NOT scrubbed); fsck clean; 3,465 commits / 5-mo history intact.
