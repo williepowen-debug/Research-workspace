@@ -22,7 +22,7 @@ Core rule:
 | File | Trust | Role |
 |---|---|---|
 | `CLAUDE.md` (root + `PROME/`) | High | Repo + PROME operating rules — the only docs Claude Code genuinely auto-injects. |
-| `MEMORY.md` (auto-memory, off-repo) | High for curated lessons; check freshness | Operating lessons / findings / feedback index — the genuinely-injected memory layer. |
+| `MEMORY.md` (auto-memory index — lives in-repo at `memory/auto/`, symlinked from `~/.claude`) | High for curated lessons; check freshness | Operating lessons / findings / feedback index — the genuinely-injected memory layer. |
 
 *(`AGENTS.md` + `USER.md` are **explicit boot-reads**, not injected — see the next table. `SOUL.md` + `IDENTITY.md` were deleted root-level in the 2026-06-30 public-prep cleanup.)*
 
@@ -167,7 +167,7 @@ Default to compact tool output so long sessions don't bloat the transcript. *(Re
 Trust each file's own `Updated:` stamp over any table here (behavior-language beats date-pinning — stamps decay). At boot, refresh in order: `HEARTBEAT.md` (regime) → `PROME/SCRATCH.md` + `HANDOFF.md` (session continuity) → `STATUS.md` / `ACTIVE_DECISIONS.md` (state).
 
 - **Live market levels:** always re-run `FORGE/tools/market-data/dashboard.py` / `fetch.py` before citing — never quote levels from state files.
-- **Position / execution truth:** Will + FORGE, not these docs — position truth is **off-repo** (Will/broker direct). The legacy `POSITIONS.md`/`TRADE_DECISIONS.md` decision-support docs were retired 2026-06-30 (POSITIONS deleted — held a broker balance; TRADE_DECISIONS → `PROME/archive/`), superseded by FORGE + **TERRY** (trade construction / risk). `FORGE/STATUS.md` refresh before use.
+- **Position / execution truth:** Will/broker direct (**off-repo**), not these docs — FORGE is only the stale structured mirror. The legacy `POSITIONS.md`/`TRADE_DECISIONS.md` decision-support docs were retired 2026-06-30 (POSITIONS deleted — held a broker balance; TRADE_DECISIONS → `PROME/archive/`), superseded by FORGE + **TERRY** (trade construction / risk). `FORGE/STATUS.md` refresh before use.
 - **On-demand:** `PROME/FLEET_SCAN.md` — rebuild for the current question before trusting.
 
 ---
@@ -178,7 +178,7 @@ Trust each file's own `Updated:` stamp over any table here (behavior-language be
 
 2. **File-based messaging is in use but being replaced.** Don't patch inbox/outbox/HERMES hygiene gaps — flag and let them ride ([[project_messaging_overhaul]]).
 
-3. **Execution truth lives outside these docs.** `FORGE/STATUS.md` + broker = ground truth; refresh before use. Retired Toscanini refs → `PROME/archive/TOSCANINI_2026-03/` (historical only).
+3. **Execution truth lives outside these docs.** Position truth is **off-repo** (Will/broker direct); `FORGE/STATUS.md`+`PORTFOLIO.md` is only the broker-export structured mirror (stale since 5/21) — never cite its marks as current. Retired Toscanini refs → `PROME/archive/TOSCANINI_2026-03/` (historical only).
 
 4. **Always-on collection now lives in the RESEARCH-INTAKE repo (2026-06-29).** Built as **GitHub Actions in a dedicated private repo, NOT a VPS** — collectors write only there, agents read read-only (no working-branch divergence by construction). 6 feeds weekday-daily; replaces the dead `/home/moltbot` VPS crons (news-sweep / dashboard). Open follow-up: consumer-wiring (an agent reading the lane + its `liveness` staleness check). [[project_research_intake_collection_lane]].
 

@@ -39,8 +39,8 @@
 5. `<gw-frag>…` (gateway token fragment) → `***REMOVED***`
 6. *(Belt+suspenders)* the `GOCSPX-…` value literal — though Bucket-A path removal already kills its only home.
 
-### Bucket C — SUBJECTIVE "unprofessional" content → **NEEDS WILL TO DEFINE**
-Candidates to discuss (NOT yet decided):
+### Bucket C — SUBJECTIVE "unprofessional" content → **RESOLVED 6/30: Will chose objective buckets only, subjective skipped (see C1)**
+Candidates discussed (decision: skipped):
 - The rest of `WILL/` in history (research, ideas, prompts, briefings, deck) — keep as portfolio material, or cut?
 - **Commit messages** — many are candid/venting ("PROME: finally fix the damn…"-style). Scan + rewrite messages too, or leave?
 - Any agent notes naming real third parties, personal frustration, or speculative/embarrassing analysis.
@@ -65,7 +65,7 @@ Ran on an isolated clone (live repo + GitHub untouched). One filter-repo pass: `
 
 **The only 2 pruned commits** were both **trading-journal-only** commits (`b47a7259` Mar-3 journal; `e2b6f24b` Jun-27 logs→photos) — i.e. they vanished *because* their whole content was the private data being removed. Longevity narrative intact.
 
-**Status: rewrite logic PROVEN. The remaining steps (Phase 4) are the irreversible ones and need Will's explicit go.**
+**Status: rewrite logic PROVEN. The remaining steps (Phase 4) are the irreversible ones and need Will's explicit go.** *(As-of-6/30 mid-run snapshot — Phase 4 was executed same day with Will's go; see FINAL OUTCOME below.)*
 
 ---
 

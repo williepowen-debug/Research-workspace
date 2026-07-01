@@ -138,7 +138,7 @@ Distilled from the retired `PROME/archive/TOSCANINI_2026-03/HUNTING.md`. The fle
 4. **Step 4 — revival-proxy: ✅ prototyped 2×** — LIQUID (validated the pattern) + HENRY (validated generalization; introduced the framing-precision overlay). Both fed the v3 brief spec below.
 5. **Step 5 — cadence: on-request** is the standing mode; revisit (ritual / scheduled / Telegram-push) only if Will asks.
 
-**To run a scan today:** spawn a fleet-scanner sub-agent briefed with the template above — output → `PROME/FLEET_SCAN.md` (7 fixed sections), coverage = all `AGENTS/<NAME>/` dirs, ~10-line summary back to Prome. Read budget per the template header; open-loops inputs are `ACTIVE_DECISIONS`/`STATUS` (the old TOSCANINI QUEUE input is retired). For >1 agent, apply the mode-split rule first (`PROME/ORCHESTRATION_PLAYBOOK.md`).
+**To run a scan today:** spawn a fleet-scanner sub-agent briefed with the template above — output → `PROME/FLEET_SCAN.md` (7 fixed sections), coverage = all `AGENTS/<NAME>/` dirs, ~10-line summary back to Prome. Read budget = the **v2** budget (first-30-lines proved insufficient — v2 adds inbox file counts + HEARTBEAT full + SCRATCH; see Open Questions below); open-loops inputs are `ACTIVE_DECISIONS`/`STATUS` (the old TOSCANINI QUEUE input is retired). For >1 agent, apply the mode-split rule first (`PROME/ORCHESTRATION_PLAYBOOK.md`).
 
 ## Revival-proxy v3 brief spec
 

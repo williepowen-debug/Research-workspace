@@ -21,7 +21,7 @@ These are internal actions that don't change thesis, don't touch positions, don'
 - Cross-reference and link existing research
 - **Build architecture required by in-progress work** (e.g., signal processing needs a folder → build it, don't stop to propose)
 - **Follow-up spawns within an already-approved workstream** (same direction, not new direction)
-- **Research/verification sub-agent spawns** (read-only fan-outs, verify passes, catch-up proxies) — report at closeout, not per-spawn
+- **Research/verification sub-agent spawns** (read-only fan-outs, verify passes) — report at closeout, not per-spawn. *(Full revival/catch-up programs are Tier 2 below.)*
 - **Prome inbox triage** — reading, summarizing, and archiving Prome's own intake. Housekeeping, not a proposal.
 
 **Visibility rule:** Tier 1 work is done freely and batched into the **closeout synthesis** (HANDOFF/SCRATCH update + Will-facing summary) rather than individual mid-session FYI pings. Exception: if a Tier 1 action surfaces something unexpected or thesis-relevant, flag it immediately.
