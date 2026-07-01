@@ -75,6 +75,8 @@ git commit -m "YEYOU: <subject>" -- AGENTS/YEYOU/<newfile>
 
 *(Relocated from `BOOT.md` 2026-07-01. Path-scoped commits avoid the shared-`.git/index` race — `[[finding_pathspec_commit_race_safety]]`.)* **Option order matters: put `-m` before `--`; everything after `--` is a pathspec.**
 
+**Step 0 — run ALL git ops (and `safe-push.sh`) from the repo root:** `cd "$(git rev-parse --show-toplevel)"` first. Pathspecs resolve relative to cwd — from a launch dir, `git status -- PROME/` silently false-passes (root `CLAUDE.md` Before-committing step 0, landed 2026-07-01).
+
 Modified tracked files — no staging step:
 
 ```bash
@@ -95,7 +97,7 @@ git add -- PROME/<newfile>
 git commit -m "PROME: <subject>" -- PROME/<modified> PROME/<newfile>
 ```
 
-Push is auto at closeout via ff-gated `scripts/safe-push.sh` (see Push Discipline below + root `CLAUDE.md` Git Protocol). Non-ff abort → stop, don't force, flag Will. Shared/root-doc commits still need Will scope.
+Push is auto at closeout via ff-gated `scripts/safe-push.sh` (see Push Discipline below + root `CLAUDE.md` Git Protocol). Non-ff abort = **routine** (serial multi-machine): don't force — `git pull --rebase` + re-push; escalate to Will only on the tripwire signatures in Push Discipline. Shared/root-doc commits still need Will scope.
 
 ## Push Discipline
 
@@ -107,17 +109,11 @@ Push is **automated at closeout** via `scripts/safe-push.sh`, predicated on **se
 
 **Non-ff abort (updated 2026-07-01):** = the other machine pushed since this clone last pulled — **routine** under serial multi-machine. Do NOT force; `git pull --rebase` + re-push. **Tripwire (escalate to Will, consider per-agent branches):** rebase conflicts outside your own dir, or non-ff recurring mid-session — the signatures of two machines running simultaneously, which the protocol forbids. Fully reversible (revert the closeout step + restore the manual line = one commit).
 
-**YEYOU exception (Decision C, Will 2026-06-26):** YEYOU is a repo-wide reviewer on a branch model — it stays **manual/branch** (commits and branches locally, does **not** auto-push) until Will reviews. Its current landing rail is unchanged (below).
+**YEYOU exception (Decision C, Will 2026-06-26):** YEYOU is a repo-wide reviewer on a branch model — it stays **manual/branch** (commits and branches locally, does **not** auto-push) until Will reviews.
 
-## Current YEYOU Landing Rail
+## YEYOU Landing Rail — RESOLVED 2026-06-25
 
-As of 2026-06-24:
-
-- `master` is ahead of `origin/master` with HANS work.
-- YEYOU has branch work at `origin/claude/busy-rubin-bo2hu5`.
-- Current `master` also has dirty/untracked `AGENTS/YEYOU/*` files.
-
-Do not blindly merge or push. First reconcile current dirty `AGENTS/YEYOU/*` against the YEYOU branch. Then land YEYOU via Will-approved squash, cherry-pick, or clean merge onto `master`.
+The 2026-06-24 landing situation (master ahead with HANS work; YEYOU branch at `origin/claude/busy-rubin-bo2hu5`; dirty `AGENTS/YEYOU/*`) was resolved 2026-06-25 via a Will-approved curated worktree landing — the branch is gone from origin (`[[finding_curated_worktree_branch_landing]]`). For any future YEYOU branch landing, reuse that pattern: isolated worktree, curate file-by-file, FF-only merge.
 
 ## Reporting
 
@@ -138,5 +134,3 @@ Prome boot should reference this doc when:
 - YEYOU has active review or branch work.
 - A commit/push/merge decision is being considered.
 - The old `AGENTS/PROME/` tree appears in a search result or proposal.
-
-YEYOU should eventually add a short pointer to this doc in its live boot surface after its branch/worktree is reconciled.

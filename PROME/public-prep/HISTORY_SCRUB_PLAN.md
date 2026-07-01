@@ -1,6 +1,6 @@
 # History Scrub Plan (Track B) — go-public gate
 
-**Owner:** Prome · **Created:** 2026-06-30 · **Status:** PLANNING (no rewrite run yet)
+**Owner:** Prome · **Created:** 2026-06-30 · **Status:** ✅ EXECUTED + VERIFIED 2026-06-30 (pass 2, final state `b01c0346` — see FINAL OUTCOME below). **Live remainder: Will flips repo public → Phase 5 post-flip verification.** Retained as the reusable history-scrub playbook (`[[finding_history_scrub_verify_by_content_not_pickaxe]]`); archive after Phase 5. *(Header corrected 7/1 — it still said PLANNING after execution.)*
 **Goal:** rewrite git history to remove private/secret/unprofessional content from ALL commits, so the repo can flip PUBLIC as Will's Anthropic Fellows (Economics & Policy) portfolio piece.
 **Parent:** [[project_public_prep_anthropic_fellows]] · Track A (readability) = DONE.
 
@@ -81,11 +81,11 @@ Ran on an isolated clone (live repo + GitHub untouched). One filter-repo pass: `
 
 **Final verified state (fresh GitHub clone):** all targets **0** across full history; broad credential sweep **0**; 3,465 commits / 3,925 files / README+essay intact; CASCADE image intact; fsck clean; fresh-clone == origin == local = **`b01c0346`**.
 
-**Repo is clean and SAFE TO FLIP PUBLIC.** Pre-scrub mirror backup retained at `~/Research-workspace-PRESCRUB-BACKUP-20260630.git` until Will confirms.
+**Repo is clean and SAFE TO FLIP PUBLIC.** Pre-scrub mirror backup retained at `~/Research-workspace-PRESCRUB-BACKUP-20260630.git` **on the DESKTOP** (not present on the laptop — serial multi-machine, see `PROME/MACHINE_LOCAL.md`) until Will confirms public.
 
 ---
 
-## PHASED PLAN
+## PHASED PLAN *(Phases 0–4 EXECUTED 2026-06-30 — retained below as the reusable playbook; Phase 5 is the only live remainder)*
 
 **Phase 0 — Prep & backup** *(no rewrite)*
 - Install `git-filter-repo` (into `.venv` or as standalone script).
@@ -127,11 +127,11 @@ Two landing options (the difference is what happens to old secret-bearing commit
 2. **Sidecar rewrite** — never experiment in the live working dir.
 3. **Verify-before-force-push** — 0-hit confirmation on every target + KEEP-content intact.
 4. **One pass.** No iterative force-pushes against origin.
-5. **Single-machine assumption holds** — no other clone will pull mid-rewrite. Force-push is safe because we control the only consumer.
+5. **Single-machine assumption held at execution (2026-06-30).** For any future reuse under the serial-multi-machine canon (7/1): close out + push the OTHER box first and leave it off — no other clone may pull mid-rewrite.
 6. Repo stays **PRIVATE** until Phase 4 verification passes.
 
-## Decisions needed from Will (gating)
-- **C1.** "Unprofessional" criteria (Bucket C) + the rest of `WILL/` in history: keep or cut?
-- **C2.** Scan/rewrite **commit messages**, or file contents only?
-- **C3.** Confirm OK to **install `git-filter-repo`** + take the **mirror backup** (Phase 0 — both harmless/reversible).
-- **C4.** (Independent of repo) has the **Google OAuth client** ever been rotated? If not, plan to revoke.
+## Decisions needed from Will (gating) — ✅ ALL RESOLVED 2026-06-30
+- **C1.** ~~"Unprofessional" criteria (Bucket C)~~ → **Will 6/30: objective buckets only, skip subjective.** *(`WILL/` trading-journal cut; Will separately deleted the rest of `WILL/` via web-UI 6/30.)*
+- **C2.** ~~Commit messages?~~ → **Will 6/30: file contents only, not messages.**
+- **C3.** ~~filter-repo install + mirror backup OK?~~ → **Approved + executed 6/30.**
+- **C4.** ~~Google OAuth client rotation?~~ → **Will 6/30: OAuth already dead.**

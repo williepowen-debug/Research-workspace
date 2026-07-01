@@ -7,8 +7,8 @@
 **Backstop:** <date/time or condition>
 **Default:** <hold / trim / roll / let expire / cancel / ask Will>
 **Source:** `<pre-build / domain source path>`
-**Position:** `PROME/POSITIONS.md` updated <date>
-**Spec:** `PROME/EXECUTION_RAILS.md` + `PROME/DECISION_FLOW.md`
+**Position:** off-repo broker truth (Will/broker direct — pull the live book at fire-time, rule #4); structured mirror = `FORGE/STATUS.md` + `FORGE/PORTFOLIO.md`
+**Spec:** State vocabulary is inline above (same set as `PROME/ACTIVE_DECISIONS.md` rules); full rails spec archived → `PROME/archive/EXECUTION_RAILS.md` + `PROME/archive/DECISION_FLOW.md` *(pointers repointed 7/1 after the 6/30 public-prep prune)*
 
 ---
 
@@ -18,7 +18,7 @@
 
 This card is **not** a trade order. It defines allowed/forbidden actions and the decision prompts to bring to Will. Any trade or external action requires Will’s approval.
 
-**State rule:** use one canonical `State` from `PROME/EXECUTION_RAILS.md`. `WILL_APPROVED` is not complete; `BROKER_PENDING` means live operational risk until verified.
+**State rule:** use one canonical `State` from the header list above (canonical vocabulary shared with `PROME/ACTIVE_DECISIONS.md`; full archived spec: `PROME/archive/EXECUTION_RAILS.md`). `WILL_APPROVED` is not complete; `BROKER_PENDING` means live operational risk until verified.
 
 ---
 
@@ -69,8 +69,8 @@ This card is **not** a trade order. It defines allowed/forbidden actions and the
 5. Apply this Action Card.
 6. If proposing action, give Will max 2 options and one recommendation.
 7. If Will approves, immediately update Status / Owner / Next action; do not call it complete until verified.
-8. Log final decision in `PROME/TRADE_DECISIONS.md`.
-9. If trade-related, update position/source-of-truth files after fills.
+8. Log final decision as a row in `PROME/ACTIVE_DECISIONS.md` + record it in the originating agent's `STATUS.md` (close the proposal loop, root rule #10).
+9. If trade-related, position truth updates off-repo (Will/broker); refresh the FORGE mirror only on a broker export.
 10. Update `HEARTBEAT.md` if the regime, catalyst queue, or pending decisions changed.
 
 ---
