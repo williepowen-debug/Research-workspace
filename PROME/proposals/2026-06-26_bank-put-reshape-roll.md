@@ -1,7 +1,7 @@
 # Bank-Put Book — Reshape / Duration-Roll Proposal
-**Date:** 2026-06-26 ~10:55 ET · **Author:** Claude Code Prome · **Status:** PROPOSE-ONLY — needs Will [Approve] (rule #5). No execution.
+**Date:** 2026-06-26 ~10:55 ET · **Author:** Claude Code Prome · **Status:** PROPOSE-ONLY — needs Will [Approve] (rule #5). No execution. *Refreshed 2026-07-01: WAL Q2 date corrected Jul-30→**Jul-16** throughout (per the 6/26 correction in ACTIVE_DECISIONS); dead pointers repointed. Still SHELVED_PENDING_TRIGGER (HY>280 sustained / WAL Jul-16 print).*
 **Mandate:** Will 6/26 — "reshape within budget; build the full roll proposal." Reshape = recycle decaying premium, **no new net risk**.
-**Inputs:** current book (WILL/trading-journal/current book 1.JPG + 2.JPG, 10:33 ET snapshot) × live prices + live 2027 option chains (yfinance, ~10:50 ET 6/26).
+**Inputs:** current book (Will's broker snapshot, 10:33 ET 6/26 — position truth is off-repo, Will/broker direct; re-pull the live book at fire-time, rule #4) × live prices + live 2027 option chains (yfinance, ~10:50 ET 6/26).
 **Thesis base:** the 2026-06-26 verification pass (Tiers 1–3) — thesis SURVIVES; realized transmission window = **Q1–Q2 2027**; the two live Q2-able exceptions = **(b) AOCI/rates + (c) WAL single-name**; path (a) consumer/broad-regional TRIMMED to ~15–22%.
 
 ---
@@ -12,7 +12,7 @@ The book is positioned for a 2026 event; the thesis defers realized transmission
 
 | Path | Catalyst | Correct duration | Current book | Action |
 |---|---|---|---|---|
-| **(c) WAL single-name** | **WAL Q2 print Jul-30-26** | Sep-2026 puts CAPTURE it | WAL 75 P Sep-18-26 (fresh), 70 P Sep, 67.5 P Oct | **KEEP** — already correctly dated |
+| **(c) WAL single-name** | **WAL Q2 print Jul-16-26** *(corrected from Jul-30, 6/26)* | Sep-2026 puts CAPTURE it | WAL 75 P Sep-18-26 (fresh), 70 P Sep, 67.5 P Oct | **KEEP** — already correctly dated |
 | **(b) AOCI / rates** | slow rate grind, no single date | needs 2027 duration | TLT 85 P Sep-26 / 82 P Oct-26 (too short) | **ROLL → TLT 2027 puts** |
 | **(a) broad regional** | Q2 prints Jul 16–22 | n/a — path TRIMMED | KRE/OZK/ZION/HBAN short-dated, deep-OTM, −65→−99% | **HARVEST** (recycle into b) |
 
@@ -51,7 +51,7 @@ KRE 65 P Jun-30 ($16) · KRE 63 P Jun-30 ($2) · KRE 60 P Jul-17 ($27) · OZK 42
 - **TBT (long, 14 sh)** — open-ended rate-up equity expression for (b); HOLD (no theta).
 
 ## C. KEEP — path (c) WAL is already correctly dated
-- **WAL 75 P Sep-18-26** (fresh add, ~8% OTM) + WAL 70 P Sep-18-26 ($160) + WAL 67.5 P Oct-16-26 ($115). All capture the **Jul-30-26** print. No roll needed now. Re-evaluate after Jul-30: if the print delivers → harvest; if thesis intact but unrealized → THEN roll to WAL Jan-15-27.
+- **WAL 75 P Sep-18-26** (fresh add, ~8% OTM) + WAL 70 P Sep-18-26 ($160) + WAL 67.5 P Oct-16-26 ($115). All capture the **Jul-16-26** print. No roll needed now. Re-evaluate after Jul-16: if the print delivers → harvest; if thesis intact but unrealized → THEN roll to WAL Jan-15-27.
 
 ---
 
@@ -67,7 +67,7 @@ KRE 65 P Jun-30 ($16) · KRE 63 P Jun-30 ($2) · KRE 60 P Jul-17 ($27) · OZK 42
 | TLT 85 P | **Jun-17-27** | 2.55 / 2.66 | 30,740 | ~2.5% OTM | more time |
 | TLT 80 P | Jun-17-27 | 1.01 / 1.08 | 93,270 | ~8% OTM | most time + liquid |
 
-**Optional path-(c) 2027 roll (only if Will wants WAL duration NOW vs waiting for Jul-30):** WAL Jan-15-27 — but **expensive + illiquid**: 75 P 6.20/7.80 (20% spread), IV 47%, OI 25; 80 P 7.3/8.6, OI 263. Recommend NOT forcing this — the Sep WAL puts already capture Jul-30. Flagged for completeness.
+**Optional path-(c) 2027 roll (only if Will wants WAL duration NOW vs waiting for Jul-16):** WAL Jan-15-27 — but **expensive + illiquid**: 75 P 6.20/7.80 (20% spread), IV 47%, OI 25; 80 P 7.3/8.6, OI 263. Recommend NOT forcing this — the Sep WAL puts already capture Jul-16. Flagged for completeness.
 
 ---
 
@@ -77,13 +77,13 @@ KRE 65 P Jun-30 ($16) · KRE 63 P Jun-30 ($2) · KRE 60 P Jul-17 ($27) · OZK 42
 
 **V2 — balanced (b)+regional tail.** Split: ~$450 into TLT 2027 + roll the KRE Dec-26 ($276) → KRE Mar-31-27 67–70 P to keep a small regional tail alive through the Jul GATE. Rationale: retains optional path-(a) exposure for the Jul 16–21 prints the grading instrument watches.
 
-**V3 — (b) + force (c) 2027.** TLT 2027 + 1× WAL 75 P Jan-15-27 (~$700 mid). NOT recommended — doubles WAL when Sep already covers Jul-30, and pays a punishing spread/IV.
+**V3 — (b) + force (c) 2027.** TLT 2027 + 1× WAL 75 P Jan-15-27 (~$700 mid). NOT recommended — doubles WAL when Sep already covers Jul-16, and pays a punishing spread/IV.
 
 ---
 
 ## F. Kill / confirm lines
-- **(b) TLT:** confirm = 10Y sustains >4.40 / breaks higher → AOCI widens (6/30 re-pull is scheduled, routine `trig_01Ps7pv1WaupKwBG9mWds46T`). Kill = 10Y rallies back <4.20 sustained (TLT up = thesis-(b) off).
-- **(c) WAL:** catalyst = Jul-30-26 print. GATE = monoline beat Jul-21 → fade (a)/(c) before WAL; break → re-arm. (Grading instrument: `PROME/synthesis/2026-06-25_Q2-bank-print-grading-instrument.md`.)
+- **(b) TLT:** confirm = 10Y sustains >4.40 / breaks higher → AOCI widens (10Y/HY tracked weekday-daily by the RESEARCH-INTAKE lane; the old 6/30 scheduled re-pull has passed — 10Y was 4.44 [7/1]). Kill = 10Y rallies back <4.20 sustained (TLT up = thesis-(b) off).
+- **(c) WAL:** catalyst = **Jul-16-26 print** *(corrected from Jul-30, 6/26)*. GATE = monoline beat Jul-21 → fade (a)/(c) before WAL; break → re-arm. **⚠ Sequencing note (7/1):** the gate was designed when WAL printed Jul-30 — with WAL now Jul-16, the monoline window (7/15-22) no longer strictly precedes it; re-read the fade-before-WAL sequencing at fire-time. (Grading instrument: `PROME/archive/synthesis/2026-06-25_Q2-bank-print-grading-instrument.md`.)
 
 ## G. Discipline notes
 - Rule #5 PROPOSE-only — needs [Approve] before any execution.
