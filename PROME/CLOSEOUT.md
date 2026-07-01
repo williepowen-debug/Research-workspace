@@ -55,6 +55,7 @@ Closeout is the **write-back tail** of boot (auto-memory `[[finding_closeout_as_
 **Intentionally one-way (no closeout write-back, by design):**
 - `FLEET_SCAN.md` — conditional boot read; refreshed *on demand* by the fleet-scanner subagent, never at closeout.
 - COMM mailbox + inbox / agent-outbox scan — ACKed / routed *inline during the session*, not deferred to closeout.
+- **OPEN-predictions resolution / forward-catalyst firing** — domain-agent-owned (NEXUS / ORACLE / LABOR), not a PROME closeout surface. PROME's only forward-state write-back is rolling the **operator-card catalyst list in `SCRATCH`** (the closeout counterpart to BOOT step-8's forward-state scan) — it does not resolve predictions.
 
 ---
 
@@ -150,7 +151,9 @@ Run only if specific triggers fired this session:
 
 - **Doc-ownership drift:** if a file was retired or created, update the Boot Trust Stack in `PROME/SYSTEM.md` (BOOT.md just points there)
 - **Design-doc feedback:** if a prototype produced learnings, update the relevant design doc OR park as a v_next todo in SCRATCH — pick one home, not both
-- **Autonomy change:** if Will granted/revoked permission, update `PROME/AUTONOMY.md` change log
+- **Autonomy change:** if Will granted/revoked permission, update the `PROME/AUTONOMY.md` change log **AND** propagate any behavior-changing grant/revoke into the auto-loaded `PROME/CLAUDE.md` "Ask First / Do Not Do Autonomously" section — that's the surface boot actually reads (BOOT.md does not read `AUTONOMY.md`; the change-log alone never reaches the next boot)
+- **Spawned teams-mode agents:** if you named/teams-mode-spawned agents this session, **release them** (`shutdown_request`) at closeout — never park them warm across the boundary (same-name collision + cleanup-sweep-kill risk, `[[feedback_warm_parked_agent_collision]]`). Workflow / one-shot subagents auto-complete; this applies only to named spawns.
+- **Sub-agent output propagation:** if sub-agents ran (research spawns, fleet-scanner, apply-on-behalf), diff their outputs (KB / STATUS / findings) against PROME's owner docs and **promote any unpropagated fact or catalyst before commit** (`[[feedback_subagent_propagation_gap]]`) — a fact that lived only in a sub-agent's return is otherwise lost.
 - **External-system reference:** if a new external surface was discovered, save as `reference` auto-memory
 
 If none triggered, skip.
