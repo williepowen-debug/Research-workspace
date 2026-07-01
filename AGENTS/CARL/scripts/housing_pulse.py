@@ -23,7 +23,22 @@ SCRIPTS_DIR = Path(__file__).resolve().parent
 DATA_DIR = SCRIPTS_DIR / "data"
 HSG_TSV = DATA_DIR / "HOUSING_PULSE.tsv"
 
-FRED_API_KEY = os.environ.get("FRED_API_KEY", "8ce3f08db56f151f54221a0dd12b63de")
+def _fred_key():
+    """Env first, else the gitignored FORGE market-data .env (single per-machine home).
+    Hardcoded copies scrubbed 2026-07-01 (public-prep) — never hardcode this key."""
+    import pathlib, sys
+    k = os.environ.get("FRED_API_KEY", "")
+    if k:
+        return k
+    p = pathlib.Path(__file__).resolve().parents[3] / "FORGE/tools/market-data/.env"
+    if p.exists():
+        for line in p.read_text().splitlines():
+            if line.startswith("FRED_API_KEY="):
+                return line.split("=", 1)[1].strip()
+    print("WARN: FRED_API_KEY not found (env or FORGE/tools/market-data/.env) — FRED pulls will fail", file=sys.stderr)
+    return ""
+
+FRED_API_KEY = _fred_key()
 FRED_BASE = "https://api.stlouisfed.org/fred/series/observations"
 
 # Housing FRED series: (series_id, label, direction_bad, thresholds)

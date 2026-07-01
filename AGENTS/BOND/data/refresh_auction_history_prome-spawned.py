@@ -225,7 +225,19 @@ def fetch_fred(series_id: str) -> pd.Series:
     (fred.stlouisfed.org/graph/fredgraph.csv) to the keyed JSON API because the
     graph-CSV host hangs/blocks in this sandbox — it stalled the whole v2
     enrichment. Key mirrors FORGE/tools/market-data/fetch.py. Retries on 429."""
-    key = os.environ.get("FRED_API_KEY", "8ce3f08db56f151f54221a0dd12b63de")
+    key = os.environ.get("FRED_API_KEY", "")
+    if not key:
+        # gitignored FORGE market-data .env = single per-machine key home
+        # (hardcoded copies scrubbed 2026-07-01, public-prep)
+        import pathlib
+        _p = pathlib.Path(__file__).resolve().parents[3] / "FORGE/tools/market-data/.env"
+        if _p.exists():
+            key = next((l.split("=", 1)[1].strip() for l in _p.read_text().splitlines()
+                        if l.startswith("FRED_API_KEY=")), "")
+        if not key:
+            import sys
+            print("WARN: FRED_API_KEY not found (env or FORGE/tools/market-data/.env) — FRED pull will fail",
+                  file=sys.stderr)
     url = "https://api.stlouisfed.org/fred/series/observations"
     params = {
         "series_id": series_id,

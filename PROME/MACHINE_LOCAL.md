@@ -17,6 +17,7 @@
 | Pre-scrub mirror backup | `~/Research-workspace-PRESCRUB-BACKUP-20260630.git` | ❌ | ✅ (created there 6/30) | the history-scrub rollback net lives on the DESKTOP — locate it there before deleting post-public-flip |
 | `gh` CLI | `gh` | ❌ | ❓ | GitHub API/PR ops unavailable; plain git works (credential store ✅ both boxes) |
 | Git identity (fresh clones) | repo-local `user.name/email` | main repo ✅ · new clones ❌ until set | ✅ | commits in a NEW clone fail "empty ident" — set repo-local from the main repo (done for Research-Intake 7/1) |
+| FRED API key | `~/.bashrc` export + `FORGE/tools/market-data/.env` (gitignored) | ✅ both (wired 7/1) | ❌ **Will: append the same 2 lines** (see below) | all FRED pulls fail loud (hardcoded copies scrubbed from 10 files 7/1, public-prep). Desktop one-liners: `echo 'export FRED_API_KEY=<key>' >> ~/.bashrc` and `echo 'FRED_API_KEY=<key>' >> FORGE/tools/market-data/.env`. **Recommend rotating the key** (free, fred.stlouisfed.org) — the old literal remains in git HISTORY |
 
 ## Switching checklist (Will)
 1. **Leaving a machine:** close out every agent session (closeout runs `safe-push.sh`) → confirm `git status -sb` = `## master...origin/master` (0/0, nothing stranded).

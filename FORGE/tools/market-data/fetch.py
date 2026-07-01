@@ -51,7 +51,10 @@ def _load_dotenv():
 
 _load_dotenv()
 
-FRED_API_KEY = os.environ.get("FRED_API_KEY", "8ce3f08db56f151f54221a0dd12b63de")
+FRED_API_KEY = os.environ.get("FRED_API_KEY", "")
+if not FRED_API_KEY:
+    print("WARN fetch.py: FRED_API_KEY not set (export it or add to FORGE/tools/market-data/.env) — FRED calls will fail",
+          file=sys.stderr)
 
 FRED_BASE = "https://api.stlouisfed.org/fred/series/observations"
 
