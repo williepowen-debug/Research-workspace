@@ -88,7 +88,7 @@ Event Pre-Build
 |---|---|---|
 | `PROME/archive/DECISION_FLOW.md` | Prome | Architecture/spec for the decision workflow *(archived 2026-06-30)*. |
 | `PROME/action-cards/` | Prome | Event-specific branch-to-action cards. Temporary/current decision artifacts. |
-| `PROME/action-cards/FSK_MAY11_ACTION_CARD.md` | Prome | First concrete action card; maps FSK branches to allowed/forbidden actions. |
+| `PROME/archive/action-cards/FSK_MAY11_ACTION_CARD.md` | Prome | First concrete action card; maps FSK branches to allowed/forbidden actions. |
 | `PROME/archive/TRADE_DECISIONS.md` | Prome | Historical log of Will’s trade/portfolio decisions *(archived 2026-06-30; live truth = FORGE/TERRY + broker)*. |
 | `HEARTBEAT.md` | Prome/root | Current-state pointer layer. Should reference action cards, not contain full action logic. |
 
@@ -116,7 +116,7 @@ Design principle:
 Important current example:
 
 - `AGENTS/BROCK/domain/sources/FSK_PREBUILD_MAY11.md` owns the FSK event framework.
-- `PROME/action-cards/FSK_MAY11_ACTION_CARD.md` owns the portfolio/action mapping.
+- `PROME/archive/action-cards/FSK_MAY11_ACTION_CARD.md` owns the portfolio/action mapping.
 
 ---
 

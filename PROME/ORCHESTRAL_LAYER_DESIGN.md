@@ -221,7 +221,7 @@ When Will + Prome review a proxy packet and find the framing useful conceptually
 
 ## Related artifacts
 
-- `PROME/scratch/teams_memory_audit_001/META_EVAL.md` — first teams test; established that adversarial-pair pattern produces measurably better output than solo for judgment-heavy bounded tasks. Same pattern proposed here for top-N refinement.
+- `PROME/archive/teams_memory_audit_001/META_EVAL.md` — first teams test; established that adversarial-pair pattern produces measurably better output than solo for judgment-heavy bounded tasks. Same pattern proposed here for top-N refinement.
 - Auto-memory `feedback_adversarial_brief_for_pair_teams.md` — reusable lesson on how to brief adversarial teams (explicit "default to negative" + "engage genuinely, don't be agreeable" framing).
 - `PROME/CLAUDE.md` / root Prome boot surfaces — name the role this design is implementing. The old `AGENTS/PROME/CLAUDE.md` copy is archived.
 - `PROME/CLAUDE_CODE_PROME.md` — CC-Prome surface; orchestral layer is naturally a CC-Prome workflow.
