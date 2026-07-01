@@ -11,7 +11,7 @@
 
 ## BATCH_02 items touching you (FYI — already dispositioned, no action)
 - **HAWK-8** — PROME **APPLIED** the `TRADE.md` FROZEN banner 7/1 (verified genuinely vestigial, oil→BRENT Mar-6; not live-wired). Provenance in-file.
-- **HAWK-9** — **STRUCK** (misdiagnosis): `ledger_staleness.py` isn't missing, it's the shared repo-root tool you already call. Real residual = a **fleet-wide boot-path** question (repo-root-relative path vs your own-dir launch cwd) → re-filed as a DAEDALUS-lane fix, not a HAWK-local copy-in.
+- **HAWK-9** — **STRUCK** (misdiagnosis): `ledger_staleness.py` isn't missing, it's the shared repo-root tool you already call (run from workspace root, where it resolves fine). Clean strike — no fix needed. *(A brief "boot-path" concern was investigated + retracted: the fleet runs tools from repo root by convention.)*
 - **HAWK-SWEEP** — §2/§5 Independence/ACTION confirmed **N/A-by-design** (single-theater indicator decomposition, no book). No scaffolding imposed.
 
 DO-NOT-TOUCH honored: light single-channel agent — no multi-channel scaffolding; your VOIDED-disposition + Admiralty-confidence discipline is a strength.
