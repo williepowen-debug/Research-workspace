@@ -1,3 +1,4 @@
+# FROZEN 2026-07-01 — NOT MAINTAINED. STATUS.md / thesis/THESIS.md / thesis/PREDICTIONS.tsv / demand_destruction/TRACKER.md are canonical; do NOT cite rows here as current. This is a Phase-1-crisis-era ledger; live knowledge now flows through those surfaces. Last live row Jun-15. Unfreeze only if ledger_staleness.py is wired AND maintenance resumes (root CLAUDE.md Data Hygiene).
 # BRENT KB — ARCHIVAL (frozen 2026-06-14). Built Mar 6–Jun 1 2026 during the acute Hormuz-closure war phase (Brent $108–144). DEMOTED from live KB to historical corpus; live state owned by STATUS / demand_destruction/TRACKER.md / thesis/PREDICTIONS*+CHANGELOG.
 # DISPOSITION (default per row, unless its Status says otherwise):
 #   • Event / price / kinetic / storage SNAPSHOTS = HISTORICAL: true as of their Date, SUPERSEDED by the live docs above. Do NOT read as current (e.g. Brent $108–144, gas $4.45, STNG $66 are all stale prints).

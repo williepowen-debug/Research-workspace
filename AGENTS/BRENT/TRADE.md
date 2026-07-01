@@ -1,6 +1,6 @@
 # BRENT TRADE.md — domain trade surface
 
-**Updated:** 2026-06-29 Mon PM ET | **THESIS v5.0 (asymmetry flipped UPSIDE-CONVEX)** | **LIVE surface** (not frozen — keep current at every closeout or it rots).
+**Updated:** 2026-07-01 Wed PM ET | **THESIS v5.0 (asymmetry UPSIDE-CONVEX)** | **LIVE surface** (not frozen — keep current at every closeout or it rots).
 **Rule:** calls on red days, puts on green days. **Trade proposals → Will [Approve]; never execute without it.**
 **Ownership / one-source-of-truth:** THIS file owns *position status* + *trade plans*. **STATUS** owns live market data (prices/storage/levels). **THESIS** owns the conviction. Do NOT restate live prices here — reference STATUS. **No cost-basis / P/L from state files** — ask Will (`[[feedback_position_cost_basis_not_authoritative]]`).
 
@@ -9,6 +9,8 @@
 ## CURRENT STANCE (v5.0)
 
 **Direction-NEUTRAL near-term; risk-skew ASYMMETRIC TO THE UPSIDE medium-term.** Downside capped (record-low inventories + SPR-refill bid → gentle-normalization floor ~high-$70s/$80); upside tail fat AND rising (reopening weeks-to-months, rising Russian crude fuses, spent buffers, near-record spec short = squeeze fuel). **Phase-2-short bias RETIRED; no flat-price length EITHER WAY.** Forward expression = **defined-risk long-convexity, deploy-on-trigger** (below). **⚠️ SKEW flip, not a direction call — we are NOT calling oil up; the convexity is up, not the forecast.**
+
+**🟡 Jul-1 read:** the first "deficit-closing" data point printed (EIA wk-6/26: **Cushing BUILT +0.71M**, all crude draws decelerated) → leans the race toward **gentle-normalization** and **modestly softens the up-tail**. No trigger fired; **NO ACTION.** WATCH: a 2nd build next week = up-whipsaw dissolving → **auto-disarm approaching** (see Disarm/horizon). Brent $71.36 fresh cycle low; WTI $68.32 (<$70) nudges the *down*-tail (demand) nearer too.
 
 ---
 
@@ -33,7 +35,7 @@
 | Field | Spec |
 |-------|------|
 | **Vehicle** | **USO call spread** (cleanest direct WTI/oil; vol-aware *spread*, never naked — LESSONS #15). XLE call spread = softer equity-beta alternative if Will prefers. |
-| **Structure** | ~45–90 DTE; long ~5% OTM / short ~12–15% OTM. Exact strikes + premiums pulled from a **LIVE chain at arm time** (don't pin off a stale screen — `[[finding_option_marks_need_live_chain]]`). USO ref ~$105.48 (Jun-28 close). |
+| **Structure** | ~45–90 DTE; long ~5% OTM / short ~12–15% OTM. Exact strikes + premiums pulled from a **LIVE chain at arm time** (don't pin off a stale screen — `[[finding_option_marks_need_live_chain]]`). USO ref ~$103.82 (Jul-1). |
 | **Sizing / max-loss** | **~$500 total, defined.** ~$300 on a Tier-1 arm; add ~$200 on a Tier-2 confirm. |
 | **Execution authority** | **PRE-NEGOTIATED PROPOSAL.** On a fired trigger I pull a live chain + bring Will a one-line fill; Will gives a fast **[Approve/No]**. Structure + max-loss are pre-agreed so the approval is a yes/no, not a fresh design. **NOT** pre-authorized auto-fire. |
 
@@ -88,8 +90,9 @@
 
 | Date | Event | Bears on |
 |------|-------|----------|
-| Wed Jul 1 | EIA WPSR | Cushing import-surge vs continued draw = race read |
+| ~~Jul 1~~ | ✅ EIA WPSR wk-6/26 | Cushing BUILT +0.71M / draws decelerated = race → normalization; **softens up-arm** |
 | Fri Jul 3 | CFTC COT (Jun-30) | kinetic-week covering (Tier-2 lean) vs continued liquidation |
+| ~Jul 2/3 | Baker Hughes | 440 last; 17 to 457 (rig-response medium-term bearish) |
 | ~Jul 3 | SPR 172M auth withdrawal | the buffer-clock deadline |
 | Wed Jul 8 | EIA STEO (July) | first post-deal price path |
 | Rolling | **HAW-15** pivot / P&I resumption / reopening 2nd-derivative | **Tier-1 arm triggers** |

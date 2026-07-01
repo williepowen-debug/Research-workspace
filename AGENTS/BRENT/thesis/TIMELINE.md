@@ -1,3 +1,5 @@
+> **⛔ FROZEN 2026-07-01 — SUPERSEDED, last maintained Apr-16.** The canonical forward view is now **THESIS v5.0** + **STATUS.md** (Catalyst Calendar / Key Open Items / the timed-race frame) + **NEXUS_BRIEF.md** (Forward Catalysts). The June-July arc — MOU signed Jun-17, Jun 27-28 kinetic test (structural decoupling confirmed), Jul-1 first deficit-closing print — is recorded in CHANGELOG + STATUS, not here. Do not treat the Apr-16 base case below as current.
+
 # BRENT TIMELINE
 
 **Last Updated:** 2026-04-16

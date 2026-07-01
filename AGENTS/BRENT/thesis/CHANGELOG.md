@@ -8,6 +8,18 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-07-01 PM — WATCH note (NO version bump): first "deficit-closing" data point prints; upside-convex tail softened at the margin
+
+**Trigger:** EIA WPSR wk-6/26 (live v2 API) — **Cushing BUILT +0.71M to 19.67M** (first build; sub-20M-floor drain REVERSED), commercial −3.77M / SPR −5.54M / distillate +2.48M (**all crude draws decelerated**), gasoline 4-wk YoY −2.58% (deepened, never −5%). Brent fresh ~4-mo cycle low **$71.36**; WTI **$68.32** (broke $70).
+
+**Old view → New view:** v5.0's timed race (deficit-closing vs buffer-exhaustion) had NO concrete evidence on the deficit-closing side — the upside-convex tail rested on "reopening is weeks-to-months + buffers spent." Today that side printed its FIRST data point: reopening barrels beginning to land (Cushing build + decelerating draws). This tilts the medium-term race toward **gentle-normalization** and **modestly softens the upside-convex tail** (the whipsaw-dissolves scenario now has evidence, not just a hypothesis). WTI <$70 also nudges the *down*-tail (demand) marginally nearer.
+
+**Why NO version bump:** one print is a 2nd-derivative turn, not a reversal — Cushing still <20M, SPR still 40-yr-low & drawing, commercial still drew, P&I still not resumed. The central v5.0 stance (direction-neutral near-term, up-skew medium-term, deploy-on-trigger) is UNCHANGED. **Decision rule registered:** a 2nd consecutive deficit-closing print (Cushing builds again + draws keep decelerating) = the up-whipsaw genuinely dissolving → convex-arm AUTO-DISARM approaching (TRADE.md Disarm/horizon). That would be the **v5.1** trigger.
+
+**Predictions resolved this session:** BRT-08 (DIR-CONFIRMED / THRESHOLD-UNREACHED — gasoline never −5%), BRT-09 (MECHANISM-CONFIRMED / LEAD-LAG-INCOMPLETE — Q2 window closed), BRT-28 (MECHANISM-CONFIRMED / THRESHOLD-MOOT — HAW-10 expired unfired). OPEN 8→6. See PREDICTIONS.tsv.
+
+---
+
 ## 2026-06-29 PM — THESIS v4.4 → v5.0 (MAJOR — asymmetry flip): risk-skew flips to UPSIDE-CONVEX; Phase-2-short bias RETIRED
 
 **Author:** BRENT (Mon Jun 29 PM, on Will's explicit call — he chose "Option A: full v5.0 reframe" after a multi-turn stress-test of the structural case). **MAJOR (X) bump** = a positioning-conviction reversal (the standing "cautious-neutral / no-longs / lean-Phase-2-short" posture that's held since v4.0 is reversed). **NOT a price-forecast reversal** — the near-term central forecast is unchanged (calm structural hold, sub-$75, P 0.70).
