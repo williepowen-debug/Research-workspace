@@ -26,7 +26,7 @@ Core rule:
 
 *(`AGENTS.md` + `USER.md` are **explicit boot-reads**, not injected — see the next table. `SOUL.md` + `IDENTITY.md` were deleted root-level in the 2026-06-30 public-prep cleanup.)*
 
-> ⚠️ **`HEARTBEAT.md` is NOT injected (OpenClaw vestige).** It was auto-loaded under the always-on VPS model; in Claude Code it is NOT in PROME's boot context — PROME must explicitly `Read` it. It is a **PROME-facing regime memo only**: PROME writes it, PROME reads it. Domain agents (incl. NEXUS) do **not** boot-read it (verified 2026-06-27: 19/20 agent CLAUDE.md have zero HEARTBEAT references). See `BOOT.md` step 6.
+> ⚠️ **`HEARTBEAT.md` is NOT injected (OpenClaw vestige).** It was auto-loaded under the always-on VPS model; in Claude Code it is NOT in PROME's boot context — PROME must explicitly `Read` it. It is a **PROME-facing regime memo only**: PROME writes it, PROME reads it. Domain agents (incl. NEXUS) do **not** boot-read it (verified 2026-06-27: 19/20 agent CLAUDE.md have zero HEARTBEAT references). See `BOOT.md`'s market-data freshness gate.
 
 ### Read at boot / when resuming
 
@@ -34,14 +34,14 @@ Core rule:
 |---|---|---|
 | `USER.md` | Each fresh session (stable) | Will's operator model — communication/thinking style, edge, psychology. The operator manual for Will-facing work. |
 | `AGENTS.md` | When roster/routing relevant | Agent roster, transmission chains, spawn restrictions. |
-| `PROME/BOOT.md` | Maintained | Boot sequence, doc ownership, protocol reminders. |
+| `PROME/BOOT.md` | Maintained | Boot sequence + protocol reminders (trust/ownership map lives here). |
 | `PROME/HANDOFF.md` | Refreshed each closeout (latest 3–5 entries) | Cross-runtime continuity. |
-| `PROME/SCRATCH.md` | Full rewrite each closeout | Ephemeral session state + next-session entry point. |
-| `PROME/TODAY.md` | Refreshed when date/catalysts move | Daily catalysts/checklist + regime pointer. |
+| `PROME/SCRATCH.md` | Full rewrite each closeout | Ephemeral session state + next-session entry point + **operator card** (date, catalysts, near-gates — absorbed `TODAY.md` 2026-07-01). |
 | `PROME/STATUS.md` | Surgical at closeout | Operational status, work queue, agent/system health. |
 | `PROME/ACTIVE_DECISIONS.md` | Surgical when a decision moves | Non-terminal decision safety index. |
 | `PROME/FLEET_SCAN.md` | On-demand | Fleet/agent stale-state scan and ranked candidate moves. |
 | `KERNELS.md` | On-demand reference | Thesis-spine: compressed transmission map + durable system lessons (renamed from root `MEMORY.md` 6/30; not injected). |
+| `memory/YYYY-MM-DD.md` | On-demand (daily log) | Daily session activity detail; not root-memory insight. |
 
 ---
 
@@ -63,7 +63,7 @@ Primary shared files:
 - `PROME/BOOT.md` — boot sequence and ownership map.
 - `PROME/SYSTEM.md` — architecture map and trust layer.
 - `PROME/HANDOFF.md` / `PROME/SCRATCH.md` — session continuity and current-session handoff.
-- `PROME/TODAY.md`, `PROME/STATUS.md`, `PROME/ACTIVE_DECISIONS.md`, `HEARTBEAT.md`, `MEMORY.md` — current-state and long-term context per their own rules.
+- `PROME/STATUS.md`, `PROME/ACTIVE_DECISIONS.md`, `HEARTBEAT.md`, `MEMORY.md` — current-state and long-term context per their own rules.
 
 Split-brain prevention: put facts in owner files and reference them elsewhere; update `PROME/HANDOFF.md` at the end of meaningful sessions when future-Prome continuity changes; update `PROME/SCRATCH.md` for the immediate next-session entry point.
 
@@ -150,9 +150,22 @@ Known current caveat:
 
 ---
 
+## Operating Defaults
+
+Default to compact tool output so long sessions don't bloat the transcript. *(Relocated from `BOOT.md` 2026-07-01 — reference default, not a boot step.)*
+
+- Inspect size/structure first: `wc`, `grep`, `find`, `git diff --stat`, `git diff --name-only`.
+- Read targeted excerpts before whole files: prefer bounded `read`, `sed -n '1,120p'`, or focused greps.
+- For large diffs, show stat/name-only first; print hunks only for files being actively reviewed.
+- For generated reports/artifacts, write to file and summarize rather than pasting full content into chat.
+- For agent freshness checks, use mtimes + headers/top sections first; deep-read only when decision-relevant.
+- Escalate freely to full reads/diffs when correctness, safety, or editing requires it. This is a default, not a blind constraint.
+
+---
+
 ## Freshness Discipline
 
-Trust each file's own `Updated:` stamp over any table here (behavior-language beats date-pinning — stamps decay). At boot, refresh in order: `HEARTBEAT.md` (regime) → `PROME/SCRATCH.md` + `HANDOFF.md` (session continuity) → `STATUS.md` / `TODAY.md` / `ACTIVE_DECISIONS.md` (state).
+Trust each file's own `Updated:` stamp over any table here (behavior-language beats date-pinning — stamps decay). At boot, refresh in order: `HEARTBEAT.md` (regime) → `PROME/SCRATCH.md` + `HANDOFF.md` (session continuity) → `STATUS.md` / `ACTIVE_DECISIONS.md` (state).
 
 - **Live market levels:** always re-run `FORGE/tools/market-data/dashboard.py` / `fetch.py` before citing — never quote levels from state files.
 - **Position / execution truth:** Will + FORGE, not these docs — position truth is **off-repo** (Will/broker direct). The legacy `POSITIONS.md`/`TRADE_DECISIONS.md` decision-support docs were retired 2026-06-30 (POSITIONS deleted — held a broker balance; TRADE_DECISIONS → `PROME/archive/`), superseded by FORGE + **TERRY** (trade construction / risk). `FORGE/STATUS.md` refresh before use.

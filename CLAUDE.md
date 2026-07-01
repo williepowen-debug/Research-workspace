@@ -10,6 +10,8 @@ A multi-agent financial research operation tracking systemic risk transmission. 
 
 All agents run as **Claude Code sessions on one desktop**, sharing this git repo. (The OpenClaw/VPS platform was cut 2026-06-26 — see `AGENTS/WALTER/design/OPENCLAW_CUTOVER_PLAN.md`.)
 
+**Launch each agent from its own directory** (`cd AGENTS/<NAME> && claude`; PROME from `PROME/`). Claude Code auto-loads `CLAUDE.md` by walking *up* from the launch dir — so launching in-folder loads **both** this root file **and** the agent's local `CLAUDE.md`. Launching from the repo root loads root **only**: the local `CLAUDE.md` is a *descendant* and won't auto-load, so the agent runs **without its own domain instructions** until it happens to read a file in its folder. If an agent seems to be missing its domain rules, check its launch cwd.
+
 - **PROME** (chief of staff / coordinator) runs as a CC desktop session: assigns decision work, manages state/decision rails, and owns Will-facing synthesis via Telegram. WALTER owns signal/news routing.
 - **Domain agents** (CARL, REGINALD, SAM, RED, …) run as independent CC sessions. They are not persistently spawned by PROME; they coordinate with PROME and each other via inbox/outbox files — and via teams-mode `SendMessage` when PROME orchestrates a live multi-agent session.
 
@@ -23,9 +25,7 @@ Coordination is file-based. Write to `AGENTS/<NAME>/outbox/` to request Prome ac
 
 **Active agents (verified 2026-06-27 — full classification + activity evidence in `PROME/ROSTER.md`):** PROME, WALTER, SAM, VIOLET, BRENT, CARL, LIQUID, RED, REGINALD, HENRY, LABOR, MARCO, BROCK, HAWK, NEXUS, BOND, TERRY, CORAL, ORACLE, SHADE, AEOLUS. **Tier 2 (spawned as needed):** CREED, DEWEY, HANS, OTTO. **Special:** YEYOU (repo-wide reviewer, manual/branch model), DAEDALUS (fleet architect meta-agent — design/structure/maturity/lifecycle, on-demand). *(All agents are Claude Code sessions now.)* *(Dormant / Retired / Archive-source taxonomy → `PROME/ROSTER.md` — the single source of truth for who's live vs. shelved.)*
 
-*OZK spun out from REGINALD on 2026-04-24 (promoted from REGINALD/OZK/ to AGENTS/OZK/ as a peer agent). WAL is the next candidate for promotion when ready.*
-*CORAL (Florida) spun out from REGINALD on 2026-06-19 (promoted from REGINALD/sub-agents/CORAL/ to AGENTS/CORAL/ as a peer agent). CORAL is the comprehensive whole-Florida agent (real estate, insurance, FL banks, migration, tourism, state fiscal/property-tax, labor, coastal/climate — 10 pillars; see AGENTS/CORAL/COVERAGE.md). Overlap with MARCO on FL migration/tourism is intentional — reconcile shared metrics to one number, don't silo. Florida is a top-priority geography for Will.*
-*AEOLUS (climate → economy) built + wired by DAEDALUS 2026-06-28 — macro climate owner scoped channels-first (insurance, ag/food, energy demand) on a tiered weather/structural horizon (spec: `AGENTS/DAEDALUS/builds/AEOLUS_SPEC.md`). CORAL keeps Florida climate/coastal; reconcile FL numbers to one figure, don't silo (same pattern as CORAL/MARCO).*
+*Scoped overlaps are intentional — reconcile shared metrics to **one figure**, don't silo: **CORAL↔MARCO** (FL migration/tourism) and **AEOLUS↔CORAL** (FL climate/coastal). **Florida is a top-priority geography for Will.** Agent spinout/promotion provenance (OZK, CORAL, AEOLUS; WAL = next promotion candidate) → `PROME/ROSTER.md`.*
 
 Agent state lives at `AGENTS/<NAME>/STATUS.md`. Position truth is **off-repo** (Will/broker direct — the on-repo `WILL/trading-journal/` photos were removed in the 2026-06 public-prep cleanup); `FORGE/STATUS.md` + `FORGE/PORTFOLIO.md` = the structured mirror (broker-export refreshed, currently stale); trade construction = TERRY.
 
@@ -42,6 +42,8 @@ Agent state lives at `AGENTS/<NAME>/STATUS.md`. Position truth is **off-repo** (
 9. **Deploy agents then wait.** If you spawn for a decision, wait for outputs.
 10. **Close the proposal loop.** Proposal → decision → execution → record in originating agent's STATUS.md.
 11. **trash > rm.** Always use trash for deletions.
+
+> *Rules **6–7** are **trade-construction** rules — canonical owner is **TERRY** (`AGENTS/TERRY/RISK_RULES.md`), applied by TERRY and by PROME when building proposals; domain-data agents (LABOR, SAM, AEOLUS, …) can skip them. **The numbers are a stable API — TERRY fire-cards cite "rule #6" by number, so do not renumber or delete these.***
 
 ## Key Directories
 
@@ -60,6 +62,8 @@ Agent state lives at `AGENTS/<NAME>/STATUS.md`. Position truth is **off-repo** (
 Agents share one working directory and branch. **GitHub is the single source of truth.** All agents pull at session start and **commit locally** at session end. **Push is automated at closeout via `scripts/safe-push.sh`** (fast-forward-gated, fails safe) — predicated on **single-machine operation** (no VPS/laptop/web pushing; OpenClaw/VPS was cut 2026-06-26). safe-push never force-pushes and **aborts cleanly if origin has commits we don't** (the cross-machine case), so one agent's closeout push safely sweeps everyone's local commits — the push-train, now automated rather than gated on a manual Will window.
 
 > **`git add` ONLY files inside your own `AGENTS/<NAME>/` directory.** Never `git add .` or `git add -A`. If you need to commit a shared file (HEARTBEAT, FORGE, etc.), flag it to Prome — don't commit it yourself.
+
+**Scope note — readers who aren't a domain agent:** **PROME** commits `PROME/` (its home dir) plus Will-scoped shared/root docs (root `CLAUDE.md`, `HEARTBEAT.md`, `AGENTS.md`, `FORGE/` — get Will's OK first), not an `AGENTS/PROME/` dir. **Auto-push exceptions:** **TERRY** (self-sweeps, live), **WALTER** (architectural, per its `BOARD_CONSUMPTION_SPEC` §7), **YEYOU** (manual/branch, per Auto-push Decision C). All other agents: own `AGENTS/<NAME>/` dir + auto-push at closeout (below).
 
 **At session start:**
 1. Follow the "Before pulling" protocol below to sync from GitHub

@@ -1,7 +1,10 @@
 # AUTONOMY TIERS
 
-**Created:** 2026-03-25
+**Created:** 2026-03-25 · **Updated:** 2026-07-01 (git/commit/push autonomy explicitly ceded to root `CLAUDE.md` Git Protocol; OpenClaw-staleness flagged)
 **Purpose:** What Prome can do without asking, what needs approval, and the gray zone.
+
+> **Git / commit / push autonomy is owned by root `CLAUDE.md` Git Protocol** (auto-push at closeout via ff-gated `safe-push.sh`; non-ff abort → flag Will), **not this doc** — don't re-add a git rule here. This file owns the *general* Tier 1/2/3 logic below.
+> ⚠️ **Partly OpenClaw-era (2026-03, pre-VPS-cutover).** Some capability examples are stale (e.g. Tier 1 "HERMES delivery via cron" — that cron died with the 2026-06-26 VPS cutover). Due for a de-OpenClaw refresh; treat the *tier logic* as sound but *individual capability examples* as verify-first.
 
 ---
 
@@ -11,7 +14,7 @@ These are internal actions that don't change thesis, don't touch positions, and 
 
 - Read any file in the workspace
 - Search the web for public information
-- Update STATUS.md, SCRATCH.md, TODAY.md, memory files
+- Update STATUS.md, SCRATCH.md, memory files
 - Process agent inboxes (route signals, update tracking)
 - Refresh stale agent STATUS files with current data
 - Log signals to KB.tsv entries

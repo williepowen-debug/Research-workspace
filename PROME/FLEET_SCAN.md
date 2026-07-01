@@ -16,7 +16,7 @@ Use these instead:
 | Need | Current source |
 |---|---|
 | Regime / dashboard / near gates | `HEARTBEAT.md` |
-| Immediate operator card | `PROME/TODAY.md` |
+| Immediate operator card | `PROME/SCRATCH.md` |
 | System health / work queue | `PROME/STATUS.md` |
 | Current session state | `PROME/SCRATCH.md` |
 | Non-terminal decisions / trade safety | `PROME/ACTIVE_DECISIONS.md` |

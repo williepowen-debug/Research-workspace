@@ -45,11 +45,10 @@ Closeout is the **write-back tail** of boot (auto-memory `[[finding_closeout_as_
 
 | Surface | Boot (read) | Closeout (write-back) |
 |---|---|---|
-| `HANDOFF.md` | step 1 | Chunk 1 — append/rotate concise continuity entry when session affects future Prome state |
-| `SCRATCH.md` | step 2 | Chunk 1 — full rewrite |
-| `TODAY.md` | step 3 | Chunk 1 — surgical if date/catalysts moved (Standard+) |
-| `ACTIVE_DECISIONS.md` | step 4 | Chunk 1 — surgical if a decision moved |
-| `STATUS.md` | step 5 | Chunk 1 — surgical |
+| `HANDOFF.md` | boot: continuity read | Chunk 1 — append/rotate concise continuity entry when session affects future Prome state |
+| `SCRATCH.md` | boot: hot-state + operator card | Chunk 1 — full rewrite (incl. operator card: date/catalysts/near-gates) |
+| `ACTIVE_DECISIONS.md` | boot: decisions read | Chunk 1 — surgical if a decision moved |
+| `STATUS.md` | boot: health/queue read | Chunk 1 — surgical |
 | `memory/YYYY-MM-DD.md` | on-demand | Chunk 2 — create/append |
 
 **Intentionally one-way (no closeout write-back, by design):**
@@ -64,11 +63,10 @@ Use this as the manual write-back feature. Do not auto-edit every surface; updat
 
 | If this changed | Write back to | Rule |
 |---|---|---|
-| Immediate next-session state | `PROME/SCRATCH.md` | Full rewrite for Standard/Heavy; Bounce may append 3–5 lines. |
+| Immediate next-session state **+ operator card** (date/catalysts/near-gates) | `PROME/SCRATCH.md` | Full rewrite for Standard/Heavy; Bounce may append 3–5 lines. |
 | Cross-runtime continuity / decisions Will made | `PROME/HANDOFF.md` | Concise top entry only if future Prome needs it; keep latest 3–5 live. |
 | Non-terminal decision state | `PROME/ACTIVE_DECISIONS.md` | Surgical row update; if unknown, mark `DEFERRED` / reconcile, never infer execution. |
-| Agent/system health or work queue | `PROME/STATUS.md` | Surgical update; avoid repeating TODAY/HEARTBEAT market narrative. |
-| Date/catalysts/operator checklist | `PROME/TODAY.md` | Surgical update only when date/gates/tasks moved. |
+| Agent/system health or work queue | `PROME/STATUS.md` | Surgical update; avoid repeating HEARTBEAT/SCRATCH market narrative. |
 | Regime/thresholds/near gates | `HEARTBEAT.md` | Update after regime-level changes or when >48h stale during market week. |
 | Daily activity / file changes | `memory/YYYY-MM-DD.md` | Append durable session log. |
 | Durable insight / lesson | `MEMORY.md` or auto-memory | Promote sparingly; avoid activity logs. |
@@ -95,7 +93,7 @@ Use this as the manual write-back feature. Do not auto-edit every surface; updat
 
 ### `PROME/ACTIVE_DECISIONS.md` — surgical update (only if a decision moved)
 
-Boot-readable decision index (**paired with boot step 5**). Update a row whenever a non-terminal decision changed this session — new decision, state transition (DRAFT→PROPOSED→WILL_APPROVED), owner change, backstop met, executed/closed. Skip if no decision moved. Without this write-back the index silently goes stale — boot reads it but nothing refreshes it.
+Boot-readable decision index (**the closeout write-back for the `ACTIVE_DECISIONS.md` boot read**). Update a row whenever a non-terminal decision changed this session — new decision, state transition (DRAFT→PROPOSED→WILL_APPROVED), owner change, backstop met, executed/closed. Skip if no decision moved. Without this write-back the index silently goes stale — boot reads it but nothing refreshes it.
 
 ### `PROME/HANDOFF.md` — append/rotate concise continuity entry (Standard / Heavy only)
 
@@ -121,7 +119,7 @@ Cross-runtime Prome continuity role. Light skips unless future Prome state mater
 
 ### `memory/YYYY-MM-DD.md` — daily session log
 
-Per `BOOT.md` doc-ownership: daily session detail goes here, not in root `KERNELS.md` (the thesis-spine reference).
+Per the Boot Trust Stack (`PROME/SYSTEM.md`): daily session detail goes here, not in root `KERNELS.md` (the thesis-spine reference).
 - Create if doesn't exist for today
 - Bullet log: what was done, files changed, prototypes tested, key decisions
 - Append (don't overwrite) if multiple sessions land on the same date
@@ -149,7 +147,7 @@ Format: frontmatter (name, description, type) + body. For `feedback` / `project`
 
 Run only if specific triggers fired this session:
 
-- **Doc-ownership drift:** if a file was retired or created, update `PROME/BOOT.md` doc-ownership table
+- **Doc-ownership drift:** if a file was retired or created, update the Boot Trust Stack in `PROME/SYSTEM.md` (BOOT.md just points there)
 - **Design-doc feedback:** if a prototype produced learnings, update the relevant design doc OR park as a v_next todo in SCRATCH — pick one home, not both
 - **Autonomy change:** if Will granted/revoked permission, update `PROME/AUTONOMY.md` change log
 - **External-system reference:** if a new external surface was discovered, save as `reference` auto-memory
@@ -192,7 +190,7 @@ One short message:
 
 ## Skip rules
 
-- **`PROME/TODAY.md`** — **paired with boot step 2.** Surgical update if the date rolled or catalysts/levels changed (Standard+); skip on Bounce/Light. (Earlier guidance treated `FLEET_SCAN.md` as a CC replacement surface, but TODAY is still read at boot and drives day/week framing — keep it current.)
+- **Operator card (date/catalysts/near-gates)** — now part of `PROME/SCRATCH.md`'s full rewrite; the standalone `TODAY.md` was retired 2026-07-01 (it held no unique state — ~95% duplicated SCRATCH/STATUS/ACTIVE_DECISIONS and rotted daily on its date title).
 - **`PROME/HANDOFF.md`** — cross-runtime Prome continuity. Update only when the session changes future Prome state; keep it concise and rotate/archive older entries.
 - **`AGENTS/<other>/` files** — never. Other agents own their state. Route via inbox if needed (and only with explicit per-instance authorization per the cross-agent-inbox-writes rule)
 - **Root `CLAUDE.md` / shared files** — flag to Will, don't auto-edit. Will-approval gates the change.
@@ -214,13 +212,13 @@ One short message:
 |---|---|
 | `PROME/SCRATCH.md` | Full rewrite |
 | `PROME/STATUS.md` | Surgical update |
-| `PROME/ACTIVE_DECISIONS.md` | Surgical if a decision moved (boot step 5 pair) |
+| `PROME/ACTIVE_DECISIONS.md` | Surgical if a decision moved (boot decisions-read pair) |
 | `PROME/HANDOFF.md` | Append/rotate concise cross-runtime continuity entry when needed |
 | `memory/YYYY-MM-DD.md` | Create or append |
 | `~/.claude/.../memory/` (auto-memory) | Selective add only |
-| `PROME/BOOT.md` | Only if doc-ownership drifted |
+| `PROME/BOOT.md` | Only if boot sequence / conditional modules changed |
+| `PROME/SYSTEM.md` | Only if architecture / Boot Trust Stack (doc-ownership) changed |
 | `PROME/AUTONOMY.md` | Only if autonomy changed |
 | `PROME/FLEET_SCAN.md` | Don't touch at closeout; refreshes on demand |
 | `PROME/ORCHESTRAL_LAYER_DESIGN.md` | Only if prototypes produced feedback |
-| `PROME/TODAY.md` | Usually skip unless date/catalysts/levels moved |
 | Root `CLAUDE.md`, `HEARTBEAT.md`, other shared | Flag to Will; don't auto-edit unless explicitly approved |

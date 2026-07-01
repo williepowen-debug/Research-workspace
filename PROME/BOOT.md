@@ -4,7 +4,7 @@
 
 **Auto-loaded context (Claude Code):** only the `CLAUDE.md` files (root + `PROME/`, plus any `~/.claude/CLAUDE.md`) and the auto-memory `MEMORY.md` are genuinely auto-injected each session — don't re-read *those* unless debugging drift. **`AGENTS.md` and `USER.md` are NOT auto-loaded** (OpenClaw vestige — confirm by their absence from fresh boot context); `Read` them explicitly when a task needs them. (`SOUL.md` + `IDENTITY.md` no longer exist — deleted root-level in the 2026-06-30 public-prep cleanup.)
 
-> ⚠️ **`HEARTBEAT.md` is NOT auto-injected in Claude Code** (that was the OpenClaw always-on model — the line that used to claim it is removed). It is a **PROME-facing regime memo** that PROME must explicitly `Read` at boot (step 6). Don't assume it's already in context. Domain agents do not read it.
+> ⚠️ **`HEARTBEAT.md` is NOT auto-injected** (OpenClaw always-on vestige). It is a **PROME-facing regime memo**: PROME writes it and must explicitly `Read` it at boot (the market-data freshness gate below) — don't assume it's in context; domain agents do not read it. Full trust-layer detail: `PROME/SYSTEM.md` → Boot Trust Stack.
 
 ---
 
@@ -14,47 +14,20 @@
 - **No broad git operations:** never `git add .`, `git add -A`, `git reset HEAD`, force-push, or stash/reset unknown work.
 - **Pull only if safe:** safe = clean working tree, no staged files, no known concurrent-agent risk. If dirty/untracked, read local continuity first and ask/triage; do not force sync just to boot.
 - **Prices need live data:** run `FORGE/tools/market-data/dashboard.py` or `fetch.py` before citing prices/levels.
-- **Weekend / repeated-respawn rule:** on weekends or market holidays, `HEARTBEAT.md` may be used as regime orientation, but do **not** describe its levels as fresh. Say “last HEARTBEAT/Fri close” or refresh with dashboard/FRED before making a market claim. Repeated same-day Prome respawns should not rewrite TODAY/HEARTBEAT just for hygiene.
+- **Weekend / repeated-respawn rule:** on weekends or market holidays, `HEARTBEAT.md` may be used as regime orientation, but do **not** describe its levels as fresh. Say “last HEARTBEAT/Fri close” or refresh with dashboard/FRED before making a market claim. Repeated same-day Prome respawns should not rewrite `HEARTBEAT.md` or churn other state files for hygiene alone — only when a real market/system event or user decision changed.
 - **FRED citation convention:** cite observation dates, e.g. `HY OAS 280bps [FRED 5/20 close]`.
 - **No agent edits** unless Will explicitly approves.
 - **No trade execution.** Old trade rails remain verification-required until broker/Will reconciliation.
 - **External/public sends require approval.**
-- **Push is Will-coordinated:** committing may be okay when approved/scoped; pushing requires explicit Will approval.
+- **Push is auto at closeout** via ff-gated `scripts/safe-push.sh` (single-machine canon, per root `CLAUDE.md` Git Protocol) — *not* per-push Will approval. Committing your own `PROME/` files is fine; **shared/root** docs still need Will scope/approval. A **non-ff abort = 2nd machine pushed → stop, do NOT force, flag Will.**
 - **Shared repo coordination:** when YEYOU or another agent has local/branch work, use `PROME/GIT_COORDINATION.md` before committing, merging, or pushing.
 - **Multi-agent orchestration:** before spawning >1 agent, apply the **mode-split rule** (`PROME/ORCHESTRATION_PLAYBOOK.md`) — fan-out/Workflow for parallel-identical work, live teams-mode only for the decision spine. Carry the deliver-before-idle contract into every spawn prompt; go quiet to Will while agents work.
 
 ---
 
-## Lean Tool Output
+## Doc Ownership
 
-Default to compact tool output so long sessions do not bloat the transcript unnecessarily.
-
-- Inspect size/structure first: `wc`, `grep`, `find`, `git diff --stat`, `git diff --name-only`.
-- Read targeted excerpts before whole files: prefer bounded `read`, `sed -n '1,120p'`, or focused greps.
-- For large diffs, show stat/name-only first; print hunks only for files being actively reviewed.
-- For generated reports/artifacts, write to file and summarize rather than pasting full content into chat.
-- For agent freshness checks, use mtimes + headers/top sections first; deep-read only when decision-relevant.
-- Escalate freely to full reads/diffs when correctness, safety, or editing requires it. This is a default, not a blind constraint.
-
----
-
-## Minimal Doc Ownership
-
-If the same fact appears in two docs, put it in the owner doc and reference it elsewhere.
-
-| Doc | Owns |
-|---|---|
-| `PROME/HANDOFF.md` | Cross-runtime continuity; latest 3–5 entries only. |
-| `PROME/SCRATCH.md` | Immediate session state and next-session entry point. |
-| `PROME/TODAY.md` | Operator card: today’s catalysts, tasks, notable shifts. |
-| `PROME/ACTIVE_DECISIONS.md` | Non-terminal decision safety index. |
-| `PROME/STATUS.md` | Agent/system health, work queue, quality notes. |
-| `HEARTBEAT.md` *(PROME-facing regime memo; explicit-read, NOT injected)* | PROME's own regime / thresholds / near-gates orientation. PROME writes + reads it; domain agents do not. |
-| `KERNELS.md` *(thesis-spine reference; explicit-read, NOT injected — renamed from root `MEMORY.md` 6/30)* | Compressed thesis/transmission map + durable system lessons. Consult on demand. |
-| auto-memory `MEMORY.md` *(genuinely injected — off-repo `~/.claude/.../memory/`)* | Curated operating lessons / findings / feedback index. |
-| `memory/YYYY-MM-DD.md` | Daily session log; activity detail, not root-memory insight. |
-
-Everything else is on-demand.
+Canonical doc-ownership / trust map: `PROME/SYSTEM.md` → **Boot Trust Stack** (put facts in the owner file; point, don't copy). Everything not listed there is on-demand.
 
 ---
 
@@ -69,22 +42,21 @@ Everything else is on-demand.
    If clean/safe, `git pull --rebase`. If dirty/untracked/staged, do not pull; read local continuity first and ask/triage.
 
 1. **Read `PROME/HANDOFF.md`** — top live entries only; older history is archived.
-2. **Read `PROME/SCRATCH.md`** — immediate handoff / what is hot.
-3. **Read `PROME/TODAY.md`** — current operator card.
-4. **Read `PROME/ACTIVE_DECISIONS.md`** — unresolved/approved-but-not-executed decisions before new work.
-5. **Read `PROME/STATUS.md`** — agent/system health and work queue.
-6. **Apply market-data freshness gate:**
-   - If today is a weekend/holiday or markets are closed, use `HEARTBEAT.md` as **orientation only** and preserve its observation dates.
+2. **Read `PROME/SCRATCH.md`** — immediate handoff / what is hot **+ the operator card** (today's date, catalysts, near-gates; absorbed the old `TODAY.md`).
+3. **Read `PROME/ACTIVE_DECISIONS.md`** — unresolved/approved-but-not-executed decisions before new work.
+4. **Read `PROME/STATUS.md`** — agent/system health and work queue.
+5. **Market-data freshness gate:**
+   - Explicit-`Read` `HEARTBEAT.md` (PROME-facing regime memo — not auto-injected).
+   - If today is a weekend/holiday or markets are closed, use it as **orientation only** and preserve its observation dates.
    - Before citing any level as current, run the market dashboard / fetch tool.
-   - For repeated same-day respawns, avoid state-file churn unless a real market/system event or user decision changed.
-7. **Decide conditional reads:**
+6. **Decide conditional reads:**
    - `PROME/FLEET_SCAN.md` only for fleet/market-state work, stale-state risk, or Will-requested audit.
    - `AGENTS/*/outbox/*to-PROME*` only for operational routing/signal work. The old `AGENTS/PROME/` inbox tree is archived under `PROME/archive/` and is archaeology, not live intake.
-   - Claude Code Prome docs only for Claude Code Prome implementation work.
+   - Prome implementation/identity docs (`PROME/CLAUDE.md`, `PROME/SYSTEM.md`) only for implementation work.
    - `PROME/CLOSEOUT.md` before `/clear`, `/new`, or durable handoff.
-8. **Declare boot state briefly:** synced/dirty, current regime source, market-data freshness posture, top pending decision/work lane, and any blocker.
-9. **Flag top issues:** catalysts within 24h, stale agents, pending decisions, blockers.
-10. **Present top proposals** only when useful; max 5, ranked by urgency/position relevance.
+7. **Declare boot state briefly:** synced/dirty, current regime source, market-data freshness posture, top pending decision/work lane, and any blocker.
+8. **Flag top issues:** catalysts within 24h, stale agents, pending decisions, blockers.
+9. **Present top proposals** only when useful; max 5, ranked by urgency/position relevance.
 
 ---
 
@@ -103,34 +75,8 @@ Everything else is on-demand.
 | Historical handoffs | `PROME/archive/HANDOFF_2026Q2.md` — only for old-session archaeology; never normal boot. |
 | Detailed architecture | `PROME/SYSTEM.md`, `PROME/ORCHESTRAL_LAYER_DESIGN.md` |
 | Position reconciliation | `PROME/ACTIVE_DECISIONS.md`, relevant action cards, `FORGE/STATUS.md` + broker/Will truth (position truth is off-repo) |
-
----
-
-## Git Quick Reference
-
-Modified tracked files — no staging step:
-
-```bash
-git commit -m "PROME: <subject>" -- PROME/<file> PROME/<file>
-```
-
-New files — add only explicit paths:
-
-```bash
-git add -- PROME/<newfile>
-git commit -m "PROME: <subject>" -- PROME/<newfile>
-```
-
-Mixed modified + new files:
-
-```bash
-git add -- PROME/<newfile>
-git commit -m "PROME: <subject>" -- PROME/<modified> PROME/<newfile>
-```
-
-**Option order matters:** put `-m` before `--`; everything after `--` is a pathspec.
-
-Push only when Will approves/coördinates it.
+| Git commit patterns (cookbook) | `PROME/GIT_COORDINATION.md` → Commit cookbook — modified/new/mixed pathspec recipes + push/coordination rules |
+| Tool-output / freshness-read defaults | `PROME/SYSTEM.md` → Operating Defaults (compact tool output; mtime/header-first freshness reads) |
 
 ---
 

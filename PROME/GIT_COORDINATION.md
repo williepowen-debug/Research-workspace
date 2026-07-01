@@ -71,6 +71,32 @@ git add -- AGENTS/YEYOU/<newfile>
 git commit -m "YEYOU: <subject>" -- AGENTS/YEYOU/<newfile>
 ```
 
+## Commit cookbook (PROME pathspec)
+
+*(Relocated from `BOOT.md` 2026-07-01. Path-scoped commits avoid the shared-`.git/index` race — `[[finding_pathspec_commit_race_safety]]`.)* **Option order matters: put `-m` before `--`; everything after `--` is a pathspec.**
+
+Modified tracked files — no staging step:
+
+```bash
+git commit -m "PROME: <subject>" -- PROME/<file> PROME/<file>
+```
+
+New files — add only explicit paths:
+
+```bash
+git add -- PROME/<newfile>
+git commit -m "PROME: <subject>" -- PROME/<newfile>
+```
+
+Mixed modified + new:
+
+```bash
+git add -- PROME/<newfile>
+git commit -m "PROME: <subject>" -- PROME/<modified> PROME/<newfile>
+```
+
+Push is auto at closeout via ff-gated `scripts/safe-push.sh` (see Push Discipline below + root `CLAUDE.md` Git Protocol). Non-ff abort → stop, don't force, flag Will. Shared/root-doc commits still need Will scope.
+
 ## Push Discipline
 
 Push is **automated at closeout** via `scripts/safe-push.sh`, predicated on **single-machine operation** (Decision, Will 2026-06-26 — OpenClaw/VPS cut). The script:

@@ -1,5 +1,5 @@
 # PROME/CLAUDE.md — Claude Code Prome Bootstrap
-**Created:** 2026-05-15 23:24 ET
+**Created:** 2026-05-15 23:24 ET · **Updated:** 2026-07-01 (reconcile push rule to root auto-push canon; boot + git sections now point to their owner docs instead of restating)
 **Owner:** Prome
 **Purpose:** Primary bootstrap file for Prome operating inside Claude Code.
 
@@ -23,17 +23,13 @@ Prome’s work spans **Will-facing coordination** (synthesis, approvals, decisio
 
 ## Boot Sequence
 
-1. Read root `CLAUDE.md` for repo-wide Claude Code rules.
-2. **Read `USER.md`** at boot — Will's operator model (explicit read; NOT auto-injected). Read `AGENTS.md` when roster/routing is relevant. *(`SOUL.md` no longer exists — deleted in the 2026-06-30 cleanup.)*
-3. Read:
-   - `PROME/BOOT.md`
-   - `PROME/SYSTEM.md`
-   - `PROME/HANDOFF.md`
-   *(Bootstrap PLAN/TASKS + the old `CLAUDE_CODE_PROME.md` manual are retired to `PROME/archive/`; not boot-read.)*
-4. Check `git status --short` before editing.
-5. If the tree is dirty, identify which files are yours vs other agents’ work. Do not stash, reset, pull, or commit broad changes without Will approval.
-6. Work only on the scoped task Will/Prome gave you.
-7. End every meaningful session by updating `PROME/HANDOFF.md` when future Prome continuity changes; use `PROME/SCRATCH.md` for immediate next-session state.
+**`PROME/BOOT.md` owns the authoritative boot sequence** (repo-state gate → HANDOFF → SCRATCH → TODAY → ACTIVE_DECISIONS → STATUS → market-data freshness gate → conditional reads). Don't maintain a competing copy here. The essentials:
+
+1. Read root `CLAUDE.md` (repo-wide rules) + **`USER.md`** (Will's operator model — explicit read, NOT auto-injected); read `AGENTS.md` when roster/routing is relevant. *(`SOUL.md` no longer exists — deleted 2026-06-30.)*
+2. **Then follow `PROME/BOOT.md` in full** (HANDOFF → SCRATCH → ACTIVE_DECISIONS → STATUS → market-data freshness gate). `PROME/SYSTEM.md` is **on-demand** architecture/trust reference — not a boot read. *(Bootstrap PLAN/TASKS + the old `CLAUDE_CODE_PROME.md` manual are retired to `PROME/archive/`; not boot-read.)*
+3. `git status --short` before editing. If the tree is dirty, separate your files from other agents' work — do not stash, reset, pull, or commit broad changes without Will approval.
+4. Work only on the scoped task Will/Prome gave you.
+5. End meaningful sessions per the Handoff Requirement below.
 
 ---
 
@@ -56,14 +52,13 @@ You both prepare decision work and present it to Will directly (via Telegram) �
 
 Ask Will before:
 
-- Sending external messages.
-- Posting publicly.
+- Sending external messages / posting publicly.
 - Executing trades.
-- Making commits or pushes.
-- Stashing, resetting, deleting, or force-syncing unknown work.
+- Committing **shared/root** docs (root `CLAUDE.md`, `HEARTBEAT.md`, `FORGE/`, `AGENTS.md` core) — scope it + get Will's OK first.
+- Force-pushing, or force-syncing / stashing / resetting / deleting unknown work.
 - Editing active files owned by persistent Claude Code agents in ways that could conflict with them.
 
-Never use `git add -A` or `git add .`.
+**Git default (owned by root `CLAUDE.md` Git Protocol):** committing your **own `PROME/` files** and **auto-push at closeout** via `scripts/safe-push.sh` (ff-gated, fails safe) is the standard — *not* ask-first. A non-ff abort = origin diverged (2nd machine) → **stop, do not force, flag Will.** Never `git add -A` / `git add .`; use pathspec commits (see `PROME/GIT_COORDINATION.md` → Commit cookbook for PROME's exact recipes). Broader autonomy tiers → `PROME/AUTONOMY.md`.
 
 ---
 

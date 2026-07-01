@@ -1,5 +1,5 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-30 (Prome, PM-3) — **★ ROOT-DOC REVIEW SWEEP COMPLETE.** Every root `.md` reviewed + cleaned for the public-facing repo; all roster surfaces consolidated to one source of truth (`PROME/ROSTER.md`). **Public-prep is now essentially complete pending Will's public-flip.**
+**Last Updated:** 2026-06-30 (Prome, PM-3) — **★ ROOT-DOC REVIEW SWEEP COMPLETE.** Every root `.md` reviewed + cleaned for the public-facing repo; all roster surfaces consolidated to one source of truth (`PROME/ROSTER.md`). **Public-prep is now essentially complete pending Will's public-flip.** *(2026-07-01: boot-doc restructure — SCRATCH now also owns the **operator card**: today's date, catalysts, near-gates; absorbed from the retired `TODAY.md`. Forward docket in Cautions below.)*
 
 ## ⏰ NEXT-SESSION ENTRY POINT — repo is clean; only the public-flip remains
 **Target:** Will applying to **Anthropic Fellows — Economics & Policy** (job 5183053008); this repo = centerpiece artifact. Durable context → [[project_public_prep_anthropic_fellows]]. Scrub record → `PROME/public-prep/HISTORY_SCRUB_PLAN.md`.
@@ -23,10 +23,18 @@ Will-directed, file-by-file through every root `.md`:
 - Phase-2 archive ref-surgery (~370 referenced archives) if going deeper on declutter.
 - **Both memory trees go public on flip** — `memory/` (108 daily notes) + `memory/auto/` (188 findings) are git-tracked; **Will declined a public-readiness audit for now** (offer stands — they contain tickers/thesis/position prose).
 - Carried PROME analytical lane (parked): DAEDALUS BATCH_02 review; AEOLUS→MARCO handshake; BROCK packet reframe (position-truth now off-repo). RESEARCH-INTAKE consumer wiring routed to WALTER (implements next boot); VIOLET to set VIX band.
-- HANDOFF now 10 entries — trim the three 6/27 entries → `PROME/archive/HANDOFF_2026Q2.md` next closeout.
+- **✅ HANDOFF trimmed to 5** (2026-07-01) — the 6/28×2 + 6/27×3 entries rolled to `PROME/archive/HANDOFF_2026Q2.md`.
+- **Rescued open threads** (lived only in the rolled-off HANDOFF entries — carried here so they don't drop):
+  - **Desktop `telegram-prome/.env` recreate** — load-bearing; PROME Telegram synthesis depends on it (per-machine, off-repo, rotated token).
+  - **Scout** needs its own fresh feeds bot; + decide the 2 dark PROME-owned feeds (revive-as-bridge vs cede-to-Scout — PROME leans cede).
+  - **DAEDALUS** utility-agent blueprint (greenlit; resolve YEYOU double-class first) + Phase-4 BOTTOM-LINE 14-agent batch (needs Will approval + idle targets) — *distinct from BATCH_02 above*.
+  - **CARL/CORAL** muni/housing deliverables handoff (from the 6/25 grading-instrument cluster).
+  - Downgraded **G-SIB + Pension-LDI** coverage picks — recorded for later revisit.
+  - 6 mandate-extension/hygiene **SIGs** — NEXUS ✅ done; HENRY/BOND/LIQUID pending (don't chase; owners apply at next boot).
+  - Low-pri: fleet-wide **ledger-checker wiring**; **CREED git section**.
 
 ## Git / repo state
-Clean, synced **0/0**. PM-3 = 11 pushed commits (root-doc sweep). Auto-push (`safe-push.sh`) held ff throughout, no force.
+Clean, synced **0/0**. PM-3 = 11 pushed commits (root-doc sweep). Auto-push (`safe-push.sh`) held ff throughout, no force. *Boot note: expect benign origin divergence when Will pushes from web/another surface → `git pull --rebase` (routine push-train, **not** the cross-machine tripwire).*
 
 ## Cautions
 - **Position truth OFF-repo** (WILL/trading-journal gone from tree AND history).
