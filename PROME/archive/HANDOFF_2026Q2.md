@@ -1147,3 +1147,18 @@ Open with Will at next-session start (Wed 5/27 AM):
 **Decisions / next:** Tier 3/4 (macro/regime — HY/CCC, the 10Y 6/30 re-pull for path (b), bank prices) deliberately NOT run; those are live-pull-at-trade levels (rule #4), not static baselines. The 3 route packets await LABOR/MARCO/CORAL next-boot processing. Housekeeping this session: MEMORY.md pruned 25.9->23.0KB (under the load cap, all 158 links preserved); HANDOFF rolled the 06-21 x3 / 06-22 / 06-25-morning entries to `archive/HANDOFF_2026Q2.md`.
 
 ---
+
+---
+
+## 2026-06-29 (Mon, DESKTOP) — graded 6PM oil (HOLDS/no-action) + BUILT the RESEARCH-INTAKE collection lane (6 feeds live)
+
+**What landed:** (1) **Graded the carried 6PM oil reopen = HOLDS / no action** — Brent $73.30 live, below the $74 line through the whole sustain window *despite* the 6/27-28 US↔Iran strike exchange; decoupling survived its hardest kinetic test, no trigger fired (standing rule held). Tail downgraded to fragile-watch (commercial P&I still not resumed). (2) **★ Built RESEARCH-INTAKE** — a new always-on data-collection lane. **Architecture (Will-decided): GitHub Actions in a dedicated private repo, NOT a VPS** — collectors write only there, research agents read read-only → no working-branch divergence by construction (the old news-sweep cron died precisely *because* it lived on the cut VPS; Actions can't silently rot). **6 feeds LIVE + validated, weekday-daily:** EIA petroleum, EDGAR 8-K (thesis banks), Treasury auctions, CFTC COT (VIX), FRED (15 series), news-sweep (classified; routing dropped). `liveness.json` silent-death guard; fetcher registry (1 file + 1 line per feed). Secrets EIA/FRED set via the stored git token; FRED key also restored to local `FORGE/.env` (fixed BRENT/FORGE tooling). **Hardened same session:** weekday-daily schedule, cross-run news dedup (news = deltas only, verified 172→12 new), `SUMMARY.md` human digest each run, per-feed retry (transient blips self-heal). See [[project_research_intake_collection_lane]].
+
+**Decisions Will made:** collection lane = GH Actions + separate repo (NOT VPS/LLM); name `RESEARCH-INTAKE`; do the quick FRED batch + revive news-sweep; weekday-daily schedule; record it in state docs.
+
+**Decisions needed from Will:** none open. (BRENT's thesis-integrity question — durable normalization vs head-fake — is BRENT's domain lane.)
+
+**Risks/blockers:** none — the lane is isolated by construction. GLM/Codex "watch-and-react" pair parked as a future thread (not needed now).
+
+**Next:** **★ consumer wiring** — WALTER reads the lane + the liveness staleness check; without it 6 feeds collect *unread* = the COP failure mode. Then remaining feed menu (crude/energy CFTC COT, SAM Japan suite, broader EDGAR filing-watch, Polymarket/Kalshi). Separate hygiene: rotate hardcoded LLM/Google secrets in tracked files. Prior PROME lane still open: DAEDALUS BATCH_02 review, AEOLUS→MARCO routing, BROCK position-truth packet. Full detail → SCRATCH. *(HANDOFF now 8 entries — rotate oldest next closeout.)*
+

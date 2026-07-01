@@ -1,43 +1,27 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-30 (Prome, PM-3) — **★ ROOT-DOC REVIEW SWEEP COMPLETE.** Every root `.md` reviewed + cleaned for the public-facing repo; all roster surfaces consolidated to one source of truth (`PROME/ROSTER.md`). **Public-prep is now essentially complete pending Will's public-flip.** *(2026-07-01: boot-doc restructure — SCRATCH now also owns the **operator card**: today's date, catalysts, near-gates; absorbed from the retired `TODAY.md`. Forward docket in Cautions below.)*
+**Last Updated:** 2026-07-01 (Prome, Heavy closeout) — **BATCH_02 dispositioned + applied + independently audited, then the full CLOSEOUT procedure hardened (4-lens audit → Tier 1/2/3 ALL implemented).** Public-flip remains the only outstanding go-public gate (unchanged). Operator card + forward docket in Cautions.
 
-## ⏰ NEXT-SESSION ENTRY POINT — repo is clean; only the public-flip remains
-**Target:** Will applying to **Anthropic Fellows — Economics & Policy** (job 5183053008); this repo = centerpiece artifact. Durable context → [[project_public_prep_anthropic_fellows]]. Scrub record → `PROME/public-prep/HISTORY_SCRUB_PLAN.md`.
-- **Repo is SAFE + CLEAN to flip Public.** Track B history scrub done+verified (`b01c0346`), AND now every root `.md` is vestige-clean, roster-consistent, and public-honest.
-- **Only gate = Will flips repo → Public** (his action, his timing — this is a **DELIBERATE WAIT, do not nag**). After he confirms public looks right → delete the mirror backup `~/Research-workspace-PRESCRUB-BACKUP-20260630.git`.
+## ⏰ NEXT-SESSION ENTRY POINT — two lanes, neither blocking
+1. **Public-flip (DELIBERATE WAIT — do NOT nag).** Repo is SAFE + CLEAN to flip Public (Track B scrub verified `b01c0346`; every root `.md` vestige-clean; roster consolidated to `PROME/ROSTER.md`). **Only gate = Will flips repo → Public** (his action/timing). After he confirms it looks right → delete mirror backup `~/Research-workspace-PRESCRUB-BACKUP-20260630.git`. Target = Anthropic Fellows E&P (job 5183053008); repo = centerpiece. [[project_public_prep_anthropic_fellows]].
+2. **BATCH_02 owner pickup (NOT PROME's action):** REGINALD/LABOR/CARL/BOND read their 7/1 task-packets at their next boot (handle items + domain-drift bundled); HAWK reconcile note pending its next boot (STATUS ~5d behind the energy arc). DAEDALUS-lane utility-cohort firming still parked (Will defers).
 
-## ✅ This session (PM-3) — root-doc review sweep (11 commits, all pushed, 0/0, no trade)
-Will-directed, file-by-file through every root `.md`:
-- **LESSONS.md** refreshed (de-OpenClaw #1/#11, renumber, +2 lessons, fix #12 injection claim); **USER.md** MEMORY→KERNELS xref.
-- **CALENDAR.md** retired → `archive/` (98d dead; superseded by TODAY + WEEKLY_DECISION_CALENDAR + HENRY econ).
-- **★ Roster consolidation A+B+C+C2** — the 6/27 retired-agent purge had never propagated. Fixed across ALL surfaces: retired `AGENTS_DIRECTORY.md`; refreshed `AGENTS.md`; rebuilt `AGENTS/_INDEX`+`_NETWORK` (mermaid validated); swept the 5 `AGENTS/_*.md` group files; reconciled `PROME/ROSTER.md` folder-existence (HERMES/REITS/TRADES folders GONE, not "left in place"). **`PROME/ROSTER.md` = the single roster source of truth; every other surface now points to it.**
-- **.gitignore** — trimmed dead `tools/calendar/*`; added defensive `WILL/trading-journal/` + `*.pkl` scrub-guards.
-- **README.md** — assessed, **kept as-is** (GitHub landing page / Fellows centerpiece; verified consistent with cleaned roster).
-- **CLAUDE.md** — de-rot'd (stale `44-file`→`research corpus`; roster drift → slimmed churny taxonomy to a ROSTER pointer).
-- **HEARTBEAT.md** — regime-state correction to canonical 6/29 record (energy tail RE-ARMING→**FRAGILE-WATCH**; 6/28 oil test **HOLDS**; 6/30 rebalance past). **No fabricated live levels** (dashboard stays a labeled 6/25-26 snapshot).
-- Answered Will's memory-surface question: root `MEMORY.md`→`KERNELS.md` (thesis spine) is DISTINCT from `memory/auto/MEMORY.md` (the injected findings index, symlinked, 188 files intact); the rename never touched the corpus.
+## ✅ This session (7/1) — two threads, both closed
+**(A) DAEDALUS BATCH_02** — reviewed via a 5-agent read-only verify workflow → Will-approved disposition applied on DAEDALUS's behalf: **3 handles APPLIED** (CARL BOTTOM LINE · BOND Independence col · HAWK TRADE.md FROZEN), **HAWK-9 STRUCK** (misdiagnosis), **REG-2 HELD**, 2 NO-OP, rest task-packeted. Then **independently adversarially audited the 3 applies** → all KEEP, 0 data errors (BOND mapping rebuilt-from-workbook matched all 9); fixed 2 HAWK banner nits. **★ Caught + retracted my own "boot-path bug" false alarm** (agents run tools from repo root, not own-dir). Commits `bab38ebe`/`90cbf21b`/`38edde37`/`a15076e2`.
+**(B) CLOSEOUT hardening** — 4-lens adversarial audit of `PROME/CLOSEOUT.md` → **15 findings, ALL implemented**: Tier 1 (`f58276ce` — commit the memory outputs + mandatory pre-commit `git status -- PROME/ memory/` + post-push verify), Tier 2 (`9534a82c` — 8 contradiction/drift fixes incl. the retracted "18/21" count, HEARTBEAT ownership, cross-agent carve-out), Tier 3 (`37316d7b` — teams-mode release, sub-agent propagation-diff, autonomy round-trip via PROME/CLAUDE.md+BOOT.md, catalyst/predictions boundary). + corrected the stale `finding_automem_hardlink_inplace_edit` memory (now a directory symlink → Write-safe). W3 (post-push verify) caught a real failed commit on its very first use (the `-m`-before-`--` gotcha).
 
-## Also pending (lower — carried, not blocking the flip)
-- **Essay** (`PROME/drafts/essay_conservation_of_cost.md`) — Will reviewing/editing; revise on his edits.
-- `BOARD/` (live) — route to WALTER to thin consumed entries.
+## Also pending (lower — carried, not blocking)
+- **Essay** (`PROME/drafts/essay_conservation_of_cost.md`) — Will reviewing; revise on his edits.
+- `BOARD/` (live) → route to WALTER to thin consumed entries.
 - Phase-2 archive ref-surgery (~370 referenced archives) if going deeper on declutter.
-- **Both memory trees go public on flip** — `memory/` (108 daily notes) + `memory/auto/` (188 findings) are git-tracked; **Will declined a public-readiness audit for now** (offer stands — they contain tickers/thesis/position prose).
-- Carried PROME analytical lane (parked): ~~DAEDALUS BATCH_02 review~~ ✅ **DISPOSITIONED 7/1** (Will-approved: 3 applied [CARL-4/BOND-SWEEP-A/HAWK-8] · HAWK-9 struck [misdiagnosis; boot-path concern checked = NOT a bug, fleet runs tools from repo root] · REG-2 held · rest task-packeted to REGINALD/LABOR/CARL/BOND bundled w/ domain-drift · HAWK reconcile routed — see ACTIVE_DECISIONS + `AGENTS/DAEDALUS/upgrades/BATCH_02_handles.md`); AEOLUS→MARCO handshake; BROCK packet reframe (position-truth now off-repo). RESEARCH-INTAKE consumer wiring routed to WALTER (implements next boot); VIOLET to set VIX band.
-- **✅ HANDOFF trimmed to 5** (2026-07-01) — the 6/28×2 + 6/27×3 entries rolled to `PROME/archive/HANDOFF_2026Q2.md`.
-- **Rescued open threads** (lived only in the rolled-off HANDOFF entries — carried here so they don't drop):
-  - **Desktop `telegram-prome/.env` recreate** — load-bearing; PROME Telegram synthesis depends on it (per-machine, off-repo, rotated token).
-  - **Scout** needs its own fresh feeds bot; + decide the 2 dark PROME-owned feeds (revive-as-bridge vs cede-to-Scout — PROME leans cede).
-  - **DAEDALUS** utility-agent blueprint (greenlit; resolve YEYOU double-class first) + Phase-4 BOTTOM-LINE 14-agent batch (needs Will approval + idle targets) — *distinct from BATCH_02 above*.
-  - **CARL/CORAL** muni/housing deliverables handoff (from the 6/25 grading-instrument cluster).
-  - Downgraded **G-SIB + Pension-LDI** coverage picks — recorded for later revisit.
-  - 6 mandate-extension/hygiene **SIGs** — NEXUS ✅ done; HENRY/BOND/LIQUID pending (don't chase; owners apply at next boot).
-  - Low-pri: fleet-wide **ledger-checker wiring**; **CREED git section**.
+- **Both memory trees go public on flip** — `memory/` daily notes + `memory/auto/` findings are git-tracked; Will declined a public-readiness audit (offer stands — they carry tickers/thesis/position prose).
+- Carried analytical lane (parked): AEOLUS→MARCO handshake; BROCK packet reframe (position-truth off-repo); RESEARCH-INTAKE consumer wiring (WALTER implements; VIOLET sets VIX band).
+- **Rescued open threads** (carry so they don't drop): desktop `telegram-prome/.env` recreate (PROME Telegram synthesis dep); Scout feeds bot + the 2 dark PROME-owned feeds (lean cede); DAEDALUS Phase-4 BOTTOM-LINE 14-agent batch (needs Will approval + idle targets); CARL/CORAL muni-housing handoff; downgraded G-SIB + Pension-LDI picks (later revisit); HENRY/BOND/LIQUID mandate-extension SIGs (owners apply next boot); CREED git section.
 
 ## Git / repo state
-Clean, synced **0/0**. PM-3 = 11 pushed commits (root-doc sweep). Auto-push (`safe-push.sh`) held ff throughout, no force. *Boot note: expect benign origin divergence when Will pushes from web/another surface → `git pull --rebase` (routine push-train, **not** the cross-machine tripwire).*
+Clean, synced **0/0**. 7/1 = 7 pushed commits (BATCH_02 ×4 + CLOSEOUT ×3), all ff via `safe-push.sh`, no force. BRENT ran its own Jul-1 closeout mid-session (graded BRT-08/09/28, integrated the EIA Cushing build) — the push-train swept everyone cleanly; BRENT's files never touched (pathspec discipline held). *Boot note: benign origin divergence when Will/another surface pushes → `git pull --rebase` (routine push-train, NOT the cross-machine tripwire).*
 
-## Cautions
-- **Position truth OFF-repo** (WILL/trading-journal gone from tree AND history).
-- **Refresh dashboard/FRED before citing levels** — no live market read since 6/30 AM; HEARTBEAT dashboard is a labeled 6/25-26 snapshot.
-- Mirror backup still on disk = rollback net until Will confirms public; don't delete prematurely.
-- Forward docket: EIA 7/1 · NFP+CFTC COT 7/3 · monolines 7/15-22 · Jul-16 banks · CPI 7/14.
+## Cautions + Operator Card
+- **Today: 2026-07-01 (Wed).** Live market read this session (~14:04 ET): **risk-ON drift** — VIX 16.3, banks bid (KRE $76.3), HY 275 (moved AWAY from the >280 trigger), Brent ~$71 (decoupling deepening), USD/JPY 162.5 (in the MOF zone; SAM current). **No trigger fired.**
+- **Forward docket:** ✅ EIA 7/1 (Cushing 19.67M, +0.71 BUILD — BRENT graded) · **NFP + CFTC COT 7/3** · monolines 7/15-22 · **Jul-16 banks** (OZK/WAL Q2) · **CPI 7/14**. Credit-bear HY>280 / wrapper-leading auto-watched (both unfired).
+- **Position truth OFF-repo** (WILL/trading-journal gone). **Refresh dashboard/FRED before citing levels** — this session's read ages fast.
+- Mirror backup on disk = rollback net until Will confirms public; don't delete prematurely.
