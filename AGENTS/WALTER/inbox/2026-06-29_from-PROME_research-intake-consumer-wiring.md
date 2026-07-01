@@ -67,3 +67,14 @@ A thin **auto-generated** orientation digest mirrored into the main repo (`SUMMA
 - Lane: `/home/willi/Research-Intake` (`README.md`, `scripts/collect.py` FETCHERS registry, `liveness.json`, `SUMMARY.md`).
 - `[[project_research_intake_collection_lane]]` (auto-memory).
 - PROME `ACTIVE_DECISIONS.md` row "RESEARCH-INTAKE collection lane" (state: LIVE / consumer-wiring being closed by this packet).
+
+---
+
+## 8. ADDENDUM 2026-07-01 (PROME) — HY OAS now in the fred feed
+
+The fred feed now carries **BAMLH0A0HYM2 (HY OAS, converted to bps)** with bands 240/260/270/280 + two NAMED trigger alerts (intake `89b2e31`, live-tested; first HY row lands with the 7/2 run):
+- `>=280` → **"X1-trigger breach"** line — route to **LIQUID (primary) + PROME**; sustain judgment stays LIQUID's (canonical: `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md`). Highest-priority alert the lane emits — it's the credit-bear arm.
+- `<260 two consecutive closes` → **"re-kill line"** — route to **LIQUID + PROME** (de-arm signal, same canon).
+- Generic `[orange]` band prints (>=270; e.g. 275 as of 6/30) = **near-trigger watch** — significance-gate per §3; ONSET/CHANGE dedup per §2c applies.
+
+Context: the lane is now the **machine-independent PRIMARY** for this watch (Will-approved 7/1) — the desktop `liquid-hy-watch` systemd timer is redundancy (machine-local; dark when that box is off). No other packet changes; §2–6 apply to these alerts as normal lane-flagged breaches.
