@@ -74,7 +74,7 @@
 |--------|-------|---------|
 | **Brent (BZ=F)** | **$71.36 (−2.14%)** — FRESH ~4-mo cycle low; sub-$75 (RED-FT-04); decoupling extending | Jul 1 live [CONF FORGE] |
 | **WTI (CL=F)** | **$68.32 (−1.70%) — broke $70** (down-tail nearer) | Jul 1 live [CONF FORGE] |
-| **Curve structure** | **CONTANGO [EST]** — M1−M3 well <$3 (Trigger #1 completed Jun 15, Path-A-contaminated). Re-derive from BZQ26/BZV26 to re-stamp | [EST] |
+| **Curve structure** | **~FLAT/CONTANGO [EST]** — M1−M3 small, <$3 (Trigger #1 completed Jun 15, Path-A-contaminated). Jul-1 re-derive ATTEMPTED — `BZQ26/BZV26 .NYM` proxies returned stale/unreliable quotes (front-month mismatch vs BZ=F); needs a proper ICE-settle source to stamp [CONF] | [EST] |
 | **SPR** | **325.7M (−5.54M) — draw decelerated; 40-yr low** — 172M auth ~fully withdrawn early July → DOE re-auth (~Jul 3) | wk-6/26 EIA [CONF] |
 | **Cushing** | **🟢→ 19.67M (+0.71M) — FIRST BUILD; sub-floor drain REVERSED** (still <20M floor) | wk-6/26 EIA [CONF] |
 | **US commercial crude** | **408.4M (−3.77M) — draw decelerated** | wk-6/26 EIA [CONF] |
