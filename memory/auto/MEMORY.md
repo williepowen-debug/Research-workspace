@@ -186,5 +186,5 @@
 - [History-Scrub Verify by Content not Pickaxe](finding_history_scrub_verify_by_content_not_pickaxe.md) — read edited lines + blob-enumerate; scrub whole credential not half
 - [Roster Change Propagates to All Surfaces](finding_roster_change_propagates_to_all_surfaces.md) — roster edit? sweep every mirror + verify folders; point don't duplicate churny lists
 - [DAEDALUS Encode-Existing Needs Live Read](finding_daedalus_encode_existing_needs_live_read.md) — read-verify each handle vs live file; self-labeled "lifts" are often partial builds
-- [Verify Runtime Context Before Tool Broken](finding_verify_runtime_context_before_tool_broken.md) — reproduce from the ACTUAL runtime cwd; a fail from the wrong dir isn't a bug
+- [Verify Runtime Context Before Tool Broken](finding_verify_runtime_context_before_tool_broken.md) — reproduce from the ACTUAL launch cwd both ways; test "convention" claims empirically
 - [Verify Recommended Fix Not Just Finding](finding_verify_recommended_fix_not_just_finding.md) — an audit's fix can contradict governance; verify the remedy separately, esp. if it expands autonomy
