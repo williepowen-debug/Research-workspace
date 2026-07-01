@@ -85,7 +85,7 @@ things in context are what needs doing.
 4. **Scan `thesis/PREDICTIONS.tsv`** — **automated by the boot kit.** Run it once,
    covers this step + step 5 + a price snapshot (~2s):
    ```
-   .venv/bin/python3 AGENTS/OTTO/scripts/boot.py
+   (cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 AGENTS/OTTO/scripts/boot.py)
    ```
    (`--verbose` for full ledger; `--no-price` to skip the network call.) The predictions
    scan flags (a) 🟠 DUE SOON (Resolve_Date within 14 days) and (b) 🔴 OVERDUE (Resolve_Date

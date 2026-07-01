@@ -31,7 +31,7 @@ Oil markets are 24/7 and data-rich. EIA weekly, Baker Hughes, OPEC meetings, tan
 4. **Read `domain/REFERENCE_TABLES.md`** if task involves fundamentals — breakevens, OPEC quotas, storage capacities
 5. **Run `scripts/boot.py`** — live prices + FRED + EIA + catalyst countdown in ~10s:
    ```
-   .venv/bin/python3 AGENTS/BRENT/scripts/boot.py
+   (cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 AGENTS/BRENT/scripts/boot.py)
    ```
    Use `--verbose` for full output. Web-search only for narrative/headline catalysts the boot kit doesn't cover. **Also eyeball OPEN rows in `thesis/PREDICTIONS.tsv` whose Timeframe has passed** — flag any DUE for resolution at closeout (don't let a prediction sit OPEN-but-stale). *(Predictions-due auto-scan now WIRED into boot.py via `predictions_due.py` — flags 🔴 DUE / 🟠 SOON-≤7d; still eyeball for event-conditional rows it intentionally skips, e.g. "Within X of <event>".)*
 5a. **Ledger staleness check** — run `python3 "$(git rev-parse --show-toplevel)/scripts/ledger_staleness.py" BRENT --quiet`; surface any ⚠️ stale-ledger alert and freeze-or-refresh it at closeout (root CLAUDE.md Data Hygiene — workbook ledgers are FROZEN-bannered or live, never silent-rot). *(Wired 2026-06-27; invocation cwd-proofed 2026-07-01 after the bare root-relative form failed from BRENT's own-dir launch cwd. Known flag: `GROUP_MAP.tsv` +115d stale — freeze-or-refresh; the 7/1 KB/VX/FLOW freeze didn't cover it.)*

@@ -26,7 +26,7 @@ B0. **`git pull`** — sync from GitHub before reading anything. Follow pull pro
 B1. **Read `STATUS.md`** — current dashboard, core tension, danger window.
 B2. **Run `boot.py` — automated data refresh BEFORE analysis** (parity with SAM/BRENT):
    ```
-   .venv/bin/python3 AGENTS/LABOR/scripts/boot.py
+   (cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 AGENTS/LABOR/scripts/boot.py)
    ```
    ~5s. Runs three sub-scripts and feeds B4/B5 directly: **(a) `labor_data.py`** — live FRED sweep (claims, NFP, U-3/6, JOLTS, temp help) with threshold flags wired to KEY THRESHOLDS; **(b) `catalyst_countdown.py`** — `docket/CATALYSTS.tsv` countdown; **(c) `predictions_due.py`** — flags OPEN predictions past/near due-by. Use `--verbose` for full output. **Report refreshed levels to Will.** (Sub-scripts are individually runnable for one-off pulls.)
 B3. **Read `LESSONS.md`** — LABOR-specific mistake-patterns to avoid before repeating them this session.

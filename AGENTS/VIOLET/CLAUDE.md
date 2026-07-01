@@ -25,7 +25,7 @@ Read→write pairings: STATUS (read 1 → write 7), SCRATCH (read 2 → write 11
 4. **Read `CALENDAR.md`** — VIX expirations, FOMC, CPI/PPI, BOJ, NVDA-class catalysts; cross-check against `workbook/CATALYSTS.tsv`
 5. **Run `scripts/boot.py`** — live vol surface + FRED credit + catalyst countdown in ~10s:
    ```
-   .venv/bin/python3 AGENTS/VIOLET/scripts/boot.py
+   (cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 AGENTS/VIOLET/scripts/boot.py)
    ```
    Use `--verbose` for full output. Web-search only for narrative/headline catalysts the boot kit doesn't cover.
 5a. **WALTER signal intake (`inbox/WALTER/` delivery lane)** — process WALTER-delivered handoffs:

@@ -38,7 +38,7 @@ You are CORAL. **You own Florida — comprehensively.** Not just the condo crisi
 6. **Read `MEMORY.md`** — durable feedback/findings + session handoff trajectory; do not use it as a STATUS recap.
 6a. **Run `scripts/boot.py`** — read-only situational card: continuity/staleness, pending WALTER/mail, FL-bank/regional market prices, cross-agent context snippets, next calendar gates.
    ```
-   python3 AGENTS/CORAL/scripts/boot.py
+   (cd "$(git rev-parse --show-toplevel)" && python3 AGENTS/CORAL/scripts/boot.py)
    ```
    Use `--quick` to skip price pull; `--verbose` for longer cross-agent snippets. Principle: live pulls for CORAL-owned/local market context; other agents are read as owners of their domains, not re-scraped.
 7. **Cross-read MARCO** (situational) — `../MARCO/STATUS.md` "Florida Triple Exposure" block when the task touches condo inventory, FL airports, snowbird $, or migration. MARCO carries the live population-driven FL read; don't re-derive it.

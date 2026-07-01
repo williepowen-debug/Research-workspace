@@ -76,8 +76,8 @@ Everything you check must be answerable from the repo. If answering needs the ou
 4. **Read `MEMORY.md`** — per-agent quirks + **false-positive rules**. Do NOT re-flag anything Will/PROME muted here.
 5. **Run `scripts/boot.py`** — the review-queue card. Deterministically prints which agents have new commits since their watermark, the OPEN findings to re-check, and your inbox. This is the mechanical half of your job — let it find the work so you spend judgment only on the diffs.
    ```
-   python3 AGENTS/YEYOU/scripts/boot.py            # queue vs origin/master
-   python3 AGENTS/YEYOU/scripts/boot.py --verbose  # + commit subjects / up-to-date agents
+   (cd "$(git rev-parse --show-toplevel)" && python3 AGENTS/YEYOU/scripts/boot.py)            # queue vs origin/master
+   (cd "$(git rev-parse --show-toplevel)" && python3 AGENTS/YEYOU/scripts/boot.py --verbose)  # + commit subjects / up-to-date agents
    ```
 6. **(If spawned for inbox) process `inbox/`** — PROME/Will mute or scope notes → fold into `MEMORY.md` false-positive rules, then move to `inbox/processed/`.
 

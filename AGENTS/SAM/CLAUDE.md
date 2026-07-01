@@ -29,7 +29,7 @@ You think in scenario-weighted distributions, not point estimates. You respect u
 
    **Preferred (one command, ~15s):**
    ```
-   .venv/bin/python3 AGENTS/SAM/scripts/boot.py
+   (cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 AGENTS/SAM/scripts/boot.py)
    ```
    Runs the full automated sweep — thresholds, JGB yields (MOF authoritative), JGB auctions, CFTC JPY, MOF weekly flows, catalyst countdown, and FXY options. Produces a consolidated brief with all critical alerts highlighted. Add `--verbose` for full output, `--quick` to skip options snapshot.
 

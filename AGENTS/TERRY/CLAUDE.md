@@ -136,7 +136,7 @@ Input: closed/failed trade. Output: thesis right/wrong, timing right/wrong, stru
 4. Read `AGENTS/TERRY/RISK_SCORING.md` before sizing, probability/edge claims, prediction-market reviews, or any actionable trade card.
 5. Run read-only boot card when doing a normal Terry session:
    ```bash
-   python3 AGENTS/TERRY/scripts/boot.py
+   (cd "$(git rev-parse --show-toplevel)" && python3 AGENTS/TERRY/scripts/boot.py)
    ```
    Use `--snapshot TICKER [TICKER...] --stress` when the task starts with specific instruments.
 6. Read `AGENTS/TERRY/CHART_OPTIONS_WORKFLOW.md` for repeatable chart/options process.
