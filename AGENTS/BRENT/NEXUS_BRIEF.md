@@ -38,8 +38,8 @@
 |----|--------|----------|---------------------------------------------|
 | HAWK | **Reopening now physically DELIVERING** — Cushing BUILT +0.71M (first build) confirms barrels landing in the US, on top of 75% transits. Oil-price authority = BRENT ($71.36 fresh low). | 🔴 | Upgrades the reopening-completeness gate; the snap-tail still needs a DURABLE physical re-closure (not a one-off exchange) |
 | HAWK | **BRT-28 RESOLVED — HAW-10 (Bab-proper) expired unfired Jul 1** (GoA ≠ strait proper); second-chokepoint premium bled out | 🟠 | Closes the Bab price-consequence rail; no second-corridor supply shock priced |
-| HENRY / CARL / SAM | Disinflationary energy leg now **physically confirming** (Cushing build + fresh $71 low), not just signed — durable, not a head-fake | 🟠 | HENRY: softer energy CPI leg reinforced, Jul-14 inverse-feedback intact. CARL: pump-relief durable (retail gas $3.83). SAM: Japan import-relief physically progressing |
-| LIQUID | Energy HY-OAS pull still owed (DEFERRED per Will Jun 20); structural read firmer, tail less acute | 🟠 | Energy-credit tail invisible on aggregate HY; less acute as structural confirms |
+| HENRY / CARL / SAM | Disinflationary energy leg now **physically confirming** (Cushing build + fresh $71 low), not just signed. **SAM: Japan crude stocks at a 4-yr low & draining on ME disruption (qcintel/Bloomberg) — corroborates the Hedgeye ~360→280M read** | 🟠 | HENRY: softer energy CPI leg reinforced, Jul-14 inverse-feedback intact. CARL: pump-relief durable (retail gas $3.83). SAM: import-relief physically progressing but stocks at 4-yr low = the tightness is real |
+| LIQUID | **Broad HY OAS 275bps (−5bps, Jun-30) = CALM, well <400bps** — no energy-credit stress. Energy-only OAS (BRENT threshold >400bps) needs your paid source (no free FRED series) | 🟡 | Energy-credit tail invisible on aggregate HY; the calm print confirms no acute stress |
 | PROME / RED | v5.0 UNCHANGED but softened at the margin: first deficit-closing print leans the race to normalization. **Decision rule registered: a 2nd such print → convex-arm auto-disarm (v5.1).** BRT-08/09/28 resolved. | 🟠 | No new capital; the up-arm is trending toward stand-down, not fire |
 
 **WAITING FOR:**
@@ -48,7 +48,7 @@
 |------|-------|-------------|----------------|------------------------|
 | HAWK | Ceasefire-durability read post Jun-27/28 — contained exchange or start of a durable breakdown? | Daily | The one path that re-arms the snap tail (DURABLE physical re-closure) | Durable collapse + operational re-closure → snap, amplified by record-low stocks; contained → structural holds |
 | HAWK | Hormuz reopening adjudication (P&I resumption, liners off Cape, mine-clearance) | Rolling | The BRT-07 start-gun; the Cushing build now corroborates flow, but verified institutional legs still ~0-1/4 | P&I resumes → durable Phase-2 normalization; mines/strikes/fade → reopening stalls → re-tightens the race |
-| **HAWK** | **HAW-15 crude-export pivot — the live Tier-1 convex-arm trigger.** HAWK marks UNFIRED (STATUS Jun-27; window to Jul 15); 2026 campaign trending to export infra (Primorsk/Ust-Luga/Novorossiysk) | **Rolling** | Product→Brent flip: firing REMOVES Russian crude = deficit harder to close = the up-tail re-arms | Confirmed pivot → raise Brent-supply-risk + re-arm the convex arm (Tier-1) materially |
+| **HAWK** | **HAW-15 — UNFIRED IN SUBSTANCE, fuse WARMING.** Russian crude EXPORTS at 2026 HIGH ~3.83M bpd (KB-187) = no choke yet; BUT June strikes hit crude-export PORTS (Ust-Luga 16/54 tanks; Grushovaya/Novorossiysk 14 — Carnegie/web Jul-1), which your Jun-20 "refineries-only" framing under-weighted. **ADJUDICATE: do the June export-port tank hits touch crude-LOADING, or product storage only?** | **Rolling** | Product→Brent flip fires when export FLOW drops, not on storage-tank damage alone | Confirmed loading/flow disruption → re-arm the convex arm (Tier-1) materially |
 
 ---
 

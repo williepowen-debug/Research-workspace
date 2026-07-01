@@ -33,6 +33,7 @@ BOOT_SEQUENCE = [
     ("Threshold Monitor",    "thresholds.py",         [], False),
     ("EIA Weekly Monitor",   "eia_weekly.py",         [], False),
     ("Catalyst Countdown",   "catalyst_countdown.py", [], False),
+    ("Predictions-Due Scan", "predictions_due.py",    [], False),
 ]
 
 

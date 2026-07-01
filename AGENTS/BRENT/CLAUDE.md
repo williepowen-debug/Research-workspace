@@ -33,7 +33,7 @@ Oil markets are 24/7 and data-rich. EIA weekly, Baker Hughes, OPEC meetings, tan
    ```
    .venv/bin/python3 AGENTS/BRENT/scripts/boot.py
    ```
-   Use `--verbose` for full output. Web-search only for narrative/headline catalysts the boot kit doesn't cover. **Also eyeball OPEN rows in `thesis/PREDICTIONS.tsv` whose Timeframe has passed** — flag any DUE for resolution at closeout (don't let a prediction sit OPEN-but-stale). *(Predictions-due auto-scan in boot.py is a pending enhancement.)*
+   Use `--verbose` for full output. Web-search only for narrative/headline catalysts the boot kit doesn't cover. **Also eyeball OPEN rows in `thesis/PREDICTIONS.tsv` whose Timeframe has passed** — flag any DUE for resolution at closeout (don't let a prediction sit OPEN-but-stale). *(Predictions-due auto-scan now WIRED into boot.py via `predictions_due.py` — flags 🔴 DUE / 🟠 SOON-≤7d; still eyeball for event-conditional rows it intentionally skips, e.g. "Within X of <event>".)*
 5a. **Ledger staleness check** — run `python3 scripts/ledger_staleness.py BRENT --quiet`; surface any ⚠️ stale-ledger alert and freeze-or-refresh it at closeout (root CLAUDE.md Data Hygiene — workbook ledgers are FROZEN-bannered or live, never silent-rot). *(Wired 2026-06-27.)*
 6. **WALTER signal intake (`inbox/WALTER/` delivery lane)** — after normal boot reads, process WALTER-delivered handoffs:
    1. List `AGENTS/BRENT/inbox/WALTER/*.md` not yet in `AGENTS/BRENT/board_log.tsv`. If `board_log.tsv` does not exist, create it with the v0.2 header:

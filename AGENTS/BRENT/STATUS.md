@@ -41,7 +41,7 @@
 
 **Macro (BRT-16):** premise "$90+ sustained through Q2" DECISIVELY FAILED on price ($71, Q2 closed Jun-30) → converting to consumer relief (retail gas $3.83, broke <$4). Inverse-feedback test = Jun CPI Jul 14.
 
-**Russian channel — PRODUCT story, crude LESS affected (HAWK ledger):** Ukraine's refinery campaign at record intensity (throughput 16-yr low; shortages 25+ regions) = bullish PRODUCTS/cracks but soft-to-BEARISH crude (refineries down frees crude for export; floating storage +25%). **Two rising bullish-crude fuses to watch:** (1) **HAW-15 crude-export pivot** — HAWK marks UNFIRED (Jun-27; recent strikes product-channel), the live Tier-1 convex-arm trigger; (2) storage/Urals saturation forcing wellhead shut-ins. Either firing REMOVES Russian crude → deficit harder to close (re-arms the up-tail).
+**Russian channel — PRODUCT story, crude LESS affected (HAWK ledger):** Ukraine's refinery campaign at record intensity (throughput 16-yr low; shortages 25+ regions) = bullish PRODUCTS/cracks but soft-to-BEARISH crude (refineries down frees crude for export; floating storage +25%). **Two rising bullish-crude fuses to watch:** (1) **HAW-15 crude-export pivot — UNFIRED IN SUBSTANCE but the fuse is WARMING.** Russian crude EXPORTS are at a **2026 HIGH ~3.83M bpd** [CONF HAWK KB-187] — the choke has NOT materialized (refinery strikes free crude for export). BUT Ukraine's June campaign DID hit the Baltic/Black-Sea crude-export PORTS (Ust-Luga 16/54 storage tanks; Grushovaya/Novorossiysk 14 tanks — Carnegie/web Jul-1), which HAWK's Jun-20 "refineries-only" framing under-weighted. These are STORAGE-tank hits, not a confirmed crude-LOADING halt → **flagged HAWK to adjudicate (crude-loading disruption vs product-storage).** Still the live Tier-1 convex-arm trigger; fires when export FLOW actually drops. (2) storage/Urals saturation forcing wellhead shut-ins. Either firing REMOVES Russian crude → deficit harder to close (re-arms the up-tail).
 
 ---
 
@@ -112,7 +112,7 @@
 | Storage (global) | 🟠 4 ↓ | **2nd-derivative TURNED: Cushing BUILT +0.71M, all draws decelerated.** Levels still critical (SPR 40-yr low; Cushing <20M) but the cycle-max-draw narrative broke |
 | Tanker/shipping | 🟠 3 | STNG ~$70 weak; war-risk unwinding; asset-values record (structural leg) |
 | Refining bottleneck | 🟠 3 | Util 96.6% margin-boom; cracks WIDENING (compression absent) |
-| Energy credit | 🟡 2 | LIQUID primary; HY-Energy-OAS pull owed |
+| Energy credit | 🟡 2 | **Broad HY OAS 2.75% (275bps, −5bps, Jun-30 FRED) = CALM, well <400bps stress.** Energy-only OAS needs LIQUID (no free series). No energy-credit stress |
 | OPEC+ policy | 🟠 3 | Paper behind Hormuz; JMMC Jul 28 |
 | Ceasefire stability | 🟠 4 | Most fragile yet (Jun 27-28 exchange) but no new kinetic since; HAW-10 (Bab) expired unfired |
 | Curve structure | 🔴 4 | **CONTANGO** — Phase-2 structure confirmed |
@@ -143,7 +143,7 @@
 3. 🟠 **The 2nd deficit-closing print** — does NEXT week's EIA show Cushing building again + draws decelerating? Two prints = up-whipsaw dissolving → convex-arm auto-disarm approaching. **The single most decision-relevant watch now.**
 4. 🟡 **Operational-reopening watch** — commercial P&I resumption + UKMTO recovery + JWLA-033 reclass = the BRT-07 start-gun. Liners off Cape = cleanest tell.
 5. 🟡 **CHASE HAWK on HAW-15** (crude-export pivot) — HAWK STATUS Jun-27, unfired; a confirmed pivot = a Tier-1 convex-arm trigger (re-arms the up-tail).
-6. 🟡 **LIQUID HY-Energy-OAS pull** (owed; deferred per Will Jun 20); verify Hedgeye Japanese drawdown (~360→280M, still [UNVERIFIED]).
+6. ✅ **Energy-credit read (Jul-1):** broad HY OAS **275bps (−5bps, Jun-30)** = calm, well <400bps; energy-only OAS still needs LIQUID's paid source (no free FRED series). ✅ **Japan drawdown CORROBORATED** — Japan crude stocks at a **4-yr low**, draining on ME disruption (qcintel/Bloomberg), consistent with the Hedgeye read (→SAM owns). **Main ICE Brent MM net → Jul-3 COT** (no free COT fetcher; defer to the release).
 
 ---
 
