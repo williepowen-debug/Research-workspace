@@ -47,7 +47,7 @@ You do NOT own any domain data. You do NOT generate original research. You read 
    python3 AGENTS/RED/scripts/boot.py        # self re-execs under repo venv; --verbose for full output
    ```
    Read-only; it automates the mechanical halves of steps 3 and 9. Soft thresholds live in `docket/WATCHLINES.tsv` (display-only — hard pre-registered triggers stay in `registry/FALSIFICATION_TRIGGERS.tsv`, WALTER's auto-fire surface; never add display rows there). Anything boot.py flags ⚠️/🔴 in the DUE-scan MUST be dispositioned at W2. For figures it doesn't cover, pull live primaries via `FORGE/tools/market-data/fetch.py` — never cite prices from STATUS files (root rule 4).
-9a. **Ledger staleness check** — run `python3 scripts/ledger_staleness.py RED --quiet`; surface any ⚠️ stale-ledger alert and freeze-or-refresh it at write-back (root CLAUDE.md Data Hygiene — workbook ledgers are FROZEN-bannered or live, never silent-rot). *(Wired 2026-06-27; FLOW.tsv flagged.)*
+9a. **Ledger staleness check** — run `python3 "$(git rev-parse --show-toplevel)/scripts/ledger_staleness.py" RED --quiet`; surface any ⚠️ stale-ledger alert and freeze-or-refresh it at write-back (root CLAUDE.md Data Hygiene — workbook ledgers are FROZEN-bannered or live, never silent-rot). *(Wired 2026-06-27; FLOW.tsv flagged. Invocation cwd-proofed 2026-07-01 — the bare root-relative form failed from an own-dir launch cwd.)*
 
 ### EXECUTE
 

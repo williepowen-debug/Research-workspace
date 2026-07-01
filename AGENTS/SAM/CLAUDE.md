@@ -34,7 +34,7 @@ You think in scenario-weighted distributions, not point estimates. You respect u
    Runs the full automated sweep — thresholds, JGB yields (MOF authoritative), JGB auctions, CFTC JPY, MOF weekly flows, catalyst countdown, and FXY options. Produces a consolidated brief with all critical alerts highlighted. Add `--verbose` for full output, `--quick` to skip options snapshot.
 
    **Manual fallback** (use if boot.py is broken or you need one-off data):
-   - **Prices:** `.venv/bin/python3 FORGE/tools/market-data/fetch.py price FXY USDJPY=X EURJPY=X GBPJPY=X AUDJPY=X BZ=F`
+   - **Prices:** `(cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 FORGE/tools/market-data/fetch.py price FXY USDJPY=X EURJPY=X GBPJPY=X AUDJPY=X BZ=F)` *(cwd-proof form, 2026-07-01)*
    - **JGB yields (daily, all tenors):** MOF CSV at `mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv` (cleanest source; ~1 business day lag)
    - **JGB auction results:** MOF page pattern `mof.go.jp/english/policy/jgbs/auction/calendar/eresul/eresul{YYYYMMDD}.htm`
    - **CFTC JPY COT:** `cftc.gov/dea/newcot/deafut.txt` — find "JAPANESE YEN - CHICAGO MERCANTILE EXCHANGE" row
