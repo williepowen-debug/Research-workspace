@@ -63,3 +63,7 @@ Iran targets shipping (by-date)	event	iran-successfully-targets-shipping-byptptp
 US blockade on Iran (by-date)	event	us-announces-blockade-on-iran-byptptpt-20260622191049039	T2	HAWK,BRENT
 # Hormuz PHYSICAL-traffic gauge (NEW 7/2) — better than the binary "normal by X". Ships-per-day ladder by Jul31: 40-ships 86%, 60-ships 55.5%, 80-ships 19.5%, 100-ships 9% → reduced regime (~40-60/day) persists through July.
 Hormuz ships-transit ladder by Jul31	event	will-ships-transit-the-strait-of-hormuz-on-any-day-by-july-31-20260626152655081	T2	HAWK,BRENT
+
+# ===== ADDED 2026-07-02 (volume/sentiment sweep — off-fleet-radar credit signal) =====
+# Mamdani NYC rent freeze jumped +54.8/7d to 93.8% ($275K vol) — crowd near-certain of a rent-regulated-multifamily freeze. Transmission: freeze → regulated-multifamily NOI compression → the NYCB/Flagstar 2024 collateral → NYC multifamily-lender credit stress. Route REGINALD (bank fundamentals) + CARL (credit chain).
+Mamdani freezes NYC rents <2027	market	will-mamdani-freeze-nyc-rents-before-2027	T2	REGINALD,CARL

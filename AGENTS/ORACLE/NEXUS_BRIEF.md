@@ -30,6 +30,7 @@
 | RED / VIOLET / HENRY | Risk-on at **series high**: S&P best-asset 67.5% (+49/90d), NEH 84% (+48/90d). Deepest board trend — complacency to unwind if credit axis fires. Contrarian tell = NEH <30% (not close). | 🟡 |
 | HENRY / LABOR | June U3 finalized ~4.2% (Kalshi, mild tick); June CPI contained 3.6-3.8 (res 7/14-15). ORACLE observes market convergence only — domain analysis is yours. | 🟡 |
 | REGINALD / CARL | Bank cluster benign (≤11%). Citi Q2 prov 60% (was 71.5%), BAC 43% (+6/7d) — **thin, diagnostic only**; watch drift vs 7/14 print. | 🟡 |
+| REGINALD / CARL | **NEW off-radar credit signal:** "Mamdani freezes NYC rents before 2027" **93.8% (Δ7d +54.8, $275K)** — crowd near-certain of a rent-regulated-multifamily freeze → NYCB/Flagstar-2024 collateral → NYC multifamily-lender credit stress. Outbox note sent. Caveat: $31K liq, news-step not stealth accumulation. Do we have NYC multifamily names on the book? | 🟠 |
 
 **WAITING FOR:**
 | From | Input | Why |

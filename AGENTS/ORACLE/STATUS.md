@@ -24,6 +24,8 @@
 
 **⚪ BANK PROVISIONS — diagnostic drift into 7/14 (thin).** Citi Q2 prov >$2.9B **60.0%** (was 71.5% on 6/27, $434 liq); BAC >$1.4B **43.0% (Δ7d +6.0, $124 liq)**. Both too thin to route as signal — watch drift vs the actual 7/14 print, not the level. Bank cluster otherwise benign (bailout 11%, named-EOY 2.9%). → REGINALD/CARL (FYI).
 
+**🟠 OFF-RADAR CREDIT SIGNAL (new 7/2) — Mamdani NYC rent freeze near-certain.** "Mamdani freezes NYC rents before 2027" **93.8% (Δ7d +54.8, $275K vol, $31K liq)** — crowd jumped ~39%→94% in a week (real money) on an NYC rent-regulated-multifamily freeze. Credit transmission: freeze → regulated-multifamily NOI compression → **the NYCB/Flagstar-2024 collateral class** → NYC multifamily-lender credit stress. Off the fleet's radar until now; added to watchlist + outbox to REGINALD. **Caveat:** $31K liq is moderate and the +55/7d is a discrete news-step (primary result), NOT stealth accumulation — a real *sentiment* shift, not an insider tell. → REGINALD/CARL.
+
 ---
 
 ## Signal Dashboard (live 2026-07-02T17:26Z, Polymarket unless noted)
@@ -40,6 +42,7 @@
 | US recession 2026 | T1 | 11.5% | — | +1.0 | $1.6M | $37K | calm (Kalshi 8.0%, Δp −4) |
 | Major bank bailout <2027 | T1 | 11.0% | — | +1.5 | $3.7K | $2.0K | ⚠️thin, benign |
 | Which banks fail EOY (top) | T1 | 2.9% | −0.3 | −2.6 | $3.1K | $9.7K | no name priced |
+| **Mamdani freezes NYC rents <2027** | T2 | **93.8%** | −0.9 | **+54.8** | $275K | $31K | NEW — NYC multifamily credit → REGINALD |
 | Citi Q2 prov >$2.9B | T1 | 60.0% | +1.0 | −0.5 | $6.3K | $434 | ⚠️thin diagnostic (res 7/14) |
 | BAC Q2 prov >$1.4B | T1 | 43.0% | — | +6.0 | $4.4K | $124 | ⚠️thin diagnostic (res 7/14) |
 | US unemployment ladder (top) | T1 | 11.1% | −11.7 | +1.1 | $119K | $2.4K | ⚠️thin ⏮stale-date — discount |
