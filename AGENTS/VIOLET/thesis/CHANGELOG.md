@@ -6,6 +6,21 @@ Trigger to log here: any closeout that updates `thesis/VIX_THESIS.md`.
 
 ---
 
+## v3.6 — 2026-07-01 (tail rotation + Fed-HIKE context formalized; first-ever Bin-A fire; wings-rotation VIX-suppression mechanism)
+
+- **Bumped from:** v3.5 (2026-06-06) + the intra-v3.5 6/23 POV pivot below (whose v3.6 candidacy this bump resolves YES).
+- **What changed:** Four integrations from the 6/24–7/1 window (VIOLET dark 6/24-6/30; reconstructed 7/1 via 5-thread workflow + own pulls, KB-VIO-106..109):
+  1. **The 6/23 queued candidacy content is formalized** — external-catalyst tails (Iran/oil CLOSED 6/29 formal de-escalation; yen-carry defused-but-stretched; credit *was* risk-on) rotated to floor while the internal Path-B coiled-spring became the dominant fragility, inside a **Fed-HIKE regime (Warsh)** — now with the regime's first tape: hawkish whipsaw 6/30-7/1 (Sintra, ~70% Sep-hike odds, 10Y +14bp/2 sessions, yen 40-yr low, **no haven bid through an Asia stress window**).
+  2. **First-ever BIN-A fire of the KB-VIO-090 tree (KB-VIO-107)** — cross 6/23, A-escalator + A3 dispersion 6/25, A2 touch 6/26; CCC stuck 9.70 / disp new-high 8.06 while VIX crushed. The falsifier architecture worked as designed: it killed the Post-Path-B Reversion Fade **whose directional call was paying** (VIX hit the 16-17 target) — that asymmetry (credit tree outranks a paying tape) IS the design, recorded as a calibration datum on the tree's cost. **Tree refinement candidate registered (NOT retro-applied): no single-issuer mask** — DISH DBS's pre-negotiated Ch11 (largest-CCC-structure class) can mechanically fire the escalator + dispersion lines. LIQUID breadth = the registered discriminator (KB-VIO-098); do not soften the verdict post-hoc.
+  3. **Wings-rotation VIX suppression (KB-VIO-108)** — measured flow-level mechanism: equity P/C collapsed 0.85→0.64 while SKEW ramped 139.4→154.82 (+15.4/3 sessions, top-decile) = hedge demand rotated from ATM protection into far-OTM crash wings (put spreads/collars), which suppresses headline VIX while repricing the tail. A flow-level sibling of the GEX-suppression absorption story: **a low VIX print in this regime is partly hedge structure, not calm.** Formal DIET/STRICT NOT fired (VVIX flat = binding leg) — configuration monitored, not L1-sized.
+  4. **Absorption stress-tested at a new level:** a broadening, multi-cause semis unwind (SOX −8.8% week, two −10% single-name days, narrative inverted capex-slowdown→capex-flood→antitrust/demand-destruction) + hawkish whipsaw left SPX +0.1% and VIX LOWER. Offshore, the same unwind REALIZED (KOSPI CB ×2 in one week — KRX first; standing 2x-ETF mechanical amplifier ~$9B, policy response jawboning-only; Taiwan record margin defaults). The framework's read: absorption intact onshore, fragility realized offshore, tail repricing underneath.
+- **Old view:** Path-B dominant with external legs defused; credit gate OPEN (Bin-B block lifted, CCC 9.47, "Path A dormant"); VIX fade-able on a clean setup; SKEW elevated-but-mechanical (margin +2.47 roll-off).
+- **New view:** Path-B unresolved and broadened; **credit tree in Bin-A state — Path-A re-activation question is LIVE** (hawkish-Fed-cracks-the-tail hypothesis has supporting tape, pending DISH decomposition + LIQUID breadth); all short-vol/fade entries structurally dead while Bin-A stands (KB-VIO-096 asymmetry); SKEW fresh at cycle-2nd-highest with a measured suppression mechanism under the VIX print; hedge flag strengthened (long-vol side), still Will-gated.
+- **Predictions touched:** #6 re-arm watch LIVE (SKEW >150, 1/4 td — note this instance is post-partial-fire/during-crush, a framing variant to adjudicate if it sustains). #5/L1: no formal fire (VVIX leg).
+- **Forward gates:** post-DISH CCC prints 7/2-7/3 · LIQUID breadth · June jobs ~7/2 (NFP-class trigger into this configuration) · SKEW 4-td sustain · 7/15 VIX exp · 7/29 FOMC · 9/16 FOMC+SEP.
+
+---
+
 ## Intra-v3.5 dated note — 2026-06-23 (POV pivot: catalyst window resolved; tail rationale rotated external→internal; Fed-HIKE regime context; v3.6 candidacy queued)
 
 - **Trigger:** 9-day-dark boot (last data 6/12). The 6/16-17 catalyst window fired entirely in the gap; reconstructed via fleet-doc harvest (SAM/BRENT/HENRY/LIQUID) + FOMC web-verify + authoritative VIX-path backfill.

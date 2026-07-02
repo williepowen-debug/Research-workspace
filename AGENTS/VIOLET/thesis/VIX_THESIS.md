@@ -1,4 +1,4 @@
-# VIX THESIS (v3.5 — Tier-3 follow-up refinements, 2026-06-06)
+# VIX THESIS (v3.6 — tail rotation + Fed-HIKE context; first Bin-A fire; wings-rotation suppression, 2026-07-01)
 
 VIOLET's core framework: Credit-vol relationship is **regime-dependent, crisis-type-dependent, and directionally asymmetric**. Operational signal stack runs L1 (population framework, real-money) over L2-L4 calibration filters. Two transmission paths now formal: standard credit-led, and concentration-unwind parallel.
 
@@ -9,6 +9,12 @@ VIOLET's core framework: Credit-vol relationship is **regime-dependent, crisis-t
 ## CHANGELOG
 
 > Canonical "old view → new view" per-bump log lives in `thesis/CHANGELOG.md`. This section is the in-body version history.
+
+**v3.6 (2026-07-01) — Tail rotation + Fed-HIKE context formalized; first Bin-A fire; wings-rotation suppression (full entry: CHANGELOG.md)**
+- **6/23 v3.6 candidacy resolved YES:** external-catalyst tails at floor (Iran/oil formally closed 6/29; yen-carry defused-but-stretched — yen 40-yr low, no haven bid) while the internal Path-B coiled-spring is the dominant fragility, inside the Fed-HIKE (Warsh) regime — first regime tape: Sintra hawkish whipsaw, ~70% Sep-hike odds.
+- **KB-VIO-090 tree: first-ever BIN-A (KB-VIO-107)** — escalator + dispersion fired 6/25-data; CCC stuck 9.70/disp 8.06 while VIX crushed to 16.59. Falsified the (paying) Reversion Fade per registration — the asymmetry is the design. Refinement candidate registered, not retro-applied: **no single-issuer mask** (DISH DBS prepack distortion); LIQUID breadth = registered discriminator.
+- **Wings-rotation VIX suppression (KB-VIO-108):** P/C 0.85→0.64 while SKEW 139.4→154.82 — hedge flow rotated ATM→far-OTM wings; headline VIX suppressed while tail reprices. Flow-level sibling of GEX-suppression. Low VIX ≠ calm in this regime.
+- **Absorption survived its hardest test:** SOX −8.8% multi-cause unwind week + hawkish whipsaw = SPX flat, VIX lower; offshore the unwind REALIZED (KOSPI CB ×2/week, 2x-ETF amplifier standing). Formal DIET/STRICT not fired (VVIX binding leg).
 
 **v3.5 (2026-06-06) — Tier-3 follow-up refinements (de-attribute stale system-thesis metric, cross-ref trades from Path A, fix mislabeled current-status check)**
 - **System thesis metric de-attributed** — "Scenario D 82%" Apr-era number removed; replaced with reference to CARL/PROME as owners. Per stale-copy-of-another-agent's-metric discipline (CLAUDE.md). No substantive change to VIOLET's role.
@@ -360,7 +366,7 @@ Portfolio P&L (no credit-side firing required)
 | 3 | VVIX > 120 **with VIX < 20** (divergence) → VIX > 25 within 10 days | **CLOSED INCONCLUSIVE 6/6.** 6/5 had VVIX 102.04 (not 120) but VIX cleared 20 anyway via Path B mechanism. Threshold-conditional setup doesn't capture mechanism-substitution. Replace with #5/#6. | — | Closed |
 | 4 | VIX > 40 → HY OAS > 600bps within 20 days | Untested — VIX hasn't reached 40 since thesis | Medium (downgraded from High — inherited, not VIOLET-validated) | Next event |
 | **5** | **KB-VIO-067 L1 DIET signature** (SKEW +10 / VIX -5 / VVIX -15 over 20d formal, or half-magnitude directional variant) → ≥15% VIX rise within 60 days | **PARTIAL HIT 6/5.** Directional/half-magnitude variant fired 5/20-5/29 → VIX +40% at td-4 (well above 15% threshold). Mechanism-attribution uncertain (NFP + AI confounder); count as partial. Base rate at this threshold: DIET 92% / STRICT 94% episode-level (L1 canonical table, KB-VIO-079). | High (EMPIRICAL via 19yr backtest) | Each L1 fire; 60d window |
-| **6** | **Post-spike SKEW > 150 sustained 4+ td** → back-to-back vol event within 60 days (Phase 2 cluster analog) | **TRIGGER LAPSED 6/9 — condition unfired.** SKEW >150 lasted 1 td only (152.25 6/5 → 145.00 6/8 → 141.97 6/9). Back-to-back-cluster test NOT activated; favors exhaustion / same-trade-repeating over a true 2nd rebid (KB-VIO-077). Not FAILED — the sustained condition never fired, so the 60d consequent was never armed. Re-arms on any future post-spike print sustaining >150 for 4+ td. | Medium (small N: 1 prior cluster in 19yr) | Condition lapsed 6/9; re-arms on next post-spike >150 |
+| **6** | **Post-spike SKEW > 150 sustained 4+ td** → back-to-back vol event within 60 days (Phase 2 cluster analog) | **RE-ARM WATCH LIVE 7/1 (1/4 td).** SKEW 154.82 on 7/1 (official close; 149.60 on 6/30 just below the line). Prior lapse: 6/5 instance lasted 1 td (152.25 → 145.00). ⚠️ Framing variant to adjudicate if it sustains: the 7/1 print is post-PARTIAL-fire (6/23 +12.8%) and arrived DURING a vol crush with wings-rotation composition (KB-VIO-108) — not the clean post-spike rebid the prediction imagined. | Medium (small N: 1 prior cluster in 19yr) | Sustain count 1/4 as of 7/1; arms the 60d consequent at 4 |
 
 **Scoring rules:**
 - "Untested" = trigger conditions have not occurred

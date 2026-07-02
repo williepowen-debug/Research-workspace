@@ -8,7 +8,7 @@ VIX-linked positions and trade framework.
 
 **None.** Episode-17 (VIX May 19 25C) expired worthless 2026-05-19 — closed out below. *(Closeout recorded 6/9; this file had carried the position as OPEN for 3 weeks after expiry — caught by orchestrator review.)*
 
-**Pre-registered, NOT entered (pending Will approval):** **Post-Path-B Reversion Fade** — see LIVE DECISION FRAMEWORK below. Arms only AFTER Micron 6/24 clears without re-igniting the semis unwind, on a clean reversion setup. Defined-risk, starter size. The conditions are pre-registered; the trade is not pre-authorized.
+**Post-Path-B Reversion Fade: CLOSED — FALSIFIED 7/1, never entered** (see the framework section below for the adjudication). Its PRIMARY falsifier — the KB-VIO-090 credit tree — fired **BIN-A** on 6/25 data (KB-VIO-107), which per pre-registration is "Path A confirming, FALSIFIED, full stop." Honest calibration record: the fade's *directional* thesis paid in full (VIX 19.49 → 16.59, inside the 16–17 target zone, on exactly the reversion path predicted) — the credit switch killed a winning trade. That asymmetry is the design (credit tree outranks a paying tape); the cost is now a logged datum on the tree, pending the DISH-decomposition/LIQUID-breadth adjudication. **No new fade/short-vol framework may be constructed while Bin-A stands** (KB-VIO-096 entry asymmetry).
 
 ---
 
@@ -62,7 +62,11 @@ VIX-linked positions and trade framework.
 
 ---
 
-## LIVE DECISION FRAMEWORK — Post-Path-B Reversion Fade (pre-registered 2026-06-23, flat)
+## LIVE DECISION FRAMEWORK — Post-Path-B Reversion Fade (pre-registered 2026-06-23, flat) — **CLOSED: FALSIFIED 7/1**
+
+**ADJUDICATION RECORD (7/1, KB-VIO-107):** The PRIMARY falsifier fired in the 6/24–6/30 dark window — CCC crossed 9.55 on the 6/23 print (9.56), the A-escalator (9.68 ≥9.65) and A3 dispersion (8.01 ≥8.00) fired on 6/25 data, A2 touched 6/26 (BB 1.73). **BIN-A = framework FALSIFIED full stop, never entered.** The Micron fork itself resolved ambiguously (MU cleared 6/24-6/25, then the sector relapsed 6/26 and again 7/1 — the fork's "cleared" state lasted one session). Tape epilogue: VIX did revert 19.49 → 16.59, inside the 16–17 target — the directional call paid, the credit switch killed it anyway, correctly per registration. Cost datum logged on the tree (single-issuer DISH distortion = refinement candidate, NOT retro-applied). Entry gates remain dead while Bin-A stands.
+
+*Original framework retained below for the registration record:*
 
 **The decision that opens after Micron 6/24.** Pre-registered while flat so the entry is disciplined, not improvised by the tape. This is VIOLET's current "fade the VIX" trigger — it supersedes the (now-closed) Event-Premium Fade below, but reuses that section's still-valid falsification architecture (credit 2-bin tree / n=5 tail-stop / time-box).
 
@@ -188,4 +192,4 @@ Inversion (VIX > VIX3M) **marks vol peaks, not onsets** (KB-VIO-034: 553 events,
 ---
 
 *Created: 2026-04-12*
-*Last Updated: 2026-06-23 PM (Will ask — pre-registered the **Post-Path-B Reversion Fade** trigger while flat: arms only AFTER Micron 6/24 clears without re-igniting, on a clean vol-rollover setup; defined-risk calendar or call-spread, starter ≤0.5%, target VIX 16-17, ~2-3wk time-box; Micron is the explicit fork [holds→fade / breaks→tail hedge]; reuses the closed framework's credit-tree/n=5/time-box falsification. Prior Event-Premium Fade [6/10 CPI→FOMC] marked CLOSED — never entered, window resolved benignly. Conditions pre-registered, trade NOT pre-authorized — to Will for approval. Prior: 2026-06-09 PM Episode-17 closeout + Event-Premium Fade framework.)*
+*Last Updated: 2026-07-01 (Reversion Fade **CLOSED — FALSIFIED** by first-ever Bin-A fire, KB-VIO-107; adjudication record added — directional call paid, credit switch killed it per registration; no fade/short-vol constructible while Bin-A stands. Hedge side: the HEDGING PROTOCOL "credit spreads widening" row's condition is now arguably met — 1-2% VIX calls 30-60 DTE — flag strengthened to Will in STATUS, pending post-DISH CCC prints + LIQUID breadth; strikes/sizing off a LIVE intraday chain only [evening OI artifact]. Prior: 2026-06-23 PM Reversion Fade pre-registration.)*
