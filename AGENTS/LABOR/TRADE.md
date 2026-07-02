@@ -137,7 +137,7 @@ LAB-02 effective resolution. Kill A check #2 (Mar revised 214K = #1).
 
 ### Aug 7 (Fri, modeled) — NFP July
 
-**Kill A check #3.** If 3rd consecutive ≥200K → Kill A TRIGGER (bull falsification, exit bearish labor theses). KELYA already at ~14 DTE; mechanical write-off zone unless re-armed earlier.
+**Kill A check #1 of a FRESH streak** *(renumbered Jul 2 — the Mar-214K-led streak died with the June report's −74K revisions; revised run 148/129/57 = zero banked; see §3 Jul-2 resolution)*. A ≥200K July print = first count only; trigger still needs 3 consecutive. KELYA already at ~14 DTE; mechanical write-off zone unless re-armed earlier.
 
 ### Aug 21 (Thu) — KELYA Expiry
 
