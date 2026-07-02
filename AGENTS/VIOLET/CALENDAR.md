@@ -51,14 +51,17 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 
 | Date | Event | VIX Implication | VIOLET Checkpoint |
 |------|-------|-----------------|-------------------|
-| **Jul 2, 8:30 ET** | **June employment report (BLS)** — CONFIRMED Thu 7/2 (July-4 observed Fri 7/3; PROME docket) | **NFP-class print (the proven 6/5 Path-B trigger class) into VIX 16.59 / SKEW 154.82 / Bin-A credit** | 🔴 The near-term gate — TOMORROW MORNING. LABOR/HENRY own substance. |
-| **Jul 2-3** | **Post-DISH CCC prints** (7/1-7/2 data, FRED T+1) | First prints with the DISH prepack cleared: persistence = Bin-A upgrade; retrace = composition-artifact | 🔴 Decides the KB-VIO-107 interpretation with LIQUID breadth. |
+| **Jul 2, ~11:30 ET** | **Post-DISH CCC print** (7/1 data, FRED T+1; next print may slip past the 7/3 holiday) | First print with the DISH prepack cleared: persistence = Bin-A upgrade; retrace = composition-artifact | 🔴 **Gate A adjudicates TODAY** (KB-VIO-110); pairs LIQUID breadth (Gate C). |
 | ~Jul 10 | SK Hynix ADR Nasdaq listing (single-source — verify) | Semis capital-rotation event (MU + SK Hynix both >$1T) | 🟡 Watch. |
+| **Jul 14** | **June CPI** | Energy-collapse pass-through test; **HENRY flip-tripwire catalyst** (thin cushion to the 7,437-7,471 flip) under a hawkish Fed | 🟠 Next macro vol-gate after today. HENRY/CARL own substance. |
 | Jul 15 | VIX July expiration | Standard monthly; Q2 earnings season opens same week | ⚪ Low. |
 | Jul 29 | FOMC (no SEP, Warsh) | Tests 6/17 dot-flip follow-through; hike optionality live post-Sintra (~70% Sep odds priced) | 🟠 First gate of the Fed-HIKE regime. |
 | Sep 16 | FOMC + SEP + VIX Sep quarterly expiry | Quarterly dot-plot convergence; ~1 hike priced by Sep | 🟠 Next major gate. |
 
 **Note:** the Path-B unwind is **unresolved and broadened** (KB-VIO-106) — bear case now oversupply-2028 + demand-destruction + antitrust, with a standing offshore mechanical amplifier (KOSPI 2x single-stock ETFs, ~$9B, jawboning-only response). Undated watch lines: KOSPI 8,200 (crash close — break re-opens contagion) · Korea FSS leveraged-ETF ruling (vol-suppressing if it lands) · SKEW >150 sustain count (1/4 td toward prediction-#6 re-arm).
+
+**Resolved (7/2):**
+- **7/2 June employment (8:30 ET):** +57K big miss / net revisions −74K / U-3 4.2% via participation −0.3pp (supply artifact) / AHE 3.5%↑ = **stagflationary mix**; tape evolved dovish-muted → hawkish-lean (10Y 4.50 +3bp) — absorbed by the freshly-POSITIVE gamma regime (+$35B, HENRY). **Gate B NO-FIRE (KB-VIO-111).** Candidate MOF yen strike on the 8:30 bar (162.5→160.7, UNCONFIRMED — SAM). +57K single-source, re-verify.
 
 **Resolved (6/24-6/30) — the gap window:**
 - **6/24 MU Q3 AH:** blowout beat (rev $41.46B vs $35.69B est; HBM booked thru CY2027) → MU +15.7% 6/25 — then the sector relapsed 6/26 (Samsung/SK-Hynix capex-leak oversupply read) and again 7/1 (MU −10.6%, below its 6/23 panic close). The fork "cleared" for one session; unwind unresolved (KB-VIO-106).
