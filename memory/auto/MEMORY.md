@@ -190,3 +190,4 @@
 - [Verify Recommended Fix Not Just Finding](finding_verify_recommended_fix_not_just_finding.md) — an audit's fix can contradict governance; verify the remedy separately, esp. if it expands autonomy
 - [Credential Scrub Needs Env-Stripped Verify](finding_credential_scrub_envstripped_verify.md) — grep ALL copies; test with key source stripped (soft-fail scripts blank silently)
 - [Write-Behavior Check Before Agent-Tool Run](finding_write_behavior_check_before_agent_tool_run.md) — grep an agent tool for writes before test-running it; boot kits mutate
+- [Derived-Surface Band Rot](finding_derived_surface_band_rot.md) — derived docs' static bands rot into mis-routers; owner+source per row

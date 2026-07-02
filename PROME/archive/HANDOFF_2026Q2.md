@@ -1175,3 +1175,21 @@ Open with Will at next-session start (Wed 5/27 AM):
 **Next:** SCRATCH = entry point — public-prep sweep (a, re-route + SOUL-claim fix) + secret/history scrub (b); RESEARCH-INTAKE awaits WALTER + VIOLET band; carried lane = DAEDALUS BATCH_02 / AEOLUS→MARCO / BROCK packet.
 
 **Rules held:** no trade (standing rule); rebased-not-forced onto Will's 19 commits (safe-push ff, zero conflicts — isolated PROME/ scope); verified before asserting (caught + corrected my own SOUL "load-bearing" error before propagating). *(HANDOFF trimmed to latest ~6 — the two 2026-06-26 entries rolled off → `memory/2026-06-26.md`.)*
+
+---
+
+*(Rolled off live HANDOFF 2026-07-01 PM-3 closeout:)*
+
+## 2026-06-30 (Tue, PM) — PUBLIC-PREP launched: framing + Track A declutter (DONE) + README fix + essay draft
+
+**What landed:** Will identified the target — **Anthropic Fellows Program, Economics & Policy** (job 5183053008) — and this repo is his centerpiece artifact. (1) **Framing agreed:** present as a multi-agent AI-orchestration system + case study in AI-augmented economic knowledge work; methodology forward, trading = testbed. Honest fit read: aligns on method/temperament, not the AI-economics *subject* → bridge via the essay. (2) **Essay drafted** (`PROME/drafts/essay_conservation_of_cost.md`) — "conservation of organizing cost," steelman-hardened, safety payload foregrounded; **Will reviewing.** (3) **Decision: clean-in-place, NOT a fresh repo** — preserve the ~3,465-commit / 5-month longevity (history ≠ tree-cleanliness). (4) **Track A (readability) DONE** — 5,303 → ~3,920 tracked files (~26%), 9 commits: OpenClaw docs/`dashboard`/`TOOLS.md`, junk, emptied `processed/`+`delivered/` containers (kept via `.gitkeep` per Will), 0-ref archives, SAM sweep. (5) **README overhauled + fixed** (markdown structure, dead `.clawhub/` citation → real Feb evidence, commit# rounded; prose verbatim).
+
+**Decisions Will made:** target = Anthropic Fellows E&P; clean-in-place not fresh repo; keep routing containers but empty the churn; cut docs/dashboard/TOOLS/archives; commit + push at close.
+
+**Decisions needed from Will:** define "unprofessional" criteria for the Track-B history scrub; finalize essay edits.
+
+**Risks/blockers:** **Track B (history scrub) is the real go-public gate** — private data (broker photos, dead tokens, Google OAuth secret) still lives in git HISTORY; targeted `filter-repo` needed BEFORE flipping public. Repo stays **PRIVATE** until then.
+
+**Next:** Track B inventory (offered) → manifest → Will-approve → one `filter-repo` pass → flip public. `BOARD/` thinning → WALTER. Full detail → SCRATCH + [[project_public_prep_anthropic_fellows]].
+
+**Rules held:** pathspec commits throughout (SAM never clobbered — verified each commit); read-before-delete (caught that `BOARD/` is live not retired → deferred it); all cuts recoverable from history; no trade (standing rule).
