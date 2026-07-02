@@ -91,7 +91,7 @@
 | Priority | Topic | Status |
 |----------|-------|--------|
 | 🔴 | **Post-DISH CCC persistence** — first prints with the idiosyncratic event cleared (7/1-7/2 data, publish 7/2-7/3): CCC/dispersion holding or widening AFTER the prepack = signal upgrade; retracing = composition-artifact confirmation. Pairs with LIQUID breadth (SIG out). | NEW 7/1 — decisive. |
-| 🔴 | **June employment report ~7/2** — NFP-class print (the 6/5 trigger class) into VIX 16.59/SKEW 154.82; 7/3 = observed holiday, verify release timing at boot. | NEW 7/1. |
+| 🔴 | **June employment report Thu 7/2 8:30 ET (CONFIRMED — PROME docket; 7/3 = observed holiday)** — NFP-class print (the 6/5 trigger class) into VIX 16.59/SKEW 154.82. | NEW 7/1. |
 | 🟠 | **SKEW sustain count** (prediction #6 re-arm: >150 ×4 td; 1/4) + formal DIET watch (VVIX = binding leg). | NEW 7/1. |
 | 🟠 | **Hedge-flag decision packet for Will** — if CCC persists post-DISH or SKEW sustains, assemble: vehicle (VIX calls 30-60 DTE per protocol row), size (1-2%), strikes off live chain (intraday run — evening OI artifact), ladder anchors from 16.59. | NEW 7/1, gated on the two rows above. |
 | 🟠 | **HENRY flip-level + GEX mechanism** — still unpublished; re-confirm on revival. | Carried. |

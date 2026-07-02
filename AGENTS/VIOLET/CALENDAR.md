@@ -51,14 +51,19 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 
 | Date | Event | VIX Implication | VIOLET Checkpoint |
 |------|-------|-----------------|-------------------|
-| **Jun 24** | **Micron (MU) Q3 earnings AH** | **AI-demand PIVOT into the 6/23 Path-B semis unwind (KB-VIO-105)** — ~17% implied move; capex guidance the tell | 🟠 Near-term vol gate: could extend or relieve the concentration-unwind. |
-| Jun 25 | May PCE (inflation) | Fed-HIKE regime relevant (Warsh dots 3.4→3.8%); hot print feeds hawkish repricing | 🟡 HENRY/CARL own substance. |
-| Jun 30 | Quarter-end rebalance (~$165B equity sell, JPM) | Mechanical vol-bump into a record-levered, negative-gamma tape — amplification risk if the Path-B unwind is still live | 🟠 Watch (HENRY owns flows; WALTER SIG-008). |
-| Jul 15 | VIX July expiration | Standard monthly | ⚪ Low. |
-| Jul 29 | FOMC (no SEP, Warsh) | Tests 6/17 dot-flip follow-through | 🟠 First gate of the Fed-HIKE regime. |
-| Sep 16 | FOMC + SEP + VIX Sep quarterly expiry | Quarterly dot-plot convergence | 🟠 Next major gate. |
+| **Jul 2, 8:30 ET** | **June employment report (BLS)** — CONFIRMED Thu 7/2 (July-4 observed Fri 7/3; PROME docket) | **NFP-class print (the proven 6/5 Path-B trigger class) into VIX 16.59 / SKEW 154.82 / Bin-A credit** | 🔴 The near-term gate — TOMORROW MORNING. LABOR/HENRY own substance. |
+| **Jul 2-3** | **Post-DISH CCC prints** (7/1-7/2 data, FRED T+1) | First prints with the DISH prepack cleared: persistence = Bin-A upgrade; retrace = composition-artifact | 🔴 Decides the KB-VIO-107 interpretation with LIQUID breadth. |
+| ~Jul 10 | SK Hynix ADR Nasdaq listing (single-source — verify) | Semis capital-rotation event (MU + SK Hynix both >$1T) | 🟡 Watch. |
+| Jul 15 | VIX July expiration | Standard monthly; Q2 earnings season opens same week | ⚪ Low. |
+| Jul 29 | FOMC (no SEP, Warsh) | Tests 6/17 dot-flip follow-through; hike optionality live post-Sintra (~70% Sep odds priced) | 🟠 First gate of the Fed-HIKE regime. |
+| Sep 16 | FOMC + SEP + VIX Sep quarterly expiry | Quarterly dot-plot convergence; ~1 hike priced by Sep | 🟠 Next major gate. |
 
-**Note:** the dominant tail — the Path-B concentration/leverage unwind — **had its first partial-fire 6/23** (semis/AI unwind, VIX +12.8%; KB-VIO-105), ORDERLY/contained so far. Its amplification gates ARE now near-term and dated: **MU 6/24, PCE 6/25, month-end 6/30** (record $464bn levered-long + negative gamma = mechanical accelerants if it spreads).
+**Note:** the Path-B unwind is **unresolved and broadened** (KB-VIO-106) — bear case now oversupply-2028 + demand-destruction + antitrust, with a standing offshore mechanical amplifier (KOSPI 2x single-stock ETFs, ~$9B, jawboning-only response). Undated watch lines: KOSPI 8,200 (crash close — break re-opens contagion) · Korea FSS leveraged-ETF ruling (vol-suppressing if it lands) · SKEW >150 sustain count (1/4 td toward prediction-#6 re-arm).
+
+**Resolved (6/24-6/30) — the gap window:**
+- **6/24 MU Q3 AH:** blowout beat (rev $41.46B vs $35.69B est; HBM booked thru CY2027) → MU +15.7% 6/25 — then the sector relapsed 6/26 (Samsung/SK-Hynix capex-leak oversupply read) and again 7/1 (MU −10.6%, below its 6/23 panic close). The fork "cleared" for one session; unwind unresolved (KB-VIO-106).
+- **6/25 May PCE:** headline 4.1% YoY in-line / core 3.4% (+0.1); monthly prints soft → read softer-than-feared; 10Y to 4.36% by 6/29 — then re-hawked 6/30-7/1 (Warsh Sintra, ISM 53.3): 10Y ~4.50, ~70% Sep-hike odds (KB-VIO-109).
+- **6/30 Quarter-end rebalance:** front-ran itself into the 6/23-6/26 chop, absorbed via rotation — SPX +1.18%/+0.79% on the peak-flow days; Q2 closed +14.9% (best since 2020), SOX +87.8%. Mechanical-flow excuse for SKEW extension now CLEARED (KB-VIO-108).
 
 **Resolved (6/16-17) — the catalyst window:**
 - **6/16 BOJ MPM:** As-priced 1.00% hike (7-1, Asada dovish dissent); yen WEAKENED to ~160.4, NO carry unwind (Aug-2024 analog did not replay). Carry → Sep-18 convexity tail (SAM; 60d unwind 24-28%). Vol-DEFUSED.
@@ -90,14 +95,14 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 
 | Data Source | Frequency | Tool | Last Updated |
 |-------------|-----------|------|--------------|
-| VIX/VIX9D/VIX3M/VVIX/SKEW spot | Every boot (auto in boot.py) | `scripts/thresholds.py` / yfinance | 2026-06-23 (boot, TICK; SKEW T+1) |
-| FRED credit (HY/IG/CCC + ladder BB/B/BBB + global Euro/EM) | **Every boot** (auto in boot.py `--summary`, wired 6/23 — prints the KB-VIO-090/096 gate verdict; freshness-cached); FRED print lands ~11:30 AM ET T+1 | `scripts/fred_fetch.py --summary` (or `--force --summary` to force-refresh) | 2026-06-23, data through 6/22 (FRED T-1). fred_fetch REWRITTEN this session (canonical single-file + merge-on-write + freshness cache + `--summary` gate verdict; KB-VIO-104). Gate: **Bin-B block LIFTED, CCC 9.47, no Bin-A.** |
-| FRED rates (2Y/10Y/TIPS) | Manual session step | `scripts/fred_fetch.py` | 2026-06-23 (fetched; 10Y owned by HENRY) |
-| 20d SKEW avg + 5td_change | Per boot during knife-edge | inline calc | ⚠️ recompute owed (daily series backfilled thru 6/18; R12 regime intact, 140+) |
-| Catalyst countdown | Every boot (auto in boot.py) | `scripts/catalyst_countdown.py` | 2026-06-23 (boot — next 7/15) |
-| VIX options OI | Every boot (auto in boot.py; evening runs print OI=0) | `scripts/vix_options.py` | 2026-06-23 (boot) |
-| VX_DAILY.tsv time series | Daily (auto-append at boot; EOD `--supersede` after 16:15 ET) | `scripts/thresholds.py` / `scripts/backfill.py` for gaps | 2026-06-23 TICK row; 6/15-6/18 backfilled. **6/22 absent (yf companion ^-indices lag; re-backfill).** |
-| CFTC COT VIX futures | Weekly Fri 3:30pm ET (auto in boot.py) | `scripts/cftc_cot.py` | 2026-06-23 boot pulled 6/16 positions (Lev Money −13,295 / 79.5 ELEVATED_LONG — war now in data); next Fri 6/26 (6/23 positions) |
+| VIX/VIX9D/VIX3M/VVIX/SKEW spot | Every boot (auto in boot.py) | `scripts/thresholds.py` / yfinance | 2026-07-01 (post-close boot, SETTLE basis; SKEW 154.82 verified = official CBOE 7/1 close) |
+| FRED credit (HY/IG/CCC + ladder BB/B/BBB + global Euro/EM) | **Every boot** (auto in boot.py `--summary`; FRED print lands ~11:30 AM ET T+1) | `scripts/fred_fetch.py --summary` | 2026-07-01, data through 6/30. Gate: **🔴 BIN-A — CCC 9.70, disp 8.06** (KB-VIO-107; DISH decomposition pending). |
+| FRED rates (2Y/10Y/TIPS) | Manual session step | `scripts/fred_fetch.py` | 2026-07-01, through 6/30 (10Y owned by HENRY) |
+| 20d SKEW avg + 5td_change | Per boot during knife-edge | inline calc | 2026-07-01: **144.08 / margin +4.08 FRESH** (not mechanical) |
+| Catalyst countdown | Every boot (auto in boot.py) | `scripts/catalyst_countdown.py` | 2026-07-01 (next: jobs ~7/2, post-DISH prints 7/2-3, VIX exp 7/15) |
+| VIX options OI | Every boot (auto in boot.py; **evening runs print OI=0 — artifact**) | `scripts/vix_options.py` | 2026-07-01 boot ran 21:53 ET → artifact rows; **re-run intraday** (last good OI read 6/23) |
+| VX_DAILY.tsv time series | Daily (auto-append at boot; EOD `--supersede` after 16:15 ET) | `scripts/thresholds.py` / `scripts/backfill.py` for gaps | 2026-07-01 SETTLE row; 6/22-6/26 backfilled. **6/29-6/30 absent (yf companion ^-indices lag; re-backfill next session).** |
+| CFTC COT VIX futures | Weekly Fri 3:30pm ET (auto in boot.py) | `scripts/cftc_cot.py` | 2026-07-01 boot pulled 6/23 positions (Lev Money −18,863 / 70.5 NORMAL; OI −13.5% w/w). Next: 6/30 positions, release **Mon 7/6** (7/3 = observed holiday; PROME docket) |
 | NAAIM + ICI equity positioning | Weekly Wed/Thu | `scripts/equity_positioning.py` (**not yet built**) | Not wired |
 
 **Boot sequence:** `python3 scripts/boot.py` runs thresholds + **fred_fetch --summary (credit gate)** + vix_options + cftc_cot + catalyst_countdown.
@@ -105,4 +110,4 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 ---
 
 *Created: 2026-04-12*
-*Last Updated: 2026-06-23 (boot after 9-day dark: catalyst window 6/16-17 moved to Resolved; Powell→Warsh corrected throughout — Warsh chaired the 6/17 hawkish dot-flip; forward catalysts refreshed (next 7/15, 7/29 Warsh, 9/16); Jun 30 quarter-end rebalance added; Data Refresh re-stamped. fred_fetch REWRITTEN + credit gate RESOLVED (Bin-B block LIFTED, CCC 9.47) later same session. Prior: 6/14 stale-data audit.)*
+*Last Updated: 2026-07-01 (boot after 5-market-day gap: MU/PCE/quarter-end moved to Resolved with outcomes; new forward set — June jobs ~7/2 (🔴, verify timing vs 7/3 holiday), post-DISH CCC prints 7/2-3 (🔴), SK Hynix ADR ~7/10, undated watch lines (KOSPI 8,200 / FSS ETF ruling / SKEW sustain 1/4); Data Refresh re-stamped to 7/1 — Bin-A gate state, VX_DAILY 6/29-30 gap, COT holiday-slip note. Twin: CATALYSTS.tsv same-session. Prior: 6/23 nine-day-dark rebuild.)*

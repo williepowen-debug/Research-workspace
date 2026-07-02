@@ -1,59 +1,52 @@
-# VIOLET SCRATCH — June 23, 2026 (Tue ~1:30 PM ET)
+# VIOLET SCRATCH — July 1, 2026 (Wed, post-close boot ~21:50-23:15 ET)
 
 **Purpose:** Ephemeral session handoff. Read at boot, rewritten at write-back. Persistent learnings → `MEMORY.md` / auto-memory; dated catalysts → `CALENDAR.md` / `CATALYSTS.tsv`.
 
-**Session arc:** Boot after **9-day dark** (last data Fri 6/12) → live data via boot.py → processed 6 WALTER signals → parallel reconstruction workflow (BOJ/FOMC/Iran-oil/credit, fleet-doc harvest) → authoritative data refresh (VIX path backfill, fred_fetch, OVX, FOMC web-verify) → full write-back → [follow-up, same session] root-caused & FIXED fred_fetch (the boot's "broken" call was a read-side glob bug, not a fetch failure) + RESOLVED the credit gate (Bin-B block LIFTED). The catalyst window fired entirely in the gap.
+**Session arc:** Boot after 5-market-day gap (6/24-6/30 dark; last session 6/23 EOD) → boot.py surfaced three shocks at once (VIX 16.59 crushed / SKEW 154.82 🔴 / credit gate 🔴 BIN-A) → mechanical pulls (VX_DAILY backfill 6/22-6/26, FRED daily path, COT 6/23, official SKEW closes, OVX, 20d SKEW avg, COT distribution) → 5-thread web workflow reconstruction (MU/semis, PCE/Fed, Asia contagion, credit driver, US tape) → full write-back: STATUS (matrix 23/45 mechanically verified — script caught my 24 arithmetic error), KB-106..109 + KB-105 CORRECTED, thesis v3.6, TRADE adjudication (Reversion Fade FALSIFIED), CALENDAR/CATALYSTS, NEXUS_BRIEF, 5 WALTER sigs processed, PROME COT-band reply, SIG-VIO-BINA to LIQUID. 3 pathspec commits + safe-push.
 
 ---
 
-## CHANGES SINCE LAST SESSION (6/14 Sun → 6/23 Tue, the catalyst window)
+## CHANGES SINCE LAST SESSION (6/23 close → 7/1 close)
 
-- **BOJ 6/16:** as-priced 1.00% hike (7-1), yen WEAKENED, NO carry unwind. Vol-defused → Sep-18 convexity tail (SAM 6/22).
-- **FOMC 6/17 (Warsh's first meeting as chair):** held 3.5-3.75% 12-0, dot plot flipped HAWKISH (2026 median 3.4→3.8%, 9/18 project a hike). **VIX +12% (~18.44) then faded** (6/18 16.40); counter 0/5. **Fed-HIKE regime — rate-shock leg re-armed.** (My calendar had "Powell" — corrected.)
-- **Iran/oil:** de-escalating. Brent $77.90 (fell on Hormuz re-closure), OVX 54.10→47.87, HAW-11 kinetic kill-switch resolved UNFIRED, OFAC 60-day license live. Channel CLOSING.
-- **Credit:** Bin-B block LIFTED — CCC 9.47 (6/22), <9.55 since the 6/12 print (7 straight, low 9.37); no Bin-A (BB 1.56, disp 7.91, HY 2.65). Credit broadly tightened / risk-on; Path A dormant.
-- **Path-B fragility intensified:** record levered-long ETF $464bn, AI 47% concentration, negative gamma, SOXL/SOXS reversal — all into sub-19 VIX (6 WALTER signals).
-- **COT:** Lev Money net-short collapsed −35k→−13k (pct3y 41.7→79.5 ELEVATED_LONG) — specs covered into the spike (6/16 positions, war now in data).
-- **Live now (6/23 CLOSE):** VIX 19.49 (**+12.8% on the day** — intraday bid held into close, highest close since the war spike), VIX9D 19.47 (ratio 1.00, front caught up), VIX3M/VIX 1.081, VVIX 99.5 (~100), SKEW 141.85 (as-of 6/22, T+1; did NOT lead today's bid), M1:M2 +6.54%, OVX 46.60 (fell as VIX rose → bid NOT oil-driven, equity-internal/Path-B), CCC 9.47 (block lifted), HY 2.65.
+- **Credit tree fired BIN-A — first ever** (KB-VIO-107): CCC crossed 9.55 on 6/23 (9.56), A-escalator (9.68) + A3 disp (8.01) fired 6/25, A2 touched 6/26 (BB 1.73, peak CCC 9.73); 6/30: CCC stuck 9.70, disp NEW HIGH 8.06 while BB/HY retraced. **DISH DBS prepack Ch11 (6/30, $2B notes due 7/1, largest-CCC-structure class) = direct idiosyncratic contributor.** LIQUID breadth = registered discriminator (SIG out).
+- **SKEW ramped to 154.82** (official closes 139.40→144.46→149.60→154.82; top-decile; cycle-2nd-highest vs Apr 13 156.9) while VIX fell 18.41→16.59 and VVIX sat flat. 20d-avg 144.08 / margin +4.08 — FRESH. **Hedge composition rotated**: equity P/C 0.85→0.64 = ATM→far-OTM wings → **headline VIX mechanically suppressed** (KB-VIO-108). Formal DIET/STRICT NOT fired (VVIX = binding leg; measured 20td deltas, not narrative).
+- **The 6/23 unwind broadened, didn't resolve** (KB-VIO-106): MU blowout 6/24 (+15.7% 6/25) → relapse 6/26 (Samsung/SK-Hynix capex-leak) → Korea $520B four-fab plan 6/29 → 7/1 MU −10.6% BELOW its panic close (antitrust suit + demand-destruction note). Window: SOX −8.8%, SPX +0.1%, VIX DOWN. Burry shorts disclosed 6/30. Offshore REALIZED: KOSPI CB ×2/week (KRX first), 2x-ETF $9B amplifier standing (jawboning-only response), Taiwan record margin defaults.
+- **Macro re-hawked**: PCE 6/25 soft-monthly → 10Y 4.36 (6/29) → Warsh Sintra + ISM 7/1 → 10Y ~4.50, ~70% Sep-hike odds. **Yen 40-yr low ~162, JGB 2.67%, zero haven bid through the Asia stress window** (KB-VIO-109, SAM input).
+- **Iran/oil formally closed** (6/29 de-escalation agreement; OVX 40.76). Quarter-end rebalance absorbed via rotation; Q2 = SPX +14.9% best since 2020, SOX +87.8%.
+- **Corrections** (KB-VIO-106): 6/23 "SK Hynix HBM capex slowdown" trigger didn't verify (actual: Broadcom guide-down + memory-demand + MSCI exclusion + hike fears); 6/23 figures were intraday snapshots (closes SOX −7.9/MU −13.2/NVDA −4.1). KB-VIO-105 → CORRECTED.
 
 ## WHAT I DID THIS SESSION
 
-1. **Boot + live data** (boot.py: thresholds/options/COT/catalysts). COT auto-advanced to 6/16 positions. VIX_OPTIONS + VX_DAILY 6/23 TICK row appended.
-2. **WALTER intake** — created `board_log.tsv` (v0.2 header) + logged all 6 VIOLET-lane signals (1 ACTION dated-passed → info-only, 5 noted). **git mv to processed/ done at closeout.** Theme: concentration + record leverage + complacency = Path-B coiled-spring conditions.
-3. **Reconstruction workflow** (4 parallel Explore threads, read-only): BOJ/SAM, FOMC/HENRY+path, Iran-oil/BRENT, credit/LIQUID. Output salvaged to STATUS/KB.
-4. **Authoritative refresh** (didn't trust the subagent pulls for load-bearing values):
-   - `backfill.py --spot-only` filled VX_DAILY 6/15-6/18 (6/19 Juneteenth holiday; 6/22 orphan-dropped by holiday-guard — yf companion ^-indices lag).
-   - `fred_fetch.py --force` → initially looked BROKEN, but that was a READ-side bug in my verification (`glob[0]` picked stale older-dated cache files); the fresh files were fine. (Fixed in #6.)
-   - OVX 47.87 (yf), VIX9D 18.55 (yf).
-   - FOMC web-verify (Fed.gov/CNBC/Fox): Warsh first meeting, 12-0 hold, dot 3.4→3.8, 9/18 hike.
-5. **Write-back:** STATUS (full rewrite to 6/23), KB-VIO-102 (window resolution + rotation) + KB-VIO-103 (fred — later CORRECTED), CATALYSTS pruned, CALENDAR rewritten, CHANGELOG POV pivot, NEXUS_BRIEF, this SCRATCH.
-6. **[Will follow-up] FIXED fred_fetch + RESOLVED credit gate.** Root cause = cache-file proliferation (8/code) → ad-hoc `glob[0]` read stale files (NOT a fetch failure). Rewrote fred_fetch.py: canonical single-file per series, merge-on-write (never truncates), freshness-aware cache, `latest_value()` helper, `--summary` mode printing the KB-VIO-090/096 gate verdict. Archived 52 legacy two-date files to `archive/_trash/`. **GATE: Bin-B block LIFTED** — CCC 9.47 (6/22), <9.55 since 6/12 (7 straight), no Bin-A, credit risk-on. KB-VIO-103 → CORRECTED; KB-VIO-104 logged. Propagated the correction across STATUS/SCRATCH/NEXUS_BRIEF/CALENDAR/CHANGELOG.
-
-7. **[Will follow-up] EOD data catch-up pass (~16:45 ET).** Markets closed; **VIX closed +12.8% at 19.49** (intraday bid HELD → highest close since the 6/10-11 war spike; OVX FELL as VIX rose = equity-internal/Path-B, not oil). Ran EOD `--supersede` (6/23 VX_DAILY TICK→SETTLE); recomputed 20d SKEW avg (142.47/+2.47, MECHANICAL); refreshed STATUS to close basis + fixed two framing precision items (SKEW is as-of 6/22 not 6/23 per yf T+1; R12 holds on the 20d-AVG ≥140, not "all daily closes 140+"). **Then investigated the +12.8% driver (Will ask, 4-thread workflow): the Path-B coiled-spring's FIRST partial-fire** — semis/AI concentration-unwind (KOSPI −5.7/−10% on SK-Hynix HBM capex slowdown → SOX −7.6%, MU −11%, NVDA −3.2%), ORDERLY/equity-internal (breadth held, credit tight, OVX fell, SKEW didn't lead); HENRY converged independently. KB-VIO-105; concentration vector 🟠→🔴 (matrix 20→21/45); added MU 6/24 / PCE 6/25 / 6/30 gates to CATALYSTS+CALENDAR.
+1. **Boot + mechanical pulls**: boot.py (7/1 SETTLE row appended); backfill (6/22-6/26 filled; **6/29-6/30 still missing — yf companion lag**); FRED path 6/18-6/30; COT 6/23 (−18,863/70.5 NORMAL, OI −13.5% w/w); official SKEW closes verified vs Investing.com/Benzinga; 20d SKEW avg 144.08; OVX 40.76; DIET live check computed manually (script cache ends 6/1 — span caveat).
+2. **5-thread workflow reconstruction** (~357k tokens, all threads returned): MU/semis, PCE/Fed, Asia, credit-driver (found DISH), US tape (found wings-rotation + official SKEW + fwd P/E 20.1 → P/E−VIX spread ~3.5-3.9, below the SentimenTrader wide zone).
+3. **WALTER intake**: 5 signals logged to board_log (3 acted / 2 noted) + git mv to processed/.
+4. **PROME reply** (outbox + FLOW): `VIX_LEV_NET_BAND = (-75_000, 0)` — derived from 182-week distribution (net-positive 11/182 ≈6%; −75k ≈ p5-p10).
+5. **SIG-VIO-BINA → LIQUID** (outbox + FLOW): pre-registered Bin-A broadcast; breadth now decision-blocking.
+6. **Write-back**: STATUS full rewrite (🟠; matrix 23/45 verified by convergence_score.py — it caught my 24/45 arithmetic error); KB-106..109; KB-105 → CORRECTED; **thesis v3.6** (CHANGELOG canonical entry + in-body + prediction #6 re-arm watch 1/4); **TRADE: Reversion Fade CLOSED-FALSIFIED** (adjudication record — directional call paid, credit switch killed it per registration; cost datum on the tree); CALENDAR + CATALYSTS refreshed; NEXUS_BRIEF full update.
 
 ## NEXT SESSION (priority-ordered)
 
-1. **✅ fred_fetch + credit gate RESOLVED this session** (Bin-B block LIFTED, CCC 9.47; fred_fetch rewritten + 52 legacy caches archived). Only credit follow-up left: LIQUID CCC mover-breadth (#6 below). Optional: wire `fred_fetch --summary` into boot.py so the gate prints every session.
-2. **🔴 Thesis v3.6 decision** — formalize window-resolution + tail rotation (Iran/yen/credit all defused → Path-B dominant) + Fed-HIKE regime context. CHANGELOG POV pivot written 6/23; decide bump vs intra-v3.5 note.
-3. **✅ EOD `--supersede` DONE** (6/23 settled to 19.49). Still pending: re-backfill 6/22 (yf ^VIX3M not yet posted — holiday-guard drops the orphan); gap-check (KB-VIO-076).
-4. **🟠 HENRY flip-level** — partial-revived (6/15 pre-FOMC); flip level still unpublished. Re-confirm GEX mechanism + pull flip level on full revival. Size off L1 until then.
-5. **🟠 VRP recompute** on HENRY SPX realized (still owed). [✅ 20d SKEW avg DONE 6/23: 142.47 / margin +2.47 — MECHANICAL (late-May lows rolling off), not fresh signal; only SKEW >146.7 = fresh.]
-6. **🟠 LIQUID CCC mover-breadth** (idiosyncratic vs broad) — Bin discriminator (KB-VIO-094/098), still pending; decides whether any Path-A re-activation read is real.
-7. **🟡 Carried:** MIXED-TS guard (KB-VIO-100, unbuilt); m1m2 convention #4; Iran-leg analog scan; port `/tmp/nfp_analog_backtest.py`; L2 σ carve-out backtest; Jun 30 quarter-end rebalance vol-bump watch; semis-specific skew/term-structure (WALTER ask).
+1. **🔴 June employment report — Thu 7/2 8:30 ET, CONFIRMED** (PROME docket f357756e; 7/3 = observed July-4 holiday, markets closed). NFP-class print into the divergence configuration. If it shocks: boot-protocol live-event override applies (stay engaged, don't auto-closeout).
+2. **🔴 Post-DISH CCC prints** (7/1-7/2 data, publish 7/2-7/3): persistence AFTER the prepack cleared = Bin-A upgrade → hedge flag escalates to a Will packet; retrace + LIQUID-idiosyncratic = composition-artifact, tree refinement proceeds (single-issuer mask candidate — do NOT retro-apply).
+3. **🟠 SKEW sustain count** — prediction #6 re-arm: >150 at 1/4 td (149.60 on 6/30 just below the line). 4 td arms the 60d back-to-back consequent; note the framing variant (post-partial-fire/during-crush).
+4. **🟠 Hedge-flag packet prep** (gated on #2/#3/LIQUID): vehicle VIX calls 30-60 DTE per protocol row, 1-2%; strikes off a LIVE INTRADAY chain (`vix_options.py` — 7/1 evening rows are OI=0 artifact); ladder anchors from live spot (KB-VIO-099: derive at pricing time).
+5. **🟠 Data repair**: re-run `backfill.py --spot-only` for VX_DAILY 6/29-6/30 (yf companion lag); COT 6/30-positions release = **Mon 7/6** (7/3 holiday; PROME docket).
+6. **🟡 Carried**: HENRY flip-level (open since 6/9); VRP recompute (HENRY realized); SK Hynix ADR ~7/10 verify; MIXED-TS guard; m1m2 convention #4; diet_coiled_spring.py span refresh (cache ends 6/1); port `/tmp/nfp_analog_backtest.py`; L2 σ carve-out backtest.
 
 ## CARRY-FORWARD
 
-- **Push state:** committed local only this session. Shared branch active (SAM/BRENT/WALTER pushed during the gap — pulled clean at boot). Defer push to a Will-coordinated window.
-- **Regime one-liner:** LOW_VOL, fragility ROTATED external(Iran/yen/credit defused)→internal(Path-B), and **Path-B had its FIRST partial-fire 6/23** (semis unwind, VIX +12.8%, ORDERLY/contained). Inside a Fed-HIKE regime (Warsh). No position; fade dissolved; hedge deferred/rotated. **Key near-term gate: MU 6/24 AH (AI-demand pivot — extends or relieves the unwind); then 6/30 rebalance into negative gamma.**
-- **Data caveats live:** everything 6/23 is TICK (pre-settle) — verify at 16:15. SKEW yf is T+1. fred_fetch FIXED (credit through 6/22). 6/22 VX_DAILY row absent (yf companion lag).
+- **Push state:** safe-push run at closeout (3 commits this session). If it aborted non-ff, note here per protocol — see final session line.
+- **Regime one-liner:** LOW_VOL surface, cycle-sharpest compression-divergence underneath: VIX 16.59 (partly wings-suppressed) / SKEW 154.82 fresh / credit tree BIN-A (DISH-distorted, LIQUID decides) / Path-B unwind broadened un-indexed / Fed-HIKE repricing live, yen 40-yr low, no haven bid. Matrix 23/45: external ⚪-floor, internal at highs. **No position; fade side structurally dead (Bin-A); long-vol hedge flag strengthened → Will.**
+- **Data caveats live:** VX_DAILY 6/29-6/30 rows absent (values known via raw yf: VIX 17.65/16.45, SKEW 144.46/149.60 official); VIX_OPTIONS 7/1 rows = evening OI artifact; SKEW 154.82 verified official (no T+1 issue this time); COT release slip risk 7/3; diet script cache-span 6/1.
 
 ## OPEN HYPOTHESES (flagged, NOT actionable until backtested)
 
-- **Tail-rotation as a regime-classification event** — does "external-catalyst tail defuses while structural Path-B tail intensifies, under a regime shift" warrant its own thesis branch/phase label, or is it just branch-weight redistribution inside v3.5? (v3.6 question.)
-- **Fed-HIKE regime → Path-A re-activation risk** — does a hawkish Fed eventually crack the low-quality credit tail (CCC), re-opening the credit-led Path A that's been dormant? Watch CCC (now relaxed to 9.47; feed fixed).
-- **SKEW 146.72 post-FOMC pop** — compression-divergence fired AGAIN as VIX crushed off the spike. Is the repeated "VIX-crush-with-SKEW-bid" a sharpening coiled-spring or just GEX-era noise? (Carried; needs the backtest.)
-- **IV sub-RV / VIX-weekend mechanical gap** (carried) — both need backtests before doing sizing work.
+- **Wings-rotation as regime marker** — is the P/C-collapse-while-SKEW-ramps composition a *leading* configuration (tail knows something) or standard quarter-end hedge roll? Quarter-end excuse now cleared — if it persists into July, it's signal-shaped. (KB-VIO-108; needs the options-flow history to backtest.)
+- **Fed-HIKE → Path-A re-activation** — first supporting tape (CCC impulse coincided with hawkish repricing) but DISH-confounded. Post-DISH prints + LIQUID breadth adjudicate.
+- **Single-issuer tree mask** — refinement candidate only; test against the tree's 2024-2026 backtest window before ANY re-registration (would a DISH-mask have suppressed true positives?).
+- **SKEW >150 during-crush variant** (prediction #6 framing) — the analog library's post-spike rebids launched from elevated VIX; this one launches from 16.59 with wings-flow. Same consequent? Adjudicate if the sustain hits 4td.
+- **IV sub-RV / VIX-weekend mechanical gap** (carried).
 
 ---
 
-*Last updated: 2026-06-23 ~5:15 PM ET (boot after 9-day dark + fred_fetch fix + EOD settle + driver investigation; VIX closed 19.49 +12.8% = Path-B FIRST partial-fire, KB-VIO-105). Catalyst window RESOLVED (BOJ as-priced/no-unwind, FOMC hawkish-dot-flip under Warsh, +12% spike faded, counter 0/5). Tail rotated (credit/Iran/yen all defused)→Path-B; Fed-HIKE regime. fred_fetch FIXED + credit gate RESOLVED (Bin-B block LIFTED, CCC 9.47); KB-VIO-103 CORRECTED → KB-VIO-104. No position; fade dissolved; hedge deferred/rotated. Top carries: thesis v3.6, HENRY flip-level, LIQUID mover-breadth. Committed local, push deferred.*
+*Last updated: 2026-07-01 ~23:15 ET (5-market-day-gap boot; Bin-A first fire KB-VIO-107 + SIG to LIQUID; SKEW 154.82 wings-rotation KB-VIO-108; unwind broadened KB-VIO-106, KB-105 CORRECTED; macro re-hawk KB-VIO-109; thesis v3.6; Reversion Fade FALSIFIED per registration; hedge flag strengthened → Will; matrix 23/45 verified. Top next: jobs ~7/2 + post-DISH CCC + LIQUID breadth.)*
