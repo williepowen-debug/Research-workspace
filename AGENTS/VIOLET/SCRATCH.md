@@ -1,6 +1,15 @@
 # VIOLET SCRATCH — July 1-2, 2026 (Wed post-close boot → Thu AM live session)
 
-> **⚡ 7/2 MORNING STATE (~10:15 ET, session still open awaiting the ~11:30 CCC print):** Gate B **NO-FIRE** (KB-VIO-111 + 9:45 amendment — NFP +57K stagflationary-mix, tape dovish→hawkish-lean evolution, zero anchors; +57K single-source re-verify). HENRY delivered: flip band **7,437–7,471**, **GEX FLIPPED POSITIVE +$35B** (dealers dampening, thin 0.2-0.6% cushion, tripwire armed for 7/14 CPI) — thesis mechanism banner RE-CONFIRMED. Candidate **MOF yen strike** on the 8:30 bar (162.5→160.7, UNCONFIRMED — SAM verifies). **Remaining today: Gate A (~11:30 ET CCC print, adjudicate per registration — DEWEY PROMPT-05 lands after) + Gate C (LIQUID breadth, still unanswered — PROME pinged their session on the adjacent X1 watch).** Folder-tree consistency sweep done (TRADE gates annotated, CALENDAR/CATALYSTS 7/14 CPI added + NFP resolved, STATUS re-stamped). VX_DAILY 6/29-30 backfill retried — yf companions STILL not posted.
+> **⚡ 7/2 MORNING SESSION — CLOSED ~10:30 ET, BEFORE the ~11:30 CCC print. GATE A IS UNADJUDICATED AND IS THE NEXT SESSION'S FIRST ACTION.** Gate B **NO-FIRE** (KB-VIO-111 + 9:45 amendment — NFP +57K stagflationary-mix, tape dovish→hawkish-lean evolution, zero anchors; +57K single-source re-verify). HENRY delivered: flip band **7,437–7,471**, **GEX FLIPPED POSITIVE +$35B** (dealers dampening, thin 0.2-0.6% cushion, tripwire armed for 7/14 CPI) — thesis mechanism banner RE-CONFIRMED. Candidate **MOF yen strike** on the 8:30 bar (162.5→160.7, UNCONFIRMED — SAM verifies). Gate C (LIQUID breadth) also still open — PROME pinged their session on the adjacent X1 watch. Folder-tree consistency sweep done. VX_DAILY 6/29-30 backfill retried — yf companions STILL not posted.
+
+## NEXT SESSION (7/2 PM or later — priority-ordered, supersedes the 7/1 list below)
+
+1. **🔴 ADJUDICATE GATE A (KB-VIO-110):** run `fred_fetch.py --force --summary` — the 7/1-data print published ~11:30 ET 7/2. Fires on CCC ≥9.65 OR disp ≥8.00; DISH-composition check both ways (a mechanically tighter print from DISH index-exit ≠ true retrace; indeterminate → wait for next print, which may slip past the 7/3 holiday). **Fire → build the packet same-session per TRADE.md pre-spec** (VIX calls 30-60 DTE, 1% starter, LIVE intraday chain) → Will for [Approve]. Log against KB-VIO-110 either way.
+2. **🔴 Check for LIQUID's Gate C reply** (inbox + their NEXUS_BRIEF/outbox) — breadth fires the packet regardless of A.
+3. **🟠 SKEW sustain count** — 7/2 close vs 150 (prediction #6: 1/4 as of 7/1; 4 arms the 60d consequent).
+4. **🟠 NFP +57K re-verify** (single-source via TradingEconomics; BLS direct was bot-blocked) + check whether SAM confirmed the MOF strike (re-opens carry→vol watch if real).
+5. **🟡 Data repair:** VX_DAILY 6/29-6/30 re-backfill; VIX_OPTIONS intraday run (evening rows = OI artifact); COT 6/30-positions lands Mon 7/6.
+6. **🟡 Carried:** VRP recompute (HENRY realized now available); SK Hynix ADR ~7/10 verify; diet script span refresh; MIXED-TS guard; m1m2 convention #4.
 
 **Purpose:** Ephemeral session handoff. Read at boot, rewritten at write-back. Persistent learnings → `MEMORY.md` / auto-memory; dated catalysts → `CALENDAR.md` / `CATALYSTS.tsv`.
 
