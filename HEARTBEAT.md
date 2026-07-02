@@ -64,7 +64,7 @@ Full definitions in `FORGE/tools/market-data/config.py`. The live trigger-lines 
 | 🟢 | **NEXUS re-anchored 6/27** (11-day catch-up; M-09 + R3↔R4 coupling + bifurcation integrated into §Regime). Current — refresh no longer pending. | `AGENTS/NEXUS/STATUS.md` |
 
 ## Pointers
-- Operator card → `PROME/TODAY.md` · Working state → `PROME/SCRATCH.md` · Session synthesis → `PROME/synthesis/2026-06-25_donow_reconciliation.md`
+- Operator card → `PROME/SCRATCH.md` (absorbed the retired `TODAY.md`, 7/1) · **Canonical forward docket → `PROME/DOCKET.tsv`** (Near Gates above is the prose view — DOCKET wins on drift) · Session synthesis → `PROME/archive/synthesis/2026-06-25_donow_reconciliation.md`
 - Agent state → `AGENTS/<NAME>/STATUS.md`
 
 ## Skip
