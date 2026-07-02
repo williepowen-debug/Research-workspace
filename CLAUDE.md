@@ -8,11 +8,11 @@ A multi-agent financial research operation tracking systemic risk transmission. 
 
 ## How The System Works
 
-All agents run as **Claude Code sessions on one desktop**, sharing this git repo. (The OpenClaw/VPS platform was cut 2026-06-26 — see `AGENTS/WALTER/design/OPENCLAW_CUTOVER_PLAN.md`.)
+All agents run as **Claude Code sessions on Will's current box** (serial multi-machine: desktop ⇄ laptop, ONE at a time — machine-local inventory → `PROME/MACHINE_LOCAL.md`), sharing this git repo. (The OpenClaw/VPS platform was cut 2026-06-26 — see `AGENTS/WALTER/design/OPENCLAW_CUTOVER_PLAN.md`.)
 
 **Launch each agent from its own directory** (`cd AGENTS/<NAME> && claude`; PROME from `PROME/`). Claude Code auto-loads `CLAUDE.md` by walking *up* from the launch dir — so launching in-folder loads **both** this root file **and** the agent's local `CLAUDE.md`. Launching from the repo root loads root **only**: the local `CLAUDE.md` is a *descendant* and won't auto-load, so the agent runs **without its own domain instructions** until it happens to read a file in its folder. If an agent seems to be missing its domain rules, check its launch cwd.
 
-- **PROME** (chief of staff / coordinator) runs as a CC desktop session: assigns decision work, manages state/decision rails, and owns Will-facing synthesis via Telegram. WALTER owns signal/news routing.
+- **PROME** (chief of staff / coordinator) runs as a CC session: assigns decision work, manages state/decision rails, and owns Will-facing synthesis via Telegram. WALTER owns signal/news routing.
 - **Domain agents** (CARL, REGINALD, SAM, RED, …) run as independent CC sessions. They are not persistently spawned by PROME; they coordinate with PROME and each other via inbox/outbox files — and via teams-mode `SendMessage` when PROME orchestrates a live multi-agent session.
 
 Coordination is file-based. Write to `AGENTS/<NAME>/outbox/` to request Prome action. Read `AGENTS/<NAME>/inbox/` for incoming signals. Prome checks these and routes accordingly.

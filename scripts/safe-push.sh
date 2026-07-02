@@ -16,12 +16,15 @@
 #   * It sweeps EVERY agent's committed-but-unpushed work (the push-train pattern) — that's
 #     correct; step ⑥ prints exactly what is going up. Each commit already carries its author.
 #
-# AUTHORIZED FOR CLOSEOUT AUTO-PUSH (Will 2026-06-26, single-machine operation).
+# AUTHORIZED FOR CLOSEOUT AUTO-PUSH (Will 2026-06-26; premise updated to SERIAL
+#   MULTI-MACHINE 2026-07-01 — Will runs ONE box at a time, desktop ⇄ laptop).
 #   Supersedes the prior "run manually only" prohibition. Safe to wire into closeout because
-#   the ff-gate below FAILS SAFE: if a second machine ever pushes to master, this ABORTS
-#   cleanly (step ④) rather than forcing or pulling a shared tree. A non-ff abort is the
-#   tripwire that single-machine has been violated → switch to per-agent branches.
-#   Policy: PROME/GIT_COORDINATION.md · plan: PROME/AUTOPUSH_MIGRATION_PLAN.md.
+#   the ff-gate below FAILS SAFE: if origin has commits this clone lacks (the other box
+#   pushed), this ABORTS cleanly (step ④) rather than forcing or pulling a shared tree.
+#   A non-ff abort is ROUTINE under serial multi-machine: `git pull --rebase` + re-push.
+#   Escalate to Will (per-agent-branches tripwire) only on out-of-dir rebase conflicts or
+#   mid-session recurrence — the signatures of two machines running simultaneously.
+#   Policy: root CLAUDE.md Git Protocol + PROME/GIT_COORDINATION.md.
 #
 # Reviewed by SAM (2026-06-22): added the on-branch assertion (#1) + shallow-clone guard (#2).
 # Canonical fleet copy (PROME-owned). CARL/scripts/safe-push.sh is the original reference.
