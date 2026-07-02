@@ -56,8 +56,10 @@ OPTION_RE = re.compile(r"\b\d+(?:\.\d+)?\s?[PC]\b[\s|()×x*0-9]*$")
 DEAD_OK_RE = re.compile(r"never existed|does not exist|deleted|removed|retired|gone|no longer", re.I)
 
 # Bare (non-backticked) repo paths, e.g. "WILL/trading-journal/current ..."
+# (?<!/) guard: owner cells like "REGINALD/PROME/TERRY" are agent lists, not
+# paths — a repo-dir token preceded by '/' is mid-list, never a path root.
 BARE_PATH_RE = re.compile(
-    r"\b(PROME|AGENTS|FORGE|WILL|skills|scripts|memory|docs)/[\w.-]+(?:/[\w.-]+)*")
+    r"(?<!/)\b(PROME|AGENTS|FORGE|WILL|skills|scripts|memory|docs)/[\w.-]+(?:/[\w.-]+)*")
 
 MONTHS = {m.lower(): i + 1 for i, m in enumerate(
     ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"])}
