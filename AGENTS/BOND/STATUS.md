@@ -1,15 +1,15 @@
 # BOND — Status
 
-**Agent:** BOND | **Domain:** US Bond Market Structure
-**State:** 🟡 WATCH — the live gate (6/16 20Y · 6/17 FOMC · 6/18 TIPS) **passed without re-arming the long-end watch.** "Expensive, not broken" held a **5th** straight resolution.
-**Last Updated:** 2026-06-20 (Sat) by BOND — post-gate refresh (20Y + Warsh FOMC + TIPS/BOJ + TIC April + Iran read)
-**Thesis:** full durable thesis, transmission channels, exit rules, position view → `thesis/THESIS.md` (v1.0)
+**Agent:** BOND | **Domain:** US Bond Market Structure (+ MBS/FHLB + EU rates per 6/27 extension, integrated 7/1)
+**State:** 🟡 WATCH, **escalating** — the long end is re-engaging: 30Y **4.97** (+11bp/2d), 3bp from threshold, into the July supply gauntlet with dealer inventory at a **fresh all-time record**.
+**Last Updated:** 2026-07-01 (Wed) by BOND — 11-day gap sweep (8-leg research fan-out) + prediction-cluster resolution + mandate integration
+**Thesis:** durable thesis → `thesis/THESIS.md` (**v1.1**, bumped 7/1)
 
 ---
 
 ## Regime (one-line)
 
-The hawkish surprise hit the **front-end, not the long-end.** The Warsh FOMC (6/17) bear-**flattened** the curve (2Y +15bp, 30Y *flat* at 4.93) — the OPPOSITE of the supply/term-premium bear-*steepener* BOND tracks — and the **6/16 20Y printed STRONG** (BTC 2.75, best in 3mo). The long end *held below thresholds through a hawkish Fed*: that's confirmation, not stress. The one BOND-domain vector rising is the **real-rate side (DFII10 2.23, +7)**. Credit calm at the macro top (HY 263) but bifurcation **re-widening** (CCC/HY 3.57x). **Composite 11/35** (flat vs 6/15). Full read: `thesis/THESIS.md`.
+Phase-III long-end re-fire, **globally synchronized**: domestic hawkish-data repricing (JOLTS beat, ISM prices 73, Dec-hike ~79–82%) co-firing with a **JGB super-long rout** (6/30 30Y +8.8bp; weakest JGB 20Y auction since May-2025) into the 7/7–9 mini-refunding — while auctions still clear at price (**6 straight benign tests**) but with **indirect bids fading hard** (<60% at 2Y/7Y, rotated 1:1 to directs) and FR2004 dealer long-end stock at a **fresh record** ($74.6B 11–21Y, →4 trigger ARMED). Credit: issuance **boom** (record June IG), headline calm, CCC tail sticky. Composite **12/35** (+1 via long-end 2→3).
 
 ---
 
@@ -17,41 +17,48 @@ The hawkish surprise hit the **front-end, not the long-end.** The Warsh FOMC (6/
 
 | Metric | Current | Status | Source / Date | BOND Read |
 |---|---:|---|---|---|
-| HY OAS | **263bps** | 🟢 | FRED `BAMLH0A0HYM2`, 6/17 | −8 vs 6/15; calm held through the gate. ~3bps above REGINALD's 260 review line. **Caveat: top-only** — bifurcation below. |
-| CCC OAS | **939bps** | 🟡 | FRED `BAMLH0A3HYC`, 6/17 | −9, but **CCC/HY ratio 3.57x widened from 3.44x** (6/8) — tail bifurcation re-widening as the headline compresses. |
-| IG OAS | **74bps** | 🟢 | FRED `BAMLC0A0CM`, 6/17 | Flat; market functional. |
-| 2Y yield | **4.20%** | 🟡 | FRED `DGS2`, 6/17 | **+11bp** — front-end repriced hawkish post-FOMC (Dec-hike prob ~24%→77%). HENRY's lane; BOND notes the curve shape. |
-| 5Y yield | **4.22%** | 🟢 | yfinance `^FVX`, 6/19 | +3; belly nudged with the front-end. |
-| 10Y yield | **4.45%** | 🟡 | yfinance `^TNX`, 6/19 | −2; **below 4.5** — held below through the hawkish FOMC. |
-| 30Y yield | **4.90%** | 🟡 | yfinance `^TYX`, 6/19 | −7; **below 5.0** — *flat at 4.93 on FOMC day*. Long-end anchored. |
-| 10Y real (DFII10) | **2.23%** | 🟡 | FRED `DFII10`, 6/17 | **+7 — RISING.** The one BOND-domain vector escalating; cleanest re-arm metric (watch toward 2.5). |
-| 10Y breakeven (T10YIE) | **2.25%** | 🟢 | FRED `T10YIE`, 6/18 | −6; inflation premium easing (oil-down). |
-| 5Y breakeven (T5YIE) | **2.27%** | 🟢 | FRED `T5YIE`, 6/18 | −12; near-term inflation fears easing. |
-| 5Y5Y fwd infl (T5YIFR) | **2.23%** | 🟢 | FRED `T5YIFR`, 6/18 | Flat, inside band — anchored despite SEP PCE +60bp and Iran re-escalation. |
-| TLT | **$86.75** | 🟢 | yfinance, 6/19 | +1.00 vs 6/15 — duration *rallied* (a hawkish-Fed bear-flattener helps the long bond). |
-| VIX | **16.78** | 🟢 | yfinance `^VIX`, 6/19 | +0.7; low-vol regime intact. |
-| KRE | **$71.72** | 🟢 | yfinance, 6/19 | −0.45; banks mildly soft (AOCI-rule overhang — REGINALD). |
-| HYG | **$80.01** | 🟢 | yfinance, 6/19 | Flat; no cash-credit transmission. |
-| SOFR−IORB | **−2bps** | 🟢 | FRED `SOFR` 3.63 / `IORB` 3.65, 6/17 | Reserve-abundant; zero funding stress through the gate. |
-| Energy HY OAS | *285 [STALE Apr 28]* | 🟡 | LIQUID owns | **46d stale, no peer update.** Brent $80 implies it moved — flag for direct ICE/BBG pull. |
-| Corp issuance YTD | *$1,013.9B/Apr, +28% YoY [STALE]* | 🟢 | SIFMA | Primary market not frozen; refresh May from SIFMA. |
+| 30Y yield | **4.97%** | 🟠 | [CONF Trsy par curve, 7/1] | +6bp d/d, +11bp/2d; 3bp below the 5.0 line. Re-approach of May highs (5.13 peak 5/15). BND-12 tests the sustain. |
+| 10Y yield | **4.48%** | 🟡 | [CONF Trsy par curve, 7/1] | +4bp d/d; rallied to 4.38 (7-wk low) 6/26–29 then re-fired. Below 4.6 trigger. |
+| 5Y / 2Y | 4.24 / 4.17 | 🟡 | [CONF Trsy par curve, 7/1] | Near-parallel today = Fed-path repricing is a real component (not pure term premium). |
+| 10Y real (DFII10) | **2.20%** | 🟡 | [CONF FRED, 6/30] | Peaked 2.29 (6/23) and RETRACED — the real-rate leg is NOT driving phase III. Re-arm stays keyed to >2.5. |
+| 5Y5Y fwd (T5YIFR) | **2.20%** | 🟢 | [CONF FRED, 7/1] | Anchored. Kinetic Iran exchange 6/25–28 bought only ~2–6bp — the oil→BE re-arm bar is HIGH (KB-064). |
+| 10Y BE (T10YIE) | 2.23% | 🟢 | [CONF FRED, 7/1] | Compressed with oil through the window. |
+| HY OAS | **275bps** | 🟢 | [CONF FRED `BAMLH0A0HYM2`, 6/30] | 263 trough (6/17) → 283 peak (6/26, equity/tech risk-off beta) → 275. Below 300 watch line. |
+| CCC OAS | **970bps** | 🟡 | [CONF FRED, 6/30] | Widened into the episode and did **NOT retrace** (headline did) — default-cycle tail residue. Ratio 3.53x. |
+| IG OAS | 76bps | 🟢 | [CONF FRED, 6/30] | +2 on the episode; RECORD June issuance ~$175–187B absorbed 3.9x oversubscribed. |
+| JGB 30Y | **3.873%** | 🟠 | [CONF MOF, 6/30] | +8.8bp 6/30 rout (super-long-led; 2Y JGB *fell*); ~3.96 TE-intraday 7/1 (different basis — use MOF). |
+| USD/JPY | ~162 | 🟠 | [CONF multi-source, 6/30–7/1] | **40-year yen low**; Mimura first verbal warning since 6/5. Actual intervention = mechanical UST reserve selling (FL-BND-11). |
+| FR2004 11–21Y | **$74.6B** | 🟠 | [CONF NY Fed API, as-of 6/17] | **Fresh all-time record** (+11.4% over 5/27). Combined long-end $174.5B #2 ever. Next print Thu 7/2 ~4:15pm. |
+| SOFR−IORB | **+3bps** | 🟢 | [CONF FRED, 6/30] | Quarter-end only: SRF take-up **$0** both ops, RRP $26.9B one-day blip. Watch normalization 7/2. |
+| TLT | $85.52 | 🟡 | [CONF yfinance, 7/1] | −$1.93 from 6/26; puts working this week. |
+| VIX / KRE / HYG | 16.6 / 76.18 / 79.59 | 🟢 | [CONF yfinance, 7/1] | Risk-ON selloff tell: banks rallying while duration sells = policy repricing, not growth fear. |
+| Brent | ~$71 | 🟢 | [CONF yfinance BZ=F, 7/1] | Fell THROUGH the kinetic window (OPEC+ 4th hike + de-escalation-from-crisis-baseline). Decoupling test resolved benign. |
+| Energy HY OAS | *285 [STALE Apr 28]* | 🟡 | LIQUID owns | **Structurally unpinnable from public primaries** (FRED has no sector OAS; `…EY` = effective yield). Needs ICE access — stays [STALE]. |
+| Fed b/s (WALCL) | $6.736T | 🟢 | [CONF FRED, 6/24] | **Rising** ~$31B/4wk — no active QT. MBS $1.96T passive runoff; active sales deferred ("years, not months," Sintra 7/1). |
 
 ---
 
-## Latest Auction Read — post-refunding gate (all cleared)
+## Auction Read — 6/23–25 cluster (RESOLVED, grade C+) + July gauntlet
 
-| Date | Tenor | Size | BTC | High Yield | Indirect | PD | Read |
-|---|---|---:|---:|---:|---:|---:|---|
-| **6/16** | **20Y reopen (912810UV8)** | $13B | **2.75** | 4.927% | **71.6%** | **8.5%** | **STRONG** — BTC best in 3mo (breaks 2.76→2.68→2.55 trend), indirect ↑ vs 5/20 (67.7%), **~−1bp stop-through** (no tail), dealers barely absorbed. **BND-09 FALSE.** |
-| 6/18 | 5Y TIPS reopen (91282CQP9) | — | 2.61 | 1.955% real | — | — | **Solid** real-money demand. 5Y BEI ~2.25 << SEP PCE 3.6% (market disbelieves the inflation jump). Real yield +58bp from Apr origination. |
+| Date | Tenor | Size | BTC | High Yield | Indirect | Direct | PD | Read |
+|---|---|---:|---:|---:|---:|---:|---:|---|
+| 6/23 | 2Y (91282CQY0) | $69B | 2.64 | 4.189% | **55.45%** | 34.31% | 10.24% | 0.3bp **stop-through**; HY highest since Jan-25; dealer take lowest since Feb. |
+| 6/24 | 5Y (91282CQX2) | $70B | 2.35 | 4.200% | 61.60% | 25.51% | 12.89% | **0.7bp tail — 8th consecutive tailing 5Y**; indirect −13.3pp m/m. |
+| 6/25 | 7Y (91282CQW4) | $44B | 2.50 | 4.260% | **57.55%** | 29.70% | 12.75% | Indirect −20.8pp m/m; tail **unpinnable** (treat as unknown). |
 
-**Read:** no stress markers anywhere in the gate. The 20Y was the standout — strongest demand mix of the 2026 calendar, foreign/indirect bid robust. The into-gate hawkish FOMC did **not** translate to auction stress. **BND-09 resolves FALSE** (no marker: not tail>1.5bp+indirect<60%, not BTC<2.40) — the 5th straight benign auction-stress resolution (BND-05/08/09). *June refunding (10Y strong / 30Y soft-orderly) archived in `thesis/`.*
+**Read:** no hard stress marker (nothing near BTC <2.3 / tail >1.5bp / dealer spike) — **6th straight benign test**. The story is **composition**: foreign/custodial (indirect) bid faded hard at the belly, absorbed ~1:1 by domestic directs — *rotation, not hole*; dealers were NOT stuffed. Composes with TIC-April private outflow (KB-049) + UST allocation multi-decade low (KB-057) → VX-08/13 → 3. **Next gate: 7/7 3Y · 7/8 10Y-R · 7/9 30Y-R** (sizes announced 7/2, settle 7/15) — **BND-11** pre-registers 70% benign; the 7/9 30Y into a ~4.97 tape with record dealer stock is the single most important print of the month.
 
 ---
 
-## FOMC 6/17 (Chair Warsh) — front-end shock, long-end held
+## Global Long-End — JGB/FX panel (new, channel 6)
 
-Unanimous 12-0 hold at 3.50–3.75%; **hawkish pivot**: dot median +40bp (3.4→3.8), 9/18 see ≥1 hike by YE26, core PCE 2026 +60bp to 3.3% / headline 3.6%, GDP cut to 2.2%, easing-bias guidance stripped. **Reaction = bear-FLATTENER** (H.15): 2Y +15bp→4.20, 10Y +6bp→4.49, **30Y flat at 4.93**. **BOND read:** the hawkish Fed repriced the *Fed-path* (front-end), NOT term premium (long-end) — the inverse of BOND's supply-stress channel. The long-end *anchoring* is a confirmation of "expensive not broken." ⚠️ **Confound** (verify-flagged): an Iran interim-peace signal 6/17 pushed oil *down*, so the 30Y anchoring is partly breakeven-compression, not purely FOMC. Rate-expectations read is HENRY's; BOND owns the long-end consequence. *(BOJ also hiked 6/16 to 1.00% — yen weakened, US-Japan differential re-widened, UST repatriation channel NOT firing → corroborates TIC-April Japan-added-USTs.)*
+Japan's super-long demand vacuum is real and worsening (6/25 20Y JGB BTC 2.97x = weakest since the May-2025 rout; lifers net sellers; rinban stepped down to ¥2.5T/mo **effective 7/1**; BOJ stood aside through an 8.8bp 30Y rout) — but the 6/20–7/1 window shows **duration decoupling, not competition**: after the weak JGB 20Y, USTs *rallied* four sessions to a 7-week low. The 6/30–7/1 co-selloff had different signatures (JP: pure super-long steepener, 2Y −3/30Y +9; US: near-parallel +4–7bp policy repricing). **The armed transmission leg is FX:** yen 162+ (40-yr low), record ¥11.7T already spent Apr–May, Mimura verbal warning 7/1 — *actual* MOF intervention = mechanical selling from $1T+ UST reserves. Watch: **7/2 10Y JGB auction · USD/JPY 165 · BOJ 7/31.** Full read → KB-BND-065; reply to SAM in `outbox/`.
+
+## New Coverage Baseline (7/1) — MBS/FHLB + EU rates
+
+- **MBS/housing (VX-17, score 1):** primary spread ~200–205bp (at/below median — but *policy-compressed* by the Jan-26 GSE $200B purchase directive); CC spread ~100–110bp [EST]; Fed MBS $1.96T passive runoff. Catalyst-monitored: Warsh active-sales (deferred to 2027 lane), GSE-release execution.
+- **FHLB advances (VX-18, score 1):** $734B (3/31/26), +8.4% Q/Q (driver unattributed — read Q1 CFR narrative), ~30% below the 2023 SVB peak. Coordinate with REGINALD.
+- **EU rates (VX-19, score 2):** **ECB is HIKING** — depo 2.25% (6/11, first since 2023, war-inflation), ≥1 more priced, full QT; bund 2.94%, 2s10s +42bp; **OAT-Bund 77bp** (+10 in June; France trades on top of Italy at 73bp). Next GovC 7/23-or-24 (**verify date**). Converge xccy-basis number with LIQUID (proxy build needed).
 
 ---
 
@@ -59,51 +66,51 @@ Unanimous 12-0 hold at 3.50–3.75%; **hawkish pivot**: dot median +40bp (3.4→
 
 | Vector | Score | Independence | Status | Evidence | Upgrade Trigger |
 |---|---:|---|---|---|---|
-| Treasury auction health | 2 | VX-08 (indirect), VX-09 (tail), VX-13 (FOI/TIC) roll up here — primary-demand; counted once. | 🟡 | June refunding cleared + **6/16 20Y STRONG** (BTC 2.75) + 6/18 TIPS solid — 3 clean-to-strong prints. | 2+ weak same-tenor OR >2bp tail at the **end-June 2Y/5Y/7Y** cluster. |
-| HY market function | 1 | VX-11 (CCC quality-tail) rolls up; HY-spread root; counted once. | 🟢 | HY OAS 263 (tighter). Bifurcation caveat (CCC/HY 3.57x widening; energy HY stale). | HY >300 watch; >350 + pulled deals = red. |
-| IG market function | 1 | VX-10 (IG primary) rolls up; IG-spread root; counted once. | 🟢 | IG OAS 74; no freeze. | +20bps/wk OR clustered pulled deals. |
-| Dealer absorption | **3** | VX-16 (buyback offer/accept) rolls up; dealer-stock root; counted once. | 🟠 | FR2004 (5/27) long-end inventory near/at record (11–21Y $67.0B all-time high) — *stock*. June auction *flow* benign (20Y PD 8.5%, 10Y 9.4%). | Forced inventory decline in a selloff OR FR2004 fresh highs + weak auction. |
-| Long-end / duration | **2** | VX-12 (term prem), VX-14 (real/BE), VX-15 (5Y5Y) roll up; duration root; counted once. | 🟡 | 10Y 4.45 / 30Y 4.90 below thresholds; **held below through the hawkish FOMC** (bear-flattener). Real-rate side rising (DFII10 2.23). | 10Y >4.6 OR 30Y >5.0 held **5 sessions** + weak auction, **OR DFII10 >2.5**. |
-| CDX-cash basis | 1 | Standalone proxy; no sub-vector feeder; not double-counted. | 🟢 | Proxy (`monitors/cdx_proxy.py`) no divergence at cash. | Proxy z20 < −1.5 while HY tight, OR VIOLET reports skew steepening. |
-| Credit-equity lead | 1 | Timing lens keyed off HY OAS (trigger = HY +75-100bp from trough; shares V2's root) — setup read, not an added level. | 🟢 | HY tight, VIX 16.8 — setup inactive. | HY OAS +75–100bp from trough while VIX <20. |
-<!-- Independence column added 2026-07-01 by PROME on DAEDALUS's behalf (HANDLE_SWEEP item BOND-SWEEP-A, Will-approved); encode-existing lift of the VX-08..16 sub-vector→headline feed mapping (composite note below) — no new analysis, composite 11/35 unchanged. -->
+| Treasury auction health | 2 | VX-08 (indirect), VX-09 (tail), VX-13 (FOI/TIC) roll up here — primary-demand; counted once. | 🟡 | 6/23–25 cluster C+ no-marker (6th straight benign) BUT indirect <60 at 2Y/7Y, rotated to directs (KB-060). | Any BND-11 marker at 7/7–9: (tail>1.5bp AND ind<60) OR BTC<2.3 OR dealer>20%. |
+| HY market function | 1 | VX-11 (CCC quality-tail) rolls up; HY-spread root; counted once. | 🟢 | HY 275 (<300); issuance BOOM (Apr $40B; zero pulled deals). CCC 970 non-retrace caveat. | HY >300 watch; >350 + pulled deals = red. |
+| IG market function | 1 | VX-10 (IG primary) rolls up; IG-spread root; counted once. | 🟢 | IG 76; RECORD June ~$175–187B, 3.9x books. | +20bps/wk OR clustered pulled deals. |
+| Dealer absorption | **3** | VX-16 (buyback offer/accept) rolls up; dealer-stock root; counted once. | 🟠 | FR2004 6/17: 11–21Y $74.6B **fresh all-time record**; flow benign (cluster takes 10–13%). **→4 trigger ARMED.** | Fresh highs (7/2 print) + weak auction (7/9 30Y) → 4. |
+| Long-end / duration | **3** ↑ | VX-12 (term prem), VX-14 (real/BE), VX-15 (5Y5Y) roll up; duration root; counted once. | 🟠 | 30Y 4.97 +11bp/2d, globally-synchronized re-fire (JGB co-firing); NOT real-led (DFII10 2.20, retraced). | 10Y >4.6 OR 30Y >5.0 held **5 sessions** + weak auction, OR DFII10 >2.5 → 4. |
+| CDX-cash basis | 1 | Standalone proxy; not double-counted. | 🟢 | 6/24–26 z-breach (−3.28) **failed the sign-check** — cash widened concurrently = co-move, not divergence; normalized 7/1 (−0.17). | Proxy z20 < −1.5 while cash HY stays TIGHT, OR VIOLET skew-vs-flat-cash. |
+| Credit-equity lead | 1 | Timing lens keyed off HY OAS; setup read, not an added level. | 🟢 | HY +12bp off trough w/ VIX 16.6 — magnitude nowhere near the arm. | HY OAS +75–100bp from the 263 trough (≈338–363) while VIX <20. |
+<!-- Independence column added 2026-07-01 by PROME (DAEDALUS BOND-SWEEP-A, Will-approved); preserved through the 7/1 BOND rewrite. -->
 
-**Composite: 11/35** (flat vs 6/15) — *scores the 7 headline vectors above; workbook `VX.tsv` also tracks 9 sub-dimension vectors (VX-08…16) that feed these, not double-counted into the composite.* The live gate was a net wash on the composite: a hawkish FOMC + strong 20Y + declaratory-Iran cancelled out. The narrative shift: **risk migrated to the front-end (Fed-path, HENRY's lane); BOND's long-end stayed anchored.** Dealer-inventory *stock* is the one durable elevated vector (re-pull FR2004 ~6/23). The single BOND-domain metric escalating is **DFII10 real yield (2.23, rising)** — the cleanest re-arm watch. *Structural backdrop (sweep 6/20, KB-053): NY Fed ACM 10Y term premium turned **+0.73% — positive first time since 2023**, and GAO data shows note/bond BTC has secularly declined 3.0x→2.5x — i.e., the 2.3x demand-hole threshold now sits just under the new structural norm, so a 2.3–2.4 print reads "below new-normal," not "fine."*
+**Composite: 12/35** (was 11/35 on 6/20; +1 from long-end 2→3) — 2 vectors at 3, 1 at 2, 4 at 1. *New-coverage vectors (VX-17 MBS = 1, VX-18 FHLB = 1, VX-19 EU rates = 2) are tracked in `workbook/VX.tsv` OUTSIDE the composite to keep it comparable; they enter the matrix when they earn weight.* The configuration to respect: **record dealer stock + fading indirects + a 30Y 3bp from threshold + a supply gauntlet** — every piece of the demand-hole scenario is pre-positioned except the trigger itself (a failed auction). Six straight benign tests say the trigger keeps not firing (BND-11: 70% benign); the tape says the cost of being wrong is now concentrated in the 7/9 30Y print.
 
 ---
 
 ## Trade Interface (full view in `thesis/THESIS.md`)
 
-- **TLT puts — HOLD, no add.** A hawkish Fed that bear-*flattens* (long-end held, TLT +$1.00 to $86.75) is the *wrong tape* for duration shorts — the move went to the front-end, which TLT puts don't capture. Conviction softens but the structural thesis is alive on the real-rate side (DFII10 2.23 rising). Re-arm an add **only** on a real long-end break: 30Y >5.0 / 10Y >4.6 held 5 sessions + weak auction, **OR DFII10 >2.5**, **OR** a real tail at the end-June supply.
-- **HYG $75P Jun — assume expired/decayed.** Zero transmission (HY 263, HYG firm). Reopen only on HY OAS >300 w/ velocity.
-- **Credit-equity lead — inactive.** Reactivate on HY OAS +75–100bp from trough while VIX <20.
-
----
+- **TLT puts — HOLD, no add.** The tape rotated toward the thesis (global steepening tilt; TLT −$1.93 this week) but **no pre-registered add-gate has fired**: 30Y hasn't breached 5.0 (let alone 5 sessions), DFII10 retraced to 2.20, and the last auction test was benign. Add-gates: (a) DFII10 >2.5 sustained; (b) 30Y >5.0 / 10Y >4.6 held 5 sessions + weak auction; (c) a real marker at the **7/7–9 refunding** (BND-11 FALSE). The 7/9 30Y is the live gate.
+- **HYG puts — stay closed.** Issuance boom, zero pulled deals; reopen the thesis only on HY OAS >300 with velocity.
+- **Credit-equity lead — inactive.** Reactivate on HY +75–100bp from the 263 trough while VIX <20.
 
 ## Exit / Falsification (full set → `thesis/THESIS.md`)
 
-- **Thesis kill (exit all duration shorts):** a genuine auction **demand hole** — BTC <2.3 **and** tail >2bp **and** dealer take spikes **and** SOFR-IORB turns positive. OR 10Y back below **4.15** sustained 3 sessions with clean auctions (term-premium thesis spent). *None firing; SOFR-IORB −2.*
-- **TLT puts:** kill if 10Y <4.15 **and** 30Y <5.0 for 3 sessions **and** a clean auction. Note: a *hawkish-Fed bear-flattener failing to lift the long end* (this week) weakens the term-premium add-case without killing the structural thesis.
-- **Convergence downgrade:** dealer absorption →2 when next FR2004 (~6/23) shows long-end inventory off the highs. Long-end already at 2.
-- **Time-based:** each coupon cluster (end-June 2Y/5Y/7Y + July refunding) re-grades auction-health + long-end; 60-DTE review on any options position.
+- **Thesis kill:** genuine demand hole — BTC <2.3 **and** tail >2bp **and** dealer take spike **and** SOFR-IORB positive (non-quarter-end). OR 10Y <4.15 sustained 3 sessions with clean auctions. *(Neither near: SOFR-IORB +3 was clean qtr-end, SRF $0.)*
+- **TLT puts kill:** 10Y <4.15 AND 30Y <5.0 for 3 sessions AND a clean refunding.
+- **Convergence downgrade:** dealer-absorption →2 if the 7/2 FR2004 print shows a sharp drawdown off the 6/17 record; long-end →2 if 30Y closes back <4.85 for 3 sessions without auction stress.
+- **Time-based:** 7/7–9 refunding is a mandatory re-grade (BND-11); BND-12 resolves 7/24; BND-01 resolves end-July; 60-DTE review on any options leg.
 
 ---
 
-## Immediate Catalysts
+## Immediate Catalysts (docket = `docket/CATALYSTS.tsv`, same event set)
 
-| Date | Catalyst | What BOND watches | Route |
-|---|---|---|---|
-| **Mon 6/22** | **Brent open** (post-Hormuz re-closure) | Oil→breakevens test. Brent >$88–90 (decoupling breaks) → upgrade oil→breakeven channel, flag T5YIFR. BRENT calls it "the cleanest decoupling test yet." | BRENT/HAWK |
-| **~6/23** | **FR2004 dealer positions** (weekly) | Re-pull due — long-end inventory off the 5/27 record highs = dealer-absorption →2. | LIQUID/ZHAO |
-| **6/23–25** | **2Y $69B (6/23) · 5Y $70B (6/24) · 7Y $44B (6/25)** = $183B | **First coupons under the hawkish-FOMC regime** (key BND-10 test). Tail/BTC vs norms; the 5Y/7Y are the live demand reads. **Headwind:** MMF cash at record $7.92T (+$39.7B in FOMC wk) = cash-hoarding out of duration. | PROME/LIQUID if weak |
-| Watch | **Warsh balance-sheet task force / active MBS sales** | Treasury-only-portfolio intent (MBS ~$2T) = forward long-end supply headwind; QT-ended but active sales NOT yet enacted (2H26/2027 risk). Interim findings = DFII10>2.5 upgrade trigger. | HENRY/LIQUID |
-| Daily | **DFII10 toward 2.5** / 10Y >4.6 / 30Y >5.0 | The one rising BOND vector. 5 sessions + weak auction = re-escalate long-end. | HENRY/LIQUID |
-| Watch | Energy HY OAS / CCC bifurcation | Energy HY stale 285 (Apr 28) — needs direct pull; CCC/HY ratio 3.57x widening. | BRENT/LIQUID (pull) |
-| Watch | Treasury buyback long-end accept-cap | Lift = YCC-lite / stealth suppression = direct TLT-puts event. Not current policy. | LIQUID/PROME if lifts |
-| Watch | AOCI bank-capital rule (comment closed 6/18) | Mandatory AOCI inclusion for Cat III/IV = duration-risk amplifier for regional-bank CET1 if rates back up. | REGINALD (owns) |
+| Date | Catalyst | What BOND watches |
+|---|---|---|
+| **Thu 7/2** | **FR2004 (as-of 6/24)** ~4:15pm · Treasury announces 7/7–9 sizes · **10Y JGB auction** (JST) | Record-check (→4 input) · upsizes · JGB vacuum spreading down-curve? |
+| Sun 7/5 | OPEC+ meeting | 5th straight hike expected (NOT banked); breakeven leg only |
+| **Tue–Thu 7/7–9** | **Mini-refunding: 3Y · 10Y-R · 30Y-R** | 🔴 **BND-11 predicates; 7/9 30Y = the month's decisive print** (record dealer stock + 4.97 tape) |
+| Wed 7/8 | June FOMC minutes | Hike-dissent breadth; task-force color |
+| Wed 7/22 · Thu 7/23 | 20Y reopening · 10Y TIPS (new) · ECB GovC (7/23-or-24 — **verify**) | vs STRONG 6/16 20Y · real demand · 2nd ECB hike? (VX-19) |
+| Mon–Tue 7/27–28 | **2Y+5Y same day (7/27)** + 7Y (7/28) | Compressed month-end cluster; indirect-fade trend test (VX-13 →4 candidate) |
+| Tue–Wed 7/28–29 | FOMC (no SEP) | ~29% hike priced; hawkish-hold + long-end break = regime re-read |
+| Fri 7/31 | BOJ decision | Post-Tankan hike odds; FL-BND-11 FX leg |
+| Wed 8/5 | QRA (pattern-inferred — **verify**) | Coupon-size guidance |
+| Watch | **MOF FX intervention (actual)** 🔴 · Warsh task force (end-2026) · buyback accept-cap | UST reserve selling = FL-BND-11 fires · 2027 lane · YCC-lite tell |
 
 ---
 
-## Bottom Line
+## BOTTOM LINE
 
-**The live gate passed and the long-end watch did NOT re-arm.** The 6/16 20Y printed **strong** (BTC 2.75, best in 3mo — BND-09 resolves **FALSE**, 5th straight benign auction), the 6/18 TIPS was solid, and the hawkish Warsh FOMC (6/17) bear-**flattened** the curve — front-end +15bp, **30Y flat at 4.93** — the opposite of BOND's supply/term-premium channel. The long end *held below thresholds through a hawkish Fed*: confirmation of "expensive, not broken." Composite **11/35** (flat). **TLT puts HOLD, no add** — a bear-flattener is the wrong tape for a duration short, and the long-end isn't breaking even on hawkish news. The two things to watch: **DFII10 real yield (2.23, rising — the one escalating BOND vector)** and the **Mon 6/22 Brent open** (oil→breakevens). Iran/Hormuz is declaratory-not-kinetic → low weight, monitor-only.
+**The long end is re-engaging — and this time it's global.** 30Y closed 4.97 (+11bp in two days), driven roughly equally by domestic hawkish-data repricing (JOLTS beat, ISM prices, Dec-hike ~80%) and Japan's super-long rout (weakest JGB 20Y demand since the 2025 rout; BOJ standing aside; yen at a 40-year low with MOF intervention risk = mechanical UST selling). Auctions still clear — six straight benign tests, BND-10 resolved VOID on the Iran kinetic clause with the no-breach read intact — but the **composition is deteriorating** (indirects <60% at two of three June tenors) and **dealer long-end inventory just made a fresh all-time record**, so every piece of the demand-hole configuration is pre-positioned except the trigger. **TLT puts HOLD, no add** — the add-gates are pre-registered and the decisive one is the **7/9 30Y reopening** (BND-11, 70% benign). Credit is a non-story at the index level (issuance boom, HY 275) with the CCC tail (970, non-retracing) as the only live residue.

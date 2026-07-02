@@ -1,29 +1,35 @@
 # BOND — Processing Receipt
 
-**Run:** 2026-06-20 (Sat) — boot → news sweep → data audit → Packet 9 → closeout
-**Triggers:** Will — boot; "sweep for bond news"; "audit our data"; "implement Packet 9"; "run the closeout (no push)"
+**Run:** 2026-07-01 (Wed) — boot → 11-day gap sweep (8-leg fan-out) → prediction-cluster resolution → mandate integration → closeout
+**Triggers:** Will — "boot up... we probably need to pull recent numbers and/or news"; PROME 7/1 task packet (DAEDALUS batch02)
 
-## Inbox processed
-| Signal | Action | Result |
-|---|---|---|
-| `WALTER/SIG-W-20260619-003` (TIC April: $184B private outflow swing, official+LT offset) | INTEGRATE | KB-049; VX-BND-13 updated; → `processed/`. |
+## Inbox processed (8 → `inbox/processed/`)
+| Item | Disposition |
+|---|---|
+| WALTER SIG-W-20260621-003 (UST allocation ~7% low) | KB-BND-057 (recency caveat carried) |
+| WALTER SIG-W-20260622-003 (oil–2Y decouple) | KB-BND-058 — computed the asked correlation: 30d **+0.40 decaying, NOT inverting** |
+| WALTER SIG-W-20260624-008 (5Y 0.7bp tail, 8th straight) | Verified vs TreasuryDirect primary → folded into KB-BND-060 |
+| WALTER SIG-W-20260628-013 (gold-export distortion, INFO) | KB-BND-059 (light) |
+| PROME 6/27 coverage-extension SIG | **Integrated:** CLAUDE.md scope updated (MBS/FHLB/EU-rates), do-NOT-own contradiction fixed, VX-17/18/19 baselined (KB-067/068), STATUS new-coverage panel |
+| PROME 6/27 protocol-audit SIG | **Applied:** 3 HERMES-as-live-carrier refs replaced with deprecation language |
+| SAM 6/30 JGB demand-vacuum ask | **Answered:** `outbox/2026-07-01_to-SAM_jgb-transmission-read.md` (KB-BND-065; FL-BND-11 built) |
+| PROME 7/1 DAEDALUS batch02 packet | **BOND-SWEEP-B APPLIED** (If_Falsified_Action column, all 12 rows); SWEEP-A provenance preserved through the STATUS rewrite; overdue BND-10 resolved (below) |
 
-## Catalysts resolved (gate 6/16–6/18)
-- **6/16 20Y** STRONG (BTC 2.75, ind 71.6, dlr 8.5, stop-through) → **BND-09 FALSE** (KB-050)
-- **6/17 FOMC (Warsh)** hawkish, bear-flattener (2Y +15bp, 30Y flat 4.93) (KB-051)
-- **6/18 5Y TIPS** solid (BTC 2.61, real 1.955%) + BOJ 6/16 hike to 1.00% (KB-052)
+## Predictions resolved / armed
+- **BND-02 → FAILED** (Apr–Jun issuance boom; monthly-primary inference, caveat logged) · **BND-04 → FALSE** (BSL peak S+127; MM near-miss S+158 annotated) · **BND-10 → VOID** (pre-registered kinetic clause: Kiku struck in-Strait 6/27; substantive no-breach read recorded, not scored)
+- **Armed: BND-11** (7/7–9 refunding benign, 70%, resolve 7/9) · **BND-12** (30Y no sustained >5.00 through 7/24, 65%)
 
-## Work products this session
-- **News sweep (6/15–20):** KB-053 (ACM TP +0.73 / GAO BTC 3.0→2.5), KB-054 (Warsh MBS-sales intent), KB-055 (PIMCO default-cycle + CLO impaired), KB-056 (6/23-25 cluster + MMF $7.92T).
-- **30Y discrepancy resolved** live vs TreasuryDirect API: 6/11 BTC 2.33 confirmed; secondary "6/12 2.43" wrong.
-- **Data audit + remediation (18 files):** durable-doc live values → STATUS pointers; TRADE.md refresh; monitors backfill; FLOW.tsv demote; KB 28-row status sweep; VX-02/07; CATALYSTS resolve; archived WATCH_20Y + PRE_AUCTION_BASELINE; relabeled MATRIX_V2/PROTOCOL/WI.
-- **Packet 9:** closeout protocol wired into CLAUDE.md (BOOT/EXECUTE/CLOSEOUT); CLOSEOUT_GAP_ANALYSIS marked IMPLEMENTED (2/16 → ~14/16).
+## Catalysts resolved / docket
+6/22 Brent open (benign — oil FELL; $88–90 never tested) · 6/23–25 cluster (C+, no marker, composition soft) · FR2004 re-pull (**fresh record** — →4 trigger ARMED, not fired). Docket rewritten: 17-row July gauntlet (7/2 FR2004+sizes+JGB-10Y · 7/7–9 refunding 🔴 · 7/22–24 20Y/TIPS/ECB · 7/27–29 cluster+FOMC · 7/31 BOJ · watch: MOF intervention 🔴).
 
-## Closeout verification (this run, new protocol)
-- Composite re-sum: **11/35** ✓ (matches STATUS) · DUE-scan: none past timeframe (BND-02/04/10 cluster → 6/30) · KB hygiene: 0 ACTIVE-past-Stale_By ✓ · mirror-check: CATALYSTS↔STATUS aligned, durable docs 0 live values ✓.
+## Files written
+STATUS.md (full rewrite, composite 11→**12/35**) · thesis/THESIS.md (**v1.1**) · thesis/CHANGELOG.md · thesis/PREDICTIONS.tsv · workbook/KB.tsv (057–068) · workbook/VX.tsv (+VX-17/18/19) · workbook/FLOW.tsv (FL-11 new) · docket/CATALYSTS.tsv · monitors/×4 · TRADE.md · CLAUDE.md · SCRATCH.md · outbox/ (SAM reply) · RECEIPT.md
 
-## Outbox
-None this session (🔴-only restraint). Flagged for pull: energy HY OAS 46d-stale (LIQUID); FR2004 re-pull ~6/23.
+## Outbox state
+1 new: SAM reply (🟠, requested deliverable — not restraint-gated). No 🔴 signals warranted (SOFR-IORB +3bp = clean quarter-end w/ SRF $0; no auction marker).
 
-## Git
-All committed LOCAL ONLY: `dcb095e6` boot · `39dea816` sweep · `1bf62ccf` audit · `775c33cd` Packet 9 · + this closeout. Path-scoped, 0 non-BOND files. **PUSH DEFERRED — Will coordinating the push.**
+## Research provenance
+8-leg Workflow fan-out (run `wf_b0c296ad-32d`, ~580k tokens, 8/8 legs, 0 errors). Load-bearing figures pinned from primaries (TreasuryDirect API, NY Fed FR2004 API, FRED, MOF CSV, Treasury par curve, ECB release, FHLB OF, Fannie 8-K); secondary-only items flagged inline in KB Notes (Dec-hike ~82% mirror-derived; Warsh Sintra quotes snippet-level; ECB GovC date conflict; QRA 8/5 pattern-inferred; 7Y tail unpinnable).
+
+## Git disposition
+Path-scoped BOND-only commits; `git status -- AGENTS/BOND/` verified clean of foreign files pre-commit; auto-push via `scripts/safe-push.sh` at closeout (ff-gated).

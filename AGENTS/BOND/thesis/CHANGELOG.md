@@ -4,6 +4,23 @@ Version history for `thesis/THESIS.md`. Newest first. Bump rules: **major (X.0)*
 
 ---
 
+## v1.1 — 2026-07-01 (long-end re-engagement + JGB-FX channel + mandate extension)
+
+**Triggers:** 11-day gap sweep (6/20→7/1); three predictions resolved (BND-02 FAILED, BND-04 FALSE, BND-10 VOID); a new transmission channel; a Will-approved coverage extension.
+
+**Old view (6/20):** the hawkish FOMC bear-flattened — risk migrated to the front-end (HENRY's lane); BOND's long-end anchored; the one escalating vector was DFII10 (real-rate side); TLT puts on the "wrong tape."
+
+**New view (7/1):**
+1. **The long end is re-engaging, phase III** — 30Y 4.97 (+11bp/2d), globally synchronized: domestic hawkish-data repricing (JOLTS beat, ISM prices 73, Dec-hike ~79-82%) **co-firing with a JGB super-long rout** (6/30: 30Y JGB +8.8bp; weakest 20Y JGB auction since May-2025 on 6/25; rinban step-down effective 7/1). NOT real-rate-led this time (DFII10 peaked 2.29 → 2.20): policy-repricing + global term premium. Long-end vector 2→3; composite 11→12/35.
+2. **New channel 6 — Global long-end / JGB-FX:** window evidence shows JGB↔UST *duration decoupling* (weak JGB 20Y auction → USTs rallied 4 sessions), so the armed leg is **FX-routed**: yen at a 40-year low (162+), record ¥11.7T intervention spent, Mimura verbal warning 7/1 — *actual* MOF intervention = mechanical UST reserve selling. Built from SAM's 6/30 signal + independent verification (their baseline was one session stale — pre-rout).
+3. **Demand composition rotating:** June cluster cleared (6th straight benign — BND-11 arms the 7th test at the 7/7-9 refunding) but indirects fell <60% at 2Y/7Y with 13-21pp m/m slides, absorbed 1:1 by directs. VX-08/13 → 3. Dealer long-end stock at a **fresh record** ($74.6B 11-21Y, 6/17) — →4 trigger ARMED; 7/2 print + 7/9 30Y decisive.
+4. **Falsified legs cleaned up:** issuance-freeze mechanism resolved FAILED (Apr-Jun was an AI-capex issuance BOOM — April HY $40B, record June IG); CLO-AAA canary FALSE (BSL never near SOFR+160; MM near-miss S+158). Warsh MBS-sales supply leg deferred to 2027 ("years, not months," Sintra) — removed as near-term amplifier. Oil→breakevens re-arm bar proven HIGH (live kinetic Iran exchange 6/25-28 bought only ~2-6bp of breakeven).
+5. **Mandate extension integrated (6/27 SIG):** + MBS/housing-finance/FHLB advances (VX-17/18) and Eurozone rates (VX-19 — ECB is HIKING: first hike since 2023 on 6/11, OAT-Bund widening). EU leg starts at watch-level 2.
+
+**No conviction change:** TLT puts HOLD/no-add — gates pre-registered (BND-11/12; DFII10 >2.5; 30Y >5.0 ×5 + weak auction), none fired. But the tape rotated from working *against* the expression (bear-flattener) to working *toward* it (global steepening tilt into a supply gauntlet with a record-thin dealer backstop).
+
+---
+
 ## 2026-06-20 — intra-v1.0 POV note (no version bump)
 
 **Trigger:** the live post-refunding gate resolved — 6/16 20Y, 6/17 FOMC, 6/18 TIPS.
