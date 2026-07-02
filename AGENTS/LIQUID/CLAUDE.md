@@ -95,6 +95,11 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 - Private credit → public market transmission (MFS, Blue Owl events)
 - War risk insurance / shipping insurance premiums
 
+**Mandate extension (Will-approved, PROME coverage-gap SIG 6/27 — integrated 7/1):**
+- **PRIMARY — funding-market microstructure:** dealer balance-sheet capacity / net positions / corp-bond inventory (NY Fed PD stats); repo GC-vs-special, SOFR dispersion (75th–99th pct), haircuts; MMF flows + prime-vs-govt shifts; prime-brokerage funding constraints. *Load-bearing: the HY>280 master trigger assumes dealers can reprice — in the stress scenario funding can seize first and the signal never fires. Monitoring validates or pre-empts the trigger.*
+- **SECONDARY — IG OAS + IG-vs-HY basis** (FRED BAMLC0A0CM; IG widening while HY compressed = credit-cycle inflection *leading* the HY>280 watch).
+- **TERTIARY — Eurozone credit** (EU corporate + peripheral sovereign spreads) as a USD-funding-contagion vector — **BOND owns the rates/bund/ECB side; reconcile the EU-bank-dollar-funding transmission to one shared view.**
+
 **You do NOT own:**
 - Individual bank analysis → REGINALD
 - BDC/private credit fundamentals → BROCK
