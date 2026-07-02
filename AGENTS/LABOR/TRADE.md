@@ -40,7 +40,7 @@ LABOR vector → threshold → target agent(s) → priority. Thresholds referenc
 ## §2 — KELYA Position
 
 **Position:** KELYA $7.5P Aug 21
-**Live state (Jun 9):** spot $11.65 (-1.94% today); strike $7.5 = **$4.15 OTM**; **~73 DTE**; position **deep OTM, theta-burning, near-dead** per Will Jun 9. Contracts / cost basis / mark → FORGE.
+**Live state (Jul 2):** spot **$13.00** (−0.84% *on the NFP-big-miss day* — market shrug); strike $7.5 = **$5.50 OTM**; **~50 DTE**; write-off state confirmed. **DTE ≤30 mechanical checkpoint: Jul 22.** Contracts / cost basis / mark → FORGE. *(Prior mark: $11.65 Jun 9.)*
 
 ### Thesis state
 
@@ -55,6 +55,8 @@ LABOR vector → threshold → target agent(s) → priority. Thresholds referenc
 4. **Time decay** — 73 DTE on a $4.15 OTM put requires >35% drawdown in <2.5 months. Implied required move not supported by current vol or thesis state.
 
 ### Verdict: **Functionally dead. Manage to expiry.**
+
+> **Jul-2 print resolution (added 2026-07-02):** The §2 re-arm letter *technically fired* — NFP June +57K (<100K ✓) AND revisions stopped trending up (reversed to net −74K ✓). But the third leg the grid assumed never came: **U-3 FELL to 4.2%** (labor force −720K = supply-shrink artifact, not strength), and the market shrugged (KELYA $13.00, −0.84%; spot moved *away* from the strike vs the "$9-10 on print" re-arm scenario). Mechanism read: freeze-deepening, not demand-break — no claims confirmation (215K). **Verdict unchanged: write-off; no action proposed to Will.** The playbook's Jul-2 grid lacked a "NFP <100K + U-3 ↓ (participation-driven)" branch — gap documented in LESSONS L-06; future grids carry a denominator-artifact branch.
 
 **Re-arm conditions** (would restore the put's edge — none currently active):
 - Initial claims breach **>250K sustained 4+ weeks** + U-3 jump ≥0.2pp single print → would force fundamental re-rating
@@ -110,6 +112,8 @@ For each forward catalyst, the LABOR thesis implication + KELYA position implica
 | Openings >7.5M + hires <5.0M | Post-don't-hire intensifies | Marginal KELYA support | 🟠 CARL, HENRY |
 | Hires recover >5.5M | Post-don't-hire wobble; canary-bottomed thesis confirmed | Position confirmed dead | None |
 
+> **✅ RESOLVED Jun 30 (graded Jul 2):** printed **between the grid's rows** — openings 7.594M (>7.5M) but hires 5.170M (5.0-5.5M band, not <5.0M). Read: post-don't-hire GAP widened (LAB-16 ✅ with stabilization nuance; Apr hires revised UP +99K to 5.215M). No cross-agent fire (T-10 needs <5.0M ×2). KELYA: no move.
+
 ### Jul 2 (Thu) — NFP June + U-3 + Claims w/e Jun 27 ⚠️ **LINCHPIN**
 
 LAB-02 effective resolution. Kill A check #2 (Mar revised 214K = #1).
@@ -121,6 +125,8 @@ LAB-02 effective resolution. Kill A check #2 (Mar revised 214K = #1).
 | NFP 150-200K + U-3 flat | Hard-data strength continues | Position confirmed dead | None |
 | **NFP ≥200K** | **Kill A trigger #2** (Mar = #1). Bearish realization-weak thesis on the rocks. | Position confirmed dead. | 🔴 PROME, FORGE — Kill A countdown |
 | U-3 ≥4.7% regardless of NFP | LAB-02 ✅ confirmed | Supports KELYA but NFP dominates tape reaction | Watch HENRY |
+
+> **✅ RESOLVED Jul 2:** printed **off-grid** — NFP **+57K** (<100K) but **U-3 4.2% DOWN** (participation −0.3pp = supply artifact; the grid's <100K row assumed U-3 ≥4.5%). T-06 did NOT fire (needs a U-3 *jump*). Revisions net **−74K** → **Kill A RESET** (revised run 148/129/57 — zero of three; the Mar-214K "count #1" no longer heads a live streak). LAB-02 ❌ formally. Claims same-morning 215K = no realization confirmation. KELYA $13.00 shrug → §2 verdict stands. Missing-branch gap → L-06.
 
 ### Jul 6 (Mon, modeled) — ISM Services PMI June
 
