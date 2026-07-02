@@ -195,3 +195,5 @@
 - [EDGAR FTS Refutes Trade-Press Negatives](finding_edgar_fts_refutes_tradepress_negatives.md) — refute pricing/event negatives via EDGAR full-text before grading
 - [Deep-Research Slate Mining](finding_deep_research_slate_mining.md) — mine self-flagged gaps; adversarial-verify slate
 - [Ratio-Gauge Denominator Branch](finding_ratio_gauge_denominator_branch.md) — grade ratio thresholds jointly w/ denominator; pre-register artifact branch
+- [Flow Sign vs Program Direction](finding_flow_sign_vs_program_direction.md) — rotation sell-leg ≠ abandonment; check stated program first
+- [Self-Stamp Estimate Drift](finding_selfstamp_estimate_drift.md) — stamp from `date`; trust git clock over prose stamps
