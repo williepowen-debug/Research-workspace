@@ -17,7 +17,7 @@
 | Pre-scrub mirror backup | `~/Research-workspace-PRESCRUB-BACKUP-20260630.git` | ❌ | ✅ (created 6/30; verified 7/2) | the history-scrub rollback net lives on the DESKTOP — locate it there before deleting post-public-flip |
 | `gh` CLI | `gh` | ❌ | 🟡 `/usr/bin/gh` installed but **UNAUTHENTICATED** (`gh auth login` needed; verified 7/2) | GitHub API/PR/secrets ops unavailable until authed; plain git works (credential store ✅ both boxes) |
 | Git identity (fresh clones) | repo-local `user.name/email` | main repo ✅ · new clones ❌ until set | ✅ | commits in a NEW clone fail "empty ident" — set repo-local from the main repo (done for Research-Intake 7/1) |
-| FRED API key | `~/.bashrc` export + `FORGE/tools/market-data/.env` (gitignored) | ✅ both — **OLD (history-exposed) key** (wired 7/1) | ✅ both — **NEW key (created 7/2)**, installed + live-verified 7/2 | all FRED pulls fail loud when absent (hardcoded copies scrubbed from 10 files 7/1, public-prep). **Rotation IN PROGRESS (7/2): Will created a new key; desktop runs it. Before deleting the old key, TWO consumers must swap: (1) laptop `.bashrc` + `.env` lines (next laptop visit); (2) the RESEARCH-INTAKE GitHub Actions secret `FRED_API_KEY` (set ~6/29 = old key; repo Settings → Secrets → Actions, or `gh secret set` once gh is authed) — deleting the old key first would break the machine-independent HY watch. Then DELETE the old key at fred.stlouisfed.org** — kills the history-exposed literal, closes the pre-flip rotation item |
+| FRED API key | **single home: `FORGE/tools/market-data/.env` (gitignored).** bashrc copies retired 7/2 — systemd units never read `~/.bashrc`, every loader falls back to the `.env`, and two homes = rotation drift (env_doctor flags bashrc copies) | `.env` + `.bashrc` — **OLD (history-exposed) key** (wired 7/1; **delete the bashrc export line at swap**) | ✅ `.env` only — **NEW key (created 7/2)**, env-stripped-verified 7/2 | all FRED pulls fail loud when absent (hardcoded copies scrubbed from 10 files 7/1, public-prep). **Rotation IN PROGRESS (7/2): desktop runs the new key. Before deleting the old key, TWO consumers must swap: (1) laptop — new key into its `.env` AND delete its `~/.bashrc` export line (single-home canon); (2) RESEARCH-INTAKE GitHub Actions secret `FRED_API_KEY` (set ~6/29 = old key; repo Settings → Secrets → Actions, or `gh secret set` once gh is authed) — deleting the old key first would break the machine-independent HY watch. Then DELETE the old key at fred.stlouisfed.org** — kills the history-exposed literal, closes the pre-flip rotation item |
 
 ## Switching checklist (Will)
 1. **Leaving a machine:** close out every agent session (closeout runs `safe-push.sh`) → confirm `git status -sb` = `## master...origin/master` (0/0, nothing stranded).
@@ -26,6 +26,7 @@
 
 ## Session diagnosis one-liners
 ```bash
+python3 "$(git rev-parse --show-toplevel)/scripts/env_doctor.py"   # one-shot: keys + machine-local extras (PROME boot gate runs it --quiet)
 hostname                                                  # which box am I on?
 systemctl --user list-timers --all | grep -i liquid       # HY timer here?
 ls ~/.config/kalshi/ 2>&1                                 # kalshi creds here?
@@ -33,4 +34,4 @@ ls -d ~/Research-Intake 2>&1                              # intake clone here?
 ```
 
 ## Standing rule
-Anything new that lives **outside the repo** — a credential, timer, cron, local clone, backup, CLI tool an agent depends on — **gets a row here at creation time.** That's the price of admission for machine-local infrastructure. Prefer machine-independent homes (the RESEARCH-INTAKE GitHub-Actions pattern) for anything load-bearing between sessions ([[finding_passive_surface_rot_push_not_dashboard]]).
+Anything new that lives **outside the repo** — a credential, timer, cron, local clone, backup, CLI tool an agent depends on — **gets a row here at creation time.** That's the price of admission for machine-local infrastructure. Prefer machine-independent homes (the RESEARCH-INTAKE GitHub-Actions pattern) for anything load-bearing between sessions ([[finding_passive_surface_rot_push_not_dashboard]]). **`scripts/env_doctor.py` (PROME boot gate) encodes the machine-checkable subset of this inventory** — when adding a required key or a desktop-expected item here, add it to the script's manifest too.

@@ -49,6 +49,7 @@ Canonical doc-ownership / trust map: `PROME/SYSTEM.md` → **Boot Trust Stack** 
    - Explicit-`Read` `HEARTBEAT.md` (PROME-facing regime memo — not auto-injected).
    - If today is a weekend/holiday or markets are closed, use it as **orientation only** and preserve its observation dates.
    - Before citing any level as current, run the market dashboard / fetch tool.
+   - **Env doctor:** `cd "$(git rev-parse --show-toplevel)" && python3 scripts/env_doctor.py --quiet` — machine-local key/infra presence (<1s, no network): FRED/EIA keys in the single-home `.env`, bashrc two-home drift, expected desktop extras. **rc=1 (✗) ⇒ fix or flag to Will before citing FRED-dependent levels.** Inventory canon = `PROME/MACHINE_LOCAL.md`.
    - **Fire-time gate:** `cd "$(git rev-parse --show-toplevel)" && python3 scripts/firetime_check.py --window 7 --quiet` — checks fire-path artifacts cited by `PROME/DOCKET.tsv` rows ≤7d out (dead pointers / date drift / canon-ordering). **A DATE flag ⇒ full logic re-read of the artifact** (a date fix can break gate sequencing — 7/1 WAL case), never a find-replace.
 6. **Decide conditional reads:**
    - `PROME/FLEET_SCAN.md` only for fleet/market-state work, stale-state risk, or Will-requested audit.
