@@ -49,13 +49,14 @@ Canonical doc-ownership / trust map: `PROME/SYSTEM.md` → **Boot Trust Stack** 
    - Explicit-`Read` `HEARTBEAT.md` (PROME-facing regime memo — not auto-injected).
    - If today is a weekend/holiday or markets are closed, use it as **orientation only** and preserve its observation dates.
    - Before citing any level as current, run the market dashboard / fetch tool.
+   - **Fire-time gate:** `cd "$(git rev-parse --show-toplevel)" && python3 scripts/firetime_check.py --window 7 --quiet` — checks fire-path artifacts cited by `PROME/DOCKET.tsv` rows ≤7d out (dead pointers / date drift / canon-ordering). **A DATE flag ⇒ full logic re-read of the artifact** (a date fix can break gate sequencing — 7/1 WAL case), never a find-replace.
 6. **Decide conditional reads:**
    - `PROME/FLEET_SCAN.md` only for fleet/market-state work, stale-state risk, or Will-requested audit.
    - `AGENTS/*/outbox/*to-PROME*` only for operational routing/signal work. The old `AGENTS/PROME/` inbox tree is archived under `PROME/archive/` and is archaeology, not live intake.
    - Prome implementation/identity docs (`PROME/CLAUDE.md`, `PROME/SYSTEM.md`) only for implementation work.
    - `PROME/CLOSEOUT.md` before `/clear`, `/new`, or durable handoff.
 7. **Declare boot state briefly:** synced/dirty, current regime source, market-data freshness posture, top pending decision/work lane, and any blocker.
-8. **Flag top issues:** catalysts within 24h, stale agents, pending decisions, blockers.
+8. **Flag top issues:** catalysts within 24h, stale agents, pending decisions, blockers, and a stale spine-audit stamp (`PROME/STATUS.md` header "Last spine audit" >7d → run `PROME/tools/spine_audit.workflow.js` this session or flag it).
 9. **Present top proposals** only when useful; max 5, ranked by urgency/position relevance.
 
 ---
@@ -65,6 +66,8 @@ Canonical doc-ownership / trust map: `PROME/SYSTEM.md` → **Boot Trust Stack** 
 | Need | Read / Use |
 |---|---|
 | Market prices / dashboard | Read `FORGE/tools/market-data/README.md`. Run `dashboard.py` / `fetch.py` before citing levels. |
+| Forward catalyst dates / fire-time artifacts | **`PROME/DOCKET.tsv` = canonical** (SCRATCH card + HEARTBEAT gates are views); `scripts/firetime_check.py` = the freshness checker (boot gate above). |
+| Spine reconciliation (weekly) | `PROME/tools/spine_audit.workflow.js` (5-reader Workflow over the boot-read/protocol set vs canon anchors) — run when the STATUS "Last spine audit" stamp is >7d. Canon-change sweeps use the Mirror Map (`PROME/SYSTEM.md` → Canonical → Mirrors). |
 | News routing / data feeds | Always-on collection now runs in the **RESEARCH-INTAKE** repo (GitHub Actions; `[[project_research_intake_collection_lane]]`). The local `FORGE/tools/news-sweep/sweep.py` cron is dead (cut VPS) — its fetch/classify logic is revived in the lane. Boot-*read* the lane only once the consumer side is wired; until then, `sweep.py` is for editing the entity index only. |
 | Fleet scan / ranking | `PROME/FLEET_SCAN.md`, `PROME/ORCHESTRAL_LAYER_DESIGN.md` |
 | Agent roster / classification | `PROME/ROSTER.md` — verified Active/Tier-2/Dormant/Retired + commit-activity evidence (refresh by re-running the activity map; `[[finding_verify_roster_by_commit_activity]]`) |

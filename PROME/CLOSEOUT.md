@@ -51,6 +51,7 @@ Closeout is the **write-back tail** of boot (auto-memory `[[finding_closeout_as_
 | `STATUS.md` | boot: health/queue read | Chunk 1 — surgical |
 | `HEARTBEAT.md` | boot: market-data / regime gate (step 5) | per Write-Back Contract — update after a regime-level change or >48h stale (market week); **commit is Will-gated** (shared doc) |
 | `memory/YYYY-MM-DD.md` | on-demand | Chunk 2 — create/append |
+| `PROME/DOCKET.tsv` | boot: fire-time gate input (step 5) | Chunk 1 — paired with the operator card: any catalyst date that moved/resolved this session updates its DOCKET row (canonical; SCRATCH/HEARTBEAT are views) |
 
 **Intentionally one-way (no closeout write-back, by design):**
 - `FLEET_SCAN.md` — conditional boot read; refreshed *on demand* by the fleet-scanner subagent, never at closeout.
@@ -70,6 +71,7 @@ Use this as the manual write-back feature. Do not auto-edit every surface; updat
 | Non-terminal decision state | `PROME/ACTIVE_DECISIONS.md` | Surgical row update; if unknown, mark `DEFERRED` / reconcile, never infer execution. |
 | Agent/system health or work queue | `PROME/STATUS.md` | Surgical update; avoid repeating HEARTBEAT/SCRATCH market narrative. |
 | Regime/thresholds/near gates | `HEARTBEAT.md` | PROME **owns the content** — update after regime-level changes or when >48h stale (market week). But `HEARTBEAT.md` is a **shared doc — committing it is Will-gated** (root `CLAUDE.md`): scope it + get Will's OK, don't sweep it into your `PROME/` closeout commit. |
+| Forward catalyst date moved / resolved / slid | `PROME/DOCKET.tsv` | Update the row (canonical) **and run `scripts/firetime_check.py` on its citing artifacts** — a date change can break artifact logic (7/1 WAL sequencing case): full re-read on any flag. |
 | Daily activity / file changes | `memory/YYYY-MM-DD.md` | Append durable session log. |
 | Durable insight / lesson | `MEMORY.md` or auto-memory | Promote sparingly; avoid activity logs. |
 
@@ -150,6 +152,9 @@ Format: frontmatter (name, description, type) + body. For `feedback` / `project`
 Run only if specific triggers fired this session:
 
 - **Doc-ownership drift:** if a file was retired or created, update the Boot Trust Stack in `PROME/SYSTEM.md` (BOOT.md just points there)
+- **Canon-doc change → mirror sweep:** if a **canonical** doc changed this session (git/push protocol, machine model, HY-watch mechanism, position truth, roster, docket, trigger bands), walk its row in the **Mirror Map** (`PROME/SYSTEM.md` → Canonical → Mirrors) and verify each listed mirror BEFORE commit — deterministic sweep, not grep-and-hope. Canonical wins on drift.
+- **Docket change → fire-time re-check:** if a `PROME/DOCKET.tsv` row changed, run `python3 scripts/firetime_check.py` on that row's citing artifacts; any DATE flag ⇒ full logic re-read (never find-replace).
+- **Weekly spine audit:** if the `PROME/STATUS.md` header "Last spine audit" stamp is >7d old at closeout, run `PROME/tools/spine_audit.workflow.js` (or explicitly hand it to next boot in SCRATCH).
 - **Design-doc feedback:** if a prototype produced learnings, update the relevant design doc OR park as a v_next todo in SCRATCH — pick one home, not both
 - **Autonomy change:** if Will granted/revoked permission, update the `PROME/AUTONOMY.md` change log **AND** propagate any behavior-changing grant/revoke into the auto-loaded `PROME/CLAUDE.md` "Ask First / Do Not Do Autonomously" section — that's the surface boot actually reads (BOOT.md does not read `AUTONOMY.md`; the change-log alone never reaches the next boot)
 - **Spawned teams-mode agents:** if you named/teams-mode-spawned agents this session, **release them** (`shutdown_request`) at closeout — never park them warm across the boundary (same-name collision + cleanup-sweep-kill risk, `[[feedback_warm_parked_agent_collision]]`). Workflow / one-shot subagents auto-complete; this applies only to named spawns.
