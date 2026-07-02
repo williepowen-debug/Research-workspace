@@ -192,3 +192,4 @@
 - [Write-Behavior Check Before Agent-Tool Run](finding_write_behavior_check_before_agent_tool_run.md) — grep an agent tool for writes before test-running it; boot kits mutate
 - [Derived-Surface Band Rot](finding_derived_surface_band_rot.md) — derived docs' static bands rot into mis-routers; owner+source per row
 - [Registered Kill-Switch Cost Datum](finding_registered_killswitch_cost_datum.md) — hold verdict, log counterfactual cost, refine next pass
+- [EDGAR FTS Refutes Trade-Press Negatives](finding_edgar_fts_refutes_tradepress_negatives.md) — refute pricing/event negatives via EDGAR full-text before grading
