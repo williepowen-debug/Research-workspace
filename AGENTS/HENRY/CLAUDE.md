@@ -39,8 +39,8 @@ You own the "velocity" layer — when stress from other agents (LABOR employment
 9. **Before finishing → overwrite `LAST_COMPLETION.md`** — Will-facing session closeout. Sections: header (session label + status), CHANGED (files), RESULT (one line), Session Work, GAPS / Still pending, COMMITS (hashes + messages), NEXT SESSION FOLLOW-UP (catalyst dates Will cares about), THESIS SNAPSHOT (frozen at close), WILL_NEEDS. **Audience: Will reads after close. Overwritten each session.**
 
 **Role split — do not duplicate:**
-- `LAST_COMPLETION.md` = Will closeout. Session-scoped, session-overwritten. Commits, thesis snapshot, explicit asks.
-- `MEMORY.md` = HENRY cross-session notebook. Cumulative Feedback/Findings/References. Session Notes rotate (only last kept). No commit lists, no thesis snapshot (those live in LAST_COMPLETION / STATUS).
+- `LAST_COMPLETION.md` = Will closeout. Session-scoped, session-overwritten. Commits, thesis snapshot, explicit asks. **This is a DELIBERATE Will-facing close summary — NOT the fleet-retired session-handoff pattern (that role is `MEMORY.md`). Do not "retire" it on a protocol audit** (documented per PROME 2026-06-27 audit; `[[finding_documented_divergence_as_discipline]]`).
+- `MEMORY.md` = HENRY cross-session notebook + the canonical session HANDOFF (CHANGES SINCE / NEXT SESSION). Cumulative Feedback/Findings/References. Session Notes rotate (only last kept). No commit lists, no thesis snapshot (those live in LAST_COMPLETION / STATUS).
 
 ### Git (when asked to commit/push)
 Follow root `CLAUDE.md` Git Protocol. Key rules for HENRY:

@@ -1,30 +1,29 @@
 # HENRY — NEXUS Brief
 
-**Status:** 🟠 — Soft-kill REVERSED: cyclical axis RE-ARMED on a hawkish-but-stagflationary FOMC (6/17), and a NEW positioning-unwind axis opened (AI/semi, 6/22-23); structural credit bifurcation accelerating + alts now expressing stress
-**Domain:** US market structure + macro data (CPI/PPI/PCE/ISM/NFP) + vol regime (gamma/0DTE layer; VIOLET owns vol broadcast) + equity positioning. Edges: receives energy→CPI (BRENT), vol regime (VIOLET), carry/BOJ (SAM), employment (LABOR); sends term-premium (LIQUID), credit-equity (REGINALD/BROCK), wealth-effect (CARL)
-**Recent thesis pivot:** Cyclical SOFT-KILL (6/15, soft core CPI) → cyclical RE-ARM (6/17 hawkish FOMC dots flipped cut→hike) + positioning-unwind axis (6/22-23 AI/semi). The dominant near-term driver is now market-structure/positioning, not a macro print.
-**As of:** 2026-06-23 ~1:10 PM ET (8-day post-FOMC catch-up boot) | STATUS: live, uncommitted→committing locally (push Will-coordinated); regime rewritten from the 6/15 soft-kill read
+**Status:** 🟠 — Calm surface, coiling spring: the late-June AI/semi scare resolved BENIGN (record quarter, VIX crushed, month-end absorbed, cascade didn't fire), but three fault lines are WIDENING beneath — credit bifurcation off the tights, the AI-capex-correction thesis deepening (DRAM/HBM relapse), and FX stress (USD/JPY 40-yr high + SKEW 154.8)
+**Domain:** US market structure + macro data (CPI/PPI/PCE/ISM/NFP) + vol regime (gamma/0DTE layer; VIOLET owns vol broadcast) + equity positioning + **AI-capex/semiconductor supply-chain SHOCK SOURCE** (new, PROME/Will 6/27 — TSMC/HBM/chip-war). Edges: receives energy→CPI (BRENT), vol regime (VIOLET), carry/BOJ (SAM), employment (LABOR), credit-substance (LIQUID/BROCK); sends term-premium (LIQUID), credit-equity (REGINALD/BROCK), wealth-effect (CARL)
+**Recent thesis pivot:** post-FOMC re-arm + positioning-unwind (6/23) → **cascade RECEDED but thesis DEEPENED (7/1)**. The literal vol-control cascade (HEN-35) is losing (VIX never hit 23, records printed); the AI-capex-correction MECHANISM strengthened (threshold-vs-thesis split). Cyclical validated but not accelerating (May PCE in-line).
+**As of:** 2026-07-01 ~11:05 PM ET (8-day EOD catch-up boot; STATUS live, committing locally + auto-push at closeout)
 
 ---
 
 ## VIEW
 
-- **FOMC 6/17 — Fed HELD 12-0 at 3.50-3.75% but the SEP turned HAWKISH-OF-PRICING** (Warsh debut): dots flipped cut→hike bias (2026 median **3.8%** vs 3.4% Mar; 9/18 favor a hike), **PCE↑3.6% / GDP↓2.2%** (stagflationary), forward guidance dropped. ⚠️ **NOT a rate hike — the Fed HELD; the DOTS flipped.** (WALTER's board shorthand "cut→HIKE 6/17" reads like an action but means the dots/pricing flip; SAM/RED/REGINALD read it correctly.) The hawkish surprise hit the **2Y (+15bps, biggest Fed-day move since Mar 2008)**; **10Y fell −3bps** → curve flattening. HEN-33 = MISS on the 10Y vehicle, right on direction.
-- **NEW dominant driver — AI/semi positioning unwind (6/22-23).** KOSPI **−9.99%** ("Black Tuesday") on SK Hynix slowing HBM/AI-memory capex → MU −11% (into 6/24 earnings), SMH −6.5%, NVDA −3.2%. Crowded-trade unwind into record concentration (semis 18.8% of S&P, AI **~45%** [corrected from "47%"]) + record leveraged-ETF positioning + dealer negative gamma 7,500-7,375 (WALTER) + JPM ~$165B month-end rebalance. **So far a ROTATION** (small-caps/value/Russell record >3,000 cushioning, VIX 18.95 < the 23 vol-control trigger), not a cascade.
-- **Structural credit bifurcation ACCELERATING + alts now EXPRESSING.** CCC−BB **791** [FRED 6/22] (ratio 6.07×, Δ5d +13) — widening again. HY headline **265 — AT the HEN-30 trigger, 5bps from the 260 kill** (complacent vs the equity de-rate = no credit-equity transmission yet). **The "alts = no public stress" tell BROKE this week** (ARES −15%/APO −7%) — the structural axis is starting to transmit via the PC/alts complex ahead of late-Jul BDC Q2 marks.
-- **Energy = the disinflationary cross-current under the hawkish dots.** Brent **$77** (Hormuz reopened + US Treasury Iran-crude license, BRENT). The dots were set on hot MAY energy now collapsed → **May PCE 6/25 + June CPI Jul 14 = the inverse-feedback test.**
+- **The scare resolved BENIGN, near-term.** MU beat huge (6/24, HBM "fully booked" >2027); the JPM ~$165B month-end rebalance was ABSORBED (dip-bought); **SPX made a RECORD 6/30 close (7,499, best quarter since 2020)** with VIX crushed 18.95→16.45. **The >23 vol-control trigger was NEVER threatened** (VIX peaked 19.49) → the mechanical cascade layer never engaged. Contained-rotation won (Russell fresh records, best H1 since '91) — RED's benign frame more right than the cascade fear (data-right/positioning-early).
+- **But the coiled spring got MORE coiled.** (1) **Credit WIDENING off its tights** — HY 265→**278** [6/25]→**275** [6/30]; my 6/23 "at the 260 soft-kill" read was INVERTED (PROME-corrected; **LIQUID independently confirms** the 283→275 widening + the <260 kill "off the table"). CCC−BB **806** (Δ20d +23, accelerating). (2) **AI-capex-correction thesis DEEPENED** even as the flow-cascade receded — **DRAM/HBM relapse 7/1** (SOX −6.3%, MU gave back its ENTIRE earnings pop on a DRAM antitrust suit; NVDA/logic held → memory-specific), hyperscaler-FCF-cliff, DEWEY-confirmed circular vendor-financing (CoreWeave debt 25.8% of rev), ex-AI Q1 GDP ~contracted. (3) **FX stress** — USD/JPY **162.5** (40-yr high, through the flagged 162 intervention line) + **SKEW 154.8** vs VIX 16.6 (extreme tail bid).
+- **Cyclical VALIDATED but not accelerating.** May PCE core +0.3% (HEN-34 HIT, hawkish-validation) confirmed the 6/17 dots — but **in-line = no fresh repricing**. July-29 FOMC hold heavily priced (~70-81%); hike risk pushed to **Sep/Oct**, not July. The inverse-feedback test is DEFERRED to **June CPI 7/14** (first CPI with the Brent $71 collapse in it).
 
 ---
 
 ## CALIBRATION
 
-- **Conviction:** direction-MEDIUM (re-arm real but fragile — hawkish Fed into collapsing energy) · timing-MEDIUM (the unwind is live; MU 6/24 / PCE 6/25 / month-end 6/30 are the near gates) · level-MEDIUM
-- **Diverge from market by:** the consensus reads the hawkish dots as the story; HENRY's read is the dots are FRAGILE — set on hot May energy that has since collapsed, so a soft June CPI (Jul 14) makes them look like over-tightening into a slowdown (GDP already cut to 2.2%). The live risk is the POSITIONING unwind, not the macro path. Also: a hawkish-into-slowing Fed FLATTENS — own the 2Y, not the 10Y (HEN-33 lesson).
-- **Cross-agent tensions known to me:** None active. VIOLET refreshed concurrently (6/23, `1e0465b7`) and CONVERGES with my vol read ("regime rotated not broken"; tail rotated Iran/yen→Path-B coiled-spring). Minor: she carries the unverified "$464bn"/"47%" froth figures my research corrected (~45%/quantum-unverified) — directionally aligned, not a tension.
-- **Uncertain about:** (1) does the AI/semi unwind broaden to a vol-control cascade (HEN-35) or stay a rotation — my lane, unresolved; (2) does May core PCE validate or undercut the hawkish dots (HEN-34); (3) 0DTE share — standing gap; but GEX/gamma-flip now PARTIALLY SOURCED 6/23 (flip ~7,448, SPX below it → negative-gamma CONFIRMED, Net GEX ~−$25 to −$49B; free trackers conf 0.75).
-- **Failure patterns:** tenor-anchoring on a flattening hawkish surprise (HEN-33, now in LESSONS) · stunning secondary claim needs primary verify (the "Fed hiked" catch) · data-right/positioning-early — see LESSONS + `workbook/PREDICTIONS.tsv`.
-- **RED counter-frame:** the rotation is benign — small-caps/value at records, VIX <23, credit tightening; the AI wobble is healthy breadth-broadening, not a top. My response: maybe — but record concentration + record leveraged-ETF + negative gamma + a $165B month-end rebalance is the exact dry-tinder setup where a rotation becomes a cascade; I hold HEN-35 at 30%, not dismissed.
-- **Type B convergence candidate I'm flagging:** the SAME weakest-cohort K-split is now surfacing in 4 places AND starting to transmit — public CCC bifurcation (791) + BROCK private-credit stress + the alts complex cracking (ARES/APO) + AI-displacement exposure in PC (UBS 25-35%). NEXUS: the structural axis's transmission trigger (alts leading CCC wider into the late-Jul marks) may be firing now.
+- **Conviction:** direction-MEDIUM (thesis deepening but near-term benign) · timing-MEDIUM-LOW (cascade receded; next tests 7/2 NFP, 7/14 CPI, late-Jul FCF) · level-MEDIUM
+- **Diverge from market by:** the tape prices the record quarter as an all-clear; HENRY reads a calm surface over widening cracks (credit off its tights, AI-capex fundamentals deteriorating beneath a memory-led equity bounce, FX at a 40-yr extreme). The literal cascade receded — but the *mechanism* (froth/capex-correction) is fundamentally deeper, not resolved. Early, not wrong.
+- **Cross-agent tensions known to me:** None active. **LIQUID CONVERGES** on credit (283→275 widening, soft-kill dead). **SAM's JGB-disorderly carry route = a THIN TAIL** (RED CH-011 downgrade 6/30 — not a named trigger); carry buckets unchanged. VIOLET owns the vol broadcast (I hold SKEW/gamma in-domain).
+- **Uncertain about:** (1) does the AI-capex correction show in late-Jul Q2 hyperscaler FCF actuals (HEN-36) or stay a narrative; (2) does June CPI (7/14) trigger the inverse-feedback (soft energy → dots look like over-tightening); (3) 0DTE share standing gap; GEX: SPX 7,483 back ABOVE the ~7,448 flip → likely positive-gamma/dampening (repull on trade spawns).
+- **Failure patterns caught this session:** the 6/23 credit read was INVERTED (called it "compressing to the 260 soft-kill"; it was widening to 278) — PROME + LIQUID both corrected. Lesson: re-verify a load-bearing cross-agent number against primary/owner before framing direction. Plus threshold-vs-mechanism honesty (HEN-35 cascade ≠ the AI-capex thesis).
+- **RED counter-frame (still live, partly vindicated):** the rotation is benign — records, VIX <23, breadth broadening. My response: near-term RED was right (no cascade) — but record concentration + $884B inflows + circular AI-financing + credit bifurcating is the dry-tinder that turns a rotation into a cascade on a catalyst; I hold the thesis (HEN-36 ~55%) while marking the literal cascade down (HEN-35 ~15%).
+- **Type B convergence I'm flagging:** the AI-capex-correction is now visible in 4 independent places AND grounded fundamentally — DRAM/HBM equity relapse + hyperscaler FCF cliff + DEWEY circular-financing (EDGAR) + tech now 8.3% of HY (credit conduit). NEXUS: the froth axis is transitioning from "flow air-pocket" to "fundamentally-grounded capex correction."
 
 ---
 
@@ -34,28 +33,28 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
-| PROME / RED | **AI/semi positioning unwind is the live driver** (KOSPI −9.99%, record SOXL-out/SOXS-in, MU −11%) into a negative-gamma/levered-ETF/month-end-fragile tape; rotation-not-cascade so far (VIX 19<23) — HEN-35 @30% | 🟠 | Macro risk-state: the near-term tail is a mechanical positioning cascade, not a data print |
-| REGINALD / BROCK | **Alts complex CRACKING (ARES −15%/APO −7%)** — the "no public stress" tell broke; CCC−BB 791 widening. The structural K-split is starting to transmit ahead of late-Jul BDC Q2 marks | 🟠 | Public + alts-equity corroboration of private-credit stress now moving together; transmission watch |
-| LIQUID | FOMC repriced the **front end** (2Y +15bps), 10Y anchored (−3bps) → curve flattened; HY 265 at the kill-zone but complacent. Energy collapse ($77) = disinflationary term-premium input | 🟡 | Duration/term-premium channel; the hawkish surprise is a 2Y story, not a 10Y term-premium one |
-| SAM | USD/JPY 161.6 — through 160 into the 161-162 intervention zone; HENRY weights the Fed-hike-2026 path + watches for a VIX-spike that re-couples the yen-haven channel (your SAM-31) | 🟡 | Carry/intervention watch; a VIX>23 spike could restore the yen-haven risk-off route |
-| BRENT | oil→CPI premise confirmed FAILING at $77 — feeding HEN-34 (May PCE 6/25) + the Jul-14 June-CPI inverse-feedback test you flagged | 🟡 | Energy-component direction; the hawkish dots' inflation premise is eroding |
+| PROME / RED | **Cascade RECEDED (HEN-35 ~15%) but AI-capex thesis DEEPENED (HEN-36 ~55%)** — record quarter, VIX crushed, month-end absorbed; but DRAM/HBM relapse + FCF cliff + circular financing = fundamentally-grounded correction, not a flow air-pocket | 🟠 | Macro risk-state: near-term benign, but the froth axis is now a fundamental (capex) story with a supply-chain shock source (TSMC/HBM) |
+| LIQUID / BROCK | Credit WIDENING off tights (HY 265→278→275, CCC−BB 806, accelerating); tech now 8.3% of HY = AI→credit conduit; alts still cracked (APO −10%) | 🟠 | Confirms LIQUID's X1-half tag + the K-split; late-Jul BDC Q2 marks = the transmission test |
+| LABOR | ADP soft +98K (7/1) into the 7/2 NFP (~+115K cons); a miss = first crack in the labor-solid narrative propping July-hold pricing | 🟠 | Employment→Fed-path: a soft NFP shifts the Sep/Oct hike odds (the tradeable tension), not the July hold |
+| SAM | USD/JPY 162.5 through the flagged 162 intervention line (40-yr high); intervention-risk, not yet a carry unwind (yen-haven decoupled) | 🟡 | Carry/intervention watch; JGB auctions 7/7/7/22 = precursors; a VIX spike that re-couples yen-haven (SAM-31) is the tail route |
+| BRENT | oil→CPI premise: Brent $71 (−11% wk) = the disinflationary leg; **June CPI 7/14 is where it shows** — the inverse-feedback test proper on the hawkish dots | 🟡 | Energy-component direction; a soft June core makes the 3.8% dots look like over-tightening |
 
 **WAITING FOR:**
 
 | From | Input | Expected by | Why it matters | How it changes my view |
 |------|-------|-------------|----------------|------------------------|
-| VIOLET | ✅ DELIVERED 6/23 (`1e0465b7`) — converges: VIX 18.89, M1:M2 +6.54% normalized, SKEW popped 146.72 on 6/18 (compression-divergence fired), COT specs covered into the spike → ELEVATED_LONG | done | The coiled-spring (KB-VIO-099) resolving via spot rising to SKEW | Confirmed: vol re-bid on the AI-unwind, tail rotated to Path-B (structural froth) |
-| BRENT | June-CPI energy direction (does the Brent $77 collapse soften the print) | June CPI Tue Jul 14 | The inverse-feedback test on the hawkish dots | Sustained energy deflation → dots look like over-tightening, front-end eases |
-| BROCK | PC/BDC Q2 forced marks | late Jul | The structural-axis transmission test — alts already cracking ahead of it | Marks confirm → K-split transmitting to equity |
-| LABOR | late-July claims (WARN +16.3% feeds ~6wk lag) | late Jul | The realization-break timing (Q3) | Claims >250K → structural-bid-break path re-opens |
+| LABOR | June NFP (7/2 8:30am) vs ~+115K; ADP soft +98K into it | Thu 7/2 | HEN-37 — the near labor tell | Miss → labor-crack, front-end eases, cascade path re-opens |
+| BRENT | June CPI energy direction (7/14) | Tue 7/14 | The inverse-feedback test proper (first CPI with Brent $71) | Soft core → dots look like over-tightening; hot → H-4-L hardens |
+| BROCK | Q2 hyperscaler FCF actuals + PC/BDC marks | late Jul (7/29-31) | HEN-36 fundamental gate + structural transmission | FCF compresses + marks widen → the capex-correction/K-split confirmed |
+| VIOLET | Vol-regime call (she owns the broadcast) | next sync | The SKEW-154/VIX-16.6 coiled-spring classification | Confirms whether the tail bid is hedging-flow or a genuine warning |
 
 ---
 
 ## NEXT DECISION POINT
 
-- **What:** Track the positioning unwind (HEN-35) + log May PCE (HEN-34). Does the AI/semi unwind broaden to a vol-control cascade (VIX >23) or wash out on MU 6/24 / PCE 6/25?
-- **When:** MU earnings Wed 6/24; May PCE Thu 6/25; month-end Mon 6/30 ($165B rebalance).
-- **What would change the view:** VIX sustained >23 = vol-control arms → cascade path (HEN-35 fires); MU beat + soft May PCE = unwind washes out, cyclical re-arm consolidates without transmission.
+- **What:** Does the AI-capex correction go fundamental (HEN-36) and does June CPI trigger the inverse-feedback (HEN-34's deferred test)? Track whether the calm surface holds or a catalyst breaks it into the neg-gamma/SKEW-154 tape.
+- **When:** NFP Thu 7/2 8:30am; June CPI Tue 7/14; late-Jul hyperscaler FCF + BDC marks (7/29-31).
+- **What would change the view:** a 7/2 NFP miss or hot 7/14 CPI into VIX-16.5/SKEW-154 = the cascade path re-opens (HEN-35); late-Jul FCF compression = HEN-36 confirms the capex correction is real.
 
 ---
 
@@ -63,13 +62,14 @@
 
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
-| 🔴 Wed 6/24 | MU (Micron) earnings | The AI-memory-demand pivot — extends or washes out the chip/positioning unwind (HEN-35) |
-| 🔴 Thu 6/25 | May PCE (+ GDP 3rd est, Durable Goods, claims) | HEN-34 — core ≥+0.3% hardens the hawkish dots; ≤+0.2% starts the inverse-feedback |
-| 🟠 Mon 6/30 | Quarter-end + JPM ~$165B global rebalance-selling | Flow accelerant into a negative-gamma/levered-ETF tape (HEN-35 cascade path); Conf Board Confidence |
-| 🟠 Tue 7/14 | June CPI | First CPI with the Brent $77 energy collapse in it — BRENT inverse-feedback test |
-| 🔴 Thu 7/17 | July opex | HEN-35 resolution window (cascade-vs-rotation) |
-| 🟠 ~late Jul | BDC Q2 + WAL Q2 marks | Structural-axis transmission test — alts already cracking ahead of it |
+| 🔴 Thu 7/2 | June NFP (8:30am, moved up for July-4) | HEN-37 — ~+115K cons, ADP soft +98K into it; miss = labor-crack |
+| 🟡 Mon 7/7 | 30Y JGB auction | SAM-adjacent; weak tail = global duration/US-rates read |
+| 🔴 Tue 7/14 | June CPI + big-bank earnings kickoff | The energy inverse-feedback test proper (first CPI with Brent $71); compound vol risk w/ bank prints |
+| 🟡 Tue 7/22 | 40Y JGB auction + GOOGL earnings | JGB long-end tail + first mega-tech print |
+| 🟠 Tue-Wed 7/28-29 | FOMC (NO SEP/dots) | hold ~70-81% priced; the story is dots-vs-pricing if 7/2+7/14 shift Sep/Oct odds |
+| 🔴 7/29-31 | Mega-tech earnings (MSFT/META 7/29, AAPL 7/30, AMZN ~7/30-31) | HEN-36 gate — Q2 hyperscaler FCF actuals (does the capex-cliff show?) |
+| 🟠 ~late Jul | BDC Q2 + WAL Q2 marks | Structural-axis transmission test — alts already cracked ahead |
 
 ---
 
-*Brief format follows the NEXUS_BRIEF schema (R3 + amendment 7). Updated at every HENRY session closeout per SPAWN PROTOCOL discipline. This 2026-06-23 refresh: full regime rewrite from the 6/15 soft-kill read to the post-FOMC re-arm + positioning-unwind read; FOMC fact-base correction (Fed HELD, dots flipped) for the fleet.*
+*Brief format follows the NEXUS_BRIEF schema (R3 + amendment 7). Updated at every HENRY session closeout per SPAWN PROTOCOL discipline. This 2026-07-01 refresh: full regime update from the 6/23 post-FOMC re-arm to the 7/1 "cascade-receded, thesis-deepened" read; credit-direction correction (widening, not soft-kill) folded with LIQUID convergence; HEN-36 (AI-capex fundamental + supply-chain source) + HEN-37 (NFP) added.*
