@@ -17,6 +17,7 @@ Checks:
   board_reconcile        ToC == section headers == SIG rows == files on disk
   log_reconcile          route_log / delivery_log SIG-ids ↔ BOARD files (orphans / missing)
   cron_liveness          3 boot-triage feeds (step 7c) vs cadence
+  intake_liveness        RESEARCH-INTAKE lane liveness.json staleness/health (step 7e consumer backstop)
   cushing_capability     EIA .env / key present → Boundary-#3 (Cushing) auto-fire live (silent-death guard)
   outbox_age             all staged outbox files (REQ-* >14d retry; drafts surfaced)
   registry_staleness     Tier-1 REGISTRY rows with Updated >14d
@@ -35,6 +36,7 @@ Informational, never a boot gate. Stdlib only. Add checks by appending to CHECKS
 """
 import csv
 import datetime as dt
+import json
 import re
 import subprocess
 import sys
@@ -221,6 +223,52 @@ def check_cron_liveness():
                             f"— upstream cron likely down"))
         else:
             out.append((INFO, f"{rel}: {age}d (ok)"))
+    return out
+
+
+# ── RESEARCH-INTAKE lane liveness (boot step 7e) ────────────────────────────
+def check_intake_liveness():
+    """Health self-alarm for the RESEARCH-INTAKE collection lane (WALTER's consumer
+    per PROME 2026-06-29). Reads the on-disk liveness.json (boot step 7e re-pulls
+    the lane fresh + runs intake_scan for the significance gate — this check is the
+    boot-time backstop that alarms if the collector died). Staleness >2 calendar
+    days (weekday-daily cadence, spans a weekend) = collector likely down → flag PROME."""
+    lane = Path("/home/willi/Research-Intake")
+    lv = lane / "liveness.json"
+    seen = WALTER / "registry" / "intake_seen.json"
+    out = []
+    if not lv.exists():
+        out.append((MED, f"lane not found ({lv}) — RESEARCH-INTAKE not cloned/reachable; "
+                        f"consumer wiring (boot 7e) can't run"))
+        return out
+    try:
+        live = json.loads(lv.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as e:
+        out.append((MED, f"liveness.json unreadable: {type(e).__name__}: {e}"))
+        return out
+    lr = live.get("last_run_utc", "")
+    try:
+        age = (dt.datetime.now(dt.timezone.utc)
+               - dt.datetime.fromisoformat(lr.replace("Z", "+00:00"))).days
+    except (ValueError, AttributeError):
+        age = None
+    if age is None:
+        out.append((MED, "last_run_utc missing/unparseable"))
+    elif age > 2:
+        out.append((MED, f"lane STALE {age}d (last_run {lr}) — collector likely down; flag PROME "
+                        f"(exception-only; boot 7e re-pulls, this is the on-disk backstop)"))
+    if live.get("status") not in ("ok", None):
+        out.append((MED, f"lane status={live.get('status')}"))
+    degraded = [f for f, j in live.get("jobs", {}).items() if j.get("status") not in ("ok", None)]
+    if degraded:
+        out.append((MED, f"feed(s) degraded: {', '.join(degraded)}"))
+    if not seen.exists():
+        out.append((LOW, "intake_seen.json missing — onset-dedup baseline not seeded "
+                        "(run tools/intake_scan.py --mark; first boot would push all still-true conditions)"))
+    if not out:
+        nfeeds = len(live.get("jobs", {}))
+        out.append((INFO, f"lane live (last_run {lr}, {age}d, {nfeeds} feeds ok); "
+                        f"gate via boot-7e intake_scan.py"))
     return out
 
 
@@ -690,6 +738,7 @@ CHECKS = [
     ("board_reconcile", check_board_reconcile),
     ("log_reconcile", check_log_reconcile),
     ("cron_liveness", check_cron_liveness),
+    ("intake_liveness", check_intake_liveness),
     ("cushing_capability", check_cushing_capability),
     ("outbox_age", check_outbox_age),
     ("registry_staleness", check_registry_staleness),
