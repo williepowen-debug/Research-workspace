@@ -1,5 +1,5 @@
 # LIQUID STATUS
-**Last Updated:** 2026-07-01 | **Agent:** LIQUID | **Status:** 🟠 **Credit-bear ARMED — X1 LIQUID half TAGGED (283 6/26, 280 6/29 → 275 6/30), not sustained.** The kill is dead, the bear is not.
+**Last Updated:** 2026-07-02 AM | **Agent:** LIQUID | **Status:** 🟠 **Credit-bear ARMED — X1 LIQUID half TAGGED (283 6/26, 280 6/29 → 275 6/30), not sustained.** The kill is dead, the bear is not.
 
 > **No live levels in this file.** Run `scripts/boot.py` (3-dashboard live sweep — Credit / Domestic / Foreign) for every current price/spread/yield; it classifies against the same thresholds referenced here. State files carry *posture and pointers*, not quotes (they rot). HY OAS is auto-watched between sessions by `scripts/hy_oas_watch.py` (systemd timer; alerts → `alerts/HY_OAS_ALERTS.log`).
 
@@ -11,6 +11,8 @@
 
 - **Credit-bear timing = ARMED** — pre-trigger, entry-gated on the X1 conjunction (HY OAS >280 sustained **AND** wrapper-basket-leads-managers-down). Thesis LIVE and substance firming; never frame as "paused" (KB-LIQ-063).
 - **X1 LIQUID half TAGGED, not sustained (7/1 read):** HY OAS printed **283 (6/26) → 280 (6/29) → 275 (6/30)** — the first tag of the 280 line since the X1 side was built. Treated as TAGGED-NOT-SUSTAINED; per the KILL_MEMO solo-half rule, even a full solo fire = log + hold — **the gating item is BROCK's wrapper-leads adjudication (owed; outboxed 7/1)**. No proposal.
+- **VIOLET Bin-A Gate C answered (7/2 AM): the 6/23–6/30 CCC widening = BREADTH, not idiosyncratic** (verify conf 0.85; reply in VIOLET inbox + `outbox/delivered/`). Tier co-widening (BB+17/B+21/CCC+26), sub-beta CCC participation (1.44x vs 1.66–1.78x baselines), quality-monotonic retention ratchet (CCC 88%>B 76%>HY 56%>BB 47% while Nasdaq/VIX round-tripped). **DISH contributed only ~1–4bp** (events bracket the window; Ch.11 filed 6/30 16:05 ET post-close). Driver = AI/software cohort (~20 of the +26bp). Same event as my X1 tag — one risk-off leg, two agents' triggers. KB-LIQ-068.
+- **Quarter-end normalization check (7/2 AM):** SOFR 7/1 obs = 3.66 vs IORB 3.65 = **+1bp — decaying (+3→+1) but not yet normalized**; SOFR75−IORB +6bp (day 1 of the 3-non-Q-end-day count). Consistent-with-mechanical; the 7/2 obs publishes Mon 7/6 (holiday) and resolves it. RRP $1.0B (drained, confirmed).
 - **LIQ-03 RESOLVED ACHIEVED-at-letter, TAIL-FORM (7/1):** PC/MM CLO senior AAA repriced through 160 in the Mar-Apr stress (Diameter S+170/185, SEC-primary; cohort 138-149 pre-stress) while **benchmark BSL AAA never exceeded ~S+125 avg** and CLOIE AAA stayed positive — **within-AAA bifurcation**, the KB-LIQ-058 signature extended into the safest tranche layer (KB-LIQ-065). Successor LIQ-04 = the benchmark arm (BSL avg >150, H2, 25%). Adversarial verify flipped the initial MISS grade.
 - **Soft-kill receded** — HY OAS backed up off the June one-print low; the <260 ×2-closes kill (Trigger A) is broken/reset, off the near-term table. Re-arms only on two fresh sub-265 closes. The shared 🔴-ALL kill (LIQUID/BROCK/REGINALD/NEXUS) is OFF the table.
 - **The widening is risk-off BETA, not yet credit-substance recognition** — discriminator is CCC leading + the public wrapper basket breaking its floor *with* the index (KB-LIQ-062). Until both X1 halves fire, the bear root stays SINGLE (macro/carry-unwind), not bifurcated into an independent PC-credit root.
@@ -30,7 +32,7 @@
 | Metric | Threshold / line | Owner |
 |--------|------------------|-------|
 | **HY OAS** | <260 kill (×2 closes) · 265–280 approach · **>280 X1-decoupling (LIQUID half)** · >320 confirm · 350 freeze | LIQUID — ladder in KILL_MEMO |
-| **CCC-BB tail-gap** | NEXUS R3 falsifier <~400 (pin = wide) — ⚠️ gap now partly AI-composition artifact on BOTH legs (KB-LIQ-066); annotate reads, keep falsifier | LIQUID / NEXUS |
+| **CCC-BB tail-gap** | NEXUS R3 falsifier <~400 (pin = wide) — ⚠️ TWO annotations on every read until mid-July: (a) partly AI-composition artifact BOTH legs (KB-LIQ-066); (b) **DISH-removal confound on 7/1+ prints** (Ch.11 6/30 → index removal; KB-LIQ-068 — don't read early-July tightening as healing OR ratchet-failure without decomposing). Precision: 806 = 15-month high, NOT cycle (831 4/7/25); CCC 970 < 1,020 (3/30/26) = range re-test | LIQUID / NEXUS |
 | **BB floor / AI-credit beta** | BB OAS >220 while CCC flat-to-tighter = AI-capex repricing the FUNDED leg (KB-LIQ-066); any single-agency ORCL cut to Baa3/BBB− = fallen-angel pipeline live (both outlooks NEGATIVE; ~$133B basis ≈ largest fallen angel ever) | LIQUID |
 | **IG OAS + HY−IG basis** (mandate ext.) | IG >94 = 2026-high break; >110 = regime (IG leads when transmission is balance-sheet); basis +30bps/20 sessions with IG <85 = junk-specific decompression; basis <180 = complacency extreme | LIQUID |
 | **SOFR dispersion** (mandate ext.) | SOFR75−IORB ≥0 ×3 consecutive NON-quarter-end days = broad pressure; SOFR99−SOFR ≥20bps = tail blowout (Q-end 6/30 printed +12) | LIQUID |
