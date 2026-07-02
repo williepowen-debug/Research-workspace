@@ -3,13 +3,18 @@
 # Consumers: scripts/firetime_check.py · SCRATCH operator card + HEARTBEAT near-gates are prose VIEWS — this file wins on drift.
 # date = YYYY-MM-DD or YYYY-MM-DD..YYYY-MM-DD (window; ~ prefix in notes = approximate/unconfirmed print date). state = PENDING | RESOLVED(read) | SLID(from date).
 date	catalyst	owners	state	artifacts_citing	notes
-2026-07-02	June NFP 08:30 ET	LABOR/HENRY	PENDING	-	pulled forward (Fri 7/3 = July-4 observed; docket corrected from 7/3 on 7/1, BLS-verified); soft print accelerates growth-leg
-2026-07-02	First intake-lane HY OAS row ~11:00 ET	PROME/LIQUID/WALTER	PENDING	HEARTBEAT.md	machine-independent HY-watch primary goes live (bands 240/260/270/280; X1-breach + re-kill alerts)
+2026-07-02	June NFP 08:30 ET	LABOR/HENRY	RESOLVED(soft)	-	+57K vs ~100-115K cons; net revisions −74K (Apr 179→148, May 172→129); U-3 4.2% = participation-drop artifact (−0.3pp to 61.5); AHE 3.5% ↑; tape read HAWKISH (10Y 4.50 +3bp); grade → LABOR (bull-tilt 2nd confirmation NOT given); candidate MOF strike on the 8:30 bar → SAM verifies (HEARTBEAT near-gates)
+2026-07-02	First intake-lane HY OAS row ~11:00 ET	PROME/LIQUID/WALTER	PENDING	HEARTBEAT.md	machine-independent HY-watch primary goes live (bands 240/260/270/280; X1-breach + re-kill alerts); HY 275 [6/30] 5bp under X1 — watch post-NFP response
+2026-07-03	Challenger June layoffs	LABOR	PENDING	-	third bull-tilt gate (JOLTS 6/30 + NFP 7/2 + Challenger 7/3); NFP went bear-side — this print grades the set
 2026-07-03	BRK-29 PE-evergreen tape-trigger window closes	BROCK	PENDING	-	1-of-2 fired (PG); 2nd unfired; leans LAPSE
-2026-07-06	CFTC COT	SAM/LIQUID/BRENT	SLID(2026-07-03)	-	July-4 observed slide; 2nd-week test for BRENT decoupling adjudication
+2026-07-06	CFTC COT	SAM/LIQUID/BRENT	SLID(2026-07-03)	-	July-4 observed slide; 2nd-week test for BRENT decoupling adjudication; VIOLET VIX lev-net band now LIVE in intake CFTC feed (7/1, intake dfab4f9)
+2026-07-07	JGB 30Y auction	SAM	PENDING	AGENTS/DEWEY/inbox/WALTER/DEEP-RESEARCH-PROMPT-08-jgb-superlong-demand-sign.md	SAM-33 let-run test; DEWEY PROMPT-08 deliver-by 7/6; MOF candidate strike 7/2 raises stakes
+2026-07-07..2026-07-09	UST mini-refunding (30Y reopening 7/9 = BND-11 decisive print)	BOND	PENDING	AGENTS/DEWEY/inbox/WALTER/DEEP-RESEARCH-PROMPT-09-ust-demand-rotation.md	DEWEY PROMPT-09 deliver-by 7/7; 10Y 4.50 hawkish-despite-soft-NFP into the window
+2026-07-10	USDA WASDE	CARL/MARCO	PENDING	AGENTS/DEWEY/inbox/WALTER/DEEP-RESEARCH-PROMPT-11-food-supply-cpi-fork.md	~approximate; PROMPT-11 prefers the Jul-10 WASDE if run on/after 7/10 (else June per its fallback)
 2026-07-14	June CPI	HENRY/CARL/LIQUID	PENDING	-	the real energy-washout/disinflation test (May PCE could not show it)
 2026-07-15..2026-07-22	Q2 monolines / Axis-A (SYF/ALLY/COF)	REGINALD/CARL/NEXUS	PENDING	PROME/proposals/2026-06-26_bank-put-reshape-roll.md	un-maskable M-08 transmission test; monoline-beat gate in proposal SF — sequencing vs WAL Jul-16 flagged 7/1
 2026-07-16	OZK/WAL Q2 prints	REGINALD/PROME/TERRY	PENDING	PROME/proposals/2026-06-26_bank-put-reshape-roll.md	~approximate print date; bank-put reshape fire gate (corrected from Jul-30 on 6/26); needs live broker book at fire-time
 2026-07-25..2026-07-28	BDC Q2 marks window	BROCK/CARL	PENDING	-	surfaced by firetime_check first live run 7/1 (HEARTBEAT cited 7/25-28, docket lacked it)
 2026-07-28	ARCC Q2 (BXSL ~early Aug)	BROCK/CARL	PENDING	-	wrapper-leading recognition read: NA% / NAV / PIK / coverage
+2026-07-31	MOF monthly intervention data	SAM	PENDING	HEARTBEAT.md	~approximate (last business day of July, covers ~6/27-7/29); the hard confirmation artifact for the 7/2 candidate MOF strike — SAM's jawboning/speed read comes first
 2026-10-15	BRK-30 credit-fund re-cap/new-gate escalation resolves	BROCK	PENDING	-	open at 65%

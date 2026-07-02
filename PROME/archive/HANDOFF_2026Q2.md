@@ -1193,3 +1193,17 @@ Open with Will at next-session start (Wed 5/27 AM):
 **Next:** Track B inventory (offered) → manifest → Will-approve → one `filter-repo` pass → flip public. `BOARD/` thinning → WALTER. Full detail → SCRATCH + [[project_public_prep_anthropic_fellows]].
 
 **Rules held:** pathspec commits throughout (SAM never clobbered — verified each commit); read-before-delete (caught that `BOARD/` is live not retired → deferred it); all cuts recoverable from history; no trade (standing rule).
+
+## 2026-06-30 (Tue, PM-2) — ★ Track B history scrub COMPLETE + verified (repo safe to flip public) *(rotated from live HANDOFF 2026-07-02)*
+
+**What landed:** Executed the git-history scrub — the real go-public gate. Plan/manifest → `PROME/public-prep/HISTORY_SCRUB_PLAN.md`. **Method:** `git filter-repo` from a pristine mirror backup; sidecar-rewrite → exhaustive verify → ONE force-push (**Landing A** — repo preserved; Will declined delete/recreate) → re-sync live + gc → fresh-clone proof; done while PRIVATE. **Removed from ALL history:** `WILL/trading-journal/` (private financial), `tools/calendar/` (Google `GOCSPX` OAuth secret + pickled tokens), `.venv/`+`*.pyc`/`__pycache__` (bloat 225M→131M), dead telegram token (id+secret), gateway token, WALTER live bot-ID (Will opted in). **★ The Will-requested double-check caught a real miss:** pass 1 scrubbed the bot-ID but left the dead token's 35-char SECRET half (old `cron_sweep.sh` hardcode) — caught by reading edited content + a blob-level secret enumeration; pass 2 (corrected, fresh from backup) scrubbed the whole credential. **Final:** origin==local==fresh-clone `b01c0346`; all targets 0; broad credential sweep 0; CASCADE research image byte-identical (base64 coincidence correctly NOT scrubbed); fsck clean; 3,465 commits / 5-mo history intact.
+
+**Decisions Will made:** objective buckets only (skip subjective); file-contents not commit-messages; OAuth already dead; Landing A (force-push, keep repo); scrub the live WALTER bot-ID too; double-check before flipping; run closeout housekeeping.
+
+**Decisions needed from Will:** flip repo → Public (his action, when ready); finalize essay edits.
+
+**Risks/blockers:** none open. WALTER/fleet Telegram UNAFFECTED (live tokens off-repo `~/.claude/channels/telegram-*`, untouched). Accepted Landing-A residue: old commits reachable on GitHub only by exact 40-char SHA until GC (harmless — never public, dead secrets). Mirror backup `~/Research-workspace-PRESCRUB-BACKUP-20260630.git` retained as rollback until Will confirms.
+
+**Next:** Will flips public → then delete the mirror backup. Carried: essay revise; BOARD→WALTER thinning; phase-2 archive surgery. Full detail → SCRATCH + [[project_public_prep_anthropic_fellows]]. **Lesson → [[finding_history_scrub_verify_by_content_not_pickaxe]].**
+
+**Rules held:** no trade (standing rule); backup before destructive op (3 recovery points held); verify-before-force-push (exhaustive, twice); pathspec commits; the force-push was the intended + Will-approved destructive op (history rewrite), not a protocol breach.
