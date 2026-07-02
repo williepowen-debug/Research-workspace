@@ -10,7 +10,7 @@
 
 | Date | Event | Signal Threshold | Who Cares |
 |------|-------|-----------------|-----------|
-| **Thu Jul 2, 8:30 ET** | **June NFP** (moved up for the holiday) | KB-LIQ-060 residue: the duration leg re-fires on a **GROWTH break**, not hawkishness. Weak print = growth-break candidate (long-end rally extends); hot print = hike pricing firms (front-end). May was +172k / 4.3% | LIQUID, HENRY, LABOR, BOND |
+| ~~Thu Jul 2, 8:30 ET~~ **PRINTED — first-read in STATUS** | **June NFP: +57K (cons ~100-115K), net revisions −74K, U-3 4.2% (participation artifact), AHE 3.5%↑** | Stagflationary mix, not a clean growth break. Tape HAWKISH (10Y +3bp intraday despite the miss) — **KB-LIQ-060 branch NOT graded yet**: candidate MOF strike on the same bar (SAM verifies) + H.15 close pending | LIQUID, HENRY, LABOR, BOND |
 | **Thu Jul 2 close** | **2nd alt-mgr PE-wrapper gate watch — window effectively closes** (30d from the Jun 3-4 BCRED/Partners Group origin; 7/3 is the holiday) | Through 7/1: **CLEAN at the letter** (EDGAR-FTS: zero PE-wrapper proration filings; BXPE +$1.2B subs). Retroactive-conversion risk via July pubs (see ~Jul 31 row) | BROCK, LIQUID, REGINALD |
 | **Thu Jul 2, ~4:30pm ET** | **H.4.1 (as-of Wed 7/1)** | WRESBAL drain rate after the **−$82B week → $2.9514T (as-of 6/24), first sub-$3T; cushion ~$151B** (KB-LIQ-067). <$2.8T = PROME 🟠 (canonical WRESBAL) | LIQUID, PROME, REGINALD |
 | Daily | **HY OAS direction** | 275 [boot 7/1, latest FRED print] — **X1 approach band, 5bps to the >280 LIQUID half**; <260 = soft-kill (re-arms only on 2 fresh sub-265 closes); >320 = confirmation. CCC-BB 806 (pin — falsifier <400) | LIQUID |
@@ -37,6 +37,7 @@
 
 | Date | Event | Outcome |
 |------|-------|---------|
+| Jul 2 (8:30 ET) | **June NFP** | **+57K vs ~100-115K consensus; net revisions −74K (upward-revision story reversed); U-3 4.2% via participation −0.3pp = supply artifact; AHE 3.5% re-accelerating** (BLS via PROME/HEARTBEAT `b78c737d`). Tape HAWKISH: 10Y +3bp to ~4.50 intraday despite the miss; VIX 16.05. KB-LIQ-060 weak→rally branch NOT playing out at first read but UNGRADED — MOF-strike flow confound on the 8:30 bar (UNCONFIRMED, SAM) + stagflationary mix means the growth-break premise isn't clean. Grade on SAM verdict + H.15 closes |
 | Jun 30 → graded 7/1 | **LIQ-03 resolves (CLO AAA vs SOFR+160)** | **ACHIEVED at the letter, TAIL-FORM:** PC/MM senior AAA printed through 160 in Mar-Apr (Diameter S+170/185, SEC 8-Ks primary; like-for-like 149→170 in a month) while **benchmark BSL AAA never exceeded ~S+125 avg** (April peak) and ended June ~120-125 tightening. Within-AAA bifurcation → KB-LIQ-065; successor LIQ-04 (BSL avg >150, H2, 25%). Adversarial verify flipped the initial MISS |
 | Jun 30 (finals → July) | **BCRED Q2 redemption window** | Window closed 6/30; ~10% requests vs 5% cap → ~50% expected fill, **final proration publishes July** (→ ~Jul 31 row). July distribution CUT −10% ($0.20→$0.18, 8-K 6/22); NAV $23.94/sh, $45.3B aggregate 5/31. No hard gate |
 | ~Jun 30 | **Cliffwater CDLI Q1** | **NO Q1/Q2-2026 print found as of 7/1** — latest official release remains CY2025 (+9.3%, 3/31). CCLFX interval fund (adjacent): Q2 cap CUT 7%→5% vs ~17% requests. CDLI-FSK gap test rolls to the ~7/25 BDC-marks row |
