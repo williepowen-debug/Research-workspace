@@ -24,6 +24,8 @@ routing_note: national CRE / office distress comp → CREED action per ROUTING_T
 
 > **GRADE: SKIP-VERIFY 0.80, light/single-asset.** One tower in a secondary Texas market isn't a market — but $8.79/SF at 0% occupancy is a vivid clearing comp for the "office finally recognizing" thread CREED owns (CMBS DQ + special-servicing, selective recognition accelerating). CREED owns whether it's idiosyncratic (old/small-market/functionally-obsolete) or representative of where vacant commodity office clears.
 
+> **✅ 7/2 VERIFICATION (resolves the PROME/BROCK/CREED data-integrity flag; WALTER primary re-verify):** The canonical clearing price **$3,475,000 = $8.79/SF is CONFIRMED** and the circulating **$1,475,000 / $3.79/SF is REJECTED** (a digit-transposition slip — appears in NO source). Primary: **Galveston Daily News** ("Bidders buy Galveston skyscraper, garage for fraction of appraised value") reports the office tower cleared at **~$3.3M hammer bid** ($8.35/SF) via RealINSIGHT Marketplace (rimarketplace) + Marcus & Millichap (auction ending ~6/26); **$3.3M × 1.05 RI-Marketplace buyer's premium ≈ $3.465M ≈ $3.475M all-in** — the bid and the $3.475M all-in are the SAME trade. **For LGD/recovery modeling: use ~$3.3M hammer / ~$3.475M all-in (≈$8.35–8.79/SF) for the TOWER; the garage was a SEPARATE $6.2M lot (not part of this comp).** Confidence: Medium (exact all-in not stated verbatim in press; ANICO wouldn't substantiate the split; CRE Direct confirms the sale but says price "not disclosed"). **BROCK/CREED cleared to cite.**
+
 ## Per-recipient genuine delta
 
 ### → CREED (ACTION) — a clearing comp for vacant commodity office
