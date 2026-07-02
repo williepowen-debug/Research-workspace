@@ -8,6 +8,30 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-07-02 — THESIS v2.6 → v2.6.1 (Will-approved): V3 Fannie MF 4→3 (CRL-03 invalidated), net 52→51/70 + prediction resolutions
+
+### THESIS — version bump v2.6 → v2.6.1 (minor: single vector downgrade on a pre-registered trigger firing, Will-approved)
+**Author:** CARL (executed on Will's explicit approval, full catch-up sweep — gather workflow wng35yy0d, 7 research-only agents).
+
+**Old → New:**
+- **V3 Fannie MF DQ → GFC: 4 → 3** (⬇️). Rationale: **CRL-03's own pre-registered downgrade trigger fired.** Fannie MF serious DQ May 0.58% (Apr 0.64% → May 0.58% = 2nd consecutive month <0.65%, primary Monthly Summary Table 7; 2026 series Jan 0.73/Feb 0.74/Mar 0.78/Apr 0.64/May 0.58). Gap to the 0.80% GFC peak WIDENED to 22bps and is moving away. Honored the pre-registration — did NOT override with an extend-and-pretend rationale (which would have been the temptation, and which the trigger exists precisely to prevent). The GFC-approach mechanism in the GSE MF book is not firing → "watching, elevated." CRE/MF stress isn't gone (Trepp CMBS MF 7.71% ATH still diverges — different book), so the vector drops to 3, not off.
+- **V16 Employment Structural Rot: HELD at 3 (re-arm ARMED).** June NFP +57K (vs ~110K cons) + −74K revisions (May 172→129K, −25%) revised away the Jun-1-5 strength that justified V16's own 4→3 cut. Held at 3 NOT because the case is weak but because June is single-month and doesn't hit the literal "NFP negative" trigger (it's sharp-decel-positive). July NFP (~Aug 7) resolves. Single-month-skepticism discipline applied ([[feedback_single_month_subcomponent_skepticism]]).
+
+**Net score: 52/70 → 51/70 (73%).** Honest −1 — a housing/CRE resolver died this cycle. Histogram: 4-group loses V3 (8→7); 3-group gains V3 (5→6). Still 🔴🔴 CRITICAL.
+
+**Why a −1 and not a paired hold:** unlike Jun-22 (V12↑/V5↓ genuine opposite-sign moves), this cycle V3's downgrade is rule-fired/clean while the offsetting V16 re-arm is real but single-month and short of its literal trigger — so the disciplined call is V3 down now, V16 armed-but-held. The truthful read: housing/CRE + gas legs eased while the consumer-income/employment core re-softened.
+
+### PREDICTIONS — resolutions & re-marks (Jul 2)
+- **CRL-03 → MISSED** (resolved 2026-07-02). Fannie MF May 0.58% = 2nd consecutive <0.65%; invalidation rule fired exactly as written. Confidence held 72% into the print.
+- **CRL-11 → MISSED** (resolved 2026-07-02). May JOLTS hires rate 3.3% (unchanged); Apr's 3.2% REVISED UP to 3.3% on the same release. No 2nd sub-3.2% print ever held — series moved away from the ≤3.2% threshold. Same revision/denominator failure family as CRL-09.
+- **CRL-08: confidence 40% → 28%** (re-arm, not miss). Jun 25-28 was a GENUINE kinetic escalation (tanker strikes, US airstrikes, Iran missile on a Kuwait base) yet Brent FELL through it to ~$70; gas $3.838. One clean escalation → wrong-direction price = −12pp. Re-arm now needs sanctions-waiver revoked AND Doha collapse with Brent >$85-90.
+- **CRL-14: SPLIT (mechanism live / threshold STUCK).** MAJOR CORRECTION — ED paused ALL involuntary collections (AWG + Treasury Offset) Jan 16 2026 INDEFINITELY; the "Jul 15 collections restart" catalyst is contradicted (NY Fed May 12 + CBS Jul 2 confirm on-hold). Default-accrual mechanism firing (9.16M Apr). Treasury Phase 1 (~500K) is servicing custody, not enforcement.
+- **CRL-13: timeframe refined** — SAVE→RAP notices began on schedule Jul 1 but are staggered in waves through Mar 2027 (non-selectors auto-enroll ~90d after each individual notice); Oct 1 = first-tranche read, not final N.
+
+**Files:** THESIS.md (version stamp + score header + What's-Forecast Fannie line + V3/V16 matrix cells + histogram + commentary + upgrade-path + Thesis-Evolution entry), PREDICTIONS.tsv (CRL-03/11 MISSED + CRL-08/13/14 re-marks), this CHANGELOG, STATUS.md (top-line + Overall + Fannie MF/HPI/labor/UMich/gas/HY-OAS rows + matrix mirror + histogram + DANGER-WINDOW NOW + predictions table + BOTTOM LINE), KB.tsv (+ new rows), board/BOARD_LOG.tsv (+40 dispositions), docket (prune 6 fired + collections-restart STUCK + Aug-21 waiver-expiry), ROADMAP.md, NEXUS_BRIEF.md (re-pin), SCRATCH.md (rewrite). **Data caveat:** BLS/FRED primary returned 403 (sandbox network block) — labor/sentiment figures secondary-corroborated (multi-source); Fannie MF + gas were primary-verified.
+
+---
+
 ## 2026-06-22 PM-2 — THESIS v2.5.2 → v2.6 (Will-approved): paired vector re-score V12 4→5 + V5 4→3, net 52/70 held
 
 ### THESIS — version bump v2.5.2 → v2.6 (minor: paired vector re-score, Will-approved)

@@ -1,32 +1,32 @@
 # CARL — NEXUS Brief
 
-**Status:** 🔴 Convergence 52/70 (held) — **FOMC Jun-17 confirmed the stagflation trap under NEW Chair Warsh** (dots flipped to a hike, PCE-2026 3.6%); **v2.6 EXECUTED — V12 4→5 (Fed-locked fully fired, first vector at 5) + V5 4→3 (gas squeeze relieving), offset → 52/70 held.** Structural consumer core (credit/K-shape/housing-deflation) intact & rate-path-independent
-**Domain:** U.S. consumer financial stress — credit delinquencies (CC/auto/student/mortgage), housing & foreclosures, K-shape bifurcation, consumer spending, gas-pump pass-through. Transmission LABOR→**CARL**→REGINALD. **NOT mine:** labor/NFP/JOLTS → **LABOR**; bank-level impact → **REGINALD**; oil/Brent spot → **HAWK/BRENT** (I own pump + energy-CPI downstream); SPX/vol → **HENRY**.
-**Thesis version:** v2.6 ("Beneath the Ice")
-**Recent thesis pivot:** **v2.6 EXECUTED (Jun 22, Will-approved):** paired re-score V12 Stagflation Trap **4→5** (FOMC hawkish + Warsh-Fed locked = mechanism fully fired, first vector at 5) AND V5 Gas Squeeze **4→3** (gas relieving + Iran sanctions waived) — offset exactly, headline 52/70 held; rebalancing, not weakening. (Prior v2.5.2 Jun 6: V16 4→3.)
+**Status:** 🔴 Convergence **51/70** — **v2.6.1: V3 Fannie MF DQ→GFC 4→3, CRL-03 INVALIDATED** (May 0.58% = 2nd consec <0.65%, its own pre-registered trigger). Several bear resolvers eased this cycle (Fannie MF, gas/CRL-08, HPI-not-negative) while the consumer-income/employment CORE re-softened (June NFP +57K/−74K, LFPR 61.5%, Real DPI YoY negative). **V16 re-arm ARMED, held at 3** pending July NFP. V12 HOLDS 5.
+**Domain:** U.S. consumer financial stress — credit delinquencies (CC/auto/student/mortgage), housing & foreclosures, K-shape bifurcation, consumer spending, gas-pump pass-through. Transmission LABOR→**CARL**→REGINALD. **NOT mine:** labor/NFP/JOLTS topline → **LABOR**; bank-level impact → **REGINALD**; oil/Brent spot → **HAWK/BRENT** (I own pump + energy-CPI downstream); SPX/vol → **HENRY**.
+**Thesis version:** v2.6.1 ("Beneath the Ice")
+**Recent thesis pivot:** **v2.6.1 (Jul 2, Will-approved):** V3 Fannie MF DQ→GFC **4→3** — CRL-03 invalidated on its own pre-registered trigger (May 0.58%, 2nd consec <0.65%, gap to 0.80% GFC widened to 22bps). V16 re-arm ARMED but HELD at 3 (June NFP soft, single-month). Net 52→51/70 — honest −1, a housing/CRE resolver died. (Prior v2.6 Jun 22: paired V12 4→5 + V5 4→3, 52/70.)
 **Position:** N/A — research domain, no direct book. Thesis expresses via REGINALD/FORGE (KRE/WAL/OZK); I do not mark positions.
-**As of:** 2026-06-26 ET (maintenance session — stale fixes + bifurcated timing axis v2.6 promoted; BCRED gate integrated as Path PC) | STATUS pin: Jun-26 maintenance commit (behavior-pin = latest CARL STATUS)
+**As of:** 2026-07-02 ET (full catch-up sweep — Jun 26–Jul 2 catalysts integrated, v2.6.1) | STATUS pin: latest CARL STATUS (behavior-pin)
 
 ---
 
 ## VIEW
 
-- **FOMC Jun-17 graded HAWKISH-RELATIVE under NEW Chair Warsh (CARL modal 45% — clean hit):** HOLD 12-0 but **dots flipped to a HIKE** (2026 median 3.8%), **stagflationary SEP** (GDP 2.2%↓, PCE 3.6%↑↑, Core PCE 3.3%), 30Y UST cracked 5%, "look through energy." **V12 hardened decisively → v2.6 (4→5) re-armed** — a Warsh Fed = multi-meeting "no relief," not a one-print event. *(Boot missed the Chair change; the gather caught it.)*
-- **Energy squeeze RELIEVING (V5 4→3 candidate, RED-honest):** gas **$3.929** (5th wk down), **Islamabad MOU Jun-17 waived Iran oil-export sanctions** (structural supply add), Brent ~$78 near pre-war, CRL-08 dead-reinforced (55→40). Counter-current to the bear thesis on the gas leg. Structural price-side stagflation still intact: PPI **6.5% YoY** pipeline, Core PCE **3.3%**, savings **2.6%** / Real DPI **−0.5%** = forced-consumption deepening (May retail control +0.7% confirms).
-- **Consumer-credit cascade executing:** CC 90+ DQ **13.1%** (gap to GFC collapsed to 0.64pp, subprime-driven = K-shape converging down, confirmed in NY Fed primary); Student 90+ **10.3%** (CRL-04 breached clean); SAVE→RAP Jul 1 = ~$5-7B Q3 spending destruction landing into whatever rate regime Jun-17 sets.
-- **Housing-deflation setup forming:** Freddie HPI **+0.7%** cycle-low, condo K-shape **−15/−33%** in 24 markets, LEN FY26 guide cut (rates-led); **30Y FRM 6.52% rose THROUGH the energy drop = no refi relief** in the channel that matters.
-- **Counter-signal I keep honest:** HY OAS **272bps** says "subprime contained, prime fine" while structured credit cracks (Carvana first prime-auto ABS downgrade in 16yr; EART Class E breached). Falsification windows CRL-21 Q3'26 / CRL-20 Q1'27 force the reconciliation.
+- **This cycle went AGAINST several bear legs — and the honest read is a −1, not a reframe.** **CRL-03 INVALIDATED** (Fannie MF DQ May 0.58%, 2nd consec <0.65%, gap to GFC widened) — the GFC-approach in the GSE MF book is not firing (CRE/MF stress persists elsewhere: CMBS MF 7.71% ATH). The **"HPI turns negative 2026" call is wrong for now** — nominal HPI ACCELERATING (Freddie +1.9%/Case-Shiller +0.8% YoY); reframe to real-erosion (real −2.4% YoY, 11 mo) + months-supply 10.3. **CRL-08 dead-deepened 40→28** — Jun 25-28 was a GENUINE kinetic escalation yet Brent FELL through it to ~$70 (gas $3.838); the Jun-22 Treasury sanctions waiver (expires Aug 21) absorbs the risk.
+- **The consumer-income/employment CORE re-softened, offsetting:** June NFP **+57K / −74K revisions** (May restated −25% → V16 re-arm ARMED, held at 3 pending July NFP); LFPR 61.5% (lowest since Mar-2021); continuing claims +55K to a 3-mo high (labor-hoarding); **Real DPI YoY turned negative** (first since 2022); CC 90+ 13.1% intact; **auto 90+ ~5.6% Q1 record** (via-relay, verifying); savings 3.0% pinned; KB Home FQ2 op-margin 8.6→2.5%.
+- **V12 Stagflation Trap HOLDS 5** — UMich June-final 5-10Y **3.3%** (2nd print below the 3.5% red line but still 30bps above CARL's 3.0% downgrade trigger); score anchored to the Warsh SEP, un-fires only on a dovish pivot. CB Expectations 74.4 = 6 consec mo <80. *(The machine-lane "UMCSENT 44.8 band-breach" was a STALE MAY obs — June-final sentiment 49.5, no relapse.)*
+- **CRL-11 MISSED** (May JOLTS hires 3.3%, Apr's 3.2% revised up — never held; same revision/denominator family as CRL-09). Documented divergence: JOLTS demand-side (openings 2-yr high) stable while establishment (NFP) weak/revised-down.
+- **Counter-signal I keep honest:** HY OAS 275bps (broad HY calming from a Jun-26 AI-selloff peak) while **CCC OAS pinned at 970** = quality-bifurcation widening — the K-shape shape in credit. Falsification windows CRL-21 Q3'26 / CRL-20 Q1'27 force the reconciliation.
 
 ---
 
 ## CALIBRATION
 
-- **Conviction:** direction-HIGH · timing-MEDIUM · level-MEDIUM (52/70 v2.6; **1 vector now at 5 — V12 Fed-locked fully fired**, with an explicit un-fire condition [Warsh dovish pivot]; bias-against-5 preserved via that falsifier).
-- **Diverge from market by:** HY OAS 272bps GREEN-by-threshold but RED-by-late-2007-analog (Jun '07 was 260bps → 800+bps Nov, 5-mo lag). Market hasn't been *forced* to reprice structured-credit cracks; my read is the masking holds until vintage curves load through the CRL-20/21 windows. The gap is "not-yet-repriced," not disagreement on direction.
-- **Cross-agent tensions known to me:** **SAM dependency RESOLVED on my side** — post-FOMC US read is in: a **hawkish Warsh Fed (dots→hike, 30Y UST >5%) = USD strength PERSISTS**, which delays the FXY carry-unwind vehicle SAM was gating on my read. Aligned with **BRENT** (sanctions waived / crude near pre-war — no tension).
-- **Uncertain about:** (1) FOMC Jun-17 dots hawkish-*relative-to-pared-market* (I put 45% modal — see FOMC_PACKET_2026-06-17.md); (2) whether softened May core CPI (+0.2%, halved) is single-month or genuine breadth-narrowing — needs Jun print; (3) Fannie MF −14bps = extend-and-pretend vs genuine resolution (Trepp CMBS MF 7.71% ATH refutes "cooling").
-- **Failure patterns to mind:** catalyst-path-decoupling · threshold-vs-mechanism · single-month-subcomponent-skepticism — see `thesis/PREDICTIONS.tsv` preamble (CRL-01/09/19).
-- **RED counter-frame:** CONTAINMENT/soft-landing — acute-employment legs reversed (NFP +172K, 3-mo avg 188K, JOLTS un-inverted) give it support; my response = v2.5.1 always held "employment is structural rot, not acute break," and the cost-squeeze + V12 price legs held through the labor surface-beat. See `handoff_RED/`.
+- **Conviction:** direction-HIGH · timing-MEDIUM · level-MEDIUM (51/70 v2.6.1; V12 the lone vector at 5, with an explicit un-fire condition). This cycle is genuinely **mixed** — housing/CRE + gas legs eased, consumer-income/employment core re-softened. The bear thesis is intact but a resolver died; the score says so.
+- **Diverge from market by:** the same masking read — consumer-credit substance lives in ABS subordinate tranches (EART Class E breached) + Q2 bank books, not in the calming corporate-HY index. The CCC-pinned/broad-HY-calming split is the tell. Gap is "not-yet-repriced," not a direction disagreement.
+- **Cross-agent tensions known to me:** **None active this cycle.** Aligned with BRENT/HAWK (crude near pre-war, sanctions waived — CRL-08 dead-deepened, no tension). A Real-DPI-YoY-negative datapoint (KB-309) sits in tension with a PNC 4M-HH panel ("lower-income spending on a tear") — routed to RED as a K-shape counter, not a cross-agent dispute.
+- **Corrections issued this cycle:** (1) **CRL-14 collections-restart is a phantom catalyst** — ED paused AWG/TOP indefinitely since Jan 16; the "Jul-15 restart" was contradicted by primary → docket row removed, CRL-14 SPLIT (accrual firing / enforcement STUCK). (2) UMCSENT 44.8 band-flag was a stale-obs false alarm.
+- **Failure patterns to mind:** threshold-vs-mechanism (CRL-03 rule-fired vs CRL-14 threshold-stuck) · single-month-subcomponent-skepticism (V16 held on June being single-month) · tool-default as-of drift (UMCSENT). See `thesis/PREDICTIONS.tsv` preamble.
+- **RED counter-frame:** CONTAINMENT/soft-landing gains support this cycle (Fannie MF easing, nominal HPI up, gas relief, auto/JOLTS mixed) — my response: the consumer-income core (Real DPI YoY neg, CC 90+ 13.1%, June NFP soft, carrying-cost records) held/deepened, and CRL-20/21 remain the resolvers. See `handoff_RED/`.
 
 ---
 
@@ -36,26 +36,26 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
-| PROME/REGINALD/HENRY | **FOMC Jun-17 FIRED hawkish-relative under NEW Chair Warsh** — dots flipped to a hike, stagflationary SEP, 30Y UST >5% | 🔴 | Front-end repriced UP (CME hike-by-2026 47→77%); NO refi relief (30Y FRM band-bound, duration risk up) → housing/CRE refi distress harder; "Fed locked, no relief" now MULTI-MEETING under Warsh |
-| REGINALD | Housing-deflation setup: Freddie HPI cycle-low + condo K-shape −15/−33% + 30Y FRM 6.52% | 🔴 | Condo-secured / HELOC / MF-condo-hybrid collateral stress in bank book; Path C (Housing→Banks) reinforced |
-| REGINALD/LIQUID | ABS subordinate-tranche: EART Class E **breached**; AMCAR Class E ~2mo cushion | 🔴 | Rating actions → forced selling of subordinate auto-ABS tranches |
-| HENRY | Reverse-wealth-effect channel armed, not firing (SPX near highs) | 🟠 | V14 Upper-Decile Wealth Stress promotes only on SPX −10%+ |
+| PROME/LABOR | **June NFP SOFT +57K / −74K revisions** (May restated −25%); LFPR 61.5%; continuing claims 3-mo high | 🔴 | Reverses the May "acute-employment beat"; V16 re-arm armed. LABOR owns topline; use continuing-claims not U-3 (per LABOR L-06) |
+| REGINALD | **Fannie MF DQ falling (May 0.58%) but CMBS-MF 7.71% ATH diverges**; mortgage DQ inflecting (ICE May, FHA non-current >13%) | 🟠 | GSE-book easing while CRE/MF book stressed — extend-and-pretend split; condo/CRE collateral read still open |
+| REGINALD/LIQUID | ABS subordinate-tranche: EART Class E **breached**; no new actions Jun 26–Jul 2 (clean null) | 🟠 | Rating actions → forced selling; Q2-Q3 wave still pre-action |
+| POLLY/CORAL | Flood-uninsured → FL mortgage-credit-risk ($375B exposure, post-Harvey DQ +205%) | 🟠 | Insurance-gap → mortgage-DQ transmission; FL priority geography |
 
 **WAITING FOR:**
 
 | From | Input | Expected by | Why it matters | How it changes my view |
 |------|-------|-------------|----------------|------------------------|
-| LABOR | FL UI Wave 1 exhaustion granularity (not initial claims) | Wed Jun 24 (cliff) | Surface claims decline masks exhaustion mechanism | Confirms CRL-07 consumer-DQ-spike timeline Jun-Aug |
-| HAWK/BRENT | Fresh Brent re-spike toward $105-110 | Open but LOWER-prob (Iran sanctions waived Jun 17) | Only path left to re-arm CRL-08/V5 — needs Hormuz re-closure WITH enforcement | Brent→$105-110 + pass-through → CRL-08 back from 40% |
-| REGINALD | Bank-side condo/CRE collateral read | Open — Q2 earnings Jul-Aug | Closes the Path C loop downstream of my housing signal | Confirms or bounds the bank-transmission leg |
+| LABOR | July NFP (topline + revisions) | ~Aug 7 | The V16 re-arm resolver | Negative / another sharp-decel-with-down-revision → V16 3→4 |
+| HAWK/BRENT | Brent break >$85-90 on a supply-loss narrative | Open, LOW-prob (sanctions waived through Aug 21) | Only path to re-arm CRL-08/V5 | Needs waiver-lapse + Doha-collapse together |
+| REGINALD | Bank-side condo/CRE + auto collateral read | Q2 earnings Jul 21-24 | Closes Path C + the auto-DQ leg (auto 90+ 5.6% Q1) | Confirms/bounds the bank-transmission leg |
 
 ---
 
 ## NEXT DECISION POINT
 
-- **What:** v2.6 score bump DONE (Jun 22, Will-approved — V12→5 / V5→3). Next decision = the Jun 24-26 catalyst stack, lead resolver **Fannie MF May (~Jun 26, CRL-03)**: 2nd <0.65% print → CRL-03 invalidates; rebound toward 0.80% → breach back in play.
-- **When:** next Will-facing session; data resolvers = Fannie MF May (~Jun 26, CRL-03) + May PCE (Jun 25).
-- **What would change my view:** Hormuz re-closure WITH enforcement → re-arm CRL-08/V5 (un-pairs the move); a 2nd dovish FOMC signal (unlikely under Warsh) → V12 4→5 weakens.
+- **What:** V16 3→4 re-arm (ARMED Jul 2, held on single-month discipline). Next: whether June's soft NFP + revisions is confirmed or one-off.
+- **When:** **July NFP ~Aug 7** (V16). Then **~mid-Aug NY Fed Q2 HHDC** (CRL-05 direct; also verifies the via-relay auto 90+ 5.6%).
+- **What would change my view:** July NFP negative/sharp-decel-with-down-revision → V16→4; a rebound → hold. Waiver-lapse + Doha-collapse → CRL-08 re-arm. A Warsh dovish pivot → V12 5→4 (unlikely).
 
 ---
 
@@ -63,12 +63,13 @@
 
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
-| 🔴 Wed Jun 24 | FL UI Wave 1 exhaustion cliff (CRL-07) | NOW; magnitude-constrained (FL 8% recipiency, ~42.5K); watch gig-supply-surge channel + DQ-conversion 30-60d |
-| 🟠 Thu Jun 25 | May PCE | Savings toward sub-2.5%; Core PCE sustains 3.3%+ |
-| 🔴 Fri Jun 26 | Fannie MF DQ (May) | 2nd-consec <0.65% = CRL-03 invalidation watch; >0.80% = GFC breach |
-| 🔴 Mon Jun 29 / Tue Jun 30 | Freddie HPI (Apr) / Case-Shiller (Apr) | HPI turns negative = housing-deflation confirm (V10) |
-| 🔴 Wed Jul 1 | SAVE→RAP transition | ~$5-7B Q3 consumer drag begins; CRL-13 non-selection >35% |
+| ~Jul 15 | Treasury Phase 1 (~500K) + Insurance Q2 (UNH/ELV) | ⚠️ Phase 1 date unconfirmed, servicing≠enforcement; CRL-22 MLR |
+| ~Jul 16 | ATTOM Q2 foreclosures | V10; DEWEY — inflecting on RoC, normalizing on level |
+| ~Jul 21-24 | Q2 consumer-credit (SYF/ALLY/COF/AXP) + Builder (DHI/PHM) | Masking CRL-20/21/24; CRL-23 builder GM |
+| 🔴 ~Aug 7 | June→July NFP | **V16 re-arm resolver** |
+| 🔴 ~Aug 15 | NY Fed Q2 2026 HHDC | **CRL-05** (CC 90+ vs GFC 13.74%); verify auto 90+ 5.6% |
+| Aug 21 | Iran sanctions waiver expiry | CRL-08 latent tail |
 
 ---
 
-*Brief follows NEXUS_BRIEF schema R3 + amendment 7 (recent-pivot required; cross-agent tensions required; WATCH→FORWARD CATALYSTS; emoji per CLAUDE.md key 🟢none/🟡monitoring/🟠elevated/🔴active — single 🔴 not 🔴🔴; conviction decomp optional; WAITING-FOR "Expected by" required; single SENDING table). First CARL brief Jun 16. Pin re-bumps at every closeout per SPAWN PROTOCOL write-back. **Scope note to NEXUS: BRIEFS_MAP row 24 mis-scopes CARL as "labor/CPI" — labor is LABOR's; re-aim the "post-NFP read" waiting-for at LABOR (see outbox).**
+*Brief follows NEXUS_BRIEF schema R3 + amendment 7 (recent-pivot required; cross-agent tensions required [None active this cycle]; WATCH→FORWARD CATALYSTS; single 🔴 not 🔴🔴; single SENDING table; WAITING-FOR "Expected by" required). References canonical sources (PREDICTIONS scoreboard, THESIS, CATALYSTS, handoff_RED) — does not restate. No P/L or marks. Pin re-bumps at every closeout per SPAWN PROTOCOL step 14b.*
