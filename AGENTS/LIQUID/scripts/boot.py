@@ -80,7 +80,7 @@ def trend_str(vals, mult=1.0, dp=0):
 # ---------------------------------------------------------------------------
 
 def build_credit():
-    ccc = bb = None  # for the CCC-BB tail-gap composite
+    ccc = bb = hy_bps = None  # for the CCC-BB tail-gap + HY-IG basis composites
 
     # HY OAS (macro) — config.py bands (SENTRY retune 6/26): 🟢<265 / 🟡265-280 / 🔴>280 X1 master.
     # <260 ×2 closes = bear-axis KILL — a TWO-WAY secondary the single-sided config.classify can't
@@ -90,6 +90,7 @@ def build_credit():
         add("CREDIT", "HY OAS", "ERR", "🔴", f"fetch error: {err}", headline=True)
     else:
         bps = v * 100
+        hy_bps = bps
         if bps >= 280:   m, n = "🔴", "X1 MASTER TRIGGER FIRED (>280) — credit-recognition; escalate ALL"
         elif bps >= 265: m, n = "🟡", f"X1 APPROACH (265-280 band) — {280 - bps:.0f}bps to the 280 master trigger"
         elif bps < 260:  m, n = "🔴", "BEAR-AXIS KILL (<260 ×2 closes) — credit-thesis invalidation, NOT a stress event"
@@ -127,10 +128,37 @@ def build_credit():
         add("CREDIT", "CCC-BB gap", "N/A", "🟠",
             "gap UNAVAILABLE — CCC or BB fetch failed (headline pin missing this boot)", headline=True)
 
-    # IG OAS — reference, no LIQUID trigger
+    # IG OAS — mandate-extension SECONDARY row (7/1): IG widening while HY compressed = credit-cycle
+    # inflection LEADING the HY>280 watch. 2026 range 73-94; >94 = range break, >110 = regime.
+    ig_bps = None
     v, d, tr, err = fred_series("BAMLC0A0CM")
     if not err:
-        add("CREDIT", "IG OAS", f"{v * 100:.0f}bps", "🟢", "(reference — benign)", d, trend_str(tr, 100, 0))
+        ig_bps = v * 100
+        if ig_bps > 110:  m, n = "🔴", "REGIME (>110) — IG leads when transmission is balance-sheet, not credit"
+        elif ig_bps > 94: m, n = "🟠", "2026-HIGH BREAK (>94) — leading-indicator inflection candidate"
+        else:             m, n = "🟢", f"benign ({94 - ig_bps:.0f}bps below the 94 range-high)"
+        add("CREDIT", "IG OAS", f"{ig_bps:.0f}bps", m, n, d, trend_str(tr, 100, 0))
+    else:
+        add("CREDIT", "IG OAS", "ERR", "🟠", f"fetch error: {err}")
+
+    # HY−IG basis (mandate ext.) — 2026 range 189-253; flat basis + wide tail = bifurcation signature
+    if hy_bps is not None and ig_bps is not None:
+        basis = hy_bps - ig_bps
+        if basis > 250:   m, n = "🟠", "junk-specific DECOMPRESSION (2026 high 253, 3/30 stress)"
+        elif basis < 180: m, n = "🟡", "complacency extreme (below the 2026 low 189)"
+        else:             m, n = "🟢", "flat — no aggregate decompression (stress stays tail-only)"
+        add("CREDIT", "HY-IG basis", f"{basis:.0f}bps", m, n)
+
+    # Euro HY (mandate ext. TERTIARY, coordinate BOND) — EU-led credit divergence watch
+    v, d, tr, err = fred_series("BAMLHE00EHYIOAS")
+    if not err:
+        eu = v * 100
+        if hy_bps is not None:
+            diff = eu - hy_bps
+            m, n = ("🟠", f"EU-led divergence (Euro−US {diff:+.0f}bps > +50)") if diff > 50 else ("🟢", f"(Euro−US {diff:+.0f}bps)")
+        else:
+            m, n = "🟢", "(US HY unavailable for the differential)"
+        add("CREDIT", "Euro HY OAS", f"{eu:.0f}bps", m, n, d, trend_str(tr, 100, 0))
 
 
 # ---------------------------------------------------------------------------
@@ -158,6 +186,19 @@ def build_domestic():
         else:        m, n = "🟢", "negative/clean — no funding stress"
         add("DOMESTIC", "SOFR-IORB", f"{spr:+.0f}bps", m, n)
 
+    # SOFR dispersion (mandate ext. 7/1) — the tail is the stress read, not the median.
+    # Alerts require NON-quarter-end sustain (Q-end turns print wide mechanically: 6/30 = 75th +8 / 99th +12).
+    p75, d75, _, e75 = fred_series("SOFR75")
+    p99, d99, _, e99 = fred_series("SOFR99")
+    if not e75 and iorb is not None:
+        s75 = (p75 - iorb) * 100
+        m, n = ("🟠", "75th pct ABOVE IORB — broad pressure IF 3+ non-quarter-end days") if s75 >= 0 else ("🟢", "75th pct below ceiling")
+        add("DOMESTIC", "SOFR75-IORB", f"{s75:+.0f}bps", m, n, d75)
+    if not e99 and sofr is not None:
+        s99 = (p99 - sofr) * 100
+        m, n = ("🟠", "tail blowout (99th−SOFR ≥20bps)") if s99 >= 20 else ("🟢", "tail contained (<20bps)")
+        add("DOMESTIC", "SOFR99 tail", f"{s99:+.0f}bps", m, n, d99)
+
     # 2Y — front-end reference (FOMC-day hawkish reprice tell)
     v, d, tr, err = fred_series("DGS2")
     if not err:
@@ -182,7 +223,9 @@ def build_domestic():
     v, d, tr, err = fred_series("WRESBAL")
     if not err:
         t = v / 1e6  # $millions -> $T
-        m, n = ("🟠", "BELOW $2.8T floor — escalate PROME") if t < 2.8 else ("🟢", f"cushion ${(t - 2.8) * 1000:.0f}B above floor")
+        if t < 2.8:   m, n = "🟠", "BELOW $2.8T floor — escalate PROME"
+        elif t < 2.9: m, n = "🟡", f"cushion ${(t - 2.8) * 1000:.0f}B (<$100B) — Leg-A drain watch (KB-LIQ-067: RRP drained, QT hits reserves directly)"
+        else:         m, n = "🟢", f"cushion ${(t - 2.8) * 1000:.0f}B above floor"
         add("DOMESTIC", "Reserves", f"${t:.3f}T", m, n, d + " (as-of Wed)")
 
     # RRP (billions) — >5 signal; structural zero now
