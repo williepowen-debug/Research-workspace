@@ -18,7 +18,7 @@
 
 ## Will actions (open, carried)
 - **Launch DEWEY** (queue drain), **LABOR** (NFP grade, before Challenger 7/3), **SAM** (MOF verify) — see entry points 1-3.
-- ✅ **Desktop FRED key DONE 7/2 ~10:30:** Will created a **NEW** key; PROME wired `.env` + `.bashrc` + live-verified (dashboard FRED rows up; 13:00 timer will run on it). **Laptop follow-through (next laptop visit): swap its 2 lines to the new key, then DELETE the old key at fred.stlouisfed.org** — closes the pre-flip rotation item (details: MACHINE_LOCAL FRED row).
+- ✅ **Desktop FRED key DONE 7/2 ~10:30:** Will created a **NEW** key; PROME wired `.env` + `.bashrc` + live-verified (dashboard FRED rows up; 13:00 timer will run on it). **Follow-through before deleting the old key — TWO consumers still on it: (1) laptop `.bashrc`+`.env` (next visit); (2) RESEARCH-INTAKE GH Actions secret (Settings → Secrets → Actions → FRED_API_KEY).** Swap both, THEN delete at fred.stlouisfed.org — closes the pre-flip rotation item (details: MACHINE_LOCAL FRED row).
 - **FRED rotation:** desktop on the new key (7/2) — remaining: laptop swap + old-key delete (next laptop visit). **Public-flip** (DELIBERATE WAIT); essay review.
 
 ## Git / repo state
