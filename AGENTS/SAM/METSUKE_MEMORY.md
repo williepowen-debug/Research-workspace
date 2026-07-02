@@ -421,6 +421,11 @@ Context: First post-Run-3 sweep. Two material passes since Run 3 watermark — (
 - **ESCALATION handling (modal band):** annotated UNDER RE-DERIVATION inline (do-not-cite marker) + queued the re-derivation post Jul-6 CFTC / Jul-7 30Y. Ruling pattern: a derived band contradicted by tape gets an inline invalidity marker immediately, but NO inline re-mark — re-derivation is a session task ([[finding_re_derivation_surfaces_concept_failure]]).
 - **VERIFY-pass mode (NEW, first instance):** METSUKE ran hours after SAM's own inline drift pass — residuals-only briefing worked; both discovered failure modes (sibling-instance miss, bracket-with-rotten-interior) ratified as STANDING MONITORS. This is the right division: SAM inline-fixes what it knows it changed; METSUKE hunts the siblings.
 
+### 🛡️ STANDING RUBBER-STAMP GUARD (SAM-owned metric, instituted 2026-07-02 performance review)
+Track **declines-per-10-runs** here. A long streak of 100% acceptance is ambiguous between "well-calibrated proposer" and "rubber-stamping SAM" — the declines are the evidence that adjudication is real. **If 10 consecutive runs pass with zero SAM declines/modifications, the next run's apply pass must include an explicit adversarial read of at least 2 accepted items (write the reasoning here).**
+- Tally as of Run-10: ~1 decline per 10 runs (Run-1: 1 declined-with-carve-out [Live-P/L line]; Runs 2/7/9/10: 0 declines but with reasoned borderline RULINGS — frozen-anchor vs currently-voice [Run-10], curated-subset carve-out [Run-10]). Rulings count as adjudication evidence; streak clock currently NOT triggered.
+
+
 
 ---
 

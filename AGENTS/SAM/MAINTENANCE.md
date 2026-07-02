@@ -8,6 +8,21 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
+## 2026-07-02 — Sub-agent performance review → brief amendments (METSUKE verify-pass mode; KURA full-mode default; rubber-stamp guard)
+
+**Trigger:** Will-directed performance analysis of the trio after the 7/2 parallel run (METSUKE Run-10 / KOYOMI Run-11 / KURA Run-9); recommendations applied same session.
+
+**Review findings (basis for the changes):** METSUKE ~97% cumulative apply rate over 10 runs, zero money-field violations; KOYOMI's best mechanisms are self-built from its own misses (Run-4 auction miss → the baseline audit that today caught the Sep-18 window-end coincidence + the 2025-base CPI discontinuity), clean across 4 model tiers; KURA ~85% promote rate over 9 runs, 1 caught factual error (KB-187), archive-moves never misfired. Trio value concentrates in **mechanical diligence SAM wouldn't schedule** (sibling-instance hunting, calendar-coincidence detection, deadline enforcement), not analysis. Weaknesses: recent 100% accept rates are ambiguous (calibration vs rubber-stamping); per-run cost 10-40× the "typical subagent" line; KOYOMI fetch-layer garble risk (self-flagged "Aug 8" instance).
+
+1. **`METSUKE.md` — RUN MODES section added (new):** `full-sweep` (default) + **`verify-pass`** (codifies Run-10's ad-hoc mode — SAM inline-fixes what it knows it changed, METSUKE hunts residuals only, specifically the two Run-10 failure modes: sibling-instance miss + bracket-with-rotten-interior). Stale "Last run: (none — inaugural)" header line fixed → pointer to MEMORY as canonical.
+2. **`workbook/KURA.md` — default mode flipped `propose-only` → `full`** (3 spots: canonical invocation, default sentence, RUN MODES section). Scope unchanged: the flip affects only the single autonomous act (archive-moves of already-SUPERSEDED rows); new-fact adds remain propose-only in both modes. `propose-only` retained for low-trust contexts (post-incident / post-spec-change / SAM mid-edit on workbook).
+3. **Rubber-stamp guard installed in all 3 SAM-owned CALIBRATION sections** (METSUKE_MEMORY / KURA_MEMORY / KOYOMI_MEMORY): track declines-per-10-runs; 10 consecutive zero-decline runs force an explicit adversarial read of ≥2 accepted items on the next apply pass. Current tallies seeded (KURA healthiest at 4 declines/re-routes in 9 runs).
+4. **MEMORY Feedback trio line updated:** 6/4 consistency-over-yield finding re-validated at the high-watermark extreme + spawn guidance added (cheaper tiers fine for routine KOYOMI/KURA syncs — evidenced by KOYOMI Runs 8-11 across Opus/Sonnet/Fable; big model reserved for post-pivot METSUKE + audit-heavy runs).
+
+**Boot-impact:** none (none of these are boot reads). Next-spawn impact: KURA spawns default `full`; METSUKE spawns name a mode.
+
+---
+
 ## 2026-06-22 — RED-dialogue scaffold + doc-ownership cleanup (STATUS→TIMELINE) + steward runs
 
 **Trigger:** Will-directed housekeeping while RED catches up (8-day dark) ahead of the v1.6 convergence (gated on the Mon 3:30 PM ET CFTC Jun-16 EV-print + RED pass).

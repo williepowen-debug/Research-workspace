@@ -363,6 +363,11 @@ State file for the workbook-librarian sub-agent. Spec is in [`KURA.md`](KURA.md)
 - **Auto-memory routing RATIFIED:** rotation-sell-leg lesson promoted as `finding_flow_sign_vs_program_direction` (cross-agent transferable — Run-3 narrowed rule held again). KB-199 palimpsest one-liner applied with the KB-208 promote, as proposed.
 - **Hand-edit hygiene check pattern (NEW):** first spawn-requested audit of SAM same-day hand-edits — PASS verdict with one convention nit. This is a useful standing mode: when SAM hand-files under time pressure, KURA's next run audits format/cross-refs. Keep requesting it in spawn prompts after hand-edit sessions.
 
+### 🛡️ STANDING RUBBER-STAMP GUARD (SAM-owned metric, instituted 2026-07-02 performance review)
+Track **declines-per-10-runs** here. A long streak of 100% acceptance is ambiguous between "well-calibrated proposer" and "rubber-stamping SAM" — the declines are the evidence that adjudication is real. **If 10 consecutive runs pass with zero SAM declines/modifications, the next run's apply pass must include an explicit adversarial read of at least 2 accepted items (write the reasoning here).**
+- Tally as of Run-9: 4 declines/re-routes in 9 runs — KB-185 re-route (Run-3, Will), KB-187 DECLINED premise-fail (Run-5), KB-186 re-route (Run-5), Tankan DECLINED (Run-9). Healthiest decline record of the trio; streak clock not close to triggering.
+
+
 
 ---
 

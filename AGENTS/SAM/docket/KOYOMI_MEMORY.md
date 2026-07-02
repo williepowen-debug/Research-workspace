@@ -303,3 +303,8 @@ State file for the docket-steward sub-agent. Spec is in [`KOYOMI.md`](KOYOMI.md)
 - **CFTC weekly prints: stay EXCLUDED from TSV** (boot.py auto-pulls; adding weekly rows = cadence creep). The Jul-6 row was a one-off HOLIDAY-CONFUSION exception (schedule shifted off the boot-expected Friday), not a precedent. The Jul-10 gate-row candidate (first post-NFP data): DECLINED on the same basis — the Jul-6 row's signal text already points at it.
 - **JGBi / Climate Transition Bond auctions: stay out-of-universe** (flag-only is right); revisit JGBi only if an inflation-expectations read becomes thesis-load-bearing.
 - **Run-11 audit quality note:** 14/14 proposals accepted as drafted (priorities/who_cares unmodified) — the propose-only audit with staged rationale + RELEASES-confirmed dates is exactly the right shape; keep it.
+
+### 🛡️ STANDING RUBBER-STAMP GUARD (SAM-owned metric, instituted 2026-07-02 performance review)
+Track **declines-per-10-runs** here. A long streak of 100% acceptance is ambiguous between "well-calibrated proposer" and "rubber-stamping SAM" — the declines are the evidence that adjudication is real. **If 10 consecutive runs pass with zero SAM declines/modifications, the next run's apply pass must include an explicit adversarial read of at least 2 accepted items (write the reasoning here).**
+- Tally as of Run-11: Jul-10 CFTC gate-row DECLINED (Run-11); TB-in-TSV conflict adjudicated with a ruling (Run-11); Run-9 CFTC-row retention directive (SAM override of the prune rule). Streak clock not triggered.
+
