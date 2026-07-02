@@ -145,7 +145,7 @@
 - [Divergence Needs Fresh Like-for-Like Baseline](finding_divergence_requires_fresh_likeforlike_baseline.md) — divergence: both sides fresh + like-for-like
 - [Workflow Scratch Crash Recovery](finding_workflow_scratch_crash_recovery.md) — salvage /tmp task outputs before re-running
 - [Private-by-Construction Unverifiable](finding_private_by_construction_unverifiable.md) — 144A/Reg-S = structurally unverifiable; re-mark
-- [EDGAR 403 = User-Agent Header](finding_edgar_403_user_agent_header.md) — SEC EDGAR 403 = missing User-Agent, not a block
+- [Gov-Site 403 = User-Agent Header](finding_edgar_403_user_agent_header.md) — SEC/BLS 403 = missing User-Agent, not a block
 - [OCR/Screenshot Input — Verify First](feedback_ocr_verify_input_first.md) — verify OCR/pasted input before theorizing
 - [Git Crash Object-Corruption Recovery](finding_git_crash_object_corruption_recovery.md) — git crash zero-bytes tip: update-ref to last-good
 - [Verify Reader Before Source](finding_verify_reader_before_source.md) — verify the reader before declaring source broken
@@ -193,3 +193,4 @@
 - [Derived-Surface Band Rot](finding_derived_surface_band_rot.md) — derived docs' static bands rot into mis-routers; owner+source per row
 - [Registered Kill-Switch Cost Datum](finding_registered_killswitch_cost_datum.md) — hold verdict, log counterfactual cost, refine next pass
 - [EDGAR FTS Refutes Trade-Press Negatives](finding_edgar_fts_refutes_tradepress_negatives.md) — refute pricing/event negatives via EDGAR full-text before grading
+- [Deep-Research Slate Mining](finding_deep_research_slate_mining.md) — mine self-flagged gaps; adversarial-verify slate
