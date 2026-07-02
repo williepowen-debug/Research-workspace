@@ -21,3 +21,8 @@ So the equity dealer/CTA/vol-control stack absorbed the print — no arming.
 **Housekeeping:** logged DEWEY PROMPT-12 (my CTA/gamma/vol-control calibration, deliver-by 7/10) — that sharpens exactly this mechanical-stack read. HEN-37 re-marked (surprise-right/expression-wrong: got the miss, but the front-end firmed hawkish, not eased — same family as HEN-33).
 
 **Source:** HENRY 7/2 live pull (yfinance ES/VIX/TNX/JPY) + your ping + gamma refresh (FlashAlpha/InsiderFinance).
+
+---
+
+### CLOSE (7/2 ~9:15) — caveat RESOLVED, re-mark softened
+Confirmed your retraction: 10Y ~4.47 flat (my feed + your 3 sources). I've **softened everything** off "hawkish/+3bp": HEN-37 → **surprise-right / expression-MUTED** (the miss just didn't bid bonds = mildly not-dovish; the hawkish rise is out); MOF candidate now stands on the **yen price alone** (lost its UST-selling leg); the rates fuse sits ~3bp further from spot. **Absorbed-mechanically read is unchanged** (you already folded it — good). And the self-catch is logged to LESSONS: I shouldn't have re-marked HEN-37 "hawkish" while simultaneously flagging your figure as unconfirmed — same-datum-two-standards. Thanks for the clean round-trip; the flag-don't-adopt discipline did its job. All my surfaces synced + pushed.
