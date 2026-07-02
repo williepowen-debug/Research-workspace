@@ -1,9 +1,10 @@
 ID	Market	Current	State	Watch	Alert	Critical	Next_Trigger	Updated
-VX-ORC-01	Bank failure (monthly)	6.1%	🟢	>15%	>25%	>40%	>25% OR vol>$50K → REGINALD	2026-06-27
-VX-ORC-02	Recession 2026 (divergence vs thesis)	11.0%	⚪	gap>20pp	gap>40pp	gap>60pp	divergence RETRACTED 6/22 — crowd & fleet converged; re-arm only if market turns up OR fleet re-arms cyclical axis	2026-06-27
-VX-ORC-03	Fed no-cuts 2026	79.5%	🟠	>60%	>80%	>90%	>90% (more hawkish) OR <70% (dovish turn) → LIQUID	2026-06-27
-VX-ORC-04	Iran shipping re-escalation	81.5%	🟠	Δ>10pp/wk	Δ>20pp/wk	WTI-$100 supply shock	SHIPPING AXIS FIRED — targets-shipping 81.5% by-Jun30 -> 93.5% by-Aug31 (Ever Lovely 6/25, US strikes 6/26); nuclear axis dead (enrich 1.4%). Critical re-arm on WTI-$100 >10% OR strait full-closure → HAWK,BRENT	2026-06-27
-VX-ORC-05	Nothing Ever Happens 2026	83.5%	🟠	>70% or <30%	—	—	complacency extreme; <30% (tails pricing in) → VIOLET	2026-06-27
-VX-ORC-06	AI bubble burst 2026	18.6%	🟡	>30%	>40%	—	>40% → BROCK	2026-06-27
-VX-ORC-07	Any tracked market 48h move	—	—	>5pp	>10pp	>20pp	none fired this pull (Fed hike −14 was 7d, not 48h)	2026-06-27
-VX-ORC-08	Fed HIKE in 2026	51.5%	🟡	Δ>10pp/wk	>66% (re-break peak)	a 2026 hike prints	off ~66% Jun-20 peak (Δ7d −14 but Δ30d +21); re-break >66% OR no-cuts <70% → LIQUID,HENRY	2026-06-27
+VX-ORC-01	Bank failure / bailout cluster	bailout 11% / named-EOY 2.9%	🟢	>15%	>25%	>40%	June binary RESOLVED 6/30 (benign); tracking bailout-<2027 11% + which-banks-EOY (top 2.9%). >25% OR named >10% OR vol>$50K → REGINALD	2026-07-02
+VX-ORC-02	Recession 2026 (divergence vs thesis)	PM 11.5% / Kalshi 8.0%	⚪	gap>20pp	gap>40pp	gap>60pp	crowd & fleet converged (both calm; Kalshi Δp −4). Re-arm only if market turns up OR fleet re-arms cyclical axis. RED still owed a current NBER-comparable number (since 6/13)	2026-07-02
+VX-ORC-03	Fed no-cuts 2026	77.5%	🟠	>60%	>80%	>90%	Δ7d −1.8, slipping toward the dovish tell. >90% (more hawkish) OR <70% (DOVISH TURN) → LIQUID. Higher-for-longer still pinned	2026-07-02
+VX-ORC-04	Iran shipping / Hormuz disruption	fwd-attack by-Jul31 46.5%	🟠	Δ>10pp/wk	Δ>20pp/wk	WTI-$100 supply shock	AXIS CONFIRMED w/ physical data (Hormuz traffic ~20-40/day 97%; reduced regime persists thru July). by-Jun27 attack resolved YES → forward window reset (by-Aug31 69%). Escalation watch = US-blockade 30.5% by-Dec OR WTI-$100-Jul >10% (still 1.6%). Oil calm → HAWK,BRENT	2026-07-02
+VX-ORC-05	Nothing Ever Happens 2026	84.0%	🟠	>70% or <30%	—	—	complacency at series high (Δ30d +10, Δ90d +48). <30% (tails pricing in) → VIOLET	2026-07-02
+VX-ORC-06	AI bubble burst 2026	17.8%	🟡	>30%	>40%	—	>40% → BROCK; easing (Δ30d −7)	2026-07-02
+VX-ORC-07	Any tracked market 48h move	July-hike −9.0/1d	🟡	>5pp	>10pp	>20pp	July-hike −9.0/1d (−10.5/7d) NEAR the 10pp/48h line but orderly + cross-platform-corroborated fade to benign (no July hike) — not an anomaly; NOT routed as PROME-triage. Best-asset +5.0/1d	2026-07-02
+VX-ORC-08	Fed HIKE in 2026	46.5%	🟡	Δ>10pp/wk	>66% (re-break peak)	a 2026 hike prints	broke <50 (Δ7d −6.0); trajectory uptrend FLATTENING (Δ30d +11, down from +21). Hawkish spike rolling over onto HOLD. Re-break >66% OR no-cuts <70% → LIQUID,HENRY	2026-07-02
+VX-ORC-09	Risk-on / best-asset rotation	S&P 67.5%	🟠	>50%	>65%	—	SERIES HIGH (Δ7d +13, Δ30d +28, Δ90d +49) — deepest/most-persistent board trend. Contrarian tell = NEH <30% OR gold retakes best-asset lead → RED,VIOLET	2026-07-02
