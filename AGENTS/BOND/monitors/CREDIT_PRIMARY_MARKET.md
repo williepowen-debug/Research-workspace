@@ -1,7 +1,7 @@
 # BOND Monitor — Credit Primary Market Function
 
 **Owner:** BOND
-**Last Updated:** 2026-05-11 by PROME
+**Last Updated:** 2026-07-01 by BOND
 **Purpose:** Track whether HY/IG borrowers can access public debt markets, and when market access closes enough to transmit stress to banks/equities.
 
 ## Core Thresholds
@@ -15,7 +15,7 @@
 
 ## Current Read
 
-**🟢 Public credit primary market still functional.** FRED cash spreads are tight and SIFMA shows U.S. corporate-bond issuance **$1,013.9B through April 2026, +28.2% YoY**. That directly weakens the Mar 26 BOND thesis that the issuance freeze was already activating.
+**🟢 Primary market in BOOM, not freeze — Apr–Jun ran the mechanism in reverse (resolves BND-02 FAILED).** April HY priced **$40B** (2nd-highest month since 2021, pricings on 68% of business days; LCD/PitchBook via Wayback), May opened at a "heady pace," late June ran ~$7B in a single week, and June IG set a **record ~$175–187B** (Nvidia $25B upsized on $85B orders; SpaceX debut $89B books). Zero pulled deals found 6/20–7/1. The AI-capex borrowing wave is the driver. Residual watch: CCC OAS (970) widened into the 6/24–26 equity risk-off and did **not** retrace while headline HY did (283→275) — the PIMCO default-cycle bifurcation lives in the tail, not in market access. SIFMA YTD-through-May: $1,226.8B combined IG+HY (monthly split gated).
 
 ## Rolling Table
 
@@ -23,6 +23,7 @@
 |---|---:|---:|---:|---|---|---|
 | 2026-03-26 | 319bps | ~87bps | Janus Henderson pulled / loan deal pulled | Multiple stress anecdotes | 🟠 activating then | BOND Mar seed / FT |
 | 2026-05-08 | 281bps | 79bps | Corp issuance $1,013.9B through Apr, +28.2% YoY | No broad freeze confirmed | 🟢 functional | FRED / SIFMA search result May 2026 |
+| 2026-06-30 | 275bps (283 peak 6/26) | 76bps | Apr HY $40B; June IG record ~$175-187B; late-June HY ~$7B/wk | **None found 6/20–7/1** | 🟢 **boom** | FRED + LCD-via-Wayback + KB-BND-063 |
 
 ## Cross-Agent Use
 

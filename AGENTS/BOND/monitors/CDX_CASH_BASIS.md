@@ -1,7 +1,7 @@
 # BOND Monitor — CDX/Cash Credit Basis
 
 **Owner:** BOND
-**Last Updated:** 2026-06-20 by BOND
+**Last Updated:** 2026-07-01 by BOND
 **Purpose:** Detect when faster synthetic/hedging credit demand leads cash spread repricing.
 
 ## Working Model
@@ -18,9 +18,9 @@ True **CDX.HY / CDX.IG index levels are owned by S&P Global / Markit and are NOT
 - **What the proxy CAN see:** faster-cash (liquid ETF/hedging layer) vs slower-cash (computed OAS) lead/lag.
 - **What it CANNOT see:** HYG is *cash*, not *synthetic*. The genuinely synthetic, fast-money signal is **HYG option put-skew / implied vol** — that lives in **VIOLET's** domain (options/vol). For the true synthetic read, request HYG skew from VIOLET. True CDX needs the **S&P Global MCP connector (auth required)** or a paid Markit feed.
 
-## Current Read (6/18, refreshed live 6/20)
+## Current Read (7/1)
 
-**🟢 Proxy live — NO sustained divergence. Cash calm corroborated.** HYG/IEF = 0.8479 (6/18), **75th percentile** of its 3-month range (0.8229-0.8507), z20 −0.40. A single-day z-dip to **−1.54 on 6/16** (FOMC-adjacent) normalized within two sessions — NOT the 2+ week sustained divergence the trigger requires. LQD/IEF (IG) still rich (z +0.43). Confirms cash HY OAS 263 (6/17) / IG 74: the hawkish 6/17 FOMC and the Iran re-escalation did NOT transmit to credit, and the fast/hedging layer shows no hidden stress under the calm.
+**🟢 No true divergence — the 6/24–26 z-breach FAILED the sign-check.** The proxy breached the −1.5 trigger for three sessions (z20 −3.28 / −2.58 / −2.82, 6/24–26) — but cash HY OAS was widening **concurrently** (276→283), so the fast layer did not LEAD cash; both were co-moving beta to an equity/tech risk-off (Apple price-hike → AI-demand fears, VIX 18.9). That is a **co-move, not a divergence** — the trigger's spirit ("z < −1.5 *while HY tight*") did not fire. Fully normalized by 7/1 (z −0.17, ratio 0.8464, 58th pctile of 3mo). LQD/IEF dipped in sympathy (−2.87 on 6/26) and recovered (−1.38). Vector holds 1. Lesson logged: **sign-check the two legs before calling a divergence** — the trigger requires cash STILL TIGHT while the proxy breaks.
 
 ## Rolling Table
 
@@ -31,6 +31,8 @@ True **CDX.HY / CDX.IG index levels are owned by S&P Global / Markit and are NOT
 | 2026-05-20 | 286bps | 0.8504 (+1.86) | — | proxy z-spike = IEF/duration weakness, NOT credit | yfinance + FRED |
 | 2026-06-05 | 274bps | 0.8484 (+0.36) | 1.1554 | 🟢 no divergence — credit-excess rich | yfinance + FRED |
 | 2026-06-18 | 263bps | 0.8479 (−0.40) | 1.1559 | 🟢 no sustained divergence (brief 6/16 z −1.54 normalized) | yfinance + FRED |
+| 2026-06-24→26 | 276→283bps | 0.8429→0.8401 (**−3.28→−2.82**) | 1.1550→1.1523 (−2.87) | 🟡 z-breach but **co-move w/ cash widening = NOT divergence** (equity-beta episode) | yfinance + FRED (KB-BND-063) |
+| 2026-07-01 | 275bps (6/30) | 0.8464 (−0.17) | 1.1535 (−1.38) | 🟢 normalized; vector holds 1 | cdx_proxy.py run 7/1 |
 
 ## Triggers
 
