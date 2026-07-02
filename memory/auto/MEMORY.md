@@ -194,3 +194,4 @@
 - [Registered Kill-Switch Cost Datum](finding_registered_killswitch_cost_datum.md) — hold verdict, log counterfactual cost, refine next pass
 - [EDGAR FTS Refutes Trade-Press Negatives](finding_edgar_fts_refutes_tradepress_negatives.md) — refute pricing/event negatives via EDGAR full-text before grading
 - [Deep-Research Slate Mining](finding_deep_research_slate_mining.md) — mine self-flagged gaps; adversarial-verify slate
+- [Ratio-Gauge Denominator Branch](finding_ratio_gauge_denominator_branch.md) — grade ratio thresholds jointly w/ denominator; pre-register artifact branch
