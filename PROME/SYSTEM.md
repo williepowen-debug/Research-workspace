@@ -178,7 +178,7 @@ Default to compact tool output so long sessions don't bloat the transcript. *(Re
 
 ## Freshness Discipline
 
-Trust each file's own `Updated:` stamp over any table here (behavior-language beats date-pinning — stamps decay). At boot, refresh in order: `HEARTBEAT.md` (regime) → `PROME/SCRATCH.md` + `HANDOFF.md` (session continuity) → `STATUS.md` / `ACTIVE_DECISIONS.md` (state).
+Trust each file's own `Updated:` stamp over any table here (behavior-language beats date-pinning — stamps decay). Boot-refresh order is owned by `PROME/BOOT.md` — follow its sequence; don't maintain a competing order here (spine-audit 7/1: this paragraph had drifted from the owner doc).
 
 - **Live market levels:** always re-run `FORGE/tools/market-data/dashboard.py` / `fetch.py` before citing — never quote levels from state files.
 - **Position / execution truth:** Will/broker direct (**off-repo**), not these docs — FORGE is only the stale structured mirror. The legacy `POSITIONS.md`/`TRADE_DECISIONS.md` decision-support docs were retired 2026-06-30 (POSITIONS deleted — held a broker balance; TRADE_DECISIONS → `PROME/archive/`), superseded by FORGE + **TERRY** (trade construction / risk). `FORGE/STATUS.md` refresh before use.

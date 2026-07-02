@@ -47,13 +47,15 @@ Full definitions in `FORGE/tools/market-data/config.py`. The live trigger-lines 
 |---|---|---|---|
 | **✅ RESOLVED (6/29)** | Sun 6/28 CME oil-futures reopen = decoupling test (post Iran re-escalation) | BRENT/HAWK | **HOLDS / no action.** Brent $73.30 held <$74 through the whole sustain window despite the 6/27-28 US↔Iran strike exchange — decoupling survived its hardest kinetic test, RED-FT-04 did not invert, no re-arm fired ($500 USO card untouched, standing-rule held). **Energy tail RE-ARMING → fragile-watch** (commercial P&I not yet resumed). BRENT owns the thesis-integrity follow-up. |
 | **✅ RESOLVED (6/24)** | 6/24 HY OAS print | LIQUID/Prome | Posted **276** (271→276) — widened; 6/25 followed at **278**, now **2bp from the >280 X1-trigger**; kill-line reset but bear-watch tightening. Next HY print is the one to watch vs 280. |
-| **Fri 6/26** | CFTC COT (data as of 6/23 — first post-BOJ-hike + post-FOMC) | SAM/LIQUID | vs the −150,132 baseline (Jun-16 data, printed 6/22 = 83.4% of the −180K peak): build >−153K **strengthens** the carry-convexity tail; cover <−140K **de-loads** it. Verify vs CFTC primary. |
+| **✅ Fri 6/26 (printed; graded 1/2 by BRENT's trigger — next COT Mon 7/6, July-4 slide)** | CFTC COT (data as of 6/23 — first post-BOJ-hike + post-FOMC) | SAM/LIQUID | vs the −150,132 baseline (Jun-16 data, printed 6/22 = 83.4% of the −180K peak): build >−153K **strengthens** the carry-convexity tail; cover <−140K **de-loads** it. Verify vs CFTC primary. |
 | **Late Jun–early Jul** | MOF intervention watch (USD/JPY 162–163) | SAM | Rate-checks = pre-strike tell. Regime signal only — FXY position closed 6/25, no longer pays us. Speed not level. |
-| **Mon 6/30 (now past)** | Month-end $165B rebalance into a negative-gamma tape | NEXUS/VIOLET/HENRY | **Cascade-vs-rotation gate** — occurred 6/30 (grade → NEXUS, `AGENTS/NEXUS/STATUS.md`); does the M-09 positioning unwind cascade or get absorbed? Net GEX −$25→−$49B = amplification fuel. |
+| **Tue 6/30 (past)** | Month-end $165B rebalance into a negative-gamma tape | NEXUS/VIOLET/HENRY | **Cascade-vs-rotation gate** — occurred 6/30 (grade → NEXUS, `AGENTS/NEXUS/STATUS.md`); does the M-09 positioning unwind cascade or get absorbed? Net GEX −$25→−$49B = amplification fuel. |
 | **Thu 7/2, 8:30 ET** *(date verified 7/1 vs BLS schedule — prior docket said "7/3", but Fri 7/3 = July-4 observed holiday; CFTC COT slides to Mon 7/6)* | June NFP (pulled forward) | LABOR/HENRY | Soft print accelerates growth-leg + inverse-feedback. |
-| **Mon 7/14** | June CPI | HENRY/CARL/LIQUID | The real energy-washout / disinflation test (May PCE couldn't show it). |
+| **~Fri 7/3** | BRK-29 PE-evergreen tape-trigger window closes | BROCK | 1-of-2 fired (PG); 2nd unfired — leans LAPSE. |
+| **Tue 7/14** | June CPI | HENRY/CARL/LIQUID | The real energy-washout / disinflation test (May PCE couldn't show it). |
 | **7/15-22** | Q2 monolines / Axis-A (SYF/ALLY/COF) | REGINALD/CARL/NEXUS | NEXUS's first **un-maskable** M-08 transmission test (unsecured consumer — can't mask deterioration on a shrinking base). Precedes BDC marks 7/25-28. |
-| **Mon 7/28** | ARCC Q2 (first read; BXSL ~early Aug) | BROCK/CARL | Top-tier/disciplined-name marks = highest-signal for wrapper-leading recognition (FSK/OBDC already priced). NA% / NAV / PIK / coverage. |
+| **~Thu 7/16** | OZK/WAL Q2 prints — bank-put reshape fire gate | REGINALD/PROME/TERRY | Corrected from Jul-30 (6/26). Fire needs live broker book (rule #4) + `firetime_check` on the proposal. |
+| **Tue 7/28** | ARCC Q2 (first read; BXSL ~early Aug) | BROCK/CARL | Top-tier/disciplined-name marks = highest-signal for wrapper-leading recognition (FSK/OBDC already priced). NA% / NAV / PIK / coverage. |
 
 ## Blocking / Pending
 

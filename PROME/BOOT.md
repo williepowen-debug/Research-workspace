@@ -19,7 +19,7 @@
 - **No agent edits** unless Will explicitly approves.
 - **No trade execution.** Old trade rails remain verification-required until broker/Will reconciliation.
 - **External/public sends require approval.**
-- **Push is auto at closeout** via ff-gated `scripts/safe-push.sh` (single-machine canon, per root `CLAUDE.md` Git Protocol) — *not* per-push Will approval. Committing your own `PROME/` files is fine; **shared/root** docs still need Will scope/approval. A **non-ff abort = the other machine pushed** (serial multi-machine, routine) → **do NOT force; `git pull --rebase` + re-push**; escalate to Will only on out-of-dir conflicts or mid-session recurrence.
+- **Push is auto at closeout** via ff-gated `scripts/safe-push.sh` (serial multi-machine canon, per root `CLAUDE.md` Git Protocol) — *not* per-push Will approval. Committing your own `PROME/` files is fine; **shared/root** docs still need Will scope/approval. A **non-ff abort = the other machine pushed** (serial multi-machine, routine) → **do NOT force; `git pull --rebase` + re-push**; escalate to Will only on out-of-dir conflicts or mid-session recurrence.
 - **Shared repo coordination:** when YEYOU or another agent has local/branch work, use `PROME/GIT_COORDINATION.md` before committing, merging, or pushing.
 - **Multi-agent orchestration:** before spawning >1 agent, apply the **mode-split rule** (`PROME/ORCHESTRATION_PLAYBOOK.md`) — fan-out/Workflow for parallel-identical work, live teams-mode only for the decision spine. Carry the deliver-before-idle contract into every spawn prompt; go quiet to Will while agents work.
 
@@ -52,11 +52,11 @@ Canonical doc-ownership / trust map: `PROME/SYSTEM.md` → **Boot Trust Stack** 
    - **Fire-time gate:** `cd "$(git rev-parse --show-toplevel)" && python3 scripts/firetime_check.py --window 7 --quiet` — checks fire-path artifacts cited by `PROME/DOCKET.tsv` rows ≤7d out (dead pointers / date drift / canon-ordering). **A DATE flag ⇒ full logic re-read of the artifact** (a date fix can break gate sequencing — 7/1 WAL case), never a find-replace.
 6. **Decide conditional reads:**
    - `PROME/FLEET_SCAN.md` only for fleet/market-state work, stale-state risk, or Will-requested audit.
-   - `AGENTS/*/outbox/*to-PROME*` only for operational routing/signal work. The old `AGENTS/PROME/` inbox tree is archived under `PROME/archive/` and is archaeology, not live intake.
+   - `AGENTS/*/outbox/*to-PROME*` only for operational routing/signal work — **and include `AGENTS/PROME/inbox/` in that scan**: the tree was nominally archived 6/25, but WALTER SIGs have landed there since (6/26, 6/27 — spine-audit finding 7/1), so treat it as a live legacy delivery surface until the messaging overhaul re-homes it. Pre-6/25 contents under `PROME/archive/` remain archaeology.
    - Prome implementation/identity docs (`PROME/CLAUDE.md`, `PROME/SYSTEM.md`) only for implementation work.
    - `PROME/CLOSEOUT.md` before `/clear`, `/new`, or durable handoff.
 7. **Declare boot state briefly:** synced/dirty, current regime source, market-data freshness posture, top pending decision/work lane, and any blocker.
-8. **Flag top issues:** catalysts within 24h, stale agents, pending decisions, blockers, and a stale spine-audit stamp (`PROME/STATUS.md` header "Last spine audit" >7d → run `PROME/tools/spine_audit.workflow.js` this session or flag it).
+8. **Flag top issues:** catalysts within 24h, stale agents, pending decisions, blockers, and a stale spine-audit stamp (`PROME/STATUS.md` header "Last spine audit" >7d — **or missing = stale** → run `PROME/tools/spine_audit.workflow.js` this session or flag it).
 9. **Present top proposals** only when useful; max 5, ranked by urgency/position relevance.
 
 ---

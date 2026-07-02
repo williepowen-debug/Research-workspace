@@ -21,21 +21,21 @@ Skip for casual one-off exchanges with no artifacts.
 ## Pre-closeout (~1 min)
 
 1. `git status --short` — review what's changed
-2. **Foreign uncommitted work is fine and does NOT block closeout** — pathspec commits + `safe-push.sh` never touch another agent's tree (see Chunk 4). The real pre-commit check is that you are about to commit only your own `PROME/` scope (+ any Will-approved per-instance paths, e.g. `memory/`) — *not* that the tree is otherwise clean. The old `AGENTS/PROME/` tree is archived and no longer a live Prome work surface.
+2. **Foreign uncommitted work is fine and does NOT block closeout** — pathspec commits + `safe-push.sh` never touch another agent's tree (see Chunk 4). The real pre-commit check is that you are about to commit only your own `PROME/` scope (+ any Will-approved per-instance paths, e.g. `memory/`) — *not* that the tree is otherwise clean. The old `AGENTS/PROME/` tree is not a Prome WORK surface — but its `inbox/` still receives occasional deliveries (spine-audit finding 7/1); the boot scan covers it, closeout doesn't.
 3. Mentally list this session's artifacts: proposals decided, files written, prototypes run, decisions made
 4. Check transcript hygiene: if the session produced huge tool dumps, preserve the durable result in files/memory and avoid restating raw output. Prefer compact summaries unless full output matters.
 5. Decide closeout scope:
 
 | Tier | When | Touches | Commit? |
 |---|---|---|---|
-| **Bounce** | Mid-day restart for config/tmux/clear/branch; you're coming right back within the hour | SCRATCH addendum (3-5 lines) | No |
+| **Bounce** | Mid-day restart for config/tmux/clear/branch; you're coming right back within the hour | SCRATCH addendum (3-5 lines) | Optional 1-line checkpoint (see procedure below) |
 | **Light** | Short session paused for hours; 1-2 artifacts; audit can wait for end-of-day Standard | SCRATCH full rewrite + STATUS surgical | Optional |
 | **Standard** *(default)* | End-of-thread or end-of-day; multi-artifact session | All Chunk 1 + Chunk 2 daily log (+ auto-memory if a lesson earned) + Chunk 4 commit + `safe-push.sh` | Yes, auto-push |
 | **Heavy** | Pattern-discovery session; new designs/patterns to fold | Standard + design-docs + Chunk 3 residuals | Yes, auto-push |
 
 End-of-day always runs at least Standard so the audit trail catches up. 10 Bounces + 1 end-of-day Standard = no audit gap, just a rollup HANDOFF entry covering the day.
 
-**Bounce procedure (the truly minimal):** append 3-5 lines to `PROME/SCRATCH.md` — (a) what just happened, (b) what's pending, (c) next-session entry point. No STATUS, no HANDOFF, no daily log, no auto-memory. **Optional but recommended — a 1-line checkpoint commit** so the addendum survives a non-clean resume (crash / `git checkout` / reset): `git commit -m "PROME: bounce checkpoint" -- PROME/SCRATCH.md` (~5s). Without it the SCRATCH addendum is uncommitted working-tree state that a bad resume can lose. Total time: ~30-40 seconds.
+**Bounce procedure (the truly minimal):** append 3-5 lines to `PROME/SCRATCH.md` — (a) what just happened, (b) what's pending, (c) next-session entry point. No STATUS, no HANDOFF, no daily log, no auto-memory. **Optional but recommended — a 1-line checkpoint commit** so the addendum survives a non-clean resume (crash / `git checkout` / reset): `cd "$(git rev-parse --show-toplevel)" && git commit -m "PROME: bounce checkpoint" -- PROME/SCRATCH.md` (~5s; repo-root cwd per root canon step 0). Without it the SCRATCH addendum is uncommitted working-tree state that a bad resume can lose. Total time: ~30-40 seconds.
 
 ---
 
@@ -170,6 +170,9 @@ If none triggered, skip.
 ### Git sequence
 
 ```
+cd "$(git rev-parse --show-toplevel)"                    # ⚠️ STEP 0 (root CLAUDE.md Before-committing item 0): ALL git ops + safe-push
+                                                         #    from repo root — from PROME/'s launch cwd, `git status -- PROME/ memory/`
+                                                         #    SILENTLY FALSE-PASSES (pathspecs are cwd-relative). Spine-audit catch 7/1.
 git status --short                                       # overview of everything that changed this session
 git status -- PROME/ memory/                             # ⚠️ MANDATORY pre-commit check (root CLAUDE.md "Before committing" item 5):
                                                          #    no dangling deletions (bash-mv residue), no forgotten new files, nothing staged outside scope
@@ -189,11 +192,11 @@ git status --short --branch                              # final: confirm clean 
 
 **Never `git reset HEAD`** — shared `.git/index` makes it a global unstage that races concurrent agents (auto-memory `[[finding_pathspec_commit_race_safety]]`, incident `8ac5bf71`). The scoped `git status -- PROME/ memory/` in the sequence above **is** root `CLAUDE.md`'s mandatory pre-commit check (item 5) — run it every time; see root `CLAUDE.md` "Before committing" for the full 5-step protocol.
 
-**Auto-push at closeout (Will 2026-06-26; premise updated to serial multi-machine 2026-07-01).** Run `./scripts/safe-push.sh` as the closeout tail — it ff-gates the push and safely sweeps the push-train (`[[finding_push_train_pattern]]`). It **fails safe**: a non-fast-forward ABORT = the other box pushed since this clone last pulled → do not force; `git pull --rebase` + re-push (**routine** under serial multi-machine). Escalate to Will only on out-of-dir rebase conflicts or mid-session recurrence — the signatures of two machines running simultaneously, which the protocol forbids. The script never pulls/touches a shared working tree, so other agents' uncommitted edits are never at risk. *CANONICAL since 2026-06-26 — soak passed, Tier-1 promoted: root `CLAUDE.md` + `PROME/GIT_COORDINATION.md` + `[[feedback_defer_push_coordinate]]` all say auto-push-at-closeout. Lazy-sweep complete 2026-06-27 — all active domain agents on auto-push except 2 intentional holdouts (**TERRY** self-sweep, **WALTER** architectural); **YEYOU** is manual/branch (special, non-domain). Canonical record: the **Auto-push migration** row in `PROME/ACTIVE_DECISIONS.md`.*
+**Auto-push at closeout (Will 2026-06-26; premise updated to serial multi-machine 2026-07-01).** Run `./scripts/safe-push.sh` as the closeout tail — it ff-gates the push and safely sweeps the push-train (`[[finding_push_train_pattern]]`). It **fails safe**: a non-fast-forward ABORT = the other box pushed since this clone last pulled → do not force; `git pull --rebase` + re-push (**routine** under serial multi-machine). Escalate to Will only on out-of-dir rebase conflicts or mid-session recurrence — the signatures of two machines running simultaneously, which the protocol forbids. The script never pulls/touches a shared working tree, so other agents' uncommitted edits are never at risk. *CANONICAL since 2026-06-26 — soak passed, Tier-1 promoted: root `CLAUDE.md` + `PROME/GIT_COORDINATION.md` + `[[feedback_defer_push_coordinate]]` all say auto-push-at-closeout. Lazy-sweep complete 2026-06-27 — all active domain agents on auto-push except 2 intentional holdouts (**TERRY** self-sweep, **WALTER** architectural); **YEYOU** is manual/branch (special, non-domain). Canonical record: root `CLAUDE.md` Git Protocol + HANDOFF/archive (the terminal ACTIVE_DECISIONS row was removed 7/1 per its own rules).*
 
 Commit message style: subject = `PROME: <short one-liner>`; body explains WHY not WHAT when useful. **Option order matters:** put `-m` before `--`; everything after `--` is treated as a pathspec.
 
-Other agents' uncommitted work outside `PROME/` does NOT block the push — `safe-push.sh` pushes only committed work and never touches the tree. It will sweep any other agent's committed-but-unpushed commits (the push-train — expected/correct). Only a non-ff abort stops it (cross-machine push → flag to Will).
+Other agents' uncommitted work outside `PROME/` does NOT block the push — `safe-push.sh` pushes only committed work and never touches the tree. It will sweep any other agent's committed-but-unpushed commits (the push-train — expected/correct). Only a non-ff abort stops it — routine under serial multi-machine: `git pull --rebase` + re-push (escalate to Will only on out-of-dir conflicts or mid-session recurrence).
 
 ### Session summary to Will
 

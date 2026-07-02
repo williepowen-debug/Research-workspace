@@ -103,7 +103,7 @@ Push is auto at closeout via ff-gated `scripts/safe-push.sh` (see Push Disciplin
 
 Push is **automated at closeout** via `scripts/safe-push.sh`, predicated on **serial multi-machine operation** (Will 2026-07-01: one machine at a time, close-out-push before switching; original single-machine decision Will 2026-06-26 — OpenClaw/VPS cut). The script:
 
-1. `git status --short --branch` + `git fetch` + `git rev-list --left-right --count HEAD...origin/master`.
+1. On-branch + shallow-clone guards, `git fetch origin master`, then a `merge-base --is-ancestor` fast-forward gate (one-sided `rev-list --count origin/master..HEAD` for the commit count).
 2. Pushes only on a clean **fast-forward**; **aborts cleanly if origin has commits we don't** (never force, never pull a shared tree).
 3. One closeout push sweeps all agents' local commits — the push-train, now automated.
 

@@ -1,5 +1,6 @@
 # PROME STATUS.md
-**Updated:** 2026-07-01 PM (Prome, Heavy closeout #2) — **cwd-proof fleet sweep (20 agents) + 18-reader audit · serial-multi-machine root amendment LANDED · HY watch → RESEARCH-INTAKE (machine-independent) · FRED key scrubbed (10 files) · NFP docket → Thu 7/2.** No trade (standing rule held). AM session: BATCH_02 dispositioned + CLOSEOUT hardened. **PM-3: PROME .md hygiene pass applied** (24-file audit → 2 docs archived, spine reconciled to serial-multi-machine canon, completed queue rows collapsed). *Detail → SCRATCH + HANDOFF + memory/2026-07-01.md.*
+**Updated:** 2026-07-01 PM (Prome, Heavy closeout #2) — **cwd-proof fleet sweep (20 agents) + 18-reader audit · serial-multi-machine root amendment LANDED · HY watch → RESEARCH-INTAKE (machine-independent) · FRED key scrubbed (10 files) · NFP docket → Thu 7/2.** No trade (standing rule held). AM session: BATCH_02 dispositioned + CLOSEOUT hardened. **PM-3: PROME .md hygiene pass applied** (24-file audit → 2 docs archived, spine reconciled to serial-multi-machine canon, completed queue rows collapsed) **+ freshness mechanisms built** (DOCKET.tsv · firetime_check.py · spine audit). *Detail → SCRATCH + HANDOFF + memory/2026-07-01.md.*
+**Last spine audit:** 2026-07-01 (first run — 5 readers, 5 blocking found + fixed same session; re-run when >7d, missing = stale).
 
 ## Core State
 
@@ -19,12 +20,10 @@
 |---|---|---|
 | `AGENTS/CREED/` | National CRE / CMBS + public REIT equity tape | REITS tape absorbed; CREED remains explicit-permission Claude Code roster. |
 | `AGENTS/CREED/research/REIT_EQUITY_TAPE_MODULE_2026-06-21.md` | REIT tape module | Public REIT tape trigger design; not fresh market data. |
-| `AGENTS/REITS/` | Dormant source archive | Do not launch unless Will explicitly revives. |
 | `AGENTS/TERRY/` | Trade construction | Now owns old TRADES verification playbook + risk scoring/calibration. |
 | `AGENTS/TERRY/RISK_SCORING.md` | TERRY risk scoring | Edge, capped Kelly, Brier calibration, execution-block checklist. |
-| `AGENTS/TRADES/` | Dormant source archive | Old candidate scratchpad; not live trade rail. |
 | `AGENTS/ORACLE/PREDICTION_MARKET_METRICS.md` | Prediction-market diagnostics | Entropy, KL bits, entropy-collapse alerts, ORACLE→TERRY packet. |
-| `HEARTBEAT.md` | Regime pointer | Weekend/Fri-close orientation only unless refreshed. |
+| `HEARTBEAT.md` | Regime pointer | Base 6/25, amended through 7/1; refresh dashboard/FRED before citing any level as current. |
 
 ---
 
@@ -51,7 +50,7 @@
 ## Rules of Engagement
 
 - **No auto-trading.** ORACLE measures; TERRY evaluates; Will approves.
-- **No REITS/TRADES live launch** unless Will explicitly revives.
+- **No REITS/TRADES/HERMES revival** without Will — folders were removed entirely 6/30 (git-history recoverable; per `PROME/ROSTER.md`), so revival = history-restore + Will approval, not a launch.
 - **No CREED full migration** unless explicitly approved.
 - **Do not move/delete legacy source archives** unless scoped.
 - **Pathspec commits only;** never broad add/reset/stash/force-push.
