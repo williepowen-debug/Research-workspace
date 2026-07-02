@@ -4,7 +4,7 @@
 
 **Purpose:** Pre-written 1-pager so the decision is mechanical when a level is touched, not re-thought under tape pressure. **Two-sided:** the **kill/exit** side (<260, original) AND the **widening/confirm-escalate** side (>280 X1 decoupling / >320 confirmation) — the live regime is now on the WIDENING side.
 **Built:** 2026-05-18 (revival session — kill side). **X1-confirm side added 2026-06-25.**
-**Current state:** HY OAS sits in the 270–280 hold band, backed up off the June soft-kill low — the live edge is the WIDENING (>280 X1) side, not the kill. Book FLAT of LIQUID single-names. *(Live bps + active rung: `scripts/boot.py` / `alerts/HY_OAS_STATE`.)*
+**Current state (7/1):** the 280 line was **TAGGED for the first time since this side was built — 283 (6/26) → 280 (6/29) → 275 (6/30)** — then retreated to the 270–280 hold band. Ruled TAGGED-NOT-SUSTAINED; solo-half rule applied (log + hold — see drill log); BROCK's wrapper-leads adjudication is the gating item (outboxed 7/1). Book FLAT of LIQUID single-names. *(Live bps + active rung: `scripts/boot.py` / `alerts/HY_OAS_STATE`.)*
 **Trigger source:** HEARTBEAT line 80 (*"Reassess if APO >$130 for 3 sessions or HY OAS <260 sustained"*) + the X1 decoupling conjunction (KB-LIQ-062: wrapper-leads [BROCK] **AND** HY>280 [LIQUID]).
 **Why this exists:** one shock day touches a level; the memo fires *before* the breach so execution is calm — on either side.
 
@@ -101,4 +101,4 @@ Actions taken: [list cuts]. Re-framed positions: [list].
 
 | Date | Trigger fired | HY OAS print | Actions taken | Outcome |
 |------|--------------|-------------|---------------|---------|
-| — | — | — | — | — |
+| 2026-07-01 (window 6/26-6/30) | **None fired — X1 LIQUID half TAGGED** (283 6/26 / 280 6/29 ×2 sessions ≥280, then 275 6/30) | 283 peak [FRED 6/26] | Ruled TAGGED-NOT-SUSTAINED (retreat next session; Q-end window per mechanical-check §4). Solo-half rule applied: logged + held, NO proposal. Cross-checks at tag: CCC-BB 800 (wide, pin intact), VIX n/a-not-pulled, duration easing (10Y 4.38). Outbox → BROCK for the wrapper-leads half | Retreated to hold band; watch re-tag. BROCK adjudication owed |

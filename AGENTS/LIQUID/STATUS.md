@@ -1,5 +1,5 @@
 # LIQUID STATUS
-**Last Updated:** 2026-06-26 | **Agent:** LIQUID | **Status:** 🟠 **Credit-bear ARMED — pre-trigger, entry-gated, NOT shelved.** The kill is dead, the bear is not.
+**Last Updated:** 2026-07-01 | **Agent:** LIQUID | **Status:** 🟠 **Credit-bear ARMED — X1 LIQUID half TAGGED (283 6/26, 280 6/29 → 275 6/30), not sustained.** The kill is dead, the bear is not.
 
 > **No live levels in this file.** Run `scripts/boot.py` (3-dashboard live sweep — Credit / Domestic / Foreign) for every current price/spread/yield; it classifies against the same thresholds referenced here. State files carry *posture and pointers*, not quotes (they rot). HY OAS is auto-watched between sessions by `scripts/hy_oas_watch.py` (systemd timer; alerts → `alerts/HY_OAS_ALERTS.log`).
 
@@ -10,11 +10,14 @@
 ## Current State (posture, not levels)
 
 - **Credit-bear timing = ARMED** — pre-trigger, entry-gated on the X1 conjunction (HY OAS >280 sustained **AND** wrapper-basket-leads-managers-down). Thesis LIVE and substance firming; never frame as "paused" (KB-LIQ-063).
+- **X1 LIQUID half TAGGED, not sustained (7/1 read):** HY OAS printed **283 (6/26) → 280 (6/29) → 275 (6/30)** — the first tag of the 280 line since the X1 side was built. Treated as TAGGED-NOT-SUSTAINED; per the KILL_MEMO solo-half rule, even a full solo fire = log + hold — **the gating item is BROCK's wrapper-leads adjudication (owed; outboxed 7/1)**. No proposal.
+- **LIQ-03 RESOLVED ACHIEVED-at-letter, TAIL-FORM (7/1):** PC/MM CLO senior AAA repriced through 160 in the Mar-Apr stress (Diameter S+170/185, SEC-primary; cohort 138-149 pre-stress) while **benchmark BSL AAA never exceeded ~S+125 avg** and CLOIE AAA stayed positive — **within-AAA bifurcation**, the KB-LIQ-058 signature extended into the safest tranche layer (KB-LIQ-065). Successor LIQ-04 = the benchmark arm (BSL avg >150, H2, 25%). Adversarial verify flipped the initial MISS grade.
 - **Soft-kill receded** — HY OAS backed up off the June one-print low; the <260 ×2-closes kill (Trigger A) is broken/reset, off the near-term table. Re-arms only on two fresh sub-265 closes. The shared 🔴-ALL kill (LIQUID/BROCK/REGINALD/NEXUS) is OFF the table.
 - **The widening is risk-off BETA, not yet credit-substance recognition** — discriminator is CCC leading + the public wrapper basket breaking its floor *with* the index (KB-LIQ-062). Until both X1 halves fire, the bear root stays SINGLE (macro/carry-unwind), not bifurcated into an independent PC-credit root.
 - **Surviving load-bearing root = the CCC-BB tail-gap pin** (KB-LIQ-058; NEXUS R3 falsifier = gap <~400, nowhere near). Calm-senior / wide-tail signature visible across HY index + European CLO 2.0 (first rated-tranche default) + govvie term premium.
 - **Substance firming beneath a calm headline** (BROCK): record-match broad-index default rate, BDC Q1 non-accruals up, div cuts, wrapper-equity recognition leaking. Candidate PC→public transmission (alts/PC equity crack) is DEEPENING.
-- **Funding plumbing CLEAN** — SOFR-IORB negative, SRF unused, reserves above floor, RRP at structural-zero (quarter-end choppiness ≠ re-activation). No funding stress.
+- **Funding plumbing: Q2-end turn CLEAN, but Leg-A is now ACTIVE (KB-LIQ-067).** The turn was textbook noise (SOFR +3bps over IORB on 6/30 ONLY, after −3/−3/−1/−3/−3; RRP $26.9B spike → $1.0B on 7/1, the >$10B-into-July test resolved NO; SRF $0 both legs; EFFR pinned 3.63) — KB-LIQ-051 pattern, second instance. The structural move underneath: **RRP is drained, so QT drains reserves directly — WRESBAL fell $82B w/w to $2.9514T (as-of Wed 6/24), first sub-$3T of the cycle; cushion to the $2.8T floor ~$151B.** One week ≠ trend (TGA lumps); the 7/2 and 7/9 H.4.1 prints establish the drain rate. <$2.8T = PROME 🟠 (canonical WRESBAL, not FFIEC).
+- **Mandate-extension first data (7/1):** IG OAS **76bps** (6/30; 3bps off the 2026 low 73) and HY−IG basis **dead flat 199 / 199 / 202** (now / 1mo / 6mo) = NO credit-cycle-inflection signal from the leading indicator; the stress signature stays tail-only. First microstructure datum: **dealers flipped net-short 5-10y IG corporates** (NY Fed PD PDPOSCSBND-G5L10: +$359mm 6/3 → −$825mm 6/17) — thin warehouse bid under a calm surface. SOFR dispersion tail on the Q-end turn: SOFR75−IORB +8bp / SOFR99−SOFR +12bp (Q-end print, excluded from alert logic).
 - **MANDATE EXTENDED (Will-approved, PROME coverage-gap SIG 6/27 — integrated 7/1):** LIQUID now owns **funding-market microstructure** (PRIMARY: dealer capacity/inventory, repo dispersion/haircuts, MMF flows, PB funding — load-bearing to the HY>280 trigger, which assumes dealers can reprice), **IG OAS + IG-vs-HY basis** (SECONDARY, leading signal), **EU credit contagion vector** (TERTIARY, reconcile with BOND). Data-source scaffold + boot.py rows staged in; see CLAUDE.md § DOMAIN SCOPE.
 - **Positions: FLAT of LIQUID single-names.** HYG put expired worthless 6/19 as planned (do NOT re-surface); TEN closed (winner); APO Dec $95P is BROCK-owned. No LIQUID position action is gated on the kill — it is a *thesis* event, not a position event.
 
@@ -27,7 +30,11 @@
 | Metric | Threshold / line | Owner |
 |--------|------------------|-------|
 | **HY OAS** | <260 kill (×2 closes) · 265–280 approach · **>280 X1-decoupling (LIQUID half)** · >320 confirm · 350 freeze | LIQUID — ladder in KILL_MEMO |
-| **CCC-BB tail-gap** | NEXUS R3 falsifier <~400 (pin = wide) | LIQUID / NEXUS |
+| **CCC-BB tail-gap** | NEXUS R3 falsifier <~400 (pin = wide) — ⚠️ gap now partly AI-composition artifact on BOTH legs (KB-LIQ-066); annotate reads, keep falsifier | LIQUID / NEXUS |
+| **BB floor / AI-credit beta** | BB OAS >220 while CCC flat-to-tighter = AI-capex repricing the FUNDED leg (KB-LIQ-066); any single-agency ORCL cut to Baa3/BBB− = fallen-angel pipeline live (both outlooks NEGATIVE; ~$133B basis ≈ largest fallen angel ever) | LIQUID |
+| **IG OAS + HY−IG basis** (mandate ext.) | IG >94 = 2026-high break; >110 = regime (IG leads when transmission is balance-sheet); basis +30bps/20 sessions with IG <85 = junk-specific decompression; basis <180 = complacency extreme | LIQUID |
+| **SOFR dispersion** (mandate ext.) | SOFR75−IORB ≥0 ×3 consecutive NON-quarter-end days = broad pressure; SOFR99−SOFR ≥20bps = tail blowout (Q-end 6/30 printed +12) | LIQUID |
+| **Dealer positions** (mandate ext., weekly Thu) | Corp IG inventory aggregate <0 = no warehouse bid (G5L10 already −$825mm 6/17); UST coupon net at ATH or +2σ/12wk = basis-absorption capacity shrinking | LIQUID |
 | HY Energy OAS | >300 energy-credit trip — **structurally unavailable on free FRED** (paid ICE sub-index); reason, don't fabricate | LIQUID |
 | APO co-trigger | broke <$130 = alts-crack deepening (the old >$130-recovery framing is moot; KILL_MEMO) | BROCK |
 | BIZD | $12.50 mark-stress line | LIQUID / BROCK |
@@ -44,11 +51,14 @@
 
 | Window | Event |
 |--------|-------|
-| **~Jun 30** | LIQ-03 resolves (CLO AAA vs SOFR+160); BCRED Q2 redemption window; Cliffwater CDLI Q1 NAV; quarter-end (RRP revert + JPM rebalance) |
-| **~Jul 3** | 2nd PE-wrapper gate watch (clean close de-escalates) |
-| **~Jul 14** | June CPI — HENRY inverse-feedback re-fire test |
-| **~Jul 25** | Q2 BDC marks — NEXUS R3 credit-bifurcation transmission test |
-| **~Jul 29** | July FOMC — hike watch (modal hike ~Q4) |
+| **Thu 7/2, 8:30 ET** | **June NFP** (moved up; Fri 7/3 = July-4 observed holiday) — KB-LIQ-060 growth-break test for the duration leg |
+| **Thu 7/2, ~4:30pm ET** | **H.4.1 (as-of Wed 7/1)** — reserves drain-rate read after the −$82B week (KB-LIQ-067) |
+| **Thu 7/2 close** | 2nd PE-wrapper gate 30d window effectively closes (through 7/1: CLEAN at the letter, EDGAR-FTS-verified; retroactive-conversion risk via July pubs) |
+| **~Jul 16** | June TIC (May flows) — Belgium proxy / Japan / FOI demand hole |
+| **~Jul 25** | Q2 BDC marks — NEXUS R3 credit-bifurcation transmission test (read with the KB-LIQ-066 annotation) |
+| **~Jul 27** | Late-July 2Y/5Y/7Y auctions — 2Y indirect vs <55% (June: 55.45%, closest approach) |
+| **Jul 28-29** | July FOMC (confirmed) — hike watch (modal hike ~Q4) |
+| **~end-Jul** | **Q2 tender publications** — Ares PMF results (expired 6/29), Partners Group US ~$16B fund confirm, Blue Owl/BCRED Q2 finals — can retroactively convert the 2nd-gate watch |
 | **YE2026** | Warsh balance-sheet review outcome (QT pace / SRF / RRP / SOMA — Leg A buffers) |
 
 ---
@@ -69,21 +79,24 @@
 - **Athene FABN funding canary** (SHADE owns mechanism; LIQUID owns broad funding/spread confirm) — issuance-freeze + widening penalty + forced encumbered substitution = margin compression on the PC funding engine. Disorderly-failure tail YELLOW; "refinanceable ≠ healthy."
 - **USD/JPY repat** (SAM) — triggered on level, carry window locked to a Sep tail; near-term leg downgraded.
 - **JGB demand-vacuum steepener → UST-liquidation tail** (SAM SIG 6/30, 🟡 CONDITIONAL — NOT live): lifer→UST repatriation Channel 1 is **RETIRED on SAM's side** (4-of-4 institutions GREW US credit; MOF weekly Jun 14–20 net BUYING). Re-arm tripwire = **direct foreign-SALES print** (≥2 consecutive windows at ≥2 of Big-3 mutuals/Norinchukin) OR disorderly JGB blowout forcing lifer liquidation. Do NOT price JGB long-end headlines as a live foreign-UST-demand signal; BOND is primary on the curve side.
-- **EndGame macro-warning vs liquidity-event tripwire** (registered 7/1 from SIG-W-20260626-018): DXY breaks 102-103 + USDJPY higher + credit widens + gold can't reclaim $4k = REAL liquidity event (2008/2020 dollar-squeeze-first sequencing). Read as of intake: 3-of-4 lean warning, **load-bearing credit leg NOT confirmed** → stays positioning-washout (consistent with 6/24 metals adjudication). Confirmation pair = **DXY <102 break + HY >320**.
-- **AI-capex → public-credit markers** (7/1): (a) data-center capex → state/muni fiscal-credit channel — marker, NO tripwire (real channel, long clock; revisit on TX/VA/OH muni-GO widening or an actual rating action; MSRB/EMMA breadth = known data gap); (b) tech = record share of HY/IG (composition verify run 7/1 — see Cross-Domain / KB).
+- **EndGame macro-warning vs liquidity-event tripwire** (registered 7/1 from SIG-W-20260626-018): DXY breaks **UP through** 102-103 (dollar squeeze) + USDJPY higher + credit widens + gold can't reclaim $4k = REAL liquidity event (2008/2020 dollar-squeeze-first sequencing). **7/1 read: EASED to ~1-of-4** — DXY 101.35 below the zone (window high 101.61), gold RECLAIMED $4k ($4,068.70 7/1 close; one sub-4k close 6/24), USDJPY 162.63 high (met), HY 275 (not confirmed). Stays positioning-washout. Confirmation pair = **DXY up through 102-103 + HY >320**.
+- **AI-capex → public-credit markers** (7/1): (a) data-center capex → state/muni fiscal-credit channel — marker, NO tripwire (real channel, long clock; revisit on TX/VA/OH muni-GO widening or an actual rating action; MSRB/EMMA breadth = known data gap); (b) tech record share of HY/IG — **verified 7/1 → KB-LIQ-066** (JNK tech 10.81% 6/30; 18% of Jan-May IG gross issuance; $159B five-issuer AI debt +47% YoY-window; BB-concentrated → BB-floor + ORCL fallen-angel trigger rows added).
+- **PC redemption wave (BROCK-primary, LIQUID funding read):** Q2 tenders deepened the credit side — ADS 16.8% requests/5% honored, ASIF 14.4%/34.7% fill, MS PIF 11.6%/43%, CCLFX cap CUT 7%→5% vs ~17% requests, BCRED July distribution cut −10%, KREST 74% (2nd straight) — **yet the term-funding door stayed OPEN: gated ADS priced $750M 6.35% 7yr notes 6/25-6/30** (repricing, not closure — rhymes with FS KKR junk-rated deal + FABN "refinanceable ≠ healthy"). GS PC at only 3.24% requests = dispersion, not uniformity.
 - **Warsh balance-sheet review** — QT/SRF/RRP/SOMA "back in play" → thinner future buffers (Leg A); multi-quarter watch.
 - **Excess-liquidity "negative first since 2021"** — VALIDATED as NOT a live bear re-arm; only residue = RRP-buffer exhaustion → QT drains reserves directly (slow Leg-A mechanic).
 
 ---
 
-## Durable Signals Log → `workbook/KB.tsv` (KB-LIQ-001..064)
+## Durable Signals Log → `workbook/KB.tsv` (KB-LIQ-001..067)
 
 Recent (full text in KB.tsv):
+- **067** — RRP buffer exhausted → QT drains reserves directly, now ACTIVE (WRESBAL −$82B to $2.9514T as-of 6/24, first sub-$3T; cushion ~$151B); Q2-end turn itself clean noise (KB-LIQ-051 second instance).
+- **066** — CCC-BB gap partly AI-composition artifact on both legs (tech HY paper BB-concentrated; CCC carries software AI-disruption risk); falsifier <400 unchanged; BB>220-w/-CCC-flat = AI-repricing discriminator; ORCL fallen-angel watch.
+- **065** — a "CLO AAA" trigger must specify segment (BSL vs MM/PC) + basis at registration; the two reprice independently (LIQ-03: tail fired through 160 while the benchmark never left the 120s). Grade at the letter, symmetrically.
 - **064** — accumulating bear legs don't earn a conviction tick when the same window brings offsetting bear-negative macro AND the headline move is beta-not-substance.
 - **063** — never frame the credit-bear / LIQUID as "paused"; correct frame = ARMED (entry-gated, actively accumulating data).
 - **062** — a spread widening *away* from a kill is not a bear-confirm; separate risk-off beta from credit-substance recognition. X1 = wrapper-leads (BROCK) **AND** HY>280 (LIQUID) conjunction.
 - **061** — a spread approaching a kill that bounces is not a kill; read the tail, not the headline.
 - **060** — a credible-hawkish Fed can RALLY the long end (hawkish dots hit the front end, not the term premium).
-- **058** — aggregate HY masks sector/quality bifurcation (the CCC-BB tail).
 
 For pre-KB history see git + `archive/status_snapshots/`. POV-arc → `thesis/CHANGELOG.md` § POV Pivots.
