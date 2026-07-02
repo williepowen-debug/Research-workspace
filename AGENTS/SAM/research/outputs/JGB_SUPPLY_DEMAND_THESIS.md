@@ -8,6 +8,8 @@
 
 ## PUNCHLINE
 
+> **⚠️ 2026-07-02 — the bolded claim below is FALSIFIED in part: a first named demand floor exists at ~4.0% 30Y (Meiji Yasuda doubled its FY2026 super-long plan to >¥2T calling 4% a "perfect buying opportunity"; SAM-32 RESOLVED FALSE). Read § DEMAND-FLOOR UPDATE below before citing this section.**
+
 Japan's market for super-long JGBs (30Y/40Y) has structurally lost its buyer, and — unlike a normal market — **no yield near current levels brings it back.** The traditional anchor (life insurers) is now buffer-conditional under the J-ICS solvency regime and is already net-*selling*; there is **no buyer cushion** and a **self-reinforcing *seller* trigger at 30Y ~4.5%** (impairment-driven forced selling); the BOJ has signaled it will **let a gradual move run** (cap only a disorderly spike). The result is a structurally one-way path toward higher long-end yields / a steeper curve — a **grind, with a possible acceleration zone through 4.5%**, the violent tail BOJ-truncated. Live (MOF Jun-30 pub): 10Y **2.690%** / 30Y **3.873%** (bear-steepening, +11bp over 2 pubs, ~13bp below 4.0%) / 40Y **3.792%** — front end anchored (2Y 1.382, −3bp; Jun-30 2Y auction BTC 4.82x strong).
 
 It's a **mechanism/curve** thesis (the demand vacuum + the 4.5% reflexivity), deliberately NOT a "30Y hits X by date" threshold bet — SAM-26 already failed that trap ([[finding_threshold_vs_mechanism]]).
@@ -23,6 +25,21 @@ RED ran a 5-axis adversarial sweep on this thesis. **The demand-reduction observ
 - **(CH-011, logic 🔴) The disorderly-JGB → carry-unwind route is a THIN timing-window tail, not a clean trigger** — the BOJ truncates the disorder the route needs (Leg 1); it survives only in the narrow Aug-2024 sliver (yen spasms before the BOJ caps the JGB move).
 - **(CH-012, reflexivity 🟠) This is a regime-MAP, not a mispricing edge** — the vacuum is consensus (MOF already cut issuance to ¥17.4T to match it). Value = transmission/regime understanding (→ BOND, → the carry link), not alpha.
 - **(CH-013, evidence 🟠) Load-bearing GAPS:** GPIF's super-long stance (could invert the marginal-buyer read — see OPEN GAP below), a 2nd-month lifer-flow confirmation, and the unverified Uchida let-run quote. Not optional.
+
+---
+
+## 🔴 DEMAND-FLOOR UPDATE (2026-07-02) — the vacuum has a floor at ~4%; SAM-32 RESOLVED FALSE
+
+**The event:** **Meiji Yasuda (Big-3 mutual) doubled its FY2026 SUPER-LONG JGB purchase plan to >¥2T (~$12.3B)**, its asset-management head calling ~4% 30Y a **"perfect buying opportunity,"** funded partly by **selling low-yield legacy JGBs** (crystallizing losses to roll book yield up). Verified 2 outlets: Nikkei Asia Jul-1 06:32 JST; Bloomberg Jun-30 ("Meiji Yasuda Doubles 2026 Super-Long Government Bond Buying Plan"). **SAM-32 resolved FALSE on its pre-registered CH-015 plan-leg, 48h after opening** (`thesis/PREDICTIONS_ARCHIVE.md#sam-32`).
+
+**What this changes in each leg:**
+- **Leg 3 (demand) — the load-bearing correction:** "no re-entry near current / re-entry = 2-3yr rollover" is dead. The vacuum is **buffer-AND-yield-conditional with a first named demand floor ~4.0%**. Critically, the May ¥201B net-selling — this package's key flow evidence — re-reads as the **SELL-LEG of a yield roll-up** (sell low-coupon legacy → buy ~4% new; Dai-ichi stated identical intent Jul-2025, Nippon shift-to-duration signals by Apr-2026): **flow sign ≠ program direction.** CH-010 resolves its first live data point toward RED (economic-value/duration-gap-closing buying); the 4.5% forced-selling zone is doubly suspect (a lifer buying 50bp below it). What survives: demand-REDUCTION (Fukoku/Asahi still out of 30/40Y; foreigners first 16mo net-sell; MOF cut supply to match a thinner bid).
+- **Leg 1 (BOJ let-run):** *reinforced but less likely to be tested* — a private bid under 4.0 makes the gradual grind more orderly and material long-end stress less likely (SAM-33 more likely VOID/untested).
+- **Leg 2 (supply):** unchanged (forward amplifier, FY2027+).
+- **US-TRANSMISSION MAP (§ below):** the diffuse term-premium correlation channel is **unaffected**; the TAIL (disorderly JGB break dragging the US long end) **THINS** — the break path now has to punch through a named bid, not fall into a void. → BOND should read the map with this thinner tail.
+- **Asymmetry section:** the "possible acceleration zone through 4.5%" framing is now contested on BOTH the mechanism (CH-010) and the level (bid at 4.0).
+
+**Open (realized-flow confirm):** an announced plan ≠ realized flow — roll-up funding means *net* super-long flow may still print small. **Jul-7 30Y / Jul-22 40Y auctions re-framed: they now test whether the announced bid is REAL** (firm internals vs Jun-10's BTC 2.936x/tail 2.8bp = bid confirming; another soft print = announcement not yet in the market). MoF/lifer monthly flows adjudicate the rotation-vs-abandonment reading. GPIF gap still open.
 
 ---
 
@@ -121,7 +138,7 @@ No clean US-retail vehicle for "long-end JGB yields rise / curve steepens": no U
 
 ## CATALYSTS / NEXT TESTS
 
-**Jul 7** JGB 30Y auction · **Jul 22** JGB 40Y auction (the most acute J-ICS test) · **Jul 31** BOJ MPM + FY2027 purchase-plan detail (the supply-side read). Sato Ayano seated Jun 30 (reflationist board complete). Watch: auction BTC/tail trajectory, any 30Y push toward 4.5% on *accelerating velocity*, the FY2027 plan.
+**Jul 7** JGB 30Y auction · **Jul 22** JGB 40Y auction — **re-framed 2026-07-02: these now test whether the Meiji Yasuda ~4% bid is REAL** (firm internals vs Jun-10 BTC 2.936x/tail 2.8bp = demand-floor confirming; soft = announcement not yet flow) · **Jul 31** BOJ MPM + FY2027 purchase-plan detail (the supply-side read). Sato Ayano seated Jun 30 (reflationist board complete). Watch: auction BTC/tail trajectory, MoF/lifer monthly flows (rotation vs abandonment), the FY2027 plan. *(Jul-2 10Y auction: BTC 3.13x / tail 2.6bp — orderly but softer vs Jun-2's 3.53x/0.7bp; belly, not the super-long test.)*
 
 ## OPEN GAP (next pull)
 

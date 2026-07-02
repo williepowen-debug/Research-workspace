@@ -12,20 +12,42 @@ State file for the docket-steward sub-agent. Spec is in [`KOYOMI.md`](KOYOMI.md)
 
 *Auto-populated by KOYOMI at run start: what's moved in STATUS / THESIS / TIMELINE / CHANGELOG since the previous sync. Cleared at end-of-run.*
 
-*(Run 9 Jun 22 → Run 10 Jun 30 — 8 calendar days)*
+*(Run 10 Jun 30 → Run 11 Jul 2 — 2 calendar days, dense)*
 
-- **THESIS v1.6.1 executed (Jun 29 session):** JGB long-end DEMAND-VACUUM thesis now live — BOJ conditional-let-run / supply forward-amplifier / demand structural-vacuum (3 legs). New prediction **SAM-32** (lifer non-re-entry, mechanism-based). New **30Y JGB 4.5% disorderly** carry-tail trigger. `research/outputs/JGB_SUPPLY_DEMAND_THESIS.md` created. SIGNAL-ONLY (BOND/LIQUID/HENRY). Jul 7 30Y + Jul 22 40Y = elevated demand-vacuum tests. Jul 31 BOJ MPM + FY2027 purchase-plan = JGB-supply read.
-- **Position reconciled FLAT (Will-confirmed Jun 29):** prior 6-sh FXY stub moot. Carry-convexity-tail is now WATCH-FOR-ENTRY on a flat book.
-- **BOJ SoO Jun 24:** hawkish-of-priced (~90% hike-by-Dec; neutral-2% urging faster; taper-halt Apr-2027). Confirmatory, no re-mark.
-- **Tokyo June CPI Jun 26:** core-core 1.9% sticky (+30bp vs May 1.6). Mild hawkish tick; within-band.
-- **CFTC Jun-23:** −146,104 / 81.2% — FIRST cover off the 83.4% top (+4,028 WoW). Amplifier +5pp ON. SAM-29 leg-1 (~32K room) / SAM-30 reclaim (3.8pp away). Next print Fri Jul 3 (Jun-30 data).
-- **USDJPY:** 161.34 (Run 9 close) → 162.40 (Jun 30 boot) — fresh 40-yr high/1986-weakest; MOF silent 14d at 160+; market re-anchored intervention line 160→162 (ING).
-- **Brent:** ~$77.7 (Run 9) → ~$74.25 (Jun 30) — oil-in-yen deeper dormant (~−23% cum).
-- **TODAY (Jun 30):** Sato Ayano takes Nakagawa's BOJ seat (reflationist) + JGB 2Y auction (first post-Jun-16-MPM front-end read). Both resolving today.
+- **THESIS v1.6.2 (Jun-30 PM, RED walk-back) → v1.6.3 (Jul-2 demand-floor):** 🔴 **Meiji Yasuda doubled FY2026 super-long JGB purchases to >¥2T** ("~4% 30Y = perfect buying opportunity"; Nikkei 7/1 + Bloomberg 6/30) → pre-registered CH-015 falsifier FIRED → **SAM-32 RESOLVED FALSE in 48h** → demand-vacuum re-scoped to a **~4.0% named floor**; disorderly carry tail thins; **Jul-7 30Y / Jul-22 40Y re-framed as demand-vacuum + BID-REAL tests** (who_cares +BOND). SAM propagated to CALENDAR + CATALYSTS inline 7/2 (treated as current-and-correct inputs this run — verified in agreement).
+- **MOF-verify (Jul-2): candidate strike adjudicated NO-STRIKE** (Reuters MOF-AMBUSH-tactics exclusive + NFP legs; playbook S1-A amended — rate-check absence no longer informative). SAM added **~Jul-31 MOF monthly intervention data** row (sam-internal, hard confirm) + re-dated **CFTC Jun-30-data print Fri 7/3 → Mon 7/6** (July-4 observed; CFTC "July 06*") as a new sam-internal row.
+- **Resolved since Run 10:** Jun-30 JGB 2Y strong (4.82x/0.3bp/1.407) · Jul-1 Tankan Q2 **+22 beat** (highest since Mar-2018, hawkish) · Jul-2 JGB 10Y **orderly-but-softer** (3.13x/2.6bp/2.729 vs Jun-2 3.53x/0.7bp) · Jul-2 **NFP +57K big miss** (July Fed hike faded ~73%-hold; Sep ~65% still priced = NOT a dot walk-back; route-4 blocker first crack).
+- **Tape:** USDJPY 162.63 fresh 40-yr low Wed → ~161.0 post-NFP (−1.0%); JGB bear-steepener toward 4.0 (30Y 3.883, drift decelerated ~1bp/day); Brent ~$70.8; CFTC unchanged (Jun-23, 81.2%, first cover). Position FLAT (unchanged).
+- **TIMELINE no longer stale:** SAM backfilled Jun-22→Jul-2 (compact cluster block) — the Runs-9/10 PENDING flag is satisfied.
+- **Markets closed Fri Jul-3** (July-4 observed); bond mkt early close 2 PM Jul-2.
 
 ---
 
 ## LAST RUN
+
+### Run 11 — 2026-07-02 (first run of July → 🔍 MONTHLY BASELINE AUDIT fired; Jul-1/2 resolved-row migration; mid/late-June forward-table cleanup; ambush-regime framing refresh; Fable 5)
+
+**Triggering context:** see CHANGES SINCE above (v1.6.3 / SAM-32 FALSE / NO-STRIKE adjudication / NFP miss / CFTC re-date — SAM's same-day inline docket edits treated as current-and-correct inputs, per spawn instruction).
+
+**Resolved-row migration (spec §1):**
+- **CATALYSTS.tsv:** removed Jul-1 Tankan + Jul-2 JGB 10Y rows (resolved; results logged in RECENTLY RESOLVED/STATUS/TIMELINE). Forward TSV now leads with Jul-6 CFTC (sam-internal). 9 forward events, 8 fields each; countdown + 🔧 rendering verified clean; jgb_auctions.py token filter intact.
+- **CALENDAR.md:** removed the two ✅ rows from EARLY JULY (both duplicated verbatim in RECENTLY RESOLVED). **Also removed the stale mid/late-June resolved forward tables** — LATE JUNE (Jun-30 2Y ✅, duplicated in RECENTLY RESOLVED) + MID-JUNE (Jun-16 BOJ 16d / Jun-17 FOMC 15d / Jun-16-17 QT passed / Jun-30 Sato duplicated). Narrative verified preserved: STATUS § BOJ/§ FOMC pointers + TIMELINE Jun-16 / Jun-17-20 / Jun-22-Jul-2 blocks; FY2027 purchase-plan thread carries on the Jul-31 BOJ row. Left a one-line pruned-note pointer above the EARLY JULY table.
+
+**Pruned (>7d rule, RECENTLY RESOLVED):** Jun 23-26 cluster (6-9d; prune pre-authorized by Run-10 NEXT RUN HINTS). Retained: Jun-30 Sato + 2Y (2d; eligible Jul 7), Jul-1 Tankan, Jul-2 10Y + NFP/MOF-verify rows. Prune note updated.
+
+**Framing refresh (task 3 — matched to STATUS 7/2 view):**
+- **INTERVENTION WATCH:** header + row 1 → 7/2 ambush-regime framing (MOF silent 16d / NO-STRIKE adjudication / line re-anchored 160→162 / rate-check-absence-uninformative per playbook S1-A; dropped the stale "SAM-23 ~30%" mark — SAM-23 resolved FALSE — in favor of "MOF #3 DECAYING ~15-20%/30d"). Brent row: dropped stale "Hormuz physically closed Day 105" → reopening-begun/dormant. Jun-17 deal row compressed to a pointer (full narrative duplicated in GEOPOLITICAL WATCH + TIMELINE). Bessent/Katayama row: stale "blackout ACTIVE" (Jun-16 vintage) → next blackout ~Jul 29; refreshed to the 7/1-7/2 jawbone tier.
+- **PHASE 2 WATCH:** header stale "v1.6 relabel pending" → v1.6-finalized/dormant/decoupling-SHRUG. CFTC row: stale "next print Fri Jun 26" → **Mon Jul 6**; stale "No cover" → Jun-23 first-cover-off-the-top (still HOLD band); resolved EV-gate detail compressed. Brent + MOU rows: Jun-22 decoupling test marked resolved SHRUG; stale Day-105/Day-110 claims dropped.
+- **Header housekeeping (ESCALATION-LOG, low-stakes structural default):** compressed the pre-Jun-30 "Last Updated" history tail (Jun-14→Jun-22 passes) to a one-line pointer (git history + these run logs). Veto-able.
+- **TSV true-up:** Jul-31 BOJ threshold_signal "(if delivered)" → "(delivered, as-priced)" + SAM-34 hold@85% framing (matches CALENDAR).
+
+**SAM-edit reconciliation (spawn task):** Jul-6 CFTC + ~Jul-31 MOF monthly rows verified present + consistent in BOTH files (dates/priority/who_cares/type=sam-internal); Jul-7/Jul-22 bid-real re-frames + BOND in who_cares consistent in both; Jul-2 10Y resolution consistent. **Zero residual mismatches found** beyond the stale "(if delivered)" fixed above.
+
+**🔍 BASELINE AUDIT (monthly trigger — first run of July; last fired Run 4 Jun-2):** CALIBRATION declined-classes checked first (section absent → none declined). Sources fetched: MOF Jul (2607e.htm — **all 5 remaining July auctions verify exactly** vs TSV) + Aug (2608e.htm) calendars; alteration pages 2607ae/2608ae **404 = none exist**; BOJ MPM schedule (**no August MPM** — next Sep 17-18, decision Sep 18, no Outlook; SoO for Jul MPM shown "Aug 8" by fetch — ⚠️ that's a Saturday, suspect summarization, verify before use; SoO not in audit universe anyway); Fed calendar (**no August FOMC** — next Sep 15-16, SEP); Stats Bureau 1582.html (full table parsed raw — National Jun CPI Jul-24 / Tokyo Jul CPI Jul-31 / **National Jul CPI Aug-21 = FIRST 2025-base release** / Tokyo Aug CPI Aug-28); BLS CPI schedule (curl + User-Agent beats the 403: Jul-14 + Aug-12; Jun-10 retro-confirmed → Run-7 backlog cleared); ESRI (Q2 GDP 1st prelim **Mon Aug-17** 8:50 JST; 2nd prelim Sep-8); Japan Customs calendar (Jun TB provisional **Jul-22**; Jul TB **Aug-20**). **DELTA: 14 proposed rows (4 July + 10 August) — written to ## PENDING below, propose-only, NOT added to TSV.** Out-of-universe observations: Aug-12 10Y JGBi + Aug-24 Climate Transition Bond auctions (not in the 2Y/5Y/10Y/20Y/30Y/40Y universe — flag only); no 40Y auction in August. All 14 proposal dates + the Sep pre-confirms appended to RELEASES.md Confirmed dates (20 rows) per audit step 6.
+
+**Runway:** 29d to furthest TSV event (Jul-31 BOJ + MOF monthly). 3 events next 7d (Jul-6 CFTC, Jul-7 30Y, Jul-9 5Y). Healthy now, but the TSV goes DARK after Jul-31 — applying the August delta extends runway to Aug-28.
+
+**Runtime:** ~14 min (audit-heavy). Did NOT commit/push — left for SAM.
 
 ### Run 10 — 2026-06-30 (post-JGB-demand-vacuum execution; Jun-17-22 >7d prune; Jun-23-26 cluster migration; Jun-30 events resolved; EARLY JULY framing refresh; claude-sonnet-4-6)
 
@@ -215,38 +237,69 @@ State file for the docket-steward sub-agent. Spec is in [`KOYOMI.md`](KOYOMI.md)
 
 ## PENDING (escalations SAM hasn't yet resolved)
 
+- ✅ **[SAM 2026-07-02: ALL 14 APPLIED same-session** (CATALYSTS + CALENDAR incl. new AUGUST section); TB-in-TSV conflict RULED INCLUDE (see CALIBRATION); Aug-21 carries the 2025-base discontinuity warning; Sep-18 window-end coincidence documented in THESIS + SAM-28.**]** - **🔍 NEW (Run 11) — MONTHLY BASELINE AUDIT DELTA (Jul + Aug), PROPOSE-ONLY — SAM to apply/decline row-by-row.** All dates source-confirmed 2026-07-02 (URLs in RELEASES.md Confirmed dates). Suggested priority/who_cares are KOYOMI defaults; SAM owns the thesis lens:
+  | # | Date | Event | Sugg. pri | Sugg. who_cares | Rationale |
+  |---|------|-------|-----------|-----------------|-----------|
+  | 1 | 2026-07-14 | US CPI (June data), 8:30 ET | 🟠 | SAM,HENRY | STATUS names it explicitly: route-4 (Fed-dot walk-back) inflation leg — "labor blocker cracked, inflation leg intact; watch Jul-14 CPI." Same day as JGB 20Y (already a note on that row). Highest-value gap in the set. |
+  | 2 | 2026-07-22 | Japan June trade balance (provisional) | 🟡 | SAM | TIMELINE: "the clean Phase-1-inversion test is the next TB print" = this one. Same day as 40Y auction. ⚠️ Universe table says include monthly, but Run-10 hint claimed "not a TSV row (boot.py handles it)" — conflict for SAM to adjudicate; May TB WAS a TSV row (Run-8/9). |
+  | 3 | 2026-07-24 | Japan National June CPI | 🟡 | SAM | Monthly universe class; follows the sticky Tokyo June print (core-core 1.9). |
+  | 4 | 2026-07-31 | Tokyo July CPI (prelim) | 🟠 | SAM | Releases the MORNING of the BOJ Jul-31 decision (JST) — same-day input to the SAM-34 hold@85% read. |
+  | 5 | 2026-08-04 | JGB 10Y auction | 🟡 | SAM,LIQUID | MOF Aug calendar; follow-on to the softer Jul-2 10Y (tail ~4×). |
+  | 6 | 2026-08-06 | JGB 30Y auction | 🟠 | SAM,LIQUID,BOND | Next super-long after Jul-7/Jul-22 — extends the demand-vacuum/bid-real test series past the Jul-31 FY2027 purchase-plan decision. |
+  | 7 | 2026-08-12 | US CPI (July data), 8:30 ET | 🟡 | SAM,HENRY | Route-4 inflation leg, post-Jul-29-FOMC read. |
+  | 8 | 2026-08-17 | Japan Q2 GDP 1st prelim (Mon 8:50 JST) | 🟠 | SAM | Quarterly universe class; wage/activity mechanism input to the next-hike path. |
+  | 9 | 2026-08-18 | JGB 5Y auction | 🟡 | SAM,LIQUID | MOF Aug calendar (belly). |
+  | 10 | 2026-08-20 | JGB 20Y auction | 🟡 | SAM,LIQUID | MOF Aug calendar; strike-broadening watch. |
+  | 11 | 2026-08-20 | Japan July trade balance (provisional) | 🟡 | SAM | Monthly universe class (same adjudication as #2). |
+  | 12 | 2026-08-21 | Japan National July CPI — ⚠️ FIRST release on the 2025 base | 🟠 | SAM | See 2025-base escalation below — a measurement discontinuity, not just a print. |
+  | 13 | 2026-08-28 | JGB 2Y auction | 🟡 | SAM,LIQUID | MOF Aug calendar (front end). |
+  | 14 | 2026-08-28 | Tokyo August CPI (prelim) | 🟡 | SAM | Monthly universe class. |
+  Out-of-universe, flag-only (NOT proposed): Aug-12 10Y JGBi + Aug-24 Climate Transition Bond auctions (outside the 2Y/5Y/10Y/20Y/30Y/40Y tenor set — say the word if the thesis lens wants JGBi as an inflation-expectations read); no 40Y auction in August; no BOJ MPM or FOMC in August (next: BOJ Sep 17-18, FOMC Sep 15-16 SEP — both already RELEASES-confirmed).
+- **⚠️ NEW (Run 11) — 2025-BASE CPI REVISION lands with the National July CPI (Aug-21).** The Stats Bureau schedule row carries "Revision to 2025-Base Consumer Price Index," and the CPI index page confirms 2025-base monthly reports begin Aug-21 (with base-revision releases Jul-10 / Aug-7). Base-year rebasings historically shift measured core (2020-base shaved core readings) — SAM's CPI-anchored levels (subsidy-wedge math, core-core stickiness reads, BOJ-mechanism framing) will need a discontinuity check at that print. Analytical — KOYOMI took no action beyond the RELEASES note.
+- **⚠️ NEW (Run 11) — Sep-18 BOJ MPM decision lands EXACTLY ON the LOCKED Sep-18 convexity window-end** (and FOMC Sep 15-16 SEP is the same week). Whether the window-end evaluation should run before/after that decision day is a thesis call — flagging the coincidence only. (Both dates RELEASES-confirmed this run.)
+- **NEW (Run 11) — BOJ SoO for the Jul MPM: fetch showed "Aug 8" — suspect** (Saturday; likely summarizer garble of the BOJ page). SoO is outside the audit universe; SAM added the Jun-24 SoO row manually last cycle — if wanted for Aug, verify the date at the BOJ page first.
 - **Phase 2 Watch section reframe** may be needed if MOU walks back (Trump-Khamenei reset → Brent collapse → Phase 2 re-engages). Pre-emptive flag from Run 3. SAM-domain trigger. *(No MOU walk-back through Run 10; Brent ~$74 deeply dormant. Watch.)*
 - **MOF quarterly per-op intervention release date verification (Run 5):** Apr-Jun 2026 ops breakdown ~early August. Fetch `mof.go.jp/english/policy/international_policy/reference/feio/quarterly/`, confirm convention, add as 🟡 TSV row. Non-urgent.
 - **Sato verification provenance (Run 6, INFORMATIONAL):** All 5 claims primary-source verified Jun 4. RELEASES.md schema question (board-composition section?) still open for SAM.
 - **✅ RESOLVED by SAM (Run-8/9) — CATALYSTS.tsv schema regression + CFTC EV-gate row + resolved-event TSV migration.** *SAM may clear these items.*
-- **TIMELINE.md stale (Run 9 + Run 10 flag — still open):** TIMELINE last entry is Jun 16 BOJ hike. Does NOT carry discrete entries for Jun-17 FOMC / Jun-17 Iran-US deal / Jun-17 May-TB / Jun-19 National-CPI / Jun-20 Hormuz re-closure / Jun-22 CFTC EV-gate shrug / **Jun-24 BOJ SoO / Jun-26 Tokyo CPI**. Per [[finding_doc_routing_data_drops]] resolved-event narrative belongs in TIMELINE. **SAM-owned — flagged Runs 9 + 10, not acted.**
-- **GEOPOLITICAL WATCH >7d rows (Run 9 flag — escalating: now 16-20d):** Jun 10-11 kinetic (**20d**), Jun 12 14-pt draft (**18d**), Jun 14 Brent sub-$90 (**16d**) — all far past the >7d rule. KOYOMI did NOT prune (SAM's analytical watch surface). **Flagged again — SAM should prune or explicitly retain-for-context.**
-- **Jun 10 US CPI primary-source verification (Run 7 backlog):** BLS schedule page returned 403 in June. Append RETROSPECTIVE-CONFIRMED to RELEASES.md when BLS page accessible. Low-priority.
-- **NEW (Run 10) — JGB 2Y Jun 30 auction result pending:** KOYOMI marked ✅ result-pending in CALENDAR. **SAM action:** run jgb_auctions.py / fetch `mof.go.jp/english/policy/jgbs/auction/calendar/eresul/eresul20260630.htm` for BTC ratio + tail + WA yield; compare vs May 2Y WA 1.369%. Not in KOYOMI write-set.
+- **TIMELINE.md stale (Runs 9-10 flag) — ✅ SATISFIED (Run-11 verified):** SAM backfilled Jun-17-20 (2026-06-22) + the Jun-22→Jul-2 cluster block (2026-06-30/07-01/07-02); TIMELINE current through Jul-2. *SAM may clear.*
+- **GEOPOLITICAL WATCH >7d rows (Runs 9-10 flags — 3rd flag, now 18-22d):** Jun 10-11 kinetic (**22d**), Jun 12 14-pt draft (**20d**), Jun 14 Brent sub-$90 (**18d**) — plus Jun-17 deal-signed (15d) + Jun-20 re-closure (12d) now aging too. KOYOMI still did NOT prune (SAM's analytical watch surface). **SAM should prune to the Ongoing row + TIMELINE pointers, or explicitly retain-for-context.**
+- **Jun 10 US CPI primary-source verification (Run 7 backlog) — ✅ DONE (Run 11):** BLS schedule reachable via curl + User-Agent (WebFetch alone 403s — [[finding_edgar_403_user_agent_header]]); Jun-10 = May-data release, RETROSPECTIVE-CONFIRMED appended to RELEASES.md 2026-07-02. *SAM may clear.*
+- **JGB 2Y Jun 30 auction result (Run 10) — ✅ SATISFIED:** result logged by SAM (BTC 4.82x / tail 0.3bp / WA 1.407% vs May 1.369) in STATUS/CALENDAR/TIMELINE. *SAM may clear.*
 
 ---
 
 ## STANDING MONITORS (surface each run)
 
-- **BOJ pre-meeting blackout windows** (T-2 of each MPM) — kept as narrative in CALENDAR, not in TSV per form-consistency call from Jun 1. *Jun-16 MPM resolved (hiked 1.00%). Next blackout = **~Jul 29 (T-2 of the Jul 30-31 MPM)**.* Revisit if SAM wants regime-boundary dates in TSV.
-- **Recurring weekly catalysts** (CFTC release Fri/Mon) — not in TSV (handled by `cftc_jpy.py` auto-pull) EXCEPT when a specific release is a pre-registered SAM-internal EV-gate (then it gets a `type=sam-internal` row). **Jun-22 CFTC EV-gate fully resolved (−150,132/83.4% → HOLD-band; v1.6 finalized).** Current state: CFTC Jun-23 = −146,104/81.2% (first cover off the top; amplifier +5pp ON). **Next print: Fri Jul 3 (Jun-30 data)** — routine auto-pull, no pre-registered EV-gate. Surface if a future CFTC print qualifies as a new sam-internal decision gate.
-- **Post-meeting catalyst-window refill** — after each major catalyst resolves, the forward horizon thins; pull next-month's events from RELEASES.md cadence rules.
-- **MOF auction calendar alteration page** — `auction/calendar/26MMae.htm` (e.g., 2606ae.htm) records mid-month tenor-band changes. Check at month boundary; current Jun 2026 alteration was a liquidity-enhancement tenor-band tweak (15.5-39 vs 11-39, then back), no date moves.
-- **SAM-internal review triggers (Run 5; scope precedent in KOYOMI.md):** TSV-scope extended to admit SAM-internal mechanical decision gates (`type=sam-internal`). **Zero sam-internal rows in forward TSV (Jun-6 CFTC + Jun-9 SAM-21 resolved Run 7; Jun-22 CFTC EV-gate resolved/cleared).** Watch for new candidates as THESIS v1.6.1 / SAM-32 pre-registers mechanical gates (must meet DATE-SPECIFIC + ACTION-FORCING). Likely next: if SAM pre-registers a dated Jul-7 30Y or Jul-22 40Y demand-vacuum decision gate (pass/fail with a pre-defined response).
+- **BOJ pre-meeting blackout windows** (T-2 of each MPM) — kept as narrative in CALENDAR, not in TSV per form-consistency call from Jun 1. Next blackout = **~Jul 29 (T-2 of the Jul 30-31 MPM)** — now noted on the CALENDAR Bessent/Katayama row. Following: ~Sep 15 (Sep 17-18 MPM). Revisit if SAM wants regime-boundary dates in TSV.
+- **Recurring weekly catalysts** (CFTC release Fri/Mon) — not in TSV (handled by `cftc_jpy.py` auto-pull) EXCEPT when a specific release is a pre-registered SAM-internal decision gate (then it gets a `type=sam-internal` row). **Current: the Mon Jul-6 print (Jun-30 data, holiday-delayed) IS such a row** (SAM-added 7/2; dispositions pre-registered: build >−153K/85% = SAM-30 reclaim / cover <−108K = leg-1 retire). Following print **Fri Jul 10 (Jul-7 data) = first post-NFP-miss positioning read** — surface to SAM whether it warrants its own gate row.
+- **Post-meeting catalyst-window refill** — after each major catalyst resolves, the forward horizon thins; pull next-month's events from RELEASES.md cadence rules. **Live instance: TSV goes dark after Jul-31 until SAM applies the Run-11 August delta (PENDING).**
+- **MOF auction calendar alteration page** — `auction/calendar/26MMae.htm` records mid-month tenor-band changes. Checked Run 11 (Jul-2): 2607ae + 2608ae both 404 → no alterations exist for Jul or Aug as of 7/2. Re-check mid-month + at the Aug boundary.
+- **SAM-internal review triggers (Run 5; scope precedent in KOYOMI.md):** **Two sam-internal rows live in forward TSV:** Jul-6 CFTC COT gate + ~Jul-31 MOF monthly intervention data (hard confirm of the 7/2 NO-STRIKE adjudication) — both SAM-added 7/2, both meet the DATE-SPECIFIC + ACTION-FORCING bar, both render 🔧 (verified). Watch for a dated Jul-7 30Y / Jul-22 40Y bid-real decision gate if SAM pre-registers one (v1.6.3).
 - **BOJ board composition transitions (Run 6):** Sato Jun-30 **RESOLVED** (took seat today). Next composition event: TBD (other Policy Board terms expire 2026-2030 — baseline against BOJ page needed). RELEASES.md schema still doesn't cover board-composition events; flag for SAM if/when the next transition approaches.
 
 ---
 
 ## NEXT RUN HINTS
 
-- **🚨 NEXT RUN = first run of July → MONTHLY BASELINE AUDIT FIRES** (per spec § 2a; last fired Run 4 Jun 2; Run 10 is the last June run). Audit: MOF Jul + **Aug** calendars (`auction/calendar/2607e.htm` + `2608e.htm` + `2608ae.htm` alteration), BOJ Aug MPM schedule, Stats Bureau Jul releases (National Jul CPI ~Aug 21, Tokyo Jul CPI ~Jul 31), BLS Jul CPI (~Jul 15), ESRI Q2 GDP 1st prelim (~mid-Aug). Read CALIBRATION "Declined release classes" first (none currently). Block ~10-12 min. Pull Aug auctions to keep runway >30d past Jul-31 BOJ.
-- **Imminent-catalyst results to backfill to RECENTLY RESOLVED:** Tankan Q2 (Jul 1) + JGB 10Y (Jul 2). Auto-fetch via jgb_auctions.py for 10Y; Tankan result from STATUS/news.
-- **Jul-7 30Y prune cadence:** after Jul 7 fires, move to RECENTLY RESOLVED (result → STATUS/workbook). Compare BTC/tail vs Jun-10 (BTC 2.936x, tail 2.8bp) — SAM-32 mechanism test read. If BTC <2.5x or tail >5bp → SAM-32 preliminary confirmation; surface to SAM.
-- **JGB 2Y Jun 30 result (see PENDING):** SAM should fetch eresul20260630 and update STATUS/workbook. KOYOMI notes it here for next-run prune tracking. Once result is logged in STATUS, the RECENTLY RESOLVED entry is complete.
-- **RECENTLY RESOLVED prune cadence (next run):** Jun 23-26 cluster turns >7d on Jul 1 → prune eligible first run of July. Jun 30 Sato + Jun 30 JGB 2Y turn >7d on Jul 7 → eligible at the Jul-7 30Y run.
-- **Flagged for SAM (see PENDING — repeated flags):** (a) TIMELINE stale — backfill Jun 17-20 + Jun 24/26 events; (b) GEOPOLITICAL WATCH Jun 10-14 rows now 16-20d old — prune or retain.
-- **CFTC Jul 3 print (Jun-30 data):** routine auto-pull. cftc_jpy.py auto-fetches. Not a TSV row (excluded class); STATUS owns the live read. Watch: SAM-29 leg-1 (cover <−108K) / SAM-30 reclaim (build through −153K/85%).
-- **BOJ pre-meeting blackout ~Jul 29 (T-2 of Jul 30-31 MPM):** add as CALENDAR narrative note when closer; not a TSV row (form-consistency call from Jun 1 still stands).
-- **If SAM pre-registers a dated mechanical gate (e.g., "Jul-7 30Y BTC <2.5x → SAM-32 confirmation action"):** apply TSV-SCOPE PRECEDENT inclusion bar without re-escalating (DATE-SPECIFIC + ACTION-FORCING). The `type` column is in place (8-field header confirmed Run 9).
-- **MOF feio/quarterly source check:** Apr-Jun 2026 per-op breakdown ~early August. Non-urgent; verify date at source, add 🟡 TSV row when date pinned. Still in PENDING.
-- **Trade-stat date pinning reminder:** Japan TB dates come from MOF Customs (`customs.go.jp/toukei/calendar/calend_e.htm`), NOT mof.go.jp/jgbs. Jun TB = Jul 22 (already in boot.py auto-pull). Not a TSV row (boot.py handles it).
+- **First job: check whether SAM applied/declined the Run-11 Jul+Aug audit delta (PENDING).** If applied → add the matching CALENDAR narrative rows (an AUGUST section) + verify countdown; if declined classes appear in a new ## CALIBRATION section, honor them. If untouched by ~Jul 9, re-surface — the TSV goes dark after Jul-31 without the August rows.
+- **Jul-6 CFTC gate (sam-internal):** after Monday's 3:30 PM ET print, migrate the row (dispositions pre-registered: SAM-30 reclaim / leg-1 retire / HOLD-band). Following print Fri Jul-10 (Jul-7 data) = first post-NFP-miss positioning read — ask SAM if it warrants a gate row.
+- **Jul-7 30Y prune cadence:** after it fires, move to RECENTLY RESOLVED (result → STATUS/workbook). v1.6.3 read is now TWO-SIDED: firm internals vs Jun-10 (BTC 2.936x / tail 2.8bp) = Meiji-Yasuda-bid-REAL / demand-floor confirming; soft = announcement-not-yet-flow. Surface either way; Jul-22 40Y is the follow-on read.
+- **RECENTLY RESOLVED prune eligibility:** Jun-30 Sato + 2Y → >7d on Jul 7 (eligible at the Jul-7-adjacent run); Jul-1 Tankan → Jul 8; Jul-2 10Y + NFP/MOF-verify rows → Jul 9.
+- **Flagged for SAM (PENDING):** (a) GEOPOLITICAL WATCH Jun 10-20 rows 12-22d old (3rd flag); (b) 2025-base CPI discontinuity at the Aug-21 National print; (c) Sep-18 BOJ decision = convexity window-end coincidence; (d) TB-in-TSV universe-vs-hint conflict.
+- **BOJ pre-meeting blackout ~Jul 29:** already noted on the CALENDAR jawbone row; not a TSV row (form-consistency call from Jun 1 stands).
+- **If SAM pre-registers a dated mechanical gate** (e.g., a Jul-22 40Y bid-real disposition): apply the TSV-SCOPE inclusion bar without re-escalating (DATE-SPECIFIC + ACTION-FORCING).
+- **MOF feio/quarterly source check (Run-5 PENDING, now timely):** Apr-Jun 2026 per-op breakdown lands ~early August — pin the date at `mof.go.jp/english/policy/international_policy/reference/feio/quarterly/` next run. Distinct from the ~Jul-31 MOF *monthly* row already in TSV (monthly total vs quarterly per-op detail).
+- **Gov-site fetch craft:** BLS (and some MOF pages) 403 on WebFetch — curl with a User-Agent works. Stats Bureau 1582.html table is truncated by the WebFetch summarizer — parse the raw HTML (Run-11 did; recipe in the run log).
+- **Next MONTHLY BASELINE AUDIT = first run of September** (August was covered this run). Sep partially pre-confirmed already: Sep-8 GDP 2nd prelim, Sep-15/16 FOMC (SEP), Sep-17/18 BOJ MPM → RELEASES.md.
+
+---
+
+## CALIBRATION (SAM-owned — declined release classes + scope rulings; KOYOMI reads, never writes)
+
+### Rulings as of 2026-07-02 (post Run-11)
+- **Declined release classes:** none.
+- **Trade balance in TSV: INCLUDE** (spec universe wins over the Run-10 hint; May-TB precedent). Monthly TB rows are in-scope.
+- **CFTC weekly prints: stay EXCLUDED from TSV** (boot.py auto-pulls; adding weekly rows = cadence creep). The Jul-6 row was a one-off HOLIDAY-CONFUSION exception (schedule shifted off the boot-expected Friday), not a precedent. The Jul-10 gate-row candidate (first post-NFP data): DECLINED on the same basis — the Jul-6 row's signal text already points at it.
+- **JGBi / Climate Transition Bond auctions: stay out-of-universe** (flag-only is right); revisit JGBi only if an inflation-expectations read becomes thesis-load-bearing.
+- **Run-11 audit quality note:** 14/14 proposals accepted as drafted (priorities/who_cares unmodified) — the propose-only audit with staged rationale + RELEASES-confirmed dates is exactly the right shape; keep it.

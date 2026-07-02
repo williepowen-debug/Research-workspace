@@ -1,6 +1,6 @@
 # Japanese Life Insurer Tracker
 
-**Last Updated:** 2026-06-10 (Norinchukin FY2025 pull — results were OUT May 21, surfaced Jun 10; CLO book record ¥10.1T, **reactivation gate (e) RESOLVED NOT REACTIVATED → 4-of-4 institutions against forced-selling direction**) | prior: 2026-05-27 (v1.5 sync — Big 3 ESR window closed 3-of-3)
+**Last Updated:** 2026-07-02 (🔴 **Meiji Yasuda DOUBLES FY2026 super-long JGB plan to >¥2T at ~4% 30Y** — first Big-3 super-long re-entry of the cycle; SAM-32 resolved FALSE; the v1.4 "higher yields don't draw insurers back" inversion is now PARTIALLY falsified — see 2026-07-02 KEY INSIGHT below) | prior: 2026-06-10 (Norinchukin FY2025 pull — results were OUT May 21, surfaced Jun 10; CLO book record ¥10.1T, **reactivation gate (e) RESOLVED NOT REACTIVATED → 4-of-4 institutions against forced-selling direction**) | prior: 2026-05-27 (v1.5 sync — Big 3 ESR window closed 3-of-3)
 **Purpose:** Dashboard for tracking Big 10 insurer positioning, FY2025 ESR disclosures, and repatriation signals. **Mechanics map** for JGB-loss / ESR / lifer behavior — the cross-border forced-repatriation leg of Channel 1 is now demoted to multi-year structural backstop after 3-of-3 Big 3 mutual confirmation; J-ICS long-end abandonment (DOMESTIC mechanism) remains intact.
 
 ---
@@ -30,7 +30,19 @@
 
 ---
 
-## ⚠️ KEY INSIGHT v1.4 (May 21) — J-ICS LIFER LONG-END ABANDONMENT IS THE JGB 30Y DRIVER
+## 🔴 KEY INSIGHT 2026-07-02 — MEIJI YASUDA RE-ENTERS: THE SUPER-LONG DEMAND-VACUUM HAS A YIELD FLOOR (~4.0% 30Y)
+
+**Meiji Yasuda doubled its FY2026 (ending Mar-2027) super-long JGB purchase plan to >¥2T (~$12.3B)** — asset-management head calling ~4% 30Y a **"perfect buying opportunity"** — funded partly by **selling low-yield legacy JGBs** (crystallizing losses to roll book yield up). (Nikkei Jul-1 06:32 JST; Bloomberg Jun-30 "Meiji Yasuda Doubles 2026 Super-Long Government Bond Buying Plan"; 2-outlet verified.)
+
+**What this changes:**
+- **The v1.4 "critical inversion" below is PARTIALLY FALSIFIED:** higher yields DID draw a Big-3 insurer back, at a named level (~4.0%). The J-ICS buffer-conditional *mechanism* stands (mark-down-first is real; Fukoku/Asahi still out of 30/40Y), but the "no yield brings them back / reflex broken" *conclusion* is dead. → SAM-32 RESOLVED FALSE (`thesis/PREDICTIONS_ARCHIVE.md#sam-32`); THESIS v1.6.3.
+- **Flow-reading correction:** the May ¥201B lifer super-long net-SELL re-reads as the **sell-leg of a yield roll-up** (Dai-ichi stated identical intent Jul-2025) — gross/net selling prints coexist with a re-build program. **Flow sign ≠ program direction** when a roll-up is running; MoF flow interpretation must check for the program first.
+- **NOT a repatriation read:** the buying is funded from *legacy JGBs*, not foreign/US books — Channel-1 status unchanged.
+- **Confirm path:** Jul-7 30Y / Jul-22 40Y auction internals (firm vs Jun-10 BTC 2.936x/tail 2.8bp = the bid is real) + MoF/lifer monthly flows; H2 FY2026 plans (Oct-Nov) show whether Nippon/Sumitomo/Dai-ichi follow.
+
+---
+
+## ⚠️ KEY INSIGHT v1.4 (May 21) — J-ICS LIFER LONG-END ABANDONMENT IS THE JGB 30Y DRIVER *(⚠️ "critical inversion" partially falsified 2026-07-02 — see above)*
 
 **JGB 30Y broke 4.000% on May 15** (peak 4.205%; 10Y at 2.770% 29-yr high). The driver is NOT high-yields-attracting-buyers; it's the opposite — **J-ICS makes long-duration purchases punitive for solvency**, so mid-size lifers (Fukoku, Asahi) pivoted from 30/40Y → 10-15Y BEFORE the May ESR window. Big 4 sidelined at the long end.
 
@@ -133,7 +145,7 @@ Reconciles why Feb TIC showed Japan UST holdings RISING (+$53.8B Dec→Feb) whil
 ## SIGNAL SUMMARY
 
 **What's confirmed (mechanism evidence — high weight):**
-1. Near-universal super-long JGB buyer strike (Fukoku, Daido, Meiji Yasuda confirmed; J-ICS-driven)
+1. ~~Near-universal~~ super-long JGB buyer strike **NARROWED 2026-07-02**: Fukoku, Daido confirmed still out (J-ICS-driven); **Meiji Yasuda EXITED the strike** (doubled FY2026 super-long plan to >¥2T at ~4% 30Y — see KEY INSIGHT 2026-07-02)
 2. Hedge ratio collapse to 44.4% (Mar 2025, 14-yr low); unhedged-foreign rotation accelerating
 3. Hedged UST returns now NEGATIVE vs JGBs (-0.34% after 4.35% hedge cost)
 4. FSA actively reviewing insurer balance sheets (Jan 2026 questionnaire on unrealized losses + plans)
@@ -151,7 +163,8 @@ Reconciles why Feb TIC showed Japan UST holdings RISING (+$53.8B Dec→Feb) whil
 2. ~~Norinchukin FY2025 (Jun)~~ — **✅ RESOLVED AGAINST Jun 10:** CLO book direction is UP (record ¥10.1T, +¥1.8T YoY); no reduction target. Reactivation candidate closed; next read H1 FY2026 interim (~Nov 2026).
 3. **Any insurer dropping a headline UST/foreign-bond reduction target** (Fukoku-2023-style) — would re-activate Channel 1 immediately.
 4. **MOF ITS weekly net selling >¥1.5T sustained over multi-week window** — would suggest forced-selling mechanism firing even if disclosure language stays calm.
-5. **H2 FY2026 plan announcements (Oct-Nov 2026)** — next structured re-test window for Channel 1 multi-year transmission.
+5. **H2 FY2026 plan announcements (Oct-Nov 2026)** — next structured re-test window for Channel 1 multi-year transmission. **+ do Nippon/Sumitomo/Dai-ichi follow Meiji Yasuda's super-long re-build?** (Dai-ichi stated rotation intent Jul-2025; Nippon duration signals Apr-2026.)
+6. **🆕 Jul-7 30Y / Jul-22 40Y auction internals + MoF/lifer monthly flows** — is the Meiji Yasuda ~4% bid REAL flow or announcement-only? (Roll-up funding means net super-long flow may print small — read the program, not just the flow sign.)
 
 **Oil-yen channel — v1.4 inversion (insurer calculus):**
 - **Phase 1 mechanism inverted under blockade severity.** v1.3 framing was "oil spike → wider trade deficit → JPY weakens → unhedged FX gains paper over JGB losses." April actual: trade balance posted ¥+302B **SURPLUS** because the blockade collapsed import VOLUMES (-64% YoY crude, -67% YoY ME crude — lowest since 1979). The deficit channel choked on physical-supply destruction, not on oil-cost arithmetic.
@@ -180,6 +193,8 @@ Reconciles why Feb TIC showed Japan UST holdings RISING (+$53.8B Dec→Feb) whil
 | **🔴🔴 Jun 16** | BOJ MPM — BASE CASE HIKE (SAM-21 ~57%; market 55-65%) | If hike fires, insurer asset-side relief on JGB book (yields stabilize); liability-side new constraint (longer-duration liabilities reprice). Net for ESR depends on duration matching. |
 | ✅ **May 21** (surfaced Jun 10) | **Norinchukin FY2025 results** | **Net income ¥121.4B beat; CLO book record ¥10.1T (+¥1.8T YoY) — gate resolved NOT REACTIVATED; no reduction target; CET1 17.81% ↑** |
 | **Late Jun** | T&D Holdings, Sony Life, Daido, Taiyo FY2025 ESR | Mid-tier reads; consistency check vs Big 3 pattern |
+| ✅ **Jul 1** | **🔴 Meiji Yasuda DOUBLES FY2026 super-long JGB plan to >¥2T** | **First Big-3 super-long re-entry of the cycle — ~4% 30Y a "perfect buying opportunity"; legacy-roll-up funded (NOT repatriation). SAM-32 resolved FALSE; demand-floor found. See KEY INSIGHT 2026-07-02.** |
+| **🟠 Jul 7 / Jul 22** | JGB 30Y / 40Y auctions | **Bid-real test:** firm internals vs Jun-10 (BTC 2.936x/tail 2.8bp) = Meiji bid confirming; soft = announcement not yet flow. |
 
 ---
 

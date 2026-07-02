@@ -47,6 +47,8 @@ Level alone ≠ trigger; *speed through the level* is. A re-derive of SAM-23 (in
 
 **Cleanest single tell intervention is imminent:** *reported rate checks* (Nikkei/Reuters "MOF conducting rate checks") + a T3 "decisive action / ready to act" line from the FinMin or FX diplomat.
 
+> **⚠️ S1-A — AMBUSH-TACTICS AMENDMENT (2026-07-02, Reuters exclusive):** MOF has shifted to **unsignalled "ambush" intervention** — sources say it is deliberately abandoning telegraphed warnings, naming no line-in-the-sand, and targeting yen shorts by surprise; Mimura's verbal-warning stand-down since the Apr-May campaign is *intentional*, and Katayama has deliberately not escalated. **This inverts the ladder's evidentiary value:** escalation UP the ladder (a fresh rate-check report, a new T3 line) still raises P(strike) — but **ABSENCE of T1/T3 no longer lowers it.** Silence is loaded, not passive. Consequences: (1) the strike, when it comes, is a **gap event with zero lead-in** — the FXY-stub "pop" scenario arrives unhedged-able; entries must catch the follow-through, not front-run the gap (deploy-on-trigger unchanged); (2) wire silence on a spike day is weaker evidence against an op than before → **lean on the fast semi-confirm: BOJ current-account projections vs money-broker forecasts, ~2 business days post-candidate; hard confirm = MOF monthly (~month-end, 5 PM JST last business day)**; (3) the speed/disorder trigger (§2, CH-011) is UNCHANGED — ambush changes the *signaling*, not the *reaction function*.
+
 ### 4. ⚠️ Stop-vs-payoff whipsaw (load-bearing risk-control insight)
 
 Near the 162–163 intervention zone, a **hard auto-stop at USD/JPY 162.5 risks getting tagged at the worst tick — the disorderly spike — just *before* MOF reverses it 3–5 yen.** That is the exact move the long-FXY stub is *betting on*, so a resting order converts the convexity payoff into a realized loss at the spike high.
@@ -78,6 +80,14 @@ The base-case opposite-sign relationship (higher-for-longer = carry MORE on, but
 ---
 
 ## LIVE PLACEMENT LOG (most-recent first)
+
+### 2026-07-02 — CANDIDATE STRIKE ADJUDICATED: **NO STRIKE** (first live use of the playbook); AMBUSH regime logged (S1-A)
+
+PROME flagged a candidate 7/2 strike (USDJPY 162.5 → 161.3 Tokyo → 160.7 on the 8:30 NFP bar; "speed-not-level signature from inside the 162-163 zone"). SAM decomposition:
+- **Leg 1 — 15:45 JST Tokyo spike:** 162.2 → 161.10 in ~15 min, **yen-specific** (simultaneous −0.5-0.7% vs USD *and* EUR *and* GBP), CME 6J **30.3K contracts = 11× day-average volume** (2nd-biggest bar of the day), then **~60% retraced within 30 min.** Attribution: **repricing on the Reuters ambush-tactics exclusive** (published 11:36 PM ET Jul-1 = midday Tokyo Jul-2). Against a real op: ~1.1y magnitude is **~¼ strike scale** (Apr-30 ~5y, May-6 ~3y), instant retrace (real ops press and hold), no follow-through.
+- **Leg 2 — 8:30 ET NFP bar:** 161.5 → 160.62, **USD-specific** — EURJPY/GBPJPY closed **UP** on the same bar → the dollar fell vs everything = data reaction; **rules out a Jul-11-2024-style piggyback** (a piggyback op hits the crosses too).
+- **Verified negatives:** no op reported, no rate checks (⚠️ the circulating Mimura rate-check quote is **Feb-12-2026 vintage** — do not re-date it). Jawboning standing-tier only (Katayama "respond appropriately at any time" 7/1; Kihara; Mimura "prior op effective, some US officials supportive").
+- **Disposition:** NO STRIKE (news-attribution + cross-pair + futures-volume + magnitude/retrace all concur). Hard confirm on the docket: **MOF monthly ~7/31**; the ambush regime (S1-A above) is the durable takeaway. MOF #3 anchor **held ~15-20%/30d** — ambush-intent story raises strike-tail intent, spot backing off 162.6 → 161.0 lowers proximity; offsetting.
 
 ### 2026-06-25 — S1 ladder: **T2-verbal but PRE-T1 operationally**
 Scan since ~6/19 (WebSearch):

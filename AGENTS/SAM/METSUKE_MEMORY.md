@@ -4,6 +4,8 @@ State file for the trade-doc staleness-flagger sub-agent. Spec is in [`METSUKE.m
 
 **Ownership:** METSUKE writes this file directly at end-of-run — `## LAST RUN` append, `## PENDING` / `## STANDING MONITORS` adjust, `## NEXT RUN HINTS` write. **`## CALIBRATION` is SAM-owned** (METSUKE cannot self-grade its own approve/decline rate from inside a run). SAM may also pre-edit between runs to seed `## NEXT RUN HINTS` or `## PENDING`.
 
+**[SAM 2026-07-02, post-Run-10]:** all Run-10 flags APPLIED same-session (see CALIBRATION Run-10 for dispositions); modal-band escalation → annotated + re-derivation queued (MEMORY NEXT SESSION). Items below this line predating Run-10 remain as their own markers.
+
 **Spawn order:** METSUKE reads `METSUKE.md` first (spec), then `METSUKE_MEMORY.md` (state). Spec teaches *what to do*; memory teaches *what's pending and what was last flagged*.
 
 ---
@@ -11,6 +13,15 @@ State file for the trade-doc staleness-flagger sub-agent. Spec is in [`METSUKE.m
 ## CHANGES SINCE LAST RUN
 
 *Auto-populated by METSUKE at run start: what's moved in STATUS / THESIS / PREDICTIONS / CHANGELOG / TIMELINE / docket since the previous run. Cleared at end-of-run.*
+
+### Run 10 (Jul 2 2026, ~11:15 AM ET) — post v1.6.3 (SAM-32 FALSE / Meiji Yasuda demand-floor) + MOF-ambush regime + NFP miss; VERIFY pass on SAM's same-day inline drift sync
+
+State-of-truth movement since Run 9 watermark (2026-06-30):
+
+- **2026-06-30 PM — v1.6.1 → v1.6.2 [MINOR, correction]:** RED adversarial pass walked back the JGB over-claims — slow structural grind not one-way street (CH-009); 30Y-4.5% forced-seller CONTESTED (CH-010) + demoted from KEY THRESHOLD (CH-014); JGB-disorderly route = thin timing-window tail (CH-011); regime-map not edge (CH-012). SAM-33 (BOJ let-run, 72%) + SAM-34 (Jul-31 hold, 85%) opened.
+- **2026-07-01 — no bump (evidence enrichment):** JGB bear-steepener toward 4.0% (30Y 3.873 MOF Jun-30 pub, ~8bp/day GRADUAL — no trigger); action-review = unanimous HOLD; JGB→US transmission map built (diffuse term-premium, NOT repatriation); Tankan +22 beat; strong 2Y auction.
+- **2026-07-02 — v1.6.2 → v1.6.3 [MINOR, evidence-forced]:** **Meiji Yasuda doubled FY2026 super-long JGB plan to >¥2T at ~4% 30Y ("perfect buying opportunity") → SAM-32 RESOLVED FALSE (48h, fastest on record)** → demand-vacuum re-scoped to a named floor ~4.0%; 4.5% forced-seller doubly suspect; JGB-disorderly carry tail thinner still; **entry-trigger set = SAM-28..31** (6 OPEN total; SAM-33/34 open but NOT entry triggers). Same session: **MOF-verify NO-STRIKE** (candidate 7/2 strike = Reuters AMBUSH-tactics repricing + NFP legs; playbook S1-A amended — rate-check absence no longer means not-imminent); **NFP June +57K big miss** (July hike faded ~73%-hold, Sep hike ~65% still priced = NOT a dot walk-back, SAM-28 route-4 does NOT fire); **CFTC print moved Fri Jul-3 → Mon Jul-6** (holiday-delayed, CFTC official schedule); Jul-7 30Y / Jul-22 40Y re-framed as BID-REAL tests. Live marks: USDJPY ~161.0 (off 162.63 40-yr low), FXY $57.00, Brent $70.78, 30Y 3.883 (Jul-1 pub), CFTC −146,104/81.2% (Jun-23, first cover).
+- **Run-10 mode:** SAM ran an INLINE drift pass on TRADE+STRATEGY the same morning (v1.6.3 brackets; entry-set → SAM-28..31; CFTC-date fixes; Key Dates pruned/re-framed; 4.5% annotations at both re-activation-condition sites; stage-table cell + Key Check Dates + Asymmetry JGB row). This run = VERIFY that pass; report residuals only, precision over recall.
 
 ### Run 9 (Jun 30 2026) — post FLAT-confirmation (6/29) + THESIS v1.6 → v1.6.1 (JGB demand-vacuum executed + SAM-32 opened + vol-correction)
 
@@ -364,10 +375,14 @@ Context: First post-Run-3 sweep. Two material passes since Run 3 watermark — (
 - **NEW (post Run 5; numbers corrected Jun 9 PM):** Brent direction-tense drift. Brent has flipped direction TWICE in 8 days (Jun 1 +4% MOU-break re-accelerate → Jun 4-9 choppy down-drift, −4.5% cum from Jun-3 baseline with a Mon Jun 8 UP session and a Tue intraday $89.59 tag that didn't hold — NOT a monotonic collapse; driver China demand + Trump-Iran walk-back rumors). TRADE Risk Factors oil-shock row + EWJ Watchlist anti-triggers both carry directional tense ("re-accelerating", "no longer active") that becomes load-bearing-stale on each flip. Watch on every run as long as Iran/Hormuz remains unresolved. **Corollary from the Jun-9 correction cycle: verify session-count/breach claims against settled OHLC before proposing refresh text — METSUKE's Run-5 Cluster B carried a midday breach mis-read into TRADE/STRATEGY that SAM had to re-correct same evening.**
 - **NEW (post Run 5):** CFTC level + cycle-peak-percentage drift. Same surfaces as the Polymarket / SAM-21 cluster (TRADE thesis blurb + Options "Why options"). Weekly release every Sat; will recur at Run 6+ (Sat Jun 13 release is the last pre-blackout). Run-5 saw 63.7%/-114,667 → 72.0%/-129,567 over two prints. Cluster as STALE-MARK batched per CALIBRATION rule.
 - **NEW (post Run 5):** Post-fire SAM-21 cluster recurrence. Cluster A (Run 5) caught the 70%→75% post-fire cascade across 10 surfaces. The remaining cascade window to Jun 16 is 5 trading days; SAM-21 won't move mechanically again pre-meeting unless something material reverses, so Cluster A is a one-touch refresh, not the recurring class. Jun 16 binary resolves the SAM-21 surface entirely.
-- **NEW (post Run 9):** SAM-28..32 is now the entry-trigger set (SAM-32 added 2026-06-30). Weekly: check PREDICTIONS for any new OPEN predictions added since last run; update the SAM-28..XX batch in STRATEGY lines 19 + 63 accordingly. Recurring class (same pattern as the SAM-21 mark cluster in the pre-Jun-16 era).
+- **UPDATED (Run 10):** Entry-trigger set is **SAM-28..31** again (SAM-32 RESOLVED FALSE 2026-07-02; SAM-33/34 are OPEN but NOT entry triggers — don't fold them into the batch). Weekly: check PREDICTIONS for set changes; the STRATEGY L19 + L63 batch surfaces were correctly updated by SAM's 7/2 inline pass. Recurring class.
 - **NEW (post Run 9):** JGB-disorderly route (30Y 4.5%) named entry-trigger. Future TRADE/STRATEGY prose that lists N tail-routes should include this route. Watch for any new prose blocks (thesis-recap blurbs, risk-factor rows, asymmetry tables) that re-list the route set without it.
 - **NEW (post Run 9):** Vol-check clean-source result now known (USD/JPY implied ~7.9 ≈ realized; NOT cheap). STRATEGY OPTIONS L91 vehicle re-open gate: the vol-cheapness leg is currently CLOSED. If SAM runs another clean-source vol check and it changes the result, the gate status will need to update. Monitor at every METSUKE run.
-- **NEW (post Run 9):** Archive-compression of 4 fenced bodies (TRADE Options Layer, STRATEGY OPTIONS RULES / JUN-16-RECONCILED / TAKAICHI-DISPOSITION) carries over from Run-8 STANDING MONITORS — Will-gated. Still pending.
+- **NEW (post Run 9):** Archive-compression of 4 fenced bodies (TRADE Options Layer, STRATEGY OPTIONS RULES / JUN-16-RECONCILED / TAKAICHI-DISPOSITION) carries over from Run-8 STANDING MONITORS — Will-gated. Still pending (re-verified untouched at Run 10).
+- **NEW (post Run 10):** **Frozen-anchor vs live-state CFTC distinction.** THESIS deliberately carries "83.4% (Jun-16 data) / zero cover" as the frozen v1.6 EV-gate anchor while STATUS carries the live print (81.2% Jun-23, FIRST cover). TRADE/STRATEGY instances are legit ONLY when date-stamped as the EV-gate; any "**Currently**"/"Current setup" + "no cover" phrasing is drift once a cover print lands (Run-10 flags #3). Re-check every run against the newest print — the "no cover" claim is the piece that silently rots.
+- **NEW (post Run 10):** **Hard-trigger table vintage rot** — TRADE § Tranche-2 Hard-Trigger table (header "UPDATED Jun 1"; MOF + sub-155 rows) and STRATEGY § hard-triggers (Bessent + sub-155 rows) carry Jun-9/Jun-14-vintage status notes (SAM-23 ~72%/pre-resolution, "pre-meeting blackout active", Brent $87-92 narratives). Flagged Run 10; if SAM applies, consider the structural fix: status cells point to the STATUS hard-trigger table instead of carrying their own narrative.
+- **NEW (post Run 10):** **MOF-ambush regime propagation** — playbook S1-A amendment (rate-check absence ≠ not-imminent) landed in STATUS/STRATEGY (header + Stage 4). Watch that any future TRADE/STRATEGY prose describing the MOF-spike entry trigger carries the unsignalled/ambush caveat, and that a real strike (hard confirm = MOF monthly ~7/31) flips the 7/2 NO-STRIKE adjudication cleanly across surfaces.
+- **NEW (post Run 10):** **Bid-real test resolution cascade** — Jul-7 30Y / Jul-22 40Y auction results resolve the v1.6.3 "is the Meiji Yasuda ~4% bid real" framing that now sits in 4+ surfaces (TRADE Key Dates + L86 + L230; STRATEGY L125 + L188; THESIS; CALENDAR). Whichever way it resolves, expect a cluster refresh — same pattern as the old market-quote cluster.
 
 ---
 
@@ -400,6 +415,12 @@ Context: First post-Run-3 sweep. Two material passes since Run 3 watermark — (
     - Compound-drift catch (STRATEGY:39 logged as DUP-LIVE-SPOT but the embedded $93.13 was itself stale + "Phase 2 condition active" framing was superseded) — keep this pattern.
     - Two ESCALATIONs (Stage 3 paragraph rewrite + VOL SIGNALS re-interpretation) were SAM-applied via paragraph-level edits, not one-cell fixes — correct judgment that some drift requires SAM rewrite.
     - "Don't manufacture flags to balance the report" held — TRADE was clean as anticipated; METSUKE didn't pad.
+
+### After Run 10 (2026-07-02) — SAM dispositions (applied same session)
+- **Run 10 apply rate: 100% (all 8 flag-groups + the CAL-DRIFT borderline).** Applied same-session: L157 CFTC sibling; both "Currently"-voiced positioning cells (→ dated + STATUS-pointer; the date-stamped 83.4% EV-gate anchors KEPT frozen — ruling: dated anchors stay, "currently" voice must track); TRADE:22 interior figures → STATUS-pointers (class-ending fix, as proposed); EWJ Iran parenthetical rolled to SIGNED; vol-table "Latest read" cells → dated-historical + live-pointer + the Jun-13-15 window struck; BOND added to Cross-References; hard-trigger status cells refreshed to 7/2 with STATUS pointers; Jul-14 CPI / Jul-29 FOMC row added to Key Dates (curated-subset carve-out: route-4 observables cleared the bar).
+- **ESCALATION handling (modal band):** annotated UNDER RE-DERIVATION inline (do-not-cite marker) + queued the re-derivation post Jul-6 CFTC / Jul-7 30Y. Ruling pattern: a derived band contradicted by tape gets an inline invalidity marker immediately, but NO inline re-mark — re-derivation is a session task ([[finding_re_derivation_surfaces_concept_failure]]).
+- **VERIFY-pass mode (NEW, first instance):** METSUKE ran hours after SAM's own inline drift pass — residuals-only briefing worked; both discovered failure modes (sibling-instance miss, bracket-with-rotten-interior) ratified as STANDING MONITORS. This is the right division: SAM inline-fixes what it knows it changed; METSUKE hunts the siblings.
+
 
 ---
 
@@ -478,6 +499,16 @@ Context: First post-Run-3 sweep. Two material passes since Run 3 watermark — (
 - **Archive-compression watch:** if Will authorizes compression of the 4 fenced bodies, Run 10 should confirm the 3 forward-relevant outputs survived (post-June-path discount disposition; vehicle-OFF re-open condition; CH-004 lesson per Run-7 monitor).
 - **TRADE Cross-References (low priority):** TRADE L280-285 missing BOND (added as primary in v1.6.1). Surface if Run 10 is a comprehensive cleanup pass.
 - **Spawn timing:** Run 10 is best triggered (a) after SAM applies Run-9 flags and commits, OR (b) on the next THESIS-level change (new prediction / Pillar 2 milestone / Jul 31 BOJ resolution). Jul 7 + Jul 22 JGB super-long auctions may produce fresh JGB-disorderly-route representations if results are notable (BTC <2.5x or 30Y spike toward 4.0%).
+
+### Forward hints for Run 11
+
+- **Watermark for Run 11:** state-of-truth advances after Run 10 are anything dated **after 2026-07-02 ~11:15 AM ET** (Run 10 finish, post v1.6.3 + SAM's same-day inline TRADE/STRATEGY pass). Runs 1-10 considered everything earlier.
+- **Verify-the-inline-pass pattern (NEW from Run 10, calibration anchor):** when SAM does its own inline drift pass before spawning METSUKE, the residuals cluster in (a) the *second/third instance* of a phrase the pass fixed once (CFTC Jul-3→Jul-6 was fixed in TRADE Key Dates + header but missed in the Carry-Unwind narrative L157), and (b) *interior figures of paragraphs that got an appended bracket* (TRADE L22 got the v1.6.3 bracket while its interior still carries 30Y 3.79% / Brent ~$78 / zero-cover). Grep the fixed phrase for surviving siblings before reading section-by-section.
+- **CFTC cluster recurs Mon Jul 6 print** (Jun-30 data): surfaces = TRADE L157 + L253 + STRATEGY L185, plus the frozen-anchor-vs-live monitor (any "no cover" current-voice claim). If the print builds through −153K/85% (SAM-30) or covers toward −108K (SAM-29), the whole entry-trigger framing cascades.
+- **Jul-7 30Y auction (bid-real test)** resolves the v1.6.3 framing across 6+ surfaces — spawn after SAM's post-auction pass, not before.
+- **Hard-trigger tables (Run-10 flag #2):** if applied, verify both docs' MOF/Bessent/sub-155 rows are post-Jun-16-consistent; if SAM instead points them to STATUS, confirm no orphaned narrative remains.
+- **Modal-band escalation (Run-10):** STRATEGY L4 carries "modal 3-6mo band ≈ FXY $57.5-59.5 / USDJPY 154-160" while the tape has held 160-162.6 for 2+ weeks. Check whether SAM re-derived the band (CH-032 successor) or annotated a hold — a silent stale band in the header conviction line is doc-prominent drift.
+- **Jul-31 BOJ MPM + MOF monthly (hard confirm of 7/2 NO-STRIKE) + SAM-34 resolution** = the next natural high-volume run. SAM-30 also expires Jul-31.
 
 ---
 
@@ -835,5 +866,63 @@ Context: First post-Run-8 METSUKE spawn. Two state-of-truth shifts since Run 8 w
 ### Cluster C — Live-position framing in Asymmetry section (STRATEGY)
 
 9. **STALE-FRAMING — STRATEGY line 252:** `"the position is sized small (6 sh) and stop-tightened ($55.50), not added to"` → Add inline FLAT caveat: `*(position was 6 sh at v1.6 sizing; SAM is now FLAT per Will 2026-06-29 — sizing rationale applies to any RE-ENTRY; see doc top for current posture)*`. Also L264: `"the table answers 'why hold a small tail'"` → consider "why hold/re-enter a small tail." Minor — SAM's call on depth given extensive doc-level FLAT context.
+
+*(SAM clears these as flags get applied or declined.)*
+
+---
+
+### Run 10 — 2026-07-02 (~11:15 AM ET — VERIFY pass on SAM's same-day v1.6.3 inline drift sync; residuals only)
+
+Context: First run in verify-the-pass mode — SAM ran an inline TRADE/STRATEGY drift pass this morning (v1.6.3 brackets, entry-set → SAM-28..31, CFTC Jul-6 date fixes, Key Dates prune, 4.5% annotations, stage-table/Key-Check/Asymmetry updates) and spawned METSUKE to catch what it missed. Run-9 flags verified applied (all 9 surfaces; L157 CFTC was applied-then-re-drifted by the 7/2 holiday-delay correction). Residual profile matches the append-a-bracket / fix-one-instance failure modes.
+
+- **STALE-MARK: 3 items** (1 single-surface CFTC-date miss in TRADE L157 = highest-signal, the 7/2 pass's own stated fix missed this sibling; 1 batched "Currently 83.4% / no cover" current-voice cluster [TRADE L188 + L272, borderline L169; STRATEGY L19 borderline-historical] vs the live 81.2%-first-cover print; 1 batched TRADE-L22-interior stale figures [30Y 3.79% / Brent ~$78 / zero-cover] under a fresh v1.6.3 bracket)
+- **STALE-FRAMING: 3 items** (TRADE L212 EWJ oil anti-trigger still "(unsigned; Iran has NOT confirmed; Trump pushback)" — deal SIGNED Jun 17; STRATEGY VOL SIGNALS pre-Jun-16 residue [L152-153 Jun-1 "steepening −8.11" trend cells now direction-inverted vs live RR −3.91 + L177 "critical check window Jun 13-15"]; TRADE Cross-References missing BOND [pre-seeded Run-9 hint, confirmed])
+- **DUP-LIVE-SPOT: 0 items** (the TRADE L22 interior figures are counted under STALE-MARK; position-card carve-out respected — Live P/L row is N/A-FLAT)
+- **TRIGGER-STATUS-DRIFT: 1 batched item** (5 locations: TRADE Tranche-2 table header "UPDATED Jun 1" + MOF row L49 ["pre-meeting blackout active"; SAM-23 resolution missing] + sub-155 row L50 [Brent $87.33 Sun / 6+ sessions]; STRATEGY Bessent row L37 ["SAM-23 ~72%" current-voice] + sub-155 row L41 [Jun-9 Brent narrative])
+- **CAL-DRIFT: 1 borderline item** (TRADE Key Dates missing Jul-14 US CPI [+ Jul-29 FOMC] — both are route-4 observables that STATUS WHAT-TO-WATCH + STRATEGY Key Check carry; mechanism-relevance test fires because NFP just cracked the route-4 labor blocker)
+- **ARCHIVE-CANDIDATE: 0 new** (4 fenced bodies unchanged, Will-gated carryover)
+- **MONEY-FIELD-ESCALATION: 0 items** (FLAT banners intact everywhere; avg cost $58.32 / stop $55.50 / $40 call all historical-consistent with STATUS; nothing looks off)
+- **CHANGELOG-GAP: 0 items** (v1.6.2 / Jul-1 enrichment / v1.6.3 all fully documented with edit lists)
+- Sections checked + clean: both headers (7/2 stamps accurate); entry-trigger set SAM-28..31 consistent everywhere (no ..32/..33 stragglers, grep-verified); STRATEGY L19 Stage-4 + L63 HOLD forward-reads + L185 Key Check CFTC (all 7/2-updated); TRADE Key Dates CFTC/Sep-18/Jul-7+22 bid-real/Jul-31 rows match CALENDAR; v1.6.3 4.5%-annotations present at TRADE L86 + L230 + STRATEGY L125; Asymmetry JGB-disorderly row v1.6.3-updated; vol-gate clean-source result recorded (STRATEGY L91 + L167); FLAT caveats (Run-9 Cluster C) holding.
+- ⚠️ ESCALATION: STRATEGY L4 modal band "FXY $57.5-59.5 / USDJPY 154-160" vs 2+ weeks of 160-162.6 tape — not a METSUKE-fixable cell (thesis-level band, CH-032/v1.6 vintage, mirrored from the v1.6 conviction note); needs SAM's re-derive-or-annotate decision, per [[finding_re_derivation_surfaces_concept_failure]].
+- **SAM-applied:** [filled by SAM post-run]
+- **SAM-declined:** [filled by SAM post-run]
+
+*Total Run-10 flags: 8 items (3 STALE-MARK [2 batched] + 3 STALE-FRAMING [1 batched] + 1 batched TRIGGER-STATUS-DRIFT + 1 borderline CAL-DRIFT) + 1 escalation. 0 DUP-LIVE-SPOT / 0 ARCHIVE / 0 MONEY-FIELD / 0 CHANGELOG-GAP.*
+
+---
+
+## PENDING from Run 10 (2026-07-02)
+
+*Flags surfaced this run. SAM to apply or decline. METSUKE does not remove these — SAM clears.*
+
+1. **STALE-MARK — TRADE L157 (Carry-Unwind under-table narrative, last sentence):** `"**Next CFTC = Fri Jul 3 (Jun-30 data).**"` → **Mon Jul 6** (holiday-delayed; CFTC official schedule "July 06*"). The 7/2 pass fixed this same fact in the TRADE header + Key Dates L253 + both STRATEGY surfaces but missed this sibling. Source: CALENDAR Jul-6 row + STATUS dashboard CFTC row. **Highest-signal flag this run** (an already-made correction left half-propagated — [[finding_verification_correction_downstream_propagation]] class).
+
+2. **TRIGGER-STATUS-DRIFT — hard-trigger tables carry Jun-9/Jun-14-vintage status notes (batched, 5 locations):**
+   - TRADE L44 header: `"Tranche 2 Hard-Trigger Status — UPDATED Jun 1"` + column header `"Status (Jun 1)"` — table content spans through Jun-18; stamp 4+ weeks stale (Run-6 flag #9 re-surfaced, never applied).
+   - TRADE L49 MOF row: `"#3 zone live but SAM-23 RE-DERIVED 72% → ~30% Sun Jun 14 per CH-011 ... Pre-meeting blackout active."` — SAM-23 RESOLVED FALSE Jun 16 (not noted); "blackout active" is pre-Jun-16; current framing = MOF #3 DECAYING ~15-20%/30d + 🆕 ambush regime + 7/2 NO-STRIKE (STATUS § INTERVENTION STATUS canonical).
+   - TRADE L50 sub-155 row: `"still 160+ 6+ sessions ... Brent sub-$90 ($87.33 Sun)"` — USDJPY has held 160+ ~16d and tagged 162.63; Brent ~$70.8 dormant. STATUS mirror row reads "NOT MET — USDJPY 161+ (direction moved AWAY post Jun 16-17)".
+   - STRATEGY L37 Bessent row: `"REACTIVATED Jun 1 on Iran MOU break — intervention #3 zone live, SAM-23 ~72%, ... per Reuters Jun 1"` — SAM-23 ~72% in current voice (resolved FALSE, pre-marked ~30%); current Bessent-status = Katayama-Bessent "bold steps" coordination (Jun-22) under Channel-3-DECAYING.
+   - STRATEGY L41 sub-155 row: `"USDJPY tagging 160+ intermittently Fri Jun 5 + Tue Jun 9 (Mon dip between) ... Brent drifting down choppily ($92.40 Tue PM; tagged $89.59 intraday, didn't hold)"` — Jun-9 evening-correction vintage; three weeks stale.
+   - Suggested structural fix: these are ✅ FIRED/USED historical rows in re-entry-reference tables — either roll status cells to a one-line post-resolution note + point to STATUS's live hard-trigger table, or accept the vintage rot as historical (but then stamp rows as of-date). SAM's call.
+
+3. **STALE-MARK — "Currently 83.4% / no cover" current-voice cluster (batched):** the live print is **−146,104 / 81.2% (Jun-23 data), FIRST cover off the 83.4% top (+4,028 WoW)** — TRADE's own L157/L253 and STATUS carry it. The frozen v1.6 EV-gate anchor ("83.4% Jun-16 data, held through the catalyst, zero cover") is legitimate *when date-stamped* (THESIS deliberately keeps it). Drift instances:
+   - TRADE L188 (Risk Factors leg-1 SPF row, mitigation cell): `"**Currently** −150,132 / 83.4%, built through the catalyst, no cover."` — the word "Currently" + a landed cover print = unambiguous. Suggested: "EV-gate: −150,132/83.4% Jun-16, held through the catalyst, zero cover; now −146,104/81.2% Jun-23 — first cover, still HOLD-band (live in STATUS)."
+   - TRADE L272 (Historical Context): `"**Current setup** matches positioning (CFTC at 83.4% of cycle peak, held through the catalyst with **no cover**)"` — same fix pattern.
+   - Borderline (SAM's call, lower priority): TRADE L169 ("the CFTC fuel (83.4% of peak ... zero cover)" — present-tense, un-dated) + STRATEGY L19 Stage-4 description cell (describes the v1.6-finalize formation; Status cell is current) + STRATEGY L255 Asymmetry route row ("At 83.4% peak" — mirrors THESIS route table verbatim; fixing here without THESIS creates divergence — leave unless THESIS moves).
+
+4. **STALE-MARK / DUP-LIVE-SPOT — TRADE L22 thesis-blurb interior figures under the fresh v1.6.3 bracket:** the 7/2 pass appended the bracket but left the interior: (a) `"(30Y 3.79%, off the 4.0% threshold)"` — live 30Y **3.883%** (MOF Jul-1 pub) and "the 4.0% threshold" framing predates the v1.6.3 re-scope (4.0 = contested zone with a named bid — the paragraph's own bracket says so; interior contradicts its tail); (b) `"Oil-in-yen DORMANT (Brent ~$78 ...)"` — Brent **~$70.8** (~−27% cum). Suggested: strip the inline levels to STATUS pointers ("30Y ~12bp below the 4.0 contested zone — live in STATUS"; "Brent dormant — live in STATUS") so the blurb stops accruing this class.
+
+5. **STALE-FRAMING — TRADE L212 EWJ Watchlist oil anti-trigger:** trailing clause `"on 14-pt Pakistan-mediated draft + Bessent signing-weekend 80% **(unsigned; Iran has NOT confirmed; Trump pushback)**"` — superseded: deal **SIGNED Wed Jun 17** (Pezeshkian electronic signature, Iran-confirmed; CALENDAR § INTERVENTION WATCH ✅ row + TIMELINE Jun-17 block canonical); Brent regime now half-deal / half-IEA-glut at ~$71. Keep the dated Jun-14 breach stamp (legit historical); roll the parenthetical to "deal SIGNED Jun 17; verification leg open; Brent ~$71 dormant."
+
+6. **STALE-FRAMING — STRATEGY VOL SIGNALS pre-Jun-16 residue (batched, 2 sub-items):**
+   - L152-153 table "Latest read" cells: `"expanding (… Jun 1 ~10.5%, +2.5v …)"` / `"steepening (… Jun 1 −8.11 vs May 31's −5.76, even steeper)"` — Jun-1 vintage; live RR proxy is **−3.91** (Jul-2), i.e. *less* negative than −8.11 — the "steepening" trend claim is now direction-inverted. STATUS pointer exists but the trend words assert current direction. Suggested: replace cell text with "see STATUS (KB-183: sign/trend only)" or re-date as historical Jun-1 reads.
+   - L177 Timing use case: `"Critical check window: **Jun 13-15 (pre-BOJ Jun 16)** — watch the ATM IV proxy for expansion off its compressed ~8% base"` — fully pre-event forward guidance, 3 weeks past. Suggested: re-anchor to the live windows (pre-Jul-31 BOJ; tail-route watch per L167 note).
+
+7. **CAL-DRIFT (borderline) — TRADE Key Dates missing the route-4 observables:** **Tue Jul 14 US CPI** (STATUS WHAT-TO-WATCH: "route-4 inflation leg"; STRATEGY Key Check carries it; CALENDAR notes it on the Jul-14 row) and **Wed Jul 29 FOMC** (presser; route-4 vehicle; CALENDAR 🟠 row). Mechanism-relevance test fires: NFP just cracked the route-4 labor blocker, making Jul-14 CPI the named next read on an entry trigger (SAM-28 route 4). Key Dates is curated-subset by design — SAM's call, but the 7/2 note itself says "watch Jul-14 CPI."
+
+8. **STALE-FRAMING (low) — TRADE § Cross-References (L276-281) missing BOND:** v1.6.1 made BOND the primary recipient of the JGB thesis (THESIS § CROSS-AGENT LINKS lead item; Jul-1 transmission map answers to BOND; Jul-7/22 auction rows tag BOND). List has LIQUID/HENRY/HANS/BRENT only. Pre-seeded by Run-9 NEXT-RUN-HINTS; one-line add.
+
+**⚠️ ESCALATION (not a taxonomy flag):** STRATEGY L4 conviction line carries `"modal 3-6mo band ≈ FXY $57.5-59.5 / USDJPY 154-160 under the Fed-hike regime"` — the tape has held USDJPY 160-162.63 for 2+ weeks (above the band's weak edge). The band is a thesis-level derivation (CH-032 → v1.6), mirrored from THESIS-vintage text — METSUKE cannot propose a new band. Surface for SAM: re-derive the modal band or annotate it as under-review; a doc-prominent header cell asserting a band the tape has exited is the [[finding_re_derivation_surfaces_concept_failure]] pattern.
 
 *(SAM clears these as flags get applied or declined.)*

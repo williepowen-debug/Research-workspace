@@ -67,5 +67,23 @@
 | 2026-07-30 | JGB 2Y auction | ✅ CONFIRMED | MOF Jul calendar (auction/calendar/2607e.htm), checked 2026-06-02 |
 | 2026-07-30 | BOJ MPM day 1 (Jul 30-31) | ✅ CONFIRMED | BOJ schedule, checked 2026-06-02 |
 | 2026-07-31 | BOJ MPM day 2 decision + Outlook Report | ✅ CONFIRMED — Outlook Report meeting | BOJ schedule (en/mopo/mpmsche_minu/index.htm), checked 2026-06-02 |
+| 2026-06-10 | US CPI (May 2026 data) | ✅ RETROSPECTIVE-CONFIRMED (clears Run-7 backlog; page needs a User-Agent header — WebFetch 403s, curl -A works) | BLS schedule (bls.gov/schedule/news_release/cpi.htm), checked 2026-07-02 |
+| 2026-07-14 | US CPI (June 2026 data), 8:30 AM ET | ✅ CONFIRMED — same day as JGB 20Y auction | BLS schedule, checked 2026-07-02 |
+| 2026-07-22 | Japan trade balance, June (provisional whole-month) | ✅ CONFIRMED (3rd date-column of the Jun row = whole-month provisional; 4th = definite Jul-30) | Japan Customs calendar (customs.go.jp/toukei/calendar/calend_e.htm), checked 2026-07-02 |
+| 2026-07-24 | Japan National CPI, June | ✅ CONFIRMED | Stats Bureau schedule (stat.go.jp/english/data/cpi/1582.html), checked 2026-07-02 |
+| 2026-07-31 | Tokyo CPI, July (preliminary) | ✅ CONFIRMED — releases the morning of the BOJ Jul-31 decision (JST) | Stats Bureau schedule (1582.html), checked 2026-07-02 |
+| 2026-08-04 | JGB 10Y auction | ✅ CONFIRMED | MOF Aug calendar (auction/calendar/2608e.htm), checked 2026-07-02 |
+| 2026-08-06 | JGB 30Y auction | ✅ CONFIRMED | MOF Aug calendar (2608e.htm), checked 2026-07-02 |
+| 2026-08-12 | US CPI (July 2026 data), 8:30 AM ET | ✅ CONFIRMED | BLS schedule, checked 2026-07-02 |
+| 2026-08-17 | Japan Q2 2026 GDP — 1st preliminary (Mon, 8:50 AM JST) | ✅ CONFIRMED | ESRI release schedule (kouhyou_top), checked 2026-07-02 |
+| 2026-08-18 | JGB 5Y auction | ✅ CONFIRMED | MOF Aug calendar (2608e.htm), checked 2026-07-02 |
+| 2026-08-20 | JGB 20Y auction | ✅ CONFIRMED | MOF Aug calendar (2608e.htm), checked 2026-07-02 |
+| 2026-08-20 | Japan trade balance, July (provisional whole-month) | ✅ CONFIRMED | Japan Customs calendar, checked 2026-07-02 |
+| 2026-08-21 | Japan National CPI, July — ⚠️ FIRST release on the 2025 base (Stats Bureau row carries "Revision to 2025-Base Consumer Price Index" remark) | ✅ CONFIRMED | Stats Bureau schedule (1582.html), checked 2026-07-02 |
+| 2026-08-28 | JGB 2Y auction | ✅ CONFIRMED | MOF Aug calendar (2608e.htm), checked 2026-07-02 |
+| 2026-08-28 | Tokyo CPI, August (preliminary) | ✅ CONFIRMED | Stats Bureau schedule (1582.html), checked 2026-07-02 |
+| 2026-09-08 | Japan Q2 2026 GDP — 2nd preliminary (Tue, 8:50 AM JST) | ✅ CONFIRMED (beyond Jul-Aug audit window; recorded for the next audit) | ESRI release schedule, checked 2026-07-02 |
+| 2026-09-16 | FOMC decision + SEP (Sep 15-16) | ✅ CONFIRMED — no FOMC in August | Fed calendar (fomccalendars.htm), checked 2026-07-02 |
+| 2026-09-18 | BOJ MPM day 2 decision (Sep 17-18; no Outlook Report) | ✅ CONFIRMED — no MPM in August; ⚠️ lands ON the LOCKED Sep-18 convexity window-end | BOJ schedule (mpmsche_minu), checked 2026-07-02 |
 
 *Add rows as dates are confirmed. Keep this table short — it's a verification scratchpad, not a full calendar (the calendar is `CALENDAR.md` / `CATALYSTS.tsv`).*

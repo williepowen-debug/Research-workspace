@@ -1,7 +1,20 @@
 # Meiji Yasuda Life
 
-**AUM:** ~¥52.9T (~$353B) | **ESR (FY2025):** **208%** (vs 216% FY2024, **-8pt**) — manageable band | **FY2026 Plan:** INCREASING hedged foreign credit (ALM)
-**Last Updated:** 2026-05-27 (v1.5 sync — FY2025 ESR + decomposition integrated; prior "ESR NOT DISCLOSED" framing resolved)
+**AUM:** ~¥52.9T (~$353B) | **ESR (FY2025):** **208%** (vs 216% FY2024, **-8pt**) — manageable band | **FY2026 Plan:** INCREASING hedged foreign credit (ALM) + **🔴 super-long JGB plan DOUBLED to >¥2T (Jul-1 revision)**
+**Last Updated:** 2026-07-02 (🔴 super-long re-entry — FY2026 plan revision doubles JGB purchases; SAM-32 falsifier fired) | prior 2026-05-27 (v1.5 sync — FY2025 ESR + decomposition integrated)
+
+---
+
+## 🔴 2026-07-02 — SUPER-LONG RE-ENTRY: FY2026 JGB PLAN DOUBLED TO >¥2T ("~4% 30Y = PERFECT BUYING OPPORTUNITY")
+
+**The event (Nikkei Jul-1 06:32 JST; Bloomberg Jun-30 — 2-outlet verified):** Meiji Yasuda **doubled its FY2026 (ending Mar-2027) super-long JGB purchase plan to more than ¥2T (~$12.3B)**; asset-management head calls ~4% 30Y yields a **"perfect buying opportunity"**; buying funded partly by **selling low-yield legacy JGBs** (crystallizing losses to roll book yield up); says ultralong yields are "stabilizing after months of volatility."
+
+**Significance (first Big-3 super-long re-entry of the cycle):**
+- **Ends Meiji's "wait-and-see"** (KB-153 vintage) and **falsifies the "no re-entry yield near current" leg** of SAM's JGB demand-vacuum thesis → **SAM-32 RESOLVED FALSE** (48h after opening; `thesis/PREDICTIONS_ARCHIVE.md#sam-32`); THESIS v1.6.3 re-scoped the vacuum to buffer-AND-yield-conditional with a **named demand floor ~4.0% 30Y**.
+- **Behavioral read:** sell-legacy/realize-losses/buy-higher is **economic-value duration-gap behavior** (RED CH-010's frame) — not the asset-markdown paralysis SAM's read predicted. First live data point on the contested 4.5% forced-selling mechanism → toward RED.
+- **Flow caveat:** the roll-up funding means *net* super-long flow may print small, and gross SELLING prints will coexist with the re-build — **do not re-read MoF flow sign as abandonment while this program runs** (the May ¥201B net-sell was likely this program's sell-leg).
+- **NOT repatriation:** funded from legacy JGBs, not the foreign/US book (foreign securities remain in unrealized GAIN, +¥709B FY2025). Channel-1 status unchanged.
+- **Confirm path:** Jul-7 30Y / Jul-22 40Y auction internals (firm vs Jun-10 BTC 2.936x/tail 2.8bp = bid real); MoF/lifer monthly flows; whether Nippon/Sumitomo/Dai-ichi follow at H2 FY2026 plans (Oct-Nov).
 
 ---
 

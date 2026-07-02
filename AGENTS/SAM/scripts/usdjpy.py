@@ -9,7 +9,7 @@ ranges (30d/90d/52wk), and days since last intraday touch of key levels.
 Source: Yahoo Finance via yfinance (USDJPY=X)
 
 Reference levels (matched to THESIS KEY THRESHOLDS):
-  160  MOF intervention zone
+  160  Historic MOF strike zone (Apr30/May6 2026); live playbook zone 162-163, disorder-not-level (CH-011)
   155  Phase 2 carry unwind onset
   150  Psychological / mid-cycle
   145  Forced unwind / unhedged positions underwater
@@ -39,7 +39,7 @@ TSV_HEADER = "Date\tOpen\tHigh\tLow\tClose\n"
 
 # Reference levels matched to THESIS KEY THRESHOLDS table
 REFERENCE_LEVELS = [
-    (160, "MOF intervention"),
+    (160, "MOF historic-strike zone"),
     (155, "Phase 2 onset"),
     (150, "Psychological"),
     (145, "Forced unwind"),

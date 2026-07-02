@@ -29,8 +29,8 @@ THRESHOLDS = [
     # ── USD/JPY risk zone (yen weakening = bad for FXY long)
     ("USDJPY=X", "above", 167.0, "risk",   "STOP — thesis may be broken, no MOF response"),
     ("USDJPY=X", "above", 165.0, "risk",   "Approaching stop — yen weakness accelerating"),
-    ("USDJPY=X", "above", 162.0, "risk",   "Stress level — intervention overdue"),
-    ("USDJPY=X", "above", 160.0, "risk",   "MOF intervention trigger (Jul 2024: $37B, 5-6% reversal)"),
+    ("USDJPY=X", "above", 162.0, "risk",   "Re-anchored mkt intervention line (ING 6/26); playbook 3rd-strike zone 162-163; AMBUSH regime = unsignalled"),
+    ("USDJPY=X", "above", 160.0, "risk",   "Historic strike zone (Apr30/May6 2026 ops); CH-011: MOF fires on disorder/speed, NOT level"),
     # ── USD/JPY thesis zone (yen strengthening = thesis working)
     ("USDJPY=X", "below", 155.0, "thesis", "Phase 2 carry unwind onset"),
     ("USDJPY=X", "below", 150.0, "thesis", "Deep carry unwind — FXY target zone approaching"),
@@ -38,7 +38,7 @@ THRESHOLDS = [
     ("USDJPY=X", "below", 145.0, "thesis", "Unhedged positions underwater → mechanical selling"),
     ("USDJPY=X", "below", 135.0, "thesis", "Life insurer forced systematic selling (avg entry rate)"),
     # ── FXY position levels
-    ("FXY",      "below",  55.05, "risk",   "FXY STOP LEVEL — thesis break condition"),
+    ("FXY",      "below",  55.05, "risk",   "Former stop level (FLAT since 6/29) — watch/re-entry reference only"),
     ("FXY",      "above",  60.00, "thesis", "FXY target zone entry ($60-62)"),
     ("FXY",      "above",  62.00, "thesis", "FXY target zone upper bound — consider partial profits"),
     # ── Brent oil
