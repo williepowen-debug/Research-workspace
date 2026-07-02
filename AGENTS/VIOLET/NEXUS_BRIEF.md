@@ -1,6 +1,8 @@
 # VIOLET — NEXUS Brief
 
-**As of:** 2026-07-01 ~23:00 ET — post-close boot after 5-market-day gap (6/24-6/30 dark); reconstructed via 5-thread web workflow + own pulls (yf closes, FRED daily path, official CBOE SKEW closes, COT). | **STATUS commit:** 384ff7f0 (7/1 close basis).
+**As of:** 2026-07-02 ~10:20 ET — live morning session (7/1 post-close boot → 7/2 AM: NFP adjudicated, HENRY flip/GEX integrated, consistency sweep). | **STATUS commit:** d6bd0692 (7/2 AM basis; dashboard values remain 7/1 close, gate tracker live).
+
+> **⚡ 7/2 AM DELTA:** **Gate B = NO FIRE** (NFP +57K stagflationary-mix — net rev −74K, U-3 participation artifact, AHE 3.5%↑; tape dovish-muted→hawkish-lean, 10Y 4.50 +3bp; zero registered anchors; KB-VIO-111). **HENRY flip WAITING-FOR RESOLVED:** band 7,437–7,471, **Net GEX FLIPPED POSITIVE ~+$35B** — dealers dampening, cushion 0.2-0.6%, break-tripwire armed for 7/14 CPI; **GEX-suppression mechanism RE-CONFIRMED** (thesis banner updated). Candidate **MOF yen strike** 8:30 bar (162.5→160.7, UNCONFIRMED — SAM verifies; would re-open the carry→vol channel watch). **Pending today: Gate A (~11:30 ET post-DISH CCC print) · Gate C (LIQUID breadth).**
 
 **Status:** 🟠 v3.6 — **THE DIVERGENCE IS THE STORY: VIX 16.59 / SKEW 154.82 / credit tree in first-ever BIN-A.** The 6/23 Path-B partial-fire did NOT resolve — it chopped and **broadened** (narrative inverted capex-slowdown→capex-flood→antitrust/demand-destruction; MU round-tripped a +15.7% earnings pop to BELOW its 6/23 panic close; window SOX −8.8% vs SPX +0.1%, VIX DOWN). The **KB-VIO-090 credit tree fired BIN-A in the gap** (cross 6/23 → escalator 9.68 + dispersion 8.01 on 6/25 → CCC stuck 9.70 / disp new-high 8.06 on 6/30) — though **DISH DBS's prepack Ch11 (6/30, largest-CCC-structure class) is a direct idiosyncratic contributor**; LIQUID breadth is the registered discriminator (SIG sent). **SKEW ramped +15.4pts in 3 sessions to 154.82** (top-decile, cycle-2nd-highest) while equity P/C collapsed 0.85→0.64: hedge flow rotated ATM→far-OTM crash wings, which **mechanically suppresses headline VIX** — the 16.59 print is partly hedge structure, not calm (KB-VIO-108). Macro re-hawked into 7/1 (Warsh Sintra, ~70% Sep-hike odds, 10Y +14bp/2d, **yen 40-yr low, zero haven bid through the Asia stress window**). Formal DIET/STRICT NOT fired (VVIX flat = binding leg) — monitored, not L1-sized. Matrix 23/45 (verified): external vectors at floor ⚪, internal vectors at cycle highs (credit 🔴🔴, SKEW 🔴, Path-B 🔴). No position.
 
@@ -44,14 +46,14 @@
 | From | Input | Expected by | Why it matters | How it changes my view |
 |------|-------|-------------|----------------|------------------------|
 | **LIQUID** | **CCC mover-breadth 6/23-6/30** (KB-VIO-098 discriminator) | ASAP — decision-blocking on a fired tree | Only registered adjudicator of Bin-A meaning | Idiosyncratic → composition-artifact, tree refinement proceeds, Path-A back to dormant; breadth → Path-A re-activating under Fed-HIKE = hedge flag escalates to packet. |
-| **HENRY** | Dealer-gamma FLIP LEVEL + GEX re-confirm | Open since 6/9 | The Path-B release trigger VIOLET can't self-compute | Flip proximity sizes the release risk; sizing stays L1-based until it lands. |
+| ~~HENRY~~ | ~~Dealer-gamma FLIP LEVEL~~ **RESOLVED 7/2** — flip 7,437–7,471, GEX +$35B positive, published as a maintained NEXUS_BRIEF number with an armed break-tripwire (ES-equiv ~7,503–7,537) | — | Was open since 6/9 | Positive gamma = absorption mechanically explained; thin cushion means one gap re-arms amplification. |
 | HAWK | Post-6/29 Iran read (formal de-escalation) | rolling | Confirms the oil-vol channel stays closed | Re-escalation would re-open + amplify. |
 
 ---
 
 ## NEXT DECISION POINT
 
-- **What:** **Tail-hedge gate ARMED — Will approved 7/1 (KB-VIO-110).** Packet-build fires on any of: Gate A post-DISH CCC persistence (7/2 print ≥9.65 / disp ≥8.00) · Gate B jobs shock (7/2 8:30 ET, hawkish + tape confirms) · Gate C LIQUID breadth. Build = same-session, spec pre-registered (VIX calls 30-60 DTE — the VVIX-suppressed leg, NOT the SKEW-rich wings; 1% starter); execution still Will-[Approve]. Stand-down if all three benign; re-arm on SKEW 4td sustain / DIET fire / new Bin-A condition.
+- **What:** **Tail-hedge gate ARMED — Will approved 7/1 (KB-VIO-110). Gate B adjudicated NO-FIRE 7/2 (KB-VIO-111).** Packet-build fires on either remaining gate: **Gate A** post-DISH CCC persistence (~11:30 ET 7/2 print: CCC ≥9.65 / disp ≥8.00, DISH-composition check both ways, indeterminate→wait) · **Gate C** LIQUID breadth. Build = same-session, spec pre-registered (VIX calls 30-60 DTE — the VVIX-suppressed leg, NOT the SKEW-rich wings; 1% starter); execution still Will-[Approve]. Stand-down if all resolve benign; re-arm on SKEW 4td sustain (1/4) / DIET fire / new Bin-A condition / HENRY flip-break (SPX <~7,437-7,471).
 - **When:** June jobs ~7/2 (verify timing; 7/3 = observed holiday, short week) · post-DISH prints 7/2-3 · VIX exp 7/15 · FOMC 7/29.
 - **What would re-engage short-vol:** nothing while Bin-A stands (registered). Bin-A state exits only via the tree's own lines (CCC back <9.55, or a written re-mark after a clean +5td re-check with LIQUID breadth confirming idiosyncratic).
 
