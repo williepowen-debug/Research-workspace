@@ -191,7 +191,7 @@
 
 **Owed next session:**
 1. **Jul 6 ISM Services** — survey-leg read (Svs emp <47?); then Jul 9 claims (holiday distortion — pre-commit no re-grade on it alone).
-2. **FRED key** — desktop install pending (Will; `MACHINE_LOCAL.md` has the 2 lines + rotation rec). boot.py FRED sweep fails-loud until then; this session pulled primaries by hand.
+2. ~~FRED key~~ **RESOLVED intra-session:** PROME rotated + installed the desktop key (commit `df312435`); re-test ~12:00 ET returned live data (ICSA 215K = matches DOL primary). boot.py sweep should be green next boot — the 10:21 fail was the pre-rotation window.
 3. **TX WARN feed stale ~3wk at source** — treat `warn_texas.py` quiet as unknown, not zero; re-check TWC portal ~Jul 9.
 4. Monthly carries still owed: staffing tier-split/ASA (next prints), FL UR June (BLS state emp ~Jul 21).
 5. LAB-04: nudge CARL pickup if still unowned by next session.
