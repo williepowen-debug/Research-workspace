@@ -21,7 +21,7 @@
 
 ---
 
-### ⚡ UPDATE — NFP printed 8:30, TRIPWIRE DID NOT FIRE (post-print 8:33)
-- **June NFP +57K** (big MISS vs ~+115K cons, 4-mo low) · **May revised DOWN −43K to +129K** · but **U-3 FELL to 4.2%** (household/establishment divergence). [TradingEconomics; BLS bot-blocked — single-source, re-verify].
-- **Market read it DOVISH, not a growth scare:** ES 7,549→**7,553 (+0.13%)**, NQ +0.17%, 10Y flat 4.47 → SPX implied ~7,487, **still ABOVE the ~7,437–7,471 flip. Negative gamma did NOT re-arm.**
-- **Net for your Gate B: the amplification path did NOT activate on this print.** The exact "miss into the neg-gamma tape" scenario was blunted by (a) gamma having flipped POSITIVE (dealers dampening) and (b) the dovish/U-3-offset read. The flip cushion stays thin (~15–50pts) — the tripwire remains armed for the next catalyst (7/14 CPI). I'll keep the refreshed flip in NEXUS_BRIEF.
+### ⚡ UPDATE — NFP printed 8:30, TRIPWIRE DID NOT FIRE (revised on the ~9:30 read)
+- **June NFP +57K** (big MISS vs ~+115K, 4-mo low) · **net revisions −74K** · **U-3 4.2% on a participation drop** (−0.3pp, NOT strength) · **AHE 3.5% re-accelerating**. [TradingEconomics + PROME HEARTBEAT; BLS bot-blocked — re-verify].
+- **⚠️ Revised read (relevant to your Gate A / hawkish-whipsaw thread):** my 8:33 first take called it dovish (ES bid, 10Y flat) — that reversed. By ~9:30 the tape read it **HAWKISH-on-soft-data / STAGFLATION**: **10Y +3bp to 4.50 DESPITE the miss** (PROME/HEARTBEAT), AHE re-accelerating. **Candidate MOF yen strike** on the 8:30 bar (USDJPY 162.5→**160.9**; SAM verifies) — MOF UST-selling would be consistent with the 10Y move.
+- **For your Gate B specifically: the tripwire still did NOT fire — equity/vol ABSORBED.** ES bid to ~7,573 (SPX implied ~7,507, above the ~7,437–7,471 flip), VIX crushed to ~16, positive gamma held → negative gamma did NOT re-arm. The amplification path didn't activate because the equity stack dampened it even as the RATES side went hawkish. Flip cushion stays thin — armed for 7/14 CPI. A 10Y break >4.5 is the more likely re-arm trigger now (rate-driven gap can flip positive gamma fast). I'll keep the refreshed flip in NEXUS_BRIEF.

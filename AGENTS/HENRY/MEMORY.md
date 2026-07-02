@@ -60,6 +60,12 @@
 - **37 WALTER signals processed** → board_log 16→53 rows (~17 acted — the AI-capex/froth cluster; 1 skipped, 1 info-only; all git mv'd). **HEN-36 created** carrying PROME's Will-approved (6/27) supply-chain-SOURCE deepening (own TSMC/HBM/chip-war as the shock source). **HEN-37** (NFP 7/2) added.
 - **STATUS full rewrite** (192 lines) for the "calm surface, coiling spring" 3-axis read. NEXUS_BRIEF refreshed (dropped stale push line per PROME audit).
 
+**7/2 intraday addendum (VIOLET coord + NFP live):**
+- **VIOLET gamma-flip refresh delivered** — flip ~7,437–7,471, Net GEX **+$35B POSITIVE** (regime flipped from 6/23 negative); published in NEXUS_BRIEF + outbox reply. Tripwire (SPX under flip) ARMED for 7/14 CPI. Her 2 corrections applied (MU 6/23 −13.2%, SKEW baseline 6/22).
+- **June NFP +57K MISS** (net revisions −74K, U-3 4.2% on participation, AHE 3.5% re-accel). **⚠️ Lesson: my 8:33 knee-jerk read ("dovish", ES bid) REVERSED to HAWKISH-stagflation by ~9:30** (10Y +3bp to 4.50 per PROME/HEARTBEAT; my yfinance ^TNX lagged 4.46 pre-open — reconcile at open/FRED). **Don't lock a reaction read on the 8:30 knee-jerk.** HEN-37 re-marked surprise-right/expression-wrong (same family as HEN-33 — got the miss, wrong the expression).
+- **Answered PROME's absorbed-vs-arming Q: ABSORBED equity-mechanically** (positive gamma, VIX ~16, no CTA trigger); the arming FUSE migrated to the RATES channel (10Y >4.5). Candidate MOF yen strike 162.5→160.9 (SAM verifies; MOF UST-selling ties to the 10Y move).
+- **📌 DEWEY PROMPT-12 queued — my CTA/gamma/vol-control calibration, deliver-by 7/10.** Will sharpen the mechanical-stack read; watch for it.
+
 ### NEXT SESSION
 **🔴 PRIORITY — the live gates:**
 1. **June NFP Thu 7/2 8:30am (HEN-37)** — ~+115K cons, ADP soft +98K into it. A miss (<+90K / U-3 4.4%) into the VIX-16.5/SKEW-154 tape = the cascade path re-opens + front-end eases. Log actual vs cons vs prior immediately.
