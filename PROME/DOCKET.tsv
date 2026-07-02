@@ -1,0 +1,14 @@
+# LIVE ledger — PROME-owned canonical forward-catalyst docket (dated catalysts only; level-triggers are watched by the intake lane / config.py bands).
+# Write-back: PROME closeout, paired with the SCRATCH operator card. Staleness watch: python3 scripts/ledger_staleness.py PROME --glob 'DOCKET.tsv' --days 7
+# Consumers: scripts/firetime_check.py · SCRATCH operator card + HEARTBEAT near-gates are prose VIEWS — this file wins on drift.
+# date = YYYY-MM-DD or YYYY-MM-DD..YYYY-MM-DD (window; ~ prefix in notes = approximate/unconfirmed print date). state = PENDING | RESOLVED(read) | SLID(from date).
+date	catalyst	owners	state	artifacts_citing	notes
+2026-07-02	June NFP 08:30 ET	LABOR/HENRY	PENDING	-	pulled forward (Fri 7/3 = July-4 observed; docket corrected from 7/3 on 7/1, BLS-verified); soft print accelerates growth-leg
+2026-07-02	First intake-lane HY OAS row ~11:00 ET	PROME/LIQUID/WALTER	PENDING	HEARTBEAT.md	machine-independent HY-watch primary goes live (bands 240/260/270/280; X1-breach + re-kill alerts)
+2026-07-03	BRK-29 PE-evergreen tape-trigger window closes	BROCK	PENDING	-	1-of-2 fired (PG); 2nd unfired; leans LAPSE
+2026-07-06	CFTC COT	SAM/LIQUID/BRENT	SLID(2026-07-03)	-	July-4 observed slide; 2nd-week test for BRENT decoupling adjudication
+2026-07-14	June CPI	HENRY/CARL/LIQUID	PENDING	-	the real energy-washout/disinflation test (May PCE could not show it)
+2026-07-15..2026-07-22	Q2 monolines / Axis-A (SYF/ALLY/COF)	REGINALD/CARL/NEXUS	PENDING	PROME/proposals/2026-06-26_bank-put-reshape-roll.md	un-maskable M-08 transmission test; monoline-beat gate in proposal SF — sequencing vs WAL Jul-16 flagged 7/1
+2026-07-16	OZK/WAL Q2 prints	REGINALD/PROME/TERRY	PENDING	PROME/proposals/2026-06-26_bank-put-reshape-roll.md	~approximate print date; bank-put reshape fire gate (corrected from Jul-30 on 6/26); needs live broker book at fire-time
+2026-07-28	ARCC Q2 (BXSL ~early Aug)	BROCK/CARL	PENDING	-	wrapper-leading recognition read: NA% / NAV / PIK / coverage
+2026-10-15	BRK-30 credit-fund re-cap/new-gate escalation resolves	BROCK	PENDING	-	open at 65%

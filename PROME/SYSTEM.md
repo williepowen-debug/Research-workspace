@@ -43,6 +43,20 @@ Core rule:
 | `KERNELS.md` | On-demand reference | Thesis-spine: compressed transmission map + durable system lessons (renamed from root `MEMORY.md` 6/30; not injected). |
 | `memory/YYYY-MM-DD.md` | On-demand (daily log) | Daily session activity detail; not root-memory insight. |
 
+### Canonical → Mirrors map
+
+*(Added 2026-07-01, seeded from the 24-file audit. When a **canonical** doc changes, walk its row and verify each mirror before commit — CLOSEOUT Chunk-3 trigger. Canonical wins on drift (`[[finding_doc_mirror_consistency_check]]`). The weekly spine audit (`PROME/tools/spine_audit.workflow.js`) checks the same rows as the catch-all.)*
+
+| Canonical fact | Canonical home | Known mirrors (verify on canon change) |
+|---|---|---|
+| Git/push protocol (pathspec, auto-push, non-ff=routine, repo-root cwd) | root `CLAUDE.md` Git Protocol | `PROME/CLAUDE.md` (git-default ¶) · `PROME/BOOT.md` (non-negotiables) · `PROME/GIT_COORDINATION.md` (cookbook + Push Discipline) · `PROME/CLOSEOUT.md` (Chunk 4) · `PROME/AUTONOMY.md` (header note) · auto-memory `feedback_defer_push_coordinate` |
+| Machine model (serial multi-machine, desktop ⇄ laptop) | root `CLAUDE.md` + `PROME/MACHINE_LOCAL.md` | `PROME/CLAUDE.md` (identity) · `SYSTEM.md` (Prome Runtime) · `ORCHESTRAL_LAYER_DESIGN.md` (open-questions bullet) · `public-prep/HISTORY_SCRUB_PLAN.md` (safety rail 5) |
+| HY-watch mechanism (intake lane primary, desktop timer redundancy) | `HEARTBEAT.md` §Thresholds + intake repo | `PROME/STATUS.md` (Core State + HY lane row) · `SYSTEM.md` (Architecture Note 1) · `ACTIVE_DECISIONS.md` (RESEARCH-INTAKE + Post-FOMC rows) · bank-put proposal §F |
+| Position truth (off-repo Will/broker; FORGE = stale mirror) | root `CLAUDE.md` + `FORGE/STATUS.md` banner | `SYSTEM.md` (Freshness Discipline + Note 3) · `ACTIVE_DECISIONS.md` (Current Mode) · `action-cards/TEMPLATE.md` (header) · bank-put proposal (inputs line) |
+| Roster / classification | `PROME/ROSTER.md` | root `CLAUDE.md` (active list) · `AGENTS.md` (table + run-model note) · `README.md` · `AGENTS/_INDEX.md` + `_NETWORK.md` · `skills/walter/references/agent-directory.md` |
+| Forward catalyst dates | **`PROME/DOCKET.tsv`** | `SCRATCH.md` (operator card) · `HEARTBEAT.md` (Near Gates) · `STATUS.md` (Next Best Action docket line) · fire-time artifacts (checked by `scripts/firetime_check.py`) |
+| Trigger bands / levels | `FORGE/tools/market-data/config.py` + `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` + intake-lane alerts | `HEARTBEAT.md` §Thresholds · `skills/walter/references/agent-directory.md` (trigger-lines table) · fire-time artifacts |
+
 ---
 
 ## Prome Runtime
