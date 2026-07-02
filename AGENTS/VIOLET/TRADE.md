@@ -62,6 +62,28 @@ VIX-linked positions and trade framework.
 
 ---
 
+## LIVE DECISION FRAMEWORK — Gated Tail-Hedge Packet (Will-approved gate, 2026-07-01 ~11:30 PM ET, flat) — **ARMED**
+
+**Authorization scope (exact):** Will approved the GATE on 7/1 ("Approved on the gate — build the packet if it fires"). That authorizes VIOLET to **build and deliver the hedge packet same-session when any gate fires**. It does NOT pre-authorize execution — the packet still goes to Will for [Approve] per standing rule.
+
+**Context:** cycle-sharpest compression-divergence (VIX 16.59 partly wings-suppressed / SKEW 154.82 fresh top-decile / credit tree in first-ever Bin-A, DISH-confounded / Path-B unwind broadened un-indexed / Fed-HIKE repricing live). Registered L1 triggers NOT fired — hence gated, not entered. Full state: STATUS 7/1, KB-VIO-106..109.
+
+**THE GATES (any ONE fires the packet-build):**
+- **Gate A — post-DISH credit persistence:** the FRED print for 7/1 data (publishes ~11:30 AM ET Thu 7/2; next print may slip past the 7/3 holiday) shows **CCC ≥9.65 OR CCC−BB dispersion ≥8.00**. ⚠️ Composition check both ways: DISH's index-exit mechanics are unverified — a mechanically tighter print from DISH removal is not a true retrace, and a hold that still contains DISH is not clean persistence; state which case the print is before adjudicating, and if indeterminate, wait for the next print rather than force it.
+- **Gate B — jobs shock (Thu 7/2 8:30 ET, June employment):** hawkish surprise WITH tape confirmation — anchors (judgment allowed, documented): material hike-repricing (Sep odds jumping from ~70% toward ≥85-90%) AND/OR a vol reaction (VIX +10%+ intraday / front-led term-structure flattening / SPX −1%+ on the print). This gate carries the 6/5 NFP-analog class. A soft/benign print = no fire.
+- **Gate C — LIQUID breadth:** LIQUID's CCC mover read returns BROAD (not 3-4 idiosyncratic names) → fires regardless of A/B (the KB-VIO-098 discriminator resolving against composition).
+
+**STAND-DOWN (all three benign):** CCC back <9.55 + jobs benign + LIQUID idiosyncratic → de-escalate to watch. Re-arm lines: SKEW >150 sustained 4td (prediction #6, count 1/4) · formal DIET/STRICT fire (VVIX = binding leg) · any new Bin-A condition.
+
+**PACKET SPEC (pre-registered so the build is fast):**
+- **Vehicle:** long VIX calls, **30-60 DTE** (Aug 19 expiry class from 7/2) — deliberately the CHEAP leg of the surface: VVIX 89 = VIX optionality suppressed, while SKEW 154.82 = SPX far-OTM put wings are the crowded/rich leg. Not SPX puts.
+- **Size:** **1% account starter** (🟠 medium conviction long-vol max per sizing table). Escalation to 2% (protocol row ceiling) only if Gate C breadth AND Gate A both fire.
+- **Strikes/levels:** off a LIVE INTRADAY chain at build time (evening OI prints are artifact), naming computing-spot + as-of-minute (KB-VIO-092/099/101 discipline). Ladder anchors derived from live spot at pricing time — nothing pre-committed from 16.59.
+- **Entry timing:** prefer a vol-down/green-equity moment per rule #6 (calls on red days = don't chase a vol spike); if the gate fires INTO a vol-up tape and waiting sacrifices the hedge's purpose, document breaking rule #6 and why, per the rule's own note-when-breaking clause.
+- **Exit/management pre-registered in the packet:** monetization/roll plan (rule #7 — roll duration, don't trim), time-box, and the standing falsification lines (VIX3M/VIX <1.0 peak-marker = monetize-into-strength signal; credit tree state changes re-adjudicate the thesis leg).
+
+---
+
 ## LIVE DECISION FRAMEWORK — Post-Path-B Reversion Fade (pre-registered 2026-06-23, flat) — **CLOSED: FALSIFIED 7/1**
 
 **ADJUDICATION RECORD (7/1, KB-VIO-107):** The PRIMARY falsifier fired in the 6/24–6/30 dark window — CCC crossed 9.55 on the 6/23 print (9.56), the A-escalator (9.68 ≥9.65) and A3 dispersion (8.01 ≥8.00) fired on 6/25 data, A2 touched 6/26 (BB 1.73). **BIN-A = framework FALSIFIED full stop, never entered.** The Micron fork itself resolved ambiguously (MU cleared 6/24-6/25, then the sector relapsed 6/26 and again 7/1 — the fork's "cleared" state lasted one session). Tape epilogue: VIX did revert 19.49 → 16.59, inside the 16–17 target — the directional call paid, the credit switch killed it anyway, correctly per registration. Cost datum logged on the tree (single-issuer DISH distortion = refinement candidate, NOT retro-applied). Entry gates remain dead while Bin-A stands.

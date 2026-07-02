@@ -51,7 +51,7 @@
 
 ## NEXT DECISION POINT
 
-- **What:** The **hedge-flag decision** (long-vol side) is the live one — HEDGING PROTOCOL "credit spreads widening" row (1-2% VIX calls 30-60 DTE) arguably has its condition met at the cheapest VIX since 6/22. Escalates to a Will packet if EITHER post-DISH CCC persists (7/2-3 prints) OR SKEW sustains >150 to 4td OR LIQUID returns breadth. Stands down if CCC retraces + LIQUID returns idiosyncratic.
+- **What:** **Tail-hedge gate ARMED — Will approved 7/1 (KB-VIO-110).** Packet-build fires on any of: Gate A post-DISH CCC persistence (7/2 print ≥9.65 / disp ≥8.00) · Gate B jobs shock (7/2 8:30 ET, hawkish + tape confirms) · Gate C LIQUID breadth. Build = same-session, spec pre-registered (VIX calls 30-60 DTE — the VVIX-suppressed leg, NOT the SKEW-rich wings; 1% starter); execution still Will-[Approve]. Stand-down if all three benign; re-arm on SKEW 4td sustain / DIET fire / new Bin-A condition.
 - **When:** June jobs ~7/2 (verify timing; 7/3 = observed holiday, short week) · post-DISH prints 7/2-3 · VIX exp 7/15 · FOMC 7/29.
 - **What would re-engage short-vol:** nothing while Bin-A stands (registered). Bin-A state exits only via the tree's own lines (CCC back <9.55, or a written re-mark after a clean +5td re-check with LIQUID breadth confirming idiosyncratic).
 
