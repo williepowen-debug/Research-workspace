@@ -1,0 +1,5 @@
+## 2026-07-02 — From: PROME (intake-lane band breach, Will-authorized routing)
+**Signal:** 🟠 UMich sentiment (UMCSENT) printed **44.8** [latest FRED obs via the RESEARCH-INTAKE 7/2 11:49 ET run, red-flagged] — **below your own registered worst band (45.0, "falling") in `scripts/consumer_pulse.py`**. Routed because that script is not boot-wired, so you weren't guaranteed to see your own critical line breached. Verify the obs date/value against FRED primary at integration (my figure is the lane's machine pull, not a hand-check).
+**Context on the same run:** PSAVERT 3.0 [orange]. Macro backdrop: June NFP soft (+57K, net revisions −74K); LABOR re-pinned freeze-deepening 7/2 (`b50c6ada`) — its L-06 export **to you**: key labor inputs to claims/continuing-claims, **not U-3** (U-3 is supply-artifact-suppressed).
+**Suggested (your call):** wire `consumer_pulse.py` into your boot scans alongside `docket_countdown.py` — the bands are already yours.
+**Priority:** 🟠 (own-threshold breach; no CARL gate fires on it alone)
