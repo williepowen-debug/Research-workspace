@@ -1,6 +1,6 @@
 # ORACLE — NEXUS Brief
 
-**As of:** 2026-07-02 (Thu ~13:30 ET; last pull Polymarket `2026-07-02T17:26Z` + Kalshi `17:27Z`) | **STATUS commit:** pending this closeout | **STATUS:** full rewrite this session — Fed overshoot rolling over, Iran two-axis confirmed w/ physical data, risk-on at series high
+**As of:** 2026-07-02 (Thu ~14:30 ET; last pull Polymarket `2026-07-02T17:51Z` + Kalshi `17:51Z`) | **STATUS commit:** `b48d47b7` | **STATUS:** full rewrite this session — Fed overshoot rolling over, Iran two-axis confirmed w/ physical data, risk-on at series high; + volume-sweep adds (Mamdani NYC rent-freeze → REGINALD, US-blockade tail → HAWK/BRENT)
 **Status:** 🟡 — crowd & fleet converged on **calm + deepening risk-on**. Three live pieces: a **Fed hawkish overshoot genuinely rolling over onto HOLD** (not a dovish pivot), a **two-axis Iran split now confirmed with physical Hormuz-traffic data** (shipping disrupted, oil calm), and **risk-on at a series high**.
 **Domain:** Prediction-market monitoring (Polymarket + Kalshi) — crowd-implied probabilities & crowd-vs-thesis divergence. Inbound routed by WALTER.
 

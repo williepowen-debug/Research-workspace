@@ -1,7 +1,7 @@
 # ORACLE — SCRATCH (canonical session handoff)
 
-**Session arc:** 2026-07-02 (Thu ~1:30 PM ET) — boot + routine closeout after 5-day gap (last session 6/27). Both platforms pulled live; big macro moves digested; roll-watch executed (6 June markets dropped, 2 broken pins repinned, 2 new markets added); full STATUS/NEXUS/KB/VX rewrite. Inbox empty, git clean at boot.
-**Last updated:** 2026-07-02 (session-end closeout)
+**Session arc:** 2026-07-02 (Thu, ~1:30–2:30 PM ET) — boot + closeout after 5-day gap (last session 6/27), THEN a Will-driven working session: dual-source liveness confirm → 17:51Z re-pull (flat) → **volume/sentiment anomaly sweep** → 2 findings routed (Mamdani NYC rent-freeze → REGINALD; US-blockade-Iran tail → HAWK/BRENT). 3 commits, all pushed.
+**Last updated:** 2026-07-02 (session-end, post volume-sweep)
 
 ## CHANGES SINCE (what moved, 6/27 → 7/2)
 - **Fed hawkish overshoot ROLLING OVER onto HOLD (not a dovish pivot).** July-hike collapsed 18.1%→**9.7%** (−10.5/7d, −9/1d) — essentially priced out; hike-2026 51.5%→**46.5%** (broke <50); end-2026 modal now **HOLD 3.75% (25.5%)** w/ multi-hike ≥4.5% faded to 8.0%. Kalshi corroborates (July-hike 14% −6, >4.00% 1%). **No-cuts still 77.5%** (dovish tell = <70%, NOT fired). Trajectory: hike-2026 uptrend *flattening* (+11/30d, down from +21) — spike rolling over, not reversing.
@@ -16,6 +16,9 @@
 3. **STATUS full rewrite** (alerts→top, dashboard, trajectory, convergence, maintenance). **NEXUS_BRIEF full refresh** (mandatory). **KB +4** (020 Fed / 021 Iran-two-axis / 022 risk-on / 023 Kalshi-corroboration; marked **018 SUPERSEDED**). **VX rewrite** (all 8 rows refreshed + added VX-ORC-09 risk-on).
 4. **Fixed stale CLAUDE.md Kalshi-creds note** — the 7/1 "creds MISSING" flag was wrong; creds present + chmod 600, Kalshi lane LIVE. Corrected to ✅ 7/2.
 5. Fixed STATUS BTC-dip row (pin broke, no CLOB token) — showed honest n/a not a proxy number.
+6. **Confirmed both data sources live** (Will asked) — Polymarket (Gamma, no-auth) + Kalshi (`exchange_active:true`). 17:51Z re-pull both platforms = **flat vs 17:26Z boot snapshot** (only Fed 1-cut +1 to 15.5%); logged fresh time-series points, no analytical churn.
+7. **Volume/sentiment anomaly sweep** (Will asked: surprising changes / insider positioning). Method: `movers --all` (market-wide, price-ranked) + diffed ODDS_LOG cumulative volume across pulls for %-surge. Verdict: **NO insider smoking gun** (every big move has a public driver; no liquid-move-without-news; deep tails flat). But found: (a) Fed July-hike = biggest genuine volume surge (**46% of lifetime vol in 5d**, deep, directional) → dovish repricing is HIGH-conviction money; (b) **off-radar credit signal — Mamdani NYC rent-freeze 93.8% (+54.8/7d, $275K)** → NYCB/Flagstar-2024 multifamily collateral path; (c) US-blockade-Iran tail 30.5% by-Dec (~$780K deep) = the shipping→supply-shock bridge.
+8. **Routed both** — Mamdani → watchlist + KB-024 + STATUS(alert+row) + NEXUS(sending) + **outbox to REGINALD**; US-blockade → **outbox to HAWK/BRENT**. Both flagged as sentiment shifts NOT insider tells (public drivers, moderate liq).
 
 ## NEXT SESSION (priority order)
 1. **🟡 RED** — still owed a current GDP/NBER-comparable fleet recession number (carried since 6/13). Not urgent (crowd & fleet both calm, no live divergence) but the divergence math depends on it.
@@ -25,9 +28,12 @@
 5. **Iran shipping axis:** watch **US-blockade-on-Iran** (30.5% Dec, the regime-change tripwire) + **WTI-$100-July** (supply-shock confirm, 1.6%) + Hormuz physical-traffic ladder. Fresh-attack by-Jul31 46.5%.
 6. **Near-dated resolutions (7/14-15):** Citi/BAC provisions + June CPI. Watch surprise-vs-priced. **Jul 29:** Fed + BOJ.
 7. **movers:** run as the standing discovery sweep each session.
+8. **🟠 Mamdani follow-up:** watch for REGINALD's reply (outbox `2026-07-02_to-reginald_mamdani-nyc-rent-freeze.md`) + track the Mamdani trajectory each session (accel toward 100 or reversal = the tell). NYC multifamily → NYCB/Flagstar collateral.
+9. **🟢 TOOL BUILD — volume-ranked market-wide scan.** Coverage gap found this session: `movers` is *price-move*-ranked, so it misses a big volume dump that DIDN'T move price (the purest Type-4 insider tell — "$500K into a 2% market, still 2%"). Add a `polymarket.py` mode that ranks untracked markets by recent volume (volume24hr / lifetime), not price-change. Will greenlit building it.
+10. **🟢 MEMORY.md is STALE** — tail still says "Kalshi not wired," "push deferred to a Will window," "bank-failure-Jun30 resolves 6/30." All outdated (Kalshi wired 6/27, auto-push live, market resolved). Refresh or archive; SCRATCH is the live handoff.
 
 ## CARRY-FORWARD
-- **Push state:** this closeout commits + auto-pushes via `scripts/safe-push.sh` (push-train sweeps any pending other-agent commits + the DEWEY untracked file is NOT mine — leave it). Unpushed hashes: [this session's commit].
+- **Push state:** all pushed, `ahead=0`. This session's commits: **d97e2d34** (boot closeout) → **47bab79c** (17:51Z fresh points) → **b48d47b7** (Mamdani/blockade routing) → [this final SCRATCH/NEXUS closeout]. **NOTE:** DEWEY + WALTER have uncommitted working-tree changes (DEWEY active concurrently on this box) — NOT mine, left untouched; committed only explicit `AGENTS/ORACLE/` pathspecs. Did NOT pull (uncommitted work outside my dir).
 - **Watchlists:** Polymarket ~34 live (post roll-watch); Kalshi 8. Kalshi creds `~/.config/kalshi/{key_id.txt,private_key.pem}` (chmod 600, present, NEVER in repo).
 - **Tooling:** `polymarket.py` = search/market/event/pull/history/movers; `kalshi.py` = status/search/market/event/series/pull. Both run at every EXECUTE.
 - **Stale-date markets** (China-GDP, unemployment ladder) shown ⏮ not RESOLVED — don't roll on the bogus endDate.
