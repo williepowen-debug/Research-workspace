@@ -77,21 +77,41 @@ def tsv_rows(path):
         return 0
     return max(0, len([l for l in txt.splitlines() if l.strip() and not l.startswith("#")]) - 1)
 
-# PAT-031 — cwd-proof boot invocations. A *runnable* bare root-relative invocation
-# (`python3 scripts/x.py` / `python3 AGENTS/x.py`) that lacks the self-locating idiom on
-# its own line depends on the incidental shell cwd and fails rc=2 from the `cd AGENTS/<NAME>
-# && claude` launch dir. This is an AGENT-LEVEL heuristic ON PURPOSE (not line-level): it
-# only flags when the boot doc shows ZERO idiom-awareness anywhere (no `rev-parse`), so an
-# idiom-unaware NEW build trips it while a swept agent whose *reference* command docs stay
-# bare under a section cwd-note (e.g. ORACLE) is correctly suppressed. Line-level strictness
-# is FP-prone on intentional reference-command docs (PROME 7/1 addendum) → deferred. Trade-off:
-# a bare boot line inside an otherwise-idiom-aware doc is not caught — acceptable because the
-# 7/1 grep sweep already cleaned existing agents line-by-line; the residual job is guarding
-# post-AEOLUS builds (which inherit the idiom via the blueprints).
-BARE_BOOT_RE = re.compile(r"python3\s+(?:scripts/|AGENTS/)\S*\.py")
+# PAT-031 — cwd-proof boot invocations. A *runnable* boot command that uses a bare
+# root-relative or own-dir-relative path (`python3 scripts/x.py`, `bash scripts/x.sh`,
+# `node tools/y.js`, `./scripts/x.py`) depends on the incidental shell cwd and fails rc=2
+# from the `cd AGENTS/<NAME> && claude` launch dir. The self-locating idiom
+# (`"$(git rev-parse --show-toplevel)/…"`) fixes it.
+#
+# DETECTION (per-line): an interpreter + a relative path ending in a script extension, OR a
+# direct `./relative/path.ext` execution — EXCLUDING any line carrying `rev-parse` (already
+# self-locating) and absolute / `$var` / quoted paths. Widened 2026-07-03 (PROME flag 1) from
+# python3-only to python/bash/sh/node/npx/ruby/perl + `./` + .py/.sh/.js/.mjs/.ts/.rb/.pl so a
+# future non-Python build can't slip through. KNOWN UNCAUGHT: `python3 -m module.name`
+# (module-resolution, not a path — flagging it would FP on stdlib `-m pip`/`-m venv`); accepted.
+#
+# AGENT-LEVEL heuristic ON PURPOSE (not line-level): the gap is only reported when the doc
+# shows ZERO idiom-awareness anywhere (no `rev-parse`). So an idiom-unaware NEW build trips it,
+# while a swept agent whose *reference* command docs stay bare under a section cwd-note (e.g.
+# ORACLE) is correctly suppressed — a line-level check would re-flag those, and a check that
+# cries wolf gets ignored.
+#
+# ACCEPTED RESIDUAL (PROME flag 2, 2026-07-03): this is a NEW-BUILD guard, NOT a regression
+# guard — a bare line ADDED to an already-idiom-aware doc is not caught here. Accepted
+# deliberately: the real regression guard is FAIL-LOUD-AT-BOOT (the invocation dies rc=2 at
+# that agent's next boot — exactly how BRENT's Jul-1 break surfaced), which is fast, local, and
+# self-evident. The scanner covers the one case fail-loud can't (a build that copies a bare
+# pattern before it ever boots clean); regressions stay with boot-time failure + human review.
+# Reintroducing line-level to close this residual would resurrect the ORACLE FP — worse.
+_INTERP = r"(?:python3?|bash|sh|node|npx|ruby|perl)"
+_EXT = r"(?:py|sh|js|mjs|ts|rb|pl)"
+BARE_BOOT_RE = re.compile(
+    rf"(?:{_INTERP}\s+(?:\./)?|(?<![\w$/'\"])\./)"
+    rf"[\w.-]+(?:/[\w.-]+)*\.{_EXT}\b"
+)
 
 def bare_boot_calls(claude):
-    """Runnable bare root-relative boot invocations lacking the self-locating idiom (PAT-031)."""
+    """Runnable bare (cwd-dependent) boot invocations lacking the self-locating idiom (PAT-031)."""
     if not claude:
         return 0
     return sum(1 for ln in claude.splitlines()
