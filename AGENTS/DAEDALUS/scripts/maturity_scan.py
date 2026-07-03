@@ -77,6 +77,26 @@ def tsv_rows(path):
         return 0
     return max(0, len([l for l in txt.splitlines() if l.strip() and not l.startswith("#")]) - 1)
 
+# PAT-031 — cwd-proof boot invocations. A *runnable* bare root-relative invocation
+# (`python3 scripts/x.py` / `python3 AGENTS/x.py`) that lacks the self-locating idiom on
+# its own line depends on the incidental shell cwd and fails rc=2 from the `cd AGENTS/<NAME>
+# && claude` launch dir. This is an AGENT-LEVEL heuristic ON PURPOSE (not line-level): it
+# only flags when the boot doc shows ZERO idiom-awareness anywhere (no `rev-parse`), so an
+# idiom-unaware NEW build trips it while a swept agent whose *reference* command docs stay
+# bare under a section cwd-note (e.g. ORACLE) is correctly suppressed. Line-level strictness
+# is FP-prone on intentional reference-command docs (PROME 7/1 addendum) → deferred. Trade-off:
+# a bare boot line inside an otherwise-idiom-aware doc is not caught — acceptable because the
+# 7/1 grep sweep already cleaned existing agents line-by-line; the residual job is guarding
+# post-AEOLUS builds (which inherit the idiom via the blueprints).
+BARE_BOOT_RE = re.compile(r"python3\s+(?:scripts/|AGENTS/)\S*\.py")
+
+def bare_boot_calls(claude):
+    """Runnable bare root-relative boot invocations lacking the self-locating idiom (PAT-031)."""
+    if not claude:
+        return 0
+    return sum(1 for ln in claude.splitlines()
+               if BARE_BOOT_RE.search(ln) and "rev-parse" not in ln)
+
 def find_live(root, filename):
     """All paths to `filename` under root, EXCLUDING archive/sources/inbox/etc (PAT-020).
     Live artifacts only — a TRADE.md in archive/ does not count as a live trade surface."""
@@ -154,6 +174,8 @@ def scan(name):
         "trade_path": (os.path.relpath(trade_paths[0], d) if trade_paths else "-"),
         "days_behind": days_behind_head(name),
         "commits_30d": commits_30d(name),
+        "bare_boot_calls": bare_boot_calls(claude),                # PAT-031
+        "idiom_aware": bool(claude and "rev-parse" in claude),     # PAT-031 (agent-level gate)
     }
     sig["floor"] = floor_level(sig)
     sig["gaps"] = conformance_gaps(sig)
@@ -192,6 +214,9 @@ def conformance_gaps(s):
         g.append("no BOTTOM LINE")
     if s["status_lines"] > 260:
         g.append(f"STATUS {s['status_lines']}ln >cap")
+    # PAT-031 — cwd-proof boot invocations (class-independent; agent-level, see bare_boot_calls)
+    if s["bare_boot_calls"] > 0 and not s["idiom_aware"]:
+        g.append(f"{s['bare_boot_calls']} bare boot invocation(s) not cwd-proof (PAT-031)")
     if s["class"] == "Market":
         if not s["convergence"]:
             g.append("no conv-matrix")

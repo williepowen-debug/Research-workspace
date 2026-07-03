@@ -1,6 +1,6 @@
 # BLUEPRINT — Utility-Agent
 
-**Owner:** DAEDALUS · **Status:** 🟢 ACTIVE (built + activated 2026-06-28, Will + PROME approved) — the grading standard for utility agents. *(Supersedes the utility half of `templates/CLAUDE_TEMPLATE.md`; the template redirect is tracked as a follow-up cleanup.)*
+**Owner:** DAEDALUS · **Status:** 🟢 ACTIVE (built + activated 2026-06-28, Will + PROME approved) — the *sole* grading standard for utility agents. *(The former `templates/CLAUDE_TEMPLATE.md` was deleted by Will 2026-06-30, commit `58c30516`; the redirect-cleanup follow-up is therefore moot.)*
 **Assembled best-of-breed from** `BEST_PRACTICES.md` (the 2026-06-27 fleet harvest). Composed, not cloned.
 **Use for:** agents that produce a **service the fleet consumes**, not a market thesis — **WALTER, NEXUS, RED, TERRY, ORACLE, YEYOU.** Not market (owns a thesis → `market-agent.md`); not meta (authority to *change* the system's structure → `meta-agent.md`). *(Class discriminator at the bottom.)*
 
@@ -29,7 +29,7 @@ This is the **L4 gate** *and* the payoff: uniform coordination visibility is the
 2. **THE CONTRACT** — produces / consumed-by / proof-of-consumption (above). *The defining handle.*
 3. **Role rubric** — the explicit, consistently-applied criteria for its function. *(L3 gate: "rubric applied consistently.")*
 4. **Structured record (logging)** — a valid, accruing, **class-aware** record of what it did (NOT KB/VX/FLOW). *(L2 floor, PAT-008.)*
-5. **Standing disciplines** — boot↔closeout symmetry + 3-col Δ-discipline (`metric · Δ signed pp · last-updated`) + the role's anti-bias rule.
+5. **Standing disciplines** — boot↔closeout symmetry + 3-col Δ-discipline (`metric · Δ signed pp · last-updated`) + the role's anti-bias rule + **cwd-proof boot invocations** (every runnable boot/closeout command self-locates via `"$(git rev-parse --show-toplevel)"`, never a bare root- or own-dir-relative path that depends on the incidental launch cwd — PAT-031).
 6. **Cross-agent routing** — standing route-matrix + `NEXUS_BRIEF` writeback + crisis-only outbox. *(Utility agents are defined by routing.)*
 7. **AUTHORITY & SAFETY** — *only if it has cross-fleet write power.* State the guards (permission + idle, batched) — **or** state the read-only boundary explicitly (YEYOU: *flag, never fix*).
 8. **BOTTOM LINE** — required; STATUS under the agent's line cap.

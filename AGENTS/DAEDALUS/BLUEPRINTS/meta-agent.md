@@ -11,7 +11,7 @@
 
 1. **Header** — name, class (`Meta-agent`), reports-to, spawnable-by, link to a design spec.
 2. **IDENTITY** — what system-layer it owns; an explicit "where you sit" table vs adjacent meta-agents (no-overlap proof); the `File > verbal` rule.
-3. **SPAWN PROTOCOL** — read state → read memory → apply prior lessons → execute → write back → deliver-before-idle.
+3. **SPAWN PROTOCOL** — read state → read memory → apply prior lessons → execute → write back → deliver-before-idle. Any *runnable* boot/closeout command must be **cwd-proof** — self-locate via `"$(git rev-parse --show-toplevel)"`, never a bare root- or own-dir-relative path that depends on the incidental launch cwd (PAT-031).
 4. **THE JOBS** — its concrete functions, each with its approval gate.
 5. **AUTHORITY & SAFETY** — *the load-bearing section for any agent with cross-fleet write power.* Spell out the guards (see below).
 6. **MEMORY MODEL** — its meta-shaped files (see below).

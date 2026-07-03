@@ -2,7 +2,7 @@
 
 **Owner:** DAEDALUS · **Assembled:** 2026-06-27 from `BEST_PRACTICES.md` (full fleet survey)
 **Use for:** domain agents that own a market/risk slice (CARL, BRENT, SAM, REGINALD, …).
-**Supersedes:** the market half of `AGENTS/templates/CLAUDE_TEMPLATE.md`.
+**Supersedes:** the market half of the former `AGENTS/templates/CLAUDE_TEMPLATE.md` — now the *sole* market standard (Will deleted `AGENTS/templates/` 2026-06-30, commit `58c30516`).
 
 > Composed, not cloned. Each section is the fleet's best pattern for that job, attributed to its source agent. No single agent is the whole standard (PAT-011). Where winners conflicted, the reconciliation is noted in *italics*.
 
@@ -85,6 +85,7 @@ Decompose the thesis into **independent causal channels** — not correlated ris
 End STATUS.md with 2–4 plain-language sentences: domain state now, the single most important thing, what's next. Update every session. STATUS under 250 lines — archive overflow to `domain/sources/`.
 
 - **Ledger/trade-surface staleness (hygiene — DAEDALUS's lane).** Any structured ledger **and the agent-level `TRADE.md`** carries either a `FROZEN <date>` banner or a live boot-time mtime alert — **never the silent-rot middle.** A trade surface anchored to an old marks-date with no banner reads as current when it isn't. Extends the root Data Hygiene rule (KB/VX/FLOW/etc.) to the trade surface. (PAT-023)
+- **CWD-proof boot invocations (hygiene — DAEDALUS's lane).** Every *runnable* boot/closeout command in `CLAUDE.md` must be cwd-proof — never a bare root-relative (`python3 scripts/x.py`) or own-dir-relative path, which silently depends on the incidental shell cwd and fails rc=2 from the actual `cd AGENTS/<NAME> && claude` launch dir. Wrap as `python3 "$(git rev-parse --show-toplevel)/<path>"` (self-locating script) or `(cd "$(git rev-parse --show-toplevel)[/<dir>]" && <cmd>)` (path-dependent command); scripts self-locate their data via `__file__`. Reference-only command docs may stay bare *if* the section carries a cwd note. (PAT-031)
 
 ---
 
