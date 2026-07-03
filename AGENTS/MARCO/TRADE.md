@@ -1,5 +1,7 @@
 # MARCO — Trade Ideas
 
+> ⚠️ **FEB-VINTAGE WATCHLIST — NOT CURRENT (flagged 2026-07-02).** Every figure below is as-of Feb-14 and reflects the pre-v2.1 acute-crisis framing the thesis has since walked back (now v2.6 slow-structural-squeeze). STALE examples: Mexico remittances "−5%" (now +3.8% YoY / count −1.7%), Central America "+18-25%" (now moderating +9.1% Q1'26), SDL magnitude (2.2M "CBO" → ~1.0M realized LF). Do NOT cite these as current. The **IBOC** border-bank idea may be *more* relevant now (winter-2026-27 FL-$ hole → REGINALD) — re-evaluate against current thesis before actioning. Full refresh pending (MAINTENANCE T2-C).
+
 **Last Updated:** 2026-02-14
 **Domain:** Migration, Labor Flows, Immigration Enforcement, Border Economics
 

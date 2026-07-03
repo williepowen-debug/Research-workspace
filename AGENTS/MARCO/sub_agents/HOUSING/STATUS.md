@@ -1,4 +1,7 @@
 # HOUSING STATUS
+
+> ⚠️ **FROZEN 2026-07-02** — dormant sub-agent, not maintained since Apr 2026. Figures below are as-of Apr-21 and STALE (e.g. FL condo now 8.6mo May not 9.1; FL Citizens exposure DEPOPULATED 67% below peak, NOT $678.8B-growing). Top-level `AGENTS/MARCO/STATUS.md` is canonical — do not cite these rows as current.
+
 **Last Updated:** 2026-04-21 | **Status:** 🔴 RED — FL condo BREACHED 9.1mo, Sunbelt housing stress, transmission now quantified
 
 ---

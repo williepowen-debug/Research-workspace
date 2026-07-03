@@ -1,4 +1,7 @@
 # WORKFORCE STATUS
+
+> ⚠️ **FROZEN 2026-07-02** — dormant sub-agent, not maintained since Apr 2026. Figures below are as-of Apr-21 and STALE (e.g. deportation supply shock re-marked "2.2M CBO" → ~1.0M realized foreign-born LF, thesis v2.6; enforcement funding now law; construction raids active). Top-level `AGENTS/MARCO/STATUS.md` is canonical — do not cite these rows as current.
+
 **Last Updated:** 2026-04-21 | **Status:** 🔴 RED — Ag labor crisis, construction divergence, deportation supply shock, transmission now quantified
 
 ---

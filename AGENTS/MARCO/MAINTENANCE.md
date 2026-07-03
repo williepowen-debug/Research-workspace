@@ -51,7 +51,9 @@
 - **Action:** Move remittance paradox → COMPLETE; correct/remove the TOURISM-stalled entry; re-date StatCan gap to Q2; chase the ag-weather-owner loop with PROME.
 - **Effort:** small.
 
-### T2-C · TRADE.md is Feb-14 vintage (pre-v2.1 framing)
+### 🟡 T2-C · TRADE.md is Feb-14 vintage (pre-v2.1 framing) — STAMPED 2026-07-02 (full refresh still pending)
+*(7/2: added a prominent "FEB-VINTAGE — NOT CURRENT" banner listing the stale figures + the IBOC re-eval note, so it no longer misleads if read. A full metrics refresh + IBOC-vs-winter-$ re-evaluation is still open.)*
+
 - **What:** All figures Feb-vintage: Mexico remittances "−5%" (now +3.7%/count −1.7%), Central America "+18-25%", construction "−92.7% YoY growth", TX border DQ 7.92%. Whole file reflects the **acute-crisis framing the thesis has since walked back** (v2.1-v2.4 slow-structural-squeeze). IBOC-puts + ag-exposure ideas never actioned.
 - **Why it matters:** Low direct behavioral impact (MARCO doesn't trade; feeds OTTO/LABOR/REGINALD) — but if read as current it misleads. The IBOC border-bank idea is arguably *more* relevant now (winter-$ hole → REGINALD), so don't just delete.
 - **Action:** Reconcile to current thesis OR stamp clearly as "Feb-vintage watchlist, not current." Refresh the metrics table. Re-evaluate IBOC idea against the winter-2026-27 timing.
@@ -61,7 +63,10 @@
 
 ## TIER 3 — dormant / cleanup
 
-### T3-A · VX.tsv — 45/57 vectors are Jan-vintage (>60d, boot.py flags)
+### ✅ Dormant sub-agents FROZEN-bannered — DONE 2026-07-02
+*(7/2 hunt: BORDER/HOUSING/MIGRATION/WORKFORCE STATUS files (untouched since Apr-21, carrying stale DHS-shutdown / 9.1mo-condo / $678.8B / 2.2M figures) each got a FROZEN banner pointing to canonical STATUS. TOURISM left live (recent). Will-approved freeze-not-archive.)*
+
+### T3-A · VX.tsv — 46/57 vectors are Jan-vintage (>60d, boot.py flags)
 - **What:** 45 of 57 vectors last-updated Jan 20-22 (founding research): FL insurance index, net-migration, Sunbelt-Snowbelt differential, TX/FL housing, CA ag workforce, border vectors, etc.
 - **Why it matters:** Some are genuinely stale and load-bearing (FL insurance, migration); some are deprecated/annual (can't refresh). Bulk staleness hides which.
 - **Action:** Triage pass — per vector: refresh / mark `[STALE]` with date / archive-deprecated. Don't bulk-refresh; sort by whether the vector still drives a thesis claim.

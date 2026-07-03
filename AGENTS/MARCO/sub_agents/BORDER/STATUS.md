@@ -1,4 +1,7 @@
 # BORDER STATUS
+
+> ⚠️ **FROZEN 2026-07-02** — dormant sub-agent, not maintained since Apr 2026. Figures below are as-of Apr-21 and STALE (e.g. DHS shutdown ENDED Apr 30; ICE construction raids now active/ag eased; enforcement funding signed into law Jun 10). Top-level `AGENTS/MARCO/STATUS.md` is canonical — do not cite these rows as current.
+
 **Last Updated:** 2026-04-21 | **Status:** 🔴 RED — DHS shutdown ~Day 61-64 (longest ever), ICE raids expanding, TSA back-paid but 300+ quits confirmed, $75B OBBBA cushion insulates ICE
 
 ---

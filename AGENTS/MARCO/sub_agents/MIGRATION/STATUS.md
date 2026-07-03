@@ -1,4 +1,7 @@
 # MIGRATION STATUS
+
+> ⚠️ **FROZEN 2026-07-02** — dormant sub-agent, not maintained since Apr 2026. Figures below are as-of Apr-21 and STALE (e.g. SDL-01 magnitude re-marked "2.2M CBO" → ~1.0M realized foreign-born LF / ~1.5M pop, thesis v2.6). Top-level `AGENTS/MARCO/STATUS.md` is canonical — do not cite these rows as current.
+
 **Last Updated:** 2026-04-21 | **Status:** 🔴 RED — Domestic collapse + Sunbelt reversal + SDL-01 geographic concentration revealed + reversed-flow emigration watch
 
 ---
