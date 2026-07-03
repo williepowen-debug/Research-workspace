@@ -7,8 +7,9 @@
 | # | Trade | Direction | Conviction (1-5) | Domain Rationale | Entry Signal | Exit Signal | Last Updated |
 |---|-------|-----------|-------------------|-----------------|-------------|-------------|-------------|
 | 1 | NCLH puts | Bear | 2 (GATED) | Weakest of Big 3 — value-end demand exposure + fragile balance sheet (interest coverage est <1.0x). Structural, survived the Gulf de-escalation. **BUT the coverage figure is an unverified March estimate.** | **GATE: primary 10-Q confirms coverage <1.2x (CRU-02)** AND Q2 guidance shows value-end booking softness | NCLH guides EPS above consensus + coverage verified >1.5x | 2026-07-02 |
+| 2 | CCL puts — **ARMED / DORMANT** (fuel-convexity) | Bear | 2 (armed, not deployed) | CCL is **unhedged on fuel** → highest-beta cruise expression of a fuel re-spike. The war *oscillates* (HAWK D-tail 22→36 post Jun 27-28 kinetic) and BRENT is deliberately **upside-convex**; near-record-short positioning amplifies any re-escalation. This is the cruise analog of BRENT's XLE convexity — cheap optionality on the same tail. | **TRIGGER:** Brent sustained **>$85–90** OR **HAW-15** crude-export pivot fires OR HAWK "second-step" kinetic. Watch pre-trigger: Brent reclaims >$75. Will [Approve] at fire. | Brent holds <$75 structural + HAWK D-tail compresses + fuel hedging announced | 2026-07-02 |
 
-**Note:** No active positions. CRUISE is a **leading indicator / canary**, not a position book. The one live idea (NCLH) is explicitly **gated on primary verification** — do not open on the March estimate. This is a demand-side thesis now, not a fuel/geopolitics one.
+**Note:** No active (deployed) positions. CRUISE is a **leading indicator / canary**, not a position book. Two live ideas, both **trigger-gated**: NCLH (gated on primary coverage verification — do not open on the March estimate) and CCL (armed as dormant fuel-convexity — deploy only on a fuel/war re-escalation trigger, not on calendar). Front-of-book thesis is demand-side; CCL keeps the fuel tail wired because the war is not over (Will, 7/2).
 
 ---
 
@@ -28,6 +29,7 @@
 | Trade | Strengthened By | Weakened By |
 |-------|----------------|-------------|
 | NCLH puts | CARL: mass-market affordability pullback deepens · Primary filing confirms coverage <1.2x | BRENT: fuel stays low (margin help) · NCLH guides above consensus |
+| **CCL puts (armed)** | **BRENT: Brent >$85–90 sustained / HAW-15 fires** · **HAWK: D-tail fattens / "second-step" kinetic** · one-sided short book amplifies | BRENT: Brent holds <$75 structural · HAWK: D-tail compresses · CCL announces fuel hedging |
 | Demand thesis (all) | WALTER/CARL: K-shape deepens · RCL-vs-value dispersion widens | Broad consumer re-acceleration · all three guide firm bookings |
 
 ---
@@ -36,5 +38,5 @@
 
 | Trade | Reason |
 |-------|--------|
-| **CCL puts (fuel-spike)** | **KILLED 2026-07-02.** Core rationale was unhedged fuel × a Gulf-driven spike. Brent is at a 4-mo low ($71) with war premium drained — fuel is now a *tailwind*. Thesis invalidated by events. Re-open only if Brent re-spikes >$90 sustained AND value-end demand cracks. |
+| ~~CCL puts (fuel-spike)~~ | **Not rejected — RE-ARMED 7/2** (see Active #2). Downgraded from "always-on bear" to *dormant convexity, deploy-on-trigger* — the acute-spike thesis lapsed (Brent 4-mo low) but the war oscillates and the fuel tail stays wired. |
 | RCL puts | Better hedged, premium customer, near record highs. Lowest-conviction short of Big 3 — now clearly wrong-way; RCL is the *resilient* leg of the K-shape. |

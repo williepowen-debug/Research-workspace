@@ -2,7 +2,7 @@
 
 *Last updated: 2026-07-02 (first live refresh — thesis pivoted fuel/Gulf → demand K-shape)*
 
-> **Regime note:** The 2026-03 boot thesis (Hormuz closed → fuel spike → CCL breaks) has **decoupled**. Gulf de-escalated (MOU 6/17, strait degraded not sealed), Brent at a 4-mo low ($71, fuel now a *tailwind*), and the live tape shows **no** sector distress (RCL near record highs). The live CRUISE thesis is now **demand-side**: a K-shaped consumer-affordability split, with NCLH's structural balance-sheet fragility as the sharpest surviving edge.
+> **Regime note:** The 2026-03 boot thesis (Hormuz closed → fuel spike → CCL breaks) has **decoupled in price** — Gulf de-escalated (MOU 6/17, strait degraded not sealed), Brent at a 4-mo low ($71). The live front-of-book thesis is now **demand-side**: a K-shaped consumer-affordability split, with NCLH's balance-sheet fragility the sharpest edge. **BUT the fuel channel is dormant, not dead** (Will directive, 7/2): this war *oscillates* — HAWK's re-escalation tail actually **fattened 22%→36%** after the Jun 27-28 US–Iran kinetic exchange, and BRENT is deliberately positioned **upside-convex** on a fuel re-spike (near-record-short positioning = amplified if it fires). **CCL's unhedged fuel exposure is therefore kept ARMED as dormant convexity** — see the Fuel Re-Escalation Watch below.
 
 ## Signal Dashboard
 
@@ -11,7 +11,7 @@
 | CCL price | **$27.91** (−2.14% d) | 🟡 | [CONF] FORGE fetch Jul 2 |
 | RCL price | **$296.30** (−3.26% d) — near record highs | 🟢 | [CONF] FORGE fetch Jul 2 |
 | NCLH price | **$19.78** (−4.31% d) — weakest of Big 3 | 🟠 | [CONF] FORGE fetch Jul 2 |
-| Bunker fuel / Brent | **$71.36** (4-mo low) — TAILWIND | 🟢 | [CONF BRENT Jul 1] |
+| Bunker fuel / Brent | **$71.36** (4-mo low) spot — tail **ARMED** | 🟡 | [CONF BRENT Jul 1]; re-escalation tail live |
 | Consumer travel demand (K-shape) | **45% skip summer / 49% on cost** | 🟠 | [CONF] WALTER SIG Jun 21 |
 | Gulf itineraries / war-risk insurance | **Degraded not sealed, ~75% transits** | 🟠 | [CONF HAWK Jun 26] |
 | NCLH interest coverage | **~0.86x (UNVERIFIED Mar est)** | 🟠 | [EST] needs primary 10-Q |
@@ -57,6 +57,25 @@ WALTER SIG-W-20260621-005 (Jun 21) is the load-bearing signal: **45% of consumer
 
 ---
 
+## ⚡ Fuel Re-Escalation Watch (added 7/2 — Will directive: keep eye on fuel)
+
+The 2026-03 fuel-spike thesis is **dormant, not dead.** Both owner-agents corroborate a live tail:
+- **HAWK (war):** base rate is *oscillation* ("expect reversals; don't chase them"). D-Reescalation tail **22% → 36%** after the Jun 27-28 US–Iran kinetic exchange + VLCC *Kiku* hit. Lebanon clause live; sharpest trigger = Iran "second step" goes kinetic (HAW-14 fail).
+- **BRENT (fuel):** thesis v5.0 = **asymmetry UPSIDE-CONVEX** — forward expression is *defined-risk long-convexity, deploy-on-trigger (ARMED)*. Near-record-**short** Brent positioning ⇒ any re-escalation is *amplified* (short-covering). Counter: first "deficit-closing" print (7/1) softened the up-tail modestly; P(Brent<$75, 1–2wk) = 0.70.
+
+**Why CRUISE cares:** CCL is **unhedged on fuel** → the highest-beta cruise expression of a fuel re-spike. It is the cruise-sector analog of BRENT's XLE convexity — cheap optionality on the same tail.
+
+**Re-arm ladder** (defer price to BRENT, war to HAWK — *levels proposed, Will to set final*):
+
+| Level | Trigger | Action |
+|---|---|---|
+| 👀 Watch | Brent reclaims **>$75 sustained**, OR HAWK D fattens further, OR COT (Fri 7/3) shows short-covering | Alert; re-rate VX-CRU-02 |
+| 🔫 Arm CCL | Brent sustained **>$85–90**, OR **HAW-15** crude-export pivot fires, OR HAWK "second-step" kinetic | Deploy CCL put (see TRADE) — Will [Approve] at fire |
+
+**Boot cadence:** every spawn — pull live Brent + check HAWK D-scenario + BRENT thesis version. **Deploy on trigger, not calendar.**
+
+---
+
 ## Port City Economic Exposure (structural, unchanged)
 
 | Port | Economic Impact | Jobs |
@@ -79,9 +98,9 @@ Transmission (largely dormant now that itineraries are recovering): single ship 
 | 2 | NCLH balance-sheet fragility (VX-CRU-05) | 4* | 🟠 | Interest coverage est <1.0x (*UNVERIFIED) | Primary 10-Q confirms <1.2x |
 | 3 | Gulf itinerary / war-risk insurance (VX-CRU-04) | 3 | 🟠 | Degraded not sealed; insurance still elevated | New route disruptions OR insurance re-hardens |
 | 4 | CCL stock stress (VX-CRU-01) | 2 | 🟡 | No acute distress; fuel driver lapsed | Value-end demand cracks + $24B debt strain |
-| 5 | Bunker fuel (VX-CRU-02) | 1 | 🟢 | Brent 4-mo low — TAILWIND | Brent re-spikes >$90 sustained |
+| 5 | Bunker fuel — spot low, tail ARMED (VX-CRU-02) | 2 | 🟡 | Brent 4-mo low, BUT HAWK D-tail 22→36, BRENT upside-convex, near-record-short | Brent reclaims >$75 sustained (watch) → >$85–90 or HAW-15/HAWK-kinetic (arm CCL) |
 
-**Summary:** Total ~13/25 (was 29/40 in Mar). Domain de-escalated from acute stress to a **watch on the demand-side bifurcation**. No vector at RED. *Score 2's asterisk = mark held from March but UNVERIFIED — do not treat as confirmed.
+**Summary:** Total ~14/25 (was 29/40 in Mar). Domain de-escalated from acute stress to a **watch on the demand-side bifurcation** — with the **fuel tail re-armed, not retired**. No vector at RED. *Score 2's asterisk = mark held from March but UNVERIFIED — do not treat as confirmed.
 
 ---
 
@@ -106,4 +125,4 @@ Transmission (largely dormant now that itineraries are recovering): single ship 
 
 ## BOTTOM LINE
 
-CRUISE woke up armed for a war that's de-escalating and a fuel spike that reversed — so the March bear thesis (CCL unhedged fuel, Gulf season dead) is largely **spent**. The live read is a **demand-side K-shape**: premium (RCL, near record highs) resilient, value end (CCL/NCLH) squeezed by consumer affordability, with **NCLH's structural balance-sheet fragility** the sharpest surviving edge — but that edge rests on an **unverified March estimate** and must be primary-confirmed before it's tradeable. Fuel is a tailwind, the Gulf is a fading secondary, and Q2 earnings (late Jul/Aug) are the next hard test.
+CRUISE woke up armed for a war that's de-escalating and a fuel spike that reversed — so the March bear thesis (CCL unhedged fuel, Gulf season dead) is largely **spent**. The live read is a **demand-side K-shape**: premium (RCL, near record highs) resilient, value end (CCL/NCLH) squeezed by consumer affordability, with **NCLH's structural balance-sheet fragility** the sharpest surviving edge — but that edge rests on an **unverified March estimate** and must be primary-confirmed before it's tradeable. Fuel *spot* is low today, but the re-escalation tail stays **armed** (the war oscillates; BRENT is upside-convex), so CCL is held as **dormant fuel-convexity** — the Gulf is a secondary but *live* channel, not a closed one. Q2 earnings (late Jul/Aug) are the next hard demand test.
