@@ -6,7 +6,7 @@
 
 ## STATUS
 
-**2026-07-02 ~9–9:40 PM ET (Thu — Will-Telegram re-boot ~2h after the 7 PM close + TWO 6-image Twitter batches).** Clean re-boot (doctor 0-HIGH / 15-MED all known; markets closed → levels flat, no new auto-fire; intake gate quiet). Routed all three batches: **9 DISPATCH (SIG-003→011) / 11 KILL / 2 verify-spawn (BOARD 417→426).** **🟢 PUSHED (local = origin).** Ran alongside 2+ concurrent live Claude sessions that wrote MARCO + CRUISE (serial-single-machine VIOLATED) — initially deferred my push; it resolved (train swept my routing commits, tree cleared when they committed, I safe-pushed the closeout). Tier-1 light closeout.
+**2026-07-02 ~9–9:40 PM ET (Thu — Will-Telegram re-boot ~2h after the 7 PM close + TWO 6-image Twitter batches).** Clean re-boot (doctor 0-HIGH / 15-MED all known; markets closed → levels flat, no new auto-fire; intake gate quiet). Routed all four batches: **13 DISPATCH (SIG-003→015) / 16 KILL / 2 verify-spawn (BOARD 417→430).** **🟢 PUSHED (local = origin).** Ran alongside 2+ concurrent live Claude sessions that wrote MARCO + CRUISE (serial-single-machine VIOLATED) — initially deferred my push; it resolved (train swept my routing commits, tree cleared when they committed, I safe-pushed the closeout). Tier-1 light closeout.
 
 ## CHANGED (this session)
 
@@ -28,16 +28,23 @@
 - **SIG-011 no-August-Brent-cargoes ("a first for the benchmark", Staunovo/Reuters) → BRENT ROUTINE (+HAWK,RED).** Net-new structural datapoint on the physical Brent basket (maintenance vs tightness). Cluster IRAN_HORMUZ.
 - **6 kills:** gold dips-before-crash advocacy; API-6/30 (superseded by EIA wk-6/26 BRENT holds); 2 images of the same immaterial $7.5M SEC/Merrill SAR fine (Relevance); 2 HFI crack-disconnect images (BRENT owns two-sided; 3rd/4th crack tonight).
 
-**Closeout:** STATUS (lead + BOARD count + all live-level blocks refreshed to 00:56Z + push-state + SESSION-LOG row), SESSION_LOG breadcrumb, this file.
+**Batch 4 (4 route / 5 kill) — commit "route final 9-image Will Twitter batch":**
+- **SIG-012 tariff front-loading (Reuters via @rdd147) → CARL ROUTINE (+HENRY,MARCO,RED).** Retailers pulling China holiday orders forward 4-6wk ahead of expected tariffs; Roger's "inside news Trump planning hikes" speculation stripped. Two-sided (forward-CPI + Q4 pull-forward air-pocket). Cluster INFLATION_TRANSMISSION.
+- **SIG-013 CBs plan to cut USD exposure "first in 3 years" (Bloomberg) → BOND PRIORITY (+LIQUID,RED).** Net-new forward-intention reserve-manager survey (likely OMFIF); firms UST-foreign-demand-erosion. Cluster FED_FRAMEWORK.
+- **SIG-014 Hormuz "4 tankers exit per 1 enter, far below pre-war" (Matt Reed/Reuters) → HAWK/BRENT PRIORITY (+SAM,RED).** Reuters-sourced net-flow-DIRECTION corroborating the DEWEY scorecard (0/4, degraded) — routed as direction, not a hard level. Cluster IRAN_HORMUZ (anchor 7/2-fresh).
+- **SIG-015 PC-into-BNPL Blue Owl/KKR (Bloomberg Big Take) → BROCK ROUTINE (+CARL,RED).** Net-new PC vector (PC funds taking consumer-credit risk via BNPL). Cluster PC_STRESS.
+- **5 kills:** CC-DQ 13.1% (CARL holds w/ NY Fed context); Egan-Jones/insurer post (SHADE at docket depth + Moody's $807B nexus); USD/JPY 40yr-low (SAM); JustDario JPY-oil-snapback (TA); 1 off-topic personal image (cannabis/sperm ChatGPT — flagged Will as likely accidental).
+
+**Closeout:** STATUS (lead + BOARD count + all live-level blocks + push-state + SESSION-LOG row), SESSION_LOG breadcrumb, this file.
 
 ## RESULT
 
-9 dispatched / 11 killed / 2 verify-spawns (OC-Maryland CORRECTED-FRAMING · KOSPI CONFIRMED). BOARD reconciles at **426** (ToC = sections = files = TOTAL); route_log +9 / delivery_log +28 / kill_log +11 / 28 per-recipient handoffs. **No spec-version bumps.** **The filter did real work:** batch 1 was 4/6 stale-to-owner (2 read contrary by BRENT); batch 2 was mostly net-new. Two verify-spawns each flipped a disposition (OC = a false-corroborator inoculation; KOSPI = confirmed-fresh not a re-post).
+13 dispatched / 16 killed / 2 verify-spawns (OC-Maryland CORRECTED-FRAMING · KOSPI CONFIRMED). BOARD reconciles at **430** (ToC = sections = files = TOTAL); route_log +13 / delivery_log +42 / kill_log +16 / 42 per-recipient handoffs. **No spec-version bumps.** **The filter did real work:** batch 1 was 4/6 stale-to-owner (2 read contrary by BRENT); batch 2 was mostly net-new. Two verify-spawns each flipped a disposition (OC = a false-corroborator inoculation; KOSPI = confirmed-fresh not a re-post).
 
 ## GAPS
 
 - **🟢 PUSH RESOLVED (was deferred mid-session) — but the concurrent-session event is the real carry-forward.** 2+ other Claude sessions ran (pts/4 @21:07, pts/6 @21:17) and wrote MARCO (session-16, June-jobs catch-up + SDL-01 re-mark + thesis v2.6) + CRUISE, both initially **uncommitted** — serial-single-machine VIOLATED. I committed my 2 routing batches pathspec-scoped (never touched MARCO/CRUISE) and deferred. Then: the concurrent sessions' push-train swept my batch-1+2 to origin, they committed their own dirs (tree cleared), and I safe-pushed the closeout `f3aa9e67` clean-ff. **All WALTER work on origin; local = origin; tree clean.** MARCO/CRUISE committed their own work. **The open item is the policy Q (below), not a pending push.**
-- **23 handoffs await consume** (batch-2 to BRENT/HAWK/CORAL/CARL/REGINALD/HENRY/SAM/VIOLET/LIQUID/BOND/RED; batch-1 to SAM/BOND/CARL/RED). Delivery ≠ consumption.
+- **42 handoffs await consume** (across batches 1-4, to CARL/HENRY/MARCO/BOND/LIQUID/HAWK/BRENT/SAM/BROCK/CORAL/REGINALD/VIOLET/AEOLUS/RED). Delivery ≠ consumption.
 - **STATUS boot#2/#3-spine trim** still owed (the older 6/28 lead paragraphs demoted to `>` spine). Carried.
 
 ## WILL_NEEDS
