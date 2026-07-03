@@ -72,7 +72,42 @@
 
 **✅ RESOLVED (Will, 7/2 PM):** **Concurrent-session policy** — Will confirmed running CRUISE/MARCO/WALTER concurrently on ONE machine (shared repo, push-chaining) IS the intended, supported model — NOT the forbidden "two machines at once." Commit-scope audit confirmed all agents committed own-dir-only + pathspec-clean, with clean fast-forwards (MARCO→MARCO 20f / CRUISE→CRUISE 8f / WALTER→WALTER+BOARD+delivery). My mid-session push-defer was over-cautious (conflated one-machine-concurrent with two-machines-diverging). **Lesson: don't re-flag same-machine concurrency; the real guard is pathspec-commit, never `git add -A`.** (Encoded in MEMORY for future-WALTER.)
 
-**🟦 Parked (carried):** RED auto-cc trim · EIA `.env` durability · DEWEY↔Scout consolidation (RESEARCH-INTAKE lane supersedes dark crons) · group-chat artifact policy · INDEX status-column · HENRY LIAISON priority · FED_FRAMEWORK→UST_PLUMBING rename · Filter v2 Segment D · thin-liquidity prediction-market routing · delivery_log written_state enum · REITS/TRADES registry-completeness · CLIMATE_MACRO sustain-vs-fold · RESEARCH-INTAKE v2 (PROME lane-side threshold fast-follow + optional §5 glance-digest).
+**🟦 Parked (carried) — now consolidated into the ARCH/INFRA BACKLOG below (2026-07-03 audit):** RED auto-cc trim · EIA `.env` durability · DEWEY↔Scout consolidation · group-chat artifact policy · INDEX status-column · HENRY LIAISON priority · FED_FRAMEWORK→UST_PLUMBING rename · Filter v2 Segment D · thin-liquidity prediction-market routing · delivery_log written_state enum · REITS/TRADES registry-completeness · CLIMATE_MACRO sustain-vs-fold · RESEARCH-INTAKE v2.
+
+---
+
+## ARCH/INFRA BACKLOG — audit 2026-07-03 (canonical running list; consolidates + supersedes the scattered Parked one-liners above)
+
+*Source: 6-lane parallel arch/infra audit (workflow run wf_38e8fb51-5df; per-lane detail in its journal.jsonl). Ranked by what it needs. Cross-checked against what shipped since (COP retired, boot-protocol split, intake lane live) so nothing already-done is re-flagged.*
+
+**🔴 STALLED — needs Will or a cross-agent push:**
+- **B1. Delivery consume-step backlog MATERIALIZED** — 220 handoffs delivered-but-unconsumed (64 ACTION), concentrated in the 4 agents lacking the §8.1 consume boot-step: CARL/REGINALD/SAM/RED (RED ~90 files, CARL ~40; no `processed/` dirs). The exact "in BOARD ≠ received" failure the 6/17 delivery layer was built to prevent. WALTER can't self-fix (git isolation). → Will/PROME push the 4 to self-apply, or re-scope. **Highest impact.**
+- **B2. Cross-agent LIAISON program froze 6/6** — RED Turn 8 (VIX-spike trigger proposal) + REGINALD Turn 7 (calibration retro) 27d unanswered, auto-DORMANT ~7/6; CARL dormant since 6/20 (calibration cycle 1 never fired). → WALTER re-check handoff files + post queued substance or let lapse.
+- **B3. V0_9_STACK: 2 Will-approved fields never shipped** — `unanimity_state` + `event_anchored` (approved 5/6) skipped across v0.9→v0.12; tracker orphaned (archive-trigger fired, contents didn't); BRENT's `energy_transmission`/`regime_state` cosigned candidates have no tracker home. → ship v0.11 / defer / kill, then reconcile + archive V0_9_STACK.
+- **B4. Filter v2 Segment D** — Will picked Option A 4/20 (add `confidence_note` field), never implemented (~30 min). Blocks FILTER_V2_PLAN archival + the overdue FILTER v3 review (trigger ~May 20 / 50 dispatches; now 434). → resume or Will-drop.
+- **B5. Scheduled-scan workflow** — Will-approved infra (~$0.70-1.10/wk), un-built ~2mo, double-blocked on undelivered CARL+BRENT DATA_RELEASE_CALENDAR.md + the recurring budget still needs Will sign-off.
+
+**🟠 INFRA planned-but-unbuilt / broken:**
+- **I1. Scout feed-digest** — PLAN-only since 6/22, never built; likely SUPERSEDED by the RESEARCH-INTAKE lane (live 6/29 = "successor to the dark crons"). → reconcile Scout-vs-lane BEFORE any build effort (subsumes the "DEWEY↔Scout consolidation" parked item).
+- **I2. walter_doctor `cron_liveness` false-MED** — hardcodes the 3 dead feeds (47-57d dark) → MED every boot; full fix chained behind unbuilt Scout. → WALTER can mute the dead rows now (cheap, own-scope).
+- **I3. SIGNAL_INTAKE per-agent rollout** — frozen ~5/14 Tier-1, ~3mo; CLAUDE.md marker stale (says 4/14, actual 5); likely superseded by the delivery lane. → finish or kill + archive the template.
+- **I4. CROSS_REFS identifier cache** — only RED+REGINALD of the routed roster, both ~2mo stale vs their own refresh triggers; CARL.md named 5/5, never built. → refresh + decide scope (all routed agents vs falsification/threshold-only).
+- **I5. Dead `/home/moltbot` paths** (dashboard, calendar-sync, DOC) silently broken post-OpenClaw-cut — INFRA/PROME scope, decision-free but unrun.
+
+**🟢 CHEAP doc-hygiene — "done but never marked" (WALTER-owned, autonomous-available):**
+- Auto-memory index over cap (25.5/24.4KB) → BLOCKS ~11 queued finding-promotions; trim + batch-promote.
+- DEEP_RESEARCH_FLAG_PROPOSAL still self-labels "PROPOSAL / not-landed" but shipped (CHECKLIST v0.18→v0.22 + live ledger + live doctor check) → mark RATIFIED + archive.
+- BOARD_CONSUMPTION §13 acceptance boxes (5/6 unticked though "SHIPPED") + §14 dead COP-integration line (COP retired 6/28).
+- Archives owed: V0_9_STACK, BRENT_LIAISON_PREP (converged 6/6), repo-root RED joint-proposal stitch; sponsor_strategy 6/15 auto-defer note; OpenClaw SIGNOFF doc §A-landed marker.
+- FILTER_SPEC Apr-21 scaffolding → past-tense; CLUSTER_TAXONOMY "reserved for v0.2" status-flags (skipped v0.2 + v0.3); STATUS boot#2/#3-spine trim; BOOT_PROTOCOL §7e rationale section.
+
+**🔵 DECISIONS FOR WILL:** the 13-item parked block → run the ≥3-carried decision-walkthrough (several are 5-min closes: FED_FRAMEWORK→UST_PLUMBING rename, INDEX status-column, delivery_log written_state enum, RED auto-cc trim, thin-liquidity routing, CLIMATE_MACRO sustain-vs-fold, REITS/TRADES registry) · OZK Q1 (revive or shelf; WAL = next promotion candidate) · RESEARCH-INTAKE v2 (waits on PROME lane-side threshold work).
+
+**✅ RESOLVED / RETRACTED (7/3 audit corrections):**
+- **Bot-token rotation — HANDLED (was stale doc-state; Will-flagged 7/3, WALTER-verified).** Live tree = 0 hardcoded token hits; de-hardcoded to gitignored `.env` everywhere (cron_sweep.sh reads `$TELEGRAM_BOT_TOKEN` w/ a "never hardcode" guard; config/openclaw.json5 vector gone). PROME 7/2 "single-home secrets + boot env-doctor" (Will-approved, `d0fcbae1`) + rotation checklist (FRED rotated `df312435`). Only residual = old tokens in git *history* (immutable; PROME's checklist owns it; feeds-bot KEEP-decided 6/26). **Not a WALTER gap — removed from the list.**
+- **EIA `.env` durability — DOWNGRADED to a robustness nit** (not security): free/read-only/public key, gitignored (not exposed); only risk = silent Cushing-capability break if the local `.env` vanishes (doctor `cushing_capability` partly backstops). Low-stakes.
+
+**FYI — correctly parked (not forgotten):** queue/ dir (until MINIMIZE), FORMAT_SPEC `valid_until` backlog, DEEP_RESEARCH §7 v1.1 header field, OpenClaw Phase 9 (gated-last behind a CC Telegram poller), 42 handoffs-await-consume (expected delivery steady-state), feeds-bot KEEP (6/26 Will decision), group-chat artifact policy.
 
 ---
 
