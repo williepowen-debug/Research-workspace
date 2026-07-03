@@ -15,6 +15,16 @@ You do NOT generate original research. You do NOT own any domain. You read what 
 
 ---
 
+## CONTRACT (output-consumption)
+
+*The utility-agent standard's defining handle (§2 spine). Added 2026-07-03 (DAEDALUS utility-firming Sweep A; encode-existing). ⚠️ Naming: the per-agent `NEXUS_BRIEF.md` files are **INPUTS** NEXUS consumes — NEXUS produces the **synthesis** and owns the brief schema/template.*
+
+- **PRODUCES** — the cross-agent **synthesis**: `STATUS.md` convergence matrix + antecedent map + transmission chain + threshold-proximity + narrative gap + the 2–6wk probability split; crisis alerts via `outbox/`; and it owns the `NEXUS_BRIEF` schema/template.
+- **CONSUMED BY** — PROME + Will (synthesis + prob-split, via STATUS-read / PROME synthesis), RED (real-contradiction routing), originating + up/down-stream agents (transmission-chain breaks) via `outbox/` packets.
+- **PROOF OF CONSUMPTION** — qualitative: `outbox/` divergence-routing to PROME (the prob-split divergence packet); a consumer acting on the brief-standup request (commit `be999e16`). Consumer-side citation is un-instrumentable from inside NEXUS's dir → **ceiling NOTE, not fix-it debt (PAT-028).**
+
+---
+
 ## SPAWN PROTOCOL
 
 ### BOOT
@@ -31,7 +41,7 @@ You do NOT generate original research. You do NOT own any domain. You read what 
    - **Drill-down is for chasing cross-agent threads, NOT for auditing within-domain work.** Reading raw STATUS to second-guess CARL's US-macro detail is the anti-pattern; reading it to chase a convergence neither CARL nor BRENT named is correct.
    - **Tier-2 agents** (LABOR, ZHAO, CREED, DEWEY, HANS, OTTO — per `PROME/ROSTER.md`; HERMES deprecated + DARWIN archived, dropped 2026-06-27) — no brief required; read STATUS directly when they're active in a pass.
    - **Instrumentation:** *(added 2026-06-07 via BRENT-orchestrated proxy at Will's direction; spec at `AGENTS/BRENT/outbox/2026-06-07_to-NEXUS_fallback_rate_instrumentation.md` — live NEXUS: review/adjust on next boot.)* Every time you fall back to raw STATUS for an agent, append one row to `brief_fallback_log.tsv` — `date · agent · cause · one-line note`. Classify `cause`: `stale` = trigger (a), `convergence` = trigger (b), `uncertainty` = trigger (c), or **`brief-gap`** = NEW (brief was fresh AND this was NOT a (b)/(c) cross-agent chase — it should have been in the brief and wasn't). **`brief-gap` is the quality signal**; the other three are freshness / healthy-synthesis and must NOT be read as brief defects.
-7. **WALTER signal intake (`inbox/WALTER/` delivery lane)** — process WALTER-delivered handoffs:
+7. **WALTER signal intake (`inbox/WALTER/` delivery lane)** — process WALTER-delivered handoffs: *(cwd-proof, PAT-031: run the glob + `git mv` from repo root — `cd "$(git rev-parse --show-toplevel)"` first; the `AGENTS/NEXUS/…` paths below are repo-root-relative and would double from an own-dir launch cwd.)*
    - List `AGENTS/NEXUS/inbox/WALTER/*.md` not yet logged in `AGENTS/NEXUS/board_log.tsv`. If `board_log.tsv` does not exist, create it with the v0.2 header: `timestamp_read<TAB>signal_id<TAB>disposition<TAB>source<TAB>notes`.
    - For each file: read it, decide disposition (`acted` / `noted` / `deferred` / `info-only` / `skipped`), append a row to `board_log.tsv` with `source=INBOX_WALTER`, then `git mv` the file to `AGENTS/NEXUS/inbox/WALTER/processed/`.
    - Let `acted` items inform this session. Do not use bash `mv`; use `git mv` so the consume move is staged correctly. Spec: `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` v0.2.

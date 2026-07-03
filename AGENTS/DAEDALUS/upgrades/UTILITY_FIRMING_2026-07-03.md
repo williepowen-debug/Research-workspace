@@ -3,6 +3,13 @@
 **By:** DAEDALUS · **Date:** 2026-07-03 · **Status:** ✅ ASSESSMENT COMPLETE (read-only, nothing touched) · **Apply-proposals: 🟡 HELD for Will per-item review.**
 **Method:** 5 parallel read-only assessors, each graded its agent vs the live `BLUEPRINTS/utility-agent.md` + `SPEC.md §5` (the firm-next7 pattern). Graded CONTENT-not-filename (PAT-030), floor-not-ceiling (PAT-015), gaps tagged missing-HANDLE vs missing-SUBSTANCE (PAT-022). ORACLE was already firmed 6/28-29 (L4) → this completes the utility cohort.
 
+> **↳ APPLY DISPOSITION — 2026-07-03 (Will "go ahead" + PROME greenlight with an explicit idle/live gate).**
+> - **✅ APPLIED DIRECT (idle-verified):** **NEXUS** (dormant 3d) — Sweep A CONTRACT block + Sweep B BOTTOM LINE + PAT-031 boot-7 cwd-note (content sourced from NEXUS's own files). Blueprint `utility-agent.md` NEXUS_BRIEF naming error fixed (my lane).
+> - **📦 ROUTED (task-packet — live / self-sweep owners):** **WALTER** (live ~40m) — Sweep A+B · **TERRY** (self-sweep exception) — Sweep A+B + PAT-031 + drift ×3.
+> - **⏸ HELD — RED (idle) for the BUNDLE:** RED is in BOTH my scope (CONTRACT + BOTTOM LINE + FLOW/HERMES/SCRATCH drift) AND WALTER's B1 §8.1 consume-step scope — the only agent in both. Per PROME: WALTER drafts the §8.1 text → Will approves → DAEDALUS folds ALL of it into ONE coherent RED edit (avoids two edits to RED's CLAUDE.md; aligns the CONTRACT + working consume-loop landing). **Load-bearing coordination — awaiting WALTER's B1 draft.**
+> - **⏸ HELD — YEYOU:** manual/branch; larger OpenClaw/GLM + dangling-ref cluster → apply when Will next spins it up.
+> - **Idle-check nuance:** RED's recent *dir* commit is WALTER writing RED's inbox, NOT RED self-authoring → RED is genuinely idle (self-authored commits is the clean idle signal for any agent WALTER writes into).
+
 ---
 
 ## Maturity headline — the mechanical map under-rated the cohort again (PAT-024 confirms fleet-wide)

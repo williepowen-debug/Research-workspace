@@ -160,6 +160,12 @@ Historical confirmed convergences in `CONFIRMED.md`. **🔴 C-35 (Iran rally bul
 
 ---
 
+## BOTTOM LINE
+
+Rotation, not break: the 6/22–26 AI/alt-mgr positioning-unwind (R4) + multiple-compression (R1) fired hard, but R3 credit-substance stayed dormant on transmission (HY-led beta; the CCC/HY tripwire never fired) — so the tape *looks* like M-08 transmitting when the domain discriminators say it isn't. Single most important development: **R3↔R4 are now coupled through the AI-vendor-financing node (APO/ARES)** → the AI-unwind is the leading trigger candidate to unmask M-08, though it hasn't yet. Next: watch for the first market move that front-runs an R3/M-08 re-ignition; refresh the owed carry-forwards (MU 6/24, 30Y level, HY/CCC vs FRED primary). *(Forward takeaway + live probability split are in the header block, as of the 6/27 anchor — refresh at next boot. Labeled BOTTOM LINE added 2026-07-03, DAEDALUS utility-firming Sweep B; synthesis is NEXUS's own.)*
+
+---
+
 ## LAST RUN
 
 See `LAST_COMPLETION.md`. Last write 2026-06-27 (WU1: 11-day re-anchor off a 10-agent fleet fan-out; **WU2: brief-intake model shift** — NEXUS_BRIEF is now fleet-standard [12 agents], read-set made brief-existence-driven; **CORAL + ORACLE added to Tier-1 intake** and their fresh signal integrated above [M-05 FL leg, M-06 two-axis, Narrative-Gap crowd counter-signal]). **Carry-forward:** (1) verify MU 6/24 + confirm 30Y current level (refresh owed); (2) re-verify HY 276 / CCC 964 vs FRED primary (FRED 403s WebFetch, Bash egress blocked); (3) **REGINALD + RED are the highest-value remaining brief-gaps** (both load-bearing, both brief-less) — flag for brief stand-up; (4) ORACLE flags the live edge = does R3/M-08 re-ignite *before* the crowd prices it; watch for the first market move that front-runs it.
