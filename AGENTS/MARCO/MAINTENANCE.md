@@ -32,15 +32,18 @@
 - **Action:** Normalize all rows to 9-col by inserting the empty `Outcome` field (verify `predictions_due.py` + any consumer reads by header-name, not position, before/after). Do in one pass — likely fold into the post-Jun-30 PREDICTIONS_ARCHIVE/calibration build (SCRATCH punchlist #2).
 - **Effort:** small (but verify parser).
 
+### ✅ T1-E · FL Citizens "$678.8B" was stale AND directionally backwards — RESOLVED 2026-07-02
+*(Found in the 7/2 staleness hunt.)* The "$678.8B, growing toward $750B (MAR-17), systemic-risk BREACHED" was a **2024/near-peak** figure and the trajectory REVERSED: Citizens depopulated 585,432 policies + removed $235.6B exposure in 2025, entered 2026 **67% below peak**, 395,144 policies (was 936K). **Re-marked:** MAR-17 INVALIDATED (wrong direction); VX-SFE-03 BREACHED→DE-ESCALATED; thesis Channel-3 insurance leg (exposure-thermometer decoupled from the affordability crisis, risk shifted to private market); STATUS FL-triple-exposure; KB-MARCO-SFE-02. Cross-flag CORAL (whole-FL insurance owner). **Residual:** exact current-exposure $ = Citizens Dec-2025 board report (to verify); `sub_agents/HOUSING` + `CLAUDE.md` threshold table still carry $678.8B (see T3-D / open items).
+
+### ✅ Doc-mirror · docket/CALENDAR.md re-synced to CATALYSTS.tsv — DONE 2026-07-02
+*(CALENDAR.md had drifted 17d behind the TSV after the 6/8 update — listed June events as forward. Full rewrite to the current forward window this session.)*
+
 ---
 
 ## TIER 2 — stale state / single-source-of-truth
 
-### T2-A · STATUS.md internal stale blocks
-- **What:** (1) "NEXT SESSION FOCUS (2026-05-31)" block — pre-Pull-Session-1; its Tier-1 item "resolve remittance paradox" already RESOLVED 6/2. Duplicates SCRATCH's NEXT SESSION (forward-planning should live in SCRATCH, not STATUS). (2) "CROSS-AGENT SIGNALS — NEEDS RE-SEND" block (Apr 21-23 signals) — deferred for ~7 weeks; **may now be superseded by NEXUS_BRIEF** as the cross-agent surface (built today).
-- **Why it matters:** Two forward-planning sources drift apart; the re-send backlog may be obsolete under the new brief mechanism.
-- **Action:** Prune STATUS "NEXT SESSION FOCUS" → pointer to SCRATCH. Decide whether the re-send backlog is now handled by NEXUS_BRIEF SENDING table (likely yes) and retire or convert it.
-- **Effort:** small-medium.
+### ✅ T2-A · STATUS.md internal stale blocks — DONE 2026-07-02
+*(Resolved in the 7/2 staleness hunt: "NEXT SESSION FOCUS (5/31)" block pruned → pointer to SCRATCH; "CROSS-AGENT NEEDS RE-SEND" block retired → pointer to NEXUS_BRIEF SENDING + outbox. Both were confirmed superseded.)*
 
 ### ✅ T2-B · RESEARCH_STATUS.md drift — DONE 2026-06-15
 *(Resolved: remittance paradox + FLL-April → COMPLETE; ag-weather refreshed as open PROME loop; TOURISM row = SHELVE-sub-agent/KEEP-vector decision (was mislabeled "stalled"); StatCan Q1→Q2 gap re-dated; FL-airport gap → MCO-only/BTS-July. Header date refreshed.)*

@@ -61,7 +61,7 @@ Five weeks of data (Apr 23 → May 31) broke the "10-breached acute-crisis" fram
 | DHS Shutdown | **ENDED Apr 30** (Trump signed; 76-day record). TSA/FEMA/CG/CISA/SS funded. ICE/CBP carved out → reconciliation. | 🟢 RESOLVED |
 | ICE/CBP Reconciliation | **SIGNED INTO LAW Jun 10 (6/15 update).** After missing the Jun 1 deadline + Byrd carve, GOP reworked to comply and passed **Senate 52-47 (Jun 5) / House 214-212 (Jun 9); Trump signed Jun 10.** ~$70B (ICE + parts of CBP; $38B/$26B split = pre-trim May-4 proposal, enacted split pending signed-text reconciliation), funds **through end of term (Jan 2029).** Enforcement FLOW now law (trimmed from $71.7B via Byrd rework). | 🔴 LOCKED — LAW (was 🟠 CONTESTED) |
 | Produce / CPI F&V | **+6.1% YoY Apr** (↑ from +4.0% Mar); fresh veg **+3.1% MoM**. **DECOMP: multi-causal — labor SECONDARY; FL freeze ($3.17B) + tomato tariff (17%) + diesel are the larger drivers.** | 🟠 MULTI-CAUSAL |
-| ICE Ag Raids | **Eased off farms** — ICE refraining from ag worksite enforcement, pivoted to Democratic cities (harvest-protection). | 🟠 SOFTENED |
+| ICE Ag/Construction Raids | **AG: eased off farms** (harvest-protection). **CONSTRUCTION: ACTIVE** — the "off worksites" pivot was AG-ONLY (Tallahassee 100+/San Antonio; May South starts −17% MoM). Q4 ag-resumption risk (funding now law). | 🟠 AG-OFF / CONSTRUCTION-ON |
 | H-2A Bottleneck | Red River Valley potato delays; South Africa consular interviews → July (past planting). FY26 demand accelerating. | 🔴 LIVE |
 | FL Condo Inventory | **8.6mo May** (↓ from 8.9 Apr, ↓ from 10.3 May'25); active inventory **−13.4% YoY** (65,958); sales +6.6% (8,897, 9th straight up); median $306,990 (−1%); time-to-sale 103d (vs 98). **MAR-08 (>9.0) decisively NOT met — absorption continues.** | 🟡 ABSORBING |
 | Canadian Visitors to US | **May (6/15): air −5.5% YoY / −28.4% vs 2024; auto +15.1% YoY / −28.7% vs 2024; total +9.5% YoY** (2nd consecutive, base-effect). **2-yr STACK convergence: both modes ~−28.5%** — air/auto bifurcation collapses on the durable stack; symmetric structural decline. TOUR-01 (stack <−25%) confirmed. Air YoY improving = demand vs deleting supply. Nanos May **82% boycott-helpful**. | 🔴 STRUCTURAL (stack-symmetric, 6/15) |
@@ -78,21 +78,9 @@ Five weeks of data (Apr 23 → May 31) broke the "10-breached acute-crisis" fram
 
 ---
 
-## NEXT SESSION FOCUS (2026-05-31)
+## NEXT SESSION FOCUS
 
-**Tier 1 — do first:**
-1. ✅ **DONE (sessions 7-8):** produce-spike attribution decomposed and resolved → multi-causal, labor a co-driver (thesis v2.1; MAR-21 resolved wrong-mechanism). **Carry-forward:** watch **ES-MARCO-08** — June 10 / July CPI vs. pump-price decoupling discriminates the labor-vs-transient-freight weighting. No longer "the primary signal" — the H-2A bottleneck + 2.2M stock loss are the durable mechanism; produce CPI is a confounded readout of it.
-2. **Resolve the remittance paradox.** $ value +4.9% but transfer count −3.6%. Test the 1% tax pull-forward hypothesis (effective Jan 1) vs. genuine recovery. If pull-forward, expect a Q2-Q3 air-pocket. StatCan Q1 BOP (due ~May 28) for Canadian-corridor cross-check — pull next session.
-3. **Re-baseline the dashboard's RED claims.** Several cross-agent signals (→REGINALD condo, →CARL Miami, →LABOR ag) were sent under the acute-crisis framing that has now softened. Decide whether to send correction signals. Likely YES to REGINALD (condo tightening) and a nuance to LABOR (ICE off farms, but produce still spiking).
-
-**Tier 2:**
-4. **TOURISM sub-agent never delivered** its 04-28/05-05 commits (no MARCO spawn since Apr 23; all TOURISM files dated Apr 20-22). $-at-risk v0 build is stalled. Decide: re-spawn TOURISM or shelve given tourism vector has softened.
-5. **FL airport April YoY** (MIA/MCO/FLL) — BTS/airport sites; clean pax data not in headlines yet. Prediction #24 test window.
-6. **ICE off-farm pivot** — durable or tactical? If enforcement returns to ag post-harvest (Q4), SDL-01 ag transmission re-accelerates. Watch.
-
-**Tier 3:**
-7. Banxico Q1 state-of-origin reverse-map refresh (Q1 data ~Jun) — check for tax-pull-forward distortion.
-8. Cattle/meatpacking consolidation follow-up (Will caveat 2026-04-21) — still queued.
+**→ Forward planning lives in `SCRATCH.md` (NEXT SESSION section) — single source of truth, refreshed every close.** Near-term at-a-glance is the KEY DATES block below + `docket/CALENDAR.md`. *(The old 5/31 tier-list here was pruned 7/2 — all items resolved/superseded; MAINTENANCE T2-A.)*
 
 ---
 
@@ -145,10 +133,10 @@ Five weeks of data (Apr 23 → May 31) broke the "10-breached acute-crisis" fram
 - **Read:** lean "no dramatic Q2-Q3 collapse; pattern reverting toward normal." Not a labor-income *recovery* (count still negative), but not the air-pocket either. Pull-forward hypothesis partially supported (premium shrinking as Jan-tax distortion ages out) but no cliff. Keep watching count YoY as the cleanest SDL-01 readout.
 
 ### Florida Triple Exposure — COOLING (🟡, was UPGRADED)
-- Condo inventory **8.9mo Apr** (fell below 9.0; sales up, inventory tightening). Miami-Dade 12.9mo (↓ from 13.7 YoY), Lee still elevated, PB 8.2mo. The distress-inventory thesis softened — supply is being absorbed, not piling up.
+- Condo inventory **8.6mo May** (↓ from 8.9 Apr; inventory −13.4% YoY, sales +6.6% 9th straight). Miami-Dade ~12.9mo, PB 8.2mo. The distress-inventory thesis softened — supply is being absorbed, not piling up (MAR-08 >9.0 not met).
 - Migration (93% collapse, Miami −2.0%) stale — annual Census, no new print.
 - Airports (session-9 update): **MIA flipped negative** (Mar −1.76%, Apr −2.02%); FLL +10.2% Mar but base-effect; MCO record spring break (domestic anchor). Canadian/discretionary weakness concentrated in air + winter capacity, not yet aggregate FL airport volume.
-- Insurance (FL Citizens) exposure — no fresh print; was $678.8B.
+- Insurance (FL Citizens) exposure — **RE-MARKED 7/2: DEPOPULATED, not growing.** Entered 2026 **67% below peak** ($235.6B removed 2025; 395K policies, was 936K). "$678.8B" was 2024/near-peak. **MAR-17 (>$750B) INVALIDATED — wrong direction.** Affordability crisis persists (risk shifted to private market); the exposure metric decoupled from the stress. FL insurance → CORAL's domain, reconcile.
 - **Net:** FL acute-stress timing pushed right; aggregate $ stress still projected for **winter 2026-27** (snowbird no-show, $600M-$1.2B), not Q2-Q3 2026.
 
 ---
@@ -185,16 +173,9 @@ Five weeks of data (Apr 23 → May 31) broke the "10-breached acute-crisis" fram
 
 ---
 
-## CROSS-AGENT SIGNALS — NEEDS RE-SEND (framing softened)
+## CROSS-AGENT SIGNALS
 
-Prior signals (Apr 21-23) sent under acute-crisis framing now partly stale. Re-send candidates next session:
-
-| Direction | Agent | Updated read |
-|-----------|-------|------|
-| → REGINALD/CORAL | 🟡 **CORRECTION:** FL condo inventory *reverted to 8.9mo Apr* (below 9.0), tightening not extending. Collateral-deterioration timing pushed right to winter 2026-27. Construction-raid flow easing (ICE off worksites). |
-| → LABOR | 🟠 **NUANCE:** ICE eased off ag worksite raids (harvest-protection); flow softened BUT 2.2M stock loss + H-2A July-backlog still driving produce +6.1% YoY. NFP rebounded +115K / UE 4.3% — Feb −92K was a blip. |
-| → CARL | 🟡 Miami migration stale; FL condo tightening. Remittance $ flipped + but count −3.6% (tax pull-forward) — consumer-stress read on AZ/TX/Midwest metros still valid on count, not dollars. |
-| → NEXUS | 🟠 **THESIS INFLECTION:** cyclical signals (shutdown, condo, Canadian headline, NFP, remittance $) reversed; structural signals (ICE $71.7B funding, produce +6.1% YoY, H-2A bottleneck, 2.2M stock loss) hardening. Reframe acute→slow-structural-squeeze. |
+**→ The live cross-agent SENDING surface is `NEXUS_BRIEF.md` (SENDING table) + `outbox/`.** *(The old Apr-21-23 "NEEDS RE-SEND" candidate table was retired 7/2 — figures stale (8.9→8.6mo condo, 2.2M→~1.0M LF, $71.7B→$70B-law) and the re-sends are now handled by NEXUS_BRIEF + this session's LABOR/CORAL/CARL/PROME outbox notes; MAINTENANCE T2-A.)*
 
 ---
 

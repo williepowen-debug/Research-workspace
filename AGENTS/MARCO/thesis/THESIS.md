@@ -49,13 +49,14 @@ The organizing spine (promotes the prior `workbook/FLOW.tsv` cascades). Each cha
 ### Channel 3 — Internal Migration Reversal → Sun Belt Housing / CRE 🟡 SOFTENING · **MED-LOW**
 Mechanism: insurance/climate cost → affordability → out-migration → price decline → bank collateral.
 - **Cooling:** FL condo inventory 8.9mo (Apr, *below* 9.0 threshold, tightening — sales up); Miami-Dade 12.9mo (down from 13.7 YoY). The distress-inventory read softened.
-- **Structural setup intact but stale data:** FL net domestic migration −93% collapse (#1→#8), Miami −2.0%, Sun Belt −80% momentum — but these are annual Census prints, no fresh read. Insurance 4.5x national, FL Citizens $678.8B still elevated.
+- **Structural setup intact but stale data:** FL net domestic migration −93% collapse (#1→#8), Miami −2.0%, Sun Belt −80% momentum — but these are annual Census prints, no fresh read.
+- **Insurance leg RE-MARKED (v2.6, 7/2):** the Citizens-EXPOSURE thermometer collapsed by design — Citizens entered 2026 **67% below peak exposure** ($235.6B removed in 2025; 395,144 policies, was 936K). The "$678.8B" figure was 2024/near-peak; **MAR-17 (>$750B) INVALIDATED — wrong direction.** BUT the FL affordability crisis persists: risk shifted to thin/new private carriers (Slide etc.) + rates stay elevated (4.5x national). The exposure metric **decoupled** from the underlying stress (produce-thermometer-demotion pattern) — stop citing Citizens exposure as the FL-insurance-crisis proof. *(FL insurance is now CORAL's domain — reconcile.)*
 - Vectors: IMG 3.01-3.04, TX-02/-04, CAL-01, SBMD-01, FL-02/-03, SFE-03. Routes to: REGINALD.
 
 ### Channel 4 — Cross-Border Economic Dependence → Border-Municipal Fiscal Stress 🟠 STRUCTURAL-SLOW · **MEDIUM**
 Mechanism: Mexican-shopper/remittance dependence → retail + tax base erosion → municipal fiscal stress → bond risk.
 - **Real and grinding:** Laredo Mexican-shopper share 51%→13%, McAllen 36%→28%; Nogales residential −43.2% YoY; El Paso $55-62M deficit + 60% pension funding; Pharr S&P negative outlook.
-- **Remittance paradox:** Mexico remittances $-value flipped + (Mar +4.9%, Q1 +1.4%) BUT transfer **count −3.6%**, avg +8.9% — likely 1% tax pull-forward/FX, not income recovery. The count-decline is the structural tell consistent with SDL-01; expect a possible Q2-Q3 air-pocket. Central America remittances still surging (Honduras +26%).
+- **Remittance paradox — RESOLVED/normalized (7/2):** Mexico remittances **May $5,611M +3.8% YoY** (4th straight growth month), transfer **count −1.7% YoY** (narrowed from −3.6% Mar), avg +5.6%. The predicted Q2-Q3 air-pocket did NOT materialize — the pull-forward signature aged out toward normal. What survives is the **still-negative count** (fewer senders) = the structural SDL-01 tell. Central America remittances still elevated (2025 EOY: Honduras +26%, Guatemala +20%) — MAR-12 watches for the H2-2026 reversal (precautionary-liquidation exhaustion); confirm the 2026 trajectory.
 - Vectors: BDR-01/-02/-03, ELP-01/-02, PHR-01, NOG-01/-02, MCA-01, CAL-02/-03, 2.08, REM-02, SFE-02. Research: `../domain/sources/SDL/BANXICO_STATE_REVERSE.md`. Routes to: CARL, REGINALD.
 
 ### Channel 5 — American Emigration 🟡 WATCH · **LOW** · *not tradeable*
