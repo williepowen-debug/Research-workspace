@@ -49,6 +49,6 @@
 Inbox: PROME immigration-magnitude msg (6/26) PROCESSED (→ inbox/processed/; integrated as v2.6). WALTER subfolder item (6/27) left unprocessed. **Outbox: 4 written this session** — to-LABOR (magnitude reconcile + June), to-CORAL (magnitude reconcile), to-PROME (integrated + June corroborates), to-CARL (WC mask inverted). Stale 6/15 to-CARL note trashed (premise flipped). HERMES appears inactive (files sat 17d) — messaging overhaul pending ([[project_messaging_overhaul]]); NEXUS covered via NEXUS_BRIEF.
 
 ## PUSH STATE
-**7/2 session-16: commit + auto-push at closeout (safe-push.sh, ff-gated).** [Stamped after commit below.]
-- Files touched (all AGENTS/MARCO/): STATUS, SCRATCH, MEMORY, NEXUS_BRIEF, FINDINGS, MAINTENANCE, EXPECTED_SIGNALS, thesis/{THESIS,CHANGELOG,PREDICTIONS.tsv,TIMELINE}, docket/CATALYSTS.tsv, workbook/{KB,VX}.tsv, inbox/processed/ (PROME msg), outbox/ (4 new, 1 trashed).
-- [commit hash + push result to be recorded here at closeout]
+**7/2 session-16: ✅ ON ORIGIN.** Main commit `2927ea41` (SDL re-mark v2.6 + June-jobs catch-up) pushed via safe-push.sh (ff, swept a 4-commit push-train: MARCO + WALTER + CRUISE). This SCRATCH stamp is a tiny true-up (`[next]`) riding the next push.
+- Files (all AGENTS/MARCO/): STATUS, SCRATCH, MEMORY, NEXUS_BRIEF, FINDINGS, MAINTENANCE, EXPECTED_SIGNALS, thesis/{THESIS,CHANGELOG,PREDICTIONS.tsv,TIMELINE}, docket/CATALYSTS.tsv, workbook/{KB,VX}.tsv, inbox/processed/ (PROME msg via git mv), outbox/ (4 new, 1 trashed).
+- **NOTE for next session/Will:** `AGENTS/WALTER/STATUS.md` had an uncommitted working-tree change during my closeout (not mine — left untouched per isolation). Flag to whoever runs WALTER if it persists.
