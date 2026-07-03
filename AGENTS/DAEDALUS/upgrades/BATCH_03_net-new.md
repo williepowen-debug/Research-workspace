@@ -1,7 +1,12 @@
 # Batch Changelist 03 — net-new non-handle items (assembled 2026-07-03)
 
-**By:** DAEDALUS · **Date:** 2026-07-03 · **Status:** 🟡 DRAFT — routed to PROME (+Will) for review; **NOT applied.**
+**By:** DAEDALUS · **Date:** 2026-07-03 · **Status:** ✅ **DISPOSITIONED 2026-07-03** (Will "go ahead" + PROME approve) — **2 applied direct** (idle-verified), **3 routed** to active owners. See disposition banner.
 **Gate (unchanged):** assess → propose → PROME/Will review → apply (idle-check + task-packet live agents). Never auto-apply.
+
+> **↳ DISPOSITION — 2026-07-03 (Will-approved + PROME-approved).**
+> - **✅ APPLIED DIRECT (idle-verified, PAT-004; re-read live before edit, PAT-009):** item 3 **ORACLE** §2 CONTRACT block (added after IDENTITY in `CLAUDE.md`; ORACLE idle 26h) · item 4 **CARL** FILES-table "Stub"→"⛔ RETIRED" one-cell fix (CARL idle 18h). FLEET_MAP rows updated.
+> - **📦 ROUTED to active owners (task-packet — apply on their next session):** item 1 **BRENT** §2 Independence → `BRENT/inbox/2026-07-03_from-DAEDALUS_BATCH03-independence-col.md` · item 2 **HAWK** dangling ref → `HAWK/inbox/2026-07-03_from-DAEDALUS_BATCH03-dangling-ref.md` · item 5 **REGINALD** TRADE.md banner → `REGINALD/inbox/2026-07-03_from-DAEDALUS_BATCH03-trade-md-banner.md`. Each packet requests a write-back to `DAEDALUS/inbox/` on completion (PAT-032).
+> - **Loop-close:** the 3 routed items land when their owners boot; the PAT-032 boot-diff is the backstop if a write-back doesn't come.
 
 **Provenance:** the "assemble after BATCH_02 + the sweep clear" residual (STATUS Next-actions #4). BATCH_02 was dispositioned 7/1 and the HANDLE_SWEEP was reconciled 7/3 (its items were folded into the 7/1 review) — so the remaining candidates are the **non-handle net-new items** the firm7 cards surfaced, PLUS the ONE handle that fell through the 7/1 disposition (BRENT §2 Independence). **Every item below was re-verified against live files 2026-07-03** (PAT-029 — re-read before restating) — none obsolete.
 

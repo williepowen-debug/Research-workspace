@@ -44,7 +44,7 @@
 
 ## The queue (quick wins first)
 
-1. **§2 CONTRACT block** — *net-new, highest value.* The blueprint's defining handle (THE SPINE / L4-gate visibility); content already exists, just unstandardized → cheap (S) encode-existing-handle. The single biggest gap-closer for ORACLE. **Not in BATCH_02.**
+1. ✅ **APPLIED 7/3 (BATCH_03, DAEDALUS direct — ORACLE idle).** **§2 CONTRACT block** — *net-new, highest value.* The blueprint's defining handle (THE SPINE / L4-gate visibility); content already existed, just unstandardized → encoded as a 3-line block after IDENTITY in `CLAUDE.md` (PRODUCES/CONSUMED-BY/PROOF, conservative consumer list = NEXUS/TERRY/LIQUID + all-via-probabilities). The single biggest gap-closer for ORACLE. **(Was not in BATCH_02.)**
 2. **TRADE.md live-vs-frozen design call → banner-or-refresh** — *net-new at agent level* (umbrella = BATCH_02 §D). Resolve the by-design question (profile §7) before touching; an unambiguous FROZEN banner is idle-applicable with approval, a number-refresh is owner work → prefer a task-packet (ORACLE's own crowd-odds domain).
 3. **Verify Kalshi loop accrual** — *net-new*, S, gates the calibration value; pure read/verify, no ORACLE-file edit.
 4. **`POLY`/`KALSHI` SOURCE_TAG** — *net-new*, S polish; closes the MEMORY-flagged provenance gap.

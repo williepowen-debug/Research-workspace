@@ -36,7 +36,7 @@
 ## The queue
 1. **§8 BOTTOM LINE handle** — **already routed in BATCH_02 item 4 (pending PROME).** The one cheap floor gap; not re-proposed here.
 2. **§2 Independence column** — **NET-NEW**, cheapest net-new structural handle (S). Formalizes shared-antecedent reasoning into the matrix and immediately surfaces the VX-1.01/VX-CC-01 CC double-count CARL itself flagged. *Highest-value net-new.*
-3. **CLAUDE.md FILES-table Stub→RETIRED fix** — NET-NEW, S, one-cell self-doc drift (touches CARL CLAUDE.md → permission + idle).
+3. ✅ **APPLIED 7/3 (BATCH_03, DAEDALUS direct — CARL idle).** **CLAUDE.md FILES-table Stub→RETIRED fix** — one-cell self-doc drift; the L238 cell now reads ⛔ RETIRED (Jun 26), matching the file's own banner.
 4. **ABS_BASELINE.tsv freeze-or-refresh** — NET-NEW, S; data-liveness, route a task-packet to CARL (don't guess the freeze-vs-refresh call).
 5. **STATUS 251→<250 trim** — NET-NEW, S, owner hygiene.
 6. **consistency_check.py build** — NET-NEW, M; the named L5 gate, already spec'd in CARL's ROADMAP — note/encourage, it's CARL's lane.
