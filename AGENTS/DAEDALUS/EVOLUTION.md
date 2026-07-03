@@ -7,6 +7,13 @@ Newest first. Keep entries terse; archive build minutiae to `FLEET_MAP.tsv`.
 
 ## Changelog
 
+### 2026-07-03 (later²) — utility-cohort firming complete (WALTER/RED/TERRY/NEXUS/YEYOU) + CONTRACT-block sweep surfaced (PAT-033)
+- **What:** Will approved starting the deferred utility firming as read-only assessment. 5 parallel assessors graded each agent vs the live `utility-agent.md`. Re-scored: WALTER L3→L4, RED L3→L4, **NEXUS L2→L4 (2-level under-rate — PAT-024 repeats)**, TERRY L3-prov-L4, YEYOU L2-firmed (empty REVIEW_LOG blocks L2→L3 *verification*, not a defect — manual/branch). With ORACLE (6/28) the utility cohort is fully firmed → 4×L4. FLEET_MAP re-scored; full result + HELD apply-proposals in `upgrades/UTILITY_FIRMING_2026-07-03.md`.
+- **Convergent finding → CONTRACT-block sweep (PAT-033):** all 5 (and ORACLE) LACK the labeled CONTRACT block — the utility blueprint's defining §2 handle — with the substance present-but-scattered. Enforcement not standard (cohort predates the 6/28 blueprint). One consolidated sweep, not 5 items (mirrors the market Independence/ACTION sweep); ORACLE's 7/3 block = template.
+- **Blueprint correctness fix (my lane):** corrected the `utility-agent.md` role table — it listed NEXUS PRODUCES = "NEXUS_BRIEF," but the per-agent briefs are INPUTS to NEXUS; NEXUS produces the *synthesis* and owns the brief *schema*. Uncorrected it would drive a wrong CONTRACT for NEXUS.
+- **PAT-031 residual, live-confirmed:** the read caught 2 real cwd-proof gaps — NEXUS (idiom-unaware; scanner SHOULD flag) and **TERRY (partial-idiom: boot card wrapped, BOOT 11-13 + README bare → the scanner's agent-level heuristic SUPPRESSES it).** TERRY is exactly the accepted-residual case (PROME flag 2) — the firming read is the backstop the scanner can't be.
+- **Applies HELD** for Will per-item review (read-only pass, per the approved frame). Next: that review + the formal profiles/cards fast-follow.
+
 ### 2026-07-03 (later) — reconciliation pass: restored tracking-truth (status-banner drift) + assembled BATCH_03
 - **What:** Will asked for a sweep of DAEDALUS's open initiatives + status. It surfaced that the *work* is well-documented but several *status banners* had drifted. Fixed — all live-verified first (PAT-029).
 - **The banner drift (the core find, PAT-032):** `HANDLE_SWEEP_independence-action.md` still read "🟡 DRAFT — NOT applied," but its items were actually **dispositioned 2026-07-01** — folded into the BATCH_02 PROME review as the "SWEEP"-labeled entries (BOND-SWEEP-A applied; REG/CARL/LABOR/BOND-SWEEP task-packeted; CARL-SWEEP-B/HAWK-SWEEP no-op). PROME applied/routed on DAEDALUS's behalf, but the *originating* doc + STATUS Next-actions #4 never got the write-back. Corrected to a live-verified disposition banner.

@@ -46,7 +46,7 @@ The floor above is shared; the ceiling is per-role. Each agent's rubric, output,
 | Agent | Role | PRODUCES | Role rubric | Calibration loop |
 |---|---|---|---|---|
 | **WALTER** | signal/news routing | dispatch+kill dispositions + BOARD | KILL/DISPATCH rules; read full body before KILL (no-kill-on-lede) | `delivered_but_unconsumed` telemetry |
-| **NEXUS** | cross-agent synthesis | `NEXUS_BRIEF` | independence re-test; citation-vs-observation guard | brief vs peer-brief diff; mined-edges |
+| **NEXUS** | cross-agent synthesis | **the synthesis** (convergence matrix + antecedent map + narrative gap + prob-split) + owns the `NEXUS_BRIEF` *schema/template* — ⚠️ the per-agent `NEXUS_BRIEF.md` files are **INPUTS** NEXUS consumes, NOT its output | independence re-test; citation-vs-observation guard | brief vs peer-brief diff; mined-edges |
 | **RED** | adversarial review | strongest steelman → honest odds | lead with the strongest bull case, *then* odds | steelman / odds hit-rate |
 | **TERRY** | trade construction | trade structures + tooling (`grade_print`/`chain_fetch`) | construction rubric; live-chain marks | realized vs constructed |
 | **ORACLE** | prediction-market diagnostics | probability reads / `NEXUS_BRIEF` | crowd-signal weighting; thin-liquidity discipline | Brier scoreboard |
