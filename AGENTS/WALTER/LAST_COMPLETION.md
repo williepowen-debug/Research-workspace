@@ -6,7 +6,7 @@
 
 ## STATUS
 
-**2026-07-02 ~9–9:40 PM ET (Thu — Will-Telegram re-boot ~2h after the 7 PM close + TWO 6-image Twitter batches).** Clean re-boot (doctor 0-HIGH / 15-MED all known; markets closed → levels flat, no new auto-fire; intake gate quiet). Routed both batches: **7 DISPATCH / 5 KILL / 3 verify-spawn (BOARD 417→424).** **🟢 PUSHED (local = origin).** Ran alongside 2+ concurrent live Claude sessions that wrote MARCO + CRUISE (serial-single-machine VIOLATED) — initially deferred my push; it resolved (train swept my routing commits, tree cleared when they committed, I safe-pushed the closeout). Tier-1 light closeout.
+**2026-07-02 ~9–9:40 PM ET (Thu — Will-Telegram re-boot ~2h after the 7 PM close + TWO 6-image Twitter batches).** Clean re-boot (doctor 0-HIGH / 15-MED all known; markets closed → levels flat, no new auto-fire; intake gate quiet). Routed all three batches: **9 DISPATCH (SIG-003→011) / 11 KILL / 2 verify-spawn (BOARD 417→426).** **🟢 PUSHED (local = origin).** Ran alongside 2+ concurrent live Claude sessions that wrote MARCO + CRUISE (serial-single-machine VIOLATED) — initially deferred my push; it resolved (train swept my routing commits, tree cleared when they committed, I safe-pushed the closeout). Tier-1 light closeout.
 
 ## CHANGED (this session)
 
@@ -23,11 +23,16 @@
 - **SIG-009 leveraged-fund SOFR-futures short RECORD $700B (Barchart/CFTC) → LIQUID PRIORITY (+BOND,HENRY,RED).** Net-new systemic-leverage extreme in LIQUID's basis-trade lane. Cluster FED_FRAMEWORK.
 - **1 kill:** 2nd WTI-vs-321-crack chart (dup of batch-1, BRENT owns + z-exhausted read).
 
+**Batch 3 (2 route / 6 kill) — commit "route 3rd 8-image Will Twitter batch":**
+- **SIG-010 CFSv2 Nov Niño-3.4 +4.01°C ("first through 4°C", Jacobson) → AEOLUS ROUTINE (+RED).** Routed as the warm upper-TAIL, NOT a point forecast (single dynamical model ~5mo lead + documented warm bias; +4°C ≈1.5× strongest El Niño ever; poster's own y-axis-alert). Cluster CLIMATE_MACRO.
+- **SIG-011 no-August-Brent-cargoes ("a first for the benchmark", Staunovo/Reuters) → BRENT ROUTINE (+HAWK,RED).** Net-new structural datapoint on the physical Brent basket (maintenance vs tightness). Cluster IRAN_HORMUZ.
+- **6 kills:** gold dips-before-crash advocacy; API-6/30 (superseded by EIA wk-6/26 BRENT holds); 2 images of the same immaterial $7.5M SEC/Merrill SAR fine (Relevance); 2 HFI crack-disconnect images (BRENT owns two-sided; 3rd/4th crack tonight).
+
 **Closeout:** STATUS (lead + BOARD count + all live-level blocks refreshed to 00:56Z + push-state + SESSION-LOG row), SESSION_LOG breadcrumb, this file.
 
 ## RESULT
 
-7 dispatched / 5 killed / 3 verify-spawns (OC-Maryland CORRECTED-FRAMING · KOSPI CONFIRMED · [prior 7 PM: Galveston]). BOARD reconciles at **424** (ToC = sections = files = TOTAL); route_log +7 / delivery_log +23 / kill_log +5 / 23 per-recipient handoffs. **No spec-version bumps.** **The filter did real work:** batch 1 was 4/6 stale-to-owner (2 read contrary by BRENT); batch 2 was mostly net-new. Two verify-spawns each flipped a disposition (OC = a false-corroborator inoculation; KOSPI = confirmed-fresh not a re-post).
+9 dispatched / 11 killed / 2 verify-spawns (OC-Maryland CORRECTED-FRAMING · KOSPI CONFIRMED). BOARD reconciles at **426** (ToC = sections = files = TOTAL); route_log +9 / delivery_log +28 / kill_log +11 / 28 per-recipient handoffs. **No spec-version bumps.** **The filter did real work:** batch 1 was 4/6 stale-to-owner (2 read contrary by BRENT); batch 2 was mostly net-new. Two verify-spawns each flipped a disposition (OC = a false-corroborator inoculation; KOSPI = confirmed-fresh not a re-post).
 
 ## GAPS
 
