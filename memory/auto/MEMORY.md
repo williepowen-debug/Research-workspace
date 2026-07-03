@@ -190,3 +190,4 @@
 - [Flow Sign vs Program Direction](finding_flow_sign_vs_program_direction.md) — rotation sell-leg ≠
 - [Self-Stamp Estimate Drift](finding_selfstamp_estimate_drift.md) — stamp from `date`; trust
 - [Don't Retire a Dormant Thesis](feedback_dont_retire_dormant_thesis.md) — de-escalated catalyst →
+- [Asymmetric Records Need Reconciliation](finding_asymmetric_records_need_reconciliation.md) — agent records "I did X"; diff vs counterparty state at boot (fleet class-of-bug, PROME 7/3)
