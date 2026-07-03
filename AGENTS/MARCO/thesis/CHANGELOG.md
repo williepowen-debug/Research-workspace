@@ -4,6 +4,32 @@ Version-transition log. Newest first. Each entry: old view → new view, trigger
 
 ---
 
+## v2.5 → v2.6 (2026-07-02, session 16) — MINOR — Channel-1 magnitude/provenance RE-MARK (2.2M "CBO" → ~1.0M realized LF) + June-jobs aggregate corroboration
+**Trigger:** (1) PROME Tier-2 verification (Workflow `wzlhvzlcb`, vs CBO / NFAP-BLS-CPS / KC-Fed primaries; `../inbox/2026-06-26_from-PROME_immigration-magnitude.md`) — resolves the long-open MAINTENANCE T1-B / NOTES.md flag that the "2.2M" spine sat un-cross-referenced. (2) June 2026 jobs report (released 7/2).
+
+**Old view (v2.0–v2.5):** Channel-1 spine = "irreversible **2.2M** self-deportation stock loss **(CBO)**" — treated as the smoking-gun magnitude, cited flat across STATUS/THESIS/VX/KB/NEXUS_BRIEF.
+
+**New view (v2.6):** The 2.2M figure is **wrong on both count and source.** (a) It is a **disputed DHS** self-deportation claim (CMS: "the Two Million Deportation Myth"), **NOT CBO-modeled** — CBO removals ≈ **290K + 30K voluntary emigration (2026–30)**, an order of magnitude smaller. (b) The **realized** magnitude is **~1.0M foreign-born labor-force decline / ~1.5M population** (NFAP/BLS-CPS; FRED LNU01073395 ~−1.1M NSA, Mar'25→Feb'26). The U-3/supply-floor mechanism runs through the LF number → cite ~1.0M for the labor channel, state the basis. Breakeven payrolls ~50K/mo (KC-Fed, derived).
+
+**Why MINOR not MAJOR:** PROME's own framing — "the immigration supply-floor mechanism SURVIVES; a smaller-but-real ~1.0M LF cut still keeps U-3 genuinely low — a provenance + quantum re-mark, **not a direction change.**" Conviction direction/HIGH on the mechanism unchanged; only the headline count + attribution corrected. No channel added/removed.
+
+**Independent corroboration (June jobs, 7/2):** total labor force −1M+ YoY, employed −1.06M YoY, LFPR **61.5% = lowest in 50 yrs ex-Covid**, household employment −507K in June, net migration "fell by more than half." The corrected ~1.0M realized LF contraction is now visible in the flagship aggregate — the shock has moved from proxies (produce, remittance counts) into headline labor data. Multi-causal caveat (characteristic error): the aggregate LF drop also reflects aging + discouraged workers + degraded CPS response (66.6%); immigration is a named, material co-driver, not sole.
+
+**Also this session (June-jobs Channel-2 leg):** national Leisure & Hospitality **−61K in June** *during* the World Cup — the hospitality-jobs mask (ES-MARCO-01) INVERTED (May +70K WC-hiring → June −61K, net ~flat). Tourism→jobs transmission firing through the WC tailwind; reinforces ES-09 (WC flop). No thesis-version impact — logged as ES-01 APPEARING.
+
+**Conviction deltas:**
+| Item | v2.5 | v2.6 |
+|---|---|---|
+| Channel-1 mechanism (labor-supply shock exists) | HIGH | **HIGH** — unchanged |
+| Channel-1 magnitude | "2.2M CBO" (over-stated, mis-sourced) | **~1.0M realized LF / ~1.5M pop** (NFAP/BLS-CPS, FRED) — corroborated by June LF −1M+ YoY |
+| SDL-01 visibility | proxy-only (produce, remittance count) | **now visible in flagship aggregate** (LFPR 50-yr low, LF −1M+ YoY) |
+
+**Reconcile-to-one-number action:** propagate ~1.0M LF / ~1.5M pop to CORAL + LABOR (LABOR's supply-adjusted U-3 counterfactual sourced the old ~1.6–1.9M to MARCO). Cross-agent notes in `../outbox/`.
+
+**Propagation note:** canonical (THESIS) + all live-cited surfaces (STATUS, VX-SDL-01, KB, FINDINGS, NEXUS_BRIEF) re-marked this session; dated historical/archival mentions (older CHANGELOG/TIMELINE entries, `sub_agents/WORKFORCE`, `domain/sources/SDL/`, ML.tsv frozen) retain the old figure as as-of snapshots — swept opportunistically, not load-bearing.
+
+---
+
 ## v2.4 → v2.5 (2026-06-15, session 13) — Channel-1 enforcement FLOW re-locked (funding now law)
 Old view (v2.3): funding FLOW CONTESTED — bill missed the Jun 1 deadline, parliamentarian carved the core under Byrd; flow accelerator uncertain (2.2M stock loss irreversible regardless).
 New view (v2.5): funding FLOW is LAW. The reworked ~$70B ICE/CBP package was signed Jun 10 2026 (Senate 52-47 / House 214-212), funding ICE + parts of CBP through the end of Trump's term (Jan 2029). Channel-1 conviction UP.

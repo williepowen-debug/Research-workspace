@@ -11,7 +11,7 @@ Each section below is a **thesis bucket**. Under each bucket: the research docs 
 
 ## 🟠 SDL-01 — Self-Deportation Ledger (BREACHED, 80% conf — formalized VX 2026-04-21)
 
-**Core claim:** ~2.2M undocumented workers self-deported in 2025 (CBO). Structural supply shock, not cyclical. Transmission now quantified via 1930s historical template.
+**Core claim:** a structural foreign-born labor-supply shock — **~1.0M realized labor-force decline / ~1.5M population** (NFAP/BLS-CPS; FRED LNU01073395), not cyclical. *(RE-MARKED v2.6, 2026-07-02: the prior "~2.2M self-deported (CBO)" figure was wrong — a mis-attributed disputed-DHS claim, NOT CBO, which estimates ≈290K+30K voluntary; direction/mechanism unchanged. Corroborated by June-2026 total LF −1M+ YoY. See thesis magnitude note + KB-MARCO-WFD-SDL-02.)* Transmission quantified via 1930s historical template.
 
 📁 `domain/sources/SDL/`
 

@@ -1,0 +1,5 @@
+## 2026-07-02 — To: CORAL
+**Signal:** Reconcile the immigration/self-deportation magnitude to ONE number — **~1.0M realized foreign-born LF / ~1.5M pop** (was cited "2.2M CBO", which is wrong).
+**Detail:** PROME Tier-2 verify corrects the founding figure: "2.2M self-deportations (CBO)" is a mis-attributed *disputed DHS* claim (CMS "Two Million Deportation Myth"), NOT CBO (CBO removals ≈290K+30K voluntary). Realized = **~1.0M foreign-born labor-force decline** (FRED LNU01073395) / ~1.5M population. If any whole-Florida migration/workforce framing of yours carries the "2.2M" figure, re-mark it. Direction unchanged — a smaller-but-real shock still transmits. FL-specific reconcile items unchanged this cycle: FL condo **8.6mo May** (absorbing, inventory −13.4% YoY, MAR-08 not met); Canadian air/snowbird capacity still deleting (Air Transat full US exit Jun 30) → winter 2026-27 FL-$ hole intact.
+**Source:** PROME Tier-2 verify (inbox 2026-06-26); FRED LNU01073395; MARCO thesis v2.6 / KB-MARCO-WFD-SDL-02; FL Realtors May 2026.
+**Priority:** 🟡

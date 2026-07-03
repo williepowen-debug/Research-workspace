@@ -15,11 +15,9 @@
 - **Action:** Bump v2.0→v2.4; prune the "Live state" block to pure pointers (no restated values — point to STATUS/thesis).
 - **Effort:** small.
 
-### T1-B · NOTES.md flags a data-quality tension under Channel 1's load-bearing 2.2M figure
-- **What:** `NOTES.md` (deportation data discrepancy): DHS claims 2.5M departures (1.9M self-deported) vs independent deportation counts ~290-340K (MPI/Brookings/TRAC) — "DHS 7-8× higher, self-deportation methodology disputed." The thesis's durable Channel-1 driver is the **2.2M self-deportation stock shock (CBO)**.
-- **Why it matters:** The spine of Channel 1 rests on a self-deportation magnitude that MARCO's own data-quality note flags as disputed. The *directional* claim survives at lower magnitude, but the headline number should be reconciled (CBO 2.2M vs DHS 1.9M self-deported vs the disputed methodology) — and a load-bearing figure shouldn't sit un-cross-referenced.
-- **Action:** Reconcile the 2.2M source-of-record; add a one-line confidence/caveat to STATUS where 2.2M is cited (it's stated flat). Decide if the number needs a ±band.
-- **Effort:** medium (judgment).
+### ✅ T1-B · Channel-1 "2.2M" magnitude data-quality tension — RESOLVED 2026-07-02
+- **What (was):** NOTES.md flagged DHS 2.5M departures (1.9M self-deported) vs independent counts ~290-340K (MPI/Brookings/TRAC) as a disputed load-bearing figure under the "2.2M CBO" spine.
+- **Resolution:** PROME Tier-2 verification (Workflow, vs CBO/NFAP-BLS-CPS/KC-Fed; inbox 6/26) confirmed the tension and re-marked it: "2.2M CBO" was a mis-attributed **disputed-DHS** claim (CBO removals ≈290K+30K — matching this flag's ~290-340K independent counts); realized = **~1.0M foreign-born LF / ~1.5M pop** (FRED LNU01073395). Re-marked across canonical + live surfaces (thesis v2.6, STATUS, VX-SDL-01, KB, FINDINGS, NEXUS_BRIEF); reconcile notes to LABOR+CORAL. Direction/mechanism unchanged; corroborated by June-2026 LF −1M+ YoY. MARCO's own NOTES.md flag was correct.
 
 ### ✅ T1-C · H-2A "requested vs certified" series ambiguity in MAR-11 — DONE 2026-06-15
 *(Resolved: MAR-11 note now specifies threshold on CERTIFIED series, FY25 certified 398,059, '415K' was requested; cross-refs FINDINGS/OFLC. NEW flag found while editing → see T1-D below.)*

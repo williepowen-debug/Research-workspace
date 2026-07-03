@@ -1,44 +1,54 @@
 # MARCO SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-06-15 ET (session 15 CLOSE — reboot onto clean session-14 state; 2nd ORC/Prome cleanup loop + FLL data unblocked + doc-hygiene trio + 2 decide-items; all committed & on origin across 4 push windows/trains)
+**Last Updated:** 2026-07-02 ET (session 16 — 17-day catch-up: June jobs + Banxico May + FL condo May + **SDL-01 magnitude re-mark (thesis v2.6)** + 3 Q2 predictions resolved + PROME immigration-magnitude msg integrated)
 
-## CHANGES SINCE (session 14 → 15)
-Same-day reboot — nothing moved externally while offline. The reboot landed onto the clean, pushed session-14 state (origin was at `6ed25b4f`). All session-15 work is cleanup + thread-finishing on that base.
+## CHANGES SINCE (session 15 → 16)
+17 days elapsed (6/15 → 7/2). What moved while offline:
+- **June jobs (rel 7/2, moved up from 7/3 for observed 7/4):** NFP +57K (May rev DOWN to +129K); UE 4.2% but LFPR **61.5% = 50yr-low ex-Covid**; household emp −507K; **total LF −1M+ YoY**; net migration halved. **L&H −61K** *during* the World Cup.
+- **Banxico May remittances (7/1):** $5,611M +3.8% YoY (4th straight growth); count −1.7% YoY.
+- **FL condo May (FL Realtors, 6/16):** 8.6mo (↓ 8.9 Apr); inventory −13.4% YoY; sales +6.6% (9th straight).
+- **May housing starts (Census, 6/16):** South-region starts −17.0% MoM — flips April's against-signal geography.
+- **PROME inbox (6/26):** Tier-2 verify re-marking the "2.2M CBO" figure → ~1.0M realized LF (integrated this session).
+- Air Transat completed total US route exit 6/30.
 
-## WHAT I DID (session 15)
-1. **Boot** — STATUS/SCRATCH/MEMORY read; boot.py sweep (8 catalysts due ≤30d; MAR-01/18/26 due Jun-30; STATUS fresh; VX 44/57 >60d = Jan founding vectors, not action items). Verified origin sync (session-14 commits already on origin).
-2. **ORC/Prome cleanup loop #2** — (a) fixed `THESIS.md` L117 kill-conditions **self-contradiction** ("stronger…/…weaker" — deleted stale v2.3 remnant; v2.5 *confirms* v2.0–v2.2, reverses v2.3). (b) Made `CLAUDE.md` step-12 auto-memory path container-independent (`memory/auto/`; `~/.claude/…` is a local-only symlink). (c) **Prome then caught handoff-surface staleness ORC + I both missed** (we'd scoped to canonical *analytical* surfaces): NEXUS_BRIEF still v2.4 + MAR-26 78 (→ v2.5 / 74 mechanism-only); SCRATCH stale (push-state, garbled "−11%/78", 2028→Jan 2029, write-back-done); STATUS session tag. (d) Logged the **"sweep handoff surfaces LAST in closeout"** lesson → MEMORY.
-3. **Data hunt — FLL April UNBLOCKED** (the "MCO/FLL PDF-blocked" thread). ORC's untried path worked: `curl` w/ **browser UA** on the Broward Monthly Statistical Summary PDF + **pdfminer** (WebFetch/search both fail). FLL Apr: total 2,958,931 **+5.0% YoY** but **−4.7% on the 2-yr stack** (base-effect, laps 2025 −9.3%); **intl 527,224 +4.6% YoY / −18.7% stack** (structural channel); domestic ~flat (−1.0% stack). Sum-check passes. **MCO still blocked** (flymco JS-rendered) → BTS T-100 ~Jul. → STATUS FL-Airports row + KB-MARCO-IVF-30 + VX-APT-01 (BREACHED→ELEVATED, TSA-crisis breach resolved) + RESEARCH_STATUS.
-4. **Doc-hygiene trio (ORC priority order)** — T1-A FINDINGS v2.0→**v2.5** + live-state block → pure pointers; T1-C MAR-11 note → **certified series** (FY25 certified 398,059; "415K" was requested); T2-B RESEARCH_STATUS drift; **+T1-D NEW flag** (PREDICTIONS.tsv mixed col-count {9:3, 8:14} — Outcome field missing on most rows; parser tolerates; fold into post-Jun-30 normalize pass).
-5. **Two decide-items** — TOURISM = **SHELVE sub-agent, KEEP vector** (MARCO does tourism inline); outbox WC dual-mask = **retired** the stale 6/8 draft (flop inverted its tilt) + wrote corrected CARL note (NEXUS covered via brief).
-6. **Closeout** — VX-APT-01 refresh; MEMORY source-quality map (FLL solved / MCO→BTS) + session arc; NEXUS_BRIEF As-of + FLL calibration line; this SCRATCH.
+## WHAT I DID (session 16)
+1. **Boot** — STATUS/SCRATCH/MEMORY read; boot.py (6 passed catalysts, 3 predictions due, 2 ES past deadline). Pulled all fresh prints live (WebSearch/pdfminer; verified primaries not dashboards).
+2. **SDL-01 MAGNITUDE RE-MARK (the big one) — thesis v2.5→v2.6.** Integrated PROME's Tier-2 correction: "2.2M self-deportations (CBO)" is a mis-attributed *disputed-DHS* claim (CBO ≈290K+30K), realized = **~1.0M foreign-born LF / ~1.5M pop** (FRED LNU01073395). Direction/mechanism UNCHANGED. **June jobs independently corroborate** (total LF −1M+ YoY ≈ the ~1.0M). Re-marked across THESIS + CHANGELOG + STATUS + VX-SDL-01 + KB (WFD-SDL-02) + FINDINGS + NEXUS_BRIEF; resolved MAINTENANCE T1-B; MEMORY provenance lesson. Reconcile notes → LABOR + CORAL; reply → PROME.
+3. **June jobs analysis** — SDL-01 now visible in flagship aggregate; L&H −61K = ES-01 hospitality mask INVERTED (May +70K WC-hiring → June −61K). Multi-causal caveat preserved (aging+discouraged+immigration+66.6% CPS). → STATUS dashboard, KB-WFD-NFP-02, ES-01 APPEARING.
+4. **Q2 predictions resolved (window closed 6/30):** MAR-18 CONFIRMED (Cdn air capacity); MAR-01 MISS-on-threshold (Nogales residential −50/−60% floor never reached ~$245K median; stress in cross-border retail not residential); MAR-26 MECHANISM-CONFIRMED/threshold-emerging (May South starts −17% MoM, Q3 clean test). → PREDICTIONS.tsv + TIMELINE.
+5. **Expected signals:** ES-01 APPEARING (national); ES-05 pushed to H2 (June CPI Jul 15); ES-04/ES-07 formally resolved DID_NOT_APPEAR at Q2 close (moved to Resolved).
+6. **Data:** Banxico May ($5,611M +3.8%, count −1.7%) + FL condo May (8.6mo) → dashboard/VX/KB. Confirmed garbled "$5.69B" press was a mislabeled MAY figure.
+7. **Docket:** 6 passed catalysts pruned/re-dated (WestJet+Air Transat removed as resolved one-offs; Banxico/NFP/FL-Realtors re-dated to next; state-of-origin + OFLC H-2A pushed). Forward window now Jul 15 CPI → mid-Aug NTTO.
+8. **Closeout:** NEXUS_BRIEF v2.6 refresh; MEMORY provenance lesson + session arc; this SCRATCH.
 
 ## NEXT SESSION
-1. **Jun 16 (Tue) Census May housing starts** — South region = MAR-26 watch (NOT threshold-confirming; geography ran against a South-concentrated raid signal in April; Q3 is the real test). Decompose rate-vs-labor on release.
-2. **Jun 17 (Wed) FL Realtors May condo** — >9.0mo = distress re-engaging (MAR-08); <8.5mo = absorption confirmed.
-3. **~Jun 27 WestJet winter 2026-27 schedule** — TOUR-05 last input (≥15% FL-bound seat contraction confirms).
-4. **Jun 30 (Q2 close)** — MAR-01/18/26 formal resolve + Banxico Q1 state-of-origin + OFLC H-2A Q3. **Build the deferred PREDICTIONS_ARCHIVE + calibration scoreboard over the fresh closed cohort (punchlist #2) AND normalize PREDICTIONS.tsv col-count (T1-D) in the same pass.**
-5. **~Jul 1 Banxico May remittances** — count YoY = cleanest SDL-01 readout.
-6. **~Jul 15 June CPI** — ES-MARCO-08 real fork (pump now falling post Brent $91→$83).
-7. **MCO April pax** via BTS T-100 (~Jul) — closes the airport thread.
+1. **~Jul 15 June CPI** — ES-MARCO-08 real fork (pump now falling post-Brent-collapse; F&V held +6.1% May). The clean labor-vs-freight decoupling test. Shared print w/ BRENT.
+2. **~Jul 17 FL Realtors June condo** — <8.5mo = absorption confirmed (May 8.6, trajectory there); >9.0 = distress re-engages (MAR-08).
+3. **~late Jul FL-state June hospitality employment** — de-masks ES-01 (national L&H already −61K); does FL-specific confirm?
+4. **~Aug 1 Banxico June remittances** — count YoY cleanest SDL-01 readout.
+5. **~Aug 8 July NFP** — does L&H stay negative once WC rolls off (post-Jul-19)? further LFPR/LF-YoY contraction = SDL-01 aggregate visibility deepens.
+6. **~mid-Aug NTTO June arrivals** (1st WC month) — ES-09 reversal read (leans FAIL).
+7. **MCO April pax** via BTS T-100 (~now available, ~3mo lag) — closes the airport thread (FLL done 6/15).
+8. **Reconcile confirm:** watch LABOR/CORAL adopt the ~1.0M LF figure (they may still carry old ~1.6–1.9M / 2.2M).
 
 ## OPEN THREADS
 | Item | Status |
 |------|--------|
-| ES-MARCO-08 produce-vs-pump | 🔴 defers to June CPI ~Jul 15 (May indeterminate — pump rose) |
-| ES-MARCO-09 World Cup reversal | 🟠 leans FAIL (flop: ~80% host-city hotels below forecast); NTTO June print ~mid-Aug |
-| MAR-26 construction raids | 74% mechanism-only — Jun-16 starts NOT threshold-confirming; Q3 real test |
-| MCO April pax | 🟡 blocked (flymco JS) → BTS T-100 ~Jul. FLL leg DONE 6/15. |
-| PREDICTIONS_ARCHIVE + calibration scoreboard (punchlist #2) | 🟠 anchored post-Jun-30 (fresh Q2 cohort); fold T1-D col-normalize in |
-| MAINTENANCE punchlist | T1-A/T1-C/T2-B DONE 6/15; still open: T1-B (2.2M reconcile), T1-D (col-count), T2-A (STATUS stale blocks), T2-C (TRADE.md Feb-vintage), T3-A (VX triage), T3-B (border muni-bond EMMA — latent opportunity), T3-C (skeleton archive) |
+| SDL-01 magnitude reconcile → LABOR + CORAL | 🟠 outbox notes sent; watch adoption (LABOR sourced old ~1.6–1.9M to MARCO) |
+| ES-MARCO-08 produce-vs-pump | 🔴 real fork at June CPI ~Jul 15 (pump now falling — Brent $91→$83) |
+| ES-MARCO-01 hospitality | 🟠 APPEARING national (L&H −61K); FL-state confirm ~late Jul |
+| ES-MARCO-09 World Cup reversal | 🟠 leans FAIL; NTTO June ~mid-Aug |
+| MAR-26 construction raids | Q3 clean test (May South −17% MoM = emerging threshold) |
+| MCO April pax | 🟡 BTS T-100 (~Jul, now due) |
+| PREDICTIONS_ARCHIVE + calibration scoreboard (punchlist #2) | 🟠 fresh Q2 cohort now closed (MAR-18/01/26 + earlier) — build next; fold T1-D col-normalize |
+| MAINTENANCE punchlist | T1-B RESOLVED 7/2 (magnitude); still open: T1-D (col-count), T2-A (STATUS 3 READ-FIRST blocks — archive older two), T2-C (TRADE.md Feb-vintage), T3-A (VX triage 46/57 >60d), T3-B (border muni-bond EMMA), T3-C (skeleton archive) |
+| 2.2M→~1.0M propagation | Canonical + live surfaces done; dated/archival mentions (old CHANGELOG/TIMELINE entries, sub_agents/WORKFORCE, domain/sources/SDL, ML.tsv) retain old figure as snapshots — sweep opportunistically |
+| WALTER inbox item (6/27) | 🟡 unprocessed — separate signal, not spawned to process; flag if it recurs |
 | Ag-weather/crop-disaster owner | 🟡 open PROME loop (flagged 5/31, unassigned) |
 
 ## Mail state
-Inbox empty. **Outbox: 1 pending** — `2026-06-15_to-CARL_worldcup-mask-derisks.md` (awaiting HERMES; corrected de-risked read for CARL, who's not on the NEXUS_BRIEF system). The stale 6/8 `to-NEXUS-CARL_worldcup-dual-mask.md` draft was **retired** (gio trash + committed deletion) — wrong tilt after the WC flop; NEXUS covered via NEXUS_BRIEF.
+Inbox: PROME immigration-magnitude msg (6/26) PROCESSED (→ inbox/processed/; integrated as v2.6). WALTER subfolder item (6/27) left unprocessed. **Outbox: 4 written this session** — to-LABOR (magnitude reconcile + June), to-CORAL (magnitude reconcile), to-PROME (integrated + June corroborates), to-CARL (WC mask inverted). Stale 6/15 to-CARL note trashed (premise flipped). HERMES appears inactive (files sat 17d) — messaging overhaul pending ([[project_messaging_overhaul]]); NEXUS covered via NEXUS_BRIEF.
 
 ## PUSH STATE
-**6/15 session-15: ALL session-15 MARCO work on origin; tree clean, synced.** (Behavior-language over head-pins — hashes decay; per-commit hashes below are stable history.)
-- ✅ ON ORIGIN — window 1: `f4793698` (THESIS L117 + CLAUDE.md path) · `53f1b811` (handoff sweep) · `ec731065` (PUSH-STATE true-up).
-- ✅ ON ORIGIN — window 2: `0d89668c` (FLL data) · `ecafc2c8` (doc-hygiene trio) · `72014a5d` (outbox retire/replace) · `a8085b78` (slaughter baseline).
-- ✅ ON ORIGIN — window 3: session-15 closeout `a6428d7c` (rebased from `7e8b4643` onto Prome `a2b30530` + SHADE `97225913` — disjoint, no conflicts; SHA-rewrite = normal rebase churn) + `c14d8bf2` true-up.
-- ✅ ON ORIGIN — window 4: `6b9fd972` NEXUS_BRIEF BRENT-coupling rows re-dated Jun-10 → ~Jul-15 (Prome/ORC catch — aligned SENDING/catalyst rows w/ rest of brief) + SCRATCH hash→behavior-language. Swept to origin via HENRY's push-train (verified ancestor of origin/master).
-- HENRY had uncommitted work in the tree earlier this session (`AGENTS/HENRY/STATUS.md`, `evals/`) — left untouched per isolation rules; tree was clean by closeout. Flag to whoever runs HENRY if it reappears.
+**7/2 session-16: commit + auto-push at closeout (safe-push.sh, ff-gated).** [Stamped after commit below.]
+- Files touched (all AGENTS/MARCO/): STATUS, SCRATCH, MEMORY, NEXUS_BRIEF, FINDINGS, MAINTENANCE, EXPECTED_SIGNALS, thesis/{THESIS,CHANGELOG,PREDICTIONS.tsv,TIMELINE}, docket/CATALYSTS.tsv, workbook/{KB,VX}.tsv, inbox/processed/ (PROME msg), outbox/ (4 new, 1 trashed).
+- [commit hash + push result to be recorded here at closeout]
